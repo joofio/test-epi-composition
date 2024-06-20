@@ -1275,6 +1275,697 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>       
 
 
 
+Instance: composition-pt-234b7cd047275c814324a4fe38812d55
+InstanceOf: CompositionUvEpi
+Title: "Composition for nplate Package Leaflet"
+Description:  "Composition for nplate Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp234b7cd047275c814324a4fe38812d55)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - nplate"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Nplate e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Nplate </li>
+<li>Como utilizar Nplate </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Nplate </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é nplate e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é nplate e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A substância ativa de Nplate é o romiplostim, uma proteína utilizada para tratar o número de plaquetas 
+baixo em doentes com trombocitopenia imune primária (chamada PTI). A PTI é uma doença em que o 
+sistema imunitário do seu organismo destrói as suas próprias plaquetas. As plaquetas são as células do 
+sangue que ajudam a selar cortes e a formar coágulos de sangue. Um número de plaquetas muito baixo 
+pode levar à formação de nódoas negras e à ocorrência de hemorragias graves. </p>
+<p>Nplate é utilizado em doentes adultos com PTI aos quais pode ou não ter sido removido o baço após 
+tratamento sem efeito com corticosteroides ou imunoglobulinas. Nplate também é utilizado em 
+crianças com 1 ano ou mais, com PTI crónica às quais pode ou não ter sido removido o baço após 
+tratamento sem efeito com corticosteroides ou imunoglobulinas. </p>
+<p>Nplate estimula a medula óssea (a parte do osso que produz as células do sangue) a produzir mais 
+plaquetas. Isto ajudará a prevenir a formação de nódoas negras e hemorragias associadas à PTI. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar nplate"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar nplate"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Nplate: </p>
+<ul>
+<li>
+<p>se tem alergia ao romiplostim ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>se tem alergia a outros medicamentos produzidos por tecnologia de ADN utilizando o 
+microrganismo Escherichia coli (E. coli). </p>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<ul>
+<li>
+<p>Se deixar de utilizar Nplate é provável que o número de plaquetas volte a ficar baixo 
+(trombocitopenia). O seu número de plaquetas terá de ser vigiado e o seu médico conversará 
+consigo sobre as precauções apropriadas que deverá tomar. </p>
+</li>
+<li>
+<p>Se corre o risco de formar coágulos sanguíneos ou se na sua família a formação de coágulos 
+sanguíneos é comum. O risco de coagulação do sangue também pode aumentar se: </p>
+</li>
+<li>tem problemas no fígado; </li>
+<li>é idoso (≥ 65 anos); </li>
+<li>está acamado; </li>
+<li>tem cancro; </li>
+<li>está a tomar a pílula contracetiva ou terapêutica de substituição hormonal; </li>
+<li>teve recentemente uma cirurgia ou sofreu uma lesão; </li>
+<li>é obeso (tem excesso de peso); </li>
+<li>é fumador. 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Nplate. </li>
+</ul>
+<p>Se tem um número muito elevado de plaquetas no sangue, este medicamento pode aumentar o risco de 
+coagulação do sangue. O seu médico ajustará a sua dose de Nplate para se assegurar de que o seu 
+número de plaquetas não aumente demasiado. </p>
+<p>Alterações na medula óssea (reticulina aumentada e possível fibrose da medula óssea) </p>
+<p>O tratamento prolongado com Nplate pode causar alterações na sua medula óssea. Estas alterações 
+podem originar a presença de células sanguíneas anormais, ou que o seu corpo produza menos células 
+sanguíneas. A forma ligeira destas alterações da medula óssea é designada “reticulina aumentada" e 
+foi observada em ensaios clínicos com Nplate. Não é conhecido se pode ocorrer evolução para uma 
+forma mais grave designada “fibrose". Os sinais de alterações da medula óssea podem aparecer como 
+anormalidades nas suas análises de sangue. O seu médico irá decidir se análises ao sangue anormais 
+implicam análises à medula óssea ou a paragem do tratamento com Nplate. </p>
+<p>Agravamento de doenças hematológicas malignas </p>
+<p>O seu médico poderá decidir realizar uma biópsia à medula óssea caso seja decidido que é necessário 
+assegurar se tem PTI e não outra condição médica tal como Síndromes Mielodisplásicas (SMD). Se 
+tem SMD e receber Nplate poderá ter um aumento das suas contagens de blastos e a sua SMD poderá 
+agravar tornando-se uma leucemia mielóide aguda, que é um tipo de doença hematológica maligna. </p>
+<p>Perda de resposta ao romiplostim </p>
+<p>Se apresentar uma perda de resposta ou falha na manutenção da resposta plaquetária no tratamento 
+com romiplostim, o seu médico irá investigar as razões incluindo se apresenta um aumento das fibras 
+da medula óssea (reticulina) ou se desenvolveu anticorpos que neutralizam a atividade de romiplostim. </p>
+<p>Crianças e adolescentes </p>
+<p>Nplate não está recomendado para utilização em crianças com menos de 1 ano. </p>
+<p>Outros medicamentos e Nplate </p>
+<p>Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. </p>
+<p>Se também está a tomar medicamentos que impedem a formação de coágulos de sangue 
+(anticoagulantes ou terapêutica antiplaquetária) existe um risco maior de hemorragia. O seu médico 
+conversará sobre isto consigo. </p>
+<p>Se tiver a tomar corticosteroides, danazol e/ou azatioprina, os quais pode estar a tomar para o 
+tratamento da sua PTI, as doses destes podem ser reduzidas ou interrompidas quando tomadas 
+conjuntamente com Nplate. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. A utilização de Nplate não é recomendada se 
+estiver grávida, a menos que tal seja indicado pelo seu médico. </p>
+<p>Não se sabe se romiplostim é excretado no leite humano. A utilização de Nplate não é recomendada se 
+está a amamentar. A decisão sobre a possível descontinuação da amamentação ou descontinuação da 
+terapêutica com romiplostim deve ser tomada tendo em consideração o benefício da amamentação 
+para a criança e o benefício da terapêutica com romiplostim para si. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Deve conversar com o seu médico antes de conduzir ou utilizar máquinas, uma vez que alguns efeitos 
+indesejáveis (p. ex., crises temporárias de tonturas) podem impedir que o faça com segurança. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar nplate"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar nplate"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Adultos e crianças (1 aos 17 anos): </p>
+<p>Nplate será administrado sob a supervisão direta do seu médico, que irá controlar de perto a dose de 
+Nplate que lhe vai ser administrada. </p>
+<p>Nplate é administrado semanalmente na forma de uma injeção sob a pele (via subcutânea). </p>
+<p>A sua dose inicial é de 1 micrograma de Nplate por quilograma de peso corporal, uma vez por semana. 
+O seu médico dir-lhe-á a quantidade que lhe deverá ser administrada. Nplate deve ser injetado uma vez 
+por semana de modo a manter o seu número de plaquetas elevado. Ser-lhe-ão feitas colheitas de 
+sangue regulares para medir a forma como as suas plaquetas estão a responder e poder ajustar a sua 
+dose se necessário. </p>
+<p>Assim que o seu número de plaquetas estiver controlado, continuarão a ser feitas análises regulares ao 
+seu sangue. A sua dose pode ser ainda ajustada adicionalmente de modo a manter um controlo a longo 
+prazo do seu número de plaquetas. </p>
+<p>Crianças (1 aos 17 anos de idade): adicionalmente ao ajuste da sua dose baseado nas contagens de 
+plaquetas, o seu médico irá também reavaliar regularmente o seu peso corporal de forma a ajustar a 
+sua dose. </p>
+<p>Se utilizar mais Nplate do que deveria </p>
+<p>O seu médico vai garantir que lhe é administrada a quantidade certa de Nplate. Se lhe foi dado mais 
+Nplate do que deveria, pode não sentir quaisquer sintomas físicos mas a sua contagem de plaquetas do 
+sangue pode aumentar para valores muito elevados e consequentemente aumentar o risco de coágulos 
+sanguíneos. Desta forma, se o seu médico suspeitar que lhe foi administrado mais Nplate do que 
+deveria, recomenda-se que seja vigiado para ver se existem quaisquer sinais ou sintomas de efeitos 
+indesejáveis e para que lhe seja dado imediatamente um tratamento apropriado. </p>
+<p>Se utilizar menos Nplate do que deveria </p>
+<p>O seu médico irá assegurar que recebe a quantidade correta de Nplate. Caso lhe seja administrado 
+menos Nplate do que deveria, poderá não sentir quaisquer sintomas físicos, mas a contagem de 
+plaquetas poderá tornar-se baixa e assim aumentar o risco de hemorragia. Assim, se o seu médico 
+suspeitar que lhe foi administrado menos Nplate do que deveria, é recomendada a monitorização de 
+sinais e sintomas de efeitos indesejáveis e que lhe seja dado tratamento adequado imediatamente. </p>
+<p>Caso se tenha esquecido de utilizar Nplate </p>
+<p>Se não lhe foi administrada uma dose de Nplate, o seu médico dir-lhe-á quando deverá administrar a 
+sua dose seguinte. </p>
+<p>Se parar de utilizar Nplate </p>
+<p>Se parar de utilizar Nplate é provável que o número de plaquetas no seu sangue volte a baixar 
+(trombocitopenia). O seu médico decidirá se deve parar a utilização de Nplate. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis possíveis em adultos com PTI </p>
+<p>Muito frequentes: podem afetar mais de 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>dor de cabeça; </p>
+</li>
+<li>
+<p>reação alérgica; </p>
+</li>
+<li>
+<p>infeção das vias respiratórias superiores. </p>
+</li>
+</ul>
+<p>Frequentes: podem afetar até 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>alterações da medula óssea, incluindo aumento das fibras da medula óssea (reticulina); </p>
+</li>
+<li>
+<p>dificuldade em dormir (insónia); </p>
+</li>
+<li>
+<p>tonturas; </p>
+</li>
+<li>
+<p>formigueiro ou adormecimento das mãos ou pés (parestesia); </p>
+</li>
+<li>
+<p>enxaquecas; </p>
+</li>
+<li>
+<p>vermelhidão na pele (afrontamentos); </p>
+</li>
+<li>
+<p>coágulo de sangue numa artéria pulmonar (embolia pulmonar); </p>
+</li>
+<li>
+<p>náuseas; </p>
+</li>
+<li>
+<p>diarreia; </p>
+</li>
+<li>
+<p>dor abdominal; </p>
+</li>
+<li>
+<p>indigestão (dispepsia); </p>
+</li>
+<li>
+<p>prisão de ventre; </p>
+</li>
+<li>
+<p>comichão na pele (prurido); </p>
+</li>
+<li>
+<p>sangrar por baixo da pele (equimose); </p>
+</li>
+<li>
+<p>nódoa negra (contusão); </p>
+</li>
+<li>
+<p>erupção cutânea; </p>
+</li>
+<li>
+<p>dor nas articulações (artralgia); </p>
+</li>
+<li>
+<p>dor muscular ou fraqueza (mialgia); </p>
+</li>
+<li>
+<p>dor nas mãos ou pés; </p>
+</li>
+<li>
+<p>espasmo muscular; </p>
+</li>
+<li>
+<p>dor nas costas; </p>
+</li>
+<li>
+<p>dor nos ossos; </p>
+</li>
+<li>
+<p>cansaço (fadiga); </p>
+</li>
+<li>
+<p>reações no local da injeção; </p>
+</li>
+<li>
+<p>inchaço das mãos ou pés (edema periférico); </p>
+</li>
+<li>
+<p>sintomas semelhantes aos da gripe (doença semelhante à gripe); </p>
+</li>
+<li>
+<p>dor; </p>
+</li>
+<li>
+<p>fraqueza (astenia); </p>
+</li>
+<li>
+<p>febre (pirexia); </p>
+</li>
+<li>
+<p>arrepios; </p>
+</li>
+<li>
+<p>contusão; </p>
+</li>
+<li>
+<p>inchaço da cara, lábios, boca, língua ou garganta que pode causar dificuldade a engolir ou a 
+respirar (angiedema); </p>
+</li>
+<li>
+<p>gastroenterite; </p>
+</li>
+<li>
+<p>palpitações; </p>
+</li>
+<li>
+<p>inflamação dos seios nasais (sinusite); </p>
+</li>
+<li>
+<p>inflamação das vias que transportam o ar para os pulmões (bronquite). </p>
+</li>
+</ul>
+<p>Frequentes: podem afetar até 1 em cada 10 pessoas (podem ser identificadas nas análises ao 
+sangue ou urina) </p>
+<ul>
+<li>
+<p>contagem de plaquetas reduzida (trombocitopenia) e contagem de plaquetas reduzida 
+(trombocitopenia) após parar Nplate; </p>
+</li>
+<li>
+<p>contagem de plaquetas mais elevada que o normal (trombocitose); </p>
+</li>
+<li>
+<p>anemia. </p>
+</li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em cada 100 pessoas </p>
+<ul>
+<li>
+<p>insuficiência da medula óssea; alterações da medula óssea que provocam cicatriz (mielofibrose); 
+baço aumentado (esplenomegalia); sangrar da vagina (hemorragia vaginal), sangrar do reto 
+(hemorragia retal); sangrar da boca (hemorragia da boca); sangrar no local da injeção 
+(hemorragia no local da injeção); </p>
+</li>
+<li>
+<p>ataque cardíaco (enfarte do miocárdio); aumento da frequência cardíaca; </p>
+</li>
+<li>
+<p>tonturas ou sensação de andar à roda (vertigens); </p>
+</li>
+<li>
+<p>problemas com os olhos incluindo: sangrar no olho (hemorragia da conjuntiva); dificuldades em 
+focar ou visão enevoada (alteração da acomodação, edema papilar ou deficiência da visão); 
+cegueira; comichão nos olhos (prurido do olho); aumento das lágrimas (aumento do lacrimejar); 
+ou distúrbios visuais; </p>
+</li>
+<li>
+<p>problemas no sistema digestivo incluindo: vómito; mau hálito (odor da respiração); dificuldade 
+em engolir (disfagia); indigestão ou azia (doença de refluxo gastroesofágico); sangue nas fezes 
+(hematoquezia); desconforto no estômago; feridas ou bolhas na boca (estomatite); dentes 
+descolorados (descoloração dentária); </p>
+</li>
+<li>
+<p>peso diminuído; peso aumentado; intolerância ao álcool; perda de apetite (anorexia ou apetite 
+diminuído); desidratação; </p>
+</li>
+<li>
+<p>sensação generalizada de desconforto (mal-estar geral); dor no peito; irritabilidade; inchaço da 
+cara (edema facial); sensação de calor; temperatura corporal aumentada; sensação de 
+nervosismo; </p>
+</li>
+<li>
+<p>gripe; infeção localizada; inflamação das vias do nariz e garganta (nasofaringite); </p>
+</li>
+<li>
+<p>problemas do nariz e garganta incluindo: tosse; corrimento nasal (rinorreia); garganta seca; falta 
+de ar ou dificuldade em respirar (dispneia); congestão nasal; dor ao respirar (respiração 
+dolorosa); </p>
+</li>
+<li>
+<p>dor e inchaço nas articulações provocado pelo ácido úrico (produto da metabolização dos 
+alimentos) (gota); </p>
+</li>
+<li>
+<p>rigidez muscular; fraqueza muscular; dor nos ombros; contração muscular; </p>
+</li>
+<li>
+<p>problemas com o seu sistema nervoso incluindo contrações involuntárias dos músculos (clonus); 
+sentido do gosto distorcido (disgeusia); diminuição do sentido do gosto (hipogeusia); 
+diminuição da sensibilidade, especialmente na pele (hipostesia); alteração das funções nervosas 
+nos braços e nas pernas (neuropatia periférica); coágulos sanguíneos do seio transverso 
+(trombose do seio transverso); </p>
+</li>
+<li>
+<p>depressão; sonhos anormais; </p>
+</li>
+<li>
+<p>perda de cabelo (alopecia); sensibilidade à luz (reação de fotossensibilidade); acne; reação 
+alérgica na pele na sequência do contacto com alérgeno (dermatite de contacto); manifestações 
+na pele com erupção cutânea e bolhas (eczema); pele seca; vermelhidão da pele (eritema); 
+erupção cutânea com descamação grave (erupção cutânea esfoliativa); crescimento anormal do 
+cabelo; espessamento e comichão na pele associado ao coçar repetido (prurigo); sangrar por 
+baixo da superfície da pele ou nódoa negra debaixo da pele (púrpura); erupção cutânea irregular 
+(erupção papulosa); erupção cutânea com comichão (erupção pruriginosa); erupção cutânea 
+generalizada com comichão (urticária); irregularidade na pele (nódulo cutâneo); cheiro anormal 
+da pele (odor da pele anormal); </p>
+</li>
+<li>
+<p>problemas de circulação incluindo coágulos sanguíneos na veia do fígado (trombose da veia 
+porta); trombose de veia profunda; tensão arterial baixa (hipotensão); bloqueio de um vaso 
+sanguíneo ou (embolia periférica); fluxo sanguíneo reduzido nas mãos, tornozelos ou pés 
+(isquemia periférica); inchaço e coagulação numa veia, que pode estar muito sensível ao toque 
+(flebite ou tromboflebite superficial); coágulos sanguíneos (trombose); </p>
+</li>
+<li>
+<p>uma alteração rara caracterizada por períodos de ardor, vermelhidão e calor nos pés e nas mãos 
+(eritromelalgia). </p>
+</li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em cada 100 pessoas (podem ser identificadas nas análises 
+ao sangue ou à urina) </p>
+<ul>
+<li>
+<p>um tipo raro de anemia na qual os glóbulos vermelhos, glóbulos brancos e plaquetas se 
+apresentam em número reduzido (anemia aplásica); </p>
+</li>
+<li>
+<p>contagem de glóbulos brancos aumentada (leucocitose); </p>
+</li>
+<li>
+<p>excesso de produção de plaquetas (trombocitemia); aumento da contagem de plaquetas; 
+contagem anormal das células do sangue que previnem hemorragias (contagem de plaquetas 
+anormal); </p>
+</li>
+<li>
+<p>alterações em algumas análises ao sangue (transaminases aumentadas; lactato desidrogenase 
+sanguínea aumentada); </p>
+</li>
+<li>
+<p>ou cancro dos glóbulos brancos (mieloma múltiplo); </p>
+</li>
+<li>
+<p>proteínas na urina. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis possíveis em crianças com PTI </p>
+<p>Muito frequentes: podem afetar mais de 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>infeção do trato respiratório superior; </p>
+</li>
+<li>
+<p>dor na boca e na garganta (dor orofaríngea); </p>
+</li>
+<li>
+<p>comichão no nariz, corrimento ou nariz entupido (rinite); </p>
+</li>
+<li>
+<p>tosse; </p>
+</li>
+<li>
+<p>dor abdominal superior; </p>
+</li>
+<li>
+<p>diarreia; </p>
+</li>
+<li>
+<p>erupção cutânea; </p>
+</li>
+<li>
+<p>febre (pirexia); </p>
+</li>
+<li>
+<p>nódoa negra (contusão). </p>
+</li>
+</ul>
+<p>Frequentes: podem afetar até 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>gastroenterite; </p>
+</li>
+<li>
+<p>dor de garganta e desconforto ao engolir (faringite); </p>
+</li>
+<li>
+<p>inflamação do olho (conjuntivite); </p>
+</li>
+<li>
+<p>infeção do ouvido; </p>
+</li>
+<li>
+<p>inflamação dos seios nasais (sinusite); </p>
+</li>
+<li>
+<p>inchaço dos membros/mãos/pés; </p>
+</li>
+<li>
+<p>hemorragia sobre a superfície da pele ou hematomas sob a pele (púrpura); </p>
+</li>
+<li>
+<p>erupção cutânea com comichão (urticária). </p>
+</li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em cada 100 pessoas </p>
+<ul>
+<li>contagem de plaquetas mais elevada que o normal (trombocitose). </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar nplate"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar nplate"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis (EXP). O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C - 8°C). 
+Não congelar. 
+Conservar na embalagem de origem para proteger da luz. </p>
+<p>Este medicamento poderá ser retirado do frigorífico por um período de 30 dias à temperatura ambiente 
+(até 25°C) quando conservado na embalagem de origem. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Nplate </p>
+<ul>
+<li>A substância ativa é o romiplostim. </li>
+</ul>
+<p>Cada frasco para injetáveis de Nplate 125 microgramas de pó para solução injetável contém um 
+total de 230 microgramas de romiplostim. Em cada frasco para injetáveis inclui-se um 
+acréscimo de solução para garantir que possam ser administrados 125 microgramas de 
+romiplostim. Após dissolução, um volume a administrar de 0,25 ml de solução contém 
+125 microgramas de romiplostim (500 microgramas/ml). </p>
+<p>Cada frasco para injetáveis de Nplate 250 microgramas de pó para solução injetável contém um 
+total de 375 microgramas de romiplostim. Em cada frasco para injetáveis inclui-se um 
+acréscimo de solução para garantir que possam ser administrados 250 microgramas de 
+romiplostim. Após dissolução, um volume a administrar de 0,5 ml de solução contém 
+250 microgramas de romiplostim (500 microgramas/ml). </p>
+<p>Cada frasco para injetáveis de Nplate 500 microgramas de pó para solução injetável contém um 
+total de 625 microgramas de romiplostim. Em cada frasco para injetáveis inclui-se um 
+acréscimo de solução para garantir que possam ser administrados 500 microgramas de 
+romiplostim. Após dissolução, um volume a administrar de 1 ml de solução contém 
+500 microgramas de romiplostim (500 microgramas/ml). </p>
+<ul>
+<li>Os outros componentes são manitol (E421), sacarose, L-histidina, ácido clorídrico (para ajuste 
+do pH) e polissorbato 20.<br />
+Qual o aspeto de Nplate e conteúdo da embalagem </li>
+</ul>
+<p>Nplate é um pó branco para solução injetável fornecido num frasco para injetáveis de vidro de dose 
+única. </p>
+<p>Embalagem contendo 1 ou 4 frascos para injetáveis de 125 microgramas (rolha bege), 
+250 microgramas (rolha vermelha) ou de 500 microgramas de romiplostim (rolha azul). </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+Países Baixos </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+Países Baixos </p>
+<p>Fabricante 
+Amgen Technology (Ireland) Unlimited Company 
+Pottery Road 
+Dun Laoghaire 
+Co Dublin 
+Irlanda </p>
+<p>Fabricante 
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Bélgica </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+s.a. Amgen n.v. 
+Tel/Tél: +32 (0)2 7752 
+Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7България 
+Амджен България ЕООД 
+Тел.: +359 (0)2 424 7Luxembourg/Luxemburg 
+s.a. Amgen 
+Belgique/Belgien 
+Tel/Tél: +32 (0)2 7752 
+Česká republika 
+Amgen s.r.o. 
+Tel: +420 221 773 Magyarország 
+Amgen Kft. 
+Tel.: +36 1 35 44 Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617 
+Malta 
+Amgen B.V. 
+The Netherlands 
+Tel: +31 (0)76 5732 
+Deutschland 
+AMGEN GmbH 
+Tel.: +49 89 1490 
+Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732 
+Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09Norge 
+Amgen AB 
+Tel: +47 23308 </p>
+<p>Ελλάδα 
+Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε. 
+Τηλ.: +30 210 3447Österreich 
+Amgen GmbH 
+Tel: +43 (0)1 50<br />
+España 
+Amgen S.A. 
+Tel: +34 93 600 18<br />
+Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3France 
+Amgen S.A.S. 
+Tél: +33 (0)9 69 363<br />
+Portugal 
+Amgen Biofarmacêutica, Lda. 
+Tel: +351 21 4220 
+Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57<br />
+România 
+Amgen România SRL 
+Tel: +4021 527 3 
+Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527 
+Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2 321 114<br />
+Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900 
+Kύπρος 
+C.A. Papaellinas Ltd 
+Τηλ.: +357 22741 Sverige 
+Amgen AB 
+Tel: +46 (0)8 6951 
+Latvija 
+Amgen Switzerland AG Rīgas filiāle 
+Tel: +371 257 25 
+United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420 
+Este folheto informativo foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1316,6 +2007,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-234b7cd047275c814324a4fe38812d55"
 * entry[0].resource = composition-da-234b7cd047275c814324a4fe38812d55
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp234b7cd047275c814324a4fe38812d55"
+* entry[=].resource = mp234b7cd047275c814324a4fe38812d55
+                            
+                    
+Instance: bundlepackageleaflet-pt-234b7cd047275c814324a4fe38812d55
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nplate Package Leaflet for language pt"
+Description: "ePI document Bundle for nplate Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-234b7cd047275c814324a4fe38812d55"
+* entry[0].resource = composition-pt-234b7cd047275c814324a4fe38812d55
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp234b7cd047275c814324a4fe38812d55"
@@ -1417,6 +2130,18 @@ RuleSet: 234b7cd047275c814324a4fe38812d55ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-234b7cd047275c814324a4fe38812d55) // nplate pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

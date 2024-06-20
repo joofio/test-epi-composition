@@ -822,6 +822,438 @@ Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""
 
 
 
+Instance: composition-pt-61ed8c3f1f4d3021b93672950d48db1a
+InstanceOf: CompositionUvEpi
+Title: "Composition for nimenrix Package Leaflet"
+Description:  "Composition for nimenrix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp61ed8c3f1f4d3021b93672950d48db1a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - nimenrix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Nimenrix e para que é utilizado
+2. O que precisa de saber antes de Nimenrix lhe ser administrado
+3. Como é administrado Nimenrix 
+4. Efeitos indesejáveis possíveis
+5. Como conservar Nimenrix
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é nimenrix e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é nimenrix e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Nimenrix e para que é utilizado
+Nimenrix é uma vacina que ajuda a proteger contra as infeções causadas pela bactéria (germe) 
+chamada de “Neisseria meningitidis" dos tipos A, C, W-135 e Y.
+Os tipos A, C, W-135 e Y da bactéria “Neisseria meningitidis" podem causar doenças graves, como: 
+
+meningite -  uma infeção do tecido que delimita o cérebro e a medula espinal
+
+septicemia - uma infeção do sangue.
+Estas infeções transmitem-se facilmente de indivíduo para indivíduo e podem causar a morte, se não 
+forem tratadas.
+Nimenrix pode ser administrado a adultos, adolescentes, crianças e lactentes a partir das 6 semanas de 
+idade.
+Como Nimenrix atua
+Nimenrix ajuda o seu organismo a produzir a sua própria proteção (anticorpos) contra a bactéria. Estes 
+anticorpos ajudam a proteger contra as doenças.
+Nimenrix apenas pode proteger contra as infeções causadas pela bactéria “Neisseria meningitidis" dos 
+tipos A, C, W-135 e Y.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar nimenrix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar nimenrix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nimenrix não deve ser administrado:
+
+se tem alergia às substâncias ativas ou a qualquer outro componente desta vacina (indicados na 
+secção 6).
+Os sinais de uma reação alérgica podem incluir erupções na pele com comichão, dificuldade em 
+respirar e inchaço da face ou língua. Consultar imediatamente o seu médico caso notar 
+algum destes sinais.
+Se não tem a certeza, consulte o seu médico ou enfermeiro antes de lhe ser administrado Nimenrix. 
+Advertências e precauções:
+Antes da vacinação, confirme com o seu médico ou enfermeiro, se:
+71
+
+tem uma infeção com temperatura elevada (acima de 38ºC). Se isto se aplicar a si, a vacina não 
+lhe será administrada até se sentir melhor. Uma infeção ligeira, como uma constipação não deve 
+constituir um problema. Contudo, consulte primeiro o seu médico ou enfermeiro.
+
+se tem um problema de coagulação ou faz nódoas negras com facilidade.
+Se alguma das situações anteriores se aplicar a si (ou se não tem a certeza), consulte o seu médico ou 
+enfermeiro antes de Nimenrix lhe ser administrado. 
+Nimenrix poderá não proteger totalmente todos os indivíduos vacinados. Se tem um sistema 
+imunitário enfraquecido (tal como, devido à infeção por VIH ou medicamentos que afetem o sistema 
+imunitário) pode não obter um benefício completo de Nimenrix.
+Podem ocorrer desmaios (principalmente em adolescentes) após ou mesmo antes de qualquer injeção 
+com agulhas. Assim, informe o seu médico ou enfermeiro se já desmaiou, ou se a sua criança já 
+desmaiou, com uma injeção anterior.
+Outros medicamentos e Nimenrix
+Informe o seu médico ou enfermeiro se estiver a tomar ou tiver tomado recentemente outros 
+medicamentos, incluindo vacinas e medicamentos obtidos sem receita médica.
+Nimenrix pode não funcionar tão bem, se estiver a tomar medicamentos que afetem o sistema 
+imunitário.
+Em lactentes, Nimenrix pode ser administrado concomitantemente com vacinas combinadas contra a 
+difteria-tétano-tosse convulsa acelular (DTPa), incluindo vacinas DTPa combinadas com hepatite B, 
+poliomielite inativada ou Haemophilus influenzae do tipo b (VHB, VIP ou Hib), tal como a vacina 
+DTPa-VHB-VIP/Hib e com a vacina pneumocócica conjugada 10-valente.
+A partir de 1 ano de idade, Nimenrix pode ser administrado concomitantemente com as seguintes 
+vacinas: vacinas contra a hepatite A (VHA) e hepatite B (VHB), vacina contra o sarampo-papeira-
+rubéola (VASPR), vacina contra o sarampo-papeira-rubéola-varicela, vacina pneumocócica 
+polissacárida conjugada 10-valente ou vacina sem adjuvante contra a gripe sazonal.
+No segundo ano de vida, Nimenrix pode também ser administrado concomitantemente com vacinas 
+combinadas contra a difteria-tétano-tosse convulsa acelular (DTPa), incluindo vacinas DTPa 
+combinadas com hepatite B, poliomielite inativada ou Haemophilus influenzae do tipo b (VHB, VIP 
+ou Hib), tal como a vacina DTPa-VHB-VIP/Hib e com a vacina pneumocócica conjugada 13-valente.
+Em indivíduos com 9 a 25 anos de idade, Nimenrix pode ser administrado concomitantemente com a
+vacina contra o Papilomavírus Humano [tipos 16, 18] e com a vacina combinada contra o tétano,
+difteria e tosse convulsa acelular (doses reduzidas).
+Sempre que possível, Nimenrix e uma vacina contendo toxoide tetânico, tal como a vacina DTPa-
+VHB-VIP/Hib, devem ser administrados concomitantemente, ou Nimenrix deve ser administrado pelo 
+menos um mês antes da vacina contendo toxoide tetânico. 
+Para cada vacina deverá ser usado um local de injeção diferente.
+Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de lhe ser administrado Nimenrix.
+72
+Condução de veículos e utilização de máquinas
+Não é provável que Nimenrix afete a sua capacidade de conduzir ou utilizar máquinas. Contudo, não 
+conduza ou utilize nenhuma máquina se não estiver a sentir-se bem.
+Nimenrix contém sódio
+Esta vacina contém menos do que 1 mmol de sódio (23 mg) por dose, isto é, é essencialmente “isento 
+de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar nimenrix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar nimenrix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como a vacina é administrada
+Nimenrix será administrado por um médico ou enfermeiro.
+Nimenrix é sempre administrado por uma injeção num músculo, normalmente na porção superior do 
+braço ou na coxa.
+Imuninazação primária
+Lactentes com idade entre as 6 semanas e menos de 6 meses de idade
+Duas injeções, administradas com um intervalo de 2 meses, por exemplo aos 2 e aos 4 meses de idade 
+(a primeira injeção poderá ser administrada a partir das 6 semanas de idade).
+Lactentes com idade igual ou superior a 6 meses, crianças, adolescentes e adultos
+Uma injeção.
+Doses de reforço
+Lactentes com idade entre as 6 semanas e menos de 12 meses:
+Uma dose de reforço aos 12 meses de idade, pelo menos 2 meses após a última dose de Nimenrix.
+Indivíduos com idade igual ou superior a 12 meses previamente vacinados:
+Informe o seu médico se anteriormente lhe foi administrada ou à sua criança, uma injeção com outra 
+vacina contra o meningococo diferente de Nimenrix.
+O seu médico irá informá-lo(a) se e quando necessita de uma dose adicional de Nimenrix, 
+especialmente se se encontrar, ou a sua criança se encontrar, nas seguintes situações: 
+
+lhe tiver sido administrada a primeira dose aos 6-14 meses de idade e possam estar em risco 
+particular de infeção causada pelos serogrupos W-135 e Y de Neisseria meningitidis
+
+lhe tiver sido administrada a vacina aproximadamente há mais de um ano e possa estar em risco 
+de infeção causada pelo serogrupo A da Neisseria meningitidis
+
+lhe tiver sido administrada a primeira dose aos 12-23 meses de idade e possam estar em risco
+particular de infeção causada pelos serogrupos A, C, W-135 e Y da Neisseria meningitidis
+Será informado sobre quando deve receber, ou a sua criança deve receber a próxima dose da vacina. 
+Se você ou a sua criança faltarem a uma vacinação programada, é importante que remarque outra data.
+Certifique-se de que você ou a sua criança completam o esquema de vacinação.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.
+73</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Os seguintes efeitos indesejáveis podem ocorrer com este 
+medicamento:
+Muito frequentes (estes podem ocorrer com mais de 1 em 10 doses de vacina):
+
+febre
+
+cansaço (fadiga)
+
+dor de cabeça
+
+sensação de sonolência
+
+perda de apetite
+
+sensação de irritabilidade
+
+inchaço, dor e vermelhidão no local da administração da injeção.
+Frequentes (estes podem ocorrer com até 1 em 10 doses de vacina):
+
+nódoa negra (hematoma) no local da administração da injeção
+
+problemas de estômago e de digestão, tais como diarreia, vómitos e náuseas
+
+erupção na pele (lactentes).
+Pouco frequentes (estes podem ocorrer com até 1 em 100 doses de vacina):
+
+erupções na pele
+
+urticária
+
+comichão
+
+choro
+
+sensação de tonturas
+
+músculos doridos
+
+dor nos braços ou pernas
+
+sensação de mal-estar geral 
+
+dificuldade em dormir
+
+diminuição de sensibilidade, especialmente na pele
+
+reações no local da administração da injeção, tais como prurido, sensação de calor ou dormência 
+ou um nódulo duro.
+Raros (estes podem ocorrer  até 1 em 1.000 doses de vacina):
+
+espasmos (convulsões) associados a temperatura elevada
+Desconhecidos (a frequência não pode ser calculada a partir dos dados disponíveis):
+
+inchaço e vermelhidão no local de injeção; isto pode afetar uma grande área do membro onde a 
+injeção foi administrada
+
+gânglios linfáticos aumentados
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar nimenrix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar nimenrix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Manter este medicamento fora da vista e do alcance das crianças.
+
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior. O  <br />
+prazo de validade corresponde ao último dia do mês indicado.
+
+Conservar no frigorífico (2ºC - 8ºC).
+74
+
+Conservar na embalagem de origem para proteger da luz.
+
+Não congelar.
+
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Nimenrix
+
+As substâncias ativas são:
+- Após reconstituição, 1 dose (0,5 ml) contém:
+Polissacárido da Neisseria meningitidis do serogrupo A1
+5 microgramas
+Polissacárido da Neisseria meningitidis do serogrupo C1
+5 microgramas
+Polissacárido da Neisseria meningitidis do serogrupo W-1351
+5 microgramas
+Polissacárido da Neisseria meningitidis do serogrupo Y1
+5 microgramas
+1 conjugado com o toxoide tetânico como proteína transportadora
+44 microgramas
+
+Os outros componentes são:
+- No pó: sacarose e trometamol
+- No solvente: cloreto de sódio (ver secção 2 Nimenrix contém sódio) e água para preparações 
+injetáveis
+Qual o aspeto de Nimenrix e conteúdo da embalagem
+Nimenrix é um pó e um solvente para solução injetável.
+Nimenrix é fornecido como um pó ou aglomerado branco num frasco para injetáveis de vidro 
+monodose e um solvente límpido incolor numa seringa pré-cheia.
+Estes têm de ser misturados antes da administração. A vacina reconstituída é uma solução límpida e 
+incolor.
+Nimenrix está disponível em embalagens de 1 ou 10 com ou sem agulhas.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado e Fabricante
+Titular da Autorização de Introdução no 
+Mercado:
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante responsável pela libertação do lote:
+Pfizer Manufacturing Belgium NV
+Rijksweg 12
+2870 Puurs-Sint-Amands
+Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer S.A./N.V.
+Tél/Tel: + 32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. + 370 52 51 4000
+75
+България
+Пфайзер Люксембург САРЛ, Клон 
+България
+Teл: +359 2 970 4333
+Magyarország
+Pfizer Kft
+Tel: +36 1 488 3700
+Česká Republika
+Pfizer, spol. s r.o. 
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: + 35621 344610
+Danmark
+Pfizer ApS
+Tlf: + 45 44 201 100
+Nederland
+Pfizer BV
+Tel: +31 (0)800 63 34 636
+Deutschland
+Pfizer Pharma GmbH
+Tel: + 49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 526 100
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H
+Tel: + 43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ.: +30 210 6785 800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Télf: +34914909900
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél +33 1 58 07 34 40
+România
+Pfizer Romania S.R.L
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel.: + 386 (0) 1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL,
+organizačná zložka
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf
+Simi: + 354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Kύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
+Tηλ: +357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+76
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: + 371 670 35 775
+Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -863,6 +1295,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-61ed8c3f1f4d3021b93672950d48db1a"
 * entry[0].resource = composition-da-61ed8c3f1f4d3021b93672950d48db1a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp61ed8c3f1f4d3021b93672950d48db1a"
+* entry[=].resource = mp61ed8c3f1f4d3021b93672950d48db1a
+                            
+                    
+Instance: bundlepackageleaflet-pt-61ed8c3f1f4d3021b93672950d48db1a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nimenrix Package Leaflet for language pt"
+Description: "ePI document Bundle for nimenrix Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-61ed8c3f1f4d3021b93672950d48db1a"
+* entry[0].resource = composition-pt-61ed8c3f1f4d3021b93672950d48db1a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp61ed8c3f1f4d3021b93672950d48db1a"
@@ -964,6 +1418,18 @@ RuleSet: 61ed8c3f1f4d3021b93672950d48db1aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-61ed8c3f1f4d3021b93672950d48db1a) // nimenrix pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

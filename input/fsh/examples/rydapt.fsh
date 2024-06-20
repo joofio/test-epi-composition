@@ -1064,6 +1064,542 @@ hjemmeside http://www.ema.europa.eu  </p>         </div>"""
 
 
 
+Instance: composition-pt-00913882b59a9d04c9763a602ce7c1ae
+InstanceOf: CompositionUvEpi
+Title: "Composition for rydapt Package Leaflet"
+Description:  "Composition for rydapt Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp00913882b59a9d04c9763a602ce7c1ae)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - rydapt"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Rydapt e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Rydapt </li>
+<li>Como tomar Rydapt </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Rydapt </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é rydapt e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é rydapt e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Rydapt 
+Rydapt contém a substância ativa midostaurina. Pertence a uma classe de medicamentos denominada 
+inibidores da proteína quinase. </p>
+<p>Para que é utilizado Rydapt 
+Rydapt é usado para tratar a leucemia mieloide aguda (LMA) em adultos que tenham uma deficiência 
+num gene chamado FLT3. A leucemia mieloide aguda é uma forma de cancro de certos glóbulos 
+brancos (chamados células “mieloides") em que o organismo produz em excesso um tipo anómalo 
+destas células. </p>
+<p>Rydapt é também utilizado em adultos para tratar mastocitose sistémica agressiva (MSA), mastocitose 
+sistémica com neoplasia hematológica associada (MS-NHA) ou leucemia de mastócitos (LM). Estas 
+são doenças em que o organismo produz demasiados mastócitos, um tipo de glóbulo branco. Os 
+sintomas surgem quando demasiados mastócitos entram nos órgãos como o fígado, a medula óssea ou 
+o baço e libertam substâncias tais como a histamina para o sangue. </p>
+<p>Como funciona Rydapt 
+A midostaurina bloqueia a ação de algumas enzimas (quinases) nas células anormais e interrompe a 
+sua divisão e crescimento. </p>
+<p>No início do tratamento da LMA Rydapt é sempre utilizado em associação com quimioterapias 
+(medicamentos para tratamento do cancro). </p>
+<p>Se tiver quaisquer questões sobre como Rydapt funciona ou o motivo porque este medicamento lhe foi 
+receitado fale com o seu médico, farmacêutico ou enfermeiro. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar rydapt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar rydapt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Siga cuidadosamente as instruções do seu médico. Estas podem ser diferentes da informação geral 
+contida neste folheto. </p>
+<p>Não tome Rydapt 
+- se tem alergia à midostaurina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Se pensa que pode ser alérgico, aconselhe-se com o seu médico. 
+- Se já estiver a tomar algum dos seguintes medicamentos: 
+- medicamentos usados para tratar a tuberculose, tal como rifampicina; 
+- medicamentos para tratar a epilepsia, tais como carbamazepina ou fenitoína; 
+- enzalutamida, um medicamento usado para tratar o cancro da próstata; 
+- hipericão (também conhecido por Hypericum perforatum), um medicamento à base de 
+plantas medicinais usado para tratar a depressão. 
+Estes medicamentos têm de ser evitados durante o tratamento com Rydapt. Fale com o seu médico se 
+lhe disserem que deve começar a tomar um deles durante o tratamento com Rydapt. </p>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Rydapt: 
+- se tiver alguma infeção. 
+- se tiver um problema cardíaco. 
+- se tiver problemas nos pulmões ou problemas respiratórios. 
+- se tiver problemas nos rins. </p>
+<p>Fale imediatamente com o seu médico, farmacêutico ou enfermeiro se tiver algum destes sintomas 
+durante o tratamento com Rydapt: 
+- se tiver febre, dor de garganta ou feridas na boca, porque podem significar que o número de 
+glóbulos brancos está baixo. 
+- se tiver novos sintomas ou agravamento de sintomas tais como febre, tosse com ou sem muco, 
+dor no peito, dificuldade em respirar ou falta de ar, porque podem ser sinais de problemas 
+pulmonares. 
+- Se tiver ou sentir dor no peito ou desconforto, sensação de cabeça oca, desmaio, tonturas, 
+lábios, mãos ou pés azulados, falta de ar, ou inchaço dos membros inferiores (edema) ou pele, 
+porque estes podem ser sinais de problemas do coração. 
+O seu médico pode ter de ajustar, interromper ou suspender completamente o seu tratamento com 
+Rydapt. </p>
+<p>Monitorização durante o tratamento com Rydapt 
+O seu médico irá realizar análises sanguíneas regulares durante o tratamento com Rydapt de modo a 
+monitorizar as células sanguíneas (glóbulos brancos, glóbulos vermelhos e plaquetas) e eletrólitos (p. 
+ex. cálcio, potássio, magnésio) no seu organismo. A sua função cardíaca e pulmonar também serão 
+monitorizadas regularmente. </p>
+<p>Crianças e adolescentes 
+Rydapt não deve ser utilizado em crianças e adolescentes com menos de 18 anos de idade que estejam 
+também a receber outra quimioterapia, dado que pode causar uma redução grave de certos tipos de 
+células do sangue. </p>
+<p>Outros medicamentos e Rydapt 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto porque Rydapt pode afetar o modo como alguns medicamentos 
+atuam. Outros medicamentos podem também afetar o modo de ação de Rydapt. </p>
+<p>Os seguintes medicamentos devem ser evitados durante o tratamento com Rydapt: 
+- medicamentos usados para tratar a tuberculose, tais como rifampicina; 
+- medicamentos usados para tratar a epilepsia, tais como carbamazepina ou fenitoína; 
+- enzalutamida, um medicamento usado para tratar o cancro da próstata; 
+- hipericão (também conhecido como Hypericum perforatum), um medicamento à base de plantas 
+para tratar a depressão. </p>
+<p>Informe o seu médico se estiver a tomar algum dos seguintes medicamentos: 
+- alguns medicamentos usados para tratar infeções, tais como cetoconazol ou claritromicina; 
+- alguns medicamentos usados para tratar o VIH, tais como ritonavir ou efavirenz; 
+- alguns medicamentos usados para tratar a depressão, tais como nefazadona ou bupropiom; 
+- alguns medicamentos para controlar os níveis de gordura no sangue, tal como atorvastatina ou 
+rosuvastatina; 
+- tizanidina, um medicamento usado para relaxar os músculos; 
+- clorzoxazona, um medicamento usado para tratar o desconforto causado por espasmos 
+musculares. </p>
+<p>Se estiver a tomar algum destes medicamentos, o seu médico pode prescrever um outro medicamento 
+durante o seu tratamento com Rydapt. </p>
+<p>Deve também informar o seu médico se já estiver a tomar Rydapt e se lhe prescreverem um outro 
+medicamento que não estava a tomar anteriormente durante o tratamento com Rydapt. </p>
+<p>Fale com o seu médico ou farmacêutico se não tiver a certeza se o seu medicamento é um dos 
+medicamentos acima mencionados.  </p>
+<p>Gravidez e amamentação 
+Rydapt pode prejudicar o seu feto e não é recomendado durante a gravidez. Se está grávida, se pensa 
+estar grávida ou planeia engravidar, consulte o seu médico antes de tomar este medicamento.  </p>
+<p>Rydapt pode prejudicar o seu bebé. Não deve amamentar durante o tratamento com Rydapt e pelo 
+menos 4 meses após o final do tratamento. </p>
+<p>Contraceção em mulheres 
+Se ficar grávida enquanto estiver a tomar Rydapt, este pode prejudicar o seu feto. O seu médico irá 
+pedir-lhe que faça um teste de gravidez antes de iniciar o tratamento com Rydapt para garantir que não 
+está grávida. Deve utilizar um método contracetivo eficaz enquanto estiver a tomar Rydapt e durante 
+pelo menos 4 meses após ter deixado de o tomar. O seu médico irá avaliar consigo o método 
+contracetivo mais adequado para usar. </p>
+<p>Se ficar grávida ou se pensa que está grávida, fale com o seu médico imediatamente. </p>
+<p>Fertilidade 
+Rydapt pode reduzir a fertilidade em homens e mulheres. Deve falar sobre este assunto com o seu 
+médico antes de iniciar o tratamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Tome especial cuidado a conduzir ou utilizar máquinas dado que pode sentir tonturas e vertigens 
+enquanto estiver a tomar Rydapt. </p>
+<p>Rydapt contém etanol anidro (álcool) 
+Este medicamento contém 666 mg de álcool (etanol) em cada dose de 200 mg (dose máxima diária) 
+que é equivalente a 14 vol % de etanol anidro. A quantidade numa dose de 200 mg deste medicamento 
+é equivalente a 17 ml de cerveja ou 7 ml de vinho. A pequena quantidade de álcool neste medicamento 
+não terá quaisquer efeitos percetíveis. O álcool pode ser-lhe prejudicial se tiver problemas 
+relacionados com o álcool como epilepsia ou problemas no fígado ou se estiver grávida ou a 
+amamentar. </p>
+<p>Rydapt contém hidroxiestearato de macrogolglicerol (óleo de rícino) 
+Rydapt contém hidroxiestearato de macrogolglicerol, que pode provocar desconforto no estômago e 
+diarreia. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar rydapt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar rydapt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Não exceda a dose prescrita pelo seu médico. </p>
+<p>Que quantidade tomar de Rydapt 
+O seu médico irá dizer-lhe exatamente quantas cápsulas deve tomar. 
+- Doentes com LMA 
+A dose diária recomendada é de 50 mg (2 cápsulas) duas vezes por dia. 
+- Doentes com MSA, MS-NHA ou LM 
+A dose diária recomendada é de 100 mg (4 cápsulas) duas vezes por dia. </p>
+<p>Dependendo da sua resposta ao tratamento com Rydapt, o seu médico pode reduzir a dose ou 
+interromper temporariamente o tratamento. </p>
+<p>Como tomar este medicamento 
+- Tomar Rydapt sempre à mesma hora do dia irá ajudá-lo a lembrar-se de tomar o medicamento. 
+- Tome Rydapt duas vezes por dia com cerca de 12 horas de intervalo (por exemplo, com o 
+pequeno almoço e com a refeição da noite). 
+- Tome Rydapt com alimentos. 
+- Engula as cápsulas inteiras com um copo de água. Não as abra, esmague ou mastigue para 
+garantir a dose certa e evitar o sabor desagradável do conteúdo da cápsula. 
+- Em doentes com LMA, Rydapt é tomado juntamente com medicamentos de quimioterapia. É 
+muito importante que siga as recomendações do seu médico. 
+- Se vomitar após a ingestão das cápsulas, não tome mais cápsulas até à próxima dose prevista. </p>
+<p>Durante quanto tempo tomar Rydapt 
+- Continue a tomar Rydapt durante o tempo que o seu médico lhe indicar. O seu médico irá 
+monitorizar regularmente o seu estado de saúde para verificar se o tratamento está a ter o efeito 
+desejado. 
+- Se estiver a ser tratado para LMA, após parar de tomar Rydapt com medicamentos de 
+quimioterapia, irá tomar Rydapt isoladamente até 12 meses. 
+- Se estiver a ser tratado para MSA, MS-NHA ou LM irá tomar Rydapt como tratamento de longa 
+duração, possivelmente durante meses ou anos. 
+Se tiver questões sobre durante quanto tempo deve tomar Rydapt, fale com o seu médico ou 
+farmacêutico. </p>
+<p>Se tomar mais Rydapt do que deveria 
+Se tomar mais cápsulas do que deveria ou se outra pessoa acidentalmente tomar as suas cápsulas, 
+contacte um médico ou vá ao hospital imediatamente, levado a embalagem consigo porque pode ser 
+necessário tratamento médico. </p>
+<p>Caso se tenha esquecido de tomar Rydapt 
+Se se esquecer de tomar Rydapt, não tome a dose que se esqueceu de tomar e tome a dose seguinte à 
+hora prevista. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Em 
+vez disso, espere até à hora de tomar a dose seguinte. </p>
+<p>Se parar de tomar Rydapt 
+Interromper o seu tratamento com Rydapt pode piorar a sua doença. Não pare de tomar o medicamento 
+a não ser que o seu médico lhe diga para o fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Pare de tomar Rydapt e fale imediatamente com o seu médico se sentir qualquer dos seguintes 
+sinais dado que podem ser sinais de uma reação alérgica: 
+- dificuldade em respirar ou engolir 
+- tonturas 
+- inchaço da face, lábios, língua ou garganta 
+- comichão grave na pele, com erupção com vermelhidão ou bolhas </p>
+<p>Alguns efeitos indesejáveis em doentes com LMA podem ser graves. 
+Informe o seu médico, farmacêutico ou enfermeiro imediatamente se sentir algum dos seguintes: 
+- fraqueza, hemorragia espontânea ou nódoas negras, infeções frequentes com sinais tais como 
+febre, arrepios, dor de garganta ou feridas na boca (sinais de um nível baixo de células 
+sanguíneas). 
+- febre, tosse com ou sem secreções (muco), dor no peito, dificuldade em respirar ou falta de ar 
+(sinais de doença pulmonar intersticial ou penumonite não infeciosas). 
+- falta de ar grave, respiração difícil anormalmente acelerada, tonturas, sensação de cabeça oca, 
+confusão e cansaço extremo (sinais de síndrome de insuficiência respiratória aguda). 
+- infeções, febre, tensão arterial baixa, diminuição da urina, pulsação acelerada, respiração 
+acelerada (sinais de sepsis ou sepsis neutropénica). </p>
+<p>Outros efeitos indesejáveis possíveis em doentes com LMA 
+Outros efeitos indesejáveis encontram-se incluídos abaixo. Se algum dos efeitos indesejáveis se tornar 
+grave, fale com o seu médico ou farmacêutico. </p>
+<p>A maioria dos efeitos indesejáveis são ligeiros a moderados e irão geralmente desaparecer após 
+algumas semanas de tratamento. </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- infeção no local do cateter 
+- pequenas manchas vermelhas ou roxas debaixo da pele (petéquias) 
+- dificuldade em adormecer (insónia) 
+- cefaleia (dor de cabeça) 
+- falta de ar, dificuldade em respirar (dispneia) 
+- resultados do eletrocardiograma alterados que podem indicar ao seu médico que tem uma 
+alteração da atividade elétrica do seu coração, conhecida como prolongamento QT 
+- tonturas, sensação de cabeça oca (tensão arterial baixa) 
+- hemorragias nasais 
+- dor de garganta (dor laríngea) 
+- aftas (estomatite) 
+- náuseas, vómitos 
+- dor abdominal superior 
+- hemorroidas 
+- suor excessivo 
+- erupção na pele com descamação (dermatite exfoliativa) 
+- dor nas costas 
+- dor nas articulações (artralgia) 
+- febre 
+- sede, grande volume de urina, urina escura, pele vermelha e seca (sinais de níveis elevados de 
+açúcar no sangue, conhecido como hiperglicemia) 
+- fraqueza muscular, sonolência, confusão, convulsões, alterações da consciência (sinais de níveis 
+elevados de sódio no sangue, conhecido como hipernatremia) 
+- fraqueza muscular, espasmos musculares, ritmo cardíaco anormal (sinais de níveis baixos de 
+potássio no sangue, conhecido como hipocaliemia) 
+- nódoas negras e sangramento (problemas na coagulação) 
+- resultados anormais nas análises sanguíneas que podem dar indicações ao seu médico sobre 
+como estão a funcionar determinadas partes do seu organismo: níveis elevados de alanina 
+aminotransferase (ALT) e/ou aspartato aminotransferase (AST) (indicativos da função do 
+fígado) </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- infeção do trato respiratório superior 
+- náuseas, vómitos, prisão de ventre, dor de estômago, micção frequente, sede, fraqueza muscular 
+e espasmos (sinais de níveis elevados de cálcio no sangue, conhecido como hipercalcemia) 
+- desmaio 
+- tremores involuntários do corpo 
+- cefaleia (dor de cabeça), tonturas (tensão arterial elevada) 
+- batimento cardíaco acelerado (taquicardia sinusal) 
+- líquido à volta do coração que, se grave, pode diminuir a capacidade do coração bombear 
+sangue (derrame pericárdico) 
+- líquido nos pulmões/cavidade torácica que, se for grave, pode causar falta de ar (derrame 
+pleural) 
+- dor de garganta e corrimento nasal 
+- inchaço das pálpebras 
+- desconforto no ânus e no reto 
+- dor abdominal, náuseas, vómitos, prisão de ventre (desconforto abdominal) 
+- pele seca 
+- dor ocular, visão turva, intolerância à luz (queratite) 
+- dor no pescoço 
+- dor óssea 
+- dor nas extremidades 
+- aumento de peso 
+- coágulos sanguíneos no cateter 
+- resultados anormais nas análises sanguíneas que podem dar indicações ao seu médico sobre 
+como estão a funcionar determinadas partes do seu organismo: níveis elevados de ácido úrico. </p>
+<p>Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- Manchas ou lesões na pele, empoladas, vermelhas a roxo-avermelhado escuro, dolorosas, que 
+surgem principalmente nos braços, pernas, face ou pescoço, acompanhadas de febre (sinais de 
+dermatose neutrofílica febril aguda) </p>
+<p>Alguns efeitos indesejáveis em doentes com MSA, MS-NHA e LM podem ser graves. 
+Informe o seu médico, farmacêutico ou enfermeiro imediatamente se sentir algum dos seguintes: 
+- fraqueza, hemorragia espontânea ou nódas negras, infeções frequentes com sinais tais como 
+febre, arrepios, dor de garganta ou feridas na boca (sinais de um nível baixo de células 
+sanguíneas). 
+- febre, tosse, dificuldade em respirar ou respiração dolorosa, pieira, dor no peito ao respirar 
+(sinais de pneumonia). 
+- febre, tosse com ou sem secreções (muco), dor no peito, dificuldade em respirar ou falta de ar 
+(sinais de doença pulmonar intersticial ou penumonite não infeciosas). 
+- infeções, febre, tonturas, sensação de cabeça oca, diminuição da urina, pulsação acelerada, 
+respiração acelerada (sinais de sepsis ou sepsis neutropénica). 
+- vómitos com sangue, fezes negras ou ensanguentadas (sinais de hemorragia gastrointestinal). </p>
+<p>Outros efeitos indesejáveis possíveis em doentes com MSA, MS-NHA e LM 
+Outros efeitos indesejáveis encontram-se incluídos abaixo. Se algum dos efeitos indesejáveis se tornar 
+grave, fale com o seu médico ou farmacêutico. </p>
+<p>A maioria dos efeitos indesejáveis são ligeiros a moderados e irão geralmente desaparecer após 
+algumas semanas de tratamento. </p>
+<p>Muito frequentes (podem afetar mais do que 1 em 10 pessoas) 
+- infeção do trato urinário 
+- infeção do trato respiratório superior 
+- cefaleia (dor de cabeça) 
+- tonturas 
+- falta de ar, dificuldade em respirar (dispneia) 
+- tosse 
+- líquido nos pulmões/cavidade torácica que, se for grave, pode causar falta de ar (derrame 
+pleural) 
+- resultados do eletrocardiograma alterados que podem indicar ao seu médico que tem uma 
+alteração da atividade elétrica do seu coração, conhecida como prolongamento QT 
+- hemorragias nasais 
+- náuseas, vómitos 
+- diarreia 
+- prisão de ventre 
+- inchaço dos membros (perna, tornozelos) 
+- sensação de grande cansaço (fadiga) 
+- febre 
+- sede, grande volume de urina, urina escura, pele vermelha e seca (sinais de níveis elevados de 
+açúcar no sangue, conhecido como hiperglicemia) 
+- pele e olhos amarelos (sinal de bilirrubina elevada no sangue) 
+- resultados anormais nas análises sanguíneas que podem dar indicação de possíveis problemas 
+com o seu pâncreas (níveis elevados de lipase e/ou amilase) e fígado (níveis elevados de alanina 
+aminotransferase (ALT) e/ou aspartato aminotransferase (AST)) </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- tremores involuntários do corpo 
+- tosse com muco, dor no peito, febre (bronquite) 
+- feridas na boca devidas a infeção viral (herpes oral) 
+- urina frequente e dolorosa (cistite) 
+- sensação de pressão ou dor na face e testa (sinusite) 
+- erupção dolorosa com vermelhidão de qualquer parte da pele (erisipela) 
+- zona (herpes zoster) 
+- perturbação da atenção 
+- tonturas com sensação de andar à roda (vertigens) 
+- nódoas negras (hematoma) 
+- mal-estar de estômago, indigestão 
+- sensação de fraqueza (astenia) 
+- arrepios 
+- inchaço generalizado (edema) 
+- aumento de peso 
+- contusão (nódoas negras) 
+- quedas 
+- tonturas, sensação de cabeça leve (tensão arterial baixa) 
+- dor de garganta 
+- aumento de peso rápido </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar rydapt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar rydapt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Manter este medicamento fora da vista e do alcance das crianças. </li>
+<li>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+blister após EXP. O prazo de validade corresponde ao último dia do mês indicado. </li>
+<li>O medicamento não necessita de quaisquer precauções especiais de conservação. Conservar na 
+embalagem de origem para proteger da humidade. </li>
+<li>Não utilize este medicamento se verificar que a embalagem se encontra danificada ou tiver 
+quaisquer sinais de adulteração. </li>
+<li>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Rydapt 
+- A substância ativa é midostaurina. Cada cápsula mole contém 25 mg de midostaurina. 
+- Os outros componentes são: hidroxiestearato de macrogolglicerol (ver “Rydapt contém 
+hidroxiestearato de macrogolglicerol (óleo de rícino)" na secção 2), gelatina, macrogol, glicerol, 
+etanol anidro (ver “Rydapt contém etanol anidro (álcool)" na secção 2), óleo de milho mono-di-
+triglicérido, dióxido de titânio (E171), racemato total de alfa-tocoferol, óxido de ferro amarelo 
+(E172), óxido de ferro vermelho (E172), carmim (E120), hipromelose, propilenoglicol, água 
+purificada. </p>
+<p>Qual o aspeto de Rydapt e conteúdo da embalagem 
+Rydapt 25 mg cápsulas moles (cápsulas) são cápsulas oblongas, cor de laranja clara com impressão 
+“PKC NVR" a vermelho. </p>
+<p>As cápsulas são fornecidas em blisters e estão disponíveis em embalagens contendo 56 cápsulas 
+(2 embalagens de 28 cápsulas) ou 112 cápsulas (4 embalagens de 28 cápsulas). É possível que não 
+sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberga 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1105,6 +1641,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-00913882b59a9d04c9763a602ce7c1ae"
 * entry[0].resource = composition-da-00913882b59a9d04c9763a602ce7c1ae
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp00913882b59a9d04c9763a602ce7c1ae"
+* entry[=].resource = mp00913882b59a9d04c9763a602ce7c1ae
+                            
+                    
+Instance: bundlepackageleaflet-pt-00913882b59a9d04c9763a602ce7c1ae
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rydapt Package Leaflet for language pt"
+Description: "ePI document Bundle for rydapt Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-00913882b59a9d04c9763a602ce7c1ae"
+* entry[0].resource = composition-pt-00913882b59a9d04c9763a602ce7c1ae
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp00913882b59a9d04c9763a602ce7c1ae"
@@ -1206,6 +1764,18 @@ RuleSet: 00913882b59a9d04c9763a602ce7c1aeListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-00913882b59a9d04c9763a602ce7c1ae) // rydapt pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

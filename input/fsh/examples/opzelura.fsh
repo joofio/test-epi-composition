@@ -429,6 +429,222 @@ hjemmeside: http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-5f2f3f0c1c43271a861dd5210ff699a4
+InstanceOf: CompositionUvEpi
+Title: "Composition for opzelura Package Leaflet"
+Description:  "Composition for opzelura Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5f2f3f0c1c43271a861dd5210ff699a4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - opzelura"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Opzelura e para que é utilizado  </li>
+<li>O que precisa de saber antes de utilizar Opzelura </li>
+<li>Como utilizar Opzelura </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Opzelura </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é opzelura e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é opzelura e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opzelura contém a substância ativa ruxolitinib. Pertence a um grupo de medicamentos designados por 
+inibidores de Janus Kinase. </p>
+<p>Opzelura é utilizado na pele para o tratamento de vitiligo com envolvimento facial em adultos e 
+adolescentes a partir dos 12 anos de idade. O vitiligo é uma doença autoimune, onde o sistema 
+imunitário do corpo ataca as células que produzem o pigmento da pele melanina. Pode causar uma 
+perda de melanina, levando a zonas de pele rosa pálido ou brancas. No vitiligo, o ruxolitinib reduz a 
+atividade do sistema imunitário contra as células produtoras de melanina, permitindo que a pele 
+produza pigmento e volte a ganhar a sua cor normal.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar opzelura"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar opzelura"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Opzelura 
+- se tem alergia ao ruxolitinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se estiver grávida ou a amamentar. </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de utilizar Opzelura </p>
+<p>Opzelura não se destina a utilização nos lábios, olhos, boca ou vagina. Caso o creme entre 
+acidentalmente em contacto com estas áreas, limpe totalmente e/ou retire o creme com água. </p>
+<p>Crianças com menos de 12 anos 
+Não dê Opzelura a crianças com menos de 12 anos pois não foi estudado nesta faixa etária.  </p>
+<p>Outros medicamentos e Opzelura 
+Informe o seu médico ou farmacêutico se estiver a utilizar, ou tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. </p>
+<p>Utilizar Opzelura ao mesmo tempo que outros medicamentos na pele afetada não é recomendado, pois 
+não foi estudado. </p>
+<p>Depois de aplicar Opzelura, aguarde pelo menos 2 horas antes de aplicar outros medicamentos, 
+protetor solar ou cremes/óleos do corpo na mesma área da pele. </p>
+<p>Gravidez e amamentação 
+Opzelura não deve ser usado por mulheres grávidas ou a amamentar, pois tal não foi investigado. Se é 
+mulher em idade fértil, deve utilizar um método contracetivo eficaz durante o tratamento e durante 4 
+semanas depois de aplicar o Opzelura pela última vez. </p>
+<p>Desconhece-se se o ruxolitinib passa para o leite materno depois de o aplicar na pele. Os efeitos deste 
+medicamento em crianças lactentes são desconhecidos; logo, o Opzelura não deve ser usado se estiver 
+a amamentar ou a planear amamentar. Pode começar a amamentar aproximadamente quatro semanas 
+depois de aplicar o Opzelura pela última vez. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não é provável que o Opzelura tenham efeitos sobre a sua capacidade de conduzir e utilizar máquinas. </p>
+<p>Opzelura contém propilenoglicol, álcool cetílico, álcool estearílico, para-hidroxibenzoato de 
+metilo, para-hidroxibenzoato de propilo e hidroxitolueno butilado 
+- Este medicamento contém 150 mg de propilenoglicol (E1520) em cada grama de creme, que pode 
+causar irritação da pele. 
+- O álcool cetílico e álcool estearílico podem causar reações cutâneas locais (por exemplo dermatite 
+de contacto). 
+- O para-hidroxibenzoato de metilo (E218) e para-hidroxibenzoato de propilo podem causar reações 
+alérgicas (possivelmente retardadas). 
+- O hidroxitolueno butilado (E321) pode causar reações cutâneas locais (por exemplo dermatite de 
+contacto) ou irritação nos olhos e nas membranas mucosas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar opzelura"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar opzelura"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize sempre este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale 
+com o seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>Dose recomendada 
+- Aplique uma camada fina de creme, duas vezes por dia, em áreas afetadas da sua pele. Aguarde 
+pelo menos 8 horas entre aplicações. 
+- O creme não deve ser usado em mais de 10% (um décimo) do seu corpo. Esta área de superfície 
+representa o equivalente a dez vezes a palma de uma mão com os cinco dedos. </p>
+<p>Modo de administração 
+- Este medicamento destina-se apenas a uso na pele. 
+- Não aplique em superfícies da pele que não as indicadas pelo seu médico. O medicamento deverá 
+ser usado na área de pele mais pequena necessária. 
+- Lave as suas mãos depois de aplicar este medicamento, a menos que esteja a tratar as suas mãos. 
+Se outra pessoa lhe aplicar o creme, esta deverá lavar as mãos após a aplicação. 
+- Evite lavar a pele tratada durante pelo menos 2 horas após a aplicação de Opzelura. </p>
+<p>Duração da utilização 
+O seu médico irá decidir sobre quanto tempo deverá utilizar o creme. 
+É recomendada uma duração mínima de 6 meses, mas o tratamento satisfatório pode exigir mais de meses. Se conseguir uma repigmentação satisfatória das áreas tratadas, consulte o seu médico para 
+discutir se o tratamento dessas áreas pode ser interrompido. Consulte o seu médico se registar perda de 
+repigmentação após a interrupção do tratamento. </p>
+<p>Não use mais do que duas bisnagas de 100 gramas por mês.  </p>
+<p>Se utilizar mais Opzelura do que deveria 
+Limpe o creme em excesso caso tal ocorra. </p>
+<p>Caso se tenha esquecido de utilizar Opzelura 
+Caso se tenha esquecido de aplicar o creme no horário previsto, faça-o assim que se lembrar e depois 
+continue no seu horário de administração habitual. Porém, se a administração da dose agendada 
+seguinte for em menos de 8 horas, ignore a dose em falta. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Foram comunicados os seguintes efeitos indesejáveis com o Opzelura: 
+Frequentes (podem afetar até 1 em 10 pessoas) 
+- acne no local da aplicação </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar opzelura"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar opzelura"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na bisnaga e embalagem após EXP. 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima dos 30ºC. </p>
+<p>Depois da bisnaga ser aberta, use o creme no prazo de 6 meses, mas não após o prazo de validade.  </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Opzelura<br />
+- A substância ativa é ruxolitinib. 
+Um grama de creme contém 15 mg de ruxolitinib. 
+- Os outros componentes são hidroxitolueno butilado (E321), álcool cetílico, dimeticone 
+(E900), edetato dissódico (E385), estearato de glicerilo, parafina (E905), macrogol, 
+triglicéridos de cadeia média, para-hidroxibenzoato de metilo (E218), fenoxietanol, 
+polissorbato 20 (E432), propilenoglicol (E1520), para-hidroxibenzoato de propilo, água 
+purificada, álcool estearílico e goma xantana (E415). </p>
+<p>Ver secção 2 «Opzelura contém propilenoglicol, álcool cetílico, álcool estearílico, 
+para-hidroxibenzoato metilo, para-hidroxibenzoato de propilo e hidroxitolueno butilado». </p>
+<p>Qual o aspeto de Opzelura e o conteúdo da embalagem 
+Opzelura creme é de cor branca a esbranquiçada, fornecido numa bisnaga contendo 100 g de creme. 
+Há uma bisnaga por embalagem. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Incyte Biosciences Distribution B.V. 
+Paasheuvelweg 1105 BP Amesterdão 
+Países Baixos </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -470,6 +686,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5f2f3f0c1c43271a861dd5210ff699a4"
 * entry[0].resource = composition-da-5f2f3f0c1c43271a861dd5210ff699a4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5f2f3f0c1c43271a861dd5210ff699a4"
+* entry[=].resource = mp5f2f3f0c1c43271a861dd5210ff699a4
+                            
+                    
+Instance: bundlepackageleaflet-pt-5f2f3f0c1c43271a861dd5210ff699a4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for opzelura Package Leaflet for language pt"
+Description: "ePI document Bundle for opzelura Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5f2f3f0c1c43271a861dd5210ff699a4"
+* entry[0].resource = composition-pt-5f2f3f0c1c43271a861dd5210ff699a4
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5f2f3f0c1c43271a861dd5210ff699a4"
@@ -571,6 +809,18 @@ RuleSet: 5f2f3f0c1c43271a861dd5210ff699a4ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5f2f3f0c1c43271a861dd5210ff699a4) // opzelura pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

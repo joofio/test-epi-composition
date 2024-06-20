@@ -772,6 +772,430 @@ hjemmeside https://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-601fc65b81b2fd37245e8ad7fc0f0dd7
+InstanceOf: CompositionUvEpi
+Title: "Composition for litfulo Package Leaflet"
+Description:  "Composition for litfulo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp601fc65b81b2fd37245e8ad7fc0f0dd7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - litfulo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Litfulo e para que é utilizado
+2. O que precisa de saber antes de tomar Litfulo
+3. Como tomar Litfulo
+4. Efeitos indesejáveis possíveis
+5. Como conservar Litfulo
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é litfulo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é litfulo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Litfulo contém a substância ativa ritlecitinib. É utilizado para tratar a alopecia areata grave em adultos 
+e adolescentes com 12 anos de idade ou mais. A alopecia areata é uma doença na qual o próprio 
+sistema imunitário ataca os folículos pilosos, causando uma inflamação que resulta na perda de 
+pilosidade no couro cabeludo, face e/ou outras partes do corpo.
+Litfulo atua ao reduzir a atividade de enzimas chamadas JAK3 e cinases da família TEC que estão 
+envolvidas na inflamação dos folículos pilosos. Isto, reduz a inflamação, levando a novo crescimento 
+de cabelo em doentes com alopecia areata.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar litfulo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar litfulo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Litfulo</h2>
+<p>se tem alergia ao ritlecitinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+-
+se tem uma infeção grave ativa, incluindo tuberculose.
+-
+se tem problemas graves do fígado.
+-
+se está grávida ou a amamentar (ver a secção “Gravidez, contraceção, amamentação e 
+fertilidade").
+Advertências e precauções
+Fale com o seu médico ou farmacêutico antes e durante o tratamento com Litfulo se:
+-
+tem uma infeção (possíveis sinais podem ser febre, transpiração, arrepios, dores musculares, 
+tosse, falta de ar, sangue na expetoração, perda de peso, diarreia, dor de barriga, sensação de 
+31
+ardor ao urinar, urinar mais frequentemente do que é habitual, sentir-se muito cansado). Litfulo 
+pode reduzir a capacidade do seu organismo para combater infeções e assim agravar uma 
+infeção existente ou tornar mais provável que contraia uma infeção nova.
+-
+tem diabetes ou tem idade superior a 65 anos, pode ter um risco aumentado de ter infeções
+-
+tem ou já teve tuberculose ou se esteve em contacto próximo com alguém com tuberculose ou se 
+vive ou viaja para zonas onde a tuberculose é bastante comum. O seu médico vai testá-lo quanto 
+à tuberculose antes de iniciar Litfulo e poderá repetir esses testes durante o tratamento.
+-
+alguma vez teve uma infeção por herpes (tal como varicela ou zona), uma vez que Litfulo pode 
+permitir o seu reaparecimento. Informe o seu médico se tiver uma erupção na pele dolorosa com 
+bolhas, pois isso pode ser um sinal de zona.
+-
+alguma vez teve hepatite B ou hepatite C. O seu médico vai testá-lo quanto às hepatites antes de 
+iniciar Litfulo e poderá repetir esses testes durante o tratamento.
+-
+tem cancro ou já teve algum tipo de cancro - não há a certeza se Litfulo aumenta o risco de 
+cancro e o seu médico irá discutir consigo se o tratamento com este medicamento é apropriado e 
+se serão necessários check-ups, incluindo exames regulares da pele, durante o tratamento.
+-
+tem coágulos de sangue nas veias das pernas (trombose venosa profunda) ou nos pulmões 
+(embolia pulmonar). Informe o seu médico se tiver uma perna inchada dolorosa, dor no peito ou 
+falta de ar pois podem ser sinais de coágulos de sangue nas veias.
+-
+já teve coágulos de sangue numa artéria no olho (oclusão retiniana) ou no coração (ataque 
+cardíaco). Informe o seu médico caso sinta alterações agudas de visão (visão turva, perda parcial 
+ou completa da visão), dor no peito, falta de ar, pois estas alterações podem ser sinais de 
+coágulos de sangue nas artérias.
+-
+recebeu recentemente ou planeia receber uma vacinação (imunização) - isto porque 
+determinadas vacinas (vacinas vivas) não são recomendadas durante a utilização de Litfulo. Fale 
+com o seu médico para confirmar se as suas vacinações estão atualizadas e se necessita de 
+vacinações adicionais, incluindo vacinação para a zona, antes de iniciar o tratamento com 
+Litfulo.
+-
+experienciar sintomas inexplicáveis causados por um problema com o sistema nervoso enquanto
+está a tomar Litfulo. O médico vai conversar consigo, indicando se o tratamento deve ou não ser 
+descontinuado.
+Análises de monitorização adicionais
+O seu médico vai pedir análises ao sangue para verificar se tem uma contagem de glóbulos brancos 
+baixa ou uma contagem de plaquetas baixa antes e, aproximadamente, 4 semanas após o início do 
+tratamento com Litfulo e poderá ajustar o seu tratamento, se for necessário.
+Crianças
+Este medicamento não está aprovado para utilização em crianças com menos de 12 anos de idade 
+porque a segurança e os benefícios de Litfulo não foram estabelecidos nesta faixa etária.
+Outros medicamentos e Litfulo
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.
+Em particular, informe o seu médico ou farmacêutico antes de tomar Litfulo, se estiver a tomar algum 
+dos seguintes medicamentos para tratar:
+-
+ansiedade ou distúrbios do sono (tais como, midalozam);
+-
+problemas do ritmo cardíaco (tais como, quinidina);
+-
+gota (tais como, colquicina);
+-
+rejeição de transplantes de órgãos (tais como, ciclosporina, everolímus, tacrolímus e sirolímus);
+-
+enxaquecas (tais como, di-hidroergotamina e ergotamina);
+-
+esquizofrenia e psicose crónica (tais como, pimozida);
+-
+asma (tais como, teofilina);
+-
+espasmos musculares (tais como, tizanidina);
+-
+fibrose pulmonar idiopática (tais como, pirfenidona).
+Litfulo poderá aumentar a quantidade destes medicamentos no sangue.
+32
+Se alguma das situações acima se aplica a si ou se não tem a certeza, fale com o seu médico ou 
+farmacêutico antes de tomar Litfulo.
+Gravidez, contraceção, amamentação e fertilidade
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Contraceção nas mulheres
+Se é uma mulher com potencial para engravidar, deve utilizar um método de contraceção eficaz 
+durante o tratamento com Litfulo e durante, pelo menos, um mês após a sua última dose do tratamento.
+O seu médico pode aconselhá-la sobre métodos contracetivos adequados.
+Gravidez
+Não utilize Litfulo se está grávida, se pensa estar grávida ou planeia engravidar. Este medicamento 
+pode ser prejudicial para o feto. Informe o seu médico imediatamente se engravidar ou pensar que 
+pode ter engravidado durante o tratamento.
+Amamentação
+Não utilize Litfulo durante a amamentação, uma vez que se desconhece se este medicamento passa 
+para o leite materno ou se afeta os bebés lactentes. Deve decidir em conjunto com o seu médico se vai 
+amamentar ou utilizar este medicamento.
+Fertilidade
+Desconhece-se se Litfulo reduz a fertilidade nas mulheres ou nos homens com potencial para 
+engravidar.
+Condução de veículos e utilização de máquinas
+Litfulo produz pouco ou nenhum efeito sobre a capacidade de conduzir e utilizar máquinas.
+Litfulo contém lactose
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar litfulo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar litfulo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+A dose recomendada é de 50 mg uma vez por dia tomada por via oral.
+Deve engolir a cápsula inteira com água. Não abra, esmague ou mastigue a cápsula antes de a engolir 
+pois pode alterar a quantidade de medicamento que entra para o seu organismo.
+Pode tomar a cápsula com ou sem alimentos.
+Se tomar mais Litfulo do que deveria
+Se tomar mais Litfulo do que deveria, contacte o seu médico. Poderá ter alguns dos efeitos 
+indesejáveis descritos na secção 4. Caso se tenha esquecido de tomar Litfulo
+-
+Caso se esqueça de tomar uma dose, tome-a assim que se lembrar, a menos que a próxima dose 
+deva ser tomada em menos de 8 horas.
+-
+Se faltarem menos de 8 horas para tomar a próxima dose, omita a dose esquecida e tome a dose 
+seguinte à hora habitual.
+-
+Não tome uma dose a dobrar para compensar uma cápsula que se esqueceu de tomar.
+33
+Se parar de tomar Litfulo
+Não deve parar de tomar Litfulo sem falar sobre isso com o seu médico.
+Caso necessite de parar de tomar Litfulo durante um curto período de tempo (não mais de 6 semanas), 
+o risco de perda capilar no couro cabeludo é reduzido.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Efeitos indesejáveis graves
+Fale com o seu médico e procure assistência médica imediatamente se tiver quaisquer sinais de:
+-
+Zona (herpes zóster), uma erupção na pele dolorosa, com bolhas e com ou sem febre
+-
+Urticária, uma erupção na pele com comichão
+Outros efeitos indesejáveis
+Frequentes (podem afetar até 1 em 10 pessoas)
+-
+Infeções no nariz, garganta ou traqueia
+-
+Diarreia
+-
+Tonturas
+-
+Acne
+-
+Erupção na pele (que não urticária e zona)
+-
+Inflamação (inchaço) dos folículos capilares, a qual pode ser dolorosa e acompanhada de 
+comichão (foliculite)
+-
+Aumento de uma enzima chamada creatinafosfocinase, revelado por uma análise ao sangue
+(aumento da creatinafosfocinase sérica)
+Pouco frequentes (podem afetar até 1 em 100 pessoas)
+-
+Contagem de plaquetas baixa, revelada por uma análise ao sangue (diminuição da contagem de 
+plaquetas)
+-
+Contagem de glóbulos brancos baixa, revelada por uma análise ao sangue (diminuição da 
+contagem de linfócitos)
+-
+Aumento das enzimas do fígado no sangue (aumento da ALT e AST)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar litfulo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar litfulo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, no frasco ou 
+no blister após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+34
+O medicamento não necessita de quaisquer precauções especiais de conservação relativamente à 
+temperatura. Conservar na embalagem de origem para proteger da luz.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Litfulo</h2>
+<p>A substância ativa é o ritlecitinib.
+Cada cápsula contém tosilato de ritlecitinib equivalente a 50 mg de ritlecitinib.
+-
+Os outros componentes são:
+Conteúdo da cápsula: celulose microcristalina, lactose mono-hidratada, crospovidona, dibeenato 
+de glicerol (ver secção 2 “Litfulo contém lactose mono-hidratada").
+Cápsula: hipromelose (E464), dióxido de titânio (E171), óxido de ferro amarelo (E172), azul 
+Brilhante FCF (E133).
+Tinta de impressão: goma-laca, propilenoglicol, solução de amoníaco concentrada, óxido de 
+ferro negro (E172), hidróxido de potássio.
+Qual o aspeto de Litfulo e conteúdo da embalagem
+As cápsulas opacas de Litfulo 50 mg possuem um corpo amarelo e uma tampa azul, com
+aproximadamente 16 mm de comprimento e 6 mm de largura, com “RCB 50" impresso no corpo e 
+“Pfizer" impresso na tampa a preto.
+As cápsulas de 50 mg são fornecidas em frascos de polietileno de alta densidade (PEAD) com fecho 
+de polipropileno contendo 28 cápsulas ou em blisters de OPA/Al/PVC/Al contendo 30 ou 90 cápsulas.
+O frasco contém um exsicante de sílica gel utilizado para manter as cápsulas secas. Não engolir o 
+exsicante de sílica gel.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante
+Pfizer Manufacturing Deutschland GmbH
+Mooswaldallee 1
+79108 Freiburg Im Breisgau
+Alemanha
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel:+32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel:+370 5 251 4000
+35
+България
+Пфайзер Люксембург САРЛ, Клон България
+Teл.:+359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.:+ 36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel:+420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel:+356 21344610
+Danmark
+Pfizer ApS
+Tlf:+45 44 20 11 00
+Nederland
+Pfizer bv
+Tel:+31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel:+49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf:+47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel:+372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel:+43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ:+30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.:+48 22 335 61 00
+España
+Pfizer, S.L.
+Tel:+34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel:+351 21 423 5500
+France
+Pfizer
+Tél:+33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel:+40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel:+385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel:+386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel:+1800 633 363 (toll free)
+Tel:+44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel:+ 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími:+354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel:+358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel:+39 06 33 18 21
+Sverige
+Pfizer AB
+Tel:+46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε.(Cyprus Branch)
+Τηλ:+357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel:+44 (0) 1304 616161
+36
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel:+ 371 670 35 775
+Este folheto foi revisto pela última vez em.
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -813,6 +1237,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-601fc65b81b2fd37245e8ad7fc0f0dd7"
 * entry[0].resource = composition-da-601fc65b81b2fd37245e8ad7fc0f0dd7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp601fc65b81b2fd37245e8ad7fc0f0dd7"
+* entry[=].resource = mp601fc65b81b2fd37245e8ad7fc0f0dd7
+                            
+                    
+Instance: bundlepackageleaflet-pt-601fc65b81b2fd37245e8ad7fc0f0dd7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for litfulo Package Leaflet for language pt"
+Description: "ePI document Bundle for litfulo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-601fc65b81b2fd37245e8ad7fc0f0dd7"
+* entry[0].resource = composition-pt-601fc65b81b2fd37245e8ad7fc0f0dd7
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp601fc65b81b2fd37245e8ad7fc0f0dd7"
@@ -914,6 +1360,18 @@ RuleSet: 601fc65b81b2fd37245e8ad7fc0f0dd7ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-601fc65b81b2fd37245e8ad7fc0f0dd7) // litfulo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

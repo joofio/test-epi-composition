@@ -798,6 +798,451 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-78817b35263746b79687cd6c5a122f9f
+InstanceOf: CompositionUvEpi
+Title: "Composition for memantine Package Leaflet"
+Description:  "Composition for memantine Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp78817b35263746b79687cd6c5a122f9f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - memantine"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Memantina ratiopharm e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Memantina ratiopharm </li>
+<li>Como tomar Memantina ratiopharm </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Memantina ratiopharm </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é memantine e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é memantine e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como atua Memantina ratiopharm 
+Memantina ratiopharm contém a substância ativa cloridrato de memantina. Pertence a um grupo de 
+medicamentos conhecidos como fármacos antidemência. 
+A perda de memória associada à doença de Alzheimer deve-se a uma perturbação dos sinais 
+mensageiros no cérebro. O cérebro contém recetores do N-metil-D-aspartato (NMDA) envolvidos na 
+transmissão de sinais nervosos importantes na aprendizagem e memória. Memantina ratiopharm 
+pertence a um grupo de medicamentos denominados antagonistas dos recetores NMDA. Memantina 
+ratiopharm atua nestes recetores, melhorando a transmissão dos sinais nervosos e a memória. </p>
+<p>Para que é utilizado Memantina ratiopharm 
+Memantina ratiopharm é utilizado para o tratamento de doentes com doença de Alzheimer moderada a 
+grave. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar memantine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar memantine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Memantina ratiopharm </p>
+<ul>
+<li>se tem alergia ao cloridrato de memantina, amendoim ou soja ou a qualquer outro componente 
+deste medicamento (indicados na secção 6) </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Memantina ratiopharm </p>
+<ul>
+<li>
+<p>se tiver uma história de epilepsia </p>
+</li>
+<li>
+<p>se tiver tido um enfarte do miocárdio (ataque cardíaco) recente ou se sofrer de compromisso 
+cardíaco congestivo ou de hipertensão (pressão arterial alta) não controlada. 
+Nestas situações, o tratamento deve ser supervisionado cuidadosamente e os benefícios clínicos de 
+Memantina ratiopharm devem ser avaliados pelo seu médico regularmente. </p>
+</li>
+</ul>
+<p>Se sofrer de compromisso renal (problemas de rins), o seu médico deverá monitorizar cuidadosamente 
+a sua função renal e, se necessário, adaptar as doses de memantina.  </p>
+<p>A utilização simultânea de medicamentos designados por  </p>
+<ul>
+<li>
+<p>amantadina (para o tratamento da doença de Parkinson),  </p>
+</li>
+<li>
+<p>cetamina (uma substância usada geralmente como anestésico),  </p>
+</li>
+<li>
+<p>dextrometorfano (usado geralmente para tratar a tosse) e  </p>
+</li>
+<li>
+<p>outros antagonistas do NMDA 
+deve ser evitada. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes 
+Memantina ratiopharm não é recomendado para crianças e adolescentes com menos de 18 anos de 
+idade. </p>
+<p>Outros medicamentos e Memantina ratiopharm 
+Informe o seu médico ou farmacêutico se estiver a tomar/utilizar, tiver tomado/utilizado recentemente 
+ou se vier a tomar/utilizar outros medicamentos. </p>
+<p>Em especial, os efeitos dos seguintes medicamentos podem ser alterados por Memantina ratiopharm e 
+o seu médico poderá achar necessário ajustar as respetivas doses: </p>
+<ul>
+<li>
+<p>amantadina, cetamina, dextrometorfano </p>
+</li>
+<li>
+<p>dantroleno, baclofeno </p>
+</li>
+<li>
+<p>cimetidina, ranitidina, procaínamida, quinidina, quinina, nicotina </p>
+</li>
+<li>
+<p>hidroclorotiazida (ou qualquer outra combinação com hidroclorotiazida) </p>
+</li>
+<li>
+<p>anticolinérgicos (substâncias geralmente utilizadas para tratar perturbações do movimento ou 
+cãibras intestinais) </p>
+</li>
+<li>
+<p>anticonvulsivantes (substâncias utilizadas para evitar ou atenuar convulsões) </p>
+</li>
+<li>
+<p>barbitúricos (substâncias utilizadas geralmente para induzir o sono) </p>
+</li>
+<li>
+<p>agonistas dopaminérgicos (substâncias como L-dopa, bromocriptina) </p>
+</li>
+<li>
+<p>neurolépticos (substâncias utilizadas no tratamento de perturbações mentais). </p>
+</li>
+<li>
+<p>anticoagulantes orais </p>
+</li>
+</ul>
+<p>Se for hospitalizado, informe o seu médico de que está a tomar Memantina ratiopharm. </p>
+<p>Memantina ratiopharm com alimentos e bebidas 
+Deverá informar o seu médico caso tenha recentemente alterado ou pretenda alterar a sua dieta 
+substancialmente (ex: de uma dieta normal para uma dieta estritamente vegetariana) ou se sofrer de 
+estados de acidose tubular renal (ATR, um excesso de substâncias formadoras de ácido no sangue 
+devido a uma disfunção renal (função dos rins debilitada)) ou infeções graves das vias urinárias 
+(estrutura que transporta a urina), uma vez que poderá ser necessário que o seu médico faça um ajuste 
+da dose do medicamento. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>A utilização de memantina em grávidas não é recomendada.  </p>
+<p>Mulheres que tomem Memantina ratiopharm não devem amamentar. </p>
+<p>Condução de veículos e utilização de máquinas 
+O seu médico irá informá-lo se a sua doença o impede de conduzir e utilizar máquinas com segurança. 
+Para além disso, Memantina ratiopharm pode alterar a sua capacidade de reação, tornando a condução 
+ou utilização de máquinas não apropriada.  </p>
+<p>Memantina ratiopharm contém lactose ou lecitina de soja 
+Memantina ratiopharm contém lactose. Se foi informado pelo seu médico que tem intolerância a alguns 
+açúcares, contacte-o antes de tomar este medicamento. </p>
+<p>Memantina ratiopharm contém lecitina de soja. Se for alérgico ao amendoim ou soja, não utilize este 
+medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar memantine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar memantine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.  </p>
+<p>Dose 
+A dose recomendada de Memantina ratiopharm para doentes adultos e idosos é de 20 mg uma vez por 
+dia. De forma a reduzir o risco de efeitos secundários, esta dose é atingida gradualmente segundo o 
+seguinte esquema de tratamento diário: </p>
+<p>semana 1 
+metade de um comprimido revestido por película de 10 mg 
+semana 2 
+1 comprimido revestido por película de 10 mg 
+semana 3 
+1 comprimido revestido por película e meio de 10 mg 
+semana 4 e seguintes 
+2 comprimidos revestidos por película de 10 mg por dia </p>
+<p>A dose inicial habitual corresponde a meio comprimido revestido por película, uma vez por dia 
+(1x 5 mg) na primeira semana. Esta dose é aumentada para um comprimido revestido por película, uma 
+vez por dia (1x 10 mg) na segunda semana e um comprimido revestido por película e meio, uma vez 
+por dia, tomados na terceira semana. A partir da quarta semana, a dose habitual é de dois comprimidos 
+revestidos por película, uma vez por dia (1x 20 mg). </p>
+<p>O comprimido pode ser dividido em doses iguais. </p>
+<p>Dose em doentes com compromisso da função renal 
+Se tiver compromisso da função renal, o seu médico deverá decidir por uma dose adequada a essa 
+situação. Neste caso, o seu médico deverá monitorizar a sua função renal regularmente.  </p>
+<p>Administração 
+Memantina ratiopharm deve ser administrado por via oral, uma vez por dia. Para tirar o maior 
+benefício do seu medicamento, deve tomá-lo todos os dias, à mesma hora do dia. 
+Os comprimidos revestidos por película devem ser engolidos com água. Os comprimidos revestidos por 
+película podem ser administrados com ou sem alimentos. </p>
+<p>Duração do tratamento 
+Continue a tomar Memantina ratiopharm enquanto tiver um efeito benéfico. O seu médico deve 
+avaliar o tratamento regularmente. </p>
+<p>Se tomar mais Memantina ratiopharm do que deveria </p>
+<ul>
+<li>
+<p>De uma forma geral, uma sobredosagem de Memantina ratiopharm não deve ser prejudicial. 
+Poderá detetar um maior número de sintomas, tal como descrito na secção 4. “Efeitos 
+secundários possíveis". </p>
+</li>
+<li>
+<p>Se tomar uma dose muito elevada de Memantina ratiopharm, contacte o seu médico ou procure 
+aconselhamento médico, uma vez que poderá necessitar de cuidados médicos. </p>
+</li>
+</ul>
+<p>Caso se tenha esquecido de tomar Memantina ratiopharm </p>
+<ul>
+<li>
+<p>Se se esquecer de tomar uma dose de Memantina ratiopharm, espere e tome a dose seguinte à 
+hora habitual.  </p>
+</li>
+<li>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+</li>
+</ul>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>De uma forma geral, os efeitos secundários observados são ligeiros a moderados.  </p>
+<p>Frequentes (afeta 1 a 10 pessoas em 100): </p>
+<ul>
+<li>Dores de cabeça, sono, prisão de ventre, teste de função hepática aumentado, tonturas, 
+perturbações do equilíbrio, falta de ar pressão arterial elevada e hipersensibilidade ao 
+medicamento </li>
+</ul>
+<p>Pouco frequentes (afeta 1 a 10 pessoas em 1.000): </p>
+<ul>
+<li>Cansaço, infeções fúngicas, confusão, alucinações, vómitos, alterações na forma de andar, 
+insuficiência cardíaca e coagulação sanguínea venosa (trombose, tromboembolia)  </li>
+</ul>
+<p>Muito raros (afeta menos de 1 pessoa em 10.000): </p>
+<ul>
+<li>Convulsões </li>
+</ul>
+<p>Desconhecido (a frequência não pode ser estimada a partir dos dados disponíveis): </p>
+<ul>
+<li>Inflamação do pâncreas, inflamação do fígado (hepatite) e reações psicóticas </li>
+</ul>
+<p>A doença de Alzheimer tem sido associada a depressão, ideação suicida e suicídio. Estes efeitos têm 
+sido notificados com doentes tratados com memantina. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar memantine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar memantine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Embalagens blister 
+Não conservar acima de 25 °C. </p>
+<p>Frascos de PEAD 
+O medicamento não necessita de quaisquer precauções especiais de conservação. 
+Prazo de validade após abertura do recipiente: 6 meses </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Memantina ratiopharm 
+- A substância ativa é cloridrato de memantina. 
+Cada comprimido revestido por película contém 10 mg de cloridrato de memantina, equivalente 
+a 8,31 mg de memantina. </p>
+<ul>
+<li>Os outros componentes são: 
+Núcleo do comprimido 
+Celulose microcristalina (E 460), amido pré-gelatinizado (E 1404), lactose, sílica coloidal 
+anidra (E 551), e estearato de magnésio (E 470B).<br />
+Revestimento 
+Polisorbato 80 (E 433), álcool polivinílico (E 1203), dióxido de titânio (E 171), talco (E 553b), 
+lecitina de soja (E 322), goma xantana (E 415). </li>
+</ul>
+<p>Qual o aspeto de Memantina ratiopharm e conteúdo da embalagem 
+Comprimidos brancos a esbranquiçados, em forma de cápsula, biconvexos, com uma ranhura num lado e 
+com “10" gravado no outro lado. </p>
+<p>Memantina ratiopharm é apresentado em embalagens de 10, 14, 21, 28, 30, 42, 50, 56, 98, 100 e 
+112 comprimidos revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+ratiopharm GmbH 
+Graf-Arco-Straße 3 
+89079 Ulm 
+Alemanha </p>
+<p>Fabricante 
+Merckle GmbH 
+Ludwig-Merckle-Straße 3 
+89143 Blaubeuren 
+Alemanha </p>
+<p>TEVA Pharmaceutical Works Private Limited Company 
+Pallagi út 13, 4042 Debrecen 
+Hungria </p>
+<p>HBM Pharma s.r.o. 
+Slabinská 30, 03680 Martin 
+Eslováquia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg 
+ratiopharm GmbH 
+Allemagne/Deutschland 
+Tél/Tel: +49 73140 </p>
+<p>Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+ratiopharm GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+Specifar A.B.E.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+ratiopharm - Comércio e Indústria de Produtos 
+Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Alvogen ehf. 
+Sími: +354 5222 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+Specifar A.B.E.E. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -839,6 +1284,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-78817b35263746b79687cd6c5a122f9f"
 * entry[0].resource = composition-da-78817b35263746b79687cd6c5a122f9f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp78817b35263746b79687cd6c5a122f9f"
+* entry[=].resource = mp78817b35263746b79687cd6c5a122f9f
+                            
+                    
+Instance: bundlepackageleaflet-pt-78817b35263746b79687cd6c5a122f9f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for memantine Package Leaflet for language pt"
+Description: "ePI document Bundle for memantine Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-78817b35263746b79687cd6c5a122f9f"
+* entry[0].resource = composition-pt-78817b35263746b79687cd6c5a122f9f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp78817b35263746b79687cd6c5a122f9f"
@@ -940,6 +1407,18 @@ RuleSet: 78817b35263746b79687cd6c5a122f9fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-78817b35263746b79687cd6c5a122f9f) // memantine pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

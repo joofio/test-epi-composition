@@ -750,6 +750,387 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-bef5164082ea0e74f1594414cc1788ab
+InstanceOf: CompositionUvEpi
+Title: "Composition for tandemact Package Leaflet"
+Description:  "Composition for tandemact Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbef5164082ea0e74f1594414cc1788ab)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tandemact"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Tandemact e para que é utilizado 
+2. O que precisa de saber antes de tomar Tandemact 
+3. Como tomar Tandemact 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Tandemact 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tandemact e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tandemact e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tandemact contém pioglitazona e glimepirida, que são medicamentos antidiabéticos, utilizados para 
+controlar o nível de açúcar no sangue. </p>
+<p>É utilizado em adultos quando a metformina não é adequada para o tratamento da diabetes mellitus 
+tipo 2 (não dependente de insulina). Esta diabetes tipo 2 é aquela que normalmente se desenvolve na 
+idade adulta, quando o organismo não produz insulina (uma hormona que controla os níveis de açúcar 
+no sangue) suficiente ou não consegue utilizar eficazmente a insulina que produz. </p>
+<p>Tandemact ajuda a controlar o nível de açúcar no sangue, quando tem diabetes tipo 2, aumentando a 
+quantidade de insulina disponível e ajudando o seu corpo a utilizá-la melhor. Três a seis meses após 
+ter começado a tomar Tandemact, o seu médico irá verificar se o medicamento está a ter efeito.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tandemact"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tandemact"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Tandemact 
+- se tem alergia à pioglitazona, glimepirida, outras sulfonilureias ou sulfonamidas ou a qualquer 
+outro componente deste medicamento (indicados na secção 6) 
+- se tem ou já tiver tido insuficiência cardíaca 
+- se tem uma doença no fígado 
+- se tem cetoacidose diabética (uma complicação da diabetes com perda de peso rápida, náuseas 
+ou vómitos) 
+- se tem problemas graves nos rins 
+- se tem ou já tiver tido cancro da bexiga 
+- se tem sangue na urina sem que o seu médico tenha disso conhecimento 
+- se tem diabetes dependente de insulina (Tipo 1) 
+- se está em coma diabético 
+- se está grávida 
+- se está a amamentar </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Tandemact (ver também a secção 4): 
+- se tem um problema de coração. Alguns doentes que sofrem de diabetes mellitus tipo 2 e doença 
+cardíaca de longa duração ou AVC prévio e que foram tratados com pioglitazona e insulina 
+juntas desenvolveram insuficiência cardíaca. Informe o seu médico logo que possível se 
+apresentar sinais de insuficiência cardíaca, como falta de ar invulgar ou aumento rápido de peso 
+ou inchaço localizado (edema). 
+- se retém água (retenção de líquidos) ou se sofre de problemas de insuficiência cardíaca, 
+sobretudo se tiver mais de 75 anos de idade. Se tomar medicamentos anti-inflamatórios que 
+também podem causar retenção de líquidos e inchaço, deve também informar o seu médico. 
+- se sofre de um tipo especial de doença ocular devido à diabetes denominada edema macular 
+(inchaço da parte de trás do olho), fale com o seu médico caso observe qualquer alteração na sua 
+visão. 
+- se tem um problema no fígado. Antes de começar a tomar Tandemact deverá realizar análises ao 
+sangue para verificar a função hepática. Esta análise deve ser realizada periodicamente. Informe 
+o seu médico logo que possível se desenvolver sintomas sugestivos de um problema no fígado 
+(como sensação de enjoo sem explicações, vómitos, dor de estômago, cansaço, perda de apetite 
+e/ou urina escura) pois a sua função hepática deverá ser avaliada. 
+- se tem quistos nos ovários (síndroma do ovário poliquístico). Pode existir uma maior 
+possibilidade de engravidar porque poderá ovular novamente quando tomar Tandemact. Se isto 
+se aplicar ao seu caso, utilize contraceção adequada para evitar a possibilidade de uma gravidez 
+imprevista. 
+- se já está a tomar outros medicamentos para tratar a diabetes. 
+- se tem problemas com a enzima denominada Glicose-6-fosfatodesidrogenase uma vez que pode 
+diminuir os seus glóbulos vermelhos. </p>
+<p>É possível que também sofra uma redução da contagem de glóbulos vermelhos (anemia). O seu 
+médico poderá solicitar análises ao sangue para monitorizar os níveis de células do sangue e função do 
+fígado. </p>
+<p>Hipoglicemia 
+Quando toma Tandemact, o nível de açúcar no sangue pode descer para um nível inferior ao valor 
+normal (hipoglicemia). Se observar sintomas de hipoglicemia, como suores frios, cansaço, dor de 
+cabeça, batimento acelerado do coração, guinadas de fome, irritabilidade, nervosismo ou náuseas, 
+deverá ingerir algum açúcar para aumentar o nível de açúcar no sangue novamente. Solicite mais 
+informações ao seu médico ou farmacêutico caso não tenha a certeza como reconhecer estes sintomas. 
+É recomendado que tenha consigo alguns pacotes de açúcar, doces, bolachas ou sumo de fruta com 
+açúcar. </p>
+<p>Fraturas ósseas 
+Observou-se um número mais elevado de fraturas ósseas em doentes, particularmente mulheres, a 
+tomarem pioglitazona. O seu médico terá este facto em consideração durante o tratamento da sua 
+diabetes. </p>
+<p>Crianças e adolescentes 
+Não é recomendada a utilização em crianças e adolescentes com idade inferior a 18 anos. </p>
+<p>Outros medicamentos e Tandemact 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. Isto porque alguns medicamentos podem enfraquecer ou potenciar o 
+efeito de Tandemact sobre o nível de açúcar no sangue. </p>
+<p>Os seguintes medicamentos podem aumentar o efeito redutor do nível de açúcar no sangue de 
+Tandemact. Isto pode levar a um risco de hipoglicemia (nível baixo de açúcar no sangue): 
+- gemfibrozil e fibratos (para diminuir o nível alto de colesterol) 
+- insulina, metformina ou outros medicamentos para o tratamento da diabetes mellitus<br />
+- fenilbutazona, azopropazona, oxifenbutazona, medicamentos do tipo aspirina (para o tratamento 
+da dor e inflamação) 
+- sulfonamidas, tetraciclinas, cloranfenicol, fluconazol, miconazol, quinolonas, claritromicina de 
+longa duração de ação (para o tratamento de infeções bacterianas ou fúngicas) 
+- esteroides anabólicos (que suportam a construção muscular) ou terapia de substituição da 
+hormona sexual masculina 
+- fluoxetina, inibidores MAO (para o tratamento da depressão) 
+- inibidores da enzima conversora de angiotensina (iECA), simpatolíticos, disopiramida, 
+pentoxifilina, derivados cumarínicos, como varfarina (para o tratamento de problemas do 
+coração ou do sangue) 
+- alopurinol, probenecida, sulfinpirazona (para o tratamento da gota) 
+- ciclofosfamida, ifosfamida, trofosfamida (para o tratamento do cancro) 
+- fenfluramina (para redução do peso) 
+- tritoqualina (para o tratamento das alergias) </p>
+<p>Os seguintes medicamentos podem diminuir o efeito redutor do nível de açúcar no sangue de 
+Tandemact. Isto pode levar a um risco de hiperglicemia (nível elevado de açúcar no sangue): 
+- estrogénios, progestogénios (hormonas sexuais femininas) 
+- diuréticos e saluréticos tiazida (para o tratamento da pressão arterial alta) 
+- levotiroxina (para a estimulação da glândula da tiroide) 
+- glucocorticoides (para o tratamento de alergias e inflamação) 
+- cloropromazina e outros derivados da fenotiazina (para o tratamento de diversas perturbações 
+mentais graves) 
+- adrenalina e simpaticomiméticos (para aumentar o batimento cardíaco, para o tratamento da 
+asma ou congestão nasal, tosse e constipações ou utilizados em urgências potencialmente fatais) 
+- ácido nicotínico (para o tratamento do nível alto de colesterol) 
+- utilização a longo prazo de laxantes (para o tratamento da obstipação) 
+- fenitoína (para o tratamento de convulsões) 
+- barbitúricos (para o tratamento do nervosismo e distúrbios do sono) 
+- azetazolamida (para o tratamento de pressão aumentada no olho, também chamado de 
+glaucoma) 
+- diazóxido (para o tratamento da tensão arterial alta ou nível baixo de açúcar no sangue) 
+- rifampicina (para o tratamento de infeções, tuberculose) 
+- glucagon (para o tratamento de níveis baixos e graves de açúcar no sangue) </p>
+<p>Os seguintes medicamentos podem aumentar ou diminuir o efeito redutor do nível de açúcar no 
+sangue de Tandemact: 
+- antagonistas H2 (para o tratamento de úlceras no estômago) 
+- bloqueadores beta, clonidina, guanetidina e reserpina (para o tratamento da tensão arterial alta 
+ou insuficiência cardíaca). Estes podem também ocultar os sinais de hipoglicemia, sendo 
+necessárias precauções especiais quando tomar estes medicamentos </p>
+<p>Tandemact pode reforçar ou enfraquecer os efeitos dos seguintes medicamentos: 
+- derivados cumarínicos, como varfarina (para abrandar ou suspender a coagulação sanguínea) </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar algum destes medicamentos. O seu nível de 
+açúcar no sangue será verificado e é possível que a sua dose de Tandemact tenha de ser alterada. </p>
+<p>Tandemact com álcool 
+Evite tomar álcool durante a toma de Tandemact uma vez que o álcool pode aumentar ou diminuir a 
+ação redutora do nível de açúcar no sangue do Tandemact de uma forma imprevisível. </p>
+<p>Gravidez e amamentação 
+Não utilize Tandemact se estiver grávida. Deve informar o seu médico se está, pensa que está ou 
+estiver a planear engravidar. O seu médico irá aconselhá-la a descontinuar este medicamento. Não 
+utilize Tandemact se está a amamentar ou se está a planear amamentar o seu bebé (ver secção “Não 
+tome Tandemact"). </p>
+<p>Condução de veículos e utilização de máquinas 
+O estado de alerta e o tempo de reação podem ser afetados negativamente devido a níveis altos ou 
+baixos de açúcar no sangue provocados pela glimepirida, especialmente quando começa o tratamento 
+ou após uma alteração do tratamento, ou quando o Tandemact não é tomado regularmente. Isto pode 
+afetar a sua capacidade de condução ou de utilização de máquinas. 
+Tome cuidado no caso de visão alterada. </p>
+<p>Tandemact contém lactose mono-hidratada 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este Tandemact. </p>
+<p>Tandemact contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tandemact"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tandemact"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é de um comprimido tomado uma vez ao dia, um pouco antes ou com a primeira 
+refeição principal. O seu médico irá indicar-lhe qual a dose a tomar ou se é necessário mudar para uma 
+dose diferente. Deve engolir os comprimidos com um copo de água. </p>
+<p>Se tiver a sensação de que o efeito do Tandemact é demasiado fraco, fale com o seu médico. </p>
+<p>Se estiver a fazer uma dieta especial para diabetes, deve continuar enquanto estiver a tomar 
+Tandemact. </p>
+<p>O seu peso deve ser verificado a intervalos regulares; se aumentar de peso, informe o seu médico. </p>
+<p>O seu médico pedir-lhe-á para fazer uma análise de sangue periodicamente durante o tratamento com 
+Tandemact. </p>
+<p>Se tomar mais Tandemact do que deveria 
+Se tomar acidentalmente demasiados comprimidos, ou se outra pessoa ou uma criança tomar o seu 
+medicamento, fale imediatamente com o seu médico ou farmacêutico. O seu nível de açúcar no sangue 
+pode baixar para um nível inferior ao valor normal. Os sintomas podem incluir suor frio, cansaço, dor 
+de cabeça, batimento acelerado do coração, guinadas de fome, irritabilidade, nervosismo, náuseas, 
+coma ou convulsão. O seu nível de açúcar no sangue pode ser aumentado com a ingestão de açúcar. 
+Recomenda-se que leve consigo pacotes de açúcar, doces, bolachas ou sumos de fruta com açúcar. </p>
+<p>Caso se tenha esquecido de tomar Tandemact 
+Tome Tandemact diariamente conforme receitado. Contudo, no caso de se esquecer de uma dose, 
+ignore a dose esquecida e continue normalmente a tomar a dose seguinte. Não tome uma dose a dobrar 
+para compensar um comprimido que se esqueceu de tomar. </p>
+<p>Se parar de tomar Tandemact 
+Tandemact deve ser utilizado todos os dias para funcionar adequadamente. Se deixar de utilizar 
+Tandemact, é possível que o seu nível de açúcar no sangue aumente. Fale com o seu médico antes de 
+parar este tratamento.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Mais especificamente, os doentes têm sentido os seguintes efeitos indesejáveis graves: </p>
+<p>Cancro da bexiga tem sido pouco frequentemente observado (pode afetar até 1 em cada 100 pessoas) 
+em doentes a tomar Tandemact. Os sinais e sintomas incluem sangue na urina, dor ao urinar ou uma 
+necessidade urgente em urinar. Se sentir algum destes sintomas, fale com o seu médico assim que 
+possível. </p>
+<p>A hipoglicemia (baixa de açúcar no sangue) tem sido notificada com pouca frequência (pode afetar até 
+1 em cada 100 pessoas) nos doentes a tomarem Tandemact. Os sintomas podem incluir suor frio, 
+cansaço, dor de cabeça, batimento acelerado do coração, guinadas de fome, irritabilidade, nervosismo 
+ou náuseas. É importante saber quais os sintomas que poderá ter quando ocorre hipoglicemia (baixa de 
+açúcar no sangue). Fale com o seu médico ou farmacêutico caso não tenha a certeza como reconhecer 
+estes sintomas e o que deve fazer caso os sinta. </p>
+<p>A diminuição das plaquetas sanguíneas (que aumenta o risco de hemorragias ou hematomas), glóbulos 
+vermelhos (que torna a pele pálida e causa fraqueza ou falta de ar) e glóbulos brancos (que aumenta a 
+probabilidade de infeções) tem sido raramente notificada em doentes a tomar Tandemact (pode afetar 
+até 1 em cada 1000 pessoas). Se tiver este efeito indesejável, fale com o seu médico o mais 
+rapidamente possível. Geralmente, estes problemas melhoram depois de deixar de tomar Tandemact.  </p>
+<p>O inchaço localizado (edema) tem também afetado frequentemente (pode afetar até 1 em 
+cada 10 pessoas) os doentes a tomarem Tandemact em combinação com insulina. Se tiver este efeito 
+indesejável, fale com o seu médico logo que possível. </p>
+<p>Têm sido frequentemente notificadas fraturas ósseas (pode afetar até 1 em cada 10 pessoas) em 
+doentes do sexo feminino que tomam Tandemact e também têm sido relatados casos em doentes do 
+sexo masculino a tomar Tandemact (a frequência não pode ser estimada a partir dos dados 
+disponíveis). Se tiver este efeito indesejável, fale com o seu médico logo que possível. </p>
+<p>Foram também notificados casos de visão desfocada causada por inchaço (ou líquido) na parte de trás 
+do olho (edema macular) em doentes a tomar Tandemact (a frequência não pode ser calculada a partir 
+dos dados disponíveis). Se tiver este sintoma pela primeira vez, fale com o seu médico o mais 
+rapidamente possível. Do mesmo modo, se já sofrer de visão desfocada e o sintoma piorar, fale com o 
+seu médico logo que possível. </p>
+<p>Foram notificadas reações alérgicas com frequência desconhecida (não pode ser calculada a partir dos 
+dados disponíveis) em doentes a tomarem Tandemact. Se apresentar uma reação alérgica grave, 
+incluindo urticária e inchaço do rosto, lábios, língua ou garganta que possa causar dificuldade em 
+respirar ou engolir pare de tomar este medicamento e consulte o seu médico imediatamente. </p>
+<p>Os efeitos indesejáveis seguintes foram sentidos por alguns dos doentes que tomaram pioglitazona e 
+sulfonilureias, incluindo glimepirida: </p>
+<p>Frequentes (pode afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>aumento de peso </li>
+<li>tonturas </li>
+<li>gases </li>
+<li>infeção respiratória </li>
+<li>dormência </li>
+</ul>
+<p>Pouco frequentes (pode afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>dor de cabeça </li>
+<li>inflamação dos seios peri-nasais (sinusite) </li>
+<li>vertigens </li>
+<li>visão anormal </li>
+<li>transpiração </li>
+<li>cansaço </li>
+<li>dificuldade em dormir (insónia) </li>
+<li>baixa de açúcar no sangue </li>
+<li>açúcar na urina </li>
+<li>proteínas na urina </li>
+<li>aumento do apetite </li>
+<li>aumento de uma enzima chamada desidrogenase láctea (LDH) </li>
+</ul>
+<p>Raros (podem afetar até 1 em cada 1000 pessoas) 
+- alterações significativas no sangue </p>
+<p>Muito raros (podem afetar até 1 em cada 10000 pessoas) 
+- doença do fígado 
+- reações alérgicas incluindo choque alérgico 
+- sensação de enjoo (náuseas), vómitos e diarreia 
+- dor de estômago 
+- pressão abdominal 
+- sensação de estômago cheio 
+- sensibilidade à luz 
+- diminuição da concentração de sal (sódio) no sangue </p>
+<p>Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- aumento das enzimas hepáticas 
+- pele com comichão 
+- irritação cutânea com empolamento </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveisnão indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
+indesejáveisdiretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tandemact"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tandemact"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem e no blister, após 
+“EXP.". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tandemact 
+- As substâncias ativas são pioglitazona e glimepirida. 
+Cada comprimido de Tandemact 30 mg/2 mg contém 30 mg de pioglitazona (sob a forma de 
+cloridrato) e 2 mg de glimepirida. 
+Cada comprimido de Tandemact 30 mg/4 mg contém 30 mg de pioglitazona (sob a forma de 
+cloridrato) e 4 mg de glimepirida. 
+- Os outros componentes são celulose microcristalina, croscarmelose sódica, 
+hidroxipropilcelulose, lactose mono-hidratada (ver secção 2 ‘Tandemact contém lactose 
+mono-hidratada’), estearato de magnésio e polissorbato 80.<br />
+Qual o aspeto de Tandemact e conteúdo da embalagem 
+- Os comprimidos de Tandemact 30 mg/2 mg têm uma cor branca a branco sujo, forma redonda, 
+convexa e têm gravado "4833 G" num lado e ‘30/2’ no outro. 
+- Os comprimidos de Tandemact 30 mg/4 mg têm uma cor branca a branco sujo, forma redonda, 
+convexa e têm gravado "4833 G" num lado e ‘30/4’ no outro. 
+Os comprimidos são fornecidos em embalagens blister de alumínio/alumínio contendo comprimidos. </p>
+<p>Titular da autorização de introdução no mercado:<br />
+CHEPLAPHARM Arzneimittel GmbH 
+Ziegelhof 17489 Greifswald 
+Alemanha  </p>
+<p>Fabricante:<br />
+Takeda Ireland Limited, Bray Business Park, Kilruddery, County Wicklow, Irlanda 
+Delpharm Novara S.r.l., Via Crosa, 86, 28065 Cerano (NO), Itália 
+Takeda GmbH, Production Site Oranienburg, Lehnitzstrasse 70 - 98, 16515 Oranienburg, Alemanha </p>
+<p>Este folheto foi revisto pela última vez em 08/2023.  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -791,6 +1172,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-bef5164082ea0e74f1594414cc1788ab"
 * entry[0].resource = composition-da-bef5164082ea0e74f1594414cc1788ab
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbef5164082ea0e74f1594414cc1788ab"
+* entry[=].resource = mpbef5164082ea0e74f1594414cc1788ab
+                            
+                    
+Instance: bundlepackageleaflet-pt-bef5164082ea0e74f1594414cc1788ab
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tandemact Package Leaflet for language pt"
+Description: "ePI document Bundle for tandemact Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-bef5164082ea0e74f1594414cc1788ab"
+* entry[0].resource = composition-pt-bef5164082ea0e74f1594414cc1788ab
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpbef5164082ea0e74f1594414cc1788ab"
@@ -892,6 +1295,18 @@ RuleSet: bef5164082ea0e74f1594414cc1788abListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-bef5164082ea0e74f1594414cc1788ab) // tandemact pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

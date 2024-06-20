@@ -867,6 +867,517 @@ natriumchloridinjektionsvæske, opløsning, i polyvinylchloridposer eller polyol
 
 
 
+Instance: composition-pt-fa1d1dbf5b18ae3c108f87c843db6e2f
+InstanceOf: CompositionUvEpi
+Title: "Composition for vectibix Package Leaflet"
+Description:  "Composition for vectibix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfa1d1dbf5b18ae3c108f87c843db6e2f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - vectibix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Vectibix e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Vectibix </li>
+<li>Como utilizar Vectibix </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Vectibix </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é vectibix e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é vectibix e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vectibix é utilizado para o tratamento do cancro colo-retal metastizado (cancro do intestino) em 
+doentes adultos com um determinado tipo de tumor conhecido como “tumor RAS não mutado". 
+Vectibix é utilizado sozinho ou em combinação com outros medicamentos utilizados para tratar o 
+cancro. </p>
+<p>Vectibix contém a substância ativa panitumumab, que pertence a um grupo de medicamentos 
+chamados anticorpos monoclonais. Os anticorpos monoclonais são proteínas, que reconhecem e se 
+ligam especificamente a outras proteínas específicas existentes no corpo. </p>
+<p>Panitumumab reconhece e liga-se especificamente a uma proteína conhecida por recetor do fator de 
+crescimento epidérmico (EGFR), que se encontra na superfície de algumas células cancerosas. Quando 
+os fatores de crescimento (outras proteínas do nosso organismo) se ligam ao EGFR, a célula cancerosa 
+é estimulada a crescer e a dividir-se. Panitumumab liga-se ao EGFR e evita que as células cancerosas 
+recebam as mensagens de que necessitam para crescer e dividirem-se. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar vectibix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar vectibix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Vectibix </p>
+<ul>
+<li>
+<p>se tem alergia a panitumumab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). </p>
+</li>
+<li>
+<p>se teve anteriormente ou tem evidências de pneumonite intersticial (edema pulmonar que 
+provoca tosse e dificuldade em respirar) ou fibrose pulmonar (cicatrização e espessamento do 
+tecido pulmonar acompanhado de dificuldade em respirar). </p>
+</li>
+<li>
+<p>em combinação com quimioterapia com oxaliplatina, se as suas análises ao RAS mostrarem que 
+tem um tumor do tipo RAS mutado, ou se o tipo do seu tumor RAS for desconhecido. Por favor 
+contacte o seu médico se não tem a certeza do tipo RAS do seu tumor. </p>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Pode ter reações na pele ou inchaço grave e lesões cutâneas, no caso de estas se agravarem ou se 
+tornarem intoleráveis, informe o seu médico ou enfermeiro imediatamente. Se tiver graves reações ao 
+nível da pele, o seu médico poderá recomendar um ajuste da dose de Vectibix. Se desenvolver infeção 
+grave ou febre como resultado de reações na pele, o seu médico pode parar o seu tratamento com 
+Vectibix. </p>
+<p>Recomenda-se que limite a exposição ao sol enquanto estiver a receber Vectibix e se tiver reações na 
+pele, pois a luz solar pode agravá-las. Utilize protetor solar e um chapéu, no caso de se expor ao sol. O 
+seu médico poderá pedir-lhe que use um creme hidratante, um protetor solar (FPS &gt; 15), um creme 
+esteroide para aplicação na pele, e/ou antibióticos orais que poderão ajudar no tratamento das 
+toxicidades da pele que podem estar associadas à utilização de Vectibix. </p>
+<p>Antes de iniciar o tratamento com Vectibix, o seu médico irá verificar os seus valores sanguíneos no 
+que respeita a várias substâncias tais como magnésio, cálcio e potássio. O seu médico irá também 
+verificar periodicamente os seus valores sanguíneos no que respeita a magnésio e cálcio durante o seu 
+tratamento, e até 8 semanas após ter terminado o tratamento. Se estes valores estiverem 
+demasiadamente baixos, o seu médico pode-lhe prescrever suplementos apropriados. </p>
+<p>Se tiver uma diarreia grave por favor informe o seu médico ou enfermeiro uma vez que pode perder 
+muita água do seu corpo (ficar desidratado) e isto pode danificar os seus rins. </p>
+<p>Informe o seu médico se usa lentes de contacto e/ou tem algum historial de problemas oculares tais 
+como olho seco grave, inflamação da parte da frente do olho (córnea) ou úlceras envolvendo a parte da 
+frente do olho. </p>
+<p>Se desenvolver vermelhidão e dor aguda no olho ou agravamento destas, aumento do lacrimejo, visão 
+turva e/ou sensibilidade à luz, por favor informe o seu médico ou enfermeiro imediatamente porque 
+poderá necessitar de tratamento urgente (ver “Efeitos indesejáveis possíveis" em baixo). </p>
+<p>Com base na sua idade (mais de 65 anos) ou na sua saúde em geral, o seu médico falará consigo sobre 
+a sua capacidade de tolerar Vectibix com o seu tratamento de quimioterapia. </p>
+<p>Outros medicamentos e Vectibix </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar ou tiver tomado recentemente outros 
+medicamentos, incluindo medicamentos obtidos sem receita médica e medicamentos fitoterápicos. </p>
+<p>Vectibix não deve ser utilizado em combinação com bevacizumab (outro anticorpo monoclonal no 
+cancro dos intestinos) ou com outra combinação de quimioterapia conhecida como “IFL". </p>
+<p>Gravidez e amamentação </p>
+<p>Vectibix não foi testado em mulheres grávidas. É importante informar o seu médico se está grávida, 
+pensa que possa estar grávida ou planeia engravidar. Vectibix pode afetar o seu feto ou a sua 
+capacidade de manter a gravidez. </p>
+<p>Se for uma mulher em idade fértil, deve utilizar métodos eficazes de contraceção durante o tratamento 
+com Vectibix e até 2 meses após a última dose. </p>
+<p>Não é recomendável que amamente o seu bebé durante o tratamento com Vectibix e até 2 meses após 
+a última dose. É importante informar o seu médico se planeia amamentar. </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Deve falar com o seu médico antes de conduzir ou utilizar máquinas, pois alguns efeitos indesejáveis 
+podem afetar a sua capacidade para o fazer em segurança. </p>
+<p>Vectibix contém sódio </p>
+<p>Este medicamento contém 3,45 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
+cada ml. Isto é equivalente a 0,17% da ingestão diária máxima de sódio recomendada na dieta para um 
+adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar vectibix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar vectibix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vectibix será administrado numa unidade de cuidados de saúde sob a supervisão de um médico com 
+experiência na utilização de medicamentos anticancerígenos. </p>
+<p>Vectibix é administrado por via intravenosa (numa veia) com uma bomba de perfusão (um dispositivo 
+que permite uma injeção lenta). </p>
+<p>A dose recomendada para Vectibix é de 6 mg/kg (miligramas por quilograma de peso corporal) 
+administrada uma vez de duas em duas semanas. O tratamento será geralmente administrado durante 
+um período de aproximadamente 60 minutos. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis mais graves e principais de Vectibix estão listados em baixo: </p>
+<p>Reações relacionadas com a perfusão </p>
+<p>Durante ou após o tratamento pode ter uma reação relacionada com a perfusão. Esta pode ser ligeira a 
+moderada (pode ocorrer em aproximadamente 5 em cada 100 pessoas a utilizar Vectibix), ou grave 
+(pode ocorrer em 1 em cada 100 pessoas a utilizar Vectibix). Os sintomas podem incluir dores de 
+cabeça, erupção na pele, comichão ou urticária, vermelhidão, inchaço (face, lábios, boca, à volta dos 
+olhos, e zona da garganta), batimento cardíaco acelerado e irregular, pulsação acelerada, suores, 
+náuseas, vómitos, tonturas, dificuldade em respirar ou engolir, ou uma diminuição da tensão arterial 
+que pode ser grave ou colocar a vida em risco e, muito raramente, pode levar à morte. Se teve alguns 
+destes sintomas, deve informar o seu médico imediatamente. O seu médico pode decidir reduzir a sua 
+taxa de perfusão ou descontinuar o tratamento com Vectibix. </p>
+<p>Reações alérgicas </p>
+<p>Muito raramente, reações alérgicas graves (hipersensibilidade) que envolvem sintomas similares aos 
+de uma reação relacionada com a perfusão (ver “Reações relacionadas com a perfusão") ocorreram 
+mais de 24 horas após o tratamento e tiveram um resultado fatal. Procure ajuda médica imediatamente 
+se tiver alguns sintomas de reação alérgica a Vectibix, incluindo mas não limitado a dificuldade em 
+respirar, sensação de aperto no peito, sensação de choque, tonturas ou desmaios. </p>
+<p>Reações na pele </p>
+<p>Reações na pele são prováveis de ocorrer em aproximadamente 94 em cada 100 pessoas a utilizar 
+Vectibix e são geralmente reações ligeiras a moderadas. As erupções na pele assemelham-se a acne e 
+envolvem frequentemente a face, a parte superior do peito e das costas, mas pode afetar qualquer área 
+do corpo. Algumas erupções na pele têm sido associadas a vermelhidão, comichão e escamação da 
+pele que pode tornar-se grave. Nalguns casos, pode causar feridas que infetam requerendo tratamento 
+médico ou cirúrgico, ou causar infeções graves na pele que em casos raros pode ser fatal. Em casos 
+raros os doentes podem apresentar a formação de bolhas na pele, boca, olhos e genitais, os quais 
+podem indicar uma reação cutânea grave conhecida por “síndrome de Stevens-Johnson" ou a 
+formação de bolhas na pele, que podem indicar uma reação cutânea grave conhecida por “necrólise 
+epidérmica tóxica". Se desenvolver bolhas deverá contactar imediatamente o seu médico. Exposição 
+prolongada ao sol pode agravar a erupção na pele. Também, secura da pele, fissuras (rachas na pele) 
+nos dedos das mãos ou dos pés, infeção ou inflamação das unhas (paroníquia) têm sido notificadas. 
+Quando o tratamento é parado ou descontinuado, as reações na pele geralmente curam-se. O seu 
+médico pode decidir tratar a erupção na pele, ajustar a dose ou descontinuar o seu tratamento com 
+Vectibix. </p>
+<p>Outros efeitos indesejáveis incluem: </p>
+<p>Muito frequentes: podem afetar mais de 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>baixo número de glóbulos vermelhos no sangue (anemia); valores baixos de potássio no sangue 
+(hipocaliemia); valores baixos de magnésio no sangue (hipomagnesemia); </p>
+</li>
+<li>
+<p>inflamação dos olhos (conjuntivite); </p>
+</li>
+<li>
+<p>erupção na pele, local ou generalizada, que pode ser irregular (com ou sem manchas), comichão, 
+vermelhidão ou descamação; </p>
+</li>
+<li>
+<p>perda de cabelo (alopecia); feridas e aftas na boca (estomatite); inflamação da boca (inflamação 
+das mucosas); </p>
+</li>
+<li>
+<p>diarreia; náuseas; vómitos; dor abdominal; obstipação (prisão de ventre); diminuição do apetite; 
+perda de peso; </p>
+</li>
+<li>
+<p>cansaço extremo (fadiga); febre ou temperatura elevada (pirexia); falta ou perda de força 
+(astenia); acumulação de líquido nas extremidades (edema periférico); </p>
+</li>
+<li>
+<p>dor nas costas; </p>
+</li>
+<li>
+<p>incapacidade de dormir (insónia); </p>
+</li>
+<li>
+<p>tosse; dispneia (dificuldades em respirar). </p>
+</li>
+</ul>
+<p>Frequentes: podem afetar até 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>baixo número de glóbulos brancos no sangue (leucopenia); valores baixos de cálcio no sangue 
+(hipocalcemia); valores baixos de fosfato no sangue (hipofosfatemia); aumento da glicose no 
+sangue (hiperglicemia); </p>
+</li>
+<li>
+<p>crescimento das pestanas; aumento do lacrimejar (fluxo de lágrimas); vermelhidão dos olhos 
+(hiperemia ocular); olhos secos; comichão nos olhos (prurido nos olhos); irritação nos olhos; 
+inflamação das pálpebras (blefarite); </p>
+</li>
+<li>
+<p>feridas na pele; crostas; crescimento excessivo de pelos (hipertricose); vermelhidão e inchaço 
+das palmas das mãos ou solas dos pés (síndrome mão-pé); suar em excesso (hiperidrose); reação 
+na pele (dermatite); </p>
+</li>
+<li>
+<p>infeção disseminada por baixo da pele (celulite); inflamação do folículo piloso (foliculite); 
+infeção localizada; reação na pele com bolhas com pus (erupção pustulosa); infeção do trato 
+urinário; </p>
+</li>
+<li>
+<p>doenças das unhas; quebra das unhas (onicoclasia); </p>
+</li>
+<li>
+<p>desidratação; </p>
+</li>
+<li>
+<p>secura da boca; indigestão (dispepsia); sangramento do reto (hemorragia retal); inflamação dos 
+lábios (quilite); azia (refluxo gastroesofágico); </p>
+</li>
+<li>
+<p>dor no peito; dor; arrepios; dor nas extremidades; reação imune (hipersensibilidade); aumento 
+da frequência cardíaca (taquicardia); </p>
+</li>
+<li>
+<p>coágulo sanguíneo no pulmão (embolia pulmonar) cujos sintomas podem ter início repentino de 
+falta de ar ou dor no peito; sangramento nasal (epistaxe); coágulo sanguíneo nas veias profundas 
+(trombose venosa profunda); pressão sanguínea elevada (hipertensão); afrontamentos; </p>
+</li>
+<li>
+<p>dores de cabeça; tonturas; ansiedade. </p>
+</li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em 100 pessoas </p>
+<ul>
+<li>
+<p>coloração azulada da pele e membranas mucosas (cianose); </p>
+</li>
+<li>
+<p>morte das células da pele (necrose cutânea); </p>
+</li>
+<li>
+<p>reação cutânea grave com formação de bolhas na pele, boca, olhos e genitais (síndrome de 
+Stevens-Johnson); </p>
+</li>
+<li>
+<p>reação cutânea grave com formação de bolhas na pele (necrólise epidérmica tóxica); </p>
+</li>
+<li>
+<p>uma situação grave de ulceração na parte da frente do olho (córnea) que requer tratamento 
+urgente (queratite ulcerativa); </p>
+</li>
+<li>
+<p>inflamação na parte da frente do olho (córnea) (queratite); </p>
+</li>
+<li>
+<p>irritação das pálpebras; lábios gretados e/ou lábios secos; infeção nos olhos; infeção das 
+pálpebras; secura nasal; desprendimento das unhas (onicólise); unhas encravadas; crescimento 
+excessivo de pelos (hirsutismo); </p>
+</li>
+<li>
+<p>inflamação nos pulmões (doença pulmonar intersticial). </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar vectibix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar vectibix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vectibix deve ser conservado nas instalações de saúde onde é utilizado. </p>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Conservar no frigorífico (2°C - 8°C). 
+Não congelar. 
+Conservar na embalagem de origem para proteger da luz. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e embalagem exterior após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas irão ajudar a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Vectibix </p>
+<ul>
+<li>
+<p>Cada ml de concentrado contém 20 mg de panitumumab. Cada frasco para injetáveis contém 
+100 mg de panitumumab em 5 ml ou 400 mg de panitumumab em 20 ml. </p>
+</li>
+<li>
+<p>Os outros componentes são cloreto de sódio, acetato de sódio trihidratado, ácido acético 
+(glacial) e água para preparações injetáveis. Ver secção 2 "Vectibix contém sódio". </p>
+</li>
+</ul>
+<p>Qual o aspeto de Vectibix e conteúdo da embalagem </p>
+<p>Vectibix é um líquido incolor que pode conter partículas visíveis e é fornecido num frasco de vidro 
+para injetáveis. Cada embalagem contém um frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+Países Baixos </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+Países Baixos </p>
+<p>Fabricante 
+Amgen Technology (Ireland) Unlimited Company 
+Pottery Road 
+Dun Laoghaire 
+Co Dublin 
+Irlanda </p>
+<p>Fabricante 
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Bélgica </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+s.a. Amgen n.v. 
+Tel/Tél: +32 (0)2 7752 
+Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7 
+България 
+Амджен България ЕООД 
+Тел.: +359 (0)2 424 7Luxembourg/Luxemburg 
+s.a. Amgen 
+Belgique/Belgien 
+Tel/Tél: +32 (0)2 7752 
+Česká republika 
+Amgen s.r.o. 
+Tel: +420 221 773<br />
+Magyarország 
+Amgen Kft. 
+Tel.: +36 1 35 44<br />
+Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617 
+Malta 
+Amgen S.r.l. 
+Italia 
+Tel: +39 02 6241 
+Deutschland 
+Amgen GmbH 
+Tel.: +49 89 1490 
+Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732 
+Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09 
+Norge 
+Amgen AB 
+Tel: +47 23308 
+Ελλάδα 
+Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε. 
+Τηλ.: +30 210 3447 
+Österreich 
+Amgen GmbH 
+Tel: +43 (0)1 50<br />
+España 
+Amgen S.A. 
+Tel: +34 93 600 18<br />
+Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3 
+France 
+Amgen S.A.S. 
+Tél: +33 (0)9 69 363<br />
+Portugal 
+Amgen Biofarmacêutica, Lda. 
+Tel: +351 21 4220 
+Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57<br />
+România 
+Amgen România SRL 
+Tel: +4021 527 3 
+Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527 
+Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2 321 114<br />
+Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241 
+Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900 
+Kύπρος 
+C.A. Papaellinas Ltd 
+Τηλ.: +357 22741<br />
+Sverige 
+Amgen AB 
+Tel: +46 (0)8 6951 
+Latvija 
+Amgen Switzerland AG Rīgas filiāle 
+Tel: +371 257 25 
+United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420 </p>
+<p>Este folheto informativo foi revisto pela última vez em </p>
+<p>Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu/. </p>
+<hr />
+<p>A informação que se segue destina-se apenas aos profissionais de saúde: </p>
+<p>Vectibix destina-se a uma única utilização. Vectibix deve ser diluído numa solução para injetáveis de 
+cloreto de sódio 9 mg/ml (0,9%) pelo profissional de saúde, utilizando técnica assética. Não mexa nem 
+agite vigorosamente o frasco para injetáveis. Vectibix deve ser inspecionado visualmente antes da 
+administração. A solução deve ser incolor e pode conter partículas proteináceas de panitumumab, 
+translúcidas a brancas, amorfas visíveis (que podem ser removidas por filtração em linha). Não 
+administre Vectibix se o seu aspeto não for como o descrito em cima. Utilize apenas uma agulha 
+hipodérmica de calibre 21 ou de diâmetro inferior, retire a quantidade necessária de Vectibix para uma 
+dose de 6 mg/kg. Não utilize dispositivos sem agulha (p. ex., adaptadores de frascos) para retirar o 
+conteúdo do frasco para injetáveis. Dilua num volume total de 100 ml. Doses superiores a 1.000 mg 
+devem ser diluídas em 150 ml de uma solução para injetáveis de cloreto de sódio 9 mg/ml (0,9%). A 
+concentração final não deve exceder os 10 mg/ml. A solução diluída deve ser misturada por inversão 
+suave, não agite. </p>
+<p>Vectibix não contém nenhum conservante antimicrobiano ou agente bacteriostático. O medicamento 
+deve ser utilizado imediatamente após a diluição. Caso não seja utilizado imediatamente, as condições 
+e tempo de conservação antes da utilização são da responsabilidade do utilizador e não devem 
+ultrapassar 24 horas a uma temperatura entre 2°C - 8°C. A solução diluída não pode ser congelada. </p>
+<p>Elimine o frasco para injetáveis e qualquer líquido remanescente do frasco para injetáveis após a 
+utilização única. </p>
+<p>A linha de perfusão deve ser irrigada com uma solução de cloreto de sódio antes e após a 
+administração de Vectibix para evitar misturar com outros medicamentos ou soluções intravenosas. </p>
+<p>Vectibix deve ser administrado na forma de uma perfusão intravenosa através de uma bomba de 
+perfusão, utilizando um filtro em linha de 0,2 ou 0,22 micrómetros, com baixa capacidade de ligação 
+às proteínas, através de uma linha periférica ou cateter de permanência. O tempo de perfusão 
+recomendado é de, aproximadamente, 60 minutos. Doses superiores a 1.000 mg devem ser 
+perfundidas durante aproximadamente 90 minutos. </p>
+<p>Não foram observadas incompatibilidades entre Vectibix e a solução para injetáveis de cloreto de 
+sódio 9 mg/ml (0,9%) em sacos de cloreto de polivinil ou em sacos de poliolefina. </p>         </div>"""      
+
+
+
 
 
                     
@@ -908,6 +1419,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-fa1d1dbf5b18ae3c108f87c843db6e2f"
 * entry[0].resource = composition-da-fa1d1dbf5b18ae3c108f87c843db6e2f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfa1d1dbf5b18ae3c108f87c843db6e2f"
+* entry[=].resource = mpfa1d1dbf5b18ae3c108f87c843db6e2f
+                            
+                    
+Instance: bundlepackageleaflet-pt-fa1d1dbf5b18ae3c108f87c843db6e2f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vectibix Package Leaflet for language pt"
+Description: "ePI document Bundle for vectibix Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-fa1d1dbf5b18ae3c108f87c843db6e2f"
+* entry[0].resource = composition-pt-fa1d1dbf5b18ae3c108f87c843db6e2f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpfa1d1dbf5b18ae3c108f87c843db6e2f"
@@ -1009,6 +1542,18 @@ RuleSet: fa1d1dbf5b18ae3c108f87c843db6e2fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-fa1d1dbf5b18ae3c108f87c843db6e2f) // vectibix pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

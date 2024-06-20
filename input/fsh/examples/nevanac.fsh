@@ -770,6 +770,400 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-4e04d92c0b9ceaa06795f86e3a393ec2
+InstanceOf: CompositionUvEpi
+Title: "Composition for nevanac Package Leaflet"
+Description:  "Composition for nevanac Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4e04d92c0b9ceaa06795f86e3a393ec2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - nevanac"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é NEVANAC e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar NEVANAC </li>
+<li>Como utilizar NEVANAC </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar NEVANAC </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é nevanac e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é nevanac e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NEVANAC contém a substância ativa nepafenac e pertence ao grupo de medicamentos chamados 
+anti-inflamatórios não-esteroides (AINE). </p>
+<p>NEVANAC é utilizado nos adultos: 
+- para prevenir e aliviar a dor e a inflamação dos olhos, após cirurgia da catarata 
+- reduzir o risco de edema macular (inchaço na parte posterior do olho) após cirurgia da 
+catarata, em doentes diabéticos </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar nevanac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar nevanac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize NEVANAC 
+- se tem alergia ao nepafenac ou a qualquer outro componente deste medicamento (indicados 
+na secção 6) 
+- se for alérgico a qualquer outro medicamento anti-inflamatório não esteroide (AINE) 
+- se tiver tido asma, alergia na pele ou inflamação intensa no nariz ao usar outros AINE. 
+Exemplos de medicamentos AINE são: ácido acetilsalicílico, ibuprofeno, cetoprofeno, 
+piroxicam, diclofenac. </p>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar NEVANAC: 
+- se faz equimoses com facilidade ou se tem problemas hemorrágicos ou se os teve no 
+passado. 
+- se sofre de uma outra afeção ocular (ex., uma infeção ocular) ou se está a realizar outras 
+terapêuticas no olho (especialmente esteroides tópicos). 
+- se for diabético.se tiver artrite reumatoide. 
+- se tiver de repetir a cirurgia ocular dentro de um curto período de tempo. </p>
+<p>Evite a luz solar durante o tratamento com NEVANAC. </p>
+<p>Não se recomenda o uso de lentes de contacto após a cirurgia da catarata. O seu médico deverá 
+aconselhá-lo quando poderá voltar a usar lentes de contacto. (ver também “NEVANAC contém 
+cloreto de benzalcónio"). </p>
+<p>Crianças e adolescentes 
+Não utilize este medicamento em crianças e adolescentes com idade inferior a 18 anos uma vez que 
+a segurança e eficácia nesta população não foi estabelecida. </p>
+<p>Outros medicamentos e NEVANAC 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>NEVANAC pode afetar ou ser afetado por outros medicamentos que esteja a tomar, incluindo 
+outros colírios para o tratamento do glaucoma. </p>
+<p>Informe o seu médico se estiver a tomar anticoagulantes (varfarina) ou outros AINE. Estes podem 
+aumentar o risco de hemorragia. </p>
+<p>Gravidez e amamentação 
+Se estiver grávida, ou se estiver a planear engravidar, fale com o seu médico antes de utilizar o 
+NEVANAC. Mulheres que possam engravidar são aconselhadas a utilizar uma contraceção eficaz 
+durante o tratamento com NEVANAC. Não se recomenda o uso de NEVANAC durante a gravidez. 
+Não utilize NEVANAC exceto se o seu médico indicar. </p>
+<p>Se estiver a amamentar, o NEVANAC poderá passar através do leite. No entanto, não são de 
+esperar efeitos no lactente. O NEVANAC pode ser utilizado durante a amamentação. </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico ou farmacêutico antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza nem utilize máquinas até que a sua visão fique nítida. Após a administração do 
+NEVANAC poderá sentir a visão turva durante algum tempo. </p>
+<p>NEVANAC contém cloreto de benzalcónio </p>
+<p>Este medicamento contém 0,25 mg de cloreto de benzalcónio em cada 5 ml, que é equivalente a 
+0,05 mg/ml. </p>
+<p>O conservante do NEVANAC, cloreto de benzalcónio, ser absorvido pelas lentes de contacto moles 
+e pode alterar a cor das lentes de contacto. Deve remover as lentes de contacto antes da utilização 
+deste medicamento e voltar a colocá-las 15 minutos depois. O cloreto de benzalcónio pode também 
+causar irritação nos olhos, especialmente se tem os olhos secos ou alterações da córnea (a camada 
+transparente na parte da frente do olho). Se tiver uma sensação estranha no olho, picadas ou dor no 
+olho após utilizar este medicamento, fale com o seu médico. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar nevanac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar nevanac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o 
+seu médico ou farmacêutico se tiver dúvidas </p>
+<p>Utilize apenas o NEVANAC nos seus olhos. Não engula nem injete. </p>
+<p>A dose recomendada é 
+Uma gota no(s) olho(s) afetado(s), três vezes ao dia-de manhã, ao meio-dia e à noite. Estas 
+administrações devem ser feitas sempre à mesma hora. </p>
+<p>Quando aplicar e durante quanto tempo 
+Iniciar 1 dia antes da cirurgia da catarata. Continuar no dia da cirurgia. Após a cirurgia, a duração 
+do tratamento deverá ser indicada pelo médico. Poderá ser até 3 semanas (para prevenir e aliviar a 
+dor e inflamação ocular) ou 60 dias (para prevenir o desenvolvimento de edema macular) após a 
+cirurgia. </p>
+<p>Como utilizar 
+Lave as mãos antes de começar. </p>
+<p>1 
+2 </p>
+<ul>
+<li>
+<p>Agitar bem antes de usar. </p>
+</li>
+<li>
+<p>Retire a tampa de rosca. </p>
+</li>
+<li>
+<p>Se após retirar a tampa, o selo de proteção estiver solto, retire-o antes de utilizar o produto. </p>
+</li>
+<li>
+<p>Segure o frasco de cabeça para baixo, apertando entre o polegar e os dedos. </p>
+</li>
+<li>
+<p>Incline a cabeça para trás. </p>
+</li>
+<li>
+<p>Com um dedo limpo, puxe a pálpebra inferior para baixo até que se forme uma ‘bolsa’ entre 
+a pálpebra e o olho. É aí que deve cair a gota (figura 1). </p>
+</li>
+<li>
+<p>Aproxime o conta-gotas do olho. Se ajudar, faça-o em frente ao espelho. </p>
+</li>
+<li>
+<p>Não toque no olho ou na pálpebra, zonas circundantes ou outras superfícies com o conta-
+gotas. Poderá contaminar o colírio. </p>
+</li>
+<li>
+<p>Pressione ligeiramente o frasco de forma a libertar uma gota de NEVANAC de cada vez </p>
+</li>
+<li>
+<p>Não aperte o frasco: uma ligeira pressão no frasco é suficiente para o efeito (figura 2) </p>
+</li>
+</ul>
+<p>Se estiver a utilizar as gotas em ambos os olhos, repita os passos descritos para o outro olho. Após 
+a utilização, feche imediatamente o frasco, apertando bem a tampa. </p>
+<p>Se não acertar com a gota no olho, tente de novo. </p>
+<p>Se estiver a utilizar outro colírio, espere pelo menos 5 minutos entre a utilização de NEVANAC e 
+do outro colírio. </p>
+<p>Se utilizar mais NEVANAC do que deveria 
+Contacte o seu médico para obter instruções detalhadas. Não deve colocar mais gotas até à hora da 
+próxima dose. </p>
+<p>Caso se tenha esquecido de utilizar NEVANAC 
+Aplique uma só dose assim que se lembrar. Se já estiver próximo da aplicação seguinte, ignore a 
+dose esquecida e continue com a dose seguinte como habitual. Não faça uma segunda 
+administração para compensar a dose esquecida. Não aplique mais de uma gota no(s) olho(s) 
+afetado(s) 3 vezes ao dia. </p>
+<p>Se parar de utilizar NEVANAC 
+Não pare de utilizar NEVANAC sem falar primeiro com o seu médico. Em geral, pode continuar a 
+utilizar as gotas, a não ser que os efeitos indesejáveis sejam graves. Se está preocupado fale com o 
+seu medico ou farmacêutico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, 
+farmacêutico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes 
+não se manifestem em todas as pessoas. </p>
+<p>Pode existir um risco mais elevado de efeitos adversos na córnea (problemas na superfície ocular) 
+se tiver: </p>
+<ul>
+<li>Complicações da cirurgia ocular </li>
+<li>Repetição da cirurgia ocular num curto espaço de tempo </li>
+<li>Algumas doenças da superfície ocular, tais como inflamação ou olho seco </li>
+<li>Alguma doenças gerais, tais como diabetes ou artrite reumatoide </li>
+</ul>
+<p>Contacte de imediato o seu médico se os seus olhos ficarem mais vermelhos ou mais doridos 
+durante a utilização das gotas. Isto pode ser resultado de uma inflamação da superfície do olho com 
+ou sem perda ou dano das células ou uma inflamação da parte colorida do olho (irite). Estes efeitos 
+adversos foram observados em até 1 em cada 100 indivíduos. </p>
+<p>Foram também observados os seguintes efeitos indesejáveis com NEVANAC 1 mg/ml colírio, 
+suspensão ou NEVANAC 3 mg/ml colírio, suspensão ou ambos: </p>
+<p>Pouco frequentes (podem afetar até 1em cada 100 utilizadores) </p>
+<ul>
+<li>Efeitos oculares: inflamação da superfície ocular com ou sem perda ou danos celulares, 
+sensação de corpo estranho nos olhos, descida ou encrostamento das pálpebras </li>
+</ul>
+<p>Raros (podem afetar até 1em cada 1000 utilizadores) </p>
+<ul>
+<li>
+<p>Efeitos oculares: inflamação da íris, dor ocular, desconforto ocular, olho seco, inchaço da 
+pálpebra do olho, irritação ocular, comichão, descarga ocular, conjuntivite alérgica (alergia 
+ocular), aumento do fluxo lacrimal, depósitos na superfície do olho, líquido ou inchaço na 
+parte de trás do olho, vermelhidão. </p>
+</li>
+<li>
+<p>Efeitos indesejáveis gerais: tonturas, dor de cabeça, sintomas alérgicos (inchaço alérgico 
+das pálpebras), náuseas, inflamação, vermelhidão e comichão da pele. </p>
+</li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada com base nos dados conhecidos) </p>
+<ul>
+<li>
+<p>Efeitos oculares: lesão na superfície ocular tal como diminuição ou perfuração da mesma, 
+dificuldade de cicatrização do olho, cicatriz na superfície do olho, névoa, visão reduzida, 
+inchaço ocular, visão turva. </p>
+</li>
+<li>
+<p>Efeitos indesejáveis gerais: vómitos, tensão arterial aumentada </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar nevanac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar nevanac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 30˚C. </p>
+<p>Deite fora o frasco 4 semanas após a primeira abertura para evitar infeções. Escreva a data de 
+abertura no rótulo do frasco e na caixa, no espaço indicado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de NEVANAC 
+- A substância ativa é o nepafenac. Um ml de suspensão contém 1 mg de nepafenac. 
+- Os outros componentes são cloreto de benzalcónio (ver secção 2), carbómero, edetato 
+dissódico, manitol, água purificada, cloreto de sódio e tiloxapol. São adicionadas pequenas 
+quantidades de hidróxido de sódio e/ou ácido clorídrico para manter os níveis de acidez 
+(níveis de pH) normais. </p>
+<p>Qual o aspeto de NEVANAC e o conteúdo da embalagem 
+O NEVANAC é um líquido (suspensão de cor amarela clara a cor de laranja clara) fornecido numa 
+embalagem que contém um frasco plástico de 5 ml com uma tampa de rosca. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+S.A. Alcon-Couvreur N.V. 
+Rijksweg B-2870 Puurs 
+Bélgica </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberga 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do 
+Titular de Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775 Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 
+Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52<br />
+Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4 
+France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299<br />
+Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: + 421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 </p>
+<p>Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 
+Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -811,6 +1205,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-4e04d92c0b9ceaa06795f86e3a393ec2"
 * entry[0].resource = composition-da-4e04d92c0b9ceaa06795f86e3a393ec2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4e04d92c0b9ceaa06795f86e3a393ec2"
+* entry[=].resource = mp4e04d92c0b9ceaa06795f86e3a393ec2
+                            
+                    
+Instance: bundlepackageleaflet-pt-4e04d92c0b9ceaa06795f86e3a393ec2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nevanac Package Leaflet for language pt"
+Description: "ePI document Bundle for nevanac Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-4e04d92c0b9ceaa06795f86e3a393ec2"
+* entry[0].resource = composition-pt-4e04d92c0b9ceaa06795f86e3a393ec2
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp4e04d92c0b9ceaa06795f86e3a393ec2"
@@ -912,6 +1328,18 @@ RuleSet: 4e04d92c0b9ceaa06795f86e3a393ec2ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-4e04d92c0b9ceaa06795f86e3a393ec2) // nevanac pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

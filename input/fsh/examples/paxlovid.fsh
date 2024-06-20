@@ -1005,6 +1005,578 @@ hjemmeside.</p>         </div>"""
 
 
 
+Instance: composition-pt-c01e0605e2e3c43213448cfeba0686aa
+InstanceOf: CompositionUvEpi
+Title: "Composition for paxlovid Package Leaflet"
+Description:  "Composition for paxlovid Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc01e0605e2e3c43213448cfeba0686aa)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - paxlovid"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Paxlovid e para que é utilizado 
+2. O que precisa de saber antes de tomar Paxlovid
+3. Como tomar Paxlovid
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Paxlovid
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é paxlovid e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é paxlovid e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Paxlovid contém duas substâncias ativas nirmatrelvir e ritonavir em dois comprimidos diferentes. 
+Paxlovid é um medicamento antiviral utilizado para tratar doentes adultos com COVID-19 que não 
+necessitem de oxigénio suplementar e com risco aumentado de progredirem para doença grave.
+A COVID-19 é causada por um vírus chamado coronavírus. Paxlovid impede o vírus de se multiplicar 
+nas células, e isto interrompe a multiplicação do vírus no organismo. Isto pode ajudar o seu organismo 
+a combater a infeção viral e poderá prevenir a evolução para formas graves da doença.
+Se os seus sintomas piorarem ou não melhorarem após 5 dias, fale com o seu médico.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar paxlovid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar paxlovid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Paxlovid</h2>
+<p>se tem alergia ao nirmatrelvir, ao ritonavir ou a qualquer outro componente de Paxlovid 
+(indicados na secção 6). 
+-
+se está a tomar algum dos seguintes medicamentos. Tomar Paxlovid com estes medicamentos 
+pode causar efeitos indesejáveis graves ou potencialmente fatais ou afetar o modo como 
+Paxlovid atua:
+-
+Alfuzosina (utilizada para tratar sintomas de aumento do volume da próstata) 
+-
+Ranolazina (utilizada para tratar a angina de peito)
+-
+Dronedarona, propafenona, quinidina (utilizados para tratar doenças do coração e corrigir 
+batimentos cardíacos irregulares)
+-
+Rifampicina, rifapentina (utilizadas para tratar infeções bacterianas)
+-
+Apalutamida, neratinib, venetoclax (utilizados para tratar cancro)
+-
+Carbamazepina, fenobarbital, fenitoína, primidona (utilizados para prevenir e controlar as 
+convulsões)
+48
+-
+Colquicina (utilizada para tratar a gota)
+-
+Terfenadina (utilizados para tratar alergias)
+-
+Lurasidona (utilizada para tratar a esquizofrenia) 
+-
+Pimozida, quetiapina (utilizadas para tratar a esquizofrenia, perturbação bipolar, depressão 
+grave e pensamentos e sentimentos anómalos)
+-
+Silodosina (utilizada para tratar o aumento do volume da próstata)
+-
+Eplerenona e ivabradina (utilizadas para tratar problemas do coração e/ou dos vasos 
+sanguíneos)
+-
+Di-hidroergotamina e ergotamina (utilizadas para tratar enxaquecas) 
+-
+Ergonovina e metilergonovina (utilizadas para parar a hemorragia excessiva que pode 
+ocorrer após o parto ou um aborto)
+-
+Cisaprida (utilizada para o alívio de certos problemas do estômago)
+-
+Hipericão (Hypericum perforatum) (um medicamento à base de plantas utilizado para a 
+depressão e a ansiedade)
+-
+Voclosporina (utilizada para tratar doenças do sistema imunitário)
+-
+Lovastatina, sinvastatina, lomitapida (utilizadas para baixar o colesterol no sangue)
+-
+Eletriptano (utilizado para tratar enxaquecas)
+-
+Lumacaftor/ivacaftor (utilizado para a fibrose quística)
+-
+Finerenona (utilizada para tratar a doença crónica nos rins associada à diabetes tipo 2)
+-
+Naloxegol (utilizado para tratar a prisão de ventre induzida por opioides)
+-
+Avanafil, vardenafil (utilizados para tratar a disfunção erétil [também designada por 
+impotência])
+-
+Sildenafil, tadalafil (utilizados para tratar a disfunção erétil [também designada por 
+impotência] ou a hipertensão pulmonar [pressão arterial elevada nas artérias pulmonares])
+-
+Clorazepato, diazepam, estazolam, flurazepam, triazolam, midazolam tomado por via oral 
+(utilizados para o alívio da ansiedade e/ou dificuldade em adormecer)
+-
+Tolvaptano (utilizado para tratar a hiponatremia, ou seja, níveis baixos de sódio no 
+sangue)
+Advertências e precauções 
+Reações alérgicas
+Podem ocorrer reações alérgicas, incluindo reações alérgicas graves (conhecidas como “anafilaxia") e 
+reações graves na pele (conhecidas como “necrólise epidérmica tóxica" e “síndrome de Stevens-
+Johnson") em pessoas a tomar Paxlovid, mesmo após ter tomado uma única dose. Pare de tomar 
+Paxlovid e contacte o seu médico imediatamente se tiver alguns dos seguintes sintomas de reação
+alérgica:
+-
+Dificuldade ao engolir ou respirar
+-
+Inchaço da língua, boca e face
+-
+Sensação de aperto na garganta
+-
+Rouquidão
+-
+Comichão
+-
+Erupção na pele
+-
+Pele vermelha e dolorosa
+-
+Bolhas e descamação da pele
+-
+Bolhas ou feridas na boca ou nos lábios
+Doença do fígado
+Informe o seu médico se tem ou já teve uma doença do fígado. Em doentes tratados ritonavir 
+ocorreram níveis anormais das enzimas do fígado, hepatite e icterícia.
+Doença dos rins
+Informe o seu médico se tem ou já teve uma doença dos rins.
+Tensão arterial elevada
+49
+Informe o seu médico se tiver tensão arterial elevada. O seu médico poderá ter de verificar a sua 
+tensão arterial antes de tomar Paxlovid e enquanto estiver a tomar este medicamento. Houve 
+notificações de tensão arterial elevada em pessoas a tomar Paxlovid, particularmente em idosos.
+Risco de desenvolver resistência ao VIH-1
+Se tiver uma infeção pelo VIH-1 não tratada ou não controlada, Paxlovid pode levar a que alguns 
+medicamentos para o VIH não funcionem devidamente no futuro.
+Crianças e adolescentes
+Não administre Paxlovid a crianças e adolescentes com menos de 18 anos de idade porque Paxlovid 
+não foi estudado em crianças e adolescentes.
+Outros medicamentos e Paxlovid
+Existem outros medicamentos que não podem ser tomados juntamente com Paxlovid. Informe o(s) 
+seu(s) médico(s) ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos:
+-
+medicamentos para tratar cancro, tais como afatinib, abemaciclib, ceritinib, dasatinib, 
+encorafenib, fostamatinib, ibrutinib, ivosidenib, nilotinib, vinblastina e vincristina
+-
+medicamentos utilizados para tornar o sangue mais fino (anticoagulantes), tais como varfarina, 
+rivaroxabano, dabigatrano e apixabano
+-
+medicamentos utilizados para tratar convulsões, tais como valproato, lamotrigina e clonazepam
+-
+medicamentos utilizados para a cessação tabágica, tais como bupropiom 
+-
+medicamentos utilizados para tratar alergias, tais como fexofenadina e loratadina
+-
+medicamentos utilizados para tratar infeções fúngicas (antifúngicos), tais como itraconazol e 
+voriconazol 
+-
+medicamentos usados para tratar a síndrome de Cushing - quando o corpo produz excesso de 
+cortisol como os comprimidos de cetoconazol
+-
+medicamentos utilizados para tratar a infeção pelo VIH, tais como efavirenz, maraviroc, 
+raltegravir, zidovudina e bictegravir/emtricitabina/tenofovir
+-
+medicamentos utilizados para tratar infeções (por exemplo, antibióticos e antimicobacterianos), 
+tais como atovaquona, claritromicina, eritromicina, ácido fusídico (tomado por via oral ou 
+administrado por via intravenosa), bedaquilina, rifabutina, delamanid e 
+sulfametoxazol/trimetoprim
+-
+medicamentos utilizados para tratar a esquizofrenia e pensamentos ou sensações anormais, tais 
+como clozapina
+-
+medicamentos utilizados para tratar distúrbios mentais ou do humor, tais como haloperidol, 
+risperidona e tioridazina 
+-
+medicamentos utilizados para tratar a tensão arterial alta nos vasos sanguíneos que irrigam 
+(alimentam) os pulmões, tais como bosentano e riociguat
+-
+medicamentos utilizados para tratar a tensão arterial alta (hipertensão), tais como amlodipina, 
+diltiazem, felodipina, lercanidipina, nicardipina, nifedipina e verapamilo
+-
+medicamentos utilizados para tratar problemas do coração e/ou dos vasos sanguíneos, tais como 
+aliscireno, ticagrelor, cilostazol e clopidogrel
+-
+medicamentos utilizados para tratar doenças do coração e corrigir batimentos cardíacos 
+irregulares, tais como digoxina, amiodarona, flecainida e disopiramida
+-
+medicamentos utilizados para tratar a fibrose quística, tais como ivacaftor, 
+elexacaftor/tezacaftor/ivacaftor e tezacaftor/ivacaftor
+-
+medicamentos utilizados para tratar a diabetes, tais como saxagliptina
+-
+medicamentos utilizados para tratar a infeção pelo vírus da hepatite C, tais como 
+glecaprevir/pibrentasvir e sofosbuvir/velpatasvir/voxilaprevir
+-
+medicamentos utilizados para baixar o colesterol no sangue, tais como atorvastatina, 
+fluvastatina, pravastatina e rosuvastatina
+-
+medicamentos utilizados para tratar as enxaquecas, tais como rimegepant
+-
+medicamentos utilizados para tratar a incontinência urinária, tais como darifenacina e 
+solifenacina
+50
+-
+medicamentos utilizados para tratar problemas de saúde mental, tais como aripiprazol, 
+brexpiprazol e cariprazina
+-
+medicamentos utilizados para suprimir o sistema imunitário, tais como ciclosporina, everolímus, 
+sirolímus e tacrolímus
+-
+medicamentos utilizados para tratar doenças autoimunes, incluindo artrite reumatoide, artrite 
+psoriática ou colite ulcerosa, tais como tofacitinib e upadacitinib
+-
+medicamentos utilizados para tratar a dor intensa, tais como morfina, fentanilo, oxicodona, 
+metadona, buprenorfina, outros medicamentos semelhantes à morfina, petidina e piroxicam
+-
+medicamentos utilizados como sedativos, hipnóticos e indutores do sono, tais como alprazolam, 
+buspirona e zolpidem
+-
+medicamentos utilizados para tratar a perturbação de défice de atenção ou um distúrbio do sono 
+chamado narcolepsia, tais como anfetaminas
+-
+esteroides, incluindo corticosteroides, para tratar a inflamação, tais como budesonida, 
+dexametasona, fluticasona, prednisolona e triamcinolona
+-
+medicamentos utilizados para tratar a asma e outras doenças dos pulmões, tais como a doença 
+pulmonar obstrutiva crónica (DPOC), tais como o salmeterol e a teofilina.
+-
+medicamentos utilizados para tratar a depressão, tais como amitriptilina, fluoxetina, imipramina, 
+nortriptilina, paroxetina e sertralina
+-
+medicamentos utilizados como tratamento de substituição da tiroide, tais como levotiroxina
+-
+medicamentos utilizados para tratar hiperplasia benigna da próstata, tais como tansulosina
+-
+qualquer um dos seguintes medicamentos específicos:
+-
+contracetivos orais ou em adesivo transdérmico contendo etinilestradiol utilizados para 
+evitar a gravidez
+-
+midazolam administrado por injeção (utilizado para a sedação [um estado de vigília, mas 
+muito relaxado de calma ou sonolência durante um exame ou procedimento médico] ou 
+anestesia)
+Muitos medicamentos interferem com Paxlovid. Mantenha uma lista dos seus medicamentos para 
+mostrar ao(s) seu(s) médico(s) ou farmacêutico. Não comece a tomar um medicamento novo sem 
+falar antes com o(s) seu(s) médico(s). O(s) seu(s) médico(s) pode(m) dizer-lhe se é seguro tomar 
+Paxlovid com outros medicamentos.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento.
+Não existe informação suficiente para se ter a certeza de que Paxlovid é seguro para ser utilizado 
+durante a gravidez. Se estiver grávida não é recomendado que utilize Paxlovid, a não ser que a sua 
+condição médica necessite deste tratamento. Recomenda-se que pratique abstinência sexual ou utilize 
+um método contracetivo enquanto estiver a tomar Paxlovid e durante 7 dias após a conclusão da 
+terapêutica com Paxlovid, por precaução. Se estiver a tomar um contracetivo hormonal, é 
+recomendado que utilize preservativo ou outro método de contraceção não hormonal, pois Paxlovid 
+pode reduzir a efetividade deste medicamento. O seu médico irá informá-la sobre a duração deste 
+ajuste necessário das medidas contracetivas.
+Não há informação sobre a utilização de Paxlovid na amamentação. Não deve amamentar o seu bebé 
+enquanto estiver a tomar Paxlovid e, como medida de precaução, durante 7 dias após a conclusão da 
+terapêutica com Paxlovid.
+Condução de veículos e utilização de máquinas 
+Não é esperado que Paxlovid tenha efeitos na capacidade de conduzir e utilizar máquinas.
+Paxlovid contém lactose 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento.
+Paxlovid contém sódio
+51
+Os comprimidos de nirmatrelvir e ritonavir contêm, cada um, menos do que 1 mmol (23 mg) de sódio 
+por dose, ou seja, são praticamente “isentos de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar paxlovid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar paxlovid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. 
+Paxlovid é composto por 2 medicamentos: nirmatrelvir e ritonavir. A dose recomendada é de 
+2 comprimidos de nirmatrelvir (comprimido cor-de-rosa) com 1 comprimido de ritonavir (comprimido 
+branco) tomados por via oral, duas vezes por dia (de manhã e à noite).
+Um ciclo de tratamento dura 5 dias. Para cada dose, tome os 3 comprimidos juntos ao mesmo tempo. 
+Se tem uma doença do rim, fale com o seu profissional de saúde quanto à dose apropriada de Paxlovid.
+Engula os comprimidos inteiros. Não mastigue, parta ou esmague os comprimidos. Paxlovid pode ser 
+tomado com ou sem alimentos. 
+Se tomar mais Paxlovid do que deveria
+Se tomar demasiado Paxlovid, contacte o seu profissional de saúde ou dirija-se imediatamente ao 
+serviço de urgências do hospital mais próximo.
+Caso se tenha esquecido de tomar Paxlovid
+Se se esquecer de tomar uma dose de Paxlovid até 8 horas após a hora a que é tomado habitualmente, 
+deve tomar essa dose assim que se lembrar. Se se esquecer de tomar uma dose de Paxlovid e tiverem 
+passado mais de 8 horas após a hora definida, não tome a dose esquecida e tome a dose seguinte à hora 
+habitual. Não tome 2 doses de Paxlovid ao mesmo tempo.
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Se parar de tomar Paxlovid
+Mesmo que se sinta melhor, não pare de tomar Paxlovid sem falar com o seu médico. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. 
+Frequentes: podem afetar até 1 em 10 pessoas
+-
+Diarreia
+-
+Vómitos
+-
+Náuseas
+-
+Alteração do paladar (como um sabor metálico e amargo)
+-
+Dor de cabeça
+Pouco frequentes: podem afetar até 1 em 100 pessoas
+-
+Reações alérgicas
+-
+Tensão arterial elevada
+-
+Dor abdominal
+-
+Dor no músculo
+-
+Erupção na pele (também notificado como parte de reação alérgica)
+52
+Raras: podem afetar até 1 em 1000 pessoas
+-
+Reação alérgica grave, conhecida como “anafilaxia" (tais como inchaço da língua, boca e face, 
+dificuldade em engolir ou respirar, sensação de aperto na garganta ou rouquidão)
+-
+Reações graves na pele conhecidas como “necrólise epidérmica tóxica" e “síndrome de Stevens-
+Johnson" (tais como pele vermelha e dolorosa, bolhas e descamação da pele, bolhas ou feridas 
+na boca ou lábios)
+-
+Mal-estar geral
+-
+Comichão (também notificado como parte de reação alérgica)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar paxlovid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar paxlovid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior ou no blister, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer precauções especiais de conservação.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Paxlovid</h2>
+<h2>As substâncias ativas deste medicamento são o nirmatrelvir e o ritonavir.</h2>
+<p>Cada comprimido revestido por película cor-de-rosa de nirmatrelvir contém 150 mg de 
+nirmatrelvir. 
+-
+Cada comprimido revestido por película branco de ritonavir contém 100 mg de ritonavir.
+-
+Os outros componentes no comprimido de nirmatrelvir são celulose microcristalina, lactose 
+mono-hidratada (ver secção 2, “Paxlovid contém lactose"), croscarmelose sódica, dióxido de 
+silício coloidal e fumarato sódico de estearilo (ver secção 2, “Paxlovid contém sódio"). A 
+película de revestimento contém hiproxipropilmetilcelulose, dióxido de titânio, polietilenoglicol 
+e óxido de ferro vermelho.
+-
+Os outros componentes no comprimido de ritonavir são copovidona, laurato de sorbitano, sílica 
+coloidal anidra, hidrogenofosfato de cálcio anidro, fumarato sódico de estearilo. A película de 
+revestimento contém hipromelose, dióxido de titânio, polietilenoglicol, hidroxipropilcelulose, 
+talco, sílica coloidal anidra e polissorbato 80.
+Qual o aspeto de Paxlovid e conteúdo da embalagem
+Os comprimidos revestidos por película de Paxlovid são fornecidos em caixas de cartão contendo 
+30 comprimidos, distribuídos por 5 blisters de doses diárias. 
+Cada blister diário contém 4 comprimidos de nirmatrelvir (de 150 mg cada) e 2 comprimidos de 
+ritonavir (de 100 mg cada) e indica quais os comprimidos que têm de ser tomados de manhã e à noite 
+(símbolos sol e lua).
+53
+Nirmatrelvir 150 mg comprimidos revestidos por película são comprimidos ovais, cor-de-rosa, com 
+“PFE" gravado numa face e “3CL" na outra face.
+Ritonavir 100 mg comprimidos revestidos por película são comprimidos em forma de cápsula, brancos 
+a esbranquiçados com “H" gravado numa face e “R9" na outra face.
+Titular da Autorização de Introdução no Mercado 
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelas
+Bélgica
+Fabricante
+Pfizer Manufacturing Deutschland GmbH 
+Mooswaldallee 1
+79108 Freiburg Im Breisgau
+Alemanha
+Pfizer Italia S.r.L
+Localita Marino del Tronto
+63100 Ascoli, Piceno
+Itália
+Pfizer Ireland Pharmaceuticals 
+Little Connell 
+Newbridge
+Irlanda
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: 
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон
+България
+Teл.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: +36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 201100
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+54
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel:+34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL,
+organizačná zložka
+Tel: +421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Tηλ: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: +371 670 35 775
+Este folheto foi revisto pela última vez em.
+Leia o código com um dispositivo móvel para obter o folheto informativo em diferentes línguas. 
+URL: https://pfi.sr/c19oralrx
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1046,6 +1618,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c01e0605e2e3c43213448cfeba0686aa"
 * entry[0].resource = composition-da-c01e0605e2e3c43213448cfeba0686aa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc01e0605e2e3c43213448cfeba0686aa"
+* entry[=].resource = mpc01e0605e2e3c43213448cfeba0686aa
+                            
+                    
+Instance: bundlepackageleaflet-pt-c01e0605e2e3c43213448cfeba0686aa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for paxlovid Package Leaflet for language pt"
+Description: "ePI document Bundle for paxlovid Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c01e0605e2e3c43213448cfeba0686aa"
+* entry[0].resource = composition-pt-c01e0605e2e3c43213448cfeba0686aa
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc01e0605e2e3c43213448cfeba0686aa"
@@ -1147,6 +1741,18 @@ RuleSet: c01e0605e2e3c43213448cfeba0686aaListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c01e0605e2e3c43213448cfeba0686aa) // paxlovid pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1179,6 +1179,435 @@ ceftazidim
 
 
 
+Instance: composition-pt-ff92cd53cb489e28c08e8b0937092be9
+InstanceOf: CompositionUvEpi
+Title: "Composition for zavicefta Package Leaflet"
+Description:  "Composition for zavicefta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpff92cd53cb489e28c08e8b0937092be9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - zavicefta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Zavicefta e para que é utilizado
+2. O que precisa de saber antes de utilizar Zavicefta
+3. Como utilizar Zavicefta
+4. Efeitos indesejáveis possíveis
+5. Como conservar Zavicefta
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é zavicefta e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é zavicefta e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Zavicefta
+Zavicefta é um medicamento antibiótico que contém duas substâncias ativas ceftazidima e avibactam.
+
+Ceftazidima pertence ao grupo de antibióticos denominados “cefalosporinas". Pode matar 
+muitos tipos de bactérias.
+
+Avibactam é um “inibidor de beta-lactamases" que ajuda a ceftazidima a matar algumas 
+bactérias que esta sozinha não consegue.
+Para que é utilizado Zavicefta
+Zavicefta é utilizado em adultos e doentes pediátricos com 3 meses de idade ou mais para tratar:
+
+infeções do estômago e intestino (abdómen)
+
+infeções da bexiga ou rins denominadas "infeções das vias urinárias"
+
+infeção dos pulmões chamada “pneumonia"
+
+infeções causadas por bactérias que outros antibióticos podem não ser capazes de matar
+Zavicefta é utilizado em adultos para tratar infeção do sangue associada a infeções do abdómen, trato 
+urinário ou pneumonia.
+Como funciona Zavicefta
+Zavicefta mata determinados tipos de bactérias, que podem causar infeções graves.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar zavicefta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar zavicefta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Zavicefta se:
+
+tem alergia à ceftazidima, avibactam ou a qualquer outro componente deste medicamento 
+(indicados na secção 6)
+
+tem alergia a outros antibióticos com cefalosporinas
+
+alguma vez teve uma reação alérgica grave a outros antibióticos pertencentes aos grupos das 
+penicilinas ou dos carbapenemes
+Não utilize Zavicefta se alguma das situações acima se aplica a si. Caso tenha dúvidas, fale com o seu 
+médico ou enfermeiro antes de utilizar Zavicefta.
+32
+Advertências e precauções
+Fale com o seu médico ou enfermeiro antes de utilizar Zavicefta se:
+
+alguma vez teve qualquer reação alérgica (mesmo se apenas uma erupção na pele) a outros
+antibióticos pertencentes aos grupos das penicilinas ou dos carbapenemes
+
+tem problemas nos rins - o seu médico poderá administrar-lhe uma dose mais baixa para ter a 
+certeza que não recebe demasiado medicamento. Esta situação poderia causar sintomas como 
+convulsões (ver secção Se utilizar mais Zavicefta do que deveria)
+Se alguma das situações acima se aplica a si (ou se tem dúvidas), fale com o seu médico ou enfermeiro 
+antes de utilizar Zavicefta.
+Fale com o seu médico ou enfermeiro se sofrer de diarreia durante o tratamento.
+Outras infeções
+Existe uma pequena possibilidade de que possa contrair uma infeção diferente causada por outra 
+bactéria durante ou após o tratamento com Zavicefta. Estas incluem aftas (infeções fúngicas da boca 
+ou área genital).
+Análises laboratoriais
+Se vai fazer análises, informe o seu médico que está a tomar Zavicefta. Isto porque pode apresentar 
+uma alteração no resultado de um teste chamado “DAGT" ou “Coombs". Este teste indica a presença 
+de anticorpos que destroem os glóbulos vermelhos.
+Zavicefta pode também afetar os resultados de alguns testes de glucose na urina. Informe o 
+profissional que recolhe a amostra que lhe foi administrado Zavicefta.
+Doentes pediátricos
+Zavicefta não deve ser utilizado em doentes pediátricos com menos de 3 meses de idade. Isto porque 
+desconhece-se se o medicamento é seguro para ser utilizado neste grupo etário.
+Outros medicamentos e Zavicefta
+Informe o seu médico ou enfermeiro se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. 
+Fale com o seu médico antes de utilizar Zavicefta, se estiver a tomar algum dos seguintes 
+medicamentos:
+
+um antibiótico chamado cloranfenicol
+
+um tipo de antibiótico chamado aminoglicosídeo - tal como a gentamicina, tobramicina
+
+um comprimido diurético chamado furosemida
+
+um medicamento para a gota chamado probenecida
+Informe o seu médico antes de utilizar Zavicefta se alguma das situações acima se aplicar a si.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico
+antes de tomar este medicamento.
+Condução de veículos e utilização de máquinas
+Zavicefta pode provocar tonturas. Isto pode afetar a sua capacidade de conduzir, utilizar ferramentas 
+ou máquinas.
+Zavicefta contém sódio
+Este medicamento contém aproximadamente 146 mg de sódio (principal componente do sal de 
+cozinha/sal de mesa) em cada frasco para injetáveis. Isto é equivalente a 7,3% da ingestão diária 
+máxima de sódio recomendada na dieta para um adulto.
+33
+Fale com o seu médico ou farmacêutico se precisar de 3 ou mais frascos para injetáveis diariamente 
+durante um período prolongado, especialmente se foi aconselhado a seguir uma dieta com pouco sal
+(sódio).</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar zavicefta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar zavicefta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zavicefta ser-lhe-á administrado por um médico ou um enfermeiro.
+Quanto utilizar
+A dose recomendada para os adultos é um frasco para injetáveis (2 g de ceftazidima e 0,5 g de 
+avibactam), a cada 8 horas. A dose para doentes pediátricos com 3 meses ou mais de idade será 
+calculada pelo médico com base no peso e na idade da criança.
+Ser-lhe-á administrado por perfusão (“gota-a-gota") na veia - o que demorará, normalmente, cerca de 
+2 horas.
+A duração do tratamento é usualmente entre 5 a 14 dias, dependendo do tipo de infeção que tem e de 
+como responde ao tratamento.
+Pessoas com problemas nos rins
+Se tem problemas nos rins, o seu médico poderá reduzir a sua dose. Isto porque Zavicefta é eliminado 
+do seu corpo através dos rins.
+Se utilizar mais Zavicefta do que deveria
+Zavicefta ser-lhe-á administrado por um médico ou um enfermeiro, portanto é pouco provável que seja 
+administrada a dose errada. No entanto, se tiver efeitos indesejáveis ou pensa ter-lhe sido administrado 
+mais Zavicefta do que deveria, informe o seu médico ou enfermeiro imediatamente. Se lhe for 
+administrado demasiado Zavicefta, este pode ter um efeito no cérebro e causar convulsões ou coma.
+Caso se tenha esquecido de utilizar Zavicefta
+Se pensa ter-se esquecido de uma dose, informe o seu médico ou enfermeiro imediatamente.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Podem ocorrer os seguintes efeitos indesejáveis com este 
+medicamento:
+Efeitos indesejáveis graves
+Informe o seu médico imediatamente se ocorrer algum dos seguintes efeitos indesejáveis graves - pode 
+necessitar de tratamento médico urgente:
+
+reações alérgicas graves - os sinais incluem inchaço súbito dos lábios, cara, garganta ou língua,
+uma erupção na pele grave ou outras reações na pele graves, dificuldade em engolir ou respirar
+ou uma dor no peito súbita (que pode ser um sinal de síndrome de Kounis). Estas reações podem
+colocar a vida em risco.
+
+diarreia que continua a piorar ou que não desaparece, ou fezes com sangue ou muco - isto pode 
+acontecer durante ou após ter terminado o tratamento com Zavicefta. Se isto acontecer, não 
+tome medicamentos que parem ou diminuam o movimento intestinal.
+Informe o seu médico imediatamente se ocorrer algum dos efeitos indesejáveis graves acima descritos.
+Outros efeitos indesejáveis
+Informe o seu médico ou enfermeiro se ocorrer algum dos seguintes efeitos indesejáveis:
+34
+Muito frequentes: (podem afetar mais de 1 em 10 pessoas)
+
+Alteração no resultado de um teste denominado “DAGT" ou “Coombs". Este teste indica a 
+presença de anticorpos que destroem os seus glóbulos vermelhos. É possível que isto possa 
+causar anemia (que lhe pode provocar cansaço) e icterícia (amarelecimento da pele e olhos)
+Frequentes: (podem afetar até 1 em 10 pessoas)
+
+infeções fúngicas, incluindo as da boca e vagina
+
+alteração no número de alguns tipos de células do sangue (chamadas “eosinófilos" e 
+“trombócitos") - detetado nas análises ao sangue
+
+dor de cabeça
+
+sensação de tonturas
+
+sentir-se doente (náuseas) ou estar doente (vómitos)
+
+dor de estômago
+
+diarreia
+
+aumento na quantidade de algumas enzimas produzidas pelo fígado - detetado nas análises ao
+sangue
+
+erupção na pele com comichão (“urticária")
+
+comichão
+
+vermelhidão, dor ou inchaço no local onde Zavicefta foi administrado na veia
+
+febre
+Pouco frequentes: (podem afetar até 1 em 100 pessoas)
+
+aumento no número de um tipo de células do sangue (chamadas “linfócitos") - detetado nas 
+análises ao sangue
+
+diminuição no número de alguns tipos de células do sangue (chamadas “leucócitos") - detetado 
+nas análises ao sangue
+
+formigueiro ou dormência
+
+mau sabor na boca
+
+um aumento no nível de alguns tipos de substâncias no sangue (chamadas “creatinina" e
+“ureia"). Estas mostram como estão a funcionar os seus rins.
+Muito raros: (podem afetar até 1 em 10.000 pessoas)
+
+inchaço numa parte do rim que provoca redução do seu funcionamento normal
+Desconhecida: (não pode ser calculado a partir dos dados disponíveis)
+
+diminuição significativa no tipo de glóbulos brancos utilizados para combater a infeção -
+detetado nas análises ao sangue
+
+diminuição no número de glóbulos vermelhos (anemia hemolítica) - detetado nas análises ao 
+sangue
+
+reação alérgica grave (ver Efeitos indesejáveis graves, acima)
+
+coloração amarela da parte branca dos olhos ou pele
+
+início súbito de uma erupção na pele grave ou bolhas ou descamação da pele, eventualmente
+acompanhada de febre alta ou dor nas articulações (estes podem ser sinais de situações médicas 
+mais graves, como necrólise epidérmica tóxica, síndrome de Stevens-Johnson, eritema 
+multiforme ou de uma condição conhecida como DRESS, Reação Medicamentosa com 
+Eosinofilia e Sintomas Sistémicos)
+
+inchaço sob a pele, principalmente lábios e em torno dos olhos
+Informe o seu médico ou enfermeiro se ocorrer algum dos efeitos indesejáveis indicados acima.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.
+35</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar zavicefta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar zavicefta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no recipiente. O prazo de validade 
+corresponde ao último dia do mês indicado.
+Conservar na embalagem de origem para proteger da luz.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Zavicefta
+
+As substâncias ativas são ceftazidima e avibactam. Cada frasco para injetáveis contém 
+ceftazidima penta-hidratada equivalente a 2 g de ceftazidima e avibactam sódico equivalente a 
+0,5 g de avibactam.
+
+O outro componente é carbonato de sódio (anidro) (ver secção 2 “Zavicefta contém sódio").
+Qual o aspeto de Zavicefta e conteúdo da embalagem
+Zavicefta é um pó para concentrado para solução para perfusão de cor branca a amarela num frasco 
+para injetáveis. Está disponível em embalagens com 10 frascos para injetáveis.
+Titular da Autorização de Introdução no Mercado
+Pfizer Ireland Pharmaceuticals
+Operations Support Group
+Ringaskiddy, County Cork
+Irlanda
+Fabricante
+ACS Dobfar S.p.A. 
+Via Alessandro Fleming 2
+Verona 37135
+Itália
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон България 
+Тел: +359 2 970 4333
+Magyarország
+Pfizer Kft. 
+Tel.: + 36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel.: +356 21344610
+36
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti 36ilial
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς Α.Ε.
+Τηλ.: +30 210 6785800
+Polska
+Pfizer Polska Sp. Z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer 
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel.: +386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free) 
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ.: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: + 371 670 35 775
+Este folheto foi revisto pela última vez em MM/AAAA
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1220,6 +1649,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-ff92cd53cb489e28c08e8b0937092be9"
 * entry[0].resource = composition-da-ff92cd53cb489e28c08e8b0937092be9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpff92cd53cb489e28c08e8b0937092be9"
+* entry[=].resource = mpff92cd53cb489e28c08e8b0937092be9
+                            
+                    
+Instance: bundlepackageleaflet-pt-ff92cd53cb489e28c08e8b0937092be9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zavicefta Package Leaflet for language pt"
+Description: "ePI document Bundle for zavicefta Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-ff92cd53cb489e28c08e8b0937092be9"
+* entry[0].resource = composition-pt-ff92cd53cb489e28c08e8b0937092be9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpff92cd53cb489e28c08e8b0937092be9"
@@ -1321,6 +1772,18 @@ RuleSet: ff92cd53cb489e28c08e8b0937092be9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-ff92cd53cb489e28c08e8b0937092be9) // zavicefta pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

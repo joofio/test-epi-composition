@@ -1197,6 +1197,701 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-c90b79fb8cf9d2067c35819ca84918df
+InstanceOf: CompositionUvEpi
+Title: "Composition for lonquex Package Leaflet"
+Description:  "Composition for lonquex Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc90b79fb8cf9d2067c35819ca84918df)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - lonquex"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Lonquex e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Lonquex </li>
+<li>Como utilizar Lonquex </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Lonquex </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é lonquex e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é lonquex e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Lonquex 
+Lonquex contém a substância ativa lipegfilgrastim. O lipegfilgrastim é uma proteína modificada de 
+ação prolongada produzida por biotecnologia em bactérias chamadas Escherichia coli. Pertence a um 
+grupo de proteínas chamadas citocinas e é semelhante a uma proteína natural (fator de estimulação de 
+colónias de granulócitos [G-CSF]) produzida pelo seu próprio corpo. </p>
+<p>Para que é utilizado Lonquex 
+Lonquex é utilizado em adultos e em crianças com 2 anos de idade ou mais. </p>
+<p>O seu médico receitou Lonquex para si ou para a sua criança, para diminuir a duração de uma situação 
+chamada neutropenia (uma contagem baixa de glóbulos brancos) e a ocorrência de neutropenia febril 
+(uma contagem baixa de glóbulos brancos com febre). Estas podem ser causadas pela utilização de 
+quimioterapia citotóxica (medicamentos que destroem rapidamente as células em crescimento). </p>
+<p>Como atua Lonquex 
+O lipegfilgrastim estimula a medula óssea (o tecido onde as novas células sanguíneas são feitas) para 
+produzir mais glóbulos brancos. Os glóbulos brancos são importantes porque ajudam o seu corpo a 
+lutar contra infeções. Estas células são muito sensíveis aos efeitos da quimioterapia, a qual pode causar 
+a diminuição do número destas células no seu corpo. Se os glóbulos brancos diminuírem para um nível 
+baixo, pode não haver o número suficiente no corpo para lutar contra as bactérias, podendo assim estar 
+em maior risco de ter uma infeção. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar lonquex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar lonquex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Lonquex </p>
+<ul>
+<li>se você ou a sua criança tem alergia ao lipegfilgrastim ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Lonquex: </p>
+<ul>
+<li>
+<p>se você ou a sua criança tem uma dor na região superior esquerda do abdómen ou dor na 
+extremidade do ombro. Pode ser uma consequência de uma perturbação do baço (ver secção 4 
+“Efeitos indesejáveis possíveis"). </p>
+</li>
+<li>
+<p>se você ou a sua criança tem tosse, febre e dificuldade em respirar. Pode ser uma consequência 
+de uma perturbação pulmonar (ver secção 4 “Efeitos indesejáveis possíveis"). </p>
+</li>
+<li>
+<p>se você ou a sua criança tem anemia de células falciformes, que é uma doença hereditária, 
+caracterizada por glóbulos vermelhos com a forma de foice. </p>
+</li>
+<li>
+<p>se você ou a sua criança tiver tido anteriormente reações alérgicas a outros medicamentos 
+semelhantes a este (por exemplo, filgrastim, lenograstim ou pegfilgrastim do grupo dos 
+G-CSFs). Poderá haver um risco de também reagir a Lonquex. </p>
+</li>
+</ul>
+<p>O seu médico efetuará análises regulares ao sangue para controlar vários componentes do sangue e os 
+seus níveis. O seu médico também efetuará controlos regulares da sua urina ou da urina da sua criança, 
+dado que outros medicamentos semelhantes a este (por exemplo, outros fatores de estimulação de 
+colónias de granulócitos como o filgrastim, lenograstim ou pegfilgrastim) podem possivelmente lesar 
+os pequenos filtros que estão dentro dos seus rins (glomerulonefrite; ver secção 4 “Efeitos indesejáveis 
+possíveis"). </p>
+<p>Informe o seu médico se você ou o seu filho estiverem a ser tratados para cancro da mama ou do 
+pulmão em conjunto com quimioterapia e/ou radioterapia e sentirem sintomas como cansaço, febre e 
+nódoas negras ou hemorragia. Estes sintomas podem ser consequência de uma condição sanguínea 
+pré-cancerosa chamada de síndrome mielodisplásica (SMD) ou um cancro do sangue chamado 
+leucemia mieloide aguda (LMA), que foram associados a outro medicamento como este (pegfilgrastim 
+do grupo dos G-CSF). </p>
+<p>Foi notificada raramente, inflamação da aorta (o grande vaso sanguíneo que transporta o sangue do 
+coração para o organismo) com outros medicamentos como este (por exemplo, filgrastim, lenograstim 
+ou pegfilgrastim do grupo dos G-CSF). Os sintomas podem incluir febre, dor abdominal, mal-estar, 
+dor nas costas e aumento dos marcadores inflamatórios. Informe o seu médico se sentir estes sintomas. </p>
+<p>Crianças e adolescentes 
+Lonquex não é recomendado em crianças com menos de 2 anos de idade. </p>
+<p>Outros medicamentos e Lonquex 
+Informe o seu médico ou farmacêutico se você ou a sua criança estiver a utilizar, tiver utilizado 
+recentemente, ou se vier a utilizar outros medicamentos. </p>
+<p>Gravidez e amamentação 
+Lonquex não foi estudado em mulheres grávidas. É importante que fale com o seu médico se está 
+grávida, se pensa estar grávida ou planeia engravidar, porque o seu médico pode decidir que não deve 
+utilizar este medicamento. </p>
+<p>Não se sabe se a substância ativa deste medicamento passa para o leite materno. Por este motivo, 
+deverá interromper a amamentação durante o tratamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de Lonquex sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis. </p>
+<p>Lonquex contém sorbitol 
+Este medicamento contém 30 mg de sorbitol em cada seringa pré-cheia.  </p>
+<p>Lonquex contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por seringa pré-cheia ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar lonquex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar lonquex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Qual é a dose recomendada 
+A dose recomendada é de uma seringa pré-cheia (6 mg de lipegfilgrastim) uma vez por ciclo de 
+quimioterapia. </p>
+<p>A seringa pré-cheia é adequada apenas para adultos ou crianças com um peso igual ou superior a 
+45 kg. </p>
+<p>Lonquex está também disponível numa apresentação em frasco para injetáveis para crianças com um 
+peso inferior a 45 kg. A dose recomendada será baseada no seu peso corporal e a dose adequada será 
+administrada por um médico ou um enfermeiro. </p>
+<p>Quando deve utilizar Lonquex 
+A dose de Lonquex será normalmente injetada aproximadamente 24 horas depois da última dose de 
+quimioterapia no fim de cada ciclo de quimioterapia. </p>
+<p>Como são administradas as injeções? 
+Este medicamento é administrado por injeção utilizando uma seringa pré-cheia. A injeção é 
+administrada no tecido que fica imediatamente por baixo da pele (injeção subcutânea). </p>
+<p>O seu médico pode sugerir que aprenda a administrar a si próprio as injeções com este medicamento 
+ou a administrar a injeção à sua criança. O seu médico ou enfermeiro dar-lhe-ão instruções sobre como 
+o deve fazer. Não tente administrar Lonquex a si próprio ou à sua criança sem receber primeiro esta 
+formação. As informações necessárias para utilizar a seringa pré-cheia encontram-se no fim deste 
+folheto informativo em “ Informação para se injetar a si próprio ou à sua criança". Contudo, o 
+tratamento correto da sua doença ou da doença da sua criança necessita de uma cooperação constante e 
+estreita com o seu médico. </p>
+<p>Informação para se injetar a si próprio ou à sua criança </p>
+<p>Esta secção contém informações sobre como administrar uma injeção de Lonquex a si próprio ou à sua 
+criança, sob a pele. É importante que não tente administrar a si próprio a injeção a si próprio ou à sua 
+criança, a menos que tenha recebido formação especial do seu médico ou enfermeiro. Se não tiver a 
+certeza como administrar a injeção a si próprio ou à sua criança, ou se tiver quaisquer dúvidas, fale 
+com o seu médico ou enfermeiro. </p>
+<p>Como é utilizado Lonquex 
+Necessita de administrar a injeção a si próprio ou à sua criança no tecido que fica imediatamente sob a 
+pele. Esta injeção é conhecida por injeção subcutânea. </p>
+<p>Equipamento de que necessita 
+Para administrar a injeção a si próprio ou à sua criança no tecido que fica imediatamente sob a pele 
+necessita de: </p>
+<ul>
+<li>
+<p>uma seringa pré-cheia de Lonquex, </p>
+</li>
+<li>
+<p>um algodão embebido em álcool, </p>
+</li>
+<li>
+<p>um bocado de ligadura de gaze ou uma compressa de gaze estéril, </p>
+</li>
+<li>
+<p>um recipiente à prova de perfuração (recipiente de plástico fornecido pelo hospital ou pela 
+farmácia) para poder eliminar com segurança as seringas utilizadas. </p>
+</li>
+</ul>
+<p>O que deve fazer antes da injeção 
+1. Retire o medicamento do frigorífico. 
+2. Abra o blister e retire a seringa pré-cheia do mesmo (ver figura 1). Não pegue na seringa pré-
+cheia pelo êmbolo ou pela proteção da agulha. 
+3. Verifique o prazo de validade impresso no rótulo da seringa pré-cheia (EXP). Não a utilize se a 
+data tiver ultrapassado o último dia do mês indicado. 
+4. Verifique o aspeto de Lonquex. Deve ser um líquido límpido e incolor. Se detetar partículas ou 
+se estiver turvo não o pode utilizar. 
+5. Não agite Lonquex vigorosamente porque pode afetar a sua atividade. 
+6. Para uma injeção mais confortável: </p>
+<ul>
+<li>
+<p>deixe a seringa pré-cheia repousar cerca de 30 minutos para atingir a temperatura 
+ambiente (não superior a 25 °C) ou  </p>
+</li>
+<li>
+<p>segure cuidadosamente a seringa pré-cheia na mão durante alguns minutos. 
+Não aqueça Lonquex de qualquer outra maneira (por exemplo, não o aqueça no micro-ondas ou 
+em água quente). </p>
+</li>
+<li>Não remova a proteção da agulha da seringa antes de estar pronto para se injetar. </li>
+<li>Encontre um local confortável e bem iluminado e coloque tudo o que necessita num local de 
+fácil alcance (a seringa pré-cheia de Lonquex, um algodão embebido em álcool, um bocado de 
+ligadura de gaze ou uma compressa de gaze estéril e o recipiente à prova de perfuração). </li>
+<li>Lave muito bem as mãos. 
+1 </li>
+</ul>
+<p>Onde deve ser administrada a injeção 
+Os locais mais adequados para injetar são: </p>
+<ul>
+<li>
+<p>a parte superior das coxas, </p>
+</li>
+<li>
+<p>o abdómen (ver as áreas cinzentas indicadas na figura 2) evitando a pele imediatamente à volta 
+do umbigo. </p>
+</li>
+</ul>
+<p>2 </p>
+<p>Se for outra pessoa a injetá-lo ou se estiver a injetar na sua criança, também pode utilizar os seguintes 
+locais: </p>
+<ul>
+<li>as regiões posterior e lateral dos braços (ver as áreas cinzentas indicadas nas figuras 3 e 4). </li>
+</ul>
+<p>3 
+4 </p>
+<p>Como se deve preparar para a injeção 
+Antes de administrar uma injeção de Lonquex a si próprio ou à sua criança, tem de fazer o seguinte: 
+1. Desinfete a pele no local de injeção utilizando um algodão embebido em álcool. 
+2. Segure a seringa e retire com cuidado a proteção da agulha sem rodar. Puxe-a a direito como 
+indicado nas figuras 5 e 6. Não toque na agulha nem prima o êmbolo. </p>
+<p>5 
+6 </p>
+<ol>
+<li>Pode notar a presença de pequenas bolhas de ar na seringa pré-cheia. Caso estas existam, segure 
+na seringa com a agulha a apontar para cima (ver figura 7), bata suavemente na seringa com os 
+dedos até as bolhas de ar subirem para o topo da seringa. Com a seringa apontada para cima, 
+expulse o ar da seringa premindo lentamente o êmbolo para cima. </li>
+</ol>
+<p>7 </p>
+<ol>
+<li>Agora pode utilizar a seringa pré-cheia. </li>
+</ol>
+<p>Como deve administrar a injeção a si próprio ou à sua criança 
+1. Prenda a pele desinfetada entre o polegar e o indicador, sem a apertar (ver figura 8). 
+2. Introduza a agulha completamente na pele como o seu médico ou enfermeiro lhe mostraram. O 
+ângulo entre a seringa e a pele não deve ser demasiado estreito (pelo menos 45°, ver figura 9). 
+3. Injete o líquido lenta e uniformemente, mantendo sempre a pele presa. 
+4. Após injetar o líquido, remova a agulha e solte a pele. 
+5. Comprima o local de injeção com o bocado de ligadura de gaze ou com uma compressa de gaze 
+estéril durante vários segundos. 
+6. Utilize cada seringa apenas para uma injeção. Não utilize os restos de Lonquex que tenham 
+permanecido na seringa. </p>
+<p>8 
+9 </p>
+<p>Lembre-se que 
+Se tiver quaisquer problemas, peça ajuda e aconselhamento ao seu médico ou enfermeiro. </p>
+<p>Eliminação de seringas usadas </p>
+<ul>
+<li>
+<p>Não volte a colocar a proteção em agulhas usadas. </p>
+</li>
+<li>
+<p>Coloque as seringas usadas no contentor à prova de perfuração e mantenha o contentor fora da 
+vista e do alcance das crianças. </p>
+</li>
+<li>
+<p>Elimine o contentor à prova de perfuração cheio de acordo com as instruções do seu médico, 
+farmacêutico ou enfermeiro. </p>
+</li>
+<li>
+<p>Nunca coloque as seringas que já utilizou no caixote de lixo doméstico. </p>
+</li>
+</ul>
+<p>Informação para se injetar a si próprio ou à sua criança </p>
+<p>Esta secção contém informações sobre como administrar uma injeção de Lonquex a si próprio ou à sua 
+criança, sob a pele. É importante que não tente administrar a injeção a si próprio ou à sua criança a 
+menos que tenha recebido formação especial do seu médico ou enfermeiro. Se não tiver a certeza 
+como administrar a injeção a si próprio ou se tiver quaisquer dúvidas, fale com o seu médico ou 
+enfermeiro. </p>
+<p>Como é utilizado Lonquex 
+Necessita de administrar a injeção a si próprio ou à sua criança no tecido que fica imediatamente sob a 
+pele. Esta injeção é conhecida por injeção subcutânea. </p>
+<p>Equipamento de que necessita 
+Para administrar a injeção a si próprio ou à sua criança no tecido que fica imediatamente sob a pele 
+necessita de: </p>
+<ul>
+<li>
+<p>uma seringa pré-cheia de Lonquex, </p>
+</li>
+<li>
+<p>um algodão embebido em álcool, </p>
+</li>
+<li>
+<p>um bocado de ligadura de gaze ou uma compressa de gaze estéril. </p>
+</li>
+</ul>
+<p>O que deve fazer antes da injeção 
+1. Retire o medicamento do frigorífico. 
+2. Abra o blister e retire a seringa pré-cheia do mesmo (ver a figura 1). Não pegue na seringa pré-
+cheia pelo êmbolo ou pela proteção da agulha. Isto pode danificar o dispositivo de segurança. 
+3. Verifique o prazo de validade impresso no rótulo da seringa pré-cheia (EXP). Não a utilize se a 
+data tiver ultrapassado o último dia do mês indicado. 
+4. Verifique o aspeto de Lonquex. Deve ser um líquido límpido e incolor. Se detetar partículas ou 
+se estiver turvo não o pode utilizar. 
+5. Não agite Lonquex vigorosamente porque pode afetar a sua atividade. 
+6. Para uma injeção mais confortável: </p>
+<ul>
+<li>
+<p>deixe a seringa pré-cheia repousar cerca de 30 minutos para atingir a temperatura 
+ambiente (não superior a 25 °C) ou </p>
+</li>
+<li>
+<p>segure cuidadosamente a seringa pré-cheia na mão durante alguns minutos. 
+Não aqueça Lonquex de qualquer outra maneira (por exemplo, não o aqueça no micro-ondas ou 
+em água quente). </p>
+</li>
+<li>Não remova a proteção da agulha da seringa antes de estar pronto para se injetar. </li>
+<li>Encontre um local confortável e bem iluminado e coloque tudo o que necessita num local de 
+fácil alcance (a seringa pré-cheia de Lonquex, um algodão embebido em álcool e um bocado de 
+ligadura de gaze ou uma compressa de gaze estéril). </li>
+<li>Lave muito bem as mãos.  </li>
+</ul>
+<p>1 </p>
+<p>Onde deve ser administrada a injeção 
+Os locais mais adequados para injetar são: </p>
+<ul>
+<li>
+<p>a parte superior das coxas, </p>
+</li>
+<li>
+<p>o abdómen (ver as áreas cinzentas indicadas na figura 2) evitando a pele imediatamente à volta 
+do umbigo. </p>
+</li>
+</ul>
+<p>2 </p>
+<p>Se for outra pessoa a injetá-lo ou se estiver a injetar na sua criança, também pode utilizar os seguintes 
+locais: </p>
+<ul>
+<li>as regiões posterior e lateral dos braços (ver as áreas cinzentas indicadas nas figuras 3 e 4). </li>
+</ul>
+<p>3 
+4 </p>
+<p>Como se deve preparar para a injeção 
+Antes de administrar uma injeção de Lonquex a si próprio ou à sua criança, tem de fazer o seguinte: 
+1. Desinfete a pele no local de injeção utilizando um algodão embebido em álcool. 
+2. Segure a seringa e retire com cuidado a proteção da agulha sem rodar. Puxe-a a direito como 
+indicado nas figuras 5 e 6. Não toque na agulha nem prima o êmbolo. </p>
+<p>5 
+6 </p>
+<ol>
+<li>Pode notar a presença de pequenas bolhas de ar na seringa pré-cheia. Caso estas existam, segure 
+na seringa com a agulha a apontar para cima (ver figura 7), bata suavemente na seringa com os 
+dedos até as bolhas de ar subirem para o topo da seringa. Com a seringa apontada para cima, 
+expulse o ar da seringa premindo lentamente o êmbolo para cima. </li>
+</ol>
+<p>7 </p>
+<ol>
+<li>Agora pode utilizar a seringa pré-cheia. </li>
+</ol>
+<p>Como deve administrar a injeção a si próprio ou à sua criança 
+1. Prenda a pele desinfetada entre o polegar e o indicador, sem a apertar (ver figura 8). 
+2. Introduza a agulha completamente na pele como o seu médico ou enfermeiro lhe mostraram. O 
+ângulo entre a seringa e a pele não deve ser demasiado estreito (pelo menos 45°, ver figura 9). 
+3. Injete o líquido lenta e uniformemente, mantendo sempre a pele presa (ver figura 10). 
+4. Prima o êmbolo o máximo que for possível para injetar todo o líquido. Ao mesmo tempo que 
+mantém o êmbolo completamente premido, remova a agulha da pele (ver figura 11). Depois 
+liberte o êmbolo. O dispositivo de segurança será imediatamente ativado. O conjunto completo 
+da agulha e seringa recuará automaticamente ficando coberto para impedir que se pique (ver 
+figura 12). 
+5. Comprima o local de injeção com o bocado de ligadura de gaze ou com uma compressa de gaze 
+estéril durante vários segundos. 
+6. Cada seringa pré-cheia é apenas para utilização única. </p>
+<p>8 
+9 </p>
+<p>Lembre-se que 
+Se tiver quaisquer problemas, peça ajuda e aconselhamento ao seu médico ou enfermeiro. </p>
+<p>Se utilizar mais Lonquex do que deveria 
+Se utilizar mais Lonquex do que deveria, fale com o seu médico. </p>
+<p>Caso se tenha esquecido de utilizar Lonquex 
+No caso de se ter esquecido de administrar uma injeção, contacte o seu médico para saber quando deve 
+injetar a próxima dose. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis mais graves </p>
+<ul>
+<li>
+<p>Foi notificada a ocorrência pouco frequente (podem afetar até 1 em cada 100 pessoas) de 
+reações alérgicas como, por exemplo, erupções na pele, áreas elevadas na pele com comichão e 
+reações alérgicas graves com fraqueza, diminuição da tensão arterial, dificuldade em respirar e 
+inchaço da face. Se pensa que está a ter este tipo de reação, deve parar a injeção de Lonquex e 
+consultar imediatamente um médico. </p>
+</li>
+<li>
+<p>Foi notificada a ocorrência pouco frequente aumento do tamanho do baço e casos muito raros de 
+ruturas esplénicas foram notificados com outros medicamentos semelhantes a Lonquex. Alguns 
+casos de rutura esplénica foram fatais. É importante que contacte imediatamente o seu médico 
+se tiver dor na região superior esquerda do abdómen ou dor no ombro esquerdo, porque estas 
+dores podem estar relacionadas com um problema no seu baço. </p>
+</li>
+<li>
+<p>Tosse, febre e uma respiração difícil ou dolorosa podem ser sinais de efeitos indesejáveis 
+pulmonares graves pouco frequentes, como pneumonia e síndrome de dificuldade respiratória 
+do adulto, que pode ser fatal. Se tiver febre ou qualquer outro destes sintomas, é importante que 
+contacte imediatamente o seu médico. </p>
+</li>
+<li>
+<p>É importante contactar o seu médico imediatamente se tiver qualquer um dos seguintes 
+sintomas: edema ou inchaço, que pode estar associado a diminuição da frequência urinária, 
+dificuldade em respirar, aumento do volume abdominal e sensação de enfartamento, e uma 
+sensação geral de cansaço. Estes sintomas geralmente desenvolvem- se de uma forma rápida. 
+Estes podem ser sintomas de uma doença comunicada com frequência desconhecida (não pode 
+ser calculada a partir dos dados disponíveis) chamada "síndrome de extravasamento capilar 
+sistémico", que faz com que o sangue saia dos pequenos vasos sanguíneos para o seu corpo e 
+que precisa de cuidados médicos urgentes. </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Dores musculosqueléticas como dor nos ossos e dor nas articulações, músculos, membros, 
+tórax, pescoço ou costas. Informe o seu médico se tiver uma dor musculosquelética intensa. </p>
+</li>
+<li>
+<p>Náuseas. </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>Diminuição das plaquetas no sangue, que aumenta o risco de hemorragia ou de formação de 
+nódoas negras. </p>
+</li>
+<li>
+<p>Dores de cabeça. </p>
+</li>
+<li>
+<p>Reações da pele como vermelhidão ou erupção na pele. </p>
+</li>
+<li>
+<p>Níveis baixos de potássio, que podem causar fraqueza muscular, contrações súbitas ou ritmo 
+anormal do coração. </p>
+</li>
+<li>
+<p>Dor no peito. </p>
+</li>
+<li>
+<p>Tosse com sangue. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>Aumento dos glóbulos brancos. </p>
+</li>
+<li>
+<p>Reações locais no local de injeção, como dor ou endurecimento. </p>
+</li>
+<li>
+<p>Podem ocorrer algumas alterações no seu sangue, mas estas serão detetadas pelas análises de 
+rotina ao sangue. </p>
+</li>
+<li>
+<p>Hemorragia do pulmão. </p>
+</li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>Inflamação da aorta (o grande vaso sanguíneo que transporta o sangue do coração para o 
+organismo), ver secção 2.<br />
+Efeitos indesejáveis que foram observados com medicamentos semelhantes, mas que até à data 
+não foram observados com Lonquex </p>
+</li>
+<li>
+<p>Crises falciformes em doentes com anemia de células falciformes. </p>
+</li>
+<li>
+<p>Feridas dolorosas, elevadas, cor de ameixa nos membros e algumas vezes na face e pescoço, 
+com febre (síndrome de Sweet). </p>
+</li>
+<li>
+<p>Inflamação dos vasos sanguíneos da pele. </p>
+</li>
+<li>
+<p>Lesão dos pequenos filtros que estão dentro dos seus rins (glomerulonefrite; ver secção 2 em 
+“Advertências e precauções"). </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar lonquex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar lonquex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo da 
+seringa pré-cheia, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C). </p>
+<p>Não congelar. </p>
+<p>Manter a seringa pré-cheia dentro da embalagem exterior para proteger da luz. </p>
+<p>Lonquex pode ser retirado do frigorífico e conservado a temperatura inferior a 25 °C durante um 
+período único máximo de até 7 dias. Após ser retirado do frigorífico, o medicamento tem de ser 
+utilizado dentro deste período ou eliminado. </p>
+<p>Não utilize este medicamento se verificar que está turvo ou que contém partículas. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Lonquex </p>
+<ul>
+<li>
+<p>A substância ativa é o lipegfilgrastim. Cada seringa pré-cheia contém 6 mg de lipegfilgrastim. 
+Cada ml de solução contém 10 mg de lipegfilgrastim. </p>
+</li>
+<li>
+<p>Os outros componentes (excipientes) são ácido acético glacial, hidróxido de sódio (ver secção 2 
+“Lonquex contém sódio"), sorbitol (E420) (ver secção 2 “Lonquex contém sorbitol"), 
+polissorbato 20 e água para preparações injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Lonquex e conteúdo da embalagem 
+Lonquex é uma solução injetável (injeção) numa seringa pré-cheia com uma agulha de injeção fixa 
+acondicionada num blister. Lonquex é uma solução límpida e incolor. Se detetar partículas ou se 
+estiver turvo não o pode utilizar. </p>
+<p>Cada seringa pré-cheia contém 0,6 ml de solução. </p>
+<p>Lonquex está disponível em embalagens contendo 1 e 4 seringas pré-cheias com dispositivo de 
+segurança ou 1 seringa pré-cheia sem dispositivo de segurança. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Teva B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Países Baixos </p>
+<p>Fabricante 
+Teva Biotech GmbH 
+Dornierstraße 89079 Ulm 
+Alemanha </p>
+<p>Merckle GmbH 
+Graf-Arco-Straße 3 
+89079 Ulm 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Teл: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+TEVA HELLAS Α.Ε. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Alvogen ehf. 
+Sími: +354 5222 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+TEVA HELLAS Α.Ε. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 
+Este folheto foi revisto pela última vez em {mês AAAA}. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1238,6 +1933,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c90b79fb8cf9d2067c35819ca84918df"
 * entry[0].resource = composition-da-c90b79fb8cf9d2067c35819ca84918df
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc90b79fb8cf9d2067c35819ca84918df"
+* entry[=].resource = mpc90b79fb8cf9d2067c35819ca84918df
+                            
+                    
+Instance: bundlepackageleaflet-pt-c90b79fb8cf9d2067c35819ca84918df
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lonquex Package Leaflet for language pt"
+Description: "ePI document Bundle for lonquex Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c90b79fb8cf9d2067c35819ca84918df"
+* entry[0].resource = composition-pt-c90b79fb8cf9d2067c35819ca84918df
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc90b79fb8cf9d2067c35819ca84918df"
@@ -1339,6 +2056,18 @@ RuleSet: c90b79fb8cf9d2067c35819ca84918dfListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c90b79fb8cf9d2067c35819ca84918df) // lonquex pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

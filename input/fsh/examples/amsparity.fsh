@@ -1922,6 +1922,965 @@ er nævnt i denne indlægsseddel. Se punkt 4. Oversigt over indlægssedlen</p>  
 
 
 
+Instance: composition-pt-cb456248863851baf93dc89f0a0fc5bf
+InstanceOf: CompositionUvEpi
+Title: "Composition for amsparity Package Leaflet"
+Description:  "Composition for amsparity Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpcb456248863851baf93dc89f0a0fc5bf)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - amsparity"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Amsparity e para que é utilizado
+2. O que precisa de saber antes da sua criança utilizar Amsparity
+3. Como utilizar Amsparity
+4. Efeitos indesejáveis possíveis
+5. Como conservar Amsparity
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é amsparity e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é amsparity e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Amsparity contém adalimumab como substância ativa, um medicamento que atua no sistema 
+imunitário (de defesa) do organismo da sua criança.
+Amsparity é usado no tratamento das doenças inflamatórias abaixo descritas:
+
+artrite idiopática juvenil poliarticular
+
+artrite relacionada com entesite pediátrica
+
+psoríase pediátrica em placas 
+
+doença de Crohn pediátrica
+
+uveíte pediátrica
+A substância ativa de Amsparity, o adalimumab, é um anticorpo monoclonal. Os anticorpos 
+monoclonais são proteínas que se ligam a um alvo específico no organismo.
+178
+O alvo do adalimumab é outra proteína denominada fator de necrose tumoral (TNFα), que está 
+envolvida no sistema imunitário (de defesa) e está presente em níveis aumentados nas doenças 
+inflamatórias acima mencionadas. Ao ligar-se ao TNFα, Amsparity bloqueia a sua ação e reduz a 
+inflamação nestas doenças.
+Artrite idiopática juvenil poliarticular
+A artrite idiopática juvenil poliarticular é uma doença inflamatória das articulações que surge 
+normalmente pela primeira vez na infância.
+Amsparity é usado no tratamento da artrite idiopática juvenil poliarticular em crianças e adolescentes 
+entre os 2 e os 17 anos. A sua criança pode ser tratada inicialmente com outros medicamentos 
+modificadores da doença, como por exemplo o metotrexato. Se estes medicamentos não funcionarem 
+suficientemente bem, a sua criança irá receber Amsparity para tratar a sua artrite idiopática juvenil 
+poliarticular.
+Artrite relacionada com entesite pediátrica
+A artrite relacionada com entesite pediátrica é uma doença inflamatória das articulações e dos locais 
+onde os tendões se ligam ao osso. 
+Amsparity é usado no tratamento da artrite relacionada com entesite em crianças e adolescentes entre 
+os 6 e os 17 anos. A sua criança pode ser tratada inicialmente com outros medicamentos modificadores 
+da doença, como por exemplo o metotrexato. Se estes medicamentos não funcionarem suficientemente 
+bem, a sua criança receberá Amsparity para tratar a sua artrite relacionada com entesite.
+Psoríase pediátrica em placas
+A psoríase em placas é uma doença inflamatória da pele que provoca manchas avermelhadas, secas e 
+com placas na pele, cobertas com escamas prateadas. A psoríase em placas pode também afetar as 
+unhas, causando a sua desintegração, tornando-as espessas e descoladas da base da unha o que pode 
+ser doloroso. Pensa-se que a psoríase pode ser causada por alterações do sistema imunitário do 
+organismo, que provocam um aumento da produção de células da pele.
+Amsparity é usado no tratamento da psoríase em placas crónica grave em crianças e adolescentes com 
+idade entre os 4 e os 17 anos, para os quais os medicamentos aplicados na pele e o tratamento com luz 
+UV não funcionaram muito bem ou são inadequados.
+Doença de Crohn pediátrica
+A doença de Crohn é uma doença inflamatória do intestino.
+Amsparity é usado no tratamento da doença de Crohn em crianças e adolescentes com idade entre os 
+6 e os 17 anos.
+Se a sua criança tem doença de Crohn, receberá primeiro outros medicamentos. Se estes
+medicamentos não funcionarem bem, a sua criança receberá Amsparity para reduzir os sinais e 
+sintomas da doença de Crohn.
+Uveíte pediátrica
+A uveíte não infecciosa é uma doença inflamatória que afeta diferentes partes do olho. 
+Esta inflamação pode levar a uma diminuição da visão e/ou à presença de moscas volantes no olho 
+(pontos pretos ou linhas finas que se movem através do campo de visão). Amsparity atua através da 
+redução desta inflamação.
+179
+Amsparity é usado no tratamento da uveíte não infecciosa crónica, com inflamação afetando a parte da 
+frente do olho, em crianças e adolescentes a partir dos 2 anos de idade.
+A sua criança pode receber primeiro outros medicamentos. Se estes medicamentos não funcionarem
+suficientemente bem, a sua criança receberá Amsparity para reduzir os sinais e sintomas da doença.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar amsparity"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar amsparity"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Amsparity
+
+se a sua criança tem alergia a adalimumab ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).
+
+se a sua criança tem uma infeção grave, incluindo tuberculose ativa, sepsis (envenenamento do 
+sangue) ou infeções oportunistas (infeções fora do comum associadas a um sistema imunitário 
+enfraquecido). É importante que informe o médico da sua criança se esta tiver sintomas de 
+infeção, tais como, febre, feridas, sensação de cansaço, problemas dentários (ver “Advertências 
+e precauções").
+
+se a sua criança tem insuficiência cardíaca moderada ou grave. É importante que informe o 
+médico da sua criança se esta tem ou teve uma doença cardíaca grave (ver “Advertências e 
+precauções").
+Advertências e precauções
+Fale com o médico sua criança ou farmacêutico da antes de utilizar Amsparity. 
+É importante que você e o médico da sua criança anotem o nome do medicamentoe o número de lote 
+da medicação da sua criança.
+Reações alérgicas
+
+Se a sua criança tiver reações alérgicas com sintomas, tais como sensação de aperto no peito, 
+pieira, tonturas, inchaço ou erupção na pele, não injete mais Amsparity e contacte 
+imediatamente o médico da sua criança uma vez que, em casos raros, estas reações podem ser 
+potencialmente fatais.
+Infeções
+
+Se a sua criança tiver uma infeção, incluindo uma infeção de longa duração ou uma infeção 
+numa parte do corpo (por exemplo, úlcera da perna), consulte o médico da sua criança antes de 
+iniciar o tratamento com Amsparity. Contacte o médico da sua criança se tiver dúvidas.
+
+A sua criança pode contrair mais facilmente infeções enquanto estiver a ser tratada com 
+Amsparity. Este risco pode aumentar se a criança tiver problemas nos pulmões. Estas infeções 
+podem ser mais graves e incluem tuberculose, infeções causadas por vírus, fungos, parasitas ou 
+bactérias, ou outras infeções oportunistas (organismos infecciosos fora do comum) e sepsis
+(envenenamento do sangue). Em casos raros, estas infeções podem pôr a vida em risco. Deve 
+informar o médico da sua criança se esta tiver sintomas, tais como febre, feridas, sensação de 
+cansaço ou problemas dentários. O médico da sua criança poderá recomendar a interrupção 
+temporária de Amsparity.
+Tuberculose (TB)
+
+Uma vez que foram notificados casos de tuberculose em doentes tratados com adalimumab, o 
+médico da sua criança irá avaliá-la quanto a sinais e sintomas de tuberculose antes de iniciar 
+180
+Amsparity. Isto incluirá uma avaliação clínica pormenorizada da sua criança incluindo a história 
+clínica da sua criança e exames de rastreio apropriados (por exemplo uma radiografia do tórax e 
+um teste de tuberculina). A realização e o resultado destes exames devem ser registados no 
+cartão de segurança do doente da sua criança.
+
+É muito importante que informe o médico da sua criança se esta já teve tuberculose ou se esteve 
+em contacto próximo com alguém que teve tuberculose. Se a sua criança tiver tuberculose ativa, 
+não utilize Amsparity.
+
+A tuberculose pode desenvolver-se durante a terapêutica, mesmo que a sua criança tenha 
+efetuado tratamento de profilaxia da tuberculose.
+
+Se surgirem sintomas de tuberculose (por exemplo, tosse persistente, perda de peso, falta de 
+energia, febre ligeira) ou qualquer outra infeção durante ou após o tratamento, informe 
+imediatamente o médico da sua criança.
+Viagens/infeção recorrente
+
+Informe o médico da sua criança se esta residiu em ou viajou para regiões nas quais infeções 
+fúngicas, tais como histoplasmose, coccidioidomicose ou blastomicose são endémicas 
+(habituais).
+
+Informe o médico da sua criança se esta tem tido infeções que estão sempre a reaparecer ou 
+quaisquer outros problemas que aumentem o risco de infeções.
+
+Deve, juntamente com o médico da sua criança, deve ter especial atenção a sinais de infeção 
+enquanto a sua criança estiver a ser tratada com Amsparity. É importante que informe o médico 
+da sua criança se esta tiver sintomas de infeções, tais como febre, feridas, sensação de cansaço 
+ou problemas dentários.
+Hepatite B
+
+Informe o médico da sua criança se esta for portadora do vírus da hepatite B (VHB), se tem 
+infeção ativa pelo VHB ou se pensa que pode estar em risco de contrair o VHB. O médico da 
+sua criança deve avaliá-la para determinar se tem VHB. O adalimumab pode reativar a infeção 
+pelo VHB nas pessoas portadoras do vírus. Em alguns casos raros, especialmente se a sua 
+criança tomar outros medicamentos que suprimem o sistema imunitário, a reativação da infeção 
+pelo VHB pode pôr a vida dela em risco. 
+Intervenção cirúrgica ou dentária
+
+Se a sua criança vai ser submetida a uma intervenção cirúrgica ou dentária, informe o seu 
+médico de que ela está a tomar Amsparity. O médico da sua criança poderá recomendar a 
+interrupção temporária de Amsparity.
+Doença desmielinizante
+
+Se a sua criança tem ou vier a desenvolver uma doença desmielinizante (uma doença que afeta a 
+camada isolante à volta dos nervos, tal como esclerose múltipla), o médico da sua criança irá 
+decidir se ela deve receber ou continuar a receber Amsparity. Caso a sua criança tenha sintomas, 
+tais como alterações na visão, fraqueza nos braços ou pernas ou dormência ou formigueiro em 
+qualquer parte do corpo, informe imediatamente o seu médico.
+Vacinação
+
+Certas vacinas contém formas vivas mas atenuadas das bactérias ou vírus causadores de doença 
+e que podem causar infeções, não devendo ser administradas durante o tratamento com 
+181
+Amsparity. Consulte o médico da sua criança antes desta receber qualquer vacina. Recomenda-
+se que, se possível, antes de iniciarem o tratamento com Amsparity as crianças recebam todas as 
+vacinas, de acordo com o atual plano nacional de vacinação. Se a sua filha recebeu Amsparity 
+enquanto estava grávida, o bebé pode ter um risco superior de ter uma infeção até 
+aproximadamente, cinco meses após a última dose de Amsparity que a mãe recebeu durante a 
+gravidez. É importante que diga aos médicos do bebé da sua filha e a outros profissionais de 
+saúde que a sua filha utilizou Amsparity durante a gravidez, para que estes possam decidir 
+quando pode ser dada qualquer vacina ao bebé.
+Insuficiência cardíaca
+
+Deve informar o médico da sua criança se esta tem ou teve algum problema cardíaco grave. Se a 
+sua criança tem insuficiência cardíaca ligeira e está a ser tratada com Amsparity, o estado da 
+insuficiência cardíaca tem de ser monitorizado de perto pelo médico da sua criança. Caso a sua 
+criança desenvolva novos sintomas ou agravamento dos sintomas de insuficiência cardíaca (por 
+exemplo, falta de ar ou inchaço dos pés), tem de contactar imediatamente o médico da sua 
+criança. 
+Febre, nódoas negras, perdas de sangue ou aspeto pálido
+
+Em alguns doentes, o organismo pode ser incapaz de produzir suficientes células sanguíneas que 
+combatem as infeções ou ajudam a parar hemorragias. Caso a sua criança desenvolva febre que 
+não desaparece, faça nódoas negras ou tenha perdas de sangue muito facilmente ou pareça muito 
+pálida, contacte imediatamente o médico da sua criança. O médico da sua criança poderá decidir 
+suspender o tratamento.
+Cancro
+
+Têm ocorrido casos muito raros de determinados tipos de cancro em crianças e adultos a tomar 
+adalimumab ou outros antagonistas TNFα. Os doentes com formas mais graves de artrite 
+reumatoide que tenham a doença há muito tempo podem ter um risco superior à média de 
+aparecimento de linfoma e leucemia (cancros que afetam as células sanguíneas e a medula 
+óssea). Se a sua criança toma Amsparity o risco de ter linfoma, leucemia, ou outro tipo de 
+cancro pode aumentar. Em raras ocasiões, em doentes tratados com adalimumab, foi detetado 
+um tipo de linfoma pouco frequente e grave. Alguns destes doentes foram também tratados com 
+os medicamentos azatioprina ou mercaptopurina. Informe o médico da sua criança se esta 
+estiver a tomar azatioprina ou mercaptopurina com Amsparity.
+
+Adicionalmente, foram observados casos de cancro de pele não-melanoma em doentes a tomar 
+adalimumab. Caso surjam novas áreas de pele danificada durante ou após o tratamento ou se 
+marcas ou áreas danificadas existentes mudarem de aspeto, informe o médico da sua criança.
+
+Têm havido casos de cancros, para além de linfoma, em doentes com um tipo específico de 
+doença pulmonar denominada doença pulmonar obstrutiva crónica (DPOC) tratados com outro 
+antagonista TNFα. Se a sua criança tem DPOC ou se fuma muito, deve falar com o médico da 
+sua criança para saber se o tratamento com um antagonista TNFα é adequado para a sua criança.
+Doença autoimune
+
+Em raras ocasiões, o tratamento com Amsparity pode resultar em síndrome do tipo lúpus. 
+Contacte o médico da sua criança se ocorrerem sintomas, tais como erupção na pele persistente 
+e inesperada, febre, dor nas articulações ou cansaço.
+182
+Outros medicamentos e Amsparity
+Informe o médico da sua criança ou farmacêutico se ela estiver a tomar, tiver tomado recentemente, ou 
+se vier a tomar outros medicamentos.
+Amsparity pode ser utilizado em conjunto com metotrexato ou com certos medicamentos 
+antirreumáticos modificadores da doença (por exemplo, sulfassalazina, hidroxicloroquina, leflunomida 
+e preparações injetáveis de sais de ouro), corticosteroides ou medicamentos analgésicos, incluindo 
+medicamentos anti-inflamatórios não esteroides (AINEs).
+A sua criança não deve tomar Amsparity com medicamentos contendo a substância ativa anacinra ou 
+abatacept devido ao risco aumentado de infeções graves. Não se recomenda a associação de 
+adalimumab, bem como de outros antagonistas TNF, com anacinra ou abatacept, com base no possível 
+risco acrescido de infeções, incluindo infeções graves e outras potenciais interações farmacológicas. 
+Contacte o médico da sua criança se tiver dúvidas.
+Gravidez e amamentação
+A sua filha deverá considerar a utilização de um método contracetivo adequado para evitar a gravidez 
+e continuar a utilizá-lo durante pelo menos 5 meses após o último tratamento com Amsparity.
+Se a sua filha está grávida, se pensa estar grávida ou planeia engravidar, consulte o médico da sua filha
+antes de ela tomar este medicamento.
+Amsparity só deve ser utilizado durante a gravidez se necessário.
+De acordo com um estudo na gravidez, não houve risco mais elevado de malformações congénitas
+quando a mãe recebeu adalimumab durante a gravidez, em comparação com mães com a mesma 
+doença que não receberam adalimumab.
+Amsparity pode ser utilizado durante a amamentação.
+Se a sua filha receber Amsparity durante a gravidez, o bebé dela pode ter um risco superior de contrair 
+uma infeção. É importante que diga ao médico do bebé da sua filha e a outros profissionais de saúde 
+que a sua filha utilizou Amsparity durante a gravidez, antes do bebé receber qualquer vacina. Para 
+mais informação sobre vacinação, ver a secção “Advertências e precauções".
+Condução de veículos e utilização de máquinas
+Amsparity pode ter uma pequena influência na capacidade da sua criança conduzir, andar de bicicleta 
+ou utilizar máquinas. Depois de tomar Amsparity pode ocorrer vertigens e alterações da visão.
+Amsparity contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose de 0,8 ml, ou seja, é 
+praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar amsparity"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar amsparity"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo médico da sua criança, enfermeiro ou 
+farmacêutico. Fale com o médico, enfermeiro ou farmacêutico se tiver dúvidas.
+As doses recomendadas de Amsparity para cada uma das indicações aprovadas são apresentadas na 
+tabela abaixo. O médico da sua criança pode prescrever uma concentração dose diferente de 
+Amsparity, caso a sua criança precise de uma dose diferente.
+183
+Amsparity é injetado debaixo da pele (via subcutânea).
+Artrite idiopática juvenil poliarticular
+Idade ou peso corporal
+Qual a dose e com que 
+frequência se deve tomar?
+Notas
+Crianças e adolescentes a partir 
+dos 2 anos de idade com peso 
+igual ou superior a 30 kg
+40 mg em semanas alternadas
+Não aplicável
+Crianças e adolescentes a partir 
+dos 2 anos de idade com peso 
+entre 10 kg e inferior a 30 kg
+20 mg em semanas alternadas
+Não aplicável
+Artrite relacionada com entesite pediátrica
+Idade ou peso corporal
+Qual a dose e com que 
+frequência se deve tomar?
+Notas
+Crianças, adolescentes e 
+adultos a partir dos 6 anos de 
+idade com peso igual ou 
+superior a 30 kg
+40 mg em semanas alternadas
+Não aplicável
+Crianças e adolescentes a partir 
+dos 6 anos de idade com peso 
+entre 15 kg e inferior a 30 kg
+20 mg em semanas alternadas
+Não aplicável
+Psoríase pediátrica em placas 
+Idade ou peso corporal
+Qual a dose e com que 
+frequência se deve tomar?
+Notas
+Crianças e adolescentes entre 
+os 4 e os 17 anos de idade com 
+peso igual ou superior a 30 kg
+Primeira dose de 40 mg, 
+seguida de 40 mg uma semana 
+mais tarde.
+Depois disso, a dose habitual 
+é de 40 mg em semanas 
+alternadas.
+Não aplicável
+Crianças e adolescentes entre 
+os 4 e os 17 anos de idade com 
+peso entre 15 kg e inferior a 
+30 kg
+Primeira dose de 20 mg, 
+seguida de 20 mg uma semana 
+mais tarde.
+Depois disso, a dose habitual 
+é de 20 mg em semanas 
+alternadas.
+Não aplicável
+Doença de Crohn pediátrica
+Idade ou peso corporal
+Qual a dose e com que 
+frequência se deve tomar?
+Notas
+Crianças e adolescentes entre 
+os 6 e os 17 anos de idade com 
+peso igual ou superior a 40 kg
+Primeira dose de 80 mg, 
+seguida de 40 mg duas semanas 
+mais tarde.
+Nos casos em que é necessária 
+uma resposta mais rápida, o 
+médico da sua criança poderá 
+prescrever uma primeira dose 
+de 160 mg, seguida de 80 mg 
+duas semanas mais tarde.
+O médico da sua criança 
+poderá aumentar a dose para 
+40 mg por semana ou 80 mg 
+em semanas alternadas.
+184
+Doença de Crohn pediátrica
+Idade ou peso corporal
+Qual a dose e com que 
+frequência se deve tomar?
+Notas
+Depois disso, a dose habitual 
+é de 40 mg em semanas 
+alternadas.
+Crianças e adolescentes entre 
+os 6 e os 17 anos de idade com 
+peso inferior a 40 kg
+Primeira dose de 40 mg, 
+seguida de 20 mg duas semanas 
+mais tarde.
+Nos casos em que é 
+necessária uma resposta mais 
+rápida, o médico poderá 
+prescrever uma primeira dose 
+de 80 mg, seguida de 40 mg 
+duas semanas mais tarde.
+Depois disso, a dose habitual 
+é de 20 mg em semanas 
+alternadas.
+O médico da sua criança 
+poderá aumentar a 
+frequência da dose para 
+20 mg por semana.
+Uveíte pediátrica
+Idade ou peso corporal
+Qual a dose e com que 
+frequência se deve tomar?
+Notas
+Crianças e adolescentes a 
+partir dos 2 anos de idade 
+com peso inferior a 30 kg
+20 mg em semanas alternadas
+O médico da sua criança
+poderá prescrever uma dose 
+inicial de 40 mg para ser 
+administrada uma semana 
+antes do início da dose 
+habitual de 20 mg em 
+semanas alternadas.
+Amsparity é recomendado para 
+utilização em associação com 
+o metotrexato.
+Crianças e adolescentes a 
+partir dos 2 anos de idade 
+com peso igual ou superior a 
+30 kg
+40 mg em semanas alternadas
+O médico da sua criança
+poderá prescrever uma dose 
+inicial de 80 mg para ser 
+administrada uma semana 
+antes do início da dose 
+habitual de 40 mg em 
+semanas alternadas.
+Amsparity é recomendado para 
+utilização em associação com 
+o metotrexato.
+Modo e via de administração
+Amsparity é administrado por injeção debaixo da pele (via subcutânea).
+185
+São fornecidas instruções detalhadas sobre como injetar Amsparity no fim deste folheto 
+informativo, na secção “Instruções de utilização".
+Se utilizar mais Amsparity do que deveria
+Se injetar acidentalmente a sua criança com Amsparity com mais frequência do que deveria, contacte 
+o médico da sua criança ou farmacêutico e explique-lhe que a sua criança utilizou mais Amsparity do 
+que deveria.
+Leve sempre consigo a embalagem exterior do medicamento, mesmo que esteja vazia.
+Caso se tenha esquecido de utilizar Amsparity
+Caso se tenha esquecido de administrar uma injeção de Amsparity à sua criança, administre a próxima 
+dose de Amsparity logo que se lembrar. Em seguida, administre a dose seguinte à sua criança 
+conforme prescrito, como se não se tivesse esquecido da dose anterior.
+Se a sua criança parar de utilizar Amsparity
+A decisão de parar de utilizar Amsparity deve ser discutida com o médico da sua criança. Os sintomas 
+da sua criança podem voltar após parar o tratamento.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o médico da sua criança ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. A maioria dos efeitos indesejáveis são ligeiros a moderados. No 
+entanto, alguns podem ser graves e necessitar de tratamento. Podem ocorrer efeitos indesejáveis, pelo 
+menos, até 4 meses após a última injeção de Amsparity.
+Procure assistência médica com urgência se notar alguns dos seguintes sinais:
+
+erupção grave na pele, urticária ou outros sinais de reação alérgica;
+
+inchaço da face, mãos, pés;
+
+dificuldades em respirar, em engolir;
+
+falta de ar durante a atividade física ou quando deitado ou inchaço dos pés.
+Informe o médico da sua criança assim que possível se notar alguma das seguintes situações:
+
+sinais e sintomas de infeção tais como febre, enjoos, feridas, problemas dentários, sensação de 
+ardor ao urinar, sensação de fraqueza ou cansaço ou tosse;
+
+sintomas de problemas dos nervos, tais como formigueiro, dormência, visão dupla ou fraqueza 
+nos braços ou pernas;
+
+sinais de cancro da pele, tais como inchaço ou ferida aberta que não cicatriza;
+
+sinais ou sintomas sugestivos de alterações sanguíneas tais como febre persistente, nódoas 
+negras, perdas de sangue, palidez.
+Os sinais e sintomas acima descritos podem representar os efeitos indesejáveis listados a seguir e que 
+foram observados com adalimumab:
+Muito frequentes (podem afetar mais de 1 em 10 pessoas)
+
+reações no local da injeção (incluindo dor, inchaço, vermelhidão ou comichão);
+186
+
+infeções do trato respiratório (incluindo constipação, nariz a pingar, infeção dos seios nasais, 
+pneumonia);
+
+dor de cabeça;
+
+dor abdominal (de barriga);
+
+náuseas e vómitos;
+
+erupção na pele;
+
+dor nos músculos ou articulações.
+Frequentes (podem afetar até 1 em 10 pessoas)
+
+infeções graves (incluindo envenenamento do sangue e gripe);
+
+infeções intestinais (incluindo gastroenterite);
+
+infeções da pele (incluindo celulite e zona);
+
+infeções dos ouvidos;
+
+infeções da boca (incluindo infeções dentárias e aftas);
+
+infeções do sistema reprodutor;
+
+infeção do trato urinário;
+
+infeções fúngicas;
+
+infeções das articulações;
+
+tumores benignos;
+
+cancro da pele;
+
+reações alérgicas (incluindo alergia sazonal);
+
+desidratação;
+
+alterações do humor (incluindo depressão);
+
+ansiedade;
+
+dificuldade em adormecer;
+
+alterações sensoriais, tais como sensação de picadas, formigueiro ou dormência;
+
+enxaqueca;
+
+sintomas de compressão de raiz nervosa (incluindo dor lombar e dor nas pernas);
+
+alterações da visão;
+
+inflamação dos olhos;
+
+inflamação das pálpebras e inchaço dos olhos;
+
+vertigens (sensação de movimento);
+
+sensação de batimento cardíaco rápido;
+
+tensão arterial alta;
+
+afrontamentos;
+
+hematoma (um inchaço sólido com sangue coagulado);
+
+tosse;
+
+asma;
+
+falta de ar;
+
+hemorragia gastrointestinal;
+
+dispepsia (indigestão, inchaço, azia);
+
+doença de refluxo;
+
+síndrome de Sjögren (incluindo olhos e boca seca);
+
+comichão;
+
+erupção na pele com comichão;
+
+nódoas negras;
+
+inflamação da pele (tal como eczema);
+
+unhas das mãos e dos pés quebradiças;
+
+aumento da transpiração;
+
+perda de cabelo;
+
+novo aparecimento ou agravamento da psoríase;
+
+espasmos musculares;
+
+sangue na urina;
+187
+
+problemas nos rins;
+
+dor no peito;
+
+edema (uma acumulação de líquido no organismo que faz com que os tecidos afetados inchem);
+
+febre;
+
+redução das plaquetas sanguíneas, o que aumenta o risco de hemorragia ou de nódoas negras;
+
+alteração da cicatrização.
+Pouco frequentes (podem afetar até 1 em 100 pessoas)
+
+infeções oportunistas (fora do comum; as quais incluem tuberculose e outras infeções) que 
+ocorrem quando a resistência às doenças está diminuída;
+
+infeções neurológicas (incluindo meningite viral);
+
+infeções nos olhos;
+
+infeções bacterianas;
+
+diverticulite (inflamação e infeção do intestino grosso);
+
+cancro, incluindo cancro que afeta o sistema linfático (linfoma) e melanoma (um tipo de cancro 
+da pele);
+
+perturbações do sistema imunitário que podem afetar os pulmões, pele e gânglios linfáticos 
+(mais frequentemente designada sarcoidose);
+
+vasculite (inflamação dos vasos sanguíneos);
+
+tremores;
+
+neuropatia (lesão dos nervos);
+
+acidente vascular cerebral (AVC);
+
+visão dupla;
+
+perda de audição, zumbidos;
+
+sensação de batimento irregular do coração, tal como palpitações;
+
+problemas no coração que podem causar falta de ar ou inchaço dos tornozelos;
+
+ataque cardíaco;
+
+quisto na parede de uma artéria principal, inflamação e coágulo numa veia, bloqueio de um vaso 
+sanguíneo;
+
+doenças pulmonares causando falta de ar (incluindo inflamação);
+
+embolia pulmonar (bloqueio de uma artéria do pulmão);
+
+derrame pleural (acumulação anormal de líquido no espaço pleural);
+
+inflamação do pâncreas que causa dor grave no abdómen e costas;
+
+dificuldade em engolir;
+
+edema facial (inchaço da face);
+
+inflamação da vesícula, pedra na vesícula;
+
+fígado gordo (acumulação de gordura nas células do fígado);
+
+suores noturnos;
+
+cicatriz;
+
+destruição muscular anormal;
+
+lúpus eritematoso sistémico (uma doença do sistema imunitário incluindo inflamação da pele, 
+coração, pulmão, articulações e outros sistemas de órgãos);
+
+interrupções do sono;
+
+impotência;
+
+inflamações.
+Raros (podem afetar até 1 em 1000 pessoas)
+
+leucemia (cancro que afeta o sangue e a medula óssea);
+
+reação alérgica grave com choque;
+
+esclerose múltipla;
+188
+
+alterações neurológicas (tais como inflamação do nervo ótico e síndrome de Guillain-Barré, uma 
+doença que pode causar fraqueza muscular, sensações anormais, formigueiro nos braços e na 
+parte superior do corpo);
+
+o coração deixa de bombear;
+
+fibrose pulmonar (cicatrizes no pulmão);
+
+perfuração intestinal (um orifício na parede do intestino);
+
+hepatite (inflamação do fígado);
+
+reativação da hepatite B;
+
+hepatite autoimune (inflamação do fígado causada pelo próprio sistema imunitário);
+
+vasculite na pele (inflamação dos vasos sanguíneos da pele);
+
+síndrome de Stevens-Johnson (uma reação potencialmente fatal com sintomas do tipo gripe e 
+erupção na pele com bolhas);
+
+edema facial (inchaço da face) associado a reações alérgicas;
+
+eritema multiforme (erupção inflamatória na pele);
+
+síndrome tipo lúpus;
+
+angioedema (inchaço localizado da pele);
+
+reação na pele liquenoide (erupção na pele vermelho-púrpura com comichão).
+Desconhecido (não pode ser calculado a partir dos dados disponíveis)
+
+linfoma hepatoesplénico de células T (um cancro de sangue raro que muitas vezes é fatal);
+
+carcinoma de células de Merkel (um tipo de cancro de pele);
+
+sarcoma de Kaposi, um cancro raro relacionado com a infeção pelo vírus herpes humano 8. O 
+sarcoma de Kaposi aparece mais frequentemente na forma de lesões cutâneas de cor 
+púrpura.insuficiência hepática;
+
+agravamento de uma doença chamada dermatomiosite (que se manifesta como uma erupção na 
+pele acompanhada de fraqueza muscular);
+
+aumento de peso (para a maioria dos doentes, o aumento de peso foi pequeno).
+Alguns efeitos indesejáveis observados com adalimumab podem não ter sintomas e só podem ser 
+identificados através de análises ao sangue. Estes incluem:
+Muito frequentes (podem afetar mais de 1 em 10 pessoas)
+
+contagem diminuída dos glóbulos brancos;
+
+contagem diminuída dos glóbulos vermelhos;
+
+aumento dos lípidos no sangue;
+
+elevação das enzimas hepáticas.
+Frequentes (podem afetar até 1 em 10 pessoas)
+
+contagem aumentada dos glóbulos brancos;
+
+contagem diminuída das plaquetas;
+
+aumento do ácido úrico no sangue;
+
+nível anormal de sódio no sangue;
+
+nível diminuído de cálcio no sangue;
+
+nível diminuído de fosfato no sangue;
+
+nível de açúcar aumentado no sangue;
+
+valores aumentados de desidrogenase láctica no sangue;
+
+presença de autoanticorpos no sangue;
+
+baixo teor de potássio no sangue.
+189
+Pouco frequentes (podem afetar até 1 em 100 pessoas)
+
+aumento da bilirrubina (análise de sangue ao fígado).
+Raros (podem afetar até 1 em 1000 pessoas)
+
+contagem diminuída de glóbulos brancos, glóbulos vermelhos e plaquetas.
+Comunicação de efeitos indesejáveis
+Se a sua criança tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não 
+indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar amsparity"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar amsparity"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no rótulo/blister/embalagem, após 
+EXP. 
+Conservar no frigorífico (2°C - 8°C). Não congelar.
+Manter a seringa pré-cheia dentro da embalagem exterior para proteger da luz.
+Conservação alternativa:
+Quando necessário (por exemplo, quando viaja), uma única seringa pré-cheia de Amsparity pode ser 
+conservada até um período máximo de 30 dias, à temperatura ambiente (até 30°C) - certifique-se de 
+que a protege da luz. Uma vez retirada do frigorífico para ser conservada à temperatura ambiente, a 
+seringa tem de ser utilizada dentro de 30 dias ou eliminada, mesmo que a volte a colocar no 
+frigorífico.
+Deve registar a data em que a seringa foi inicialmente retirada do frigorífico e a data em que deve ser 
+eliminada.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao médico da 
+sua criança ou farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas 
+ajudarão a proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Amsparity
+A substância ativa é o adalimumab.
+Os outros componentes são L-histidina, cloridrato de L-histidina mono-hidratado, sacarose, edetato 
+dissódico di-hidratado, L-metionina, polissorbato 80 e água para preparações injetáveis.
+Qual o aspeto da seringa pré-cheia de Amsparity e conteúdo da embalagem
+Amsparity 20 mg solução injetável em seringa pré-cheia para utilização pediátrica é fornecido sob a 
+forma de uma solução estéril contendo 20 mg de adalimumab dissolvidos em 0,4 ml de solução.
+190
+A seringa pré-cheia de Amsparity é uma seringa de vidro contendo uma solução de adalimumab 
+límpida, incolor a castanho muito claro.
+A seringa pré-cheia de Amsparity está disponível em embalagens contendo 2 seringas pré-cheias e 
+2 compressas embebidas em álcool. 
+Amsparity pode estar disponível em frasco para injetáveis, em seringa pré-cheia e/ou em caneta pré-
+cheia.
+Titular da Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante
+Pfizer Service Company BV
+Hoge Wei 10
+Zaventem 1930
+Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Kύπρος
+PFIZER EΛΛAΣ A.E. (CYPRUS BRANCH)
+Τηλ:+357 22 817690
+Česká Republika
+Pfizer, spol. s r.o.
+Tel: +420-283-004-111
+Magyarország
+Pfizer Kft.
+Tel: +36 1 488 3700
+Danmark
+Pfizer ApS
+Tlf: +45 44 201 100
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Deutchland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Nederland
+Pfizer bv
+Tel: +31 (0)10 406 43 01
+България
+Пфайзер Люксембург САРЛ,
+Клон България
+Teл: +359 2 970 4333
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+PFIZER EΛΛAΣ A.E.
+Τηλ.: +30 210 67 85 800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+191
+España
+Pfizer S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer 
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer România S.R.L
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL, Pfizer, podružnica
+za svetovanje s področja farmacevtske
+dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská Republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: +421 2 3355 5500
+Ísland
+Icepharma hf.
+Tel: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l. 
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel. +371 67035775
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. +3705 2514000
+Este folheto foi revisto pela última vez em
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1963,6 +2922,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-cb456248863851baf93dc89f0a0fc5bf"
 * entry[0].resource = composition-da-cb456248863851baf93dc89f0a0fc5bf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcb456248863851baf93dc89f0a0fc5bf"
+* entry[=].resource = mpcb456248863851baf93dc89f0a0fc5bf
+                            
+                    
+Instance: bundlepackageleaflet-pt-cb456248863851baf93dc89f0a0fc5bf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for amsparity Package Leaflet for language pt"
+Description: "ePI document Bundle for amsparity Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-cb456248863851baf93dc89f0a0fc5bf"
+* entry[0].resource = composition-pt-cb456248863851baf93dc89f0a0fc5bf
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpcb456248863851baf93dc89f0a0fc5bf"
@@ -2064,6 +3045,18 @@ RuleSet: cb456248863851baf93dc89f0a0fc5bfListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-cb456248863851baf93dc89f0a0fc5bf) // amsparity pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

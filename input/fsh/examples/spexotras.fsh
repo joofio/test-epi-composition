@@ -1402,6 +1402,642 @@ Hvis Spexotras kommer i kontakt med øjnene, skal øjnene skylles med vand. </p>
 
 
 
+Instance: composition-pt-dc7d7a695883d4001becc8f978871435
+InstanceOf: CompositionUvEpi
+Title: "Composition for spexotras Package Leaflet"
+Description:  "Composition for spexotras Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpdc7d7a695883d4001becc8f978871435)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - spexotras"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Spexotras e para que é utilizado </li>
+<li>O que precisa de saber antes de administrar Spexotras </li>
+<li>Como administrar Spexotras </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Spexotras </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é spexotras e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é spexotras e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Spexotras é um medicamento que contém a substância ativa trametinib. </p>
+<p>É utilizado em associação com outro medicamento (dabrafenib comprimidos dispersíveis) em crianças 
+com 1 ano ou mais de idade para tratar um tipo de tumor no cérebro chamado glioma. </p>
+<p>Spexotras pode ser usado em doentes com: </p>
+<ul>
+<li>
+<p>glioma de baixo grau </p>
+</li>
+<li>
+<p>glioma de alto grau após o doente ter recebido pelo menos um tratamento com radiação e/ou 
+quimioterapia. </p>
+</li>
+</ul>
+<p>Spexotras, em associação com dabrafenib comprimidos dispersíveis, é usado para tratar doentes cujo 
+tumor têm uma mutação (alteração) específica no gene chamado BRAF. Esta mutação leva o 
+organismo a produzir proteínas defeituosas que, por sua vez, podem fazer com que o tumor se 
+desenvolva. O médico irá efetuar testes para esta mutação antes de iniciar o tratamento. </p>
+<p>Em associação com dabrafenib, Spexotras tem como alvo estas proteínas defeituosas e desacelera ou 
+para o desenvolvimento do tumor. Leia também o folheto informativo de dabrafenib comprimidos 
+dispersíveis. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar spexotras"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar spexotras"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não administre Spexotras </p>
+<ul>
+<li>se a sua criança tem alergia a trametinib ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o médico antes de administrar Spexotras. O médico precisa de saber se a sua criança: </p>
+<ul>
+<li>
+<p>tem problemas cardíacos tais como insuficiência cardíaca ou problemas na forma como o seu 
+coração bate. </p>
+</li>
+<li>
+<p>tem ou alguma vez teve qualquer problema nos pulmões ou respiratórios, incluindo 
+dificuldade em respirar frequentemente acompanhada por tosse seca, falta de ar e fadiga. </p>
+</li>
+<li>
+<p>tem alterações nos olhos incluindo obstrução da veia que drena o olho (oclusão da veia da 
+retina) ou inchaço do olho provocado por derrame de líquido (corioretinopatia). </p>
+</li>
+<li>
+<p>tem ou alguma vez teve problemas no fígado. </p>
+</li>
+<li>
+<p>tem ou alguma vez teve problemas nos rins. </p>
+</li>
+<li>
+<p>tem ou alguma vez teve qualquer problema gastrointestinal tal como diverticulite (bolsas 
+inflamadas no cólon) ou metástases no trato gastrointestinal. </p>
+</li>
+</ul>
+<p>Antes da sua criança começar a tomar Spexotras, durante e após o seu tratamento, o médico irá fazer 
+testes para evitar complicações. </p>
+<p>Exame da pele 
+O tratamento pode causar cancro da pele. Normalmente, estas alterações da pele matém-se localizadas 
+e podem ser removidas com cirurgia, e o tratamento pode continuar sem interrupção. O médico poderá 
+verificar a pele da sua criança antes e regularmente durante o tratamento. </p>
+<p>Verifique a pele da sua criança mensalmente durante o tratamento e durante 6 meses após ela parar de 
+tomar este medicamento. Fale com o médico logo que possível se verificar quaisquer alterações na 
+pele da sua criança, tais como uma nova verruga, ou pele dorida ou inchaço avermelhado que sangra 
+ou que não cicatriza,  ou uma alteração do tamanho ou cor de uma verruga. </p>
+<p>Síndrome de lise tumoral 
+Se a sua criança sentir os seguintes sintomas, informe o médico imediatamente dado que pode ser 
+uma condição com risco de vida: náuseas, falta de ar, batimento cardíaco irregular, cãibras musculares, 
+convulsões, urina turva, diminuição da produção de urina e cansaço. Estes podem ser provocados por 
+um grupo de complicações metabólicas, que podem ocorrer durante o tratamento do cancro que são 
+provocados pelos pelos produtos de degradação das células cancerígenas que morrem (síndrome de 
+lise tumoral ou SLT) e podem levar a alterações da função renal (ver também secção 4). </p>
+<p>Crianças com menos de 1 ano de idade 
+Spexotras em associação com dabrafenib comprimidos dispersíveis não foi testado em crianças com 
+menos de 1 ano de idade. Desta forma, Spexotras não é recomendado nesta faixa etária. </p>
+<p>Doentes com mais de 18 anos de idade 
+A informação sobre tratamento de doentes com mais de 18 anos de idade com glioma é limitada, assim 
+a continuidade do tratamento até à idade adulta deve ser avaliada pelo médico. </p>
+<p>Outros medicamentos e Spexotras 
+Antes de iniciar o tratamento, informe o médico, farmacêutico ou enfermeiro se a sua criança estiver a 
+tomar, tiver tomado recentemente, ou se vier a tomar outros medicamentos, incluindo medicamentos 
+usados para fluidificar o sangue ou quaisquer outros medicamentos obtidos sem prescrição médica. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Gravidez </p>
+<ul>
+<li>
+<p>Se a sua criança está grávida, ou se pensa que a sua criança pode estar grávida, consulte o 
+médico ou farmacêutico para aconselhamento antes de tomar este medicamento. Spexotras pode 
+prejudicar o feto. </p>
+</li>
+<li>
+<p>Se a sua criança ficar grávida enquanto está a tomar este medicamento, informe o médico 
+imediatamente. </p>
+</li>
+</ul>
+<p>Amamentação 
+Desconhece-se se Spexotras pode passar para o leite materno. Se a sua criança está a amamentar ou 
+planeia amamentar, tem de informar o médico. Você, a sua criança e o médico irão decidir se irá tomar 
+Spexotras ou amamentar. </p>
+<p>Fertilidade 
+Spexotras pode comprometer a fertilidade dos homens e das mulheres. </p>
+<p>Tomar Spexotras com dabrafenib comprimidos dispersíveis: Dabrafenib pode reduzir a contagem de 
+esperma e isto pode não regressar aos níveis normais após parar o tratamento com dabrafenib. </p>
+<p>Antes de começar o tratamento com dabrafenib comprimidos dispersíveis, fale com o médico acerca 
+das opções para melhorar as hipóteses da sua criança ter filhos no futuro. </p>
+<p>Contraceção </p>
+<ul>
+<li>
+<p>Se a sua criança pode ficar grávida, tem de utilizar um método de contraceção que lhe ofereça 
+garantias (contraceção) enquanto está a tomar Spexotras e durante pelo menos 16 semanas após 
+deixar de o tomar. </p>
+</li>
+<li>
+<p>Os medicamentos contracetivos que contêm hormonas (como as pílulas, os injetáveis ou os 
+adesivos) podem não funcionar tão bem enquanto estiver a tomar Spexotras em associação com 
+dabrafenib comprimidos dispersíveis. Deve usar um método contracetivo eficaz alternativo para 
+evitar o risco de gravidez enquanto está a tomar esta associação de medicamentos. Fale com o 
+seu médico ou enfermeiro para que a aconselhem. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+Spexotras pode ter efeitos indesejáveis que podem afetar a capacidade da sua criança de conduzir, 
+andar de bicicleta/motorizada, utilizar máquinas ou tomar parte noutras atividades que requeiram 
+atenção. Se a sua criança tem problemas com a sua visão ou se sentir cansaço ou fraqueza, ou se os 
+seus níveis de energia forem baixos, deve evitar estas atividades. </p>
+<p>As descrições destes efeitos podem ser encontradas na secção 4. Leia toda a informação neste folheto 
+para orientações. </p>
+<p>Fale com o médico, farmacêutico ou enfermeiro se não tem a certeza sobre qualquer assunto. A sua 
+doença da sua criança, sintomas e a situação do tratamento podem também afetar a sua capacidade de 
+tomar parte nestas atividades. </p>
+<p>Spexotras contém uma ciclodextrina 
+Este medicamento contém 100 mg de uma ciclodextrina em cada ml de Spexotras solução oral. </p>
+<p>Spexotras contém p-hidroxibenzoato de metilo 
+Pode causar reações alérgicas (possivelmente retardadas). </p>
+<p>Spexotras contém sódio 
+Este medicamento contém 1,98 mg de sódio (principal componente de sal de cozinha /sal de mesa) em 
+cada ml de Spexotras solução oral. Isto é equivalente a 4% da ingestão diária máxima de sódio 
+recomendada na dieta para um adulto na dose mais elevada recomendada de trametinib. </p>
+<p>Spexotras contém potássio 
+Este medicamento contém potássio, menos de 1 mmol (39 mg) por dose máxima diária, ou seja, é 
+praticamente “isento de potássio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar spexotras"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar spexotras"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Administre sempre este medicamento à sua criança exatamente como indicado pelo médico, 
+farmacêutico ou enfermeiro. Fale com o médico, farmacêutico ou enfermeiro se tiver dúvidas. </p>
+<p>Quanto administrar 
+O médico irá decidir a dose correta de Spexotras com base no peso corporal da sua criança. </p>
+<p>O médico irá decidir se deve administrar uma dose mais baixa à sua criança se esta tiver efeitos 
+indesejáveis. </p>
+<p>Como administrar 
+Por favor leia as Instruções de Utilização no final deste folheto para detalhes de como administrar a 
+solução oral. A solução oral será preparada para si pelo seu farmacêutico. </p>
+<ul>
+<li>
+<p>Administre Spexotras uma vez por dia. Administrar Spexotras à mesma hora todos os dias irá 
+ajudá-lo a lembrar-se quando administrar o medicamento. Administre Spexotras com a dose da 
+manhã de dabrafenib ou com a dose da noite de dabrafenib comprimidos dispersíveis. As doses 
+de dabrafenib devem ser administradas com um intervalo de cerca de 12 horas. </p>
+</li>
+<li>
+<p>Administre Spexotras de estômago vazio, pelo menos uma hora antes ou duas horas após uma 
+refeição, isto significa que: 
+o 
+após tomar Spexotras, a sua criança tem de esperar pelo menos 1 hora antes de comer. 
+o 
+após comer, a sua criança tem de esperar pelo menos 2 horas antes de tomar Spexotras. 
+o 
+se necessário, amamentação e/ou fórmula podem ser dados a pedido. </p>
+</li>
+</ul>
+<p>Se administrar mais Spexotras mais do que deveria 
+Se administrar mais Spexotras do que deveria, contacte o médico, farmacêutico ou enfermeiro para 
+aconselhamento. Se possível, mostre-lhes a embalagem de Spexotras e este folheto. </p>
+<p>Caso se tenha esquecido de administrar Spexotras 
+Se ainda não passaram mais de 12 horas desde a dose esquecida, administre-a assim que se lembre. 
+Se já passaram 12 horas ou mais de 12 horas, salte a dose. Administre a próxima dose à hora habitual e 
+continue a administrar Spexotras às horas normais como habitualmente. 
+Não administre uma dose a dobrar para compensar uma dose que se esqueceu de administrar. </p>
+<p>Se a sua criança vomitar após tomar Spexotras 
+Se a sua criança vomitar após tomar Spexotras, não administre outra dose até à próxima dose 
+planeada. </p>
+<p>Se parar de administrar Spexotras 
+Administre Spexotras durante o período de tempo recomendado pelo médico. Não pare o tratamento, a 
+não ser por indicação do médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o médico, farmacêutico ou 
+enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. 
+Pare de administrar este medicamento e procure ajuda médica urgente se a sua criança tiver 
+algum dos seguintes sintomas: </p>
+<ul>
+<li>
+<p>tossir sangue, sangue na urina, vómitos contendo sangue ou que se assemelhem a “grãos de
+café", fezes vermelhas ou pretas que parecem alcatrão. Estes podem ser sinais de hemorragia.</p>
+</li>
+<li>
+<p>febre (temperatura 38ºC ou superior)</p>
+</li>
+<li>
+<p>dor no peito ou falta de ar, por vezes com febre ou tosse. Estes podem ser sinais de pneumonite
+ou pulmões inflamados (doença pulmonar intersticial).</p>
+</li>
+<li>
+<p>visão turva, perda de visão ou outras alterações da visão. Estes podem ser sinais de
+descolamento da retina.</p>
+</li>
+<li>
+<p>vermelhidão nos olhos, dor nos olhos, sensibilidade aumentada à luz. Estes podem ser sinais de
+uveíte.</p>
+</li>
+<li>
+<p>dor muscular inexplicada, cãibras musculares ou fraqueza muscular, urina escura. Estes podem
+ser sinais de rabdomiólise.</p>
+</li>
+<li>
+<p>dor abdominal forte. Isto pode ser um sinal de pancreatite.</p>
+</li>
+<li>
+<p>febre, glândulas linfáticas inchadas, hematomas ou erupção cutânea ao mesmo tempo. Estes
+podem ser sinais de uma condição em que o sistema imunitário produz demasiadas células que
+combatem infeções, o que pode causar vários sintomas (infohistiocitose hemofagocítica).</p>
+</li>
+<li>
+<p>náuseas, falta de ar, batimento cardíaco irregular, cãibras musculares, convulsões, urina turva,
+diminuição da produção de urina e cansaço. Estes podem ser sinais de uma condição que resulta
+de uma rápida degradação das células cancerígenas que em algumas pessoas pode ser fatal
+(síndrome de lise tumoral ou SLT).</p>
+</li>
+<li>
+<p>áreas de pele avermelhadas no tronco, circulares ou em forma de alvo, com ou sem bolhas no
+centro, descamação da pele, úlceras na boca, garganta, nariz, genitais e olhos. Estes podem ser
+sinais de erupções cutâneas graves, que podem causar risco de vida e que podem ser precedidas
+por febre e sintomas tipo-gripe (síndrome de Stevens-Johnson), erupção cutânea generalizada,
+febre e nódulos linfáticos aumentados (DRESS).
+Outros efeitos indesejáveis possíveis 
+Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+</li>
+<li>
+<p>Dor de cabeça</p>
+</li>
+<li>
+<p>Tonturas</p>
+</li>
+<li>
+<p>Tosse</p>
+</li>
+<li>
+<p>Diarreia, sentir-se doente (náuseas), estar doente (vómitos), prisão de ventre, dor de 
+estômago</p>
+</li>
+<li>
+<p>Problemas na pele, tais como erupção, erupção tipo acne, pele seca ou com comichão, 
+vermelhidão da pele</p>
+</li>
+<li>
+<p>Infeção no leito das unhas</p>
+</li>
+<li>
+<p>Dor nos braços ou pernas ou articulações</p>
+</li>
+<li>
+<p>Falta de energia ou sentir-se fraco ou cansado</p>
+</li>
+<li>
+<p>Aumento de peso</p>
+</li>
+<li>
+<p>Aumento das enzimas hepáticas observadas em análises ao sangue</p>
+</li>
+<li>
+<p>Níveis diminuídos de glóbulos brancos (neutropenia, leucopenia)</p>
+</li>
+<li>
+<p>Níveis diminuídos de glóbulos vermelhos (anemia)
+Frequentes (podem afetar até 1 em 10 pessoas) </p>
+</li>
+<li>
+<p>Infeções no trato respiratório superior com sintomas como garganta inflamada e nariz entupido 
+(nasofaringite) </p>
+</li>
+<li>
+<p>Urinar frequente com dor ou sensação de queimadura (infeção do trato urinário) </p>
+</li>
+<li>
+<p>Efeitos na pele incluindo infeção da pele (celulite), inflamação dos folículos pilosos da pele, 
+pele inflamada e com descamação (dermatite exfoliativa generalizada), crescimento tipo verruga 
+(papiloma cutâneo), espessamento da camada externa da pele (hiperqueratose) </p>
+</li>
+<li>
+<p>Diminuição do apetite </p>
+</li>
+<li>
+<p>Pressão sanguínea diminuída (hipotensão) </p>
+</li>
+<li>
+<p>Pressão sanguínea aumentada (hipertensão) </p>
+</li>
+<li>
+<p>Falta de ar </p>
+</li>
+<li>
+<p>Boca inflamada ou úlceras na boca, inflamação da mucosa </p>
+</li>
+<li>
+<p>Inflamação da camada de gordura abaixo da pele (paniculite) </p>
+</li>
+<li>
+<p>Perda ou enfraquecimento fora do habitual de cabelo </p>
+</li>
+<li>
+<p>Mãos e pés vermelhos e doridos (síndrome mãos-pés) </p>
+</li>
+<li>
+<p>Espasmos nos músculos </p>
+</li>
+<li>
+<p>Arrepios </p>
+</li>
+<li>
+<p>Reação alérgica (hipersensibilidade) </p>
+</li>
+<li>
+<p>Desidratação </p>
+</li>
+<li>
+<p>Problemas na visão incluindo visão turva </p>
+</li>
+<li>
+<p>Diminuição do ritmo cardíaco (bradicardia) </p>
+</li>
+<li>
+<p>Cansaço, desconforto no peito, cabeça leve, palpitações (fração de ejeção diminuída) </p>
+</li>
+<li>
+<p>Inchaço de tecidos (edema) </p>
+</li>
+<li>
+<p>Dores musculares (mialgias) </p>
+</li>
+<li>
+<p>Cansaço, arrepios, garganta inflamada, dor nas articulações ou músculos (doença tipo-gripe) </p>
+</li>
+<li>
+<p>Resultados de análises alterados relacionados com creatina fosfocinase, uma enzima encontrada 
+maioritariamente no coração, cérebro e músculo esquelético </p>
+</li>
+<li>
+<p>Aumento do nível de açúcar no sangue </p>
+</li>
+<li>
+<p>Diminuição dos níveis de sódio ou de fosfato no sangue </p>
+</li>
+<li>
+<p>Nível diminuido de plaquetas sanguíneas (células que ajudam o sangue a coagular) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Inflamação dos intestinos (colite) </p>
+</li>
+<li>
+<p>Pele com fissuras </p>
+</li>
+<li>
+<p>Suores noturnos </p>
+</li>
+<li>
+<p>Transpiração excessiva </p>
+</li>
+</ul>
+<p>Em adição aos efeitos indesejáveis descritos acima, os efeitos indesejáveis seguintes foram, até à data, 
+notificados apenas em doentes adultos, mas podem também ocorrer em crianças: </p>
+<ul>
+<li>
+<p>Problema com os nervos que pode provocar dor, perda de sensibilidade ou formigueiro nas 
+mãos e nos pés e/ou fraqueza muscular (neuropatia periférica) </p>
+</li>
+<li>
+<p>boca seca </p>
+</li>
+<li>
+<p>sensibilidade aumentada da pele ao sol </p>
+</li>
+<li>
+<p>falência renal </p>
+</li>
+<li>
+<p>tumor cutâneo benigno (acrocórdon) </p>
+</li>
+<li>
+<p>doença inflamatória que afeta maioritariamente a pele, pulmões, olhos e nódulos linfáticos 
+(sarcoidose) </p>
+</li>
+<li>
+<p>inflamação dos rins </p>
+</li>
+<li>
+<p>um orifício (perfuração) no estômago ou intestinos </p>
+</li>
+<li>
+<p>inflamação do músculo cardíaco (miocardite) que pode resultar em falta de ar, febre, palpitações 
+e dor no peito </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se a sua criança tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não 
+indicados neste folheto, fale com o médico, farmacêutico ou enfermeiro. Também poderá comunicar 
+efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice 
+V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança 
+deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar spexotras"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar spexotras"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco e na embalagem 
+exterior após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar na embalagem de origem para proteger da humidade. </p>
+<p>Antes da reconstituição: Conservar no frigorífico (2C - 8C). </p>
+<p>Após a reconstituição: Conservar abaixo de 25ºC. Não congelar. Elimine qualquer solução não 
+utilizada 35 dias após reconstituição. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Spexotras 
+- A substância ativa é trametinib. Um frasco contém dimetilsulfóxido de trametinib equivalente a 
+4,7 mg de trametinib. Cada ml de solução recosntituída contém 0,05 de trametinib. 
+- Os outros componentes são: sulfobutil-betadex sódico (ver secção 2), sucralose (E 955), 
+monohidrato de ácido cítrico (E 330), fosfato dissódico (E 339) (ver secção 2), sorbato de 
+potássio (E 202) (ver secção 2), p-hidroxibenzoato de metilo (E 218) (ver secção 2) e sabor a 
+morango. </p>
+<p>Qual o aspeto de Spexotras e conteúdo da embalagem 
+Spexotras 0,05 mg/ml pó para solução oral é um pó branco ou quase branco. </p>
+<p>Spexotras é fornecido num frasco de vidro tipo âmbar de 180 ml com uma tampa com fecho de rosca 
+resistente a crianças, contendo 12 mg de pó. Cada embalagem contém um frasco, um adaptador de 
+frasco por pressão e uma seringa oral de 20 ml reutilizável, graduada com marcas de 0,5 ml. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Sandoz S.R.L. 
+Str. Livenzeni nr.7A 
+540472 Targu Mures 
+Roménia </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberga 
+Alemanha </p>
+<p>Novartis Farmacéutica S.A. 
+Gran Via de les Corts Catalanes 08013 Barcelona 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf.: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1443,6 +2079,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-dc7d7a695883d4001becc8f978871435"
 * entry[0].resource = composition-da-dc7d7a695883d4001becc8f978871435
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdc7d7a695883d4001becc8f978871435"
+* entry[=].resource = mpdc7d7a695883d4001becc8f978871435
+                            
+                    
+Instance: bundlepackageleaflet-pt-dc7d7a695883d4001becc8f978871435
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for spexotras Package Leaflet for language pt"
+Description: "ePI document Bundle for spexotras Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-dc7d7a695883d4001becc8f978871435"
+* entry[0].resource = composition-pt-dc7d7a695883d4001becc8f978871435
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpdc7d7a695883d4001becc8f978871435"
@@ -1544,6 +2202,18 @@ RuleSet: dc7d7a695883d4001becc8f978871435ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-dc7d7a695883d4001becc8f978871435) // spexotras pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

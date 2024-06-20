@@ -1470,6 +1470,813 @@ http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-4c7f4cd465ecc4c332f786a217090e6e
+InstanceOf: CompositionUvEpi
+Title: "Composition for stribild Package Leaflet"
+Description:  "Composition for stribild Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4c7f4cd465ecc4c332f786a217090e6e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - stribild"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Stribild e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Stribild </li>
+<li>Como tomar Stribild </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Stribild </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é stribild e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é stribild e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Stribild contém quatro substâncias ativas: </p>
+<ul>
+<li>
+<p>elvitegravir, um medicamento antirretroviral conhecido como um inibidor da integrase </p>
+</li>
+<li>
+<p>cobicistate, um medicamento que potencia (intensificador farmacocinético) os efeitos do 
+elvitegravir </p>
+</li>
+<li>
+<p>emtricitabina, um medicamento antirretroviral conhecido como um inibidor nucleósido da 
+transcriptase reversa (NRTI) </p>
+</li>
+<li>
+<p>tenofovir disoproxil, um medicamento antirretroviral conhecido como um inibidor nucleótido 
+da transcriptase reversa (NtRTI) </p>
+</li>
+</ul>
+<p>Stribild é um regime de apenas um comprimido para o tratamento da infeção pelo vírus da 
+imunodeficiência humana (VIH) em adultos. </p>
+<p>Stribild é também utilizado para o tratamento de adolescentes com infeção pelo VIH-1 com idade 
+compreendida entre 12 e menos de 18 anos, que pesam, pelo menos, 35 kg, e que já tenham sido 
+tratados com outros medicamentos contra o VIH que tenham causado efeitos indesejáveis. </p>
+<p>Stribild diminui a quantidade de VIH no seu corpo. Isto irá melhorar o seu sistema imunológico 
+e diminuir o risco de desenvolvimento de doenças ligadas à infeção por VIH. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar stribild"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar stribild"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Stribild </p>
+<ul>
+<li>
+<p>Se tem alergia ao elvitegravir, ao cobicistate, à emtricitabina, ao tenofovir, ao tenofovir 
+disoproxil, ou a qualquer outro componente deste medicamento (indicados na secção 6 no fim 
+deste folheto). </p>
+</li>
+<li>
+<p>Se parou o tratamento com qualquer outro medicamento contendo tenofovir disoproxil, de 
+acordo com o conselho do seu médico, após problemas com a sua função renal. </p>
+</li>
+<li>
+<p>Se estiver a tomar um destes medicamentos: </p>
+</li>
+<li>alfuzosina (utilizada para tratar o aumento de tamanho da próstata) </li>
+<li>amiodarona, quinidina (utilizadas para corrigir batimentos irregulares do coração) </li>
+<li>dabigatrano (utilizado para evitar e tratar coágulos de sangue) </li>
+<li>carbamazepina, fenobarbital, fenitoína (utilizados para evitar convulsões) </li>
+<li>rifampicina (utilizada para evitar e tratar a tuberculose e outras infeções) </li>
+<li>di-hidroergotamina, ergotamina, ergometrina (utilizadas para tratar a enxaqueca) </li>
+<li>cisaprida (utilizada para aliviar certos problemas de estômago) </li>
+<li>hipericão (Hypericum perforatum, um produto à base de plantas para tratar a depressão e 
+ansiedade) ou produtos que o contenham. </li>
+<li>lovastatina, sinvastatina (utilizadas para diminuir o colesterol do sangue) </li>
+<li>pimozida, lurasidona (utilizadas para tratar pensamentos ou sentimentos anormais) </li>
+<li>sildenafil (utilizado para tratar a hipertensão arterial pulmonar - uma doença dos 
+pulmões que causa dificuldade em respirar) </li>
+<li>midazolam administrado por vial oral, triazolam (utilizados para ajudar a dormir e/ou 
+aliviar a ansiedade) </li>
+</ul>
+<p> Se qualquer destas situações se lhe aplicar, não deve tomar Stribild e deve informar 
+imediatamente o seu médico. </p>
+<p>Advertências e precauções </p>
+<p>Deve necessariamente permanecer sob vigilância do seu médico enquanto estiver a tomar Stribild. </p>
+<p>Este medicamento não é uma cura para a infeção pelo VIH. Enquanto tomar Stribild, pode 
+desenvolver na mesma infeções ou outras doenças associadas com a infeção pelo VIH. </p>
+<p>Fale com o seu médico antes de tomar Stribild: </p>
+<ul>
+<li>Se tem ou tiver tido problemas nos rins, ou se as análises tiverem apresentado alterações nos 
+seus rins. O seu médico considerará cuidadosamente se o tratará com Stribild. </li>
+</ul>
+<p>Stribild pode afetar os seus rins. Antes de iniciar o tratamento, o seu médico pedirá análises ao 
+sangue para avaliar a função dos seus rins. O seu médico também pedirá análises ao sangue 
+durante o tratamento, para verificar se os seus rins estão a funcionar corretamente. </p>
+<p>Stribild não é geralmente tomado com outros medicamentos que possam prejudicar os seus rins 
+(ver Outros medicamentos e Stribild). Caso isto seja inevitável, o seu médico irá verificar mais 
+frequentemente se os seus rins estão a funcionar corretamente. </p>
+<ul>
+<li>Podem também ocorrer problemas ósseos (manifestados como dor óssea persistente ou 
+agravada e que, por vezes, resulta em fraturas), devido a lesão nas células tubulares do rim (ver 
+secção 4, Efeitos indesejáveis possíveis). Informe o seu médico se tiver dores ósseas ou fraturas. </li>
+</ul>
+<p>Tenofovir disoproxil também pode causar a perda de massa óssea. </p>
+<p>De modo geral, os efeitos de tenofovir disoproxil na saúde óssea a longo prazo e o risco de 
+fraturas em doentes adultos e pediátricos são incertos. </p>
+<p>Informe o seu médico se souber que sofre de osteoporose. Os doentes com osteoporose têm um 
+risco mais elevado de fraturas. </p>
+<ul>
+<li>Se tem problemas no fígado ou antecedentes de doença do fígado, incluindo hepatite. Os 
+doentes com doença no fígado, incluindo hepatite B ou C crónica, que estejam a ser tratados 
+com medicamentos antirretrovirais, apresentam um risco superior de sofrerem complicações 
+graves e potencialmente fatais ao nível do fígado. Se tem hepatite B, o seu médico irá 
+considerar cuidadosamente o melhor regime terapêutico para si. </li>
+</ul>
+<p>Se tem hepatite B, os problemas do fígado podem piorar depois de parar de tomar Stribild. É 
+importante que não pare de tomar Stribild sem falar antes com o seu médico: ver secção 3, Não 
+pare de tomar Stribild. </p>
+<ul>
+<li>Se tem mais de 65 anos. Stribild não foi estudado em doentes com mais de 65 anos de idade. 
+Caso tenha mais de 65 anos e lhe seja receitado Stribild, o seu médico irá observá-lo mais 
+frequentemente. </li>
+</ul>
+<p> Se qualquer destas situações se lhe aplicar, fale com o seu médico antes de tomar Stribild. </p>
+<p>Enquanto estiver a tomar Stribild </p>
+<p>Uma vez que esteja já a tomar Stribild, fique atento a: </p>
+<ul>
+<li>
+<p>quaisquer sinais de inflamação ou infeção </p>
+</li>
+<li>
+<p>problemas ósseos </p>
+</li>
+</ul>
+<p> Se observar quaisquer destes sintomas, informe o seu médico imediatamente. </p>
+<p>Crianças e adolescentes </p>
+<p>Não dê este medicamento a crianças com menos de 12 anos de idade. A utilização de Stribild em 
+crianças com menos de 12 anos de idade e peso inferior a 35 kg não foi estudada. </p>
+<p>Outros medicamentos e Stribild </p>
+<p>Existem alguns medicamentos que nunca deve tomar com Stribild. 
+Estes encontram-se mencionados na secção "Não tome Stribild - Se estiver a tomar um destes 
+medicamentos". </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar ou tiver tomado recentemente outros 
+medicamentos. Stribild pode interferir com outros medicamentos. Como resultado, as quantidades de 
+Stribild ou dos outros medicamentos no seu sangue podem ser afetadas. Isto pode fazer com que os 
+seus medicamentos parem de funcionar apropriadamente ou piorar quaisquer efeitos indesejáveis. Em 
+alguns casos, o seu médico pode precisar de ajustar a sua dose ou verificar os níveis dos 
+medicamentos no seu sangue. </p>
+<p>É especialmente importante que fale com o seu médico se estiver a tomar qualquer um dos 
+seguintes: </p>
+<ul>
+<li>quaisquer outros medicamentos contendo: </li>
+<li>tenofovir disoproxil </li>
+<li>tenofovir alafenamida </li>
+<li>lamivudina </li>
+<li>
+<p>adefovir dipivoxil </p>
+</li>
+<li>
+<p>medicamentos que podem lesar os seus rins, cujos exemplos incluem: </p>
+</li>
+<li>aminoglicósidos (como a estreptomicina, neomicina e gentamicina), vancomicina (para 
+infeções bacterianas) </li>
+<li>foscarneto, ganciclovir, cidofovir (para infeções virais) </li>
+<li>anfotericina B, pentamidina (para infeções fúngicas) </li>
+<li>interleucina-2, também chamada aldesleucina (para tratamento do cancro) </li>
+<li>anti-inflamatórios não esteroides (AINEs, para aliviar a dor óssea ou a dor muscular) </li>
+</ul>
+<p>Também é importante que informe o seu médico se estiver a tomar qualquer um dos seguintes tipos 
+de medicamentos: </p>
+<ul>
+<li>antifúngicos, utilizados para tratar infeções por fungos, como: </li>
+<li>
+<p>cetoconazol, itraconazol, voriconazol, fluconazol e posaconazol </p>
+</li>
+<li>
+<p>antivirais, utilizados para tratar a infeção pelo vírus da hepatite C: </p>
+</li>
+<li>
+<p>ledipasvir/sofosbuvir, sofosbuvir/velpatasvir e sofosbuvir/velpatasvir/voxilaprevir </p>
+</li>
+<li>
+<p>antibióticos, utilizados para tratar infeções causadas por bactérias incluindo a tuberculose, 
+contendo: </p>
+</li>
+<li>
+<p>rifabutina, claritromicina ou telitromicina </p>
+</li>
+<li>
+<p>antidepressivos, utilizados para tratar a depressão: </p>
+</li>
+<li>
+<p>medicamentos contendo trazodona ou escitalopram  </p>
+</li>
+<li>
+<p>sedativos e hipnóticos, utilizados para tratar a ansiedade: </p>
+</li>
+<li>
+<p>buspirona, clorazepato, diazepam, estazolam, flurazepam e zolpidem </p>
+</li>
+<li>
+<p>imunossupressores, utilizados para controlar a resposta imunitária do seu corpo após um 
+transplante, como: </p>
+</li>
+<li>
+<p>ciclosporina, sirolímus e tacrolímus </p>
+</li>
+<li>
+<p>corticosteroides, incluindo: </p>
+</li>
+<li>
+<p>betametasona, budesonida, fluticasona, mometasona, prednisona, triamcinolona. 
+Estes medicamentos são utilizados para tratar alergias, asma, doenças intestinais inflamatórias, 
+doenças inflamatórias da pele, dos olhos, das articulações e dos músculos e outras doenças 
+inflamatórias. Estes medicamentos são geralmente tomados por via oral, inalados, injetados ou 
+aplicados na pele ou olho. Se não for possível utilizar alternativas, o seu uso só deverá efetuar-
+se após avaliação médica e sob monitorização apertada do seu médico relativamente aos efeitos 
+indesejáveis dos corticosteroides. </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar a diabetes: </p>
+</li>
+<li>
+<p>metformina </p>
+</li>
+<li>
+<p>pílula contracetiva, utilizada para impedir a gravidez </p>
+</li>
+<li>
+<p>medicamentos para a disfunção erétil, utilizados para tratar a impotência, como: </p>
+</li>
+<li>
+<p>sildenafil, tadalafil e vardenafil </p>
+</li>
+<li>
+<p>medicamentos para o coração, como: </p>
+</li>
+<li>
+<p>digoxina, disopiramida, flecainida, lidocaína, mexiletina, propafenona, metoprolol, 
+timolol, amlodipina, diltiazem, felodipina, nicardipina, nifedipina e verapamil  </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar a hipertensão arterial pulmonar: </p>
+</li>
+<li>
+<p>bosentano </p>
+</li>
+<li>
+<p>anticoagulantes, utilizados para evitar e tratar coágulos de sangue, como: </p>
+</li>
+<li>
+<p>varfarina, edoxabano, apixabano e rivaroxabano </p>
+</li>
+<li>
+<p>broncodilatadores, utilizados para tratar a asma e outros problemas relacionados com os 
+pulmões: </p>
+</li>
+<li>
+<p>salmeterol </p>
+</li>
+<li>
+<p>medicamentos para diminuir o colesterol, como: </p>
+</li>
+<li>
+<p>rosuvastatina, atorvastatina, pravastatina, fluvastatina e pitavastatina </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar a gota: </p>
+</li>
+<li>
+<p>colquicina </p>
+</li>
+<li>
+<p>antiplaquetários, utilizados para reduzir o risco de coágulos de sangue, como: </p>
+</li>
+<li>
+<p>clopidogrel  </p>
+</li>
+<li>
+<p>medicamentos ou suplementos orais contendo minerais (tais como magnésio, alumínio, 
+cálcio, ferro, zinco), como: </p>
+</li>
+<li>suplementos minerais, vitamínicos (incluindo multivitamínicos), antiácidos e laxantes 
+ Se estiver a tomar medicamentos, suplementos orais, antiácidos ou laxantes contendo 
+minerais (tais como magnésio, alumínio, cálcio, ferro, zinco), tome-os pelo menos 4 horas 
+antes ou pelo menos 4 horas depois de Stribild. </li>
+</ul>
+<p> Informe o seu médico se estiver a tomar estes ou quaisquer outros medicamentos. Não pare o 
+seu tratamento sem contactar o seu médico. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<ul>
+<li>
+<p>Informe o seu médico imediatamente se está grávida, se pensa estar grávida ou se planeia 
+engravidar. As mulheres grávidas não devem tomar Stribild. A quantidade deste medicamento 
+no sangue pode diminuir durante a gravidez, o que pode impedir que atue corretamente. </p>
+</li>
+<li>
+<p>Utilize um método contracetivo eficaz enquanto estiver a tomar Stribild. </p>
+</li>
+<li>
+<p>Não amamente durante o tratamento com Stribild. Isto deve-se ao facto de que algumas das 
+substâncias ativas deste medicamento serem excretadas no leite humano. </p>
+</li>
+<li>
+<p>A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção 
+pelo VIH pode ser transmitida ao bebé através do leite materno. </p>
+</li>
+<li>
+<p>Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais 
+rapidamente possível. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Stribild pode causar tonturas, cansaço ou insónia. Se for afetado por estes sintomas enquanto estiver a 
+tomar Stribild, não conduza e não utilize quaisquer ferramentas ou máquinas. </p>
+<p>Stribild contém lactose </p>
+<p>Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>
+<p>Stribild contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar stribild"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar stribild"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Dose recomendada para adultos e adolescentes com idade compreendida entre 12 e menos de 
+18 anos que pesam, pelo menos, 35 kg: </p>
+<ul>
+<li>Um comprimido por dia por via oral, com alimentos. Não mastigue, esmague ou divida o 
+comprimido. </li>
+</ul>
+<p>Tome sempre a dose recomendada pelo seu médico. Isto para ter a certeza que o seu medicamento é 
+totalmente eficaz, e para reduzir o risco de desenvolvimento de resistência ao tratamento. Não altere a 
+dose a menos que o seu médico lhe diga para o fazer. </p>
+<p>Se estiver a tomar medicamentos, suplementos orais, antiácidos ou laxantes contendo minerais 
+(tais como magnésio, alumínio, cálcio, ferro, zinco), tome-os pelo menos 4 horas antes ou pelo menos 
+4 horas depois de Stribild. </p>
+<p>Se tomar mais Stribild do que deveria </p>
+<p>Se acidentalmente tomar mais do que a dose recomendada de Stribild, pode estar em maior risco de ter 
+efeitos indesejáveis possíveis com este medicamento (ver secção 4, Efeitos indesejáveis possíveis). </p>
+<p>Entre imediatamente em contacto com o seu médico ou aconselhe-se junto do serviço de urgência 
+mais próximo. Mantenha o frasco de comprimidos consigo para que facilmente possa descrever o 
+que tomou. </p>
+<p>Caso se tenha esquecido de tomar Stribild </p>
+<p>É importante que não falhe nenhuma dose de Stribild. </p>
+<p>Caso se tenha esquecido de tomar uma dose: </p>
+<ul>
+<li>
+<p>e se aperceba no período de 18 horas após a hora em que habitualmente toma Stribild, deve 
+necessariamente tomar o comprimido o mais rapidamente possível. Tome sempre o comprimido 
+com alimentos. Depois tome a sua dose seguinte como é habitual. </p>
+</li>
+<li>
+<p>e se aperceba 18 horas ou mais após a hora em que habitualmente toma Stribild, não tome a 
+dose que falhou. Espere e tome a dose seguinte com alimentos na hora habitual. </p>
+</li>
+</ul>
+<p>Se vomitar em menos de 1 hora após a toma de Stribild, tome outro comprimido com alimentos. </p>
+<p>Não pare de tomar Stribild </p>
+<p>Não pare de tomar Stribild sem falar com o seu médico. A interrupção do tratamento com Stribild 
+pode afetar gravemente a sua resposta a um tratamento futuro. Se o tratamento com Stribild for 
+interrompido por qualquer razão, fale com o seu médico antes de voltar a tomar os comprimidos 
+de Stribild. </p>
+<p>Quando a quantidade de Stribild começar a diminuir, obtenha mais junto do seu médico ou 
+farmacêutico. É muito importante que o faça porque a quantidade de vírus pode começar a aumentar 
+se o medicamento for interrompido, mesmo por um curto período de tempo. A doença pode então 
+tornar-se mais difícil de tratar.  </p>
+<p>Se tiver infeção por VIH e hepatite B, é particularmente importante não parar o tratamento com 
+Stribild sem previamente consultar o seu médico. Pode necessitar de análises ao sangue durante vários 
+meses após interrupção do tratamento. Em alguns doentes com doença hepática (do fígado) avançada 
+ou cirrose, a interrupção do tratamento não é recomendada, uma vez que pode levar a um agravamento 
+da sua hepatite, que pode ser potencialmente fatal. </p>
+<p> Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco habituais 
+após parar o tratamento, particularmente sintomas que associaria à sua hepatite B (tais como uma 
+cor amarela na sua pele ou parte branca dos seus olhos, urina escura "cor de chá", fezes de cor 
+clara, perda de apetite durante vários dias ou por um período prolongado, sentir-se enjoado 
+(náuseas) ou estar enjoado (vómitos) ou dor na zona do estômago). </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Durante a terapêutica para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no 
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos 
+lípidos no sangue, por vezes aos próprios medicamentos para o VIH. O seu médico irá realizar testes 
+para determinar estas alterações. </p>
+<p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Ao tratar a infeção por VIH, não é sempre possível dizer se alguns 
+dos efeitos indesejados são causados por Stribild ou por outros medicamentos que está a tomar ao 
+mesmo tempo, ou pela doença do VIH propriamente dita. </p>
+<p>Efeitos indesejáveis graves possíveis: informe o seu médico imediatamente </p>
+<ul>
+<li>Acidose láctica (excesso de ácido láctico no sangue) é um efeito secundário raro, mas 
+potencialmente fatal, de alguns medicamentos para o tratamento do VIH. A acidose láctica 
+ocorre mais frequentemente em mulheres, particularmente se elas apresentam excesso de peso, e 
+em pessoas com doença do fígado. Os seguintes podem ser sinais de acidose láctica: </li>
+<li>respiração profunda, rápida </li>
+<li>cansaço ou sonolência </li>
+<li>sentir-se enjoado (náuseas), estar enjoado (vómitos) </li>
+<li>
+<p>dor no estômago 
+ Caso pense que pode ter acidose láctica, informe imediatamente o seu médico. </p>
+</li>
+<li>
+<p>Quaisquer sinais de inflamação ou infeção. Em alguns doentes com infeção pelo VIH 
+avançada (SIDA) e antecedentes de infeções oportunistas (infeções que ocorrem em pessoas 
+com um sistema imunológico fraco), sinais e sintomas de inflamação de infeções prévias podem 
+ocorrer logo após iniciar o tratamento contra o VIH. Pensa-se que estes sintomas são devidos a 
+uma melhoria na resposta imunológica do corpo, permitindo que o corpo lute contra infeções 
+que podem estar presentes sem sintomas óbvios. Além das infeções oportunistas, também 
+podem ocorrer doenças autoimunes (uma situação que ocorre quando o sistema imunitário ataca 
+os tecidos saudáveis do corpo) após tomar medicamentos para o tratamento da sua infeção pelo 
+VIH. As doenças autoimunes podem ocorrer muitos meses depois do início do tratamento. Se 
+detetar quaisquer sintomas de infeção ou outros sintomas, como fraqueza muscular, fraqueza 
+que começa nas mãos e nos pés e que progride para o tronco, palpitações, tremores ou 
+hiperatividade, informe imediatamente o seu médico para que lhe seja prestado o tratamento 
+necessário. 
+ Se observar quaisquer sintomas de inflamação ou infeção, informe o seu médico 
+imediatamente. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito frequentes 
+(podem afetar pelo menos 1 em cada 10 doentes tratados) </p>
+<ul>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>sentir-se enjoado (náuseas)  </p>
+</li>
+<li>
+<p>fraqueza </p>
+</li>
+<li>
+<p>dores de cabeça, tonturas </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>diminuição do fosfato no sangue </p>
+</li>
+<li>
+<p>aumento dos níveis de creatina cinase no sangue que pode causar dores e fraqueza nos músculos </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes 
+(podem afetar 1 a 10 em cada 100 doentes tratados) </p>
+<ul>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>dificuldade em dormir (insónia), sonhos anormais </p>
+</li>
+<li>
+<p>dor, dor de estômago </p>
+</li>
+<li>
+<p>problemas digestivos que podem resultar em desconforto após as refeições (dispepsia) </p>
+</li>
+<li>
+<p>enfartamento </p>
+</li>
+<li>
+<p>prisão de ventre, gases (flatulência) </p>
+</li>
+<li>
+<p>erupções na pele (incluindo manchas vermelhas ou pústulas algumas vezes com bolhas e 
+inchaço da pele), que podem ser reações alérgicas, comichão, alterações na cor da pele 
+incluindo escurecimento da pele em manchas </p>
+</li>
+<li>
+<p>outras reações alérgicas </p>
+</li>
+<li>
+<p>cansaço </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>baixa contagem de glóbulos brancos (que pode torná-lo mais sujeito a infeções) </p>
+</li>
+<li>
+<p>aumento do açúcar, ácidos gordos (triglicéridos), bilirrubina no sangue </p>
+</li>
+<li>
+<p>alterações no fígado e pâncreas </p>
+</li>
+<li>
+<p>aumento dos níveis de creatinina no sangue  </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes 
+(podem afetar até 1 em cada 100 doentes tratados) </p>
+<ul>
+<li>
+<p>ideias suicidas e tentativa de suicídio (em doentes que tiveram antes depressão ou problemas de 
+saúde mental), depressão </p>
+</li>
+<li>
+<p>dores nas costas causadas por problemas de rins, incluindo insuficiência renal. O seu médico 
+pode fazer-lhe análises ao sangue para verificar se os seus rins estão a funcionar corretamente </p>
+</li>
+<li>
+<p>lesão nas células tubulares do rim </p>
+</li>
+<li>
+<p>inchaço da face, lábios, língua ou garganta  </p>
+</li>
+<li>
+<p>dor no abdómen (barriga) causada por inflamação do pâncreas (pancreatite) </p>
+</li>
+<li>
+<p>destruição dos músculos, dor ou fraqueza muscular  </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>anemia (baixa contagem de glóbulos vermelhos) </p>
+</li>
+<li>
+<p>diminuição dos níveis de potássio no sangue  </p>
+</li>
+<li>
+<p>alterações na urina </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis raros 
+(podem afetar até 1 em cada 1.000 doentes tratados) </p>
+<ul>
+<li>
+<p>acidose láctica (ver Efeitos indesejáveis graves possíveis: informe o seu médico imediatamente) </p>
+</li>
+<li>
+<p>pele ou olhos de cor amarela, comichão ou dor no abdómen (barriga) causadas por inflamação 
+do fígado (hepatite) </p>
+</li>
+<li>
+<p>fígado gordo  </p>
+</li>
+<li>
+<p>inflamação do rim (nefrite) </p>
+</li>
+<li>
+<p>aumento da quantidade de urina e sentir sede (diabetes insipidus nefrogénica) </p>
+</li>
+<li>
+<p>perda de resistência dos ossos (com dor nos ossos e por vezes resultando em fraturas) </p>
+</li>
+</ul>
+<p>Pode ocorrer destruição dos músculos, perda de resistência dos ossos (com dor nos ossos e por vezes 
+resultando em fraturas), dor muscular, fraqueza muscular e diminuição do potássio ou fosfato no 
+sangue devido a lesão nas células tubulares do rim. </p>
+<p> Se qualquer dos efeitos indesejáveis se agravar informe o seu médico. </p>
+<p>Outros efeitos que podem ser observados durante o tratamento do VIH </p>
+<p>A frequência dos efeitos indesejáveis seguintes é desconhecida (a frequência não pode ser calculada a 
+partir dos dados disponíveis). </p>
+<ul>
+<li>Problemas nos ossos. Alguns doentes medicados com associações de medicamentos 
+antirretrovirais tais como Stribild podem desenvolver uma doença óssea chamada osteonecrose 
+(morte do tecido ósseo causada pela perda da irrigação de sangue no osso). Tomar este tipo de 
+medicamentos durante um período prolongado, tomar corticosteroides, consumir bebidas 
+alcoólicas, ter um sistema imunológico muito fraco e ter excesso de peso, podem ser alguns dos 
+muitos fatores de risco para o desenvolvimento desta doença. Sinais de osteonecrose são: </li>
+<li>rigidez das articulações </li>
+<li>dores nas articulações (especialmente na anca, joelho e ombro) </li>
+<li>dificuldade em se movimentar </li>
+</ul>
+<p>Outros efeitos em crianças </p>
+<ul>
+<li>As crianças às quais é administrada emtricitabina apresentam muito frequentemente alterações na 
+cor da pele incluindo </li>
+<li>
+<p>escurecimento da pele em manchas  </p>
+</li>
+<li>
+<p>As crianças apresentaram frequentemente uma baixa contagem de glóbulos vermelhos (anemia).  </p>
+</li>
+<li>tal poderá fazer com que a criança fique cansada ou com falta de ar  </li>
+</ul>
+<p> Se observar qualquer um destes sintomas, informe o seu médico. </p>
+<p> Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico ou farmacêutico. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar stribild"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar stribild"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior, 
+após {VAL.}. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar na embalagem de origem para proteger da humidade. Manter o frasco bem fechado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Stribild </p>
+<p>As substâncias ativas são elvitegravir, cobicistate, emtricitabina e tenofovir disoproxil. Cada 
+comprimido revestido por película de Stribild contém 150 mg de elvitegravir, 150 mg de cobicistate, 
+200 mg de emtricitabina e 245 mg de tenofovir disoproxil (equivalente a 300 mg de tenofovir 
+disoproxil fumarato ou 136 mg de tenofovir). </p>
+<p>Os outros componentes são  </p>
+<p>Núcleo do comprimido: 
+Croscarmelose sódica (E468), hidroxipropilcelulose (E463), lactose mono-hidratada, estearato de 
+magnésio (E572), celulose microcristalina (E460), dióxido de silício (E551), laurilsulfato de sódio. </p>
+<p>Revestimento por película: 
+Laca de alumínio indigotina (E132), macrogol 3350 (E1521), álcool polivinílico (parcialmente 
+hidrolisado) (E1203), talco (E553b), dióxido de titânio (E171), óxido de ferro amarelo (E172). </p>
+<p>Qual o aspeto de Stribild e conteúdo da embalagem </p>
+<p>Stribild comprimidos revestidos por película são comprimidos de cor verde, em forma de cápsula, 
+gravados num lado com “GSI" e no outro lado com o número “1" envolvido por uma caixa quadrada. 
+Stribild apresenta-se em frascos de 30 comprimidos (com um exsicante de sílica gel que deve ser 
+mantido dentro do frasco para ajudar a proteger os seus comprimidos). O exsicante de sílica gel está 
+contido numa saqueta ou recipiente separado e não deve ser engolido. </p>
+<p>Estão disponíveis as seguintes apresentações: embalagens contendo 1 frasco de 30 comprimidos 
+revestidos por película e 90 (3 frascos de 30) comprimidos revestidos por película. É possível que não 
+sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrlanda  </p>
+<p>Fabricante 
+Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel.: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt; &lt;{mês de AAAA}&gt; </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1511,6 +2318,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-4c7f4cd465ecc4c332f786a217090e6e"
 * entry[0].resource = composition-da-4c7f4cd465ecc4c332f786a217090e6e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4c7f4cd465ecc4c332f786a217090e6e"
+* entry[=].resource = mp4c7f4cd465ecc4c332f786a217090e6e
+                            
+                    
+Instance: bundlepackageleaflet-pt-4c7f4cd465ecc4c332f786a217090e6e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for stribild Package Leaflet for language pt"
+Description: "ePI document Bundle for stribild Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-4c7f4cd465ecc4c332f786a217090e6e"
+* entry[0].resource = composition-pt-4c7f4cd465ecc4c332f786a217090e6e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp4c7f4cd465ecc4c332f786a217090e6e"
@@ -1612,6 +2441,18 @@ RuleSet: 4c7f4cd465ecc4c332f786a217090e6eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-4c7f4cd465ecc4c332f786a217090e6e) // stribild pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

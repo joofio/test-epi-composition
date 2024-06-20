@@ -1145,6 +1145,558 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-0b227cd2a54454e66a70766913e35ba2
+InstanceOf: CompositionUvEpi
+Title: "Composition for pegasys Package Leaflet"
+Description:  "Composition for pegasys Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0b227cd2a54454e66a70766913e35ba2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - pegasys"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Pegasys e para que é utilizado 
+2. O que precisa de saber antes de utilizar Pegasys 
+3. Como utilizar Pegasys 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Pegasys 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é pegasys e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é pegasys e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pegasys contém a substância ativa peginterferão alfa-2a, que é um interferão de ação prolongada. O 
+interferão é uma proteína que modifica a resposta do sistema imunitário do organismo, para ajudar a 
+combater infeções e doenças graves. Pegasys é utilizado para tratar a hepatite B crónica ou a hepatite 
+C crónica em adultos. Também é utilizado para tratar a hepatite B crónica em crianças com idade igual 
+ou superior a 3 anos e adolescentes, e a hepatite C crónica em crianças com idade igual ou superior a 5 
+anos e adolescentes que não foram tratados antes. As hepatites B e C crónicas são ambas infeções 
+virais do fígado. </p>
+<p>Hepatite B Crónica: Pegasys é habitualmente utilizado isoladamente. 
+Hepatite C Crónica: Pegasys é utilizado em associação com outros medicamentos no tratamento da 
+hepatite C crónica (HCC).  </p>
+<p>Deverá ler também o folheto informativo dos outros medicamentos que se utilizam em associação com 
+Pegasys. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar pegasys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar pegasys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Pegasys </p>
+<ul>
+<li>
+<p>se tem alergia ao peginterferão alfa-2a, a algum interferão ou a qualquer outro componente 
+deste medicamento (indicados na secção 6). </p>
+</li>
+<li>
+<p>se já teve um ataque cardíaco ou se foi hospitalizado devido a dores fortes no peito nos últimos 
+seis meses. </p>
+</li>
+<li>
+<p>se tem hepatite designada por hepatite auto-imune. </p>
+</li>
+<li>
+<p>se tem doença hepática avançada e o seu fígado não funciona adequadamente (p. ex. se a sua 
+pele se tornou amarelada). </p>
+</li>
+<li>
+<p>se o doente for uma criança com menos de 3 anos de idade. </p>
+</li>
+<li>
+<p>se o doente é uma criança que já tenha tido doenças psiquiátricas graves tal como depressão 
+grave ou pensamentos em cometer suicídio. </p>
+</li>
+<li>
+<p>se está infetado por ambos os vírus da hepatite C e da imunodeficiência humana e o seu fígado 
+não funciona adequadamente (p. ex. se a sua pele se tornou amarelada). </p>
+</li>
+<li>
+<p>se está a ser tratado com telbivudina, um medicamento para a infeção da hepatite B (ver “Outros 
+medicamentos e Pegasys"). </p>
+</li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Pegasys </p>
+<ul>
+<li>
+<p>se já teve alguma doença nervosa ou mental grave. </p>
+</li>
+<li>
+<p>se já teve uma depressão ou sintomas associados a depressão (p. ex. sensação de tristeza, 
+desânimo, etc). </p>
+</li>
+<li>
+<p>se é um adulto que tem ou já teve história de abuso de substâncias (p. ex. álcool ou substâncias 
+ilícitas). </p>
+</li>
+<li>
+<p>se tem psoríase, esta pode piorar durante o tratamento com Pegasys. </p>
+</li>
+<li>
+<p>se tem problemas de fígado, para além da hepatite B ou C. </p>
+</li>
+<li>
+<p>se tem diabetes ou hipertensão, o seu médico pode pedir-lhe para fazer um exame aos olhos. </p>
+</li>
+<li>
+<p>se sabe que tem a síndrome VKH </p>
+</li>
+<li>
+<p>se tiver uma doença da tiroide que não esteja controlada com medicação. </p>
+</li>
+<li>
+<p>se já teve anemia. </p>
+</li>
+<li>
+<p>se já foi submetido a um transplante de órgão (fígado ou rim) ou tem um transplante de órgão 
+planeado para breve. </p>
+</li>
+<li>
+<p>se também estiver infetado com VIH e estiver a ser tratado com medicamentos para a infeção 
+pelo VIH. </p>
+</li>
+<li>
+<p>se tiver interrompido o tratamento anterior para a hepatite C devido a anemia ou baixo número 
+de células sanguíneas. </p>
+</li>
+</ul>
+<p>Depois de ter iniciado o tratamento com Pegasys, fale com o seu médico, enfermeiro ou farmacêutico: </p>
+<ul>
+<li>
+<p>se desenvolver sintomas associados a depressão (p. ex. sensação de tristeza, desânimo, etc.) (ver 
+secção 4). </p>
+</li>
+<li>
+<p>se notar alterações na sua visão. </p>
+</li>
+<li>
+<p>se desenvolver sintomas associados a uma constipação ou outra infeção respiratória (tais como 
+tosse, febre ou qualquer dificuldade em respirar). </p>
+</li>
+<li>
+<p>se pensa que está a desenvolver uma infeção (como pneumonia), dado que ao ser tratado com 
+Pegasys pode, temporariamente, apresentar maior risco de desenvolver uma infeção. </p>
+</li>
+<li>
+<p>se desenvolver quaisquer sinais de hemorragia ou nódoas negras pouco habituais, fale 
+imediatamente com o seu médico. </p>
+</li>
+<li>
+<p>se desenvolver sinais de reação alérgica grave (como dificuldade em respirar, sibilos ou 
+urticária) enquanto estiver a tomar este medicamento, procure imediatamente assistência 
+médica. </p>
+</li>
+<li>
+<p>se desenvolver sintomas da síndrome de Vogt-Koyanagi-Harada: uma combinação de sintomas 
+de rigidez do pescoço, dor de cabeça, perda de cor da pele ou do cabelo, deficiência da visão 
+(como visão turva) e/ou deficiência auditiva (como campainhas nos ouvidos). </p>
+</li>
+</ul>
+<p>Durante o tratamento, o seu médico pedir-lhe-á para efetuar regularmente análises ao sangue, para 
+verificar se ocorreram alterações nos glóbulos brancos (as células que combatem as infeções), nos 
+glóbulos vermelhos (as células que transportam o oxigénio), nas plaquetas (as células responsáveis 
+pela coagulação do sangue), na função hepática, na glucose (níveis de açúcar no sangue) ou alterações 
+de outros valores laboratoriais.  </p>
+<p>Em doentes a receber terapêutica combinada com Pegasys e ribavirina foram notificadas afeções dos 
+dentes e das gengivas, que podem causar a perda de dentes. Adicionalmente, no tratamento de longa 
+duração com a associação de Pegasys com ribavirina, a secura da boca pode danificar os dentes e a 
+pele do interior da boca (membrana da mucosa oral). Deve escovar completamente os dentes duas 
+vezes por dia e fazer exames dentários regulares. Nalguns doentes podem também ocorrer vómitos. Se 
+esta reação ocorrer, assegure-se que lava completamente a boca após o vómito. </p>
+<p>Crianças e adolescentes 
+A utilização de Pegasys está limitada a crianças com idade igual ou superior a 5 anos e adolescentes 
+com hepatite C crónica, e a crianças com idade igual ou superior a 3 anos e adolescentes com hepatite 
+B crónica. Pegasys não deve ser dado a crianças com menos de 3 anos de idade porque contém álcool 
+benzílico e pode causar reações de toxicidade e de alergia nestas crianças. </p>
+<ul>
+<li>
+<p>Se a sua criança tem ou já teve uma perturbação psiquiátrica, fale com o seu médico; ele 
+irá vigiar o aparecimento de sinais ou sintomas de depressão na sua criança (ver secção 4).  </p>
+</li>
+<li>
+<p>Ao ser tratada com Pegasys, a sua criança pode ter um crescimento e um desenvolvimento 
+mais lento (ver secção 4). </p>
+</li>
+</ul>
+<p>Outros medicamentos e Pegasys 
+Não utilize Pegasys se estiver a tomar telbivudina (ver “Não utilize Pegasys") porque a associação 
+destes medicamentos aumenta o risco de desenvolver neuropatia periférica (adormecimento, 
+formigueiro e/ou sensações de ardor nos braços e/ou nas pernas). Portanto, a associação de Pegasys 
+com telbivudina é contraindicada. Fale com o seu médico ou farmacêutico se estiver a ser tratado com 
+telbivudina. 
+Informe o seu médico se estiver a tomar medicamentos para a asma, porque pode ser preciso mudar a 
+dose do medicamento para a asma. 
+Doentes também infetados pelo VIH: Informe o seu médico se estiver a efetuar terapêutica anti-VIH. 
+A acidose láctica e o agravamento da função hepática são efeitos indesejáveis associados à 
+Terapêutica Antiretrovírica Combinada (TARVc), um tipo de tratamento anti-VIH. Se estiver a efetuar 
+terapêutica ARVc, a adição de Pegasys e ribavirina pode aumentar o risco de ocorrência de acidose 
+láctica ou de insuficiência hepática. O seu médico vai vigiar o aparecimento de sinais e sintomas 
+dessas situações.<br />
+Os doentes a receber zidovudina em associação com ribavirina e interferões alfa têm um risco 
+aumentado de desenvolver anemia. Os doentes a receber azatioprina em associação com ribavirina e 
+peginterferão têm um risco aumentado de desenvolver doenças do sangue graves. Por favor leia 
+também o folheto informativo da ribavirina. </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. 
+Quando Pegasys é administrado em associação com a ribavirina, se existir algum risco de ocorrer uma 
+gravidez, os doentes do sexo masculino e do sexo feminino têm de adotar precauções especiais na sua 
+atividade sexual, uma vez que a ribavirina pode ser muito nociva para o bebé em gestação: </p>
+<ul>
+<li>
+<p>se for mulher, com capacidade de engravidar, e está a tomar Pegasys em associação com a 
+ribavirina, deve ter um resultado negativo num teste de gravidez, antes do início do tratamento 
+e, mensalmente, durante a terapêutica e até 4 meses após o final do tratamento. A doente tem de 
+usar um método contracetivo eficaz durante o tratamento e nos 4 meses seguintes à sua 
+conclusão. Fale com o seu médico sobre este assunto. </p>
+</li>
+<li>
+<p>se for homem e está a tomar Pegasys em associação com a ribavirina, não tenha relações 
+sexuais com uma mulher grávida, a não ser que use preservativo. Este irá reduzir a possibilidade 
+da ribavirina passar para o corpo da mulher. Se a sua parceira não está grávida agora, mas tem 
+capacidade de engravidar, ela deve fazer um teste de gravidez, mensalmente, durante o 
+tratamento e nos 7 meses seguintes ao final do tratamento. O doente ou a sua parceira tem de 
+usar um método contracetivo eficaz durante o tratamento e nos 7 meses seguintes à sua 
+conclusão. Fale com o seu médico sobre este assunto. </p>
+</li>
+</ul>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. Se estiver a tomar 
+Pegasys não amamente o seu bebé, porque se desconhece se este medicamento está presente no leite 
+humano. Se estiver a fazer terapêutica combinada com ribavirina, consulte o folheto informativo da 
+ribavirina, incluído na embalagem. </p>
+<p>Deverá ler também o folheto informativo dos outros medicamentos que se utilizam em associação com 
+Pegasys. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza nem utilize máquinas se se sentir sonolento, cansado ou confuso enquanto estiver a 
+tomar Pegasys. </p>
+<p>Álcool benzílico 
+Pegasys contém 10 mg de álcool benzílico em cada frasco para injetáveis que é equivalente a mg/ml. </p>
+<p>O álcool benzílico pode causar reações tóxicas e reações alérgicas.  </p>
+<p>O álcool benzílico tem sido associado com o risco de efeitos indesejáveis graves incluindo problemas 
+de respiração (chamado “síndrome de gasping") em crianças pequenas. Pegasys não deve ser 
+administrado a bebés prematuros, recém-nascidos ou crianças com idade inferior a 3 anos.<br />
+Consulte o seu médico ou farmacêutico se está grávida ou a amamentar, ou se tiver uma doença de 
+fígado ou rins. Isto porque podem acumular-se grandes quantidades de álcool benzílico no seu corpo e 
+pode causar efeitos indesejáveis (“acidose metabólica"). </p>
+<p>Sódio 
+Pegasys contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente “isento de 
+sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar pegasys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar pegasys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.  </p>
+<p>Dose de Pegasys 
+O seu médico determinou a dose exata de Pegasys e vai dizer-lhe com que frequência a deve tomar. 
+Caso seja necessário, a dose pode ser alterada durante o tratamento. Não exceda a dose recomendada. </p>
+<p>Pegasys só é utilizado isoladamente se, por algum motivo, não puder tomar ribavirina. </p>
+<p>Pegasys, administrado isoladamente ou em associação com a ribavirina, é habitualmente 
+administrado na dose de 180 microgramas, uma vez por semana.<br />
+A duração da terapêutica combinada varia entre 4 a 18 meses, consoante o tipo de vírus que o 
+infetou, a sua resposta ao tratamento e caso tenha sido tratado antes. Confirme com o médico 
+qual a duração do tratamento recomendada para o seu caso e respeite-a. 
+A injeção de Pegasys é normalmente administrada ao deitar. </p>
+<p>Utilização em crianças e adolescentes 
+O seu médico determinou a dose exata de Pegasys para a sua criança e vai dizer-lhe com que 
+frequência a deve tomar. A dose habitual de Pegasys é calculada com base na altura e no peso da sua 
+criança. Se necessário, a dose pode ser alterada durante o tratamento. Recomenda-se que, em crianças 
+e adolescentes, seja utilizado Pegasys em seringas pré-cheias, pois permitem ajustar a dose. Não 
+exceda a dose recomendada. </p>
+<p>A duração da terapêutica combinada em crianças com hepatite C crónica varia de 6 a 12 meses, 
+dependendo do tipo de vírus que infetou a sua criança e da resposta dela ao tratamento. A duração da 
+terapêutica com Pegasys na hepatite B crónica é de 48 semanas. Por favor, confirme com o seu médico 
+e siga a duração do tratamento recomendada. A injeção de Pegasys é normalmente administrada ao 
+deitar. </p>
+<p>Pegasys destina-se à administração subcutânea (sob a pele). Isto significa que Pegasys é injetado com 
+uma agulha curta, no tecido gordo que se encontra por baixo da pele, no abdómen ou na coxa. Se 
+injetar este medicamento a si próprio, será ensinado a administrar a injeção. No final deste folheto 
+fornecem-se instruções pormenorizadas (ver "Como injetar Pegasys"). </p>
+<p>Utilize Pegasys exatamente como indicado pelo seu médico e durante o tempo que lhe foi prescrito. 
+Fale com o seu médico ou farmacêutico se tiver a impressão de que o efeito de Pegasys é demasiado 
+forte ou demasiado fraco. </p>
+<p>Terapêutica combinada com ribavirina na hepatite C crónica 
+Se estiver a fazer a terapêutica combinada com Pegasys e ribavirina, siga o regime posológico 
+recomendado pelo seu médico. </p>
+<p>Terapêutica combinada com outros medicamentos na hepatite C crónica 
+No caso de terapêutica combinada com Pegasys, siga o regime posológico recomendado pelo seu 
+médico e consulte também o folheto informativo dos outros medicamentos que se utilizam em 
+combinação com Pegasys. </p>
+<p>Se utilizar mais Pegasys do que deveria 
+Contacte o seu médico ou farmacêutico o mais depressa possível. </p>
+<p>Caso se tenha esquecido de tomar Pegasys 
+Se constatar que se esqueceu da injeção 1 ou 2 dias depois da data prevista para a sua administração, 
+deve administrar a dose recomendada, assim que lhe for possível. A injeção seguinte deve ser 
+administrada no dia previsto pelo esquema habitual de administração. 
+Se constatar que se esqueceu da injeção 3 a 5 dias depois da data prevista para a sua administração, 
+deve administrar a injeção na dose recomendada, assim que lhe for possível. Tome as doses seguintes, 
+a intervalos de 5 dias, até acertar com o dia da semana previsto no esquema habitual de administração. 
+Por exemplo: Habitualmente, toma a sua injeção semanal de Pegasys à 2ª feira. Na 6ª feira 
+lembra-se que se esqueceu de a tomar na 2ª feira (4 dias mais tarde). Deve administrar a injeção, 
+na dose habitual, logo na 6ª feira e administrar a próxima dose na 4ª feira da semana seguinte (5 
+dias após a dose administrada na 6ª feira). A injeção seguinte será administrada na 2ª feira, 5 
+dias após a injeção de 4ª feira. Já conseguiu acertar no dia da semana previsto no esquema 
+habitual de administração e deverá continuar a administrar as injeções às 2ªs feiras. 
+Se constatar que se esqueceu da injeção 6 dias depois da data prevista para a sua administração, 
+deve aguardar e administrar a injeção no dia seguinte, isto é, no dia previsto pelo esquema habitual de 
+administração. 
+Caso necessite de ajuda relativamente ao modo de proceder caso se tenha esquecido de tomar uma 
+dose de Pegasys, contacte o seu médico ou farmacêutico. </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.<br />
+Alguns doentes ficaram deprimidos quando estavam a tomar Pegasys, isolado ou em associação 
+com a ribavirina e nalguns casos tiveram pensamentos suicidas ou comportamento agressivo (por 
+vezes contra outras pessoas, tais como pensamentos sobre ameaçar a vida de outras pessoas). 
+Alguns doentes chegaram a cometer suicídio. Assegure-se que procura cuidados de emergência, se 
+verificar que está a ficar deprimido, a ter pensamentos suicidas ou alterações no comportamento. 
+Poderá pensar em pedir a um membro da família, ou a um amigo próximo, para o ajudar a ficar 
+alerta a sinais de depressão ou a alterações de comportamento. </p>
+<p>Crescimento e desenvolvimento (crianças e adolescentes): 
+Algumas crianças e adolescentes tratados com Pegasys para a heptatite B crónica durante semanas não cresceram ou não aumentaram de peso tanto quanto seria esperado para as suas idades. 
+Ainda não é conhecido se irão atingir a sua altura e peso previstos após concluírem o tratamento. </p>
+<p>Com o tratamento com Pegasys em associação com ribavirina até 1 ano, algumas crianças e 
+adolescentes com hepatite C crónica não cresceram tanto ou não aumentaram de peso tanto quanto 
+seria esperado. Ainda que a maioria das crianças tenha atingido a altura esperada para elas nos dois 
+anos seguintes à conclusão do tratamento e a maioria das crianças restantes nos seis anos seguintes à 
+conclusão do tratamento, é possível que Pegasys possa afetar a altura final atingida na idade adulta. </p>
+<p>Fale com o seu médico imediatamente se verificar algum dos seguintes efeitos indesejáveis: dor 
+intensa no peito; tosse persistente; batimento cardíaco irregular; dificuldade em respirar; confusão; 
+depressão; dores fortes no estômago; sangue nas fezes (ou fezes negras, cor de alcatrão); hemorragia 
+(perda de sangue) nasal intensa; febre ou arrepios; problemas de visão. Estes efeitos indesejáveis 
+poderão ser graves e o doente poderá requerer assistência médica urgente. </p>
+<p>Os efeitos indesejáveis muito frequentes com a associação de Pegasys e ribavirina (poderão afetar 
+mais de 1 em 10 pessoas) são: </p>
+<p>Doenças do metabolismo: Perda de apetite 
+Perturbações do foro psiquiátrico e do sistema nervoso: Sentir-se deprimido (sentir-se em baixo, 
+sentir-se mal consigo próprio ou sem esperança), ansiedade, insónia, dor de cabeça, dificuldade de 
+concentração e tonturas 
+Doenças respiratórias: Tosse, falta de ar 
+Doenças digestivas: Diarreia, náuseas, dor abdominal 
+Afeções da pele: Queda de cabelo e reações cutâneas (incluindo comichão, dermatite e pele seca) 
+Afeções dos músculos e dos ossos: Dores nas articulações e músculos 
+Perturbações gerais: Febre, fraqueza, fadiga, tremores, arrepios, dor, reação de irritação no local da 
+injeção e irritabilidade (enervar-se facilmente) </p>
+<p>Os efeitos indesejáveis frequentes com a associação de Pegasys e ribavirina (poderão afetar até 1 em 
+10 pessoas) são: </p>
+<p>Infeções: Infeções fúngicas, virais e bacterianas. Infeção do trato respiratório superior, bronquite, 
+infeção fúngica da boca e herpes (infeção viral frequente e recorrente que afeta os lábios, a boca) 
+Doenças do sangue: Diminuição do número de plaquetas (afetando a capacidade de coagulação), 
+anemia (diminuição do número de glóbulos vermelhos) e gânglios linfáticos aumentados 
+Doenças hormonais: Glândula tiroide com atividade aumentada ou diminuída 
+Perturbações do foro psiquiátrico e do sistema nervoso: Alterações emocionais e do humor, 
+agressividade, nervosismo, diminuição do desejo sexual, diminuição da memória, desmaio, fraqueza 
+muscular, enxaqueca, entorpecimento, formigueiro, sensação de queimadura, tremor, alterações do 
+paladar, pesadelos, sonolência 
+Afeções oculares: Visão turva, dor ocular, inflamação ocular e secura ocular 
+Afeções do ouvido: Dor no ouvido 
+Doenças do coração e dos vasos sanguíneos: Batimento cardíaco acelerado, palpitações, inchaço das 
+extremidades, rubor (vermelhidão)<br />
+Doenças respiratórias: Falta de ar durante o exercício, hemorragia nasal, inflamação da garganta e do 
+nariz, infeções do nariz e seios nasais (espaços cheios de ar que se encontram nos ossos da cabeça e 
+face), corrimento nasal, garganta inflamada 
+Doenças digestivas: Vómitos, indigestão, dificuldade em engolir, feridas da boca, hemorragia 
+gengival, inflamação da língua e boca, flatulência (excesso de ar ou gases), boca seca e perda de peso 
+Afeções da pele: Erupção cutânea, aumento da transpiração, psoríase, urticária, eczema, sensibilidade 
+à luz solar, suores noturnos 
+Afeções dos músculos e dos ossos: Dor nas costas, inflamação das articulações, fraqueza muscular, 
+dor nos ossos, dor no pescoço, dor muscular, cãibras 
+Doenças do sistema reprodutor: Impotência (incapacidade de manter uma ereção) 
+Perturbações gerais: Dor no peito, sintomas parecidos com os da gripe, mal-estar (não se sentir bem), 
+letargia, afrontamentos, sede.  </p>
+<p>Os efeitos indesejáveis pouco frequentes com a associação de Pegasys e ribavirina (poderão afetar até 
+1 em 100 pessoas) são: </p>
+<p>Infeções: Infeção pulmonar, infeções cutâneas 
+Neoplasias benignas e malignas: Tumor hepático 
+Doenças do sistema imunitário: Sarcoidose (áreas de inflamação em várias partes do corpo), 
+inflamação da tiroide 
+Doenças hormonais: Diabetes (elevados níveis de açúcar no sangue) 
+Alterações do metabolismo: Desidratação<br />
+Perturbações do foro psiquiátrico e do sistema nervoso: Pensamentos suicidas, alucinações, neuropatia 
+periférica (afeções dos nervos afetando as extremidades) 
+Afeções oculares: Hemorragia na retina (zona posterior do olho) 
+Afeções do ouvido: Perda da audição 
+Doenças do coração e dos vasos sanguíneos: Hipertensão 
+Doenças respiratórias: Sibilos 
+Doenças digestivas: Hemorragia gastrointestinal 
+Afeções hepáticas: Mau funcionamento do fígado </p>
+<p>Os efeitos indesejáveis raros com a associação de Pegasys e ribavirina (poderão afetar até 1 em 1pessoas) são: </p>
+<p>Infeções: Infeção cardíaca, otite externa 
+Doenças do sangue: Diminuição grave dos glóbulos vermelhos, glóbulos brancos e plaquetas 
+Doenças do sistema imunitário: Reação alérgica grave, lúpus eritematoso sistémico (doença na qual o 
+organismo ataca as suas próprias células), artrite reumatoide (uma doença auto-imune) 
+Doenças hormonais: Cetoacidose diabética, uma complicação da diabetes não controlada 
+Perturbações do foro psiquiátrico e do sistema nervoso: Suicídio, perturbações psicóticas (problemas 
+graves de personalidade e deterioração do comportamento social normal), coma (inconsciência 
+profunda prolongada), convulsões, paralisia facial (fragilidade do músculo facial) 
+Afeções oculares: Inflamação e inchaço do nervo ótico, inflamação da retina, ulceração da córnea 
+Doenças do coração e dos vasos sanguíneos: Ataque cardíaco, insuficiência cardíaca, dor cardíaca, 
+ritmo cardíaco acelerado, arritmias ou inflamação da membrana que envolve o coração e do músculo 
+cardíaco, hemorragia cerebral e inflamação dos vasos 
+Doenças respiratórias: Pneumonia intersticial (inflamação dos pulmões incluindo consequências 
+fatais), embolia pulmonar<br />
+Doenças digestivas: Úlcera gástrica, inflamação do pâncreas<br />
+Afeções hepáticas: Insuficiência hepática, inflamação do canal biliar, fígado gordo<br />
+Afeções dos músculos e dos ossos: Inflamação dos músculos<br />
+Doenças renais: Insuficiência renal 
+Lesões ou intoxicações: Sobredosagem  </p>
+<p>Os efeitos indesejáveis muito raros com a associação de Pegasys e ribavirina (poderão afetar até 1 em 
+10.000 pessoas) são: </p>
+<p>Doenças do sangue: Anemia aplástica (falência da medula óssea na produção de glóbulos vermelhos, 
+glóbulos brancos e plaquetas)<br />
+Doenças do sistema imunitário: Púrpura trombocitopénica idiopática (ou trombótica) (aumento de 
+nódoas negras, hemorragia, diminuição das plaquetas, anemia e fraqueza extrema) 
+Afeções oculares: Perda de visão 
+Afeções da pele: Necrólise epidérmica tóxica/ síndrome Stevens-Johnson/ eritema multiforme (quadro 
+de erupções cutâneas, com graus de gravidade variável, incluindo a morte, que podem estar associadas 
+a bolhas na boca, nariz, olhos e noutras membranas mucosas e à formação de escaras na zona afetada 
+da pele), angioedema (inchaço na pele e mucosas) </p>
+<p>Efeitos indesejáveis de frequência desconhecida:  </p>
+<p>Doenças do sangue: Aplasia eritrocítica pura (uma forma grave de anemia em que a produção de 
+glóbulos vermelhos diminui ou pára), que pode causar sintomas como sentir-se muito cansado, sem 
+energia 
+Doenças do sistema imunitário: Doença de Vogt-Koyanagi-Harada - uma doença rara caracterizada 
+pela perda de visão, audição e da pigmentação da pele; rejeição de transplantes do fígado e do rim 
+Perturbações do foro psiquiátrico e do sistema nervoso: Mania (episódios de elevação exagerada do 
+humor) e perturbações bipolares (episódios de elevação exagerada do humor alternados com tristeza e 
+desespero); pensamentos sobre pôr a vida de outros em risco, trombose 
+Afeções oculares: Forma rara de descolamento da retina com fluído na retina 
+Doenças do coração e dos vasos sanguíneos: Isquémia periférica (fornecimento de sangue insuficiente 
+às extremidades) 
+Afeções digestivas: Colite isquémica (aporte de sangue insuficiente aos intestinos), alterações da cor 
+da língua 
+Afeções dos músculos e dos ossos: Lesão grave e dor muscular 
+Hipertensão arterial pulmonar - uma doença em que se verifica um estreitamento grave dos vasos 
+sanguíneos nos pulmões, o que resulta em tensão arterial alta nos vasos sanguíneos que levam o 
+sangue do coração para os pulmões. Isto pode ocorrer sobretudo em doentes com fatores de risco 
+como infeção por VIH ou problemas hepáticos graves (cirrose). Este efeito indesejável pode 
+desenvolver-se em diferentes pontos temporais durante o tratamento, habitualmente vários meses após 
+o início do tratamento com Pegasys. </p>
+<p>Quando Pegasys é utilizado isoladamente, em doentes com hepatite B ou C crónicas, é menos 
+provável que ocorram alguns destes efeitos. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar pegasys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar pegasys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo. O prazo de validade 
+corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C-8°C). Não congelar. Conservar os frascos para injetáveis na embalagem 
+de origem para os proteger da luz. </p>
+<p>Não utilize este medicamento se verificar que o frasco para injetáveis ou a embalagem estão 
+danificados, se a solução estiver turva ou se contiver partículas a flutuar ou se o medicamento não se 
+apresentar de incolor a amarelo claro. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Pegasys </p>
+<ul>
+<li>
+<p>A substância ativa é o peginterferão alfa-2a. Cada frasco para injetáveis contém 
+180 microgramas de peginterferão alfa-2a em 1,0 ml de solução. </p>
+</li>
+<li>
+<p>Os outros componentes são cloreto de sódio, polissorbato 80, álcool benzílico, acetato de sódio, 
+ácido acético e água para preparações injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Pegasys e conteúdo da embalagem 
+Pegasys apresenta-se como uma solução injetável em frasco para injetáveis (1 ml). Está disponível em 
+embalagens contendo 1 ou 4 frascos para injetáveis para administração única. É possível que não 
+sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+pharmaand GmbH 
+Taborstrasse 1<br />
+1020 Wien 
+Áustria  </p>
+<p>Fabricante 
+Loba biotech GmbH 
+Fehrgasse 7 
+2401 Fischamend 
+Áustria </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1186,6 +1738,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-0b227cd2a54454e66a70766913e35ba2"
 * entry[0].resource = composition-da-0b227cd2a54454e66a70766913e35ba2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0b227cd2a54454e66a70766913e35ba2"
+* entry[=].resource = mp0b227cd2a54454e66a70766913e35ba2
+                            
+                    
+Instance: bundlepackageleaflet-pt-0b227cd2a54454e66a70766913e35ba2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pegasys Package Leaflet for language pt"
+Description: "ePI document Bundle for pegasys Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-0b227cd2a54454e66a70766913e35ba2"
+* entry[0].resource = composition-pt-0b227cd2a54454e66a70766913e35ba2
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp0b227cd2a54454e66a70766913e35ba2"
@@ -1287,6 +1861,18 @@ RuleSet: 0b227cd2a54454e66a70766913e35ba2ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-0b227cd2a54454e66a70766913e35ba2) // pegasys pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

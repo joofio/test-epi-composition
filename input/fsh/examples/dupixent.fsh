@@ -1336,6 +1336,851 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-c73c6f869bb1947667a63b227920af77
+InstanceOf: CompositionUvEpi
+Title: "Composition for dupixent Package Leaflet"
+Description:  "Composition for dupixent Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc73c6f869bb1947667a63b227920af77)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - dupixent"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Dupixent e para que é utilizado 
+2. O que precisa de saber antes de utilizar Dupixent 
+3. Como utilizar Dupixent 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Dupixent 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é dupixent e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é dupixent e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Dupixent 
+Dupixent contém a substância ativa dupilumab. </p>
+<p>Dupilumab é um anticorpo monoclonal (um tipo de proteína especializada) que bloqueia a ação 
+de proteínas chamadas interleucinas (IL)-4 e IL-13. Ambas desempenham um papel importante 
+na origem dos sinais e sintomas de dermatite atópica, asma, rinossinusite crónica com polipose 
+nasal (CRSwNP), prurigo nodular (PN) e esofagite eosinofílica (EoE). </p>
+<p>Para que é utilizado Dupixent 
+Dupixent é utilizado para tratar adultos e adolescentes com idade igual ou superior a 12 anos<br />
+com dermatite atópica moderada a grave, também conhecida por eczema atópico. Dupixent 
+também é utilizado para tratar crianças dos 6 meses aos 11 anos de idade com dermatite atópica 
+grave. Dupixent pode ser utilizado com medicamentos para o eczema que aplica na pele ou pode 
+ser utilizado sozinho. </p>
+<p>Dupixent também é utilizado com outros medicamentos para asma no tratamento de 
+manutenção da asma grave em adultos, adolescentes e crianças com idade igual ou superior a 6<br />
+anos  cuja asma não está controlada com os medicamentos atuais para a asma (por exemplo 
+corticosteroides). </p>
+<p>O Dupixent é também utilizado em associação com outros medicamentos para o tratamento de 
+manutenção em adultos com CRSwNP cuja doença não está controlada com a terapêutica atual 
+para a CRSwNP. O Dupixent pode igualmente reduzir a necessidade de cirurgia assim como da 
+utilização de corticosteróides sistémicos. </p>
+<p>O Dupixent é também utilizado para tratar adultos com prurigo nodular (PN) moderado a grave, 
+também conhecido como prurigo nodular crónico (PNC). O Dupixent pode ser utilizado com 
+medicamentos PN que aplica na pele ou pode ser utilizado sozinho. </p>
+<p>O Dupixent é também utilizado para tratar adultos e adolescentes com 12 anos ou mais, pesando 
+no mínimo 40 Kg,  com esofagite eosinofílica (EoE). </p>
+<p>Como funciona Dupixent 
+Utilizar Dupixent para a dermatite atópica (eczema atópico) pode melhorar o estado da sua pele 
+e reduzir a comichão. Dupixent também mostrou melhorar os sintomas de dor, ansiedade e 
+depressão associada à dermatite atópica. Além disso, Dupixent ajuda a melhorar o seu distúrbio 
+do sono e a qualidade de vida geral. </p>
+<p>O Dupixent ajuda a prevenir ataques graves de asma (exacerbações) e pode melhorar a sua 
+respiração. Dupixent pode também ajudar a reduzir a quantidade de medicamentos de outro 
+grupo de que necessita para controlar a sua asma, designados por corticosteroides orais, 
+enquanto previne ataques de asma graves e melhora a respiração. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar dupixent"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar dupixent"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Dupixent:  </p>
+<ul>
+<li>se tem alergia ao dupilumab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). 
+Se pensa que pode ser alérgico, ou se não tem a certeza, aconselhe-se com o seu médico, 
+farmacêutico ou enfermeiro antes de utilizar Dupixent. </li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Dupixent: </p>
+<p>Dupixent não é um medicamento de emergência e não deve ser usado para tratar um ataque 
+súbito de asma. </p>
+<p>Sempre que obtiver uma nova embalagem de Dupixent, é importante que anote a data e o 
+número de lote (que se encontra na embalagem após "Lote") e que mantenha esta informação 
+num local seguro. </p>
+<p>Reações alérgicas </p>
+<ul>
+<li>
+<p>Raramente, Dupixent pode causar efeitos indesejáveis graves, incluindo reações alérgicas 
+(hipersensibilidade) e reações anafiláticas e angioedema. Estas reações podem ocorrer entre 
+alguns minutos até sete dias após a administração de Dupixent. Tem de estar atento a sinais 
+destes problemas (ou seja, problemas respiratórios, inchaço da face, lábios, boca, garganta ou 
+língua, desmaios, tonturas, sensação de tontura (pressão arterial baixa) febre, sensação geral 
+de mal-estar, nódulos linfáticos inchados, urticária, comichão, dores articulares, erupção na 
+pele) enquanto estiver a tomar Dupixent. Estes sinais estão listados na secção “Efeitos 
+indesejáveis graves" na secção 4. * Pare de tomar Dupixent e informe o seu médico ou procure assistência médica 
+imediatamente se notar algum sinal de uma reação alérgica 
+Condições eosinofílicas </p>
+</li>
+<li>
+<p>Os doentes que tomam um medicamento para a asma, raramente desenvolvem inflamação 
+dos vasos sanguíneos ou dos pulmões devido a um aumento de certos glóbulos brancos 
+(eosinofilia).  </p>
+</li>
+<li>
+<p>Desconhece-se se é causado por Dupixent. Geralmente, mas nem sempre, acontece em 
+pessoas que também tomam um medicamento esteróide que está a ser descontinuado ou para 
+o qual a dose está a ser reduzida.  </p>
+</li>
+<li>
+<p>Informe imediatamente o seu médico se desenvolver uma combinação de sintomas tais 
+como, doença tipo gripe, formigueiro ou dormência dos braços ou pernas, agravamento dos 
+sintomas pulmonares e/ou erupção cutânea. 
+Infeções parasíticas (parasitas intestinais) </p>
+</li>
+<li>
+<p>Dupixent pode enfraquecer a sua resistência a infeções causadas por parasitas. Se já tiver 
+uma infeção parasítica, esta deve ser tratada antes de iniciar o tratamento com Dupixent.  </p>
+</li>
+<li>
+<p>Fale com o seu médico se tiver diarreia, gases, desconforto no estômago, fezes gordurosas e 
+desidratação, que podem ser sinal de uma infeção parasítica.  </p>
+</li>
+<li>
+<p>Se vive numa região onde estas infeções são frequentes ou se vai viajar para uma dessas 
+regiões, fale com o seu médico. 
+Asma 
+Se tem asma e está a tomar medicamentos para a asma, não mude ou pare os seus medicamentos 
+para a asma sem falar com o seu médico. Fale com o seu médico antes de parar de utilizar 
+Dupixent ou se a sua asma permanecer descontrolada ou piorar durante o tratamento com este 
+medicamento. </p>
+</li>
+</ul>
+<p>Problemas oculares 
+Fale com o seu médico se tiver problemas oculares novos ou se os existentes se agravarem, 
+incluindo dor ocular ou alterações da visão. </p>
+<p>Crianças e adolescentes </p>
+<ul>
+<li>
+<p>A segurança e os benefícios do Dupixent ainda não são conhecidos em crianças com 
+dermatite atópica com idade inferior a 6 meses. </p>
+</li>
+<li>
+<p>A segurança e os benefícios do Dupixent ainda não são conhecidos em crianças com asma 
+com menos de 6 anos de idade.  </p>
+</li>
+<li>
+<p>A segurança e benefício do Dupixent em crianças com CRSwNP com idade inferior a anos não foram estabelecidas. </p>
+</li>
+<li>
+<p>A segurança e benefícios do Dupixent não são conhecidos em crianças com PN com idade 
+inferior a 18 anos. </p>
+</li>
+<li>
+<p>A segurança e os benefícios de Dupixent ainda não são conhecidos em crianças com EoE 
+com idade inferior a 12 anos. </p>
+</li>
+</ul>
+<p>Outros medicamentos e Dupixent 
+Informe o seu médico ou farmacêutico  </p>
+<ul>
+<li>
+<p>se estiver a utilizar, tiver utilizado recentemente ou se vier a utilizar outros medicamentos. </p>
+</li>
+<li>
+<p>se foi vacinado recentemente ou vai ser vacinado. </p>
+</li>
+</ul>
+<p>Outros medicamentos para a asma 
+Não pare ou reduza os seus medicamentos para a asma, a menos que seja instruído pelo seu 
+médico.  </p>
+<ul>
+<li>
+<p>Estes medicamentos (especialmente os chamados corticosteróides) devem ser interrompidos 
+gradualmente </p>
+</li>
+<li>
+<p>Isto deve ser feito sob a supervisão direta do seu médico e depende da sua resposta ao 
+Dupixent. </p>
+</li>
+</ul>
+<p>Gravidez e amamentação  </p>
+<ul>
+<li>Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de 
+tomar este medicamento. Os efeitos deste medicamento nas mulheres grávidas são </li>
+</ul>
+<p>desconhecidos; por conseguinte, é preferível evitar a utilização de Dupixent na gravidez, a 
+não ser que o seu médico o aconselhe. </p>
+<ul>
+<li>Se está a amamentar ou planeia amamentar, fale com o seu médico antes de utilizar este 
+medicamento. Você e o seu médico devem decidir se vai continuar a amamentar ou vai 
+utilizar Dupixent. Não deve fazer ambas as coisas. 
+Condução de veículos e utilização de máquinas<br />
+É improvável que Dupixent influencie a sua capacidade de conduzir e utilizar máquinas. </li>
+</ul>
+<p>Dupixent contém sódio<br />
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose de 300 mg, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar dupixent"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar dupixent"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale 
+com o seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>Quanto Dupixent lhe será administrado 
+O seu médico irá decidir qual a dose de Dupixent que é correta para si. </p>
+<p>Dose recomendada em adultos com dermatite atópica 
+Para doentes com  dermatite atópica, a  dose recomendada de Dupixent é: </p>
+<ul>
+<li>
+<p>A dose inicial de 600 mg (duas injeções de 300 mg),  </p>
+</li>
+<li>
+<p>Seguida de 300 mg administrados em semanas alternadas por injeção subcutânea.<br />
+Dose recomendada em adolescentes com dermatite atópica 
+A dose recomendada de Dupixent em adolescentes (12 aos 17 anos de idade) com dermatite 
+atópica é baseada no peso corporal: </p>
+</li>
+</ul>
+<p>Peso corporal do 
+doente 
+Dose inicial 
+Doses subsequentes 
+(em semanas 
+alternadas) 
+menos de 60 kg 
+400 mg (duas injeções de 200 mg) 
+200 mg 
+60 kg ou mais 
+600 mg (duas injeções de 300 mg) 
+300 mg </p>
+<p>Dose recomendada em crianças dos 6 aos 11 anos de idade com dermatite atópica 
+A dose recomendada de Dupixent em crianças (6  aos 11 anos de idade) com dermatite atópica é 
+baseada no peso corporal. </p>
+<p>Peso corporal do 
+doente 
+Dose inicial 
+Doses subsequentes </p>
+<p>de 15 kg a menos <br />
+de 60 kg 
+300 mg (uma injeção de 300 mg) no 
+Dia 1, seguido de 300 mg no Dia 300 mg a cada 4 semanas* 
+começando 4 semanas após a 
+dose do Dia 60 kg ou mais 
+600 mg (duas injeções de 300 mg) 
+300 mg em semanas 
+alternadas </p>
+<p>*A dose pode ser aumentada para 200 mg em semanas alternadas com base na opinião do 
+médico. </p>
+<p>Dose recomendada em crianças dos 6 meses aos 5 anos de idade com dermatite atópica 
+A dose recomendada de Dupixent para crianças dos 6 meses aos 5 anos de idade com dermatite 
+atópica é baseada no peso corporal: </p>
+<p>Peso corporal do doente 
+Dose inicial 
+Doses subsequentes </p>
+<p>de 5 kg a menos de 15 kg 
+200 mg (uma injeção de 200 mg) 
+200 mg a cada 4 semanas 
+de 15 kg a menos de 30 kg 
+300 mg (uma injeção de 300 mg) 
+300 mg a cada 4 semanas </p>
+<p>Dose recomendada em adultos e adolescentes com asma (12 ou mais anos de idade) 
+Para doentes com asma grave e que tomam corticosteroides orais ou doentes com asma grave e 
+dermatite atópica comórbida de moderada a grave ou em adultos com rinossinusite crónica com 
+polipose nasal comórbida grave a dose recomendada de Dupixent é: </p>
+<ul>
+<li>
+<p>Uma dose inicial de 600 mg (duas injeções de 300 mg),  </p>
+</li>
+<li>
+<p>Seguida de 300 mg administradas em semanas alternadas sob a forma de injeção subcutânea.  </p>
+</li>
+</ul>
+<p>Para todos os outros doentes com asma grave, a dose recomendada de Dupixent é:  </p>
+<ul>
+<li>
+<p>Uma dose inicial de 400 mg (duas injeções de 200 mg)  </p>
+</li>
+<li>
+<p>Seguida de 200 mg administradas em semanas alternadas sob a forma de injeção subcutânea.  </p>
+</li>
+</ul>
+<p>Dose recomendada para crianças com asma 
+A dose recomendada de Dupixent para crianças (6 a 11 anos de idade) com asma é baseada no 
+peso corporal:  </p>
+<p>Peso corporal do doente 
+Doses inciais e subsequentes 
+de 15 a menos de 30 kg 
+300 mg a cada quatro semanas 
+de 30 kg a menos de kg </p>
+<p>200 mg em semanas alternadas 
+ou 
+300 mg a cada quatro semanas 
+60 kg ou mais 
+200 mg em semanas alternadas </p>
+<p>Para doentes dos 6 aos 11 anos com asma e dermatite atópica grave, o seu médico irá decidir 
+qual a dose de Dupixent adequada para si. </p>
+<p>Dose recomendada em adultos com rinossinusite crónica com polipose nasal (CRSwNP) 
+Para a CRSwNP é recomendada uma dose inicial de 300 mg seguida de 300 mg administradas a 
+cada duas semanas por injeção subcutânea. </p>
+<p>Dose recomendada em adultos com prurigo nodular (PN) 
+Para doentes com prurigo nodular, a dose recomendada de Dupixent é: </p>
+<ul>
+<li>
+<p>Uma dose inicial de 600 mg (duas injeções de 300 mg) </p>
+</li>
+<li>
+<p>Seguida de 300 mg dadas em semanas alternadas por injeção subcutânea. 
+Dose recomendada em doentes adultos e adolescentes (12 anos de idade ou mais) com esofagite 
+eosinofílica (EoE) 
+Na EoE, a dose recomendada de Dupixent é de 300 mg administrados semanalmente por injeção 
+subcutânea (para doentes com peso corporal de 40 kg ou mais). </p>
+</li>
+</ul>
+<p>A administração de Dupixent 
+Dupixent é administrado por injeção por baixo da pele (injeção subcutânea). Você e o seu 
+médico ou enfermeiro devem decidir se deve injetar Dupixent a si próprio. </p>
+<p>Antes de injetar Dupixent a si próprio deve ter sido treinado pelo seu médico ou enfermeiro. A 
+sua injeção de Dupixent pode também ser administrada por um prestador de cuidados após 
+formação adequada por um médico ou farmacêutico. </p>
+<p>Cada seringa pré-cheia contém uma dose de Dupixent (300 mg). Não agite a seringa pré-cheia. </p>
+<p>Leia cuidadosamente as “Instruções de utilização" incluídas no final do folheto informativo 
+antes de utilizar Dupixent. </p>
+<p>Se utilizar mais Dupixent do que deveria<br />
+Se utilizar mais Dupixent do que deveria ou a dose foi administrada demasiado cedo, fale com o 
+seu médico, farmacêutico ou enfermeiro.  </p>
+<p>Caso se tenha esquecido de utilizar Dupixent<br />
+Caso se tenha esquecido de injetar uma dose de Dupixent, fale com o seu médico, farmacêutico 
+ou enfermeiro. Adicionalmente, </p>
+<p>Se o seu esquema de doses for todas as semanas, e se se esquecer de uma dose de Dupixent: </p>
+<ul>
+<li>dê a injeção de Dupixent o mais rápido possível e inicie um novo esquema de dose 
+semanal a partir do momento em que se lembrar de dar a sua injeção de Dupixent. </li>
+</ul>
+<p>Se o seu esquema de doses for em semanas alternadas, e se se esquecer de uma dose de 
+Dupixent: 
+- dê a injeção de Dupixent no prazo de 7 dias após a dose esquecida, depois continue com o seu 
+esquema habitual. 
+- se a dose esquecida não for administrada no prazo de 7 dias, aguarde pela próxima dose 
+programada para dar a sua injeção de Dupixent. </p>
+<p>Se o seu esquema de doses for a cada 4 semanas, e se se esquecer de uma dose de Dupixent: 
+- dê a injeção de Dupixent no prazo de 7 dias após a dose esquecida, depois continue com o seu 
+esquema habitual. 
+- se a dose esquecida não for administrada no prazo de 7 dias, inicie um novo esquema de dose a 
+cada 4 semanas a partir do momento em que se lembrar de dar a sua injeção Dupixent. </p>
+<p>Se parar de utilizar Dupixent<br />
+Não pare de utilizar Dupixent sem antes falar com o seu médico.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, 
+farmacêutico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes 
+não se manifestem em todas as pessoas. </p>
+<p>Dupixent pode causar efeitos indesejáveis graves, incluindo reações alérgicas 
+(hipersensibilidade) raras incluindo reação anafilática, doença do soro ou reação semelhante à 
+doença do soro; os sinais podem incluir: </p>
+<ul>
+<li>
+<p>problemas respiratórios </p>
+</li>
+<li>
+<p>inchaço da face, lábios, boca, garganta ou língua (angioedema) </p>
+</li>
+<li>
+<p>desmaios, tonturas, sensação de tontura (pressão arterial baixa) </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>sensação geral de mal-estar </p>
+</li>
+<li>
+<p>nódulos linfáticos inchados </p>
+</li>
+<li>
+<p>urticária </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>dores articulares </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+</ul>
+<p>Se desenvolver uma reação alérgica, pare de utilizar Dupixent e fale com o seu médico 
+imediatamente. </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) : </p>
+<ul>
+<li>
+<p>reações no local da injeção (tais como, vermelhidão, inchaço, e comichão, dor, nódoas 
+negras) </p>
+</li>
+<li>
+<p>vermelhidão e comichão dos olhos  </p>
+</li>
+<li>
+<p>infeção dos olhos </p>
+</li>
+<li>
+<p>feridas herpéticas (nos lábios e pele) </p>
+</li>
+<li>
+<p>aumento de certos glóbulos brancos (eosinofilia) </p>
+</li>
+<li>
+<p>dor nas articulações (artralgia) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas): </p>
+<ul>
+<li>
+<p>inchaço da face, lábios, boca, garganta ou língua (angioedema) </p>
+</li>
+<li>
+<p>comichão, vermelhidão e inchaço das pálpebras </p>
+</li>
+<li>
+<p>inflamação da superfície do olho, por vezes com visão turva (queratite) </p>
+</li>
+<li>
+<p>erupção na pele da face ou vermelhidão </p>
+</li>
+<li>
+<p>secura dos olhos </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em cada 1.000 pessoas): </p>
+<ul>
+<li>
+<p>reações alérgicas (hipersensibilidade) graves </p>
+</li>
+<li>
+<p>úlceras na camada transparente externa do olho, por vezes com visão turva (queratite 
+ulcerativa) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis adicionais em crianças dos 6 aos 11 anos de idade com asma 
+Frequentes: oxíuros (enterobíase) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, fale com o seu médico, farmacêutico ou enfermeiro. Isto 
+inclui possíveis efeitos indesejáveis não indicados neste folheto.Também poderá comunicar 
+efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no 
+Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações 
+sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar dupixent"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar dupixent"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem 
+exterior após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 ºC - 8 ºC). Não congelar. Conservar na embalagem de origem 
+para proteger da luz. 
+ Se necessário, a seringa pré-cheia ou caneta pré-cheia podem ser retiradas do frigorífico e 
+conservadas na embalagem durante um máximo de 14 dias à temperatura ambiente até 25 °C, 
+enquanto protegidas da luz. A data de remoção do frigorífico deve ser registada no espaço 
+fornecido na embalagem exterior. A embalagem deve ser rejeitada caso permaneça fora do 
+frigorífico por mais de 14 dias ou se a data de validade tiver sido ultrapassada. </p>
+<p>Não utilize este medicamento se verificar que está turvo, descorado ou tem partículas. 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+médico, farmacêutico ou enfermeiro como deitar fora os medicamentos que já não utiliza. Estas 
+medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Dupixent </p>
+<ul>
+<li>
+<p>A substância ativa é o dupilumab. </p>
+</li>
+<li>
+<p>Cada seringa pré-cheia contém 300 mg de dupilumab em 2 ml de solução injetável 
+(injetável). </p>
+</li>
+<li>
+<p>Os outros componentes são Monocloridrato de L-arginina, L-histidina, Monocloridrato de L-
+histidina mono-hidratada, Polissorbato 80 (E433), Acetato de sódio trihidratado, Ácido 
+acético glacial (E260), Sacarose, Água para preparações injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Dupixent e conteúdo da embalagem 
+Dupixent é uma solução transparente a ligeiramente opalescente, incolor a amarelo pálido 
+fornecida numa seringa pré-cheia de vidro com proteção da agulha. </p>
+<p>Dupixent está disponível como seringas pré-cheias de 300 mg numa embalagem contendo 1 ou 
+2 seringas pré-cheias ou numa embalagem múltipla contendo 6 (3 embalagens de 2) seringas 
+pré-cheias.  </p>
+<p>É possível que não sejam comercializadas todas as apresentações.  </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Sanofi Winthrop Industrie 
+82 avenue Raspail 
+94250 Gentilly 
+França </p>
+<p>Fabricante 
+SANOFI WINTHROP INDUSTRIE 
+1051 Boulevard Industriel,<br />
+76580 LE TRAIT, 
+FRANÇA </p>
+<p>Sanofi-Aventis Deutschland GmbH 
+Brüningstrasse Industriepark Hoechst 
+65926 FRANKFURT AM MAIN 
+ALEMANHA </p>
+<p>Genzyme Ireland Limited 
+IDA Industrial Park 
+Old Kilmeaden Road 
+Waterford 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do 
+Titular da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+Sanofi, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel.: +36 1 505 0 
+Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4 
+Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE 
+Τηλ: +30 210 900 16<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 - 0 </p>
+<p>España 
+sanofi-aventis, S.A.<br />
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00<br />
+France 
+Sanofi Withrop Industrie 
+Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda 
+Tel: +351 21 35 89<br />
+Hrvatska<br />
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51  </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33 <br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800 536 
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da 
+Agência Europeia de Medicamentos:<br />
+http://www.ema.europa.eu 
+&lt;----------------------------------------------------------------------------------------------------------------&gt; </p>
+<p>Dupixent 300 mg solução injetável em seringa pré-cheia com proteção da agulha 
+dupilumab </p>
+<p>Instruções de utilização </p>
+<p>As peças da seringa pré-cheia de Dupixent com proteção da agulha são ilustradas nesta imagem.  </p>
+<p>Informação importante 
+Este dispositivo é uma seringa pré-cheia de utilização única. Contém 300 mg de Dupixent para 
+injeção por baixo da pele (injeção subcutânea). </p>
+<p>Não deve tentar administrar a si próprio ou a outra pessoa, a não ser que tenha recebido 
+formação para tal do seu profissional de saúde. Em adolescentes com idade igual ou superior a 
+12 anos, recomenda-se que Dupixent seja administrado por ou sob supervisão de um adulto. Em 
+crianças com menos de 12 anos de idade, Dupixent deve ser administrado por um cuidador. </p>
+<ul>
+<li>
+<p>Leia atentamente todas as instruções antes de utilizar a seringa. </p>
+</li>
+<li>
+<p>Confirme junto do seu profissional de saúde com que frequência terá de injetar o 
+medicamento. </p>
+</li>
+<li>
+<p>Peça ao seu profissional de saúde para lhe mostrar a forma correta de utilizar a seringa 
+antes de injetar pela primeira vez. </p>
+</li>
+<li>
+<p>Mude de local de injeção para cada injeção. </p>
+</li>
+<li>
+<p>Não utilize a seringa se esta tiver caído numa superfície dura ou estiver danificada. </p>
+</li>
+<li>
+<p>Não utilize a seringa se não tiver a tampa na agulha ou se não estiver firmemente 
+encaixada. </p>
+</li>
+<li>
+<p>Não toque na haste do êmbolo até estar pronto para injetar. </p>
+</li>
+<li>
+<p>Não injete através da roupa. </p>
+</li>
+<li>
+<p>Não elimine quaisquer bolhas de ar na seringa. </p>
+</li>
+<li>
+<p>Para ajudar a evitar lesões acidentais com a agulha, cada seringa pré-cheia tem uma 
+proteção da agulha que é ativada automaticamente para cobrir a agulha depois de ter 
+aplicado a injeção. </p>
+</li>
+<li>
+<p>Nunca puxe a haste do êmbolo para trás. </p>
+</li>
+<li>
+<p>Não reutilize a seringa. </p>
+</li>
+</ul>
+<p>Como conservar Dupixent </p>
+<ul>
+<li>
+<p>Mantenha a(s) seringa(s) fora do alcance das crianças. </p>
+</li>
+<li>
+<p>Mantenha as seringas não utilizadas na embalagem de origem e conserve no frigorífico 
+entre 2 °C e 8 °C. </p>
+</li>
+<li>
+<p>Não conserve Dupixent à temperatura ambiente (&lt;25 °C) durante mais de 14 dias. Se 
+precisar de remover permanentemente a embalagem do frigorífico, anote a data de 
+remoção no espaço fornecido na embalagem exterior e utilize Dupixent no espaço de dias. </p>
+</li>
+<li>
+<p>Não agite a seringa em momento algum. </p>
+</li>
+<li>
+<p>Não aqueça a seringa. </p>
+</li>
+<li>
+<p>Não congele a seringa. </p>
+</li>
+<li>
+<p>Não coloque a seringa exposta diretamente à luz solar. </p>
+</li>
+</ul>
+<p>Passo 1: Retire </p>
+<p>Retire a seringa da embalagem segurando pelo meio do corpo da seringa. 
+Não tire a tampa da agulha até estar pronto para injetar. </p>
+<p>Não utilize a seringa se esta tiver caído numa superfície dura ou estiver danificada. </p>
+<p>Passo 2: Prepare </p>
+<p>Certifique-se de que tem o seguinte: </p>
+<ul>
+<li>
+<p>a seringa pré-cheia de Dupixent </p>
+</li>
+<li>
+<p>1 toalhete com álcool* </p>
+</li>
+<li>
+<p>1 bola de algodão ou compressa de gaze* </p>
+</li>
+<li>
+<p>um recipiente para objetos cortantes* (ver Passo 12). </p>
+</li>
+</ul>
+<p>*Itens não incluídos na embalagem </p>
+<p>Examine o rótulo: </p>
+<ul>
+<li>
+<p>Verifique o prazo de validade. </p>
+</li>
+<li>
+<p>Verifique se tem o medicamento e a dose corretos. 
+Não utilize a seringa se o prazo de validade tiver expirado. 
+Não conserve Dupixent à temperatura ambiente durante mais de 14 dias. </p>
+</li>
+</ul>
+<p>Passo 3: Inspecione </p>
+<p>Examine o medicamento através da janela de visualização na seringa: </p>
+<p>Verifique se o líquido é transparente e incolor a amarelo pálido. </p>
+<p>Nota: poderá ver uma bolha de ar; isto é normal. </p>
+<p>Não utilize a seringa se o líquido estiver descorado ou turvo ou se tiver flocos ou 
+partículas. </p>
+<p>Passo 4: Aguarde 45 minutos </p>
+<p>Pouse a seringa numa superfície plana durante, pelo menos, 45 minutos e deixe-a atingir a 
+temperatura ambiente naturalmente. </p>
+<p>Não aqueça a seringa no microondas, em água quente ou à luz solar. 
+Não coloque a seringa exposta diretamente à luz solar. 
+Não conserve Dupixent à temperatura ambiente durante mais de 14 dias. </p>
+<p>Passo 5: Escolha </p>
+<p>Selecione o local de injeção. </p>
+<ul>
+<li>
+<p>Pode injetar na coxa ou na barriga (estômago), exceto na área de 5 cm à volta do 
+umbigo. </p>
+</li>
+<li>
+<p>Se for outra pessoa a aplicar-lhe a injeção, também podem utilizar a região superior do 
+braço. </p>
+</li>
+<li>
+<p>Mude de local de injeção para cada injeção. </p>
+</li>
+</ul>
+<p>Não injete em pele sensível ao toque, lesionada ou que tenha nódoas negras ou 
+cicatrizes. </p>
+<p>Passo 6: Limpe </p>
+<p>Lave as mãos. </p>
+<p>Limpe o local de injeção com um toalhete com álcool. </p>
+<p>Deixe a pele secar antes de injetar. </p>
+<p>Não volte a tocar no local de injeção nem sopre para secar antes da injeção. </p>
+<p>Passo 7: Retire </p>
+<p>Segure na seringa pelo meio do corpo da seringa com a agulha a apontar para longe de si e retire 
+a tampa da agulha. </p>
+<p>Não volte a colocar a tampa da agulha. 
+Não toque na agulha. </p>
+<p>Injete o medicamento imediatamente após retirar a tampa da agulha. </p>
+<p>Passo 8: Prega </p>
+<p>Faça uma prega de pele no local de injeção, conforme ilustrado na figura. </p>
+<p>Passo 9: Insira </p>
+<p>Insira a agulha completamente na prega de pele num ângulo de aproximadamente 45°. </p>
+<p>Passo 10: Empurre </p>
+<p>Diminua a pressão na prega. </p>
+<p>Empurre a haste do êmbolo lenta e uniformemente o máximo possível, até a seringa estar vazia. </p>
+<p>Nota: Vai sentir alguma resistência. É normal. </p>
+<p>Passo 11: Solte e Retire </p>
+<p>Levante o polegar para soltar a haste do êmbolo até que a agulha esteja coberta pela proteção da 
+agulha e depois remova a seringa do local de injeção. </p>
+<p>Pressione levemente uma bola de algodão ou gaze no local da injeção se vir sangue. 
+Não volte a colocar a tampa da agulha. </p>
+<p>Não friccione a pele após a injeção. </p>
+<p>Passo 12: Elimine </p>
+<p>Elimine a seringa e a tampa da agulha num recipiente para objetos cortantes. </p>
+<p>Não volte a colocar a tampa da agulha. </p>
+<p>Manter sempre o recipiente fora do alcance das crianças. </p>
+<p>Folheto informativo: Informação para o utilizador  </p>
+<p>Dupixent 300 mg solução injetável em caneta pré-cheia<br />
+dupilumab  </p>
+<p>Leia com atenção todo este folheto antes de começar a utilizar este medicamento, porque 
+contém informação importante para si. 
+- Conserve este folheto. Pode ter necessidade de o ler novamente. 
+- Caso ainda tenha dúvidas, fale com o seu médico, farmacêutico ou enfermeiro. 
+- Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento 
+pode ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença. 
+- Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não 
+indicados neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Ver secção 
+4.  </p>         </div>"""      
+
+
+
 
 
                     
@@ -1377,6 +2222,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c73c6f869bb1947667a63b227920af77"
 * entry[0].resource = composition-da-c73c6f869bb1947667a63b227920af77
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc73c6f869bb1947667a63b227920af77"
+* entry[=].resource = mpc73c6f869bb1947667a63b227920af77
+                            
+                    
+Instance: bundlepackageleaflet-pt-c73c6f869bb1947667a63b227920af77
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for dupixent Package Leaflet for language pt"
+Description: "ePI document Bundle for dupixent Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c73c6f869bb1947667a63b227920af77"
+* entry[0].resource = composition-pt-c73c6f869bb1947667a63b227920af77
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc73c6f869bb1947667a63b227920af77"
@@ -1478,6 +2345,18 @@ RuleSet: c73c6f869bb1947667a63b227920af77ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c73c6f869bb1947667a63b227920af77) // dupixent pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

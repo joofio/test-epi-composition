@@ -890,6 +890,446 @@ indlægsseddel. Se punkt 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-a346fcd48e1745156d4e5145052e15e4
+InstanceOf: CompositionUvEpi
+Title: "Composition for kentera Package Leaflet"
+Description:  "Composition for kentera Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa346fcd48e1745156d4e5145052e15e4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - kentera"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Kentera e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Kentera </li>
+<li>Como utilizar Kentera </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Kentera </li>
+<li>Outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é kentera e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é kentera e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kentera é utilizado em adultos para controlar os sintomas de incontinência de urgência e/ou aumento da 
+frequência e urgência de urinar. </p>
+<p>Kentera funciona ao permitir que a bexiga se expanda e acomode mais urina. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar kentera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar kentera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Kentera: 
+- Se tem alergia à oxibutinina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- Se tem uma doença rara chamada miastenia grave que faz com que os músculos do corpo fiquem 
+fracos e cansados facilmente. 
+- Se sofre de esvaziamento incompleto da bexiga durante a micção, a utilização de oxibutinina pode 
+agravar este problema. Deve informar o seu médico deste problema antes de utilizar Kentera. 
+- Se tem problemas de digestão causados por um esvaziamento incompleto do estômago após uma 
+refeição, deve consultar o seu médico antes de utilizar Kentera. 
+- Se sofre de glaucoma ou se tem antecedentes familiares de glaucoma, informe o seu médico. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de utilizar Kentera se tiver algum dos seguintes problemas: 
+- Problemas de fígado; 
+- Problemas de rins; 
+- Dificuldade em urinar; 
+- Bloqueio intestinal; 
+- Fezes ensanguentadas; 
+- Fraqueza muscular generalizada; 
+- Deglutição dolorosa. </p>
+<p>Como o tratamento com oxibutinina pode causar uma redução da transpiração, existe um risco aumentado 
+de febre e insolação se estiver exposto a temperaturas ambiente elevadas. </p>
+<p>Crianças e adolescentes 
+Kentera não é recomendado para utilização em crianças ou adolescentes. </p>
+<p>Outros medicamentos e Kentera 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a tomar 
+outros medicamentos. </p>
+<p>A aplicação concomitante do sistema transdérmico Kentera com a toma de outros medicamentos que 
+tenham efeitos similares, tais como boca seca, prisão de ventre e torpor, pode aumentar a frequência e a 
+gravidade dos efeitos indesejáveis sentidos. </p>
+<p>A oxibutinina pode tornar o trato digestivo mais lento e, por conseguinte, influenciar a absorção de outros 
+medicamentos orais, ou a utilização deste medicamento juntamente com outros medicamentos pode 
+aumentar o efeito da oxibutinina, especialmente: 
+- Cetoconazol, itraconazol ou fluconazol (utilizados no tratamento das infeções fúngicas). 
+- Eritromicina, um antibiótico macrólido (utilizado para tratar infeções bacterianas). 
+- Biperideno, levodopa ou amantadina (utilizados para tratar a doença de Parkinson). 
+- Anti-histamínicos (utilizados no tratamento de alergias, tais como a febre dos fenos). 
+- Fenotiazinas ou clozapina (utilizadas para tratar doenças mentais). 
+- Antidepressivos tricíclicos (utilizados para tratar a depressão). 
+- Dipiridamol (utilizado para tratar os problemas de coagulação de sangue). 
+- Atropina e outros medicamentos anticolinérgicos (utilizados no tratamento de doenças de estômago, 
+tais como a síndrome do intestino irritável). </p>
+<p>Kentera com alimentos e álcool 
+A oxibutinina pode causar torpor ou visão turva. O torpor pode aumentar com o consumo de álcool. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico ou 
+farmacêutico antes de utilizar este medicamento. </p>
+<p>Kentera não deve ser utilizado durante a gravidez, exceto se completamente necessário. </p>
+<p>Quando a oxibutinina é utilizada durante a amamentação, uma pequena quantidade é excretada no leite 
+materno. Por conseguinte, não é recomendada a utilização de oxibutinina durante a amamentação. </p>
+<p>Condução de veículos e utilização de máquinas 
+Como Kentera pode produzir torpor, sonolência ou visão turva, os doentes devem ser aconselhados a ter 
+prudência ao conduzir veículos e utilizar máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar kentera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar kentera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Aplique um novo sistema transdérmico Kentera duas vezes por semana (todos os 3 a 4 dias) segundo as 
+instruções de utilização. Mude o sistema transdérmico nos mesmos dois dias de cada semana, por 
+exemplo, cada domingo e quarta-feira ou cada segunda-feira e quinta-feira. 
+Impresso no interior da sua embalagem de Kentera encontrará um calendário para o ajudar a lembrar-se 
+dos dias de administração. Anote os dias que decidiu utilizar e lembre-se sempre de mudar o sistema 
+transdérmico Kentera nos mesmos dois dias da semana que escolheu no calendário. Assegure-se que só 
+utiliza um sistema transdérmico de cada vez e use-o sempre até ser o momento de aplicar um novo. </p>
+<p>Onde aplicar 
+Aplique o sistema transdérmico numa área de pele limpa, seca e intacta do seu abdómen, ancas ou 
+nádegas. Evite colocar o sistema transdérmico na zona da cintura para evitar que roupa apertada se 
+esfregue contra o sistema transdérmico. Não exponha o sistema transdérmico ao sol. Coloque o sistema 
+transdérmico debaixo da sua roupa. Mude de sítio com cada nova aplicação. Não aplique o sistema 
+transdérmico no mesmo local do seu corpo durante, pelo menos, uma semana. </p>
+<p>Como aplicar 
+Cada sistema transdérmico vem embalado individualmente numa saqueta fechada. Por favor leia as 
+informações que se seguem antes de começar a utilizar Kentera. </p>
+<p>Para aplicar Kentera </p>
+<p>Passo 1: Escolha um local para o sistema transdérmico que esteja: </p>
+<ul>
+<li>Lavado há pouco tempo, mas seco e frio (espere uns minutos depois de ter tomado um banho ou 
+duche quente). </li>
+<li>Sem pó de talco, creme ou óleo. </li>
+<li>Sem feridas, erupções ou outras irritações da pele. </li>
+</ul>
+<p>Passo 2: Abra a saqueta que contém o sistema transdérmico. </p>
+<ul>
+<li>Rasgue-a ao longo das setas marcadas no lado direito da saqueta como demonstrado no desenho 
+abaixo. </li>
+<li>Não corte a saqueta com tesoura, pois pode estragar o sistema transdérmico que se encontra no 
+interior. </li>
+<li>Tire o sistema transdérmico para fora da saqueta. </li>
+<li>Não corte ou divida o sistema transdérmico, não utilize sistemas transdérmicos danificados. </li>
+<li>Aplique imediatamente na pele; não manter nem guardar o sistema transdérmico fora da saqueta 
+fechada. </li>
+</ul>
+<p>Passo 3: Aplique uma metade do sistema transdérmico na pele. </p>
+<ul>
+<li>Cuidadosamente dobre o sistema transdérmico e retire a primeira banda de proteção, que cobre a 
+superfície adesiva do sistema transdérmico. </li>
+<li>Sem tocar na face que cola, pressionar firmemente o sistema transdérmico, com a face adesivo 
+contra a parte do abdómen, ancas ou nádegas que escolheu previamente para o colocar. </li>
+</ul>
+<p>Passo 4: Aplique a segunda metade do sistema transdérmico na sua pele. </p>
+<ul>
+<li>Dobre o sistema transdérmico sobre ele mesmo. Faça pressão na banda exterior com firmeza. </li>
+<li>Empurre um pouco a banda exterior para a frente de maneira a descolar um canto. </li>
+<li>Agarre no canto descolado e retire a segunda camada de proteção. Tente não tocar na parte adesiva 
+do sistema transdérmico. </li>
+<li>Com a ponta dos dedos, faça pressão sobre o sistema transdérmico contra a pele. Faça pressão 
+durante, pelo menos, 10 segundos para ter a certeza que está bem colocado. Assegure-se que toda a 
+área do sistema transdérmico, mesmo os cantos, adere perfeitamente. </li>
+<li>Deite fora as bandas protetoras. </li>
+</ul>
+<p>Tomar banho, duche, nadar e praticar desporto 
+Deve usar cada sistema transdérmico sempre até ser altura de colocar um novo. Banhos, duches, natação e 
+desporto não perturbam o Kentera desde que não esfregue o sistema transdérmico ao lavar-se. Evite a 
+imersão prolongada em água quente, que pode descolar o sistema transdérmico. </p>
+<p>Se o sistema transdérmico se descolar 
+Se o sistema transdérmico começar a descolar-se, faça pressão com a ponta dos dedos. O sistema 
+transdérmico está concebido de maneira a voltar a colar. O descolamento completo acontece muito 
+raramente. Se tal acontecer tente repô-lo no mesmo local. Se o sistema transdérmico voltar a colar 
+completamente, deixe-o no lugar. Se não, tire-o e coloque um novo sistema transdérmico num novo local. 
+Qualquer que seja o dia em que isto aconteça, continue com o seu programa que marcou na sua 
+embalagem de sistemas transdérmicos, de duas vezes por semana. </p>
+<p>Caso se tenha esquecido de substituir o seu sistema transdérmico após 3-4 dias 
+Logo que se lembrar, retire o sistema transdérmico antigo e coloque um novo num outro local no seu 
+abdómen, ancas ou nádegas. Qualquer que seja o dia em que isto aconteça, continue com o seu programa 
+de duas vezes por semana, mesmo se tiver que mudar o sistema transdérmico mais cedo que os 3-4 dias 
+habituais. </p>
+<p>Como retirar </p>
+<p>Quando mudar de sistema transdérmico, retire o antigo sistema transdérmico lentamente. Dobre-o ao meio 
+(lados que colam juntos) e deite-o fora, sem o colocar ao alcance das crianças e animais domésticos. É 
+possível que a pele se encontre avermelhada, no local da aplicação. Esta cor desaparecerá algumas horas 
+depois de ter retirado o sistema transdérmico. Se a irritação continuar contacte o seu médico. </p>
+<p>Se ficar na pele algum resíduo de adesivo depois de ter retirado o sistema transdérmico lave o local com 
+água morna e sabão suave. Uma pequena quantidade de óleo para bebé também serve para remover algum 
+resíduo excessivo. Auréolas de adesivo que se tornem sujas podem precisar de toalhetes para remoção de 
+adesivos, disponíveis em farmácias. Não deverá utilizar álcool ou outros solventes que podem irritar a 
+pele. </p>
+<p>Após utilização, o sistema transdérmico ainda contém quantidades substanciais de componentes ativos. Os 
+componentes ativos restantes do sistema transdérmico podem ter efeitos nocivos se entrarem em contacto 
+com o ambiente aquático. Por isso, depois da remoção, o sistema transdérmico deve ser dobrado em dois, 
+com as partes adesivas para dentro para que a face que liberta o medicamento não esteja exposta ao ar, e 
+deve ser colocado na saqueta de origem e depois deitado fora cuidadosamente sem estar ao alcance das 
+crianças. Qualquer sistema transdérmico quer tenha sido utilizado ou não deve ser deitado fora de acordo 
+com as exigências locais ou devolvido à farmácia. Os sistemas transdérmicos utilizados não devem ser 
+deitados na sanita nem em qualquer sistema de lixo líquido. </p>
+<p>Se utilizar mais Kentera do que deveria 
+Não aplique mais do que um sistema transdérmico em cada ocasião. </p>
+<p>Caso se tenha esquecido de utilizar Kentera 
+Aplique um sistema transdérmico Kentera assim que der por falta dele, ou se tiver falhado o dia marcado 
+para a aplicação. </p>
+<p>Se parar de utilizar Kentera 
+A sua incontinência de urgência pode voltar e pode sentir um aumento da frequência de urinar, se decidir 
+parar de usar o sistema transdérmico. Continue a utilizar Kentera, enquanto o seu médico aconselhar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeito indesejável muito frequente (pode afetar mais de 1 em 10 utilizadores) 
+- comichão em redor do local de administração do sistema transdérmico </p>
+<p>Efeitos indesejáveis frequentes (pode afetar 1 a 10 em 100 utilizadores) 
+- vermelhidão ou erupção cutânea no local de administração do sistema transdérmico 
+- boca seca 
+- prisão de ventre 
+- diarreia 
+- indisposição 
+- mal-estar no estômago 
+- dor de cabeça ou sonolência 
+- infeções do trato urinário 
+- visão turva 
+- tonturas </p>
+<p>Efeitos indesejáveis pouco frequentes (pode afetar 1 a 10 em 1.000 utilizadores) 
+- infeção do trato respiratório superior ou infeções fúngicas 
+- ansiedade 
+- confusão 
+- nervosismo 
+- agitação 
+- dificuldade em dormir 
+- palpitações 
+- afrontamentos 
+- dor de costas 
+- retenção urinária 
+- dificuldade em urinar 
+- constipação comum 
+- lesão acidental </p>
+<ul>
+<li>Efeitos indesejáveis raros (pode afetar 1 a 10 em 10.000 utilizadores) </li>
+<li>reação de pânico </li>
+<li>confusão mental </li>
+<li>alucinações </li>
+<li>desorientação </li>
+<li>deterioração da memória </li>
+<li>perda de memória </li>
+<li>cansaço fora do normal </li>
+<li>falta de concentração </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
+fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente através 
+do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a 
+ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar kentera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar kentera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na saqueta e na embalagem exterior. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não refrigerar ou congelar. </p>
+<p>O sistema transdérmico usado deve ser dobrado ao meio, com as partes adesivas para dentro para que a 
+face que liberta o medicamento não esteja exposta ao ar, colocado na saqueta de origem e, então, deitado 
+fora cuidadosamente sem ficar ao alcance das crianças. Qualquer sistema transdérmico, usado ou não, 
+deve ser deitado fora de acordo com as exigências locais ou devolvido à farmácia. Os sistemas 
+transdérmicos usados não devem ser eliminados na sanita nem em qualquer sistema de lixo líquido. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Kentera </p>
+<ul>
+<li>A substância ativa é oxibutinina. 
+Cada sistema transdérmico liberta 3,9 mg de oxibutinina por cada 24 horas. Cada sistema 
+transdérmico de 39 cm2 contém 36 mg de oxibutinina. </li>
+<li>Os outros componentes são: Cada sistema transdérmico contém triacetina e uma solução adesiva 
+acrílica. A oxibutinina, a triacetina e o adesivo acrílico estão revestidos por uma película de 
+proteção transparente em PET/EVA e cobertos por uma banda de libertação de poliéster 
+siliconizado. </li>
+</ul>
+<p>Qual o aspeto de Kentera e conteúdo da embalagem 
+Kentera é um sistema transdérmico e está acondicionado em caixas contendo 2, 8 e 24 sistemas 
+transdérmicos. 
+Cada sistema transdérmico está coberto por uma película de proteção transparente, no lado do sistema que 
+está revestido com os componentes farmacêuticos. A película de proteção deve ser retirada antes da 
+aplicação do sistema transdérmico. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Teva B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Países Baixos </p>
+<p>Fabricante </p>
+<p>Merckle GmbH 
+Ludwig-Merckle-Straße 3 
+89143 Blaubeuren 
+Alemanha </p>
+<p>Teva Pharmaceuticals Europe B.V. 
+Swensweg 5 
+2031 GA Haarlem<br />
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+ratiopharm GmbH 
+Tel: +49 73140 
+Nederland<br />
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+Specifar A.B.E.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970España 
+Laboratorios Gebro Pharma, S.A. 
+Tel: +34 932058 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+Specifar A.B.E.E. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Accord Healthcare Ireland Ltd. 
+Ireland 
+Tel: +353 214619 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -931,6 +1371,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a346fcd48e1745156d4e5145052e15e4"
 * entry[0].resource = composition-da-a346fcd48e1745156d4e5145052e15e4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa346fcd48e1745156d4e5145052e15e4"
+* entry[=].resource = mpa346fcd48e1745156d4e5145052e15e4
+                            
+                    
+Instance: bundlepackageleaflet-pt-a346fcd48e1745156d4e5145052e15e4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kentera Package Leaflet for language pt"
+Description: "ePI document Bundle for kentera Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a346fcd48e1745156d4e5145052e15e4"
+* entry[0].resource = composition-pt-a346fcd48e1745156d4e5145052e15e4
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa346fcd48e1745156d4e5145052e15e4"
@@ -1032,6 +1494,18 @@ RuleSet: a346fcd48e1745156d4e5145052e15e4ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a346fcd48e1745156d4e5145052e15e4) // kentera pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

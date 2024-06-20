@@ -970,6 +970,552 @@ og om, hvordan de behandles.</p>         </div>"""
 
 
 
+Instance: composition-pt-c45ce23b80b7516d2d6bde1b18d3b181
+InstanceOf: CompositionUvEpi
+Title: "Composition for benefix Package Leaflet"
+Description:  "Composition for benefix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc45ce23b80b7516d2d6bde1b18d3b181)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - benefix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é BeneFIX e para que é utilizado
+2. O que precisa de saber antes de utilizar BeneFIX
+3. Como utilizar BeneFIX
+4. Efeitos indesejáveis possíveis
+5. Como conservar BeneFIX
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é benefix e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é benefix e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>BeneFIX é um fator IX de coagulação injetável (coagulante) produzido por tecnologia recombinante 
+de ADN. A substância ativa do BeneFIX é nonacog alfa. As pessoas que nascem com hemofilia B 
+(doença de Christmas) não têm fator IX suficiente para controlar a hemorragia. BeneFIX atua 
+substituindo o fator IX nos doentes com hemofilia B para permitir a coagulação do seu sangue.
+BeneFIX é usado para o tratamento e prevenção da hemorragia em doentes com hemofilia B 
+(deficiência congénita de fator IX) em todas as faixas etárias.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar benefix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar benefix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize BeneFIX
+
+se tem alergia ao nonacog alfa ou a qualquer outro componente deste medicamento (indicados 
+na secção 6).
+
+se tem alergia às proteínas de hamster.
+Advertências e precauções
+
+Fale com o seu médico ou farmacêutico antes de utilizar BeneFIX.
+
+Consulte imediatamente o seu médico se a hemorragia não estancar como esperado. 
+
+É possível a ocorrência de reações alérgicas. O produto pode conter vestígios de proteínas de 
+hamster (ver “Não utilize BeneFIX"). Ocorreram reações anafiláticas com potencial perigo de 
+26
+vida (reações alérgicas graves) com produtos contendo fator IX, incluindo o BeneFIX. Os sinais 
+precoces de reações alérgicas incluem dificuldade em respirar, falta de ar, edema, urticária, 
+comichão, urticária generalizada, sensação de aperto no peito, respiração ruidosa, pressão 
+arterial baixa, visão turva e anafilaxia (reação alérgica grave que pode causar dificuldade em 
+engolir e/ou respirar e vermelhidão ou inchaço da face e/ou mãos).
+
+Se ocorrer alguma reação alérgica ou do tipo anafilático, deve ser imediatamente 
+interrompida a perfusão e deve contactar o seu médico ou procurar imediatamente 
+assistência de serviços de emergência médica. Em caso de reações alérgicas graves, deverá 
+ser considerada terapêutica alternativa.
+
+É pouco frequente a ocorrência de anticorpos com atividade neutralizante (inibidores) em 
+doentes que tenham recebido tratamento prévio com medicamentos contendo fator IX. No 
+entanto, tal como acontece com todos os medicamentos com fator IX, deve ser cuidadosamente 
+monitorizado para o desenvolvimento de inibidores para o fator IX, enquanto está em 
+tratamento com BeneFIX.
+
+Pesquisas têm demonstrado uma ligação entre a ocorrência de inibidores do fator IX e reações 
+alérgicas. Assim, se ocorrerem reações alérgicas tais como as descritas acima, deve ser 
+analisado para a presença de inibidores. É de salientar que os doentes com inibidores do fator IX 
+podem ter um risco aumentado de ocorrência de anafilaxia durante um tratamento futuro com 
+BeneFIX.
+
+A produção de fator IX no organismo é controlada pelo gene do fator IX. Os doentes que 
+apresentem mutações específicas no seu gene do fator IX, tais como deleção major, podem ter 
+uma maior probabilidade de desenvolver inibidores do fator IX e/ou sofrerem reações alérgicas. 
+Desta forma, caso saiba que possui esta mutação, o seu médico poderá monitorizá-lo 
+cuidadosamente relativamente a sinais de uma reação alérgica, em particular quando iniciar o 
+tratamento com BeneFIX.<br />
+
+Devido ao risco de ocorrência de reações alérgicas com o fator IX, as administrações iniciais de 
+BeneFIX devem ser realizadas sob vigilância médica num local onde seja possível obter 
+assistência médica adequada em caso de ocorrência de reações alérgicas.
+
+Mesmo na ausência de inibidores do fator IX, podem ser necessárias doses mais elevadas de 
+BeneFIX do que as necessárias para outro produto de fator IX derivado do plasma, que tenha 
+utilizado anteriormente. Por esta razão, tem de se efetuar uma monitorização apertada para a 
+atividade do fator IX no plasma (que mede a capacidade do seu sangue em formar coágulos), 
+para ajustar adequadamente as doses. Caso a hemorragia não seja controlada com a dose 
+recomendada, contacte o seu médico.
+
+Se sofre de doença do fígado ou do coração, ou se foi recentemente submetido a uma cirurgia, 
+existe um aumento do risco de complicações com a coagulação do sangue.
+
+Foi notificada uma disfunção renal (síndroma nefrótica) após administração de doses elevadas 
+de fator IX derivado do plasma em doentes com hemofilia B apresentando inibidores do 
+fator IX e antecedentes de reação alérgica. 
+
+Não foram obtidos resultados suficientes nos estudos clínicos sobre o tratamento de doentes não 
+tratados previamente (doentes que nunca tinham recebido uma perfusão de fator IX) com 
+BeneFIX.
+
+É recomendado que, sempre que utilize BeneFIX, registe o nome e o número do lote do produto. 
+Pode colar no seu diário uma das etiquetas destacáveis presentes no frasco para registar o 
+número do lote ou para comunicar quaisquer efeitos indesejáveis que possam surgir.
+27
+Outros medicamentos e BeneFIX 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, apenas deverá usar 
+BeneFIX segundo as instruções específicas do seu médico. Não se sabe se BeneFIX pode causar 
+lesões no feto, quando administrado à mulher grávida. O seu médico pode aconselhá-la a parar o 
+tratamento com BeneFIX se estiver a amamentar ou se ficar grávida.
+Consulte o seu médico ou farmacêutico antes de tomar este medicamento.
+Condução de veículos e utilização de máquinas
+BeneFIX não tem qualquer influência na capacidade de conduzir ou utilizar máquinas.
+BeneFIX contém sódio
+Após reconstituição, BeneFIX contém 0,2 mmol (4,6 mg) de sódio por frasco para injetáveis, ou seja, 
+é praticamente “isento de sódio". Contudo, dependendo do seu peso corporal e da sua dose de 
+BeneFIX, poderá receber múltiplos frascos para injetáveis. Isto deve ser considerado se estiver a fazer 
+uma dieta com baixo teor em sal.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar benefix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar benefix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. 
+O seu médico decidirá a dose de BeneFIX que lhe será administrada. Esta dose e duração da 
+terapêutica dependerão das suas necessidades individuais em terapêutica de substituição de fator IX e 
+da rapidez com que o seu corpo utiliza o fator IX, os quais devem ser analisados regularmente. Pode 
+notar uma diferença na dose que está a receber caso esteja a mudar de um fator IX derivado do plasma 
+para o BeneFIX.
+O seu médico pode decidir alterar a dose de BeneFIX que está a receber durante o seu tratamento.
+Reconstituição e administração 
+Os procedimentos abaixo indicados são fornecidos como orientações gerais para a reconstituição e 
+administração do BeneFIX. Os doentes deverão seguir os procedimentos específicos de punção venosa 
+fornecidos pelos seus médicos.
+BeneFIX é administrado por perfusão intravenosa (IV) após reconstituição do pó para injeção com o 
+solvente (uma solução de cloreto de sódio (sal)) fornecido na seringa pré-cheia.
+Lave sempre as suas mãos antes de realizar os procedimentos seguintes. Durante o procedimento de 
+reconstituição deverá ser usada uma técnica assética (limpa e sem germes).
+Reconstituição:
+BeneFIX será administrado por perfusão intravenosa (IV) após reconstituição com solvente injetável 
+estéril.
+28
+1. Deixe que o frasco do liofilizado de BeneFIX e a seringa pré-cheia atinjam a temperatura 
+ambiente.
+2. Retire a proteção de plástico do frasco para injetáveis de BeneFIX, para expor a parte central da 
+tampa de borracha.
+3. Limpe a tampa do frasco para injetáveis com uma compressa com álcool fornecida ou use outra 
+solução antissética e deixe secar. Após limpar, não tocar na tampa de borracha com as mãos 
+nem permitir que esta toque em qualquer superfície.
+4. Retire a cobertura da embalagem de plástico transparente que contém o adaptador para o frasco 
+para injetáveis. Não retirar o adaptador da embalagem.
+5. Coloque o frasco para injetáveis numa superfície plana. Segurar a embalagem com o adaptador 
+e colocar o adaptador sobre o frasco para injetáveis. Pressionar firmemente a embalagem para 
+baixo até que o adaptador encaixe no topo do frasco para injetáveis, com o perfurador do 
+adaptador a penetrar a tampa do frasco para injetáveis.
+6. Retire e rejeite a embalagem do adaptador.
+7.
+Adapte o êmbolo à seringa de solvente empurrando e rodando firmemente.
+8.
+Quebre a tampa protetora de plástico da extremidade da seringa de solvente através da rutura da 
+perfuração da tampa. Para tal, dobre a tampa para cima e para baixo até que a perfuração seja 
+quebrada. Não toque no interior da tampa nem na extremidade da seringa. A tampa pode 
+necessitar de ser recolocada (se o BeneFIX reconstituído não for administrado imediatamente), 
+pelo que deve ser colocada de parte e voltada para cima.
+29
+9.
+Coloque o frasco para injetáveis numa superfície plana. Adaptar a seringa de solvente ao 
+adaptador do frasco para injetáveis inserindo a extremidade da seringa na abertura do adaptador, 
+empurrando e rodando firmemente a seringa no sentido dos ponteiros do relógio até a conexão 
+estar segura.
+10.
+Empurre lentamente o êmbolo para injetar todo o solvente para dentro do frasco para injetáveis 
+de BeneFIX.
+11. Com a seringa ainda colocada no adaptador, rode suavemente o frasco para injetáveis até que o 
+pó se dissolva.
+12. Antes da administração a solução final deve ser inspecionada visualmente para a presença de 
+pequenas partículas. A solução deve ter um aspeto límpido e incolor.
+Nota: Se utiliza mais do que um frasco de BeneFIX por perfusão, cada frasco para injetáveis 
+deverá ser reconstituído de acordo com as instruções anteriores. A seringa de solvente deverá 
+ser removida, deixando ficar o adaptador para frasco para injetáveis e poderá utilizar-se uma 
+seringa maior com fecho do tipo luer lock (um dispositivo que faz a ligação entre a seringa e o 
+frasco para injetáveis) para retirar o conteúdo reconstituído de cada um dos frascos individuais.
+13. Inverta o frasco para injetáveis, garantindo que o êmbolo da seringa continua completamente 
+pressionado. Lentamente retire toda a solução para dentro da seringa.
+14. Retire a seringa do adaptador para o frasco para injetáveis puxando e rodando lentamente a 
+seringa no sentido contrário ao dos ponteiros do relógio. Rejeite o frasco para injetáveis com o 
+adaptador.
+30
+Nota: Se a solução não se destinar a ser utilizada de imediato, a tampa protetora da seringa deve 
+ser cuidadosamente recolocada. Não toque na extremidade da seringa ou no interior da tampa 
+protetora.
+BeneFIX deve ser administrado imediatamente ou no período de 3 horas após a reconstituição. A 
+solução reconstituída pode ser conservada à temperatura ambiente antes da administração.
+Administração (Injeção Intravenosa):
+BeneFIX deve ser administrado utilizando a seringa pré-cheia de solvente fornecida ou uma única 
+seringa estéril descartável plástica com fecho do tipo luer lock. Adicionalmente, a solução deve ser 
+retirada do frasco para injetáveis utilizando o adaptador para o frasco.
+BeneFIX deve ser administrado por via intravenosa ao longo de vários minutos. O seu médico poderá 
+alterar o seu débito de perfusão recomendado para tornar a perfusão mais confortável.
+Tem sido comunicado casos de aglomeração (aglutinação) de glóbulos vermelhos no tubo/seringa 
+durante a administração do BeneFIX. Não foram comunicados efeitos indesejáveis associados a esta 
+observação. Para minimizar a possibilidade de aglutinação, é importante limitar a quantidade de 
+sangue que entra no tubo. Não deve entrar sangue na seringa. Se for observada aglomeração de 
+glóbulos vermelhos no tubo/seringa, elimine todo este material (tubos, seringa e solução de BeneFIX) 
+e reinicie a administração com uma nova embalagem.
+Uma vez que a utilização de BeneFIX por perfusão contínua (gota a gota) não foi avaliada, BeneFIX 
+não deve ser misturado com soluções para perfusão ou administrado sob gotejamento.
+Por favor elimine qualquer porção de solução não usada, frascos vazios e agulhas e seringas usadas 
+para um recipiente adequado de eliminação de resíduos, pois estes podem lesar alguém se não forem 
+adequadamente manipulados.
+Se utilizar mais BeneFIX do que deveria
+Consulte imediatamente o seu médico se injetar uma quantidade de BeneFIX superior à recomendada 
+pelo seu médico.
+Se parar de utilizar BeneFIX
+Não pare de utilizar BeneFIX sem consultar o seu médico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Reações de hipersensibilidade/alérgicas
+É possível que surjam reações de hipersensibilidade do tipo alérgico com BeneFIX. Estas reações 
+podem incluir inchaço do rosto ou garganta, sensação de ardor e de picadas no local da perfusão, 
+arrepios, afrontamentos, comichão, dor de cabeça, urticária, pressão arterial baixa, letargia, náuseas,
+inquietude, ritmo cardíaco acelerado, aperto no peito, formigueiro, vómitos, pieira. Em alguns casos 
+estas reações evoluíram para anafilaxia grave. As reações alérgicas podem ocorrer juntamente com o 
+desenvolvimento de inibidores do fator IX (ver também "Advertências e precauções").
+31
+Estas reações apresentam um potencial perigo de vida. Se ocorrerem reações alérgicas/anafiláticas, a 
+perfusão deve ser imediatamente interrompida e deve contactar o seu médico ou procurar 
+imediatamente assistência de serviços de emergência médica. O tratamento necessário depende da 
+natureza e gravidade dos efeitos indesejáveis (ver também "Advertências e precauções").
+Desenvolvimento de inibidores
+Os doentes com hemofilia B podem desenvolver anticorpos neutralizantes (inibidores) do fator IX. 
+Um sinal da ocorrência de formação desses inibidores poderá ser o aumento da quantidade de 
+BeneFIX geralmente necessária para tratar a hemorragia e/ou hemorragia continuada após o 
+tratamento. Nestes casos, recomenda-se que seja contactado um centro especializado em hemofilia. O 
+seu médico poderá querer monitorizá-lo para o desenvolvimento de inibidores (ver "Advertências e 
+precauções").
+Foi notificado o aparecimento de uma disfunção renal após a administração de doses elevadas de 
+fator IX derivado do plasma, com a finalidade de induzir tolerância imunológica em doentes com 
+hemofilia B com inibidores do fator IX e antecedentes de reações alérgicas (ver também "Advertências 
+e precauções").
+Acontecimentos trombóticos
+BeneFIX pode aumentar o risco de trombose (coagulação do sangue alterada) no seu corpo, se tiver 
+fatores de risco para desenvolver coágulos sanguíneos, incluindo um cateter venoso colocado no 
+interior do corpo. Foram comunicados casos graves de coagulação do sangue, incluindo coágulos 
+sanguíneos que podem pôr a vida em risco em recém-nascidos em estado crítico, durante a perfusão 
+contínua de BeneFIX através de cateter venoso central. Foram também comunicados casos de 
+tromboflebite periférica (dor e vermelhidão das veias) e de trombose venosa profunda (coágulos nas 
+extremidades). Na maioria destes casos, BeneFIX foi administrado por perfusão contínua, que não é 
+um modo de administração aprovado.
+Efeitos indesejáveis muito frequentes (podem afetar mais do que 1 em 10 indivíduos)
+
+Dor de cabeça
+
+Tosse
+
+Febre
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 indivíduos)
+
+Hipersensibilidade/reações alérgicas
+
+Tonturas, paladar alterado
+
+Flebite (dor e vermelhidão nas veias), afrontamentos
+
+Vómitos, náuseas
+
+Erupção na pele, urticária
+
+Desconforto no peito (incluindo dor torácica)
+
+Reação no local de perfusão (incluindo comichão e vermelhidão no local de perfusão), dor no 
+local de infusão e mal-estar
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 indivíduos)
+
+Desenvolvimento de anticorpos neutralizantes (inibidores)
+
+Celulite no local de perfusão (dor e vermelhidão da pele)
+
+Sonolência, tremores
+
+Compromisso visual (incluindo visão turva, aparecimento de manchas/brilho)
+
+Ritmo cardíaco acelerado, pressão arterial baixa
+
+Enfarte renal (interrupção do fornecimento de sangue para o rim)
+32
+Efeitos indesejáveis com frequência desconhecida (não pode ser calculado a partir dos dados 
+disponíveis)
+
+Reação anafilática
+
+Acontecimentos trombóticos (coágulos de sangue anormais)
+
+Ausência de resposta ao tratamento (insucesso na paragem ou prevenção de episódios 
+hemorrágicos)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar benefix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar benefix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis. O prazo de validade corresponde ao último dia do mês indicado.
+BeneFIX tem de ser conservado a temperatura inferior a 30ºC e tem de ser usado até ao prazo de 
+validade impressa no rótulo. 
+Não congelar de forma a evitar danos na seringa pré-cheia.
+Utilizar o produto reconstituído imediatamente ou no período de 3 horas após reconstituição.
+Não utilize este medicamento se verificar que a solução não está límpida e incolor.
+Para a reconstituição utilizar apenas a seringa pré-cheia fornecida na embalagem. Outras seringas 
+estéreis descartáveis podem ser utilizadas para a administração.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de BeneFIX
+
+A substância ativa é o nonacog alfa (fator IX de coagulação recombinante). Cada frasco de 
+BeneFIX contém, nominalmente, 250, 500, 1000, 1500, 2000 ou 3000 UI de nonacog alfa.
+
+Os outros componentes são sacarose, glicina, L-histidina, polissorbato 80. Também é fornecido 
+um solvente (solução de cloreto de sódio 0,234%) para reconstituição.
+
+Após reconstituição com o solvente fornecido (solução de cloreto de sódio 0,234%), cada frasco 
+para injetáveis contém 50, 100, 200, 300, 400 ou 600 UI/ml (ver Quadro 1).
+33
+Quadro 1. Dosagem de BeneFIX por ml de solução preparada
+Quantidade de BeneFIX 
+por Frasco para injetáveis
+Quantidade de BeneFIX 
+por 1 ml de solução injetável 
+preparada
+250 UI
+50 UI
+500 UI
+100 UI
+1000 UI
+200 UI
+1500 UI
+300 UI
+2000 UI
+400 UI
+3000 UI
+600 UI
+Qual o aspeto de BeneFIX e conteúdo da embalagem
+BeneFIX é fornecido como um pó para injetável num frasco de vidro e um solvente em seringa 
+pré-cheia.
+O conteúdo da embalagem é:
+
+um frasco para injetáveis de pó BeneFIX 250, 500, 1000, 1500, 2000 ou 3000 UI
+
+uma seringa pré-cheia de solvente, 5 ml de solução injetável estéril de cloreto de sódio 0,234% 
+para reconstituição, com um êmbolo
+
+um dispositivo de reconstituição estéril para adaptar ao frasco para injetáveis
+
+um sistema de perfusão estéril
+
+duas compressas com álcool
+
+um emplastro
+
+uma compressa de gaze
+Titular da Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante
+Wyeth Farma S.A.
+Autovia del Norte. A-1, Km. 23. Desvio Algete, Km. 1, 28700 San Sebastian de los Reyes, Madrid
+Espanha
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. +3705 2514000
+България 
+Пфайзер Люксембург САРЛ, Клон 
+България 
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: + 36 1 488 37 00
+34
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς Α.Ε.
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.,
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer 
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 21 207 28 00
+Hrvatska 
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana 
+Tel: + 386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka 
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: + 354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige 
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: +371 670 35 775
+35
+Este folheto foi revisto pela última vez em 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1011,6 +1557,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c45ce23b80b7516d2d6bde1b18d3b181"
 * entry[0].resource = composition-da-c45ce23b80b7516d2d6bde1b18d3b181
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc45ce23b80b7516d2d6bde1b18d3b181"
+* entry[=].resource = mpc45ce23b80b7516d2d6bde1b18d3b181
+                            
+                    
+Instance: bundlepackageleaflet-pt-c45ce23b80b7516d2d6bde1b18d3b181
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for benefix Package Leaflet for language pt"
+Description: "ePI document Bundle for benefix Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c45ce23b80b7516d2d6bde1b18d3b181"
+* entry[0].resource = composition-pt-c45ce23b80b7516d2d6bde1b18d3b181
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc45ce23b80b7516d2d6bde1b18d3b181"
@@ -1112,6 +1680,18 @@ RuleSet: c45ce23b80b7516d2d6bde1b18d3b181ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c45ce23b80b7516d2d6bde1b18d3b181) // benefix pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

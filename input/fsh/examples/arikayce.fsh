@@ -671,6 +671,299 @@ amikacin (kun centralt godkendt produkt), forbliver uændret under forudsætning
 
 
 
+Instance: composition-pt-5567fe4258ad803585d82a002a45d53a
+InstanceOf: CompositionUvEpi
+Title: "Composition for arikayce Package Leaflet"
+Description:  "Composition for arikayce Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5567fe4258ad803585d82a002a45d53a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - arikayce"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instruções de utilização </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é ARIKAYCE lipossómico e para que é utilizado </li>
+<li>Antes de utilizar ARIKAYCE lipossómico </li>
+<li>Como utilizar ARIKAYCE lipossómico </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar ARIKAYCE lipossómico </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é arikayce e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é arikayce e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ARIKAYCE lipossómico é um antibiótico que contém a substância ativa amicacina. A amicacina 
+pertence a um grupo de antibióticos denominados aminoglicosídeos que impedem o crescimento de 
+determinadas bactérias que provocam infeções. </p>
+<p>ARIKAYCE lipossómico é utilizado por inalação para tratar infeções pulmonares causadas pelo 
+complexo Mycobacterium avium em adultos com opções de tratamento limitadas e que não têm 
+fibrose quística. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar arikayce"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar arikayce"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize ARIKAYCE lipossómico 
+- se tem alergia à amicacina ou a outros aminoglicosídeos, à soja ou a qualquer outro 
+componente deste medicamento (indicados na secção 6). 
+- se está a tomar quaisquer outros aminoglicosídeos (orais ou injetáveis) 
+- se tem uma função renal muito fraca </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de utilizar ARIKAYCE lipossómico se: 
+- está a utilizar um broncodilatador para problemas respiratórios, uma vez que lhe será pedido que 
+o utilize antes de utilizar ARIKAYCE lipossómico; 
+- tem problemas nos rins; poderá ter de fazer um teste aos rins antes de iniciar o tratamento; 
+- tem problemas auditivos, apitos ou zumbido nos ouvidos (acufenos) ou problemas de 
+equilíbrio, incluindo sensação de vertigem, falta de coordenação nos movimentos dos 
+músculos, tonturas ou vertigem. Se tem problemas auditivos poderá ter de fazer um teste aos 
+ouvidos antes de iniciar o tratamento ou durante o mesmo. 
+- se sofre de outras doenças dos pulmões;<br />
+- se tem uma doença que provoca fraqueza muscular ou cansaço, como miastenia grave. 
+- se você tem ou se tem antecedentes maternos de doença de mutação mitocondrial (uma doença 
+genética) ou perda de audição devido a antibióticos, deve informar o seu médico ou 
+farmacêutico antes de tomar um aminoglicosídeo; determinadas mutações mitocondriais podem 
+aumentar o risco de perda auditiva com este medicamento. O seu médico poderá recomendar 
+testes genéticos antes da administração de ARIKAYCE lipossómico. </p>
+<p>Fale com o seu médico imediatamente se, enquanto está a utilizar ARIKAYCE lipossómico, tiver 
+algum dos seguintes sintomas: 
+- perda de consciência, erupção na pele, febre, agravamento ou novos problemas relacionados 
+com a respiração; 
+- agravamento dos problemas nos rins; 
+- problemas auditivos como zumbido nos ouvidos ou perda de audição. 
+Ver secção 4.<br />
+Crianças e adolescentes 
+ARIKAYCE lipossómico não deve ser administrado a crianças e adolescentes com idade inferior a 
+18 anos. </p>
+<p>Outros medicamentos e ARIKAYCE lipossómico 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>É necessário um cuidado especial se estiver a tomar outros medicamentos, uma vez que alguns podem 
+interagir com ARIKAYCE lipossómico, por exemplo: 
+- diuréticos (“comprimidos para a retenção de líquidos"), tais como ácido etacrínico, furosemida 
+ou manitol 
+- outros medicamentos que podem afetar os seus rins, audição, equilíbrio ou que reduzem a força 
+muscular </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, a utilização de 
+ARIKAYCE lipossómico deve ser evitada. Consulte o seu médico ou farmacêutico antes de tomar este 
+medicamento. </p>
+<p>Informe o seu médico se engravidar enquanto está a utilizar ARIKAYCE lipossómico. Ele irá 
+aconselhar se deve parar de utilizar ARIKAYCE lipossómico. </p>
+<p>Desconhece-se se a amicacina passa para o leite materno no ser humano. Se está a amamentar, o seu 
+médico irá aconselhá-la se deve parar de amamentar ou parar o tratamento com este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+ARIKAYCE lipossómico pode provocar tonturas e outros distúrbios vestibulares, tais como vertigem 
+e distúrbios do equilíbrio. É aconselhado não conduzir ou operar máquinas enquanto estiver a inalar 
+ARIKAYCE lipossómico. Fale com o seu médico se tiver dúvidas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar arikayce"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar arikayce"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>A dose recomendada é um frasco de ARIKAYCE lipossómico inalado pela boca uma vez ao dia, 
+utilizando o nebulizador Lamira. Após 6 meses de tratamento, o seu médico aconselhará se deve 
+continuar ou parar o tratamento. A duração máxima do tratamento é de 18 meses.  </p>
+<p>Tomar ARIKAYCE lipossómico </p>
+<p>Se utilizar um broncodilatador, utilize-o primeiro, antes de utilizar ARICAYCE lipossómico. 
+Cada frasco destina-se apenas a utilização única. 
+- Utilize ARIKAYCE lipossómico apenas com o Conjunto de nebulização Lamira e a cabeça de 
+aerossol conectada à unidade de controlo Lamira. Para informação sobre como utilizar o 
+medicamento juntamente com o Sistema de nebulização Lamira, ver secção 7. - Não utilize ARIKAYCE lipossómico com qualquer outro tipo de conjunto ou cabeça de 
+aerossol. 
+- Não coloque outros medicamentos no Conjunto de nebulização Lamira. 
+- Não beba o líquido do frasco. 
+- Leia as instruções de utilização fornecidas no final deste folheto informativo. </p>
+<p>Como e quando substitui o Conjunto de nebulização Lamira? 
+Cada Conjunto de nebulização Lamira deve ser utilizado durante um ciclo de tratamento de 28 dias. A 
+cabeça de aerossol deve ser substituída todas as semanas. Em cada embalagem exterior de 
+ARIKAYCE lipossómico são fornecidas 4 cabeças de aerossol. Para conselhos de limpeza e 
+conservação, consulte as instruções de utilização do fabricante. </p>
+<p>Se utilizar mais ARIKAYCE lipossómico do que deveria 
+Informe o seu médico imediatamente se estiver preocupado com a possibilidade de ter utilizado 
+demasiado medicamento. </p>
+<p>Caso se tenha esquecido de utilizar ARIKAYCE lipossómico 
+Caso se tenha esquecido de tomar o seu medicamento, tome-o logo que possível no dia da dose 
+esquecida. Não tome mais do que uma dose no mesmo dia para compensar uma dose que se esqueceu 
+de tomar. </p>
+<p>Se parar de utilizar ARIKAYCE lipossómico 
+Tem de informar o seu médico se por algum motivo decidir parar de utilizar ARIKAYCE lipossómico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Informe o seu médico imediatamente: 
+- se tiver qualquer hipersensibilidade ou reações alérgicas graves ao tomar ARIKAYCE 
+lipossómico (p. ex., com tensão arterial baixa, perda de consciência, erupção na pele grave ou 
+pieira grave e falta de ar). A frequência destes efeitos indesejáveis é desconhecida. 
+- se observar agravamento dos seus problemas pulmonares ou novos problemas relacionados com 
+a respiração (p. ex., falta de ar ou pieira). Estes podem ser um sinal de inflamação grave dos 
+pulmões que requer tratamento, podendo significar que deve parar de tomar ARIKAYCE 
+lipossómico. A frequência destes efeitos indesejáveis graves é frequente a muito frequente. </p>
+<p>Outros efeitos indesejáveis: 
+Informe o seu médico ou farmacêutico se sentir algum dos seguintes: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- Dificuldade em falar 
+- Dificuldade em respirar 
+- Tosse 
+- Tosse com sangue </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) 
+- Infeção que causa agravamento da sua doença pulmonar 
+- Aumento do muco expelido pelos pulmões 
+- Tosse com expetoração 
+- Pieira 
+- Garganta irritada 
+- Dor de garganta 
+- Perda da voz 
+- Sapinhos (uma infeção fúngica) na boca 
+- Dor na boca 
+- Alterações no paladar 
+- Inflamação pulmonar 
+- Dor de cabeça 
+- Tonturas 
+- Sentir-se instável 
+- Diarreia 
+- Sensação de enjoo (náuseas) 
+- Estar maldisposto (vómitos) 
+- Boca seca 
+- Diminuição do apetite 
+- Comichão na pele 
+- Surdez 
+- Zumbido nos ouvidos 
+- Problemas nos rins, incluindo função renal fraca 
+- Dores nas articulações 
+- Dor muscular 
+- Erupção cutânea 
+- Cansaço 
+- Desconforto no peito 
+- Febre 
+- Perda de peso </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) 
+- Ansiedade </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar arikayce"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar arikayce"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco após EXP. O prazo de 
+validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C). Não congelar, eliminar frascos que tenham sido congelados. </p>
+<p>Se a dose que pretende utilizar tiver sido refrigerada, retire o frasco do frigorífico e deixe-o chegar à 
+temperatura ambiente antes de o utilizar.  </p>
+<p>Em alternativa, ARICAYKE lipossómico pode ser conservado à temperatura ambiente inferior a 
+25 °C, mas apenas durante um período até 4 semanas. Uma vez à temperatura ambiente, o 
+medicamento não utilizado tem de ser eliminado ao fim de 4 semanas. </p>
+<p>Este medicamento é um líquido branco leitoso em frasco transparente. Não utilizar se verificar 
+alterações na cor ou pequenas partículas a flutuar no frasco.  </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de ARIKAYCE lipossómico 
+- A substância ativa é a amicacina. Cada frasco contém sulfato de amicacina equivalente a 
+590 mg de amicacina numa formulação lipossómica. A dose média fornecida por frasco é de 
+aproximadamente 312 mg de amicacina. 
+- Os outros componentes são colesterol, dipalmitoilfosfatidilcolina (DPPC), cloreto de sódio, 
+hidróxido de sódio e água para preparações injetáveis. </p>
+<p>Qual o aspeto de ARIKAYCE lipossómico e conteúdo da embalagem 
+ARIKAYCE lipossómico é uma dispersão para inalação por nebulização branca a esbranquiçada, 
+leitosa, num frasco de vidro de 10 ml selado com uma rolha de borracha e um selo metálico com uma 
+tampa destacável. </p>
+<p>Os 28 frascos são fornecidos numa embalagem exterior para 28-dias de administração; um frasco por 
+dia. Uma embalagem exterior de ARIKAYCE lipossómico contém 4 embalagens interiores, contendo 
+cada uma 7 frascos e uma cabeça de aerossol. A embalagem para 28-dias de administração contém 
+1 Conjunto de nebulização Lamira. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Insmed Netherlands B.V. 
+Stadsplateau 7 
+3521 AZ Utrecht 
+Países Baixos </p>
+<p>Fabricante 
+Almac Pharma Services (Ireland) Ltd. 
+Finnabair Industrial Estate,<br />
+Dundalk, Co. Louth, A91 P9KD, 
+Irlanda </p>
+<p>Este folheto foi revisto pela última vez em {mês/AAAA}. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -712,6 +1005,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5567fe4258ad803585d82a002a45d53a"
 * entry[0].resource = composition-da-5567fe4258ad803585d82a002a45d53a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5567fe4258ad803585d82a002a45d53a"
+* entry[=].resource = mp5567fe4258ad803585d82a002a45d53a
+                            
+                    
+Instance: bundlepackageleaflet-pt-5567fe4258ad803585d82a002a45d53a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for arikayce Package Leaflet for language pt"
+Description: "ePI document Bundle for arikayce Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5567fe4258ad803585d82a002a45d53a"
+* entry[0].resource = composition-pt-5567fe4258ad803585d82a002a45d53a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5567fe4258ad803585d82a002a45d53a"
@@ -813,6 +1128,18 @@ RuleSet: 5567fe4258ad803585d82a002a45d53aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5567fe4258ad803585d82a002a45d53a) // arikayce pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

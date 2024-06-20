@@ -1079,6 +1079,423 @@ hjemmeside http://www.ema.europa.eu/. </p>         </div>"""
 
 
 
+Instance: composition-pt-68233cef8a2150549da332e078e2cbf5
+InstanceOf: CompositionUvEpi
+Title: "Composition for sunitinib Package Leaflet"
+Description:  "Composition for sunitinib Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp68233cef8a2150549da332e078e2cbf5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - sunitinib"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Sunitinib Accord e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Sunitinib Accord </li>
+<li>Como tomar Sunitinib Accord </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Sunitinib Accord </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é sunitinib e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é sunitinib e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sunitinib Accord contém a substância ativa sunitinib, que é um inibidor da proteína cinase. É utilizado 
+no tratamento do cancro, para prevenir a atividade de um grupo especial de proteínas que se sabe 
+estarem envolvidas no crescimento e difusão das células cancerígenas. </p>
+<p>Sunitinib Accord é utilizado no tratamento de adultos com os seguintes tipos de cancro: 
+- Tumor do estroma gastrointestinal (GIST), um tipo de cancro do estômago e intestino, em que 
+o imatinib (outro medicamento anticancerígeno) já não tem efeito, ou se não puder tomar imatinib. 
+- Carcinoma de células renais metastático (MRCC), um tipo de cancro do rim que se espalhou 
+para outras partes do corpo. 
+- Tumores neuroendócrinos pancreáticos (pNET) (tumores das células produtoras de hormonas 
+no pâncreas) que progrediram ou que não podem ser removidos por cirurgia. </p>
+<p>Contacte o seu médico se tiver alguma questão relacionada com o modo de ação de Sunitinib Accord ou 
+com a razão deste medicamento lhe ter sido prescrito. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar sunitinib"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar sunitinib"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Sunitinib Accord 
+- se tem alergia ao sunitinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico antes de tomar Sunitinib Accord: </p>
+<ul>
+<li>
+<p>Se tem a tensão arterial elevada. Sunitinib Accord pode aumentar a pressão sanguínea. O seu 
+médico poderá verificar a sua tensão arterial durante o tratamento com Sunitinib Accord, e poderá 
+ter que ser tratado com medicamentos para reduzir a tensão arterial, caso seja necessário. </p>
+</li>
+<li>
+<p>Se tem ou teve doenças do sangue, problemas de hemorragias ou nódoas negras. O 
+tratamento com Sunitinib Accord pode levar a um aumento do risco de hemorragia ou levar a 
+alterações no número de certas células do sangue, que podem levar a anemia ou afetar a 
+capacidade do seu sangue coagular. Se está a tomar varfarina ou acenocumarol, medicamentos 
+que tornam o sangue mais fino para prevenir a formação de coágulos sanguíneos, pode haver um 
+maior risco de hemorragias. Informe o seu médico se tiver alguma hemorragia durante o 
+tratamento com Sunitinib Accord. </p>
+</li>
+<li>
+<p>Se tem problemas de coração. Sunitinib Accord pode causar problemas de coração. Informe o 
+seu médico se se sentir muito cansado, tiver falta de ar, ou se tiver pés e tornozelos inchados. </p>
+</li>
+<li>
+<p>Se tiver alterações irregulares do ritmo do coração. Sunitinib Accord pode causar 
+irregularidades no ritmo do seu coração. O seu médico pode obter eletrocardiogramas para avaliar 
+estes problemas durante o seu tratamento com Sunitinib Accord. Informe o seu médico se sentir 
+tonturas, sensação de desmaio, ou tiver batimentos do coração irregulares enquanto tomar 
+Sunitinib Accord. </p>
+</li>
+<li>
+<p>Se teve um problema recente com coágulos sanguíneos nas suas veias e/ou artérias (tipos de 
+vasos sanguíneos), incluindo acidente vascular cerebral, ataque cardíaco, embolia ou 
+trombose. Fale com o seu médico imediatamente se tiver sintomas como pressão ou dor no peito, 
+dor nos braços, costas, pescoço ou maxilar, falta de ar, dormência ou fraqueza em 1 dos lados do 
+corpo, dificuldade em falar, dores de cabeça, ou tonturas durante o tratamento com Sunitinib 
+Accord. </p>
+</li>
+<li>
+<p>Se tiver ou tiver tido um aneurisma (dilatação ou enfraquecimento da parede de um vaso 
+sanguíneo) ou uma rotura na parede de um vaso sanguíneo. </p>
+</li>
+<li>
+<p>Se tem ou teve lesões nos vasos sanguíneos mais pequenos, conhecidos como 
+microangiopatia trombótica (TMA). Informe o seu médico se desenvolver febre, fadiga, 
+cansaço, nódoas negras, hemorragias, inchaços, confusão, perda de visão e convulsões. </p>
+</li>
+<li>
+<p>Se tiver problemas da glândula tiroideia.  Sunitinib Accord pode causar problemas na glândula 
+tiroideia. Informe o seu médico se se cansar com mais facilidade, se se sentir com mais frio do 
+que as outras pessoas, ou se a sua voz se tornar mais fraca enquanto tomar Sunitinib Accord. A 
+função da sua tiroide deve ser verificada antes de tomar Sunitinib Accord, e regularmente durante 
+a sua toma. Se a sua glândula tiroideia não produzir hormonas da tiroide suficientes, poderá ser 
+tratado com um substituto da hormona da tiroide. </p>
+</li>
+<li>
+<p>Se tem ou teve perturbações pancreáticas ou da vesícula biliar. Informe o seu médico se 
+desenvolver algum dos seguintes sinais e sintomas: dor na área do estômago (abdómen superior), 
+náuseas, vómitos e febre. Estes podem ser causados por inflamação do pâncreas ou da vesícula 
+biliar. </p>
+</li>
+<li>
+<p>Se tem ou teve problemas no fígado. Informe o seu médico se sentir algum dos seguintes sinais 
+e sintomas de problemas no fígado durante o tratamento com Sunitinib Accord: comichão, olhos 
+ou pele amarelados, urina escura e dor ou desconforto na zona superior direita do estômago. O seu 
+médico deverá fazer análises ao sangue para verificar a função do seu fígado, antes e durante o 
+tratamento com Sunitinib Accord, e como indicado clinicamente. </p>
+</li>
+</ul>
+<p>Se tem ou teve problemas de rins. O seu médico irá monitorizar a função do seu rim. 
+- Se vai fazer uma cirurgia ou se fez uma cirurgia recentemente. Sunitinib Accord pode afetar o 
+modo como as suas feridas cicatrizam. Geralmente, se vai fazer uma operação, o tratamento com </p>
+<p>Sunitinib Accord é interrompido. O seu médico irá decidir quando deve iniciar Sunitinib Accord 
+novamente. </p>
+<ul>
+<li>Poderá ser aconselhado a fazer uma revisão dentária antes do início do tratamento com 
+Sunitinib Accord. </li>
+<li>Se tem ou teve dor na boca, dentes e /ou maxilar, inchaço ou feridas dentro da boca, dormência 
+ou uma sensação de peso no maxilar, ou um dente a abanar, informe o seu médico ou dentista 
+imediatamente. </li>
+<li>
+<p>Se necessita de se submeter a um tratamento dentário invasivo ou cirurgia dentária, informe o 
+seu dentista que está a ser tratado com Sunitinib Accord, em particular se também estiver a 
+receber, ou tiver recebido, bifosfonatos intravenosos. Os bifosfonatos são medicamentos 
+utilizados para prevenir complicações nos ossos, que podem ter sido prescritos para outra 
+condição médica. </p>
+</li>
+<li>
+<p>Se tem ou teve afeções dos tecidos cutâneos e subcutâneos. Durante o tratamento com este 
+medicamento pode ocorrer piodermite gangrenosa (ulceração dolorosa da pele) ou fasceíte 
+necrosante (uma infeção da pele/tecidos moles que se espalha rapidamente e pode colocar a vida 
+em perigo). Contacte o seu médico imediatamente se surgirem sintomas de infeção à volta de uma 
+lesão da pele, incluindo febre, dor, vermelhidão, inchaço ou se sair pus ou sangue. Este efeito é, 
+geralmente, reversível após descontinuação do sunitinib. Foram notificados casos de erupções 
+graves na pele (síndrome de Stevens-Johnson, necrólise epidérmica tóxica, eritema multiforme) 
+com a utilização de sunitinib, que aparecem inicialmente no tronco como manchas avermelhadas 
+semelhantes a alvos ou manchas circulares muitas vezes com bolhas no centro. A erupção pode 
+progredir para bolhas generalizadas ou descamação da pele, e pode colocar a vida em perigo. Se 
+tiver uma erupção ou tiver estes sintomas na pele, procure assistência médica imediata. </p>
+</li>
+<li>
+<p>Se tem ou teve convulsões. Informe o seu médico, assim que possível, se tem pressão sanguínea 
+elevada, dores de cabeça, ou perda de visão. </p>
+</li>
+<li>
+<p>Se tem diabetes. Os níveis de açúcar no sangue nos doentes diabéticos devem ser monitorizados 
+regularmente para avaliar se a dosagem do medicamento antidiabético necessita ser ajustada de 
+forma a minimizar o risco de níveis baixos de açúcar no sangue. Informe o seu médico logo que 
+possível se tiver quaisquer sinais e sintomas de níveis baixos de açúcar no sangue (fadiga, 
+palpitações, transpiração, fome e perda de consciência). </p>
+</li>
+</ul>
+<p>Crianças e adolescentes </p>
+<p>Sunitinib Accord não está recomendado para pessoas com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Sunitinib Accord </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos, incluindo medicamentos obtidos sem receita médica. </p>
+<p>Alguns medicamentos podem afetar os níveis de Sunitinib Accord no seu organismo. Deve informar o 
+seu médico se estiver a tomar medicamentos que contenham as seguintes substâncias ativas: 
+- cetoconazol, itraconazol - utilizados para tratar infeções fúngicas 
+- eritromicina, claritromicina, rifampicina - usados para tratar infeções 
+- ritonavir - utilizado para tratar o VIH 
+- dexametasona - um corticosteroide utilizado em várias patologias (tais como doenças 
+alérgicas/respiratórias ou doenças da pele) 
+- fenitoína, carbamazepina, fenobarbital - usado para tratar a epilepsia e outras condições 
+neurológicas 
+- preparações à base de plantas contendo hipericão (Hypericum perforatum) - utilizadas no 
+tratamento da depressão e ansiedade 
+Sunitinib Accord com alimentos e bebidas </p>
+<p>Deverá evitar beber sumo de toranja durante o tratamento com Sunitinib Accord. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico ou 
+farmacêutico antes de tomar este medicamento. </p>
+<p>Se puder engravidar, deverá utilizar um método contracetivo fiável durante o tratamento com Sunitinib 
+Accord. </p>
+<p>Informe o seu médico se estiver a amamentar. Não deve amamentar durante o período de tratamento 
+com Sunitinib Accord. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Tome especial cuidado na condução ou utilização de máquinas se sentir tonturas ou se se sentir 
+invulgarmente cansado. </p>
+<p>Sunitinib Accord contém sódio </p>
+<p>Este medicamento contém menos de 1 mmol (23 mg) de sódio (croscarmelose sódica) por cápsula, ou 
+seja, é praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar sunitinib"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar sunitinib"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>O seu médico irá prescrever-lhe a dose mais indicada para si, dependendo do tipo de cancro a ser 
+tratado. Se está a receber tratamento para: 
+− 
+GIST ou MRCC: a dose habitual é de 50 mg uma vez por dia, durante 28 dias (4 semanas), 
+seguido de 14 dias (2 semanas) de repouso (sem medicação), administrado em ciclos de 
+6 semanas 
+− 
+pNET: a dose habitual é 37,5 mg uma vez por dia sem um período de repouso. </p>
+<p>O seu médico determinará a dose apropriada que deverá tomar, bem como se, e quando, deverá parar o 
+tratamento com Sunitinib Accord. </p>
+<p>Sunitinib Accord pode ser tomado com ou sem alimentos. </p>
+<p>Se tomar mais Sunitinib Accord do que deveria </p>
+<p>Informe imediatamente o seu médico se tomou acidentalmente demasiadas cápsulas. Poderá necessitar 
+de cuidados médicos. </p>
+<p>Caso se tenha esquecido de tomar Sunitinib Accord </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. 
+Deve contactar o seu médico imediatamente se tiver algum dos seguintes efeitos indesejáveis graves </p>
+<p>(ver também a secção </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar sunitinib"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar sunitinib"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Problemas de coração. Informe o seu médico se se sentir muito cansado, tiver falta de ar, ou se tiver 
+pés e tornozelos inchados. Estes podem ser sintomas de problemas de coração que podem incluir 
+insuficiência do coração e problemas no músculo do coração (cardiomiopatia). </p>
+<p>Problemas em respirar ou dos pulmões. Informe o seu médico se desenvolver tosse, dor no peito, 
+aparecimento súbito de falta de ar, ou se tossir sangue. Estes podem ser sintomas de uma situação 
+chamada embolia pulmonar que ocorre quando coágulos sanguíneos são transportados para os seus 
+pulmões. </p>
+<p>Perturbações dos rins. Informe o seu médico se tiver alterações na frequência em urinar, ou se não 
+urinar, que podem ser sintomas de insuficiência renal. </p>
+<p>Hemorragia. Informe o seu médico se tiver algum destes sintomas ou um problema hemorrágico grave 
+durante o tratamento com Sunitinib Accord: estômago (abdómen) inchado e doloroso; vomitar sangue; 
+fezes escuras e pegajosas; urina com sangue; dores de cabeça ou alteração do seu estado mental; tosse 
+com sangue ou sangue expelido com a expetoração dos pulmões ou das vias respiratórias. </p>
+<p>Destruição do tumor que leva a um orifício no intestino. Informe o seu médico se tiver dor 
+abdominal grave, febre, náuseas, vómitos, sangue nas fezes, ou alteração dos seus hábitos intestinais. </p>
+<p>Outros efeitos indesejáveis com Sunitinib Accord podem incluir: </p>
+<p>Muito frequentes: podem afetar mais de 1 em cada 10 pessoas 
+- Redução do número de plaquetas, glóbulos vermelhos e/ou glóbulos brancos (por exemplo, 
+neutrófilos). 
+- Falta de ar. 
+- Tensão arterial elevada. 
+- Cansaço extremo, perda de força. 
+- Inchaço devido a fluidos debaixo da pele e à volta dos olhos, erupção cutânea alérgica 
+profunda. 
+- Dor/irritação na boca (da cavidade oral), boca (cavidade oral) 
+sensibilizada/inflamada/desidratada, alterações do paladar, problemas no estômago, náuseas, vómitos, 
+diarreia, prisão de ventre, dor/inchaço abdominal, perda/diminuição do apetite. 
+- Atividade da glândula tiroideia diminuída (hipotiroidismo). 
+- Tonturas. 
+- Dores de cabeça. 
+- Sangramento nasal. 
+- Dor de costas, dor articular. 
+- Dor nos braços e pernas. 
+- Pele amarela/descoloração da pele, pigmentação excessiva da pele, alterações na coloração do 
+cabelo, erupção da pele nas palmas das mãos e nas plantas dos pés, erupção, pele seca. 
+- Tosse. 
+- Febre. 
+- Dificuldade em adormecer. </p>
+<p>Frequentes: podem afetar até 1 em cada 10 pessoas 
+- Coágulos de sangue nos vasos sanguíneos. 
+- Falta de fluxo sanguíneo para o músculo do coração, devido a obstrução ou constrição das artérias 
+coronárias. 
+- Dor no peito. 
+- Diminuição da quantidade de sangue bombeada pelo coração. 
+- Retenção de líquido, incluindo em redor dos pulmões. 
+- Infeções. 
+- Complicação de infeção grave (a infeção está presente na corrente sanguínea) que pode levar a 
+lesão dos tecidos, falência de órgãos e morte.  </p>
+<ul>
+<li>Níveis de açúcar no sangue diminuídos (ver secção 2). </li>
+<li>Perda de proteína na urina resultando por vezes em inchaço. </li>
+<li>Sintomas semelhantes aos da gripe. </li>
+<li>Testes sanguíneos anómalos incluindo das enzimas pancreáticas e do fígado. </li>
+<li>Nível elevado de ácido úrico no sangue. </li>
+<li>Hemorroidas, dor no reto, sangramento das gengivas, dificuldade em engolir, ou incapacidade de 
+engolir. </li>
+<li>Sensação de ardor ou dor na língua, inflamação no revestimento do aparelho digestivo, excesso de 
+gás no estômago ou intestino. </li>
+<li>Perda de peso. </li>
+<li>Dor músculo-esquelética (dor nos músculos e ossos), fraqueza muscular, fadiga muscular, dor 
+muscular, espasmos musculares. </li>
+<li>Secura nasal, congestão nasal. </li>
+<li>Fluxo lacrimal excessivo. </li>
+<li>Alteração da sensação da pele, comichão, descamação e inflamação da pele, bolhas, acne, 
+descoloração das unhas, perda de cabelo. </li>
+<li>Sensações alteradas nas extremidades. </li>
+<li>Alteração, aumento ou diminuição da sensibilidade, particularmente ao toque. </li>
+<li>Azia. </li>
+<li>Desidratação. </li>
+<li>Afrontamentos. </li>
+<li>Cor da urina anómala. </li>
+<li>Depressão. </li>
+<li>Calafrios. </li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em cada 100 pessoas 
+- Infeções, com risco de vida, dos tecidos moles, incluindo da região ano-genital (ver secção2). 
+- Acidente vascular cerebral. 
+- Ataque cardíaco causado por interrupção ou diminuição do fluxo sanguíneo para o coração. 
+- Alterações na atividade elétrica do coração ou ritmo do coração irregular. 
+- Líquido à volta do coração (derrame pericárdico). 
+- Insuficiência do fígado. 
+- Dor no estômago (abdómen) causada por inflamação do pâncreas. 
+- Destruição do tumor, que origina um orifício no intestino (perfuração). 
+- Inflamação (inchaço e rubor) da vesícula biliar, com ou sem cálculos biliares associados. 
+- Formação anormal de uma passagem, tipo tubo, de uma cavidade normal do corpo para outra 
+cavidade do corpo ou pele. 
+- Dor na boca, dentes e/ou maxilares, inchaço ou feridas no interior da boca, dormência ou 
+sensação de peso no maxilar, ou um dente a abanar. Estes podem ser sinais e sintomas de danos 
+nos ossos do maxilar (osteonecrose), ver secção 2. - Produção excessiva de hormonas da tiroide, aumentando a quantidade de energia que o corpo 
+utiliza em repouso. 
+- Problemas com cicatrização de feridas após cirurgia. 
+- Níveis aumentados da enzima dos músculos (creatina fosfoquinase) no sangue. 
+- Reação excessiva a um alergeno, incluindo febre dos fenos, erupção da pele, comichão na pele, 
+urticária, inchaço de partes do corpo e problemas em respirar. 
+- Inflamação do cólon (colite, colite isquémica). </p>
+<p>Raros podem afetar até 1 em cada 1.000 pessoas 
+- Reação grave na pele e/ou membranas mucosas (síndrome de Stevens-Johnson, necrólise 
+epidérmica tóxica, eritema multiforme). 
+- Síndrome de lise tumoral (SLT) - SLT consiste num grupo de complicações metabólicas que 
+podem ocorrer durante o tratamento do cancro. Estas complicações são causadas por produtos de 
+degradação de células cancerígenas mortas e podem incluir: náuseas, falta de ar, batimento do 
+coração irregular, cãibras musculares, convulsões, turvamento da urina e cansaço associado a 
+resultados dos testes laboratoriais anómalos (níveis altos de potássio, ácido úrico e fósforo, e 
+níveis baixos de cálcio, no sangue) que podem levar a alterações da função do rim e insuficiência </p>
+<p>renal aguda. 
+- Lesão anómala do músculo, que pode originar problemas nos rins (rabdomiólise). 
+- Alterações anómalas no cérebro que podem causar diversos sintomas incluindo dores de cabeça, 
+confusão, convulsões e perda de visão (síndrome de leucoencefalopatia posterior reversível). 
+- Ulceração dolorosa da pele (piodermite gangrenosa). 
+- Inflamação do fígado (hepatite). 
+- Inflamação da glândula tiroideia. 
+- Lesões nos vasos sanguíneos mais pequenos, conhecidos como Microangiopatia Trombótica 
+(TMA). </p>
+<p>Desconhecido (não pode ser calculado a partir dos dados disponíveis): 
+- Uma dilatação ou enfraquecimento da parede de um vaso sanguíneo ou uma rotura da parede de 
+um vaso sanguíneo (aneurismas e dissecções das artérias). </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Manter este medicamento fora da vista e do alcance das crianças. </li>
+<li>Não utilize este medicamento após o prazo de validade impresso na cartonagem, no frasco e no 
+blister, após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </li>
+<li>O medicamento não necessita de quaisquer precauções especiais de conservação. </li>
+<li>Não utilize este medicamento se verificar que a embalagem está danificada ou apresenta sinais de 
+violação. </li>
+</ul>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+
+
+
 
 
                     
@@ -1120,6 +1537,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-68233cef8a2150549da332e078e2cbf5"
 * entry[0].resource = composition-da-68233cef8a2150549da332e078e2cbf5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp68233cef8a2150549da332e078e2cbf5"
+* entry[=].resource = mp68233cef8a2150549da332e078e2cbf5
+                            
+                    
+Instance: bundlepackageleaflet-pt-68233cef8a2150549da332e078e2cbf5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sunitinib Package Leaflet for language pt"
+Description: "ePI document Bundle for sunitinib Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-68233cef8a2150549da332e078e2cbf5"
+* entry[0].resource = composition-pt-68233cef8a2150549da332e078e2cbf5
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp68233cef8a2150549da332e078e2cbf5"
@@ -1221,6 +1660,18 @@ RuleSet: 68233cef8a2150549da332e078e2cbf5ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-68233cef8a2150549da332e078e2cbf5) // sunitinib pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

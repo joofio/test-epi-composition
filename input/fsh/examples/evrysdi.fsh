@@ -1239,6 +1239,523 @@ køleskab (2 til 8 °C).  </p>         </div>"""
 
 
 
+Instance: composition-pt-d74c016d307ba635374b9ac3d63d2f85
+InstanceOf: CompositionUvEpi
+Title: "Composition for evrysdi Package Leaflet"
+Description:  "Composition for evrysdi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd74c016d307ba635374b9ac3d63d2f85)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - evrysdi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Evrysdi e para que é utilizado  </li>
+<li>O que precisa de saber antes de você ou o seu filho tomar Evrysdi  </li>
+<li>Como tomar Evrysdi  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Evrysdi  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é evrysdi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é evrysdi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Evrysdi </p>
+<p>Evrysdi é um medicamento que contém a substância ativa risdiplam. </p>
+<p>Para que é utilizado Evrysdi </p>
+<p>Evrysdi é utilizado para o tratamento da atrofia muscular espinhal (AME), uma doença genética.  </p>
+<p>O que é a atrofia muscular espinhal </p>
+<p>A AME é causada por um défice de uma proteína chamada proteína de sobrevivência do neurónio 
+motor (SMN) no organismo. Níveis insuficientes da proteína SMN podem levar à perda dos neurónios 
+motores, que são as células nervosas que controlam os músculos. Isto tem como consequência 
+fraqueza e desgaste musculares, podendo comprometer os movimentos diários, como controlar a 
+cabeça e o pescoço, sentar, gatinhar e andar. Os músculos usados para respirar e engolir podem 
+também ficar mais fracos. </p>
+<p>Como funciona Evrysdi </p>
+<p>Risdiplam, a substância ativa de Evrysdi, ajuda o organismo a produzir mais proteína SMN, levando a 
+uma redução na perda dos neurónios motores, o que pode melhorar a atividade muscular em pessoas 
+com AME. </p>
+<p>Nos bebés com AME do Tipo 1 tratados nos ensaios clínicos durante 1 ano, Evrysdi contribuiu para:  </p>
+<ul>
+<li>
+<p>aumentar o tempo de vida e reduzir a necessidade de um ventilador para ajudar na respiração, 
+em comparação com os bebés com AME não tratados (seria expectável que apenas 25% dos 
+bebés não tratados sobrevivessem sem ventilação permanente para além dos 14 meses de idade, 
+em comparação com 85% dos doentes após 1 ano de tratamento com Evrysdi), </p>
+</li>
+<li>
+<p>preservar a capacidade de se alimentarem pela boca em 83% dos doentes. </p>
+</li>
+</ul>
+<p>Em crianças (bebés a adolescentes) e adultos com AME do Tipo 2 e 3, Evrysdi pode manter ou 
+melhorar o controlo muscular. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar evrysdi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar evrysdi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Evrysdi </p>
+<ul>
+<li>se você ou o seu filho tem alergia ao risdiplam ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </li>
+</ul>
+<p>Se não tem a certeza, fale com o seu médico ou farmacêutico antes de você ou o seu filho tomar 
+Evrysdi. </p>
+<p>Advertências e precauções  </p>
+<p>Fale com o seu médico, enfermeiro ou farmacêutico antes de você ou o seu filho tomar Evrysdi. </p>
+<p>O tratamento com Evrysdi pode prejudicar o seu bebé antes de nascer ou pode afetar a fertilidade 
+masculina. Consulte “Gravidez, contraceção, amamentação e fertilidade masculina" para obter 
+mais informações. </p>
+<p>Outros medicamentos e Evrysdi </p>
+<p>Informe o seu médico ou farmacêutico se você ou o seu filho estiver a tomar, tiver tomado 
+recentemente, ou se vier a tomar outros medicamentos. </p>
+<p>Em particular, informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar ou tiver tomado, 
+no passado, algum dos seguintes medicamentos: </p>
+<ul>
+<li>
+<p>metformina - um medicamento usado para tratar a diabetes tipo II </p>
+</li>
+<li>
+<p>medicamentos para o tratamento da AME </p>
+</li>
+</ul>
+<p>Gravidez, contraceção, amamentação e fertilidade masculina </p>
+<p>Gravidez </p>
+<ul>
+<li>
+<p>Se está grávida, não tome Evrysdi. Administrar este medicamento durante a gravidez pode 
+prejudicar o bebé antes de nascer. </p>
+</li>
+<li>
+<p>Antes de iniciar o tratamento com Evrysdi, o seu médico deve pedir-lhe um teste de gravidez, 
+uma vez que Evrysdi pode prejudicar o bebé antes de nascer. </p>
+</li>
+<li>
+<p>Se engravidar durante o tratamento com Evrysdi, informe o seu médico imediatamente.  </p>
+</li>
+</ul>
+<p>Você e o seu médico decidirão o que é melhor para si e para o seu bebé. </p>
+<p>Contraceção </p>
+<p>Para mulheres </p>
+<p>Não engravide: </p>
+<ul>
+<li>
+<p>durante o tratamento com Evrysdi e </p>
+</li>
+<li>
+<p>durante um mês após parar de tomar Evrysdi. </p>
+</li>
+</ul>
+<p>Fale com o seu médico sobre os métodos de contraceção fiáveis que devem ser utilizados, durante o 
+tratamento e no mês seguinte à paragem do tratamento. </p>
+<p>Para homens </p>
+<p>Se a sua parceira tiver possibilidade de engravidar, deve evitar a gravidez. Use métodos de 
+contraceção fiáveis (por exemplo, preservativo): </p>
+<ul>
+<li>
+<p>durante o tratamento com Evrysdi e </p>
+</li>
+<li>
+<p>durante 4 meses após parar de tomar Evrysdi. </p>
+</li>
+</ul>
+<p>Fale com o seu prestador de cuidados de saúde sobre métodos de contraceção fiáveis que devem ser 
+utilizados. </p>
+<p>Amamentação  </p>
+<p>Não amamente enquanto estiver a tomar este medicamento. Evrysdi pode passar para o leite materno e 
+pode, desta forma, prejudicar o seu bebé. </p>
+<p>Aconselhe-se com o seu médico sobre se deve parar de amamentar ou se deve parar de tomar Evrysdi. </p>
+<p>Fertilidade masculina </p>
+<p>Com base nos estudos em animais, Evrysdi pode reduzir a fertilidade masculina, durante o tratamento 
+e até 4 meses após a última dose. Se está a pensar ter filhos, aconselhe-se com o seu médico. 
+Não doe esperma durante o tratamento, nem nos 4 meses seguintes à última dose de Evrysdi. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>É improvável que Evrysdi afete a sua capacidade de conduzir e utilizar máquinas. </p>
+<p>Evrysdi contém sódio </p>
+<p>Evrysdi contém uma pequena quantidade de sódio (sal) - a dose diária mais elevada de 5 mg (6,6 ml 
+de 0,75 mg/ml de solução oral) contém menos de 1 mmol (23 mg) de sódio. Isto significa que é 
+essencialmente 'isento de sódio' e pode ser utilizado por pessoas com uma dieta restritiva em sódio. </p>
+<p>Evrysdi contém 0,375 mg de benzoato de sódio por ml. O benzoato de sódio pode aumentar a icterícia 
+(amarelecimento da pele e dos olhos) em recém-nascidos (até 4 semanas de idade). </p>
+<p>Evrysdi contém isomalte </p>
+<p>Evrysdi contém 2,97 mg de isomalte por ml. Se foi informado pelo seu médico que tem (ou o seu filho 
+tem) intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar evrysdi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar evrysdi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. Deve receber Evrysdi na forma de um líquido num frasco. 
+Não utilize o medicamento se o conteúdo do frasco for um pó e contacte o seu farmacêutico. </p>
+<p>Deve também ler atentamente e seguir o folheto com as “Instruções de utilização" em anexo, sobre 
+como utilizar e administrar Evrysdi. </p>
+<p>Que quantidade de Evrysdi tomar </p>
+<ul>
+<li>
+<p>Adolescentes e adultos: A dose diária de Evrysdi é de 5 mg (6,6 ml da solução oral). </p>
+</li>
+<li>
+<p>Bebés e crianças: O seu médico determinará a dose adequada de Evrysdi com base na idade e 
+no peso da criança. </p>
+</li>
+</ul>
+<p>Você ou o seu filho deve tomar a dose diária de acordo com as instruções do seu médico. Não 
+altere a dose sem falar com o seu médico.  </p>
+<p>Quando e como tomar Evrysdi </p>
+<ul>
+<li>
+<p>Evrysdi é um líquido, preparado pelo farmacêutico, e é referido como uma 'solução' ou 
+'medicamento' neste folheto.  </p>
+</li>
+<li>
+<p>Tome Evrysdi uma vez por dia, após uma refeição, aproximadamente à mesma hora todos os 
+dias. Isto ajudará a lembrar-se de tomar o medicamento. </p>
+</li>
+<li>
+<p>Beba água após tomar o medicamento. Não misture o medicamento com leite ou leite em pó. </p>
+</li>
+<li>
+<p>Tome ou administre Evrysdi imediatamente após ser retirado para a seringa de uso oral. Se não 
+for administrado nos 5 minutos seguintes, elimine o medicamento na seringa de uso oral e 
+prepare uma nova dose. </p>
+</li>
+<li>
+<p>Se Evrysdi entrar em contacto com a sua pele ou a do seu filho, lave a área afetada com água e 
+sabão.  </p>
+</li>
+</ul>
+<p>Leia o folheto com as “Instruções de utilização" </p>
+<p>A embalagem contém um folheto com as “Instruções de utilização". Este folheto descreve como 
+retirar a sua dose com a seringa reutilizável para uso oral, fornecida. Você (ou o seu filho) pode 
+administrar o medicamento: </p>
+<ul>
+<li>
+<p>por via oral, ou </p>
+</li>
+<li>
+<p>através de uma sonda de gastrostomia, ou </p>
+</li>
+<li>
+<p>através de uma sonda nasogástrica. </p>
+</li>
+</ul>
+<p>Quanto tempo deve tomar Evrysdi  </p>
+<p>O seu médico dir-lhe-á durante quanto tempo você ou o seu filho deve tomar Evrysdi. Não interrompa 
+o tratamento com Evrysdi a menos que o seu médico lhe diga para o fazer. </p>
+<p>Se você ou o seu filho tomar mais Evrysdi do que deveria </p>
+<p>Se você ou o seu filho tomar mais Evrysdi do que deveria, fale com um médico ou vá ao hospital 
+imediatamente. Leve consigo a embalagem do medicamento e este folheto. </p>
+<p>Caso você ou o seu filho se tenha esquecido de tomar Evrysdi ou vomitar após uma dose </p>
+<ul>
+<li>
+<p>Se passaram até 6 horas após a hora a que normalmente você ou o seu filho toma Evrysdi, tome 
+a dose esquecida assim que se lembrar.  </p>
+</li>
+<li>
+<p>Se já passaram mais de 6 horas desde o momento em que normalmente você ou o seu filho toma 
+Evrysdi, não tome a dose esquecida e tome a próxima dose à hora habitual. Não tome uma dose 
+a dobrar para compensar a dose que se esqueceu de tomar. </p>
+</li>
+<li>
+<p>Se você ou o seu filho vomitar depois de tomar uma dose de Evrysdi, não tome uma dose extra. 
+Em vez disso, tome a dose seguinte à hora habitual, no dia seguinte. </p>
+</li>
+</ul>
+<p>Se derramar Evrysdi </p>
+<p>Se derramar Evrysdi, seque a área com uma toalha de papel seca e de seguida limpe com água e sabão. 
+Deite a toalha de papel no lixo e lave bem as mãos com água e sabão. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Muito frequentes: podem afetar mais de 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+</ul>
+<p>Frequentes: podem afetar até 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>náuseas </p>
+</li>
+<li>
+<p>feridas na boca </p>
+</li>
+<li>
+<p>infeção na bexiga </p>
+</li>
+<li>
+<p>dor nas articulações </p>
+</li>
+</ul>
+<p>Desde o início da comercialização de Evrysdi foi notificado o seguinte efeito indesejável, mas é 
+desconhecida a frequência com que ocorre: </p>
+<ul>
+<li>inflamação dos vasos sanguíneos pequenos afetando sobretudo a pele (vasculite cutânea). </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se você ou o seu filho tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não 
+indicados neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá 
+comunicar efeitos indesejáveis diretamente, através do sistema nacional de notificação mencionado no 
+Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
+segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar evrysdi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar evrysdi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Manter o medicamento fora da vista e do alcance das crianças. </p>
+</li>
+<li>
+<p>Conservar a solução oral no frigorífico (2 a 8˚C). Se for necessário, você ou o seu cuidador pode 
+conservar a solução oral à temperatura ambiente (inferior a 40˚C) durante um período total não 
+superior a 120 horas (5 dias). Voltar a colocar a solução oral no frigorífico quando não for 
+necessário manter o frasco à temperatura ambiente por mais tempo. </p>
+</li>
+<li>
+<p>Controlar o tempo total fora do frigorífico (inferior a 40ºC). Como mencionado acima, a soma 
+dos intervalos de tempo fora do frigorífico não pode exceder as 120 horas. </p>
+</li>
+<li>
+<p>A solução oral é estável durante 64 dias após a preparação pelo farmacêutico, quando 
+conservada no frigorífico a 2 a 8˚C. O farmacêutico irá escrever a data de validade no rótulo do 
+frasco e na embalagem exterior a seguir a “Validade". Não utilize a solução depois da data 
+indicada em “Validade" ou rejeite o medicamento se o frasco tiver sido conservado à 
+temperatura ambiente (inferior a 40˚C) durante um período total superior a 120 horas (5 dias). </p>
+</li>
+<li>
+<p>Rejeitar o medicamento se o frasco tiver sido conservado, por qualquer período de tempo, a 
+temperatura superior a 40˚C. </p>
+</li>
+<li>
+<p>Manter o medicamento no frasco de origem para proteger da luz. </p>
+</li>
+<li>
+<p>Manter o frasco do medicamento na posição vertical com a tampa bem fechada.  </p>
+</li>
+<li>
+<p>Após retirar Evrysdi para a seringa oral, utilizar imediatamente. Não conservar a solução de 
+Evrysdi na seringa. </p>
+</li>
+</ul>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Evrysdi </p>
+<ul>
+<li>
+<p>A substância ativa na solução oral é o risdiplam. </p>
+</li>
+<li>
+<p>Cada ml da solução oral contém 0,75 mg de risdiplam. </p>
+</li>
+<li>
+<p>Os outros ingredientes são manitol (E 421), isomalte (E 953), aroma de morango, ácido tartárico 
+(E 334), benzoato de sódio (E 211), macrogol/polietilenoglicol 6000, sucralose, ácido ascórbico 
+(E 300), edetato dissódico di-hidratado (ver Secção 2 “Evrysdi contém sódio" e “Evrysdi 
+contém isomalte").  </p>
+</li>
+</ul>
+<p>Qual o aspeto de Evrysdi e o conteúdo da embalagem </p>
+<ul>
+<li>
+<p>Pó para solução oral, que é dispensado como uma solução oral preparada pelo farmacêutico. </p>
+</li>
+<li>
+<p>A solução oral é de cor amarelo esverdeado a amarelo, com sabor a morango. O volume da 
+solução é de 80 ml. </p>
+</li>
+<li>
+<p>Cada embalagem contém 1 frasco, 1 adaptador press-in para o frasco, duas seringas de 1 ml, 
+duas seringas de 6 ml e uma seringa de 12 ml de cor âmbar, reutilizáveis para administração oral 
+e com marcações, para ajudar a retirar a dose correta. </p>
+</li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado  </p>
+<p>Roche Registration GmbH 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha  </p>
+<p>Fabricante </p>
+<p>Roche Pharma AG 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha  </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien<br />
+N.V. Roche S.A.<br />
+Tél/Tel: +32 (0) 2 525 82 11<br />
+Lietuva<br />
+UAB “Roche Lietuva"<br />
+Tel: +370 5 2546799  </p>
+<p>България<br />
+Рош България ЕООД<br />
+Тел: +359 2 474 5444  </p>
+<p>Luxembourg/Luxemburg<br />
+(Voir/siehe Belgique/Belgien)  </p>
+<p>Česká republika<br />
+Roche s. r. o.<br />
+Tel: +420 - 2 20382111  </p>
+<p>Magyarország<br />
+Roche (Magyarország) Kft.<br />
+Tel: +36 1 279 4 
+Danmark<br />
+Roche Pharmaceuticals A/S<br />
+Tlf: +45 - 36 39 99 99  </p>
+<p>Malta<br />
+(see Ireland )  </p>
+<p>Deutschland<br />
+Roche Pharma AG<br />
+Tel: +49 (0) 7624 140  </p>
+<p>Nederland<br />
+Roche Nederland B.V.<br />
+Tel: +31 (0) 348 438050  </p>
+<p>Eesti<br />
+Roche Eesti OÜ<br />
+Tel: + 372 - 6 177 380  </p>
+<p>Norge<br />
+Roche Norge AS<br />
+Tlf: +47 - 22 78 90 00  </p>
+<p>Ελλάδα<br />
+Roche (Hellas) A.E.<br />
+Τηλ: +30 210 61 66 100  </p>
+<p>Österreich<br />
+Roche Austria GmbH<br />
+Tel: +43 (0) 1 27739  </p>
+<p>España<br />
+Roche Farma S.A.<br />
+Tel: +34 - 91 324 81 00  </p>
+<p>Polska<br />
+Roche Polska Sp.z o.o.<br />
+Tel: +48 - 22 345 18 88  </p>
+<p>France<br />
+Roche<br />
+Tél: +33 (0) 1 47 61 40 00  </p>
+<p>Portugal<br />
+Roche Farmacêutica Química, Lda<br />
+Tel: +351 - 21 425 70 00  </p>
+<p>Hrvatska<br />
+Roche d.o.o.<br />
+Tel: +385 1 4722 333  </p>
+<p>România<br />
+Roche România S.R.L.<br />
+Tel: +40 21 206 47 01  </p>
+<p>Ireland<br />
+Roche Products (Ireland) Ltd.<br />
+Tel: +353 (0) 1 469 0700  </p>
+<p>Slovenija<br />
+Roche farmacevtska družba d.o.o.<br />
+Tel: +386 - 1 360 26 00  </p>
+<p>Ísland<br />
+Roche Pharmaceuticals A/S<br />
+c/o Icepharma hf<br />
+Sími: +354 540 8  </p>
+<p>Slovenská republika<br />
+Roche Slovensko, s.r.o.<br />
+Tel: +421 - 2 52638201<br />
+Italia<br />
+Roche S.p.A.<br />
+Tel: +39 - 039 2471<br />
+Suomi/Finland<br />
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 500  </p>
+<p>Kύπρος<br />
+Γ.Α.Σταμάτης &amp; Σια Λτδ.<br />
+Τηλ: +357 - 22 76 62 76  </p>
+<p>Sverige<br />
+Roche AB<br />
+Tel: +46 (0) 8 726 1200  </p>
+<p>Latvija<br />
+Roche Latvija SIA<br />
+Tel: +371 - 6 7039831  </p>
+<p>United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd.<br />
+Tel: +44 (0) 1707 366000  </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1280,6 +1797,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d74c016d307ba635374b9ac3d63d2f85"
 * entry[0].resource = composition-da-d74c016d307ba635374b9ac3d63d2f85
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd74c016d307ba635374b9ac3d63d2f85"
+* entry[=].resource = mpd74c016d307ba635374b9ac3d63d2f85
+                            
+                    
+Instance: bundlepackageleaflet-pt-d74c016d307ba635374b9ac3d63d2f85
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for evrysdi Package Leaflet for language pt"
+Description: "ePI document Bundle for evrysdi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d74c016d307ba635374b9ac3d63d2f85"
+* entry[0].resource = composition-pt-d74c016d307ba635374b9ac3d63d2f85
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd74c016d307ba635374b9ac3d63d2f85"
@@ -1381,6 +1920,18 @@ RuleSet: d74c016d307ba635374b9ac3d63d2f85ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d74c016d307ba635374b9ac3d63d2f85) // evrysdi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

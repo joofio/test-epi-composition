@@ -1079,6 +1079,622 @@ ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegssed
 
 
 
+Instance: composition-pt-d21a665ebc1011132a02f9a335304090
+InstanceOf: CompositionUvEpi
+Title: "Composition for keppra Package Leaflet"
+Description:  "Composition for keppra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd21a665ebc1011132a02f9a335304090)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - keppra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Keppra e para que é utilizado 
+2. O que precisa de saber antes de tomar Keppra 
+3. Como tomar Keppra 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Keppra 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é keppra e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é keppra e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Levetiracetam é um medicamento antiepilético (um medicamento usado para tratar crises em 
+epilepsia). </p>
+<p>Keppra é usado: </p>
+<ul>
+<li>
+<p>isoladamente em adultos e adolescentes a partir dos 16 anos de idade com epilepsia 
+diagnosticada recentemente, para tratar uma determinada forma de epilepsia. A epilepsia é 
+uma doença na qual os doentes sofrem crises repetidas (convulsões). O levetiracetam é 
+utilizado para a forma epilética na qual as crises afetam inicialmente apenas um lado do 
+cérebro mas que podem posteriormente estender-se a áreas maiores em ambos os lados do 
+cérebro (crises parciais com ou sem generalização secundária). O levetiracetam foi prescrito 
+pelo seu médico para reduzir o número de crises. </p>
+</li>
+<li>
+<p>em doentes que estão já a tomar outro medicamento antiepilético (terapêutica adjuvante) para 
+tratar: 
+▪ 
+crises parciais, com ou sem generalização, em adultos, adolescentes, crianças e bebés com 
+mais de um mês de idade; 
+▪ 
+crises mioclónicas (contrações de curta duração semelhantes a choques, de um músculo ou 
+grupo de músculos) em adultos e adolescentes com idade superior a 12 anos com epilepsia 
+mioclónica juvenil; 
+▪ 
+crises tónico-clónicas generalizadas primárias (crises maiores, incluindo perda de 
+consciência) em adultos e adolescentes com mais de 12 anos de idade com epilepsia 
+idiopática generalizada (o tipo de epilepsia que se pensa ter uma causa genética). </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar keppra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar keppra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Keppra </p>
+<ul>
+<li>Se tem alergia ao levetiracetam, derivados da pirrolidona ou a qualquer outro componente deste 
+medicamento (indicados na secção 6).  </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico antes de tomar Keppra. </p>
+<ul>
+<li>
+<p>Se tiver doenças renais, siga as instruções do seu médico. Ele poderá decidir se a sua dose deve 
+ser ajustada. </p>
+</li>
+<li>
+<p>Se detetar no seu filho/a qualquer abrandamento no crescimento ou um desenvolvimento 
+inesperado da puberdade, contacte o seu médico. </p>
+</li>
+<li>
+<p>Um pequeno número de pessoas que iniciaram tratamento com antiepiléticos como o Keppra 
+teve pensamentos de autoagressão ou suicídio. Se tiver algum sintoma de depressão ou ideação 
+suicida, contacte de imediato o seu médico. </p>
+</li>
+<li>
+<p>Se tiver antecedentes, ou familiares com antecedentes, de ritmo cardíaco irregular (visível 
+através de um eletrocardiograma) ou se tiver uma doença e/ou estiver a fazer um tratamento que 
+o(a) torne propenso(a) a apresentar batimentos cardíacos irregulares ou desequilíbrios 
+eletrolíticos. </p>
+</li>
+</ul>
+<p>Informe o seu médico ou farmacêutico se qualquer dos seguintes efeitos indesejáveis se tornar grave 
+ou durar mais do que alguns dias: </p>
+<ul>
+<li>
+<p>Pensamentos anormais, sensação de irritabilidade ou reação mais agressiva do que o normal, ou 
+se você ou a sua família e amigos repararem em mudanças de humor ou comportamento 
+importantes. </p>
+</li>
+<li>
+<p>Agravamento da epilepsia: 
+Raramente, as suas convulsões podem piorar ou ocorrer com mais frequência, principalmente 
+durante o primeiro mês após o início do tratamento ou aumento da dose. 
+Numa forma muito rara de epilepsia de início precoce (epilepsia associada às mutações SCN8A) 
+que causa vários tipos de convulsões e perda de habilidades, pode notar que as convulsões 
+permanecem presentes ou que estão a agravar-se durante o seu tratamento. </p>
+</li>
+</ul>
+<p>Se apresentar algum destes novos sintomas enquanto estiver a tomar Keppra, consulte um médico logo 
+que possível. </p>
+<p>Crianças e adolescentes </p>
+<ul>
+<li>Keppra não está indicado isoladamente (monoterapia) em crianças e adolescentes com idade 
+inferior a 16 anos. </li>
+</ul>
+<p>Outros medicamentos e Keppra 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. </p>
+<p>Não tome macrogol (um medicamento utilizado como laxante) uma hora antes e uma hora depois de 
+tomar levetiracetam, uma vez que pode resultar na perda do seu efeito. </p>
+<p>Gravidez e amamentação 
+Se estiver grávida ou a amamentar, ou pensa estar grávida ou planeia engravidar, consulte o seu 
+médico antes de tomar este medicamento. O levetiracetam pode ser utilizado durante a gravidez, mas 
+apenas se o seu médico o considerar necessário após uma avaliação cuidadosa. 
+Não deve interromper o tratamento sem consultar o seu médico. 
+O risco do seu bebé nascer com problemas não pode ser excluído. 
+O aleitamento não é recomendado durante o tratamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Keppra pode reduzir a sua capacidade de conduzir ou utilizar quaisquer ferramentas ou máquinas, 
+dado que Keppra pode fazê-lo sentir-se sonolento. Isto ocorre com maior probabilidade no início do 
+tratamento ou após um aumento da dose. Não deve conduzir ou utilizar máquinas, até se estabelecer 
+que a sua capacidade para realizar essas atividades não está afetada. </p>
+<p>Keppra 750 mg contém Amarelo sunset FCF (E110). 
+O agente de coloração Amarelo sunset FCF (E110) pode provocar reações alérgicas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar keppra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar keppra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Tome o número de comprimidos de acordo com as instruções do seu médico. 
+Keppra deve ser tomado duas vezes por dia, uma vez de manhã e outra vez à noite, e 
+aproximadamente às mesmas horas todos os dias. </p>
+<p>Terapêutica adjuvante e monoterapia (a partir dos 16 anos de idade) </p>
+<ul>
+<li>
+<p>Adultos (≥18 anos) e adolescentes (12 aos 17 anos) com peso igual ou superior a 50 kg: 
+Dose recomendada: entre 1000 mg e 3000 mg por dia. 
+Quando iniciar o tratamento com Keppra, o seu médico irá prescrever-lhe uma dose mais baixa 
+durante 2 semanas, antes de lhe dar a dose diária mais baixa. 
+Exemplo: se a sua dose diária deve ser de 1000 mg, a sua dose inicial reduzida é 1 comprimido 
+de 250 mg de manhã e 1 comprimido de 250 mg à noite, e a dose será incrementada 
+gradualmente de forma a atingir os 1000 mg diários após 2 semanas.  </p>
+</li>
+<li>
+<p>Adolescentes (12 aos 17 anos) com peso igual ou inferior a 50 kg: 
+O seu médico irá prescrever a forma farmacêutica de Keppra mais adequada de acordo com o 
+seu peso e dose. </p>
+</li>
+<li>
+<p>Dose para bebés (de 1 mês até 23 meses) e crianças (2 aos 11 anos) com peso inferior a kg: 
+O seu médico irá prescrever a forma farmacêutica de Keppra mais adequada de acordo com a 
+sua idade, peso e dose. </p>
+</li>
+</ul>
+<p>Keppra 100 mg/ml solução oral é a formulação mais adequada para bebés e crianças com idade 
+até aos 6 anos e para crianças e adolescentes (dos 6 até aos 17 anos) com peso inferior a 50 kg e 
+quando os comprimidos não permitem um doseamento exato. </p>
+<p>Modo de administração 
+Engolir os comprimidos de Keppra com uma quantidade suficiente de líquido (ex. um copo com 
+água). Pode tomar Keppra com ou sem alimentos. Após a administração oral, é possível que seja 
+sentido o sabor amargo do levetiracetam. </p>
+<p>Duração do tratamento </p>
+<ul>
+<li>Keppra é usado como tratamento crónico. Deve continuar o tratamento com Keppra durante o 
+tempo que o seu médico indicar. 
+▪ 
+Não pare o tratamento sem consultar o seu médico, dado que isto poderia aumentar as suas 
+crises. </li>
+</ul>
+<p>Se tomar mais Keppra do que deveria 
+Os efeitos indesejáveis possíveis de uma sobredosagem com Keppra são sonolência, agitação, 
+agressão, diminuição do estado de alerta, inibição da respiração e coma. 
+Contactar o seu médico se tomou mais comprimidos do que deveria. O seu médico irá estabelecer o 
+melhor tratamento possível para tratar a sobredosagem. </p>
+<p>Caso se tenha esquecido de tomar Keppra 
+Contactar o seu médico se se esqueceu de tomar uma ou mais doses. 
+Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. </p>
+<p>Se parar de tomar Keppra 
+No caso de interrupção do tratamento, Keppra deverá ser descontinuado gradualmente para evitar o 
+aumento das crises. No caso do seu médico decidir parar o seu tratamento com Keppra, ele dar-lhe-á 
+instruções sobre a descontinuação gradual de Keppra. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Informe imediatamente o seu médico ou dirija-se ao hospital mais próximo, se sentir: </p>
+<ul>
+<li>
+<p>fraqueza, desmaio ou tonturas ou tem dificuldade em respirar, uma vez que podem ser sinais de 
+uma reação alérgica grave (anafilática) </p>
+</li>
+<li>
+<p>inchaço do rosto, lábios, língua e garganta (edema de Quincke) </p>
+</li>
+<li>
+<p>sintomas gripais e uma erupção cutânea no rosto seguido de uma erupção cutânea extensa com 
+temperatura aumentada, níveis das enzimas hepáticas aumentados observados nos testes 
+sanguíneos e um aumento de um tipo de leucócitos (eosinofilia) e nódulos linfáticos aumentados 
+(Reação a fármaco com eosinofilia e sintomas sistémicos [DRESS]) </p>
+</li>
+<li>
+<p>sintomas tais como volume de urina reduzido, cansaço, náuseas, vómitos, confusão e edema nas 
+pernas, tornozelos ou pés, uma vez que podem ser um sinal de redução da função renal </p>
+</li>
+<li>
+<p>uma erupção cutânea, que pode formar bolhas e assemelha-se a alvos pequenos (manchas com 
+centro negro rodeado por uma área mais pálida limitada por um círculo negro) (eritema 
+multiforme) </p>
+</li>
+<li>
+<p>uma erupção cutânea extensa com bolhas e descamação da pele, principalmente em redor da 
+boca, nariz, olhos e órgãos genitais (síndrome de Stevens-Johnson) </p>
+</li>
+<li>
+<p>uma forma mais grave de erupção cutânea que provoca descamação da pele em mais de 30% da 
+superfície do corpo (necrólise epidérmica tóxica) </p>
+</li>
+<li>
+<p>sinais de distúrbios mentais graves ou se alguém em redor deteta sinais de confusão, sonolência 
+(vontade de dormir), amnésia (perda de memória), diminuição da memória (esquecimentos), 
+alterações do comportamento ou outros sinais neurológicos, incluindo movimentos 
+involuntários ou não controlados. Estes podem ser sintomas de uma encefalopatia. </p>
+</li>
+</ul>
+<p>As reações adversas relatadas mais frequentemente foram nasofaringite, sonolência (sensação de 
+sono), dor de cabeça, fadiga e tonturas. No início do tratamento ou durante o aumento da dose, efeitos 
+indesejáveis como sonolência, cansaço e tonturas poderão ser mais frequentes. Estes efeitos devem, 
+contudo, diminuir ao longo do tempo. </p>
+<p>Muito frequentes: pode afetar mais de 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>nasofaringite; </p>
+</li>
+<li>
+<p>sonolência (vontade de dormir), dor de cabeça. </p>
+</li>
+</ul>
+<p>Frequentes: pode afetar até 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>anorexia (perda de apetite); </p>
+</li>
+<li>
+<p>depressão, hostilidade ou agressividade, ansiedade, insónia, nervosismo ou irritabilidade; </p>
+</li>
+<li>
+<p>convulsões, alterações do equilíbrio, tonturas (sensação de instabilidade), letargia (falta de 
+energia e entusiasmo), tremor (tremores involuntários); </p>
+</li>
+<li>
+<p>vertigem (sensação de estar a rodar); </p>
+</li>
+<li>
+<p>tosse; </p>
+</li>
+<li>
+<p>dor abdominal, diarreia, dispepsia (indigestão), vómitos, náuseas; </p>
+</li>
+<li>
+<p>erupção na pele; </p>
+</li>
+<li>
+<p>astenia/fadiga (cansaço). </p>
+</li>
+</ul>
+<p>Pouco frequentes: pode afetar até 1 em cada 100 pessoas </p>
+<ul>
+<li>
+<p>número reduzido de plaquetas no sangue, número reduzido de glóbulos brancos; </p>
+</li>
+<li>
+<p>perda de peso, aumento de peso; </p>
+</li>
+<li>
+<p>tentativa de suicídio e ideação suicida, perturbação mental, alterações do comportamento, 
+alucinação, ira, confusão, ataque de pânico, instabilidade emocional/alterações de humor, 
+agitação; </p>
+</li>
+<li>
+<p>amnésia (perda de memória), diminuição da memória (esquecimentos), problemas de 
+coordenação/ataxia (dificuldade no controlo de movimentos), parestesias (formigueiro), 
+perturbações da atenção (falta de concentração); </p>
+</li>
+<li>
+<p>diplopia (visão dupla), visão desfocada; </p>
+</li>
+<li>
+<p>valores aumentados/anormais nas provas da função do fígado; </p>
+</li>
+<li>
+<p>queda de cabelo, eczema, comichão; </p>
+</li>
+<li>
+<p>fraqueza muscular, mialgia (dor muscular); </p>
+</li>
+<li>
+<p>ferimentos acidentais. </p>
+</li>
+</ul>
+<p>Raros: pode afetar até 1 em cada 1000 pessoas </p>
+<ul>
+<li>
+<p>infeção; </p>
+</li>
+<li>
+<p>número reduzido de todos os tipos de células sanguíneas; </p>
+</li>
+<li>
+<p>reação alérgica grave (DRESS, reação anafilática [reação alérgica grave e importante], edema 
+de Quincke [inchaço do rosto, lábios, língua e garganta]); </p>
+</li>
+<li>
+<p>diminuição da concentração de sódio no sangue; </p>
+</li>
+<li>
+<p>suicídio, alterações da personalidade (problemas de comportamento), perturbações do 
+pensamento (pensamento lento, incapacidade de concentração); </p>
+</li>
+<li>
+<p>delírio; </p>
+</li>
+<li>
+<p>encefalopatia (ver subsecção “Informe imediatamente o seu médico" para obter uma descrição 
+detalhada dos sintomas); </p>
+</li>
+<li>
+<p>as convulsões podem agravar-se ou surgir com mais frequência; </p>
+</li>
+<li>
+<p>espasmos musculares incontroláveis que afetam a cabeça, tronco e membros, dificuldade no 
+controlo dos movimentos, hipercinésia (hiperatividade); </p>
+</li>
+<li>
+<p>alteração na frequência cardíaca (eletrocardiograma); </p>
+</li>
+<li>
+<p>pancreatite; </p>
+</li>
+<li>
+<p>insuficiência do fígado, hepatite; </p>
+</li>
+<li>
+<p>redução súbita da função renal; </p>
+</li>
+<li>
+<p>erupção cutânea, que pode formar bolhas e assemelha-se a alvos pequenos (manchas com centro 
+negro rodeado por uma área mais pálida limitada por um círculo negro) (eritema multiforme), 
+uma erupção extensa com bolhas e descamação da pele, principalmente em redor da boca, nariz, 
+olhos e órgãos genitais (síndrome de Stevens-Johnson) e uma forma mais grave que provoca 
+descamação da pele em mais de 30% da superfície do corpo (necrólise epidérmica tóxica); </p>
+</li>
+<li>
+<p>rabdomiólise (degradação do tecido muscular) associado ao aumento da creatina fosfoquinase 
+sanguínea. A prevalência é significativamente superior em doentes Japoneses em comparação 
+com doentes não Japoneses; </p>
+</li>
+<li>
+<p>coxear ou dificuldade em andar; </p>
+</li>
+<li>
+<p>combinação de febre, rigidez muscular, pressão arterial e batimento cardíaco instáveis, 
+confusão, baixo nível de consciência (podem ser sinais de uma doença chamada síndrome 
+neuroléptica maligna). A prevalência é significativamente superior em doentes Japoneses 
+quando comparada com aquela dos doentes não Japoneses. </p>
+</li>
+</ul>
+<p>Muito raros: pode afetar até 1 em cada 10000 pessoas </p>
+<ul>
+<li>pensamentos ou sensações indesejados repetitivos ou a vontade de fazer algo repetidamente 
+(perturbação obsessivo-compulsiva). </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar keppra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar keppra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem e no blister, após 
+“EXP". 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Keppra 
+A substância ativa é o levetiracetam. 
+Um comprimido de Keppra 250 mg contém 250 mg de levetiracetam. 
+Um comprimido de Keppra 500 mg contém 500 mg de levetiracetam. 
+Um comprimido de Keppra 750 mg contém 750 mg de levetiracetam. 
+Um comprimido de Keppra 1000 mg contém 1000 mg de levetiracetam. </p>
+<p>Os outros componentes de Keppra são: 
+Núcleo do comprimido: croscarmelose sódica, macrogol 6000, sílica coloidal anidra, estearato de 
+magnésio. 
+Revestimento por película: Álcool polivinílico parcialmente hidrolisado, dióxido de titânio (E171), 
+macrogol 3350, talco, corantes*. </p>
+<ul>
+<li>Os corantes são: 
+Comprimidos de 250 mg: laca de alumínio de carmin de indigo (E132). 
+Comprimidos de 500 mg: óxido de ferro amarelo (E172). 
+Comprimidos de 750 mg: laca de alumínio de amarelo sunset (E110), óxido de ferro vermelho (E172). </li>
+</ul>
+<p>Qual o aspeto de Keppra e conteúdo da embalagem 
+Os comprimidos revestidos por película de Keppra 250 mg são azuis, oblongos em 13 mm, divisíveis e 
+gravados com o código “ucb" e “250" numa das faces. 
+A ranhura do comprimido destina-se apenas a facilitar a sua divisão, de modo a ajudar a deglutição, e 
+não a divisão em doses iguais. </p>
+<p>Os comprimidos revestidos por película de Keppra 500 mg são amarelos, oblongos em 16 mm, 
+divisíveis e gravados com o código “ucb" e “500" numa das faces. 
+A ranhura do comprimido destina-se apenas a facilitar a sua divisão, de modo a ajudar a deglutição, e 
+não a divisão em doses iguais. </p>
+<p>Os comprimidos revestidos por película de Keppra 750 mg são cor-de-laranja, oblongos em 18 mm, 
+divisíveis e gravados com o código “ucb" e “750" numa das faces. 
+A ranhura do comprimido destina-se apenas a facilitar a sua divisão, de modo a ajudar a deglutição, e 
+não a divisão em doses iguais. </p>
+<p>Os comprimidos revestidos por película de Keppra 1000 mg são brancos, oblongos em 19 mm, 
+divisíveis e gravados com o código “ucb" e “1000" numa das faces. 
+A ranhura do comprimido destina-se apenas a facilitar a sua divisão, de modo a ajudar a deglutição, e 
+não a divisão em doses iguais. </p>
+<p>Os comprimidos de Keppra são acondicionados em blisters fornecidos em caixas de cartão que 
+contêm: </p>
+<ul>
+<li>
+<p>250 mg: 20, 30, 50, 60, 100 x 1, 100 comprimidos revestidos por película e embalagens múltiplas 
+contendo 200 (2 embalagens de 100) comprimidos revestidos por película. </p>
+</li>
+<li>
+<p>500 mg: 10, 20, 30, 50, 60, 100 x 1, 100, 120 comprimidos revestidos por película e embalagens 
+múltiplas contendo 200 (2 embalagens de 100) comprimidos revestidos por película. </p>
+</li>
+<li>
+<p>750 mg: 20, 30, 50, 60, 80, 100 x 1, 100 comprimidos revestidos por película e embalagens 
+múltiplas contendo 200 (2 embalagens de 100) comprimidos revestidos por película. </p>
+</li>
+<li>
+<p>1000 mg: 10, 20, 30, 50, 60, 100 x 1, 100 comprimidos revestidos por película e embalagens 
+múltiplas contendo 200 (2 embalagens de 100) comprimidos revestidos por película. </p>
+</li>
+</ul>
+<p>A embalagem com 100 x 1 comprimido encontra-se disponível em blisters PVC/alumínio destacáveis 
+de dose unitária. As restantes embalagens encontram-se disponíveis em blisters PVC/alumínio 
+normais. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+UCB Pharma SA, Allée de la Recherche 60, B-1070 Brussels, Bélgica. </p>
+<p>Fabricante 
+UCB Pharma SA, Chemin du Foriest, B-1420 Braine-l’Alleud, Bélgica 
+ou  </p>
+<p>Aesica Pharmaceuticals S.r.l., Via Praglia 15, I-10044 Pianezza, Itália. </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+UCB Pharma SA/NV 
+Tel/Tél: + 32 / (0)2 559 92<br />
+Lietuva 
+UCB Pharma Oy Finland 
+Tel: +358 9 2514 4231 (Suomija) </p>
+<p>България 
+Ю СИ БИ България ЕООД 
+Teл.: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
+UCB Pharma SA/NV 
+Tél/Tel: + 32 / (0)2 559 92<br />
+Česká republika 
+UCB s.r.o. 
+Tel: + 420 221 773<br />
+Magyarország 
+UCB Magyarország Kft. 
+Tel.: + 36-(1) 391 0 
+Danmark 
+UCB Nordic A/S 
+Tlf: + 45 / 32 46 24<br />
+Malta 
+Pharmasud Ltd. 
+Tel: + 356 / 21 37 64<br />
+Deutschland 
+UCB Pharma GmbH 
+Tel: + 49 /(0) 2173 48 4 
+Nederland 
+UCB Pharma B.V. 
+Tel.: + 31 / (0)76-573 11<br />
+Eesti 
+UCB Pharma Oy Finland<br />
+Tel: +358 9 2514 4231 (Soome) </p>
+<p>Norge 
+UCB Nordic A/S 
+Tlf: + 45 / 32 46 24<br />
+Ελλάδα 
+UCB Α.Ε.<br />
+Τηλ: + 30 / 2109974 
+Österreich 
+UCB Pharma GmbH 
+Tel: + 43 (0) 1 291 80 España 
+UCB Pharma, S.A. 
+Tel: + 34 / 91 570 34<br />
+Polska 
+UCB Pharma Sp. z o.o. 
+Tel: + 48 22 696 99<br />
+France 
+UCB Pharma S.A. 
+Tél: + 33 / (0)1 47 29 44 Portugal 
+UCB Pharma (Produtos Farmacêuticos), Lda. 
+Tel: + 351 / 21 302 5 
+Hrvatska 
+Medis Adria d.o.o. 
+Tel: +385 (0) 1 230 34<br />
+România 
+UCB Pharma Romania S.R.L. 
+Tel: + 40 21 300 29<br />
+Ireland 
+UCB (Pharma) Ireland Ltd. 
+Tel: + 353 / (0)1-46 37 395  </p>
+<p>Slovenija 
+Medis, d.o.o. 
+Tel: + 386 1 589 69<br />
+Ísland 
+Vistor hf. 
+Tel: + 354 535 7 
+Slovenská republika 
+UCB s.r.o., organizačná zložka 
+Tel: + 421 (0) 2 5920 2 
+Italia 
+UCB Pharma S.p.A. 
+Tel: + 39 / 02 300 Suomi/Finland 
+UCB Pharma Oy Finland 
+Puh/Tel: +358 9 2514 4 
+Κύπρος 
+Lifepharma (Z.A.M.) Ltd 
+Τηλ: + 357 22 34 74 40  </p>
+<p>Sverige 
+UCB Nordic A/S 
+Tel: + 46 / (0) 40 29 49 Latvija 
+UCB Pharma Oy Finland 
+Tel: +358 9 2514 4231 (Somija) </p>
+<p>United Kingdom (Northern Ireland) 
+UCB (Pharma) Ireland Ltd 
+Tel: + 353 / (0)1-46 37<br />
+Este folheto foi revisto pela última vez em {mês/AAAA} </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1120,6 +1736,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d21a665ebc1011132a02f9a335304090"
 * entry[0].resource = composition-da-d21a665ebc1011132a02f9a335304090
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd21a665ebc1011132a02f9a335304090"
+* entry[=].resource = mpd21a665ebc1011132a02f9a335304090
+                            
+                    
+Instance: bundlepackageleaflet-pt-d21a665ebc1011132a02f9a335304090
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for keppra Package Leaflet for language pt"
+Description: "ePI document Bundle for keppra Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d21a665ebc1011132a02f9a335304090"
+* entry[0].resource = composition-pt-d21a665ebc1011132a02f9a335304090
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd21a665ebc1011132a02f9a335304090"
@@ -1221,6 +1859,18 @@ RuleSet: d21a665ebc1011132a02f9a335304090ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d21a665ebc1011132a02f9a335304090) // keppra pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

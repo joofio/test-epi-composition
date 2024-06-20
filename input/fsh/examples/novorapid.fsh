@@ -951,6 +951,554 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>
 
 
 
+Instance: composition-pt-1c483862a2de53c1f77db26617c2401e
+InstanceOf: CompositionUvEpi
+Title: "Composition for novorapid Package Leaflet"
+Description:  "Composition for novorapid Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1c483862a2de53c1f77db26617c2401e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - novorapid"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é NovoRapid e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar NovoRapid </li>
+<li>Como utilizar NovoRapid </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar NovoRapid </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é novorapid e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é novorapid e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NovoRapid é uma insulina moderna (análogo de insulina) com um efeito de ação rápido. As insulinas 
+modernas são versões melhoradas da insulina humana. </p>
+<p>NovoRapid é utilizado para reduzir o nível elevado de açúcar no sangue nos adultos, adolescentes e 
+crianças com 1 ano de idade ou mais, com diabetes mellitus (diabetes). A diabetes é uma doença em 
+que o seu corpo não produz insulina suficiente para controlar o nível de açúcar no sangue. O 
+tratamento com NovoRapid ajuda a prevenir as complicações da sua diabetes. </p>
+<p>NovoRapid começará a baixar o seu açúcar no sangue 10-20 minutos depois de o injetar, ocorrendo 
+um efeito máximo entre 1 e 3 horas após a injeção e o efeito dura 3-5 horas. Devido à sua ação curta, 
+NovoRapid deve ser normalmente administrado em associação com preparações de insulina de ação 
+intermédia ou prolongada. NovoRapid pode, ainda, ser utilizado para perfusão contínua num sistema 
+de bomba de perfusão. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar novorapid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar novorapid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize NovoRapid </p>
+<p>► 
+Se tem alergia à insulina aspártico ou a qualquer outro componente deste medicamento (ver 
+secção 6, Conteúdo da embalagem e outras informações). 
+► 
+Se suspeitar que está a entrar em hipoglicemia (baixa de açúcar no sangue) (ver a) Resumo dos 
+efeitos indesejáveis graves e muito frequentes, na secção 4). 
+► 
+Se a tampa protetora faltar ou estiver solta. Cada frasco para injetáveis tem uma tampa de 
+plástico protetora e inviolável. Se o frasco para injetáveis não estiver em perfeitas condições 
+quando o receber, devolva-o ao fornecedor. 
+► 
+Se tiver sido armazenado incorretamente ou se tiver sido congelado (ver secção 5, Como 
+conservar NovoRapid). 
+► 
+Se a insulina não tiver um aspeto transparente e incolor. </p>
+<p>Se alguma destas situações se aplica a si, não utilize NovoRapid. Fale com o seu médico, enfermeiro 
+ou farmacêutico para aconselhamento. </p>
+<p>Antes de utilizar NovoRapid  </p>
+<p>► 
+Verifique o rótulo para se certificar de que é o tipo correto de insulina. 
+► 
+Retire a cápsula de proteção. 
+► 
+Utilize sempre uma agulha nova em cada injeção para evitar uma contaminação. 
+► 
+As agulhas e seringas não devem ser partilhadas. </p>
+<p>Advertências e precauções </p>
+<p>Algumas situações e atividades podem afetar as suas necessidades de insulina. Consulte o seu médico: 
+► 
+Se tiver problemas de rins ou de fígado, ou com as glândulas suprarrenais, pituitária ou 
+tiroideia. 
+► 
+Se fizer mais exercício físico do que é habitual ou se pretende alterar o tipo de alimentação, uma 
+vez que estas situações podem alterar o seu nível de açúcar no sangue. 
+► 
+Se estiver doente, continue a tomar a insulina e consulte o seu médico.<br />
+► 
+Se vai fazer uma viagem ao estrangeiro, as alterações nos fusos horários podem afetar as suas 
+necessidades de insulina e a hora a que tem de administrar as suas injeções. </p>
+<p>Alterações da pele no local de injeção </p>
+<p>Os locais de injeção devem ser alternados para ajudar a prevenir alterações no tecido adiposo sob a 
+pele, tais como espessamento da pele, encolhimento da pele ou nódulos sob a pele. A insulina poderá 
+não funcionar muito bem se for injetada numa área irregular, encolhida ou espessa (ver secção 3, 
+Como utilizar NovoRapid). Informe o seu médico se notar quaisquer alterações da pele no local de 
+injeção. Informe o seu médico se estiver atualmente a administrar a injeção nestas áreas afetadas antes 
+de começar a administrar a injeção numa área diferente. O seu médico poderá aconselhá-lo a verificar 
+mais atentamente o seu nível de açúcar no sangue e a ajustar a sua dose de insulina ou de outros 
+medicamentos antidiabéticos. </p>
+<p>Crianças e adolescentes </p>
+<p>Não dê este medicamento a crianças com menos de 1 ano de idade, uma vez que não foram realizados 
+estudos clínicos em crianças com idade inferior a 1 ano. </p>
+<p>Outros medicamentos e NovoRapid </p>
+<p>Informe o seu médico, enfermeiro ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se 
+vier a tomar outros medicamentos. 
+Alguns medicamentos afetam o seu nível de açúcar no sangue e isso pode significar que a sua dose de 
+insulina tenha de mudar. Abaixo encontra-se uma lista dos medicamentos que mais frequentemente 
+podem afetar o seu tratamento com insulina.  </p>
+<p>O seu nível de açúcar no sangue pode baixar (hipoglicemia) se tomar: </p>
+<ul>
+<li>
+<p>Outros medicamentos para o tratamento da diabetes </p>
+</li>
+<li>
+<p>Inibidores da monoaminoxidase (IMAO) (utilizados para tratar a depressão) </p>
+</li>
+<li>
+<p>Bloqueadores beta (utilizados para tratar a tensão arterial elevada) </p>
+</li>
+<li>
+<p>Inibidores do enzima de conversão da angiotensina (IECAs) (utilizados para tratar certas 
+doenças do coração ou a tensão arterial elevada) </p>
+</li>
+<li>
+<p>Salicilatos (utilizados para aliviar as dores e baixar a febre) </p>
+</li>
+<li>
+<p>Esteroides anabolizantes (tais como a testosterona) </p>
+</li>
+<li>
+<p>Sulfonamidas (utilizadas para tratar infeções). </p>
+</li>
+</ul>
+<p>O seu nível de açúcar no sangue pode subir (hiperglicemia) se tomar: </p>
+<ul>
+<li>
+<p>Contracetivos orais (comprimidos para o controlo da natalidade) </p>
+</li>
+<li>
+<p>Tiazidas (utilizadas para tratar a tensão arterial elevada ou a retenção excessiva de líquidos) </p>
+</li>
+<li>
+<p>Glucocorticoides (tais como a ‘cortisona’, utilizada para tratar a inflamação) </p>
+</li>
+<li>
+<p>Hormonas da tiroide (utilizadas para tratar distúrbios da tiroide) </p>
+</li>
+<li>
+<p>Simpaticomiméticos (tais como epinefrina [adrenalina] ou salbutamol e terbutalina, utilizados 
+para tratar a asma) </p>
+</li>
+<li>
+<p>Hormona do crescimento (medicamento para a estimulação do crescimento somático e do 
+esqueleto e de grande influência nos processos metabólicos do organismo) </p>
+</li>
+<li>
+<p>Danazol (medicamento que atua sobre a ovulação). </p>
+</li>
+</ul>
+<p>O octreótido e o lanreótido (utilizados para tratamento da acromegalia, uma doença hormonal rara que 
+ocorre, geralmente, nos adultos de meia-idade, causada pela produção excessiva de hormona do 
+crescimento pela glândula pituitária) podem aumentar ou diminuir o seu nível de açúcar no sangue. </p>
+<p>Os bloqueadores beta (utilizados para tratar a tensão arterial elevada) podem atenuar ou suprimir por 
+completo os primeiros sintomas de aviso que o ajudam a reconhecer um baixo nível de açúcar no 
+sangue. </p>
+<p>Pioglitazona (comprimidos utilizados para o tratamento da diabetes tipo 2) 
+Alguns doentes com diabetes tipo 2 de longa duração e com doença cardíaca ou antecedente de 
+acidente vascular cerebral, que foram tratados com pioglitazona e insulina, desenvolveram 
+insuficiência cardíaca. Informe o seu médico o mais rapidamente possível se sentir sinais de 
+insuficiência cardíaca, tais como falta de ar invulgar ou rápido aumento de peso ou inchaço localizado 
+(edema). </p>
+<p>Se tomou algum dos medicamentos acima mencionados, informe o seu médico, enfermeiro ou 
+farmacêutico. </p>
+<p>O consumo de álcool e a utilização de NovoRapid </p>
+<p>► 
+Se beber bebidas alcoólicas, as suas necessidades de insulina podem mudar, uma vez que o seu 
+nível de açúcar no sangue pode aumentar ou diminuir. É aconselhável uma vigilância cuidadosa. </p>
+<p>Gravidez e amamentação </p>
+<p>► 
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de 
+tomar este medicamento. NovoRapid pode ser utilizado durante a gravidez. A sua dose de 
+insulina pode necessitar ser ajustada durante a gravidez e após o parto. O controlo cuidadoso da 
+sua diabetes e, em especial, a prevenção da hipoglicemia são importantes para a saúde do seu 
+bebé. 
+► 
+Não existem restrições ao tratamento com NovoRapid durante a amamentação. </p>
+<p>Se está grávida ou a amamentar, consulte o seu médico, enfermeiro ou farmacêutico antes de tomar 
+este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>► 
+Pergunte ao seu médico se pode conduzir um carro ou utilizar máquinas: </p>
+<ul>
+<li>
+<p>Se tiver hipoglicemias frequentes. </p>
+</li>
+<li>
+<p>Se tiver dificuldade em reconhecer uma hipoglicemia. </p>
+</li>
+</ul>
+<p>Se o seu açúcar no sangue estiver alto ou baixo, a sua concentração e capacidade de reação podem ser 
+afetadas e, consequentemente, também a sua capacidade para conduzir ou utilizar máquinas. Tenha em 
+conta que pode colocar-se a si próprio ou a outras pessoas em perigo. </p>
+<p>NovoRapid tem um início de ação rápido, pelo que, se ocorrer uma hipoglicemia, esta situação poderá 
+surgir pouco depois da injeção, quando comparada com a insulina humana solúvel. </p>
+<p>Informações importantes sobre alguns componentes de NovoRapid </p>
+<p>NovoRapid contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, NovoRapid é, 
+praticamente, ‘isento de sódio’. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar novorapid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar novorapid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Posologia e quando deve administrar a sua insulina </p>
+<p>Utilize sempre a sua insulina e ajuste a sua dose exatamente como indicado pelo seu médico. Fale com 
+o seu médico, enfermeiro ou farmacêutico se tiver dúvidas. </p>
+<p>NovoRapid é, geralmente, administrado imediatamente antes de uma refeição. Coma uma refeição ou 
+um lanche nos 10 minutos que se seguem à injeção, para evitar um nível baixo de açúcar no sangue. 
+Quando necessário, NovoRapid pode ser administrado imediatamente após a refeição. Ver abaixo 
+Como e onde deve injetar, para informação. </p>
+<p>Não mude de insulina, exceto se o seu médico lhe disser para o fazer. 
+Se o seu médico o tiver mudado de um tipo ou marca de insulina para outro, a sua dose poderá ter de 
+ser ajustada pelo médico. </p>
+<p>Utilização em crianças e adolescentes </p>
+<p>NovoRapid pode ser utilizado em adolescentes e crianças com 1 ano de idade ou mais, em substituição 
+da insulina humana solúvel, quando houver vantagem num início rápido da ação. Por exemplo, quando 
+é difícil definir a dose para a criança relativamente a uma refeição. </p>
+<p>Utilização em grupos especiais de doentes </p>
+<p>Se tem uma função reduzida dos rins ou do fígado, ou se tem mais de 65 anos de idade, deve medir o 
+seu nível de açúcar no sangue mais frequentemente e fale com o seu médico sobre as alterações que 
+possam ser necessárias na sua dose de insulina. </p>
+<p>Como e onde deve injetar </p>
+<p>NovoRapid destina-se a injeção sob a pele (por via subcutânea) ou em perfusão contínua com um 
+sistema de bomba de perfusão. A administração num sistema de bomba de perfusão requer instruções 
+detalhadas do seu profissional de saúde. Nunca deve injetar-se diretamente numa veia (via 
+intravenosa) ou músculo (via intramuscular). Se necessário, NovoRapid pode ser administrado 
+diretamente na veia, mas esta administração só deve ser feita por médicos ou outros profissionais de 
+cuidados de saúde. </p>
+<p>Mude o local de injeção em cada administração dentro da área que usa para se injetar. Assim poderá 
+reduzir o risco de desenvolvimento de inchaços ou deformações na pele (ver secção 4, Efeitos 
+indesejáveis possíveis). Os melhores pontos para se autoinjetar são: na parte da frente da cintura 
+(abdómen), no braço ou na parte da frente das coxas. A insulina terá um efeito mais rápido se for 
+injetada na parte da frente da cintura. Deve sempre medir regularmente o seu nível de açúcar no 
+sangue. </p>
+<p>A insulina NPH (Neutral Protamine Hagedorn) é o único tipo de insulina que pode ser misturada com 
+NovoRapid e a mistura tem de ser injetada imediatamente sob a pele (via subcutânea). 
+NovoRapid deve ser introduzido dentro da seringa antes de introduzir a sua insulina NPH. </p>
+<p>Como tomar NovoRapid </p>
+<p>Se só administra um tipo de insulina 
+1. Retire para a seringa a mesma quantidade de ar que a dose de insulina que vai injetar. Injete ar 
+no frasco para injetáveis. 
+2. Inverta o frasco para injetáveis e a seringa e retire a dose correta de insulina para a seringa. 
+Retire a agulha do frasco para injetáveis. Depois expulse o ar da seringa e verifique se a dose é a 
+correta. </p>
+<p>Se tem de misturar dois tipos de insulina 
+1. Antes de administrar, rode o frasco para injetáveis de insulina NPH entre as mãos até que o 
+líquido esteja uniformemente branco e turvo. 
+2. Retire para a seringa uma quantidade de ar igual à dose de insulina NPH. Injete o ar no frasco 
+para injetáveis que contém insulina NPH e retire a agulha do frasco. 
+3. Retire para a seringa uma quantidade de ar igual à dose de NovoRapid. Injete o ar no frasco para 
+injetáveis que contém NovoRapid. Inverta o frasco para injetáveis e a seringa e retire a dose 
+prescrita de NovoRapid. Expulse todo o ar da seringa e verifique se a dose é a correta. 
+4. Introduza a agulha no frasco para injetáveis de insulina NPH, inverta o frasco para injetáveis e a 
+seringa e retire a dose que lhe foi receitada. Expulse todo o ar da seringa e verifique a dose. 
+Injete a mistura imediatamente. 
+5. Misture sempre NovoRapid e a insulina NPH pela mesma sequência. </p>
+<p>Como injetar NovoRapid </p>
+<p>► 
+Injete a insulina sob a pele. Utilize a técnica de injeção aconselhada pelo seu médico ou 
+enfermeiro. 
+► 
+Mantenha a agulha sob a pele durante pelo menos 6 segundos, para se assegurar de que injetou 
+toda a insulina. 
+► 
+Deite a agulha fora depois de cada injeção.  </p>
+<p>Para utilização num sistema de bomba de perfusão </p>
+<p>NovoRapid nunca deve ser misturado com qualquer outra insulina quando for utilizado numa bomba 
+de perfusão de insulina. 
+Siga as instruções e conselhos do seu médico para a utilização de NovoRapid num sistema de bomba 
+de perfusão. Antes de utilizar NovoRapid no sistema de bomba de perfusão, é necessário que tenha 
+sido perfeitamente instruído quanto à sua utilização e que tenha sido devidamente informado sobre as 
+medidas a tomar em caso de doença, níveis de açúcar no sangue demasiado altos ou demasiado baixos 
+ou avaria do sistema de bomba de perfusão. </p>
+<ul>
+<li>
+<p>Antes de introduzir a agulha, use água e sabão para lavar as mãos e a pele onde a agulha vai ser 
+introduzida, para evitar qualquer infeção no local de perfusão. </p>
+</li>
+<li>
+<p>Quando estiver a encher um reservatório novo, certifique-se de que não deixa grandes bolhas de 
+ar na seringa ou no tubo. </p>
+</li>
+<li>
+<p>O kit de perfusão (tubo e agulha) deve ser mudado de acordo com as instruções do folheto 
+informativo fornecido com o mesmo. </p>
+</li>
+</ul>
+<p>Para usufruir dos benefícios da perfusão de insulina e para detetar o possível mau funcionamento da 
+bomba de insulina, é recomendável medir regularmente o seu nível de açúcar no sangue. </p>
+<p>O que fazer em caso de avaria do sistema de bomba de perfusão </p>
+<p>Deve ter sempre um modo de administração de insulina alternativo à sua disposição para injeção sob a 
+pele, caso haja uma avaria do sistema de bomba de perfusão. </p>
+<p>Se tomar mais insulina do que deveria </p>
+<p>Se tomar demasiada insulina, o seu açúcar no sangue fica muito baixo (hipoglicemia). Ver a) Resumo 
+dos efeitos indesejáveis graves e muito frequentes, na secção 4.<br />
+Caso se tenha esquecido de tomar a sua insulina </p>
+<p>Se se esquecer de tomar a sua insulina, o seu açúcar no sangue pode ficar muito alto (hiperglicemia). 
+Ver c) Efeitos da diabetes, na secção 4.<br />
+Se parar de tomar a sua insulina </p>
+<p>Não pare de tomar a sua insulina sem falar com o médico, que o informará sobre o que precisa fazer. 
+Esta situação pode levar a um nível muito alto de açúcar no sangue (hiperglicemia grave) e 
+cetoacidose. Ver c) Efeitos da diabetes, na secção 4.<br />
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, enfermeiro ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>a)<br />
+Resumo dos efeitos indesejáveis graves e muito frequentes </p>
+<p>Baixo nível de açúcar no sangue (hipoglicemia) é um efeito indesejável muito frequente. Pode afetar 
+mais de 1 em 10 pessoas. </p>
+<p>Pode ocorrer um baixo nível de açúcar no sangue se: </p>
+<ul>
+<li>
+<p>Injetar demasiada insulina. </p>
+</li>
+<li>
+<p>Comer muito pouco ou se falhar uma refeição. </p>
+</li>
+<li>
+<p>Fizer mais exercício do que o habitual. </p>
+</li>
+<li>
+<p>Beber álcool (Ver O consumo de álcool e a utilização de NovoRapid na secção 2). </p>
+</li>
+</ul>
+<p>Sinais de baixo nível de açúcar no sangue: Suores frios; pele fria e pálida; dor de cabeça; batimento 
+rápido do coração; sensação de má disposição; sensação de muita fome; alterações temporárias na 
+visão; sonolência; sensação invulgar de cansaço e fraqueza; nervosismo ou tremores; sensação de 
+ansiedade; sensação de desorientação; dificuldades de concentração. </p>
+<p>A situação grave de baixo nível de açúcar no sangue pode levar ao estado de inconsciência. Se a 
+situação grave e prolongada de baixo nível de açúcar no sangue não for tratada, pode causar uma lesão 
+cerebral (temporária ou permanente) e até mesmo a morte. Pode recuperar mais rapidamente do estado 
+de inconsciência se lhe for administrada uma injeção da hormona glucagom por uma pessoa que saiba 
+como usar o produto. Se lhe for injetado glucagom, irá precisar de açúcar ou um alimento muito 
+açucarado logo que recupere a consciência. Se não responder ao tratamento com glucagom, terá de 
+receber tratamento num hospital. </p>
+<p>O que fazer se tiver um baixo nível de açúcar no sangue: 
+► 
+Se tiver um baixo nível de açúcar no sangue, coma alguns rebuçados ou um lanche muito </p>
+<p>açucarado (doces, bolachas, sumo de fruta). Se possível, meça o seu nível de açúcar no </p>
+<p>sangue e depois descanse. Traga sempre consigo alguns rebuçados ou lanches muito </p>
+<p>açucarados, para estar prevenido. 
+► 
+Depois dos sintomas de um baixo nível de açúcar no sangue terem desaparecido ou após 
+estabilização dos seus níveis de açúcar no sangue, continue o tratamento com insulina como 
+habitualmente. 
+► 
+Se tiver um nível de açúcar no sangue tão baixo que o leve a desmaiar, se houve necessidade de 
+lhe ter sido injetado glucagom ou se teve muitas vezes um baixo nível de açúcar no sangue, fale 
+com o médico. Pode ser necessário ajustar a dose de insulina ou a sua hora de administração, a 
+quantidade de alimentos ou de exercício. </p>
+<p>Informe as pessoas mais importantes de que tem diabetes e sobre quais poderão ser as consequências, 
+incluindo o risco de poder desmaiar (ficar inconsciente) devido a um baixo nível de açúcar no sangue. 
+Informe as pessoas que se desmaiar, devem virá-lo de lado e pedir ajuda médica imediatamente. Não 
+devem dar-lhe nada para comer ou beber, pois pode correr o risco de sufocar. </p>
+<p>Reações alérgicas graves a NovoRapid ou a um dos seus componentes (designadas por reações 
+alérgicas sistémicas) são um efeito indesejável muito raro, mas que pode, potencialmente, colocar a 
+vida em perigo. Pode afetar menos de 1 em 10.000 pessoas. </p>
+<p>Procure auxílio médico imediatamente: </p>
+<ul>
+<li>
+<p>Se os sinais de alergia se espalharem a outras partes do seu corpo.  </p>
+</li>
+<li>
+<p>Se subitamente não se sentir bem e: começar a transpirar, começar a sentir-se mal disposto 
+(vomitar), sentir dificuldade em respirar, tiver um batimento rápido do coração, sentir tonturas. 
+► 
+Se notar algum destes sinais procure aconselhamento médico imediatamente. </p>
+</li>
+</ul>
+<p>Alterações da pele no local de injeção: Se injetar insulina no mesmo local, o tecido adiposo tanto 
+pode encolher (lipoatrofia) como aumentar de espessura (lipohipertrofia) (pode afetar menos de 1 em 
+100 pessoas). Os nódulos sob a pele podem também ser causados pela acumulação de uma proteína 
+chamada amiloide (amiloidose cutânea; a frequência com que ocorre não é conhecida). A insulina 
+poderá não funcionar muito bem se for injetada numa área irregular, encolhida ou espessa. Altere o 
+local da injeção a cada injeção para ajudar a evitar essas alterações na pele. </p>
+<p>b)<br />
+Lista de outros efeitos indesejáveis </p>
+<p>Efeitos indesejáveis pouco frequentes 
+Podem afetar menos de 1 em 100 pessoas.  </p>
+<p>Sinais de alergia: Podem ocorrer reações alérgicas locais (dor, vermelhidão, erupção na pele com 
+comichão, inflamação, nódoa negra, inchaço e comichão) no local da injeção. Estas reações 
+desaparecem, geralmente, ao fim de algumas semanas a tomar insulina. Se não desaparecerem ou se se 
+espalharem pelo corpo, fale imediatamente com o seu médico. Ver também acima Reações alérgicas 
+graves. </p>
+<p>Perturbações da visão: Quando iniciar o seu tratamento com insulina, pode sofrer perturbações da 
+visão, mas estas perturbações são geralmente temporárias. </p>
+<p>Articulações inchadas: Quando começar a tomar insulina, a retenção de líquidos pode provocar 
+inchaço nos tornozelos e noutras articulações. Geralmente, esta situação desaparece rapidamente. Se 
+não desaparecer, fale com o seu médico. </p>
+<p>Retinopatia diabética (uma doença dos olhos relacionada com a diabetes, a qual pode levar à perda da 
+visão): Se tiver retinopatia diabética e os seus níveis de açúcar no sangue melhorarem muito 
+rapidamente, a retinopatia pode agravar-se. Fale com o seu médico sobre esta situação. </p>
+<p>Efeitos indesejáveis raros 
+Podem afetar menos de 1 em 1.000 pessoas. </p>
+<p>Neuropatia dolorosa (dor devida a lesão dos nervos): Se o seu nível de açúcar no sangue melhorar 
+muito rapidamente, pode sentir dores nos nervos. Esta situação é designada por neuropatia dolorosa 
+aguda, sendo, geralmente, temporária.  </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, enfermeiro ou farmacêutico. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>
+<p>c)<br />
+Efeitos da diabetes </p>
+<p>Nível alto de açúcar no sangue (hiperglicemia) </p>
+<p>Pode ocorrer um nível alto de açúcar no sangue se: </p>
+<ul>
+<li>
+<p>Não injetou insulina suficiente. </p>
+</li>
+<li>
+<p>Se esquecer de tomar a sua insulina ou se parar de tomar insulina. </p>
+</li>
+<li>
+<p>Tomar repetidamente menos insulina do que aquela de que necessita. </p>
+</li>
+<li>
+<p>Tiver uma infeção e/ou febre. </p>
+</li>
+<li>
+<p>Comer mais do que o habitual. </p>
+</li>
+<li>
+<p>Fizer menos exercício do que o habitual. </p>
+</li>
+</ul>
+<p>Sinais de aviso de um nível alto de açúcar no sangue: 
+Os sinais de aviso surgem gradualmente. Incluem: aumento da frequência urinária; sensação de sede; 
+perda de apetite; enjoo (náuseas ou vómitos); sensação de sonolência ou cansaço; pele seca e com 
+vermelhidão, boca seca e um hálito com cheiro a fruta (acetona). </p>
+<p>O que fazer se tiver um nível alto de açúcar no sangue: 
+► 
+Se tiver um destes sinais: teste o seu nível de açúcar no sangue, controle a presença de corpos 
+cetónicos na urina, se puder, e depois procure auxílio médico imediatamente. 
+► 
+Estes podem ser sinais de um problema muito grave chamado cetoacidose diabética 
+(acumulação de ácidos no sangue, dado que o sangue está a decompor gordura em vez de 
+açúcar). Caso não seja tratada, esta situação pode conduzir a coma diabético e, eventualmente, à 
+morte. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar novorapid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar novorapid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior 
+após ‘VAL’. O prazo de validade corresponde ao último dia do mês indicado.<br />
+Mantenha o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>
+<p>Antes da abertura inicial: Conservar no frigorífico entre 2ºC a 8ºC, afastado do gerador de frio. Não 
+congelar. </p>
+<p>Durante a utilização ou quando transportado como sobresselente: O medicamento pode ser 
+guardado durante um máximo de 4 semanas. Conservar a uma temperatura inferior a 30ºC. Não 
+refrigerar nem congelar. </p>
+<p>Deite a agulha fora depois de cada injeção. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de NovoRapid </p>
+<ul>
+<li>
+<p>A substância ativa é a insulina aspártico. Cada ml contém 100 unidades de insulina aspártico. 
+Cada frasco para injetáveis contém 1.000 unidades de insulina aspártico em 10 ml de solução 
+injetável. </p>
+</li>
+<li>
+<p>Os outros componentes são glicerol, fenol, metacresol, cloreto de zinco, fosfato dissódico di-
+hidratado, cloreto de sódio, ácido clorídrico, hidróxido de sódio e água para preparações 
+injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de NovoRapid e conteúdo da embalagem </p>
+<p>NovoRapid apresenta-se como uma solução injetável. </p>
+<p>Embalagens de 1 ou 5 frascos para injetáveis de 10 ml ou uma embalagem múltipla de 5 embalagens 
+de 1 frasco para injetáveis x 10 ml. É possível que não sejam comercializadas todas as apresentações. </p>
+<p>A solução é transparente e incolor. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Novo Nordisk A/S, Novo Allé, DK-2880 Bagsværd, Dinamarca </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -992,6 +1540,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-1c483862a2de53c1f77db26617c2401e"
 * entry[0].resource = composition-da-1c483862a2de53c1f77db26617c2401e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1c483862a2de53c1f77db26617c2401e"
+* entry[=].resource = mp1c483862a2de53c1f77db26617c2401e
+                            
+                    
+Instance: bundlepackageleaflet-pt-1c483862a2de53c1f77db26617c2401e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for novorapid Package Leaflet for language pt"
+Description: "ePI document Bundle for novorapid Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-1c483862a2de53c1f77db26617c2401e"
+* entry[0].resource = composition-pt-1c483862a2de53c1f77db26617c2401e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp1c483862a2de53c1f77db26617c2401e"
@@ -1093,6 +1663,18 @@ RuleSet: 1c483862a2de53c1f77db26617c2401eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-1c483862a2de53c1f77db26617c2401e) // novorapid pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

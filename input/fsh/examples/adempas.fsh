@@ -1033,6 +1033,519 @@ hjemmeside: http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-pt-a0ac9d79e71815d66e8cc1b00ebabcb0
+InstanceOf: CompositionUvEpi
+Title: "Composition for adempas Package Leaflet"
+Description:  "Composition for adempas Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa0ac9d79e71815d66e8cc1b00ebabcb0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - adempas"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Adempas e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Adempas </li>
+<li>Como tomar Adempas </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Adempas </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é adempas e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é adempas e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Adempas contém a substância ativa riociguat, um estimulador da guanilato ciclase (sGC). Atua 
+alargando os vasos sanguíneos que vão do coração aos pulmões. </p>
+<p>O Adempas é utilizado para tratar adultos e crianças com certas formas de hipertensão pulmonar, uma 
+condição em que estes vasos sanguíneos ficam mais estreitos, dificultando o bombeamento de sangue 
+através deles e causando uma tensão arterial elevada nos vasos. O coração tem necessidade de 
+trabalhar com mais esforço que o normal, fazendo com que as pessoas se sintam cansadas, tontas e 
+com falta de ar. </p>
+<p>Ao alargar as artérias estreitadas, o Adempas melhora a capacidade de efetuar exercício físico, ou seja, 
+andar mais. </p>
+<p>O Adempas é utilizado em qualquer um dos dois tipos de hipertensão pulmonar: </p>
+<ul>
+<li>
+<p>Hipertensão pulmonar tromboembólica crónica (HPTEC). 
+Os comprimidos de Adempas são utilizados para tratar a HPTEC em doentes adultos. Na 
+HPTEC, os vasos sanguíneos dos pulmões estão bloqueados ou apertados com coágulos de 
+sangue. Adempas pode ser utilizado para doentes com HPTEC que não podem ser operados, ou 
+após cirurgia em doentes nos quais a tensão arterial elevada nos pulmões persiste ou torna a 
+aparecer. </p>
+</li>
+<li>
+<p>Certos tipos de hipertensão arterial pulmonar (HAP). 
+Os comprimidos de Adempas são utilizados para tratar a HAP em adultos e crianças abaixo dos 
+18 anos de idade com um peso corporal de, pelo menos, 50 kg. Na HAP, as paredes dos vasos 
+sanguíneos dos pulmões tornam-se grossas e os vasos tornam-se apertados. Adempas é apenas 
+prescrito em certas formas de HAP, isto é, na HAP idiopática (a causa da HAP é desconhecida), 
+HAP hereditária e HAP causada por doença do tecido conjuntivo. O seu médico verificará esta 
+questão. Adempas pode ser tomado sozinho ou juntamente com outros medicamentos utilizados 
+para tratar a HAP. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar adempas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar adempas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Adempas se: 
+- toma inibidores da PDE5 (por exemplo, sildenafil, tadalafil, vardenafil). Estes são 
+medicamentos para tratar a tensão arterial elevada nas artérias dos pulmões (HAP) ou a 
+disfunção erétil. 
+- tem problemas graves do fígado (compromisso hepático grave). 
+- tem alergia ao riociguat ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- está grávida. 
+- toma nitratos ou dadores de óxido nítrico (como nitrito de amilo) em qualquer forma, 
+medicamentos frequentemente utilizados para tratar a tensão arterial elevada, dor no peito ou 
+doença do coração. Estes também incluem drogas recreativas chamadas “poppers". 
+- toma outros medicamentos semelhantes ao Adempas (estimulador da guanilato ciclase 
+solúvel, como o vericiguat). Pergunte ao seu médico se não tem a certeza. 
+- tem tensão arterial baixa (tensão arterial sistólica: em crianças dos 6 a &lt; 12 anos inferior a 
+90 mmHg; em doentes ≥ 12 anos inferior a 95 mmHg) antes de iniciar o primeiro tratamento 
+com este medicamento.<br />
+- tem tensão arterial aumentada nos pulmões associada a cicatrização dos pulmões, de causa 
+desconhecida (pneumonia pulmonar idiopática). 
+Se alguma destas situações se aplicar a si, fale primeiro com o seu médico e não tome Adempas. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Adempas se: 
+- teve recentemente uma hemorragia grave dos pulmões. 
+- foi submetido a tratamento para parar de tossir sangue (embolização arterial 
+brônquica). 
+- toma medicamentos para tornar o sangue mais fluido (anticoagulantes) porque 
+podem causar hemorragia dos pulmões. O seu médico irá efetuar análises ao sangue e 
+medirá a sua tensão arterial regularmente. 
+- sente falta de ar, que poderá ser devida a uma acumulação de líquido nos pulmões. 
+Fale com o seu médico se isto acontecer. 
+- tem quaisquer sintomas de tensão arterial baixa (hipotensão), tais como tonturas, 
+vertigens ou desmaios, ou se estiver a tomar medicamentos para baixar a tensão 
+arterial, ou medicamentos que causem um aumento da frequência urinária ou se tiver 
+problemas no coração ou na circulação. O seu médico pode decidir controlar a sua 
+tensão arterial. Se tem mais de 65 anos, tem um risco maior de desenvolver tensão 
+arterial baixa. 
+- toma medicamentos utilizados para tratar infeções fúngicas (por exemplo, 
+cetoconazol, posaconazol, itraconazol) ou medicamentos para o tratamento da 
+infeção pelo VIH (por exemplo, abacavir, atazanavir, cobicistate, darunavir, 
+dolutegravir, efavirenz, elvitegravir, emtricitabina, lamivudina, rilpivirina, ritonavir e 
+tenofovir). O seu médico irá monitorizar o seu estado de saúde e deve considerar uma 
+dose inicial mais baixa de Adempas. 
+- está a fazer diálise ou os seus rins não funcionam bem (depuração da creatinina 
+inferior a 30 ml/min), a utilização deste medicamento não é recomendada. 
+- tem problemas moderados de fígado (compromisso hepático). 
+- começa ou para de fumar durante o tratamento com este medicamento, uma vez que 
+isso pode influenciar o nível de riociguat no seu sangue. </p>
+<p>Crianças e adolescentes 
+A utilização dos comprimidos de Adempas em crianças com menos de 6 anos e adolescentes com 
+menos de 50 kg de peso deve ser evitada. A eficácia e segurança não foram estabelecidas nas seguintes 
+populações pediátricas: 
+- Crianças com &lt; 6 anos de idade, devido a questões de segurança. 
+- Crianças com HAP com tensão arterial muito baixa:<br />
+o dos 6 aos &lt; 12 anos de idade &lt; 90 mmHg no início do tratamento, 
+o dos 12 aos &lt; 18 anos de idade &lt;95 mmHg no início do tratamento. 
+- Crianças e adolescentes com outras formas desta doença, por exemplo, HPTEC, se tiver &lt; anos de idade. </p>
+<p>Outros medicamentos e Adempas 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos, em especial, medicamentos utilizados para: 
+- tensão arterial elevada ou doença do coração (como nitratos e nitrito de amilo em qualquer 
+forma ou outro estimulador da guanilato ciclase solúvel [como o vericiguat]). Não pode 
+tomá-los juntamente com Adempas. 
+- tensão arterial elevada nos vasos sanguíneos dos pulmões (as artérias pulmonares), porque não 
+pode tomar certos medicamentos (sildenafil e tadalafil) juntamente com Adempas. Outros 
+medicamentos para a tensão arterial elevada nos vasos pulmonares, como o bosentano e o 
+iloprost podem ser tomados com Adempas, mas deve informar o seu médico. 
+- disfunção erétil (como sildenafil, tadalafil, vardenafil), porque não pode tomá-los juntamente 
+com Adempas. 
+- infeções por fungos (como cetoconazol, posaconazol, itraconazol) ou infeção por VIH (tal 
+como abacavir, atazanavir, cobicistate, darunavir, dolutegravir, efavirenz, elvitegravir, 
+emtricitabina, rilpivirina ou ritonavir). Podem ser consideradas opções alternativas de 
+tratamento. Se já tomar um destes medicamentos e iniciar o tratamento com Adempas, o seu 
+médico irá monitorizar o seu estado de saúde e deverá considerar uma dose inicial mais baixa de 
+Adempas. 
+- epilepsia (por exemplo, fenitoína, carbamazepina, fenobarbitona). 
+- depressão (hipericão). 
+- prevenção da rejeição de órgãos transplantados (ciclosporina). 
+- dores musculares e articulares (ácido niflúmico). 
+- cancro (como erlotinib, gefitinib). 
+- doença do estômago ou azia (antiácidos como o hidróxido de alumínio/hidróxido de 
+magnésio). Estes medicamentos devem ser tomados pelo menos 2 horas antes ou 1 hora depois 
+de tomar Adempas. 
+- náuseas, vómitos (sentir-se ou estar doente) (como o granissetrom). </p>
+<p>Tabagismo 
+Se fuma, é recomendável que pare de o fazer, pois o tabagismo pode diminuir a eficácia destes 
+comprimidos. Informe o seu médico se fuma ou se parar de fumar durante o tratamento. Poderá ser 
+necessário um ajuste da dose. </p>
+<p>Contraceção, gravidez e amamentação </p>
+<p>Contraceção 
+As mulheres e as adolescentes com potencial para engravidar têm de utilizar métodos contracetivos 
+eficazes durante o tratamento com Adempas. </p>
+<p>Gravidez 
+Não tome Adempas durante a gravidez. Aconselha-se que faça testes de gravidez mensalmente. Se 
+está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico ou farmacêutico 
+antes de tomar este medicamento. </p>
+<p>Amamentação 
+Se está a amamentar ou planeia amamentar, consulte o seu médico ou farmacêutico antes de tomar 
+este medicamento porque pode causar lesões no seu bebé. Não deve amamentar enquanto está a tomar 
+este medicamento. O seu médico decidirá consigo se para de amamentar ou se para de tomar 
+Adempas. </p>
+<p>Condução de veículos e utilização de máquinas 
+Adempas tem um efeito moderado sobre a capacidade de andar de bicicleta, conduzir e utilizar 
+máquinas. Pode causar efeitos indesejáveis como por exemplo tonturas. Deve estar ciente dos efeitos 
+indesejáveis deste medicamento antes de andar de bicicleta, conduzir ou utilizar máquinas (ver 
+secção 4). </p>
+<p>Adempas contém lactose. 
+Se foi informado por um médico que tem intolerância a alguns açúcares, contacte o seu médico antes 
+de tomar este medicamento. </p>
+<p>Adempas contém sódio 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar adempas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar adempas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Estão disponíveis comprimidos de Adempas para doentes com idade igual ou superior a 6 anos e com 
+um peso de, pelo menos, 50 kg. </p>
+<p>O tratamento só deve ser iniciado e monitorizado por um médico com experiência no tratamento da 
+tensão arterial alta nas artérias pulmonares. Durante as primeiras semanas de tratamento, o seu médico 
+terá de medir a sua tensão arterial em intervalos regulares. Adempas está disponível em diferentes 
+dosagens e, verificando a sua tensão arterial regularmente no início do tratamento, o seu médico 
+assegurará que está a tomar a dose adequada. </p>
+<p>Comprimidos esmagados: 
+Se tiver dificuldade em engolir comprimidos inteiros, fale com o seu médico sobre outras maneiras de 
+tomar Adempas. O comprimido pode ser esmagado e misturado com água ou com um alimento mole, 
+como puré de maçã, imediatamente antes de o tomar. </p>
+<p>Dose 
+A dose inicial recomendada é de 1 comprimido de 1 mg tomado 3 vezes por dia durante 2 semanas. 
+Os comprimidos devem ser tomados 3 vezes por dia a cada 6 a 8 horas. Podem geralmente ser 
+tomados com ou sem alimentos. 
+Contudo, se tem tendência para ter tensão arterial baixa (hipotensão), não deve alterar a toma de 
+Adempas com alimentos para Adempas sem alimentos pois isso pode afetar o modo como reage a este 
+medicamento. </p>
+<p>Durante as primeiras semanas de tratamento, o seu médico terá de medir a sua tensão arterial, pelo 
+menos, a cada duas semanas. O seu médico aumentará a dose em intervalos de 2 semanas até um 
+máximo de 2,5 mg 3 vezes por dia (dose diária máxima de 7,5 mg), a menos que tenha uma tensão 
+arterial muito baixa. Neste caso, o seu médico receitar-lhe-á Adempas na dose mais elevada na qual se 
+sente bem. O seu médico escolherá a melhor dose. Em alguns doentes, doses mais baixas 3 vezes por 
+dia podem ser suficientes. </p>
+<p>Considerações especiais em doentes com problemas de rins ou de fígado 
+Informe o seu médico se tiver problemas de rins ou de fígado. O seu médico poderá ter de ajustar a 
+dose. Se tiver problemas graves de fígado, não tome Adempas. </p>
+<p>65 ou mais anos de idade 
+Se tem 65 anos de idade ou mais, o seu médico terá precaução em ajustar a sua dose de Adempas 
+porque pode ter um maior risco de ficar com a tensão arterial baixa. </p>
+<p>Considerações especiais para doentes que fumem 
+Informe o seu médico se começar ou parar de fumar durante o tratamento com este medicamento. O 
+seu médico poderá ter que ajustar a dose.  </p>
+<p>Se tomar mais Adempas do que deveria 
+Contacte o seu médico se tiver tomado mais Adempas do que deveria e se notar quaisquer efeitos 
+indesejáveis (ver secção 4). Se a sua tensão arterial baixar (o que pode fazer com que se sinta tonto), 
+poderá necessitar de atenção médica imediata. </p>
+<p>Caso se tenha esquecido de tomar Adempas 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. No caso de 
+esquecimento de uma dose, continue com a dose seguinte conforme planeado. </p>
+<p>Se parar de tomar Adempas 
+Não pare de tomar este medicamento sem falar primeiro com o seu médico, porque este medicamento 
+evita a progressão da doença. Se parar de tomar este medicamento durante 3 dias ou mais, informe o 
+seu médico antes de reiniciar a toma do medicamento. </p>
+<p>Se estiver em transição entre sildenafil ou tadalafil e Adempas 
+Tem de fazer uma pausa entre a toma do medicamento anterior e do novo medicamento para evitar 
+interações. 
+Mudar para Adempas 
+- Tome ou administre Adempas não antes de 24 horas após ter parado de tomar o sildenafil. 
+- Tome ou administre Adempas não antes de 48 horas após ter parado de tomar o tadalafil nos 
+adultos e após 72 horas nas crianças. 
+Mudar de Adempas para outro medicamento 
+- Pare de tomar ou de administrar Adempas, pelo menos, 24 horas antes de começar a utilizar um 
+inibidor da PDE5 (por exemplo, sildenafil ou tadalafil). </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis mais graves em adultos são: 
+- tossir sangue (hemoptise) (efeito indesejável frequente, pode afetar até 1 em 10 pessoas), 
+- hemorragia aguda dos pulmões (hemorragia pulmonar) pode resultar em tossir sangue, tendo 
+sido observados casos com desfecho fatal (efeito indesejável pouco frequente, pode afetar até 
+1 em 100 pessoas). 
+Se isto ocorrer, contacte imediatamente o seu médico porque pode necessitar de tratamento médico 
+urgente. </p>
+<p>Lista geral de efeitos indesejáveis possíveis: </p>
+<p>Muito frequentes: podem afetar mais do que 1 em cada 10 pessoas 
+- dores de cabeça 
+- tonturas 
+- indigestão (dispepsia) 
+- inchaço dos membros (edema periférico) 
+- diarreia 
+- enjoos ou vómitos (náuseas e vómitos) </p>
+<p>Frequentes: podem afetar até 1 em cada 10 pessoas 
+- inflamação do estômago (gastrite) 
+- inflamação no sistema digestivo (gastroenterite) 
+- diminuição dos glóbulos vermelhos (anemia), que é observada devido a pele pálida, fraqueza ou 
+falta de ar 
+- sensação de batimentos irregulares, fortes ou rápidos do coração (palpitação) 
+- baixa tensão arterial (hipotensão) 
+- hemorragias do nariz (epistaxe) 
+- dificuldade em respirar pelo nariz (congestão nasal) 
+- dor no estômago, intestinos ou abdómen (dor gastrointestinal e abdominal) 
+- azia (doença do refluxo gastroesofágico) 
+- dificuldade em engolir (disfagia) 
+- prisão de ventre 
+- inchaço (distensão abdominal) </p>
+<p>Efeitos indesejáveis em crianças 
+Em geral, os efeitos indesejáveis observados em crianças entre os 6 e 17 anos de idade tratadas com 
+Adempas foram semelhantes aos observados nos adultos. Os efeitos indesejáveis mais frequentes em 
+crianças foram: 
+- tensão arterial baixa (hipotensão) (pode afetar mais de 1 em 10 pessoas), 
+- dor de cabeça (pode afetar até 1 em 10 pessoas). </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar adempas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar adempas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Adempas </p>
+<ul>
+<li>
+<p>A substância ativa é o riociguat. 
+Adempas 0,5 mg comprimidos revestidos por película 
+Cada comprimido revestido por película contém 0,5 mg riociguat. 
+Adempas 1 mg comprimidos revestidos por película 
+Cada comprimido revestido por película contém 1 mg riociguat. 
+Adempas 1,5 mg comprimidos revestidos por película 
+Cada comprimido revestido por película contém 1,5 mg riociguat. 
+Adempas 2 mg comprimidos revestidos por película 
+Cada comprimido revestido por película contém 2 mg riociguat. 
+Adempas 2,5 mg comprimidos revestidos por película 
+Cada comprimido revestido por película contém 2,5 mg riociguat. </p>
+</li>
+<li>
+<p>Os outros componentes são: 
+Núcleo do comprimido: celulose microcristalina, crospovidona (tipo B), hipromelose 5 cP, 
+lactose mono-hidratada, estearato de magnésio e laurilsulfato de sódio (ver o fim da secção 2 
+para outras informações sobre lactose). 
+Revestimento por película: hidroxipropilcelulose, hipromelose 3 cP, propilenoglicol (E 1520) e 
+dióxido de titânio (E 171). 
+Os comprimidos de Adempas 1 mg, 1,5 mg também contêm óxido de ferro amarelo (E 172). 
+Os comprimidos de Adempas 2 mg e 2,5 mg também contêm óxido de ferro amarelo (E 172) e 
+óxido de ferro vermelho (E 172). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Adempas e conteúdo da embalagem </p>
+<p>Adempas é um comprimido revestido por película: 
+Adempas 0,5 mg comprimidos revestidos por película 
+- Comprimido de 0,5 mg: comprimidos brancos, redondos, biconvexos, de 6 mm, marcados com 
+a cruz Bayer num dos lados e com 0,5 e um “R" no outro. 
+Adempas 1 mg comprimidos revestidos por película 
+- Comprimido de 1 mg: comprimidos amarelos pálidos, redondos, biconvexos, de 6 mm, 
+marcados com a cruz Bayer num dos lados e com 1 e um “R" no outro. 
+Adempas 1,5 mg comprimidos revestidos por película 
+- Comprimido de 1,5 mg: comprimidos amarelos alaranjados, redondos, biconvexos, de 6 mm, 
+marcados com a cruz Bayer num dos lados e com 1,5 e um “R" no outro. 
+Adempas 2 mg comprimidos revestidos por película 
+- Comprimido de 2 mg: comprimidos cor de laranja pálido, redondos, biconvexos, de 6 mm, 
+marcados com a cruz Bayer num dos lados e com 2 e um “R" no outro. 
+Adempas 2,5 mg comprimidos revestidos por película 
+- Comprimido de 2,5 mg: comprimidos vermelhos alaranjados, redondos, biconvexos, de 6 mm, 
+marcados com a cruz Bayer num dos lados e com 2,5 e um “R" no outro. </p>
+<p>São apresentados em embalagens de: 
+- 42 comprimidos: dois blisters transparentes com calendário, cada com 21 comprimidos. 
+- 84 comprimidos: quatro blisters transparentes com calendário, cada com 21 comprimidos. 
+- 90 comprimidos: cinco blisters transparentes, cada com 18 comprimidos. 
+- 294 comprimidos: catorze blisters transparentes com calendário, cada com 21 comprimidos. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Bayer AG 
+51368 Leverkusen 
+Alemanha </p>
+<p>Fabricante 
+Bayer AG 
+Kaiser-Wilhelm-Allee 
+51368 Leverkusen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België / Belgique / Belgien 
+MSD Belgium 
+Tél/Tel: +32(0)27766dpoc_belux@merck.com </p>
+<p>Lietuva 
+UAB Merck Sharp &amp; Dohme 
+Tel: + 370 5 2780msd_lietuva@merck.com </p>
+<p>България 
+Мерк Шарп и Доум България ЕООД 
+Teл.: + 359 2 819 37 info-msdbg@merck.com </p>
+<p>Luxembourg / Luxemburg 
+MSD Belgium 
+Tel/Tél: +32(0)27766dpoc_belux@merck.com </p>
+<p>Česká republika 
+Merck Sharp &amp; Dohme s.r.o. 
+Tel.: +420 233 010 dpoc_czechslovak@merck.com </p>
+<p>Magyarország 
+MSD Pharma Hungary Kft. 
+Tel.: + 36 1 888-5hungary_msd@merck.com </p>
+<p>Danmark 
+MSD Danmark ApS 
+Tlf: + 45 4482 4dkmail@merck.com </p>
+<p>Malta 
+Merck Sharp &amp; Dohme Cyprus Limited 
+Tel: 8007 4433 (+356 99917558) 
+malta_info@merck.com </p>
+<p>Deutschland 
+MSD Sharp &amp; Dohme GmbH 
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0) 
+email@msd.de </p>
+<p>Nederland 
+Merck Sharp &amp; Dohme B.V. 
+Tel: 0800 9999 000 (+ 31 23 5153153) 
+medicalinfo.nl@merck.com </p>
+<p>Eesti 
+Merck Sharp &amp; Dohme OÜ 
+Tel: + 372 6144 msdeesti@merck.com </p>
+<p>Norge 
+MSD (Norge) AS 
+Tlf: + 47 32 20 73 msdnorge@msd.no </p>
+<p>Ελλάδα 
+MSD Α.Φ.Β.Ε.Ε 
+Τηλ: + 30 210 98 97 dpoc_greece@merck.com </p>
+<p>Österreich 
+Merck Sharp &amp; Dohme Ges.m.b.H. 
+Tel: +43 (0) 1 26 dpoc_austria@merck.com </p>
+<p>España 
+Merck Sharp &amp; Dohme de España, S.A. 
+Tel: +34 91 321 06 msd_info@merck.com </p>
+<p>Polska 
+MSD Polska Sp.z o.o. 
+Tel.: +48 22 549 51 msdpolska@merck.com </p>
+<p>France 
+MSD France 
+Tél: + 33 (0) 1 80 46 40<br />
+Portugal 
+Merck Sharp &amp; Dohme, Lda 
+Tel: + 351 214465inform_pt@merck.com </p>
+<p>Hrvatska 
+Merck Sharp &amp; Dohme d.o.o. 
+Tel: + 385 1 6611 croatia_info@merck.com </p>
+<p>România 
+Merck Sharp &amp; Dohme Romania S.R.L. 
+Tel: + 40 21 529 29 msdromania@merck.com </p>
+<p>Ireland 
+Merck Sharp &amp; Dohme Ireland (Human Health) 
+Limited 
+Tel: +353 (0)1 2998medinfo_ireland@merck.com </p>
+<p>Slovenija 
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o. 
+Tel: + 386 1 5204msd_slovenia@merck.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: + 354 535 7 
+Slovenská republika 
+Merck Sharp &amp; Dohme, s. r. o. 
+Tel: + 421 2 58282dpoc_czechslovak@merck.com </p>
+<p>Italia 
+MSD Italia S.r.l. 
+Tel: 800 23 99 89 (+39 06 361911) 
+medicalinformation.it@msd.com </p>
+<p>Suomi/Finland 
+MSD Finland Oy 
+Puh/Tel: + 358 (0)9 804info@msd.fi </p>
+<p>Κύπρος 
+Merck Sharp &amp; Dohme Cyprus Limited 
+Τηλ: 800 00 673 (+357 22866700) 
+cyprus_info@merck.com </p>
+<p>Sverige 
+Merck Sharp &amp; Dohme (Sweden) AB 
+Tel: + 46 77 5700medicinskinfo@merck.com </p>
+<p>Latvija 
+SIA Merck Sharp &amp; Dohme Latvija 
+Tel: + 371 67364msd_lv@merck.com </p>
+<p>United Kingdom (Northern Ireland) 
+Merck Sharp &amp; Dohme Ireland (Human Health) 
+Limited<br />
+Tel: +353 (0)1 2998medinfoNI@msd.com </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1074,6 +1587,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a0ac9d79e71815d66e8cc1b00ebabcb0"
 * entry[0].resource = composition-da-a0ac9d79e71815d66e8cc1b00ebabcb0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa0ac9d79e71815d66e8cc1b00ebabcb0"
+* entry[=].resource = mpa0ac9d79e71815d66e8cc1b00ebabcb0
+                            
+                    
+Instance: bundlepackageleaflet-pt-a0ac9d79e71815d66e8cc1b00ebabcb0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adempas Package Leaflet for language pt"
+Description: "ePI document Bundle for adempas Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a0ac9d79e71815d66e8cc1b00ebabcb0"
+* entry[0].resource = composition-pt-a0ac9d79e71815d66e8cc1b00ebabcb0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa0ac9d79e71815d66e8cc1b00ebabcb0"
@@ -1175,6 +1710,18 @@ RuleSet: a0ac9d79e71815d66e8cc1b00ebabcb0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a0ac9d79e71815d66e8cc1b00ebabcb0) // adempas pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

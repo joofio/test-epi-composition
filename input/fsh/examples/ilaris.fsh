@@ -1454,6 +1454,595 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-943ee66eb6c14bbfb08d263a24ef8bd8
+InstanceOf: CompositionUvEpi
+Title: "Composition for ilaris Package Leaflet"
+Description:  "Composition for ilaris Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp943ee66eb6c14bbfb08d263a24ef8bd8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ilaris"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Ilaris e para que é utilizado 
+2. O que precisa de saber antes de utilizar Ilaris 
+3. Como utilizar Ilaris 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Ilaris 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ilaris e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ilaris e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Ilaris 
+Ilaris contém a substância ativa canacinumab, um anticorpo monoclonal, que pertence ao grupo de 
+medicamentos designados inibidores das interleucinas. Bloqueia a atividade de uma substância 
+chamada interleucina-1 beta (IL-1 beta) no organismo, que está presente com níveis aumentados em 
+doenças inflamatórias. </p>
+<p>Para que é utilizado Ilaris 
+Ilaris é utilizado para o tratamento das seguintes doenças inflamatórias: 
+- Síndromes febris periódicas: </p>
+<ul>
+<li>
+<p>síndromes periódicas associados à criopirina (CAPS), </p>
+</li>
+<li>
+<p>síndrome periódica associada ao receptor do fator de necrose tumoral (TRAPS) </p>
+</li>
+<li>
+<p>síndrome de hiperimunoglobulina D (HIDS) /deficiência de mevalonato quinase (MKD) </p>
+</li>
+<li>
+<p>febre familiar do Mediterrâneo (FMF). </p>
+</li>
+<li>Doença de Still incluindo doença de Still do adulto (DSA) e artrite idiopática juvenil sistémica 
+(AIJs) </li>
+<li>Artrite gotosa </li>
+</ul>
+<p>É disponibilizado abaixo mais informação acerca destas doenças. </p>
+<p>Síndromes febris periódicas 
+Ilaris é indicado em adultose crianças com idade igual ou superior a 2 anos no tratamento das 
+seguintes doenças: 
+- Síndromes periódicas associados à criopirina (CAPS) - é um grupo de doenças 
+autoinflamatórias, que incluem: </p>
+<ul>
+<li>
+<p>Síndrome de Muckle-Wells (MWS), </p>
+</li>
+<li>
+<p>Doença inflamatória multissistémica de início neonatal (NOMID), também designada por 
+síndrome neuro-cutânea-articular crónica do lactente (CINCA), </p>
+</li>
+<li>
+<p>Formas graves da síndrome familiar autoinflamatória ao frio (FCAS) / urticária familiar 
+ao frio (FCU) apresentando sinais e sintomas para além da erupção cutânea urticariforme 
+induzida pelo frio. </p>
+</li>
+<li>Síndrome periódica associado ao receptor do fator de necrose tumoral (TRAPS) </li>
+<li>Síndrome de hiperimunoglobulina D (HIDS) também conhecida como deficiência de 
+mevalonato quinase (MKD) </li>
+<li>Febre familiar do Mediterrâneo (FMF): Ilaris é utilizado para tratar FMF. Ilaris pode ser 
+administrado em combinação com colquicina, se apropriado. </li>
+</ul>
+<p>Nos doentes com síndromes febris periódicas (CAPS, TRAPS, HIDS/MKD e FMF), o organismo 
+produz demasiada IL-1 beta. Tal pode causar febre, dor de cabeça, fadiga (cansaço), erupção cutânea, 
+dores nas articulações e nos músculos. Ao bloquear a atividade da IL-1 beta, Ilaris pode melhor estes 
+sintomas. </p>
+<p>Doença de Still 
+Ilaris é indicado em adultos, adolescentes e crianças para o tratamento da doença de Still ativa 
+incluindo doença de Still do adulto (DSA) e artrite idiopática juvenil sistémica em doentes com 2 anos 
+de idade e mais velhos, se outros tratamentos não tiverem atuado suficientemente bem. Ilaris pode ser 
+usado isoladamente ou em associação com metotrexato. </p>
+<p>A doença de Still, incluindo AIJs e DSA, é uma doença inflamatória que causa dor, aumento (edema) 
+e inflamação de uma ou mais articulações, bem como erupção cutânea e febre. Uma proteína pró-
+inflamatória chamada IL-1 beta desempenha um papel importante nos processos inflamatórios da 
+doença de Still. Ilaris bloqueia a atividade da IL-1 beta, podendo melhorar os sinais e sintomas da 
+doença de Still. </p>
+<p>Artrite gotosa 
+Ilaris é indicado em adultos para tratar sintomas de crises frequentes de artrite gotosa, se outros 
+tratamentos não tiverem sido suficientemente eficazes. </p>
+<p>A artrite gotosa é causada pela formação de cristais de urato. Estes cristais causam uma produção 
+excessiva de IL-1 beta que, por sua vez pode causar dor forte súbita, vermelhidão, calor e inchaço 
+numa articulação (o que é conhecido como crise de gota). Ao bloquear a atividade da IL-1 beta, Ilaris 
+pode levar a uma melhoria destes sintomas. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ilaris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ilaris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Ilaris 
+- se tem alergia ao canacinumab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). 
+- se tem, ou suspeita ter, uma infeção grave e ativa. </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de utilizar Ilaris no caso de alguma das seguintes situações se aplicar a 
+si: 
+− 
+se sofre presentemente de alguma infeção ou se teve infeções repetidas ou uma condição, tal 
+como nível baixo de glóbulos brancos conhecido, que o torne mais suscetível a contrair 
+infeções. 
+− 
+se tem ou alguma vez teve tuberculose ou contacto direto com uma pessoa com uma infeção 
+tuberculosa ativa. O seu médico pode verificar que tem tuberculose utilizando um teste 
+específico. 
+− 
+se tem sinais de uma doença hepática tais como pele e olhos amarelos, náuseas, perda de apetite, 
+urina descolorada e fezes de cor clara. 
+− 
+se necessita de fazer qualquer vacinação. Aconselha-se que evite ser vacinado com um tipo de 
+vacina designada por vacina viva enquanto estiver a ser tratado com Ilaris (ver também “Outros 
+medicamentos e Ilaris"). </p>
+<p>Contacte imediatamente o seu médico 
+− 
+se alguma vez desenvolveu uma erupção cutânea generalizada e atípica ou descamação da pele 
+após tomar Ilaris. 
+A reação cutânea grave, DRESS (reação medicamentosa com eosinofilia e sintomas sistémicos), 
+foi notificada raramente em associação com o tratamento com Ilaris, predominantemente em 
+doentes com artrite idiopática juvenil sistémica (AIJs). Consulte imediatamente um médico se 
+notar uma erupção cutânea generalizada e atípica, que pode ocorrer em conjunto com 
+temperatura corporal elevada e aumento dos gânglios linfáticos. </p>
+<p>Doença de Still 
+− 
+Os doentes com Doença de Still podem desenvolver uma condição chamada Síndrome de 
+Ativação Macrofágica (SAM), que pode causar risco de vida. O seu médico irá monitorizá-lo 
+para potenciais fatores desencadeantes de SAM que incluem infeções e reativação da Doença de 
+Still subjacente (exacerbação). </p>
+<p>Crianças e adolescentes 
+− 
+CAPS, TRAPS, HIDS/MKD, FMF e AIJs: Ilaris pode ser usado em crianças com 2 anos de 
+idade e mais velhas. 
+− 
+Artrite gotosa: Ilaris não é recomendado para crianças e adolescentes com menos de 18 anos 
+de idade. </p>
+<p>Outros medicamentos e Ilaris 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente ou se 
+vier a tomar outros medicamentos. 
+− 
+Vacinas vivas: Aconselha-se que evite ser vacinado com um tipo de vacina designada por 
+vacina vivas enquanto estiver a ser tratado com Ilaris. O seu médico pode querer verificar o seu 
+boletim de vacinas e administrar-lhe qualquer vacina que não tenha recebido antes de iniciar o 
+tratamento com Ilaris. Se for necessário que seja vacinada com uma vacina viva após iniciar o 
+tratamento com Ilaris, fale com o seu médico. Uma vacina viva deve ser administrada 
+normalmente 3 meses após a sua última injeção de Ilaris e 3 meses antes da próxima injeção. 
+− 
+Medicamentos chamados inibidores do fator de necrose tumoral (TNF), como por exemplo 
+etanercept, adalimumab ou infliximab. Estes medicamentos são usados predominantemente em 
+doenças reumáticas e autoimunes. Não devem ser usados com Ilaris porque tal pode aumentar o 
+risco de infeções. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. 
+− 
+Aconselha-se que deve evitar ficar grávida e que tem de usar métodos de contraceção adequados 
+enquanto utiliza Ilaris e até 3 meses depois do último tratamento com Ilaris. É importante que 
+informe o seu médico se estiver grávida, se pensa que pode estar grávida ou se planeia 
+engravidar. O seu médico irá discutir consigo os riscos potenciais de utilizar Ilaris durante a 
+gravidez. 
+− 
+Se recebeu canacinumab enquanto esteve grávida, é importante informar o médico ou 
+enfermeiro do seu bebé antes de qualquer vacinação. O seu bebé não deve receber vacina vivas 
+até pelo menos 16 semanas após ter recebido a sua última dose de canacinumab antes do parto. 
+− 
+Não se sabe se Ilaris passa para o leite humano. O seu médico irá discutir consigo os riscos 
+potenciais de utilizar Ilaris antes de amamentar. </p>
+<p>Condução de veículos e utilização de máquinas 
+O tratamento com Ilaris pode causar-lhe uma sensação de andar à roda (tonturas ou vertigens) ou 
+cansaço intenso (astenia). Isto pode afetar a sua capacidade para conduzir ou utilizar instrumentos ou 
+máquinas. Se tiver a sensação de andar à roda ou se se sentir cansado, não conduza ou utilize 
+quaisquer instrumentos ou máquinas até se sentir normal novamente. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ilaris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ilaris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico, 
+farmacêutico ou enfermeiro se tiver dúvidas. </p>
+<p>Mantenha o seu médico informado sobre a sua doença e quaisquer sintomas antes de utilizar ou lhe ser 
+administrado Ilaris (ver secção 2). O seu médico pode decidir atrasar ou interromper o tratamento, mas 
+apenas se necessário. </p>
+<p>Ilaris destina-se a ser utilizado por via subcutânea. Tal significa que é injetado através de uma agulha 
+curta no tecido adiposo localizado imediatamente debaixo da pele. </p>
+<p>Se tiver artrite gotosa, o seu tratamento será supervisionado por um médico especialista. Ilaris apenas 
+deve ser administrado por um profissional de saúde. </p>
+<p>Se tiver CAPS, TRAPS, HIDS/MKD, FMF ou doença de Still (DSA ou AIJs), pode injetar-se a si 
+próprio com Ilaris após formação apropriada, ou um cuidador poderá fazê-lo por si. </p>
+<p>Qual a quantidade de Ilaris a utilizar 
+Síndromes periódicas associadas à criopirina (CAPS) 
+A dose inicial recomendada de Ilaris é: 
+- Adultos e crianças com 4 anos de idade ou mais velhas </p>
+<ul>
+<li>
+<p>150 mg para doentes que pesem mais de 40 kg </p>
+</li>
+<li>
+<p>2 mg/kg para doentes que pesem entre 15 kg e 40 kg </p>
+</li>
+<li>
+<p>4 mg/kg para doentes que pesem entre 7,5 kg e 15 kg </p>
+</li>
+<li>
+<p>Crianças com 2 ou 3 anos de idade </p>
+</li>
+<li>
+<p>4 mg/kg para doentes com um peso corporal de 7,5 kg ou mais </p>
+</li>
+</ul>
+<p>Ilaris é injetado a cada 8 semanas, através de uma administração única. </p>
+<ul>
+<li>Se não tiver respondido suficientemente bem ao tratamento após 7 dias, o seu médico pode 
+administrar-lhe outra dose de 150 mg ou 2 mg/kg. </li>
+<li>Se responder suficientemente bem à segunda dose, o seu tratamento vai ser mantido com 
+300 mg ou 4 mg/kg, a cada 8 semanas. </li>
+<li>Se não responder suficientemente bem à segunda dose, uma terceira dose de Ilaris de 300 mg ou 
+4 mg/kg pode ser administrada. </li>
+<li>Se responder suficientemente bem à terceira dose, o seu tratamento vai ser mantido com a 
+administração de 600 g ou 8 mg/kg, a cada 8 semanas. </li>
+</ul>
+<p>Para crianças que receberam uma dose inicial de 4 mg/kg e que não responderam suficientemente bem 
+após 7 dias, o médico poderá prescrever uma segunda dose de 4 mg/kg. Se a criança responder 
+suficientemente bem, o tratamento pode ser continuado com uma dose de 8 mg/kg a cada 8 semanas. </p>
+<p>Síndrome periódica associada ao receptor do fator de necrose tumoral (TRAPS), síndrome de 
+hiperimunoglobulina D (HIDS)/deficiência de mevalonato quinase (MKD) e febre familiar do 
+Mediterrâneo (FMF) 
+A dose inicial recomendada de Ilaris é: 
+- Adultos e crianças com idade igual ou superior a 2 anos de idade </p>
+<ul>
+<li>
+<p>150 mg para doentes que pesem mais de 40 kg </p>
+</li>
+<li>
+<p>2 mg/kg para doentes que pesem entre 7,5 kg e 40 kg </p>
+</li>
+</ul>
+<p>Ilaris é injetado a cada 4 semanas através de uma administração única. </p>
+<ul>
+<li>Se não tiver respondido suficientemente bem ao tratamento após 7 dias, o seu médico pode 
+prescrever-lhe outra dose de 150 mg ou 2 mg/kg. </li>
+<li>Se responder suficientemente bem a esta dose, o seu tratamento vai ser continuado com 300 mg 
+ou 4 mg/kg a cada 4 semanas. </li>
+</ul>
+<p>Doença de Still (AIJs e DSA) 
+A dose recomendada de Ilaris para doentes com doença de Still (DSA ou AIJs) com peso corporal de 
+7,5 kg e superior é de 4 mg/kg (até um máximo de 300 mg). Ilaris é injetado a cada 4 semanas em dose 
+única. </p>
+<p>Artrite gotosa 
+O seu médico discutirá consigo a necessidade de iniciar ou ajustar a terapêutica para baixar os seus 
+níveis de ácido úrico no sangue. </p>
+<p>A dose recomendada de Ilaris para doentes adultos com artrite gotosa é de 150 mg administrados com 
+uma dose única no momento de uma crise de artrite gotosa. </p>
+<p>Se necessitar de ser novamente tratado com Ilaris, e tiver tido alívio com a administração anterior, 
+deve aguardar pelo menos 12 semanas antes da próxima administração. </p>
+<p>Injetar Ilaris em si próprio ou injetar um doente com Ilaris 
+Se for um doente CAPS, TRAPS, HIDS/MKD, FMF ou doença de Still (DSA ou AIJS), ou um 
+cuidador de doente com uma destas condições, poderá administrar as injeções de Ilaris em si próprio, 
+após formação adequada acerca da técnica correta de injeção. 
+− 
+O doente ou cuidador e o médico devem decidir em conjunto quem irá administrar as injeções 
+de Ilaris. 
+− 
+O médico ou enfermeiro irão demonstrar como administrar as injeções de Ilaris. 
+− 
+Não tente auto-administrar uma injeção caso não tenha sido recebido formação adequada ou se 
+não tiver a certeza de como o fazer. 
+− 
+Ilaris 150 mg pó para solução injetável é fornecido num frasco de utilização única, para uso 
+individual. 
+− 
+Nunca reutilize os restos da solução. </p>
+<p>Para saber como administrar as injeções de Ilaris, por favor leia no fim deste folheto informativo a 
+secção “Instruções para uso". Fale com o seu médico, farmacêutico ou enfermeiro se tiver quaisquer 
+perguntas. </p>
+<p>Durante quanto tempo utilizar Ilaris 
+− 
+CAPS, TRAPS, HIDS/MKD, FMF ou doença de Still (DSA ou AIJs): Deve utilizar Ilaris 
+durante o período de tempo que o médico lhe disser. 
+− 
+Artrite gotosa: Se tiver uma crise de artrite gotosa, ser-lhe-á administrada uma única dose de 
+Ilaris. Se tiver uma nova crise, o seu médico pode considerar administrar-lhe uma nova dose de 
+Ilaris mas não antes de 12 semanas após a dose anterior. </p>
+<p>Se utilizar mais Ilaris do que deveria 
+Se acidentalmente injetar mais Ilaris do que a dose recomendada, é pouco provável que seja grave, 
+mas deve informar o mais rapidamente possível o seu médico, farmacêutico ou enfermeiro. </p>
+<p>Caso se tenha esquecido de utilizar Ilaris 
+Se tiver CAPS, TRAPS, HIDS/MKD, FMF ou doença de Still (DSA ou AIJs) e se esqueceu de injetar 
+uma dose de Ilaris, injete a próxima dose logo que se lembre. Depois, fale com o médico para discutir 
+quendo deve injetar a próxima dose. Após esta situação, deve continuar a administrar as injeções com 
+os intervalos recomendados. </p>
+<p>Se parar de tomar Ilaris 
+Parar o seu tratamento com Ilaris pode agravar a sua condição. Não pare de tomar Ilaris a menos que o 
+seu médico lhe diga para o fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis podem ser graves. Informe imediatamente o seu médico se notar 
+algum dos seguintes efeitos indesejáveis abaixo: 
+− 
+Febre que dure mais de 3 dias ou quaisquer sintomas possivelmente sugerem uma infeção grave. 
+Estes incluem tremores, arrepios, mal-estar, perda de apetite, dores no corpo, tipicamente 
+associados com um início súbito de doença, garganta inflamada ou úlceras na boca, tosse, 
+expetoração dor no peito, dificuldade em respirar, dor de ouvidos, dor de cabeça ou vermelhidão 
+localizada prolongadas, sensação de calor ou inchaço da sua pele ou inflamação do tecido 
+conjuntivo (celulite). Estes sintomas podem ser devidos a uma infeção grave, uma infecção 
+pouco comum (infecção oportunista) ou estar relacionado com níveis baixos de glóbulos 
+brancos (denominado leucopenia ou neutropenia). Se considerar necessário, o seu médico pode 
+pedir regularmente análises sanguíneas. 
+− 
+Reações alérgicas com erupção cutânea e comichão e possivelmente também urticária, 
+dificuldade em respirar ou em engolir, sentir o coração a bater (palpitações) ou tensão arterial 
+baixa. </p>
+<p>Outros efeitos indesejáveis de Ilaris incluem: 
+Muito frequentes (podem afetar mais de 1 em 10 pessoas): 
+− 
+Infeções de qualquer tipo. Estas podem incluir: </p>
+<ul>
+<li>
+<p>Infeções respiratórias tais como infeção no peito, gripe, garganta inflamada, corrimento 
+nasal, nariz entupido, espirros, sensação de pressão ou dor na cara ou testa com ou sem 
+febre (pneumonia, bronquite, gripe, sinusite, rinite, faringite, amigdalite, nasofaringite, 
+infeção do trato respiratório superior). </p>
+</li>
+<li>
+<p>Outras infeções tais como otite, infeção na pele (celulite), dor de estômago e sensação de 
+enjoo (gastroenterite) e dor ao urinar e urinar frequentemente, com ou sem febre (infeção 
+do trato urinário). </p>
+</li>
+<li>Dor abdominal superior. </li>
+<li>Dores articulares (artralgias). </li>
+<li>Diminuição dos níveis de leucócitos (leucopenia). </li>
+<li>Resultados anormais dos testes da função renal (diminuição da depuração renal da creatinina, -
+proteinúria). </li>
+<li>Reação no local de administração (tal como vermelhidão, inchaço, sensação de calor e 
+comichão). </li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): 
+− 
+Candida - infeção fúngica vaginal (candidiase vulvovaginal). 
+− 
+Sentir-se tonto, sensação de andar à roda (tonturas ou vertigens). 
+− 
+Dor nas costas ou músculos. 
+− 
+Sensação de fraqueza ou de muito cansaço (fadiga, astenia). 
+− 
+Diminuição dos níveis de leucócitos que ajudam a prevenir a infeção (neutropenia). 
+− 
+Níveis anormais de triglicéridos no sangue (alteração do metabolismo lipídico). 
+− 
+Resultados anormais dos testes da função hepática (aumento das transaminases) ou níveis 
+elevados de bilirrubina no sangue, com ou sem pele e olhos amarelos (hiperbilirrubinemia). </p>
+<p>Pouco frequentes (podem afetar ate 1 em 100 pessoas): 
+− 
+Azia (refluxo gastro-esofágico). 
+− 
+Diminuição dos níveis de células sanguíneas que ajudam a prevenir o sangramento (plaquetas). </p>
+<p>Informe o seu médico ou o médico da sua criança imediatamente se notar algum destes sintomas. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ilaris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ilaris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+</li>
+<li>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e embalagem 
+exterior. O prazo de validade corresponde ao último dia do mês indicado. </p>
+</li>
+<li>
+<p>Conservar no frigorífico (2ºC - 8ºC). Não congelar. </p>
+</li>
+<li>
+<p>Conservar na embalagem de origem para proteger da luz. </p>
+</li>
+<li>
+<p>Após a mistura do medicamento (reconstituição), o medicamento deve ser usado imediatamente. 
+Se não for utilizada imediatamente, a solução deve ser armazenada no frigorífico (2ºC - 8ºC) e 
+administrada em 24 horas. </p>
+</li>
+<li>
+<p>Não utilize este medicamento se verificar que a solução não é límpida a opalescente ou se 
+contiver partículas. </p>
+</li>
+<li>
+<p>Qualquer medicamento não utilizado deve ser eliminado após a dose ter sido injetada. </p>
+</li>
+<li>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ilaris 
+− 
+A substância ativa é o canacinumab. Um frasco para injetáveis contém 150 mg de canacinumab. 
+Após reconstituição, cada ml de solução contém 150 mg de canacinumab. 
+− 
+Os outros componentes são: sacarose, histidina, cloridrato mono-hidratado de histidina, 
+polissorbato 80.<br />
+Qual o aspeto de Ilaris e conteúdo da embalagem 
+− 
+Ilaris apresenta-se na forma de pó para solução injetável (150 mg num frasco para injetáveis de 
+vidro de 6 ml). 
+− 
+O pó é branco. 
+− 
+Ilaris encontra-se disponível em embalagens contendo apenas um frasco para injetáveis ou 
+embalagens múltiplas contendo quatro embalagens unitárias, cada uma das quais contendo um 
+frasco para injetáveis. É possível que não sejam comercializadas todas as apresentações no seu 
+país. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberga 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1495,6 +2084,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-943ee66eb6c14bbfb08d263a24ef8bd8"
 * entry[0].resource = composition-da-943ee66eb6c14bbfb08d263a24ef8bd8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp943ee66eb6c14bbfb08d263a24ef8bd8"
+* entry[=].resource = mp943ee66eb6c14bbfb08d263a24ef8bd8
+                            
+                    
+Instance: bundlepackageleaflet-pt-943ee66eb6c14bbfb08d263a24ef8bd8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ilaris Package Leaflet for language pt"
+Description: "ePI document Bundle for ilaris Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-943ee66eb6c14bbfb08d263a24ef8bd8"
+* entry[0].resource = composition-pt-943ee66eb6c14bbfb08d263a24ef8bd8
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp943ee66eb6c14bbfb08d263a24ef8bd8"
@@ -1596,6 +2207,18 @@ RuleSet: 943ee66eb6c14bbfb08d263a24ef8bd8ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-943ee66eb6c14bbfb08d263a24ef8bd8) // ilaris pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

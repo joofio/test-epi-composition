@@ -767,6 +767,419 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. </p>      
 
 
 
+Instance: composition-pt-245a99986bb61c23af35c57856a26746
+InstanceOf: CompositionUvEpi
+Title: "Composition for ifirmasta Package Leaflet"
+Description:  "Composition for ifirmasta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp245a99986bb61c23af35c57856a26746)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ifirmasta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Ifirmasta e para que é utilizado
+2. O que precisa de saber antes de tomar Ifirmasta
+3. Como tomar Ifirmasta
+4. Efeitos indesejáveis possíveis
+5. Como conservar Ifirmasta
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ifirmasta e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ifirmasta e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ifirmasta pertence a um grupo de medicamentos conhecidos como antagonistas dos recetores da 
+angiotensina-II. A angiotensina-II é uma substância produzida no organismo que se liga a recetores 
+nos vasos sanguíneos, provocando o seu estreitamento, o que conduz ao aumento da pressão arterial. 
+Ifirmasta impede a ligação da angiotensina-II a estes recetores, fazendo com que os vasos sanguíneos 
+se relaxem e a pressão arterial baixe. Ifirmasta atrasa a diminuição da função renal nos doentes com 
+pressão arterial elevada e diabetes do tipo 2. Ifirmasta é usado em doentes adultos
+-
+para tratar a pressão arterial elevada (hipertensão essencial)
+-
+para proteger os rins nos doentes com pressão arterial elevada, diabetes do tipo 2 e evidência 
+laboratorial de insuficiência dos rins.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ifirmasta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ifirmasta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Ifirmasta</h2>
+<p>se tem alergia ao irbesartan ou a qualquer outro componente deste medicamento (indicados na 
+secção 6),
+-
+se tiver mais do que três meses de gravidez. (Também é preferível não tomar Ifirmasta no 
+início da gravidez - ver secção Gravidez),
+-
+se tem diabetes ou função renal diminuída e está a ser tratado com um medicamento que contém 
+aliscireno para diminuir a pressão arterial.
+Advertências e precauções
+Fale com o seu médico ou farmacêutico antes de tomar Ifirmasta e se alguma das seguintes situações 
+se aplicar a si:
+-
+se tiver vómitos ou diarreia prolongados,
+-
+se sofrer de problemas nos rins,
+-
+se sofre de problemas do coração,
+-
+se receber Ifirmasta para doença nos rins diabética. Neste caso, o seu médico pode efetuar-lhe 
+análises ao sangue com regularidade, especialmente para medir os níveis sanguíneos de potássio 
+em caso de insuficiência dos rins,
+31
+-
+se desenvolver baixos níveis de açúcar no sangue (os sintomas podem incluir sudação, 
+fraqueza, fome, tonturas, tremores, dor de cabeça, rubor ou palidez, dormência, batimento 
+cardíaco acelerado e palpitante), especialmente se estiver a ser tratado para a diabetes,
+-
+se vai ser submetido a uma operação (cirurgia) ou se lhe vão ser administrados anestésicos,
+-
+se está a tomar algum dos seguintes medicamentos para tratar a pressão arterial elevada:
+-
+um inibidor da ECA (por exemplo enalapril, lisinopril, ramipril), em particular se tiver 
+problemas nos rins relacionados com diabetes,
+-
+aliscireno.
+O seu médico pode verificar a sua função renal, pressão arterial e a quantidade de eletrólitos (por 
+exemplo, o potássio) no seu sangue em intervalos regulares.
+Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. Ifirmasta não está 
+recomendado no início da gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez 
+que pode ser gravemente prejudicial para o bebé se utilizado a partir desta altura (ver secção 
+Gravidez).
+Crianças e adolescentes
+Este medicamento não deve ser utilizado em crianças e adolescentes (&lt; 18 anos) uma vez que não foram 
+ainda completamente estabelecidas a segurança e eficácia.
+Outros medicamentos e Ifirmasta
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos.
+O seu médico pode necessitar de alterar a sua dose e/ou tomar outras precauções:
+Se está a tomar um inibidor da ECA ou aliscireno (ver também informações sob os títulos “Não tome 
+Ifirmasta" e “Advertências e precauções").
+Poderá necessitar de fazer algumas verificações ao sangue caso tome:
+-
+suplementos de potássio,
+-
+substitutos de sal contendo potássio,
+-
+medicamentos poupadores de potássio (como sejam alguns diuréticos),
+-
+medicamentos contendo lítio,
+-
+repaglinida (medicamento utilizado para baixar os níveis de açúcar no sangue).
+Se tomar alguns medicamentos para as dores, denominados anti-inflamatórios não-esteróides, o efeito 
+do irbesartan poderá ser reduzido.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Gravidez 
+Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. O seu médico 
+normalmente aconselhá-la-á a interromper Ifirmasta antes de engravidar ou assim que estiver grávida e 
+a tomar outro medicamento em vez de Ifirmasta. Ifirmasta não está recomendado no início da gravidez 
+e não pode ser tomado após o terceiro mês de gravidez, uma vez que pode ser gravemente prejudicial 
+para o bebé se utilizado a partir desta altura.
+Amamentação
+Deverá informar o seu médico de que se encontra a amamentar ou que está prestes a iniciar o 
+aleitamento. Ifirmasta não está recomendado em mães a amamentar, especialmente se o bebé for 
+recém-nascido ou prematuro; nestes casos o seu médico poderá indicar outro tratamento.
+Condução de veículos e utilização de máquinas
+32
+Não é provável que Ifirmasta afete a sua capacidade de conduzir ou usar máquinas. Contudo, 
+ocasionalmente, podem ocorrer tonturas ou fadiga durante o tratamento da hipertensão. Se sentir estes 
+sintomas, fale com o seu médico antes de tentar conduzir ou utilizar máquinas.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ifirmasta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ifirmasta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+Modo de administração
+Ifirmasta destina-se à via oral. Engolir os comprimidos com uma quantidade suficiente de líquidos 
+(por exemplo um copo com água). Pode tomar Ifirmasta com ou sem alimentos. Tente tomar a dose 
+diária sempre à mesma hora. É importante que continue a tomar Ifirmasta até que o seu médico lhe dê 
+outra indicação.
+-
+Doentes com pressão arterial elevada
+A dose habitual é 150 mg uma vez ao dia (dois comprimidos por dia). Em função da resposta da 
+pressão arterial, a dose pode ser aumentada para 300 mg (quatro comprimidos por dia), uma vez ao 
+dia.
+-
+Doentes com pressão arterial elevada e diabetes do tipo 2 com doença nos rins
+Nos doentes com pressão arterial elevada e diabetes do tipo 2, a dose de manutenção preferível para o 
+tratamento da doença renal associada é de 300 mg (quatro comprimidos por dia) uma vez por dia.
+O médico pode receitar uma dose mais baixa, sobretudo quando se inicia o tratamento em certos 
+doentes, como sejam os que estão em hemodiálise ou os que têm mais de 75 anos.
+O efeito hipotensor máximo deve obter-se às 4 a 6 semanas após o início do tratamento.
+Utilização em crianças e adolescentes
+Ifirmasta não deve ser administrado a crianças com idade inferior a 18 anos. Se uma criança engolir 
+alguns comprimidos, deve contactar o médico imediatamente.
+Se tomar mais Ifirmasta do que deveria
+Se, acidentalmente, tomar demasiados comprimidos, contacte o médico imediatamente.
+Caso se tenha esquecido de tomar Ifirmasta
+Se, acidentalmente, não tomar uma dose diária, tome a dose seguinte como planeado. Não tome uma 
+dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Alguns destes efeitos podem ser graves e requerer cuidados médicos.
+Tal como acontece com medicamentos semelhantes, em doentes a tomar irbesartan foram notificados 
+casos raros de reações alérgicas na pele (erupção na pele, erupção na pele com comichão), assim como 
+inchaço localizado da face, lábios e/ou língua. Se tiver algum destes sintomas, ou se tiver dificuldade 
+em respirar, pare de tomar Ifirmasta e contacte o médico imediatamente.
+A frequência dos efeitos adversos listados abaixo é definida utilizando a seguinte convenção:
+33
+Muito frequentes: pode afetar mais de 1 em 10 pessoas
+Frequentes: pode afetar até 1 em 10 pessoas
+Pouco frequentes: pode afetar até 1 em 100 pessoas
+Os efeitos indesejáveis notificados em estudos clínicos para os doentes tratados com Ifirmasta foram:
+-
+Muito frequentes (podem afetar mais de 1 em 10 pessoas): se tiver pressão arterial elevada e 
+diabetes do tipo 2 com doença nos rins, as análises ao sangue podem mostrar níveis de potássio 
+aumentados.
+-
+Frequentes (podem afetar até 1 em 10 pessoas): tonturas, mal-estar/vómitos, fadiga, e as 
+análises ao sangue podem mostrar níveis de uma enzima que avalia a função muscular e 
+cardíaca (enzima creatina cinase) aumentados. Em doentes com pressão arterial elevada e 
+diabetes do tipo 2 com doença renal foram também notificadas tonturas quando se passa da 
+posição deitada ou sentada para a posição de pé, pressão arterial baixa quando se passa da 
+posição deitada ou sentada para a posição de pé, dor nas articulações ou músculos e níveis de 
+uma proteína nos glóbulos vermelhos (hemoglobina) diminuídos.
+-
+Pouco frequentes (podem afetar até 1 em 100 pessoas): ritmo cardíaco rápido, rubor 
+(vermelhidão), tosse, diarreia, indigestão/pirose (azia), disfunção sexual (problemas com o 
+desempenho sexual) e dor torácica.
+Alguns efeitos indesejáveis foram notificados desde a comercialização de Ifirmasta. Os efeitos 
+indesejáveis em que a frequência não é conhecida são: sensação de girar, cefaleias (dores de cabeça), 
+alteração do paladar, zumbidos, cãibras musculares, dor nas articulações e músculos, redução do
+número de glóbulos vermelhos (anemia - os sintomas podem incluir cansaço, dores de cabeça, falta de
+ar durante a prática de exercício físico, tonturas e aparência pálida), redução do número de plaquetas, 
+função hepática (do fígado) alterada, níveis sanguíneos de potássio aumentados, compromisso da 
+função renal, inflamação dos vasos sanguíneos pequenos afetando principalmente a pele (uma situação 
+conhecida como vasculite leucocitoclásica), reações alérgicas graves (choque anafilático) e baixos 
+níveis de açúcar no sangue. Foram também notificados casos pouco frequentes de icterícia 
+(amarelecimento da pele e/ou da zona branca dos olhos).
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ifirmasta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ifirmasta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+Não conservar acima de 30ºC.
+Conservar na embalagem de origem para proteger da humidade.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>34
+Qual a composição de Ifirmasta
+-
+A substância ativa é o irbesartan. Cada comprimido revestido por película contém 75 mg de 
+irbesartan sob a forma de irbesartan cloridrato.
+-
+Os outros componentes são manitol, hidroxipropilcelulose, hidroxipropilcelulose de baixa 
+substituição (LH-21), hidroxipropilcelulose de baixa substituição (LH-11), talco, macrogol 
+6000, óleo de rícino, hidrogenado no núcleo do comprimido e álcool polivinílico, dióxido de 
+titânio (E171), macrogol 3000 e talco no revestimento.
+Qual o aspeto de Ifirmasta e conteúdo da embalagem
+Os comprimidos revestidos por película Ifirmasta de 75 mg são: comprimidos revestidos por película 
+de cor branca e forma oval.
+Ifirmasta 75 mg comprimidos revestidos por película estão disponíveis em caixas de 14, 28, 30, 56, 
+84, 90 e 98 comprimidos revestidos por película, em blisters e em caixas de 56 x 1 comprimidos 
+revestidos por película, em blisters perfurados unidose.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Eslovénia
+Fabricante
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Eslovénia
+TAD Pharma GmbH, Heinz-Lohmann-Straβe 5, 27472 Cuxhaven, Alemanha
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+KRKA Belgium, SA.
+Tél/Tel: + 32 (0) 487 50 73 62
+Lietuva
+UAB KRKA Lietuva
+Tel: + 370 5 236 27 40
+България
+КРКА България ЕООД
+Teл.: + 359 (02) 962 34 50
+Luxembourg/Luxemburg
+KRKA Belgium, SA.
+Tél/Tel: + 32 (0) 487 50 73 62 (BE)
+Česká republika
+KRKA ČR, s.r.o.
+Tel: + 420 (0) 221 115 150
+Magyarország
+KRKA Magyarország Kereskedelmi Kft.
+Tel.: + 36 (1) 355 8490
+Danmark
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Malta
+E. J. Busuttil Ltd.
+Tel: + 356 21 445 885
+Deutschland
+TAD Pharma GmbH
+Tel: + 49 (0) 4721 606-0
+Nederland
+KRKA Belgium, SA.
+Tel: + 32 (0) 487 50 73 62 (BE)
+Eesti
+KRKA, d.d., Novo mesto Eesti filiaal
+Tel: + 372 (0) 6 671 658
+Norge
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Ελλάδα
+KRKA ΕΛΛΑΣ ΕΠΕ
+Τηλ: + 30 2100101613
+Österreich
+KRKA Pharma GmbH, Wien
+Tel: + 43 (0)1 66 24 300
+35
+España
+KRKA Farmacéutica, S.L.
+Tel: + 34 911 61 03 80
+Polska
+KRKA-POLSKA Sp. z o.o.
+Tel.: + 48 (0)22 573 7500
+France
+KRKA France Eurl
+Tél: + 33 (0)1 57 40 82 25
+Portugal
+KRKA Farmacêutica, Sociedade Unipessoal Lda.
+Tel: + 351 (0)21 46 43 650
+Hrvatska
+KRKA - FARMA
+Tel: + 385 1 6312 100
+România
+KRKA Romania S.R.L., Bucharest
+Tel: + 4 021 310 66 05
+Ireland
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Slovenija
+KRKA, d.d., Novo mesto
+Tel: + 386 (0) 1 47 51 100
+Ísland
+LYFIS ehf.
+Sími: + 354 534 3500
+Slovenská republika
+KRKA Slovensko, s.r.o.
+Tel: + 421 (0) 2 571 04 501
+Italia
+KRKA Farmaceutici Milano S.r.l.
+Tel: + 39 02 3300 8841
+Suomi/Finland
+KRKA Finland Oy
+Puh/Tel: + 358 20 754 5330
+Κύπρος
+KI.PA. (PHARMACAL) LIMITED
+Τηλ: + 357 24 651 882
+Sverige
+KRKA Sverige AB
+Tel: + 46 (0)8 643 67 66 (SE)
+Latvija
+KRKA Latvija SIA
+Tel: + 371 6 733 86 10
+United Kingdom (Northern Ireland)
+Consilient Health Limited
+Tel: + 353 (0)1 2057760
+Este folheto foi revisto pela última vez em 
+Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência 
+Europeia de Medicamentos http://www.ema.europa.eu
+36
+Folheto informativo: Informação para o utilizador
+Ifirmasta 150 mg comprimidos revestidos por película
+irbesartan
+Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois contém 
+informação importante para si.
+-
+Conserve este folheto. Pode ter necessidade de o ler novamente.
+-
+Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico.
+-
+Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode 
+ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença.
+-
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4. </p>         </div>"""      
+
+
+
 
 
                     
@@ -808,6 +1221,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-245a99986bb61c23af35c57856a26746"
 * entry[0].resource = composition-da-245a99986bb61c23af35c57856a26746
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp245a99986bb61c23af35c57856a26746"
+* entry[=].resource = mp245a99986bb61c23af35c57856a26746
+                            
+                    
+Instance: bundlepackageleaflet-pt-245a99986bb61c23af35c57856a26746
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ifirmasta Package Leaflet for language pt"
+Description: "ePI document Bundle for ifirmasta Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-245a99986bb61c23af35c57856a26746"
+* entry[0].resource = composition-pt-245a99986bb61c23af35c57856a26746
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp245a99986bb61c23af35c57856a26746"
@@ -909,6 +1344,18 @@ RuleSet: 245a99986bb61c23af35c57856a26746ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-245a99986bb61c23af35c57856a26746) // ifirmasta pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

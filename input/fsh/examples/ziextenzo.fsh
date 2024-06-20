@@ -804,6 +804,464 @@ Stempelhoved
 
 
 
+Instance: composition-pt-d32ad2b352bb6245babc6f24db3ed9fa
+InstanceOf: CompositionUvEpi
+Title: "Composition for ziextenzo Package Leaflet"
+Description:  "Composition for ziextenzo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd32ad2b352bb6245babc6f24db3ed9fa)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ziextenzo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Ziextenzo e para que é utilizado
+2. O que precisa de saber antes de utilizar Ziextenzo
+3. Como utilizar Ziextenzo
+4. Efeitos indesejáveis possíveis
+5. Como conservar Ziextenzo
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ziextenzo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ziextenzo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ziextenzo contém a substância ativa pegfilgrastim. O pegfilgrastim é uma proteína produzida por 
+biotecnologia numa bactéria chamada E. coli. Pertence a um grupo de proteínas denominadas citocinas e 
+é muito semelhante a uma proteína natural (fator de estimulação das colónias de granulócitos) produzida 
+pelo nosso próprio corpo.
+Ziextenzo é utilizado para reduzir a duração da neutropenia (baixo número de glóbulos brancos) e a 
+ocorrência da neutropenia febril (baixo número de glóbulos brancos com febre) que podem ser causadas 
+pela administração de quimioterapia citotóxica (medicamentos que destroem as células com crescimento 
+acelerado). Os glóbulos brancos são importantes uma vez que ajudam o seu corpo a combater as 
+infeções. Estas células são muito sensíveis aos efeitos da quimioterapia, que pode provocar uma 
+diminuição do número destas células no seu corpo. Se o número de glóbulos brancos diminuir até um 
+nível muito baixo, podem não ser suficientes para combater as bactérias e pode correr um risco 
+aumentado de infeção.
+O seu médico prescreveu-lhe Ziextenzo para estimular a sua medula óssea (parte do osso que produz as 
+células do sangue) a produzir mais glóbulos brancos, que ajudarão o seu corpo a combater as infeções.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ziextenzo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ziextenzo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Ziextenzo </p>
+<ul>
+<li>
+<p>se tem alergia a pegfilgrastim, filgrastim ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).
+25
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Ziextenzo:</p>
+</li>
+<li>
+<p>se tiver uma reação alérgica incluindo fraqueza, descida da pressão arterial, dificuldade em 
+respirar, inchaço da face (anafilaxia), vermelhidão e afrontamentos, erupção na pele e áreas da 
+pele com comichão.</p>
+</li>
+<li>
+<p>se tiver tosse, febre e dificuldade em respirar. Isso pode ser um sinal de Síndrome de Dificuldade 
+Respiratória Aguda (SDRA).</p>
+</li>
+</ul>
+<h2>* se tiver qualquer um ou uma combinação dos seguintes efeitos indesejáveis:</h2>
+<p>edema ou inchaço, que pode estar associado a diminuição da frequência urinária, 
+dificuldade em respirar, abdómen inchado e sensação de enfartamento, e uma sensação 
+geral de cansaço.
+Estes podem ser sintomas de uma doença chamada de "Síndrome de Transudação Capilar", que 
+faz com que o sangue saia dos pequenos vasos sanguíneos para o seu corpo. Ver secção 4. * se tem dor abdominal no quadrante superior esquerdo ou dor em pontada no ombro. Este pode ser 
+um sinal de um problema com o seu baço (esplenomegalia).</p>
+<ul>
+<li>
+<p>se teve recentemente uma infeção pulmonar grave (pneumonia), líquido nos pulmões (edema 
+pulmonar), inflamação dos pulmões (doença pulmonar intersticial) ou um raio-x ao tórax alterado 
+(infiltração pulmonar).</p>
+</li>
+<li>
+<p>se tem conhecimento de qualquer alteração na contagem das células sanguíneas (p. ex., aumento 
+de glóbulos brancos ou anemia) ou diminuição de plaquetas no sangue, o que reduz a capacidade 
+de o seu sangue coagular (trombocitopenia). O seu médico pode querer monitorizá-lo mais de 
+perto.</p>
+</li>
+<li>
+<p>se tem anemia de células falciformes. O seu médico pode monitorizar o seu estado mais de perto.</p>
+</li>
+<li>
+<p>se for um doente com cancro da mama ou do pulmão, Ziextenzo, em conjunto com quimioterapia 
+e/ou radioterapia, pode aumentar o risco de desenvolver uma condição sanguínea pré-cancerosa, 
+chamada de síndrome mielodisplásica (SMD), ou um cancro do sangue, chamado de leucemia 
+mieloide aguda (LMA). Os sintomas podem incluir cansaço, febre e nódoas negras ou 
+hemorragia.</p>
+</li>
+<li>
+<p>se manifestar sinais repentinos de alergia, tais como erupção cutânea, comichão ou urticária na 
+pele, inchaço da face, lábios, língua ou doutras partes do corpo, falta de ar, pieira ou dificuldades 
+respiratórias, estes podem ser sinais de uma reação alérgica grave.</p>
+</li>
+<li>
+<p>se tiver sintomas de inflamação da aorta (grande vaso sanguíneo que transporta o sangue do 
+coração para o organismo), esta foi notificada raramente em doentes com cancro e dadores 
+saudáveis. Os sintomas podem incluir febre, dor abdominal, mal estar, dor nas costas e aumento 
+dos marcadores inflamatórios. Informe o seu médico se sentir estes sintomas.
+O seu médico irá verificar regularmente o seu sangue e urina uma vez que pegfilgrastim pode lesar os 
+pequenos filtros nos seus rins (glomerulonefrite).
+Foram notificadas reações cutâneas graves (síndrome de Stevens-Johnson) associadas à utilização de 
+Ziextenzo. Se tiver algum dos sintomas descritos na secção 4, deve interromper a utilização de 
+Ziextenzo e procurar imediatamente cuidados médicos.
+Deve conversar com o seu médico sobre os seus riscos de desenvolver doença hematológica maligna. Se 
+desenvolver ou for propenso a desenvolver doença hematológica maligna, não deve utilizar Ziextenzo, a 
+menos que seja indicado pelo seu médico.
+Perda de resposta ao pegfilgrastim
+Caso tenha uma perda de resposta ou incapacidade de manutenção da resposta com o tratamento com 
+pegfilgrastim, o seu médico irá investigar os motivos, incluindo se desenvolveu anticorpos que 
+neutralizam a atividade de pegfilgrastim.
+26
+Outros medicamentos e Ziextenzo
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos.
+Gravidez e amamentação
+Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. O pegfilgrastim não foi 
+testado em mulheres grávidas. É importante que informe o seu médico se:</p>
+</li>
+<li>
+<p>está grávida;</p>
+</li>
+<li>
+<p>pensa estar grávida; ou</p>
+</li>
+<li>
+<p>planeia engravidar.
+Se ficar grávida durante o tratamento com Ziextenzo, por favor informe o seu médico. 
+A menos que o seu médico diga o contrário, deve interromper a amamentação se for utilizar Ziextenzo.
+Condução de veículos e utilização de máquinas
+Ziextenzo não tem ou tem efeito desprezável sobre a capacidade de conduzir e utilizar máquinas.
+Ziextenzo contém sorbitol (E 420) e sódio
+Este medicamento contém 30 mg de sorbitol em cada seringa pré-cheia que é equivalente a 50 mg/ml.
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose de 6 mg, ou seja, é 
+praticamente “isento de sódio".</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ziextenzo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ziextenzo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ziextenzo é para ser administrado a adultos com 18 ou mais anos de idade.
+Utilize Ziextenzo exatamente como indicado pelo seu médico. Fale com o seu médico ou farmacêutico 
+se tiver dúvidas. A dose habitual é uma injeção subcutânea (sob a pele) de 6 mg utilizando uma seringa 
+pré-cheia e deverá ser administrada pelo menos 24 horas após a última dose de quimioterapia, no final 
+de cada ciclo de quimioterapia.
+Administrar a si próprio a injeção de Ziextenzo
+O seu médico poderá decidir que é melhor para si administrar você mesmo a injeção de Ziextenzo. O 
+seu médico ou enfermeiro demonstrarão como deve injetar Ziextenzo a si próprio. Não tente injetar a si 
+próprio o medicamento se não foi devidamente treinado.
+Leia a secção no fim deste folheto para obter mais informações sobre como administrar Ziextenzo a si 
+mesmo.
+Não agite vigorosamente Ziextenzo, uma vez que pode afetar a atividade do medicamento.
+Se utilizar mais Ziextenzo do que deveria
+Se utilizar mais Ziextenzo do que a dose prescrita, deverá contactar o seu médico, farmacêutico ou 
+enfermeiro.
+27
+Caso se tenha esquecido de injetar Ziextenzo
+Se você faz autoadministração e se se esqueceu de uma dose de Ziextenzo, deverá contactar o seu 
+médico para decidir quando deverá ser administrada a dose seguinte.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou 
+enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Por favor informe o seu médico imediatamente se tiver qualquer um ou uma combinação dos seguintes 
+efeitos indesejáveis:</p>
+<ul>
+<li>
+<p>edema ou inchaço, que pode estar associado a diminuição da frequência urinária, dificuldade em 
+respirar, abdómen inchado e sensação de enfartamento, e uma sensação geral de cansaço. Estes 
+sintomas geralmente desenvolvem-se de uma forma rápida.
+Estes podem ser sintomas de uma doença pouco frequente (pode afetar até 1 em cada 100 pessoas) 
+chamada de "Síndrome de Transudação Capilar", que faz com que o sangue saia dos pequenos vasos 
+sanguíneos para o seu corpo e que precisa de cuidados médicos urgentes.
+Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas):</p>
+</li>
+<li>
+<p>dor óssea. O seu médico dir-lhe-á o que deverá tomar para aliviar a dor óssea.</p>
+</li>
+<li>
+<p>náuseas e dores de cabeça.
+Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas):</p>
+</li>
+<li>
+<p>dor no local de injeção.</p>
+</li>
+<li>
+<p>dores generalizadas e dores nas articulações e músculos.</p>
+</li>
+<li>
+<p>podem ocorrer algumas alterações no seu sangue, mas estas serão detetadas nas suas análises de 
+rotina ao sangue. Durante um período curto de tempo, a sua contagem de glóbulos brancos pode 
+estar elevada. Pode também ocorrer diminuição do número de plaquetas, podendo originar o 
+aparecimento de nódoas negras.
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas):</p>
+</li>
+<li>
+<p>reações do tipo alérgico, incluindo vermelhidão e afrontamentos, erupção cutânea e comichão em 
+áreas inchadas da pele.</p>
+</li>
+<li>
+<p>reações alérgicas graves, incluindo anafilaxia (fraqueza, baixa da pressão arterial, dificuldade em 
+respirar, inchaço da face).</p>
+</li>
+<li>
+<p>aumento do tamanho do baço.</p>
+</li>
+<li>
+<p>rutura do baço. Alguns casos de rutura do baço foram fatais. É importante que contacte 
+imediatamente o seu médico se sentir dor na parte superior esquerda do seu abdómen ou dor no 
+ombro esquerdo, já que estas dores podem refletir problemas com o seu baço.</p>
+</li>
+<li>
+<p>problemas respiratórios. Por favor, contacte o seu médico se tiver tosse, febre ou dificuldade em 
+respirar.</p>
+</li>
+<li>
+<p>ocorreu Síndrome de Sweet (lesões dolorosas, inchadas, de cor violácea, nos membros e por 
+vezes na face e pescoço, acompanhadas de febre), mas outros fatores poderão ter contribuído para 
+esta ocorrência.</p>
+</li>
+<li>
+<p>casos de vasculite cutânea (inflamação dos vasos sanguíneos na pele).</p>
+</li>
+<li>
+<p>lesões de pequenos filtros nos seus rins (glomerulonefrite).</p>
+</li>
+<li>
+<p>vermelhidão no local da injeção.</p>
+</li>
+<li>
+<p>tosse com sangue (hemoptise).</p>
+</li>
+<li>
+<p>doenças do sangue (síndrome mielodisplásica [SMD] ou leucemia mieloide aguda [LMA]).
+28
+Efeitos indesejáveis raros (podem afetar até 1 em cada 1000 pessoas):</p>
+</li>
+<li>
+<p>inflamação da aorta (grande vaso sanguíneo que transporta o sangue do coração para o 
+organismo), ver secção 2. * hemorragia do pulmão (hemorragia pulmonar).</p>
+</li>
+<li>
+<p>síndrome de Stevens-Johnson, que pode aparecer sob a forma de manchas avermelhadas 
+circulares ou tipo alvo, frequentemente acompanhadas por bolhas centrais que surgem no tronco, 
+descamação da pele, úlceras na boca, garganta, nariz, genitais e olhos, e pode ser precedida por 
+febre e sintomas tipo gripe. Pare de utilizar Ziextenzo se tiver algum destes sintomas e contacte o 
+seu médico ou procure imediatamente cuidados médicos. Ver secção 2. Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ziextenzo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ziextenzo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo da 
+seringa após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2 °C - 8 °C).
+Pode retirar o Ziextenzo do frigorífico e mantê-lo à temperatura ambiente (não acima dos 35 °C) por um 
+período não superior a 120 horas. Quando uma seringa é retirada do frigorífico e atinge a temperatura 
+ambiente (não acima dos 35 °C), deve ser utilizada dentro das próximas 120 horas ou deve ser 
+eliminada.
+Não congelar. Ziextenzo pode ser utilizado se tiver sido congelado acidentalmente, durante um único 
+período inferior a 24 horas.
+Manter o recipiente dentro da embalagem exterior para proteger da luz.
+Não utilize este medicamento se verificar que está turvo ou com partículas no interior.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Ziextenzo</h2>
+<p>A substância ativa é o pegfilgrastim. Cada seringa pré-cheia contém 6 mg de pegfilgrastim em 
+0,6 ml de solução.
+-
+Os outros componentes são ácido acético glacial, sorbitol (E 420), polissorbato 20, hidróxido de 
+sódio e água para preparações injetáveis. Ver secção 2 "Ziextenzo contém sorbitol (E 420) e 
+sódio".
+Qual o aspeto de Ziextenzo e conteúdo da embalagem
+Ziextenzo é uma solução injetável (injetável) límpida, incolor a ligeiramente amarelada acondicionada 
+numa seringa pré-cheia (6 mg/0,6 ml).
+29
+Cada embalagem contém 1 seringa pré-cheia de vidro com um batente do êmbolo de borracha (borracha 
+de bromobutilo, isenta de látex), uma haste do êmbolo, uma agulha de aço inoxidável de calibre 29 e 
+tampa da agulha (elastómero termoplástico, isento de látex). As seringas são fornecidas com um protetor 
+automático de agulha.
+Titular da Autorização de Introdução no Mercado
+Sandoz GmbH
+Biochemiestr. 10
+6250 Kundl
+Áustria
+Fabricante
+Sandoz GmbH
+Biochemiestr.10
+6336 Langkampfen
+Áustria
+Novartis Pharmaceutical Manufacturing GmbH
+Biochemiestrasse 10
+6336 Langkampfen
+Áustria
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Sandoz nv/sa
+Tél/Tel: +32 2 722 97 97
+Lietuva
+Sandoz Pharmaceuticals d.d filialas
+Tel: +370 5 2636 037
+България
+Сандоз България КЧТ
+Тел.: +359 2 970 47 47
+Luxembourg/Luxemburg
+Sandoz nv/sa
+Tél/Tel.: +32 2 722 97 97
+Česká republika
+Sandoz s.r.o.
+Tel: +420 225 775 111
+Magyarország
+Sandoz Hungária Kft.
+Tel.: +36 1 430 2890
+Danmark/Norge/Ísland/Sverige
+Sandoz A/S
+Tlf: +45 63 95 10 00
+Malta
+Sandoz Pharmaceuticals d.d.
+Tel: +35699644126
+Deutschland
+Hexal AG
+Tel: +49 8024 908 0
+Nederland
+Sandoz B.V.
+Tel: +31 36 52 41 600
+30
+Eesti
+Sandoz d.d. Eesti filiaal
+Tel: +372 665 2400
+Österreich
+Sandoz GmbH
+Tel: +43 5338 2000
+Ελλάδα
+SANDOZ HELLAS ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε.
+Τηλ: +30 216 600 5000
+Polska
+Sandoz Polska Sp. z o.o.
+Tel.: +48 22 209 70 00
+España
+Sandoz Farmacéutica, S.A.
+Tel: +34 900 456 856
+Portugal
+Sandoz Farmacêutica Lda.
+Tel: +351 21 000 86 00
+France
+Sandoz SAS
+Tél: +33 1 49 64 48 00
+România
+Sandoz Pharmaceuticals SRL
+Tel: +40 21 407 51 60
+Hrvatska
+Sandoz d.o.o.
+Tel: +385 1 23 53 Slovenija
+Sandoz farmacevtska družba d.d.
+Tel: +386 1 580 29 02
+Ireland
+Rowex Ltd.
+Tel: + 353 27 50077
+Slovenská republika
+Sandoz d.d. - organizačná zložka
+Tel: +421 2 48 20 0600
+Italia
+Sandoz S.p.A.
+Tel: +39 02 96541
+Suomi/Finland
+Sandoz A/S
+Puh/Tel: +358 10 6133 400
+Κύπρος
+Sandoz Pharmaceuticals d.d.
+Τηλ: +357 22 69 0690
+United Kingdom (Northern Ireland)
+Sandoz GmbH
+Tel: +43 5338 2000
+Latvija
+Sandoz d.d. Latvia filiāle
+Tel: +371 67 892 006
+Este folheto foi revisto pela última vez em.
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -845,6 +1303,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d32ad2b352bb6245babc6f24db3ed9fa"
 * entry[0].resource = composition-da-d32ad2b352bb6245babc6f24db3ed9fa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd32ad2b352bb6245babc6f24db3ed9fa"
+* entry[=].resource = mpd32ad2b352bb6245babc6f24db3ed9fa
+                            
+                    
+Instance: bundlepackageleaflet-pt-d32ad2b352bb6245babc6f24db3ed9fa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ziextenzo Package Leaflet for language pt"
+Description: "ePI document Bundle for ziextenzo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d32ad2b352bb6245babc6f24db3ed9fa"
+* entry[0].resource = composition-pt-d32ad2b352bb6245babc6f24db3ed9fa
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd32ad2b352bb6245babc6f24db3ed9fa"
@@ -946,6 +1426,18 @@ RuleSet: d32ad2b352bb6245babc6f24db3ed9faListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d32ad2b352bb6245babc6f24db3ed9fa) // ziextenzo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

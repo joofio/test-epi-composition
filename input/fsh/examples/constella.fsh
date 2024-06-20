@@ -712,6 +712,398 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-7504582d8c4f390424d8e4bfcd82fbae
+InstanceOf: CompositionUvEpi
+Title: "Composition for constella Package Leaflet"
+Description:  "Composition for constella Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7504582d8c4f390424d8e4bfcd82fbae)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - constella"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Constella e para que é utilizado 
+2. O que precisa de saber antes de tomar Constella 
+3. Como tomar Constella 
+4. Efeitos secundários possíveis 
+5. Como conservar Constella
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é constella e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é constella e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Para que é utilizado Constella
+Constella contém a substância ativa linaclotida. É utilizado para tratar os sintomas da síndrome do 
+intestino irritável moderada a grave (frequentemente designada simplesmente por “SII") com 
+obstipação (prisão de ventre) em doentes adultos.
+A SII é uma doença intestinal frequente. Os principais sintomas da SII com obstipação incluem:
+
+dor de estômago ou dor de barriga, 
+
+sensação de inchaço, 
+
+fezes pouco frequentes, duras, pequenas ou tipo bolinhas.
+Estes sintomas podem variar de pessoa para pessoa. 
+Como funciona Constella
+Constella atua localmente no seu intestino para o ajudar a sentir menos dor e inchaço e para restaurar o 
+normal funcionamento dos seus intestinos. Não é absorvido pelo organismo, mas liga-se a recetores 
+designados por guanilato ciclase-C existentes na superfície do seu intestino. Ao fixar-se a este recetor,
+bloqueia a sensação de dor e permite a entrada de líquido do organismo para o intestino, soltando 
+consequentemente as fezes e aumentando o movimento dos intestinos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar constella"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar constella"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Constella</h2>
+<p>se tem alergia à linaclotida ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+-
+se você ou o seu médico sabem que tem um bloqueio no estômago ou no intestino. 
+26
+Advertências e precauções
+O seu médico prescreveu-lhe este medicamento após excluir outras doenças, sobretudo relacionadas 
+com os seus intestinos, e concluiu que sofre de SII acompanhada de prisão de ventre. Dado que as 
+outras doenças referidas podem apresentar os mesmos sintomas da SII, é importante que informe 
+imediatamente o seu médico acerca de qualquer alteração ou irregularidade dos sintomas.
+Se tiver episódios de diarreia graves ou prolongados (passagem de fezes aguadas e frequentes durante 
+7 dias ou mais), pare de tomar Constella e consulte o seu médico (ver secção 4). Lembre-se de beber 
+muitos líquidos para compensar a perda de água e eletrólitos, como o potássio, devido à diarreia.
+Se tiver sintomas graves no estômago, que sejam contínuos ou que se agravem, pare de tomar 
+Constella e contacte imediatamente o seu médico pois estes podem ser sintomas de desenvolvimento 
+de um buraco na parede do intestino (perfuração gastrointestinal). Ver secção 4. Fale com o seu médico se tiver hemorragias intestinais ou retais.
+Tenha especial cuidado se tiver mais de 65 anos, uma vez que existe um risco mais elevado de ter 
+diarreia.
+Tenha igualmente especial cuidado se sofrer de diarreia grave ou prolongada e de outra doença, como 
+tensão arterial alta, doença cardíaca e vascular (por exemplo, ataques cardíacos anteriores) ou diabetes.
+Fale com o seu médico se sofrer de doenças intestinais inflamatórias como a doença de Crohn ou 
+colite ulcerosa, uma vez que a utilização de Constella nestes doentes não é recomendada.
+Crianças e adolescentes
+Não dê este medicamento a crianças e adolescentes com menos de 18 anos de idade porque a 
+segurança e a eficácia de Constella nesta faixa etária ainda não foram estabelecidas.
+Outros medicamentos e Constella
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos:
+
+Alguns medicamentos podem não atuar tão eficazmente se tiver diarreia grave ou prolongada:
+- Contracetivos orais. Se tiver uma diarreia muito intensa, a pílula contracetiva pode não atuar 
+adequadamente e recomenda-se a utilização de um método contracetivo adicional. Consulte as 
+instruções no folheto informativo para o doente da pílula contracetiva que está a tomar.
+- Medicamentos que necessitam de uma dosagem cuidadosa e exata, como a levotiroxina (uma 
+hormona para tratar a redução da função da glândula da tiroide).
+
+Alguns medicamentos podem aumentar o risco de diarreia quando administrados com Constella, 
+como:
+- Medicamentos para tratar úlceras no estômago ou a produção excessiva de ácido no estômago 
+designados por inibidores da bomba de protões.
+- Medicamentos para tratar a dor e a inflamação designados por anti-inflamatórios não 
+esteroides (AINEs).
+- Laxantes.
+Constella com alimentos 
+Constella produz defecações mais frequentes e diarreia (fezes mais soltas) quando tomado com 
+alimentos do que quando tomado com o estômago vazio (ver secção 3).
+Gravidez e amamentação 
+É limitada a informação disponível sobre os efeitos de Constella em mulheres grávidas e a amamentar. 
+Não tome este medicamento se está grávida, se pensa estar grávida ou planeia engravidar, a não ser 
+que lhe seja indicado pelo seu médico.
+27
+Num estudo sobre amamentação apenas com leite em sete mulheres lactantes que já tomavam 
+linaclotida para fins terapêuticos, nem a linaclotida nem o seu metabolito ativo foram detetados no 
+leite. Consequentemente, não é esperado que a amamentação cause a exposição do lactente à 
+linaclotida e é possível utilizar Constella durante a amamentação.
+Condução de veículos e utilização de máquinas
+Constella não afetará a sua capacidade de conduzir ou utilizar máquinas.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar constella"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar constella"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. 
+A dose recomendada é uma cápsula (isto é, 290 microgramas de linaclotida) por via oral, uma vez por 
+dia. A cápsula deve ser tomada, pelo menos, 30 minutos antes de uma refeição.
+Se não observar melhorias nos seus sintomas após 4 semanas de tratamento, consulte o seu médico.
+Se tomar mais Constella do que deveria
+O efeito mais provável, se tomar mais Constella do que deveria, é a diarreia. Contacte o seu médico ou 
+farmacêutico, se tomar este medicamento mais do que deveria.
+Caso se tenha esquecido de tomar Constella
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Tome a próxima 
+dose quando deveria e siga a prescrição normal.
+Se parar de tomar Constella
+É preferível conversar sobre a interrupção do tratamento com o seu médico antes de parar de tomar o 
+medicamento. No entanto, o tratamento com Constella pode ser interrompido com segurança a 
+qualquer momento. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos secundários, embora estes não se 
+manifestem em todas as pessoas.
+Efeitos secundários muito frequentes (podem afetar mais de 1 em 10 pessoas)
+
+diarreia 
+Os episódios de diarreia são normalmente de curta duração; no entanto, se tiver episódios de diarreia 
+graves ou prolongados (passagem de fezes frequentes ou aguadas durante 7 dias ou mais) e se sentir 
+atordoado, tonto ou fraco, pare de tomar Constella e consulte o seu médico. 
+Efeitos secundários frequentes (podem afetar até 1 em 10 pessoas)
+
+dor de estômago ou dor abdominal
+
+sensação de inchaço 
+
+gases intestinais
+
+gastroenterite viral
+
+tonturas
+28
+Efeitos secundários pouco frequentes (podem afetar até 1 em 100 pessoas)
+
+falta de controlo da passagem de fezes (incontinência fecal)
+
+urgência para defecar
+
+sensação de tontura depois de se levantar rapidamente
+
+desidratação
+
+baixo nível de potássio no sangue
+
+diminuição do apetite
+
+hemorragia retal
+
+hemorragia intestinal ou retal, incluindo hemorragia hemorroidal
+
+náuseas
+
+vómitos
+
+pápulas (urticária)
+Efeitos secundários raros (podem afetar até 1 em 1.000 pessoas)
+
+diminuição do bicarbonato no sangue
+
+desenvolvimento de um buraco na parede do intestino (perfuração gastrointestinal)
+Efeitos secundários com frequência desconhecida (a frequência não pode ser calculada a partir dos 
+dados disponíveis):
+
+erupção cutânea
+Comunicação de efeitos secundários
+Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos secundários 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar constella"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar constella"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco 
+após “VAL.". O prazo de validade corresponde ao último dia do mês indicado.
+Após a abertura do frasco, as cápsulas devem ser utilizadas num prazo de 18 semanas.
+Não conservar acima de 30 ºC. Manter o frasco bem fechado para proteger da humidade. 
+Advertência: O frasco contém uma ou mais embalagens seladas contendo sílica gel para manter as 
+cápsulas secas. Manter as embalagens no frasco. Não engolir.
+Não utilizar este medicamento se verificar quaisquer sinais visíveis de deterioração no frasco ou 
+qualquer alteração no aspeto das cápsulas.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Constella</h2>
+<p>A substância ativa é a linaclotida. Cada cápsula contém 290 microgramas de linaclotida.
+29
+-
+Os outros componentes são:
+Conteúdo da cápsula: celulose microcristalina, hipromelose, cloreto de cálcio dihidratado e leucina.
+Invólucro da cápsula: óxido de ferro vermelho (E172), dióxido de titânio (E171), óxido de ferro 
+amarelo (E172), gelatina e polietilenoglicol.
+Tinta de impressão: goma-laca, propilenoglicol, solução de amónia concentrada, hidróxido de 
+potássio, dióxido de titânio (E171) e óxido de ferro preto (E172).
+Qual o aspeto de Constella e conteúdo da embalagem
+As cápsulas são opacas de cor branca a esbranquiçada-alaranjada marcadas com “290" a tinta cinzenta.
+São embaladas num frasco branco de polietileno de alta densidade (HDPE) com um selo inviolável e 
+fecho com rosca resistente à abertura por crianças, juntamente com uma ou mais embalagens 
+dessecantes contendo sílica gel.
+Constella está disponível em embalagens contendo 10, 28 ou 90 cápsulas, ou em embalagens múltiplas 
+contendo 112 cápsulas (4 frascos cada um com 28 cápsulas). É possível que não sejam 
+comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado 
+AbbVie Deutschland GmbH &amp; Co. KG
+Knollstrasse
+67061 Ludwigshafen
+Alemanha
+Fabricante
+Allergan Pharmaceuticals International Limited
+Clonshaugh Business &amp; Technology Park
+Dublin 17, D17 E400
+Irlanda
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+AbbVie SA
+Tél/Tel: +32 10 477811
+Lietuva
+AbbVie UAB 
+Tel: + 370 5 205 3023
+България
+АбВи ЕООД
+Тел:+359 2 90 30 430
+Luxembourg/Luxemburg
+AbbVie SA
+Belgique/Belgien
+Tél/Tel: +32 10 477811
+Česká republika
+AbbVie s.r.o.
+Tel.: +420 233 098 111
+Magyarország
+AbbVie Kft.
+Tel:+36 1 455 8600
+Danmark
+AbbVie A/S
+Tlf: +45 72 30 20 28
+Malta
+Vivian Corporation Ltd.
+Tel: +356 27780331
+Deutschland
+AbbVie Deutschland GmbH &amp; Co. KG
+Nederland
+AbbVie B.V.
+30
+Tel.: 00800 222843 33 (gebührenfrei)
+Tel.: +49 (0) 611 / 1720-0
+Tel: +31 (0)88 322 2843
+Eesti
+AbbVie OÜ
+Tel. +372 6231011
+Norge
+AbbVie AS
+Tlf: +47 67 81 80 00
+Ελλάδα
+AbbVie ΦΑΡΜΑΚΕΥΤΙΚΗ Α.Ε.
+Τηλ: +30 214 4165 555
+Österreich
+AbbVie GmbH 
+Tel: +43 1 20589-0
+España
+AbbVie Spain, S.L.U.
+Tel: +34 913840910
+Polska
+AbbVie Sp. z o.o.
+Tel.: +48 22 372 78 00
+France
+AbbVie
+Tél: +33 (0) 1 45 60 13 00
+Portugal
+AbbVie, Lda.
+Tel.: +351 (0)21 1908400
+Hrvatska
+AbbVie d.o.o.
+Tel: + 385 (0)1 5625 501
+România
+AbbVie S.R.L.
+Tel: +40 21 529 30 35
+Ireland
+AbbVie Limited
+Tel: +353 (0)1 4287900
+Slovenija
+AbbVie Biofarmacevtska družba d.o.o.
+Tel: +386 (1)32 08 060
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AbbVie s.r.o.
+Tel: +421 2 5050 0777
+Italia
+AbbVie S.r.l.
+Tel: +39 06 928921
+Suomi/Finland
+AbbVie Oy
+Puh/Tel: +358 (0)10 2411 200
+Κύπρος
+Lifepharma (Z.A.M.) Ltd
+Τηλ: +357 22 34 74 40
+Sverige
+AbbVie AB
+Tel: +46 (0)8 684 44 600
+Latvija
+AbbVie SIA 
+Tel: +371 67605000
+United Kingdom (Northern Ireland)
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: +44 (0)1628 561090
+Este folheto foi revisto pela última vez em 
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -753,6 +1145,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-7504582d8c4f390424d8e4bfcd82fbae"
 * entry[0].resource = composition-da-7504582d8c4f390424d8e4bfcd82fbae
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7504582d8c4f390424d8e4bfcd82fbae"
+* entry[=].resource = mp7504582d8c4f390424d8e4bfcd82fbae
+                            
+                    
+Instance: bundlepackageleaflet-pt-7504582d8c4f390424d8e4bfcd82fbae
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for constella Package Leaflet for language pt"
+Description: "ePI document Bundle for constella Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-7504582d8c4f390424d8e4bfcd82fbae"
+* entry[0].resource = composition-pt-7504582d8c4f390424d8e4bfcd82fbae
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp7504582d8c4f390424d8e4bfcd82fbae"
@@ -854,6 +1268,18 @@ RuleSet: 7504582d8c4f390424d8e4bfcd82fbaeListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-7504582d8c4f390424d8e4bfcd82fbae) // constella pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

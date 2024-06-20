@@ -1078,6 +1078,627 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-26b20b6a67265be2cf1102bb12c87943
+InstanceOf: CompositionUvEpi
+Title: "Composition for matever Package Leaflet"
+Description:  "Composition for matever Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp26b20b6a67265be2cf1102bb12c87943)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - matever"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Matever e para que é utilizado 
+2. O que precisa de saber antes de tomar Matever 
+3. Como tomar Matever 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Matever 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é matever e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é matever e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Levetiracetam  é um medicamento antiepilético (um medicamento usado para tratar crises em 
+epilepsia). </p>
+<p>Matever é usado: </p>
+<ul>
+<li>
+<p>isoladamente em adultos e adolescentes a partir dos 16 anos de idade com epilepsia 
+diagnosticada recentemente, para tratar uma determinada forma de epilepsia. A epilepsia é 
+uma doença na qual os doentes sofrem crises repetidas (convulsões). O levetiracetam é 
+utilizado para a forma epilética na qual as crises afetam inicialmente apenas um lado do 
+cérebro mas que podem posteriormente estender-se a áreas maiores em ambos os lados do 
+cérebro (crises parciais com ou sem generalização secundária). O levetiracetam foi prescrito 
+pelo seu médico para reduzir o número de crises. </p>
+</li>
+<li>
+<p>em doentes que estão já a tomar outro medicamento anti-epiléptico (terapêutica adjuvante) 
+para tratar: 
+▪ 
+crises parciais, com ou sem generalização, em adultos, adolescentes, crianças e bebés com 
+idade superior a 1mês: 
+▪ 
+crises mioclónicas (contrações de curta duração semelhantes a choques, de um músculo ou 
+grupo de músculos) em adultos e adolescentes com idade superior a 12 anos com epilepsia 
+mioclónica juvenil. 
+▪ 
+crises tónico-clónicas (crises maiores, incluindo perda de consciência) generalizadas<br />
+primárias em adultos e adolescentes com mais de 12 anos de idade com epilepsia idiopática 
+generalizada (o tipo de epilepsia que se pensa ter uma causa genética). </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar matever"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar matever"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Matever </p>
+<ul>
+<li>Se tem alergia ao levetiracetam derivados da pirrolidona ou a qualquer outro componente deste 
+medicamento(indicados na secção 6)  </li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico antes de tomar Matever 
+▪ 
+Se tiver doenças renais, siga as instruções do seu médico. Ele/a poderão decidir se a sua dose 
+deve ser ajustada. 
+▪ 
+Se detetar no seu filho/a qualquer abrandamento no crescimento ou um desenvolvimento 
+inesperado da puberdade, contacte o seu médico. 
+▪ 
+Um pequeno número de pessoas que iniciaram tratamento com anti-epilépticos como o Matever<br />
+teve pensamentos de autoagressão ou suicídio. Se tiver algum sintoma de depressão ou ideação 
+suicida, contacte de imediato o seu médico. 
+▪ 
+Se tiver antecedentes, ou familiares com antecedentes, de ritmo cardíaco irregular (visível 
+através de um eletrocardiograma) ou se tiver uma doença e/ou estiver a fazer um tratamento que 
+o(a) torne propenso(a) a apresentar batimentos cardíacos irregulares ou desequilíbrios 
+eletrolíticos. </p>
+<p>Informe o seu médico ou farmacêutico se qualquer dos seguintes efeitos indesejáveis se tornar grave 
+ou durar mais do que alguns dias: </p>
+<ul>
+<li>
+<p>Pensamentos anormais, sensação de irritabilidade ou reação mais agressiva do que o normal, ou 
+se você ou a sua família e amigos repararem em mudanças de humor ou comportamento 
+importantes. </p>
+</li>
+<li>
+<p>Agravamento da epilepsia 
+Raramente, as suas convulsões podem piorar ou ocorrer com mais frequência, principalmente 
+durante o primeiro mês após o início do tratamento ou aumento da dose. Numa forma muito rara 
+de epilepsia de início precoce (epilepsia associada às mutações SCN8A) que causa vários tipos 
+de convulsões e perda de habilidades, pode notar que as convulsões permanecem presentes ou 
+que estão a agravar-se durante o seu tratamento. </p>
+</li>
+</ul>
+<p>Se apresentar algum destes novos sintomas enquanto estiver a tomar Matever, consulte um médico 
+logo que possível. </p>
+<p>Crianças e adolescentes </p>
+<ul>
+<li>Matever não está indicado isoladamente (monoterapia) em crianças e adolescentes com idade inferior 
+a 16 anos. </li>
+</ul>
+<p>Outros medicamentos e Matever 
+Informe o seu médico ou farmacêutico se estiver a tomar ,tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. </p>
+<p>Não tome macrogol (um medicamento utilizado como laxante) uma hora antes e uma hora depois de 
+tomar levetiracetam, uma vez que pode resultar na perda do seu efeito. </p>
+<p>Gravidez e amamentação 
+Se estiver grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico antes de tomar este medicamento. O levetiracetam pode ser utilizado durante a gravidez, mas 
+apenas se o seu médico o considerar necessário após uma avaliação cuidadosa. 
+Não deve interromper o tratamento sem consultar o seu médico. 
+O risco do seu bebé nascer com problemas não pode ser excluído. 
+O aleitamento não é recomendado durante o tratamento </p>
+<p>Condução de veículos e utilização de máquinas 
+Matever pode reduzir a sua capacidade de conduzir ou utilizar quaisquer ferramentas ou máquinas, 
+dado que pode fazê-lo sentir-se sonolento. Isto ocorre com maior probabilidade no início do 
+tratamento ou após um aumento da dose. Não deve conduzir ou utilizar máquinas, até se estabelecer 
+que a sua capacidade para realizar essas atividades não está afectada. </p>
+<p>Matever 250mg, 750 mg contém Amarelo sunset FCF (E110) 
+O agente de coloração Amarelo sunset FCF (E110) pode provocar reações alérgicas. 
+As outras dosagens de Matever não contêm este ingrediente </p>
+<p>Matever 1000 mg contém lactose<br />
+Se foi informado pelo seu médico de que sofre de intolerância a alguns açúcares (por exemplo, 
+lactose), contacte o seu médico antes de tomar este medicamento.<br />
+As outras dosagens de Matever não contêm este ingrediente </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar matever"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar matever"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Tome o número de comprimidos de acordo com as instruções do seu médico. 
+Matever deve ser tomado duas vezes por dia, uma vez de manhã e outra vez à noite, e 
+aproximadamente às mesmas horas todos os dias. </p>
+<p>Terapêutica adjuvante e monoterapia (a partir dos 16 anos de idade) </p>
+<ul>
+<li>
+<p>Adultos (≥18 anos) e adolescentes (12 aos 17 anos) com peso igual ou superior a 50 kg: 
+Dose recomendada: entre 1 000 mg e 3 000 mg por dia. 
+Quando iniciar o tratamento com Matever, o seu médico irá prescrever-lhe uma dose mais 
+baixa durante 2 semanas, antes de lhe dar a dose diária mais baixa. 
+Exemplo: se a sua dose diária deve ser de 1 000 mg, a sua dose inicial reduzida é 1 comprimido 
+de 250 mg de manhã e 1 comprimido de 250 mg à noite, e a dose será incrementada 
+gradualmente de forma a atingir os 1 000 mg diários após 2 semanas.  </p>
+</li>
+<li>
+<p>Adolescentes (12 aos 17 anos) com peso igual ou inferior a 50 kg: 
+O seu médico irá prescrever a forma farmacêutica de Matever mais adequada de acordo com o 
+seu peso e dose. </p>
+</li>
+<li>
+<p>Dose para bebés (de 1 mês até 23 meses) e crianças (2 aos 11 anos) com peso inferior a kg: 
+O seu médico irá prescrever a forma farmacêutica de Matever mais apropriada de acordo com a 
+sua idade, peso e dose. </p>
+</li>
+</ul>
+<p>Levetiracetam 100 mg/ml solução oral é a formulação mais adequada para bebés e crianças com 
+idade até aos 6 anos e para crianças e adolescentes (dos 6 até aos 17 anos) com peso inferior a 
+50 kg e quando os comprimidos não permitem um doseamento exato. </p>
+<p>Modo de administração 
+Engolir os comprimidos de Matever com uma quantidade suficiente de líquido (ex. um copo com 
+água). Pode tomar Matever com ou sem alimentos. Após a administração oral, é possível que seja 
+sentido o sabor amargo do levetiracetam. </p>
+<p>Duração do tratamento: </p>
+<ul>
+<li>Matever é usado como tratamento crónico. Deve continuar o tratamento com Matever durante o 
+tempo que o seu médico indicar. 
+▪ 
+Não pare o tratamento sem consultar o seu médico, dado que isto poderia aumentar as suas 
+crises.  </li>
+</ul>
+<p>Se tomar mais Matever do que deveria 
+Os efeitos indesejáveis possíveis de uma sobredosagem com Matever são sonolência, agitação, 
+agressão, diminuição do estado alerta, inibição da respiração e coma. 
+Contactar o seu médico se tomou mais comprimidos do que deveria. O seu médico irá estabelecer o 
+melhor tratamento possível para tratar a sobredosagem. </p>
+<p>Caso se tenha esquecido de tomar Matever 
+Contactar o seu médico se se esqueceu de tomar uma ou mais doses. 
+Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. </p>
+<p>Se parar de tomar Matever 
+No caso de interrupção do tratamento, Matever deverá ser descontinuado gradualmente para evitar o 
+aumento das crises. 
+Se o seu médico decidir parar o seu tratamento com Matever, ele ela irá instruí-lo sobre a 
+descontinuação gradual de Matever. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os  medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Informe imediatamente o seu médico ou dirija-se ao hospital mais próximo, se sentir: </p>
+<ul>
+<li>
+<p>fraqueza, desmaio ou tonturas ou tem dificuldade em respirar, uma vez que podem ser sinais de 
+uma reação alérgica grave (anafilática) </p>
+</li>
+<li>
+<p>inchaço do rosto, lábios, língua e garganta (edema de Quincke) </p>
+</li>
+<li>
+<p>sintomas gripais e uma erupção cutânea no rosto seguido de uma erupção cutânea extensa com 
+temperatura aumentada, níveis dos enzimas hepáticos aumentados observados nos testes 
+sanguíneos e um aumento de um tipo de leucócitos (eosinofilia) e nódulos linfáticos aumentados 
+(Reação a fármaco com eosinofilia e sintomas sistémicos [DRESS]) </p>
+</li>
+<li>
+<p>sintomas tais como volume de urina reduzido, cansaço, náuseas, vómitos, confusão e edema nas 
+pernas, tornozelos ou pés, uma vez que podem ser um sinal de redução da função renal </p>
+</li>
+<li>
+<p>uma erupção cutânea, que pode formar bolhas e assemelha-se a alvos pequenos (manchas com 
+centro negro rodeado por uma área mais pálida limitada por um círculo negro) (eritema 
+multiforme) </p>
+</li>
+<li>
+<p>uma erupção cutânea extensa com bolhas e descamação da pele, principalmente em redor da 
+boca, nariz, olhos e órgãos genitais (síndrome de Stevens-Johnson) </p>
+</li>
+<li>
+<p>uma forma mais grave de erupção cutânea que provoca descamação da pele em mais de 30 % da 
+superfície do corpo (necrólise epidérmica tóxica) </p>
+</li>
+<li>
+<p>sinais de distúrbios mentais graves ou se alguém em redor detecta sinais de confusão, 
+sonolência (vontade de dormir), amnésia (perda de memória), diminuição da memória 
+(esquecimentos), alterações do comportamento ou outros sinais neurológicos, incluindo 
+movimentos involuntários ou não controlados. Estes podem ser sintomas de uma encefalopatia. </p>
+</li>
+</ul>
+<p>As reações adversas comunicadas mais frequentemente foram nasofaringite, sonolência (sensação de 
+sono), dor de cabeça, fadiga e tonturas. No início do tratamento ou durante o aumento da dose, efeitos 
+indesejáveis como sonolência, cansaço e tonturas poderão ser mais frequentes. Estes efeitos devem, 
+contudo, diminuir ao longo do tempo. </p>
+<p>Muito frequentes: pode afetar mais de 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>nasofaringite </p>
+</li>
+<li>
+<p>sonolência (vontade de dormir), dor de cabeça. </p>
+</li>
+</ul>
+<p>Frequentes: pode afetar até 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>anorexia (perda de apetite); </p>
+</li>
+<li>
+<p>depressão, hostilidade ou agressividade, ansiedade, insónia, nervosismo ou irritabilidade; </p>
+</li>
+<li>
+<p>convulsões, alterações do equilíbrio, tonturas (sensação de instabilidade), letargia (falta de 
+energia e entusiasmo), tremor (tremuras involuntárias); </p>
+</li>
+<li>
+<p>vertigem (sensação de estar a rodar); </p>
+</li>
+<li>
+<p>tosse; </p>
+</li>
+<li>
+<p>dor abdominal, diarreia, dispepsia (indigestão), vómitos, náuseas; </p>
+</li>
+<li>
+<p>erupção na pele; </p>
+</li>
+<li>
+<p>astenia/fadiga (cansaço). </p>
+</li>
+</ul>
+<p>Pouco frequentes: pode afetar até 1 em cada 100 pessoas </p>
+<ul>
+<li>
+<p>número reduzido de glóbulos vermelhos e/ou glóbulos brancos; </p>
+</li>
+<li>
+<p>perda de peso, aumento de peso; </p>
+</li>
+<li>
+<p>tentativa de suicídio e ideação suicida, perturbação mental, alterações do comportamento, 
+alucinação, ira, confusão, ataque de pânico, instabilidade emocional/alterações de humor, 
+agitação; </p>
+</li>
+<li>
+<p>amnésia (perda de memória), diminuição da memória (esquecimentos), problemas de 
+coordenação/ataxia (dificuldade no controlo de movimentos),parestesias (formigueiro), 
+perturbações da atenção (falta de concentração); </p>
+</li>
+<li>
+<p>diplopia (visão dupla), visão desfocada; </p>
+</li>
+<li>
+<p>valores aumentados/anormais nas provas da função do fígado; </p>
+</li>
+<li>
+<p>queda de cabelo, eczema, comichão; </p>
+</li>
+<li>
+<p>fraqueza muscular, mialgia (dor muscular); </p>
+</li>
+<li>
+<p>ferimentos acidentais. </p>
+</li>
+</ul>
+<p>Raros: pode afetar até 1 em cada 1 000 pessoas </p>
+<ul>
+<li>
+<p>infeção; </p>
+</li>
+<li>
+<p>número reduzido de todos os tipos de células sanguíneas; </p>
+</li>
+<li>
+<p>reação alérgica grave (DRESS, reação anafilática [reação <br />
+      alérgica grave e importante], edema de Quincke [inchaço do rosto, lábios, língua e garganta); </p>
+</li>
+<li>
+<p>diminuição da concentração de sódio no sangue </p>
+</li>
+<li>
+<p>suicídio, alterações da personalidade (problemas de comportamento), perturbações do 
+pensamento (pensamento lento, incapacidade de concentração); </p>
+</li>
+<li>
+<p>delírio; </p>
+</li>
+<li>
+<p>encefalopatia (ver subsecção “Informe imediatamente o seu médico" para uma descrição 
+detalhada dos sintomas; </p>
+</li>
+<li>
+<p>as convulsões podem agravar-se ou surgir com mais frequência; </p>
+</li>
+<li>
+<p>espasmos musculares incontroláveis que afectam a cabeça, tronco e membros, dificuldade no 
+controlo dos movimentos, hipercinésia (hiperatividade); </p>
+</li>
+<li>
+<p>alteração na frequência cardíaca (eletrocardiograma); </p>
+</li>
+<li>
+<p>pancreatite; </p>
+</li>
+<li>
+<p>insuficiência do fígado , hepatite; </p>
+</li>
+<li>
+<p>redução súbita da função renal; </p>
+</li>
+<li>
+<p>erupção cutânea, que pode formar bolhas e assemelha-se a alvos pequenos (manchas com centro 
+negro rodeado por uma área mais pálida limitada por um círculo negro) (eritema multiforme), 
+uma erupção extensa com bolhas e descamação da pele, principalmente em redor da boca, nariz, 
+olhos e órgãos genitais (síndrome de Stevens-Johnson) e uma forma mais grave que provoca 
+descamação da pele em mais de 30% da superfície do corpo (necrólise epidérmica tóxica); </p>
+</li>
+<li>
+<p>rabdomiólise (degradação do tecido muscular) associado ao aumento da creatina fosfoquinase 
+sanguínea. A prevalência é significativamente superior em doentes Japoneses em comparação 
+com doentes não Japoneses; </p>
+</li>
+<li>
+<p>coxear ou dificuldade em andar; </p>
+</li>
+<li>
+<p>combinação de febre, rigidez muscular, pressão arterial e batimento cardíaco instáveis, 
+confusão, baixo nível de consciência (podem ser sinais de uma doença chamada síndrome 
+neuroléptica maligna). A prevalência é significativamente superior em doentes Japoneses 
+quando comparada com aquela dos doentes não Japoneses. </p>
+</li>
+</ul>
+<p>Muito raros: pode afetar até 1 em cada 10 000 pessoas </p>
+<ul>
+<li>pensamentos ou sensações indesejados repetitivos ou a vontade de fazer algo repetidamente 
+(perturbação obsessivo-compulsiva). </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis incluindo possíveis efeitos secundários não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar matever"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar matever"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista do alcance das crianças. </p>
+<p>Não utilize Matever após o prazo de validade impresso na embalagem e no blister, após “EXP:". 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Matever 
+A substância ativa é o levetiracetam. 
+ Um comprimido de Matever 250mg contém 250 mg de levetiracetam.. 
+Um comprimido de Matever 500 mg contém 500 mg de levetiracetam. 
+Um comprimido de Matever 750 mg contém 750 mg de levetiracetam.<br />
+Um comprimido de Matever 1000 mg contém 1000 mg de levetiracetam.  </p>
+<p>Os outros componentes de Matever são : 
+Núcleo do comprimido: hidrogenofosfato de cálcio di-hidratado, celulose microcristalina, 
+crospovidona (tipo A), hidroxipropilcelulose (L) </p>
+<p>250 mg: 
+Revestimento por película: hipromelose (E464), dióxido de titânio (E171), talco, propilenoglicol 
+(E1520), corantes*  </p>
+<p>500 mg: 
+Revestimento por película: hidroxipropilcelulose (E463), hipromelose (E464), propilenoglicol 
+(E1520), , ácido sórbico (E200), sorbitano, oleato (E494), dióxido de titânio (E171), vanilina, 
+corantes*. </p>
+<p>750 mg: 
+Revestimento por película: hipromelose (E464), macrogol /PEG 4000, dióxido de titânio (E171), 
+corantes*. </p>
+<p>1000 mg: 
+Revestimento por película: hipromelose (E464), lactose mono-hidratada, macrogol/PEG 4000, dióxido 
+de titânio (E171). </p>
+<ul>
+<li>Os corantes são: 
+Comprimidos de 250 mg: laca de alumínio de indigotina (E132), laca de alumínio de amarelo-sol 
+(E110), laca de alumínio de amarelo de quinoleína (E104). 
+Comprimidos de 500 mg: laca de alumínio de amarelo de quinoleína (E104) 
+Comprimidos de 750 mg: laca de alumínio de indigotina (E132), laca de alumínio de amarelo-sol 
+(E110), óxido de ferro vermelho (E172) 
+Comprimidos de 1000 mg: (sem corante adicional). </li>
+</ul>
+<p>Qual o aspeto de Matever e conteúdo da embalagem 
+Matever 250 mg: Os comprimidos revestidos por película são azuis, oblongos, biconvexos. 
+Matever 500mg: Os comprimidos revestidos por película são amarelo, oblongo, biconvexos. 
+Matever 750mg: Os comprimidos revestidos por película são de cor rosa, oblongo, biconvexos. 
+Matever 1000mg: Os comprimidos revestidos por película são branco, oblongo, biconvexos. </p>
+<p>Blíster branco opaco de PVC/PE/PVDC com folha de alumínio em caixas de cartão. </p>
+<p>Os comprimidos de Matever são acondicionados em blisters fornecidos em caixas de cartão que 
+contêm: </p>
+<ul>
+<li>
+<p>250 mg: 20, 30, 50, 60, 100 e embalagem múltipla de (2 embalagens de 100) comprimidos 
+revestidos por película.  </p>
+</li>
+<li>
+<p>500 mg: 10, 20, 30, 50, 60, 100, 120 e embalagem múltipla de (2 embalagens de 100) 
+comprimidos revestidos por película. </p>
+</li>
+<li>
+<p>750 mg: 20, 30, 50, 60, 80, 100, 120 e embalagem múltipla de (2 embalagens de 100) 
+comprimidos revestidos por película. </p>
+</li>
+<li>
+<p>1000 mg: 10, 20, 30, 50, 60, 100 e embalagem múltipla de (2 embalagens de 100) comprimidos 
+revestidos por película. </p>
+</li>
+</ul>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Pharmathen S.A, 6  Dervenakion Str., 15351 Pallini, Attiki, Grécia. </p>
+<p>Fabricante 
+Pharmathen S.A. 
+6 Dervenakion Str. 
+15351 Pallini, Attiki 
+Grécia </p>
+<p>ou </p>
+<p>Pharmathen International S.A. 
+Industrial Park Sapes,<br />
+Rodopi Prefecture, Block No 5,<br />
+Rodopi 69300, 
+Grécia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+Pharmathen S.A. 
+Tél/Tel: +30 210 66 04<br />
+Lietuva 
+SIA ELVIM 
+Tel: +371 67808 
+България 
+Pharmathen S.A. 
+Teл.: +30 210 66 04<br />
+Luxembourg/Luxemburg 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Česká republika 
+ARDEZ Pharma, spol. s r.o. 
+Magyarország<br />
+Pharmathen S.A. 
+Tel: +420 220 400<br />
+Tel.: +30 210 66 04<br />
+Danmark 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Malta 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Deutschland 
+Pharmathen S.A. 
+Tel.: +30 210 66 04 Nederland 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Eesti (Estonia) 
+SIA ELVIM 
+Tel: +371 67808 
+Norge 
+Pharmathen S.A. 
+Tlf: +30 210 66 04<br />
+Ελλάδα 
+INNOVIS PHARMA ΑΕΒΕ 
+Τηλ: +30 210 66 64 805- Österreich<br />
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+España 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Polska 
+Pharmathen S.A. 
+Tel.: +30 210 66 04<br />
+France 
+Pharmathen S.A. 
+Tél: +30 210 66 04<br />
+Hrvatska 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Portugal 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+România 
+Pharmathen S.A. 
+Tel: +30 210 66 04 Ireland 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Slovenija 
+Pharmathen S.A. 
+Tel: +30 210 66 04 Ísland 
+Alvogen ehf. 
+Tel: +354 522 2 
+Slovenská republika<br />
+ARDEZ Pharma, spol. s r.o. 
+Tel: +420 220 400 Italia 
+Ecupharma S.r.l </p>
+<p>Tel : +39-02-38238Suomi/Finland 
+Ailon Pharma Oy 
+Puh/Tel: +358 407024 
+Κύπρος 
+The Star Medicines Importers Co. Ltd 
+Τηλ: +357 25371 </p>
+<p>Sverige<br />
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Latvija<br />
+SIA ELVIM 
+Tel: +371 67808United Kingdom (Northern Ireland) 
+Pharmathen S.A. 
+Tel: +30 210 66 04  </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1119,6 +1740,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-26b20b6a67265be2cf1102bb12c87943"
 * entry[0].resource = composition-da-26b20b6a67265be2cf1102bb12c87943
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp26b20b6a67265be2cf1102bb12c87943"
+* entry[=].resource = mp26b20b6a67265be2cf1102bb12c87943
+                            
+                    
+Instance: bundlepackageleaflet-pt-26b20b6a67265be2cf1102bb12c87943
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for matever Package Leaflet for language pt"
+Description: "ePI document Bundle for matever Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-26b20b6a67265be2cf1102bb12c87943"
+* entry[0].resource = composition-pt-26b20b6a67265be2cf1102bb12c87943
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp26b20b6a67265be2cf1102bb12c87943"
@@ -1220,6 +1863,18 @@ RuleSet: 26b20b6a67265be2cf1102bb12c87943ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-26b20b6a67265be2cf1102bb12c87943) // matever pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

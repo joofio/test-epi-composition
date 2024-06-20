@@ -1025,6 +1025,537 @@ hjemmeside: http://www.ema.europa.eu.   </p>         </div>"""
 
 
 
+Instance: composition-pt-f5d1cf53e3b7ba5026efaf532ce60eaa
+InstanceOf: CompositionUvEpi
+Title: "Composition for neofordex Package Leaflet"
+Description:  "Composition for neofordex Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf5d1cf53e3b7ba5026efaf532ce60eaa)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - neofordex"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Neofordex e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Neofordex </li>
+<li>Como tomar Neofordex </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Neofordex </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é neofordex e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é neofordex e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Neofordex é um medicamento que contém a substância ativa dexametasona. A dexametasona é um tipo de 
+hormona chamada glucocorticoide. Por vezes também é referida como um corticoide ou um corticosteroide, 
+com várias ações, incluindo efeitos sobre os glóbulos brancos que fazem parte do sistema imunitário (as 
+defesas naturais do organismo). A dexametasona é similar aos glucocorticoides que são produzidos de forma 
+natural no organismo. </p>
+<p>Neofordex é utilizado no tratamento de doentes adultos com mieloma múltiplo, um cancro do sangue que 
+afeta os glóbulos brancos que produzem anticorpos. Neofordex é administrado em associação com outros 
+medicamentos para o mieloma múltiplo. Quando são administrados em conjunto, matam os glóbulos brancos 
+cancerígenos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar neofordex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar neofordex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Neofordex 
+− se tem alergia à dexametasona ou a qualquer outro componente deste medicamento (indicados na 
+secção 6); 
+− se sofre de uma infeção viral, sobretudo hepatite viral, herpes, varicela ou zona; 
+− se sofre de uma doença psiquiátrica não tratada. </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro, antes de tomar Neofordex, especialmente se for tomado 
+em conjunto com outros medicamentos.  </p>
+<p>Risco de infeção 
+O tratamento com Neofordex (um corticosteroide de dose alta) pode diminuir a capacidade do seu organismo 
+para combater infeções (particularmente devido a bactérias, leveduras e/ou parasitas). Por vezes, isto pode dar 
+origem a infeções causadas por microrganismos que, em circunstâncias normais, raramente causam infeção 
+(infeções oportunistas). Se contrair uma infeção de qualquer tipo durante o tratamento com este medicamento, 
+contacte de imediato o seu médico. Isto é particularmente importante se observar sinais de pneumonia, como 
+tosse, febre, falta de ar e dor torácica. É possível que também se sinta confuso, sobretudo se for idoso. Deve 
+também informar o seu médico se tiver tido tuberculose ou se tiver viajado para regiões onde as infeções por 
+nemátodos são frequentes.  </p>
+<p>Nota: é importante que, durante o período de toma de Neofordex, evite o contacto com qualquer pessoa que 
+tenha varicela, sarampo ou zona. Caso pense que pode ter estado em contacto com alguém infetado por 
+alguma destas doenças, deve informar de imediato o seu médico.  </p>
+<p>Perturbações do foro psiquiátrico 
+Os corticosteroides de dose alta, incluindo a dexametasona, podem causar problemas psicológicos que, por 
+vezes, podem ser graves. Fale com o seu médico antes de tomar Neofordex se você ou se um membro do seu 
+círculo familiar mais próximo tiver sofrido ou sofrer atualmente de depressão grave ou episódios maníacos. 
+Isto é especialmente importante caso se sinta deprimido ou possa pensar em suicídio. Pode minimizar a 
+ocorrência de insónia tomando o Neofordex de manhã.  </p>
+<p>Síndrome de lise tumoral 
+Avise o seu médico se tiver sintomas da síndrome de lise tumoral tais como cãibras, fraqueza muscular, 
+desorientação, perda de visão, distúrbios respiratórios e falta de ar. </p>
+<p>Tratamento de longa duração 
+Durante o tratamento com este medicamento, é importante manter uma dieta equilibrada (baixa em açúcar e 
+sódio, alta em proteína). È frequente ter retenção de água e sódio podendo causar hipertensão. O seu médico 
+irá indicar-lhe a dieta adequada a seguir e poderá prescrever-lhe suplementos de potássio, cálcio ou vitamina 
+D. </p>
+<p>A terapêutica com glucocorticoides como a dexametasona pode reduzir o efeito dos medicamentos utilizados 
+no tratamento da diabetes ou da hipertensão. A dose deste medicamento pode ter de ser aumentada pelo seu 
+médico.  </p>
+<p>Hematologia 
+Se sofreu de coágulos sanguíneos no passado, deve informar o seu médico antes de tomar Neofordex. A 
+associação de dexametasona com talidomida, lenalidomida ou pomalidomida (medicamentos utilizados para 
+o tratamento do mieloma múltiplo) aumenta o risco de o sangue coagular nas veias e artérias. Deve informar 
+de imediato o seu médico se sentir falta de ar, dor torácica ou inchaço dos braços ou pernas. </p>
+<p>A associação de dexametasona com lenalidomida ou pomalidomida pode causar uma diminuição do número 
+normal de glóbulos brancos (células sanguíneas que ajudam a combater as infeções) e/ou plaquetas 
+sanguíneas (que ajudam a impedir a ocorrência de hemorragias). O seu médico providenciará a realização de 
+análises adequadas ao sangue antes do tratamento e durante o mesmo.  </p>
+<p>Crises de feocromocitoma 
+O tratamento com este medicamento pode causar crises de feocromocitoma, que podem ser fatais. O 
+feocromocitoma é um tumor raro das glândulas suprarrenais. Esta crise pode ocorrer com os seguintes 
+sintomas: dores de cabeça, sudorese, palpitações e hipertensão. Contacte o seu médico imediatamente se 
+sentir algum destes sinais. </p>
+<p>Afeções oculares 
+O tratamento com este medicamento pode causar coriorretinopatia serosa central, uma doença dos olhos que 
+leva a visão turva ou distorcida. Isto acontece normalmente num dos olhos. Se tiver visão turva ou distorcida 
+durante vários dias, contacte o seu médico. </p>
+<p>Tendinite 
+O tratamento com este medicamento pode causar inflamações dos tendões. Em casos extremamente raros, 
+pode ocorrer a rutura de um tendão. Este risco aumenta com o tratamento com determinados antibióticos e na 
+sequência de problemas renais. Contacte o seu médico se sentir articulações ou tendões rígidos ou inchados 
+ou se sentir dores nos mesmos. </p>
+<p>Os médicos, dentistas ou outras pessoas que lhe possam prescrever um tratamento devem ser informados de 
+que está atualmente a tomar ou tomou recentemente dexametasona (ver secção “Outros medicamentos e 
+Neofordex").  </p>
+<p>Caso fique doente, sofra um acidente ou necessite de ser submetido a uma cirurgia (inclusivamente no 
+dentista) ou se receber uma vacina (uma dose elevada de um glucocorticoide pode diminuir o efeito das 
+vacinas “virais vivas"), deve informar o médico que o trata de que está a tomar ou tomou recentemente 
+corticosteroides de dose alta. </p>
+<p>Se for necessário submeter-se a análises (sobretudo em caso de infeção), deve informar a pessoa que realiza 
+as análises, na medida em que a dexametasona pode interferir com os resultados. </p>
+<p>Fale com o seu médico antes de tomar Neofordex 
+- se sofre de doença no fígado ou nos rins, 
+- se sofre de doença cardíaca ou teve recentemente um ataque cardíaco, 
+- se tem tensão arterial alta, nível de colesterol alto ou é fumador, 
+- se tem diabetes ou se existem antecedentes de diabetes na sua família, 
+- se sofre de osteoporose, sobretudo se for uma mulher e estiver na menopausa, 
+- se sofre de glaucoma (pressão ocular alta) ou se existem antecedentes de glaucoma na sua família, 
+- se sofre de miastenia gravis (uma doença que afeta os músculos), inflamação num tendão (tendinite) 
+- se tem uma úlcera péptica (úlcera no estômago ou duodeno) ou antecedentes de úlceras pépticas, 
+perfuração ou hemorragias no estômago, 
+- se tem uma inflamação do cólon, diverticulite ou foi submetido recentemente a uma cirurgia no 
+intestino, 
+- se tem ou suspeita ter feocromocitoma (um tumor das glândulas suprarrenais). </p>
+<p>O seu médico irá observá-lo de forma mais cuidadosa se tiver alguma das doenças indicadas. </p>
+<p>Idosos 
+Se for idoso, alguns dos efeitos indesejáveis de Neofordex poderão ser mais graves, sobretudo diminuição da 
+espessura dos ossos (osteoporose), tensão arterial alta, níveis baixos de potássio, diabetes, suscetibilidade a 
+infeções e diminuição da espessura da pele. O seu médico irá monitorizá-lo de forma mais cuidadosa. </p>
+<p>Crianças e adolescentes 
+As crianças não desenvolvem mieloma múltiplo. Este medicamento não deve ser administrado a crianças (ou 
+seja, qualquer pessoa com idade inferior a 18 anos). </p>
+<p>Outros medicamentos e Neofordex 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos. </p>
+<p>Antes de iniciar o tratamento com Neofordex, leia os folhetos informativos de todos os medicamentos que 
+serão tomados em associação com o Neofordex para obter informações sobre os mesmos. Quando se utiliza 
+talidomida, lenalidomida ou pomalidomida, é necessário prestar particular atenção à prevenção e testes de 
+gravidez. </p>
+<p>Se está a tomar algum dos seguintes medicamentos, deve consultar o seu médico antes de tomar Neofordex: </p>
+<p>As seguintes associações devem ser evitadas 
+- ácido acetilsalicílico, uma substância presente em muitos medicamentos utilizados para aliviar a dor 
+e diminuir a febre (pode aumentar o risco de hemorragia);<br />
+Também deve informar o seu médico se tiver sido vacinado recentemente ou se planear ser vacinado (por 
+favor ver a secção “Advertências e precauções"). </p>
+<p>As seguintes associações requerem precauções 
+- Medicamentos que reduzem os níveis de potássio no sangue: por exemplo, alguns diuréticos ou 
+laxantes, anfotericina B injetável, tetracosactido, devido ao risco de baixar os níveis de potássio. O seu 
+médico poderá precisar de monitorizar os níveis de potássio;<br />
+- Medicamentos que podem aumentar o risco de ritmo cardíaco alterado (p.ex. alguns medicamentos 
+utilizados no tratamento de doença cardíaca, como os digitálicos), uma vez que níveis baixos de 
+potássio aumentam o risco de batimentos cardíacos alterados;<br />
+- Medicamentos para tratar a hipertensão, uma vez que o seu efeito pode ficar reduzido. O seu médico 
+poderá precisar de ajustar a dose do seu tratamento anti-hipertensor.<br />
+- Medicamentos para tratar a anemia como a Eritropoietina (EPO) ou outros medicamentos como 
+terapêuticas hormonais de substituição, que podem aumentar o risco de formação de coágulos 
+sanguíneos (por favor ver a secção “Advertências e precauções" e “Efeitos indesejáveis possíveis");<br />
+- Medicamentos para tratar a dor, a inflamação e a febre (medicamentos anti-inflamatórios não 
+esteroides), p. ex. ibuprofeno, naproxeno, diclofenac, meloxicam, entre outros que podem aumentar o 
+risco de perfuração ou hemorragias no estômago;<br />
+- Medicamentos para o tratamento da diabetes, uma vez que o Neofordex pode alterar os níveis de 
+glucose. É importante fazer a auto-monitorização dos níveis de glucose, principalmente no início do 
+tratamento. O seu médico poderá ter de ajustar a dose do seu medicamento antidiabético; 
+- Alguns antibióticos (como as fluoroquinolonas) podem aumentar o risco de tendinite e, em casos 
+excecionais, a rutura do tendão afetado, principalmente após tratamento de longa duração: 
+- Alguns medicamentos para tratamento do cancro (como o metotrexato) podem aumentar o risco de 
+infeção, hemorragia ou anemia.  </p>
+<p>Os medicamentos seguintes podem influenciar o efeito do Neofordex 
+Estes medicamentos podem reduzir o efeito do Neofordex: 
+- Aminoglutetimida (medicamento utilizado para o tratamento do síndrome de Cushing ou do cancro da 
+mama); 
+- Anticonvulsivantes (para o tratamento da epilepsia) como a carbamazepina, fosfenitoína, fenobarbital, 
+fenitoína, primidona; 
+- Rifampicina (utilizada no tratamento da tuberculose) 
+- Medicamentos para o desconforto gástrico (por exemplo, antiácidos) assim como a colestiramina (para 
+baixar o colesterol); a administração deste tipo de medicamentos com Neofordex deve ser espaçada em 
+pelo menos duas horas; 
+- Efedrina (para o tratamento de crises de asma ou alívio da congestão nasal). 
+Estes medicamentos podem aumentar o efeito do Neofordex: 
+- Aprepitante ou fosaprepitante (para o tratamento de náuseas e vómitos que ocorrem após uma cirurgia 
+ou que são causados por quimioterapia [tratamento do cancro]); 
+- Antibióticos, com nomes de substância ativa que terminam em «micina» ou «floxacina» e antifúngicos 
+(para o tratamento de infeções fúngicas) com nomes de substância ativa que terminam em «conazol»; e 
+medicamentos para tratar o VIH com nomes de substância ativa que terminam em «navir»; </p>
+<p>O Neofordex pode influenciar o efeito destes medicamentos 
+- O efeito dos contracetivos orais e da terapêutica hormonal de substituição (THS) podem ser reduzidos. 
+Devem ser tomadas medidas eficazes para evitar a gravidez (ver secção “Gravidez, amamentação e 
+fertilidade"); 
+- O efeito dos anticoagulantes orais pode aumentar, aumentando o risco de hemorragia. O seu médico 
+poderá ter de monitorizar com cuidado os seus parâmetros de coagulação;  <br />
+- O efeito de alguns medicamentos para o tratamento do cancro (como o docetaxel e a ciclofosfamida) 
+pode ser reduzido; 
+- Os efeitos hepáticos do lapatinib (utilizado no tratamento do cancro) podem estar aumentados; 
+- O efeito da ciclosporina (um medicamento usado na supressão de reações imunológicas) pode ser 
+reduzido. Para além disso, notificaram-se convulsões com a utilização concomitante de dexametasona e 
+ciclosporina. A utilização concomitante de Neofordex e ciclosporina deve ser evitada; 
+- O efeito do midazolam (utilizado como soporífero e para o tratamento da epilepsia) pode ser reduzido; 
+- O efeito da ivermectina (para certas infeções por vermes) pode ser reduzido, pelo que o tratamento com 
+ivermectina deve ser concluído com êxito antes da administração do Neofordex (ver seção 
+“Advertências e precauções"); 
+- O efeito da rifabutina ou da isoniazida (utilizados no tratamento tuberculose) pode ser reduzido; 
+- O efeito do indinavir (utilizado no tratamento do VIH) pode ser reduzido; 
+- O efeito da eritromicina pode ser reduzido; 
+- O efeito do praziquantel (para certas infeções por vermes) pode ser reduzido com o risco de falha do 
+tratamento, pelo que o tratamento com praziquantel e Neofordex deve ser espaçado em pelo menos uma 
+semana. </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico ou 
+farmacêutico antes de tomar este medicamento. </p>
+<p>É necessário que evite engravidar durante o tratamento com Neofordex pois pode provocar malformações 
+congénitas. Você e o seu parceiro têm de utilizar contraceção adequada. Não deve utilizar o Neofordex durante 
+a gravidez a não ser que a sua condição clínica requeira tratamento com dexametasona. Informe de imediato o 
+seu médico se estiver grávida ou se engravidar durante o tratamento.  </p>
+<p>Os glucocorticoides são excretados no leite humano pelo que não podem ser excluídos os riscos para os 
+recém-nascidos/lactentes. Informe o seu médico se estiver a amamentar ou se planear fazê-lo. O seu médico 
+irá ajudá-la a decidir se deve interromper a amamentação ou deixar de tomar o Neofordex, tendo em 
+consideração o benefício da amamentação para a criança e o benefício do Neofordex para a mãe. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de Neofordex sobre a capacidade de conduzir e utilizar máquinas são moderados. Não conduza, 
+não utilize quaisquer ferramentas ou máquinas nem realize quaisquer tarefas perigosas se sofrer de efeitos 
+indesejáveis, como confusão, alucinações, tonturas, cansaço, sonolência, desmaios ou visão turva.  </p>
+<p>Neofordex contém lactose 
+Neofordex contém lactose, um açúcar. Se o seu médico lhe tiver dito que tem intolerância a algum açúcar, 
+contacte-o antes de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar neofordex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar neofordex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver dúvidas.  </p>
+<p>O seu médico decidirá a dose e a frequência com que deve tomar Neofordex. Pode variar de acordo com a 
+sua condição e com outros tratamentos associados. A dose recomendada é de um comprimido de cada vez. 
+Se tiver mais de 65 anos de idade e/ou se estiver fragilizado, o seu médico poderá decidir prescrever-lhe 
+outro medicamento com uma dose mais baixa de dexametasona. Não exceda nem tome menos do que a dose 
+receitada. Deve tomar este medicamento nos dias adequados, exatamente conforme indicado pelo seu 
+médico. </p>
+<p>O seu médico pode alterar a dose e a frequência de administração com base em determinados parâmetros, 
+incluindo análises ao sangue, estado de saúde geral, outros medicamentos que lhe foram receitados e a 
+resposta ao tratamento.  </p>
+<p>Engula a dose prescrita de um comprimido (40 mg) de manhã com um copo de água. </p>
+<p>Se tiver dificuldade em retirar o comprimido do blister, peça a ajuda de alguém. A insónia pode ser 
+minimizada ao tomar o Neofordex de manhã. </p>
+<p>Se tomar mais Neofordex do que deveria 
+Se tomar Neofordex a mais, contacte o seu médico ou hospital de imediato. </p>
+<p>Caso se tenha esquecido de tomar Neofordex 
+Caso se tenha esquecido de tomar Neofordex à hora habitual e 
+- 
+se o atraso for inferior a 12 horas, tome o comprimido de imediato. 
+- 
+se o atraso for superior a 12 horas, não tome o comprimido que esqueceu e tome o seguinte à hora 
+habitual.  </p>
+<p>Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. </p>
+<p>Se parar de tomar Neofordex 
+Pode sofrer efeitos indesejáveis graves se parar de tomar este medicamento de forma súbita. Se parar de tomar 
+este medicamento de forma demasiado abrupta, poderá ficar com tensão arterial baixa. É possível que também 
+sofra de «sintomas de abstinência». Estes podem incluir dor de cabeça, problemas com a visão (incluindo dor 
+ou inchaço ocular), sensação de enjoo, febre, dores nos músculos e articulações, inchaço no interior do nariz, 
+perda de peso, comichão na pele e conjuntivite. Caso o seu tratamento tenha de ser suspenso, siga as 
+indicações do seu médico.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>O seu médico conversará consigo sobre esses efeitos e explicará os potenciais riscos e benefícios do seu 
+tratamento.  </p>
+<p>Os efeitos indesejáveis indicados de seguida foram observados quando a dexametasona foi tomada para o 
+tratamento do mieloma múltiplo e para o tratamento de outras doenças. Por vezes, quando se toma diversos 
+medicamentos em associação, esses medicamentos podem provocar mais efeitos indesejáveis do que quando 
+são tomados isoladamente.  </p>
+<p>Neofordex pode causar problemas graves a nível da saúde mental. Esses problemas são frequentes (podem 
+afetar até 1 doente em cada 10) e podem incluir: 
+- sentir-se deprimido (incluindo pensar em suicídio) 
+- sentir-se extasiado (mania), extremamente feliz (euforia) ou grandes variações de humor, 
+- sentir ansiedade, dificuldades de concentração e perda de memória, 
+- sentir, ver ou ouvir coisas que não existem ou acreditar em coisas que não são reais, ter pensamentos 
+sombrios, alterar o modo como se comporta. 
+Se sentir algum destes sintomas, fale de imediato com um médico. </p>
+<p>Outros efeitos indesejáveis possíveis podem ser: 
+Muito frequentes: podem afetar mais de 1 doente em cada − aumento dos níveis de açúcar no sangue (hiperglicemia);<br />
+− prisão de ventre; 
+− dificuldade em dormir (insónia); 
+− cãibras musculares, fraqueza muscular; 
+− cansaço, fraqueza, inchaço do corpo e do rosto. 
+Frequentes: podem afetar até 1 doente em cada − infeções bacterianas, virais ou fúngicas, incluindo pneumonia, zona, infeções do nariz, boca, amígdalas 
+ou garganta, bronquite, herpes, infeção da bexiga, infeção por Cândida; 
+− redução do número de glóbulos vermelhos ou brancos e/ou plaquetas, ou aumento do número de 
+glóbulos brancos, diminuição dos níveis de potássio ou de albumina (uma proteína) no sangue, aumento 
+dos níveis de ácido úrico no sangue, alterações nos testes da função do fígado;<br />
+− síndroma de Cushing, ou seja, aumento de peso no tronco e no rosto, sudação excessiva, estrias, 
+capilares (vasos sanguíneos pequenos) inchados visíveis e secura da pele, crescimento de pelo facial 
+adicional (sobretudo nas mulheres) e perda de cabelo;<br />
+− desenvolvimento de diabetes, perda ou aumento de apetite, aumento do peso ou diminuição do peso, 
+retenção de líquidos;<br />
+− agressividade, confusão, irritabilidade, nervosismo, irrequietude, humor alterado; 
+− sensibilidade, dormência, formigueiro ou sensação de ardor na pele, ou dor nas mãos ou pés devido a 
+lesões nervosas, tonturas, tremores, dor de cabeça, perda ou alteração do sentido do paladar;<br />
+− cataratas, visão turva; 
+− ritmo cardíaco rápido ou irregular, tensão arterial demasiado alta ou demasiado baixa, formação de 
+coágulos sanguíneos que podem obstruir vasos sanguíneos (por exemplo, nas pernas ou pulmões), 
+inchaço dos braços ou pernas, vermelhidão da pele do rosto ou do corpo;<br />
+− tosse, dificuldades respiratórias, dificuldades na fala, garganta ou boca inflamada, rouquidão, boca seca, 
+soluços, inflamação das membranas das mucosas; 
+− vómitos, náuseas, diarreia, indigestão, estômago distendido, inchado e/ou doloroso; 
+− erupção na pele, comichão, pele avermelhada, suor excessivo (hiper-hidrose), pele seca, perda de cabelo 
+(alopecia); 
+− desgaste muscular, dor nos músculos, articulações, ossos ou membros; 
+− urinar com frequência; 
+− dores, febre, arrepios, desmaios, vertigens, exaustão, sonolência, problemas de equilíbrio.<br />
+Pouco frequentes: podem afetar até 1 doente em cada − febre causada pela insuficiência de determinados glóbulos brancos, insuficiência de todos os tipos de 
+células sanguíneas, redução da coagulação sanguínea; 
+− incapacidade da glândula tiroide para produzir quantidades normais de hormonas (hipotiroidismo);<br />
+− água insuficiente no organismo (desidratação), associada a sede ou dor de cabeça, diminuição dos níveis 
+de magnésio ou cálcio no sangue; 
+− alterações de humor, alucinações; 
+− AVC, dificuldades de coordenação ou movimento, desmaios; 
+− inflamação dos olhos e/ou das pálpebras, aumento da lacrimação; 
+− ataque cardíaco, batimentos cardíacos anormalmente lentos; 
+− urticária; 
+− insuficiência dos rins. 
+Frequência desconhecida: não pode ser calculada a partir dos dados disponíveis 
+− infeção, inflamação da totalidade do corpo devido a infeção (sépsis); 
+− incapacidade do organismo para responder normalmente a situações de grande desgaste, tais como 
+acidentes, cirurgias ou doenças, devido ao funcionamento deficiente das glândulas suprarrenais, dores de 
+cabeça graves e invulgares com distúrbios visuais associados à suspensão do tratamento, irregularidade 
+dos ciclos menstruais nas mulheres, crescimento excessivo de pelo (hirsutismo); 
+− maior necessidade de medicamentos diabéticos, desequilíbrio dos sais, perda de potássio devido a níveis 
+baixos de dióxido de carbono (uma patologia chamada alcalose metabólica); 
+− crises epiléticas;<br />
+− aumento da pressão ocular, incluindo glaucoma, doenças da coroide e retina (coriorretinopatia); 
+− incapacidade do coração para bombear sangue suficiente em todo o organismo (insuficiência cardíaca); 
+− úlceras, perfurações e/ou hemorragias no esófago (garganta), estômago ou intestino, inflamação do 
+pâncreas (que se pode manifestar sob a forma de dor nas costas e abdómen); 
+− cicatrização lenta das feridas, acne, diminuição da espessura da pele, hematomas, descolorações 
+vermelhas ou púrpura na pele (púrpura); 
+− diminuição da espessura dos ossos com risco acrescido de fratura, doença óssea e rutura de tendão. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
+fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente através 
+do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a 
+ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar neofordex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar neofordex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e blister, após VAL. 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não utilize este medicamento se verificar a presença de quaisquer defeitos ou de quaisquer sinais de 
+deterioração dos comprimidos ou do acondicionamento. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de temperatura e conservação. Mantenha os 
+comprimidos no blister até os tomar. Se utilizar uma caixa organizadora de comprimidos, utilize a perfuração 
+para separar os comprimidos individuais do blister sem abrir a embalagem. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Neofordex<br />
+- A substância ativa é dexametasona. Cada comprimido contém acetato de dexametasona, equivalente a 
+40 mg de dexametasona. 
+- Os outros componentes são lactose mono-hidratada, celulose microcristalina, estearato de magnésio e 
+sílica coloidal anidra (ver secção 2).  </p>
+<p>Qual o aspeto de Neofordex e conteúdo da embalagem 
+O comprimido é branco, de forma oblonga, com “40 mg" gravado numa face. O comprimido pode ser 
+dividido em duas metades iguais.  </p>
+<p>Cada embalagem contém 10 x 1 comprimidos em blister perfurado de OPA/alumínio/PVC-alumínio para 
+dose unitária.  </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>THERAVIA 
+16 Rue Montrosier 
+92200 Neuilly-sur-Seine 
+França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+THERAVIA 
+Tél/Tel: +32 (0)2 40 11 question@theravia.com  </p>
+<p>Lietuva 
+Immedica Pharma AB<br />
+Tel/Puh: +46 (0)8 533 39 500<br />
+info@immedica.com </p>
+<p>България 
+THERAVIA 
+Teл.: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>Luxembourg/Luxemburg 
+THERAVIA 
+Tél/Tel: +352 278 62 question@theravia.com  </p>
+<p>Česká republika 
+THERAVIA 
+Tel.: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>Magyarország 
+THERAVIA 
+Tel.: +33 (0)1 72 69 01 question@theravia.com<br />
+Danmark 
+Immedica Pharma AB<br />
+Tlf: +46 (0)8 533 39 500<br />
+info@immedica.com </p>
+<p>Malta 
+THERAVIA 
+Tel: +356 2776 1question@theravia.com  </p>
+<p>Deutschland 
+THERAVIA 
+Tel: +49 (0)3022153question@theravia.com  </p>
+<p>Nederland 
+THERAVIA 
+Tel: +31 (0)2 070 38 question@theravia.com  </p>
+<p>Eesti 
+Immedica Pharma AB<br />
+Tel/Puh: +46 (0)8 533 39 500<br />
+info@immedica.com </p>
+<p>Norge 
+Immedica Pharma AB<br />
+Tel/Puh: +46 (0)8 533 39 500<br />
+info@immedica.com </p>
+<p>Ελλάδα 
+RAFARM AEBE 
+Τηλ: + 302 106776 
+Österreich 
+THERAVIA 
+Tel: +43 (0) 800 909 question@theravia.com  </p>
+<p>España 
+THERAVIA 
+Tel: + 34 914 146 question@theravia.com  </p>
+<p>Polska 
+THERAVIA 
+Tel.: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>France 
+THERAVIA 
+Tél: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>Portugal 
+THERAVIA 
+Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>Hrvatska 
+THERAVIA 
+Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>Ireland 
+THERAVIA 
+Tel : 016950063<br />
+question@theravia.com </p>
+<p>România 
+THERAVIA 
+Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>Slovenija 
+THERAVIA 
+Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>Ísland 
+Immedica Pharma AB<br />
+Sími: + 46 (0)8 533 39 info@immedica.com </p>
+<p>Slovenská republika 
+THERAVIA 
+Teл.: +33 (0)1 72 69 01 question@theravia.com<br />
+Italia 
+THERAVIA 
+Tel: +39 (0) 800 959 question@theravia.com<br />
+Suomi/Finland 
+Immedica Pharma AB<br />
+Tel/Puh: +46 (0)8 533 39 500<br />
+info@immedica.com </p>
+<p>Κύπρος 
+RAFARM AEBE 
+Τηλ: + 302 106776Sverige 
+Immedica Pharma AB<br />
+Tel: +46 (0)8 533 39 500<br />
+info@immedica.com </p>
+<p>Latvija 
+Immedica Pharma AB<br />
+Tel: +46 (0)8 533 39 500<br />
+info@immedica.com </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p>         </div>"""      
+
+
+
 
 
                     
@@ -1066,6 +1597,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-f5d1cf53e3b7ba5026efaf532ce60eaa"
 * entry[0].resource = composition-da-f5d1cf53e3b7ba5026efaf532ce60eaa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf5d1cf53e3b7ba5026efaf532ce60eaa"
+* entry[=].resource = mpf5d1cf53e3b7ba5026efaf532ce60eaa
+                            
+                    
+Instance: bundlepackageleaflet-pt-f5d1cf53e3b7ba5026efaf532ce60eaa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for neofordex Package Leaflet for language pt"
+Description: "ePI document Bundle for neofordex Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-f5d1cf53e3b7ba5026efaf532ce60eaa"
+* entry[0].resource = composition-pt-f5d1cf53e3b7ba5026efaf532ce60eaa
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpf5d1cf53e3b7ba5026efaf532ce60eaa"
@@ -1167,6 +1720,18 @@ RuleSet: f5d1cf53e3b7ba5026efaf532ce60eaaListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-f5d1cf53e3b7ba5026efaf532ce60eaa) // neofordex pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

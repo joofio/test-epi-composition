@@ -646,6 +646,362 @@ Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale
 
 
 
+Instance: composition-pt-1f675c75ae2647759e12de1b52c8e0f9
+InstanceOf: CompositionUvEpi
+Title: "Composition for evusheld Package Leaflet"
+Description:  "Composition for evusheld Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1f675c75ae2647759e12de1b52c8e0f9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - evusheld"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é EVUSHELD e para que é utilizado 
+2. O que precisa de saber antes de lhe ser administrado EVUSHELD
+3. Como EVUSHELD é administrado
+4. Efeitos indesejáveis possíveis 
+5. Como conservar EVUSHELD
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é evusheld e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é evusheld e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>EVUSHELD é composto por duas substâncias ativas: tixagevimab e cilgavimab. Ambos são 
+medicamentos chamados anticorpos monoclonais. Estes anticorpos são proteínas que se ligam a uma 
+proteína específica do SARS-CoV-2, o vírus que causa a COVID-19. Ao ligar-se a essa proteína, 
+impedem que o vírus entre nas células humanas.
+EVUSHELD é utilizado para a profilaxia pré-exposição (prevenção) da infeção por COVID-19 em 
+adultos e adolescentes com idade igual ou superior a 12 anos que pesem, pelo menos, 40 kg.
+EVUSHELD é utilizado para tratar adultos e adolescentes, com idade a partir dos 12 anos que pesem, 
+pelo menos, 40 kg, que tenham COVID-19, e que:
+
+não necessitam de oxigénio suplementar para o tratamento da COVID-19, e
+
+apresentam risco aumentado da doença se tornar grave, com base na avaliação do seu médico.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar evusheld"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar evusheld"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe pode ser administrado este medicamento
+
+se tem alergia ao tixagevimab, cilgavimab ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).
+Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de lhe ser administrado EVUSHELD
+
+se tem um número baixo de plaquetas no sangue (que ajudam na coagulação do sangue), 
+quaisquer problemas de coagulação do sangue ou está a tomar um medicamento para prevenir a 
+formação de coágulos sanguíneos (um anticoagulante).
+
+se alguma vez teve uma reação alérgica grave ou problemas respiratórios depois de lhe ter sido 
+administrado EVUSHELD no passado.
+30
+Informe um médico, farmacêutico ou enfermeiro ou procure ajuda médica imediatamente:
+
+se verificar quaisquer sintomas de um acontecimento cardíaco, tais como:
+o
+dor no peito;
+o
+falta de ar;
+o
+uma sensação geral de desconforto, doença ou falta de bem-estar;
+o
+sensação de tontura ou desmaio.
+
+se notar quaisquer sinais de uma reação alérgica grave, tais como:
+o
+dificuldade em respirar ou engolir;
+o
+inchaço da face, lábios, língua ou garganta;
+o
+comichão grave na pele, com erupção vermelha na pele ou inchaços elevados.
+Crianças e adolescentes
+EVUSHELD não deve ser administrado a crianças com menos de 12 anos ou que pesem pelo menos 
+40 kg.
+Outros medicamentos e EVUSHELD
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou 
+se vier a tomar outros medicamentos. Isto porque ainda não se sabe se este medicamento afeta, ou é 
+afetado por outros medicamentos.
+Gravidez e amamentação
+Informe o seu médico ou enfermeiro se está grávida, ou se pensa estar grávida.
+
+Isto porque não existe informação suficiente para garantir que este medicamento é seguro para 
+utilização na gravidez.
+
+Este medicamento só será administrado se os potenciais benefícios do tratamento forem 
+superiores aos potenciais riscos para a mãe e para o feto.
+Informe o seu médico ou enfermeiro se está a amamentar.
+
+Isto porque ainda não se sabe se este medicamento passa para o leite materno humano, ou que 
+efeitos poderá ter no bebé ou na produção de leite.
+
+O seu médico irá ajudá-la a decidir se deve continuar a amamentar ou iniciar o tratamento com 
+este medicamento.
+Condução de veículos e utilização de máquinas
+É improvável que EVUSHELD afete a sua capacidade de conduzir ou utilizar máquinas.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar evusheld"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar evusheld"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A dose recomendada para a profilaxia pré-exposição (prevenção) é 300 miligramas (mg), administrada 
+em duas injeções:
+
+150 mg de tixagevimab
+
+150 mg de cilgavimab
+A dose recomendada para o tratamento da COVID-19 ligeira a moderada é 600 mg, administrada em 
+duas injeções:
+
+300 mg de tixagevimab
+
+300 mg de cilgavimab
+EVUSHELD consiste em duas soluções separadas, uma contendo tixagevimab e outra contendo 
+cilgavimab. O seu médico ou enfermeiro irão administrá-las injetando cada uma num músculo 
+separado, normalmente uma no músculo de cada nádega. As 2 injeções serão administradas uma a 
+seguir à outra.
+31
+O seu médico ou enfermeiro decidirão durante quanto tempo será monitorizado após a administração 
+do medicamento. Isto é no caso de ter quaisquer efeitos indesejáveis.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Efeitos indesejáveis
+Frequentes (podem afetar até 1 em cada 10 pessoas)
+
+reação de hipersensibilidade (erupção na pele ou uma erupção vermelha na pele com comichão 
+ou inchaços elevados)
+
+reação no local da injeção (dor, vermelhidão, comichão, inchaço próximo de onde a injeção foi 
+administrada)
+Pouco frequentes (podem afetar até 1 em cada 100 pessoas)
+
+reação relacionada com a injeção (exemplos incluem dor de cabeça, arrepios e vermelhidão, 
+desconforto ou dor perto de onde a injeção foi administrada)
+Raros (podem afetar até 1 em cada 1000 pessoas)
+
+reação alérgica grave repentina e com dificuldade respiratória, inchaço, tonturas, batimento 
+cardíaco acelerado, transpiração e perda de consciência (anafilaxia)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar evusheld"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar evusheld"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+O seu médico, farmacêutico ou enfermeiro é responsável pelo armazenamento deste medicamento e 
+eliminação correta de qualquer medicamento não utilizado. A informação que se segue destina-se aos 
+profissionais de saúde.
+Não utilize este medicamento após o prazo de validade impresso na embalagem e rótulo do frasco para 
+injetáveis após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+Frascos para injetáveis fechados:
+
+Conservar no frigorífico (2°C a 8°C).
+
+Não congelar.
+
+Não agitar.
+
+Conservar na embalagem de origem para proteger da luz.
+As seringas preparadas devem ser utilizadas imediatamente. Se necessário, conserve as seringas 
+preparadas não mais de 4 horas de 2°C a 25°C.
+32</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de EVUSHELD
+As substâncias ativas são:
+
+tixagevimab - 150 mg em 1,5 ml de solução.
+
+cilgavimab -150 mg em 1,5 ml de solução.
+Os outros componentes são histidina, cloridrato de histidina mono-hidratada, sacarose, polissorbato e água para preparações injetáveis.
+Qual o aspeto de EVUSHELD e conteúdo da embalagem
+EVUSHELD contém dois frascos para injetáveis de vidro transparente de solução injetável:
+
+Tixagevimab solução injetável (tampa cinzenta escura) é uma solução límpida a opalescente, 
+incolor a ligeiramente amarela.
+
+Cilgavimab solução injetável (tampa branca) é uma solução límpida a opalescente, incolor a 
+ligeiramente amarela.
+Cada embalagem contém 2 frascos para injetáveis: 1 frasco para injetáveis de tixagevimab e 1 frasco 
+para injetáveis de cilgavimab.
+Titular da Autorização de Introdução no Mercado e Fabricante
+AstraZeneca AB
+SE-151 85 Södertälje
+Suécia
+Fabricante
+AstraZeneca AB
+Gärtunavägen, 
+SE-152 57 Södertälje, 
+Suécia
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Nederland
+AstraZeneca BV
+33
+Tel: +49 40 809034100
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska 
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7777
+Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Este folheto foi revisto pela última vez em 
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -687,6 +1043,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-1f675c75ae2647759e12de1b52c8e0f9"
 * entry[0].resource = composition-da-1f675c75ae2647759e12de1b52c8e0f9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1f675c75ae2647759e12de1b52c8e0f9"
+* entry[=].resource = mp1f675c75ae2647759e12de1b52c8e0f9
+                            
+                    
+Instance: bundlepackageleaflet-pt-1f675c75ae2647759e12de1b52c8e0f9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for evusheld Package Leaflet for language pt"
+Description: "ePI document Bundle for evusheld Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-1f675c75ae2647759e12de1b52c8e0f9"
+* entry[0].resource = composition-pt-1f675c75ae2647759e12de1b52c8e0f9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp1f675c75ae2647759e12de1b52c8e0f9"
@@ -788,6 +1166,18 @@ RuleSet: 1f675c75ae2647759e12de1b52c8e0f9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-1f675c75ae2647759e12de1b52c8e0f9) // evusheld pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

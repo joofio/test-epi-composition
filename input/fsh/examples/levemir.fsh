@@ -1047,6 +1047,551 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>
 
 
 
+Instance: composition-pt-6c112c3573c3c3963f8150233106c4e0
+InstanceOf: CompositionUvEpi
+Title: "Composition for levemir Package Leaflet"
+Description:  "Composition for levemir Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6c112c3573c3c3963f8150233106c4e0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - levemir"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Levemir e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Levemir </li>
+<li>Como utilizar Levemir </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Levemir </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é levemir e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é levemir e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Levemir é uma insulina moderna (análogo de insulina) com um efeito de ação lenta. As insulinas 
+modernas são versões melhoradas da insulina humana. </p>
+<p>Levemir é utilizado para reduzir o nível elevado de açúcar no sangue nos adultos, adolescentes e 
+crianças com 1 ano de idade ou mais, com diabetes mellitus (diabetes). A diabetes é uma doença em 
+que o seu corpo não produz insulina suficiente para controlar o nível de açúcar no sangue.  </p>
+<p>Levemir pode ser utilizado com insulinas de ação rápida administradas em consonância com as 
+refeições. 
+No tratamento da diabetes mellitus tipo 2, Levemir pode, também, ser utilizado em associação com os 
+comprimidos para a diabetes e/ou com outros medicamentos antidiabéticos injetáveis além da insulina. </p>
+<p>Levemir tem uma ação prolongada e constante de diminuição do açúcar no sangue, com início ao fim 
+de 3 a 4 horas após a injeção. Levemir proporciona até 24 horas de cobertura com insulina basal. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar levemir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar levemir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Levemir </p>
+<p>► 
+Se tem alergia à insulina detemir ou a qualquer outro componente deste medicamento, ver 
+secção 6, Conteúdo da embalagem e outras informações.<br />
+► 
+Se suspeitar que está a entrar em hipoglicemia (baixa de açúcar no sangue), ver a) Resumo dos 
+efeitos indesejáveis graves e muito frequentes na secção 4. ► 
+Em bombas perfusoras de insulina. 
+► 
+Se deixar cair, partir ou danificar o cartucho ou o dispositivo que o contém. 
+► 
+Se tiver sido armazenado incorretamente ou tiver sido congelado, ver secção 5, Como conservar 
+Levemir. 
+► 
+Se a insulina não tiver um aspeto transparente, incolor e aquoso. </p>
+<p>Se alguma destas situações se aplica a si, não tome Levemir. Fale com o seu médico, enfermeiro ou 
+farmacêutico para aconselhamento. </p>
+<p>Antes de utilizar Levemir </p>
+<p>► 
+Verifique o rótulo para se certificar de que é o tipo correto de insulina. 
+► 
+Verifique sempre o cartucho, incluindo o êmbolo de borracha no fundo do cartucho. Não utilize 
+se houver algum dano visível ou se o êmbolo de borracha tiver sido puxado acima da faixa 
+branca no fundo do cartucho. Esta situação pode ser o resultado de uma fuga de insulina. Caso 
+suspeite que o cartucho está danificado devolva-o ao seu fornecedor. Para mais informações 
+consulte o manual da sua caneta. 
+► 
+Utilize sempre uma agulha nova em cada injeção para evitar uma contaminação. 
+► 
+As agulhas e Levemir Penfill não devem ser partilhados.<br />
+► 
+Levemir Penfill só é adequado para injeção sob a pele utilizando uma caneta reutilizável. Fale 
+com o seu médico se necessitar de injetar a insulina através de outro método.  </p>
+<p>Advertências e precauções </p>
+<p>Algumas situações e atividades podem afetar as suas necessidades de insulina. Fale com o seu médico: 
+► 
+Se tiver problemas de rins ou de fígado, ou nas glândulas suprarrenais, hipófise ou tiroide. 
+► 
+Se fizer mais exercício do que é habitual ou se pretende alterar o seu tipo de alimentação, uma 
+vez que estas situações podem alterar o seu nível de açúcar no sangue. 
+► 
+Se estiver doente, continue a tomar a insulina e consulte o seu médico. 
+► 
+Se vai fazer uma viagem ao estrangeiro, as alterações nos fusos horários podem afetar as suas 
+necessidades de insulina e a hora a que tem de administrar as suas injeções. 
+► 
+Se tiver um valor de albumina muito baixo precisa de vigiar cuidadosamente o seu nível de 
+açúcar no sangue. Fale sobre este assunto com o seu médico. </p>
+<p>Alterações da pele no local de injeção </p>
+<p>Os locais de injeção devem ser alternados para ajudar a prevenir alterações no tecido adiposo sob a 
+pele, tais como espessamento da pele, encolhimento da pele ou nódulos sob a pele. A insulina poderá 
+não funcionar muito bem se for injetada numa área irregular, encolhida ou espessa (ver secção 3, 
+Como utilizar Levemir). Informe o seu médico se notar quaisquer alterações da pele no local de 
+injeção. Informe o seu médico se estiver atualmente a administrar a injeção nestas áreas afetadas antes 
+de começar a administrar a injeção numa área diferente. O seu médico poderá aconselhá-lo a verificar 
+mais atentamente o seu nível de açúcar no sangue e a ajustar a sua dose de insulina ou de outros 
+medicamentos antidiabéticos.  </p>
+<p>Crianças e adolescentes </p>
+<p>Levemir pode ser utilizado em adolescentes e crianças com 1 ano de idade ou mais. </p>
+<p>A segurança e eficácia de Levemir em crianças com menos de 1 ano de idade não foram estabelecidas. 
+Não existem dados disponíveis.  </p>
+<p>Outros medicamentos e Levemir </p>
+<p>Informe o seu médico, enfermeiro ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se 
+vier a tomar outros medicamentos. 
+Alguns medicamentos afetam o seu nível de açúcar no sangue e isso pode significar que a sua dose de 
+insulina tenha de mudar. Abaixo encontra-se uma lista dos medicamentos que mais frequentemente 
+podem afetar o seu tratamento com insulina.  </p>
+<p>O seu nível de açúcar no sangue pode baixar (hipoglicemia) se tomar: </p>
+<ul>
+<li>
+<p>Outros medicamentos para o tratamento da diabetes </p>
+</li>
+<li>
+<p>Inibidores da monoaminoxidase (IMAOs) (utilizados para tratar a depressão) </p>
+</li>
+<li>
+<p>Bloqueadores beta (utilizados para tratar a tensão arterial elevada) </p>
+</li>
+<li>
+<p>Inibidores do enzima de conversão da angiotensina (IECAs) (utilizados para tratar certas 
+doenças cardíacas ou a tensão arterial) </p>
+</li>
+<li>
+<p>Salicilatos (utilizados para aliviar as dores e baixar a febre) </p>
+</li>
+<li>
+<p>Esteroides anabolizantes (tais como a testosterona) </p>
+</li>
+<li>
+<p>Sulfonamidas (utilizadas para tratar infeções). </p>
+</li>
+</ul>
+<p>O seu nível de açúcar no sangue pode subir (hiperglicemia) se tomar: </p>
+<ul>
+<li>
+<p>Contracetivos orais (comprimidos para o controlo da natalidade) </p>
+</li>
+<li>
+<p>Tiazidas (utilizadas para tratar a tensão arterial elevada ou a retenção excessiva de líquidos) </p>
+</li>
+<li>
+<p>Glucocorticoides (tais como a ‘cortisona’ utilizada para tratar a inflamação) </p>
+</li>
+<li>
+<p>Hormonas da tiroide (utilizadas para tratar distúrbios da tiroide) </p>
+</li>
+<li>
+<p>Simpaticomiméticos (tais como epinefrina [adrenalina] ou salbutamol, terbutalina, utilizados 
+para tratar a asma) </p>
+</li>
+<li>
+<p>Hormona do crescimento (medicamento para a estimulação do crescimento do esqueleto e do 
+corpo e de grande influência nos processos metabólicos do organismo) </p>
+</li>
+<li>
+<p>Danazol (medicamento que atua sobre a ovulação). </p>
+</li>
+</ul>
+<p>O octreótido e o lanreótido (utilizados para tratamento da acromegalia, uma doença hormonal rara que 
+ocorre, geralmente, nos adultos de meia-idade, causada pela produção excessiva de hormona do 
+crescimento pela hipófise) podem aumentar ou diminuir o seu nível de açúcar no sangue. </p>
+<p>Os bloqueadores beta (utilizados para tratar a tensão arterial elevada) podem atenuar ou suprimir por 
+completo os primeiros sintomas de aviso que o ajudam a reconhecer um baixo nível de açúcar no 
+sangue. </p>
+<p>Pioglitazona (comprimidos utilizados para o tratamento da diabetes tipo 2) 
+Alguns doentes com diabetes tipo 2 de longa duração e com doença cardíaca ou antecedente de 
+acidente vascular cerebral, que foram tratados com pioglitazona e insulina, desenvolveram 
+insuficiência cardíaca. Informe o seu médico o mais rapidamente possível se sentir sinais de 
+insuficiência cardíaca, tais como falta de ar invulgar ou rápido aumento de peso ou inchaço localizado 
+(edema). </p>
+<p>Se tomou algum dos medicamentos acima mencionados, informe o seu médico, enfermeiro ou 
+farmacêutico. </p>
+<p>O consumo de álcool e a utilização de Levemir </p>
+<p>► 
+Se beber bebidas alcoólicas, as suas necessidades de insulina podem mudar, uma vez que o seu 
+nível de açúcar no sangue pode aumentar ou diminuir. É aconselhável uma vigilância cuidadosa. </p>
+<p>Gravidez e amamentação </p>
+<p>► 
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico para obter 
+aconselhamento antes de tomar este medicamento. A sua dose de insulina pode ter que ser 
+alterada durante a gravidez e após o parto. O controlo cuidadoso da sua diabetes, em especial a 
+prevenção da hipoglicemia, são importantes para a saúde do bebé. 
+► 
+Se está a amamentar consulte o seu médico, pois pode necessitar de ajustes nas suas doses de 
+insulina. 
+Se está grávida ou a amamentar, consulte o seu médico, enfermeiro ou farmacêutico antes de tomar 
+qualquer medicamento. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>► 
+Pergunte ao seu médico se pode conduzir um carro ou conduzir máquinas: </p>
+<ul>
+<li>
+<p>Se tiver hipoglicemias frequentes. </p>
+</li>
+<li>
+<p>Se tiver dificuldade em reconhecer uma hipoglicemia. </p>
+</li>
+</ul>
+<p>Se o seu açúcar no sangue estiver alto ou baixo, pode afetar a sua concentração e capacidade de reação 
+e, consequentemente, também a sua capacidade para conduzir ou utilizar máquinas. Tenha em conta 
+que pode colocar-se a si próprio ou a outras pessoas em perigo. </p>
+<p>Informações importantes sobre alguns componentes de Levemir </p>
+<p>Levemir contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, Levemir é, basicamente, 
+‘isento de sódio’. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar levemir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar levemir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Posologia e quando deve administrar a sua insulina </p>
+<p>Utilize sempre a sua insulina e ajuste a sua dose exatamente como indicado pelo seu médico. Fale com 
+o seu médico, enfermeiro ou farmacêutico se tiver dúvidas.  </p>
+<p>Levemir pode ser utilizado com insulinas de ação rápida administradas em consonância com as 
+refeições. 
+No tratamento da diabetes mellitus tipo 2, Levemir pode, também, ser utilizado em associação com os 
+comprimidos para a diabetes e/ou com outros medicamentos antidiabéticos injetáveis além da insulina. </p>
+<p>Não mude de insulina, exceto se o seu médico lhe disser para o fazer.<br />
+A sua dose pode ter de ser ajustada pelo médico se: </p>
+<ul>
+<li>
+<p>o seu médico o tiver mudado de um tipo ou marca de insulina para outro, ou </p>
+</li>
+<li>
+<p>o seu médico lhe tiver receitado outro medicamento para o tratamento da diabetes, adicionando-
+o ao tratamento com Levemir. </p>
+</li>
+</ul>
+<p>Utilização em crianças e adolescentes </p>
+<p>Levemir pode ser utilizado em adolescentes e crianças com 1 ano de idade ou mais. </p>
+<p>Não há experiência com a utilização de Levemir em crianças com idade inferior a 1 ano.  </p>
+<p>Utilização em grupos especiais de doentes </p>
+<p>Se tem insuficiência renal ou hepática, ou se tem mais de 65 anos de idade, deve medir o seu nível de 
+açúcar no sangue mais frequentemente e fale com o seu médico sobre as alterações que possam ser 
+necessárias na sua dose de insulina. </p>
+<p>Com que frequência se deve injetar </p>
+<p>Quando Levemir é utilizado em combinação com comprimidos para a diabetes e/ou em associação 
+com outros medicamentos antidiabéticos injetáveis além da insulina, Levemir deve ser administrado 
+uma vez ao dia. Quando Levemir é utilizado como parte de um regime de bólus de insulina basal, 
+Levemir deve ser administrado uma ou duas vezes ao dia, dependendo das necessidades dos doentes. 
+A dose de Levemir deverá ser ajustada individualmente. A injeção pode ser administrada a qualquer 
+hora do dia, mas deverá ser administrada sempre à mesma hora todos os dias. Para os doentes que 
+necessitam de uma administração duas vezes ao dia, para otimizar o controlo do açúcar no sangue, a 
+dose do final do dia pode ser administrada à noite ou ao deitar. </p>
+<p>Como e onde deve injetar </p>
+<p>Levemir destina-se a injeção sob a pele (por via subcutânea). Nunca deve injetar Levemir diretamente 
+numa veia (via intravenosa) ou num músculo (via intramuscular). Levemir Penfill só é adequado para 
+injeção sob a pele utilizando uma caneta reutilizável. Fale com o seu médico se necessitar de injetar a 
+insulina através de outro método. </p>
+<p>Mude o local de injeção em cada administração na área que usa para se injetar. Assim poderá reduzir o 
+risco de desenvolvimento de inchaços ou deformações na pele (ver secção 4, Efeitos indesejáveis 
+possíveis). Os melhores pontos para se autoinjetar são: a parte da frente das coxas, a barriga ao nível 
+da cintura (abdómen) ou o braço. Deve medir regularmente o seu nível de açúcar no sangue. </p>
+<p>► 
+Não encha o cartucho novamente. 
+► 
+Os cartuchos de Levemir Penfill foram concebidos para serem utilizados com os sistemas de 
+administração da Novo Nordisk e com as agulhas NovoFine ou NovoTwist. 
+► 
+Se estiver a ser tratado com Levemir Penfill e outro cartucho de insulina Penfill, deve utilizar 
+dois sistemas de administração de insulina, um para cada tipo de insulina. 
+► 
+Transporte sempre consigo um cartucho Penfill sobresselente, para o caso de perder ou danificar 
+o que está a ser utilizado.  </p>
+<p>Como injetar Levemir  </p>
+<p>► 
+Injete a insulina sob a sua pele. Utilize a técnica de injeção aconselhada pelo seu médico ou 
+enfermeiro e descrita no manual da sua caneta. 
+► 
+Mantenha a agulha sob a pele durante pelo menos 6 segundos. Mantenha o botão injetor 
+completamente pressionado até a agulha ter sido retirada da pele. Este procedimento assegurará 
+uma correta administração e limitará a entrada de um possível fluxo de sangue na agulha ou no 
+reservatório de insulina. 
+► 
+Depois de cada injeção não se esqueça de retirar e deitar fora a agulha, bem como de guardar 
+Levemir sem a agulha acoplada. Caso contrário pode haver fuga de líquido, podendo originar a 
+administração de doses incorretas. </p>
+<p>Se tomar mais insulina do que deveria </p>
+<p>Se tomar demasiada insulina, o seu açúcar no sangue fica muito baixo (hipoglicemia). Ver a) Resumo 
+dos efeitos indesejáveis graves e muito frequentes na secção 4.<br />
+Caso se tenha esquecido de tomar a sua insulina </p>
+<p>Se se esquecer de tomar a sua insulina, o seu açúcar no sangue pode ficar muito alto (hiperglicemia). 
+Ver c) Efeitos da diabetes na secção 4.<br />
+Se parar de tomar a sua insulina </p>
+<p>Não pare de tomar a sua insulina sem falar com o médico, que o informará sobre o que precisa fazer. 
+Parar de tomar a sua insulina pode levar a um nível de açúcar no sangue muito alto (hiperglicemia 
+grave) e cetoacidose. Ver c) Efeitos da diabetes na secção 4.<br />
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>a) 
+Resumo dos efeitos indesejáveis graves e muito frequentes </p>
+<p>Baixo nível de açúcar no sangue (hipoglicemia) é um efeito indesejável muito frequente. Pode afetar 
+mais de 1 em 10 pessoas. </p>
+<p>Pode ocorrer um baixo nível de açúcar no sangue se: </p>
+<ul>
+<li>
+<p>Injetar demasiada insulina. </p>
+</li>
+<li>
+<p>Comer muito pouco ou se falhar uma refeição. </p>
+</li>
+<li>
+<p>Fizer mais exercício do que o habitual. </p>
+</li>
+<li>
+<p>Beber álcool (Ver O consumo de álcool e a utilização de Levemir na secção 2). </p>
+</li>
+</ul>
+<p>Sinais de baixo nível de açúcar no sangue: Suores frios; pele fria e pálida; dor de cabeça; batimento 
+rápido do coração; sensação de má disposição; sensação de muita fome; alterações temporárias na 
+visão; sonolência; sensação invulgar de cansaço e fraqueza; nervosismo ou tremores; sensação de 
+ansiedade; sensação de desorientação; dificuldades de concentração. </p>
+<p>A situação grave de baixo nível de açúcar no sangue pode levar ao estado de inconsciência. Se a 
+situação grave e prolongada de baixo nível de açúcar no sangue não for tratada, pode causar uma lesão 
+cerebral (temporária ou permanente) e até mesmo a morte. Pode recuperar mais rapidamente do estado 
+de inconsciência se lhe for administrada uma injeção da hormona glucagom por uma pessoa que saiba 
+como utilizar o produto. Se lhe for injetado glucagom, irá precisar de açúcar ou um alimento muito 
+açucarado logo que recupere a consciência. Se não responder ao tratamento com glucagom, terá de 
+receber tratamento num hospital. </p>
+<p>O que fazer se tiver um baixo nível de açúcar no sangue: 
+► 
+Se tiver um baixo nível de açúcar no sangue, coma alguns rebuçados ou um lanche muito </p>
+<p>açucarado (doces, bolachas, sumo de fruta). Se possível, meça o seu nível de açúcar no </p>
+<p>sangue e depois descanse. Traga sempre consigo alguns rebuçados ou lanches muito </p>
+<p>açucarados, para estar prevenido. 
+► 
+Depois dos sintomas de um baixo nível de açúcar no sangue terem desaparecido ou após 
+estabilização dos seus níveis de açúcar no sangue, continue o tratamento com insulina como 
+habitualmente. 
+► 
+Se tiver um nível de açúcar no sangue tão baixo que o leve a desmaiar, se houve necessidade de 
+lhe ter sido injetado glucagom ou se teve muitas vezes um baixo nível de açúcar no sangue, fale 
+com o médico. Pode ser necessário ajustar a dose de insulina ou a sua hora de administração, a 
+quantidade de alimentos ou de exercício. </p>
+<p>Informe as pessoas mais importantes de que tem diabetes e sobre quais poderão ser as consequências, 
+incluindo o risco de poder desmaiar (ficar inconsciente) devido a um baixo nível de açúcar no sangue. 
+Informe as pessoas que se desmaiar, devem virá-lo de lado e pedir ajuda médica imediatamente. Não 
+devem dar-lhe nada para comer ou beber, pois pode correr o risco de sufocar. </p>
+<p>Reações alérgicas graves a Levemir ou a um dos seus componentes (designadas por reações alérgicas 
+sistémicas) são um efeito indesejável muito raro, mas que pode, potencialmente, colocar a vida em 
+perigo. Pode afetar menos de 1 em 10.000 pessoas. </p>
+<p>Procure auxílio médico imediatamente: </p>
+<ul>
+<li>
+<p>Se os sinais de alergia se espalharem a outras partes do seu corpo.  </p>
+</li>
+<li>
+<p>Se subitamente não se sentir bem e: começar a transpirar, começar a sentir-se mal disposto 
+(vomitar), sentir dificuldade em respirar, tiver um batimento rápido do coração, sentir tonturas. 
+► 
+Se notar algum destes sinais procure aconselhamento médico imediatamente. </p>
+</li>
+</ul>
+<p>Alterações da pele no local de injeção: Se injetar insulina no mesmo local, o tecido adiposo tanto 
+pode encolher (lipoatrofia) como aumentar de espessura (lipohipertrofia) (pode afetar menos de 1 em 
+100 pessoas). Os nódulos sob a pele podem também ser causados pela acumulação de uma proteína 
+chamada amiloide (amiloidose cutânea; a frequência com que ocorre não é conhecida). A insulina 
+poderá não funcionar muito bem se for injetada numa área irregular, encolhida ou espessa. Altere o 
+local da injeção a cada injeção para ajudar a evitar essas alterações na pele.  </p>
+<p>b) 
+Lista de outros efeitos indesejáveis </p>
+<p>Efeitos indesejáveis pouco frequentes 
+Podem afetar menos de 1 em 100 pessoas. </p>
+<p>Sinais de alergia: Podem ocorrer reações alérgicas locais (dor, vermelhidão, erupção na pele com 
+comichão, inflamação, nódoa negra, inchaço e comichão) no local da injeção. Estas reações 
+desaparecem, geralmente, ao fim de algumas semanas a tomar insulina. Se não desaparecerem, ou se 
+se espalharem por todo o corpo, fale imediatamente com o seu médico. Veja, também, Reações 
+alérgicas graves acima. </p>
+<p>Problemas de visão: Quando iniciar o seu tratamento com insulina, pode sofrer distúrbios da visão, 
+mas estes distúrbios são normalmente temporários. </p>
+<p>Articulações inchadas: Quando começar a tomar insulina, a retenção de líquidos pode provocar 
+inchaço nos tornozelos e noutras articulações. Geralmente, esta situação desaparece rapidamente. Se 
+não desaparecer, contacte o seu médico. </p>
+<p>Retinopatia diabética (uma doença dos olhos relacionada com a diabetes, a qual pode levar à perda de 
+visão): Se tem retinopatia diabética e o seu nível de açúcar no sangue melhorar muito rapidamente, a 
+retinopatia pode piorar. Consulte o seu médico sobre este assunto. </p>
+<p>Efeitos indesejáveis raros 
+Podem afetar menos de 1 em cada 1.000 pessoas. </p>
+<p>Neuropatia dolorosa (dor devida a lesão dos nervos): Se o seu nível de açúcar no sangue melhorar 
+muito rapidamente, pode sentir dores nos nervos; esta situação é designada por neuropatia dolorosa 
+aguda, sendo, geralmente, temporária.  </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>
+<p>c) 
+Efeitos da diabetes </p>
+<p>Nível alto de açúcar no sangue (hiperglicemia) </p>
+<p>Pode ocorrer um nível alto de açúcar no sangue se: </p>
+<ul>
+<li>
+<p>Não injetou insulina suficiente. </p>
+</li>
+<li>
+<p>Se esquecer de tomar a sua insulina ou se parar de tomar insulina. </p>
+</li>
+<li>
+<p>Tomar repetidamente menos insulina do que aquela de que necessita. </p>
+</li>
+<li>
+<p>Tiver uma infeção e/ou febre. </p>
+</li>
+<li>
+<p>Comer mais do que o habitual. </p>
+</li>
+<li>
+<p>Fizer menos exercício do que o habitual. </p>
+</li>
+</ul>
+<p>Sinais de aviso de um nível alto de açúcar no sangue: 
+Os sinais de aviso surgem gradualmente. Incluem: aumento da frequência urinária; sensação de sede; 
+perda de apetite; enjoo (náuseas ou vómitos); sensação de sonolência ou cansaço; pele seca e com 
+vermelhidão, boca seca e um hálito com cheiro a fruta (acetona). </p>
+<p>O que fazer se tiver um nível alto de açúcar no sangue: 
+► 
+Se tiver um destes sinais: teste o seu nível de açúcar no sangue, controle a presença de corpos 
+cetónicos na urina, se puder, e depois procure auxílio médico imediatamente. 
+► 
+Estes podem ser sinais de um problema muito grave chamado cetoacidose diabética 
+(acumulação de ácidos no sangue, dado que o sangue está a decompor gordura em vez de 
+açúcar). Caso não seja tratada esta situação pode conduzir a coma diabético e, eventualmente, à 
+morte. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar levemir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar levemir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior do 
+cartucho, após ‘VAL’. O prazo de validade corresponde ao último dia do mês indicado. 
+Manter sempre o cartucho dentro da embalagem exterior quando não estiver a utilizá-lo para o 
+proteger da luz. 
+Levemir deve ser protegido do calor excessivo e da luz. </p>
+<p>Antes da abertura inicial: Levemir Penfill que não estiver a ser utilizado deve ser guardado no 
+frigorífico entre 2°C a 8°C, afastado do gerador de frio. Não congelar. </p>
+<p>Durante a utilização ou quando transportado como sobresselente: Levemir Penfill que estiver a 
+ser utilizado ou transportado como reserva não deve ser guardado no frigorífico. Pode transportá-lo 
+consigo e mantê-lo à temperatura ambiente (inferior a 30ºC) durante 6 semanas. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Levemir </p>
+<ul>
+<li>
+<p>A substância ativa é a insulina detemir. Cada ml contém 100 unidades de insulina detemir. Cada 
+cartucho contém 300 unidades de insulina detemir em 3 ml de solução injetável. 1 unidade de 
+insulina detemir corresponde a 1 unidade internacional de insulina humana. </p>
+</li>
+<li>
+<p>Os outros componentes são glicerol, fenol, metacresol, acetato de zinco, fosfato dissódico di-
+hidratado, cloreto de sódio, ácido clorídrico, hidróxido de sódio e água para preparações 
+injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Levemir e conteúdo da embalagem </p>
+<p>Levemir apresenta-se como uma solução injetável.  </p>
+<p>Embalagens de 1, 5 e 10 cartuchos de 3 ml. É possível que não sejam comercializadas todas as 
+apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado  </p>
+<p>Novo Nordisk A/S, Novo Allé, DK-2880 Bagsværd, Dinamarca </p>
+<p>Fabricante </p>
+<p>O fabricante pode ser identificado pelo número de lote impresso na pala da embalagem exterior e no 
+rótulo: </p>
+<ul>
+<li>Se o segundo e terceiro caracteres forem S6, P5, K7, R7, VG, FG ou ZF, o fabricante é a Novo </li>
+</ul>
+<p>Nordisk A/S, Novo Allé, DK-2880 Bagsværd, Dinamarca. </p>
+<ul>
+<li>Se o segundo e terceiro caracteres forem H7 ou T6, o fabricante é a Novo Nordisk Production </li>
+</ul>
+<p>SAS, 45 Avenue d’Orléans F-28000 Chartres, França. </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1088,6 +1633,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-6c112c3573c3c3963f8150233106c4e0"
 * entry[0].resource = composition-da-6c112c3573c3c3963f8150233106c4e0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6c112c3573c3c3963f8150233106c4e0"
+* entry[=].resource = mp6c112c3573c3c3963f8150233106c4e0
+                            
+                    
+Instance: bundlepackageleaflet-pt-6c112c3573c3c3963f8150233106c4e0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for levemir Package Leaflet for language pt"
+Description: "ePI document Bundle for levemir Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-6c112c3573c3c3963f8150233106c4e0"
+* entry[0].resource = composition-pt-6c112c3573c3c3963f8150233106c4e0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp6c112c3573c3c3963f8150233106c4e0"
@@ -1189,6 +1756,18 @@ RuleSet: 6c112c3573c3c3963f8150233106c4e0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-6c112c3573c3c3963f8150233106c4e0) // levemir pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

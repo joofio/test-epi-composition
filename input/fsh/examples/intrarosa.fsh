@@ -1146,6 +1146,541 @@ lægemiddel bør varieres. </p>         </div>"""
 
 
 
+Instance: composition-pt-d6b5caeb3aecc6a916b0a10e40227ee2
+InstanceOf: CompositionUvEpi
+Title: "Composition for intrarosa Package Leaflet"
+Description:  "Composition for intrarosa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd6b5caeb3aecc6a916b0a10e40227ee2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - intrarosa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Intrarosa e para que é utilizado  </li>
+<li>O que precisa de saber antes de utilizar Intrarosa </li>
+<li>Como utilizar Intrarosa  </li>
+<li>Efeitos indesejáveispossíveis  </li>
+<li>Como conservar Intrarosa </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é intrarosa e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é intrarosa e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Intrarosa contém a substância ativa prasterona.  </p>
+<p>Para que é utilizado o Intrarosa? </p>
+<p>Intrarosa é utilizado no tratamento de mulheres pós-menopausa que apresentem sintomas moderados a 
+graves de atrofia vulvar e vaginal. É utilizado para aliviar os sintomas pós-menopausa na vagina, 
+como a secura ou irritação. Estas são causadas pela diminuição dos níveis de estrogénio no organismo. 
+Isto acontece naturalmente após a menopausa. </p>
+<p>Como funciona Intrarosa? </p>
+<p>A prasterona corrige os sintomas e sinais de atrofia vulvar e vaginal ao repor os estrogénios que são 
+normalmente produzidos antes da menopausa pelos ovários das mulheres. É inserido na vagina, para 
+que a hormona seja libertada onde é necessária. Isto pode aliviar o desconforto na vagina. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar intrarosa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar intrarosa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A utilização de Terapêutica Hormonal de Substituição (THS) acarreta riscos que devem ser 
+ponderados na decisão de começar a tomá-la, ou de continuar a tomá-la.  </p>
+<p>A experiência no tratamento de mulheres com menopausa prematura (devido a falência ou cirurgia dos 
+ovários) é limitada. Se teve uma menopausa prematura, os riscos de utilizar THS podem ser diferentes. 
+Consulte o seu médico.  </p>
+<p>Antes de começar (ou recomeçar) a THS, o seu médico necessitará de saber o seu historial clínico e o 
+da sua família. O seu médico poderá decidir realizar um exame físico. Este pode incluir um exame dos 
+seus seios e/ou um exame interno, se necessário.  </p>
+<p>Depois de iniciar o tratamento com Intrarosa, deve fazer consultas de avaliação regulares com o seu 
+médico (pelo menos a cada 6 meses). Nessas consultas, discuta com o seu médico os benefícios e 
+riscos de continuar a tomar Intrarosa. </p>
+<p>Faça regularmente rastreios da mama, conforme recomendado pelo seu médico. </p>
+<p>Não utilize Intrarosa 
+Se algum dos casos seguintes se aplicar a si. Se não está segura de algum dos pontos seguintes, 
+converse com o seu médico antes de tomar Intrarosa: </p>
+<ul>
+<li>
+<p>Se tem ou alguma vez teve cancro da mama, ou se existe alguma suspeita de que possa ter; </p>
+</li>
+<li>
+<p>Se tem cancro sensível a estrogénios, como seja cancro do revestimento do útero (endométrio), 
+ou se existe alguma suspeita de que possa ter; </p>
+</li>
+<li>
+<p>Se tem algum sangramento vaginal não explicado; </p>
+</li>
+<li>
+<p>Se tem um espessamento excessivo do revestimento do útero (hiperplasia do endométrio) que 
+não esteja a ser tratado; </p>
+</li>
+<li>
+<p>Se tem ou alguma vez teve um coágulo de sangue numa veia (trombose), como seja nas pernas 
+(trombose venosa profunda) ou nos pulmões (embolismo pulmonar); </p>
+</li>
+<li>
+<p>Se tem um distúrbio de coagulação do sangue (como deficiência de proteína C, proteína S ou 
+antitrombina); </p>
+</li>
+<li>
+<p>Se tem ou teve recentemente uma doença causada por coágulos de sangue nas artérias, como um 
+ataque de coração, AVC ou angina; </p>
+</li>
+<li>
+<p>Se tem ou alguma vez teve uma doença do fígado e os seus testes da função hepática não 
+regressaram ao normal; </p>
+</li>
+<li>
+<p>Se tem um problema raro no sangue denominado «porfíria», que é transmitido por via 
+hereditária (na família); </p>
+</li>
+<li>
+<p>Se tem alergia à prasterona ou a qualquer outro componente deste medicamento (indicados na 
+secção 6 “Conteúdo da embalagem e outras informações"). </p>
+</li>
+</ul>
+<p>Se alguma das condições acima surgir pela primeira vez enquanto toma Intrarosa, pare de tomar 
+imediatamente o medicamento e consulte o seu médico imediatamente. </p>
+<p>Advertências e precauções </p>
+<p>Quando tomar especial cuidado com Intrarosa 
+Informe o seu médico se alguma vez teve algum dos problemas seguintes, antes de começar o 
+tratamento, pois estes podem regressar ou piorar durante o tratamento com Intrarosa. Caso isso 
+aconteça, deve ter consultas de avaliação com o seu médico com mais frequência: </p>
+<ul>
+<li>
+<p>fibromas no útero;  </p>
+</li>
+<li>
+<p>crescimento do revestimento do útero fora do útero (endometriose) ou um historial de 
+crescimento excessivo do revestimento do útero (hiperplasia do endométrio); </p>
+</li>
+<li>
+<p>risco aumentado de desenvolver coágulos de sangue (ver «Coágulos de sangue numa veia 
+(trombose)»);  </p>
+</li>
+<li>
+<p>risco aumentado de ter cancro sensível a estrogénio (como ter uma mãe, irmã ou avó que teve 
+cancro da mama); </p>
+</li>
+<li>
+<p>tensão arterial alta; </p>
+</li>
+<li>
+<p>um distúrbio do fígado, como um tumor benigno do fígado; </p>
+</li>
+<li>
+<p>diabetes; </p>
+</li>
+<li>
+<p>pedras na vesícula;  </p>
+</li>
+<li>
+<p>enxaqueca ou dores de cabeça fortes; </p>
+</li>
+<li>
+<p>uma doença do sistema imunitário que afeta vários órgãos do corpo (lúpus eritematoso 
+sistémico, LES); </p>
+</li>
+<li>
+<p>epilepsia; </p>
+</li>
+<li>
+<p>asma; </p>
+</li>
+<li>
+<p>uma doença que afeta o tímpano e a audição (otosclerose); </p>
+</li>
+<li>
+<p>um nível muito alto de gordura no sangue (triglicerídeos); </p>
+</li>
+<li>
+<p>retenção de fluidos motivada por problemas cardíacos ou dos rins. </p>
+</li>
+</ul>
+<p>Pare de utilizar Intrarosa e consulte imediatamente um médico<br />
+Se notar alguma das seguintes condições ao tomar THS: </p>
+<ul>
+<li>
+<p>qualquer uma das condições indicadas na secção «Não utilize Intrarosa»; </p>
+</li>
+<li>
+<p>amarelecimento da pele ou do branco dos olhos (icterícia). Estes podem ser sinais de uma 
+doença do fígado; </p>
+</li>
+<li>
+<p>se engravidar; </p>
+</li>
+<li>
+<p>uma elevação grande da tensão arterial (os sintomas podem ser dores de cabeça, cansaço, 
+tonturas); </p>
+</li>
+<li>
+<p>dores de cabeça semelhantes a enxaqueca a ocorrerem pela primeira vez; </p>
+</li>
+<li>
+<p>se notar sinais de um coágulo de sangue, como: </p>
+</li>
+<li>inchaço doloroso e vermelhidão nas pernas; </li>
+<li>dor súbita no peito; </li>
+<li>dificuldade em respirar. 
+Para mais informações, consulte «Coágulos de sangue numa veia (trombose)» </li>
+</ul>
+<p>Nota: Intrarosa não é um contracetivo. Se passaram menos de 12 meses desde a sua última 
+menstruação ou se tem menos de 50 anos de idade, poderá ainda ter de utilizar contraceção adicional 
+para evitar uma gravidez. Aconselhe-se com o seu médico. </p>
+<p>THS e cancro 
+Intrarosa não foi estudado em mulheres com historial de cancro ou cancro atual.<br />
+Espessamento excessivo do revestimento do útero (hiperplasia do endométrio) e cancro do 
+revestimento do útero (cancro do endométrio) 
+A toma de comprimidos de THS apenas com estrogénios durante um período prolongado pode 
+aumentar o risco de desenvolver cancro do revestimento do útero (o endométrio). Intrarosa não 
+estimula o endométrio, conforme foi demonstrado pela atrofia do revestimento do útero em todas as 
+mulheres tratadas com Intrarosa durante um ano nos estudoos clínicos. </p>
+<p>É desconhecido se existe um risco no caso de Intrarosa utilizado em tratamentos a longo prazo (mais 
+de um ano). Contudo, demonstrou-se que Intrarosa tem uma absorção sanguínea muito baixa, pelo que 
+não é necessária a adição de um progestativo. </p>
+<p>Se ocorrer uma hemorragia ou pequena perda de sangue, geralmente não é caso para preocupação, mas 
+deve marcar uma consulta com o seu médico. Pode ser um sinal de que o seu endométrio está a ficar 
+mais espesso. </p>
+<p>Os seguintes riscos aplicam-se aos medicamentos de THS que circulam no sangue. Contudo, Intrarosa 
+destina-se ao tratamento local na vagina e a sua absorção no sangue é muito reduzida. É menos 
+provável que as condições abaixo mencionadas piorem ou recorram durante o tratamento com 
+Intrarosa, mas deve consultar o seu médico caso tenha alguma preocupação. </p>
+<p>Cancro da mama 
+As evidências sugerem que a toma de THS combinada de estrogénio-progestativo e, possivelmente, 
+também de estrogénio isolado aumenta o risco de cancro da mama. O risco adicional depende da 
+duração da THS. O risco adicional torna-se evidente após alguns anos. Contudo, regressa ao normal no 
+prazo de alguns anos (no máximo 5) após interrupção do tratamento.  </p>
+<p>Examine os seus seios regularmente. Consulte o seu médico caso note alguma alteração, como: </p>
+<ul>
+<li>
+<p>covinhas na pele; </p>
+</li>
+<li>
+<p>alterações no mamilo; </p>
+</li>
+<li>
+<p>quaisquer nódulos visíveis ou que se possam sentir. </p>
+</li>
+</ul>
+<p>Adicionalmente, é aconselhável aderir a programas de mamografias de rastreio caso essa opção esteja 
+disponível. </p>
+<p>Cancro do ovário 
+O cancro do ovário é raro - muito mais raro do que o cancro da mama. A utilização de THS apenas 
+com estrogénios foi associada a um ligeiro aumento do risco de cancro do ovário.  </p>
+<p>O risco de cancro do ovário varia com a idade. Por exemplo, nas mulheres com idades entre 50 e anos que não tomam THS, cerca de 2 em cada 2000 mulheres serão diagnosticadas com cancro do 
+ovário ao longo de um período de 5 anos. Em mulheres que tomam THS durante 5 anos, haverá cerca 
+de 3 casos por cada 2000 utilizadoras (i.e., cerca de 1 caso adicional). 
+Casos de cancro do ovário e da mama foram comunicados com uma frequência rara em mulheres 
+tratadas com 6,5 mg de prasterona durante 52 semanas. </p>
+<p>Efeito da THS sobre o coração e a circulação 
+Intrarosa não foi estudado em mulheres com historial de doenças tromboembólicas, hipertensão não 
+controlada ou doença cardíaca.  </p>
+<p>Coágulos de sangue numa veia (trombose) 
+O risco de coágulos de sangue nas veias é cerca de 1,3 a 3 vezes superior em utilizadoras de THS, em 
+comparação com não utilizadoras, especialmente durante o primeiro ano de terapêutica.  </p>
+<p>Coágulos de sangue podem ser graves, e se um se desloca para os pulmões, pode causar dores no 
+peito, falta de ar, desmaio ou mesmo a morte.  </p>
+<p>É mais provável que um coágulo de sangue surja numa veia à medida que a pessoa envelhece e 
+quando alguma das seguintes situações se aplica. Informe o seu médico se alguma das situações 
+seguintes se aplicar a si: </p>
+<ul>
+<li>
+<p>não pode andar durante um longo período de tempo devido a uma grande cirurgia, lesão ou 
+doença (ver também a secção 3, Se tem de ser submetida a uma cirurgia); </p>
+</li>
+<li>
+<p>tem grande excesso de peso (IMC &gt;30 kg/m2); </p>
+</li>
+<li>
+<p>tem um problema de coagulação do sangue que exige tratamento a longo prazo com um 
+medicamento utilizado para prevenir coágulos sanguíneos; </p>
+</li>
+<li>
+<p>se algum dos seus familiares diretos já teve coágulos de sangue na perna, pulmão ou outro 
+órgão; </p>
+</li>
+<li>
+<p>tem lúpus eritematoso sistémico (LES); </p>
+</li>
+<li>
+<p>tem cancro. </p>
+</li>
+</ul>
+<p>Para conhecer os sinais de um coágulo de sangue, consulte «Pare de utilizar Intrarosa e consulte 
+imediatamente um médico». 
+Nos estuds clínicos, não se observou qualquer trombose venosa profunda com prasterona intravaginal, 
+mas registou-se um caso de embolismo pulmonar, o que corresponde a uma incidência menor com 
+Intrarosa do que no grupo do placebo. </p>
+<p>Comparação 
+Observando mulheres na casa dos 50 anos que não tomam THS, em média, ao longo de um período de 
+5 anos, é expectável que 4 a 7 em 1000 desenvolvam um coágulo de sangue numa veia.  </p>
+<p>Doença cardíaca (ataque de coração) / Hipertensão 
+Em mulheres que tomam terapêutica apenas com estrogénios, não existe um aumento do risco de 
+desenvolver uma doença cardíaca. </p>
+<p>AVC 
+O risco de sofrer um AVC é cerca de 1,5 vezes superior em utilizadoras de THS do que em não 
+utilizadoras. O número de casos adicionais de AVC devido ao uso de THS aumenta com a idade.<br />
+Não foi observado nenhum caso de AVC com Intrarosa durante os estudos clínicos. </p>
+<p>Comparação 
+Observando mulheres na casa dos 50 anos que não tomam THS, em média, é expectável que 8 em 
+1000 sofram um AVC ao longo de um período de 5 anos. Em mulheres na casa dos 50 anos que 
+tomam THS, haverá 11 casos em 1000 utilizadoras, ao longo de 5 anos (i.e., 3 casos adicionais). </p>
+<p>Outras condições </p>
+<ul>
+<li>
+<p>A THS não previne a perda de memória. Existe alguma evidência de um risco mais elevado de 
+perda de memória em mulheres que começam a utilizar THS após os 65 anos de idade. 
+Aconselhe-se com o seu médico; </p>
+</li>
+<li>
+<p>Pode observar corrimento vaginal porque a «base de gordura dura» derrete, o que acresce ao 
+aumento das secreções vaginais devido ao tratamento. Caso ocorra corrimento vaginal, não é 
+necessário interromper Intrarosa.  </p>
+</li>
+<li>
+<p>Intrarosa pode enfraquecer preservativos, diafragmas e capuzes cervicais fabricados em látex. </p>
+</li>
+<li>
+<p>Caso sofra de uma infeção vaginal, necessitará de um tratamento com antibióticos antes de 
+tomar Intrarosa. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes 
+Intrarosa é utilizado exclusivamente em mulheres adultas.  </p>
+<p>Outros medicamentos e Intrarosa<br />
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Não estão disponíveis dados sobre a eficácia e segurança em mulheres que estejam a ser tratadas com 
+terapêutica hormonal como: androgénios, THS (apenas com estrogénios ou em combinação com 
+progestativos).  </p>
+<p>O uso de Intrarosa em combinação com THS (apenas com estrogénios ou combinação estrogénio-
+progestativo ou androgénio) ou com estrogénios vaginais não é recomendado. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Gravidez e amamentação  </p>
+<p>Intrarosa destina-se a ser utilizado apenas por mulheres após a menopausa. Se engravidar, pare de 
+utilizar Intrarosa e consulte o seu médico. </p>
+<p>Fertilidade </p>
+<p>Intrarosa não se destina a mulheres com potencial para engravidar. Não é conhecido se este 
+medicamento afeta a fertilidade. </p>
+<p>Condução de veículos e utilização de máquinas 
+Intrarosa não afeta a sua capacidade de condução de veículos ou utilização de máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar intrarosa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar intrarosa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.<br />
+O seu médico tentará prescrever a menor dose necessária para tratar o seu sintoma, durante o menor 
+período possível. Fale com o seu médico se achar que esta dose é demasiado forte ou insuficiente. </p>
+<p>Que dose deve utilizar </p>
+<p>Use um óvulo uma vez ao dia, ao deitar. </p>
+<p>Como utilizar </p>
+<p>Insira o óvulo na vagina com o dedo ou com um aplicador fornecido com a embalagem. </p>
+<p>Antes de utilizar este medicamento, leia cuidadosamente as instruções sobre como utilizar Intrarosa no 
+final do folheto. </p>
+<p>Duração do tratamento </p>
+<p>Depois da utilização inicial, consulte o seu médico, pelo menos a cada 6 meses, para verificar se 
+precisa de continuar a usar Intrarosa. </p>
+<p>Se utilizar mais Intrarosa do que deveria 
+Recomenda-se a lavagem vaginal. </p>
+<p>Caso se tenha esquecido de utilizar Intrarosa 
+Caso se tenha esquecido de usar um óvulo, insira um assim que se lembrar. Contudo, se faltar menos 
+de 8 horas para a dose seguinte, salte a aplicação do óvulo esquecido. </p>
+<p>Não utilize dois óvulos para compensar uma dose esquecida. </p>
+<p>Se tem de fazer uma cirurgia  </p>
+<p>Se vai ser submetida a uma cirurgia, informe o cirurgião de que está a utilizar Intrarosa. Poderá ter de 
+interromper a utilização de Intrarosa cerca de 4 a 6 semanas antes da operação, para reduzir o risco de 
+formação de um coágulo de sangue (ver secção 2, Coágulos de sangue numa veia (trombose)). 
+Pergunte ao seu médico quando pode voltar a utilizar Intrarosa. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>As seguintes doenças foram comunicadas com mais frequência em mulheres a usar medicamentos de 
+THS que circulam no sangue, em comparação com mulheres que não utilizam THS. Estes riscos 
+aplicam-se em menor dimensão a terapêuticas com estrogénio administrado por via vaginal: </p>
+<ul>
+<li>
+<p>cancro da mama; </p>
+</li>
+<li>
+<p>cancro do ovário; </p>
+</li>
+<li>
+<p>coágulos de sangue nas veias das pernas ou dos pulmões (tromboembolismo venoso);  </p>
+</li>
+<li>
+<p>AVC; </p>
+</li>
+<li>
+<p>provável perda de memória caso a THS seja iniciada após os 65 anos de idade. 
+Para mais informações sobre estes efeitos indesejáveis, consulte a secção 2.<br />
+O efeito indesejável comunicado com maior frequência nos estudos clínicos foi o corrimento vaginal. 
+Isto acontece provavelmente porque a gordura dura derrete, o que acresce a um aumento esperado de 
+secreções vaginais devido ao tratamento. O corrimento vaginal não obriga à interrupção do Intrarosa. </p>
+</li>
+</ul>
+<p>Foram também relatados os seguintes efeitos indesejáveis: 
+- com frequência frequente (pode afetar até 1 em 10 pessoas): exame de Papanicolau anormal 
+(principalmente ASC-US ou LGSIL), flutuações do peso (aumento ou diminuição); 
+- com frequência pouco frequente (pode afetar até 1 em 100 pessoas): pólipos benignos cervicais ou 
+uterinos, massas mamárias benignas.  </p>
+<p>Os seguintes efeitos indesejáveisforam comunicados para THS contendo estrogénios, mas não para 
+Intrarosa, durante os estudos clínicos: </p>
+<ul>
+<li>
+<p>doença da vesícula biliar </p>
+</li>
+<li>
+<p>diversos distúrbios da pele: </p>
+</li>
+<li>descoloração da pele, especialmente na cara ou pescoço, conhecida como «manchas de 
+gravidez» (cloasma); </li>
+<li>nódulos na pele avermelhados e dolorosos (eritema nodoso); </li>
+<li>erupção na pele com vermelhidão ou lesões em forma de alvo (eritema multiforme). </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveisnão indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
+indesejáveisdiretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar intrarosa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar intrarosa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e nos blisters, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar a temperatura inferior a 30 °C. </p>
+<p>Não congelar. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Intrarosa  </p>
+<ul>
+<li>A substância ativa é a prasterona. Cada óvulo contém 6,5 mg de prasterona. </li>
+<li>O único componente adicional é a gordura dura ( adeps solidus).  </li>
+</ul>
+<p>Qual o aspeto de Intrarosa e conteúdo da embalagem </p>
+<p>Intrarosa é um óvulo branco ou esbranquiçado, em forma de torpedo, com cerca de 28 mm de 
+comprimento e 9 mm de diâmetro na extremidade mais larga. </p>
+<p>O aplicador é constituído por LDPE e 1% de corante (dióxido de titânio). </p>
+<p>Está disponível em embalagens blister de 28 óvulos com 6 aplicadores. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Endoceutics S.A. 
+Rue Belliard 1040 Bruxelas 
+Bélgica </p>
+<p>Fabricante </p>
+<p>Basic Pharma Manufacturing B.V. 
+Burgemeester Lemmensstraat 6163 JT Geleen 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien, Luxembourg/Luxemburg, Nederland 
+Theramex Belgium BVBA 
+Tél/Tel: + 32 (0) 28088INTRAROSA.Enquiries@theramex.com </p>
+<p>Deutschland, Österreich 
+Theramex Germany GmbH 
+Tel: + 49 (0) 32 2122 490 INTRAROSA.Enquiries@theramex.com </p>
+<p>España 
+Theramex Ireland Limited 
+Tel: + 34 911 143  </p>
+<p>France 
+Theramex France S.A.S. 
+Tél: + 33 (0) 800 100 INTRAROSA.Enquiries@theramex.com </p>
+<p>Italia 
+Theramex Italy S.r.l. 
+Tel: + 39 02 81480INTRAROSA.Enquiries@theramex.com </p>
+<p>Polska 
+Theramex Poland sp. z o.o. 
+Tel.: + 48 (0) 22 30 77 INTRAROSA.Enquiries@theramex.com </p>
+<p>Portugal 
+Tecnimede - Sociedade Técnico-Medicinal, S.A. 
+Tel: + 351 210 414 dmed.fv@tecnimede.pt  </p>
+<p>United Kingdom (Northern Ireland), Ireland, Malta 
+Theramex UK Limited 
+Tel: + 44 (0) 3330096INTRAROSA.Enquiries@theramex.com </p>
+<p>Danmark, Ísland, Norge, Suomi/Finland, Sverige<br />
+Avia Pharma AB 
+Sverige/Svíþjóð/Ruosti 
+Tlf/Sími/Tlf/Puh/Tel: + 46 (0) 8 544 900  </p>
+<p>България, Česká republika, Eesti, Ελλάδα, Hrvatska, Κύπρο, Latvija, Lietuva, Magyarország,<br />
+România, Slovenija, Slovenská republika 
+Theramex Ireland Limited 
+Tel/Teл./Τηλ: + 353 (0) 15138INTRAROSA.Enquiries@theramex.com </p>
+<p>Este folheto foi revisto pela última vez em. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1187,6 +1722,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d6b5caeb3aecc6a916b0a10e40227ee2"
 * entry[0].resource = composition-da-d6b5caeb3aecc6a916b0a10e40227ee2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd6b5caeb3aecc6a916b0a10e40227ee2"
+* entry[=].resource = mpd6b5caeb3aecc6a916b0a10e40227ee2
+                            
+                    
+Instance: bundlepackageleaflet-pt-d6b5caeb3aecc6a916b0a10e40227ee2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for intrarosa Package Leaflet for language pt"
+Description: "ePI document Bundle for intrarosa Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d6b5caeb3aecc6a916b0a10e40227ee2"
+* entry[0].resource = composition-pt-d6b5caeb3aecc6a916b0a10e40227ee2
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd6b5caeb3aecc6a916b0a10e40227ee2"
@@ -1288,6 +1845,18 @@ RuleSet: d6b5caeb3aecc6a916b0a10e40227ee2ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d6b5caeb3aecc6a916b0a10e40227ee2) // intrarosa pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

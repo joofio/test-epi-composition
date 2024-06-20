@@ -950,6 +950,425 @@ lille smule blod på injektionsstedet. Aftør med en vatkugle eller gaze efter b
 
 
 
+Instance: composition-pt-65c3d51a8623ae84242075e46df738cd
+InstanceOf: CompositionUvEpi
+Title: "Composition for buvidal Package Leaflet"
+Description:  "Composition for buvidal Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp65c3d51a8623ae84242075e46df738cd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - buvidal"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Buvidal e para que é utilizado  </li>
+<li>O que precisa de saber antes de receber Buvidal </li>
+<li>Como é administrado Buvidal </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Buvidal </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é buvidal e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é buvidal e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Buvidal contém a substância ativa buprenorfina, que é um tipo de medicamento opiáceo. É utilizado 
+para tratar a dependência de opiáceos em doentes que também recebem apoio médico, social e 
+psicológico. 
+Buvidal destina-se a adultos e adolescentes com idade igual ou superior a 16 anos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar buvidal"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar buvidal"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Buvidal 
+- se tem alergia à buprenorfina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6) 
+- se tem problemas respiratórios graves 
+- se tem problemas graves no fígado 
+- se está intoxicado(a) com álcool ou se tem tremores, suores, ansiedade, confusão ou alucinações 
+causadas pelo álcool. </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de utilizar Buvidal, se tiver: 
+- asma ou outros problemas respiratórios 
+- qualquer doença do fígado, como hepatite 
+- compromisso renal grave 
+- determinadas doenças do ritmo cardíaco (síndrome do QT longo ou intervalo QT prolongado) 
+- pressão arterial baixa 
+- sofreu recentemente uma lesão na cabeça ou doença cerebral 
+- uma doença urinária (especialmente ligada ao aumento da próstata nos homens) 
+- problemas de tiróide 
+- uma doença adrenocortical (por exemplo, doença de Addison) 
+- problemas na vesícula biliar 
+- depressão ou outras patologias que são tratadas com antidepressivos.<br />
+A utilização destes medicamentos juntamente com Buvidal pode causar síndrome 
+serotoninérgica, uma condição potencialmente fatal (ver “Outros medicamentos e Buvidal") 
+-<br />
+se alguma vez teve uma reação alérgica ao látex. </p>
+<p>Informações importantes a saber 
+- Problemas respiratórios: algumas pessoas morreram devido a uma respiração muito lenta ou 
+superficial causada pela administração de buprenorfina com outros depressores do sistema 
+nervoso central (substâncias que reduzem alguma atividade cerebral), como benzodiazepinas, 
+álcool ou outros opiáceos.<br />
+- Sonolência: este medicamento pode causar sonolência, especialmente quando utilizado com 
+álcool ou outros depressores do sistema nervoso central (substâncias que reduzem a atividade 
+cerebral), como benzodiazepinas, outros medicamentos que reduzem a ansiedade ou causam 
+sonolência, pregabalina ou gabapentina. 
+- Dependência: este medicamento pode causar dependência. 
+- Lesões no fígado: podem ocorrer lesões no fígado com a buprenorfina, especialmente se for 
+utilizada de forma incorreta. Isto também pode ocorrer devido a infeções virais (hepatite C 
+crónica), abuso de álcool, anorexia (distúrbio alimentar) ou pela utilização de outros 
+medicamentos com a capacidade de causarem lesões no fígado. O seu médico pode pedir-lhe 
+para realizar análises sanguíneas regulares para verificar o seu fígado. Informe o seu médico se 
+tiver quaisquer problemas no fígado antes de iniciar o tratamento com Buvidal. 
+- Sintomas de abstinência: este medicamento pode causar sintomas de abstinência se o tomar 
+menos de 6 horas após utilizar um opiáceo de ação curta (por exemplo, morfina, heroína) ou 
+menos de 24 horas depois de utilizar um opiáceo de ação prolongada, como a metadona. 
+- Pressão arterial: este medicamento pode provocar uma redução súbita da pressão arterial, 
+causando sensação de tonturas caso se levante com demasiada rapidez, partindo da posição de 
+sentado ou deitado. 
+- Diagnóstico de condições médicas não relacionadas: este medicamento pode ocultar a dor e 
+dificultar o diagnóstico de algumas doenças. Não se esqueça de informar o seu médico de que 
+está a ser tratado com este medicamento. 
+-<br />
+Perturbações respiratórias relacionadas com o sono: Buvidal pode causar perturbações 
+respiratórias relacionadas com o sono tais como apneia do sono (interrupções da respiração 
+durante o sono) e hipoxemia relacionada com o sono (baixo nível de oxigénio no sangue). Os 
+sintomas podem incluir interrupções da respiração durante o sono, despertares nocturnos 
+devidos a falta de ar, dificuldades em manter o sono ou sonolência excessiva durante o dia. Se 
+você ou outra pessoa observarem estes sintomas, contacte o seu médico. Uma redução de dose 
+pode ser considerada pelo seu médico.  </p>
+<p>Crianças e adolescentes 
+Buvidal não deve ser usado em crianças com menos de 16 anos de idade. Será acompanhado mais 
+atentamente pelo seu médico se for adolescente (16-17 anos). </p>
+<p>Outros medicamentos e Buvidal 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente ou se vier a tomar outros 
+medicamentos. 
+Alguns medicamentos podem aumentar os efeitos secundários de Buvidal e podem causar reações 
+muito graves.  </p>
+<p>É especialmente importante que informe o seu médico se estiver a tomar: 
+- Benzodiazepinas (utilizadas para tratar ansiedade ou distúrbios do sono). Tomar demasiada 
+quantidade de uma benzodiazepina juntamente com Buvidal pode causar a morte porque ambos 
+os medicamentos podem causar respiração muito lenta e superficial (depressão respiratória). Se 
+necessitar de uma benzodiazepina, o seu médico irá prescrever a dose correta. 
+- Gabapentinoides (gabapentina ou pregabalina) (utilizados para tratar a epilepsia ou a dor 
+neuropática). Tomar demasiada quantidade de um gabapentinoide pode causar a morte porque 
+ambos os medicamentos podem causar respiração muito lenta e superficial (depressão 
+respiratória). Deve utilizar a dose que o seu médico lhe prescreveu. 
+- Álcool ou medicamentos que contenham álcool. O álcool pode agravar o efeito sedativo deste 
+medicamento. 
+- Outros medicamentos que possam causar sonolência utilizados para tratar condições como 
+ansiedade, insónias, convulsões (ataques) e dor. Estes medicamentos, quando tomados em 
+conjunto com Buvidal, podem reduzir alguma atividade cerebral e reduzir o estado de alerta e o 
+modo como conduzirá e utilizará as máquinas. 
+Exemplos de medicamentos que podem fazer sentir-se sonolento ou menos alerta incluem: </p>
+<ul>
+<li>
+<p>outros opiáceos como metadona, alguns analgésicos e antitússicos. Estes medicamentos 
+podem também aumentar o risco de sobredosagem com opiáceos </p>
+</li>
+<li>
+<p>antidepressivos (utilizados para tratar a depressão) </p>
+</li>
+<li>
+<p>anti-histamínicos sedativos (utilizados para tratar reações alérgicas) </p>
+</li>
+<li>
+<p>barbitúricos (utilizados para causar sono ou sedação) </p>
+</li>
+<li>
+<p>certos ansiolíticos (utilizados para tratar distúrbios de ansiedade) </p>
+</li>
+<li>
+<p>antipsicóticos (utilizados para tratar perturbações do foro psiquiátrico, como 
+esquizofrenia) </p>
+</li>
+<li>
+<p>clonidina (utilizada para tratar a hipertensão). </p>
+</li>
+<li>Analgésicos opiáceos. Estes medicamentos podem não funcionar adequadamente quando 
+tomados em conjunto com Buvidal e podem aumentar o risco de sobredosagem. </li>
+<li>Naltrexona e nalmefeno (utilizados para tratar distúrbios aditivos), pois podem impedir que o 
+Buvidal funcione adequadamente. Não deve tomá-los ao mesmo tempo que este medicamento. </li>
+<li>Alguns antirretrovirais (utilizados para tratar a infeção pelo VIH), como ritonavir, nelfinavir 
+ou indinavir, pois podem potenciar os efeitos deste medicamento. </li>
+<li>Alguns medicamentos antifúngicos (utilizados para tratar infeções fúngicas), como o 
+cetoconazol, itraconazol pois podem aumentar os efeitos deste medicamento. </li>
+<li>Antibióticos macrolídeos (utilizados para tratar infeções bacterianas), como claritromicina e 
+eritromicina, pois podem aumentar os efeitos deste medicamento. </li>
+<li>Alguns medicamentos antiepiléticos (utilizados para tratar a epilepsia), como fenobarbital, 
+carbamazepina e fenitoína, pois podem diminuir o efeito de Buvidal. </li>
+<li>Rifampicina (utilizada para tratar a tuberculose). A rifampicina pode diminuir o efeito de 
+Buvidal. </li>
+<li>Inibidores da monoamina oxidase (utilizados no tratamento da depressão), tais como 
+fenelzina, isocarboxazida, iponiazida e tranilcipromina, pois podem aumentar os efeitos deste 
+medicamento. </li>
+<li>Antidepressivos, tais como moclobemida, tranilcipromina, citalopram, escitalopram, 
+fluoxetina, fluvoxamina, paroxetina, sertralina, duloxetina, venlafaxina, amitriptilina, doxepina 
+ou trimipramina. Estes medicamentos podem interagir com Buvidal e poderá experienciar 
+sintomas tais como contrações rítmicas involuntárias dos músculos, incluindo os músculos que 
+controlam o movimento dos olhos, agitação, alucinações, coma, transpiração excessiva, tremor, 
+exagero de reflexos, aumento da tensão muscular, temperatura corporal acima de 38 °C. 
+Contacte o seu médico se experienciar estes sintomas. </li>
+</ul>
+<p>Buvidal com álcool 
+Não beba álcool enquanto utilizar Buvidal (ver secção 2 - Advertências e precauções). Tomar álcool 
+com este medicamento pode aumentar a sonolência e pode aumentar o risco de problemas 
+respiratórios. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. Os riscos de utilizar Buvidal em mulheres grávidas são 
+desconhecidos. O seu médico ajudá-la-á a decidir se deve continuar a tomar o medicamento durante a 
+gravidez. 
+A utilização deste medicamento durante a fase final da gravidez pode causar sintomas de abstinência, 
+incluindo problemas respiratórios no seu recém-nascido. Isto pode acontecer desde várias horas a 
+vários dias após o nascimento. </p>
+<p>Confirme com o seu médico antes de utilizar Buvidal durante a amamentação, pois este medicamento 
+é excretado no leite humano. </p>
+<p>Condução de veículos e utilização de máquinas 
+Buvidal pode causar sonolência e tonturas. Estes efeitos são mais prováveis no início do tratamento e 
+quando a dose estiver a ser alterada. Estes efeitos podem agravar-se se ingerir álcool ou tomar outros 
+medicamentos sedativos. Não conduza veículos, não utilize quaisquer ferramentas ou máquinas nem 
+efetue atividades perigosas até saber de que forma este medicamento o(a) afeta. </p>
+<p>Buvidal contém álcool 
+Buvidal 8 mg, 16 mg, 24 mg e 32 mg contêm 95,7 mg de álcool (etanol) em cada mL (10% p/p). A 
+quantidade em 1 dose deste medicamento é equivalente a menos de 2 mL de cerveja ou 1 mL de 
+vinho. 
+A pequena quantidade de álcool neste medicamento não terá quaisquer efeitos percetíveis. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar buvidal"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar buvidal"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Buvidal deve ser administrado apenas por profissionais de saúde.  </p>
+<p>Buvidal 8 mg, 16 mg, 24 mg e 32 mg são administrados semanalmente. Buvidal 64 mg, 96 mg, mg e 160 mg são administrados mensalmente. </p>
+<p>O seu médico irá determinar a melhor dose para si. Durante o tratamento, o médico pode ajustar a 
+dose, dependendo de quão bem o medicamento funciona. </p>
+<p>Início do tratamento 
+A primeira dose de Buvidal será administrada quando apresentar sinais claros de abstinência.<br />
+Se for dependente de opiáceos de ação curta (por exemplo, morfina ou heroína), a primeira dose de 
+Buvidal será administrada pelo menos 6 horas após a última utilização de um opiáceo. 
+Se for dependente de opiáceos de ação prolongada (por exemplo, metadona), a sua dose de metadona 
+será reduzida para menos de 30 mg por dia antes de começar com Buvidal. A primeira dose deste 
+medicamento será administrada pelo menos 24 horas após a última vez que utilizou a metadona. </p>
+<p>Se já não estiver a receber buprenorfina sublingual (sob a língua) (a mesma substância ativa do 
+Buvidal), a dose inicial recomendada é de 16 mg, com uma ou duas doses adicionais de Buvidal 8 mg 
+administradas com pelo menos um dia de intervalo durante a primeira semana de tratamento. Isto 
+significa uma dose alvo de 24 mg ou 32 mg durante a primeira semana de tratamento. 
+Se não tiver utilizado buprenorfina anteriormente, receberá uma dose de buprenorfina sublingual de 4 
+mg e será observado durante uma hora antes da primeira dose de Buvidal. </p>
+<p>Poderá ser usado Buvidal para tratamento mensal, se for apropriado para si, uma vez conseguida a 
+estabilização com Buvidal no tratamento semanal (quatro semanas de tratamento ou mais, conforme 
+exequível). </p>
+<p>Se já estiver a tomar buprenorfina sublingual, pode começar a receber Buvidal no dia a seguir ao 
+último tratamento. O seu médico irá prescrever a dose inicial correta de Buvidal dependendo da dose 
+de buprenorfina sublingual que está a tomar atualmente. </p>
+<p>Tratamento contínuo e ajuste posológico 
+Durante a continuação do tratamento com Buvidal, o seu médico poderá diminuir ou aumentar a sua 
+dose de acordo com a sua necessidade. O seu tratamento pode ser mudado de semanal e mensal e de 
+mensal para semanal. O seu médico irá prescrever a dose correta para si. 
+Durante o tratamento continuado, poderá receber uma dose adicional de 8 mg de Buvidal entre os seus 
+tratamentos semanais ou mensais, se o seu médico considerar que isso é apropriado para si. 
+A dose máxima semanal, se estiver em tratamento semanal com Buvidal, é de 32 mg, com uma dose 
+adicional de 8 mg. A dose máxima mensal, se estiver em tratamento mensal com Buvidal, é de mg.  </p>
+<p>Via de administração 
+Buvidal é administrado como uma injeção única sob a pele (por via subcutânea) em qualquer uma das 
+áreas de injeção permitidas nas nádegas, coxas, abdómen ou parte superior do braço. Pode receber 
+várias injeções na mesma área de injeção, mas os locais exatos de injeção serão diferentes para cada 
+injeção semanal ou mensal durante um período mínimo de 8 semanas. </p>
+<p>Se utilizar mais buprenorfina do que deveria 
+Se recebeu mais buprenorfina do que deveria, contacte o seu médico imediatamente, uma vez que isto 
+pode causar uma respiração muito lenta e superficial, podendo levar à morte.  </p>
+<p>Se utilizar demasiada buprenorfina, deve procurar imediatamente cuidados médicos, pois a 
+sobredosagem pode causar problemas respiratórios graves e potencialmente fatais. Os sintomas de 
+sobredosagem podem incluir a respiração mais lenta e fraca, sentir mais sono do que o normal, 
+sentir-se enjoado, vomitar e/ou ter discurso arrastado ou dificuldade em falar. Também poderá ter 
+pupilas mais pequenas. Se começar a sentir que vai desmaiar, isso pode ser um sinal de pressão arterial 
+baixa. </p>
+<p>Se se esquecer de uma dose de Buvidal 
+É muito importante cumprir todas as suas consultas para receber Buvidal. Se faltar a uma consulta, 
+pergunte ao seu médico quando pode agendar a próxima dose. </p>
+<p>Se parar de utilizar Buvidal 
+Não interrompa o tratamento sem consultar o médico assistente. A suspensão do tratamento pode 
+causar sintomas de abstinência. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Informe imediatamente o seu médico ou procure cuidados médicos urgentes se sentir efeitos 
+indesejáveis, tais como: 
+- pieira súbita, dificuldade em respirar, inchaço das pálpebras, face, língua, lábios, garganta ou 
+mãos; erupção na pele ou comichão especialmente em todo o corpo. Estes podem ser sinais de 
+uma reação alérgica com risco de vida. 
+- se começar a respirar de forma mais lenta ou fraca do que o habitual (depressão respiratória). 
+- se começar a sentir que vai desmaiar, isso pode ser um sinal de pressão arterial baixa. </p>
+<p>Informe também o seu médico imediatamente se tiver efeitos indesejáveis como: 
+- cansaço extremo, falta de apetite ou se a sua pele ou olhos tiverem um aspeto amarelado. Estes 
+podem ser sintomas de danos no fígado. </p>
+<p>Outros efeitos indesejáveis: 
+Efeitos indesejáveis muito frequentes (podem afetar mais do que 1 em 10 pessoas): 
+- Insónia (incapacidade de dormir) 
+- Dor de cabeça 
+- Náuseas (sensação de enjoo) 
+- Transpiração, síndrome de abstinência, dor. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): 
+- Infeção, gripe, dor de garganta e dor ao engolir, corrimento no nariz 
+- Glândulas inchadas (gânglios linfáticos) 
+- Hipersensibilidade 
+- Diminuição do apetite 
+- Ansiedade, agitação, depressão, hostilidade, nervosismo, pensamento anormal, paranóia 
+- Sonolência, sensação de tonturas, enxaqueca, ardor ou formigueiro nas mãos e pés, desmaios, 
+tremores, aumento da tensão muscular, distúrbios da fala 
+- Olhos lacrimejantes, alargamento ou estreitamento anormal da pupila (a parte escura do olho) 
+- Palpitações 
+- Pressão arterial baixa 
+- Tosse, falta de ar, bocejos, asma, bronquite 
+- Prisão de ventre, vómitos (sensação de enjoo), dor de barriga, flatulência (gases), indigestão, 
+boca seca, diarreia 
+- Erupção na pele, comichão, urticária 
+- Dor nas articulações, dor nas costas, dores musculares, espasmos musculares, dor no pescoço, 
+dor nos ossos 
+- Período menstrual doloroso 
+- Reações no local da injeção, por exemplo, dor, comichão, vermelhidão da pele, inchaço e 
+endurecimento da pele, inchaço dos tornozelos, pés ou dedos, fraqueza, indisposição, febre, 
+calafrios, síndrome de abstinência no recém-nascido, dor no peito 
+- Resultados anormais na análise do fígado. </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- Infeção da pele no local da injeção 
+- Sensação de tontura (vertigem). </p>
+<p>Desconhecidos (a frequência não pode ser calculada a partir dos dados disponíveis): 
+- Alucinações, sensação de felicidade e excitação (euforia) 
+- Vermelhidão anormal da pele 
+- Micção dolorosa ou difícil 
+- Reações no local da injeção, por ex. feridas abertas, uma área inchada com pus e morte de 
+células ou tecido no local da injeção. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar buvidal"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar buvidal"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Buvidal destina-se a ser administrado apenas por profissionais de saúde. Não é permitida a 
+administração em casa ou a autoadministração do medicamento por parte dos doentes. </p>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior ou no rótulo 
+da seringa após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não refrigerar ou congelar. </p>
+<p>Não utilize este medicamento se verificar partículas visíveis ou se estiver turvo. </p>
+<p>Buvidal é apenas para utilização única. Qualquer seringa utilizada deve ser descartada. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Buvidal<br />
+- A substância ativa é buprenorfina 
+- Os outros componentes são fosfatidilcolina de soja, dioleato de glicerol, etanol anidro (ver 
+secção 2 - Buvidal contém álcool) (apenas em formulação semanal) e N-metilpirrolidona 
+(apenas em formulação mensal). </p>
+<p>Estão disponíveis as seguintes seringas: </p>
+<p>Injeção semanal: 
+8 mg: seringa pré-cheia contendo 8 mg de buprenorfina em 0,16 mL de solução 
+16 mg: seringa pré-cheia contendo 16 mg de buprenorfina em 0,32 mL de solução 
+24 mg: seringa pré-cheia contendo 24 mg de buprenorfina em 0,48 mL de solução 
+32 mg: seringa pré-cheia contendo 32 mg de buprenorfina em 0,64 mL de solução </p>
+<p>Injeção mensal: 
+64 mg: seringa pré-cheia contendo 64 mg de buprenorfina em 0,18 mL de solução 
+96 mg: seringa pré-cheia contendo 96 mg de buprenorfina em 0,27 mL de solução 
+128 mg: seringa pré-cheia contendo 128 mg de buprenorfina em 0,36 mL de solução 
+160 mg: seringa pré-cheia contendo 160 mg de buprenorfina em 0,45 mL de solução </p>
+<p>Qual o aspeto de Buvidal e conteúdo da embalagem 
+Buvidal é uma solução injetável de libertação prolongada. Cada seringa pré-cheia contém um líquido 
+claro amarelado a amarelo.  </p>
+<p>Estão disponíveis os seguintes tamanhos de embalagem:<br />
+Seringas pré-cheias contendo solução injetável de 8 mg, 16 mg, 24 mg, 32 mg, 64 mg, 96 mg, 128 mg 
+e 160 mg. 
+Cada embalagem contém 1 seringa pré-cheia com tampa, agulha, protetor de agulha, dispositivo de 
+segurança e 1 haste de êmbolo. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Camurus AB 
+Ideon Science Park 
+SE-223 70 Lund 
+Suécia 
+medicalinfo@camurus.com </p>
+<p>Fabricante 
+Rechon Life Science AB 
+Soldattorpsvägen 5 
+216 13 Limhamn 
+Suécia </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -991,6 +1410,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-65c3d51a8623ae84242075e46df738cd"
 * entry[0].resource = composition-da-65c3d51a8623ae84242075e46df738cd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp65c3d51a8623ae84242075e46df738cd"
+* entry[=].resource = mp65c3d51a8623ae84242075e46df738cd
+                            
+                    
+Instance: bundlepackageleaflet-pt-65c3d51a8623ae84242075e46df738cd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for buvidal Package Leaflet for language pt"
+Description: "ePI document Bundle for buvidal Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-65c3d51a8623ae84242075e46df738cd"
+* entry[0].resource = composition-pt-65c3d51a8623ae84242075e46df738cd
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp65c3d51a8623ae84242075e46df738cd"
@@ -1092,6 +1533,18 @@ RuleSet: 65c3d51a8623ae84242075e46df738cdListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-65c3d51a8623ae84242075e46df738cd) // buvidal pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

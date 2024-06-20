@@ -916,6 +916,537 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-0e387e560fa6e1178c04c02876196a66
+InstanceOf: CompositionUvEpi
+Title: "Composition for trepulmix Package Leaflet"
+Description:  "Composition for trepulmix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0e387e560fa6e1178c04c02876196a66)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - trepulmix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Trepulmix e para que é utilizado 
+2. O que precisa de saber antes de utilizar Trepulmix 
+3. Como utilizar Trepulmix 
+4. Efeitos secundários possíveis 
+5. Como conservar Trepulmix 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é trepulmix e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é trepulmix e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Trepulmix 
+A substância ativa do Trepulmix é o treprostinilo. 
+O treprostinilo pertence a um grupo de medicamentos que funcionam de modo semelhante às 
+prostaciclinas que ocorrem naturalmente. As prostaciclinas são substâncias semelhantes às hormonas 
+que reduzem a tensão arterial relaxando os vasos sanguíneos, fazendo-os alargar, o que permite que o 
+sangue flua mais facilmente. As prostaciclinas também podem ter influência na prevenção da 
+coagulação do sangue. </p>
+<p>Para que é utilizado Trepulmix 
+Trepulmix é utilizado no tratamento de doentes adultos com hipertensão pulmonar tromboembólica 
+crónica (HPTEC) inoperável ou HPTEC persistente ou recorrente após tratamento cirúrgico (gravidade 
+classificada na Classe Funcional (CF) III ou IV da OMS) para melhorar a capacidade de exercício e os 
+sintomas da doença. A hipertensão pulmonar tromboembólica crónica é uma condição em que a tensão 
+arterial é muito elevada nos vasos sanguíneos entre o coração e os pulmões, causando falta de ar, 
+tonturas, cansaço, desmaios, palpitações ou batimentos cardíacos anormais, tosse seca, dor no peito e 
+tornozelos ou pernas inchados. </p>
+<p>Como funciona o Trepulmix 
+Trepulmix reduz a tensão arterial dentro da artéria pulmonar, melhorando o fluxo sanguíneo e 
+reduzindo a quantidade de trabalho que o coração tem de fazer. O fluxo sanguíneo melhorado leva a 
+um maior fornecimento de oxigénio ao corpo e a uma tensão reduzida no coração, fazendo com que 
+este funcione de forma mais eficaz. Trepulmix melhora os sintomas associados à HPTEC e a 
+capacidade de exercício em doentes limitados em termos de atividade. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar trepulmix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar trepulmix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Trepulmix: 
+− 
+se tem alergia ao treprostinilo ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+− 
+se foi diagnosticado com uma doença denominada «doença veno-oclusiva pulmonar». Esta é 
+uma doença na qual os vasos sanguíneos que transportam sangue através dos pulmões ficam 
+inchados e obstruídos, resultando numa tensão mais elevada nos vasos sanguíneos entre o 
+coração e os pulmões. 
+− 
+se sofre de doença hepática grave. 
+− 
+se tem um problema cardíaco, por exemplo: </p>
+<ul>
+<li>
+<p>um ataque cardíaco (enfarte do miocárdio) nos últimos seis meses </p>
+</li>
+<li>
+<p>alterações graves na frequência cardíaca </p>
+</li>
+<li>
+<p>doença coronária grave ou angina de peito instável </p>
+</li>
+<li>
+<p>um defeito cardíaco diagnosticado, como uma válvula cardíaca defeituosa que faz com 
+que o coração funcione mal </p>
+</li>
+<li>
+<p>qualquer doença do coração que não esteja a ser tratada ou sob rigorosa observação 
+médica 
+− 
+se tem um elevado risco específico de hemorragia - por exemplo, úlceras ativas no estômago, 
+lesões ou outras condições hemorrágicas. 
+− 
+se teve um acidente vascular cerebral nos últimos 3 meses ou qualquer outra interrupção do 
+fornecimento de sangue ao cérebro. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico antes de utilizar Trepulmix se: 
+− 
+sofre de alguma doença hepática 
+− 
+sofre de doença renal 
+− 
+foi avisado de que é clinicamente obeso (IMC superior a 30 kg/m2) 
+− 
+segue um regime alimentar pobre em sódio </p>
+<p>Durante o tratamento com Trepulmix, informe o seu médico: 
+− 
+se a sua tensão arterial diminuir (hipotensão). 
+− 
+se sentir um rápido aumento de dificuldades respiratórias ou tosse persistente (isto pode estar 
+relacionado com a congestão nos pulmões, asma ou outra condição), consulte o seu médico 
+imediatamente. 
+− 
+se tiver hemorragia excessiva, uma vez que o treprostinilo pode aumentar o risco, impedindo a 
+coagulação do sangue. </p>
+<p>Crianças e adolescentes 
+Trepulmix é contraindicado em crianças e adolescentes. </p>
+<p>Outros medicamentos e Trepulmix 
+Informe o seu médico se estiver a tomar/utilizar, tiver tomado/utilizado recentemente, ou se vier a 
+tomar/utilizar outros medicamentos. Informe o seu médico se estiver a tomar: 
+− 
+medicamentos utilizados para tratar a tensão arterial elevada (medicamentos anti-hipertensivos 
+ou outros vasodilatadores). 
+− 
+medicamentos utilizados para aumentar o débito urinário (diuréticos), incluindo a furosemida. 
+− 
+medicamentos que interrompem a coagulação do sangue (anticoagulantes), como a varfarina, 
+heparina ou produtos à base de óxido nítrico. 
+− 
+quaisquer medicamentos anti-inflamatórios não esteroides (AINE) (por exemplo, ácido 
+acetilsalicílico, ibuprofeno). 
+− 
+medicamentos que podem aumentar ou enfraquecer os efeitos de Trepulmix (p. ex., gemfibrozil, 
+rifampicina, trimetoprim, deferasirox, fenitoína, carbamazepina, fenobarbital, hipericão), pois o 
+seu médico pode necessitar de ajustar a dosagem de Trepulmix. </p>
+<p>Gravidez e amamentação 
+Trepulmix não é recomendado se estiver grávida, planeia engravidar ou se pensa estar grávida, a 
+menos que seja considerado essencial pelo seu médico. A segurança deste medicamento para utilização 
+durante a gravidez não foi estabelecida. </p>
+<p>A contraceção é altamente recomendada durante o tratamento com Trepulmix. </p>
+<p>Trepulmix não é recomendado para utilização durante a amamentação, a menos que seja considerado 
+essencial pelo seu médico. É aconselhável interromper a amamentação se Trepulmix lhe for prescrito, 
+pois é desconhecido se este medicamento passa para o leite materno. </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Trepulmix pode induzir tensão arterial baixa com tonturas ou desmaios. Se tal for o caso, não conduza 
+nem utilize máquinas e aconselhe-se com o seu médico. </p>
+<p>Trepulmix contém sódio 
+Informe o seu médico se estiver a seguir um regime alimentar com sódio controlado, para que essa 
+informação seja tomada em consideração. </p>
+<p>Trepulmix 1 mg/ml solução para perfusão 
+Este medicamento contém 36,8 mg de sódio (componente principal do sal de mesa/cozinha) por frasco 
+para injetáveis. Isto equivale a 1,8 % da dose máxima diária recomendada de sódio na dieta para um 
+adulto. </p>
+<p>Trepulmix 2,5 mg/ml solução para perfusão 
+Este medicamento contém 37,3 mg de sódio (componente principal do sal de mesa/cozinha) por frasco 
+para injetáveis. Isto equivale a 1,9 % da dose máxima diária recomendada de sódio na dieta para um 
+adulto. </p>
+<p>Trepulmix 5 mg/ml solução para perfusão 
+Este medicamento contém 39,1 mg de sódio (componente principal do sal de mesa/cozinha) por frasco 
+para injetáveis. Isto equivale a 2,0 % da dose máxima diária recomendada de sódio na dieta para um 
+adulto. </p>
+<p>Trepulmix 10 mg/ml solução para perfusão 
+Este medicamento contém 37,4 mg de sódio (componente principal do sal de mesa/cozinha) por frasco 
+para injetáveis. Isto equivale a 1,9 % da dose máxima diária recomendada de sódio na dieta para um 
+adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar trepulmix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar trepulmix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>Trepulmix é administrado não diluído como perfusão subcutânea contínua (sob a pele) através de um 
+pequeno tubo (cânula) localizado no abdómen ou na coxa. </p>
+<p>Trepulmix é empurrado através da tubagem por uma bomba portátil. </p>
+<p>Antes de sair do hospital ou da clínica, o seu médico dir-lhe-á como preparar o Trepulmix e a que 
+velocidade a bomba deve administrar o treprostinilo. Também lhe devem ser fornecidas informações 
+sobre como utilizar a bomba corretamente e o que fazer se esta parar de funcionar. As informações 
+também devem indicar quem contactar em caso de emergência. </p>
+<p>A lavagem da linha de perfusão enquanto esta estiver conectada ao doente pode causar uma 
+sobredosagem acidental. </p>
+<p>Doentes adultos 
+Trepulmix está disponível em solução para perfusão de 1 mg/ml, 2,5 mg/ml, 5 mg/ml ou 10 mg/ml. O 
+seu médico determinará a taxa de perfusão e a dose apropriada para a sua condição. </p>
+<p>Doentes idosos 
+Não são necessários ajustes da dose especiais para estes doentes. </p>
+<p>Doentes com doença hepática ou renal 
+O seu médico determinará a taxa de perfusão e a dose apropriada para a sua condição. </p>
+<p>Taxa de perfusão 
+A taxa de perfusão pode ser reduzida ou aumentada individualmente apenas sob supervisão médica. </p>
+<p>O objetivo de ajustar a taxa de perfusão é estabelecer uma taxa de manutenção eficaz que melhore os 
+sintomas da HPTEC minimizando simultaneamente quaisquer efeitos indesejáveis. </p>
+<p>Se os seus sintomas aumentarem ou se necessitar de repouso absoluto, ou se estiver limitado à sua 
+cama ou cadeira, ou se alguma atividade física lhe causar desconforto e os seus sintomas ocorrerem 
+durante o repouso, não aumente a sua dose sem aconselhamento médico. Trepulmix poderá já não ser 
+suficiente para tratar a sua doença e poderá ser necessário outro tratamento. </p>
+<p>Se utilizar mais Trepulmix do que deveria 
+Em caso de sobredosagem acidental de Trepulmix, pode sentir náuseas, vómitos, diarreia, tensão 
+arterial baixa (tonturas, vertigens ou desmaios), vermelhidão na pele e/ou dores de cabeça. </p>
+<p>Se algum destes efeitos se agravar, deve contactar o seu médico ou hospital imediatamente. O seu 
+médico pode reduzir ou interromper a perfusão até que os sintomas desapareçam. Trepulmix solução 
+para perfusão será posteriormente reintroduzido na dose recomendada pelo seu médico. </p>
+<p>Se parar de utilizar Trepulmix 
+Utilize sempre Trepulmix conforme indicado pelo seu médico ou especialista hospitalar. Não 
+interrompa a utilização de Trepulmix, a menos que o seu médico assim o tenha aconselhado. </p>
+<p>A retirada abrupta ou reduções repentinas na dose de Trepulmix podem fazer com que a hipertensão 
+arterial pulmonar retorne com possibilidade de deterioração rápida e grave da sua condição. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>alargamento dos vasos sanguíneos </p>
+</li>
+<li>
+<p>dor ao redor do local da perfusão </p>
+</li>
+<li>
+<p>reação ao redor do local da perfusão </p>
+</li>
+<li>
+<p>hemorragia ou hematomas ao redor do local da perfusão </p>
+</li>
+<li>
+<p>cefaleias </p>
+</li>
+<li>
+<p>náuseas </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>dor na mandíbula </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>vertigens ou desmaios devido à tensão arterial baixa </p>
+</li>
+<li>
+<p>erupções na pele </p>
+</li>
+<li>
+<p>dores musculares (mialgia) </p>
+</li>
+<li>
+<p>dor nas articulações (artralgia) </p>
+</li>
+<li>
+<p>inchaço dos pés, dos tornozelos, das pernas ou retenção de líquidos </p>
+</li>
+<li>
+<p>afrontamentos </p>
+</li>
+<li>
+<p>dor nos braços e/ou nas pernas </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>pálpebras inchadas (edema da pálpebra) </p>
+</li>
+<li>
+<p>indigestões </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>comichão na pele </p>
+</li>
+<li>
+<p>exantema </p>
+</li>
+<li>
+<p>dores nas costas </p>
+</li>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>fadiga (cansaço) </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis possíveis observados em doentes com hipertensão arterial pulmonar 
+(HAP): </p>
+<ul>
+<li>episódios hemorrágicos como: hemorragia nasal, tosse com sangue, sangue na urina, 
+sangramento das gengivas, sangue nas fezes. </li>
+</ul>
+<p>Outros efeitos indesejáveis possíveis observados durante a prática clínica: </p>
+<ul>
+<li>
+<p>infeção no local da perfusão </p>
+</li>
+<li>
+<p>abcesso no local da perfusão </p>
+</li>
+<li>
+<p>diminuição das células de coagulação sanguínea (plaquetas) no sangue (trombocitopenia) </p>
+</li>
+<li>
+<p>dor óssea </p>
+</li>
+<li>
+<p>erupções cutâneas com descoloração ou inchaços salientes </p>
+</li>
+<li>
+<p>infeção do tecido sob a pele (celulite) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V.* Ao comunicar efeitos indesejáveis, 
+estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar trepulmix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar trepulmix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco 
+para injetáveis, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de quaisquer precauções especiais de conservação.  </p>
+<p>Um frasco para injetáveis de Trepulmix tem de ser utilizado ou eliminado no prazo de 30 dias após a 
+primeira abertura. </p>
+<p>Durante a perfusão subcutânea contínua, tem de ser utilizado um único recipiente (seringa) de 
+Trepulmix não diluído no prazo de 72 horas. </p>
+<p>Não utilize este medicamento se verificar algum dano no frasco para injetáveis, descoloração ou outros 
+sinais de deterioração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Trepulmix 
+A substância ativa é o treprostinilo. </p>
+<p>Trepulmix 1 mg/ml solução para perfusão 
+Cada ml de solução contém 1 mg de treprostinilo (como sal de sódio). 
+Cada frasco para injetáveis de 10 ml de solução contém 10 mg de treprostinilo (como sal de sódio). </p>
+<p>Trepulmix 2,5 mg/ml solução para perfusão 
+Cada ml de solução contém 2,5 mg de treprostinilo (como sal de sódio). 
+Cada frasco para injetáveis de 10 ml de solução contém 25 mg de treprostinilo (como sal de sódio). </p>
+<p>Trepulmix 5 mg/ml solução para perfusão 
+Cada ml de solução contém 5 mg de treprostinilo (como sal de sódio). 
+Cada frasco para injetáveis de 10 ml de solução contém 50 mg de treprostinilo (como sal de sódio). </p>
+<p>Trepulmix 10 mg/ml solução para perfusão 
+Cada ml de solução contém 10 mg de treprostinilo (como sal de sódio). 
+Cada frasco para injetáveis de 10 ml de solução contém 100 mg de treprostinilo (como sal de sódio). </p>
+<p>Os outros componentes são:<br />
+Citrato de sódio, cloreto de sódio, hidróxido de sódio, ácido clorídrico, metacresol e água para 
+preparações injetáveis. Ver secção 2 «Trepulmix contém sódio». </p>
+<p>Qual o aspeto de Trepulmix e o conteúdo da embalagem 
+Trepulmix é uma solução transparente e incolor a ligeiramente amarela, disponível num frasco para 
+injetáveis de vidro transparente de 10 ml, selado com uma rolha de borracha e uma tampa codificada 
+por cores: </p>
+<p>Trepulmix 1 mg/ml solução para perfusão 
+Trepulmix 1 mg/ml solução para perfusão tem uma tampa de borracha amarela. </p>
+<p>Trepulmix 2,5 mg/ml solução para perfusão 
+Trepulmix 2,5 mg/ml solução para perfusão tem uma tampa de borracha azul. </p>
+<p>Trepulmix 5 mg/ml solução para perfusão 
+Trepulmix 5 mg/ml solução para perfusão tem uma tampa de borracha verde. </p>
+<p>Trepulmix 10 mg/ml solução para perfusão 
+Trepulmix 10 mg/ml solução para perfusão tem uma tampa de borracha vermelha. </p>
+<p>Cada embalagem contém um frasco para injetáveis. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+SciPharm Sàrl 
+7, Fausermillen 
+L-6689 Mertert 
+Luxemburgo </p>
+<p>Fabricante 
+AOP Orphan Pharmaceuticals GmbH 
+Leopold-Ungar-Platz 2 
+1190 Viena 
+Áustria </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tél/Tel: +43 1 5037Lietuva<br />
+AOP Orphan Pharmaceuticals GmbH (Austrija) 
+Tel: + 43 1 5037 
+България<br />
+AOP Orphan Pharmaceuticals GmbH (Австрия) 
+Teл.: + 43 1 5037 </p>
+<p>Luxembourg/Luxemburg<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) <br />
+Tél/Tel: + 43 1 5037Česká republika<br />
+AOP Orphan Pharmaceuticals GmbH (Rakousko) 
+Tel: + 43 1 5037 
+Magyarország<br />
+AOP Orphan Pharmaceuticals GmbH (Ausztria) 
+Tel.: + 43 1 5037 
+Danmark<br />
+AOP Orphan Pharmaceuticals GmbH (Østrig) 
+Tlf: + 43 1 5037 
+Malta<br />
+AOP Orphan Pharmaceuticals GmbH (L-Awstrija) 
+Tel: + 43 1 5037 
+Deutschland<br />
+AOP Orphan Pharmaceuticals Germany GmbH 
+Tel: + 49 89 99 740 7 
+Nederland<br />
+AOP Orphan Pharmaceuticals GmbH (Oostenrijk) 
+Tel: + 43 1 5037 
+Eesti<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tel: + 43 1 5037 
+Norge<br />
+AOP Orphan Pharmaceuticals GmbH (Østerrike) 
+Tlf: + 43 1 5037 
+Ελλάδα<br />
+AOP Orphan Pharmaceuticals GmbH (Αυστρία) 
+Τηλ: + 43 1 5037 
+Österreich<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel: + 43 1 5037 
+España<br />
+AOP Orphan Pharmaceuticals Iberia S.L. <br />
+Tel: +34 91 395 40<br />
+Polska<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tel.: + 43 1 5037 
+France<br />
+AOP Orphan Pharmaceuticals GmbH (Autriche) 
+Tél: + 43 1 5037 
+Portugal<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tel: + 43 1 5037244  </p>
+<p>Hrvatska<br />
+AOP Orphan Pharmaceuticals GmbH (Austrija) 
+Tel: + 43 1 5037România<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tel: + 43 1 5037 </p>
+<p>Ireland<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tel: + 43 1 5037Slovenija<br />
+AOP Orphan Pharmaceuticals GmbH (Avstrija) 
+Tel: + 43 1 5037 
+Ísland<br />
+AOP Orphan Pharmaceuticals GmbH (Austurríki) 
+Sími: + 43 1 5037Slovenská republika<br />
+AOP Orphan Pharmaceuticals GmbH (Rakúsko) 
+Tel: + 43 1 5037 
+Italia<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tel: + 43 1 5037 
+Suomi/Finland<br />
+AOP Orphan Pharmaceuticals GmbH (Itävalta) 
+Puh/Tel: + 43 1 5037 
+Κύπρος<br />
+AOP Orphan Pharmaceuticals GmbH (Αυστρία) 
+Τηλ: + 43 1 5037244  </p>
+<p>Sverige<br />
+AOP Orphan Pharmaceuticals GmbH (Österrike) 
+Tel: + 43 1 5037 
+Latvija<br />
+AOP Orphan Pharmaceuticals GmbH (Austrija) 
+Tel: + 43 1 5037 
+United Kingdom (Northern Ireland)<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tel: + 43 1 5037 </p>
+<p>Este folheto foi revisto pela última vez em . </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -957,6 +1488,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-0e387e560fa6e1178c04c02876196a66"
 * entry[0].resource = composition-da-0e387e560fa6e1178c04c02876196a66
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0e387e560fa6e1178c04c02876196a66"
+* entry[=].resource = mp0e387e560fa6e1178c04c02876196a66
+                            
+                    
+Instance: bundlepackageleaflet-pt-0e387e560fa6e1178c04c02876196a66
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trepulmix Package Leaflet for language pt"
+Description: "ePI document Bundle for trepulmix Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-0e387e560fa6e1178c04c02876196a66"
+* entry[0].resource = composition-pt-0e387e560fa6e1178c04c02876196a66
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp0e387e560fa6e1178c04c02876196a66"
@@ -1058,6 +1611,18 @@ RuleSet: 0e387e560fa6e1178c04c02876196a66ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-0e387e560fa6e1178c04c02876196a66) // trepulmix pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

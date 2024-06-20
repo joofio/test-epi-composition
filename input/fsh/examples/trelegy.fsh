@@ -1042,6 +1042,513 @@ hals.  </li>
 
 
 
+Instance: composition-pt-1f770da67a0e503197d74d61bd645018
+InstanceOf: CompositionUvEpi
+Title: "Composition for trelegy Package Leaflet"
+Description:  "Composition for trelegy Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1f770da67a0e503197d74d61bd645018)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - trelegy"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instruções passo a passo  </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Trelegy Ellipta e para que é utilizado  </li>
+<li>O que precisa de saber antes de utilizar Trelegy Ellipta </li>
+<li>Como utilizar Trelegy Ellipta </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Trelegy Ellipta  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é trelegy e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é trelegy e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Trelegy Ellipta </p>
+<p>Trelegy Ellipta contém três substâncias ativas chamadas furoato de fluticasona, brometo de umeclidínio e 
+vilanterol. O furoato de fluticasona pertence a um grupo de medicamentos chamados corticosteroides, ou 
+frequentemente simplesmente chamados esteroides. O brometo de umeclidínio e vilanterol pertencem a um 
+grupo de medicamentos chamados broncodilatadores. </p>
+<p>Para que é utilizado Trelegy Ellipta </p>
+<p>Trelegy Ellipta é utilizado para tratar a doença pulmonar obstrutiva crónica (DPOC) em adultos. A DPOC é 
+uma doença de longa duração caracterizada por dificuldades respiratórias que pioram lentamente. </p>
+<p>Na DPOC, os músculos envolventes das vias aéreas contraem, tornando a respiração difícil. Este 
+medicamento alarga estes músculos nos pulmões, reduzindo o inchaço e a irritação nas pequenas passagens 
+de ar e facilitando a entrada e a saída do ar dos pulmões. Quando utilizado regularmente, pode ajudar a 
+controlar as suas dificuldades respiratórias e a reduzir os efeitos da DPOC no seu dia a dia. </p>
+<p>Trelegy Ellipta deve ser utilizado todos os dias e não apenas quando tem dificuldades 
+respiratórias ou outros sintomas da DPOC. Não deve ser utilizado para aliviar um ataque 
+repentino de falta de ar ou pieira. Se tiver um ataque deste género deve utilizar um inalador de ação 
+rápida (tal como o salbutamol). Contacte o seu médico se não tem um inalador de ação rápida. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar trelegy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar trelegy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Trelegy Ellipta 
+- se tem alergia ao furoato de fluticasona, umeclidínio, vilanterol ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de utilizar Trelegy Ellipta 
+- se tem asma (Não utilize Trelegy Ellipta para tratar a asma) 
+- se tem problemas de coração ou tensão arterial alta 
+-  se tem problemas de fígado 
+-  se tem tuberculose (TB) pulmonar, ou qualquer infeção de longa duração ou não tratada<br />
+- se tem um problema ocular chamado glaucoma de ângulo fechado 
+- se tem aumento do volume da próstata, dificuldade em urinar ou um bloqueio na sua bexiga 
+- se sofre de epilepsia 
+- se tem problemas na glândula tiroide 
+- se tem potássio baixo no seu sangue 
+- se tem historial de diabetes 
+-  se tiver visão turva ou outras perturbações visuais  </p>
+<p>Verifique com o seu médico se pensa que alguma destas situações se aplica a si. </p>
+<p>Dificuldades respiratórias imediatas 
+Se tiver aperto no peito, tosse, pieira ou falta de ar imediatamente após utilizar o seu inalador Trelegy 
+Ellipta: 
+pare de utilizar este medicamento e procure imediatamente ajuda médica, uma vez que pode ter 
+uma condição grave chamada broncospasmo paradoxal. </p>
+<p>Problemas oculares durante o tratamento com Trelegy Ellipta 
+Se tiver dor ou desconforto ocular, visão turva temporariamente, halos visuais ou imagens coloridas assim 
+como olhos vermelhos durante o tratamento com Trelegy Ellipta: </p>
+<p>pare de utilizar este medicamento e procure imediatamente ajuda médica. Estes podem ser sinais 
+de um ataque agudo de glaucoma de ângulo fechado. </p>
+<p>Infeção pulmonar 
+Como está a utilizar este medicamento para a DPOC, pode estar em risco aumentado de desenvolver uma 
+infeção pulmonar conhecida como pneumonia. Ver secção 4 ‘Efeitos indesejáveis possíveis’ para informação 
+sobre os sintomas a que deve estar atento enquanto está a utilizar este medicamento.  </p>
+<p>Informe o seu médico o mais rapidamente possível se desenvolver algum destes sintomas. </p>
+<p>Crianças e adolescentes 
+Não administre este medicamento a crianças ou adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Trelegy Ellipta 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos. Se não tem a certeza do que o seu medicamento contém fale com o seu médico ou 
+farmacêutico. </p>
+<p>Alguns medicamentos podem afetar a maneira como este medicamento funciona, ou podem aumentar a 
+probabilidade de ocorrência de efeitos indesejáveis. Estes incluem: </p>
+<ul>
+<li>medicamentos chamados bloqueadores beta (tais como propranolol), para tratar a tensão arterial alta 
+ou outros problemas de coração </li>
+<li>cetoconazol ou itraconazol, para tratar infeções fúngicas </li>
+<li>claritromicina ou telitromicina, para tratar infeções bacterianas </li>
+<li>ritonavir ou cobicistate, para tratar infeções pelo VIH </li>
+<li>medicamentos para baixar a quantidade de potássio no seu sangue, tais como alguns diuréticos 
+(“comprimidos de água") ou alguns medicamentos utilizados para tratar a DPOC e asma (tais como 
+metilxantina ou esteroides). </li>
+<li>outros medicamentos de longa duração de ação semelhantes a este medicamento que são utilizados 
+para tratar problemas respiratórios, por ex. tiotrópio, indacaterol. Não utilize Trelegy Ellipta se já 
+está a utilizar estes medicamentos. 
+Informe o seu médico ou farmacêutico se estiver a tomar algum destes medicamentos. O seu médico 
+poderá querer monitorizá-lo cuidadosamente se estiver a tomar algum destes medicamentos, uma vez que 
+estes podem aumentar os efeitos indesejáveis de Trelegy Ellipta. </li>
+</ul>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de 
+tomar este medicamento. Não utilize este medicamento se está grávida a não ser que o seu médico lhe tenha 
+dito que pode.  </p>
+<p>Desconhece-se se os componentes deste medicamento podem passar para o leite materno. Se está a 
+amamentar, confirme com o seu médico antes de utilizar Trelegy Ellipta. Não utilize este medicamento se 
+está a amamentar, a não ser que o seu médico lhe tenha dito que pode. </p>
+<p>Condução de veículos e utilização de máquinas 
+É pouco provável que este medicamento afete a sua capacidade de conduzir ou utilizar máquinas. </p>
+<p>Trelegy Ellipta contém lactose 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de utilizar este 
+medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar trelegy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar trelegy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.  </p>
+<p>A dose recomendada é uma inalação todos os dias, à mesma hora do dia. Apenas necessita de inalar uma 
+vez por dia porque o efeito deste medicamento dura 24 horas. </p>
+<p>Não utilize mais do que o seu médico lhe disse para utilizar. </p>
+<p>Utilize Trelegy Ellipta regularmente 
+É muito importante que utilize Trelegy Ellipta todos os dias, conforme indicado pelo seu médico. Isto irá 
+ajudar a que não tenha sintomas durante o dia e a noite. </p>
+<p>Trelegy Ellipta não deve ser utilizado para aliviar um ataque repentino de falta de ar ou pieira. Se tiver 
+um ataque deste género deve utilizar um inalador de ação rápida para alívio (tal como o salbutamol). </p>
+<p>Como utilizar o inalador 
+Veja as ‘Instruções passo a passo’ no final deste folheto para informação completa. </p>
+<p>Trelegy Ellipta destina-se a administração por via inalatória. </p>
+<p>Trelegy Ellipta está pronto a utilizar assim que a bandeja esteja aberta. <br />
+Se os seus sintomas não melhorarem 
+Se os seus sintomas da DPOC (falta de ar, pieira, tosse) não melhorarem ou piorarem, ou se está a utilizar o 
+seu inalador de ação rápida mais vezes:  </p>
+<p>contacte o seu médico assim que possível. </p>
+<p>Se utilizar mais Trelegy Ellipta do que deveria 
+Se acidentalmente utilizar demasiado deste medicamento, contacte imediatamente o seu médico ou 
+farmacêutico para aconselhamento uma vez que pode necessitar de assistência médica. Se possível, 
+mostre-lhes o inalador, a embalagem ou este folheto. Pode verificar que o seu coração está a bater mais 
+rápido que o habitual, ter sensação de estremecimento, ter perturbações visuais, ter a boca seca ou ter dor de 
+cabeça. </p>
+<p>Caso se tenha esquecido de utilizar Trelegy Ellipta 
+Não inale uma dose a dobrar para compensar uma dose que se esqueceu de inalar. Inale a dose seguinte 
+à hora habitual. Se se sentir com pieira ou com falta de ar, utilize o seu inalador de ação rápida (tal como o 
+salbutamol) e de seguida procure aconselhamento médico.  </p>
+<p>Se parar de utilizar Trelegy Ellipta 
+Utilize este medicamento durante o período de tempo recomendado pelo seu médico. Não pare a não ser que 
+o seu médico o aconselhe a fazê-lo, mesmo que se sinta melhor, uma vez que os seus sintomas podem piorar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou 
+enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Reações alérgicas<br />
+As reações alérgicas a Trelegy Ellipta são raras (estas podem afetar até 1 em 1000 pessoas). 
+Se teve algum dos sintomas seguintes após utilizar Trelegy Ellipta, pare de usá-lo e infome o seu médico 
+imediatamente:  </p>
+<ul>
+<li>
+<p>erupção da pele ou vermelhidão, pápulas (urticária) </p>
+</li>
+<li>
+<p>inchaço, por vezes da cara ou boca (angioedema) </p>
+</li>
+<li>
+<p>ficar muito ofegante, com tosse ou tiver dificuldade em respirar </p>
+</li>
+<li>
+<p>sentir-se repentinamente fraco ou atordoado (o que pode levar a colapso ou perda de consciência) </p>
+</li>
+</ul>
+<p>Dificuldades respiratórias imediatas 
+Se a sua respiração ou pieira piorarem imediatamente após utilizar este medicamento, pare de o utilizar e 
+procure ajuda médica imediatamente. </p>
+<p>Pneumonia (infeção no pulmão) em doentes com DPOC (efeito secundário frequente) 
+Informe o seu médico se tem qualquer um dos sintomas seguintes enquanto está a utilizar Trelegy Ellipta - 
+estes podem ser sintomas de uma infeção pulmonar:  </p>
+<ul>
+<li>
+<p>febre ou arrepios </p>
+</li>
+<li>
+<p>produção aumentada de expetoração, alteração na cor da expetoração </p>
+</li>
+<li>
+<p>aumento da tosse ou das dificuldades respiratórias </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas)  </p>
+<ul>
+<li>
+<p>feridas e manchas na boca ou na garganta causadas por uma infeção fúngica (candidíase). Enxaguar a 
+sua boca com água imediatamente após a utilização de Trelegy Ellipta pode ajudar a prevenir este 
+efeito secundário. </p>
+</li>
+<li>
+<p>infeção do nariz, seios nasais ou da garganta </p>
+</li>
+<li>
+<p>infeção das vias respiratórias superiores </p>
+</li>
+<li>
+<p>nariz com comichão, com corrimento ou congestionado </p>
+</li>
+<li>
+<p>dor na parte de trás da boca e garganta </p>
+</li>
+<li>
+<p>inflamação dos seios nasais </p>
+</li>
+<li>
+<p>inflamação dos pulmões (bronquite) </p>
+</li>
+<li>
+<p>gripe (influenza) </p>
+</li>
+<li>
+<p>constipação comum </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>urinar de forma dolorosa e frequente (podem ser sinais de uma infeção do aparelho urinário) </p>
+</li>
+<li>
+<p>dor nas articulações </p>
+</li>
+<li>
+<p>dor nas costas </p>
+</li>
+<li>
+<p>obstipação. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas)  </p>
+<ul>
+<li>
+<p>batimento cardíaco irregular </p>
+</li>
+<li>
+<p>batimento cardíaco acelerado  </p>
+</li>
+<li>
+<p>rouquidão </p>
+</li>
+<li>
+<p>enfraquecimento dos ossos, levando a fraturas </p>
+</li>
+<li>
+<p>boca seca </p>
+</li>
+<li>
+<p>alteração do paladar </p>
+</li>
+<li>
+<p>visão turva </p>
+</li>
+<li>
+<p>aumento da pressão no olho </p>
+</li>
+<li>
+<p>dor ocular. </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1000 pessoas) </p>
+<ul>
+<li>
+<p>reações alérgicas (ver Secção 4 anterior) </p>
+</li>
+<li>
+<p>dificuldades em urinar (retenção urinária) </p>
+</li>
+<li>
+<p>dor ou desconforto ao urinar (disúria) </p>
+</li>
+<li>
+<p>consciência do batimento cardíaco (palpitações) </p>
+</li>
+<li>
+<p>ansiedade </p>
+</li>
+<li>
+<p>tremor </p>
+</li>
+<li>
+<p>espasmos musculares  </p>
+</li>
+<li>
+<p>aumento dos níveis de açúcar no sangue (hiperglicemia) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
+fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar trelegy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar trelegy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, na bandeja e no 
+inalador, após EXP. O prazo de validade corresponde ao último dia do mês indicado.  </p>
+<p>Não conservar acima de 30°C. </p>
+<p>Manter o inalador dentro da bandeja selada para proteger da humidade e só remover imediatamente antes da 
+primeira utilização. Assim que a bandeja for aberta, o inalador pode ser utilizado até 6 semanas, a partir da 
+data de abertura da bandeja. Escreva no rótulo, no espaço disponibilizado, a data em que o inalador deve ser 
+eliminado. A data deve ser adicionada assim que o inalador tenha sido removido da bandeja. </p>
+<p>Se conservado no frigorífico, permitir que o inalador regresse à temperatura ambiente durante pelo menos 
+uma hora antes da utilização. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Trelegy Ellipta 
+As substâncias ativas são furoato de fluticasona, brometo de umeclidínio e vilanterol. </p>
+<p>Cada inalação disponibiliza uma dose administrada (a dose libertada pelo aplicador bocal) de microgramas de furoato de fluticasona, 65 microgramas de brometo de umeclidínio equivalente a microgramas de umeclidínio e 22 microgramas de vilanterol (como trifenatato). </p>
+<p>Os outros componentes são lactose mono-hidratada (ver secção 2 “Trelegy Ellipta contém lactose") e 
+estearato de magnésio. </p>
+<p>Qual o aspeto de Trelegy Ellipta e conteúdo da embalagem 
+Trelegy Ellipta é um pó para inalação em recipiente unidose. 
+O inalador Ellipta consiste num corpo de plástico cinzento claro, uma tampa do aplicador bocal beje e um 
+contador de doses. Está embalado numa bandeja de folha laminada com uma folha destacável. A bandeja 
+contém uma saqueta dessecante para reduzir a humidade na embalagem.  </p>
+<p>As substâncias ativas estão presentes como um pó branco em fitas termossoldadas separadas dentro do 
+inalador. 
+Trelegy Ellipta está disponível em embalagens de 1 inalador contendo 14 ou 30 doses (quantidade para 14 ou 
+30 dias) e em embalagens múltiplas contendo 90 (3 inaladores de 30) doses (quantidade para 90 dias). É 
+possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+GlaxoSmithKline Trading Services Limited 
+12 Riverwalk 
+Citywest Business Campus 
+Dublin Irlanda </p>
+<p>Fabricante 
+Glaxo Wellcome Production 
+Zone Industrielle No.2 
+23 Rue Lavoisier 
+27000 Evreux<br />
+França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+GlaxoSmithKline Pharmaceuticals s.a./n.v. 
+Tél/Tel: + 32 (0) 10 85 52<br />
+Lietuva 
+UAB “BERLIN-CHEMIE MENARINI BALTIC" 
+Tel: + 370 52 691 lt@berlin-chemie.com </p>
+<p>България 
+“Берлин-Хеми/А. Менарини България" EООД<br />
+Luxembourg/Luxemburg 
+GlaxoSmithKline Pharmaceuticals s.a./n.v. 
+Teл.: + 359 2 454 0bcsofia@berlin-chemie.com </p>
+<p>Belgique/Belgien 
+Tél/Tel: + 32 (0) 10 85 52<br />
+Česká republika 
+GlaxoSmithKline, s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com </p>
+<p>Magyarország 
+Berlin-Chemie/A. Menarini Kft. 
+Tel.: + 36 23501bc-hu@berlin-chemie.com </p>
+<p>Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+GlaxoSmithKline Trading Services Limited 
+Tel: + 356 80065 
+Deutschland 
+GlaxoSmithKline GmbH &amp; Co. KG 
+Tel.: + 49 (0)89 36044 8produkt.info@gsk.com </p>
+<p>Nederland 
+GlaxoSmithKline BV 
+Tel: + 31 (0)33 2081Eesti 
+OÜ Berlin-Chemie Menarini Eesti 
+Tel: + 372 667 5ee@berlin-chemie.com  </p>
+<p>Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20 Ελλάδα 
+Menarini Hellas A.E. 
+Τηλ: + 30 210 83161 11- Österreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>España 
+GlaxoSmithKline, S.A. 
+Tel: + 34 900 202 es-ci@gsk.com </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9 
+France 
+Laboratoire GlaxoSmithKline 
+Tél: + 33 (0)1 39 17 84 diam@gsk.com </p>
+<p>Portugal 
+GlaxoSmithKline - Produtos Farmacêuticos, Lda. 
+Tel: + 351 21 412 95 FI.PT@gsk.com </p>
+<p>Hrvatska 
+Berlin-Chemie Menarini Hrvatska d.o.o. 
+Tel: + 385 1 4821 office-croatia@berlin-chemie.com </p>
+<p>România 
+GlaxoSmithKline Trading Services Limited<br />
+Tel: + 40 800672 
+Ireland 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955 
+Slovenija 
+Berlin-Chemie / A. Menarini Distribution 
+Ljubljana d.o.o. 
+Tel: + 386 (0)1 300 2slovenia@berlin-chemie.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími:  +354 535 7 
+Slovenská republika 
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o. 
+Tel: + 421 2 544 30 slovakia@berlin-chemie.com </p>
+<p>Italia 
+GlaxoSmithKline S.p.A. 
+Tel: + 39 (0)45 7741<br />
+Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30<br />
+Κύπρος 
+GlaxoSmithKline Trading Services Limited 
+Τηλ: + 357 80070 
+Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+SIA Berlin-Chemie/Menarini Baltic 
+Tel: + 371 67103lv@berlin-chemie.com </p>
+<p>United Kingdom (Northern Ireland) 
+GlaxoSmithKline Trading Services Limited 
+Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p>         </div>"""      
+
+
+
 
 
                     
@@ -1083,6 +1590,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-1f770da67a0e503197d74d61bd645018"
 * entry[0].resource = composition-da-1f770da67a0e503197d74d61bd645018
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1f770da67a0e503197d74d61bd645018"
+* entry[=].resource = mp1f770da67a0e503197d74d61bd645018
+                            
+                    
+Instance: bundlepackageleaflet-pt-1f770da67a0e503197d74d61bd645018
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trelegy Package Leaflet for language pt"
+Description: "ePI document Bundle for trelegy Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-1f770da67a0e503197d74d61bd645018"
+* entry[0].resource = composition-pt-1f770da67a0e503197d74d61bd645018
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp1f770da67a0e503197d74d61bd645018"
@@ -1184,6 +1713,18 @@ RuleSet: 1f770da67a0e503197d74d61bd645018ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-1f770da67a0e503197d74d61bd645018) // trelegy pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1043,6 +1043,541 @@ og om, hvordan de behandles. </p>         </div>"""
 
 
 
+Instance: composition-pt-9c1ad55578ad6de333b716cfcc4a7d73
+InstanceOf: CompositionUvEpi
+Title: "Composition for translarna Package Leaflet"
+Description:  "Composition for translarna Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9c1ad55578ad6de333b716cfcc4a7d73)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - translarna"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Translarna e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Translarna </li>
+<li>Como tomar Translarna </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Translarna </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é translarna e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é translarna e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Translarna é um medicamento que contém a substância ativa atalureno. </p>
+<p>O Translarna é utilizado no tratamento da distrofia muscular de Duchenne resultante de um defeito 
+genético específico que afeta a função normal dos músculos. </p>
+<p>O Translarna é utilizado no tratamento de doentes com idade igual ou superior a 2 anos e capacidade 
+para andar. </p>
+<p>Você ou o seu filho já terá feito testes, por ordem do seu médico, antes iniciar o tratamento com 
+Translarna, com o propósito de confirmar que a sua doença é adequada para ser tratada com este 
+medicamento. </p>
+<p>Como funciona o Translarna? </p>
+<p>A distrofia muscular de Duchenne é causada por alterações genéticas que resultam numa anomalia 
+numa proteína muscular chamada distrofina que é necessária para o correto funcionamento dos 
+músculos. O Translarna permite a produção de distrofina funcional e ajuda os músculos a funcionarem 
+corretamente. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar translarna"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar translarna"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Translarna: 
+- se tem alergia ao atalureno ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se está a receber tratamento com determinados antibióticos, como a gentamicina, tobramicina ou 
+estreptomicina, por injeção numa veia. </p>
+<p>Advertências e precauções 
+O seu médico realizou-lhe uma análise ao sangue para confirmar que a sua doença é adequada para o 
+tratamento com Translarna. Se sofre de problemas nos rins, o seu médico deve monitorizar 
+regularmente a sua função renal. </p>
+<p>Se tem problemas graves nos rins (eGFR &lt;30 ml/min) ou se está a fazer diálise porque os seus rins não 
+funcionam (doença renal em fase terminal) o seu médico avaliará se o tratamento com Translarna é 
+adequado para si. </p>
+<p>O seu médico mandará fazer testes aos níveis dos lípidos (gorduras como o colesterol e os 
+triglicéridos) no sangue e à sua função dos rins a cada 6 a 12 meses. O seu médico monitorizará a sua 
+tensão arterial a cada 6 meses no caso de estar a tomar um corticosteroide. </p>
+<p>Crianças e adolescentes 
+Não administre este medicamento em crianças com idade inferior a 2 anos ou com peso inferior a 
+12 kg, na medida em que o mesmo não foi testado neste grupo de doentes. </p>
+<p>Outros medicamentos e Translarna 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. Mais especificamente, não tome Translarna com os antibióticos gentamicina, 
+tobramicina ou estreptomicina, administrados por injeção. Estes antibióticos podem afetar o 
+funcionamento dos seus rins. </p>
+<p>Informe o seu médico se estiver a tomar alguns dos seguintes medicamentos: </p>
+<p>Medicamento 
+Habitualmente receitado para 
+aciclovir 
+tratamento da varicela 
+adefovir 
+tratamento da hepatite B crónica e/ou VIH 
+atorvastatina 
+diminuição dos lípidos 
+benzilpenicilina 
+infeções graves 
+bumetanida 
+tratamento ou prevenção da insuficiência cardíaca congestiva 
+captopril 
+tratamento ou prevenção da insuficiência cardíaca congestiva 
+ciprofloxacina 
+tratamento de infeções 
+famotidina 
+tratamento de úlcera do duodeno ativa, doença do refluxo 
+gastroesofágico 
+furosemida 
+tratamento ou prevenção da insuficiência cardíaca congestiva 
+metotrexato 
+artrite reumatoide, psoríase 
+olmesartan 
+hipertensão essencial em adultos 
+oseltamivir 
+prevenção da gripe 
+fenobarbital 
+indutor do sono, prevenção de convulsões 
+pitavastatina 
+diminuição dos lípidos 
+pratavastatina 
+diminuição dos lípidos 
+rifampicina 
+tratamento da tuberculose 
+rosuvastatina 
+diminuição dos lípidos 
+sitagliptina 
+diabetes tipo 2 
+valsartan 
+tratamento ou prevenção da insuficiência cardíaca congestiva </p>
+<p>Alguns destes medicamentos não foram testados em conjunto com Translarna e o seu médico pode 
+decidir monitorizá-lo de perto. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. Se engravidar durante a toma de Translarna, consulte de imediato o 
+seu médico dado que é aconselhável não tomar Translarna enquanto se está grávida ou a amamentar. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>No caso de sentir tonturas, não conduza, não ande de bicicleta nem utilize máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar translarna"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar translarna"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. 
+O Translarna está disponível em saquetas, nas seguintes dosagens: 125 mg, 250 mg e 1.000 mg de 
+atalureno por saqueta. O seu médico ou farmacêutico indicará o número exato de saquetas e a dosagem 
+a tomar em cada ocasião. 
+A sua dose de Translarna depende do seu peso corporal. A dose recomendada é de 10 mg/kg de peso 
+corporal de manhã, 10 mg/kg de peso corporal a meio do dia e 20 mg/kg de peso corporal à noite (para 
+uma dose diária total de 40 mg/kg de peso corporal). </p>
+<p>O medicamento destina-se a ser tomado pela boca, misturado com um líquido ou alimentos 
+semissólidos. 
+Abra a saqueta apenas no momento em que for tomar o medicamento e utilize a quantidade inteira da 
+saqueta. O conteúdo integral de cada saqueta deve ser misturado com, pelo menos, 30 ml de líquido 
+(água, leite ou sumo de fruta) ou 3 colheres de sopa de alimentos semissólidos (iogurte ou puré de 
+maçã). Misture bem a dose preparada antes de tomá-la. A quantidade do líquido ou alimentos 
+semissólidos pode ser aumentada de acordo com as suas preferências. </p>
+<p>Tabela de posologia </p>
+<p>Intervalo 
+de pesos 
+(kg) 
+Número de saquetas 
+Manhã<br />
+Meio do dia 
+Noite 
+Saquet
+as de 
+125 mg 
+Saquet
+as de 
+250 mg 
+Saquetas 
+de 
+1.000 mg 
+Saquet
+as de 
+125 mg 
+Saquet
+as de 
+250 mg 
+Saqueta
+s de 
+1.000 m
+g 
+Saquet
+as de 
+125 mg 
+Saquet
+as de 
+250 mg 
+Saqueta
+s de 
+1.000 m
+g 
+1 
+0 
+0 
+1 
+0 
+0 
+0 
+1 
+0 
+1 
+0 
+0 
+1 
+0 
+0 
+1 
+1 
+0 
+0 
+1 
+0 
+0 
+1 
+0 
+0 
+1 
+0 
+0 
+1 
+0 
+0 
+1 
+0 
+1 
+1 
+0 
+0 
+1 
+0 
+0 
+1 
+0 
+0 
+2 
+0 
+0 
+1 
+0 
+0 
+1 
+0 
+1 
+2 
+0 
+1 
+1 
+0 
+1 
+1 
+0 
+1 
+2 
+0 
+1 
+1 
+0 
+1 
+1 
+0 
+0 
+3 
+0 
+1 
+1 
+0 
+1 
+1 
+0 
+1 
+3 
+0 
+0 
+2 
+0 
+0 
+2 
+0 
+1 
+3 
+0 
+0 
+2 
+0 
+0 
+2 
+0 
+0 
+0 
+1 
+0 
+2 
+0 
+0 
+2 
+0 
+0 
+1 
+1 
+0 
+3 
+0 
+0 
+3 
+0 
+0 
+1 
+1 
+0 
+3 
+0 
+0 
+3 
+0 
+0 
+2 
+1 
+0 
+3 
+0 
+0 
+3 
+0 
+0 
+3 
+1 
+0 
+0 
+1 
+0 
+0 
+1 
+0 
+3 
+1 
+0 
+0 
+1 
+0 
+0 
+1 
+0 
+0 
+2 
+106 0 
+0 
+1 
+0 
+0 
+1 
+0 
+1 
+2 
+112 0 
+1 
+1 
+0 
+1 
+1 
+0 
+1 
+2 
+119 0 
+1 
+1 
+0 
+1 
+1 
+0 
+2 
+2 </p>
+<p>Tome Translarna pela boca, 3 vezes por dia, de manhã, a meio do dia e à noite. Devem decorrer 
+6 horas entre as doses da manhã e do meio do dia, 6 horas entre as doses do meio do dia e da noite e 
+12 horas entre a dose da noite e a primeira dose do dia seguinte. Por exemplo, pode tomar Translarna 
+às 7:00, de manhã, com o pequeno-almoço, às 13:00, a meio do dia, com o almoço e, de novo, por 
+volta das 19:00, à noite com o jantar. </p>
+<p>Beba água ou outros líquidos regularmente para evitar a ocorrência de desidratação durante a toma de 
+Translarna. </p>
+<p>Se tomar mais Translarna do que deveria 
+Contacte o seu médico se tomar uma dose superior à dose recomendada de Translarna. 
+Poderá sentir uma ligeira dor de cabeça, náuseas, vómitos ou diarreia. </p>
+<p>Caso se tenha esquecido de tomar Translarna 
+Caso se atrase a tomar Translarna por menos de 3 horas depois das doses da manhã ou do meio do dia, 
+ou por menos de 6 horas depois da dose da noite, tome a dose. Não se esqueça de tomar a dose seguinte a 
+horas. 
+Caso se atrase a tomar Translarna por mais de 3 horas depois das doses da manhã ou do meio do dia, 
+ou por mais de 6 horas depois da dose da noite, não tome a dose. Mas tome as doses seguintes a horas. </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. É importante 
+administrar a dose correta. O Translarna pode não ser totalmente eficaz a tratar os seus sintomas se 
+tomar mais do que a dose recomendada. </p>
+<p>Se parar de tomar Translarna 
+Não pare de tomar Translarna sem falar com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Pode ter um ou mais dos seguintes efeitos indesejáveis depois de 
+tomar Translarna: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas): 
+- Vómitos </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas): 
+- Redução do apetite 
+- Níveis altos de triglicerídeos no sangue 
+- Cefaleia 
+- Indisposição 
+- Perda de peso 
+- Tensão alta 
+- Tosse 
+- Hemorragia nasal 
+- Prisão de ventre 
+- Libertação de gases com mais frequência 
+- Mal-estar no estômago 
+- Dor de estômago 
+- Erupção na pele 
+- Dor no braço ou perna 
+- Dor no peito 
+- Urinar involuntário 
+- Sangue na urina 
+- Febre </p>
+<p>Frequência desconhecida (não pode ser calculada a partir dos dados disponíveis): 
+- Aumentos nos lípidos no sangue 
+- Aumentos no teste da função dos rins </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar translarna"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar translarna"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e na saqueta 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Tome cada dose preparada imediatamente após a preparação. Elimine a dose preparada no caso de não 
+ser consumida no prazo de 24 horas após a preparação, se mantida refrigerada (2 - 8 °C), ou no prazo 
+de 3 horas à temperatura ambiente (15 - 30 °C). </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Translarna </p>
+<p>O Translarna está disponível em 3 dosagens, cada uma contendo 125 mg, 250 mg e 1.000 mg da 
+substância ativa chamada atalureno. Os outros componentes são polidextrose (E1200), macrogol, 
+poloxamero, manitol (E421), crospovidona, hidroxietilcelulose, aroma artificial de baunilha 
+(maltodextrina, aromas artificiais e propilenoglicol), sílica coloidal anidra (E551) e estearato de 
+magnésio. </p>
+<p>Qual o aspeto de Translarna e conteúdo da embalagem 
+O Translarna é um granulado branco a esbranquiçado para suspensão oral em saquetas. 
+O Translarna está disponível em embalagens contendo 30 saquetas. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+PTC Therapeutics International Limited 
+5th Floor 
+3 Grand Canal Plaza 
+Grand Canal Street Upper 
+Dublin 4 
+D04 EEIrlanda </p>
+<p>Fabricante 
+Almac Pharma Services 
+22 Seagoe Industrial Estate 
+Craigavon BT63 5QD 
+Reino Unido </p>
+<p>PTC Therapeutics International Limited 
+5th Floor 
+3 Grand Canal Plaza 
+Grand Canal Street Upper 
+Dublin 4 
+D04 EEIrlanda </p>
+<p>Almac Pharma Services (Ireland) Limited 
+Finnabair Industrial Estate 
+Dundalk, Co. Louth, A91 P9KD 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>AT, BE, BG, CY, CZ, DK, DE, EE, EL, ES, 
+HR, HU, IE, IS, IT, LT, LU, LV, MT, NL, NO, 
+PL, PT, RO, SI, SK, FI, SE, UK (NI) 
+PTC Therapeutics International Ltd. (Irlanda) 
++353 (0)1 447 5medinfo@ptcbio.com 
+FR 
+PTC Therapeutics France 
+Tel: +33(0)1 76 70 10 medinfo@ptcbio.com </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Foi concedida a este medicamento uma «Autorização de Introdução no Mercado condicionada». Isto 
+significa que se aguarda mais informação sobre este medicamento. 
+A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
+sobre este medicamento e este folheto será atualizado se necessário. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1084,6 +1619,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9c1ad55578ad6de333b716cfcc4a7d73"
 * entry[0].resource = composition-da-9c1ad55578ad6de333b716cfcc4a7d73
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9c1ad55578ad6de333b716cfcc4a7d73"
+* entry[=].resource = mp9c1ad55578ad6de333b716cfcc4a7d73
+                            
+                    
+Instance: bundlepackageleaflet-pt-9c1ad55578ad6de333b716cfcc4a7d73
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for translarna Package Leaflet for language pt"
+Description: "ePI document Bundle for translarna Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9c1ad55578ad6de333b716cfcc4a7d73"
+* entry[0].resource = composition-pt-9c1ad55578ad6de333b716cfcc4a7d73
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9c1ad55578ad6de333b716cfcc4a7d73"
@@ -1185,6 +1742,18 @@ RuleSet: 9c1ad55578ad6de333b716cfcc4a7d73ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9c1ad55578ad6de333b716cfcc4a7d73) // translarna pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

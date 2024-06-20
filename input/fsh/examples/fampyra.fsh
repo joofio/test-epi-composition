@@ -755,6 +755,445 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-40c8dbb155810b203735f0693961138c
+InstanceOf: CompositionUvEpi
+Title: "Composition for fampyra Package Leaflet"
+Description:  "Composition for fampyra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp40c8dbb155810b203735f0693961138c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - fampyra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Fampyra e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Fampyra </li>
+<li>Como tomar Fampyra </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Fampyra </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é fampyra e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é fampyra e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fampyra contém a substância ativa fampridina que pertence a um grupo de medicamentos chamados 
+bloqueadores dos canais de potássio. Funcionam evitando que o potássio saia das células nervosas que 
+foram danificadas pela esclerose múltipla. Pensa-se que este medicamento funciona ao deixar os 
+impulsos passarem normalmente pelo nervo, o que lhe permite andar melhor. </p>
+<p>Fampyra é um medicamento utilizado para melhorar a marcha em adultos (com idade igual ou 
+superior a 18 anos) com perturbações na marcha associadas à Esclerose Múltipla (EM). Na esclerose 
+múltipla, a inflamação destrói a camada protetora que envolve os nervos, levando a fraqueza dos 
+músculos, rigidez muscular e dificuldade em andar. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar fampyra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar fampyra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Fampyra </p>
+<p>− 
+se tem alergia à fampridina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6) 
+− 
+se alguma vez teve uma convulsão (também conhecida como um ataque ou espasmos) 
+− 
+se o seu médico ou enfermeiro o tiver informado de que tem problemas de rins moderados ou 
+graves 
+− 
+se estiver a tomar um medicamento chamado cimetidina 
+− 
+se estiver a tomar outros medicamentos contendo fampridina. Isto pode aumentar o risco de 
+efeitos indesejáveis graves. </p>
+<p>Informe o seu médico e não tome Fampyra se alguma destas situações se aplicar a si. </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Fampyra: 
+− 
+se sentir os seus próprios batimentos cardíacos (palpitações) 
+− 
+se tem tendência aumentada (suscetibilidade) a infeções 
+− 
+se tem algum fator de risco ou está a tomar medicamentos que afetem o seu risco de ataques 
+epiléticos (convulsões) 
+− 
+se tiver sido informado por um médico de que tem problemas ligeiros nos seus rins 
+− 
+se tem história de reações alérgicas </p>
+<p>Deve utilizar um auxílio de marcha, como uma bengala, conforme seja necessário, porque este 
+medicamento poderá provocar tonturas ou desequilíbrio, o que poderá resultar num aumento do risco 
+de quedas. </p>
+<p>Informe o seu médico antes de tomar Fampyra se alguma destas situações se aplicar a si. </p>
+<p>Crianças e adolescentes </p>
+<p>Este medicamento não deve ser utilizado em crianças ou adolescentes com menos de 18 anos de idade. </p>
+<p>Idosos </p>
+<p>Antes e durante o tratamento, o seu médico pode querer verificar se os seus rins estão a funcionar bem. </p>
+<p>Outros medicamentos e Fampyra </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Não tome Fampyra se estiver a tomar outros medicamentos contendo fampridina. </p>
+<p>Outros medicamentos que afetam os rins </p>
+<p>O seu médico terá um cuidado especial se a fampridina for tomada ao mesmo tempo que qualquer 
+outro medicamento que possa afetar a forma como os seus rins eliminam medicamentos, como por 
+exemplo carvedilol, propranolol e metformina. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Fampyra não é recomendado durante a gravidez. </p>
+<p>O seu médico vai ponderar o benefício do tratamento com Fampyra contra o risco para o seu bebé. </p>
+<p>Não deve amamentar enquanto toma este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Fampyra pode ter um efeito sobre a capacidade de conduzir e utilizar máquinas, porque pode causar 
+tonturas. Certifique-se que não sente esse efeito antes de conduzir veículos ou utilizar máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar fampyra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar fampyra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. Fampyra só está disponível mediante receita médica e sob a vigilância 
+de médicos com experiência em esclerose múltipla. </p>
+<p>O médico irá fornecer-lhe uma receita inicial para 2 a 4 semanas. Após 2 a 4 semanas, o tratamento 
+será reavaliado. </p>
+<p>A dose recomendada é </p>
+<p>Um comprimido de manhã e um comprimido à noite (com um intervalo de 12 horas). Não tome mais 
+de dois comprimidos por dia. Deve deixar um intervalo de 12 horas entre cada comprimido. Não 
+tome os comprimidos em intervalos menores que 12 horas. </p>
+<p>Fampyra é para utilização por via oral. </p>
+<p>Engula o comprimido inteiro, com água. Não divida, esmague, dissolva, chupe nem mastigue o 
+comprimido. Se o fizer, pode aumentar o seu risco de efeitos indesejáveis. </p>
+<p>Este medicamento deve ser tomado sem alimentos, com o estômago vazio. </p>
+<p>Se o seu Fampyra for fornecido em frascos, este irá também conter um dessecante. Deixe o dessecante 
+no frasco, não o engula. </p>
+<p>Se tomar mais Fampyra do que deveria </p>
+<p>Contacte o seu médico imediatamente se tomar demasiados comprimidos. 
+Leve a embalagem de Fampyra consigo quando for ao médico. 
+Se tiver tomado mais comprimidos do que deveria (sobredosagem), pode ter mais suor, tremores 
+ligeiros, tonturas, confusão, perda de memória (amnésia) e ataques epiléticos (convulsão). Pode 
+também sentir outros efeitos não referidos aqui. </p>
+<p>Caso se tenha esquecido de tomar Fampyra </p>
+<p>Caso se tenha esquecido de tomar um comprimido, não tome dois comprimidos de uma só vez para 
+compensar a dose que se esqueceu de tomar. Tem sempre que deixar um intervalo de 12 horas entre 
+cada comprimido. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Se tiver uma convulsão pare de tomar Fampyra e informe o seu médico imediatamente. </p>
+<p>Se tiver um ou mais dos seguintes sintomas alérgicos (hipersensibilidade): inchaço do rosto, boca, 
+lábios, garganta ou língua, a pele ficar vermelha ou com comichão, aperto no peito e problemas 
+respiratórios; pare de tomar Fampyra e procure o seu médico imediatamente. </p>
+<p>Os efeitos indesejáveis são referidos abaixo de acordo com a sua frequência: </p>
+<p>Efeitos indesejáveis muito frequentes </p>
+<p>Podem afetar mais de 1 em 10 pessoas: </p>
+<ul>
+<li>Infeção do aparelho urinário </li>
+</ul>
+<p>Efeitos indesejáveis frequentes </p>
+<p>Podem afetar até 1 em 10 pessoas: </p>
+<ul>
+<li>
+<p>Sentir que perde o equilíbrio </p>
+</li>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Sensação de girar (vertigens) </p>
+</li>
+<li>
+<p>Dores de cabeça </p>
+</li>
+<li>
+<p>Sensação de fraqueza e cansaço </p>
+</li>
+<li>
+<p>Dificuldade em dormir </p>
+</li>
+<li>
+<p>Ansiedade </p>
+</li>
+<li>
+<p>Tremores ligeiros </p>
+</li>
+<li>
+<p>Dormência ou formigueiro na pele </p>
+</li>
+<li>
+<p>Dor de garganta </p>
+</li>
+<li>
+<p>Constipação comum (nasofaringite) </p>
+</li>
+<li>
+<p>Gripe (influenza) </p>
+</li>
+<li>
+<p>Infeção viral </p>
+</li>
+<li>
+<p>Dificuldade em respirar (falta de ar) </p>
+</li>
+<li>
+<p>Sensação de enjoo (náuseas) </p>
+</li>
+<li>
+<p>Estar enjoado (vómitos) </p>
+</li>
+<li>
+<p>Prisão de ventre </p>
+</li>
+<li>
+<p>Mal-estar do estômago </p>
+</li>
+<li>
+<p>Dores nas costas </p>
+</li>
+<li>
+<p>Sentir os batimentos cardíacos (palpitações) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes </p>
+<p>Podem afetar até 1 em 100 pessoas: </p>
+<ul>
+<li>
+<p>Ataques epiléticos (convulsões) </p>
+</li>
+<li>
+<p>Reação alérgica (hipersensibilidade) </p>
+</li>
+<li>
+<p>Alergia grave (reação anafilática) </p>
+</li>
+<li>
+<p>Inchaço da face, lábios, boca ou língua (angioedema) </p>
+</li>
+<li>
+<p>Aparecimento ou agravamento da dor no nervo da face (nevralgia do trigémeo) </p>
+</li>
+<li>
+<p>Frequência cardíaca acelerada (taquicardia) </p>
+</li>
+<li>
+<p>Tonturas ou perda de consciência (hipotensão) </p>
+</li>
+<li>
+<p>Erupção na pele/erupção na pele com comichão (urticária) </p>
+</li>
+<li>
+<p>Desconforto no peito </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar fampyra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar fampyra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após EXP. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar a temperatura inferior a 25 °C. Conservar os comprimidos na embalagem de origem para 
+proteger da luz e da humidade. </p>
+<p>Se o seu Fampyra for fornecido em frascos, só deve ser aberto um frasco de cada vez. Após a primeira 
+abertura, deve utilizar dentro de 7 dias. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Fampyra </p>
+<p>− 
+A substância ativa é a fampridina. 
+− 
+Cada comprimido de libertação prolongada contém 10 mg de fampridina. 
+− 
+Os outros componentes são: 
+Núcleo do comprimido: hipromelose, celulose microcristalina, sílica coloidal anidra, estearato de 
+magnésio; película de revestimento: hipromelose, dióxido de titânio (E-171), polietineloglicol 400.<br />
+Qual o aspeto de Fampyra e conteúdo da embalagem </p>
+<p>Fampyra é um comprimido revestido por película de libertação prolongada, esbranquiçado, oval, 
+biconvexo, com 13 x 8 mm, gravado com A10 numa das faces. </p>
+<p>Fampyra é fornecido em embalagens com frascos ou blisters. </p>
+<p>Frascos </p>
+<p>Fampyra encontra-se disponível em frascos de HDPE (polietileno de alta densidade). Cada frasco 
+contém 14 comprimidos de libertação prolongada e um gel de sílica dessecante. Cada embalagem 
+contém 28 comprimidos de libertação prolongada (2 frascos) ou 56 comprimidos de libertação 
+prolongada (4 frascos). </p>
+<p>Blisters </p>
+<p>Fampyra encontra-se disponível em blisters laminados de 14 comprimidos de libertação prolongada 
+cada. Cada embalagem contém 28 comprimidos de libertação prolongada (2 blisters) ou comprimidos de libertação prolongada (4 blisters). </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Biogen Netherlands B.V. 
+Prins Mauritslaan 1171 LP Badhoevedorp 
+Países Baixos </p>
+<p>Fabricante </p>
+<p>Alkermes Pharma Ireland Ltd, Monksland, Athlone, Co. Westmeath, Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Biogen Belgium N.V./S.A. 
+Tél/Tel: +32 2 219 12<br />
+Lietuva 
+Biogen Lithuania UAB 
+Tel: +370 5 259 6 
+България 
+ТП ЕВОФАРМА 
+Teл.: +359 2 962 12<br />
+Luxembourg/Luxemburg 
+Biogen Belgium N.V./S.A. 
+Tél/Tel: +32 2 219 12<br />
+Česká republika 
+Biogen (Czech Republic) s.r.o. 
+Tel: +420 255 706<br />
+Magyarország 
+Biogen Hungary Kft. 
+Tel.: +36 (1) 899 9Danmark 
+Biogen (Denmark) A/S 
+Tlf: +45 77 41 57<br />
+Malta 
+Pharma MT limited 
+Tel: +356 213 37008/9 </p>
+<p>Deutschland 
+Biogen GmbH 
+Tel: +49 (0) 89 99 6 
+Nederland 
+Biogen Netherlands B.V. 
+Tel: +31 20 542 2Eesti 
+Biogen Estonia OÜ 
+Tel: +372 618 9 
+Norge 
+Biogen Norway AS 
+Tlf: +47 23 40 01 00<br />
+Ελλάδα 
+Genesis Pharma SA 
+Τηλ: +30 210 8771 
+Österreich 
+Biogen Austria GmbH 
+Tel: +43 1 484 46 España 
+Biogen Spain SL 
+Tel: +34 91 310 7 
+Polska 
+Biogen Poland Sp. z o.o. 
+Tel.: +48 22 351 51<br />
+France 
+Biogen France SAS 
+Tél: +33 (0)1 41 37 95<br />
+Portugal 
+Biogen Portugal Sociedade Farmacêutica 
+Unipessoal, Lda 
+Tel: +351 21 318 8 
+Hrvatska 
+Biogen Pharma d.o.o. 
+Tel: +385 (0) 1 775 73<br />
+România 
+Johnson &amp; Johnson Romania S.R.L. 
+Tel: +40 21 207 18<br />
+Ireland 
+Biogen Idec (Ireland) Ltd. 
+Tel: +353 (0)1 463 7 
+Slovenija 
+Biogen Pharma d.o.o. 
+Tel: +386 1 511 02<br />
+Ísland 
+Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika 
+Biogen Slovakia s.r.o. 
+Tel: +421 2 323 340 Italia 
+Biogen Italia s.r.l. 
+Tel: +39 02 584 9 
+Suomi/Finland 
+Biogen Finland Oy 
+Puh/Tel: +358 207 401<br />
+Κύπρος 
+Genesis Pharma (Cyprus) Ltd 
+Τηλ: +357 22765 
+Sverige 
+Biogen Sweden AB 
+Tel: +46 8 594 113<br />
+Latvija 
+Biogen Latvia SIA 
+Tel: +371 68 688<br />
+United Kingdom (Northern Ireland) 
+Biogen Idec (Ireland) Limited 
+Tel: +44 (0) 1628 50 1 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Pode obter uma versão deste folheto com caracteres maiores se ligar para o representante local (ver 
+lista acima). </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -796,6 +1235,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-40c8dbb155810b203735f0693961138c"
 * entry[0].resource = composition-da-40c8dbb155810b203735f0693961138c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp40c8dbb155810b203735f0693961138c"
+* entry[=].resource = mp40c8dbb155810b203735f0693961138c
+                            
+                    
+Instance: bundlepackageleaflet-pt-40c8dbb155810b203735f0693961138c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fampyra Package Leaflet for language pt"
+Description: "ePI document Bundle for fampyra Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-40c8dbb155810b203735f0693961138c"
+* entry[0].resource = composition-pt-40c8dbb155810b203735f0693961138c
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp40c8dbb155810b203735f0693961138c"
@@ -897,6 +1358,18 @@ RuleSet: 40c8dbb155810b203735f0693961138cListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-40c8dbb155810b203735f0693961138c) // fampyra pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

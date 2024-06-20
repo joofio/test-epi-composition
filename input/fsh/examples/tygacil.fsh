@@ -758,6 +758,414 @@ Instruktioner vedrørende anvendelse og håndtering (se også </p>         </div
 
 
 
+Instance: composition-pt-e58616440ae4dbe3d75414bff85541e0
+InstanceOf: CompositionUvEpi
+Title: "Composition for tygacil Package Leaflet"
+Description:  "Composition for tygacil Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe58616440ae4dbe3d75414bff85541e0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tygacil"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Tygacil e para que é utilizado
+2. O que precisa de saber antes de utilizar Tygacil
+3. Como utilizar Tygacil
+4. Efeitos indesejáveis possíveis
+5. Como conservar Tygacil
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tygacil e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tygacil e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tygacil é um antibiótico do grupo das glicilciclinas que atua parando o crescimento de bactérias 
+causadoras de infeções.
+O seu médico prescreveu Tygacil a si ou ao seu filho com idade igual ou superior a 8 anos, porque tem
+pelo menos um dos seguintes tipos de infeção grave:
+
+Infeção complicada da pele e tecidos moles (o tecido debaixo da pele), excluindo infeções do pé 
+diabético
+
+Infeção complicada do abdómen
+Tygacil apenas é utilizado caso o seu médico considere que outros antibióticos não são adequados.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tygacil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tygacil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Tygacil
+
+Se tem alergia à tigeciclina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Se tem alergia a antibióticos da classe das tetraciclinas (por ex., minociclina, 
+doxiciclina, etc.), pode ser alérgico à tigeciclina.
+Advertências e precauções
+Fale com o seu médico ou enfermeiro antes de utilizar Tygacil:
+
+Se apresentar uma cicatrização lenta ou deficiente.
+
+Se sofre de diarreia informe o seu médico antes que lhe seja administrado Tygacil. Se desenvolver 
+diarreia durante ou após o tratamento, informe o seu médico imediatamente. Não tome 
+medicamentos para a diarreia sem primeiro consultar o seu médico.
+
+Se tem ou já teve qualquer efeito indesejável devido a antibióticos da classe das tetraciclinas (por 
+ex., sensibilização da pele à exposição solar, manchas nos dentes em desenvolvimento, inflamação 
+do pâncreas e alteração de certos resultados laboratoriais destinados a avaliar a coagulação do seu 
+sangue).
+
+Se tem ou já teve problemas hepáticos. Consoante a condição do seu fígado, o seu médico pode 
+reduzir a dose para evitar possíveis efeitos indesejáveis.
+
+Se tem um bloqueio das vias biliares (colestase).
+26
+
+Se tem um distúrbio hemorrágico ou se estiver a fazer tratamento com anticoagulantes, uma vez 
+que este medicamento pode interferir com a coagulação do sangue.
+Durante o tratamento com Tygacil:
+
+Informe imediatamente o seu médico caso desenvolva sintomas de uma reação alérgica.
+
+Informe imediatamente o seu médico se desenvolver dores abdominais intensas, náuseas e 
+vómitos. Estes podem ser sintomas de pancreatite aguda (pâncreas inflamado, que pode resultar 
+em dores abdominais intensas, náuseas e vómitos).
+
+Em certas infeções graves, o seu médico pode considerar a utilização de Tygacil em associação 
+com outros antibióticos.
+
+O seu médico irá monitorizá-lo cuidadosamente para o desenvolvimento de quaisquer outras 
+infeções bacterianas. Caso desenvolva outra infeção bacteriana, o seu médico poderá prescrever-
+lhe um antibiótico diferente, específico para o tipo de infeção presente.
+
+Embora os antibióticos, incluindo Tygacil, combatam certas bactérias, outras bactérias e fungos 
+podem continuar a crescer. Isto é designado por superinfeção. O seu médico irá monitorizá-lo
+relativamente a quaisquer infeções possíveis e irá tratá-lo se necessário.
+Crianças
+Tygacil não deverá ser utilizado em crianças com idade inferior a 8 anos devido à falta de dados de 
+segurança e eficácia neste grupo etário e porque pode induzir imperfeições permanentes nos dentes em 
+desenvolvimento, como por exemplo manchas.
+Outros medicamentos e Tygacil
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos.
+Tygacil pode prolongar certos testes destinados a avaliar a coagulação do seu sangue. É importante 
+que informe o seu médico se estiver a tomar medicamentos destinados a evitar uma coagulação 
+excessiva do sangue (chamados anticoagulantes). Se for o caso, o seu médico irá acompanhá-lo de 
+perto.
+Tygacil pode interferir com a pílula contracetiva (pílula para evitar a gravidez). Fale com o seu médico 
+acerca da necessidade de utilizar um método contracetivo adicional durante o tratamento com Tygacil.
+Tygacil pode aumentar o efeito dos medicamentos utilizados para suprimir o sistema imunitário (como
+o tacrolímus ou a ciclosporina). É importante que informe o seu médico se estiver a tomar estes 
+medicamentos para que possa ser monitorizado de perto.
+Gravidez e amamentação
+Tygacil pode causar lesões no feto. Se está grávida ou a amamentar, se pensa estar grávida ou planeia 
+engravidar, consulte o seu médico antes de utilizar Tygacil.
+Desconhece-se se Tygacil passa para o leite materno nos seres humanos. Peça conselho ao seu médico 
+antes de amamentar o seu bebé.
+Condução de veículos e utilização de máquinas
+Tygacil pode causar efeitos indesejáveis tais como tonturas. Tal facto pode prejudicar a sua capacidade 
+de conduzir ou operar máquinas.
+Tygacil contém sódio
+Tygacil contém menos do que 1 mmol (23 mg) de sódio por 5 ml de solução, ou seja, este 
+medicamento é praticamente "isento de sódio".
+27</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tygacil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tygacil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tygacil ser-lhe-á administrado por um médico ou um enfermeiro.
+A dose recomendada em adultos é de 100 mg administrada inicialmente, seguida de 50 mg de 12 em 
+12 horas. Esta dose é administrada intravenosamente (diretamente na corrente sanguínea) durante um 
+período de 30 a 60 minutos.
+A dose recomendada em crianças com idades compreendidas entre 8 e &lt;12 anos é de 1,2 mg/kg 
+administrada de 12 em 12 horas por via intravenosa até uma dose máxima de 50 mg de 12 em 
+12 horas.
+A dose recomendada em adolescentes com idades compreendidas entre 12 e &lt;18 anos é de 50 mg 
+administrada de 12 em 12 horas.
+O tratamento dura geralmente 5 a 14 dias. O seu médico decidirá qual a duração do seu tratamento.
+Se utilizar mais Tygacil do que deveria
+Se pensa que lhe pode ter sido administrado demasiado Tygacil, fale com o seu médico ou enfermeiro 
+imediatamente.
+Caso se tenha esquecido de administrar uma dose de Tygacil
+Se pensa que se pode ter esquecido de administrar uma dose, fale com o seu médico ou enfermeiro 
+imediatamente.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Pode ocorrer colite pseudomembranosa com a maioria dos antibióticos, incluindo Tygacil. Tal consiste 
+em diarreia grave, persistente ou diarreia com sangue, associada a dor abdominal ou febre, o que pode 
+ser sinal de inflamação grave dos intestinos, podendo ocorrer durante ou depois do tratamento.
+Os efeitos indesejáveis muito frequentes são (podem afetar mais do que 1 em 10 pessoas):
+
+Náuseas, vómitos e diarreia
+Os efeitos indesejáveis frequentes são (podem afetar até 1 em 10 pessoas):
+
+Abcesso (acumulação de pus), infeções
+
+Resultados laboratoriais com diminuição da capacidade para formar coágulos sanguíneos
+
+Tonturas
+
+Irritação no local da injeção incluindo dor, inflamação, inchaço e formação de coágulos
+
+Dor abdominal, dispepsia (dor de estômago e indigestão), anorexia (perda de apetite)
+
+Aumento das enzimas do fígado, hiperbilirrubinemia (excesso de pigmento biliar no sangue)
+
+Prurido (comichão), erupção na pele
+
+Cicatrização lenta ou deficiente
+
+Dor de cabeça
+
+Aumento da amílase, que é uma enzima presente nas glândulas salivares e no pâncreas, aumento 
+do azoto ureico no sangue
+
+Pneumonia
+
+Diminuição do açúcar no sangue
+28
+
+Sepsis (infeção grave no organismo e na corrente sanguínea) / choque sético (situação médica 
+grave que pode levar a falha múltipla de órgãos e morte como resultado da sepsis)
+
+Reação no local da injeção (dor, vermelhidão, inflamação)
+
+Níveis baixos de proteínas no sangue
+Os efeitos indesejáveis pouco frequentes são (podem afetar até 1 em 100 pessoas):
+
+Pancreatite aguda (inflamação do pâncreas que pode causar dor abdominal intensa, náuseas e 
+vómitos)
+
+Icterícia (coloração amarelada da pele), inflamação do fígado
+
+Redução do nível de plaquetas no sangue (o qual pode levar a um aumento da tendência para 
+sangramentos/hemorragias e formação de nódoas negras/hematomas)
+Os efeitos indesejáveis raros são (podem afetar até 1 em 1.000 pessoas):
+
+Níveis baixos de fibrinogénio no sangue (uma proteína envolvida na coagulação do sangue)
+Os efeitos indesejáveis desconhecidos são (a frequência não pode ser calculada a partir dos dados 
+disponíveis):
+
+Reações anafiláticas/anafilactoides [que podem variar numa escala de gravidade de ligeira a 
+grave, incluindo reação alérgica generalizada e súbita que pode levar a choque potencialmente 
+fatal (por ex., dificuldade em respirar, descida da pressão arterial, aumento da frequência dos 
+batimentos cardíacos)]
+
+Insuficiência hepática
+
+Erupção na pele, que pode originar formação de bolhas graves e descamação da pele (síndrome 
+de Stevens-Johnson)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tygacil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tygacil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Conservar a temperatura inferior a 25ºC. 
+Não utilize este medicamento após o prazo de validade impresso no frasco para injetáveis. O prazo de 
+validade corresponde ao último dia do mês indicado.
+Conservação após a preparação
+Após a reconstituição do pó em solução e posterior diluição, o medicamento está pronto a utilizar e 
+deve ser-lhe administrado imediatamente.
+A solução de Tygacil deve ser de coloração amarelo-alaranjada após a dissolução, caso contrário a 
+solução deve ser rejeitada.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.
+29</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tygacil
+A substância ativa é a tigeciclina. Cada frasco para injetáveis contém 50 mg de tigeciclina.
+Os outros componentes são lactose mono-hidratada, ácido clorídrico e hidróxido de sódio.
+Qual o aspeto de Tygacil e conteúdo da embalagem
+Tygacil é fornecido como pó para solução para perfusão num frasco para injetáveis e tem o aspeto de 
+um pó ou aglomerado alaranjado antes de diluído. Estes frascos para injetáveis são fornecidos ao 
+hospital em embalagens contendo um tabuleiro com dez frascos. O pó deve ser misturado no frasco 
+para injetáveis com uma pequena quantidade de solução. O frasco para injetáveis deve ser agitado 
+suavemente até que o medicamento se dissolva. Em seguida, a solução deve ser de imediato retirada 
+do frasco para injetáveis e adicionada a um saco de 100 ml para administração intravenosa ou outro 
+recipiente para perfusão adequado no hospital. 
+Titular da Autorização de Introdução no Mercado
+Fabricante
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Wyeth Lederle S.r.l.
+Via Franco Gorgone Z.I.
+95100 Catania (CT)
+Itália
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas 
+Lietuvoje
+Tel: + 370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон
+България
+Teл:: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel: +36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o. 
+Tel: +420-283-004-111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer BV
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0) 30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel.: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς Α.Ε.
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.,
+Tel.: +48 22 335 61 00
+30
+España
+Pfizer, S.L.
+Tel:+34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: (+351) 21 423 5500
+France
+Pfizer
+Tél +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s 
+področja
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
+Tel:+44 (0) 1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, 
+organizačná zložka 
+Tel: +421 2 3355 5500
+Ísland
+Icepharma hf.
+Simi: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l. 
+Tel: +39 06 33 18 21
+Sverige 
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch) Τηλ: 
++357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited,
+Tel: +44 (0) 1304 616161
+Latvijā
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: + 371 670 35 775
+Este folheto foi revisto pela última vez em 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -799,6 +1207,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-e58616440ae4dbe3d75414bff85541e0"
 * entry[0].resource = composition-da-e58616440ae4dbe3d75414bff85541e0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe58616440ae4dbe3d75414bff85541e0"
+* entry[=].resource = mpe58616440ae4dbe3d75414bff85541e0
+                            
+                    
+Instance: bundlepackageleaflet-pt-e58616440ae4dbe3d75414bff85541e0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tygacil Package Leaflet for language pt"
+Description: "ePI document Bundle for tygacil Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-e58616440ae4dbe3d75414bff85541e0"
+* entry[0].resource = composition-pt-e58616440ae4dbe3d75414bff85541e0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpe58616440ae4dbe3d75414bff85541e0"
@@ -900,6 +1330,18 @@ RuleSet: e58616440ae4dbe3d75414bff85541e0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-e58616440ae4dbe3d75414bff85541e0) // tygacil pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1355,6 +1355,880 @@ filter med lav proteinbinding (porestørrelse på 0,2-5 mikron). </p>
 
 
 
+Instance: composition-pt-cfcde91a66ec9c44e54756602bc42482
+InstanceOf: CompositionUvEpi
+Title: "Composition for libtayo Package Leaflet"
+Description:  "Composition for libtayo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpcfcde91a66ec9c44e54756602bc42482)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - libtayo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é LIBTAYO e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe administrarem LIBTAYO  </li>
+<li>Como utilizar LIBTAYO </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar LIBTAYO  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é libtayo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é libtayo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>LIBTAYO é um medicamento anticancerígeno que contém a substância ativa cemiplimab, que é um 
+anticorpo monoclonal. </p>
+<p>LIBTAYO é utilizado em adultos para tratar: </p>
+<ul>
+<li>
+<p>um tipo de cancro da pele denominado carcinoma espinocelular cutâneo (CEC) avançado. </p>
+</li>
+<li>
+<p>um tipo de cancro da pele denominado carcinoma basocelular (CBC) avançado, para o qual 
+recebeu tratamento com um inibidor da via hedgehog e este tratamento não funcionou bem ou 
+não foi bem tolerado. </p>
+</li>
+<li>
+<p>um tipo de cancro do pulmão denominado cancro do pulmão de não-pequenas células 
+(CPNPC). </p>
+</li>
+<li>
+<p>um tipo de cancro denominado cancro do colo do útero que se agravou durante ou após a 
+quimioterapia. </p>
+</li>
+</ul>
+<p>LIBTAYO pode ser administrado em combinação com quimioterapia para o CPNPC. É importante 
+que leia também os folhetos informativos da quimioterapia específica que possa estar a receber. Se 
+tiver alguma dúvida sobre estes medicamentos, pergunte ao seu médico. </p>
+<p>LIBTAYO funciona ajudando o sistema imunitário a combater o seu cancro. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar libtayo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar libtayo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize LIBTAYO </p>
+<ul>
+<li>se tem alergia ao cemiplimab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). 
+Se acha que pode ser alérgico, ou caso não tenha a certeza, fale com o seu médico antes de tomar 
+LIBTAYO. </li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou enfermeiro antes de utilizar LIBTAYO:  </p>
+<ul>
+<li>
+<p>se tiver uma doença autoimune (uma condição em que o organismo ataca as suas próprias 
+células) </p>
+</li>
+<li>
+<p>se tiver realizado um transplante de órgão, ou recebeu ou planeia receber um transplante de 
+medula óssea usando medula óssea de outra pessoa (transplante alogénico de células-tronco 
+hematopoiéticas) </p>
+</li>
+<li>
+<p>se tiver problemas pulmonares ou respiratórios </p>
+</li>
+<li>
+<p>se tiver problemas hepáticos </p>
+</li>
+<li>
+<p>se tiver problemas renais </p>
+</li>
+<li>
+<p>se tiver diabetes </p>
+</li>
+<li>
+<p>se tiver quaisquer outras doenças. </p>
+</li>
+</ul>
+<p>Se alguma das situações acima se aplica a si, ou caso não tenha a certeza, fale com o seu médico ou 
+enfermeiro antes de tomar LIBTAYO. </p>
+<p>Efeitos indesejáveis a ter em atenção 
+LIBTAYO pode causar alguns efeitos indesejáveis graves, que deve dizer imediatamente ao seu 
+médico. Estes problemas podem ocorrer a qualquer momento durante o tratamento ou mesmo após o 
+final do tratamento. Poderá ter mais do que um efeito indesejável ao mesmo tempo.  </p>
+<p>Estes efeitos indesejáveis graves incluem: </p>
+<ul>
+<li>
+<p>Problemas de pele  </p>
+</li>
+<li>
+<p>Problemas pulmonares (pneumonite)  </p>
+</li>
+<li>
+<p>Problemas intestinais (colite)  </p>
+</li>
+<li>
+<p>Problemas hepáticos (hepatite)  </p>
+</li>
+<li>
+<p>Problemas das glândulas hormonais - especialmente tiroide, pituitária, suprarrenais e do 
+pâncreas </p>
+</li>
+<li>
+<p>Diabetes tipo I, incluindo cetoacidose diabética (ácido no sangue produzido pela diabetes)  </p>
+</li>
+<li>
+<p>Problemas renais (nefrite e insuficiência renal) </p>
+</li>
+<li>
+<p>Problemas do sistema nervoso central (como meningite)  </p>
+</li>
+<li>
+<p>Reações relacionadas com a perfusão </p>
+</li>
+<li>
+<p>Problemas musculares (inflamação dos músculos chamada miosite). </p>
+</li>
+<li>
+<p>Inflamação do músculo do coração (miocardite) </p>
+</li>
+<li>
+<p>Uma doença na qual o sistema imunitário produz demasiadas células normais de combate a 
+infeções, chamadas histiócitos e linfócitos, que podem causar vários sintomas 
+(linfohistiocitose hemofagocítica) (ver "Efeitos indesejáveis possíveis" para consultar a lista 
+de sinais e sintomas) </p>
+</li>
+<li>
+<p>Problemas noutras partes do corpo (ver “Efeitos indesejáveis possíveis") </p>
+</li>
+</ul>
+<p>Deve ter atenção a estes efeitos indesejáveis enquanto estiver a receber LIBTAYO. Consulte a 
+secção “Efeitos indesejáveis possíveis" na secção 4. Se detetar algum destes efeitos indesejáveis, fale 
+imediatamente com o seu médico. </p>
+<p>O seu médico poderá dar-lhe outros medicamentos para parar reações mais graves e reduzir os seus 
+sintomas. O seu médico poderá também adiar a sua próxima dose de LIBTAYO ou interromper o 
+tratamento. </p>
+<p>Crianças e adolescentes 
+LIBTAYO não deve ser usado em crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e LIBTAYO 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. </p>
+<p>É importante que informe o seu médico se estiver a tomar ou tiver tomado algum dos seguintes 
+medicamentos: </p>
+<ul>
+<li>
+<p>um medicamento para o cancro chamado idelalisib </p>
+</li>
+<li>
+<p>medicamentos que possam enfraquecer o seu sistema imunitário, por exemplo 
+corticosteroides, tais como a prednisona. Estes medicamentos podem interferir com o efeito do 
+LIBTAYO. No entanto, quando estiver a tomar LIBTAYO, o seu médico poderá administrar-
+lhe corticosteroides para reduzir os efeitos indesejáveis que possa ter com o LIBTAYO.  </p>
+</li>
+</ul>
+<p>Gravidez<br />
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de tomar 
+este medicamento. </p>
+<ul>
+<li>
+<p>LIBTAYO pode causar lesões no feto. </p>
+</li>
+<li>
+<p>Informe imediatamente o seu médico se engravidar enquanto estiver a ser tratada com 
+LIBTAYO. </p>
+</li>
+<li>
+<p>Se tiver potencial para engravidar deve utilizar um método contracetivo eficaz para evitar 
+engravidar: </p>
+</li>
+<li>enquanto estiver a ser tratada com LIBTAYO e </li>
+<li>
+<p>durante pelos menos 4 meses após a última dose. </p>
+</li>
+<li>
+<p>Fale com o seu médico sobre os métodos contracetivos que tem de utilizar durante este 
+período. </p>
+</li>
+</ul>
+<p>Amamentação </p>
+<ul>
+<li>
+<p>Se está a amamentar, ou planeia amamentar, consulte o seu médico antes de utilizar este 
+medicamento.  </p>
+</li>
+<li>
+<p>Não amamente enquanto estiver a ser tratada com LIBTAYO e durante pelo menos 4 meses 
+após a última dose.  </p>
+</li>
+<li>
+<p>Desconhece-se se o LIBTAYO é excretado no leite humano.  </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de LIBTAYO sobre a capacidade de conduzir e utilizar máquinas são nulos ou reduzidos. 
+Caso se sinta cansado, não conduza nem utilize quaisquer máquinas até se sentir melhor.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar libtayo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar libtayo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>LIBTAYO ser-lhe-á administrado num hospital ou clínica - sob a supervisão de um médico 
+com experiência no tratamento do cancro. </p>
+</li>
+<li>
+<p>LIBTAYO é administrado em soro numa veia (perfusão intravenosa).  </p>
+</li>
+<li>
+<p>A perfusão irá durar cerca de 30 minutos. </p>
+</li>
+<li>
+<p>LIBTAYO é normalmente administrado a cada 3 semanas. </p>
+</li>
+</ul>
+<p>Quanto lhe será administrado 
+A dose recomendada de LIBTAYO é 350 mg. </p>
+<p>O seu médico irá decidir a quantidade de LIBTAYO que irá tomar e de quantos tratamentos irá 
+precisar. </p>
+<p>O seu médico irá analisar o seu sangue para determinados efeitos indesejáveis durante o tratamento. </p>
+<p>Se faltar a uma consulta 
+Entre em contacto com o seu médico assim que possível para agendar outra consulta. É muito 
+importante que não falhe nenhuma dose deste medicamento.  </p>
+<p>Se parar de utilizar LIBTAYO 
+Não interrompa o tratamento com LIBTAYO, a menos que tenha falado sobre isso com o seu médico. 
+Isto porque interromper o tratamento pode parar o efeito do medicamento. </p>
+<p>Cartão de Alerta para o Doente 
+A informação que consta neste Folheto Informativo pode ser encontrada no Cartão de Alerta para o 
+Doente que lhe foi fornecido pelo seu médico. É importante que mantenha este Cartão de Alerta para o 
+Doente e o mostre ao seu parceiro/parceira ou prestadores de cuidados. 
+Se tiver quaisquer perguntas sobre o seu tratamento, fale com o seu médico.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. O seu médico irá discutir estes efeitos indesejáveis consigo e irá 
+explicar-lhe os riscos e os benefícios do tratamento. </p>
+<p>LIBTAYO atua no sistema imunitário e pode causar inflamação no seu organismo (consultar as 
+condições listadas na secção 2 “Efeitos indesejáveis a ter em atenção"). A inflamação pode causar 
+lesões graves no seu organismo e pode necessitar de tratamento ou exigir que seja interrompido o 
+tratamento com LIBTAYO. Algumas condições inflamatórias podem também causar a morte. </p>
+<p>Procure cuidados médicos urgentes se sentir qualquer um dos seguintes sinais ou sintomas, ou se 
+estes se agravarem: </p>
+<ul>
+<li>
+<p>Problemas de pele, tais como, erupção da pele ou prurido, formação de bolhas na pele ou 
+úlceras na boca ou outras membranas mucosas.  </p>
+</li>
+<li>
+<p>Problemas pulmonares (pneumonite), tais como, tosse nova ou pior, ficar com falta de ar ou 
+com dor torácica.  </p>
+</li>
+<li>
+<p>Problemas intestinais (colite), tais como, diarreia frequente, muitas vezes com sangue ou 
+muco, mais movimentos intestinais do que o habitual, fezes negras ou cor de alcatrão e dor 
+grave ou sensibilidade ao toque no estômago (abdómen).  </p>
+</li>
+<li>
+<p>Problemas de fígado (hepatite), tais como, amarelecimento da pele ou da parte branca dos 
+olhos, náuseas ou vómitos graves, dor no lado direito do estômago (abdómen), sensação de 
+sonolência, urina escura (cor de chá), hemorragia ou sofrer hematomas mais facilmente do que 
+o normal e sentir menos fome do que o habitual.  </p>
+</li>
+<li>
+<p>Problemas das glândulas hormonais, tais como, dor de cabeça que não passa ou dores de 
+cabeça pouco habituais, batimento cardíaco rápido, aumento da quantidade de suor,  sentir 
+mais frio ou calor do que o habitual, cansaço extremo, tonturas ou desmaios, ganho de peso ou 
+perda de peso, sentir mais fome ou mais sede do que o normal, perda de cabelo, prisão de 
+ventre, a sua voz fica mais profunda, tensão arterial muito baixa, urinar com mais frequência 
+do que é habitual, náuseas ou vómitos, dor de estômago (abdómen), alterações no humor ou 
+comportamento (tais como, diminuição do apetite sexual, sensação de irritabilidade ou de 
+esquecimento).  </p>
+</li>
+<li>
+<p>Sintomas de diabetes tipo 1 ou cetoacidose diabética tais como sentir-se com mais fome ou 
+sede do que o normal, necessidade de urinar com mais frequência, perda de peso, sensação de 
+cansaço ou sensação de doença, dor de estômago, respiração rápida e profunda, confusão 
+mental, sonolência anormal, hálito com cheiro doce, um sabor doce ou metálico na boca ou 
+um odor diferente do suor ou urina.  </p>
+</li>
+<li>
+<p>Problemas renais (nefrite e insuficiência renal), tais como, urinar com menos frequência do 
+que o habitual, urinar sangue, tornozelos inchados e sentir menos fome do que o normal.  </p>
+</li>
+<li>
+<p>Reações associadas a perfusão (por vezes podem ser graves ou fatais), tais como, arrepios, 
+tremores ou febre, prurido ou erupção da pele, afrontamento ou rosto inchado, sentir falta de ar 
+ou pieira, sensação de tonturas ou sensação de desmaio ou dor nas costas ou pescoço, náuseas, 
+vómitos ou dor abdominal.  </p>
+</li>
+<li>
+<p>Problemas noutras partes do corpo, tais como: </p>
+</li>
+<li>Problemas do sistema nervoso tais como dor de cabeça ou pescoço rígido, febre, sensação 
+de cansaço ou fraqueza, arrepios, vómitos, confusão, problemas de memória ou sonolência, 
+convulsões, ver ou ouvir coisas que não existem (alucinações), fraqueza muscular grave, 
+formigueiro, dormência, fraqueza ou dor ardente nos braços ou pernas, paralisia nas 
+extremidades  </li>
+<li>Problemas musculares e articulares tais como dor ou inchaço nas articulações, dor<br />
+muscular, fraqueza ou rigidez </li>
+<li>Problemas da visão tais como alterações na visão, dor nos olhos ou vermelhidão nos 
+olhos, sensibilidade à luz </li>
+<li>Problemas cardíacos e circulatórios tais como alterações nos batimentos cardíacos, bater 
+rapidamente, falhar um batimento ou sensação de palpitação, dor no peito, falta de ar </li>
+<li>Outros: secura em muitas partes do corpo, da boca aos olhos, nariz, garganta e nas 
+camadas superiores da pele, contusões na pele ou hemorragia, aumento do fígado e/ou 
+baço, aumento dos gânglios linfáticos.  </li>
+</ul>
+<p>Foram notificados os seguintes efeitos indesejáveis em ensaios clínicos em doentes tratados com 
+apenas cemiplimab: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>Sensação de cansaço </p>
+</li>
+<li>
+<p>dor muscular ou dor óssea </p>
+</li>
+<li>
+<p>erupção da pele  </p>
+</li>
+<li>
+<p>diarreia (fezes soltas) </p>
+</li>
+<li>
+<p>diminuição do número de glóbulos vermelhos </p>
+</li>
+<li>
+<p>náuseas </p>
+</li>
+<li>
+<p>sensação de ter menos fome </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>prisão de ventre </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>dor de estômago (dor abdominal) </p>
+</li>
+<li>
+<p>infeção das vias respiratórias superiores </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>infeção do trato urinário </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>inchaço (edema) </p>
+</li>
+<li>
+<p>problemas da glândula da tiroide (hipertiroidismo e hipotiroidismo) </p>
+</li>
+<li>
+<p>pressão arterial alta </p>
+</li>
+<li>
+<p>aumento das enzimas do fígado no sangue </p>
+</li>
+<li>
+<p>manchas de pele espessa, escamosa ou com crosta (queratose actínica) </p>
+</li>
+<li>
+<p>tosse, inflamação dos pulmões </p>
+</li>
+<li>
+<p>reações relacionadas com a perfusão </p>
+</li>
+<li>
+<p>inflamação do fígado </p>
+</li>
+<li>
+<p>inflamação dos intestinos (diarreia, mais movimentos intestinais do que é habitual, fezes 
+negras ou escuras, sensibilidade ou dor intensa no estômago (abdómen)) </p>
+</li>
+<li>
+<p>inflamação da boca </p>
+</li>
+<li>
+<p>teste de função renal anormal </p>
+</li>
+<li>
+<p>inflamação dos nervos causando formigueiro, adormecimento, fraqueza ou ardor nos braços 
+ou pernas </p>
+</li>
+<li>
+<p>inflamação dos rins </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>dor nas articulações, inchaço, poliartrite e derrame articular </p>
+</li>
+<li>
+<p>nódoas negras na pele ou sangramento </p>
+</li>
+<li>
+<p>inflamação da tiroide </p>
+</li>
+<li>
+<p>inflamação do músculo cardíaco, que pode apresentar-se como falta de ar, batimento cardíaco 
+irregular, sensação de cansaço ou dor torácica </p>
+</li>
+<li>
+<p>diminuição da secreção das hormonas produzidas pelas glândulas suprarrenais </p>
+</li>
+<li>
+<p>fraqueza muscular </p>
+</li>
+<li>
+<p>inflamação da glândula pituitária situada na base do cérebro </p>
+</li>
+<li>
+<p>inflamação do revestimento do coração </p>
+</li>
+<li>
+<p>secura em muitas partes do corpo, da boca aos olhos, nariz, garganta e camadas superiores da 
+pele </p>
+</li>
+<li>
+<p>inflamação dos músculos, que pode incluir dor ou fraqueza muscular (miosite) e pode estar 
+associada a uma erupção na pele (dermatomiosite) </p>
+</li>
+<li>
+<p>inflamação do revestimento do estômago </p>
+</li>
+<li>
+<p>dor ou rigidez muscular (polimialgia reumática). </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1000 pessoas): </p>
+<ul>
+<li>
+<p>inflamação das membranas do cérebro e da espinal medula, que pode ser causada por infeção </p>
+</li>
+<li>
+<p>diabetes tipo 1 que pode incluir sentir mais fome ou sede do que o habitual, precisar de urinar 
+com mais frequência, perda de peso e cansaço ou cetoacidose diabética </p>
+</li>
+<li>
+<p>dor nos olhos, irritação, comichão ou vermelhidão; desconforto por sensibilidade à luz </p>
+</li>
+<li>
+<p>uma inflamação temporária dos nervos que causa dor, fraqueza e paralisia nas extremidades </p>
+</li>
+<li>
+<p>uma condição na qual os músculos se tornam mais fracos e se cansam facilmente, dor 
+muscular </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis que foram notificados (frequência desconhecida) </p>
+<ul>
+<li>
+<p>rejeição de órgãos transplantados </p>
+</li>
+<li>
+<p>Inflamação da bexiga. Os sinais e sintomas podem incluir precisar de urinar com mais 
+frequência e/ou com dor, necessidade urgente de urinar, sangue na urina, dor ou pressão na 
+parte inferior da barriga </p>
+</li>
+<li>
+<p>Linfohistiocitose hemofagocítica. Uma doença na qual o seu sistema imunitário produz 
+demasiadas células normais de combate a infeções, chamadas histiócitos e linfócitos. Os 
+sintomas podem incluir aumento do fígado e/ou baço, erupção da pele, aumento dos gânglios 
+linfáticos, problemas respiratórios, nódoas negras com facilidade, problemas renais e 
+cardíacos. </p>
+</li>
+</ul>
+<p>Foram notificados os seguintes efeitos indesejáveis em ensaios clínicos em doentes tratados com 
+cemiplimab em combinação com quimioterapia: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>diminuição do número de glóbulos vermelhos </p>
+</li>
+<li>
+<p>queda de cabelo </p>
+</li>
+<li>
+<p>dor muscular ou dor óssea </p>
+</li>
+<li>
+<p>náuseas </p>
+</li>
+<li>
+<p>sensação de cansaço </p>
+</li>
+<li>
+<p>inflamação dos nervos causando formigueiro, adormecimento, fraqueza ou ardor nos braços </p>
+</li>
+<li>
+<p>nível de açúcar elevado no sangue </p>
+</li>
+<li>
+<p>sensação de ter menos fome </p>
+</li>
+<li>
+<p>aumento das enzimas do fígado no sangue </p>
+</li>
+<li>
+<p>diminuição do número de glóbulos brancos (neutrófilos) </p>
+</li>
+<li>
+<p>prisão de ventre </p>
+</li>
+<li>
+<p>diminuição do número de plaquetas </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>erupção da pele  </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>perda de peso </p>
+</li>
+<li>
+<p>dificuldades em dormir </p>
+</li>
+<li>
+<p>diarreia (fezes soltas) </p>
+</li>
+<li>
+<p>baixos níveis no sangue de uma proteína chamada 'albumina'. </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>teste de função renal anormal </p>
+</li>
+<li>
+<p>problemas da glândula da tiroide (hipertiroidismo e hipotiroidismo) </p>
+</li>
+<li>
+<p>tosse, inflamação dos pulmões </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>inflamação dos rins </p>
+</li>
+<li>
+<p>inflamação dos intestinos (diarreia, mais movimentos intestinais do que é habitual, fezes 
+negras ou escuras, sensibilidade ou dor intensa no estômago (abdómen)) </p>
+</li>
+<li>
+<p>dor nas articulações, inchaço, poliartrite e derrame articular 
+Pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+</li>
+<li>
+<p>inflamação da tiroide </p>
+</li>
+<li>
+<p>reações relacionadas com a perfusão </p>
+</li>
+<li>
+<p>diabetes tipo 1 que pode incluir sentir mais fome ou sede do que o habitual, precisar de urinar 
+com mais frequência, perda de peso e sensação de cansaço 
+Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar libtayo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar libtayo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco 
+para injetáveis após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C - 8°C).  </p>
+<p>Não congelar. </p>
+<p>Conservar na embalagem de origem para proteger da luz. </p>
+<p>De um ponto de vista microbiológico, a solução para perfusão preparada deve ser imediatamente 
+utilizada. Caso a solução diluída não seja imediatamente administrada, os tempos de conservação em 
+utilização e as condições anteriores à utilização são da responsabilidade do utilizador. </p>
+<p>A estabilidade física e química em utilização foi demonstrada da seguinte forma: </p>
+<ul>
+<li>
+<p>à temperatura ambiente até 25°C por um período não superior a 8 horas desde o momento de 
+preparação da solução para perfusão até ao final da perfusão. 
+Ou </p>
+</li>
+<li>
+<p>sob refrigeração de 2°C a 8°C por um período não superior a 10 dias a partir do momento da 
+preparação da solução para perfusão até ao final da perfusão. Permita que a solução diluída 
+fique à temperatura ambiente antes da administração. </p>
+</li>
+</ul>
+<p>Não conserve qualquer parte não utilizada da solução para perfusão para reutilização. Nenhuma parte 
+não utilizada da solução para perfusão deverá ser reutilizada, e deve ser eliminada em conformidade 
+com os requisitos locais. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de LIBTAYO<br />
+A substância ativa é cemiplimab:  </p>
+<ul>
+<li>
+<p>Um ml de concentrado contém 50 mg de cemiplimab. </p>
+</li>
+<li>
+<p>Cada frasco para injetáveis contém 350 mg de cemiplimab em 7 ml de concentrado. </p>
+</li>
+</ul>
+<p>Os outros componentes são L-Histidina, monocloridrato de L-Histidina monohidratada, L-prolina, 
+sacarose, polissorbato 80 e água para preparações injetáveis. </p>
+<p>Qual o aspeto de LIBTAYO e conteúdo da embalagem 
+LIBTAYO concentrado para solução para perfusão (concentrado estéril) é fornecido como uma 
+solução estéril translúcida a ligeiramente opalescente, incolor a amarela-pálida que pode conter 
+vestígios de partículas translúcidas a brancas. </p>
+<p>Cada embalagem contém 1 frasco para injetáveis de vidro com 7 ml de concentrado. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Regeneron Ireland Designated Activity Company (DAC) 
+One Warrington Place,<br />
+Dublin 2, D02 HHIrlanda </p>
+<p>Fabricante 
+Regeneron Ireland DAC 
+Raheen Business Park 
+Limerick 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Regeneron Ireland DAC 
+Tél/Tel: 0800 89 
+Lietuva 
+Medison Pharma Lithuania UAB 
+Tel: 8 800 33 
+България 
+Medison Pharma Bulgaria Ltd. 
+Тел.: 8002100 
+Luxembourg/Luxemburg 
+Regeneron Ireland DAC 
+Tél/Tel: 8007-9 
+Česká republika 
+Medison Pharma s.r.o. 
+Magyarország 
+Medison Pharma Hungary Kft 
+Tel: 800 050<br />
+Tel.: 06-809-93029  </p>
+<p>Danmark 
+Regeneron Ireland DAC 
+Tlf: 80 20 03<br />
+Malta 
+Genesis Pharma (Cyprus) Ltd 
+Tel: 080065169  </p>
+<p>Deutschland 
+Regeneron GmbH 
+Tel.: 0800 330 4267  </p>
+<p>Nederland 
+Regeneron Ireland DAC 
+Tel: 0800 020 0943<br />
+Eesti 
+Medison Pharma Estonia OÜ 
+Tel: 800 004 4845  </p>
+<p>Norge 
+Regeneron Ireland DAC 
+Tlf: 8003 15 33  </p>
+<p>Ελλάδα 
+ΓΕΝΕΣΙΣ ΦΑΡΜΑ Α.Ε. 
+Τηλ: 00800 44146336  </p>
+<p>Österreich 
+Regeneron Ireland DAC 
+Tel: 01206094 
+España 
+sanofi-aventis, S.A.<br />
+Tel: 0900031 
+Polska 
+Medison Pharma Sp. z o.o. 
+Tel.: 0800 080<br />
+France 
+Regeneron France SAS 
+Tél: 080 554 3 
+Portugal 
+Regeneron Ireland DAC 
+Tel: 800783 
+Hrvatska<br />
+Medison Pharma d.o.o. 
+Tel: 800 787 074  </p>
+<p>România 
+Medison Pharma SRL 
+Tel: 0800 400Ireland 
+Regeneron Ireland DAC 
+Tel: 01800800 
+Slovenija 
+Medison Pharma d.o.o. 
+Tel: 386 800 83 
+Ísland 
+Regeneron Ireland DAC<br />
+Sími: 354 800 4 
+Slovenská republika 
+Medison Pharma s.r.o. 
+Tel: 0800 123 Italia 
+Regeneron Italy S.r.l. 
+Tel: 800180 
+Suomi/Finland 
+Regeneron Ireland DAC<br />
+Puh/Tel: 0800 772 
+Κύπρος 
+Genesis Pharma (Cyprus) Ltd 
+Τηλ: 0800 925<br />
+Sverige 
+Regeneron Ireland DAC 
+Tel: 0201 604786  </p>
+<p>Latvija 
+Medison Pharma Latvia SIA 
+Tel: 371 8000 5United Kingdom (Northern Ireland) 
+Regeneron Ireland DAC<br />
+Tel: 0 800 917 7120  </p>
+<p>Este folheto foi revisto pela última vez: </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da Internet da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu </p>
+<hr />
+<p>A informação que se segue destina-se apenas aos profissionais de saúde: </p>
+<p>Instruções de utilização </p>
+<p>Preparação </p>
+<ul>
+<li>
+<p>Inspecionar visualmente o medicamento para partículas de matéria e descoloração antes da 
+administração. LIBTAYO é uma solução translúcida a ligeiramente opalescente, incolor a 
+amarela-pálida que pode conter vestígios de partículas translúcidas a brancas. </p>
+</li>
+<li>
+<p>Elimine o frasco para injetáveis se a solução estiver turva, apresentar descoloração ou contiver 
+partículas estranhas que não vestígios de partículas translúcidas a brancas. </p>
+</li>
+<li>
+<p>Não agite o frasco. </p>
+</li>
+<li>
+<p>Retire 7 ml (350 mg) do frasco para injetáveis de LIBTAYO e transfira para um saco para 
+perfusão intravenosa contendo cloreto de sódio 9 mg/ml (0,9%) em solução injetável ou 
+glucose 50 mg/ml (5%) em solução injetável. Misture a solução diluída por inversão ligeira. 
+Não agite a solução. A concentração final da solução diluída deve ser entre 1 mg/ml a 
+20 mg/ml. </p>
+</li>
+<li>
+<p>LIBTAYO é apenas para uma única utilização. Elimine qualquer medicamento não utilizado 
+ou resíduos de acordo com as exigências locais. </p>
+</li>
+</ul>
+<p>Conservação da solução diluída 
+LIBTAYO não contém um conservante. </p>
+<p>De um ponto de vista microbiológico, a solução para perfusão preparada deve ser imediatamente 
+utilizada. Caso a solução diluída não seja imediatamente administrada, os tempos de conservação em 
+utilização e as condições anteriores à utilização são da responsabilidade do utilizador. </p>
+<p>A estabilidade química e física em utilização foi demonstrada da seguinte forma: </p>
+<ul>
+<li>
+<p>à temperatura ambiente até 25°C, nunca mais de 8 horas após o momento da preparação da 
+solução para perfusão até ao final da perfusão.<br />
+Ou </p>
+</li>
+<li>
+<p>no frio entre 2°C e 8°C durante um período nunca superior a 10 dias desde o momento da 
+preparação da solução para perfusão até ao final da perfusão. Permita que a solução diluída 
+atinja a temperatura ambiente antes da administração. </p>
+</li>
+</ul>
+<p>Não congelar. </p>
+<p>Administração </p>
+<ul>
+<li>
+<p>LIBTAYO destina-se a utilização intravenosa. É administrado por perfusão intravenosa ao 
+longo de 30 minutos através de uma linha intravenosa que contenha um filtro estéril, não 
+pirogénico, de baixa ligação proteica, em linha ou complementar (porosidade de 0,2 mícron a 
+5 mícron). </p>
+</li>
+<li>
+<p>Não coadministrar outros medicamentos através do mesmo cateter de perfusão. </p>
+</li>
+</ul>         </div>"""      
+
+
+
 
 
                     
@@ -1396,6 +2270,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-cfcde91a66ec9c44e54756602bc42482"
 * entry[0].resource = composition-da-cfcde91a66ec9c44e54756602bc42482
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcfcde91a66ec9c44e54756602bc42482"
+* entry[=].resource = mpcfcde91a66ec9c44e54756602bc42482
+                            
+                    
+Instance: bundlepackageleaflet-pt-cfcde91a66ec9c44e54756602bc42482
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for libtayo Package Leaflet for language pt"
+Description: "ePI document Bundle for libtayo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-cfcde91a66ec9c44e54756602bc42482"
+* entry[0].resource = composition-pt-cfcde91a66ec9c44e54756602bc42482
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpcfcde91a66ec9c44e54756602bc42482"
@@ -1497,6 +2393,18 @@ RuleSet: cfcde91a66ec9c44e54756602bc42482ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-cfcde91a66ec9c44e54756602bc42482) // libtayo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

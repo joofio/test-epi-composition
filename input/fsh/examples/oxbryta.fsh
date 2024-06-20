@@ -711,6 +711,385 @@ CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne �
 
 
 
+Instance: composition-pt-7bc78483a72818d156f4ad97517abe5a
+InstanceOf: CompositionUvEpi
+Title: "Composition for oxbryta Package Leaflet"
+Description:  "Composition for oxbryta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7bc78483a72818d156f4ad97517abe5a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - oxbryta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Oxbryta e para que é utilizado
+2. O que precisa de saber antes de tomar Oxbryta
+3. Como tomar Oxbryta
+4. Efeitos indesejáveis possíveis
+5. Como conservar Oxbryta
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é oxbryta e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é oxbryta e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Oxbryta e como atua
+Oxbryta contém a substância ativa voxelotor. O voxelotor atua numa proteína existente nos glóbulos 
+vermelhos, chamada hemoglobina, que a ajudar a captar oxigénio que os glóbulos vermelhos podem 
+levar a todas as partes do organismo.
+Os doentes com doença das células falciformes têm uma forma alterada da hemoglobina, chamada 
+hemoglobina S, que é diferente da hemoglobina normal. Quando a hemoglobina S entrega oxigénio 
+aos tecidos, aglomera-se e forma longas fibras, causando a alteração da forma dos glóbulos vermelhos 
+para a de uma lua em quarto crescente, o que os torna rígidos e em forma de foice (falciformes). Os 
+glóbulos vermelhos falciformes não conseguem distribuir o oxigénio tão bem como os glóbulos 
+vermelhos normais e também são destruídos mais rapidamente, o que resulta em níveis mais baixos de 
+glóbulos vermelhos (anemia hemolítica). Ao melhorar a forma como a hemoglobina alterada fixa o 
+oxigénio, Oxbryta melhora a função dos glóbulos vermelhos e prolonga a sua vida.
+Para que é utilizado Oxbryta
+Oxbryta, isolado ou associado à hidroxicarbamida (também conhecida como hidroxiureia), é utilizado 
+para tratar a anemia hemolítica em adultos e crianças a partir dos 12 anos de idade com doença de 
+células falciformes.
+27</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar oxbryta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar oxbryta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Oxbryta
+
+se tem alergia ao voxelotor ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+Advertências e precauções
+Fale com o seu médico antes de tomar Oxbryta se tem:
+
+problemas de rins graves;
+
+problemas de fígado graves. O seu médico poderá de ter de ajustar a dose de Oxbryta.
+Se tiver quaisquer sintomas de reações alérgicas, pare de tomar Oxbryta e fale com o seu médico ou 
+procure assistência médica de emergência imediatamente. Os sintomas são, por exemplo, erupção na 
+pele, incluindo urticária, falta de ar ou inchaço da face.
+Foram comunicados casos de reações graves na pele, tais como reações a fármaco com eosinofilia e 
+sintomas sistémicos (DRESS), associado ao tratamento com Oxbryta. Pare de tomar Oxbryta e procure 
+assistência médica imediatamente se notar algum dos sintomas relacionados com esta reação grave na 
+pele, os quais estão descritos na secção 4. Se está a receber transfusões de sangue, fale com o seu médico sobre as possíveis dificuldades na 
+interpretação de determinadas análises ao sangue quando estiver a tomar este medicamento.
+Crianças com menos de 12 anos de idade
+Este medicamento não é recomendado para crianças com menos de 12 anos devido à falta de dados 
+sobre este grupo etário.
+Outros medicamentos e Oxbryta
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos.
+Alguns medicamentos podem afetar a forma como Oxbryta atua ou tornar mais provável a ocorrência 
+de efeitos indesejáveis. Em particular, informe o seu médico se estiver a tomar algum dos seguintes 
+medicamentos:
+
+rifampicina (utilizada para tratar infeções bacterianas).
+
+fenobarbital, carbamazepina, fenitoína (utilizados para tratar a epilepsia e outras doenças).
+
+sirolímus, tacrolímus (utilizados para prevenir a rejeição de órgãos após transplantes).
+
+Hipericão (um medicamento à base de plantas para tratar a depressão).
+
+alfentanilo (um analgésico utilizado durante cirurgias com anestesia).
+Informe o seu médico de que está a tomar Oxbryta se vai ser submetido a um procedimento médico ou 
+uma cirurgia.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento.
+
+Gravidez
+O seu médico vai ajudá-la a decidir se deve parar de tomar Oxbryta durante a gravidez.
+28
+
+Amamentação
+Não amamente enquanto estiver a tomar Oxbryta pois desconhece-se se o voxelotor passa para o 
+leite materno e se pode afetar o bebé.
+Condução de veículos e utilização de máquinas
+Os efeitos de Oxbryta sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis.
+Oxbryta contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose de três comprimidos, ou 
+seja, é praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar oxbryta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar oxbryta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas.
+A dose recomendada para os adultos e crianças a partir dos 12 anos de idade é:
+Três comprimidos de 500 mg tomados por via oral, uma vez por dia.
+Engula os comprimidos inteiros com um copo de água, com ou sem alimentos. Não corte, esmague ou 
+mastigue os comprimidos por causa do sabor desagradável.
+Se tomar mais Oxbryta do que deveria
+Contacte o seu médico imediatamente.
+Caso se tenha esquecido de tomar Oxbryta
+Continue com o esquema normal de toma da dose no dia seguinte. Não tome uma dose a dobrar para 
+compensar uma dose que se esqueceu de tomar.
+Se parar de tomar Oxbryta
+Não pare de tomar este medicamento sem indicação do seu médico. É importante que tome Oxbryta 
+diariamente.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Pare de tomar Oxbryta e informe o seu médico ou procure assistência médica de emergência 
+imediatamente se sentir algum dos seguintes efeitos indesejáveis graves:
+Pouco frequentes (podem afetar até 1 em 100 pessoas)
+
+reações alérgicas
+Os sintomas são, por exemplo, erupção na pele, incluindo urticária, falta de ar ou inchaço da 
+face.
+Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis)
+29
+
+erupção na pele generalizada, temperatura corporal elevada e aumento do volume dos nódulos 
+linfáticos (síndrome DRESS ou síndrome da hipersensibilidade induzida por fármacos)
+
+inchaço das pálpebras, face e lábios (angioedema)
+Podem ocorrer outros efeitos indesejáveis com a seguinte frequência:
+Muito frequentes (podem afetar mais de 1 em 10 pessoas)
+
+dor de cabeça
+
+diarreia
+
+dor abdominal (de barriga)
+
+náuseas
+
+erupção na pele
+Frequentes (podem afetar até 1 em 10 pessoas)
+
+comichão (prurido)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar oxbryta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar oxbryta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer precauções especiais de conservação.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Oxbryta
+
+A substância ativa é o voxelotor. Um comprimido contém 500 mg de voxelotor.
+
+Os outros componentes são:
+-
+celulose microcristalina (E460)
+-
+croscarmelose sódica (E468)
+-
+laurilsulfato de sódio (E487)
+-
+sílica coloidal anidra (E551)
+-
+estearato de magnésio (E470b)
+-
+álcool polivinílico (E1203)
+-
+dióxido de titânio (E171)
+-
+polietilenoglicol (E1521)
+-
+talco (E553b)
+-
+óxido de ferro amarelo (E172)
+30
+Qual o aspeto de Oxbryta e conteúdo da embalagem
+Comprimidos revestidos por película de cor amarela clara a amarela, biconvexos, em forma oval com 
+“GBT 500" gravado numa das faces. Dimensões do comprimido: aproximadamente 18 mm × 10 mm.
+Oxbryta é embalado num frasco de plástico com uma cápsula de fecho resistente à abertura por 
+crianças. Cada frasco contém 90 comprimidos revestidos por película. O frasco também contém uma 
+espiral e um recipiente com exsicante de sílica gel para ajudar a manter o medicamento seco. O frasco 
+é fornecido dentro de uma caixa de cartão.
+Titular da Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante
+Global Blood Therapeutics Netherlands B.V.
+Strawinskylaan 3051
+1077ZX Amsterdam
+Países Baixos
+Ou
+Pfizer Service Company BV
+Hoge Wei 10
+1930 Zaventem
+Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado.
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: +36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+31
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+PfizerΕλλάςA.E.
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.,
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel: + 386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka 
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8550520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: +371 670 35 775
+Este folheto foi revisto pela última vez em MM/AAAA.
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -752,6 +1131,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-7bc78483a72818d156f4ad97517abe5a"
 * entry[0].resource = composition-da-7bc78483a72818d156f4ad97517abe5a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7bc78483a72818d156f4ad97517abe5a"
+* entry[=].resource = mp7bc78483a72818d156f4ad97517abe5a
+                            
+                    
+Instance: bundlepackageleaflet-pt-7bc78483a72818d156f4ad97517abe5a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oxbryta Package Leaflet for language pt"
+Description: "ePI document Bundle for oxbryta Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-7bc78483a72818d156f4ad97517abe5a"
+* entry[0].resource = composition-pt-7bc78483a72818d156f4ad97517abe5a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp7bc78483a72818d156f4ad97517abe5a"
@@ -853,6 +1254,18 @@ RuleSet: 7bc78483a72818d156f4ad97517abe5aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-7bc78483a72818d156f4ad97517abe5a) // oxbryta pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

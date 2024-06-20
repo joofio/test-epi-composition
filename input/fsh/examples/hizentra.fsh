@@ -1161,6 +1161,660 @@ bivirkninger, som ikke er nævnt her. Se pkt 4. Se den nyeste indlægsseddel på
 
 
 
+Instance: composition-pt-5d6f677fa9eaa34be2202ffe566f8e54
+InstanceOf: CompositionUvEpi
+Title: "Composition for hizentra Package Leaflet"
+Description:  "Composition for hizentra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5d6f677fa9eaa34be2202ffe566f8e54)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - hizentra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Hizentra e para que é utilizado
+2. O que precisa de saber antes de utilizar Hizentra
+3. Como utilizar Hizentra
+4. Efeitos indesejáveis possíveis
+5. Como conservar Hizentra
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é hizentra e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é hizentra e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Hizentra
+Hizentra pertence à classe de medicamentos chamados imunoglobulinas normais humanas. As 
+imunoglobulinas são também conhecidas como “anticorpos" e são proteínas do sangue que ajudam o 
+seu corpo a combater infeções.
+Como funciona Hizentra
+Hizentra contém imunoglobulinas preparadas a partir do sangue de pessoas saudáveis. As 
+imunoglobulinas são produzidas pelo sistema imunitário do corpo humano. Ajudam o seu corpo a 
+combater infeções causadas por bactérias e vírus ou mantêm o equilíbrio no seu sistema imunitário 
+(referida como imunomodulação). O medicamento funciona exatamente da mesma forma que as 
+imunoglobulinas naturalmente presentes no seu corpo.
+Para que é utilizado Hizentra
+Terapêutica de substituição
+Hizentra é utilizado para aumentar os níveis de imunoglobulina anormalmente baixos que tem no seu 
+sangue para níveis normais (terapia de substituição). O medicamento é utilizado em adultos e crianças 
+(0-18 anos) nas seguintes situações:
+1. Tratamento de doentes que nascem com uma capacidade diminuída ou incapacidade de produzir 
+imunoglobulinas (imunodeficiências primárias). Tal inclui doenças como:
+
+níveis baixos de imunoglobulinas (hipogamaglobulinemia) ou ausência de 
+imunoglobulinas (agamaglobulinemia) no sangue
+
+combinação de níveis baixos de imunoglobulinas, infeções frequentes e incapacidade de 
+produzir uma quantidade suficiente de anticorpos após a vacinação (imunodeficiência 
+variável comum)
+
+combinação de níveis baixos ou ausência de imunoglobulinas e ausência de células 
+imunitárias ou células imunitárias não funcionais (imunodeficiência combinada grave)
+
+falta de determinadas subclasses de imunoglobulina G, o que causa infeções repetidas.
+32
+Tratamento de doentes com níveis baixos ou disfuncionais de imunoglobulinas em condições 
+adquiridas (imunodeficiência secundária) que apresentam infecções graves ou recorrentes devido a um 
+sistema imunológico enfraquecido resultante de outras condições ou tratamentos.
+Terapêutica de imunomodulação em doentes com PDIC
+Hizentra é também utilizado em doentes com polineuropatia desmielinizante inflamatória crónica 
+(PDIC), uma forma de doença autoimune. A PDIC caracteriza-se por uma inflamação crónica dos 
+nervos periféricos que provoca fraqueza muscular e/ou dormência principalmente nas pernas e nos 
+braços. Pensa-se que o mecanismo de defesa do corpo realça esta inflamação e as imunoglobulinas 
+presentes no Hizentra ajudam a proteger os nervos de serem atacados (terapêutica de 
+imunomodulação).</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar hizentra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar hizentra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NÃO efetue a perfusão de Hizentra:
+►
+se tem alergia às imunoglobulinas humanas, ao polissorbato 80 ou à L-prolina.
+
+Informe o seu médico ou profissional de saúde antes do tratamento se tiver apresentado 
+intolerância a um destes componentes no passado.
+►
+se sofrer de hiperprolinemia (uma doença genética que causa elevados níveis de aminoácido 
+prolina no sangue).
+►
+num vaso sanguíneo.
+Advertências e precauções
+ Fale com o seu médico ou farmacêutico antes de utilizar Hizentra.
+Pode ser alérgico (hipersensível) às imunoglobulinas (anticorpos) sem o saber. As verdadeiras reações 
+de hipersensibilidade são, no entanto, raras. Podem acontecer mesmo que anteriormente lhe tenham 
+sido administradas imunoglobulinas humanas e as tenha tolerado bem. Tal pode suceder, em 
+particular, se o seu sangue não tiver imunoglobulinas suficientes do tipo A (IgA) (deficiência em IgA).
+
+Informe o seu médico ou profissional de saúde antes do tratamento no caso de ter deficiência de 
+imunoglobulina de tipo A (IgA). Hizentra contém quantidades residuais de IgA, o que pode 
+causar uma reação alérgica.
+Nestes casos raros surgem reações alérgicas tais como a diminuição brusca da tensão arterial ou 
+choque (ver também secção 4 “Efeitos indesejáveis possíveis").
+
+Se notar alguma destas reações durante a perfusão de Hizentra, interrompa a perfusão e contacte 
+o seu médico ou dirija-se imediatamente ao hospital mais próximo. 
+
+Informe o seu médico se tem antecedentes de doença do coração ou dos vasos sanguíneos ou 
+coágulos sanguíneos, se tem sangue espesso ou se esteve imóvel durante algum tempo. Estes fatores 
+podem aumentar o risco de ter um coágulo sanguíneo após a utilização de Hizentra. Informe também o 
+seu médico sobre os medicamentos que está a tomar, uma vez que certos medicamentos, como os que 
+contêm a hormona estrogénio (por exemplo, pílulas anticoncetivas), podem aumentar o risco de 
+desenvolver um coágulo sanguíneo. Contacte imediatamente o seu médico se sentir sinais e sintomas 
+como falta de ar, dor no peito, dor e inchaço de um membro, fraqueza ou adormecimento de um lado 
+do corpo após a administração de Hizentra.
+
+Contacte o seu médico se sentir os seguintes sinais e sintomas: dores de cabeça intensas, rigidez 
+do pescoço, sonolência, febre, fotofobia, náuseas e vómitos após a administração de Hizentra. O seu 
+médico decidirá se são necessários testes adicionais e se Hizentra deve continuar.
+O seu profissional de saúde irá evitar possíveis complicações assegurando que:
+►
+não é sensível à imunoglobulina normal humana.
+O medicamento deve ser administrado inicialmente devagar. A taxa de perfusão indicada na 
+secção 3. “Como utilizar Hizentra" tem de ser cumprida.
+►
+é cuidadosamente vigiado quanto a sintomas ao longo do período de perfusão, sobretudo se:
+
+estiver a receber imunoglobulina normal humana pela primeira vez
+
+tiver mudado de medicamento
+
+houver um intervalo longo (mais de oito semanas) desde a última perfusão.
+33
+Nestes casos, deve ser vigiado durante a primeira perfusão e na hora imediatamente a seguir. Se 
+as situações acima indicadas não se aplicarem ao seu caso, recomenda-se que seja observado 
+durante pelo menos 20 minutos após a administração.
+Outros medicamentos e Hizentra
+
+Informe o seu médico ou profissional de saúde se estiver a utilizar, tiver utilizado recentemente, 
+ou se vier a utilizar outros medicamentos.
+
+Não pode misturar outros medicamentos com Hizentra.
+
+Antes de ser vacinado, informe o médico responsável pela vacinação sobre o seu tratamento 
+com Hizentra.
+Hizentra pode reduzir o efeito de algumas vacinas vivas, como as vacinas contra o sarampo, a 
+rubéola, a papeira e a varicela. Por este motivo, depois de receber este medicamento pode ter 
+de esperar até 3 meses para receber a sua vacina viva atenuada. No caso da vacina contra o 
+sarampo, esta redução pode persistir até 1 ano.
+Gravidez, amamentação e fertilidade
+
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico ou profissional de saúde. O seu médico decidirá se Hizentra lhe pode ser administrado 
+durante a gravidez ou enquanto estiver a amamentar.
+Não se realizaram estudos clínicos com Hizentra em mulheres grávidas. No entanto, os medicamentos 
+que contêm imunoglobulinas já são utilizados há anos em mulheres grávidas ou a amamentar e não se 
+observaram efeitos nocivos no decurso da gravidez ou no bebé.
+Se estiver a amamentar e a receber Hizentra, as imunoglobulinas do medicamento também podem 
+encontrar-se no leite materno. Por isso, o seu bebé poderá ficar protegido contra determinadas 
+infeções.
+Condução de veículos e utilização de máquinas
+Os doentes podem sentir efeitos, tais como tonturas ou náuseas, durante o tratamento com Hizentra que 
+podem afetar a capacidade de conduzir e utilizar máquinas. Se tal acontecer, não deve conduzir ou 
+utilizar máquinas até que estes efeitos tenham desaparecido.
+Hizentra contém prolina.
+Não o pode receber se sofre de hiperprolinemia (ver também a secção 2 “O que precisa de saber antes 
+de utilizar Hizentra"). Informe o seu médico antes do tratamento.
+Outras informações importantes sobre Hizentra
+Análises ao sangue
+Após Hizentra lhe ter sido administrado, os resultados de determinadas análises ao sangue (testes 
+serológicos) podem ficar comprometidos durante algum tempo.
+
+Informe o seu médico sobre o seu tratamento com Hizentra antes de qualquer análise ao sangue.
+Informação sobre a origem de Hizentra
+Hizentra é produzido a partir de plasma de sangue humano (esta é a parte líquida do sangue). Quando 
+os medicamentos são produzidos a partir de plasma ou sangue humano, são tomadas determinadas 
+medidas para evitar que se transmitam infeções para os doentes. Estas incluem:
+
+escolha cuidadosa dos dadores de sangue e plasma, para garantir que sejam excluídos os que 
+apresentem riscos de serem portadores de infeções, e
+
+a análise de cada dádiva e de reservas de plasma quanto a sinais de vírus/infeções.
+Os fabricantes destes medicamentos incluem igualmente etapas no processamento do sangue ou do 
+plasma que podem inativar ou remover os vírus. Apesar destas medidas, quando são administrados 
+medicamentos preparados a partir de sangue ou plasma humano, a possibilidade de transmissão de 
+agentes infecciosos não pode ser excluída por completo. O mesmo também se aplica a vírus 
+desconhecidos ou emergentes ou outros tipos de infeções.
+34
+As medidas tomadas são consideradas eficazes para os vírus revestidos, tais como o vírus da 
+imunodeficiência humana (VIH, o vírus da SIDA), o vírus da hepatite B e o vírus da hepatite C 
+(inflamação do fígado), e para o vírus não revestido da hepatite A e o parvovírus B19.
+
+Recomenda-se vivamente que, sempre que lhe seja administrada uma dose de Hizentra, seja 
+registado o nome e o número de lote do medicamento por forma a manter um registo dos lotes 
+utilizados (ver secção 3 “Como utilizar Hizentra").
+Hizentra contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por frasco para injetáveis/seringa, 
+ou seja, é praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar hizentra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar hizentra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento sempre exatamente como indicado pelo seu médico. Fale com o seu médico 
+se tiver dúvidas.
+Posologia
+O seu médico calculará a dose correta que deve tomar tendo em conta o seu peso corporal e resposta 
+ao tratamento.
+Não altere a dose nem o intervalo de administração sem antes consultar o seu médico.
+Por favor fale com o seu médico se pensa que devia receber Hizentra com maior ou menor frequência.
+Se pensa que omitiu uma dose, fale com o seu médico o mais rapidamente possível.
+Terapêutica de substituição
+O seu médico irá determinar se necessita de uma dose inicial (para adultos e crianças) de, pelo menos, 
+1 a 2,5 ml/kg de peso corporal, dividida por vários dias. Seguidamente, poderão ser administradas 
+doses de manutenção em intervalos repetidos, de diariamente a uma vez a cada duas semanas, para 
+atingir a dose mensal cumulativa de cerca de 2 a 4 ml/kg de peso corporal. O seu profissional de saúde 
+pode ajustar a dose com base na sua resposta ao tratamento.
+Terapêutica de imunomodulação
+O seu médico iniciará a terapêutica com Hizentra 1 semana após a sua última perfusão de 
+imunoglobulina intravenosa, através de uma administração debaixo da pele (via subcutânea) numa 
+dose semanal de 1,0 a 2,0 ml/kg de peso corporal. O seu médico determinará a sua dose semanal de 
+Hizentra. As doses de manutenção semanais podem ser divididas em doses mais pequenas e 
+administradas tão frequentemente quanto necessário durante a semana. Para uma administração cada 
+duas semanas, o seu médico duplicará a dose semanal de Hizentra. O seu profissional de saúde pode 
+ajustar a dose com base na sua resposta ao tratamento.
+Modo e via de administração
+Em caso de tratamento em casa, este será iniciado por um profissional de saúde com experiência no 
+tratamento de imunodeficiências/PDIC com SCIg e na orientação de doentes para tratamento em casa.
+Receberá instruções e formação sobre:
+
+técnicas de perfusão asséticas
+
+como manter o diário de registo do tratamento, e
+
+medidas a tomar em caso de efeitos indesejáveis graves.
+Local (locais) de perfusão
+
+Administre Hizentra apenas sob a pele.
+
+Pode efetuar a perfusão de Hizentra em locais como o abdómen, coxa, braço e anca. Se 
+necessitar de doses mais elevadas (&gt; 50 ml), tente administrá-las em vários locais.
+
+É possível utilizar um número ilimitado de locais de injeção ao mesmo tempo. Os locais de 
+injeção devem distanciar-se pelo menos 5 cm uns dos outros.
+35
+
+No caso de utilizar uma técnica assistida com uma bomba de perfusão (perfusão assistida com 
+uma bomba), pode ser usado mais de um dispositivo de perfusão em simultâneo.
+
+No caso de utilizar uma técnica de perfusão manual com uma seringa, só poderá utilizar um 
+local de perfusão por seringa. Se necessitar de administrar uma seringa adicional de Hizentra, 
+terá de utilizar uma nova agulha de injeção estéril e mudar o local de perfusão. 
+
+O volume de produto que é perfundido num determinado local pode variar.
+Taxa(s) de perfusão
+O seu médico determinará qual a técnica de perfusão apropriada e a taxa de perfusão que deverá 
+utilizar tendo em consideração a sua dose individual, a frequência de administração e a tolerabilidade 
+do produto.
+Perfusão assistida com dispositivo:
+A taxa de perfusão inicial recomendada é de até 20 ml/hora/local. Se bem tolerada, pode aumentar 
+gradualmente a taxa de perfusão até 35 ml/hora/local nas duas perfusões subsequentes. Em seguida, a 
+taxa de perfusão pode ser aumentada em função da sua tolerabilidade.
+Perfusão manual:
+A taxa de perfusão inicial recomendada não deve exceder 0,5 ml/min/local (30 ml/hora/local).
+Se for bem tolerada, a taxa de perfusão pode ser aumentada até 2,0 ml/min/local (120 ml/hora/local) 
+para perfusões subsequentes. Depois, a taxa de perfusão pode ser ainda aumentada tendo em 
+consideração a sua tolerabilidade.
+Instruções de utilização
+Siga os passos abaixo indicados e utilize uma técnica assética para administrar Hizentra.
+1
+Limpe a superfície
+Limpe cuidadosamente a mesa ou outra superfície plana usando um toalhete antissético.
+2
+Reúna os items
+Coloque o Hizentra, outros items e o equipamento necessário para a perfusão numa superfície 
+limpa e plana.
+3
+Lave e seque cuidadosamente as mãos
+4
+Verifique os frascos para injetáveis
+Inspecione visualmente o Hizentra para deteção de partículas na solução ou aparecimento de
+coloração, assim como o prazo de validade antes de administrar Hizentra. Não utilize soluções que
+estejam turvas ou contenham partículas. Não utilize soluções que tenham estado congeladas. 
+Administre a solução que deverá estar à temperatura ambiente ou à temperatura do corpo. Após a 
+abertura do frasco para injetáveis, utilize imediatamente a solução.
+5
+Preparação do Hizentra para perfusão
+Limpe a tampa do frasco para injetáveis - Retire a tampa de 
+proteção do frasco para injetáveis de forma a expor a parte central 
+da tampa de borracha. Limpe a tampa com um toalhete de álcool 
+ou com uma preparação antissética e deixe secar. 
+Transferência do Hizentra para a seringa para perfusão - Insira 
+um dispositivo de transferência ou uma agulha numa seringa 
+estéril usando uma técnica assética. Se utilizar um dispositivo de 
+transferência (ponto de punção ventilado), siga as instruções 
+fornecidas pelo fabricante do dispositivo. Se utilizar uma agulha 
+puxe o êmbolo para trás para introduzir na seringa uma 
+quantidade de ar que seja comparável à quantidade de Hizentra a 
+ser transferida. Em seguida, insira a agulha no centro da tampa do 
+frasco para injetáveis e, para evitar a formação de espuma, injete 
+ar na parte de cima do frasco para injetáveis (não no líquido). 
+Finalmente, retire o volume de Hizentra pretendido. Quando 
+utilizar vários frascos para injetáveis para obter a dose desejada, 
+repita este passo. 
+36
+6
+Preparação do tubo
+Insira o tubo de administração ou o kit da agulha na seringa. Retire todo o ar que reste no tubo.
+7
+Prepare o(s) local(ais) de perfusão
+Selecione o(s) local(ais) de perfusão - O número e a localização 
+dos locais de perfusão dependem do volume da dose total. Os 
+locais de perfusão devem distanciar-se pelo menos 5 cm uns dos 
+outros.
+Poderá utilizar simultaneamente um número ilimitado de locais.
+Limpe o(s) local(ais) de perfusão usando uma preparação 
+antissética para a pele. Deixe secar cada local antes de prosseguir.
+8
+Insira a agulha
+Segure na pele entre 2 dedos e insira a agulha no tecido 
+subcutâneo.
+Prenda a agulha à pele - Se necessário utilize gaze e adesivo ou 
+uma compressa transparente para prender a agulha no local.
+9
+Perfusão de Hizentra
+Inicie a perfusão.
+Se utilizar uma bomba de perfusão, siga as instruções do fabricante.
+10
+Registe a perfusão
+Registe os seguintes dados no seu diário de tratamento:</p>
+<ul>
+<li>
+<p>a data de administração,</p>
+</li>
+<li>
+<p>o número do lote do medicamento, e </p>
+</li>
+<li>
+<p>o volume perfundido, a velocidade de administração, o número e a localização dos locais de 
+perfusão.
+11
+Limpeza
+Após a administração elimine qualquer produto que não tenha sido utilizado e todo o material 
+usado, em conformidade com os requisitos locais.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou profissional 
+de saúde.
+Se utilizar mais Hizentra do que deveria
+Se acha que administrou demasiado Hizentra, fale com o seu médico assim que possível.
+Caso se tenha esquecido de utilizar Hizentra
+Se acha que falhou uma dose, fale com o seu médico assim que possível.</p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+►
+Em casos isolados, pode ser alérgico (hipersensível) às imunoglobulinas e podem ocorrer 
+reações alérgicas tais como uma diminuição brusca da tensão arterial ou choque (por exemplo, 
+37
+pode sentir atordoamento, tonturas, desmaiar quando estiver de pé, frio nas mãos e pés, sentir 
+um batimento cardíaco anormal ou dores no peito, ou ainda visão turva).
+►
+Em casos isolados, pode sentir dor e/ou inchaço de um braço ou de uma perna com produção de 
+calor na zona afetada, descoloração de um braço ou de uma perna, falta de ar inexplicável, dor 
+ou desconforto no peito que se agrava quando inspira profundamente, pulsação rápida 
+inexplicável, dormência ou fraqueza num dos lados do corpo, confusão súbita, problemas na 
+fala ou na compreensão, que podem ser sinais de um coágulo no sangue.
+►
+Em casos isolados, pode sentir uma forte dor de cabeça com náuseas, vómitos, rigidez no 
+pescoço, febre e sensibilidade à luz, que podem ser sinais de SMA (síndrome de meningite 
+assética), que é uma inflamação não infeciosa temporária reversível das membranas que 
+envolvem o cérebro e a medula espinal. 
+
+
+ Se notar estes sinais durante a perfusão de Hizentra, interrompa a perfusão e dirija-se 
+imediatamente para o hospital mais próximo.
+Ver também a secção 2 deste folheto acerca do risco de reações alérgicas, coágulos no sangue e SMA.
+Os efeitos indesejáveis observados em estudos clínicos controlados são apresentados por ordem 
+decrescente de frequência. Os efeitos indesejáveis observados após comercialização têm uma 
+frequência desconhecida:
+Os seguintes efeitos indesejáveis são muito frequentes (afetam mais de 1 doente em 10):
+
+Dores de cabeça
+
+Erupções na pele
+
+Reações no local de perfusão
+Os seguintes efeitos indesejáveis são frequentes (afetam 1 a 10 doentes em 100):
+
+Tonturas
+
+Enxaqueca
+
+Tensão arterial elevada (hipertensão)
+
+Diarreia
+
+Dor no abdómen
+
+Sentir-se enjoado (náuseas)
+
+Vómitos
+
+Comichão (prurido)
+
+Erupções na pele (urticária)
+
+Dor relacionada com os músculos e os ossos (dor musculoesquelética)
+
+Dor nas articulações (artralgia)
+
+Febre
+
+Cansaço (fadiga), incluindo sensação de mal-estar geral (indisposição)
+
+Dor no peito
+
+Sintomas semelhantes aos da gripe
+
+Dor
+Os seguintes efeitos indesejáveis são pouco frequentes (afetam 1 a 10 doentes em 1.000):
+
+Hipersensibilidade
+
+Tremuras involuntárias numa ou mais partes do corpo (tremor, incluindo hiperatividade 
+psicomotora)
+
+Ritmo cardíaco acelerado (taquicardia)
+
+Rubor
+
+Espasmo nos músculos
+
+Fraqueza nos músculos
+
+Arrepios, incluindo temperatura corporal baixa
+38
+
+Resultados anómalos nas análises ao sangue que podem indicar mau funcionamento do fígado e 
+dos rins
+Em casos isolados, podem ocorrer úlceras ou sensação de queimadura no local de perfusão.
+ Poderá reduzir possíveis efeitos indesejáveis se efetuar a perfusão de Hizentra lentamente.
+Podem ocorrer efeitos indesejáveis como estes mesmo que lhe tenham administrado antes 
+imunoglobulinas humanas e as tenha tolerado bem.
+Consultar também a secção 2, “O que precisa de saber antes de utilizar Hizentra", para obter 
+informações adicionais sobre as circunstâncias que aumentam o risco de efeitos indesejáveis.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou profissional de saúde. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar hizentra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar hizentra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Manter este medicamento fora da vista e do alcance das crianças.
+
+Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco para 
+injetáveis e na embalagem após EXP.
+
+Visto que a solução não contém conservantes, tem de a utilizar/perfundir o mais rapidamente 
+possível após a abertura do frasco.
+
+Não conservar acima de 25ºC.
+
+Não congelar.
+
+Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz.
+
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+profissional de saúde como deitar fora os medicamentos que já não utiliza. Estas medidas 
+ajudarão a proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Hizentra
+
+A substância ativa é a imunoglobulina normal humana. Um ml contém 200 mg de 
+imunoglobulina normal humana, da qual pelo menos 98% é imunoglobulina de tipo G (IgG).
+A percentagem aproximada das subclasses de IgG é a seguinte:
+IgG1 .......................69%
+IgG2 .......................26%
+IgG3 .......................3%
+IgG4 .......................2%
+Este medicamento contém vestígios de IgA (não mais de 50 microgramas/ml).
+
+Os outros componentes (excipientes) são L-prolina, polissorbato 80 e água para preparações 
+injetáveis.
+Qual o aspeto de Hizentra e conteúdo da embalagem
+Hizentra é uma solução para injeção subcutânea (200 mg/ml). A cor pode variar entre o amarelo-
+pálido e o castanho claro.
+Hizentra encontra-se disponível em frascos para injetáveis de 5, 10, 20 ou 50 ml.
+Hizentra encontra-se também disponível em seringas pré-cheias de 5, 10 e 20 ml.
+39
+Apresentações:
+Embalagens com 1, 10 ou 20 frascos para injetáveis.
+Hizentra encontra-se também disponível em embalagens com 1, 10 ou 20 seringas pré-cheias.
+Por favor note que os toalhetes de álcool, as agulhas e outro material ou equipamento não são 
+fornecidos dentro da embalagem.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado e Fabricante
+CSL Behring GmbH
+Emil-von-Behring-Strasse 76
+D-35041 Marburg
+Alemanha
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+Luxembourg/Luxemburg
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+България
+МагнаФарм България ЕАД
+Тел: +359 2 810 3949
+Magyarország
+CSL Behring Kft.
+Tel: +36 1 213 4290
+Česká republika
+CSL Behring s.r.o.
+Tel: + 420 702 137 233
+Malta
+AM Mangion Ltd.
+Tel: +356 2397 6333
+Danmark
+CSL Behring AB
+Tlf: +46 8 544 966 70
+Nederland
+CSL Behring BV
+Tel: + 31 85 111 96 00
+Deutschland
+CSL Behring GmbH
+Tel: +49 69 30584437
+Norge
+CSL Behring AB
+Tlf: +46 8 544 966 70
+Eesti
+CentralPharma Communications OÜ
+Tel: +3726015540
+Österreich
+CSL Behring GmbH
+Tel: +43 1 80101 2463
+Ελλάδα
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+Polska
+CSL Behring Sp. z o.o.
+Tel: +48 22 213 22 65
+España
+CSL Behring S.A.
+Tel: +34 933 67 1870
+Portugal
+CSL Behring Lda
+Tel: +351 21 782 62 30
+France
+CSL Behring SA
+Tél: + 33 1 53 58 54 00
+România
+Prisum Healthcare S.R.L.
+Tel: +40 21 322 01 71
+Hrvatska
+Marti Farm d.o.o
+Tel: +385 1 5588297
+Slovenija
+EMMES BIOPHARMA GLOBAL s.r.o. -
+podružnica v Sloveniji
+40
+Ireland
+CSL Behring GmbH
+Tel: +49 69 305 17254
+Tel: +386 41 42 0002
+Slovenská republika
+CSL Behring Slovakia s.r.o.
+Tel: +421 911 653 862
+Ísland
+CSL Behring AB
+Sími: +46 8 544 966 70
+Suomi/Finland
+CSL Behring AB
+Puh/Tel: +46 8 544 966 70
+Italia
+CSL Behring S.p.A.
+Tel: +39 02 34964 200
+Sverige
+CSL Behring AB
+Tel: +46 8 544 966 70
+Κύπρος
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+United Kingdom (Northern Ireland)
+CSL Behring GmbH
+Tel: +49 69 305 17254
+Latvija
+CentralPharma Communications SIA
+Tel: +371 6 7450497
+Lietuva
+CentralPharma Communications UAB
+Tel: +370 5 243 0444
+Este folheto foi revisto pela última vez em 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1202,6 +1856,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5d6f677fa9eaa34be2202ffe566f8e54"
 * entry[0].resource = composition-da-5d6f677fa9eaa34be2202ffe566f8e54
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5d6f677fa9eaa34be2202ffe566f8e54"
+* entry[=].resource = mp5d6f677fa9eaa34be2202ffe566f8e54
+                            
+                    
+Instance: bundlepackageleaflet-pt-5d6f677fa9eaa34be2202ffe566f8e54
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hizentra Package Leaflet for language pt"
+Description: "ePI document Bundle for hizentra Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5d6f677fa9eaa34be2202ffe566f8e54"
+* entry[0].resource = composition-pt-5d6f677fa9eaa34be2202ffe566f8e54
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5d6f677fa9eaa34be2202ffe566f8e54"
@@ -1303,6 +1979,18 @@ RuleSet: 5d6f677fa9eaa34be2202ffe566f8e54ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5d6f677fa9eaa34be2202ffe566f8e54) // hizentra pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

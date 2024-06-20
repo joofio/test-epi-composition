@@ -874,6 +874,477 @@ eller du får bivirkninger, som ikke er nævnt her. Se punkt 4. </p>         </d
 
 
 
+Instance: composition-pt-fa8a8470c3a3a250549a317d0f9b36a2
+InstanceOf: CompositionUvEpi
+Title: "Composition for arava Package Leaflet"
+Description:  "Composition for arava Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfa8a8470c3a3a250549a317d0f9b36a2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - arava"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Arava e para que é utilizado 
+2. O que precisa de saber antes de tomar Arava 
+3. Como tomar Arava 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Arava 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é arava e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é arava e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Arava pertence a um grupo de medicamentos designados de anti-reumáticos. Contém a substância 
+activa leflunomida. </p>
+<p>O Arava é usado no tratamento de doentes com artrite reumatóide activa ou com artrite psoriática 
+activa. </p>
+<p>Os sintomas da artrite reumatóide incluem inflamação das articulações, tumefacção, dificuldade de 
+movimentação e dores. Outros sintomas que afectam todo o corpo incluem perda de apetite, febre, 
+perda de energia e anemia (falta de glóbulos vermelhos). </p>
+<p>Os sintomas da artrite psoriática activa incluem inflamação das articulações, tumefacção, dificuldade 
+de movimentação, dores e manchas vermelhas, pele escamosa (lesões na pele). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar arava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar arava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Arava<br />
+- se teve alguma vez uma reacção alérgica à leflunomida(sobretudo uma reacção cutânea grave 
+muitas vezes acompanhada de febre, dores articulares, manchas vermelhas na pele ou vesículas 
+por exemplo o sindroma de Steven-Johnson) ou a qualquer outro componente deste medicamento 
+(indicados na secção 6), ou se é alérgico à teriflunomida (usada para tratar a esclerose múltipla), 
+- se tem problemas hepáticos, 
+- se tem problemas renais de moderados a graves, 
+- se tem um nivel baixo de proteínas no seu sangue (hipoproteinemia), 
+- se sofre de uma doença que afecte o seu sistema imunitário (p.ex.: SIDA), 
+- se tem algum problema na sua medula óssea ou se o número de glóbulos vermelhos ou brancos do 
+seu sangue ou o número de plaquetas sanguíneas estiver diminuído, 
+- se sofre de uma infecção grave, 
+- se estiver grávida, se pensa que está grávida ou se está a amamentar. </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Arava  </p>
+<ul>
+<li>se alguma vez teve inflamação do pulmão (doença pulmonar intersticial). </li>
+<li>se alguma vez teve tuberculose ou se esteve em contacto próximo com alguém que tem ou teve 
+tuberculose. O seu médico poderá realizar testes para ver se tem tuberculose. </li>
+<li>se é do sexo masculino e pretende ser pai de uma criança. Como não se pode excluir se o Arava 
+passa para o sémen, meio de contracepção efectivo deverá ser utilizado durante o tratamento com 
+Arava. Para minimizar qualquer risco possível, homens que pretendam ser pais de uma criança 
+deverão contactar o seu médico que o poderá aconselhar a parar o tratamento com Arava e a tomar 
+certos medicamentos para remover o Arava rapidamente e em quantidade suficiente do seu organismo. 
+Necessitará depois de um exame ao sangue para ter a certeza que o Arava foi suficientemente 
+removido do seu organismo, e deverá então esperar durante pelo menos 3 meses adicionais, antes de 
+tentar ser pai de uma criança. </li>
+<li>se está prestes a fazer uma análise específica ao sangue (nível de cálcio). Podem ser detetados 
+níveis de cálcio falsamente baixos. </li>
+</ul>
+<p>O Arava pode ocasionalmente provocar alguns problemas no seu sangue, fígado e pulmões. Pode 
+também causar reacções alérgicas graves (incluindo Reação Medicamentosa com Eosinofilia e 
+Sintomas Sistémicos (síndrome de [DRESS), ou aumentar as hipóteses de infecções graves. Para mais 
+informações sobre estes, consulte por favor a secção 4 (Efeitos indesejáveis possíveis). </p>
+<p>O síndrome de DRESS aparece inicialmente com sintomas semelhantes aos da gripe e uma erupção na 
+face, seguindo-se uma propagação da erupção com temperaturas elevadas, aumento dos níveis das 
+enzimas do fígado nas análises sanguíneas e um aumento de um tipo de glóbulos brancos no sangue 
+(eosinofilia) e aumento dos gânglios linfáticos. </p>
+<p>Informe o seu médico imediatamente se tiver problemas com os nervos dos braços e pernas 
+(neuropatia periférica). </p>
+<p>O seu médico irá, em intervalos regulares, prescrever-lhe análises clínicas antes e durante o 
+tratamento com Arava, de forma a monitorizar as suas células sanguíneas e o fígado. O seu médico irá 
+também verificar a sua pressão arterial regularmente, dado que o Arava pode provocar um aumento na 
+pressão arterial. </p>
+<p>Informe o seu médico se sofre de diarreia crónica de causa desconhecida. O seu médico pode realizar 
+exames adicionais para obter um diagnóstico diferencial. </p>
+<p>Informe o seu médico se desenvolver uma úlcera cutânea durante o tratamento com Arava (ver 
+também a secção 4). </p>
+<p>Crianças e adolescentes 
+O Arava não está recomendado em crianças e adolescentes com idade inferior a 18 anos.  </p>
+<p>Outros medicamentos e Arava 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto inclui medicamentos obtidos sem receita médica. </p>
+<p>Isto é especialmente importante se estiver a tomar: 
+- outros medicamentos para a artrite reumatóide tais como anti-maláricos (por exemplo, 
+cloroquina e hidrocloroquina), ouro oral ou intramuscular, D-penicilamina, azatioprina e outros 
+medicamentos imunosupressores (por exemplo, metotrexato) uma vez que estas combinações 
+não são aconselhadas, 
+- Varfarina (usado para diluir o sangue), a monitorização é necessária para reduzir o risco de 
+efeitos indesejáveis deste medicamento<br />
+-<br />
+Teriflunomida para a esclerose múltipla<br />
+- Repaglinida, pioglitazona, nateglinida, ou rosiglitazona para a diabetes<br />
+- Daunorrubicina, doxorrubicina, paclitaxel ou topotecano para o cancro<br />
+- Duloxetina para a depressão, incontinência urinária ou doença renal em diabéticos<br />
+- Alosetron para o controlo da diarreia grave  </p>
+<ul>
+<li>Teofilina para a asma  </li>
+<li>Tizanidina, um relaxante muscular  </li>
+<li>Contraceptivos orais (contendo etinilestradiol e levonorgestrel)  </li>
+<li>Cefaclor, benzilpenicilina (penicilina G), ciprofloxacina para infecções  </li>
+<li>Indometacina, cetoprofeno para a dor ou inflamação  </li>
+<li>Furosemida para a doença cardíaca (diurético)  </li>
+<li>Zidovudina para a infecção por HIV  </li>
+<li>Rosuvastatina, simvastatina, atorvastatina, pravastatina, para a hipercolesterolémia (colesterol 
+elevado)  </li>
+<li>Sulfassalazina para a doença inflamatória do intestino ou artrite reumatóide </li>
+<li>um medicamento chamado de colesteramina (utilizado para reduzir o colestrol elevado) ou 
+carvão activado, uma vez que estes medicamentos podem reduzir a quantidade de Arava que é 
+absorvido pelo organismo. </li>
+</ul>
+<p>Se já estiver a tomar medicamentos anti-inflamatórios não esteróides (AINE’s) e/ou 
+corticosteróides, pode continuar a tomá-los após iniciar a toma de Arava. </p>
+<p>Vacinações 
+Caso tenha de ser vacinado, peça aconselhamento ao seu médico. Algumas vacinas não deverão ser 
+administradas enquanto estiver a tomar Arava, e durante algum tempo após parar o tratamento. </p>
+<p>Arava com alimentos, bebidas e álcool<br />
+O Arava pode ser tomado com ou sem alimentos. 
+Não é recomendável beber álcool durante o tratamento com Arava. Beber álcool enquanto toma Arava 
+pode aumentar as hipóteses de ocorrência de lesões no fígado. </p>
+<p>Gravidez e amamentação  </p>
+<p>Não tome Arava se está ou se pensa que pode estar grávida. Se está grávida ou se ficar grávida 
+enquanto toma Arava, o risco de ter um bebé com malformações congénitas graves está aumentado. 
+Mulheres em idade fértil não deverão tomar Arava sem usar medidas contraceptivas de confiança. </p>
+<p>Informe o seu médico se está a planear uma gravidez após parar o tratamento com Arava, uma vez que 
+será necessário assegurar que todos os resíduos de Arava já não se encontram no seu organismo antes 
+de tentar engravidar. Isto poderá levar até 2 anos. Este período pode ser encurtado para algumas 
+semanas se tomar certos medicamentos que aceleram a remoção do Arava do seu organismo.<br />
+Em qualquer dos casos, deve ser confirmado por um teste sanguíneo que a eliminação do Arava do seu 
+corpo foi suficiente e deve esperar pelo menos mais um mês antes de ficar grávida. </p>
+<p>Para mais informação sobre o teste laboratorial, por favor contacte com o seu médico. </p>
+<p>Se suspeita de uma gravidez enquanto toma Arava ou nos dois anos após ter parado o tratamento 
+(p.ex., quando o seu período menstrual se atrasar), deve contactar imediatamente o seu médico, de 
+modo a efectuar um teste de gravidez. Se o teste confirmar que está grávida, o seu médico poderá 
+sugerir tratamento com certos medicamentos para remover rapidamente e em quantidade suficiente o 
+Arava do seu organismo, uma vez que isso poderá reduzir o risco para o seu bebé.  </p>
+<p>Não tome Arava se estiver a amamentar, uma vez que a leflunomida passa para o leite materno. </p>
+<p>Condução de veículos e utilização de máquinas<br />
+O Arava pode fazê-lo sentir tonto o que pode perturbar a sua capacidade de concentração e reacção. Se 
+se sente afectado, não conduza, ou utilize máquinas.  </p>
+<p>Arava contém lactose. 
+O Arava contém lactose.Se o seu médico lhe disse que tem intolerância a alguns acúcares, consulte o 
+seu médico antes de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar arava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar arava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose de início habitual de Arava é de 100 mg de leflunomida uma vez por dia durante os primeiros 
+três dias. Em seguida, a maioria dos doentes necessita de: 
+ 
+Para a artrite reumatóide: 10 ou 20 mg de Arava uma vez ao dia, dependendo da 
+gravidade da doença. 
+ 
+Para a artrite psoriática activa: 20 mg de Arava uma vez ao dia. </p>
+<p>Engula os comprimidos inteiros, com água suficiente. </p>
+<p>Pode levar cerca de 4 semanas ou mais até começar a sentir uma melhoria do seu estado. Alguns 
+doentes podem ainda continuar a sentir uma acentuação das melhorias após 4 a 6 meses de tratamento. 
+Normalmente, o Arava é tomado durante longos períodos de tempo. </p>
+<p>Se tomar mais Arava do que deveria: 
+Se tomar mais Arava do que deveria, contacte o seu médico ou procure conselho médico. Se possível, 
+leve consigo os seus comprimidos ou a caixa de embalagem para mostrar ao médico. </p>
+<p>Caso se tenha esquecido de tomar Arava: 
+Se se esquecer de tomar uma dose, tome-a assim que se lembrar, excepto se for já próximo da dose 
+seguinte. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Informe o seu médico imediatamente e pare de tomar Arava: 
+- se se sente fraco, com a cabeça leve ou tonto ou se tem dificuldade em respirar, uma vez que 
+podem ser sinais de reacção alérgica grave, 
+- se desenvolveu uma erupção cutânea ou feridas na boca, uma vez que estas podem indicar 
+reacções graves, e que podem por vezes ser fatais (p.ex., síndrome de Stevens-Johnson, 
+necrólise epidérmica tóxica, eritema multiforme, Reação Medicamentosa com Eosinofilia e 
+Sintomas Sistémicos [síndrome de DRESS]), ver secção 2.<br />
+Informe o seu médico imediatamente caso tenha sentido os seguintes efeitos indesejáveis: 
+- palidez, cansaço, ou nódoas negras, uma vez que podem indicar problemas no sangue 
+provacados por um desequilíbrio nos diferentes tipos de células envolvidas no fabrico do 
+sangue; 
+- cansaço, dor abdominal ou icterícia (coloração amarela dos olhos ou da pele), uma vez que 
+estes podem indicar problemas graves tais como falência hepática, que pode ser fatal, 
+- qualquer sintoma de infecção tais como febre, anginas ou tosse, uma vez que este 
+medicamento pode aumentar as hipóteses de uma infecção grave que pode ser potencialmente 
+fatal, 
+- tosse ou problemas respiratórios, dado que estes podem indicar problemas dos pulmões 
+(doença pulmonar intersticial ou hipertensão pulmonar).   <br />
+- formigueiros anormais, fraqueza ou dor nas mãos ou pés, uma vez que estes podem indicar 
+problemas nos nervos (neuropatia periférica). </p>
+<p>Efeitos indesejáveis frequentes (podem afectar 1 em cada 100 pessoas) 
+- uma diminuição ligeira do número de glóbulos brancos (leucopenia), 
+- reacções alérgicas ligeiras, 
+- perda de apetite, perda de peso (normalmente insignificante), 
+- cansaço (astenia), 
+- cefaleias, tonturas, 
+- sensações anormais na pele como formigueiro (parestesia), 
+- ligeiro aumento da pressão arterial, 
+- colite, 
+- diarreia,<br />
+- náuseas, vómitos, 
+- inflamação da boca ou ulceração da boca, 
+- dores abdominais, 
+- aumento dos valores de alguns testes hepáticos, 
+- aumento da perda de cabelo,<br />
+- eczema, pele seca, erupção cutânea, comichão, 
+- tendinite (dor provocada pela inflamação da membrana que envolve os tendões, normalmente nos 
+pés e nas mãos),<br />
+- um aumento de algumas enzimas no sangue (creatinina fosfoquinase). 
+- problemas nos nervos das mãos ou pernas (neuropatia periférica). </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afectar 1 em cada 1000 pessoas) 
+- uma diminuição do número de glóbulos vermelhos (anemia) e uma diminuição do número de 
+plaquetas (trombocitopenia), 
+- uma diminuição dos níveis de potássio no sangue, 
+- ansiedade, 
+- alterações do paladar, 
+- urticária, 
+- ruptura de tendões, 
+- um aumento nos níveis de gordura no sangue (colesterol e triglicéridos),<br />
+- uma diminuição dos níveis de fosfato no sangue. </p>
+<h2>Efeitos indesejáveis raros (podem afectar 1 em cada 10.000 pessoas)</h2>
+<p>um aumento do número de células sanguíneas chamados eosinofílios (eosinofilia); diminuição 
+ligeira do número de glóbulos brancos (leucopenia); diminuição do número de todas células 
+sanguíneas (pancitopenia), 
+- aumento acentuado da pressão arterial, 
+- inflamação pulmonar (doença pulmonar intersticial),<br />
+- um aumento dos valores de alguns testes do fígado, que pode evoluir para situações graves como 
+hepatite e icterícia, 
+- infecções graves designadas de sepsis que podem ser fatais,<br />
+- aumento de certas enzimas no sangue (lactato desidrogenase). </p>
+<p>Efeitos indesejáveis muito raros (podem afectar menos de 1 em cada 10.000 pessoas) 
+- uma diminuição marcada de alguns glóbulos brancos (agranulocitose), 
+- reacções alérgicas graves ou potencialmente graves,<br />
+- inflamação dos vasos sanguíneos (vasculite, incluindo vasculite cutânea necrosante), 
+- problemas nos nervos dos braços e pernas (neuropatia periférica), <br />
+- inflamação do pâncreas (pancreatite), 
+- lesões hepáticas graves, tais como falência hepática ou necrólise que podem por vezes ser fatais, 
+- reacções graves que podem por vezes ser fatais (síndrome de Stevens-Johnson, necrólise 
+epidérmica tóxica, eritema multiforme). </p>
+<p>Outros efeitos indesejáveis tais como falência renal, diminuição dos níveis de ácido úrico no seu 
+sangue, hipertensão pulmonar, infertilidade masculina (que é reversível assim que o tratamento com 
+este medicamento é parado), lúpus cutâneo (caracterizado por erupção cutânea/eritema nas áreas da 
+pele que estão expostas à luz), psoríase (aparecimento ou agravamento), síndrome de DRESS e úlcera 
+cutânea (ferida aberta na pele de forma circular, através da qual os tecidos subjacentes podem ser 
+vistos), podem também ocorrer com uma frequência desconhecida.   </p>
+<p>Se algum dos efeitos indesejáveis se agravar ou se detectar quaisquer efeitos indesejáveis não 
+mencionados neste folheto, por favor informe o seu médico ou farmacêutico.  </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, ou farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar arava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar arava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após VAL.<br />
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Blister: 
+Manter na embalagem exterior. </p>
+<p>Frasco: 
+Manter o frasco bem fechado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Arava 
+- A substância ativa é a leflunomida. Um comprimido revestido por película contem 10 mg de 
+leflunomida. 
+- Os outros componentes são: amido de milho, povidona (E1201), crospovidona (E1202), sílica 
+coloidal anidra, estearato de magnésio (E470b), e lactose mono-hidratada no núcleo do 
+comprimido assim como talco (E553b), hipromelose (E464), dióxido de titânio (E171), e 
+macrogol 8000 no revestimento. </p>
+<p>Qual o aspecto de Arava e conteúdo da embalagem 
+Os comprimidos revestidos por película de Arava 10 mg são redondos, brancos ou quase brancos. 
+Imprimido num dos lados: ZBN. </p>
+<p>Os comprimidos são acondicionados em blisters ou frascos. 
+Os comprimidos estão disponíveis em embalagens de 30 e 100 unidades. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular de Autorização de Introdução no Mercado 
+Sanofi-Aventis Deutschland GmbH 
+D-65926 Frankfurt am Main 
+Alemanha </p>
+<p>Fabricante 
+Opella Healthcare International SAS 
+56, Route de Choisy 
+60200 Compiègne 
+França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54<br />
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel.: +36 1 505 0 
+Danmark 
+Sanofi-aventis Denmark A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 
+Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4 
+Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE 
+Τηλ: +30 210 900 16<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 - 0 </p>
+<p>España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie 
+Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda 
+Tel: +351 21 35 89<br />
+Hrvatska<br />
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51  </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33 <br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800 536 
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação 
+Informação pormenorizada sobre este medicamento está disponível na Intranet no site da Agência 
+Europeia de Medicamentos web site: http://www.ema.europa.eu/ </p>
+<p>Folheto Informativo: Informação para o utilizador  </p>
+<p>Arava 20 mg comprimidos revestidos por película 
+leflunomida </p>
+<p>Leia com atenção todo este folheto antes de começar a tomar este medicamento pois contém 
+informação importante para si. 
+- Conserve este folheto. Pode ter necessidade de o ler novamente. 
+- Caso ainda tenha dúvidas, fale com o seu médico, farmacêutico ou enfermeiro. 
+- Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode 
+ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença. 
+- Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Ver secção 4.  </p>         </div>"""      
+
+
+
 
 
                     
@@ -915,6 +1386,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-fa8a8470c3a3a250549a317d0f9b36a2"
 * entry[0].resource = composition-da-fa8a8470c3a3a250549a317d0f9b36a2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfa8a8470c3a3a250549a317d0f9b36a2"
+* entry[=].resource = mpfa8a8470c3a3a250549a317d0f9b36a2
+                            
+                    
+Instance: bundlepackageleaflet-pt-fa8a8470c3a3a250549a317d0f9b36a2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for arava Package Leaflet for language pt"
+Description: "ePI document Bundle for arava Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-fa8a8470c3a3a250549a317d0f9b36a2"
+* entry[0].resource = composition-pt-fa8a8470c3a3a250549a317d0f9b36a2
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpfa8a8470c3a3a250549a317d0f9b36a2"
@@ -1016,6 +1509,18 @@ RuleSet: fa8a8470c3a3a250549a317d0f9b36a2ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-fa8a8470c3a3a250549a317d0f9b36a2) // arava pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

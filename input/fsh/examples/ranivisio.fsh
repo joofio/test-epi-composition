@@ -776,6 +776,361 @@ retningslinjer. </p>         </div>"""
 
 
 
+Instance: composition-pt-95a6c6d44fd775697ee8966bf749780c
+InstanceOf: CompositionUvEpi
+Title: "Composition for ranivisio Package Leaflet"
+Description:  "Composition for ranivisio Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp95a6c6d44fd775697ee8966bf749780c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ranivisio"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Ranivisio e para que é utilizado 
+2. O que precisa de saber antes de lhe ser administrado Ranivisio 
+3. Como é administrado Ranivisio 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Ranivisio 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ranivisio e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ranivisio e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Ranivisio 
+Ranivisio é uma solução que é injetada no olho. Ranivisio pertence a um grupo de medicamentos 
+chamados agentes anti-neovascularização. Contém a substância ativa designada ranibizumab. </p>
+<p>Para que é utilizado Ranivisio 
+Ranivisio é utilizado em adultos para tratar várias doenças dos olhos que causam perda de visão. </p>
+<p>Estas doenças resultam de danos na retina (camada sensível à luz na parte posterior do olho) causados 
+por: 
+- Crescimento de vasos sanguíneos extravasantes anormais. Isto é observado em doenças tais 
+como a degenerescência macular relacionada com a idade (DMI) e retinopatia diabética 
+proliferativa (RDP, uma doença causada pela diabetes). Pode também ser associada a 
+neovascularização coroideia (NVC), secundária a miopia patológica (MP), estrias angioides, 
+coriorretinopatia central serosa ou NVC inflamatória. 
+- Edema macular (inchaço do centro da retina). Este inchaço pode ser causado por diabetes (uma 
+doença chamada edema macular diabético (EMD)) ou pelo bloqueio das veias retinianas da 
+retina (uma doença chamada oclusão da veia retiniana (OVR)). </p>
+<p>Como atua Ranivisio 
+Ranivisio reconhece e liga-se especificamente a uma proteína chamada fator de crescimento endotelial 
+vascular A (VEGF-A) presente no olho. Em excesso, o VEGF-A causa um crescimento anormal de 
+vasos sanguíneos e edema no olho, que pode levar a perda de visão em doenças como a DMI, EMD, 
+RDP, OVR, MP e NVC. Através da ligação ao VEGF-A, Ranivisio pode bloquear a sua ação e 
+prevenir este crescimento anormal e edema. 
+Ao ligar-se ao VEGF-A, Ranivisio pode bloquear as suas ações e prevenir este crescimento anormal e 
+inchaço. </p>
+<p>Nestas doenças, Ranivisio pode ajudar a estabilizar e, em muitos casos, a melhorar a sua visão. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ranivisio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ranivisio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não pode receber Ranivisio 
+- Se tem alergia ao ranibizumab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). 
+- Se tem uma infeção dentro ou à volta do olho. 
+- Se tem dor ou vermelhidão (inflamação intraocular grave) no olho. </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de lhe ser administrado Ranivisio. 
+- Ranivisio é administrado através de uma injeção no olho. Após o tratamento com Ranivisio 
+pode ocasionalmente ocorrer infeção na porção interna do olho, dor ou vermelhidão 
+(inflamação), descolamento ou rasgadura de uma das camadas da parte posterior do olho 
+(descolamento ou rasgadura da retina e descolamento ou rasgadura do epitélio pigmentar da 
+retina) ou turvação do cristalino (catarata). É importante identificar e tratar esta infeção ou 
+descolamento da retina o mais rapidamente possível. Por favor contacte imediatamente o seu 
+médico se desenvolver sinais como dor no olho ou aumento do desconforto, agravamento da 
+vermelhidão do olho, visão turva ou diminuída, um aumento do número de pequenas partículas 
+na sua visão ou aumento da sensibilidade à luz. 
+- Em alguns doentes pode ocorrer um aumento da pressão ocular durante um curto período após 
+a injeção. Isto é algo que poderá não detetar e que o seu médico pode avaliar após cada injeção. 
+- Informe o seu médico se tem antecedentes de problemas ou tratamentos nos olhos, ou se teve 
+um acidente vascular cerebral ou se já teve sintomas transitórios de acidente vascular cerebral 
+(fraqueza ou paralisia dos membros ou da face, dificuldade em falar ou em entender). Esta 
+informação será tida em consideração para avaliar se Ranivisio é o tratamento adequado para si. </p>
+<p>Por favor consulte a secção 4 (“Efeitos indesejáveis possíveis") para obter informação mais detalhada 
+acerca dos efeitos indesejáveis que podem ocorrer durante o tratamento com Ranivisio. </p>
+<p>Crianças e adolescentes (idade inferior a 18 anos) 
+A utilização de Ranivisio em crianças e adolescentes não foi estabelecida e logo não é recomendada. </p>
+<p>Outros medicamentos e Ranivisio 
+Informe o seu médico se estiver a utilizar, tiver utilizado recentemente, ou se vier a utilizar outros 
+medicamentos. </p>
+<p>Gravidez e amamentação 
+- As mulheres que podem engravidar têm de usar meios contracetivos eficazes durante o 
+tratamento e pelo menos durante três meses após a última injeção de Ranivisio. 
+- Não há experiência de utilização de Ranivisio em mulheres grávidas. Ranivisio não deve ser 
+administrado durante a gravidez a não ser que o potencial benefício seja superior ao risco para o 
+bebé em gestação. Se está grávida, se pensa estar grávida ou planeia engravidar, discuta isto 
+com o seu médico antes de iniciar o tratamento com Ranivisio. 
+- Pequenas quantidades de Ranivisio podem passar para o leite humano, portanto não se 
+recomenda a administração de Ranivisio durante a amamentação. Consulte o seu médico ou 
+farmacêutico antes do tratamento com Ranivisio. </p>
+<p>Condução de veículos e utilização de máquinas 
+Após o tratamento com Ranivisio poderá sentir temporariamente a visão turva. Se tal acontecer, não 
+conduza ou utilize máquinas até ao desaparecimento dos sintomas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ranivisio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ranivisio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ranivisio é administrado através de uma injeção de dose única no olho, pelo seu médico 
+oftalmologista sob anestesia local. A dose habitual de uma injeção é 0,05 ml (o que contém 0,5 mg de 
+substância ativa). O intervalo entre duas doses injetadas no mesmo olho deve ser de pelo menos quatro 
+semanas. Todas as injeções serão administradas pelo seu médico oftalmologista. </p>
+<p>Antes da injeção, o seu médico irá lavar cuidadosamente o seu olho para impedir uma infeção. O seu 
+médico irá também aplicar-lhe um anestésico local para reduzir ou impedir qualquer dor que possa vir 
+a sentir com a injeção. </p>
+<p>O tratamento é iniciado com uma injeção de Ranivisio por mês. O seu médico avaliará a sua condição 
+ocular e, dependendo da forma como responde ao tratamento, decidirá se e quando necessita de 
+receber mais tratamento. </p>
+<p>Encontram-se instruções de utilização detalhadas no final do folheto em “Como preparar e administrar 
+Ranivisio". </p>
+<p>Idosos (idade igual ou superior a 65 anos) 
+Ranivisio pode ser usado em pessoas de idade igual ou superior a 65 anos sem ajustamento de dose. </p>
+<p>Antes de parar o tratamento com Ranivisio 
+Se está a pensar parar o tratamento com Ranivisio, por favor vá à sua próxima consulta e discuta o 
+assunto com o seu médico. O seu médico irá aconselhá-lo e decidir durante quanto tempo deverá ser 
+tratado com Ranivisio. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestam em todas as pessoas. </p>
+<p>Os efeitos indesejáveis associados à administração de Ranivisio são tanto devidos ao medicamento 
+propriamente dito como ao procedimento da injeção e afetam sobretudo o olho. </p>
+<p>Os efeitos indesejáveis mais graves encontram-se descritos abaixo: 
+Efeitos indesejáveis graves frequentes (podem afetar até 1 em 10 pessoas):<br />
+Descolamento ou rasgadura da camada da parte detrás do olho (descolamento ou rasgadura da retina), 
+que provoca visualização de centelhas de luz com manchas progredindo para uma perda temporária de 
+visão ou turvação do cristalino (catarata). 
+Efeitos indesejáveis graves pouco frequentes (podem afetar até 1 em 100 pessoas):<br />
+Cegueira, infeção do globo ocular (endoftalmite) com inflamação do interior do olho. </p>
+<p>Os sintomas que pode sentir são dor ou aumento do desconforto ocular, agravamento da vermelhidão 
+no olho, visão turva ou diminuída, um aumento do número de pequenas partículas na visão ou 
+aumento da sensibilidade à luz. Por favor contacte imediatamente o seu médico se desenvolver 
+algum destes efeitos indesejáveis. </p>
+<p>Os efeitos indesejáveis notificados mais frequentemente encontram-se descritos abaixo: 
+Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas)<br />
+Os efeitos indesejáveis visuais incluem: Inflamação do olho, hemorragia na parte de trás do olho 
+(hemorragia retiniana), perturbação da visão, dor ocular, pequenas partículas ou manchas na visão 
+(moscas), olho injetado de sangue, irritação do olho, sensação de corpo estranho no olho, aumento da 
+produção de lágrimas, inflamação ou infeção das margens das pálpebras, olho seco, vermelhidão ou 
+comichão no olho e aumento da pressão ocular. 
+Os efeitos indesejáveis não-visuais incluem: Dor de garganta, congestão nasal, corrimento nasal, dor 
+de cabeça (cefaleias) e dor nas articulações. </p>
+<p>Outros efeitos indesejáveis que podem ocorrer após o tratamento com Ranivisio encontram-se 
+descritos abaixo: 
+Efeitos indesejáveis frequentes 
+Os efeitos indesejáveis visuais incluem: Diminuição da nitidez da visão, inchaço de uma parte do olho 
+(úvea, córnea), inflamação da córnea (parte anterior do olho), pequenas marcas na superfície do olho, 
+visão turva, hemorragia no local da injeção, hemorragia ocular, secreção ocular com comichão, 
+vermelhidão e inchaço (conjuntivite), sensibilidade à luz, desconforto ocular, inchaço das pálpebras, 
+dor nas pálpebras. 
+Os efeitos indesejáveis não-visuais incluem: Infeção do trato urinário, valor baixo do número de 
+glóbulos vermelhos (com sintomas como cansaço, falta de ar, tonturas, palidez), ansiedade, tosse, 
+náuseas, reações alérgicas como erupção cutânea, urticária, comichão e vermelhidão da pele. </p>
+<p>Efeitos indesejáveis pouco frequentes 
+Efeitos indesejáveis visuais incluem: Inflamação e hemorragia na parte da frente do olho, acumulação 
+de pus no olho, alterações da parte central da superfície do olho, dor ou irritação no local de injeção, 
+sensação estranha no olho, irritação das pálpebras. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ranivisio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ranivisio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Manter este medicamento fora da vista e do alcance das crianças. </li>
+<li>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e rótulo 
+do frasco para injetáveis, após EXP. O prazo de validade corresponde ao último dia do mês 
+indicado. </li>
+<li>Conservar no frigorífico (2°C - 8°C). Não congelar. </li>
+<li>Antes de utilizar, o frasco para injetáveis fechado pode ser mantido à temperatura ambiente 
+(25ºC) até 24 horas. </li>
+<li>Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </li>
+<li>Não utilize qualquer embalagem que esteja danificada. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ranivisio 
+- A substância ativa é o ranibizumab. Cada ml contém 10 mg de ranibizumab. Cada frasco para 
+injetáveis contém 2,3 mg de ranibizumab em 0,23 ml de solução. Este fornece uma quantidade 
+adequada para administrar uma dose única de 0,05 ml contendo 0,5 mg de ranibizumab. 
+- Os outros componentes são α,α-trehalose di-hidratada, cloridrato de histidina, monohidratado, 
+histidina, polissorbato 20, água para preparações injetáveis. </p>
+<p>Qual o aspeto de Ranivisio e conteúdo da embalagem 
+Ranivisio é uma solução injetável num frasco para injetáveis (0,23 ml). A solução é aquosa, límpida, 
+incolor a amarelo pálido. </p>
+<p>Está disponível um tipo de embalagem: 
+Embalagem contendo um frasco para injetáveis, de vidro de ranibizumab, com uma rolha de borracha 
+clorobutílica. O frasco para injetáveis destina-se apenas a uma utilização única. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Midas Pharma GmbH 
+Rheinstraße D-55218 Ingelheim 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien<br />
+Teva Pharma Belgium N.V./S.A./A.G. 
+Tel/Tél: +32 3 820 73 73<br />
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 5 266 02<br />
+България<br />
+Тева Фарма ЕАД 
+Tel: +359 2 489 95<br />
+Luxembourg/Luxemburg<br />
+Teva Pharma Belgium N.V./S.A./A.G.,<br />
+Tél: +32 3 820 73<br />
+Česká republika<br />
+Teva Pharmaceuticals CR, s.r.o.<br />
+Tel: +420 251 007 111  </p>
+<p>Magyarország<br />
+Teva Gyógyszergyár Zrt. 
+Tel.: +36 1 288 6 
+Danmark<br />
+Teva Denmark A/S<br />
+Tlf: +45 44 98 55 11  </p>
+<p>Malta<br />
+Teva Pharmaceuticals Ireland, L-Irlanda 
+Τel: +353 (0)1912 7 
+Deutschland 
+ratiopharm GmbH 
+Tel: +49 731 402<br />
+Nederland<br />
+Teva Nederland B.V. 
+Tel: +31 (0) 800 0228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 661 0 
+Norge 
+Teva Norway AS 
+Tlf: +47 66 77 55<br />
+Ελλάδα 
+Specifar ΑΒΕΕ 
+Τηλ: +30 211 880 5 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1 970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 91 387 32 80   </p>
+<p>Polska 
+Zakłady Farmaceutyczne Polpharma S.A. 
+Tel. + 48 22 364 61<br />
+France 
+Teva Santé 
+Tél: +33 1 55 91 78<br />
+Portugal 
+Teva Pharma - Produtos Farmacêuticos Lda 
+Tel: +351 214 767<br />
+Hrvatska 
+Pliva Hrvatska d.o.o 
+Tel: + 385 1 37 20<br />
+România 
+Teva Pharmaceuticals S.R.L 
+Tel: +40 21 230 65<br />
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +353 (0)1912 7 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 1 58 90<br />
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: + 354 550 3 
+Slovenská republika 
+Teva Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 2 5726 7 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 0289 17 
+Suomi/Finland 
+ratiopharm Oy 
+Puh/Tel: +358 20 180 5 
+Κύπρος 
+Specifar ΑΒΕΕ, Ελλάδα 
+Τηλ: +30 211 880 5 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42 12 11<br />
+Latvija 
+UAB Teva Baltics filiāle Latvijā<br />
+Tel: +371 67 323<br />
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Tel: +44 (0) 207 540 7 
+Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -817,6 +1172,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-95a6c6d44fd775697ee8966bf749780c"
 * entry[0].resource = composition-da-95a6c6d44fd775697ee8966bf749780c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp95a6c6d44fd775697ee8966bf749780c"
+* entry[=].resource = mp95a6c6d44fd775697ee8966bf749780c
+                            
+                    
+Instance: bundlepackageleaflet-pt-95a6c6d44fd775697ee8966bf749780c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ranivisio Package Leaflet for language pt"
+Description: "ePI document Bundle for ranivisio Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-95a6c6d44fd775697ee8966bf749780c"
+* entry[0].resource = composition-pt-95a6c6d44fd775697ee8966bf749780c
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp95a6c6d44fd775697ee8966bf749780c"
@@ -918,6 +1295,18 @@ RuleSet: 95a6c6d44fd775697ee8966bf749780cListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-95a6c6d44fd775697ee8966bf749780c) // ranivisio pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

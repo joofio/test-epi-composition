@@ -1047,6 +1047,527 @@ er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på w
 
 
 
+Instance: composition-pt-dd18b3b8f2dba9230f63c60b0e5cbf28
+InstanceOf: CompositionUvEpi
+Title: "Composition for gonal Package Leaflet"
+Description:  "Composition for gonal Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpdd18b3b8f2dba9230f63c60b0e5cbf28)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - gonal"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como preparar e utilizar o pó e o solvente de GONAL-f </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é GONAL-f e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar GONAL-f </li>
+<li>Como utilizar GONAL-f </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar GONAL-f </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é gonal e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é gonal e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é GONAL-f </p>
+<p>GONAL-f contém um medicamento chamado “folitropina alfa". A folitropina alfa é um tipo de 
+“hormona folículo-estimulante" (FSH) que pertence à família das hormonas denominadas 
+gonadotropinas. As gonadotropinas estão envolvidas na reprodução e fertilidade. </p>
+<p>Para que é utilizado GONAL-f </p>
+<p>Em mulheres adultas, GONAL-f é utilizado: </p>
+<ul>
+<li>
+<p>para ajudar a libertar um óvulo do ovário (ovulação) em mulheres que não conseguem ovular e 
+que não responderam ao tratamento com um medicamento chamado “citrato de clomifeno". </p>
+</li>
+<li>
+<p>juntamente com outro medicamento denominado “lutropina alfa" (“hormona luteinizante" ou 
+LH) para ajudar a libertar o óvulo do ovário (ovulação) em mulheres cujo organismo produz 
+uma quantidade muito pequena de gonadotropinas (FSH e LH). </p>
+</li>
+<li>
+<p>para ajudar a desenvolver vários folículos (cada um contendo um óvulo) em mulheres que vão 
+ser submetidas a procedimentos baseados em técnicas de procriação medicamente assistida 
+(procedimentos que a podem ajudar a engravidar), tais como a “fertilização in vitro", 
+“transferência intrafalopiana de gâmetas" ou “transferência intrafalopiana de zigotos". </p>
+</li>
+</ul>
+<p>Em homens adultos, GONAL-f é utilizado: </p>
+<ul>
+<li>juntamente com outro medicamento denominado “gonadotrofina coriónica humana" (hCG) para 
+ajudar a produzir espermatozoides em homens que são inférteis devido a um nível baixo de 
+certas hormonas. </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar gonal"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar gonal"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A sua fertilidade e a do seu(sua) parceiro(a) deve ser examinada antes do início do tratamento por um 
+médico com experiência no tratamento de doenças da fertilidade. </p>
+<p>Não utilize GONAL-f </p>
+<ul>
+<li>
+<p>se tem alergia à hormona folículo-estimulante ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </p>
+</li>
+<li>
+<p>se tem um tumor no hipotálamo ou na hipófise (ambos são partes do cérebro). </p>
+</li>
+<li>
+<p>se é uma mulher: 
+− 
+com ovários grandes ou com sacos com fluidos nos ovários (quistos ováricos) de origem 
+desconhecida. 
+− 
+com hemorragia vaginal não explicada. 
+− 
+com cancro dos ovários, do útero ou da mama. 
+− 
+com uma condição que geralmente torna impossível uma gravidez normal, como 
+insuficiência dos ovários (menopausa precoce) ou malformação dos órgãos reprodutores. </p>
+</li>
+<li>
+<p>se é um homem: 
+− 
+com lesão dos testículos que não pode ser curada. </p>
+</li>
+</ul>
+<p>Não utilize GONAL-f se qualquer uma das situações acima se aplicar a si. Se tiver dúvidas, fale com o 
+seu médico antes de utilizar este medicamento. </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar GONAL-f. </p>
+<p>Porfiria </p>
+<p>Antes de iniciar o tratamento, informe o seu médico se você ou qualquer um dos seus familiares tem 
+porfiria (uma incapacidade de decompor as porfirinas, que pode ser transmitida de pais para filhos). </p>
+<p>Informe imediatamente o seu médico se: </p>
+<ul>
+<li>
+<p>a sua pele ficar mais frágil e formar bolhas com facilidade, especialmente uma pele que foi 
+exposta frequentemente ao sol, e/ou </p>
+</li>
+<li>
+<p>tiver dores de estômago, braços ou pernas. </p>
+</li>
+</ul>
+<p>Caso ocorra qualquer um dos efeitos acima mencionados, o seu médico pode aconselhar que suspenda 
+o tratamento. </p>
+<p>Síndrome de hiperestimulação ovárica (OHSS) </p>
+<p>Se é uma mulher, este medicamento aumenta o risco de desenvolver a OHSS. Esta ocorre quando os 
+seus folículos se desenvolvem excessivamente e formam quistos grandes. Se sentir uma dor na região 
+inferior do abdómen, aumentar rapidamente de peso, se sentir enjoos ou tiver vómitos, ou se tiver 
+dificuldade em respirar, informe imediatamente o seu médico que lhe pode pedir para parar de utilizar 
+este medicamento (ver a secção 4). 
+Se não estiver a ovular, e se estiver a cumprir a dose recomendada e o esquema de administração, a 
+ocorrência de OHSS é menos provável. O tratamento com GONAL-f raramente provoca uma OHSS 
+grave, a menos que seja administrado o medicamento que é utilizado para a maturação final dos 
+folículos (que contém gonadotrofina coriónica humana, hCG). Se desenvolver OHSS, o seu médico 
+pode não lhe administrar hCG neste ciclo do tratamento e pode dizer-lhe para não ter relações sexuais 
+ou para utilizar um método contracetivo de barreira durante pelo menos quatro dias. </p>
+<p>Gravidez múltipla </p>
+<p>Enquanto estiver a utilizar GONAL-f corre um risco mais elevado de ficar grávida de mais de uma 
+criança ao mesmo tempo (“gravidez múltipla", principalmente gémeos) do que se tivesse concebido 
+naturalmente. A gravidez múltipla pode causar complicações médicas tanto para si como para os 
+bebés. Pode diminuir o risco de gravidez múltipla utilizando a dose correta de GONAL-f na altura 
+devida. Quando é submetida a uma técnica de procriação medicamente assistida, o risco de ter uma 
+gravidez múltipla está relacionado com a idade, número e qualidade de óvulos fertilizados ou de 
+embriões que são colocados dentro de si.  </p>
+<p>Aborto espontâneo </p>
+<p>Quando é submetida a uma técnica de procriação medicamente assistida ou a estimulação dos seus 
+ovários para produzir óvulos, tem mais probabilidades de ter um aborto espontâneo do que a mulher 
+normal. </p>
+<p>Problemas de coagulação do sangue (acontecimentos tromboembólicos) </p>
+<p>Se teve no passado ou recentemente coágulos sanguíneos na perna ou no pulmão, ou um ataque 
+cardíaco ou um acidente vascular cerebral, ou se estes aconteceram na sua família, pode, neste caso, 
+correr um maior risco de que estes problemas ocorram ou piorem com o tratamento com GONAL-f. </p>
+<p>Homens com demasiada FSH no sangue </p>
+<p>Se é um homem com demasiada FSH no sangue, isso pode ser um sinal de lesão dos testículos. 
+GONAL-f geralmente não atua se tiver este problema. </p>
+<p>Se o seu médico decidir tentar o tratamento com GONAL-f, a fim de monitorizar o tratamento, poderá 
+pedir-lhe que forneça esperma para análise 4 a 6 meses após o início do tratamento. </p>
+<p>Crianças e adolescentes </p>
+<p>GONAL-f não é indicado para utilização em crianças e adolescentes com menos de 18 anos. </p>
+<p>Outros medicamentos e GONAL-f </p>
+<p>Informe o seu médico se estiver a tomar, tiver tomado recentemente ou se vier a tomar outros 
+medicamentos. </p>
+<ul>
+<li>
+<p>Se utilizar GONAL-f com outros medicamentos que ajudam a ovulação (como hCG ou citrato 
+de clomifeno), isso poderá aumentar a resposta dos seus folículos. </p>
+</li>
+<li>
+<p>Se utilizar GONAL-f ao mesmo tempo que um agonista ou antagonista da “hormona libertadora 
+de gonadotropinas" (GnRH) (estes medicamentos diminuem os níveis das suas hormonas 
+sexuais e impedem que tenha ovulações), pode ter necessidade de uma dose mais elevada de 
+GONAL-f para produzir folículos. </p>
+</li>
+</ul>
+<p>Gravidez e amamentação </p>
+<p>Não utilize GONAL-f se está grávida ou a amamentar. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Não é de esperar que este medicamento afete a sua capacidade de conduzir e utilizar máquinas. </p>
+<p>GONAL-f contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar gonal"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar gonal"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Utilização deste medicamento </p>
+<ul>
+<li>
+<p>GONAL-f destina-se a ser administrado por injeção sob a pele (via subcutânea). </p>
+</li>
+<li>
+<p>A primeira injeção de GONAL-f deve ser administrada sob a supervisão do seu médico. </p>
+</li>
+<li>
+<p>O seu médico ou enfermeiro indicar-lhe-ão como deve injetar GONAL-f, antes que possa 
+injetar-se a si próprio. </p>
+</li>
+<li>
+<p>Se administrar GONAL-f a si própria, leia e siga atentamente as instruções que se encontram no 
+fim deste folheto sobre “Como preparar e utilizar o pó e a solução de GONAL-f". </p>
+</li>
+</ul>
+<p>Que dose deve utilizar </p>
+<p>O seu médico decidirá qual a dose de medicamento que deverá utilizar e a frequência com que é 
+administrada. As doses a seguir descritas são indicadas em Unidades Internacionais (UI). </p>
+<p>Mulheres </p>
+<p>Se não estiver a ovular e não tiver períodos menstruais ou tiver períodos irregulares </p>
+<ul>
+<li>
+<p>GONAL-f é habitualmente administrado todos os dias. </p>
+</li>
+<li>
+<p>Se tiver períodos irregulares, comece a utilizar GONAL-f nos primeiros 7 dias do seu ciclo 
+menstrual. Se não tiver períodos menstruais pode começar a utilizar o medicamento no dia que 
+lhe for mais conveniente. </p>
+</li>
+<li>
+<p>A dose inicial de GONAL-f é habitualmente individualizada e pode ser ajustada 
+progressivamente. </p>
+</li>
+<li>
+<p>A dose diária de GONAL-f não deve exceder 225 UI. </p>
+</li>
+<li>
+<p>Quando obtiver a resposta desejada ser-lhe-á administrada uma injeção de 250 microgramas de 
+“hCG recombinante" (r-hCG, uma hCG produzida num laboratório por uma técnica especial do 
+ADN) ou 5000 UI a 10 000 UI de hCG, 24 a 48 horas após a sua última injeção de GONAL-f. A 
+melhor altura para ter relações sexuais é no dia em que lhe é administrada a injeção de hCG e no 
+dia seguinte. </p>
+</li>
+</ul>
+<p>Se o seu médico não conseguir observar a resposta desejada, a continuação desse ciclo de tratamento 
+com GONAL-f deve ser avaliada e gerida de acordo com a prática clínica do médico. </p>
+<p>Se o seu organismo responder de forma excessiva, o seu tratamento será interrompido e não lhe será 
+administrada nenhuma hCG (ver secção 2, “Síndrome de hiperestimulação ovárica (OHSS)"). No ciclo 
+seguinte, o seu médico dar-lhe-á uma dose inicial de GONAL-f mais baixa do que a anterior. </p>
+<p>Se tiver sido diagnosticado que tem níveis muito baixos das hormonas FSH e LH </p>
+<ul>
+<li>
+<p>A dose inicial habitual de GONAL-f é de 75 a 150 UI juntamente com 75 UI de lutropina alfa. </p>
+</li>
+<li>
+<p>Utilizará estes dois medicamentos todos os dias até perfazer cinco semanas. </p>
+</li>
+<li>
+<p>A sua dose de GONAL-f pode ser aumentada em intervalos de 7 ou 14 dias em 37,5 a 75 UI, até 
+obter a resposta desejada. </p>
+</li>
+<li>
+<p>Quando obtiver a resposta desejada ser-lhe-á administrada uma injeção de 250 microgramas de 
+“hCG recombinante" (r-hCG, uma hCG produzida num laboratório por uma técnica especial do 
+ADN) ou 5000 UI a 10 000 UI de hCG, 24 a 48 horas após a sua última injeção de GONAL-f e 
+lutropina alfa. A melhor altura para ter relações sexuais é no dia em que lhe é administrada a 
+injeção de hCG e no dia seguinte. Como alternativa, pode ser efetuada a inseminação 
+intrauterina ou outro procedimento de procriação medicamente assistida com base no critério do 
+seu médico. </p>
+</li>
+</ul>
+<p>Se o seu médico não conseguir observar uma resposta desejada decorridas 5 semanas, o ciclo de 
+tratamento com GONAL-f deve ser interrompido. No ciclo seguinte, o seu médico dar-lhe-á uma dose 
+inicial de GONAL-f mais elevada do que a anterior. 
+Se o seu organismo responder de forma excessiva, o seu tratamento com GONAL-f será interrompido 
+e não lhe será administrada nenhuma hCG (ver secção 2, “Síndrome de hiperestimulação ovárica 
+(OHSS)"). No ciclo seguinte, o seu médico dar-lhe-á uma dose inicial de GONAL-f mais baixa do que 
+a anterior. </p>
+<p>Se for necessário que desenvolva vários óvulos para colheita antes de qualquer técnica de 
+procriação medicamente assistida </p>
+<ul>
+<li>
+<p>A dose inicial de GONAL-f é habitualmente individualizada e pode ser ajustada 
+progressivamente, sem exceder 450 UI por dia. </p>
+</li>
+<li>
+<p>O tratamento prossegue até os seus óvulos atingirem o ponto desejado. O seu médico efetuará 
+análises ao sangue e/ou ecografias para controlo. </p>
+</li>
+<li>
+<p>Quando os seus óvulos estiverem prontos, ser-lhe-á administrada uma injeção de 
+250 microgramas de “hCG recombinante" (r-hCG, uma hCG produzida num laboratório por 
+uma técnica especial do ADN recombinante) ou 5000 UI a 10 000 UI de hCG, 24 a 48 horas 
+após a sua última injeção de GONAL-f. Esta injeção faz com que os seus óvulos fiquem prontos 
+para que a sua colheita seja efetuada. </p>
+</li>
+</ul>
+<p>Homens </p>
+<ul>
+<li>
+<p>A dose habitual de GONAL-f é de 150 UI juntamente com hCG. </p>
+</li>
+<li>
+<p>Vai utilizar estes dois medicamentos três vezes por semana durante pelo menos 4 meses. </p>
+</li>
+<li>
+<p>Se não tiver respondido ao tratamento após 4 meses, o seu médico poderá sugerir que continue a 
+utilizar estes dois medicamentos durante pelo menos 18 meses. </p>
+</li>
+</ul>
+<p>Se utilizar mais GONAL-f do que deveria </p>
+<p>Desconhece-se quais são os efeitos de se utilizar uma dose excessiva de GONAL-f. No entanto, é de 
+prever a ocorrência da síndrome de hiperestimulação ovárica (OHSS), que é descrita na secção 4. Contudo, a OHSS só ocorrerá se também for administrada hCG (ver a secção 2, “Síndrome de 
+hiperestimulação ovárica (OHSS)"). </p>
+<p>Caso se tenha esquecido de utilizar GONAL-f </p>
+<p>Caso se tenha esquecido de utilizar GONAL-f, não tome uma dose a dobrar para compensar uma dose 
+que se esqueceu de tomar. Informe o seu médico logo que verificar que se esqueceu de uma dose. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves em mulheres </p>
+<ul>
+<li>
+<p>Dor na região inferior do abdómen juntamente com náuseas ou vómitos podem ser os sintomas 
+da síndrome de hiperestimulação ovárica (OHSS). Esta pode indicar que os ovários estão a 
+reagir de forma excessiva ao tratamento e que se desenvolveram quistos grandes nos ovários 
+(ver também na secção 2 em “Síndrome de hiperestimulação ovárica (OHSS)"). Este efeito 
+secundário é frequente (pode afetar até 1 em cada 10 pessoas). </p>
+</li>
+<li>
+<p>A OHSS pode tornar-se grave com um nítido aumento do volume dos ovários, diminuição da 
+produção de urina, aumento de peso, dificuldade em respirar e/ou possível acumulação de 
+líquidos no abdómen ou tórax. Este efeito secundário é pouco frequente (pode afetar até 1 em 
+cada 100 pessoas). </p>
+</li>
+<li>
+<p>Podem ocorrer raramente complicações resultantes da OHSS como torção dos ovários ou 
+formação de coágulos de sangue (podem afetar até 1 em cada 1000 pessoas). </p>
+</li>
+<li>
+<p>Podem observar-se muito raramente complicações graves relacionadas com a coagulação do 
+sangue (acontecimentos tromboembólicos) por vezes independentes da OHSS (podem afetar até 
+1 em cada 10 000 pessoas). Estas podem causar dor no peito, falta de ar, acidente vascular 
+cerebral ou ataque cardíaco (ver também na secção 2 em “Problemas de coagulação do 
+sangue"). </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis graves em homens e em mulheres </p>
+<ul>
+<li>As reações alérgicas, como erupção cutânea, pele vermelha, urticária, inchaço da face com 
+dificuldade em respirar, podem por vezes ser graves. Este efeito secundário é muito raro (pode 
+afetar até 1 em cada 10 000 pessoas). </li>
+</ul>
+<p>Se detetar quaisquer dos efeitos indesejáveis acima mencionados, deve contactar imediatamente 
+o seu médico que lhe pode pedir para parar utilizar GONAL-f. </p>
+<p>Outros efeitos indesejáveis em mulheres </p>
+<p>Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>Sacos de fluido nos ovários (quistos ováricos) </p>
+</li>
+<li>
+<p>Dores de cabeça </p>
+</li>
+<li>
+<p>Reações no local de injeção, tais como dor, vermelhidão, nódoas negras, inchaço e/ou irritação </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>Dor abdominal </p>
+</li>
+<li>
+<p>Enjoos, vómitos, diarreia, cólicas abdominais e distensão abdominal </p>
+</li>
+</ul>
+<p>Muito raros (podem afetar até 1 em cada 10 000 pessoas): </p>
+<ul>
+<li>
+<p>Podem ocorrer reações alérgicas como erupção cutânea, pele vermelha, urticária, inchaço da 
+face com dificuldade em respirar. Estas reações podem por vezes ser graves. </p>
+</li>
+<li>
+<p>A sua asma pode piorar. </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis em homens </p>
+<p>Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas): </p>
+<ul>
+<li>Reações no local de injeção, tais como dor, vermelhidão, nódoas negras, inchaço e/ou irritação </li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>Inchaço das veias acima e por trás dos testículos (varicocelo) </p>
+</li>
+<li>
+<p>Desenvolvimento dos seios, acne ou aumento de peso </p>
+</li>
+</ul>
+<p>Muito raros (podem afetar até 1 em cada 10 000 pessoas): </p>
+<ul>
+<li>
+<p>Podem ocorrer reações alérgicas como erupção cutânea, pele vermelha, urticária, inchaço da 
+face com dificuldade em respirar. Estas reações podem por vezes ser graves. </p>
+</li>
+<li>
+<p>A sua asma pode piorar. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar gonal"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar gonal"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco para injetáveis, após VAL. 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 25°C. </p>
+<p>Conservar na embalagem de origem para proteger da luz. </p>
+<p>Não utilize GONAL-f se verificar quaisquer sinais visíveis de deterioração, se o líquido contiver 
+partículas ou se não estiver límpido. </p>
+<p>O medicamento deve ser administrado imediatamente após a preparação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>
+<p>GONAL-f não deve ser administrado misturado com outros medicamentos na mesma seringa, exceto 
+com a lutropina alfa. Os estudos efetuados demonstraram que estes dois medicamentos podem ser 
+misturados e injetados em conjunto, sem que qualquer dos medicamentos seja afetado negativamente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de GONAL-f </p>
+<ul>
+<li>
+<p>A substância ativa é folitropina alfa. </p>
+</li>
+<li>
+<p>Cada frasco para injetáveis contém 5,5 microgramas de folitropina alfa. </p>
+</li>
+<li>
+<p>Após a preparação da solução injetável final, existem 75 UI (5,5 microgramas) de folitropina 
+alfa em cada mililitro de solução. </p>
+</li>
+<li>
+<p>Os outros componentes são sacarose, di-hidrogenofosfato de sódio mono-hidratado, fosfato 
+dissódico di-hidratado, metionina, polissorbato 20, assim como ácido fosfórico concentrado e 
+hidróxido de sódio para ajuste de pH. </p>
+</li>
+<li>
+<p>O solvente é água para preparações injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de GONAL-f e conteúdo da embalagem </p>
+<ul>
+<li>
+<p>GONAL-f é apresentado sob a forma de pó e solvente que são utilizados para preparar uma 
+solução injetável. </p>
+</li>
+<li>
+<p>O pó é um pélete branco acondicionado num frasco para injetáveis de vidro. </p>
+</li>
+<li>
+<p>O solvente é um líquido límpido incolor acondicionado em seringas pré-cheias, contendo cada 
+uma 1 ml. </p>
+</li>
+<li>
+<p>GONAL-f é fornecido em embalagens de 1, 5 ou 10 frasco(s) para injetáveis de pó e igual 
+número de seringas pré-cheias de solvente. É possível que não sejam comercializadas todas as 
+apresentações. </p>
+</li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Merck Europe B.V., Gustav Mahlerplein 102, 1082 MA Amsterdam, Países Baixos </p>
+<p>Fabricante </p>
+<p>Merck Serono S.p.A., Via delle Magnolie 15, 70026 Modugno (Bari), Itália </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1088,6 +1609,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-dd18b3b8f2dba9230f63c60b0e5cbf28"
 * entry[0].resource = composition-da-dd18b3b8f2dba9230f63c60b0e5cbf28
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdd18b3b8f2dba9230f63c60b0e5cbf28"
+* entry[=].resource = mpdd18b3b8f2dba9230f63c60b0e5cbf28
+                            
+                    
+Instance: bundlepackageleaflet-pt-dd18b3b8f2dba9230f63c60b0e5cbf28
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for gonal Package Leaflet for language pt"
+Description: "ePI document Bundle for gonal Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-dd18b3b8f2dba9230f63c60b0e5cbf28"
+* entry[0].resource = composition-pt-dd18b3b8f2dba9230f63c60b0e5cbf28
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpdd18b3b8f2dba9230f63c60b0e5cbf28"
@@ -1189,6 +1732,18 @@ RuleSet: dd18b3b8f2dba9230f63c60b0e5cbf28ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-dd18b3b8f2dba9230f63c60b0e5cbf28) // gonal pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

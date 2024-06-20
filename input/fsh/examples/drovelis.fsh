@@ -1578,6 +1578,833 @@ hjemmeside: http://www.ema.europa.eu.  </p>         </div>"""
 
 
 
+Instance: composition-pt-83e465306011aa98a59a237fbe1da484
+InstanceOf: CompositionUvEpi
+Title: "Composition for drovelis Package Leaflet"
+Description:  "Composition for drovelis Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp83e465306011aa98a59a237fbe1da484)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - drovelis"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Drovelis e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Drovelis </li>
+<li>Como tomar Drovelis </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Drovelis </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é drovelis e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é drovelis e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Drovelis é uma pílula contracetiva que é utilizada para evitar a gravidez. 
+- Os 24 comprimidos revestidos por película rosa são comprimidos ativos que contêm uma 
+pequena quantidade de duas hormonas femininas diferentes, designadas estetrol e drospirenona. 
+- Os 4 comprimidos revestidos por película brancos são comprimidos inativos que não contêm 
+hormonas e chamam-se comprimidos placebo. 
+- As pílulas contracetivas que contêm duas hormonas diferentes, como Drovelis, chamam-se 
+pílulas “de combinação" ou “combinadas". Elas atuam em conjunto para prevenir a ovulação 
+(libertação de um óvulo do ovário) e para reduzir a probabilidade de algum óvulo libertado ser 
+fecundado e deixá-la grávida. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar drovelis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar drovelis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Notas gerais 
+Antes de começar a tomar Drovelis, deverá ler a informação sobre coágulos sanguíneos na secção 2. É particularmente importante ler os sintomas de um coágulo sanguíneo - ver secção 2 “Coágulos 
+sanguíneos". </p>
+<p>Antes de poder começar a tomar Drovelis, o seu médico irá efetuar-lhe algumas perguntas acerca da 
+sua saúde clínica pessoal e da dos seus parentes próximos. O médico irá, igualmente, medir-lhe a sua 
+tensão arterial e, dependendo da sua situação pessoal, poderá também realizar outros testes.  </p>
+<p>Neste folheto informativo, são descritas várias situações em que deve parar de tomar a pílula ou em 
+que a eficácia da pílula pode estar diminuída. Nestas situações, não deve ter relações sexuais ou deve 
+tomar precauções contracetivas não hormonais adicionais, p. ex., utilizar um preservativo ou outro 
+método de barreira. Não utilize o método rítmico ou de temperatura. Estes métodos poderão não ser 
+fiáveis porque a pílula altera as variações habituais de temperatura e do muco cervical que acontecem 
+durante o ciclo menstrual. </p>
+<p>Drovelis, tal como os outros contracetivos hormonais, não protege contra a infeção pelo vírus da 
+imunodeficiência humana (VIH) (síndrome de imunodeficiência adquirida, SIDA) ou qualquer 
+outra doença sexualmente transmissível. </p>
+<p>Não tome Drovelis 
+Não deverá tomar Drovelis se tiver qualquer das situações listadas abaixo. Se tiver qualquer das 
+situações listadas abaixo, tem que informar o seu médico. O seu médico irá discutir consigo outra 
+forma de controlo da gravidez que seja mais apropriada. </p>
+<ul>
+<li>se tem (ou tiver tido) um coágulo sanguíneo num vaso sanguíneo nas pernas (trombose venosa 
+profunda, TVP), nos pulmões (embolia pulmonar, EP) ou noutros órgãos; </li>
+<li>se sabe que tem um distúrbio que afeta a coagulação sanguínea - por exemplo, deficiência de 
+proteína C, deficiência de proteína S, deficiência de antitrombina-III, fator V de Leiden ou 
+anticorpos antifosfolipídicos; </li>
+<li>se necessita de uma cirurgia ou se estiver acamada durante muito tempo (ver secção “Coágulos 
+sanguíneos"); </li>
+<li>se tiver tido um ataque cardíaco ou um acidente vascular cerebral; </li>
+<li>se tem (ou tiver tido) angina de peito (uma doença que provoca dor forte no peito e que poderá 
+ser um primeiro sinal de um ataque cardíaco) ou acidente isquémico transitório (AIT - sintomas 
+temporários de acidente vascular cerebral); </li>
+<li>se tem alguma das seguintes doenças que poderão aumentar o risco de ter um coágulo nas 
+artérias: </li>
+<li>diabetes grave com danos nos vasos sanguíneos; </li>
+<li>tensão arterial muito elevada; </li>
+<li>um nível muito elevado de gordura no sangue (colesterol ou triglicéridos); </li>
+<li>uma doença chamada hiper-homocisteinemia; </li>
+<li>se tem (ou tiver tido) um tipo de enxaqueca denominada “enxaqueca com aura"; </li>
+<li>se tem (ou tiver tido) um tumor no fígado (benigno ou maligno); </li>
+<li>se tem (ou tiver tido) uma doença do fígado e o seu fígado ainda não está a funcionar 
+normalmente; </li>
+<li>se os seus rins não estão a funcionar bem (insuficiência renal); </li>
+<li>se tem (ou tiver tido) ou se se suspeita que tem cancro da mama ou cancro dos órgãos genitais; </li>
+<li>se tiver qualquer sangramento anormal da vagina; </li>
+<li>se tem alergia ao estetrol ou à drospirenona, ou a qualquer outro componente deste 
+medicamento (indicados na secção 6).  </li>
+</ul>
+<p>Se qualquer uma destas situações surgir pela primeira vez enquanto estiver a utilizar Drovelis, pare 
+imediatamente de tomar e fale com o seu médico. Entretanto, utilize um contracetivo não hormonal. 
+Veja também as “Notas gerais" da secção 2 acima. </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar Drovelis. </p>
+<p>Quando deverá contactar o seu médico? </p>
+<p>Procure atenção médica urgente </p>
+<ul>
+<li>se notar possíveis sinais de um coágulo sanguíneo que possam significar que está a sofrer de um 
+coágulo sanguíneo na perna (ou seja, trombose venosa profunda), um coágulo nos pulmões (ou 
+seja, embolia pulmonar), um ataque cardíaco ou um acidente vascular cerebral (ver secção 
+“Coágulos sanguíneos" abaixo). </li>
+</ul>
+<p>Para uma descrição dos sintomas destes efeitos indesejáveis graves, ver “Como reconhecer um 
+coágulo sanguíneo". </p>
+<p>Informe o seu médico se alguma das seguintes situações se aplica a si 
+Se a situação se desenvolver, ou se piorar, enquanto estiver a tomar Drovelis, deverá também informar 
+o seu médico: 
+- se um parente próximo tem ou já teve no passado cancro da mama; 
+- se tem angioedema hereditário ou adquirido. Os medicamentos contendo estrogénios podem 
+induzir ou agravar os sintomas de angioedema. Consulte o seu médico imediatamente se tiver 
+sintomas de angioedema tais como inchaço da face, língua e/ou garganta e/ou dificuldade em 
+engolir ou urticária, juntamente com dificuldade em respirar; 
+- se tem uma doença no fígado ou na vesícula biliar; 
+- se tem diabetes; 
+- se tem depressão; 
+- se tem epilepsia (veja a secção 2 “Outros medicamentos e Drovelis"); 
+- se tem doença de Crohn ou colite ulcerosa (doença inflamatória crónica do intestino); 
+- se tem lúpus eritematoso sistémico (LES - uma doença que afeta o seu sistema de defesa 
+natural); 
+- se tem síndrome urémica hemolítica (SUH - um distúrbio da coagulação sanguínea que causa 
+falha dos rins); 
+- se tem anemia das células falciformes (uma doença congénita dos glóbulos vermelhos); 
+- se tem níveis elevados de gordura no sangue (hipertrigliceridemia) ou antecedentes familiares 
+positivos para esta doença. A hipertrigliceridemia tem sido associada a um risco aumentado de 
+desenvolvimento de pancreatite (inflamação do pâncreas); 
+- se necessita de uma cirurgia ou se estiver acamada durante muito tempo (ver na secção 2 
+“Coágulos sanguíneos"); 
+- se acabou de ter um bebé, apresenta um risco aumentado de coágulos sanguíneos. Deverá 
+consultar o seu médico sobre quando pode começar a tomar Drovelis depois do parto; 
+- se tem uma inflamação nas veias sob a pele (tromboflebite superficial); 
+- se tem varizes; 
+- se tem ou já teve no passado cloasma (uma descoloração da pele, especialmente na cara ou no 
+pescoço, conhecida como “manchas da gravidez"). Neste caso, evite a exposição direta à luz do 
+sol e à radiação ultravioleta. 
+- se tem uma doença que surgiu pela primeira vez durante a gravidez ou uso anterior de hormonas 
+sexuais (p. ex., perda de audição, uma doença do sangue chamada porfiria, erupção da pele com 
+formação de bolhas durante a gravidez [herpes gestacional], uma doença dos nervos em que 
+acontecem movimentos súbitos do corpo [coreia de Sydenham]). </p>
+<p>COÁGULOS SANGUÍNEOS </p>
+<p>A utilização de um contracetivo hormonal combinado como Drovelis aumenta o risco de desenvolver 
+um coágulo sanguíneo, comparativamente com a não-utilização. Em casos raros, um coágulo 
+sanguíneo pode bloquear os vasos sanguíneos e causar problemas graves. </p>
+<p>Os coágulos sanguíneos podem desenvolver-se 
+- nas veias (referidos como “trombose venosa", “tromboembolismo venoso" ou TEV) 
+- nas artérias (referidos como “trombose arterial", “tromboembolismo arterial" ou TEA). </p>
+<p>A recuperação de coágulos sanguíneos nem sempre é total. Raramente, poderão haver efeitos graves 
+duradouros ou, muito raramente, poderão ser fatais. </p>
+<p>É importante recordar que o risco geral de um coágulo sanguíneo prejudicial devido a Drovelis é 
+baixo. </p>
+<p>COMO RECONHECER UM COÁGULO SANGUÍNEO </p>
+<p>Procure atenção médica urgente se notar qualquer dos seguintes sinais ou sintomas. </p>
+<p>Sente algum destes sinais? 
+De que está possivelmente a 
+sofrer? 
+- inchaço de uma perna ou ao longo de uma veia da perna ou do pé, 
+especialmente quando acompanhado por: 
+- dor ou sensibilidade na perna, que poderá ser apenas sentida 
+em pé ou ao andar 
+- aumento do calor na perna afetada 
+- alteração da cor da pele na perna, p. ex., ficar pálida, vermelha 
+ou azul 
+Trombose venosa profunda 
+- falta de ar inexplicável súbita ou respiração rápida; 
+- tosse súbita sem uma causa óbvia, que poderá ter sangue; 
+- dor aguda no peito que poderá aumentar com respiração 
+profunda; 
+- atordoamento ou tonturas graves; 
+- batimento cardíaco rápido ou irregular; 
+- dor forte no seu estômago. </p>
+<p>Se não tem certeza, fale com um médico uma vez que alguns destes 
+sintomas, como tosse ou falta de ar, poderão ser confundidos com 
+uma doença mais ligeira, tal como uma infeção do trato respiratório 
+(p. ex., uma “constipação comum"). 
+Embolia pulmonar 
+Os sintomas que ocorrem mais frequentemente num olho: 
+- perda imediata de visão ou 
+- visão desfocada sem dor, que pode progredir para perda de visão. 
+Trombose das veias retinianas 
+(coágulo sanguíneo no olho) 
+- dor no peito, desconforto, pressão, peso; 
+- sensação de aperto ou de enfartamento no peito, braço ou abaixo 
+do esterno; 
+- enfartamento, indigestão ou sensação de sufoco; 
+- desconforto na parte superior do corpo que irradia para as costas, 
+maxilar, garganta, braço e estômago; 
+- transpiração, náuseas, vómitos ou tonturas; 
+- fraqueza extrema, ansiedade ou falta de ar; 
+- batimentos cardíacos rápidos ou irregulares. 
+Ataque cardíaco 
+- fraqueza ou entorpecimento súbito da face, braço ou perna, 
+especialmente de um lado do corpo; 
+- confusão súbita, problemas ao falar ou entender; 
+- problemas súbitos de visão em um ou ambos os olhos; 
+- problemas súbitos ao andar, tonturas, perda de equilíbrio ou de 
+coordenação; 
+- dor de cabeça súbita, grave ou prolongada sem causa conhecida; 
+- perda de consciência ou desmaio com ou sem convulsão. </p>
+<p>Por vezes os sintomas de acidente vascular cerebral podem ser 
+Acidente vascular cerebral </p>
+<p>breves com uma recuperação quase imediata e total, mas mesmo 
+assim deverá procurar atenção médica urgente uma vez que poderá 
+estar em risco de ter outro acidente vascular cerebral. 
+- inchaço e ligeira descoloração azul de uma extremidade; 
+- dor forte no seu estômago (abdómen agudo). 
+Coágulos sanguíneos a 
+bloquearem outros vasos 
+sanguíneos </p>
+<p>COÁGULOS SANGUÍNEOS NUMA VEIA </p>
+<p>O que pode acontecer se um coágulo sanguíneo se formar numa veia? 
+- A utilização de contracetivos hormonais combinados foi associada a um aumento no risco de 
+coágulos sanguíneos nas veias (trombose venosa). No entanto, estes efeitos indesejáveis são 
+raros. Muito frequentemente, ocorrem no primeiro ano de utilização de um contracetivo 
+hormonal combinado. 
+- Se um coágulo sanguíneo se formar numa veia da perna ou do pé, pode causar uma trombose 
+venosa profunda (TVP). 
+- Se um coágulo sanguíneo se deslocar da perna e se alojar nos pulmões, pode causar uma 
+embolia pulmonar. 
+- Muito raramente, um coágulo poderá formar-se numa veia de outro órgão como o olho 
+(trombose das veias retinianas). </p>
+<p>Quando é mais elevado o risco de desenvolver um coágulo sanguíneo numa veia? 
+O risco de desenvolver um coágulo sanguíneo numa veia é mais elevado durante o primeiro ano de 
+toma de um contracetivo hormonal combinado pela primeira vez. O risco poderá também ser mais 
+elevado se reiniciar a toma de um contracetivo hormonal combinado (o mesmo medicamento ou outro 
+diferente) após uma pausa de 4 semanas ou mais. 
+Após o primeiro ano, o risco torna-se menor, mas é sempre ligeiramente mais elevado do que se não 
+utilizasse um contracetivo hormonal combinado. 
+Quando parar de tomar Drovelis, o seu risco de um coágulo sanguíneo retoma ao normal dentro de 
+poucas semanas. </p>
+<p>Qual o risco de desenvolver um coágulo sanguíneo? 
+O risco depende do seu risco natural de ter um TEV e do tipo de contracetivo hormonal combinado 
+que está a tomar.<br />
+O risco total de um coágulo sanguíneo na perna ou no pulmão (TVP ou EP) com Drovelis é baixo. 
+- Em cada 10.000 mulheres que não estejam a utilizar qualquer contracetivo hormonal combinado 
+e que não estejam grávidas, cerca de 2 desenvolverão um coágulo sanguíneo num ano. 
+- Em cada 10.000 mulheres que estejam a utilizar um contracetivo hormonal combinado que 
+contenha etinilestradiol de baixa dosagem (&lt;50 microgramas de etinilestradiol), combinado com 
+levonorgestrel, noretisterona ou norgestimato, cerca de 5-7 desenvolverão um coágulo 
+sanguíneo num ano. 
+- Ainda não se sabe como o risco de um coágulo sanguíneo com Drovelis se compara ao risco 
+com um contracetivo hormonal combinado que contém levonorgestrel. 
+- O risco de ter um coágulo sanguíneo variará de acordo com os seus antecedentes médicos 
+pessoais (ver “Fatores que aumentam o risco de um coágulo sanguíneo" abaixo). </p>
+<p>Risco de desenvolver um 
+coágulo sanguíneo num ano 
+Mulheres que não estão a utilizar uma pílula/adesivo/anel 
+hormonal combinado e não estão grávidas 
+Cerca de 2 em cada 10.mulheres 
+Mulheres a utilizar uma pílula contracetiva hormonal combinada 
+contendo etinilestradiol de baixa dosagem (&lt;50 microgramas de 
+etinilestradiol) em associação com levonorgestrel, 
+Cerca de 5-7 em cada 10.mulheres </p>
+<p>noretisterona ou norgestimato 
+Mulheres a utilizar Drovelis 
+Ainda não é conhecido  </p>
+<p>Fatores que aumentam o risco de um coágulo sanguíneo numa veia 
+O risco de um coágulo sanguíneo com Drovelis é baixo, mas algumas situações aumentam o risco. O 
+risco é mais elevado:<br />
+- se tem muito excesso de peso (índice de massa corporal ou IMC superior a 30 kg/m2); 
+- se algum dos seus familiares próximos tiver tido um coágulo sanguíneo na perna, pulmão ou 
+noutro órgão com uma idade jovem (p. ex., abaixo de cerca dos 50 anos de idade). Neste caso, 
+poderá ter um distúrbio congénito da coagulação sanguínea; 
+- se necessitar de ter uma cirurgia, ou se está acamada durante muito tempo devido a uma lesão 
+ou doença, ou se tem a perna engessada. A utilização de Drovelis poderá necessitar de ser 
+interrompida várias semanas antes da cirurgia ou enquanto estiver com menos mobilidade. Se 
+necessitar de parar Drovelis, consulte o seu médico sobre quando pode começar novamente a 
+utilizá-lo; 
+- com o aumento da idade (particularmente acima de cerca de 35 anos); 
+- se teve um parto há poucas semanas. </p>
+<p>O risco de desenvolver um coágulo sanguíneo aumenta quantas mais situações tiver. 
+Viagens aéreas (&gt;4 horas) poderão aumentar temporariamente o risco de um coágulo sanguíneo, 
+particularmente se tiver alguns dos outros fatores listados. 
+É importante informar o seu médico se alguma destas situações se aplicar a si, mesmo se não tiver a 
+certeza. O seu médico poderá decidir que Drovelis necessita de ser interrompido. 
+Se alguma das situações acima se alterar enquanto estiver a utilizar Drovelis, por exemplo, um 
+membro próximo da família tiver uma trombose sem razão aparente; ou se ganhar muito peso, informe 
+o seu médico. </p>
+<p>COÁGULOS SANGUÍNEOS NUMA ARTÉRIA </p>
+<p>O que pode acontecer se um coágulo sanguíneo se formar numa artéria? 
+Tal como um coágulo sanguíneo numa veia, um coágulo numa artéria pode provocar problemas 
+graves. Por exemplo, pode provocar um ataque cardíaco ou um acidente vascular cerebral. </p>
+<p>Fatores que aumentam o risco de um coágulo sanguíneo numa artéria 
+É importante notar que o risco de um ataque cardíaco ou acidente vascular cerebral por utilizar 
+Drovelis é muito baixo, mas pode aumentar: 
+- com o aumento da idade (para além dos 35 anos); 
+- se fumar. Quando utilizar um contracetivo hormonal combinado, como Drovelis, é aconselhada 
+a parar de fumar. Se for incapaz de parar de fumar e tiver mais de 35 anos, o seu médico poderá 
+aconselhá-la a utilizar um tipo diferente de contracetivo; 
+- se tem excesso de peso; 
+- se tem tensão arterial elevada; 
+- se um membro próximo da sua família tiver tido um ataque cardíaco ou um acidente vascular 
+cerebral com uma idade jovem (menos de cerca de 50 anos). Neste caso, poderá também ter um 
+risco mais elevado de ter um ataque cardíaco ou acidente vascular cerebral; 
+- se você, ou algum familiar próximo, tem um nível elevado de gordura no sangue (colesterol ou 
+triglicéridos); 
+- se tem enxaquecas, especialmente enxaquecas com aura; 
+- se tem um problema com o seu coração (perturbação nas válvulas, distúrbio do ritmo 
+denominado fibrilhação auricular); 
+- se tem diabetes. </p>
+<p>Se tem mais do que uma destas situações, ou se alguma delas for particularmente grave, o risco de 
+desenvolver um coágulo sanguíneo poderá estar ainda mais aumentado. </p>
+<p>Se alguma das situações acima se alterar enquanto estiver a utilizar Drovelis, por exemplo, se começar 
+a fumar, um membro próximo da família tiver uma trombose sem motivo conhecido; ou se ganhar 
+muito peso, informe o seu médico. </p>
+<p>Cancro 
+O cancro da mama tem sido observado numa quantidade ligeiramente maior em mulheres que usam 
+pílulas combinadas, mas desconhece-se se isto é causado pelo tratamento. Por exemplo, poderão ser 
+encontrados tumores mais vezes em mulheres que tomam a pílula combinada porque estas são 
+examinadas pelo médico mais vezes. Após parar a toma da pílula combinada, o risco aumentado reduz 
+gradualmente. É importante observar as suas mamas regularmente e deve contactar o seu médico se 
+sentir algum nódulo. Deve igualmente falar com o seu médico se um parente próximo tem ou já teve 
+cancro da mama (veja a secção 2 “Advertências e precauções"). </p>
+<p>Em casos raros, foram referidos tumores benignos (não cancerosos) do fígado e, ainda mais raramente, 
+tumores malignos (cancerosos) do fígado entre as utilizadoras da pílula. Contacte o seu médico se tiver 
+uma dor abdominal forte não habitual. </p>
+<p>O cancro do colo do útero é causado por uma infeção pelo papilomavirus humano (HPV). Tem sido 
+referido que esta situação ocorre mais vezes em mulheres que tomam a pílula durante mais de 5 anos. 
+Não se sabe se este facto se deve ao uso de contracetivos hormonais ou a outros fatores, tais como 
+diferenças no comportamento sexual. </p>
+<p>Perturbações do foro psiquiátrico 
+Algumas mulheres que utilizam contracetivos hormonais, incluindo Drovelis, têm relatado depressão 
+ou humor depressivo. A depressão pode ser grave e, por vezes, pode conduzir a pensamentos suicidas. 
+Se sofrer de alterações do humor e sintomas depressivos, contacte o seu médico para obter 
+aconselhamento o quanto antes. </p>
+<p>Hemorragia entre períodos 
+O seu período menstrual começará, normalmente, enquanto está a tomar os comprimidos placebo 
+brancos da embalagem de Drovelis. Durante os primeiros meses em que toma Drovelis, poderá ter 
+hemorragia não esperada (hemorragia fora dos dias placebo). Geralmente, esta hemorragia é ligeira e 
+não requer nenhumas medidas higiénicas. Se esta hemorragia durar mais que escassos meses ou se 
+começar após alguns meses, o seu médico tem de verificar o que se passa. </p>
+<p>O que tem de fazer se não ocorrer hemorragia durante os dias placebo 
+Se tem tomado corretamente todos os comprimidos ativos rosa, sem a ocorrência de vómitos ou 
+diarreia intensa e se não tomou quaisquer outros medicamentos, é altamente improvável que esteja 
+grávida. Continue a tomar Drovelis como habitualmente. 
+Se não tomou todos os comprimidos corretamente, ou se a hemorragia esperada não ocorrer por duas 
+vezes sucessivas, poderá estar grávida. Contacte imediatamente o seu médico. Apenas inicie o novo 
+blister se tiver a certeza de que não está grávida. Ver também na secção 3. “Se vomitar ou tiver 
+diarreia intensa" ou na secção 2. “Outros medicamentos e Drovelis". </p>
+<p>Crianças e adolescentes 
+Drovelis só é indicado após a menarca (o primeiro período menstrual). Não existem dados disponíveis 
+sobre eficácia e segurança em adolescentes com idade inferior a 16 anos. </p>
+<p>Outros medicamentos e Drovelis 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Informe também qualquer outro médico ou dentista que lhe receite outros 
+medicamentos (ou o seu farmacêutico) de que está a tomar Drovelis. Eles podem informá-la se 
+necessita de tomar precauções contracetivas adicionais (por exemplo, preservativos) e, se assim for, 
+por quanto tempo, ou se a utilização de outro medicamento de que necessita tem de ser alterada. 
+Alguns medicamentos podem ter influência nos níveis sanguíneos de Drovelis e podem torná-lo 
+menos eficaz na prevenção da gravidez ou levar ao aparecimento de hemorragias inesperadas. 
+Incluem-se os medicamentos utilizados para o tratamento de: </p>
+<ul>
+<li>epilepsia (por ex., barbitúricos, carbamazepina, fenitoína, primidona, felbamato, oxcarbazepina, 
+topiramato); </li>
+<li>tuberculose (por ex., rifampicina); </li>
+<li>infeções por VIH e pelo vírus da Hepatite C (VHC) (por ex., os chamados inibidores da protease 
+e análogos não nucleosídeos inibidores da transcriptase reversa tais como, ritonavir, nevirapina, 
+efavirenz); </li>
+<li>infeções fúngicas (por ex., griseofulvina); </li>
+<li>tensão arterial alta nos vasos sanguíneos dos pulmões (por ex., bosentano). </li>
+</ul>
+<p>O hipericão (Hypericum perforatum) também pode impedir Drovelis de atuar de forma adequada. Se 
+desejar usar produtos à base de plantas contendo hipericão enquanto estiver a usar Drovelis, deve falar 
+primeiro com o seu médico. </p>
+<p>Se estiver a tomar medicamentos ou produtos à base de plantas que possam tornar Drovelis menos 
+eficaz, deverá ser utilizado também um método contracetivo de barreira. O método contracetivo de 
+barreira tem de ser usado durante todo o tempo do tratamento concomitante e durante 28 dias após a 
+sua descontinuação. Se o tratamento concomitante for além do fim dos comprimidos ativos rosa no 
+blister atual, os comprimidos placebo brancos têm de ser rejeitados e o próximo blister de Drovelis 
+deve ser iniciado imediatamente. </p>
+<p>Se for necessário um tratamento prolongado com os medicamentos mencionados acima, deve utilizar 
+métodos contracetivos não hormonais. Consulte o seu médico ou farmacêutico. </p>
+<p>Drovelis pode influenciar o efeito de outros medicamentos, p. ex.: 
+- ciclosporina (medicamento utilizado no tratamento da supressão da rejeição de tecidos após 
+cirurgia de transplantação); 
+- lamotrigina (medicamento usado no tratamento da epilepsia). </p>
+<p>O regime terapêutico combinado para o VHC ombitasvir/paritaprevir/ritonavir e dasabuvir associado 
+ou não a ribavirina, bem como o regime glecaprevir/pibrentasvir ou 
+sofosbuvir/velpatasvir/voxilaprevir, podem originar aumentos nos resultados das análises sanguíneas à 
+função do fígado (aumento da enzima hepática ALT) em mulheres a utilizar CHCs contendo 
+etinilestradiol. Drovelis contém estetrol em vez de etinilestradiol. Não se sabe se pode ocorrer um 
+aumento da enzima hepática ALT quando utilizar Drovelis com estes regimes combinados para o 
+VHC. O seu médico aconselhá-la-á. </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Análises laboratoriais 
+Se vai fazer alguma análise ao sangue ou à urina, informe o seu médico que está a utilizar Drovelis, 
+uma vez que este pode afetar o resultado de algumas análises. </p>
+<p>Drovelis com alimentos e bebidas 
+Drovelis pode ser tomado com ou sem alimentos, se necessário com uma pequena quantidade de água. </p>
+<p>Gravidez e amamentação 
+Drovelis não pode ser tomado por mulheres grávidas ou que pensem estar grávidas.<br />
+Se ficar grávida enquanto estiver a tomar Drovelis, deve parar imediatamente de tomar Drovelis e falar 
+com o seu médico.  </p>
+<p>Se quiser engravidar, pode parar de tomar Drovelis em qualquer altura (ver secção 3 “Se parar de 
+tomar Drovelis"). </p>
+<p>Drovelis não é recomendado durante a amamentação. Se desejar tomar a pílula enquanto está a 
+amamentar, deve falar com o seu médico. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Os efeitos de Drovelis sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis. </p>
+<p>Drovelis contém lactose e sódio 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. 
+O comprimido ativo rosa contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio".  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar drovelis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar drovelis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Quando e como tomar os comprimidos 
+O blister de Drovelis contém 28 comprimidos revestidos por película: 24 comprimidos ativos rosa com 
+as substâncias ativas (números 1-24) e 4 comprimidos placebo brancos sem substâncias ativas 
+(números 25-28). 
+Sempre que iniciar um novo blister de Drovelis, tome o comprimido ativo rosa marcado com o 
+número 1 (ver “Start"). Das etiquetas autocolantes com os 7 dias da semana, escolha aquela que inicia 
+com o mesmo dia da semana em que começa a tomar os comprimidos. Por exemplo, se começar a 
+tomar numa quarta-feira, utilize a etiqueta autocolante que inicia com “Qua". Coloque-a na parte da 
+frente do blister sobre o símbolo “
+". Cada dia ficará alinhado com uma fila de pílulas. Isto permite-
+lhe verificar se tomou o seu comprimido diário. </p>
+<p>Tome um comprimido por dia aproximadamente à mesma hora, com um pouco de água, se necessário. </p>
+<p>Siga a direção das setas ao longo do blister. Assim, toma primeiro os comprimidos ativos rosa e depois 
+os comprimidos placebo brancos. </p>
+<p>O seu período irá começar durante os 4 dias em que está a tomar os comprimidos placebo brancos (a 
+chamada hemorragia de privação). Habitualmente, o período começa 2 a 4 dias após o último 
+comprimido ativo rosa e pode ainda não ter terminado antes do início do próximo blister. 
+Comece a tomar os comprimidos do próximo blister logo após o último comprimido placebo branco, 
+mesmo que o seu período não tenha terminado. Isto significa que irá iniciar um novo blister sempre no 
+mesmo dia da semana e também que o seu período menstrual deverá aparecer aproximadamente nos 
+mesmos dias de cada mês. </p>
+<p>Algumas mulheres poderão não ter o seu período todos os meses durante a toma dos comprimidos 
+placebo brancos. Se tiver tomado Drovelis todos os dias de acordo com estas indicações, não é 
+provável que esteja grávida. </p>
+<p>Iniciar o seu primeiro blister de Drovelis </p>
+<p>Se não utilizou um contracetivo com hormonas no mês anterior<br />
+Comece com Drovelis no primeiro dia do seu ciclo (isto é, no primeiro dia em que aparece o período). 
+Se iniciar Drovelis no primeiro dia da sua menstruação, estará imediatamente protegida contra a 
+gravidez.<br />
+Também pode começar nos dias 2-5 do ciclo, mas, nesse caso, terá de usar medidas de proteção 
+adicionais (por exemplo, um preservativo) durante os primeiros 7 dias da toma dos comprimidos.  </p>
+<p>Mudar de um contracetivo hormonal combinado, ou contracetivo combinado anel vaginal ou adesivo<br />
+Pode iniciar Drovelis, preferencialmente, no dia a seguir ao último comprimido ativo (o último 
+comprimido que contém as substâncias ativas) da sua pílula anterior mas, o mais tardar, no dia 
+seguinte a terminar os dias sem comprimidos da sua pílula anterior (ou após o último comprimido 
+inativo da sua pílula anterior). Se mudar de um contracetivo combinado anel vaginal ou adesivo, siga 
+os conselhos do seu médico. </p>
+<p>Mudar de um método só com progestagénio (pílula apenas com progestagénio, injeção, implante ou 
+um dispositivo de libertação intrauterino [DLIU] de progestagénio) 
+Poderá mudar em qualquer dia da pílula apenas com progestagénio (de um implante ou de um DLIU 
+no dia em que é retirado, de um injetável quando fosse a altura da injeção seguinte), mas, em todos 
+estes casos, tem que utilizar medidas contracetivas adicionais (por exemplo, um preservativo) nos 
+primeiros 7 dias de toma de comprimidos. </p>
+<p>Após um aborto espontâneo ou induzido<br />
+Siga o conselho do seu médico. </p>
+<p>Após um parto 
+Pode começar a tomar Drovelis entre o 21º e 28º dia após o parto. Se começar mais tarde que o 28º 
+dia, tem que utilizar um método contracetivo de barreira (por exemplo, um preservativo) durante os 
+primeiros 7 dias que toma Drovelis. Se, após o parto, tiver tido relações sexuais antes de começar a 
+tomar Drovelis, tem de primeiro certificar-se de que não está grávida ou tem que esperar pelo seu 
+próximo período.  </p>
+<p>Se está a amamentar e quer iniciar Drovelis (novamente) após um parto 
+Leia a secção sobre “Amamentação". </p>
+<p>Se não tiver a certeza de quando começar, pergunte ao seu médico ou farmacêutico o que fazer. </p>
+<p>Se tomar mais Drovelis do que deveria 
+Não foram referidos efeitos prejudiciais graves devido à toma de vários comprimidos de Drovelis. 
+Se tiver tomado vários comprimidos de uma só vez, poderá ter náuseas, vómitos ou hemorragia 
+vaginal. Até as raparigas que ainda não tenham iniciado a menstruação, mas tenham tomado este 
+medicamento acidentalmente, podem ter hemorragia. 
+Se tiver tomado muitos comprimidos de Drovelis, ou souber que uma criança tomou alguns, peça 
+conselho ao seu médico ou farmacêutico.  </p>
+<p>Caso se tenha esquecido de tomar Drovelis 
+Os últimos 4 comprimidos brancos do blister são os comprimidos placebo. Se se esquecer de um 
+destes comprimidos, não há qualquer efeito na fiabilidade de Drovelis. Deite fora o comprimido 
+placebo branco esquecido. </p>
+<p>Se se esquecer de um comprimido ativo rosa (comprimidos 1-24 do seu blister), tem que fazer o 
+seguinte: </p>
+<ul>
+<li>
+<p>se estiver menos de 24 horas atrasada na toma de um comprimido ativo rosa, a proteção 
+contra a gravidez não é reduzida. Tome o comprimido assim que possível e depois tome os 
+comprimidos seguintes à hora habitual. </p>
+</li>
+<li>
+<p>se estiver mais de 24 horas atrasada na toma de um comprimido ativo rosa, a proteção contra a 
+gravidez pode estar diminuída. Quanto mais comprimidos se esqueceu de tomar, maior é o risco 
+de engravidar. </p>
+</li>
+</ul>
+<p>O risco de proteção incompleta contra a gravidez é maior se se esquecer de tomar um comprimido 
+ativo rosa no início ou no fim do blister. Por esse motivo, deve seguir as regras abaixo (ver também o 
+diagrama): </p>
+<p>Mais do que um comprimido esquecido neste blister: 
+Contacte o seu médico. </p>
+<p>Um comprimido ativo rosa esquecido entre os dias 1-7<br />
+Tome o comprimido esquecido assim que possível, mesmo que isto signifique que tem de tomar dois 
+comprimidos ao mesmo tempo. Continue a tomar os comprimidos à hora habitual e tome precauções 
+adicionais, por exemplo, um preservativo, durante os 7 dias seguintes enquanto estiver a tomar os </p>
+<p>comprimidos corretamente. Se tiver tido relações sexuais na semana anterior ao esquecimento dos 
+comprimidos, tem de ter consciência de que existe um risco de gravidez. Neste caso, contacte o seu 
+médico. </p>
+<p>Um comprimido ativo rosa esquecido entre os dias 8-17<br />
+Tome o comprimido esquecido assim que possível, mesmo que isto signifique que tem de tomar dois 
+comprimidos ao mesmo tempo. Continue a tomar os comprimidos à hora habitual. A proteção contra a 
+gravidez não é reduzida e não necessita de tomar precauções adicionais. </p>
+<p>Um comprimido ativo rosa esquecido entre os dias 18-24<br />
+Pode escolher entre duas possibilidades: 
+1. Tome o comprimido esquecido assim que possível, mesmo que isto signifique que tem de tomar 
+dois comprimidos ao mesmo tempo. Continue a tomar os comprimidos à hora habitual. Em vez 
+de tomar os comprimidos placebo brancos deste blister, deite-os fora e inicie o blister seguinte 
+(o primeiro dia será diferente). </p>
+<p>Muito provavelmente, terá um período no final do segundo blister - enquanto toma os 
+comprimidos placebo brancos - mas poderá ter hemorragia ligeira ou parecida à menstruação 
+durante o segundo blister. </p>
+<ol>
+<li>Também pode parar os comprimidos ativos rosa e ir diretamente para os 4 comprimidos placebo 
+brancos. Antes de tomar os comprimidos placebo brancos, registe o dia em que se esqueceu do 
+seu comprimido. O período placebo não deve ultrapassar os 4 dias. Se quiser iniciar um novo 
+blister no dia em que inicia sempre, tome os comprimidos placebo brancos durante menos de 4 
+dias. </li>
+</ol>
+<p>Se seguir uma destas duas recomendações, permanecerá protegida contra a gravidez. </p>
+<p>Caso se tenha esquecido de tomar algum dos comprimidos do blister e não tiver hemorragia durante os 
+dias placebo, isto poderá indicar que está grávida. Terá que contactar o seu médico antes de iniciar o 
+próximo blister. </p>
+<p>Esquema se estiver mais de 24 horas atrasada na toma de comprimidos ativos rosa </p>
+<p>Mais do que um comprimido esquecido neste blister 
+Siga o conselho do seu médico. </p>
+<p>Se vomitar ou tiver diarreia intensa 
+Se vomitar no período de 3 a 4 horas após tomar o comprimido ativo rosa, ou tiver diarreia intensa, 
+existe o risco das substâncias ativas da pílula não serem totalmente absorvidas pelo seu organismo. A 
+situação é quase igual ao esquecimento de um comprimido. Após vomitar ou ter diarreia, tem que 
+tomar o mais cedo possível outro comprimido ativo rosa de um blister de reserva. Se possível, tome-o 
+no período de 24 horas de quando toma normalmente a sua pílula. Se isto não é possível ou se tiverem 
+passado 24 horas, deve seguir o conselho dado em “Caso se tenha esquecido de tomar Drovelis".  </p>
+<p>Atrasar o seu período: o que precisa de saber 
+Mesmo que não seja recomendado, pode atrasar o seu período não tomando os comprimidos placebo 
+brancos da 4ª fila e passando diretamente para um novo blister de Drovelis e terminá-lo. Poderá ter 
+uma hemorragia ligeira ou uma hemorragia parecida à menstruação enquanto estiver a usar este 
+segundo blister. Termine este segundo blister tomando os 4 comprimidos placebo brancos. Inicie então 
+o seu próximo blister. Poderá pedir conselhos ao seu médico antes de decidir atrasar o seu período 
+menstrual. </p>
+<p>Se quiser alterar o primeiro dia do seu período menstrual 
+Se tomar os comprimidos de acordo com as instruções, então o seu período menstrual irá começar nos 
+dias em que toma o placebo. Se tem que mudar este dia, diminua o número de dias de placebo - 
+quando toma os comprimidos placebo brancos - mas nunca aumente os dias (4 é o máximo). Por 
+exemplo, se começar a tomar os comprimidos placebo brancos na sexta-feira e quer mudar para uma 
+Mais 
+do 
+que 
+1 
+comprimido ativo rosa 
+esquecido em 1 blister </p>
+<ul>
+<li>
+<p>Pergunte ao seu médico 
+Dia 1-7 
+Dia 8-Dia 18-Apenas 1 comprimido 
+ativo 
+rosa 
+esquecido 
+(tomado com mais de 
+24 horas de atraso) </p>
+</li>
+<li>
+<p>Teve relações sexuais na semana anterior ao 
+esquecimento? 
+SIM 
+NÃO </p>
+</li>
+<li>
+<p>Tome o comprimido esquecido </p>
+</li>
+<li>
+<p>Utilize métodos de barreira adicionais 
+(preservativo) durante os próximos 7 dias </p>
+</li>
+<li>
+<p>Termine o blister </p>
+</li>
+<li>
+<p>Tome o comprimido esquecido  </p>
+</li>
+<li>
+<p>Termine o blister </p>
+</li>
+<li>
+<p>Tome o comprimido esquecido e </p>
+</li>
+<li>
+<p>Acabe de tomar os comprimidos ativos rosa  </p>
+</li>
+<li>
+<p>Deite fora os 4 comprimidos placebo brancos  </p>
+</li>
+<li>
+<p>Inicie o próximo blister 
+OU </p>
+</li>
+<li>
+<p>Pare imediatamente os comprimidos ativos rosa </p>
+</li>
+<li>
+<p>Vá diretamente para os 4 comprimidos placebo 
+brancos  </p>
+</li>
+<li>
+<p>Inicie então o próximo blister  </p>
+</li>
+</ul>
+<p>terça-feira (3 dias mais cedo) tem que começar um novo blister 3 dias mais cedo que o habitual. Pode 
+não ter qualquer hemorragia durante o período mais curto da toma dos comprimidos placebo brancos. 
+Enquanto estiver a utilizar o blister seguinte, pode ter algum spotting (gotas ou manchas de sangue) ou 
+hemorragia intercorrente enquanto estiver a tomar os comprimidos ativos rosa. </p>
+<p>Se não tiver a certeza do que fazer, consulte o seu médico ou farmacêutico. </p>
+<p>Se parar de tomar Drovelis 
+Pode parar de tomar Drovelis em qualquer altura. Se não quiser engravidar, peça primeiro informação 
+ao seu médico sobre outros métodos de controlo da natalidade. 
+Se parar de tomar Drovelis porque deseja engravidar, é melhor esperar até ter um período natural antes 
+de tentar engravidar. Isto ajudará a calcular mais facilmente a data prevista para o parto. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Se tiver qualquer efeito indesejável, particularmente se for grave e 
+persistente, ou tiver qualquer alteração na sua saúde que pense poder dever-se a Drovelis, fale com o 
+seu médico. </p>
+<p>Um risco aumentado de coágulos sanguíneos nas veias (tromboembolismo venoso (TEV) ou coágulos 
+sanguíneos nas artérias (tromboembolismo arterial (TEA)) está presente em todas as mulheres que 
+tomem contracetivos hormonais combinados. Para informação mais detalhada sobre os diferentes 
+riscos de tomar contracetivos hormonais combinados, ver secção 2 “O que precisa de saber antes de 
+tomar Drovelis". </p>
+<p>Os seguintes efeitos indesejáveis foram relacionados com a utilização de Drovelis: </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): 
+- perturbação do humor, perturbação da líbido;<br />
+- dor de cabeça; 
+- dor abdominal, náuseas; 
+- acne; 
+- dor na mama, períodos dolorosos, sangramento vaginal (durante ou fora dos períodos, 
+menstruação irregular intensa); 
+- oscilações de peso.  </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- infeção fúngica, infeção vaginal, infeção do trato urinário; 
+- mudanças no apetite (alteração do apetite);<br />
+- depressão, perturbação emocional, perturbação de ansiedade, stress, problemas para dormir; 
+- enxaqueca, tonturas, “formigueiro", sonolência; 
+- vermelhidão; 
+- inchaço abdominal (da barriga), vómitos, diarreia; 
+- perda de cabelo, transpiração excessiva (hiperidrose), pele seca, erupção na pele, inchaço da 
+pele; 
+- dor nas costas; 
+- mamas inchadas, nódulos na mama, sangramento genital anormal, dor durante relações sexuais, 
+doença fibroquística da mama (presença de um ou mais quistos numa mama), períodos 
+abundantes, ausência de menstruação, perturbações menstruais, síndrome pré-menstrual, 
+contrações do útero, sangramento uterino ou vaginal incluindo spotting, corrimento vaginal, 
+anomalia vulvovaginal (secura, dor, odor, desconforto); </p>
+<ul>
+<li>fadiga, inchaço de partes do seu corpo, p. ex., tornozelos (edema), dor no peito, sensação 
+anormal; </li>
+<li>enzimas hepáticas aumentadas nas análises ao sangue, alterações em certas gorduras no sangue 
+(lípidos).  </li>
+</ul>
+<p>Raros (podem afetar até 1 em 1.000 pessoas): 
+- inflamação da mama;<br />
+- massa mamária benigna;<br />
+- hipersensibilidade (alergia); 
+- retenção de líquidos, níveis de potássio no sangue aumentados; 
+- nervosismo;<br />
+- esquecimento;<br />
+- olho seco, visão turva, insuficiência visual; 
+- vertigens; 
+- tensão arterial alta ou baixa, inflamação de uma veia com formação de coágulo sanguíneo 
+(tromboflebite), varizes; 
+- prisão de ventre, boca seca, indigestão, inchaço do lábio, flatulência, inflamação do intestino, 
+refluxo gástrico, contrações anormais do intestino; 
+- reações alérgicas da pele, manchas de pigmento castanho dourado (cloasma) e outras alterações 
+da pigmentação, crescimento de pelos com um padrão masculino, crescimento excessivo de 
+pelos, afeções da pele como dermatite e dermatite com comichão, caspa e pele oleosa (seborreia) 
+e outras afeções da pele; 
+- cãibras, dor e desconforto nos músculos e nas articulações; 
+- dor no trato urinário, cheiro anormal da urina; 
+- gravidez que ocorre fora do útero (gravidez ectópica); 
+- quisto do ovário, aumento espontâneo do fluxo do leite, dor pélvica, descoloração mamária, 
+sangramento durante relações sexuais, afeções do endométrio, afeções mamilares, sangramento 
+uterino anormal; 
+- mal-estar geral, aumento da temperatura corporal, dor;<br />
+- aumento da tensão arterial, alterações nas análises ao sangue (testes da função renal anormais, 
+potássio no sangue aumentado, glucose no sangue aumentada, hemoglobina diminuída, 
+depósitos de ferro no sangue reduzidos, sangue na urina); 
+- coágulos sanguíneos prejudiciais numa veia, por exemplo: 
+- numa perna ou pé (ou seja, TVP) 
+- num pulmão (ou seja, EP) 
+- ataque cardíaco 
+- acidente vascular cerebral 
+- mini acidente vascular cerebral ou sintomas temporários do tipo acidente vascular 
+cerebral, conhecidos como um acidente isquémico transitório (AIT) 
+- coágulos sanguíneos no fígado, estômago/intestino, rins ou olho. 
+A possibilidade de ter um coágulo sanguíneo poderá ser mais elevada se tiver outras situações 
+que aumentam este risco (ver secção 2 para mais informação sobre as situações que aumentam o 
+risco de coágulos sanguíneos e os sintomas de um coágulo sanguíneo). </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar drovelis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar drovelis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Drovelis<br />
+As substâncias ativas são drospirenona e estetrol. 
+Cada comprimido ativo rosa contém 3 mg de drospirenona e estetrol mono-hidratado equivalente a 
+14,2 mg de estetrol. 
+Cada comprimido placebo branco não contém substâncias ativas. </p>
+<p>Os outros excipientes são: </p>
+<p>Comprimidos revestidos por película ativos rosa: 
+Núcleo do comprimido: 
+Lactose mono-hidratada (ver secção 2 “Drovelis contém lactose e sódio"), carboximetilamido sódico 
+(ver secção 2 “Drovelis contém lactose e sódio"), amido de milho, povidona, estearato de magnésio 
+(E470b). 
+Revestimento do comprimido: 
+Hipromelose (E464), hidroxipropilcelulose (E463), talco (E553b), óleo de algodão hidrogenado, 
+dióxido de titânio (E171), óxido de ferro vermelho (E172). </p>
+<p>Comprimidos revestidos por película placebo brancos: 
+Núcleo do comprimido: 
+Lactose mono-hidratada (ver secção 2 “Drovelis contém lactose e sódio"), amido de milho, estearato 
+de magnésio (E470b). 
+Revestimento do comprimido: 
+Hipromelose (E464), hidroxipropilcelulose (E463), talco (E553b), óleo de algodão hidrogenado, 
+dióxido de titânio (E171). </p>
+<p>Qual o aspeto de Drovelis e conteúdo da embalagem 
+Os comprimidos revestidos por película ativos são rosa, com 6 mm de diâmetro, redondos, 
+biconvexos, com um logótipo em forma de gota gravado num dos lados. 
+Os comprimidos revestidos por película placebo são brancos a esbranquiçados, com 6 mm de 
+diâmetro, redondos, biconvexos, com um logótipo em forma de gota gravado num dos lados. </p>
+<p>Drovelis apresenta-se em blisters de 28 comprimidos revestidos por película (24 comprimidos 
+revestidos por película ativos rosa e 4 comprimidos revestidos por película placebo brancos) dentro de 
+uma embalagem de cartão. Além do(s) blister(s), a embalagem de Drovelis contém um saco de 
+conservação tipo estojo e 1, 3, 6, ou 13 etiquetas autocolantes marcadas com os dias da semana. O 
+número de etiquetas autocolantes depende do número de blisters.  </p>
+<p>Tamanho das embalagens: 28 (1 × 28), 84 (3 × 28), 168 (6 × 28) e 364 (13 × 28) comprimidos 
+revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular de Autorização de Introdução no mercado 
+Gedeon Richter Plc. 
+Gyömrői út 19-21.<br />
+1103 Budapest 
+Hungria </p>
+<p>Fabricante 
+Haupt Pharma Münster GmbH 
+Schleebrüggenkamp 48159 Münster 
+Alemanha </p>
+<p>Gedeon Richter Plc. 
+Gyömrői út 19-21. 1103 Budapest 
+Hungria </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1619,6 +2446,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-83e465306011aa98a59a237fbe1da484"
 * entry[0].resource = composition-da-83e465306011aa98a59a237fbe1da484
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp83e465306011aa98a59a237fbe1da484"
+* entry[=].resource = mp83e465306011aa98a59a237fbe1da484
+                            
+                    
+Instance: bundlepackageleaflet-pt-83e465306011aa98a59a237fbe1da484
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for drovelis Package Leaflet for language pt"
+Description: "ePI document Bundle for drovelis Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-83e465306011aa98a59a237fbe1da484"
+* entry[0].resource = composition-pt-83e465306011aa98a59a237fbe1da484
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp83e465306011aa98a59a237fbe1da484"
@@ -1720,6 +2569,18 @@ RuleSet: 83e465306011aa98a59a237fbe1da484ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-83e465306011aa98a59a237fbe1da484) // drovelis pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

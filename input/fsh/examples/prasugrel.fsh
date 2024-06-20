@@ -864,6 +864,505 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-0b50019879610f5c496f0994be72cd16
+InstanceOf: CompositionUvEpi
+Title: "Composition for prasugrel Package Leaflet"
+Description:  "Composition for prasugrel Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0b50019879610f5c496f0994be72cd16)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - prasugrel"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Prasugrel Viatris e para que é utilizado 
+2. O que precisa de saber antes de tomar Prasugrel Viatris 
+3. Como tomar Prasugrel Viatris 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Prasugrel Viatris 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é prasugrel e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é prasugrel e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Prasugrel Viatris, que contém a substância ativa prasugrel, pertence a um grupo de medicamentos 
+chamados agentes antiplaquetários. As plaquetas são partículas de células muito pequenas que 
+circulam no sangue. Quando um vaso sanguíneo fica danificado, por exemplo, se é cortado, as 
+plaquetas agrupam-se para ajudar a formar um coágulo sanguíneo (trombo). Por isso, as plaquetas são 
+essenciais para ajudar a parar a hemorragia. Se os coágulos se formam dentro de um vaso sanguíneo 
+endurecido, como uma artéria, podem ser muito perigosos pois podem parar o fornecimento de sangue, 
+provocando um ataque cardíaco (enfarte do miocárdio), acidente vascular cerebral ou morte. A 
+formação de coágulos nas artérias que fornecem sangue ao coração também pode reduzir o 
+fornecimento de sangue, causando angina instável (uma dor no peito grave). </p>
+<p>Prasugrel Viatris inibe as plaquetas de se agruparem, reduzindo assim a hipótese de formação de 
+coágulos. </p>
+<p>Prasugrel Viatris foi-lhe prescrito porque você já sofreu um ataque cardíaco ou angina instável e foi-
+lhe feita uma intervenção para abrir as artérias bloqueadas no coração. Pode também ter-lhe sido 
+colocado um ou mais stents para manter aberta uma artéria bloqueada ou estreitada que fornece sangue 
+ao coração. Prasugrel Viatris reduz as hipóteses de ter outro ataque cardíaco ou acidente vascular 
+cerebral ou de morrer de qualquer um destes acontecimentos aterotrombóticos. O seu médico dar-lhe-á 
+também ácido acetilsalicílico (aspirina), outro agente antiplaquetário. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar prasugrel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar prasugrel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Prasugrel Viatris se</h2>
+<p>tem alergia ao prasugrel ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Uma reação alérgica pode ser reconhecida como uma erupção cutânea, comichão, 
+face ou lábios inchados ou falta de ar. Se isto lhe tiver acontecido, informe o seu médico 
+imediatamente. 
+- 
+tiver um problema médico que lhe está presentemente a causar hemorragia, como, por exemplo, 
+hemorragia a partir do estômago ou intestinos. </p>
+<p>41/- 
+alguma vez tiver tido um acidente vascular cerebral ou um acidente isquémico transitório (AIT). 
+- 
+sofrer de doença grave do fígado. </p>
+<p>Advertências e precauções </p>
+<ul>
+<li>Antes de tomar Prasugrel Viatris: </li>
+</ul>
+<p>Fale com o seu médico antes de tomar Prasugrel Viatris. </p>
+<p>Deve falar com o seu médico antes de tomar Prasugrel Viatris no caso de alguma das situações abaixo 
+mencionadas se aplicarem a si: </p>
+<h2>* Se tiver um risco acrescido de hemorragia, como por exemplo:</h2>
+<p>idade igual ou superior a 75 anos. O seu médico deverá prescrever-lhe uma dose diária de 
+5 mg pois existe um risco acrescido de hemorragia em doentes com mais de 75 anos de 
+idade 
+- 
+um traumatismo grave recente 
+- 
+uma cirurgia recente (incluindo certas intervenções dentárias) 
+- 
+hemorragia recente ou recorrente a partir do estômago ou intestinos (p. ex., úlcera de 
+estômago ou pólipos no cólon) 
+- 
+peso corporal inferior a 60 kg. O seu médico deverá prescrever-lhe uma dose diária de 
+5 mg de Prasugrel Viatris se o seu peso for inferior a 60 kg 
+- 
+doença renal (rim) ou problemas de fígado moderados 
+- 
+se tomar certos tipos de medicamentos (ver “Outros medicamentos e Prasugrel Viatris", 
+abaixo) 
+- 
+uma cirurgia planeada (incluindo certas intervenções dentárias) nos próximos 7 dias. O 
+seu médico pode querer que interrompa Prasugrel Viatris temporariamente devido ao 
+risco acrescido de hemorragia </p>
+<ul>
+<li>
+<p>Se tiver tido reações alérgicas (hipersensibilidade) ao clopidogrel ou a qualquer outro agente 
+antiplaquetário, por favor informe o seu médico antes de começar o tratamento com Prasugrel 
+Viatris. Se tomar Prasugrel Viatris e tiver reações alérgicas que podem ser reconhecidas como 
+erupção cutânea, comichão, face ou lábios inchados ou falta de ar, deve informar o seu médico 
+imediatamente. </p>
+</li>
+<li>
+<p>Enquanto estiver a tomar Prasugrel Viatris: 
+Deve informar o seu médico de imediato se desenvolver uma doença chamada Púrpura 
+Trombocitopénica Trombótica (PTT), que inclui febre e manchas escuras na pele, que podem ter o 
+aspeto de pequenos pontos vermelhos, com ou sem cansaço extremo inexplicável, confusão, 
+amarelecimento da pele e dos olhos (icterícia) (ver secção 4 «Efeitos Indesejáveis Possíveis»). </p>
+</li>
+</ul>
+<p>Crianças e adolescentes 
+Prasugrel Viatris não deve ser utilizado por crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Prasugrel Viatris 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos, incluindo medicamentos obtidos sem receita médica, suplementos alimentares ou 
+tratamentos à base de plantas.  </p>
+<p>É particularmente importante que informe o seu médico se estiver a ser tratado com: </p>
+<ul>
+<li>
+<p>clopidogrel (um agente antiplaquetário),  </p>
+</li>
+<li>
+<p>varfarina (um anticoagulante),  </p>
+</li>
+<li>
+<p>fármacos “anti-inflamatórios não esteroides" para a dor e febre (como, por exemplo, o 
+ibuprofeno, naproxeno ou etoricoxib).<br />
+Se forem tomados em conjunto com Prasugrel Viatris, estes medicamentos podem aumentar o risco de 
+hemorragia.  </p>
+</li>
+</ul>
+<p>Informe o seu médico se estiver a tomar morfina ou outros opióides (utilizados para tratar a dor grave). </p>
+<p>42/ 
+Tome outros medicamentos enquanto está a tomar Prasugrel Viatris apenas se o seu médico lhe disser 
+que o pode fazer. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Informe o seu médico se ficar grávida ou se estiver a tentar engravidar, enquanto estiver a tomar 
+Prasugrel Viatris. Só deve utilizar Prasugrel Viatris depois de discutir com o seu médico os potenciais 
+benefícios para si e quaisquer potenciais riscos para o bebé. </p>
+<p>Se estiver a amamentar, consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+A sua capacidade para conduzir ou para trabalhar com máquinas não deverá ser afetada pelo Prasugrel 
+Viatris. </p>
+<p>Prasugrel Viatris 5 mg contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>
+<p>Prasugrel Viatris 10 mg contém laca de alumínio de amarelo sunset FCF e sódio 
+A laca de alumínio de amarelo sunset FCF (E110) é um agente corante, que pode causar reações 
+alérgicas. 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar prasugrel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar prasugrel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale como seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>A dose habitual de prasugrel é de 10 mg por dia. Começará o tratamento com uma dose única de 
+60 mg. Se pesar menos de 60 kg ou tiver mais de 75 anos de idade, a dose é de 5 mg de Prasugrel 
+Viatris por dia. O seu médico também lhe dirá para tomar ácido acetilsalicílico e qual a dose exata que 
+deve tomar (habitualmente entre 75 mg a 325 mg por dia). </p>
+<p>Pode tomar Prasugrel Viatris com ou sem alimentos. Tome a sua dose à mesma hora todos os dias. 
+Não parta nem esmague o comprimido. </p>
+<p>É importante que informe o seu médico, dentista e farmacêutico que está a tomar Prasugrel Viatris. </p>
+<p>Se tomar mais Prasugrel Viatris do que deveria 
+Contacte o seu médico ou o serviço de urgência hospitalar imediatamente devido ao risco aumentado 
+de hemorragias. Deve mostrar ao médico a sua embalagem de Prasugrel Viatris. </p>
+<p>Caso se tenha esquecido de tomar Prasugrel Viatris 
+Se se esqueceu de tomar a sua dose diária calendarizada, tome Prasugrel Viatris assim que se lembrar. 
+Se se esqueceu de tomar a sua dose durante um dia inteiro, tome Prasugrel Viatris na dose habitual no 
+dia seguinte. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Prasugrel Viatris 
+Não pare de tomar Prasugrel Viatris sem consultar o seu médico; se parar de tomar Prasugrel Viatris 
+demasiado cedo, o risco de ataque cardíaco pode ser maior. </p>
+<p>43/Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Contacte imediatamente o seu médico se tiver: </p>
+<ul>
+<li>
+<p>adormecimento súbito ou fraqueza súbita num braço, perna ou face, especialmente se se 
+verificar apenas num dos lados do corpo </p>
+</li>
+<li>
+<p>confusão, dificuldade em falar ou em compreender os outros, com início súbito </p>
+</li>
+<li>
+<p>dificuldade em andar, perda de equilíbrio ou de coordenação, com início súbito </p>
+</li>
+<li>
+<p>tonturas súbitas ou dor de cabeça grave súbita, sem razão aparente </p>
+</li>
+</ul>
+<p>Todos estes sintomas podem ser sinais de acidente vascular cerebral. O acidente vascular cerebral é 
+um efeito indesejável pouco frequente de Prasugrel Viatris em doentes que nunca tinham tido um 
+acidente vascular cerebral ou um acidente isquémico transitório (AIT). </p>
+<p>Contacte imediatamente também o seu médico se notar o seguinte: </p>
+<ul>
+<li>
+<p>Febre e ferimentos na pele que podem parecer pequenos pontos vermelhos, com ou sem cansaço 
+extremo inexplicável, confusão, amarelecimento da pele e olhos (icterícia) (ver secção 2 “O que 
+precisa de saber antes de tomar Prasugrel Viatris"). </p>
+</li>
+<li>
+<p>Erupção cutânea, comichão, face inchada, lábios/língua inchada ou falta de ar. Estes podem ser 
+sinais de uma reação alérgica grave (ver secção 2 “O que precisa de saber antes de tomar 
+Prasugrel Viatris"). </p>
+</li>
+</ul>
+<p>Informe rapidamente o seu médico se notar: </p>
+<ul>
+<li>
+<p>Sangue na urina </p>
+</li>
+<li>
+<p>Hemorragia retal, sangue nas fezes ou fezes pretas </p>
+</li>
+<li>
+<p>Hemorragia incontrolável, por exemplo, de um corte </p>
+</li>
+</ul>
+<p>Todos estes sintomas podem ser sinais de hemorragia, o efeito indesejável mais frequente com 
+Prasugrel Viatris. Embora pouco frequente, uma hemorragia abundante pode pôr a vida em risco. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Hemorragia do estômago ou intestinos </p>
+</li>
+<li>
+<p>Hemorragia num local de uma injeção </p>
+</li>
+<li>
+<p>Hemorragia nasal </p>
+</li>
+<li>
+<p>Erupção cutânea </p>
+</li>
+<li>
+<p>Pequenas manchas vermelhas na pele (equimoses) </p>
+</li>
+<li>
+<p>Sangue na urina </p>
+</li>
+<li>
+<p>Hematoma (hemorragia sob a pele no local de uma injeção ou num músculo, causando inchaço) </p>
+</li>
+<li>
+<p>Valores baixos da hemoglobina ou da contagem dos glóbulos vermelhos (anemia) </p>
+</li>
+<li>
+<p>Feridas </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Reações alérgicas (erupção cutânea, comichão, lábios/língua inchada ou falta de ar) </p>
+</li>
+<li>
+<p>Hemorragia espontânea do olho, reto, gengivas ou dentro do abdómen à volta dos órgãos 
+internos </p>
+</li>
+<li>
+<p>Hemorragia após cirurgia </p>
+</li>
+<li>
+<p>Tosse com sangue </p>
+</li>
+<li>
+<p>Sangue nas fezes </p>
+</li>
+</ul>
+<p>44/ 
+Efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas) </p>
+<ul>
+<li>
+<p>Baixa contagem de plaquetas no sangue </p>
+</li>
+<li>
+<p>Hematoma subcutâneo (sangue sob a pele causando inchaço) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos secundários 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis  não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar prasugrel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar prasugrel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Prasugrel Viatris 5 mg: Não conservar acima de 30 °C. Conservar na embalagem de origem para 
+proteger da humidade. </p>
+<p>Prasugrel Viatris 10 mg: Não conservar acima de 25 °C. Conservar na embalagem de origem para 
+proteger da humidade. 
+Apenas embalagens blister: Não conservar acima de 30 °C. Conservar na embalagem de origem para 
+proteger da humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Prasugrel Viatris</h2>
+<p>A substância ativa é o prasugrel. 
+Prasugrel Viatris 5 mg: Cada comprimido revestido por película contém besilato de prasugrel 
+equivalente a 5 mg de prasugrel. 
+Prasugrel Viatris 10 mg: Cada comprimido revestido por película contém besilato de prasugrel 
+equivalente a 10 mg de prasugrel. </p>
+<ul>
+<li>Os outros componentes são: 
+Prasugrel Viatris 5 mg: celulose microcristalina, manitol, crospovidona, sílica coloidal anidra, 
+estearato de magnésio, álcool polivinílico, talco, dióxido de titânio (E171), monocaprilocaprato de 
+glicerol, laurilsulfato de sódio, óxido de ferro amarelo (E172). Ver secção 2 “Prasugrel Viatris 5 mg 
+contém sódio". </li>
+</ul>
+<p>Prasugrel Viatris 10 mg: celulose microcristalina, manitol, crospovidona, sílica coloidal anidra, 
+estearato de magnésio, álcool polivinílico, talco, dióxido de titânio (E171), monocaprilocaprato de 
+glicerilo, laurilsulfato de sódio, óxido de ferro amarelo (E172), laca de alumínio de amarelo sunset 
+FCF (E110), óxido de ferro vermelho (E172). Ver secção 2 “Prasugrel Viatris 10 mg contém laca de 
+alumínio de amarelo sunset FCF". </p>
+<p>45/Qual o aspeto de Prasugrel Viatris e conteúdo da embalagem </p>
+<p>Os comprimidos revestidos por película de 10 mg de Prasugrel Viatris são bege, em forma de cápsula, 
+biconvexos, com dimensões de 11,15 mm × 5,15 mm, gravado com “PH4" num dos lados do 
+comprimido e “M" no outro. 
+Este medicamento está disponível em frascos de plástico contendo um exsicante e 28 ou comprimidos revestidos por película, em embalagens blister contendo 28, 30, 84, 90, 98 e em blisters 
+perfurados contendo 30 × 1 e 90 × 1 comprimidos revestidos por película. </p>
+<p>Os comprimidos revestidos por película de 5 mg de Prasugrel Viatris são amarelos, em forma de 
+cápsula, biconvexos, com dimensões de 8,15 mm × 4,15 mm, gravado com “PH3" num dos lados do 
+comprimido e “M" no outro. 
+Este medicamento está disponível em frascos de plástico contendo um exsicante e 28 ou comprimidos revestidos por película e em embalagens blister contendo 28, 30, 84 ou 98 comprimidos 
+revestidos por película. </p>
+<p>Não comer nem remover o exsicante contido no frasco </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Mylan Pharmaceuticals Limited 
+Damastown Industrial Park, Mulhuddart, Dublin 15, DUBLIN, Irlanda </p>
+<p>Fabricante 
+Mylan Hungary Kft 
+Mylan utca 1, Komárom, 2900, Hungria </p>
+<p>McDermott Laboratories Limited t/a Gerard Laboratories 
+35/36 Baldoyle Industrial Estate, Grange State, Dublin 13, Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+Viatris 
+Tél/Tel: + 32 (0)2 658 61<br />
+Lietuva 
+Mylan Healthcare UAB 
+Tel: +370 5 205 1 
+България 
+Майлан ЕООД 
+Тел: +359 2 44 55<br />
+Luxembourg/Luxemburg 
+Viatris 
+Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>Česká republika 
+Viatris CZ s.r.o 
+Tel: + 420 222 004<br />
+Magyarország 
+Viatris Healthcare Kft. 
+Tel.: + 36 1 465 2 
+Danmark 
+Viatris ApS 
+Tlf: +45 28 11 69 Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01<br />
+Deutschland 
+Viatris Healthcare GmbH 
+Tel: + +49 800 0700<br />
+Nederland 
+Mylan BV 
+Tel: +31 (0)20 426 3 </p>
+<p>46/Eesti 
+BGP Products Switzerland GmbH 
+Eesti filiaal 
+Tel: + 372 6363<br />
+Norge 
+Viatris AS 
+Tlf: + 47 66 75 33 Ελλάδα 
+Viatris Hellas Ltd 
+Τηλ: +30 2100 100<br />
+Österreich 
+Arcana Arzneimittel GmbH 
+Tel: +43 1 416 2 
+España 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102<br />
+Polska 
+Mylan Healthcare Sp. z.o.o. 
+Tel.: + 48 22 546 64<br />
+France 
+Viatris Santé 
+Tél. : +33 4 37 25 75<br />
+Portugal 
+Mylan, Lda. 
+Tel: + 351 21 412 72<br />
+Hrvatska 
+Viatris Hrvatska d.o.o. 
+Tel: +385 1 23 50<br />
+România 
+BGP Products SRL 
+Tel: + 40 372 579<br />
+Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711 
+Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63<br />
+Ísland 
+Icepharma hf. 
+Sími: +354 540 8 
+Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199<br />
+Italia 
+Viatris Italia S.r.l. 
+Tel: + 39 02 612 46 
+Suomi/Finland 
+Viatris Oy 
+Puh/Tel: + 358 20 720 9 
+Κύπρος 
+Varnavas Hadjipanayis Ltd <br />
+Τηλ: +357 2220 7Sverige 
+Viatris AB 
+Tel: + 46 (0)8 630 19<br />
+Latvija 
+Mylan Healthcare SIA 
+Tel: +371 676 055<br />
+United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: +353 18711 </p>
+<p>Este folheto foi revisto pela última vez em. </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -905,6 +1404,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-0b50019879610f5c496f0994be72cd16"
 * entry[0].resource = composition-da-0b50019879610f5c496f0994be72cd16
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0b50019879610f5c496f0994be72cd16"
+* entry[=].resource = mp0b50019879610f5c496f0994be72cd16
+                            
+                    
+Instance: bundlepackageleaflet-pt-0b50019879610f5c496f0994be72cd16
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for prasugrel Package Leaflet for language pt"
+Description: "ePI document Bundle for prasugrel Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-0b50019879610f5c496f0994be72cd16"
+* entry[0].resource = composition-pt-0b50019879610f5c496f0994be72cd16
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp0b50019879610f5c496f0994be72cd16"
@@ -1006,6 +1527,18 @@ RuleSet: 0b50019879610f5c496f0994be72cd16ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-0b50019879610f5c496f0994be72cd16) // prasugrel pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

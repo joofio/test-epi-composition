@@ -842,6 +842,479 @@ hjemmeside: https://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-fcac0917e849c1f92a8946a3de74e720
+InstanceOf: CompositionUvEpi
+Title: "Composition for talzenna Package Leaflet"
+Description:  "Composition for talzenna Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfcac0917e849c1f92a8946a3de74e720)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - talzenna"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Talzenna e para que é utilizado 
+2. O que precisa de saber antes de tomar Talzenna 
+3. Como tomar Talzenna 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Talzenna 
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é talzenna e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é talzenna e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Talzenna e como atua
+Talzenna contém a substância ativa talazoparib. É um tipo de medicamento anticancerígeno, também 
+conhecido como um inibidor da "PARP (poli ADP-ribose polimerase)". 
+Talzenna atua bloqueando a PARP, uma enzima que repara o ADN danificado em determinadas
+células cancerígenas. Como resultado, as células cancerígenas não se conseguem reparar e morrem.
+Para que é utilizado Talzenna
+Talzenna é um medicamento utilizado
+-
+isolado no tratamento de adultos com um tipo de cancro da mama conhecido como cancro da 
+mama HER2-negativo que apresentam um gene BRCA anormal herdado. O seu profissional de 
+saúde irá realizar um teste para se certificar de que Talzenna é adequado para si.
+-
+em associação com um medicamento chamado enzalutamida, no tratamento de adultos com 
+cancro da próstata que já não estão a responder a terapêutica hormonal ou a tratamento cirúrgico 
+para diminuir a testosterona.
+Talzenna é utilizado quando o cancro se espalhou para além do tumor original ou para outras partes do 
+corpo.<br />
+Se tiver quaisquer dúvidas sobre como Talzenna atua ou por que motivo este medicamento lhe foi 
+receitado, pergunte ao seu médico.
+52</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar talzenna"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar talzenna"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Talzenna</h2>
+<p>Se tem alergia a talazoparib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+-
+Se estiver a amamentar.
+Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Talzenna e durante o seu 
+tratamento, se apresentar alguns dos sinais ou sintomas descritos nesta secção.
+Contagens de células sanguíneas baixas
+Talzenna diminui as contagens das suas células sanguíneas, tais como a contagem de glóbulos 
+vermelhos (anemia), a contagem de glóbulos brancos (neutropenia) ou a contagem de plaquetas no 
+sangue (trombocitopenia). Os sinais e sintomas aos quais deve estar atento incluem:
+-
+Anemia: Falta de ar, sensação de grande cansaço, pele pálida ou batimento cardíaco acelerado -
+estes podem ser sinais de uma contagem de glóbulos vermelhos baixa.
+-
+Neutropenia: Infeção, sentir arrepios ou tremores, ou febre - estes podem ser sinais de uma 
+contagem de glóbulos brancos baixa.
+-
+Trombocitopenia: Nódoas negras ou hemorragias durante mais tempo do que o habitual, caso 
+se magoe - estes podem ser sinais de uma contagem de plaquetas no sangue baixa.
+Irá realizar análises ao sangue periodicamente durante o tratamento com Talzenna para verificar as 
+suas células sanguíneas (glóbulos brancos, glóbulos vermelhos e plaquetas).
+Problemas graves na medula óssea 
+Raramente, as contagens de células sanguíneas baixas podem ser um sinal de problemas mais graves 
+na medula óssea, tais como “síndrome mielodisplásico" (SMD) ou “leucemia mieloide aguda" (LMA). 
+O seu médico poderá querer avaliar a sua medula óssea para verificar se algum destes problemas 
+existe.
+Coágulos de sangue
+Talzenna pode causar coágulos de sangue nas veias. Informe o seu médico, farmacêutico ou 
+enfermeiro se tiver sinais ou sintomas de coágulos de sangue nas veias, tais como dor ou rigidez, 
+inchaço e vermelhidão na perna (ou braço) afetada(o), dor no peito, falta de ar ou sensação de
+atordoamento.
+Contraceção masculina e feminina
+As mulheres com potencial para engravidar e os homens com parceiras grávidas ou com potencial para 
+engravidar devem utilizar uma contraceção eficaz. 
+Ver a secção “Contraceção masculina e feminina" abaixo.
+Crianças e adolescentes
+Talzenna não deve ser utilizado em crianças ou adolescentes (idade inferior a 18 anos).
+Outros medicamentos e Talzenna
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou 
+se vier a tomar outros medicamentos. Isto inclui medicamentos adquiridos sem receita médica e 
+medicamentos à base de plantas. Isto porque Talzenna pode afetar a forma como outros medicamentos 
+atuam. Igualmente, alguns medicamentos podem afetar a forma como Talzenna atua.
+Em particular, os seguintes medicamentos podem aumentar o risco de efeitos indesejáveis com 
+Talzenna:
+-
+Amiodarona, carvedilol, dronedarona, propafenona, quinidina, ranolazina e verapamilo -
+geralmente utilizados para tratar problemas cardíacos.
+-
+Os antibióticos claritromicina e eritromicina - utilizados no tratamento de infeções bacterianas.
+-
+Itraconazol e cetoconazol utilizados no tratamento de infeções fúngicas.
+53
+-
+Cobicistate, darunavir, indinavir, lopinavir, ritonavir, saquinavir, telaprevir e tipranavir -
+utilizados no tratamento de infeções por VIH/SIDA.
+-
+Ciclosporina - utilizada no transplante de órgãos para prevenir a rejeição.
+-
+Lapatinib - utilizado no tratamento de doentes com determinados tipos de cancro da mama.
+-
+Curcumina (por exemplo, encontrada no açafrão-da-Índia) em alguns medicamentos (ver 
+também abaixo a secção Talzenna com alimentos e bebidas).
+Os seguintes medicamentos podem reduzir o efeito de Talzenna:
+-
+Carbamazepina e fenitoína - anti-epiléticos utilizados para o tratamento de convulsões ou 
+ataques.
+-
+Hipericão (Hypericum perforatum), um produto à base de plantas utilizado para o tratamento de 
+depressão e ansiedade ligeiras.
+Talzenna com alimentos e bebidas
+Não utilize curcumina em suplementos alimentares enquanto estiver a tomar Talzenna, uma vez que 
+pode aumentar os efeitos indesejáveis de Talzenna. A curcumina é encontrada no açafrão-da-Índia e 
+não deve utilizar grandes quantidades de açafrão-da-Índia, mas a utilização de especiarias na
+alimentação não é provável que cause um problema.
+Gravidez
+Talzenna pode prejudicar o bebé ainda por nascer. Se está grávida ou a amamentar, se pensa estar 
+grávida ou planeia engravidar, consulte o seu médico antes de tomar este medicamento. O seu médico 
+irá realizar um teste de gravidez antes de iniciar o tratamento com Talzenna.
+-
+Não deve utilizar Talzenna se estiver grávida, a menos que o seu médico o considere necessário.
+-
+Não deve engravidar enquanto estiver a tomar Talzenna.
+-
+Fale com o seu médico sobre métodos de contraceção se existir alguma possibilidade de você ou 
+de a sua parceira engravidar. 
+Contraceção masculina e feminina
+As mulheres com potencial para engravidar devem utilizar um método de controlo da natalidade 
+(contraceção) eficaz durante o tratamento com Talzenna e durante, pelo menos, 7 meses após a última 
+dose de Talzenna. Dado que a utilização de contraceção hormonal não é recomendada no caso de ter 
+cancro da mama, deve utilizar dois métodos de contraceção não-hormonal. Fale com o seu prestador 
+de cuidados de saúde sobre os métodos contracetivos mais adequados para si.
+Os homens com parceiras do sexo feminino que estão grávidas ou com potencial para engravidar 
+devem utilizar métodos de controlo da natalidade (contraceção) eficazes mesmo após uma vasectomia,
+durante o tratamento com Talzenna e durante, pelo menos, 4 meses após a última dose. 
+Amamentação
+Não pode amamentar enquanto estiver a tomar Talzenna e durante, pelo menos, 1 mês após a última 
+dose. Desconhece-se se Talzenna passa para o leite materno.
+Fertilidade
+Talazoparib pode reduzir a fertilidade nos homens.
+Condução de veículos e utilização de máquinas
+Os efeitos de Talzenna sobre a capacidade de conduzir e utilizar máquinas são reduzidos. Se sentir 
+tonturas, fraqueza ou cansaço (estes são efeitos indesejáveis muito frequentes de Talzenna), não deve 
+conduzir ou utilizar máquinas.
+54</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar talzenna"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar talzenna"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. 
+Quanto tomar
+Talzenna é tomado por via oral, uma vez por dia. A dose recomendada é:
+-
+para o cancro da mama: uma cápsula de 1 mg de Talzenna.
+-
+para o cancro da próstata: Talzenna é tomado com um medicamento chamado enzalutamida. A 
+dose habitual de Talzenna é de 0,5 mg (duas cápsulas de 0,25 mg).
+Se tiver determinados efeitos indesejáveis enquanto estiver a tomar Talzenna isolado em ou associação 
+com enzalutamida (ver secção 4), o seu médico poderá diminuir a dose ou interromper o tratamento, 
+temporária ou permanentemente. Tome Talzenna e enzalutamida exatamente como indicado pelo seu 
+médico.
+Pode tomar Talzenna com alimentos ou entre refeições. Engula a cápsula inteira com um copo de 
+água. Não mastigue nem esmague as cápsulas. Não abra as cápsulas. O contacto com o conteúdo da 
+cápsula deve ser evitado.
+Se tomar mais Talzenna do que deveria
+Se tiver tomado mais Talzenna do que a sua dose habitual, contacte o seu médico ou o hospital mais 
+próximo imediatamente. Pode ser necessário tratamento urgente.
+Leve a embalagem e este folheto para que o médico saiba o que tem estado a tomar.
+Caso se tenha esquecido de tomar Talzenna
+Caso se tenha esquecido de tomar uma dose ou se vomitar, tome a sua próxima dose conforme 
+programado. Não tome uma dose a dobrar para compensar uma cápsula que se esqueceu de tomar ou 
+que vomitou.
+Se parar de tomar Talzenna
+Não pare de tomar Talzenna a não ser que o seu médico lhe diga para o fazer.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Informe o seu médico imediatamente se sentir algum dos seguintes sintomas que podem ser um 
+sinal de alterações sanguíneas graves:
+Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas)
+-
+Falta de ar, sensação de grande cansaço, pele pálida ou batimento cardíaco acelerado - estes 
+podem ser sinais de uma contagem de glóbulos vermelhos baixa (anemia).
+-
+Infeção, arrepios ou tremores, ou sentir calor, ou febre - estes podem ser sinais de uma 
+contagem de glóbulos brancos baixa (neutropenia).
+-
+Nódoas negras ou sangramentos durante mais tempo do que o habitual caso se magoe - estes 
+podem ser sinais de uma contagem de plaquetas no sangue baixa (trombocitopenia).
+55
+Fale com o seu médico se sentir quaisquer outros efeitos indesejáveis. Estes podem incluir:
+Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas)
+-
+Número baixo de glóbulos brancos, glóbulos vermelhos e plaquetas no sangue 
+-
+Diminuição do apetite
+-
+Sentir tonturas
+-
+Dor de cabeça
+-
+Sentir enjoos (náuseas)
+-
+Má disposição (vómitos)
+-
+Diarreia
+-
+Dor no abdómen
+-
+Queda de cabelo
+Frequentes (podem afetar até 1 em 10 pessoas)
+-
+Alteração do paladar (disgeusia)
+-
+Perna inchada dolorosa, dor no peito, falta de ar, respiração rápida ou batimento cardíaco 
+rápido, pois podem ser sinais de coágulos de sangue nas veias
+-
+Indigestão
+-
+Inflamação da boca
+Pouco frequentes (podem afetar até 1 em 100 pessoas)
+-
+Contagens anormais de células sanguíneas devido a problemas graves da medula óssea 
+(síndrome mielodisplásica ou leucemia mieloide aguda). Ver Advertências e precauções na 
+secção 2
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar talzenna"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar talzenna"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco ou 
+no blister após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer precauções especiais de conservação.
+Não utilize este medicamento se a embalagem estiver danificada ou se mostrar sinais de adulteração.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.
+56</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Talzenna 
+A substância ativa é talazoparib. Talzenna cápsulas está disponível em diferentes dosagens.
+-
+Talzenna 0,1 mg cápsulas: cada cápsula contém tosilato de talazoparib equivalente a 0,1 mg de 
+talazoparib.
+-
+Talzenna 0,25 mg cápsulas: cada cápsula contém tosilato de talazoparib equivalente a 0,25 mg 
+de talazoparib.
+-
+Talzenna 1 mg cápsulas: cada cápsula contém tosilato de talazoparib equivalente a 1 mg de 
+talazoparib.
+Os outros componentes são:
+-
+Conteúdo da cápsula: celulose microcristalina silicificada (celulose microcristalina e dióxido de 
+silicone) 
+-
+invólucro da cápsula de 0,1 mg: hipromelose e dióxido de titânio (E171)
+-
+invólucro da cápsula de 0,25 mg: hipromelose, óxido de ferro amarelo (E172) e dióxido de 
+titânio (E171) 
+-
+invólucro da cápsula de 1 mg: hipromelose, óxido de ferro amarelo (E172), dióxido de titânio 
+(E171) e óxido de ferro vermelho (E172)
+-
+Tinta de impressão: shellac (E904), propilenoglicol (E1520), hidróxido de amónio (E527), 
+óxido de ferro negro (E172) e hidróxido de potássio (E525).
+Qual o aspeto de Talzenna e conteúdo da embalagem
+Talzenna 0,1 mg é fornecido sob a forma de cápsula opaca de aproximadamente 14 mm × 5 mm com 
+uma cabeça branca (impressa com “Pfizer" a preto) e um corpo branco (impresso com “TLZ 0.1" a 
+preto).
+Talzenna 0,25 mg é fornecido sob a forma de cápsula opaca de aproximadamente 14 mm × 5 mm com 
+uma cabeça de cor marfim (impressa com “Pfizer" a preto) e um corpo branco (impresso com “TLZ 
+0.25" a preto).
+Talzenna 1 mg é fornecido sob a forma de cápsula opaca de aproximadamente 14 mm × 5 mm com 
+uma cabeça vermelha clara (impressa com “Pfizer" a preto) e um corpo branco (impresso com “TLZ 
+1" a preto).
+Talzenna 0,1 mg está disponível em frascos de plástico de 30 cápsulas.
+Talzenna 0,25 mg está disponível em blisters perfurados para dose unitária de 30 × 1, ou 60 × 1, ou 
+90 × 1 cápsulas e em frascos de plástico de 30 cápsulas.
+Talzenna 1 mg está disponível em blisters perfurados para dose unitária de 30 x 1 cápsulas e em 
+frascos de plástico de 30 cápsulas.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante
+Excella GmbH &amp; Co. KG
+Nürnberger Strasse 12
+90537 Feucht
+Alemanha
+57
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: + 370 52 51 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: +36-1-488-37-00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ: +30 210 6785 800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.:+48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tel: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: + 386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka 
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+58
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Kύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
+Τηλ: +357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: + 371 670 35 775
+Este folheto foi revisto pela última vez em MM/AAAA.
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -883,6 +1356,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-fcac0917e849c1f92a8946a3de74e720"
 * entry[0].resource = composition-da-fcac0917e849c1f92a8946a3de74e720
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfcac0917e849c1f92a8946a3de74e720"
+* entry[=].resource = mpfcac0917e849c1f92a8946a3de74e720
+                            
+                    
+Instance: bundlepackageleaflet-pt-fcac0917e849c1f92a8946a3de74e720
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for talzenna Package Leaflet for language pt"
+Description: "ePI document Bundle for talzenna Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-fcac0917e849c1f92a8946a3de74e720"
+* entry[0].resource = composition-pt-fcac0917e849c1f92a8946a3de74e720
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpfcac0917e849c1f92a8946a3de74e720"
@@ -984,6 +1479,18 @@ RuleSet: fcac0917e849c1f92a8946a3de74e720ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-fcac0917e849c1f92a8946a3de74e720) // talzenna pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

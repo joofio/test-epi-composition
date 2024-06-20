@@ -762,6 +762,414 @@ hjemmeside: http://www.ema.europa.eu.  </p>         </div>"""
 
 
 
+Instance: composition-pt-11132a32e01a148874091fa148cdfa6e
+InstanceOf: CompositionUvEpi
+Title: "Composition for abiraterone Package Leaflet"
+Description:  "Composition for abiraterone Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp11132a32e01a148874091fa148cdfa6e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - abiraterone"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Abiraterona Mylan e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Abiraterona Mylan  </li>
+<li>Como tomar Abiraterona Mylan </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Abiraterona Mylan  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é abiraterone e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é abiraterone e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Abiraterona Mylan contém um medicamento chamado acetato de abiraterona. Abiraterona Mylan é 
+usado em homens adultos para tratar o cancro da próstata que se espalhou para outras zonas do corpo. 
+Abiraterona Mylan impede que o seu organismo produza testosterona, isto pode atrasar o crescimento 
+do cancro da próstata. </p>
+<p>Quando Abiraterona Mylan é prescrito para a fase inicial da doença, altura em que ainda responde à 
+terapêutica hormonal, este é usado com um tratamento que diminui a testosterona (terapêutica de 
+privação androgénica). </p>
+<p>Quando tomar este medicamento, o seu médico também irá receitar-lhe outro medicamento chamado 
+prednisona ou prednisolona. Este é usado para diminuir as hipóteses de sofrer hipertensão arterial 
+(tensão alta), de ter demasiada água acumulada no seu organismo (retenção de fluidos) ou de ter níveis 
+baixos, no seu sangue, de uma substância química conhecida por potássio. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar abiraterone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar abiraterone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Abiraterona Mylan 
+- se tem alergia ao acetato de abiraterona ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). 
+- se é uma mulher, especialmente se estiver grávida. Abiraterona Mylan só deve ser utilizado em 
+homens adultos. 
+- se tem lesões graves no fígado. 
+- em combinação com Ra-223 (utilizado no tratamento de cancro da próstata). </p>
+<p>Não tome este medicamento se alguma das situações acima descritas se aplicar a si. Se não tiver a 
+certeza, fale com o seu médico ou farmacêutico antes de tomar este medicamento.  </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar o medicamento: 
+- se sofre de problemas de fígado. 
+- se lhe foi dito que sofre de hipertensão arterial (tensão alta) ou insuficiência cardíaca ou níveis 
+baixos de potássio no sangue (níveis baixos de potássio no sangue podem aumentar o risco de 
+problemas do ritmo do coração). 
+- se já alguma vez sofreu outros problemas de coração ou a nível dos vasos sanguíneos. 
+- se tem um batimento do coração irregular ou rápido. 
+- se sente falta de ar. 
+- se ganhou peso rapidamente. 
+- se tem inchaço nos pés, tornozelos ou pernas. 
+- se tomou no passado um medicamento para o cancro da próstata chamado cetoconazol. 
+- quanto à necessidade de tomar este medicamento com prednisona ou prednisolona. 
+- quanto a efeitos indesejáveis nos seus ossos. 
+- se tem níveis elevados de açúcar no sangue. </p>
+<p>Fale com o seu médico se lhe foi dito que tem qualquer doença no coração ou nos vasos sanguíneos, 
+incluindo problemas do ritmo do coração (arritmia), ou se estiver a ser tratado com medicamentos para 
+estas doenças. </p>
+<p>Fale com o seu médico se tiver coloração amarela da pele ou dos olhos, escurecimento da urina, ou 
+náuseas graves ou vómitos, uma vez que estes podem ser sinais ou sintomas de problemas de fígado. 
+Pode ocorrer raramente falência da função do fígado (chamada insuficiência hepática aguda), o que 
+pode levar à morte. </p>
+<p>Pode ocorrer diminuição dos glóbulos vermelhos, diminuição da libido sexual, fraqueza muscular e/ou 
+dor muscular. </p>
+<p>Abiraterona Mylan não pode ser administrado em combinação com Ra-223 devido à possibilidade de 
+aumento do risco de fratura óssea ou morte. </p>
+<p>Se planeia tomar Ra-223 a seguir ao tratamento com Abiraterona Mylan e prednisona/prednisolona, 
+deverá aguardar 5 dias antes de iniciar o tratamento com Ra-223.<br />
+Se não tiver a certeza se alguma das situações acima se aplica a si, consulte o seu médico ou 
+farmacêutico antes de tomar este medicamento. </p>
+<p>Monitorização (vigilância) sanguínea 
+Abiraterona Mylan pode afetar o seu fígado e pode não causar quaisquer sintomas. Enquanto estiver a 
+tomar este medicamento, o seu médico irá efetuar análises ao sangue para procurar quaisquer efeitos 
+no seu fígado. </p>
+<p>Crianças e adolescentes 
+Este medicamento não é para ser usado em crianças e adolescentes. Se Abiraterona Mylan for ingerido 
+acidentalmente por uma criança ou adolescente, dirija-se ao hospital imediatamente e leve o Folheto 
+Informativo consigo para mostrar ao médico da emergência. </p>
+<p>Outros medicamentos e Abiraterona Mylan 
+Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto é importante porque Abiraterona Mylan pode aumentar os efeitos de 
+um número de medicamentos - incluindo medicamentos para o coração, calmantes, alguns 
+medicamentos para a diabetes, medicamentos à base de plantas (p. ex. Erva de São João) e outros. O 
+seu médico pode querer alterar a dose desses medicamentos. Além disso, alguns medicamentos podem 
+aumentar ou diminuir o efeito de Abiraterona Mylan, conduzindo a efeitos indesejáveis ou a que 
+Abiraterona Mylan não funcione tão bem quanto deveria. </p>
+<p>O tratamento de privação androgénica pode aumentar o risco de problemas do ritmo do coração. Fale 
+com o seu médico se estiver a receber medicamentos: 
+- utilizados para tratar problemas do ritmo do coração (por exemplo, quinidina, procainamida, 
+amiodarona e sotalol). 
+- conhecidos por aumentar o risco de problemas do ritmo do coração [por exemplo, metadona 
+(utilizado para o alívio da dor e parte da desintoxicação de toxicodependência), a moxifloxacina 
+(um antibiótico), antipsicóticos (utilizados para doenças mentais graves)]. </p>
+<p>Informe o seu médico se está a tomar algum dos medicamentos listados acima. </p>
+<p>Abiraterona Mylan com alimentos 
+- Este medicamento não pode ser tomado com alimentos (ver secção 3 "Como tomar Abiraterona 
+Mylan"). 
+- Tomar Abiraterona Mylan com alimentos pode causar efeitos indesejáveis. </p>
+<p>Gravidez e amamentação 
+Abiraterona Mylan não deve ser usado em mulheres. 
+- Este medicamento pode afetar o feto se for tomado por mulheres grávidas.<br />
+- As mulheres que estão grávidas ou que possam estar grávidas devem usar luvas caso 
+necessitem de tocar ou manusear Abiraterona Mylan. 
+- Se tem relações sexuais com uma mulher que pode engravidar, deve usar preservativo e 
+outro método de contraceção eficaz. 
+- Se tem relações sexuais com uma mulher grávida, deve usar preservativo para proteger o 
+feto. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não é provável que este medicamento afete a sua capacidade para conduzir e usar ferramentas e 
+máquinas. </p>
+<p>Abiraterona Mylan contém lactose e sódio 
+- Este medicamento contém lactose (um tipo de açúcar). Se foi informado pelo seu médico que 
+tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. 
+- Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar abiraterone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar abiraterone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Quanto deve tomar 
+A dose recomendada é de 1 000 mg (dois comprimidos de 500 mg ou um comprimido de 1 000 mg), 
+uma vez por dia. </p>
+<p>Ao tomar este medicamento 
+- Tome este medicamento pela boca. 
+- Não tome Abiraterona Mylan com alimentos. Tomar Abiraterona Mylan com alimentos 
+pode fazer com que o medicamento seja absorvido pelo corpo mais do que o necessário, o 
+que pode causar efeitos indesejados. 
+- Tome Abiraterona Mylan comprimidos como dose única uma vez por dia com o estômago 
+vazio. Abiraterona Mylan tem de ser tomado pelo menos duas horas após comer e não 
+podem ser ingeridos alimentos durante pelo menos uma hora após tomar Abiraterona 
+Mylan. (ver secção 2, "Abiraterona Mylan com alimentos"). 
+- Engula os comprimidos com água. 
+- Para 500 mg: Não parta os comprimidos. </p>
+<ul>
+<li>Para 1 000 mg: Os comprimidos podem ser divididos para ajudar a engolir. </li>
+<li>Abiraterona Mylan é tomado com um medicamento chamado prednisona ou prednisolona. 
+Tome a prednisona ou a prednisolona exatamente de acordo com as instruções do seu médico. </li>
+<li>Enquanto está a tomar Abiraterona Mylan, deve tomar prednisona ou prednisolona todos os 
+dias. </li>
+<li>Se tiver uma emergência médica, a quantidade de prednisona ou prednisolona que está a tomar 
+pode ter que ser alterada. O seu médico irá informá-lo se tiver que alterar a quantidade de 
+prednisona ou prednisolona que está a tomar. Não pare de tomar prednisona ou prednisolona a 
+não ser que o seu médico lhe diga para parar. </li>
+</ul>
+<p>O seu médico poderá receitar-lhe outros medicamentos enquanto está a tomar Abiraterona Mylan, 
+prednisona ou prednisolona. </p>
+<p>Se tomar mais Abiraterona Mylan do que deveria 
+Se tomar mais Abiraterona Mylan do que deveria, informe o seu médico ou dirija-se imediatamente a 
+um hospital. </p>
+<p>Caso se tenha esquecido de tomar Abiraterona Mylan 
+- Caso se tenha esquecido de tomar Abiraterona Mylan ou prednisona ou prednisolona, tome a 
+sua dose habitual no dia seguinte. 
+- Caso se tenha esquecido de tomar Abiraterona Mylan ou prednisona ou prednisolona durante 
+mais do que um dia, fale imediatamente com o seu médico. </p>
+<p>Se parar de tomar Abiraterona Mylan 
+Não pare de tomar Abiraterona Mylan, prednisona ou prednisolona a não ser que o seu médico lhe 
+diga para parar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Pare de tomar Abiraterona Mylan e dirija-se imediatamente a um médico caso verifique: 
+- Fraqueza nos músculos, espasmos nos músculos ou ritmo irregular do coração (palpitações). 
+Estes poderão ser sinais de que apresenta níveis baixos de potássio no seu sangue. </p>
+<p>Outros efeitos indesejáveis incluem: 
+Muito frequentes (podem afetar mais de 1 pessoa em cada 10): 
+Fluidos nas suas pernas ou pés, níveis baixos de potássio no sangue, aumentos nos testes de função 
+hepática (do fígado), tensão arterial aumentada, infeção do trato urinário, diarreia. </p>
+<p>Frequentes (podem afetar menos de 1 pessoa em cada 10): 
+Níveis elevados de gordura no sangue, dor no peito, batimento irregular do coração (fibrilhação 
+auricular), insuficiência cardíaca, ritmo rápido do coração, infeções graves chamadas sepsis, fraturas 
+ósseas, indigestão, sangue na urina, erupções na pele. </p>
+<p>Pouco frequentes (podem afetar menos de 1 pessoa em cada 100): 
+Problemas nas glândulas suprarrenais (problemas relacionados com sal e água), ritmo do coração 
+anormal (arritmia), fraqueza muscular e/ou dor muscular. </p>
+<p>Raros (podem afetar até 1 pessoa em cada 1 000): 
+Irritação pulmonar (também chamada, alveolite alérgica). 
+Falência da função do fígado (chamada insuficiência hepática aguda). </p>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis): 
+Ataque cardíaco, alterações no ECG - eletrocardiograma (prolongamento do intervalo QT) e reações 
+alérgicas graves com dificuldade em engolir ou respirar, face, lábios, língua ou garganta inchados ou 
+erupção na pele com comichão. </p>
+<p>Pode ocorrer perda óssea em homens tratados para o cancro da próstata. Abiraterona em combinação 
+com a prednisona ou a prednisolona pode aumentar a perda óssea. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar abiraterone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar abiraterone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, no blister e 
+no frasco após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Abiraterona Mylan  </p>
+<p>A substância ativa é o acetato de abiraterona. Cada comprimido revestido por película contém 500 mg 
+ou 1 000 mg de acetato de abiraterona. 
+Os outros componentes são:<br />
+Núcleo do comprimido: croscarmelose sódica (E468), laurilsulfato de sódio, povidona, celulose 
+microcristalina (E460), lactose mono-hidratada, sílica, coloidal anidra (E551) e estearato de magnésio 
+(E470b). 
+Revestimento de película: álcool polivinílico, dióxido de titânio (E171), macrogol (E1521) e 
+talco (E553b). Além disso, os comprimidos de 500 mg contêm óxido de ferro vermelho (E172) e 
+óxido de ferro preto (E172). 
+Ver secção 2 "Abiraterona Mylan contém lactose e sódio". </p>
+<p>Qual o aspeto de Abiraterona Mylan e conteúdo da embalagem </p>
+<p>Os comprimidos revestidos por película de 500 mg Abiraterona Mylan são castanhos, de forma 
+oval (19 mm de comprimento x 10 mm de largura), com a gravação "500" numa das faces, e estão 
+disponíveis em embalagens com blister contendo 56, 60 comprimidos e em embalagens com blister 
+destacável em dose unitária contendo 56 x 1, 60 x 1 comprimidos.  </p>
+<p>Os comprimidos revestidos por película de 1 000 mg Abiraterona Mylan são brancos a 
+esbranquiçados (23 mm de comprimento x 11 mm de largura), com uma linha divisória numa das 
+faces e liso na outra face, estão disponíveis em frascos contendo 28 ou 30 comprimidos e estão 
+também disponíveis em embalagens com blister contendo 28, 30 comprimidos e em embalagens com 
+blister destacável em dose unitária contendo 28 x 1, 30 x 1 comprimidos. O frasco também contém um </p>
+<p>recipiente de absorção de oxigénio. Não engula o recipiente de absorção de oxigénio já que isto pode 
+ser prejudicial à saúde. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Mylan Ireland Limited 
+Unit 35/36 Grange Parade,<br />
+Baldoyle Industrial Estate 
+Dublin 13, 
+Irlanda. </p>
+<p>Fabricante 
+Remedica Ltd., 
+Aharnon Street, 
+Limassol Industrial Estate, 
+3056 Limassol, 
+Chipre </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Viatris 
+Tél/Tel: + 32 (0)2 658 61<br />
+Lietuva 
+Viatris UAB<br />
+Tel.: +370 5 205 1 
+България 
+Майлан ЕООД 
+Тел: +359 2 44 55<br />
+Luxembourg/Luxemburg 
+Viatris 
+Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>Česká republika 
+Viatris CZ.s.r.o. 
+Tel.: + 420 222 004<br />
+Magyarország 
+Viatris Healthcare Kft. 
+Tel.: + 36 1 465 2Danmark 
+Viatris ApS 
+Tlf: +45 28 11 69<br />
+Malta 
+V.J. Salomone Pharma Ltd 
+Tel.: + 356 21 22 01<br />
+Deutschland 
+Viatris Healthcare GmbH 
+Tel.: +49 800 0700<br />
+Nederland 
+Mylan BV 
+Tel.: +31 (0)20 426 3Eesti 
+Viatris OÜ<br />
+Tel.: + 372 6363<br />
+Norge 
+Viatris AS 
+Tlf: + 47 66 75 33<br />
+Ελλάδα<br />
+Viatris Hellas Ltd<br />
+Τηλ: +30 2100 100 002  </p>
+<p>Österreich 
+Arcana Arzneimittel GmbH 
+Tel.: +43 1 416 2 
+España 
+Viatris Pharmaceuticals, S.L. 
+Tel.: + 34 900 102<br />
+Polska 
+Viatris Healthcare Sp. z o.o. 
+Tel.: + 48 22 546 64  </p>
+<p>France 
+Viatris Santé 
+Tél: +33 4 37 25 75<br />
+Portugal 
+Mylan, Lda. 
+Tel.: + 351 214 127<br />
+Hrvatska 
+Viatris Hrvatska d.o.o. 
+Tel.: +385 1 23 50 <br />
+România 
+BGP Products SRL 
+Tel.: +40 372 579<br />
+Ireland 
+Viatris Limited 
+Tel.: +353 1 8711Slovenija 
+Viatris d.o.o. 
+Tel.: + 386 1 23 63<br />
+Ísland 
+Icepharma hf. 
+Sími: +354 540 8 
+Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel.: +421 2 32 199 Italia 
+Viatris Italia S.r.l. 
+Tel.: + 39 (0) 2 612 46 
+Suomi/Finland 
+Viatris Oy 
+Puh/Tel: +358 20 720 9 
+Κύπρος 
+GPA Pharmaceuticals Ltd<br />
+Τηλ: +357 22863 
+Sverige 
+Viatris AB<br />
+Tel.: + 46 (0)8 630 19<br />
+Latvija 
+Viatris SIA 
+Tel.: +371 676 055<br />
+United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited<br />
+Tel.: +353 18711 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -803,6 +1211,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-11132a32e01a148874091fa148cdfa6e"
 * entry[0].resource = composition-da-11132a32e01a148874091fa148cdfa6e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp11132a32e01a148874091fa148cdfa6e"
+* entry[=].resource = mp11132a32e01a148874091fa148cdfa6e
+                            
+                    
+Instance: bundlepackageleaflet-pt-11132a32e01a148874091fa148cdfa6e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for abiraterone Package Leaflet for language pt"
+Description: "ePI document Bundle for abiraterone Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-11132a32e01a148874091fa148cdfa6e"
+* entry[0].resource = composition-pt-11132a32e01a148874091fa148cdfa6e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp11132a32e01a148874091fa148cdfa6e"
@@ -904,6 +1334,18 @@ RuleSet: 11132a32e01a148874091fa148cdfa6eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-11132a32e01a148874091fa148cdfa6e) // abiraterone pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

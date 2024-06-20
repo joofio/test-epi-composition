@@ -766,6 +766,394 @@ skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""
 
 
 
+Instance: composition-pt-1f037c7eeed99a83d34b7e97df29f3bf
+InstanceOf: CompositionUvEpi
+Title: "Composition for faslodex Package Leaflet"
+Description:  "Composition for faslodex Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1f037c7eeed99a83d34b7e97df29f3bf)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - faslodex"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Faslodex e para que é utilizado
+2. O que precisa de saber antes de utilizar Faslodex
+3. Como utilizar Faslodex
+4. Efeitos secundários possíveis
+5. Como conservar Faslodex
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é faslodex e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é faslodex e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Faslodex contém a substância ativa fulvestrant, que pertence ao grupo dos bloqueadores de estrogénio. 
+Os estrogénios, um tipo de hormonas sexuais femininas, podem em alguns casos estar envolvidos no 
+crescimento do cancro da mama.
+Faslodex é utilizado quer:
+
+em monoterapia, para tratar mulheres pós-menopáusicas com um tipo de cancro da mama 
+chamado cancro da mama positivo para o recetor de estrogénio que é localmente avançado ou 
+que se espalhou para outras partes do corpo (metastático), ou
+
+em associação com palbociclib para tratar mulheres com um tipo de cancro da mama chamado
+cancro da mama positivo para recetores hormonais, negativo para o recetor tipo 2 do fator de 
+crescimento epidérmico humano, que é localmente avançado ou que se espalhou para outras 
+partes do corpo (metastático). As mulheres que não chegaram à menopausa serão também 
+tratadas com um medicamento chamado agonista da hormona libertadora da hormona 
+luteinizante (LHRH).
+Quando Faslodex é administrado em associação com palbociclib, é importante que leia o folheto 
+informativo de palbociclib. Se tiver alguma dúvida sobre palbociclib, pergunte ao seu médico.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar faslodex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar faslodex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não utilize Faslodex:</h2>
+<p>se tem alergia ao fulvestrant ou a qualquer outro componente deste medicamento (indicados na 
+secção 6)
+-
+se está grávida ou a amamentar
+-
+se tem problemas graves de fígado
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Faslodex se alguma destas 
+situações se aplica a si:
+-
+problemas de rins ou fígado
+-
+baixo número de plaquetas (que ajudam na coagulação do sangue) ou alterações da coagulação
+32
+-
+problemas prévios com coágulos sanguíneos
+-
+osteoporose (perda de densidade óssea)
+-
+alcoolismo
+Crianças e adolescentes
+Faslodex não é indicado em crianças e adolescentes com idade inferior a 18 anos.
+Outros medicamentos e Faslodex
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou vier a tomar 
+outros medicamentos.
+Em particular, deve informar o seu médico se estiver a utilizar anticoagulantes (medicamentos para 
+prevenir a formação de coágulos sanguíneos).
+Gravidez e amamentação
+Não pode utilizar Faslodex se estiver grávida. Se houver probabilidade de engravidar, deve utilizar um 
+método contracetivo eficaz enquanto estiver em tratamento com Faslodex e durante 2 anos após a sua 
+última dose.
+Não pode amamentar durante o tratamento com Faslodex.
+Condução de veículos e utilização de máquinas
+Não é esperado que Faslodex afete a sua capacidade de conduzir ou utilizar máquinas. Contudo, se se 
+sentir cansada após o tratamento, não conduza nem utilize máquinas.
+Faslodex contém 10% p/v de etanol (álcool), ou seja, até 500 mg por injeção, equivalente a 10 ml de 
+cerveja ou 4 ml de vinho.
+Prejudicial para os indivíduos que sofrem de alcoolismo.
+Para ter em consideração quando utilizado em grupos de alto risco tais como doentes com problemas 
+de fígado ou epilepsia.
+Faslodex contém 500 mg de álcool benzílico em cada injeção, equivalente a 100 mg/ml.
+O álcool benzílico pode causar reações alérgicas.
+Faslodex contém 750 mg de benzoato de benzilo em cada injeção, equivalente a 150 mg/ml.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar faslodex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar faslodex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize sempre este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale 
+com o seu médico ou farmacêutico se tiver dúvidas.
+A dose recomendada é de 500 mg de fulvestrant (duas injeções de 250 mg/5 ml) administrada uma vez 
+por mês, com uma dose adicional de 500 mg administrada 2 semanas após a dose inicial.
+O seu médico ou enfermeiro irá administrar Faslodex como injeção intramuscular lenta, uma em cada 
+nádega.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos secundários, embora estes não se 
+manifestem em todas as pessoas.
+33
+Pode necessitar de tratamento médico imediato se experimentar algum dos seguintes efeitos 
+secundários:
+
+Reações alérgicas (hipersensibilidade), incluindo inchaço da face, lábios, língua e/ou garganta
+que podem ser sinais de reações anafiláticas
+
+Tromboembolismo (aumento do risco de coágulos sanguíneos)<em> 
+Inflamação do fígado (hepatite)
+
+Insuficiência do fígado
+Fale com o seu médico, farmacêutico ou enfermeiro se tiver quaisquer dos seguintes efeitos 
+secundários:
+Efeitos secundários muito frequentes (podem afetar mais de 1 em cada 10 pessoas)
+
+Reações no local de injeção, tais como dor e/ou inflamação
+
+Níveis anormais das enzimas do fígado (em análises ao sangue)</em> 
+Náuseas (sentir-se doente)
+
+Fraqueza, cansaço<em> 
+Dor nas articulações e musculosquelética
+
+Afrontamentos
+
+Erupção cutânea (na pele)
+
+Reações alérgicas (hipersensibilidade), incluindo inchaço da face, lábios, língua e/ou garganta
+Todos os outros efeitos secundários:
+Efeitos secundários frequentes (podem afetar até 1 em cada 10 pessoas)
+
+Dor de cabeça
+
+Vómitos, diarreia ou perda de apetite</em> 
+Infeções das vias urinárias
+
+Dor nas costas<em> 
+Aumento da bilirrubina (pigmento da bílis produzido pelo fígado)
+
+Tromboembolismo (aumento do risco de coágulos sanguíneos)</em> 
+Diminuição dos níveis de plaquetas (trombocitopenia)
+
+Hemorragia vaginal
+
+Dor lombar com irradiação para um lado da perna (ciática)
+
+Fraqueza súbita, adormecimento, formigueiro ou perda de movimento da sua perna, 
+especialmente apenas num dos lados do seu corpo, problemas súbitos com o andar ou de
+equilíbrio (neuropatia periférica)
+Efeitos secundários pouco frequentes (podem afetar até 1 em cada 100 pessoas)
+
+Corrimento vaginal esbranquiçado, espesso, e candidíase (infeção)
+
+Nódoa negra e hemorragia no local de injeção
+
+Aumento da gama-GT, uma enzima do fígado avaliada em análises ao sangue
+
+Inflamação do fígado (hepatite)
+
+Insuficiência do fígado
+
+Adormecimento, formigueiro e dor
+
+Reações anafiláticas</p>
+<ul>
+<li>Inclui os efeitos secundários para os quais o papel exato de Faslodex não pode ser avaliado devido à 
+doença subjacente.
+Comunicação de efeitos secundários
+Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+secundários diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+34
+comunicar efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar faslodex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar faslodex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior ou nos rótulos 
+da seringa após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+Conservar e transportar no frigorífico (2ºC-8ºC).
+Os desvios de temperatura fora do intervalo de 2°C-8°C devem ser limitados. Isto inclui evitar a 
+conservação a temperaturas superiores a 30ºC, e não exceder o período de 28 dias em que a 
+temperatura média de conservação do medicamento seja inferior a 25ºC (mas acima de 2ºC-8ºC). 
+Após os desvios de temperatura, o medicamento deve ser imediatamente colocado nas condições de 
+conservação recomendadas (conservar e transportar no frigorífico entre 2ºC-8ºC). Os desvios de 
+temperatura têm um efeito cumulativo na qualidade do medicamento e o período de tempo de 28 dias 
+não deve ser excedido durante os 4 anos de prazo de validade de Faslodex. A exposição a 
+temperaturas inferiores a 2ºC não danificam o medicamento desde que não seja conservado abaixo dos 
+-20ºC.
+Conservar a seringa pré-cheia na embalagem de origem para proteger da luz.
+O seu profissional de saúde será responsável pela correta conservação, utilização e eliminação de 
+Faslodex.
+Este medicamento pode representar um risco para o ambiente aquático. Não deite fora quaisquer 
+medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os 
+medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Faslodex</h2>
+<h2>A substância ativa é fulvestrant. Cada seringa pré-cheia (5 ml) contém 250 mg de fulvestrant.</h2>
+<p>Os outros componentes (excipientes) são etanol (96 por cento), álcool benzílico, benzoato de 
+benzilo e óleo de rícino refinado.
+Qual o aspeto de Faslodex e conteúdo da embalagem
+Faslodex é uma solução límpida, viscosa, incolor a amarela numa seringa pré-cheia, provida de uma 
+tampa de integridade, contendo 5 ml de solução injetável. Duas seringas devem ser administradas para 
+receber a dose mensal recomendada de 500 mg.
+Faslodex tem 2 apresentações, uma embalagem contendo 1 seringa de vidro pré-cheia ou uma 
+embalagem contendo 2 seringas de vidro pré-cheias. São igualmente fornecidas agulhas de segurança 
+(BD SafetyGlide) para ligação ao respetivo corpo.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+AstraZeneca AB
+SE-151 85 Södertälje
+Suécia
+35
+Fabricante
+AstraZeneca AB
+Karlebyhusentrén
+Astraallén
+SE-152 57 Södertälje
+Suécia
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft
+Tel: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Slovenská republika
+36
+Vistor hf.
+Sími: +354 535 7000
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7777
+Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -807,6 +1195,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-1f037c7eeed99a83d34b7e97df29f3bf"
 * entry[0].resource = composition-da-1f037c7eeed99a83d34b7e97df29f3bf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1f037c7eeed99a83d34b7e97df29f3bf"
+* entry[=].resource = mp1f037c7eeed99a83d34b7e97df29f3bf
+                            
+                    
+Instance: bundlepackageleaflet-pt-1f037c7eeed99a83d34b7e97df29f3bf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for faslodex Package Leaflet for language pt"
+Description: "ePI document Bundle for faslodex Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-1f037c7eeed99a83d34b7e97df29f3bf"
+* entry[0].resource = composition-pt-1f037c7eeed99a83d34b7e97df29f3bf
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp1f037c7eeed99a83d34b7e97df29f3bf"
@@ -908,6 +1318,18 @@ RuleSet: 1f037c7eeed99a83d34b7e97df29f3bfListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-1f037c7eeed99a83d34b7e97df29f3bf) // faslodex pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

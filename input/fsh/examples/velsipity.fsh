@@ -1022,6 +1022,458 @@ hjemmeside http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-25e890f25f8f1bec07dd339802b5338b
+InstanceOf: CompositionUvEpi
+Title: "Composition for velsipity Package Leaflet"
+Description:  "Composition for velsipity Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp25e890f25f8f1bec07dd339802b5338b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - velsipity"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Velsipity e para que é utilizado 
+2. O que precisa de saber antes de tomar Velsipity 
+3. Como tomar Velsipity 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Velsipity
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é velsipity e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é velsipity e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Velsipity contém a substância ativa etrasimod, que pertence ao grupo dos medicamentos conhecidos 
+como moduladores do recetor da esfingosina-1-fosfato.
+Velsipity é utilizado no tratamento de adultos e adolescentes com idade igual ou superior a 16 anos 
+com colite ulcerosa (CU) ativa moderada a grave. A colite ulcerosa é uma doença inflamatória do 
+intestino grosso. Se tem colite ulcerosa, ser-lhe-ão administrados outros medicamentos primeiro. Se 
+não responder suficientemente bem ou não puder tomar esses medicamentos, poderá ser-lhe 
+administrado Velsipity para reduzir os sinais e sintomas da doença.
+A substância ativa de Velsipity, etrasimod, impede que os linfócitos (um tipo de glóbulos brancos) 
+passem dos gânglios linfáticos (parte do sistema imunitário do organismo que contém linfócitos) para 
+o sangue. Estes linfócitos estão envolvidos na inflamação associada ao desenvolvimento de colite 
+ulcerosa. Ao reduzir o número de linfócitos que circulam no sangue ao redor do intestino grosso, 
+etrasimod ajuda a reduzir a inflamação do intestino e os sintomas associados à doença.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar velsipity"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar velsipity"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Velsipity
+
+se tem alergia ao etrasimod ou a qualquer outro componente deste medicamento (indicados na 
+secção 6);
+
+se o seu profissional de saúde o informou de que possui um sistema imunitário gravemente 
+enfraquecido;
+40
+
+se teve um ataque cardíaco, angina de peito instável (dor no peito causada por interrupções no 
+fornecimento de sangue ao coração em repouso ou sem um estímulo evidente), um AVC, um
+acidente isquémico transitório (AIT, também conhecido como “mini-AVC"), ou determinados 
+tipos de insuficiência cardíaca grave nos últimos 6 meses;
+
+se tem determinados tipos de arritmia (batimento cardíaco irregular ou anormal). O seu médico 
+examinará o seu coração antes de iniciar o tratamento;
+
+se tem uma infeção grave ativa ou uma infeção crónica ativa, tal como hepatite (inflamação do 
+fígado) ou tuberculose;
+
+se tem cancro; 
+
+se tem problemas graves do fígado;
+
+se estiver grávida ou se for uma mulher com potencial para engravidar que não utiliza métodos 
+contracetivos eficazes.
+Advertências e precauções
+Fale com o seu médico ou farmacêutico antes de tomar Velsipity se:
+
+tem frequência cardíaca baixa ou se está a tomar ou tiver tomado recentemente medicamentos 
+que reduzam a frequência cardíaca (tais como beta-bloqueadores ou bloqueadores dos canais de 
+cálcio);
+
+alguma vez teve um AVC ou outras doenças relacionadas com os vasos sanguíneos do cérebro;
+
+tem problemas de fígado;
+
+tem uma infeção;
+
+tem baixos níveis de linfócitos (um tipo de glóbulos brancos);
+
+recentemente foi ou planeia ser vacinado;
+
+alguma vez teve problemas de visão ou outros sintomas de acumulação de líquido na parte de 
+trás do olho;
+
+tem uma inflamação ocular;
+
+tem diabetes (doença que pode causar problemas oculares);
+
+tem hipertensão arterial;
+
+tem doença pulmonar grave, como por exemplo, fibrose pulmonar (lesão pulmonar 
+caracterizada pela cicatrização e espessamento dos tecidos), asma ou doença pulmonar 
+obstrutiva crónica (um tipo de doença pulmonar que consiste na lesão permanente dos tecidos
+pulmonares).
+Frequência cardíaca baixa e ritmo cardíaco irregular
+Antes de começar a tomar Velsipity, o seu médico examinará o seu coração através de um 
+eletrocardiograma (ECG; um exame à atividade elétrica do coração). Este exame é realizado porque 
+Velsipity pode causar uma diminuição temporária da frequência cardíaca, entre outras perturbações do 
+ritmo cardíaco, aquando do início do tratamento. Nestes casos, é possível que sinta tonturas ou 
+cansaço, que fique consciente dos seus batimentos cardíacos ou que a sua tensão arterial baixe. Caso 
+estes sintomas sejam intensos, fale com o seu médico, uma vez que poderá necessitar de tratamento 
+imediato. Se reiniciar o tratamento após uma interrupção de 7 ou mais dias seguidos, o seu médico 
+poderá examinar o seu coração novamente através de um ECG.
+Se tiver determinadas condições cardíacas, o seu médico monitorizá-lo-á também durante, pelo menos, 
+as primeiras 4 horas após a toma da primeira dose. O seu médico informá-lo-á de que deve permanecer 
+no hospital ou clínica durante 4 horas e irá medir a sua pulsação e tensão arterial de hora a hora após a 
+toma da primeira dose de Velsipity. Deverá realizar um ECG antes da toma da primeira dose de 
+Velsipity e após o período de monitorização de 4 horas. Se, após o período de 4 horas, a sua 
+frequência cardíaca apresentar níveis muito baixos ou estiver a diminuir, ou se o ECG demonstrar 
+anomalias, poderá ser necessária uma monitorização prolongada até que os valores voltem ao normal.
+Tensão arterial elevada
+Uma vez que Velsipity pode aumentar a sua tensão arterial, o seu médico poderá querer verificá-la 
+regularmente.
+41
+Infeções
+Velsipity reduz os níveis de glóbulos brancos no sangue (em particular, a contagem de linfócitos). Os 
+glóbulos brancos combatem infeções, por isso, enquanto estiver a tomar Velsipity (e durante até 
+2 semanas depois de parar de o tomar), é possível que fique mais suscetível a contrair infeções e 
+qualquer infeção que já tenha pode agravar-se. Fale com o seu médico caso desenvolva uma infeção.
+Se pensa que pode ter uma infeção, tem febre, sintomas de gripe, herpes zóster ou dor de cabeça 
+acompanhada por rigidez no pescoço, sensibilidade à luz, náuseas, erupções cutâneas e/ou confusão ou 
+convulsões (ataques) (poderá tratar-se de sintomas de meningite e/ou encefalite provocadas por uma 
+infeção fúngica ou herpes viral), contacte o seu médico de imediato, pois podem ser graves e 
+potencialmente fatais.
+Foram notificados casos de leucoencefalopatia multifocal progressiva (LEMP) com medicamentos 
+semelhantes a Velsipity. A LEMP é uma infeção viral rara do cérebro que pode conduzir a 
+incapacidade grave ou à morte. Os sintomas de LEMP incluem perturbação da visão, enfraquecimento 
+progressivo, descoordenação, perda de memória ou confusão. Se desenvolver qualquer um destes 
+sintomas, fale com o seu médico de imediato. O seu médico ponderará a necessidade de realizar 
+exames para avaliar esta condição e decidirá parar o seu tratamento com Velsipity se se confirmar 
+LEMP.
+Edema macular
+Velsipity pode causar um problema de visão conhecido como edema macular (inchaço da mácula, a 
+parte central da retina na parte de trás do olho). O seu médico avaliará a sua visão perto da altura em 
+que começar a tomar Velsipity e sempre que sentir alterações na visão durante o tratamento. Fale com 
+o seu médico caso sinta alterações na visão. O risco de desenvolver edema macular é mais elevado 
+caso tenha diabetes, uveíte (inflamação da úvea, a camada por baixo da parte branca do globo ocular) 
+ou determinados outros problemas oculares. Se tiver qualquer uma destas condições, o seu médico irá 
+examinar a sua visão perto da altura em que começar a tomar Velsipity e regularmente durante o 
+tratamento. 
+Contacte o seu médico imediatamente se tiver quaisquer dos sintomas seguintes:
+
+visão turva ou sombras no centro da visão;
+
+um ângulo morto no centro da visão;
+
+sensibilidade à luz;
+
+visão invulgarmente colorida (manchada).
+Cancro
+Velsipity enfraquece o sistema imunitário. Isto aumenta o risco de desenvolver cancros, em particular, 
+cancro de pele. Foram notificados casos de cancro de pele com medicamentos semelhantes a Velsipity. 
+Fale com o seu médico de imediato se se aperceber da existência de nódulos cutâneos (por ex., 
+nódulos com aspeto de pérola brilhantes), manchas ou feridas abertas que não cicatrizem no espaço de 
+semanas. Os sintomas de cancro de pele podem incluir crescimento anormal ou alterações no tecido 
+cutâneo (por ex., sinais invulgares) com alteração de cor, forma ou tamanho ao longo do tempo. Uma 
+vez que existe risco de cancro de pele, deve limitar a sua exposição à luz solar e à radiação UV 
+(ultravioleta), usando vestuário de proteção e aplicando protetor solar (com um fator de proteção solar 
+elevado) regularmente. 
+Síndrome de encefalopatia posterior reversível (PRES)
+PRES é uma condição em que o cérebro incha. Os sintomas de PRES incluem dor de cabeça, 
+alterações da visão, consciência diminuída, confusão, convulsões (ataques). Se desenvolver algum 
+destes sintomas, fale com o seu médico de imediato. 
+Vacinação
+Se precisa de receber uma vacina, fale com o seu médico primeiro. As vacinas podem não funcionar 
+tão bem durante o tratamento com Velsipity. Recomenda-se que se certifique de que tem as vacinas 
+atualizadas antes de iniciar o tratamento. As vacinas vivas podem despoletar a infeção que se destinam 
+42
+a tratar e devem, por isso, ser administradas pelo menos 4 semanas antes do início do tratamento ou 
+pelo menos 2 semanas após deixar de tomar Velsipity.
+Testes da função hepática
+Velsipity pode afetar a função hepática. Fale com o seu médico de imediato se desenvolver qualquer 
+um dos seguintes sintomas: amarelecimento da pele ou da parte branca dos olhos, urina anormalmente 
+escura (com uma tonalidade acastanhada), dor do lado direito da zona da barriga (abdómen), cansaço, 
+perda de apetite ou naúseas ou vómitos inexplicáveis.
+O seu médico solicitará a realização de análises ao sangue antes, durante e após o fim do tratamento 
+para monitorizar a sua função hepática.
+Problemas pulmonares
+Velsipity poderá ter efeito na função pulmonar. Os doentes com problemas pulmonares graves têm 
+maior probabilidade de desenvolver estes efeitos indesejáveis.
+Outros tratamentos para a colite ulcerosa
+O seu médico aconselhá-lo-á a interromper outros tratamentos para a colite ulcerosa, com exceção de 
+corticosteroides (como, por exemplo, a cortisona) e messalazina. Alguns mediamentos para a colite 
+ulcerosa podem também ser utilizados para outras doenças. Informe o seu médico sobre outros 
+medicamentos que tome. Ao mudar de tratamento, o risco de infeção poderá ser mais elevado durante 
+algum tempo, devido ao risco de efeitos imunossupressores aditivos. Não tome outros medicamentos 
+imunossupressores sem indicação do seu médico.
+Mulheres com potencial para engravidar
+Se for utilizado durante a gravidez, Velsipity pode ser prejudicial para o feto. Antes de iniciar o 
+tratamento com Velsipity, o seu médico dar-lhe-á a conhecer os riscos e solicitará a realização de um 
+teste de gravidez, de forma a garantir que não está grávida. O seu médico irá dar-lhe um cartão do 
+doente, que explica os motivos pelos quais não deve engravidar enquanto estiver a tomar Velsipity. 
+Explica, também, o que deve fazer para evitar engravidar enquanto estiver a tomar Velsipity. Tem de 
+utilizar métodos contracetivos eficazes durante o tratamento e durante 14 dias após a interrupção do 
+mesmo (ver “Gravidez, contraceção, amamentação e fertilidade", na secção 2).
+Se alguma destas situações se aplica a si, fale com o seu médico ou farmacêutico antes de tomar 
+Velsipity.
+Crianças e adolescentes
+Não dê este medicamento a crianças e adolescentes com idade inferior a 16 anos. Isto porque Velsipity 
+não foi estudado nesta faixa etária.
+Outros medicamentos e Velsipity
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto porque Velsipity pode afetar a forma como alguns medicamentos 
+atuam. Além disso, alguns medicamentos podem afetar a forma como Velsipity atua.
+Em particular, informe o seu médico ou farmacêutico antes de tomar Velsipity se estiver a tomar 
+algum dos seguintes medicamentos:
+
+Medicamentos para controlar a frequência cardíaca e a tensão arterial (beta-bloqueadores ou 
+bloqueadores dos canais de cálcio); a toma destes medicamentos pode intensificar o efeito de 
+Velsipity na irregularidade dos batimentos cardíacos.
+
+Medicamentos para controlar o ritmo cardíaco (antiarrítmicos) ou os batimentos cardíacos.
+
+Medicamentos que afetam o sistema imunitário; a toma destes medicamentos com Velsipity 
+pode enfraquecer o sistema imunitário.
+
+Vacinas; se precisa de receber uma vacina, fale com o seu médico. Não deve tomar Velsipity 
+pelo menos 2 semanas antes da vacinação. Não deve tomar Velsipity pelo menos 4 semanas 
+após a administração de uma vacina viva.
+43
+
+Fluconazol (um tratamento antifúngico) e outros medicamentos que possam aumentar os níveis 
+de Velsipity no sangue, o que aumenta o risco de efeitos indesejáveis com Velsipity. Não se 
+recomenda a toma concomitante destes medicamentos com Velsipity e o seu médico aconselhá-
+lo-á acerca disto.
+
+Rifampicina, enzalutamida e outros medicamentos que possam diminuir os níveis de Velsipity 
+no sangue, reduzindo a sua eficácia. Não se recomenda a toma concomitante destes 
+medicamentos com Velsipity e o seu médico aconselhá-lo acerca disto.
+Velsipity pode aumentar ligeiramente os níveis de hormonas libertadas por algumas pílulas 
+contracetivas. Continuará a estar protegida contra a gravidez, mas as probabilidades de sentir efeitos 
+indesejáveis causados pelas pílulas contracetivas poderão aumentar. Se tiver quaisquer efeitos 
+indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, fale com o seu 
+médico ou farmacêutico.
+Gravidez, contraceção e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento.
+Gravidez e contraceção
+Não tome Velsipity durante a gravidez, se estiver a tentar engravidar ou se for uma mulher com 
+potencial para engravidar e não estiver a utilizar métodos contracetivos eficazes. Se Velsipity for 
+utilizado durante a gravidez, pode ser prejudicial para o feto. Se for uma mulher com potencial para 
+engravidar, o seu médico dar-lhe-á a conhecer os riscos e solicitará a realização de um teste de 
+gravidez, de forma a garantir que não está grávida. Tem de utilizar métodos contracetivos eficazes 
+enquanto estiver a tomar Velsipity e durante, pelo menos, 14 dias depois de parar de o tomar. 
+Questione o seu médico sobre métodos contracetivos fiáveis.
+O seu médico irá dar-lhe um cartão do doente, que explica os motivos pelos quais não deve engravidar 
+enquanto estiver a tomar Velsipity.
+Se engravidar enquanto estiver a tomar Velsipity, fale com o seu médico de imediato. Este 
+provavelmente irá interromper o tratamento (ver “Se parar de tomar Velsipity", na secção 3) e serão 
+realizadas avaliações pré-natais para monitorizar a saúde do feto.
+Amamentação
+Não deve amamentar enquanto estiver a tomar Velsipity. Isto destina-se a evitar o risco de efeitos 
+indesejáveis para o bebé, uma vez que Velsipity pode passar para o leite materno.
+Condução de veículos e utilização de máquinas
+Não é de esperar que Velsipity tenha efeitos sobre a sua capacidade de conduzir veículos e utilizar 
+máquinas. Pode, no entanto, sentir tonturas depois de tomar Velsipity. Se isso acontecer, não conduza 
+nem utilize máquinas.
+Velsipity contém tartrazina (E102)
+O corante de Velsipity contém tartrazina (E102), a qual pode provocar reações alérgicas. 
+Velsipity contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar velsipity"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar velsipity"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O início da toma de Velsipity será supervisionado por um médico com experiência no tratamento da 
+colite ulcerosa. Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. 
+44
+Como tomar
+
+A dose recomendada de Velsipity é um comprimido de 2 mg uma vez por dia.
+
+Tome Velsipity com alimentos durante os primeiros 3 dias. Após esse período, pode tomar 
+Velsipity todos os dias com ou sem alimentos.
+
+Engula o comprimido inteiro com água. Não divida, esmague ou mastigue o comprimido antes 
+de o engolir, pois pode alterar a quantidade de medicamento que entra para a corrente 
+sanguínea.
+Se tomar mais Velsipity do que deveria
+Se tomou mais Velsipity do que deveria, contacte o seu médico imediatamente ou dirija-se ao hospital 
+de imediato. Faça-se acompanhar da embalagem do medicamento e deste folheto informativo.
+Caso se tenha esquecido de tomar Velsipity
+
+Caso se tenha esquecido de tomar uma dose de Velsipity, tome-a assim que se lembrar. No 
+entanto, se não se lembrar de tomar a dose durante todo o dia, omita a dose esquecida e tome a 
+dose seguinte à hora habitual. 
+
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Se parar de tomar Velsipity
+Não pare de tomar Velsipity nem altere a dose sem falar com o seu médico. Se o seu médico decidir 
+interromper o seu tratamento durante 7 ou mais dias seguidos, o medicamento tem de ser tomado com 
+alimentos durante os primeiros 3 dias após o reinício do tratamento. Após esse período, pode tomar 
+Velsipity com ou sem alimentos.
+Se recomeçar a tomar Velsipity após uma interrupção de 7 ou mais dias seguidos, o efeito na 
+frequência cardíaca passível de ser observado aquando do início do tratamento pode voltar a ocorrer e 
+poderá ter de ser monitorizado no hospital ou clínica. Não recomece a tomar Velsipity após uma 
+interrupção de mais de 7 dias sem procurar aconselhamento do seu médico.
+Velsipity permanecerá no organismo até 14 dias após deixar de o tomar. A sua contagem de glóbulos 
+brancos (contagem de linfócitos) poderá manter-se baixa durante cerca de 2 semanas e, durante esse 
+período, os efeitos indesejáveis descritos neste folheto poderão ainda ocorrer (ver “Efeitos indesejáveis 
+possíveis" na secção 4).
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Efeitos indesejáveis graves
+Fale com o seu médico ou farmacêutico de imediato se sentir quaisquer dos efeitos indesejáveis 
+listados abaixo, os quais podem tornar-se graves:
+Frequentes (podem afetar até 1 em 10 pessoas)
+
+bradicardia (batimentos cardíacos lentos)
+
+hipertensão (tensão arterial elevada)
+
+infeção das vias urinárias (infeção das partes do corpo que recolhem e eliminam a urina)
+
+infeção das vias respiratórias inferiores (infeção nas vias respiratórias baixas ou pulmões)
+Pouco frequentes (podem afetar até 1 em 100 pessoas)
+
+bloqueio auriculoventricular (um tipo de perturbação do ritmo cardíaco)
+45
+
+edema macular (inchaço da mácula, a parte central da retina na parte de trás do olho)
+Outros efeitos indesejáveis
+Fale com o seu médico ou farmacêutico imediatamente se sentir quaisquer dos efeitos indesejáveis 
+seguintes: 
+Muito frequentes (podem afetar mais de 1 em 10 pessoas)
+
+linfopenia (baixos níveis de linfócitos, um tipo de glóbulos brancos)
+Frequentes (podem afetar até 1 em 10 pessoas)
+
+hipercolesterolemia (elevados níveis de colesterol no sangue)
+
+dor de cabeça
+
+sensação de tonturas
+
+aumento dos níveis das enzimas hepáticas nas análises ao sangue, o que pode ser um sinal de 
+problemas na função do fígado
+
+neutropenia (baixos níveis de neutrófilos, um tipo de glóbulos brancos)
+
+insuficiência visual
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar velsipity"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar velsipity"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Manter este medicamento fora da vista e do alcance das crianças.
+
+Não utilize este medicamento após o prazo de validade impresso no frasco, no blister e na 
+embalagem exterior após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+
+O medicamento não necessita de qualquer temperatura especial de conservação.
+
+Conservar na embalagem de origem para proteger da humidade.
+
+Não utilize este medicamento se verificar quaisquer danos ou sinais de adulteração da 
+embalagem.
+
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Velsipity 
+
+A substância ativa é o etrasimod. Cada comprimido revestido por película contém arginina de 
+etrasimod equivalente a 2 mg de etrasimod.
+
+Os outros excipientes são: 
+Núcleo do comprimido
+Estearato de magnésio (E470b), manitol (E421), celulose microcristalina (E460i), glicolato de 
+amido sódico (Tipo A)
+Revestimento do comprimido
+Azul Brilhante FCF (E133), índigo carmim (E132), tartrazina azul (E102), macrogol 4(E1521), poli(álcool vinílico) (E1203), talco (E553b) e dióxido de titânio (E171)
+4</p>         </div>"""      
+
+
+
 
 
                     
@@ -1063,6 +1515,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-25e890f25f8f1bec07dd339802b5338b"
 * entry[0].resource = composition-da-25e890f25f8f1bec07dd339802b5338b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp25e890f25f8f1bec07dd339802b5338b"
+* entry[=].resource = mp25e890f25f8f1bec07dd339802b5338b
+                            
+                    
+Instance: bundlepackageleaflet-pt-25e890f25f8f1bec07dd339802b5338b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for velsipity Package Leaflet for language pt"
+Description: "ePI document Bundle for velsipity Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-25e890f25f8f1bec07dd339802b5338b"
+* entry[0].resource = composition-pt-25e890f25f8f1bec07dd339802b5338b
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp25e890f25f8f1bec07dd339802b5338b"
@@ -1164,6 +1638,18 @@ RuleSet: 25e890f25f8f1bec07dd339802b5338bListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-25e890f25f8f1bec07dd339802b5338b) // velsipity pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

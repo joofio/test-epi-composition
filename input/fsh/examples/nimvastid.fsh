@@ -922,6 +922,506 @@ eller du får bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 
 
 
 
+Instance: composition-pt-bf180fec42e0c0b913e732d977364555
+InstanceOf: CompositionUvEpi
+Title: "Composition for nimvastid Package Leaflet"
+Description:  "Composition for nimvastid Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbf180fec42e0c0b913e732d977364555)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - nimvastid"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Nimvastid e para que é utilizado
+2. O que precisa de saber antes de tomar Nimvastid
+3. Como tomar Nimvastid
+4. Efeitos indesejáveis possíveis
+5. Como conservar Nimvastid
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é nimvastid e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é nimvastid e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A substância ativa de Nimvastid é a rivastigmina.
+A rivastigmina pertence a uma classe de substâncias denominada inibidores da colinesterase. Em 
+doentes com demência de Alzheimer  ou demência devido à doença de Parkinson, algumas células 
+nervosas morrem no cérebro resultando em níveis baixos do neurotransmissor acetilcolina ( uma 
+substância que permite às células nervosas comunicarem entre si). A rivastigmina funciona através do 
+bloqueio das enzimas que degradam a acetilcolina: acetilcolinesterase e butirilcolinesterase. Através 
+do bloqueio destas enzimas, o Nimvastid permite o aumento dos níveis de acetilcolina no cérebro, 
+ajudando a reduzir os sintomas da doença de Alzheimer e da demência associada à doença de 
+Parkinson.
+Nimvastid utiliza-se para o tratamento de doentes adultos com demência de Alzheimer ligeira a 
+moderadamente grave, uma perturbação progressiva do cérebro que afeta gradualmente a memória, a 
+capacidade intelectual e o comportamento. As cápsulas e os comprimidos orodispersíveis também
+podem ser utilizadas para o tratamento da demência em doentes adultos com doença de Parkinson.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar nimvastid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar nimvastid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Nimvastid</h2>
+<p>se tem alergia à rivastigmina (a substância ativa de Nimvastid), a outros derivados do carbamato<br />
+ou a qualquer outro componente deste medicamento (indicados na secção 6).
+-
+se tiver uma reação da pele que se alastra para além do tamanho do adesivo transdérmico, se 
+existir uma reação local mais intensa (tal como bolhas, inflamação da pele, inchaço) e se não 
+melhorar no espaço de 48 horas após a remoção do adesivo transdérmico.
+Se isto se aplicar a si, informe o seu médico e não tome Nimvastid.
+Advertências e precauções
+Fale com o seu médico antes de tomar Nimvastid:
+73
+-
+se tem ou tiver tido uma doença do coração tal como batimento irregular ou lento do coração, 
+prolongamento do intervalo QTc, história familiar de prolongamento do intervalo QTc, torsade 
+de pointes, ou tem um baixo nível de potássio ou magnésio.
+-
+se tem ou tiver tido uma úlcera no estômago ativa.
+-
+se tem ou tiver tido dificuldades na passagem da urina.
+-
+se tem ou tiver tido convulsões.
+-
+se tem ou tiver tido asma ou doença respiratória grave.
+-
+se tem ou tiver tido a função renal comprometida.
+-
+se tem ou tiver tido a função hepática comprometida.
+-
+se sofre de tremores.
+-
+se tem um peso corporal baixo.
+-
+se sentir reações gastrointestinais tais como enjoos (náuseas), vómitos e diarreia. Poderá ficar 
+desidratado (perder demasiados líquidos) se os vómitos ou a diarreia forem prolongados.
+Se alguma destas situações se aplicar a si, o seu médico pode necessitar de o acompanhar mais 
+regularmente enquanto está a tomar este medicamento.
+Se não tomou Nimvastid durante mais do que três dias, não tome a próxima dose antes de falar com o 
+seu médico.
+Crianças e adolescentes
+Não é relevante a utilização d Nimvastid na população pediátrica no tratamento da doença de 
+Alzheimer.
+Outros medicamentos e Nimvastid
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos.
+Nimvastid não deve ser administrado simultaneamente com outros medicamentos com efeitos 
+semelhantes a Nimvastid. Nimvastid pode interferir com os medicamentos anticolinérgicos 
+(medicamentos usados para aliviar os espasmos do estômago acompanhados de dor, tratar a doença de 
+Parkinson ou para prevenir o enjoo em viagem).
+Nimvastid não deve ser administrado ao mesmo tempo que a metoclopramida (um medicamento 
+utilizado para aliviar ou prevenir náuseas e vómitos). A toma conjunta destes dois medicamentos pode 
+causar problemas, tais como os membros rígidos e as mãos trémulas.
+Em caso de ter de se submeter a cirurgia enquanto estiver a tomar Nimvastid, deve informar o seu 
+médico antes de lhe serem administrados anestésicos, porque Nimvastid pode potenciar os efeitos de 
+alguns relaxantes musculares durante a anestesia.
+Deve ter cuidado ao tomar Nimvastid em conjunto com beta-bloqueadores (medicamentos, tais como 
+atenolol utilizados para tratar a tensão arterial elevada, angina e outras doenças do coração). A toma 
+conjunta destes dois medicamentos pode causar problemas como diminuição do batimento do coração 
+(bradicardia), levando a desmaios ou perda de consciência.
+Deve ter cuidado ao tomar Exelon com outros medicamentos que podem afetar o seu ritmo cardíaco 
+ou o sistema elétrico do seu coração (prolongamento do intervalo QT).
+Gravidez, amamentação e fertilidade
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Se estiver grávida, os benefícios da utilização de Nimvastid devem ser ponderados relativamente aos 
+possíveis efeitos no feto. Nimvastid não deve ser utilizado durante a gravidez, a não ser que seja 
+claramente necessário.
+Não deve amamentar durante o tratamento com Nimvastid. 
+74
+Condução de veículos e utilização de máquinas
+O seu médico irá dizer-lhe se a sua doença lhe permite conduzir veículos e utilizar máquinas com 
+segurança. Nimvastid pode causar tonturas e sonolência, principalmente no início do tratamento ou 
+quando se aumenta a dose. Se sentir tonturas ou sonolência, não conduza, não utilize máquinas nem 
+realize outras tarefas que requeiram a sua atenção.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar nimvastid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar nimvastid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico,
+farmacêutico ou enfermeiro se tiver dúvidas.
+Como começar o tratamento
+O seu médico dir-lhe-á qual é a dose de Nimvastid mais adequada para si.
+
+O tratamento é habitualmente iniciado com uma dose baixa.
+
+O seu médico irá aumentar gradualmente a sua dose dependendo da sua resposta ao tratamento.
+
+A dose mais elevada que deve ser tomada é de 6,0 mg duas vezes ao dia.
+O seu médico irá verificar regularmente se o medicamento está a fazer efeito. O seu médico irá 
+também monitorizar o seu peso durante o tratamento.
+Se não tomou Nimvastid durante mais do que três dias, não tome a próxima dose antes de falar com o 
+seu médico.
+Ao tomar este medicamento
+
+Informe a pessoa que lhe presta cuidados de saúde que está a tomar Nimvastid.
+
+Para beneficiar do seu medicamento, tome-o todos os dias.
+
+Tome Nimvastid duas vezes por dia, de manhã e à noite, com comida.
+
+Engula as cápsulas inteiras com uma bebida.
+
+Não abra nem esmague as cápsulas.
+Se tomar mais Nimvastid do que deveria
+Se tomou acidentalmente mais Nimvastid do que deveria, informe o seu médico. Pode necessitar de 
+assistência médica. Algumas pessoas que tomaram acidentalmente uma quantidade excessiva de 
+Nimvastid tiveram enjoos (náuseas), vómitos, diarreia, pressão arterial elevada e alucinações. Podem 
+também ocorrer batimento lento do coração e desmaio.
+Caso se tenha esquecido de tomar Nimvastid
+Se verificar que se esqueceu de tomar uma dose de Nimvastid aguarde e tome a próxima dose à hora 
+habitual. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Poderá ter efeitos indesejáveis com mais frequência quando inicia o seu medicamento ou quando a sua 
+dose é aumentada. Normalmente, os efeitos indesejáveis irão desaparecer gradualmente, assim que o 
+seu organismo se habituar ao medicamento.
+Muito frequentes (podem afetar mais de 1 em 10 pessoas)
+
+Tonturas
+75
+
+Perda de apetite
+
+Problemas de estômago tais como enjoos (náuseas) ou vómitos, diarreia
+Frequentes (podem afetar até 1 em 10 pessoas)
+
+Ansiedade
+
+Transpiração
+
+Dor de cabeça
+
+Azia
+
+Perda de peso
+
+Dores de estômago
+
+Agitação
+
+Sensação de fadiga ou fraqueza
+
+Sensação geral de mal-estar
+
+Tremores ou confusão
+
+Perda de apetite
+
+Pesadelos
+Pouco frequentes (podem afetar até 1 em 100 pessoas)
+
+Depressão
+
+Dificuldade em dormir
+
+Desmaio ou quedas acidentais
+
+Alterações do funcionamento do fígado
+Raros (podem afetar até 1 em 1 000 pessoas)
+
+Dor no peito
+
+Erupção na pele, comichão
+
+Crises epiléticas (ataques ou convulsões)
+
+Úlceras no estômago ou intestino
+Muito raros (podem afetar até 1 em 10 000 pessoas)
+
+Pressão arterial elevada
+
+Infeção do trato urinário
+
+Ver coisas que não existem (alucinações)
+
+Problemas com o batimento do coração tais como batimento do coração rápido ou lento
+
+Hemorragia gastrointestinal - identificada por sangue nas fezes ou ao vomitar
+
+Inflamação do pâncreas - os sintomas incluem dor forte na parte superior do estômago, 
+frequentemente acompanhada de enjoos (náuseas) ou vómitos
+
+Agravamento dos sinais da doença de Parkinson ou desenvolvimento de sinais semelhantes -
+tais como rigidez muscular, dificuldade em efetuar movimentos
+Desconhecido (a frequência não pode ser estimada a partir dos dados disponíveis)
+
+Vómitos muito intensos que podem levar à rutura do tubo que liga a boca ao estômago 
+(esófago)
+
+Desidratação (perder demasiados líquidos)
+
+Problemas de fígado (pele amarela, amarelecimento da parte branca dos olhos, escurecimento 
+anormal da urina ou náuseas, vómitos, cansaço ou falta de apetite inexplicáveis)
+
+Agressividade, agitação
+
+Batimento irregular do coração
+Doentes com demência associada à doença de Parkinson
+Estes doentes têm alguns efeitos indesejáveis com mais frequência. Estes doentes também têm alguns 
+efeitos indesejáveis adicionais:
+Muito frequentes (podem afetar mais de 1 em 10 pessoas)
+
+Tremores
+76
+
+Desmaio
+
+Queda acidental
+Frequentes (podem afetar até 1 em 10 pessoas)
+
+Ansiedade
+
+Agitação
+
+Batimento do coração rápido e lento
+
+Dificuldade em dormir
+
+Aumento da secreção de saliva e desidratação
+
+Movimentos muito lentos ou involuntários
+
+Agravamento dos sinais da doença de Parkinson ou desenvolvimento de sinais semelhantes -
+tais como rigidez muscular, dificuldade em efetuar movimentos e fraqueza muscular
+Pouco frequentes (podem afetar até 1 em 100 pessoas)
+
+Batimento irregular do coração e controlo insuficiente dos movimentos
+Outros efeitos indesejáveis observados com rivastigmina adesivos transdérmicos e que podem 
+ocorrer durante o tratamento com as cápsulas:
+Frequentes (podem afetar até 1 em 10 pessoas)
+
+Febre
+
+Confusão grave
+
+Incontinência urinária (incapacidade de retenção adequada de urina)
+Pouco frequentes (podem afetar até 1 em 100 pessoas)
+
+Hiperatividade (elevado nível de atividade, agitação)
+Desconhecido (a frequência não pode ser estimada a partir dos dados disponíveis)
+
+Reações alérgicas no local de aplicação, tais como bolhas ou pele inflamada
+Se tiver algum destes sintomas, contacte o seu médico pois pode necessitar de assistência médica.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar nimvastid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar nimvastid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem, após VAL. O prazo 
+de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer precauções especiais de conservação.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Nimvastid
+77
+-
+A substância ativa é o hidrogenotartarato de rivastigmina.
+Cada cápsula de Nimvastid 1,5 mg contém hidrogenotartarato de rivastigmina correspondente a 
+1,5 mg de rivastigmina.
+Cada cápsula de Nimvastid 3 mg contém hidrogenotartarato de rivastigmina correspondente a 
+3 mg de rivastigmina.
+Cada cápsula de Nimvastid 4,5 mg contém hidrogenotartarato de rivastigmina correspondente a 
+4,5 mg de rivastigmina.
+Cada cápsula de Nimvastid 6 mg contém hidrogenotartarato de rivastigmina correspondente a 
+6 mg de rivastigmina.
+-
+Os outros componentes do Nimvastid 1,5 mg cápsulas são celulose microcristalina, 
+hipromelose, sílica coloidal anidra, estearato de magnésio no conteúdo da cápsula e dióxido de 
+titânio (E171), óxido de ferro amarelo (E172) e gelatina na cápsula.
+-
+Os outros componentes do Nimvastid 3 mg, 4,5 mg e 6 mg cápsulas são celulose 
+microcristalina, hipromelose, sílica coloidal anidra, estearato de magnésio no conteúdo da 
+cápsula e dióxido de titânio (E171), óxido de ferro amarelo (E172), óxido de ferro vermelho 
+(E172) e gelatina na cápsula.
+Qual o aspeto de Nimvastid e conteúdo da embalagem
+As cápsulas de Nimvastid 1,5 mg, que contêm um pó branco a esbranquiçado, têm uma cabeça e corpo 
+de cor amarela. 
+As cápsulas de Nimvastid 3 mg, que contêm um pó branco a esbranquiçado, têm uma cabeça e corpo 
+de cor laranja.
+As cápsulas de Nimvastid 4,5 mg, que contêm um pó branco a quase branco, têm uma cabeça e corpo 
+de cor vermelha acastanhada.
+As cápsulas de Nimvastid 6 mg, que contêm um pó branco a esbranquiçado, têm uma cabeça de cor 
+vermelha acastanhada e corpo de cor laranja.
+Blister (folha em PVC/PVDC/Al): estão disponíveis caixas de 14 (apenas para 1,5 mg), 28, 30, 56, ou 112 cápsulas.
+Frascos de polietileno de alta densidade (HDPE): estão disponíveis frascos de 200 ou 250 cápsulas.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado e Fabricante
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Eslovénia
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+KRKA Belgium, SA.
+Tél/Tel: + 32 (0) 487 50 73 62
+Lietuva
+UAB KRKA Lietuva
+Tel: + 370 5 236 27 40
+България
+КРКА България ЕООД
+Teл.: + 359 (02) 962 34 50
+Luxembourg/Luxemburg
+KRKA Belgium, SA.
+Tél/Tel: + 32 (0) 487 50 73 62 (BE)
+Česká republika
+KRKA ČR, s.r.o.
+Tel: + 420 (0) 221 115 150
+Magyarország
+KRKA Magyarország Kereskedelmi Kft.
+Tel.: + 36 (1) 355 8490
+Danmark
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Malta
+E.J. Busuttil Ltd.
+Tel: + 356 21 445 885
+78
+Deutschland
+TAD Pharma GmbH
+Tel: + 49 (0) 4721 606-0
+Nederland
+KRKA Belgium, SA.
+Tel: + 32 (0) 487 50 73 62 (BE)
+Eesti
+KRKA, d.d., Novo mesto Eesti filiaal
+Tel: + 372 (0) 6 671 658
+Norge
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Ελλάδα
+KRKA ΕΛΛΑΣ ΕΠΕ
+Τηλ: + 30 2100101613
+Österreich
+KRKA Pharma GmbH, Wien
+Tel: + 43 (0)1 66 24 300
+España
+KRKA Farmacéutica, S.L.
+Tel: + 34 911 61 03 80
+Polska
+KRKA-POLSKA Sp. z o.o.
+Tel.: + 48 (0)22 573 7500
+France
+KRKA France Eurl
+Tél: + 33 (0)1 57 40 82 25
+Portugal
+KRKA Farmacêutica, Sociedade Unipessoal Lda.
+Tel: + 351 (0)21 46 43 650
+Hrvatska
+KRKA - FARMA d.o.o.
+Tel: + 385 1 6312 100
+România
+KRKA Romania S.R.L., Bucharest
+Tel: + 4 021 310 66 05
+Ireland
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Slovenija
+KRKA, d.d., Novo mesto
+Tel: + 386 (0) 1 47 51 100
+Ísland
+LYFIS ehf.
+Sími: + 354 534 3500
+Slovenská republika
+KRKA Slovensko, s.r.o.,
+Tel: + 421 (0) 2 571 04 501
+Italia
+KRKA Farmaceutici Milano S.r.l.
+Tel: + 39 02 3300 8841
+Suomi/Finland
+KRKA Finland Oy
+Puh/Tel: + 358 20 754 5330
+Κύπρος
+KI.PA. (PHARMACAL) LIMITED
+Τηλ: + 357 24 651 882
+Sverige
+KRKA Sverige AB
+Tel: + 46 (0)8 643 67 66 (SE)
+Latvija
+KRKA Latvija SIA
+Tel: + 371 6 733 86 10
+United Kingdom (Northern Ireland)
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Este folheto foi revisto pela última vez em 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -963,6 +1463,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-bf180fec42e0c0b913e732d977364555"
 * entry[0].resource = composition-da-bf180fec42e0c0b913e732d977364555
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbf180fec42e0c0b913e732d977364555"
+* entry[=].resource = mpbf180fec42e0c0b913e732d977364555
+                            
+                    
+Instance: bundlepackageleaflet-pt-bf180fec42e0c0b913e732d977364555
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nimvastid Package Leaflet for language pt"
+Description: "ePI document Bundle for nimvastid Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-bf180fec42e0c0b913e732d977364555"
+* entry[0].resource = composition-pt-bf180fec42e0c0b913e732d977364555
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpbf180fec42e0c0b913e732d977364555"
@@ -1064,6 +1586,18 @@ RuleSet: bf180fec42e0c0b913e732d977364555ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-bf180fec42e0c0b913e732d977364555) // nimvastid pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

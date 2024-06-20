@@ -957,6 +957,573 @@ hjemmeside: http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-c2d0e28fbe1723337dab22fe407d0234
+InstanceOf: CompositionUvEpi
+Title: "Composition for brukinsa Package Leaflet"
+Description:  "Composition for brukinsa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc2d0e28fbe1723337dab22fe407d0234)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - brukinsa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é BRUKINSA e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar BRUKINSA </li>
+<li>Como tomar BRUKINSA </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar BRUKINSA </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é brukinsa e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é brukinsa e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>BRUKINSA é um medicamento anticancerígeno que contém a substância ativa zanubrutinib. Pertence 
+a um grupo de medicamentos chamados inibidores das proteínas cinases. Este medicamento funciona 
+ao bloquear a tirosina cinase de Bruton, uma proteína no organismo que ajuda as células cancerígenas 
+a crescer e sobreviver. Ao bloquear esta proteína, BRUKINSA reduz o número de células 
+cancerígenas e atrasa o agravamento do cancro. </p>
+<p>BRUKINSA é utilizado para tratar a macroglobulinemia de Waldenström (também conhecido como 
+linfoma linfoplasmacítico), um cancro que afeta um tipo de glóbulos brancos chamados linfócitos B 
+que produzem demasiada quantidade de uma proteína denominada IgM. </p>
+<p>Este medicamento é utilizado quando a doença reaparece ou o tratamento não funcionou ou em 
+doentes que não podem receber quimioterapia juntamente com um anticorpo. </p>
+<p>BRUKINSA também é utilizado para tratar o linfoma da zona marginal. Trata-se de um tipo de cancro 
+que também afeta os linfócitos B ou células B. No linfoma da zona marginal, as células B anómalas 
+multiplicam-se com demasiada rapidez e têm uma vida demasiado prolongada. Poderá dar-se um 
+aumento do tamanho dos órgãos que fazem parte das defesas naturais do corpo, tal como os gânglios 
+linfáticos e o baço. As células B anómalas podem igualmente afetar vários órgãos, tais como o 
+estômago, glândulas salivares, tiroide, olhos, pulmões, medula óssea e sangue. Os doentes podem ter 
+febre, perda de peso, cansaço e suores noturnos, e também podem ter sintomas que dependem do local 
+onde o linfoma se desenvolve. Este medicamento é utilizado quando a doença reaparece ou quando o 
+tratamento não dá resultado. </p>
+<p>BRUKINSA também é utilizado no tratamento da leucemia linfocítica crónica (CLL), outro tipo de 
+cancro que afeta as células B e que envolve os nódulos linfáticos. Este medicamento é utilizado em 
+doentes que não foram tratados anteriormente para a CLL ou quando a doença sofreu uma recidiva ou 
+não respondeu ao tratamento anterior.<br />
+BRUKINSA também é usado para tratar linfoma folicular (FL). FL é um cancro de crescimento lento 
+que afeta os linfócitos B. Quando tem FL, tem muitos destes linfócitos B nos gânglios linfáticos, no 
+baço e na medula óssea. BRUKINSA é tomado juntamente com outro medicamento denominado 
+“obinutuzumab" quando a doença reapareceu ou quando os medicamentos utilizados anteriormente 
+não foram eficazes. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar brukinsa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar brukinsa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome BRUKINSA </p>
+<ul>
+<li>se tem alergia ao zanubrutinib ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). </li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar BRUKINSA: </p>
+<ul>
+<li>
+<p>se já tiver tido hemorragia ou hematomas invulgares ou se estiver a tomar quaisquer 
+medicamentos ou suplementos que aumentem o seu risco de hemorragia (ver secção "Outros 
+medicamentos e BRUKINSA"). Se fez uma cirurgia recente ou planeia fazer uma cirurgia, o 
+seu médico poderá pedir-lhe que pare de tomar BRUKINSA por um curto período de tempo 
+(3 a 7 dias) antes e após a sua cirurgia ou procedimento dentário </p>
+</li>
+<li>
+<p>se tiver um ritmo cardíaco irregular ou tiver uma história de ritmos cardíacos irregulares ou 
+insuficiência cardíaca grave ou se apresentar qualquer um dos seguintes sintomas: dificuldade 
+em respirar, fraqueza, tonturas, vertigens, desmaios ou quase-desmaios, dores no peito ou 
+pernas inchadas  </p>
+</li>
+<li>
+<p>se alguma vez foi alertado como estando em risco acrescido de contrair infeções. Pode vir a ter 
+infeções virais, bacterianas ou fúngicas durante o tratamento com BRUKINSA exibindo os 
+seguintes possíveis sintomas: febre, arrepios, fraqueza, confusão, dores no corpo, sintomas de 
+constipação ou gripe, cansaço ou falta de ar, pele ou olhos amarelados (icterícia). </p>
+</li>
+<li>
+<p>se tiver tido ou puder ter hepatite B. Isto porque BRUKINSA pode fazer com que a hepatite B 
+fique novamente ativa. Os doentes irão ser cuidadosamente verificados pelo seu médico para 
+sinais desta infeção antes de ser iniciado o tratamento </p>
+</li>
+<li>
+<p>se tiver problemas no fígado ou nos rins </p>
+</li>
+<li>
+<p>se tiver sido recentemente sujeito a qualquer cirurgia, especialmente se esta puder afetar a 
+forma como absorve alimentos ou medicamentos no seu estômago ou intestino </p>
+</li>
+<li>
+<p>se teve recentemente contagens baixas no sangue de glóbulos vermelhos, de células que 
+combatem as infeções ou de plaquetas </p>
+</li>
+<li>
+<p>se tiver tido outros carcinomas no passado, incluindo cancro da pele (p. ex., carcinoma das 
+células basais ou carcinoma das células escamosas). Por favor, utilize proteção solar. </p>
+</li>
+</ul>
+<p>Se alguma das situações acima descritas se aplica a si (ou se tiver dúvidas), fale com o seu médico, 
+farmacêutico ou enfermeiro antes de tomar este medicamento. </p>
+<p>Testes e exames de verificação antes e durante o tratamento 
+Os testes de laboratório podem mostrar linfocitose, um aumento de glóbulos brancos (linfócitos) no 
+seu sangue nas primeiras semanas de tratamento. Isto é esperado e pode durar alguns meses. Isto não 
+significa necessariamente que o seu cancro no sangue esteja a piorar. O seu médico irá verificar as 
+suas contagens sanguíneas antes e durante o tratamento e em casos raros o seu médico pode dar-lhe 
+outro medicamento. Fale com o seu médico sobre o que significam os resultados do seu teste. </p>
+<p>Síndrome de lise tumoral (TLS): durante o tratamento do cancro já se detetaram níveis pouco 
+habituais de químicos no sangue causados pela decomposição rápida das células tumorais e por vezes 
+mesmo na ausência de tratamento. Isto poderá levar a alterações no funcionamento do fígado, 
+alterações do ritmo cardíaco ou convulsões. O seu médico ou outro profissional de saúde poderá 
+efetuar análises ao sangue para detetar a existência da TLS. </p>
+<p>Crianças e adolescentes </p>
+<p>BRUKINSA não deve ser utilizado em crianças e adolescentes, pois é pouco provável que funcione.  </p>
+<p>Outros medicamentos e BRUKINSA 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. Isto inclui quaisquer medicamentos obtidos sem prescrição médica, 
+medicamentos à base de plantas e suplementos. Isto porque BRUKINSA pode afetar o modo como 
+alguns medicamentos funcionam. E outros medicamentos podem afetar também o modo como o 
+BRUKINSA funciona. </p>
+<p>BRUKINSA pode fazer com que sangre mais facilmente. Isto significa que deve informar o seu 
+médico se tomar outros medicamentos que aumentem o seu risco de hemorragia. Isto inclui 
+medicamentos, tais como: </p>
+<ul>
+<li>
+<p>ácido acetilsalicílico (aspirina) e anti-inflamatórios não esteroides (AINEs) tais como 
+ibuprofeno e naproxeno, </p>
+</li>
+<li>
+<p>anticoagulantes, como a varfarina, heparina e outros medicamentos para tratar ou prevenir os 
+coágulos sanguíneos, </p>
+</li>
+<li>
+<p>suplementos que possam aumentar o risco de hemorragia tais como óleo de peixe, vitamina E 
+ou sementes de linhaça. 
+Se alguma das situações acima descritas se aplica a si (ou se tiver dúvidas), fale com o seu médico, 
+farmacêutico, ou enfermeiro antes de tomar BRUKINSA. </p>
+</li>
+</ul>
+<p>Informe igualmente o seu médico se toma alguns dos seguintes medicamentos - Os efeitos de 
+BRUKINSA ou de outros medicamentos podem ser influenciados se tomar BRUKINSA juntamente 
+com qualquer um dos seguintes medicamentos: </p>
+<ul>
+<li>
+<p>antibióticos para tratar infeções bacterianas - ciprofloxacina, claritromicina, 
+eritromicina, nafcilina ou rifampicina </p>
+</li>
+<li>
+<p>medicamentos para tratar infeções fúngicas - fluconazol, itraconazol, cetoconazol, 
+posaconazol, voriconazol </p>
+</li>
+<li>
+<p>medicamentos para a infeção pelo VIH - efavirenz, etravirina, indinavir, lopinavir, ritonavir, 
+telaprevir </p>
+</li>
+<li>
+<p>medicamento para prevenir as náuseas e vómitos associados à quimioterapia - aprepitant </p>
+</li>
+<li>
+<p>medicamentos para a depressão - fluvoxamina, hipericão </p>
+</li>
+<li>
+<p>medicamentos chamados inibidores das cinases para o tratamento de outros cancros - imatinib </p>
+</li>
+<li>
+<p>medicamentos para a hipertensão ou dor no peito - bosentano, diltiazem, verapamilo </p>
+</li>
+<li>
+<p>medicamentos para o coração/antiarrítmicos - digoxina, dronedarona, quinidina  </p>
+</li>
+<li>
+<p>medicamentos para prevenir convulsões, tratar a epilepsia ou tratar um problema doloroso da 
+face chamado nevralgia do trigémeo - carbamazepina, mefenitoína, fenitoína  </p>
+</li>
+<li>
+<p>medicamentos for enxaquecas e cefaleias em salvas - di-hidroergotamina, ergotamina </p>
+</li>
+<li>
+<p>medicamentos para sonolência extrema e outros problemas do sono - modafinil </p>
+</li>
+<li>
+<p>medicamentos para psicoses e síndrome de Tourette - pimozida </p>
+</li>
+<li>
+<p>medicamentos para anestesia - alfentanilo, fentanilo </p>
+</li>
+<li>
+<p>medicamentos chamados agentes imunossupressores - ciclosporina, sirolímus, tacrolímus </p>
+</li>
+</ul>
+<p>BRUKINSA e alimentos 
+As toranjas e as laranjas-amargas devem ser consumidas com cuidado por volta da hora a que toma 
+BRUKINSA. Isto porque podem aumentar a quantidade de BRUKINSA no seu sangue. </p>
+<p>Gravidez e amamentação 
+Não engravide enquanto está a tomar este medicamento. BRUKINSA não deve ser utilizado durante a 
+gravidez. Desconhece-se se BRUKINSA pode causar danos ao seu bebé em gestacão. </p>
+<p>As mulheres em idade fértil têm de utilizar um método contracetivo altamente eficaz durante o 
+tratamento com BRUKINSA e durante pelo menos um mês após o tratamento. Tem de ser utilizado 
+um método contracetivo de barreira (p. ex., preservativos) com os contracetivos hormonais como a 
+pílula ou dispositivos.  </p>
+<ul>
+<li>
+<p>Informe o seu médico imediatamente se engravidar. </p>
+</li>
+<li>
+<p>Não amamente enquanto estiver a tomar este medicamento. BRUKINSA pode passar para o 
+leite materno. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+Pode sentir-se cansado ou tonto após tomar BRUKINSA, o que pode afetar a sua capacidade de 
+conduzir veículos ou utilizar máquinas. </p>
+<p>BRUKINSA contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar brukinsa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar brukinsa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é de 320 mg (4 cápsulas) por dia, sob a forma de 4 cápsulas uma vez por dia ou 
+de 2 cápsulas de manhã e 2 cápsulas à noite. </p>
+<p>O seu médico pode ajustar a dose. 
+Engula as cápsulas com um copo de água, com alimentos ou fora das refeições. 
+Tome as cápsulas à mesma hora em cada dia. 
+BRUKINSA atua melhor se for engolido inteiro. Por conseguinte, engula as cápsulas inteiras. Não 
+abrir, quebrar ou mastigar as cápsulas. </p>
+<p>Se tomar mais BRUKINSA do que deveria 
+Se tomar mais BRUKINSA do que deveria, fale com um médico imediatamente. Leve consigo a 
+embalagem das cápsulas e este folheto informativo. </p>
+<p>Caso se tenha esquecido de tomar BRUKINSA 
+Se falhar uma dose, tome-a na toma seguinte e continue a tomar o medicamento como planeado. Se 
+toma BRUKINSA uma vez por dia, tome a dose seguinte no dia seguinte. Se toma o medicamento 
+duas vezes por dia, de manhã e à noite, e se esqueceu de tomá-lo de manhã, tome a dose seguinte à 
+noite. Não tome uma dose a dobrar para compensar a cápsula que se esqueceu de tomar. Se não tiver a 
+certeza, fale com o seu médico, farmacêutico ou enfermeiro sobre quando tomar a sua dose seguinte. </p>
+<p>Se parar de tomar BRUKINSA 
+Não pare de tomar este medicamento a menos que o seu médico lhe diga para o fazer. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Pare de tomar BRUKINSA e diga a um médico imediatamente se sentir algum dos seguintes 
+efeitos indesejáveis: </p>
+<ul>
+<li>Erupção da pele com comichão, dificuldade em respirar, inchaço da face, lábios, língua ou 
+garganta - pode estar a ter uma reação alérgica ao medicamento. </li>
+</ul>
+<p>Informe imediatamente o seu médico se sentir algum dos seguintes efeitos indesejáveis:  </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>febre, calafrios, dores no corpo, sensação de cansaço, sintomas de constipação ou gripe, ter 
+falta de ar, urinar frequente e com dores - estes podem ser sinais de uma infeção (viral, 
+bacteriana ou fúngica). Estes podem incluir infeções do nariz, garganta ou seios nasais (infeção 
+do trato respiratório superior), pneumonia ou infeções do trato urinário. </p>
+</li>
+<li>
+<p>nódoas negras ou tendência aumentada de nódoas negras; contusões </p>
+</li>
+<li>
+<p>sangramento </p>
+</li>
+<li>
+<p>dores nos músculos e ossos </p>
+</li>
+<li>
+<p>erupção da pele </p>
+</li>
+<li>
+<p>infeções nos pulmões (infeção do trato respiratório inferior) </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>diarreia; o seu médico pode precisar de lhe dar um fluido e substituto salino ou outro 
+medicamento </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>fadiga </p>
+</li>
+<li>
+<p>pressão arterial alta </p>
+</li>
+<li>
+<p>prisão de ventre </p>
+</li>
+<li>
+<p>sangue na urina </p>
+</li>
+<li>
+<p>análises ao sangue que mostram um número reduzido de células sanguíneas. O seu médico 
+deve fazer análises ao sangue durante o tratamento com BRUKINSA para verificar o número 
+de células sanguíneas. </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>mãos, tornozelos ou pés inchados </p>
+</li>
+<li>
+<p>sangramento do nariz </p>
+</li>
+<li>
+<p>comichão na pele </p>
+</li>
+<li>
+<p>pequenas manchas de sangue sob a pele </p>
+</li>
+<li>
+<p>batimento cardíaco acelerado, sensação que o coração saltou um batimento, pulso fraco ou 
+irregular, sensação de atordoamento, falta de ar, desconforto no peito (sintomas de problemas 
+do ritmo cardíaco) </p>
+</li>
+<li>
+<p>fraqueza </p>
+</li>
+<li>
+<p>contagem baixa de glóbulos brancos com febre (neutropenia febril) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>reativação da hepatite B (se teve hepatite B, ela pode voltar) </p>
+</li>
+<li>
+<p>sangramento intestinal (sangue nas fezes) </p>
+</li>
+<li>
+<p>níveis pouco habituais de químicos no sangue causados pela decomposição rápida das células 
+cancerígenas ocorreram durante o tratamento do cancro e por vezes mesmo na ausência de 
+tratamento (síndrome de lise tumoral) </p>
+</li>
+</ul>
+<p>Desconhecida: </p>
+<ul>
+<li>vermelhidão e pele descamada numa área grande do corpo, que pode provocar comichão ou dor 
+(dermatite exfoliativa generalizada) </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+secundários indesejáveis diretamente através do sistema nacional de notificação mencionado no 
+Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
+segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar brukinsa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar brukinsa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e embalagem após VAL. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de BRUKINSA  </p>
+<ul>
+<li>
+<p>A substância ativa é zanubrutinib. Cada cápsula contém 80 mg de zanubrutinib. </p>
+</li>
+<li>
+<p>Os outros componentes são: </p>
+</li>
+<li>conteúdo da cápsula: celulose microcristalina, croscarmelose sódica, laurilsulfato de 
+sódio(E487), sílica coloidal anidra, estearato de magnésio. Ver secção 2 “BRUKINSA contém 
+sódio". </li>
+<li>invólucro da cápsula: gelatina e dióxido de titânio (E171) </li>
+<li>tinta de impressão: goma-laca glacé (E904), óxido de ferro negro (E172) e propilenoglicol 
+(E1520). </li>
+</ul>
+<p>Qual o aspeto de BRUKINSA e conteúdo da embalagem 
+BRUKINSA é uma cápsula branca a esbranquiçada de 22 mm de comprimento, marcada com 
+"ZANU 80" a tinta preta de um lado. As cápsulas são fornecidas num frasco de plástico com um 
+fecho resistente à abertura por crianças. Cada frasco contém 120 cápsulas. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+BeiGene Ireland Ltd. 
+10 Earlsfort Terrace 
+Dublin 2 
+D02 TIrlanda 
+Tel.  +353 1 566 7E-mail  bg.ireland@beigene.com  </p>
+<p>Fabricante </p>
+<p>BeiGene Switzerland GmbH - Dutch Branch 
+Evert van de Beekstraat 1, 1118 CL Schiphol 
+Países Baixos </p>
+<p>BeiGene Germany GmbH 
+Georges-Köhler-Str. 2, 79539 Lörrach 
+Alemanha </p>
+<p>BeiGene Netherlands B.V. 
+Evert van de Beekstraat 1, 1118 CL Schiphol 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:  </p>
+<p>België/Belgique/Belgien 
+BeiGene Belgium SRL 
+Tél/Tel: 0800 774<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+България 
+Swixx Biopharma EOOD<br />
+Teл.: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+BeiGene France sarl 
+Tél/Tel: 0800 85 
+Česká republika 
+Swixx Biopharma s.r.o. 
+Tel: +420 242 434<br />
+Magyarország 
+Swixx Biopharma Kft. 
+Tel.: +36 1 9206<br />
+Danmark 
+BeiGene Sweden AB 
+Tlf: 808 10<br />
+Malta 
+Swixx Biopharma S.M.S.A. 
+Tel: +30 214 444 9 
+Deutschland 
+Beigene Germany GmbH 
+Tel: 0800 200 8 
+Nederland 
+BeiGene Netherlands B.V. 
+Tel: 08000 233<br />
+Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 1 
+Norge 
+BeiGene Sweden AB 
+Tlf: 800 31<br />
+Ελλάδα 
+Swixx Biopharma Μ.Α.Ε 
+Τηλ: +30 214 444 9 
+Österreich 
+BeiGene Austria GmbH 
+Tel: 0800 909 España 
+BeiGene Spain, SLU 
+Tel: 9000 31<br />
+Polska 
+BeiGene Poland sp. z o. o. 
+Tel.: 8000 80<br />
+France 
+BeiGene France sarl 
+Tél: 080 554 3 
+Portugal 
+BeiGene Portugal, Unipessoal Lda 
+Tel: 800 210<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+Ireland 
+BeiGene UK Ltd 
+Tel: 1800 812<br />
+România 
+Swixx Biopharma S.R.L 
+Tel: +40 37 1530<br />
+Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: +386 1 2355<br />
+Ísland 
+BeiGene Sweden AB 
+Sími: 800 4 
+Slovenská republika 
+Swixx Biopharma s.r.o.<br />
+Tel: +421 2 20833<br />
+Italia 
+BeiGene Italy Srl 
+Tel: 800 588<br />
+Suomi/Finland 
+BeiGene Sweden AB 
+Puh/Tel: 0800 774<br />
+Κύπρος 
+Sverige 
+Swixx Biopharma Μ.Α.Ε 
+Τηλ: +30 214 444 9 
+BeiGene Sweden AB 
+Puh/Tel: 0200 810<br />
+Latvija 
+Swixx Biopharma SIA 
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+BeiGene UK Ltd 
+Tel: 0800 917 6 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -998,6 +1565,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c2d0e28fbe1723337dab22fe407d0234"
 * entry[0].resource = composition-da-c2d0e28fbe1723337dab22fe407d0234
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc2d0e28fbe1723337dab22fe407d0234"
+* entry[=].resource = mpc2d0e28fbe1723337dab22fe407d0234
+                            
+                    
+Instance: bundlepackageleaflet-pt-c2d0e28fbe1723337dab22fe407d0234
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for brukinsa Package Leaflet for language pt"
+Description: "ePI document Bundle for brukinsa Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c2d0e28fbe1723337dab22fe407d0234"
+* entry[0].resource = composition-pt-c2d0e28fbe1723337dab22fe407d0234
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc2d0e28fbe1723337dab22fe407d0234"
@@ -1099,6 +1688,18 @@ RuleSet: c2d0e28fbe1723337dab22fe407d0234ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c2d0e28fbe1723337dab22fe407d0234) // brukinsa pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -927,6 +927,462 @@ indlægsseddel. Se punkt 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-23c171402ffd8448c1d943b191514c66
+InstanceOf: CompositionUvEpi
+Title: "Composition for prialt Package Leaflet"
+Description:  "Composition for prialt Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp23c171402ffd8448c1d943b191514c66)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - prialt"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Prialt e para que é utilizado 
+2. O que precisa de saber antes de lhe ser administrado Prialt 
+3. Como utilizar Prialt 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Prialt 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é prialt e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é prialt e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Prialt contém a substância ativa ziconotida que pertence a um grupo de medicamentos designados por 
+analgésicos. Prialt é utilizado para o tratamento da dor prolongada intensa em adultos que necessitam 
+de um analgésico por injeção intratecal (injeção no espaço que rodeia a medula espinal e o cérebro). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar prialt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar prialt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe deve ser administrado Prialt 
+- se tem alergia à ziconotida ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se lhe estiver a ser administrado um medicamento contra o cancro no espaço em volta da 
+medula espinal. 
+- se tiver antecedentes de tentativa de suicídio ou ideação suicida com ziconotida. </p>
+<p>Advertências e precauções 
+Os doentes devem ser submetidos a uma avaliação neuropsiquiátrica antes, depois do início e durante 
+a administração de ziconotida intratecal, e imediatamente caso surjam quaisquer sinais ou sintomas 
+depressivos. 
+Os cuidadores devem contactar imediatamente um médico se o doente apresentar sintomas de um 
+acontecimento adverso potencialmente fatal. </p>
+<p>Fale com o seu médico antes de lhe ser administrado Prialt 
+- presentemente, os efeitos a longo prazo de Prialt não são conhecidos e não foi excluída a 
+possibilidade de efeitos tóxicos sobre a medula espinal. Se for necessário um tratamento 
+prolongado pode ser necessária monitorização (conforme decidido pelo seu médico). 
+- se lhe estiverem a administrar Prialt através de uma bomba usada fora do seu corpo, é 
+importante que verifique uma vez por dia se há sinais de infeção no ponto onde o tubo entra no 
+seu corpo. 
+- se observar sinais de infeção em volta do tubo, como, por exemplo, vermelhidão da pele, 
+inchaço, dor ou secreção, deve informar o seu médico imediatamente para ser tratado da 
+infeção. 
+- se a área em volta do tubo ficar sensível embora sem sinais de infeção, deve consultar o seu 
+médico o mais rapidamente possível uma vez que a sensibilidade pode ser um sinal inicial de 
+infeção. 
+- se lhe estiver a ser administrado Prialt através de uma bomba usada fora do seu corpo e qualquer 
+parte da tubagem de perfusão se desligar, deve contactar imediatamente o seu médico ou 
+enfermeiro. 
+- se tiver um destes sintomas: febre alta, dor de cabeça, rigidez do pescoço, cansaço, confusão, 
+sensação de enjoo, vómitos ou crises ocasionais, poderão ser sinais de meningite. Deve informar 
+imediatamente o seu médico se notar algum dos sintomas acima referidos. 
+- se notar qualquer alteração adversa no seu raciocínio, humor ou memória, informe o seu 
+médico. 
+- informe o seu médico se estiver a fazer quimioterapia. 
+- pode ter um nível aumentado de uma enzima chamada creatina-cinase no sangue e embora esta 
+não cause geralmente sintomas ou problemas, é provável que o seu médico queira monitorizar o 
+seu nível. Além disso, também pode ter ocasionalmente problemas musculares. Neste caso, deve 
+informar imediatamente o seu médico, porque este pode decidir parar o seu tratamento com 
+Prialt. 
+- Deve informar imediatamente o seu médico se tiver qualquer um dos seguintes sintomas depois 
+de lhe ter sido administrado o tratamento: respiração sibilante súbita, dificuldade em respirar, 
+dor no peito, inchaço das pálpebras, face ou lábios, erupção cutânea ou comichão (afetando 
+especialmente todo o corpo). Podem ser sinais de uma reação alérgica grave. 
+- em doentes que sofrem de dor intensa de longa duração, existe uma probabilidade mais elevada 
+de suicídio e de tentativa de suicídio do que na população em geral. Prialt também pode causar 
+ou agravar uma depressão em pessoas que já são suscetíveis. Se se sentir deprimido ou se tiver 
+antecedentes de depressão, queira informar o seu profissional de saúde antes de lhe iniciarem a 
+administração de Prialt. Se sentir um agravamento da sua depressão depois de iniciar Prialt ou 
+se tiver quaisquer outros sintomas que afetem o seu estado de humor, queira informar o seu 
+profissional de saúde. 
+- pode sentir sonolência ou pode não estar totalmente consciente do que o rodeia enquanto lhe 
+está a ser administrado o tratamento. Se tal ocorrer, deve informar imediatamente o seu médico, 
+porque este pode decidir parar o seu tratamento com Prialt. </p>
+<p>Crianças e adolescentes 
+Prialt não é recomendado para utilização em crianças e adolescentes. </p>
+<p>Outros medicamentos e Prialt 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente ou se vier a tomar outros 
+medicamentos (por exemplo, baclofeno utilizado para tratar a espasticidade muscular, clonidina 
+utilizada para tratar a tensão arterial elevada, bupivacaína utilizada para anestesia local, morfina 
+utilizada para a dor, propofol utilizado para anestesia geral, ou qualquer medicamento que seja 
+administrado por injeção intratecal (injeção no espaço que rodeia a espinal medula e o cérebro)). É 
+possível que sinta sonolência se tomar Prialt com alguns outros medicamentos utilizados para tratar a 
+dor. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Prialt não é recomendado durante a gravidez e em mulheres em idade fértil que não utilizam métodos 
+contracetivos. </p>
+<p>Condução de veículos e utilização de máquinas 
+Foi referido que a utilização de Prialt provoca confusão e sonolência. Consulte o seu médico antes de 
+conduzir ou utilizar máquinas. </p>
+<p>Prialt contém sódio 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose intratecal máxima 
+recomendada (21,6 microgramas por dia), ou seja, é praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar prialt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar prialt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu tratamento com Prialt será gerido por um médico com experiência na administração de 
+medicamentos no espaço em volta da espinal medula e na utilização de bombas de perfusão internas e 
+externas. </p>
+<p>A dose inicial recomendada é de não mais de 2,4 microgramas por dia. O seu médico poderá ajustar a 
+dose de Prialt muito lentamente, de acordo com a gravidade da dor, adicionando não mais de 
+2,4 microgramas por dia. A dose máxima é de 21,6 microgramas por dia. No início do seu tratamento, 
+o médico pode aumentar a sua dose a cada 1 ou 2 dias ou mais. Em caso de necessidade, pode reduzir-
+se a dose ou parar-se a injeção se os efeitos indesejáveis forem demasiado grandes. </p>
+<p>Prialt é administrado como uma injeção contínua muito lenta no espaço que rodeia a medula espinal 
+(via intratecal). O medicamento será administrado de forma contínua a partir de uma bomba 
+implantada na parede abdominal ou colocada externamente numa bolsa com cinto. O seu médico 
+discutirá consigo o tipo de bomba mais adequado para si e quando terá de encher novamente a sua 
+bomba. </p>
+<p>O alívio da dor pode ser conseguido através de um processo gradual, ajustando a dose de Prialt muito 
+lentamente. Se achar que ainda tem muitas dores enquanto está a receber o Prialt, ou que os efeitos 
+indesejáveis são muito grandes, fale com o seu médico. </p>
+<p>Antes de lhe receitar Prialt, o seu médico pode decidir de, lentamente, deixar de lhe administrar 
+opiáceos (outros tipos de medicamentos que são utilizados para tratar a dor) na sua medula espinal 
+substituindo-os por medicamentos alternativos de combate à dor. </p>
+<p>Se receber mais Prialt do que deveria 
+Se lhe for administrado mais Prialt do que o seu médico pretendia, pode sentir-se indisposto com 
+sinais como, por exemplo, confusão, problemas com a fala, dificuldade em encontrar palavras, tremura 
+excessiva, atordoamento, sonolência excessiva, sensação de enjoo ou vómitos. Se tal acontecer, 
+consulte imediatamente o seu médico ou hospital. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode ter efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Deve informar imediatamente o seu médico se detetar estes efeitos indesejáveis graves porque pode 
+necessitar de tratamento médico urgente. </p>
+<ul>
+<li>
+<p>Meningite (pode afetar até 1 em cada 100 pessoas) - é a inflamação do revestimento do cérebro 
+e da medula espinal geralmente causada por uma infeção. Os sintomas de meningite são dores 
+de cabeça, rigidez do pescoço, aversão a luzes intensas, febre, vómitos, confusão e sonolência).  </p>
+</li>
+<li>
+<p>Convulsões (pode afetar até 1 em cada 100 pessoas) - convulsões (crises convulsivas) é uma 
+situação em que o corpo de uma pessoa treme rapidamente e sem controlo. Durante uma 
+convulsão, os músculos da pessoa contraem-se e relaxam repetidas vezes e a pessoa pode perder 
+a consciência. </p>
+</li>
+<li>
+<p>Pensamentos suicidas ou tentativa de suicídio (pode afetar até 1 em cada 100 pessoas). </p>
+</li>
+<li>
+<p>Rabdomiólise (pode afetar até 1 em cada 100 pessoas) - é a degradação das fibras musculares 
+que pode causar lesão dos rins. Os sintomas de rabdomiólise são cor anormal da urina (cor 
+castanha), diminuição da produção de urina, fraqueza muscular, dores musculares e sensação 
+dolorosa nos músculos. </p>
+</li>
+<li>
+<p>Coma (pode afetar até 1 em cada 100 pessoas) - um estado de inconsciência com dificuldade de 
+responder ou acordar. </p>
+</li>
+<li>
+<p>Reação anafilática (a frequência não pode ser estimada a partir dos dados disponíveis) - é uma 
+reação alérgica grave cujos sinais são pieira súbita, dificuldade em respirar, dor no peito, 
+inchaço das pálpebras, face ou lábios, erupção na pele ou comichão (afetando, especialmente, 
+todo o corpo). </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) 
+Confusão, tonturas, visão desfocada, dor de cabeça, movimento rápido dos olhos para trás e para a 
+frente, perda ou diminuição da memória (esquecimento), vómitos, náuseas, fraqueza geral e 
+sonolência. </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) 
+Falta de apetite, ansiedade ou ansiedade agravada, alucinações, incapacidade para adormecer ou para 
+dormir, agitação, desorientação, depressão ou depressão agravada, nervosismo, alterações de humor, 
+alterações do estado mental (pensamento anormal, confusão), paranoia, irritabilidade, confusão 
+agravada, dificuldades de aprendizagem, memória ou pensamento, ausência ou diminuição dos 
+reflexos, problemas de expressão ou compreensão de palavras, articulação deficiente das palavras, 
+dificuldade em falar ou perda da capacidade de falar, lentidão, diminuição do equilíbrio ou 
+coordenação, sensação de ardor, aumento de sensação anormal, nível reduzido de consciência (falta de 
+resposta ou quase inconsciente), sedação, dificuldade de concentração, problemas como o sentido do 
+olfato, sentido do paladar esquisito ou inexistente, tremura, formigueiro, visão dupla, perturbações 
+visuais, intolerância à luz, zumbido nos ouvidos (tinido), tonturas ou sensação de girar, atordoamento 
+ou tonturas ao levantar, tensão arterial baixa, falta de ar, boca seca, dor abdominal, náuseas agravadas, 
+diarreia, prisão de ventre, transpiração, comichão, fraqueza muscular, espasmos musculares, cãibras 
+musculares, dores musculares ou articulares, urinar (micção) difícil ou doloroso, dificuldade em iniciar 
+ou controlar a urina (micção), sensação de tremer, quedas, dor ou dor exacerbada, fadiga, sensação de 
+frio, inchaço da face, pernas ou pés, dor no peito, alterações químicas sanguíneas, prostração mental e 
+perda de peso. </p>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) 
+Infeção da corrente sanguínea (sangue), delírio (sensação de confusão mental), perturbação psicótica 
+(pensamento e perceções anormais), perturbações do pensamento, sonhos anormais, incoerência 
+(incapacidade fazer sentido), perda de consciência, estupor (ausência de resposta/dificuldade em 
+acordar), convulsões (crises convulsivas), trombose, encefalopatia (perturbação cerebral), 
+agressividade, ritmo cardíaco anormal, dificuldade em respirar, indigestão, erupção cutânea, 
+inflamação muscular, dor de costas, contrações musculares súbitas, dor no pescoço, insuficiência renal 
+aguda, medições anormais do traçado cardíaco (ECG), temperatura corporal elevada, dificuldade em 
+andar. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar prialt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar prialt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior 
+após EXP. O prazo de validade refere-se ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C - 8°C). 
+Não congelar. 
+Manter o frasco dentro da embalagem exterior para proteger da luz. </p>
+<p>A estabilidade química e física durante a utilização foi demonstrada durante 60 dias a 37°C. </p>
+<p>De um ponto de vista microbiológico, se o produto for diluído deve ser imediatamente transferido para 
+a bomba de perfusão. Se não for utilizado imediatamente, os tempos de conservação durante a 
+utilização e as condições anteriores à utilização são da responsabilidade do utilizador e normalmente 
+não devem ultrapassar as 24 horas a uma temperatura de 2 a 8ºC, a não ser que a diluição tenha sido 
+feita em condições assépticas controladas e validadas. </p>
+<p>Não utilize este medicamento se verificar qualquer descoloração ou turvação ou se se observarem 
+partículas em suspensão. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Prialt 
+- A substância ativa é a ziconotida.<br />
+- Um ml de solução contém 25 microgramas de ziconotida (sob a forma de acetato).<br />
+- Cada frasco para injetáveis de 20 ml contém 500 microgramas de ziconotida (sob a forma de 
+acetato). 
+- Os outros componentes são metionina, cloreto de sódio, água para preparações injetáveis, ácido 
+clorídrico e hidróxido de sódio. </p>
+<p>Qual o aspeto de Prialt e conteúdo da embalagem 
+Prialt é uma solução para perfusão (perfusão). A solução é transparente e incolor. Prialt é fornecido em 
+embalagens de um único frasco de 20 ml. </p>
+<p>Titular da Autorização de Introdução no Mercado: 
+Esteve Pharmaceuticals GmbH 
+Hohenzollerndamm 150-14199 Berlin 
+Alemanha </p>
+<p>Fabricante: 
+HWI pharma services GmbH 
+Straßburger Straße 77767 Appenweier 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Esteve Pharmaceuticals GmbH 
+Tél/Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Duitsland/Allemagne/Deutschland) </p>
+<p>Lietuva 
+Esteve Pharmaceuticals GmbH 
+Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Vokietija) </p>
+<p>България 
+Esteve Pharmaceuticals GmbH 
+Teл.: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Германия) </p>
+<p>Luxembourg/Luxemburg 
+Esteve Pharmaceuticals GmbH 
+Tél/Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Allemagne/Deutschland) </p>
+<p>Česká republika 
+Esteve Pharmaceuticals GmbH 
+Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Německo) </p>
+<p>Magyarország 
+Esteve Pharmaceuticals GmbH 
+Tel.: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Németország) </p>
+<p>Danmark 
+Esteve Pharmaceuticals GmbH 
+Tlf: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Tyskland) </p>
+<p>Malta 
+Esteve Pharmaceuticals GmbH 
+Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Il-Ġermanja/Germany) </p>
+<p>Deutschland 
+Esteve Pharmaceuticals GmbH 
+Tel: +49 (0)30 338427-0 
+info.germany@esteve.com </p>
+<p>Nederland 
+Esteve Pharmaceuticals GmbH 
+Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Duitsland) </p>
+<p>Eesti 
+Esteve Pharmaceuticals GmbH 
+Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Saksamaa) </p>
+<p>Norge 
+Esteve Pharmaceuticals GmbH 
+Tlf: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Tyskland) </p>
+<p>Ελλάδα 
+Esteve Pharmaceuticals GmbH 
+Τηλ: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Γερμανία) </p>
+<p>Österreich 
+AGEA Pharma GmbH 
+Tel: +43 (0)1 336 01 office@ageapharma.com </p>
+<p>España 
+Esteve Pharmaceuticals, S.A. 
+Tel: +34 93 446 60<br />
+Polska 
+IMED POLAND Sp. z o.o. 
+Tel.: +48 (0)22 663 43 imed@imed.com.pl </p>
+<p>France 
+ESTEVE PHARMACEUTICALS S.A.S 
+Tél: +33 (0)1 42 31 07 contact-france@esteve.com </p>
+<p>Portugal 
+Esteve Pharmaceuticals, S.A. 
+Tel: +34 93 446 60 (Espanha) </p>
+<p>Hrvatska 
+Esteve Pharmaceuticals GmbH 
+Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Njemačka) </p>
+<p>România<br />
+Esteve Pharmaceuticals GmbH 
+Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Germania) </p>
+<p>Ireland 
+Esteve Pharmaceuticals GmbH 
+Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Germany) </p>
+<p>Slovenija 
+Esteve Pharmaceuticals GmbH 
+Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Nemčija) </p>
+<p>Ísland 
+Esteve Pharmaceuticals GmbH 
+Sími: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Þýskaland) </p>
+<p>Slovenská republika 
+Esteve Pharmaceuticals GmbH 
+Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Nemecko) </p>
+<p>Italia 
+Esteve Pharmaceuticals S.r.l. 
+info.italy@esteve.com </p>
+<p>Suomi/Finland 
+Esteve Pharmaceuticals GmbH 
+Puh/Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Saksa/Tyskland) </p>
+<p>Κύπρος 
+Esteve Pharmaceuticals GmbH 
+Τηλ: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Γερμανία) </p>
+<p>Sverige 
+Esteve Pharmaceuticals GmbH 
+Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Tyskland) </p>
+<p>Latvija 
+Esteve Pharmaceuticals GmbH 
+Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Vācija) </p>
+<p>United Kingdom (Northern Ireland) 
+Esteve Pharmaceuticals GmbH 
+Tel: +49 (0)30 338427-0 
+info.germany@esteve.com 
+(Germany) </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA} </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -968,6 +1424,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-23c171402ffd8448c1d943b191514c66"
 * entry[0].resource = composition-da-23c171402ffd8448c1d943b191514c66
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp23c171402ffd8448c1d943b191514c66"
+* entry[=].resource = mp23c171402ffd8448c1d943b191514c66
+                            
+                    
+Instance: bundlepackageleaflet-pt-23c171402ffd8448c1d943b191514c66
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for prialt Package Leaflet for language pt"
+Description: "ePI document Bundle for prialt Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-23c171402ffd8448c1d943b191514c66"
+* entry[0].resource = composition-pt-23c171402ffd8448c1d943b191514c66
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp23c171402ffd8448c1d943b191514c66"
@@ -1069,6 +1547,18 @@ RuleSet: 23c171402ffd8448c1d943b191514c66ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-23c171402ffd8448c1d943b191514c66) // prialt pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

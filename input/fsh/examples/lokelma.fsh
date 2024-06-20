@@ -691,6 +691,396 @@ hjemmeside http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-37704f8130504ea382184950ae8a2cfe
+InstanceOf: CompositionUvEpi
+Title: "Composition for lokelma Package Leaflet"
+Description:  "Composition for lokelma Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp37704f8130504ea382184950ae8a2cfe)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - lokelma"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Lokelma e para que é utilizado
+2. O que precisa de saber antes de tomar Lokelma
+3. Como tomar Lokelma
+4. Efeitos indesejáveis possíveis
+5. Como conservar Lokelma
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é lokelma e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é lokelma e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lokelma contém a substância ativa ciclossilicato de zircónio sódico.
+Lokelma é utilizado para tratar a hipercaliemia em adultos. A hipercaliemia significa que há um nível
+elevado de potássio no sangue.
+Lokelma baixa os níveis elevados de potássio no seu organismo e ajuda a mantê-los num nível normal.
+À medida que passa pelo seu estômago e intestino Lokelma liga-se ao potássio e os dois em conjunto 
+são eliminados pelo seu organismo através das suas fezes, baixando a quantidade de potássio no 
+organismo.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar lokelma"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar lokelma"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Lokelma
+
+Se tem alergia à substância ativa.
+Advertências e precauções
+Monitorização
+O seu médico ou enfermeiro irá verificar o seu nível de potássio no sangue quando começar a tomar 
+este medicamento:
+
+Isto é para assegurar que está a tomar a dose correta. A dose pode ser aumentada ou diminuída 
+conforme o seu nível de potássio no sangue.
+
+O tratamento pode ser interrompido se o seu nível de potássio no sangue ficar muito baixo.
+
+Fale com o seu médico ou enfermeiro se está a tomar quaisquer medicamentos que possam 
+alterar os seus níveis de potássio no sangue pois pode ser necessário alterar a sua dose de 
+Lokelma. Estes incluem, diuréticos (medicamentos que aumentam a produção de urina),
+inibidores da enzima de conversão da angiotensina (IECA) tal como enalapril, bloqueadores dos 
+recetores da angiotensina tal como valsartan (medicamentos para a pressão arterial elevada e 
+para problemas do coração) e inibidores da renina tal como aliscireno (para a pressão arterial 
+elevada).
+28
+Enquanto está a tomar Lokelma, fale com o seu médico ou enfermeiro se
+
+se tem uma doença da sinalização cardíaca (prolongamento do intervalo QT), uma vez que 
+Lokelma reduz os seus níveis de potássio no sangue, o que pode afetar a sinalização cardíaca.
+
+necessitar fazer uma radiografia, uma vez que Lokelma pode afetar a interpretação dos 
+resultados.
+
+tiver dor repentina ou grave no seu abdómen, que pode ser um sinal de um problema que se 
+observa com medicamentos que atuam no trato gastrointestinal.
+Crianças e adolescentes
+Não dê este medicamento a crianças e adolescentes com idade inferior a 18 anos. Isto porque os 
+efeitos de Lokelma em crianças e adolescentes não são conhecidos.
+Outros medicamentos e Lokelma
+Informe o seu médico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou se vier a tomar
+outros medicamentos.
+Lokelma pode afetar a forma como certos medicamentos são absorvidos pelo seu trato digestivo. Se 
+estiver a tomar algum dos seguintes medicamentos, estes devem ser tomados 2 horas antes ou depois 
+de tomar Lokelma, caso contrário podem não funcionar corretamente.
+
+tacrolímus (medicamentos utilizados para suprimir o sistema imunitário do seu corpo para 
+prevenir a rejeição de transplante de órgãos)
+
+cetoconazole, itraconazole e posaconazole (utilizados para tratar infeções fúngicas)
+
+atazanavir, nelfinavir, indinavir, ritonavir, saquinavir, raltegravir, ledipasvir e rilpivirina
+(utilizados para tratar infeções por VIH)
+
+inibidores da tirosinacinase tais como erlotinib, dasatinib e nilotinib (utilizados para tratar 
+cancro)
+Se alguma das situações acima se aplica a si (ou se não tiver a certeza), fale com o seu médico, 
+farmacêutico ou enfermeiro antes de tomar este medicamento.
+Gravidez e amamentação
+Gravidez
+Não utilize este medicamento durante a gravidez pois não há informação sobre a sua utilização na 
+gravidez.
+Amamentação
+Não se antecipam efeitos sobre recém-nascidos/latentes (bebés) amamentados, uma vez que a 
+exposição sistémica a Lokelma, da mulher a amamentar é desprezável. Lokelma pode ser utilizado 
+durante a amamentação.
+Condução de veículos e utilização de máquinas
+Os efeitos deste medicamento sobre a capacidade de conduzir ou utilizar máquinas são nulos ou 
+desprezáveis.
+Lokelma contém sódio
+Este medicamento contém aproximadamente 400 mg de sódio (principal componente do sal de 
+cozinha/sal de mesa) em cada 5 g de dose. Isto é equivalente a 20% da ingestão diária máxima de 
+sódio recomendada na dieta para um adulto.
+Fale com o seu farmacêutico ou médico se precisar de tomar Lokelma 5 g, ou mais, diariamente por 
+um período prolongado, especialmente se foi aconselhado a seguir uma dieta com pouco sal (sódio).
+29</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar lokelma"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar lokelma"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+Quanto tomar
+Dose inicial - para diminuir o seu nível elevado de potássio para o normal:
+
+A dose recomentada é de 10 g tomada três vezes por dia.
+
+O medicamento demora um ou dois dias a atuar.
+
+Não tome esta dose inicial mais do que três dias.
+Dose de manutenção - para manter o seu nível de potássio dentro do intervalo normal após ter sido
+diminuído:
+
+A dose recomendada é de 5 g tomada uma vez por dia.
+
+O seu médico pode decidir que precisa de mais (10 g uma vez por dia) ou menos do que isto
+(5 g uma vez a cada dois dias).
+
+Não tome uma dose de manutenção superior a 10 g uma vez por dia.
+Se estiver em terapêutica de hemodiálise: 
+
+Tome Lokelma apenas em dias que não sejam de diálise. 
+
+A dose inicial recomendada é de 5 g tomados uma vez por dia.
+
+O seu médico pode decidir que precisa de mais (até 15 g uma vez por dia).
+
+Não tome mais de 15 g uma vez por dia.
+Tomar este medicamento
+
+Tente tomar Lokelma todos os dias à mesma hora.
+
+Pode tomar este medicamento com ou sem alimentos.
+Como tomar
+
+Abra a(s) saqueta(s) e despeje o pó num copo com aproximadamente 45 ml de água sem gás
+(não gaseificada).
+
+Mexa bem e beba o líquido sem sabor imediatamente.
+
+O pó não se dissolve e o líquido tem um aspeto turvo. O pó vai depositar-se no fundo do copo
+rapidamente. Se isso acontecer, volte a mexer o líquido e beba o conteúdo.
+
+Se necessário, enxague o copo com um pouco de água e beba o conteúdo para tomar todo o 
+medicamento.
+Se tomar mais Lokelma do que deveria:
+Se tomar mais deste medicamento do que deveria, contacte um médico imediatamente. Não tome mais 
+até falar com um médico.
+Caso se tenha esquecido de tomar Lokelma
+
+Se se esquecer de tomar uma dose deste medicamento, não tome a dose esquecida.
+
+Em seguida, tome a próxima dose como habitual no seu horário normal.
+
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Se parar de tomar Lokelma
+Não reduza a dose deste medicamento nem pare de tomá-lo sem falar com o médico que o receitou. 
+Isto porque pode voltar a ter níveis elevados de potássio no seu sangue.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.
+30</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Informe o seu médico ou enfermeiro se tiver algum dos seguintes efeitos indesejáveis:
+Frequentes (pode afetar até 1 em cada 100 pessoas).
+
+começar a sentir-se cansado, ou tiver fraqueza muscular ou cãibras, isto pode ser um sinal de 
+que o potássio no seu sangue está muito baixo. Contacte o seu médico imediatamente se estes 
+sintomas se agravarem.
+
+começar a acumular líquido nos tecidos, levando ao inchaço em qualquer parte do seu corpo 
+(geralmente nos pés e tornozelos).
+
+prisão de ventre.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar lokelma"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar lokelma"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e na saqueta 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+Este medicamento não necessita de quaisquer precauções especiais de conservação.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Lokelma
+A substância ativa é ciclossilicato de zircónio sódico.
+Lokelma 5 g pó para suspensão oral
+Cada saqueta contém 5 g de ciclossilicato de zircónio sódico.
+Lokelma 10 g pó para suspensão oral
+Cada saqueta contém 10 g de ciclossilicato de zircónio sódico.
+Não há outros componentes neste medicamento.
+Qual o aspeto de Lokelma e conteúdo da embalagem
+O pó para suspensão oral é um pó branco a cinzento. Apresenta-se numa saqueta.
+Lokelma 5 g pó para suspensão oral
+Cada saqueta contém 5 g de pó.
+Lokelma 10 g pó para suspensão oral
+Cada saqueta contém 10 g de pó.
+31
+As saquetas são comercializadas em embalagens contendo 3 ou 30 saquetas.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+AstraZeneca AB
+SE-151 85 Södertälje
+Suécia
+Fabricante
+AstraZeneca AB
+Gärtunavägen
+SE-152 57 Södertälje
+Suécia
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+Associated Drug Co. Ltd
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+32
+Hrvatska
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) Ltd
+Tel: +353 1609 7100
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7777
+Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρμακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Este folheto foi revisto pela última vez em 
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -732,6 +1122,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-37704f8130504ea382184950ae8a2cfe"
 * entry[0].resource = composition-da-37704f8130504ea382184950ae8a2cfe
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp37704f8130504ea382184950ae8a2cfe"
+* entry[=].resource = mp37704f8130504ea382184950ae8a2cfe
+                            
+                    
+Instance: bundlepackageleaflet-pt-37704f8130504ea382184950ae8a2cfe
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lokelma Package Leaflet for language pt"
+Description: "ePI document Bundle for lokelma Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-37704f8130504ea382184950ae8a2cfe"
+* entry[0].resource = composition-pt-37704f8130504ea382184950ae8a2cfe
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp37704f8130504ea382184950ae8a2cfe"
@@ -833,6 +1245,18 @@ RuleSet: 37704f8130504ea382184950ae8a2cfeListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-37704f8130504ea382184950ae8a2cfe) // lokelma pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

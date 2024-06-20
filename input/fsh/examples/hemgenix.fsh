@@ -1099,6 +1099,500 @@ og derefter, om muligt, autoklaveres.</p>         </div>"""
 
 
 
+Instance: composition-pt-368e8679c0472a0d2aa9d82ac9fd7ab6
+InstanceOf: CompositionUvEpi
+Title: "Composition for hemgenix Package Leaflet"
+Description:  "Composition for hemgenix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp368e8679c0472a0d2aa9d82ac9fd7ab6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - hemgenix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Hemgenix e para que é utilizado 
+2. O que precisa de saber antes de lhe ser administrado Hemgenix
+3. Como é administrado Hemgenix
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Hemgenix
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é hemgenix e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é hemgenix e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Hemgenix e para que é utilizado
+Hemgenix é um medicamento de terapia genética que contém a substância ativa etranacogene 
+dezaparvovec. Um medicamento de terapia genética funciona fornecendo um gene ao corpo para corrigir 
+um defeito genético.
+Hemgenix é utilizado para o tratamento da Hemofilia B grave e moderadamente grave (deficiência 
+congénita do Fator IX) em adultos que não têm inibidores atuais ou anteriores (anticorpos neutralizantes) 
+contra a proteína do Fator IX.
+As pessoas com Hemofilia B nascem com uma forma alterada de um gene necessário para produzir o 
+Fator IX, uma proteína essencial necessária para a coagulação do sangue e estancar qualquer 
+sangramento. Pessoas com hemofilia B têm níveis insuficientes de Fator IX e são propensas a episódios 
+de sangramento interno ou externo.
+Como Hemgenix funciona
+A substância ativa do Hemgenix é baseada num vírus que não causa doenças em humanos. Este vírus 
+foi modificado para não se espalhar pelo corpo, mas pode incorporar uma cópia do gene do fator IX nas 
+células do fígado. Isso permite que o fígado produza a proteína Fator IX e eleve os níveis funcionais do 
+Fator IX no sangue. Isso ajuda o sangue a coagular mais normalmente e previne ou reduz os episódios 
+de sangramento.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar hemgenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar hemgenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não lhe pode ser administrado Hemgenix</h2>
+<p>Se tem alergia a etranacogene dezaparvovec ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).
+-
+Se sofre de uma infeção ativa quer seja uma infeção aguda (curto prazo) ou uma infeção crónica 
+(longo prazo) que não é controlada por medicamentos.
+-
+Se o seu fígado não funcionar adequadamente devido a fibrose hepática avançada (cicatrização e 
+espessamento dos tecidos) ou cirrose (cicatrização devido a danos prolongados no fígado).
+Se alguma das situações acima se aplicar a si, ou se não tiver certeza de qualquer uma das situações 
+acima, fale com seu médico antes de receber Hemgenix
+Advertências e precauções 
+Antes de receber o tratamento com Hemgenix
+O seu médico irá realizar vários testes antes de lhe ser administrado o tratamento com Hemgenix.
+Exames de anticorpos no sangue
+O seu médico realizará análises ao sangue para verificar determinados anticorpos (proteínas) antes do 
+tratamento com Hemgenix, incluindo:
+
+Exames ao sangue para verificar a presença de anticorpos no sangue direcionados contra a 
+proteína humana do Fator IX (inibidores do Fator IX).
+Se testar positivo para esses anticorpos, outro teste será realizado em aproximadamente 2 
+semanas. Se os resultados do teste inicial e do segundo teste forem positivos, a administração 
+de Hemgenix não será iniciada.
+
+Também podem ser feitos exames ao sangue para verificar a quantidade de anticorpos no seu 
+sangue direcionados contra o tipo de vírus usado para fazer Hemgenix.
+Condição do fígado
+Para decidir se este medicamento é adequado para si, o seu médico verificará o estado de saúde do seu 
+fígado antes de iniciar o tratamento com Hemgenix e realizará:
+
+Análises ao sangue para verificar o nível de enzima hepática no sangue
+
+Ecografia hepática
+
+Teste de elastografia para verificar cicatrizes ou espessamento do fígado.
+Durante ou logo após a perfusão de Hemgenix
+O seu médico irá monitorizá-lo durante ou logo após a perfusão de Hemgenix.
+Reações relacionadas com a perfusão
+Os efeitos indesejáveis relacionados com a perfusão podem ocorrer durante ou logo após a perfusão com 
+Hemgenix (gota a gota). O seu médico irá monitorizá-lo durante a perfusão com Hemgenix e durante 
+pelo menos 3 horas após a administração de Hemgenix.
+
+Os sintomas desses efeitos indesejáveis estão listados na seção 4 “Possíveis efeitos 
+indesejáveis". Informe imediatamente o seu médico ou enfermeiro se sentir estes ou quaisquer 
+outros sintomas durante ou logo após a perfusão.
+
+Dependendo dos seus sintomas, sua perfusão pode ser desacelerada ou interrompida. Se a 
+perfusão for interrompida, esta pode ser reiniciada num ritmo mais lento quando a reação à 
+perfusão for resolvida. O seu médico também pode considerar se deve receber corticosteroides 
+(por exemplo, prednisolona ou prednisona) para ajudar a controlar a reação à perfusão.
+Após o tratamento com Hemgenix
+Após o tratamento com Hemgenix, o seu médico continuará a verificar a sua saúde. É importante que 
+discuta o plano para agendamento desses exames ao sangue com seu médico para que possam ser 
+realizados conforme necessário.
+Enzimas hepáticas
+Hemgenix irá desencadear uma resposta no seu sistema imunitário que pode levar a um aumento do 
+nível de certas enzimas hepáticas no seu sangue chamadas transaminases (transaminite). O seu médico 
+irá monitorizar regularmente os seus níveis de enzimas hepáticas para garantir que o medicamento está 
+a funcionar como deveria:
+
+Nos primeiros 3 meses, pelo menos, após receber Hemgenix, fará exames ao sangue uma vez 
+por semana para monitorizar os seus níveis de enzimas hepáticas.
+o Se tiver um aumento das enzimas hepáticas, poderá fazer análises ao sangue mais frequentes 
+para verificar os níveis das suas enzimas hepáticas, até que voltem ao normal. Também pode 
+precisar tomar outro medicamento (corticosteroides) para controlar esses efeitos indesejáveis.
+o O seu médico também pode realizar testes adicionais para excluir outras causas para o aumento 
+das suas enzimas hepáticas, se necessário, em consulta com um médico com experiência em 
+doenças do fígado.
+
+O seu médico repetirá os testes de testes de enzimas hepáticas a cada três meses a partir do mês 
+4 até um ano após a administração de Hemgenix para continuar a verificar a saúde do seu fígado. 
+No segundo ano após receber Hemgenix, seu médico fará o acompanhamento semestral de suas 
+enzimas hepáticas. Após o segundo ano, o seu médico irá verificar as suas enzimas hepáticas 
+anualmente durante pelo menos 5 anos após a administração de Hemgenix.
+Níveis de Fator IX
+O seu médico irá verificar regularmente os seus níveis de Fator IX para ver se o tratamento com 
+Hemgenix foi bem sucedido.
+
+Pelo menos nos primeiros 3 meses após receber Hemgenix, fará exames ao sangue uma vez por 
+semana para verificar os seus níveis de Fator IX.
+
+O seu médico repetirá estes testes a cada três meses a partir do mês 4 até 1 ano após a 
+administração de Hemgenix para continuar a verificar o seu nível de Fator IX. No segundo ano 
+após receber Hemgenix, o seu médico verificará os seus níveis de Fator IX semestralmente. 
+Posteriormente, o seu médico irá examiná-los anualmente, pelo menos durante 5 anos após a 
+administração de Hemgenix.
+
+Se tiver um aumento das enzimas hepáticas ou precisar de tomar outro medicamento (por 
+exemplo, corticosteroides), fará análises ao sangue mais frequentes para verificar os seus níveis 
+de Fator IX, até que as suas enzimas hepáticas voltem ao normal ou pare de tomar o 
+medicamento adicional.
+Uso de outros tratamentos para Hemofilia
+Após o uso de Hemgenix, contacte o seu médico para saber se ou quando deve interromper os outros 
+tratamentos para Hemofilia e desenvolver um plano de tratamento sobre o que fazer em caso de cirurgia, 
+trauma, sangramento ou qualquer procedimento que possa aumentar o risco de sangramento. É muito 
+importante continuar a sua monitorização e visitas ao médico para determinar se precisa fazer outros 
+tratamentos para controlar a Hemofilia.
+Alteração da coagulação do sangue (acontecimentos tromboembólicos)
+Após o tratamento com Hemgenix, o seu nível de proteína Fator IX pode aumentar. Em alguns doentes, 
+pode aumentar para níveis acima do intervalo normal por um período de tempo.
+- Níveis invulgarmente elevados de Fator IX podem fazer com que o seu sangue coagule de forma 
+alterada, aumentando o risco de coágulos sanguíneos, como no pulmão (tromboembolismo pulmonar) 
+ou num vaso sanguíneo da perna (trombose venosa ou arterial). Este risco teórico é baixo devido à sua 
+deficiência congénita na cascata de coagulação quando comparado com indivíduos saudáveis.
+- Pode estar em risco de coagulação sanguínea alterada, se tiver problemas preexistentes com o coração 
+e os vasos sanguíneos (por exemplo, história de doença cardíaca (doença cardiovascular), artérias 
+espessas e rígidas (arteriosclerose), tensão arterial elevada (hipertensão), ou se é diabético ou tem mais 
+de 50 anos.
+- O seu médico irá monitorizar regularmente o seu sangue para quaisquer alterações potenciais nos níveis 
+de Fator IX, em particular se continuar a receber a sua profilaxia de rotina com Fator IX (terapêutica de 
+substituição do Fator IX) após a administração de Hemgenix (ver também a secção 3 “Como 
+admninistrar Hemgenix").
+- Consulte imediatamente o seu médico se observar sinais de coagulação alterada, tais como dor no peito
+súbita, falta de ar, fraqueza muscular de início súbito, perda de sensibilidade e/ou equilíbrio, diminuição 
+do estado de alerta, dificuldade em falar ou inchaço de uma ou ambas as pernas.
+Evitar doações de sangue e doações para transplantes
+A substância ativa de Hemgenix pode ser temporariamente excretada através do seu sangue, sémen, leite 
+materno ou resíduos corporais, um processo denominado excreção (ver também a secção 2 “Gravidez, 
+amamentação e fertilidade").
+Para garantir que pessoas sem Hemofilia B não sejam expostas ao DNA Hemgenix através do processo 
+de excreção no seu corpo e/ou sémen, não poderá doar sangue, sémen ou órgãos, tecidos e células para 
+transplante após ter sido tratado com Hemgenix .
+Doentes imunocomprometidos ou doentes com VIH ou outra infeção
+Se tiver problemas com o seu sistema imunitário (é imunocomprometido), está a fazer ou irá fazer um 
+tratamento supressor do seu sistema imunitário, ou tem VIH ou outra infeção nova ou recente, o seu 
+médico decidirá onde poderá receber Hemgenix.
+Anticorpos neutralizantes contra proteínas do fator IX (inibidores do fator IX)
+Os anticorpos neutralizantes contra as proteínas do Fator IX podem impedir que Hemgenix funcione 
+corretamente. O seu médico pode verificar o seu sangue para estes anticorpos, se as suas hemorragias 
+não forem controladas, ou regressar depois de lhe ter sido administrado Hemgenix (ver também a secção 
+3 “Como utilizar Hemgenix").
+Receber terapia genética novamente no futuro
+Depois de receber Hemgenix, seu sistema imunológico produzirá anticorpos para o invólucro do vetor 
+AAV. Ainda não se sabe se ou em que condições a terapia com Hemgenix pode ser repetida. Também 
+não se sabe se ou sob quais condições o uso subsequente de outra terapia genética pode ser possível.
+Risco de malignidade potencialmente associado a Hemgenix
+- Hemgenix irá inserir-se nas células do fígado e poderá possivelmente inserir-se no DNA das células 
+do fígado ou no DNA de outras células do corpo. Como consequência, Hemgenix pode contribuir para 
+o risco de cancro, como cancro no fígado (carcinoma hepatocelular). Embora não haja evidências até o 
+momento de tal risco nos estudos clínicos, tal é possível devido à natureza do medicamento. Portanto, 
+deverá avaliar isto com o seu médico.
+- Se é um doente com fatores de risco preexistentes para carcinoma hepatocelular (por exemplo, tem 
+fibrose hepática (cicatrização e espessamento do fígado), ou hepatite B, hepatite C, fígado gordo (doença 
+hepática gordurosa não alcoólica (NAFLD)), ou bebe álcool excessivamente), o seu médico irá 
+monitorizar regularmente (por exemplo, anualmente) a sua saúde hepática a longo prazo durante pelo 
+menos 5 anos após a administração de Hemgenix e realizar os seguintes testes:</p>
+<ul>
+<li>
+<p>Ultrassonografia hepática anual e</p>
+</li>
+<li>
+<p>Exame ao sangue anual para verificar aumentos da chamada alfa-fetoproteína.</p>
+</li>
+<li>Após o tratamento com Hemgenix, espera-se que seja incluído num estudo de acompanhamento para 
+ajudar a estudar a segurança a longo prazo do tratamento por 15 anos, verificar se continua a ter eficácia 
+e quaisquer efeitos indesejáveis que possam estar relacionados com o tratamento. Em caso de cancro, o 
+seu médico pode colher uma amostra do seu cancro (biópsia) para verificar se Hemgenix foi inserido no 
+DNA da célula.
+Crianças e adolescentes
+Hemgenix não foi estudado em crianças ou adolescentes com idade inferior a 18 anos.
+Outros medicamentos e Hemgenix
+Informe o seu médico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou se vier a tomar
+outros medicamentos.
+Se estiver a tomar medicamentos que causam danos ao fígado (medicamentos hepatotóxicos), o seu 
+médico pode decidir que precisa interromper este medicamento para poder receber Hemgenix.
+Gravidez, amamentação e fertilidade
+Não há dados sobre o uso de Hemgenix em mulheres com Hemofilia B.
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico
+antes de tomar este medicamento.</li>
+<li>O tratamento com Hemgenix não é recomendado em mulheres que possam engravidar. Ainda não se 
+sabe se Hemgenix pode ser usado com segurança nestes doentes, pois não são conhecidos os efeitos na 
+gravidez e no feto.</li>
+<li>Hemgenix não deve ser utilizado durante a gravidez. Não se sabe se este medicamento pode causar 
+danos ao feto quando administrado durante a gravidez.</li>
+<li>Hemgenix não deve ser utilizado durante a amamentação. Não se sabe se este medicamento é excretado 
+no leite humano. Não pode ser excluído o risco para os recém-nascidos/lactentes.
+Uso de contraceção e evitar a gravidez da parceira por um período de tempo
+Depois de um doente do género masculino ter sido tratado com Hemgenix, o doente e qualquer parceira 
+têm de evitar a gravidez por 12 meses. Deve usar contraceção eficaz (por exemplo, contraceção de 
+barreira, como preservativo e diafragma). Isso é para evitar o risco teórico de que o gene do Fator IX do 
+pai em tratamento com Hemgenix seja transmitido a uma criança com consequências desconhecidas. 
+Pela mesma razão, doentes do género masculino não podem doar sémen. Fale com o seu médico sobre 
+que métodos de contraceção são adequados.
+Condução de veículos e utilização de máquinas
+Hemgenix tem pouca influência na capacidade de conduzir e utilizar máquinas. Tonturas, cansaço e 
+dores de cabeça temporárias ocorreram logo após a perfusão de Hemgenix. Se for afetado, deve ter 
+cuidado até ter a certeza de que Hemgenix não afeta negativamente a sua capacidade de conduzir ou 
+utilizar máquinas. Fale com seu médico sobre isso.
+Hemgenix contém sódio e potássio</li>
+<li>O medicamento contém 35,2 mg de sódio (componente principal do sal de cozinha/sal de mesa) em 
+cada frasco para injetáveis. Isso equivale a 1,8% da ingestão diária máxima recomendada de sódio para 
+um adulto.</li>
+<li>Este medicamento contém potássio, menos de 1 mmol (39 mg) por frasco, ou seja, é praticamente 
+isento de potássio.</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar hemgenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar hemgenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hemgenix ser-lhe-á administrado em meio hospitalar sob a orientação de um médico experiente e 
+qualificado no tratamento da sua doença Hemofilia B.
+Hemgenix ser-lhe-á administrado apenas uma vez numa única perfusão lenta (gota a gota) numa veia. 
+A perfusão demorará geralmente 1 a 2 horas para ser concluída.
+O seu médico determinará a dose correta para si, com base no seu peso corporal.
+Descontinuação do tratamento exógeno com Fator IX
+- Pode levar várias semanas até que se torne aparente a melhoria do controlo do sangramento após a 
+perfusão de Hemgenix, e pode precisar de continuar a sua terapia de reposição com Fator IX exógeno 
+durante as primeiras semanas após a perfusão de Hemgenix.
+- O seu médico irá monitorizar regularmente o seu sangue para os níveis de atividade do Fator IX, ou 
+seja, semanalmente durante pelo menos os primeiros 3 meses, e em intervalos regulares a partir daí, e 
+decidir se e quando deve receber, reduzir ou interromper a sua terapia exógena com Fator IX (ver seção 
+2).
+Se tiver alguma dúvida sobre o uso de Hemgenix, pergunte ao seu médico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Os seguintes efeitos indesejáveis foram observados em estudos clínicos com Hemgenix.
+Muito frequentes (podem ocorrer em mais de 1 em cada 10 doentes)
+
+Dor de cabeça
+
+Aumento dos níveis de enzimas do fígado no sangue (alanina aminotransferase aumentada)
+
+Aumento dos níveis de enzimas hepáticas no sangue (aspartato aminotransferase aumentada)
+
+Doença semelhante à gripe (doença tipo gripe)
+
+Aumento dos níveis de proteína C-reativa, um marcador de inflamação
+
+Reação relacionada com a perfusão (reações alérgicas (hipersensibilidade), reação no local da 
+perfusão, tontura, comichão nos olhos (prurido), vermelhidão da pele (rubor), dor na parte superior 
+da barriga (abdominal), erupção na pele com comichão (urticária), desconforto no peito e febre)
+Frequente (pode ocorrer em até 1 em cada 10 doentes)
+
+Tonturas
+
+Sentir-se enjoado (Náuseas)
+
+Cansaço (Fadiga)
+
+Sensação de mal-estar geral (mal-estar)
+
+Aumento dos níveis sanguíneos de bilirrubina, uma substância amarela de degradação dos glóbulos 
+vermelhos
+
+Aumento dos níveis sanguíneos de creatina fosfoquinase, uma enzima (proteína) encontrada 
+principalmente no coração, cérebro e músculo esquelético
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V.* Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar hemgenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar hemgenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>As informações a seguir destinam-se apenas a médicos.
+Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior após 
+EXP.
+Conservar no frigorífico (2 °C - 8 °C). Não congelar.
+Conservar na embalagem de origem para proteger da luz.
+Diluir antes de usar.
+Uma vez diluído com solução injetável de cloreto de sódio 9 mg/ml (0,9%), Hemgenix pode ser 
+conservado a 15 °C - 25 °C no saco de perfusão protegida da luz até 24 horas após preparação da dose.
+Não use este medicamento se notar partículas, turvação ou descoloração.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Hemgenix
+- A substância ativa é etranacogene dezaparvovec. Cada  ml de etranacogene de dezaparvovec contém 
+1 x 1013 cópias de genoma (cg)/ml.
+- Os outros componentes (excipientes) são sacarose, polissorbato-20, cloreto de potássio, fosfato de 
+potássio, cloreto de sódio, fosfato de sódio, ácido clorídrico (para ajuste de pH), água para preparações 
+injetáveis. (ver também secção 2 “Hemgenix contém sódio e potássio)
+Este medicamento contém organismos geneticamente modificados.
+Qual o aspeto de Hemgenix e conteúdo da embalagem
+Hemgenix é um concentrado para solução para perfusão (concentrado estéril).
+Hemgenix é uma solução límpida e incolor.
+Hemgenix é fornecido em frascos para injetáveis contendo 10 ml de etranacogene dezaparvovec.
+O número total de frascos para injetáveis na embalagem corresponde à dose necessária a cada doente 
+individualmente dependendo do seu peso corporal.
+Titular da Autorização de Introdução no Mercado e Fabricante
+CSL Behring GmbH
+Emil-von-Behring-Strasse 76
+D-35041 Marburg
+Alemanha
+Fabricante
+uniQure, Inc.
+113 Hartwell Avenue
+Lexington, MA 02421
+EUA
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+Luxembourg/Luxemburg
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+България
+МагнаФарм България ЕАД
+Тел: +359 2 810 3949
+Magyarország
+CSL Behring Kft.
+Tel: +36 1 213 4290
+Česká republika
+CSL Behring s.r.o.
+Tel: +420 702 137 233
+Malta
+AM Mangion Ltd.
+Tel: +356 2397 6333
+Danmark
+CSL Behring AB
+Tel: +46 854496670
+Nederland
+CSL Behring BV
+Tel: +31 85 111 96 00
+Deutschland
+CSL Behring GmbH
+Tel: +49 69 30584437
+Norge
+CSL Behring AB
+Tlf: +46 8 544 966 70
+Eesti
+CentralPharma Communications OÜTel: +26015540
+Österreich
+CSL Behring GmbH
+Tel: +43 1 80101 2463
+Ελλάδα
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+Polska
+CSL Behring Sp. z o.o.
+Tel.: +48 22 213 22 65
+España
+CSL Behring S.A.
+Tel: +34 933 67 1870
+Portugal
+CSL Behring Lda
+Tel: +351 21 782 62 30
+France
+CSL Behring SA
+Tél: +33 1 53 58 54 00
+Hrvatska
+Marti Farm d.o.o.
+Tel: +385 1 5588297
+România
+Prisum Healthcare S.R.L.
+Tel: +40 21 322 01 71
+Slovenija
+EMMES BIOPHARMA GLOBAL s.r.o -
+podružnica v Sloveniji
+Tel: +386 41 42 0002
+Ireland
+CSL Behring GmbH
+Tel: +49 69 305 17254
+Slovenská republika
+CSL Behring Slovakia s.r.o.
+Tel: +421 911 653 862
+Ísland
+CSL Behring AB
+Sími: +46 8 544 966 70
+Suomi/Finland
+CSL Behring AB
+Puh/Tel: +46 8 544 966 70
+Italia
+CSL Behring S.p.A.
+Tel: +39 02 34964 200
+Sverige
+CSL Behring AB
+Tel: +46 8 544 966 70
+Κύπρος
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+United Kingdom (Northern Ireland)
+CSL Behring GmbH
+Tel: +49 69 305 17254
+Latvija
+CentralPharma Communications SIATel: +67450497
+Lietuva
+CentralPharma Communications UABTel: +05243 0444
+Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt;&lt;{mês de AAAA}.&gt;
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1140,6 +1634,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-368e8679c0472a0d2aa9d82ac9fd7ab6"
 * entry[0].resource = composition-da-368e8679c0472a0d2aa9d82ac9fd7ab6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp368e8679c0472a0d2aa9d82ac9fd7ab6"
+* entry[=].resource = mp368e8679c0472a0d2aa9d82ac9fd7ab6
+                            
+                    
+Instance: bundlepackageleaflet-pt-368e8679c0472a0d2aa9d82ac9fd7ab6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hemgenix Package Leaflet for language pt"
+Description: "ePI document Bundle for hemgenix Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-368e8679c0472a0d2aa9d82ac9fd7ab6"
+* entry[0].resource = composition-pt-368e8679c0472a0d2aa9d82ac9fd7ab6
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp368e8679c0472a0d2aa9d82ac9fd7ab6"
@@ -1241,6 +1757,18 @@ RuleSet: 368e8679c0472a0d2aa9d82ac9fd7ab6ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-368e8679c0472a0d2aa9d82ac9fd7ab6) // hemgenix pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

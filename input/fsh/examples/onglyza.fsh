@@ -852,6 +852,493 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-007d6f1b6943d8c2483d508167f6813d
+InstanceOf: CompositionUvEpi
+Title: "Composition for onglyza Package Leaflet"
+Description:  "Composition for onglyza Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp007d6f1b6943d8c2483d508167f6813d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - onglyza"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Onglyza e para que é utilizado 
+2. O que precisa de saber antes de tomar Onglyza 
+3. Como tomar Onglyza 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Onglyza 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é onglyza e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é onglyza e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Onglyza contém a substância ativa saxagliptina, que pertence a um grupo de medicamentos 
+denominados “antidiabéticos orais". Estes medicamentos atuam ajudando a controlar o nível de açúcar 
+no seu sangue. </p>
+<p>Onglyza é utilizado em doentes adultos com idade igual e superior a 18 anos com “diabetes tipo 2", 
+quando não se consegue controlar adequadamente a doença com um medicamento antidiabético oral, 
+dieta e exercício. Onglyza é utilizado isoladamente ou em associação com insulina ou outros 
+antidiabéticos. </p>
+<p>É importante que continue a seguir as recomendações do seu médico ou enfermeiro sobre a dieta e o 
+exercício. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar onglyza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar onglyza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Onglyza </p>
+<ul>
+<li>
+<p>se tem alergia à saxagliptina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>se já teve uma reação alérgica grave a quaisquer medicamentos semelhantes que toma para 
+controlar o seu açúcar no sangue. Ver secção 4.<br />
+Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Onglyza: </p>
+</li>
+<li>
+<p>se está a tomar insulina, Onglyza não deve ser utilizado em substituição da insulina; </p>
+</li>
+<li>
+<p>se tem diabetes tipo 1 (o seu organismo não produz insulina) ou cetoacidose diabética (uma 
+complicação da diabetes caracterizada por elevados níveis de açúcar no sangue, rápida perda de 
+peso, náuseas ou vómitos). Onglyza não deve ser utilizado para tratar estas situações; </p>
+</li>
+<li>
+<p>tem ou teve uma doença do pâncreas; </p>
+</li>
+<li>
+<p>se está a tomar insulina ou um medicamento antidiabético conhecido por “sulfonilureia", o seu 
+médico poderá querer reduzir a sua dose de insulina ou de sulfonilureia quando tomar uma delas 
+juntamente com Onglyza, para evitar níveis baixos de açúcar no sangue; </p>
+</li>
+<li>
+<p>se tem uma doença que diminui as suas defesas contra as infeções, como a doença SIDA ou 
+toma medicamentos após um transplante de órgão; </p>
+</li>
+<li>
+<p>se sofre de insuficiência cardíaca ou tem outros fatores de risco para o desenvolvimento de 
+insuficiência cardíaca tais como problemas nos seus rins. O seu médico irá informá-lo dos sinais 
+e sintomas da insuficiência cardíaca. Deve contactar imediatamente o seu médico, farmacêutico 
+ou enfermeiro se sentir qualquer um destes sintomas. Os sintomas podem incluir, mas não estão 
+limitados a, intensificação da falta de ar, rápido aumento de peso e inchaço dos pés (edema dos 
+pés); </p>
+</li>
+<li>
+<p>se tem a função renal reduzida, o seu médico irá decidir se precisa tomar uma dose mais baixa 
+de Onglyza. Se está a fazer hemodiálise então Onglyza não é recomendado para si; </p>
+</li>
+<li>
+<p>se tem problemas de fígado moderados ou graves. Se tem problemas graves de fígado, então 
+Onglyza não é recomendado para si. </p>
+</li>
+</ul>
+<p>As lesões diabéticas da pele são uma complicação comum da diabetes. Foi observada erupção cutânea 
+com Onglyza (ver secção 4) e com certos medicamentos antidiabéticos da mesma classe que Onglyza. 
+É aconselhável seguir as recomendações do seu médico ou enfermeiro sobre os cuidados a ter com a 
+pele e os pés. Contacte o seu médico se tiver bolhas na pele, pois pode ser um sinal de uma condição 
+chamada penfigoide bolhoso. O seu médico pode pedir-lhe que pare de tomar Onglyza. </p>
+<p>Crianças e adolescentes 
+Onglyza não é recomendado para crianças e adolescentes com menos de 18 anos. </p>
+<p>Outros medicamentos e Onglyza 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. </p>
+<p>Em particular, deve informar o seu médico se estiver a utilizar medicamentos que contenham alguma 
+das seguintes substâncias ativas: </p>
+<ul>
+<li>
+<p>Carbamazepina, fenobarbital ou fenitoína. Estas podem ser utilizadas para controlar ataques 
+epiléticos (convulsões) ou dor crónica. </p>
+</li>
+<li>
+<p>Dexametasona - um medicamento esteroide. Pode ser utilizado para tratar inflamações em 
+diferentes partes do corpo e órgãos. </p>
+</li>
+<li>
+<p>Rifampicina. É um antibiótico utilizado para tratar infeções tais como tuberculose. </p>
+</li>
+<li>
+<p>Cetoconazol. Pode ser utilizado para tratar infeções por fungos. </p>
+</li>
+<li>
+<p>Diltiazem. É um medicamento utilizado para baixar a pressão arterial. </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+Fale com o seu médico antes de tomar Onglyza se está grávida ou planeia engravidar. Não deve 
+utilizar Onglyza se estiver grávida. </p>
+<p>Fale com o seu médico se pretende amamentar enquanto toma este medicamento. Desconhece-se se 
+Onglyza passa para o leite materno humano. Não deve tomar este medicamento se está a amamentar 
+ou planeia amamentar. </p>
+<p>Condução de veículos e utilização de máquinas 
+Se sentir tonturas enquanto está a tomar Onglyza não conduza nem utilize quaisquer ferramentas ou 
+máquinas. Existe o risco de hipoglicemia enquanto toma este medicamento em associação com 
+medicamentos conhecidos por causarem hipoglicemia como a insulina e as sulfonilureias e a 
+hipoglicemia pode afetar a sua capacidade de conduzir e utilizar máquinas ou trabalhar sem uma base 
+de apoio firme. </p>
+<p>Onglyza contém lactose 
+Os comprimidos contêm lactose (açúcar do leite). Se foi informado pelo seu médico que tem uma 
+intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>
+<p>Onglyza contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar onglyza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar onglyza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada de Onglyza é 5 mg uma vez por dia. </p>
+<p>Se tiver a função renal reduzida, o seu médico poderá receitar-lhe uma dose mais baixa. Isto é, um 
+comprimido de 2,5 mg uma vez por dia. </p>
+<p>O seu médico poderá receitar Onglyza isoladamente ou em associação com insulina ou outros 
+medicamentos antidiabéticos. Se aplicável lembre-se de tomar estes outros medicamentos conforme 
+indicado pelo seu médico para obter os melhores resultados para a sua saúde. </p>
+<p>Como tomar Onglyza 
+Os comprimidos não podem ser divididos ou fracionados. Engula o comprimido inteiro com um pouco 
+de água. Pode tomar o comprimido com ou sem alimentos. O comprimido pode ser tomado a qualquer 
+hora do dia, no entanto, tente tomar o comprimido à mesma hora todos os dias. Isto ajudá-lo-á a 
+lembrar-se de o tomar. </p>
+<p>Se tomar mais Onglyza do que deveria 
+Se tomar mais comprimidos do que deveria, contacte um médico imediatamente. </p>
+<p>Caso se tenha esquecido de tomar Onglyza </p>
+<ul>
+<li>
+<p>Se se esquecer de tomar uma dose de Onglyza, tome-a assim que se lembrar. No entanto, se 
+estiver quase na hora de tomar a dose seguinte tome apenas essa. </p>
+</li>
+<li>
+<p>Não tome uma dose a dobrar para compensar a dose que se esqueceu de tomar. Nunca tome 
+duas doses no mesmo dia. </p>
+</li>
+</ul>
+<p>Se parar de tomar Onglyza 
+Continue a tomar Onglyza até que o seu médico lhe diga para parar. Isto é para ajudar a controlar o 
+seu açúcar no sangue. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Alguns sintomas necessitam de cuidados médicos imediatos: 
+Deve parar de tomar Onglyza e consultar o seu médico imediatamente se experimentar os seguintes 
+sintomas de açúcar baixo no sangue: tremores, suores, ansiedade, visão turva, lábios dormentes, 
+palidez, alteração de humor, desorientação ou confusão (hipoglicemia); visto muito frequentemente 
+(pode afetar mais de 1 em cada 10 pessoas). </p>
+<p>Sintomas de uma reação alérgica grave (visto raramente, pode afetar até 1 em cada 1000 pessoas) pode 
+incluir: 
+o Erupção na pele. 
+o Aparecimento de manchas vermelhas na sua pele (urticária). 
+o Inchaço da cara, lábios, língua, e garganta que pode causar dificuldade a respirar ou a 
+engolir. </p>
+<p>Se tiver estes sintomas, pare de tomar Onglyza e fale imediatamente com o seu médico ou enfermeiro. 
+O seu médico poderá receitar um medicamento para tratar a sua reação alérgica e um medicamento 
+diferente para a sua diabetes. </p>
+<p>Deve parar de tomar Onglyza e contactar um médico imediatamente se experimentar qualquer um dos 
+seguintes efeitos indesejáveis graves: </p>
+<ul>
+<li>dor grave e persistente no abdómen (zona do estômago) que pode irradiar para as suas costas, 
+bem como náuseas e vómitos, dado que pode ser um sinal de pâncreas inflamado (pancreatite). </li>
+</ul>
+<p>Deve contactar o seu médico se experimentar o seguinte efeito adverso: </p>
+<ul>
+<li>dor grave nas articulações. </li>
+</ul>
+<p>Alguns doentes tiveram os seguintes efeitos indesejáveis enquanto tomavam Onglyza e metformina: </p>
+<ul>
+<li>
+<p>Frequentes (podem afetar entre 1 a 10 utilizadores em cada 100): infeção do trato respiratório 
+superior ou pulmões, infeção do trato urinário, inflamação do estômago ou intestino geralmente 
+causada por uma infeção (gastroenterite), infeção dos seios nasais com uma sensação de dor e 
+obstrução atrás das maçãs do rosto e olhos (sinusite), inflamação do nariz ou garganta 
+(nasofaringite) (sinais desta situação podem incluir uma constipação ou garganta inflamada), 
+dor de cabeça, dor muscular (mialgia), vómitos, inflamação do estômago (gastrite), dor de 
+estômago e indigestão (dispepsia). </p>
+</li>
+<li>
+<p>Pouco frequentes (podem afetar entre 1 a 10 utilizadores em cada 1000): dor nas articulações 
+(artralgia) e dificuldades em ter ou manter uma ereção (disfunção erétil). </p>
+</li>
+</ul>
+<p>Alguns doentes tiveram os seguintes efeitos indesejáveis enquanto tomavam Onglyza e uma 
+sulfonilureia: </p>
+<ul>
+<li>
+<p>Muito frequentes: açúcar baixo no sangue (hipoglicemia). </p>
+</li>
+<li>
+<p>Frequentes: infeção do trato respiratório superior ou pulmões, infeção do trato urinário, 
+inflamação do estômago ou intestino, geralmente causada por uma infeção (gastroenterite), 
+infeção dos seios nasais com uma sensação de dor e obstrução atrás das maçãs do rosto e olhos 
+(sinusite), dor de cabeça, dor de estômago e vómitos. </p>
+</li>
+<li>
+<p>Pouco frequentes: cansaço, níveis anormais de lípidos (ácidos gordos) (dislipidemia, 
+hipertrigliceridemia). </p>
+</li>
+</ul>
+<p>Alguns doentes tiveram os seguintes efeitos indesejáveis enquanto tomavam Onglyza e uma 
+tiazolidinediona: </p>
+<ul>
+<li>Frequentes: infeção do trato respiratório superior ou pulmões, infeção do trato urinário, 
+inflamação do estômago ou intestino, geralmente causada por uma infeção (gastroenterite), 
+infeção dos seios nasais com uma sensação de dor e obstrução atrás das maçãs do rosto e olhos 
+(sinusite), dor de cabeça, vómitos, dor de estômago e inchaço das mãos, tornozelos ou pés 
+(edema periférico).  </li>
+</ul>
+<p>Alguns doentes tiveram os seguintes efeitos indesejáveis enquanto tomavam Onglyza e metformina e 
+uma sulfonilureia: </p>
+<ul>
+<li>Frequentes: tonturas, cansaço, dor de estômago e flatulência. </li>
+</ul>
+<p>Alguns doentes tiveram o seguinte efeito indesejável adicional enquanto tomavam Onglyza: </p>
+<ul>
+<li>Frequentes: tonturas, diarreia e dor de estômago. </li>
+</ul>
+<p>Alguns doentes tiveram os seguintes efeitos indesejáveis enquanto tomavam Onglyza isoldamente ou 
+em associação: </p>
+<ul>
+<li>Desconhecidos (a frequência não pode ser determinada a partir dos dados disponíveis): 
+obstipação, formação de bolhas na pele (penfigoide bolhoso). </li>
+</ul>
+<p>Alguns doentes tiveram uma pequena redução no número de um tipo de glóbulos brancos (linfócitos) 
+detetada numa análise ao sangue quando tomaram Onglyza isoladamente ou em associação. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar onglyza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar onglyza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não utilize este medicamento se verificar que a embalagem está danificada ou apresenta sinais visíveis 
+de deterioração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Onglyza 
+- A substância ativa é saxagliptina. Cada comprimido revestido por película contém 2,5 mg de 
+saxagliptina (como cloridrato). </p>
+<ul>
+<li>
+<p>Os outros componentes são:  </p>
+</li>
+<li>
+<p>Núcleo do comprimido: lactose mono-hidratada; celulose, microcristalina (E460i); 
+croscarmelose sódica (E468); estearato de magnésio. </p>
+</li>
+<li>
+<p>Revestimento: álcool polivinílico; macrogol 3350; dióxido de titânio (E171); talco (E553b) e 
+óxido de ferro amarelo (E172). </p>
+</li>
+<li>
+<p>Tinta de impressão: shellac; laca de alumínio de indigotina (E132). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Onglyza e conteúdo da embalagem </p>
+<ul>
+<li>
+<p>Os comprimidos revestidos por película de 2,5 mg são de cor amarelo pálido a amarelo 
+brilhante, biconvexos, redondos. Têm “2.5" impresso numa face e “4214" impresso na outra 
+face, em tinta azul. </p>
+</li>
+<li>
+<p>Os comprimidos estão disponíveis em embalagens de blister de alumínio. </p>
+</li>
+<li>
+<p>Os comprimidos de 2,5 mg estão disponíveis em embalagens de 14, 28 ou 98 comprimidos 
+revestidos por película em blisters calendário não destacáveis e 30x1 ou 90x1 comprimidos 
+revestidos por película em blisters destacáveis unidose. </p>
+</li>
+</ul>
+<p>É possível que não sejam comercializadas todas as apresentações no seu país. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>AstraZeneca AB 
+SE-151 85 Södertälje 
+Suécia </p>
+<p>Fabricante: </p>
+<p>AstraZeneca AB 
+Gärtunavägen 
+SE-152 57 Södertälje 
+Suécia </p>
+<p>AstraZeneca UK Limited 
+Silk Road Business Park 
+Macclesfield 
+Cheshire 
+SK10 2NA 
+Reino Unido </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+AstraZeneca S.A./N.V. 
+Tel: +32 2 370 48<br />
+Lietuva 
+UAB AstraZeneca Lietuva 
+Tel: +370 5 2660 
+България 
+АстраЗенека България ЕООД 
+Тел.: +359 (2) 44 55<br />
+Luxembourg/Luxemburg 
+AstraZeneca S.A./N.V. 
+Tél/Tel: +32 2 370 48<br />
+Česká republika 
+AstraZeneca Czech Republic s.r.o. 
+Tel: +420 222 807<br />
+Magyarország 
+AstraZeneca Kft. 
+Tel.: +36 1 883 6 
+Danmark 
+AstraZeneca A/S 
+Tlf: +45 43 66 64<br />
+Malta 
+Associated Drug Co. Ltd 
+Tel: +356 2277 8 
+Deutschland 
+AstraZeneca GmbH 
+Tel: +49 40 809034 
+Nederland 
+AstraZeneca BV 
+Tel: +31 85 808 9<br />
+Eesti 
+AstraZeneca<br />
+Tel: +372 6549<br />
+Norge 
+AstraZeneca AS 
+Tlf: +47 21 00 64<br />
+Ελλάδα 
+AstraZeneca A.E. 
+Τηλ: +30 2 106871 
+Österreich 
+AstraZeneca Österreich GmbH 
+Tel: +43 1 711 31 0 </p>
+<p>España 
+AstraZeneca Farmacéutica Spain, S.A. 
+Tel: +34 91 301 91<br />
+Polska 
+AstraZeneca Pharma Poland Sp. z o.o. 
+Tel.: +48 22 245 73<br />
+France 
+Portugal 
+AstraZeneca 
+Tél: +33 1 41 29 40<br />
+AstraZeneca Produtos Farmacêuticos, Lda. 
+Tel: +351 21 434 61<br />
+Hrvatska<br />
+AstraZeneca d.o.o. 
+Tel: +385 1 4628<br />
+România 
+AstraZeneca Pharma SRL 
+Tel: +40 21 317 60<br />
+Ireland 
+AstraZeneca Pharmaceuticals (Ireland) DAC 
+Tel: +353 1609 7 
+Slovenija 
+AstraZeneca UK Limited 
+Tel: +386 1 51 35<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+AstraZeneca AB, o.z. 
+Tel: +421 2 5737 7777  </p>
+<p>Italia 
+AstraZeneca S.p.A. 
+Tel: +39 02 00704 
+Suomi/Finland 
+AstraZeneca Oy 
+Puh/Tel: +358 10 23<br />
+Κύπρος 
+Αλέκτωρ Φαρµακευτική Λτδ 
+Τηλ: +357 22490 
+Sverige 
+AstraZeneca AB 
+Tel: +46 8 553 26<br />
+Latvija 
+SIA AstraZeneca Latvija 
+Tel: +371 67377 
+United Kingdom (Northern Ireland) 
+AstraZeneca UK Ltd 
+Tel: +44 1582 836  </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -893,6 +1380,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-007d6f1b6943d8c2483d508167f6813d"
 * entry[0].resource = composition-da-007d6f1b6943d8c2483d508167f6813d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp007d6f1b6943d8c2483d508167f6813d"
+* entry[=].resource = mp007d6f1b6943d8c2483d508167f6813d
+                            
+                    
+Instance: bundlepackageleaflet-pt-007d6f1b6943d8c2483d508167f6813d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for onglyza Package Leaflet for language pt"
+Description: "ePI document Bundle for onglyza Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-007d6f1b6943d8c2483d508167f6813d"
+* entry[0].resource = composition-pt-007d6f1b6943d8c2483d508167f6813d
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp007d6f1b6943d8c2483d508167f6813d"
@@ -994,6 +1503,18 @@ RuleSet: 007d6f1b6943d8c2483d508167f6813dListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-007d6f1b6943d8c2483d508167f6813d) // onglyza pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -939,6 +939,563 @@ denne indlægsseddel. Se punkt 4. Oversigt over indlægssedlen </p>         </di
 
 
 
+Instance: composition-pt-9f9daf83bf13eb0a61dfb2c983d49142
+InstanceOf: CompositionUvEpi
+Title: "Composition for ogluo Package Leaflet"
+Description:  "Composition for ogluo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9f9daf83bf13eb0a61dfb2c983d49142)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ogluo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Ogluo e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Ogluo </li>
+<li>Como utilizar Ogluo </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Ogluo </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ogluo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ogluo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ogluo contém a substância ativa glucagom, que pertence a um grupo de medicamentos chamados 
+hormonas glicogenolíticas. </p>
+<p>É utilizado no tratamento da hipoglicemia grave (níveis muito baixos de açúcar no sangue) em pessoas 
+com diabetes. Destina-se a ser utilizado em adultos, adolescentes e crianças com idade igual ou 
+superior a 2 anos. </p>
+<p>Ogluo é uma caneta pré-cheia pronta a utilizar que contém uma dose única da substância ativa 
+glucagom. Trata-se de uma injeção subcutânea, ou seja, o medicamento é administrado sob a pele com 
+uma agulha. </p>
+<p>O glucagom é uma hormona natural produzida pelo pâncreas, com o efeito contrário ao da insulina no 
+corpo humano. Ajuda o fígado a converter o açúcar armazenado no fígado (chamado «glicogénio») em 
+glicose (açúcar). A glicose é então libertada na corrente sanguínea, o que faz com que o nível de 
+glicemia no sangue aumente, reduzindo os efeitos da hipoglicemia. </p>
+<p>Informações sobre a hipoglicemia 
+Os primeiros sintomas de hipoglicemia (níveis baixos de açúcar no sangue) incluem: </p>
+<ul>
+<li>
+<p>transpiração </p>
+</li>
+<li>
+<p>sonolência </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>distúrbios do sono </p>
+</li>
+<li>
+<p>palpitações </p>
+</li>
+<li>
+<p>ansiedade </p>
+</li>
+<li>
+<p>tremores </p>
+</li>
+<li>
+<p>visão turva </p>
+</li>
+<li>
+<p>fome </p>
+</li>
+<li>
+<p>fala arrastada </p>
+</li>
+<li>
+<p>humor depressivo </p>
+</li>
+<li>
+<p>sensação de formigueiro nas 
+mãos, nos pés, nos lábios ou na 
+língua </p>
+</li>
+<li>
+<p>irritabilidade </p>
+</li>
+<li>
+<p>sensação de tontura </p>
+</li>
+<li>
+<p>comportamento anormal </p>
+</li>
+<li>
+<p>dificuldade de concentração </p>
+</li>
+<li>
+<p>oscilações no movimento </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>alterações de personalidade</p>
+</li>
+</ul>
+<p>Se não for tratado, o doente pode progredir para hipoglicemia grave, que pode incluir: </p>
+<ul>
+<li>
+<p>confusão </p>
+</li>
+<li>
+<p>convulsões </p>
+</li>
+<li>
+<p>perda de consciência </p>
+</li>
+<li>
+<p>morte </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ogluo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ogluo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Informações importantes </p>
+<ul>
+<li>
+<p>Certifique-se de que tem informações sobre Ogluo e de que os seus familiares, as pessoas com 
+quem trabalha e os amigos próximos também estão informados. Informe-os de que, se 
+apresentar sinais de hipoglicemia grave, incluindo confusão, convulsões ou perda de 
+consciência (desmaio), devem utilizar imediatamente Ogluo. Deve sempre transportar Ogluo 
+consigo. </p>
+</li>
+<li>
+<p>É importante que tanto o doente como as pessoas próximas saibam como utilizar Ogluo antes de 
+ser necessário. Mostre aos seus familiares e a outras pessoas o local onde guarda Ogluo e como 
+utilizá-lo. Caso perca a consciência, essas pessoas devem atuar rapidamente, pois um longo 
+período nesse estado pode ser prejudicial. O doente, ou a pessoa que administra Ogluo ao 
+doente, deve seguir as instruções constantes da secção 3 deste folheto: «Como utilizar Ogluo». </p>
+</li>
+<li>
+<p>É importante que armazene Ogluo corretamente para garantir que pode ser utilizado de 
+imediato, caso seja necessário. Consulte a secção 5 para obter mais informações sobre a 
+conservação adequada deste medicamento. </p>
+</li>
+</ul>
+<p>Não utilize Ogluo se: </p>
+<ul>
+<li>
+<p>Tem alergia ao glucagom ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>Tem um tumor na glândula suprarrenal (feocromocitoma). </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Ogluo. </p>
+<p>Ogluo pode não funcionar adequadamente se: </p>
+<ul>
+<li>
+<p>Tiver estado em jejum ou se os seus níveis de glicemia estiverem baixos durante muito 
+tempo </p>
+</li>
+<li>
+<p>Tiver níveis baixos de adrenalina </p>
+</li>
+<li>
+<p>Tiver um nível de glicemia baixo causado pelo consumo excessivo de álcool </p>
+</li>
+<li>
+<p>Tiver um tumor que liberta glucagom ou insulina </p>
+</li>
+</ul>
+<p>Se alguma destas situações se aplicar a si, fale com o seu médico ou farmacêutico. </p>
+<p>Tenha em consideração que, no ensaio principal, aproximadamente 15 % dos doentes alcançaram uma 
+recuperação dos níveis de glicose após 20 minutos ou mais. </p>
+<p>Após a utilização de Ogluo, coma o mais rapidamente possível para prevenir a recorrência de níveis 
+baixos de açúcar no sangue. Tome açúcar de uma fonte de ação rápida, como um sumo de fruta ou um 
+refrigerante que contenha açúcar. </p>
+<p>Crianças 
+Ogluo não é recomendado para crianças com menos de 2 anos de idade, já que o medicamento não foi 
+estudado neste grupo etário. </p>
+<p>Outros medicamentos e Ogluo 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. </p>
+<p>Os seguintes medicamentos podem afetar a forma como Ogluo funciona: </p>
+<ul>
+<li>
+<p>Insulina - utilizada no tratamento da diabetes. A insulina tem o efeito contrário ao do 
+glucagom no nível de açúcar no sangue.  </p>
+</li>
+<li>
+<p>Indometacina - utilizada no tratamento da dor e rigidez nas articulações. A indometacina 
+reduz o efeito do glucagom. </p>
+</li>
+</ul>
+<p>Ogluo pode afetar a forma como os seguintes medicamentos funcionam: </p>
+<ul>
+<li>
+<p>Varfarina - utilizada para prevenir a formação de coágulos sanguíneos. Ogluo pode 
+aumentar o efeito de diluição do sangue da varfarina. </p>
+</li>
+<li>
+<p>Bloqueadores beta - utilizados no tratamento da hipertensão arterial e do batimento 
+cardíaco irregular. Ogluo pode aumentar a sua tensão arterial e pulsação, mas apenas 
+durante um curto espaço de tempo. </p>
+</li>
+</ul>
+<p>Se alguma das situações acima se aplica a si (ou se tiver dúvidas), fale com o seu médico ou 
+farmacêutico antes de tomar Ogluo. </p>
+<p>Gravidez, amamentação e fertilidade 
+Pode utilizar Ogluo se tiver níveis muito baixos de açúcar no sangue e está grávida ou a amamentar, se 
+pensa estar grávida ou planeia engravidar. </p>
+<p>Se estiver grávida, consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Após um acontecimento hipoglicémico grave, a sua capacidade de concentração e reação poderá estar 
+reduzida, deve esperar até que os efeitos dos níveis muito baixos de açúcar no sangue tenham 
+desaparecido e que se sinta melhor, antes de conduzir ou utilizar quaisquer ferramentas ou máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ogluo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ogluo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize (ou administre) sempre este medicamento exatamente de acordo com as indicações deste 
+folheto ou do seu médico. Fale com o seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>Ogluo é administrado por injeção por baixo da pele (injeção subcutânea). É fornecido numa caneta. A 
+caneta injetora contém uma quantidade medida do medicamento, por isso, se seguir estas instruções, é 
+administrada a dose inteira. </p>
+<p>Preparar </p>
+<p>Verifique o prazo de validade impresso na bolsa. </p>
+<p>Importante: 
+Não utilize este medicamento se o prazo de 
+validade tiver expirado. Caso este medicamento 
+esteja fora do prazo de validade, elimine-o de 
+acordo com os requisitos locais e utilize um 
+novo. </p>
+<p>Figura 1 </p>
+<p>Rasgue a bolsa na linha pontilhada e retire a 
+caneta (ver Figura 1). </p>
+<p>Inspecionar a solução </p>
+<p>Examine o medicamento líquido através da 
+janela de visualização. Deve ser transparente e 
+incolor, ou amarelo pálido (ver Figura 2). </p>
+<p>Importante: 
+Não utilize nem injete este medicamento se o 
+líquido estiver descorado ou se tiver grumos, 
+flocos ou partículas. 
+Não injete se a solução não for visível na janela 
+de visualização. 
+Após a injeção, solicite imediatamente um 
+serviço de emergência médica. 
+Cada caneta contém uma dose única de 
+glucagom e não pode ser reutilizada. </p>
+<p>Figura 2 </p>
+<p>Retire a tampa vermelha da agulha do 
+dispositivo (ver Figura 3). </p>
+<p>Importante: 
+Não coloque o polegar, os dedos ou a mão sobre 
+ou perto da proteção da agulha ou do orifício da 
+agulha para evitar picadas acidentais. </p>
+<p>Figura 3 </p>
+<p>Injetar </p>
+<p>Escolha o local da injeção e deixe a pele 
+exposta. </p>
+<p>Escolha a parte inferior do abdómen, a parte 
+exterior da coxa ou a parte superior do braço 
+para administrar a injeção (ver Figura 4). </p>
+<p>Retire qualquer peça de vestuário que esteja a 
+cobrir o local da injeção (ver Figura 5). A 
+injeção deve ser administrada diretamente na 
+pele. </p>
+<p>Importante: 
+Não administre a injeção através da roupa. </p>
+<p>Figura 4 
+Figura 5 </p>
+<p>Retire a tampa 
+vermelha </p>
+<p>Vista de 
+frente 
+Vista de 
+trás 
+Exponha a pele do local da 
+injeção </p>
+<p>Empurre e pressione o dispositivo com o 
+medicamento no local da injeção. Aguarde até 
+ouvir um «clique». </p>
+<p>Continue a manter o dispositivo pressionado e 
+conte lentamente até 5 (ver Figura 6). </p>
+<p>Quando a injeção estiver concluída, a janela de 
+visualização estará vermelha (ver Figura 7). </p>
+<p>Importante: 
+Não levante o dispositivo até que a injeção 
+esteja concluída. </p>
+<p>Figura 6 
+Figura 7 </p>
+<p>Levante a caneta a direito do local da injeção 
+(ver Figura 8). </p>
+<p>A proteção amarela da agulha bloqueará sobre 
+a agulha. </p>
+<p>Figura 8 </p>
+<p>Prestar assistência </p>
+<p>Vire o doente de lado. </p>
+<p>Quando uma pessoa inconsciente acorda, 
+poderá sentir-se nauseada (vomitar). Se o 
+doente estiver inconsciente, vire-o de lado para 
+evitar que sufoque (ver Figura 9). </p>
+<p>Chame imediatamente o serviço de emergência 
+médica após a injeção de Ogluo. Quando o 
+doente responder ao tratamento, dê-lhe açúcar 
+de uma fonte de ação rápida, como um sumo de 
+fruta ou um refrigerante que contenha açúcar, 
+para prevenir a recorrência de níveis baixos de 
+açúcar no sangue. Se o doente não responder 
+no prazo de 15 minutos, pode ser administrada 
+uma dose adicional de Ogluo com um novo 
+dispositivo enquanto se aguarda pela ajuda de 
+emergência. </p>
+<p>Figura 9 </p>
+<p>Que dose deve utilizar 
+Este medicamento contém 0,5 mg ou 1 mg da substância ativa numa dose fixa do medicamento. Ser-
+lhe-á prescrita a dosagem (dose) correta do medicamento para o seu uso pessoal. </p>
+<p>A dose recomendada para adultos, adolescentes e crianças é indicada na tabela abaixo. Nas crianças 
+com menos de 6 anos, a dose recomendada depende do peso corporal. </p>
+<p>Empurre e 
+mantenha a 
+pressão 
+Pressione 
+durante 5 
+segundos 
+«Clique
+» 
+Afaste da pele 
+A proteção amarela 
+da agulha bloqueia 
+sobre a agulha 
+Vire o doente de lado </p>
+<p>Idade 
+Peso 
+Dose recomendada de 
+Ogluo<br />
+Crianças, entre os 2 e os 
+6 anos de idade 
+Inferior a 25 kg </p>
+<p>0,5 mg 
+Crianças, entre os 2 e os 
+6 anos de idade 
+Igual ou superior a 25 kg </p>
+<p>1 mg 
+Adultos e adolescentes, 
+6 anos ou mais 
+Não aplicável 
+1 mg </p>
+<p>Após a utilização deste medicamento, coma o mais rapidamente possível para prevenir a recorrência 
+de níveis baixos de açúcar no sangue. Tome açúcar de uma fonte de ação rápida, como um sumo de 
+fruta ou um refrigerante que contenha açúcar. </p>
+<p>Se utilizar mais Ogluo do que deveria 
+Uma quantidade excessiva do medicamento pode fazê-lo sentir-se enjoado (náuseas ou vómitos). 
+Normalmente, não é necessário um tratamento específico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Contacte de imediato o seu médico ou um profissional de saúde se notar algum dos seguintes efeitos 
+indesejáveis graves: </p>
+<p>Muito raros (podem afetar até 1 em cada 10.000 pessoas) </p>
+<ul>
+<li>reação alérgica - os sinais podem incluir pieira, transpiração, batimentos cardíacos 
+rápidos, erupção na pele, face inchada (ou seja, inchaço da face, dos lábios, da língua e da 
+garganta, o que pode causar dificuldade em engolir ou respirar) ou colapso. Não foram 
+comunicadas reações alérgicas com Ogluo, mas estas foram observadas com outros 
+medicamentos injetáveis contendo glucagom. Deve procurar imediatamente ajuda se 
+sentir sintomas de uma reação alérgica. </li>
+</ul>
+<p>Outros efeitos indesejáveis podem incluir:
+Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>sensação de enjoo (náuseas) </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>batimento cardíaco rápido (taquicardia) </p>
+</li>
+<li>
+<p>desconforto ou reação no local da injeção </p>
+</li>
+<li>
+<p>edema no local da injeção (inchaço) </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>dor abdominal </p>
+</li>
+<li>
+<p>nódoas negras no local da injeção </p>
+</li>
+<li>
+<p>eritema no local da injeção (vermelhidão) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis adicionais em crianças </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>hiperglicemia </p>
+</li>
+<li>
+<p>dor abdominal </p>
+</li>
+<li>
+<p>urticária (inchaço/vermelhidão) </p>
+</li>
+<li>
+<p>lesões cerebrais </p>
+</li>
+<li>
+<p>tonturas
+Notificação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ogluo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ogluo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize este medicamento após o prazo de validade impresso na caneta, na bolsa e na embalagem 
+exterior. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Este medicamento não deve ser conservado a uma temperatura superior a 25 °C. </p>
+<p>Não refrigerar ou congelar. Não conservar a uma temperatura inferior a 15 °C. </p>
+<p>Conservar na bolsa de alumínio antes de utilizar para proteger da luz solar e da humidade. </p>
+<p>Não utilize este medicamento se verificar que a solução está descorada ou contém partículas. </p>
+<p>Não deite fora quaisquer medicamentos no lixo doméstico. Pergunte ao seu farmacêutico como deitar 
+fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ogluo </p>
+<ul>
+<li>A substância ativa de Ogluo é o glucagom. </li>
+<li>Ogluo 0,5 mg solução injetável em caneta pré-cheia 
+Cada caneta pré-cheia contém 0,5 mg de glucagom em 0,1 mL. </li>
+<li>
+<p>Ogluo 1 mg solução injetável em caneta pré-cheia </p>
+</li>
+<li>
+<p>Cada caneta pré-cheia contém 1 mg de glucagom em 0,2 mL. </p>
+</li>
+<li>
+<p>Os outros componentes são trealose di-hidratada, dimetilsulfóxido (DMSO), ácido 
+sulfúrico e água para preparações injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Ogluo e conteúdo da embalagem 
+Ogluo é uma solução transparente, incolor a amarela pálida. É produzido numa caneta pronta a 
+utilizar, pré-cheia e de dose única, contendo 0,5 mg ou 1 mg de glucagom. Cada medicamento é 
+acondicionado individualmente numa bolsa de alumínio. É fornecida abaixo uma lista completa dos 
+medicamentos designados Ogluo. </p>
+<ul>
+<li>
+<p>Ogluo 0,5 mg solução injetável em caneta pré-cheia, embalagem com 1 ou 2 canetas pré-
+cheias de dose única. </p>
+</li>
+<li>
+<p>Ogluo 1 mg solução injetável em caneta pré-cheia, embalagem com 1 ou 2 canetas pré-
+cheias de dose única. 
+É possível que não sejam comercializadas todas as apresentações. 
+Titular da Autorização de Introdução no Mercado: 
+Tetris Pharma B.V 
+Bargelaan 200<br />
+Element Offices 
+2333CW Leiden 
+Holanda 
+Fabricante: 
+Manufacturing Packaging Farmaca (MPF) B.V. 
+Neptunus Heerenveen, 8448CN 
+Holanda 
+Este folheto foi revisto pela última vez em 
+Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>
+</li>
+</ul>         </div>"""      
+
+
+
 
 
                     
@@ -980,6 +1537,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9f9daf83bf13eb0a61dfb2c983d49142"
 * entry[0].resource = composition-da-9f9daf83bf13eb0a61dfb2c983d49142
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9f9daf83bf13eb0a61dfb2c983d49142"
+* entry[=].resource = mp9f9daf83bf13eb0a61dfb2c983d49142
+                            
+                    
+Instance: bundlepackageleaflet-pt-9f9daf83bf13eb0a61dfb2c983d49142
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ogluo Package Leaflet for language pt"
+Description: "ePI document Bundle for ogluo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9f9daf83bf13eb0a61dfb2c983d49142"
+* entry[0].resource = composition-pt-9f9daf83bf13eb0a61dfb2c983d49142
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9f9daf83bf13eb0a61dfb2c983d49142"
@@ -1081,6 +1660,18 @@ RuleSet: 9f9daf83bf13eb0a61dfb2c983d49142ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9f9daf83bf13eb0a61dfb2c983d49142) // ogluo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

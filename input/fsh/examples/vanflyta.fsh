@@ -920,6 +920,533 @@ og om, hvordan de behandles. </p>         </div>"""
 
 
 
+Instance: composition-pt-1ff94cd25db3b18c09de52395c558d2d
+InstanceOf: CompositionUvEpi
+Title: "Composition for vanflyta Package Leaflet"
+Description:  "Composition for vanflyta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1ff94cd25db3b18c09de52395c558d2d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - vanflyta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é VANFLYTA e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar VANFLYTA </li>
+<li>Como tomar VANFLYTA </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar VANFLYTA </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é vanflyta e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é vanflyta e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é VANFLYTA 
+VANFLYTA contém a substância ativa quizartinib. É um tipo de medicamento para o cancro 
+chamado “inibidor das proteínas cinases". O medicamento é utilizado juntamente com quimioterapia 
+para tratar adultos com leucemia mieloide aguda (LMA, um tipo de cancro do sangue), com uma 
+mutação (alteração) no gene FLT3 chamada “FLT3-ITD". O tratamento com VANFLYTA também 
+poderá ser continuado após um transplante de medula óssea quando os doentes estiverem 
+suficientemente recuperados. </p>
+<p>O seu médico irá analisar antecipadamente as suas células cancerígenas para ver se existem alterações 
+no gene FLT3 para ver se encontram mutações FLT3-ITD, de modo a assegurar-se que VANFLYTA é 
+adequado para si. </p>
+<p>Como atua VANFLYTA 
+Na LMA, o organismo produz uma grande quantidade de glóbulos brancos anormais que não 
+amadurecem para se transformarem em células saudáveis. VANFLYTA atua bloqueando a ação de 
+proteínas chamadas “tirosina cinases" nestas células anormais. Isto abranda ou para a divisão e 
+crescimento descontrolado das células anormais e ajuda as células imaturas a se desenvolverem em 
+células normais. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar vanflyta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar vanflyta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome VANFLYTA </p>
+<ul>
+<li>
+<p>se tem alergia ao quizartinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Se pensa que pode ter uma alergia, consulte o seu médico. </p>
+</li>
+<li>
+<p>se nasceu com um problema de coração chamado “síndrome de QT longo" (atividade elétrica 
+anormal do coração que afeta o seu ritmo). </p>
+</li>
+<li>
+<p>se estiver a amamentar (ver “Gravidez, amamentação e fertilidade"). </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar VANFLYTA: </p>
+<ul>
+<li>
+<p>se tem ou teve qualquer problema de coração, incluindo arritmia (um ritmo anormal do 
+coração), enfarte do miocárdio (ataque cardíaco) nos últimos 6 meses, insuficiência cardíaca 
+congestiva (o coração não consegue bombear suficientemente), angina de peito não controlada 
+(dor no peito) ou hipertensão não controlada (tensão arterial demasiado elevada). </p>
+</li>
+<li>
+<p>se lhe foi dito que tem níveis sanguíneos baixos de potássio ou magnésio. </p>
+</li>
+<li>
+<p>se estiver a tomar medicamentos que podem prolongar o intervalo QT (ritmo cardíaco irregular; 
+ver “Outros medicamentos e VANFLYTA"). </p>
+</li>
+<li>
+<p>se estiver a tomar inibidores fortes da CYP3A (ver “Outros medicamentos e VANFLYTA"). </p>
+</li>
+<li>
+<p>se tem ou tiver tido febre, tosse, dor no peito, falta de ar, cansaço ou dor ao urinar. </p>
+</li>
+</ul>
+<p>Monitorização durante o tratamento com VANFLYTA 
+Análises ao sangue 
+O seu médico efetuará análises regulares ao sangue durante o tratamento com VANFLYTA para 
+verificar as suas células sanguíneas (glóbulos brancos, glóbulos vermelhos e plaquetas) e os eletrólitos 
+(sais como o sódio, potássio, magnésio, cálcio, cloreto e bicarbonato no sangue). O seu médico irá 
+verificar os seus eletrólitos com maior frequência se tiver diarreia ou vómitos. </p>
+<p>Eletrocardiograma 
+Antes e durante o seu tratamento, o seu médico controlará o seu coração com um eletrocardiograma 
+(ECG) para se assegurar que o seu coração está a funcionar normalmente. Os ECG serão efetuados 
+semanalmente, no início, e com uma frequência menor daí em diante, conforme decidido pelo seu 
+médico. O seu médico irá verificar o seu coração com maior frequência se estiver a tomar outros 
+medicamentos que prolongam o intervalo QT (ver “Outros medicamentos e VANFLYTA"). </p>
+<p>Infeções em doentes com idade superior a 65 anos 
+Os doentes idosos apresentam um risco aumentado de infeções muito graves, em comparação com 
+doentes mais jovens, especialmente no período inicial de tratamento. Se tem mais de 65 anos de idade, 
+será cuidadosamente monitorizado para despistar a ocorrência de infeções graves durante a indução. </p>
+<p>Crianças e adolescentes 
+Não dê este medicamento a crianças ou adolescentes com menos de 18 anos de idade porque não 
+existe informação suficiente sobre a sua utilização neste grupo etário. </p>
+<p>Outros medicamentos e VANFLYTA 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos, incluindo medicamentos obtidos sem receita médica, vitaminas, 
+antiácidos (medicamentos para a azia e para a acidez do estômago) e suplementos à base de plantas. 
+Isto porque alguns medicamentos podem afetar o modo como VANFLYTA atua. </p>
+<p>Os seguintes medicamentos, em particular, poderão aumentar o risco de ter efeitos indesejáveis com 
+VANFLYTA ao aumentar os níveis deste medicamento no sangue: </p>
+<ul>
+<li>
+<p>certos medicamentos utilizados para tratar infeções por fungos - como o itraconazol, 
+posaconazol ou voriconazol; </p>
+</li>
+<li>
+<p>certos antibióticos - como a claritromicina ou a telitromicina; </p>
+</li>
+<li>
+<p>nefazodona, um medicamento utilizado para tratar a depressão major. </p>
+</li>
+</ul>
+<p>Os seguintes medicamentos poderão reduzir a eficácia de VANFLYTA: </p>
+<ul>
+<li>
+<p>certos medicamentos utilizados para tratar a tuberculose - como a rifampicina; </p>
+</li>
+<li>
+<p>certos medicamentos utilizados para tratar convulsões ou a epilepsia - como a carbamazepina, 
+primidona, fenobarbital ou fenitoína; </p>
+</li>
+<li>
+<p>certos medicamentos para tratar o cancro da próstata - tais como a apalutamida e a 
+enzalutamida; </p>
+</li>
+<li>
+<p>mitotano - um medicamento utilizado para o tratamento dos sintomas de tumores das glândulas 
+suprarrenais; </p>
+</li>
+<li>
+<p>bosentano - um medicamento utilizado para tratar a pressão elevada do sangue nos pulmões 
+(hipertensão arterial pulmonar); </p>
+</li>
+<li>
+<p>hipericão (Hypericum perforatum) - um produto à base de plantas utilizado para a ansiedade e a 
+depressão ligeira. </p>
+</li>
+</ul>
+<p>Certos medicamentos usados para tratar o VIH podem aumentar o risco de efeitos indesejáveis (p. ex., 
+o ritonavir) ou reduzir a eficácia (p. ex., o efavirenz ou a etravirina) de VANFLYTA. </p>
+<p>Medicamentos que prolongam o intervalo QT 
+A coadministração de VANFLYTA com outros medicamentos que prolongam o intervalo QT pode 
+aumentar ainda mais o risco de prolongamento do intervalo QT. Exemplos de medicamentos que 
+prolongam o intervalo QT incluem, mas não se limitam a azóis antifúngicos, ondansetrom, 
+granissetrom, azitromicina, pentamidina, doxiciclina, moxifloxacina, atovaquona, proclorperazina e 
+tacrolímus. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Gravidez </p>
+<p>Não deve tomar VANFLYTA durante a gravidez. Isto porque pode ser prejudicial para o feto. As 
+mulheres com capacidade para engravidar devem fazer um teste de gravidez no período de 7 dias antes 
+de tomar este medicamento. </p>
+<p>As mulheres deverão utilizar um método contracetivo eficaz durante o tratamento com VANFLYTA e 
+durante, pelo menos, 7 meses depois de parar o tratamento. Os homens deverão utilizar um método 
+contracetivo eficaz durante o tratamento com VANFLYTA e durante, pelo menos, 4 meses depois de 
+parar o tratamento. </p>
+<p>Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico, farmacêutico ou 
+enfermeiro antes de tomar este medicamento. </p>
+<p>Amamentação </p>
+<p>Não amamente durante o tratamento com VANFLYTA e, pelo menos, durante 5 semanas após parar o 
+tratamento. Isto porque não se sabe se VANFLYTA passa para o leite materno (ver “Não tome 
+VANFLYTA"). 
+Se está a amamentar, consulte o seu médico, farmacêutico ou enfermeiro antes de tomar este 
+medicamento. </p>
+<p>Fertilidade </p>
+<p>VANFLYTA pode diminuir a fertilidade em mulheres e homens. Fale sobre este assunto com o seu 
+médico antes de iniciar o tratamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+É improvável que VANFLYTA tenha efeitos sobre a sua capacidade de conduzir ou utilizar máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar vanflyta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar vanflyta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Que quantidade de VANFLYTA deve tomar 
+O seu médico ou farmacêutico dir-lhe-á exatamente que quantidade de VANFLYTA deve tomar. Não 
+mude a sua dose nem pare de tomar VANFLYTA sem falar primeiro com o seu médico. </p>
+<p>Normalmente, começará a tomar 35,4 mg (dois comprimidos de 17,7 mg), uma vez por dia, durante 
+2 semanas, durante cada ciclo de quimioterapia. A dose máxima recomendada é de 53 mg uma vez por 
+dia. </p>
+<p>O seu médico pode iniciar o seu tratamento com uma dose mais baixa de um comprimido de 17,7 mg, 
+uma vez por dia, se estiver a tomar determinados medicamentos. </p>
+<p>Após ter concluído a sua quimioterapia, o seu médico pode alterar a sua dose para um comprimido de 
+26,5 mg, uma vez por dia, durante 2 semanas, e depois aumentar a sua dose para 53 mg (dois 
+comprimidos de 26,5 mg), uma vez por dia daí em diante, dependendo de como responde a 
+VANFLYTA. </p>
+<p>O seu médico pode interromper temporariamente o tratamento ou alterar a sua dose com base nas 
+análises ao sangue, nos efeitos indesejáveis ou noutros medicamentos que possa estar a tomar. </p>
+<p>O seu médico descontinuará o seu tratamento se for receber um transplante de células estaminais. O 
+seu médico irá dizer-lhe quando deverá parar de tomar o seu medicamento e quando deverá reiniciá-lo. </p>
+<p>Ao tomar este medicamento </p>
+<ul>
+<li>
+<p>Tome VANFLYTA por via oral, com ou sem alimentos. </p>
+</li>
+<li>
+<p>Tome VANFLYTA aproximadamente à mesma hora todos os dias. Isto ajudará a lembrar-se de 
+tomar o seu medicamento. </p>
+</li>
+<li>
+<p>Se vomitar depois de tomar este medicamento, não tome mais comprimidos até à dose 
+programada seguinte. </p>
+</li>
+</ul>
+<p>Durante quanto tempo tem de tomar VANFLYTA 
+Continue a tomar VANFLYTA enquanto o seu médico lhe disser para o fazer. O seu médico 
+monitorizará regularmente a sua doença para verificar se o tratamento continua a funcionar. </p>
+<p>Se tiver quaisquer dúvidas sobre a duração do seu tratamento com VANFLYTA, fale com o seu 
+médico ou farmacêutico. </p>
+<p>Se tomar mais VANFLYTA do que deveria 
+Se tomar acidentalmente mais comprimidos do que deveria, ou se alguém tomar acidentalmente o seu 
+medicamento, fale com um médico imediatamente ou dirija-se a um hospital e leve este folheto 
+informativo consigo. Pode ser necessário tratamento médico. </p>
+<p>Caso se tenha esquecido de tomar VANFLYTA 
+No caso de se ter esquecido de tomar VANFLYTA, tome-o o mais rapidamente possível no mesmo 
+dia. Tome a sua dose seguinte à hora habitual no dia seguinte. </p>
+<p>Não tome uma dose adicional (duas doses no mesmo dia) para compensar uma dose que se esqueceu 
+de tomar. </p>
+<p>Se parar de tomar VANFLYTA 
+A interrupção do seu tratamento com VANFLYTA pode piorar a sua doença. Não pare de tomar este 
+medicamento a menos que o seu médico lhe diga para o fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Informe imediatamente o seu médico, farmacêutico ou enfermeiro se detetar os seguintes efeitos 
+indesejáveis: </p>
+<ul>
+<li>
+<p>sensação de tonturas, atordoamento ou que vai desmaiar. Estes podem ser sinais de um 
+problema no coração chamado “intervalo QT prolongado" (atividade elétrica anormal do 
+coração que afeta o seu ritmo). </p>
+</li>
+<li>
+<p>febre, tosse, dor no peito, falta de ar, cansaço ou dor ao urinar. Estes podem ser sinais de uma 
+infeção ou de neutropenia febril (contagens baixas de glóbulos brancos no sangue com febre).  </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito frequentes 
+(podem afetar mais do que 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Aumento da alanina aminotransferase (resultados anormais das enzimas do fígado) </p>
+</li>
+<li>
+<p>Trombocitopenia (níveis baixos de plaquetas no sangue)  </p>
+</li>
+<li>
+<p>Anemia (níveis baixos de glóbulos vermelhos) </p>
+</li>
+<li>
+<p>Neutropenia (níveis baixos de neutrófilos, um tipo de glóbulos brancos) </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Náuseas (enjoos) </p>
+</li>
+<li>
+<p>Dor abdominal (de estômago) </p>
+</li>
+<li>
+<p>Dores de cabeça </p>
+</li>
+<li>
+<p>Vómitos </p>
+</li>
+<li>
+<p>Edema (inchaço da face, braços e pernas) </p>
+</li>
+<li>
+<p>Infeções das vias respiratórias superiores (infeções no nariz e garganta) </p>
+</li>
+<li>
+<p>Diminuição do apetite  </p>
+</li>
+<li>
+<p>Epistaxe (hemorragias graves do nariz) </p>
+</li>
+<li>
+<p>Infeções por fungos </p>
+</li>
+<li>
+<p>Infeções por herpes </p>
+</li>
+<li>
+<p>Dispepsia (indigestão) </p>
+</li>
+<li>
+<p>Bacteriemia (bactérias presentes no sangue) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes 
+(podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>Pancitopenia (níveis baixos de todos os tipos de células do sangue) </li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes 
+(podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>Paragem cardíaca (o coração para de bater) </p>
+</li>
+<li>
+<p>Fibrilhação ventricular (contrações descoordenadas, perigosas e irregulares das câmaras 
+inferiores do coração) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar vanflyta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar vanflyta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não utilize este medicamento se verificar que a embalagem está danificada ou se observar sinais de 
+manipulação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de VANFLYTA </p>
+<ul>
+<li>
+<p>A substância ativa é o quizartinib. 
+VANFLYTA 17,7 mg: Cada comprimido revestido por película contém 17,7 mg de quizartinib 
+(sob a forma de dicloridrato). 
+VANFLYTA 26,5 mg: Cada comprimido revestido por película contém 26,5 mg de quizartinib 
+(sob a forma de dicloridrato). </p>
+</li>
+<li>
+<p>Os outros componentes são: 
+VANFLYTA 17,7 mg: 
+Núcleo do comprimido: Hidroxipropilbetadex, celulose microcristalina, estearato de magnésio 
+Revestimento por película: Hipromelose, talco, triacetina, dióxido de titânio 
+VANFLYTA 26,5 mg: 
+Núcleo do comprimido: Hidroxipropilbetadex, celulose microcristalina, estearato de magnésio 
+Revestimento por película: Hipromelose, talco, triacetina, dióxido de titânio, óxido de ferro 
+amarelo </p>
+</li>
+</ul>
+<p>Qual o aspeto de VANFLYTA e conteúdo da embalagem 
+VANFLYTA 17,7 mg comprimidos revestidos por película (comprimidos) são brancos, redondos, 
+com ‘DSC 511’ num dos lados, e são apresentados em embalagens exteriores contendo 14 x 1 ou 
+28 x 1 comprimidos revestidos por película em blisters perfurados para dose unitária de 
+alumínio/alumínio.  </p>
+<p>VANFLYTA 26,5 mg comprimidos revestidos por película (comprimidos) são amarelos, redondos, 
+com ‘DSC 512’ num dos lados, e são apresentados em embalagens exteriores contendo 14 x 1, 28 x 1 
+ou 56 x 1 comprimidos revestidos por película em blisters perfurados para dose unitária de 
+alumínio/alumínio. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Daiichi Sankyo Europe GmbH 
+Zielstattstrasse 81379 Munich 
+Alemanha </p>
+<p>Fabricante 
+Daiichi Sankyo Europe GmbH 
+Luitpoldstrasse 1 
+85276 Pfaffenhofen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Daiichi Sankyo Belgium N.V.-S.A 
+Tel: +32-(0) 2 227 18 Lietuva 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+България 
+Daiichi Sankyo Europe GmbH 
+Teл.: +49-(0) 89 7808 0 
+Luxembourg/Luxemburg 
+Daiichi Sankyo Belgium N.V.-S.A 
+Tel: +32-(0) 2 227 18 Česká republika 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Magyarország 
+Daiichi Sankyo Europe GmbH 
+Tel.: +49-(0) 89 7808 0 
+Danmark 
+Daiichi Sankyo Nordics ApS 
+Tlf: +45 (0) 33 68 19 Malta 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Deutschland 
+Daiichi Sankyo Deutschland GmbH 
+Tel: +49-(0) 89 7808 0 
+Nederland 
+Daiichi Sankyo Nederland B.V. 
+Tel: +31 (0) 20 4 07 20 Eesti 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Norge 
+Daiichi Sankyo Nordics ApS 
+Tlf: +47 (0) 21 09 38 Ελλάδα 
+Daiichi Sankyo Europe GmbH 
+Τηλ: +49-(0) 89 7808 0 
+Österreich 
+Daiichi Sankyo Austria GmbH 
+Tel: +43-(0) 1 4858642 0 
+España 
+Daiichi Sankyo España, S.A. 
+Tel: +34 91 539 99 Polska 
+Daiichi Sankyo Europe GmbH 
+Tel.: +49-(0) 89 7808 0 
+France 
+Daiichi Sankyo France S.A.S 
+Tel: +33 (0) 1 55 62 14 Portugal 
+Daiichi Sankyo Portugal, Unip. LDA 
+Tel: +351 21 4232Hrvatska 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+România 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Ireland 
+Daiichi Sankyo Ireland Ltd 
+Tel: +353-(0) 1 489 3Slovenija 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Ísland 
+Daiichi Sankyo Nordics ApS 
+Sími: +354 5357Slovenská republika 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Italia 
+Daiichi Sankyo Italia S.p.A 
+Tel: +39-06 85 2Suomi/Finland 
+Daiichi Sankyo Nordics ApS 
+Puh/Tel: +358 (0) 9 3540 7Κύπρος 
+Daiichi Sankyo Europe GmbH 
+Τηλ: +49-(0) 89 7808 0 
+Sverige 
+Daiichi Sankyo Nordics ApS 
+Tel: +46 (0) 40 699 2Latvija 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+United Kingdom (Northern Ireland) 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 </p>
+<p>Este folheto foi revisto pela última vez em. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -961,6 +1488,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-1ff94cd25db3b18c09de52395c558d2d"
 * entry[0].resource = composition-da-1ff94cd25db3b18c09de52395c558d2d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1ff94cd25db3b18c09de52395c558d2d"
+* entry[=].resource = mp1ff94cd25db3b18c09de52395c558d2d
+                            
+                    
+Instance: bundlepackageleaflet-pt-1ff94cd25db3b18c09de52395c558d2d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vanflyta Package Leaflet for language pt"
+Description: "ePI document Bundle for vanflyta Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-1ff94cd25db3b18c09de52395c558d2d"
+* entry[0].resource = composition-pt-1ff94cd25db3b18c09de52395c558d2d
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp1ff94cd25db3b18c09de52395c558d2d"
@@ -1062,6 +1611,18 @@ RuleSet: 1ff94cd25db3b18c09de52395c558d2dListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-1ff94cd25db3b18c09de52395c558d2d) // vanflyta pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

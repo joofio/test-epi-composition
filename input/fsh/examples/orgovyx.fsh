@@ -625,6 +625,309 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-987766e2219c5177d278b3430b3652be
+InstanceOf: CompositionUvEpi
+Title: "Composition for orgovyx Package Leaflet"
+Description:  "Composition for orgovyx Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp987766e2219c5177d278b3430b3652be)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - orgovyx"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Orgovyx e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Orgovyx  </li>
+<li>Como tomar Orgovyx </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Orgovyx  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é orgovyx e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é orgovyx e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Orgovyx contém a substância ativa relugolix. É utilizado para tratar doentes adultos com cancro da 
+próstata avançado que respondem à terapia hormonal. </p>
+<p>Relugolix atua bloqueando um passo no processo que sinaliza os testículos para produzir testosterona 
+(a hormona sexual masculina). Como a testosterona pode estimular o crescimento do cancro da 
+próstata, ao reduzi-la para níveis muito baixos, o relugolix previne o crescimento e divisão das células 
+do cancro da próstata.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar orgovyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar orgovyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Orgovyx 
+- se tem alergia ao relugolix ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).  </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar Orgovyx se tiver qualquer um dos seguintes: 
+- Condições da circulação cardíaca, como problemas de ritmo cardíaco (arritmia). O risco de 
+problemas de ritmo cardíaco pode aumentar com a utilização de Orgovyx. O seu médico poderá 
+verificar os níveis dos sais (eletrólitos) no organismo e a atividade elétrica do seu coração 
+durante o tratamento com Orgovyx.<br />
+- Informe o seu médico imediatamente se tiver quaisquer sinais ou sintomas como tonturas, 
+desmaio, sensação anormal dos batimentos do coração ou sensação de coração acelerado 
+(palpitações) ou dor no peito. Estes podem ser sintomas de problemas de ritmo cardíaco graves. 
+- Doença hepática. Pode ser necessário monitorizar a função hepática. A utilização de Orgovyx 
+não foi investigada em doentes com doença hepática grave. 
+- Doença renal (dos rins). 
+- Osteoporose ou qualquer condição que afete a resistência dos ossos. Níveis reduzidos de 
+testosterona podem levar a ossos mais frágeis. 
+- Monitorização da sua doença com uma análise ao sangue do antigénio específico da 
+próstata (PSA). </p>
+<p>Crianças e adolescentes 
+Orgovyx não se destina a utilização por crianças e adolescentes com idade inferior a 18 anos. </p>
+<p>Outros medicamentos e Orgovyx 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos, incluindo medicamentos não sujeitos a receita médica. </p>
+<p>Orgovyx pode interferir com alguns medicamentos utilizados para tratar problemas de ritmo cardíaco 
+(por ex., quinidina, procainamida, amiodarona e sotalol) ou pode aumentar o risco de problemas de 
+ritmo cardíaco quando utilizado com alguns outros medicamentos (por ex., metadona [utilizada para 
+alívio da dor e parte de desintoxicação de toxicodependência], moxifloxacina [um antibiótico], 
+antipsicóticos utilizados para doenças mentais graves).  </p>
+<p>Outros medicamentos podem interferir com a absorção de relugolix, resultando num aumento nos 
+níveis sanguíneos que podem aumentar os efeitos indesejáveis ou diminuir nos níveis sanguíneos, o 
+que pode diminuir a eficácia de Orgovyx. Exemplos de medicamentos que podem interferir com 
+Orgovyx incluem: 
+- Determinados medicamentos utilizados para tratar epilepsia (por ex., carbamazepina, fenitoína, 
+fenobarbital). 
+- Determinados medicamentos utilizados para tratar infeções bacterianas (por ex., rifampicina, 
+azitromicina, eritromicina, claritromicina, gentamicina, tetraciclina).<br />
+- Determinados medicamentos utilizados para tratar infeções fúngicas (por ex., cetoconazol, 
+itraconazol). 
+- Determinados medicamentos utilizados para tratar cancro da próstata (por ex., apalutamida). 
+- Produtos à base de plantas contendo hipericão (Hypericum perforatum).<br />
+- Determinados medicamentos utilizados para tratar tensão arterial alta (por ex., carvedilol, 
+verapamil). 
+- Determinados medicamentos utilizados para tratar arritmias (por ex., amiodarona, 
+dronedarona, propafenona, quinidina). 
+- Determinados medicamentos utilizados para tratar angina (por ex., ranolazina). 
+- Determinados medicamentos utilizados como imunossupressores (por ex., ciclosporina). 
+- Determinados medicamentos utilizados para tratar infeções pelo VIH (por ex., ritonavir 
+[ou combinações contendo ritonavir], efavirenz). 
+- Determinados medicamentos utilizados para tratar hepatite C (por ex., telaprevir). </p>
+<p>O seu médico pode assim alterar os seus medicamentos, mudar a hora de toma de certos 
+medicamentos, a dose dos medicamentos ou aumentar a dose de Orgovyx. </p>
+<p>Gravidez, amamentação e fertilidade 
+Orgovyx destina-se a utilização em homens com cancro da próstata. Este medicamento pode 
+possivelmente ter um efeito na fertilidade masculina. 
+Este medicamento não é indicado para mulheres que possam engravidar. Não deve ser utilizado em 
+mulheres que estão ou possam estar grávidas ou a amamentar. </p>
+<ul>
+<li>Informação para homens:  </li>
+<li>Se tiver relações sexuais com uma mulher com o potencial de engravidar, use um 
+preservativo e outro método contracetivo eficaz utilizado pela sua parceira, durante o 
+tratamento e durante 2 semanas depois do tratamento com este medicamento, para 
+prevenir uma gravidez.  </li>
+<li>Se tiver relações sexuais com uma mulher grávida, use um preservativo para proteger 
+o feto. </li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+O cansaço é um efeito indesejável muito frequente e as tonturas são um efeito indesejável frequente 
+que podem influenciar a capacidade de conduzir e utilizar máquinas. Estes efeitos indesejáveis podem 
+ocorrer devido ao tratamento ou resultar da doença subjacente. </p>
+<p>Orgovyx contém sódio 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido revestido por película, 
+ou seja, é praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar orgovyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar orgovyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.  </p>
+<p>A dose recomendada é:  </p>
+<ul>
+<li>
+<p>três comprimidos no primeiro dia do tratamento. </p>
+</li>
+<li>
+<p>posteriormente, um comprimido uma vez por dia, tomado por volta da mesma hora cada dia. 
+O médico pode mudar a dose, se necessário. </p>
+</li>
+</ul>
+<p>Engolir inteiro. Os comprimidos podem ser ingeridos com ou sem alimentos com um pouco 
+de líquido.  </p>
+<p>Se tomar mais Orgovyx do que deveria 
+Não houve notificações de efeitos nocivos graves decorrentes da ingestão de várias doses deste 
+medicamento de uma só vez. Se tiver tomado demasiados comprimidos de Orgovyx, ou descobrir que 
+uma criança tomou alguns comprimidos, peça aconselhamento ao seu médico o mais depressa 
+possível. Leve o medicamento consigo para o mostrar ao médico.  </p>
+<p>Caso se tenha esquecido de tomar Orgovyx 
+Se se lembrar que falhou a toma de uma dose menos de 12 horas após a hora normal a que a teria 
+tomado, tome-a assim que se lembrar e depois continue a toma dos comprimidos no dia seguinte, 
+como de costume. Se falhar uma dose em mais do que 12 horas, não tome a dose. Tome a próxima 
+dose no dia seguinte, como de costume. </p>
+<p>Se parar de tomar Orgovyx 
+Se quiser parar de tomar este medicamento, fale primeiro com o seu médico. O seu médico explicar-
+lhe-á os efeitos da interrupção do tratamento e discutirá consigo outras possibilidades.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis podem ser graves. </p>
+<p>Procure assistência médica urgente se desenvolver: 
+- Inchaço rápido da face, boca, lábios, língua, garganta, abdómen, ou braços e pernas 
+(angioedema) (pouco frequente: pode afetar até 1 em 100 pessoas). </p>
+<p>Os seguintes efeitos indesejáveis foram notificados com Orgovyx e estão indicados abaixo de acordo 
+com a frequência com que ocorrem.  </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas): 
+- afrontamentos 
+- diarreia 
+- prisão de ventre<br />
+- dores nos músculos e nas articulações 
+- cansaço </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): 
+- baixa contagem de glóbulos vermelhos (anemia) 
+- aumento dos seios nos homens (ginecomastia)<br />
+- insónia 
+- depressão 
+- tonturas 
+- dor de cabeça 
+- tensão arterial alta 
+- indisposição incluindo sensação de mal-estar (náuseas) 
+- aumento do suor<br />
+- erupção na pele 
+- diminuição do interesse sexual 
+- aumento do peso<br />
+- aumento dos níveis de açúcar no sangue 
+- aumento dos níveis de gordura no sangue (triglicéridos) 
+- aumento do nível de colesterol no sangue </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- ossos mais frágeis (osteoporose) 
+- aumento das enzimas hepáticas<br />
+- urticária </p>
+<p>Raros (podem afetar até 1 em 1 000 pessoas): 
+- ataque cardíaco </p>
+<p>Não conhecidos (a frequência não pode ser calculada a partir dos dados disponíveis): 
+- alterações no eletrocardiograma (QT prolongado) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar orgovyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar orgovyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco, após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Orgovyx<br />
+- A substância ativa é o relugolix.<br />
+- Os outros componentes são manitol (E421), amido glicolato de sódio (E468), 
+hidroxipropilcelulose (E463), estearato de magnésio (E572), hipromelose (E464), dióxido de 
+titânio (E171), triacetina (E1518), óxido de ferro vermelho (E172), cera de Carnaúba (E903).  </p>
+<p>Consulte “Orgovyx contém sódio" na secção 2 para obter mais informações.  </p>
+<p>Qual o aspeto de Orgovyx e conteúdo da embalagem 
+Os comprimidos revestidos por película de Orgovyx têm a forma de amêndoa e são vermelho claro 
+(11 mm [comprimento] × 8 mm [largura])com “R" num dos lados e “120" no outro. Orgovyx está 
+disponível num frasco de plástico branco com 30 comprimidos revestidos por película em embalagens 
+com 30 comprimidos revestidos por película e 90 comprimidos revestidos por película (3 frascos de comprimidos revestidos por película). Cada frasco contém ainda um dessecante para manter o 
+medicamento seco (protegê-lo contra a humidade). Não remova o dessecante do frasco. Cada frasco 
+inclui uma tampa selada por indução à prova de crianças.  </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Accord Healthcare S.L.U. 
+World Trade Center, Moll de Barcelona, s/n, 
+Edifici Est 6ª planta, 
+08039 Barcelona, 
+Espanha </p>
+<p>Fabricante 
+Accord Healthcare Polska Sp.z o.o., 
+ul. Lutomierska 50,95-200 Pabianice, Polónia </p>
+<p>Accord Healthcare B.V.,<br />
+Winthontlaan 200,<br />
+3526 KV Utrecht,<br />
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>AT / BE / BG / CY / CZ / DE / DK / EE / FI / FR / HR / HU / IS / IT / LT / LV / LX / MT / NL / 
+NO / PT / PL / RO / SE / SI / SK / UK(NI) / ES 
+Accord Healthcare S.L.U. 
+Tel: +34 93 301 00<br />
+EL 
+Win Medica Pharmaceutical S.A.<br />
+Tel: +30 210 7488<br />
+Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -666,6 +969,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-987766e2219c5177d278b3430b3652be"
 * entry[0].resource = composition-da-987766e2219c5177d278b3430b3652be
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp987766e2219c5177d278b3430b3652be"
+* entry[=].resource = mp987766e2219c5177d278b3430b3652be
+                            
+                    
+Instance: bundlepackageleaflet-pt-987766e2219c5177d278b3430b3652be
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for orgovyx Package Leaflet for language pt"
+Description: "ePI document Bundle for orgovyx Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-987766e2219c5177d278b3430b3652be"
+* entry[0].resource = composition-pt-987766e2219c5177d278b3430b3652be
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp987766e2219c5177d278b3430b3652be"
@@ -767,6 +1092,18 @@ RuleSet: 987766e2219c5177d278b3430b3652beListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-987766e2219c5177d278b3430b3652be) // orgovyx pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

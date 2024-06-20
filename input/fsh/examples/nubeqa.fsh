@@ -660,6 +660,241 @@ forudsætning af, at de foreslåede ændringer indføres i produktinformationen.
 
 
 
+Instance: composition-pt-1cafc851e1f0aed5863b6a73ba46d0f7
+InstanceOf: CompositionUvEpi
+Title: "Composition for nubeqa Package Leaflet"
+Description:  "Composition for nubeqa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1cafc851e1f0aed5863b6a73ba46d0f7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - nubeqa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é NUBEQA e para que é utilizado
+2. O que precisa de saber antes de tomar NUBEQA
+3. Como tomar NUBEQA
+4. Efeitos indesejáveis possíveis 
+5. Como conservar NUBEQA
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é nubeqa e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é nubeqa e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O NUBEQA contém a substância ativa darolutamida.
+É utilizado para tratar homens adultos com cancro da próstata que:
+-
+não se espalhou para outras partes do corpo e que já não responde a um tratamento médico ou 
+cirúrgico que diminui a testosterona (também designado cancro da próstata resistente à 
+castração não metastático)
+-
+se espalhou para outras partes do corpo e que responde a tratamento médico ou cirúrgico que 
+diminui a testosterona (também designado por cancro da próstata metastático 
+hormonossensível).
+Como funciona o NUBEQA
+O NUBEQA bloqueia a atividade das hormonas sexuais masculinas denominadas androgénios, tais 
+como a testosterona. Ao bloquear estas hormonas, a darolutamida impede o crescimento e a divisão 
+das células do cancro da próstata.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar nubeqa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar nubeqa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome NUBEQA</h2>
+<p>se tem alergia à darolutamida ou a qualquer outro componente deste medicamento (indicados na 
+secção 6)
+-
+se for mulher e estiver grávida ou puder engravidar.
+Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar NUBEQA se 
+- tiver problemas com os rins 
+- tiver problemas com o fígado 
+- tiver quaisquer problemas cardíacos, incluindo perturbações do ritmo cardíaco, ou se estiver a 
+usar medicamentos para estas condições 
+- tiver feito uma cirurgia para tratar certas condições dos vasos sanguíneos. </p>
+<p>A toma deste medicamento pode afetar os seus exames ao fígado. Se a suas análises sanguíneas 
+mostrarem resultados anormais da função do fígado, o seu médico pode decidir parar o tratamento 
+permanentemente. </p>
+<p>Crianças e adolescentes 
+Este medicamento não se destina a ser utilizado em crianças e adolescentes com menos de 18 anos de 
+idade. O cancro da próstata não ocorre nesta faixa etária. </p>
+<p>Outros medicamentos e NUBEQA 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. </p>
+<p>Os seguintes medicamentos podem influenciar o efeito do NUBEQA ou o NUBEQA pode influenciar 
+o efeito destes medicamentos para tratar: 
+- infeções bacterianas, como a rifampicina 
+- epilepsia, como a carbamazepina, o fenobarbital, a fenitoína 
+- sintomas de humor ligeiramente abatido e de ligeira ansiedade: hipericão (um medicamento à 
+base de plantas) 
+- colesterol elevado, como a rosuvastatina, fluvastatina, atorvastatina, pitavastatina 
+- inflamação grave das articulações, casos graves da doença da pele psoríase e cancros: 
+metotrexato 
+- doenças inflamatórias do intestino: sulfassalazina </p>
+<p>O seu médico pode, portanto, alterar a dose dos medicamentos que esteja a tomar. </p>
+<p>Gravidez, amamentação e fertilidade 
+O NUBEQA não se destina a ser utilizado nas mulheres. 
+Este medicamento pode ter um efeito na fertilidade masculina. 
+Siga estes conselhos durante e até 1 semana após a paragem: 
+- use um método contracetivo altamente eficaz para evitar uma gravidez, se tiver relações sexuais 
+com uma mulher que possa engravidar. 
+- use um preservativo para proteger o bebé por nascer, se tiver relações sexuais com uma mulher 
+grávida. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não é provável que este medicamento afete a sua capacidade de conduzir e de utilizar máquinas. </p>
+<p>NUBEQA contém lactose 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar nubeqa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar nubeqa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é 
+2 comprimidos 2 vezes por dia </p>
+<p>O seu médico pode reduzir a sua dose para 1 comprimido 2 vezes por dia, se tiver problemas no fígado 
+ou nos rins. </p>
+<p>Método de utilização 
+Engula os comprimidos inteiros, com alimentos e um copo de água. </p>
+<p>O seu médico também lhe poderá prescrever outros medicamentos enquanto estiver a tomar 
+NUBEQA. </p>
+<p>Se tomar mais NUBEQA do que deveria 
+Continue o tratamento com a próxima dose programada. </p>
+<p>Caso se tenha esquecido de tomar NUBEQA 
+Tome a dose esquecida assim que se lembrar, antes da próxima dose programada. Não tome uma dose 
+a dobrar para compensar 1 ou mais comprimidos que se tenha esquecido de tomar. </p>
+<p>Se parar de tomar NUBEQA 
+Não pare de tomar este medicamento, a menos que o seu médico o instrua a fazê-lo. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis do NUBEQA que ocorrem com as seguintes frequências: </p>
+<p>Em doentes com cancro da próstata resistente à castração não metastático 
+Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas): 
+- cansaço 
+- análises ao sangue que mostram um número reduzido de um tipo de glóbulos brancos chamados 
+neutrófilos 
+- análises ao sangue que mostram um aumento dos níveis de substâncias produzidas pelo fígado: 
+bilirrubina, aspartato aminotransferase </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas): 
+- bloqueio das artérias do coração 
+- insuficiência cardíaca 
+- erupção na pele 
+- dor nos braços e pernas 
+- dor nos músculos e ossos 
+- fraturas ósseas </p>
+<p>Em doentes com cancro da próstata metastático hormonossensível 
+Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas): 
+- tensão arterial alta 
+- erupção na pele 
+- análises ao sangue que mostram um número reduzido de um tipo de glóbulos brancos chamados 
+neutrófilos 
+- análises ao sangue que mostram um aumento dos níveis de substâncias produzidas pelo fígado: 
+bilirrubina, alanina aminotransferase e aspartato aminotransferase </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas): 
+- fraturas ósseas 
+- aumento da mama nos homens </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar nubeqa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar nubeqa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e em cada 
+blister, após “VAL". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de NUBEQA 
+A substância ativa é a darolutamida. Cada comprimido revestido por película contém 300 mg de 
+darolutamida. 
+Os outros componentes são: 
+- hidrogenofosfato de cálcio (E 341) 
+- croscarmelose de sódio 
+- hipromelose 
+- lactose mono-hidratada 
+- macrogol (E 1521) 
+- estearato de magnésio (E 470b) 
+- povidona (E 1201) 
+- dióxido de titânio (E 171) </p>
+<p>Para mais informações, consulte “NUBEQA contém lactose" na secção </p>         </div>"""      
+
+
+
 
 
                     
@@ -701,6 +936,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-1cafc851e1f0aed5863b6a73ba46d0f7"
 * entry[0].resource = composition-da-1cafc851e1f0aed5863b6a73ba46d0f7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1cafc851e1f0aed5863b6a73ba46d0f7"
+* entry[=].resource = mp1cafc851e1f0aed5863b6a73ba46d0f7
+                            
+                    
+Instance: bundlepackageleaflet-pt-1cafc851e1f0aed5863b6a73ba46d0f7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nubeqa Package Leaflet for language pt"
+Description: "ePI document Bundle for nubeqa Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-1cafc851e1f0aed5863b6a73ba46d0f7"
+* entry[0].resource = composition-pt-1cafc851e1f0aed5863b6a73ba46d0f7
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp1cafc851e1f0aed5863b6a73ba46d0f7"
@@ -802,6 +1059,18 @@ RuleSet: 1cafc851e1f0aed5863b6a73ba46d0f7ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-1cafc851e1f0aed5863b6a73ba46d0f7) // nubeqa pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

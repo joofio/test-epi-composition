@@ -816,6 +816,302 @@ skraldespanden. </p>
 
 
 
+Instance: composition-pt-e32af5235bc449e932db46935c53460a
+InstanceOf: CompositionUvEpi
+Title: "Composition for kineret Package Leaflet"
+Description:  "Composition for kineret Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe32af5235bc449e932db46935c53460a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - kineret"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Kineret e para que é utilizado 
+2. O que precisa de saber antes de utilizar Kineret 
+3. Como utilizar Kineret 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Kineret 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é kineret e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é kineret e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kineret contém a substância ativa anacinra. Este é um tipo de citocina (um fármaco imunossupressor) 
+utilizado no tratamento de: 
+- Artrite reumatoide (AR) 
+- COVID-19 em doentes com pneumonia, que necessitam de oxigénio adicional e que estão em 
+risco de insuficiência pulmonar 
+- Síndromes febris periódicas 
+- Síndromes Periódicas Associadas à Criopirina (CAPS) 
+o 
+Doença Inflamatória Multissistémica de Início Neonatal (NOMID), também 
+chamada Síndrome Crónica Infantil Neurológica, Cutânea e Articular (CINCA), 
+o 
+Síndrome de Muckle-Wells (MWS), 
+o 
+Síndrome Autoinflamatória Familiar induzida pelo Frio (FCAS) 
+- Febre mediterrânica familiar (FMF) 
+- Doença de Still incluindo Artrite idiopática juvenil sistémica (SJIA) e a Doença de Still do 
+adulto (AOSD) </p>
+<p>As citocinas são proteínas produzidas pelo corpo que coordenam a comunicação entre as células e 
+ajudam a controlar a atividade celular. Quando se sofre de AR, CAPS, FMF, doença de Still e 
+pneumonia por COVID-19, o corpo produz uma elevada quantidade de uma citocina chamada 
+interleucina-1. Isto resulta em efeitos nocivos, que levam a inflamação, causando os sintomas da 
+doença. Normalmente, o corpo produz uma proteína que bloqueia os efeitos nocivos da interleucina-1. A substância ativa do Kineret é o anacinra, que funciona do mesmo modo que a sua proteína natural 
+bloqueadora da interleucina-1. Anacinra é produzido por tecnologia de ADN, utilizando o 
+microrganismo E. coli. </p>
+<p>Na AR, Kineret é utilizado para tratar os sinais e sintomas da doença em adultos (com 18 anos de 
+idade ou mais) em combinação com outro medicamento chamado metotrexato. Kineret destina-se aos 
+doentes cuja resposta ao metotrexato, por si só, não é suficientemente boa para controlar a artrite 
+reumatoide. </p>
+<p>Na COVID-19, Kineret é utilizado para tratar a hiperinflamação (mais forte do que a inflamação 
+habitual) associada à doença em adultos (com 18 anos de idade ou mais) com pneumonia, que 
+necessitam de oxigénio adicional para os ajudar a respirar (baixo e alto fluxo) e que estão em risco de 
+insuficiência pulmonar. </p>
+<p>Nas CAPS, Kineret é utilizado para tratar os sinais e sintomas de inflamação associada à doença, tais 
+como erupção cutânea, dor nas articulações, dor de cabeça e fadiga, em adultos e crianças (com 
+8 meses de idade ou mais). </p>
+<p>Na FMF, Kineret é utilizado para tratar os sinais e sintomas da inflamação associada à doença, como 
+febre recorrente, fadiga, dor abdominal, dor nos músculos ou nas articulações e erupção na pele. 
+Kineret pode ser utilizado juntamente com colquicina, se apropriado. </p>
+<p>Na doença de Still, Kineret é utilizado para tratar os sinais e sintomas da inflamação associada à 
+doença, como erupção na pele, dor nas articulações e febre. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar kineret"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar kineret"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Kineret 
+- se tem alergia ao anacinra ou a qualquer outro componente deste medicamento (indicados na 
+secção 6) 
+- se tem alergia a outros produtos que são produzidos por tecnologia de ADN recombinante 
+utilizando a E. coli como micro-organismo 
+- se tiver neutropenia (contagem baixa de glóbulos brancos) determinada após uma análise ao 
+sangue. </p>
+<p>Contacte o seu médico imediatamente 
+- se após a administração do Kineret desenvolver erupção da pele generalizada, dispneia, síbilo, 
+pulsação acelerada ou sudorese. Estes podem ser sinais de que é alérgico ao Kineret. 
+- se alguma vez desenvolveu uma erupção cutânea generalizada e atípica ou descamação da pele 
+após tomar Kineret. </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de utilizar Kineret: 
+- se tem um historial médico de infeções recorrentes ou se sofre de asma. O Kineret pode piorar 
+estas situações; 
+- se tem cancro. O seu médico terá de decidir se mesmo assim pode receber Kineret; 
+- se tiver um histórico de aumento dos níveis de enzimas hepáticas; 
+- se requer vacinações. Não lhe podem ser administradas vacinas vivas enquanto estiver a ser 
+tratado com Kineret. </p>
+<p>Doença de Still 
+- Em casos raros, doentes com doença de Still, sobretudo crianças, podem desenvolver doença 
+pulmonar, mesmo durante o tratamento com Kineret. O risco pode ser acrescido em doentes 
+com síndrome de Down (trissomia 21). Sintomas de doença pulmonar podem ser, p. ex., falta de 
+ar durante exercício ligeiro, tosse matinal e dificuldade em respirar. Se desenvolver sinais de 
+doença pulmonar, deve contactar o seu prestador de cuidados de saúde o mais cedo possível. 
+- A reação cutânea grave, DRESS (reação medicamentosa com eosinofilia e sintomas sistémicos), 
+foi notificada raramente em associação com o tratamento com Kineret, predominantemente em 
+doentes com artrite idiopática juvenil sistémica (SJIA). Consulte imediatamente um médico se 
+notar uma erupção cutânea generalizada e atípica, que pode ocorrer em conjunto com 
+temperatura corporal elevada e aumento dos gânglios linfáticos. </p>
+<p>Crianças e adolescentes 
+- AR: A utilização de Kineret em crianças e adolescentes com Artrite Reumatoide não foi 
+totalmente investigada e como tal não pode ser recomendada. 
+- COVID-19: A utilização de Kineret em crianças e adolescentes com COVID-19 não foi 
+totalmente investigada e como tal não pode ser recomendada. 
+- CAPS, FMF e doença de Still: Kineret não é recomendado em crianças com menos de 8 meses 
+de idade pois não existem dados neste grupo etário. </p>
+<p>Outros medicamentos e Kineret 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Os medicamentos denominados inibidores do fator de necrose tumoral (TNF-α), tais como o 
+etanercept, não devem ser utilizados com Kineret, pois isso pode aumentar o risco de infeções. </p>
+<p>Quando começar a tomar Kineret, a inflamação crónica no seu corpo irá diminuir. Isto poderá 
+significar que as doses de alguns outros medicamentos, por exemplo, varfarina ou fenitoína, têm de ser 
+ajustadas. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Kineret não foi testado em mulheres grávidas. A utilização de Kineret não é recomendada durante a 
+gravidez e em mulheres com potencial para engravidar que não utilizam métodos contracetivos. É 
+importante que contacte o seu médico se está grávida, se pensa estar grávida ou planeia engravidar. O 
+seu médico discutirá consigo os riscos potenciais de tomar Kineret durante a gravidez. </p>
+<p>Desconhece-se se o anacinra é excretado no leite humano. Não deve amamentar se estiver a utilizar 
+Kineret. </p>
+<p>Kineret contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose de 100 mg, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar kineret"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar kineret"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. O Kineret deve ser injetado sob a pele (via subcutânea) diariamente. 
+Deve procurar que essa administração seja feita aproximadamente à mesma hora, todos os dias. </p>
+<p>A dose recomendada é de 20 a 90 mg ou 100 mg. O seu médico informá-lo-á sobre a dose de que 
+precisa, ou se precisa de uma dose superior a 100 mg. </p>
+<p>COVID-19: A dose recomendada é de 100 mg por injeção sob a pele (subcutânea) por dia, durante 
+10 dias. </p>
+<p>Administrar a si próprio a injeção de Kineret 
+O seu médico poderá decidir que é melhor para si que administre a si próprio a injeção de Kineret. Se 
+assim for, o seu médico ou enfermeiro demonstrarão como injetar o Kineret a si próprio. Não tente 
+injetar a si próprio o medicamento se não foi devidamente treinado. </p>
+<p>Leia a secção “Instruções para preparar e administrar uma injeção de Kineret" no fim deste folheto 
+para obter informações sobre como administrar o Kineret a si próprio ou à sua criança. </p>
+<p>Se utilizar mais Kineret do que deveria 
+Não deverá ter problemas graves se, acidentalmente, tomar mais Kineret do que o necessário. 
+Contudo, deverá contactar o seu médico, enfermeiro ou farmacêutico se tal ocorrer. No caso de se 
+sentir mal deverá contactar imediatamente o seu médico ou enfermeiro. </p>
+<p>Caso se tenha esquecido de utilizar Kineret 
+No caso de se esquecer de tomar uma dose de Kineret deverá contactar o seu médico para decidir 
+quando poderá ser administrada a dose seguinte. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Os possíveis efeitos indesejáveis são semelhantes, quer esteja a ser tratado com Kineret para a AR, 
+CAPS, FMF, doença de Still ou COVID-19.<br />
+Se ocorrer qualquer um dos seguintes sintomas, informe imediatamente o seu médico: 
+- Infeções graves como pneumonia (infeção pulmonar) ou infeções da pele podem ocorrer 
+durante o tratamento com Kineret. Os sintomas podem incluir febre alta persistente, calafrios, 
+tosse, dores de cabeça e vermelhidão e sensibilidade da pele. Uma febre baixa persistente, perda 
+de peso e tosse persistente também podem ser sinais de uma infeção. 
+- Reações alérgicas graves são pouco frequentes. No entanto, qualquer um dos seguintes 
+sintomas pode indicar uma reação alérgica ao Kineret, pelo que deve informar imediatamente o 
+médico. Não injete mais Kineret. 
+- Tumefação (inchaço) da face, língua e garganta 
+- Dificuldades em engolir ou respirar 
+- Sensação súbita de pulsação acelerada ou sudorese 
+- Pele pruriginosa (com comichão) e erupção da pele </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas): 
+- Vermelhidão, tumefação (inchaço), nódoas negras ou prurido no local da injeção. Estes 
+sintomas são geralmente ligeiros a moderados e são mais frequentes no início do seu 
+tratamento. 
+- Dores de cabeça. 
+- Níveis aumentados de colesterol total no sangue. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): 
+- Neutropenia (número baixo de glóbulos brancos) determinada após um teste sanguíneo. Este 
+facto pode aumentar o risco de apanhar uma infeção. Os sintomas de uma infeção podem incluir 
+febre ou faringite. 
+- Infeções graves como pneumonia (infeção pulmonar) ou infeções da pele. 
+- Trombocitopenia (nível baixo de plaquetas sanguíneas). </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- Reações alérgicas graves, incluindo tumefação (inchaço) da face, língua e garganta, dificuldades 
+em engolir ou respirar, sensação súbita de pulsação acelerada ou sudorese, ou pele pruriginosa 
+(com comichão) e erupção da pele. 
+- Níveis elevados de enzimas hepáticas determinados após uma análise ao sangue. </p>
+<p>Efeitos indesejáveis com frequência desconhecida (a frequência não pode ser calculada a partir dos 
+dados disponíveis):<br />
+- Sinais de problemas hepáticos, tais como pele e olhos amarelos, náuseas, perda de apetite, urina 
+de cor escura e fezes de cor clara. 
+- Se Kineret for injetado repetidamente no mesmo local, existe o risco de formação de um nódulo 
+(depósito amiloide) sob a pele. Para evitá-lo, deve fazer-se a rotação do local de injeção. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar kineret"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar kineret"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e embalagem exterior após 
+EXP. ou VAL., respetivamente. O prazo de validade corresponde ao último dia do mês indicado. 
+Conservar no frigorífico (2 °C a 8 °C). Não congelar.<br />
+Conservar na embalagem de origem para proteger da luz. </p>
+<p>Não utilize Kineret se este tiver sido congelado. Uma vez que a seringa tenha sido retirada do 
+frigorífico e atingido a temperatura ambiente (até 25 °C) deve ser utilizada nas próximas 72 horas ou 
+deve ser eliminada. Caso tenha estado conservado à temperatura ambiente, não o volte a colocar no 
+frigorífico. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Kineret 
+- A substância ativa é o anacinra. Cada seringa graduada pré-cheia contém 100 mg de anacinra.<br />
+- Os outros componentes são: ácido cítrico anidro, cloreto de sódio, edetato dissódico 
+di-hidratado, polissorbato 80, hidróxido de sódio e água para preparações injetáveis. </p>
+<p>Qual o aspeto de Kineret e conteúdo da embalagem 
+Kineret é uma solução injetável límpida, incolor a esbranquiçada e é apresentado pronto a utilizar 
+numa seringa pré-cheia. Pode conter partículas proteicas translúcidas a esbranquiçadas. A presença 
+destas partículas não afeta a qualidade do medicamento. </p>
+<p>Apresentações de 1, 7 ou 28 (embalagem múltipla contendo 4 embalagens de 7 seringas pré-cheias) 
+seringas pré-cheias. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Swedish Orphan Biovitrum AB (publ) 
+SE-112 76 Stockholm 
+Suécia </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -857,6 +1153,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-e32af5235bc449e932db46935c53460a"
 * entry[0].resource = composition-da-e32af5235bc449e932db46935c53460a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe32af5235bc449e932db46935c53460a"
+* entry[=].resource = mpe32af5235bc449e932db46935c53460a
+                            
+                    
+Instance: bundlepackageleaflet-pt-e32af5235bc449e932db46935c53460a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kineret Package Leaflet for language pt"
+Description: "ePI document Bundle for kineret Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-e32af5235bc449e932db46935c53460a"
+* entry[0].resource = composition-pt-e32af5235bc449e932db46935c53460a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpe32af5235bc449e932db46935c53460a"
@@ -958,6 +1276,18 @@ RuleSet: e32af5235bc449e932db46935c53460aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-e32af5235bc449e932db46935c53460a) // kineret pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

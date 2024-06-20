@@ -688,6 +688,382 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-5e88337560455eac655afab15013ce20
+InstanceOf: CompositionUvEpi
+Title: "Composition for opatanol Package Leaflet"
+Description:  "Composition for opatanol Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5e88337560455eac655afab15013ce20)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - opatanol"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Opatanol e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Opatanol </li>
+<li>Como utilizar Opatanol </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Opatanol </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é opatanol e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é opatanol e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opatanol é utilizado no tratamento dos sinais e sintomas da conjuntivite alérgica sazonal. </p>
+<p>Conjuntivite alérgica. Alguns materiais (alergenos) tais como pólens, pó das casas ou pêlos de 
+animais podem provocar reacções alérgicas que originam comichão, vermelhidão, assim como inchaço 
+da superfície do olho. </p>
+<p>Opatanol é um medicamento para tratamento de processos alérgicos do olho. Actua de duas formas 
+diferentes, reduzindo e controlando a intensidade da reacção alérgica. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar opatanol"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar opatanol"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Opatanol </p>
+<ul>
+<li>
+<p>Se tem alergia (hipersensibilidade) à olopatadina ou a qualquer outro componente deste 
+medicamento (indicados na secção 6) </p>
+</li>
+<li>
+<p>Não deve utilizar Opatanol se estiver a amamentar. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de utilizar Opatanol </p>
+<p>Crianças 
+Não utilize Opatanol em crianças com idade inferior a 3 anos. Não deve dar este medicamento a 
+crianças com idade inferior a 3 anos visto não existir informação de que é eficaz ou que é seguro 
+utilizar em crianças com menos de 3 anos. </p>
+<p>Outros medicamentos e Opatanol 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Caso esteja a utilizar outros colírios ou pomadas oftálmicas, aguarde pelo menos 5 minutos entre cada 
+medicamento. As pomadas oftálmicas devem ser administradas em último lugar. </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico ou farmacêutico antes de utilizar este medicamento. </p>
+<p>Não deve utilizar Opatanol se estiver a amamentar, consulte o seu médico antes de utilizar este 
+medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Poderá sentir uma turvação da visão durante algum tempo imediatamente após a utilização de 
+Opatanol. Não conduza nem utilize máquinas até que sinta a visão normalizada. </p>
+<p>Opatanol contém cloreto de benzalcónio </p>
+<p>Este medicamento contém 0,5 mg de cloreto de benzalcónio em cada 5 ml que é equivalente a 
+0,1 mg/ml. </p>
+<p>O conservante de Opatanol, cloreto de benzalcónio pode ser absorvido pelas lentes de contacto moles 
+e pode alterar a cor das lentes de contacto. Deve remover as lentes de contacto antes da utilização 
+deste medicamento e voltar a colocá-las 15 minutos depois. </p>
+<p>O cloreto de benzalcónio pode também causar irritação nos olhos, especialmente se tem os olhos secos 
+ou alterações da córnea (a camada transparente na parte da frente do olho). Se tiver uma sensação 
+estranha no olho, picadas ou dor no olho após utilizar este medicamento, fale com o seu médico. </p>
+<p>Opatanol contém fosfato disódico dodecahidratado </p>
+<p>Este medicamento contém 16,72 mg de fosfatos (em 63,05 mg de fosfato disódico dodecahidratado) 
+em cada frasco de 5 ml, o que é equivalente a 3,34 mg/ml. </p>
+<p>Se sofrer de lesão grave na camada transparente na parte da frente do olho (córnea), os fosfatos podem 
+causar em casos muito raros zonas nubladas na córnea devido a acumulação de cálcio durante o 
+tratamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar opatanol"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar opatanol"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é uma gota num ou em ambos os olhos, duas vezes por dia - de manhã e à 
+noite.Siga esta posologia, exceto nos casos em que o seu médico lhe dê indicações diferentes. Utilize 
+apenas o Opatanol em ambos os olhos por indicação do seu médico. Utilize-o durante o tempo 
+indicado pelo seu médico. </p>
+<p>Opatanol apenas deve ser utilizado como um colírio. </p>
+<p>VOLTE A PÁGINA PARA OBTER MAIS INFORMAÇÕES </p>
+<p>Volte agora. </p>
+<p>Como utilizar Opatanol (continuação) </p>
+<p>1 </p>
+<p>2 </p>
+<p>Quantidade a utilizar 
+ver lado 1 </p>
+<ul>
+<li>
+<p>Pegue no frasco de Opatanol e num espelho. </p>
+</li>
+<li>
+<p>Lave as mãos. </p>
+</li>
+<li>
+<p>Segure no frasco e desenrosque a tampa para a retirar. </p>
+</li>
+<li>
+<p>Se após retirar a tampa, o selo de proteção estiver solto, retire-o antes de utilizar o produto. </p>
+</li>
+<li>
+<p>Segure no frasco com o aplicador virado para baixo, entre o polegar e o dedo médio. </p>
+</li>
+<li>
+<p>Incline a cabeça para trás. Puxe para baixo a pálpebra com um dedo limpo, até se formar uma 
+‘bolsa’ entre a pálpebra e o olho. A gota deverá ser aqui colocada (figura 1). </p>
+</li>
+<li>
+<p>Coloque a extremidade do frasco perto do olho. Utilize o espelho caso sinta que este pode ser 
+útil. </p>
+</li>
+<li>
+<p>Não toque com o aplicador no olho ou na pálpebra, zonas circundantes ou outras 
+superfícies. Poderá contaminar as gotas que restam no frasco. </p>
+</li>
+<li>
+<p>Pressione suavemente a base do frasco até à saída de uma gota de Opatanol de uma só vez. </p>
+</li>
+<li>
+<p>Não aperte o frasco: este encontra-se concebido para que seja apenas necessária uma ligeira 
+pressão no fundo do frasco (figura 2). </p>
+</li>
+<li>
+<p>Caso tenha de aplicar as gotas em ambos os olhos, repita estes passos para o outro olho. </p>
+</li>
+<li>
+<p>Feche bem o frasco imediatamente após a sua utilização. </p>
+</li>
+</ul>
+<p>Caso não tenha conseguido colocar a gota no olho, tente novamente. </p>
+<p>Se utilizar mais Opatanol do que deveria 
+Poderá retirá-lo com água morna. Não aplique mais gotas até ao momento da aplicação regular da 
+dose seguinte. </p>
+<p>Caso se tenha esquecido de utilizar Opatanol 
+Aplique apenas uma única gota assim que se lembrar e, retome em seguida o seu esquema de dosagem 
+habitual. No entanto, se estiver próximo da sua dose seguinte, não aplique a dose que se tinha 
+esquecido antes de retomar o seu esquema de dosagem habitual Não aplique uma dose a dobrar para 
+compensar a dose que se esqueceu de aplicar. </p>
+<p>Se parar de utilizar Opatanol 
+Não pare de utilizar este medicamento sem falar primeiro com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, no entanto estes 
+não se manifestam em todas as pessoas. </p>
+<p>Os seguintes efeitos indesejáveis foram observados com a utilização de Opatanol: </p>
+<p>Frequentes (podem afectar até 1 em cada 10 pessoas) 
+Efeitos no olho 
+Dor no olho, irritação ocular, olho seco, sensação estranha no olho, desconforto ocular. </p>
+<p>Efeitos indesejáveis gerais 
+Dor de cabeça, cansaço, nariz seco, mau gosto na boca. </p>
+<p>Pouco frequentes (podem afectar 1 em cada 100 pessoas) 
+Efeitos no olho 
+Visão turva, reduzida ou anormal, alteração da córnea, inflamação da superfície do olho com ou sem 
+dano da superfície inflamação ou infecção da conjuntiva, olho lacrimejante, sensibilidade à luz, 
+aumento da produção de lágrimas, comichão no olho, olho vermelho, comichão ou anormalidade nas 
+pálpebras, pálpebras avermelhadas, inchadas ou com descamação. </p>
+<p>Efeitos indesejáveis gerais 
+Sensibilidade diminuída ou anormal, tonturas, corrimento nasal, pele seca, pele inflamada. </p>
+<p>Desconhecidos (a frequência não pode ser estimada a partir dos dados existentes) 
+Efeitos no olho 
+Inchaço do olho, inchaço da córnea, alteração do tamanho da pupila. </p>
+<p>Efeitos indesejáveis gerais 
+Falta de ar, aumento dos sintomas alérgicos, cara inchada, sonolência, fraqueza generalizada, náuseas, 
+vómitos, infecção dos sinos nasais, pele avermelhada e com comichão. </p>
+<p>Em casos muito raros, alguns doentes com danos severos na camada transparente na parte da frente do 
+olho (a córnea) desenvolveram manchas enevoadas na córnea devido à acumulação de cálcio durante o 
+tratamento. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar opatanol"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar opatanol"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na cartonagem após 
+"EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Para evitar infeções, deverá rejeitar o frasco 4 semanas após a sua primeira abertura e utilizar um 
+frasco novo. Escreva a data em que abriu o frasco no espaço indicado em cada rótulo e cartonagem. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos de que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Opatanol 
+- A substância activa é a olopatadina. Cada mL de solução contém 1 mg de olopatadina (como 
+hidroclorido). 
+- Os outros ingredientes são cloreto de benzalcónio, cloreto de sódio, fosfato dissódico dodeca-
+hidratado (E339), ácido clorídrico (E507) e/ou hidróxido de sódio (E524) e água purificada. </p>
+<p>Qual o aspecto de OPATANOL e conteúdo da embalagem 
+Opatanol é um líquido (uma solução) transparente e incolor, fornecido numa embalagem contendo 
+um ou três frascos de plástico de 5 ml com fechos roscados. É possível que não sejam comercializadas 
+todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Farmacéutica, S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Espanha </p>
+<p>S.A. Alcon-Couvreur N.V. 
+Rijksweg B-2870 Puurs 
+Bélgica </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nuremberga 
+Alemanha </p>
+<p>Siegfried El Masnou, S.A. 
+Camil Fabra El Masnou 
+08320 Barcelona 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas . 
+Tel: +370 5 269 16 България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775 Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 
+Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52<br />
+Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o.<br />
+Tel.: +48 22 375 4 
+France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299<br />
+Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc.<br />
+Tel: +386 1 300 75<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: + 421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 </p>
+<p>Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 
+Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -729,6 +1105,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5e88337560455eac655afab15013ce20"
 * entry[0].resource = composition-da-5e88337560455eac655afab15013ce20
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5e88337560455eac655afab15013ce20"
+* entry[=].resource = mp5e88337560455eac655afab15013ce20
+                            
+                    
+Instance: bundlepackageleaflet-pt-5e88337560455eac655afab15013ce20
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for opatanol Package Leaflet for language pt"
+Description: "ePI document Bundle for opatanol Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5e88337560455eac655afab15013ce20"
+* entry[0].resource = composition-pt-5e88337560455eac655afab15013ce20
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5e88337560455eac655afab15013ce20"
@@ -830,6 +1228,18 @@ RuleSet: 5e88337560455eac655afab15013ce20ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5e88337560455eac655afab15013ce20) // opatanol pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

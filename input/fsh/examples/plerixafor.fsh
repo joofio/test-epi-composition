@@ -522,6 +522,287 @@ Tel: +30 210 7488  </p>
 
 
 
+Instance: composition-pt-aefacad9a6795a89d3df82b1bc20e9aa
+InstanceOf: CompositionUvEpi
+Title: "Composition for plerixafor Package Leaflet"
+Description:  "Composition for plerixafor Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpaefacad9a6795a89d3df82b1bc20e9aa)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - plerixafor"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Plerixafor Accord e para que é utilizado 
+2. O que precisa de saber antes de utilizar Plerixafor Accord 
+3. Como utilizar Plerixafor Accord 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Plerixafor Accord 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é plerixafor e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é plerixafor e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Plerixafor Accord contém a substância ativa plerixafor que bloqueia uma proteína na superfície das 
+células estaminais hematopoiéticas. Esta proteína "fixa" as células estaminais hematopoiéticas à 
+medula óssea. O plerixafor melhora a libertação de células estaminais para a corrente sanguínea 
+(mobilização). As células estaminais podem depois ser colhidas por uma máquina que separa os 
+constituintes do sangue (máquina de aférese) e posteriormente congeladas e conservadas até ao seu 
+transplante. </p>
+<p>Se a mobilização for difícil, Plerixafor Accord é utilizado para ajudar a colher células estaminais 
+hematopoiéticas para a recolha, armazenamento e reintrodução (transplantação), </p>
+<ul>
+<li>
+<p>Em adultos com linfoma (um cancro dos glóbulos brancos) ou com mieloma múltiplo 
+(um cancro que afeta as células plasmáticas na medula óssea). </p>
+</li>
+<li>
+<p>Em crianças com idades entre 1 e menos de 18 anos com linfoma ou tumores sólidos. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar plerixafor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar plerixafor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Plerixafor Accord 
+- se tem alergia ao plerixafor ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Plerixafor Accord. </p>
+<p>Informe o seu médico: </p>
+<ul>
+<li>
+<p>se tem ou teve algum problema de coração. </p>
+</li>
+<li>
+<p>se tem problemas nos rins. O seu médico poderá ajustar a dose. </p>
+</li>
+<li>
+<p>se tem valores elevados de glóbulos brancos. </p>
+</li>
+<li>
+<p>se tem contagens baixas de plaquetas. </p>
+</li>
+<li>
+<p>se tem um historial de sensação de desmaio ou cabeça esvaída quando está de pé ou 
+sentado, ou se já desmaiou depois de lhe terem sido administradas injeções. </p>
+</li>
+</ul>
+<p>O seu médico poderá pedir-lhe para fazer análises regulares ao sangue para controlar a sua 
+contagem de células sanguíneas. </p>
+<p>Não é recomendada a utilização de Plerixafor Accord para mobilização de células estaminais se 
+tiver leucemia (um cancro do sangue ou da medula óssea). </p>
+<p>Outros medicamentos e Plerixafor Accord 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Gravidez e amamentação 
+Não deve utilizar Plerixafor Accord se estiver grávida, visto não haver experiência com Plerixafor 
+Accord em mulheres grávidas. É importante que informe o seu médico se estiver grávida, pensa que 
+possa estar ou se está a planear engravidar. Recomenda-se a utilização de métodos contracetivos se 
+estiver em idade fértil. </p>
+<p>Não deve amamentar se estiver a utilizar Plerixafor Accord, dado não se saber se Plerixafor Accord 
+é excretado no leite humano. </p>
+<p>Condução de veículos e utilização de máquinas 
+Plerixafor Accord pode causar tonturas e fadiga. Por conseguinte, deverá evitar conduzir se sentir 
+tonturas, se se sentir cansado ou mal disposto. </p>
+<p>Plerixafor Accord contém sódio 
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar plerixafor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar plerixafor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu medicamento será injetado por um médico ou por um enfermeiro. </p>
+<p>Irá receber primeiro G-CSF e em seguida será administrado Plerixafor Accord 
+A mobilização será iniciada administrando-lhe primeiro outro medicamento denominado G-CSF 
+(fator de estimulação das colónias de granulócitos). O G-CSF ajudará o Plerixafor Accord a 
+trabalhar adequadamente no seu organismo. Se quiser saber mais acerca do G-CSF informe-se junto 
+do seu médico e leia o folheto informativo correspondente. </p>
+<p>Que quantidade de Plerixafor Accord é administrada? 
+A dose recomendada em adultos é de 20 mg (dose fixa) ou 0,24 mg/kg peso corporal/dia. 
+A dose recomendada em crianças, de 1 a menos de 18 anos de idade é de 0,24 mg/kg de peso 
+corporal/dia. </p>
+<p>A sua dose dependerá do seu peso corporal, que deve ser determinado na semana anterior a 
+receber a sua primeira dose. Se tem problemas renais moderados ou graves, o seu médico reduzirá 
+a dose. </p>
+<p>Como é que o Plerixafor Accord é administrado? 
+Plerixafor Accord é administrado por injeção subcutânea (por baixo da pele). </p>
+<p>Quando é que o Plerixafor Accord é administrado pela primeira vez? 
+Receberá a sua primeira dose 6 a 11 horas antes da aférese (colheita das suas células estaminais 
+hematopoiéticas). </p>
+<p>Durante quanto tempo será administrado o Plerixafor Accord? 
+O tratamento dura 2 a 4 dias consecutivos (em alguns casos até 7 dias), até terem sido colhidas células </p>
+<p>estaminais suficientes para o seu transplante. Em alguns casos, poderão não ser colhidas células 
+estaminais suficientes e a tentativa de colheita será parada. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Informe imediatamente o seu médico se 
+- pouco tempo depois de receber plerixafor tiver uma erupção na pele, inchaço em redor dos 
+olhos, falta de ar ou falta de oxigénio, sentir cabeça esvaída quando está de pé ou sentado, 
+sentir-se a desmaiar ou desmaiar. 
+- tiver dores na parte superior do abdómen, do lado esquerdo (barriga) ou no ombro esquerdo. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- diarreia, náuseas (enjoos), vermelhidão ou irritação no local da injeção 
+- contagem baixa de glóbulos vermelhos por exame laboratorial (anemia em crianças) </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) 
+- dor de cabeça 
+- tonturas, sensação de cansaço ou má disposição 
+- dificuldade em adormecer 
+- gases, prisão de ventre, indigestão, vómitos 
+- sintomas no estômago como dor, inchaço ou desconforto 
+- boca seca, dormência à volta da boca 
+- transpiração, vermelhidão generalizada da pele, dores nas articulações, dores nos músculos 
+e nos ossos. </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) 
+- reações alérgicas como erupção na pele, inchaço à volta dos olhos, falta de ar 
+- reações anafiláticas, incluindo choque anafilático 
+- sonhos anormais, pesadelos </p>
+<p>Raramente, os efeitos indesejáveis gastrointestinais podem ser graves (diarreia, vómitos, dores no 
+estômago e náuseas). </p>
+<p>Ataques cardíacos 
+Em ensaios clínicos, os ataques cardíacos em doentes com fatores de risco para ataque cardíaco 
+após administração de Plerixafor Accord e G-CSF foram pouco frequentes. Informe imediatamente 
+o seu médico se sentir desconforto no peito. </p>
+<p>Formigueiro e dormência 
+É frequente os doentes a fazer terapêutica de cancro sentirem formigueiro e dormência. Cerca de 
+um em cada cinco doentes teve estas sensações. No entanto, estes efeitos não parecem ocorrer com 
+mais frequência quanto utiliza Plerixafor Accord. </p>
+<p>Nas análises sanguíneas poderá ter também um aumento na contagem dos glóbulos brancos no 
+sangue (leucocitose). </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar plerixafor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar plerixafor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo, após EXP. O prazo de 
+validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Depois de abrir o frasco para injetáveis, Plerixafor Accord deve ser utilizado imediatamente. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>informações  </p>
+<p>Qual a composição de Plerixafor Accord 
+- A substância ativa é o plerixafor. Cada ml de solução injetável contém 20 mg de plerixafor. 
+Cada frasco para injetáveis contém 24 mg de plerixafor em 1,2 ml de solução. 
+- Os outros ingredientes são cloreto de sódio, ácido clorídrico (concentrado) e hidróxido de 
+sódio e água para preparações injetáveis (ver Secção 2 “Plerixafor Accord contém sódio"). </p>
+<p>Qual o aspeto de Plerixafor Accord e conteúdo da embalagem 
+Plerixafor Accord é fornecido como uma solução límpida que varia entre incolor e amarelo 
+pálido, para injeção, num frasco para injetáveis de vidro com um fecho de borracha, um selo de 
+alumínio de destacar e uma tampa de plástico de PP azul opaco. Cada frasco para injetáveis 
+contém 1,2 ml de solução. </p>
+<p>Cada embalagem contém 1 frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Accord Healthcare S.L.U.<br />
+World Trade Center, Moll de Barcelona, s/n,<br />
+Edifici Est 6ª planta,<br />
+08039 Barcelona,<br />
+Espanha </p>
+<p>Fabricante 
+Accord Healthcare Polska Sp.z o.o. 
+ul. Lutomierska 50, 
+95-200 Pabianice, Polónia </p>
+<p>Ou 
+Laboratori Fundació Dau 
+C/ C, 12-14 Pol. Ind. 
+Zona Franca, Barcelona, 08040, 
+Espanha </p>
+<p>Ou 
+Accord Healthcare B.V. 
+Winthontlaan 200, 3526KV Utrecht 
+Países Baixos </p>
+<p>Ou 
+Pharmadox Healthcare Limited 
+KW20A Kordin Industrial Park, Paola 
+PLA 3000, Malta </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>AT / BE / BG / CY / CZ / DE / DK / EE / FI / FR / HR / HU / IE / IS / IT / LT / LV / LX / MT / NL 
+/ NO / PT / PL / RO / SE / SI / SK / UK(NI) / ES 
+Accord Healthcare S.L.U. 
+Tel: +34 93 301 00<br />
+EL 
+Win Medica Pharmaceutical S.A.<br />
+Tel: +30 210 7488  </p>
+<p>Este folheto foi revisto pela última vez em  </p>         </div>"""      
+
+
+
 
 
                     
@@ -563,6 +844,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-aefacad9a6795a89d3df82b1bc20e9aa"
 * entry[0].resource = composition-da-aefacad9a6795a89d3df82b1bc20e9aa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpaefacad9a6795a89d3df82b1bc20e9aa"
+* entry[=].resource = mpaefacad9a6795a89d3df82b1bc20e9aa
+                            
+                    
+Instance: bundlepackageleaflet-pt-aefacad9a6795a89d3df82b1bc20e9aa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for plerixafor Package Leaflet for language pt"
+Description: "ePI document Bundle for plerixafor Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-aefacad9a6795a89d3df82b1bc20e9aa"
+* entry[0].resource = composition-pt-aefacad9a6795a89d3df82b1bc20e9aa
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpaefacad9a6795a89d3df82b1bc20e9aa"
@@ -664,6 +967,18 @@ RuleSet: aefacad9a6795a89d3df82b1bc20e9aaListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-aefacad9a6795a89d3df82b1bc20e9aa) // plerixafor pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

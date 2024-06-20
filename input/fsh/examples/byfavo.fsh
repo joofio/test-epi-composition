@@ -762,6 +762,315 @@ nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-288b5bf92457cec46266040e05fc3d90
+InstanceOf: CompositionUvEpi
+Title: "Composition for byfavo Package Leaflet"
+Description:  "Composition for byfavo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp288b5bf92457cec46266040e05fc3d90)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - byfavo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Byfavo e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Byfavo </li>
+<li>Como é administrado Byfavo </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como é conservado Byfavo </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é byfavo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é byfavo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Byfavo é um medicamento que contém a substância ativa remimazolam. 
+O remimazolam pertence a um grupo de substâncias conhecidas como benzodiazepinas. </p>
+<p>Byfavo é um sedativo administrado antes de um exame ou procedimento médico para o fazer sentir-se 
+relaxado e sonolento (sedado). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar byfavo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar byfavo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não deve ser-lhe administrado Byfavo se: 
+- tem alergia ao remimazolam ou a outras benzodiazepinas (como o midazolam) ou a qualquer 
+outro componente deste medicamento (indicados na secção 6). 
+- tem uma forma instável de uma doença chamada miastenia gravis (fraqueza muscular) na qual os 
+seus músculos torácicos, que o ajudam a respirar, ficam fracos </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou enfermeiro antes de utilizar Byfavo se tiver uma patologia ou doença grave 
+e, em particular, se: 
+- tem a tensão arterial muito baixa ou muito alta ou tende a desmaiar 
+- tem problemas de coração, especialmente uma frequência cardíaca muito lenta e/ou irregular 
+(arritmia) 
+- tem problemas respiratórios, incluindo falta de ar 
+- tem problemas de fígado graves. 
+- tem uma doença chamada miastenia gravis na qual os seus músculos estão fracos 
+- toma regularmente drogas recreativas ou já teve problemas com o uso de drogas no passado </p>
+<p>Byfavo pode causar perda de memória temporária. O seu médico irá avaliá-lo antes de sair do hospital 
+ou da clínica e dar-lhe-á os conselhos necessários. </p>
+<p>Crianças e adolescentes 
+Byfavo não deve ser administrado a doentes com menos de 18 anos, uma vez que não foi testado em 
+crianças e adolescentes. </p>
+<p>Outros medicamentos e Byfavo 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos, em particular sobre: 
+- opioides (incluindo analgésicos como a morfina, o fentanilo e a codeína ou certos medicamentos 
+para a tosse ou medicamentos para utilização em terapêutica de substituição de fármacos) 
+- antipsicóticos (medicamentos para tratar certas doenças psiquiátricas) 
+- ansiolíticos (tranquilizantes ou medicamentos que reduzem a ansiedade) 
+- medicamentos que causam sedação (por ex., temazepam ou diazepam) 
+- antidepressivos (medicamentos para tratar a depressão) 
+- certos anti-histamínicos (medicamentos para tratar alergias) 
+- certos anti-hipertensores (medicamentos para tratar a tensão arterial elevada) </p>
+<p>É importante informar o seu médico ou enfermeiro se estiver a tomar outros medicamentos, uma vez 
+que utilizar mais do que um ao mesmo tempo pode alterar o efeito dos medicamentos envolvidos. </p>
+<p>Byfavo e álcool 
+O álcool pode alterar o efeito de Byfavo. Informe o seu médico ou enfermeiro: 
+- sobre a quantidade de álcool que consome regularmente ou se teve problemas com o consumo de 
+álcool. </p>
+<p>Não beba álcool durante 24 horas antes de lhe ser administrado Byfavo. </p>
+<p>Gravidez e amamentação 
+Não deve utilizar Byfavo se estiver grávida ou se pensa estar grávida. Informe o seu médico ou 
+enfermeiro se está grávida ou pensa que pode estar grávida. 
+Se está a amamentar, não amamente durante 24 horas após lhe ser administrado este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Byfavo deixa-o sonolento, esquecido e afeta a sua capacidade de concentração. Apesar de estes efeitos 
+desaparecerem rapidamente, não deve conduzir nem utilizar máquinas até que estes efeitos 
+desapareçam completamente. Pergunte ao seu médico quando poderá conduzir ou operar máquinas de 
+novo. </p>
+<p>Byfavo contém dextrano 40 para injetáveis 
+Este medicamento contém 79,13 mg de dextrano 40 para injetáveis em cada frasco. Raramente, os 
+dextranos podem causar reações alérgicas graves. Se tiver dificuldade em respirar ou inchaço ou se 
+sente que vai desmaiar, procure ajuda médica imediatamente. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar byfavo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar byfavo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu médico decidirá qual a dose certa para si. </p>
+<p>A sua respiração, frequência cardíaca e tensão arterial serão monitorizadas durante o procedimento, e 
+o médico ajustará a dose, se necessário. </p>
+<p>Um médico ou enfermeiro administrar-lhe-á Byfavo por injeção na veia (corrente sanguínea) antes e 
+durante o seu exame ou procedimento médico. Byfavo é misturado com soro fisiológico esterilizado 
+para preparação de uma solução antes de ser utilizado. </p>
+<p>Após o procedimento 
+O seu médico ou enfermeiro irá examiná-lo durante algum tempo após a sedação para se certificar de 
+que se sente bem e que está apto para ir para casa. </p>
+<p>Se lhe for administrado demasiado Byfavo 
+Se lhe for administrado demasiado Byfavo, pode apresentar os seguintes sintomas: 
+- pode sentir tonturas 
+- pode ficar confuso 
+- pode sentir-se sonolento 
+- a sua visão pode ficar turva ou pode ter movimentos involuntários dos olhos (olhos dançantes) 
+- pode ficar agitado 
+- pode sentir-se fraco 
+- a sua tensão arterial pode baixar 
+- o seu batimento cardíaco pode diminuir 
+- sua respiração pode ficar lenta e superficial 
+- pode perder a consciência </p>
+<p>O seu médico saberá como tratá-lo. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 utilizadores) 
+- Tensão arterial baixa 
+- Respiração anormalmente lenta ou superficial (e baixo nível de oxigénio no sangue) </p>
+<p>Frequentes (podem afetar até 1 em cada 10 utilizadores) 
+- Dores de cabeça 
+- Sensação de tonturas 
+- Frequência cardíaca baixa 
+- Sensação de mal-estar (náuseas) 
+- Enjoos (vómitos) </p>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 utilizadores) 
+- Sonolência 
+- Sensação de frio 
+- Arrepios 
+- Soluços </p>
+<p>Desconhecida (não é possível calcular a frequência a partir dos dados disponíveis) 
+- Reação alérgica súbita, grave </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar byfavo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar byfavo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Os profissionais do hospital ou da clínica são responsáveis pela conservação deste medicamento. </p>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e frasco para injetáveis. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Foi demonstrada estabilidade química e física de utilização durante 24 horas entre 20°C e 25°C. </p>
+<p>Do ponto de vista microbiológico, a menos que o método de abertura/reconstituição/diluição exclua o 
+risco de contaminação microbiana, o medicamento deve ser utilizado imediatamente. Caso não seja 
+imediatamente utilizado, os tempos e condições de conservação em utilização são da responsabilidade 
+do utilizador (ver secção 6.3 do RCM). </p>
+<p>Não utilize este medicamento se verificar partículas visíveis ou descoloração. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Byfavo 
+- A substância ativa é o remimazolam. Cada frasco para injetáveis contém besilato de 
+remimazolam equivalente a 20 mg de remimazolam. Após reconstituição, cada ml contém 2,5 mg 
+de remimazolam. 
+- Os outros componentes são: 
+- Dextrano 40 para injetáveis 
+- Lactose mono-hidratada 
+- Ácido clorídrico 
+- Hidróxido de sódio 
+Ver secção 2, “Byfavo contém dextrano 40 para injetáveis". </p>
+<p>Qual o aspeto de Byfavo e conteúdo da embalagem 
+Byfavo é um pó branco a esbranquiçado para solução injetável. </p>
+<p>Apresentações 
+Embalagem com 10 frascos para injetáveis </p>
+<p>Titular da Autorização de Introdução no Mercado 
+PAION Deutschland GmbH<br />
+Heussstraße 52078 Aachen <br />
+Alemanha </p>
+<p>Fabricante 
+PAION Deutschland GmbH<br />
+Heussstraße 52078 Aachen <br />
+Alemanha </p>
+<p>PAION Pharma GmbH 
+Heussstraße 52078 Aachen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Viatris<br />
+Tél/Tel: + 32 (0)2 658 61 Lietuva<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4България 
+PAION Deutschland GmbH<br />
+Teл.: + 49 800 4453 4Luxembourg/Luxemburg<br />
+PAION Deutschland GmbH<br />
+Tél/Tel: + 49 800 4453 4Česká republika 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Magyarország<br />
+PAION Deutschland GmbH<br />
+Tel.: + 49 800 4453 4Danmark<br />
+PAION Deutschland GmbH<br />
+Tlf: + 49 800 4453 4Malta 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Deutschland 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Nederland 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Eesti 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Norge 
+PAION Deutschland GmbH<br />
+Tlf: + 49 800 4453 4Ελλάδα 
+Viatris Hellas Ltd 
+Τηλ: +30 210 0100Österreich 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4España 
+Viatris Pharmaceuticals, S.L. 
+Tel: + 34 900 102 Polska 
+Viatris Healthcare Sp. z o.o. 
+Tel.: + 48 22 546 64 France 
+Viatris Santé 
+Tél: +33 4 37 25 75 Portugal 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Hrvatska<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4România 
+BGP Products SRL 
+Tel: +40 372 579 Ireland<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Slovenija 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Ísland 
+PAION Deutschland GmbH<br />
+Sími: + 49 800 4453 4453<br />
+Slovenská republika<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Italia 
+Viatris Italia S.r.l. 
+Tel: + 39 02 612 46Suomi/Finland 
+PAION Deutschland GmbH<br />
+Puh/Tel: + 49 800 4453 4Κύπρος<br />
+PAION Deutschland GmbH<br />
+Τηλ: + 49 800 4453 4Sverige 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Latvija<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4United Kingdom (Northern Ireland) 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4 
+Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -803,6 +1112,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-288b5bf92457cec46266040e05fc3d90"
 * entry[0].resource = composition-da-288b5bf92457cec46266040e05fc3d90
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp288b5bf92457cec46266040e05fc3d90"
+* entry[=].resource = mp288b5bf92457cec46266040e05fc3d90
+                            
+                    
+Instance: bundlepackageleaflet-pt-288b5bf92457cec46266040e05fc3d90
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for byfavo Package Leaflet for language pt"
+Description: "ePI document Bundle for byfavo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-288b5bf92457cec46266040e05fc3d90"
+* entry[0].resource = composition-pt-288b5bf92457cec46266040e05fc3d90
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp288b5bf92457cec46266040e05fc3d90"
@@ -904,6 +1235,18 @@ RuleSet: 288b5bf92457cec46266040e05fc3d90ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-288b5bf92457cec46266040e05fc3d90) // byfavo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

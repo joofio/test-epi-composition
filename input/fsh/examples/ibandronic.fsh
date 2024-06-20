@@ -854,6 +854,473 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-3b1ab70efa7458a20495ebc38b1c3fc7
+InstanceOf: CompositionUvEpi
+Title: "Composition for ibandronic Package Leaflet"
+Description:  "Composition for ibandronic Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3b1ab70efa7458a20495ebc38b1c3fc7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ibandronic"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Ácido Ibandrónico Teva e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Ácido Ibandrónico Teva </li>
+<li>Como tomar Ácido Ibandrónico Teva </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Ácido Ibandrónico Teva </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ibandronic e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ibandronic e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ácido Ibandrónico Teva contém a substância ativa ácido ibandrónico. Este pertence a um grupo de 
+medicamentos designados por bifosfonatos. </p>
+<p>Ácido Ibandrónico Teva é utilizado em adultos e é-lhe prescrito se tiver cancro da mama que se 
+espalhou para os seus ossos (designadas “metástases" ósseas). </p>
+<ul>
+<li>
+<p>Ajuda a evitar que os seus ossos se partam (fraturas). </p>
+</li>
+<li>
+<p>Ajuda a prevenir outros problemas dos ossos, que podem requerer cirurgia ou radioterapia. </p>
+</li>
+</ul>
+<p>Ácido Ibandrónico Teva atua diminuindo a quantidade de cálcio que os seus ossos perdem. Isto ajuda 
+a evitar que os seus ossos fiquem mais fracos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ibandronic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ibandronic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Ácido Ibandrónico Teva 
+- se tem alergia ao ácido ibandrónico ou a qualquer outro componente deste medicamento 
+(indicados na secção 6) 
+-<br />
+se tem certos problemas com o seu tubo alimentar (esófago) tais como estreitamento ou 
+dificuldade em engolir; 
+- se não consegue manter-se em posição vertical ou sentada durante pelo menos 60 minutos; 
+- se tem, ou alguma vez teve, baixo nível de cálcio no sangue. </p>
+<p>Não tome este medicamento se alguma das situações acima se aplicar a si. Se não tiver a certeza, fale 
+com o seu médico ou farmacêutico antes de tomar Ácido Ibandrónico Teva. </p>
+<p>Advertências e precauções<br />
+Na fase pós-comercialização, tem sido comunicado muito raramente um efeito secundário chamado 
+osteonecrose da mandíbula (ONM) (lesão do osso do maxilar) em doentes que receberam Ácido 
+Ibandrónico Teva para condições relacionadas com cancro. A ONM também pode ocorrer após a 
+interrupção do tratamento. </p>
+<p>É importante tentar prevenir o desenvolvimento da ONM, pois é uma condição dolorosa que pode ser 
+difícil de tratar. De forma a reduzir o risco de desenvolver osteonecrose da mandíbula, existem 
+algumas precauções que deve tomar. </p>
+<p>Antes de iniciar o tratamento, informe o seu médico/enfermeiro (profissional de saúde) se: 
+- tiver quaisquer problemas na boca ou dentes como fraca saúde dentária, doença nas gengivas, 
+ou uma extração de dente planeada 
+- não consulta regularmente o dentista ou se não faz uma revisão dentária há muito tempo 
+- é fumador (pois isso pode aumentar o risco de problemas dentários) 
+- tiver sido previamente tratado com um bifosfonato (usado para tratar ou prevenir doenças 
+ósseas) 
+- está a tomar medicamentos chamados corticosteroides (como a prednisolona ou dexametasona) 
+- tem cancro </p>
+<p>O seu médico pode pedir-lhe para fazer um exame dentário antes de iniciar o tratamento com Ácido 
+Ibandrónico Teva. </p>
+<p>Durante o tratamento, deve manter uma boa higiene oral (incluindo escovagem regular dos dentes) e 
+fazer exames dentários de rotina. Caso utilize próteses dentárias deve certificar-se que encaixam 
+corretamente. Se estiver sob tratamento dentário ou estiver para ser submetido a cirurgia dentária (por 
+exemplo, extrações de dentes), informe o seu médico sobre o seu tratamento dentário e informe o seu 
+dentista que está a ser tratado com Ácido Ibandrónico Teva. </p>
+<p>Contacte o seu médico e dentista imediatamente se tiver algum problema com a sua boca ou dentes, 
+como dentes soltos, dor ou inchaço, ou não cicatrização de feridas ou secreção, uma vez que estes 
+podem ser sinais de osteonecrose da mandíbula. </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Ácido Ibandrónico Teva 
+- se tiver alergia  a quaisquer outros bifosfonatos 
+- se tiver quaisquer problemas em engolir ou digestivos. 
+- se tiver níveis elevados ou baixos de vitamina D ou de quaisquer outros minerais 
+- se tiver problemas de rins. </p>
+<p>Pode ocorrer irritação, inflamação ou formação de úlceras no esófago, por vezes com sintomas de dor 
+intensa no peito, dor intensa após a ingestão de alimentos e/ou bebidas, náuseas intensas ou vómitos, 
+especialmente se não beber um copo cheio de água e/ou se se deitar na hora seguinte à toma de Ácido 
+Ibandrónico Teva. Caso desenvolva estes sintomas, pare de tomar Ácido Ibandrónico Teva e informe o 
+seu médico imediatamente (ver secções 3 e 4). </p>
+<p>Crianças e adolescentes 
+Ácido Ibandrónico Teva não deve ser utilizado em crianças e adolescentes com idade inferior a anos. </p>
+<p>Outros medicamentos e Ácido Ibandrónico Teva 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto porque Ácido Ibandrónico Teva pode afetar o modo como alguns 
+medicamentos funcionam. Além disso, alguns medicamentos podem afetar o modo como Ácido 
+Ibandrónico Teva funciona. </p>
+<p>Em particular, informe o seu médico ou farmacêutico se estiver a tomar algum dos seguintes 
+medicamentos: 
+-<br />
+suplementos contendo cálcio, magnésio, ferro ou alumínio 
+-<br />
+ácido acetilsalicílico e anti-inflamatórios não esteroides chamados "AINE", tais como 
+ibuprofeno ou naproxeno. Isso ocorre porque os AINE e o ácido ibandrónico Teva podem 
+ambos irritar o estômago e intestino 
+-<br />
+um tipo de injeção de antibiótico chamado "aminoglicosido", como a gentamicina. Isso ocorre 
+porque os aminoglicosídeos e o ácido ibandrónico Teva podem ambos diminuir a quantidade de 
+cálcio no sangue. </p>
+<p>Tomar medicamentos que reduzem o ácido no estômago, como cimetidina e ranitidina, pode 
+aumentar ligeiramente os efeitos do Ácido Ibandrónico Teva. </p>
+<p>Ácido Ibandrónico Teva com alimentos e bebidas 
+Não tome Ácido Ibandrónico Teva com alimentos ou quaisquer outras bebidas exceto água dado que o 
+Ácido Ibandrónico Teva é menos eficaz se for tomado com alimentos ou bebidas (ver secção 3).  </p>
+<p>Tome Ácido Ibandrónico Teva pelo menos 6 horas após ter comido ou bebido alguma coisa ou ter 
+tomado quaisquer medicamentos ou suplementos (por exemplo, produtos que contenham cálcio (leite), 
+alumínio, magnésio e ferro) exceto água. Após tomar o seu comprimido, espere pelo menos 
+30 minutos. Em seguida, pode ingerir os seus primeiros alimentos ou bebidas e tomar quaisquer 
+medicamentos ou suplementos (ver secção 3). </p>
+<p>Gravidez e amamentação 
+Não tome Ácido Ibandrónico Teva se estiver grávida, a planear engravidar ou a amamentar. 
+Consulte o seu médico ou farmacêutico antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+ Pode conduzir e utilizar máquinas dado que se prevê que os efeitos de Ácido Ibandrónico Teva sobre 
+a capacidade de conduzir ou utilizar máquinas são nulos ou desprezíveis. Se quiser conduzir, utilizar 
+máquinas ou ferramentas, fale primeiro com o seu médico. </p>
+<p>Ácido Ibandrónico Teva contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido revestido por 
+película, ou seja, é praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ibandronic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ibandronic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver duvidas. </p>
+<p>Tome o seu comprimido pelo menos 6 horas após ter comido ou bebido qualquer coisa ou tomado 
+quaisquer outros medicamentos ou suplementos exceto água. Não deve ser utilizada água com uma 
+elevada concentração de cálcio. Caso exista preocupação relativamente a possíveis níveis elevados de 
+cálcio na água da torneira (água dura), é aconselhado utilizar água engarrafada com um teor mineral 
+reduzido. 
+O seu médico poder-lhe-á fazer exames de sangue regularmente enquanto estiver a tomar ácido 
+ibandrónico Teva. Isto é para verificar que está a ser dada a quantidade certa de medicamento. </p>
+<p>Tomar o medicamento 
+É importante que tome o Ácido Ibandrónico Teva, na hora certa e da maneira certa. Isso porque pode 
+causar inflamação, irritação ou úlceras no seu tubo digestivo (esófago). </p>
+<h2>Pode ajudar a impedir que isto aconteça, fazendo o seguinte:</h2>
+<p>Tome o comprimido logo que se levantar para o dia antes de tomar o seu primeiro alimento,<br />
+bebida, qualquer medicamento ou suplementos. 
+-<br />
+Tome o comprimido com um copo cheio de água (aproximadamente 200 ml). Não tome<br />
+o comprimido com qualquer outra bebida, apenas água. 
+-<br />
+Engula o comprimido inteiro. Não mastigar, sugar ou esmagar o comprimido. Não deixe que o<br />
+comprimido se dissolva na boca. 
+-<br />
+Depois de tomar o comprimido, espere pelo menos 30 minutos. Então pode tomar o seu<br />
+primeiro alimento e bebida, e tomar quaisquer medicamentos ou suplementos. 
+-<br />
+Fique na posição vertical (sentado ou em pé), enquanto tomar o comprimido e durante a<br />
+próxima hora (60 minutos). Caso contrário, parte do medicamento poderia retornar ao seu<br />
+tubo digestivo (esófago). </p>
+<p>Que quantidade tomar 
+A dose habitual de Ácido Ibandrónico Teva é um comprimido por dia. Se tiver problemas renais 
+moderados, o médico pode reduzir a dose para um comprimido dia sim dia não. Se tiver problemas 
+renais graves, seu médico pode reduzir a dose para um comprimido por semana. </p>
+<p>Se tomar mais Ácido Ibandrónico Teva do que deveria 
+Se, por engano tomar mais comprimidos do que deveria, fale com um médico ou dirija-se a um 
+hospital imediatamente. Beba um copo cheio de leite antes de ir. Não force a doença. Não se deite. </p>
+<p>Caso se tenha esquecido de tomar Ácido Ibandrónico Teva 
+Não tome uma dose a dobrar para compensar a dose que se esqueceu de tomar. Se estiver a tomar um 
+comprimido por dia, salte a dose esquecida completamente. Em seguida, proceder como de costume, 
+no dia seguinte. Se estiver a tomar um comprimido todos os dias ou uma vez por semana, pergunte ao 
+seu médico ou farmacêutico. </p>
+<p>Se parar de tomar Ácido Ibandrónico Teva 
+Continue a tomar ácido ibandrónico Teva durante o tempo que o médico lhe disser. Isto porque o 
+medicamento só vai fazer efeito se for tomado sempre. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.  </p>
+<p>Fale com um enfermeiro ou um médico imediatamente se detetar algum dos seguintes efeitos 
+indesejáveis graves, podendo necessitar de tratamento médico urgente:  </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>má disposição, azia e desconforto ao engolir (inflamação do seu esófago) </li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>dor de estômago grave. Isto pode ser um sinal de uma úlcera na primeira secção do intestino 
+(duodeno) que esteja a sangrar ou que o estômago está inflamado (gastrite) </li>
+</ul>
+<p>Raros (podem afetar até 1 em 1.000 pessoas): </p>
+<ul>
+<li>
+<p>dor e inflamação ocular persistentes </p>
+</li>
+<li>
+<p>dor recente, fraqueza ou desconforto na coxa, anca ou virilha. Pode apresentar sinais precoces 
+de uma possível fratura não habitual do osso da coxa. </p>
+</li>
+</ul>
+<p>Muito raros (podem afetar até 1 em 10.000 pessoas): </p>
+<ul>
+<li>
+<p>dor ou irritação na boca ou maxilar. Pode apresentar sinais precoces de problemas graves no 
+maxilar (necrose [morte do tecido ósseo] no osso maxilar. </p>
+</li>
+<li>
+<p>fale com o seu médico se tiver dor de ouvido, corrimento do ouvido e/ou uma infeção do 
+ouvido. Estes podem ser sinais de lesões ósseas no ouvido. </p>
+</li>
+<li>
+<p>comichão, inchaço da face, lábios, língua e garganta, com dificuldades em respirar. Pode estar a 
+ter uma reação alérgica grave, potencialmente fatal. </p>
+</li>
+<li>
+<p>reações adversas na pele graves. </p>
+</li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>ataque de asma </li>
+</ul>
+<p>Outros efeitos indesejáveis possíveis </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>dores de estômago, indigestão </p>
+</li>
+<li>
+<p>níveis reduzidos de cálcio no sangue </p>
+</li>
+<li>
+<p>fraqueza. </p>
+</li>
+</ul>
+<h2>Pouco frequentes (podem afetar menos de 1 em cada 100 pessoas):</h2>
+<h2>dor no peito</h2>
+<h2>comichão ou formigueiro (parestesia) na pele</h2>
+<h2>sintomas do tipo gripal, mal-estar ou dor geral</h2>
+<h2>boca seca, gosto estranho na boca, ou dificuldade em engolir</h2>
+<h2>anemia (falta de sangue)</h2>
+<p>níveis elevados de ureia ou níveis séricos elevados de hormona da paratormona no sangue  </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ibandronic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ibandronic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem, após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado.  </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ácido Ibandrónico Teva </p>
+<ul>
+<li>
+<p>A substância ativa é o ácido ibandrónico.  </p>
+</li>
+<li>
+<p>Cada comprimido revestido por película contém 50 mg de ácido ibandrónico (sob a forma 
+sódica monohidratada). </p>
+</li>
+<li>Os outros componentes são:<br />
+•núcleo do comprimido: celulose microcristalina, povidona K-30, crospovidona (tipo A), sílica 
+coloidal anidra, ácido esteárico 
+•revestimento do comprimido: dióxido de titânio (E171), hipromelose, macrogol 400, polissorbato 80.<br />
+Qual o aspeto de Ácido Ibandrónico Teva e conteúdo da embalagem 
+Os comprimidos revestidos por película do Ácido Ibandrónico Teva 50 mg são brancos, biconvexos, 
+em forma de cápsula, com a inscrição de “50" num lado e planos do outro. </li>
+</ul>
+<p>O Ácido Ibandrónico Teva apresenta-se em blisters (PVC/Aclar/PVC-Aluminio) em embalagens de ou 84 comprimidos. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Teva B.V. 
+Swensweg 5 
+2031 GA Haarlem<br />
+Países Baixos </p>
+<p>Fabricante 
+Teva Pharmaceutical Works Private Limited Company 
+Pallagi út 13,<br />
+4042 Debrecen 
+Hungria </p>
+<p>Pharmachemie B.V. 
+Swensweg 5,<br />
+2031 GA Haarlem 
+Países Baixos </p>
+<p>Teva Czech Industries s.r.o 
+Ostravska 29/305,<br />
+747 70 Opava-Komarov 
+Républica Checa </p>
+<p>Teva Operations Poland Sp.z o.o 
+ul. Mogilska 31-546 Krakow 
+Polónia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Teл: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+Specifar A.B.E.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+Specifar A.B.E.E. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA} </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -895,6 +1362,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-3b1ab70efa7458a20495ebc38b1c3fc7"
 * entry[0].resource = composition-da-3b1ab70efa7458a20495ebc38b1c3fc7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3b1ab70efa7458a20495ebc38b1c3fc7"
+* entry[=].resource = mp3b1ab70efa7458a20495ebc38b1c3fc7
+                            
+                    
+Instance: bundlepackageleaflet-pt-3b1ab70efa7458a20495ebc38b1c3fc7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ibandronic Package Leaflet for language pt"
+Description: "ePI document Bundle for ibandronic Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-3b1ab70efa7458a20495ebc38b1c3fc7"
+* entry[0].resource = composition-pt-3b1ab70efa7458a20495ebc38b1c3fc7
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp3b1ab70efa7458a20495ebc38b1c3fc7"
@@ -996,6 +1485,18 @@ RuleSet: 3b1ab70efa7458a20495ebc38b1c3fc7ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-3b1ab70efa7458a20495ebc38b1c3fc7) // ibandronic pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

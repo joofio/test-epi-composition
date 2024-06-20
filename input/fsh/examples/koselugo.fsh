@@ -862,6 +862,501 @@ hjemmeside http://www.ema.europa.eu</p>         </div>"""
 
 
 
+Instance: composition-pt-4a0e2349adfb2620b1fba9cd50d81a0a
+InstanceOf: CompositionUvEpi
+Title: "Composition for koselugo Package Leaflet"
+Description:  "Composition for koselugo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4a0e2349adfb2620b1fba9cd50d81a0a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - koselugo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Koselugo e para que é utilizado
+2. O que precisa de saber antes de tomar Koselugo
+3. Como tomar Koselugo
+4. Efeitos indesejáveis possíveis
+5. Como conservar Koselugo
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é koselugo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é koselugo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Koselugo e como funciona
+Koselugo contém a substância ativa selumetinib.
+Selumetinib é um tipo de medicamento chamado inibidor de MEK. Atua bloqueando certas proteínas 
+envolvidas no crescimento de células tumorais.
+Espera-se que Koselugo reduza os tumores que crescem ao longo dos nervos, chamados
+neurofibromas plexiformes.
+Estes tumores são causados por uma doença genética denominada neurofibromatose tipo 1 (NF1).
+Para que é utilizado Koselugo
+Koselugo é utilizado para tratar crianças com idade igual ou superior a 3 anos com neurofibromas 
+plexiformes que não podem ser totalmente removidos através de cirurgia.
+Caso tenha dúvidas sobre a forma como Koselugo atua ou porque razão lhe foi prescrito este 
+medicamento, fale com o seu médico.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar koselugo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar koselugo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Koselugo:
+
+se tem alergia ao selumetinib ou a qualquer outro componente deste medicamento (indicados 
+na secção 6)
+
+se tem doença grave no fígado
+35
+Caso tenha dúvidas, fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Koselugo.
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes e durante o seu tratamento com Koselugo:
+
+se tem problemas oculares
+
+se tem problemas de coração
+
+se tem problemas no fígado
+
+se toma suplementos que contêm vitamina E
+
+se não conseguir engolir a cápsula inteira
+Se alguma das situações acimas se aplicar no seu caso (ou tiver dúvidas) fale com o seu médico, 
+farmacêutico ou enfermeiro antes de tomar este medicamento.
+Problemas oculares
+Koselugo pode causar problemas oculares (ver secção 4 “Efeitos indesejáveis possíveis"). Fale com o 
+seu médico imediatamente se sentir visão turva ou quaisquer outras alterações na visão durante o 
+tratamento. O seu médico deverá examinar os seus olhos, se tiver algum problema novo ou 
+agravamento da sua visão enquanto estiver a tomar este medicamento.
+Problemas de coração
+Koselugo pode diminuir a quantidade de sangue bombeado pelo seu coração (ver secção 4 “Efeitos 
+indesejáveis possíveis"). O seu médico irá verificar o funcionamento do seu coração antes e durante o 
+seu tratamento com Koselugo.
+Problemas no fígado
+Koselugo pode aumentar a quantidade de algumas enzimas do fígado no seu sangue (ver secção 4 
+“Efeitos indesejáveis possíveis"). O seu médico irá fazer análises ao sangue antes e durante o 
+tratamento para verificar o funcionamento do seu fígado.
+Suplementos de vitamina E
+As cápsulas de Koselugo contêm vitamina E, que pode aumentar o risco de hemorragia. Isto significa 
+que deve informar o seu médico se está a tomar outros medicamentos que aumentam o risco de 
+hemorragia, como:
+
+ácido acetilsalicílico (também conhecido como aspirina) para dor e inflamação
+
+medicamentos anticoagulantes (diluentes de sangue) como varfarina ou outros medicamentos 
+utilizados para prevenir coágulos sanguíneos
+
+suplementos que podem aumentar o risco de hemorragia, como a vitamina E
+Dificuldade em engolir as cápsulas
+Fale com o seu médico se achar que pode ter dificuldades em engolir as cápsulas inteiras (ver secção 3 
+“Como tomar Koselugo").
+Problemas na pele, unhas e cabelo
+Koselugo pode causar erupção na pele, infeção das unhas, queda de cabelo ou alterações da cor do 
+cabelo (ver secção 4 “Efeitos indesejáveis possíveis"). Informe o seu médico se algum destes sintomas 
+o incomodar durante o tratamento.
+Crianças com menos de 3 anos de idade
+Não administre Koselugo a crianças com menos de 3 anos de idade. Isto porque este medicamento não 
+foi estudado neste grupo etário.
+Outros medicamentos e Koselugo
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Estes incluem medicamentos à base de plantas, suplementos e 
+medicamentos obtidos sem receita médica.
+36
+Koselugo pode afetar o modo como alguns medicamentos atuam. Igualmente, alguns medicamentos 
+podem afetar a forma como Koselugo atua. Informe o seu médico se está a tomar qualquer um dos 
+seguintes medicamentos:
+
+claritromicina ou eritromicina (utilizados para tratar infeções bacterianas)
+
+carbamazepina ou fenitoína (utilizados para tratar convulsões e epilepsia)
+
+digoxina (utilizado para tratar a insuficiência cardíaca)
+
+fexofenadina (utilizado para tratar sintomas de alergia)
+
+fluconazol ou itraconazol (utilizados para tratar infeções fúngicas)
+
+cetoconazol (utilizado para tratar o síndrome de Cushing)
+
+furosemida (utilizado para tratar a retenção de líquidos aumentando a quantidade de urina)
+
+metotrexato (utilizado para tratar alguns tipos de cancro, psoríase ou artrite reumatoide)
+
+omeprazol (utilizado para tratar o refluxo ácido ou úlcera de estômago)
+
+rifampicina (utilizado para tratar a tuberculose (TB) e algumas infeções bacterianas)
+
+Erva de São João (Hypericum perforatum), um medicamento à base de plantas (utilizado para 
+tratar a depressão ligeira e outros quadros clínicos)
+
+ticlopidina (utilizado para prevenir coágulos sanguíneos)
+Informe o seu médico ou farmacêutico se estiver a tomar ou tiver tomado recentemente qualquer um 
+dos medicamentos acima ou quaisquer outros medicamentos, mesmo os medicamentos que não são 
+receitados.
+Koselugo com alimentos e bebidas
+Não beba sumo de toranja enquanto estiver a tomar Koselugo, isto porque pode afetar a forma como o 
+medicamento atua.
+Gravidez - informação para as mulheres
+Koselugo não é recomendado durante a gravidez. Pode provocar danos ao feto.
+Se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de tomar este medicamento. 
+O médico pode pedir-lhe que faça um teste de gravidez antes de iniciar o tratamento.
+Não deve ficar grávida enquanto tomar este medicamento. Se puder vir a engravidar, tem de utilizar 
+métodos contracetivos eficazes. Ver “Contraceção - informação para mulheres e homens" abaixo.
+Se ficar grávida durante o tratamento, informe imediatamente o seu médico.
+Gravidez - informação para os homens
+Se a sua parceira engravidar enquanto toma este medicamento, deverá informar o seu médico 
+imediatamente.
+Contraceção - informação para mulheres e homens
+Se tem uma vida sexualmente ativa e está em idade fértil, deve utilizar métodos contracetivos eficazes 
+enquanto toma este medicamento e pelo menos durante 1 semana depois de tomar a última dose.
+Desconhece-se se Koselugo pode interferir no modo como os contracetivos hormonais funcionam. Por 
+favor, informe o seu médico se estiver a tomar um contracetivo hormonal, pois o seu médico pode 
+recomendar a adição de um método não hormonal de controlo da natalidade.
+Amamentação
+Não amamente se está a tomar Koselugo. Desconhece-se se Koselugo passa para o leite materno.
+Condução de veículos e utilização de máquinas
+Koselugo pode causar efeitos indesejáveis que afetam a sua capacidade para conduzir ou utilizar 
+máquinas. Não conduza nem utilize máquinas se se sentir cansado ou se tiver problemas de visão 
+(como visão turva).
+37</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar koselugo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar koselugo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome sempre este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale 
+com o seu médico ou farmacêutico se tiver dúvidas.
+Quantidade a tomar
+O seu médico irá determinar a dose correta para si com base na sua altura e peso corporal. O seu 
+médico irá dizer-lhe quantas cápsulas de Koselugo deve tomar.
+O seu médico pode prescrever uma dose mais baixa se tem problemas no seu fígado (compromisso
+hepático).
+O seu médico pode reduzir a sua dose se tem certos efeitos indesejáveis enquanto estiver a tomar
+Koselugo (ver secção 4 “Efeitos indesejáveis possíveis") ou o médico pode interromper o tratamento, 
+ou pará-lo de forma permanente.
+Como tomar Koselugo
+
+Tome Koselugo duas vezes ao dia, com cerca de 12 horas de intervalo, com ou sem alimentos.
+
+Engula as cápsulas inteiras com água.
+
+Não mastigue, dissolva ou abra as cápsulas.
+
+Se tem ou pensa que pode ter dificuldade em engolir as cápsulas inteiras, fale com o seu médico 
+antes de iniciar o tratamento.
+Se vomitar
+Se vomitar em qualquer altura depois de tomar Koselugo, não tome uma dose adicional. Tome a dose 
+seguinte na hora habitual.
+Se tomar mais Koselugo do que deveria
+Se tomar mais Koselugo do que lhe foi prescrito, informe o seu médico ou farmacêutico de imediato.
+Caso se tenha esquecido de tomar Koselugo
+O que fazer no caso de se esquecer de tomar uma dose de Koselugo, depende de quanto tempo falta 
+até à próxima dose.
+
+Se faltarem mais de 6 horas até à próxima dose, tome a cápsula em falta. Depois tome a dose 
+seguinte na hora habitual.
+
+Se faltarem menos de 6 horas até à próxima dose, não tome a dose esquecida. Tome a dose 
+seguinte na hora habitual.
+Não tome uma dose a dobrar (duas doses ao mesmo tempo) para compensar uma dose que se esqueceu 
+de tomar.
+Se parar de tomar Koselugo
+Não pare de tomar Koselugo, a menos que tenha sido indicado pelo seu médico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+38
+Efeitos indesejáveis graves possíveis
+Problemas oculares (de visão)
+Koselugo pode causar problemas oculares. Informe o seu médico imediatamente se sentir visão turva 
+(um efeito indesejável muito frequente que pode afetar mais de 1 em cada 10 pessoas) ou quaisquer 
+outras alterações na visão durante o tratamento. O seu médico pode pedir-lhe que pare de tomar este
+medicamento e encaminhá-lo para um especialista, se desenvolver sintomas que incluem:
+
+visão turva
+
+perda de visão
+
+manchas escuras na sua visão (flocos vítreos)
+
+outras alterações na sua visão (como redução da visão)
+Informe o seu médico imediatamente se sentir quaisquer dos efeitos indesejáveis graves acima 
+mencionados.
+Outros efeitos indesejáveis
+Fale com o seu médico ou farmacêutico se tiver quaisquer dos seguintes efeitos indesejáveis: 
+Muito frequentes (podem afetar mais de 1 em cada 10 pessoas)
+
+sentir-se mal disposto (vómitos), enjoado (náuseas)
+
+diarreia
+
+inflamação da boca (estomatite)
+
+problemas da pele e das unhas - os sinais podem incluir pele seca, erupção na pele, vermelhidão 
+à volta das unhas da mão
+
+perda de cabelo (alopecia), alteração da cor do cabelo
+
+sentir cansaço, fraqueza ou falta de energia
+
+febre (pirexia)
+
+inchaço das mãos ou dos pés (edema periférico)
+
+uma ligeira diminuição na quantidade de sangue que o coração está a bombear (fração de ejeção
+diminuída) - os sinais podem incluir falta de ar ou inchaço nas suas pernas, tornozelos ou pés
+
+tensão arterial elevada (hipertensão)
+
+redução do nível de albumina, uma proteína essencial no sangue (apresentada nas análises 
+clínicas)
+
+redução de hemoglobina, a proteína transportadora de oxigénio nos glóbulos vermelhos 
+(apresentada nas análises clínicas)
+
+aumento das enzimas (apresentado nas análises clínicas) sugerindo stress no fígado, lesão renal
+ou colapso muscular
+Frequentes (podem afetar até 1 em cada 10 pessoas)
+
+boca seca
+
+inchaço da face (edema facial)
+
+falta de ar (dispneia)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar koselugo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar koselugo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+39
+Não utilize este medicamento após o prazo de validade impresso no frasco e na cartonagem após EXP. 
+O prazo de validade corresponde ao último dia do mês indicado.
+Não conservar acima de 30 °C.
+Conservar na embalagem de origem para proteger da humidade e da luz.
+Manter o frasco bem fechado.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Koselugo
+A substância ativa é selumetinib. Cada cápsula de Koselugo 10 mg contém 10 mg de selumetinib 
+(como sulfato de hidrogénio). Cada cápsula de Koselugo 25 mg contém 25 mg de selumetinib (como 
+sulfato de hidrogénio).
+Os outros componentes das cápsulas de Koselugo 10 mg são:
+
+conteúdo da cápsula: vitamina E succinato de polietilenoglicol (succinato de D α-tocoferil 
+polietilenoglicol).
+
+invólucro da cápsula: hipromelose (E464), carragenina (E407), cloreto de potássio (E508), 
+dióxido de titânio (E171), cera de carnaúba (E903).
+
+tinta da impressão: goma-laca padrão (E904), óxido de ferro preto (E172), propilenoglicol 
+(E1520), hidróxido de amónio (E527).
+Os outros componentes das cápsulas de Koselugo 25 mg são:
+
+conteúdo da cápsula: vitamina E succinato de polietilenoglicol (succinato de D α-tocoferil 
+polietilenoglicol).
+
+invólucro da cápsula: hipromelose (E464), carragenina (E407), cloreto de potássio (E508), 
+dióxido de titânio (E171), laca de alumínio carmim índigo (E132), óxido de ferro amarelo 
+(E172), cera de carnaúba (E903), amido de milho.
+
+tinta da impressão: óxido de ferro vermelho (E172), óxido de ferro amarelo (E172), laca 
+alumínio carmim índigo (E132), cera de carnaúba (E903), goma-laca padrão (E904), 
+monoleato de glicerilo.
+Qual o aspeto de Koselugo e conteúdo da embalagem
+Koselugo 10 mg cápsula é uma cápsula branca a esbranquiçada, opaca, com uma banda central, 
+marcada com “SEL 10" a tinta preta.
+Koselugo 25 mg cápsula é uma cápsula azul, opaca, com uma banda central, marcada com “SEL 25" a 
+tinta preta.
+Koselugo é apresentado em frascos de plástico branco, com fecho resistente a crianças, branco (10 mg) 
+ou azul (25 mg), que contêm 60 cápsulas e um exsicante de sílica gel. Não remover o exsicante do 
+frasco e não engolir.
+Titular da Autorização de Introdução no Mercado
+AstraZeneca AB
+SE-151 85 Södertälje
+Suécia
+Fabricante
+AstraZeneca AB
+Karlebyhusentrén Astraallén
+40
+SE-152 57 Södertälje
+Suécia
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Alexion Pharma Belgium
+Tel: +32 800 200 31
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+Alexion Pharma Belgium
+Tél/Tel: +32 800 200 31
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+Alexion Pharma Spain, S.L.
+Tel: +34 93 272 30 05
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+Alexion Pharma France SAS
+Tél: +33 1 47 32 36 21
+Portugal
+Alexion Pharma Spain, S.L. - Sucursal em 
+Portugal
+Tel: +34 93 272 30 05
+Hrvatska
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) 
+DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7Italia
+Suomi/Finland
+41
+Alexion Pharma Italy srl
+Tel: +39 02 7767 9211
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Este folheto foi revisto pela última vez em 
+Foi concedida a este medicamento uma «Autorização de Introdução no Mercado condicional». Isto 
+significa que se aguarda mais informação sobre este medicamento. A Agência Europeia de 
+Medicamentos irá analisar, pelo menos uma vez por ano, nova informação sobre este medicamento e 
+este folheto será atualizado se necessário.
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -903,6 +1398,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-4a0e2349adfb2620b1fba9cd50d81a0a"
 * entry[0].resource = composition-da-4a0e2349adfb2620b1fba9cd50d81a0a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4a0e2349adfb2620b1fba9cd50d81a0a"
+* entry[=].resource = mp4a0e2349adfb2620b1fba9cd50d81a0a
+                            
+                    
+Instance: bundlepackageleaflet-pt-4a0e2349adfb2620b1fba9cd50d81a0a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for koselugo Package Leaflet for language pt"
+Description: "ePI document Bundle for koselugo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-4a0e2349adfb2620b1fba9cd50d81a0a"
+* entry[0].resource = composition-pt-4a0e2349adfb2620b1fba9cd50d81a0a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp4a0e2349adfb2620b1fba9cd50d81a0a"
@@ -1004,6 +1521,18 @@ RuleSet: 4a0e2349adfb2620b1fba9cd50d81a0aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-4a0e2349adfb2620b1fba9cd50d81a0a) // koselugo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

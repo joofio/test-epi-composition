@@ -1141,6 +1141,687 @@ beskyttet mod lys, efterfulgt af 4 timer ved en temperatur på 15 °-25 °C. </p
 
 
 
+Instance: composition-pt-92b31dfcd94fef6128e5d86cc210fa3f
+InstanceOf: CompositionUvEpi
+Title: "Composition for pazenir Package Leaflet"
+Description:  "Composition for pazenir Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp92b31dfcd94fef6128e5d86cc210fa3f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - pazenir"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Pazenir e para que é utilizado 
+2. O que precisa de saber antes de receber Pazenir 
+3. Como utilizar Pazenir 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Pazenir 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é pazenir e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é pazenir e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Pazenir 
+Pazenir contém como substância ativa o paclitaxel, ligado à proteína albumina humana, na forma de 
+pequenas partículas conhecidas por nanopartículas. O paclitaxel pertence a um grupo de 
+medicamentos chamados “taxanos" utilizados no tratamento do cancro. </p>
+<ul>
+<li>
+<p>O paclitaxel é a parte do medicamento que afeta o cancro, atua parando a divisão das células 
+cancerosas - isto significa que elas morrem. </p>
+</li>
+<li>
+<p>A albumina é a parte que ajuda o paclitaxel a dissolver-se no sangue e a atravessar as paredes 
+dos vasos sanguíneos para o interior do tumor. Isto significa que outras substâncias químicas 
+que podem causar efeitos indesejáveis, os quais podem constituir um risco de vida, não são 
+necessárias. Estes efeitos indesejáveis ocorrem com muito menor frequência com Pazenir. </p>
+</li>
+</ul>
+<p>Para que é utilizado o Pazenir 
+O Pazenir é utilizado para tratar os seguintes tipos de cancro: </p>
+<p>Cancro da mama </p>
+<ul>
+<li>
+<p>Cancro da mama que se espalhou para outras partes do corpo (chama-se a isto “cancro da mama 
+metastático"). </p>
+</li>
+<li>
+<p>O Pazenir é utilizado no cancro da mama metastático quando foi utilizada pelo menos outra 
+terapêutica, mas sem qualquer resultado, e não puder fazer tratamentos que contenham um 
+grupo de medicamentos chamados “antraciclinas". </p>
+</li>
+<li>
+<p>As pessoas com cancro metastático da mama que foram tratadas com paclitaxel ligado à 
+proteína humana albumina, quando outras terapêuticas não tiveram sucesso, tiveram uma maior 
+probabilidade de ter uma redução do tamanho do tumor e viveram mais tempo do que as 
+pessoas que tomaram uma terapêutica alternativa. </p>
+</li>
+</ul>
+<p>Cancro do pâncreas </p>
+<ul>
+<li>Pazenir é utilizado com um medicamento chamado gemcitabina se tiver um cancro metastático 
+do pâncreas. As pessoas com cancro metastático do pâncreas (cancro do pâncreas que se 
+espalhou por outras partes do corpo), que foram tratadas com nanopartículas de paclitaxel-
+albumina humana sérica e gemcitabina num ensaio clínico viveram mais tempo do que as 
+pessoas a receber apenas gemcitabina. </li>
+</ul>
+<p>Cancro do pulmão </p>
+<ul>
+<li>
+<p>Pazenir é também utilizado juntamente com um medicamento chamado carboplatina se tiver 
+o tipo de cancro do pulmão mais frequente chamado “cancro do pulmão de não-pequenas 
+células". </p>
+</li>
+<li>
+<p>Pazenir é utilizado no cancro do pulmão de não-pequenas células quando a cirurgia ou a 
+radioterapia não são adequadas para tratar a doença. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar pazenir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar pazenir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Pazenir </p>
+<ul>
+<li>
+<p>se tem alergia (hipersensibilidade) ao paclitaxel ou a qualquer outro componente de Pazenir 
+(indicados na secção 6); </p>
+</li>
+<li>
+<p>se estiver a amamentar; </p>
+</li>
+<li>
+<p>se tiver uma contagem baixa de glóbulos brancos (contagens de neutrófilos no início do 
+tratamento &lt; 1.500 células/mm3 - o seu médico irá aconselhá-lo relativamente a este aspeto). </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou enfermeiro antes de utilizar Pazenir </p>
+<ul>
+<li>
+<p>se tiver uma função renal deficiente; </p>
+</li>
+<li>
+<p>se tiver problemas graves de fígado; </p>
+</li>
+<li>
+<p>se tiver problemas cardíacos. </p>
+</li>
+</ul>
+<p>Fale com o seu médico ou enfermeiro se apresentar alguma destas situações enquanto estiver a ser 
+tratado com Pazenir; o seu médico poderá querer interromper o tratamento ou reduzir a dose: </p>
+<ul>
+<li>
+<p>se tiver, de forma anormal, nódoas negras, hemorragias ou sinais de infeções, como dores de 
+garganta ou febre; </p>
+</li>
+<li>
+<p>se sentir dormência, formigueiros, sensação de picadas, sensibilidade ao toque ou fraqueza 
+muscular; </p>
+</li>
+<li>
+<p>se tiver problemas em respirar, como falta de ar ou tosse seca. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes 
+Este medicamento é apenas para adultos e não deve ser tomado por crianças e adolescentes com idade 
+inferior a 18 anos. </p>
+<p>Outros medicamentos e Pazenir 
+Informe o seu médico se estiver a tomar ou tiver tomado recentemente outros medicamentos, 
+incluindo medicamentos obtidos sem receita médica e medicamentos à base de plantas. Isto porque 
+Pazenir pode afetar o modo como os outros medicamentos atuam. Para além disso, outros 
+medicamentos podem afetar o modo de funcionamento de Pazenir. </p>
+<p>Tenha cuidado e fale com o seu médico ao tomar Pazenir ao mesmo tempo que qualquer um dos 
+seguintes: </p>
+<ul>
+<li>
+<p>medicamentos para tratar infeções (i.e. antibióticos tais como a eritromicina, rifampicina, etc; 
+fale com o seu médico, enfermeiro ou farmacêutico se não tiver a certeza se o medicamento que 
+está a tomar é um antibiótico) e incluindo medicamentos para tratar infeções fúngicas (por ex., 
+cetoconazol) </p>
+</li>
+<li>
+<p>medicamentos utilizados para estabilizar o seu humor, por vezes também designados 
+antidepressivos (por ex., fluoxetina) </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar convulsões (epilepsia) (por ex., carbamazepina, fenitoína) </p>
+</li>
+<li>
+<p>medicamentos utilizados para ajudar a baixar os níveis de lípidos no sangue (por ex., 
+gemfibrozil) </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar a azia ou úlceras de estômago (por ex., cimetidina) </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar o VIH ou a SIDA (por ex., ritonavir, saquinavir, indinavir, 
+nelfinavir, efavirenz, nevirapina) </p>
+</li>
+<li>
+<p>um medicamento chamado clopidogrel utilizado para prevenir coágulos de sangue. </p>
+</li>
+</ul>
+<p>Gravidez, amamentação e fertilidade 
+O paclitaxel poderá provocar graves anomalias congénitas, pelo que não deve ser utilizado se estiver 
+grávida. O seu médico prescrever-lhe-á um teste de gravidez antes de iniciar o tratamento com 
+Pazenir. </p>
+<p>As mulheres com potencial para engravidar deverão utilizar um método contracetivo eficaz durante e 
+até um mês após o tratamento com Pazenir.  </p>
+<p>Não amamente enquanto estiver a receber Pazenir, pois desconhece-se se o ingrediente ativo de 
+paclitaxel passa para o leite materno. </p>
+<p>Os doentes do sexo masculino são aconselhados a utilizar um método contracetivo eficaz e a evitar 
+conceber um filho durante e até seis meses após o tratamento, e deverão procurar aconselhamento 
+acerca da conservação do esperma antes do tratamento, por causa da possibilidade de infertilidade 
+irreversível devida à terapêutica com Pazenir. </p>
+<p>Consulte o seu médico antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Algumas pessoas podem sentir cansaço ou tonturas depois de receberem Pazenir. Se isto lhe acontecer, 
+não conduza veículos nem utilize quaisquer ferramentas ou maquinaria. </p>
+<p>Caso lhe sejam administrados outros medicamentos como parte do seu tratamento, deve aconselhar-se 
+junto do seu médico no que respeita à condução de veículos e utilização de máquinas. </p>
+<p>Pazenir contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 100 mg, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar pazenir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar pazenir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pazenir ser-lhe-á administrado por um médico ou enfermeiro, por perfusão intravenosa numa veia. A 
+dose que recebe é baseada na sua área de superfície corporal e nos resultados das análises ao sangue. 
+A dose habitual para o cancro da mama é de 260 mg/m2 de área de superfície corporal, administrada 
+durante um período de 30 minutos. A dose habitual no cancro avançado do pâncreas é de 125 mg/m2 
+da área de superfície corporal administrada durante um período de 30 minutos. A dose habitual para o 
+cancro do pulmão de não-pequenas células é de 100 mg/m2 de área de superfície corporal, durante um 
+período de 30 minutos. </p>
+<p>Com que frequência irá receber Pazenir? 
+No tratamento do cancro metastático da mama, Pazenir é habitualmente administrado uma vez de três 
+em três semanas (no dia 1 de um ciclo de 21 dias). </p>
+<p>No tratamento do cancro avançado do pâncreas, Pazenir é administrado nos dias 1, 8 e 15 de cada 
+ciclo de tratamento de 28 dias sendo a gemcitabina administrada imediatamente depois do Pazenir. </p>
+<p>No tratamento do cancro do pulmão de não-pequenas células, Pazenir é administrado uma vez por 
+semana (isto é, nos dias 1, 8 e 15 de cada ciclo de 21 dias), sendo a carboplatina administrada uma vez 
+de 3 em 3 semanas (isto é, apenas no dia 1 de cada ciclo de 21 dias), imediatamente depois de se 
+administrar a dose de Pazenir. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis muito frequentes podem afetar mais de 1 em cada 10 pessoas: </p>
+<ul>
+<li>
+<p>Perda de cabelo (a maioria dos casos de perda de cabelo ocorreu no primeiro mês de tratamento 
+com paclitaxel. Quando ocorre, a perda de cabelo é pronunciada (mais de 50%) na maioria dos 
+doentes) </p>
+</li>
+<li>
+<p>Erupção na pele </p>
+</li>
+<li>
+<p>Diminuição anormal do número de tipos de glóbulos brancos (neutrófilos, linfócitos ou 
+leucócitos) no sangue </p>
+</li>
+<li>
+<p>Deficiência de glóbulos vermelhos </p>
+</li>
+<li>
+<p>Redução do número de plaquetas no sangue </p>
+</li>
+<li>
+<p>Efeito sobre os nervos periféricos (dor, entorpecimento, formigueiro ou perda de sensação) </p>
+</li>
+<li>
+<p>Dor numa ou mais articulações </p>
+</li>
+<li>
+<p>Dores musculares </p>
+</li>
+<li>
+<p>Náuseas, diarreia, prisão de ventre, feridas na boca, perda de apetite </p>
+</li>
+<li>
+<p>Vómitos </p>
+</li>
+<li>
+<p>Fraqueza e cansaço, febre </p>
+</li>
+<li>
+<p>Desidratação, perturbação do paladar, perda de peso </p>
+</li>
+<li>
+<p>Níveis baixos de potássio no sangue </p>
+</li>
+<li>
+<p>Depressão, problemas de sono </p>
+</li>
+<li>
+<p>Dores de cabeça </p>
+</li>
+<li>
+<p>Arrepios </p>
+</li>
+<li>
+<p>Dificuldade em respirar </p>
+</li>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Inchaço das mucosas e dos tecidos moles </p>
+</li>
+<li>
+<p>Aumento dos valores das provas da função hepática </p>
+</li>
+<li>
+<p>Dor nas extremidades </p>
+</li>
+<li>
+<p>Tosse </p>
+</li>
+<li>
+<p>Dor abdominal </p>
+</li>
+<li>
+<p>Hemorragias do nariz </p>
+</li>
+</ul>
+<p>Os efeitos indesejáveis frequentes podem afetar até 1 pessoa em cada 10: </p>
+<ul>
+<li>
+<p>Comichão, pele seca, problemas nas unhas </p>
+</li>
+<li>
+<p>Infeção, febre com diminuição do número de um tipo de glóbulos brancos (neutrófilos) no 
+sangue, rubor, candidíase, infeção grave no sangue que pode ser causada pela diminuição de 
+glóbulos brancos </p>
+</li>
+<li>
+<p>Diminuição da contagem de todas as células do sangue </p>
+</li>
+<li>
+<p>Dor de garganta ou no peito </p>
+</li>
+<li>
+<p>Indigestão, desconforto abdominal </p>
+</li>
+<li>
+<p>Nariz entupido </p>
+</li>
+<li>
+<p>Dor nas costas, dor nos ossos </p>
+</li>
+<li>
+<p>Diminuição da coordenação muscular ou dificuldade em ler, aumento ou diminuição da 
+produção de lágrimas, perda de pestanas </p>
+</li>
+<li>
+<p>Alterações na frequência ou ritmo cardíaco, insuficiência cardíaca </p>
+</li>
+<li>
+<p>Diminuição ou aumento da tensão arterial </p>
+</li>
+<li>
+<p>Vermelhidão ou inchaço no local onde a agulha foi introduzida no corpo </p>
+</li>
+<li>
+<p>Ansiedade </p>
+</li>
+<li>
+<p>Infeção nos pulmões </p>
+</li>
+<li>
+<p>Infeção do trato urinário </p>
+</li>
+<li>
+<p>Obstrução nos intestinos, inflamação do intestino grosso, inflamação do canal biliar </p>
+</li>
+<li>
+<p>Insuficiência renal aguda </p>
+</li>
+<li>
+<p>Aumento da bilirrubina no sangue </p>
+</li>
+<li>
+<p>Expetorar sangue ao tossir </p>
+</li>
+<li>
+<p>Boca seca, dificuldade em engolir </p>
+</li>
+<li>
+<p>Fraqueza muscular </p>
+</li>
+<li>
+<p>Visão turva </p>
+</li>
+</ul>
+<p>Os efeitosindesejáveis pouco frequentes podem afetar até 1 pessoa em cada 100: </p>
+<ul>
+<li>
+<p>aumento do peso, aumento da lactato desidrogenase no sangue, diminuição da função renal, 
+glucose aumentada no sangue, fósforo aumentado no sangue </p>
+</li>
+<li>
+<p>diminuição ou falta de reflexos, movimentos involutários, dores num nervo, desmaios, tonturas 
+quando está de pé, tremores, paralisia do nervo facial </p>
+</li>
+<li>
+<p>olhos irritados, dor nos olhos, olhos vermelhos, comichão nos olhos, visão dupla, visão reduzida 
+ou ver luzes a piscarem, visão desfocada devido a inchaço da retina (edema macular cistoide) </p>
+</li>
+<li>
+<p>dor de ouvidos, zumbido nos ouvidos </p>
+</li>
+<li>
+<p>tossir com expetoração, falta de ar ao caminhar ou ao subir escadas, corrimento nasal ou nariz 
+seco, diminuição do som da respiração, líquido no pulmão, perda de voz, coágulo de sangue nos 
+pulmões, garganta seca </p>
+</li>
+<li>
+<p>gases, cólicas no estômago, dor ou inflamação nas gengivas, sangramento retal </p>
+</li>
+<li>
+<p>dor ao urinar, urinar com frequência, sangue na urina, incontinência urinária </p>
+</li>
+<li>
+<p>dor nas unhas, desconforto nas unhas, perda das unhas; urticária; dor na pele; pele vermelha 
+devido à luz solar, descoloração da pele, aumento da transpiração, suores noturnos, zonas 
+brancas na pele, feridas, cara inchada </p>
+</li>
+<li>
+<p>diminuição do fósforo no sangue, retenção de líquidos, albumina baixa no sangue, aumento da 
+sede, diminuição do cálcio no sangue, açúcar reduzido no sangue, diminuição do sódio no 
+sangue </p>
+</li>
+<li>
+<p>Dor e inchaço no nariz, infeções na pele, infeção relacionada com o cateter </p>
+</li>
+<li>
+<p>formação de nódoas negras </p>
+</li>
+<li>
+<p>dor no local do tumor, morte tumoral </p>
+</li>
+<li>
+<p>diminuição da tensão arterial quando está de pé, mãos e pés frios </p>
+</li>
+<li>
+<p>dificuldade em andar, inchaço </p>
+</li>
+<li>
+<p>reação alérgica </p>
+</li>
+<li>
+<p>diminuição da função hepática, aumento do tamanho do fígado </p>
+</li>
+<li>
+<p>dor na mama </p>
+</li>
+<li>
+<p>inquietação </p>
+</li>
+<li>
+<p>pequenas hemorragias na pele causadas por coágulos de sangue </p>
+</li>
+<li>
+<p>uma afeção que envolve a destruição dos glóbulos vermelhos e insuficiência renal aguda </p>
+</li>
+</ul>
+<p>Os efeitos indesejáveis raros podem afetar até 1 em cada 1.000 pessoas: </p>
+<ul>
+<li>
+<p>reação na pele a outro agente ou inflamação no pulmão após radiação </p>
+</li>
+<li>
+<p>coágulo de sangue </p>
+</li>
+<li>
+<p>pulsação muito lenta, ataque cardíaco </p>
+</li>
+<li>
+<p>derrame do medicamento para fora da veia </p>
+</li>
+<li>
+<p>uma perturbação do sistema de condução elétrica do coração (bloqueio aurículo-ventricular) </p>
+</li>
+</ul>
+<p>Os efeitos indesejáveis muito raros podem afetar até 1 em cada 10.000 pessoas: </p>
+<ul>
+<li>inflamação/erupção cutânea grave da pele e das membranas mucosas (síndrome de Stevens-
+Johnson, necrólise epidérmica tóxica) </li>
+</ul>
+<p>Efeitos indesejáveis desconhecidos (a frequência não pode ser calculada a partir dos dados 
+disponíveis): </p>
+<ul>
+<li>Endurecimento/espessamento da pele (esclerodermia) </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar pazenir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar pazenir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco 
+para injetáveis, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Frascos para injetáveis não abertos: Manter o recipiente dentro da embalagem exterior até utilizar, 
+para proteger da luz. </p>
+<p>Após a primeira reconstituição, a dispersão deve ser imediatamente utilizada. Se não for 
+imediatamente utilizada, a dispersão poderá ser conservada no frigorífico (2°C-8°C) até 24 horas, no 
+frasco para injetáveis quando mantido na embalagem exterior, para proteger da luz. </p>
+<p>A dispersão reconstituída para perfusão intravenosa pode ser conservada até 24 horas entre 2ºC-8ºC, 
+protegida da luz, seguida de 4 horas entre 15ºC-25ºC. </p>
+<p>O seu médico ou farmacêutico é responsável pela eliminação correta de quaisquer porções não usadas 
+de Pazenir. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Pazenir 
+A substância ativa é o paclitaxel. 
+Cada frasco para injetáveis contém 100 mg de paclitaxel formulado como nanopartículas ligadas à 
+albumina. 
+Após a reconstituição, cada ml de dispersão contém 5 mg de paclitaxel formulado como 
+nanopartículas ligadas à albumina. 
+O outro componente é a albumina humana (que contém caprilato de sódio e N-acetil-DL- triptofano), 
+ver secção 2 “Pazenir contém sódio". </p>
+<p>Qual o aspeto de Pazenir e conteúdo da embalagem 
+Pazenir é um pó branco a amarelado para dispersão para perfusão. Pazenir está disponível em frascos 
+para injetáveis de vidro, contendo 100 mg de paclitaxel formulado como nanopartículas ligadas à 
+albumina. </p>
+<p>Cada embalagem contém 1 frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>ratiopharm GmbH 
+Graf-Arco-Straße 3 
+89079 Ulm 
+Alemanha </p>
+<p>Fabricante </p>
+<p>Merckle GmbH 
+Ludwig-Merckle-Straße 3 
+89143 Blaubeuren 
+Alemanha </p>
+<p>Pharmachemie B.V. 
+Swensweg 5 
+Haarlem 
+2031 GA 
+Países Baixos </p>
+<p>Teva Pharma B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Países Baixos </p>
+<p>Teva Nederland B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Τel: +44 2075407 
+Deutschland 
+ratiopharm GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+TEVA HELLAS Α.Ε. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, 
+Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+TEVA HELLAS Α.Ε. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā<br />
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1182,6 +1863,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-92b31dfcd94fef6128e5d86cc210fa3f"
 * entry[0].resource = composition-da-92b31dfcd94fef6128e5d86cc210fa3f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp92b31dfcd94fef6128e5d86cc210fa3f"
+* entry[=].resource = mp92b31dfcd94fef6128e5d86cc210fa3f
+                            
+                    
+Instance: bundlepackageleaflet-pt-92b31dfcd94fef6128e5d86cc210fa3f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pazenir Package Leaflet for language pt"
+Description: "ePI document Bundle for pazenir Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-92b31dfcd94fef6128e5d86cc210fa3f"
+* entry[0].resource = composition-pt-92b31dfcd94fef6128e5d86cc210fa3f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp92b31dfcd94fef6128e5d86cc210fa3f"
@@ -1283,6 +1986,18 @@ RuleSet: 92b31dfcd94fef6128e5d86cc210fa3fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-92b31dfcd94fef6128e5d86cc210fa3f) // pazenir pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

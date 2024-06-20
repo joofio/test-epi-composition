@@ -817,6 +817,481 @@ Der er også links til andre hjemmesider om sjældne sygdomme og om, hvordan de 
 
 
 
+Instance: composition-pt-eb144117bf1832a81a0b81022c43f19d
+InstanceOf: CompositionUvEpi
+Title: "Composition for granupas Package Leaflet"
+Description:  "Composition for granupas Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpeb144117bf1832a81a0b81022c43f19d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - granupas"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é GRANUPAS e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar GRANUPAS </li>
+<li>Como tomar GRANUPAS </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar GRANUPAS </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é granupas e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é granupas e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O GRANUPAS contém ácido para-aminossalicílico que é utilizado em adultos e crianças com idade 
+igual ou superior a 28 dias no tratamento da tuberculose resistente em associação com outros 
+medicamentos, nos casos de resistência ou intolerância com outros tratamentos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar granupas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar granupas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Ácido para-aminossalicílico: </p>
+<ul>
+<li>
+<p>se tem alergia ao ácido para-aminossalicílico ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </p>
+</li>
+<li>
+<p>se sofre de doença grave dos rins. 
+Se tiver dúvidas, fale com o seu médico ou farmacêutico antes de tomar GRANUPAS. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar GRANUPAS </p>
+<ul>
+<li>
+<p>se sofre de problemas do fígado ou de doença dos rins ligeira ou moderada. </p>
+</li>
+<li>
+<p>se tem uma úlcera no estômago. </p>
+</li>
+<li>
+<p>se está infetado com VIH. </p>
+</li>
+</ul>
+<p>Crianças 
+A utilização do GRANUPAS não é recomendada em bebes recém-nascidos (com idade inferior a dias). </p>
+<p>Outros medicamentos e GRANUPAS 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>É especialmente importante informar o seu médico se estiver a tomar algum dos seguintes: </p>
+<ul>
+<li>
+<p>Medicamentos antituberculose ou etionamida (outros tratamentos contra a tuberculose). </p>
+</li>
+<li>
+<p>Vitamina B12.  </p>
+</li>
+<li>
+<p>Digoxina (para doenças do coração). </p>
+</li>
+<li>
+<p>Difenidramina (para reações alérgicas). </p>
+</li>
+<li>
+<p>Tenofovir (para infeções de VIH/ hepatite B). </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. 
+O GRANUPAS não é recomendado durante a gravidez e só deve ser utilizado se indicado pelo seu 
+médico. 
+Não amamente durante a toma do GRANUPAS. Pequenas quantidades do medicamento podem passar 
+para o leite da mãe. </p>
+<p>Condução de veículos e utilização de máquinas 
+É improvável que o GRANUPAS afete a sua capacidade de condução de veículos e utilização de 
+máquinas. 
+Se tal acontecer, comunique essa ocorrência ao seu médico ou farmacêutico. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar granupas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar granupas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Adultos 
+A dose recomendada para adultos é de 1 saqueta três vezes por dia, num regime de 1 saqueta a cada 8 
+horas. É possível que o seu médico tenha de começar com uma dose mais baixa para prevenir a 
+ocorrência de possíveis efeitos secundários. 
+Não tome mais de 3 saquetas por dia. O tratamento é habitualmente administrado durante dois anos 
+(24 meses). </p>
+<ul>
+<li>
+<p>Adicione o conteúdo da saqueta a uma bebida de sumo de tomate ou laranja. </p>
+</li>
+<li>
+<p>Beba de imediato. </p>
+</li>
+<li>
+<p>Se sobrarem alguns granulados no copo, adicione um pouco mais de sumo e beba de imediato. </p>
+</li>
+</ul>
+<p>Utilização em lactentes, crianças e adolescentes 
+A dose em lactentes, crianças e adolescentes será calculada pelo seu médico com base no peso 
+corporal do doente. A dose total recomendada por dia é de 150 mg por cada quilograma de peso 
+corporal. Esta quantidade diária é dividida em duas doses, espalhadas ao longo do dia. </p>
+<ul>
+<li>
+<p>Utilize a colher de medida que é fornecida com o medicamento para medir a dose. </p>
+</li>
+<li>
+<p>Para medir a dose: 
+o As linhas na colher indicam a quantidade (em miligramas de ácido para-
+aminossalicílico). Tome a quantidade correta, conforme prescrita pelo seu médico. 
+o Coloque os granulados diretamente na colher. 
+o Bata com a colher uma vez numa mesa para nivelar os granulados na horizontal e, se 
+necessário, continue a encher. </p>
+</li>
+<li>
+<p>Polvilhe os granulados sobre doce de maçã ou iogurte. </p>
+</li>
+<li>
+<p>Garanta que a criança come de imediato o alimento com o medicamento. </p>
+</li>
+</ul>
+<p>Tomar este medicamento </p>
+<ul>
+<li>
+<p>Não esmague nem mastigue os granulados. Engula os granulados inteiros. É importante que não 
+dissolva, esmague ou mastigue os granulados, pois eles podem não ser absorvidos devidamente 
+e causar dores de barriga ou hemorragia. </p>
+</li>
+<li>
+<p>Não utilize a saqueta se esta for engolida ou se os granulados tiverem perdido a sua cor castanha 
+clara. </p>
+</li>
+<li>
+<p>É possível que observe o surgimento de granulados nas fezes, o que é absolutamente normal. </p>
+</li>
+</ul>
+<p>Se tomar mais GRANUPAS do que deveria 
+Fale com um médico ou farmacêutico. </p>
+<p>Caso se tenha esquecido de tomar uma dose de GRANUPAS 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Aguarde até à dose 
+seguinte e, nessa altura, tome a dose normal. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Durante os 3 primeiros meses do tratamento com o GRANUPAS, deve estar atento a qualquer sinal de 
+reação alérgica (por exemplo, erupção na pele, manchas vermelhas pruriginosas na pele, prurido, 
+exantema, olhos lacrimejantes ou com comichão, nariz congestionado) ou hepatite (por exemplo, 
+febre, fadiga, urina escura, fezes amareladas, dores abdominais, pele e olhos amarelados). Caso 
+experimente algum destes sintomas, fale imediatamente com o seu médico. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar mais de 1 doente em cada 100):  </p>
+<ul>
+<li>
+<p>tonturas,  </p>
+</li>
+<li>
+<p>dor de estômago (dor abdominal),  </p>
+</li>
+<li>
+<p>vómitos, náuseas,  </p>
+</li>
+<li>
+<p>libertação de gases com mais frequência (distensão abdominal),  </p>
+</li>
+<li>
+<p>diarreia, fezes moles,  </p>
+</li>
+<li>
+<p>vermelhidão ou erupção na pele,  </p>
+</li>
+<li>
+<p>perturbação da marcha e do equilíbrio. </p>
+</li>
+</ul>
+<p>Efeitos secundários pouco frequentes (podem afetar mais de 1 doente em cada 1000):  </p>
+<ul>
+<li>perda de apetite (anorexia) </li>
+</ul>
+<p>Efeitos secundários raros (podem afetar mais de 1 doente em cada 10 000):  </p>
+<ul>
+<li>
+<p>problemas na glândula tiroide*,  </p>
+</li>
+<li>
+<p>capacidade reduzida para absorver nutrientes devido a úlcera gástrica,  </p>
+</li>
+<li>
+<p>hemorragia no intestino,  </p>
+</li>
+<li>
+<p>amarelecimento da pele ou dos olhos (icterícia),  </p>
+</li>
+<li>
+<p>sabor a metal,  </p>
+</li>
+<li>
+<p>erupção na pele com comichão. </p>
+</li>
+</ul>
+<p>(*) em indivíduos igualmente infetados com VIH, os problemas da tiroide, e mais especificamente 
+hipotiroidismo ou baixos níveis de hormonas da tiroide, constituem um efeito secundário muito comum 
+que pode afetar mais de 1 em 10 pessoas. O acompanhamento frequente da função da tiroide é 
+recomendado para todas as pessoas que tenham o VIH. </p>
+<p>Efeitos secundários muito raros (podem afetar menos de 1 doente em cada 10 000):  </p>
+<ul>
+<li>
+<p>redução das plaquetas no sangue,  </p>
+</li>
+<li>
+<p>pontos vermelhos na pele,  </p>
+</li>
+<li>
+<p>redução do número de glóbulos brancos,  </p>
+</li>
+<li>
+<p>redução do número de glóbulos vermelhos,  </p>
+</li>
+<li>
+<p>diminuição da capacidade dos glóbulos vermelhos para libertarem oxigénio,  </p>
+</li>
+<li>
+<p>níveis baixos de açúcar no sangue,  </p>
+</li>
+<li>
+<p>dor no tendão,  </p>
+</li>
+<li>
+<p>dor de cabeça,  </p>
+</li>
+<li>
+<p>anomalias visuais,  </p>
+</li>
+<li>
+<p>lesões nervosas nas mãos e nos pés,  </p>
+</li>
+<li>
+<p>tonturas,  </p>
+</li>
+<li>
+<p>cristais na urina </p>
+</li>
+<li>
+<p>tempo hemorrágico prolongado,  </p>
+</li>
+<li>
+<p>destruição de células hepáticas,  </p>
+</li>
+<li>
+<p>enzimas hepáticas elevadas,  </p>
+</li>
+<li>
+<p>perda de peso.  </p>
+</li>
+</ul>
+<p>Efeitos secundários desconhecido (não pode ser calculado a partir dos dados disponíveis): </p>
+<ul>
+<li>hepatite </li>
+</ul>
+<p>Comunicação de efeitos secundários 
+Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos secundários 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar granupas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar granupas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e na saqueta, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 25 °C. As saquetas podem ser conservadas a temperaturas inferiores a 25 °C 
+até um máximo de 24 horas após a abertura. </p>
+<p>Não utilize este medicamento se verificar que as saquetas são engolidas ou que os granulados 
+apresentam uma cor castanha escura ou púrpura. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de GRANUPAS 
+A substância ativa é o ácido para-aminossalicílico. 
+Cada saqueta de granulados gastrorresistentes contém 4 g de ácido para-aminossalicílico. 
+Os outros componentes são silicacoloidal hidratada, dibutilo sebacato, copolímero ácido metacrílico - 
+acrilato de etilo (1:1), com dispersão a 30 por cento, hipromelose, celulose microcristalina e talco. </p>
+<p>Qual o aspeto de GRANUPAS e conteúdo da embalagem 
+Este medicamento apresenta-se sob a forma de granulados gastrorresistentes de cor castanha clara em 
+saquetas. 
+Cada caixa contém 30 saquetas. É fornecida uma colher de medida calibrada. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Eurocept International BV 
+Trapgans 5 
+1244 RL Ankeveen 
+Holanda </p>
+<p>Fabricante </p>
+<p>Eurocept International BV 
+Trapgans 5 
+1244 RL Ankeveen 
+Holanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Lucane Pharma 
+Tél/Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Lietuva<br />
+FrostPharma AB 
+Tel: +46 775 86 80 info@frostpharma.com  </p>
+<p>България 
+Lucane Pharma 
+Teл.: + 33 153 868 info@lucanepharma.com </p>
+<p>Luxembourg/Luxemburg 
+Lucane Pharma 
+Tél/Tel: + 33 153 868 info@lucanepharma.com 
+Česká republika 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com 
+Magyarország 
+Lucane Pharma 
+Tel.: + 33 153 868 info@lucanepharma.com 
+Danmark 
+FrostPharma AB 
+Tlf: +46 775 86 80 info@frostpharma.com  </p>
+<p>Malta 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Deutschland 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Nederland 
+Eurocept International BV 
+Tel: +31 35 528 39 info@euroceptpharma.com  </p>
+<p>Eesti 
+FrostPharma AB 
+Tel: +46 775 86 80 info@frostpharma.com  </p>
+<p>Norge 
+FrostPharma AB 
+Tlf: +46 775 86 80 info@frostpharma.com  </p>
+<p>Ελλάδα 
+Lucane Pharma 
+Τηλ: + 33 153 868 info@lucanepharma.com </p>
+<p>Österreich 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com 
+España 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Polska 
+Lucane Pharma 
+Tel.: + 33 153 868 info@lucanepharma.com 
+France 
+Lucane Pharma 
+Tél: + 33 153 868 info@lucanepharma.com </p>
+<p>Portugal 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com 
+Hrvatska 
+Lucane Pharma 
+România 
+Lucane Pharma </p>
+<p>Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Ireland 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Slovenija 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com 
+Ísland 
+FrostPharma AB 
+Sími: +46 775 86 80 info@frostpharma.com  </p>
+<p>Slovenská republika 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com 
+Italia 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com 
+Suomi/Finland 
+FrostPharma AB 
+Puh/Tel: +46 775 86 80 info@frostpharma.com  </p>
+<p>Κύπρος 
+Lucane Pharma 
+Τηλ: + 33 153 868 info@lucanepharma.com </p>
+<p>Sverige 
+FrostPharma AB 
+Tel: +46 775 86 80 info@frostpharma.com  </p>
+<p>Latvija 
+FrostPharma AB 
+Tel: +46 775 86 80 info@frostpharma.com  </p>
+<p>United Kingdom 
+Lucane Pharma 
+Tel: + 33 153 868 info@lucanepharma.com </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -858,6 +1333,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-eb144117bf1832a81a0b81022c43f19d"
 * entry[0].resource = composition-da-eb144117bf1832a81a0b81022c43f19d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpeb144117bf1832a81a0b81022c43f19d"
+* entry[=].resource = mpeb144117bf1832a81a0b81022c43f19d
+                            
+                    
+Instance: bundlepackageleaflet-pt-eb144117bf1832a81a0b81022c43f19d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for granupas Package Leaflet for language pt"
+Description: "ePI document Bundle for granupas Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-eb144117bf1832a81a0b81022c43f19d"
+* entry[0].resource = composition-pt-eb144117bf1832a81a0b81022c43f19d
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpeb144117bf1832a81a0b81022c43f19d"
@@ -959,6 +1456,18 @@ RuleSet: eb144117bf1832a81a0b81022c43f19dListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-eb144117bf1832a81a0b81022c43f19d) // granupas pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

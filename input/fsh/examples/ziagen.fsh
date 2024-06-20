@@ -1074,6 +1074,625 @@ opmærksom på overfølsomhed over for abacavir. Tag kortet ud og hav det altid 
 
 
 
+Instance: composition-pt-e03871853d4da5dc011fec7c683b275d
+InstanceOf: CompositionUvEpi
+Title: "Composition for ziagen Package Leaflet"
+Description:  "Composition for ziagen Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe03871853d4da5dc011fec7c683b275d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ziagen"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Ziagen e para que é utilizado 
+2. O que precisa de saber antes de tomar Ziagen 
+3. Como tomar Ziagen 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Ziagen 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ziagen e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ziagen e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ziagen é usado para o tratamento da infeção pelo VIH (vírus da imunodeficiência 
+humana). </p>
+<p>Ziagen contém o ingrediente ativo abacavir. O abacavir pertence a um grupo de medicamentos 
+antirretrovíricos chamados análogos de nucleosídeos inibidores da transcriptase reversa 
+(NRTIs).  </p>
+<p>Ziagen não cura completamente a infeção pelo VIH: reduz a quantidade de vírus no seu corpo, 
+mantendo-a a níveis baixos. Também aumenta o número de células CD4 no seu sangue. As 
+células CD4 são um tipo de glóbulo branco que representa um importante papel na manutenção 
+do funcionamento normal do sistema imunitário, ajudando no combate à infeção.  </p>
+<p>Nem todas as pessoas respondem ao tratamento com Ziagen da mesma forma. O seu médico 
+monitorizará a eficácia do seu tratamento. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ziagen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ziagen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Ziagen: </p>
+<ul>
+<li>se tem alergia (hipersensibilidade) ao abacavir (ou a qualquer outro medicamento que 
+contenha abacavir - tais como Trizivir, Triumeq ou Kivexa) ou a qualquer outro 
+componente deste medicamento (indicados na secção 6). 
+Leia com atenção toda a informação sobre reações de hipersensibilidade na Secção 4. Verifique com o seu médico se achar que isto se aplica a si. </li>
+</ul>
+<p>Tome especial cuidado com Ziagen 
+Algumas pessoas que tomam Ziagen para o VIH correm maiores riscos de sofrerem efeitos 
+indesejáveis graves. Necessita de estar ao corrente destes riscos acrescidos: </p>
+<ul>
+<li>
+<p>se tem doença moderada ou grave do fígado. </p>
+</li>
+<li>
+<p>se alguma vez tiver tido doença do fígado, incluindo hepatite B ou C </p>
+</li>
+<li>
+<p>se for obeso (especialmente se for mulher) </p>
+</li>
+<li>
+<p>se tiver doença grave do rim. 
+Fale com o seu médico se alguma destas condições se aplicar a si. Poderá necessitar de 
+exames gerais adicionais, incluindo exames sanguíneos, enquanto estiver a tomar o seu 
+medicamento. Veja a Secção 4 para mais informação. </p>
+</li>
+</ul>
+<p>Reações de hipersensibilidade ao abacavir 
+Mesmo os doentes que não têm o gene HLA-B*5701 podem também desenvolver uma reação 
+de hipersensibilidade (uma reação alérgica grave). </p>
+<p>Leia atentamente toda a informação sobre reações de hipersensibilidade na Secção 4 
+deste folheto. </p>
+<p>Risco de acontecimentos cardiovasculares 
+Não pode ser excluído que o abacavir possa aumentar o risco de sofrer  acontecimentos 
+cardiovasculares. 
+Fale com o seu médico se tiver problemas cardiovasculares, se fumar, ou se tiver outras 
+doenças que possam aumentar o seu risco de doenças cardiovasculares tais como tensão 
+arterial elevada ou diabetes. Não pare de tomar Ziagen a não ser que o seu médico o 
+aconselhe a fazê-lo. </p>
+<p>Esteja atento a sintomas importantes 
+Algumas pessoas a tomar medicamentos para a infeção pelo VIH desenvolvem outros 
+problemas que podem ser graves. Precisa de conhecer quais os sinais e sintomas importantes aos 
+quais deve estar atento enquanto estiver a tomar Ziagen. 
+Leia a informação “Outros efeitos indesejáveis possíveis da terapêutica combinada 
+para o VIH" na Secção 4 deste folheto. </p>
+<p>Outros medicamentos e Ziagen 
+Informe o seu médico ou farmacêutico se estiver a tomar ou tiver tomado recentemente 
+outros medicamentos, incluindo medicamentos obtidos sem receita médica. Lembre-se de 
+informar o seu médico ou farmacêutico se começar a tomar um novo medicamento enquanto 
+estiver a tomar Ziagen. </p>
+<p>Alguns medicamentos interagem com Ziagen 
+Estes incluem: </p>
+<ul>
+<li>
+<p>fenitoína para o tratamento da epilepsia 
+Informe o seu médico se estiver a tomar fenitoína. O seu médico poderá necessitar de 
+vigiá-lo enquanto estiver a tomar Ziagen. </p>
+</li>
+<li>
+<p>metadona, usada como substituto de heroína. O abacavir aumenta a velocidade a que a 
+metadona é removida do seu corpo. Se estiver a tomar metadona, irá ser examinado para detetar 
+quaisquer sintomas de privação. A sua dose de metadona poderá necessitar de ser ajustada. </p>
+</li>
+<li>
+<p>Informe o seu médico se estiver a tomar metadona.  </p>
+</li>
+</ul>
+<p>O riociguat é utilizado no tratamento da pressão sanguínea elevada nos vasos sanguíneos<br />
+(as artérias pulmonares) que transportam o sangue do coração aos pulmões. O seu médico 
+poderá necessitar de reduzir a dose de riociguat, porque o abacavir pode aumentar os níveis 
+sanguíneos de riociguat.   </p>
+<p>Gravidez 
+O uso de Ziagen não é recomendado durante a gravidez. Ziagen e medicamentos 
+semelhantes podem provocar efeitos indesejáveis nos bebés ainda por nascer. 
+Se tomou Ziagen durante a gravidez, o seu médico pode pedir-lhe para efetuar análises ao 
+sangue e outros testes de diagnóstico regulares para verificar o desenvolvimento da sua criança. 
+Nas crianças cujas mães tomaram NRTIs durante a gravidez, o benefício da menor possibilidade 
+de infeção pelo VIH é superior ao risco de sofrerem efeitos indesejáveis. </p>
+<p>Amamentação 
+A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção 
+pelo VIH pode ser transmitida ao bebé através do leite materno. Uma pequena quantidade dos 
+componentes de Ziagen pode também passar para o leite materno. 
+Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais 
+rapidamente possível. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza ou opere máquinas se não se estiver a sentir bem. </p>
+<p>Informação importante acerca de alguns outros componentes de Ziagen comprimidos. 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose unitária, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ziagen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ziagen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Engula os comprimidos com alguma água. Ziagen pode ser tomado com ou sem alimentos. </p>
+<p>Se não puder engolir o(s) comprimido(s), poderá esmagá-los e misturá-los com uma pequena 
+quantidade de comida ou bebida e tomar a totalidade da dose imediatamente. </p>
+<p>Mantenha-se em contacto regular com o seu médico 
+Ziagen ajuda a controlar a sua doença. É necessário que continue a tomá-lo todos os dias para 
+impedir que a sua doença se agrave. Poderá ainda desenvolver outras infeções e doenças 
+relacionadas com a infeção pelo VIH. 
+Mantenha-se em contacto com o seu médico, e não pare de tomar Ziagen sem o 
+conselho do seu médico. </p>
+<p>Quanto tomar </p>
+<p>Adultos, adolescentes e crianças que pesem pelo menos 25 kg </p>
+<p>A dose habitual de Ziagen é de 600 mg por dia. Esta dose pode ser tomada como um 
+comprimido de 300 mg duas vezes por dia ou como 2 comprimidos de 300 mg uma vez por dia. </p>
+<p>Crianças desde um ano de idade que pesem menos de 25 kg </p>
+<p>A dose a administrar depende do peso corporal da sua criança. A dose recomendada é: </p>
+<ul>
+<li>
+<p>Crianças que pesem pelo menos 20 kg e menos de 25 kg: A dose habitual de Ziagen é 
+de 450 mg por dia. Esta pode ser dada como 150 mg  (metade de um comprimido) de manhã e 
+300 mg (um comprimido inteiro) à noite ou como 450 mg (um comprimido e meio) uma vez por 
+dia, de acordo com a indicação do seu médico. </p>
+</li>
+<li>
+<p>Crianças que pesem pelo menos 14 kg e menos de 20 kg: A dose habitual de Ziagen é 
+de 300 mg por dia. Esta pode ser dada como 150 mg  (metade de um comprimido) duas vezes 
+por dia ou como 300 mg (um comprimido inteiro) uma vez por dia, de acordo com a indicação 
+do seu médico. </p>
+</li>
+</ul>
+<p>O comprimido pode ser dividido em doses iguais. </p>
+<p>Está também disponível uma solução oral (20 mg abacavir/ml) para o tratamento de crianças 
+com mais de 3 meses de idade que pesem menos de 14 kg, ou para doentes que necessitem de 
+tomar uma dose mais baixa que a dose habitual, ou que não consigam engolir os comprimidos. </p>
+<p>Se tomar mais Ziagen do que deveria 
+Se acidentalmente tomar demasiado Ziagen, informe o seu médico ou farmacêutico, ou contacte 
+o serviço de urgência do hospital mais próximo para aconselhamento adicional. </p>
+<p>Caso se tenha esquecido de tomar Ziagen<br />
+Se se esquecer de tomar uma dose, tome-a assim que se lembrar. A seguir, continue o seu 
+tratamento como antes. Não tome uma dose a dobrar para compensar  uma dose que se esqueceu 
+de tomar. </p>
+<p>É importante que tome Ziagen regularmente, porque se o tomar em intervalos irregulares, 
+poderá ser mais provável que tenha uma reação de hipersensibilidade. </p>
+<p>Se parar de tomar Ziagen 
+Se tiver parado de tomar Ziagen por qualquer motivo - especialmente se motivado por achar que 
+está a ter efeitos indesejáveis, ou porque tem outra doença: 
+Fale com o seu médico antes de começar a tomá-lo outra vez. O seu médico irá avaliar 
+se os seus sintomas estão relacionados com uma reação de hipersensibilidade. Se o seu 
+médico considerar que podem estar relacionados, ser-lhe-á dito para nunca mais tomar 
+Ziagen ou outro medicamento que contenha abacavir (p.ex. Triumeq, Trizivir ou 
+Kivexa). É importante que siga este conselho. </p>
+<p>Se o seu médico o aconselhar a que volte a tomar Ziagen, poder-lhe-á ser pedido que tome as 
+suas primeiras doses num local onde tenha acesso imediato a cuidados médicos caso deles 
+necessite. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Durante a terapêutica para o VIH pode haver um aumento do peso e dos níveis de lípidos e 
+glucose no sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida 
+e, no caso dos lípidos no sangue, por vezes aos próprios medicamentos para o VIH. O seu 
+médico irá realizar testes para determinar estas alterações. </p>
+<p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes 
+não se manifestem em todas as pessoas.<br />
+Ao tratar a infeção pelo VIH, nem sempre é possível saber se os efeitos indesejáveis que 
+ocorrem são causados por Ziagen, por outros medicamentos que está a tomar simultaneamente 
+ou pela própria infeção pelo VIH. Por esta razão, é muito importante que informe o seu 
+médico sobre quaisquer alterações na sua saúde.  </p>
+<p>Mesmo doentes que não têm o gene HLA-B*5701 podem também desenvolver uma reação 
+de hipersensibilidade (uma reação alérgica grave), descrita neste folheto no painel ‘Reações 
+de hipersensibilidade’.  </p>
+<p>É muito importante que leia e compreenda a informação sobre esta reação grave. </p>
+<p>Para além dos efeitos indesejáveis listados abaixo para Ziagen, podem desenvolver-se outros 
+problemas durante a terapêutica combinada para o VIH. 
+É importante que leia a informação mais adiante nesta secção sob o cabeçalho “Outros efeitos 
+indesejáveis possíveis da terapêutica combinada para o VIH". </p>
+<p>Reações de hipersensibilidade </p>
+<p>Ziagen contém abacavir (que é também uma substância ativa em Trizivir, Triumeq e 
+Kivexa). Abacavir pode causar uma reação alérgica grave conhecida como uma reação de 
+hipersensibilidade. Estas reações de hipersensibilidade foram observadas mais frequentemente 
+em pessoas a tomar medicamentos contendo abacavir. </p>
+<p>Quem desenvolve estas reações? 
+Qualquer pessoa que tome Ziagen pode desenvolver uma reação de hipersensibilidade ao 
+abacavir, que pode pôr a vida em risco se continuar a tomar Ziagen. </p>
+<p>Será mais provável que desenvolva uma reação deste tipo se tiver o gene HLA-B<em>5701 (mas 
+poderá ter esta reação mesmo que não tenha este gene). Deverá ter sido testado para a presença 
+deste gene antes de lhe ter sido receitado Ziagen. Se sabe que tem este gene, informe o seu 
+médico antes de tomar Ziagen. Cerca de 3 a 4 em cada 100 doentes tratados com abacavir 
+num ensaio clínico e que não tinham o gene HLA-B</em>5701 desenvolveram uma reação de 
+hipersensibilidade. </p>
+<p>Quais são os sintomas? 
+Os sintomas mais comuns são: </p>
+<ul>
+<li>febre (temperatura alta) e erupção cutânea. </li>
+</ul>
+<p>Outros sintomas comuns são: </p>
+<ul>
+<li>
+<p>náuseas (sentir-se enjoado), vómitos (estar enjoado), diarreia, dor abdominal (estômago), 
+cansaço extremo. </p>
+</li>
+<li>
+<p>Outros sintomas incluem: 
+Dor muscular ou nas articulações, inchaço do pescoço, dificuldade em respirar, dor de garganta, 
+tosse, dores de cabeça ocasionais, inflamação do olho (conjuntivite), úlceras (feridas) na boca, 
+tensão arterial baixa, formigueiro ou adormecimento das mãos ou dos pés. </p>
+</li>
+</ul>
+<p>Quando é que estas reações acontecem? 
+As reações de hipersensibilidade podem começar em qualquer momento durante o tratamento 
+com Ziagen, mas são mais prováveis durante as primeiras 6 semanas de tratamento. </p>
+<p>Se for responsável por uma criança que está a ser tratada com Ziagen, é importante que 
+compreenda a informação sobre esta reação de hipersensibilidade. Se a sua criança 
+manifestar os sintomas descritos abaixo é essencial que siga as instruções dadas. </p>
+<p>Contacte o seu médico imediatamente: 
+1. se tiver uma erupção cutânea, OU 
+2. se tiver sintomas de pelo menos 2 dos seguintes grupos: 
+- febre 
+- falta de ar, garganta irritada ou tosse 
+- náuseas ou vómitos, diarreia ou dores abdominais 
+- cansaço ou dores extremas, ou uma sensação geral de mal-estar. 
+O seu médico poderá aconselhá-lo a parar de tomar Ziagen. </p>
+<p>Se tiver parado de tomar Ziagen </p>
+<p>Se tiver parado de tomar Ziagen por causa de uma reação de hipersensibilidade, NUNCA MAIS 
+deve tomar Ziagen, ou outro medicamento que contenha abacavir (p. ex. Trizivir, 
+Triumeq ou Kivexa). Se o fizer, dentro de horas, a sua tensão arterial poderá descer a níveis 
+perigosamente baixos, o que poderá conduzir à morte. </p>
+<p>Se tiver parado de tomar Ziagen por qualquer razão - especialmente se tiver sido porque pensa 
+que está a ter efeitos indesejáveis, ou porque sofre de outra doença: 
+Fale com o seu médico antes de recomeçar a tomar. O seu médico irá verificar se os seus 
+sintomas estão relacionados com a reação de hipersensibilidade. Se o médico considerar que 
+podem ter relação, dir-lhe-á para nunca mais tomar Ziagen, ou outro medicamento que 
+contenha abacavir (p. ex. Trizivir, Triumeq ou Kivexa). É importante que siga este conselho. </p>
+<p>Ocasionalmente, desenvolveram-se reações de hipersensibilidade em pessoas que voltaram a 
+tomar medicamentos contendo abacavir mas que só tinham tido um dos sintomas do Cartão de 
+Alerta quando o pararam de tomar. </p>
+<p>Muito raramente, doentes que tomaram medicamentos contendo abacavir no passado sem 
+quaisquer sintomas de hipersensibilidade desenvolveram uma reação de hipersensibilidade 
+quando começaram a tomar estes medicamentos novamente. </p>
+<p>Se o seu médico o aconselhar a recomeçar a tomar Ziagen, pode-lhe ser pedido que tome as suas 
+primeiras doses num local onde tenha acesso imediato a cuidados médicos caso deles necessite. </p>
+<p>Se for hipersensível a Ziagen, devolva todos os comprimidos que não tiver usado para que 
+sejam eliminados em segurança. Aconselhe-se com o seu médico ou farmacêutico. </p>
+<p>A embalagem de Ziagen inclui um Cartão de Alerta para o lembrar a si e aos profissionais de 
+saúde sobre as reações de hipersensibilidade. Destaque este cartão e mantenha-o sempre 
+consigo. </p>
+<p>Efeitos indesejáveis frequentes<br />
+Estes podem afetar até 1 em cada 10 pessoas: </p>
+<ul>
+<li>
+<p>reação de hipersensibilidade </p>
+</li>
+<li>
+<p>sentir-se enjoado (náuseas) </p>
+</li>
+<li>
+<p>dores de cabeça  </p>
+</li>
+<li>
+<p>ficar enjoado (vómitos) </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>fadiga, falta de energia </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>erupção cutânea. 
+Efeitos indesejáveis raros<br />
+Estes podem afetar até 1 em cada 1000 pessoas: </p>
+</li>
+<li>
+<p>inflamação do pâncreas (pancreatite). </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito raros 
+Estes podem afetar até 1 em cada 10000 pessoas: </p>
+<ul>
+<li>
+<p>erupção cutânea, que pode formar bolhas e que se assemelha a pequenos alvos (manchas 
+escuras centrais cercadas por uma área mais clara com um anel escuro na borda exterior) 
+(eritema multiforme) </p>
+</li>
+<li>
+<p>erupção cutânea disseminada com bolhas e pele a escamar, particularmente em redor da 
+boca, nariz, olhos e órgãos genitais (síndroma de Stevens-Johnson) e uma forma mais grave que 
+provoca descamação da pele em mais de 30% da superfície corporal (necrólise epidérmica 
+tóxica). </p>
+</li>
+<li>
+<p>acidose láctica (excesso de ácido láctico no sangue) </p>
+</li>
+</ul>
+<p>Se notar algum destes sintomas contacte um médico urgentemente. </p>
+<p>Se tiver efeitos indesejáveis 
+Informe o seu médico ou farmacêutico se algum dos efeitos indesejáveis se agravar ou 
+for problemático, ou se notar algum efeito indesejável não listado neste folheto. </p>
+<p>Outros efeitos indesejáveis possíveis da terapêutica combinada para o VIH 
+A terapêutica combinada, incluindo o Ziagen, pode provocar o desenvolvimento de outros 
+problemas durante o tratamento do VIH. </p>
+<p>Sintomas de infeção e inflamação<br />
+Infeções antigas podem reaparecer 
+Pessoas com infeção avançada pelo VIH (SIDA) têm sistemas imunitários enfraquecidos e estão 
+mais em risco de desenvolver infeções graves (infeções oportunistas). Quando estas pessoas 
+iniciam tratamento, poderão verificar o reaparecimento de infeções antigas e escondidas que 
+provocam sinais e sintomas de inflamação. Estes sintomas são provavelmente provocados pelo 
+fortalecimento do sistema imunitário do corpo, que começa a combater estas infeções. Os 
+sintomas geralmente incluem febre, mais alguns dos seguintes: </p>
+<ul>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>dificuldade em respirar </p>
+</li>
+</ul>
+<p>Em casos raros, à medida que o sistema imunitário se torna mais forte, pode também atacar 
+tecido saudável do corpo (doenças autoimunes). Os sintomas das doenças autoimunes podem 
+desenvolver-se vários meses após ter começado a tomar medicamentos para o tratamento da sua 
+infeção pelo VIH. Os sintomas podem incluir: </p>
+<ul>
+<li>
+<p>palpitações (batimento cardíaco rápido ou irregular) ou tremor </p>
+</li>
+<li>
+<p>hiperatividade (agitação e movimentos excessivos) </p>
+</li>
+<li>
+<p>fraqueza que começa nas mãos e nos pés e avança em direção ao tronco </p>
+</li>
+</ul>
+<p>Se tiver algum sintoma de infeção enquanto estiver a tomar Ziagen: 
+Informe o seu médico imediatamente. Não tome outros medicamentos para a infeção sem 
+o conselho do seu médico. </p>
+<p>Poderá ter problemas com os seus ossos 
+Algumas pessoas a tomar terapêutica combinada para o VIH desenvolvem um problema 
+chamado osteonecrose. Com este problema, partes do tecido ósseo morrem devido à diminuição 
+do fornecimento de sangue ao osso. As pessoas poderão estar em maior risco de ter este 
+problema: </p>
+<ul>
+<li>
+<p>se estiverem a tomar terapêutica combinada há muito tempo </p>
+</li>
+<li>
+<p>se estiverem a tomar também medicamentos anti-inflamatórios chamados corticosteroides </p>
+</li>
+<li>
+<p>se consumirem álcool </p>
+</li>
+<li>
+<p>se os seus sistemas imunitários forem muito fracos </p>
+</li>
+<li>
+<p>se tiverem excesso de peso. </p>
+</li>
+</ul>
+<p>Os sinais de osteonecrose incluem: </p>
+<ul>
+<li>
+<p>rigidez nas articulações </p>
+</li>
+<li>
+<p>incómodos e dores (especialmente na anca, joelho ou ombro) </p>
+</li>
+<li>
+<p>dificuldade de movimentos. 
+Se notar algum destes sintomas: 
+Informe o seu médico. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice 
+V*. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
+segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ziagen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ziagen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem. O  prazo de 
+validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 30°C. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ziagen 
+Cada comprimido revestido por película de Ziagen contém 300 mg da substância ativa, abacavir 
+(sob a forma de sulfato). </p>
+<p>Os outros componentes são celulose microcristalina, carboximetilamido sódico, estearato de 
+magnésio, sílica coloidal anidra no núcleo do comprimido. O revestimento do comprimido 
+contém triacetina, hidroxipropilmetilcelulose, dióxido de titânio, polissorbato 80 e óxido de ferro 
+amarelo. </p>
+<p>Qual o aspeto de Ziagen e conteúdo da embalagem 
+Os comprimidos revestidos por película de Ziagen são gravados com “GX 623" em ambas as 
+faces. Os comprimidos ranhurados são amarelos, oblongos e são fornecidos em embalagem 
+contendo 60 comprimidos acondicionados em blister. </p>
+<p>Titular da Autorização de Introdução no Mercado: ViiV Healthcare BV,<br />
+Van Asch van Wijckstraat 55H, 3811 LP Amersfoort, Holanda </p>
+<p>Fabricante:  </p>
+<p>Delpharm Poznań Spółka Akcyjna, ul. Grunwaldzka 189, 60-322 Poznan, Polónia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do 
+Titular da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+ViiV Healthcare srl/bv 
+Tél/Tel: + 32 (0) 10 85 65<br />
+Lietuva 
+ViiV Healthcare BV 
+Tel: + 370 80000България 
+ViiV Healthcare BV 
+Teл.: + 359 80018 
+Luxembourg/Luxemburg 
+ViiV Healthcare srl/bv 
+Belgique/Belgien 
+Tél/Tel: + 32 (0) 10 85 65 00  </p>
+<p>Česká republika 
+GlaxoSmithKline s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com </p>
+<p>Magyarország 
+ViiV Healthcare BV 
+Tel.: + 36 80088Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+ViiV Healthcare BV 
+Tel: + 356 80065Deutschland 
+ViiV Healthcare GmbH<br />
+Tel.: + 49 (0)89 203 0038-viiv.med.info@viivhealthcare.com </p>
+<p>Nederland 
+ViiV Healthcare BV<br />
+Tel: + 31 (0) 33 2081 
+Eesti 
+ViiV Healthcare BV 
+Tel: + 372 8002 </p>
+<p>Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20 firmapost@gsk.no 
+Ελλάδα 
+GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
+Τηλ: + 30 210 68 82<br />
+Österreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>España 
+Laboratorios ViiV Healthcare, S.L. 
+Tel: +34 900 923 es-ci@viivhealthcare.com </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9France 
+ViiV Healthcare SAS<br />
+Tél.: + 33 (0)1 39 17 6Infomed@viivhealthcare.com </p>
+<p>Hrvatska 
+ViiV Healthcare BV 
+Tel: + 385 800787 
+Portugal 
+VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br />
+Tel: + 351 21 094 08 viiv.fi.pt@viivhealthcare.com </p>
+<p>România 
+ViiV Healthcare BV 
+Tel: + 40 800672Ireland 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955Slovenija 
+ViiV Healthcare BV 
+Tel: + 386 80688869  </p>
+<p>Ísland 
+Vistor hf.<br />
+Sími: +354 535 7 
+Slovenská republika 
+ViiV Healthcare BV 
+Tel: + 421 800500 
+Italia 
+ViiV Healthcare S.r.l<br />
+Tel: + 39 (0)45 7741Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30<br />
+Κύπρος 
+ViiV Healthcare BV 
+Τηλ: + 357 80070 
+Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+ViiV Healthcare BV 
+Tel: + 371 80205 
+United Kingdom (Northern Ireland) 
+ViiV Healthcare BV<br />
+Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
+<p>Este folheto foi revisto pela última vez em {MM/YYYY} </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da 
+Agência Europeia de Medicamentos  http://www.ema.europa.eu 
+Folheto informativo: Informação para o utilizador </p>
+<p>Ziagen 20 mg/ml solução oral 
+abacavir </p>
+<p>Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois 
+contém informação importante para si. 
+- Conserve este folheto. Pode ter necessidade de o ler novamente. 
+- Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico. 
+- Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento 
+pode ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença.<br />
+- Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não 
+indicados neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.<br />
+IMPORTANTE - Reações de hipersensibilidade </p>
+<p>Ziagen contém abacavir (que é também uma substância ativa em medicamentos como Kivexa, 
+Triumeq e Trizivir). Alguns doentes em tratamento com abacavir podem desenvolver uma 
+reação de hipersensibilidade (reação alérgica grave) que pode colocar a vida em risco caso 
+continuem a tomar medicamentos que contenham abacavir. 
+Deve ler com atenção toda a informação na secção “Reações de hipersensibilidade" no 
+painel da Secção 4. A embalagem de Ziagen inclui um Cartão de Alerta, para lembrar a si e aos profissionais de 
+saúde sobre a hipersensibilidade ao abacavir. Destaque este cartão e mantenha-o sempre 
+consigo. </p>         </div>"""      
+
+
+
 
 
                     
@@ -1115,6 +1734,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-e03871853d4da5dc011fec7c683b275d"
 * entry[0].resource = composition-da-e03871853d4da5dc011fec7c683b275d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe03871853d4da5dc011fec7c683b275d"
+* entry[=].resource = mpe03871853d4da5dc011fec7c683b275d
+                            
+                    
+Instance: bundlepackageleaflet-pt-e03871853d4da5dc011fec7c683b275d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ziagen Package Leaflet for language pt"
+Description: "ePI document Bundle for ziagen Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-e03871853d4da5dc011fec7c683b275d"
+* entry[0].resource = composition-pt-e03871853d4da5dc011fec7c683b275d
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpe03871853d4da5dc011fec7c683b275d"
@@ -1216,6 +1857,18 @@ RuleSet: e03871853d4da5dc011fec7c683b275dListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-e03871853d4da5dc011fec7c683b275d) // ziagen pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

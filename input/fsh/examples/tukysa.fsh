@@ -776,6 +776,449 @@ http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-pt-31b0725ade6496816df8ac216511de2c
+InstanceOf: CompositionUvEpi
+Title: "Composition for tukysa Package Leaflet"
+Description:  "Composition for tukysa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp31b0725ade6496816df8ac216511de2c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tukysa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é TUKYSA e para que é utilizado 
+2. O que precisa de saber antes de tomar TUKYSA 
+3. Como tomar TUKYSA 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar TUKYSA 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tukysa e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tukysa e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é TUKYSA 
+TUKYSA é um medicamento para o cancro da mama. Contém a substância ativa tucatinib e pertence 
+a um grupo de medicamentos chamados inibidores das proteínas tirosinacinases, que previnem o 
+crescimento de alguns tipos de células cancerígenas do organismo. </p>
+<p>Para que é utilizado TUKYSA 
+TUKYSA é utilizado em adultos com cancro da mama que: 
+- tem um recetor (alvo) nas células cancerígenas chamado recetor do fator de crescimento 
+epidérmico humano 2 (cancro da mama HER2-positivo) 
+- se espalhou para além do tumor original ou para outros órgãos, tais como o cérebro ou que não 
+pode ser retirado através de cirurgia 
+- foi tratado anteriormente com outros determinados tratamentos para o cancro da mama </p>
+<p>TUKYSA é tomado com dois outros medicamentos anticancerígenos: trastuzumab e capecitabina. 
+Estão disponíveis folhetos informativos para o doente para cada um destes medicamentos. Peça ao seu 
+médico informação sobre estes outros medicamentos. </p>
+<p>Como TUKYSA atua 
+TUKYSA atua bloqueando os recetores HER2 nas células cancerígenas. O HER2 produz sinais que 
+podem ajudar o cancro a crescer, e o seu bloqueio poderá retardar ou parar o crescimento das células 
+cancerígenas ou poderá mesmo matá-las. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tukysa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tukysa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome TUKYSA </p>
+<ul>
+<li>se tem alergia ao tucatinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </li>
+</ul>
+<p>Advertências e precauções </p>
+<ul>
+<li>
+<p>Fale com o seu médico antes de tomar TUKYSA se tem problemas do fígado. Durante o 
+tratamento, o seu médico irá pedir análises para verificar se o seu fígado está a funcionar 
+adequadamente. </p>
+</li>
+<li>
+<p>TUKYSA pode causar diarreia grave. Contacte o seu médico imediatamente ao primeiro sinal de 
+diarreia (fezes moles) e se a sua diarreia continuar acompanhada de náuseas e/ou vómitos. </p>
+</li>
+<li>
+<p>TUKYSA poderá ser prejudicial para os fetos quando é tomado por mulheres grávidas. Fale com o 
+seu médico antes de tomar TUKYSA se pensa estar grávida ou se planeia engravidar. Ver a secção 
+“Gravidez e amamentação" a seguir. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes 
+TUKYSA não deve ser utilizado em crianças com menos de 18 anos de idade. A segurança de 
+TUKYSA e o seu grau de eficácia não foram estudados nesta faixa etária. </p>
+<p>Outros medicamentos e TUKYSA 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Alguns medicamentos podem afetar a forma como TUKYSA atua e TUKYSA pode afetar a forma 
+como esses medicamentos atuam. Estes medicamentos incluem alguns dos seguintes grupos: </p>
+<ul>
+<li>
+<p>Hipericão - um preparado vegetal utilizado para tratar a depressão </p>
+</li>
+<li>
+<p>itraconazol, cetoconazol, voriconazol, posoconazol - utilizados para tratar infeções fúngicas </p>
+</li>
+<li>
+<p>rifampicina - utilizados para tratar infeções bacterianas </p>
+</li>
+<li>
+<p>darunavir, saquinavir, tipranavir - utilizados para tratar a infeção pelo VIH </p>
+</li>
+<li>
+<p>fenitoína, carbamazepina - utilizados para tratar a epilepsia ou um problema doloroso da face 
+chamado nevralgia do trigémio ou para controlar uma perturbação grave do humor quando outros 
+medicamentos não funcionam </p>
+</li>
+<li>
+<p>buspirona - utilizada para tratar determinados problemas de saúde mental </p>
+</li>
+<li>
+<p>sirolímus, tacrolímus - utilizados para controlar a resposta imunitária do organismo após um 
+transplante </p>
+</li>
+<li>
+<p>digoxina - utilizada para tratar problemas do coração </p>
+</li>
+<li>
+<p>lomitapida, lovastatina - utilizados para tratar níveis anormais de colesterol no sangue </p>
+</li>
+<li>
+<p>alfentanilo - utilizado para o alívio da dor </p>
+</li>
+<li>
+<p>avanafil, vardenafil - utilizados para tratar a disfunção erétil </p>
+</li>
+<li>
+<p>darifenacina - utilizada para tratar a incontinência urinária </p>
+</li>
+<li>
+<p>midazolam, triazolam - utilizados para tratar convulsões, perturbações da ansiedade, pânico, 
+agitação e insónia </p>
+</li>
+<li>
+<p>repaglinida - utilizada para tratar a diabetes tipo 2 </p>
+</li>
+<li>
+<p>ebastina - um anti-histamínico utilizado para tratar a rinite alérgica e a 
+rinoconjuntivite sazonais e perenes </p>
+</li>
+<li>
+<p>everolímus, ibrutinib - utilizados para tratar determinados cancros </p>
+</li>
+<li>
+<p>naloxegol - utilizado para tratar a prisão de ventre </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+TUKYSA pode ter efeitos nefastos nos fetos quando é tomado por mulheres grávidas. O seu médico irá 
+pedir um teste de gravidez antes de começar a tomar TUKYSA. </p>
+<ul>
+<li>
+<p>Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de 
+tomar este medicamento. O médico irá ponderar o potencial beneficio para si contra o risco para o 
+feto. </p>
+</li>
+<li>
+<p>Utilize um método de contraceção fiável para evitar engravidar enquanto estiver a tomar 
+TUKYSA e durante, pelo menos, 1 semana após a última dose. </p>
+</li>
+<li>
+<p>Se é um homem e tem uma parceira sexual que pode engravidar, utilize um método de 
+contraceção fiável para evitar uma gravidez enquanto estiver a tomar TUKYSA e durante, 
+pelo menos, 1 semana após a última dose. </p>
+</li>
+<li>
+<p>Se engravidar durante o tratamento com TUKYSA, informe o seu médico. O médico irá avaliar 
+o potencial benefício para si de continuar com este medicamento e o risco para o feto. </p>
+</li>
+</ul>
+<p>Desconhece-se se TUKYSA passa para o leite materno. </p>
+<ul>
+<li>Se está a amamentar ou planeia amamentar, consulte o seu médico antes de tomar este 
+medicamento. Não deve amamentar durante o tratamento com TUKYSA e durante, pelo menos, 
+1 semana após a última dose. Fale com o seu médico sobre a melhor forma de alimentar o seu bebé 
+durante o tratamento. </li>
+</ul>
+<p>Fale com o seu médico ou farmacêutico antes de tomar TUKYSA se tiver dúvidas. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não é de esperar que TUKYSA afete a sua capacidade de conduzir ou utilizar máquinas. Contudo, é 
+responsável por decidir se está capaz de conduzir uma viatura ou efetuar outras tarefas que exigem 
+concentração adicional. </p>
+<p>TUKYSA contém sódio e potássio 
+Este medicamento contém 55,3 mg de sódio (principal componente do sal de cozinha/sal de mesa) em 
+cada dose de 300 mg. Isto é equivalente a 2,75% da ingestão diária máxima de sódio recomendada na 
+dieta para um adulto. </p>
+<p>Este medicamento contém 60,6 mg de potássio por dose de 300 mg. Esta informação deve ser tida em 
+consideração em doentes com função renal diminuída ou em doentes com ingestão controlada de 
+potássio. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tukysa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tukysa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Dosagem 
+A dose recomendada é de 300 mg (dois comprimidos de 150 mg) duas vezes por dia por via oral. </p>
+<p>O seu médico poderá alterar a sua dose de TUKYSA se tiver determinados efeitos indesejáveis. Para 
+poder tomar uma dose mais baixa, o seu médico poderá receitar-lhe comprimidos de 50 mg. </p>
+<p>Modo de administração 
+TUKYSA pode ser tomado com alimentos ou entre as refeições. </p>
+<ul>
+<li>
+<p>Engula os comprimidos inteiros, um a seguir ao outro. </p>
+</li>
+<li>
+<p>Tome cada dose com cerca de 12 horas de intervalo, às mesmas horas do dia. </p>
+</li>
+<li>
+<p>Não mastigue ou esmague o comprimido. </p>
+</li>
+<li>
+<p>Não tome uma dose adicional se vomitar após tomar TUKYSA, em vez disso continue com a dose 
+programada seguinte. </p>
+</li>
+</ul>
+<p>Se tomar mais TUKYSA do que deveria 
+Consulte um médico ou farmacêutico imediatamente. Se possível, mostre-lhes a embalagem. </p>
+<p>Caso se tenha esquecido de tomar TUKYSA 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Simplesmente, tome 
+a dose seguinte à hora programada. </p>
+<p>Se parar de tomar TUKYSA 
+TUKYSA é um tratamento de longa duração e deve tomá-lo continuamente. Não pare de tomar 
+TUKYSA sem falar com o seu médico. </p>
+<p>Enquanto estiver a tomar TUKYSA </p>
+<ul>
+<li>
+<p>Dependendo dos efeitos indesejáveis que possa ter, o seu médico poderá recomendar a redução 
+da dose ou a paragem temporária do tratamento. </p>
+</li>
+<li>
+<p>Durante o tratamento com TUKYSA, o seu médico irá monitorizar o funcionamento do seu 
+fígado. </p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Os seguintes efeitos indesejáveis podem ocorrer com este 
+medicamento. </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>diarreia; </p>
+</li>
+<li>
+<p>sentir-se enjoado (náuseas); </p>
+</li>
+<li>
+<p>vómitos; </p>
+</li>
+<li>
+<p>aftas, inflamação da boca, úlceras na boca; </p>
+</li>
+<li>
+<p>problemas do fígado, que podem causar comichão, amarelecimento dos olhos ou da pele, urina 
+escura e dor ou desconforto na zona superior direita da barriga; </p>
+</li>
+<li>
+<p>erupção na pele; </p>
+</li>
+<li>
+<p>dores nas articulações; </p>
+</li>
+<li>
+<p>perda de peso; </p>
+</li>
+<li>
+<p>hemorragia do nariz. </p>
+</li>
+</ul>
+<p>Informe o seu médico ou farmacêutico se notar quaisquer efeitos indesejáveis. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. </p>
+<p>Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tukysa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tukysa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de TUKYSA 
+A substância ativa é o tucatinib. Cada comprimido revestido por película contém 50 mg ou 150 mg 
+de tucatinib. 
+Os outros componentes são: </p>
+<ul>
+<li>
+<p>Núcleo do comprimido - copovidona, crospovidona, cloreto de sódio, cloreto de potássio, 
+hidrogenocarbonato de sódio, sílica coloidal anidra, estearato de magnésio, celulose 
+microcristalina (ver secção 2 “TUKYSA contém sódio e potássio"). </p>
+</li>
+<li>
+<p>Película de revestimento - álcool polivínilico, dióxido de titânio, macrogol, talco, óxido de ferro 
+amarelo. </p>
+</li>
+</ul>
+<p>Qual o aspeto de TUKYSA e conteúdo da embalagem 
+TUKYSA 50 mg comprimidos revestidos por película (comprimidos) são redondos, amarelos e com 
+“TUC" gravado numa face “50" na outra face. 
+TUKYSA 150 mg comprimidos revestidos por película (comprimidos) são ovais, amarelos e com “TUC" 
+gravado numa face “150" na outra face. </p>
+<p>TUKYSA é fornecido em blisters de folha de alumínio. Cada embalagem contém: 
+TUKYSA 50 mg comprimidos revestidos por película </p>
+<ul>
+<li>
+<p>88 comprimidos (11 blisters de 8 comprimidos cada). 
+TUKYSA 150 mg comprimidos revestidos por película </p>
+</li>
+<li>
+<p>84 comprimidos (21 blisters de 4 comprimidos cada). </p>
+</li>
+</ul>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Seagen B.V. 
+Evert van de Beekstraat 1-1118CL Schiphol 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Seagen B.V. (Nederland/Pays-Bas/Niederlande) 
+Tél/Tel: +32 7848 27 Lietuva 
+Swixx Biopharma UAB<br />
+Tel: +370 5 236 9България 
+Swixx Biopharma EOOD <br />
+Teл.: +359 2 4942 Luxembourg/Luxemburg 
+Seagen B.V. (Pays-Bas/Niederlande) 
+Tél/Tel: +352 27 867 Česká republika 
+Swixx Biopharma s.r.o.<br />
+Tel: +420 242 434 Magyarország 
+Swixx Biopharma Kft. 
+Tel.: +36 1 9206 Danmark 
+Seagen Denmark ApS 
+Tlf: +45 89 88 83 Malta 
+Genesis Pharma (Cyprus) Ltd (Ċipru/Cyprus) 
+Tel: +357 22 765Deutschland 
+Seagen Germany GmbH 
+Tel: +49 893 803 6Nederland 
+Seagen B.V. 
+Tel: +31 202 419Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 1Norge 
+Seagen B.V. (Nederland) 
+Tlf: +45 89 88 83 Ελλάδα 
+ΓΕΝΕΣΙΣ ΦΑΡΜΑ Α.Ε<br />
+Τηλ: +30 210 87 71 Österreich 
+Seagen B.V. (Niederlande) 
+Tel: (+43) 720 778España 
+Pfizer, S.L. 
+Tel: +34 91 490 99 Polska 
+Swixx Biopharma Sp.z o.o. 
+Tel.: +48 22 460 07 France 
+Seagen France SAS 
+Tél: +33 184 88 80 Portugal 
+Seagen B.V. (Países Baixos) 
+Tel: (+351) 211 451 Hrvatska 
+Swixx Biopharma d.o.o.<br />
+Tel: +385 1 2078 România 
+Swixx Biopharma S.R.L. 
+Tel: +40 371 530 Ireland 
+Seagen B.V. (Netherlands) 
+Tel: +353 1903 9Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 2355 Ísland 
+Seagen B.V. (Holland) 
+Sími: +354 539 0Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 20833 Italia 
+Seagen Italy S.r.l. 
+Tel: (+39) 02 82952Suomi/Finland 
+Seagen B.V. (Alankomaat/Nederländerna) 
+Puh/Tel: +358 753 252 Κύπρος 
+Genesis Pharma (Cyprus) Ltd<br />
+Τηλ: +357 22 765Sverige 
+Seagen B.V. (Nederländerna) 
+Tel: (+46) 108 885 Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 6164 United Kingdom (Northern Ireland) 
+Seagen B.V. (Netherlands) 
+Tel: +44 330 818 0 
+Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -817,6 +1260,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-31b0725ade6496816df8ac216511de2c"
 * entry[0].resource = composition-da-31b0725ade6496816df8ac216511de2c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp31b0725ade6496816df8ac216511de2c"
+* entry[=].resource = mp31b0725ade6496816df8ac216511de2c
+                            
+                    
+Instance: bundlepackageleaflet-pt-31b0725ade6496816df8ac216511de2c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tukysa Package Leaflet for language pt"
+Description: "ePI document Bundle for tukysa Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-31b0725ade6496816df8ac216511de2c"
+* entry[0].resource = composition-pt-31b0725ade6496816df8ac216511de2c
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp31b0725ade6496816df8ac216511de2c"
@@ -918,6 +1383,18 @@ RuleSet: 31b0725ade6496816df8ac216511de2cListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-31b0725ade6496816df8ac216511de2c) // tukysa pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

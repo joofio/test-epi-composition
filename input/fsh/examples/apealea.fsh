@@ -1041,6 +1041,572 @@ Lægemidlet er ikke længere autoriseret til salg</p>         </div>"""
 
 
 
+Instance: composition-pt-16b17145743fb4005511a462dcbf7da1
+InstanceOf: CompositionUvEpi
+Title: "Composition for apealea Package Leaflet"
+Description:  "Composition for apealea Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp16b17145743fb4005511a462dcbf7da1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - apealea"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Apealea e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Apealea </li>
+<li>Como é administrado Apealea </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Apealea </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é apealea e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é apealea e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Apealea é um medicamento anticancerígeno que contém a substância ativa paclitaxel, que pertence a 
+um grupo de medicamentos denominado taxanos. O paclitaxel afeta ou interrompe o crescimento de 
+células de divisão rápida, como as células tumorais. </p>
+<p>Apealea é usado para tratar os seguintes cancros nos adultos, em associação com outro medicamento 
+chamado carboplatina: </p>
+<ul>
+<li>
+<p>cancro epitelial do ovário - um cancro do ovário, o órgão que produz os óvulos da mulher;  </p>
+</li>
+<li>
+<p>cancro peritoneal primário - um cancro das células que revestem o espaço entre a parede do 
+abdómen e os órgãos internos; </p>
+</li>
+<li>
+<p>cancro das trompas de Falópio (a ligação entre os ovários e o útero). 
+É utilizado quando outras terapêuticas não funcionaram. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar apealea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar apealea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Apealea: </p>
+<ul>
+<li>
+<p>se tem alergia ao paclitaxel ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>se está a amamentar </p>
+</li>
+<li>
+<p>se tem uma contagem de glóbulos brancos, denominados de neutrófilos, inferior a 1,5 × 109/l 
+antes do início da terapêutica </p>
+</li>
+</ul>
+<p>Fale com o seu médico ou enfermeiro se não tem a certeza se alguma das situações acima se aplica a 
+si. </p>
+<p>Medicamento já não autorizado
+Advertências e precauções </p>
+<p>Fale com o seu médico ou enfermeiro antes de lhe ser administrado Apealea, se tiver: </p>
+<ul>
+<li>
+<p>função hepática, renal ou cardíaca diminuída 
+Apealea não é recomendado para doentes com função hepática ou renal gravemente diminuída. </p>
+</li>
+<li>
+<p>tido anteriormente náuseas, vómitos e diarreia durante tratamentos oncológicos 
+Contacte imediatamente o seu médico se durante o tratamento desenvolver: </p>
+</li>
+<li>
+<p>febre, dor, arrepios, fraqueza ou outros sinais de infeção </p>
+</li>
+<li>
+<p>náuseas, vómitos ou diarreia intensos </p>
+</li>
+<li>
+<p>reações graves no local de perfusão </p>
+</li>
+<li>
+<p>uma reação alérgica </p>
+</li>
+<li>
+<p>dormência, formigueiro ou sensação de picadas, sensibilidade ao toque ou fraqueza muscular 
+Pode necessitar de medicamentos adicionais se desenvolver qualquer um destes sintomas. O seu 
+médico pode decidir adiar os restantes tratamentos com Apealea ou reduzir a dose. </p>
+</li>
+</ul>
+<p>Pergunte ao seu médico ou enfermeiro sobre a queda de cabelo e o que pode fazer para a evitar. </p>
+<p>Será monitorizada atentamente durante o tratamento: </p>
+<ul>
+<li>
+<p>através de análises ao sangue regulares para assegurar que é seguro para si continuar o 
+tratamento </p>
+</li>
+<li>
+<p>quanto a sintomas de reação alérgica durante a perfusão, como: 
+− vermelhidão e inchaço no local da perfusão 
+− tensão arterial baixa 
+− dificuldades em respirar 
+− edema facial </p>
+</li>
+</ul>
+<p>Crianças e adolescentes </p>
+<p>Apealea não é recomendado para crianças ou adolescentes com menos de 18 anos de idade, já que o 
+medicamento não foi estudado neste grupo etário. </p>
+<p>Outros medicamentos e Apealea </p>
+<p>Informe o seu médico se estiver a utilizar, tiver utilizado recentemente, ou se vier a utilizar outros 
+medicamentos. </p>
+<p>Em particular, informe o seu médico ou enfermeiro antes de lhe ser administrado Apealea, se estiver a 
+utilizar: </p>
+<ul>
+<li>
+<p>cetoconazol ou outros medicamentos para tratar infeções fúngicas </p>
+</li>
+<li>
+<p>eritromicina, rifampicina: medicamentos para tratar infeções bacterianas </p>
+</li>
+<li>
+<p>fluoxetina: um medicamento para o tratamento da depressão </p>
+</li>
+<li>
+<p>gemfibrozil: um medicamento para baixar as gorduras no sangue </p>
+</li>
+<li>
+<p>clopidogrel: um medicamento que reduz a probabilidade de desenvolver coágulos sanguíneos </p>
+</li>
+<li>
+<p>cimetidina: um medicamento para reduzir o ácido estomacal </p>
+</li>
+<li>
+<p>efavirenz, nevirapina, ritonavir, saquinavir, indinavir, nelfinavir: medicamentos para tratar a 
+infeção pelo VIH </p>
+</li>
+<li>
+<p>carbamazepina, fenitoína: medicamentos para tratar a epilepsia e determinadas condições 
+dolorosas </p>
+</li>
+<li>
+<p>cisplatina: um medicamento para tratar o cancro </p>
+</li>
+</ul>
+<p>Gravidez e amamentação </p>
+<p>Informe o seu médico antes do tratamento se está grávida, pensa estar grávida ou está a amamentar. </p>
+<p>Medicamento já não autorizado
+Apealea não é recomendado durante a gravidez, uma vez que paclitaxel pode causar defeitos 
+congénitos graves. As doentes que possam engravidar devem utilizar métodos contracetivos eficazes 
+durante e até seis meses após o tratamento com Apealea. </p>
+<p>Pare a amamentação enquanto estiver a ser tratada, dado que o paclitaxel passa para o leite materno e 
+pode ser nocivo para a criança. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Apealea pode causar efeitos indesejáveis como cansaço ou tonturas que podem reduzir a sua 
+capacidade de conduzir ou utilizar máquinas. Não conduza nem utilize máquinas se tiver estes 
+sintomas. </p>
+<p>Apealea contém sódio </p>
+<p>Após reconstituição, este medicamento contém até um máximo de aproximadamente 1,6 g de sódio 
+(componente do sal para cozinhar) por dose. Isto equivale a 80% da ingestão diária máxima de sódio 
+recomendada para um adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar apealea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar apealea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Apealea é administrado a si por um médico ou enfermeiro lentamente gota a gota (perfusão) lento 
+numa veia. A administração demorará cerca de uma hora. A dose baseia-se na sua área de superfície 
+corporal (calculada a partir da sua altura e peso) e dos resultados das análises sanguíneas. A dose 
+habitual é 250 mg/m2 de área de superfície corporal, administrada a cada três semanas durante, no 
+máximo, seis tratamentos. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, no entanto estes não 
+se manifestam em todas as pessoas. </p>
+<p>Fale imediatamente com o seu médico ou enfermeiro se notar algum dos seguintes efeitos: </p>
+<ul>
+<li>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas): 
+− doença nervosa nos braços e pernas, que causa formigueiro, dormência ou dor com 
+sensação de ardor, que pode persistir mais de 6 meses após a descontinuação do paclitaxel </p>
+</li>
+<li>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas): 
+− 
+febre; 
+− fraqueza muscular, cãibras ou espasmos 
+− reações alérgicas, como dificuldades em respirar, desmaio, inchaço do rosto, comichão, 
+sensação de calor, arrepios, particularmente durante a perfusão. Em casos raros, estes 
+podem conduzir a choque alérgico grave. </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis e suas frequências incluem: 
+Muito frequentes (podem afetar mais de 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>nível baixo de glóbulos brancos denominados de neutrófilos </p>
+</li>
+<li>
+<p>falta de apetite </p>
+</li>
+<li>
+<p>diarreia, náuseas, vómitos </p>
+</li>
+<li>
+<p>queda de cabelo </p>
+</li>
+<li>
+<p>dor ou desconforto articular ou muscular </p>
+</li>
+<li>
+<p>fraqueza, cansaço 
+Medicamento já não autorizado</p>
+</li>
+<li>
+<p>reações no local da perfusão como dor, inflamação, descoloração, vermelhidão, inchaço, 
+formigueiro, erupção cutânea, hemorragia </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>nível baixo de glóbulos brancos denominados de leucócitos e granulócitos </p>
+</li>
+<li>
+<p>nível baixo de plaquetas ou glóbulos vermelhos no sangue </p>
+</li>
+<li>
+<p>diminuição do sentido do tato ou da sensibilidade </p>
+</li>
+<li>
+<p>sensação anormal como formigueiro, ardor, picadas ou dormência da pele ou na boca </p>
+</li>
+<li>
+<p>tontura ou sensação de ver tudo a andar à roda </p>
+</li>
+<li>
+<p>alterações do paladar </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>batimento cardíaco rápido </p>
+</li>
+<li>
+<p>dor ou desconforto no peito </p>
+</li>
+<li>
+<p>pressão arterial baixa, rubor, inflamação na veia, dor na veia, aumento do fluxo sanguíneo para 
+algumas partes do corpo </p>
+</li>
+<li>
+<p>dificuldades a respirar, congestão nasal </p>
+</li>
+<li>
+<p>dor abdominal, obstipação, flatulência </p>
+</li>
+<li>
+<p>boca seca, inflamação do revestimento interior da boca </p>
+</li>
+<li>
+<p>vermelhidão da pele, erupção cutânea, comichão, urticária </p>
+</li>
+<li>
+<p>dor por exemplo nos braços, pernas, mamas ou no local do tumor </p>
+</li>
+<li>
+<p>dor nas costas, dor nos ossos </p>
+</li>
+<li>
+<p>inchaço dos tornozelos, pés, rosto ou dedos </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas): </p>
+<ul>
+<li>
+<p>envenenamento do sangue </p>
+</li>
+<li>
+<p>pus nos tecidos corporais </p>
+</li>
+<li>
+<p>inflamação pulmonar, gripe, inflamação das amígdalas </p>
+</li>
+<li>
+<p>herpes simples (uma infeção viral), infeções virais das vias aéreas </p>
+</li>
+<li>
+<p>infeção do trato urinário, inflamação da bexiga </p>
+</li>
+<li>
+<p>infeções da pele, incluindo infeções no local da perfusão </p>
+</li>
+<li>
+<p>distúrbio dos mecanismos de coagulação do sangue no corpo </p>
+</li>
+<li>
+<p>falta de glóbulos brancos e vermelhos, e de plaquetas sanguíneas </p>
+</li>
+<li>
+<p>níveis baixos de potássio, magnésio ou sódio </p>
+</li>
+<li>
+<p>perda excessiva de água (desidratação) </p>
+</li>
+<li>
+<p>reações alérgicas a outros medicamentos como a penicilina </p>
+</li>
+<li>
+<p>depressão, insónia, ansiedade </p>
+</li>
+<li>
+<p>ataque epilético com duração superior a cinco minutos ou mais de um ataque em cinco minutos </p>
+</li>
+<li>
+<p>coma, sentir muito sono e/ou não reagir </p>
+</li>
+<li>
+<p>tónus muscular fraco, paralisia facial </p>
+</li>
+<li>
+<p>toxicidade para o sistema nervoso </p>
+</li>
+<li>
+<p>distúrbio cognitivo (dificuldade a raciocinar ou a processar os pensamentos, dificuldade em 
+lembrar-se) </p>
+</li>
+<li>
+<p>lesão cerebral, acumulação anormal de líquido no cérebro </p>
+</li>
+<li>
+<p>AVC </p>
+</li>
+<li>
+<p>visão desfocada, desconforto ou irritação ocular, olhos lacrimejantes </p>
+</li>
+<li>
+<p>surdez, distúrbio do ouvido interno, zumbidos nos ouvidos </p>
+</li>
+<li>
+<p>distúrbios nos vasos sanguíneos, como: 
+− 
+formação de coágulos sanguíneos 
+− 
+inflamação dos vasos sanguíneos 
+− 
+acumulação de água nos tecidos devido a bloqueio dos vasos linfáticos 
+− 
+afrontamentos 
+− 
+hemorragia </p>
+</li>
+<li>
+<p>paragem cardíaca, insuficiência cardíaca </p>
+</li>
+<li>
+<p>lábios ou pele azulados 
+Medicamento já não autorizado</p>
+</li>
+<li>
+<p>distúrbio do ritmo cardíaco que causa atividade rápida irregular nas câmaras superiores do 
+coração </p>
+</li>
+<li>
+<p>sentir o batimento cardíaco (palpitações), batimento cardíaco lento </p>
+</li>
+<li>
+<p>insuficiência venosa </p>
+</li>
+<li>
+<p>pressão arterial alta, alterações da pressão arterial, palidez </p>
+</li>
+<li>
+<p>insuficiência pulmonar, estreitamento das vias aéreas </p>
+</li>
+<li>
+<p>falta de oxigénio grave, decorrente de respiração anormal </p>
+</li>
+<li>
+<p>dificuldade em produzir sons de voz </p>
+</li>
+<li>
+<p>hemorragia nasal, inflamação alérgica no interior do nariz, corrimento nasal </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>dor e desconforto na boca e garganta, distúrbio da garganta, sangramento das gengivas </p>
+</li>
+<li>
+<p>inflamação do revestimento do estômago, desconforto ou inchaço abdominal, dor abdominal no 
+quadrante inferior </p>
+</li>
+<li>
+<p>indigestão, perturbação do funcionamento intestinal, fezes muito duras, fezes com sangue </p>
+</li>
+<li>
+<p>inflamação ou distúrbio hepático, elevação das enzimas hepáticas no seu sangue </p>
+</li>
+<li>
+<p>inchaço grave doloroso das camadas cutâneas profundas, sobretudo no rosto </p>
+</li>
+<li>
+<p>descoloração da pele, distúrbio da pigmentação </p>
+</li>
+<li>
+<p>inflamação da pele com bolhas </p>
+</li>
+<li>
+<p>aumento da sudação, suores frios </p>
+</li>
+<li>
+<p>pele seca, distúrbio ungueal </p>
+</li>
+<li>
+<p>hemorragia numa articulação </p>
+</li>
+<li>
+<p>sensação de peso nas pernas </p>
+</li>
+<li>
+<p>falha de vários órgãos que pode resultar em morte </p>
+</li>
+<li>
+<p>inchaço dos tecidos causado por excesso de líquido </p>
+</li>
+<li>
+<p>hérnia </p>
+</li>
+<li>
+<p>sensação de calor </p>
+</li>
+<li>
+<p>temperatura corporal baixa </p>
+</li>
+<li>
+<p>hemorragia vaginal </p>
+</li>
+<li>
+<p>níveis anormalmente elevados de compostos sanguíneos azotados </p>
+</li>
+</ul>
+<p>Frequência desconhecida (não pode ser calculada a partir dos dados disponíveis): </p>
+<ul>
+<li>vermelhidão e inchaço das palmas das mãos ou plantas dos pés, o que pode causar descamação 
+da pele  </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis  </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar apealea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar apealea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Frasco para injetáveis antes da abertura: Conservar no frigorífico (2 °C - 8 °C). Manter o frasco 
+para injetáveis dentro da embalagem exterior para proteger da luz. </p>
+<p>Depois de aberto, recomenda-se que Apealea seja utilizado imediatamente. </p>
+<p>Medicamento já não autorizado
+Qualquer medicamento não utilizado ou resíduos devem ser eliminados de acordo com as exigências 
+locais. Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Estas medidas 
+ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Apealea </p>
+<ul>
+<li>
+<p>A substância ativa é o paclitaxel. Um frasco para injetáveis contém 60 mg de paclitaxel. Após 
+preparação, cada mililitro de solução contém 1 mg de paclitaxel (micelar). </p>
+</li>
+<li>
+<p>Os outros componentes são: 
+− 
+Sal sódico do éster metílico do ácido cisteico N-(all-trans-retinoil)-L 
+− 
+Sal sódico do éster metílico do ácido cisteico N-(13-cis-retinoil)-L 
+− 
+Hidróxido de sódio (para ajuste do pH). </p>
+</li>
+</ul>
+<p>Ver a secção 2 «Apealea contém sódio». </p>
+<p>Qual o aspeto de Apealea e conteúdo da embalagem </p>
+<p>Apealea é fornecido na forma de um pó amarelo-esverdeado a amarelo num frasco para injetáveis em 
+vidro com uma rolha de borracha e um selo de alumínio. </p>
+<p>Cada embalagem contém 1 frasco para injetáveis com pó equivalente a 60 mg de paclitaxel. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Inceptua AB 
+Gustavslundsv. 16751 Bromma 
+Suécia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o Titular da Autorização de 
+Introdução no Mercado: </p>
+<p>Este folheto informativo foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1082,6 +1648,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-16b17145743fb4005511a462dcbf7da1"
 * entry[0].resource = composition-da-16b17145743fb4005511a462dcbf7da1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp16b17145743fb4005511a462dcbf7da1"
+* entry[=].resource = mp16b17145743fb4005511a462dcbf7da1
+                            
+                    
+Instance: bundlepackageleaflet-pt-16b17145743fb4005511a462dcbf7da1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for apealea Package Leaflet for language pt"
+Description: "ePI document Bundle for apealea Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-16b17145743fb4005511a462dcbf7da1"
+* entry[0].resource = composition-pt-16b17145743fb4005511a462dcbf7da1
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp16b17145743fb4005511a462dcbf7da1"
@@ -1183,6 +1771,18 @@ RuleSet: 16b17145743fb4005511a462dcbf7da1ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-16b17145743fb4005511a462dcbf7da1) // apealea pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

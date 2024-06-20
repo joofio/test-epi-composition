@@ -815,6 +815,473 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-d674db7613c7ef04137ad9c28d3399bb
+InstanceOf: CompositionUvEpi
+Title: "Composition for sildenafil Package Leaflet"
+Description:  "Composition for sildenafil Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd674db7613c7ef04137ad9c28d3399bb)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - sildenafil"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Sildenafil Teva e para que é utilizado 
+2. O que precisa de saber antes de tomar Sildenafil Teva 
+3. Como tomar Sildenafil Teva 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Sildenafil Teva 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é sildenafil e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é sildenafil e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sildenafil Teva contém a substância ativa sildenafil, que pertence a um grupo de medicamentos 
+designado por inibidores da fosfodiesterase tipo 5 (PDE5). Este medicamento actua por relaxamento 
+dos vasos sanguíneos do pénis, permitindo o afluxo de sangue para o pénis, quando sexualmente 
+estimulado. Sildenafil Teva só o ajudará a obter uma erecção se for sexualmente estimulado.  </p>
+<p>Sildenafil Teva é um tratamento para os homens adultos com disfunção eréctil, mais vulgarmente 
+conhecida por impotência. Isto é, quando um homem não consegue obter, ou manter, uma rigidez do 
+pénis em erecção, adequada à actividade sexual. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar sildenafil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar sildenafil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Sildenafil Teva </p>
+<ul>
+<li>
+<p>Se tem alergia ao sildenafil ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>Se está a tomar medicamentos designados por nitratos, pois a combinação poderá causar uma 
+queda perigosa na sua tensão arterial. Informe o seu médico se está a tomar algum destes 
+medicamentos, que são normalmente utilizados para o alívio da angina de peito (ou “dor no 
+peito"). Se tem dúvidas, informe-se junto do seu médico ou farmacêutico. </p>
+</li>
+<li>
+<p>Se está a utilizar algum dos medicamentos conhecidos como dadores de óxido nítrico, tal como o 
+nitrito de amilo (“poppers“), pois a combinação poderá levar a queda perigosa na sua tensão 
+arterial. </p>
+</li>
+<li>
+<p>Se estiver a tomar riociguat. Este fármaco é utilizado para tratar a hipertensão arterial pulmonar 
+(ou seja, pressão sanguínea elevada nos pulmões) e a hipertensão pulmonar tromboembólica 
+crónica (ou seja, pressão sanguínea elevada nos pulmões devido à presença de coágulos). Os 
+inibidores da PDE5, como Sildenafil Teva, demonstraram aumentar os efeitos hipotensores deste 
+medicamento. Se estiver a tomar riociguat ou se tiver dúvidas, fale com o seu médico. </p>
+</li>
+<li>
+<p>Se tem problemas cardíacos ou hepáticos graves. </p>
+</li>
+<li>
+<p>Se teve um acidente vascular cerebral ou um enfarte do miocárdio recentemente, ou se tem pressão 
+arterial baixa. </p>
+</li>
+<li>
+<p>Se tem determinadas doenças oculares hereditárias raras (tal como, retinite pigmentosa). </p>
+</li>
+<li>
+<p>Se alguma vez teve perda de visão devido a neuropatia óptica isquémica anterior não artrítica 
+(NAION). </p>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Sildenafil Teva </p>
+<ul>
+<li>
+<p>Se tem anemia falciforme (uma anomalia nos glóbulos vermelhos), leucemia (cancro das células 
+do sangue), mieloma múltiplo (cancro da medula óssea). </p>
+</li>
+<li>
+<p>Se tem deformação do pénis ou doença de Peyronie. </p>
+</li>
+<li>
+<p>Se tem problemas cardíacos. O seu médico deve avaliar cuidadosamente se o seu coração suporta 
+o esforço adicional associado a uma relação sexual. </p>
+</li>
+<li>
+<p>Se tem actualmente uma úlcera do estômago ou um problema hemorrágico (tal como a hemofilia). </p>
+</li>
+<li>
+<p>Se teve diminuição ou perda súbita da visão, pare de tomar Sildenafil Teva e contacte 
+imediatamente o seu médico. </p>
+</li>
+</ul>
+<p>Não deve utilizar Sildenafil Teva em simultâneo com quaisquer outros tratamentos orais ou locais para 
+a disfunção eréctil. </p>
+<p>Não deve utilizar Sildenafil Teva em simultâneo com terapêuticas para a hipertensão arterial pulmonar 
+(HAP) contendo sildenafil ou quaisquer outros inibidores da PDE5.<br />
+Não deve tomar Sildenafil Teva se não tiver disfunção eréctil. </p>
+<p>Não deve tomar Sildenafil Teva se for mulher. </p>
+<p>Cuidados especiais a ter em doentes com problemas renais ou hepáticos 
+Deve informar o seu médico se tem problemas renais ou hepáticos. O seu médico pode prescrever-lhe 
+uma dose mais baixa. </p>
+<p>Crianças e adolescentes </p>
+<p>Sildenafil Teva não deve ser administrado a indivíduos com idade inferior a 18 anos. </p>
+<p>Outros medicamentos e Sildenafil Teva 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos.  </p>
+<p>Sildenafil Teva comprimidos pode interferir com alguns medicamentos, em especial com os utilizados 
+para tratamento da “dor no peito". Em caso de urgência médica, deve informar o seu médico, 
+farmacêutico ou enfermeiro que está a tomar Sildenafil Teva e quando o fez. Não tome Sildenafil Teva 
+com outros medicamentos excepto se o seu médico lhe disser que o pode fazer. </p>
+<p>Não deve tomar Sildenafil Teva caso esteja a tomar medicamentos designados de nitratos, pois a 
+combinação destes medicamentos pode causar uma queda na sua tensão arterial. Informe sempre o seu 
+médico, farmacêutico ou enfermeiro se estiver a tomar algum destes medicamentos, que são 
+normalmente utilizados para o alívio da angina de peito (ou “dor no peito"). </p>
+<p>Não deve tomar Sildenafil Teva se está a utilizar algum dos medicamentos conhecidos como dadores 
+de óxido nítrico, tal como o nitrito de amilo (“poppers“), pois a combinação poderá também levar a 
+uma quedaperigosa na sua tensão arterial. </p>
+<p>Se já estiver a tomar riociguat, informe o seu médico ou farmacêutico. </p>
+<p>Se está a tomar medicamentos conhecidos como inibidores das proteases, tais como para o tratamento 
+do VIH, o seu médico poderá iniciar o tratamento com a dose mais baixa de Sildenafil Teva (25 mg). </p>
+<p>Alguns doentes que estejam a tomar bloqueadores alfa para o tratamento da pressão arterial elevada ou 
+para o aumento da próstata, poderão sentir tonturas ou terem sensação de desmaio, que poderão ser 
+causados pela pressão arterial baixa quando o indivíduo se senta ou se levanta rapidamente. Alguns 
+doentes tiveram estes sintomas quando tomaram Sildenafil Teva com bloqueadores alfa. É mais 
+provável que estas situações ocorram dentro de um período de 4 horas após tomar Sildenafil Teva. 
+Para reduzir a probabilidade de ocorrência destes sintomas, deverá estar a tomar uma dose diária 
+regular do seu bloqueador alfa antes de iniciar o tratamento com Sildenafil Teva. No início do 
+tratamento, o seu médico poderá prescrever-lhe a dose mais baixa de Sildenafil Teva (25 mg). </p>
+<p>Informe o seu médico ou farmacêutico se já estiver a tomar medicamentos que contêm 
+sacubitril/valsartan, utilizados para tratar a insuficiência cardíaca. </p>
+<p>Ao tomar Sildenafil Teva com alimentos, bebidas e álcool 
+Sildenafil Teva pode ser tomado com ou sem alimentos. No entanto, pode achar que Sildenafil Teva 
+pode demorar mais tempo a actuar se o tomar com uma refeição mais pesada. </p>
+<p>A ingestão de bebidas alcoólicas pode impedir temporariamente a capacidade de obter uma erecção. 
+Para obter o máximo benefício do medicamento, é aconselhado a não ingerir grandes quantidades 
+bebidas alcoólicas antes de tomar Sildenafil Teva. </p>
+<p>Gravidez, amamentação e fertilidade 
+Sildenafil Teva não é indicado para utilização por mulheres. </p>
+<p>Condução de veículos e utilização de máquinas 
+Sildenafil Teva pode provocar tonturas e afectar a visão. Deve estar consciente de como reage ao 
+Sildenafil Teva antes de conduzir ou utilizar máquinas. </p>
+<p>Sildenafil Teva contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cada comprimido revestido por 
+película, ou seja, é praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar sildenafil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar sildenafil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. A dose inicial recomendada é de 50 mg. </p>
+<p>Não deve tomar Sildenafil Teva mais do que uma vez ao dia. </p>
+<p>Não tome Sildenafil Teva comprimidos revestidos por película em combinação com comprimidos 
+orodispersíveis contendo sildenafil. </p>
+<p>Deve tomar Sildenafil Teva cerca de uma hora antes da hora planeada para a actividade sexual. Tome 
+o comprimido inteiro, com um copo de água. </p>
+<p>Fale com o seu médico ou farmacêutico se sentir que o efeito de Sildenafil Teva é demasiado forte ou 
+demasiado fraco. </p>
+<p>Sildenafil Teva apenas o ajudará a obter uma erecção se for sexualmente estimulado. O período de 
+tempo que o Sildenafil Teva demora a actuar varia de pessoa para pessoa, mas, normalmente, esse 
+período varia entre meia hora e uma hora. Poderá verificar que o Sildenafil Teva demora mais tempo a 
+actuar se for tomado com uma refeição mais pesada. </p>
+<p>Se o Sildenafil Teva não o ajudar a ter erecção ou se a erecção não durar o suficiente para completar a 
+relação sexual, deverá informar o seu médico. </p>
+<p>Se tomar mais Sildenafil Teva do que deveria 
+Poderá experimentar um aumento dos efeitos indesejáveis e da sua gravidade. Doses superiores a 
+100 mg não aumentam a eficácia. </p>
+<p>Não deve tomar mais comprimidos do que aqueles que o seu médico lhe indicou. </p>
+<p>Se tomar mais comprimidos do que deveria, contacte o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>
+<ol>
+<li>Efeitos indesejáveis possiveis  </li>
+</ol>
+<p>Como todos os medicamentos, este pode causar efeitos indesejáveis, no entanto estes não se 
+manifestam em todas as pessoas. Estes efeitos indesejáveis comunicados associados ao uso de 
+Sildenafil Teva são habitualmente ligeiros a moderados e de curta duração. </p>
+<p>Se tiver algum dos efeitos indesejáveis graves abaixo indicados, pare de tomar Sildenafil Teva e 
+procure ajuda médica imediatamente: </p>
+<ul>
+<li>
+<p>Reação alérgica - ocorre pouco frequentemente (pode afetar até 1 em 100 pessoas) 
+Os sintomas incluem pieira súbita, dificuldade em respirar ou tonturas, inchaço das pálpebras, 
+rosto, lábios ou garganta. </p>
+</li>
+<li>
+<p>Dores no peito - ocorre pouco frequentemente: 
+Se ocorrer durante ou após o acto sexual: </p>
+</li>
+<li>
+<p>Coloque-se numa posição semi-sentada e tente relaxar. </p>
+</li>
+<li>
+<p>Não utilize nitratos para tratar a sua dor no peito. </p>
+</li>
+<li>
+<p>Erecções prolongadas e, por vezes, dolorosas -  ocorre raramente (pode afetar até 1 em 1pessoas) 
+Se tiver uma erecção que dure continuamente mais de 4 horas, deve contactar um médico 
+imediatamente. </p>
+</li>
+<li>
+<p>Diminuição ou perda súbita de visão - ocorre raramente  </p>
+</li>
+<li>
+<p>Reações na pele graves - ocorre raramente 
+Os sintomas podem incluir descamação e inchaço cutâneo grave, bolhas na boca, órgãos 
+genitais e em torno dos olhos, febre. </p>
+</li>
+<li>
+<p>Convulsões ou ataques - ocorre raramente </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis: </p>
+<p>Muito frequente (que pode afetar mais de 1 pessoa em cada 10): dor de cabeça </p>
+<p>Frequentes (que podem afetar até 1 pessoa em cada 10): náuseas, vermelhidão facial, afrontamento 
+(os sintomas incluem uma súbita sensação de calor na parte superior do corpo), indigestão, visão com 
+traços coloridos, visão turva, perturbação visual, nariz entupido e tonturas. </p>
+<p>Pouco frequentes (que podem afetar até 1 pessoa em cada 100): vómitos, erupção cutânea, irritação 
+ocular, olhos vermelhos, dor ocular, cintilações visuais, nitidez visual, sensibilidade à luz, olhos 
+lacrimejantes, palpitações, batimentos cardíacos rápidos, tensão arterial alta, tensão arterial baixa, dor 
+muscular, sonolência, sensação de tato diminuída, vertigem, zumbidos nos ouvidos, boca seca, seios 
+nasais entupidos, inflamação do revestimento do nariz (os sintomas incluem nariz com corrimento, 
+espirros e nariz entupido), dor abdominal alta, doença de refluxo gastroesofágico (os sintomas incluem 
+azia), presença de sangue na urina, dor nos braços ou pernas, hemorragia nasal, sensação de calor e 
+sensação de cansaço. </p>
+<p>Raros (que podem afetar até 1 pessoa em cada 1000): desmaios, acidente vascular cerebral, ataque 
+cardíaco, batimento cardíaco irregular, diminuição temporária do afluxo de sangue a certas regiões do 
+cérebro, sensação de aperto na garganta, boca dormente, hemorragia retiniana, visão dupla, acuidade 
+visual reduzida, sensação anormal no olho, inchaço do olho ou pálpebra, pequenas partículas ou 
+manchas na visão, visão de halos à volta das luzes, dilatação da pupila do olho, alteração na cor da 
+esclerótica, hemorragia do pénis, presença de sangue no sémen, nariz seco, tumefação do interior do 
+nariz, irritabilidade e diminuição ou perda súbita da audição. </p>
+<p>Na experiência pós-comercialização, foram notificados casos raros de angina instável (problema 
+cardíaco) e morte súbita. De notar que a maioria dos homens, mas não todos, que tiveram estes efeitos 
+indesejáveis já sofriam de problemas cardíacos antes de tomarem este medicamento. Não é possível 
+determinar se estes acontecimentos tiveram uma relação direta com a administração de Sildenafil 
+Teva.  </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V*. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e na caixa, após EXP. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar na embalagem de origem para proteger da humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas irão ajudar a 
+proteger o ambiente. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar sildenafil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar sildenafil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Sildenafil Teva 
+A substância activa é sildenafil. 
+Cada comprimido contém 25 mg de sildenafil (sob a forma de sal de citrato). </p>
+<p>Os outros componentes são: 
+Núcleo do comprimido: celulose microcristalina, hidrogenofosfato de cálcio, croscarmelose sódica, 
+estearato de magnésio. 
+Revestimento: álcool polivinílico, dióxido de titânio (E171), macrogol 3350, talco. </p>
+<p>Qual o aspecto de Sildenafil Teva e conteúdo da embalagem 
+Sildenafil Teva 25 mg são comprimidos revestidos por película branca em forma oval, marcado com 
+“S 25" de um lado, e plano do outro lado. 
+Sildenafil Teva está disponível em embalagens com blisteres contendo 2, 4, 8 e 12 comprimidos e 
+blisteres perfurados de dose unitária contendo 10 x 1 comprimidos. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Teva B.V. 
+Swensweg 5 
+2031GA Haarlem 
+Países Baixos </p>
+<p>Fabricante 
+Teva Pharmaceutical Works Private Limited Company 
+Pallagi út 4042 Debrecen<br />
+Hungria  </p>
+<p>Teva Pharma,S.L.U.<br />
+Polígono Industrial Malpìca, calle C,no.4 
+50016 Zaragoza<br />
+Espanha </p>
+<p>Teva Operations Poland Sp.z.o.o. 
+ul Mogilska 80. 31-546, Krakow,<br />
+Polónia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg 
+ratiopharm GmbH 
+Allemagne/Deutschland 
+Tél/Tel: +49 73140 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+Specifar Α.Β.Ε.Ε. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+Specifar Α.Β.Ε.Ε. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência 
+Europeia de Medicamentos http://www.ema.europa.eu/. 
+Folheto informativo: informação para o doente </p>
+<p>Sildenafil Teva 50 mg Comprimidos revestidos por película 
+sildenafil </p>
+<p>Leia atentamente todo este folheto antes de começar a tomar este medicamento, pois contém 
+informação importante para si 
+- Conserve este folheto. Pode ter necessidade de o ler novamente. 
+- Caso ainda tenha dúvidas, fale com o seu médico, farmacêutico ou enfermeiro. 
+- Este medicamento foi receitado apenas para si. Não deve dá-lo a outros; o medicamento pode 
+ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença.. 
+- Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. </p>
+<p>O que contem este folheto </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+
+
+
 
 
                     
@@ -856,6 +1323,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d674db7613c7ef04137ad9c28d3399bb"
 * entry[0].resource = composition-da-d674db7613c7ef04137ad9c28d3399bb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd674db7613c7ef04137ad9c28d3399bb"
+* entry[=].resource = mpd674db7613c7ef04137ad9c28d3399bb
+                            
+                    
+Instance: bundlepackageleaflet-pt-d674db7613c7ef04137ad9c28d3399bb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sildenafil Package Leaflet for language pt"
+Description: "ePI document Bundle for sildenafil Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d674db7613c7ef04137ad9c28d3399bb"
+* entry[0].resource = composition-pt-d674db7613c7ef04137ad9c28d3399bb
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd674db7613c7ef04137ad9c28d3399bb"
@@ -957,6 +1446,18 @@ RuleSet: d674db7613c7ef04137ad9c28d3399bbListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d674db7613c7ef04137ad9c28d3399bb) // sildenafil pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

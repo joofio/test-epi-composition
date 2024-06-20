@@ -1026,6 +1026,543 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-bdb3583748a144c4aaf24f2e42bc1ae4
+InstanceOf: CompositionUvEpi
+Title: "Composition for stalevo Package Leaflet"
+Description:  "Composition for stalevo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbdb3583748a144c4aaf24f2e42bc1ae4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - stalevo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Stalevo e para que é utilizado
+2. O que precisa de saber antes de tomar Stalevo
+3. Como tomar Stalevo
+4. Efeitos indesejáveis possíveis
+5. Como conservar Stalevo
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é stalevo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é stalevo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Stalevo contém três substâncias ativas (levodopa, carbidopa e entacapona) num comprimido revestido 
+por película. Stalevo é utilizado para o tratamento da doença de Parkinson.
+A doença de Parkinson é provocada por níveis baixos de uma substância no cérebro denominada 
+dopamina. A levodopa aumenta a quantidade de dopamina reduzindo assim os sintomas da doença de 
+Parkinson. A carbidopa e a entacapona potenciam os efeitos antiparkinsónicos da levodopa.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar stalevo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar stalevo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Stalevo</h2>
+<p>se tem alergia à levodopa, carbidopa ou entacapona ou a qualquer outro componente deste 
+medicamento (indicados na secção 6)
+-
+se sofre de glaucoma de ângulo estreito (uma perturbação dos olhos)
+-
+se tiver um tumor das glândulas suprarrenais
+-
+se estiver a tomar determinados medicamentos para o tratamento da depressão (combinações de 
+inibidores seletivos da MAO-A e MAO-B ou inibidores não seletivos da MAO)
+-
+se alguma vez tiver sofrido de síndrome maligna dos neurolépticos (SMN - trata-se de uma
+reação rara a medicamentos utilizados para tratar perturbações mentais graves)
+-
+se alguma vez tiver sofrido de rabdomiólise não traumática (uma perturbação muscular rara)
+-
+se sofre de doença do fígado grave.
+Advertências e precauções
+Fale com o seu médico ou farmacêutico antes de tomar Stalevo se sofre ou sofreu alguma vez de: 
+-
+um ataque cardíaco ou quaisquer outras doenças do coração, incluindo arritmias cardíacas, ou 
+dos vasos sanguíneos
+-
+asma ou qualquer outra doença dos pulmões
+-
+um problema hepático (no fígado), porque a sua dose poderá ter que ser ajustada
+-
+doenças relacionadas com os rins ou as hormonas
+-
+úlceras de estômago ou convulsões
+44
+-
+se tiver diarreia prolongada, consulte o seu médico pois tal pode ser um sinal de inflamação do 
+cólon
+-
+qualquer forma de perturbação mental grave como, por exemplo, psicose
+-
+glaucoma de ângulo aberto crónico, porque a sua dose poderá ter que ser ajustada e a sua 
+pressão ocular controlada.
+Consulte o seu médico se estiver a tomar atualmente:
+-
+antipsicóticos (medicamentos utilizados para tratar psicoses)
+-
+um medicamento que poderá causar diminuição da pressão arterial quando se levanta de uma 
+cadeira ou de uma cama. Deve estar consciente de que Stalevo pode agravar estas reações.
+Consulte o seu médico se, durante o tratamento com Stalevo:
+-
+notar que os seus músculos ficam muito rígidos ou abanam violentamente ou se sofrer de 
+tremores, agitação, confusão, febre, pulsação acelerada ou grandes flutuações na tensão arterial. 
+Se sentir qualquer um destes sintomas, deve contactar imediatamente o seu médico.
+-
+Se se sentir deprimido, tiver pensamentos suicidas ou detetar mudanças estranhas no seu 
+comportamento
+-
+Der por si a adormecer de repente ou se se sentir muito sonolento. Se isto acontecer, não deverá
+conduzir nem utilizar quaisquer ferramentas ou máquinas (ver também secção “Condução de 
+veículos e utilização de máquinas").
+-
+Começar a ter movimentos descontrolados ou se estes se agravarem depois de ter começado a 
+tomar Stalevo. Se tal acontecer, o seu médico pode necessitar de alterar a dose dos seus 
+medicamentos antiparkinsónicos.
+-
+Tiver diarreia: o seu peso deve ser controlado para evitar perda de peso potencialmente 
+excessiva
+-
+Tiver anorexia progressiva, astenia (fraqueza, exaustão) e perda de peso durante um período de 
+tempo relativamente curto. Se isto acontecer deverá considerar-se uma avaliação médica geral 
+incluindo a função hepática.
+-
+Sentir necessidade de deixar de utilizar Stalevo, ver secção “Se parar de tomar Stalevo".
+Avise o seu médico se você ou um familiar/cuidador seu reparar que está a desenvolver sintomas de 
+dependência que o levam a ansiar por doses elevadas de Stalevo e outros medicamentos utilizados no 
+tratamento da doença de Parkinson.
+Informe o seu médico se você ou a sua família/cuidador notar que está a desenvolver anseios ou 
+desejos de se comportar de formas que não são habituais para si ou se não conseguir resistir ao 
+impulso, vontade ou tentação de efetuar algumas atividades que lhe possam causar danos a si ou a 
+outros. Estes comportamentos são chamados distúrbios do controlo de impulsos e podem incluir vício 
+de jogo, comer ou gastar em excesso, motivação sexual anormalmente elevada ou preocupação com o 
+aumento de pensamentos ou sensações sexuais. O seu médico pode rever os seus tratamentos.
+O seu médico poderá mandar realizar alguns testes laboratoriais regulares durante um tratamento a 
+longo prazo com Stalevo.
+Se tiver que ser sujeito a uma intervenção cirúrgica, informe o seu médico que está a tomar Stalevo.
+Não se recomenda a utilização de Stalevo para o tratamento de sintomas extrapiramidais (por exemplo, 
+movimentos involuntários, tremores, rigidez muscular e contrações musculares) causados por outros 
+medicamentos. 
+Crianças e adolescentes
+A experiência com Stalevo em doentes com menos de 18 anos de idade é limitada. Não é recomendada 
+por este motivo, a utilização de Stalevo em crianças ou adolescentes.
+Outros medicamentos e Stalevo 
+45
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.
+Não tome Stalevo se estiver a tomar determinados medicamentos para o tratamento da depressão 
+(combinações de inibidores seletivos da MAO-A e MAO-B ou inibidores não seletivos da MAO).
+Stalevo pode potenciar os efeitos e os efeitos indesejáveis de certos medicamentos. Estes incluem:
+-
+medicamentos utilizados para tratar depressão como, por exemplo, moclobemida, amitriptilina, 
+desipramina, maprotilina, venlafaxina e paroxetina
+-
+rimiterol e isoprenalina, utilizados para tratar doenças respiratórias
+-
+adrenalina, utilizada para reações alérgicas graves
+-
+noradrenalina, dopamina e dobutamina, utilizadas para tratar doenças cardíacas e pressão arterial 
+baixa
+-
+alfa-metildopa, utilizada para tratar pressão arterial alta
+-
+apomorfina, que é utilizada para tratar a doença de Parkinson.
+Os efeitos de Stalevo podem ser enfraquecidos por determinados medicamentos. Estes incluem:
+-
+antagonistas da dopamina utilizados para o tratamento de perturbações mentais, náuseas e 
+vómitos
+-
+fenitoína, utilizada para evitar as convulsões
+-
+papaverina, utilizada para relaxar os músculos.
+Stalevo pode tornar mais difícil a digestão do ferro. Por isso, não tome Stalevo e suplementos de ferro 
+ao mesmo tempo. Depois de tomar um deles, espere pelo menos 2 a 3 horas antes de tomar o outro.
+Stalevo com alimentos e bebidas
+Stalevo pode ser tomado com ou sem alimentos. Para alguns doentes, Stalevo poderá não ser bem 
+absorvido se for tomado ao mesmo tempo ou pouco depois da ingestão de alimentos ricos em proteínas 
+(como carnes, peixes, lacticínios, sementes e nozes). Consulte o seu médico se achar que isto se aplica 
+a si.
+Gravidez, amamentação e fertilidade
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico
+ou farmacêutico antes de tomar este medicamento.
+Não deve amamentar durante o tratamento com Stalevo.
+Condução de veículos e utilização de máquinas
+Stalevo pode baixar a sua pressão arterial, o que pode fazer com que sinta tonturas ou vertigens. Por 
+isso, seja particularmente cuidadoso quando conduzir ou utilizar máquinas ou ferramentas.
+No caso de se sentir muito sonolento ou de dar por si, por vezes, a adormecer subitamente, espere até 
+se sentir de novo completamente acordado antes de conduzir ou de fazer qualquer coisa que exija que 
+esteja alerta. Caso contrário, pode colocar-se a si ou aos outros em risco de sofrer ferimentos graves ou 
+de morrer.
+Stalevo contém sacarose 
+Stalevo contém sacarose (1,2 mg/comprimido). Se foi informado pelo seu médico que tem intolerância 
+a alguns açúcares, contacte-o antes de tomar este medicamento.
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose diária máxima 
+recomendada, ou seja, é praticamente ‘isento de sódio’.
+46</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar stalevo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar stalevo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.
+Para adultos e idosos:
+-
+O seu médico dir-lhe-á exatamente quantos comprimidos de Stalevo deve tomar por dia.
+-
+Os comprimidos não devem ser divididos ou partidos em pedaços mais pequenos.
+-
+Só deve tomar um comprimido em cada uma das tomas.
+-
+Dependendo da forma como responder ao tratamento, o seu médico poderá sugerir uma dose mais 
+elevada ou mais baixa.
+-
+Se está a tomar comprimidos de Stalevo 50 mg/12,5 mg/200 mg, 75 mg/18,75 mg/200 mg, 
+100 mg/25 mg/200 mg, 125 mg/31,25 mg/200 mg ou 150 mg/37,5 mg/200 mg, não tome mais do 
+que 10 comprimidos por dia. 
+Fale com o seu médico ou farmacêutico se achar que o efeito de Stalevo é demasiado fraco ou 
+demasiado forte, ou se sentir possíveis efeitos indesejáveis.
+Para abrir o frasco pela primeira vez: abra a tampa e de 
+seguida pressione o selo com o polegar até ele romper. 
+Ver figura 1. Figura 1
+Se tomar mais Stalevo do que deveria
+Se tiver tomado, acidentalmente, mais comprimidos de Stalevo do que deveria, contacte 
+imediatamente o seu médico ou farmacêutico. Em caso de sobredosagem poderá sentir-se confuso ou 
+agitado, a sua frequência cardíaca poderá estar mais lenta ou mais rápida do que o normal ou a cor da 
+sua pele, língua, olhos ou urina poderá alterar-se.
+Caso se tenha esquecido de tomar Stalevo
+Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar.
+Se faltar mais do que 1 hora para a dose seguinte:
+tome um comprimido assim que se lembrar e o comprimido seguinte à hora habitual.
+Se faltar menos do que 1 hora para a dose seguinte:
+tome um comprimido assim que se lembrar, espere 1 hora e, depois, tome outro comprimido. Depois 
+disto, volte ao esquema normal.
+Deixe passar sempre, pelo menos, uma hora entre cada comprimido de Stalevo, para evitar possíveis 
+efeitos indesejáveis.
+Se parar de tomar Stalevo
+Não deixe de tomar Stalevo a não ser que o seu médico lhe dê instruções para tal. Se isso acontecer, o 
+seu médico poderá ter de ajustar a dosagem dos seus outros medicamentos antiparkinsónicos, em 
+especial a levodopa, para permitir um controlo adequado dos seus sintomas. Se parar de tomar 
+repentinamente Stalevo e outros medicamentos antiparkinsónicos pode dar origem a efeitos 
+indesejáveis indesejados. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.
+47</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Muitos dos efeitos indesejáveis podem ser aliviados por meio de 
+ajuste da dose.
+Se durante o tratamento com Stalevo sentir algum dos sintomas indicados a seguir, contacte o seu 
+médico imediatamente:
+-
+Os seus músculos ficam muito rígidos ou abanam violentamente, se sofrer de tremores, 
+agitação, confusão, febre, pulsação acelerada ou grandes flutuações na pressão arterial. Estes 
+podem ser sintomas de síndrome maligna dos neurolépticos (SMN, uma reação rara grave a 
+medicamentos usados para tratar doenças do sistema nervoso central) ou rabdomiólise (uma 
+doença muscular grave rara).
+-
+Reação alérgica, os sinais podem incluir erupção da pele com comichão (urticária), comichão 
+(prurido), erupções cutâneas (na pele), inchaço da cara, lábios, língua ou garganta. Isto pode 
+causar dificuldades em respirar ou engolir.
+Muito frequentes (podem afetar mais de 1 em 10 pessoas):
+-
+movimentos descontrolados (discinesias)
+-
+enjoo (náuseas)
+-
+alteração inofensiva da cor da urina para castanho-avermelhado
+-
+dor muscular
+-
+diarreia.
+Frequentes (podem afetar até 1 em 10 pessoas): 
+-
+sensação de cabeça oca ou desmaios devido a pressão arterial (tensão arterial) baixa, pressão 
+arterial (tensão arterial) alta
+-
+agravamento dos sintomas de Parkinson, tonturas, sonolência
+-
+vómitos, dor e desconforto de barriga (abdominais), azia, boca seca, prisão de ventre
+-
+incapacidade de dormir, alucinações, confusão, sonhos anómalos (incluindo pesadelos), cansaço
+-
+alterações mentais - incluindo problemas com memória, ansiedade e depressão (possivelmente 
+com pensamentos suicidas)
+-
+acontecimentos relacionados com doença cardíaca (do coração) ou das artérias (por exemplo, dor 
+no peito), frequência ou ritmo cardíaco irregular
+-
+quedas mais frequentes
+-
+falta de ar
+-
+aumento de transpiração, erupções cutâneas
+-
+cãibras musculares, inchaço das pernas
+-
+visão turva
+-
+anemia
+-
+perda de apetite, perda de peso
+-
+dores de cabeça, dores nas articulações
+-
+infeção do aparelho urinário.
+Pouco frequentes (podem afetar até 1 em 100 pessoas):
+-
+ataque cardíaco
+-
+hemorragia (perda de sangue) nos intestinos
+-
+alterações na contagem das células sanguíneas que pode dar origem a hemorragia, testes de 
+função hepática com valores anormais
+-
+convulsões
+-
+sensação de agitação
+-
+sintomas psicóticos
+-
+colite (inflamação do cólon)
+-
+outras descolorações que não de urina (por exemplo, pele, unhas, cabelo, suor)
+-
+dificuldade em engolir
+-
+incapacidade para urinar.
+48
+Frequência desconhecida (a frequência não pode ser estimada pelos dados disponíveis):
+A ânsia por doses elevadas de Stalevo excedendo a dose necessária para o controlo dos sintomas 
+motores, é conhecida por síndrome de desregulamento da dopamina. Alguns doentes experienciam 
+movimentos involuntários anormais graves (discinesias), oscilações do humor ou outros efeitos 
+indesejáveis após a toma de doses elevadas de Stalevo.
+Foram também comunicados os seguintes efeitos indesejáveis:
+-
+hepatite (inflamação do fígado)
+-
+comichão (prurido).
+Pode sentir os seguintes efeitos indesejáveis:
+-
+Incapacidade de resistir ao impulso de efetuar uma ação que possa ser prejudicial, o que pode incluir:
+- forte impulso para jogar em excesso apesar de consequências pessoais ou familiares graves
+- interesse sexual alterado ou aumentado e comportamento de preocupação significativa para si 
+ou para outros, por exemplo, aumento do impulso sexual
+- compras ou gastos excessivos e incontroláveis
+- comer sofregamente (comer grandes quantidades de comida num período de tempo curto) ou 
+comer compulsivamente (comer mais comida do que o normal e mais do que seria necessário para 
+satisfazer a sua fome).
+Informe o seu médico se apresentar algum destes comportamentos; ele discutirá formas de gerir ou 
+reduzir os sintomas.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar stalevo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar stalevo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior. O 
+prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer precauções especiais de conservação.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Stalevo</h2>
+<h2>As substâncias ativas de Stalevo são levodopa, carbidopa e entacapona.</h2>
+<p>Cada comprimido de Stalevo 50 mg/12,5 mg/200 mg contém 50 mg de levodopa, 12,5 mg de 
+carbidopa e 200 mg de entacapona.
+-
+Os outros componentes do núcleo do comprimido são croscarmelose sódica, estearato de 
+magnésio, amido de milho, manitol (E421) e povidona (E1201).
+-
+Os componentes do revestimento da película são glicerol (85 %) (E422), hipromelose, estearato 
+de magnésio, polissorbato 80, óxido de ferro vermelho (E172), sacarose, dióxido de titânio 
+(E171) e óxido de ferro amarelo (E172).
+49
+Qual o aspeto de Stalevo e conteúdo da embalagem
+Stalevo 50 mg/12,5 mg/200 mg: comprimidos revestidos por película, sem ranhura, redondos e 
+convexos, de cor vermelho acastanhado ou vermelho acinzentado, com "LCE 50" gravado num dos 
+lados.
+Stalevo é comercializado em seis tamanhos de embalagem diferentes (10, 30, 100, 130, 175 ou comprimidos). É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+Orion Corporation
+Orionintie 1
+FI-02200 Espoo
+Finlândia
+Fabricante
+Orion Corporation Orion Pharma
+Joensuunkatu 7
+FI-24100 Salo
+Finlândia
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado.
+België/Belgique/Belgien
+Orion Pharma BVBA/SPRL
+Tél/Tel: +32 (0)15 64 10 20
+Lietuva
+UAB Orion Pharma
+Tel. +370 5 276 9499
+България
+Orion Pharma Poland Sp z.o.o.
+Tel.: + 48 22 8333177
+Luxembourg/Luxemburg
+Orion Pharma BVBA/SPRL
+Tél/Tel: +32 (0)15 64 10 20
+Česká republika
+Orion Pharma s.r.o.
+Tel: +420 234 703 305
+Magyarország
+Orion Pharma Kft.
+Tel.: +36 1 239 9095
+Danmark
+Orion Pharma A/S
+Tlf: +45 8614 0000
+Malta
+Salomone Pharma
+Tel: +356 21220174
+Deutschland 
+Orion Pharma GmbH
+Tel: +49 40 899 6890
+Nederland
+Orion Pharma BVBA/SPRL
+Tél/Tel: +32 (0)15 64 10 20
+Eesti
+Orion Pharma Eesti OÜ
+Tel: +372 66 44 550
+Norge
+Orion Pharma AS
+Tlf: +47 40 00 42 10
+Ελλάδα
+Orion Pharma Hellas M.E.Π.E
+Τηλ: + 30 210 980 3355
+Österreich
+Orion Pharma GmbH
+Tel: +49 40 899 6890
+50
+España 
+Orion Pharma S.L.
+Tel: + 34 91 599 86 01
+Polska
+Orion Pharma Poland Sp z.o.o.
+Tel.: +48 22 8333177
+France 
+Orion Pharma
+Tél: +33 (0) 1 85 18 00 00
+Portugal
+Orionfin Unipessoal Lda
+Tel: +351 21 154 68 20
+Hrvatska
+Orion Pharma d.o.o.
+Tel: +386 (0) 1 600 8015
+România
+Orion Corporation
+Tel: +358 10 4261
+Ireland
+Orion Pharma (Ireland) Ltd.
+c/o Allphar Services Ltd.
+Tel: +353 1 428 7777
+Slovenija
+Orion Pharma d.o.o.
+Tel: +386 (0) 1 600 8015
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Orion Pharma s.r.o
+Tel: +420 234 703 305
+Italia
+Orion Pharma S.r.l.
+Tel: +39 02 67876111
+Suomi/Finland
+Orion Corporation
+Puh./Tel: +358 10 4261
+Κύπρος
+Lifepharma (ZAM) Ltd
+Τηλ.: +357 22056300
+Sverige
+Orion Pharma AB
+Tel: +46 8 623 6440
+Latvija
+Orion Corporation
+Orion Pharma pārstāvniecība
+Tel: +371 20028332
+United Kingdom (Northern Ireland)
+Orion Pharma (Ireland) Ltd.
+c/o Allphar Services Ltd.
+Tel: +353 1 428 7777
+Este folheto foi revisto pela última vez em 
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1067,6 +1604,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-bdb3583748a144c4aaf24f2e42bc1ae4"
 * entry[0].resource = composition-da-bdb3583748a144c4aaf24f2e42bc1ae4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbdb3583748a144c4aaf24f2e42bc1ae4"
+* entry[=].resource = mpbdb3583748a144c4aaf24f2e42bc1ae4
+                            
+                    
+Instance: bundlepackageleaflet-pt-bdb3583748a144c4aaf24f2e42bc1ae4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for stalevo Package Leaflet for language pt"
+Description: "ePI document Bundle for stalevo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-bdb3583748a144c4aaf24f2e42bc1ae4"
+* entry[0].resource = composition-pt-bdb3583748a144c4aaf24f2e42bc1ae4
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpbdb3583748a144c4aaf24f2e42bc1ae4"
@@ -1168,6 +1727,18 @@ RuleSet: bdb3583748a144c4aaf24f2e42bc1ae4ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-bdb3583748a144c4aaf24f2e42bc1ae4) // stalevo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

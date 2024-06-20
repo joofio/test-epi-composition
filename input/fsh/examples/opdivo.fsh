@@ -1662,6 +1662,945 @@ samt affald heraf bør bortskaffes i henhold til lokale retningslinjer. </p>    
 
 
 
+Instance: composition-pt-d585d8fe14b9492a241ac7bacfd89f6d
+InstanceOf: CompositionUvEpi
+Title: "Composition for opdivo Package Leaflet"
+Description:  "Composition for opdivo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd585d8fe14b9492a241ac7bacfd89f6d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - opdivo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é OPDIVO e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar OPDIVO </li>
+<li>Como utilizar OPDIVO </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar OPDIVO </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é opdivo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é opdivo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>OPDIVO é um medicamento utilizado para o tratamento do: </p>
+<ul>
+<li>
+<p>melanoma avançado (um tipo de cancro da pele) em adultos e adolescentes com idade igual ou 
+superior a 12 anos </p>
+</li>
+<li>
+<p>melanoma após ressecção completa em adultos e adolescentes com idade igual ou superior a 
+12 anos (o tratamento após cirurgia é chamado de terapêutica adjuvante) </p>
+</li>
+<li>
+<p>cancro do pulmão de células não-pequenas avançado (um tipo de cancro do pulmão) em adultos </p>
+</li>
+<li>
+<p>cancro do pulmão de células não-pequenas (um tipo de cancro do pulmão) antes da ressecção 
+em adultos (o tratamento que antecede a cirurgia é chamado de terapêutica neoadjuvante) </p>
+</li>
+<li>
+<p>mesotelioma pleural maligno (um tipo de cancro que afeta o revestimento dos pulmões) em 
+adultos </p>
+</li>
+<li>
+<p>carcinoma avançado das células renais (cancro avançado do rim) em adultos </p>
+</li>
+<li>
+<p>linfoma de Hodgkin clássico que recidivou ou que não respondeu às terapêuticas anteriores, 
+incluindo transplante autólogo hematopoiético (um transplante das suas próprias células 
+produtoras de sangue) em adultos </p>
+</li>
+<li>
+<p>cancro avançado da cabeça e pescoço em adultos </p>
+</li>
+<li>
+<p>carcinoma urotelial avançado (cancro do trato urinário e da bexiga) em adultos </p>
+</li>
+<li>
+<p>carcinoma urotelial após resseção completa em adultos </p>
+</li>
+<li>
+<p>carcinoma colorretal avançado (cancro do cólon ou recto) em adultos </p>
+</li>
+<li>
+<p>cancro esofágico avançado (cancro da garganta) em adultos </p>
+</li>
+<li>
+<p>cancro do esófago (garganta) ou da junção gastroesofágica com doença patológica residual após 
+quimioradioterapia seguida de cirurgia em adultos </p>
+</li>
+<li>
+<p>adenocarcinoma gástrico, da junção gastroesofágica ou esofágico (cancro do estômago ou da 
+garganta) em adultos. </p>
+</li>
+</ul>
+<p>Contém a substância ativa nivolumab, que é um anticorpo monoclonal. Um tipo de proteína 
+desenvolvida para reconhecer e para se ligar a uma substância alvo específica do organismo. </p>
+<p>Nivolumab liga-se a uma proteína alvo designada recetor de morte programada 1 (PD-1) que pode 
+bloquear a atividade das células T (um tipo de glóbulos brancos que faz parte do sistema imunitário, as 
+defesas naturais do organismo). Pela fixação ao PD-1, nivolumab bloqueia a sua ação e previne o 
+bloqueio das células T. Isto ajuda no aumento da sua atividade contra as células cancerígenas do 
+melanoma, do pulmão, do rim, do tecido linfóide, da cabeça e pescoço, da bexiga, cólon, recto, do 
+estômago, do esófago ou da junção gastroesofágica. </p>
+<p>OPDIVO pode ser administrado em associação com outros medicamentos anti-cancro. É importante 
+que também leia o folheto informativo destes medicamentos. Fale com o seu médico se tiver dúvidas 
+acerca destes medicamentos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar opdivo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar opdivo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>OPDIVO não lhe deve ser administrado </p>
+<ul>
+<li>se tem alergia a nivolumab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6 "Conteúdo da embalagem e outras informações"). Fale com o seu médico se tiver 
+dúvidas. </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico antes de utilizar OPDIVO, pois pode causar: </p>
+<ul>
+<li>
+<p>Problemas com o seu coração, como alterações no ritmo ou na frequência do batimento 
+cardíaco ou um ritmo cardíaco anormal. </p>
+</li>
+<li>
+<p>Problemas com os seus pulmões tais como dificuldade em respirar ou tosse. Estes podem ser 
+sinais de inflamação dos pulmões (pneumonite ou doença pulmonar intersticial). </p>
+</li>
+<li>
+<p>Diarreia (fezes aquosas, soltas ou moles), ou quaisquer outros sintomas de inflamação dos 
+intestinos (colite), tais como dor de estômago, e muco ou sangue nas fezes. </p>
+</li>
+<li>
+<p>Inflamação do fígado (hepatite). Os sinais e sintomas de hepatite podem incluir testes da 
+função hepática alterados, amarelecimento da pele ou olhos (icterícia), dor na zona direita do 
+estômago, ou cansaço. </p>
+</li>
+<li>
+<p>Inflamação ou problemas com os seus rins. Os sinais e sintomas podem incluir testes da 
+função renal alterados, ou diminuição do volume de urina. </p>
+</li>
+<li>
+<p>Problemas das glândulas que produzem hormonas (incluindo a hipófise, a tiroide, a 
+paratiroide e as glândulas suprarrenais) que podem afetar o funcionamento destas glândulas. Os 
+sinais e sintomas de que estas glândulas não estão a funcionar devidamente podem incluir 
+fadiga (cansaço extremo), alterações no peso ou dor de cabeça diminuição dos níveis de cálcio 
+no sangue e distúrbios visuais. </p>
+</li>
+<li>
+<p>Diabetes incluindo um problema grave, por vezes potencialmente fatal devido ao ácido no 
+sangue produzido pela diabetes (cetoacidose diabética). Os sintomas podem incluir sentir mais 
+apetite ou sede do que habitualmente, necessidade de urinar com mais frequência, perda de 
+peso, sensação de cansaço ou ter dificuldade em pensar com clareza, hálito com cheiro doce ou 
+frutado, gosto doce ou metálico na boca, urina ou transpiração com cheiro diferente do habitual, 
+sensação de doença ou estar doente, dor no estômago, respiração profunda ou rápida. </p>
+</li>
+<li>
+<p>Inflamação da pele que pode levar a reações graves da pele (conhecidas como necrólise 
+epidérmica tóxica e síndrome de Stevens-Johnson). Os sinais e sintomas de reações graves da 
+pele podem incluir erupção na pele, comichão, e descamação da pele (possivelmente fatal). </p>
+</li>
+<li>
+<p>Inflamação dos músculos tal como miocardite (inflamação do músculo do coração), miosite 
+(inflamação dos músculos) e rabdomiólise (rigidez nos músculos e articulações, espasmos 
+músculares). Os sinais e sintomas podem incluir dor múscular, rigidez, fraqueza, dor no peito, 
+ou fadiga acentuda. </p>
+</li>
+<li>
+<p>Rejeição de transplante de órgão sólido. </p>
+</li>
+<li>
+<p>Doença do enxerto contra o hospedeiro. </p>
+</li>
+<li>
+<p>Linfohistiocitose hemofagocítica. Uma doença rara em que o nosso sistema imunitário produz 
+demasiadas células normais de combate à infeção denominadas histiócitos e linfócitos. Os 
+sintomas podem incluir aumento do fígado e/ou baço, erupção da pele, aumento dos nódulos 
+linfáticos, problemas respiratórios, facilidade no aparecimento de nódoas negras, anomalias nos 
+rins e problemas de coração. </p>
+</li>
+</ul>
+<p>Informe o seu médico imediatamente se tiver algum destes sinais ou sintomas ou se estes se 
+agravarem. Não tente tratar os seus sintomas com outros medicamentos. O seu médico poderá </p>
+<ul>
+<li>
+<p>dar-lhe outros medicamentos para prevenir complicações e para diminuir os seus sintomas, </p>
+</li>
+<li>
+<p>suspender a dose seguinte de OPDIVO, </p>
+</li>
+<li>
+<p>ou parar por completo o seu tratamento com OPDIVO. 
+Ter em atenção que estes sinais e sintomas são por vezes retardados, e podem-se desenvolver 
+semanas ou meses após a última dose. Antes do tratamento, o seu médico irá avaliar o seu estado de 
+saúde geral. Também terá de realizar análises ao sangue durante o tratamento. </p>
+</li>
+</ul>
+<p>Confirme com o seu médico ou enfermeiro antes de lhe ser administrado OPDIVO se: </p>
+<ul>
+<li>
+<p>tiver uma doença autoimune (uma condição em que o organismo ataca as suas próprias 
+células); </p>
+</li>
+<li>
+<p>tiver melanoma do olho; </p>
+</li>
+<li>
+<p>já lhe foi administrado previamente ipilimumab, outro medicamento para tratar o melanoma, e 
+teve efeitos adversos graves devido a esse medicamento; </p>
+</li>
+<li>
+<p>lhe tiver sido informado que o cancro alastrou-se para o cérebro; </p>
+</li>
+<li>
+<p>tiver historial de inflamação nos pulmões; </p>
+</li>
+<li>
+<p>lhe foram administrados previamente medicamentos para suprimir o sistema imunitário. </p>
+</li>
+</ul>
+<p>Complicações do transplante de células hematopoiéticas que utiliza células do dador (alogénico) 
+após tratamento com OPDIVO. Estas complicações podem ser graves a fatais. O seu médico irá 
+monitorizá-lo para sinais de complicações caso tenha sido sujeito a transplante alogénico. </p>
+<p>Crianças e adolescentes 
+OPDIVO não deve ser utilizado em crianças e adolescentes com menos de 18 anos de idade, exceto 
+adolescentes com idade igual ou superior a 12 anos que tenham melanoma. </p>
+<p>Outros medicamentos e OPDIVO 
+Antes de lhe ser administrado OPDIVO, informe o seu médico se está a tomar algum medicamento 
+que suprima o seu sistema imunitário, tal como os corticosteroides, pois estes medicamentos podem 
+interferir com o efeito de OPDIVO. Contudo, quando estiver a ser tratado com OPDIVO, o seu 
+médico poderá dar-lhe corticosteroides para reduzir qualquer efeito indesejável que poderá ter durante 
+o seu tratamento e isto não irá afetar o efeito do medicamento. 
+Informe o seu médico se estiver a tomar, ou tiver tomado recentemente outros medicamentos. Não 
+tome quaisquer outros medicamentos durante o seu tratamento sem falar primeiro com o seu 
+médico. </p>
+<p>Gravidez e amamentação 
+Informe o seu médico se estiver grávida ou pensa estar grávida, a planear engravidar ou se estiver a 
+amamentar. </p>
+<p>Não utilize OPDIVO se estiver grávida, a não ser que o seu médico tenha dito para o fazer. Os 
+efeitos de OPDIVO na mulher grávida não são conhecidos, mas é possível que a substância ativa, 
+nivolumab, possa prejudicar um bébé ainda por nascer. </p>
+<ul>
+<li>
+<p>Se estiver em risco de engravidar, tem de utilizar métodos contracetivos eficazes durante o 
+tratamento com OPDIVO e durante pelo menos 5 meses após a última dose de OPDIVO. </p>
+</li>
+<li>
+<p>Se engravidar durante o tratamento com OPDIVO informe o seu médico. </p>
+</li>
+</ul>
+<p>Não se sabe se OPDIVO passa para o leite materno. Não se pode excluir o risco para o lactente que é 
+amamentado. Fale com o seu médico para saber se pode amamentar durante ou após o tratamento 
+com OPDIVO. </p>
+<p>Condução de veículos e utilização de máquinas 
+OPDIVO ou OPDIVO em associação com ipilimumab pode ter uma influência minor na capacidade 
+de conduzir e utilizar máquinas; no entanto, tenha precaução quando realiza essas atividades até estar 
+certo de que OPDIVO não o afeta. </p>
+<p>OPDIVO contém sódio 
+Informe o seu médico se estiver numa dieta com baixo teor de sódio (baixo teor de sal) antes de lhe 
+ser administrado OPDIVO. Este medicamento contém 2,5 mg de sódio (principal componente de sal 
+de cozinha/sal de mesa) em cada ml de concentrado. OPDIVO contém 10 mg de sódio por frasco para 
+injetáveis de 4 ml, 25 mg de sódio por frasco para injetáveis de 10 ml, 30 mg de sódio por frasco para 
+injetáveis por 12 ml ou 60 mg de sódio por frasco para injetáveis de 24 ml, o que é equivalente a 0,5%, 
+1,25%, 1,5% ou 3% respetivamente, da ingestão diária máxima recomendada para um adulto. </p>
+<p>Também encontrará informação relevante deste folheto informativo no cartão de alerta para o doente 
+que lhe foi dado pelo seu médico. É importante que guarde este cartão de alerta para o doente e que o 
+mostre ao seu acompanhante ou ao prestador de cuidados de saúde. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar opdivo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar opdivo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Que quantidade de OPDIVO é administrada 
+Quando OPDIVO é administrado isoladamente a dose recomendada é 240 mg cada 2 semanas ou 
+480 mg cada 4 semanas, dependendo da indicação. </p>
+<p>Quando OPDIVO é administrado isoladamente para o tratamento do cancro da pele em adolescentes 
+com idade igual ou superior a 12 anos e com um peso de, pelo menos, 50 kg, a dose recomendada é 
+240 mg cada 2 semanas ou 480 mg cada 4 semanas. Para adolescentes com idade igual ou superior a 
+12 anos e com um peso inferior a 50 kg, a dose recomendada é 3 mg de nivolumab por quilograma de 
+peso corporal cada 2 semanas ou 6 mg de nivolumab por quilograma de peso corporal cada 4 semanas. </p>
+<p>Quando OPDIVO é administrado em associação com ipilimumab para o tratamento do cancro da pele 
+em adultos e adolescentes com idade igual ou superior a 12 anos, a dose recomendada de OPDIVO é 
+1 mg de nivolumab por quilograma de peso corporal para as primeiras 4 doses (fase de associação). 
+Posteriormente, a dose recomendada de OPDIVO (fase de agente único) é 240 mg cada 2 semanas ou 
+480 mg cada 4 semanas em adultos e adolescentes com idade igual ou superior a 12 anos e com um 
+peso de, pelo menos, 50 kg ou 3 mg de nivolumab por quilograma de peso corporal cada 2 semanas ou 
+6 mg de nivolumab por quilograma de peso corporal cada 4 semanas para adolescentes com idade 
+igual ou superior 12 anos e com um peso inferior a 50 kg. </p>
+<p>Quando OPDIVO é administrado em associação com ipilimumab para o tratamento do cancro renal 
+avançado, a dose recomendada de OPDIVO é 3 mg de nivolumab por quilograma de peso corporal 
+para as primeiras 4 doses (fase de associação). Posteriormente, a dose recomendada de OPDIVO é 
+240 mg cada 2 semanas ou 480 mg cada 4 semanas (fase de agente único). </p>
+<p>Quando OPDIVO é administrado em associação com ipilimumab para o tratamento do cancro do 
+cólon ou recto avançado, a dose recomendada de OPDIVO é 3 mg de nivolumab por quilograma de 
+peso corporal para as primeiras 4 doses (fase de associação). Posteriormente, a dose recomendada de 
+OPDIVO é 240 mg cada 2 semanas (fase de agente único). </p>
+<p>Quando OPDIVO é administrado em associação com ipilimumab para o tratamento do mesotelioma 
+pleural maligno, a dose recomendada de OPDIVO é 360 mg cada 3 semanas. </p>
+<p>Quando OPDIVO é administrado em associação com ipilimumab para o tratamento do cancro 
+esofágico avançado, a dose recomendada de OPDIVO é 3 mg de nivolumab por quilograma de peso 
+corporal cada 2 semanas ou 360 mg cada 3 semanas. </p>
+<p>Quando OPDIVO é administrado em associação com quimioterapia para o tratamento neoadjuvante do 
+cancro do pulmão das células não-pequenas, a dose recomendada de OPDIVO é 360 mg cada 
+3 semanas. </p>
+<p>Quando OPDIVO é administrado em associação com quimioterapia para o tratamento do cancro 
+esofágico avançado, a dose recomendada de OPDIVO é 240 mg cada 2 semanas ou 480 mg cada 
+4 semanas. </p>
+<p>Quando OPDIVO é administrado em associação com quimioterapia para o tratamento do 
+adenocarcinoma avançado gástrico, da junção gastroesofágica ou esofágico, a dose recomendada de 
+OPDIVO é 360 mg cada 3 semanas ou 240 mg cada 2 semanas. </p>
+<p>Quando OPDIVO é administrado em associação com ipilimumab e quimioterapia para o tratamento do 
+cancro do pulmão das células não pequenas avançado, a dose recomendada de OPDIVO é 360 mg 
+cada 3 semanas. Após os 2 ciclos de quimioterapia estarem completados, OPDIVO é administrado em 
+associação com ipilimumab, a dose recomendada de OPDIVO é 360 mg cada 3 semanas. </p>
+<p>Quando OPDIVO é administrado em associação com cabozantinib para o tratamento do cancro renal 
+avançado, a dose recomendada de OPDIVO é 240 mg administrados cada 2 semanas ou 480 mg 
+administrados cada 4 semanas. </p>
+<p>Dependendo da sua dose, a quantidade apropriada de OPDIVO será diluída, antes da administração, 
+com solução injetável de cloreto de sódio 9 mg/ml (0,9%) ou solução injetável de glucose 50 mg/ml 
+(5%). Pode ser necessário mais do que um frasco para injetáveis de OPDIVO para se ter a dose 
+necessária. </p>
+<p>Como OPDIVO é administrado 
+OPDIVO será administrado num hospital ou numa clínica sob a supervisão de um médico com 
+experiência. </p>
+<p>OPDIVO será administrado como perfusão (gota a gota) numa veia (por via intravenosa) durante um 
+período de 30 ou 60 minutos, a cada 2 semanas ou 4 semanas, dependendo da dose que estiver a 
+receber. O seu médico continuará a dar-lhe OPDIVO enquanto beneficiar dele ou até não tolerar o 
+tratamento. </p>
+<p>Quando OPDIVO é administrado em associação com ipilimumab para o tratamento do cancro da pele, 
+do rim avançado ou do cancro do cólon ou recto avançado, ser-lhe-á administrada uma perfusão 
+durante um período de 30 minutos, a cada 3 semanas para as 4 primeiras doses (fase de associação). 
+Posteriormente, ser-lhe-á administrada uma perfusão durante um período de 30 ou 60 minutos, a cada 
+2 semanas ou 4 semanas, dependendo da dose que estiver a receber (fase de agente único). </p>
+<p>Quando OPDIVO é administrado em associação com ipilimumab para o tratamento do mesotelioma 
+pleural maligno, ser-lhe-á administrada uma perfusão durante um período de 30 minutos, 
+cada 3 semanas. </p>
+<p>Quando OPDIVO é administrado em associação com ipilimumab para o tratamento do cancro 
+esofágico avançado, ser-lhe-á administrada uma perfusão durante um período de 30 minutos, cada 2 
+ou 3 semanas, dependendo da dose que estiver a receber. </p>
+<p>Quando OPDIVO é administrado em associação com quimioterapia para o tratamento neoadjuvante do 
+cancro do pulmão das células não-pequenas, ser-lhe-á administrada uma perfusão durante um período 
+de 30 minutos, cada 3 semanas. </p>
+<p>Quando OPDIVO é administrado em associação com quimioterapia para o tratamento do cancro 
+esofágico avançado, ser-lhe-á administrada uma perfusão durante um período de 30 minutos, cada 2 
+ou 4 semanas, dependendo da dose que estiver a receber. </p>
+<p>Quando OPDIVO é administrado em associação com quimioterapia para o tratamento do 
+adenocarcinoma avançado gástrico, da junção gastroesofágica ou esofágico, ser-lhe-á administrada 
+uma perfusão durante um período de 30 minutos cada 3 semanas ou cada 2 semanas, dependendo da 
+dose que estiver a receber. </p>
+<p>Quando OPDIVO é administrado em associação com ipilimumab e quimioterapia para o tratamento do 
+cancro do pulmão das células não pequenas avançado, ser-lhe-á administrada uma perfusão durante 
+um período de 30 minutos, cada 3 semanas. </p>
+<p>Quando OPDIVO é administrado em associação com cabozantinib, ser-lhe-á administrada uma 
+perfusão durante um período de 30 minutos ou 60 minutos, cada 2 semanas ou 4 semanas, dependendo 
+da dose que estiver a receber. </p>
+<p>Se lhe faltar uma dose de OPDIVO 
+É muito importante que receba todas as doses de OPDIVO. Se falhou uma administração da dose, 
+pergunte ao médico quando deverá receber a dose seguinte. </p>
+<p>Se parar de utilizar OPDIVO 
+A interrupção do tratamento pode parar o efeito do medicamento. Não pare o tratamento com 
+OPDIVO a não ser que o tenha discutido com o médico. </p>
+<p>Caso ainda tenha dúvidas sobre o seu tratamento ou a utilização deste medicamento, fale com o seu 
+médico. </p>
+<p>Quando OPDIVO é administrado em associação com outros medicamentos anti-cancro, primeiro 
+ser-lhe-á administrado OPDIVO, seguido do outro medicamento. </p>
+<p>Por favor, consulte o folheto informativo destes outros medicamentos de modo a compreender a 
+utilização destes medicamentos. Fale com o seu médico se tiver dúvidas acerca destes medicamentos. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. O seu médico discutirá o assunto consigo e explicará os riscos e 
+benefícios do tratamento. </p>
+<p>Tenha conhecimento de sintomas de inflamação importantes. OPDIVO atua no seu sistema 
+imunitário e pode causar inflamação em algumas partes do seu organismo. A inflamação pode causar 
+lesões graves ao seu organismo e algumas situações inflamatórias podem ser potencialmente fatais 
+necessitando de tratamento ou que OPDIVO seja retirado. </p>
+<p>Os seguintes efeitos indesejáveis foram notificados com OPDIVO apenas: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Infeções do trato respiratório superior </p>
+</li>
+<li>
+<p>Uma diminuição do número de glóbulos vermelhos (que transportam o oxigénio) no sangue, dos 
+glóbulos brancos (que são importantes no combate às infeções) no sangue ou das plaquetas 
+(células que ajudam o sangue a coagular) </p>
+</li>
+<li>
+<p>Diminuição do apetite, níveis de açúcar no sangue elevados (hiperglicemia) </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Falta de ar (dispneia), tosse </p>
+</li>
+<li>
+<p>Diarreia (fezes aquosas, soltas ou moles), vómitos, náuseas, dor no estômago, obstipação </p>
+</li>
+<li>
+<p>Erupção na pele por vezes com bolhas, comichão </p>
+</li>
+<li>
+<p>Dor nos músculos, ossos (dor musculosquelética) e articulações (artralgia) </p>
+</li>
+<li>
+<p>Sentir-se cansado ou fraco, febre </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Infeção grave dos pulmões (pneumonia), bronquite </p>
+</li>
+<li>
+<p>Reações relacionadas com a perfusão do medicamento, reações alérgicas (incluindo reação 
+alérgica com risco de vida) </p>
+</li>
+<li>
+<p>Função diminuída da glândula tiroide (que pode causar cansaço ou ganho de peso), função 
+aumentada da glândula tiroide (que pode causar batimento cardíaco rápido, sudação e perda de 
+peso), inchaço da glândula da tiroide </p>
+</li>
+<li>
+<p>Desidratação, diminuição do peso corporal, níveis de açúcar no sangue baixos (hipoglicemia) </p>
+</li>
+<li>
+<p>Inflamação dos nervos (causando dormência, fraqueza, sensação de formigueiro ou queimadura 
+nos braços e pernas), tonturas </p>
+</li>
+<li>
+<p>Visão turva, olhos secos </p>
+</li>
+<li>
+<p>Ritmo cardíaco acelerado, ritmo cardíaco anormal </p>
+</li>
+<li>
+<p>Tensão arterial elevada (hipertensão) </p>
+</li>
+<li>
+<p>Inflamação dos pulmões (pneumonite, caracterizada por tosse e dificuldade em respirar), fluído 
+em torno dos pulmões </p>
+</li>
+<li>
+<p>Inflamação do intestino (colite), úlceras na boca e feridas herpéticas (estomatite), boca seca </p>
+</li>
+<li>
+<p>Alteração da coloração da pele em manchas (vitiligo), pele seca, rubor da pele, perda ou 
+enfraquecimento do cabelo não habitual </p>
+</li>
+<li>
+<p>Inflamação das articulações (artrite) </p>
+</li>
+<li>
+<p>Insuficiência renal (incluindo perda abrupta da função renal) </p>
+</li>
+<li>
+<p>Dor, dor no peito, edema (inchaço) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Aumento de alguns glóbulos brancos </p>
+</li>
+<li>
+<p>Doenças crónicas associadas à acumulação de células inflamatórias em vários órgãos e tecidos, 
+mais frequentemente nos pulmões (sarcoidose) </p>
+</li>
+<li>
+<p>Redução da secreção de hormonas produzidas pelas glândulas suprarrenais (glândulas situadas 
+por cima dos rins), função hipoativa (hipopituitarismo) ou inflamação (hipofisite) da hipófise 
+situada na base do cérebro, diabetes </p>
+</li>
+<li>
+<p>Aumento dos níveis de ácido no sangue (acidose metabólica) </p>
+</li>
+<li>
+<p>Dano nos nervos causando dormência e fraqueza (polineuropatia), inflamação dos nervos 
+causada pelo ataque do organismo a si mesmo, causando dormência, fraqueza, formigueiro ou 
+dor ardente (neuropatia auto-imune) </p>
+</li>
+<li>
+<p>Inflamação do olho (que causa dor e vermelhidão) </p>
+</li>
+<li>
+<p>Inflamação do músculo do coração, inflamação da membrana que reveste o coração e 
+acumulação de fluidos em volta do coração (afeções do pericárdio), alterações no ritmo ou na 
+frequência do batimento cardíaco </p>
+</li>
+<li>
+<p>Líquido nos pulmões </p>
+</li>
+<li>
+<p>Inflamação do pâncreas (pancreatite), inflamação do estômago (gastrite) </p>
+</li>
+<li>
+<p>Inflamação do fígado (hepatite), obstrução dos ductos biliares (colestase) </p>
+</li>
+<li>
+<p>Doenças da pele com manchas vermelhas engrossadas, muitas vezes com escamas prateadas 
+(psoríase), condições da pele onde o nariz e a face estão invulgarmente vermelhos (rosácea), 
+condições graves da pele que causam manchas vermelhas, que causam comichão, semelhantes 
+às erupções cutâneas do sarampo, que começam nos membros e, por vezes, na face e no resto do 
+corpo (eritema multiforme), urticária (prurido, erupção na pele irregular) </p>
+</li>
+<li>
+<p>Inflamação dos músculos causando dor ou rigidez (polimialgia reumática) </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1000 pessoas) </p>
+<ul>
+<li>
+<p>Inflamação não infecciosa temporária e reversível das membranas protetoras que rodeiam o 
+cérebro e a medula espinal (meningite assética) </p>
+</li>
+<li>
+<p>Doença que causa inflamação ou inchaço de um glânglio linfático (linfadenite de Kikurchi) </p>
+</li>
+<li>
+<p>Ácido no sangue produzido pela diabetes (cetoacidose diabética), função diminuída da glândula 
+paratiroide </p>
+</li>
+<li>
+<p>Inflamação temporária dos nervos que causa dor, fraqueza e paralisia nas extremidades 
+(síndrome de Guillian-Barré), perda da bainha protetora em volta dos nervos (desmielinização), 
+uma condição em que os músculos tornam-se fracos e cansam-se facilmente (síndrome 
+miasténico), inflamação do cérebro </p>
+</li>
+<li>
+<p>Doença inflamatória dos vasos sanguíneos </p>
+</li>
+<li>
+<p>Úlcera do intestino delgado </p>
+</li>
+<li>
+<p>Descamação grave e possivelmente fatal da pele (necrólise epidérmica tóxica ou síndrome de 
+Stevens-Johnson) </p>
+</li>
+<li>
+<p>Doença em que o sistema imunitário ataca algumas glândulas do organismo que têm a 
+finalidade de libertar substâncias para o exterior, tais como as que produzem lágrimas e saliva 
+(síndrome de Sjögren), dores musculares, sensibilidade ou fraqueza muscular, não causadas pelo 
+exercício (miopatia), inflamação dos músculos (miosite), rigidez dos músculos e articulações, 
+espasmo muscular (rabdomiólise) </p>
+</li>
+<li>
+<p>Inflamação do rim, inflamação da bexiga. Os sinais e sintomas podem incluir micção frequente 
+e/ou dolorosa, necessidade urgente de urinar, sangue na urina, dor ou pressão na parte inferior 
+do abdómen. </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis que foram notificados com frequência desconhecida (a frequência 
+não pode ser calculada a partir dos dados disponíveis): </p>
+<ul>
+<li>
+<p>Uma afeção em que o sistema imunitário produz demasiadas células de combate à infeção 
+denominadas histiócitos e linfócitos, que pode causar vários sintomas (denominada 
+linfohistiocitose hemofagocítica) </p>
+</li>
+<li>
+<p>Rejeição de transplante de órgão sólido </p>
+</li>
+<li>
+<p>Um grupo de complicações metabólicas que ocorrem após tratamento para cancro caracterizado 
+por níveis sanguíneos elevados de potássio e de fosfato, e níveis sanguíneos baixos de cálcio 
+(síndrome de lise tumoral) </p>
+</li>
+<li>
+<p>Um distúrbio inflamatório (mais provavelmente de origem auto-imune) que afecta os olhos, a 
+pele e as membranas das orelhas, cérebro e medula espinal (síndrome de 
+Vogt-Koyanagi-Harada) </p>
+</li>
+<li>
+<p>Dor, dormência, formigueiro, ou fraqueza nos braços ou pernas; problemas na bexiga ou 
+intestinos incluindo necessidade de urinar com maior frequência, incontinência urinária, 
+dificuldade em urinar e obstipação (mielite/mielite transversa) </p>
+</li>
+<li>
+<p>Alterações em qualquer zona da pele e/ou área genital associadas a secura, diminuição da 
+espessura, comichão e dor (líquen esclero-atrófico ou outras afeções líquen) </p>
+</li>
+</ul>
+<p>Os seguintes efeitos indesejáveis foram notificados com OPDIVO em associação com outros 
+medicamentos anti-cancro (a frequência e gravidade dos efeitos indesejáveis podem variar com a 
+associação de medicamentos anti-cancro recebida): </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Infeções do trato respiratório superior </p>
+</li>
+<li>
+<p>Uma diminuição do número de glóbulos vermelhos (que transportam o oxigénio) no sangue, dos 
+glóbulos brancos (que são importantes no combate às infeções) no sangue ou das plaquetas 
+(células que ajudam o sangue a coagular) </p>
+</li>
+<li>
+<p>Função diminuída da glândula da tiroide (que pode provocar cansaço ou ganho de peso), função 
+aumentada da glândula da tiroide (que pode causar aumento do ritmo cardíaco, suor e perda de 
+peso) </p>
+</li>
+<li>
+<p>Diminuição de apetite, diminuição do peso corporal, diminuição dos níveis de albumina no 
+sangue, níveis de açúcar no sangue elevados (hiperglicemia) ou baixos (hipoglicemia) </p>
+</li>
+<li>
+<p>Inflamação dos nervos (causando dormência, fraqueza, formigueiro ou dor ardente nos braços e 
+pernas), dor de cabeça, tonturas, paladar alterado </p>
+</li>
+<li>
+<p>Pressão arterial elevada (hipertensão) </p>
+</li>
+<li>
+<p>Falta de ar (dispneia), tosse, alterações na voz (disfonia) </p>
+</li>
+<li>
+<p>Diarreia (fezes aquosas, soltas ou moles), obstipação, vómitos, náuseas, dores de estômago, 
+úlceras na boca e feridas labiais (estomatite), indigestão (dispepsia) </p>
+</li>
+<li>
+<p>Erupção na pele por vezes com bolhas, comichão, dor na palma das mãos ou plantas dos pés: 
+erupção cutânea ou vermelhidão da pele, formigueiro e sensibilidade que se desenvolvem para 
+vermelhidão simétrica, inchaço e dor principalmente na palma das mãos e planta dos pés 
+(síndrome de eritrodisestesia palmoplantar) </p>
+</li>
+<li>
+<p>Dor nas articulações (artralgia), dor nos músculos e nos ossos (dor musculoesquelética), 
+espasmo muscular </p>
+</li>
+<li>
+<p>Excesso de proteínas na urina </p>
+</li>
+<li>
+<p>Sentir-se cansado ou fraco, febre, edema (inchaço) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Infeção grave nos pulmões (pneumonia), bronquite, infeção do olho (conjuntivite) </p>
+</li>
+<li>
+<p>Aumento de alguns glóbulos brancos, diminuição dos neutrófilos com febre </p>
+</li>
+<li>
+<p>Reações alérgicas, reações relacionadas com a perfusão do medicamento </p>
+</li>
+<li>
+<p>Redução da secreção de hormonas produzidas pelas glândulas suprarrenais (glândulas situadas 
+por cima dos rins), função hipoativa (hipopituitarismo) ou inflamação (hipofisite) da hipófise 
+situada na base do cérebro, inchaço da glândula da tiroide, diabetes </p>
+</li>
+<li>
+<p>Desidratação, diminuição dos níveis de fosfato no sangue </p>
+</li>
+<li>
+<p>Sensações do tipo dormência, e formigueiro (parestesia) </p>
+</li>
+<li>
+<p>Ouvir um som persistente no ouvido sem existência de som (acufenos) </p>
+</li>
+<li>
+<p>Visão turva, olhos secos </p>
+</li>
+<li>
+<p>Ritmo cardíaco acelerado, ritmo cardíaco anormal, doença inflamatória dos vasos sanguíneos </p>
+</li>
+<li>
+<p>Formação de um coágulo de sangue dentro de um vaso sanguíneo (trombose) </p>
+</li>
+<li>
+<p>Inflamação dos pulmões (pneumonite, caracterizada por tosse e dificuldade em respirar), fluido 
+em torno dos pulmões, coágulos sanguíneos, hemorragia nasal </p>
+</li>
+<li>
+<p>Inflamação dos intestinos (colite), inflamação do pâncreas (pancreatite), boca seca, inflamação 
+do estômago (gastrite), dor na boca, hemorroidas </p>
+</li>
+<li>
+<p>Inflamação do fígado </p>
+</li>
+<li>
+<p>Alterações na cor da pele em manchas (incluindo vitiligo), vermelhidão da pele, perda de cabelo 
+pouco comum ou enfraquecimento, alterações da cor do cabelo, urticária (erupção na pele com 
+comichão), alteração da cor ou escurecimento anormal da pele (hiperpigmentação cutânea), pele 
+seca </p>
+</li>
+<li>
+<p>Inflamação das articulações (artrite), fraqueza muscular, dores musculares </p>
+</li>
+<li>
+<p>Falência renal (incluindo perda abrupta da função renal) </p>
+</li>
+<li>
+<p>Dor, dor no peito, arrepios </p>
+</li>
+<li>
+<p>Sensação de mal-estar geral </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Ácido no sangue produzido pela diabetes (cetoacidose diabética) </p>
+</li>
+<li>
+<p>Aumento dos níveis de ácido no sangue </p>
+</li>
+<li>
+<p>Inflamação temporária dos nervos que causa dor, fraqueza e paralisia nas extremidades 
+(síndrome de Guillian-Barré); danos nos nervos que podem causar dormência ou fraqueza 
+(polineuropatia); pé caído (paralisia do nervo peroneal); inflamação dos nervos causada pelo 
+ataque do corpo a si próprio, causando dormência, fraqueza, formigueiro ou dor ardente 
+(neuropatia autoimune); fraqueza muscular e cansaço sem atrofia (miastenia gravis ou 
+síndrome) </p>
+</li>
+<li>
+<p>Inflamação do cérebro </p>
+</li>
+<li>
+<p>Inflamação do olho (que causa dor e vermelhidão) </p>
+</li>
+<li>
+<p>Alterações no ritmo ou na frequência do batimento cardíaco, ritmo cardíaco diminuído, 
+inflamação do músculo do coração </p>
+</li>
+<li>
+<p>Perfuração intestinal, inflamação do duodeno, sensação de queimadura ou dor na língua 
+(glossodinia) </p>
+</li>
+<li>
+<p>Descamação grave e possivelmente fatal da pele (síndrome de Stevens-Johnson), doenças da 
+pele com manchas vermelhas engrossadas, muitas vezes com escamas prateadas (psoríase), 
+condição severa da pele que provoca manchas vermelhas, muitas vezes com comichão, 
+semelhantes à erupção do sarampo, que se inicia nos membros e às vezes na face e no resto do 
+corpo (eritema multiforme) </p>
+</li>
+<li>
+<p>Sensibilidade ou fraqueza muscular, não causadas pelo exercício (miopatia), inflamação dos 
+músculos (miosite), rigidez nos músculos e articulações, inflamação dos músculos que provoca 
+dor e rigidez (polimialgia reumática), dano ósseo na mandíbula, abertura anormal entre duas 
+zonas do corpo, tais como um órgão ou vaso sanguíneo e outra estrutura (fístula) </p>
+</li>
+<li>
+<p>Inflamação do rim, inflamação da bexiga. Os sinais e sintomas podem incluir micção frequente 
+e/ou dolorosa, necessidade urgente de urinar, sangue na urina, dor ou pressão na parte inferior 
+do abdómen. </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1000 pessoas) </p>
+<ul>
+<li>
+<p>Inflamação não infecciosa temporária e reversível das membranas protetoras que rodeiam o 
+cérebro e a medula espinal (meningite assética) </p>
+</li>
+<li>
+<p>Doenças crónicas associadas à acumulação de células inflamatórias em vários órgãos e tecidos, 
+mais frequentemente nos pulmões (sarcoidose) </p>
+</li>
+<li>
+<p>Função diminuída da glândula paratiroide </p>
+</li>
+<li>
+<p>Um grupo de complicações metabólicas que ocorrem após tratamento para cancro caracterizado 
+por níveis sanguíneos elevados de potássio e de fosfato, e níveis sanguíneos baixos de cálcio 
+(síndrome de lise tumoral) </p>
+</li>
+<li>
+<p>Um distúrbio inflamatório (mais provavelmente de origem auto-imune) que afeta os olhos, a 
+pele e as membranas das orelhas, cérebro e medula espinal (síndrome de 
+Vogt-Koyanagi-Harada) </p>
+</li>
+<li>
+<p>Inflamação dos nervos </p>
+</li>
+<li>
+<p>Dor, dormência, formigueiro, ou fraqueza nos braços ou pernas; problemas na bexiga ou 
+intestinos incluindo necessidade de urinar com maior frequência, incontinência urinária, 
+dificuldade em urinar e obstipação (mielite/mielite transversa) </p>
+</li>
+<li>
+<p>Descamação grave e possivelmente fatal da pele (necrólise epidérmica tóxica), alterações em 
+qualquer zona da pele e/ou área genital associadas a secura, diminuição da espessura, comichão 
+e dor (líquen esclero-atrófico ou outras afeções líquen) </p>
+</li>
+<li>
+<p>Doença crónica das articulações (espondiloartropatia), doença em que o sistema imunitário 
+ataca as glândulas que têm a finalidade de libertar substâncias para o exterior, tais como 
+lágrimas e saliva (síndrome de Sjögren), espasmo muscular (rabdomiólise) </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis que foram notificados com frequência desconhecida (a frequência 
+não pode ser calculada a partir dos dados disponíveis): </p>
+<ul>
+<li>
+<p>Uma afeção em que o sistema imunitário produz demasiadas células de combate à infeção 
+denominadas histiócitos e linfócitos, que pode causar vários sintomas (denominada 
+linfohistiocitose hemofagocítica) </p>
+</li>
+<li>
+<p>Rejeição de transplante de órgão sólido </p>
+</li>
+<li>
+<p>Inflamação da membrana que reveste o coração e acumulação de fluidos em volta do coração 
+(afeções do pericárdio) </p>
+</li>
+</ul>
+<p>Informe o seu médico imediatamente se tiver algum destes efeitos indesejáveis listados acima. Não 
+tente tratar os sintomas com outros medicamentos. </p>
+<p>Alterações nos resultados dos testes 
+OPDIVO utilizado isoladamente ou em associação pode causar alterações nos resultados dos testes 
+realizados pelo médico. Estão incluídos: </p>
+<ul>
+<li>
+<p>Testes da função hepática alterados (aumentos das enzimas hepáticas aspartato 
+aminotransferase, alanina aminotransferase, gama-glutamiltransferase ou fosfatase alcalina no 
+sangue, níveis aumentados do produto residual bilirrubina no sangue) </p>
+</li>
+<li>
+<p>Testes de função renal alterados (níveis aumentados de creatinina no sangue) </p>
+</li>
+<li>
+<p>Um aumento dos níveis da enzima que degrada as gorduras e da enzima que degrada o amido </p>
+</li>
+<li>
+<p>Aumento ou diminuição dos níveis sanguíneos de cálcio ou potássio </p>
+</li>
+<li>
+<p>Aumento ou diminuição dos níveis sanguíneos de magnésio ou sódio </p>
+</li>
+<li>
+<p>Quantidade aumentada de hormona estimulante da tiroide </p>
+</li>
+<li>
+<p>Aumento dos níveis de triglicéridos no sangue </p>
+</li>
+<li>
+<p>Aumento dos níveis de colesterol no sangue </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através 
+do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, 
+estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar opdivo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar opdivo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2ºC a 8ºC). 
+Não congelar. 
+Conservar na embalagem de origem para proteger da luz. 
+O frasco para injetáveis fechado pode ser conservado a temperatura ambiente controlada até 25°C com 
+luz ambiente até 48 horas. </p>
+<p>Não conserve para reutilização qualquer porção não utilizada da solução para perfusão. Os produtos 
+não utilizados ou os resíduos devem ser eliminados de acordo com as exigências locais. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de OPDIVO </p>
+<ul>
+<li>
+<p>A substância ativa é nivolumab. 
+Cada ml do concentrado de solução para perfusão contém 10 mg de nivolumab. 
+Cada frasco para injetáveis contém 40 mg (em 4 ml), 100 mg (em 10 ml), 120 mg (em 12 ml) ou 
+240 mg (em 24 ml) de nivolumab </p>
+</li>
+<li>
+<p>Os outros componentes são citrato de sódio di-hidratado, cloreto de sódio (ver 
+secção 2 "OPDIVO contém sódio"), manitol (E421), ácido pentético (dietilenotriamina do ácido 
+penta acético), polissorbato 80 (E433), hidróxido de sódio, ácido clorídrico e água para 
+preparações injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de OPDIVO e conteúdo da embalagem 
+OPDIVO concentrado para solução para perfusão (concentrado estéril) é límpido a ligeiramente 
+opalescente, incolor a amarelo pálido e pode conter algumas partículas claras. </p>
+<p>Está disponível em embalagens contendo 1 frasco para injetáveis de 4 ml, 1 frasco para injetáveis 
+de 10 ml, 1 frasco para injetáveis de 12 ml ou 1 frasco para injetáveis de 24 ml. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrlanda </p>
+<p>Fabricante 
+Swords Laboratories Unlimited Company t/a Bristol-Myers Squibb Cruiserath Biologics 
+Cruiserath Road, Mulhuddart 
+Dublin 15, D15 H6EF 
+Irlanda </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1703,6 +2642,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d585d8fe14b9492a241ac7bacfd89f6d"
 * entry[0].resource = composition-da-d585d8fe14b9492a241ac7bacfd89f6d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd585d8fe14b9492a241ac7bacfd89f6d"
+* entry[=].resource = mpd585d8fe14b9492a241ac7bacfd89f6d
+                            
+                    
+Instance: bundlepackageleaflet-pt-d585d8fe14b9492a241ac7bacfd89f6d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for opdivo Package Leaflet for language pt"
+Description: "ePI document Bundle for opdivo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d585d8fe14b9492a241ac7bacfd89f6d"
+* entry[0].resource = composition-pt-d585d8fe14b9492a241ac7bacfd89f6d
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd585d8fe14b9492a241ac7bacfd89f6d"
@@ -1804,6 +2765,18 @@ RuleSet: d585d8fe14b9492a241ac7bacfd89f6dListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d585d8fe14b9492a241ac7bacfd89f6d) // opdivo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1148,6 +1148,615 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>       
 
 
 
+Instance: composition-pt-028530430ed7d9b47cd8ba73da175d72
+InstanceOf: CompositionUvEpi
+Title: "Composition for strensiq Package Leaflet"
+Description:  "Composition for strensiq Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp028530430ed7d9b47cd8ba73da175d72)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - strensiq"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Strensiq e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Strensiq </li>
+<li>Como utilizar Strensiq </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Strensiq </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é strensiq e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é strensiq e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Strensiq 
+Strensiq é um medicamento utilizado para tratar a doença hereditária hipofosfatasia que teve início na 
+infância. Contém a substância ativa asfotase alfa. </p>
+<p>O que é a hipofosfatasia 
+Os doentes com hipofosfatasia têm níveis baixos de uma enzima chamada fosfatase alcalina que é 
+importante para várias funções do organismo, incluindo o endurecimento adequado dos ossos e dos 
+dentes. Os doentes têm problemas com o crescimento e resistência dos ossos, que podem causar a 
+fratura dos ossos, dor nos ossos e dificuldade em andar, assim como dificuldades com a respiração e 
+um risco de convulsões (crises convulsivas). </p>
+<p>Para que é utilizado Strensiq 
+A substância ativa em Strensiq pode substituir a enzima que falta (fosfatase alcalina) na hipofosfatasia. 
+É utilizada para o tratamento de substituição da enzima de longa duração para controlar os sintomas. </p>
+<p>Quais foram os benefícios de Strensiq demonstrados em ensaios clínicos 
+Strensiq demonstrou benefícios para a mineralização do esqueleto e crescimento dos doentes. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar strensiq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar strensiq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Strensiq 
+Se tem alergia grave à asfotase alfa (ver a secção ‘Advertências e precauções’ a seguir) ou a qualquer 
+outro componente deste medicamento (indicados na secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de utilizar Strensiq. </p>
+<ul>
+<li>
+<p>Observaram-se reações alérgicas em doentes aos quais se administrou asfotase alfa, incluindo 
+reações alérgicas potencialmente fatais que requerem tratamento médico semelhantes à 
+anafilaxia. Os doentes que apresentaram sintomas semelhantes à anafilaxia tinham dificuldade 
+em respirar, sensação de asfixia, náuseas, inchaço em redor dos olhos e tonturas. As reações 
+ocorreram minutos após tomarem asfotase alfa e podem ocorrer em doentes a tomar asfotase 
+alfa durante mais de um ano. Se tiver qualquer um destes sintomas, pare imediatamente de 
+tomar Strensiq e consulte um médico.  </p>
+</li>
+<li>
+<p>Caso sofra uma reação anafilática ou outro acontecimento com sintomas semelhantes, o seu 
+médico discutirá consigo as etapas seguintes e a possibilidade de reiniciar a administração de 
+Strensiq com supervisão médica. Siga sempre as instruções do seu médico. </p>
+</li>
+<li>
+<p>O desenvolvimento de proteínas no sangue contra Strensiq, também designadas por anticorpos 
+anti-medicamento, pode ocorrer durante o tratamento. Informe o seu médico se tiver uma 
+diminuição da eficácia com Strensiq. </p>
+</li>
+<li>
+<p>Foram comunicados nódulos de gordura ou diminuição do tecido gordo na superfície da pele 
+(lipodistrofia localizada) nos locais de injeção após vários meses, em doentes a utilizarem 
+Strensiq. Leia cuidadosamente a secção 3 para tomar conhecimento das recomendações de 
+injeção. É importante alternar a injeção entre os seguintes locais, por forma a reduzir o risco de 
+lipodistrofia: zona abdominal, coxa ou deltoide. </p>
+</li>
+<li>
+<p>Em estudos foram notificados alguns efeitos indesejáveis relacionados com os olhos (p. ex., 
+acumulação de cálcio nos olhos [calcificação conjuntival ou corneana]), tanto em doentes que 
+utilizavam Strensiq como em doentes que não o utilizavam, provavelmente associados à 
+hipofosfatasia. Fale com o seu médico no caso de perturbações da visão. </p>
+</li>
+<li>
+<p>Foi notificada a fusão precoce dos ossos da cabeça (craniossinostose) em crianças com menos 
+de 5 anos de idade em ensaios clínicos de crianças com hipofosfatasia, com e sem a utilização 
+de Strensiq. Informe o seu médico se detetar qualquer alteração na forma da cabeça do seu bebé. </p>
+</li>
+<li>
+<p>Se está a ser tratado com Strensiq, pode ter uma reação no local da injeção (dor, nódulo, 
+erupção na pele, alteração da cor da pele) durante a injeção do medicamento ou nas horas que se 
+seguem à injeção. Se tiver qualquer reação grave no local de injeção, informe imediatamente o 
+seu médico. </p>
+</li>
+<li>
+<p>Foi notificado um aumento da concentração da hormona paratiroide e níveis baixos de cálcio em 
+estudos. Como consequência, o seu médico poderá pedir-lhe para tomar suplementos de cálcio e 
+de vitamina D oral, se necessário. </p>
+</li>
+<li>
+<p>Pode ocorrer um ganho de peso durante o seu tratamento com Strensiq. O seu médico dar-lhe-á 
+conselhos dietéticos, se necessário. </p>
+</li>
+</ul>
+<p>Outros medicamentos e Strensiq 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente ou vier a 
+utilizar outros medicamentos. </p>
+<p>Se tiver de ser submetido a análises laboratoriais (tirar sangue para análise), informe o seu médico de 
+que está a ser tratado com Strensiq. Strensiq pode fazer com que algumas análises revelem resultados 
+erradamente elevados ou baixos. Por conseguinte, poderá ser necessário utilizar outro tipo de análise 
+se estiver a ser tratado com Strensiq.  </p>
+<p>Gravidez 
+Strensiq não deve ser utilizado durante a gravidez. A utilização de métodos contracetivos eficazes 
+durante o tratamento deve ser considerada em mulheres que podem engravidar. </p>
+<p>Amamentação 
+Não se sabe se Strensiq pode passar para o leite humano. Informe o seu médico se estiver a amamentar 
+ou planeia fazê-lo. O seu médico ajudá-la-á a decidir se deve parar a amamentação ou se deve parar de 
+tomar Strensiq, tendo em conta o benefício da amamentação para o bebé e o benefício de Strensiq para 
+a mãe. </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de lhe ser administrado este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não é de se prever que este medicamento tenha efeitos sobre a capacidade de conduzir ou utilizar 
+máquinas. </p>
+<p>Informações importantes sobre alguns componentes de Strensiq 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por frasco para injetáveis, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar strensiq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar strensiq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como descrito neste folheto ou como indicado pelo seu médico, 
+farmacêutico ou enfermeiro. Fale com o seu médico, farmacêutico ou enfermeiro se tiver dúvidas. 
+A maneira como deve utilizar Strensiq ser-lhe-á explicada por um médico com experiência no 
+tratamento de doentes com doenças metabólicas ou relacionadas com os ossos. Após receber a 
+formação dada pelo médico ou por um enfermeiro especializado, pode injetar Strensiq a si próprio em 
+casa. </p>
+<p>Dose </p>
+<ul>
+<li>
+<p>A dose que lhe é administrada baseia-se no seu peso. </p>
+</li>
+<li>
+<p>A dose correta será calculada pelo seu médico e consiste num total de 6 mg de asfotase alfa por 
+kg de peso corporal todas as semanas, administrada na forma de uma injeção de 1 mg/kg de 
+asfotase alfa 6 vezes por semana ou de 2 mg/kg de asfotase alfa 3 vezes por semana, de acordo 
+com a recomendação do seu médico. Cada dose será administrada por injeção sob a pele 
+(subcutânea), (veja a tabela posológica seguinte para obter informações detalhadas sobre o 
+volume a ser injetado e o tipo de frasco para injetáveis a ser utilizado, com base no seu peso). </p>
+</li>
+<li>
+<p>As doses terão de ser ajustadas regularmente pelo seu médico, de acordo com as mudanças do 
+peso corporal.  </p>
+</li>
+<li>
+<p>O volume máximo por injeção não deve exceder 1 ml. Se for necessário mais do que 1 ml, terá 
+de dar várias injeções imediatamente uma após a outra. </p>
+</li>
+</ul>
+<p>Se injetar 3 vezes por semana </p>
+<p>Peso 
+corporal 
+(kg) 
+Volume a 
+ser 
+injetado 
+Código da cor 
+do frasco para 
+injetáveis a 
+ser utilizado 
+3 
+0,15 ml 
+Azul escuro 
+4 
+0,20 ml 
+Azul escuro 
+5 
+0,25 ml 
+Azul escuro 
+6 
+0,30 ml 
+Azul escuro 
+7 
+0,35 ml 
+Laranja 
+8 
+0,40 ml 
+Laranja 
+9 
+0,45 ml 
+Laranja 
+0,50 ml 
+Azul claro 
+0,55 ml 
+Azul claro 
+0,60 ml 
+Azul claro 
+0,65 ml 
+Azul claro 
+0,70 ml 
+Azul claro 
+0,75 ml 
+Cor-de-rosa 
+0,80 ml 
+Cor-de-rosa 
+0,85 ml 
+Cor-de-rosa 
+0,90 ml 
+Cor-de-rosa 
+0,95 ml 
+Cor-de-rosa 
+1 ml 
+Cor-de-rosa 
+0,50 ml 
+Verde 
+0,60 ml 
+Verde 
+0,70 ml 
+Verde 
+0,80 ml 
+Verde 
+Se injetar 6 vezes por semana </p>
+<p>Peso 
+corporal 
+(kg) 
+Volume 
+a ser 
+injetado 
+Código da cor 
+do frasco para 
+injetáveis a ser 
+utilizado 
+6 
+0,15 ml 
+Azul escuro 
+7 
+0,18 ml 
+Azul escuro 
+8 
+0,20 ml 
+Azul escuro 
+9 
+0,23 ml 
+Azul escuro 
+0,25 ml 
+Azul escuro 
+0,28 ml 
+Azul escuro 
+0,30 ml 
+Azul escuro 
+0,33 ml 
+Laranja 
+0,35 ml 
+Laranja 
+0,38 ml 
+Laranja 
+0,40 ml 
+Laranja 
+0,43 ml 
+Laranja 
+0,45 ml 
+Laranja 
+0,48 ml 
+Azul claro 
+0,50 ml 
+Azul claro 
+0,63 ml 
+Azul claro 
+0,75 ml 
+Cor-de-rosa 
+0,88 ml 
+Cor-de-rosa 
+1 ml 
+Cor-de-rosa 
+0,50 ml 
+Verde 
+0,60 ml 
+Verde 
+0,70 ml 
+Verde 
+0,80 ml 
+Verde<br />
+0,90 ml 
+Verde (x2) 
+1 ml 
+Verde (x2) </p>
+<p>Recomendações para a injeção </p>
+<ul>
+<li>
+<p>Pode ter uma reação no local de injeção. Leia atentamente a secção 4 para saber quais os efeitos 
+indesejáveis que podem ocorrer antes de utilizar este medicamento. </p>
+</li>
+<li>
+<p>Quando começar a injetar com regularidade, o local de injeção deve ser alternado entre 
+diferentes zonas do corpo para ajudar a diminuir a dor e a irritação </p>
+</li>
+<li>
+<p>As regiões com maior quantidade de gordura por baixo da pele (coxas, braços [deltoides], 
+abdómen e nádegas) são as regiões mais adequadas para injetar. Fale com o seu médico ou 
+enfermeiro sobre quais os melhores locais para si. </p>
+</li>
+</ul>
+<p>Antes de injetar Strensiq, leia atentamente as seguintes instruções </p>
+<ul>
+<li>
+<p>Cada frasco para injetáveis é para utilização única e só deve ser perfurado uma vez. O líquido de 
+Strensiq deve parecer límpido, ligeiramente opalescente ou opalescente, incolor a ligeiramente 
+amarelo e pode conter algumas pequenas partículas translúcidas ou brancas. Não utilizar se o 
+líquido estiver descolorado ou se contiver quaisquer grumos ou partículas grandes, devendo 
+utilizar um frasco para injetáveis novo. Qualquer medicamento não utilizado ou resíduos devem 
+ser eliminados de acordo com as exigências locais. </p>
+</li>
+<li>
+<p>Se injetar este medicamento a si próprio, ser-lhe-á indicado como preparar e injetar o 
+medicamento pelo seu médico, farmacêutico ou enfermeiro. Não injete este medicamento a si 
+próprio, a menos que tenha recebido formação e compreenda o procedimento. </p>
+</li>
+</ul>
+<p>Como injetar Strensiq </p>
+<p>Passo 1: Preparar a dose de Strensiq </p>
+<ol>
+<li>Lave muito bem as mãos com água e sabão. </li>
+<li>Retire o(s) frasco(s) para injetáveis por abrir de Strensiq do frigorífico 15 a 30 minutos antes 
+de injetar, de modo a permitir que o líquido atinja a temperatura ambiente. Não aqueça 
+Strensiq de qualquer outro modo (por exemplo, não aqueça num microndas ou em água 
+quente). Depois de retirar o(s) frasco(s) para injetáveis do frigorífico, Strensiq deve ser 
+utilizado no período máximo de 3 horas. </li>
+<li>Retire a tampa protetora do(s) frasco(s) para injetáveis de Strensiq. Retire o plástico de 
+proteção da seringa que vai ser utilizada.  </li>
+<li>Utilize sempre uma seringa nova que esteja dentro de um plástico de proteção. </li>
+<li>Coloque uma agulha de calibre maior (p. ex., 25G) na seringa vazia e, com a tampa protetora 
+em posição, pressione para baixo e rode a agulha em sentido horário sobre a seringa até ficar 
+bem apertada. </li>
+<li>Retire a tampa de plástico que cobre a agulha da seringa. Tome atenção para não se ferir com a 
+agulha. </li>
+<li>Puxe o êmbolo para trás para permitir uma entrada de ar na seringa equivalente à sua dose. </li>
+</ol>
+<p>Passo 2: Retirar Strensiq solução do frasco para injetáveis </p>
+<ol>
+<li>Segurando na seringa e no frasco para 
+injetáveis, insira a agulha através do 
+vedante de borracha estéril para o interior 
+do frasco para injetáveis. </li>
+<li>
+<p>Pressione o êmbolo até ao fim para 
+injetar o ar para dentro do frasco para 
+injetáveis. </p>
+</li>
+<li>
+<p>Inverta o frasco para injetáveis e a 
+seringa. Com a agulha na solução, puxe o 
+êmbolo e retire a dose correta para dentro 
+da seringa. </p>
+</li>
+<li>
+<p>Antes de retirar a agulha do frasco para 
+injetáveis, verifique se foi retirado o 
+volume apropriado e se a seringa contém 
+bolhas de ar. No caso de aparecerem 
+bolhas na seringa, segure na seringa com 
+a agulha voltada para cima e bata 
+cuidadosamente nos lados da seringa até 
+as bolhas subirem para o topo. </p>
+</li>
+<li>
+<p>Assim que todas as bolhas se 
+encontrarem no topo da seringa, 
+pressione cuidadosamente o êmbolo para 
+forçar a saída das bolhas para fora da 
+seringa e de novo para dentro do frasco 
+para injetáveis. </p>
+</li>
+<li>
+<p>Depois de remover as bolhas, verifique novamente a dose de medicação na seringa para se 
+assegurar de que retirou a quantidade correta. Poderá ter de utilizar vários frascos para 
+injetáveis para retirar a quantidade total necessária para atingir a dose correta. </p>
+</li>
+</ol>
+<p>Passo 3: Colocar a agulha para injeção na seringa </p>
+<ol>
+<li>Retire a agulha do frasco para injetáveis. Volte a colocar a tampa protetora com uma mão 
+colocando a tampa numa superfície plana; deslize a agulha para dentro da tampa, levante-a e 
+encaixe-a com segurança utilizando apenas uma mão. </li>
+<li>Retire a agulha de calibre maior cuidadosamente empurrando para baixo e rodando no sentido 
+anti-horário. Elimine a agulha com a tampa protetora num recipiente para objetos cortantes. </li>
+<li>Coloque uma agulha de calibre menor (p. ex. 27 ou 29G) na seringa cheia e, com a capa 
+protetora em posição, pressione para baixo e rode a agulha sobre a seringa no sentido horário 
+até ficar bem apertada. Retire a tampa da agulha. </li>
+<li>Segure na seringa com a agulha voltada para cima e bata no corpo da seringa com o seu dedo 
+de modo a remover quaisquer bolhas de ar. 
+Controle visualmente se o volume na seringa é o volume correto. 
+O volume por injeção não deve exceder 1 ml. Se for este o caso, devem ser administradas várias 
+injeções em locais diferentes. 
+Está agora pronto para injetar a dose correta. </li>
+</ol>
+<p>Passo 4: Injetar Strensiq </p>
+<ol>
+<li>Escolha um local para a injeção (coxas, 
+abdómen, braços [deltoides], nádegas). 
+As áreas mais convenientes para injeção 
+estão assinaladas a cinzento na figura. O 
+seu médico aconselhá-lo-á sobre os 
+locais de injeção possíveis. </li>
+</ol>
+<p>NOTA: não utilize zonas nas quais sinta uma 
+massa, nódulos firmes ou dor; fale com o seu 
+médico sobre qualquer coisa que detete. </p>
+<ol>
+<li>
+<p>Aperte suavemente a pele da zona de 
+injeção escolhida entre o polegar e o 
+dedo indicador.</p>
+</li>
+<li>
+<p>Segurando na seringa como um lápis ou 
+um dardo, insira a agulha na pele 
+elevada, num ângulo entre 45º e 90º com 
+a superfície da pele. </p>
+</li>
+</ol>
+<p>Em doentes que têm pouca gordura sob a pele ou 
+uma pele fina, pode ser preferível um ângulo de 
+45º.</p>
+<ol>
+<li>Ao mesmo tempo que continua a segurar na 
+pele, prima o êmbolo da seringa para injetar o 
+medicamento lenta e continuamente até ao 
+fim. </li>
+<li>Retire a agulha, liberte a prega de pele e 
+coloque cuidadosamente um bocado de 
+algodão ou de gaze sobre o local de injeção 
+durante alguns segundos. 
+Isto ajuda a fechar o tecido puncionado e a evitar 
+qualquer derrame. 
+Não friccione o local de injeção depois da 
+injeção.  </li>
+</ol>
+<p>Se precisar de uma segunda injeção para obter a sua dose prescrita, retire outro frasco para injetáveis 
+de Strensiq e repita os passos 1 até ao 4.<br />
+Passo 5: Eliminação do material usado </p>
+<p>Recolha todas as seringas, frascos para injetáveis e agulhas e coloque-os num recipiente para objetos 
+cortantes. O seu médico, farmacêutico ou enfermeiro aconselhá-lo-ão sobre como obter um recipiente 
+para objetos cortantes. </p>
+<p>Se utilizar mais Strensiq do que deveria 
+Se suspeitar que administrou acidentalmente uma dose mais elevada de Strensiq do a que lhe foi 
+prescrita, consulte o seu médico. </p>
+<p>Caso se tenha esquecido de utilizar Strensiq 
+Não injete uma dose a dobrar para compensar uma dose que se esqueceu de injetar e consulte o seu 
+médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Se não tiver a certeza do que são os efeitos indesejáveis abaixo indicados, fale com o seu médico para 
+que ele lhe explique. </p>
+<p>Os efeitos indesejáveis mais graves observados em doentes tratados com asfotase alfa foram reações 
+alérgicas, incluindo reações alérgicas com risco de vida que requerem tratamento médico semelhante à 
+anafilaxia. Este efeito indesejável é frequente (pode afetar até 1 em cada 10 pessoas). Os doentes que 
+apresentaram estas reações alérgicas graves tiveram dificuldade em respirar, sensação de asfixia, 
+náuseas, inchaço em redor dos olhos e tonturas. As reações ocorreram minutos após utilização da 
+asfotase alfa e podem ocorrer em doentes que estão a utilizar asfotase alfa há mais de um ano. Se tiver 
+qualquer um destes sintomas, descontinue Strensiq e consulte imediatamente um médico.  </p>
+<p>Além destas, podem ocorrer frequentemente outras reações alérgicas (hipersensibilidade) que se 
+podem manifestar na forma de vermelhidão (eritema), febre (pirexia), erupção na pele, comichão 
+(prurido), irritabilidade, sensação de enjoo (náuseas), vómitos, dor, arrepios (rigor), dormência da boca 
+(hipoestesia oral), dores de cabeça, rubor, batimento rápido do coração (taquicardia) e tosse. Se tiver 
+qualquer um destes sintomas, descontinue Strensiq e consulte imediatamente um médico. </p>
+<p>Muito frequentes: podem afetar mais do que 1 em cada 10 pessoas 
+Reações no local de injeção durante a injeção do medicamento ou nas horas que se seguem à injeção 
+(que podem causar vermelhidão, alterações da cor, comichão, dor, nódulos de gordura ou diminuição 
+do tecido gordo na superfície da pele, hipopigmentação da pele e/ou inchaço)<br />
+Febre (pirexia) 
+Irritabilidade 
+Vermelhidão da pele (eritema) 
+Dor nas mãos e pés (dor nas extremidades) 
+Nódoas negras (contusão ) 
+Dores de cabeça </p>
+<p>Frequentes: podem afetar até 1 em cada 10 pessoas 
+Pele esticada, alteração da cor da pele 
+Sensação de enjoo (náuseas) 
+Boca dormente (hipoestesia oral) 
+Dores nos músculos (mialgia)<br />
+Cicatriz 
+Maior tendência para fazer nódoas negras<br />
+Afrontamentos 
+Infeção da pele no local de injeção (celulite no local de injeção) 
+Níveis reduzidos de cálcio no sangue (hipocalcemia) 
+Pedras nos rins (nefrolitíase) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar strensiq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar strensiq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C - 8°C). 
+Não congelar. 
+Conservar na embalagem de origem para proteger da luz. 
+Após abertura do frasco para injetáveis, o medicamento deve ser utilizado imediatamente (no período 
+de 3 horas no máximo à temperatura ambiente, entre 23°C e 27°C). </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Strensiq 
+A substância ativa é a asfotase alfa. Cada ml de solução contém 40 mg de asfotase alfa. 
+Cada frasco para injetáveis de 0,3 ml (40 mg/ml) contém 12 mg de asfotase alfa. 
+Cada frasco para injetáveis de 0,45 ml (40 mg/ml) contém 18 mg de asfotase alfa. 
+Cada frasco para injetáveis de 0,7 ml (40 mg/ml) contém 28 mg de asfotase alfa. 
+Cada frasco para injetáveis de 1 ml (40 mg/ml) contém 40 mg de asfotase alfa. </p>
+<p>Os outros componentes são cloreto de sódio, fosfato de sódio dibásico hepta-hidratado, fosfato de 
+sódio monobásico mono-hidratado e água para preparações injetáveis </p>
+<p>Qual o aspeto de Strensiq e conteúdo da embalagem 
+Strensiq é apresentado como uma solução injetável aquosa, límpida, ligeiramente opalescente ou 
+opalescente, incolor a ligeiramente amarelada, acondicionada em frascos para injetáveis contendo 
+0,3 ml, 0,45 ml, 0,7 ml e 1 ml de solução. Podem estar presentes algumas pequenas partículas 
+translúcidas ou brancas. </p>
+<p>Apresentações de 1 ou 12 frascos para injetáveis. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Alexion Europe SAS 
+103-105 rue Anatole France 
+92300 Levallois-Perret 
+França </p>
+<p>Fabricante 
+Alexion Pharma International Operations Limited<br />
+College Business and Technology Park, Blanchardstown 
+Dublin Irlanda </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Foi concedida a este medicamento uma “Autorização de Introdução no Mercado em circunstâncias 
+excecionais". 
+Isto significa que não foi possível obter informação completa sobre este medicamento devido à 
+raridade desta doença. 
+A Agência Europeia de Medicamentos irá rever todos os anos qualquer nova informação sobre este 
+medicamento e este folheto será atualizado se necessário. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1189,6 +1798,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-028530430ed7d9b47cd8ba73da175d72"
 * entry[0].resource = composition-da-028530430ed7d9b47cd8ba73da175d72
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp028530430ed7d9b47cd8ba73da175d72"
+* entry[=].resource = mp028530430ed7d9b47cd8ba73da175d72
+                            
+                    
+Instance: bundlepackageleaflet-pt-028530430ed7d9b47cd8ba73da175d72
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for strensiq Package Leaflet for language pt"
+Description: "ePI document Bundle for strensiq Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-028530430ed7d9b47cd8ba73da175d72"
+* entry[0].resource = composition-pt-028530430ed7d9b47cd8ba73da175d72
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp028530430ed7d9b47cd8ba73da175d72"
@@ -1290,6 +1921,18 @@ RuleSet: 028530430ed7d9b47cd8ba73da175d72ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-028530430ed7d9b47cd8ba73da175d72) // strensiq pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

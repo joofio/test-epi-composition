@@ -1202,6 +1202,441 @@ Et lag af skum er ikke OK</p>         </div>"""
 
 
 
+Instance: composition-pt-8f36194c6cc063f159cffcece33902d5
+InstanceOf: CompositionUvEpi
+Title: "Composition for somavert Package Leaflet"
+Description:  "Composition for somavert Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8f36194c6cc063f159cffcece33902d5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - somavert"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é SOMAVERT e para que é utilizado
+2. O que precisa de saber antes de utilizar SOMAVERT
+3. Como utilizar SOMAVERT
+4. Efeitos indesejáveis possíveis
+5. Como conservar SOMAVERT
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é somavert e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é somavert e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O SOMAVERT é utilizado para o tratamento da acromegalia, um distúrbio hormonal resultante do 
+aumento da secreção da hormona de crescimento (GH) e IGF-I (fatores de crescimento tipo insulina), 
+caracterizado por um crescimento excessivo do osso, inchaço dos tecidos moles, doença cardíaca e 
+distúrbios relacionados.
+A substância ativa do SOMAVERT, o pegvisomant, é conhecida como sendo um antagonista do 
+recetor da hormona de crescimento. Estas substâncias reduzem a ação da GH e os níveis de IGF-I 
+circulantes.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar somavert"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar somavert"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não utilize SOMAVERT</h2>
+<p>se tem alergia ao pegvisomant ou a qualquer outro componente deste medicamento (indicados 
+na secção 6).
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar SOMAVERT.
+-
+Se sente alterações na visão ou tem dor de cabeça, contacte o seu médico imediatamente.
+-
+O seu médico ou enfermeiro irão monitorizar os níveis de IGF-I circulantes no sangue
+(fatores de crescimento tipo insulina) e, se necessário, ajustar a dose de SOMAVERT.
+-
+O seu médico deverá também monitorizar o seu adenoma (tumor benigno).
+-
+O seu médico irá realizar testes para a avaliar o funcionamento do seu fígado antes de iniciar e 
+durante o tratamento com SOMAVERT. Se os resultados desses testes não forem normais, o seu 
+54
+médico irá falar consigo sobre as opções de tratamento. Assim que o tratamento for iniciado, o
+seu médico ou enfermeiro irão monitorizar os níveis das enzimas hepáticas no sangue em cada 
+4-6 semanas, durante os primeiros 6 meses de tratamento com SOMAVERT. A administração 
+de SOMAVERT deve ser descontinuada se persistirem sinais de doença hepática.
+-
+Se é diabético, o seu médico poderá necessitar de ajustar a quantidade de insulina ou de outros 
+medicamentos que esteja a tomar.
+-
+A fertilidade em doentes do sexo feminino pode aumentar à medida que a doença melhora. Não 
+se recomendada a utilização deste medicamento em mulheres grávidas e as mulheres com 
+potencial para engravidar devem ser aconselhadas a utilizar um método contracetivo. Ver 
+também a secção relativa a Gravidez.
+Outros medicamentos e SOMAVERT
+Tem de informar o seu médico se alguma vez tomou outros medicamentos para o tratamento da 
+acromegalia ou medicamentos para o tratamento da diabetes.
+Informe o seu médico ou farmacêutico se estiver a tomar ou tiver tomado recentemente outros 
+medicamentos.
+Podem ser-lhe receitados outros medicamentos como parte do seu tratamento. É importante que 
+continue a tomar todos os medicamentos, bem como o SOMAVERT, a não ser que o seu médico, 
+farmacêutico ou enfermeiro lhe digam para suspender o tratamento.
+Gravidez, amamentação e fertilidade
+Não se recomenda a administração de SOMAVERT em mulheres grávidas. Se é uma mulher com 
+potencial para engravidar, deve utilizar um método contracetivo durante o tratamento.
+Desconhece-se se pegvisomant passa para o leite materno. Não deve amamentar enquanto está em 
+tratamento com SOMAVERT, a menos que o seu médico lhe tenha dito o contrário.
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Condução de veículos e utilização de máquinas
+Não foram estudados os efeitos sobre a capacidade de conduzir e utilizar máquinas.
+SOMAVERT contém sódio
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, isto é, é essencialmente 
+“isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar somavert"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar somavert"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.
+O seu médico irá administrar-lhe por via subcutânea (debaixo da pele), uma dose inicial de 80 mg de 
+pegvisomant. Após esta dose inicial, a dose diária usual de pegvisomant é de 10 mg, administrada por 
+injeção subcutânea (debaixo da pele).
+55
+O seu médico irá ajustar a sua dose todas as quatro a seis semanas, aumentando o pegvisomant 5 mg 
+por dia, com base nos seus níveis de IGF-I no sangue, de modo a manter uma resposta terapêutica 
+adequada.
+Modo e via de administração
+SOMAVERT é administrado sob a pele. A injeção pode ser autoadministrada ou ser administrada por 
+outra pessoa, como o seu médico ou o seu assistente. Devem ser seguidas as instruções detalhadas para 
+a técnica de injeção que se encontram no final deste folheto. Deve continuar com as administrações 
+deste medicamento de acordo com as instruções do seu médico.
+Este medicamento deve ser dissolvido antes de utilizar. A injeção não pode ser misturada na mesma 
+seringa ou frasco com outros medicamentos.
+Pode ocorrer desenvolvimento de tecido adiposo no local da injeção. Para evitar este acontecimento, 
+escolha, em cada administração, um local ligeiramente diferente para administrar a sua injeção, como 
+descrito no Passo 2 da secção “Instruções para preparar e administrar uma injeção de SOMAVERT" 
+deste folheto informativo. Este procedimento permite que a sua pele e a área por baixo da sua pele, 
+tenham tempo para recuperar da injeção antes de receber outra injeção no mesmo local.
+Caso sinta que o efeito deste medicamento é muito forte ou muito fraco, fale com o seu médico, 
+farmacêutico ou enfermeiro.
+Se utilizar mais SOMAVERT do que deveria
+Caso tenha administrado acidentalmente uma dose de SOMAVERT superior à dose referida pelo seu 
+médico, é pouco provável que a situação seja grave. No entanto, deve falar com o seu médico, 
+farmacêutico ou enfermeiro imediatamente.
+Caso se tenha esquecido de utilizar SOMAVERT
+Caso se tenha esquecido de autoadministrar a dose de SOMAVERT, deve administrar a dose seguinte 
+logo que se lembre, e continuar a administrar o SOMAVERT tal como lhe foi prescrito pelo seu 
+médico. Não administre uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Foram notificadas reações alérgicas (anafiláticas) moderadas a graves em alguns doentes a tomar 
+SOMAVERT. Uma reação alérgica grave pode incluir um ou mais dos seguintes sintomas: inchaço da
+face, língua, lábios ou garganta, respiração ruidosa ou problemas em respirar (espasmo da laringe); 
+erupção da pele generalizada, urticária ou comichão, ou tontura. Contacte o seu médico imediatamente 
+se desenvolver qualquer um destes sintomas.
+Muito frequentes: podem afetar mais do que 1 em 10 pessoas
+
+Dor de cabeça
+
+Diarreia
+
+Dor nas articulações
+Frequentes: podem afetar até 1 em cada 10 pessoas
+56
+
+Falta de ar.
+
+Aumento dos níveis das substâncias que medem a função do fígado. Estes aumentos podem 
+ser verificados nos resultados de análises sanguíneas.
+
+Sangue na urina.
+
+Aumento da pressão arterial.
+
+Prisão de ventre, sensação de doença, mal-estar, sensação de inchaço, sensação de 
+enfartamento, gases.
+
+Tonturas, sonolência, tremor descontrolado, diminuição da sensibilidade ao toque.
+
+Nódoa negra ou sangramento no local da injeção, inflamação ou inchaço no local da injeção, 
+desenvolvimento de gordura na camada inferior da pele no local da injeção, inchaço nas 
+extremidades, fraqueza, febre.
+
+Transpiração, comichão, erupção na pele, tendência para nódoas negras.
+
+Dor nos músculos, artrite.
+
+Aumento do colesterol no sangue, aumento de peso, aumento do açúcar no sangue, diminuição 
+do açúcar no sangue.
+
+Sintomas semelhantes à gripe, fadiga.
+
+Sonhos anómalos.
+
+Dor nos olhos.
+Pouco frequentes: podem afetar até 1 em cada 100 pessoas
+
+Reação alérgica após a administração (febre, erupção na pele, comichão e, em casos graves, 
+dificuldade em respirar, inchaço rápido da pele, que necessita de assistência médica urgente). 
+Pode ocorrer imediatamente ou vários dias após a administração.
+
+Proteínas na urina, maior quantidade de urina, problemas nos rins.
+
+Falta de interesse, confusão, aumento do impulso sexual, ataques de pânico, perda de 
+memória, dificuldades em dormir.
+
+Diminuição do número de plaquetas no sangue, aumento ou diminuição das células brancas 
+sanguíneas, tendência para hemorragia.
+
+Sensação anormal, dificuldade de cicatrização.
+
+Tensão nos olhos, problemas no ouvido interno.
+
+Inchaço da face, pele seca, suores noturnos, vermelhidão da pele (eritema), erupções com 
+relevo e comichão (urticária).
+
+Aumento de substâncias gordas no sangue, aumento do apetite.
+
+Boca seca, aumento da saliva, problemas nos dentes, hemorroidas.
+
+Alteração do paladar, enxaqueca.
+Desconhecido: a frequência não pode ser calculada a partir dos dados disponíveis
+
+Fúria
+
+Falta de ar grave (laringospasmos)
+
+Inchaço rápido da pele e dos tecidos envolventes e do revestimento interno (mucosas) de 
+órgãos (angioedema)
+Durante o tratamento, cerca de 17% dos doentes irão desenvolver anticorpos à hormona do 
+crescimento. Os anticorpos parecem não impedir a ação deste medicamento.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.
+57</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar somavert"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar somavert"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no frasco para injetáveis e 
+embalagem exterior após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+Conservar os frascos para injetáveis com pó no frigorífico (2ºC - 8ºC) dentro da(s) sua(s)
+embalagem(ns) para proteger da luz. Não congelar.
+A(s) embalagem(s) que conté(ê)m SOMAVERT frasco(s) para injetáveis com pó pode(m) ser 
+conservada(s) à temperatura ambiente até um máximo de 25°C durante um período único de até dias. Escrever a data de validade na embalagem, incluindo o dia/mês/ano (até 30 dias a partir da data 
+em que foi retirado do frigorífico). O(s) frasco(s) para injetáveis te(ê)m de ser protegido(s) da luz. Não 
+colocar o medicamento novamente no frigorífico. 
+Eliminar este medicamento se não for utilizado até à nova data de validade ou ao prazo de validade 
+impresso na embalagem, dependendo do que ocorrer primeiro.
+Conservar as seringas pré-cheias a temperatura inferior a 30ºC ou no frigorífico (2ºC - 8ºC). Não 
+congelar.
+Após ser preparada, a solução de SOMAVERT tem de ser administrada imediatamente.
+Não utilize este medicamento se verificar que a solução está turva ou contém partículas.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de SOMAVERT</h2>
+<h2>A substância ativa é pegvisomant.</h2>
+<p>SOMAVERT 10 mg: Um frasco para injetáveis de pó contém 10 mg de pegvisomant. Após 
+reconstituição com 1 ml de solvente, 1 ml da solução contém 10 mg de pegvisomant.
+-
+SOMAVERT 15 mg: Um frasco para injetáveis de pó contém 15 mg de pegvisomant. Após 
+reconstituição com 1 ml de solvente, 1 ml da solução contém 15 mg de pegvisomant.
+-
+SOMAVERT 20 mg: Um frasco para injetáveis de pó contém 20 mg de pegvisomant. Após 
+reconstituição com 1 ml de solvente, 1 ml da solução contém 20 mg de pegvisomant.
+-
+SOMAVERT 25 mg: Um frasco para injetáveis de pó contém 25 mg de pegvisomant. Após 
+reconstituição com 1 ml de solvente, 1 ml da solução contém 25 mg de pegvisomant.
+-
+SOMAVERT 30 mg: Um frasco para injetáveis de pó contém 30 mg de pegvisomant. Após 
+reconstituição com 1 ml de solvente, 1 ml da solução contém 30 mg de pegvisomant.
+-
+Os outros componentes são glicina, manitol (E421), fosfato dissódico anidro e di-hidrogenofosfato 
+de sódio mono-hidratado (ver secção 2 “SOMAVERT contém sódio").
+-
+O solvente é água para injetáveis.
+Qual o aspeto de SOMAVERT e conteúdo da embalagem
+SOMAVERT apresenta-se como um pó e solvente para solução injetável (com 10 mg, 15 mg, 20 mg, 
+25 mg ou 30 mg de pegvisomant num frasco para injetáveis e 1 ml de solvente numa seringa pré-
+cheia). Embalagens de 1 e/ou 30 unidades. É possível que não sejam comercializadas todas as 
+apresentações. O pó é branco e o solvente é límpido e transparente.
+58
+Titular da Autorização de Introdução no Mercado e Fabricante:
+Titular da Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante:
+Pfizer Manufacturing Belgium NV
+Rijksweg 12
+2870 Puurs-Sint-Amands
+Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: + 36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς Α.Ε.
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+59
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana 
+Tel: +386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige 
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: + 371 670 35 775
+Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt;
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1243,6 +1678,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8f36194c6cc063f159cffcece33902d5"
 * entry[0].resource = composition-da-8f36194c6cc063f159cffcece33902d5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8f36194c6cc063f159cffcece33902d5"
+* entry[=].resource = mp8f36194c6cc063f159cffcece33902d5
+                            
+                    
+Instance: bundlepackageleaflet-pt-8f36194c6cc063f159cffcece33902d5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for somavert Package Leaflet for language pt"
+Description: "ePI document Bundle for somavert Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8f36194c6cc063f159cffcece33902d5"
+* entry[0].resource = composition-pt-8f36194c6cc063f159cffcece33902d5
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8f36194c6cc063f159cffcece33902d5"
@@ -1344,6 +1801,18 @@ RuleSet: 8f36194c6cc063f159cffcece33902d5ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8f36194c6cc063f159cffcece33902d5) // somavert pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

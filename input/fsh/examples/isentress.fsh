@@ -1037,6 +1037,604 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-240cb856767cdf385c31b86b973619ae
+InstanceOf: CompositionUvEpi
+Title: "Composition for isentress Package Leaflet"
+Description:  "Composition for isentress Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp240cb856767cdf385c31b86b973619ae)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - isentress"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Isentress e para que é utilizado 
+2. O que precisa de saber antes de tomar Isentress
+3. Como tomar Isentress
+4. Efeitos indesejáveis possíveis
+5. Como conservar Isentress
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é isentress e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é isentress e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Isentress
+Isentress contém a substância ativa raltegravir. Isentress é um medicamento antirretrovírico que atua
+contra o vírus da imunodeficiência humana (VIH). Este é o vírus que causa a Síndrome de
+Imunodeficiência Adquirida (SIDA).
+Como atua Isentress
+O VIH produz uma enzima chamada integrase do VIH. Esta ajuda o vírus a multiplicar-se nas células
+do seu organismo. Isentress impede que esta enzima atue. Quando usado com outros medicamentos,
+Isentress pode reduzir a quantidade de VIH no seu sangue (isto chama-se "carga vírica") e aumentar o
+número de células CD4 (um tipo de glóbulos brancos que desempenha um importante papel na
+manutenção de um sistema imunológico saudável para ajudar a combater infeções). Reduzir a
+quantidade de VIH no sangue pode melhorar o funcionamento do seu sistema imunitário. Isto significa
+que o seu organismo pode combater melhor a infeção.
+Quando deve ser utilizado Isentress
+Isentress é utilizado para o tratamento de quem está infetado por VIH. O seu médico receitou Isentress
+para ajudar a controlar a sua infeção por VIH. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar isentress"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar isentress"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Isentress:</p>
+<ul>
+<li>
+<p>se tem alergia ao raltegravir ou a qualquer outro componente deste medicamento (indicados na
+secção 6).
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Isentress. 
+133
+Lembre-se que Isentress não é uma cura para a infeção por VIH. Isto significa que pode continuar a
+contrair infeções ou outras doenças associadas com o VIH. Deve continuar a consultar o seu médico
+regularmente enquanto tomar este medicamento.
+Problemas de saúde mental 
+Informe o seu médico caso tenha história de depressão ou doença psiquiátrica. Foi comunicada
+depressão, incluindo pensamentos e comportamentos suicidas, em alguns doentes a tomar este
+medicamento, particularmente em doentes com história prévia de depressão ou doença psiquiátrica.
+Problemas nos ossos
+Alguns doentes em terapêutica antirretrovírica combinada podem desenvolver uma doença óssea
+chamada osteonecrose (morte do tecido ósseo provocada por falta de afluxo de sangue ao osso). A
+duração da terapêutica antirretrovírica combinada, a utilização de corticosteroides, o consumo de
+álcool, a redução grave da atividade do sistema imunitário, um índice de massa corporal aumentado,
+entre outros, podem ser alguns dos inúmeros fatores de risco para o desenvolvimento desta doença. Os
+sinais de osteonecrose são rigidez, mal-estar e dores nas articulações (especialmente na anca, joelho e
+ombro) e dificuldade de movimentos. Por favor, informe o seu médico se notar qualquer um destes
+sintomas.
+Problemas de fígado
+Informe o seu médico, farmacêutico ou enfermeiro se teve anteriormente problemas de fígado,
+incluindo hepatite B ou C. O seu médico avaliará a gravidade da sua doença de fígado antes de decidir
+se pode tomar este medicamento.
+Infeções
+Informe imediatamente o seu médico, farmacêutico ou enfermeiro se notar quaisquer sintomas de
+infeção, tais como febre, e/ou sensação de mal-estar. Em alguns doentes com infeção por VIH
+avançada e história de infeção oportunista, podem ocorrer sinais e sintomas de inflamação de infeções
+anteriores logo após o início do tratamento anti-VIH. Acredita-se que estes sintomas se devem a um
+aumento da resposta imunológica do organismo, conferindo a este a capacidade de combater infeções
+que possam ter estado presentes sem sintomas óbvios.
+Adicionalmente às infeções oportunistas, as doenças autoimunes (uma condição que ocorre quando o
+sistema imunitário ataca tecidos corporais saudáveis) também podem ocorrer depois de começar a
+tomar os medicamentos para o tratamento da sua infeção por VIH. As doenças autoimunes podem
+ocorrer muitos meses após o início do tratamento. Se notar quaisquer sintomas de infeção ou outros
+sintomas como fraqueza muscular, fraqueza a começar nas mãos e nos pés e dirigindo-se em direção
+ao tronco, palpitações, tremores ou hiperatividade, informe o seu médico imediatamente para procurar
+o tratamento necessário.
+Problemas musculares
+Contacte o seu médico, farmacêutico ou enfermeiro imediatamente se sentir dor, sensibilidade ou
+fraqueza musculares inexplicáveis enquanto está a tomar este medicamento.
+Problemas na pele
+Contacte o seu médico imediatamente se desenvolver uma erupção cutânea. Foram comunicadas em
+alguns doentes a tomar este medicamento reações cutâneas graves e que colocam a vida em risco,
+assim como reações alérgicas.
+Outros medicamentos e Isentress
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a
+tomar outros medicamentos com ou sem receita médica.
+Isentress pode interagir com outros medicamentos. 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente ou se
+vier a tomar: 
+134</p>
+</li>
+<li>
+<p>antiácidos (um agente que contrapõe ou neutraliza o ácido do estômago para ajudar a digestão
+ou aliviar a azia). Não é recomendado que tome Isentress com determinados antiácidos (os que
+contêm alumínio e/ou magnésio). Fale com o seu médico sobre que outros antiácidos pode
+tomar. </p>
+</li>
+<li>
+<p>sais de ferro (para tratar e prevenir deficiência em ferro ou anemia). Deve esperar pelo menos
+duas horas entre a toma dos sais de ferro e a toma de Isentress, uma vez que estes medicamentos
+podem diminuir a eficácia de Isentress.</p>
+</li>
+<li>
+<p>rifampicina (um medicamento utilizado para tratar algumas infeções como a tuberculose), pois
+pode diminuir os seus níveis de Isentress. O seu médico pode considerar aumentar a sua dose de
+Isentress, caso esteja a tomar rifampicina. 
+Isentress com alimentos e bebidas
+Ver secção 3. Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico,
+farmacêutico antes de tomar este medicamento. </p>
+</li>
+<li>
+<p>A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção
+pelo VIH pode ser transmitida ao bebé através do leite materno.</p>
+</li>
+<li>
+<p>Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais
+rapidamente possível.
+Caso esteja grávida ou a amamentar, consulte o seu médico, farmacêutico ou enfermeiro antes de
+tomar qualquer medicamento.
+Condução de veículos e utilização de máquinas
+Não utilize quaisquer ferramentas ou máquinas, não conduza nem ande de bicicleta se sentir tonturas
+após tomar este medicamento.
+Isentress contém lactose
+Este medicamento contém lactose. Se foi informado pelo seu médico que tem intolerância a alguns
+açúcares, contacte-o antes de tomar este medicamento.
+Isentress contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é
+praticamente “isento de sódio".</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar isentress"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar isentress"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome sempre este medicamento exatamente como indicado pelo seu médico, farmacêutico ou
+enfermeiro. Fale com o seu médico, farmacêutico ou enfermeiro se tiver dúvidas. Isentress tem de ser
+utilizado em associação com outros medicamentos para o VIH.
+Qual a quantidade a tomar
+Adultos
+A dose recomendada é de 1 comprimido (400 mg) por via oral duas vezes por dia.
+Utilização em crianças e adolescentes
+A dose recomendada de Isentress é de 400 mg por via oral duas vezes por dia, para adolescentes e
+crianças com peso igual ou superior a 25 kg.
+Não mastigue, esmague ou parta os comprimidos pois pode alterar a concentração de medicamento no
+seu organismo. Pode tomar este medicamento com ou sem alimentos ou bebidas.
+Isentress está também disponível em comprimidos de 600 mg, comprimidos para mastigar e granulado
+para suspensão oral. Não alterne entre o comprimido de 400 mg, o comprimido de 600 mg, o
+135
+comprimido para mastigar ou o granulado para suspensão oral sem falar primeiro com o seu médico,
+farmacêutico ou enfermeiro. 
+Se tomar mais Isentress do que deveria
+Não tome mais comprimidos do que os recomendados pelo seu médico. Se tomar comprimidos a mais,
+contacte o seu médico.
+Caso se tenha esquecido de tomar Isentress</p>
+<ul>
+<li>
+<p>Se se esquecer de tomar uma dose, tome-a logo que se lembre.</p>
+</li>
+<li>
+<p>No entanto, se já é altura da próxima toma, não tome a dose que se esqueceu de tomar e volte ao
+esquema habitual.</p>
+</li>
+<li>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Se parar de tomar Isentress
+É importante que tome Isentress exatamente da forma que o seu médico recomendou. Não altere a
+dose ou pare de tomar este medicamento sem primeiro falar com o seu médico, farmacêutico ou
+enfermeiro.
+Não pare de o tomar porque:</p>
+</li>
+<li>
+<p>É muito importante que tome todos os medicamentos para a infeção por VIH tal como
+receitados e nos horários corretos. Isto pode fazer com que os medicamentos atuem melhor. Isto
+também diminui a probabilidade dos seus medicamentos deixarem de ser eficazes no combate
+ao VIH (também chamada "resistência ao medicamento").</p>
+</li>
+<li>
+<p>Quando já tiver pouca quantidade de Isentress, obtenha mais junto do seu médico ou da
+farmácia. É muito importante que não fique sem medicamento, mesmo por um curto período de
+tempo. A quantidade de vírus do seu sangue pode aumentar durante uma pequena interrupção da
+toma do medicamento. Isto pode levar o VIH a desenvolver resistência ao Isentress e tornar-se
+mais difícil de tratar.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico
+ou enfermeiro.</p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos secundários, embora estes não se
+manifestem em todas as pessoas.
+Efeitos indesejáveis graves - pouco frequentes (podem afetar até 1 em 100 pessoas)
+Consulte o médico imediatamente se notar qualquer um destes sintomas:</p>
+<ul>
+<li>
+<p>infeção por herpes, incluindo zona</p>
+</li>
+<li>
+<p>anemia, incluindo anemia devida a valores baixos de ferro</p>
+</li>
+<li>
+<p>sinais e sintomas de infeção ou inflamação</p>
+</li>
+<li>
+<p>distúrbio mental</p>
+</li>
+<li>
+<p>ideia ou tentativa de suicídio</p>
+</li>
+<li>
+<p>inflamação do estômago</p>
+</li>
+<li>
+<p>inflamação do fígado</p>
+</li>
+<li>
+<p>falência do fígado</p>
+</li>
+<li>
+<p>erupção cutânea de origem alérgica</p>
+</li>
+<li>
+<p>certos tipos de problemas dos rins</p>
+</li>
+<li>
+<p>ingestão do medicamento em quantidades superiores às recomendadas
+Consulte um médico imediatamente, se notar qualquer dos efeitos secundários acima mencionados.
+136
+Frequentes: podem afetar até 1 em 10 pessoas:</p>
+</li>
+<li>
+<p>apetite reduzido</p>
+</li>
+<li>
+<p>dificuldade em dormir; sonhos anormais; pesadelos; comportamento anormal; sentimentos de
+tristeza profunda e desvalorização pessoal </p>
+</li>
+<li>
+<p>sentir-se tonto; dores de cabeça</p>
+</li>
+<li>
+<p>sensação de andar à roda</p>
+</li>
+<li>
+<p>inchaço; dor abdominal; diarreia; gases excessivos no estômago ou no intestino; mal-estar;
+vómitos; indigestão; arrotos</p>
+</li>
+<li>
+<p>alguns tipos de erupção cutânea (mais frequente quando utilizado em associação com
+darunavir); </p>
+</li>
+<li>
+<p>cansaço, cansaço ou fraqueza pouco habituais, febre</p>
+</li>
+<li>
+<p>aumento dos valores relacionados com a função do fígado nas análises ao sangue; glóbulos
+brancos anormais; aumento dos valores de gordura no sangue; aumento dos valores de enzimas
+das glândulas salivares ou pâncreas
+Pouco frequentes: podem afetar até 1 em 100 pessoas</p>
+</li>
+<li>
+<p>infeção das raízes do cabelo; gripe; infeção da pele causada por vírus; vómitos ou diarreia
+devido a agente infecioso, infeção do trato respiratório superior; abcesso dos nódulos linfáticos</p>
+</li>
+<li>
+<p>verrugas</p>
+</li>
+<li>
+<p>dor nos nódulos linfáticos; contagem baixa dos glóbulos brancos que combatem a infeção;
+glândulas inchadas no pescoço, axilas e virilhas</p>
+</li>
+<li>
+<p>reação alérgica</p>
+</li>
+<li>
+<p>aumento do apetite; diabetes; aumento do colesterol e dos lípidos no sangue; aumento dos níveis
+de açúcar no sangue; sede excessiva; redução de peso acentuada; valores de gordura elevados
+(como colesterol e triglicéridos) no sangue; distúrbio na gordura corporal</p>
+</li>
+<li>
+<p>sensação de ansiedade; sensação de confusão; humor depressivo; alterações do humor; ataques
+de pânico</p>
+</li>
+<li>
+<p>perda de memória; dor na mão devido a compressão dos nervos; distúrbios na atenção; tonturas
+causadas por alterações rápidas da postura; paladar alterado; aumento da sonolência; falta de
+energia; esquecimento; enxaqueca; dor de cabeça; perda de sensibilidade; dormência ou
+fraqueza nos braços e/ou pernas; formigueiro; sonolência; dor de cabeça devida a tensão;
+tremores; sono de má qualidade</p>
+</li>
+<li>
+<p>distúrbios visuais</p>
+</li>
+<li>
+<p>zumbidos, sibilos, assobios, zunidos ou outros sons persistentes nos ouvidos</p>
+</li>
+<li>
+<p>palpitações; batimentos cardíacos lentos; batimentos cardíacos rápidos ou irregulares</p>
+</li>
+<li>
+<p>rubor acompanhado por calor; tensão arterial elevada</p>
+</li>
+<li>
+<p>voz áspera, estridente ou tensa; hemorragia nasal; congestão nasal</p>
+</li>
+<li>
+<p>dor no abdómen superior; desconforto retal; prisão de ventre; boca seca; azia; dor ao engolir;
+inflamação do pâncreas; úlcera ou inflamação no estômago ou na parte superior do intestino;
+hemorragia no ânus; desconforto no estômago; inflamação das gengivas; inchaço, vermelhidão e
+dor na língua</p>
+</li>
+<li>
+<p>acumulação de gordura no fígado</p>
+</li>
+<li>
+<p>acne; perda de cabelo ou enfraquecimento do cabelo fora do habitual; vermelhidão na pele;
+distribuição pouco habitual da gordura no corpo, o que pode incluir perda de gordura das
+pernas, braços e face, e aumento da gordura abdominal; suores excessivos; suores noturnos;
+espessamento e comichão da pele causada pelo ato repetido de arranhar; lesão da pele; pele seca</p>
+</li>
+<li>
+<p>dor nas articulações; doença das articulações dolorosa; dor nas costas; dor nos ossos/músculos;
+rigidez ou fraqueza nos músculos; dor no pescoço; dor nos braços ou nas pernas; inflamação dos
+tendões; diminuição da quantidade de minerais no osso</p>
+</li>
+<li>
+<p>pedra nos rins; micção noturna; quistos nos rins</p>
+</li>
+<li>
+<p>disfunção erétil; aumento do peito nos homens; sintomas de menopausa</p>
+</li>
+<li>
+<p>desconforto no peito; arrepios; inchaço da face; sensação de agitação; sensação de mal-estar
+geral; massa no pescoço; inchaço das mãos, tornozelos ou pés; dor </p>
+</li>
+<li>
+<p>diminuição do número de glóbulos brancos no sangue; diminuição do número de plaquetas no
+sangue (um tipo de células que ajuda a coagulação do sangue); análises ao sangue
+137
+demonstrativas da diminuição da função dos rins; valores elevados de açúcar no sangue; valor
+aumentado de enzimas musculares no sangue; presença de açúcar na urina; presença de glóbulos
+vermelhos na urina; aumento de peso; aumento do tamanho da cintura; diminuição da proteína
+do sangue (albumina); aumento do tempo de coagulação do sangue
+Efeitos secundários adicionais em crianças e adolescentes</p>
+</li>
+<li>
+<p>hiperatividade
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos indesejáveis não indicados neste
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
+medicamento.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar isentress"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar isentress"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Manter este medicamento fora da vista e do alcance das crianças.</p>
+</li>
+<li>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco, após EXP. O prazo
+de validade corresponde ao último dia do mês indicado.</p>
+</li>
+<li>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação.</p>
+</li>
+<li>
+<p>Manter o frasco bem fechado, com o exsicante (agente secante) para proteger da humidade. Não
+engolir o exsicante.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
+o ambiente. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Isentress
+A substância ativa é o raltegravir. Cada comprimido revestido por película contém 400 mg de
+raltegravir (como potássio).
+Os outros componentes são: lactose mono-hidratada, celulose microcristalina, fosfato de cálcio
+dibásico anidro, hipromelose 2208, poloxamero 407, fumarato sódico de estearilo e estearato de
+magnésio. O revestimento por película contém também os seguintes componentes inativos: álcool
+polivinílico, dióxido de titânio, polietilenoglicol 3350, talco, óxido de ferro vermelho e óxido de ferro
+negro.
+Qual o aspeto de Isentress e conteúdo da embalagem
+O comprimido revestido por película de 400 mg tem forma oval, é cor-de-rosa, com "227" gravado
+numa face. Estão disponíveis duas apresentações: uma embalagem contendo 1 frasco com 60
+comprimidos e uma embalagem múltipla contendo 3 frascos, cada um com 60 comprimidos. O frasco
+contém exsicante.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado e Fabricante<br />
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Países Baixos
+138
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@msd.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel.: +370 5 278 02 47
+msd_lietuva@merck.com 
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@msd.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +36 1 888 53 00
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: +45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999000 (+ 31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com 
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: + 30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp.z o.o. 
+Tel.: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska 
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: + 40 21 529 29 00
+msdromania@merck.com
+139
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@msd.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o. 
+Tel: + 386 1 5204201
+msd_slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel.: +421 2 58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0) 9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited 
+Τηλ: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: + 46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: +371 67364 224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt;&lt;{mês de AAAA}.&gt;
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+
+
+
 
 
                     
@@ -1078,6 +1676,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-240cb856767cdf385c31b86b973619ae"
 * entry[0].resource = composition-da-240cb856767cdf385c31b86b973619ae
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp240cb856767cdf385c31b86b973619ae"
+* entry[=].resource = mp240cb856767cdf385c31b86b973619ae
+                            
+                    
+Instance: bundlepackageleaflet-pt-240cb856767cdf385c31b86b973619ae
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for isentress Package Leaflet for language pt"
+Description: "ePI document Bundle for isentress Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-240cb856767cdf385c31b86b973619ae"
+* entry[0].resource = composition-pt-240cb856767cdf385c31b86b973619ae
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp240cb856767cdf385c31b86b973619ae"
@@ -1179,6 +1799,18 @@ RuleSet: 240cb856767cdf385c31b86b973619aeListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-240cb856767cdf385c31b86b973619ae) // isentress pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -924,6 +924,532 @@ under forudsætning af, at de foreslåede ændringer indføres i produktinformat
 
 
 
+Instance: composition-pt-1fc6739ba81d50a7087579c92c2a7274
+InstanceOf: CompositionUvEpi
+Title: "Composition for mektovi Package Leaflet"
+Description:  "Composition for mektovi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1fc6739ba81d50a7087579c92c2a7274)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - mektovi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Mektovi e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Mektovi  </li>
+<li>Como tomar Mektovi  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Mektovi  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é mektovi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é mektovi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mektovi é um medicamento anticancerígeno que contém a substância ativa binimetinib. É usado em 
+adultos em associação com outro medicamento que contém encorafenib para tratar um tipo de cancro 
+da pele chamado melanoma quando este  </p>
+<ul>
+<li>
+<p>Possui uma determinada alteração (mutação) num gene responsável pela produção de uma 
+proteína chamado BRAF, e </p>
+</li>
+<li>
+<p>se espalhou para outras partes do corpo ou não pode ser removido por cirurgia. </p>
+</li>
+</ul>
+<p>As mutações no gene BRAF podem produzir proteínas que causam o crescimento do melanoma. 
+Mektovi tem como alvo outra proteína chamada “MEK" que estimula o crescimento das células 
+cancerígenas. Quando Mektovi é usado em associação com encorafenib (que tem como alvo a proteína 
+alterada “BRAF"), a associação abranda ou interrompe o crescimento do seu cancro. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar mektovi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar mektovi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Antes de começar o tratamento, o seu médico irá verificar a existência da mutação BRAF.  </p>
+<p>Como Mektovi deverá ser usado em associação com encorafenib, leia cuidadosamente este folheto e o 
+folheto informativo de encorafenib.  </p>
+<h2>Não tome Mektovi</h2>
+<p>se tem alergia ao binimetinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Mektovi, sobre todas as suas 
+condições médicas, particularmente se tiver alguma das seguintes condições:  </p>
+<ul>
+<li>
+<p>problemas de coração </p>
+</li>
+<li>
+<p>problemas hemorrágicos ou se estiver a tomar medicamentos que possam causar sangramento  </p>
+</li>
+<li>
+<p>problemas dos olhos incluindo glaucoma ou aumento da pressão nos seus olhos </p>
+</li>
+<li>
+<p>problemas musculares </p>
+</li>
+<li>
+<p>tensão arterial elevada </p>
+</li>
+<li>
+<p>coágulos sanguíneos </p>
+</li>
+<li>
+<p>problemas pulmonares ou respiratórios </p>
+</li>
+<li>
+<p>problemas de fígado  </p>
+</li>
+</ul>
+<p>Informe o seu médico se alguma vez teve uma obstrução da veia que transporta o sangue para fora do 
+olho (oclusão da veia retiniana), uma vez que Mektovi não é recomendado nesses casos. </p>
+<p>Informe o seu médico se tiver tido um tipo de cancro que não o melanoma, uma vez que binimetinib, 
+quando tomado com encorafenib, pode piorar outros tipos de cancro. </p>
+<p>Informe imediatamente o seu médico, farmacêutico ou enfermeiro se tiver alguma das seguintes 
+condições enquanto estiver a tomar este medicamento: </p>
+<ul>
+<li>
+<p>Problemas de coração: Mektovi pode fazer o seu coração funcionar menos bem, ou agravar 
+problemas cardíacos existentes. O seu médico irá realizar testes para verificar se o seu coração 
+está a funcionar adequadamente antes e durante o seu tratamento com este medicamento. Fale 
+imediatamente com o seu médico se tiver quaisquer sintomas de problemas cardíacos, tais 
+como sentir tonturas, cansaço, sensação de desmaio, falta de ar, se sentir o seu coração a 
+palpitar, acelerado, a bater irregularmente ou se tiver as pernas inchadas. </p>
+</li>
+<li>
+<p>Problemas hemorrágicos: Mektovi pode causar problemas hemorrágicos graves. Fale 
+imediatamente com o seu médico se tiver algum sintoma de problemas hemorrágicos, tais 
+como tosse com sangue, coágulos sanguíneos, vómito com sangue ou que se pareça com 
+“borras de café", fezes vermelhas ou pretas que parecem alcatrão, sangue na urina, dor no 
+estômago (abdominal), sangramento vaginal invulgar. Informe também o seu médico se tiver 
+dor de cabeça, tonturas ou fraqueza. </p>
+</li>
+<li>
+<p>Problemas dos olhos: Mektovi pode causar problemas dos olhos graves. Fale imediatamente 
+com o seu médico se tiver visão turva, perda de visão ou outras alterações na visão (tais como, 
+pontos coloridos na sua visão), auréola (ver um contorno turvo em redor dos objetos). O seu 
+médico irá examinar os seus olhos para verificar quaisquer problemas com a sua visão 
+enquanto estiver a tomar Mektovi.  </p>
+</li>
+<li>
+<p>Problemas musculares: Mektovi também pode causar destruição dos músculos (rabdomiolise). 
+O seu médico irá realizar análises ao sangue para verificar problemas musculares antes e 
+durante o tratamento. Como precaução, beba muitos líquidos durante o tratamento. Fale com o 
+seu médico imediatamente se sentir dor muscular, cãibras, rigidez, espasmo, urina escura. </p>
+</li>
+<li>
+<p>Tensão arterial elevada: Mektovi pode elevar a tensão arterial. O seu médico ou enfermeiro 
+irão verificar a sua tensão arterial antes e durante o tratamento com Mektovi. Fale com o seu 
+médico imediatamente se tiver dor de cabeça forte, sentir tonturas, sensação de desmaio ou se 
+a sua tensão arterial medida num aparelho de medição de tensão arterial em casa estiver muito 
+mais elevada do que o habitual. </p>
+</li>
+<li>
+<p>Coágulos sanguíneos: Mektovi pode causar coágulos sanguíneos nos seus braços ou pernas, o 
+que pode levar a morte se um coágulo sanguíneo se deslocar para os seus pulmões. Fale com o 
+seu médico imediatamente se tiver dor no peito, falta de ar súbita, dificuldade em respirar, dor 
+nas suas pernas com ou sem inchaço, inchaço nos braços e pernas, ou um braço ou perna frio e 
+pálido. Se necessário, o seu médico poderá decidir interromper o seu tratamento ou pará-lo 
+completamente. </p>
+</li>
+<li>
+<p>Problemas pulmonares ou respiratórios: Este medicamento pode causar problemas pulmonares 
+ou respiratórios, incluindo inflamação dos pulmões (pneumonite ou doença pulmonar 
+intersticial); os sinais e sintomas podem incluir: tosse, falta de ar ou fadiga. Se necessário, o 
+seu médico poderá decidir interromper o seu tratamento ou pará-lo completamente.  </p>
+</li>
+<li>
+<p>Alterações da pele: o Mektovi quando tomado com encorafenib pode causar outros tipos de 
+cancro da pele como o carcinoma cutâneo de células escamosas. O seu médico irá observar a 
+sua pele antes do tratamento, a cada 2 meses durante o tratamento e até 6 meses após parar de 
+tomar estes medicamentos para despistar eventuais novos cancros da pele. Informe 
+imediatamente o seu médico se detetar quaisquer alterações da pele durante e após o 
+tratamento, incluindo: nova verruga, ferida na pele ou um inchaço avermelhado que sangra ou 
+não cicatriza, ou uma alteração no tamanho ou cor de um sinal. 
+Adicionalmente, o seu médico terá que verificar se tem carcinoma das células escamosas na 
+sua cabeça, pescoço, boca e gânglios linfáticos e será submetido a TACs regulares. Trata-se de 
+uma medida de precaução no caso de um carcinoma de células escamosas se desenvolver no 
+interior do seu corpo. Também são recomendados exames genitais (para as mulheres) e 
+exames anais antes do início e no final do tratamento. </p>
+</li>
+<li>
+<p>Problemas de fígado: Mektovi pode causar análises sanguíneas anormais relacionadas com o 
+seu fígado (aumento dos níveis de enzimas do fígado). O seu médico irá realizar análises ao 
+sangue para verificar o seu fígado antes e durante o tratamento.  </p>
+</li>
+</ul>
+<p>Contacte imediatamente o seu médico se sentir os seguintes sintomas, pois esta pode ser uma situação 
+potencialmente fatal: náuseas, falta de ar, batimentos cardíacos irregulares, cãibras musculares, 
+convulsões, turvação da urina, diminuição da produção de urina e cansaço. Podem ser causados por 
+um grupo de complicações metabólicas que podem ocorrer durante o tratamento do cancro e que são 
+causadas pelos produtos de degradação das células cancerígenas que morrem (Síndrome de lise 
+tumoral (SLT)) e podem levar a alterações na função renal (ver também secção 4: Efeitos indesejáveis 
+possíveis). </p>
+<p>Crianças e adolescentes 
+Mektovi não é recomendado em crianças e adolescentes com menos de 18 anos. Este medicamento 
+não foi estudado neste grupo etário. </p>
+<p>Outros medicamentos e Mektovi 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou se 
+vier a tomar outros medicamentos.<br />
+Alguns medicamentos podem afetar a forma como Mektovi funciona ou fazer com que seja mais 
+provável que tenha efeitos indesejáveis. 
+Em particular, informe o seu médico se estiver a tomar algo desta lista ou quaisquer outros 
+medicamentos: </p>
+<ul>
+<li>
+<p>alguns medicamentos para tratar infeções bacterianas, tais como rifampicina, ciprofloxacina  </p>
+</li>
+<li>
+<p>medicamentos tipicamente utilizados para tratar epilepsia, tais como fenobarbital, fenitoína, 
+carbamazepina </p>
+</li>
+<li>
+<p>alguns medicamentos para tratar o VIH, tais como indinavir, atazanavir </p>
+</li>
+<li>
+<p>um medicamento para o tratamento do carcinoma chamado sorafenib </p>
+</li>
+<li>
+<p>um tratamento à base de plantas para a depressão: hipericão </p>
+</li>
+<li>
+<p>medicamento utilizado para tratar a depressão, tal como duloxetina </p>
+</li>
+<li>
+<p>medicamento tipicamente utilizado para tratar o colesterol elevado, tal como pravastatina </p>
+</li>
+<li>
+<p>um medicamento utilizado para tratar problemas respiratórios, teofilina. </p>
+</li>
+</ul>
+<p>Gravidez 
+Mektovi não é recomendado durante a gravidez. Pode causar danos permanentes ou defeitos à nascença 
+no feto. 
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de tomar este 
+medicamento. 
+Se é uma mulher que pode engravidar, deverá usar métodos contracetivos fiáveis enquanto estiver a 
+tomar Mektovi, e deverá continuar a usar um método contracetivo fiável durante pelo menos 1 mês após 
+ter tomado a última dose. Contacte imediatamente o seu médico se engravidar enquanto estiver a tomar 
+Mektovi.  </p>
+<p>Amamentação 
+Mektovi não é recomendado durante a amamentação. Desconhece-se se Mektovi passa para o leite 
+humano. Se estiver a amamentar ou se planeia amamentar, consulte o seu médico antes de tomar este 
+medicamento.  </p>
+<p>Condução de veículos e utilização de máquinas 
+Mektovi pode afetar a sua capacidade de conduzir e utilizar máquinas. Evite conduzir ou utilizar 
+máquinas se tiver quaisquer problemas de visão ou quaisquer outros efeitos indesejáveis que possam 
+afetar a sua capacidade de conduzir ou utilizar máquinas (ver secção 4), enquanto estiver a tomar 
+Mektovi. Fale com o seu médico se não tiver a certeza se pode conduzir. </p>
+<p>Mektovi contém lactose. 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este 
+medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar mektovi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar mektovi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Que quantidade tomar<br />
+Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.  </p>
+<p>A dose recomendada de Mektovi é de 45 mg (3 comprimidos de 15 mg) tomada duas vezes por dia,<br />
+com um intervalo de cerca de 12 horas (correspondendo a uma dose diária de 90 mg). Também receberá 
+tratamento com outro medicamento, encorafenib. </p>
+<p>Se tiver efeitos indesejáveis graves (tais como problemas de coração, da visão ou da pele), o seu médico 
+poderá reduzir a dose ou parar o tratamento de forma temporária ou permanente.  </p>
+<p>Como tomar Mektovi 
+Engula os comprimidos inteiros com água. Mektovi pode ser tomado com alimentos ou entre refeições. </p>
+<p>Se estiver enjoado<br />
+Se vomitar em qualquer altura após a toma de Mektovi, não tome uma dose adicional. Tome a dose 
+seguinte conforme programado. </p>
+<p>Se tomar mais Mektovi do que deveria 
+Se tomar mais comprimidos do que deveria, contacte imediatamente o seu médico, farmacêutico ou 
+enfermeiro. Se possível, mostre-lhes este folheto informativo e a embalagem do medicamento. </p>
+<p>Caso se tenha esquecido de tomar Mektovi 
+Se se esquecer de tomar uma dose de Mektovi, tome-a assim que se lembrar. No entanto, se a dose 
+tiver sido esquecida há mais de 6 horas, não tome essa dose e tome a dose seguinte à hora habitual. 
+Depois continue a tomar os seus comprimidos regularmente, como é habitual. 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Mektovi 
+É importante que tome Mektovi durante o tempo prescrito pelo médico. Não pare de tomar este 
+medicamento sem que o seu médico lhe diga para o fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Mektovi pode causar efeitos indesejáveis graves. Informe imediatamente o seu médico se tiver 
+algum dos seguintes efeitos indesejáveis graves, quer seja pela primeira vez ou se se agravarem (ver 
+também secção 2).  </p>
+<p>Problemas cardíacos: Mektovi pode afetar a forma como o seu coração funciona (diminuição da fração 
+de ejeção ventricular esquerda); os sinais e sintomas podem incluir:  </p>
+<ul>
+<li>
+<p>sensação de tonturas, cansaço ou desmaios </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>sensação do coração a palpitar, acelerado ou a bater de forma irregular </p>
+</li>
+<li>
+<p>pernas inchadas </p>
+</li>
+</ul>
+<p>Tensão arterial elevada: Mektovi pode aumentar a tensão arterial. Informe imediatamente o seu 
+médico se tiver dor de cabeça intensa, sentir tonturas ou sensação de desmaio ou se a sua tensão 
+arterial medida num aparelho de medição de tensão arterial em casa estiver muito mais elevada do que 
+o habitual. </p>
+<p>Coágulos sanguíneos: Mektovi pode causar coágulos sanguíneos (tromboembolismo venoso incluindo 
+embolia pulmonar); os sinais e sintomas podem incluir: </p>
+<ul>
+<li>
+<p>dor no peito </p>
+</li>
+<li>
+<p>falta de ar súbita ou dificuldade em respirar </p>
+</li>
+<li>
+<p>dor nas pernas com ou sem inchaço </p>
+</li>
+<li>
+<p>inchaço nos braços ou nas pernas </p>
+</li>
+<li>
+<p>um braço ou perna frio e pálido </p>
+</li>
+</ul>
+<p>Problemas dos olhos: Mektovi pode causar a perda de líquidos sob a retina no olho, o que resulta na 
+separação de diferentes camadas do olho (descolamento do epitélio pigmentado da retina) que pode 
+levar a: </p>
+<ul>
+<li>
+<p>visão turva, perda de visão ou outras alterações da visão (tais como pontos coloridos na sua 
+visão) </p>
+</li>
+<li>
+<p>auréola (ver um contorno turvo em redor dos objetos) </p>
+</li>
+<li>
+<p>dor, inchaço ou vermelhidão nos olhos  </p>
+</li>
+</ul>
+<p>Problemas musculares: Mektovi pode causar quebra dos músculos (rabdomiólise) que pode causar 
+lesão nos rins e pode ser fatal; os sinais e sintomas podem incluir: </p>
+<ul>
+<li>
+<p>dores musculares, cãibras, rigidez ou espasmos </p>
+</li>
+<li>
+<p>urina escura </p>
+</li>
+</ul>
+<p>Problemas hemorrágicos: Mektovi pode causar problemas hemorrágicos graves. Informe 
+imediatamente o seu médico se tiver algum sangramento anormal ou sinais de sangramento, incluindo:  </p>
+<ul>
+<li>
+<p>dores de cabeça, tonturas ou fraqueza </p>
+</li>
+<li>
+<p>tosse com sangue ou com coágulos de sangue </p>
+</li>
+<li>
+<p>vómito contendo sangue ou que parece “borras de café" </p>
+</li>
+<li>
+<p>fezes vermelhas ou negras que parecem alcatrão </p>
+</li>
+<li>
+<p>sangue na urina  </p>
+</li>
+<li>
+<p>dor de estômago (abdominal) </p>
+</li>
+<li>
+<p>hemorragia vaginal invulgar </p>
+</li>
+</ul>
+<p>Outros cancros da pele: Quando Mektovi é tomado com encorafenib, o doente pode desenvolver 
+diferentes tipos de cancro da pele como o carcinoma cutâneo de células escamosas. Normalmente, 
+estes cancros da pele (ver também secção 2) são restritos a uma pequena área e podem ser 
+removidos com cirurgia e o tratamento com Mektovi (e encorafenib) pode ser continuado sem 
+interrupção.  </p>
+<p>Síndrome de lise tumoral: Mektovi pode causar uma rápida degradação das células cancerígenas, o 
+que pode ser fatal em algumas pessoas. Os sintomas podem incluir náuseas, falta de ar, batimentos 
+cardíacos irregulares, cãibras musculares, convulsões, turvação da urina, diminuição da produção 
+de urina e cansaço. </p>
+<p>Outros efeitos indesejáveis quando Mektovi e encorafenib são tomados em conjunto 
+Para além dos efeitos indesejáveis graves acima mencionados, as pessoas ao tomar Mektovi e 
+encorafenib em conjunto podem também ter os seguintes efeitos indesejáveis.  </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas): 
+- contagem de glóbulos vermelhos reduzida (anemia) 
+- problema com os nervos que resulta em dor, perda de sensibilidade ou formigueiro nas mãos e nos 
+pés<br />
+- dor de cabeça 
+- tonturas 
+- hemorragia em vários locais do corpo 
+- problemas com a sua visão (compromisso visual) 
+- dor de estômago 
+- diarreia 
+- vómitos 
+- sentir-se enjoado (náuseas)<br />
+- prisão de ventre 
+- comichão<br />
+- pele seca 
+- perda ou enfraquecimento do cabelo (alopecia) 
+- erupção cutânea (da pele) de vários tipos 
+- espessamento das camadas externas da pele 
+- dor nas articulações (artralgia) 
+- dores musculares, fraqueza ou espasmos 
+- dor nas costas 
+- dor nas extremidades 
+- febre 
+- inchaço das mãos ou dos pés (edema periférico), inchaço localizado 
+- fadiga 
+- resultados anormais nas análises ao sangue para a função do fígado 
+- resultados anormais nas análises ao sangue com relacionados com a creatina quinase no sangue, 
+indicando danos no coração e músculo   </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas): 
+- alguns tipos de tumores da pele tais como papiloma cutâneo e carcinoma das células basais 
+- reação alérgica que pode incluir inchaço da face e dificuldade em respirar<br />
+- alterações do paladar 
+- inflamação do olho (uveíte) 
+- inflamação do cólon (colite) 
+- vermelhidão, pele gretada 
+- inflamação da camada gorda por baixo da pele; os sintomas incluem nódulos na pele sensíveis 
+- erupção cutânea com uma zona lisa descolorada ou altos tipo acne (dermatite acneiforme) 
+- vermelhidão, pele escamosa ou bolhas nas mãos e nos pés (eritrodisestesia palmoplantar ou 
+síndrome mão-pé) 
+- insuficiência renal 
+- resultados anormais nas análises ao rim (elevação da creatinina) 
+- resultados anormais nas análises ao sangue para a função do fígado (fosfatase alcalina no sangue)<br />
+- resultados anormais nas análises ao sangue para a função pancreática (amilase, lipase) 
+- sensibilidade da pele à luz solar aumentada </p>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas): 
+- fraqueza e paralisia dos músculos da face 
+- inflamação do pâncreas (pancreatite) causando dor abdominal grave </p>
+<p>Notificação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar mektovi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar mektovi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de condições especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Mektovi<br />
+- A substância ativa é o binimetinib. Cada comprimido revestido por película contém 15 mg de 
+binimetinib.<br />
+- Os outros componentes são: </p>
+<ul>
+<li>
+<p>Núcleo do comprimido: lactose mono-hidratada, celulose microcristalina (E460i), sílica 
+anidra coloidal (E551), croscarmelose sódica (E468) e estearato de magnésio (E470b). 
+Ver secção 2 “Mektovi contém lactose". </p>
+</li>
+<li>
+<p>Revestimento por película do comprimido: álcool polivinílico (E1203), macrogol 3(E1521), dióxido de titânio (E171), talco (E533b), óxido de ferro amarelo (E172) e óxido 
+de ferro negro (E172). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Mektovi e conteúdo da embalagem 
+Os comprimidos revestidos por película de Mektovi são comprimidos revestidos por película ovais, 
+biconvexos sem ranhura, amarelos/amarelos escuros gravados com “A" num dos lados e “15" no outro 
+lado.  </p>
+<p>Mektovi está disponível em embalagens de 84 comprimidos (7 blisters de 12 comprimidos cada) ou 
+168 comprimidos (14 blisters de 12 comprimidos cada).<br />
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+PIERRE FABRE MEDICAMENT 
+Les Cauquillous 
+81500 Lavaur 
+França </p>
+<p>Fabricante 
+PIERRE FABRE MEDICAMENT PRODUCTION<br />
+Site Progipharm, rue du Lycée 
+45500 GIEN 
+França </p>
+<p>Este folheto informativo foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -965,6 +1491,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-1fc6739ba81d50a7087579c92c2a7274"
 * entry[0].resource = composition-da-1fc6739ba81d50a7087579c92c2a7274
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1fc6739ba81d50a7087579c92c2a7274"
+* entry[=].resource = mp1fc6739ba81d50a7087579c92c2a7274
+                            
+                    
+Instance: bundlepackageleaflet-pt-1fc6739ba81d50a7087579c92c2a7274
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mektovi Package Leaflet for language pt"
+Description: "ePI document Bundle for mektovi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-1fc6739ba81d50a7087579c92c2a7274"
+* entry[0].resource = composition-pt-1fc6739ba81d50a7087579c92c2a7274
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp1fc6739ba81d50a7087579c92c2a7274"
@@ -1066,6 +1614,18 @@ RuleSet: 1fc6739ba81d50a7087579c92c2a7274ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-1fc6739ba81d50a7087579c92c2a7274) // mektovi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

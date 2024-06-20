@@ -955,6 +955,534 @@ Oversigt over indlægssedlen</p>         </div>"""
 
 
 
+Instance: composition-pt-29c0f14d298ca5f6a2e50f72e58ec9cf
+InstanceOf: CompositionUvEpi
+Title: "Composition for twynsta Package Leaflet"
+Description:  "Composition for twynsta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp29c0f14d298ca5f6a2e50f72e58ec9cf)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - twynsta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Twynsta e para que é utilizado
+2. O que precisa de saber antes de tomar Twynsta
+3. Como tomar Twynsta
+4. Efeitos indesejáveis possíveis
+5. Como conservar Twynsta
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é twynsta e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é twynsta e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Os comprimidos Twynsta contêm duas substâncias ativas chamadas telmisartan e amlodipina. Ambas as 
+substâncias ajudam a controlar a sua hipertensão (tensão arterial elevada):
+
+O telmisartan pertence a uma classe de substâncias conhecidas como “bloqueadores dos recetores 
+da angiotensina II". A angiotensina II é uma substância produzida no organismo, que provoca o 
+estreitamento dos vasos sanguíneos, aumentando assim a tensão arterial. O telmisartan bloqueia o 
+efeito da angiotensina II.
+
+A amlodipina pertence a uma classe de substâncias conhecidas como “bloqueadores dos canais de 
+cálcio". A amlodipina impede a passagem do cálcio para as paredes dos vasos sanguíneos, 
+impedindo assim o estreitamento desses vasos.
+Isto significa que ambas as substâncias ativas atuam em conjunto para impedir o estreitamento dos seus 
+vasos sanguíneos, provocando um relaxamento dos vasos sanguíneos e uma diminuição da tensão 
+arterial.
+Twynsta é utilizado para tratar a hipertensão
+
+em doentes adultos cuja tensão arterial não é suficientemente controlada com amlodipina
+isoladamente.
+
+em doentes adultos já tratados com telmisartan e amlodipina, em comprimidos separados, e que 
+desejam, por razões de comodidade, tomar as mesmas doses num único comprimido.
+A tensão arterial elevada, se não for tratada, pode causar danos nos vasos sanguíneos em vários órgãos, 
+o que pode colocar os doentes em risco de acontecimentos graves, como ataque cardíaco, insuficiência 
+cardíaca ou renal, acidente vascular cerebral ou cegueira. Normalmente, não há sintomas de tensão 
+arterial elevada antes de ocorrerem danos. Por isso, é importante medir regularmente a tensão arterial 
+para verificar se a mesma se encontra dentro dos valores normais.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar twynsta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar twynsta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Twynsta
+
+se tem alergia ao telmisartan ou à amlodipina ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).
+
+se tem alergia a outros medicamentos do tipo das di-hidropiridinas (um tipo de bloqueadores dos 
+canais de cálcio).
+124
+
+se tiver mais do que três meses de gravidez. (Também é preferível não tomar Twynsta no início 
+da gravidez - ver secção Gravidez).
+
+se sofre de problemas graves no fígado ou de obstrução biliar (problemas com a drenagem da 
+bílis a partir do fígado e da vesícula biliar).
+
+se sofre de estreitamento da válvula aórtica (estenose aórtica) ou choque cardiogénico (uma 
+doença em que o seu coração é incapaz de disponibilizar sangue suficiente para o corpo).
+
+se sofre de insuficiência cardíaca após um ataque cardíaco.
+
+se tem diabetes ou função renal diminuída e está a ser tratado com um medicamento que contém 
+aliscireno para diminuir a tensão arterial.
+Se alguma das situações acima descritas se aplica a si, informe o seu médico ou farmacêutico antes de 
+tomar Twynsta.
+Advertências e precauções
+Fale com o seu médico antes de tomar Twynsta se sofre ou alguma vez sofreu de qualquer uma das 
+seguintes condições ou doenças:
+
+Doença renal (nos rins) ou transplante renal.
+
+Estreitamento dos vasos sanguíneos para um ou ambos os rins (estenose da artéria renal).
+
+Doença do fígado.
+
+Problemas de coração.
+
+Níveis aumentados de aldosterona (que levem a retenção de sal e água no organismo,
+juntamente com desequilíbrio de vários minerais sanguíneos).
+
+Tensão arterial baixa (hipotensão), que pode acontecer se estiver desidratado (perda excessiva 
+de água corporal) ou se tiver deficiência salina devida a terapêutica diurética (“comprimidos de 
+água"), dieta pobre em sal, diarreia ou vómitos.
+
+Níveis elevados de potássio no sangue.
+
+Diabetes.
+
+Estreitamento da aorta (estenose aórtica).
+
+Dor no peito relacionada com o coração, em repouso ou com esforço mínimo (angina de peito 
+instável).
+
+Depois de um ataque cardíaco ocorrido nas quatro semanas anteriores.
+Fale com o seu médico antes de tomar Twynsta:
+
+se está a tomar algum dos seguintes medicamentos para tratar a tensão arterial elevada:
+- um inibidor da ECA (por exemplo, enalapril, lisinopril, ramipril), em particular se tiver 
+problemas nos rins relacionados com diabetes.
+- aliscireno.
+O seu médico pode verificar a sua função renal, tensão arterial e a quantidade de eletrólitos (p.
+ex., o potássio) no seu sangue em intervalos regulares. Ver também “Não tome Twynsta".
+
+se for idoso e a sua dose tiver de ser aumentada.
+Em caso de cirurgia ou anestesia, deve informar o seu médico que está a tomar Twynsta.
+Crianças e adolescentes
+Twynsta não está recomendado em crianças e adolescentes até aos 18 anos de idade.
+Outros medicamentos e Twynsta
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos. O seu médico pode necessitar de alterar a sua dose destes outros medicamentos 
+e/ou tomar outras precauções. Em alguns casos pode ter que parar de tomar um dos medicamentos. Isto 
+aplica-se especialmente aos medicamentos abaixo listados:
+
+Medicamentos contendo lítio para tratar alguns tipos de depressão.
+
+Medicamentos que podem aumentar os níveis de potássio no sangue, tais como substitutos salinos 
+contendo potássio, diuréticos poupadores de potássio (um tipo de "comprimidos de água" 
+[diuréticos]).
+
+Bloqueadores dos recetores da angiotensina II.
+125
+
+Inibidores da ECA ou aliscireno (ver também informações sob os títulos “Não tome Twynsta" e 
+“Advertências e precauções").
+
+AINEs (medicamentos anti-inflamatórios não esteroides, p. ex., ácido acetilsalicílico ou 
+ibuprofeno), heparina, imunossupressores (p. ex., ciclosporina ou tacrolímus) e o antibiótico 
+trimetoprim.
+
+Rifampicina, eritromicina, claritromicina (antibióticos).
+
+Hipericão.
+
+Dantroleno (perfusão para anomalias graves da temperatura corporal).
+
+Medicamentos utilizados para alterar a forma como o seu sistema imunitário funciona (p. ex., 
+sirolímus, temsirolímus e everolímus).
+
+Medicamentos utilizados para tratar o VIH/SIDA (p. ex., ritonavir) ou para tratamento de 
+infeções fúngicas (p. ex., cetoconazol).
+
+Diltiazem (medicamento para o coração).
+
+Sinvastatina para reduzir elevados níveis de colesterol.
+
+Digoxina.
+À semelhança do que se verifica com outros medicamentos que diminuem a tensão arterial, o efeito do 
+Twynsta pode ser reduzido se estiver a tomar AINEs (medicamentos anti-inflamatórios não esteroides, 
+p. ex., ácido acetilsalicílico e ibuprofeno) ou corticosteroides.
+Twynsta pode aumentar o efeito de diminuição da tensão arterial de outros medicamentos utilizados 
+para tratar a tensão arterial (p. ex., baclofeno, amifostina, neurolépticos ou antidepressivos).
+Twynsta com alimentos e bebidas
+A tensão arterial baixa pode ser agravada pelo álcool. Pode senti-la sob a forma de tonturas ao levantar-
+se.
+Não deve consumir sumo de toranja ou toranja enquanto estiver a tomar Twynsta. Isto porque a toranja 
+e o sumo de toranja podem conduzir a um aumento dos níveis sanguíneos da substância ativa 
+amlodipina em alguns doentes e podem aumentar o efeito de diminuição da tensão arterial do Twynsta.
+Gravidez e amamentação
+Gravidez
+Deve informar o seu médico se pensa estar grávida ou planeia engravidar. Por norma, o seu médico 
+aconselhá-la-á a interromper Twynsta antes de engravidar ou assim que souber que está grávida e a 
+tomar outro medicamento em vez de Twynsta. Twynsta não é recomendado no início da gravidez e não 
+deve ser tomado após o terceiro mês de gravidez, uma vez que pode ser gravemente prejudicial para o 
+bebé se utilizado a partir desta altura.
+Amamentação
+Foi demonstrado que a amlodipina passa para o leite materno em pequenas quantidades.
+Informe o seu médico se estiver a amamentar ou estiver prestes a iniciar a amamentação. Twynsta não é 
+recomendado em mães a amamentar, e o seu médico poderá indicar outro tratamento, se quiser 
+continuar a amamentar, especialmente se o seu bebé for recém-nascido ou prematuro.
+Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento.
+Condução de veículos e utilização de máquinas
+Algumas pessoas podem ter efeitos indesejáveis como síncope, sonolência, tonturas ou sensação de 
+andas à roda (vertigem) quando estão a ser tratadas para tensão arterial elevada. Se sentir algum destes 
+efeitos indesejáveis, não conduza veículos nem utilize máquinas.
+Twynsta contém sorbitol
+Este medicamento contém 168,64 mg de sorbitol em cada comprimido.
+126
+Twynsta contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar twynsta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar twynsta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+A dose recomendada é de um comprimido por dia. Tente tomar o comprimido sempre à mesma hora 
+todos os dias.
+Retire o seu comprimido de Twynsta do blister apenas imediatamente antes de o tomar.
+Pode tomar Twynsta com ou sem alimentos. Os comprimidos devem ser engolidos com alguma água ou 
+outra bebida não alcoólica.
+Se o seu fígado não está a funcionar corretamente, a dose habitual não deve exceder um comprimido de 
+40 mg/5 mg ou um comprimido de 40 mg/10 mg por dia.
+Se tomar mais Twynsta do que deveria
+Se tomar acidentalmente demasiados comprimidos, contacte imediatamente o seu médico, farmacêutico 
+ou as urgências do hospital mais próximo. Poderá ocorrer uma acentuada diminuição da tensão arterial e 
+batimento acelerado do coração. Também foram notificados batimento lento do coração, tonturas, 
+diminuição da função renal incluindo insuficiência renal e hipotensão acentuada e prolongada, incluindo 
+choque e morte.
+Poderá ocorrer acumulação de excesso de fluido nos pulmões (edema pulmonar) causando falta de ar, o 
+que poderá desenvolver-se até 24-48 horas após a ingestão.
+Caso se tenha esquecido de tomar Twynsta
+Caso se tenha esquecido de tomar uma dose, tome-a logo que se lembre e depois continue como 
+habitualmente. Se não tomar o seu comprimido num dia, tome a sua dose habitual no dia seguinte. Não 
+tome uma dose a dobrar para compensar doses individuais que se esqueceu de tomar.
+Se parar de tomar Twynsta
+É importante que tome Twynsta todos os dias até o seu médico lhe dar instruções em contrário. Se tiver 
+a sensação de que o efeito de Twynsta é demasiado forte ou demasiado fraco, fale com o seu médico ou 
+farmacêutico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Alguns efeitos indesejáveis podem ser graves e necessitar de atenção médica imediata
+Deve consultar imediatamente o seu médico se apresentar qualquer um dos seguintes sintomas:
+Sépsis (muitas vezes designada “envenenamento sanguíneo", é uma infeção grave generalizada com 
+febre elevada e sensação de estar gravemente doente), rápido inchaço da pele e mucosas (angioedema); 
+estes efeitos indesejáveis são raros (podem afetar até 1 em 1.000 pessoas) mas são extremamente graves 
+e os doentes devem parar de tomar o medicamento e consultar o seu médico imediatamente. Se estes 
+127
+efeitos não forem tratados, podem ser fatais. O aumento da incidência de sépsis foi observado apenas 
+com telmisartan, no entanto, não pode ser excluído relativamente ao Twynsta.
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas)
+Tonturas, inchaço dos tornozelos (edema).
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas)
+Sonolência, enxaquecas, dores de cabeça, formigueiro ou dormência das mãos ou pés, sensação de andar 
+à roda (vertigem), ritmo cardíaco lento, palpitações (sentir o seu coração a bater), tensão arterial baixa 
+(hipotensão), tonturas ao levantar-se (hipotensão ortostática), rubor (vermelhidão), tosse, dor de barriga 
+(dor abdominal), diarreia, sensação de enjoo (náuseas), comichão, dor nas articulações, cãibras 
+musculares, dores musculares, incapacidade de conseguir uma ereção, fraqueza, dor no peito, cansaço, 
+inchaço (edema), níveis aumentados de enzimas hepáticas.
+Efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas)
+Infeções do trato urinário, sensação de tristeza (depressão), sensação de ansiedade, insónia, desmaio, 
+danos nos nervos das mãos ou dos pés, diminuição do tato, alterações do paladar, tremores, vómitos,
+gengivas inchadas, desconforto abdominal, boca seca, eczema (alteração cutânea), vermelhidão da pele, 
+erupção cutânea, dores nas costas, dores nas pernas, necessidade de urinar durante a noite, sensação de 
+mal-estar (indisposição), níveis aumentados de ácido úrico no sangue.
+Efeitos indesejáveis muito raros (podem afetar até 1 em 10.000 pessoas)
+Cicatrização progressiva do tecido pulmonar (doença pulmonar intersticial [maioritariamente 
+pneumonia do interstício e pneumonia com excesso de eosinófilos]).
+Os seguintes efeitos indesejáveis foram observados com os componentes telmisartan ou amlodipina e 
+podem ocorrer também com Twynsta:
+Telmisartan
+Nos doentes tratados apenas com telmisartan foram notificados os seguintes efeitos indesejáveis
+adicionais:
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas)
+Infeções do trato urinário, infeções do trato respiratório superior (p. ex., dores de garganta, sinusite, 
+constipação), diminuição dos glóbulos vermelhos (anemia), níveis elevados de potássio no sangue, falta 
+de ar, inchaço, aumento da transpiração, danos renais, incluindo incapacidade súbita do funcionamento 
+dos rins, níveis elevados de creatinina.
+Efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas)
+Aumento de de alguns glóbulos brancos (eosinofilia), baixa contagem de plaquetas (trombocitopenia), 
+reação alérgica (p. ex., erupção cutânea, comichão, dificuldade em respirar, pieira, inchaço da face ou 
+tensão arterial baixa), baixos níveis de açúcar no sangue (em doentes diabéticos), visão alterada, 
+batimento cardíaco acelerado, dor de estômago, função hepática alterada, urticária, erupção cutânea de 
+causa medicamentosa, inflamação dos tendões, doença do tipo gripal (por exemplo, dores musculares, 
+sensação de mal-estar generalizada), diminuição da hemoglobina (uma proteína sanguínea) e níveis 
+aumentados da creatinina fosfoquinase no sangue, baixos níveis de sódio.
+A maioria dos casos de função hepática alterada e perturbações hepáticas provenientes da experiência 
+pós-comercialização com telmisartan ocorreram em doentes japoneses. Os doentes japoneses 
+apresentam maior probabilidade de apresentar este efeito indesejável.
+Amlodipina
+Nos doentes tratados apenas com amlodipina foram notificados os seguintes efeitos indesejáveis
+adicionais:
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas)
+Alteração dos hábitos intestinais, diarreia, prisão de ventre, perturbações visuais, visão dupla, inchaço 
+dos tornozelos.
+128
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas)
+Alterações de humor, visão alterada, zumbidos nos ouvidos, falta de ar, espirros/corrimento nasal, perda 
+de cabelo, nódoas negras ou sangramento invulgares (danos nos glóbulos vermelhos), descoloração da 
+pele, aumento da transpiração, dificuldade em urinar, aumento da necessidade de urinar, sobretudo 
+durante a noite, aumento mamário no homem, dor, aumento de peso, perda de peso.
+Efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas)
+Confusão.
+Efeitos indesejáveis muitos raros (podem afetar até 1 em 10.000 pessoas)
+Diminuição do número de glóbulos brancos (leucopenia), baixa contagem de plaquetas (trombocitopenia), 
+reação alérgica, (p. ex., erupção cutânea, comichão, dificuldade em respirar, pieira, inchaço da face ou 
+tensão arterial baixa), excesso de açúcar no sangue, movimentos incontroláveis de contração ou espasmos, 
+ataque cardíaco, batimento cardíaco irregular, inflamação dos vasos sanguíneos, inflamação do pâncreas, 
+inflamação do revestimento do estômago (gastrite), inflamação do fígado, amarelecimento da pele 
+(icterícia), aumento dos níveis das enzimas hepáticas com icterícia, inchaço rápido da pele e mucosas 
+(angioedema), reações cutâneas graves, urticária, reações alérgicas graves com erupções de bolhas na pele 
+e membranas mucosas (dermatite exfoliativa, síndrome de Stevens-Johnson), aumento da sensibilidade 
+da pele ao sol, aumento da tensão muscular.
+Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis)
+Reações alérgicas graves com erupções de bolhas na pele e membranas mucosas (necrólise epidérmica 
+tóxica).
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar twynsta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar twynsta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após “VAL". O prazo de validade corresponde ao último dia do mês indicado.
+Este medicamento não necessita de condições especiais de temperatura de conservação. Conservar na 
+embalagem de origem para proteger da luz e da humidade. Retire o seu comprimido de Twynsta do 
+blister apenas imediatamente antes de o tomar.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Twynsta</h2>
+<p>As substâncias ativas são o telmisartan e a amlodipina.
+Cada comprimido contém 40 mg de telmisartan e 5 mg de amlodipina (na forma de besilato de 
+amlodipina).
+129
+-
+Os outros componentes são sílica coloidal anidra, azul brilhante FCF (E 133), óxido de ferro preto 
+(E172), óxido de ferro amarelo (E172), estearato de magnésio, amido de milho, meglumina, 
+celulose microcristalina, povidona (K25), amido pré-gelatinizado preparado a partir de amido de
+milho, hidróxido de sódio (ver secção 2) e sorbitol (E420) (ver secção 2).
+Qual o aspeto de Twynsta e conteúdo da embalagem
+Os comprimidos de Twynsta 40 mg/5 mg são azuis e brancos de forma oval com duas camadas, com 
+aproximadamente 14 mm de comprimento, gravados com o código do produto A1 e o logotipo da 
+companhia na camada branca.
+Twynsta está disponível numa embalagem contendo 14, 28, 56 ou 98 comprimidos em blisters de 
+alumínio/alumínio ou contendo 30 x 1, 90 x 1, 360 (4 x 90 x 1) comprimidos em blisters de 
+alumínio/alumínio perfurados de doses unitárias.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no
+Mercado
+Fabricante
+Boehringer Ingelheim International GmbH
+Binger Str. 173
+55216 Ingelheim am Rhein
+Alemanha
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Binger Str. 173
+55216 Ingelheim am Rhein
+Alemanha
+Rottendorf Pharma GmbH
+Ostenfelder Straße 51 - 61
+59320 Ennigerloh
+Alemanha
+Boehringer Ingelheim France
+100-104 Avenue de France
+75013 Paris
+França
+130
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado.
+België/Belgique/Belgien
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Lietuvos filialas
+Tel.: +370 5 2595942
+България
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко КГ -
+клон България
+Тел: +359 2 958 79 98
+Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Česká republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 111
+Magyarország
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Magyarországi Fióktelepe
+Tel.: +36 1 299 89 00
+Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf: +45 39 15 88 88
+Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 900
+Nederland
+Boehringer Ingelheim B.V.
+Tel: +31 (0) 800 22 55 889
+Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Eesti Filiaal
+Tel: +372 612 8000
+Norge
+Boehringer Ingelheim Norway KS
+Tlf: +47 66 76 13 00
+Ελλάδα
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη Α.Ε.
+Tηλ: +30 2 10 89 06 300
+Österreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7870
+España
+Boehringer Ingelheim España S.A.
+Tel: +34 93 404 51 00
+Polska
+Boehringer Ingelheim Sp. z o.o.
+Tel.: +48 22 699 0 699
+France
+Boehringer Ingelheim France S.A.S.
+Tél: +33 3 26 50 45 33
+Portugal
+Boehringer Ingelheim Portugal, Lda.
+Tel: +351 21 313 53 00
+Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 600
+România
+Boehringer Ingelheim RCVGmbH &amp; Co KG
+Viena - Sucursala Bucureşti
+Tel: +40 21 302 28 00
+Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Podružnica Ljubljana
+Tel: +386 1 586 40 00
+131
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+organizačná zložka
+Tel: +421 2 5810 1211
+Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 800
+Κύπρος
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη Α.Ε.
+Tηλ: +30 2 10 89 06 300
+Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 00
+Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Latvijas filiāle
+Tel: +371 67 240 011
+United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -996,6 +1524,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-29c0f14d298ca5f6a2e50f72e58ec9cf"
 * entry[0].resource = composition-da-29c0f14d298ca5f6a2e50f72e58ec9cf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp29c0f14d298ca5f6a2e50f72e58ec9cf"
+* entry[=].resource = mp29c0f14d298ca5f6a2e50f72e58ec9cf
+                            
+                    
+Instance: bundlepackageleaflet-pt-29c0f14d298ca5f6a2e50f72e58ec9cf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for twynsta Package Leaflet for language pt"
+Description: "ePI document Bundle for twynsta Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-29c0f14d298ca5f6a2e50f72e58ec9cf"
+* entry[0].resource = composition-pt-29c0f14d298ca5f6a2e50f72e58ec9cf
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp29c0f14d298ca5f6a2e50f72e58ec9cf"
@@ -1097,6 +1647,18 @@ RuleSet: 29c0f14d298ca5f6a2e50f72e58ec9cfListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-29c0f14d298ca5f6a2e50f72e58ec9cf) // twynsta pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

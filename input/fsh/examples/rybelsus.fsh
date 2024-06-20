@@ -743,6 +743,439 @@ produktinformationen. </p>
 
 
 
+Instance: composition-pt-b74140ab033fc1249f12696486a5f0cd
+InstanceOf: CompositionUvEpi
+Title: "Composition for rybelsus Package Leaflet"
+Description:  "Composition for rybelsus Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb74140ab033fc1249f12696486a5f0cd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - rybelsus"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Rybelsus e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Rybelsus  </li>
+<li>Como tomar Rybelsus  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Rybelsus  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é rybelsus e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é rybelsus e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rybelsus contém a substância ativa semaglutido. É um medicamento utilizado para baixar os níveis de 
+açúcar no sangue. </p>
+<p>Rybelsus é utilizado para tratar adultos (com 18 anos ou mais de idade) com diabetes tipo 2, quando a 
+dieta e exercício não são suficientes: </p>
+<ul>
+<li>
+<p>sem outros medicamentos para a diabetes - quando não puder tomar metformina (outro 
+medicamento para a diabetes) ou </p>
+</li>
+<li>
+<p>com outros medicamentos para a diabetes - quando os outros medicamentos não são suficientes 
+para controlar o seu nível de açúcar no sangue. Estes outros medicamentos podem ser 
+medicamentos que toma por via oral ou através de uma injeção, como a insulina. </p>
+</li>
+</ul>
+<p>É importante que continue o seu plano alimentar e de exercício físico como indicado pelo seu médico, 
+farmacêutico ou enfermeiro. </p>
+<p>O que é a diabetes tipo 2? 
+A diabetes tipo 2 é uma doença em que o seu corpo não produz insulina suficiente, e a insulina que o 
+seu corpo produz não diminui o seu nível de açúcar no sangue como devia. Em algumas situações, o 
+seu corpo pode produzir demasiado açúcar. Se o seu nível de açúcar no sangue aumenta e se mantém 
+acima do normal por longos períodos de tempo, esta situação poderá levar a efeitos prejudiciais, tais 
+como problemas do coração, doença nos rins, problemas nos olhos e má circulação nos seus membros. 
+Estes são os motivos devido aos quais é importante manter os seus níveis de açúcar no sangue dentro 
+do intervalo de valores normais. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar rybelsus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar rybelsus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Rybelsus </p>
+<ul>
+<li>se tem alergia ao semaglutido ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Rybelsus. </p>
+<p>Rastreabilidade 
+De modo a melhorar a rastreabilidade de medicamentos biológicos, registe o nome e o número de lote 
+(incluídos na embalagem exterior e nos blisters) do medicamento que está a tomar e dê essa 
+informação quando notificar algum efeito indesejável. </p>
+<p>Informação geral: 
+Este medicamento não é uma insulina e não deve utilizá-lo se: </p>
+<ul>
+<li>
+<p>tem diabetes tipo 1 (o seu corpo não produz qualquer insulina) </p>
+</li>
+<li>
+<p>desenvolver cetoacidose diabética. Este é um problema relacionado com a diabetes que pode 
+identificar se tiver um nível alto de açúcar no sangue, dificuldade em respirar, desorientação, 
+sede excessiva, cheiro doce do hálito ou sabor doce ou metálico na boca. </p>
+</li>
+</ul>
+<p>Problemas de estômago e intestinos e desidratação 
+Durante o tratamento com este medicamento, pode sentir-se maldisposto (náuseas) ou doente 
+(vómitos), ou ter diarreia. Estes efeitos indesejáveis podem causar desidratação (perda de líquidos). É 
+importante que beba líquidos suficientes para evitar a desidratação. Isto é particularmente importante, 
+se tiver problemas de rins. Fale com o seu médico se tiver dúvidas ou preocupações. </p>
+<p>Dor de estômago intensa e constante que pode dever-se a uma inflamação do pâncreas 
+Se sentir uma dor intensa e constante na zona do estômago - fale imediatamente com um médico, uma 
+vez que pode ser um sinal de inflamação do pâncreas (pancreatite aguda). </p>
+<p>Nível baixo de açúcar no sangue (hipoglicemia) 
+Tomar insulina ou um medicamento com uma sulfonilureia juntamente com Rybelsus poderá 
+aumentar o risco de ter um nível baixo de açúcar no sangue (hipoglicemia). Veja a secção 4 para os 
+sinais de aviso de níveis baixos de açúcar no sangue.  </p>
+<p>O seu médico poderá pedir-lhe para medir os seus níveis de açúcar no sangue. Esta medição ajudará o 
+seu médico a decidir se a dose de sulfonilureia ou de insulina precisa de ser alterada para reduzir o 
+risco de nível baixo de açúcar no sangue. </p>
+<p>Doença do olho provocada pela diabetes (retinopatia) 
+A rápida melhoria do controlo do açúcar no sangue pode levar a um agravamento temporário da 
+doença do olho provocada pela diabetes. Se tiver doença do olho provocada pela diabetes e tiver 
+problemas nos olhos enquanto estiver a tomar este medicamento, fale com o seu médico. </p>
+<p>Resposta ao tratamento 
+Se a resposta ao tratamento com semaglutido for inferior ao esperado, isto pode dever-se a absorção 
+baixa, causada pela variabilidade na absorção, e a biodisponibilidade absoluta baixa. Deve seguir as 
+informações na secção 3 sobre como atingir o efeito esperado de semaglutido. </p>
+<p>Crianças e adolescentes 
+Este medicamento não é recomendado para crianças e adolescentes com menos de 18 anos de idade, 
+uma vez que a segurança e eficácia neste grupo de idades não foram estabelecidas. </p>
+<p>Outros medicamentos e Rybelsus 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Em especial, informe o seu médico, farmacêutico ou enfermeiro se estiver a utilizar medicamentos 
+contendo qualquer uma das seguintes substâncias: </p>
+<ul>
+<li>
+<p>levotiroxina, que é utilizada para tratar doenças da tiroide. Isto porque o seu médico poderá 
+precisar de verificar os níveis da função da sua tiroide se estiver a tomar Rybelsus com 
+levotiroxina. </p>
+</li>
+<li>
+<p>varfarina ou outros medicamentos semelhantes tomados por via oral para reduzir a coagulação 
+do sangue (anticoagulantes orais). Poderá ser necessário fazer análises frequentes ao sangue 
+para verificar o quão rapidamente o seu sangue coagula. </p>
+</li>
+<li>
+<p>se está a utilizar insulina, o seu médico irá dizer-lhe como deve reduzir a dose de insulina e irá 
+recomendar-lhe que teste o seu nível de açúcar no sangue mais frequentemente, de modo a 
+evitar o desenvolvimento de hiperglicemia (nível alto de açúcar no sangue) e de cetoacidose 
+diabética (uma complicação da diabetes que ocorre quando o seu corpo não é capaz de reduzir 
+os níveis de açúcar por não ter insulina suficiente). </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Este medicamento não deve ser utilizado durante a gravidez, dado desconhecer-se se pode prejudicar o 
+feto. Por conseguinte, recomenda-se a utilização de contracetivos enquanto tomar este medicamento. 
+Se pretender ficar grávida, fale com o seu médico sobre como alterar o seu tratamento, uma vez que 
+deverá deixar de tomar este medicamento, pelo menos, com dois meses de antecedência. Se ficar 
+grávida enquanto estiver a tomar este medicamento, fale imediatamente com o seu médico, uma vez 
+que o tratamento terá de ser alterado. </p>
+<p>Não utilize este medicamento se estiver a amamentar, dado que se desconhece se o medicamento passa 
+para o leite materno. </p>
+<p>Condução de veículos e utilização de máquinas 
+É improvável que Rybelsus afete a sua capacidade de conduzir e utilizar máquinas.  </p>
+<p>Alguns doentes podem sentir tonturas durante o tratamento com Rybelsus. Se sentir tonturas, tenha um 
+cuidado redobrado ao conduzir ou utilizar máquinas. Para mais informações, fale com o seu médico. </p>
+<p>Se utilizar este medicamento em associação com uma sulfonilureia ou insulina, o nível de açúcar no 
+sangue pode baixar (hipoglicemia), podendo reduzir a sua capacidade de concentração. Evite conduzir 
+ou utilizar máquinas se sentir sinais de baixo nível de açúcar no sangue. Veja na secção 2 
+‘Advertências e precauções’ para obter informações sobre o risco acrescido de baixo nível de açúcar 
+no sangue e a secção 4 relativamente aos sinais de aviso de baixo nível de açúcar no sangue. Fale com 
+o seu médico para obter mais informações. </p>
+<p>Rybelsus contém sódio 
+Este medicamento contém 23 mg de sódio (componente principal do sal de cozinha) em cada 
+comprimido. Isto é equivalente a 1% da ingestão alimentar diária máxima de sódio recomendada para 
+um adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar rybelsus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar rybelsus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Quantidade a tomar </p>
+<ul>
+<li>
+<p>A dose inicial é de um comprimido de 3 mg uma vez por dia, durante um mês. </p>
+</li>
+<li>
+<p>Após um mês, o seu médico irá aumentar a dose para 7 mg uma vez por dia. </p>
+</li>
+<li>
+<p>O seu médico poderá aumentar a dose para 14 mg uma vez por dia, se o nível de açúcar no 
+sangue não estiver suficientemente controlado com uma dose de 7 mg uma vez por dia. 
+O seu médico irá receitar-lhe a dosagem mais adequada para si. Não altere a dose a menos que o seu 
+médico lhe diga para o fazer. Não é recomendado tomar dois comprimidos de 7 mg para obter o efeito 
+de um comprimido de 14 mg, uma vez que esta situação não foi estudada. </p>
+</li>
+</ul>
+<p>Tomar este medicamento </p>
+<ul>
+<li>
+<p>Tome o seu comprimido de Rybelsus com o estômago vazio a qualquer hora do dia. </p>
+</li>
+<li>
+<p>Engula o comprimido de Rybelsus inteiro com um gole de água (até 120 ml). Não parta, 
+esmague ou mastigue o comprimido, uma vez que não se sabe se afeta a absorção de 
+semaglutido. </p>
+</li>
+<li>
+<p>Depois de tomar o seu comprimido de Rybelsus aguarde, pelo menos, 30 minutos antes de 
+tomar a primeira refeição ou bebida do dia ou antes de tomar outros medicamentos por via oral. 
+Aguardar menos de 30 minutos diminui a absorção de semaglutido. </p>
+</li>
+</ul>
+<p>Se tomar mais Rybelsus do que deveria 
+Se tomar mais Rybelsus do que devia, fale com o seu médico imediatamente. Pode sentir efeitos 
+indesejáveis, como sentir-se maldisposto (náuseas).  </p>
+<p>Caso se tenha esquecido de tomar Rybelsus 
+Caso se tenha esquecido de tomar uma dose, não tome a dose que se esqueceu de tomar e tome a sua 
+dose normal no dia seguinte. </p>
+<p>Se parar de tomar Rybelsus 
+Não pare de tomar este medicamento sem falar com o seu médico. Se parar de tomar este 
+medicamento, os seus níveis de açúcar no sangue podem aumentar.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>complicações da doença do olho provocada pela diabetes (retinopatia). Deve falar com o seu 
+médico se tiver problemas nos olhos, tais como alterações na visão, durante o tratamento com 
+este medicamento.  </li>
+</ul>
+<p>Raros (podem afetar até 1 em 1.000 pessoas) </p>
+<ul>
+<li>
+<p>reações alérgicas graves (reações anafiláticas). Deve procurar ajuda médica imediatamente e 
+informar o seu médico assim que possível se sentir sintomas, tais como problemas em respirar, 
+inchaço da cara e da garganta, pieira, batimento rápido do coração, pele pálida e fria, sensação 
+de tonturas ou fraqueza. </p>
+</li>
+<li>
+<p>pâncreas inflamado (pancreatite aguda) que pode causar uma dor intensa no estômago e nas 
+costas que não desaparece. Deve consultar o seu médico, imediatamente, se tiver estes sintomas. </p>
+</li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>Obstrução do instestino. Uma forma grave de prisão de ventre com sintomas adicionais, tais 
+como dor de estômago, inchaço, vómitos, etc. </li>
+</ul>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>sensação de má disposição (náuseas) - este sintoma normalmente desaparece com o tempo </p>
+</li>
+<li>
+<p>diarreia - este sintoma normalmente desaparece com o tempo </p>
+</li>
+<li>
+<p>baixo nível de açúcar no sangue (hipoglicemia) quando este medicamento é utilizado com 
+medicamentos que contêm uma sulfonilureia ou insulina. O seu médico pode reduzir as doses 
+destes medicamentos antes de começar a utilizar este medicamento. </p>
+</li>
+</ul>
+<p>Os sinais de aviso de um nível baixo de açúcar no sangue podem surgir rapidamente. Estes podem 
+incluir: suores frios, pele pálida e fria, dores de cabeça, batimento rápido do coração, sensação de má 
+disposição (náuseas) ou sensação de muita fome, alterações na visão, sonolência ou fraqueza, 
+nervosismo, ansiedade ou desorientação, dificuldade de concentração ou tremores. 
+O seu médico irá informá-lo sobre como tratar o nível baixo de açúcar no sangue e o que deve fazer 
+quando sentir estes sinais de aviso. </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>baixo nível de açúcar no sangue (hipoglicemia), quando este medicamento é utilizado com 
+medicamentos antidiabéticos orais que não os que contêm uma sulfonilureia ou insulina </p>
+</li>
+<li>
+<p>sentir-se doente (vómitos) </p>
+</li>
+<li>
+<p>mal-estar no estômago ou indigestão </p>
+</li>
+<li>
+<p>estômago inflamado (‘gastrite’) - os sinais incluem dor de estômago, sensação de má disposição 
+(náuseas) ou sentir-se doente (vómitos) </p>
+</li>
+<li>
+<p>refluxo ou azia - também chamado de ‘doença de refluxo gastroesofágico’ </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>inchaço do estômago </p>
+</li>
+<li>
+<p>prisão de ventre </p>
+</li>
+<li>
+<p>fadiga </p>
+</li>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>gases (flatulência) </p>
+</li>
+<li>
+<p>aumento das enzimas pancreáticas (como a lipase e a amilase) verificado nos resultados de 
+análises </p>
+</li>
+<li>
+<p>sensação de tonturas. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>perda de peso </p>
+</li>
+<li>
+<p>pedras na vesícula </p>
+</li>
+<li>
+<p>arrotos </p>
+</li>
+<li>
+<p>pulsação rápida </p>
+</li>
+<li>
+<p>reações alérgicas, tais como erupção na pele, comichão ou urticária </p>
+</li>
+<li>
+<p>atraso no esvaziamento do estômago </p>
+</li>
+<li>
+<p>alteração do sabor da comida ou das bebidas. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar rybelsus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar rybelsus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior 
+após ‘VAL’. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar na embalagem de origem para proteger da luz e da humidade. Este medicamento não 
+necessita de qualquer temperatura especial de conservação.  </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Rybelsus  </p>
+<ul>
+<li>
+<p>A substância ativa é o semaglutido. Cada comprimido contém 3, 7 ou 14 mg de semaglutido. </p>
+</li>
+<li>
+<p>Os outros componentes são salcaprozato de sódio, povidona K90, celulose microcristalina, 
+estearato de magnésio. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Rybelsus e conteúdo da embalagem 
+Os comprimidos Rybelsus 3 mg são brancos a amarelo-claros e têm forma oval (7,5 mm x 13,5 mm). 
+Apresentam a gravação “3" numa das faces e “novo" na face oposta. 
+Os comprimidos Rybelsus 7 mg são brancos a amarelo-claros e têm forma oval (7,5 mm x 13,5 mm). 
+Apresentam a gravação “7" numa das faces e “novo" na face oposta. 
+Os comprimidos Rybelsus 14 mg são brancos a amarelo-claros e têm forma oval (7,5 mm x 13,5 mm). 
+Apresentam a gravação “14" numa das faces e “novo" na face oposta. </p>
+<p>Os comprimidos de 3 mg, 7 mg e 14 mg estão disponíveis em embalagens com blister alu/alu que 
+contêm 10, 30, 60, 90 e 100 comprimidos. </p>
+<p>É possível que não sejam comercializadas todas as apresentações no seu país. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Novo Nordisk A/S 
+Novo Allé 
+DK-2880 Bagsværd 
+Dinamarca </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -784,6 +1217,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-b74140ab033fc1249f12696486a5f0cd"
 * entry[0].resource = composition-da-b74140ab033fc1249f12696486a5f0cd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb74140ab033fc1249f12696486a5f0cd"
+* entry[=].resource = mpb74140ab033fc1249f12696486a5f0cd
+                            
+                    
+Instance: bundlepackageleaflet-pt-b74140ab033fc1249f12696486a5f0cd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rybelsus Package Leaflet for language pt"
+Description: "ePI document Bundle for rybelsus Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-b74140ab033fc1249f12696486a5f0cd"
+* entry[0].resource = composition-pt-b74140ab033fc1249f12696486a5f0cd
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpb74140ab033fc1249f12696486a5f0cd"
@@ -885,6 +1340,18 @@ RuleSet: b74140ab033fc1249f12696486a5f0cdListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-b74140ab033fc1249f12696486a5f0cd) // rybelsus pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

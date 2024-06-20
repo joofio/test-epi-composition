@@ -944,6 +944,554 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-4ebd45ede513ed024b967ea8c9e55dab
+InstanceOf: CompositionUvEpi
+Title: "Composition for rukobia Package Leaflet"
+Description:  "Composition for rukobia Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4ebd45ede513ed024b967ea8c9e55dab)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - rukobia"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Rukobia e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Rukobia  </li>
+<li>Como tomar Rukobia  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é rukobia e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é rukobia e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rukobia contém fostemsavir e é um tipo de medicamento para o VIH (antirretrovírico) conhecido 
+como inibidor de ligação (IL). Funciona ligando-se ao vírus e impedindo-o depois de entrar nas suas 
+células sanguíneas. </p>
+<p>Rukobia é utilizado com outros medicamentos antirretrovíricos (terapêutica de associação) para tratar 
+a infeção por VIH em adultos com opções de tratamento limitadas (quando outros medicamentos 
+antirretrovíricos não são suficientemente eficazes ou não são adequados). </p>
+<p>Rukobia não cura a infeção por VIH; reduz a quantidade de vírus no seu organismo e mantém-na 
+baixa. Como o VIH reduz o número de células CD4 no seu organismo, manter níveis baixos de VIH 
+aumenta, ao mesmo tempo, a contagem de células CD4 no seu sangue. As células CD4 são um tipo de 
+glóbulos brancos que são importantes para ajudar o seu organismo a combater infeções. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar rukobia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar rukobia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Rukobia  </p>
+<ul>
+<li>
+<p>se tem alergia ao fostemsavir ou a qualquer outro componente deste medicamento (indicados na 
+Secção 6) </p>
+</li>
+<li>
+<p>se estiver a tomar qualquer um destes medicamentos: 
+o carbamazepina ou fenitoína (utilizados para o tratamento da epilepsia e para a 
+prevenção de convulsões (ataques)) 
+o mitotano (para o tratamento de vários tipos de cancro) 
+o enzalutamida (para o tratamento do cancro da próstata) 
+o rifampicina (para o tratamento de algumas infeções bacterianas, tais como a 
+tuberculose) 
+o medicamentos que contenham hipericão (Hypericum perforatum) (um produto à base de 
+plantas para a depressão). 
+ Se pensa que algumas destas situações se aplica a si, não tome Rukobia até que tenha 
+verificado com o seu médico. </p>
+</li>
+</ul>
+<p>Advertências e precauções<br />
+Situações a que tem de estar atento<br />
+Algumas pessoas que tomam medicamentos para infeções por VIH desenvolvem outras situações que 
+podem ser graves. Estas incluem:  </p>
+<ul>
+<li>
+<p>infeções e inflamação </p>
+</li>
+<li>
+<p>dores nas articulações, rigidez e problemas nos ossos 
+Tem de conhecer sinais e sintomas importantes a que tem de estar atento enquanto estiver a tomar 
+Rukobia.<br />
+ Veja a Secção 4 deste folheto. </p>
+</li>
+</ul>
+<p>Antes de tomar Rukobia, o seu médico precisa de saber </p>
+<ul>
+<li>
+<p>se tem ou já teve um problema cardíaco ou se verificar alterações anormais no seu batimento 
+cardíaco (como batimentos demasiado rápidos ou demasiado lentos). Rukobia pode afetar o 
+ritmo cardíaco. </p>
+</li>
+<li>
+<p>se tem ou já teve uma doença no fígado, incluindo hepatite B ou hepatite C. <br />
+ Fale com o seu médico se estas situações se aplicam a si. Enquanto estiver a tomar os seus 
+medicamentos, poderá necessitar de exames de rotina adicionais, incluindo análises ao sangue. </p>
+</li>
+</ul>
+<p>Irá precisar de análises ao sangue regulares 
+Enquanto estiver a tomar Rukobia, o seu médico pedir-lhe-á que faça análises ao sangue para medir a 
+quantidade de VIH no seu sangue e verificar a ocorrência de efeitos indesejáveis. Pode encontrar mais 
+informações sobre estes efeitos indesejáveis na Secção 4 deste folheto. </p>
+<p>Contacte regularmente o seu médico 
+Rukobia ajuda a controlar a sua situação, mas não cura a infeção por VIH. Tem de o continuar a tomar 
+todos os dias para impedir que a sua doença piore. Como Rukobia não cura a infeção por VIH, poderá 
+mesmo assim desenvolver outras infeções e doenças associadas à infeção por VIH. 
+ Mantenha o contacto com o seu médico e não pare de tomar Rukobia sem o aconselhamento 
+do seu médico. </p>
+<p>Crianças e adolescentes 
+Rukobia não é recomendado para pessoas com menos de 18 anos, dado não ter sido estudado nesta 
+faixa etária. </p>
+<p>Outros medicamentos e Rukobia<br />
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos.  </p>
+<p>Não se deve tomar Rukobia com alguns medicamentos </p>
+<p>Não tome Rukobia se estiver a tomar qualquer um destes medicamentos: </p>
+<ul>
+<li>
+<p>carbamazepina ou fenitoína para o tratamento da epilepsia e para a prevenção de convulsões </p>
+</li>
+<li>
+<p>mitotano para o tratamento de vários tipos de cancro </p>
+</li>
+<li>
+<p>enzalutamida para o tratamento do cancro da próstata </p>
+</li>
+<li>
+<p>rifampicina para o tratamento de algumas infeções bacterianas, tais como a tuberculose </p>
+</li>
+<li>
+<p>produtos que contenham hipericão (Hypericum perforatum) (um produto à base de plantas). 
+Não se recomenda a toma de Rukobia com o seguinte medicamento: </p>
+</li>
+<li>
+<p>elbasvir/grazoprevir para o tratamento da infeção hepatite C. </p>
+</li>
+</ul>
+<p> Informe o seu médico ou farmacêutico se estiver a ser tratado com este medicamento. </p>
+<p>Alguns medicamentos podem afetar a forma como Rukobia funciona  </p>
+<p>Ou podem aumentar a probabilidade de ter efeitos indesejáveis. Rukobia também pode afetar a forma 
+como outros medicamentos funcionam. 
+Informe o seu médico se estiver a tomar algum dos medicamentos da lista que se segue: </p>
+<ul>
+<li>
+<p>amiodarona, disopiramida, ibutilida, procainamida, quinidina ou sotalol, utilizados para o 
+tratamento de doenças cardíacas </p>
+</li>
+<li>
+<p>estatinas (atorvastatina, fluvastatina, pitavastatina, rosuvastatina ou simvastatina), utilizadas 
+para baixar os níveis de colesterol </p>
+</li>
+<li>
+<p>etinilestradiol, utilizado como contracetivo </p>
+</li>
+<li>
+<p>tenofovir alafenamida, utilizado como antivírico. 
+ Informe o seu médico ou farmacêutico se estiver a tomar algum destes medicamentos. O seu 
+médico poderá decidir ajustar a sua dose ou decidir que precisa de fazer mais exames. </p>
+</li>
+</ul>
+<p>Gravidez<br />
+Se está grávida, se pensa estar grávida ou planeia engravidar, não tome Rukobia sem falar com o 
+seu médico. O seu médico discutirá o benefício e o risco para o seu bebé associados à toma de 
+Rukobia durante a gravidez. </p>
+<p>Amamentação 
+A amamentação não é recomenda em mulheres que vivem com VIH, uma vez que a infeção por VIH 
+pode ser transmitida ao bebé através do leite materno.  </p>
+<p>Desconhece-se se os componentes de Rukobia podem passar para o leite materno e prejudicar o seu 
+bebé. Se estiver a amamentar ou a pensar em amamentar, deve falar com o seu médico o mais 
+rapidamente possível. </p>
+<p>Condução de veículos e utilização de máquinas<br />
+Rukobia pode provocar-lhe tonturas e outros efeitos indesejáveis que o tornam menos alerta. 
+Não conduza nem utilize máquinas a menos que tenha a certeza de que não é afetado. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar rukobia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar rukobia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome Rukobia exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<ul>
+<li>
+<p>A dose habitual de Rukobia é um comprimido de 600 mg, duas vezes por dia. </p>
+</li>
+<li>
+<p>Rukobia deve ser engolido inteiro com algum líquido. Não mastigue, esmague ou divida os 
+comprimidos — se o fizer, existe o risco do medicamento ser libertado para o seu organismo 
+demasiado rápido.  </p>
+</li>
+<li>
+<p>Pode tomar Rukobia com ou sem alimentos. </p>
+</li>
+</ul>
+<p>Se tomar mais Rukobia do que deveria<br />
+Se tomar demasiados comprimidos de Rukobia, contacte o seu médico ou farmacêutico. Se for 
+possível, mostre-lhes a embalagem de Rukobia. </p>
+<p>Caso se tenha esquecido de tomar Rukobia<br />
+Tome-o assim que se lembrar. Contudo, se estiver na altura da sua próxima dose, não tome a dose 
+esquecida e retome o esquema habitual. Não tome uma dose a dobrar para compensar uma dose que 
+se esqueceu de tomar. Caso tenha dúvidas, fale com o seu médico ou farmacêutico. </p>
+<p>Se parar de tomar Rukobia 
+Não pare de tomar Rukobia sem falar com o seu médico.<br />
+Para controlar a sua infeção por VIH e impedir que a doença piore, tome Rukobia durante o tempo que 
+o seu médico recomendar. Não pare a não ser que o seu médico lhe diga para o fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas, pelo que é muito importante que fale com o seu médico sobre 
+quaisquer alterações na sua saúde. </p>
+<p>Os sintomas de infeção e inflamação são frequentes (podem afetar até 1 em 10 pessoas).<br />
+As pessoas com infeção por VIH avançada (SIDA) têm sistemas imunitários fracos e são mais 
+suscetíveis ao desenvolvimento de infeções graves (infeções oportunistas). Quando começam o 
+tratamento, o sistema imunitário fica mais forte, pelo que o organismo começa a combater infeções. 
+Poderão surgir sintomas de infeção e inflamação causadas por: </p>
+<ul>
+<li>
+<p>infeções antigas, ocultas que se manifestam novamente à medida que o organismo as combate </p>
+</li>
+<li>
+<p>o sistema imunitário cometer o erro de atacar tecidos corporais saudáveis (doenças 
+autoimunes). </p>
+</li>
+</ul>
+<p>Os sintomas de doenças autoimunes poderão surgir muitos meses após começar a tomar o 
+medicamento para tratar a sua infeção por VIH.  </p>
+<p>Os sintomas podem incluir: </p>
+<ul>
+<li>
+<p>fraqueza e/ou dor muscular </p>
+</li>
+<li>
+<p>dores ou inchaço nas articulações </p>
+</li>
+<li>
+<p>fraqueza que começa nas mãos e nos pés e se alastra em direção ao tronco </p>
+</li>
+<li>
+<p>palpitações ou tremores </p>
+</li>
+<li>
+<p>agitação e movimentos excessivos (hiperatividade). </p>
+</li>
+</ul>
+<p>Se apresentar sintomas de infeção e inflamação ou se verificar a existência de algum dos sintomas 
+acima mencionados: 
+ Informe imediatamente o seu médico. Não tome outros medicamentos para o tratamento 
+da infeção sem falar com o seu médico. </p>
+<p>Efeitos indesejáveis muito frequentes (poderão afetar mais de 1 em 10 pessoas):  </p>
+<ul>
+<li>
+<p>sensação de enjoo (náuseas) </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>enjoos (vómitos) </p>
+</li>
+<li>
+<p>dores de estômago (dor abdominal) </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>erupção na pele. 
+ Se tiver efeitos indesejáveis, fale com o seu médico. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes (poderão afetar até 1 em 10 pessoas):  </p>
+<ul>
+<li>
+<p>indigestão (dispepsia) </p>
+</li>
+<li>
+<p>falta de energia (fadiga) </p>
+</li>
+<li>
+<p>perturbação no ritmo cardíaco observada no ECG (prolongamento do intervalo QT) </p>
+</li>
+<li>
+<p>dores musculares (mialgia) </p>
+</li>
+<li>
+<p>sensação de estar com sono (sonolência) </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>perturbação do paladar (disgeusia) </p>
+</li>
+<li>
+<p>gases </p>
+</li>
+<li>
+<p>dificuldades em dormir (insónia) </p>
+</li>
+<li>
+<p>comichão (prurido). 
+ Se tiver efeitos indesejáveis, fale com o seu médico. </p>
+</li>
+</ul>
+<p>Alguns efeitos indesejáveis apenas poderão ser detetados nas análises ao sangue e poderão não 
+aparecer imediatamente após começar a tomar Rukobia.  </p>
+<p>Os efeitos indesejáveis frequentes que poderão aparecer nas análises ao sangue são: </p>
+<ul>
+<li>
+<p>aumento nas enzimas produzidas nos músculos (creatina fosfoquinase, um indicador de 
+danos musculares) </p>
+</li>
+<li>
+<p>aumento na creatinina, um indicador do funcionamento dos rins </p>
+</li>
+<li>
+<p>aumento nas enzimas produzidas no fígado (transaminases), um indicador de danos no 
+fígado. </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis que poderão aparecer nas análises ao sangue<br />
+Algumas pessoas apresentaram outros efeitos indesejáveis, mas desconhece-se a sua frequência exata:  </p>
+<ul>
+<li>aumento da bilirrubina (uma substância produzida no fígado) no sangue. </li>
+</ul>
+<p>Dor nas articulações, rigidez e problemas nos ossos 
+Algumas pessoas a tomar terapêutica combinada para o VIH desenvolvem uma doença chamada 
+osteonecrose. Com esta doença, parte do tecido ósseo morre devido à diminuição do fornecimento de 
+sangue ao osso. As pessoas estão mais predispostas a ter esta doença: </p>
+<ul>
+<li>
+<p>se estiverem a tomar terapêutica combinada há muito tempo </p>
+</li>
+<li>
+<p>se estiverem também a tomar medicamentos anti-inflamatórios chamados corticosteroides </p>
+</li>
+<li>
+<p>se consomem álcool </p>
+</li>
+<li>
+<p>se o seu sistema imunitário estiver muito debilitado </p>
+</li>
+<li>
+<p>se tiverem excesso de peso. 
+Os sinais de osteonecrose incluem: </p>
+</li>
+<li>
+<p>rigidez nas articulações; </p>
+</li>
+<li>
+<p>moinhas e dores nas articulações (especialmente na anca, joelho ou ombro) </p>
+</li>
+<li>
+<p>dificuldade em movimentar-se. </p>
+</li>
+</ul>
+<p>Se notar qualquer um destes sintomas: </p>
+<p>→ Informe o seu médico. </p>
+<p>Comunicação de efeitos indesejáveis<br />
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar rukobia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar rukobia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter fora da vista e do alcance das crianças. </p>
+<p>Não tome Rukobia após o prazo de validade impresso na embalagem exterior e no frasco, após EXP. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Rukobia<br />
+- A substância ativa é o fostemsavir. Cada comprimido contém fostemsavir trometamina 
+equivalente a 600 mg de fostemsavir.<br />
+- Os outros componentes são hidroxipropilcelulose, hipromelose, sílica anidra coloidal, 
+estearato de magnésio, álcool (poli)vinílico, dióxido de titânio (E171), macrogol 3350, 
+talco, óxido de ferro amarelo (E172), óxido de ferro vermelho (E172). </p>
+<p>Qual o aspeto de Rukobia e conteúdo da embalagem 
+Rukobia 600 mg comprimidos de libertação prolongada são comprimidos beges, ovais, biconvexos, 
+revestidos por película, com cerca de 19 mm de comprimento, 10 mm de largura e 8 mm de espessura, 
+com a marcação “SV 1V7" numa das faces.  </p>
+<p>Cada embalagem contém um ou três frascos, cada com 60 comprimidos de libertação prolongada.  </p>
+<p>É possível que não sejam comercializadas todas as apresentações.<br />
+Titular da Autorização de Introdução no Mercado 
+ViiV Healthcare BV 
+Van Asch van Wijckstraat 55H 
+3811 LP Amersfoort 
+Países Baixos </p>
+<p>Fabricante 
+GlaxoSmithKline Manufacturing S.P.A 
+Strada Provinciale Asolana, San Polo di Torrile 
+Parma, 43Itália </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+ViiV Healthcare srl/bv<br />
+Tél/Tel: + 32 (0) 10 85 65 Lietuva 
+ViiV Healthcare BV 
+Tel: + 370 80000 
+България 
+ViiV Healthcare BV 
+Teл.: + 359 80018Luxembourg/Luxemburg 
+ViiV Healthcare srl/bv<br />
+Belgique/Belgien 
+Tél/Tel: + 32 (0) 10 85 65<br />
+Česká republika 
+GlaxoSmithKline, s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com </p>
+<p>Magyarország 
+ViiV Healthcare BV 
+Tel.: + 36 80088 
+Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+ViiV Healthcare BV 
+Tel: + 356 80065 
+Deutschland 
+ViiV Healthcare GmbH<br />
+Tel.: + 49 (0)89 203 0038-10<br />
+viiv.med.info@viivhealthcare.com  </p>
+<p>Nederland 
+ViiV Healthcare BV<br />
+Tel: + 31 (0)33 2081 </p>
+<p>Eesti </p>
+<p>Norge 
+ViiV Healthcare BV 
+Tel: + 372 8002 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20  </p>
+<p>Ελλάδα 
+GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
+Τηλ: + 30 210 68 82<br />
+Österreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>España 
+Laboratorios ViiV Healthcare, S.L.<br />
+Tel: + 34 900 923 051<br />
+es-ci@viivhealthcare.com </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9 </p>
+<p>France 
+ViiV Healthcare SAS<br />
+Tél.: + 33 (0)1 39 17 69 Infomed@viivhealthcare.com </p>
+<p>Portugal 
+VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br />
+Tel: + 351 21 094 08 01<br />
+viiv.fi.pt@viivhealthcare.com </p>
+<p>Hrvatska 
+ViiV Healthcare BV 
+Tel: + 385 800787 
+România 
+ViiV Healthcare BV 
+Tel: + 40800672 
+Ireland 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955 
+Slovenija 
+ViiV Healthcare BV 
+Tel: + 386 80688 </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+ViiV Healthcare BV 
+Tel: + 421 800500 </p>
+<p>Italia 
+ViiV Healthcare S.r.l<br />
+Tel: + 39 (0)45 7741 
+Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30 Finland.tuoteinfo@gsk.com </p>
+<p>Κύπρος 
+ViiV Healthcare BV 
+Τηλ: + 357 80070 </p>
+<p>Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+ViiV Healthcare BV 
+Tel: + 371 80205 </p>
+<p>United Kingdom (Northern Ireland) 
+ViiV Healthcare BV 
+Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA}.  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -985,6 +1533,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-4ebd45ede513ed024b967ea8c9e55dab"
 * entry[0].resource = composition-da-4ebd45ede513ed024b967ea8c9e55dab
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4ebd45ede513ed024b967ea8c9e55dab"
+* entry[=].resource = mp4ebd45ede513ed024b967ea8c9e55dab
+                            
+                    
+Instance: bundlepackageleaflet-pt-4ebd45ede513ed024b967ea8c9e55dab
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rukobia Package Leaflet for language pt"
+Description: "ePI document Bundle for rukobia Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-4ebd45ede513ed024b967ea8c9e55dab"
+* entry[0].resource = composition-pt-4ebd45ede513ed024b967ea8c9e55dab
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp4ebd45ede513ed024b967ea8c9e55dab"
@@ -1086,6 +1656,18 @@ RuleSet: 4ebd45ede513ed024b967ea8c9e55dabListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-4ebd45ede513ed024b967ea8c9e55dab) // rukobia pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

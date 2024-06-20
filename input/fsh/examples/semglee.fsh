@@ -1293,6 +1293,493 @@ en ny pen. </p>
 
 
 
+Instance: composition-pt-8d0c124d18ae7d118dd0c09ef060535b
+InstanceOf: CompositionUvEpi
+Title: "Composition for semglee Package Leaflet"
+Description:  "Composition for semglee Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8d0c124d18ae7d118dd0c09ef060535b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - semglee"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Semglee e para que é utilizado 
+2. O que precisa de saber antes de utilizar Semglee 
+3. Como utilizar Semglee 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Semglee 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é semglee e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é semglee e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Semglee contém insulina glargina, que é uma insulina modificada, muito semelhante à insulina 
+humana. </p>
+<p>Semglee é utilizado para o tratamento da diabetes mellitus em adultos, adolescentes e crianças de 
+2 anos de idade ou mais. 
+A diabetes mellitus é uma doença em que o seu organismo não produz insulina suficiente para 
+controlar o nível de açúcar no sangue. A insulina glargina possui uma ação de redução de açúcar no 
+sangue longa e estável. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar semglee"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar semglee"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Semglee </p>
+<ul>
+<li>se tem alergia à insulina glargina ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Semglee em caneta pré-cheia só é adequado para injetar logo abaixo da pele (ver também secção 3). 
+Fale com o seu médico se precisar de injetar a sua insulina de outra forma. </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Semglee. 
+Siga rigorosamente as instruções que discutiu com o seu médico relativamente à posologia, à 
+monitorização (exames de sangue e de urina), dieta e atividade física (trabalho e exercícios físicos) e 
+técnica de injeção. </p>
+<p>Alterações da pele no local de injeção: 
+Os locais de injeção devem ser alternados para prevenir alterações da pele, tais como nódulos sob a 
+pele. A insulina poderá não funcionar muito bem se for injetada numa área irregular (ver Como utilizar 
+Semglee). Contacte o seu médico se estiver atualmente a administrar a injeção numa área irregular 
+antes de começar a administrar a injeção numa área diferente. O seu médico poderá aconselhá-lo a 
+verificar mais atentamente o seu nível de açúcar no sangue e a ajustar a sua dose de insulina ou de 
+outros medicamentos antidiabéticos. </p>
+<p>Se o seu açúcar no sangue é demasiado baixo (hipoglicemia), siga as orientações referentes à 
+hipoglicemia (ver caixa no final deste folheto). </p>
+<p>Viagens </p>
+<p>Antes de viajar, deverá consultar o seu médico. Poderá ter de lhe falar sobre 
+- a disponibilidade da sua insulina no país de destino, 
+- quantidade de insulina, agulhas, etc., 
+- conservação correta da sua insulina durante a viagem, 
+- horários das refeições e administração de insulina durante a viagem, 
+- os possíveis efeitos da mudança para diferentes fusos horários, 
+- possíveis novos riscos para a saúde nos países de destino, 
+- o que deve fazer em situações de emergência quando se sente mal ou fica doente. </p>
+<p>Doenças e lesões </p>
+<p>Nas seguintes situações o tratamento da diabetes poderá requerer muita atenção (por exemplo, ajuste a 
+dose de insulina, exames ao sangue e urina): 
+- Se estiver doente ou sofrer um ferimento grave, o nível de açúcar no seu sangue poderá 
+aumentar (hiperglicemia). 
+- Se não comer o suficiente, o nível de açúcar no seu sangue poderá ficar demasiado baixo 
+(hipoglicemia). </p>
+<p>Na maioria dos casos necessitará de assistência médica. Contacte um médico o mais depressa 
+possível. </p>
+<p>Se sofre de diabetes de tipo 1 (diabetes mellitus dependente de insulina), não interrompa o seu 
+tratamento com insulina e continue a ingerir hidratos de carbono em quantidades suficientes. 
+Mantenha sempre as pessoas que o tratam ou assistem informadas de que necessita de insulina. </p>
+<p>O tratamento com insulina pode induzir o organismo a produzir anticorpos à insulina (substâncias que 
+atuam contra a insulina). No entanto, só muito raramente, isso exigirá uma mudança na sua dose de 
+insulina. </p>
+<p>Alguns doentes com diabetes tipo 2 de longa duração e doença cardíaca ou acidente vascular cerebral 
+que foram tratados com pioglitazona (medicamento antidiabético oral usado no tratamento da diabetes 
+mellitus tipo 2) e insulina desenvolveram insuficiência cardíaca. Informe o seu médico, o mais 
+rapidamente possível, no caso de ter sinais de insuficiência cardíaca tais como respiração ofegante 
+invulgar ou aumento de peso ou inchaço localizado (edema). </p>
+<p>Crianças </p>
+<p>Não há experiência acerca da utilização de Semglee em crianças com idade inferior a 2 anos. </p>
+<p>Outros medicamentos e Semglee </p>
+<p>Alguns medicamentos provocam alteração nos níveis de açúcar no sangue (aumento, diminuição ou 
+ambos, dependendo da situação). Poderá ser necessário, em cada caso, alterar convenientemente a 
+dose de insulina a fim de evitar níveis de açúcar no sangue muito baixos ou muito altos. Deve tomar 
+atenção quando inicia ou para o tratamento com outro medicamento. </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. Antes de tomar qualquer medicamento, pergunte ao seu médico se este 
+medicamento poderá afetar os seus níveis de açúcar no sangue e quais as medidas que deverá tomar. </p>
+<p>Os medicamentos que podem fazer com que os níveis de açúcar no sangue diminuam 
+(hipoglicemia) incluem: 
+- todos os outros medicamentos para tratar a diabetes, 
+- inibidores da enzima de conversão da angiotensina (IECA) (usados para tratar certas condições 
+cardíacas ou tensão arterial elevada), 
+- disopiramida (usada para tratar certas condições cardíacas), 
+- fluoxetina (usada para tratar a depressão), 
+- fibratos (usados para baixar níveis elevados de lípidos no sangue), 
+- inibidores de monoaminoxidase (IMAO) (usados para tratar a depressão), 
+- pentoxifilina, propoxifeno, salicilatos (tais como o ácido acetilsalicílico, usado para aliviar a dor 
+e diminuir a febre), 
+- antibióticos sulfonamídicos. </p>
+<p>Os medicamentos que podem elevar os níveis de açúcar no sangue (hiperglicemia) incluem: 
+- corticosteroides (tal como a «cortisona» usada para tratar a inflamação), 
+- danazol (medicamento que atua na ovulação), 
+- diazóxido (usado para tratar a tensão arterial elevada), 
+- diuréticos (usados para tratar a tensão arterial elevada ou a retenção de fluídos em excesso), 
+- glucagon (hormona pancreática usada para tratar a hipoglicemia grave), 
+- isoniazida (usada para tratar a tuberculose), 
+- estrogénios e progestagénios (tal como na pílula contracetiva usada no controlo da natalidade), 
+- derivados das fenotiazinas (usados para tratar perturbações do foro psiquiátrico), 
+- somatropina (hormona de crescimento), 
+- medicamentos simpaticomiméticos (tal como a epinefrina [adrenalina], salbutamol, terbutalina 
+usados para tratar a asma), 
+- hormonas da tiroide (usadas para tratar disfunções da glândula tiroideia) 
+- medicamentos antipsicóticos atípicos (tal como clozapina, olanzapina), 
+- inibidores da protease (usados para tratar o VIH). </p>
+<p>Os seus níveis de açúcar no sangue poderão descer ou subir se tomar: 
+- beta-bloqueadores (usados para tratar a tensão arterial elevada), 
+- clonidina (usada para tratar a tensão arterial elevada), 
+- sais de lítio (usados para tratar perturbações do foro psiquiátrico). </p>
+<p>A pentamidina (usada para tratar algumas infeções causadas por parasitas) pode causar hipoglicemia, a 
+qual pode por vezes ser seguida por hiperglicemia. </p>
+<p>Os beta-bloqueadores, à semelhança de outros medicamentos simpaticolíticos (tal como a clonidina, 
+guanetidina e reserpina), podem atenuar ou suprimir inteiramente os primeiros sintomas de alerta que 
+o ajudam a reconhecer uma hipoglicemia. </p>
+<p>Se não tiver a certeza se está a tomar um desses medicamentos, pergunte ao seu médico ou 
+farmacêutico. </p>
+<p>Semglee com álcool </p>
+<p>Os seus níveis de açúcar no sangue podem descer ou subir se beber álcool. </p>
+<p>Gravidez e amamentação </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Informe o seu médico se planeia engravidar ou se já está grávida. A dose de insulina poderá ter de ser 
+modificada durante a gravidez e depois do parto. Para a saúde do seu bebé é importante um controlo 
+especialmente rigoroso da sua diabetes e a prevenção de hipoglicemia. </p>
+<p>Se estiver a amamentar, consulte o seu médico pois poderá necessitar de ajustes nas doses de insulina 
+e na sua dieta. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>A sua capacidade de concentração e de reação poderá diminuir se: 
+- tem hipoglicemia (níveis baixos de açúcar no sangue), 
+- tem hiperglicemia (níveis elevados de açúcar no sangue), 
+- tem problemas com a sua visão. </p>
+<p>Deve manter-se consciente desse facto em todas as situações que envolvam riscos, tanto para si como 
+para outras pessoas (tais como conduzir umas viaturas ou utilizar máquinas). Deverá contactar o seu 
+médico para o aconselhar acerca da condução se: 
+- tem episódios frequentes de hipoglicemia, 
+- os primeiros sintomas de alerta que o ajudam a reconhecer uma hipoglicemia estão diminuídos 
+ou ausentes. </p>
+<p>Semglee contém sódio </p>
+<p>Este medicamento contém menos de 1 mmol (23 mg) de sódio por dose, isto é «essencialmente livre 
+de sódio». </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar semglee"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar semglee"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Embora Semglee contenha a mesma substância ativa que a insulina glargina 300 unidades/ml, estes 
+medicamentos não são permutáveis. A transição de um tratamento de insulina para outro exige 
+prescrição médica, supervisão médica e monitorização da glucose sanguínea. Consulte o seu médico 
+para mais informações. </p>
+<p>Posologia </p>
+<p>Com base no seu estilo de vida, nos resultados das suas análises de glicemia e no uso anterior de 
+insulina, o seu médico irá: 
+- determinar a quantidade diária de Semglee que necessita e em que hora do dia, 
+- informá-lo quando deverá verificar o nível e açúcar no sangue e se precisa de efetuar análises de 
+urina, 
+- indicar-lhe quando será necessária uma dose injetável superior ou inferior de Semglee. </p>
+<p>Semglee é uma insulina de longa ação. O seu médico poder-lhe-á dizer para o utilizar em combinação 
+com uma insulina de ação curta ou com comprimidos usados para tratar níveis elevados de açúcar no 
+sangue. </p>
+<p>Muitos fatores podem influenciar o seu nível de açúcar no sangue. Deverá conhecer estes fatores para 
+que possa reagir corretamente às alterações no seu nível de açúcar no sangue e impedir que este se 
+torne demasiado elevado ou demasiado baixo. Para mais informações, ver caixa no final deste folheto. </p>
+<p>Utilização em crianças e adolescentes </p>
+<p>Semglee pode ser utilizado em adolescentes e crianças com 2 ou mais anos de idade. Utilize este 
+medicamento exatamente como indicado pelo seu médico. </p>
+<p>Frequência de administração </p>
+<p>Necessitará de uma injeção de Semglee todos os dias, à mesma hora. 
+A caneta de Semglee liberta insulina em incrementos de 1 unidade até uma dose única máxima de 
+80 unidades. </p>
+<p>Modo de administração </p>
+<p>Semglee injeta-se debaixo da pele. NÃO injete Semglee numa veia, uma vez que isto alterará a sua 
+ação e poderá causar hipoglicemia. </p>
+<p>O seu médico mostrar-lhe-á qual a área da pele em que deverá injetar Semglee. Por cada injeção, 
+alterne o local de punção dentro da mesma área da pele que está a utilizar. </p>
+<p>Como utilizar a caneta de Semglee </p>
+<p>Semglee em caneta pré-cheia só é adequado para injetar logo abaixo da pele. Fale com o seu médico se 
+precisar de injetar a sua insulina de outra forma. </p>
+<p>Leia atentamente as «Instruções de utilização» incluídas neste folheto informativo. Deve utilizar 
+a caneta tal como está descrito nessas instruções de utilização. </p>
+<p>Antes de cada utilização deve colocar uma agulha nova. Utilize apenas agulhas compatíveis com a 
+caneta de Semglee (ver «Instruções de utilização). 
+Antes de cada injeção execute um teste de segurança. </p>
+<p>Observe o cartucho antes de utilizar a caneta. Não utilize a Semglee se verificar que existem partículas 
+na solução. Utilize apenas Semglee se a solução estiver límpida e incolor. Não agite nem misture antes 
+da sua utilização. </p>
+<p>Para prevenir a possível transmissão da doença, nunca partilhe a sua caneta com quem quer que seja. 
+Esta caneta é apenas para ser utilizada por si. </p>
+<p>Utilize sempre uma caneta nova se verificar que o controlo do seu nível de açúcar no sangue está a 
+piorar inesperadamente. Se pensar que a caneta de Semglee tem um problema, por favor contacte o seu 
+médico, farmacêutico ou enfermeiro. </p>
+<p>As canetas vazias não devem ser recarregadas e devem ser eliminadas apropriadamente. </p>
+<p>Não utilize a caneta de Semglee se estiver danificada ou não trabalhar corretamente (devido a defeitos 
+mecânicos), deve ser deitada fora e tem de se usar uma caneta de Semglee nova. </p>
+<p>Trocas de insulina </p>
+<p>Deve verificar sempre o rótulo da insulina antes de cada injeção para evitar trocas entre Semglee e 
+outras insulinas. </p>
+<p>Se utilizar mais Semglee do que deveria </p>
+<p>Se tiver injetado demasiado Semglee, o seu nível de açúcar no sangue poderá tornar-se demasiado 
+baixo (hipoglicemia). Verifique frequentemente o seu nível de açúcar no sangue. Nesses casos, para 
+evitar hipoglicemia deverá ingerir mais alimentos e vigiar os seus níveis de açúcar no sangue. Para 
+informação relativamente ao tratamento da hipoglicemia, ver caixa no final deste folheto. </p>
+<p>Caso se tenha esquecido de utilizar Semglee </p>
+<p>Se tiver omitido uma dose de Semglee ou não tiver injetado insulina suficiente, o seu nível de açúcar 
+no sangue poderá tornar-se demasiado elevado (hiperglicemia). Verifique frequentemente o seu nível 
+de açúcar no sangue. Para informações sobre o tratamento da hiperglicemia, ver caixa no final deste 
+folheto. </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de utilizar Semglee </p>
+<p>Isto pode levar a hiperglicemia grave (níveis muito elevados de açúcar no sangue) e cetoacidose 
+(acumulação de ácido no sangue porque o organismo está a utilizar gordura em vez de açúcar). Não 
+pare o tratamento com Semglee sem falar com o seu médico, que lhe dirá o que deve ser feito. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Se tiver sintomas de que o seu nível de açúcar no sangue está muito baixo (hipoglicemia), tome 
+imediatamente medidas para aumentar o seu nível de açúcar no sangue (ver caixa no final deste 
+folheto). A hipoglicemia (nível baixo de açúcar no sangue) pode ser muito grave e é muito frequente 
+com tratamento com insulina (pode afetar mais de 1 em 10 pessoas). Nível baixo de açúcar no sangue 
+significa que não há açúcar suficiente no seu sangue. Se os seus níveis de açúcar no sangue descerem a 
+níveis muito baixos, pode desmaiar (ficar inconsciente). Casos graves de hipoglicemia podem 
+provocar lesões cerebrais e podem pôr a vida em risco. Para mais informações, ver caixa no final deste 
+folheto informativo. </p>
+<p>Reações alérgicas graves (raros, podem afetar até 1 em 1.000 pessoas) - os sintomas podem incluir 
+reações na pele extensas (erupção na pele e comichão no corpo todo), inchaço grave da pele ou das 
+membranas mucosas (angioedema), dificuldade em respirar, uma descida da tensão arterial, com 
+batimento do coração rápido e transpiração. As reações alérgicas graves às insulinas podem pôr a vida 
+em risco. Fale imediatamente com um médico se tiver sintomas de reações alérgicas graves. </p>
+<p>Alterações da pele no local da injeção: 
+Se injetar insulina com demasiada frequência no mesmo local, o tecido gordo pode encolher 
+(lipoatrofia; pode afetar até 1 em 100 pessoas) ou aumentar a espessura (lipohipertrofia; pode afetar 
+até 1 em 10 pessoas). Os nódulos sob a pele podem também ser causados pela acumulação de uma 
+proteína chamada amiloide (amiloidose cutânea; a frequência com que ocorre não é conhecida). A 
+insulina poderá não funcionar muito bem se for injetada numa área irregular. Altere o local da injeção 
+a cada injeção para ajudar a evitar essas alterações na pele. </p>
+<p>Efeitos indesejáveis frequentes comunicados (podem afetar até 1 em 10 pessoas) 
+ 
+Reações alérgicas e da pele no local de injeção 
+Os sintomas podem incluir vermelhidão, dor anormalmente intensa durante a injeção, comichão, 
+erupção da pele com comichão, inchaço ou inflamação. Estes sintomas podem disseminar-se em redor 
+do local da injeção. A maior parte destas reações menores à insulina desaparecem num período de 
+poucos dias a poucas semanas. </p>
+<p>Efeitos indesejáveis raros comunicados (podem afetar até 1 em 1.000 pessoas) 
+ 
+Reações nos olhos 
+Uma alteração marcada (melhoria ou agravamento) no controlo dos seus níveis de açúcar no sangue 
+pode alterar a sua visão temporariamente. Se sofrer de retinopatia proliferativa (uma doença dos olhos 
+relacionada com a diabetes), as crises graves de hipoglicemia podem provocar perda de visão 
+temporária. 
+ 
+Alterações gerais 
+Em casos raros, o tratamento com insulina pode provocar uma acumulação temporária de água no 
+corpo, com inchaço na barriga das pernas e tornozelos. </p>
+<p>Efeitos indesejáveis muito raros comunicados (podem afetar até 1 em 10.000 pessoas) 
+Em casos muito raros, pode ocorrer disgeusia (alterações do paladar) e mialgia (dor muscular). </p>
+<p>Utilização em crianças e adolescentes 
+Geralmente, os efeitos adversos em crianças e adolescentes com idade igual ou inferior a 18 anos são 
+semelhantes aos observados nos adultos. 
+Queixas de reações no local de administração (dor no local de injeção, reação no local de injeção) e 
+reações na pele (erupção na pele, urticária) são notificadas relativamente com maior frequência em 
+crianças e adolescentes com idade igual ou menor a 18 anos do que em adultos. 
+Não há experiência em crianças com menos de 2 anos de idade. </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar semglee"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar semglee"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo da 
+caneta, após «EXP». O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Canetas sem estarem em uso 
+Conservar no frigorífico (2°C-8°C). Não congelar nem colocar próximo do congelador do seu 
+frigorífico nem junto de acumuladores de frio. 
+Manter a caneta pré-cheia dentro embalagem exterior para proteger da luz. </p>
+<p>Canetas em uso 
+As canetas pré-cheias em uso ou de reserva podem ser conservadas até um máximo de 4 semanas, a 
+uma temperatura inferior a 25°C e longe do calor ou da luz direta. Não as utilize depois deste período 
+de tempo. A caneta em uso não deve ser conservada no frigorífico. Recomenda-se que a data da 
+primeira utilização seja registada. 
+A tampa da caneta deve ser colocada de novo após cada administração para proteger da luz. </p>
+<p>Retire a agulha depois da injeção e guarde a caneta sem a agulha. Além disso, certifique-se de que 
+retira a agulha antes de deitar fora a caneta. As agulhas não devem ser reutilizadas. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Semglee </p>
+<ul>
+<li>A substância ativa é a insulina glargina. Cada ml de solução contém 100 unidades de insulina 
+glargina (equivalente a 3,64 mg). </li>
+<li>Os outros componentes são: cloreto de zinco, metacresol, glicerol, hidróxido de sódio (para 
+ajuste do pH) (ver secção 2 «Semglee contém sódio»), ácido clorídrico (para ajuste do pH) e 
+água para preparações injetáveis. </li>
+</ul>
+<p>Qual o aspeto de Semglee e conteúdo da embalagem </p>
+<p>Semglee 100 unidades/ml solução injetável numa caneta pré-cheia é uma solução límpida e incolor. 
+Cada caneta contém 3 ml de solução injetável (equivalente a 300 unidades). 
+Semglee está disponível em embalagens com 1, 3, 5 e 10 canetas ou numa embalagem múltipla 
+composta por 2 embalagens de cartão, cada uma contendo 5 canetas. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Biosimilar Collaborations Ireland Limited 
+Unit 35/36<br />
+Grange Parade, 
+Baldoyle Industrial Estate, 
+Dublin DUBLIN 
+Irlanda </p>
+<p>D13 R20R </p>
+<p>Fabricante </p>
+<p>Biosimilar Collaborations Ireland Limited 
+Block B, The Crescent Building, Santry Demesne 
+Dublin 
+D09 C6X8 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Biocon Biologics Belgium BV 
+Tél/Tel: 0080008250 
+Lietuva 
+Biosimilar Collaborations Ireland Limited 
+Tel: 0080008250 
+България 
+Biosimilar Collaborations Ireland Limited 
+Тел: 0080008250 
+Luxembourg/Luxemburg 
+Biocon Biologics France S.A.S 
+Tél/Tel: 0080008250Česká republika 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250Magyarország 
+Biosimilar Collaborations Ireland Limited<br />
+Tel.: 0080008250 </p>
+<p>Danmark 
+Biocon Biologics Finland OY<br />
+Tlf: 0080008250Malta 
+Biosimilar Collaborations Ireland Limited<br />
+Tel.: 0080008250 
+Deutschland 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250 
+Nederland 
+Biocon Biologics France S.A.S 
+Tel: 0080008250Eesti 
+Biosimilar Collaborations Ireland Limited 
+Tel: 0080008250Norge 
+Biocon Biologics Finland OY<br />
+Tlf: +47 800 62<br />
+Ελλάδα<br />
+Biocon Biologics Greece ΜΟΝΟΠΡΟΣΩΠΗ 
+Ι.Κ.Ε 
+Τηλ.: 0080008250 
+Österreich 
+Biocon Biologics Germany GmbH 
+Tel: 0080008250 
+España 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250 
+Polska 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 
+France 
+Biocon Biologics France S.A.S<br />
+Tel: 0080008250Portugal 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250 
+Hrvatska 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250 
+România 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 
+Ireland 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 1800 777<br />
+Slovenija 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250Ísland 
+Biocon Biologics Finland OY<br />
+Sími: +345 8004 
+Slovenská republika 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250Italia 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250 
+Suomi/Finland 
+Biocon Biologics Finland OY<br />
+Puh/Tel: 99980008250 
+Κύπρος 
+Biosimilar Collaborations Ireland Limited<br />
+Τηλ: 0080008250 
+Sverige 
+Biocon Biologics Finland OY<br />
+Tel: 0080008250 
+Latvija 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 </p>
+<p>Este folheto foi revisto pela última vez em {mês de AAAA}. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1334,6 +1821,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8d0c124d18ae7d118dd0c09ef060535b"
 * entry[0].resource = composition-da-8d0c124d18ae7d118dd0c09ef060535b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8d0c124d18ae7d118dd0c09ef060535b"
+* entry[=].resource = mp8d0c124d18ae7d118dd0c09ef060535b
+                            
+                    
+Instance: bundlepackageleaflet-pt-8d0c124d18ae7d118dd0c09ef060535b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for semglee Package Leaflet for language pt"
+Description: "ePI document Bundle for semglee Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8d0c124d18ae7d118dd0c09ef060535b"
+* entry[0].resource = composition-pt-8d0c124d18ae7d118dd0c09ef060535b
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8d0c124d18ae7d118dd0c09ef060535b"
@@ -1435,6 +1944,18 @@ RuleSet: 8d0c124d18ae7d118dd0c09ef060535bListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8d0c124d18ae7d118dd0c09ef060535b) // semglee pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

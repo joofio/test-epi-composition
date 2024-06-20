@@ -992,6 +992,373 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-65cdaa8e626b314e9a691e6afef8bf66
+InstanceOf: CompositionUvEpi
+Title: "Composition for besremi Package Leaflet"
+Description:  "Composition for besremi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp65cdaa8e626b314e9a691e6afef8bf66)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - besremi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Besremi e para que é utilizado  </li>
+<li>O que precisa de saber antes de utilizar Besremi  </li>
+<li>Como utilizar Besremi </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Besremi  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é besremi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é besremi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Besremi contém a substância ativa ropeginterferão alfa-2b, que pertence à classe de medicamentos 
+denominados interferões. Os interferões são produzidos pelo seu sistema imunitário para bloquear o 
+crescimento de células cancerígenas.  </p>
+<p>Besremi é utilizado para o tratamento em monoterapia de policitemia vera em adultos. A policitemia 
+vera é um tipo de cancro em que a medula óssea produz demasiados glóbulos vermelhos, glóbulos 
+brancos e plaquetas (células que ajudam o sangue a coagular).  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar besremi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar besremi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Besremi 
+- se tem alergia ao ropeginterferão alfa-2b ou a qualquer outro componente deste medicamento 
+(indicados na secção 6); 
+- se tem doença da tiroide não controlada com medicamentos; 
+- se tem ou já teve doenças do foro psiquiátrico (tais como depressão ou pensamentos suicidas ou 
+se tiver tentado suicidar-se); 
+- se tem ou teve recentemente problemas cardíacos graves (como ataque cardíaco ou acidente 
+vascular cerebral); 
+- se tem ou já teve uma doença autoimune (como artrite reumatoide, psoríase ou doença 
+inflamatória intestinal); 
+- se foi submetido a transplante de órgãos e toma medicamentos que suprimem o sistema 
+imunitário; 
+- se toma telbivudina (um medicamento utilizado para tratar a infeção por vírus da hepatite B); 
+- se tem doença hepática avançada e não controlada; 
+- se tem doença renal grave (com funcionamento renal inferior a 15% da sua capacidade normal). </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico antes de utilizar Besremi: 
+- se tem doença da tiroide; 
+- se tem diabetes ou tensão arterial alta — o seu médico pode pedir-lhe que faça um exame 
+oftalmológico; 
+- se tem problemas de fígado — terá de realizar análises de sangue regularmente para se verificar 
+como o fígado está a funcionar caso esteja a fazer terapêutica com Besremi a longo prazo; 
+- se tem problemas de rins; 
+- se tem psoríase ou outros problemas de pele, porque se poderão agravar durante o tratamento 
+com Besremi. </p>
+<p>Depois de ter iniciado o tratamento com Besremi, fale com o seu médico: 
+- se desenvolver sintomas de depressão (como sentimentos de tristeza, melancolia e pensamentos 
+suicidas);<br />
+- se desenvolver sinais de reação alérgica grave (como dificuldade em respirar, sibilos ou 
+urticária) enquanto toma Besremi — se este for o caso, terá de consultar imediatamente um 
+médico; 
+- se desenvolver sintomas gripais ou outra infeção respiratória (como dificuldade em respirars, 
+tosse, febre e dor no peito); 
+- se tiver alterações da visão — tem de informar o seu médico e realizar imediatamente um exame 
+oftalmológico. Durante a terapêutica com Besremi podem ocorrer problemas oculares graves. O 
+seu médico examinará normalmente a sua visão antes de iniciar o tratamento. Se tiver 
+problemas de saúde que possam levar a problemas oculares, tais como diabetes ou tensão 
+arterial alta, o seu médico deve examinar a sua visão também durante o tratamento. Se a sua 
+visão se agravar, o seu médico pode decidir descontinuar o seu tratamento.  </p>
+<p>Com medicamentos com interferão podem ocorrer doenças dos dentes e das gengivas, que podem 
+levar à perda de dentes. Além disso, a boca seca pode danificar os dentes e o revestimento bucal 
+durante o tratamento a longo prazo com Besremi. Deve escovar os seus dentes cuidadosamente duas 
+vezes por dia e efetuar exames dentários regulares.  </p>
+<p>Vai precisar de um certo tempo para atingir a sua dose ideal de Besremi. O seu médico decidirá se é 
+necessário tratá-lo com outro medicamento para obter mais cedo a redução do número de células 
+sanguíneas de forma a prevenir a formação de coágulos sanguíneos e hemorragias. </p>
+<p>Crianças e adolescentes 
+Não administrar este medicamento a crianças e adolescentes, uma vez que não existe informação 
+disponível sobre a utilização de Besremi neste grupo etário.  </p>
+<p>Outros medicamentos e Besremi 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente ou se vier a 
+utilizar outros medicamentos. </p>
+<p>Não utilize Besremi se estiver a tomar telbivudina (para tratamento da hepatite B), uma vez que a 
+combinação destes medicamentos aumenta o risco de neuropatia periférica (dormência, formigueiro ou 
+sensação de queimadura nos braços e nas pernas). Informe o seu médico se estiver a ser tratado com 
+telbivudina. </p>
+<p>Informe o seu médico especialmente se estiver a tomar algum dos seguintes medicamentos: 
+- teofilina (um medicamento utilizado para tratar doenças respiratórias como asma) 
+- metadona (um medicamento utilizado para tratar a dor ou a dependência de opiáceos) 
+- vortioxetina ou risperidona (medicamentos utilizados para tratar doenças mentais)<br />
+- medicamentos anticancerígenos, como os que interrompem ou retardam o crescimento de 
+células que formam o sangue na medula óssea (p. ex., hidroxicarbamida) 
+- medicamentos que atuam no sistema nervoso central para aliviar a dor, ajudá-lo a dormir ou ter 
+um efeito calmante (p. ex., morfina, midazolam) </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Gravidez 
+Não se conhece o efeito de Besremi durante a gravidez. Não se recomenda a utilização de Besremi 
+durante a gravidez. Se for uma mulher com potencial para engravidar, o seu médico irá conversar 
+consigo sobre se deverá usar contracetivo durante o tratamento com Besremi. </p>
+<p>Amamentação 
+Não se sabe se Besremi passa através do leite materno. O seu médico irá ajudá-la a decidir se tem de 
+deixar de amamentar quando estiver a utilizar este medicamento.  </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza nem utilize máquinas caso sinta tonturas, sonolência ou confusão enquanto utilizar 
+Besremi. </p>
+<p>Besremi contém álcool benzílico 
+Este medicamento contém 5 mg de álcool benzílico em cada 0,5 ml. O álcool benzílico pode causar 
+reações alérgicas. 
+Aconselhe-se com o seu médico ou farmacêutico: 
+- se está grávida ou a amamentar; 
+- se tem doença fígado ou rins. 
+Isto porque pode haver acumulação de grandes quantidades de álcool benzílico no seu corpo e causar 
+efeitos indesejáveis (denominado “acidose metabólica"). </p>
+<p>Besremi contém sódio 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por ml, o que significa que é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar besremi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar besremi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize sempre este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale 
+com o seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose será determinada individualmente para si, pelo seu médico, para a sua doença. A dose inicial 
+habitual de Besremi é de 100 microgramas a cada 2 semanas. O seu médico aumentará depois 
+gradualmente a dose e pode ajustá-la durante o tratamento.<br />
+O seu médico reduzirá a sua dose inicial para 50 microgramas se tiver problemas renais graves. </p>
+<p>Este medicamento destina-se a uso subcutâneo, o que significa que é injetado no tecido debaixo da 
+pele. Não deve ser injetado numa área do corpo onde a pele esteja irritada, vermelha, com nódoas 
+negras, infetada ou com cicatrizes.<br />
+Se estiver a injetar este medicamento em si próprio, receberá instruções claras sobre como prepará-lo e 
+injetá-lo.<br />
+Para prevenir a transmissão de doenças infeciosas, nunca deve partilhar a caneta pré-cheia de Besremi 
+com mais ninguém, mesmo depois de a agulha ser trocada. </p>
+<p>Detalhes sobre como preparar e injetar Besremi são fornecidos nas instruções de utilização. 
+Leia-as antes de começar a utilizar Besremi. </p>
+<p>Se utilizar mais Besremi do que deveria 
+Informe o seu médico logo que seja possível. </p>
+<p>Caso se tenha esquecido de utilizar Besremi 
+Deve injetar a dose assim que se lembrar. Contudo, se tiverem passado mais de 2 dias desde que 
+falhou a dose, não injete essa dose e injete a próxima dose na data planeada. Não injete uma dose 
+dupla para compensar uma dose esquecida. Fale com o seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>Se parar de utilizar Besremi 
+Não pare de utilizar Besremi antes de falar com o seu médico.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Contacte imediatamente o seu médico se notar algum dos seguintes efeitos indesejáveis graves 
+durante o seu tratamento com Besremi: </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas):<br />
+- alterações no ritmo cardíaco (quando o coração bate muito depressa e de forma irregular)  </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- tentativa de suicídio, pensamentos sobre matar-se 
+- perda de visão que possa ser causada por hemorragias na retina (a retina é a camada sensível à 
+luz no olho) ou por acumulação de gordura dentro ou sob a retina </p>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em 1000 pessoas): 
+- perda de visão que pode ser causada por danos na retina (como obstrução dos vasos sanguíneos 
+no olho) ou no nervo óptico </p>
+<p>Efeitos indesejáveis muito raros (podem afetar até 1 em cada 10 000 pessoas): 
+- cegueira<br />
+- problemas respiratórios, que incluem falta de ar, tosse e dor no peito, que podem ser causados 
+por infiltração pulmonar, pneumonia (infeção dos pulmões), hipertensão arterial pulmonar 
+(tensão alta nos vasos sanguíneos que levam o sangue do coração aos pulmões) e fibrose 
+pulmonar (uma doença dos pulmões onde se formam cicatrizes no tecido pulmonar) </p>
+<p>Efeitos indesejáveis com frequência desconhecida (não é possível estimar a partir dos dados 
+disponíveis): 
+- descolamento da retina (pode apresentar problemas oculares, que incluem alterações na visão) </p>
+<p>Outros efeitos indesejáveis  </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas):<br />
+- diminuição do número de um tipo de glóbulos brancos (denominados leucócitos) e de células 
+que coagulam o sangue (denominadas plaquetas)<br />
+- dores articulares ou musculares<br />
+- sintomas de tipo gripal, sensação de cansaço<br />
+- em análises de sangue: aumento de uma enzima denominada gama-glutamiltransferase </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas):<br />
+- infeção do trato respiratório, corrimento nasal ou nariz entupido, infeções fúngicas, gripe<br />
+- diminuição do número ou tamanho dos glóbulos vermelhos<br />
+- aumento ou diminuição da atividade da glândula tiroide, aumento da hormona de estimulação da 
+tiroide, inflamação da glândula tiroide<br />
+- aumento dos triglicéridos (um tipo de lípidos) no sangue, diminuição do apetite 
+- comportamento agressivo, sentir-se deprimido, sentir-se ansioso, dificuldades em adormecer ou 
+em continuar a dormir, alterações de humor, falta de energia corporal ou motivação<br />
+- cefaleias, sentir-se tonto, diminuição do sentido do toque ou da sensibilidade, sentir-se 
+sonolento, sensação de formigueiro e picadas 
+- olhos secos 
+- lesões nos capilares (vasos sanguíneos muito pequenos) do corpo<br />
+- problemas respiratórios <br />
+- diarreia, náuseas, dor abdominal ou desconforto no estômago, prisão de ventre, boca seca<br />
+- doença do fígado, aumento em determinadas enzimas hepáticas (mostrado nas análises de 
+sangue)<br />
+- comichão, queda de cabelo, erupção cutânea, vermelhidão da pele, psoríase, pele seca e 
+descamativa, acne, espessamento da camada externa da pele, aumento da transpiração 
+- uma doença designada por síndrome de Sjögren em que o sistema imunitário do corpo ataca as 
+glândulas que produzem fluidos (como as glândulas lacrimais e salivares), artrite, dor nos 
+braços e pernas, dor óssea, contração súbita dolorosa de um músculo<br />
+- febre, fraqueza, arrepios, problemas de saúde gerais, irritação ou vermelhidão no local de 
+injeção, diminuição do peso corporal<br />
+- em análises de sangue: anticorpos que são produzidos pelo sistema imunitário do corpo, 
+aumento de uma enzima denominada lactato desidrogenase </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas):<br />
+- infeção e reinfeção com herpes, infeções bacterianas<br />
+- aumento do número de plaquetas 
+- doença autoimune da glândula tiroide, sarcoidose (áreas de tecido inflamado em diferentes 
+partes do corpo) 
+- diabetes<br />
+- ataque de pânico, alucinações (ver, ouvir ou sentir coisas que não existem), sentir-se stressado, 
+sentir-se nervoso, falta de interesse em atividades, pesadelos, irritabilidade, confusão<br />
+- danos no tecido nervoso, enxaquecas, doenças mentais (problema de saúde envolvendo 
+alterações nos pensamentos, emoções ou comportamento) alterações visuais ou sensoriais, mãos 
+trémulas 
+- desconforto nos olhos, eczema das pálpebras 
+- perda de audição, campainhas nos ouvidos (tinido), sensação de estar a girar (vertigens)<br />
+- doenças cardíacas como bloqueio cardíaco (problema na atividade elétrica do coração), 
+coágulos de sangue nos vasos sanguíneos do coração, fuga da válvula aórtica 
+- tensão arterial alta, diminuição do aporte sanguíneo a algumas partes do corpo, hematoma 
+(acumulação de sangue sob a pele), vermelhidão 
+- inflamação do tecido do pulmão, tosse, sangramento nasal, dores de garganta<br />
+- inflamação do estômago, doença na parede abdominal, gases intestinais, indigestão, dor ao 
+engolir, sangramento das gengivas<br />
+- inflamação do fígado, lesões no fígado, aumento de tamanho do fígado<br />
+- sensibilidade à luz solar, descamação da pele, problemas das unhas 
+- fraqueza muscular, dor no pescoço e nas virilhas<br />
+- inflamação da bexiga, dor ao urinar, aumento da necessidade de urinar, impossibilidade de 
+urinar<br />
+- problemas sexuais<br />
+- dor ou comichão no local de injeção, sensibilidade a alterações climáticas<br />
+- porfíria não aguda (um distúrbio no fígado em que substâncias denominadas porfirinas se 
+acumulam na pele provocando lesões localizadas na pele, tais como erupções, bolhas, feridas ou 
+desconforto, após exposição ao sol) 
+- em análises de sangue: aumento do ácido úrico, anticorpos produzidos pelo sistema imunitário 
+do corpo contra glóbulos vermelhos  </p>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em 1000 pessoas): 
+- perturbações bipolares (alterações de humor com episódios de tristeza e excitação), mania 
+(excitação extrema ou entusiasmo sem razão)<br />
+- cardiomiopatia (doenças que afetam o músculo cardíaco), angina de peito (uma dor grave no 
+peito que resulta da obstrução dos vasos sanguíneos) 
+- insuficiência hepática </p>
+<p>Efeitos indesejáveis muito raros (podem afetar até 1 em cada 10 000 pessoas): 
+- púrpura trombocitopénica idiopática ou trombótica (aumento das equimoses, sangramento, 
+diminuição das plaquetas, anemia e fraqueza extrema) 
+- isquemia do miocárdio (redução do fluxo sanguíneo para o músculo cardíaco) </p>
+<p>Efeitos indesejáveis com frequência desconhecida (não é possível estimar a partir dos dados 
+disponíveis): 
+- doença de Vogt-Koyanagi-Harada (uma doença rara que pode levar à perda de visão e de 
+audição e à pigmentação da pele), reação alérgica grave 
+- descoloração da pele 
+- doenças periodontais (que afetam as gengivas) e doenças dentárias, alteração da cor da língua </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar besremi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar besremi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C-8°C). 
+Não congelar. 
+Manter a caneta pré-cheia na embalagem externa para proteger da luz. </p>
+<p>Depois de aberta, a caneta pré-cheia pode ser conservada durante um período máximo de 30 dias no 
+frigorífico (2°C-8°C) quando guardada com a tampa colocada e mantida na embalagem exterior para 
+proteger da luz. </p>
+<p>Não utilize este medicamento se verificar que a caneta pré-cheia parece danificada, se a solução 
+estiver turva, se tiver partículas ou flocos ou se tiver outra cor além de incolor a amarela pálida. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Besremi 
+- A substância ativa é o ropeginterferão alfa-2b.  </p>
+<p>Cada caneta pré-cheia com 0,5 ml de solução contém 250 microgramas de ropeginterferão alfa-
+2b, conforme medido numa base proteica, o que corresponde a 500 microgramas/ml. 
+- Os outros componentes são cloreto de sódio, polissorbato 80, álcool benzílico, acetato de sódio 
+anidro, ácido acético glaciar e água para preparações injetáveis. Em relação ao álcool benzílico 
+e ao sódio, ver a secção 2 “Besremi contém álcool benzílico" e “Besremi contém sódio". </p>
+<p>Qual o aspeto de Besremi e conteúdo da embalagem 
+Besremi apresenta-se como uma solução injetável numa caneta pré-cheia. Cada caneta pré-cheia 
+contém 0,5 ml de solução. Está disponível em embalagens contendo: 
+- 1 caneta pré-cheia e 2 agulhas de injeção (Tipo: mylife Clickfine 8mm) 
+- 3 canetas pré-cheias e 6 agulhas de injeção (Tipo: mylife Clickfine 8mm). </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+AOP Orphan Pharmaceuticals GmbH 
+Leopold-Ungar-Platz 2 
+1190 Vienna 
+Áustria </p>
+<p>Este folheto foi revisto pela última vez em . </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1033,6 +1400,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-65cdaa8e626b314e9a691e6afef8bf66"
 * entry[0].resource = composition-da-65cdaa8e626b314e9a691e6afef8bf66
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp65cdaa8e626b314e9a691e6afef8bf66"
+* entry[=].resource = mp65cdaa8e626b314e9a691e6afef8bf66
+                            
+                    
+Instance: bundlepackageleaflet-pt-65cdaa8e626b314e9a691e6afef8bf66
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for besremi Package Leaflet for language pt"
+Description: "ePI document Bundle for besremi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-65cdaa8e626b314e9a691e6afef8bf66"
+* entry[0].resource = composition-pt-65cdaa8e626b314e9a691e6afef8bf66
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp65cdaa8e626b314e9a691e6afef8bf66"
@@ -1134,6 +1523,18 @@ RuleSet: 65cdaa8e626b314e9a691e6afef8bf66ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-65cdaa8e626b314e9a691e6afef8bf66) // besremi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -899,6 +899,520 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-d4e8178d3a905eabdd581f1645891fb4
+InstanceOf: CompositionUvEpi
+Title: "Composition for prevymis Package Leaflet"
+Description:  "Composition for prevymis Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd4e8178d3a905eabdd581f1645891fb4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - prevymis"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é PREVYMIS e para que é utilizado 
+2. O que precisa de saber antes de tomar PREVYMIS 
+3. Como tomar PREVYMIS<br />
+4. Efeitos indesejáveis possíveis 
+5. Como conservar PREVYMIS
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é prevymis e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é prevymis e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>PREVYMIS é um medicamento antiviral sujeito a receita médica que contém a substância ativa
+letermovir. 
+PREVYMIS é um medicamento para adultos que foram recentemente submetidos a um transplante de
+células estaminais (medula óssea) ou a um transplante renal. Este medicamento impede que fique
+doente por CMV (“citomegalovírus").
+CMV é um vírus. O CMV não causa danos na maioria das pessoas. Contudo, tem maior risco de ficar
+doente por CMV, se o seu sistema imunitário estiver debilitado após um transplante de células
+estaminais ou um transplante renal. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar prevymis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar prevymis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome PREVYMIS se:</p>
+<ul>
+<li>
+<p>tem alergia ao letermovir ou a qualquer outro componente deste medicamento (indicados na
+secção 6).</p>
+</li>
+<li>
+<p>toma algum destes medicamentos:
+o 
+pimozida - usada para tratar a síndrome de Tourette
+o 
+alcaloides ergotamínicos (tais como ergotamina e di-hidroergotamina) - usados nas
+enxaquecas.</p>
+</li>
+<li>
+<p>toma o seguinte produto à base de plantas:
+o 
+hipericão (Hypericum perforatum)
+Não tome PREVYMIS se alguma das situações anteriores se aplicar a si. Se não tem a certeza, fale
+com o seu médico, farmacêutico ou enfermeiro antes de tomar PREVYMIS.
+Se está a tomar PREVYMIS com ciclosporina, não tome os seguintes medicamentos:
+o 
+dabigatrano - usado para coágulos de sangue
+o 
+atorvastatina, sinvastatina, rosuvastatina, pitavastatina - para colesterol elevado
+84
+Advertências e precauções 
+Se está também a tomar um medicamento para o colesterol elevado (ver lista de medicamentos na
+secção em baixo “Outros medicamentos e PREVYMIS") tem de informar imediatamente o seu médico
+se sentir moinhas ou dores musculares sem causa aparente, principalmente se sentir mal estar ou febre.
+Pode ser necessário alterar o seu medicamento ou a dose. Ver o folheto informativo do seu outro
+medicamento para mais informação. 
+Podem ser necessárias análises adicionais ao sangue para monitorizar os seguintes medicamentos:</p>
+</li>
+<li>
+<p>Ciclosporina, tacrolímus, sirolímus</p>
+</li>
+<li>
+<p>Voriconazol
+Crianças e adolescentes
+PREVYMIS não é para utilizar em crianças e adolescentes com idade inferior a 18 anos. Isto porque
+PREVYMIS não foi estudado neste grupo de idades.
+Outros medicamentos e PREVYMIS
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a
+tomar outros medicamentos. Isto porque PREVYMIS pode afetar a forma como outros medicamentos
+atuam e outros medicamentos podem afetar a forma como PREVYMIS atua. O seu médico ou
+farmacêutico irá informá-lo se é seguro tomar PREVYMIS com outros medicamentos. 
+Existem alguns medicamentos que não pode tomar com PREVYMIS (ver a lista a seguir a “Não
+tome PREVYMIS se:").
+Existem alguns medicamentos adicionais que não pode tomar com PREVYMIS e ciclosporina (ver a
+lista a seguir a “ Se está a tomar PREVYMIS com ciclosporina, não tome os seguintes
+medicamentos:").
+Informe também o seu médico se está a tomar algum dos medicamentos seguintes. Isto porque o seu
+médico pode precisar de alterar os seus medicamentos ou alterar a dose dos seus medicamentos:</p>
+</li>
+<li>
+<p>alfentanilo - para a dor grave</p>
+</li>
+<li>
+<p>fentanilo - para a dor grave</p>
+</li>
+<li>
+<p>quinidina - para ritmo cardíaco anormal</p>
+</li>
+<li>
+<p>ciclosporina, tacrolímus, sirolímus - usados para prevenir rejeição do transplante </p>
+</li>
+<li>
+<p>voriconazol - para infeções fúngicas </p>
+</li>
+<li>
+<p>estatinas, tais como atorvastatina, fluvastatina, rosuvastatina, sinvastatina, pravastatina,
+pitavastatina - para colesterol elevado </p>
+</li>
+<li>
+<p>glibenclamida, repaglinida - para açúcar no sangue elevado </p>
+</li>
+<li>
+<p>carbamazepina, fenobarbital, fenitoína - para crises ou convulsões</p>
+</li>
+<li>
+<p>dabigatrano, varfarina - usado para fluidificar o sangue ou para coágulos de sangue </p>
+</li>
+<li>
+<p>midazolam - usado como sedativo </p>
+</li>
+<li>
+<p>amiodarona - usado para corrigir batimentos cardíacos irregulares </p>
+</li>
+<li>
+<p>esteroides contracetivos orais - para controlo de natalidade</p>
+</li>
+<li>
+<p>omeprazol, pantoprazol - para úlceras no estômago e outros problemas no estômago </p>
+</li>
+<li>
+<p>nafcilina - para infeções bacterianas</p>
+</li>
+<li>
+<p>rifabutina, rifampicina - para infeções micobacterianas</p>
+</li>
+<li>
+<p>tioridazina - para perturbações psiquiátricas</p>
+</li>
+<li>
+<p>bosentano - para pressão arterial elevada nos vasos dos pulmões</p>
+</li>
+<li>
+<p>efavirenz, etravirina, nevirapina, lopinavir, ritonavir - para VIH</p>
+</li>
+<li>
+<p>modafinil - para estado de vigília
+Pode pedir ao seu médico ou farmacêutico uma lista de medicamentos que podem interagir com
+PREVYMIS.
+85
+Gravidez 
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de tomar
+este medicamento. PREVYMIS não é recomendado durante a gravidez. Isto porque este medicamento
+não foi estudado durante a gravidez e não se sabe se PREVYMIS poderá afetar o seu bebé enquanto
+está grávida.
+Amamentação 
+Se está a amamentar ou se planeia amamentar, consulte o seu médico antes de tomar este
+medicamento. A amamentação não é recomendada enquanto está a tomar PREVYMIS. Isto porque
+não se sabe se PREVYMIS passa para o leite materno e consequentemente para o seu bebé.
+Condução de veículos e utilização de máquinas
+PREVYMIS pode ter uma influência menor na sua capacidade de conduzir e utilizar máquinas (ver em
+baixo secção 4. “Efeitos indesejáveis possíveis"). Foi comunicado por alguns doentes fadiga (sensação
+de cansaço extremo) e vertigens (sensação de andar à roda), durante o tratamento com PREVYMIS. Se
+tiver algum destes efeitos não conduza nem utilize máquinas até que essa sensação desapareça.
+PREVYMIS contém lactose
+PREVYMIS contém lactose mono-hidratada. Se foi informado pelo seu médico que tem intolerância a
+alguns açúcares, fale com o seu médico antes de tomar este medicamento.
+PREVYMIS contém sódio
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por comprimido, ou seja, é
+praticamente “isento de sódio".</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar prevymis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar prevymis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu
+médico ou farmacêutico se tiver dúvidas.
+Que dose tomar
+A dose recomendada de PREVYMIS é um comprimido de 480 mg uma vez por dia. Se também toma
+ciclosporina, o seu médico irá reduzir a dose de PREVYMIS para 1 comprimido de 240 mg uma vez
+por dia.</p>
+<ul>
+<li>
+<p>Tome PREVYMIS à mesma hora todos os dias.</p>
+</li>
+<li>
+<p>Tome com ou sem alimentos.
+Como tomar</p>
+</li>
+<li>
+<p>Engolir o comprimido inteiro com água. Não partir, esmagar ou mastigar o comprimido. 
+Se tomar mais PREVYMIS do que deveria
+Se tomar mais PREVYMIS do que deveria, fale de imediato com o seu médico.
+Caso se tenha esquecido de tomar PREVYMIS 
+É muito importante que não falhe ou salte doses de PREVYMIS.</p>
+</li>
+<li>
+<p>Se se esquecer de uma dose, tome-a assim que se lembrar. Contudo, se está perto da próxima dose,
+não tome a dose em falta. Tome a dose seguinte no horário normal.</p>
+</li>
+<li>
+<p>Não tome duas doses de PREVYMIS ao mesmo tempo para compensar uma dose que se esqueceu
+de tomar.</p>
+</li>
+<li>
+<p>Se não tem a certeza do que fazer, fale com o seu médico ou farmacêutico. 
+Não pare de tomar PREVYMIS
+Não pare de tomar PREVYMIS sem primeiro falar com o seu médico. Não fique sem PREVYMIS.
+Isto irá ajudar o medicamento a melhor prevenir que fique doente com CMV após receber um
+transplante de células estaminais ou um transplante renal. 
+86
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico
+ou enfermeiro.</p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se
+manifestem em todas as pessoas.
+Frequentes: podem afetar até 1 em 10 pessoas</p>
+<ul>
+<li>
+<p>diarreia</p>
+</li>
+<li>
+<p>sensação de enjoo (náuseas)</p>
+</li>
+<li>
+<p>enjoos (vómitos)
+Pouco frequentes: podem afetar até 1 em 100 pessoas</p>
+</li>
+<li>
+<p>reação alérgica (hipersensibilidade) - os sinais podem incluir pieira, dificuldade em respirar,
+erupção na pele ou urticária, comichão, inchaço</p>
+</li>
+<li>
+<p>perda de apetite</p>
+</li>
+<li>
+<p>alteração no paladar</p>
+</li>
+<li>
+<p>dor de cabeça</p>
+</li>
+<li>
+<p>sensação de andar à roda (vertigens)</p>
+</li>
+<li>
+<p>dor no estômago</p>
+</li>
+<li>
+<p>alterações nos testes laboratoriais à função do fígado (i.e. valores aumentados das enzimas do
+fígado)</p>
+</li>
+<li>
+<p>espasmos musculares</p>
+</li>
+<li>
+<p>creatinina no sangue elevada - observado em análises ao sangue</p>
+</li>
+<li>
+<p>sensação de cansaço extremo (fadiga)</p>
+</li>
+<li>
+<p>inchaço das mãos ou dos pés
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
+medicamento.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar prevymis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar prevymis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister
+após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de qualquer temperatura especial de conservação. Conservar na
+embalagem de origem para proteger da humidade.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de PREVYMIS
+A substância ativa é o letermovir. Cada comprimido revestido por película contém 240 mg de
+letermovir ou 480 mg de letermovir.
+87
+Os outros componentes são:
+Núcleo do comprimido
+Celulose microcristalina (E460), croscarmelose de sódio (E468), povidona (E1201), sílica coloidal
+anidra (E551), estearato de magnésio (E470b).
+Revestimento
+Lactose mono-hidratada, hipromelose (E464), dióxido de titânio (E171), triacetina (E1518), óxido de
+ferro amarelo (E172), óxido de ferro vermelho (apenas para os comprimidos de 480 mg) (E172), cera
+carnaúba (E903). Ver secção 2 “PREVYMIS contém lactose" e “ PREVYMIS contém sódio".
+Qual o aspeto de PREVYMIS e conteúdo da embalagem
+PREVYMIS 240 mg comprimido revestido por película (“comprimido") é um comprimido de forma
+oval, amarelo, gravado com “591" de um lado e o logotipo da empresa do outro lado. O comprimido
+tem 16,5 mm de comprimento e 8,5 mm de largura.
+PREVYMIS 480 mg comprimido revestido por película (“comprimido") é um comprimido de forma
+oval, cor-de-rosa, bi-convexo, gravado com “595" de um lado e o logotipo da empresa do outro lado.
+O comprimido tem 21,2 mm de comprimento e 10,3 mm de largura.
+Os 28x1 comprimidos são acondicionados numa embalagem que contém blisters destacáveis para dose
+unitária de Poliamida/Alumínio/PVC - Alumínio (total de 28 comprimidos).
+Titular da Autorização de Introdução no Mercado
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Países Baixos
+Fabricante
+Organon Heist bv
+Industriepark 30
+2220 Heist-op-den-Berg
+Bélgica
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Países Baixos
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel. + 370 5 278 02 47
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +36 1 888 5300
+hungary_msd@merck.com
+Danmark
+Malta
+88
+MSD Danmark ApS
+Tlf: + 45 4482 4000
+dkmail@merck.com
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999000 (+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél : + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel : +351 21 4465700
+inform_pt@merck.com
+Hrvatska:
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@msd.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: +386 1 5204 201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421 2 58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ.: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+89
+Tel: + 371 67364224
+msd_lv@merck.com
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Este folheto foi revisto pela última vez em {MM/AAAA}.
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+
+
+
 
 
                     
@@ -940,6 +1454,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d4e8178d3a905eabdd581f1645891fb4"
 * entry[0].resource = composition-da-d4e8178d3a905eabdd581f1645891fb4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd4e8178d3a905eabdd581f1645891fb4"
+* entry[=].resource = mpd4e8178d3a905eabdd581f1645891fb4
+                            
+                    
+Instance: bundlepackageleaflet-pt-d4e8178d3a905eabdd581f1645891fb4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for prevymis Package Leaflet for language pt"
+Description: "ePI document Bundle for prevymis Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d4e8178d3a905eabdd581f1645891fb4"
+* entry[0].resource = composition-pt-d4e8178d3a905eabdd581f1645891fb4
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd4e8178d3a905eabdd581f1645891fb4"
@@ -1041,6 +1577,18 @@ RuleSet: d4e8178d3a905eabdd581f1645891fb4ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d4e8178d3a905eabdd581f1645891fb4) // prevymis pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -821,6 +821,443 @@ bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""
 
 
 
+Instance: composition-pt-0765874a313ce115023e01847b82b59e
+InstanceOf: CompositionUvEpi
+Title: "Composition for arsenic Package Leaflet"
+Description:  "Composition for arsenic Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0765874a313ce115023e01847b82b59e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - arsenic"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Trióxido de arsénio Mylan e para que é utilizado </li>
+<li>O que precisa de saber antes de receber Trióxido de arsénio Mylan </li>
+<li>Como utilizar Trióxido de arsénio Mylan </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Trióxido de arsénio Mylan </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é arsenic e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é arsenic e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trióxido de arsénio Mylan é utilizado em doentes adultos com leucemia promielocítica aguda (APL) 
+recentemente diagnosticada, de risco baixo a intermédio, e em doentes adultos cuja doença não 
+respondeu a outras terapêuticas. A APL constitui um tipo de leucemia mieloide única, uma doença na 
+qual ocorrem glóbulos brancos anormais e hemorragia anormal e nódoas negras. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar arsenic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar arsenic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trióxido de arsénio Mylan deve ser dado sob a supervisão de um médico com experiência no 
+tratamento de leucemias agudas. </p>
+<p>Não pode receber Trióxido de arsénio Mylan 
+se tem alergia ao trióxido de arsénio ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções 
+Tem de falar com o seu médico ou enfermeiro antes de receber Trióxido de arsénio Mylan 
+- 
+se tem uma perturbação da função dos rins. 
+- 
+se tem problemas do fígado. </p>
+<h2>O seu médico tomará as seguintes precauções:</h2>
+<p>Serão realizadas análises para verificar a quantidade de potássio, magnésio, cálcio e creatinina 
+no sangue antes da sua primeira dose de Trióxido de arsénio Mylan. 
+- 
+Deve também efetuar um registo elétrico do coração (eletrocardiograma, ECG) antes da sua 
+primeira dose. 
+- 
+As análises sanguíneas (potássio, magnésio, cálcio e função do fígado) devem ser repetidas 
+durante o seu tratamento com Trióxido de arsénio Mylan. 
+- 
+Além disso, fará eletrocardiogramas duas vezes por semana. 
+- 
+Se correr o risco de ter um certo tipo de ritmo do coração anormal (p. ex. torsade de pointes ou 
+prolongamento QTc), o seu coração será monitorizado continuamente. 
+- 
+O seu médico poderá controlar a sua saúde durante e depois do tratamento, dado que o trióxido 
+de arsénio, a substância ativa presente em Trióxido de arsénio Mylan, pode causar outros 
+cancros. Deve comunicar quaisquer sintomas e circunstâncias novos ou excecionais sempre que 
+vir o seu médico. 
+- 
+Se estiver em risco de deficiência de vitamina B1, faça o acompanhamento da sua função 
+cognitiva e motora. </p>
+<p>Crianças e adolescentes 
+Trióxido de arsénio Mylan não é recomendado em crianças e adolescentes com menos de 18 anos de 
+idade. </p>
+<p>Outros medicamentos e Trióxido de arsénio Mylan 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos, incluindo medicamentos obtidos sem receita médica. </p>
+<h2>Em especial, informe o seu médico</h2>
+<p>se estiver a tomar algum dos vários tipos de medicamentos que podem causar uma alteração no 
+seu ritmo do coração. Estes incluem: </p>
+<ul>
+<li>
+<p>determinados tipos de antiarrítmicos (medicamentos utilizados para corrigir batimentos 
+irregulares do coração, por exemplo, quinidina, amiodarona, sotalol, dofetilida) </p>
+</li>
+<li>
+<p>medicamentos para tratar psicoses (perda de contacto com a realidade, por exemplo, 
+tioridazina) </p>
+</li>
+<li>
+<p>medicamentos para a depressão (por exemplo, amitriptilina) </p>
+</li>
+<li>
+<p>alguns tipos de medicamentos para tratar infeções bacterianas, chamados antibióticos (por 
+exemplo, eritromicina e esparfloxacina) </p>
+</li>
+<li>
+<p>alguns medicamentos para tratar alergias como a febre do feno, chamados anti-
+histamínicos (por exemplo, terfenadina e astemizol) </p>
+</li>
+<li>
+<p>quaisquer medicamentos que provoquem uma baixa de magnésio ou potássio no seu 
+sangue (por exemplo, anfotericina B) </p>
+</li>
+<li>
+<p>cisaprida (um medicamento utilizado para aliviar determinados problemas de estômago). 
+O efeito destes medicamentos na sua frequência cardíaca pode ser agravado por Trióxido de 
+arsénio Mylan. Deverá ter o cuidado de informar o seu médico sobre todos os medicamentos 
+que está a tomar. </p>
+</li>
+<li>se estiver a tomar ou tiver tomado recentemente quaisquer medicamentos que possam afetar o 
+seu fígado. Caso tenha dúvidas, mostre o frasco ou a embalagem ao seu médico. </li>
+</ul>
+<p>Trióxido de arsénio Mylan com alimentos e bebidas 
+Não há restrições de alimentos ou de bebidas enquanto estiver a receber Trióxido de arsénio Mylan. </p>
+<p>Gravidez 
+Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. 
+Trióxido de arsénio Mylan pode causar lesões no feto quando utilizado por mulheres grávidas. 
+Se tem potencial para engravidar, tem de utilizar um contracetivo eficaz durante o tratamento com 
+Trióxido de arsénio Mylan e durante 6 meses após a conclusão do tratamento. 
+Se está grávida ou ficar grávida durante o tratamento com Trióxido de arsénio Mylan, deve 
+aconselhar-se com o seu médico. 
+Os homens têm também de utilizar um contracetivo eficaz e ser aconselhados a não conceber uma 
+criança durante o tratamento com Trióxido de arsénio Mylan e durante 3 meses após a conclusão do 
+tratamento. </p>
+<p>Amamentação 
+Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. 
+O arsénio presente em Trióxido de arsénio Mylan passa para o leite materno. 
+Dado que Trióxido de arsénio Mylan pode ser prejudicial para os bebés amamentados, não amamente 
+enquanto estiver a receber Trióxido de arsénio Mylan e durante duas semanas após a última dose. </p>
+<p>Condução de veículos e utilização de máquinas 
+É de se esperar que Trióxido de arsénio Mylan tenha uma influência nula ou desprezável sobre a sua 
+capacidade de conduzir e utilizar máquinas. 
+Se sentir desconforto ou se não se sentir bem após uma injeção de Trióxido de arsénio Mylan, deve 
+esperar que os sintomas desapareçam antes de conduzir ou utilizar máquinas. </p>
+<p>Trióxido de arsénio Mylan contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por frasco para injetáveis, ou seja, 
+é praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar arsenic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar arsenic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Duração e frequência do tratamento </p>
+<p>Doentes com leucemia promielocítica aguda recentemente diagnosticada 
+O seu médico irá dar-lhe Trióxido de arsénio Mylan uma vez todos os dias na forma de uma perfusão. 
+No seu primeiro ciclo de tratamento, pode ser tratado todos os dias até 60 dias, no máximo, ou até o 
+seu médico determinar que a sua doença está melhor. Se a sua doença responder a Trióxido de arsénio 
+Mylan, ser-lhe-ão dados 4 ciclos adicionais de tratamento. Cada ciclo consiste em 20 doses, dadas 
+5 dias por semana (seguidos de uma interrupção de 2 dias), durante 4 semanas seguido de uma 
+interrupção de 4 semanas. O seu médico decidirá exatamente durante quanto tempo deverá continuar a 
+terapêutica com Trióxido de arsénio Mylan. </p>
+<p>Doentes com leucemia promielocítica aguda, cuja doença não respondeu a outras terapêuticas 
+O seu médico irá dar-lhe Trióxido de arsénio Mylan uma vez todos os dias na forma de uma perfusão. 
+No seu primeiro ciclo de tratamento, pode ser tratado todos os dias até 50 dias, no máximo, ou até o 
+seu médico determinar que a sua doença está melhor. Se a sua doença responder a Trióxido de arsénio 
+Mylan, ser-lhe-á administrado uma segundo ciclo de tratamento de 25 doses, dadas durante 5 dias por 
+semana (seguido de uma interrupção de 2 dias) durante 5 semanas. O seu médico decidirá exatamente 
+durante quanto tempo deverá continuar a terapêutica com Trióxido de arsénio Mylan. </p>
+<p>Modo e via de administração </p>
+<p>Trióxido de arsénio Mylan necessita de ser diluído com uma solução que contém glucose ou uma 
+solução que contém cloreto de sódio. </p>
+<p>Trióxido de arsénio Mylan é normalmente administrado por um médico ou enfermeiro. A 
+administração faz-se por gota a gota (perfusão) numa veia durante 1-2 horas, mas a perfusão poderá 
+durar mais tempo se ocorrerem efeitos indesejáveis como rubor e tonturas. </p>
+<p>Trióxido de arsénio Mylan não deve ser misturado com outros medicamentos ou perfundido através do 
+mesmo tubo com outros medicamentos. </p>
+<p>Se o seu médico ou enfermeiro lhe administrar mais Trióxido de arsénio Mylan do que deveria 
+Poderá sentir convulsões, fraqueza muscular e confusão. No caso de isto acontecer, o tratamento com 
+Trióxido de arsénio Mylan deve ser imediatamente suspenso e o seu médico tratará a sobredosagem de 
+arsénio. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Informe imediatamente o seu médico ou enfermeiro se sentir os seguintes efeitos indesejáveis, 
+pois estes podem ser sinais de uma doença grave chamada “síndrome de diferenciação" que 
+pode ser fatal: 
+- 
+dificuldade em respirar 
+- 
+tosse 
+- 
+dor no peito 
+- 
+febre </p>
+<p>Informe imediatamente o seu médico ou enfermeiro se sentir um ou mais dos seguintes efeitos 
+indesejáveis, pois estes podem ser sinais de reação alérgica: 
+- 
+dificuldade em respirar 
+- 
+febre 
+- 
+aumento súbito de peso 
+- 
+retenção de água 
+- 
+desmaios 
+- 
+palpitações (fortes batimentos do coração que consegue sentir no peito) </p>
+<p>Durante o tratamento com Trióxido de arsénio Mylan, poderá sentir algumas das seguintes reações: </p>
+<h2>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas):</h2>
+<h2>fadiga (cansaço), dor, febre, dor de cabeça</h2>
+<h2>náuseas, vómitos, diarreia</h2>
+<h2>tonturas, dores musculares, entorpecimento ou formigueiros</h2>
+<p>erupção na pele ou comichão, aumento do açúcar no sangue, edema (inchaço devido ao excesso 
+de líquido) 
+- 
+falta de ar, ritmo do coração acelerado, alterações no traçado do ECG do coração 
+- 
+diminuição do potássio ou do magnésio no sangue, alterações nos testes da função hepática, 
+incluindo a presença de bilirrubina ou de gama-glutamiltransferase em excesso no sangue </p>
+<h2>Frequentes (podem afetar até 1 em cada 10 pessoas):</h2>
+<p>diminuição da contagem de células sanguíneas (plaquetas, glóbulos vermelhos e/ou brancos), 
+aumento dos glóbulos brancos 
+- 
+arrepios, aumento de peso 
+- 
+febre devido a uma infeção e baixos níveis de glóbulos brancos, infeção por herpes zóster 
+- 
+dor no peito, hemorragia no pulmão, hipoxia (baixo nível de oxigénio), acumulação de líquido 
+em redor do coração ou do pulmão, diminuição da pressão arterial, alteração do ritmo do 
+coração 
+- 
+desmaios, dor nas articulações ou nos ossos, inflamação dos vasos sanguíneos 
+- 
+aumento do sódio ou do magnésio, cetonas no sangue e urina (cetoacidose), alterações nos testes 
+da função renal, insuficiência renal 
+- 
+dores de estômago (abdominais) 
+- 
+vermelhidão da pele, cara inchada, visão desfocada </p>
+<h2>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis):</h2>
+<h2>infeção pulmonar, infeção no sangue</h2>
+<h2>inflamação dos pulmões que pode causar dores no peito e falta de ar, insuficiência cardíaca</h2>
+<h2>desidratação, confusão</h2>
+<p>doença cerebral (encefalopatia, encefalopatia de Wernicke) com várias manifestações, incluindo 
+dificuldade em utilizar os braços e as pernas, perturbações da fala e confusão </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar arsenic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar arsenic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco para injetáveis e 
+na embalagem exterior. </p>
+<p>Não congelar. </p>
+<p>Após a diluição, se não for utilizado imediatamente, os tempos de conservação e condições antes da 
+utilização são da responsabilidade do seu médico e normalmente não deverão ser superiores a 
+24 horas, a 2-8 °C, a menos que a diluição tenha ocorrido em ambiente estéril. </p>
+<p>Este medicamento não pode ser utilizado no caso de verificar partículas suspensas ou se a solução 
+apresentar descoloração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Trióxido de arsénio Mylan</h2>
+<p>A substância ativa é o trióxido de arsénio. Cada ml de concentrado contém 1 mg de trióxido de 
+arsénio. Cada frasco para injetáveis de 10 ml contém 10 mg de trióxido de arsénio. 
+- 
+Os outros componentes são hidróxido de sódio, ácido clorídrico e água para preparações 
+injetáveis. Ver secção 2 “Trióxido de arsénio Mylan contém sódio". </p>
+<p>Qual o aspeto de Trióxido de arsénio Mylan e conteúdo da embalagem 
+Trióxido de arsénio Mylan é um concentrado para solução para perfusão (concentrado estéril). 
+Trióxido de arsénio Mylan é fornecido em frascos para injetáveis de vidro, na forma de uma solução 
+aquosa concentrada, límpida, incolor. Cada embalagem exterior contém 1 ou 10 frascos para injetáveis 
+de vidro de utilização única. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Mylan Ireland Limited 
+Unit 35/36 Grange Parade 
+Baldoyle Industrial Estate 
+Dublin Irlanda </p>
+<p>Fabricante 
+Haupt Pharma Wolfratshausen GmbH 
+Pfaffenrieder Straße 5 
+82515 Wolfratshausen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Mylan bvba/sprl 
+Tél/Tel: + 32 (0)2 658 61<br />
+Lietuva 
+Mylan Healthcare UAB<br />
+Tel: +370 5 205 1 
+България 
+Майлан ЕООД 
+Тел: +359 2 44 55<br />
+Luxembourg/Luxemburg 
+Mylan bvba/sprl 
+Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>Česká republika 
+Viatris CZ s.r.o. 
+Tel: + 420 222 004 Magyarország 
+Mylan EPD Kft. 
+Tel: + 36 1 465 2 
+Danmark 
+Viatris ApS 
+Tlf: +45 28 11 69<br />
+Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01<br />
+Deutschland 
+Viatris Healthcare GmbH 
+Tel: + 49- 800 0700<br />
+Nederland 
+Mylan BV 
+Tel: +31 (0)20 426 3Eesti 
+BGP Products Switzerland GmbH Eesti 
+filiaal<br />
+Tel: + 372 6363<br />
+Norge 
+Viatris AS 
+Tlf: + 47 66 75 33<br />
+Ελλάδα<br />
+Generics Pharma Hellas ΕΠΕ<br />
+Τηλ: +30 210 993 6410  </p>
+<p>Österreich 
+Arcana Arzneimittel GmbH 
+Tel: +43 1 416 2 
+España 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102<br />
+Polska 
+Mylan Healthcare Sp. z o.o. 
+Tel: + 48 22 546 64<br />
+France 
+Viatris Santé 
+Tél: +33 4 37 25 75<br />
+Portugal 
+Mylan, Lda. 
+Tel: + 351 21 412 72<br />
+Hrvatska 
+Mylan Hrvatska d.o.o. 
+Tel: +385 1 23 50 <br />
+România 
+BGP Products SRL 
+Tel: +40 372 579<br />
+Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711 
+Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63<br />
+Ísland 
+Icepharma hf. 
+Sími: +354 540 8 
+Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199 Italia 
+Mylan Italia S.r.l. 
+Tel: + 39 02 612 46 
+Suomi/Finland 
+Viatris Oy 
+Puh/Tel: +358 20 720 9 
+Κύπρος 
+Varnavas Hadjipanayis Ltd 
+Τηλ: +357 2220 7 
+Sverige 
+Viatris AB<br />
+Tel: +46 (0) 8 630 19<br />
+Latvija 
+Mylan Healthcare SIA<br />
+Tel: +371 676 055<br />
+United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: +353 18711 
+Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -862,6 +1299,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-0765874a313ce115023e01847b82b59e"
 * entry[0].resource = composition-da-0765874a313ce115023e01847b82b59e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0765874a313ce115023e01847b82b59e"
+* entry[=].resource = mp0765874a313ce115023e01847b82b59e
+                            
+                    
+Instance: bundlepackageleaflet-pt-0765874a313ce115023e01847b82b59e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for arsenic Package Leaflet for language pt"
+Description: "ePI document Bundle for arsenic Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-0765874a313ce115023e01847b82b59e"
+* entry[0].resource = composition-pt-0765874a313ce115023e01847b82b59e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp0765874a313ce115023e01847b82b59e"
@@ -963,6 +1422,18 @@ RuleSet: 0765874a313ce115023e01847b82b59eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-0765874a313ce115023e01847b82b59e) // arsenic pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -896,6 +896,451 @@ sprøjtepumpe (ml)
 
 
 
+Instance: composition-pt-f8c48790000bbf9d78cfcb64c3c5a1ee
+InstanceOf: CompositionUvEpi
+Title: "Composition for xydalba Package Leaflet"
+Description:  "Composition for xydalba Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf8c48790000bbf9d78cfcb64c3c5a1ee)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - xydalba"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Xydalba e para que é utilizado 
+2. O que precisa de saber antes de utilizar Xydalba 
+3. Como utilizar Xydalba 
+4. Efeitos secundários possíveis 
+5. Como conservar Xydalba 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é xydalba e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é xydalba e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xydalba contém a substância ativa dalbavancina, que é um antibiótico do grupo de glicopeptídeos. </p>
+<p>Xydalba é utilizado para tratar adultos e crianças com mais de 3 meses de idade com infeções da 
+pele ou das suas camadas mais profundas. </p>
+<p>Xydalba atua por eliminação de certas bactérias, que podem causar infeções graves. Mata essas 
+bactérias interferindo na formação das paredes das células bacterianas. </p>
+<p>Se também tiver outras bactérias que provoquem infeção, o seu médico pode decidir tratá-lo com 
+outros antibióticos além de Xydalba. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar xydalba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar xydalba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Xydalba: 
+- se tem alergia à dalbavancina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Xydalba: </p>
+<ul>
+<li>
+<p>Se tiver atualmente ou já teve problemas renais. Dependendo da sua idade e do estado 
+dos seus rins, o seu médico pode ter de reduzir a sua dose. </p>
+</li>
+<li>
+<p>Se sofrer de diarreia ou teve diarreia durante um tratamento com antibióticos. </p>
+</li>
+<li>
+<p>Se for alérgico a outros antibióticos como vancomicina ou teicoplanina. </p>
+</li>
+</ul>
+<p>Diarreia durante ou após o tratamento </p>
+<p>Se tiver diarreia durante ou após o seu tratamento, fale com o seu médico de imediato. Não tome 
+medicamentos para tratar a diarreia sem falar primeiro com o seu médico. </p>
+<p>Reações relacionadas com a perfusão </p>
+<p>Perfusões intravenosas com estes tipos de antibióticos podem provocar vermelhidão na parte superior 
+do corpo, urticária, comichão e/ou erupção da pele. Se sentir estes tipos de reações, o seu médico pode 
+optar por parar ou abrandar a perfusão. </p>
+<p>Outras infeções </p>
+<p>Por vezes, utilizar antibióticos pode permitir o desenvolvimento de infeções novas e diferentes. Se isso 
+acontecer, informe o seu médico, que decidirá o que fazer. </p>
+<p>Crianças </p>
+<p>Não administre este medicamento a crianças com menos de 3 meses. A utilização de Xydalba em 
+crianças com menos de 3 meses não foi estudada suficientemente. </p>
+<p>Outros medicamentos e Xydalba </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar qualquer outro medicamento. </p>
+<p>Gravidez e amamentação  </p>
+<p>Xydalba não é recomendado durante a gravidez, exceto em casos absolutamente imperativos. 
+Desconhece-se o efeito que pode ter no feto. Se está grávida ou a amamentar, se pensa estar 
+grávida ou planeia engravidar, consulte o seu médico antes de tomar este medicamento. Juntamente 
+com o seu médico, decidirá se receberá Xydalba. </p>
+<p>Desconhece-se se Xydalba passa para o leite materno em humanos. Solicite aconselhamento ao seu 
+médico antes de amamentar o seu bebé. Juntamente com o seu médico, decidirá se receberá Xydalba. 
+Não deverá amamentar enquanto estiver a receber Xydalba. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Xydalba pode provocar tonturas. Tenha cuidado ao conduzir veículos e ao utilizar máquinas se tiver 
+recebido este medicamento. </p>
+<p>Xydalba contém sódio </p>
+<p>Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente ‘isento 
+de sódio’. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar xydalba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar xydalba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xydalba ser-lhe-á administrado por um médico ou enfermeiro. </p>
+<ul>
+<li>
+<p>Adultos: Xydalba é administrado em dose única de 1500 mg ou em duas doses com uma semana 
+de intervalo: 1.000 mg no dia 1 e 500 mg no dia 8.  </p>
+</li>
+<li>
+<p>Crianças e adolescentes entre os 6 anos e 18 anos de idade: Xydalba é administrado em dose 
+única de 18 mg/kg (1500 mg no máximo). </p>
+</li>
+<li>
+<p>Lactentes e crianças entre os 3 meses e 6 anos de idade: Xydalba é administrado em dose </p>
+</li>
+</ul>
+<p>única de 22,5 mg/kg (1500 mg no máximo). </p>
+<p>A dose para crianças com 3 meses a menos de 18 anos de idade será calculada pelo médico com base 
+na idade e no peso da criança. </p>
+<p>Receberá Xydalba diretamente na corrente sanguínea através de uma veia (via intravenosa) durante 
+30 minutos. </p>
+<p>Doentes com problemas renais crónicos </p>
+<p>Se sofrer de problemas renais crónicos, o seu médico pode optar por reduzir a sua dose. Não existem 
+informações suficientes para recomendar a utilização de Xydalba em crianças com problemas renais 
+crónicos. </p>
+<p>Se utilizar mais Xydalba do que deveria </p>
+<p>Informe de imediato o seu médico ou enfermeiro se considerar que pode ter recebido demasiado 
+Xydalba. </p>
+<p>Se falhar uma dose de Xydalba </p>
+<p>Informe de imediato o seu médico ou enfermeiro se falhar a segunda dose. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, informe-se junto do seu médico, 
+farmacêutico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Informe de imediato o seu médico se apresentar algum destes sintomas - pode precisar de 
+atenção médica urgente: </p>
+<ul>
+<li>
+<p>Inchaço repentino dos lábios, rosto, garganta ou língua, erupção da pele grave, 
+comichão, aperto na garganta, diminuição da pressão arterial, dificuldade em 
+engolir e/ou dificuldade em respirar. Todos podem ser sinais de uma reação de 
+hipersensibilidade e podem representar risco de vida. Esta reação grave foi notificada 
+como um efeito secundário raro. Pode afetar 1 em cada 1.000 pessoas. </p>
+</li>
+<li>
+<p>Dor abdominal (dor de estômago) e/ou diarreia líquida. Os sintomas podem tornar-se 
+graves ou podem não desaparecer e as fezes podem conter sangue ou muco. Podem ser 
+sinais de infeção no intestino. Nesta situação, não deve tomar medicamentos que parem 
+ou abrandem a frequência de evacuações. A infeção do intestino foi notificada como um 
+efeito secundário pouco frequente. Pode afetar 1 em cada 100 pessoas. </p>
+</li>
+<li>
+<p>Alterações na audição. Foi notificado como um efeito secundário com um medicamento 
+semelhante. Desconhece-se a sua frequência. Não é possível estimar a frequência com 
+base nos dados disponíveis.  </p>
+</li>
+</ul>
+<p>Em seguida, encontram-se outros efeitos indesejáveis notificados com Xydalba. </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro se apresentar algum dos seguintes efeitos 
+indesejáveis: </p>
+<p>Frequentes - podem afetar até 1 pessoa em 10: </p>
+<ul>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Mau estar (náuseas)  </p>
+</li>
+<li>
+<p>Diarreia  </p>
+</li>
+</ul>
+<p>Pouco frequentes - podem afetar até 1 pessoa em 100: </p>
+<ul>
+<li>
+<p>Infeções vaginais, infeções fúngicas, cândida oral  </p>
+</li>
+<li>
+<p>Infeções no trato urinário </p>
+</li>
+<li>
+<p>Anemia (níveis baixos de glóbulos vermelhos no sangue), contagem elevada de plaquetas 
+no sangue (trombocitose), aumento da contagem de um tipo de glóbulos brancos no 
+sangue denominados eosinófilos (eosinofilia), níveis baixos de outros tipos de glóbulos 
+brancos (leucopenia, neutropenia) </p>
+</li>
+<li>
+<p>Alterações noutras análises ao sangue </p>
+</li>
+<li>
+<p>Diminuição do apetite </p>
+</li>
+<li>
+<p>Dificuldade em dormir  </p>
+</li>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Alterações no paladar </p>
+</li>
+<li>
+<p>Inflamação e inchaço das veias à superfície, vermelhidão </p>
+</li>
+<li>
+<p>Tosse </p>
+</li>
+<li>
+<p>Dor e desconforto abdominais, indigestão, obstipação  </p>
+</li>
+<li>
+<p>Teste da função hepática anómalo </p>
+</li>
+<li>
+<p>Aumento da fosfatase alcalina (uma enzima encontrada no corpo) </p>
+</li>
+<li>
+<p>Comichão, urticária </p>
+</li>
+<li>
+<p>Comichão genital (mulheres) </p>
+</li>
+<li>
+<p>Dor, vermelhidão ou inchaço no local onde a perfusão foi administrada </p>
+</li>
+<li>
+<p>Sensação de calor  </p>
+</li>
+<li>
+<p>Aumento dos níveis de gamaglutamil transferase no sangue (uma enzima produzida pelo 
+fígado e outros tecidos corporais) </p>
+</li>
+<li>
+<p>Erupção da pele  </p>
+</li>
+<li>
+<p>Mau estar (vómitos) </p>
+</li>
+</ul>
+<p>Raros - podem afetar até 1 pessoa em 1.000: </p>
+<ul>
+<li>Dificuldade em respirar (broncoespasmo) </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também pode comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+relatar efeitos indesejáveis, pode ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar xydalba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar xydalba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mantenha este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco para injetáveis após VAL.O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não requer condições especiais de conservação se for mantido fechado no recipiente 
+original. </p>
+<p>A solução preparada de Xydalba para perfusão não deve ser utilizada se existirem partículas ou se 
+a solução estiver turva. </p>
+<p>Xydalba destina-se a uma única utilização. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza.Estas medidas ajudarão a proteger o 
+ambiente.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Xydalba </p>
+<ul>
+<li>
+<p>A substância ativa é dalbavancina. Cada frasco para injetáveis de pó contém cloridrato de 
+dalbavancina equivalente a 500 mg de dalbavancina. </p>
+</li>
+<li>
+<p>Os outros componentes são manitol (E421), lactose mono-hidratada, ácido clorídrico e/ou 
+hidróxido de sódio (apenas para ajuste do pH). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Xydalba e conteúdo da embalagem </p>
+<p>É fornecido Xydalba pó para concentrado para solução para perfusão num frasco para injetáveis de 
+vidro de 48 ml com um vedante verde do tipo “flip-off". O frasco contém pó branco a esbranquiçado a 
+amarelo pálido. 
+Está disponível em embalagens com 1 frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>AbbVie Deutschland GmbH &amp; Co. KG <br />
+Knollstraße <br />
+67061 Ludwigshafen <br />
+Alemanha  </p>
+<p>Fabricante </p>
+<p>Almac Pharma Services (Irlanda) Limited 
+Finnabair Industrial Estate,<br />
+Dundalk,<br />
+Co. Louth, A91 P9KD, Irlanda </p>
+<p>Almac Pharma Services Ltd 
+Seagoe Industrial Estate, Craigavon, Country Armagh BT63 5UA 
+Reino Unido </p>
+<p>Aziende Chimiche Riunite Angelini Francesco A.C.R.A.F. S.p.A. 
+Via Vecchia del Pinocchio, 60100 Ancona 
+Itália </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Advanz Pharma Belgium 
+Tél/Tel: +32 (0)800 78 medicalinformation@advanzpharma.com 
+Lietuva 
+Angelini Pharma S.p.A 
+Tel: + 39 06 78 0 </p>
+<p>България 
+Анджелини Фарма България ЕООД 
+Teл.: +359 2 9751office@angelini.bg </p>
+<p>Luxembourg/Luxemburg 
+Correvio 
+Tél/Tel: +44 (0)208 588 9medicalinformation@advanzpharma.com </p>
+<p>Česká republika 
+Angelini Pharma Česká republika s.r.o.<br />
+Tel: +420 546 123 111<br />
+info@angelini.cz 
+Magyarország 
+Angelini Pharma Magyarország Kft 
+Tel: + 36 1 336 1drugsafety@angelini.hu<br />
+Danmark 
+Correvio 
+Tlf: +45 8082 6medicalinformation@advanzpharma.com </p>
+<p>Malta 
+Correvio 
+Tel: +44 (0)208 588 9medicalinformation@advanzpharma.com 
+Deutschland 
+Advanz Pharma Germany GmbH<br />
+Tel: +49 (0)800 1802 medicalinformation@advanzpharma.com </p>
+<p>Nederland 
+Correvio 
+Tel: +31 (0)20 808 32 medicalinformation@advanzpharma.com 
+Eesti 
+Angelini Pharma S.p.A <br />
+Tel: + 39 06 78 0 </p>
+<p>Norge 
+Correvio 
+Tlf: +44 (0)208 588 9medicalinformation@advanzpharma.com 
+Ελλάδα 
+ANGELINI PHARMA HELLAS A.B.E.E. 
+Τηλ: + 30 210 626 9info@angelinipharma.gr 
+Österreich 
+Angelini Pharma Österreich GmbH 
+Tel: + 43 5 9606 0 
+office@angelini.at </p>
+<p>España 
+ANGELINI PHARMA ESPAÑA, S.L. 
+Tel: + 34 93 253 45  </p>
+<p>Polska 
+Angelini Pharma Polska Sp. z o.o. 
+Tel.: +48 22 70 28 angelini@angelini.pl </p>
+<p>France 
+Correvio SAS 
+Tél: +33 (0)1 77 68 89 medicalinformation@advanzpharma.com 
+Portugal 
+AbbVie, Lda. 
+Tel: +351 (0)21 1908 </p>
+<p>Hrvatska 
+Angelini Pharma S.p.A 
+Tel: + 39 06 78 0 
+România 
+Angelini Pharmaceuticals România SRL 
+Tel: + 40 21 331 6office@angelini.ro </p>
+<p>Ireland 
+Correvio 
+Tel: +352 1800 851 medicalinformation@advanzpharma.com </p>
+<p>Slovenija 
+Angelini Pharma S.p.A 
+Tel: + 39 06 78 0531  </p>
+<p>Ísland 
+Correvio 
+Sími: +44 (0)208 588 9medicalinformation@advanzpharma.com 
+Slovenská republika 
+Angelini Pharma Slovenská republika s.r.o.<br />
+Tel: + 421 2 59 207 office@angelini.sk </p>
+<p>Italia 
+Angelini Pharma S.p.A 
+Tel: +39 06 780 </p>
+<p>Suomi/Finland 
+Correvio 
+Puh/Tel: +44 (0)208 588 9medicalinformation@advanzpharma.com </p>
+<p>Κύπρος 
+ANGELINI PHARMA HELLAS A.B.E.E. 
+Τηλ: + 30 210 626 9info@angelinipharma.gr 
+Sverige 
+Correvio 
+Tel: +46 (0)20 088 02 medicalinformation@advanzpharma.com </p>
+<p>Latvija 
+Angelini Pharma S.p.A<br />
+Tel: + 39 06 78 0 </p>
+<p>United Kingdom (Northern Ireland) 
+Mercury Pharmaceuticals Limited 
+Tel: +44 (0)208 588 9medicalinformation@advanzpharma.com </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -937,6 +1382,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-f8c48790000bbf9d78cfcb64c3c5a1ee"
 * entry[0].resource = composition-da-f8c48790000bbf9d78cfcb64c3c5a1ee
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf8c48790000bbf9d78cfcb64c3c5a1ee"
+* entry[=].resource = mpf8c48790000bbf9d78cfcb64c3c5a1ee
+                            
+                    
+Instance: bundlepackageleaflet-pt-f8c48790000bbf9d78cfcb64c3c5a1ee
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xydalba Package Leaflet for language pt"
+Description: "ePI document Bundle for xydalba Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-f8c48790000bbf9d78cfcb64c3c5a1ee"
+* entry[0].resource = composition-pt-f8c48790000bbf9d78cfcb64c3c5a1ee
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpf8c48790000bbf9d78cfcb64c3c5a1ee"
@@ -1038,6 +1505,18 @@ RuleSet: f8c48790000bbf9d78cfcb64c3c5a1eeListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-f8c48790000bbf9d78cfcb64c3c5a1ee) // xydalba pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

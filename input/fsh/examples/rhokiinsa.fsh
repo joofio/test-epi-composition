@@ -627,6 +627,343 @@ hjemmeside: http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-1dfe892dc67968025b224d593ef39db2
+InstanceOf: CompositionUvEpi
+Title: "Composition for rhokiinsa Package Leaflet"
+Description:  "Composition for rhokiinsa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1dfe892dc67968025b224d593ef39db2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - rhokiinsa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Rhokiinsa e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Rhokiinsa </li>
+<li>Como utilizar Rhokiinsa </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Rhokiinsa </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é rhokiinsa e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é rhokiinsa e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rhokiinsa contém uma substância ativa chamada netarsudil. Netarsudil pertence a um grupo de 
+medicamentos chamados "inibidores da quinase Rho", que  atuam reduzindo a quantidade de fluido 
+dentro do olho e, assim, diminuindo a sua pressão. </p>
+<p>Rhokiinsa é utilizado para diminuir a pressão nos olhos em adultos que tenham uma condição ocular 
+conhecida como glaucoma ou que tenham pressão aumentada nos olhos. Se a pressão no olho for 
+muito alta, pode danificar a sua visão. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar rhokiinsa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar rhokiinsa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Rhokiinsa: 
+- se tem alergia ao netarsudil ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções 
+ 
+Não utilize Rhokiinsa mais do que uma vez por dia, uma vez que poderá sentir mais efeitos 
+indesejáveis. </p>
+<p>Crianças e adolescentes 
+Rhokiinsa não deve ser utilizado em crianças e adolescentes com idade inferior a 18 anos, uma vez que 
+só foi estudado em adultos. </p>
+<p>Outros medicamentos e Rhokiinsa 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. Não utilize Rhokiinsa se estiver grávida, a não ser 
+que o seu médico o recomende. </p>
+<p>Condução de veículos e utilização de máquinas 
+Poderá sentir que a sua visão está turva ou alterada  logo após o uso de Rhokiinsa. Não conduza nem 
+utilize máquinas até que os sintomas tenham desaparecido. </p>
+<p>Rhokiinsa contém cloreto de benzalcónio 
+Este medicamento contém aproximadamente 150 microgramas de cloreto de benzalcónio em cada ml 
+de solução. </p>
+<p>O cloreto de benzalcónio pode ser absorvido por lentes de contacto moles e pode alterar a cor das 
+lentes de contacto. Deve remover  as lentes de contacto antes da utilização deste medicamento e voltar 
+a colocá-las após 15 minutos. </p>
+<p>O cloreto de benzalcónio também pode causar irritação nos olhos, especialmente se tem os olhos secos 
+ou alteraçõesda córnea (a camada transparente na parte da frente do olho).  Se sentir uma sensação 
+estranha no olho, picadas ou dor no olho após utilizar este medicamento, fale com o seu médico. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar rhokiinsa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar rhokiinsa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Consulte o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Utilize Rhokiinsa apenas para os seus olhos (uso oftálmico). Não engula nem injete. </p>
+<p>A dose recomendada é uma gota no(s) olho(s) afetado(s) uma vez por dia à noite. Utilize o 
+medicamento à mesma hora todos os dias. </p>
+<p>Como utilizar </p>
+<p> 
+Antes de começar, lave as mãos. 
+ 
+Não toque no conta-gotas com os seus dedos quando abrir ou fechar o frasco. Isso poderá infetar 
+as gotas. 
+ 
+Torça a tampa do frasco e coloque a tampa numa superfície limpa, de lado. Continue a segurar 
+no frasco, assegurando-se de que a ponta não entra em contacto com nada. 
+ 
+Segure no frasco, virado para baixo, entre o seu polegar e os outros dedos. 
+ 
+Incline a cabeça para trás. 
+ 
+Puxe para baixo a pálpebra inferior com um dedo limpo para formar uma “bolsa" entre a 
+pálpebra e o olho. A gota entrará aqui (imagem 1). 
+ 
+Aproxime a ponta do frasco do olho. Se ajudar, faça isto em frente a um espelho. 
+ 
+Não toque no olho, na pálpebra, nas áreas envolventes ou noutras superfícies com o conta-gotas. 
+Isso poderá infetar as gotas. 
+ 
+Aperte ligeiramente o frasco para libertar uma gota de Rhokiinsa no olho. 
+ 
+Coloque apenas uma gota de cada vez no olho. Se uma gota não cair no olho, tente novamente. 
+ 
+Se necessitar de usar as gotas em ambos os olhos, repita os passos para o outro olho enquanto 
+tiver o frasco aberto. 
+ 
+Coloque novamente a tampa para fechar o frasco. </p>
+<p>Se estiver a usar outros colírios, aguarde pelo menos cinco minutos após usá-los e, em seguida, use 
+Rhokiinsa. Se estiver a utilizar pomadas oftálmicas, deverá usá-las em último lugar. </p>
+<p>Se utilizar mais Rhokiinsa do que deveria 
+Lave o olho com água morna. Não coloque mais gotas antes da hora da sua dose normal seguinte. </p>
+<p>Caso se tenha esquecido de utilizar Rhokiinsa 
+Continue com a dose seguinte conforme planeado. Não utilize uma dose a dobrar para compensar uma 
+dose que se esqueceu de aplicar. 
+Não utilize mais do que uma gota no(s) olho(s) afetado(s) uma vez por dia. </p>
+<p>Se parar de utilizar Rhokiinsa 
+Não pare de utilizar Rhokiinsa sem consultar primeiro o seu médico. Se parar de utilizar Rhokiinsa a 
+pressão no olho não será controlada, o que poderá resultar em perda de visão. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Observaram-se os efeitos indesejáveis seguintes com Rhokiinsa: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas) 
+ 
+Efeitos no olho: Vermelhidão do olho; depósitos finos na parte da frente do olho e dor no local 
+de aplicação das gotas </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas) 
+ 
+Efeitos no olho: Infeção ou inflamação do olho; secura do olho ou pequenas ruturas na película 
+de líquido na superfície do olho; corrimento ocular; comichão nas pálpebras; a turvação do olho 
+e a visão podem diminuir um pouco; dor ocular; sensação de poeira ou ter algo no olho; 
+vermelhidão ocular geral logo após a colocação das gotas; manchas ou zonas de vermelhidão 
+ocular; inflamação ocular causada por uma reação alérgica ou vasos sanguíneos proeminentes; os 
+olhos podem tornar-se lacrimejantes, sensíveis à luz; inchaço ao redor do olho; visão turva 
+ 
+Efeitos indesejáveis gerais: Dor de cabeça </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas) 
+ 
+Efeitos no olho: Aumento da pressão do fluido no interior do olho; inflamação da parte colorida 
+do olho (a íris); abaulamento da íris; crescimento das pálpebras; secura das pálpebras; doença 
+ocular relacionada com a diabetes; excesso de dobras da conjuntiva; cegueira; visão turva, visão 
+dupla e halos; cataratas; viragem anormal para fora da pálpebra inferior; pequenos pontos 
+coloridos na superfície do olho; secura ocular causada por inflamação das glândulas das 
+pálpebras; alergia ocular; crosta na pálpebra; olhos vítreos; perda de pestanas; fadiga 
+ 
+Efeitos indesejáveis gerais: Sintomas alérgicos intensificados; tonturas; visão turva; desconforto 
+e dor nasal; vermelhidão ou comichão  na pele; eritema na pele; inflamação da cartilagem; 
+dermatotilexomania </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar rhokiinsa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar rhokiinsa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Frascos não abertos: Conservar no frigorífico (2 °C - 8 °C). 
+Após abrir o frasco: Não conservar acima de 25 °C. 
+Deite fora o frasco 4 semanas após a primeira abertura para evitar infeções e utilize um frasco novo. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Rhokiinsa 
+- A substância ativa é o netarsudil. Cada ml de solução contém 200 microgramas de netarsudil 
+(como mesilato). 
+- Os outros excipientes são o cloreto de benzalcónio (ver secção 2 em “Rhokiinsa contém cloreto 
+de benzalcónio"), manitol, ácido bórico, hidróxido de sódio e água para preparações injetáveis. </p>
+<p>Qual o aspeto de Rhokiinsa e conteúdo da embalagem 
+Rhokiinsa é uma solução de gotas oftálmicas líquida e transparente num frasco de plástico. Cada frasco 
+contém 2,5 ml do medicamento e cada embalagem contém um frasco com tampa de rosca. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Santen Oy 
+Niittyhaankatu 20, 
+33720 Tampere, 
+Finlândia </p>
+<p>Fabricante 
+Santen Oy 
+Kelloportinkatu 1,<br />
+33100 Tampere,<br />
+Finlândia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Santen Oy 
+Tél/Tel: +32 (0) 24019Lietuva 
+Santen Oy 
+Tel: +370 37 366 
+България 
+Santen Oy 
+Teл.: +359 (0) 888 755 393<br />
+Luxembourg/Luxemburg 
+Santen Oy 
+Tél/Tel: +352 (0) 27862 
+Česká republika 
+Santen Oy 
+Tel: +358 (0) 3 284 8Magyarország 
+Santen Oy 
+Tel: +358 (0) 3 284 8 
+Danmark 
+Santen Oy<br />
+Tlf: +45 898 713 Malta 
+Santen Oy<br />
+Tel: + 358 (0) 3 284 8 
+Deutschland 
+Santen GmbH                                                                    <br />
+Tel: +49 (0) 3030809610                                      <br />
+Nederland 
+Santen Oy<br />
+Tel: +31 (0) 207139 
+Eesti 
+Santen Oy<br />
+Tel: +372 5067Norge 
+Santen Oy 
+Tlf: +47 21939 
+Ελλάδα 
+Santen Oy<br />
+Τηλ: +358 (0) 3 284 8111  </p>
+<p>Österreich 
+Santen Oy 
+Tel: +43 (0) 720116España 
+Santen Pharmaceutical Spain S.L. 
+Tel: +34 914 142 485                                                   </p>
+<p>Polska 
+Santen Oy<br />
+Tel.: +48(0) 221042 
+France 
+Santen S.A.S. 
+Tél: +33 (0) 1 70 75 26 84       </p>
+<p>Portugal 
+Santen Oy 
+Tel: +351 308 805<br />
+Hrvatska 
+Santen Oy 
+Tel: + 358 (0) 3 284 8 
+Ireland 
+Santen Oy </p>
+<p>Tel: +353 (0) 16950 
+România 
+Santen Oy<br />
+Tel: +358 (0) 3 284 8 
+Slovenija 
+Santen Oy 
+Tel: +358 (0) 3 284 8 
+Ísland 
+Santen Oy 
+Sími: +358 (0) 3 284 8 
+Slovenská republika 
+Santen Oy<br />
+Tel: +358 (0) 3 284 8Italia 
+Santen Italy S.r.l. 
+Tel: +39 0236009 </p>
+<p>Suomi/Finland 
+Santen Oy 
+Puh/Tel: +358 (0) 974790Κύπρος 
+Santen Oy<br />
+Τηλ: +358 (0) 3 284 8 
+Sverige 
+Santen Oy<br />
+Tel: +46 (0) 850598833<br />
+Latvija 
+Santen Oy<br />
+Tel: +371 677 917 United Kingdom (Northern Ireland) 
+SantenOy </p>
+<p>Tel: +353 (0) 169 500 (UK Tel: + 44 (0) 345 075 4863) </p>
+<p>Este folheto foi revisto pela última vez em . </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -668,6 +1005,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-1dfe892dc67968025b224d593ef39db2"
 * entry[0].resource = composition-da-1dfe892dc67968025b224d593ef39db2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1dfe892dc67968025b224d593ef39db2"
+* entry[=].resource = mp1dfe892dc67968025b224d593ef39db2
+                            
+                    
+Instance: bundlepackageleaflet-pt-1dfe892dc67968025b224d593ef39db2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rhokiinsa Package Leaflet for language pt"
+Description: "ePI document Bundle for rhokiinsa Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-1dfe892dc67968025b224d593ef39db2"
+* entry[0].resource = composition-pt-1dfe892dc67968025b224d593ef39db2
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp1dfe892dc67968025b224d593ef39db2"
@@ -769,6 +1128,18 @@ RuleSet: 1dfe892dc67968025b224d593ef39db2ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-1dfe892dc67968025b224d593ef39db2) // rhokiinsa pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

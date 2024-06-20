@@ -1065,6 +1065,531 @@ får bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. </p> 
 
 
 
+Instance: composition-pt-061484b9147260e88c643074459451f5
+InstanceOf: CompositionUvEpi
+Title: "Composition for cresemba Package Leaflet"
+Description:  "Composition for cresemba Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp061484b9147260e88c643074459451f5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - cresemba"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Cresemba e para que é utilizado 
+2. O que precisa de saber antes de utilizar Cresemba
+3. Como utilizar Cresemba
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Cresemba 
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é cresemba e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é cresemba e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Cresemba
+Cresemba é um medicamento antifúngico que contém a substância ativa isavuconazol. 
+Modo de atuação de Cresemba
+O isavuconazol atua ao matar ou ao impedir o crescimento do fungo, que causa a infeção.
+Para que é utilizado Cresemba
+Cresemba é utilizado em adultos para tratar as seguintes infeções fúngicas:
+-
+aspergilose invasiva, causada por um fungo do grupo Aspergillus; 
+-
+mucormicose, causada por um fungo que pertence ao grupo Mucorales, em doentes para os 
+quais o tratamento com anfotericina B não é apropriado.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar cresemba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar cresemba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não utilize Cresemba</h2>
+<p>se tem alergia ao isavuconazol ou a qualquer outro componente deste medicamento (indicados 
+na secção 6);
+-
+se tem um problema cardíaco denominado Síndrome do QT curto familiar;
+-
+se está a tomar algum dos seguintes medicamentos:
+-
+cetoconazol, utilizado para infeções fúngicas;
+-
+doses elevadas de ritonavir (mais de 200 mg a cada 12 horas), utilizado para o VIH;
+-
+rifampicina, rifabutina, utilizadas para a tuberculose;
+-
+carbamazepina, utilizada para a epilepsia;
+-
+medicamentos barbitúricos como o fenobarbital, utilizado para a epilepsia e 
+perturbações do sono;
+-
+fenitoína, utilizada para a epilepsia;
+-
+hipericão, uma planta medicinal utilizada para a depressão;
+-
+efavirenz, etravirina, utilizados para o VIH;
+-
+nafcilina, utilizada para infeções bacterianas.
+Advertências e precauções 
+58
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Cresemba:
+-
+se já teve, no passado, alguma reação alérgica a outros tratamentos antifúngicos azólicos, tais 
+como o cetoconazol, o fluconazol, o itraconazol, o voriconazol ou o posaconazol;
+-
+se sofre de doença do fígado grave. Deverá ser monitorizado pelo seu médico para efeitos 
+indesejáveis possíveis.
+Esteja atento aos efeitos indesejáveis
+Interrompa a utilização de Cresemba e informe o seu médico imediatamente se observar 
+algum dos seguintes efeitos indesejáveis:
+- pieira súbita, dificuldade em respirar, inchaço da face, lábios, boca ou língua, comichão 
+intensa, transpiração, tonturas ou desmaios, batimento cardíaco rápido ou palpitações - estes 
+podem ser sinais de uma reação alérgica grave (anafilaxia).
+Problemas durante a perfusão de Cresemba numa veia
+Informe o seu médico imediatamente se observar algum dos seguintes efeitos indesejáveis:
+-
+tensão baixa, falta de ar, náuseas, tonturas, cefaleias, formigueiro - o seu médico poderá 
+decidir interromper a perfusão.
+Alterações na sua função hepática
+Cresemba pode, por vezes, afetar o funcionamento do fígado. O seu médico poderá pedir-lhe 
+que faça análises ao sangue enquanto estiver a tomar este medicamento. 
+Problemas na pele
+Informe imediatamente o seu médico se observar o empolamento grave da pele, boca, olhos ou 
+órgãos genitais.
+Crianças e adolescentes
+Cresemba não deve ser utilizado em crianças nem em adolescentes com menos de 18 anos porque não 
+existe informação sobre a utilização nesta faixa etária.
+Outros medicamentos e Cresemba
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Alguns medicamentos podem afetar a atuação de Cresemba, ou Cresemba 
+pode afetar a sua atuação, se forem tomados ao mesmo tempo.
+Em particular, não tome este medicamento e informe imediatamente o seu médico ou farmacêutico se 
+estiver a tomar algum dos seguintes medicamentos:
+-
+cetoconazol, utilizado para infeções fúngicas;
+-
+doses elevadas de ritonavir (mais de 200 mg a cada 12 horas), utilizado para o VIH;
+-
+rifampicina, rifabutina, utilizadas para a tuberculose;
+-
+carbamazepina, utilizada para a epilepsia;
+-
+medicamentos barbitúricos como o fenobarbital, utilizado para a epilepsia e perturbações do 
+sono;
+-
+fenitoína, utilizada para a epilepsia;
+-
+hipericão, uma planta medicinal utilizada para a depressão;
+-
+efavirenz, etravirina, utilizados para o VIH;
+-
+nafcilina, utilizada para infeções bacterianas.
+A menos que o seu médico lhe dê indicações em contrário, não tome este medicamento e informe 
+imediatamente o seu médico ou farmacêutico se estiver a tomar algum dos seguintes medicamentos: 
+-
+rufinamida ou outros medicamentos que diminuam o intervalo QT no traçado cardíaco (ECG);
+-
+aprepitant, utilizado para prevenir náuseas e vómitos no tratamento do cancro; 
+-
+prednisona, utilizada para a artrite reumatoide;
+-
+pioglitazona, utilizada para a diabetes.
+59
+Informe o seu médico ou farmacêutico se estiver a tomar algum dos seguintes medicamentos, uma vez 
+que poderá ser necessário ajustar a dose ou monitorizar se os medicamentos continuam a ter o efeito 
+desejado: 
+-
+ciclosporina, tacrolímus e sirolímus, utilizados para prevenir a rejeição de um transplante;
+-
+ciclofosfamida, utilizada para o cancro;
+-
+digoxina, utilizada para tratar a insuficiência cardíaca ou batimentos cardíacos irregulares;
+-
+colquicina, utilizada para tratar um ataque de gota;
+-
+dabigatrano etexilato, utilizado para impedir a formação de coágulos de sangue após a 
+implantação de prótese na anca ou no joelho;
+-
+claritromicina, utilizada para infeções bacterianas;
+-
+saquinavir, fosamprenavir, indinavir, nevirapina, combinação de lopinavir/ritonavir, utilizados 
+para o VIH;
+-
+alfentanilo, fentanilo, utilizados contra a dor forte;
+-
+vincristina, vinblastina, utilizadas para o cancro;
+-
+micofenolato de mofetil (MMF), utilizado em doentes transplantados;
+-
+midazolam, utilizado para o stress e insónias graves;
+-
+bupropiom, utilizado para a depressão;
+-
+metformina, utilizada para a diabetes;
+-
+daunorrubicina, doxorrubicina, imatinib, irinotecano, lapatinib, mitoxantrona, topotecano, 
+utilizados para diferentes tipos de cancro.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de utilizar este medicamento.
+Não tome Cresemba se estiver grávida, a não ser que o seu médico lhe dê indicações em contrário, 
+uma vez que não se sabe se este medicamento pode ou não afetar ou prejudicar o seu bebé por nascer. 
+Não amamente se estiver a tomar Cresemba. 
+Condução de veículos e utilização de máquinas
+Cresemba pode fazê-lo sentir-se confuso, cansado ou sonolento. Também pode fazê-lo desmaiar. Por 
+conseguinte, seja muito cuidadoso ao conduzir ou utilizar máquinas.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar cresemba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar cresemba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cresemba ser-lhe-á administrado por um médico ou enfermeiro.
+Dose inicial nos primeiros dois dias (48 horas)
+A dose recomendada é de um frasco para injetáveis a cada 8 horas.
+Dose habitual após os primeiros dois dias
+Esta tem início 12 a 24 horas após a sua última dose inicial. A dose recomendada é de um frasco para 
+injetáveis uma vez por dia.
+Ser-lhe-á dada esta dose até que o seu médico lhe dê indicações em contrário. A duração do tratamento 
+com Cresemba pode ser superior a 6 meses, se o seu médico considerar necessário.
+O frasco ser-lhe-á administrado por perfusão numa veia por um médico ou enfermeiro.
+Se utilizar mais Cresemba do que deveria
+Se pensa que lhe foi administrado demasiado Cresemba, fale com o seu médico ou enfermeiro de 
+imediato. Poderá ter mais efeitos indesejáveis, tais como: 
+-
+dor de cabeça, tonturas, agitação ou sonolência;
+-
+formigueiro, diminuição do sentido de tato ou sensação na boca;
+-
+dificuldade em estar consciente das coisas, afrontamentos, ansiedade, dor nas articulações;
+60
+-
+alterações do paladar, boca seca, diarreia, vómitos;
+-
+sentir o seu coração a bater, ritmo cardíaco mais acelerado, maior sensibilidade à luz.
+Caso se tenha esquecido de utilizar Cresemba
+Uma vez que este medicamento lhe será administrado sob estreita supervisão médica, é improvável 
+que falhe uma dose. Não obstante, informe o seu médico ou enfermeiro se achar que alguma dose foi 
+esquecida.
+Se parar de utilizar Cresemba
+O tratamento com Cresemba continuará pelo tempo que o seu médico lhe indicar. Só assim será 
+possível garantir que a infeção fúngica desapareceu.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Interrompa a utilização de Cresemba e informe o seu médico imediatamente se observar algum 
+dos seguintes efeitos indesejáveis:
+-
+uma reação alérgica grave (anafilaxia), tal como pieira súbita, problemas respiratórios, inchaço 
+da face, lábios, boca ou língua, comichão intensa, transpiração, tonturas ou desmaios, 
+batimento cardíaco rápido ou palpitações. 
+Informe o seu médico imediatamente se observar algum dos seguintes efeitos indesejáveis:
+-
+empolamento grave da pele, boca, olhos ou órgãos genitais.
+Outros efeitos indesejáveis
+Informe o seu médico, farmacêutico ou enfermeiro se observar algum dos seguintes efeitos 
+indesejáveis:
+Frequentes: podem afetar até 1 em 10 pessoas
+-
+níveis baixos de potássio no sangue;
+-
+diminuição do apetite;
+-
+alucinações (delírio);
+-
+dor de cabeça;
+-
+sonolência;
+-
+veias inflamadas que podem causar coágulos de sangue;
+-
+falta de ar ou dificuldade súbita e grave em respirar;
+-
+indisposição (náuseas), enjoo (vómitos), diarreia, dor de estômago;
+-
+alterações nas análises ao sangue da função hepática;
+-
+erupção na pele, comichão; 
+-
+compromisso renal (os sintomas podem incluir inchaço das pernas);
+-
+dor no peito, sensação de cansaço ou sonolência;
+-
+problemas no local onde foi dada a injeção.
+Pouco frequentes: podem afetar até 1 em 100 pessoas
+-
+redução dos glóbulos brancos do sangue - pode aumentar o seu risco de infeção e febre;
+-
+redução das células sanguíneas chamadas plaquetas - pode aumentar o seu risco de hemorragia 
+ou nódoas negras;
+-
+redução dos glóbulos vermelhos do sangue - pode fazê-lo sentir-se fraco ou com falta de ar, ou 
+tornar a sua pele pálida;
+-
+redução grave das células sanguíneas - pode fazê-lo sentir-se fraco, causar nódoas negras ou 
+aumentar a probabilidade de infeções;
+61
+-
+erupção na pele, lábios, boca, língua ou garganta inchados com dificuldade em respirar 
+(hipersensibilidade);
+-
+níveis baixos de açúcar no sangue;
+-
+níveis baixos de magnésio no sangue;
+-
+níveis baixos de uma proteína chamada albumina no sangue;
+-
+não obtenção dos nutrientes necessários da sua dieta (malnutrição);
+-
+depressão, dificuldade em adormecer;
+-
+apoplexia, desmaio ou sensação de fraqueza, tontura;
+-
+sensação de formigueiro, comichão ou picadas na pele (parestesia);
+-
+estado mental alterado (encefalopatia); 
+-
+alterações do paladar (disgeusia); 
+-
+sentir-se a andar à roda ou tonto (vertigem);
+-
+problemas com o ritmo cardíaco - pode estar demasiado acelerado ou ter batimentos extra - isto 
+pode aparecer no seu traçado cardíaco (eletrocardiograma ou ECG);
+-
+problemas na circulação sanguínea;
+-
+tensão baixa;
+-
+pieira, respiração muito rápida, tossir sangue ou expetoração com sangue, hemorragia nasal;
+-
+indigestão;
+-
+obstipação;
+-
+sentir-se inchado (distensão abdominal);
+-
+fígado aumentado;
+-
+inflamação do fígado;
+-
+problemas na pele, manchas vermelhas ou roxas na pele (petéquias), pele inflamada (dermatite), 
+perda de cabelo; 
+-
+dor nas costas;
+-
+inchaço das extremidades;
+-
+fraqueza, cansaço extremo ou sonolência ou mal-estar geral.
+Efeitos indesejáveis com frequência desconhecida:
+-
+anafilaxia (uma reação alérgica grave).
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar cresemba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar cresemba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na etiqueta após EXP. O prazo de 
+validade corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2°C a 8°C).
+Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Cresemba</h2>
+<p>A substância ativa é o isavuconazol. Cada frasco para injetáveis contém 372,6 mg de sulfato de 
+62
+isavuconazónio, correspondente a 200 mg de isavuconazol.
+-
+Os outros componentes (excipientes) são manitol (E421) e ácido sulfúrico.
+Qual o aspeto de Cresemba e conteúdo da embalagem
+Cresemba 200 mg é apresentado num frasco para injetáveis de vidro de utilização única sob a forma de 
+pó para concentrado para solução para perfusão.
+Titular da Autorização de Introdução no Mercado:
+Basilea Pharmaceutica Deutschland GmbH
+Marie-Curie-Strasse 8
+79539 Lörrach
+Alemanha
+Fabricante:
+Almac Pharma Services (Ireland) Limited
+Finnabair Industrial Estate
+Dundalk, Co. Louth
+A91 P9KD
+Irlanda
+Almac Pharma Services Limited
+Seagoe Industrial Estate
+Craigavon, Co. Armagh
+BT63 5UA
+Reino Unido (Irlanda do Norte)
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Pfizer SA/NV 
+Tel/Tél: +32 (0)2 554 62 11
+Lietuva 
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. +3705 2514000
+България 
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Luxembourg/Luxemburg
+Pfizer SA/NV
+Tél/Tel: +32 (0)2 554 62 11
+Česká republika
+Pfizer s.r.o.
+Tel: +420-283-004-111
+Magyarország
+Pfizer Kft.
+Tel.: + 36 1 488 37 00
+Danmark
+Unimedic Pharma AB
+Tlf: +46 (0) 10-130 99 50
+Malta
+Vivian Corporation Ltd.
+Tel: +35621 344610
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Norge
+Unimedic Pharma AB
+Tlf: +46 (0) 10-130 99 50
+Ελλάδα 
+Pfizer  ΕΛΛΑΣ A.E.
+Τηλ: +30 210 67 85 800
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+España
+Pfizer S.L.
+Tel: +34 91 490 99 00
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+63
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 40
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+Hrvatska
+Pfizer Croatia d.o.o. 
+Tel: +385 1 3908 777
+România 
+Pfizer România S.R.L.
+Tel: +40 (0) 21 20 728 00
+Ireland
+Pfizer Healthcare Ireland 
+Tel: +1800 633 363 (toll free) 
++44 (0)1304 616161
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel: + 386 (0) 1 52 11 400
+Ísland
+Unimedic Pharma AB
+Sími: +46 (0) 10-130 99 50
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: +421-2-3355 5500
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Suomi/Finland
+Unimedic Pharma AB
+Puh/Tel: +46 (0) 10-130 99 50
+Κύπρος
+Pfizer ΕΛΛΑΣ Α.Ε. (CYPRUS BRANCH)
+Τηλ: +357 22 817690
+Sverige
+Unimedic Pharma AB
+Tel: +46 (0) 10-130 99 50
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: +371 670 35 775
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Este folheto foi revisto pela última vez em 
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1106,6 +1631,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-061484b9147260e88c643074459451f5"
 * entry[0].resource = composition-da-061484b9147260e88c643074459451f5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp061484b9147260e88c643074459451f5"
+* entry[=].resource = mp061484b9147260e88c643074459451f5
+                            
+                    
+Instance: bundlepackageleaflet-pt-061484b9147260e88c643074459451f5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cresemba Package Leaflet for language pt"
+Description: "ePI document Bundle for cresemba Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-061484b9147260e88c643074459451f5"
+* entry[0].resource = composition-pt-061484b9147260e88c643074459451f5
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp061484b9147260e88c643074459451f5"
@@ -1207,6 +1754,18 @@ RuleSet: 061484b9147260e88c643074459451f5ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-061484b9147260e88c643074459451f5) // cresemba pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

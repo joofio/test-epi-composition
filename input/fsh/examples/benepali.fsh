@@ -1335,6 +1335,666 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-c5a54b11d8107e662bc760b43da975c8
+InstanceOf: CompositionUvEpi
+Title: "Composition for benepali Package Leaflet"
+Description:  "Composition for benepali Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc5a54b11d8107e662bc760b43da975c8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - benepali"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instruções de utilização (ver verso) </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Benepali e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Benepali  </li>
+<li>Como utilizar Benepali </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Benepali  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é benepali e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é benepali e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Benepali contém a substância ativa etanercept. </p>
+<p>O Benepali é um medicamento obtido a partir de duas proteínas humanas. Bloqueia a atividade de 
+outra proteína do organismo que causa inflamação. O Benepali atua diminuindo a inflamação 
+associada a algumas doenças.  </p>
+<p>Em adultos (com 18 ou mais anos de idade), Benepali pode ser utilizado para: </p>
+<ul>
+<li>
+<p>artrite reumatoide moderada ou grave; </p>
+</li>
+<li>
+<p>artrite psoriática; </p>
+</li>
+<li>
+<p>espondiloartrite axial grave incluindo espondilite anquilosante; </p>
+</li>
+<li>
+<p>psoríase em placas moderada ou grave. 
+Em cada caso, Benepali é normalmente utilizado quando outros tratamentos amplamente utilizados 
+não resultaram suficientemente bem ou não são adequados para si. </p>
+</li>
+</ul>
+<p>Para a artrite reumatoide, o Benepali é normalmente utilizado em associação com o metotrexato, 
+embora também possa ser utilizado isoladamente se o tratamento com metotrexato for inadequado 
+para si. Quer utilizado isoladamente ou em associação com o metotrexato, o Benepali pode atrasar as 
+lesões das suas articulações causadas pela artrite reumatoide e melhorar a capacidade para efetuar 
+atividades diárias. </p>
+<p>Em doentes com artrite psoriática envolvendo múltiplas articulações, o Benepali pode melhorar a sua 
+capacidade para efetuar as tarefas diárias habituais. </p>
+<p>Em doentes com múltiplas articulações simétricas doridas ou inchadas (por ex., mãos, punhos e 
+pés), o Benepali pode atrasar a lesão estrutural causada pela doença nessas articulações. </p>
+<p>O Benepali pode também ser receitado para o tratamento das seguintes doenças em crianças e 
+adolescentes: </p>
+<ul>
+<li>
+<p>Para os seguintes tipos de artrite idiopática juvenil quando tenham tido uma resposta inadequada 
+ou que não possam tomar metotrexato: </p>
+</li>
+<li>
+<p>Poliartrite (fator reumatoide positivo ou negativo) e oligoartrite estendida em doentes a 
+partir dos 2 anos de idade e com peso de 62,5 kg ou superior. </p>
+</li>
+<li>
+<p>Artrite psoriática em doentes a partir dos 12 anos de idade e com peso de 62,5 kg ou 
+superior. </p>
+</li>
+<li>
+<p>Artrite relacionada com entesite em doentes a partir dos 12 anos de idade e com peso de 62,5 kg 
+ou superior quando tenham tido uma resposta inadequada a outros tratamentos largamente 
+utilizados ou que não os possam tomar. </p>
+</li>
+<li>
+<p>Psoríase em placas grave em doentes a partir dos 6 anos de idade e com peso de 62,5 kg ou 
+superior que tenham tido uma resposta inadequada a (ou que não possam tomar) fototerapias ou 
+outras terapias sistémicas. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar benepali"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar benepali"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Benepali </p>
+<ul>
+<li>
+<p>se tem, ou se a criança ao seu cuidado tem, alergia ao etanercept ou a qualquer dos outros 
+componentes deste medicamento (indicados na secção 6). Se surgirem, em si ou na criança, 
+reações alérgicas tais como sensação de aperto no peito, pieira, tonturas ou erupção na pele, não 
+volte a administrar o Benepali e contacte imediatamente o seu médico. </p>
+</li>
+<li>
+<p>se tem ou a criança tem uma infeção grave no sangue chamada septicemia, ou estiver em risco 
+de a desenvolver. Se não tiver a certeza, fale com o seu médico. </p>
+</li>
+<li>
+<p>se tem ou a criança tem uma infeção de qualquer natureza. Se tem dúvidas, fale com o seu 
+médico. </p>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico antes de tomar Benepali. </p>
+<ul>
+<li>
+<p>Reações alérgicas: Se surgirem, em si ou na criança, reações alérgicas tais como sensação de 
+aperto no peito, pieira, tonturas ou erupção na pele, não volte a injetar o Benepali e contacte 
+imediatamente o seu médico. </p>
+</li>
+<li>
+<p>Infeções/cirurgia: Se surgir uma nova infeção em si ou na criança ou se vai ser submetido ou a 
+criança vai ser submetida a uma grande cirurgia, o seu médico poderá querer avaliar o 
+tratamento com Benepali. </p>
+</li>
+<li>
+<p>Infeções/diabetes: Informe o seu médico se tem ou se a criança tem uma história de infeções 
+repetidas ou se sofre de diabetes ou de outras doenças que aumentem o risco de infeção. </p>
+</li>
+<li>
+<p>Infeções/acompanhamento: Informe o seu médico de qualquer viagem recente fora da Europa. 
+Se desenvolver ou a criança desenvolver sintomas de uma infeção como febre, arrepios ou 
+tosse, informe o seu médico imediatamente. O seu médico poderá decidir continuar a 
+acompanhá-lo ou à criança relativamente à presença de infeções após terminar o tratamento com 
+Benepali. </p>
+</li>
+<li>
+<p>Tuberculose: Dado que foram comunicados casos de tuberculose em doentes tratados com 
+Benepali, o seu médico irá verificar se tem sinais e sintomas de tuberculose antes de iniciar o 
+tratamento com Benepali. Tal poderá incluir uma história clínica completa, um raio X ao tórax e 
+o teste da tuberculina. A realização destes testes deve ser registada no Cartão do Doente. É 
+muito importante que informe o seu médico se alguma vez teve, ou alguma vez a criança teve, 
+tuberculose ou esteve em contacto com alguém que tenha tido tuberculose. Se surgirem </p>
+</li>
+</ul>
+<p>sintomas de tuberculose (tais como tosse persistente, perda de peso, apatia, febre ligeira) ou de 
+qualquer outra infeção durante ou após a terapêutica, informe imediatamente o seu médico. </p>
+<ul>
+<li>
+<p>Hepatite B: Informe o seu médico se tem ou teve ou se a criança tem ou teve hepatite B. O seu 
+médico deve efetuar testes para determinar a existência de hepatite B antes de iniciar ou de a 
+criança iniciar o tratamento com Benepali. O tratamento com Benepali pode resultar na 
+reativação da hepatite B em doentes que já tenham estado infetados pelo vírus da hepatite B. Se 
+isso acontecer, deve parar de utilizar Benepali. </p>
+</li>
+<li>
+<p>Hepatite C: Informe o seu médico se tem ou se a criança tem hepatite C. O seu médico poderá 
+querer acompanhar o tratamento com Benepali no caso de a infeção piorar. </p>
+</li>
+<li>
+<p>Doenças do sangue: Consulte de imediato o seu médico no caso de surgirem, em si ou na 
+criança, sinais ou sintomas tais como febre persistente, dores de garganta, nódoas negras, 
+hemorragias ou palidez. Estes sintomas podem indicar a presença de alterações no sangue com 
+risco de vida, podendo obrigar a parar o tratamento com Benepali. </p>
+</li>
+<li>
+<p>Doenças do sistema nervoso e da visão: Informe o seu médico se tem ou se a criança tem 
+esclerose múltipla, nevrite ótica (inflamação dos nervos dos olhos) ou mielite transversa 
+(inflamação da medula espinal). O seu médico determinará se o tratamento com Benepali é 
+adequado. </p>
+</li>
+<li>
+<p>Insuficiência cardíaca congestiva: Informe o seu médico se tem ou se a criança tem 
+antecedentes de insuficiência cardíaca congestiva, pois nesse caso o Benepali deve ser utilizado 
+com precaução. </p>
+</li>
+<li>
+<p>Cancro: Informe o seu médico se tem ou teve linfoma (um tipo de cancro das células 
+sanguíneas) ou algum outro tipo de cancro antes de iniciar o tratamento com Benepali. Doentes 
+com artrite reumatoide grave, que têm a doença durante muito tempo, podem ter um risco 
+superior à média de desenvolverem linfoma. Crianças e adultos a tomar Benepali podem ter um 
+risco aumentado de desenvolver linfoma ou outro cancro. Algumas crianças e adolescentes que 
+receberam tratamento com etanercept ou com outro tipo de medicamentos que atuam do mesmo 
+modo que o etanercept desenvolveram cancros, incluindo tipos invulgares, o que por vezes 
+resultou em morte. Alguns doentes que receberam Benepali desenvolveram cancro da pele. 
+Informe o seu médico se desenvolver ou se a criança desenvolver qualquer alteração no aspeto 
+da pele ou qualquer crescimento da pele. </p>
+</li>
+<li>
+<p>Varicela: Informe o seu médico se você ou a criança estiver exposto a varicela durante o 
+tratamento com Benepali. O seu médico irá determinar se o tratamento preventivo para a 
+varicela é apropriado. </p>
+</li>
+<li>
+<p>Abuso de álcool: Benepali não deve ser utilizado para o tratamento de hepatite relacionada com 
+o abuso de álcool. Por favor informe o seu médico se tem ou se a criança ao seu cuidado tem 
+antecedentes de abuso de álcool. </p>
+</li>
+<li>
+<p>Granulomatose de Wegener: Benepali não é recomendado no tratamento da granulomatose de 
+Wegener, uma doença inflamatória rara. Se tem ou se a criança ao seu cuidado tem 
+granulomatose de Wegener, fale com o seu médico. </p>
+</li>
+<li>
+<p>Medicamentos antidiabéticos: Informe o seu médico se tem ou a criança tem diabetes ou está 
+a tomar medicamentos para o tratamento da diabetes. O seu médico decidirá se necessita ou a 
+criança necessita de reduzir a medicação antidiabética durante a administração de Benepali. </p>
+</li>
+<li>
+<p>Vacinação: Algumas vacinas, nomeadamente a vacina oral da pólio, não devem ser 
+administradas durante o tratamento com Benepali. Por favor, consulte o seu médico antes de 
+receber ou a criança receber qualquer vacina. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes 
+Benepali não é indicado para utilização em crianças e adolescentes com peso inferior a 62,5 kg. </p>
+<ul>
+<li>Vacinação: Se possível, as crianças devem ter todas as vacinas em dia antes de iniciar o 
+tratamento com Benepali. Algumas vacinas, nomeadamente a vacina oral da pólio, não devem 
+ser administradas durante o tratamento com Benepali. Por favor, consulte o seu médico antes de 
+receber ou de a criança receber qualquer vacina. </li>
+</ul>
+<p>Benepali não deve ser normalmente utilizado em crianças com poliartrite ou oligoartrite estendida com 
+idade inferior a 2 anos ou com peso inferior a 62,5 kg, ou em crianças com artrite relacionada com </p>
+<p>entesite ou artrite psoriática com idade inferior a 12 anos ou com peso inferior a 62,5 kg, ou em 
+crianças com psoríase com idade inferior a 6 anos ou com peso inferior a 62,5 kg. </p>
+<p>Outros medicamentos e Benepali 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar (ou a criança) outros medicamentos (incluindo anacinra, abatacept ou sulfassalazina). </p>
+<p>Não deve ou a criança não deve utilizar Benepali com medicamentos que contêm as substâncias 
+ativas anacinra ou abatacept. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu medico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>As mulheres com potencial para engravidar devem ser aconselhadas, durante o tratamento com 
+Benepali e nas três semanas após a descontinuação do tratamento, a utilizar contraceção apropriada 
+para evitar a gravidez. </p>
+<p>Benepali deve ser apenas utilizado durante a gravidez se for claramente necessário. </p>
+<p>Se tiver tomado Benepali durante a gravidez, o risco do seu bebé ter uma infeção pode ser maior. 
+Adicionalmente, verificou-se num estudo a ocorrência de um maior número de malformações 
+congénitas em casos em que a mãe tinha recebido etanercept durante a gravidez, em comparação com 
+mães que não receberam etanercept ou outros medicamentos semelhantes (antagonistas do TNF). No 
+entanto, não houve nenhum tipo particular de malformações congénitas notificadas. Noutro estudo não 
+foi observado qualquer risco aumentado de malformações congénitas quando a mãe tinha recebido 
+etanercept durante a gravidez. O seu médico irá ajudá-la a decidir se os benefícios do tratamento 
+superam os potenciais riscos para o seu bebé. Fale com o seu médico se quiser amamentar durante o 
+tratamento com Benepali. É importante que informe o médico do bebé e outros profissionais de saúde 
+sobre a utilização de Benepali durante a gravidez e a amamentação, antes que o seu bebé receba 
+qualquer vacina. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não existem informações se a utilização de Benepali tem efeitos sobre a capacidade de conduzir ou 
+utilizar máquinas. </p>
+<p>Benepali contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 25 mg, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar benepali"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar benepali"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Fale com o seu médico ou farmacêutico se tiver a impressão de que o Benepali é demasiado forte ou 
+demasiado fraco. </p>
+<p>Utilização em doentes adultos (com 18 ou mais anos de idade) 
+Artrite reumatoide, artrite psoriática e espondiloartrite axial, incluindo espondilite anquilosante 
+A dose habitual é de 25 mg administrada duas vezes por semana ou 50 mg administrada uma vez por 
+semana, por injeção debaixo da pele. 
+No entanto, o seu médico pode determinar outra frequência para injetar o Benepali. </p>
+<p>Psoríase em placas 
+A dose habitual é de 25 mg duas vezes por semana ou 50 mg uma vez por semana. </p>
+<p>Em alternativa, poderá ser administrada a dose de 50 mg duas vezes por semana durante 12 semanas, 
+seguida de 25 mg duas vezes por semana ou 50 mg uma vez por semana. </p>
+<p>Com base na sua resposta, o seu médico decidirá durante quanto tempo deverá utilizar o Benepali e se 
+é necessário reiniciar o tratamento. Caso o Benepali não tenha efeito na sua situação após as 
+12 semanas, o seu médico poderá aconselhá-lo a interromper o tratamento. </p>
+<p>Utilização em crianças e adolescentes 
+A dose e a frequência de administração adequadas para a criança ou adolescente dependem do peso 
+corporal e da doença. O seu médico irá determinar a dose correta para a criança e vai prescrever a 
+dosagem apropriada de etanercept. 
+Doentes pediátricos com peso de 62,5 kg ou superior podem ser doseados com uma dose de 25 mg 
+administrada duas vezes por semana ou 50 mg administrada uma vez por semana utilizando uma 
+seringa pré-cheia ou caneta pré-cheia com dose fixa. </p>
+<p>Estão disponíveis outros produtos com etanercept com formas posológicas adequadas. </p>
+<p>Na poliartrite ou oligoartrite estendida em doentes a partir dos 2 anos de idade e com peso de 62,5 kg 
+ou superior, ou na artrite relacionada com entesite ou artrite psoriática em doentes a partir dos 12 anos 
+de idade e com peso de 62,5 kg ou superior, a dose habitual é de 25 mg administrada duas vezes por 
+semana ou 50 mg administrada uma vez por semana. </p>
+<p>Na psoríase em doentes a partir dos 6 anos de idade e com peso de 62,5 kg ou superior, a dose habitual 
+é de 50 mg e deve ser administrada uma vez por semana. No caso de Benepali não ter efeito sobre o 
+estado da criança após 12 semanas de tratamento, o seu médico poderá dizer-lhe para suspender a 
+utilização deste medicamento. </p>
+<p>O médico fornecer-lhe-á instruções detalhadas para preparar e medir a dose adequada. </p>
+<p>Modo e via de administração 
+O Benepali é administrado através de uma injeção debaixo da pele (via subcutânea). </p>
+<p>São fornecidas instruções detalhadas sobre a administração do Benepali na secção 7 “Instruções 
+de utilização". Não misturar a solução de Benepali com qualquer outro medicamento. </p>
+<p>Para o ajudar a lembrar-se, poderá ser útil escrever numa agenda em que dia(s) da semana deverá ser 
+utilizado o Benepali. </p>
+<p>Se utilizar mais Benepali do que deveria 
+Se tiver utilizado mais Benepali do que deveria (quer seja por injetar demasiado numa única ocasião 
+ou por utilização demasiado frequente), fale com um médico ou farmacêutico de imediato. 
+Tenha sempre consigo a embalagem exterior do medicamento, mesmo que esteja vazia. </p>
+<p>Caso se tenha esquecido de utilizar Benepali 
+Se esquecer uma dose deve administrá-la assim que se lembrar, a não ser que a próxima dose 
+programada seja no dia seguinte, pois neste caso não deverá administrar a dose esquecida. Depois, 
+continue a administrar o seu medicamento no(s) dia(s) habitual(ais). Se não se lembrar até ao dia em 
+que tem de administrar a próxima injeção, não tome uma dose a dobrar (duas doses no mesmo dia) 
+para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de utilizar Benepali 
+Se parar de utilizar Benepali os seus sintomas podem reaparecer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Reações alérgicas 
+Se detetar alguma das seguintes situações não injete mais Benepali. Informe o seu médico de 
+imediato ou dirija-se ao serviço de urgências do hospital mais próximo. </p>
+<ul>
+<li>
+<p>Dificuldade em engolir ou respirar </p>
+</li>
+<li>
+<p>Inchaço da face, garganta, mãos ou pés </p>
+</li>
+<li>
+<p>Sentimento de nervosismo ou ansiedade, palpitações, súbita vermelhidão da pele e/ou sensação 
+de calor </p>
+</li>
+<li>
+<p>Erupção na pele grave, comichão ou erupção na pele com comichão (elevações avermelhadas ou 
+esbranquiçadas da pele que frequentemente causam comichão) </p>
+</li>
+</ul>
+<p>As reações alérgicas graves são raras. No entanto, qualquer um dos sintomas acima mencionados 
+podem indicar uma reação alérgica ao Benepali, pelo que deve procurar de imediato cuidados 
+médicos. </p>
+<p>Efeitos indesejáveis graves 
+Se detetar alguma das seguintes situações pode necessitar ou a criança pode necessitar de cuidados 
+médicos urgentes. </p>
+<ul>
+<li>
+<p>Sinais de infeções graves (incluindo pneumonia, infeções profundas da pele, infeções das 
+articulações e infeção do sangue), tais como febre alta acompanhada de tosse, falta de ar, 
+arrepios, fraqueza ou aparecimento de uma área quente, vermelha, hipersensível e dorida, na 
+pele ou articulações; </p>
+</li>
+<li>
+<p>Sinais de doenças do sangue, tais como hemorragia, nódoas negras ou palidez; </p>
+</li>
+<li>
+<p>Sinais de doenças do sistema nervoso, tais como dormência ou formigueiro, alterações da 
+visão, dores nos olhos ou aparecimento de fraqueza num braço ou perna; </p>
+</li>
+<li>
+<p>Sinais de insuficiência cardíaca ou agravamento da insuficiência cardíaca, tais como fadiga 
+ou falta de ar com a atividade, inchaço dos tornozelos, sensação de enfartamento no abdómen e 
+pescoço, falta de ar ou tosse noturnas, coloração azulada das unhas ou lábios; </p>
+</li>
+<li>
+<p>Sinais de cancro: Os cancros podem afetar qualquer parte do corpo incluindo pele e sangue, e 
+possíveis sinais vão depender do tipo e da localização do cancro. Estes sinais podem incluir 
+perda de peso, febre, inchaço (com ou sem dor), tosse persistente, presença de nódulos ou 
+tumores na pele; </p>
+</li>
+<li>
+<p>Sinais de reações autoimunes (onde os anticorpos são produzidos e podem danificar tecidos 
+normais no corpo), tais como dor, comichão, fraqueza e respiração, pensamentos, sensações ou 
+visão anormais; </p>
+</li>
+<li>
+<p>Sinais de lúpus e síndrome do tipo lúpus, tais como alterações de peso, erupção na pele 
+persistente, febre, dor nas articulações ou nos músculos, ou fadiga; </p>
+</li>
+<li>
+<p>Sinais de inflamação dos vasos sanguíneos, tais como dor, febre, vermelhidão ou sensação de 
+calor na pele, ou comichão. </p>
+</li>
+</ul>
+<p>Estes efeitos indesejáveis são raros ou pouco frequentes, mas são situações graves (algumas das quais 
+podem raramente ser fatais). Se qualquer um dos sinais acima ocorrer, informe o seu médico de 
+imediato ou dirija-se ao serviço de urgências do hospital mais próximo. </p>
+<p>Outros efeitos indesejáveis 
+Os efeitos indesejáveis conhecidos do Benepali incluem os seguintes, em grupos de frequência 
+decrescente: </p>
+<ul>
+<li>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+Infeções (incluindo constipações, sinusite, bronquite, infeções do trato urinário e infeções da 
+pele); reações no local da injeção (incluindo hemorragia, nódoas negras, vermelhidão, 
+comichão, dor e inchaço, estas não ocorrem com tanta frequência após o primeiro mês de 
+tratamento, alguns doentes tiveram uma reação num local de injeção utilizado recentemente); e 
+cefaleia. </p>
+</li>
+<li>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+Reações alérgicas; febre; erupção na pele; comichão; anticorpos contra tecidos normais 
+(formação de autoanticorpos). </p>
+</li>
+<li>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) 
+Infeções graves (incluindo pneumonia, infeções profundas da pele, infeções das articulações, 
+infeção do sangue e infeções em vários locais); agravamento da insuficiência cardíaca 
+congestiva; valor baixo do número de glóbulos vermelhos; valor baixo do número de glóbulos 
+brancos; valor baixo do número de neutrófilos (um tipo de glóbulos brancos); valor baixo do 
+número de plaquetas sanguíneas; cancro da pele (excluindo melanoma); inchaço da pele 
+localizado (angioedema); erupção na pele com comichão (elevações avermelhadas ou 
+esbranquiçadas da pele que frequentemente causam comichão); inflamação ocular; psoríase 
+(aparecimento ou agravamento); inflamação dos vasos sanguíneos afetando múltiplos órgãos; 
+valores de exames laboratoriais da função do fígado elevados (nos doentes que também recebem 
+tratamento com metotrexato, a categoria de frequência dos valores de exames laboratoriais da 
+função do fígado elevados, é frequente); cólicas abdominais e dor abdominal, diarreia, perda de 
+peso ou sangue nas fezes (sinais de problemas nos intestinos). </p>
+</li>
+<li>
+<p>Raros (podem afetar até 1 em 1.000 pessoas) 
+Reações alérgicas graves (incluindo grave inchaço da pele localizado e pieira); linfoma (um tipo 
+de cancro das células sanguíneas); leucemia (cancro que afeta o sangue e a medula óssea); 
+melanoma (um tipo de cancro da pele); valores baixos do número de plaquetas sanguíneas, 
+glóbulos vermelhos e glóbulos brancos simultaneamente; doenças do sistema nervoso (com 
+fraqueza muscular grave e sinais e sintomas idênticos aos da esclerose múltipla ou inflamação 
+dos nervos dos olhos e da medula espinal); tuberculose; novo aparecimento de insuficiência 
+cardíaca congestiva; convulsões; lúpus ou síndrome tipo lúpus (os sintomas podem incluir 
+erupção na pele persistente, febre, dor nas articulações e cansaço); erupção na pele que pode 
+levar a formação de bolhas e descamação graves da pele; inflamação do fígado causada pelo 
+sistema imunitário do corpo (hepatite autoimune, nos doentes que também recebem tratamento 
+com metotrexato a frequência é pouco frequente); doença autoimune que pode afetar os 
+pulmões, pele e nódulos linfáticos (sarcoidose); inflamação ou fibrose dos pulmões (nos doentes 
+que também recebem tratamento com metotrexato a frequência da inflamação ou fibrose dos 
+pulmões é pouco frequente); reações liquenóides (erupção cutânea de cor vermelha-arroxeada 
+com comichão e/ou linhas de cor branca-acinzentada nas membranas mucosas); infeções 
+oportunistas (que incluem tuberculose e outras infeções que ocorrem quando a resistência à 
+doença se encontra diminuída); eritema multiforme (erupção inflamatória na pele); vasculite 
+cutânea (inflamação dos vasos sanguíneos na pele); danos nos nervos, incluindo síndrome de 
+Guillain-Barré (uma patologia grave que pode afetar a respiração e danificar órgãos do corpo). </p>
+</li>
+<li>
+<p>Muito raros (podem afetar até 1 em 10.000 pessoas) 
+Falência da medula óssea para a produção de importantes células do sangue; necrólise 
+epidérmica tóxica (uma doença de pele com perigo de vida). </p>
+</li>
+<li>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+</li>
+</ul>
+<p>Carcinoma de células de Merkel (um tipo de cancro da pele); sarcoma de Kaposi (um cancro 
+raro relacionado com a infeção pelo vírus herpes humano 8. O sarcoma de Kaposi aparece mais 
+frequentemente na forma de lesões cutâneas de cor púrpura); ativação excessiva das células 
+brancas do sangue associadas com inflamação (síndrome de ativação dos macrófagos); recidiva 
+de hepatite B (infeção do fígado); agravamento de uma condição denominada dermatomiosite 
+(debilidade e inflamação muscular acompanhadas de erupção na pele); Listeria (uma infeção 
+bacteriana); danos nos filtros minúsculos existentes dentro dos rins, levando a deterioração da 
+função renal (glomerulonefrite). </p>
+<p>Efeitos indesejáveis em crianças e adolescentes 
+Os efeitos indesejáveis e as suas frequências vistos em crianças e adolescentes são semelhantes aos 
+descritos acima. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar benepali"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar benepali"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo da 
+seringa pré-cheia, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C - 8°C). Não congelar. </p>
+<p>Manter as seringas pré-cheias dentro da embalagem exterior para proteger da luz. </p>
+<p>Após retirar a seringa do frigorífico, aguarde aproximadamente 30 minutos para permitir que a 
+solução de Benepali na seringa atinja a temperatura ambiente. Não aqueça de qualquer outra 
+forma. Recomenda-se depois a utilização imediata. </p>
+<p>O Benepali pode ser conservado fora do frigorífico a temperaturas até a um máximo de 30°C durante 
+um período único até 31 dias; após o qual, não poderá ser refrigerado outra vez. O Benepali deve ser 
+rejeitado se não for utilizado dentro dos 31 dias após ser retirado do frigorífico. Recomenda-se que 
+sejam registadas a data em que o Benepali é retirado do frigorífico e a data após a qual o Benepali 
+deve ser rejeitado (não mais que 31 dias após a retirada do frigorífico). </p>
+<p>Inspecione a solução contida na seringa. A mesma deve ser límpida a ligeiramente opalescente, incolor 
+ou de cor amarelo-pálido, podendo conter pequenas partículas de proteína quase transparentes ou 
+brancas. Esta aparência é normal para o Benepali. Não utilize este medicamento se verificar que a 
+solução apresenta alteração de cor, está turva ou se apresentar partículas diferentes das descritas 
+acima. Se tiver dúvidas quanto à aparência da solução, consulte o seu farmacêutico. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Benepali 
+- A substância ativa é o etanercept. Cada seringa pré-cheia contém 25 mg de etanercept. 
+- Os outros componentes são sacarose, di-hidrogenofosfato de sódio mono-hidratado, </p>
+<p>hidrogenofosfato dissódico hepta-hidratado, e água para injetáveis (ver secção 2 “Benepali 
+contém sódio"). </p>
+<p>Qual o aspeto de Benepali e conteúdo da embalagem 
+O Benepali é fornecido como uma seringa pré-cheia contendo uma solução injetável (injeção) límpida 
+a ligeiramente opalescente, incolor ou de cor amarelo-pálido. </p>
+<p>Benepali está disponível em embalagens contendo 4 seringas pré-cheias, embalagens múltiplas 
+compreendendo 2 caixas, cada uma contendo 4 seringas pré-cheias e embalagens múltiplas 
+compreendendo 6 caixas, cada uma contendo 4 seringas pré-cheias. É possível que não sejam 
+comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 2616 LR Delft 
+Países Baixos </p>
+<p>Fabricante 
+Biogen Netherlands B.V. 
+Prins Mauritslaan 1171 LP Badhoevedorp 
+Países Baixos </p>
+<p>Samsung Bioepis NL B.V. 
+Olof Palmestraat 2616 LR Delft 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien<br />
+Biogen Belgium NV/S.A<br />
+Tél/Tel: + 32 (0)2 808 5Lietuva<br />
+Biogen Lithuania UAB 
+Tel: +370 52 07 91<br />
+България<br />
+Ewopharma AG Representative Office<br />
+Teл.: + 359 249 176<br />
+Luxembourg/Luxemburg<br />
+Biogen Belgium NV/SA<br />
+Tél/Tel: +35 227 772<br />
+Česká republika<br />
+Biogen (Czech Republic) s.r.o.<br />
+Tel: + 420 228 884<br />
+Magyarország<br />
+Biogen Hungary Kft.<br />
+Tel.: + 36 1 848 04<br />
+Danmark<br />
+Biogen (Denmark) A/S<br />
+Tlf: + 45 78 79 37<br />
+Malta<br />
+Pharma.MT Ltd 
+Tel: + 356 27 78 15<br />
+Deutschland<br />
+Biogen GmbH<br />
+Tel: + 49 (0)89 996 177 Nederland<br />
+Biogen Netherlands B.V.<br />
+Tel: + 31 (0)20 808 02<br />
+Eesti<br />
+Biogen Estonia OÜ 
+Tel: + 372 6 68 30<br />
+Norge<br />
+Biogen Norway AS<br />
+Tlf: + 47 21 93 95  </p>
+<p>Ελλάδα<br />
+Genesis Pharma S.A. 
+Τηλ: + 30 211 176 8Österreich<br />
+Biogen Austria GmbH<br />
+Tel: + 43 (0)1 267 51<br />
+España<br />
+Biogen Spain, S.L.<br />
+Tel: + 34 931 790<br />
+Polska<br />
+Biogen Poland Sp. z o.o.<br />
+Tel.: + 48 22 116 86<br />
+France<br />
+Biogen France SAS<br />
+Tél: + 33 (0)1 776 968<br />
+Portugal<br />
+Biogen Portugal Sociedade Farmacêutica,<br />
+Unipessoal, Lda<br />
+Tel: + 351 308 800<br />
+Hrvatska<br />
+Ewopharma d.o.o<br />
+Tel: + 385 (0)1 777 64<br />
+România<br />
+Ewopharma AG Representative Office<br />
+Tel: + 40 377 881<br />
+Ireland<br />
+Biogen Idec (Ireland) Ltd.<br />
+Tel: +353 (0)1 513 33<br />
+Slovenija<br />
+Biogen Pharma d.o.o.<br />
+Tel: + 386 (0)1 888 81<br />
+Ísland<br />
+Icepharma hf. 
+Sími: + 354 800 9 
+Slovenská republika<br />
+Biogen Slovakia s.r.o.<br />
+Tel: + 421 (0)2 333 257<br />
+Italia<br />
+Biogen Italia s.r.l.<br />
+Tel: + 39 (0)6 899 701<br />
+Suomi/Finland<br />
+Biogen Finland Oy<br />
+Puh/Tel: + 358 (0)9 427 041<br />
+Κύπρος<br />
+Genesis Pharma (Cyprus) Ltd 
+Τηλ: + 357 22 00 04<br />
+Sverige<br />
+Biogen Sweden AB<br />
+Tel: +46 (0)8 525 038 Latvija 
+Biogen Latvia SIA 
+Tel: + 371 66 16 40<br />
+United Kingdom (Northern Ireland) 
+Biogen Idec (Ireland) Ltd. 
+Tel: +44 (0)20 360 886<br />
+Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1376,6 +2036,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c5a54b11d8107e662bc760b43da975c8"
 * entry[0].resource = composition-da-c5a54b11d8107e662bc760b43da975c8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc5a54b11d8107e662bc760b43da975c8"
+* entry[=].resource = mpc5a54b11d8107e662bc760b43da975c8
+                            
+                    
+Instance: bundlepackageleaflet-pt-c5a54b11d8107e662bc760b43da975c8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for benepali Package Leaflet for language pt"
+Description: "ePI document Bundle for benepali Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c5a54b11d8107e662bc760b43da975c8"
+* entry[0].resource = composition-pt-c5a54b11d8107e662bc760b43da975c8
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc5a54b11d8107e662bc760b43da975c8"
@@ -1477,6 +2159,18 @@ RuleSet: c5a54b11d8107e662bc760b43da975c8ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c5a54b11d8107e662bc760b43da975c8) // benepali pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

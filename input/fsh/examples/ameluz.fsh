@@ -992,6 +992,474 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-27a52606a6d06c382d79e38520d58ce1
+InstanceOf: CompositionUvEpi
+Title: "Composition for ameluz Package Leaflet"
+Description:  "Composition for ameluz Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp27a52606a6d06c382d79e38520d58ce1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ameluz"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Ameluz e para que é utilizado 
+2. O que precisa de saber antes de utilizar Ameluz 
+3. Como utilizar Ameluz 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Ameluz 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ameluz e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ameluz e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ameluz contém a substância ativa ácido 5-aminolevulínico. É utilizado para o tratamento de: </p>
+<ul>
+<li>
+<p>queratoses actínicas ligeiramente palpáveis a moderadamente espessas ou campos inteiros 
+afetados por queratose actínica em adultos. As queratoses actínicas são alterações específicas na 
+camada externa da pele que podem levar a cancro da pele. </p>
+</li>
+<li>
+<p>carcinoma basocelular superficial e/ou nodular não adequado para tratamento cirúrgico devido a 
+possível morbilidade relacionada com o tratamento e/ou a um resultado cosmético fraco em 
+adultos. O carcinoma basocelular é um cancro da pele que pode causar manchas avermelhadas, 
+escamosas, ou uma ou várias elevações que sangram com facilidade e não cicatrizam. </p>
+</li>
+</ul>
+<p>Após a aplicação, a substância activa de Ameluz torna-se numa substância fotoactiva que se acumula 
+nas células afectadas. A iluminação com luz adequada produz moléculas contendo oxigénio reactivo 
+que actuam contra as células afectadas. Esta terapêutica é conhecida por terapia fotodinâmica (TFD). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ameluz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ameluz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Ameluz </p>
+<h2>* se tem alergia à</h2>
+<p>ácido 5-aminolevulínico ou a qualquer outro componente deste medicamento (indicados 
+na secção 6)<br />
+- 
+substâncias fotoactivas designadas como porfirinas 
+- 
+soja ou amendoins </p>
+<ul>
+<li>
+<p>se apresenta uma formação deficiente do pigmento vermelho do sangue chamada porfíria </p>
+</li>
+<li>
+<p>se sofre de outras doenças da pele causadas pela exposição à luz ou que se podem agravar por 
+exposição à luz </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico antes de utilizar Ameluz. </p>
+<ul>
+<li>
+<p>Em casos muito raros, a terapia fotodinâmica pode aumentar o risco de se desenvolver perda de 
+memória temporária. </p>
+</li>
+<li>
+<p>A utilização de Ameluz não é recomendada se utilizar imunossupressores. </p>
+</li>
+<li>
+<p>Evitar aplicar Ameluz 
+− 
+em lesões que estejam a sangrar. 
+− 
+nos olhos ou nas membranas mucosas. </p>
+</li>
+<li></li>
+</ul>
+<p>em zonas da pele afetadas por outras doenças ou em tatuagens, pois poderá 
+comprometer o êxito e a avaliação do tratamento. </p>
+<ul>
+<li>
+<p>Suspenda qualquer terapia com raios ultravioleta (UV) antes do tratamento. </p>
+</li>
+<li>
+<p>A preparação intensiva de lesões (p. ex., peeling químico seguido de laser ablativo) pode 
+resultar em aumento da dor durante a TFD. </p>
+</li>
+<li>
+<p>Evite a exposição solar nos locais da lesão tratada e pele circundante durante cerca de 48 horas 
+após o tratamento. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes 
+As queratoses actínicas e carcinomas basocelulares não ocorrem em crianças e adolescentes, exceto 
+em casos extremamente raros. </p>
+<p>Outros medicamentos e Ameluz 
+Informe o seu médico ou farmacêutico se estiver a utilizar tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos.  </p>
+<p>Informe o seu médico se utilizar medicamentos que aumentam as reacções alérgicas ou outras 
+reacções nocivas após a exposição à luz, tais como </p>
+<ul>
+<li>
+<p>hipericão ou respectivos preparados: medicamentos para o tratamento da depressão  </p>
+</li>
+<li>
+<p>griseofulvina: um medicamento para o tratamento das infecções fúngicas </p>
+</li>
+<li>
+<p>medicamentos que aumentam a eliminação de água através dos rins, com nomes de 
+substâncias activas que terminam principalmente em “tiazida" ou “tizida", como a 
+hidroclorotiazida </p>
+</li>
+<li>
+<p>determinados medicamentos para o tratamento da diabetes, como glibenclamida e 
+glimepirida </p>
+</li>
+<li>
+<p>medicamentos para o tratamento de perturbações mentais, náuseas ou vómitos com nomes 
+de substâncias activas que terminam essencialmente em “azina", como a fenotiazina </p>
+</li>
+<li>
+<p>medicamentos para o tratamento de infecções bacterianas com nomes de substâncias activas 
+que começam com “sulfa" ou terminam em “oxacina" ou “ciclina", como a tetraciclina </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+Ameluz não é recomendado durante a gravidez, uma vez que o conhecimento é insuficiente. 
+A amamentação deve ser interrompida nas 12 horas após a aplicação de Ameluz. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de Ameluz sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis. </p>
+<p>Ameluz contém </p>
+<ul>
+<li>
+<p>2,4 mg de benzoato de sódio (E211) em cada grama de gel. Benzoato de sódio pode causar 
+irritação ligeira. </p>
+</li>
+<li>
+<p>fosfatidilcolina de soja: se tem alergia a amendoins ou soja, não utilize este medicamento. </p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ameluz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ameluz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ameluz é utilizado exclusivamente na pele. O tratamento consiste na aplicação de Ameluz e na 
+exposição à luz. Uma sessão de terapia pode ser usada para tratar uma ou várias lesões ou campos 
+inteiros sob tratamento. A fonte de iluminação para o tratamento de lesões ou campos de queratoses 
+actínicas pode ser a luz do dia (natural ou artificial) ou uma lâmpada de luz vermelha especial. O seu 
+médico decidirá a opção de tratamento que utilizará, dependendo das suas lesões. 
+A fonte de iluminação para a TFD deve ser sempre uma lâmpada de luz vermelha para o tratamento da 
+queratose actínica nas regiões do tronco, pescoço e extremidades e do carcinoma basocelular. </p>
+<p>Tratamento de lesões ou campos de queratoses actínicas e carcinoma basocelular utilizando uma 
+lâmpada de luz vermelha </p>
+<p>A utilização de Ameluz com uma lâmpada de luz vermelha exige equipamento específico e 
+conhecimentos no campo da terapêutica fotodinâmica. Por conseguinte, este tratamento é efetuado no 
+consultório do médico. </p>
+<p>Preparação das lesões 
+A área de aplicação é limpa com algodão embebido em álcool para desengordurar a pele. As partículas 
+de descamação e as crostas são cuidadosamente eliminadas. e as superfícies de todas as lesões são 
+suavemente raspadas. É necessário ter cuidado para evitar hemorragias (sangramento). </p>
+<p>Aplicação do gel 
+Ameluz é aplicado de modo a formar uma camada com cerca de 1 mm de espessura sobre a totalidade 
+das lesões ou campos e em cerca de 5 mm da área circundante, usando as pontas dos dedos protegidas 
+por luvas ou com uma espátula. Deve ser mantida uma distância de pelo menos 1 cm em relação aos 
+olhos e às membranas mucosas. No caso de haver contacto do gel com alguma zona acima 
+mencionada, enxagúe com água. O gel é deixado a secar durante cerca de 10 minutos, antes da 
+aplicação de um penso que impeça totalmente a passagem de luz no local de tratamento. O penso é 
+retirado ao fim de 3 horas. O gel remanescente é removido. </p>
+<p>Iluminação utilizando uma lâmpada de luz vermelha 
+Após a limpeza, a totalidade da área tratada é iluminada utilizando uma fonte de luz vermelha. A 
+eficácia e os efeitos secundários, como dor temporária, dependem da fonte de luz utilizada. Tanto os 
+doentes como os profissionais de saúde devem respeitar as instruções de segurança fornecidas com a 
+fonte de luz utilizada durante a terapia. Todos os envolvidos na operação devem utilizar óculos de 
+protecção adequados durante a iluminação. Não é necessário proteger pele saudável não tratada. </p>
+<p>Tratamento de lesões e campos de queratoses actínicas no rosto e no couro cabeludo com luz do 
+dia natural </p>
+<p>Considerações a ter antes do tratamento 
+Utilize o tratamento com luz do dia natural apenas se o clima for adequado a permanecer 
+confortavelmente no exterior durante duas horas (com temperaturas &gt;10 °C). Se o tempo estiver 
+chuvoso, ou se houver probabilidade de chuva, não deve utilizar o tratamento com luz do dia natural. </p>
+<p>Preparação das lesões 
+Aplique um protetor solar sobre a pele exposta ao sol, para proteção contra o sol, 15 min antes do 
+tratamento da lesão. Utilize apenas um protetor solar com filtros químicos e com um fator de proteção 
+solar de 30 ou superior. Não utilize um protetor solar com filtros físicos como o dióxido de titânio ou 
+óxido de zinco, pois estes inibem a absorção da luz e podem, por conseguinte, ter um impacto na 
+eficácia. 
+Depois limpe a zona de aplicação com um algodão embebido em álcool para desengordurar a pele. 
+Remova as escamas e as crostas cuidadosamente e esfregue suavemente todas as superfícies da lesão 
+tornando-as ligeiramente rugosas. Tenha cuidado para evitar que sangre. </p>
+<p>Aplicação do gel 
+Aplique Ameluz de modo a formar uma camada fina sobre a totalidade das lesões ou campos e, 
+aproximadamente em 5 mm da zona circundante, utilizando as pontas dos dedos protegidas com luvas 
+ou uma espátula. 
+Evite qualquer contacto com os olhos e as membranas mucosas, mantendo uma distância de pelo 
+menos 1 cm. Lave bem com água se houver contacto. 
+Não é necessário um penso que impeça a entrada de luz. Não limpe o gel durante toda a duração da 
+sessão de tratamento com luz do dia natural. </p>
+<p>Iluminação utilizando a luz do dia natural para o tratamento da queratose actínica 
+Se as condições forem adequadas (queira ver acima: Considerações a ter antes do tratamento), deverá 
+sair para o exterior no período de 30 minutos após a aplicação do gel e permanecer sob a luz do dia 
+durante 2 horas contínuas. É aceitável procurar abrigo à sombra quando o tempo está muito quente. A 
+interrupção do tempo de permanência no exterior deve ser compensada com uma exposição mais 
+prolongada à iluminação. Após as duas horas de exposição à luz, remova o gel remanescente com 
+água. </p>
+<p>Tratamento de lesões e campos de queratoses actínicas no rosto e no couro cabeludo com luz do 
+dia artificial </p>
+<p>A utilização de Ameluz com uma lâmpada de luz do dia artificial exige equipamento específico e 
+conhecimentos no campo da terapêutica fotodinâmica. Por conseguinte, este tratamento é efetuado no 
+consultório do médico. </p>
+<p>Preparação das lesões 
+A área de aplicação é limpa com algodão embebido em álcool para desengordurar a pele. As partículas 
+de descamação e as crostas são cuidadosamente eliminadas. e as superfícies de todas as lesões são 
+suavemente raspadas. É necessário ter cuidado para evitar hemorragias (sangramento). </p>
+<p>Aplicação do gel 
+Aplique Ameluz de modo a formar uma camada fina sobre a totalidade das lesões ou campos e, 
+aproximadamente em 5 mm da zona circundante, utilizando as pontas dos dedos protegidas com luvas 
+ou uma espátula. Deve ser mantida uma distância de pelo menos 1 cm em relação aos olhos e às 
+membranas mucosas. No caso de haver contacto do gel com alguma zona acima mencionada, enxague 
+com água. </p>
+<p>Incubação e iluminação utilizando uma lâmpada de luz do dia artificial 
+Após a aplicação, o tratamento total (abrangendo a incubação e a iluminação) deve ser de 2 horas e 
+não deve exceder as 2,5 horas. Contudo, a iluminação deve ter início no prazo de 0,5 a 1 hora após a 
+aplicação do gel. Não é necessário penso oclusivo durante a incubação. Pode ser utilizado 
+opcionalmente, mas deve ser retirado, o mais tardar, antes da iluminação. Os doentes e os profissionais 
+de saúde devem cumprir todas as instruções de segurança fornecidas com a fonte de luz utilizada 
+durante a terapêutica. Não é necessário proteger pele saudável não tratada. Após a exposição à luz, o 
+gel restante deve ser retirado. </p>
+<p>Número de tratamentos </p>
+<ul>
+<li>
+<p>As lesões e campos de queratose actínica são tratadas com uma sessão </p>
+</li>
+<li>
+<p>O carcinoma basocelular é tratado com duas sessões com um intervalo de uma semana entre as 
+sessões </p>
+</li>
+</ul>
+<p>As lesões tratadas devem ser avaliadas 3 meses após o tratamento. O seu médico decidirá o quão bem 
+cada lesão respondeu e o tratamento poderá ter de ser repetido nessa altura. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Os efeitos indesejáveis no local de aplicação ocorrem em cerca de 
+9 em cada 10 utilizadores e indicam que as células afectadas estão a responder ao tratamento. </p>
+<p>Em geral, os efeitos indesejáveis têm uma intensidade ligeira ou moderada e costumam ocorrer 
+durante a iluminação ou 1 a 4 dias depois. Contudo, em alguns casos, podem persistir durante 1 a 
+2 semanas ou até mais. Em casos raros, devido a reações adversas, p. ex., dor, poderá ser necessário 
+interromper ou suspender a iluminação. Após períodos de tempo mais prolongados, o tratamento com 
+Ameluz resulta com frequência na melhoria contínua dos parâmetros da qualidade da pele. </p>
+<p>Os efeitos indesejáveis listados abaixo foram comunicados ao utilizar-se Ameluz com uma lâmpada de 
+luz vermelha. O estudo de Ameluz com a utilização da luz do dia natural ou artificial revelou tipos 
+semelhantes de efeitos indesejáveis, no entanto, especialmente para a dor, com uma intensidade 
+inferior. Algumas reações no local da aplicação foram observadas antes da utilização da luz. </p>
+<p>Muito frequentes: podem afetar mais de 1 em cada 10 pessoas </p>
+<ul>
+<li>reacções no local da aplicação 
+− 
+vermelhidão da pele<br />
+− 
+dor (incl. ardor) 
+− 
+irritação 
+− 
+comichão 
+− 
+inchaço dos tecidos devido a excesso de fluidos 
+− 
+crosta 
+− 
+descamação da pele, 
+− 
+endurecimento 
+− 
+sensação anormal como picada, formigueiro ou dormência </li>
+</ul>
+<p>Frequentes: podem afetar até 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>reacções no local da aplicação 
+− 
+vesículas 
+− 
+corrimento 
+− 
+abrasão 
+− 
+outra reação 
+− 
+desconforto<br />
+− 
+sensibilidade aumentada à dor 
+− 
+sangramento 
+− 
+sensação de calor </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em cada 100 pessoas  </p>
+<ul>
+<li>
+<p>reacções no local da aplicação 
+− 
+mudança de cor 
+− 
+pústulas 
+− 
+úlcera (ferida) 
+− 
+inchaço 
+− 
+inflamação 
+− 
+eczema com pústulas 
+− 
+reação alérgica1 </p>
+</li>
+<li>
+<p>bolhas </p>
+</li>
+<li>
+<p>pele seca </p>
+</li>
+<li>
+<p>inchaço das pálpebras devido a excesso de fluidos, visão desfocada ou alteração visual </p>
+</li>
+<li>
+<p>sensação ao toque desagradável e anormal </p>
+</li>
+<li>
+<p>calafrios </p>
+</li>
+<li>
+<p>sensação de calor, febre, afrontamentos </p>
+</li>
+<li>
+<p>perda de memória temporária1 </p>
+</li>
+<li>
+<p>dor </p>
+</li>
+<li>
+<p>nervosismo </p>
+</li>
+<li>
+<p>secreção da ferida </p>
+</li>
+<li>
+<p>fadiga </p>
+</li>
+<li>
+<p>erupção na pele, manchas de cor vermelha ou púrpura no corpo </p>
+</li>
+<li>
+<p>úlcera </p>
+</li>
+<li>
+<p>inchaço </p>
+</li>
+<li>
+<p>pele repuxada 
+1Dados após a comercialização </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ameluz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ameluz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no bisnaga e no embalagem exterior 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado.  </p>
+<p>Conservar no frigorífico (2°C e 8°C). </p>
+<p>Manter o a bisnaga bem fechado após primeira abertura. Rejeite as bisnagas abertas 4 meses após a 
+sua abertura. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ameluz </p>
+<ul>
+<li>
+<p>A substância ativa é o ácido 5-aminolevulínico. 
+1 g de Ameluz contém 78 mg de ácido 5-aminolevulínico (sob a forma de cloridrato). </p>
+</li>
+<li>
+<p>Os outros componentes são: 
+fosfato dissódico dihidratado, álcool isopropílico, polissorbato 80, água purificada, benzoato de 
+sódio (E211), dihidrogenofosfato de sódio dihidratado, fosfatidilcolina de soja, triglicéridos de 
+cadeia média, goma xantana. Ver secção </p>
+</li>
+</ul>         </div>"""      
+
+
+
 
 
                     
@@ -1033,6 +1501,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-27a52606a6d06c382d79e38520d58ce1"
 * entry[0].resource = composition-da-27a52606a6d06c382d79e38520d58ce1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp27a52606a6d06c382d79e38520d58ce1"
+* entry[=].resource = mp27a52606a6d06c382d79e38520d58ce1
+                            
+                    
+Instance: bundlepackageleaflet-pt-27a52606a6d06c382d79e38520d58ce1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ameluz Package Leaflet for language pt"
+Description: "ePI document Bundle for ameluz Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-27a52606a6d06c382d79e38520d58ce1"
+* entry[0].resource = composition-pt-27a52606a6d06c382d79e38520d58ce1
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp27a52606a6d06c382d79e38520d58ce1"
@@ -1134,6 +1624,18 @@ RuleSet: 27a52606a6d06c382d79e38520d58ce1ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-27a52606a6d06c382d79e38520d58ce1) // ameluz pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

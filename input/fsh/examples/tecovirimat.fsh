@@ -809,6 +809,474 @@ hjemmeside http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-pt-13b9c5485a5dae25afc0e0c660688026
+InstanceOf: CompositionUvEpi
+Title: "Composition for tecovirimat Package Leaflet"
+Description:  "Composition for tecovirimat Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp13b9c5485a5dae25afc0e0c660688026)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tecovirimat"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Tecovirimat SIGA e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Tecovirimat SIGA </li>
+<li>Como tomar Tecovirimat SIGA </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Tecovirimat SIGA </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tecovirimat e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tecovirimat e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tecovirimat SIGA contém a substância ativa tecovirimat. </p>
+<p>Tecovirimat SIGA é utilizado para tratar infeções virais, como varíola, infeção humana por vírus 
+mpox e varíola bovina em adultos e crianças que pesem pelo menos 13 kg. </p>
+<p>Tecovirimat SIGA também é utilizado para tratar complicações resultantes de vacinas contra a varíola. </p>
+<p>Tecovirimat SIGA atua ao impedir que o vírus se espalhe. Isto ajudará o seu próprio corpo a 
+desenvolver proteção contra o vírus até se sentir melhor. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tecovirimat"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tecovirimat"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Tecovirimat SIGA </p>
+<ul>
+<li>
+<ul>
+<li>se tem alergia a Tecovirimat SIGA ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </li>
+</ul>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Tecovirimat SIGA 
+- se o seu sistema imunitário não funcionar bem (imunodeficiência) ou se estiver a tomar 
+medicamentos que enfraqueçam o sistema imunitário (tais como corticosteroides de dose 
+elevada, imunossupressores ou medicamentos para o cancro). 
+- se o seu fígado ou rins tiverem uma função reduzida. </p>
+<p>Crianças com menos de 13 kg </p>
+<p>Este medicamento não deve ser administrado a crianças que pesem menos de 13 kg. </p>
+<p>Outros medicamentos e Tecovirimat SIGA </p>
+<p>Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. Tem de informar o seu médico se estiver a tomar algum dos seguintes medicamentos: </p>
+<ul>
+<li>
+<p>repaglinida (um medicamento usado para tratar os níveis de glicemia em caso de diabetes) </p>
+</li>
+<li>
+<p>omeprazol, lansoprazol or rabeprazol (usados para tratar as úlceras ou a azia) </p>
+</li>
+<li>
+<p>midazolam (um medicamento usado para pôr as pessoas a dormir antes de uma intervenção 
+cirúrgica) </p>
+</li>
+<li>
+<p>bupropiona (um medicamento usado para tratar a depressão) </p>
+</li>
+<li>
+<p>atorvastatina (um medicamento usado para tratar o colesterol elevado) </p>
+</li>
+<li>
+<p>flurbiprofeno (um medicamento usado para tratar a dor) </p>
+</li>
+<li>
+<p>metadona (um medicamento usado para tratar a dor ou os sintomas de retirada de narcóticos) </p>
+</li>
+<li>
+<p>darunavir, maraviroc or rilpivirina (usados para tratar a infeção por VIH) </p>
+</li>
+<li>
+<p>sildenafil, tadalafil or vardenafil (usados para tratar a disfunção erétil) </p>
+</li>
+<li>
+<p>voriconazol (um medicamento usado para tratar infeções fúngicas) </p>
+</li>
+<li>
+<p>tacrolímus (um medicamento usado para suprimir o sistema imunitário) </p>
+</li>
+</ul>
+<p>Tomar Tecovirimat SIGA com qualquer um destes medicamentos pode impedir que os seus 
+medicamentos atuem adequadamente ou até agravar quaisquer efeitos indesejáveis. O seu médico pode 
+precisar de lhe dar um medicamento diferente ou ajustar a dose do medicamento que está a tomar. A 
+lista acima apresentada não contém todos os medicamentos que o seu médico pode precisar de alterar. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de tomar 
+este medicamento. Tecovirimat SIGA não é recomendado durante a gravidez. </p>
+<p>Desconhece-se se Tecovirimat SIGA é excretado no leite humano. A amamentação não é 
+recomendada durante o tratamento com este medicamento. Informe o seu médico se está a amamentar 
+ou a planear amamentar antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Não conduza nem opere máquinas, caso se sinta tonto. </p>
+<p>Tecovirimat SIGA contém lactose e amarelo sunset FCF (E110) </p>
+<ul>
+<li>
+<p>Tecovirimat SIGA contém lactose. Se foi informado pelo seu médico que tem intolerância a 
+alguns açúcares, contacte-o antes de tomar este medicamento. </p>
+</li>
+<li>
+<p>Este medicamento também contém amarelo sunset FCF (E110), um agente corante. Isto pode 
+causar reações alérgicas. </p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tecovirimat"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tecovirimat"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Adultos e crianças que pesem pelo menos 13 kg </p>
+<p>As doses recomendadas são descritas no quadro abaixo. </p>
+<p>Peso corporal 
+Dose 
+De 13 kg a menos de 25 kg 
+Uma cápsula de Tecovirimat SIGA 200 mg, a cada 12 horas, durante 
+14 dias (200 mg, duas vezes por dia) 
+De 25 kg a menos de 40 kg 
+Duas cápsulas de Tecovirimat SIGA 200 mg, a cada 12 horas, durante 
+14 dias (400 mg, duas vezes por dia) 
+De 40 kg a menos de 120 kg Três cápsulas de Tecovirimat SIGA 200 mg, a cada 12 horas, durante 
+14 dias (600 mg, duas vezes por dia) 
+120 kg ou mais 
+Três cápsulas de Tecovirimat SIGA 200 mg, a cada 8 horas, durante 
+14 dias (600 mg, três vezes por dia) </p>
+<p>Modo de administração </p>
+<p>Tecovirimat SIGA deve ser tomado no prazo de 30 minutos depois de comer uma refeição de teor 
+moderado de calorias e gordura. </p>
+<p>Adultos e crianças que têm dificuldade em engolir cápsulas </p>
+<p>Para os doentes que não conseguem engolir as cápsulas, o médico pode recomendar a abertura da 
+cápsula e a mistura do conteúdo com 30 ml de líquido (como por exemplo, leite, leite com chocolate) 
+ou de alimentos moles (como por exemplo, puré de maçã, iogurte).  </p>
+<p>Lave e seque as mãos antes e depois da preparação. Abra cuidadosamente a cápsula de modo a que o 
+conteúdo não derrame nem escape para o ar. Segure a cápsula com a cabeça virada para cima e retire a 
+cabeça do corpo da cápsula. Utilize um pequeno recipiente para misturar. Misture todo o conteúdo da 
+cápsula com 30 ml de líquido (como por exemplo, leite) ou de alimentos moles (como por exemplo, 
+iogurte). A mistura deve ser tomada no prazo de 30 minutos após misturar e no prazo de 30 minutos 
+após uma refeição. </p>
+<p>A posologia recomendada para adultos e crianças e instruções de preparação são apresentadas na 
+tabela abaixo.  </p>
+<p>Peso 
+corporal 
+Dose de 
+tecovirimat 
+Quantidade 
+de líquido ou 
+alimentos 
+moles 
+Número de 
+cápsulas 
+Instruções sobre a mistura de 
+tecovirimat e alimentos 
+De 13 kg a 
+menos de kg 
+200 mg 
+2 colheres de 
+sopa 
+1 cápsula de 
+Tecovirimat 
+Misture todo o conteúdo de 1 
+cápsula de Tecovirimat com 2 
+colheres de sopa de líquido ou 
+alimentos moles. 
+De 25 kg a 
+menos de kg 
+400 mg 
+2 colheres de 
+sopa 
+2 cápsulas de 
+Tecovirimat 
+Misture todo o conteúdo de 2 
+cápsulas de Tecovirimat com 2 
+colheres de sopa de líquido ou 
+alimentos moles. 
+De 40 kg a 
+menos de 
+120 kg 
+600 mg 
+2 colheres de 
+sopa 
+3 cápsulas de 
+Tecovirimat 
+Misture todo o conteúdo de 3 
+cápsulas de Tecovirimat com 2 
+colheres de sopa de líquido ou 
+alimentos moles. 
+120 kg ou 
+mais 
+600 mg 
+2 colheres de 
+sopa 
+3 cápsulas de 
+Tecovirimat 
+Misture todo o conteúdo de 3 
+cápsulas de Tecovirimat com 2 
+colheres de sopa de líquido ou 
+alimentos moles. </p>
+<p>Se tomar mais Tecovirimat SIGA do que deveria </p>
+<p>Informe o seu médico se tomar demasiadas cápsulas de Tecovirimat SIGA para que o seu médico 
+possa monitorizá-lo para detetar quaisquer sinais ou sintomas de efeitos indesejáveis. </p>
+<p>Caso se tenha esquecido de tomar Tecovirimat SIGA </p>
+<p>Se falhar uma dose, ignore-a e continue com a próxima dose agendada. Não tome uma dose a dobrar 
+para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Tecovirimat SIGA, os seus sintomas podem voltar ou agravar-se </p>
+<p>Não pare de tomar Tecovirimat SIGA antes de ter terminado o tratamento ou sem falar primeiro com o 
+seu médico ou farmacêutico. </p>
+<p>Se vomitar depois de tomar Tecovirimat SIGA </p>
+<p>Se vomitar no prazo de 30 minutos depois de ter tomado Tecovirimat SIGA, pode tomar outra dose de 
+imediato. Se vomitar mais de 30 minutos depois de tomar Tecovirimat SIGA, não tome outra dose e 
+continue com a próxima dose agendada. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Se tiver quaisquer dos seguintes efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não 
+indicados neste folheto, fale com o seu médico ou farmacêutico. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>Dor de cabeça </li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Náuseas ou vómitos </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Dor abdominal </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Apetite reduzido </p>
+</li>
+<li>
+<p>Enzimas do fígado aumentadas </p>
+</li>
+<li>
+<p>Depressão ou ansiedade </p>
+</li>
+<li>
+<p>Irritabilidade </p>
+</li>
+<li>
+<p>Depressão </p>
+</li>
+<li>
+<p>Ataques de pânico </p>
+</li>
+<li>
+<p>Enxaqueca </p>
+</li>
+<li>
+<p>Sensação de cansaço ou sonolência ou incapacidade de dormir </p>
+</li>
+<li>
+<p>Incapacidade de concentração ou baixo nível de atenção </p>
+</li>
+<li>
+<p>Alteração do paladar </p>
+</li>
+<li>
+<p>Formigueiro ou dormência nas mãos, pés ou boca </p>
+</li>
+<li>
+<p>Dor na boca </p>
+</li>
+<li>
+<p>Prisão de ventre </p>
+</li>
+<li>
+<p>Flatulência </p>
+</li>
+<li>
+<p>Indigestão ou indisposição gástrica </p>
+</li>
+<li>
+<p>Mal-estar ou inchaço abdominal </p>
+</li>
+<li>
+<p>Boca seca </p>
+</li>
+<li>
+<p>Lábios secos ou gretados </p>
+</li>
+<li>
+<p>Feridas na boca </p>
+</li>
+<li>
+<p>Eructação ou arrotos </p>
+</li>
+<li>
+<p>Azia </p>
+</li>
+<li>
+<p>Comichão ou erupção na pele (urticária) </p>
+</li>
+<li>
+<p>Dor e rigidez articular </p>
+</li>
+<li>
+<p>Febre </p>
+</li>
+<li>
+<p>Arrepios </p>
+</li>
+<li>
+<p>Sensação de indisposição (mal-estar geral) </p>
+</li>
+<li>
+<p>Dor </p>
+</li>
+<li>
+<p>Sensação de sede </p>
+</li>
+<li>
+<p>Se fizer um exame à atividade elétrica do seu cérebro, chamado eletroencefalograma, o exame 
+pode apresentar leituras alteradas da atividade elétrica do cérebro.  </p>
+</li>
+<li>
+<p>Se fizer análises ao sangue, estas podem revelar valores de glóbulos vermelhos ou glóbulos 
+brancos ou plaquetas mais baixos do que é habitual. </p>
+</li>
+<li>
+<p>Frequência cardíaca aumentada (taquicardia) ou frequência cardíaca irregular </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tecovirimat"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tecovirimat"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco após VAL. O prazo de 
+validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar na embalagem de origem para proteger da luz. </p>
+<p>Conservar a temperatura inferior a 25ºC. </p>
+<p>Não utilize este medicamento se verificar que a cápsula está partida ou danificada de alguma forma. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tecovirimat SIGA </p>
+<ul>
+<li>A substância ativa é tecovirimat mono-hidratado equivalente a 200 mg de tecovirimat  </li>
+<li>Os outros componentes são: 
+Núcleo da cápsula: sílica coloidal anidra, croscarmelose sódica (E468), hipromelose (E464), 
+lactose mono-hidratada, estearato de magnésio, celulose microcristalina (E460) e laurilsulfato 
+de sódio (E487). 
+Revestimento da cápsula: gelatina, azul brilhante FCF (E133), eritrosina (E127), amarelo sunset 
+FCF (E110) e dióxido de titânio (E171). 
+Tinta de impressão: goma-laca (E904), dióxido de titânio (E171), álcool isopropílico, hidróxido 
+de amónio (E527), álcool butílico, propilenoglicol e simeticona. </li>
+</ul>
+<p>Qual o aspeto de Tecovirimat SIGA e conteúdo da embalagem </p>
+<ul>
+<li>Tecovirimat SIGA são cápsulas cor de laranja e pretas, com a impressão ‘SIGA®’ e ‘ST-246’ 
+em tinta branca. As cápsulas têm 21,7 milímetros de comprimento e 7,64 milímetros de 
+diâmetro. </li>
+<li>Tecovirimat SIGA está disponível numa embalagem contendo 84 (2 frascos de 42) cápsulas. </li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>SIGA Technologies Netherlands B.V. 
+Prinsenhil 29, 
+Breda 4825 AX, 
+Países Baixos </p>
+<p>Fabricante </p>
+<p>Millmount Healthcare Limited 
+Block-7, City North Business Campus, 
+Stamullen 
+Co. Meath 
+K32 YDIrlanda </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Foi concedida a este medicamento uma «Autorização de Introdução no Mercado em circunstâncias 
+excecionais». Isto significa que não foi possível obter informação completa sobre este medicamento 
+por razões éticas. 
+A Agência Europeia de Medicamentos irá analisar todos os anos, qualquer nova informação sobre este 
+medicamento e este folheto será atualizado se necessário. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -850,6 +1318,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-13b9c5485a5dae25afc0e0c660688026"
 * entry[0].resource = composition-da-13b9c5485a5dae25afc0e0c660688026
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp13b9c5485a5dae25afc0e0c660688026"
+* entry[=].resource = mp13b9c5485a5dae25afc0e0c660688026
+                            
+                    
+Instance: bundlepackageleaflet-pt-13b9c5485a5dae25afc0e0c660688026
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tecovirimat Package Leaflet for language pt"
+Description: "ePI document Bundle for tecovirimat Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-13b9c5485a5dae25afc0e0c660688026"
+* entry[0].resource = composition-pt-13b9c5485a5dae25afc0e0c660688026
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp13b9c5485a5dae25afc0e0c660688026"
@@ -951,6 +1441,18 @@ RuleSet: 13b9c5485a5dae25afc0e0c660688026ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-13b9c5485a5dae25afc0e0c660688026) // tecovirimat pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

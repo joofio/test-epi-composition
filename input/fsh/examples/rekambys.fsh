@@ -1217,6 +1217,574 @@ er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på 
 
 
 
+Instance: composition-pt-9af059b2ba34008a8e3668c3f552d22f
+InstanceOf: CompositionUvEpi
+Title: "Composition for rekambys Package Leaflet"
+Description:  "Composition for rekambys Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9af059b2ba34008a8e3668c3f552d22f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - rekambys"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é REKAMBYS e para que é utilizado
+2. O que precisa de saber antes de utilizar REKAMBYS
+3. Como é administrado REKAMBYS
+4. Efeitos indesejáveis possíveis
+5. Como conservar REKAMBYS
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é rekambys e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é rekambys e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>REKAMBYS contém a substância ativa rilpivirina. É um medicamento de um grupo chamado 
+inibidores não nucleósidos da transcriptase reversa (NNRTIs) que são utilizados para o tratamento da 
+infeção pelo vírus da imunodeficiência humana tipo 1 (VIH-1).
+REKAMBYS atua em conjunto com outros medicamentos para o VIH para bloquear a capacidade do 
+vírus de fazer mais cópias de si mesmo. As injeções de REKAMBYS não curam a infeção por VIH 
+mas ajudam a reduzir a quantidade de VIH no seu corpo e a mantê-la num nível baixo. Isto atrasa 
+danos ao sistema imunitário e o desenvolvimento de infeções e doenças associadas à SIDA.
+REKAMBYS é sempre administrado com outro medicamento para o VIH chamado cabotegravir 
+injetável. São usados em conjunto, em adultos com 18 anos de idade ou mais, cuja infeção por VIH-1 
+já esteja sob controlo.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar rekambys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar rekambys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize REKAMBYS se tem alergia à rilpivirina ou a qualquer outro componente deste 
+medicamento (indicados na secção 6).
+Não utilize REKAMBYS se estiver a tomar qualquer um dos seguintes medicamentos uma vez 
+que podem afetar a forma como REKAMBYS ou os outros medicamentos atuam:
+-
+carbamazepina, oxcarbazepina, fenobarbital, fenitoína (medicamentos para tratar epilepsia e 
+prevenir convulsões)
+-
+rifabutina, rifampicina, rifapentina (medicamentos para tratar algumas infeções bacterianas, tais 
+como tuberculose)
+-
+dexametasona (um corticosteroide utilizado numa variedade de condições, tais como inflamação 
+e reações alérgicas) como ciclo de tratamento pela boca ou injeção
+-
+produtos que contenham hipericão (Hypericum perforatum, um remédio à base de plantas 
+utilizado para a depressão).
+45
+Se está a tomar algum dos medicamentos acima, pergunte ao seu médico sobre alternativas.
+Advertências e precauções
+Fale com o seu médico ou farmacêutico antes de utilizar REKAMBYS.
+REKAMBYS não é uma cura para a infeção por VIH. É parte de um tratamento para diminuir a
+quantidade de vírus no sangue.
+Informe o seu médico sobre a sua situação
+Verifique os seguintes pontos e informe o seu médico se algum deles se aplica a si.
+-
+Tem de comparecer a todas as visitas planeadas para as injeções, não falte a nenhuma visita, é 
+muito importante para o sucesso do seu tratamento. Se não conseguir comparecer a uma visita 
+planeada, informe o seu médico assim que possível.
+-
+Informe o seu médico se alguma vez sofreu de problemas no seu fígado, incluindo hepatite B 
+ou hepatite C, ou problemas nos seus rins. O seu médico pode verificar quão bem o seu fígado 
+ou rins funcionam para decidir se pode utilizar REKAMBYS. Ver em “Efeitos indesejáveis 
+pouco frequentes" na secção 4 deste folheto os sinais de danos no fígado.
+-
+Informe imediatamente o seu médico se notar quaisquer sintomas de infeções (por exemplo, 
+febre, arrepios, suores). Em alguns doentes com VIH, pode ocorrer inflamação resultante de 
+infeções anteriores, pouco depois do início do tratamento para o VIH. Supõe-se que estes 
+sintomas são devidos a uma melhoria da resposta imunológica do organismo, permitindo assim 
+ao organismo combater infeções que estavam previamente presentes mas que não causaram 
+quaisquer sintomas evidentes.
+-
+Informe também o seu médico imediatamente se notar quaisquer sintomas tais como fraqueza 
+muscular, fraqueza que começa nas mãos e nos pés e sobe em direção ao tronco, palpitações, 
+tremores ou hiperatividade. Isto é porque as doenças autoimunes (condições em que o sistema 
+imunitário por engano ataca tecidos corporais saudáveis) também podem ocorrer depois de 
+começar a tomar os medicamentos para o tratamento da sua infeção pelo VIH. As doenças 
+autoimunes podem ocorrer vários meses após o início do tratamento.
+-
+Fale com o seu médico se está a tomar qualquer medicamento que lhe foi informado poder
+causar um batimento cardíaco irregular colocando a vida em risco (torsade de pointes).
+Reações às Injeções
+Ocorreram sintomas de reações pós-injeção em algumas pessoas minutos após receberem a sua injeção 
+de rilpivirina. A maioria dos sintomas resolveram-se em poucos minutos após a injeção. Os sintomas 
+de reações pós-injeção podem incluir: dificuldade em respirar, dores de estômago (cólicas), erupção na 
+pele, suor, dormência da sua boca, sensação de ansiedade, sensação de calor, sentir-se atordoado ou 
+sentir que vai desmaiar, alterações na pressão sanguínea e dores (ex.º: costas e peito). Informe o seu 
+profissional de saúde se tiver estes sintomas após receber as suas injeções.
+As consultas regulares são importantes
+É importante que compareça às suas consultas planeadas para receber REKAMBYS, para controlar 
+a sua infeção pelo VIH e para impedir que a sua doença piore. Não falte a nenhuma consulta, é muito 
+importante para o sucesso do seu tratamento. Se não conseguir comparecer a uma visita planeada, 
+informe o seu médico assim que possível. Fale com o seu médico se estiver a pensar interromper o 
+tratamento. Se se atrasar a receber a sua injeção de REKAMBYS ou se parar de receber REKAMBYS, 
+necessitará de tomar outros medicamentos para tratar a infeção pelo VIH e para reduzir o risco do 
+vírus se tornar resistente uma vez que os níveis do medicamento no seu corpo serão demasiado baixos 
+para tratar a infeção por VIH.
+Crianças
+REKAMBYS não se destina ao uso em crianças e adolescentes com menos de 18 anos, uma vez que 
+não foi estudado nestes doentes.
+46
+Outros medicamentos e REKAMBYS
+Informe o seu prestador de cuidados de saúde se estiver a tomar, tiver tomado recentemente, ou se vier 
+a tomar outros medicamentos. Alguns medicamentos podem afetar os níveis de REKAMBYS no 
+sangue se os estiver a tomar enquanto estiver a ser tratado com REKAMBYS, ou REKAMBYS pode 
+afetar o quão bem os outros medicamentos atuam.
+REKAMBYS não pode ser administrado com alguns outros medicamentos (ver ‘Não utilizar 
+REKAMBYS’ na secção 2).
+Os efeitos de REKAMBYS ou de outros medicamentos podem ser alterados caso utilize 
+REKAMBYS ao mesmo tempo que algum dos seguintes medicamentos:
+-
+claritromicina, eritromicina (antibióticos)
+-
+metadona (utilizado para tratar a privação e dependência de narcóticos)
+Se está a tomar algum dos medicamentos acima, pergunte ao seu médico por alternativas.
+Gravidez e amamentação
+Se estiver grávida ou planeia engravidar, contacte o seu médico imediatamente. O seu médico irá 
+considerar o benefício e o risco para si e para o seu bebé de utilizar REKAMBYS enquanto estiver 
+grávida. Se planeia engravidar, fale com o seu médico antes, uma vez que a rilpivirina pode 
+permanecer no seu corpo por um período até 4 anos após a última injeção de REKAMBYS.
+A amamentação não é recomendada em mulheres que vivem com VIH porque a infeção pelo VIH 
+pode passar para o bebé através do leite materno.
+Se está a amamentar ou pensa em amamentar, deverá assim que possível, aconselhar-se com o seu 
+médico.
+Condução de veículos e utilização de máquinas
+Alguns doentes podem sentir-se cansados, com tonturas ou com sono durante o tratamento com
+REKAMBYS. Não conduza ou utilize máquinas se sentir algum destes efeitos indesejáveis.
+Informação importante sobre alguns ingredientes de REKAMBYS
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 2 ml de injeção, ou seja, é 
+praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar rekambys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar rekambys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Um enfermeiro ou médico irá administrar-lhe REKAMBYS como uma injeção no músculo da sua 
+nádega (injeção intramuscular ou IM).
+Ser-lhe-á administrada a sua injeção uma vez por mês ou uma vez a cada 2 meses, em conjunto com
+outro medicamento injetável chamado cabotegravir. O seu médico irá explicar com que frequência o 
+medicamento será administrado.
+Quando iniciar o seu tratamento com REKAMBYS, você e o seu médico podem decidir começar 
+com o tratamento diário com um comprimido de 25 mg de rilpivirina com uma refeição e um 
+comprimido de 30 mg de cabotegravir durante um mês antes da primeira injeção com REKAMBYS. 
+Isto é chamado período de introdução - tomar os comprimidos antes de receber injeções de 
+REKAMBYS e de cabotegravir irá permitir ao seu médico testar quão bem estes medicamentos se 
+adequam a si.
+A outra opção é que você e o seu médico podem decidir começar diretamente com injeções de 
+REKAMBYS.
+Se lhe vai ser administrado REKAMBYS a cada mês, o seu tratamento será o seguinte:
+47
+Quando
+Medicamento
+Primeira injeção
+Segunda injeção em diante, 
+mensalmente
+Rilpivirina
+injeção única de 900 mg 
+600 mg por injeção a cada mês
+Cabotegravir
+injeção única de 600 mg
+400 mg por injeção a cada mês
+Se lhe vai ser administrado REKAMBYS a cada 2 meses, o seu tratamento será o seguinte:
+Quando
+Medicamento
+Primeira e segunda injeção, um 
+mês de intervalo
+Terceira injeção em diante, a cada dois 
+meses
+Rilpivirina
+injeção única de 900 mg 
+900 mg por injeção, a cada 2 meses
+Cabotegravir
+injeção única de 600 mg
+600 mg por injeção, a cada 2 meses
+Se não receber uma injeção de REKAMBYS
+É importante que compareça às suas consultas regulares planeadas para receber a sua injeção. Se faltar 
+a uma consulta, contacte o seu médico imediatamente para marcar uma nova consulta.
+Fale com o seu médico se achar que não irá conseguir receber a sua injeção de REKAMBYS na altura 
+habitual. O seu médico poderá recomendar-lhe que tome comprimidos até que seja possível receber de 
+novo uma injeção de REKAMBYS.
+Se lhe for administrado mais REKAMBYS do que deveria
+Este medicamento ser-lhe-á administrado por um médico ou enfermeiro, pelo que não é provável que 
+lhe seja administrado em demasia. Se estiver preocupado, informe o seu médico ou enfermeiro.
+Não pare de utilizar REKAMBYS sem lhe ser aconselhado pelo seu médico.
+Utilize REKAMBYS durante o tempo recomendado pelo seu médico. Não pare sem que o seu médico 
+lho aconselhe.
+Baixos níveis de rilpivirina (a substância ativa de REKAMBYS) podem permanecer no seu corpo por 
+um período até 4 anos após a interrupção do tratamento. No entanto, assim que receber a sua última 
+injeção de REKAMBYS, os baixos níveis de rilpivirina que permanecem não irão atuar bem o 
+suficiente contra o vírus que pode, então, tornar-se resistente. Para manter a sua infeção por VIH-1 sob 
+controlo e impedir que o vírus se torne resistente, tem de iniciar um tratamento diferente para o VIH 
+na altura em que a sua próxima injeção de REKAMBYS estava planeada.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+O que se segue é uma lista de efeitos indesejáveis que foram notificados com a utilização de 
+REKAMBYS com cabotegravir injetável.
+Efeitos indesejáveis muito frequentes (afetam pelo menos 1 em 10 pessoas)
+
+dor de cabeça
+
+reações no local de injeção - estas são geralmente ligeiras a moderadas e tornaram-se menos 
+frequentes com o passar do tempo. Os sintomas podem incluir:
+o
+muito frequentes: dor e desconforto, uma massa ou nódulo endurecido
+o
+frequentes: vermelhidão, comichão, inchaço, calor ou nódoa negra (que pode incluir 
+descoloração ou acumulação de sangue sob a pele).
+o
+pouco frequentes: dormência, hemorragia ligeira, um abcesso (acumulação de pus) ou 
+celulite (calor, inchaço ou vermelhidão).
+
+sentir-se quente/febril (pirexia), que pode ocorrer dentro de uma semana após as injeções.
+48
+Efeitos indesejáveis frequentes (afetam menos de 1 em 10 pessoas)
+
+depressão
+
+ansiedade
+
+sonhos anormais
+
+dificuldade em dormir (insónia)
+
+tonturas
+
+sentir-se enjoado (náuseas)
+
+vómitos
+
+dor de barriga (dor abdominal)
+
+gases (flatulência)
+
+diarreia
+
+erupção na pele
+
+dor muscular (mialgia)
+
+cansaço (fadiga)
+
+sensação de fraqueza (astenia)
+
+mal-estar geral
+
+aumento de peso
+Efeitos indesejáveis pouco frequentes (afetam menos de 1 em 100 pessoas):
+
+sentir-se com sono (sonolência)
+
+sentir-se atordoado, durante ou após a injeção. Isto pode levar a que desmaie.
+
+danos no fígado (os sinais podem incluir amarelecimento da pele e da parte branca dos olhos, 
+perda de apetite, comichão, dor na barriga, fezes de cor clara ou urina invulgarmente escura).
+
+alterações nas análises sanguíneas ao fígado (aumento nas transaminases)
+
+aumento na bilirrubina (uma substância produzida pelo fígado) no sangue.
+Outros efeitos indesejáveis
+
+dor abdominal grave causada pela inflamação do pâncreas (pancreatite).
+Os seguintes efeitos indesejáveis que podem ocorrer com comprimidos de rilpivirina também podem 
+ocorrer com injeção de REKAMBYS:
+Efeitos indesejáveis muito frequentes (afetam pelo menos 1 em 10 pessoas)
+
+aumento do colesterol e/ou amilase pancreática no seu sangue
+Efeitos indesejáveis frequentes (afetam menos de 1 em 10 pessoas)
+
+apetite diminuído
+
+perturbações do sono
+
+humor depressivo
+
+desconforto no estômago
+
+boca seca
+
+número de glóbulos brancos e/ou plaquetas baixo, diminuição na hemoglobina no seu sangue, 
+aumento dos triglicéridos e/ou lipase no seu sangue
+Efeitos indesejáveis pouco frequentes (afetam menos de 1 em 100 pessoas)
+
+sinais ou sintomas de inflamação ou infeção, por exemplo febre, arrepios, suores (síndrome de 
+reativação imunológica, ver secção 2 para mais detalhes)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.
+49</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar rekambys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar rekambys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior após VAL. O 
+prazo de validade corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2°C - 8°C). Não congelar.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de REKAMBYS</h2>
+<p>A substância ativa é rilpivirina. Cada frasco para injetáveis de 2 ml contém 600 mg de 
+rilpivirina.
+-
+Os outros excipientes são poloxâmero 338, ácido cítrico mono-hidratado, glucose mono-
+hidratada, di-hidrogenofosfato de sódio mono-hidratado, hidróxido de sódio para ajustar o pH e 
+garantir isotonicidade e água para preparações injetáveis.
+Qual o aspeto de REKAMBYS e conteúdo da embalagem
+Suspensão injetável de libertação prolongada. REKAMBYS é disponibilizado num frasco para 
+injetáveis de vidro. A embalagem também contém 1 seringa, 1 adaptador para frascos para injetáveis e 
+1 agulha para injeção.
+Titular da Autorização de Introdução no Mercado
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Bélgica
+Fabricante
+Janssen Pharmaceutica NV
+Turnhoutseweg 30
+B-2340 Beerse
+Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+ViiV Healthcare srl/bv
+Tél/Tel: + 32 (0) 10 85 65 00
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+50
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+ViiV Healthcare srl/bv
+Belgique/Belgien
+Tél/Tel: + 32 (0) 10 85 65 00
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.comJanssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000AM MANGION LTD.
+Tel: +356 2397 6000
+Deutschland
+ViiV Healthcare GmbH
+Tel.: + 49 (0)89 203 0038-10
+viiv.med.info@viivhealthcare.com
+Nederland
+ViiV Healthcare BV
+Tel: + 31 (0) 33 2081199
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Laboratorios ViiV Healthcare, S.L.
+Tel: + 34 900 923 501
+es-ci@viivhealthcare.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+ViiV Healthcare SAS
+Tél.: + 33 (0)1 39 17 69 69
+Infomed@viivhealthcare.com
+Portugal
+VIIVHIV HEALTHCARE, UNIPESSOAL, 
+LDA
+Tel: + 351 21 094 08 01
+viiv.fi.pt@viivhealthcare.com
+51
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Johnson &amp; Johnson s.r.o.
+Tel: +421 232 408 400
+Italia
+ViiV Healthcare S.r.l
+Tel: +39 045 7741600
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+ViiV Healthcare BV
+Tel: + 44 (0)800 221441
+customercontactuk@gsk.com 
+Este folheto foi revisto pela última vez em {MM/AAAA}.
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1258,6 +1826,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9af059b2ba34008a8e3668c3f552d22f"
 * entry[0].resource = composition-da-9af059b2ba34008a8e3668c3f552d22f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9af059b2ba34008a8e3668c3f552d22f"
+* entry[=].resource = mp9af059b2ba34008a8e3668c3f552d22f
+                            
+                    
+Instance: bundlepackageleaflet-pt-9af059b2ba34008a8e3668c3f552d22f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rekambys Package Leaflet for language pt"
+Description: "ePI document Bundle for rekambys Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9af059b2ba34008a8e3668c3f552d22f"
+* entry[0].resource = composition-pt-9af059b2ba34008a8e3668c3f552d22f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9af059b2ba34008a8e3668c3f552d22f"
@@ -1359,6 +1949,18 @@ RuleSet: 9af059b2ba34008a8e3668c3f552d22fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9af059b2ba34008a8e3668c3f552d22f) // rekambys pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

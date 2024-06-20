@@ -646,6 +646,375 @@ hjemmeside: http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-4c464411361072df4cc109cbbcdd523e
+InstanceOf: CompositionUvEpi
+Title: "Composition for sunosi Package Leaflet"
+Description:  "Composition for sunosi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4c464411361072df4cc109cbbcdd523e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - sunosi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Sunosi e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Sunosi </li>
+<li>Como tomar Sunosi </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Sunosi </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é sunosi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é sunosi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sunosi contém a substância ativa solrianfetol. O solrianfetol aumenta a quantidade das substâncias 
+naturais, dopamina e norepinefrina (noradrenalina), no seu cérebro. Sunosi ajuda-o a permanecer 
+acordado e a sentir-se menos sonolento. </p>
+<p>É utilizado: </p>
+<ul>
+<li>
+<p>em adultos com narcolepsia, uma afeção que lhe causa uma sonolência repentina e faz com que 
+se sinta inesperadamente muito sonolento em qualquer altura. Alguns doentes com narcolepsia 
+também têm sintomas de cataplexia (quando os músculos ficam fracos em resposta a emoções 
+como cólera, medo, riso ou surpresa, por vezes causando colapso). </p>
+</li>
+<li>
+<p>para melhorar a vigília e reduzir a sonolência diurna excessiva (SDE) em doentes adultos com 
+apneia obstrutiva do sono (AOS) cuja SDE não foi satisfatoriamente tratada pela terapêutica 
+primária para a AOS, como pressão positiva contínua de ar (CPAP). </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar sunosi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar sunosi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Sunosi: </p>
+<ul>
+<li>
+<p>se tem alergia ao solrianfetol ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>se teve um ataque cardíaco no último ano </p>
+</li>
+<li>
+<p>se tem problemas cardíacos graves, como dor no peito com início recente ou dor no peito com 
+uma duração mais prolongada ou que é mais intensa do que o habitual, uma tensão arterial 
+elevada que não está a ser bem controlada com medicamentos, um batimento cardíaco irregular 
+grave ou outros problemas cardíacos graves. </p>
+</li>
+<li>
+<p>se está a tomar um tipo de medicamento chamado “inibidor da monoamina oxidase" (IMAO) 
+para a depressão ou para a doença de Parkinson, ou tomou um IMAO nos últimos 14 dias. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Sunosi se tem ou já teve: </p>
+<ul>
+<li>
+<p>problemas de saúde mental, incluindo psicose (sensação alterada do que é real) e alterações 
+extremas do humor (doença bipolar) </p>
+</li>
+<li>
+<p>problemas de coração, ataque de coração ou trombose </p>
+</li>
+<li>
+<p>tensão arterial elevada </p>
+</li>
+<li>
+<p>alcoolismo ou qualquer abuso ou dependência de medicamentos ou de drogas recreativas </p>
+</li>
+<li>
+<p>uma afeção ocular chamada glaucoma de ângulo fechado </p>
+</li>
+</ul>
+<p>Antes de iniciar o tratamento, informe o seu médico ou farmacêutico se qualquer uma das situações 
+acima se lhe aplicar. Isto porque Sunosi pode agravar alguns destes problemas. O seu médico vai 
+querer controlar a forma como o medicamento o afeta. </p>
+<p>Sunosi não substitui o seu tratamento primário para a AOS como, por exemplo, a CPAP. Deve 
+continuar a utilizar este tipo de tratamento além de Sunosi. </p>
+<p>Crianças e adolescentes 
+Sunosi não é recomendado em crianças ou adolescentes com menos de 18 anos de idade. A segurança 
+e a eficácia não são ainda conhecidas neste grupo etário. </p>
+<p>Outros medicamentos e Sunosi 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. </p>
+<p>Não tome Sunosi: </p>
+<ul>
+<li>se está a tomar um medicamento chamado “inibidor da monoamina oxidase" (IMAO) para a 
+depressão ou para a doença de Parkinson, ou tomou um IMAO nos últimos 14 dias, porque a 
+toma de um IMAO com Sunosi pode aumentar a sua tensão arterial. </li>
+</ul>
+<p>Fale com o seu médico ou farmacêutico se está a tomar medicamentos que podem aumentar a tensão 
+arterial ou a frequência do coração ou se está a tomar agentes dopaminérgicos (p. ex., pramipexol, 
+levodopa, metilfenidato), os quais são utilizados para tratar a doença de Parkinson, depressão, 
+síndrome das pernas inquietas e a PDAH. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Sunosi não deve ser utilizado durante a gravidez ou em mulheres com potencial para engravidar que 
+não utilizam métodos contracetivos eficazes. </p>
+<p>Não deve utilizar Sunosi durante a amamentação. Tem de decidir juntamente com o seu médico, se 
+evita amamentar ou se para ou evita a terapêutica com Sunosi, tendo em conta o benefício da 
+amamentação para si e para a sua criança e o benefício da terapêutica para si. </p>
+<p>Condução de veículos e utilização de máquinas 
+Pode sentir tonturas ou a sua capacidade para se concentrar pode estar alterada; tome especial cuidado 
+quando conduzir e utilizar máquinas. </p>
+<p>Fale com o seu médico ou farmacêutico se tiver dúvidas sobre como a sua doença subjacente ou este 
+medicamento o afeta em atividades que exigem atenção, como conduzir um carro e utilizar máquinas: </p>
+<ul>
+<li>
+<p>no início do tratamento </p>
+</li>
+<li>
+<p>se a dose for alterada </p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar sunosi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar sunosi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Quanto Sunosi deve tomar </p>
+<p>O seu médico informá-lo-á sobre a dose de Sunosi que terá de tomar. </p>
+<ul>
+<li>
+<p>Para a narcolepsia, normalmente o tratamento é iniciado com uma dose de 75 mg uma vez por 
+dia, de manhã quando acorda. </p>
+</li>
+<li>
+<p>Alguns doentes podem necessitar de uma dose inicial de 150 mg. </p>
+</li>
+<li>
+<p>O seu médico informá-lo-á se isto se aplica a si. O seu médico pode receitar-lhe uma dose mais 
+baixa de 37,5 mg. Pode obter esta dose tomando metade de um comprimido de 75 mg. O 
+comprimido deve ser dividido utilizando a ranhura. </p>
+</li>
+<li>
+<p>Normalmente, na AOS, o tratamento é iniciado com uma dose de 37,5 mg uma vez por dia, de 
+manhã quando acorda. Pode obter esta dose tomando metade de um comprimido de 75 mg. O 
+comprimido deve ser dividido utilizando a ranhura. </p>
+</li>
+<li>
+<p>O seu médico pode aumentar a sua dose diária após um mínimo de 3 dias para a dose que é mais 
+adequada. </p>
+</li>
+</ul>
+<p>A dose diária máxima recomendada de Sunosi é de 150 mg por dia. </p>
+<p>Idosos (com mais de 65 anos de idade) 
+Tome a dose diária habitual a menos que tenha problemas nos rins (ver abaixo “Doentes com 
+problemas nos rins."). </p>
+<p>Doentes com problemas nos rins 
+Se tiver problemas nos rins o seu médico pode necessitar de ajustar a dose. </p>
+<p>Como tomar Sunosi </p>
+<ul>
+<li>
+<p>Sunosi é para administração por via oral. </p>
+</li>
+<li>
+<p>Tome Sunosi por via oral de manhã quando acorda. </p>
+</li>
+<li>
+<p>Pode tomar Sunosi com ou sem alimentos ou entre as refeições. </p>
+</li>
+</ul>
+<p>Durante quanto tempo tem de tomar Sunosi 
+Deve continuar a tomar Sunosi enquanto o seu médico lhe disser que o faça. </p>
+<p>Se tomar mais Sunosi do que deveria 
+Observaram-se os seguintes sintomas quando doentes receberam 900 mg de Sunosi (6 vezes a dose 
+diária máxima): movimentos descontrolados (discinesia tardia) e sensação de agitação e incapacidade 
+de ficarem quietos (acatisia). Estes sintomas resolveram-se quando Sunosi foi interrompido. </p>
+<p>Contacte imediatamente o seu médico ou os serviços de urgência do hospital mais próximo para 
+aconselhamento. Leve consigo este folheto e quaisquer comprimidos que ainda tenha. </p>
+<p>Caso se tenha esquecido de tomar Sunosi 
+Caso se tenha esquecido de tomar o seu medicamento à hora habitual, pode ainda tomá-la se o período 
+de tempo antes de se deitar for superior a 9 horas. Não tome uma dose a dobrar para compensar uma 
+dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Sunosi 
+Fale com o seu médico antes de parar de tomar Sunosi. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>Dores de cabeça </li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Ansiedade, dificuldade em dormir, irritabilidade, tonturas, sensação de nervosismo, transpiração 
+excessiva </p>
+</li>
+<li>
+<p>Batimentos rápidos ou irregulares do coração, também designado por palpitações, desconforto 
+no peito </p>
+</li>
+<li>
+<p>Tensão arterial elevada </p>
+</li>
+<li>
+<p>Sensação de enjoo, diarreia, dor no abdómen, prisão de ventre, vómitos </p>
+</li>
+<li>
+<p>Tosse, apertar ou ranger os doentes, boca seca </p>
+</li>
+<li>
+<p>Perda de apetite. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>Sensação de agitação, desassossego, incapacidade para se concentrar, tremores </p>
+</li>
+<li>
+<p>Aumento da frequência do coração para um valor muito mais elevado do que o normal </p>
+</li>
+<li>
+<p>Falta de ar </p>
+</li>
+<li>
+<p>Dor no peito </p>
+</li>
+<li>
+<p>Sede </p>
+</li>
+<li>
+<p>Perda de peso. </p>
+</li>
+</ul>
+<p>Foram igualmente notificados casos de erupção na pele, urticária e comichão. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar sunosi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar sunosi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+frasco / blister, após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Blisters: o medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Frascos: utilize no prazo de 4 meses após a abertura. Manter o frasco bem fechado para proteger da 
+humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Sunosi 
+A substância ativa é o solrianfetol. </p>
+<p>Sunosi 75 mg comprimidos revestidos por película 
+Cada comprimido contém cloridrato de solrianfetol equivalente a 75 mg de solrianfetol. </p>
+<p>Sunosi 150 mg comprimidos revestidos por película 
+Cada comprimido contém cloridrato de solrianfetol equivalente a 150 mg de solrianfetol. </p>
+<p>Os outros componentes são: 
+Núcleo do comprimido: hidroxipropilcelulose, estearato de magnésio </p>
+<p>Revestimento por película: álcool de polivinilo, macrogol, talco, dióxido de titânio (E171), óxido de 
+ferro amarelo (E172). </p>
+<p>Qual o aspeto de Sunosi e conteúdo da embalagem 
+Comprimido revestido por película </p>
+<p>Sunosi 75 mg comprimidos revestidos por película 
+Comprimido oblongo amarelo a amarelo escuro/alaranjado com “75" gravado num lado e uma ranhura 
+no lado oposto. O comprimido pode ser dividido em doses iguais. </p>
+<p>Sunosi 150 mg comprimidos revestidos por película 
+Comprimido oblongo amarelo, com “150" gravado num lado. </p>
+<p>Sunosi está disponível em embalagens blister de 7 x 1 comprimidos revestidos por película em blisters 
+de PVC/PCTFE/alumínio perfurados para doses unitárias, 28 e 56 comprimidos revestidos por película 
+e em frascos de 30 e 100 comprimidos revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular de Autorização de Marketing 
+Atnahs Pharma Netherlands B. V. 
+Copenhagen Towers 
+Ørestads Boulevard 108, 5.tv 
+DK-2300 København S 
+Dinamarca </p>
+<p>Fabricante 
+Cilatus Manufacturing Services Limited<br />
+Pembroke House 
+28-32 Pembroke Street Upper 
+Dublin 2 
+Co. Dublin 
+D02 EKIrlanda </p>
+<p>Este folheto foi revisto pela última vez em MM/YYYY. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -687,6 +1056,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-4c464411361072df4cc109cbbcdd523e"
 * entry[0].resource = composition-da-4c464411361072df4cc109cbbcdd523e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4c464411361072df4cc109cbbcdd523e"
+* entry[=].resource = mp4c464411361072df4cc109cbbcdd523e
+                            
+                    
+Instance: bundlepackageleaflet-pt-4c464411361072df4cc109cbbcdd523e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sunosi Package Leaflet for language pt"
+Description: "ePI document Bundle for sunosi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-4c464411361072df4cc109cbbcdd523e"
+* entry[0].resource = composition-pt-4c464411361072df4cc109cbbcdd523e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp4c464411361072df4cc109cbbcdd523e"
@@ -788,6 +1179,18 @@ RuleSet: 4c464411361072df4cc109cbbcdd523eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-4c464411361072df4cc109cbbcdd523e) // sunosi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

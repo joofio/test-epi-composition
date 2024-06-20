@@ -1196,6 +1196,651 @@ punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </d
 
 
 
+Instance: composition-pt-6dd54a91ba651345f1ff3d87a8449c07
+InstanceOf: CompositionUvEpi
+Title: "Composition for viread Package Leaflet"
+Description:  "Composition for viread Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6dd54a91ba651345f1ff3d87a8449c07)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - viread"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Viread e para que é utilizado 
+2. O que precisa de saber antes do seu filho tomar Viread 
+3. Como tomar Viread 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Viread 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é viread e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é viread e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Viread contém a substância ativa, tenofovir disoproxil. Esta substância ativa é um fármaco 
+antirretroviral ou antiviral utilizado para tratar a infeção pelo VIH, ou pelo VHB, ou por ambos. O 
+tenofovir é um análogo nucleótido inibidor da transcriptase reversa geralmente conhecido como 
+NRTI que atua interferindo com a atividade normal de uma enzima (na transcriptase reversa no VIH, 
+na ADN polimerase na hepatite B), que são fundamentais para que os vírus se possam reproduzir. No 
+caso do VIH, Viread deve ser sempre utilizado em associação com outros medicamentos para tratar a 
+infeção pelo VIH. </p>
+<p>Viread 123 mg comprimidos é utilizado para tratamento da infeção pelo VIH (Vírus da 
+Imunodeficiência Humana). </p>
+<p>Viread 123 mg comprimidos é utilizado em crianças. Os comprimidos são adequados apenas para: </p>
+<ul>
+<li>
+<p>crianças com 6 a menos de 12 anos de idade </p>
+</li>
+<li>
+<p>que pesam entre 17 kg a menos de 22 kg </p>
+</li>
+<li>
+<p>que já foram tratadas com outros medicamentos para o VIH que já não são totalmente 
+eficazes devido ao desenvolvimento de resistência, ou que causaram efeitos indesejáveis. </p>
+</li>
+</ul>
+<p>Viread 123 mg comprimidos é também utilizado no tratamento da hepatite B crónica, uma 
+infeção pelo VHB (vírus da hepatite B). </p>
+<p>Viread 123 mg comprimidos é utilizado em crianças. Os comprimidos são adequados apenas para: </p>
+<ul>
+<li>
+<p>crianças com 6 a menos de 12 anos de idade </p>
+</li>
+<li>
+<p>que pesam entre 17 kg a menos de 22 kg </p>
+</li>
+</ul>
+<p>Não é necessário o seu filho ter VIH, para poder ser submetido a tratamento com Viread para o VHB. </p>
+<p>Este medicamento não é uma cura para a infeção pelo VIH. Enquanto tomar Viread, o seu filho poderá 
+desenvolver, na mesma, infeções ou outras doenças associadas com a infeção pelo VIH. O seu filho 
+pode transmitir o VHB a outros, como tal, é importante tomar as precauções adequadas de modo a 
+evitar a transmissão da infeção a outros. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar viread"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar viread"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não dê Viread </p>
+<ul>
+<li>se o seu filho tem alergia ao tenofovir, ao tenofovir disoproxil, ou a qualquer outro 
+componente deste medicamento indicados na secção 6.<br />
+ Caso isto se aplique ao seu filho, informe imediatamente o seu médico e não dê Viread. </li>
+</ul>
+<p>Advertências e precauções  </p>
+<ul>
+<li>
+<p>No caso do VIH, Viread 123 mg comprimidos é adequado apenas para crianças que já foram 
+tratadas com outros medicamentos para o VIH que já não são totalmente eficazes devido ao 
+desenvolvimento de resistência, ou que causaram efeitos indesejáveis. </p>
+</li>
+<li>
+<p>Verifique a idade e peso do seu filho para ver se Viread 123 mg é adequado, ver Crianças e 
+adolescentes. </p>
+</li>
+</ul>
+<p>Viread não reduz o risco de transmitir VHB a outras pessoas através de contacto sexual ou 
+contaminação com sangue. Deve continuar a tomar as devidas precauções de modo a evitar a 
+transmissão. </p>
+<p>Fale com o médico ou farmacêutico do seu filho antes de lhe dar Viread. </p>
+<ul>
+<li>Se o seu filho tiver tido uma doença nos rins ou se as análises tiverem apresentado 
+alterações relativas aos seus rins. Viread não deve ser dado a crianças com problemas de rins 
+já existentes. Viread pode afetar os rins do seu filho durante o tratamento. Antes de iniciar o 
+tratamento, o médico do seu filho pode pedir-lhe análises ao sangue para avaliar a função dos 
+rins do seu filho. O médico do seu filho também poderá pedir-lhe análises ao sangue durante o 
+tratamento, para verificar se os rins do seu filho estão a funcionar corretamente. </li>
+</ul>
+<p>Viread não é geralmente tomado com outros medicamentos que possam prejudicar os rins do 
+seu filho (ver Outros medicamentos e Viread). Caso isto seja inevitável, o médico do seu filho 
+irá verificar, uma vez por semana, se os rins do seu filho estão a funcionar corretamente. </p>
+<ul>
+<li>Se o seu filho tem osteoporose, tiver história de fraturas ósseas ou tiver problemas com os 
+ossos.  </li>
+</ul>
+<p>Os problemas ósseos (manifestados como dor óssea persistente ou agravada e que, por vezes, 
+resulta em fraturas) podem também ocorrer devido a lesão nas células tubulares do rim (ver 
+secção 4, Efeitos indesejáveis possíveis). Informe o médico do seu filho se ele tiver dor óssea ou 
+fraturas. </p>
+<p>Tenofovir disoproxil também pode causar a perda de massa óssea. A perda óssea mais 
+pronunciada foi observada em estudos clínicos quando os doentes foram tratados com tenofovir 
+disoproxil e um inibidor da protease potenciado. </p>
+<p>De modo geral, os efeitos de tenofovir disoproxil na saúde óssea a longo-prazo e o risco de 
+fraturas em doentes adultos e pediátricos são incertos. </p>
+<p>Alguns doentes adultos infetados pelo VIH a fazer terapêutica antirretroviral combinada podem 
+desenvolver uma doença óssea chamada osteonecrose (morte dos tecidos ósseos provocada pela 
+falta de fornecimento de sangue ao osso). A duração da terapêutica antirretroviral combinada, a 
+utilização de corticosteroides, o consumo de álcool, a imunossupressão grave, um índice de 
+massa corporal aumentado, entre outros, podem ser alguns dos inúmeros fatores de risco para o 
+desenvolvimento desta doença. Os sinais de osteonecrose são rigidez, mal-estar e dores nas 
+articulações (especialmente na anca, joelho e ombro) e dificuldade de movimentos. Informe o 
+médico do seu filho se notar qualquer um destes sintomas. </p>
+<ul>
+<li>
+<p>Se o seu filho tem ou tiver tido uma doença no fígado, incluindo hepatite, fale com o 
+médico do seu filho. Os doentes com doença no fígado, incluindo hepatite B ou C crónica, que 
+estejam a ser tratados com medicamentos antirretrovirais, apresentam um risco superior ao 
+normal de sofrerem complicações graves e potencialmente fatais ao nível do fígado. Se o seu 
+filho tem hepatite B, o médico do seu filho irá considerar exatamente o melhor tratamento para 
+ele. Se o seu filho tem antecedentes de uma doença no fígado ou hepatite B crónica, o médico 
+do seu filho pedir-lhe-á análises ao sangue para monitorizar a sua função hepática. </p>
+</li>
+<li>
+<p>Esteja atento a infeções. Se o seu filho tem infeção avançada pelo VIH (SIDA) e tem uma 
+infeção, poderá desenvolver sintomas de infeção e inflamação ou piorar os sintomas de uma 
+infeção já existente, assim que inicie o tratamento com Viread. Estes sintomas podem indicar 
+que o sistema imunitário do seu filho está melhor e está a combater a infeção. Esteja atento a 
+sinais de inflamação ou infeção assim que o seu filho iniciar a toma de Viread. Se se aperceber 
+de sinais de inflamação ou infeção, informe imediatamente o médico do seu filho. </p>
+</li>
+</ul>
+<p>Adicionalmente às infeções oportunistas, as doenças autoimunes (uma condição que ocorre 
+quando o sistema imunitário ataca tecidos corporais saudáveis) também podem ocorrer depois 
+do seu filho começar a tomar os medicamentos para o tratamento da sua infeção pelo VIH. As 
+doenças autoimunes podem ocorrer muitos meses após o início do tratamento. Se notar que o 
+seu filho tem quaisquer sintomas de infeção ou outros sintomas como fraqueza muscular, 
+fraqueza a começar nas mãos e nos pés e dirigindo-se em direção ao tronco, palpitações, 
+tremores ou hiperatividade, informe o médico do seu filho imediatamente para procurar o 
+tratamento necessário. </p>
+<p>Crianças e adolescentes </p>
+<p>Viread 123 mg comprimidos é adequado apenas para: </p>
+<ul>
+<li>
+<p>Crianças infetadas pelo VIH-1 com 6 a menos de 12 anos de idade que pesam 17 kg a 
+menos de 22 kg e que já foram tratadas com outros medicamentos para o VIH que já não são 
+totalmente eficazes devido ao desenvolvimento de resistência, ou que causaram efeitos 
+indesejáveis. </p>
+</li>
+<li>
+<p>Crianças infetadas pelo VHB com 6 a menos de 12 anos de idade que pesam entre 17 kg a 
+menos de 22 kg </p>
+</li>
+</ul>
+<p>Viread 123 mg comprimidos não é adequado para os seguintes grupos: </p>
+<ul>
+<li>
+<p>Não se destina a crianças com um peso inferior a 17 kg e superior a 22 kg. Contacte o médico 
+do seu filho se este não tiver o peso permitido. </p>
+</li>
+<li>
+<p>Não se destina a crianças e adolescentes com menos de 6 anos ou com 12 anos e mais. </p>
+</li>
+</ul>
+<p>Posologia, ver secção 3, Como tomar Viread. </p>
+<p>Outros medicamentos e Viread </p>
+<p>Informe o médico ou farmacêutico do seu filho se estiver a tomar, tiver tomado recentemente ou se 
+vier a tomar outros medicamentos. </p>
+<ul>
+<li>
+<p>Não interrompa outros medicamentos anti-VIH, prescritos pelo médico do seu filho, quando 
+iniciar o tratamento com Viread, se o seu filho tiver infeção pelo VHB e pelo VIH. </p>
+</li>
+<li>
+<p>Não dê Viread se o seu filho já estiver a tomar outros medicamentos contendo tenofovir 
+disoproxil ou tenofovir alafenamida. Não dê Viread juntamente com medicamentos contendo 
+adefovir dipivoxil (um medicamento utilizado no tratamento da hepatite B crónica). </p>
+</li>
+<li>
+<p>É muito importante informar o médico do seu filho se este estiver a tomar outros 
+medicamentos que possam prejudicar os seus rins. </p>
+</li>
+</ul>
+<p>Estes incluem: </p>
+<ul>
+<li>
+<p>Aminoglicosídeos, pentamidina ou vancomicina (para infeções bacterianas) </p>
+</li>
+<li>
+<p>anfotericina B (para infeções fúngicas) </p>
+</li>
+<li>
+<p>foscarneto, ganciclovir ou cidofovir (para infeções virais) </p>
+</li>
+<li>
+<p>interleucina-2 (para tratamento do cancro) </p>
+</li>
+<li>
+<p>adefovir dipivoxil (para VHB) </p>
+</li>
+<li>
+<p>tacrolímus (supressor do sistema imunitário) </p>
+</li>
+<li>
+<p>anti-inflamatórios não esteroides (AINEs, para aliviar a dor óssea ou a dor muscular) </p>
+</li>
+<li>
+<p>Outros medicamentos que contêm didanosina (para infeção pelo VIH): Tomar Viread com 
+outros medicamentos antivirais que contêm didanosina pode aumentar os níveis de didanosina 
+no sangue e pode reduzir as contagens de células CD4. Foram notificadas, raramente, 
+inflamação do pâncreas e acidose láctica (excesso de ácido láctico no sangue), que 
+ocasionalmente causou morte, quando foram tomados em conjunto medicamentos contendo 
+tenofovir disoproxil e didanosina. O médico do seu filho irá considerar cuidadosamente se 
+deverá tratá-lo com associações de tenofovir e didanosina. </p>
+</li>
+<li>
+<p>Também é importante que informe o médico se o seu filho estiver a tomar 
+ledipasvir/sofosbuvir, sofosbuvir/velpatasvir ou sofosbuvir/velpatasvir/voxilaprevir para tratar a 
+infeção por hepatite C. </p>
+</li>
+</ul>
+<p>Viread com alimentos e bebidas </p>
+<p>Dê Viread com alimentos (por exemplo, uma refeição ou um lanche). </p>
+<p>Gravidez e amamentação </p>
+<p>Se a sua filha está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o 
+médico ou farmacêutico da sua filha antes de tomar este medicamento. </p>
+<ul>
+<li>
+<p>Se a sua filha tomou Viread durante a gravidez, o médico da sua filha pode pedir-lhe para 
+efetuar análises ao sangue e outros testes de diagnóstico regulares para verificar o 
+desenvolvimento do bebé. Nas crianças cujas mães tomaram medicamentos como o Viread 
+(NRTIs) durante a gravidez, o benefício da menor possibilidade de infeção pelo vírus é superior 
+ao risco de sofrerem efeitos indesejáveis. </p>
+</li>
+<li>
+<p>Se a sua filha está infetada pelo VHB e, se foi dado tratamento ao bebé para prevenir a 
+transmissão da hepatite B aquando do nascimento, a sua filha poderá amamentar o bebé, mas 
+fale primeiro com o médico da sua filha para obter mais informações. </p>
+</li>
+<li>
+<p>A amamentação não é recomendada em mães que vivem com VIH, uma vez que a infeção pelo 
+VIH pode ser transmitida ao bebé através do leite materno. Se o seu filho estiver a ser 
+amamentado ou planeia vir a amamentá-lo, deve falar com o médico do seu filho o mais 
+rapidamente possível. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Viread pode causar tonturas. Se o seu filho sentir tonturas enquanto estiver a tomar Viread, não deve 
+conduzir ou andar de bicicleta e não deve utilizar quaisquer ferramentas ou máquinas. </p>
+<p>Viread contém lactose </p>
+<p>Informe o médico do seu filho antes de lhe dar Viread. Se foi informado pelo médico do seu filho 
+que ele tem intolerância a alguns açúcares, contacte-o antes de lhe dar este medicamento. </p>
+<p>Viread contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar viread"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar viread"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu filho deve tomar este medicamento exatamente como indicado pelo médico ou 
+farmacêutico do seu filho. Fale com o médico ou farmacêutico do seu filho se tiver dúvidas. </p>
+<p>A dose recomendada é: </p>
+<ul>
+<li>Crianças com 6 a menos de 12 anos de idade que pesam entre 17 kg a menos de 22 kg: 
+1 comprimido por dia com alimentos (por exemplo, uma refeição ou um lanche). </li>
+</ul>
+<p>O médico do seu filho efetuará o controlo do peso. </p>
+<p>O seu filho deve tomar sempre a dose recomendada pelo médico dele. Isto para ter a certeza que o 
+medicamento dele é totalmente eficaz, e para reduzir o risco de desenvolvimento de resistência ao 
+tratamento. Não altere a dose a menos que o médico do seu filho lhe diga para o fazer. </p>
+<p>No caso do VIH, o médico do seu filho receitará Viread com outros medicamentos antirretrovirais. </p>
+<p>Consulte o folheto informativo dos outros medicamentos antirretrovirais para orientação sobre o modo 
+como tomar esses medicamentos. </p>
+<p>Se o seu filho tomar mais Viread do que deveria </p>
+<p>Se o seu filho acidentalmente tomar demasiados comprimidos de Viread pode estar em maior risco de 
+ter efeitos indesejáveis possíveis com este medicamento (ver secção 4, Efeitos indesejáveis possíveis). 
+Consulte o médico do seu filho ou aconselhe-se junto do serviço de urgência mais próximo. Mantenha 
+o frasco de comprimidos consigo para que facilmente possa descrever o que o seu filho tomou. </p>
+<p>Caso o seu filho se tenha esquecido de tomar Viread </p>
+<p>É importante que não falhe nenhuma dose de Viread. Se o seu filho se esquecer de tomar uma dose, 
+verifique o tempo que decorreu desde que a dose deveria ter sido tomada. </p>
+<ul>
+<li>
+<p>Se tiverem decorrido menos de 12 horas após a hora em que é habitualmente tomada, deve 
+tomá-la o mais rapidamente possível, e depois tomar a dose seguinte à hora do costume. </p>
+</li>
+<li>
+<p>Se tiverem decorrido mais de 12 horas desde que o seu filho se esqueceu de tomar, esqueça a 
+dose que falhou. Espere e dê a dose seguinte à hora do costume. Não dê uma dose a dobrar para 
+compensar um comprimido que se esqueceu de tomar. </p>
+</li>
+</ul>
+<p>Se o seu filho vomitar em menos de 1 hora após a toma de Viread, dê ao seu filho outro 
+comprimido. O seu filho não terá de tomar outro comprimido se tiver vomitado após 1 hora da toma 
+de Viread. </p>
+<p>Se o seu filho parar de tomar Viread </p>
+<p>O seu filho não deve interromper o tratamento com Viread sem o consentimento do médico. Parar o 
+tratamento com Viread pode resultar numa diminuição da efetividade do tratamento recomendado pelo 
+médico do seu filho. </p>
+<p>Se o seu filho tiver hepatite B ou VIH e hepatite B em conjunto (coinfeção), é muito importante 
+não parar o tratamento com Viread sem previamente consultar o médico do seu filho. Alguns doentes 
+apresentaram análises ao sangue ou sintomas indicativos de que a sua hepatite tinha agravado após 
+interrupção do tratamento com Viread. O seu filho poderá necessitar de análises ao sangue durante 
+vários meses após interrupção do tratamento. Nalguns doentes com doença do fígado avançada ou 
+cirrose, a interrupção do tratamento não é recomendada pois pode levar a um agravamento da hepatite 
+do seu filho. </p>
+<ul>
+<li>
+<p>Fale com o médico do seu filho antes deste parar de tomar Viread por qualquer razão, 
+particularmente se o seu filho detetar alguns efeitos indesejáveis ou tiver qualquer outra doença. </p>
+</li>
+<li>
+<p>Informe imediatamente o médico do seu filho se surgirem quaisquer sintomas novos ou pouco 
+habituais após parar o tratamento, particularmente sintomas que associaria à sua hepatite B. </p>
+</li>
+<li>
+<p>Consulte o médico antes do seu filho voltar a tomar Viread em comprimidos. </p>
+</li>
+</ul>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o médico ou farmacêutico 
+do seu filho. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Durante a terapêutica para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no 
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos 
+lípidos no sangue, por vezes aos próprios medicamentos para o VIH. O médico do seu filho irá realizar 
+testes para determinar estas alterações. </p>
+<p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves possíveis: informe imediatamente o médico do seu filho </p>
+<ul>
+<li>
+<p>Acidose láctica (excesso de ácido láctico no sangue) é um efeito indesejável raro (pode afetar 
+até 1 em cada 1.000 doentes) mas grave que pode ser fatal. Os seguintes efeitos indesejáveis 
+podem ser sinais de acidose láctica: </p>
+</li>
+<li>
+<p>respiração rápida e profunda </p>
+</li>
+<li>
+<p>sonolência </p>
+</li>
+<li>
+<p>sentir-se enjoado (náuseas), vómitos e dor de estômago </p>
+</li>
+</ul>
+<p> Caso pense que o seu filho pode ter acidose láctica, contacte imediatamente o médico do 
+seu filho. </p>
+<p>Outros efeitos indesejáveis graves possíveis </p>
+<p>Os efeitos indesejáveis seguintes são pouco frequentes (estes podem afetar até 1 em cada 
+100 doentes): </p>
+<ul>
+<li>
+<p>dor de barriga (abdómen) causada por inflamação do pâncreas </p>
+</li>
+<li>
+<p>lesão nas células tubulares do rim </p>
+</li>
+</ul>
+<p>Os efeitos indesejáveis seguintes são raros (estes podem afetar até 1 em cada 1.000 doentes): </p>
+<ul>
+<li>
+<p>inflamação do rim, aumento da quantidade de urina e sentir sede </p>
+</li>
+<li>
+<p>alterações na urina do seu filho e dor nas costas causadas por problemas de rins, incluindo 
+insuficiência renal </p>
+</li>
+<li>
+<p>perda de resistência dos ossos (com dor nos ossos e por vezes resultando em fraturas), que pode 
+ocorrer devido a lesão nas células tubulares do rim </p>
+</li>
+<li>
+<p>fígado gordo </p>
+</li>
+</ul>
+<p> Se pensa que o seu filho pode ter qualquer destes efeitos indesejáveis graves, fale com o 
+médico do seu filho. </p>
+<p>Efeitos indesejáveis mais frequentes </p>
+<p>Os efeitos indesejáveis seguintes são muito frequentes (estes podem afetar, pelo menos, 10 em cada 
+100 doentes): </p>
+<ul>
+<li>diarreia, vómitos, sentir-se enjoado (náuseas), vertigens, erupção cutânea, fraqueza </li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>diminuição do fosfato no sangue </li>
+</ul>
+<p>Outros efeitos indesejáveis possíveis </p>
+<p>Os efeitos indesejáveis seguintes são frequentes (estes podem afetar até 10 em cada 100 doentes): </p>
+<ul>
+<li>flatulência, perda de massa óssea </li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>problemas do fígado </li>
+</ul>
+<p>Os efeitos indesejáveis seguintes são pouco frequentes (estes podem afetar até 1 em cada 
+100 doentes): </p>
+<ul>
+<li>perda de força muscular, dor ou fraqueza muscular </li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>diminuição do potássio no sangue </p>
+</li>
+<li>
+<p>aumento da creatinina no sangue </p>
+</li>
+<li>
+<p>problemas do pâncreas </p>
+</li>
+</ul>
+<p>A perda de força muscular, perda de resistência dos ossos (com dor nos ossos e por vezes resultando 
+em fraturas), dor muscular, fraqueza muscular e diminuição do potássio ou fosfato no sangue podem 
+ocorrer devido a lesão nas células tubulares do rim. </p>
+<p>Os efeitos indesejáveis seguintes são raros (estes podem afetar até 1 em cada 1.000 doentes): </p>
+<ul>
+<li>
+<p>dor de barriga (abdómen) causada por inflamação do fígado </p>
+</li>
+<li>
+<p>inchaço da face, lábios, língua e garganta </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se o seu filho tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não 
+indicados neste folheto, fale com o médico ou farmacêutico do seu filho. Também poderá comunicar 
+efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no 
+Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
+segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar viread"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar viread"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior, 
+após {VAL.}. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Viread </p>
+<ul>
+<li>
+<p>A substância ativa é o tenofovir. Cada comprimido de Viread contém 123 mg de tenofovir 
+disoproxil (como fumarato). </p>
+</li>
+<li>
+<p>Os outros componentes são celulose microcristalina (E460), amido pré-gelificado, 
+croscarmelose sódica, lactose mono-hidratada, e estearato de magnésio (E572), os quais 
+constituem o núcleo do comprimido, e lactose mono-hidratada, hipromelose (E464), dióxido de 
+titânio (E171) e triacetina (E1518), os quais constituem o revestimento do comprimido. 
+Consultar a secção 2 “Viread contém lactose". </p>
+</li>
+</ul>
+<p>Qual o aspeto de Viread e conteúdo da embalagem </p>
+<p>Viread 123 mg comprimidos revestidos por película são comprimidos revestidos por película, de cor 
+branca, em forma de triângulo, com um diâmetro de 8,5 mm, gravados num lado com “GSI" e no 
+outro lado com “150". Os comprimidos revestidos por película, Viread 123 mg, são fornecidos em 
+frascos contendo 30 comprimidos. Cada frasco contém um exsicante de sílica gel que deve ser 
+mantido no frasco para ajudar a proteger os seus comprimidos. O exsicante de sílica gel está contido 
+numa saqueta ou recipiente separado e não deve ser engolido. </p>
+<p>Estão disponíveis as seguintes apresentações: embalagens contendo 1 frasco de 30 comprimidos 
+revestidos por película e 3 frascos de 30 comprimidos revestidos por película. É possível que não 
+sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado: 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrlanda </p>
+<p>Fabricante: 
+Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel.: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1237,6 +1882,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-6dd54a91ba651345f1ff3d87a8449c07"
 * entry[0].resource = composition-da-6dd54a91ba651345f1ff3d87a8449c07
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6dd54a91ba651345f1ff3d87a8449c07"
+* entry[=].resource = mp6dd54a91ba651345f1ff3d87a8449c07
+                            
+                    
+Instance: bundlepackageleaflet-pt-6dd54a91ba651345f1ff3d87a8449c07
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for viread Package Leaflet for language pt"
+Description: "ePI document Bundle for viread Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-6dd54a91ba651345f1ff3d87a8449c07"
+* entry[0].resource = composition-pt-6dd54a91ba651345f1ff3d87a8449c07
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp6dd54a91ba651345f1ff3d87a8449c07"
@@ -1338,6 +2005,18 @@ RuleSet: 6dd54a91ba651345f1ff3d87a8449c07ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-6dd54a91ba651345f1ff3d87a8449c07) // viread pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

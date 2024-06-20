@@ -575,6 +575,340 @@ hjemmeside: https://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-baea5a2972e0f05fd505526d61aba839
+InstanceOf: CompositionUvEpi
+Title: "Composition for tepmetko Package Leaflet"
+Description:  "Composition for tepmetko Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbaea5a2972e0f05fd505526d61aba839)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tepmetko"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é TEPMETKO e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar TEPMETKO </li>
+<li>Como tomar TEPMETKO </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar TEPMETKO </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tepmetko e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tepmetko e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TEPMETKO contém a substância ativa tepotinib. Pertence a um grupo de medicamentos chamados 
+“inibidores da proteína cinase", que são utilizados para o tratamento do cancro. </p>
+<p>TEPMETKO é utilizado para tratar adultos com cancro do pulmão que se tenha espalhado para outras 
+partes do corpo ou que não pode ser removido por cirurgia. Este medicamento é administrado quando 
+as células cancerígenas possuem uma alteração no gene MET (fator de transição epitélio-mesênquima) 
+e o tratamento prévio não tiver ajudado a parar a sua doença. </p>
+<p>Uma alteração no gene MET pode resultar na produção de uma proteína anormal, a qual pode, por sua 
+vez, causar um crescimento celular descontrolado e cancro. Ao bloquear a ação da proteína anormal, 
+TEPMETKO poderá atrasar ou parar o crescimento do cancro. Poderá também ajudar a diminuir o 
+tamanho dos tumores. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tepmetko"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tepmetko"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome TEPMETKO </p>
+<ul>
+<li>se tem alergia ao tepotinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico antes de tomar este medicamento se tiver alguma dúvida. </p>
+<p>Problemas respiratórios ou pulmonares 
+TEPMETKO pode, por vezes, causar dificuldades respiratórias súbitas que podem surgir associadas a 
+febre e tosse. Informe o seu médico imediatamente se desenvolver quaisquer sintomas novos ou 
+agravamento de sintomas (ver secção 4), pois podem ser sinais de uma doença grave dos pulmões 
+(doença pulmonar intersticial) que precisa da assistência médica imediata. O seu médico poderá 
+precisar de o tratar com outros medicamentos e de interromper o seu tratamento com TEPMETKO. </p>
+<p>Monitorização da função hepática 
+O seu médico vai pedir análises ao sangue para verificar quão bem está o seu fígado a funcionar antes 
+de ser tratado com TEPMETKO, e conforme necessário durante o tratamento. </p>
+<p>Monitorização da função cardíaca 
+O seu médico poderá pedir um ECG, conforme necessário durante o tratamento, para verificar se 
+TEPMETKO afeta o seu ritmo cardíaco. </p>
+<p>Contraceção 
+Este medicamento não deve ser utilizado durante a gravidez pois pode ser prejudicial para os fetos. Os 
+homens e as mulheres devem utilizar métodos contracetivos eficazes durante o tratamento com 
+TEPMETKO e, pelo menos, 1 semana após a última dose. O seu médico irá aconselhá-lo sobre os 
+métodos de contraceção adequados. Ver “Gravidez" a seguir. </p>
+<p>Crianças e adolescentes 
+Este medicamento não foi estudado em doentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e TEPMETKO 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. </p>
+<p>TEPMETKO poderá afetar a forma como os seguintes medicamentos atuam e/ou aumentar os efeitos 
+indesejáveis destes medicamentos: </p>
+<ul>
+<li>
+<p>dabigatrano - utilizado para prevenir o AVC ou trombose venosa/embolia pulmonar </p>
+</li>
+<li>
+<p>digoxina - utilizada para tratar o batimento cardíaco irregular e outros problemas do coração </p>
+</li>
+<li>
+<p>aliscireno - utilizado para tratar a tensão arterial alta </p>
+</li>
+<li>
+<p>everolímus - utilizado para tratar o cancro </p>
+</li>
+<li>
+<p>sirolímus - utilizado para prevenir a rejeição de órgãos em doentes transplantados </p>
+</li>
+<li>
+<p>rosuvastatina - utilizada para tratar níveis elevados de gordura no sangue </p>
+</li>
+<li>
+<p>metotrexato - utilizado para tratar doenças inflamatórias e cancro </p>
+</li>
+<li>
+<p>topotecano - utilizado para tratar cancro </p>
+</li>
+<li>
+<p>metformina - utilizada para tratar a diabetes </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+Gravidez 
+Não tome TEPMETKO se estiver grávida ou suspeitar que está grávida, salvo indicação do seu 
+médico. Este medicamento pode ser prejudicial para o feto. Recomenda-se a realização de um teste de 
+gravidez antes de iniciar o tratamento com TEPMETKO. </p>
+<p>Contraceção masculina e feminina 
+Se é uma mulher e pode ter filhos, tem de utilizar um método contracetivo eficaz para evitar 
+engravidar durante o tratamento com TEPMETKO e, pelo menos, 1 semana após a última dose. Fale 
+com o seu médico se toma contracetivos hormonais (p. ex., “a pílula"), pois vai precisar de um 
+segundo método contracetivo durante esse período. </p>
+<p>Se é um homem, tem de utilizar um método contracetivo de barreira para evitar que a sua parceira 
+engravide enquanto está a ser tratado com TEPMETKO e, pelo menos, 1 semana após a última dose. </p>
+<p>O seu médico irá aconselhá-lo acerca dos métodos contracetivos adequados. </p>
+<p>Amamentação 
+Desconhece-se se TEPMETKO pode passar para o bebé através do leite materno. Pare de amamentar o 
+seu bebé enquanto estiver a ser tratada com este medicamento e, pelo menos, 1 semana após a última 
+dose. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de TEPMETKO sobre a capacidade de conduzir e utilizar máquinas são nulos. </p>
+<p>TEPMETKO contém lactose 
+TEPMETKO contém 4,4 mg de lactose mono-hidratada em cada comprimido. Se foi informado pelo 
+seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tepmetko"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tepmetko"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>A dose recomendada é de 2 comprimidos de TEPMETKO tomados por via oral (pela boca) uma vez 
+por dia. Poderá continuar a tomar este medicamento diariamente enquanto lhe for benéfico e desde que 
+não tenha efeitos indesejáveis intoleráveis. No caso de efeitos indesejáveis intoleráveis, o seu médico 
+poderá aconselhá-lo a reduzir a dose para 1 comprimido por dia ou a interromper o tratamento durante 
+alguns dias. </p>
+<p>Tome os comprimidos com alimentos ou logo a seguir a uma refeição, engula-os inteiros e não os 
+mastigue. Isso irá garantir que a dose inteira entra no seu organismo. </p>
+<p>Se tiver dificuldade em engolir os comprimidos, pode misturá-los com água: </p>
+<ul>
+<li>
+<p>Coloque os comprimidos num copo, sem os esmagar. </p>
+</li>
+<li>
+<p>Adicione 30 ml (equivalente a duas colheres de sopa) de água sem gás; não use qualquer outro 
+líquido. </p>
+</li>
+<li>
+<p>Mexa a água até os comprimidos se desfazerem em pedaços muito pequenos, o que pode 
+demorar alguns minutos; os comprimidos não se dissolvem completamente. </p>
+</li>
+<li>
+<p>Beba o líquido no prazo de uma hora. </p>
+</li>
+<li>
+<p>Para ter a certeza de que tomou todo o medicamento, junte outros 30 ml de água ao copo, mexa 
+bem e beba o conteúdo imediatamente. </p>
+</li>
+</ul>
+<p>Se tem uma sonda nasogástrica (NG) com um calibre igual ou superior a 8 French: </p>
+<ul>
+<li>
+<p>Siga as mesmas instruções para misturar os comprimidos em 30 ml de água sem gás, tal como 
+descrito acima. </p>
+</li>
+<li>
+<p>Administre o líquido no prazo de 1 hora de acordo com as instruções do fabricante da sonda 
+NG. </p>
+</li>
+<li>
+<p>Para ter a certeza de que tomou todo o medicamento, adicione ao copo e à seringa outros 30 ml 
+de água, por duas vezes, para garantir que não fica qualquer medicamento no copo ou na seringa 
+e que a dose é administrada na totalidade. </p>
+</li>
+</ul>
+<p>Se tomar mais TEPMETKO do que deveria 
+A experiência com sobredosagem de TEPMETKO é limitada. Muito provavelmente, os sintomas de 
+sobredosagem serão semelhantes aos mencionados na secção sobre efeitos indesejáveis possíveis (ver 
+secção 4). Se tomar mais TEPMETKO do que deveria, fale com o seu médico. </p>
+<p>Caso se tenha esquecido de tomar TEPMETKO 
+Caso se tenha esquecido de uma dose de TEPMETKO, tome-a assim que se lembrar. Se faltarem 
+8 horas ou menos para a dose seguinte, omita a dose esquecida e tome a dose seguinte à hora habitual. 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Problemas respiratórios ou pulmonares 
+Informe o seu médico imediatamente se desenvolver quaisquer sintomas novos ou agravamento de 
+sintomas, tais como dificuldade súbita em respirar, tosse ou febre. Estes podem ser sinais de uma 
+doença dos pulmões grave (doença pulmonar intersticial) que precisa de assistência médica imediata. 
+Este efeito indesejável é frequente (pode afetar até 1 em 10 pessoas). </p>
+<p>Outros efeitos indesejáveis 
+Fale com o seu médico se tiver quaisquer outros efeitos indesejáveis. Estes podem incluir: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Inchaço causado pela acumulação de líquido no corpo (edema) </p>
+</li>
+<li>
+<p>Sentir-se enjoado (náuseas) ou ter vómitos </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Níveis elevados de creatinina no sangue (um sinal de possíveis problemas de rins) </p>
+</li>
+<li>
+<p>Níveis elevados de alanina aminotransferase, de aspartato aminotransferase ou de fosfatase 
+alcalina no sangue (um sinal de possíveis problemas de fígado) </p>
+</li>
+<li>
+<p>Níveis elevados de amilase ou lipase no sangue (um sinal de possíveis problemas digestivos) </p>
+</li>
+<li>
+<p>Níveis reduzidos da proteína albumina no sangue </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>Alterações na atividade elétrica do coração observada no ECG (prolongamento do QT) </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tepmetko"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tepmetko"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de TEPMETKO  </p>
+<ul>
+<li>
+<p>A substância ativa é o tepotinib. Cada comprimido revestido por película contém 225 mg de 
+tepotinib (sob a forma de cloridrato hidratado). </p>
+</li>
+<li>
+<p>Os outros componentes são manitol, sílica coloidal anidra, crospovidona, estearato de magnésio 
+e celulose microcristalina no núcleo do comprimido e hipromelose, lactose mono-hidratada (ver 
+secção 2, “TEPMETKO contém lactose"), macrogol, triacetina, óxido de ferro vermelho (E172) 
+e dióxido de titânio (E171) na película de revestimento. </p>
+</li>
+</ul>
+<p>Qual o aspeto de TEPMETKO e conteúdo da embalagem 
+TEPMETKO comprimidos revestidos por película são comprimidos rosa esbranquiçados, ovais, 
+biconvexos, com aproximadamente 18 x 9 mm de tamanho, com “M" gravado numa face e lisos na 
+outra. Cada embalagem contém 60 comprimidos num blister transparente, que é composto por 
+multicamadas e selado com película de alumínio. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Merck Europe B.V. 
+Gustav Mahlerplein 1082 MA Amsterdam 
+Países Baixos </p>
+<p>Fabricante 
+Merck Healthcare KGaA 
+Frankfurter Strasse 64293 Darmstadt 
+Alemanha </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -616,6 +950,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-baea5a2972e0f05fd505526d61aba839"
 * entry[0].resource = composition-da-baea5a2972e0f05fd505526d61aba839
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbaea5a2972e0f05fd505526d61aba839"
+* entry[=].resource = mpbaea5a2972e0f05fd505526d61aba839
+                            
+                    
+Instance: bundlepackageleaflet-pt-baea5a2972e0f05fd505526d61aba839
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tepmetko Package Leaflet for language pt"
+Description: "ePI document Bundle for tepmetko Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-baea5a2972e0f05fd505526d61aba839"
+* entry[0].resource = composition-pt-baea5a2972e0f05fd505526d61aba839
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpbaea5a2972e0f05fd505526d61aba839"
@@ -717,6 +1073,18 @@ RuleSet: baea5a2972e0f05fd505526d61aba839ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-baea5a2972e0f05fd505526d61aba839) // tepmetko pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

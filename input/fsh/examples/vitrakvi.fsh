@@ -767,6 +767,291 @@ giver lægemidlet til dit barn, skal du erstatte "du" med "dit barn" i hele indl
 
 
 
+Instance: composition-pt-f7d3ef50226760b75f06fdcf55be16ab
+InstanceOf: CompositionUvEpi
+Title: "Composition for vitrakvi Package Leaflet"
+Description:  "Composition for vitrakvi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf7d3ef50226760b75f06fdcf55be16ab)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - vitrakvi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é VITRAKVI e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar VITRAKVI </li>
+<li>Como tomar VITRAKVI </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar VITRAKVI </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é vitrakvi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é vitrakvi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Para que é utilizado VITRAKVI 
+VITRAKVI contém a substância ativa larotrectinib. </p>
+<p>É utilizado em adultos, adolescentes e crianças para tratar tumores sólidos (cancro) em várias partes do 
+corpo que são causados por uma alteração no gene NTRK (recetor da tirosina cinase neurotrófico).<br />
+VITRAKVI é utilizado apenas quando 
+- estes cancros estão num estado avançado ou se disseminaram para outras partes do corpo, ou se 
+existe a probabilidade de que uma cirurgia para remover o cancro cause complicações graves e 
+- não existem opções de tratamento satisfatórias. </p>
+<p>Antes de lhe ser administrado VITRAKVI, o seu médico fará um teste para verificar se tem a alteração 
+no gene NTRK. </p>
+<p>Como atua VITRAKVI 
+Em doentes cujo cancro se deve a um gene alterado do NTRK, a alteração no gene faz com que o 
+organismo produza uma proteína anormal chamada proteína de fusão do TRK, que pode conduzir a 
+um crescimento de células descontrolado e cancro. VITRAKVI bloqueia a ação das proteínas de fusão 
+do TRK, podendo assim retardar ou parar o crescimento do cancro. Também pode ajudar a diminuir o 
+tamanho do cancro. </p>
+<p>Se tiver quaisquer dúvidas sobre como atua VITRAKVI ou a razão porque lhe foi receitado este 
+medicamento, fale com o seu médico, farmacêutico ou enfermeiro. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar vitrakvi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar vitrakvi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome VITRAKVI se 
+- tem alergia ao larotrectinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Análises e controlos 
+VITRAKVI pode aumentar a quantidade das enzimas do fígado ALT e AST e de bilirrubina no seu 
+sangue. O seu médico efetuará análises ao sangue antes e durante o tratamento para verificar o nível de 
+ALT, AST e bilirrubina e verificar como está a funcionar o seu fígado. </p>
+<p>Outros medicamentos e VITRAKVI 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente ou se 
+vier a tomar outros medicamentos. Isto porque alguns medicamentos podem afetar a maneira como 
+VITRAKVI atua, ou VITRAKVI pode afetar a maneira como os outros medicamentos atuam. 
+Em especial, informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar qualquer um dos 
+seguintes medicamentos: 
+- medicamentos utilizados para tratar infeções causadas por fungos ou bactérias chamados 
+itraconazol, voriconazol, claritromicina, telitromicina, troleandomicina 
+- um medicamento utilizado para tratar a síndrome de Cushing chamado cetoconazol 
+- medicamentos utilizados para tratar a infeção pelo VIH chamados atazanavir, indinavir, 
+nelfinavir, ritonavir, saquinavir, rifabutina, efavirenz 
+- um medicamento utilizado para tratar a depressão chamado nefazodona 
+- medicamentos utilizados para tratar epilepsia chamados fenitoína, carbamazepina, fenobarbital 
+- um medicamento à base de plantas utilizado para tratar a depressão chamado erva de S. João ou 
+hipericão 
+- um medicamento utilizado para tratar a tuberculose chamado rifampicina 
+- um medicamento utilizado para o alívio da dor intensa chamado alfentanilo 
+- medicamentos utilizados para impedir a rejeição de órgãos após o transplante de um órgão 
+chamados ciclosporina, sirolímus, tacrolímus 
+- um medicamento utilizado para tratar um ritmo anormal do coração chamado quinidina 
+- medicamentos utilizados para tratar enxaquecas chamados di-hidroergotamina, ergotamina 
+- um medicamento utilizado para tratar a dor prolongada chamado fentanilo 
+- um medicamento utilizado para controlar movimentos ou sons involuntários chamado pimozida 
+- um medicamento para o ajudar a parar de fumar chamado bupropiona 
+- medicamentos para reduzir os níveis de açúcar no sangue chamados repaglinida, tolbutamida 
+- um medicamento que previne os coágulos sanguíneos chamado varfarina 
+- um medicamento utilizado para reduzir a quantidade de ácido produzido no estômago chamado 
+omeprazol 
+- um medicamento utilizado para ajudar a controlar a pressão sanguínea chamado valsartan 
+- um grupo de medicamentos utilizado para ajudar a diminuir o colesterol chamado estatinas 
+- medicamentos hormonais utilizados para contraceção, ver seção “contraceção - para homens e 
+mulheres" abaixo. 
+Se qualquer uma das situações acima se aplicar a si (ou se tiver dúvidas), fale com o seu médico, 
+farmacêutico ou enfermeiro. </p>
+<p>VITRAKVI com alimentos e bebidas 
+Não coma toranja ou beba sumo de toranja enquanto estiver a tomar VITRAKVI. Estes podem 
+aumentar a quantidade de VITRAKVI no seu sangue. </p>
+<p>Gravidez e amamentação 
+Gravidez 
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico ou farmacêutico 
+antes de tomar este medicamento. 
+Não deve utilizar VITRAKVI durante a gravidez uma vez que o efeito do VITRAKVI no feto não é 
+conhecido. 
+Amamentação 
+Não amamente enquanto estiver a tomar este medicamento e durante 3 dias após a última dose. Isto 
+porque não se sabe se VITRAKVI passa para o leite materno. </p>
+<p>Contraceção - para homens e mulheres 
+Deve evitar engravidar enquanto toma este medicamento. 
+Se houver a possibilidade de engravidar, o seu médico deverá fazer um teste de gravidez antes de 
+iniciar o tratamento. 
+Tem de utilizar métodos contracetivos eficazes durante o tratamento com VITRAKVI e, pelo menos, 
+durante um mês após a última dose se: 
+- houver a possibilidade de ficar grávida. Se utilizar contracetivos hormonais, deve também 
+utilizar um método barreira, tal como o preservativo. 
+- tiver relações sexuais com uma mulher com possibilidade de engravidar. 
+Pergunte ao seu médico qual o melhor método contracetivo para si. </p>
+<p>Condução de veículos, andar de bicicleta e utilização de máquinas 
+VITRAKVI pode causar tonturas ou cansaço. Se isto lhe acontecer, não conduza, não ande de bicicleta 
+ou utilize quaisquer ferramentas ou máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar vitrakvi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar vitrakvi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico, farmacêutico ou enfermeiro se tiver dúvidas. </p>
+<p>Quanto deve tomar 
+Adultos (a partir dos 18 anos) 
+- A dose recomendada de VITRAKVI é de 100 mg (1 cápsula de 100 mg ou 4 cápsulas de 
+25 mg), duas vezes por dia. 
+- O seu médico avaliará a dose e mudá-la-á conforme necessário. </p>
+<p>Crianças e adolescentes 
+- O médico do seu filho calculará a dose que é correta para ele com base na altura e no peso. 
+- A dose máxima recomendada é 100 mg (1 cápsula de 100 mg ou 4 cápsulas de 25 mg), duas 
+vezes por dia. 
+- O médico do seu filho avaliará a dose e mudá-la-á conforme necessário. </p>
+<p>Está disponível uma solução oral de VITRAKVI para doentes que não conseguem engolir as cápsulas. </p>
+<p>Como tomar este medicamento 
+- VITRAKVI pode ser tomado com ou sem alimentos. 
+- Não coma toranja ou beba sumo de toranja enquanto estiver a tomar este medicamento. 
+- Engula as cápsulas de VITRAKVI inteiras com um copo de água. Não abra, mastigue ou 
+esmague a cápsula porque tem um sabor muito amargo. </p>
+<p>Se tomar mais VITRAKVI do que deveria 
+Fale com o seu médico, farmacêutico ou enfermeiro ou dirija-se a um hospital imediatamente. Leve a 
+embalagem do medicamento e este folheto informativo consigo.  </p>
+<p>Caso se tenha esquecido de tomar VITRAKVI 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar ou se vomitar após 
+tomar este medicamento. Tome a dose seguinte à hora habitual. </p>
+<p>Se parar de tomar VITRAKVI 
+Não pare de tomar este medicamento sem falar primeiro com o seu médico. É importante tomar 
+VITRAKVI durante o tempo que o seu médico lhe disser. 
+Se não conseguir tomar o medicamento como o seu médico lhe receitou, fale imediatamente com o seu 
+médico. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Deve contactar imediatamente o seu médico se tiver qualquer um dos seguintes efeitos indesejáveis 
+graves: 
+- sensação de tonturas (efeito indesejável muito frequente, pode afetar mais de 1 em 10 pessoas), 
+formigueiro, dormência ou sensação de ardor nas suas mãos e nos pés, dificuldade em andar 
+normalmente, (efeito indesejável frequente, pode afetar até 1 em 10 pessoas). Estes podem ser 
+sintomas de problemas do sistema nervoso. 
+O seu médico pode decidir diminuir a dose ou interromper ou parar o tratamento. </p>
+<p>Informe o seu médico, farmacêutico ou enfermeiro se detetar qualquer um dos seguintes efeitos 
+indesejáveis: 
+Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas): 
+- pode estar pálido e sentir o coração a bater, o que poderão ser sintomas da existência de poucos 
+glóbulos vermelhos (anemia) 
+- sintomas do tipo gripal, incluindo febre, que poderão ser sintomas da existência de poucos 
+glóbulos brancos (neutropenia e leucopenia)<br />
+- sensação de mal estar (náuseas ou vómitos) 
+- diarreia 
+- prisão de ventre 
+- dor nos músculos (mialgia) 
+- sensação de cansaço (fadiga) 
+- aumento da quantidade de enzimas do fígado nas análises ao sangue 
+- aumento de peso. </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas): 
+- poderá fazer nódoas negras ou sangrar com maior facilidade, os quais podem ser sintomas de 
+um número reduzido de plaquetas (trombocitopenia) 
+- alteração do sabor (disgeusia) 
+- fraqueza muscular 
+- aumento da quantidade da “fosfatase alcalina" nas análises ao sangue (muito frequente em 
+crianças). </p>
+<p>Desconhecido (não se sabe com que frequência ocorre) 
+- poderá ter uma combinação de cansaço, dor no lado superior direito da barriga, perda de apetite, 
+náuseas ou vómitos, amarelecimento da pele ou dos olhos, nódoas negras ou sangrar com maior 
+facilidade e urina escura. Estes podem ser sintomas de problemas do fígado. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar vitrakvi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar vitrakvi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Manter este medicamento fora da vista e do alcance das crianças. </li>
+<li>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+rótulo do frasco, após VAL. O prazo de validade corresponde ao último dia do mês indicado. </li>
+<li>O medicamento não necessita de quaisquer precauções especiais de conservação. </li>
+<li>Não utilize este medicamento se verificar que as cápsulas parecem estar danificadas. </li>
+<li>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de VITRAKVI 
+A substância ativa é o larotrectinib. 
+Cada cápsula de VITRAKVI de 25 mg contém 25 mg de larotrectinib (na forma de sulfato). 
+Cada cápsula de VITRAKVI de 100 mg contém 100 mg de larotrectinib (na forma de sulfato). </p>
+<p>Os outros componentes são: 
+Invólucro da cápsula: 
+- Gelatina 
+- Dióxido de titânio (E 171) 
+Tinta de impressão: 
+- Goma-laca, branqueada desparafinada 
+- Laca de alumínio de indigotina (E 132) 
+- Dióxido de titânio (E 171) 
+- Propilenoglicol (E 1520) 
+- Dimeticone </p>         </div>"""      
+
+
+
 
 
                     
@@ -808,6 +1093,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-f7d3ef50226760b75f06fdcf55be16ab"
 * entry[0].resource = composition-da-f7d3ef50226760b75f06fdcf55be16ab
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf7d3ef50226760b75f06fdcf55be16ab"
+* entry[=].resource = mpf7d3ef50226760b75f06fdcf55be16ab
+                            
+                    
+Instance: bundlepackageleaflet-pt-f7d3ef50226760b75f06fdcf55be16ab
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vitrakvi Package Leaflet for language pt"
+Description: "ePI document Bundle for vitrakvi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-f7d3ef50226760b75f06fdcf55be16ab"
+* entry[0].resource = composition-pt-f7d3ef50226760b75f06fdcf55be16ab
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpf7d3ef50226760b75f06fdcf55be16ab"
@@ -909,6 +1216,18 @@ RuleSet: f7d3ef50226760b75f06fdcf55be16abListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-f7d3ef50226760b75f06fdcf55be16ab) // vitrakvi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

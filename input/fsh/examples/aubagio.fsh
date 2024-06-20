@@ -942,6 +942,499 @@ hjemmeside http://www.ema.europa.eu.  </p>
 
 
 
+Instance: composition-pt-69e7e3b7b762d214fbbb48c707c30105
+InstanceOf: CompositionUvEpi
+Title: "Composition for aubagio Package Leaflet"
+Description:  "Composition for aubagio Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp69e7e3b7b762d214fbbb48c707c30105)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - aubagio"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:<br />
+1. O que é AUBAGIO e para que é utilizado<br />
+2. O que precisa de saber antes de tomar AUBAGIO 
+3. Como tomar AUBAGIO<br />
+4. Efeitos indesejáveis possíveis<br />
+5. Como conservar AUBAGIO<br />
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é aubagio e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é aubagio e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é AUBAGIO<br />
+AUBAGIO contém a substância ativa teriflunomida que é um agente imunomodulador e adapta o sistema 
+imunitário para limitar o seu ataque ao sistema nervoso. </p>
+<p>Para que é utilizado AUBAGIO 
+AUBAGIO é utilizado em adultos e em crianças e adolescentes (10 ou mais anos de idade) para tratar 
+esclerose múltipla surto-remissão (EM). </p>
+<p>O que é a esclerose múltipla 
+A EM é uma doença de longo prazo que afeta o sistema nervoso central (SNC). O SNC é constituído pelo 
+cérebro e medula espinal. Na esclerose múltipla, a inflamação destrói a bainha protetora (chamada mielina) 
+que reveste os nervos no SNC. Este processo denomina-se desmielinização. Isto impede o funcionamento 
+correto dos nervos.  </p>
+<p>As pessoas com uma forma recorrente de esclerose múltipla apresentam episódios repetidos (surtos) de 
+sintomas físicos provocados por um funcionamento incorreto dos nervos. Estes sintomas variam de doente 
+para doente, mas costumam envolver: </p>
+<ul>
+<li>
+<p>dificuldade em andar </p>
+</li>
+<li>
+<p>problemas na visão </p>
+</li>
+<li>
+<p>problemas de equilíbrio. </p>
+</li>
+</ul>
+<p>Os sintomas podem desaparecer completamente depois do surto terminar, mas ao longo do tempo, podem 
+manter-se alguns problemas entre surtos. Isto pode resultar em incapacidade física que pode interferir com a 
+sua atividade diária. </p>
+<p>Como funciona o AUBAGIO 
+AUBAGIO ajuda a proteger o sistema nervoso central contra ataques do sistema imunitário, ao limitar o 
+aumento de algumas células brancas no sangue (linfócitos). Isto limita a inflamação que leva à lesão do 
+nervo na EM. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar aubagio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar aubagio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome AUBAGIO:<br />
+- se tem alergia à teriflunomida ou a qualquer outro componente deste medicamento (indicados na 
+secção 6), 
+- se alguma vez desenvolveu uma erupção cutânea grave ou descamação da pele, bolhas e/ou feridas na 
+boca após tomar teriflunomida ou leflunomida, 
+- se tem problemas de fígado graves, 
+- se está grávida, se pensa estar grávida ou se está a amamentar, 
+- se sofre de qualquer problema grave que afeta o seu sistema imunitário p. ex., síndrome da 
+imunodeficiência adquirida (SIDA), 
+- se tem qualquer problema grave na medula óssea, ou se tem um número baixo de glóbulos vermelhos 
+ou brancos no sangue, ou um número baixo de plaquetas no sangue, 
+- se sofre de uma infeção grave, 
+- se tem problemas renais graves que necessitem de diálise, 
+- se tem um número excessivamente baixo de proteínas no sangue (hipoproteinemia), 
+Se não tiver a certeza, fale com o seu médico ou farmacêutico antes de tomar este medicamento.  </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar AUBAGIO se: 
+-<br />
+tiver problemas de fígado e/ou consome uma quantidade substancial de álcool. O seu médico 
+poderá realizar análises ao sangue para verificar o funcionamento do fígado, antes e durante o 
+tratamento. Se os resultados da análise indicarem um problema no fígado, o seu médico poderá 
+interromper o tratamento com AUBAGIO. Consulte a secção 4.<br />
+-<br />
+tiver tensão arterial alta (hipertensão), independentemente de estar ou não controlada por 
+medicamentos. AUBAGIO pode provocar um aumento da tensão arterial. O seu médico irá verificar a 
+sua tensão arterial antes de começar o tratamento e regularmente a partir daí. Consulte a secção 4. -<br />
+tiver uma infeção. Antes de tomar AUBAGIO, o seu médico irá assegurar-se que tem glóbulos 
+brancos e plaquetas suficientes no sangue. Como o AUBAGIO diminui o número de células brancas 
+no sangue, isto pode afetar a sua habilidade para lutar contra a infeção. O seu médico poderá realizar 
+análises ao sangue para verificar os seus glóbulos brancos, se acha que tem uma infeção. Consulte a 
+secção 4. -<br />
+tiver reacções cutâneas graves. 
+- tiver sintomas respiratórios. 
+- tiver fraqueza, dormência e dor nas mãos e pés. 
+- vai ser vacinado. 
+- tomar leflunomida com AUBAGIO. 
+- estiver a mudar de ou para AUBAGIO. 
+- está prestes a fazer uma análise específica ao sangue (nível de cálcio). Podem ser detetados níveis de 
+cálcio falsamente baixos. </p>
+<p>Reações respiratórias 
+Informe o seu médico se tiver tosse inexplicável e dispneia (falta de ar). O seu médico poderá realizar testes 
+adicionais. </p>
+<p>Crianças e adolescentes 
+AUBAGIO não se destina à utilização em crianças com menos de 10 anos de idade, uma vez que não foi 
+estudado em doentes com EM nesta faixa etária.  </p>
+<p>As advertências e precauções listadas acima também se aplicam a crianças. A seguinte informação é 
+importante para crianças e seus cuidadores: 
+- foi observada inflamação do pâncreas em doentes a receber teriflunomida. O médico do seu filho 
+pode fazer exames ao sangue caso suspeite de uma inflamação do pâncreas. </p>
+<p>Outros medicamentos e AUBAGIO<br />
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos. Isto inclui medicamentos obtidos sem receita médica. 
+Em particular, fale com o seu médico ou farmacêutico se estiver a tomar um dos seguintes:<br />
+- leflunomida, metotrexato e outros medicamentos que afetam o sistema imunitário (normalmente 
+chamados imunossupressores ou imunomoduladores) 
+- rifampicina (um medicamento utilizado para o tratamento da tuberculose e outras infeções) 
+- carbamazepina, fenobarbital, fenitoína para a epilepsia 
+- Hipericão ou erva de S. João (um medicamento homeopático para a depressão) 
+- repaglinida, pioglitazona, nateglinida ou rosiglitazona para a diabetes 
+-         daunorrubicina, doxorrubicina, paclitaxel, ou topotecano para o cancro 
+- duloxetina para a depressão, incontinência urinária ou doença renal na diabetes 
+- alosetron para o tratamento da diarreia grave 
+- teofilina para a asma 
+- tizanidina, um relaxante muscular 
+- varfarina, um medicamento anticoagulante que torna o sangue mais fluido para evitar a formação de 
+coágulos sanguíneos 
+- contracetivos orais (que contenham etinilestradiol e levonorgestrel) 
+- cefaclor, penicilina G, ciprofloxacina para infeções 
+- indometacina, cetoprofeno para dores ou inflamação 
+- furosemida para doença cardíaca 
+- cimetidina para redução do ácido gástrico 
+- zidovudina para a SIDA 
+-     rosuvastatina, sinvastatina, atorvastatina, pravastatina para hipercolesterolemia (colesterol alto) 
+- sulfasalazina para a doença inflamatória do intestino e artrite reumatóide 
+- colestiramina para o colesterol alto ou alívio da comichão na doença do fígado 
+- carvão ativado para reduzir a absorção de medicamentos ou outras substâncias </p>
+<p>Gravidez e amamentação<br />
+Não tome AUBAGIO se estiver grávida ou se suspeitar que possa estar grávida. Se estiver grávida ou 
+engravidar enquanto estiver a tomar AUBAGIO, existe um maior risco de defeitos congénitos (defeitos de 
+nascimento) para o bebé. As mulheres com potencial para engravidar não devem tomar este medicamento 
+sem utilizar métodos contracetivos eficazes. 
+Se a sua filha tiver a primeira menstruação enquanto toma AUBAGIO, deverá informar o médico, que 
+fornecerá aconselhamento especializado relativamente à contraceção e o potencial risco em caso de gravidez. </p>
+<p>Fale com o seu médico se planear engravidar depois de interromper o tratamento com AUBAGIO, uma vez 
+que é necessário assegurar que o nível deste medicamento no seu sangue é suficientemente baixo antes de 
+tentar engravidar. Para ocorrer naturalmente, a eliminação da substância ativa pode demorar até 2 anos. Este 
+período pode ser reduzido para algumas semanas ao tomar certos medicamentos que aceleram a remoção de 
+AUBAGIO do seu corpo. 
+Em qualquer caso, deve ser realizada uma análise ao sangue para confirmar, que a substância ativa foi 
+suficientemente removida do seu corpo e, é necessária uma confirmação do seu médico de que o nível de 
+AUBAGIO no sangue é suficientemente baixo para permitir engravidar. </p>
+<p>Fale com o seu médico para obter mais informações sobre as análises laboratoriais. </p>
+<p>Se suspeitar de que está grávida enquanto tomar AUBAGIO ou no período de dois anos após a interrupção 
+do tratamento, terá de descontinuar AUBAGIO e contactar o seu médico imediatamente para fazer um teste 
+de gravidez. Se o teste confirmar a gravidez, o seu médico poderá sugerir o tratamento com certos 
+medicamentos que removem AUBAGIO rapidamente e suficientemente do corpo, uma vez que tal poderá 
+diminuir o risco para o seu bebé. </p>
+<p>Contraceção<br />
+Deve utilizar um método eficaz de contraceção durante e após o tratamento com AUBAGIO. A 
+teriflunomida permanece no sangue durante um longo período de tempo depois de interromper o tratamento. 
+Mantenha a utilização de um método contracetivo eficaz depois de interromper o tratamento. </p>
+<ul>
+<li>
+<p>Continue a contraceção até que o nível de AUBAGIO no sangue seja suficientemente baixo - o seu 
+médico irá verificar isso. </p>
+</li>
+<li>
+<p>Fale com o seu médico para saber qual o melhor método contracetivo para si e se for necessário uma 
+alteração da contraceção. </p>
+</li>
+</ul>
+<p>Não tome AUBAGIO se estiver a amamentar, uma vez que a teriflunomida é excretada no leite materno. </p>
+<p>Condução de veículos e utilização de máquinas<br />
+AUBAGIO pode provocar tonturas que afetam a sua capacidade de concentração e de reação. Se for afetado, 
+não conduza nem utilize máquinas. </p>
+<p>AUBAGIO contém lactose 
+AUBAGIO contém lactose (um tipo de açúcar). Se souber através do seu médico que é intolerante a alguns 
+açúcares, contate o seu médico antes de tomar este medicamento. </p>
+<p>AUBAGIO contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar aubagio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar aubagio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com AUBAGIO será supervisionado por um médico com experiência no tratamento da 
+esclerose múltipla. </p>
+<p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>Adultos 
+A dose recomendada é um comprimido de 14 mg por dia.  </p>
+<p>Crianças e adolescentes (10 ou mais anos de idade) 
+A dose depende do peso corporal: 
+- Crianças e adolescentes com peso corporal superior a 40 kg: um comprimido de 14 mg por dia. 
+- Crianças e adolescentes com peso corporal igual ou inferior a 40 kg: um comprimido de 7 mg por dia. </p>
+<p>Crianças e adolescentes que atingem um peso corporal estável acima de 40 kg serão instruídos pelo seu 
+médico a mudar para um comprimido de 14 mg por dia. </p>
+<p>Via/modo de administração 
+AUBAGIO é tomado por via oral. AUBAGIO é tomado todos os dias, uma única vez por dia, a qualquer 
+hora.<br />
+Deve engolir o comprimido inteiro com alguma água. 
+AUBAGIO pode ser tomado com ou sem alimentos.  </p>
+<p>Se tomar mais AUBAGIO do que deveria<br />
+Se tiver tomado demasiado AUBAGIO, fale com o seu médico imediatamente. Pode sentir efeitos 
+indesejáveis semelhantes aos descritos na secção 4 em baixo.  </p>
+<p>Caso se tenha esquecido de tomar AUBAGIO<br />
+Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. Tome a dose 
+seguinte à hora marcada. </p>
+<p>Se parar de tomar AUBAGIO<br />
+Não deixe de tomar AUBAGIO nem altere a sua dose sem falar primeiro com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os seguintes efeitos indesejáveis podem surgir com este medicamento. 
+Efeitos indesejáveis graves </p>
+<p>Alguns efeitos indesejáveis podem ser ou tornar-se graves, se lhe ocorrer alguma destas situações, informe 
+imediatamente o seu médico. </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- inflamação do pâncreas que pode incluir sintomas como dor na região abdominal, náuseas ou vómitos 
+(a frequência é classificada como frequente em doentes pediátricos e pouco frequente em doentes 
+adultos). </p>
+<p>Pouco frequente (podem afetar até 1 em 100 pessoas) 
+- reações alérgicas que podem incluir sintomas de erupção cutânea, urticária, inchaço dos lábios, língua 
+ou face ou dificuldade em respirar súbita 
+- reações da pele severas que podem incluir sintomas de erupção cutânea, formação de bolhas, febre ou 
+úlceras na boca 
+-<br />
+infeções graves ou sepsis (um tipo de infeção potencialmente fatal) que pode incluir sintomas como 
+febre alta, tremores, arrepios, diminuição do fluxo urinário, ou confusão 
+-<br />
+inflamação dos pulmões que pode incluir sintomas de falta de ar ou tosse persistente </p>
+<p>Desconhecidas (a frequência não pode ser calculada a partir dos dados disponíveis): 
+- doença no fígadograve que pode incluir sintomas como amarelecimento da pele ou da parte branca 
+dos olhos, urina mais escura que o normal, náuseas e vómitos sem explicação, ou dor abdominal </p>
+<p>Podem ocorrer outros efeitos indesejáveis com a seguinte frequência:<br />
+Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- Dor de cabeça 
+- Diarreia, enjoo 
+- Aumento da ALT (aumento nos níveis de certas enzimas hepáticas no sangue) indicado nas análises 
+- Adelgaçamento dos pelos/cabelo </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- Gripe, infeção das vias respiratórias superiores, infeção do trato urinário, bronquite, sinusite, garganta 
+inflamada e sensação de desconforto ao engolir, cistite, gastroenterite viral, herpes oral, infeção 
+dentária, laringite, infeção fúngica do pé 
+- Valores laboratoriais: uma diminuição no número de glóbulos vermelhos (anemia), alterações nos 
+resultados dos testes do fígado e nos glóbulos brancos (ver secção 2), também foram observados 
+aumentos de uma enzima muscular (creatina fosfoquinase). 
+- Reações alérgicas ligeiras 
+- Sensação de ansiedade 
+- Sensação de picadas, fraqueza, dormência, formigueiro ou dor na parte inferior das costas ou nas 
+pernas (ciática); sensação de dormência, ardor, formigueiro ou dor nas mãos e dedos (síndrome do 
+canal cárpico);<br />
+- Sentir o coração a bater<br />
+- Aumento da tensão arterial 
+- Enjoo (vómitos), dor de dentes, dor abdominal superior 
+- Erupção cutânea, acne 
+- Dor nos tendões, articulações, ossos (dor musculosquelética), dor muscular 
+- Necessidade de urinar com maior frequência 
+- Menstruações abundantes 
+- Dor 
+- Falta de energia ou sentir-se cansado (astenia) 
+- Perda de peso </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) 
+- Diminuição no número de plaquetas (trombocitopenia ligeira) 
+- Sensação ou sensibilidade aumentada, especialmente na pele; dor aguda ou pulsátil em um ou mais 
+nervos, problemas nos nervos dos braços ou pernas (neuropatia periférica) 
+- Doenças ungueais, reações cutâneas graves 
+- Dor pós-traumática 
+- Psoríase 
+- Inflamação da boca/lábios 
+- Níveis anormais de gordura (lípidos) no sangue 
+- Inflamação do cólon (colite) </p>
+<p>Raros (pode efetar até 1 em 1.000 pessoas) 
+- Inflamação ou lesão no fígado </p>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- Hipertensão respiratória </p>
+<p>Crianças (10 ou mais anos de idade) e adolescentes 
+Os efeitos indesejáveis listados acima também se aplicam a crianças e adolescentes. A seguinte informação 
+adicional é importante para crianças, adolescentes e seus cuidadores: </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- Inflamação do pâncreas </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
+fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente através 
+do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a 
+ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar aubagio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar aubagio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e na carteira, após 
+“VAL“. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de AUBAGIO<br />
+A substância ativa é a teriflunomida.  </p>
+<p>AUBAGIO 7 mg comprimidos revestidos por película 
+- Cada comprimido contém 7 mg de teriflunomida. 
+- Os outros componentes são lactose monohidratada, amido de milho, celulose microcristalina, 
+glicolato de amido sódico (Tipo A), hidroxipropilcelulose, estearato de magnésio, hipromelose, 
+dióxido de titânio (E171), talco, macrogol 8000, laca de alumínio índigo carmim (E132) e óxido de 
+ferro amarelo (E172) (ver secção 2 “Aubagio contém lactose"). </p>
+<p>AUBAGIO 14 mg comprimidos revestidos por película 
+- Cada comprimido contém 14 mg de teriflunomida.<br />
+- Os outros componentes são lactose monohidratada, amido de milho, celulose microcristalina, 
+glicolato de amido sódico (Tipo A), hidroxipropilcelulose, estearato de magnésio, hipromelose, 
+dióxido de titânio (E171), talco, macrogol 8000, laca de alumínio índigo carmim (E132) (ver secção 
+2 “Aubagio contém lactose").  </p>
+<p>Qual o aspeto de AUBAGIO e conteúdo da embalagem </p>
+<p>AUBAGIO 7 mg comprimidos revestidos por película (comprimidos) 
+Os comprimido revestidos por película são cinzento esverdeado-azulado muito claro a azul-esverdeado 
+pálido, comprimidos revestidos por película hexagonais, com impressão num dos lados (“7") e com o 
+logótipo da empresa em relevo no outro lado. </p>
+<p>AUBAGIO 7 mg comprimidos revestidos por película estão disponíveis em embalagens de cartão que 
+contêm 28 comprimidos numa carteira com os blisters integrados. </p>
+<p>AUBAGIO 14 mg comprimidos revestidos por película (comprimidos) 
+Os comprimidos revestidos por película são azul pálido a azul pastel, comprimidos revestidos por película 
+pentagonais, com impressão num dos lados ("14") e um logótipo da empresa em relevo no outro lado. </p>
+<p>AUBAGIO 14 mg comprimidos revestidos por película estão disponíveis em embalagens de cartão que 
+contêm: 
+- 14, 28, 84 e 98 comprimidos em carteiras com blisters integrados; 
+- 10x1 comprimidos em blisters perfurados de dose unitária. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado: 
+Sanofi Winthrop Industrie 
+82 avenue Raspail 
+94250 Gentilly 
+França  </p>
+<p>Fabricante: 
+Opella Healthcare International SAS 
+56, Route de Choisy 
+60200<br />
+Compiègne 
+França </p>
+<p>Sanofi Winthrop Industrie<br />
+30-36, avenue Gustave Eiffel 
+37100 Tours 
+França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+Tel/Tél/Tel : +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91 България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942 Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+Sanofi, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel: +36 1 505 0 
+Danmark 
+sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 
+Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10 Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη ΑΕΒΕ 
+Τηλ: +30 210 900 16<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 - 0 </p>
+<p>España 
+sanofi-aventis S.A. 
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o.<br />
+Tel: +48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie 
+Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda 
+Tel: +351 21 35 89<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078 România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56 Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33 Italia 
+Sanofi S.r.l. 
+Tel: 800536Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200  </p>
+<p>Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741Sverige 
+Sanofi AB<br />
+Tel: +46 (0) 8 634 5 
+Latvia 
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p>         </div>"""      
+
+
+
 
 
                     
@@ -983,6 +1476,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-69e7e3b7b762d214fbbb48c707c30105"
 * entry[0].resource = composition-da-69e7e3b7b762d214fbbb48c707c30105
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp69e7e3b7b762d214fbbb48c707c30105"
+* entry[=].resource = mp69e7e3b7b762d214fbbb48c707c30105
+                            
+                    
+Instance: bundlepackageleaflet-pt-69e7e3b7b762d214fbbb48c707c30105
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aubagio Package Leaflet for language pt"
+Description: "ePI document Bundle for aubagio Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-69e7e3b7b762d214fbbb48c707c30105"
+* entry[0].resource = composition-pt-69e7e3b7b762d214fbbb48c707c30105
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp69e7e3b7b762d214fbbb48c707c30105"
@@ -1084,6 +1599,18 @@ RuleSet: 69e7e3b7b762d214fbbb48c707c30105ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-69e7e3b7b762d214fbbb48c707c30105) // aubagio pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

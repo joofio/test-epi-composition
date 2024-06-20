@@ -909,6 +909,449 @@ hver 4. - 8. uge over 2-5 dage</p>         </div>"""
 
 
 
+Instance: composition-pt-ac1fc3c62e1c367a53d2af315f7d1723
+InstanceOf: CompositionUvEpi
+Title: "Composition for kiovig Package Leaflet"
+Description:  "Composition for kiovig Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpac1fc3c62e1c367a53d2af315f7d1723)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - kiovig"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é KIOVIG e para que é utilizado
+2. O que precisa de saber antes de utilizar KIOVIG
+3. Como utilizar KIOVIG
+4. Efeitos secundários possíveis
+5. Como conservar KIOVIG
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é kiovig e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é kiovig e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>KIOVIG pertence a uma classe de medicamentos denominada imunoglobulinas. Estes medicamentos 
+contêm anticorpos humanos, que também estão presentes no seu sangue. Os anticorpos ajudam o seu 
+corpo a lutar contra as infeções. Os medicamentos como KIOVIG são utilizados em doentes que não 
+têm anticorpos suficientes no seu sangue e tendem a ter infeções frequentemente. Podem também ser 
+utilizados em doentes que precisam de anticorpos adicionais para a cura de determinadas afeções 
+inflamatórias (doenças autoimunes).
+KIOVIG é utilizado para
+Tratamento de doentes que não têm anticorpos suficientes (terapêutica de substituição). Existem 
+dois grupos:
+1. Doentes com falta inata de produção de anticorpos (síndromes de imunodeficiência primária).
+2. Doentes com imunodeficiências secundárias (IDS) que sofrem de infeções graves ou 
+recorrentes, com tratamento antimicrobiano ineficaz e com falta comprovada de anticorpo 
+específico (PSAF)* ou nível de IgG sérico &lt; 4 g/l.</p>
+<p>*PSAF = incapacidade em aumentar, pelo menos 2 vezes, o título do anticorpo IgG com as vacinas 
+pneumocócica polissacárida e antigénica polipeptídica
+Tratamento de doentes com certas doenças inflamatórias (imunomodulação). Existem cinco 
+grupos:
+1. Doentes que não têm plaquetas sanguíneas suficientes (trombocitopenia imune primária, TIP) 
+e que apresentam o risco de hemorragia ou que serão operados num futuro próximo.
+2. Doentes com uma doença que é associada a inflamações múltiplas dos nervos em todo o corpo 
+(síndrome de Guillain Barré).
+3. Doentes com uma doença que resulta em inflamações múltiplas de vários órgãos do corpo 
+(Doença de Kawasaki).
+31
+4. Doentes que sofram de uma doença rara caracterizada por uma fraqueza muscular 
+assimétrica dos membros, lentamente progressiva, sem perda sensorial (neuropatia 
+motora multifocal, NMM)
+5. Doentes que sofram de polirradiculoneuropatia desmielinizante inflamatória crónica (PDIC).</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar kiovig"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar kiovig"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize KIOVIG
+Se tem alergia às imunoglobulinas ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+Por exemplo, se tem uma deficiência de imunoglobulina A, pode ter anticorpos contra 
+a imunoglobulina A no seu sangue. Visto que KIOVIG contém traços de imunoglobulina 
+A (até 0,14 mg/ml), poderá ter uma reação alérgica.
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar KIOVIG.
+Durante quanto tempo é necessária a monitorização durante a perfusão
+
+Será cuidadosamente observado durante o período de perfusão com KIOVIG para se ter 
+a certeza de que não sofre uma reação. O seu médico irá certificar-se de que a velocidade à qual 
+KIOVIG é administrado lhe é adequada.
+
+Se KIOVIG for administrado a uma velocidade elevada, se sofre de um estado de saúde com 
+baixos níveis de anticorpos no seu sangue (hipo ou agamaglobulina), se não recebeu este 
+medicamento antes ou se passou um longo período de tempo (por exemplo, várias semanas) 
+desde que o recebeu pela última vez, pode existir um risco maior de efeitos indesejáveis. Nestes 
+casos, será cuidadosamente monitorizado durante a perfusão e até uma hora após o fim da 
+mesma.
+
+Caso já tenha recebido anteriormente KIOVIG e tenha recebido o último tratamento 
+recentemente, então será observado somente durante a perfusão e pelo menos até 20 minutos 
+após a sua perfusão.
+Quando poderá ser necessário diminuir a velocidade ou parar a perfusão
+Em casos raros, o seu corpo pode ter reagido anteriormente a anticorpos específicos e será, portanto, 
+sensível a medicamentos contendo anticorpos. Isto pode acontecer especialmente se sofrer de 
+deficiência de imunoglobulina A. Nestes raros casos, poderá ter reações alérgicas tais como uma 
+queda súbita da tensão arterial ou choque, mesmo que no passado já tenha recebido tratamento com 
+medicamentos contendo anticorpos.
+Se sentir uma reação durante a perfusão com KIOVIG, informe imediatamente o seu médico. 
+Dependendo da decisão do seu médico a velocidade de perfusão pode ser diminuída ou interrompida.
+Grupos de doentes especiais
+
+O seu médico terá cuidados especiais se for obeso, idoso, diabético ou se sofrer de tensão alta, 
+baixo volume sanguíneo (hipovolemia) ou se tiver problemas nos vasos sanguíneos (doenças 
+vasculares). Nestas condições, as imunoglobulinas podem aumentar o risco de enfarte do 
+miocárdio, apoplexia, embolia pulmonar ou trombose venosa profunda, embora só em casos 
+muito raros. Informe o seu médico se é diabético. Embora KIOVIG não contenha açúcar, 
+pode ser diluído com uma solução especial de açúcar (glucose 5%) que poderá afetar o seu 
+nível de açúcar no sangue.
+32
+
+O seu médico terá especial cuidado se tem ou teve anteriormente problemas nos rins ou se está 
+a receber medicamentos que podem afetar os rins (medicamentos nefrotóxicos), porque existe 
+uma possibilidade muito rara de insuficiência renal aguda. Informe o seu médico se tem alguma 
+doença renal. O seu médico irá escolher a imunoglobulina intravenosa adequada para si.
+Informações acerca do material de origem do KIOVIG
+KIOVIG é fabricado a partir de plasma (a parte líquida do sangue) humano. Quando os medicamentos
+são fabricados a partir de sangue ou plasma humanos, são tomadas um número de medidas para 
+prevenir que sejam transmitidas infeções aos doentes. Estas medidas incluem a seleção cuidadosa dos 
+dadores de sangue e plasma, para se ter a certeza de que aqueles que apresentam o risco de terem 
+infeções sejam excluídos, e a realização de testes em cada doação e nos conjuntos de doações para a 
+deteção de sinais de vírus ou infeções. Os fabricantes destes medicamentos também incluem etapas 
+no processamento do sangue ou plasma que podem inativar ou remover os vírus. Apesar destas 
+medidas, quando são administrados medicamentos preparados a partir de sangue ou plasma humanos, 
+a possibilidade de transmissão de infeções não pode ser totalmente excluída. Isto também se aplica 
+a quaisquer vírus desconhecidos ou emergentes ou outros tipos de infeções.
+As medidas tomadas para o fabrico de KIOVIG são consideradas eficientes para vírus com envelope, 
+tais como o vírus da imunodeficiência humana (HIV), vírus das hepatites B e C (HBV e HCV) e para 
+os vírus sem envelope da hepatite A e o Parvovírus B19. KIOVIG também contém determinados 
+anticorpos que podem prevenir uma infeção com o vírus da hepatite A e Parvovírus B19.
+Outros medicamentos e KIOVIG
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.
+Se tiver recebido uma vacina nas últimas seis semanas e até há três meses, a perfusão de 
+imunoglobulinas como KIOVIG pode diminuir o efeito de algumas vacinas de vírus vivos como as do 
+sarampo, rubéola, parotidite e varíola. Por isso, depois de receber imunoglobulinas poderá ter que 
+esperar até 3 meses antes de receber vacinas vivas atenuadas. Poderá ter que esperar até 1 ano depois 
+de receber as imunoglobulinas antes de poder receber a sua vacina contra o sarampo.
+Efeito em testes sanguíneos
+KIOVIG contém uma grande variedade de diferentes anticorpos, alguns dos quais podem afetar os 
+testes de sangue. Se tiver que fazer um teste de sangue depois de receber KIOVIG, informe a pessoa
+que vai colher o seu sangue ou o seu médico de que recebeu esta medicação.
+Gravidez, amamentação e fertilidade
+
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o 
+seu médico ou farmacêutico antes de tomar este medicamento.
+
+Não foram realizados ensaios clínicos com KIOVIG em mulheres grávidas ou a amamentar. 
+No entanto, medicamentos com anticorpos têm sido usados em mulheres grávidas ou 
+a amamentar e têm mostrado que não existem efeitos nocivos sobre a evolução da gravidez 
+nem sobre o bebé.
+
+Se está a amamentar e recebe KIOVIG, os anticorpos do medicamento também podem ser
+encontrados no leite. Por isso, o seu bebé pode ficar protegido de certas infeções.
+Condução de veículos e utilização de máquinas
+Durante o tratamento com KIOVIG os doentes podem ter reações (por exemplo tonturas ou náuseas), 
+que podem afetar a capacidade de conduzir e utilizar máquinas. Se tal acontecer, deve aguardar até as 
+reações desaparecerem.
+33</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar kiovig"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar kiovig"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>KIOVIG destina-se à administração intravenosa (perfusão numa veia). É-lhe administrado pelo seu 
+médico ou enfermeiro. A dose e a frequência da perfusão variam dependendo do seu estado de saúde e 
+do seu peso corporal.
+No início da perfusão receberá KIOVIG a uma baixa velocidade. Dependendo de como se sentir, o seu 
+médico poderá então aumentar gradualmente a velocidade de perfusão.
+Utilização em crianças e adolescentes
+Aplicam-se as mesmas indicações, doses e frequência de perfusão para adultos, crianças e 
+adolescentes (até aos 18 anos).
+Se utilizar mais KIOVIG do que deveria
+Se receber mais KIOVIG do que deveria, o seu sangue poderá tornar-se mais espesso 
+(hiperviscosidade). Isto pode acontecer particularmente se for um doente de risco, por exemplo, 
+um doente idoso ou um doente com problemas de rins. Certifique-se de que toma uma quantidade 
+adequada de líquidos para que não desidrate e avise o seu médico se tiver problemas clínicos 
+conhecidos.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos secundários, embora estes não se 
+manifestem em todas as pessoas. Determinados efeitos secundários, como dor de cabeça ou 
+vermelhidão, podem ser reduzidos diminuindo-se a velocidade de perfusão.
+De seguida, é apresentada uma lista dos efeitos secundários comunicados com KIOVIG:
+
+Efeitos secundários muito frequentes (podem afetar mais de 1 em cada 10 doentes):
+Dor de cabeça, tensão alta, náuseas, erupção cutânea, reações locais (p. ex., dor e inchaço ou 
+outras reações no local de administração), febre, fadiga.
+
+Efeitos secundários frequentes (podem afetar 1 a 10 em cada 100 doentes):
+Bronquite, constipação, número baixo de glóbulos vermelhos, gânglios linfáticos inchados, 
+apetite diminuído, dificuldade em dormir, ansiedade, tonturas, enxaqueca, adormecimento ou 
+formigueiro na pele ou num membro, diminuição da sensibilidade ao toque, inflamação dos 
+olhos, batimento cardíaco acelerado, rubor (vermelhidão), tosse, nariz com corrimento, tosse 
+crónica ou respiração com ruído (asma), nariz entupido, dor de garganta, dispneia (dificuldade 
+em respirar), diarreia, vómitos, dor abdominal, indigestão, contusão, comichão e urticária, 
+dermatite, pele avermelhada, dor nas costas, dor nas articulações, dor nos braços ou pernas, dor 
+muscular, cãibras musculares, fraqueza muscular, calafrios, acumulação de líquido sob a pele, 
+estado gripal, dor ou desconforto no peito, falta de força ou sensação de fraqueza, mal-estar, 
+arrepios.
+
+Efeitos secundários pouco frequentes (podem afetar 1 a 10 em cada 1.000 doentes):
+Sinusite crónica, infeção fúngica, várias infeções (do nariz, garganta, rim ou bexiga), meningite 
+assética, reações alérgicas graves, doença da tiroide, resposta excessiva a estímulos, problemas 
+de memória, dificuldade em falar, sabor estranho na boca, perturbação do equilíbrio, tremor 
+involuntário, dor nos olhos ou inchaço dos olhos, vertigem, líquido no ouvido médio, frio nas 
+extremidades, inflamação de uma veia, inchaço dos ouvidos e da garganta, distensão abdominal, 
+inchaço rápido da pele, inflamação aguda da pele, suores frios, aumento da reação da pele à luz 
+solar, suor em excesso também durante o sono, fasciculações musculares, excesso de proteína 
+sérica na urina, sensação de aperto no peito, sensação de calor, sensação de ardor, inchaço, 
+frequência respiratória aumentada, alteração do resultado de análises ao sangue.
+34
+
+Desconhecido (não pode ser calculado a partir dos dados disponíveis):
+Destruição dos eritrócitos, choque alérgico com perigo de vida, AVC transitório, AVC, tensão 
+arterial baixa, ataque do coração, coágulo sanguíneo numa veia principal, coágulo sanguíneo na 
+artéria principal do pulmão, acumulação de líquido no pulmão, resultado positivo do teste de 
+Coombs, saturação de oxigénio diminuída no sangue, lesão traumática pulmonar aguda 
+relacionada com transfusão.
+Comunicação de efeitos secundários
+Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+secundários diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar kiovig"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar kiovig"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Manter este medicamento fora da vista e do alcance das crianças.
+
+Não utilize este medicamento após o prazo de validade impresso no rótulo e cartonagem a 
+seguir a EXP. O prazo de validade corresponde ao último dia do mês indicado.
+
+Não utilize este medicamento se verificar partículas ou descoloração.
+
+Não armazenar a mais de 25ºC
+
+Não congelar.
+
+Manter o recipiente dentro da embalagem exterior para o proteger da luz.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de KIOVIG
+
+A substância ativa de KIOVIG é imunoglobulina humana normal.
+
+1 ml de KIOVIG contém 100 mg de proteína humana da qual pelo menos 98% 
+é imunoglobulina G (IgG).
+
+Os outros componentes (excipientes) são glicina e água para preparações injetáveis.
+Qual o aspeto de KIOVIG e conteúdo da embalagem
+KIOVIG é uma solução para perfusão dentro de frascos para injetáveis 
+de 10, 25, 50, 100, 200 ou 300 ml. A solução é transparente ou ligeiramente opalescente e sem cor ou 
+amarelo claro.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado:
+Takeda Manufacturing Austria AG
+Industriestrasse 67
+A-1221 Viena
+Áustria
+Fabricante:
+Baxalta Belgium Manufacturing SA
+Boulevard René Branquart, 80
+B-7860 Lessines
+Bélgica
+35
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Takeda Belgium NV
+Tel/Tél: +32 2 464 06 medinfoEMEA@takeda.com
+Lietuva
+Takeda, UAB
+Tel: +370 521 09 070
+medinfoEMEA@takeda.com
+България
+Такеда България ЕООД
+Тел.: +359 2 958 27 36
+medinfoEMEA@takeda.com 
+Luxembourg/Luxemburg
+Takeda Belgium NV
+Tel/Tél: +32 2 464 06 11
+medinfoEMEA@takeda.com
+Česká republika
+Takeda Pharmaceuticals Czech Republic s.r.o.
+Tel: +420 234 722 722
+medinfoEMEA@takeda.com
+Magyarország
+Takeda Pharma Kft.
+Tel: +36 1 270 7030
+medinfoEMEA@takeda.com
+Danmark
+Takeda Pharma A/S
+Tlf: +45 46 77 10 10
+medinfoEMEA@takeda.com
+Malta
+Τakeda HELLAS SA
+Tel: +30 210 6387800
+medinfoEMEA@takeda.com
+Deutschland
+Takeda GmbH
+Tel: +49 (0)800 825 3325
+medinfoEMEA@takeda.com
+Nederland
+Takeda Nederland B.V.
+Tel: +31 20 203 5492
+medinfoEMEA@takeda.com
+Eesti
+Takeda Pharma AS
+Tel: +372 6177 669
+medinfoEMEA@takeda.com
+Norge
+Takeda AS
+Tlf: +47 800 800 30
+medinfoEMEA@takeda.com
+Ελλάδα
+Τakeda ΕΛΛΑΣ ΑΕ
+Tηλ: +30 210 6387800
+medinfoEMEA@takeda.com
+Österreich
+Takeda Pharma Ges.m.b.H. 
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com
+España
+Takeda Farmacéutica España S.A
+Tel: +34 917 90 42 22
+medinfoEMEA@takeda.com
+Polska
+Takeda Pharma Sp. z o.o.
+tel: +48223062447
+medinfoEMEA@takeda.com
+France
+Takeda France SAS
+Tel. + 33 1 40 67 33 00
+medinfoEMEA@takeda.com
+Portugal
+Takeda Farmacêuticos Portugal, Lda.
+Tel: + 351 21 120 1457
+medinfoEMEA@takeda.com
+Hrvatska
+Takeda Pharmaceuticals Croatia d.o.o.
+Tel: +385 1 377 88 96
+medinfoEMEA@takeda.com
+România
+Takeda Pharmaceuticals SRL
+Tel: +40 21 335 03 91
+medinfoEMEA@takeda.com
+Ireland
+Takeda Products Ireland Ltd
+Tel: 1800 937 970
+Slovenija
+Takeda Pharmaceuticals farmacevtska družba d.o.o.
+Tel: + 386 (0) 59 082 480
+36
+medinfoEMEA@takeda.com
+medinfoEMEA@takeda.com
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+medinfoEMEA@takeda.com
+Slovenská republika
+Takeda Pharmaceuticals Slovakia s.r.o.
+Tel: +421 (2) 20 602 600
+medinfoEMEA@takeda.com
+Italia
+Takeda Italia S.p.A.
+Tel: +39 06 502601
+medinfoEMEA@takeda.com
+Suomi/Finland
+Takeda Oy
+Puh/Tel: 0800 774 051
+medinfoEMEA@takeda.com
+Κύπρος
+Τakeda ΕΛΛΑΣ ΑΕ
+Τηλ: +30 210 6387800
+medinfoEMEA@takeda.com
+Sverige
+Takeda Pharma AB
+Tel: 020 795 079
+medinfoEMEA@takeda.com
+Latvija
+Takeda Latvia SIA
+Tel: +371 67840082
+medinfoEMEA@takeda.com
+United Kingdom (Northern Ireland)
+Takeda UK Ltd
+Tel: +44 (0) 2830 640 902
+medinfoEMEA@takeda.com
+Este folheto foi revisto pela última vez em .
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -950,6 +1393,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-ac1fc3c62e1c367a53d2af315f7d1723"
 * entry[0].resource = composition-da-ac1fc3c62e1c367a53d2af315f7d1723
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpac1fc3c62e1c367a53d2af315f7d1723"
+* entry[=].resource = mpac1fc3c62e1c367a53d2af315f7d1723
+                            
+                    
+Instance: bundlepackageleaflet-pt-ac1fc3c62e1c367a53d2af315f7d1723
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kiovig Package Leaflet for language pt"
+Description: "ePI document Bundle for kiovig Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-ac1fc3c62e1c367a53d2af315f7d1723"
+* entry[0].resource = composition-pt-ac1fc3c62e1c367a53d2af315f7d1723
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpac1fc3c62e1c367a53d2af315f7d1723"
@@ -1051,6 +1516,18 @@ RuleSet: ac1fc3c62e1c367a53d2af315f7d1723ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-ac1fc3c62e1c367a53d2af315f7d1723) // kiovig pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1709,6 +1709,1024 @@ lægemidler samt affald heraf bør destrueres i henhold til lokale retningslinje
 
 
 
+Instance: composition-pt-a2652d1642d1c9344c422837d3b948bc
+InstanceOf: CompositionUvEpi
+Title: "Composition for yervoy Package Leaflet"
+Description:  "Composition for yervoy Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa2652d1642d1c9344c422837d3b948bc)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - yervoy"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é YERVOY e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar YERVOY </li>
+<li>Como utilizar YERVOY </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar YERVOY </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é yervoy e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é yervoy e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>YERVOY contém a substância ativa ipilimumab, uma proteína que ajuda as células do seu sistema 
+imunitário a atacar e destruir as células cancerosas. </p>
+<p>O ipilimumab é utilizado individualmente para tratar o melanoma avançado (um tipo de cancro da 
+pele) em adultos e adolescentes com idade igual ou superior a 12 anos. </p>
+<p>Ipilimumab em associação com nivolumab é utilizado para tratar </p>
+<ul>
+<li>
+<p>melanoma avançado (um tipo de cancro de pele) em adultos e adolescentes com idade igual ou 
+superior a 12 anos </p>
+</li>
+<li>
+<p>carcinoma avançado das células renais (cancro nos rins avançado) nos adultos </p>
+</li>
+<li>
+<p>mesotelioma pleural maligno (um tipo de cancro que. afeta o revestimento dos pulmões) em 
+adultos </p>
+</li>
+<li>
+<p>carcinoma colorretal avançado (cancro do cólon ou recto) em adultos </p>
+</li>
+<li>
+<p>cancro esofágico avançado (cancro da garganta) em adultos. </p>
+</li>
+</ul>
+<p>O ipilimumab em associação com nivolumab e quimioterapia é utilizado para tratar o cancro do 
+pulmão de células não-pequenas avançado (um tipo de cancro do pulmão) em adultos. </p>
+<p>Como YERVOY pode ser administrado em associação com outros medicamentos anti-cancro, é 
+importante que também leia o folheto informativo destes medicamento. Caso tenha quaisquer dúvidas 
+sobre estes medicamentos, fale com o seu médico. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar yervoy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar yervoy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>YERVOY não lhe deve ser administrado </p>
+<ul>
+<li>se tem alergia ao ipilimumab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6 "Conteúdo da embalagem e outras informações"). Fale com o seu médico se tiver 
+dúvidas. </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico antes de utilizar YERVOY, pois pode causar: </p>
+<ul>
+<li>
+<p>Problemas com o seu coração, como alterações no ritmo ou na frequência do batimento 
+cardíaco ou um ritmo cardíaco anormal. </p>
+</li>
+<li>
+<p>Inflamação dos intestinos (colite) que pode agravar para hemorragias (sangramento) ou 
+perfuração dos intestinos. Os sinais e sintomas de colite podem incluir diarreia (fezes aquosas, 
+soltas ou moles), um número maior do que o habitual de defecações, sangue nas fezes ou fezes 
+mais escuras, dor ou sensibilidade na zona do estômago. </p>
+</li>
+<li>
+<p>Problemas com os seus pulmões tais como dificuldade em respirar ou tosse. Estes podem ser 
+sinais de inflamação dos pulmões (pneumonite ou doença pulmonar intersticial). </p>
+</li>
+<li>
+<p>Inflamação do fígado (hepatite) que pode levar a insuficiência hepática (do fígado). Os sinais 
+e sintomas de hepatite podem incluir amarelecimento da pele ou olhos (icterícia), dor na zona 
+direita do estômago, cansaço. </p>
+</li>
+<li>
+<p>Inflamação da pele que pode levar a reação grave na pele (conhecida como necrólise 
+epidérmica tóxica, Síndrome de Stevens-Johnson e reação medicamentosa com eosinofilia e 
+sintomas sistémicos (DRESS)). Os sinais e sintomas de reação na pele grave podem incluir 
+erupção na pele com ou sem comichão, descamação da pele, pele seca, febre, fadiga, inchaço da 
+cara ou dos glânglios linfáticos, aumento dos eosinófilos (um tipo de glóbulos brancos) e efeitos 
+no fígado, rins ou pulmões. Por favor, tenha em atenção que a reação designada DRESS poderá 
+desenvolver-se semanas ou meses após a sua última dose. </p>
+</li>
+<li>
+<p>Inflamação dos nervos que pode levar levar a paralisia. Os sintomas de problemas nos nervos 
+podem incluir fraqueza dos músculos, entorpecimento ou formigueiro das mãos ou pés, perda de 
+consciência ou dificuldade em acordar. </p>
+</li>
+<li>
+<p>Inflamação ou problemas com os seus rins. Os sinais e sintomas podem incluir testes da 
+função renal alterados, ou diminuição do volume de urina. </p>
+</li>
+<li>
+<p>Inflamação das glândulas que produzem hormonas (especialmente da hipófise e das 
+glândulas suprarrenal e tiroide) que podem afetar o funcionamento destas glândulas. Os sinais e 
+sintomas que as suas glândulas não estão a funcionar devidamente podem incluir cefaleias (dor 
+de cabeça), visão turva ou dupla, cansaço, diminuição do desejo sexual e alterações no 
+comportamento. </p>
+</li>
+<li>
+<p>Diabetes do tipo I, incluindo cetoacidose diabética (ácido no sangue produzido pela diabetes). </p>
+</li>
+<li>
+<p>Inflamação dos músculos tais como miocardite (inflamação do músculo cardíaco), miosite 
+(inflamação dos músculos) e rabdomiólise (rigidez nos músculos e articulações, espasmos 
+musculares). Os sinais e sintomas podem incluir dores musculares, rigidez, fraqueza, dor no 
+peito ou fadiga severa. </p>
+</li>
+<li>
+<p>Inflamação dos olhos. Os sinais e sintomas podem incluir vermelhidão no olho, dor no olho, 
+problemas de visão, visão turva ou perda temporária de visão. </p>
+</li>
+<li>
+<p>Linfohistiocitose hemofagocítica. Uma doença rara em que o nosso sistema imunológico 
+produz demasiadas células de combate de infeção normais chamadas histiócitos e linfócitos. Os 
+sintomas podem incluir aumento do fígado e/ou baço, erupção da pele, aumento dos nódulos 
+linfáticos, problemas respiratórios, nódoas negras, anomalias nos rins e problemas de coração. </p>
+</li>
+<li>
+<p>Rejeição de transplante de órgão. </p>
+</li>
+</ul>
+<p>Informe o seu médico imediatamente se tiver algum destes sinais ou sintomas ou se estes se 
+agravarem. Não tente tratar os seus sintomas com outros medicamentos. O seu médico poderá 
+dar-lhe outros medicamentos para prevenir complicações mais graves e para diminuir os seus 
+sintomas, atrasar a dose seguinte de YERVOY ou parar o seu tratamento com YERVOY. 
+Ter em atenção que estes sinais e sintomas são por vezes retardados, e podem-se desenvolver 
+semanas ou meses após a última dose. Antes do tratamento, o seu médico irá avaliar o seu estado de 
+saúde geral. Também terá de realizar análises ao sangue durante o tratamento. </p>
+<p>Confirme com o seu médico ou enfermeiro antes de lhe ser administrado YERVOY </p>
+<ul>
+<li>
+<p>se tiver uma doença autoimune (uma condição em que o organismo ataca as suas próprias 
+células); </p>
+</li>
+<li>
+<p>se tiver, ou alguma vez tenha tido, uma infeção viral crónica do fígado, incluindo hepatite B 
+(VHB) ou hepatite C (VHC); </p>
+</li>
+<li>
+<p>se tiver infeção pelo vírus da imunodeficiência humana (VIH) ou síndrome de 
+imunodeficiência adquirida (SIDA). </p>
+</li>
+<li>
+<p>caso tenha experienciado anteriormente uma reação grave da pele numa terapêutica prévia 
+anticancerígena. </p>
+</li>
+<li>
+<p>se tiver historial de inflamação dos pulmões </p>
+</li>
+</ul>
+<p>Crianças e adolescentes 
+YERVOY não deve ser utilizado em crianças e adolescentes com menos de 18 anos de idade, exceto 
+adolescentes com idade igual ou superior a 12 anos que tenham melanoma. </p>
+<p>Outros medicamentos e YERVOY 
+Antes de lhe ser administrado YERVOY, informe o seu médico </p>
+<ul>
+<li>
+<p>se estiver a tomar quaisquer medicamentos que diminuam o funcionamento do sistema 
+imunitário, tais como corticosteroides. Estes medicamentos podem interferir com o efeito de 
+YERVOY. No entanto, quando estiver a ser tratado com YERVOY, o seu médico poderá 
+dar-lhe corticosteroides para reduzir os efeitos indesejáveis que poderá ter com YERVOY. </p>
+</li>
+<li>
+<p>se estiver a tomar medicamentos que impeçam o sangue de formar coágulos (anticoagulantes). 
+Estes medicamentos podem aumentar a probabilidade de hemorragia no estômago ou intestino, 
+um efeito indesejável de YERVOY. </p>
+</li>
+<li>
+<p>Se lhe foi prescrito recentemente Zelboraf (vemurafenib, outro medicamento utilizado para o 
+tratamento do cancro da pele). Quando YERVOY é administrado após terapêutica prévia de 
+vemurafenib, poderá verificar-se um risco acrescido de efeitos indesejáveis na pele. </p>
+</li>
+</ul>
+<p>Informe também o seu médico se estiver a tomar ou tiver tomado recentemente outros 
+medicamentos. </p>
+<p>Não tome quaisquer outros medicamentos durante o seu tratamento sem falar primeiro com o seu 
+médico. Com base em dados preliminares, a associação de YERVOY (ipilimumab) e vemurafenib,não 
+é recomendada devido à toxicidade aumentada para o fígado. </p>
+<p>Gravidez e amamentação 
+Informe o seu médico se estiver grávida, a planear engravidar ou se estiver a amamentar. </p>
+<p>Não pode utilizar YERVOY se estiver grávida, a não ser que o seu médico o tenha especificamente 
+recomendado. Os efeitos de YERVOY na mulher grávida não são conhecidos, mas é possível que a 
+susbtância ativa, ipilimumab, possa prejudicar um bébé ainda por nascer. </p>
+<ul>
+<li>
+<p>Se estiver em risco de engravidar, tem de utilizar métodos contracetivos eficazes durante o 
+tratamento com YERVOY. </p>
+</li>
+<li>
+<p>Se engravidar durante o tratamento com YERVOY informe o seu médico. </p>
+</li>
+</ul>
+<p>Não se sabe se o ipilimumab passa para o leite materno. No entanto, não se espera uma exposição 
+significativa ao ipilimumab do bébé amamentado e não se prevêem efeitos no bebé amamentado. 
+Pergunte ao seu médico se pode amamentar durante ou após o tratamento com YERVOY. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza, não ande de bicicleta nem utilize máquinas se lhe foi administrado YERVOY a não 
+ser que esteja seguro de que se sente em condições. A sensação de cansaço ou fraqueza é um efeito 
+indesejável muito frequente de YERVOY. Tal pode afetar a sua capacidade de conduzir, de andar de 
+bicicleta ou de utilizar máquinas. </p>
+<p>YERVOY contém sódio 
+Informe o seu médico se estiver numa dieta com baixo teor de sódio (pouco sódio) antes de lhe ser 
+administrado YERVOY. </p>
+<p>Este medicamento contém 23 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
+cada frasco para injetáveis de 10 ml. Isto é equivalente a 1,15% da ingestão diária máxima de sódio 
+recomendada na dieta para um adulto. </p>
+<p>Este medicamento contém 92 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
+cada frasco para injetáveis de 40 ml. Isto é equivalente a 4,60% da ingestão diária máxima de sódio 
+recomendada na dieta para um adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar yervoy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar yervoy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como YERVOY é administrado 
+YERVOY será administrado num hospital ou numa clínica sob a supervisão de um médico com 
+experiência. </p>
+<p>Quando Yervoy é administrado isoladamente, para o tratamento do cancro da pele, YERVOY será 
+administrado como perfusão (gota a gota) numa veia (por via intravenosa) durante um período de 
+30 minutos. </p>
+<p>Quando YERVOY é administrado em associação com nivolumab para o tratamento do cancro da pele, 
+ser-lhe-á administrada uma perfusão durante um período de 30 minutos a cada 3 semanas durante as 
+primeiras 4 doses (fase de associação). Posteriormente, nivolumab será administrado em perfusão 
+durante um período de 30 ou 60 minutos, a cada 2 ou 4 semanas, dependendo da dose que estiver a 
+receber (fase de agente único). </p>
+<p>Quando YERVOY é administrado em associação com nivolumab para o tratamento do cancro dos rins 
+avançado, ser-lhe-á administrada uma perfusão durante um período de 30 minutos a cada 3 semanas 
+durante as primeiras 4 doses (fase de associação). Posteriormente, nivolumab será administrado em 
+perfusão durante um período de 30 ou 60 minutos, a cada 2 ou 4 semanas, dependendo da dose que 
+estiver a receber (fase de agente único). </p>
+<p>Quando YERVOY é administrado em associação com nivolumab para o tratamento do cancro do 
+cólon ou recto avançado em adultos, ser-lhe-á administrada uma perfusão durante um período de 
+30 minutos a cada 3 semanas durante as primeiras 4 doses (fase de associação). Posteriormente, 
+nivolumab será administrado em perfusão durante um período de 30 minutos, a cada 2 semanas (fase 
+de agente único). </p>
+<p>Quando YERVOY é administrado em associação com nivolumab para o tratamento do mesotelioma 
+pleural maligno, ou cancro esofágico avançado, ser-lhe-á administrada uma perfusão durante um 
+período de 30 minutos, cada 6 semanas. </p>
+<p>Quando YERVOY é administrado em associação com nivolumab e quimioterapia para o tratamento 
+do cancro do pulmão das células não pequenas avançado, ser-lhe-á administrada uma perfusão durante 
+um período de 30 minutos a cada 6 semanas. Após os 2 ciclos de quimioterapia estarem completados, 
+ipilimumab ser-lhe-á administrado em associação com nivolumab como uma perfusão durante um 
+período de 30 minutos a cada 6 semanas </p>
+<p>Que quantidade de YERVOY é administrada 
+Quando Yervoy é administrado isoladamente, para o tratamento do cancro da pele, a dose 
+recomendada é de 3 mg de ipilimumab por quilograma do seu peso corporal. </p>
+<p>A quantidade de YERVOY que lhe será administrada será calculada com base no seu peso corporal. 
+Dependendo da sua dose, parte ou a totalidade do conteúdo do frasco para injetáveis de YERVOY 
+pode ser diluído antes da administração com solução injetável de cloreto de sódio 9 mg/ml (0,9%) ou 
+solução injetável de glucose 50 mg/ml (5%). Pode ser necessário mais do que um frasco para 
+injetáveis para se ter a dose necessária. </p>
+<p>Será tratado com YERVOY uma vez cada 3 semanas, para um total de 4 doses. Poderá notar o 
+aparecimento de novas lesões ou o crescimento de lesões existentes na sua pele, o que poderá ser de 
+esperar quando estiver a ser tratado com YERVOY. O seu médico continuará a dar-lhe YERVOY 
+durante um total de 4 doses, dependendo da sua tolerância ao tratamento. </p>
+<p>Quando YERVOY é administrado em associação com nivolumab para o tratamento do cancro da pele 
+em adultos e adolescentes com idade igual ou superior a 12 anos, a dose recomendada de YERVOY é 
+de 3 mg de ipilimumab por quilograma do seu peso corporal a cada 3 semanas durante as primeiras 4 
+doses (fase de associação). Posteriormente, a dose recomendada de nivolumab (fase de agente único) é 
+de 240 mg administrada a cada 2 semanas ou de 480 mg administrada a cada 4 semanas em adultos e 
+adolescentes com idade igual ou superior a 12 anos e com um peso de, pelo menos, 50 kg ou 3 mg de 
+nivolumab por quilograma do seu peso corporal administrados a cada 2 semanas ou 6 mg de 
+nivolumab por quilograma do seu peso corporal administrados a cada 4 semanas para adolescentes 
+com idade igual ou superior a 12 anos com um peso inferior a 50 kg. </p>
+<p>Quando YERVOY é administrado em associação com nivolumab para o tratamento do cancro renal 
+avançado, a dose recomendada de YERVOY é de 1 mg de ipilimumab por quilograma do seu peso 
+corporal a cada 3 semanas durante as primeiras 4 doses (fase de associação). Posteriormente, a dose 
+recomendada de nivolumab é de 240 mg administrada a cada 2 semanas ou de 480 mg administrada a 
+cada 4 semanas (fase de agente único). </p>
+<p>Quando YERVOY é administrado em associação com nivolumab para o tratamento do cancro do 
+cólon ou recto avançado, a dose recomendada de YERVOY é 1 mg de ipilimumab por quilograma de 
+peso corporal cada 3 semanas para as primeiras 4 doses (fase de associação). Posteriormente, a dose 
+recomendada de nivolumab é 240 mg cada 2 semanas (fase de agente único). </p>
+<p>Quando YERVOY é administrado em associação com nivolumab para o tratamento do mesotelioma 
+pleural maligno, ou cancro esofágico avançado, a dose recomendada de YERVOY é 1 mg de 
+ipilimumab por quilograma do seu peso corporal a cada 6 semanas. </p>
+<p>Quando YERVOY é administrado em associação com nivolumab e quimioterapia para o tratamento 
+do cancro do pulmão das células não pequenas avançado, a dose recomendada de YERVOY é 1 mg de 
+ipilimumab por quilograma do seu peso corporal. Ser-lhe-á administrada uma perfusão durante um 
+período de 30 minutos a cada 6 semanas. </p>
+<p>Se lhe faltar uma dose de YERVOY 
+É muito importante que receba todas as doses de YERVOY. Se não receber uma dose, pergunte ao 
+médico quando deverá receber a dose seguinte. </p>
+<p>Se parar de utilizar YERVOY 
+A interrupção do tratamento com YERVOY pode parar o efeito do medicamento. Não pare o 
+tratamento com YERVOY a não ser que o tenha discutido com o médico. </p>
+<p>Caso ainda tenha dúvidas sobre o seu tratamento ou a utilização deste medicamento, fale com o seu 
+médico. </p>
+<p>Quando YERVOY é administrado em associação com nivolumab ou em associação com nivolumab e 
+quimioterapia, primeiro ser-lhe-á administrado nivolumab seguido de YERVOY e depois da 
+quimioterapia. </p>
+<p>Consulte o folheto informativo dos outros medicamentos anti-cancro para compreender a utilização 
+destes medicamento. Caso tenha quaisquer dúvidas sobre estes medicamentos, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. O seu médico discutirá o assunto consigo e explicará os riscos e 
+benefícios do tratamento. </p>
+<p>Tenha conhecimento de sintomas de inflamação importantes 
+YERVOY atua no seu sistema imunitário e pode causar inflamação em algumas partes do seu 
+organismo. 
+A inflamação pode causar lesões graves ao seu organismo e algumas situações inflamatórias podem 
+ser potencialmente fatais (pode causar a morte). </p>
+<p>Os seguintes efeitos indesejáveis foram comunicados em doentes a receber apenas 3 mg/kg de 
+ipilimumab: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>diarreia (fezes aquosas, soltas ou moles), vómitos ou sentir-se doente (náuseas), obstipação, dor 
+no estômago </p>
+</li>
+<li>
+<p>erupção na pele, comichão </p>
+</li>
+<li>
+<p>dor nos músculos, ossos, ligamentos, tendões e nervos </p>
+</li>
+<li>
+<p>sensação de cansaço ou fraqueza, reação no local da injeção, febre, edema (inchaço), dor </p>
+</li>
+</ul>
+<p> Informe o seu médico imediatamente se tiver algum destes efeitos indesejáveis. 
+Não tente tratar os sintomas com outros medicamentos. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>infeção bacteriana grave do sangue (sepsia), infeção do trato urinário, infeção do trato 
+respiratório </p>
+</li>
+<li>
+<p>dor tumoral </p>
+</li>
+<li>
+<p>uma diminuição do número de glóbulos vermelhos (que transportam o oxigénio) no sangue, dos 
+glóbulos brancos (que são importantes no combate às infeções) no sangue ou das plaquetas 
+(células que ajudam o sangue a coagular) </p>
+</li>
+<li>
+<p>função diminuída da glândula tiroide que pode causar cansaço ou aumento de peso, função 
+diminuída (hipopituitarismo) ou inflamação (hipofisite) da hipófise, glândula situada na base do 
+cérebro </p>
+</li>
+<li>
+<p>desidratação (perda de água) </p>
+</li>
+<li>
+<p>confusão, depressão </p>
+</li>
+<li>
+<p>acumulação excessiva de líquidos no cérebro, lesão nos nervos (causando dor, fraqueza e 
+cãibras), tonturas, cefaleias (dores de cabeça) </p>
+</li>
+<li>
+<p>visão turva, dor nos olhos </p>
+</li>
+<li>
+<p>batimentos cardíacos irregulares ou anormais </p>
+</li>
+<li>
+<p>tensão arterial baixa, vermelhidão temporária da face e pescoço, sensação de calor intenso com 
+aumento da sudação e batimento rápido do coração </p>
+</li>
+<li>
+<p>dificuldade em respirar (dispneia), tosse, febre dos fenos </p>
+</li>
+<li>
+<p>hemorragia no estômago ou intestino, inflamação dos intestinos (colite), azia, úlceras na boca e 
+feridas herpéticas (estomatite) </p>
+</li>
+<li>
+<p>função hepática (do fígado) alterada </p>
+</li>
+<li>
+<p>inflamação do revestimento da superfície interna de um órgão em particular </p>
+</li>
+<li>
+<p>inflamação e vermelhidão da pele, alteração da coloração da pele em manchas (vitiligo), 
+urticária (erupção na pele com comichão e inchaço), perda ou enfraquecimento do cabelo, 
+transpiração em excesso à noite, pele seca </p>
+</li>
+<li>
+<p>dor nos músculos e articulações (artralgia), espasmos nos músculos, inflamação das articulações 
+(artrite) </p>
+</li>
+<li>
+<p>insuficiência da função dos rins </p>
+</li>
+<li>
+<p>calafrios, perda de energia </p>
+</li>
+<li>
+<p>doença do tipo gripal </p>
+</li>
+<li>
+<p>diminuição de peso corporal </p>
+</li>
+</ul>
+<p> Informe o seu médico imediatamente se tiver algum destes efeitos indesejáveis. 
+Não tente tratar os sintomas com outros medicamentos. </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>infeção bacteriana grave do sangue (choque séptico), inflamação em volta do cérebro ou da 
+espinal medula, inflamação do estômago e intestinos, inflamação da parede dos intestinos 
+(causando febre, vómitos e dor no estômago), infeção nos pulmões (pneumonia) </p>
+</li>
+<li>
+<p>um conjunto de sintomas devido ao cancro no organismo tais como níveis aumentados de cálcio 
+e de colesterol no sangue e níveis baixos de açúcar no sangue (síndroma paraneoplásico) </p>
+</li>
+<li>
+<p>aumento dos eosinófilos (um tipo de glóbulos brancos) </p>
+</li>
+<li>
+<p>reação alérgica </p>
+</li>
+<li>
+<p>diminuição da secreção de hormonas produzidas pelas glândulas suprarrenais (glândulas 
+localizadas por cima dos rins), função aumentada da glândula tiroide, que pode causar 
+batimento cardíaco rápido, sudação e perda de peso, alteração das glândulas que produzem 
+hormonas sexuais </p>
+</li>
+<li>
+<p>função diminuída das glândulas suprarrenais causada por um funcionamento diminuído do 
+hipotálamo (parte do cérebro) </p>
+</li>
+<li>
+<p>um conjunto de complicações metabólicas que acontecem depois do tratamento do cancro 
+caracterizadas pelos níveis aumentados de potássio e fosfato no sangue, e níveis baixos de 
+cálcio no sangue (síndrome de lise tumoral) </p>
+</li>
+<li>
+<p>alterações do estado mental, diminuição do desejo sexual </p>
+</li>
+<li>
+<p>inflamação grave dos nervos e potencialmente fatal (pode causar a morte) causando dor, 
+fraqueza ou paralisia nas extremidades (síndrome de Guillain-Barré), desmaio, inflamação dos 
+nervos dentro do cérebro, dificuldade em coordenar movimentos (ataxia), tremores, contração 
+dos músculos breve e independente da vontade, dificuldade em falar </p>
+</li>
+<li>
+<p>inflamação do olho (conjuntivite), hemorragia nos olhos, inflamação da zona do olho com cor, 
+diminuição da visão, sensação do corpo estranho nos olhos, olhos inchados com corrimento, 
+inchaço do olho, inflamação das pálpebras </p>
+</li>
+<li>
+<p>inflamação dos vasos sanguíneos, doença dos vasos sanguíneos, diminuição no fornecimento de 
+sangue às extremidades, tensão arterial baixa quando se está de pé </p>
+</li>
+<li>
+<p>dificuldade extrema em respirar, acumulação de líquido nos pulmões, inflamação dos pulmões </p>
+</li>
+<li>
+<p>perfuração no intestino, inflamação do intestino delgado, inflamação do intestino ou pâncreas 
+(pancreatite), úlcera péptica, inflamação do esófago, bloqueio intestinal, inflamação do ânus e 
+da parede retal (marcada pelas fezes com sangue e necessidade frequente de defecar) </p>
+</li>
+<li>
+<p>insuficiência do fígado, inflamação do fígado, aumento do fígado, amarelecimento da pele ou 
+olhos (icterícia) </p>
+</li>
+<li>
+<p>descamação grave e possivelmente fatal da pele (necrólise epidérmica tóxica) </p>
+</li>
+<li>
+<p>inflamação dos músculos causando dor ou rigidez na anca e ombro </p>
+</li>
+<li>
+<p>inflamação do rim, ou sistema nervoso central </p>
+</li>
+<li>
+<p>inflamação em vários órgãos </p>
+</li>
+<li>
+<p>inflamação dos músculos esqueléticos </p>
+</li>
+<li>
+<p>fraqueza muscular </p>
+</li>
+<li>
+<p>doença no rim </p>
+</li>
+<li>
+<p>ausência de períodos menstruais (menstruação) </p>
+</li>
+<li>
+<p>problemas em vários órgãos, reação relacionada com a perfusão do medicamento </p>
+</li>
+<li>
+<p>alteração na cor do cabelo </p>
+</li>
+<li>
+<p>inflamação da bexiga. Os sinais e sintomas podem incluir micção frequente e/ou dolorosa, 
+necessidade urgente de urinar, sangue na urina, dor ou pressão na parte inferior do abdómen. </p>
+</li>
+</ul>
+<p> Informe o seu médico imediatamente se tiver algum destes efeitos indesejáveis. 
+Não tente tratar os sintomas com outros medicamentos. </p>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em 1000 pessoas) </p>
+<ul>
+<li>
+<p>doença inflamatória dos vasos sanguíneos (mais frequentemente das artérias da cabeça) </p>
+</li>
+<li>
+<p>inchaço da glândula da tiroide (tiroidite) </p>
+</li>
+<li>
+<p>doença na pele caracterizada por pápulas vermelhas secas cobertas de escamas (psoríase) </p>
+</li>
+<li>
+<p>inflamação e vermelhidão da pele (eritema multiforme) </p>
+</li>
+<li>
+<p>um tipo de reação na pele grave caracterizada por erupção, acompanhada de uma ou mais das 
+seguintes características: febre, inchaço da cara e dos glânglios linfáticos, aumento dos 
+eosinófilos (um tipo de glóbulos brancos), efeitos no fígado, rins, ou pulmões (uma reação 
+designada DRESS). </p>
+</li>
+<li>
+<p>um distúrbio inflamatório (mais provavelmente de origem auto-imune) que afeta os olhos, a 
+pele e as membranas das orelhas, cérebro e medula espinal (síndrome de 
+Vogt-Koyanagi-Harada), descolamento da membrana na parte de trás do olho (descolamento 
+seroso da retina) </p>
+</li>
+<li>
+<p>os sintomas de diabetes do tipo I ou cetoacidose diabética incluem maior sensação de fome ou 
+sede do que habitualmente, necessidade de urinar com maior frequência, perda de peso, 
+sensação de cansaço, sensação de doença, dor de estômago, respiração rápida e profunda, 
+confusão mental, sonolência não habitual, hálito com cheiro doce, gosto doce ou metálico no 
+boca, odor diferente da urina ou da transpiração </p>
+</li>
+<li>
+<p>fraqueza muscular e cansaço sem atrofia (miastenia gravis) </p>
+</li>
+</ul>
+<p> Informe o seu médico imediatamente se tiver algum destes efeitos indesejáveis. 
+Não tente tratar os sintomas com outros medicamentos. </p>
+<p>Efeitos indesejáveis muito raros (podem afetar até 1 em 10.000 pessoas) </p>
+<ul>
+<li>Reação alérgica grave e susceptível de colocar a vida em risco </li>
+</ul>
+<p> Informe o seu médico imediatamente se tiver algum destes efeitos indesejáveis. 
+Não tente tratar os sintomas com outros medicamentos. </p>
+<p>Adicionalmente, os seguintes efeitos indesejáveis pouco frequentes (podem afetar até 1 em pessoas) foram comunicados em doentes que receberam outras doses para além de 3 mg/kg de 
+YERVOY, em ensaios clínicos: </p>
+<ul>
+<li>
+<p>tríade de sintomas (meningismo): rigidez do pescoço, intolerância (não suportar) às luzes 
+brilhantes e dores de cabeça, desconforto do tipo gripal </p>
+</li>
+<li>
+<p>inflamação do músculo do coração, fraqueza do músculo do coração, fluido em torno do 
+coração </p>
+</li>
+<li>
+<p>inflamação do fígado ou pâncreas, nódulos de células inflamatórias em vários órgãos do seu 
+corpo </p>
+</li>
+<li>
+<p>infeção dentro do abdómen </p>
+</li>
+<li>
+<p>lesões dolorosas na pele dos braços e pernas e face (eritema nodoso) </p>
+</li>
+<li>
+<p>função aumentada da hipófise </p>
+</li>
+<li>
+<p>função diminuída da glândula paratiroide </p>
+</li>
+<li>
+<p>inflamação do olho, inflamação do músculo do olho </p>
+</li>
+<li>
+<p>audição diminuída </p>
+</li>
+<li>
+<p>má circulação sanguínea fazendo os dedos do pé e mão dormentes ou pálidos </p>
+</li>
+<li>
+<p>lesão nos tecidos das mãos e pés causando vermelhidão, inchaço e bolhas </p>
+</li>
+</ul>
+<p> Informe o seu médico imediatamente se tiver algum destes efeitos indesejáveis. 
+Não tente tratar os sintomas com outros medicamentos. </p>
+<p>Outros efeitos indesejáveis que foram notificados com frequência desconhecida (a frequência 
+não pode ser calculada a partir dos dados disponíveis): </p>
+<ul>
+<li>
+<p>rejeição de transplante de órgão </p>
+</li>
+<li>
+<p>um tipo de doença na pele com formação de bolhas (designada penfigoide) </p>
+</li>
+<li>
+<p>um problema em que o sistema imunológico produz demasiadas células de combate à infeção 
+chamadas histiócitos e linfócitos, podendo causar vários sintomas (denominado linfohistiocitose 
+hemofagocítica). Os sintomas podem incluir aumento do fígado e/ou baço, erupção da pele, 
+aumento dos nódulos linfáticos, problemas respiratórios, nódoas negras, anomalias nos rins e 
+problemas de coração. </p>
+</li>
+<li>
+<p>dor, dormência, formigueiro, ou fraqueza nos braços ou pernas; problemas na bexiga ou 
+intestinos incluindo necessidade de urinar com maior frequência, incontinência urinária, 
+dificuldade em urinar e obstipação (mielite) </p>
+</li>
+</ul>
+<p> Informe o seu médico imediatamente se tiver algum destes efeitos indesejáveis. 
+Não tente tratar os sintomas com outros medicamentos. </p>
+<p>Alterações nos resultados dos testes 
+YERVOY pode causar alterações nos resultados dos testes realizados pelo médico. Estão incluídos: </p>
+<ul>
+<li>
+<p>uma alteração do número de glóbulos vermelhos no sangue (que transportam o oxigénio), dos 
+glóbulos brancos no sangue (que são importantes no combate às infeções) ou das plaquetas 
+(células que ajudam o sangue a coagular) </p>
+</li>
+<li>
+<p>uma alteração anormal dos níveis de hormonas e de enzimas do fígado no sangue </p>
+</li>
+<li>
+<p>testes da função hepática (do fígado) alterados </p>
+</li>
+<li>
+<p>níveis alterados de cálcio, sódio, fosfato ou potássio no sangue </p>
+</li>
+<li>
+<p>presença de sangue ou de proteínas na urina </p>
+</li>
+<li>
+<p>uma alcalinidade anormalmente alta do sangue e de outros tecidos do organismo </p>
+</li>
+<li>
+<p>incapacidade dos rins de retirar de forma normal os ácidos do sangue </p>
+</li>
+<li>
+<p>presença de anticorpos no sangue contra algumas das suas próprias células </p>
+</li>
+</ul>
+<p>Os seguintes efeitos indesejáveis foram comunicados em doentes a receber ipilimumab em 
+associação com outros medicamentos anti-cancro (a frequência e gravidade dos efeitos indesejáveis 
+podem variar com a associação de medicamentos anti-cancro recebida): </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>infeções do trato respiratório superior </p>
+</li>
+<li>
+<p>função diminuída da glândula da tiróide (que pode provocar cansaço ou ganho de peso) </p>
+</li>
+<li>
+<p>uma diminuição do número de glóbulos vermelhos no sangue (que transportam o oxigénio), dos 
+glóbulos brancos no sangue (que são importantes no combate às infeções) ou das plaquetas 
+(células que ajudam o sangue a coagular) </p>
+</li>
+<li>
+<p>diminuição de apetite, altos (hiperglicemia) ou baixos (hipoglicemia) níveis de açúcar no sangue </p>
+</li>
+<li>
+<p>dor de cabeça, tonturas </p>
+</li>
+<li>
+<p>dificuldade em respirar (dispneia), tosse </p>
+</li>
+<li>
+<p>diarreia (fezes aquosas, soltas ou moles), vómitos ou sentir-se enjoado (náuseas), dor de 
+estômago, obstipação </p>
+</li>
+<li>
+<p>erupção na pele, por vezes com bolhas, comichão </p>
+</li>
+<li>
+<p>dor nos músculos e nos ossos (dor musculoesquelética), dor nas articulações (artralgia) </p>
+</li>
+<li>
+<p>sensação de cansaço ou fraqueza, febre, edema (inchaço) </p>
+</li>
+</ul>
+<p> Informe o seu médico imediatamente se tiver algum destes efeitos indesejáveis. 
+Não tente tratar os sintomas com outros medicamentos. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>infeção nos pulmões (pneumonia), bronquite, inflamação do olho (conjuntivite) </p>
+</li>
+<li>
+<p>aumento dos eosinófilos (um tipo de glóbulos brancos) </p>
+</li>
+<li>
+<p>reação alérgica, reação relacionada com a perfusão do medicamento </p>
+</li>
+<li>
+<p>função aumentada da glândula da tiroide (que pode causar aumento do ritmo cardíaco, suor e 
+perda de peso), diminuição da secreção de hormonas produzidas pelas glândulas suprarrenais 
+(glândulas localizadas por cima dos rins), função hipoativa (hipopituitarismo) ou inflamação 
+(hipofisite) da hipófise situada na base do cérebro, inchaço da glândula da tiróide, diabetes </p>
+</li>
+<li>
+<p>desidratação (perda de água), diminuição dos níveis de albumina e fosfato no sangue, 
+diminuição do peso corporal </p>
+</li>
+<li>
+<p>inflamação dos nervos (causando dormência, fraqueza, formigueiro ou dor ardente nos braços e 
+pernas) </p>
+</li>
+<li>
+<p>visão turva, olhos secos </p>
+</li>
+<li>
+<p>ritmo cardíaco acelerado, alterações no ritmo ou na frequência do batimento cardíaco, 
+batimentos cardíacos irregulares ou anormais </p>
+</li>
+<li>
+<p>pressão arterial elevada (hipertensão) </p>
+</li>
+<li>
+<p>inflamação dos pulmões (pneumonite, caracterizada por tosse e dificuldade em respirar), fluido 
+à volta dos pulmões </p>
+</li>
+<li>
+<p>inflamação dos intestinos (colite), úlceras na boca e feridas herpéticas (estomatite), inflamação 
+do pâncreas (pancreatite), boca seca, inflamação do estômago (gastrite) </p>
+</li>
+<li>
+<p>inflamação do fígado </p>
+</li>
+<li>
+<p>alteração na cor da pele em manchas (vitiligo), vermelhidão da pele, perda de cabelo pouco 
+comum ou enfraquecimento, urticária (comichão, erupção irregular), pele seca </p>
+</li>
+<li>
+<p>inflamação das articulações (artrite), espasmo muscular, fraqueza muscular </p>
+</li>
+<li>
+<p>falência renal (incluindo perda abrupta da função renal) </p>
+</li>
+<li>
+<p>dor, dor no peito, arrepios </p>
+</li>
+</ul>
+<p> Informe o seu médico imediatamente se tiver algum destes efeitos indesejáveis. 
+Não tente tratar os sintomas com outros medicamentos. </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>diminuição dos neutrófilos com febre </p>
+</li>
+<li>
+<p>ácido no sangue produzido pela diabetes (cetoacidose diabética) </p>
+</li>
+<li>
+<p>aumento dos níveis de ácido no sangue </p>
+</li>
+<li>
+<p>inflamação do cérebro; lesão nos nervos que causa dormência e fraqueza (polineuropatia); pé 
+caído (paralisia do nervo peroneal); inflamação dos nervos causada pelo ataque do corpo a si 
+próprio e que causa dormência, fraqueza, formigueiro ou dor ardente (neuropatia autoimune); 
+fraqueza muscular e cansaço sem atrofia (miastenia gravis) </p>
+</li>
+<li>
+<p>inflamação do olho que causa vermelhidão ou dor </p>
+</li>
+<li>
+<p>batimentos cardíacos irregulares ou anormais, inflamação do músculo cardíaco, ritmo cardíaco 
+diminuído </p>
+</li>
+<li>
+<p>inflamação do duodeno </p>
+</li>
+<li>
+<p>doenças da pele com manchas vermelhas engrossadas, muitas vezes com escamas prateadas 
+(psoríase), condição severa da pele que provoca manchas vermelhas, muitas vezes com 
+comichão, semelhantes à erupção do sarampo, que se inicia nos membros e às vezes na face e 
+no resto do corpo (eritema multiforme), descamação grave e possivelmente fatal da pele 
+(síndrome de Stevens-Johnson) </p>
+</li>
+<li>
+<p>dores musculares, sensibilidade e fraqueza muscular, não causadas pelo exercício (miopatia), 
+inflamação dos músculos (miosite), inflamação dos músculos que provoca dor e rigidez 
+(polimialgia reumática) </p>
+</li>
+<li>
+<p>inflamação do rim </p>
+</li>
+</ul>
+<p> Informe o seu médico imediatamente se tiver algum destes efeitos indesejáveis. 
+Não tente tratar os sintomas com outros medicamentos. </p>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em 1000 pessoas) </p>
+<ul>
+<li>
+<p>inflamação não infecciosa temporária e reversível das membranas protetoras que rodeiam o 
+cérebro e a espinal medula (meningite asséptica) </p>
+</li>
+<li>
+<p>doenças crónicas associadas à acumulação de células inflamatórias em vários órgãos e tecidos, 
+mais frequentemente nos pulmões (sarcoidose) </p>
+</li>
+<li>
+<p>função diminuída da glândula paratiroide </p>
+</li>
+<li>
+<p>inflamação temporária dos nervos que causa dor, fraqueza e paralisia nas extremidades 
+(síndrome de Guillain-Barré), inflamação dos nervos </p>
+</li>
+<li>
+<p>dor, dormência, formigueiro, ou fraqueza nos braços ou pernas; problemas na bexiga ou 
+intestinos incluindo necessidade de urinar com maior frequência, incontinência urinária, 
+dificuldade em urinar e obstipação (mielite/mielite transversa) </p>
+</li>
+<li>
+<p>perfuração intestinal </p>
+</li>
+<li>
+<p>descamação grave e possivelmente fatal da pele (necrólise epidérmica tóxica), alterações em 
+qualquer zona da pele e/ou área genital associadas a secura, diminuição da espessura, comichão 
+e dor (líquen esclero-atrófico ou outras afeções líquen) </p>
+</li>
+<li>
+<p>doença crónica das articulações (espondiloartropatia), doença em que o sistema imunitário ataca 
+as glândulas que têm a finalidade de libertar substâncias para o exterior, tais como lágrimas e 
+saliva (síndrome de Sjögren), rigidez dos músculos e articulações, espasmo muscular 
+(rabdomiólise) </p>
+</li>
+<li>
+<p>um distúrbio inflamatório (mais provavelmente de origem auto-imune) que afeta os olhos, a 
+pele e as membranas das orelhas, cérebro e medula espinal (síndrome de 
+Vogt-Koyanagi-Harada), descolamento da membrana na parte de trás do olho (descolamento 
+seroso da retina) </p>
+</li>
+<li>
+<p>inflamação da bexiga. Os sinais e sintomas podem incluir micção frequente e/ou dolorosa, 
+necessidade urgente de urinar, sangue na urina, dor ou pressão na parte inferior do abdómen </p>
+</li>
+</ul>
+<p> Informe o seu médico imediatamente se tiver algum destes efeitos indesejáveis. 
+Não tente tratar os sintomas com outros medicamentos. </p>
+<p>Outros efeitos indesejáveis que foram notificados com frequência desconhecida (a frequência 
+não pode ser calculada a partir dos dados disponíveis): </p>
+<ul>
+<li>
+<p>rejeição de transplante de órgão </p>
+</li>
+<li>
+<p>um grupo de complicações metabólicas que ocorrem após tratamento para cancro caracterizado 
+por níveis sanguíneos elevados de potássio e de fosfato, e níveis sanguíneos baixos de cálcio 
+(síndrome de lise tumoral) </p>
+</li>
+<li>
+<p>inflamação da membrana que reveste o coração e acumulação de fluidos em volta do coração 
+(afeções do pericárdio) </p>
+</li>
+<li>
+<p>um problema em que o sistema imunitário produz demasiadas células de combate à infeção 
+chamadas histiócitos e linfócitos, podendo causar vários sintomas (denominado linfohistiocitose 
+hemofagocítica). Os sintomas podem incluir aumento do fígado e/ou baço, erupção da pele, 
+aumento dos nódulos linfáticos, problemas respiratórios, nódoas negras, anomalias nos rins e 
+problemas de coração. </p>
+</li>
+</ul>
+<p>Alterações nos resultados dos testes 
+YERVOY em associação pode causar alterações nos resultados dos testes realizados pelo médico. 
+Estão incluídos: </p>
+<ul>
+<li>
+<p>testes da função hepática alterados (aumentos das enzimas hepáticas aspartato aminotransferase, 
+alanina aminotransferase, gama glutamiltransferase, ou fosfatase alcalina no sangue, níveis 
+aumentados do produto residual bilirrubina no sangue) </p>
+</li>
+<li>
+<p>testes de função renal alterados (níveis aumentados de creatinina no sangue) </p>
+</li>
+<li>
+<p>um aumento dos níveis da enzima que degrada as gorduras e da enzima que degrada o amido </p>
+</li>
+<li>
+<p>aumento ou diminuição dos níveis sanguíneos de cálcio ou potássio </p>
+</li>
+<li>
+<p>aumento ou diminuição dos níveis sanguíneos de magnésio ou sódio </p>
+</li>
+<li>
+<p>aumento da quantidade de hormona estimuladora da tiróide </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através 
+do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, 
+estará a ajudar a fornecer mais informação sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar yervoy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar yervoy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C). 
+Não congelar. 
+Conservar na embalagem de origem para proteger da luz. </p>
+<p>Não conserve para reutilização qualquer porção não utilizada da solução para perfusão. Os produtos 
+não utilizados ou os resíduos devem ser eliminados de acordo com as exigências locais. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de YERVOY </p>
+<ul>
+<li>
+<p>A substância ativa é o ipilimumab. 
+Cada ml do concentrado contém 5 mg de ipilimumab. 
+Cada frasco para injetáveis de 10 ml contém 50 mg de ipilimumab. 
+Cada frasco para injetáveis de 40 ml contém 200 mg de ipilimumab. </p>
+</li>
+<li>
+<p>Os outros componentes são tris-cloridrato, cloreto de sódio (ver secção 2 "YERVOY contém 
+sódio"), manitol (E421), ácido pentético, polissorbato 80, hidróxido de sódio, ácido clorídrico e 
+água para preparações injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de YERVOY e conteúdo da embalagem 
+YERVOY concentrado para solução para perfusão é límpido a ligeiramente opalescente, incolor a 
+amarelo pálido e pode conter partículas claras (poucas). </p>
+<p>Está disponível em embalagens contendo 1 frasco para injetáveis de vidro de 10 ml ou 1 frasco para 
+injetáveis de vidro de 40 ml. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrlanda </p>
+<p>Fabricante 
+CATALENT ANAGNI S.R.L. 
+Loc. Fontana del Ceraso snc 
+Strada Provinciale 12 Casilina, 03012 Anagni (FR) 
+Itália </p>
+<p>Swords Laboratories Unlimited Company T/A Bristol-Myers Squibb Cruiserath Biologics 
+Cruiserath Road, Mulhuddart 
+Dublin 15, D15 H6EF 
+Irlanda </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1750,6 +2768,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a2652d1642d1c9344c422837d3b948bc"
 * entry[0].resource = composition-da-a2652d1642d1c9344c422837d3b948bc
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa2652d1642d1c9344c422837d3b948bc"
+* entry[=].resource = mpa2652d1642d1c9344c422837d3b948bc
+                            
+                    
+Instance: bundlepackageleaflet-pt-a2652d1642d1c9344c422837d3b948bc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for yervoy Package Leaflet for language pt"
+Description: "ePI document Bundle for yervoy Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a2652d1642d1c9344c422837d3b948bc"
+* entry[0].resource = composition-pt-a2652d1642d1c9344c422837d3b948bc
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa2652d1642d1c9344c422837d3b948bc"
@@ -1851,6 +2891,18 @@ RuleSet: a2652d1642d1c9344c422837d3b948bcListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a2652d1642d1c9344c422837d3b948bc) // yervoy pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1020,6 +1020,531 @@ nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.
 
 
 
+Instance: composition-pt-2b99aad8ae1cf49fbba781db638512ee
+InstanceOf: CompositionUvEpi
+Title: "Composition for dabigatran Package Leaflet"
+Description:  "Composition for dabigatran Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2b99aad8ae1cf49fbba781db638512ee)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - dabigatran"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Dabigatrano etexilato Accord e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Dabigatrano etexilato Accord </li>
+<li>Como tomar Dabigatrano etexilato Accord </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Dabigatrano etexilato Accord </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é dabigatran e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é dabigatran e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dabigatrano etexilato Accord contém a substância ativa dabigatrano etexilato e pertence a um grupo 
+de medicamentos chamados anticoagulantes. Atua através do bloqueio de uma substância no 
+organismo que está envolvida na formação de coágulos sanguíneos. </p>
+<p>Dabigatrano etexilato Accord é utilizado em adultos para: 
+- prevenir a formação de coágulos sanguíneos nas veias após cirurgia de substituição do joelho ou 
+da anca. </p>
+<p>Dabigatrano etexilato Accord é utilizado em crianças para: 
+- tratar coágulos sanguíneos e prevenir a recorrência dos mesmos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar dabigatran"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar dabigatran"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Dabigatrano etexilato Accord </p>
+<ul>
+<li>se tem alergia (hipersensibilidade) ao dabigatrano etexilato ou qualquer outro componente deste 
+medicamento (indicados na secção 6). </li>
+<li>se tem a função renal gravemente diminuída. </li>
+<li>se está atualmente com hemorragia. </li>
+<li>se tem uma doença num órgão do seu corpo que aumente o risco de hemorragia grave (p. ex.: 
+úlcera gástrica, lesão ou hemorragia no cérebro, cirurgia recente do cérebro ou olhos). </li>
+<li>se tem tendência aumentada para sangrar, a qual pode ser inata (congénita), de causa 
+desconhecida ou devida a outros medicamentos. </li>
+<li>se está a tomar medicamentos para prevenir a coagulação sanguínea (p. ex.: varfarina, 
+rivaroxabano, apixabano ou heparina), exceto quando estiver a mudar de tratamento 
+anticoagulante, enquanto tiver uma linha venosa ou arterial e receber heparina através dessa 
+linha para a manter aberta ou enquanto o batimento do seu coração estiver a ser restaurado para 
+um ritmo normal através de um procedimento chamado ablação por cateter da fibrilhação 
+auricular. </li>
+<li>se tem a função hepática gravemente diminuída ou doença hepática que possa causar a morte. </li>
+<li>se está a tomar cetoconazol ou itraconazol oral, medicamentos para tratar infeções fúngicas. </li>
+<li>se está a tomar ciclosporina oral, um medicamento para prevenir a rejeição do órgão após 
+transplante. </li>
+<li>se está a tomar dronedarona, um medicamento utilizado para tratar o ritmo cardíaco irregular. </li>
+<li>se está a tomar um medicamento com a associação de glecaprevir e pibrentasvir, um 
+medicamento antivírico utilizado para tratar a hepatite C. </li>
+<li>se recebeu uma válvula cardíaca artificial, que requer a diluição permanente do sangue. </li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico antes de tomar Dabigatrano etexilato Accord. Poderá também necessitar de 
+falar com seu médico durante o tratamento com este medicamento se apresentar sintomas ou se tiver 
+de ser submetido a uma cirurgia. </p>
+<p>Informe o seu médico se tem ou se já teve alguma condição médica ou doença, particularmente 
+alguma incluída na lista seguinte: </p>
+<ul>
+<li>
+<p>se tem risco aumentado de hemorragia, tal como: 
+▪ se teve uma hemorragia recente. 
+▪ se foi submetido a uma remoção cirúrgica de tecido (biópsia) no mês anterior. 
+▪ se sofreu um traumatismo grave (p. ex.: fratura óssea, traumatismo na cabeça ou qualquer 
+ferida que tenha envolvido tratamento cirúrgico). 
+▪ se tem uma inflamação no esófago ou no estômago. 
+▪ se tem problemas de refluxo do suco gástrico para o esófago. 
+▪ se está a receber medicamentos que possam aumentar o risco de hemorragia. Ver ‘Outros 
+medicamentos e Dabigatrano etexilato Accord’ abaixo. 
+▪ se está a tomar medicamentos anti-inflamatórios, tais como: diclofenac, ibuprofeno e 
+piroxicam. 
+▪ se tem uma infeção do coração (endocardite bacteriana). 
+▪ se sabe que tem a função renal diminuída, ou se sofre de desidratação (os sintomas incluem 
+sensação de sede e urinar quantidades reduzidas de urina de cor escura (concentrada)/com 
+espuma). 
+▪ se tem mais de 75 anos. 
+▪ se é um doente adulto e pesa 50 kg ou menos. 
+▪ apenas se utilizado em crianças: se a criança tiver uma infeção na zona envolvente do cérebro 
+ou no cérebro. </p>
+</li>
+<li>
+<p>se teve um ataque cardíaco ou se lhe foi diagnosticada qualquer condição que aumente o risco 
+de vir a ter um ataque cardíaco. </p>
+</li>
+<li>
+<p>se tem uma doença hepática que esteja associada a alterações nas análises sanguíneas, a 
+utilização deste medicamento não é recomendada. </p>
+</li>
+</ul>
+<p>Tenha especial cuidado com Dabigatrano etexilato Accord </p>
+<ul>
+<li>
+<p>se precisar de ser operado(a): 
+neste caso, terá de interromper temporariamente a toma de Dabigatrano etexilato Accord 
+durante a cirurgia e algum tempo após a cirurgia, devido ao aumento do risco de hemorragia. É 
+muito importante que tome Dabigatrano etexilato Accord antes e depois da cirurgia exatamente 
+às horas que o seu médico lhe disse. </p>
+</li>
+<li>
+<p>se a cirurgia envolver um cateter ou uma injeção na sua coluna vertebral (p. ex.: para anestesia 
+epidural ou espinhal ou redução da dor): 
+▪ é muito importante que tome Dabigatrano etexilato Accord antes e depois da cirurgia 
+exatamente às horas que o seu médico lhe disse. 
+▪ informe imediatamente o seu médico se sentir as suas pernas dormentes ou fracas, ou 
+tiver problemas de intestinos ou bexiga, depois de passar o efeito da anestesia, pois é 
+necessário cuidado urgente. </p>
+</li>
+<li>
+<p>se cair ou se se lesionar durante o tratamento, especialmente se bater com a cabeça. Procure, por 
+favor, cuidados médicos com urgência. Poderá precisar de ser avaliado por um médico, pois 
+pode estar em risco aumentado de hemorragia. </p>
+</li>
+<li>
+<p>se tem uma doença chamada síndrome antifosfolipídica (uma doença do sistema imunitário que 
+provoca um aumento do risco de coágulos sanguíneos), informe o seu médico, que decidirá se o 
+tratamento necessita de ser alterado. </p>
+</li>
+</ul>
+<p>Outros medicamentos e Dabigatrano etexilato Accord </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Em particular, antes de tomar Dabigatrano etexilato Accord, deve 
+informar o seu médico se estiver a tomar algum dos medicamentos listados abaixo: </p>
+<ul>
+<li>Medicamentos para reduzir a coagulação sanguínea (p. ex.: varfarina, fenprocumona, 
+acenocumarol, heparina, clopidogrel, prasugrel, ticagrelor, rivaroxabano e ácido acetilsalicílico) </li>
+<li>Medicamentos para tratar infeções fúngicas (p. ex.: cetoconazol e itraconazol), exceto se forem 
+apenas para aplicação na pele. </li>
+<li>Medicamentos para tratar os batimentos cardíacos anormais (p. ex.: amiodarona, dronedarona, 
+quinidina e verapamilo). 
+Se está a tomar medicamentos contendo amiodarona, quinidina ou verapamilo, o seu médico 
+poderá dizer-lhe para utilizar uma dose reduzida de Dabigatrano etexilato Accord, dependendo 
+da condição para a qual este lhe foi prescrito. Ver também secção 3. - Medicamentos para prevenir a rejeição do órgão após transplante (p. ex.: tacrolímus e 
+ciclosporina) </li>
+<li>Um medicamento com a associação de glecaprevir e pibrentasvir (um medicamento antivírico 
+utilizado para tratar a hepatite C) </li>
+<li>Medicamentos anti-inflamatórios e para alívio da dor (p. ex.: ácido acetilsalicílico, ibuprofeno e 
+diclofenac) </li>
+<li>Hipericão (Hypericum perforatum), um medicamento à base de plantas para a depressão </li>
+<li>Medicamentos antidepressivos designados inibidores seletivos da recaptação da serotonina ou 
+inibidores seletivos da recaptação de serotonina e noradrenalina </li>
+<li>Rifampicina ou claritromicina (dois antibióticos) </li>
+<li>Medicamentos antivíricos para a SIDA (p. ex.: ritonavir) </li>
+<li>Certos medicamentos para tratar a epilepsia (p. ex.: carbamazepina e fenitoína) </li>
+</ul>
+<p>Gravidez e amamentação </p>
+<p>Os efeitos de Dabigatrano etexilato Accord na gravidez e no feto não são conhecidos. Se está grávida, 
+não deve tomar este medicamento, a menos que o seu médico lhe diga que é seguro. Se é uma mulher 
+em idade fértil, deve evitar engravidar durante o tratamento com Dabigatrano etexilato Accord. </p>
+<p>Não deve amamentar enquanto estiver a tomar Dabigatrano etexilato Accord. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Dabigatrano etexilato Accord não tem quaisquer efeitos conhecidos na capacidade de conduzir ou 
+utilizar máquinas. </p>
+<p>Dabigatrano etexilato Accord contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar dabigatran"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar dabigatran"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dabigatrano etexilato Accord cápsulas pode ser utilizado em adultos e crianças com 8 anos de idade 
+ou mais que consigam engolir as cápsulas inteiras. Existem outras formas de dosagem apropriadas à 
+idade para o tratamento de crianças com menos de 8 anos de idade. </p>
+<p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>Tome Dabigatrano etexilato Accord tal como recomendado para as seguintes condições: </p>
+<p>Prevenção da formação de coágulos sanguíneos após cirurgia de substituição da anca ou do joelho </p>
+<p>A dose recomendada é de 220 mg uma vez ao dia (correspondendo a 2 cápsulas de 110 mg). </p>
+<p>Se tem a função renal diminuída em mais de metade ou se tem 75 anos de idade ou mais, a dose 
+recomendada é de 150 mg uma vez ao dia (correspondendo a 2 cápsulas de 75 mg). </p>
+<p>Se está a tomar medicamentos contendo amiodarona, quinidina ou verapamilo, a dose recomendada 
+é de 150 mg uma vez ao dia (correspondendo a 2 cápsulas de 75 mg). </p>
+<p>Se está a tomar medicamentos contendo verapamilo e a sua função renal está diminuída em mais 
+de metade, deve ser tratado com uma dose reduzida de 75 mg de Dabigatrano etexilato Accord, porque 
+o seu risco de hemorragia pode estar aumentado. </p>
+<p>Em ambos os tipos de cirurgia, o tratamento não deve ser iniciado se ocorrer hemorragia no local da 
+cirurgia. Se o tratamento não for iniciado até ao dia seguinte à cirurgia, deve iniciar o mesmo com uma 
+dose de 2 cápsulas uma vez ao dia. </p>
+<p>Após cirurgia de substituição do joelho </p>
+<p>Deve iniciar o tratamento com Dabigatrano etexilato Accord 1-4 horas após o final da cirurgia, 
+tomando uma única cápsula. Posteriormente, deve tomar duas cápsulas uma vez ao dia, até perfazer 
+um total de 10 dias. </p>
+<p>Após cirurgia de substituição da anca 
+Deve iniciar o tratamento com Dabigatrano etexilato Accord 1-4 horas após o final da cirurgia, 
+tomando uma única cápsula. Posteriormente, deve tomar duas cápsulas uma vez ao dia, até perfazer 
+um total de 28-35 dias. </p>
+<p>Tratamento de coágulos sanguíneos e prevenção da recorrência dos mesmos em crianças </p>
+<p>Dabigatrano etexilato Accord deve ser tomado duas vezes ao dia, uma dose de manhã e uma dose à 
+noite, aproximadamente à mesma hora todos os dias. O intervalo de dosagem deve corresponder o 
+mais possível a 12 horas. </p>
+<p>A dose recomendada depende do peso e da idade . O seu médico determinará a dose correta. O seu 
+médico poderá ajustar a dose à medida que o tratamento for progredindo. Continue a tomar todos os 
+outros medicamentos, a menos que o seu médico o instrua a parar a toma de qualquer um dos seus 
+medicamentos. </p>
+<p>A tabela 1 indica as doses única e total diárias de Dabigatrano etexilato Accord em miligramas (mg). 
+As doses dependem do peso em quilogramas (kg) e da idade em anos do doente. </p>
+<p>Tabela 1: 
+Tabela da posologia para Dabigatrano etexilato Accord cápsulas </p>
+<p>Combinações de peso/idade 
+Dose única 
+Dose diária total 
+Peso em kg 
+Idade em anos 
+em mg 
+em mg 
+11 a menos de 13 kg 
+8 a menos de 9 anos 
+13 a menos de 16 kg 
+8 a menos de 11 anos 
+16 a menos de 21 kg 
+8 a menos de 14 anos 
+21 a menos de 26 kg 
+8 a menos de 16 anos 
+26 a menos de 31 kg 
+8 a menos de 18 anos 
+31 a menos de 41 kg 
+8 a menos de 18 anos 
+41 a menos de 51 kg 
+8 a menos de 18 anos 
+51 a menos de 61 kg 
+8 a menos de 18 anos 
+61 a menos de  71 kg 
+8 a menos de 18 anos 
+71 a menos de 81 kg 
+8 a menos de 18 anos 
+81 kg ou mais 
+10 a menos de 18 anos 
+Doses únicas que requerem a combinação de mais de uma cápsula: 
+300 mg: 
+duas cápsulas de 150 mg ou 
+quatro cápsulas de 75 mg 
+260 mg: 
+uma cápsula de 110 mg mais uma cápsula de 150 mg ou 
+uma cápsula de 110 mg mais duas cápsulas de 75 mg 
+220 mg: 
+na forma de duas cápsulas de 110 mg 
+185 mg: 
+na forma de uma cápsula de 75 mg mais uma cápsula de 110 mg 
+150 mg: 
+na forma de uma cápsula de 150 mg ou 
+duas cápsulas de 75 mg </p>
+<p>Como tomar Dabigatrano etexilato Accord </p>
+<p>Dabigatrano etexilato Accord pode ser tomado com ou sem alimentos. As cápsulas devem ser 
+engolidas inteiras com um copo de água para assegurar a deglutição. Não parta, não mastigue e não 
+esvazie o conteúdo das cápsulas, uma vez que isto pode aumentar o risco de hemorragia. </p>
+<p>Mudança de tratamento anticoagulante </p>
+<p>Não altere o seu tratamento anticoagulante sem orientação específica do seu médico. </p>
+<p>Se tomar mais Dabigatrano etexilato Accord do que deveria </p>
+<p>Tomar este medicamento em excesso aumenta o risco de hemorragia. Contacte o seu médico 
+imediatamente se tiver tomado demasiadas cápsulas. Estão disponíveis opções de tratamento 
+específicas. </p>
+<p>Caso se tenha esquecido de tomar Dabigatrano etexilato Accord </p>
+<p>Prevenção da formação de coágulos sanguíneos após cirurgia de substituição da anca ou do joelho 
+Continue com as restantes doses diárias de Dabigatrano etexilato Accord à mesma hora do dia 
+seguinte. 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Tratamento de coágulos sanguíneos e prevenção da recorrência dos mesmos em crianças 
+Uma dose que tenha sido esquecida ainda pode ser tomada até 6 horas antes da hora de toma da 
+próxima dose. 
+Se faltarem menos de 6 horas até à hora de toma da próxima dose, a dose anterior esquecida não deve 
+ser tomada. 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Dabigatrano etexilato Accord </p>
+<p>Tome Dabigatrano etexilato Accord exatamente como lhe foi prescrito. Não pare de tomar este 
+medicamento sem falar primeiro com o seu médico, pois o risco de desenvolver um coágulo sanguíneo 
+pode ser maior se parar o tratamento demasiado cedo. Contacte o seu médico se tiver a sensação de 
+indigestão depois de tomar Dabigatrano etexilato Accord. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Dabigatrano etexilato Accord afeta o sistema de coagulação sanguínea, por isso, a maioria dos efeitos 
+indesejáveis está associada a sinais como nódoas negras ou hemorragia. Podem ocorrer hemorragias 
+muito graves ou graves, as quais representam os efeitos indesejáveis mais graves e, 
+independentemente da localização, podem resultar em incapacidade, risco de vida ou morte. Em 
+alguns casos, estas hemorragias podem não ser evidentes. </p>
+<p>Se tiver qualquer situação de hemorragia que não pare naturalmente, ou se tiver sinais de hemorragia 
+excessiva (fraqueza invulgar, cansaço, palidez, tonturas, dor de cabeça ou inchaço inexplicado), 
+contacte imediatamente o seu médico. O seu médico pode decidir mantê-lo sob vigilância apertada ou 
+mudar o seu medicamento. </p>
+<p>Se tiver uma reação alérgica grave que cause dificuldade em respirar ou tonturas, contacte 
+imediatamente o seu médico. </p>
+<p>Os efeitos indesejáveis possíveis estão listados em baixo agrupados pela probabilidade de ocorrerem. </p>
+<p>Prevenção da formação de coágulos sanguíneos após cirurgia de substituição da anca ou do joelho </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): 
+- Diminuição da quantidade de hemoglobina no sangue (a substância contida nos glóbulos 
+vermelhos) 
+- Resultados dos testes laboratoriais da função hepática alterados </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- A hemorragia pode ocorrer a partir do nariz, para o interior do estômago ou intestino, a partir do 
+pénis/vagina ou trato urinário (incluindo sangue na urina, o que a deixa com uma cor rosa ou 
+vermelha), a partir das veias hemorroidárias, do reto, debaixo da pele, numa articulação, de ou 
+após uma ferida ou após uma cirurgia 
+- Formação de hematoma ou nódoa negra que ocorra depois da cirurgia 
+- Sangue detetado nas fezes numa análise laboratorial 
+- Diminuição do número de glóbulos vermelhos no sangue 
+- Diminuição da proporção de glóbulos sanguíneos 
+- Reação alérgica 
+- Vómitos 
+- Fezes líquidas ou moles frequentes 
+- Sentir-se enjoado 
+- Secreções pela ferida (saída de líquido pela ferida cirúrgica) 
+- Aumento das enzimas hepáticas 
+- Amarelecimento da pele ou do branco dos olhos, causado por problemas do fígado ou sangue </p>
+<p>Raros (podem afetar até 1 em 1 000 pessoas): 
+- Hemorragia 
+- A hemorragia pode ocorrer no cérebro, no local da incisão cirúrgica, no local de entrada de uma 
+injeção ou no local de entrada de um cateter numa veia 
+- Saída de sangue do local de entrada do cateter para uma veia 
+- Tossir sangue ou expetoração com sangue 
+- Diminuição do número de plaquetas no sangue 
+- Diminuição do número de glóbulos vermelhos no sangue após uma cirurgia 
+- Reação alérgica grave que causa dificuldade em respirar ou tonturas 
+- Reação alérgica grave que causa inchaço da face ou garganta 
+- Erupção na pele manifestada por inchaço de cor vermelha escura, com comichão, causada por 
+uma reação alérgica 
+- Alteração súbita da pele que afeta a sua cor e aspeto 
+- Comichão 
+- Úlcera no estômago ou intestino (incluindo úlcera no esófago) 
+- Inflamação do esófago e do estômago 
+- Refluxo do suco gástrico para o esófago 
+- Dor de barriga ou do estômago 
+- Indigestão 
+- Dificuldade em engolir 
+- Saída de líquido pela ferida 
+- Saída de líquido pela ferida depois da cirurgia </p>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis): 
+- Dificuldade em respirar ou pieira 
+- Redução do número ou mesmo falta de glóbulos brancos (que ajudam a combater a infeção) 
+- Queda de cabelo </p>
+<p>Tratamento de coágulos sanguíneos e prevenção da recorrência dos mesmos em crianças </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): 
+- Diminuição do número de glóbulos vermelhos no sangue 
+- Diminuição do número de plaquetas no sangue 
+- Erupção na pele manifestada por inchaço de cor vermelha escura, com comichão, causada por 
+uma reação alérgica 
+- Alteração súbita da pele que afeta a sua cor e aspeto 
+- Formação de hematoma 
+- Sangrar do nariz 
+- Refluxo do suco gástrico para o esófago 
+- Vómitos 
+- Sentir-se enjoado 
+- Fezes líquidas ou moles frequentes 
+- Indigestão 
+- Queda de cabelo 
+- Aumento das enzimas hepáticas </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- Redução do número de glóbulos brancos (que ajudam a combater a infeção) 
+- A hemorragia pode ocorrer para o interior do estômago ou intestino, a partir do cérebro, do reto, 
+do pénis/vagina ou trato urinário (incluindo sangue na urina que deixa a urina com uma cor rosa 
+ou vermelha) ou debaixo da pele 
+- Diminuição da quantidade de hemoglobina no sangue (a substância contida nos glóbulos 
+vermelhos) 
+- Diminuição da proporção de glóbulos sanguíneos 
+- Comichão 
+- Tossir sangue ou expetoração com sangue 
+- Dor de barriga ou do estômago 
+- Inflamação do esófago e do estômago 
+- Reação alérgica 
+- Dificuldade em engolir 
+- Amarelecimento da pele ou do branco dos olhos, causado por problemas do fígado ou sangue </p>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis): 
+- Falta de glóbulos brancos (que ajudam a combater a infeção) 
+- Reação alérgica grave que causa dificuldade em respirar ou tonturas 
+- Reação alérgica grave que causa inchaço da face ou garganta 
+- Dificuldade em respirar ou pieira 
+- Hemorragia 
+- A hemorragia pode ocorrer para o interior de uma articulação ou a partir de uma lesão, de uma 
+incisão cirúrgica ou do local de entrada de uma injeção ou do local de entrada de um cateter 
+numa veia 
+- A hemorragia pode ocorrer a partir das veias hemorroidárias 
+- Úlcera no estômago ou intestino (incluindo úlcera no esófago) 
+- Resultados dos testes laboratoriais da função hepática alterados </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar dabigatran"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar dabigatran"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, blister e 
+frasco, após “VAL". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar a temperatura inferior a 30 °C. </p>
+<p>Após a primeira abertura, o frasco pode ser utilizado durante um período até 60 dias. </p>
+<p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Dabigatrano etexilato Accord </p>
+<ul>
+<li>
+<p>A substância ativa é o dabigatrano. Cada cápsula contém 75 mg de dabigatrano etexilato (sob a 
+forma de mesilato). </p>
+</li>
+<li>
+<p>Os outros componentes são ácido tartárico (E334), hipromelose (E464), talco (E553b), 
+hidroxipropilcelulose (E463), croscarmelose sódica (E468) e estearato de magnésio (E572) (ver 
+secção 2 “Dabigatrano etexilato Accord contém sódio"). </p>
+</li>
+<li>
+<p>O invólucro da cápsula contém dióxido de titânio (E171) e hipromelose (E464) </p>
+</li>
+<li>
+<p>A tinta de impressão preta contém goma-laca (E904), propilenoglicol (E1520), óxido de ferro 
+preto (E172) e hidróxido de potássio (E525). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Dabigatrano etexilato Accord e conteúdo da embalagem </p>
+<p>Dabigatrano etexilato Accord 75 mg são cápsulas de tamanho “2" (aprox. 18 x 6 mm), com uma 
+cabeça branca opaca com a impressão “MD" e corpo branco opaco com a impressão “75" a tinta preta, 
+contendo uma mistura de péletes de cor branca a amarelo claro e um granulado de cor amarelo claro. </p>
+<p>Dabigatrano etexilato Accord 75 mg cápsulas está disponível em apresentações contendo blisters de 
+PE-PET/Alu/PEdessecante OPA/Alu contendo 10, 30 e 60 cápsulas numa embalagem exterior. </p>
+<p>Dabigatrano etexilato Accord 75 mg cápsulas está disponível em apresentações contendo blisters 
+destacáveis para dose unitária perfurados de PE-PET/Alu/PEdessecante OPA/Alu contendo 10x1, 
+30x1 e 60x1 cápsulas numa embalagem exterior. </p>
+<p>Dabigatrano etexilato Accord 75 mg cápsulas está disponível em apresentações contendo um frasco de 
+polipropileno com fecho de polipropileno resistente à abertura por crianças contendo 60 cápsulas 
+numa embalagem exterior. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Accord Healthcare S.L.U. 
+World Trade Center, Moll de Barcelona s/n, 
+Edifici Est, 6a Planta, 
+Barcelona, 08Espanha </p>
+<p>Fabricante </p>
+<p>Accord Healthcare Polska Sp. z.o.o. 
+ul.Lutomierska 50, 
+95-200, Pabianice, Polónia </p>
+<p>Pharmadox Healthcare Limited 
+KW20A Kordin Industrial Park, 
+Paola PLA 3000, Malta </p>
+<p>Accord Healthcare B.V. 
+Winthontlaan 200,<br />
+3526 KV Utrecht, Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>AT / BE / BG / CY / CZ / DE / DK / EE / FI / FR / HR / HU / IS / IT / LT / LV / LX / MT / NL / 
+NO / PT / PL / RO / SE / SI / SK / UK(NI) / ES 
+Accord Healthcare S.L.U. 
+Tel: +34 93 301 00<br />
+EL 
+Win Medica Pharmaceutical S.A.<br />
+Tel: : +30 210 7488<br />
+Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1061,6 +1586,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-2b99aad8ae1cf49fbba781db638512ee"
 * entry[0].resource = composition-da-2b99aad8ae1cf49fbba781db638512ee
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2b99aad8ae1cf49fbba781db638512ee"
+* entry[=].resource = mp2b99aad8ae1cf49fbba781db638512ee
+                            
+                    
+Instance: bundlepackageleaflet-pt-2b99aad8ae1cf49fbba781db638512ee
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for dabigatran Package Leaflet for language pt"
+Description: "ePI document Bundle for dabigatran Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-2b99aad8ae1cf49fbba781db638512ee"
+* entry[0].resource = composition-pt-2b99aad8ae1cf49fbba781db638512ee
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp2b99aad8ae1cf49fbba781db638512ee"
@@ -1162,6 +1709,18 @@ RuleSet: 2b99aad8ae1cf49fbba781db638512eeListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-2b99aad8ae1cf49fbba781db638512ee) // dabigatran pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

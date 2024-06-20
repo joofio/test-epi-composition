@@ -1284,6 +1284,844 @@ hjemmeside: http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-f3d8b9999dbf0bb7ed96cabee591db10
+InstanceOf: CompositionUvEpi
+Title: "Composition for caprelsa Package Leaflet"
+Description:  "Composition for caprelsa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf3d8b9999dbf0bb7ed96cabee591db10)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - caprelsa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Caprelsa e para que é utilizado 
+2. O que precisa de saber antes de tomar Caprelsa 
+3. Como tomar Caprelsa 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Caprelsa 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é caprelsa e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é caprelsa e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Caprelsa é um tratamento para adultos e crianças com 5 anos ou mais com: </p>
+<p>Um tipo de cancro medular da tiroide mutante, chamado Rearranjado Durante a Transfecção (RET) e 
+que não pode ser removido por cirurgia ou que se espalhou para outras partes do corpo. </p>
+<p>Caprelsa atua por retardar o crescimento de novos vasos sanguíneos nos tumores (cancros). Isto corta 
+o fornecimento de alimento e de oxigénio ao tumor. Caprelsa também pode atuar diretamente nas 
+células cancerosas para as matar ou retardar o seu crescimento. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar caprelsa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar caprelsa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Caprelsa: 
+− 
+se tem alergia ao vandetanib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+− 
+se tem um problema congénito do coração chamado “síndrome do segmento QTc longo 
+congénito". Isto pode ser observado num eletrocardiograma (ECG). 
+− 
+se está a amamentar. 
+− 
+se está a tomar qualquer um dos seguintes medicamentos: arsénico, cisaprida (usada no 
+tratamento da azia), eritromicina intravenosa e moxifloxacina (usadas para tratar infeções), 
+toremifeno (usado no tratamento do cancro da mama), mizolastina (usada para tratar alergias), 
+antiarrítmicos da classe IA e III (usados para controlar o ritmo do coração). </p>
+<p>Não tome Caprelsa se qualquer das situações acima se aplicar a si. Se não tiver a certeza fale com o 
+seu médico. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Caprelsa:  </p>
+<ul>
+<li>
+<p>Se tem sensibilidade à luz solar. Algumas pessoas que tomam Caprelsa tornam-se mais 
+sensíveis à luz solar. Isto pode causar queimaduras solares. Durante o tratamento com Caprelsa, 
+proteja-se quando andar no exterior usando sempre protetor solar e vista roupas que evitem a 
+exposição ao sol. </p>
+</li>
+<li>
+<p>Se sofrer de hipertensão </p>
+</li>
+<li>
+<p>Se tiver ou tiver tido um aneurisma (dilatação ou enfraquecimento da parede de um vaso 
+sanguíneo) ou uma rotura na parede de um vaso sanguíneo. </p>
+</li>
+<li>
+<p>Se precisar de um procedimento cirúrgico. O seu médico pode considerar interromper Caprelsa 
+se for sujeito a um procedimento cirúrgico grande, pois Caprelsa pode afetar a cicatrização da 
+ferida. Caprelsa pode ser recomeçado assim que a cicatrização adequada da ferida for 
+estabelecida. </p>
+</li>
+<li>
+<p>Se tiver alguns problemas nos rins. </p>
+</li>
+</ul>
+<p>Foram notificadas reações adversas cutâneas graves (SCARs), incluindo síndrome de Stevens-Johnson 
+(SSJ)/ Necrólise epidérmica tóxica (NET), associadas ao tratamento com vandetanib. Pare de utilizar 
+Caprelsa e procure imediatamente assistência médica se notar algum dos sintomas relacionados com 
+estas reações cutâneas graves descritas na secção 4.<br />
+Será necessário determinar o estado RET do seu cancro, antes de iniciar o tratamento com Caprelsa. </p>
+<p>Monitorização do seu sangue e do seu coração: 
+O seu médico ou enfermeiro devem realizar análises ao seu sangue para verificar os níveis de potássio, 
+cálcio, magnésio, e da hormona estimuladora da tiroide (TSH) bem como a atividade elétrica do seu 
+coração com um exame chamado eletrocardiograma (ECG). Estes exames devem ser feitos: </p>
+<ul>
+<li>
+<p>Antes de iniciar Caprelsa </p>
+</li>
+<li>
+<p>Regularmente durante o tratamento com Caprelsa </p>
+</li>
+<li>
+<p>1, 3 e 6 semanas após o início da toma de Caprelsa </p>
+</li>
+<li>
+<p>12 semanas após o início da toma de Caprelsa </p>
+</li>
+<li>
+<p>Posteriormente todos os 3 meses </p>
+</li>
+<li>
+<p>Se o seu médico ou farmacêutico alterarem a dose de Caprelsa </p>
+</li>
+<li>
+<p>Se iniciar a toma de medicamentos que afetam o seu coração </p>
+</li>
+<li>
+<p>Conforme instruções do seu médico ou farmacêutico </p>
+</li>
+</ul>
+<p>Crianças 
+Caprelsa não deve ser dado a crianças com menos de 5 anos de idade. </p>
+<p>Outros medicamentos e Caprelsa 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos, incluindo medicamentos obtidos sem receita médica ou medicamentos à 
+base de plantas. Isto é porque o Caprelsa pode afetar o modo de ação de alguns medicamentos e, por 
+sua vez alguns medicamentos podem ter um efeito sobre o Caprelsa. </p>
+<p>Informe o seu médico ou farmacêutico se está a tomar qualquer um dos seguintes medicamentos: </p>
+<ul>
+<li>
+<p>itraconazole, cetoconazole, ritonavir, claritromicina, rifampicina e moxifloxacina 
+(medicamentos usados para tratar infeções) </p>
+</li>
+<li>
+<p>carbamazepina e fenobarbital (utilizados no controlo de convulsões) </p>
+</li>
+<li>
+<p>ondansetrom (usado no tratamento das náuseas e vómitos) </p>
+</li>
+<li>
+<p>cisaprida (usada no tratamento da azia), pimozida (usada no tratamento de movimentos 
+involuntários repetidos e não controlados do corpo e no discurso excessivo e estéril) e 
+halofantrina e lumefantrina (usadas no tratamento da malária) </p>
+</li>
+<li>
+<p>metadona (usada no tratamento de dependências), haloperidol, cloropromazina, sulpirida, 
+amissulprida, e zuclopentixol (usadas no tratamento de doenças mentais) </p>
+</li>
+<li>
+<p>pentamidina (usada para tratar infeções) </p>
+</li>
+<li>
+<p>antagonistas da vitamina K e dabigatrano muitas vezes referidos como “fluidificadores do 
+sangue" </p>
+</li>
+<li>
+<p>ciclosporina e tacrolimos (usados para tratar a rejeição do transplante), digoxina (usada para 
+tratar o batimento irregular do coração), e metformina (usada para controlar o seu açúcar no 
+sangue) </p>
+</li>
+<li>
+<p>inibidores da bomba de protões (usados no tratamento da azia) </p>
+</li>
+</ul>
+<p>Irá encontrar esta informação no Cartão de Advertência para o Doente que lhe foi entregue pelo seu 
+médico. É importante que guarde o Cartão de Advertência e que o mostre ao seu companheiro ou 
+cuidador. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. Isto porque Caprelsa pode prejudicar o bebé que se está a 
+desenvolver no útero. O seu médico irá falar consigo acerca dos benefícios e dos riscos de tomar 
+Caprelsa durante este período. </p>
+<ul>
+<li>As mulheres que podem engravidar deverão utilizar um método contracetivo eficaz durante o 
+tratamento com Caprelsa, e até pelo menos quatro meses após a última dose de Caprelsa. 
+Para segurança do seu bebé, deve suspender a amamentação durante o tratamento com Caprelsa. </li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+Tome precaução antes de conduzir ou utilizar máquinas. Lembre-se que Caprelsa pode fazê-lo sentir-
+se cansado, fraco ou causar visão turva. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar caprelsa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar caprelsa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilização em adultos 
+Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<ul>
+<li>
+<p>A dose recomendada é 300 mg por dia. </p>
+</li>
+<li>
+<p>Tome Caprelsa aproximadamente à mesma hora cada dia. </p>
+</li>
+<li>
+<p>Caprelsa pode ser tomado com ou sem alimentos. </p>
+</li>
+</ul>
+<p>Utilização em crianças e adolescentes 
+O médico irá dizer-lhe quantos comprimidos de Caprelsa deve dar  ao seu filho. A quantidade de 
+Caprelsa dada dependerá do peso corporal e da altura da criança. A dose diária total não deve exceder 
+os 300 mg. O tratamento tanto pode ser dado ao seu filho numa dose diária única, de 2 em 2 dias ou 
+um calendário de 7 dias como indicado no guia de dosagem que lhe foi dado pelo seu médico. É 
+importante que mantenha este guia de dosagem e o mostre ao seu cuidador. </p>
+<p>Se tiver dificuldade em engolir o comprimido 
+Se tiver dificuldade em engolir o comprimido, pode misturá-lo com água da seguinte forma: </p>
+<ul>
+<li>
+<p>Prepare meio copo de água (sem gás). Use apenas água, não utilize quaisquer outros líquidos. </p>
+</li>
+<li>
+<p>Coloque o comprimido dentro da água. </p>
+</li>
+<li>
+<p>Agite o copo até que o comprimido esteja disperso na água. Isto pode demorar cerca de 
+10 minutos. </p>
+</li>
+<li>
+<p>Depois beba de imediato. 
+Para assegurar que tomou todo o medicamento, encha o copo vazio com meio copo de água e volte a 
+beber. </p>
+</li>
+</ul>
+<p>Se tiver efeitos indesejáveis 
+Se tiver efeitos indesejáveis diga sempre ao seu médico. O seu médico pode recomendar-lhe uma dose 
+mais baixa ou mais alta de Caprelsa (como dois comprimidos de 100 mg ou um comprimido de 
+100 mg). O seu médico pode receitar outros medicamentos para ajudar a controlar os seus efeitos 
+indesejáveis. Os efeitos indesejáveis de Caprelsa estão listados na secção 4.<br />
+Se tomar mais Caprelsa do que deveria 
+Se tomar mais Caprelsa do que lhe foi receitado, contacte o seu médico ou vá a um hospital 
+imediatamente. </p>
+<p>Caso se tenha esquecido de tomar Caprelsa 
+O que deve fazer se se esqueceu de tomar um comprimido depende de quanto tempo falta para a 
+próxima dose. </p>
+<ul>
+<li>
+<p>Se faltarem 12 horas ou mais para a próxima dose: Tome o comprimido de que se esqueceu 
+logo que se lembre. Depois, tome a dose seguinte como habitual. </p>
+</li>
+<li>
+<p>Se faltarem menos de 12 horas para a próxima dose: Não tome o comprimido de que se 
+esqueceu. Depois tome a dose seguinte como habitual. 
+Não tome uma dose a dobrar (duas doses ao mesmo tempo) para compensar um comprimido que se 
+esqueceu de tomar. </p>
+</li>
+</ul>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Se tiver algum destes efeitos indesejáveis, o seu médico poderá 
+dizer-lhe para tomar Caprelsa numa dose mais baixa. Poderá também receitar-lhe outros 
+medicamentos para ajudar a controlar os seus efeitos indesejáveis. </p>
+<p>Fale imediatamente com o seu médico se detetar algum dos seguintes efeitos indesejáveis - pode 
+necessitar de tratamento médico urgente: </p>
+<ul>
+<li>
+<p>Desmaios, tonturas ou alterações no ritmo do coração. Estes podem ser sinais de alteração da 
+atividade elétrica do seu coração. São observados em 8% dos doentes a tomar Caprelsa para o 
+cancro medular da tiroide. O seu médico pode recomendar que tome Caprelsa numa dose mais 
+baixa ou que páre de tomar. Caprelsa foi pouco frequentemente associado a alterações do ritmo 
+cardíaco potencialmente fatais. </p>
+</li>
+<li>
+<p>Pare de utilizar Caprelsa e procure imediatamente assistência médica se notar algum dos 
+seguintes sintomas: manchas avermelhadas sem relevo, semelhantes a um alvo ou circulares no 
+tronco, frequentemente com bolhas centrais, descamação da pele, úlceras na boca, garganta, 
+nariz, genitais e olhos. Estas erupções cutâneas graves podem ser precedidas por febre e 
+sintomas semelhantes aos da gripe (síndrome de Stevens-Johnson, necrólise epidérmica tóxica). </p>
+</li>
+<li>
+<p>Diarreia grave. </p>
+</li>
+<li>
+<p>Falta de ar grave, ou súbito agravamento da falta de ar, possivelmente com tosse ou temperatura 
+elevada (febre). Isto pode significar que tem uma inflamação dos pulmões chamada “doença 
+pulmonar intersticial". Isto é pouco frequente (afetando menos de 1 em cada 100 pessoas), mas 
+pode provocar risco de vida. </p>
+</li>
+<li>
+<p>Se tiver convulsões, dor de cabeça, confusão ou dificuldade de concentração. Estes podem ser 
+sinais duma doença chamada RPLS (Síndrome de Leucoencefalopatia Posterior Reversível). 
+Estes sintomas geralmente desaparecem quando pára de tomar Caprelsa. A RPLS é pouco 
+frequente (afetando menos de 1 em cada 100 pessoas). 
+Fale imediatamente com o seu médico se detetar algum dos efeitos indesejáveis acima descritos. </p>
+</li>
+</ul>
+<p>Podem ainda ocorrer os seguintes efeitos indesejáveis: 
+Muito frequentes (afetam mais de 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>Diarreia. O seu médico poderá receitar um medicamento para tratar este efeito. Se os sintomas 
+se agravarem, informe o seu médico imediatamente. </p>
+</li>
+<li>
+<p>Dor no abdómen. </p>
+</li>
+<li>
+<p>Erupção na pele ou acne. </p>
+</li>
+<li>
+<p>Depressão. </p>
+</li>
+<li>
+<p>Cansaço. </p>
+</li>
+<li>
+<p>Sensação de mal-estar (náuseas). </p>
+</li>
+<li>
+<p>Indisposição do estômago (dispepsia). </p>
+</li>
+<li>
+<p>Alterações das unhas. </p>
+</li>
+<li>
+<p>Estar enjoado (vómitos). </p>
+</li>
+<li>
+<p>Perda de apetite (anorexia). </p>
+</li>
+<li>
+<p>Fraqueza (astenia). </p>
+</li>
+<li>
+<p>Aumento da pressão arterial. O seu médico poderá receitar um medicamento para tratar este 
+efeito. </p>
+</li>
+<li>
+<p>Dor de cabeça. </p>
+</li>
+<li>
+<p>Fadiga. </p>
+</li>
+<li>
+<p>Perturbações do sono (insónia). </p>
+</li>
+<li>
+<p>Inflamação das vias nasais. </p>
+</li>
+<li>
+<p>Inflamação das vias principais de passagem de ar para os pulmões. </p>
+</li>
+<li>
+<p>Infeções das vias respiratórias superiores. </p>
+</li>
+<li>
+<p>Infeções das vias urinárias. </p>
+</li>
+<li>
+<p>Dormência ou formigueiro na pele. </p>
+</li>
+<li>
+<p>Sensibilidade anormal na pele. </p>
+</li>
+<li>
+<p>Tonturas. </p>
+</li>
+<li>
+<p>Dor. </p>
+</li>
+<li>
+<p>Inchaço causado pelo excesso de líquido (edema). </p>
+</li>
+<li>
+<p>Pedras ou depósitos de cálcio nas vias urinárias (nefrolitíase). </p>
+</li>
+<li>
+<p>Visão turva, incluindo alterações ligeiras nos olhos que podem ocasionar visão turva (opacidade 
+da córnea). </p>
+</li>
+<li>
+<p>Sensibilidade à luz solar. Durante o tratamento com Caprelsa, proteja-se quando andar no 
+exterior usando sempre protetor solar e vestindo roupas que evitem a exposição ao sol. </p>
+</li>
+</ul>
+<p>Frequentes (afetam menos de 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>Desidratação. </p>
+</li>
+<li>
+<p>Aumento grave da pressão arterial (crise hipertensiva). </p>
+</li>
+<li>
+<p>Perda de peso. </p>
+</li>
+<li>
+<p>Acidente vascular cerebral (AVC) ou outras doenças em que o cérebro pode não receber sangue 
+suficiente. </p>
+</li>
+<li>
+<p>Um tipo de erupção da pele que afeta as mãos e os pés (síndrome palmo-plantar). </p>
+</li>
+<li>
+<p>Inflamação na boca (estomatite). </p>
+</li>
+<li>
+<p>Boca seca. </p>
+</li>
+<li>
+<p>Pneumonia. </p>
+</li>
+<li>
+<p>Toxinas no sangue como complicação de infeção. </p>
+</li>
+<li>
+<p>Gripe. </p>
+</li>
+<li>
+<p>Inflamação da bexiga urinária. </p>
+</li>
+<li>
+<p>Inflamação das cavidades sinusais (sinusite). </p>
+</li>
+<li>
+<p>Inflamação das cordas vocais (laringe). </p>
+</li>
+<li>
+<p>Inflamação dos folículos, especialmente dos folículos do cabelo. </p>
+</li>
+<li>
+<p>Furúnculo. </p>
+</li>
+<li>
+<p>Infeção por fungos. </p>
+</li>
+<li>
+<p>Infeção nos rins. </p>
+</li>
+<li>
+<p>Perda de líquido corporal (desidratação). </p>
+</li>
+<li>
+<p>Ansiedade. </p>
+</li>
+<li>
+<p>Tremor. </p>
+</li>
+<li>
+<p>Sonolência. </p>
+</li>
+<li>
+<p>Desmaio. </p>
+</li>
+<li>
+<p>Sensação de instabilidade. </p>
+</li>
+<li>
+<p>Aumento da pressão no olho (glaucoma). </p>
+</li>
+<li>
+<p>Tosse contendo sangue. </p>
+</li>
+<li>
+<p>Inflamação dos pulmões. </p>
+</li>
+<li>
+<p>Dificuldade em engolir. </p>
+</li>
+<li>
+<p>Prisão de ventre. </p>
+</li>
+<li>
+<p>Inflamação das paredes do estômago (gastrite). </p>
+</li>
+<li>
+<p>Hemorragia do intestino ou estômago. </p>
+</li>
+<li>
+<p>Cálculos na vesícula biliar (litíase biliar). </p>
+</li>
+<li>
+<p>Dor ao urinar. </p>
+</li>
+<li>
+<p>Insuficiência renal. </p>
+</li>
+<li>
+<p>Urinar frequentemente. </p>
+</li>
+<li>
+<p>Vontade de urinar urgente. </p>
+</li>
+<li>
+<p>Febre. </p>
+</li>
+<li>
+<p>Perda de sangue pelo nariz (epistaxe). </p>
+</li>
+<li>
+<p>Olho seco. </p>
+</li>
+<li>
+<p>Irritação nos olhos (conjuntivite). </p>
+</li>
+<li>
+<p>Insuficiência visual. </p>
+</li>
+<li>
+<p>Ver halos (auréolas em torno de luzes). </p>
+</li>
+<li>
+<p>Ver a luz a cintilar (fotopsia). </p>
+</li>
+<li>
+<p>Alterações na córnea do olho (queratopatia). </p>
+</li>
+<li>
+<p>Um tipo de diarreia (colite). </p>
+</li>
+<li>
+<p>Perda de cabelo na cabeça ou corpo (alopecia). </p>
+</li>
+<li>
+<p>Alteração do sabor dos alimentos (disgeusia). </p>
+</li>
+</ul>
+<p>Pouco frequentes (afetam menos de 1 em cada 100 pessoas): </p>
+<ul>
+<li>
+<p>Insuficiência cardíaca. </p>
+</li>
+<li>
+<p>Inflamação do apêndice (apendicite). </p>
+</li>
+<li>
+<p>Infeção bacteriana. </p>
+</li>
+<li>
+<p>Inflamação dos divertículos (pequenas bolsas que se podem formar no seu sistema digestivo). </p>
+</li>
+<li>
+<p>Infeção da pele por bactérias. </p>
+</li>
+<li>
+<p>Inchaço da parede do abdómen. </p>
+</li>
+<li>
+<p>Malnutrição. </p>
+</li>
+<li>
+<p>Contração involuntária dos músculos (convulsões). </p>
+</li>
+<li>
+<p>Alternância rápida de contração e relaxamento dos músculos (clonus). </p>
+</li>
+<li>
+<p>Inchaço do cérebro. </p>
+</li>
+<li>
+<p>Névoa no cristalino do olho (catarata). </p>
+</li>
+<li>
+<p>Perturbações da frequência e do ritmo do coração. </p>
+</li>
+<li>
+<p>Perda da função cardíaca. </p>
+</li>
+<li>
+<p>Incapacidade dos pulmões para funcionar corretamente. </p>
+</li>
+<li>
+<p>Pneumonia que ocorre por aspiração de partículas estranhas para os pulmões. </p>
+</li>
+<li>
+<p>Obstrução dos intestinos. </p>
+</li>
+<li>
+<p>Perfuração dos intestinos. </p>
+</li>
+<li>
+<p>Incapacidade de controlar os movimentos do intestino. </p>
+</li>
+<li>
+<p>Alteração da cor da urina. </p>
+</li>
+<li>
+<p>Ausência de urina. </p>
+</li>
+<li>
+<p>Dificuldade de cicatrização. </p>
+</li>
+<li>
+<p>Inflamação do pâncreas (pancreatite). </p>
+</li>
+<li>
+<p>Bolhas na pele (dermatite bulhosa). </p>
+</li>
+</ul>
+<p>Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>Uma dilatação ou enfraquecimento da parede de um vaso sanguíneo ou uma rotura da parede 
+de um vaso sanguíneo (aneurismas e dissecções das artérias). </p>
+</li>
+<li>
+<p>Manchas avermelhadas sem relevo, semelhantes a um alvo ou circulares no tronco, 
+frequentemente com bolhas centrais, descamação da pele, úlceras na boca, garganta, nariz, 
+genitais e olhos, que podem ser precedidas por febre e sintomas semelhantes aos da gripe. 
+Estas erupções cutâneas graves podem ser potencialmente fatais (síndrome de Stevens-
+Johnson, necrólise epidérmica tóxica). </p>
+</li>
+<li>
+<p>Uma reação cutânea que causa manchas ou pontos vermelhos na pele, que pode assemelhar-se 
+a um alvo ou “olho-de-boi" com um centro vermelho escuro rodeado por anéis vermelhos 
+mais pálidos (eritema multiforme).  </p>
+</li>
+</ul>
+<p>Os efeitos indesejáveis seguintes são observados em análises feitas pelo médico: </p>
+<ul>
+<li>
+<p>Proteínas ou sangue na sua urina (revelado em testes à urina). </p>
+</li>
+<li>
+<p>Alterações no ritmo do coração (revelado no ECG). O seu médico pode dizer-lhe para parar de 
+tomar Caprelsa ou tomar Caprelsa em doses mais baixas. </p>
+</li>
+<li>
+<p>Alterações no funcionamento do fígado ou pâncreas (revelado em testes ao sangue). Geralmente 
+não causam sintomas mas o seu médico pode querer monitorizar estes parâmetros. </p>
+</li>
+<li>
+<p>Diminuição dos níveis de cálcio no sangue. O seu médico pode ter necessidade de receitar ou 
+alterar o seu tratamento hormonal da tiroide. </p>
+</li>
+<li>
+<p>Diminuição dos níveis de potássio no seu sangue. </p>
+</li>
+<li>
+<p>Aumento dos níveis de cálcio no seu sangue. </p>
+</li>
+<li>
+<p>Aumento dos níveis de glucose no seu sangue. </p>
+</li>
+<li>
+<p>Diminuição dos níveis de sódio no seu sangue. </p>
+</li>
+<li>
+<p>Diminuição do funcionamento da tiroide. </p>
+</li>
+<li>
+<p>Aumento dos níveis de glóbulos vermelhos no seu sangue. </p>
+</li>
+</ul>
+<p>Se algum dos efeitos indesejáveis se agravar ou se detetar quaisquer efeitos indesejáveis não 
+mencionados neste folheto, informe o seu médico ou farmacêutico imediatamente. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar caprelsa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar caprelsa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 30ºC. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Caprelsa </p>
+<ul>
+<li>
+<p>A substância ativa é vandetanib. Cada comprimido contém 100 mg ou 300 mg de vandetanib. </p>
+</li>
+<li>
+<p>Os outros componentes são hidrogenofosfato de cálcio dihidratado, celulose microcristalina, 
+crospovidona (tipo A), povidona (K29-32), estearato de magnésio, hipromelose, macrogol e 
+dióxido de titânio (E171). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Caprelsa e conteúdo da embalagem 
+Caprelsa 100 mg é um comprimido revestido por película branco, redondo, com ‘Z100’ gravado numa 
+das faces. 
+Caprelsa 300 mg é um comprimido revestido por película branco, oval, com ‘Z300’ gravado numa das 
+faces. </p>
+<p>Caprelsa existe em embalagens blister de 30 comprimidos. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Sanofi B.V.,<br />
+Paasheuvelweg 1105 BP Amsterdam 
+Países Baixos </p>
+<p>Fabricantes </p>
+<p>Genzyme Ireland Ltd., IDA Industrial Park, Old Kilmeaden Road, Waterford, Irlanda </p>
+<p>Sanofi Winthrop Industrie, 30-36 avenue Gustave Eiffel, 37100 Tours, França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien/ 
+Luxembourg/Luxemburg 
+Sanofi Belgium 
+Tél/Tel: + 32 (0)2 710 54<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel: +36 1 505 0 
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 
+Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4 
+Danmark 
+sanofi A/S 
+Tlf: +45 45 16 70<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: + 47 67 10 71<br />
+Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: + 43 1 80 185 - 0  </p>
+<p>Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10 <br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE 
+Τηλ: +30 210 900 16<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda.<br />
+Tel: +351 21 35 89<br />
+España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+France 
+Sanofi Winthrop Industrie 
+Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078 Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56  </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: + 358 201 200<br />
+Italia 
+Sanofi S.r.l. 
+Tel: +800 536<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91  </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1325,6 +2163,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-f3d8b9999dbf0bb7ed96cabee591db10"
 * entry[0].resource = composition-da-f3d8b9999dbf0bb7ed96cabee591db10
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf3d8b9999dbf0bb7ed96cabee591db10"
+* entry[=].resource = mpf3d8b9999dbf0bb7ed96cabee591db10
+                            
+                    
+Instance: bundlepackageleaflet-pt-f3d8b9999dbf0bb7ed96cabee591db10
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for caprelsa Package Leaflet for language pt"
+Description: "ePI document Bundle for caprelsa Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-f3d8b9999dbf0bb7ed96cabee591db10"
+* entry[0].resource = composition-pt-f3d8b9999dbf0bb7ed96cabee591db10
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpf3d8b9999dbf0bb7ed96cabee591db10"
@@ -1426,6 +2286,18 @@ RuleSet: f3d8b9999dbf0bb7ed96cabee591db10ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-f3d8b9999dbf0bb7ed96cabee591db10) // caprelsa pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

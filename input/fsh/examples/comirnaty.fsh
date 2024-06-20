@@ -897,6 +897,429 @@ herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se
 
 
 
+Instance: composition-pt-2bcf0e7ec94902b3190ce3b77086faa9
+InstanceOf: CompositionUvEpi
+Title: "Composition for comirnaty Package Leaflet"
+Description:  "Composition for comirnaty Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2bcf0e7ec94902b3190ce3b77086faa9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - comirnaty"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Comirnaty e para que é utilizado<br />
+2. O que precisa de saber antes de receber Comirnaty 
+3. Como Comirnaty é administrado<br />
+4. Efeitos indesejáveis possíveis<br />
+5. Como conservar Comirnaty 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é comirnaty e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é comirnaty e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Comirnaty 30 microgramas/dose dispersão injetável é uma vacina utilizada para a prevenção da 
+COVID-19 causada pelo SARS-CoV-2.<br />
+Comirnaty é administrado a adultos e adolescentes a partir dos 12 anos de idade.  </p>
+<p>A vacina faz com que o sistema imunitário (as defesas naturais do organismo) produza anticorpos e 
+células sanguíneas que atuam contra o vírus, dando proteção contra a COVID-19.<br />
+Dado que Comirnaty não contém o vírus para induzir a imunidade, não pode provocar COVID-19.<br />
+A utilização desta vacina deve seguir as recomendações oficiais. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar comirnaty"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar comirnaty"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Comirnaty não deve ser administrado </p>
+<ul>
+<li>se tiver alergia à substância ativa ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).  </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de receber a vacina se: </p>
+<ul>
+<li>
+<p>alguma vez teve uma reação alérgica grave ou problemas respiratórios depois de qualquer 
+vacina injetável ou depois de lhe ter sido administrada esta vacina no passado. </p>
+</li>
+<li>
+<p>sentir-se nervoso em relação ao processo de vacinação ou alguma vez desmaiou depois de uma 
+injeção. </p>
+</li>
+<li>
+<p>tem uma doença grave ou infeção com febre alta. No entanto, pode levar a vacina se tiver uma 
+febre ligeira ou uma infeção das vias respiratórias superiores, como uma constipação. </p>
+</li>
+<li>
+<p>tem um problema hemorrágico, faz nódoas negras facilmente ou toma um medicamento para 
+prevenir coágulos no sangue. </p>
+</li>
+<li>
+<p>tem um sistema imunitário enfraquecido, devido a uma doença como a infeção pelo VIH ou está 
+a tomar medicamentos, tais como corticosteroides, que afetam o seu sistema imunitário. </p>
+</li>
+</ul>
+<p>Existe um risco acrescido de miocardite (inflamação do músculo cardíaco) e de pericardite 
+(inflamação da membrana que envolve o coração) após a vacinação com Comirnaty (ver secção 4). 
+Estas doenças podem desenvolver-se apenas alguns dias após a vacinação e ocorreram principalmente 
+no período de 14 dias. Foram observadas mais frequentemente após a segunda dose da vacinação e 
+mais frequentemente em jovens do sexo masculino. O risco de miocardite e pericardite parece ser 
+inferior em crianças com idade entre os 5 e 11 anos comparado com as crianças com idade entre os 
+12 e 17 anos. A maior parte dos casos de miocardite e de pericardite recuperam. Alguns casos 
+exigiram suporte com cuidados intensivos e foram observados casos fatais. Após a vacinação, deve 
+estar alerta para sinais de miocardite e pericardite, tais como falta de ar, palpitações e dor no peito, e 
+procurar assistência médica imediata se desenvolver estes sintomas. </p>
+<p>Tal como qualquer vacina, Comirnaty pode não proteger todas as pessoas que recebem a vacina e 
+não se sabe quanto tempo dura a proteção. </p>
+<p>A eficácia de Comirnaty poderá ser inferior em pessoas imunocomprometidas. Se for 
+imunocomprometido, poderá receber doses adicionais de Comirnaty. Nestes casos, deverá continuar 
+a manter precauções físicas para ajudar a prevenir a COVID-19. Para além disso, os seus contactos 
+mais próximos deverão ser vacinados, conforme apropriado. Converse com o seu médico sobre as 
+recomendações individuais apropriadas. </p>
+<p>Crianças 
+Não se recomenda a utilização de Comirnaty 30 microgramas/dose dispersão injetável em crianças 
+com menos de 12 anos de idade. </p>
+<p>Existem formulações pediátricas disponíveis para lactentes com idade igual ou superior a 6 meses e 
+crianças com menos de 12 anos de idade. Para mais informações, consultar o Folheto Informativo para 
+outras formulações. </p>
+<p>A vacina não é recomendada para lactentes com menos de 6 meses de idade. </p>
+<p>Outros medicamentos e Comirnaty 
+Informe o médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos, ou se tiver recebido recentemente outra vacina. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou se pensa estar grávida, informe o seu médico, enfermeiro ou farmacêutico antes de 
+receber esta vacina. </p>
+<p>Comirnaty pode ser utilizado durante a gravidez. Uma grande quantidade de informações provenientes 
+de mulheres grávidas vacinadas com Comirnaty durante o segundo e terceiro trimestres não mostrou 
+efeitos negativos na gravidez ou no recém-nascido. Embora as informações sobre a gravidez ou o 
+recém-nascido após a vacinação durante o primeiro trimestre sejam limitadas, não se observou 
+qualquer alteração no risco de aborto.  </p>
+<p>Comirnaty pode ser administrado durante a amamentação. </p>
+<p>Condução de veículos e utilização de máquinas 
+Alguns dos efeitos mencionados na secção 4 (Efeitos indesejáveis possíveis) podem afetar 
+temporariamente a sua capacidade de conduzir ou utilizar máquinas. Aguarde até que estes efeitos 
+desapareçam antes de conduzir ou utilizar máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar comirnaty"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar comirnaty"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Comirnaty é administrado como uma injeção de 0,3 ml num músculo da parte superior do seu braço. </p>
+<p>Irá receber 1 injeção, independentemente de ter recebido uma vacina contra a COVID-anteriormente. 
+Se foi vacinado anteriormente com uma vacina contra a COVID-19, não deve receber uma dose de 
+Comirnaty até, pelo menos, 3 meses depois da dose mais recente. </p>
+<p>Se for imunocomprometido, poderá receber doses adicionais de Comirnaty. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização de Comirnaty, fale com o seu médico, farmacêutico ou 
+enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todas as vacinas, Comirnaty pode causar efeitos indesejáveis, embora estes não se manifestem 
+em todas as pessoas. </p>
+<p>Efeitos indesejáveis muito frequentes: podem afetar mais de 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>local da injeção: dor, inchaço </p>
+</li>
+<li>
+<p>cansaço, dor de cabeça </p>
+</li>
+<li>
+<p>dor muscular, dor nas articulações </p>
+</li>
+<li>
+<p>arrepios, febre </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+</ul>
+<p>Alguns destes efeitos indesejáveis foram ligeiramente mais frequentes em adolescentes com 12 a 
+15 anos de idade do que nos adultos. </p>
+<p>Efeitos indesejáveis frequentes: podem afetar até 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>vermelhidão no local de injeção  </p>
+</li>
+<li>
+<p>náuseas, vómitos </p>
+</li>
+<li>
+<p>gânglios linfáticos aumentados (observado com maior frequência após a dose de reforço) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes: podem afetar até 1 em 100 pessoas </p>
+<ul>
+<li>
+<p>mal-estar geral, sensação de cansaço ou falta de energia/sono </p>
+</li>
+<li>
+<p>dor no braço </p>
+</li>
+<li>
+<p>insónia </p>
+</li>
+<li>
+<p>comichão no local de injeção </p>
+</li>
+<li>
+<p>reações alérgicas como erupção na pele ou comichão </p>
+</li>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>transpiração excessiva, suores noturnos </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis raros: podem afetar até 1 em 1000 pessoas </p>
+<ul>
+<li>
+<p>face temporariamente descaída num dos lados </p>
+</li>
+<li>
+<p>reações alérgicas como urticária ou inchaço da face </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito raros: podem afetar 1 em cada 10 000 pessoas </p>
+<ul>
+<li>inflamação do músculo cardíaco (miocardite) ou inflamação da membrana que envolve o 
+coração (pericardite) que pode resultar em falta de ar, palpitações ou dor no peito </li>
+</ul>
+<p>Efeitos indesejáveis desconhecidos (não pode ser estimado a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>reação alérgica grave </p>
+</li>
+<li>
+<p>inchaço extenso do membro vacinado </p>
+</li>
+<li>
+<p>inchaço do rosto (pode ocorrer inchaço do rosto em doentes submetidos a preenchimentos 
+dermatológicos com produtos injetáveis) </p>
+</li>
+<li>
+<p>uma reação cutânea que provoca manchas ou pápulas vermelhas com aparência de alvo ou “olho 
+de boi" com um centro vermelho escuro rodeado de anéis de cor vermelha mais clara (eritema 
+multiforme) </p>
+</li>
+<li>
+<p>sensação invulgar na pele, como formigueiro ou uma sensação de rastejamento (parestesia) </p>
+</li>
+<li>
+<p>diminuição da sensação ou sensibilidade, especialmente na pele (hipostesia) </p>
+</li>
+<li>
+<p>fluxo menstrual abundante (a maioria dos casos parece ser de natureza não grave e temporária) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, enfermeiro ou farmacêutico. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V e 
+incluir o número de lote, se disponível. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer 
+mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar comirnaty"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar comirnaty"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>A informação que se segue sobre conservação, prazo de validade, utilização e manuseamento destina-
+se aos profissionais de saúde. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no congelador a uma temperatura entre -90 °C e -60 °C. </p>
+<p>Conservar na embalagem de origem para proteger da luz. </p>
+<p>A vacina será recebida congelada a uma temperatura entre -90 °C e -60 °C. A vacina congelada pode 
+ser conservada a uma temperatura entre -90 °C e -60 °C ou entre 2 °C e 8 °C após a receção.  </p>
+<p>Frascos para injetáveis de dose única: se conservadas congeladas a uma temperatura entre -90 °C 
+e -60 °C, as embalagens de 10 frascos para injetáveis de dose única da vacina podem ser 
+descongeladas a uma temperatura entre 2 °C e 8 °C durante 2 horas ou os frascos para injetáveis 
+individuais podem ser descongelados à temperatura ambiente (até 30 °C) durante 30 minutos. </p>
+<p>Frascos para injetáveis multidose: se conservadas congeladas a uma temperatura entre -90 °C e -60 °C, 
+as embalagens de 10 frascos para injetáveis da vacina podem ser descongeladas a uma temperatura 
+entre 2 °C e 8 °C durante 6 horas ou os frascos para injetáveis individuais podem ser descongelados à 
+temperatura ambiente (até 30 °C) durante 30 minutos. </p>
+<p>Frascos para injetáveis descongelados: uma vez retirado do congelador, o frasco para injetáveis por 
+abrir pode ser conservado e transportado refrigerado a uma temperatura entre 2 °C e 8 °C durante um 
+período máximo de 10 semanas, nunca ultrapassando o prazo de validade (VAL) impresso. A 
+embalagem exterior deve ser marcada com a nova data de validade a uma temperatura entre 2 °C e 
+8 °C. Uma vez descongelada, a vacina não pode ser novamente congelada. </p>
+<p>Antes da sua utilização, os frascos para injetáveis por abrir podem ser conservados durante até 
+12 horas a uma temperatura entre 8 °C e 30 °C. </p>
+<p>Os frascos para injetáveis descongelados podem ser manuseados em condições de luz ambiente. </p>
+<p>Frascos para injetáveis abertos: após a primeira perfuração, conservar a vacina a uma temperatura 
+entre 2 °C a 30 °C e utilizar no prazo de 12 horas, incluindo até 6 horas para o tempo de transporte. 
+Eliminar qualquer vacina não usada. </p>
+<p>Não usar esta vacina se observar a presença de partículas ou descoloração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Comirnaty  </p>
+<ul>
+<li>A substância ativa da vacina de mRNA contra a COVID-19 (com nucleósido modificado) 
+chama-se tozinamerano. </li>
+<li>Cada frasco para injetáveis de dose única contém 1 dose de 0,3 ml com 30 microgramas 
+de tozinamerano. </li>
+<li>
+<p>Cada frasco para injetáveis multidose contém 6 doses de 0,3 ml com 30 microgramas de 
+tozinamerano. </p>
+</li>
+<li>
+<p>Os outros componentes são:<br />
+− 
+((4-hidroxibutil)azanodiil)bis(hexano-6,1-diil)bis(2-hexildecanoato) (ALC-0315) 
+− 
+2-[(polietilenoglicol)-2000]-N,N-ditetradecilacetamida (ALC-0159) 
+− 
+1,2-Distearoil-sn-glicero-3-fosfocolina (DSPC) 
+− 
+colesterol 
+− 
+trometamol 
+− 
+cloridrato de trometamol 
+− 
+sacarose 
+− 
+água para preparações injetáveis </p>
+</li>
+</ul>
+<p>Qual o aspeto de Comirnaty e conteúdo da embalagem 
+A vacina é uma dispersão de cor branca a esbranquiçada (pH: 6,9 - 7,9) fornecida de duas formas: </p>
+<ul>
+<li>
+<p>Num frasco para injetáveis de dose única de 1 dose transparente (vidro tipo I) de 2 ml com rolha 
+de borracha e tampa cinzenta de fecho de plástico de abertura fácil com vedante de alumínio </p>
+</li>
+<li>
+<p>Num frasco para injetáveis multidose de 6 doses transparente (vidro tipo I) de 2 ml com rolha de 
+borracha e tampa cinzenta de fecho de plástico de abertura fácil com vedante de alumínio. </p>
+</li>
+</ul>
+<p>Embalagens de 10 frascos para injetáveis de dose única 
+Embalagens de 10 frascos para injetáveis multidose ou 195 frascos para injetáveis multidose 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+BioNTech Manufacturing GmbH 
+An der Goldgrube 55131 Mainz 
+Alemanha 
+Telefone: +49 6131 9084-0 
+Fax: +49 6131 9084-2service@biontech.de </p>
+<p>Fabricantes 
+BioNTech Manufacturing GmbH 
+Kupferbergterrasse 17 - 55116 Mainz 
+Alemanha  </p>
+<p>Pfizer Manufacturing Belgium NV<br />
+Rijksweg 12<br />
+Puurs-Sint-Amands, 2Bélgica </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<ul>
+<li>
+<p>België/Belgique/Belgien, Luxembourg/Luxemburg: Pfizer S.A./N.V., 
+Tél/Tel: +32 (0)2 554 62 * България: Пфайзер Люксембург САРЛ, Клон, България, Teл: +359 2 970 4<em> Česká republika: Pfizer, spol. s r.o., Tel: +420 283 004 * Danmark: Pfizer ApS, Tlf: +45 44 201 * Deutschland: BioNTech Manufacturing GmbH, Tel: +49 6131 90</em> Eesti: Pfizer Luxembourg SARL Eesti filiaal, Tel: +372 666 7<em> Ελλάδα: Pfizer Ελλάς A.E., Τηλ.: +30 210 6785 * España: Pfizer, S.L., Tel: +34914909</em> France: Pfizer, Tél +33 1 58 07 34 * Hrvatska: Pfizer Croatia d.o.o., Tel: +385 1 3908 * Ireland: Pfizer Healthcare Ireland, Tel: 1800 633 363 (toll free), +44 (0)1304 616<em> Ísland: Icepharma hf, Simi: +354 540 8</em> Italia: Pfizer S.r.l., Tel: +39 06 33 18 * Κύπρος: Pfizer Ελλάς Α.Ε. (Cyprus Branch), Tηλ: +357 22 817<em> Latvija: Pfizer Luxembourg SARL filiāle Latvijā,Tel.: +371 670 35 * Lietuva: Pfizer Luxembourg SARL filialas Lietuvoje, Tel. +370 52 51 4</em> Magyarország: Pfizer Kft, Tel: +36 1 488 3<em> Malta: Vivian Corporation Ltd., Tel: +35621 344</em> Norge: Pfizer AS, Tlf: +47 67 526 * Nederland: Pfizer BV, Tel: +31 (0)10 406 43 01  </p>
+</li>
+<li>
+<p>Österreich: Pfizer Corporation Austria Ges.m.b.H, Tel: +43 (0)1 521 15-0  </p>
+</li>
+<li>
+<p>Polska: Pfizer Polska Sp. z o.o., Tel.: +48 22 335 61 00  </p>
+</li>
+<li>
+<p>Portugal: Laboratórios Pfizer, Lda., Tel: +351 21 423 5500  </p>
+</li>
+<li>
+<p>România: Pfizer Romania S.R.L, Tel: +40 (0) 21 207 28 00  </p>
+</li>
+<li>
+<p>Slovenija: Pfizer Luxembourg SARL, Pfizer, podružnica za svetovanje s področja farmacevtske 
+dejavnosti, Ljubljana, Tel.: +386 (0) 1 52 11 400  </p>
+</li>
+<li>
+<p>Slovenská republika: Pfizer Luxembourg SARL, organizačná zložka, Tel: +421 2 3355 5500  </p>
+</li>
+<li>
+<p>Suomi/Finland: Pfizer Oy, Puh/Tel: +358 (0)9 430 040  </p>
+</li>
+<li>
+<p>Sverige: Pfizer AB, Tel: +46 (0)8 550 520 * United Kingdom (Northern Ireland): Pfizer Limited, Tel: +44 (0) 1304 616 
+Este folheto foi revisto pela última vez em  </p>
+</li>
+</ul>
+<p>Digitalizar o código com um dispositivo móvel para obter o folheto informativo em diferentes 
+idiomas. </p>
+<p>URL: http://www.comirnatyglobal/ </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -938,6 +1361,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-2bcf0e7ec94902b3190ce3b77086faa9"
 * entry[0].resource = composition-da-2bcf0e7ec94902b3190ce3b77086faa9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2bcf0e7ec94902b3190ce3b77086faa9"
+* entry[=].resource = mp2bcf0e7ec94902b3190ce3b77086faa9
+                            
+                    
+Instance: bundlepackageleaflet-pt-2bcf0e7ec94902b3190ce3b77086faa9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for comirnaty Package Leaflet for language pt"
+Description: "ePI document Bundle for comirnaty Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-2bcf0e7ec94902b3190ce3b77086faa9"
+* entry[0].resource = composition-pt-2bcf0e7ec94902b3190ce3b77086faa9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp2bcf0e7ec94902b3190ce3b77086faa9"
@@ -1039,6 +1484,18 @@ RuleSet: 2bcf0e7ec94902b3190ce3b77086faa9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-2bcf0e7ec94902b3190ce3b77086faa9) // comirnaty pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1372,6 +1372,803 @@ smide medicinrester i afløbet, toilettet eller skraldespanden.
 
 
 
+Instance: composition-pt-8077ecb6bda7580081b9f65b63060e8a
+InstanceOf: CompositionUvEpi
+Title: "Composition for quinsair Package Leaflet"
+Description:  "Composition for quinsair Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8077ecb6bda7580081b9f65b63060e8a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - quinsair"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Quinsair e para que é utilizado
+2. O que precisa de saber antes de utilizar Quinsair
+3. Como utilizar Quinsair
+4. Efeitos indesejáveis possíveis
+5. Como conservar Quinsair
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é quinsair e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é quinsair e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Quinsair contém um medicamento antibiótico denominado levofloxacina, que pertence ao grupo de 
+antibióticos denominados fluoroquinolonas.
+Quinsair é utilizado para tratar infeções pulmonares causadas por Pseudomonas aeruginosa em 
+adultos com fibrose quística. É um medicamento antibiótico que é inspirado (inalado) diretamente 
+para os pulmões onde mata a bactéria que causa a infeção. Isto ajuda a melhorar a respiração nas 
+pessoas com fibrose quística.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar quinsair"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar quinsair"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não utilize Quinsair</h2>
+<p>se tem alergia à levofloxacina, a outros antibióticos quinolonas, tais como moxifloxacina, 
+ciprofloxacina ou ofloxacina, ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+-
+se tiver tido um problema nos tendões (inflamação de um tendão ou rutura de um tendão) 
+durante o tratamento com um antibiótico contendo quinolona ou fluoroquinolona.
+-
+se sofre de epilepsia.
+-
+se está grávida ou a amamentar.
+Advertências e precauções
+Antes de tomar este medicamento
+Não deve tomar medicamentos antibacterianos à base de fluoroquinolonas/quinolonas, incluindo 
+Quinsair, se tiver tido no passado uma reação adversa grave ao tomar uma quinolona ou uma 
+fluoroquinolona. Nesta situação, deve informar o seu médico o mais cedo possível.
+34
+Enquanto estiver a tomar este medicamento
+Podem ocorrer raramente dor e inchaço das articulações ou rutura de tendões. O risco que corre 
+aumenta se for uma pessoa idosa (mais de 60 anos de idade), se tiver recebido um transplante de 
+órgão, se tiver problemas de rins ou se estiver a ser tratado com corticosteroides. Podem ocorrer 
+inflamação e ruturas de tendões nas primeiras 48 horas de tratamento e mesmo até vários meses após 
+parar o tratamento com Quinsair. Ao primeiro sinal de dor ou inflamação de um tendão (por exemplo, 
+no tornozelo, pulso, cotovelo, ombro ou joelho), pare de tomar Quinsair, contacte o seu médico e 
+descanse a zona dorida. Evite quaisquer exercícios desnecessários porque estes podem aumentar o 
+risco de uma rutura do tendão.
+Informe o seu médico antes de utilizar Quinsair 
+se tem ou tiver tido algum dos seguintes:
+-
+Efeitos secundários graves prolongados, incapacitantes e potencialmente irreversíveis
+Os medicamentos antibacterianos à base de fluoroquinolonas/quinolonas, incluindo Quinsair, 
+foram associados a efeitos secundários muito raros mas graves, sendo alguns deles prolongados 
+(persistem durante meses ou anos), incapacitantes e potencialmente irreversíveis. Estes incluem 
+dor nos tendões, músculos e articulações dos membros superiores e inferiores, dificuldade em 
+andar, sensações anómalas como sensação de picadas, formigueiros, cócegas, dormência ou 
+ardor (parestesia), perturbações sensoriais incluindo perturbações da visão, paladar e cheiro, e 
+da audição, depressão, perturbações da memória, fadiga intensa e perturbações graves do sono.
+Se tiver qualquer um destes efeitos secundários após tomar Quinsair, contacte imediatamente o 
+seu médico antes de continuar o tratamento. Decidirá com o seu médico se vai continuar o 
+tratamento, considerando também um antibiótico de outra classe.
+-
+Problemas graves nos rins.
+-
+Uma reação alérgica grave. Os sintomas encontram-se mencionados na secção 4. -
+Reações na pele graves
+Se está a ser tratado com Quinsair, pode ter uma reação na pele grave, como formação de 
+vesículas ou lesões. Informe o seu médico se notar alguma reação na pele após ter utilizado 
+Quinsair.
+-
+Problemas no fígado. Os sintomas encontram-se mencionados na secção 4. -
+Anomalias do ritmo do coração
+Quinsair pode causar alterações no seu ritmo do coração, especialmente se estiver a tomar 
+medicamentos para tratar problemas do coração ou para baixar os níveis de potássio ou de 
+magnésio no sangue. As mulheres que tomam este tipo de medicamentos podem ter maiores 
+probabilidades de serem afetadas. Caso sinta palpitações ou um batimento irregular do coração 
+enquanto estiver a utilizar Quinsair, deve informar o seu médico imediatamente.
+-
+Ataques epiléticos e convulsões
+Os antibióticos contendo quinolonas, incluindo Quinsair, podem causar ataques epiléticos ou 
+convulsões (síncopes). Se tal acontecer, pare de utilizar Quinsair e contacte o seu médico 
+imediatamente.
+-
+Depressão ou problemas de saúde mental.
+-
+Lesão nos nervos
+Pode ter raramente sintomas de lesão nos nervos (neuropatia) como dor, ardor, formigueiro, 
+dormência e/ou fraqueza, especialmente nos pés e pernas ou nas mãos e braços. Se estes 
+ocorrerem, pare de tomar Quinsair e informe imediatamente o seu médico a fim de evitar o 
+desenvolvimento de uma situação potencialmente irreversível.
+-
+Uma doença que causa fraqueza muscular e fadiga denominada miastenia grave
+35
+-
+Inflamação de um tendão que provoque dor, rigidez e/ou inchaço das articulações (tendinite).
+-
+Se tiver tido dificuldades respiratórias após receber Quinsair, que podem ser desde ligeiras a 
+graves (broncospasmo).
+-
+Tossir sangue ou muco manchado de sangue das vias respiratórias.
+-
+Deficiência da glucose-6-fosfato desidrogenase
+Os antibióticos contendo quinolonas, como Quinsair, podem tornar os doentes com deficiência 
+da glucose-6-fosfato desidrogenase (uma doença hereditária rara) mais propensos a 
+complicações sanguíneas, provocando um aumento súbito da temperatura corporal, 
+amarelecimento da pele e das membranas mucosas, urina de cor escura, palidez, cansaço, 
+respiração rápida e pesada e pulso fraco e rápido. Fale com o seu médico se tiver dúvidas sobre 
+este assunto.
+-
+Diabetes
+Os antibióticos contendo quinolonas, incluindo Quinsair, podem provocar níveis de glucose no 
+sangue demasiado elevados ou demasiado baixos. Se é diabético, deve vigiar cuidadosamente os 
+seus níveis de glucose no sangue.
+-
+Diarreia
+Pode desenvolver diarreia durante ou após o tratamento com Quinsair. Caso esta se torne grave 
+ou persistente, ou caso note sangue nas fezes, deve parar de utilizar Quinsair imediatamente e 
+falar com o seu médico. Não tome medicamentos para tratar a diarreia sem primeiro consultar o 
+seu médico.
+-
+Resistência aos antibióticos
+As bactérias podem tornar-se resistentes ao tratamento com um antibiótico ao longo do tempo. 
+Isso significa que Quinsair não deve ser utilizado para evitar infeções pulmonares. Deve ser 
+utilizado apenas para tratar infeções pulmonares causadas por Pseudomonas aeruginosa. 
+Informe o seu médico se tiver dúvidas ou questões sobre este assunto.
+-
+Superinfeções
+Por vezes, o tratamento prolongado com antibióticos pode significar que se contrai outra infeção 
+causada por outras bactérias que não são afetadas pelo antibiótico (superinfeção). Informe o seu 
+médico se tiver dúvidas ou questões sobre este assunto e a utilização de Quinsair.
+-
+Problemas da visão
+Caso sinta quaisquer alterações na sua visão ou quaisquer outros problemas nos olhos enquanto 
+estiver a tomar Quinsair, contacte imediatamente um oftalmologista (médico especialista dos 
+olhos).
+-
+Fotossensibilidade
+Quinsair pode tornar a sua pele mais sensível à luz solar. Deve evitar a exposição prolongada à 
+luz solar ou a luz solar forte e não deve utilizar solários nem outras lâmpadas de UV enquanto 
+está a utilizar Quinsair e durante as 48 horas a seguir a ter parado o tratamento.
+-
+Resultados de testes falsos
+Determinados testes (p. ex., para confirmar a tuberculose ou para o rastreio de analgésicos 
+potentes) podem fornecer resultados falsos enquanto estiver a ser tratado com Quinsair.
+-
+caso lhe tenha sido diagnosticado dilatação de um grande vaso sanguíneo (aneurisma aórtico ou
+aneurisma de um vaso sanguíneo periférico de grande calibre).
+-
+se sofreu anteriormente um episódio de dissecção aórtica (uma rutura da parede da aorta).
+36
+-
+se tiver sido diagnosticado com vazamento de válvulas cardíacas (regurgitação daválvula
+cardíaca).
+-
+se existem antecedentes na sua família de aneurisma aórtico ou dissecção aórtica ou de doença
+congénita das válvulas cardíacas, ou outros fatores de risco ou predisposição (p. ex., doenças do 
+tecido conjuntivo, tais como síndrome de Marfan, síndrome de Ehlers-Danlos, síndrome de 
+Turner, síndrome de Sjögren [uma doença inflamatória autoimune], ou doenças vasculares, tais 
+como arterite de Takayasu, arterite de células gigantes, doença de Behçet, hipertensão ou 
+aterosclerose conhecida, artrite reumatoide [uma doença das articulações] ou endocardite [uma 
+infeção do coração]).
+Se sentir uma dor súbita e forte no abdómen ou nas costas, que podem ser sintomas de aneurisma e 
+disseção da aorta, procure de imediato um serviço de emergência médica. O risco pode aumentar se 
+estiver a receber tratamento com corticosteroides sistémicos.
+Se começar a sentir um aparecimento rápido de falta de ar, especialmente quando se deita na cama, ou 
+se notar um inchaço dos tornozelos, pés ou abdómen, ou um novo aparecimento de palpitações 
+cardíacas (sensação de batimento cardíaco rápido ou irregular), deve informar imediatamente um 
+médico.
+Utilização em crianças e adolescentes
+Quinsair não deve ser administrado a crianças e adolescentes com menos de 18 anos de idade, uma vez 
+que não existe informação suficiente sobre a utilização neste grupo etário.
+Outros medicamentos e Quinsair
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Estes medicamentos podem interferir com os efeitos de Quinsair.
+Informe o seu médico se estiver a tomar um dos seguintes medicamentos:
+-
+antagonistas da vitamina K, tais como varfarina (utilizada para evitar coágulos sanguíneos). 
+Tomar estes medicamentos com Quinsair pode causar um aumento da hemorragia. O seu 
+médico pode ter de lhe mandar fazer regularmente análises ao sangue para verificar se este está 
+a coagular bem.
+-
+teofilina (utilizada para tratar problemas respiratórios) ou medicamentos anti-inflamatórios não-
+esteroides (AINEs) tais como fenbufeno, ácido acetilsalicílico (uma substância presente em 
+muitos medicamentos utilizados para aliviar a dor e baixar a febre, assim como para prevenir a 
+coagulação sanguínea) ou ibuprofeno. Tomar Quinsair simultaneamente com estes 
+medicamentos pode aumentar o risco de uma síncope (convulsão).
+-
+medicamentos tais como probenecida (utilizada para evitar a gota) ou cimetidina (utilizada 
+para tratar úlceras). Tomar Quinsair simultaneamente com estes medicamentos pode afetar o 
+modo como os seus rins lidam com o medicamento, o que é particularmente importante se tiver 
+problemas renais.
+-
+ciclosporina (utilizada após transplantes de órgãos) ou medicamentos que afetam o 
+batimento do coração (tais como antiarrítmicos, antidepressivos tricíclicos, antibióticos 
+macrólidos ou antipsicóticos). Quinsair pode interferir com os efeitos destes medicamentos. O 
+seu médico dar-lhe-á mais informação.
+Gravidez e amamentação
+Quinsair não pode ser utilizado enquanto estiver grávida ou a amamentar. Se está grávida ou a 
+amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de tomar este 
+medicamento.
+37
+Condução de veículos e utilização de máquinas
+Quinsair pode fazer com que sinta tonturas, cansaço ou fraqueza, ou causar problemas de visão. Se 
+isso lhe acontecer, não conduza nem utilize ferramentas ou máquinas.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar quinsair"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar quinsair"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+Quanto devo utilizar?
+Inale o conteúdo de uma ampola (240 mg) duas vezes ao dia, utilizando o sistema de nebulização 
+Zirela. Demora cerca de 5 minutos a inalar o medicamento utilizando o nebulizador.
+Quando o devo utilizar?
+A inalação de Quinsair à mesma hora todos os dias ajudará a recordar-lhe quando deve tomar o seu 
+medicamento. Inale o seu medicamento da seguinte forma:
+-
+1 ampola de manhã, utilizando o nebulizador Zirela
+-
+1 ampola à noite, utilizando o nebulizador Zirela
+É melhor deixar passar perto de 12 horas entre doses.
+Durante quanto tempo o devo utilizar?
+Deve utilizar Quinsair todos os dias durante 28 dias, depois, faça um intervalo de 28 dias, durante o 
+qual não inala Quinsair. Em seguida, inicie outro ciclo de tratamento.
+É importante que continue a utilizar o medicamento duas vezes ao dia durante os 28 dias de tratamento 
+e que cumpra os ciclos de 28 dias com tratamento e de 28 dias sem tratamento, durante o tempo que o 
+seu médico lhe disser para o fazer.
+Se sentir dificuldades respiratórias quando utiliza Quinsair, que medicamento adicional poderá 
+o seu médico prescrever-lhe?
+Se sentir dificuldades respiratórias após a utilização de Quinsair, o seu médico poderá prescrever-lhe 
+um inalador contendo um medicamento broncodilatador (p. ex., salbutamol). Inale este medicamento 
+pelo menos 15 minutos ou até 4 horas antes da próxima dose de Quinsair.
+E se eu estiver a utilizar vários inaladores diferentes e outros tratamentos para fibrose quística?
+Se estiver a utilizar vários tratamentos inaláveis diferentes e outros tratamentos para fibrose quística, 
+recomenda-se que utilize os seus medicamentos pela seguinte ordem:
+1.º 
+Broncodilatadores
+2.º 
+Dornase alfa
+3.º 
+Técnicas de desobstrução das vias respiratórias
+4.º 
+Quinsair
+5.º 
+Esteroides inaláveis
+Como utilizar Quinsair
+Quinsair deve ser tomado por inalação, utilizando um nebulizador portátil Zirela (incluindo uma 
+cabeça de aerossol Zirela). Este deve ser ligado a um controlador eBase ou a uma unidade de controlo 
+eFlow rapid.
+SEM Quinsair
+Não o utilize durante os 
+28 dias seguintes
+Repetir o ciclo
+COM Quinsair
+Utilize-o duas vezes ao 
+dia durante 28 dias
+38
+Informação importante que deve saber antes de começar
+-
+Cada ampola destina-se a utilização única. Depois de aberta uma ampola, o conteúdo deve 
+ser imediatamente utilizado.
+-
+Não utilize Quinsair se verificar que a saqueta de folha selada ou as ampolas foram violadas.
+-
+Não utilize Quinsair se detetar que a solução está turva ou com partículas.
+-
+Não misture Quinsair com outros medicamentos no nebulizador portátil Zirela.
+-
+Não coloque outros medicamentos que não Quinsair no nebulizador portátil Zirela.
+-
+Não tente inalar Quinsair com outro tipo de nebulizador portátil.
+-
+Verifique se o seu sistema de nebulização Zirela funciona corretamente antes de iniciar o 
+tratamento.
+-
+Não engula o líquido da ampola.
+Leia atentamente as Instruções de utilização do fabricante fornecidas com o seu nebulizador portátil 
+Zirela.
+Como preparo o meu Sistema de nebulização para inalar o medicamento?
+Guarde as instruções de utilização de Zirela em local seguro, uma vez que estas fornecem todos os 
+detalhes sobre a montagem do dispositivo.
+1)
+Certifique-se de que o nebulizador portátil Zirela se encontra sobre uma superfície plana e 
+estável.
+2)
+Esprema todo o conteúdo de uma ampola para dentro do reservatório do medicamento do 
+nebulizador portátil Zirela (Figura 1). Assegure-se de que esvazia a ampola por completo, 
+batendo com ela suavemente contra a parte lateral do reservatório, se necessário.
+Figura 1
+3)
+Feche o reservatório do medicamento, alinhando as linguetas da tampa do medicamento com 
+as ranhuras do reservatório (a). Pressione e rode a tampa até ao limite máximo no sentido 
+horário (b, Figura 2).
+Figura 2
+Como utilizo o Sistema de nebulização Zirela?
+1)
+Quando iniciar o seu tratamento, sente-se numa posição vertical e relaxada.
+Reservatório do medicamento
+Lingueta
+Ranhuras das 
+linguetas
+39
+2)
+Mantenha o nebulizador nivelado, mantenha o botão de ligar/desligar (on/off) do controlador 
+premido durante alguns segundos. Ouvirá um sinal sonoro (‘bip’) e a luz de estado passará a 
+verde.
+3)
+Após alguns segundos, o vapor de aerossol começará a fluir para a câmara de aerossol do 
+nebulizador portátil Zirela. Se o vapor de aerossol não começar a fluir, consulte as instruções de 
+utilização do fabricante de Zirela para obter ajuda.
+4)
+Mantendo o nebulizador nivelado, coloque o bocal na boca e feche os lábios em seu redor 
+(Figura 3).
+Figura 3
+Figura 3
+5)
+Respire normalmente (inspire e expire) através do bocal. Tente não respirar pelo nariz. 
+Continue a inspirar e expirar confortavelmente até o tratamento ter terminado. Demora cerca de 
+5 minutos a inalar o medicamento utilizando o nebulizador.
+6)
+Quando todo o medicamento tiver sido fornecido, ouvirá dois sinais sonoros que significam 
+que o tratamento está terminado.
+7)
+Uma vez concluído, abra a tampa do medicamento para se certificar de que usou todo o 
+medicamento. Podem ainda restar algumas gotas de medicamento no fundo do reservatório no 
+final do tratamento, o que não faz mal. Contudo, se restarem mais do que algumas gotas, volte a 
+colocar a tampa do medicamento e reinicie o tratamento a partir do passo 1. 8)
+Logo que o tratamento tenha terminado, desligue o controlador e desmonte o nebulizador 
+portátil Zirela, para o limpar e desinfetar. As instruções de utilização do fabricante fornecem 
+todos os detalhes sobre a limpeza e a desinfeção.
+E se eu tiver de parar o meu tratamento antes de o ter terminado?
+Se por qualquer motivo tiver de parar o tratamento antes de este ter terminado, mantenha o botão de 
+ligar/desligar (on/off) do controlador premido durante um segundo. Depois de este se ter desligado por 
+completo e quando estiver pronto para retomar o tratamento, mantenha o botão de ligar/desligar 
+premido durante um segundo. O tratamento reiniciará. Deve inspirar e expirar através do bocal como 
+anteriormente.
+Como e quando devo substituir o nebulizador portátil Zirela?
+O nebulizador portátil deve ser utilizado durante um ciclo de tratamento de 28 dias. Consulte as 
+instruções de utilização do fabricante relativamente à limpeza e armazenamento do dispositivo.
+Se utilizar mais Quinsair do que deveria
+Se tiver utilizado mais Quinsair do que deveria, informe o seu médico o mais rapidamente possível. 
+Pode ter sintomas como um batimento irregular do coração, que necessita de ser controlado pelo seu 
+médico. Se o conteúdo da ampola tiver sido ingerido, não se preocupe, mas informe o seu médico o 
+mais rapidamente possível.
+40
+Caso se tenha esquecido de utilizar Quinsair
+Caso se esqueça de uma dose, utilize-a logo que se lembre, desde que mantenha um intervalo de 
+8 horas antes de inalar a dose seguinte. Contudo, se já forem quase horas da próxima dose, omita a 
+dose que se esqueceu de utilizar.
+Não inale o conteúdo de mais de uma ampola para compensar uma dose que se esqueceu de tomar.
+Se parar de utilizar Quinsair
+Não pare de utilizar Quinsair sem falar com o seu médico, uma vez que a infeção pulmonar se pode 
+agravar.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Alguns efeitos indesejáveis podem ser graves
+Procure imediatamente tratamento médico urgente se notar uma reação alérgica grave após ter 
+inalado Quinsair. Os sintomas incluem:
+-
+comichão generalizada e sensação de calor - que afetam especialmente o couro cabeludo, a 
+boca, a garganta, as palmas das mãos e as solas dos pés
+-
+pieira grave, respiração ruidosa ou dificuldade respiratória
+-
+urticária/erupção na pele grave
+-
+inchaço de lábios, face, garganta ou língua
+-
+cor de pele pálida ou acinzentada
+-
+batimento do coração acelerado
+-
+desmaio ou perda dos sentidos
+Pare de utilizar Quinsair e informe o seu médico imediatamente:
+-
+se sentir dor, rigidez e/ou inchaço das articulações
+-
+se desenvolver problemas de fígado. Os sintomas incluem:
+-
+perda de apetite
+-
+amarelecimento da pele e dos olhos (icterícia)
+-
+urina escura
+-
+comichão
+-
+sensibilidade (dor) em redor do estômago (abdómen)
+Outros efeitos indesejáveis podem incluir:
+Muito frequentes: podem afetar mais de 1 em 10 pessoas
+-
+tosse
+-
+paladar anormal
+-
+cansaço, fraqueza e baixa tolerância ao exercício
+-
+falta de apetite
+-
+falta de ar
+-
+alterações na quantidade e na espessura do muco/expetoração
+-
+tossir sangue
+-
+diminuição da quantidade de ar que pode ser expirada num segundo (diminuição do teste de 
+FEV1)
+41
+Frequentes: podem afetar até 1 em 10 pessoas
+-
+infeção fúngica em redor da vagina
+-
+insónia ou dificuldade em adormecer
+-
+dor de cabeça
+-
+tonturas
+-
+zumbido ou ruído nos ouvidos (tinido)
+-
+alteração da voz
+-
+náuseas e vómitos
+-
+dor abdominal
+-
+diarreia
+-
+prisão de ventre
+-
+erupção na pele
+-
+dores musculares ou nas articulações
+-
+febre
+-
+análises ao sangue anormais (aumento dos níveis de determinadas enzimas do fígado ou da 
+bilirrubina no sangue e diminuição do teste de função renal)
+-
+diminuição do teste de função pulmonar
+-
+aumento ou diminuição da quantidade de açúcar (glucose) no sangue
+-
+sons respiratórios anormais
+Pouco frequentes: podem afetar até 1 em 100 pessoas
+-
+infeção fúngica na boca
+-
+números reduzidos de glóbulos vermelhos no sangue (anemia) ou das células do sangue que o 
+ajudam a coagular (plaquetas)
+-
+número reduzido ou elevado de glóbulos brancos no sangue
+-
+sensação de ansiedade, inquietação ou agitação e/ou depressão
+-
+diminuição do olfato
+-
+sonolência
+-
+alterações na visão
+-
+perda de audição
+-
+aumento do batimento do coração
+-
+dificuldade em respirar
+-
+indução do vómito
+-
+indigestão
+-
+flatulência
+-
+urticária/erupção na pele e comichão
+-
+dor na parede torácica
+-
+insuficiência renal
+-
+alterações do ritmo do coração
+-
+dor, ardor, formigueiro, entorpecimento e/ou fraqueza nos membros (neuropatia)
+Os seguintes efeitos indesejáveis também foram comunicados após a toma de comprimidos ou da 
+perfusão intravenosa contendo levofloxacina, pelo que podem ocorrer depois de utilizar Quinsair:
+Pouco frequentes: podem afetar até 1 em 10 pessoas
+-
+Sentir-se confuso ou nervoso
+-
+Tremores
+-
+Sensação de tonturas ou desfalecer (vertigem)
+-
+Transpiração excessiva
+Raros: podem afetar até 1 em 1.000 pessoas
+-
+Alucinações e/ou sensação de paranoia
+-
+Sentir-se agitado
+-
+Sonhos invulgares ou pesadelos
+-
+Convulsões (síncopes)
+-
+Sensação de formigueiro (picadas) e/ou entorpecimento
+-
+Tensão arterial baixa
+42
+-
+Fraqueza muscular
+-
+Síndrome associada à diminuição da excreção de água e a baixos níveis de sódio (SIADH)
+-
+Erupção na pele generalizada, alta temperatura corporal, elevação das enzimas hepáticas, 
+anormalias sanguíneas (eosinofilia), aumento dos gânglios linfáticos e envolvimento de outros 
+órgãos do corpo (Reação Medicamentosa com Eosinofilia e Sintomas Sistémicos)
+-
+Manchas eritematosas, acentuadamente demarcadas, com/sem formação de bolhas
+Desconhecidos: a frequência não pode ser calculada a partir dos dados disponíveis
+-
+Número reduzido de todos os tipos de células no sangue
+-
+Coma diabético
+-
+Problemas mentais graves (que, em casos muito raros, podem conduzir a lesões autoinfligidas)
+-
+Dor, ardor, formigueiro, entorpecimento e/ou fraqueza nos membros (neuropatia)
+-
+Movimentos, contrações ou espasmos musculares involuntários
+-
+Desmaio
+-
+Dores de cabeça graves e intensas, com perda da visão
+-
+Perda de visão temporária
+-
+Batimento do coração rápido ou anormal
+-
+Inflamação pulmonar
+-
+Reações na pele graves como empolamento doloroso ou lesões possivelmente na boca, nariz ou 
+vagina
+-
+Aumento da sensibilidade da pele à luz solar ou à luz UV (solários ou outras lâmpadas de UV)
+-
+Inflamação dos vasos sanguíneos
+-
+Inflamação da boca ou dos lábios
+-
+Degeneração rápida dos músculos
+-
+Inflamação de um tendão ou rutura de um tendão
+-
+Dor, incluindo dor nas costas, tórax, braços e pernas e braços
+Casos muito raros de reações adversas medicamentosas graves prolongadas (até meses ou anos) ou 
+permanentes, como inflamação de tendões, rutura de tendões, dor nas articulações, dor nos membros, 
+dificuldade em andar, sensações anómalas como sensação de picadas, formigueiros, cócegas, ardor, 
+depressão, fadiga, perturbações do sono, perturbação da memória, assim como  perturbações da 
+audição, visão, paladar e cheiro, foram associados à administração de antibióticos contendo quinolonas 
+e fluoroquinolonas, em alguns casos independentemente de fatores de risco pré-existentes.
+Foram notificados casos de alargamento e enfraquecimento da parede da aorta ou de rutura na parede 
+da aorta (aneurismas e disseções), que podem romper e ser fatais, e de vazamento de válvulas 
+cardíacas em doentes tratados com fluoroquinolonas. Ver também a secção 2. Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar quinsair"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar quinsair"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na ampola, na saqueta de folha e nas 
+caixas embalagens exteriores após EXP. O prazo de validade corresponde ao último dia do mês 
+indicado.
+Cada ampola destina-se a utilização única. Depois de aberta uma ampola, o conteúdo deve ser 
+imediatamente utilizado. Qualquer medicamento não utilizado deve ser eliminado. Volte a colocar as 
+ampolas não utilizadas e não abertas na saqueta para as proteger da luz.
+43
+Conservar na embalagem original para proteger da luz. O medicamento não necessita de quaisquer 
+precauções especiais de conservação.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas irão ajudar a 
+proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Quinsair</h2>
+<p>A substância ativa é a levofloxacina. Uma ampola contém levofloxacina hemi-hidratada 
+equivalente a 240 mg de levofloxacina.
+-
+Os outros componentes são cloreto de magnésio hexa-hidratado e água para preparações 
+injetáveis.
+Qual o aspeto de Quinsair e conteúdo da embalagem
+Quinsair é uma solução para inalação por nebulização límpida, de cor amarelo pálido.
+Este medicamento é fornecido em pequenas ampolas de plástico de 3 ml. Quatro ampolas encontram-
+se seladas numa saqueta de folha.
+Quinsair é fornecido numa embalagem de 28 dias (contendo uma caixa de 56 (14 saquetas 
+de 4) ampolas) ou numa embalagem de 4 dias (contendo 8 (2 saquetas de 4) ampolas) e uma caixa 
+contendo um nebulizador portátil Zirela, com as instruções de utilização do fabricante.
+É possível que não sejam comercializadas todas as apresentações.
+A ampola está rotulada apenas em inglês. A informação que aparece na ampola é a seguinte:
+Na frente da parte de baixo da ampola
+Quinsair 240 mg
+Solução para inalação por nebulização
+Levofloxacina
+Via inalatória
+2,4 ml
+Na “área ondulada" de ambos os lados da parte de baixo da ampola
+Lot
+EXP
+Titular da Autorização de Introdução no Mercado
+Chiesi Farmaceutici S.p.A.
+Via Palermo, 26/A
+43122 Parma
+Itália
+Fabricante
+Adare Pharmaceuticals S.r.l.
+Via Martin Luther King, 13
+20060 Pessano con Bornago (MI)
+Itália
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Chiesi sa/nv 
+Tél/Tel: + 32 (0)2 788 42 00
+Lietuva
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073919
+44
+България
+Chiesi Bulgaria EOOD 
+Teл.: + 359 29201205
+Luxembourg/Luxemburg
+Chiesi sa/nv 
+Tél/Tel: + 32 (0)2 788 42 00
+Česká republika
+Chiesi CZ s.r.o. 
+Tel: + 420 261221745
+Magyarország
+Chiesi Hungary Kft. 
+Tel.: + 36-1-429 1060
+Danmark
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35 20
+Malta
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2791
+Deutschland
+Chiesi GmbH 
+Tel: + 49 40 89724-0
+Nederland
+Chiesi Pharmaceuticals B.V. 
+Tel: + 31 88 501 64 00
+Eesti
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073919
+Norge
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35 20
+Ελλάδα
+Chiesi Hellas AEBE 
+Τηλ: + 30 210 6179763
+Österreich
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073919
+España
+Chiesi España, S.A.U. 
+Tel: + 34 93 494 8000
+Polska
+Chiesi Poland Sp. z.o.o. 
+Tel.: + 48 22 620 1421
+France
+Chiesi S.A.S. 
+Tél: + 33 1 47688899
+Portugal
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2791
+Hrvatska
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073919
+România
+Chiesi Romania S.R.L. 
+Tel: + 40 212023642
+Ireland
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2791
+Slovenija
+Chiesi Slovenija d.o.o. 
+Tel: + 386-1-43 00 901
+Ísland
+Chiesi Pharma AB 
+Sími: +46 8 753 35 20
+Slovenská republika
+Chiesi Slovakia s.r.o. 
+Tel: + 421 259300060
+Italia
+Chiesi Italia S.p.A. 
+Tel: + 39 0521 2791
+Suomi/Finland
+Chiesi Pharma AB 
+Puh/Tel: +46 8 753 35 20
+Κύπρος
+Chiesi Farmaceutici S.p.A. 
+Τηλ: + 39 0521 2791
+Sverige
+Chiesi Pharma AB 
+Tel: +46 8 753 35 20
+Latvija
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073919
+United Kingdom (Northern Ireland)
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2791
+45
+Este folheto foi revisto pela última vez em MM/AAAA.
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1413,6 +2210,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8077ecb6bda7580081b9f65b63060e8a"
 * entry[0].resource = composition-da-8077ecb6bda7580081b9f65b63060e8a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8077ecb6bda7580081b9f65b63060e8a"
+* entry[=].resource = mp8077ecb6bda7580081b9f65b63060e8a
+                            
+                    
+Instance: bundlepackageleaflet-pt-8077ecb6bda7580081b9f65b63060e8a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for quinsair Package Leaflet for language pt"
+Description: "ePI document Bundle for quinsair Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8077ecb6bda7580081b9f65b63060e8a"
+* entry[0].resource = composition-pt-8077ecb6bda7580081b9f65b63060e8a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8077ecb6bda7580081b9f65b63060e8a"
@@ -1514,6 +2333,18 @@ RuleSet: 8077ecb6bda7580081b9f65b63060e8aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8077ecb6bda7580081b9f65b63060e8a) // quinsair pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

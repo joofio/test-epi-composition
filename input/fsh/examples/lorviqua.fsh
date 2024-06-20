@@ -1029,6 +1029,424 @@ hjemmeside http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-421c345b23392c1be16e7fe1f7c5111b
+InstanceOf: CompositionUvEpi
+Title: "Composition for lorviqua Package Leaflet"
+Description:  "Composition for lorviqua Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp421c345b23392c1be16e7fe1f7c5111b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - lorviqua"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Lorviqua e para que é utilizado 
+2. O que precisa de saber antes de tomar Lorviqua 
+3. Como tomar Lorviqua
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Lorviqua 
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é lorviqua e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é lorviqua e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Lorviqua
+Lorviqua contém a substância ativa lorlatinib, um medicamento que é utilizado para o tratamento de 
+adultos com fases avançadas de um tipo de cancro do pulmão chamado cancro do pulmão de 
+não-pequenas células (CPNPC). Lorviqua pertence ao grupo de medicamentos que inibe uma enzima 
+chamada cinase do linfoma anaplásico (ALK). Lorviqua só é administrado a doentes que tenham uma 
+alteração num gene do ALK, ver abaixo Como Lorviqua atua.
+Para que é utilizado Lorviqua
+Lorviqua é utilizado para tratar adultos com um tipo de cancro do pulmão chamado cancro do pulmão 
+de não-pequenas células (CPNPC). É utilizado se o seu cancro do pulmão:
+-
+for ALK-positivo - isto quer dizer que as células do cancro têm um defeito num gene que 
+produz uma enzima chamada ALK (cinase do linfoma anaplásico); ver Como Lorviqua atua a 
+seguir; e
+-
+está avançado.
+Lorviqua pode ser-lhe receitado se:
+-
+não foi previamente tratado com um inibidor da ALK; ou
+-
+foi tratado anteriormente com um medicamento chamado alectinib ou ceritinib, que são 
+inibidores do ALK; ou
+-
+foi tratado anteriormente com crizotinib seguido de outro inibidor do ALK.
+Como Lorviqua atua
+Lorviqua inibe um tipo de enzima chamada tirosina cinase e desencadeia a morte de células cancerosas 
+nos doentes com alterações nos genes do ALK. Lorviqua é apenas administrado a indivíduos cuja 
+doença se deve a uma alteração no gene da tirosina cinase do ALK.
+38
+Se tiver quaisquer dúvidas sobre como Lorviqua atua ou por que motivo este medicamento lhe foi 
+receitado, pergunte ao seu médico.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar lorviqua"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar lorviqua"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Lorviqua</h2>
+<p>se tem alergia a lorlatinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+-
+se estiver a tomar algum destes medicamentos:
+
+rifampicina (utilizada para tratar a tuberculose)
+
+carbamazepina, fenitoína (utilizadas para tratar a epilepsia)
+
+enzalutamida (utilizada para tratar o cancro da próstata)
+
+mitotano (utilizado para tratar o cancro das glândulas suprarrenais)
+
+medicamentos contendo erva de S. João (Hypericum perforatum, uma preparação à 
+base de plantas)
+Advertências e precauções 
+Fale com o seu médico antes de tomar Lorviqua:
+-
+se tem níveis elevados de colesterol ou triglicerídeos no sangue 
+-
+se tem níveis elevados no sangue das enzimas conhecidas como amílase ou lípase ou uma 
+doença chamada pancreatite que pode aumentar os níveis destas enzimas
+-
+se tem problemas no coração, incluindo insuficiência cardíaca, frequência cardíaca lenta, ou se 
+os resultados do eletrocardiograma (ECG) mostrarem que tem uma anomalia da atividade 
+elétrica do coração conhecida como prolongamento do intervalo PR ou um bloqueio AV 
+-
+se tem tosse, dor no peito, falta de ar, ou agravamento de sintomas respiratórios ou se alguma 
+vez teve uma doença dos pulmões chamada pneumonite 
+-
+se tem pressão arterial elevada
+-
+se tem níveis altos de açúcar no sangue
+Se não tiver a certeza, fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Lorviqua.
+Informe o seu médico imediatamente se desenvolver:
+-
+problemas no coração. Informe o seu médico imediatamente sobre alterações no seu batimento 
+cardíaco (rápido ou lento), sensação de desfalecimento, desmaios, tonturas ou falta de ar. Estes 
+sintomas podem ser sinais de problemas cardíacos. O seu médico poderá verificar se existem 
+problemas com o seu coração durante o tratamento com Lorviqua. Se os resultados forem 
+anormais, o médico poderá decidir reduzir a sua dose de Lorviqua ou parar o tratamento.
+-
+problemas da fala, dificuldades em falar, incluindo fala indistinta ou lenta. O seu médico poderá 
+investigar mais aprofundadamente e decidir reduzir a sua dose de Lorviqua ou parar o tratamento.
+-
+alteração do estado mental, problemas do humor ou da memória, tais como alterações do humor 
+(incluindo depressão, euforia e oscilações do humor), irritabilidade, agressividade, agitação, 
+ansiedade ou uma alteração da sua personalidade e episódios de confusão ou perda de contacto 
+com a realidade, tais como acreditar, ver ou ouvir coisas que não são reais. O seu médico poderá 
+investigar mais aprofundadamente e decidir reduzir a sua dose de Lorviqua ou parar o seu 
+tratamento.
+-
+dor nas costas ou no abdómen (barriga), amarelecimento da pele e olhos (icterícia), náuseas ou 
+vómitos. Estes sintomas podem ser sinais de pancreatite. O seu médico poderá investigar mais 
+aprofundadamente e decidir reduzir a dose de Lorviqua.
+-
+tosse, dor no peito ou agravamento de sintomas respiratórios existentes. O seu médico poderá 
+investigar mais aprofundadamente e tratá-lo com outros medicamentos, tais como antibióticos e 
+esteroides. O seu médico poderá decidir reduzir a sua dose de Lorviqua ou parar o seu tratamento.
+-
+dores de cabeça, tonturas, visão turva, dor no peito ou falta de ar. Estes sintomas poderão ser 
+sinais de pressão arterial elevada. O seu médico poderá investigar mais aprofundadamente e tratá-
+lo com medicamentos para controlar a sua pressão arterial. O seu médico pode decidir reduzir a 
+sua dose de Lorviqua ou parar o seu tratamento. 
+39
+-
+sensação de muita sede, necessidade de urinar mais do que o habitual, sensação de muita fome, 
+sensação de indisposição no estômago, fraqueza ou cansaço ou confusão. Estes sintomas poderão 
+ser sinais de níveis elevados de açúcar no sangue. O seu médico poderá investigar mais 
+aprofundadamente e tratá-lo com medicamentos para controlar o seu nível de açúcar no sangue. O 
+seu médico pode decidir reduzir a sua dose de Lorviqua ou parar o seu tratamento.
+O seu médico poderá efetuar avaliações adicionais e poderá decidir reduzir a dose de Lorviqua ou 
+parar o seu tratamento se:
+-
+desenvolver problemas no fígado. Informe o seu médico imediatamente se se sentir mais cansado 
+do que é habitual, a sua pele e o branco dos olhos ficarem amarelos, a sua urina ficar escura ou 
+castanha (da cor do chá), se tiver náuseas, vómitos ou diminuição do apetite, tiver dor no lado 
+direito da barriga, tiver comichão ou se fizer nódoas negras com mais facilidade do que é 
+habitual. O seu médico poderá pedir análises ao sangue para verificar a função do seu fígado.
+-
+tem problemas de rins.
+Para mais informação, ver Efeitos indesejáveis possíveis na secção 4. Crianças e adolescentes
+Este medicamento apenas é indicado em adultos e não deve ser administrado a crianças e adolescentes.
+Análises e controlo
+Irá realizar análises ao sangue antes de iniciar o tratamento e durante o seu tratamento. Estas análises 
+são para verificar o nível de colesterol, triglicerídeos e das enzimas amílase ou lípase no seu sangue 
+antes de iniciar o tratamento com Lorviqua e regularmente durante o tratamento. 
+Outros medicamentos e Lorviqua
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou 
+se vier a tomar outros medicamentos, incluindo medicamentos à base de plantas e medicamentos de 
+venda livre. Isto porque Lorviqua pode afetar o modo como outros medicamentos atuam. Também 
+alguns medicamentos podem afetar o modo como Lorviqua atua.
+Não pode tomar Lorviqua com determinados medicamentos. Estes medicamentos estão listados em 
+Não tome Lorviqua no início da secção 2. Em particular, informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar algum dos 
+seguintes medicamentos:
+-
+boceprevir - um medicamento utilizado para tratar a hepatite C.
+-
+bupropiom - um medicamento utilizado para tratar a depressão ou para ajudar as pessoas a deixar 
+de fumar.
+-
+Di-hidroergotamina, ergotamina - medicamentos utilizados no tratamento da dor de cabeça nas 
+enxaquecas.
+-
+efavirenz, cobicistate, ritonavir, paritaprevir em associação com ritonavir e ombitasvir e/ou 
+dasabuvir, e ritonavir em associação com elvitegravir, indinavir, lopinavir ou tipranavir -
+medicamentos utilizados para tratar a SIDA/HIV.
+-
+cetoconazol, itraconazol, voriconazol, posaconazol - medicamentos utilizados para tratar infeções 
+por fungos. Também troleandomicina, um medicamento utilizado para tratar determinados tipos 
+de infeções bacterianas.
+-
+quinidina - um medicamento utilizado para tratar o ritmo cardíaco irregular e outros problemas 
+no coração.
+-
+pimozida - um medicamento utilizado para tratar problemas de saúde mental.
+-
+alfentanilo e fentanilo - medicamentos utilizados para tratar a dor forte.
+-
+ciclosporina, sirolímus e tacrolímus - medicamentos utilizados em transplantes de órgãos para 
+prevenir a rejeição de órgãos. 
+Lorviqua com alimentos e bebidas
+Não pode beber sumo de toranja ou comer toranja durante o tratamento com Lorviqua pois podem 
+alterar a quantidade de Lorviqua no seu organismo.
+40
+Gravidez, amamentação e fertilidade
+-
+Contraceção - informação para as mulheres
+Não deve engravidar enquanto estiver a tomar este medicamento. Se puder ter filhos, tem de 
+utilizar uma contraceção altamente eficaz (por exemplo, contraceção de barreira dupla, tal como 
+preservativo e diafragma) durante o tratamento e durante, pelo menos, 35 dias após parar o 
+tratamento. Lorlatinib pode reduzir a eficácia dos métodos hormonais de contraceção (por 
+exemplo, a pílula); por conseguinte, os métodos hormonais de contraceção não podem ser 
+considerados altamente eficazes. Se a contraceção hormonal for inevitável, tem de ser utilizada 
+juntamente com o preservativo. Fale com o seu médico sobre os métodos de contraceção 
+adequados para si e para o seu parceiro.
+-
+Contraceção - informação para os homens
+Não deve ter filhos durante o tratamento com Lorviqua porque este medicamento pode ser 
+prejudicial para o bebé. Se existir alguma possibilidade de vir a ter um filho durante a toma deste 
+medicamento, tem de usar preservativo durante o tratamento e durante, pelo menos, 14 semanas 
+após a conclusão da terapêutica. Fale com o seu médico sobre os métodos de contraceção 
+adequados para si e para a sua parceira.
+-
+Gravidez
+
+Não tome Lorviqua se estiver grávida. Isto porque pode ser prejudicial para o bebé. 
+
+Se o seu parceiro estiver a ser tratado com Lorviqua, tem de usar preservativo durante o 
+tratamento e durante, pelo menos, 14 semanas após a conclusão da terapêutica. 
+
+Se engravidar durante o tratamento ou durante as 5 semanas após tomar a última dose, informe 
+o seu médico imediatamente.
+-
+Amamentação
+Não amamente enquanto estiver a tomar este medicamento e durante 7 dias após a última dose. 
+Isto porque não se sabe se Lorviqua consegue passar para o leite humano e, por conseguinte, ser 
+prejudicial para o seu bebé.
+-
+Fertilidade
+Lorviqua pode alterar a fertilidade masculina. Fale com o seu médico sobre a preservação da 
+fertilidade antes de tomar Lorviqua.
+Condução de veículos e utilização de máquinas
+Deve ter um cuidado especial ao conduzir e utilizar máquinas enquanto estiver a tomar Lorviqua, 
+devido aos efeitos no seu estado mental.
+Lorviqua contém lactose
+Caso tenha sido informado pelo seu médico de que tem intolerância a alguns açúcares, fale com o seu 
+médico antes de tomar este medicamento.
+Lorviqua contém sódio
+Este medicamento contém menos de 1 mmol (23 mg) de sódio por cada comprimido de 25 mg ou de 
+100 mg, ou seja, é praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar lorviqua"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar lorviqua"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico, farmacêutico ou enfermeiro. 
+Fale com o seu médico, farmacêutico ou enfermeiro se tiver dúvidas.
+-
+A dose recomendada é um comprimido de 100 mg tomado oralmente uma vez por dia. 
+-
+Tome a dose aproximadamente à mesma hora todos os dias.
+-
+Pode tomar os comprimidos com alimentos ou entre as refeições, evitando sempre a toranja e o 
+sumo de toranja.
+-
+Engula os comprimidos inteiros e não os esmague, mastigue ou dissolva.
+-
+Por vezes, o seu médico poderá reduzir a sua dose, parar o seu tratamento durante um curto 
+período ou parar o seu tratamento completamente, caso não se sinta bem.
+41
+Se vomitar depois de tomar Lorviqua
+Se vomitar depois de tomar uma dose de Lorviqua, não tome uma dose extra, mas tome a próxima 
+dose à hora habitual.
+Se tomar mais Lorviqua do que deveria
+Se, acidentalmente, tomar demasiados comprimidos, informe o seu médico, farmacêutico ou 
+enfermeiro imediatamente. Pode necessitar de assistência médica.
+Caso se tenha esquecido de tomar Lorviqua
+O que fazer se se esquecer de tomar um comprimido depende de quanto tempo falta até à sua próxima 
+dose.
+-
+Se a sua próxima dose é dentro de 4 horas ou mais, tome o comprimido esquecido assim que se 
+lembrar. Depois, tome o próximo comprimido à hora habitual.
+-
+Se a sua próxima dose é em menos de 4 horas, não tome o comprimido esquecido. Depois, tome o 
+próximo comprimido à hora habitual.
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Se parar de tomar Lorviqua
+É importante que tome Lorviqua todos os dias, durante o período de tempo que o seu médico lhe 
+disser. Se não conseguir tomar o medicamento como o seu médico lhe receitou ou se sente que já não 
+necessita dele, fale com o seu médico imediatamente.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Alguns efeitos indesejáveis podem ser graves. 
+Informe o seu médico imediatamente se sentir algum dos seguintes efeitos indesejáveis (ver 
+também a secção </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar lorviqua"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar lorviqua"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>a dose, parar o tratamento durante um curto período ou parar o tratamento completamente:</h2>
+<h2>tosse, falta de ar, dor no peito ou agravamento dos problemas respiratórios</h2>
+<p>pulsação lenta (50 batimentos por minuto ou menos), sensação de cansaço, tonturas ou desmaio 
+ou perda de consciência
+-
+dor abdominal (de barriga), dores nas costas, náuseas, vómitos, comichão ou amarelecimento da 
+pele e olhos
+-
+alterações do estado mental; alterações cognitivas, incluindo confusão, perda de memória,
+diminuição da capacidade de concentração; alterações do humor, incluindo irritabilidade e 
+oscilações do humor; alterações na fala incluindo dificuldade em falar, tais como fala pouco clara 
+ou lenta ou perda de contacto com a realidade, tais como acreditar, ver ou ouvir coisas que não 
+são reais.
+Outros efeitos indesejáveis de Lorviqua podem incluir:
+Muito frequentes: podem afetar mais do que 1 em 10 pessoas
+-
+aumento do nível de colesterol e triglicerídeos (gorduras no sangue que podem ser detetadas 
+através de análises ao sangue)
+-
+inchaço dos membros ou da pele
+-
+problemas nos olhos, tais como dificuldade em ver de um ou de ambos os olhos, visão dupla ou 
+ver flashes de luz
+-
+problemas nos nervos dos braços e pernas, tais como dor, dormência, sensações fora do normal, 
+42
+tais como ardor ou picadelas, dificuldade em andar, ou dificuldade em atividades normais do 
+quotidiano, tais como escrever
+-
+aumento do nível de enzimas chamadas lipase e/ou amílase no sangue que podem ser detetadas 
+através de análises ao sangue
+-
+número baixo de glóbulos vermelhos, uma situação conhecida por anemia que pode ser detetada 
+através de análises ao sangue
+-
+diarreia
+-
+prisão de ventre
+-
+dor nas articulações
+-
+aumento de peso
+-
+dor de cabeça
+-
+erupção na pele
+-
+dor muscular
+-
+aumento na pressão arterial
+Frequentes: pode afetar até 1 em 10 pessoas
+-
+aumento nos níveis de açúcar no sangue
+-
+proteína em excesso na urina
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não incluídos neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na película do blister e na embalagem 
+exterior após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer precauções especiais de conservação.
+Não utilize este medicamento se verificar que a embalagem está danificada ou se mostrar sinais de 
+adulteração.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+
+
+
 
 
                     
@@ -1070,6 +1488,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-421c345b23392c1be16e7fe1f7c5111b"
 * entry[0].resource = composition-da-421c345b23392c1be16e7fe1f7c5111b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp421c345b23392c1be16e7fe1f7c5111b"
+* entry[=].resource = mp421c345b23392c1be16e7fe1f7c5111b
+                            
+                    
+Instance: bundlepackageleaflet-pt-421c345b23392c1be16e7fe1f7c5111b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lorviqua Package Leaflet for language pt"
+Description: "ePI document Bundle for lorviqua Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-421c345b23392c1be16e7fe1f7c5111b"
+* entry[0].resource = composition-pt-421c345b23392c1be16e7fe1f7c5111b
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp421c345b23392c1be16e7fe1f7c5111b"
@@ -1171,6 +1611,18 @@ RuleSet: 421c345b23392c1be16e7fe1f7c5111bListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-421c345b23392c1be16e7fe1f7c5111b) // lorviqua pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

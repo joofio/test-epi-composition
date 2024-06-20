@@ -1187,6 +1187,744 @@ hjemmeside http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-pt-da6b4339076346d51f1c98fff12b57db
+InstanceOf: CompositionUvEpi
+Title: "Composition for afinitor Package Leaflet"
+Description:  "Composition for afinitor Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpda6b4339076346d51f1c98fff12b57db)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - afinitor"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Afinitor e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Afinitor </li>
+<li>Como tomar Afinitor </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Afinitor </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é afinitor e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é afinitor e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Afinitor é um medicamento para tratar o cancro, contendo a substância ativa everolímus. O everolímus 
+reduz a irrigação sanguínea do tumor e atrasa o crescimento e a disseminação das células 
+cancerígenas. </p>
+<p>Afinitor é utilizado para tratar doentes adultos: 
+− 
+mulheres pós-menopáusicas com cancro da mama avançado positivo para recetores hormonais 
+para as quais outros tratamentos (chamados “inibidores da aromatase não esteroides") já não 
+mantêm a doença controlada. É administrado com outro tipo de medicamento chamado 
+exemestano, um inibidor esteroide da aromatase, que é utilizado na terapêutica hormonal contra 
+o cancro. 
+− 
+doentes com tumores neuroendócrinos avançados que têm origem no estômago, intestinos, 
+pulmões ou pâncreas. É administrado quando os tumores não são operáveis e não produzem 
+demasiadas hormonas específicas ou outras substâncias naturais relacionadas. 
+− 
+doentes com cancro renal avançado (carcinoma das células renais avançado) quando outros 
+tratamentos (conhecidos como “terapêutica anti-VEGF") não tenham ajudado a controlar a sua 
+doença. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar afinitor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar afinitor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Afinitor ser-lhe-á prescrito apenas por um médico com experiência no tratamento do cancro. Siga 
+todas as instruções do seu médico cuidadosamente. Estas podem divergir das informações gerais 
+contidas neste folheto. Se tiver qualquer questão sobre Afinitor ou por que lhe foi prescrito este 
+medicamento, pergunte ao seu médico. </p>
+<p>Não tome Afinitor 
+− 
+se tem alergia ao everolímus, a substâncias relacionadas como o sirolímus ou o temsirolímus, 
+ou a qualquer outro componente deste medicamento (indicados na secção 6). 
+Se pensa que pode ser alérgico, peça conselho ao seu médico. </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de tomar Afinitor: </p>
+<ul>
+<li>
+<p>se tiver problemas no fígado ou se alguma vez teve alguma doença que possa ter afetado o seu 
+fígado. Se for este o caso, o seu médico poderá ter de prescrever uma dose diferente de Afinitor. </p>
+</li>
+<li>
+<p>se tiver diabetes (níveis elevados de açúcar no seu sangue). Afinitor pode aumentar o nível de 
+açúcar no sangue e agravar a diabetes mellitus. Isto pode resultar na necessidade de administrar 
+insulina ou de um agente terapêutico oral. Informe o seu médico caso sinta sede excessiva ou 
+frequência aumentada de micção. </p>
+</li>
+<li>
+<p>se tiver de tomar uma vacina enquanto estiver a tomar Afinitor. </p>
+</li>
+<li>
+<p>se tiver colesterol elevado. Afinitor pode aumentar o colesterol e/ou outras gorduras do sangue. </p>
+</li>
+<li>
+<p>se tiver sido operado, ou se após a cirurgia ainda tiver uma ferida não sarada, Afinitor pode 
+aumentar o risco de problemas na cicatrização. </p>
+</li>
+<li>
+<p>se tiver uma infeção. Poderá ser necessário tratar a sua infeção antes de começar a tomar 
+Afinitor. </p>
+</li>
+<li>
+<p>se já teve hepatite B, porque esta poderá ser reativada durante o tratamento com Afinitor (ver 
+secção 4 “Efeitos indesejáveis possíveis"). </p>
+</li>
+<li>
+<p>se já recebeu ou vai receber tratamento com radioterapia. </p>
+</li>
+</ul>
+<p>Afinitor também poderá: </p>
+<ul>
+<li>
+<p>enfraquecer o seu sistema imunitário. Desta forma, enquanto estiver a tomar Afinitor, pode estar 
+em risco de contrair uma infeção. Se tiver febre ou outros sinais de uma infeção, consulte o seu 
+médico. Algumas infeções podem ser graves e podem ter consequências fatais. </p>
+</li>
+<li>
+<p>ter impacto na sua função renal. Desta forma, o seu médico vigiará a sua função renal enquanto 
+estiver a tomar Afinitor. </p>
+</li>
+<li>
+<p>provocar dificuldade em respirar, tosse e febre. </p>
+</li>
+<li>
+<p>causar o desenvolvimento de úlceras (aftas) e feridas na boca. O seu médico poderá precisar de 
+interromper ou descontinuar o seu tratamento com Afinitor. Poderá necessitar de tratamento 
+com um colutório, um gel ou outros produtos. Alguns colutórios ou géis podem agravar as 
+úlceras, por isso não tome nenhuma medida sem falar primeiro com o seu médico. O seu 
+médico poderá reiniciar o tratamento com Afinitor com a mesma dose ou com uma dose 
+reduzida. </p>
+</li>
+<li>
+<p>causar complicações do tratamento com radioterapia. Foram observadas reações de radioterapia 
+graves (tais como falta de ar, náuseas, diarreia, erupções na pele e inflamação na boca, gengivas 
+e garganta), incluindo casos fatais,  em alguns doentes que estavam a tomar everolímus ao 
+mesmo tempo que o tratamento com radioterapia ou que tomaram everolímus pouco tempo após 
+terem feito tratamento com radioterapia. Adicionalmente, foram também notificadas reações de 
+radioterapia (incluindo vermelhidão da pele ou inflamação dos pulmões no local do tratamento 
+com radioterapia anterior) em doentes que tinham feito tratamento com radioterapia no passado. 
+Informe o seu médico se está a planear fazer tratamento com radioterapia num futuro próximo 
+ou se fez tratamento com radioterapia anteriormente. </p>
+</li>
+</ul>
+<p>Informe o seu médico caso sinta estes sintomas. </p>
+<p>Irá fazer regularmente análises ao sangue durante o tratamento. Estas irão verificar a quantidade de 
+células sanguíneas (glóbulos brancos, glóbulos vermelhos e plaquetas) para saber se Afinitor está a ter 
+algum efeito indesejado nestas células. Também serão realizadas análises ao sangue para verificar a 
+sua função renal (nível de creatinina) e função hepática (nível de transaminases) e os seus níveis de 
+açúcar no sangue e de colesterol, uma vez que estes também podem ser afetados por Afinitor. </p>
+<p>Crianças e adolescentes 
+Afinitor não deve ser utilizado por crianças ou adolescentes (idade inferior a 18 anos). </p>
+<p>Outros medicamentos e Afinitor 
+Afinitor pode afetar a forma como alguns outros medicamentos atuam. Se está a tomar outros 
+medicamentos ao mesmo tempo que Afinitor, o seu médico poderá ter de alterar a dose de Afinitor ou 
+dos outros medicamentos. </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>As seguintes podem aumentar o risco de efeitos indesejáveis com Afinitor: 
+− 
+cetoconazol, itraconazol, voriconazol, ou fluconazol e outros antifúngicos usados para tratar 
+infeções fúngicas. 
+− 
+claritromicina, telitromicina or eritromicina, antibióticos usados para tratar infeções bacterianas. 
+− 
+Ritonavir e outros medicamentos, utilizados no tratamento da infeção por VIH/SIDA. 
+− 
+verapamilo ou diltiazem, utilizados para tratar doenças do coração ou pressão arterial elevada. 
+− 
+dronedarona, um medicamento utilizado para ajudar a regular o batimento cardíaco. 
+− 
+ciclosporina, um medicamento utilizado para impedir que o organismo rejeite o transplante de 
+órgãos. 
+− 
+imatinib, utilizado para inibir o desenvolvimento de células anormais. 
+− 
+inibidores da enzima conversora da angiotensina (IECA) (tais como ramipril) utilizados para 
+tratar a tensão arterial alta ou outros problemas cardiovasculares. 
+− 
+nefazodona, utilizada para tratar a depressão. 
+− 
+canabidiol (utilizado, por exemplo, no tratamento de convulsões). </p>
+<p>As seguintes podem reduzir a eficácia de Afinitor: 
+− 
+rifampicina, usada para tratar a tuberculose (TB). 
+− 
+efavirenz ou nevirapina, utilizados no tratamento da infeção por VIH/SIDA. 
+− 
+hipericão (erva de S. João) (Hypericum perforatum) um produto à base de plantas usado em 
+estados depressivos e outras situações. 
+− 
+dexametasona, um corticosteroide utilizado para tratar uma ampla variedade de condições, 
+incluindo problemas inflamatórios e imunes. 
+− 
+fenitoína, carbamazepina ou fenobarbital e outros antiepiléticos usados para impedir convulsões 
+ou crises epiléticas. </p>
+<p>Estes medicamentos devem ser evitados durante o seu tratamento com Afinitor. Caso esteja a tomar 
+algum deles, o seu médico poderá prescrever-lhe um medicamento diferente, ou poderá alterar a sua 
+dose de Afinitor. </p>
+<p>Afinitor com alimentos e bebidas 
+Evite toranja e sumo de toranja enquanto estiver em tratamento com Afinitor. Isto pode aumentar a 
+quantidade de Afinitor no sangue, levando possivelmente a um efeito prejudicial. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Gravidez 
+Afinitor pode prejudicar o seu bebé antes do nascimento e não é recomendado durante a gravidez. 
+Informe o seu médico caso esteja grávida ou pensa que pode estar grávida. O seu médico irá discutir 
+consigo se deve tomar este medicamento durante a sua gravidez. </p>
+<p>As mulheres que possam engravidar devem utilizar um método contracetivo altamente eficaz durante 
+o tratamento e por até 8 semanas após o fim do tratamento. Se, apesar destas medidas, pensa que pode 
+ter engravidado, peça conselho ao seu médico antes de continuar a tomar Afinitor. </p>
+<p>Amamentação 
+Afinitor pode prejudicar o seu bebé enquanto estiver a ser amamentado. Não deve amamentar durante 
+o tratamento e durante 2 semanas após a última dose de Afinitor. Informe o seu médico caso esteja a 
+amamentar. </p>
+<p>Fertilidade feminina 
+Observou-se a ausência de períodos menstruais (amenorreia) em algumas doentes a receber Afinitor. </p>
+<p>Afinitor pode ter um impacto na fertilidade feminina. Fale com o seu médico se pretende ter filhos. </p>
+<p>Fertilidade masculina 
+Afinitor pode afetar a fertilidade masculina. Consulte o seu médico caso queira ser pai. </p>
+<p>Condução de veículos e utilização de máquinas 
+Caso se sinta cansado de uma forma não habitual (a fadiga é um efeito secundário muito frequente), 
+tome especial cuidado ao conduzir ou utilizar máquinas. </p>
+<p>Afinitor contém lactose 
+Afinitor contém lactose (açúcar do leite). Se foi informado pelo seu médico que tem intolerância a 
+alguns açúcares, contacte-o antes de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar afinitor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar afinitor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é de 10 mg, uma vez por dia. O seu médico irá dizer-lhe quantos comprimidos de 
+Afinitor deve tomar. </p>
+<p>Caso tenha problemas no fígado, o seu médico poderá iniciar o tratamento com uma dose mais baixa 
+de Afinitor (2,5, 5 ou 7,5 mg por dia). </p>
+<p>Caso desenvolva determinados efeitos indesejáveis enquanto estiver a tomar Afinitor (ver secção 4), o 
+seu médico poderá diminuir a dose ou interrromper o tratamento, durante um curto período ou 
+definitivamente. </p>
+<p>Tome Afinitor uma vez por dia, todos os dias aproximadamente à mesma hora, consistentemente com 
+ou sem alimentos. </p>
+<p>Engula os comprimidos inteiros com um copo de água. Não mastigue nem esmague os comprimidos. </p>
+<p>Se tomar mais Afinitor do que deveria 
+− 
+Caso tenha tomado Afinitor em excesso, ou se acidentalmente alguém tiver tomado os seus 
+comprimidos, consulte um médico ou dirija-se imediatamente a um hospital. Poderá ser 
+necessário tratamento médico urgente. 
+− 
+Leve a embalagem dos comprimidos e este folheto, de modo a que o médico saiba o que foi 
+tomado. </p>
+<p>Caso se tenha esquecido de tomar Afinitor 
+Caso se tenha esquecido de tomar uma dose, tome a sua próxima dose tal como planeado. Não tome 
+uma dose a dobrar para compensar os comprimidos que se esqueceu de tomar. </p>
+<p>Se parar de tomar Afinitor 
+Não pare de tomar Afinitor a não ser que o seu médico lho indique. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>PARE de tomar Afinitor e informe o seu médico imediatamente caso sinta quaisquer dos seguintes 
+sinais de reação alérgica: </p>
+<ul>
+<li>
+<p>Dificuldade em respirar ou engolir </p>
+</li>
+<li>
+<p>Inchaço da face, lábios, língua ou garganta </p>
+</li>
+<li>
+<p>Comichão grave na pele, com vermelhidão ou nódulos </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis graves com Afinitor incluem: </p>
+<p>Muitos frequentes (podem afetar mais de 1 iem 10 pessoas) </p>
+<ul>
+<li>
+<p>Aumento da temperatura, arrepios (sinais de infeção) </p>
+</li>
+<li>
+<p>Febre, tosse, dificuldade em respirar, pieira (sinais de inflamação dos pulmões, também 
+conhecida por pneumonite) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Sede excessiva, elevada quantidade de urina, aumento de apetite com perda de peso, cansaço 
+(sinais de diabetes) </p>
+</li>
+<li>
+<p>Sangramento (hemorragia), por exemplo na parede intestinal </p>
+</li>
+<li>
+<p>Redução grave da quantidade de urina (sinal de insuficiência renal) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Febre, erupção cutânea, dor nas articulações e inflamação, bem como cansaço, perda de apetite, 
+nauseas, icterícia (pele amarela), dor na parte superior direita do abdómen, fezes claras, urina 
+escura (podem ser sinais de reativação de hepatite B) </p>
+</li>
+<li>
+<p>Falta de ar, dificuldade em respirar enquanto está deitado, inchaço dos pés ou das pernas (sinais 
+de insuficiência cardíaca) </p>
+</li>
+<li>
+<p>Inchaço e/ou dor numa das pernas, geralmente na barriga da perna, vermelhidão ou sensação de 
+calor na área afetada (sinais de bloqueio de um vaso sanguíneo (veia) nas pernas provocada por 
+coagulação do sangue) </p>
+</li>
+<li>
+<p>Dificuldade em respirar repentina, dor no peito ou tosse com sangue (sinais potenciais de 
+embolia pulmonar, uma condição que acontece quando uma ou mais artérias dos pulmões ficam 
+bloqueadas) </p>
+</li>
+<li>
+<p>Diminuição grave da urina, inchaço das pernas, sensação de confusão, dor nas costas (sinais de 
+insuficiência renal repentina) </p>
+</li>
+<li>
+<p>Erupção cutânea, comichão, urticária, dificuldade em respirar ou engolir, tonturas (sinais de 
+reação alérgica grave, também conhecida por hipersensibilidade) </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1.000 pessoas) </p>
+<ul>
+<li>Falta de ar ou respiração ofegante (sinais de síndroma de dificuldade respiratória aguda) </li>
+</ul>
+<p>Se sentir algum destes efeitos indesejáveis, informe o seu médico imediatamente porque podem 
+ter consequências que podem colocar a vida em perigo. </p>
+<p>Outros efeitos indesejáveis de Afinitor incluem: </p>
+<p>Muito frequentes (pode afetar mais do que 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Nível elevado de açúcar no sangue (hiperglicemia) </p>
+</li>
+<li>
+<p>Perda de apetite </p>
+</li>
+<li>
+<p>Alterações do paladar (disgeusia) </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Sangramento nasal (epistaxe) </p>
+</li>
+<li>
+<p>Tosse </p>
+</li>
+<li>
+<p>Aftas </p>
+</li>
+<li>
+<p>Dor no estômago incluindo enjoos (náuseas) ou diarreia </p>
+</li>
+<li>
+<p>Erupção cutânea </p>
+</li>
+<li>
+<p>Comichão (prurido) </p>
+</li>
+<li>
+<p>Sentir-se fraco ou cansado </p>
+</li>
+<li>
+<p>Cansaço, falta de ar, tonturas, palidez, sinais de nível baixo de glóbulos vermelhos (anemia) </p>
+</li>
+<li>
+<p>Inchaço dos braços, mãos, pés, tornozelos ou outras partes do corpo (sinais de edema) </p>
+</li>
+<li>
+<p>Perda de peso </p>
+</li>
+<li>
+<p>Níveis elevados de lípidos (gorduras) no sangue (hipercolesterolemia) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Sangramento espontâneo ou hematomas (sinais de níveis baixos de plaquetas, também 
+conhecido como trombocitopenia) </p>
+</li>
+<li>
+<p>Falta de ar (dispneia) </p>
+</li>
+<li>
+<p>Sede, quantidade baixa de urina, urina escura, pele seca e avermelhada, irritabilidade (sinais de 
+desidratação) </p>
+</li>
+<li>
+<p>Dificuldade em dormir (insónia) </p>
+</li>
+<li>
+<p>Dor de cabeça, tonturas (sinais de pressão arterial elevada, também conhecida como 
+hipertensão) </p>
+</li>
+<li>
+<p>Inchaço em parte do braço ou em todo o braço (incluindo nos dedos) ou nas pernas (incluindo 
+nos dedos dos pés), sensação de peso, movimentos presos, desconforto (possíveis sintomas de 
+linfoedema) </p>
+</li>
+<li>
+<p>Febre, garganta inflamada, aftas devidas a infeções (sinais de nível baixo de glóbulos brancos, 
+leucopenia, linfopenia e/ou neutropenia) </p>
+</li>
+<li>
+<p>Febre </p>
+</li>
+<li>
+<p>Inflamação do revestimento da boca, estômago, intestino </p>
+</li>
+<li>
+<p>Boca seca </p>
+</li>
+<li>
+<p>Azia (dispepsia) </p>
+</li>
+<li>
+<p>Estar enjoado (vómitos) </p>
+</li>
+<li>
+<p>Dificuldade em engolir (disfagia) </p>
+</li>
+<li>
+<p>Dor abdominal </p>
+</li>
+<li>
+<p>Acne </p>
+</li>
+<li>
+<p>Erupção cutânea e dor nas palmas das suas mãos ou solas dos pés (síndrome mão-pé) </p>
+</li>
+<li>
+<p>Vermelhidão da pele (eritema) </p>
+</li>
+<li>
+<p>Dor nas articulações </p>
+</li>
+<li>
+<p>Dor na boca </p>
+</li>
+<li>
+<p>Alterações da menstruação tais como períodos irregulares </p>
+</li>
+<li>
+<p>Nível alto de lípidos (gorduras) no sangue (hiperlipidemia, aumento de trigliceridos) </p>
+</li>
+<li>
+<p>Nível baixo de potássio no sangue (hipocalemia) </p>
+</li>
+<li>
+<p>Nível baixo de fosfato no sangue (hipofosfatemia) </p>
+</li>
+<li>
+<p>Nível baixo de cálcio no sangue (hipocalcemia) </p>
+</li>
+<li>
+<p>Pele seca, descamação da pele, lesões na pele </p>
+</li>
+<li>
+<p>Distúrbios nas unhas, unhas quebradiças </p>
+</li>
+<li>
+<p>Perda de cabelo ligeira </p>
+</li>
+<li>
+<p>Resultados anormais das análises sanguíneas ao fígado (aumento da alanina e aspartato 
+aminotransferase) </p>
+</li>
+<li>
+<p>Resultados anormais das análises sanguíneas aos rins (aumento da creatinina) </p>
+</li>
+<li>
+<p>Inchaço da pálpebra </p>
+</li>
+<li>
+<p>Proteína na urina </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Fraqueza, sangramento espontâneo ou hematomas e infeções frequentes com sinais tais como 
+febre, arrepios, garganta inflamada ou úlceras na boca (sinais de nível baixo de glóbulos 
+sanguíneos,também conhecido por pancitopenia) </p>
+</li>
+<li>
+<p>Perda de sensação de paladar (ageusia) </p>
+</li>
+<li>
+<p>Tosse com sangue (hemoptise) </p>
+</li>
+<li>
+<p>Alterações da menstruação tais como ausência de períodos menstruais (amenorreia) </p>
+</li>
+<li>
+<p>Urinar mais frequente durante o dia </p>
+</li>
+<li>
+<p>Dor no peito </p>
+</li>
+<li>
+<p>Problemas de cicatrização de feridas </p>
+</li>
+<li>
+<p>Afrontamentos </p>
+</li>
+<li>
+<p>Secreção ocular com comichão e vermelhidão, olhos avermelhados ou vermelhos (conjuntivite) </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1.000 pessoas) </p>
+<ul>
+<li>
+<p>Cansaço, falta de ar, tonturas, palidez (sinais de nível baixo de glóbulos vermelhos, 
+possivelmente devido a um tipo de anemia denominada aplasia de glóbulos vermelhos) </p>
+</li>
+<li>
+<p>Inchaço da face, em redor dos olhos, boca, e dentro da boca e/ou garganta, incluindo língua e 
+dificuldade em respirar ou engolir (também conhecido como angioedema), podem ser sinais de 
+reação alérgica </p>
+</li>
+</ul>
+<p>Desconhecido (a frequência não pode ser estimada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>Reação no local de radioterapia anterior, por ex. vermelhidão da pele ou inflamação pulmonar 
+(reação inflamatória local em zona irradiada) </p>
+</li>
+<li>
+<p>Agravamento dos efeitos secundários do tratamento com radioterapia </p>
+</li>
+</ul>
+<p>Se estes efeitos indesejáveis se tornarem graves fale com o seu medico e/ou farmacêutico. A 
+maioria destes efeitos indesejáveis são ligeiros ou moderados e irão geralmente desaparecer se 
+interromper o tratamento durante uns dias. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar afinitor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar afinitor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>− 
+Manter este medicamento fora da vista e do alcance das crianças. 
+− 
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+blister. O prazo de validade corresponde ao último dia do mês indicado. 
+− 
+Não conservar acima de 25°C. 
+− 
+Conservar na embalagem de origem para proteger da luz e da humidade. 
+− 
+Abra o blister apenas antes de tomar os comprimidos. 
+− 
+Não utilize este medicamento se verificar que qualquer embalagem esteja danificada ou 
+apresente sinais de adulteração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Afinitor 
+− 
+A substância ativa é everolímus. 
+− 
+Cada comprimido de Afinitor 2,5 mg contém 2,5 mg de everolímus. 
+− 
+Cada comprimido de Afinitor 5 mg contém 5 mg de everolímus. 
+− 
+Cada comprimido de Afinitor 10 mg contém 10 mg de everolímus. 
+− 
+Os outros componentes são butil-hidroxitolueno, estearato de magnésio, lactose 
+mono-hidratada, hipromelose, crospovidona tipo A e lactose anidra. </p>
+<p>Qual o aspeto de Afinitor e conteúdo da embalagem 
+Os comprimidos de Afinitor 2,5 mg são comprimidos alongados, brancos a ligeiramente amarelados. 
+São gravados com “LCL" numa das faces e “NVR" na outra. 
+Os comprimidos de Afinitor 5 mg são comprimidos alongados, brancos a ligeiramente amarelados. 
+São gravados com “5" numa das faces e “NVR" na outra. 
+Os comprimidos de Afinitor 10 mg são comprimidos alongados, brancos a ligeiramente amarelados. 
+São gravados com “UHE" numa das faces e “NVR" na outra. </p>
+<p>Afinitor 2,5 mg está disponível em embalagens blister, contendo 30 ou 90 comprimidos. 
+Afinitor 5 mg e Afinitor 10 mg estão disponíveis em embalagens blister, contendo 10, 30 ou 
+90 comprimidos. 
+Nem todas as apresentações poderão estar disponíveis no seu país. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Farmacéutica SA 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Espanha </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse D-90429 Nuremberga 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1228,6 +1966,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-da6b4339076346d51f1c98fff12b57db"
 * entry[0].resource = composition-da-da6b4339076346d51f1c98fff12b57db
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpda6b4339076346d51f1c98fff12b57db"
+* entry[=].resource = mpda6b4339076346d51f1c98fff12b57db
+                            
+                    
+Instance: bundlepackageleaflet-pt-da6b4339076346d51f1c98fff12b57db
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for afinitor Package Leaflet for language pt"
+Description: "ePI document Bundle for afinitor Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-da6b4339076346d51f1c98fff12b57db"
+* entry[0].resource = composition-pt-da6b4339076346d51f1c98fff12b57db
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpda6b4339076346d51f1c98fff12b57db"
@@ -1329,6 +2089,18 @@ RuleSet: da6b4339076346d51f1c98fff12b57dbListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-da6b4339076346d51f1c98fff12b57db) // afinitor pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

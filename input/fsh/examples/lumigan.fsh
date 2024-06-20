@@ -878,6 +878,495 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-6ff79951b10cf21bd6fd953fc17e7cc0
+InstanceOf: CompositionUvEpi
+Title: "Composition for lumigan Package Leaflet"
+Description:  "Composition for lumigan Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6ff79951b10cf21bd6fd953fc17e7cc0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - lumigan"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é LUMIGAN 0,1 mg/ml e para que é utilizado
+2. O que precisa de saber antes de utilizar LUMIGAN 0,1 mg/ml
+3. Como utilizar LUMIGAN 0,1 mg/ml 
+4. Efeitos secundários possíveis
+5. Como conservar LUMIGAN 0,1 mg/ml
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é lumigan e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é lumigan e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>LUMIGAN é uma preparação antiglaucoma. Pertence a um grupo de medicamentos chamados 
+prostamidas. 
+O colírio LUMIGAN é usado para reduzir a pressão intraocular elevada. Este medicamento pode ser 
+usado sozinho ou em associação com outros colírios, chamados bloqueadores beta que também 
+reduzem a pressão.
+O seu olho contém um líquido aquoso e límpido que alimenta a parte interna do olho. Este líquido está 
+constantemente a ser drenado do olho e a ser substituído por outro novo. Caso o líquido não seja 
+drenado rapidamente, a pressão no interior do olho aumenta. Este medicamento atua aumentando a 
+quantidade de líquido que é drenado do olho, o que reduz a pressão no interior do olho. Se a pressão 
+elevada não for reduzida, tal pode originar uma doença chamada glaucoma e, eventualmente, danificar 
+a sua visão.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar lumigan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar lumigan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não utilize LUMIGAN 0,1 mg/ml:</h2>
+<p>se tem alergia (hipersensibilidade) ao bimatoprost ou a qualquer outro componente de 
+LUMIGAN.
+-
+se no passado teve que parar a utilização de gotas para os olhos devido à ocorrência de um 
+efeito secundário do conservante cloreto de benzalcónio.
+Advertências e precauções:
+Fale com o seu médico ou farmacêutico antes de utilizar LUMIGAN 0,1 mg/ml
+
+Fale com o seu médico se:
+
+tiver problemas respiratórios. 
+
+tiver problemas de fígado ou rins.
+
+tiver feito cirurgia às cataratas no passado
+
+tiver olho seco
+54
+
+tiver ou teve qualquer problema com a córnea (parte transparente que se encontra na 
+frente do olho)
+
+usar lentes de contacto (consulte " LUMIGAN 0,1 mg/ml contém cloreto de benzalcónio" 
+)
+
+apresentar ou tiver apresentado uma tensão arterial baixa ou frequência cardíaca baixa
+
+tiver apresentado uma inflamação ou infeção ocular de origem viral.
+Durante o tratamento, LUMIGAN pode causar a perda de gordura à volta do olho, o que pode fazer 
+com que o sulco das pálpebras se torne mais fundo, o olho pareça estar encovado (enoftalmo), a 
+pálpebra superior descaia (ptose), a pele à volta do olho aperte (involução da dermatocalase) e a parte 
+branca inferior do olho se torne mais visível (exposição escleral inferior). As alterações são 
+tipicamente moderadas, mas, se forem pronunciadas, podem afetar o seu campo visual. As alterações 
+podem desaparecer se deixar de utilizar LUMIGAN. LUMIGAN pode, igualmente, fazer com que as 
+pestanas escureçam e cresçam. Também a pele à volta do olho pode tornar-se mais escura. A cor da 
+íris pode escurecer. Estas alterações podem ser permanentes. Os efeitos podem ser mais notados se for 
+tratar só um olho. 
+Crianças e adolescentes
+LUMIGAN não foi testado em crianças com menos de 18 anos de idade, pelo que não deve ser usado 
+por doentes com menos de 18 anos.
+Outros medicamentos e LUMIGAN:
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar qualquer medicamento.
+LUMIGAN pode passar para o leite materno, por isso, não se deve amamentar durante o uso de 
+LUMIGAN.
+Condução de veículos e utilização de máquinas:
+Logo depois de administrar LUMIGAN poderá sentir, temporariamente, a visão turva. Não conduza 
+nem utilize máquinas até restabelecer uma visão clara. 
+LUMIGAN 0,1 mg/ml contém cloreto de benzalcónio
+Este medicamento contém 0,6 mg de cloreto de benzalcónio em cada 3 ml de solução que é 
+equivalente a 0,2 mg/ml.
+Não utilize o colírio quando tiver as lentes colocadas. Um conservante de LUMIGAN, o cloreto de 
+benzalcónio pode ser absorvido pelas lentes de contacto moles e alterar a cor das lentes de contacto. 
+Deve remover as lentes de contacto antes da utilização deste medicamento e aguardar 15 minutos 
+depois de colocar o colírio antes de colocar as lentes novamente. O cloreto de benzalcónio pode 
+também causar irritação nos olhos, especialmente se tem os olhos secos ou alterações da córnea (a 
+camada transparente na parte da frente do olho). Se tiver uma sensação estranha no olho, picadas ou 
+dor no olho após utilizar este medicamento, fale com o seu médico..</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar lumigan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar lumigan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.
+LUMIGAN só deverá ser aplicado no olho. A dose recomendada é uma gota de LUMIGAN à noite, 
+uma vez por dia em cada olho que necessite de tratamento.
+55
+Se utilizar LUMIGAN em associação com outro medicamento para os olhos, faça um intervalo de, no 
+mínimo, cinco minutos entre a aplicação de LUMIGAN e os outros medicamentos para os olhos.
+Não utilize mais do que uma vez por dia, uma vez que a eficácia do tratamento pode ser reduzida.
+Instruções de uso:
+Não utilize o frasco caso o selo de segurança inserido na parte superior do frasco esteja danificado 
+antes da primeira utilização.
+1. Lave as mãos. Coloque a sua cabeça para trás e olhe para o teto. 
+2. Puxe a pálpebra inferior para baixo até se formar uma pequena bolsa. 
+3. Coloque o frasco de cabeça para baixo e aperte-o de forma a soltar uma gota em cada olho que 
+precise de tratamento. 
+4. Solte a sua pálpebra inferior e feche o seu olho por 30 segundos. 
+Limpe qualquer excesso de líquido do rosto.
+Se a gota não cair no seu olho, tente novamente. 
+Para ajudar a prevenir infeções e evitar uma lesão nos olhos, não deixe a ponta do conta-gotas tocar no 
+seu olho ou em qualquer outra coisa. Coloque novamente a tampa e feche o frasco logo após o uso. 
+Se tiver utilizado mais LUMIGAN 0,1 mg/ml do que deveria
+Se tiver utilizado mais LUMIGAN do que deveria, é pouco provável que isto lhe cause algum dano 
+grave. Administre a próxima dose no horário previsto. Se estiver preocupado, fale com o seu médico 
+ou farmacêutico. 
+Caso se tenha esquecido de utilizar LUMIGAN 0,1 mg/ml
+Caso se tenha esquecido de utilizar LUMIGAN, coloque uma única gota assim que se lembrar. Depois 
+volte ao esquema normal. Não utilize uma dose a dobrar para compensar uma dose que se esqueceu de 
+administrar.
+Se parar de utilizar LUMIGAN 0,1 mg/ml
+Deverá utilizar LUMIGAN todos os dias para que atue corretamente. Se parar de utilizar LUMIGAN a 
+pressão no interior do seu olho pode subir, pelo que deve conversar com o médico antes de 
+interromper este tratamento.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.
+56</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como os demais medicamentos, este medicamento pode causar efeitos secundários, embora estes não 
+se manifestem em todas as pessoas. 
+Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. 
+Efeitos secundários muito frequentes
+Estes podem afetar um ou mais utilizadores em 10. Que afetam o olho
+
+Vermelhidão ligeira (até 29% das pessoas)
+
+Perda de gordura na região ocular que pode levar ao aprofundamento do sulco das pálpebras, a 
+olhos encovados (enoftalmo), a pálpebras descaídas (ptose), ao aperto da pele à volta do olho 
+(involução da dermatocalase) e a uma maior visibilidade da parte branca inferior do olho 
+(exposição escleral inferior).
+Efeitos secundários frequentes
+Estes podem afetar 1 a 9 utilizadores em 100.
+Que afetam o olho
+
+Pequenas fissuras na superfície do olho com ou sem inflamação
+
+Irritação
+
+Prurido (comichão) ocular
+
+Pestanas mais compridas
+
+Irritação, quando coloca a gota no olho
+
+Dor ocular
+Que afetam a pele 
+
+Comichão e vermelhidão nas pálpebras
+
+Cor de pele mais escura em volta dos olhos
+
+Crescimento de pelos em volta dos olhos 
+Efeitos secundários pouco frequentes
+Estes podem afetar 1 a 9 utilizadores em 1000
+Que afetam o olho
+
+Íris de cor mais escura
+
+Olhos cansados
+
+Inchaço da superfície do olho
+
+Visão turva
+
+Perda de pestanas
+Que afetam a pele
+
+Pele seca
+
+Formação de crostas na margem da pálpebra
+
+Inchaço das pálpebras
+
+Comichão
+Que afetam o corpo
+
+Dores de cabeça (cefaleias)
+
+Sensação de estar doente
+Efeitos secundários de frequência desconhecida
+57
+Que afetam o olho
+
+Edema macular (inchaço da retina na parte posterior do olho que pode provocar um 
+agravamento da visão)
+
+Escurecimento das pálpebras
+
+Secura
+
+Olhos colados
+
+Sensação de corpo estranho no olho
+
+Inchaço ocular
+
+Aumento do lacrimejo
+
+Desconforto ocular
+
+Sensibilidade à luz
+Que afetam o corpo
+
+Asma
+
+Agravamento da asma
+
+Agravamento da doença pulmonar conhecida por doença pulmonar obstrutiva crónica (DPOC)
+
+Falta de ar
+
+Sintomas de reação alérgica (inchaço, vermelhidão do olho e erupção cutânea)
+
+Tonturas
+
+Aumento da pressão arterial
+
+Descoloração da pele (periocular)
+Para além dos efeitos secundários para LUMIGAN 0,1 mg/ml, foram registados os seguintes efeitos 
+secundários com outro medicamento contendo uma concentração mais elevada de bimatoprost (0,3 
+mg/ml):
+
+Ardor ocular
+
+Reação alérgica no olho
+
+Pálpebras inflamadas
+
+Dificuldades em ver com nitidez
+
+Agravamento da visão
+
+Inchaço da camada transparente que cobre o olho
+
+Lacrimejo
+
+Pestanas mais escuras
+
+Hemorragia na retina
+
+Inflamação no olho
+
+Edema macular cistoide (inchaço da retina dentro do olho levando a um agravamento da visão)
+
+Tremor das pálpebras
+
+Retração da pálpebra com afastamento da pálpebra da superfície do olho
+
+Vermelhidão da pele em volta dos olhos
+
+Fraqueza
+
+Aumento dos valores dos resultados das análises sanguíneas que avaliam a função do fígado
+Outros efeitos secundários notificados com colírios contendo fosfatos:
+Em casos muito raros, alguns doentes com lesões graves na camada transparente que cobre a frente do 
+olho (a córnea) desenvolveram manchas que causam enevoamento da córnea devido à acumulação de 
+cálcio durante o tratamento.
+Comunicação de efeitos secundários
+Se algum dos efeitos secundários se agravar ou se detetar quaisquer efeitos secundários não 
+mencionados neste folheto, informe o seu médico ou farmacêutico. Também poderá comunicar efeitos 
+secundários diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.
+58</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar lumigan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar lumigan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco e na embalagem 
+exterior a seguir a EXP. O prazo de validade corresponde ao último dia desse mês
+O frasco deve ser deitado fora, no máximo, quatro semanas após a sua abertura, mesmo que ainda 
+contenha algumas gotas. Isto irá prevenir infeções. Para se lembrar da data em que abriu o frasco, deve 
+escrevê-la no espaço previsto na embalagem. 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas irão ajudar a 
+proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de LUMIGAN 0,1 mg/ml
+
+A substância ativa é bimatoprost. Um ml de solução contém 0,1 mg de bimatoprost. 
+
+Os outros componentes são cloreto de benzalcónio (conservante), cloreto de sódio, fosfato de 
+sódio dibásico heptahidrato, ácido cítrico mono-hidratado e água purificada. Poderão adicionar-
+se pequenas quantidades de ácido clorídrico ou hidróxido de sódio por forma a manter o nível 
+de acidez (valor pH) normal. 
+Qual o aspeto de LUMIGAN 0,1 mg/ml e conteúdo da embalagem
+LUMIGAN é um colírio solução transparente, incolor apresentado em embalagens contendo 1 ou 3 
+frascos de plástico com uma tampa de rosca. Cada frasco é cheio até aproximadamente metade e 
+contém 3 mililitros da solução. Esta quantidade é o suficiente para 4 semanas de tratamento. É 
+possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+AbbVie Deutschland GmbH &amp; Co. KG
+Knollstrasse
+67061 Ludwigshafen
+Alemanha
+Fabricante
+Allergan Pharmaceuticals Ireland
+Castlebar Road
+Westport
+Co. Mayo
+Ireland
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado.
+België/Belgique/Belgien
+AbbVie SA
+Tél/Tel: +32 10 477811
+Lietuva
+AbbVie UAB 
+Tel: + 370 5 205 3023
+България
+АбВи ЕООД
+Тел:+359 2 90 30 430
+Luxembourg/Luxemburg 
+AbbVie SA
+Belgique/Belgien
+Tél/Tel: +32 10 477811
+59
+Česká republika
+AbbVie s.r.o. 
+Tel.: +420 233 098 111
+Magyarország
+AbbVie Kft.
+Tel:+36 1 455 8600
+Danmark
+AbbVie A/S
+Tlf: +45 72 30 20 28
+Malta
+Vivian Corporation Ltd.
+Tel: +356 27780Deutschland
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel.: 00800 222843 33 (gebührenfrei)
+Tel.: +49 (0) 611 / 1720-0
+Nederland
+AbbVie B.V.
+Tel: +31 (0)88 322 2843
+Eesti
+AbbVie OÜ
+Tel. +372 6231011
+Norge
+AbbVie AS
+Tlf: +47 67 81 80 00
+Ελλάδα
+AbbVie ΦΑΡΜΑΚΕΥΤΙΚΗ Α.Ε.
+Τηλ: +30 214 4165 555
+Österreich
+AbbVie GmbH <br />
+Tel: +43 1 20589-0
+España
+AbbVie Spain, S.L.U.
+Tel: +34 913840910
+Polska
+AbbVie Sp. z o.o.
+Tel.: +48 22 372 78 00
+France
+AbbVie
+Tél: +33 (0) 1 45 60 13 00
+Portugal
+AbbVie, Lda.
+Tel.: +351 (0)21 1908400
+Hrvatska
+AbbVie d.o.o.
+Tel: + 385 (0)1 5625 501
+România
+AbbVie S.R.L.
+Tel: +40 21 529 30 35
+Ireland
+AbbVie Limited
+Tel: +353 (0)1 4287900<br />
+Slovenija
+AbbVie Biofarmacevtska družba d.o.o.
+Tel: +386 (1)32 08 060
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AbbVie s.r.o.
+Tel: +421 2 5050 0777
+Italia
+AbbVie S.r.l.
+Tel: +39 06 928921
+Suomi/Finland
+AbbVie Oy<br />
+Puh/Tel: +358 (0)10 2411 200
+Κύπρος
+Lifepharma (Z.A.M.) Ltd
+Τηλ: +357 22 34 74 40
+Sverige
+AbbVie AB
+Tel: +46 (0)8 684 44 600
+Latvija
+AbbVie SIA 
+Tel: +371 67605000
+United Kingdom (Northern Ireland)
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: +44 (0)1628 561090
+Este folheto foi revisto pela última vez em 
+60
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -919,6 +1408,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-6ff79951b10cf21bd6fd953fc17e7cc0"
 * entry[0].resource = composition-da-6ff79951b10cf21bd6fd953fc17e7cc0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6ff79951b10cf21bd6fd953fc17e7cc0"
+* entry[=].resource = mp6ff79951b10cf21bd6fd953fc17e7cc0
+                            
+                    
+Instance: bundlepackageleaflet-pt-6ff79951b10cf21bd6fd953fc17e7cc0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lumigan Package Leaflet for language pt"
+Description: "ePI document Bundle for lumigan Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-6ff79951b10cf21bd6fd953fc17e7cc0"
+* entry[0].resource = composition-pt-6ff79951b10cf21bd6fd953fc17e7cc0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp6ff79951b10cf21bd6fd953fc17e7cc0"
@@ -1020,6 +1531,18 @@ RuleSet: 6ff79951b10cf21bd6fd953fc17e7cc0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-6ff79951b10cf21bd6fd953fc17e7cc0) // lumigan pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

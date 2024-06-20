@@ -935,6 +935,483 @@ med andre lægemidler end dem, der er anført under pkt. 6.6 i produktresuméet.
 
 
 
+Instance: composition-pt-1a4d7d0936b560f6ab01480d49118287
+InstanceOf: CompositionUvEpi
+Title: "Composition for vaborem Package Leaflet"
+Description:  "Composition for vaborem Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1a4d7d0936b560f6ab01480d49118287)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - vaborem"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Vaborem e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Vaborem </li>
+<li>Como lhe será administrado Vaborem </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Vaborem </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é vaborem e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é vaborem e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Vaborem 
+Vaborem é um antibiótico que contém duas substâncias ativas: meropenem e vaborbactam. 
+ 
+O meropenem pertence ao grupo de antibióticos chamados “carbapenemes". Consegue matar muitos 
+tipos de bactérias ao impedi-las de formar paredes de proteção em redor das células.
+ 
+Vaborbactam é um “inibidor da beta-lactamase". Bloqueia a ação de uma enzima que permite que 
+algumas bactérias resistam à ação do meropenem. Isto ajuda o meropenem a matar algumas 
+bactérias que, por si só, não consegue eliminar.</p>
+<p>Para que é utilizado Vaborem 
+Vaborem é utilizado em adultos para tratar certas infeções bacterianas graves: 
+ 
+da bexiga ou dos rins (infeções do trato urinário)
+ 
+do estômago e dos intestinos (infeções intra-abdominais)
+ 
+dos pulmões (pneumonia)</p>
+<p>Também pode ser utilizado para tratar infeções 
+ 
+do sangue, associadas a qualquer uma das infeções acima mencionadas
+ 
+causadas por bactérias que outros antibióticos podem não conseguir matar</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar vaborem"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar vaborem"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe pode ser administrado Vaborem 
+ 
+se tem alergia ao meropenem, ao vaborbactam ou a qualquer outro componente deste medicamento 
+(indicados na secção 6)
+ 
+se tem alergia a outros antibióticos carbapenemes (o grupo a que pertence o meropenem).
+28</p>
+<p> 
+se já teve uma reação alérgica grave a antibióticos relacionados, pertencentes ao grupo dos beta- lactâmicos (incluindo penicilinas, cefalosporinas ou monobactâmicos).</p>
+<p>Advertências e precauções 
+Fale com o seu médico ou enfermeiro antes de receber Vaborem se: 
+ 
+já teve uma reação alérgica grave a outros antibióticos, pertencentes ao grupo dos beta-lactâmicos 
+(incluindo penicilinas, cefalosporinas ou monobactâmicos)
+ 
+já teve diarreia intensa durante ou após um tratamento com antibióticos
+ 
+já teve convulsões</p>
+<p>Se alguma das situações acima descritas se aplica a si ou não tiver a certeza, fale com o seu médico ou 
+enfermeiro antes de lhe ser administrado Vaborem. </p>
+<p>Pode desenvolver sinais e sintomas de reações cutâneas graves (consulte a secção 4). Se isso acontecer, fale 
+com o seu médico ou enfermeiro imediatamente para que eles possam tratar os sintomas. </p>
+<p>Fale com o seu médico ou enfermeiro se tiver diarreia durante o tratamento. </p>
+<p>Este medicamento pode afetar o seu fígado. O seu médico pode proceder à colheita de sangue para análise, 
+para verificar o funcionamento do seu fígado durante o tratamento com este medicamento. </p>
+<p>Infeção nova 
+Apesar de Vaborem conseguir combater certas bactérias, existe a possibilidade de vir a ter uma infeção 
+diferente, causada por outro organismo, durante ou após o tratamento. O seu médico vigiá-lo-á atentamente 
+para detetar quaisquer novas infeções e prescrever-lhe outro tratamento, se necessário. </p>
+<p>Análises ao sangue 
+Informe o seu médico de que está a tomar Vaborem, se for fazer análises ao sangue. Isto prende-se com o 
+facto de poder ter um resultado alterado no chamado teste de Coombs. Este teste visa detetar a presença de 
+anticorpos, capazes de destruir os glóbulos vermelhos, e pode ser afetado pela resposta do seu sistema 
+imunitário ao Vaborem. </p>
+<p>Crianças ou adolescentes 
+Vaborem não deve ser utilizado em crianças ou adolescentes com idade inferior a 18 anos. Isto prende-se 
+com o facto de se desconhecer se o medicamento é seguro para ser utilizado nestes grupos etários. </p>
+<p>Outros medicamentos e Vaborem 
+Informe o seu médico se estiver a utilizar, tiver utilizado recentemente ou se vier a utilizar outros <br />
+medicamentos. </p>
+<p>É especialmente importante que informe o seu médico se estiver a tomar algum dos seguintes 
+medicamentos: 
+ 
+medicamentos utilizados para tratar a epilepsia chamados ácido valpróico, valproato de sódio ou 
+valpromida, porque Vaborem pode diminuir o efeito deles
+ 
+um medicamento para a gota chamado probenecida
+ 
+medicamentos anticoagulantes orais, como a varfarina (utilizada para tratar ou prevenir os coágulos 
+sanguíneos)
+ 
+contracetivos hormonais orais contendo estrogénio ou/ou progesterora porque Vaborem pode 
+diminuir o seu efeito. As mulheres com potencial para engravidar devem ser aconselhadas a utilizar 
+um método contracetivo alternativo eficaz durante um período de 28 dias após a descontinuação do 
+tratamento. 
+ 
+medicamentos predominantemente metabolizados por CYP1A2 (por exemplo, teofilina), CYP3A4 
+29</p>
+<p>(por exemplo, alprazolam, midazolam, tracolimus, sirolimus, ciclosporina, sinvastatina, omeprazol, 
+nifedipina, quinidina e etinilestradiol) e/ou CYP2C (por exemplo, varfarina, fenitoína) e/ou 
+transportados por P-gp (por exempli, dabigatrana, digoxina) porque Vaborem pode diminuir o seu 
+efeito.</p>
+<p>Informe o seu médico antes de utilizar Vaborem, se alguma das situações acima se aplicar a si. </p>
+<p>Gravidez e amamentação 
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de receber este 
+medicamento. </p>
+<p>Como medida de precaução, não lhe deve ser administrado este medicamento durante a gravidez.  </p>
+<p>É importante informar o seu médico se estiver a amamentar ou pretender amamentar antes de receber 
+Vaborem. Pequenas quantidades deste medicamento podem passar para o leite materno e podem afetar o 
+bebé. Por conseguinte, tem de descontinuar a amamentação antes de lhe ser administrado Vaborem. </p>
+<p>Condução de veículos e utilização de máquinas 
+Vaborem pode deixá-lo com tonturas, sonolento e letárgico, causar-lhe dor de cabeça ou uma sensação de 
+formigueiro (como “picadas de agulhas") ou, em casos raros, causar um ataque ou convulsão. Isto pode 
+afetar a sua capacidade de conduzir e utilizar ferramentas ou máquinas. </p>
+<p>Vaborem contém sódio 
+Este medicamento contém 250 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
+cada frasco para injetáveis. Isto é equivalente a 12,5% da ingestão diária máxima de sódio recomendada 
+na dieta para um adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar vaborem"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar vaborem"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A dose recomendada é de 2 frascos para injetáveis (um total de 2 g de meropenem e 2 g de vaborbactam), 
+administrada a cada 8 horas. O seu médico decidirá quantos dias de tratamento serão necessários, 
+dependendo do tipo de infeção. </p>
+<p>Vaborem ser-lhe-á administrado por um médico ou enfermeiro por perfusão (um gotejamento) numa veia 
+durante 3 horas. </p>
+<p>Doentes com problemas de rins 
+Se tiver problemas de rins, o seu médico pode reduzir-lhe a dose. O seu médico também pode querer fazer 
+algumas análises ao sangue para verificar se os seus rins estão a funcionar bem. </p>
+<p>Se lhe for administrado mais Vaborem do que deveria 
+Vaborem ser-lhe-á administrado por um médico ou enfermeiro, pelo que será improvável que lhe seja 
+administrada a dose errada. Se achar que lhe administraram uma dose excessiva de Vaborem, informe 
+imediatamente o seu médico ou enfermeiro. </p>
+<p>Se falhar uma dose de Vaborem 
+Se achar que não lhe administraram uma dose, informe imediatamente o seu médico ou enfermeiro. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>30</p>
+<p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Informe imediatamente o seu médico se notar algum dos seguintes efeitos indesejáveis, porque pode 
+necessitar de tratamento urgente: 
+ 
+ Reações alérgicas graves que podem incluir inchaço repentino dos lábios, face, garganta ou língua, 
+dificuldade em engolir ou a respirar, uma erupção na pele grave ou outras reações cutâneas graves, ou 
+uma descida na tensão arterial (o que pode fazê-lo sentir-se a desmaiar ou tonto). Tais reações podem 
+ser potencialmente fatais. 
+ 
+Diarreia que continua a agravar-se ou que não desaparece, ou fezes que contenham sangue ou muco
+-  isto pode acontecer durante ou após o fim do tratamento com Vaborem. Pode ser causado por uma 
+bactéria chamada Clostridium difficile. Se isto acontecer, não tome medicamentos para parar os 
+movimentos dos intestinos ou torná-los mais lentos. </p>
+<p>Outros efeitos indesejáveis 
+Informe o seu médico ou enfermeiro, se notar algum dos seguintes efeitos indesejáveis: </p>
+<p>Frequentes: (podem afetar até 1 em 10 pessoas) 
+ 
+Aumento no número de plaquetas (um tipo de célula sanguínea) - demonstrado em análises ao 
+sangue
+ 
+Redução na quantidade de potássio ou açúcar - observada em análises ao sangue
+ 
+Dor de cabeça
+ 
+Tensão arterial baixa
+ 
+Diarreia
+ 
+Sensação de enjoos (náuseas) ou indisposição (vómitos)
+ 
+Inchaço, vermelhidão e/ou dor em redor da agulha, no local da administração do medicamento na 
+veia
+ 
+Febre
+ 
+Aumento na quantidade de enzimas produzidas pelo fígado, chamadas alanina aminotransferase ou 
+aspartato aminotransferase - demonstrado em análises ao sangue
+ 
+Aumento no nível de uma enzima chamada fosfatase alcalina que pode ser um sinal de que o seu 
+fígado, vesícula biliar ou ossos não estão a funcionar bem - demonstrado em análises ao sangue
+ 
+Aumento no nível de uma enzima chamada lactato desidrogenase que pode ser um sinal de danos 
+em alguns dos seus órgãos - demonstrado em análises ao sangue</p>
+<p>Pouco frequentes: (podem afetar até 1 em 100 pessoas) 
+ 
+Inchaço e irritação a nível do intestino grosso ou cólon - isto pode causar diarreia, febre e cãibras 
+abdominais e deve-se a outra infeção no cólon
+ 
+Infeções fúngicas, incluindo as da vagina ou boca
+ 
+Diminuição no número de glóbulos brancos ou de certos tipos de glóbulos brancos chamados 
+neutrófilos e uma redução nas plaquetas - demonstradas em análises ao sangue
+ 
+Aumento de um tipo de glóbulos brancos chamados eosinófilos - demonstrado em análises ao 
+sangue
+ 
+Reação alérgica repentina e grave que requer tratamento médico urgente e pode incluir comichão, 
+alteração na cor da pele, cãibras abdominais, inchaço, dificuldade em respirar, desmaio e descida 
+na tensão arterial
+ 
+Reação alérgica menos grave que pode incluir vermelhidão, inchaços vermelhos, descamação da 
+pele, comichão, sensação geral de mal-estar
+ 
+Sensação de perda de apetite
+ 
+Aumento na quantidade de potássio ou açúcar - demonstrado em análises ao sangue
+31</p>
+<p> 
+Incapacidade de dormir
+ 
+Ver, ouvir ou sentir coisas que não existem
+ 
+Tonturas
+ 
+Tremores ou estremecimento
+ 
+Uma sensação de formigueiro (“picadas de agulhas")
+ 
+Uma sensação de sonolência e letargia
+ 
+Veias inchadas, vermelhas e irritadas
+ 
+Veias dolorosas
+ 
+Dificuldade em respirar
+ 
+Inchaço abdominal ou sensação de enfartamento
+ 
+Dor de estômago
+ 
+Comichão na pele
+ 
+Erupção cutânea
+ 
+Erupção cutânea com comichão intensa (“urticária")
+ 
+Dificuldade em controlar a bexiga
+ 
+Redução no funcionamento dos seus rins
+ 
+Sensação estranha no peito
+ 
+Podem ocorrer as seguintes reações, isoladas ou em combinação, quando Vaborem é administrado 
+numa veia: pele avermelhada (eritema); veia quente, sensível e inchada em redor da agulha (flebite); 
+um coágulo de sangue na veia onde a agulha é introduzida na pele (trombose no local da  perfusão)
+ 
+Dor
+ 
+Aumento no nível de uma substância no sangue chamada creatina fosfoquinase, que é um sinal de 
+possíveis danos em certos tecidos, tais como músculos e/ou outros órgãos - demonstrado em 
+análises ao sangue
+ 
+Aumento no nível de uma substância no sangue chamada bilirrubina, que é um sinal de possíveis
+danos nos glóbulos vermelhos ou que o seu fígado está a funcionar menos bem - demonstrado em 
+análises ao sangue 
+ 
+Aumento no nível de certos tipos de substâncias no sangue chamadas ureia e creatinina que são 
+sinais de que os seus rins estão a trabalhar menos bem - demonstrado em análises ao sangue.
+ 
+Reação que ocorre durante ou pouco depois da administração de Vaborem que se apresenta como 
+um mal-estar (indisposição geral), possivelmente com qualquer um dos seguintes sintomas: tensão 
+arterial baixa, náuseas, vómitos, cãibras abdominais, febre, rubores, batimento cardíaco rápido ou 
+dificuldade para respirar, dor de cabeça</p>
+<p>Raros: (podem afetar até 1 em 1.000 pessoas) 
+ 
+Convulsões (ataques)</p>
+<p>Desconhecido: (a frequência não pode ser calculada a partir dos dados disponíveis) 
+ 
+Uma contagem de glóbulos brancos muito baixa e grave - demonstrado em análises ao sangue 
+ 
+Anemia hemolítica (uma condição em que os glóbulos vermelhos estão danificados e reduzidos 
+numericamente), o que lhe pode causar cansaço e deixar a sua pele e olhos amarelos 
+ 
+Inchaço da língua, rosto, lábios ou garganta 
+ 
+O início repentino de uma erupção grave com manchas, bolhas ou pele a descamar, possivelmente 
+com febre alta, dor nas articulações, função alterada do fígado, rins ou pulmões (estes podem ser 
+sinais de condições clínicas mais graves chamadas necrólise epidérmica tóxica, síndrome de Stevens-
+Johnson, eritema multiforme, Pustulose generalizada exantemática aguda ou uma condição 
+conhecida como reação medicamentosa com eosinofilia e sintomas sistémicos (DRESS) 
+ 
+Um resultado positivo do chamado teste de Coombs, usado para identificar anemia hemolítica (ver 
+acima) ou uma reação do seu sistema imunitário a Vaborem 
+ 
+Desorientação e confusão agudas (delírio) </p>
+<p>32</p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
+fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis diretamente através<br />
+do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar vaborem"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar vaborem"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no recipiente. O prazo de validade 
+corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 25°C. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Vaborem 
+ 
+As substâncias ativas são meropenem e vaborbactam. Cada frasco para injetáveis contém 1 g de 
+meropenem (sob a forma de meropenem tri-hidratado) e 1 g de vaborbactam.
+ 
+O outro componente é carbonato de sódio.</p>
+<p>Qual o aspeto de Vaborem e conteúdo da embalagem 
+Vaborem é um pó branco a amarelo claro para concentrado para solução para perfusão, fornecido num 
+frasco para injetáveis. </p>
+<p>Vaborem está disponível em embalagens contendo 6 frascos para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Menarini International Operations Luxembourg S.A. 
+1, Avenue de la Gare 
+L-1611, Luxembourg 
+Luxemburgo </p>
+<p>Fabricante 
+ACS Dobfar, S.p.A. 
+Nucleo Industriale S. Atto 
+(loc. S. Nicolo’ a Tordino) 
+64100 Teramo (TE) 
+Itália </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do titular da 
+autorização de introdução no mercado: </p>
+<p>België/Belgique/Belgien
+Menarini Benelux NV/SA 
+Tél/Tel: + 32 (0)2 721 4Lietuva
+UAB “BERLIN-CHEMIE MENARINI 
+BALTIC" 
+Tel: +370 52 691 947
+33</p>
+<p>България 
+Берлин-Хеми/А. Менарини България EООД 
+тел.: +359 24540Luxembourg/Luxemburg 
+Menarini Benelux NV/SA 
+Tél/Tel: + 32 (0)2 721 4Česká republika 
+Berlin-Chemie/A.Menarini Ceska republika s.r.o. 
+Tel: +420 267 199 Magyarország 
+Berlin-Chemie/A. Menarini Kft. 
+Tel.: +36 1799 7Danmark 
+Menarini International Operations Luxembourg 
+S.A. 
+Tlf: +352 264Malta 
+Menarini International Operations Luxembourg 
+S.A. 
+Tel: +352 264Deutschland 
+Berlin-Chemie AG 
+Tel: +49 (0) 30 67Nederland 
+Menarini Benelux NV/SA 
+Tel: +32 (0)2 721 4Eesti 
+OÜ Berlin-Chemie Menarini Eesti 
+Tel: +372 667 5Norge 
+Menarini International Operations Luxembourg 
+S.A. 
+Tlf: +352 264Ελλάδα 
+MENARINI HELLAS AE 
+Τηλ: +30 210 8316111-Österreich 
+A. Menarini Pharma GmbH 
+Tel: +43 1 879 95 85-0 
+España 
+Laboratorios Menarini S.A. 
+Tel: +34-93 462 88 Polska 
+Berlin-Chemie/Menarini Polska Sp. z o.o. 
+Tel.: +48 22 566 21 France 
+MENARINI France 
+Tél: +33 (0)1 45 60 77 Portugal 
+A. Menarini Portugal - Farmacêutica, S.A. 
+Tel: +351 210 935 Hrvatska 
+Berlin-Chemie Menarini Hrvatska d.o.o. 
+Tel: + 385 1 4821 România 
+Berlin-Chemie A.Menarini S.R.L. 
+Tel: +40 21 232 34 Ireland 
+A. Menarini Pharmaceuticals Ireland Ltd 
+Tel: +353 1 284 6Slovenija 
+Berlin-Chemie / A. Menarini Distribution 
+Ljubljana d.o.o. 
+Tel: +386 01 300 2Ísland 
+Menarini International Operations Luxembourg 
+S.A. 
+Sími: +352 264Slovenská republika 
+Berlin-Chemie/ A. Menarini Distribution 
+Slovakia s.r.o 
+Tel: +421 2 544 30 Italia 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
+Tel: +39-055 56Suomi/Finland 
+Berlin-Chemie/A.Menarini Suomi OY 
+Puh/Tel: +358 403 000 34</p>
+<p>Κύπρος 
+MENARINI HELLAS AE 
+Τηλ: +30 210 8316111-Sverige 
+Pharma AB 
+Tel: +46 8355Latvija 
+SIA Berlin-Chemie/Menarini Baltic 
+Tel: +371 67103United Kingdom (Northern Ireland) 
+A. Menarini Farmaceutica Internazionale S.R.L. 
+Tel: +44 (0)1628 856 
+Este folheto foi revisto pela última vez em: </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -976,6 +1453,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-1a4d7d0936b560f6ab01480d49118287"
 * entry[0].resource = composition-da-1a4d7d0936b560f6ab01480d49118287
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1a4d7d0936b560f6ab01480d49118287"
+* entry[=].resource = mp1a4d7d0936b560f6ab01480d49118287
+                            
+                    
+Instance: bundlepackageleaflet-pt-1a4d7d0936b560f6ab01480d49118287
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vaborem Package Leaflet for language pt"
+Description: "ePI document Bundle for vaborem Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-1a4d7d0936b560f6ab01480d49118287"
+* entry[0].resource = composition-pt-1a4d7d0936b560f6ab01480d49118287
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp1a4d7d0936b560f6ab01480d49118287"
@@ -1077,6 +1576,18 @@ RuleSet: 1a4d7d0936b560f6ab01480d49118287ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-1a4d7d0936b560f6ab01480d49118287) // vaborem pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1022,6 +1022,414 @@ retningslinjer.</p>         </div>"""
 
 
 
+Instance: composition-pt-11587ff1554abe28faf73fc5e54ae7a8
+InstanceOf: CompositionUvEpi
+Title: "Composition for ximluci Package Leaflet"
+Description:  "Composition for ximluci Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp11587ff1554abe28faf73fc5e54ae7a8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ximluci"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Ximluci e para que é utilizado
+2. O que precisa de saber antes de lhe ser administrado Ximluci
+3. Como é administrado Ximluci
+4. Efeitos indesejáveis possíveis
+5. Como conservar Ximluci
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ximluci e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ximluci e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Ximluci
+Ximluci é uma solução que é injetada no olho. Ximluci pertence a um grupo de medicamentos 
+chamados agentes anti-neovascularização. Contém a substância ativa designada ranibizumab.
+Para que é utilizado Ximluci
+Ximluci é utilizado em adultos para tratar várias doenças dos olhos que causam perda de visão.
+Estas doenças resultam de danos na retina (camada sensível à luz na parte posterior do olho) causados 
+por:
+
+Crescimento de vasos sanguíneos extravasantes anormais. Isto é observado em doenças tais 
+como a degenerescência macular relacionada com a idade (DMI) e retinopatia diabética 
+proliferativa (RDP, uma doença causada pela diabetes). Pode também ser associada a 
+neovascularização coroideia (NVC), secundária a miopia patológica (MP), estrias angióides, 
+corioretinopatia central serosa ou NVC inflamatória.
+
+Edema macular (inchaço do centro da retina). Este inchaço pode ser causado por diabetes (uma 
+doença chamada edema macular diabético (EMD)) ou pelo bloqueio das veias retinianas da 
+retina (uma doença chamada oclusão da veia retiniana (OVR)).
+Como atua Ximluci
+Ximluci reconhece e liga-se especificamente a uma proteína chamada fator de crescimento endotelial 
+vascular A (VEGF-A) presente no olho. Em excesso, o VEGF-A causa um crescimento anormal de 
+vasos sanguíneos e edema no olho, que pode levar a perda de visão em doenças como a DMI, EMD, 
+RDP, OVR, MP e NVC. Através da ligação ao VEGF-A, Ximluci pode bloquear a sua ação e prevenir 
+este crescimento anormal e edema.
+Nestas doenças, Ximluci pode ajudar a estabilizar e, em muitos casos, a melhorar a sua visão.
+41</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ximluci"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ximluci"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não deve receber Ximluci</h2>
+<p>Se tem alergia ao ranibizumab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6).
+-
+Se tem uma infeção dentro ou à volta do olho.
+-
+Se tem dor ou vermelhidão (inflamação intraocular grave) no olho.
+Advertências e precauções
+Fale com o seu médico antes de lhe ser administrado Ximluci.
+-
+Ximluci é administrado através de uma injeção no olho. Após o tratamento com Ximluci pode 
+ocasionalmente ocorrer infeção na porção interna do olho, dor ou vermelhidão (inflamação), 
+descolamento ou rasgadura de uma das camadas da parte posterior do olho (descolamento ou 
+rasgadura da retina e descolamento ou rasgadura do epitélio pigmentar da retina) ou turvação do 
+cristalino (catarata). É importante identificar e tratar esta infeção ou descolamento da retina o 
+mais rapidamente possível. Por favor contacte imediatamente o seu médico se desenvolver 
+sinais como dor no olho ou aumento do desconforto, agravamento da vermelhidão do olho, 
+visão turva ou diminuída, um aumento do número de pequenas partículas na sua visão ou 
+aumento da sensibilidade à luz.
+-
+Em alguns doentes pode ocorrer um aumento da pressão ocular durante um curto período após a 
+injeção. Isto é algo que poderá não detetar e que o seu médico pode avaliar após cada injeção.
+-
+Informe o seu médico se tem antecedentes de problemas ou tratamentos nos olhos, ou se teve 
+um acidente vascular cerebral ou se já teve sintomas transitórios de acidente vascular cerebral 
+(fraqueza ou paralisia dos membros ou da face, dificuldade em falar ou em entender). Esta 
+informação será tida em consideração para avaliar se Ximluci é o tratamento adequado para si.
+Por favor consulte a secção 4 (“Efeitos indesejáveis possíveis") para obter informação mais detalhada 
+acerca dos efeitos indesejáveis que podem ocorrer durante o tratamento com Ximluci.
+Crianças e adolescentes (idade inferior a 18 anos)
+CA utilização de Ximluci em crianças e adolescentes não foi estabelecida e logo não é recomendada.
+Outros medicamentos e Ximluci
+Informe o seu médico se estiver a utilizar, tiver utilizado recentemente, ou se vier a utilizar outros 
+medicamentos.
+Gravidez e amamentação
+-
+As mulheres que podem engravidar têm de usar meios contracetivos eficazes durante o 
+tratamento e pelo menos durante três meses após a última injeção de Ximluci.
+-
+Não há experiência de utilização de Ximluci em mulheres grávidas. Ximluci não deve ser 
+administrado durante a gravidez a não ser que o potencial benefício seja superior ao risco para o 
+bebé em gestação. Se está grávida, se pensa estar grávida ou planeia engravidar, discuta isto 
+com o seu médico antes de iniciar o tratamento com Ximluci.
+-
+Não se recomenda a administração de Ximluci durante a amamentação uma vez que se 
+desconhece se Ximluci passa para o leite humano. Consulte o seu médico ou farmacêutico antes 
+do tratamento com Ximluci.
+Condução de veículos e utilização de máquinas
+Após o tratamento com Ximluci poderá sentir temporariamente a visão turva. Se tal acontecer, não 
+conduza ou utilize máquinas até ao desaparecimento dos sintomas.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ximluci"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ximluci"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ximluci é administrado através de uma injeção de dose única no olho, pelo seu médico oftalmologista 
+sob anestesia local. A dose habitual de uma injeção é 0,05 ml (o que contém 0,5 mg de substância 
+ativa). O intervalo entre duas doses injetadas no mesmo olho deve ser de pelo menos quatro semanas. 
+42
+Todas as injeções serão administradas pelo seu médico oftalmologista.
+Antes da injeção, o seu médico irá lavar cuidadosamente o seu olho para impedir uma infeção. O seu 
+médico irá também aplicar-lhe um anestésico local para reduzir ou impedir qualquer dor que possa vir 
+a sentir com a injeção.
+O tratamento é iniciado com uma injeção de Ximluci por mês. O seu médico avaliará a sua condição 
+ocular e, dependendo da forma como responde ao tratamento, decidirá se e quando necessita de 
+receber mais tratamento.
+Encontram-se instruções de utilização detalhadas no final do folheto em “Como preparar e administrar 
+Ximluci a adultos".
+Idosos (idade igual ou superior a 65 anos)
+Ximluci pode ser usado em pessoas de idade igual ou superior a 65 anos sem ajustamento de dose.
+Antes de parar o tratamento com Ximluci
+Se está a pensar parar o tratamento com Ximluci, por favor vá à sua próxima consulta e discuta o 
+assunto com o seu médico. O seu médico irá aconselhá-lo e decidir durante quanto tempo deverá ser 
+tratado com Ximluci.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestam em todas as pessoas.
+Os efeitos indesejáveis associados à administração de Ximluci são tanto devidos ao medicamento 
+propriamente dito como devido ao procedimento da injeção e afetam sobretudo o olho.
+Os efeitos indesejáveis graves:
+Frequentes (podem afetar até 1 em 10 pessoas):
+- descolamento ou rasgadura da camada da parte detrás do olho (descolamento ou rasgadura da retina), 
+que provoca visualização de centelhas de luz com manchas progredindo para uma perda temporária de 
+visão ou turvação do cristalino (catarata).
+Pouco frequentes (podem afetar até 1 em 100 pessoas):
+- cegueira, 
+- infeção do globo ocular (endoftalmite) com inflamação do interior do olho.
+Os sintomas que pode sentir são:
+- dor ou aumento do desconforto ocular, 
+- agravamento da vermelhidão no olho, 
+- visão turva ou diminuída, 
+- um aumento do número de pequenas partículas na visão ou aumento da sensibilidade à luz. 
+Por favor contacte imediatamente o seu médico se desenvolver algum destes efeitos indesejáveis.
+Outros efeitos indesejáveis:
+Muito frequentes (podem afetar mais de 1 em 10 pessoas)
+Os efeitos indesejáveis visuais incluem: 
+- inflamação do olho, 
+- hemorragia na parte de trás do olho (hemorragia retiniana), 
+- perturbação da visão, 
+- dor ocular, 
+43
+- pequenas partículas ou manchas na visão (flocos), 
+- hemorragia ocular, 
+- irritação do olho, 
+- sensação de corpo estranho no olho, 
+- aumento da produção de lágrimas, 
+- inflamação ou infeção das margens das pálpebras, 
+- olho seco, 
+- vermelhidão ou comichão no olho
+- aumento da pressão ocular.
+Os efeitos indesejáveis não-visuais incluem: 
+- dor de garganta, congestão nasal, corrimento nasal,
+- dor de cabeça 
+- dor nas articulações
+Frequentes (podem afetar até 1 em 10 pessoas):
+Os efeitos indesejáveis visuais incluem: 
+- diminuição da nitidez da visão, 
+- inchaço de uma parte do olho (úvea, córnea), 
+- inflamação da córnea (parte anterior do olho), 
+- pequenas marcas na superfície do olho, 
+- visão turva, 
+- hemorragia no local da injeção, 
+- hemorragia ocular, 
+- secreção ocular com comichão, vermelhidão e inchaço (conjuntivite), 
+- sensibilidade à luz, 
+- desconforto ocular, 
+- inchaço das pálpebras, 
+- dor nas pálpebras.
+Os efeitos indesejáveis não-visuais incluem: 
+- Infeção do trato urinário, 
+- valor baixo do número de glóbulos vermelhos (com sintomas como cansaço, falta de ar, tonturas, 
+palidez), 
+- ansiedade, 
+- tosse, 
+- náuseas, 
+- reações alérgicas como erupção cutânea, urticária, comichão e vermelhidão da pele.
+Pouco frequentes (podem afetar até 1 em 100 pessoas):
+Efeitos indesejáveis visuais incluem: 
+- inflamação e hemorragia na parte da frente do olho, 
+- acumulação de pus no olho, 
+- alterações da parte central da superfície do olho, 
+- dor ou irritação no local de injeção, 
+- sensação estranha no olho, 
+- irritação das pálpebras.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento.
+44</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ximluci"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ximluci"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>-
+Manter este medicamento fora da vista e do alcance das crianças.
+-
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no
+rótulo do frasco para injetáveis, após EXP. O prazo de validade corresponde ao último dia do 
+mês indicado.
+-
+Conservar no frigorífico (2°C - 8°C). Não congelar.
+-
+Antes de utilizar, o frasco para injetáveis fechado pode ser mantido à temperatura ambiente 
+(25ºC) até 48 horas.
+-
+Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz.
+-
+Não utilize qualquer embalagem que esteja danificada.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Ximluci</h2>
+<p>A substância ativa é o ranibizumab. Cada ml contém 10 mg de ranibizumab. Cada frasco para 
+injetáveis contém 2,3 mg de ranibizumab em 0,23 ml de solução. Este fornece uma quantidade 
+utilizável para administrar uma dose única de 0,05 ml contendo 0,5 mg de ranibizumab.
+-
+Os outros componentes são trehalose di-hidratada; cloridrato de histidina, monohidratado; 
+histidina; polissorbato 20; água para preparações injetáveis.
+Qual o aspeto de Ximluci e conteúdo da embalagem
+Ximluci é uma solução injetável aquosa, límpida a ligeiramente opalescente, incolor a ligeiramente 
+acastanhada num frasco para injetáveis (0,23 ml).
+Estão disponíveis dois tipos diferentes de embalagens:
+Embalagem contendo apenas frasco para injetáveis
+Embalagem contendo um frasco para injetáveis, de vidro, com uma rolha de borracha bromobutílica. 
+O frasco para injetáveis destina-se apenas a uma utilização única.
+Embalagem com frasco para injetáveis + agulha com filtro
+Embalagem contendo um frasco para injetáveis, de vidro, com uma rolha de borracha bromobutílica e 
+uma agulha romba estéril com filtro de 5 µm (18G x 1½″, 1,2 mm x 40 mm), para retirada do 
+conteúdo do frasco para injetáveis. Todos os componentes se destinam apenas a uma utilização única.
+Titular da Autorização de Introdução no Mercado e Fabricante
+STADA Arzneimittel AG
+Stadastrasse 2-18
+61118 Bad Vilbel
+Alemanha
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+EG (Eurogenerics) NV
+Tél/Tel: + 32 4797878
+Lietuva
+UAB „STADA Baltics“
+Tel: + 370 52603926
+България
+STADA Bulgaria EOOD
+Teл.: + 359 29624626
+Luxembourg/Luxemburg
+EG (Eurogenerics) NV
+Tél/Tel: + 32 4797878
+45
+Česká republika
+STADA PHARMA CZ s.r.o.
+Tel: + 420 257888111
+Magyarország
+STADA Hungary Kft
+Tel.: + 36 18009747
+Danmark
+STADA Nordic ApS
+Tlf: + 45 44859999
+Malta
+Pharma MT Ltd
+Tel: + 356 21337008
+Deutschland
+STADAPHARM GmbH
+Tel: + 49 61016030
+Nederland
+Centrafarm B.V.
+Tel.: + 31 76508100
+Eesti
+UAB „STADA Baltics“
+Tel: + 370 52603926
+Norge
+STADA Nordic ApS
+Tlf: + 45 44859999
+Ελλάδα
+RAFARM A.E.B.E.
+Τηλ: +30 2106776550
+Österreich
+STADA Arzneimittel GmbH
+Tel: + 43 136785850
+España
+Laboratorio STADA, S.L.
+Tel: + 34 934738889
+Polska
+STADA Poland Sp. z.o o.
+Tel: + 48 227377920
+France
+EG LABO - Laboratoires EuroGenerics
+Tél: + 33 146948686
+Portugal
+Stada, Lda.
+Tel: + 351 211209870
+Hrvatska
+STADA d.o.o.
+Tel: + 385 13764111
+România
+STADA M&amp;D SRL
+Tel: + 40 213160640
+Ireland
+Clonmel Healthcare Ltd.
+Tel: + 353 526177777
+Slovenija
+Stada d.o.o.
+Tel: + 386 15896710
+Ísland
+STADA Arzneimittel AG
+Sími: + 49 61016030
+Slovenská republika
+STADA PHARMA Slovakia, s.r.o.
+Tel: + 421 252621933
+Italia
+EG SpA
+Tel: + 39 028310371
+Suomi/Finland
+STADA Nordic ApS, Suomen sivuliike
+Puh/Tel: + 358 207416888
+Κύπρος
+STADA Arzneimittel AG
+Τηλ: +30 2106664667
+Sverige
+STADA Nordic ApS
+Tel: + 45 44859999
+Latvija
+UAB „STADA Baltics“
+Tel: + 370 52603926
+United Kingdom (Northern Ireland)
+STADA Arzneimittel AG
+Tel: +49 61016030
+Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1063,6 +1471,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-11587ff1554abe28faf73fc5e54ae7a8"
 * entry[0].resource = composition-da-11587ff1554abe28faf73fc5e54ae7a8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp11587ff1554abe28faf73fc5e54ae7a8"
+* entry[=].resource = mp11587ff1554abe28faf73fc5e54ae7a8
+                            
+                    
+Instance: bundlepackageleaflet-pt-11587ff1554abe28faf73fc5e54ae7a8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ximluci Package Leaflet for language pt"
+Description: "ePI document Bundle for ximluci Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-11587ff1554abe28faf73fc5e54ae7a8"
+* entry[0].resource = composition-pt-11587ff1554abe28faf73fc5e54ae7a8
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp11587ff1554abe28faf73fc5e54ae7a8"
@@ -1164,6 +1594,18 @@ RuleSet: 11587ff1554abe28faf73fc5e54ae7a8ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-11587ff1554abe28faf73fc5e54ae7a8) // ximluci pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

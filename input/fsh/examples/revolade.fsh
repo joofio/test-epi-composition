@@ -2098,6 +2098,1371 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-f34ab6116c3c4c0c8f28f2de9888b61e
+InstanceOf: CompositionUvEpi
+Title: "Composition for revolade Package Leaflet"
+Description:  "Composition for revolade Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf34ab6116c3c4c0c8f28f2de9888b61e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - revolade"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Revolade e para que é utilizado 
+2. O que precisa de saber antes de tomar Revolade 
+3. Como tomar Revolade 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Revolade 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é revolade e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é revolade e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Revolade contém eltrombopag, que pertence a um grupo de medicamentos denominados agonistas dos 
+recetores da trombopoietina. É utilizado para ajudar a aumentar o número de plaquetas no sangue. As 
+plaquetas são células do sangue que ajudam a diminuir ou prevenir hemorragias. </p>
+<ul>
+<li>Revolade é usado no tratamento de uma doença hemorrágica chamada trombocitopenia imune 
+(primária) (PTI), em doentes com 1 ano de idade ou mais após tratamento sem efeito com outros 
+medicamentos (corticosteroides ou imunoglobulinas). </li>
+</ul>
+<p>A PTI é causada por um baixo número de plaquetas (trombocitopenia). As pessoas com PTI têm 
+um risco aumentado de hemorragia. Os sintomas que os doentes com PTI podem sentir incluem 
+petéquias (pequenos pontos vermelhos na pele), formação de nódoas negras, sangramento 
+(hemorragias) do nariz e das gengivas, dificuldade em parar uma hemorragia no caso de corte 
+ou lesão. </p>
+<ul>
+<li>
+<p>Revolade também pode ser utilizado para tratar a contagem de plaquetas baixas 
+(trombocitopenia) em adultos com infeções do vírus da hepatite C (VHC), se tiverem tido 
+problemas com efeitos indesejáveis durante o tratamento baseado na utilização de interferão. 
+Muitos doentes com hepatite C podem ter contagens de plaquetas mais baixas, não apenas como 
+resultado da doença, mas também devido a alguns medicamentos antivirais que são utilizados 
+para a tratar. Tomar Revolade pode tornar-lhe mais fácil completar um ciclo completo de 
+medicamento antiviral (peginterferão e ribavirina). </p>
+</li>
+<li>
+<p>Revolade pode também ser utilizado para tratar doentes adultos com contagens sanguíneas 
+baixas consequentes da anemia aplástica grave (AAG). A AAG é uma doença em que a medula 
+óassea é danificada, provocando uma redução de glóbulos vermelhos (anemia), glóbulos 
+brancos (leucopenia) e plaquetas (trombocitopenia). </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar revolade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar revolade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Revolade </p>
+<ul>
+<li>se tem alergia ao eltrombopag ou a qualquer outro componente deste medicamento (indicados 
+na secção 6 ‘Qual a composição de Revolade’). 
+➔ 
+Consulte o seu médico se achar que isto se pode aplicar a si. </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico antes de tomar Revolade: </p>
+<ul>
+<li>
+<p>se tem problemas do fígado. As pessoas com contagem de plaquetas baixas bem como doença 
+hepática crónica (de longa duração) avançada, têm maior risco de efeitos indesejáveis, incluindo 
+danos do fígado com risco de vida e coágulos sanguíneos. Se o seu médico considerar que os 
+benefícios de tomar Revolade são superiores aos riscos, será monitorizado de perto durante o 
+tratamento. </p>
+</li>
+<li>
+<p>se tem risco de formação de coágulos sanguíneos nas artérias ou veias, ou se tiver 
+conhecimento que a formação de coágulos sanguíneos é comum na sua família. 
+Poderá ter um risco aumentado de coágulos sanguíneos: </p>
+</li>
+<li>há medida que vai ficando mais velho </li>
+<li>se está acamado há algum tempo </li>
+<li>se tem cancro </li>
+<li>se está a tomar a pílula contracetiva ou a fazer terapia hormonal de substituição </li>
+<li>se foi recentemente submetido a cirurgia ou sofreu um dano físico </li>
+<li>se tem excesso de peso (obesidade) </li>
+<li>se é fumador </li>
+<li>
+<p>se tem doença do fígado crónica avançada 
+➔ 
+Se algum destes casos se aplicar a si, consulte o seu médico antes de iniciar o tratamento. 
+Não deve tomar Revolade a não ser que o seu médico considere que os benefícios 
+esperados superem o risco de coágulos sanguíneos. </p>
+</li>
+<li>
+<p>se tem cataratas (turvação da lente do olho) </p>
+</li>
+<li>
+<p>se tem outra doença sanguínea, como síndrome mielodisplásica (SMD). O seu médico irá 
+realizar testes para verificar se tem esta doença sanguínea antes de iniciar Revolade. Se tem 
+SMD e tomar Revolade, a sua SMD poderá piorar. 
+➔ 
+Informe o seu médico se alguma destas situações se aplica a si. </p>
+</li>
+</ul>
+<p>Exames aos olhos 
+O seu médico irá recomendar-lhe que faça testes de pesquisa às cataratas. Se não fizer exames oculares 
+de rotina o seu médico irá providenciar testes regulares. Poderá também verificar-se a ocorrência de 
+uma hemorragia na ou à volta da retina (a camada das células sensível à luz que se localiza na parte de 
+trás do olho). </p>
+<p>Irá necessitar de análises regulares 
+Antes de começar a tomar Revolade o seu médico irá pedir-lhe análises ao sangue para contagem das 
+células sanguíneas incluindo as plaquetas. Estas análises serão repetidas a intervalos regulares durante 
+o tratamento com Revolade. </p>
+<p>Análises sanguíneas para a função hepática 
+Revolade poderá provocar resultados de análises sanguíneas que podem mostrar sinais de lesão do 
+fígado — um aumento de algumas enzimas hepáticas, especialmente a bilirrubina e alanina /aspartato 
+transaminase. Se está a tomar tratamentos baseados na utilização de interferão em conjunto com 
+Revolade para tratar a contagem de plaquetas baixa devido a hepatite C (VHC), alguns problemas do 
+fígado podem piorar. </p>
+<p>Antes de começar a tomar Revolade serão realizados testes à sua função hepática, e estes serão 
+repetidos a intervalos regulares durante o tratamento com Revolade. Poderá ter de parar o tratamento 
+com Revolade se as substâncias aumentarem demasiado, ou se tiver outros sinais de lesão no fígado. 
+➔ 
+Leia a informação “Problemas de fígado" na secção 4 deste folheto. </p>
+<p>Análises sanguíneas para a contagem de plaquetas 
+Se parar de tomar Revolade, é provável que a sua contagem de plaquetas no sangue baixe novamente 
+dentro de alguns dias. A contagem de plaquetas será vigiada e o seu médico irá discutir consigo as 
+devidas precauções a tomar. </p>
+<p>Um nível muito alto de plaquetas no sangue pode aumentar o risco de formação de coágulos 
+sanguíneos. No entanto, estes podem também formar-se com um valor normal ou mesmo baixo de 
+plaquetas. O seu médico ajustará a dose de Revolade para garantir que a sua contagem de plaquetas 
+não se torna demasiado elevada. </p>
+<p>Procure ajuda médica imediatamente se tiver algum destes sinais de formação de um coágulo 
+sanguíneo: </p>
+<ul>
+<li>
+<p>inchaço, dor ou sensibilidade numa perna </p>
+</li>
+<li>
+<p>falta de ar súbita especialmente acompanhada de uma dor forte no peito ou respiração 
+acelerada </p>
+</li>
+<li>
+<p>dor abdominal (no estômago), abdómen dilatado, sangue nas suas fezes </p>
+</li>
+</ul>
+<p>Análises para verificar a sua medula óssea 
+Em pessoas que têm problemas com a sua medula óssea, medicamentos como o Revolade poderão 
+agravar estes problemas. Os sinais de alterações na medula óssea poderão aparecer como resultados 
+alterados nas suas análises sanguíneas. O seu médico poderá pedir-lhe que realize análises à medula 
+óssea durante o tratamento com Revolade. </p>
+<p>Verificações do aparecimento de hemorragia digestiva 
+Se está a tomar tratamentos baseados na utilização de interferão em conjunto com Revolade, irá ser 
+monitorizado para quaisquer sinais de hemorragia no estômago ou intestino após parar de tomar 
+Revolade. </p>
+<p>Monitorização do coração 
+O seu médico pode considerar necessário monitorizar o seu coração durante o tratamento com 
+Revolade e realizar um eletrocardiograma (ECG). </p>
+<p>Pessoas idosas (65 anos de idade ou mais) 
+Existem dados limitados acerca do uso de Revolade em doentes com 65 anos ou mais. Deve tomar-se 
+precaução quando usar Revolade se tiver 65 anos de idade ou mais. </p>
+<p>Crianças e adolescentes 
+Revolade não é recomendado em crianças com menos de 1 ano de idade com PTI. Também não é 
+recomendado em pessoas com menos de 18 anos com contagens baixas de plaquetas devidas a hepatite 
+C ou anemia apásica grave. </p>
+<p>Outros medicamentos e Revolade 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Inclui medicamentos obtidos sem prescrição e vitaminas. </p>
+<p>Alguns medicamentos interagem com Revolade - incluindo medicamentos sujeitos e não- sujeitos a 
+receita médica e minerais. Estes incluem: </p>
+<ul>
+<li>
+<p>medicamentos antiácidos para tratar a indigestão, azia ou úlceras no estômago (ver também 
+“Quando tomar Revolade" na secção 3) </p>
+</li>
+<li>
+<p>medicamentos chamados estatinas, para reduzir o colesterol </p>
+</li>
+<li>
+<p>alguns medicamentos para tratar a infeção por VIH, como lopinavir e/ou ritonavir </p>
+</li>
+<li>
+<p>ciclosporina utilizada em contexto de transplante ou doenças imunes </p>
+</li>
+<li>
+<p>minerais como o ferro, cálcio, magnésio, alumínio, selénio e zinco que podem estar incluídos 
+em suplementos vitamínicos e minerais (ver também “Quando tomar Revolade"na 
+secção 3) </p>
+</li>
+<li>
+<p>medicamentos como o metotrexato e o topotecano, para tratar o cancro 
+➔ 
+Informe o seu médico se tomar algum destes medicamentos. Alguns não deverão ser tomados 
+com Revolade ou poderá ser necessário um ajuste de dose ou alterar a hora a que os toma. O seu 
+médico irá rever a medicação que estiver a tomar e sugerir a sua substituição se necessário. </p>
+</li>
+</ul>
+<p>Se também está a tomar medicamentos para impedir a formação de coágulos sanguíneos existe um 
+risco maior de hemorragia. O seu médico conversará sobre isto consigo. </p>
+<p>Se estiver a tomar corticosteroides, danazol e/ou azatioprina, pode necessitar tomar uma dose mais 
+baixa ou parar de os tomar enquanto está a tomar Revolade. </p>
+<p>Revolade com alimentos e bebidas 
+Não tome Revolade com lacticínios uma vez que o cálcio nos lacticínios afeta a absorção do 
+medicamento. Para mais informações, consulte “Como tomar Revolade" na secção 3.<br />
+Gravidez e amamentação 
+Não utilize Revolade se estiver grávida, a menos que tal seja recomendado pelo seu médico. O efeito 
+de Revolade na gravidez não é conhecido. </p>
+<ul>
+<li>
+<p>Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de 
+tomar este medicamento. </p>
+</li>
+<li>
+<p>Utilize um método contracetivo eficaz durante o tratamento com Revolade para prevenir a 
+gravidez </p>
+</li>
+<li>
+<p>Se engravidar durante o tratamento com Revolade, informe o seu médico. </p>
+</li>
+</ul>
+<p>Não amamente enquanto estiver a tomar Revolade. Não se sabe se Revolade é excretado no leite 
+humano. 
+➔ 
+Se estiver a amamentar ou a planear amamentar informe o seu médico. </p>
+<p>Condução de veículos e utilização de máquinas 
+Revolade pode fazê-lo sentir-se tonto e pode ter outros efeitos indesejáveis que podem fazer com 
+que fique menos alerta. 
+➔ 
+Não conduza ou utilize máquinas a não ser que tenha a certeza que não é afetado. </p>
+<p>Revolade contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar revolade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar revolade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. Não altere a dose ou horário da toma de Revolade a menos que o seu 
+médico ou farmacêutico o aconselhe a alterar. Enquanto está a tomar Revolade, irá estar sob o cuidado 
+de um médico com experiência no tratamento desta doença. </p>
+<p>Quanto tomar 
+Para PTI 
+Adultos e crianças (6 a 17 anos) - a dose inicial habitual para doentes com PTI é um comprimido de 
+50 mg de Revolade uma vez por dia. Se tem origem no Leste/Sudeste da Ásia poderá necessitar iniciar 
+com uma dose menor de 25 mg. </p>
+<p>Crianças (1 a 5 anos) — a dose inicial habitual para PTI é um comprimido de 25 mg de Revolade 
+uma vez por dia. </p>
+<p>Para hepatite C 
+Adultos - a dose inicial habitual para hepatite C é um comprimido de 25 mg de Revolade uma vez 
+por dia. Se tem origem no Leste/Sudeste da Ásia irá iniciar com a mesma dose de 25 mg. </p>
+<p>Para AAG 
+Adultos - a dose inicial habitual para AAG é um comprimido de 50 mg de Revolade uma vez por 
+dia. Se tem origemno Leste/Sudeste da Ásia poderá ter necessidade de iniciar com a dose mais baixa 
+de 25 mg. </p>
+<p>Revolade pode levar 1 a 2 semanas a fazer efeito. Com base na sua resposta a Revolade o seu médico 
+poderá recomendar -lhe uma alteração da dose diária. </p>
+<p>Como tomar os comprimidos 
+Engula o comprimido inteiro com água. </p>
+<p>Quando tomar </p>
+<p>Assegure-se que - </p>
+<ul>
+<li>
+<p>nas 4 horas antes de tomar Revolade </p>
+</li>
+<li>
+<p>e nas 2 horas após tomar Revolade </p>
+</li>
+</ul>
+<p>não consome nenhum dos seguintes produtos: </p>
+<ul>
+<li>
+<p>lacticínios como queijo, manteiga, iogurte ou gelado </p>
+</li>
+<li>
+<p>leite ou batidos de leite, bebidas contendo leite, iogurte ou natas </p>
+</li>
+<li>
+<p>antiácidos, um tipo de medicamentos para a indigestão e azia </p>
+</li>
+<li>
+<p>alguns suplementos vitamínicos ou minerais incluindo ferro, cálcio, magnésio, alumínio, 
+selénio e zinco </p>
+</li>
+</ul>
+<p>Se tomar, o medicamento não será devidamente absorvido. </p>
+<p>Para mais conselhos acerca de alimentos e bebidas adequados, consulte o seu médico. </p>
+<p>Se tomar mais Revolade do que deveria 
+Contacte um médico ou farmacêutico imediatamente. Se possível, mostre-lhes a embalagem ou 
+este folheto. 
+Será monitorizado quanto a sinais ou sintomas de efeitos indesejáveis e ser-lhe-á administrado 
+imediatamente tratamento apropriado. 
+Tome Revolade 
+NÃO tome lacticínios, 
+antiácidos ou suplementos 
+minerais 
+Durante 
+4 horas 
+antes de 
+tomar 
+Revolade... 
+    ...  e durante 
+2 horas após </p>
+<p>Caso se tenha esquecido de tomar Revolade 
+Tome a dose seguinte à hora habitual. Não tome mais do que uma dose de Revolade num dia. </p>
+<p>Se parar de tomar Revolade 
+Não pare de tomar Revolade sem falar com o seu médico. Caso o seu médico lhe recomende que pare 
+o tratamento a sua contagem de plaquetas será avaliada semanalmente nas 4 semanas seguintes. Ver 
+também “Hemorragia ou nódoas negras após paragem do tratamento" na secção 4.<br />
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Sintomas que necessitam de atenção: consulte um médico 
+Doentes a tomar Revolade para a PTI ou para baixas contagens de plaquetas devidas a hepatite C 
+podem desenvolver sinais de efeitos indesejáveis potencialmente graves. É importante que informe 
+um médico se desenvolver estes sintomas. </p>
+<p>Risco mais elevado de coágulos sanguíneos 
+Certos doentes podem ter um risco mais elevado de coágulos sanguíneos e medicamentos como 
+Revolade podem fazer com que este problema piore. O bloqueio súbito de um vaso sanguíneo por um 
+coágulo de sangue é um efeito secundário pouco frequente e pode afetar até 1 em 100 pessoas. </p>
+<p>Procure ajuda médica imediatamente se desenvolver sinais e sintomas de um coágulo 
+sanguíneo, como: </p>
+<ul>
+<li>
+<p>inchaço, dor, calor, vermelhidão ou sensibilidade numa perna </p>
+</li>
+<li>
+<p>falta de ar súbita especialmente acompanhada de uma dor forte no peito ou respiração 
+acelerada </p>
+</li>
+<li>
+<p>dor abdominal (no estômago), abdómen dilatado, sangue nas suas fezes </p>
+</li>
+</ul>
+<p>Problemas de fígado 
+Revolade pode causar alterações que aparecem nas análises ao sangue e que podem ser sinais de dano 
+no fígado. Problemas hepáticos (aumento das enzimas nas análises ao sangue) são frequentes e podem 
+afetar até 1 em 10 pessoas. Outros problemas de fígado são pouco frequentes e podem afectar até 1 em 
+100 pessoas. </p>
+<p>Se tiver quaisquer destes sinais de problemas no fígado: </p>
+<ul>
+<li>
+<p>amarelecimento da pele ou da parte branca dos olhos (icterícia) </p>
+</li>
+<li>
+<p>urina de cor escura pouco habitual 
+➔ 
+informe imediatamente o seu médico. </p>
+</li>
+</ul>
+<p>Hemorragia ou nódoas negras após paragem do tratamento 
+Nas duas semanas seguintes à paragem do tratamento com Revolade o seu valor de contagem de 
+plaquetas irá regressar ao valor que tinha antes de iniciar o tratamento. O valor de contagem de 
+plaquetas mais baixo poderá aumentar o risco de hemorragia ou de nódoas negras. O seu médico irá 
+avaliar o valor da sua contagem de plaquetas nas 4 semanas seguintes à paragem do tratamento com 
+Revolade. 
+➔ 
+Informe o seu médico se tiver nódoas negras ou hemorragias depois de parar de tomar 
+Revolade. </p>
+<p>Alguns doentes têm hemorragia no sistema digestivo após pararem de tomar peginterferão, 
+ribavirina e Revolade. Os sintomas incluem: </p>
+<ul>
+<li>
+<p>fezes negras semelhantes a alcatrão (Tal pode ser um sinal de hemorragia GI, evacuações com 
+cor alterada são um efeito lateral pouco frequente que pode afectar até 1 em 100 pessoas) </p>
+</li>
+<li>
+<p>sangue nas suas fezes </p>
+</li>
+<li>
+<p>vomitar sangue ou um material que se assemelha a grãos de café 
+➔ 
+Informe o seu médico imediatamente se tiver algum destes sintomas. </p>
+</li>
+</ul>
+<p>Os seguintes efeitos indesejáveis foram notificados como estando associados ao tratamento com 
+Revolade em adultos com PTI </p>
+<p>Efeitos indesejáveis muito frequentes 
+Estes podem afetar mais de 1 em 10 pessoas: </p>
+<ul>
+<li>
+<p>constipação vulgar </p>
+</li>
+<li>
+<p>má-disposição (náuseas), </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>infeção do nariz, dos seios perinasais, da garganta e das vias aéreas superiores (infeção do trato 
+respiratório superior) </p>
+</li>
+<li>
+<p>dor de costas </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito frequentes que podem aparecer nas análises sanguíneas: 
+Estes podem afetar mais de 1 em 10 pessoas: </p>
+<ul>
+<li>aumento das enzimas hepáticas (alanina aminotransferase (ALT)) </li>
+</ul>
+<p>Efeitos indesejáveis frequentes 
+Estes podem afetar até 1 em 10 pessoas: </p>
+<ul>
+<li>
+<p>dor muscular, espasmo nos músculos, fraqueza muscular </p>
+</li>
+<li>
+<p>dor óssea </p>
+</li>
+<li>
+<p>período menstrual intenso </p>
+</li>
+<li>
+<p>garganta irritada e desconforto ao engolir  </p>
+</li>
+<li>
+<p>problemas nos olhos incluindo exame ocular anormal. olho seco, dor nos olhos e comichão nos 
+olhos </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>gripe (influenza) </p>
+</li>
+<li>
+<p>herpes oral </p>
+</li>
+<li>
+<p>pneumonia </p>
+</li>
+<li>
+<p>seios perinasais irritados e inflamados (inchados) </p>
+</li>
+<li>
+<p>inflamação (inchaço) e infeção das amígdalas </p>
+</li>
+<li>
+<p>infeção dos pulmões, dos seios perinasais, do nariz e da garganta </p>
+</li>
+<li>
+<p>inflamação das gengivas </p>
+</li>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>sensação de formigueiro, queimadura ou adormecimento, geralmente chamado de sensação de 
+picadas de agulha </p>
+</li>
+<li>
+<p>sensibilidade da pele diminuída </p>
+</li>
+<li>
+<p>sonolência </p>
+</li>
+<li>
+<p>dor nos ouvidos </p>
+</li>
+<li>
+<p>dor, inchaço e sensibilidade numa das suas pernas (geralmente nos gémeos) com pele quente na 
+zona afetada (sinais de um coágulo sanguíneo numa veia profunda) </p>
+</li>
+<li>
+<p>inchaço localizado com sangue de uma rutura num vaso sanguíneo (hematoma) </p>
+</li>
+<li>
+<p>afrontamentos </p>
+</li>
+<li>
+<p>problemas na boca, incluindo boca seca, boca dorida, língua sensível, hemorragia das gengivas, 
+úlceras na boca </p>
+</li>
+<li>
+<p>corrimento nasal </p>
+</li>
+<li>
+<p>dor de dentes </p>
+</li>
+<li>
+<p>dor abdominal </p>
+</li>
+<li>
+<p>função anormal do fígado </p>
+</li>
+<li>
+<p>alterações da pele incluindo, transpiração excessiva, erupção na pele irregular e com comichão, 
+alterações na aparência da pele </p>
+</li>
+<li>
+<p>perda de cabelo </p>
+</li>
+<li>
+<p>urina espumosa ou com bolhas (sinais da presença de proteínas na urina) </p>
+</li>
+<li>
+<p>temperatura corporal alta, sensação de calor </p>
+</li>
+<li>
+<p>dor no peito </p>
+</li>
+<li>
+<p>sensação de fraqueza </p>
+</li>
+<li>
+<p>dificuldade em dormir, depressão </p>
+</li>
+<li>
+<p>enxaqueca </p>
+</li>
+<li>
+<p>visão diminuída </p>
+</li>
+<li>
+<p>sensação de tontura (vertigem) </p>
+</li>
+<li>
+<p>gases intestinais </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes que podem aparecer nas análises sanguíneas: </p>
+<ul>
+<li>
+<p>diminuição do número de glóbulos vermelhos (anemia) </p>
+</li>
+<li>
+<p>diminuição do número de plaquetas (trombocitopenia) </p>
+</li>
+<li>
+<p>diminuição do número de glóbulos brancos </p>
+</li>
+<li>
+<p>diminuição do nível de hemoglobina </p>
+</li>
+<li>
+<p>aumento do nível de eosinófilos </p>
+</li>
+<li>
+<p>aumento do número de glóbulos brancos (leucocitose) </p>
+</li>
+<li>
+<p>aumento do nível de ácido úrico,  </p>
+</li>
+<li>
+<p>aumento do nível de potássio </p>
+</li>
+<li>
+<p>aumento do nível de creatinina </p>
+</li>
+<li>
+<p>aumento do nível de fosfatase alcalina </p>
+</li>
+<li>
+<p>aumento do nível de enzimas hepáticas (aspartato aminotransferase (AST)) </p>
+</li>
+<li>
+<p>aumento do nível de bilirrubina no sangue (uma substância produzida pelo fígado) </p>
+</li>
+<li>
+<p>aumento dos níveis de algumas proteínas </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes 
+Estes podem afetar até 1 em 100 pessoas: </p>
+<ul>
+<li>
+<p>reação alérgica </p>
+</li>
+<li>
+<p>interrupção do fornecimento de sangue a uma parte do coração </p>
+</li>
+<li>
+<p>falta de ar súbita, especialmente quando acompanhada de uma forte dor no peito e/ou respiração 
+acelerada, que pode ser um sinal de um coágulo sanguíneo nos pulmões(ver “Risco mais 
+elevado de coágulos sanguíneos" mais acima na secção 4) </p>
+</li>
+<li>
+<p>perda de função de parte do pulmão causada por um bloqueio na artéria pulmonar </p>
+</li>
+<li>
+<p>possível dor, inchaço e/ou vermelhidão ao redor de uma veia que podem ser sinais de um 
+coágulo numa veia </p>
+</li>
+<li>
+<p>amarelecimento da pele e/ou dor abdominal que podem ser sinais de um bloqueio no trato biliar, 
+lesão do fígado, lesão no fígado devido a inflamação (ver “Problemas de fígado" mais acima na 
+secção 4) </p>
+</li>
+<li>
+<p>lesão no fígado devido a medicação </p>
+</li>
+<li>
+<p>batimentos cardíacos acelerados, batimentos cardíacos irregulares, coloração azulada da pele, 
+alterações do ritmo cardíaco (prolongamento do intervalo QT) que podem ser sinais de uma 
+alteração relacionada com o coração e os vasos sanguíneos. </p>
+</li>
+<li>
+<p>coágulo sanguíneo </p>
+</li>
+<li>
+<p>rubor </p>
+</li>
+<li>
+<p>articulações inchadas e com dor causado pelo ácido úrico (gota) </p>
+</li>
+<li>
+<p>apatia, alterações de humor, chorar sem conseguir parar ou que ocorre em momentos 
+inesperados </p>
+</li>
+<li>
+<p>problemas de equilíbrio, discurso e função nervosa, tremor </p>
+</li>
+<li>
+<p>sensações dolorosas ou anormais na pele </p>
+</li>
+<li>
+<p>paralisia de um lado do corpo </p>
+</li>
+<li>
+<p>enxaqueca com aura </p>
+</li>
+<li>
+<p>danos num nervo </p>
+</li>
+<li>
+<p>dilatação ou inchaço dos vasos sanguíneos que causam dor de cabeça </p>
+</li>
+<li>
+<p>problemas nos olhos, incluindo elevada produção de lágrimas, turvação da lente do olho 
+(cataratas), hemorragia da retina, olhos secos </p>
+</li>
+<li>
+<p>problemas com o nariz, garganta e seios perinasais, problemas respiratórios durante o sono </p>
+</li>
+<li>
+<p>vesículas ou feridas na boca e na garganta </p>
+</li>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>problemas digestivos incluindo evacuações frequentes, intoxicações alimentares, sangue nas 
+fezes, vómito com sangue </p>
+</li>
+<li>
+<p>hemorragia retal, alteração da cor das fezes, inchaço abdominal, obstipação </p>
+</li>
+<li>
+<p>problemas na boca, incluindo boca seca ou dorida, dor na língua, hemorragia das gengivas, 
+desconforto na boca </p>
+</li>
+<li>
+<p>queimadura solar </p>
+</li>
+<li>
+<p>sensação de calor, sensação de ansiedade </p>
+</li>
+<li>
+<p>vermelhidão da pele ou inchaço à volta de uma ferida </p>
+</li>
+<li>
+<p>hemorragia à volta de um cateter (se existente) subcutâneo </p>
+</li>
+<li>
+<p>sensação de corpo estranho </p>
+</li>
+<li>
+<p>problemas nos rins incluindo inflamação dos rins, urinar excessivamente durante a noite, 
+insuficiência renal, glóbulos brancos na urina </p>
+</li>
+<li>
+<p>suores frios </p>
+</li>
+<li>
+<p>mal-estar geral </p>
+</li>
+<li>
+<p>infeção da pele </p>
+</li>
+<li>
+<p>alterações na pele, incluindo descoloração da pele, descamação, vermelhidão, comichão e 
+transpiração </p>
+</li>
+<li>
+<p>fraqueza muscular </p>
+</li>
+<li>
+<p>cancro do reto e do cólon </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes que podem observar-se nas análises ao sangue </p>
+<ul>
+<li>
+<p>alterações na forma dos glóbulos vermelhos </p>
+</li>
+<li>
+<p>presença de glóbulos brancos em desenvolvimento que pode ser indicativo de certas doenças </p>
+</li>
+<li>
+<p>aumento do número de plaquetas </p>
+</li>
+<li>
+<p>diminuição dos níveis de cálcio </p>
+</li>
+<li>
+<p>diminuição do número de glóbulos vermelhos (anemia) devido a uma destruição excessiva de 
+glóbulos vermelhos (anemia hemolítica) </p>
+</li>
+<li>
+<p>aumento do número de mielócitos </p>
+</li>
+<li>
+<p>aumento do número de neutrófilos em banda </p>
+</li>
+<li>
+<p>aumento do nível de ureia no sangue </p>
+</li>
+<li>
+<p>aumento do nível de proteína na urina </p>
+</li>
+<li>
+<p>aumento do nível de albumina no sangue </p>
+</li>
+<li>
+<p>aumento do nível de proteínas totais no sangue </p>
+</li>
+<li>
+<p>diminuição do nível de albumina no sangue </p>
+</li>
+<li>
+<p>pH da urina aumentado </p>
+</li>
+<li>
+<p>aumento do nível de hemoglobina </p>
+</li>
+</ul>
+<p>Os seguintes efeitos indesejáveis foram notificados como estando associados ao tratamento com 
+Revolade em crianças (idade 1 e 17 anos) com PTI: 
+Se estes efeitos indesejáveis se tornarem graves, por favor informe o seu médico, farmacêutico ou 
+enfermeiro. </p>
+<p>Efeitos indesejáveis muito frequentes 
+Estes podem afetar mais do que 1 em 10 crianças: </p>
+<ul>
+<li>
+<p>infeção do nariz, dos seios perinasais, da garganta e das vias aéreas superiores, constipação 
+vulgar (infeção do trato respiratório superior) </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>dor abdominal </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>temperatura alta </p>
+</li>
+<li>
+<p>má-disposição (náuseas) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes 
+Estes podem afetar até 1 em 10 crianças: </p>
+<ul>
+<li>
+<p>dificuldade em adormecer (insónia) </p>
+</li>
+<li>
+<p>dor de dentes </p>
+</li>
+<li>
+<p>dor no nariz e na garganta </p>
+</li>
+<li>
+<p>comichão no nariz, corrimento nasal ou nariz entupido </p>
+</li>
+<li>
+<p>dor de ganganta, corrimento nasal, congestão nasal e espirros </p>
+</li>
+<li>
+<p>problemas na boca, incluindo boca seca, dor de ganganta, língua sensível, hemorragia das 
+gengivas, úlceras na boca </p>
+</li>
+</ul>
+<p>Os seguintes efeitos indesejáveis foram notificados como estando associados ao tratamento com 
+Revolade em associação com peginterferão e ribavirina em doentes com VHC: </p>
+<p>Efeitos indesejáveis muito frequentes 
+Estes podem afetar mais de 1 em 10 pessoas: </p>
+<ul>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>má-disposição (náuseas), diarreia </p>
+</li>
+<li>
+<p>dor muscular, fraqueza muscular </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>sensação de cansaço </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>perda de cabelo não habitual </p>
+</li>
+<li>
+<p>sensação de fraqueza </p>
+</li>
+<li>
+<p>estado tipo gripal </p>
+</li>
+<li>
+<p>inchaço das mãos ou dos pés </p>
+</li>
+<li>
+<p>arrepios </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito frequentes que podem aparecer nas análises sanguíneas: </p>
+<ul>
+<li>diminuição do número de glóbulos vermelhos (anemia) </li>
+</ul>
+<p>Efeitos indesejáveis frequentes 
+Estes podem afetar até 1 em 10 pessoas: </p>
+<ul>
+<li>
+<p>infeção do sistema urinário </p>
+</li>
+<li>
+<p>inflamação das passagens nasais, garganta e boca, sintomas gripais, boca seca, boca dorida ou 
+inflamada ou feridas da boca, dor de doentes </p>
+</li>
+<li>
+<p>perda de peso </p>
+</li>
+<li>
+<p>perturbação do sono, sonolência anormal, depressão, ansiedade </p>
+</li>
+<li>
+<p>tonturas, problemas com a atenção e a memória, alteração de humor </p>
+</li>
+<li>
+<p>diminuição da função cerebral após lesão hepática </p>
+</li>
+<li>
+<p>formigueiro ou adormecimento nas mãos ou pés </p>
+</li>
+<li>
+<p>febre, dor de cabeça </p>
+</li>
+<li>
+<p>problemas nos olhos, incluindo turvação da lente do olho (cataratas), olhos secos, pequenos 
+depósitos amarelos na retina, amarelecimento do branco dos olhos </p>
+</li>
+<li>
+<p>hemorragia na retina </p>
+</li>
+<li>
+<p>sensação de andar à roda (vertigens) </p>
+</li>
+<li>
+<p>pulsação rápida e irregular (palpitações), falta de ar </p>
+</li>
+<li>
+<p>tosse com muco, corrimento nasal, gripe (influenza), garganta irritada e desconforto ao engolir </p>
+</li>
+<li>
+<p>problemas do sistema digestivo, incluindo vómitos, dor de estômago, indigestão, obstipação, 
+estômago inchado, alterações do paladar, hemorroidas, dor/desconforto de estômago, vasos 
+sanguíneos inchados e hemorragia da garganta (esófago) </p>
+</li>
+<li>
+<p>dor de dentes </p>
+</li>
+<li>
+<p>problemas no fígado, incluindo tumor no fígado, amarelecimento do branco do olho ou da pele 
+(icterícia), lesão no fígado devido a medicação (ver ‘Problemas de fígado’ acima na secção 4) </p>
+</li>
+<li>
+<p>alterações na pele, incluindo erupção na pele, pele seca, eczema, vermelhidão da pele, 
+comichão, transpiração excessiva, excrescências cutâneas pouco habituais, queda de cabelo </p>
+</li>
+<li>
+<p>dor nas articulações, dores nas costas, dores nos ossos, dores nas extremidades (braços, pernas, 
+mãos ou nos pés), espasmos musculares </p>
+</li>
+<li>
+<p>irritabilidade, sensação de mal-estar generalizada, reações da pele tais como vermelhidão ou 
+inchaço e dor no local da injeção, dor e desconforto no peito, aumento de líquidos no corpo ou 
+nas extremidades que provocam inchaço </p>
+</li>
+<li>
+<p>infeção do nariz, dos seios perinasais, da garganta e das vias aéreas superiores, constipação 
+vulgar (infeção do trato respiratório superior), inflamação da membrana mucosa que reveste os 
+brônquios </p>
+</li>
+<li>
+<p>depressão, ansiedade, perturbação do sono, nervosismo </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes que podem aparecer nas análises sanguíneas: </p>
+<ul>
+<li>
+<p>aumento do açúcar no sangue (glucose) </p>
+</li>
+<li>
+<p>diminuição do número de glóbulos brancos </p>
+</li>
+<li>
+<p>diminuição do número de neutrófilos </p>
+</li>
+<li>
+<p>diminuição do nível de albumina no sangue </p>
+</li>
+<li>
+<p>diminuição do nível de hemoglobina </p>
+</li>
+<li>
+<p>aumento da bilirrubina (substância produzida pelo fígado) </p>
+</li>
+<li>
+<p>alterações nas enzimas que controlam a coagulação do sangue </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes 
+Estes podem afetar até 1 em 100 pessoas: </p>
+<ul>
+<li>
+<p>dor ao urinar </p>
+</li>
+<li>
+<p>distúrbios do ritmo cardíaco (prolongamento do intervalo QT) </p>
+</li>
+<li>
+<p>infeção no estômago (gastroenterite), dor de garganta </p>
+</li>
+<li>
+<p>vesículas/feridas na boca, inflamação do estômago </p>
+</li>
+<li>
+<p>alterações na pele, incluindo alteração da cor, descamação, vermelhidão, comichão, lesão e 
+suores noturnos </p>
+</li>
+<li>
+<p>coágulos sanguíneos numa veia para o fígado (possível lesão do fígado e/ou do sistema 
+digestivo) </p>
+</li>
+<li>
+<p>coagulação sanguínea anormal em pequenos vasos sanguíneos com insuficiência renal </p>
+</li>
+<li>
+<p>erupção cutânea e nódoa negra no local da injecção, desconforto no peito </p>
+</li>
+<li>
+<p>diminuição do número de glóbulos vermelhos (anemia) devido a uma destruição excessiva de 
+glóbulos vermelhos (anemia hemolítica) </p>
+</li>
+<li>
+<p>confusão, agitação </p>
+</li>
+<li>
+<p>insuficiência hepática </p>
+</li>
+</ul>
+<p>Os seguintes efeitos indesejáveis foram notificados como estando associados ao tratamento com 
+Revolade em doentes com anemia aplástica grave (AAG): 
+Se estes efeitos indesejáveis se tornarem graves, por favor informe o seu médico, farmacêutico ou 
+enfermeiro. </p>
+<p>Efeitos indesejáveis muito frequentes 
+Podem afetar mais de 1 em cada 10 pessoas. </p>
+<ul>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>dor na boca e na garganta </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>sensação de enjoo (náuseas) </p>
+</li>
+<li>
+<p>dor nas articulações (artralgia) </p>
+</li>
+<li>
+<p>dor nas extremidades (braços, pernas, mãos e pés) </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>sensação de muito cansaço </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>arrepios </p>
+</li>
+<li>
+<p>comichão nos olhos </p>
+</li>
+<li>
+<p>vesículas na boca </p>
+</li>
+<li>
+<p>hemorragia das gengivas </p>
+</li>
+<li>
+<p>dor abdominal </p>
+</li>
+<li>
+<p>espasmos musculares </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito frequentes que podem observar-se nas análises sanguíneas </p>
+<ul>
+<li>
+<p>alterações anormais nas células da medula óssea </p>
+</li>
+<li>
+<p>aumento do nível de enzimas hepáticas (aspartato aminotransferase (AST)) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes 
+Podem afetar até 1 em cada 10 pessoas. </p>
+<ul>
+<li>
+<p>ansiedade </p>
+</li>
+<li>
+<p>depressão </p>
+</li>
+<li>
+<p>sensação de frio </p>
+</li>
+<li>
+<p>mal-estar geral </p>
+</li>
+<li>
+<p>problemas nos olhos incluindo problemas de visão, visão turva e menos clara, cristalino turvo 
+(catarata), manchas ou depósitos no olho (flocos vítreos), olho seco, comichão nos olhos, 
+amarelecimento do branco do olho ou da pele </p>
+</li>
+<li>
+<p>hemorragia nasal </p>
+</li>
+<li>
+<p>distúrbios do sistema digestivo incluindo dificuldade em engolir, dor na boca, língua inchada, 
+vómitos, perda de apetite, dor/desconforto de estômago, inchaço do estômago, gases, 
+obstipação, alterações da motilidade intestinal que pode provocar obstipação, distensão 
+abdominal, diarreia e/ou sintomas acima mencionados, alteração da cor das fezes </p>
+</li>
+<li>
+<p>desmaio </p>
+</li>
+<li>
+<p>problemas da pele incluindo pequenos pontos vermelhos ou roxos provocados por hemorragia 
+da pele (petéquias), erupção na pele, comichão, urticária, lesão da pele </p>
+</li>
+<li>
+<p>dor nas costas </p>
+</li>
+<li>
+<p>dor muscular </p>
+</li>
+<li>
+<p>dor nos ossos </p>
+</li>
+<li>
+<p>fraqueza (astenia) </p>
+</li>
+<li>
+<p>inchaço dos tecidosnos membros inferiores, devido a acumulação de líquidos </p>
+</li>
+<li>
+<p>coloração anormal da urina </p>
+</li>
+<li>
+<p>interrupção da irrigação de sangue ao baço (enfarte esplénico) </p>
+</li>
+<li>
+<p>corrimento nasal </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes que podem observar-se nas análises ao sangue </p>
+<ul>
+<li>
+<p>aumento das enzimas devido a degradação muscular (creatinina fosfoquinase) </p>
+</li>
+<li>
+<p>acumulação de ferro no organismo (sobrecarga de ferro) </p>
+</li>
+<li>
+<p>diminuição do nível de açúcar (hipoglicemia) </p>
+</li>
+<li>
+<p>aumento da bilirrubina no sangue (uma substância produzida pelo fígado) </p>
+</li>
+<li>
+<p>diminuição do número de glóbulos brancos </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis com frequência desconhecida 
+A frequência não pode ser estimada a partir dos dados disponíveis </p>
+<ul>
+<li>
+<p>descoloração da pele </p>
+</li>
+<li>
+<p>escurecimento da pele </p>
+</li>
+<li>
+<p>lesão do fígado devido a medicação </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar revolade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar revolade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Revolade 
+A substância ativa no Revolade é eltrombopag. </p>
+<p>12,5 mg comprimidos revestidos por película 
+Cada comprimido revestido por película contém eltrombopag olamina equivalente a 12,5 mg de 
+eltrombopag. </p>
+<p>25 mg comprimidos revestidos por película 
+Cada comprimido revestido por película contém eltrombopag olamina equivalente a 25 mg de 
+eltrombopag. </p>
+<p>50 mg comprimidos revestidos por película 
+Cada comprimido revestido por película contém eltrombopag olamina equivalente a 50 mg de 
+eltrombopag. </p>
+<p>75 mg comprimidos revestidos por película 
+Cada comprimido revestido por película contém eltrombopag olamina equivalente a 75 mg de 
+eltrombopag. </p>
+<p>Os outros componentes são: hipromelose, macrogol 400, estearato de magnésio, manitol (E421), 
+celulose microcristalina, povidona (K30), carboximetilamido sódico Tipo A, dióxido de titânio 
+(E171). </p>
+<p>Revolade 12,5 mg e 25 mg comprimidos revestidos por película também contêm polissorbato (E433). </p>
+<p>Revolade 50 mg comprimidos revestidos por película também contém óxido de ferro vermelho (E172) 
+e óxido de ferro amarelo (E172). </p>
+<p>Revolade 75 mg comprimidos revestidos por película também contém óxido de ferro vermelho (E172) 
+e óxido de ferro negro (E172). </p>
+<p>Qual o aspeto de Revolade e conteúdo da embalagem 
+Os comprimidos revestidos por película de Revolade 12,5 mg são redondos, biconvexos, brancos, com 
+gravação ‘GS MZ1’ e ’12,5’ numa face. </p>
+<p>Os comprimidos revestidos por película de Revolade 25 mg são redondos, biconvexos, brancos, com 
+gravação ‘GS NX3’ e ‘25’ numa face. </p>
+<p>Os comprimidos revestidos por película de Revolade 50 mg são redondos, biconvexos, castanhos, com 
+gravação ‘GS UFU’ e ‘50’ numa face. </p>
+<p>Os comprimidos revestidos por película de Revolade 75 mg são redondos, biconvexos, cor-de-rosa, 
+com gravação ‘GS FFS’ e ‘75’ numa face. </p>
+<p>São disponibilizados em blisters de alumínio em embalagens contendo 14 ou 28 comprimidos 
+revestidos por película e embalagens múltiplas contendo 84 (3 embalagens de 28) comprimidos 
+revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular de Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Lek d.d 
+Verovskova Ulica Ljubljana 1Eslovénia </p>
+<p>Novartis Pharmaceutical Manufacturing LLC 
+Verovskova Ulica Ljubljana 1Eslovénia </p>
+<p>Novartis Farmacéutica SA 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Espanha </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse D-90429 Nuremberga 
+Alemanha </p>
+<p>Glaxo Wellcome S.A. 
+Avenida de Extremadura, 3 
+09400 Aranda de Duero 
+Burgos 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+ SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em. 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -2139,6 +3504,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-f34ab6116c3c4c0c8f28f2de9888b61e"
 * entry[0].resource = composition-da-f34ab6116c3c4c0c8f28f2de9888b61e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf34ab6116c3c4c0c8f28f2de9888b61e"
+* entry[=].resource = mpf34ab6116c3c4c0c8f28f2de9888b61e
+                            
+                    
+Instance: bundlepackageleaflet-pt-f34ab6116c3c4c0c8f28f2de9888b61e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for revolade Package Leaflet for language pt"
+Description: "ePI document Bundle for revolade Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-f34ab6116c3c4c0c8f28f2de9888b61e"
+* entry[0].resource = composition-pt-f34ab6116c3c4c0c8f28f2de9888b61e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpf34ab6116c3c4c0c8f28f2de9888b61e"
@@ -2240,6 +3627,18 @@ RuleSet: f34ab6116c3c4c0c8f28f2de9888b61eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-f34ab6116c3c4c0c8f28f2de9888b61e) // revolade pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

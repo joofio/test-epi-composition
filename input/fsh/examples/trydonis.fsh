@@ -1463,6 +1463,861 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-8c380d27bbc2d53daf7f5dedc85cca7a
+InstanceOf: CompositionUvEpi
+Title: "Composition for trydonis Package Leaflet"
+Description:  "Composition for trydonis Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8c380d27bbc2d53daf7f5dedc85cca7a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - trydonis"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Trydonis e para que é utilizado 
+2. O que precisa de saber antes de utilizar Trydonis 
+3. Como utilizar Trydonis 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Trydonis 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é trydonis e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é trydonis e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trydonis é um medicamento para ajudar a respirar que contém as três substâncias ativas: </p>
+<ul>
+<li>
+<p>dipropionato de beclometasona,  </p>
+</li>
+<li>
+<p>fumarato de formoterol di-hidratado e  </p>
+</li>
+<li>
+<p>glicopirrónio.  </p>
+</li>
+</ul>
+<p>O dipropionato de beclometasona pertence a um grupo de medicamentos chamados corticosteroides, 
+os quais atuam de modo a reduzir o inchaço e a irritação nos seus pulmões. </p>
+<p>O formoterol e o glicopirrónio são medicamentos chamados broncodilatadores de ação prolongada. 
+Atuam de modos diferentes para relaxar os músculos nas suas vias respiratórias, ajudando a abrir mais 
+as vias respiratórias e permitindo-lhe respirar mais facilmente. </p>
+<p>O tratamento regular com estas três substâncias ativas ajuda a aliviar e prevenir os sintomas como falta 
+de ar, pieira e tosse em doentes adultos com doença pulmonar obstrutiva crónica (DPOC). Trydonis 
+pode reduzir as exacerbações (surtos) dos sintomas de DPOC. A DPOC é uma doença grave, de longa 
+duração, na qual as vias respiratórias ficam bloqueadas e os sacos de ar nos pulmões ficam 
+danificados, levando a dificuldade ao respirar. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar trydonis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar trydonis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Trydonis </p>
+<p>Se tem alergia ao dipropionato de beclometasona, fumarato de formoterol di-hidratado e/ou 
+glicopirrónio ou a qualquer outro componente deste medicamento (indicados na secção 6). </p>
+<p>Advertências e precauções </p>
+<p>Trydonis é utilizado como tratamento de manutenção da sua doença pulmonar obstrutiva. Não utilize 
+este medicamento para tratar uma crise súbita de falta de ar ou de pieira. </p>
+<p>Se a sua respiração piorar </p>
+<p>Se desenvolver um agravamento da falta de ar ou da pieira (respiração com um som sibilante) logo 
+após inalar o seu medicamento, pare de utilizar o inalador de Trydonis e utilize de imediato o seu 
+inalador de “alívio" de ação rápida. Deve contactar imediatamente o seu médico. O seu médico 
+avaliará os seus sintomas e, se necessário, pode iniciar um tratamento diferente.<br />
+Ver também a secção 4. Efeitos indesejáveis possíveis. </p>
+<p>Se a sua doença pulmonar piorar </p>
+<p>Se os seus sintomas piorarem ou se forem difíceis de controlar (por exemplo, se estiver a utilizar com 
+mais frequência um inalador de “alívio" separado) ou se o seu inalador de “alívio" não melhorar os 
+seus sintomas, consulte imediatamente o seu médico. A sua doença pulmonar pode estar a piorar e o 
+seu médico pode ter necessidade de lhe receitar um tratamento diferente. </p>
+<p>Fale com o seu médico ou farmacêutico antes de utilizar Trydonis: </p>
+<ul>
+<li>
+<p>se tem quaisquer problemas de coração, como angina (dor no coração, dor no peito), um ataque 
+recente de coração (enfarte do miocárdio), insuficiência cardíaca, aperto das artérias do seu 
+coração (doença coronária cardíaca), doença das suas válvulas cardíacas ou quaisquer outras 
+anomalias do seu coração, ou se tem uma doença conhecida por miocardiopatia hipertrófica 
+obstrutiva (também conhecida por MCHO, uma doença na qual o músculo do coração é 
+anormal).  </p>
+</li>
+<li>
+<p>se tem perturbações do ritmo do seu coração como uma frequência cardíaca irregular, uma 
+pulsação rápida ou palpitações, ou se foi informado que o traçado do seu coração (ECG) é 
+anormal. </p>
+</li>
+<li>
+<p>se tem um aperto das artérias (também conhecido por arteriosclerose), se tem tensão arterial alta 
+ou se tem um aneurisma (uma dilatação anormal da parede de um vaso sanguíneo). </p>
+</li>
+<li>
+<p>se tem uma glândula tiroide muito ativa. </p>
+</li>
+<li>
+<p>se tem níveis baixos de potássio no sangue (hipocaliemia). A associação de Trydonis com 
+outros medicamentos para a DPOC ou medicamentos tais como diuréticos (medicamentos que 
+fazem com que o corpo perca água para tratar uma doença do coração ou a tensão arterial alta) 
+pode causar uma queda brusca do nível de potássio no sangue. Portanto, o seu médico pode 
+querer medir periodicamente os níveis de potássio no seu sangue. </p>
+</li>
+<li>
+<p>se tem qualquer doença do fígado ou rins. </p>
+</li>
+<li>
+<p>se tem diabetes. Doses elevadas de formoterol podem aumentar o seu nível de glucose no 
+sangue e, portanto, poderá ser necessário efetuar mais algumas análises ao sangue para verificar 
+o açúcar no seu sangue quando começar a utilizar este medicamento e, periodicamente, durante 
+o tratamento. </p>
+</li>
+<li>
+<p>se tem um tumor da glândula suprarrenal (conhecido por feocromocitoma).  </p>
+</li>
+<li>
+<p>se lhe vai ser administrado um anestésico. Dependendo do tipo de anestésico, pode ser 
+necessário parar de utilizar Trydonis pelo menos 12 horas antes da anestesia. </p>
+</li>
+<li>
+<p>se está a ser tratado, ou se já tiver sido tratado para a tuberculose (TB) ou se tem uma infeção no 
+peito. </p>
+</li>
+<li>
+<p>se tem um problema nos olhos chamado glaucoma de ângulo fechado. </p>
+</li>
+<li>
+<p>se tem dificuldade em urinar.  </p>
+</li>
+<li>
+<p>se tem uma infeção na boca ou na garganta. </p>
+</li>
+</ul>
+<p>Se qualquer uma das situações acima se aplicar a si, informe sempre o seu médico antes de utilizar 
+Trydonis.<br />
+Se tem ou já teve problemas médicos ou quaisquer alergias ou se tiver dúvidas se pode utilizar 
+Trydonis, fale com o seu médico ou farmacêutico antes de utilizar o inalador.  </p>
+<p>Se já estiver a utilizar Trydonis </p>
+<p>Se estiver a utilizar Trydonis ou doses elevadas de outros corticosteroides inalados durante períodos 
+prolongados e estiver numa situação de stress (por exemplo, ser levado para um hospital após um 
+acidente, ter uma lesão grave ou antes de uma operação), pode ter necessidade de receber mais deste 
+medicamento. Numa situação como esta, o seu médico pode ter de aumentar a sua dose de 
+corticosteroides para lidar com o stress e pode ter de os prescrever na forma de comprimidos ou 
+injeções. 
+Contacte o seu médico se apresentar visão turva ou outras perturbações visuais. </p>
+<p>Crianças e adolescentes 
+Não dê este medicamento a crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Trydonis 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. Estes incluem medicamentos semelhantes a Trydonis utilizados para 
+tratar a sua doença pulmonar.  </p>
+<p>Alguns medicamentos podem potenciar os efeitos de Trydonis e o seu médico poderá querer 
+monitorizá-lo cuidadosamente se estiver a tomar estes medicamentos (incluindo alguns medicamentos 
+utilizados para tratar as infeções por VIH: ritonavir, cobicistato). </p>
+<p>Não utilize este medicamento com um medicamento bloqueador beta (utilizado para tratar certos 
+problemas de coração tais como a angina ou para baixar a tensão arterial) a menos que o seu médico 
+tenha escolhido um bloqueador beta que não afeta a sua respiração. Os bloqueadores beta (incluindo 
+os bloqueadores beta em gotas para os olhos) podem reduzir os efeitos do formoterol ou podem fazer 
+com que não tenha qualquer ação. Por outro lado, a utilização de outros medicamentos agonistas dos 
+recetores beta2 (que atuam da mesma maneira que o formoterol) pode aumentar os efeitos do 
+formoterol. </p>
+<p>Utilização de Trydonis juntamente com: </p>
+<ul>
+<li>medicamentos para tratar </li>
+<li>ritmos anormais do coração (quinidina, disopiramida, procainamida), </li>
+<li>reações alérgicas (anti-histamínicos), </li>
+<li>
+<p>sintomas de depressão ou perturbações mentais como os inibidores da monoamina oxidase 
+(por exemplo, fenelzina e isocarboxazid), antidepressivos tricíclicos (por exemplo, 
+amitriptilina e imipramina), as fenotiazinas<br />
+podem causar algumas alterações no eletrocardiograma (ECG, traçado do coração). Podem 
+também aumentar o risco de perturbações do ritmo cardíaco (arritmias ventriculares). </p>
+</li>
+<li>
+<p>medicamentos para tratar a doença de Parkinson (levodopa), para tratar uma glândula tiroide 
+hipoativa (levotiroxina), medicamentos que contenham oxitocina (que causa contrações 
+uterinas) e álcool que podem aumentar a possibilidade de ocorrerem efeitos indesejáveis com o 
+formoterol no coração. </p>
+</li>
+<li>
+<p>inibidores da monoamina oxidase (IMAOs), incluindo medicamentos com propriedades 
+semelhantes como a furazolidona e a procarbazina, utilizados para tratar perturbações mentais, 
+podem causar o aumento da tensão arterial. </p>
+</li>
+<li>
+<p>medicamentos para tratar uma doença cardíaca (digoxina) podem causar uma diminuição do seu 
+nível de potássio no sangue. Esta diminuição pode aumentar a probabilidade de ritmos anormais 
+do coração. </p>
+</li>
+<li>
+<p>outros medicamentos utilizados para tratar a DPOC (teofilina, aminofilina ou corticosteroides) e 
+os diuréticos podem também causar uma diminuição do seu nível de potássio.  </p>
+</li>
+<li>
+<p>alguns anestésicos podem aumentar o risco de ritmos anormais do coração. </p>
+</li>
+<li>
+<p>o dissulfiram, um medicamento utilizado no tratamento de pessoas com problemas de 
+alcoolismo ou o metronidazol, um antibiótico para tratar infeções no seu corpo podem causar 
+efeitos indesejáveis (por exemplo, sentir-se enjoado, vomitar, ter dores de estômago) devido a 
+uma pequena quantidade de álcool presente em Trydonis. </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de utilizar este medicamento. </p>
+<p>Só deve utilizar Trydonis durante a gravidez se for aconselhada a fazê-lo pelo seu médico. É preferível 
+evitar a utilização de Trydonis durante o parto devido aos efeitos inibidores do formoterol nas 
+contrações uterinas. 
+Não deve utilizar Trydonis durante a amamentação. Você e o seu médico têm de tomar uma decisão 
+sobre a descontinuação da amamentação ou a descontinuação/abstenção da terapêutica com Trydonis 
+tendo em conta o benefício da amamentação para a sua criança e o benefício da terapêutica para si. </p>
+<p>Condução de veículos e utilização de máquinas 
+É improvável que Trydonis tenha efeitos sobre a sua capacidade de conduzir ou utilizar máquinas. </p>
+<p>Trydonis contém etanol 
+Trydonis contém 8,856 mg de álcool (etanol) em cada atuação, que é equivalente a 17,712 mg por 
+cada dose de duas atuações. A quantidade em duas atuações deste medicamento é equivalente a menos 
+de 1 ml de vinho ou cerveja. A pequena quantidade de álcool neste medicamento não terá quaisquer 
+efeitos percetíveis. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar trydonis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar trydonis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.  </p>
+<p>A dose recomendada é de duas inalações de manhã e duas inalações à noite. </p>
+<p>Se sentir que o medicamento não é muito eficaz, informe o seu médico. 
+Se utilizou antes um inalador diferente contendo dipropionato de beclometasona, consulte o seu 
+médico, visto que a dose eficaz de dipropionato de beclometasona em Trydonis para o tratamento da 
+DPOC pode ser menor do que a de alguns outros inaladores. </p>
+<p>Via de administração 
+Trydonis é para utilização por via inalatória. 
+Deve inalar o medicamento através da boca e isto levará o medicamento diretamente para os seus 
+pulmões. </p>
+<p>Este medicamento é acondicionado num recipiente pressurizado num inalador de plástico com um 
+aplicador bucal.  </p>
+<p>Trydonis está disponível em três apresentações: </p>
+<ul>
+<li>
+<p>um recipiente que fornece 60 inalações </p>
+</li>
+<li>
+<p>um recipiente que fornece 120 inalações </p>
+</li>
+<li>
+<p>um recipiente que fornece 180 inalações. </p>
+</li>
+</ul>
+<p>Se lhe foi prescrito um recipiente que fornece 60 inalações ou 120 inalações 
+Existe um contador na parte de trás do inalador, que lhe indica o número de doses que restam. Sempre 
+que pressionar o recipiente pressurizado, é libertada uma inalação de medicamento e o contador 
+diminui uma unidade. Tome cuidado para não deixar cair o inalador porque isto pode causar uma 
+contagem a menos pelo contador. </p>
+<p>Se lhe foi prescrito um recipiente que fornece 180 inalações 
+Existe um indicador na parte de trás do inalador, que lhe indica o número de doses que restam. Sempre 
+que pressionar o recipiente pressurizado, é libertada uma inalação de medicamento e o indicador de 
+doses rodará um pouco. O número de inalações que restam é apresentado em intervalos de 20. Tome 
+cuidado para não deixar cair o inalador porque isto pode causar uma contagem a menos pelo 
+indicador. </p>
+<p>Como testar o seu inalador<br />
+Antes de utilizar o inalador pela primeira vez, deve testá-lo para se certificar de que está a funcionar 
+corretamente, como se segue:<br />
+1. Dependendo da apresentação que lhe foi prescrita, verifique se o contador de doses indica 61 ou 
+121 e se o indicador da dose indica 2. Retire a cápsula de fecho de proteção do aplicador bucal 
+3. Segure no seu inalador na vertical com o aplicador bucal para baixo<br />
+4. Dirija o aplicador bucal para longe de si e pressione firmemente o recipiente pressurizado para 
+libertar uma inalação 
+5. Verifique o contador de doses ou o indicador de doses. Se estiver a testar o seu inalador pela 
+primeira vez, o contador deve indicar: </p>
+<ul>
+<li>quando utilizar o recipiente 
+que fornece 60 inalações </li>
+<li>quando utilizar o recipiente 
+que fornece 120 inalações </li>
+<li>quando utilizar o recipiente 
+que fornece 180 inalações </li>
+</ul>
+<p>Indicador 
+de doses 
+Contador 
+de doses 
+Contador 
+de doses </p>
+<p>Como utilizar o seu inalador 
+Fique de pé ou sente-se direito durante a inalação. 
+IMPORTANTE: Não efetue os passos 2 a 5 com demasiada rapidez. </p>
+<ol>
+<li>Retire a cápsula de fecho de proteção do aplicador bucal e verifique se este está limpo e não está 
+sujo ou com pó. </li>
+<li>Expire lentamente e o mais completamente possível, a fim de esvaziar os seus pulmões. </li>
+<li>Segure o inalador na vertical com o aplicador bucal em baixo e coloque o aplicador bucal entre 
+os seus dentes sem o morder. Depois coloque os lábios à volta do aplicador bucal, mantendo a 
+língua na horizontal por baixo deste. </li>
+<li>Inspire lenta e profundamente pela boca para encher os seus pulmões de ar (isto deve demorar 
+cerca de 4-5 segundos). Logo após ter começado a inspirar, prima firmemente o topo do 
+recipiente pressurizado para libertar uma inalação.  </li>
+<li>Sustenha a respiração durante o máximo de tempo possível e, finalmente, retire o inalador da 
+boca e expire lentamente. Não expire para dentro do inalador. </li>
+<li>Verifique se o contador de doses (60/120 inalações) descontou uma dose ou se o indicador de 
+doses (180 inalações) rodou um pouco. </li>
+</ol>
+<p>Para uma segunda inalação, mantenha o inalador na vertical durante cerca de meio minuto, depois 
+repita os passos 2 a 5.<br />
+Se vir uma “névoa" a sair do topo do inalador ou dos lados da boca, isto indica que Trydonis não 
+entrará nos seus pulmões como deveria. Faça nova inalação, seguindo as instruções e comece 
+novamente no passo 2.<br />
+Depois de utilizar, volte a colocar a cápsula de fecho de proteção. </p>
+<p>Para prevenir uma infeção por fungos na boca e garganta, lave a boca ou gargareje com água sem a 
+engolir ou escove os dentes depois de cada utilização do seu inalador. </p>
+<p>Quando deve obter novo inalador 
+Deve obter um inalador de substituição quando o contador ou o indicador apresentar o número 20. Pare de utilizar o inalador quando o contador ou o indicador apresentar 0, dado que qualquer 
+medicamento que reste no inalador pode não ser suficiente para dar uma inalação completa. </p>
+<p>Se tiver pouca força de preensão, poderá ser mais fácil segurar no inalador com as duas mãos: segure 
+na parte superior do inalador com os dois indicadores e na parte inferior com os dois polegares. </p>
+<p>Se achar que é difícil utilizar o inalador quando começa a inalar, pode utilizar o dispositivo de 
+espaçamento AeroChamber Plus. Consulte o seu médico ou farmacêutico sobre este dispositivo. 
+É importante que leia o folheto informativo que é fornecido com o seu dispositivo de espaçamento 
+AeroChamber Plus e que siga atentamente as instruções sobre como utilizar este dispositivo de 
+espaçamento e como limpá-lo. </p>
+<p>Limpeza do inalador Trydonis 
+Deve limpar o seu inalador uma vez por semana. 
+1. Não remova o recipiente pressurizado do inalador e não use água ou outros líquidos para limpar 
+o seu inalador. </p>
+<ol>
+<li>Retire a cápsula de fecho de proteção do aplicador bucal puxando-a do inalador. </li>
+<li>Limpe o interior e o exterior do aplicador bucal e o inalador com um pano ou toalhete de papel 
+seco e limpo. </li>
+<li>Torne a colocar a cápsula de fecho de proteção do aplicador bucal. </li>
+</ol>
+<p>Se utilizar mais Trydonis do que deveria 
+É importante que tome a sua dose como aconselhado pelo seu médico. Não exceda a dose prescrita 
+sem falar com o seu médico. 
+Se utilizar mais Trydonis do que deveria, poderão ocorrer efeitos indesejáveis como os que estão 
+descritos na secção 4. Informe o seu médico se tiver utilizado mais Trydonis do que deveria e se tiver qualquer um destes 
+sintomas. O seu médico poderá querer efetuar algumas análises ao sangue. </p>
+<p>Caso se tenha esquecido de utilizar Trydonis 
+Utilize-o assim que se lembrar. Se estiver quase na altura da sua dose seguinte, não tome a dose de que 
+se esqueceu, e tome a dose seguinte na altura correta. Não duplique a dose. </p>
+<p>Se parar de utilizar Trydonis 
+É importante que utilize Trydonis todos os dias. Não pare de tomar Trydonis nem diminua a dose, 
+mesmo que se sinta melhor ou não tenha sintomas. Se quiser fazê-lo, fale com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Existe um risco de agravamento da falta de ar e da pieira imediatamente depois de utilizar Trydonis, e 
+este agravamento é conhecido por broncospasmo paradoxal (pode afetar até 1 em cada 1.000 pessoas). 
+Se isto ocorrer, deve parar de utilizar Trydonis e utilize de imediato o seu inalador de “alívio" de ação 
+rápida para tratar a falta de ar e a pieira. Deve contactar imediatamente o seu médico. </p>
+<p>Informe imediatamente o seu médico </p>
+<ul>
+<li>
+<p>se tiver quaisquer reações alérgicas como alergias da pele, urticária, comichão na pele, erupção 
+na pele (podem afetar até 1 em cada 100 pessoas), vermelhidão da pele, inchaço da pele ou das 
+membranas mucosas, especialmente dos olhos, face, lábios e garganta (podem afetar até 1 em 
+cada 1.000 pessoas). </p>
+</li>
+<li>
+<p>se tiver dor ou desconforto nos olhos, turvação temporária da visão, halos visuais ou imagens 
+coloridas em associação com olhos vermelhos. Estes podem ser sinais de um ataque agudo de 
+glaucoma de ângulo fechado (pode afetar até 1 em cada 10.000 pessoas). </p>
+</li>
+</ul>
+<p>Informe o seu médico se tiver qualquer dos seguintes enquanto estiver a utilizar Trydonis, dado que 
+podem ser sintomas de uma infeção pulmonar (pode afetar até 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>febre ou arrepios </p>
+</li>
+<li>
+<p>aumento da produção de secreções, alteração da cor das secreções </p>
+</li>
+<li>
+<p>aumento da tosse ou aumento da dificuldade respiratória. </p>
+</li>
+</ul>
+<p>Os efeitos indesejáveis possíveis são indicados a seguir de acordo com a sua frequência.  </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>dores de garganta </p>
+</li>
+<li>
+<p>corrimento ou congestão nasal e espirros </p>
+</li>
+<li>
+<p>infeções por fungos da boca. Lavar a boca ou gargarejar com água e escovar os dentes 
+imediatamente após a inalação pode ajudar a evitar estes efeitos indesejáveis </p>
+</li>
+<li>
+<p>rouquidão </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>infeção das vias urinárias. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>gripe </p>
+</li>
+<li>
+<p>inflamação dos seios nasais </p>
+</li>
+<li>
+<p>comichão ou corrimento do nariz, ou nariz 
+tapado </p>
+</li>
+<li>
+<p>infeções por fungos da garganta ou do tubo 
+que liga a boca ao estômago </p>
+</li>
+<li>
+<p>infeções por fungos da vagina </p>
+</li>
+<li>
+<p>agitação </p>
+</li>
+<li>
+<p>tremores </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>sentido do paladar anormal ou reduzido </p>
+</li>
+<li>
+<p>dormência </p>
+</li>
+<li>
+<p>inflamação do ouvido </p>
+</li>
+<li>
+<p>batimento irregular do coração </p>
+</li>
+<li>
+<p>alterações no eletrocardiograma (traçado 
+do coração) </p>
+</li>
+<li>
+<p>batimento anormalmente rápido do 
+coração e perturbações do ritmo do 
+coração </p>
+</li>
+<li>
+<p>palpitações (sensação de batimento 
+anormal do coração) </p>
+</li>
+<li>
+<p>vermelhidão da face </p>
+</li>
+<li>
+<p>aumento do fluxo de sangue em alguns 
+tecidos do corpo </p>
+</li>
+<li>
+<p>ataque de asma </p>
+</li>
+<li>
+<p>tosse e tosse produtiva </p>
+</li>
+<li>
+<p>irritação da garganta </p>
+</li>
+<li>
+<p>sangrar do nariz </p>
+</li>
+<li>
+<p>vermelhidão da faringe </p>
+</li>
+<li>
+<p>boca seca </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>dificuldade em engolir </p>
+</li>
+<li>
+<p>enjoo </p>
+</li>
+<li>
+<p>mal-estar no estômago </p>
+</li>
+<li>
+<p>desconforto no estômago depois das 
+refeições </p>
+</li>
+<li>
+<p>sensação de ardor nos lábios </p>
+</li>
+<li>
+<p>cárie nos dentes </p>
+</li>
+<li>
+<p>erupção na pele, urticária, comichão na pele </p>
+</li>
+<li>
+<p>inflamação da membrana mucosa da boca 
+com ou sem úlceras </p>
+</li>
+<li>
+<p>aumento da transpiração </p>
+</li>
+<li>
+<p>cãibras musculares e dor nos músculos </p>
+</li>
+<li>
+<p>dor nos braços ou pernas </p>
+</li>
+<li>
+<p>dor nos músculos, ossos ou articulações do 
+peito </p>
+</li>
+<li>
+<p>cansaço </p>
+</li>
+<li>
+<p>aumento da tensão arterial </p>
+</li>
+<li>
+<p>diminuição do nível de alguns constituintes 
+do seu sangue: de certos glóbulos brancos 
+chamados granulócitos, de potássio ou de 
+cortisol </p>
+</li>
+<li>
+<p>aumento do nível de alguns constituintes no 
+seu sangue: glucose, proteína C reativa, 
+número de plaquetas, insulina, ácido gordo 
+livre ou cetonas. </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em cada 1.000 pessoas) </p>
+<ul>
+<li>
+<p>infeções por fungos no peito </p>
+</li>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>perturbações do sono (dormir muito pouco 
+ou durante muito tempo) </p>
+</li>
+<li>
+<p>dor opressiva no peito </p>
+</li>
+<li>
+<p>sensação de falha de um batimento do 
+coração ou de batimentos cardíacos extra, 
+batimento anormalmente lento do coração </p>
+</li>
+<li>
+<p>agravamento da asma </p>
+</li>
+<li>
+<p>saída de sangue de um vaso para os tecidos 
+que o envolvem </p>
+</li>
+<li>
+<p>diminuição da tensão arterial </p>
+</li>
+<li>
+<p>fraqueza </p>
+</li>
+<li>
+<p>dor na parte de trás da boca e na garganta </p>
+</li>
+<li>
+<p>inflamação da faringe </p>
+</li>
+<li>
+<p>garganta seca </p>
+</li>
+<li>
+<p>urinar com dor e frequentemente </p>
+</li>
+<li>
+<p>dificuldade e dor ao urinar </p>
+</li>
+<li>
+<p>inflamação dos rins. </p>
+</li>
+</ul>
+<p>Muito raros (podem afetar até 1 em cada 10.000 pessoas) </p>
+<ul>
+<li>
+<p>nível baixo do número de certas células do sangue chamadas plaquetas </p>
+</li>
+<li>
+<p>sensação de ficar sem fôlego ou de falta de ar </p>
+</li>
+<li>
+<p>inchaço das mãos e pés </p>
+</li>
+<li>
+<p>atraso do crescimento em crianças e adolescentes. </p>
+</li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>visão turva </li>
+</ul>
+<p>A utilização prolongada de corticosteroides inalados em alta dose pode causar, em casos muito 
+raros, efeitos no corpo: </p>
+<ul>
+<li>
+<p>problemas com a função das suas glândulas suprarrenais (supressão suprarrenal) </p>
+</li>
+<li>
+<p>diminuição da densidade mineral óssea (diminuição da espessura dos ossos) </p>
+</li>
+<li>
+<p>turvação do cristalino (catarata). </p>
+</li>
+</ul>
+<p>Trydonis não contém um corticosteroide inalado em dose alta, no entanto, o seu médico pode querer 
+medir periodicamente os níveis de cortisol no seu sangue. </p>
+<p>Os seguintes efeitos indesejáveis também podem ocorrer com corticosteroides inalados de alta dose 
+utilizados durante um período prolongado, mas presentemente a frequência não é conhecida (a 
+frequência não pode ser calculada a partir dos dados disponíveis): </p>
+<ul>
+<li>
+<p>depressão </p>
+</li>
+<li>
+<p>sensação de inquietação, nervosismo, demasiada excitação ou irritabilidade. 
+Existe uma maior probabilidade que estes acontecimentos ocorram em crianças. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar trydonis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar trydonis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado.  </p>
+<p>Não congelar. 
+Não expor a temperaturas superiores a 50°C. 
+Não perfurar o recipiente pressurizado. </p>
+<p>Antes da dispensa: 
+Conservar no frigorífico (2°C-8°C). </p>
+<p>Após a dispensa (receber este medicamento do seu farmacêutico): 
+Recipiente pressurizado de 60 atuações:<br />
+Conserve o inalador a uma temperatura inferior a 
+25°C durante um máximo de 2 meses. 
+Recipiente pressurizado de 120 (de uma<br />
+embalagem unitária ou múltipla) e 180 atuações:  Conserve o inalador a uma temperatura inferior a 
+25°C durante um máximo de 4 meses. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Trydonis 
+As substâncias ativas são o dipropionato de beclometasona, fumarato de formoterol di-hidratado e 
+glicopirrónio. </p>
+<p>Cada dose libertada (a dose que sai pelo aplicador bucal) contém 87 microgramas de dipropionato de 
+beclometasona, 5 microgramas de fumarato de formoterol di-hidratado e 9 microgramas de 
+glicopirrónio (na forma de 11 microgramas de brometo de glicopirrónio). </p>
+<p>Cada dose calibrada (a dose que sai pela válvula) contém 100 microgramas de dipropionato de 
+beclometasona, 6 microgramas fumarato de formoterol di-hidratado e 10 microgramas de glicopirrónio 
+(na forma de 12,5 microgramas de brometo de glicopirrónio). </p>
+<p>Os outros componentes são: etanol anidro (ver secção 2), ácido clorídrico; propulsor: norflurano. </p>
+<p>Qual o aspeto de Trydonis e conteúdo da embalagem 
+Trydonis é uma solução pressurizada para inalação. </p>
+<p>Trydonis é apresentado num recipiente pressurizado (revestido por alumínio), com válvula doseadora. 
+O recipiente pressurizado é inserido num inalador de plástico. Este incorpora um aplicador bucal com 
+uma cápsula de fecho de proteção de plástico, e com um contador de doses (recipientes com 60 ou 
+120 inalações) ou com um indicador de doses (recipientes com 180 inalações). </p>
+<p>Cada embalagem contém um recipiente pressurizado que fornece 60 inalações, 120 inalações ou 
+180 inalações. Além disso, existem embalagens múltiplas que contêm 240 inalações (2 recipientes 
+pressurizados com 120 inalações cada) ou 360 inalações (3 recipientes pressurizados com 
+120 inalações cada). </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Chiesi Farmaceutici S.p.A. 
+Via Palermo 26/A 
+43122 Parma 
+Itália </p>
+<p>Fabricante 
+Chiesi Farmaceutici S.p.A. 
+Via San Leonardo 43122 Parma 
+Itália </p>
+<p>Chiesi SAS 
+2 rue des Docteurs Alberto et Paolo Chiesi 
+41260 La Chaussée Saint Victor 
+França </p>
+<p>Chiesi Pharmaceuticals GmbH 
+Gonzagagasse 16/1010 Wien<br />
+Áustria </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Chiesi sa/nv<br />
+Tél/Tel: + 32 (0)2 788 42<br />
+Lietuva 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 </p>
+<p>България 
+Chiesi Bulgaria EOOD<br />
+Teл.: + 359 29201 
+Luxembourg/Luxemburg 
+Chiesi sa/nv<br />
+Tél/Tel: + 32 (0)2 788 42<br />
+Česká republika 
+Chiesi CZ s.r.o.<br />
+Tel: + 420 261221 
+Magyarország 
+Chiesi Hungary Kft.<br />
+Tel.: + 36-1-429 1 
+Danmark 
+Chiesi Pharma AB<br />
+Tlf: + 46 8 753 35<br />
+Malta 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 
+Deutschland 
+Chiesi GmbH<br />
+Tel: + 49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V.<br />
+Tel: + 31 88 50164<br />
+Eesti 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+Norge 
+Chiesi Pharma AB<br />
+Tlf: + 46 8 753 35<br />
+Ελλάδα 
+Chiesi Hellas AEBE<br />
+Τηλ: + 30 210 6179 
+Österreich 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+España 
+Laboratorios BIAL, S.A. 
+Tel: + 34 91 562 41 Polska 
+Chiesi Poland Sp. z.o.o.<br />
+Tel.: + 48 22 620 1 
+France 
+Chiesi S.A.S.<br />
+Tél: + 33 1 47688 
+Portugal 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 
+Hrvatska 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+România 
+Chiesi Romania S.R.L.<br />
+Tel: + 40 212023 
+Ireland 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 
+Slovenija 
+CHIESI SLOVENIJA, d.o.o. 
+Tel: + 386-1-43 00<br />
+Ísland 
+Chiesi Pharma AB<br />
+Sími: +46 8 753 35<br />
+Slovenská republika 
+Chiesi Slovakia s.r.o.<br />
+Tel: + 421 259300 
+Italia 
+Chiesi Italia S.p.A. 
+Tel: + 39 0521 2 
+Suomi/Finland 
+Chiesi Pharma AB<br />
+Puh/Tel: +46 8 753 35<br />
+Κύπρος 
+Chiesi Farmaceutici S.p.A.<br />
+Τηλ: + 39 0521 2 
+Sverige 
+Chiesi Pharma AB<br />
+Tel: +46 8 753 35<br />
+Latvija 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 </p>
+<p>Este folheto foi revisto pela última vez em. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1504,6 +2359,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8c380d27bbc2d53daf7f5dedc85cca7a"
 * entry[0].resource = composition-da-8c380d27bbc2d53daf7f5dedc85cca7a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8c380d27bbc2d53daf7f5dedc85cca7a"
+* entry[=].resource = mp8c380d27bbc2d53daf7f5dedc85cca7a
+                            
+                    
+Instance: bundlepackageleaflet-pt-8c380d27bbc2d53daf7f5dedc85cca7a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trydonis Package Leaflet for language pt"
+Description: "ePI document Bundle for trydonis Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8c380d27bbc2d53daf7f5dedc85cca7a"
+* entry[0].resource = composition-pt-8c380d27bbc2d53daf7f5dedc85cca7a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8c380d27bbc2d53daf7f5dedc85cca7a"
@@ -1605,6 +2482,18 @@ RuleSet: 8c380d27bbc2d53daf7f5dedc85cca7aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8c380d27bbc2d53daf7f5dedc85cca7a) // trydonis pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

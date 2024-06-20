@@ -893,6 +893,452 @@ hjemmeside http://www.ema.europa.eu.  </p>         </div>"""
 
 
 
+Instance: composition-pt-91532a0bac4066c0d200269dda7e0b3f
+InstanceOf: CompositionUvEpi
+Title: "Composition for vipdomet Package Leaflet"
+Description:  "Composition for vipdomet Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp91532a0bac4066c0d200269dda7e0b3f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - vipdomet"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Vipdomet e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Vipdomet </li>
+<li>Como tomar Vipdomet </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Vipdomet </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é vipdomet e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é vipdomet e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Vipdomet 
+Vipdomet contém dois medicamentos diferentes chamados alogliptina e metformina num comprimido: </p>
+<ul>
+<li>a alogliptina pertence a um grupo de medicamentos chamados inibidores da DPP-4 (inibidores 
+da dipeptidil peptidase-4). A alogliptina atua ao aumentar os níveis de insulina no corpo depois 
+de uma refeição e ao reduzir a quantidade de açúcar no organismo.  </li>
+<li>a metformina pertence a um grupo de medicamentos chamados biguanidas que também ajudam 
+a baixar o açúcar no sangue ao reduzir a quantidade de açúcar produzido no fígado e ao ajudar a 
+insulina a atuar mais eficazmente. </li>
+</ul>
+<p>Ambos os grupos de medicamentos são “antidiabéticos orais". </p>
+<p>Para que é utilizado Vipdomet<br />
+Vipdomet é utilizado para baixar os níveis de glicemia (açúcar no sangue) nos adultos com diabetes 
+tipo 2. A diabetes tipo 2 também é denominada por diabetes mellitus não insulino-dependente ou 
+DMNID. </p>
+<p>Vipdomet é tomado quando o açúcar no sangue não consegue ser controlado adequadamente pela 
+dieta, exercício físico ou outro medicamento antidiabético oral, como a metformina isolada, a insulina 
+isolada ou a metformina e a pioglitazona tomadas em conjunto.  </p>
+<p>Se já estiver a tomar alogliptina e metformina em comprimidos separados, Vipdomet pode 
+substituí-los num único comprimido. </p>
+<p>É importante que continue a seguir os conselhos sobre dieta e exercício físico que o seu enfermeiro ou 
+médico lhe deu. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar vipdomet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar vipdomet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Vipdomet 
+- se tem alergia à alogliptina, à metformina ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). 
+- se teve alguma reação alérgica grave a qualquer outro medicamento semelhante que tome para 
+controlar o nível de açúcar no sangue. Os sintomas de uma reação alérgica grave podem incluir: 
+erupção na pele, manchas vermelhas salientes na pele (urticária), inchaço do rosto, lábios, 
+língua e garganta que pode causar dificuldade em respirar ou engolir. Os sintomas adicionais 
+podem incluir comichão generalizada e sensação de calor, afetando especialmente a cabeça 
+(couro cabeludo), a boca, a garganta, as palmas das mãos e plantas dos pés (síndrome de 
+Stevens-Johnson). 
+- se tem função renal gravemente reduzida 
+- se tem diabetes não controlada, com, por exemplo, hiperglicemia grave (glicose elevada no 
+sangue), náuseas, vómitos, diarreia, rápida perda de peso, acidose láctica (ver “Risco de acidose 
+láctica" abaixo) ou cetoacidose. A cetoacidose é um problema que ocorre quando substâncias 
+chamadas “corpos cetónicos" se acumulam no sangue, podendo provocar pré-coma diabético. 
+Os sintomas incluem dor de estômago, respiração rápida e profunda, sonolência ou 
+aparecimento no hálito de um cheiro frutado invulgar 
+- se tem uma infeção grave ou está gravemente desidratado (perdeu muita água que estava no seu 
+corpo) 
+- se teve recentemente um ataque cardíaco ou problemas circulatórios graves, incluindo choque. 
+- se tem dificuldades respiratórias graves 
+- se tem uma doença de fígado 
+- se bebe demasiado álcool (quer seja todos os dias ou em grandes quantidades ocasionalmente). </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar Vipdomet: 
+- se tem diabetes tipo 1 (o seu organismo não produz insulina). 
+- se está a tomar Vipdomet com insulina ou uma tiazolidinediona. O seu médico poderá querer 
+reduzir a sua dose de insulina ou tiazolidinediona aquando da toma com Vipdomet, de modo a 
+evitar um nível demasiado baixo de açúcar no sangue (hipoglicemia). 
+- se está a tomar outro medicamento para a diabetes que contém uma “sulfonilureia", não deve 
+tomar Vipdomet. 
+- Se tem ou tiver tido uma doença do pâncreas. 
+- em caso de sintomas que sugiram lesão hepática durante a terapêutica com Vipdomet. </p>
+<p>Contacte o seu médico se tiver formação de bolhas na pele, pois pode ser um sinal de uma condição 
+que se designa por penfigoide bolhoso. O seu médico poderá dizer-lhe para deixar de tomar 
+alogliptina. </p>
+<p>Risco de acidose láctica 
+Vipdomet pode causar um efeito indesejável muito raro, mas muito grave, chamado acidose láctica, 
+particularmente se os seus rins não funcionam bem. O risco de sofrer acidose láctica aumenta também 
+em caso de diabetes não controlada, infeção grave, jejum prolongado ou consumo de álcool, 
+desidratação (ver mais informações abaixo), problemas de fígado, e quaisquer problemas médicos em 
+que uma zona do corpo receba menos oxigénio (como nas doenças graves e agudas do coração).<br />
+Se estiver em alguma destas situações, fale com o seu médico para que lhe dê mais indicações. </p>
+<p>Pare de tomar Vipdomet durante um curto intervalo de tempo se tiver algum problema que 
+possa estar associado a desidratação (grande perda de líquidos), tal como vómitos graves, diarreia, 
+febre, exposição ao calor ou se beber menos líquidos do que o normal. Fale com o seu médico para 
+que lhe dê mais indicações.  </p>
+<p>Pare de tomar Vipdomet e contacte imediatamente um médico ou o hospital mais próximo se 
+tiver um ou mais sintomas de acidose láctica, pois este problema pode levar ao coma.<br />
+A acidose láctica é uma emergência médica e tem de ser tratada no hospital. Em caso de suspeita de 
+acidose láctica, obtenha cuidados médicos de um médico ou hospital. 
+Os sintomas de acidose láctica incluem: 
+- vómitos 
+- dor de barriga (dor abdominal) 
+- cãibras musculares 
+- sensação de mal-estar geral, com grande cansaço 
+- dificuldade em respirar 
+- diminuição da temperatura do corpo e dos batimentos cardíacos </p>
+<p>Se necessitar de efetuar uma grande cirurgia, tem de parar de tomar Vipdomet durante a intervenção e 
+por algum tempo depois desta. O seu médico decidirá quando tem de parar e quando prosseguir o seu 
+tratamento com Vipdomet. </p>
+<p>Durante o tratamento com Vipdomet, o médico irá verificar o funcionamento dos seus rins uma vez 
+por ano, ou com mais frequência se for idoso e/ou se os seus rins estiverem a funcionar pior.  </p>
+<p>Crianças e adolescentes 
+Vipdomet não é recomendado a crianças e adolescentes idade inferior a 18 anos devido à inexistência 
+de dados nestes doentes.  </p>
+<p>Outros medicamentos e Vipdomet 
+Se necessitar de levar uma injeção na corrente sanguínea de um meio de contraste que contenha iodo, 
+por exemplo, no contexto de uma radiografia ou cintigrafia, tem de parar de tomar Vipdomet antes ou 
+no momento da injeção. O seu médico decidirá quando tem de parar e quando prosseguir o seu 
+tratamento com Vipdomet. 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Pode necessitar de análises mais frequentes da glicemia e da função renal, 
+ou o médico pode necessitar de ajustar a dose de Vipdomet. É especialmente importante mencionar o 
+seguinte:<br />
+- hidrocortisona e prednisolona (corticosteroides) utilizadas para tratar doenças que envolvem 
+inflamações como asma e artrite<br />
+- cimetidina, utilizada para tratar problemas de estômago 
+- broncodilatores (agonistas beta-2), utilizados para tratar a asma 
+- medicamentos que aumentam a produção de urina (diuréticos) 
+- medicamentos utilizados para tratar a dor e a inflamação (AINE e inibidores da COX-2, tais como 
+o ibuprofeno e celecoxib) 
+- determinados medicamentos para o tratamento da tensão arterial elevada (inibidores da ECA e 
+antagonistas do recetor da angiotensina II) 
+- medicamentos contendo álcool </p>
+<p>Vipdomet com álcool 
+Evite o consumo excessivo de álcool enquanto estiver a tomar Vipdomet, uma vez que tal pode 
+aumentar o risco de acidose láctica (ver a secção “Advertências e precauções"). </p>
+<p>Gravidez e amamentação<br />
+Se está grávida ou a amamentar, se pensa que pode estar grávida ou planeia engravidar, consulte o seu 
+médico ou farmacêutico antes de tomar este medicamento. Não deve utilizar Vipdomet se estiver 
+grávida. </p>
+<p>Vipdomet não é recomendado durante a amamentação, uma vez que a metformina passa para o leite 
+materno. </p>
+<p>Condução de veículos e utilização de máquinas 
+Desconhece-se se Vipdomet afeta a sua capacidade de conduzir e utilizar máquinas. Tomar Vipdomet 
+em associação com medicamentos denominados pioglitazona ou insulina pode causar níveis baixos de 
+açúcar no sangue (hipoglicemia), que podem afetar a sua capacidade de conduzir ou utilizar máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar vipdomet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar vipdomet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>O seu médico dir-lhe-á exatamente quanto Vipdomet precisa de tomar. A quantidade de Vipdomet 
+variará consoante a sua doença e as doses que já está a tomar da metformina isolada, da metformina 
+em associação com a pioglitazona, insulina e/ou comprimidos individuais de alogliptina e metformina.  </p>
+<p>A dose recomendada é um comprimido, duas vezes ao dia. Se tiver função renal diminuída, o seu 
+médico poderá prescrever uma dose mais baixa, que pode ter de ser administrada sob a forma de 
+comprimidos separados de alogliptina e metformina. </p>
+<p>Engula o(s) seu(s) comprimido(s) inteiro(s) com água. Deve tomar este medicamento com alimentos 
+para reduzir as hipóteses de ter problemas de estômago. </p>
+<p>Se tomar mais Vipdomet do que deveria 
+Se tomar mais comprimidos do que deveria, ou se outra pessoa ou uma criança tomar o seu 
+medicamento, contacte ou dirija-se imediatamente à Urgência mais próxima. Leve este folheto ou 
+alguns comprimidos consigo para que o médico saiba exatamente o que foi tomado.   </p>
+<p>Caso se tenha esquecido de tomar Vipdomet 
+Caso se tenha esquecido de tomar uma dose, tome-a assim que se lembrar. Não tome uma dose a 
+dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Vipdomet 
+Não pare de tomar Vipdomet sem antes consultar o seu médico. Os seus níveis de açúcar no sangue 
+podem subir quando para de tomar Vipdomet. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>PARE de tomar Vipdomet e contacte imediatamente um médico ou o hospital mais próximo 
+imediatamente se sentir algum dos sintomas dos seguintes efeitos indesejáveis graves: </p>
+<p>Muito raros (podem afetar até 1 em 10.000 pessoas): 
+- Acidose láctica (uma acumulação de ácido láctico no sangue) é um efeito indesejável muito 
+grave que pode levar ao estado de coma. Para sintomas, ver a secção “Avisos e precauções".   </p>
+<p>Desconhecido (não pode ser calculado a partir dos dados disponíveis): 
+- Uma reação alérgica. Os sintomas podem incluir: uma erupção cutânea, urticária, dificuldade 
+em engolir ou respirar, inchaço dos lábios, do rosto, da garganta e da língua, e sensação de 
+desmaio. 
+- Uma reação alérgica grave: lesões de pele ou manchas na sua pele, que podem evoluir para 
+uma ferida rodeada por anéis pálidos ou vermelhos, formação de bolhas e/ou descamação da 
+pele possivelmente com sintomas como comichão, febre, mal-estar geral, dores nas articulações, 
+problemas de visão, ardor, dor ou comichão nos olhos e feridas na boca (Síndrome de 
+Stevens-Johnson e Eritema multiforme). </p>
+<ul>
+<li>Dor intensa e persistente no abdómen (região do estômago), que pode estender-se para as 
+costas, assim como originar náuseas e vómitos, uma vez que pode ser sinal de um pâncreas 
+inflamado (pancreatite). </li>
+</ul>
+<p>Também deve falar com o seu médico se sentir os seguintes efeitos indesejáveis: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas): 
+- Dor de estômago 
+- Diarreia 
+- Perda de Apetite 
+- Mal-estar 
+- Indisposição </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): 
+- Sintomas de baixo nível de açúcar no sangue (hipoglicemia) podem ocorrer quando 
+Vipdomet é tomado em associação com insulina ou sulfonilureias (por exemplo, glipizida, 
+tolbutamida, glibenclamida). Os sintomas podem incluir: tremores, suores, ansiedade, visão 
+turva, formigueiro nos lábios, palidez, alterações de humor ou sentir-se confuso. O seu açúcar 
+no sangue pode descer abaixo do nível normal, mas pode subir novamente com a ingestão de 
+açúcar. É recomendado que ande sempre com pacotinhos de açúcar, rebuçados, bolachas ou 
+sumo de fruta açucarado. 
+- Sintomas idênticos aos de uma constipação, como dor de garganta, nariz entupido ou com 
+corrimento, cansaço, febre, arrepios, tosse seca 
+- Erupção na pele 
+- Comichão na pele com ou sem urticária 
+- Dor de cabeça 
+- Indigestão, azia 
+- Vómitos e/ou diarreia 
+- Paladar metálico 
+- Níveis reduzidos ou baixos de vitamina B12 no sangue (os sintomas podem incluir cansaço 
+extremo (fadiga), língua vermelha e dorida (glossite), formigueiro (parestesia) ou pele pálida ou 
+amarela). O seu médico pode pedir alguns exames para identificar a causa dos seus sintomas, 
+porque alguns deles podem também ser causados pela diabetes ou por outros problemas de 
+saúde não relacionados. </p>
+<p>Muito raros<br />
+- Problemas de fígado (hepatite ou anomalias da função hepática) 
+- Eritema (vermelhidão da pele) </p>
+<p>Desconhecido<br />
+- Problemas de fígado, tais como náuseas ou vómitos, dor de estômago, cansaço invulgar ou 
+inexplicável, perda de apetite, urina escura ou amarelecimento da pele ou da parte branca dos 
+olhos. 
+- Inflamação do tecido conjuntivo dos rins (nefrite intersticial). 
+- Formação de bolhas na pele (penfigoide bolhoso). </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar vipdomet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar vipdomet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação.  </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Vipdomet<br />
+- As substâncias ativas são alogliptina e cloridrato de metformina. 
+Cada comprimido revestido por película de 12,5 mg/850 mg contém benzoato de alogliptina 
+equivalente a 12,5 mg de alogliptina e 850 mg de cloridrato de metformina. 
+Cada comprimido revestido por película de 12,5 mg/1.000 mg contém benzoato de alogliptina 
+equivalente a 12,5 mg de alogliptina e 1.000 mg de cloridrato de metformina. 
+- Os outros componentes são manitol, celulose microcristalina, povidona K30, crospovidona 
+Tipo A, estearato de magnésio, hipromelose, talco, dióxido de titânio (E171) e óxido de ferro 
+amarelo (E172). </p>
+<p>Qual o aspeto de Vipdomet e conteúdo da embalagem 
+- Vipdomet 12,5 mg/850 mg comprimidos revestidos por película contém comprimidos 
+revestidos por película amarelos claro, oblongos (21,0 mm de comprimento e 10,1 mm de 
+largura, aproximadamente) e biconvexos com as gravações “12.5/850" numa das faces e 
+“322M" na outra. 
+- Vipdomet 12,5 mg/1.000 mg comprimidos revestidos por película contém comprimidos 
+revestidos por película amarelo pálido, oblongos (21,0 mm de comprimento e 10,1 mm de 
+largura, aproximadamente) e biconvexos com as gravações “12.5/1000" numa das faces e 
+“322M" na outra.  </p>
+<p>Vipdomet está disponível em embalagens com blisters contendo com 10, 14, 20, 28, 56, 60, 98, 112, 
+120, 180, 196, 200 comprimidos e em embalagem múltipla contendo 2 embalagens de 
+98 comprimidos revestidos a película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Takeda Pharma A/S 
+Delta Park 2665 Vallensbaek Strand 
+Dinamarca  </p>
+<p>Fabricante 
+Takeda Ireland Limited 
+Bray Business Park 
+Kilruddery 
+Co. Wicklow 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+de Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Takeda Belgium NV 
+Tel/Tél: +32 2 464 06 medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>България 
+Такеда България ЕООД 
+Тел.: +359 2 958 27 medinfoEMEA@takeda.com </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+Tel/Tél: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>Česká republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: +420 234 722 medinfoEMEA@takeda.com </p>
+<p>Magyarország 
+Takeda Pharma Kft. 
+Tel: +36 1 270 7medinfoEMEA@takeda.com 
+Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Takeda HELLAS S.A. 
+Tel: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com<br />
+Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>Ελλάδα 
+Takeda ΕΛΛΑΣ Α.Ε. 
+Τηλ: +30 210 6387medinfoEMEA@takeda.com  </p>
+<p>Österreich 
+Takeda Pharma Ges. m.b.H. 
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com  </p>
+<p>España 
+Laboratorios Menarini, S.A 
+Tel: +34 934 628 info@menarini.es </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+tel: +48223062medinfoEMEA@takeda.com  </p>
+<p>France 
+Takeda France SAS 
+Tel: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Tecnimede - Sociedade Técnico-Medicinal, S.A. 
+Tel: +351 21 041 41 00<br />
+dmed.fv@tecnimede.pt  </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com 
+România 
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska družba d.o.o.<br />
+Tel: +386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovenská republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>Κύπρος 
+Takeda ΕΛΛΑΣ Α.Ε. 
+Τηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com </p>
+<p>United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -934,6 +1380,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-91532a0bac4066c0d200269dda7e0b3f"
 * entry[0].resource = composition-da-91532a0bac4066c0d200269dda7e0b3f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp91532a0bac4066c0d200269dda7e0b3f"
+* entry[=].resource = mp91532a0bac4066c0d200269dda7e0b3f
+                            
+                    
+Instance: bundlepackageleaflet-pt-91532a0bac4066c0d200269dda7e0b3f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vipdomet Package Leaflet for language pt"
+Description: "ePI document Bundle for vipdomet Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-91532a0bac4066c0d200269dda7e0b3f"
+* entry[0].resource = composition-pt-91532a0bac4066c0d200269dda7e0b3f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp91532a0bac4066c0d200269dda7e0b3f"
@@ -1035,6 +1503,18 @@ RuleSet: 91532a0bac4066c0d200269dda7e0b3fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-91532a0bac4066c0d200269dda7e0b3f) // vipdomet pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

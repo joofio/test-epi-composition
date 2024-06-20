@@ -657,6 +657,358 @@ hjemmeside.  </p>         </div>"""
 
 
 
+Instance: composition-pt-28443e1a5133f6583423ca208758fe45
+InstanceOf: CompositionUvEpi
+Title: "Composition for gliolan Package Leaflet"
+Description:  "Composition for gliolan Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp28443e1a5133f6583423ca208758fe45)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - gliolan"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:  </p>
+<ol>
+<li>O que é Gliolan e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Gliolan </li>
+<li>Como tomar Gliolan </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Gliolan </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é gliolan e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é gliolan e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Gliolan é usado para a visualização de certos tumores cerebrais (designados por gliomas malignos) 
+durante a cirurgia ao tumor. </p>
+<p>Gliolan contém uma substância chamada cloridrato de ácido aminolevulínico (5-ALA). O 5-ALA 
+acumula-se preferencialmente nas células tumorais, onde é transformado noutra substância similar. 
+Nessa altura, se o tumor for exposto a uma luz azul, essa nova substância emite uma luz violeta 
+avermelhada que ajuda a distinguir melhor o tecido normal do tecido tumoral. Isto ajuda o cirurgião a 
+remover, de forma mais completa, o tumor, poupando o tecido saudável. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar gliolan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar gliolan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Gliolan </p>
+<ul>
+<li>
+<p>se tem alergia à 5-ALA ou às porfirinas. </p>
+</li>
+<li>
+<p>em caso de suspeita ou de confirmação de tipos agudos ou crónicos de porfiria (isto é, distúrbios 
+herdados ou adquiridos de certas enzimas na via da síntese do pigmento dos glóbulos 
+vermelhos). </p>
+</li>
+<li>
+<p>em caso de suspeita ou de confirmação de uma gravidez. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Gliolan. </p>
+<ul>
+<li>
+<p>Durante 24 horas após a administração deste medicamento, proteja os seus olhos e a pele de 
+fontes de luz fortes (por exemplo, luz solar direta ou luz interior de foco intenso) . </p>
+</li>
+<li>
+<p>Se tiver uma doença cardíaca, ou tiver tido uma doença cardíaca no passado, deve informar o 
+seu médico. Nesse caso, este medicamento deve ser utilizado com cuidado porque a sua tensão 
+arterial pode baixar. </p>
+</li>
+</ul>
+<p>Compromisso renal ou hepático 
+Não foram realizados ensaios em doentes com uma função renal ou hepática deficiente. Por 
+conseguinte, este medicamento deve ser usado com cuidado em tais doentes.  </p>
+<p>Idosos 
+Não há instruções especiais para a utilização em doentes idosos com funções normais ao nível dos 
+órgãos. </p>
+<p>Crianças e adolescentes (&lt; 18 anos) 
+Não existe experiência com Gliolan em crianças e adolescentes. Por conseguinte, este medicamento 
+não é recomendado a este grupo etário. </p>
+<p>Outros medicamentos e Gliolan 
+Informe o seu médico ou farmacêutico, se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos, particularmente medicamentos que possam causar problemas cutâneos 
+quando a pele fica sob fontes de luz intensa (por exemplo, alguns tipos de medicamentos chamados 
+antibióticos), mas também medicamentos obtidos sem receita médica (por exemplo, extratos de 
+hipericina ou Erva de São João). </p>
+<p>Num doente, foi registado um caso de queimadura solar grave durante 5 dias, depois de o doente ter 
+tomado o medicamento com um extrato de hipericina. Não deve tomar nenhum destes produtos até 
+2 semanas, depois de ter tomado Gliolan. </p>
+<p>Num período de 24 horas depois de ter tomado Gliolan, evite quaisquer outros medicamentos que 
+possam prejudicar o fígado. </p>
+<p>Gliolan com alimentos e bebidas 
+Este medicamento é geralmente utilizado uma única vez, nomeadamente 2-4 horas antes da anestesia 
+da operação para certos tumores cerebrais chamados glioma. Não deve comer nem beber nas 6 horas 
+precedentes (no mínimo) à administração da anestesia. </p>
+<p>Gravidez e amamentação 
+Gravidez 
+Desconhece-se se Gliolan prejudicará o feto. Não tome este medicamento se estiver grávida.  </p>
+<p>Amamentação 
+Desconhece-se se este medicamento penetra no leite materno. As mães que estejam a amamentar não 
+devem amamentar durante 24 horas depois do tratamento com este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos deste medicamento sobre a capacidade de conduzir e utilizar máquinas são nulos. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar gliolan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar gliolan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Este medicamento é um pó que deve ser misturado primeiramente em água potável antes de ser usado. 
+Este processo deve ser sempre efetuado por um farmacêutico ou por um enfermeiro, nunca pelo 
+doente. A dose normal é 20 mg de 5-ALA HCl por quilograma de peso corporal. O farmacêutico ou 
+enfermeiro calculará a dose exata necessária e a quantidade de solução (em ml) que terá de beber. Tem 
+de beber a solução preparada 2-4 horas antes do início da anestesia. </p>
+<p>Se a cirurgia for adiada por um período superior a 12 horas, a cirurgia deverá ser reagendada para o 
+dia seguinte ou mais tarde. Pode ser tomada outra dose deste medicamento 2-4 horas antes da 
+anestesia. </p>
+<p>Se tomar mais Gliolan do que deveria 
+Se tomou mais Gliolan do que deveria, o seu médico deverá decidir quais as medidas necessárias para 
+evitar quaisquer problemas, incluindo a proteção suficiente contra fontes de luz fortes (por exemplo, 
+luz solar direta). </p>
+<p>Caso se tenha esquecido de tomar Gliolan 
+Este medicamento é administrado uma vez, só no dia da cirurgia, 2-4 horas antes do início da 
+anestesia. Se se esqueceu de tomar este medicamento neste período, não é aconselhável que o tome 
+mesmo antes do início da anestesia. Nesse caso, a anestesia e a cirurgia têm de ser adiadas durante 
+2 horas pelo menos, se possível.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis mais graves incluem alterações ligeiras das contagens das células sanguíneas 
+(glóbulos vermelhos e brancos, plaquetas), distúrbios que afetam o sistema nervoso (distúrbios 
+neurológicos), como é o caso da paralisia parcial de um dos lados do corpo (hemiparesia) e coágulos 
+sanguíneos que podem obstruir os vasos sanguíneos (tromboembolismo). Outros efeitos indesejáveis 
+registados com frequência são enjoo (vómitos), indisposição (náuseas) e subida ligeira dos níveis de 
+algumas enzimas (transaminases, γ-GT, amilase) ou bilirrubina (um pigmento biliar produzido no 
+fígado por degradação do pigmento dos glóbulos vermelhos) no sangue. </p>
+<p>Informe imediatamente o seu médico se tiver alguma destas queixas. </p>
+<p>Os efeitos indesejáveis estão divididos em duas categorias: </p>
+<ul>
+<li>
+<p>Efeitos indesejáveis imediatos após a administração de Gliolan e antes da anestesia </p>
+</li>
+<li>
+<p>Efeitos indesejáveis combinados do Gliolan, anestesia e ressecção do tumor. </p>
+</li>
+</ul>
+<p>Depois de ter tomado Gliolan e antes do início da anestesia, podem ocorrer os seguintes efeitos 
+indesejáveis:<br />
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 doentes): 
+Indisposição (náuseas), descida da tensão arterial (hipotensão), reações na pele  (por exemplo, 
+erupção na pele parecida a queimadura solar, ou “escaldão"). </p>
+<p>Em combinação com anestesia e ressecção do tumor), podem ocorrer outros efeitos indesejáveis:<br />
+Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 doentes): 
+Leves alterações nas contagens das células sanguíneas (glóbulos brancos e vermelhos, plaquetas), 
+ligeira subida de algumas enzimas (transaminases, γ-GT, amilase) ou da bilirrubina (um pigmento 
+biliar produzido no fígado por degradação do pigmento dos glóbulos vermelhos) no sangue. Estas 
+alterações atingem o seu pico entre 7 e 14 dias depois da cirurgia. As alterações resolver-se-ão 
+totalmente em poucas semanas. Normalmente, não tem quaisquer sintomas quando ocorrem estas 
+alterações. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar mais de 1 em 10 doentes):<br />
+Indisposição (náuseas), enjoos (vómitos), distúrbios que afetam o sistema nervoso (distúrbios 
+neurológicos), como a paralisia parcial de um lado do corpo (hemiparesia), perda total ou parcial 
+na capacidade de produzir ou compreender a linguagem (afasia), ataques (convulsões) e perda de 
+metade da visão em ambos os olhos (hemianopsia) e coágulos de sangue que podem obstruir 
+vasos sanguíneos (tromboembolismo). </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 doentes): 
+Descida da tensão arterial (hipotensão), inchaço cerebral (edema cerebral).  </p>
+<p>Efeitos indesejáveis muito raros (a afetar menos de 1 em 10 000 doentes) ou desconhecido (a 
+frequência não pode ser calculado a partir dos dados disponíveis): 
+Diminuição da sensação de tato (hipestesia) e fezes moles ou líquidas (diarreia). </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar gliolan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar gliolan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior após VAL. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Manter o frasco dentro da embalagem exterior para proteger da luz. </p>
+<p>A solução reconstituída é física e quimicamente estável durante 24 horas a 25 °C. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Gliolan 
+A substância ativa é cloridrato de ácido 5-aminolevulínico (5-ALA HCl). Um frasco contém 1,17 g de 
+ácido 5-aminolevulínico (5-ALA), correspondente a 1,5 g de 5-ALA HCl. 
+Um ml de solução reconstituída contém 23,4 mg de 5-ALA, correspondente a 30 mg de 5-ALA HCl. </p>
+<p>Qual o aspeto de Gliolan e conteúdo da embalagem 
+Este medicamento é um pó para solução oral. O pó é um sólido branco a esbranquiçado. A solução 
+reconstituída é um líquido transparente e incolor a ligeiramente amarelado.<br />
+Gliolan é fornecido num frasco de vidro em embalagens de 1, 2 e 10 frascos. É possível que não sejam 
+comercializadas todas as apresentações.  </p>
+<p>Titular da Autorização de Introdução no Mercado 
+photonamic GmbH &amp; Co. KG 
+Eggerstedter Weg 25421 Pinneberg 
+Alemanha </p>
+<p>Fabricante 
+Lyocontract GmbH<br />
+Pulverwiese 1 
+38871 Ilsenburg 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien, Nederland 
+Pharmanovia Benelux B.V. 
+Burgemeester Guljélaan 2<br />
+NL-4837 CZ Breda 
+Nederland/Pays-Bas/Niederlande 
+Tel/Tél: + 31 (0)76 5600info.benelux@pharmanovia.com </p>
+<p>Italia 
+medac pharma s.r.l. a socio unico 
+Via Viggiano I-00178 Roma 
+Tel: + 39 06 51 59 info@medacpharma.it </p>
+<p>България, Deutschland, Eesti, Ελλάδα, 
+Hrvatska, Ísland, Κύπρος, Latvija, Lietuva, 
+Luxembourg/Luxemburg, Magyarország, 
+Malta, Österreich, România, Slovenija/ 
+United Kingdom (Northern Ireland) 
+medac GmbH 
+Theaterstraße 6<br />
+D-22880 Wedel 
+Германия/Deutschland/Saksamaa/Γερμανία/ 
+Njemačka/Þýskaland/Vācija/Vokietija/ 
+Allemagne/Németország/Il-Ġermanja/Germania/ 
+Nemčija/Germany 
+Teл./Tel/Sími/Τηλ/Tél: + 49 (0)4103 8006-0 
+gliolan@medac.de </p>
+<p>Norge 
+medac Gesellschaft für klinische 
+Spezialpräparate G.m.b.H, Tyskland, filial 
+Postboks N-1312 Slependen 
+Tlf: +47 90 63 81<br />
+Polska 
+medac GmbH Sp. Z o.o. 
+Oddział w Polsce 
+ul Postępu 21 B 
+PL-02-676 Warszawa 
+Tel.: + 48 22 430 00 kontakt@medac.pl </p>
+<p>Česká republika 
+medac GmbH organizační složka 
+Horní CZ 639 00 Brno 
+Tel: + 420 543 233 info@medac.eu </p>
+<p>Portugal 
+medac GmbH 
+succursal em Portugal 
+Alameda António Sérgio nº22 6ºC 
+P-1495-132 Algés 
+Tel: + 351 21 410 75 83/4 
+geral@medac.de </p>
+<p>Danmark 
+medac Gesellschaft für klinische 
+Spezialpräparate G.m.b.H, Tyskland, filial 
+Bagerstræde 28, 1. DK-4640 Faxe 
+Tlf: +46 (0)44 7850<br />
+Slovenská republika 
+medac GmbH 
+organizačná zložka Slovensko 
+Staromestská 3 
+SK-811 03 Bratislava 
+Tel: + 420 543 233 info@medac.eu </p>
+<p>España 
+Laboratorios Gebro Pharma, S.A. 
+Tel: + 34 93 205 86 Suomi/Finland 
+medac Gesellschaft für klinische 
+Spezialpräparate G.m.b.H, Tyskland, filial 
+Spektri Business Park 
+Metsänneidonkuja 4 
+FIN-02130 Espoo 
+Puh/Tel: + 358 (0)10 420 4 
+France 
+medac SAS 
+1 rue Croix Barret 
+F-69007 Lyon 
+Tél: + 33 (0)4 37 66 14 infomed@medac.fr </p>
+<p>Sverige 
+medac Gesellschaft für klinische 
+Spezialpräparate G.m.b.H, Tyskland, filial 
+Hyllie Boulevard S-215 32 Malmö 
+Tel: +46 (0)44 7850<br />
+Ireland 
+Fannin Ltd 
+Fannin House 
+South County Business Park 
+Leopardstown 
+IRL - Dublin Tel: + 353 (0)1 290 7medical@dccvital.com </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -698,6 +1050,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-28443e1a5133f6583423ca208758fe45"
 * entry[0].resource = composition-da-28443e1a5133f6583423ca208758fe45
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp28443e1a5133f6583423ca208758fe45"
+* entry[=].resource = mp28443e1a5133f6583423ca208758fe45
+                            
+                    
+Instance: bundlepackageleaflet-pt-28443e1a5133f6583423ca208758fe45
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for gliolan Package Leaflet for language pt"
+Description: "ePI document Bundle for gliolan Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-28443e1a5133f6583423ca208758fe45"
+* entry[0].resource = composition-pt-28443e1a5133f6583423ca208758fe45
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp28443e1a5133f6583423ca208758fe45"
@@ -799,6 +1173,18 @@ RuleSet: 28443e1a5133f6583423ca208758fe45ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-28443e1a5133f6583423ca208758fe45) // gliolan pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

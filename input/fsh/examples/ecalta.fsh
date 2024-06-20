@@ -806,6 +806,401 @@ retningslinjer.</p>         </div>"""
 
 
 
+Instance: composition-pt-d1ac9f4f2138f35170941f82d23b13ed
+InstanceOf: CompositionUvEpi
+Title: "Composition for ecalta Package Leaflet"
+Description:  "Composition for ecalta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd1ac9f4f2138f35170941f82d23b13ed)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ecalta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é ECALTA e para que é utilizado
+2. O que precisa de saber antes de você ou o seu filho utilizar ECALTA
+3. Como utilizar ECALTA
+4. Efeitos indesejáveis possíveis
+5. Como conservar ECALTA
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ecalta e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ecalta e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ECALTA contém a substância ativa anidulafungina e é receitado para adultos e doentes pediátricos 
+com idade entre 1 mês e menos de 18 anos para tratar um tipo de infeção fúngica do sangue ou de 
+outros órgãos internos, denominada candidíase invasiva. A infeção é causada por uma célula fúngica 
+(fungo) chamada Candida.
+ECALTA pertence a um grupo de medicamentos chamado equinocandinas. Estes medicamentos são 
+utilizados para tratar infeções fúngicas graves.
+ECALTA evita o desenvolvimento normal das paredes celulares dos fungos. As paredes das células 
+fúngicas ficam incompletas ou com anomalias na presença de ECALTA, tornando-as frágeis ou 
+impedindo o seu crescimento.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ecalta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ecalta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não utilize ECALTA</h2>
+<p>se tem alergia à anidulafungina, outras equinocandinas (por exemplo, acetato de caspofungina) 
+ou a qualquer outro componente deste medicamento (indicados na secção 6).
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar ECALTA.
+O seu médico pode decidir monitorizá-lo:
+-
+quanto à função hepática mais atentamente se desenvolveu problemas no fígado durante o seu 
+tratamento
+-
+se lhe foram administrados anestésicos durante o seu tratamento com ECALTA
+-
+quanto a sinais de uma reação alérgica, tais como comichão, pieira, pele manchada
+28
+-
+quanto a sinais de uma reação relacionada com a perfusão que podem incluir erupção na pele, 
+urticária, comichão, vermelhidão
+-
+quanto à falta de ar/dificuldades ao respirar, tonturas ou sensação de desmaio
+Crianças e adolescentes
+ECALTA não deve ser administrado a doentes com idade inferior a 1 mês.
+Outros medicamentos e ECALTA
+Informe o seu médico ou farmacêutico se você ou o seu filho estiver a tomar, tiver tomado 
+recentemente, ou se vier a tomar outros medicamentos.
+Gravidez e amamentação
+Desconhece-se o efeito de ECALTA em mulheres grávidas. Assim, ECALTA não é recomendado 
+durante a gravidez. Deve-se utilizar um método contracetivo eficaz nas mulheres em idade fértil. 
+Contacte o seu médico imediatamente caso fique grávida enquanto está a tomar ECALTA.
+Desconhece-se o efeito de ECALTA em mulheres a amamentar. Consulte o seu médico ou 
+farmacêutico antes de tomar ECALTA enquanto amamenta.
+Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento.
+ECALTA contém frutose
+Este medicamento contém 119 mg de frutose (um tipo de açúcar) em cada frasco para injetáveis. Caso 
+o seu médico lhe tenha dito que tem uma intolerância a alguns açúcares, contacte-o antes de tomar este 
+medicamento.
+Se tiver (ou o seu filho tiver) intolerância hereditária à frutose (IHF), uma doença genética rara, você 
+(ou o seu filho) não pode tomar este medicamento. Os doentes com IHF não conseguem digerir a 
+frutose deste medicamento, o que pode causar efeitos indesejáveis graves.
+Tem de informar o seu médico antes de tomar este medicamento se você (ou o seu filho) tem IHF ou 
+se o seu filho deixou de poder ingerir alimentos ou bebidas doces, porque se sente enjoado, com 
+vómitos ou se fica com efeitos desagradáveis como inchaço, dor de estômago ou diarreia.
+ECALTA contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por frasco para injetáveis, ou seja, 
+é praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ecalta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ecalta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ECALTA vai ser sempre preparado e administrado a si ou ao seu filho por um médico ou profissional 
+de saúde (existe informação mais detalhada sobre o método de preparação no final do folheto 
+informativo, na secção destinada apenas aos médicos e aos profissionais de saúde).
+Para utilização em adultos, o tratamento inicia-se com 200 mg no primeiro dia (dose de carga). Segue-
+se uma dose diária de 100 mg (dose de manutenção).
+Para utilização em crianças e adolescentes (entre 1 mês e menos de 18 anos de idade), o tratamento 
+inicia-se com 3,0 mg/kg (não exceder 200 mg) no primeiro dia (dose de carga). Segue-se uma dose 
+diária de 1,5 mg/kg (não exceder 100 mg) (dose de manutenção). A dose administrada depende do 
+peso do doente.
+29
+ECALTA deve-lhe ser administrado uma vez por dia, por perfusão lenta (gota a gota), na sua veia. 
+Para os adultos, esta administração irá demorar pelo menos 1,5 horas para a dose de manutenção e 
+3 horas para a dose de carga. Para as crianças e adolescentes, a perfusão poderá demorar menos 
+tempo, dependendo do peso do doente.
+O seu médico irá estabelecer a duração do seu tratamento e a quantidade de ECALTA que irá receber 
+diariamente e vai monitorizar a sua condição e resposta.
+Em geral, o seu tratamento deverá continuar durante pelo menos 14 dias após o último dia em que se 
+detetou a presença de Candida no seu sangue.
+Se receber mais ECALTA do que deveria
+Se pensa que lhe administraram uma dose excessiva de ECALTA, deverá informar o seu médico ou 
+outro profissional de saúde imediatamente.
+Caso se tenha esquecido de utilizar ECALTA
+Uma vez que este medicamento lhe será administrado sob cuidadosa supervisão médica, é pouco 
+provável que não lhe tenha sido administrada uma dose. No entanto, deverá informar o seu médico ou 
+farmacêutico se pensar que não lhe foi administrada uma dose.
+Não lhe deve ser administrada uma dose a dobrar pelo seu médico.
+Se parar de utilizar ECALTA
+Não deverá sentir quaisquer efeitos de ECALTA quando o seu médico parar o tratamento com 
+ECALTA.
+O seu médico poderá prescrever outro medicamento após o tratamento com ECALTA, para continuar 
+a tratar a sua infeção fúngica ou prevenir o seu regresso.
+Deverá informar o seu médico ou outro profissional de saúde imediatamente caso os seus sintomas 
+iniciais regressem.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Alguns destes efeitos indesejáveis serão observados pelo seu médico enquanto monitoriza a sua 
+resposta e situação.
+Foram raramente notificadas reações alérgicas com risco de vida que podem incluir dificuldade em 
+respirar com respiração ruidosa ou agravamento de erupção cutânea já existente, durante a 
+administração de ECALTA.
+Efeitos indesejáveis graves - informe o seu médico ou outro profissional de saúde imediatamente 
+se ocorrer alguma das seguintes situações:
+-
+Convulsões (ataque)
+-
+Vermelhidão
+-
+Erupção na pele, prurido (comichão)
+30
+-
+Rubor com calor
+-
+Urticária
+-
+Contração repentina dos músculos ao redor das vias aéreas, resultando em respiração ruidosa ou 
+tosse
+-
+Dificuldade em respirar
+Outros efeitos indesejáveis
+Os efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas) são:
+-
+Potássio sérico baixo (hipocaliemia)
+-
+Diarreia
+-
+Náusea
+Os efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) são:
+-
+Convulsão (ataque)
+-
+Dor de cabeça
+-
+Vómito
+-
+Alterações nos testes de função do fígado
+-
+Erupção na pele, prurido (comichão)
+-
+Alterações nos testes sanguíneos de função do rim
+-
+Fluxo anómalo da bílis da vesícula para o intestino (colestase)
+-
+Açúcar no sangue elevado
+-
+Pressão arterial elevada
+-
+Pressão arterial baixa
+-
+Contração repentina dos músculos ao redor das vias aéreas, resultando em respiração ruidosa ou 
+tosse
+-
+Dificuldade em respirar
+Os efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) são:
+-
+Perturbação do sistema de coagulação
+-
+Vermelhidão
+-
+Rubor com calor
+-
+Dor de estômago
+-
+Urticária
+-
+Dor no local de injeção
+Desconhecido (não pode ser calculado a partir dos dados disponíveis) são:
+-
+Reações alérgicas com risco de vida
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ecalta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ecalta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter fora da vista e do alcance das crianças.
+31
+Não utilize este medicamento após o prazo de validade impresso no rótulo. O prazo de validade 
+corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2ºC - 8ºC).
+A solução reconstituída pode ser conservada até 25ºC durante 24 horas. A solução para perfusão pode 
+ser conservada a 25ºC (temperatura ambiente) durante 48 horas (não congelar) e deve ser administrada 
+a 25ºC (temperatura ambiente) no prazo de 48 horas.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de ECALTA</h2>
+<p>A substância ativa é anidulafungina. Cada frasco para injetáveis de pó contém 100 mg de 
+anidulafungina.
+-
+Os outros componentes são: frutose (ver secção 2 “ECALTA contém frutose"), manitol, 
+polissorbato 80, ácido tartárico, hidróxido de sódio (para ajuste de pH) (ver secção 2 “ECALTA 
+contém sódio"), ácido clorídrico (para ajuste de pH)
+Qual o aspeto de ECALTA e conteúdo da embalagem
+ECALTA é fornecido numa embalagem contendo um frasco para injetáveis com 100 mg de pó para 
+concentrado para solução para perfusão.
+O pó é branco a esbranquiçado.
+Titular da Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG, Boulevard de la Plaine 17, 1050 Bruxelles, Bélgica
+Fabricante
+Pfizer Manufacturing Belgium NV, Rijksweg 12, 2870 Puurs-Sint-Amands, Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL 
+filialas Lietuvoje
+Tel. +3705 2514000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel. + 36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420-283-004-111
+Malta
+Vivian Corporation Ltd.
+Tel : +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+32
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer ΕΛΛΑΣ A.E.
+Τηλ.: +30 210 6785 800
+Polska
+Pfizer Polska Sp. z o.o.,
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: + 351 214 235 500
+France
+Pfizer 
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer România S.R.L
+Tel: +40 (0)21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: + 386 (0)152 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: +421-2-3355 5500
+Ísland
+Icepharma hf., 
+Sími: + 354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358(0)9 43 00 40
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 5505 2000
+Kύπρος
+Pfizer ΕΛΛΑΣ Α.Ε. (Cyprus Branch) 
+Τηλ: +357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL
+Filiāle Latvijā
+Tel: +371 670 35 775
+Este folheto foi revisto pela última vez em
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -847,6 +1242,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d1ac9f4f2138f35170941f82d23b13ed"
 * entry[0].resource = composition-da-d1ac9f4f2138f35170941f82d23b13ed
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd1ac9f4f2138f35170941f82d23b13ed"
+* entry[=].resource = mpd1ac9f4f2138f35170941f82d23b13ed
+                            
+                    
+Instance: bundlepackageleaflet-pt-d1ac9f4f2138f35170941f82d23b13ed
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ecalta Package Leaflet for language pt"
+Description: "ePI document Bundle for ecalta Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d1ac9f4f2138f35170941f82d23b13ed"
+* entry[0].resource = composition-pt-d1ac9f4f2138f35170941f82d23b13ed
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd1ac9f4f2138f35170941f82d23b13ed"
@@ -948,6 +1365,18 @@ RuleSet: d1ac9f4f2138f35170941f82d23b13edListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d1ac9f4f2138f35170941f82d23b13ed) // ecalta pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

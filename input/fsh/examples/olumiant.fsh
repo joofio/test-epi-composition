@@ -1007,6 +1007,463 @@ nakke, ryg) </p>
 
 
 
+Instance: composition-pt-e9af86ad22ac9c13e3208cd0b150b229
+InstanceOf: CompositionUvEpi
+Title: "Composition for olumiant Package Leaflet"
+Description:  "Composition for olumiant Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe9af86ad22ac9c13e3208cd0b150b229)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - olumiant"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto  </p>
+<ol>
+<li>O que é Olumiant e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Olumiant </li>
+<li>Como tomar Olumiant </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Olumiant </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é olumiant e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é olumiant e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Olumiant contém a substância ativa baricitinib. Pertence a um grupo de medicamentos designados por 
+inibidores das Janus quinases, que ajudam a reduzir a inflamação.  </p>
+<p>Artrite reumatoide 
+Olumiant é utilizado para tratar adultos com artrite reumatoide moderada a grave, uma doença 
+inflamatória das articulações, se a terapêutica anterior não resultou suficientemente bem ou não foi 
+tolerada. Olumiant pode ser utilizado como único medicamento ou juntamente com outros medicamentos, 
+como o metotrexato. </p>
+<p>Olumiant atua, reduzindo a atividade de uma enzima do organismo denominada “Janus quinase", que está 
+envolvida na inflamação. Ao reduzir a atividade desta enzima, Olumiant ajuda a reduzir a dor, a rigidez e 
+o inchaço das suas articulações, ajuda a reduzir o cansaço e ajuda a diminuir a progressão das lesões no 
+osso e nas cartilagens das articulações. Estes efeitos podem ajudá-lo a realizar as suas atividades diárias 
+normais e, assim, melhorar a qualidade de vida relacionada com a saúde dos doentes com artrite 
+reumatoide. </p>
+<p>Dermatite atópica 
+Olumiant é utilizado para tratar crianças com idade igual ou superior a 2 anos, adolescentes e adultos com 
+dermatite atópica moderada a grave, também conhecida como eczema atópico. Olumiant pode ser 
+utilizado juntamente com medicamentos para o eczema, que são aplicados na pele, ou como único 
+medicamento. </p>
+<p>Olumiant atua reduzindo a atividade de uma enzima do organismo denominada “Janus quinase", que está 
+envolvida na inflamação. Ao reduzir a atividade desta enzima, Olumiant ajuda a melhorar o estado da sua 
+pele e a reduzir o prurido. Além disso, Olumiant ajuda a melhorar as perturbações do sono (causadas pelo 
+prurido) e a qualidade de vida. Olumiant também demonstrou melhorar os sintomas de dor cutânea, 
+ansiedade e depressão associados à dermatite atópica. </p>
+<p>Alopecia areata 
+Olumiant é utilizado para tratar adultos com alopecia areata grave, uma doença autoimune caracterizada 
+pela perda de cabelo inflamatória e não-cicatricial no couro cabeludo, na face e por vezes noutras zonas do 
+corpo que pode ser recorrente e progressiva. </p>
+<p>Olumiant atua reduzindo a atividade de uma enzima do organismo denominada “Janus quinase", que está 
+envolvida na inflamação. Ao reduzir a atividade desta enzima, Olumiant ajuda a que o cabelo cresça 
+novamente no couro cabeludo, face ou outras zonas do corpo afetadas pela doença.  </p>
+<p>Artrite idiopática juvenil poliarticular, artrite relacionada com entesite e artrite psoriática juvenil 
+Olumiant é utilizado para o tratamento da artrite idiopática juvenil poliarticular ativa, uma doença 
+inflamatória das articulações, em crianças com idade igual ou superior a 2 anos. </p>
+<p>Olumiant é também utilizado no tratamento da artrite relacionada com a entesite ativa, uma doença 
+inflamatória das articulações e dos locais onde os tendões se unem ao osso, em crianças com idade igual 
+ou superior a 2 anos. </p>
+<p>Olumiant é também utilizado para o tratamento da artrite psoriática juvenil ativa, uma doença inflamatória 
+das articulações frequentemente acompanhada de psoríase, em crianças com idade igual ou superior a 
+2 anos. </p>
+<p>Olumiant pode ser utilizado sozinho ou em conjunto com o metotrexato. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar olumiant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar olumiant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Olumiant 
+- se tem alergia ao baricitinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se estiver grávida ou achar que pode estar grávida. </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes e durante o tratamento com Olumiant se: 
+- tem mais do que 65 anos de idade. Doentes com idade igual ou superior a 65 anos poderão ter um 
+risco acrescido de infeções, problemas de coração incluindo ataque cardíaco e alguns tipos de 
+cancro. O seu médico irá discutir consigo se Olumiant é adequado para si. 
+- tem uma infeção, ou se tem frequentemente infeções. Fale com o seu médico se tiver sintomas como 
+febre, feridas, se se sentir mais cansado do que é habitual ou se tiver problemas dentários, pois 
+podem ser sinais de infeção. Olumiant pode reduzir a capacidade do seu organismo de combater as 
+infeções e pode agravar uma infeção existente ou aumentar as probabilidades de ter uma nova 
+infeção. Se tem diabetes ou se tem mais do que 65 anos poderá ter uma maior probabilidade de ter 
+infeções. 
+- tem, ou teve, tuberculose. Pode precisar de fazer testes para avaliar a tuberculose antes de tomar 
+Olumiant. Fale com o seu médico se tiver tosse persistente, febre, suores noturnos e perda de peso 
+durante o tratamento com Olumiant, pois podem ser sinais de tuberculose 
+- teve uma infeção por herpes (zona), pois Olumiant pode permitir que ela reapareça. Fale com o seu 
+médico se tiver uma erupção na pele dolorosa com bolhas durante o tratamento com Olumiant, pois 
+podem ser sinais de zona 
+- tem ou teve hepatite B ou C 
+- necessitar ser vacinado. Não deve tomar certas vacinas (vivas) durante o tratamento com Olumiant 
+- tem ou já tiver tido cancro, fuma ou já fumou no passado, pois o seu médico irá discutir consigo se 
+Olumiant é adequado para si. 
+- tiver uma função hepática deficiente 
+- tem, ou já tiver tido, problemas de coração, pois o seu médico irá discutir consigo se Olumiant é 
+adequado para si. 
+- já teve coágulos de sangue nas veias dos membros inferiores (trombose venosa profunda) ou nos 
+pulmões (embolia pulmonar), ou tiver um risco aumentado de os desenvolver (por exemplo: se teve 
+uma grande cirurgia recentemente, se utiliza contracetivos hormonais/terapêutica de substituição 
+hormonal, ou se foi identificado um distúrbio na coagulação em si ou nos seus familiares). O seu 
+médico irá discutir consigo se Olumiant é adequado para si. Informe o seu médico se tiver uma falta 
+de ar súbita ou dificuldade em respirar, dor no peito ou dor na parte superior das costas, inchaço na 
+perna ou no braço, dor ou sensibilidade na perna, ou vermelhidão ou descoloração na perna ou 
+braço, pois estes podem ser sinais de coágulos sanguíneos nas veias 
+- já teve diverticulite (um tipo de inflamação do intestino grosso) ou úlceras no estômago ou nos 
+intestinos (ver secção 4). 
+- Foi observado cancro da pele não-melanoma em doentes a tomar Olumiant. O seu médico pode 
+recomendar que faça exames regulares da pele enquanto estiver a tomar Olumiant. Se surgirem 
+novas lesões cutâneas durante ou após o tratamento ou se as lesões existentes mudarem de 
+aparência, informe o seu médico. </p>
+<p>Se detetar alguns dos seguintes efeitos indesejáveis graves, deve informar o seu médico de imediato: 
+- aperto no peito 
+- pieira 
+- tonturas graves ou ligeiras 
+- inchaço dos lábios, língua ou garganta 
+- urticária (prurido ou erupção cutânea) 
+- dor abdominal intensa, especialmente se acompanhada de febre, náuseas e vómitos 
+- dor ou aperto no peito grave (que pode se espalhar para os braços, maxilar, pescoço, costas) 
+- falta de ar 
+- suores frios 
+- fraqueza unilateral no braço e/ou perna 
+- fala arrastada </p>
+<p>Pode ter de fazer análises ao sangue antes de começar a tomar Olumiant, ou se ainda estiver a tomar, para 
+verificar se tem uma baixa contagem de glóbulos vermelhos (anemia), uma baixa contagem de glóbulos 
+brancos (neutropenia ou linfopenia), muita gordura no sangue (colesterol) ou níveis elevados das enzimas 
+hepáticas, para garantir que o tratamento com Olumiant não está a causar problemas.  </p>
+<p>Crianças e adolescentes 
+Se possível, crianças e adolescentes devem estar com as vacinas todas em dia antes de utilizar Olumiant. </p>
+<p>Não dê este medicamento a crianças com menos de 2 anos de idade. </p>
+<p>Não dê este medicamento a crianças e adolescentes com alopecia areata com menos de 18 anos de idade, 
+porque não existem informações sobre a utilização nesta doença. </p>
+<p>Outros medicamentos e Olumiant 
+Fale com o seu médico ou farmacêutico se estiver a utilizar, ou tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. </p>
+<p>Informe sobretudo o seu médico ou farmacêutico antes de tomar Olumiant, se estiver a utilizar qualquer 
+outro medicamento como: 
+- probenecida (para a gota), pois este medicamento pode aumentar os níveis de Olumiant no sangue. 
+Se estiver a tomar probenecida, a dose recomendada de Olumiant para adultos é de 2 mg, uma vez 
+por dia, e para crianças e adolescentes a dose deve ser reduzida para metade. 
+- medicamentos antirreumatismais injetáveis 
+- medicamentos injetáveis que inibam o sistema imunitário, incluindo as terapêuticas biológicas 
+dirigidas (anticorpos) 
+- medicamentos utilizados para controlar a resposta imunitária do organismo, como azatioprina, 
+tacrolímus ou ciclosporina 
+- outros medicamentos pertencentes ao grupo dos inibidores da Janus quinase 
+- medicamentos que podem aumentar o risco de diverticulite, tais como medicamentos 
+anti-inflamatórios não esteroides (geralmente utilizados para tratar patologias dolorosas e/ou 
+inflamatórias dos músculos ou das articulações) e/ou opioides (utilizados no tratamento da dor 
+intensa) e/ou corticosteroides (geralmente utilizados no tratamento de doenças inflamatórias) (ver 
+secção 4). </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou se planeia engravidar, consulte o seu médico ou 
+farmacêutico antes de tomar este medicamento. </p>
+<p>Deverá utilizar contracetivos eficazes para evitar engravidar durante o tratamento com Olumiant e, pelo 
+menos, durante uma semana após a última toma de Olumiant. Fale com o seu médico se engravidar, pois 
+Olumiant não deve ser utilizado durante a gravidez.  </p>
+<p>Não utilize Olumiant se estiver a amamentar, pois não se sabe se este medicamento passa para o leite 
+materno. Consulte o seu médico para decidirem se deve amamentar ou tomar Olumiant. Não deverá fazer 
+as duas coisas em simultâneo. </p>
+<p>Condução de veículos e utilização de máquinas 
+Olumiant não tem qualquer efeito sobre a capacidade de conduzir e utilizar máquinas. </p>
+<p>Olumiant contém sódio 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar olumiant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar olumiant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento deve ser iniciado por um médico com experiência no diagnóstico e tratamento da sua 
+doença. Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o 
+seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>Adultos com artrite reumatoide, dermatite atópica e alopecia areata 
+A dose recomendada é de 4 mg, uma vez por dia. O seu médico poderá receitar-lhe uma dose mais baixa 
+de 2 mg, uma vez por dia, principalmente se tiver mais de 65 anos de idade ou se tiver um risco acrescido 
+de infeções, coágulos sanguíneos, acontecimentos cardiovasculares major ou cancro. </p>
+<p>Se estiver a responder bem ao tratamento, o seu médico poderá decidir que a dose pode ser reduzida.  </p>
+<p>Se tiver uma função renal diminuída, a dose recomendada de Olumiant é de 2 mg, uma vez por dia. </p>
+<p>Uso em crianças e adolescentes 
+A dose recomendada é de 4 mg, uma vez ao dia, para doentes ≥ 30 kg. Para doentes com 10 kg a &lt; 30 kg, 
+a dose recomendada é de 2 mg, uma vez ao dia. </p>
+<p>Se tem função renal reduzida, a dose recomendada de Olumiant deve ser reduzida para metade. </p>
+<p>Para doentes pediátricos que não conseguem engolir comprimidos inteiros, os comprimidos podem ser 
+dispersos em água: 
+- Coloque o comprimido inteiro num recipiente com 5-10 ml de água à temperatura ambiente e agite 
+suavemente para dispersar (desfazer) o comprimido. Poderá levar até 10 minutos para que o 
+comprimido se disperse numa suspensão rosa-pálida turva. Poderá ocorrer alguma sedimentação. 
+- Após a dispersão do comprimido, agite suavemente novamente e depois engula a mistura de 
+imediato. 
+- Lave o recipiente com 5-10 ml de água à temperatura ambiente, agitando e engula a mistura de 
+imediato para garantir que a dose completa é ingerida. </p>
+<p>Apenas água deve ser usada para dispersar o comprimido. 
+Depois de o comprimido estar disperso em água, este pode ser utilizado até 4 horas, se mantido à 
+temperatura ambiente. 
+Se um comprimido é disperso em água e apenas uma parte da dose dispersa é ingerida, espere até ao dia 
+seguinte para tomar a próxima dose calendarizada. </p>
+<p>Modo de administração 
+Olumiant destina-se a administração oral. Deverá engolir o seu comprimido com água.  </p>
+<p>Pode tomar os comprimidos com ou sem alimentos. Para o ajudar a lembrar-se de tomar Olumiant, poderá 
+ser mais fácil para si tomá-lo todos os dias à mesma hora. </p>
+<p>Se tomar mais Olumiant do que deveria 
+Se tomar mais Olumiant do que deveria, consulte o seu médico. Poderá ter alguns dos efeitos indesejáveis 
+descritos na secção 4.<br />
+Caso se tenha esquecido de tomar Olumiant<br />
+- Se se esqueceu de tomar este medicamento, tome-o assim que se lembrar. 
+- Se se esqueceu de o tomar durante um dia inteiro, omita a dose de que se esqueceu e tome uma dose 
+única no dia seguinte, como habitualmente.<br />
+- Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. </p>
+<p>Se parar de tomar Olumiant<br />
+Não pare de tomar o seu medicamento a menos que o seu médico lhe diga para o fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Infeção como a zona e pneumonia, que podem afetar até 1 em 10 pessoas: 
+Informe imediatamente o seu médico ou procure ajuda médica se tiver os seguintes sintomas, que podem ser 
+sinais de: 
+- zona (herpes zoster): erupção cutânea dolorosa com bolhas e febre (foram muito raros na dermatite 
+atópica e pouco frequentes na alopecia areata) 
+- pneumonia: tosse persistente, febre, falta de ar e cansaço (foi pouco frequente na dermatite atópica e 
+na alopecia areata) 
+Pneumonia grave e herpes zoster grave foram pouco frequentes. </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- infeções da garganta e do nariz 
+- níveis altos de gordura no sangue (colesterol) revelados por uma análise ao sangue </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- Feridas (herpes simplex) 
+- infeção que provoque dores de estômago ou diarreia (gastroenterite) 
+- infeção urinária 
+- número elevado de plaquetas (células envolvidas na coagulação do sangue), revelado por uma 
+análise ao sangue (foi pouco frequente na dermatite atópica e na alopecia areata) 
+- dor de cabeça 
+- sentir indisposição no estômago (náusea; foi pouco frequente na dermatite atópica) 
+- dor de estômago (foi pouco frequente na alopecia areata) 
+- níveis elevados de enzimas hepáticas, revelados por uma análise ao sangue (foi pouco frequente na 
+dermatite atópica) 
+- erupção na pele 
+- acne (foi pouco frequente na artrite reumatoide) 
+- aumento de uma enzima chamada creatina quinase, revelada numa análise ao sangue (foi pouco 
+frequente na artrite reumatoide) 
+- inflamação (inchaço) dos folículos capilares particularmente na região do couro cabeludo associada 
+a novo crescimento do cabelo (observada na alopecia areata) </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) 
+- número baixo de glóbulos brancos (neutrófilos), revelado por uma análise ao sangue 
+- níveis elevados de gordura no sangue (triglicéridos), revelados por uma análise ao sangue 
+- níveis elevados de enzimas hepáticas, revelados por uma análise ao sangue (foi frequente na 
+alopecia areata) 
+- aumento de peso 
+- inchaço na face 
+- urticária 
+- coágulos sanguíneos nos vasos sanguíneos dos pulmões 
+- coágulo sanguíneo nas veias das pernas ou da pelve, chamado de trombose venosa profunda (TVP) 
+- diverticulite (inflamação dolorosa de pequenas bolsas na parede do intestino). </p>
+<p>Crianças e adolescentes 
+‒ 
+Artrite idiopática juvenil poliarticular, artrite relacionada com entesite e artrite psoriática 
+juvenil: num estudo com crianças com idade igual ou superior a 2 anos com artrite idiopática 
+juvenil poliarticular, artrite relacionada com entesite e artrite psoriática juvenil, a dor de cabeça foi 
+muito frequente, e um baixo número de glóbulos brancos e coágulos sanguíneos nos pulmões foram 
+frequentes (1 em cada 82 crianças). 
+‒ 
+Dermatite atópica pediátrica: num estudo com crianças com idade igual ou superior a 2 anos com 
+dermatite atópica, os efeitos indesejáveis foram consistentes com os observados em doentes adultos, 
+com a exceção do baixo número de glóbulos brancos (neutrófilos), que foi mais frequente em 
+comparação aos adultos. </p>
+<p>Comunicação de efeitos indesejáveis<br />
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
+fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar olumiant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar olumiant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Este medicamento não necessita de condições especiais de conservação. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e blister após 
+“EXP". A data de validade refere-se ao último dia do mês indicado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Olumiant<br />
+- A substância ativa é baricitinib. Cada comprimido contém 1, 2 ou 4 miligramas do baricitinib. </p>
+<ul>
+<li>Os outros componentes são: celulose microcristalina, croscarmelose sódica (ver secção 2 “Olumiant 
+contém sódio"), estearato de magnésio, manitol, óxido de ferro vermelho (E172), lecitina (soja) 
+(E322), macrogol, álcool polivinílico, talco, dióxido de titânio (E171). </li>
+</ul>
+<p>Qual o aspeto de Olumiant e conteúdo da embalagem 
+Os comprimidos de Olumiant 1 mg revestidos por película são comprimidos redondos de 6,75 mm, cor 
+rosa muito pálido, com “Lilly" gravado numa das faces e “1" na outra.  </p>
+<p>Os comprimidos de Olumiant 2 mg revestidos por película são comprimidos oblongos de 9 x 7,5 mm, 
+rosa-pálido, com “Lilly" gravado numa das faces e “2" na outra.  </p>
+<p>Os comprimidos de Olumiant 4 mg revestidos por película são redondos de 8,5 mm, de cor rosa, com 
+“Lilly" gravado numa das faces e “4" na outra.  </p>
+<p>Os comprimidos são arredondados e têm uma parte côncava nas extremidades para ajudar a tirá-los. </p>
+<p>Olumiant 1 mg está disponível em embalagens com blisters de 14 e 28 comprimidos em blisters calendário 
+e 28 x 1 comprimidos em blisters perfurados de dose unitária. Olumiant 2 mg e 4 mg está disponível em 
+embalagens com blisters de 14, 28, 35, 56, 84 e 98 comprimidos em blisters calendário e 28 x 1 e 
+84 x 1 comprimidos em blisters perfurados de dose unitária. É possível que não sejam comercializadas 
+todas as apresentações.  </p>
+<p>Titular da Autorização de Introdução 
+Titular da Autorização de Introdução no Mercado: Eli Lilly Nederland B.V., Papendorpseweg 83, 3528BJ, 
+Utrecht, Países Baixos. </p>
+<p>Fabricante<br />
+Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Espanha. </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado: </p>
+<p>Belgique/België/Belgien 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84<br />
+Lietuva 
+Eli Lilly Lietuva 
+Tel. +370 (5) 2649България 
+ТП "Ели Лили Недерланд" Б.В. - България 
+тел. + 359 2 491 41<br />
+Luxembourg/luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Česká republika 
+ELI LILLY ČR, s.r.o. 
+Tel: + 420 234 664 Magyarország 
+Lilly Hungária Kft. 
+Tel: + 36 1 328 5 
+Danmark 
+Eli Lilly Danmark A/S<br />
+Tlf: +45 45 26 60<br />
+Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600 Deutschland 
+Lilly Deutschland GmbH 
+Tel. + 49-(0) 6172 273 2Nederland 
+Eli Lilly Nederland B.V.<br />
+Tel: + 31-(0) 30 60 25<br />
+Eesti 
+Eli Lilly Nederland B.V.<br />
+Tel: +372 6 817<br />
+Norge 
+Eli Lilly Norge A.S.<br />
+Tlf: + 47 22 88 18<br />
+Ελλάδα 
+ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
+Τηλ: +30 210 629 4 
+Österreich 
+Eli Lilly Ges.m.b.H.<br />
+Tel: + 43-(0) 1 711 España 
+Lilly S.A. 
+Tel: + 34-91 663 50<br />
+Polska 
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33 France 
+Lilly France<br />
+Tél: +33-(0) 1 55 49 34<br />
+Portugal 
+Lilly Portugal Produtos Farmacêuticos, Lda 
+Tel: + 351-21-4126Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350<br />
+România 
+Eli Lilly România S.R.L. 
+Tel: + 40 21 4023Ireland 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 
+Slovenija 
+Eli Lilly farmacevtska družba, d.o.o. 
+Tel: +386 (0)1 580 00 Ísland 
+Icepharma hf. 
+Sími + 354 540 8 
+Slovenská republika 
+Eli Lilly Slovakia s.r.o. 
+Tel: + 421 220 663 Italia 
+Eli Lilly Italia S.p.A. 
+Tel: + 39- 055 42 
+Suomi/Finland 
+Oy Eli Lilly Finland Ab<br />
+Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Phadisco Ltd<br />
+Τηλ: +357 22 715 
+Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0) 8 7378Latvija 
+Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā 
+Tel: +371 67364 
+United Kingdom (Northern Ireland) 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 
+Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1048,6 +1505,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-e9af86ad22ac9c13e3208cd0b150b229"
 * entry[0].resource = composition-da-e9af86ad22ac9c13e3208cd0b150b229
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe9af86ad22ac9c13e3208cd0b150b229"
+* entry[=].resource = mpe9af86ad22ac9c13e3208cd0b150b229
+                            
+                    
+Instance: bundlepackageleaflet-pt-e9af86ad22ac9c13e3208cd0b150b229
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for olumiant Package Leaflet for language pt"
+Description: "ePI document Bundle for olumiant Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-e9af86ad22ac9c13e3208cd0b150b229"
+* entry[0].resource = composition-pt-e9af86ad22ac9c13e3208cd0b150b229
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpe9af86ad22ac9c13e3208cd0b150b229"
@@ -1149,6 +1628,18 @@ RuleSet: e9af86ad22ac9c13e3208cd0b150b229ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-e9af86ad22ac9c13e3208cd0b150b229) // olumiant pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

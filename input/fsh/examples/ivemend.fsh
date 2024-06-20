@@ -890,6 +890,421 @@ fysisk og kemisk kompatibilitet (se pkt. 6.2 i produktresuméet).</p>         </
 
 
 
+Instance: composition-pt-dce45db374fd85c6f1ce99ef66d24944
+InstanceOf: CompositionUvEpi
+Title: "Composition for ivemend Package Leaflet"
+Description:  "Composition for ivemend Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpdce45db374fd85c6f1ce99ef66d24944)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ivemend"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é IVEMEND e para que é utilizado
+2. O que precisa de saber antes de utilizar IVEMEND
+3. Como utilizar IVEMEND
+4. Efeitos indesejáveis possíveis
+5. Como conservar IVEMEND
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ivemend e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ivemend e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IVEMEND contém a substância ativa fosaprepitant que é convertida em aprepitant no seu corpo.
+Pertence ao grupo de medicamentos denominado “antagonistas do recetor da neuroquinina 1 (NK1)".
+O cérebro tem uma zona específica que controla náuseas e vómitos. IVEMEND atua bloqueando os
+sinais para essa zona, reduzindo deste modo as náuseas e vómitos. IVEMEND é utilizado em adultos,
+adolescentes e crianças com idade igual ou superior a 6 meses em associação com outros
+medicamentos para prevenir náuseas e vómitos causados pela quimioterapia (tratamento do cancro)
+que é um forte ou moderado indutor de náuseas e vómitos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ivemend"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ivemend"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize IVEMEND
+- se tem alergia ao fosaprepitant, aprepitant, ao polissorbato 80 ou a qualquer outro componente
+deste medicamento (indicados na secção 6).
+- com medicamentos contendo pimozida (usada para tratar doenças psiquiátricas), terfenadina e
+astemizol (usados para tratar a febre dos fenos e outras doenças alérgicas), cisaprida (usada para
+problemas digestivos). Informe o seu médico se está a tomar estes medicamentos, pois esse
+tratamento deverá ser modificado antes de começar a utilizar IVEMEND.
+Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar IVEMEND.
+Antes do tratamento com este medicamento fale com o seu médico se tiver doença do fígado, uma vez
+que o seu fígado é importante na transformação do medicamento no corpo. O seu médico pode, por
+isso, ter de monitorizar o estado do seu fígado.
+Crianças e adolescentes
+Não dê IVEMEND a crianças com menos de 6 meses de idade ou que pesem menos de 6 kg, pois este
+medicamento não foi estudado nesta população.
+31
+Outros medicamentos e IVEMEND 
+IVEMEND pode afetar outros medicamentos durante e após o tratamento com IVEMEND. Há alguns
+medicamentos que não devem ser tomados com IVEMEND (como pimozida, terfenadina, astemizol e
+cisaprida), ou que necessitam de um acerto da dose (ver também “Não utilize IVEMEND"). 
+Os efeitos de IVEMEND ou de outros medicamentos podem ser influenciados se tomar IVEMEND
+com outros medicamentos incluindo os listados a seguir. Informe o seu médico ou farmacêutico se
+estiver a tomar algum dos seguintes medicamentos:
+- medicamentos contracetivos, que podem incluir pílulas contracetivas, adesivos transdérmicos,
+implantes e alguns dispositivos intrauterinos (DIUs) que libertam hormonas, podem não atuar
+de forma adequada quando tomados em conjunto com IVEMEND. Deverá ser usado outro
+método de contraceção não hormonal ou um método adicional durante o tratamento com
+IVEMEND e durante 2 meses após a utilização de IVEMEND,
+- ciclosporina, tacrolímus, sirolímus, everolímus (imunossupressores), 
+- alfentanilo, fentanilo (usados para tratar a dor), 
+- quinidina (usada para tratar irregularidades no ritmo cardíaco),
+- irinotecano, etoposido, vinorelbina, ifosfamida (medicamentos usados no tratamento de cancro)
+- medicamentos contendo alcaloides derivados da cravagem do centeio, tais como ergotamina e
+diergotamina (usados no tratamento das enxaquecas), 
+- varfarina, acenocumarol (medicamento diluem o sangue [anticoagulantes]; podem ser
+necessárias análises sanguíneas)
+- rifampicina, claritromicina, telitromicina (antibióticos utilizados para tratar infeções),
+- fenitoína (usado no tratamento de convulsões),
+- carbamazepina (usada no tratamento da depressão e da epilepsia);
+- midazolam, triazolam, fenobarbital (medicamentos que acalmam ou ajudam a dormir),
+- preparações de plantas medicinais contendo hipericão (usadas no tratamento da depressão),
+- inibidores da protease (usados no tratamento da infeção pelo VIH),
+- cetoconazol, exceto champô (utilizado para tratar o síndrome de Cushing - quando o corpo
+produz um excesso de cortisol), 
+- itraconazol, voriconazol, posaconazol (antifúngicos),
+- nefazodona (usada para tratar a depressão),
+- diltiazem (medicamento usado no tratamento da hipertensão)
+- corticosteroides (como a dexametasona)
+- medicamentos para a ansiedade (como o alprazolam), 
+- tolbutamida (um medicamento usado para tratar a diabetes).
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a
+tomar outros medicamentos ou medicamentos à base de plantas.
+Gravidez e amamentação
+Este medicamento não deve ser utilizado durante a gravidez a menos que seja manifestamente
+necessário. Se está grávida ou a amamentar, se pode estar grávida ou planeia engravidar, consulte o
+seu médico antes de tomar este medicamento.
+Para informações sobre contraceção, ver “Outros medicamentos e IVEMEND".
+Desconhece-se se IVEMEND é excretado no leite humano; por isso, não se recomenda a
+amamentação durante o tratamento com este medicamento. É importante dizer ao seu médico se está a
+amamentar ou se está a planear amamentar antes de utilizar este medicamento.
+Condução de veículos e utilização de máquinas
+Deve ter-se em consideração que algumas pessoas sentem tonturas ou sonolência após usar
+IVEMEND. Se sentir tonturas ou sonolência não deve conduzir ou utilizar máquinas após utilizar este
+medicamento (ver “Efeitos indesejáveis possíveis").
+32
+IVEMEND contém sódio
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente
+“isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ivemend"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ivemend"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Em adultos (18 anos de idade e mais velhos), a dose recomendada de IVEMEND é 150 mg de
+fosaprepitant no Dia 1 (dia da quimioterapia).
+Em crianças e adolescentes (dos 6 meses aos 17 anos de idade), a dose recomendada de IVEMEND é
+baseada na idade e peso do doente. Dependendo do tratamento de quimioterapia, IVEMEND pode ser
+dado de duas formas:</p>
+<p>IVEMEND é dado apenas no Dia 1 (dia único de quimioterapia)</p>
+<p>IVEMEND é dado no Dia 1, 2 e 3 (dia único ou múltiplos dias de quimioterapia)
+o 
+As formulações orais de aprepitant podem ser prescritas nos Dias 2 e 3 em vez de
+IVEMEND.
+O pó é reconstituído e diluído antes da utilização. A solução para perfusão é administrada por um
+profissional de saúde, como um médico ou um enfermeiro, por perfusão intravenosa (gota a gota),
+aproximadamente 30 minutos antes do início do tratamento de quimioterapia em adultos ou 60 -
+ 90 minutos antes de iniciar o tratamento de quimioterapia em crianças e adolescentes. O seu médico
+pode pedir-lhe que tome outros medicamentos para prevenir náuseas e vómitos, incluindo um
+corticosteroide (como a dexametasona) e um antagonista da 5HT3 (como o ondansetrom). Fale com o
+seu médico ou farmacêutico se tiver dúvidas.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não
+se manifestem em todas as pessoas.
+Pare de tomar IVEMEND e consulte imediatamente um médico se sentir algum dos seguintes
+efeitos adversos, que podem ser graves e para os quais pode precisar de tratamento médico
+urgente:
+- urticária, erupção cutânea (na pele), comichão, dificuldade a respirar ou engolir ou uma
+diminuição grave da tensão arterial (frequência desconhecida, não é possível determinar a partir
+da informação disponível); estes são sinais de reação alérgica grave.
+- Reações no local de perfusão (RLP) ou próximo do local de perfusão. As RLP mais graves
+ocorreram com um certo tipo de medicamento de quimioterapia que pode queimar ou provocar
+bolhas na pele (vesicante) com efeitos indesejáveis, incluindo dor, inchaço e vermelhidão.
+Ocorreu morte de tecido cutâneo (necrose) em algumas pessoas a tomar este tipo de
+medicamento de quimioterapia. 
+Outros efeitos indesejáveis que foram comunicados encontram-se listados em baixo:
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) são: 
+- obstipação (prisão de ventre), indigestão,
+- dor de cabeça, 
+- cansaço,
+- perda de apetite,
+- soluços,
+- aumento dos valores dos testes sanguíneos ao fígado no seu sangue.
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) são:
+- tonturas, insónia,
+- acne, erupção cutânea,
+33
+- ansiedade, 
+- arroto, náuseas, vómito, azia, dor no estômago, boca seca, libertação de gases intestinais,
+aumento da frequência do ato de urinar com dor ou ardor, 
+- fraqueza, sensação geral de mal-estar,
+- vermelhidão na face/pele, afrontamentos
+- pulsação rápida ou irregular, aumento da tensão arterial,
+- febre com risco aumentado de infeção, diminuição dos glóbulos vermelhos,
+- dor no local de perfusão, vermelhidão no local de perfusão, comichão no local de perfusão,
+inflamação da veia no local de perfusão.
+Efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas) são:
+- dificuldade em pensar, falta de energia, distúrbios no paladar,
+- sensibilidade da pele ao sol, transpiração excessiva, pele oleosa, irritação na pele, erupção
+cutânea com comichão, síndrome de Stevens-Johnson/necrólise epidérmica tóxica (reação grave
+rara na pele), 
+- euforia (sensação de felicidade extrema), desorientação,
+- infeção bacteriana, infeção fúngica, 
+- prisão de ventre grave, úlcera no estômago, inflamação do intestino delgado e cólon, úlceras na
+boca, flatulência, 
+- aumento da frequência do ato de urinar, aumento do volume da urina, presença de açúcar ou
+sangue na urina, 
+- desconforto no peito, inchaço, alteração na forma de andar,
+- tosse, presença de muco na região posterior da garganta, irritação na garganta, espirros, garganta
+irritada,
+- secreções e comichão nos olhos,
+- zumbidos nos ouvidos,
+- cãibras musculares, fraqueza muscular,
+- sede excessiva,
+- pulsação lenta, doença do coração ou dos vasos sanguíneos,
+- diminuição dos glóbulos brancos, diminuição dos níveis de sódio no sangue, perda de peso,
+- endurecimento no local da perfusão.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ivemend"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ivemend"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem e no frasco para
+injetáveis após EXP. Os primeiros 2 algarismos indicam o mês; os últimos 4 algarismos indicam o
+ano.
+Conservar no frigorífico (2ºC - 8ºC).
+A solução reconstituída e diluída é estável durante 24 horas a 25ºC.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
+o ambiente.
+34</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de IVEMEND
+- A substância ativa é o fosaprepitant. Cada frasco para injetáveis contém fosaprepitant
+dimeglumina equivalente a 150 mg de fosaprepitant. Após reconstituição e diluição, 1 ml de
+solução contém 1 mg de fosaprepitant (1 mg/ml).
+-<br />
+Os outros componentes são: edetato dissódico (E386), polissorbato 80 (E433), lactose anidra,
+hidróxido de sódio (E524) (para ajuste do pH) e/ou ácido clorídrico diluído (E507) (para ajuste
+do pH).
+Qual o aspeto de IVEMEND e conteúdo da embalagem
+IVEMEND é um pó para solução para perfusão branco a esbranquiçado.
+O pó está num frasco para injetáveis transparente de vidro, com uma rolha de borracha e com um selo
+em alumínio com uma cápsula de abertura fácil de plástico cinzenta.
+Cada frasco para injetáveis contém 150 mg de fosaprepitant. Dimensão das embalagens: 1 ou
+10 frascos para injetáveis.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado e Fabricante
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Países Baixos</p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular
+da Autorização de Introdução no Mercado:
+Belgique/België/Belgien 
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@msd.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel. + 370 5278 02 47
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel:  +32(0)27766211
+dpoc_belux@msd.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +36 1 888 5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: + 45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com 
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland 
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999 (+31 23 5153153)
+medicalinfo.nl@merck.com
+35
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Eλλάδα
+MSD Α .Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o. 
+Tel: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: +33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@msd.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila
+d.o.o.
+Tel: +386 1 5204 201
+msd_slovenia@merck.com
+Ísland
+Vistor hf.
+Simi: +354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421 2 58282010
+dpoc_czechslovak@merck.com
+Ιtalia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ.: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: +371 67364224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human
+Health) Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Este folheto foi revisto pela última vez em 
+36
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+
+
+
 
 
                     
@@ -931,6 +1346,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-dce45db374fd85c6f1ce99ef66d24944"
 * entry[0].resource = composition-da-dce45db374fd85c6f1ce99ef66d24944
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdce45db374fd85c6f1ce99ef66d24944"
+* entry[=].resource = mpdce45db374fd85c6f1ce99ef66d24944
+                            
+                    
+Instance: bundlepackageleaflet-pt-dce45db374fd85c6f1ce99ef66d24944
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ivemend Package Leaflet for language pt"
+Description: "ePI document Bundle for ivemend Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-dce45db374fd85c6f1ce99ef66d24944"
+* entry[0].resource = composition-pt-dce45db374fd85c6f1ce99ef66d24944
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpdce45db374fd85c6f1ce99ef66d24944"
@@ -1032,6 +1469,18 @@ RuleSet: dce45db374fd85c6f1ce99ef66d24944ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-dce45db374fd85c6f1ce99ef66d24944) // ivemend pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

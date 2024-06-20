@@ -875,6 +875,475 @@ efterfølgende opbevares i infusionsposen i 4 timer ved temperaturer under 25°C
 
 
 
+Instance: composition-pt-15a641fc1891be6ddabc72928a523139
+InstanceOf: CompositionUvEpi
+Title: "Composition for naveruclif Package Leaflet"
+Description:  "Composition for naveruclif Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp15a641fc1891be6ddabc72928a523139)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - naveruclif"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Naveruclif e para que é utilizado </li>
+<li>O que precisa de saber antes de receber Naveruclif </li>
+<li>Como utilizar Naveruclif </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Naveruclif </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é naveruclif e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é naveruclif e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Naveruclif contém como substância ativa o paclitaxel, ligado à proteína albumina humana, na forma 
+de pequenas partículas conhecidas por nanopartículas. O paclitaxel pertence a um grupo de 
+medicamentos chamados “taxanos" utilizados no tratamento do cancro. 
+ 
+O paclitaxel é a parte do medicamento que afeta o cancro, atua parando a divisão das células 
+cancerosas - isto significa que elas morrem. 
+ 
+A albumina é a parte que ajuda o paclitaxel dissolver-se no sangue e a atravessar as paredes dos 
+vasos sanguíneos para o interior do tumor. Isto significa que outras substâncias químicas que 
+podem causar efeitos indesejáveis, os quais podem constituir um risco de vida, não são 
+necessárias. Estes efeitos indesejáveis ocorrem com muito menor frequência com Naveruclif. </p>
+<p>Para que é utilizado Naveruclif 
+Naveruclif é utilizado para tratar os seguintes tipos de cancro: </p>
+<p>Cancro da mama 
+ 
+Cancro da mama que se espalhou para outras partes do corpo (chama-se a isto cancro da mama 
+metastático). 
+ 
+Naveruclif é utilizado no cancro da mama metastático quando foi utilizada pelo menos outra 
+terapêutica, mas sem qualquer resultado e não puder fazer tratamentos que contenham um grupo 
+de medicamentos chamados “antraciclinas". 
+ 
+As pessoas com cancro metastático da mama que foram tratadas com Naveruclif quando outras 
+terapêuticas não tiveram sucesso, tiveram uma maior probabilidade de ter uma redução do 
+tamanho do tumor e viveram mais tempo do que as pessoas que tomaram uma terapêutica 
+alternativa. </p>
+<p>Cancro do pâncreas 
+ 
+Naveruclif é utilizado com um medicamento chamado gemcitabina se tiver um cancro 
+metastático do pâncreas. As pessoas com cancro metastático do pâncreas (cancro do pâncreas 
+que se espalhou por outras partes do corpo), que foram tratadas com Naveruclif e gemcitabina 
+num ensaio clínico viveram mais tempo do que as pessoas a receber apenas gemcitabina. </p>
+<p>Cancro do pulmão 
+ 
+Naveruclif é também utilizado juntamente com um medicamento chamado carboplatina se tiver 
+o tipo de cancro do pulmão mais frequente chamado “cancro do pulmão de não pequenas 
+células". 
+ 
+Naveruclif é utilizado no cancro do pulmão de não pequenas células, quando a cirurgia ou a 
+radioterapia não são adequadas para tratar a doença. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar naveruclif"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar naveruclif"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Naveruclif 
+ 
+se tem alergia ao paclitaxel ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+ 
+se estiver a amamentar. 
+ 
+se tiver uma contagem baixa de glóbulos brancos (contagens de neutrófilos na situação de 
+referência &lt; 1500 células/mm3 - o seu médico irá aconselhá-lo relativamente a este aspeto). </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou enfermeiro antes de utilizar Naveruclif 
+ 
+se tiver dificuldades na função renal; 
+ 
+se tiver problemas graves de fígado; 
+ 
+se tiver problemas cardíacos. </p>
+<p>Fale com o seu médico ou enfermeiro se apresentar alguma destas situações enquanto estiver a ser 
+tratado com Naveruclif; o seu médico poderá interromper o tratamento ou reduzir a dose:<br />
+ 
+se tiver, de forma anormal, nódoas negras, hemorragias ou sinais de infeções, como dores de 
+garganta ou febre; 
+ 
+se sentir dormência, formigueiros, sensação de picadas, sensibilidade ao toque ou fraqueza 
+muscular; 
+ 
+se tiver problemas em respirar, como falta de ar ou tosse seca. </p>
+<p>Crianças e adolescentes 
+Naveruclif é apenas para adultos e não deve ser tomado por crianças e adolescentes com idade inferior 
+a 18 anos. </p>
+<p>Outros medicamentos e Naveruclif 
+Informe o seu médico se estiver a tomar ou tiver tomado recentemente outros medicamentos, incluindo 
+medicamentos obtidos sem receita médica e medicamentos à base de plantas. Isto porque Naveruclif 
+pode afetar o modo como os outros medicamentos atuam. Para além disso, outros medicamentos 
+podem afetar o modo de funcionamento de Naveruclif. </p>
+<p>Tenha cuidado e fale com o seu médico ao tomar Naveruclif ao mesmo tempo que qualquer um dos 
+seguintes: 
+ 
+medicamentos para tratar infeções (i.e., antibióticos tais como a eritromicina, rifampicina, etc; 
+fale com o seu médico, enfermeiro ou farmacêutico se não tiver a certeza se o medicamento que 
+está a tomar é um antibiótico) e incluindo medicamentos para tratar infeções fúngicas (por ex., 
+cetoconazol) 
+ 
+medicamentos utilizados para estabilizar o seu humor, por vezes também designados 
+antidepressivos (por ex., fluoxetina) 
+ 
+medicamentos utilizados para tratar convulsões (epilepsia) (por ex., carbamazepina, fenitoína) 
+ 
+medicamentos utilizados para ajudar a baixar os níveis de lípidos no sangue (por ex., 
+gemfibrozil) 
+ 
+medicamentos utilizados para tratar a azia ou úlceras de estômago (por ex., cimetidina) 
+ 
+medicamentos utilizados para tratar o VIH ou a SIDA (por ex., ritonavir, saquinavir, indinavir, 
+nelfinavir, efavirenz, nevirapina) 
+ 
+um medicamento chamado clopidogrel utilizado para prevenir coágulos de sangue. </p>
+<p>Gravidez, amamentação e fertilidade 
+O paclitaxel poderá provocar graves anomalias congénitas, pelo que não deve ser utilizado se estiver 
+grávida. O seu médico irá solicitar a realização de um teste de gravidez antes de iniciar o tratamento 
+com Naveruclif. </p>
+<p>As mulheres com potencial para engravidar deverão utilizar um método contracetivo eficaz durante e 
+até um mês após o tratamento com Naveruclif. </p>
+<p>Não amamente enquanto estiver a receber Naveruclif pois não se sabe se o ingrediente ativo paclitaxel 
+passa para o leite materno. </p>
+<p>Os doentes do sexo masculino são aconselhados a utilizar um método contracetivo eficaz e a evitar 
+conceber um filho durante e até seis meses após o tratamento, e deverão procurar aconselhamento 
+acerca da conservação do esperma antes do tratamento, por causa da possibilidade de infertilidade 
+irreversível devida à terapêutica com Naveruclif. </p>
+<p>Consulte o seu médico antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Algumas pessoas podem sentir cansaço ou tonturas depois de receberem Naveruclif. Se isto lhe 
+acontecer, não conduza veículos nem utilize quaisquer ferramentas ou maquinaria. </p>
+<p>Caso lhe sejam administrados outros medicamentos como parte do seu tratamento, deve aconselhar-se 
+junto do seu médico no que respeita à condução de veículos e utilização de máquinas. </p>
+<p>Naveruclif contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 100 mg, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar naveruclif"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar naveruclif"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Naveruclif ser-lhe-á administrado por um médico ou enfermeiro por perfusão intravenosa. A dose que 
+recebe é baseada na sua área de superfície corporal e nos resultados das análises ao sangue. A dose 
+habitual para o cancro da mama é de 260 mg/m2 de área de superfície corporal administrada durante 
+um período de 30 minutos. A dose habitual no cancro avançado do pâncreas é de 125 mg/m2 da área 
+de superfície corporal administrada durante um período de 30 minutos. A dose habitual para o cancro 
+do pulmão de não pequenas células é de 100 mg/m2 de área de superfície corporal durante um período 
+de 30 minutos. </p>
+<p>Com que frequência irá receber Naveruclif? 
+No tratamento do cancro metastático da mama, Naveruclif é habitualmente administrado uma vez de 
+três em três semanas (no dia 1 de um ciclo de 21 dias).  </p>
+<p>No tratamento do cancro avançado do pâncreas, Naveruclif é administrado nos dias 1, 8 e 15 de cada 
+ciclo de tratamento de 28 dias sendo a gemcitabina administrada imediatamente depois do Naveruclif. </p>
+<p>No tratamento do cancro do pulmão de não pequenas células, Naveruclif é administrado uma vez por 
+semana (isto é, nos dias 1, 8 e 15 de cada ciclo de 21 dias), sendo a carboplatina administrada uma vez 
+de 3 em 3 semanas (isto é, apenas no dia 1 de cada ciclo de 21 dias) imediatamente depois de se 
+administrar a dose de Naveruclif. </p>
+<p>Fale com o seu médico ou enfermeiro se tiver dúvidas. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis muito frequentes podem afetar mais de 1 em cada 10 pessoas: 
+ 
+Perda de cabelo (a maioria dos casos de perda de cabelo ocorreu no primeiro mês de tratamento 
+com Naveruclif. Quando ocorre, a perda de cabelo é pronunciada (mais de 50%) na maioria dos 
+doentes) 
+ 
+Erupção cutânea 
+ 
+Diminuição anormal do número de tipos de glóbulos brancos (neutrófilos, linfócitos ou 
+leucócitos) no sangue 
+ 
+Deficiência de glóbulos vermelhos 
+ 
+Redução do número de plaquetas no sangue 
+ 
+Efeito sobre os nervos periféricos (dor, entorpecimento, formigueiro ou perda de sensação) 
+ 
+Dor numa ou mais articulações 
+ 
+Dores musculares 
+ 
+Náuseas, diarreia, prisão de ventre, feridas na boca, perda de apetite 
+ 
+Vómitos 
+ 
+Fraqueza e cansaço, febre 
+ 
+Desidratação, perturbação do paladar, perda de peso 
+ 
+Níveis baixos de potássio no sangue 
+ 
+Depressão, problemas de sono 
+ 
+Dores de cabeça 
+ 
+Arrepios 
+ 
+Dificuldade em respirar 
+ 
+Tonturas 
+ 
+Inchaço das mucosas e dos tecidos moles 
+ 
+Aumento dos valores das provas de função hepática 
+ 
+Dor nas extremidades 
+ 
+Tosse 
+ 
+Dor abdominal 
+ 
+Hemorragias do nariz </p>
+<p>Os efeitos indesejáveis frequentes podem afetar até 1  em cada 10 pessoas: 
+ 
+Comichão, pele seca, problemas nas unhas 
+ 
+Infeção, febre com diminuição do número de um tipo de glóbulos brancos (neutrófilos) no 
+sangue, rubor, aftas, infeção grave no sangue que pode ser causada pela diminuição de glóbulos 
+brancos 
+ 
+Diminuição da contagem de todas as células do sangue 
+ 
+Dor de garganta ou no peito 
+ 
+Indigestão, desconforto abdominal 
+ 
+Nariz entupido 
+ 
+Dor nas costas, dor nos ossos 
+ 
+Diminuição da coordenação muscular ou dificuldade em ler, aumento ou diminuição da 
+produção de lágrimas, perda de pestanas 
+ 
+Alterações na frequência ou ritmo cardíaco, insuficiência cardíaca 
+ 
+Diminuição ou aumento da tensão arterial 
+ 
+Vermelhidão ou inchaço no local onde a agulha foi introduzida no corpo<br />
+ 
+Ansiedade 
+ 
+Infeção nos pulmões 
+ 
+Infeção do trato urinário 
+ 
+Obstrução nos intestinos, inflamação do intestino grosso, inflamação do canal biliar 
+ 
+Insuficiência renal aguda 
+ 
+Aumento da bilirrubina do sangue 
+ 
+Expetorar sangue ao tossir 
+ 
+Boca seca, dificuldade em engolir 
+ 
+Fraqueza muscular 
+ 
+Visão turva </p>
+<p>Os efeitos indesejáveis pouco frequentes podem afetar até 1  em cada 100 pessoas: 
+ 
+aumento do peso, aumento de lactato desidrogenase no sangue, diminuição da função renal, 
+glicémia aumentada, fósforo aumentado no sangue 
+ 
+diminuição ou falta de reflexos, movimentos involuntários, dores num nervo, desmaio, tonturas 
+quando está de pé, tremores, paralisia do nervo facial 
+ 
+olhos irritados, dor nos olhos, olhos vermelhos, comichão nos olhos, visão dupla, visão reduzida 
+ou ver luzes a piscarem, visão desfocada devido a inchaço da retina (edema macular cistoide) 
+ 
+dor de ouvidos, zumbido nos ouvidos 
+ 
+tossir com expetoração, falta de ar ao caminhar ou subir escadas, corrimento nasal ou nariz seco, 
+diminuição do som da respiração, líquido no pulmão, perda de voz, coágulo de sangue nos 
+pulmões, garganta seca 
+ 
+gases, cãibra no estômago, dor ou inflamação nas gengivas, sangramento retal 
+ 
+dor ao urinar, urinar com frequência, sangue na urina, incontinência urinária 
+ 
+dor nas unhas, desconforto nas unhas, perda das unhas; urticária; dor na pele; reação de 
+fotossensibilidade, descoloração da pele, aumento da transpiração, suores noturnos, zonas 
+brancas na pele, feridas, cara inchada 
+ 
+diminuição de fósforo no sangue, retenção de líquidos, albumina baixa no sangue, aumento da 
+sede, diminuição de cálcio no sangue, glicémia reduzida no sangue, diminuição do sódio no 
+sangue 
+ 
+dor e inchaço no nariz, infeções na pele, infeção relacionada com o cateter 
+ 
+hematomas 
+ 
+dor do lado do tumor, necrose tumoral 
+ 
+diminuição da tensão arterial quando está de pé, mãos e pés frios 
+ 
+dificuldade em andar, inchaço 
+ 
+reação alérgica 
+ 
+diminuição da função hepática, aumento do tamanho do fígado 
+ 
+dor na mama 
+ 
+inquietação 
+ 
+pequenas hemorragias na pele causadas por coágulos de sangue 
+ 
+uma afeção que envolve a destruição dos glóbulos vermelhos e insuficiência renal aguda </p>
+<p>Os efeitos indesejáveis raros podem afetar até 1  em cada 1000 pessoas: 
+ 
+reação na pele a outro agente ou inflamação no pulmão após radiação 
+ 
+coágulo de sangue 
+ 
+pulso muito lento, ataque cardíaco 
+ 
+derrame do medicamento para fora da veia 
+ 
+uma perturbação do sistema de condução elétrica do coração (bloqueio auriculoventricular) </p>
+<p>Os efeitos indesejáveis muito raros podem afetar até 1  em cada 10 000 pessoas: 
+ 
+inflamação/erupção cutânea grave da pele e das membranas mucosas (síndrome de Stevens-
+Johnson, necrólise epidérmica tóxica) </p>
+<p>Efeitos indesejáveis desconhecidos (a frequência não pode ser calculada a partir dos dados 
+disponíveis): 
+ 
+Endurecimento/espessamento da pele (esclerodermia) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar naveruclif"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar naveruclif"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco 
+para injetáveis, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Frascos para injetáveis não abertos: Manter o frasco para injetáveis dentro da embalagem exterior para 
+proteger da luz. </p>
+<p>Após a primeira reconstituição, a dispersão deve ser utilizada de imediato. Se não for utilizada de 
+imediato, a dispersão poderá ser armazenada no frigorífico (2°C-8°C) até 24 horas, no frasco para 
+injetáveis quando mantido na embalagem exterior para proteger da luz. </p>
+<p>A dispersão reconstituída para perfusão intravenosa pode ser armazenada no frigorífico (2°C-8°C) até 
+24 horas, protegida da luz. </p>
+<p>A estabilidade química e física na utilização foi demonstrada durante 24 horas, entre 2°C-8°C, quando 
+protegida da luz, seguida de 4 horas a 25°C, quando não protegida da luz. </p>
+<p>O seu médico ou farmacêutico é responsável pela eliminação correta de quaisquer porções não usadas 
+de Naveruclif. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Naveruclif 
+ 
+A(s) substância(s) ativa(s) é(são) o paclitaxel. Cada frasco para injetáveis contém 100 mg de 
+paclitaxel formulado como nanopartículas ligadas à albumina. Após a reconstituição, cada ml de 
+dispersão contém 5 mg de paclitaxel formulado como nanopartículas ligadas à albumina. 
+ 
+O outro componente é a albumina (humana) (que contém caprilato de sódio e N-acetil-L-
+triptofano), ver secção 2 “Naveruclif contém sódio". </p>
+<p>Qual o aspeto de Naveruclif e conteúdo da embalagem 
+Naveruclif é um pó ou aglomerado liofilizado branco a amarelo para dispersão para perfusão. 
+Naveruclif está disponível em frascos para injetáveis de vidro, contendo 100 mg de paclitaxel 
+formulado como nanopartículas ligadas à albumina. </p>
+<p>Cada embalagem contém 1 frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Accord Healthcare S.L.U. 
+World Trade Center, Moll De Barcelona s/n,<br />
+Edifici Est, 6a Planta,<br />
+Barcelona, 08039,<br />
+Espanha </p>
+<p>Fabricante 
+Accord Healthcare Polska Sp.z o.o. 
+ul. Lutomierska 50, 
+95-200 Pabianice, Polónia </p>
+<p>Ou 
+Laboratori Fundació Dau 
+C/ C, 12-14 Pol. Ind. 
+Zona Franca, Barcelona, 08040, 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o Titular da Autorização de 
+Introdução no Mercado: </p>
+<p>AT / BE / BG / CY / CZ / DE / DK / EE / ES / FI / FR / HR / HU / IE / IS / IT / LT / LV / LX / MT / 
+NL / NO / PL / PT / RO / SE / SI / SK / UK (NI) </p>
+<p>Accord Healthcare S.L.U.<br />
+Tel: +34 93 301 00 64  </p>
+<p>EL<br />
+Win Medica Α.Ε. 
+Τel: +30 210 74 88<br />
+Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -916,6 +1385,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-15a641fc1891be6ddabc72928a523139"
 * entry[0].resource = composition-da-15a641fc1891be6ddabc72928a523139
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp15a641fc1891be6ddabc72928a523139"
+* entry[=].resource = mp15a641fc1891be6ddabc72928a523139
+                            
+                    
+Instance: bundlepackageleaflet-pt-15a641fc1891be6ddabc72928a523139
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for naveruclif Package Leaflet for language pt"
+Description: "ePI document Bundle for naveruclif Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-15a641fc1891be6ddabc72928a523139"
+* entry[0].resource = composition-pt-15a641fc1891be6ddabc72928a523139
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp15a641fc1891be6ddabc72928a523139"
@@ -1017,6 +1508,18 @@ RuleSet: 15a641fc1891be6ddabc72928a523139ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-15a641fc1891be6ddabc72928a523139) // naveruclif pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

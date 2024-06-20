@@ -658,6 +658,350 @@ er nævnt i denne indlægsseddel. Se afsnit 4. </p>
 
 
 
+Instance: composition-pt-49f2652f369e152b2094223d335e67b9
+InstanceOf: CompositionUvEpi
+Title: "Composition for xofluza Package Leaflet"
+Description:  "Composition for xofluza Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp49f2652f369e152b2094223d335e67b9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - xofluza"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Xofluza e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Xofluza </li>
+<li>Como tomar Xofluza </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Xofluza </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é xofluza e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é xofluza e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Xofluza </p>
+<p>Xofluza contém baloxavir marboxil. Este é um tipo de medicamento antivírico denominado de 
+“inibidor da endonuclease dependente de cap".  </p>
+<p>Xofluza é utilizado para tratar e prevenir a gripe. Este medicamento impede que o vírus da gripe se 
+espalhe pelo corpo e ajuda a reduzir o tempo até à recuperação dos sintomas.  </p>
+<p>Para que é utilizado Xofluza  </p>
+<ul>
+<li>
+<p>Xofluza é utilizado para tratar a gripe em doentes com idade igual ou superior a 1 ano que 
+tenham sintomas de gripe há menos de 48 horas. </p>
+</li>
+<li>
+<p>Xofluza é utilizado para prevenir a gripe em indivíduos com idade igual ou superior a 1 ano que 
+tenham estado em contacto próximo com alguém que se saiba, ou se suspeite, ter gripe. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar xofluza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar xofluza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Xofluza: </p>
+<ul>
+<li>se tem alergia ao baloxavir marboxil ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </li>
+</ul>
+<p>Advertências e precauções  </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Xofluza. </p>
+<p>Bebés e crianças </p>
+<p>Não dê este medicamento a crianças com idade inferior a 1 ano. Isto porque os efeitos de Xofluza 
+nesta faixa etária não são conhecidos.  </p>
+<p>Outros medicamentos e Xofluza </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.  </p>
+<p>Não tome Xofluza com:  </p>
+<ul>
+<li>laxantes, antiácidos ou suplementos orais que contenham ferro, zinco, selénio, cálcio ou magnésio </li>
+</ul>
+<p>Os medicamentos acima indicados podem reduzir o efeito de Xofluza.  </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, é preferível evitar a 
+utilização de Xofluza, como medida de precaução. Consulte o seu médico ou farmacêutico antes de 
+tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Não é provável que Xofluza altere a sua capacidade de conduzir e utilizar máquinas. </p>
+<p>Xofluza contém lactose </p>
+<p>Xofluza contém lactose (um tipo de açúcar). Se foi informado pelo seu médico que tem intolerância a 
+alguns açúcares, contacte-o antes de tomar este medicamento. </p>
+<p>Xofluza contém sódio </p>
+<p>Este medicamento contém menos do que 23 mg de sódio por comprimido, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar xofluza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar xofluza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Quando tomar Xofluza </p>
+<p>Para o tratamento da gripe, tome Xofluza como uma dose única assim que possível, até 48 horas após 
+o início dos seus sintomas de gripe. </p>
+<p>Para prevenção da gripe, tome Xofluza como uma dose única assim que possível, até 48 horas após a 
+exposição a uma pessoa infetada. </p>
+<p>Que quantidade de Xofluza tomar </p>
+<p>A sua dose de Xofluza depende do seu peso. O seu médico ou farmacêutico irão dizer-lhe quanto deve 
+tomar.  </p>
+<p>O seu peso </p>
+<p>Dose de Xofluza 
+&lt; 20 kg 
+Consulte o folheto informativo de Xofluza granulado para 
+suspensão oral. 
+≥ 20 kg - &lt; 80 kg<br />
+Dose única de 40 mg tomada na forma de 
+- 2 comprimidos de 20 mg </p>
+<p>80 kg ou mais </p>
+<p>Dose única de 80 mg tomada na forma de<br />
+- 2 comprimidos de 40 mg </p>
+<p>Xofluza pode ser tomado com ou sem alimentos. Tome todos os comprimidos com água.   </p>
+<p>Se tomar mais Xofluza do que deveria </p>
+<p>Se tomar acidentalmente mais deste medicamento do que deveria, aconselhe-se com o seu médico ou 
+farmacêutico. </p>
+<p>Caso se tenha esquecido de tomar Xofluza </p>
+<p>Se se tiver esquecido de tomar parte ou a totalidade da sua dose, tome-a assim que possível.  </p>
+<p>Para o tratamento da gripe, Xofluza deve ser tomado até 48 horas após o início dos seus sintomas de 
+gripe. </p>
+<p>Para a prevenção da gripe, Xofluza deve ser tomado até 48 horas após o contacto próximo com alguém 
+que se saiba ou se suspeite ter gripe. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Adultos, adolescentes e crianças 
+Procure assistência médica imediatamente se tiver qualquer um dos seguintes efeitos 
+indesejáveis graves: </p>
+<ul>
+<li>Reação alérgica grave (anafilaxia), com sinais como inchaço da face ou da pele, erupções na 
+pele com comichão, pressão arterial baixa e dificuldade em respirar </li>
+</ul>
+<p>A frequência destes efeitos indesejáveis não pode ser estimada a partir dos dados disponíveis. </p>
+<p>Outros efeitos indesejáveis possíveis: 
+O efeito indesejável seguinte é pouco frequente (pode afetar até 1 em cada 100 doentes): </p>
+<ul>
+<li>Erupção na pele com comichão </li>
+</ul>
+<p>Crianças (1 a &lt; 12 anos) 
+Os efeitos indesejáveis seguintes são frequentes (podem afetar até 1 em cada 10 doentes): </p>
+<ul>
+<li>Diarreia, erupção cutânea e vómitos </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar xofluza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar xofluza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior 
+após EXP/VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de qualquer temperatura especial de conservação. </p>
+<p>Conservar na embalagem de origem para proteger da humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Xofluza  </p>
+<ul>
+<li>
+<p>A substância ativa é baloxavir marboxil.  </p>
+</li>
+<li>
+<p>Cada comprimido revestido por película de 20 mg contém 20 mg de baloxavir marboxil. Cada 
+comprimido revestido por película de 40 mg contém 40 mg de baloxavir marboxil. </p>
+</li>
+<li>
+<p>Os outros componentes são lactose mono-hidratada (ver Secção 2 “Xofluza contém lactose"), 
+croscarmelose sódica ((E468), (ver Secção 2 “Xofluza contém sódio")), povidona (K25) 
+(E1201), celulose microcristalina (E460), estearil fumarato de sódio no núcleo do comprimido, 
+e hipromelose (E464), talco (E553b) e dióxido de titânio (E171) no revestimento por película. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Xofluza e conteúdo da embalagem </p>
+<p>Xofluza 20 mg comprimidos são comprimidos revestidos por película brancos a amarelos claro, 
+oblongos, com a inscrição “
+ 772" numa das faces e “20" na outra. </p>
+<p>Xofluza 20 mg comprimidos revestidos por película estão disponíveis em embalagens blister de 2 
+comprimidos.  </p>
+<p>Xofluza 40 mg comprimidos são comprimidos revestidos por película brancos a amarelos claro, 
+oblongos, com a inscrição “BXM40" numa das faces.  </p>
+<p>Xofluza 40 mg comprimidos revestidos por película estão disponíveis em embalagens blister de 2 
+comprimidos. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Roche Registration GmbH 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Fabricante </p>
+<p>Roche Pharma AG 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular<br />
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+N.V. Roche S.A. 
+Tél/Tel: +32 (0) 2 525 82<br />
+Lietuva 
+UAB “Roche Lietuva" 
+Tel: +370 5 2546 
+България 
+Рош България ЕООД 
+Тел: +359 2 818 44<br />
+Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>Česká republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382Magyarország 
+Roche (Magyarország) Kft. 
+Tel: +36 - 1 279 4Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99<br />
+Malta 
+(See Ireland) </p>
+<p>Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624<br />
+Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438 
+Eesti 
+Roche Eesti OÜ 
+Tel: + 372 - 6 177<br />
+Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90<br />
+Ελλάδα 
+Roche (Hellas) A.E.<br />
+Τηλ: +30 210 61 66<br />
+Österreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27 
+España 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81 00  </p>
+<p>Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18 88.<br />
+France 
+Roche 
+Tél: +33  (0)1 47 61 40<br />
+Portugal 
+Roche Farmacêutica Química, Lda. 
+Tel: +351 - 21 425 70<br />
+Hrvatska 
+Roche d.o.o. 
+Tel: + 385 1 47 22<br />
+România 
+Roche România S.R.L. 
+Tel: +40 21 206 47<br />
+Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0 
+Slovenija 
+Roche farmacevtska družba d.o.o. 
+Tel: +386 - 1 360 26<br />
+Ísland<br />
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika<br />
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638 
+Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2 
+Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554  </p>
+<p>Kύπρος<br />
+Γ.Α.Σταμάτης &amp; Σια Λτδ. 
+Τηλ: +357 - 22 76 62<br />
+Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1 
+Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039 
+United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -699,6 +1043,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-49f2652f369e152b2094223d335e67b9"
 * entry[0].resource = composition-da-49f2652f369e152b2094223d335e67b9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp49f2652f369e152b2094223d335e67b9"
+* entry[=].resource = mp49f2652f369e152b2094223d335e67b9
+                            
+                    
+Instance: bundlepackageleaflet-pt-49f2652f369e152b2094223d335e67b9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xofluza Package Leaflet for language pt"
+Description: "ePI document Bundle for xofluza Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-49f2652f369e152b2094223d335e67b9"
+* entry[0].resource = composition-pt-49f2652f369e152b2094223d335e67b9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp49f2652f369e152b2094223d335e67b9"
@@ -800,6 +1166,18 @@ RuleSet: 49f2652f369e152b2094223d335e67b9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-49f2652f369e152b2094223d335e67b9) // xofluza pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

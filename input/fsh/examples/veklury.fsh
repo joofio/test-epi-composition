@@ -1159,6 +1159,508 @@ eller gemmes. </p>
 
 
 
+Instance: composition-pt-0884c8c34711aaaaa6729d5f920f611f
+InstanceOf: CompositionUvEpi
+Title: "Composition for veklury Package Leaflet"
+Description:  "Composition for veklury Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0884c8c34711aaaaa6729d5f920f611f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - veklury"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Veklury e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe darem Veklury </li>
+<li>Como lhe é dado Veklury </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Veklury </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é veklury e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é veklury e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A substância ativa no Veklury é o remdesivir. É um medicamento antiviral utilizado para o tratamento 
+de COVID-19.<br />
+A COVID-19 é causada por um vírus chamado coronavírus. Veklury interrompe a multiplicação do 
+vírus nas células, o que interrompe a multiplicação do vírus no corpo. Isto pode ajudar o seu corpo a 
+ultrapassar a infeção viral e pode ajudá-lo/a a melhorar mais depressa. </p>
+<p>Veklury será dado para tratar a COVID-19 em: </p>
+<ul>
+<li>
+<p>adultos e crianças (com, pelo menos, 4 semanas de idade e pesando, pelo menos, 3 kg) 
+que têm pneumonia e que precisam de oxigénio adicional para os ajudar a respirar, mas 
+que não estão sob ventilação artificial (quando são usados meios mecânicos para assistir 
+ou substituir a respiração espontânea no início do tratamento). </p>
+</li>
+<li>
+<p>adultos e crianças (pesando, pelo menos, 40 kg) que não precisam de oxigénio adicional 
+para os ajudar a respirar e que apresentam risco aumentado de progredir para COVID-grave. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar veklury"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar veklury"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Normalmente não lhe darão Veklury: </p>
+<ul>
+<li>se tem alergia ao remdesivir ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+ Fale com o seu médico ou enfermeiro assim que for possível, caso isto se aplique a si. </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou enfermeiro antes de iniciar Veklury: </p>
+<ul>
+<li>
+<p>se tiver problemas de rins. O seu médico poderá monitorizá-lo/a se tiver problemas de rins 
+para garantir a sua segurança. </p>
+</li>
+<li>
+<p>se estiver imunocomprometido/a. O seu médico poderá monitorizá-lo/a mais atentamente se o 
+seu sistema imunitário não estiver a funcionar devidamente para garantir que o tratamento está a 
+atuar. </p>
+</li>
+</ul>
+<p>Reações após a perfusão 
+Veklury pode causar reações alérgicas durante e após a perfusão, incluindo reações anafiláticas 
+(reações alérgicas súbitas potencialmente fatais). Foram observadas raramente reações alérgicas. No 
+caso das reações anafiláticas, a frequência não pode ser calculada a partir dos dados disponíveis. Os 
+sintomas podem incluir: </p>
+<ul>
+<li>
+<p>Alterações na tensão arterial ou nos batimentos cardíacos </p>
+</li>
+<li>
+<p>Níveis de oxigénio baixos no sangue </p>
+</li>
+<li>
+<p>Temperatura alta </p>
+</li>
+<li>
+<p>Falta de ar, pieira </p>
+</li>
+<li>
+<p>Inchaço na face, lábios, língua ou garganta (angioedema) </p>
+</li>
+<li>
+<p>Erupção na pele </p>
+</li>
+<li>
+<p>Sensação de mal-estar (náuseas) </p>
+</li>
+<li>
+<p>Enjoos (vómitos) </p>
+</li>
+<li>
+<p>Transpiração excessiva </p>
+</li>
+<li>
+<p>Arrepios. </p>
+</li>
+</ul>
+<p> Informe o seu médico ou enfermeiro imediatamente se notar algum destes efeitos. </p>
+<p>Análises ao sangue antes e durante o tratamento 
+Se lhe for prescrito Veklury, poderão fazer-lhe análises ao sangue antes do tratamento começar. Os 
+doentes tratados com Veklury poderão realizar análises ao sangue durante o tratamento conforme 
+indicado pelo profissional de saúde. Estas análises são para verificar se há problemas de rins. </p>
+<p>Crianças e adolescentes 
+Veklury não é para ser dado a crianças com menos de 4 semanas de idade ou a crianças que pesam 
+menos de 3 kg. Não se sabe o suficiente sobre Veklury para ser dado a estas crianças. </p>
+<p>Outros medicamentos e Veklury 
+Informe o seu médico ou enfermeiro sobre outros medicamentos que estiver a tomar ou tiver tomado 
+recentemente. </p>
+<p>Não tome cloroquina ou hidroxicloroquina ao mesmo tempo que Veklury. </p>
+<p> Informe o seu médico se estiver a tomar algum destes medicamentos. </p>
+<p>Gravidez e amamentação 
+Fale com o seu médico ou enfermeiro se estiver grávida, ou puder estar. Não existe informação 
+suficiente para ter a certeza de que é seguro utilizar Veklury no primeiro trimestre da gravidez. 
+Veklury apenas deve ser dado se os potenciais benefícios do tratamento superarem os potenciais riscos 
+para a mãe e para o feto. Fale com o seu médico sobre a necessidade de utilizar métodos 
+contracetivos eficazes durante o tratamento com Veklury. </p>
+<p>Fale com o seu médico ou enfermeiro se estiver a amamentar. Veklury passa para o leite materno 
+humano em quantidades muito pequenas. Uma vez que a experiência com a utilização durante a 
+amamentação é limitada, deve discutir cuidadosamente com o seu médico se deve continuar ou 
+interromper a amamentação durante o tratamento com Veklury. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não se prevê que Veklury tenha qualquer efeito sobre a sua capacidade para conduzir. </p>
+<p>Veklury contém uma ciclodextrina 
+Este medicamento contém 3 g de sulfobutil éter betaciclodextrina sódica em cada dose de 100 mg de 
+Veklury (6 g na dose inicial). Este componente é uma ciclodextrina emulsionante que ajuda o 
+medicamento a dispersar-se pelo corpo. </p>
+<p>Veklury contém sódio 
+Este medicamento contém 212 mg de sódio (principal componente do sal de cozinha/sal de mesa) em 
+cada dose unitária de 100 mg. Isto é equivalente a 10,6% da ingestão diária máxima de sódio 
+recomendada na dieta para um adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar veklury"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar veklury"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Veklury ser-lhe-á dado por um enfermeiro ou médico, na forma de gota a gota numa veia (uma 
+perfusão intravenosa) durante 30 a 120 minutos, uma vez por dia. Será atentamente monitorizado 
+durante o tratamento. </p>
+<p>Dose recomendada para adultos e crianças </p>
+<p>Adultos 
+Crianças (pesando, 
+pelo menos, 40 kg) 
+Crianças com, pelo menos, 
+4 semanas de idade 
+(pesando, pelo menos, 3 kg, 
+mas menos de 40 kg) 
+Dia 1 
+(dose inicial única) 
+200 mg 
+200 mg 
+5 mg por kg de peso corporal 
+Dia 2 e posteriormente 
+(uma vez por dia) 
+100 mg 
+100 mg 
+2,5 mg por kg de peso 
+corporal </p>
+<p>Quanto tempo dura o tratamento </p>
+<p>Adultos </p>
+<p>Crianças (pesando, 
+pelo menos, 40 kg) 
+Crianças com, pelo menos, 
+4 semanas de idade 
+(pesando, pelo menos, 3 kg, 
+mas menos de 40 kg) 
+Doentes que têm 
+pneumonia e precisam 
+de oxigénio adicional 
+Diariamente durante, 
+pelo menos, 5 dias. 
+Poderá ser 
+prolongado até um 
+total de 10 dias. 
+Diariamente durante, 
+pelo menos, 5 dias. 
+Poderá ser 
+prolongado até um 
+total de 10 dias. 
+Diariamente durante um 
+total de 10 dias. 
+Doentes que não 
+precisam de oxigénio 
+adicional e que 
+apresentam risco 
+aumentado de progredir 
+para COVID-19 grave 
+Diariamente durante 
+3 dias, começando 
+dentro de 7 dias após 
+o aparecimento de 
+sintomas de 
+COVID-19. Diariamente durante 
+3 dias, começando 
+dentro de 7 dias após 
+o aparecimento de 
+sintomas de 
+COVID-19. Não aplicável. </p>
+<p>Consulte as Instruções para os profissionais de saúde que faculta informações sobre o modo de 
+administração da perfusão de Veklury. </p>
+<p>Se lhe derem mais ou menos Veklury do que deveriam 
+Uma vez que Veklury é dado por um profissional de saúde, é pouco provável que lhe venham a dar 
+Veklury a mais ou a menos. Se lhe derem uma dose extra, ou se falharem uma dose, informe o seu 
+enfermeiro ou médico imediatamente. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis podem ser ou podem tornar-se graves: </p>
+<p>Raros 
+(estes podem afetar até 1 em 1000 doentes) </p>
+<ul>
+<li>
+<p>Reações alérgicas após ou durante a perfusão. Os sintomas podem incluir: </p>
+</li>
+<li>
+<p>Alterações na tensão arterial ou nos batimentos cardíacos </p>
+</li>
+<li>
+<p>Níveis de oxigénio baixos no sangue </p>
+</li>
+<li>
+<p>Temperatura alta </p>
+</li>
+<li>
+<p>Falta de ar, pieira </p>
+</li>
+<li>
+<p>Inchaço na face, lábios, língua ou garganta (angioedema) </p>
+</li>
+<li>
+<p>Erupção na pele </p>
+</li>
+<li>
+<p>Sensação de mal-estar (náuseas) </p>
+</li>
+<li>
+<p>Enjoos (vómitos) </p>
+</li>
+<li>
+<p>Transpiração excessiva </p>
+</li>
+<li>
+<p>Arrepios. </p>
+</li>
+</ul>
+<p>Desconhecido 
+(a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>Reações anafiláticas, choque anafilático (reações alérgicas súbitas potencialmente fatais) 
+Os sintomas são os mesmos das reações alérgicas, no entanto, a reação é mais grave e requer cuidados 
+médicos imediatos. </p>
+</li>
+<li>
+<p>Bradicardia sinusal (batimentos cardíacos mais lentos do que o normal). 
+ Informe o seu médico ou enfermeiro imediatamente se notar algum destes efeitos. </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis: </p>
+<p>Efeitos indesejáveis muito frequentes 
+(estes poderão afetar mais do que 1 em 10 doentes) </p>
+<ul>
+<li>
+<p>As análises ao sangue poderão mostrar um aumento nas enzimas do fígado chamadas 
+transaminases </p>
+</li>
+<li>
+<p>As análises ao sangue poderão mostrar que o sangue demora mais tempo a coagular. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes 
+(estes poderão afetar até 1 em 10 doentes) </p>
+<ul>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Sensação de mal-estar (náuseas) </p>
+</li>
+<li>
+<p>Erupção na pele. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar veklury"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar veklury"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<ul>
+<li>
+<p>Antes de usar, este medicamento não precisa de quaisquer condições especiais de conservação. </p>
+</li>
+<li>
+<p>Uma vez reconstituído, Veklury deve ser diluído imediatamente. </p>
+</li>
+<li>
+<p>Uma vez diluído, Veklury deve ser utilizado imediatamente. Se necessário, os sacos contendo a 
+solução diluída podem ser conservados até 24 horas a uma temperatura inferior a 25 °C ou até 
+48 horas num frigorífico. Não deixe passar mais de 48 horas entre a diluição e a administração. </p>
+</li>
+</ul>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Veklury </p>
+<ul>
+<li>
+<p>A substância ativa é o remdesivir. Cada frasco para injetáveis contém 100 mg. </p>
+</li>
+<li>
+<p>Os outros componentes são: sulfobutil éter betaciclodextrina sódica, ácido clorídrico e 
+hidróxido de sódio. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Veklury e conteúdo da embalagem 
+Veklury 100 mg pó para concentrado para solução para perfusão é um pó branco, esbranquiçado a 
+amarelo, a ser reconstituído e, depois, diluído em solução de cloreto de sódio antes da administração 
+através de perfusão intravenosa. É fornecido num frasco para injetáveis de vidro transparente de uso 
+único. </p>
+<p>Veklury está disponível em embalagens que contêm 1 frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel.: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél : + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC. 
+Tel: + 44 (0) 8000 113  </p>
+<p>Este folheto foi revisto pela última vez em . </p>
+<p>Outras fontes de informação </p>
+<p>Digitalize o código abaixo com um dispositivo móvel para obter esta informação em línguas 
+diferentes. </p>
+<p>Código QR a ser incluído www.veklury.eu </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1200,6 +1702,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-0884c8c34711aaaaa6729d5f920f611f"
 * entry[0].resource = composition-da-0884c8c34711aaaaa6729d5f920f611f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0884c8c34711aaaaa6729d5f920f611f"
+* entry[=].resource = mp0884c8c34711aaaaa6729d5f920f611f
+                            
+                    
+Instance: bundlepackageleaflet-pt-0884c8c34711aaaaa6729d5f920f611f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for veklury Package Leaflet for language pt"
+Description: "ePI document Bundle for veklury Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-0884c8c34711aaaaa6729d5f920f611f"
+* entry[0].resource = composition-pt-0884c8c34711aaaaa6729d5f920f611f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp0884c8c34711aaaaa6729d5f920f611f"
@@ -1301,6 +1825,18 @@ RuleSet: 0884c8c34711aaaaa6729d5f920f611fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-0884c8c34711aaaaa6729d5f920f611f) // veklury pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

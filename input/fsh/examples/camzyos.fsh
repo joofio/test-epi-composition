@@ -772,6 +772,430 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-39ac69c93b0288d89a0cb9d145b02fcc
+InstanceOf: CompositionUvEpi
+Title: "Composition for camzyos Package Leaflet"
+Description:  "Composition for camzyos Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp39ac69c93b0288d89a0cb9d145b02fcc)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - camzyos"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é CAMZYOS e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar CAMZYOS </li>
+<li>Como tomar CAMZYOS </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar CAMZYOS </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é camzyos e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é camzyos e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é CAMZYOS 
+CAMZYOS contém a substância ativa mavacamten. O mavacamten é um inibidor reversível da 
+miosina cardíaca, o que significa que altera a ação da proteína muscular miosina nas células do 
+músculo cardíaco. </p>
+<p>Para que é utilizado CAMZYOS 
+CAMZYOS é utilizado para tratar adultos com um tipo de doença cardíaca chamada miocardiopatia 
+obstrutiva hipertrófica (MCOH). </p>
+<p>Sobre a miocardiopatia obstrutiva hipertrófica 
+A miocardiopatia hipertrófica (MCH) é uma doença em que as paredes da câmara cardíaca esquerda 
+(ventrículo) se contraem com mais força e se tornam mais espessas do que o normal. À medida que 
+ficam mais espessas, as paredes podem bloquear (obstruir) o fluxo de sangue para fora do coração e 
+podem também tornar o coração rígido. Esta obstrução faz com que seja mais difícil para o sangue 
+fluir para dentro e para fora do coração e ser bombeado para o corpo a cada batimento cardíaco, uma 
+condição conhecida como miocardiopatia obstrutiva hipertrófica (MCOH). Os sintomas da MCOH 
+são: dor no peito e falta de ar (especialmente com exercício físico); cansaço, ritmos cardíacos 
+anormais, tonturas, sensação de se estar prestes a desmaiar, desmaio (síncope) e inchaço dos 
+tornozelos, pés, pernas, abdómen e/ou veias do pescoço. </p>
+<p>Como funciona CAMZYOS 
+CAMZYOS funciona reduzindo o excesso de contração do coração e a obstrução do fluxo sanguíneo 
+para o corpo. Como resultado, pode melhorar os seus sintomas e a sua capacidade para estar ativo. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar camzyos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar camzyos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome CAMZYOS se: </p>
+<ul>
+<li>
+<p>tem alergia ao mavacamten ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>está grávida ou é uma mulher com potencial para engravidar que não utiliza métodos 
+contracetivos eficazes. </p>
+</li>
+<li>
+<p>se está a tomar medicamentos que possam aumentar o nível de CAMZYOS no sangue, tais 
+como: </p>
+</li>
+<li>medicamentos orais para tratar infeções fúngicas, como itraconazol, cetoconazol, 
+posaconazol, voriconazol, </li>
+<li>determinados medicamentos para tratar infeções bacterianas, como os antibióticos de 
+claritromicina, </li>
+<li>determinados medicamentos para tratar a infeção pelo VIH, como cobicistate, ritonavir, </li>
+<li>determinados medicamentos utilizados para tratar cancro, como ceritinib, idelalisib, 
+tucatinib. 
+Pergunte ao seu médico se o medicamento que está a tomar impede a toma do mavacamten. Ver 
+secção “Outros medicamentos e CAMZYOS" </li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Testes de rotina 
+O seu médico irá avaliar o estado do seu coração (a sua função cardíaca) através de um 
+ecocardiograma (uma ecografia que obtém imagens do seu coração) antes da sua primeira dose e 
+regularmente durante o tratamento com CAMZYOS. É muito importante comparecer nestas consultas 
+de realização de ecocardiogramas, porque o seu médico precisa de verificar o efeito do CAMZYOS no 
+seu coração. A sua dose de tratamento poderá ter de ser ajustada para melhorar a sua resposta ou 
+reduzir os efeitos indesejáveis. 
+Se for uma mulher que pode engravidar, o seu médico poderá realizar um teste de gravidez antes de 
+iniciar o tratamento com CAMZYOS. 
+O seu médico pode realizar um teste para verificar como este medicamento se degrada (metaboliza) no 
+seu corpo porque tal pode ser utilizado para orientar o seu tratamento com CAMZYOS (ver secção 3). </p>
+<p>Informe imediatamente o seu médico ou farmacêutico: </p>
+<ul>
+<li>se tiver algum destes sintomas durante o tratamento com CAMZYOS: </li>
+<li>falta de ar nova ou agravada, </li>
+<li>dor no peito, </li>
+<li>cansaço, </li>
+<li>palpitações (um batimento cardíaco forte que pode ser rápido ou irregular) ou </li>
+<li>
+<p>inchaço das pernas. 
+Estes podem ser sinais e sintomas de disfunção sistólica, uma condição em que o coração não 
+consegue bombear com força suficiente, o que pode ser fatal e levar a insuficiência cardíaca. </p>
+</li>
+<li>
+<p>se desenvolver uma infeção grave ou batimentos cardíacos irregulares (arritmia), dado que pode 
+aumentar o risco de desenvolver insuficiência cardíaca. 
+O seu médico pode precisar de realizar testes adicionais da sua função cardíaca, interromper o 
+tratamento ou alterar a sua dose, dependendo da forma como se sente. </p>
+</li>
+</ul>
+<p>Mulheres com potencial para engravidar 
+Se utilizado durante a gravidez, CAMZYOS pode causar lesões no feto. Antes de iniciar o tratamento 
+com CAMZYOS, o seu médico irá explicar o risco e pedir-lhe para fazer um teste de gravidez para 
+garantir que não está grávida. O seu médico irá dar-lhe um cartão que explica porque não deve 
+engravidar enquanto estiver a tomar CAMZYOS. Explica ainda por que motivo deve evitar engravidar 
+enquanto toma CAMZYOS. Tem de utilizar métodos contracetivos eficazes durante o tratamento e 
+durante, pelo menos, 6 meses depois de parar o tratamento (ver a secção “Gravidez e amamentação"). 
+Se engravidar enquanto estiver a tomar CAMZYOS, informe imediatamente o seu médico. O seu 
+médico irá parar o tratamento (ver “Se parar de tomar CAMZYOS" na secção 3). </p>
+<p>Crianças e adolescentes 
+Não dê este medicamento a crianças (com idade inferior a 18 anos) porque a eficácia e segurança do 
+CAMZYOS não foram estudadas em crianças e adolescentes. </p>
+<p>Outros medicamentos e CAMZYOS 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto porque alguns medicamentos podem afetar a forma como 
+CAMZYOS funciona. 
+Alguns medicamentos podem aumentar a quantidade de CAMZYOS no seu corpo e fazer com que 
+seja mais provável que apresente efeitos indesejáveis que podem ser graves. Outros medicamentos 
+podem reduzir a quantidade de CAMZYOS no seu corpo e podem reduzir os seus efeitos benéficos. 
+Em particular, antes de tomar CAMZYOS, informe o seu médico ou farmacêutico se estiver a tomar, 
+tiver tomado ou tiver alterado recentemente a dose de qualquer um dos seguintes medicamentos: </p>
+<ul>
+<li>
+<p>alguns medicamentos utilizados para reduzir a quantidade de ácido que o seu estômago produz 
+(cimetidina, omeprazol, esomeprazol, pantoprazol) </p>
+</li>
+<li>
+<p>antibióticos para infeções bacterianas (como claritromicina, eritromicina) </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar infeções fúngicas (como itraconazol, fluconazol, 
+cetoconazol, posaconazol e voriconazol) </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar a depressão (como fluoxetina, fluvoxamina, citalopram) </p>
+</li>
+<li>
+<p>medicamentos para infeções pelo VIH (como ritonavir, cobicistate, efavirenz) </p>
+</li>
+<li>
+<p>rifampicina (um antibiótico para infeções bacterianas, como tuberculose) </p>
+</li>
+<li>
+<p>apalutamida, enzalutamida, mitotano, ceritinib, idelalisib, ribociclib, tucatinib (medicamentos 
+utilizados no tratamento de determinados tipos de cancro) </p>
+</li>
+<li>
+<p>medicamentos para ataques epiléticos (convulsões) ou epilepsia (como carbamazepina e 
+fenitoína, fenobarbital, primidona) </p>
+</li>
+<li>
+<p>hipericão (um medicamento à base de plantas para a depressão) </p>
+</li>
+<li>
+<p>medicamentos que afetam o seu coração (como bloqueadores beta e bloqueadores dos canais de 
+cálcio, por exemplo verapamilo e diltiazem) </p>
+</li>
+<li>
+<p>medicamentos que tornam o seu coração mais resistente à atividade anormal (como 
+bloqueadores dos canais de sódio, por exemplo desopiramida) </p>
+</li>
+<li>
+<p>ticlopidina (um medicamento para prevenir ataques cardíacos e AVC) </p>
+</li>
+<li>
+<p>letermovir (um medicamento para tratar infeções por citomegalovírus) </p>
+</li>
+<li>
+<p>noretindrona (um medicamento para tratar vários problemas menstruais) </p>
+</li>
+<li>
+<p>prednisona (esteroide). </p>
+</li>
+</ul>
+<p>Se tomar ou tiver tomado qualquer um destes medicamentos, ou se tiver alterado a dose, o seu médico 
+precisa de monitorizá-lo de forma rigorosa, pode ter de alterar a sua dose de CAMZYOS ou considerar 
+tratamentos alternativos. </p>
+<p>Se não tiver a certeza se está a tomar algum dos medicamentos acima mencionados, pergunte ao seu 
+médico ou farmacêutico antes de tomar CAMZYOS. Antes de parar ou alterar a dose de um 
+medicamento ou iniciar um novo medicamento, informe o seu médico ou farmacêutico. </p>
+<p>Não tome nenhum dos medicamentos acima indicados ocasionalmente ou de vez em quando (sem 
+fazer parte de um calendário regular), dado que pode alterar a quantidade de CAMZYOS no seu corpo. </p>
+<p>CAMZYOS com alimentos e bebidas 
+Deve ter cuidado quando beber sumo de toranja durante o tratamento com CAMZYOS, visto que pode 
+alterar a quantidade de CAMZYOS no seu corpo. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Gravidez 
+Não tome CAMZYOS durante a gravidez, durante 6 meses antes de engravidar ou se for uma mulher 
+com potencial para engravidar que não utiliza métodos contracetivos eficazes. CAMZYOS pode ser 
+prejudicial para o feto. Se for uma mulher que pode engravidar, o seu médico informá-la-á sobre este 
+risco e verificará se está grávida antes de iniciar o tratamento e regularmente durante o tratamento. O 
+seu médico irá dar-lhe um cartão que explica porque não deve engravidar enquanto estiver a tomar 
+CAMZYOS. Se engravidar, se pensa estar grávida ou planeia engravidar enquanto estiver a tomar 
+CAMZYOS, informe imediatamente o seu médico. </p>
+<p>Amamentação 
+Desconhece-se se CAMZYOS passa através do leite materno. Não pode amamentar enquanto estiver a 
+tomar CAMZYOS. </p>
+<p>Condução de veículos e utilização de máquinas 
+O mavacamten pode afetar ligeiramente a sua capacidade de conduzir e utilizar máquinas. Se sentir 
+tonturas enquanto estiver a tomar este medicamento, não conduza um veículo, não ande de bicicleta 
+nem utilize quaisquer ferramentas ou máquinas. </p>
+<p>CAMZYOS contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar camzyos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar camzyos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>Quanto tomar 
+A dose inicial recomendada é de 2,5 mg ou 5 mg tomada por via oral uma vez por dia. O seu médico 
+pode realizar um teste para verificar como este medicamento se degrada (metaboliza) no seu corpo. O 
+resultado pode orientar o seu tratamento com CAMZYOS. Se tiver problemas no fígado, o seu médico 
+pode também prescrever uma dose inicial reduzida. </p>
+<p>O seu médico irá monitorizar o estado de funcionamento do seu coração enquanto estiver a tomar 
+CAMZYOS por meio de ecocardiogramas e poderá alterar a sua dose (aumentar, diminuir ou parar 
+temporariamente), com base nos resultados. </p>
+<p>O seu médico irá dizer-lhe quanto CAMZYOS deve tomar. 
+O seu médico irá prescrever-lhe uma dose diária única de 2,5 mg, 5 mg, 10 mg ou 15 mg. A dose 
+única máxima é de 15 mg uma vez por dia. Só pode tomar uma cápsula por dia para a dose prescrita 
+pelo seu médico, para garantir que recebe a quantidade correta de CAMZYOS. </p>
+<p>Tome sempre CAMZYOS como prescrito pelo seu médico. </p>
+<p>O primeiro ecocardiograma será realizado antes de iniciar o tratamento e novamente durante as 
+consultas de acompanhamento nas semanas 4, 8 e 12 para avaliar a sua resposta a CAMZYOS. 
+Posteriormente, serão realizados ecocardiogramas de rotina a cada 12 semanas. Se, a qualquer 
+momento, o seu médico alterar a sua dose de CAMZYOS, será realizado um ecocardiograma 
+4 semanas depois para garantir que está a receber uma dose benéfica. </p>
+<p>Como tomar este medicamento </p>
+<ul>
+<li>
+<p>Engula a cápsula inteira com um copo de água aproximadamente à mesma hora todos os dias. </p>
+</li>
+<li>
+<p>Pode tomar o medicamento com alimentos ou entre refeições. </p>
+</li>
+</ul>
+<p>Se tomar mais CAMZYOS do que deveria 
+Se tomar mais cápsulas do que deveria, contacte o seu médico ou dirija-se imediatamente a um 
+hospital se tiver tomado 3 a 5 vezes a dose recomendada. Se possível, leve consigo a embalagem do 
+medicamento e este folheto. </p>
+<p>Caso se tenha esquecido de tomar CAMZYOS 
+Caso se tenha esquecido de tomar CAMZYOS à hora habitual, tome a sua dose assim que se lembrar 
+no mesmo dia e tome a sua próxima dose à hora habitual no dia seguinte. Não tome uma dose a dobrar 
+para compensar uma cápsula que se esqueceu de tomar. </p>
+<p>Se parar de tomar CAMZYOS 
+Não pare de tomar CAMZYOS, a menos que o seu médico lhe diga para o fazer. Se quiser parar de 
+tomar CAMZYOS, informe o seu médico para discutir a melhor forma de o fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Informe imediatamente o seu médico ou farmacêutico se tiver algum destes sintomas durante o 
+tratamento com CAMZYOS: </p>
+<ul>
+<li>falta de ar nova ou agravada, dor no peito, cansaço, palpitações (um batimento cardíaco forte 
+que pode ser rápido ou irregular) ou inchaço das pernas. Estes podem ser sinais e sintomas de 
+disfunção sistólica (uma condição em que o coração não consegue bombear com força 
+suficiente), o que pode levar a insuficiência cardíaca e ser fatal. (Efeito indesejável frequente) </li>
+</ul>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>dificuldade em respirar </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>desmaio </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar camzyos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar camzyos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de CAMZYOS </p>
+<ul>
+<li>
+<p>A(s) substância(s) ativa(s) é (são) mavacamten. Cada cápsula contém 2,5 mg, 5 mg, 10 mg ou 
+15 mg de mavacamten. </p>
+</li>
+<li>
+<p>Os outros componentes são: </p>
+</li>
+<li>conteúdo da cápsula: sílica coloidal hidratada, manitol (E421), hipromelose (E464), 
+croscarmelose sódica (E468, ver secção 2 “CAMZYOS contém sódio"), estearato de 
+magnésio </li>
+<li>invólucro da cápsula: 
+CAMZYOS 2,5 mg cápsulas 
+gelatina, dióxido de titânio (E171), óxido de ferro negro (E172), óxido de ferro vermelho 
+(E172) 
+CAMZYOS 5 mg cápsulas 
+gelatina, dióxido de titânio (E171), óxido de ferro amarelo (E172) 
+CAMZYOS 10 mg cápsulas 
+gelatina, dióxido de titânio (E171), óxido de ferro vermelho (E172) 
+CAMZYOS 15 mg cápsulas 
+gelatina, dióxido de titânio (E171), óxido de ferro negro (E172) </li>
+<li>tinta de impressão: óxido de ferro negro (E172), goma-laca (E904), propilenoglicol 
+(E1520), solução de amónia concentrada (E527), hidróxido de potássio (E525). </li>
+</ul>
+<p>Qual o aspeto de CAMZYOS e conteúdo da embalagem </p>
+<ul>
+<li>
+<p>As cápsulas CAMZYOS 2,5 mg, cerca de 18,0 mm de comprimento, têm uma tampa opaca roxa 
+clara e corpo opaco branco impresso a tinta preta com “2.5 mg" na tampa e “Mava" no corpo. </p>
+</li>
+<li>
+<p>As cápsulas CAMZYOS 5 mg, cerca de 18,0 mm de comprimento, têm uma tampa opaca 
+amarela e corpo opaco branco impresso a tinta preta com “5 mg" na tampa e “Mava" no corpo. </p>
+</li>
+<li>
+<p>As cápsulas CAMZYOS 10 mg, cerca de 18,0 mm de comprimento, têm uma tampa opaca 
+cor-de-rosa e corpo opaco branco impresso a tinta preta com “10 mg" na tampa e “Mava" no 
+corpo. </p>
+</li>
+<li>
+<p>As cápsulas CAMZYOS 15 mg, cerca de 18,0 mm de comprimento, têm uma tampa opaca 
+cinzenta e corpo opaco branco impresso a tinta preta com “15 mg" na tampa e “Mava" no corpo. </p>
+</li>
+</ul>
+<p>As cápsulas estão embaladas em blisters de folha de alumínio que contêm 14 cápsulas. </p>
+<p>Cada embalagem contém 14, 28 ou 98 cápsulas. É possível que não sejam comercializadas todas as 
+apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrlanda </p>
+<p>Fabricante 
+Swords Laboratories Unlimited Company T/A Bristol-Myers Squibb Pharmaceutical Operations, 
+External Manufacturing 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrlanda </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -813,6 +1237,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-39ac69c93b0288d89a0cb9d145b02fcc"
 * entry[0].resource = composition-da-39ac69c93b0288d89a0cb9d145b02fcc
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp39ac69c93b0288d89a0cb9d145b02fcc"
+* entry[=].resource = mp39ac69c93b0288d89a0cb9d145b02fcc
+                            
+                    
+Instance: bundlepackageleaflet-pt-39ac69c93b0288d89a0cb9d145b02fcc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for camzyos Package Leaflet for language pt"
+Description: "ePI document Bundle for camzyos Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-39ac69c93b0288d89a0cb9d145b02fcc"
+* entry[0].resource = composition-pt-39ac69c93b0288d89a0cb9d145b02fcc
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp39ac69c93b0288d89a0cb9d145b02fcc"
@@ -914,6 +1360,18 @@ RuleSet: 39ac69c93b0288d89a0cb9d145b02fccListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-39ac69c93b0288d89a0cb9d145b02fcc) // camzyos pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

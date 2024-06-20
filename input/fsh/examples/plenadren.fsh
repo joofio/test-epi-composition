@@ -857,6 +857,481 @@ og om, hvordan de behandles.</p>         </div>"""
 
 
 
+Instance: composition-pt-4be09f952ab4cdf2803ef423dc889e5c
+InstanceOf: CompositionUvEpi
+Title: "Composition for plenadren Package Leaflet"
+Description:  "Composition for plenadren Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4be09f952ab4cdf2803ef423dc889e5c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - plenadren"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é o Plenadren e para que é utilizado 
+2. O que precisa de saber antes de tomar Plenadren
+3. Como tomar Plenadren 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Plenadren
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é plenadren e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é plenadren e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Plenadren contém uma substância chamada hidrocortisona (às vezes chamada cortisol). A 
+hidrocortisona é um glicocorticóide. Pertence a um grupo de medicamentos chamados
+corticosteróides. Os glicocorticóides ocorrem naturalmente no corpo e ajudam a manter a sua saúde e 
+o bem-estar em geral. 
+O Plenadren é utilizado em adultos para tratar uma condição conhecida como compromisso
+suprarrenal, ou deficiência de cortisol. O compromisso suprarrenal surge quando suas glândulas ad-
+renais (ou suprarrenais, logo acima dos rins) não produzem suficiente hormona cortisol. Os doentes 
+que sofrem de compromisso suprarrenal de longo prazo (crónico) precisam de uma terapia de 
+substituição (ou reposição) para poderem sobreviver. 
+O Plenadren substitui ou repõe o cortisol natural que está em falta no compromisso suprarrenal. O 
+medicamento fornece hidrocortisona ao seu corpo ao longo do dia. Os níveis de cortisol no sangue 
+aumentam rapidamente até um nível máximo, cerca de 1 hora depois de tomar o comprimido de 
+manhã e, em seguida, diminuem gradualmente ao longo do dia com um nível de cortisol igual a zero 
+ou quase zero no sangue ao final da tarde e à noite quando os níveis devem ser baixos.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar plenadren"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar plenadren"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tomar Plenadren</h2>
+<p>se tem alergia à hidrocortisona ou a qualquer outro componente deste medicamento (indicados 
+na secção 6).
+Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Plenadren
+-
+se tiver uma condição que o torna incapaz de tomar este medicamento ou se o mesmo não é 
+absorvido adequadamente pelo estômago. Isto poderá acontecer se tiver problemas de estômago 
+que acarretem vómito e/ou diarreia. Nestas situações, deve procurar cuidados médicos imediatos 
+24
+a fim de receber tratamento com injeções de hidrocortisona e administração adicional de 
+líquidos.
+-
+se tiver uma doença temporária ou de curta duração, como infeções, febre ou situações que 
+provocam uma grande quantidade de tensão física, como uma cirurgia: a sua dose de 
+hidrocortisona tem de ser temporariamente aumentada. Pergunte prontamente ao seu médico 
+informações sobre como deve lidar com estas situações. Se vier a ser submetido a uma cirurgia, 
+informe antes o seu médico/dentista de que está a tomar este medicamento.
+-
+se, por qualquer outra razão, a sua saúde geral estiver em declínio, embora esteja a tomar o 
+medicamento conforme receitado; procure assistência médica imediata.
+-
+se tiver feocromocitoma (um tumor raro das glândulas suprarrenais).
+-
+se a sua glândula tiróide não estiver a funcionar normalmente, informe o seu médico, pois 
+poderá ser necessário ajustar a sua dose de Plenadren.
+Crianças e adolescentes
+Plenadren não é recomendado para utilização em crianças e adolescentes com menos de 18 anos de 
+idade, já que não foi estudado nestes doentes.
+Outros medicamentos e Plenadren
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou puder vir a 
+tomar outros medicamentos. Durante tratamento a longo prazo com medicamentos que tratem as
+infeções (antibióticos), poderá ser necessário que o médico ajuste a dose de Plenadren. Se utilizado 
+com mifepristona, um tratamento administrado para interromper uma gravidez, o efeito do Plenadren 
+pode ser diminuido. 
+Além disso, informe o seu médico ou farmacêutico se estiver a tomar qualquer um dos seguintes 
+medicamentos, já que poderá ser necessário ajustar a dose do Plenadren. 
+
+Fenitoína, carbamazepina e barbitúricos - utilizados para tratar a epilepsia
+
+Rifampicina ou rifabutina - utilizados no tratamento da tuberculose
+
+Ritonavir, efavirenz e nevirapina - utilizados para tratar a infeção pelo VIH
+
+Hipericão - utilizada para tratar a depressão e outras condições
+
+Cetoconazol, itraconazol, posaconazol e voriconazol - utilizados para o tratamento de infeções 
+fúngicas
+
+Eritromicina, telitromicina e claritromicina - utilizados para tratar infeções bacterianas
+Plenadren com alimentos e bebidas 
+Não tome este medicamento com sumo de toranja pois o sumo irá interferir com a ação do 
+medicamento. 
+Gravidez, amamentação e fertilidade
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+É importante continuar o tratamento com Plenadren durante a gravidez. Não é provável que o 
+tratamento em mulheres grávidas com compromisso suprarrenal provoque quaisquer efeitos nocivos 
+na mãe e/ou no bebé. Deve informar o seu médico se ficar grávida, já que a dose de Plenadren pode ter 
+de ser ajustada. 
+O Plenadren pode ser utilizado durante a amamentação. A hidrocortisona é excretada no leite materno. 
+É improvável que as doses de hidrocortisona utilizadas para a terapêutica de substituição exerçam 
+qualquer efeito sobre a criança. Porém, fale com o seu médico se tem a intenção de amamentar seu 
+bebé.
+A fertilidade em mulheres com compromisso das suprarrenais ou com deficiência de cortisol pode 
+ficar reduzida. Não existe indicação de que Plenadren em doses utilizadas para terapêutica de 
+substituição terá um efeitos na fertilidade. 
+25
+Condução de veículos e utilização de máquinas 
+Este medicamento pode ter uma influência pequena sobre a capacidade de conduzir e utilizar 
+máquinas. Foram comunicados episódios de tonturas (vertigens) de curta duração e fadiga extrema. O 
+compromisso suprarrenal não tratado ou com tratamento fraco, diminui a capacidade de concentração 
+e irá afetar as capacidades de condução e utilização de máquinas. Portanto, é importante tomar este 
+medicamento conforme indicado pelo seu médico quando for conduzir ou utilizar máquinas. Se for 
+afetado, deverá falar com o seu médico antes de conduzir ou utilizar máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar plenadren"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar plenadren"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. A dose é específica para si e é decidida pelo seu médico. 
+
+Os doentes devem tomar os comprimidos inteiros de Plenadren por via oral com um copo de 
+água ao despertarem pela manhã, pelo menos, 30 minutos antes do pequeno-almoço, de 
+preferência entre as 06:00 h e as 08:00 h da manhã.
+
+Tome o medicamento preferivelmente em posição ereta (de pé). 
+
+Os comprimidos não devem ser divididos, partidos, esmagados ou mastigados. Este tipo de 
+comprimido fornece hidrocortisona ao seu corpo ao longo do dia. Se forem divididos, partidos, 
+esmagados ou mastigados, isto poderá impedir que a dose de hidrocortisona que contêm cubra 
+toda a duração do dia como deveria.
+Necessidade de doses adicionais de Plenadren
+Durante doenças temporárias ou de curta duração, como infeções, febre, ou tensão física devida a uma 
+cirurgia, o seu corpo irá precisar de mais hidrocortisona pois ele não conseguirá produzir a quantidade 
+adicional de cortisol exigida nestas situações. Portanto, a dose deverá ser aumentada temporariamente e 
+o seu médico poderá aconselhá-lo a utilizar outros comprimidos de hidrocortisona em substituição, ou 
+como complemento, ao Plenadren. Fale com o seu médico sobre isto e siga as instruções sobre como agir 
+nestas situações. 
+A dose diária de Plenadren pode ter de ser duplicada ou triplicada em condições mais moderadas, como 
+uma infeção leve ou tensão (stresse). Assim, deverá tomar a segunda dose deste medicamento entre 6 a
+10 horas após a dose matinal. Se não for suficiente duplicar a dose diária, deverá tomar uma terceira dose 
+entre 6 a 10 horas após a segunda dose (a intervalos de 6 a 10 horas entre as doses). Uma vez terminado 
+o episódio da doença, poderá voltar a receber a dose de manutenção normal deste medicamento. 
+Os seguintes sinais e sintomas podem sugerir que precisa de tomar doses adicionais de Plenadren ou 
+outras formas de hidrocortisona: fadiga, perda de peso, desconforto no estômago, sensação de 
+atordoamento ao passar de uma posição sentada para de pé ou tonturas ao por-se de pé, escurecimento 
+da sua pele, em particular nas dobras da pele e zonas expostas. Contacte prontamente o seu médico 
+para se aconselhar se notar qualquer uma destas situações.
+Contudo, procure ajuda médica imediata se notar qualquer um dos seguintes: fraqueza intensa, 
+desmaios, dor abdominal, náuseas, vómitos, dores de costas, confusão, estado de consciência reduzido, 
+delírio (estado muito confuso).
+Se tomar mais Plenadren do que deveria 
+Uma dose muito alta deste medicamento por mais de alguns dias pode ser prejudicial à sua saúde. A 
+sua tensão arterial poderá aumentar, poderá ganhar peso extra e seu nível de açúcar no sangue poderá 
+tornar-se demasiado alto. É necessária ocasionalmente uma dose maior para que o corpo possa lidar 
+com o aumento do stresse, como no caso de uma febre. Se forem necessárias doses extras com 
+frequência e regularidade, deverá entrar em contacto com o seu médico para uma reavaliação da sua 
+dose de manutenção. 
+26
+Caso se tenha esquecido de tomar Plenadren
+Se esqueceu de tomar o comprimido pela manhã, tome-o assim que possível. Não tome uma dose a 
+dobrar para compensar uma dose que se esqueceu de tomar. Contacte o seu médico imediatamente, se 
+tiver quaisquer sinais ou sintomas listados na secção “Necessidade de doses adicionais de Plenadren".
+Se parar de tomar Plenadren
+Parar o tratamento com Plenadren por conta própria pode ser fatal. Portanto, convém continuar a 
+tomar este medicamento conforme receitado pelo seu médico. Antes de parar de o tomar, fale com o 
+seu médico. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. 
+Se está a mudar o tratamento com comprimidos de hidrocortisona para passar a utilizar o Plenadren, 
+pode ser que se manifestem efeitos indesejáveis durante as primeiras semanas. Estes efeitos 
+indesejáveis podem ser: dor de estômago, sensação de mal-estar e cansaço. Eles normalmente irão 
+desaparecer com o tempo; caso contrário, fale com o seu médico. 
+Os efeitos indesejáveis deste medicamento são: 
+Muito frequentes (podem afetar mais de 1 em cada 10 pessoas)
+
+Tonturas
+
+Dor de cabeça
+
+Diarreia
+
+Cansaço
+Frequentes (podem afetar até 1 em cada 10 pessoas)
+
+Dor de estômago/azia, náuseas
+
+Dor nas articulações
+
+Erupção cutânea
+
+Comichão
+Efeitos indesejáveis adicionais foram comunicados no caso de outros medicamentos à base de 
+hidrocortisona. Estes medicamentos foram igualmente administrados para outras indicações que não a 
+terapêutica de substituição para compromisso suprarrenal, muitas vezes em doses mais altas. As 
+frequências destes possíveis efeitos indesejáveis não são conhecidas (não podem ser calculadas a partir 
+dos dados disponíveis). Fale com o seu médico se estiver a sentir quaisquer destes efeitos indesejáveis.
+
+Maior suscetibilidade a infeções
+
+Diabetes ou problemas com os níveis de glicose no sangue (revelados nas análises ao sangue)
+
+Retenção de sal e água causando inchaço e tensão arterial alta (revelados na análise clínica) e 
+baixo nível de potássio no sangue
+
+Modificações do humor, como sensação de excitação demasiada ou perda de contacto com a 
+realidade
+
+Dificuldade em dormir
+
+Tensão ocular elevada (glaucoma), opacificação da lente ocular (catarata)
+
+Azia e deterioração de uma qualquer úlcera existente no estômago
+
+Enfraquecimento dos ossos - isto pode causar fraturas ósseas
+27
+
+Estrias, nódoas negras, erupção na pele semelhante à da acne, crescimento excessivo de pêlos na 
+cara, cicatrização lenta
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar plenadren"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar plenadren"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco e na embalagem 
+exterior após a abreviatura utilizada para o prazo de validade (EXP.). O prazo de validade corresponde 
+ao último dia do mês indicado.
+Este medicamento não exige quaisquer condições especiais de conservação.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Plenadren contém:</h2>
+<p>A substância ativa é a hidrocortisona.
+Plenadren 5 mg: cada comprimido de libertação modificada contém 5 mg de hidrocortisona.
+Plenadren 20 mg: cada comprimido de libertação modificada contém 20 mg de hidrocortisona.
+-
+Os outros componentes são: hipromelose (E464), celulose microcristalina (E460), amido (de 
+milho) pré-gelatinizado, sílica coloidal anidra (E551) e estearato de magnésio. O sistema de 
+revestimento é uma mistura de macrogol (3350), álcool polivinílico, talco (E553b) e óxido de 
+titânio (E171). Os comprimidos de 5 mg também contêm óxido de ferro vermelho (E172), óxido 
+de ferro amarelo (E172) e óxido de ferro negro (E172). 
+Qual o aspeto de Plenadren e conteúdo da embalagem 
+Os comprimidos de libertação modificada são redondos (diâmetro de 8 mm) e convexos.
+Os comprimidos de 5 mg são de cor rosa. 
+Os comprimidos de 20 mg são de cor branca. 
+O Plenadren vem acondicionado em frascos com tampa de rosca com 50 comprimidos;
+Apresentação:
+Caixas contendo 1 frasco com 50 comprimidos de libertação modificada.
+Caixas contendo 2 frascos com 50 comprimidos de libertação modificada (100 comprimidos).
+É possível que não sejam comercializadas todas as apresentações no seu país.
+28
+Titular da Autorização de Introdução no Mercado e Fabricante
+Titular da Autorização de Introdução no Mercado
+Takeda Pharmaceuticals International AG Ireland Branch
+Block 2 Miesian Plaza
+50-58 Baggot Street Lower
+Dublin 2
+D02 HW68
+Irlanda
+Fabricante
+Takeda Pharmaceuticals International AG Ireland Branch
+Block 2 Miesian Plaza
+50-58 Baggot Street Lower
+Dublin 2
+D02 HW68
+Irlanda 
+Shire Pharmaceuticals Ireland Limited
+Block 2 &amp; 3 Miesian Plaza
+50-58 Baggot Street Lower
+Dublin 2
+Irlanda
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Takeda Belgium NV
+Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com
+Lietuva
+Takeda, UAB
+Tel: +370 521 09 070
+medinfoEMEA@takeda.com
+България
+Такеда България ЕООД
+Тел.: +359 2 958 27 36
+medinfoEMEA@takeda.com 
+Luxembourg/Luxemburg
+Takeda Belgium NV
+Tél/Tel: +32 2 464 06 11
+medinfoEMEA@takeda.com
+Česká republika
+Takeda Pharmaceuticals Czech Republic s.r.o.
+Tel: +420 234 722 722
+medinfoEMEA@takeda.com
+Magyarország
+Takeda Pharma Kft.
+Tel.: +36 1 270 7030
+medinfoEMEA@takeda.com
+Danmark
+Takeda Pharma A/S
+Tlf: +45 46 77 10 10
+medinfoEMEA@takeda.com
+Malta
+Τakeda HELLAS S.A.
+Tel: +30 210 6387800
+medinfoEMEA@takeda.com
+Deutschland
+Takeda GmbH
+Tel: +49 (0)800 825 3325
+medinfoEMEA@takeda.com
+Nederland
+Takeda Nederland B.V.
+Tel: +31 20 203 5492
+medinfoEMEA@takeda.com
+Eesti
+Takeda Pharma AS
+Tel: +372 6177 669
+medinfoEMEA@takeda.com
+Norge
+Takeda AS
+Tlf: +47 800 800 30
+medinfoEMEA@takeda.com
+29
+Ελλάδα
+Τakeda ΕΛΛΑΣ Α.Ε.
+Tηλ: +30 210 6387800
+medinfoEMEA@takeda.com
+Österreich
+Takeda Pharma Ges.m.b.H. 
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com
+España
+Takeda Farmacéutica España S.A.
+Tel: +34 917 90 42 22
+medinfoEMEA@takeda.com
+Polska
+Takeda Pharma Sp. z o.o.
+Tel.: +48223062447
+medinfoEMEA@takeda.com
+France
+Takeda France SAS
+Tél: + 33 1 40 67 33 00
+medinfoEMEA@takeda.com
+Portugal
+Takeda Farmacêuticos Portugal, Lda.
+Tel: + 351 21 120 1457
+medinfoEMEA@takeda.com
+Hrvatska
+Takeda Pharmaceuticals Croatia d.o.o.
+Tel: +385 1 377 88 96
+medinfoEMEA@takeda.com
+România
+Takeda Pharmaceuticals SRL
+Tel: +40 21 335 03 91
+medinfoEMEA@takeda.com
+Ireland
+Takeda Products Ireland Ltd
+Tel: 1800 937 970
+medinfoEMEA@takeda.com
+Slovenija
+Takeda Pharmaceuticals farmacevtska družba d.o.o.
+Tel: + 386 (0) 59 082 480
+medinfoEMEA@takeda.com
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+medinfoEMEA@takeda.com
+Slovenská republika
+Takeda Pharmaceuticals Slovakia s.r.o.
+Tel: +421 (2) 20 602 600
+medinfoEMEA@takeda.com
+Italia
+Takeda Italia S.p.A.
+Tel: +39 06 502601
+medinfoEMEA@takeda.com
+Suomi/Finland
+Takeda Oy
+Puh/Tel: 0800 774 051
+medinfoEMEA@takeda.com
+Κύπρος
+Τakeda ΕΛΛΑΣ Α.Ε.
+Τηλ: +30 210 6387800
+medinfoEMEA@takeda.com
+Sverige
+Takeda Pharma AB
+Tel: 020 795 079
+medinfoEMEA@takeda.com
+Latvija
+Takeda Latvia SIA
+Tel: +371 67840082
+medinfoEMEA@takeda.com
+United Kingdom (Northern Ireland)
+Takeda UK Ltd
+Tel: +44 (0) 2830 640 902
+medinfoEMEA@takeda.com
+Este folheto foi revisto pela última vez em .
+Outras fontes de informação
+Informação pormenorizada sobre este medicamento está disponível no site da Agência Europeia de 
+Medicamentos: http://www.emaropa.eu. Também existem links para outros sites sobre doenças raras e 
+tratamentos.</p>         </div>"""      
+
+
+
 
 
                     
@@ -898,6 +1373,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-4be09f952ab4cdf2803ef423dc889e5c"
 * entry[0].resource = composition-da-4be09f952ab4cdf2803ef423dc889e5c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4be09f952ab4cdf2803ef423dc889e5c"
+* entry[=].resource = mp4be09f952ab4cdf2803ef423dc889e5c
+                            
+                    
+Instance: bundlepackageleaflet-pt-4be09f952ab4cdf2803ef423dc889e5c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for plenadren Package Leaflet for language pt"
+Description: "ePI document Bundle for plenadren Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-4be09f952ab4cdf2803ef423dc889e5c"
+* entry[0].resource = composition-pt-4be09f952ab4cdf2803ef423dc889e5c
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp4be09f952ab4cdf2803ef423dc889e5c"
@@ -999,6 +1496,18 @@ RuleSet: 4be09f952ab4cdf2803ef423dc889e5cListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-4be09f952ab4cdf2803ef423dc889e5c) // plenadren pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

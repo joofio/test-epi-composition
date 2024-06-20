@@ -756,6 +756,382 @@ produktinformationen. </p>
 
 
 
+Instance: composition-pt-d70366d9de20b85af1c498f11302a348
+InstanceOf: CompositionUvEpi
+Title: "Composition for efmody Package Leaflet"
+Description:  "Composition for efmody Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd70366d9de20b85af1c498f11302a348)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - efmody"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Efmody e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Efmody </li>
+<li>Como tomar Efmody </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Efmody </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é efmody e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é efmody e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O medicamento contém a substância ativa hidrocortisona. A hidrocortisona pertence a um grupo de 
+medicamentos conhecidos como corticosteroides. </p>
+<p>A hidrocortisona é uma cópia da hormona cortisol. O cortisol é produzido pelas glândulas suprarrenais 
+no organismo. Efmody é utilizado quando a glândula suprarrenal não está a produzir cortisol suficiente 
+devido a uma doença hereditária denominada hiperplasia suprarrenal congénita. Destina-se a ser 
+utilizado em adultos e adolescentes a partir dos 12 anos de idade. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar efmody"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar efmody"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Efmody 
+- Se tem alergia à hidrocortisona ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Efmody se alguma das seguintes situações se 
+aplica a si: </p>
+<p>Crise suprarrenal 
+- Tem uma crise suprarrenal. Se estiver a vomitar ou se estiver gravemente adoentado, poderá 
+necessitar de uma injeção de hidrocortisona. O seu médico irá treiná-lo sobre como fazê-lo, em 
+caso de emergência. 
+Infeções 
+- Tem uma infeção ou não se sente bem. O seu médico poderá ter de prescrever temporariamente 
+hidrocortisona adicional. </p>
+<p>Imunização 
+- Tem vacinação agendada. Normalmente, tomar Efmody não deve impedi-lo de ser vacinado. </p>
+<p>Fertilidade 
+- Se tinha uma fertilidade diminuída devido a hiperplasia suprarrenal congénita, a sua fertilidade 
+pode ser restabelecida, por vezes pouco depois de iniciar Efmody. Isto aplica-se tanto a homens como 
+a mulheres. Fale com o seu médico sobre as suas necessidade contracetivas antes de iniciar Efmody. </p>
+<p>Outras 
+- Tem uma operação agendada. Informe o cirurgião ou o anestesista de que está a receber Efmody 
+antes de ser operado. 
+- Tem uma doença crónica do sistema digestivo (tal como diarreia crónica) que afeta a forma 
+como o seu intestino absorve os alimentos. O seu médico pode prescrever-lhe outro 
+medicamento ou monitorizá-lo mais atentamente para verificar se está a receber a quantidade 
+certa do medicamento. </p>
+<p>Não deve parar de tomar Efmody sem consultar o seu médico, pois isso poderá pô-lo gravemente 
+doente muito rapidamente. </p>
+<p>Dado que Efmody está a substituir a hormona normal que o seu organismo tem em falta, os efeitos 
+indesejáveis são menos prováveis, contudo: </p>
+<ul>
+<li>
+<p>Demasiado Efmody pode afetar os seus ossos, pelo que o seu médico irá monitorizar 
+atentamente a dose. </p>
+</li>
+<li>
+<p>Alguns doentes que tomam hidrocortisona Efmody ficam ansiosos, deprimidos ou confusos. 
+Informe o seu médico se desenvolver algum comportamento invulgar ou se tiver pensamentos 
+suicidas após iniciar a medicação (ver secção 4). </p>
+</li>
+<li>
+<p>Em casos raros, pode ocorrer alergia à hidrocortisona. As pessoas que já têm alergias a outros 
+medicamentos podem ter maior probabilidade de desenvolver alergia à hidrocortisona. Informe 
+imediatamente o seu médico caso tenha alguma reação, tal como inchaço ou falta de ar, após a 
+administração de Efmody (ver secção 4). </p>
+</li>
+<li>
+<p>A hidrocortisona pode causar diabetes. Se tiver sintomas de sede excessiva ou se tiver de urinar 
+excessivamente, informe imediatamente o seu médico. </p>
+</li>
+<li>
+<p>O tratamento com esteroides pode levar a níveis baixos de potássio no sangue.  O seu médico 
+irá monitorizar os seus níveis de potássio para verificar se ocorre alguma alteração. </p>
+</li>
+<li>
+<p>A hidrocortisona pode reduzir o crescimento em crianças. O seu médico irá monitorizar o seu 
+crescimento enquanto estiver a tomar Efmody. </p>
+</li>
+<li>
+<p>As crianças com hiperplasia suprarrenal congénita a tomar hidrocortisona podem apresentar 
+sinais de desenvolvimento sexual ou puberdade mais cedo do que o habitual. O seu médico irá 
+monitorizar o seu desenvolvimento enquanto estiver a tomar Efmody. </p>
+</li>
+<li>
+<p>Contacte o seu médico se tiver visão turva ou outras perturbações visuais. </p>
+</li>
+</ul>
+<p>Outros medicamentos e Efmody 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Alguns medicamentos podem afetar o modo como Efmody atua e podem significar que o seu médico 
+terá de alterar a sua dose de Efmody. </p>
+<p>O seu médico poderá ter de aumentar a sua dose de Efmody se estiver a tomar determinados 
+medicamentos, incluindo: 
+- Medicamentos utilizados para tratar a epilepsia: fenitoína, carbamazepina, oxcarbazepina e 
+barbitúricos, tais como o fenobarbital e a primidona. 
+- Medicamentos utilizados para tratar infeções (antibióticos): rifampicina e rifabutina. 
+- Medicamentos utilizados para tratar a infeção pelo vírus da imunodeficiência humana (VIH) e a 
+SIDA: efavirenz e nevirapina. 
+- Medicamentos à base de plantas utilizados para tratar a depressão, por exemplo, hipericão. </p>
+<p>O seu médico poderá ter de diminuir a sua dose de Efmody se estiver a tomar determinados 
+medicamentos, incluindo: 
+- Medicamentos utilizados para tratar doenças fúngicas: itraconazol, posaconazol e voriconazol. 
+- Medicamentos utilizados para tratar infeções (antibióticos): eritromicina e claritromicina. 
+- Medicamento utilizado para tratar a infeção pelo vírus da imunodeficiência humana (VIH) e a 
+SIDA: ritonavir. </p>
+<p>Efmody com alimentos e bebidas 
+Alguns alimentos e bebidas podem afetar o modo como Efmody atua e podem necessitar que o seu 
+médico diminua a sua dose. Estes incluem: 
+- Sumo de toranja. 
+- Alcaçuz. </p>
+<p>Gravidez, amamentação e fertilidade 
+Sabe-se que a hidrocortisona atravessa a placenta durante a gravidez e está presente no leite materno; 
+no entanto, não existem evidências de que isso cause qualquer dano ao bebé. Se está grávida ou a 
+amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de tomar este 
+medicamento. </p>
+<p>Se é uma mulher que ainda não passou pela menopausa, os seus períodos podem voltar ou tornar-se 
+mais regulares. A fertilidade restabelecida pode causar uma gravidez inesperada mesmo antes do 
+regresso da hemorragia menstrual. Ver também a secção “Advertências e precauções" no que respeita 
+à fertilidade tanto em homens como em mulheres. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de Efmody sobre a capacidade de conduzir e utilizar máquinas são reduzidos. A 
+insuficiência suprarrenal não tratada pode afetar a capacidade de conduzir e utilizar máquinas. Informe 
+imediatamente o seu médico se sentir cansaço ou tonturas ao tomar Efmody. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar efmody"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar efmody"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico, enfermeiro ou farmacêutico. 
+Verifique com eles se não tiver certeza. </p>
+<p>O seu médico decidirá a dose inicial correta de Efmody e depois ajustará a dose conforme necessário. 
+Durante situações de doença, por volta da altura de uma cirurgia e durante períodos de stress grave, o 
+seu médico poderá pedir-lhe para tomar outro medicamento corticosteroide em vez de, ou bem como, 
+Efmody. </p>
+<p>A dose diária inicial pode ser dividida em duas doses com dois terços a três quartos da sua dose diária 
+à noite, ao deitar, e o resto administrado de manhã. </p>
+<p>A dose da manhã das cápsulas de libertação modificada de hidrocortisona deve ser tomada com o 
+estômago vazio pelo menos 1 hora antes de uma refeição e a dose da noite deve ser tomada ao deitar 
+pelo menos 2 horas após a última refeição do dia. </p>
+<p>Utilização em crianças 
+Não existe informação disponível sobre a segurança e a eficácia de Efmody em crianças com idade 
+inferior a 12 anos. Estão disponíveis outros medicamentos contendo hidrocortisona para crianças com 
+idade inferior a 12 anos. </p>
+<p>Como tomar este medicamento 
+Engula as cápsulas com água. 
+Não mastigue as cápsulas, pois essa ação pode alterar a libertação do medicamento. </p>
+<p>Se tomar mais Efmody do que deveria 
+Se tomar mais Efmody do que deveria, contacte assim que possível o seu médico ou o seu 
+farmacêutico para mais aconselhamento. </p>
+<p>Caso se tenha esquecido de tomar Efmody 
+Caso se tenha esquecido de tomar uma dose, tome-a assim que possível. </p>
+<p>Se parar de tomar Efmody 
+Não pare de tomar Efmody sem falar primeiro com o seu médico. Parar o medicamento subitamente 
+poderá conduzir rapidamente a uma crise suprarrenal. </p>
+<p>Se ficar doente 
+Informe o seu médico ou farmacêutico se ficar doente, sofrer de stress grave, sofrer alguma lesão ou 
+estiver para ser submetido a uma cirurgia, pois o seu médico poderá aconselhá-lo a tomar outro 
+medicamento corticosteroide em vez de, ou bem como, Efmody (ver secção 2). 
+Se tomar demasiado Efmody 
+Envenenamento ou morte são raros com Efmody em excesso, mas deve informar imediatamente o seu 
+médico. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<ul>
+<li>
+<p>Se sofrer alguma reação, tal como inchaço ou falta de ar após tomar Efmody, procure 
+imediatamente ajuda médica e informe o seu médico assim que possível, pois estes podem ser 
+sinais de uma reação alérgica grave (reações anafilatoides) (ver secção 2). </p>
+</li>
+<li>
+<p>Foram comunicados frequentemente sintomas de crise suprarrenal e insuficiência suprarrenal 
+(podem afetar até 1 em cada 10 pessoas). Se receber menos hidrocortisona do que necessita, 
+pode ficar gravemente doente. Se não se sentir bem e particularmente se começar a vomitar, tem 
+de informar imediatamente o seu médico, pois poderá necessitar de hidrocortisona adicional ou 
+de uma injeção de hidrocortisona. </p>
+</li>
+</ul>
+<p>Informe o seu médico sobre qualquer um dos seguintes efeitos indesejáveis logo que possível: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) 
+- Cansaço </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) 
+- Sensação de enjoo (náuseas) 
+- Dor de barriga (abdominal) 
+- Perda de energia ou fraqueza 
+- Aumento ou diminuição do apetite e aumento ou perda de peso </p>
+<ul>
+<li>Dores musculares e fraqueza </li>
+<li>Dores nas articulações </li>
+<li>Dores de cabeça </li>
+<li>Tonturas </li>
+<li>Dor ou formigueiro no polegar ou nos dedos (síndrome do canal cárpico) </li>
+<li>Formigueiro </li>
+<li>Insónia, dificuldades do sono ou sonhos invulgares </li>
+<li>Humor depressivo </li>
+<li>Acne </li>
+<li>Crescimento de pelos </li>
+<li>Alterações nas análises ao sangue dos rins e da glicose </li>
+</ul>
+<p>O tratamento de longo prazo com hidrocortisona poderá reduzir a densidade óssea. O seu médico irá 
+monitorizar os seus ossos (ver secção 2). </p>
+<p>As pessoas que necessitam de tratamento com esteroides apresentam um risco mais elevado de doença 
+cardíaca. O seu médico irá monitorizá-lo quanto a isto. </p>
+<p>O tratamento de longo prazo com hidrocortisona pode afetar o crescimento em crianças e jovens. O 
+seu médico irá monitorizar o crescimento em jovens. Algumas crianças com hiperplasia suprarrenal 
+congénita tratadas com hidrocortisona podem ter uma puberdade mais precoce do que o esperado. O 
+seu médico irá monitorizar o seu desenvolvimento (ver secção 2). </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. </p>
+<p>Também poderá comunicar efeitos indesejáveis diretamente através do sistema nacional de notificação 
+mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais 
+informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar efmody"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar efmody"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior, 
+após VAL.<br />
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de qualquer temperatura especial de conservação. </p>
+<p>Conservar na embalagem de origem. </p>
+<p>Manter o frasco bem fechado para proteger da humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Efmody 
+- A substância ativa é a hidrocortisona </p>
+<p>o Efmody 5 mg cápsulas de libertação modificada: cada cápsula de libertação 
+modificada contém 5 mg de hidrocortisona 
+o Efmody 10 mg cápsulas de libertação modificada: cada cápsula de libertação 
+modificada contém 10 mg de hidrocortisona 
+o Efmody 20 mg cápsulas de libertação modificada: cada cápsula de libertação 
+modificada contém 20 mg de hidrocortisona 
+- Os outros componentes são celulose microcristalina, povidona, ácido metacrílico - copolímero 
+de metacrilato de metilo, talco e sebacato de dibutilo. </p>
+<p>Cápsula 
+A cápsula é feita de gelatina. </p>
+<p>Efmody 5 mg cápsulas de libertação modificada (branco/azul) 
+Dióxido de titânio (E171) e indigotina (E132) </p>
+<p>Efmody 10 mg cápsulas de libertação modificada (branco/verde) 
+Dióxido de titânio (E171), indigotina (E132) e óxido de ferro amarelo (E172) </p>
+<p>Efmody 20 mg cápsulas de libertação modificada (branco/laranja) 
+Dióxido de titânio (E171), óxido de ferro amarelo (E172) e óxido de ferro vermelho (E172) </p>
+<p>Tinta de impressão 
+A tinta de impressão nas cápsulas contém goma laca, óxido de ferro negro (E172), propilenoglicol e 
+hidróxido de potássio </p>
+<p>Qual o aspeto de Efmody e conteúdo da embalagem </p>
+<ul>
+<li>
+<p>Efmody 5 mg cápsulas de libertação modificada 
+Uma cápsula (aproximadamente 19 mm de comprimento) com cabeça azul opaco e corpo 
+branco opaco impresso com “CHC 5mg" contendo granulado branco a esbranquiçado. </p>
+</li>
+<li>
+<p>Efmody 10 mg cápsulas de libertação modificada 
+Uma cápsula (aproximadamente 19 mm de comprimento) com cabeça verde opaco e corpo 
+branco opaco impresso com “CHC 10mg" contendo granulado branco a esbranquiçado. </p>
+</li>
+<li>
+<p>Efmody 20 mg cápsulas de libertação modificada 
+Uma cápsula (aproximadamente 22 mm de comprimento) com cabeça laranja opaco e corpo 
+branco opaco impresso com “CHC 20mg" contendo granulado branco a esbranquiçado. </p>
+</li>
+</ul>
+<p>Efmody é fornecido em frascos de polietileno de alta densidade com tampa de rosca de polipropileno 
+inviolável resistente à abertura por crianças com exsicante integrado.  Cada frasco contém 50 cápsulas 
+de libertação modificada. </p>
+<p>Apresentação: 
+Embalagem exterior contendo 1 frasco de 50 cápsulas de libertação modificada. 
+Embalagem exterior contendo 2 frascos de 50 cápsulas de libertação modificada (100 cápsulas). </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Diurnal Europe B.V. 
+Van Heuven Goedhartlaan 935 A 
+1181LD Amstelveen 
+Países Baixos </p>
+<p>Fabricante 
+Delpharm Lille SAS 
+Parc d'Activités Roubaix-Est 
+22 rue de Toufflers CS 50Lys Lez Lannoy, 59 França </p>
+<p>Wasdell Europe Limited 
+IDA Dundalk Science and Technology Park 
+Mullagharlin<br />
+Dundalk 
+Co.Louth, A91 DET0 
+Irlanda </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -797,6 +1173,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d70366d9de20b85af1c498f11302a348"
 * entry[0].resource = composition-da-d70366d9de20b85af1c498f11302a348
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd70366d9de20b85af1c498f11302a348"
+* entry[=].resource = mpd70366d9de20b85af1c498f11302a348
+                            
+                    
+Instance: bundlepackageleaflet-pt-d70366d9de20b85af1c498f11302a348
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for efmody Package Leaflet for language pt"
+Description: "ePI document Bundle for efmody Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d70366d9de20b85af1c498f11302a348"
+* entry[0].resource = composition-pt-d70366d9de20b85af1c498f11302a348
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd70366d9de20b85af1c498f11302a348"
@@ -898,6 +1296,18 @@ RuleSet: d70366d9de20b85af1c498f11302a348ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d70366d9de20b85af1c498f11302a348) // efmody pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

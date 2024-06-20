@@ -666,6 +666,362 @@ http://www.laegemiddelstyrelsen.dk </p>         </div>"""
 
 
 
+Instance: composition-pt-25b49674d9d703c70f7cbc179ed1a337
+InstanceOf: CompositionUvEpi
+Title: "Composition for parsabiv Package Leaflet"
+Description:  "Composition for parsabiv Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp25b49674d9d703c70f7cbc179ed1a337)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - parsabiv"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Parsabiv e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Parsabiv </li>
+<li>Como utilizar Parsabiv </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Parsabiv </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é parsabiv e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é parsabiv e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Parsabiv contém a substância ativa etelcalcetido, que reduz a hormona paratiroideia conhecida como 
+PTH. </p>
+<p>Parsabiv é utilizado para tratar o hiperparatiroidismo secundário em doentes com insuficiência renal 
+grave que necessitam de hemodiálise para limpar o seu sangue de impurezas. </p>
+<p>No hiperparatiroidismo secundário as glândulas paratiroides (quatro glândulas pequenas situadas no 
+pescoço) produzem uma quantidade excessiva de PTH. “Secundário" significa que o 
+hiperparatiroidismo é provocado por outra condição, por exemplo, doença renal. O 
+hiperparatiroidismo secundário pode levar à perda de cálcio nos ossos, o que poderá originar dores nos 
+ossos e fraturas, bem como problemas no sangue e nos vasos sanguíneos do coração. Através do 
+controlo dos valores de PTH, Parsabiv ajuda a controlar os valores de cálcio e de fosfato no seu corpo. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar parsabiv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar parsabiv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Parsabiv<br />
+- se tem alergia ao etelcalcetido ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). 
+- se tem valores muito baixos de cálcio no sangue. O seu médico irá vigiar os seus valores de 
+cálcio no sangue. </p>
+<p>Advertências e precauções 
+Antes de iniciar o tratamento com Parsabiv, informe o seu médico se tem ou alguma vez teve: 
+ 
+problemas cardíacos, como insuficiência cardíaca ou arritmias (anomalias do ritmo cardíaco); 
+ 
+convulsões (ataques). </p>
+<p>Parsabiv reduz os valores de cálcio. Informe o seu médico se sentir espasmos, contrações ou cãibras 
+musculares ou dormência ou formigueiro nos dedos das mãos ou dos pés ou em volta da boca, ou 
+convulsões, confusão ou perda da consciência, enquanto estiver a ser tratado com Parsabiv. Para 
+informações adicionais ver secção 4.<br />
+Valores baixos de cálcio podem causar anomalias no ritmo cardíaco. Informe o seu médico caso sinta 
+um batimento cardíaco anormalmente rápido ou muito forte, se tem problemas de ritmo cardíaco ou 
+insuficiência cardíaca, ou se toma medicamentos conhecidos por causar problemas no ritmo cardíaco, 
+enquanto estiver a tomar Parsabiv. Para informações adicionais consulte a secção 4.<br />
+Valores muito baixos de PTH durante longos períodos de tempo podem conduzir a um tipo de 
+anomalia na estrutura óssea conhecida como doença óssea adinâmica que só pode ser diagnosticada 
+por biópsia. Os seus valores de PTH serão monitorizados durante o tratamento com Parsabiv e a dose 
+de Parsabiv pode ser reduzida se esses valores baixarem demasiado. </p>
+<p>Crianças e adolescentes 
+Desconhece-se se o Parsabiv é seguro e eficaz em crianças com idade inferior a 18 anos, uma vez que 
+o medicamento não foi estudado nesses doentes. </p>
+<p>Outros medicamentos e Parsabiv 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos, incluindo os medicamentos obtidos sem receita médica ou qualquer outro 
+medicamento que reduza os valores séricos de cálcio (por exemplo, cinacalcet e denosumab). </p>
+<p>Não deve tomar Parsabiv e cinacalcet em simultâneo. Informe o seu médico se estiver a tomar 
+cinacalcet ou se tiver tomado recentemente cinacalcet. </p>
+<p>Gravidez 
+Parsabiv não foi testado em mulheres grávidas. Desconhece-se se Parsabiv pode causar danos ao feto 
+(bebé). Se está grávida, se pensa estar grávida ou planeia engravidar durante o tratamento com 
+Parsabiv, informe o seu médico. Como medida de precaução, é preferível evitar a utilização de 
+Parsabiv durante a gravidez. </p>
+<p>Amamentação 
+Desconhece-se se Parsabiv pode passar para o leite materno. Se está a amamentar ou planeia 
+amamentar, informe o seu médico. O seu médico irá ajudá-la a decidir se deve parar de amamentar ou 
+suspender a administração de Parsabiv, considerando o benefício da amamentação para o bebé e o 
+benefício do Parsabiv para a mãe. </p>
+<p>Condução de veículos e utilização de máquinas 
+Parsabiv não tem nenhuma influência ou tem apenas uma influência insignificante sobre a capacidade 
+de conduzir e utilizar máquinas. Contudo, alguns sintomas de valores baixos de cálcio (como as 
+convulsões) podem afetar a sua capacidade de conduzir e utilizar máquinas. </p>
+<p>Parsabiv contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio  por frasco para injetáveis, ou seja, 
+é praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar parsabiv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar parsabiv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A dose inicial recomendada de Parsabiv é 5 mg. Será administrado por um médico ou enfermeiro no 
+final do seu tratamento de hemodiálise através do tubo (linha intravenosa) que o liga ao aparelho de 
+hemodiálise. Parsabiv será administrado 3 vezes por semana. A dose pode ser aumentada até 15 mg ou 
+reduzida até 2,5 mg dependendo da sua resposta. </p>
+<p>Pode precisar de tomar suplementos de cálcio e vitamina D durante o tratamento com Parsabiv. O seu 
+médico irá discutir este assunto consigo. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>São comunicados frequentemente valores baixos de cálcio no sangue (hipocalcemia) (podem afetar até 
+1 em cada 10 pessoas). Se sentir dormência ou formigueiro à volta da boca ou nas extremidades, dores 
+musculares ou cãibras e convulsões deverá informar imediatamente ao seu médico. Estes sinais 
+poderão significar que os seus valores de cálcio estão muito baixos. </p>
+<p>Muito frequentes: podem afetar mais de 1 em 10 pessoas 
+ 
+Náuseas 
+ 
+Vómitos 
+ 
+Diarreia 
+ 
+Espasmos musculares 
+ 
+Valores baixos de cálcio no sangue sem sintomas </p>
+<p>Frequentes: podem afetar até 1 em 10 pessoas 
+ 
+Valores elevados de potássio no sangue 
+ 
+Valores baixos de fosfato no sangue 
+ 
+Dores de cabeça 
+ 
+Sensação de dormência ou formigueiro 
+ 
+Agravamento da insuficiência cardíaca 
+ 
+Perturbações da atividade elétrica do coração, que podem ser observadas através de um 
+prolongamento do intervalo QT no eletrocardiograma 
+ 
+Pressão arterial baixa 
+ 
+Dores musculares </p>
+<p>Pouco frequentes: podem afetar até 1 em 100 pessoas 
+ 
+Convulsões (ataques); para informações adicionais ver secção 2 </p>
+<p>Desconhecido: a frequência não pode ser calculada a partir dos dados disponíveis 
+ 
+Reações alérgicas (incluindo reações anafiláticas) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar parsabiv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar parsabiv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior após EXP. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C - 8°C). 
+Conservar o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>
+<p>Uma vez retirado do frigorífico: 
+ 
+Parsabiv é estável durante um período máximo de 7 dias cumulativos, se conservado na 
+embalagem de origem. Não existem requisitos especiais quanto à temperatura de conservação. 
+ 
+Quando é removido da embalagem de origem, Parsabiv é estável durante um período máximo 
+de 4 horas, se protegido da luz solar direta. </p>
+<p>Não utilize este medicamento se verificar a presença de partículas ou alteração da cor. </p>
+<p>Apenas para uma utilização. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não necessita. Estas medidas ajudarão a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Parsabiv 
+- A substância ativa é etelcalcetido. 
+Parsabiv 2,5 mg solução injetável: Cada frasco para injetáveis contém 2,5 mg de etelcalcetido 
+em 0,5 ml de solução (5 mg/ml). 
+Parsabiv 5 mg solução injetável: Cada frasco para injetáveis contém 5 mg de etelcalcetido em 
+1 ml de solução (5 mg/ml). 
+Parsabiv 10 mg solução injetável: Cada frasco para injetáveis contém 10 mg de etelcalcetido em 
+2 ml de solução (5 mg/ml). 
+- Os restantes componentes são cloreto de sódio, ácido succínico, água para preparações 
+injetáveis, ácido clorídrico e hidróxido de sódio (consultar a secção 2: Parsabiv contém sódio). </p>
+<p>Qual o aspeto de Parsabiv e conteúdo da embalagem 
+Parsabiv é um líquido límpido e incolor. </p>
+<p>Parsabiv é uma solução injetável contida num frasco para injetáveis. </p>
+<p>Embalagens de 1, 6, 12 e 42 frascos para injetáveis. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+Países Baixos </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+Países Baixos </p>
+<p>Fabricante 
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Bélgica </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+s.a. Amgen n.v. 
+Tel/Tél: +32 (0)2 7752 
+Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7 
+България 
+Амджен България ЕООД 
+Тел.: +359 (0)2 424 7 
+Luxembourg/Luxemburg 
+s.a. Amgen 
+Belgique/Belgien 
+Tel/Tél: +32 (0)2 7752Česká republika 
+Amgen s.r.o. 
+Tel: +420 221 773<br />
+Magyarország 
+Amgen Kft. 
+Tel.: +36 1 35 44<br />
+Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617 
+Malta 
+Amgen B.V. 
+The Netherlands 
+Tel: +31 (0)76 5732Deutschland 
+AMGEN GmbH 
+Tel.: +49 89 1490 
+Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09 
+Norge 
+Amgen AB 
+Tel: +47 23308Ελλάδα 
+Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε. 
+Τηλ.: +30 210 3447 
+Österreich 
+Amgen GmbH 
+Tel: +43 (0)1 50 España 
+Amgen S.A. 
+Tel: +34 93 600 18<br />
+Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3 
+France 
+Amgen S.A.S. 
+Tél: +33 (0)9 69 363<br />
+Portugal 
+Amgen Biofarmacêutica, Lda. 
+Tel: +351 21 4220 
+Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57<br />
+România 
+Amgen România SRL 
+Tel: +4021 527 3 
+Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527 
+Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Amgen Slovakia s.r.o. 
+Tel.: +421 2 321 114<br />
+Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241 
+Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900 
+Kύπρος 
+C.A. Papaellinas Ltd 
+Τηλ.: +357 22741<br />
+Sverige 
+Amgen AB 
+Tel: +46 (0)8 6951 
+Latvija 
+Amgen Switzerland AG Rīgas filiāle 
+Tel: +371 257 25 
+United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420 </p>
+<p>Este folheto informativo foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -707,6 +1063,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-25b49674d9d703c70f7cbc179ed1a337"
 * entry[0].resource = composition-da-25b49674d9d703c70f7cbc179ed1a337
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp25b49674d9d703c70f7cbc179ed1a337"
+* entry[=].resource = mp25b49674d9d703c70f7cbc179ed1a337
+                            
+                    
+Instance: bundlepackageleaflet-pt-25b49674d9d703c70f7cbc179ed1a337
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for parsabiv Package Leaflet for language pt"
+Description: "ePI document Bundle for parsabiv Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-25b49674d9d703c70f7cbc179ed1a337"
+* entry[0].resource = composition-pt-25b49674d9d703c70f7cbc179ed1a337
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp25b49674d9d703c70f7cbc179ed1a337"
@@ -808,6 +1186,18 @@ RuleSet: 25b49674d9d703c70f7cbc179ed1a337ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-25b49674d9d703c70f7cbc179ed1a337) // parsabiv pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

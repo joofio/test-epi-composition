@@ -1548,6 +1548,1166 @@ sterilt 0,2 eller 0,22 mikron in-line filter med lav proteinbinding. </p>
 
 
 
+Instance: composition-pt-a8ab0a50af543bb09893d6d85fe7a719
+InstanceOf: CompositionUvEpi
+Title: "Composition for imfinzi Package Leaflet"
+Description:  "Composition for imfinzi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa8ab0a50af543bb09893d6d85fe7a719)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - imfinzi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é IMFINZI e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado IMFINZI </li>
+<li>Como lhe é administrado IMFINZI </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar IMFINZI </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é imfinzi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é imfinzi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IMFINZI contém a substância ativa durvalumab que é um anticorpo monoclonal, um tipo de proteína 
+designada para reconhecer uma substância alvo específica no corpo. IMFINZI atua para ajudar o seu 
+sistema imunitário a combater o seu cancro. </p>
+<p>IMFINZI é utilizado em adultos para tratar um tipo de cancro do pulmão chamado cancro do pulmão 
+de não-pequenas células (CPNPC). É utilizado isoladamente quando o seu CPNPC: </p>
+<ul>
+<li>
+<p>se disseminou no seu pulmão e não pode ser removido por cirurgia, e </p>
+</li>
+<li>
+<p>respondeu ou estabilizou após tratamento inicial com quimioterapia e radioterapia. 
+É utilizado em associação com tremelimumab e quimioterapia quando o seu CPNPC: </p>
+</li>
+<li>
+<p>se disseminou para ambos os seus pulmões (e/ou para outras partes do corpo), não pode ser 
+removido por cirurgia e </p>
+</li>
+<li>
+<p>não apresentou alterações (mutações) em genes chamados EGFR (recetor do fator de 
+crescimento epidérmico) ou ALK (cinase do linfoma anaplásico). </p>
+</li>
+</ul>
+<p>IMFINZI em associação com quimioterapia é utilizado em adultos para tratar um tipo de cancro do 
+pulmão chamado cancro do pulmão de pequenas células, doença extensa (CPPC-DE). É utilizado 
+quando o seu CPPC: </p>
+<ul>
+<li>
+<p>se disseminou no seu pulmão (ou para outras partes do corpo) e </p>
+</li>
+<li>
+<p>não foi tratado anteriormente. </p>
+</li>
+</ul>
+<p>IMFINZI em associação com quimioterapia é utilizado em adultos para tratar um tipo de cancro dos 
+ductos biliares (colangiocarcinoma) e vesícula biliar que são em conjunto chamados de cancro das vias 
+biliares (CVB). É utilizado quando o seu CVB: </p>
+<ul>
+<li>se disseminou nos seus ductos biliares e vesícula biliar (ou para outras partes do corpo). </li>
+</ul>
+<p>IMFINZI é utilizado isoladamente ou em combinação com durvalumab em adultos para tratar um tipo 
+de cancro do fígado, chamado carcinoma hepatocelular (CHC) avançado ou irressecável. É utilizado 
+quando o seu CHC: </p>
+<ul>
+<li>
+<p>não pode ser removido por cirurgia (irressecável) e </p>
+</li>
+<li>
+<p>pode ter-se espalhado para dentro do seu fígado ou para outras partes do corpo. </p>
+</li>
+</ul>
+<p>Se tiver dúvidas acerca da forma como IMFINZI funciona ou porque este medicamento foi receitado 
+para si, fale com o seu médico ou farmacêutico. </p>
+<p>Quando IMFINZI é administrado em associação com outros medicamentos anticancerígenos, é 
+importante que também leia o folheto informativo destes medicamentos. Se tiver dúvidas acerca destes 
+medicamentos, fale com o seu médico. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar imfinzi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar imfinzi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe deve ser administrado IMFINZI </p>
+<ul>
+<li>se tem alergia ao durvalumab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6 “Conteúdo da embalagem e outras informações"). Fale com o seu médico se não tem a 
+certeza. </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico antes de lhe ser administrado IMFINZI se: </p>
+<ul>
+<li>
+<p>tem uma doença autoimune (uma doença em que o sistema imunitário do corpo ataca as suas 
+próprias células); </p>
+</li>
+<li>
+<p>recebeu um transplante de órgão; </p>
+</li>
+<li>
+<p>tem problemas no pulmão ou problemas respiratórios; </p>
+</li>
+<li>
+<p>tem problemas no fígado. </p>
+</li>
+</ul>
+<p>Se alguma das situações acima se aplicar a si (ou se não tiver a certeza), fale com o seu médico antes 
+de lhe ser administrado IMFINZI. </p>
+<p>Quando lhe é administrado IMFINZI, pode ter alguns efeitos indesejáveis graves. </p>
+<p>Se tiver qualquer uma das seguintes situações, contacte ou consulte o seu médico imediatamente. O 
+seu médico pode dar-lhe outros medicamentos para prevenir complicações mais graves e ajudar a 
+reduzir os seus sintomas. O seu médico pode adiar a próxima dose de IMFINZI ou parar o seu 
+tratamento com IMFINZI, se tiver: </p>
+<ul>
+<li>
+<p>inflamação dos pulmões: os sintomas podem incluir aparecimento ou agravamento de tosse, 
+falta de ar ou dor no peito; </p>
+</li>
+<li>
+<p>inflamação do fígado: os sintomas podem incluir náuseas ou vómitos, sentir menos fome, dor 
+no lado direito do seu estômago, amarelecimento da pele ou da parte branca dos olhos, 
+sonolência, urina escura ou hemorragias ou aparecimento de nódoas negras mais facilmente do 
+que o normal; </p>
+</li>
+<li>
+<p>inflamação dos intestinos: os sintomas podem incluir diarreia ou defecação mais frequente, ou 
+fezes negras, tipo alcatrão ou pegajosas com sangue ou muco, dor de estômago grave ou 
+sensibilidade ao toque, buraco no intestino; </p>
+</li>
+<li>
+<p>inflamação das glândulas (especialmente a tiroide, suprarrenal, hipófise e pâncreas): os 
+sintomas podem incluir aumento da frequência cardíaca, cansaço extremo, aumento de peso ou 
+perda de peso, tonturas ou desmaios, perda de cabelo, sensação de frio, prisão de ventre, dores 
+de cabeça persistentes ou dor de cabeça invulgar, dor abdominal, náuseas e vómitos; </p>
+</li>
+<li>
+<p>diabetes tipo 1: os sintomas podem incluir açúcar elevado no sangue, sentir mais apetite ou 
+sede do que o habitual, urinar com mais frequência do que o habitual, respiração rápida e 
+profunda, confusão, ou um cheiro doce no seu hálito, um sabor doce ou metálico na sua boca ou 
+um odor diferente na sua urina ou suor; </p>
+</li>
+<li>
+<p>inflamação dos rins: os sintomas podem incluir diminuição da quantidade de urina; </p>
+</li>
+<li>
+<p>inflamação da pele: os sintomas podem incluir erupção na pele, comichão, bolhas na pele ou 
+feridas na boca ou em outras superfícies húmidas; </p>
+</li>
+<li>
+<p>inflamação do músculo do coração: os sintomas podem incluir dor no peito, falta de ar ou 
+batimentos do coração irregulares; </p>
+</li>
+<li>
+<p>inflamação ou problemas dos músculos: os sintomas podem incluir dor muscular, fraqueza ou 
+fadiga rápida muscular; </p>
+</li>
+<li>
+<p>inflamação da medula espinhal (mielite transversa): os sintomas podem incluir dor, 
+dormência, formigueiro ou fraqueza nos braços ou pernas; problemas na bexiga ou no intestino, 
+incluindo necessidade de urinar mais frequentemente, incontinência urinária, dificuldade em 
+urinar e prisão de ventre; </p>
+</li>
+<li>
+<p>reações relacionadas com a perfusão: os sintomas podem incluir arrepios ou tremores, 
+comichão ou erupção na pele, afrontamentos, falta de ar ou pieira acompanhada de tonturas ou 
+febre; </p>
+</li>
+<li>
+<p>inflamação do cérebro (encefalite) ou inflamação da membrana à volta da medula espinhal 
+e cérebro (meningite): os sintomas podem incluir convulsões, rigidez do pescoço, dor de 
+cabeça, febre, arrepios, vómitos, sensibilidade dos olhos à luz, confusão e sonolência.  </p>
+</li>
+<li>
+<p>inflamação dos nervos: os sintomas podem incluir dor, fraqueza, e paralisia nas extremidades 
+(Síndrome de Guillain-Barré); </p>
+</li>
+<li>
+<p>inflamação das articulações: os sinais e sintomas incluem dor, inchaço e/ou rigidez nas 
+articulações (artrite imunomediada); </p>
+</li>
+<li>
+<p>inflamação do olho: os sinais e sintomas incluem vermelhidão dos olhos, dor nos olhos, 
+sensibilidade à luz, e/ou alteração na visão (uveíte); </p>
+</li>
+<li>
+<p>baixo número de plaquetas: os sintomas podem incluir hemorragias (hemorragias nasais ou 
+gengivais) e/ou nódoas negras. </p>
+</li>
+</ul>
+<p>Se tiver algum dos sintomas listados acima, contacte ou consulte o seu médico imediatamente. </p>
+<p>IMFINZI atua no seu sistema imunitário. Pode causar inflamação em partes do seu corpo. O risco de 
+que sofra estes efeitos indesejáveis pode ser maior se já tiver uma doença autoimune (uma condição 
+em que o corpo ataca as suas próprias células). Também pode ter crises frequentes da sua doença 
+autoimune, que na maioria dos casos são ligeiras. </p>
+<p>Crianças e adolescentes 
+IMFINZI não deve ser utilizado em crianças e adolescentes com idade inferior a 18 anos, uma vez que 
+não foi estudado nestes doentes. </p>
+<p>Outros medicamentos e IMFINZI 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. Isto inclui medicamentos à base de plantas e medicamentos obtidos sem receita. </p>
+<p>Gravidez </p>
+<ul>
+<li>
+<p>Este medicamento não é recomendado durante a gravidez. </p>
+</li>
+<li>
+<p>Informe o seu médico se estiver grávida, se pensa estar grávida ou se planeia engravidar. </p>
+</li>
+<li>
+<p>Se é uma mulher com potencial para engravidar, tem de utilizar métodos contracetivos eficazes 
+enquanto estiver a ser tratada com IMFINZI e durante pelo menos 3 meses após a sua última 
+dose. </p>
+</li>
+</ul>
+<p>Amamentação </p>
+<ul>
+<li>
+<p>Informe o seu médico se estiver a amamentar. </p>
+</li>
+<li>
+<p>Pergunte ao seu médico se pode amamentar durante ou após o tratamento com IMFINZI. </p>
+</li>
+<li>
+<p>Desconhece-se se IMFINZI passa para o leite materno. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+É pouco provável que IMFINZI afete a sua capacidade de conduzir e utilizar máquinas. </p>
+<p>No entanto, se tiver efeitos indesejáveis que afetam a sua capacidade de concentração e reação, deve 
+ser cuidadoso ao conduzir ou utilizar máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar imfinzi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar imfinzi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IMFINZI ser-lhe-á administrado num hospital ou clínica, sob a supervisão de um médico experiente. </p>
+<ul>
+<li>
+<p>A dose recomendada de IMFINZI é 10 mg por kg do seu peso corporal a cada 2 semanas ou 
+1500 mg a cada 3 ou 4 semanas. </p>
+</li>
+<li>
+<p>O seu médico irá administrar-lhe IMFINZI através de uma perfusão (gota a gota) na sua veia 
+durante cerca de 1 hora. </p>
+</li>
+<li>
+<p>O seu médico irá determinar quantos tratamentos são necessários. </p>
+</li>
+<li>
+<p>Dependendo do seu tipo de cancro, IMFINZI pode ser administrado em associação com outros 
+medicamentos anticancerígenos. </p>
+</li>
+<li>
+<p>Quando IMFINZI é administrado em associação com tremelimumab e quimioterapia para o seu 
+cancro do pulmão, ser-lhe-á administrado tremelimumab em primeiro lugar, seguido por 
+IMFINZI e depois quimioterapia. </p>
+</li>
+<li>
+<p>Quando IMFINZI é administrado em associação com quimioterapia para o seu cancro do 
+pulmão, ser-lhe-á administrado IMFINZI em primeiro lugar seguido por quimioterapia. </p>
+</li>
+<li>
+<p>Quando IMFINZI é administrado em associação com tremelimumab para o seu cancro do 
+pulmão, ser-lhe-á administrado tremelimumab em primeiro lugar seguido por IMFINZI. </p>
+</li>
+<li>
+<p>Consulte o folheto informativo dos outros medicamentos anticancerígenos para compreender a 
+utilização destes outros medicamentos. Se tiver dúvidas sobre esses medicamentos, fale com o 
+seu médico. </p>
+</li>
+</ul>
+<p>Se perder uma consulta para receber IMFINZI </p>
+<ul>
+<li>
+<p>Contacte o seu médico imediatamente para reprogramar a sua consulta. </p>
+</li>
+<li>
+<p>É muito importante que não falhe uma dose deste medicamento. 
+Caso ainda tenha dúvidas sobre o seu tratamento, fale com o seu médico. </p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Quando recebe IMFINZI, pode ter alguns efeitos indesejáveis graves (ver secção 2). </p>
+<p>Fale com o seu médico imediatamente se tiver algum dos seguintes efeitos indesejáveis, que foram 
+comunicados em estudos clínicos com doentes a receber IMFINZI isoladamente: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>infeções das vias respiratórias superiores </p>
+</li>
+<li>
+<p>atividade reduzida da glândula tiroide que pode provocar cansaço ou aumento de peso </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>erupção na pele ou comichão </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>dor nas articulações (artralgia) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>infeções pulmonares graves (pneumonia) </p>
+</li>
+<li>
+<p>infeção fúngica na boca </p>
+</li>
+<li>
+<p>infeções dos tecidos moles dos dentes e da boca </p>
+</li>
+<li>
+<p>doença semelhante à gripe </p>
+</li>
+<li>
+<p>atividade excessiva da glândula tiroide que pode causar batimentos cardíacos acelerados ou 
+perda de peso </p>
+</li>
+<li>
+<p>inflamação dos pulmões (pneumonite) </p>
+</li>
+<li>
+<p>voz rouca (disfonia) </p>
+</li>
+<li>
+<p>alterações nas análises ao fígado (aspartato aminotransferase aumentada; alanina 
+aminotransferase aumentada) </p>
+</li>
+<li>
+<p>suores noturnos </p>
+</li>
+<li>
+<p>dor muscular (mialgia) </p>
+</li>
+<li>
+<p>alterações nas análises da função renal (creatinina no sangue aumentada) </p>
+</li>
+<li>
+<p>dor ao urinar (disúria) </p>
+</li>
+<li>
+<p>inchaço das pernas (edema periférico) </p>
+</li>
+<li>
+<p>reação à perfusão do medicamento que pode causar febre ou afrontamentos </p>
+</li>
+<li>
+<p>inflamação do fígado que pode causar náuseas ou sentir menos fome (hepatite) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>inflamação da glândula tiroide (tiroidite) </p>
+</li>
+<li>
+<p>diminuição de secreção de hormonas produzidas pelas glândulas suprarrenais que pode provocar 
+cansaço </p>
+</li>
+<li>
+<p>cicatrização do tecido pulmonar </p>
+</li>
+<li>
+<p>bolhas na pele </p>
+</li>
+<li>
+<p>inflamação da mucosa ou intestino (colite) </p>
+</li>
+<li>
+<p>inflamação dos músculos (miosite) </p>
+</li>
+<li>
+<p>inflamação do coração (miocardite) </p>
+</li>
+<li>
+<p>inflamação dos rins (nefrite) que pode diminuir a quantidade da sua urina </p>
+</li>
+<li>
+<p>inflamação do pâncreas (pancreatite) </p>
+</li>
+<li>
+<p>placas de pele espessada, vermelhas, secas, escamosas e com comichão (psoríase) </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em cada 1000 pessoas) </p>
+<ul>
+<li>
+<p>uma condição que origina níveis elevados de açúcar no sangue (diabetes mellitus tipo 1) </p>
+</li>
+<li>
+<p>atividade reduzida da função da hipófise (hipofunção hipofisária incluindo diabetes insípida) 
+que pode provocar cansaço, e um aumento na quantidade da sua urina </p>
+</li>
+<li>
+<p>uma condição em que os músculos se tornam frágeis e há uma fadiga rápida muscular 
+(miastenia grave) </p>
+</li>
+<li>
+<p>inflamação da membrana à volta da medula espinhal e cérebro (meningite) </p>
+</li>
+<li>
+<p>baixo número de plaquetas causado por uma reação imunológica (trombocitopenia imune) </p>
+</li>
+<li>
+<p>inflamação da bexiga (cistite). Os sinais e sintomas podem incluir micção frequente e/ou 
+dolorosa, necessidade urgente de urinar, sangue na urina, dor ou pressão na parte inferior do 
+abdómen </p>
+</li>
+<li>
+<p>inflamação do olho (uveíte) </p>
+</li>
+<li>
+<p>inflamação das articulações (artrite imunomediada) </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis que foram comunicados com frequência desconhecida (não pode ser 
+calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>inflamação dos nervos (Síndrome de Guillain Barré) </li>
+</ul>
+<p>Os seguintes efeitos indesejáveis foram comunicados em estudos clínicos em doentes a tomar 
+IMFINZI em associação com quimioterapia (a frequência e gravidade dos efeitos indesejáveis podem 
+variar dependendo dos agentes quimioterapêuticos recebidos): </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>baixo número de glóbulos brancos </p>
+</li>
+<li>
+<p>baixo número de glóbulos vermelhos </p>
+</li>
+<li>
+<p>baixo número de plaquetas </p>
+</li>
+<li>
+<p>náuseas; vómitos; prisão de ventre, dor de estômago, diarreia </p>
+</li>
+<li>
+<p>alterações nas análises ao fígado (aspartato aminotransferase aumentada; alanina 
+aminotransferase aumentada) </p>
+</li>
+<li>
+<p>perda de cabelo </p>
+</li>
+<li>
+<p>erupção na pele, erupção na pele vermelha, pele seca ou com comichão; inflamação da pele </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>sentir menos fome </p>
+</li>
+<li>
+<p>sentir-se cansado ou fraco </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>baixo número de glóbulos brancos com sinais de febre </p>
+</li>
+<li>
+<p>atividade reduzida da glândula tiroide; atividade excessiva da glândula tiroide; inflamação da 
+glândula tiroide </p>
+</li>
+<li>
+<p>falta de energia; sensação geral de desconforto ou doença </p>
+</li>
+<li>
+<p>inflamação nos nervos que causa dormência, fraqueza, formigueiro ou ardor nos braços e nas 
+pernas (neuropatia periférica) </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>infeção pulmonar grave (pneumonia) </p>
+</li>
+<li>
+<p>infeções dos tecidos moles dos dentes e da boca </p>
+</li>
+<li>
+<p>inchaço (edema) </p>
+</li>
+<li>
+<p>inchaço das pernas (edema periférico) </p>
+</li>
+<li>
+<p>inflamação da boca ou lábios </p>
+</li>
+<li>
+<p>dor muscular (mialgia) </p>
+</li>
+<li>
+<p>inflamação dos pulmões (pneumonite) </p>
+</li>
+<li>
+<p>coágulo sanguíneo no pulmão (embolia pulmonar) </p>
+</li>
+<li>
+<p>infeção das vias respiratórias superiores </p>
+</li>
+<li>
+<p>baixo número de glóbulos vermelhos, glóbulos brancos e plaquetas (pancitopenia) </p>
+</li>
+<li>
+<p>diminuição de secreção de hormonas produzidas pelas glândulas suprarrenais que pode provocar 
+cansaço </p>
+</li>
+<li>
+<p>inflamação do fígado que pode causar náuseas ou sentir menos fome (hepatite) </p>
+</li>
+<li>
+<p>alterações nas análises da função renal (creatinina no sangue aumentada) </p>
+</li>
+<li>
+<p>dor ao urinar (disúria) </p>
+</li>
+<li>
+<p>reação à perfusão do medicamento que pode causar febre ou afrontamentos </p>
+</li>
+<li>
+<p>infeção fúngica na boca </p>
+</li>
+<li>
+<p>dor nas articulações (artralgia) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>doença semelhante à gripe </p>
+</li>
+<li>
+<p>diabetes mellitus tipo 1 </p>
+</li>
+<li>
+<p>voz rouca (disfonia) </p>
+</li>
+<li>
+<p>cicatrização do tecido pulmonar </p>
+</li>
+<li>
+<p>inflamação da mucosa ou intestino (colite) </p>
+</li>
+<li>
+<p>suores noturnos </p>
+</li>
+<li>
+<p>placas de pele espessada, vermelhas, secas, escamosas e com comichão (psoríase) </p>
+</li>
+<li>
+<p>inflamação do pâncreas (pancreatite) </p>
+</li>
+<li>
+<p>bolhas na pele </p>
+</li>
+<li>
+<p>inflamação das articulações (artrite imunomediada) </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em cada 1000 pessoas) </p>
+<ul>
+<li>inflamação do olho (uveíte) </li>
+</ul>
+<p>Os seguintes efeitos indesejáveis foram comunicados em estudos clínicos em doentes a receber 
+IMFINZI em associação com tremelimumab e quimioterapia baseada em platina (a frequência e a 
+gravidade dos efeitos indesejáveis podem variar dependendo dos agentes quimioterapêuticos 
+recebidos): </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>infeção das vias respiratórias superiores </p>
+</li>
+<li>
+<p>infeção pulmonar (pneumonia) </p>
+</li>
+<li>
+<p>baixo número de glóbulos vermelhos </p>
+</li>
+<li>
+<p>baixo número de glóbulos brancos </p>
+</li>
+<li>
+<p>baixo número de plaquetas </p>
+</li>
+<li>
+<p>atividade reduzida da glândula tiroide que pode provocar cansaço ou aumento de peso </p>
+</li>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>náuseas </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>prisão de ventre </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>alteração nas análises ao fígado (aspartato aminotransferase aumentada; alanina 
+aminotransferase aumentada) </p>
+</li>
+<li>
+<p>perda de cabelo </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>dor nas articulações (artralgia) </p>
+</li>
+<li>
+<p>sentir-se cansado ou fraco  </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>doença semelhante à gripe </p>
+</li>
+<li>
+<p>infeção fúngica na boca </p>
+</li>
+<li>
+<p>baixo número de glóbulos brancos com sinais de febre </p>
+</li>
+<li>
+<p>baixo número de glóbulos vermelhos, glóbulos brancos e plaquetas (pancitopenia) </p>
+</li>
+<li>
+<p>atividade excessiva da glândula tiroide que pode causar batimentos cardíacos acelerados ou 
+perda de peso </p>
+</li>
+<li>
+<p>níveis reduzidos das hormonas produzidas pelas glândulas suprarrenais que podem causar 
+cansaço </p>
+</li>
+<li>
+<p>atividade reduzida da glândula hipófise; inflamação da glândula hipófise </p>
+</li>
+<li>
+<p>inflamação da glândula tiroide (tiroidite) </p>
+</li>
+<li>
+<p>inflamação dos nervos causando dormência, fraqueza, formigueiro ou dor ardente nas mãos e 
+pés (neuropatia periférica) </p>
+</li>
+<li>
+<p>inflamação dos pulmões (pneumonite) </p>
+</li>
+<li>
+<p>voz rouca (disfonia) </p>
+</li>
+<li>
+<p>inflamação da boca ou lábios </p>
+</li>
+<li>
+<p>alterações nas análises da função pancreática </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>inflamação da mucosa ou intestino (colite) </p>
+</li>
+<li>
+<p>inflamação do pâncreas (pancreatite) </p>
+</li>
+<li>
+<p>inflamação do fígado que pode causar náuseas ou sentir menos fome (hepatite) </p>
+</li>
+<li>
+<p>dor muscular (mialgia) </p>
+</li>
+<li>
+<p>alterações nas análises da função renal (creatinina no sangue aumentada) </p>
+</li>
+<li>
+<p>dor ao urinar (disúria) </p>
+</li>
+<li>
+<p>inchaço das pernas (edema periférico) </p>
+</li>
+<li>
+<p>reação à perfusão do medicamento que pode causar febre ou afrontamentos </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>infeções dos tecidos moles dos dentes e da boca </p>
+</li>
+<li>
+<p>baixo número de plaquetas com sinais de hemorragia excessiva e nódoas negras 
+(trombocitopenia imune) </p>
+</li>
+<li>
+<p>diabetes insípida </p>
+</li>
+<li>
+<p>diabetes mellitus tipo 1 </p>
+</li>
+<li>
+<p>inflamação do cérebro (encefalite) </p>
+</li>
+<li>
+<p>inflamação do coração (miocardite) </p>
+</li>
+<li>
+<p>cicatrização do tecido pulmonar </p>
+</li>
+<li>
+<p>bolhas na pele </p>
+</li>
+<li>
+<p>suores noturnos </p>
+</li>
+<li>
+<p>inflamação da pele </p>
+</li>
+<li>
+<p>inflamação dos músculos (miosite) </p>
+</li>
+<li>
+<p>inflamação dos músculos e vasos </p>
+</li>
+<li>
+<p>inflamação dos rins (nefrite) que pode diminuir a quantidade da sua urina </p>
+</li>
+<li>
+<p>inflamação da bexiga (cistite). Os sinais e sintomas podem incluir micção frequente e/ou 
+dolorosa, necessidade urgente de urinar, sangue na urina, dor ou pressão na parte inferior do 
+abdómen </p>
+</li>
+<li>
+<p>inflamação do olho (uveíte) </p>
+</li>
+<li>
+<p>inflamação das articulações (artrite imunomediada) </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis que foram comunicados com frequência desconhecida (não pode ser 
+calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>uma condição em que os músculos se tornam frágeis e há uma fadiga rápida dos músculos 
+(miastenia gravis) </p>
+</li>
+<li>
+<p>inflamação dos nervos (Síndrome de Guillain Barré) </p>
+</li>
+<li>
+<p>inflamação da membrana à volta da medula espinhal e cérebro (meningite) </p>
+</li>
+<li>
+<p>buraco no intestino (perfuração intestinal) </p>
+</li>
+</ul>
+<p>Os seguintes efeitos indesejáveis foram comunicados em estudos clínicos em doentes a receber 
+IMFINZI em associação com tremelimumab: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>atividade reduzida da glândula tiroide que pode provocar cansaço ou aumento de peso </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>alteração nas análises ao fígado (aspartato aminotransferase aumentada; alanina 
+aminotransferase aumentada) </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>inchaço das pernas (edema periférico) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>infeções das vias respiratórias superiores </p>
+</li>
+<li>
+<p>infeção pulmonar (pneumonia) </p>
+</li>
+<li>
+<p>doença semelhante à gripe </p>
+</li>
+<li>
+<p>infeções dos tecidos moles dos dentes e da boca </p>
+</li>
+<li>
+<p>atividade excessiva da glândula tiroide que pode causar batimentos cardíacos acelerados ou 
+perda de peso </p>
+</li>
+<li>
+<p>inflamação da glândula tiroide (tiroidite) </p>
+</li>
+<li>
+<p>níveis reduzidos das hormonas produzidas pelas glândulas suprarrenais que podem causar 
+cansaço </p>
+</li>
+<li>
+<p>inflamação dos pulmões (pneumonite) </p>
+</li>
+<li>
+<p>alterações nas análises da função pancreática </p>
+</li>
+<li>
+<p>inflamação da mucosa ou intestino (colite) </p>
+</li>
+<li>
+<p>inflamação do pâncreas (pancreatite) </p>
+</li>
+<li>
+<p>inflamação do fígado (hepatite) </p>
+</li>
+<li>
+<p>inflamação da pele </p>
+</li>
+<li>
+<p>suores noturnos </p>
+</li>
+<li>
+<p>dor muscular (mialgia) </p>
+</li>
+<li>
+<p>alterações nas análises da função renal (creatinina no sangue aumentada) </p>
+</li>
+<li>
+<p>dor ao urinar (disúria) </p>
+</li>
+<li>
+<p>reação à perfusão do medicamento que pode causar febre ou afrontamentos </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>infeção fúngica na boca </p>
+</li>
+<li>
+<p>atividade reduzida da glândula hipófise; inflamação da glândula hipófise </p>
+</li>
+<li>
+<p>uma condição em que os músculos se tornam frágeis e há uma fadiga rápida dos músculos 
+(miastenia gravis) </p>
+</li>
+<li>
+<p>inflamação da membrana à volta da medula espinhal e cérebro (meningite) </p>
+</li>
+<li>
+<p>inflamação do coração (miocardite) </p>
+</li>
+<li>
+<p>voz rouca (disfonia) </p>
+</li>
+<li>
+<p>cicatrização do tecido pulmonar </p>
+</li>
+<li>
+<p>bolhas na pele </p>
+</li>
+<li>
+<p>inflamação dos músculos (miosite) </p>
+</li>
+<li>
+<p>inflamação dos músculos e vasos </p>
+</li>
+<li>
+<p>inflamação dos rins (nefrite) que pode diminuir a quantidade da sua urina </p>
+</li>
+<li>
+<p>inflamação das articulações (artrite imunomediada) </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em cada 1000 pessoas) </p>
+<ul>
+<li>inflamação do olho (uveíte) </li>
+</ul>
+<p>Outros efeitos indesejáveis que foram comunicados com frequência desconhecida (não pode ser 
+calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>baixo número de plaquetas com sinais de hemorragia excessiva e nódoas negras 
+(trombocitopenia imune) </p>
+</li>
+<li>
+<p>diabetes insípida </p>
+</li>
+<li>
+<p>diabetes mellitus tipo 1 </p>
+</li>
+<li>
+<p>inflamação dos nervos (síndrome de Guillain-Barré) </p>
+</li>
+<li>
+<p>inflamação do cérebro (encefalite) </p>
+</li>
+<li>
+<p>buraco no intestino (perfuração intestinal) </p>
+</li>
+<li>
+<p>inflamação da bexiga (cistite). Os sinais e sintomas podem incluir micção frequente e/ou 
+dolorosa, necessidade urgente de urinar, sangue na urina, dor ou pressão na parte inferior do 
+abdómen. </p>
+</li>
+</ul>
+<p>Contacte imediatamente o seu médico se tiver algum dos efeitos indesejáveis listados acima. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar imfinzi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar imfinzi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IMFINZI ser-lhe-á administrado num hospital ou clínica e o profissional de saúde será responsável 
+pela sua conservação. Os detalhes de conservação são os seguintes: 
+Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C a 8° C). 
+Não congelar. 
+Conservar na embalagem de origem para proteger da luz. 
+Não utilize este medicamento se estiver turvo, descolorado ou conter partículas visíveis. </p>
+<p>Não guarde qualquer porção não utilizada da solução de perfusão para reutilização. Qualquer 
+medicamento não utilizado ou resíduos devem ser eliminados de acordo com os requisitos locais. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de IMFINZI 
+A substância ativa é durvalumab. </p>
+<p>Cada ml de concentrado para solução para perfusão contém 50 mg de durvalumab. </p>
+<p>Cada frasco para injetáveis contém 500 mg de durvalumab em 10 ml de concentrado ou 120 mg de 
+durvalumab em 2,4 ml de concentrado. </p>
+<p>Os outros componentes são: histidina, cloridrato de histidina mono-hidratado, trealose di-hidratada, 
+polissorbato 80, água para preparações injetáveis. </p>
+<p>Qual o aspeto de IMFINZI e conteúdo da embalagem 
+IMFINZI concentrado para solução para perfusão (concentrado estéril) é uma solução sem 
+conservantes, límpida a opalescente, incolor a ligeiramente amarela, isenta de partículas visíveis. </p>
+<p>Está disponível em embalagens contendo 1 frasco para injetáveis de vidro de 2,4 ml de concentrado ou 
+1 frasco para injetáveis de vidro de 10 ml de concentrado. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+AstraZeneca AB 
+SE-151 85 Södertälje 
+Suécia </p>
+<p>Fabricante 
+AstraZeneca AB 
+Gärtunavägen 
+SE-152 57 Södertälje 
+Suécia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+AstraZeneca S.A./N.V. 
+Tel: +32 2 370 48<br />
+Lietuva 
+UAB AstraZeneca Lietuva 
+Tel: +370 5 2660 
+България 
+АстраЗенека България ЕООД 
+Тел.: +359 24455 
+Luxembourg/Luxemburg 
+AstraZeneca S.A./N.V. 
+Tél/Tel: +32 2 370 48<br />
+Česká republika 
+AstraZeneca Czech Republic s.r.o. 
+Tel: +420 222 807<br />
+Magyarország 
+AstraZeneca Kft. 
+Tel.: +36 1 883 6 
+Danmark 
+AstraZeneca A/S 
+Tlf: +45 43 66 64<br />
+Malta 
+Associated Drug Co. Ltd 
+Tel: +356 2277 8 
+Deutschland 
+AstraZeneca GmbH 
+Tel: +49 40 809034Nederland 
+AstraZeneca BV 
+Tel: +31 85 808 9 </p>
+<p>Eesti 
+AstraZeneca<br />
+Tel: +372 6549<br />
+Norge 
+AstraZeneca AS 
+Tlf: +47 21 00 64<br />
+Ελλάδα 
+AstraZeneca A.E. 
+Τηλ: +30 210 6871 
+Österreich 
+AstraZeneca Österreich GmbH 
+Tel: +43 1 711 31 0 </p>
+<p>España 
+AstraZeneca Farmacéutica Spain, S.A. 
+Tel: +34 91 301 91<br />
+Polska 
+AstraZeneca Pharma Poland Sp. z o.o. 
+Tel.: +48 22 245 73<br />
+France 
+AstraZeneca 
+Tél: +33 1 41 29 40<br />
+Portugal 
+AstraZeneca Produtos Farmacêuticos, Lda. 
+Tel: +351 21 434 61<br />
+Hrvatska 
+AstraZeneca d.o.o. 
+Tel: +385 1 4628<br />
+România 
+AstraZeneca Pharma SRL 
+Tel: +40 21 317 60<br />
+Ireland 
+AstraZeneca Pharmaceuticals (Ireland) 
+DAC 
+Tel: +353 1609 7 
+Slovenija 
+AstraZeneca UK Limited 
+Tel: +386 1 51 35<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+AstraZeneca AB, o.z. 
+Tel: +421 2 5737 7777  </p>
+<p>Italia 
+AstraZeneca S.p.A. 
+Tel: +39 02 00704 
+Suomi/Finland 
+AstraZeneca Oy 
+Puh/Tel: +358 10 23<br />
+Κύπρος 
+Αλέκτωρ Φαρµακευτική Λτδ 
+Τηλ: +357 22490 
+Sverige 
+AstraZeneca AB 
+Tel: +46 8 553 26<br />
+Latvija 
+SIA AstraZeneca Latvija 
+Tel: +371 67377 
+United Kingdom (Northern Ireland) 
+AstraZeneca UK Ltd 
+Tel: +44 1582 836  </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1589,6 +2749,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a8ab0a50af543bb09893d6d85fe7a719"
 * entry[0].resource = composition-da-a8ab0a50af543bb09893d6d85fe7a719
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa8ab0a50af543bb09893d6d85fe7a719"
+* entry[=].resource = mpa8ab0a50af543bb09893d6d85fe7a719
+                            
+                    
+Instance: bundlepackageleaflet-pt-a8ab0a50af543bb09893d6d85fe7a719
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imfinzi Package Leaflet for language pt"
+Description: "ePI document Bundle for imfinzi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a8ab0a50af543bb09893d6d85fe7a719"
+* entry[0].resource = composition-pt-a8ab0a50af543bb09893d6d85fe7a719
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa8ab0a50af543bb09893d6d85fe7a719"
@@ -1690,6 +2872,18 @@ RuleSet: a8ab0a50af543bb09893d6d85fe7a719ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a8ab0a50af543bb09893d6d85fe7a719) // imfinzi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

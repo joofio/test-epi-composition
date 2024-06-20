@@ -1084,6 +1084,655 @@ ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegssed
 
 
 
+Instance: composition-pt-9db488ea4436e9188ae22052d9c51b50
+InstanceOf: CompositionUvEpi
+Title: "Composition for insulin Package Leaflet"
+Description:  "Composition for insulin Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9db488ea4436e9188ae22052d9c51b50)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - insulin"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Insulina lispro Sanofi e para que é utilizada </li>
+<li>O que precisa de saber antes de utilizar Insulina lispro Sanofi </li>
+<li>Como utilizar Insulina lispro Sanofi </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Insulina lispro Sanofi </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é insulin e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é insulin e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Insulina lispro Sanofi é utilizada para tratar a diabetes. Insulina lispro Sanofi atua mais rapidamente do 
+que a insulina humana normal devido ao facto de a molécula de insulina ter sido ligeiramente 
+modificada. </p>
+<p>Fica com diabetes se o seu pâncreas não produzir insulina suficiente para controlar o nível da glicose 
+no seu sangue. Insulin lispro Sanofi é um substituto da sua própria insulina e é utilizado para controlar 
+os níveis de glicose a longo prazo. Atua muito rapidamente e durante um período de tempo mais curto 
+do que a insulina solúvel (2 a 5 horas). Em princípio, deverá administrar Insulina lispro Sanofi no 
+espaço de 15 minutos antes ou após a refeição. </p>
+<p>O seu médico pode dizer-lhe para usar Insulina lispro Sanofi juntamente com uma insulina de ação 
+mais prolongada. Cada uma destas insulinas contém um folheto informativo com informações sobre a 
+insulina. Não mude a sua insulina a não ser por indicação do médico. Seja extremamente cuidadoso se 
+mudar de insulina. </p>
+<p>Insulina lispro Sanofi é adequada para utilização em adultos e crianças.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar insulin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar insulin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Insulina lispro Sanofi: 
+- se pensa que a hipoglicemia (glicemia baixa) está a começar. Mais à frente neste folheto 
+informativo ser-lhe-á indicado como proceder no caso de hipoglicemia ligeira (ver secção 3: 
+Se utilizar mais Insulina lispro Sanofi do que deveria). 
+- se tem alergia à insulina lispro ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). </p>
+<p>Advertências e precauções 
+Registe o nome (“Insulina lispro Sanofi") e número do Lote (incluído na embalagem exterior e rótulos 
+de cada frasco para injectáveis, cartucho e caneta pré-cheia) do produto que está a utilizar e forneça 
+esta informação ao comunicar quaisquer efeitos indesejáveis. </p>
+<p>Alterações da pele no local de injeção:<br />
+Os locais de injeção devem ser alternados para prevenir alterações da pele, tais como nódulos sob a 
+pele. A insulina poderá não funcionar muito bem se for injetada numa área irregular (ver Como 
+utilizar Insulina lispro Sanofi). Contacte o seu médico se estiver atualmente a administrar a injeção 
+numa área irregular antes de começar a administrar a injeção numa área diferente. O seu médico 
+poderá aconselhá-lo a verificar mais atentamente o seu nível de açúcar no sangue e a ajustar a sua dose 
+de insulina ou de outros medicamentos antidiabéticos. </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Insulina lispro Sanofi </p>
+<ul>
+<li>
+<p>Se os seus níveis de glicemia estão bem controlados pela sua atual terapêutica com insulina pode 
+não sentir os sintomas de alarme quando o açúcar no sangue diminuir muito. Os sinais de alarme 
+estão listados mais à frente neste folheto. Deve planear cuidadosamente o horário das suas 
+refeições, a frequência com que faz exercício físico e o esforço que desenvolve. Deve também 
+vigiar atentamente os níveis de glicemia através de análises frequentes à glicose no sangue. </p>
+</li>
+<li>
+<p>Alguns doentes que apresentaram hipoglicemia após terem mudado de insulina animal para 
+insulina humana comunicaram que os sintomas de alarme na fase inicial eram menos óbvios ou 
+diferentes. Se tiver hipoglicemia com frequência ou tiver dificuldade em reconhecê-la, por favor 
+converse com o seu médico acerca disso. </p>
+</li>
+<li>
+<p>Se a sua resposta é SIM a qualquer das perguntas seguintes, fale com o seu médico, 
+farmacêutico ou enfermeiro de diabetes. </p>
+</li>
+<li>Esteve recentemente doente? </li>
+<li>Teve problemas de rins ou fígado? </li>
+<li>
+<p>Está a fazer mais exercício físico do que o habitual? </p>
+</li>
+<li>
+<p>Deve também informar o seu médico, farmacêutico ou enfermeiro de diabetes se estiver a pensar 
+em deslocar-se ao estrangeiro. As diferenças horárias entre os países podem levar a que tenha 
+que administrar as injeções e tomar as refeições a horas diferentes daquelas a que estava 
+habituado em casa. </p>
+</li>
+<li>
+<p>Alguns doentes com diabetes mellitus tipo 2 há muito diagnosticada e doença cardíaca ou 
+acidente vascular cerebral prévio, tratados com pioglitazona e insulina, desenvolveram 
+insuficiência cardíaca. Informe o seu médico o mais rapidamente possível se tiver sinais de 
+insuficiência cardíaca tais como dificuldades respiratórias não habituais ou um rápido aumento 
+de peso ou inchaço localizado (edema). </p>
+</li>
+</ul>
+<p>Outros medicamentos e Insulina lispro Sanofi 
+As suas necessidades de insulina podem mudar se estiver a tomar </p>
+<ul>
+<li>
+<p>contracetivos orais, </p>
+</li>
+<li>
+<p>esteróides, </p>
+</li>
+<li>
+<p>terapêutica de substituição da hormona tiroideia, </p>
+</li>
+<li>
+<p>hipoglicemiantes orais, </p>
+</li>
+<li>
+<p>ácido acetilsalicílico, </p>
+</li>
+<li>
+<p>antibióticos do grupo das sulfonamidas, </p>
+</li>
+<li>
+<p>octreotido, </p>
+</li>
+<li>
+<p>“estimulantes beta-2" (p. ex. ritodrino, salbutamol ou terbutalina), </p>
+</li>
+<li>
+<p>beta-bloqueantes ou </p>
+</li>
+<li>
+<p>alguns antidepressivos (inibidores da monoamina oxidase ou inibidores seletivos da recaptação 
+da serotonina), </p>
+</li>
+<li>
+<p>danazol, </p>
+</li>
+<li>
+<p>alguns inibidores da enzima de conversão da angiotensina (IECA), por exemplo, captopril, 
+enalapril e </p>
+</li>
+<li>
+<p>bloqueadores dos recetores da angiotensina II. </p>
+</li>
+</ul>
+<p>Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. </p>
+<p>Insulina lispro Sanofi com álcool 
+Os seus níveis de glicemia podem alterar-se se consumir álcool. Por este motivo, a quantidade 
+necessária de insulina pode mudar. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. As necessidades de insulina geralmente diminuem durante os 
+três primeiros meses de gravidez e aumentam nos restantes seis meses. 
+Se está a amamentar, a insulina ou a dieta podem necessitar de ser ajustadas. </p>
+<p>Condução de veículos e utilização de máquinas 
+A sua capacidade de concentração ou de reacção pode estar reduzida no caso de ter hipoglicemia. 
+Deve manter-se consciente deste facto em todas as situações que envolvam riscos, tanto para si como 
+para outras pessoas (por exemplo, condução de viaturas ou utilização de máquinas). Deverá contactar 
+o seu médico sobre a condução de viaturas no caso de ter: </p>
+<ul>
+<li>
+<p>episódios frequentes de hipoglicemia. </p>
+</li>
+<li>
+<p>os sinais indicadores de hipoglicemia diminutos ouausentes. </p>
+</li>
+</ul>
+<p>Insulina lispro Sanofi contém sódio 
+Este medicamento contém menos de 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar insulin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar insulin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Verifique sempre o nome e o tipo de insulina na embalagem e no rótulo do frasco para injetáveis 
+quando o receber da farmácia. Assegure-se que recebe Insulina lispro Sanofi que o seu médico 
+lhe receitou. </p>
+<p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>Posologia </p>
+<ul>
+<li>
+<p>Em princípio, deverá administrar Insulina lispro Sanofi no espaço de 15 minutos antes ou após a 
+refeição. Em caso de necessidade, pode injetar logo após a refeição. Mas o seu médico deve ter-
+lhe dito exatamente a quantidade a administrar, quando deve ser administrada e com que 
+frequência. Essas instruções são unicamente para si. Siga-as rigorosamente e visite regularmente 
+o seu médico assistente. </p>
+</li>
+<li>
+<p>Se mudar o tipo de insulina que usa (por exemplo, de insulina humana ou animal para Insulina 
+lispro Sanofi), pode necessitar de uma quantidade maior ou menor do que anteriormente. Pode 
+ser apenas para a primeira injeção ou pode ser uma mudança gradual durante algumas semanas 
+ou meses. </p>
+</li>
+<li>
+<p>Injete Insulina lispro Sanofi debaixo da pele (via subcutânea ou “SC"). Só deve injetá-la num 
+músculo por indicação do seu médico. </p>
+</li>
+</ul>
+<p>Preparação de Insulina lispro Sanofi </p>
+<ul>
+<li>Insulina lispro Sanofi já está dissolvida em água, para que não necessite de misturar. Mas só a 
+deve utilizar se a sua aparência for semelhante à da água. Deve estar límpida, não ter cor e não 
+deve conter partículas sólidas. Verifique isso antes de cada injeção. </li>
+</ul>
+<p>Injetar Insulina lispro Sanofi </p>
+<ul>
+<li>
+<p>Primeiro, lave as mãos. </p>
+</li>
+<li>
+<p>Antes de administrar a injeção, limpe a pele como lhe foi ensinado. Limpe a tampa de borracha 
+do frasco para injetáveis, mas não a retire. </p>
+</li>
+<li>
+<p>Use uma seringa e agulha limpas e estéreis, para furar a tampa de borracha e retirar a quantidade 
+de Insulina lispro Sanofi de que necessita. O seu médico ou profissional de saúde indicar-lhe-ão 
+como se faz. Não partilhe as suas agulhas ou seringas. </p>
+</li>
+<li>
+<p>Injete debaixo da pele, como lhe foi ensinado. Não injete diretamente numa veia. Após a injeção 
+deixe a agulha na pele durante 5 segundos para se certificar de que administrou a dose na sua 
+totalidade. Não esfregue a área da injeção. Assegure-se que a injeção é feita a, pelo menos, 1 cm 
+da última injeção e que faz uma “rotação" dos locais da injeção, conforme lhe ensinaram. Não 
+importa qual o local de injeção que escolher, quer seja o braço, coxa, nádega ou abdómen, a sua 
+injeção de Insulina lispro Sanofi atuará sempre mais rapidamente do que a insulina humana 
+solúvel. </p>
+</li>
+<li>
+<p>O seu médico dir-lhe-á se tem de misturar Insulina lispro Sanofi com uma das insulinas 
+humanas. Por exemplo, se necessitar de injetar uma mistura, retire Insulina lispro Sanofi para a 
+seringa antes da insulina de ação prolongada. Injete o líquido assim que o tiver misturado. Faça 
+o mesmo todas as vezes. </p>
+</li>
+<li>
+<p>Em princípio, não deve misturar Insulina lispro Sanofi com as misturas de insulina humana. 
+Nunca deve misturar Insulina lispro Sanofi com insulinas produzidas por outros fabricantes ou 
+com insulinas de origem animal. </p>
+</li>
+<li>
+<p>Não deve administrar Insulina lispro Sanofi por via intravenosa (IV). Injete Insulina lispro 
+Sanofi como o seu médico ou enfermeiro lhe ensinaram. Apenas o seu médico pode administrar 
+Insulina lispro Sanofi por via intravenosa. Só o fará em circunstâncias especiais, tais como numa 
+cirurgia ou no caso de estar doente e os seus níveis de glicose estarem demasiado altos. </p>
+</li>
+</ul>
+<p>Utilização de Insulina lispro Sanofi numa bomba de perfusão de insulina </p>
+<ul>
+<li>
+<p>Apenas algumas bombas de perfusão de insulina com marca CE podem ser utilizadas para 
+perfundir insulina lispro. Antes de perfundir insulina lispro, devem ser estudadas as instruções 
+do fabricante a fim de determinar a adequabilidade ou não de uma determinada bomba. Leia e 
+siga as instruções que acompanham a bomba de perfusão. </p>
+</li>
+<li>
+<p>Certifique-se de que utiliza o reservatório e o cateter corretos para a bomba. </p>
+</li>
+<li>
+<p>O sistema de perfusão (tubo e cânula) deve ser mudado de acordo com as instruções descritas na 
+informação do medicamento fornecida com o sistema de perfusão. </p>
+</li>
+<li>
+<p>No caso de um episódio hipoglicémico, a perfusão deve ser interrompida até que o episódio seja 
+resolvido. No caso de ocorrerem repetidos ou graves níveis baixos de glicose no sangue, informe 
+o seu médico ou profissional de saúde e considere a necessidade de reduzir ou interromper a sua 
+perfusão de insulina. </p>
+</li>
+<li>
+<p>Uma avaria da bomba ou obstrução do sistema de perfusão pode dar origem a uma subida rápida 
+dos níveis de glicose. No caso de suspeita de interrupção do fluxo de insulina, siga as instruções 
+na informação do produto e, se apropriado, informe o seu médico ou profissional de saúde. </p>
+</li>
+<li>
+<p>Quando utilizado com uma bomba de perfusão de insulina, Insulin lispro Sanofi não deve ser 
+misturado com qualquer outra insulina. </p>
+</li>
+</ul>
+<p>Se utilizar mais Insulina lispro Sanofi do que deveria 
+Se utilizar mais Insulina lispro Sanofi do que necessita ou não tem a certeza de quanto injetou, pode 
+ocorrer hipoglicemia. Verifique a sua glicemia. Se a sua glicemia estiver baixa (hipoglicemia ligeira), 
+tome comprimidos de glicose, açúcar ou beba uma bebida açucarada. Depois coma fruta, biscoitos ou 
+uma sandes, conforme o médico o aconselhou e descanse um pouco. Isto levá-lo-á a superar a 
+hipoglicemia ligeira ou uma pequena sobredosagem de insulina. Se ficar pior, a sua respiração for 
+pouco profunda e a sua pele ficar pálida, informe o seu médico imediatamente. Uma injeção de 
+glucagon pode tratar uma hipoglicemia bastante grave. Ingira glicose ou açúcar após a injeção de 
+glucagon. Se não responder ao glucagon, deverá ser tratado no hospital. Peça ao seu médico que o 
+informe sobre o glucagon. </p>
+<p>Caso se tenha esquecido de utilizar Insulina lispro Sanofi 
+Se utilizar menos Insulina lispro Sanofi do que necessita ou não tem a certeza de quanto injetou, pode 
+ocorrer hiperglicemia. Verifique a sua glicemia. </p>
+<p>Se a hipoglicemia (açúcar baixo no sangue) ou hiperglicemia (açúcar elevado no sangue) não forem 
+tratadas, podem ser muito graves e causar dores de cabeça, enjoos (náuseas), vómitos, desidratação, 
+inconsciência, coma ou até morte. (Ver hipoglicemia, hiperglicemia e cetoacidose diabética na 
+secção 4. “Efeitos indesejáveis possíveis"). </p>
+<p>Três passos simples para evitar hipoglicemia ou hiperglicemia: </p>
+<ul>
+<li>
+<p>Tenha sempre seringas sobresselentes e um frasco para injetáveis de Insulina lispro Sanofi a 
+mais. </p>
+</li>
+<li>
+<p>Traga sempre consigo algo que o identifique como diabético. </p>
+</li>
+<li>
+<p>Traga sempre consigo açúcar. </p>
+</li>
+</ul>
+<p>Se parar de utilizar Insulina lispro Sanofi<br />
+Se utilizar menos Insulina lispro Sanofi do que necessita, pode ocorrer hiperglicemia. Não mude a sua 
+insulina, a não ser por indicação do médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>A alergia sistémica é rara (pode afetar até 1 em cada 1.000 pessoas). Os sintomas são: </p>
+<ul>
+<li>
+<p>erupção na pele no corpo inteiro </p>
+</li>
+<li>
+<p>baixa da tensão arterial </p>
+</li>
+<li>
+<p>dificuldade em respirar </p>
+</li>
+<li>
+<p>batimento rápido do coração </p>
+</li>
+<li>
+<p>pieira </p>
+</li>
+<li>
+<p>suores </p>
+</li>
+</ul>
+<p>Se pensa que está a ter este tipo de alergia com Insulina lispro Sanofi, informe imediatamente o seu 
+médico. </p>
+<p>A alergia local é frequente (pode afetar até 1 em cada 10 pessoas). Algumas pessoas ficam com 
+vermelhidão, inchaço ou comichão no local da injeção de insulina. Isso desaparece normalmente após 
+alguns dias ou semanas. Se isso lhe acontecer informe o seu médico. </p>
+<p>Alterações da pele no local de injeção:<br />
+A lipodistrofia é pouco frequente (pode afetar até 1 em 100 pessoas). Se injetar insulina com 
+demasiada frequência no mesmo local, o tecido adiposo tanto pode encolher (lipoatrofia) como 
+aumentar de espessura (lipohipertrofia). Os nódulos sob a pele podem também ser causados pela 
+acumulação de uma proteína chamada amiloide (amiloidose cutânea; não é conhecida a frequência 
+com que ocorre). A insulina poderá não funcionar muito bem se for injetada numa área irregular. 
+Altere o local da injeção a cada injeção para ajudar a evitar essas alterações na pele. </p>
+<p>Foi notificado edema (p. ex. inchaço dos braços, tornozelos; retenção de líquidos), particularmente no 
+início da terapêutica com insulina ou durante uma alteração de terapêutica para controlar o nível da 
+glicose no seu sangue. </p>
+<p>Comunicação de efeitos indesejáveis<br />
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>
+<p>Problemas frequentes da diabetes </p>
+<p>A. Hipoglicemia 
+Hipoglicemia (açúcar baixo no sangue) significa que não há açúcar suficiente no sangue. Isso pode ser 
+causado por: </p>
+<ul>
+<li>
+<p>injetar demasiada Insulina lispro Sanofi ou outra insulina; </p>
+</li>
+<li>
+<p>saltar ou atrasar as suas refeições ou alterar a sua dieta; </p>
+</li>
+<li>
+<p>fazer exercício ou esforçar-se demasiado imediatamente antes ou após uma refeição; </p>
+</li>
+<li>
+<p>ter uma infeção ou doença (especialmente diarreia ou vómitos); </p>
+</li>
+<li>
+<p>haver uma alteração das suas necessidades de insulina; ou </p>
+</li>
+<li>
+<p>ter um agravamento dos seus problemas de rins ou de fígado. </p>
+</li>
+</ul>
+<p>O álcool e alguns medicamentos podem afetar os seus níveis de glicemia (ver secção 2). </p>
+<p>Os primeiros sintomas de uma baixa de glicemia surgem em geral rapidamente e incluem: </p>
+<ul>
+<li>
+<p>cansaço </p>
+</li>
+<li>
+<p>batimentos rápidos do coração </p>
+</li>
+<li>
+<p>nervosismo ou tremores </p>
+</li>
+<li>
+<p>náusea </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>suores frios </p>
+</li>
+</ul>
+<p>Enquanto não estiver confiante que reconhece os seus sintomas de aviso, evite situações nas quais a 
+hipoglicemia o possa colocar a si ou aos outros em risco, como por exemplo, conduzir uma viatura. </p>
+<p>B. Hiperglicemia e cetoacidose diabética 
+Hiperglicemia (demasiado açúcar no sangue) significa que o seu organismo não tem insulina 
+suficiente. A hiperglicemia pode ser provocada por: </p>
+<ul>
+<li>
+<p>não utilizar a sua Insulina lispro Sanofi ou outra insulina; </p>
+</li>
+<li>
+<p>administrar menos insulina do que a recomendada pelo médico; </p>
+</li>
+<li>
+<p>comer mais do que a sua dieta lhe permite; ou </p>
+</li>
+<li>
+<p>febre, infeção ou stress emocional. </p>
+</li>
+</ul>
+<p>A hiperglicemia pode levar a cetoacidose diabética. Os primeiros sintomas aparecem lentamente 
+durante muitas horas ou dias. Eles incluem: </p>
+<ul>
+<li>
+<p>sensação de sonolência </p>
+</li>
+<li>
+<p>falta de apetite </p>
+</li>
+<li>
+<p>vermelhidão do rosto </p>
+</li>
+<li>
+<p>hálito com cheiro a fruta </p>
+</li>
+<li>
+<p>sede </p>
+</li>
+<li>
+<p>sensação de náusea </p>
+</li>
+</ul>
+<p>Sintomas graves são respiração profunda e pulso rápido. Obtenha ajuda médica imediatamente. </p>
+<p>C. Doença 
+Se estiver doente, especialmente se sentir náuseas ou vomitar, as suas necessidades de insulina podem 
+mudar. Mesmo que não esteja a comer normalmente, continua a necessitar de insulina. Faça uma 
+análise de sangue ou urina, siga as “instruções relativas a doença" e informe o seu médico. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar insulin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar insulin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize Insulina lispro Sanofi após o prazo de validade impresso no rótulo e embalagem exterior. 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Antes da primeira utilização conserve o seu medicamento num frigorífico (2°C - 8°C). Não congelar. 
+Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>
+<p>Mantenha o frasco para injetáveis que está a utilizar à temperatura ambiente (inferior a 30ºC) e deite-o 
+fora após 4 semanas. Não conservar o frasco para injetáveis no frigorífico. Manter o frasco para 
+injetáveis dentro da embalagem exterior para proteger da luz. </p>
+<p>Não utilize este medicamento se verificar cor ou partículas sólidas. Só o deve utilizar se a sua 
+aparência for semelhante à da água. Examine a solução de cada vez que se injetar. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Insulina lispro Sanofi  </p>
+<ul>
+<li>
+<p>A substância ativa é a insulina lispro. Um mililitro de solução contém 100 unidades (equivalente 
+a 3,5 mg) de insulina lispro. Cada frasco para injetáveis contém 10 ml de solução injetável, 
+equivalente a 1.000 unidades. </p>
+</li>
+<li>
+<p>Os outros componentes são: metacresol, glicerol, hidrogenofosfato dissódico hepta-hidratado, 
+óxido de zinco e água para preparações injetáveis. Pode ter sido utilizado hidróxido de sódio ou 
+ácido clorídrico para ajustar a acidez (ver secção 2 “A Insulina lispro Sanofi contém sódio"). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Insulina lispro Sanofi e conteúdo da embalagem<br />
+Insulina lispro Sanofi solução injetável em  frasco para injetáveis é uma solução aquosa transparente e 
+incolor. 
+Cada frasco para injetáveis contém 10 ml.<br />
+Insulina lispro Sanofi em frasco para injetáveis está disponível em embalagens de 1 ou 5 frascos para 
+injetáveis. É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Sanofi Winthrop Industrie, 82 avenue Raspail, 94250 Gentilly, França </p>
+<p>Fabricante 
+Sanofi-Aventis Deutschland GmbH, D-65926 Frankfurt am Main, Alemanha. </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt., Magyarország 
+Tel.: +36 1 505 0 
+Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 
+Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4 
+Eesti 
+Swixx Biopharma OÜ 
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη ΑΕΒΕ 
+Τηλ: +30 210 900 16<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 - 0 </p>
+<p>España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie 
+Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda 
+Tel: +351 21 35 89<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078 România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: +386 1 235 51<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33   <br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800 13 12 12 (domande di tipo tecnico)<br />
++39.800.536389 (altre domande) </p>
+<p>Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija 
+Swixx Biopharma SIA 
+Tel: +371 6616 47<br />
+United Kingdom (Northern Ireland) 
+Sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1125,6 +1774,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9db488ea4436e9188ae22052d9c51b50"
 * entry[0].resource = composition-da-9db488ea4436e9188ae22052d9c51b50
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9db488ea4436e9188ae22052d9c51b50"
+* entry[=].resource = mp9db488ea4436e9188ae22052d9c51b50
+                            
+                    
+Instance: bundlepackageleaflet-pt-9db488ea4436e9188ae22052d9c51b50
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for insulin Package Leaflet for language pt"
+Description: "ePI document Bundle for insulin Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9db488ea4436e9188ae22052d9c51b50"
+* entry[0].resource = composition-pt-9db488ea4436e9188ae22052d9c51b50
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9db488ea4436e9188ae22052d9c51b50"
@@ -1226,6 +1897,18 @@ RuleSet: 9db488ea4436e9188ae22052d9c51b50ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9db488ea4436e9188ae22052d9c51b50) // insulin pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -744,6 +744,422 @@ og om, hvordan de behandles. </p>         </div>"""
 
 
 
+Instance: composition-pt-5c0fb39b14c2c2f1d40da5ef86f1b627
+InstanceOf: CompositionUvEpi
+Title: "Composition for filsuvez Package Leaflet"
+Description:  "Composition for filsuvez Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5c0fb39b14c2c2f1d40da5ef86f1b627)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - filsuvez"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Filsuvez e para que é utilizado<br />
+2. O que precisa de saber antes de utilizar Filsuvez<br />
+3. Como utilizar Filsuvez<br />
+4. Efeitos indesejáveis possíveis<br />
+5. Como conservar Filsuvez<br />
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é filsuvez e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é filsuvez e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Filsuvez gel é um medicamento à base de ervas que contém extrato seco de casca de bétula. </p>
+<p>É usado para tratar feridas em adultos e crianças (com mais de 6 meses) que têm um tipo da 
+“epidermólise bolhosa" (EB) designada por “distrófica" (EBD) ou “juncional" (JEB). Esta é uma 
+condição em que a camada exterior da pele se separa da camada interior, tornando a pele muito frágil e 
+levando ao aparecimento de feridas. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar filsuvez"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar filsuvez"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Filsuvez 
+- se tem alergia à casca de bétula ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Filsuvez. </p>
+<p>Se tiver uma reação alérgica, pare imediatamente a utilização de Filsuvez e consulte o seu médico 
+ou enfermeiro. Os sinais de uma reação alérgica incluem: </p>
+<ul>
+<li>comichão, inchaço e vermelhidão da pele que é mais grave na área onde o medicamento foi 
+aplicado. </li>
+</ul>
+<p>A infeção da ferida é uma complicação grave que pode ocorrer durante o processo de cicatrização. Os 
+sinais possíveis de uma infeção da ferida são: </p>
+<ul>
+<li>
+<p>líquido amarelo ou esverdeado (pus) drenando da ferida,  </p>
+</li>
+<li>
+<p>pele vermelha, quente, inchada ou com cada vez mais dor à volta da ferida. 
+Caso tenha tido uma infeção na ferida, terá de parar a utilização de Filsuvez e poderá ser necessário 
+outro medicamento. O seu médico ou enfermeiro irão informá-lo se puder retomar o tratamento com 
+Filsuvez após resolução da infeção. </p>
+</li>
+</ul>
+<p>As pessoas com EB têm maior probabilidade de desenvolverem um cancro da pele que se designa por 
+“carcinoma de células escamosas" (CCE). Caso lhe seja diagnosticado cancro de pele enquanto estiver 
+a utilizar Filsuvez, deverá falar com o seu médico ou enfermeiro e parar a utilização de Filsuvez 
+nessa parte da pele. </p>
+<p>O Filsuvez não contém pólen de bétula, por isso pode ser utilizado por pessoas com alergia ao pólen 
+de bétula. </p>
+<p>Evite que o Filsuvez entre em contacto com os olhos. Caso tal corra, enxague bem os olhos com água 
+limpa. Contacte o seu médico ou enfermeiro caso qualquer desconforto continue. </p>
+<p>Crianças 
+Não administre este medicamento a crianças com menos de 6 meses. </p>
+<p>Outros medicamentos e Filsuvez 
+Fale com o seu médico, farmacêutico ou enfermeiro caso esteja a usar, tenha utilizado recentemente, 
+ou possa vir a utilizar quaisquer outros medicamentos. </p>
+<p>Não existe informação sobre como o Filsuvez poderá reagir com outros medicamentos aplicados na 
+pele, tomados por via oral ou injetados. Não aplique outros medicamentos na zona da ferida no mesmo 
+período em que aplica o Filsuvez. Se precisar de mais de um medicamento, fale com o seu médico ou 
+enfermeiro. </p>
+<p>Gravidez, amamentação e fertilidade 
+Não foram realizados estudos sobre os efeitos de Filsuvez em mulheres grávidas, mas como a 
+absorção deste medicamento no corpo é extremamente baixa, o risco para o feto é insignificante. O 
+Filsuvez pode ser usado durante a gravidez. </p>
+<p>Não se sabe se o Filsuvez é excretado para o leite materno humano, mas como a absorção deste 
+medicamento no corpo é extremamente baixa, o risco para o lactente é insignificante. O Filsuvez pode 
+ser usado durante a amamentação, a menos que a área do peito esteja a ser tratada. </p>
+<p>Como a absorção deste medicamento para o seu corpo é extremamente baixa, não se espera que afete a 
+sua fertilidade. </p>
+<p>Condução de veículos e utilização de máquinas 
+A sua capacidade para conduzir e utilizar máquinas não será afetada por este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar filsuvez"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar filsuvez"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico, farmacêutico ou enfermeiro. 
+Consulte o seu médico, farmacêutico ou enfermeiro se não tiver a certeza.  </p>
+<p>Modos de administração </p>
+<ul>
+<li>
+<p>Limpe a ferida antes de aplicar Filsuvez. </p>
+</li>
+<li>
+<p>Pode aplicar Filsuvez de 2 formas: </p>
+</li>
+<li>Aplicar diretamente na ferida 
+o Aplique uma espessa camada (espessura de aproximadamente 1 mm) de Filsuvez na 
+ferida (Passo 1). 
+o Espalhe abundantemente o gel e tape toda a área da ferida com as mãos limpas ou 
+luvas (Passo 2). Não esfregue o gel. 
+o Tape com um penso não adesivo estéril (Passo 3). </li>
+</ul>
+<p>Passo 1 - Aplicar 
+Passo 2 - Espalhar 
+Passo 3 - Tapar </p>
+<p>OU </p>
+<ol>
+<li>Aplique num penso estéril não-adesivo 
+o Aplique uma camada espessa (espessura de aproximadamente 1 mm) de Filsuvez no 
+penso (Passo 1). 
+o Espalhe abundantemente o gel na área que terá contacto direto com a ferida com as 
+mãos limpas ou luvas (Passo 2). 
+o Tape a ferida com o penso (Passo 3). </li>
+</ol>
+<p>Passo 1 - Aplicar 
+Passo 2 - Espalhar 
+Passo 3 - Tapar </p>
+<ul>
+<li>
+<p>Aplique novamente o gel sempre que mudar o penso, até cicatrização da ferida. </p>
+</li>
+<li>
+<p>O Filsuvez não se destina a utilização interna. Evite o contacto com os olhos, boca ou narinas. 
+Caso ocorra contacto acidental, lave imediatamente com água limpa. </p>
+</li>
+<li>
+<p>Esta bisnaga de gel estéril destina-se a uma aplicação única. Depois de aberto, o gel deve ser 
+imediatamente usado e a bisnaga eliminada, mesmo que reste algum gel. Deverá ser utilizado 
+uma nova bisnaga em todas as mudanças de penso. </p>
+</li>
+</ul>
+<p>Duração da utilização 
+O seu médico, farmacêutico ou enfermeiro dir-lhe-á durante quanto tempo deverá usar o gel. Em caso 
+de persistência ou agravamento dos sintomas, ou complicações na ferida, fale com o seu médico, 
+farmacêutico ou enfermeiro. </p>
+<p>Se utilizar mais Filsuvez do que deveria 
+O Filsuvez é aplicado na pele e a absorção no corpo é extremamente baixa. Isto faz com que a 
+sobredosagem seja muito improvável, mesmo quando aplicada a grandes áreas do corpo e durante um 
+longo período de tempo. </p>
+<p>Caso se tenha esquecido de utilizar Filsuvez 
+Aplique o Filsuvez na seguinte alteração planeada do penso da ferida, continuando a sua rotina 
+normal. </p>
+<p>Se parar de utilizar o Filsuvez 
+Filsuvez deve ser utilizado conforme indicado pelo seu médico, farmacêutico ou enfermeiro. Não pare 
+a sua utilização sem consultar o seu médico, farmacêutico ou enfermeiro.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Informe imediatamente o seu médico, farmacêutico ou enfermeiro 
+caso observe quaisquer efeitos indesejáveis, incluindo estes abaixo indicados. </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>complicações na ferida (por exemplo, aumento do tamanho da ferida, reabertura da ferida, dor 
+na ferida) </li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>infeção da ferida </p>
+</li>
+<li>
+<p>reação alérgica (hipersensibilidade) </p>
+</li>
+<li>
+<p>comichão na pele </p>
+</li>
+<li>
+<p>dor e comichão no local de aplicação do medicamento </p>
+</li>
+<li>
+<p>complicações na cicatrização da ferida </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>secreção na ferida </p>
+</li>
+<li>
+<p>irritação na pele (dermatite) </p>
+</li>
+<li>
+<p>erupção cutânea com comichão </p>
+</li>
+<li>
+<p>erupção cutânea roxa </p>
+</li>
+<li>
+<p>dor </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar filsuvez"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar filsuvez"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e bisnaga 
+após "VAL". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 30 °C. </p>
+<p>A bisnaga de gel estéril destina-se a uma aplicação única. Depois de aberto, o gel deve ser 
+imediatamente usado e a bisnaga eliminada, mesmo que reste algum gel. Deverá ser utilizada uma 
+nova bisnaga em todas as mudanças de penso. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas irão ajudar a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Filsuvez 
+A substância ativa é extrato seco de casca de bétula. 
+1 g de gel contém: 100 mg de extrato (como extrato seco, refinado) de Betula pendula Roth, Betula 
+pubescens Ehrh. assim como híbridos de ambas as espécies, córtex (equivalente a 0,5-1,0 g de casca 
+de bétula), incluindo 84-95 mg de triterpenos calculados como a soma de betulina, ácido betulínico, 
+eritrodeol, lupeol e ácido oleanólico. Solvente de extração: n-Heptano. </p>
+<p>O outro ingrediente é óleo de girassol refinado. </p>
+<p>Qual o aspeto de Filsuvez e conteúdo da embalagem 
+O Filsuvez é um gel incolor a ligeiramente amarelado, opalescente, não aquoso. </p>
+<p>Filsuvez gel está embalado numa bisnaga de alumínio branco colapsável. A bisnaga é fechada com 
+uma membrana de alumínio inviolável e fecho com rosca de polipropileno branca. 
+A bisnaga é embalada numa caixa de cartão. </p>
+<p>Tamanhos da embalagem:<br />
+1 e 30 bisnagas de 9,4 g ou<br />
+1, 10 e 30 bisnagas de 23,4 g de gel. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Amryt Pharmaceuticals DAC 
+45 Mespil Road 
+Dublin 4 
+Irlanda 
+tel: 00 800 4447 4447 (número gratuito) 
+tel: +44 1604 549 e-mail: medinfo@amrytpharma.com </p>
+<p>Fabricante<br />
+Amryt GmbH 
+Streiflingsweg 75223 Niefern-Öschelbronn 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Chiesi sa/nv<br />
+Tél/Tel: + 32 (0)2 788 42  </p>
+<p>Lietuva 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +370 661 663 pv.global@exceedorphan.com </p>
+<p>България 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Teл.: +359 888 918 pv.global@exceedorphan.com </p>
+<p>Luxembourg/Luxemburg 
+Chiesi sa/nv<br />
+Tél/Tel: + 32 (0)2 788 42<br />
+Česká republika 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +420 724 321 pv.global@exceedorphan.com </p>
+<p>Magyarország 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +36 20 399 4269<br />
+pv.global@exceedorphan.com </p>
+<p>Danmark 
+Chiesi Pharma AB<br />
+Tlf: + 46 8 753 35<br />
+Malta 
+Amryt Pharmaceuticals DAC 
+Tel: +44 1604 549medinfo@amrytpharma.com </p>
+<p>Deutschland 
+Chiesi GmbH<br />
+Tel: + 49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V.<br />
+Tel: + 31 88 501 64<br />
+Eesti 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +370 661 663 pv.global@exceedorphan.com </p>
+<p>Norge 
+Chiesi Pharma AB<br />
+Tlf: + 46 8 753 35<br />
+Ελλάδα 
+Amryt Pharmaceuticals DAC 
+Tηλ: +800 44 474Tηλ: +44 1604 549medinfo@amrytpharma.com </p>
+<p>Österreich 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+España 
+Chiesi España, S.A.U.<br />
+Tel: + 34 93 494 8 
+Polska 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +48 502 188 pv.global@exceedorphan.com </p>
+<p>France 
+Chiesi S.A.S.<br />
+Tél: + 33 1 47688 
+Portugal 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 
+Hrvatska 
+ExCEEd Orphan Distribution d.o.o. 
+Savska cesta 32, Zagreb, 100 Croatia<br />
+Tel: +385 99 320 0pv.global@exceedorphan.com </p>
+<p>România 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +40 744 366 pv.global@exceedorphan.com </p>
+<p>Ireland 
+Chiesi Farmaceutici S.p.A. <br />
+Tel: + 39 0521 2 
+Slovenija 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +386 30 210 pv.global@exceedorphan.com </p>
+<p>Ísland 
+Chiesi Pharma AB<br />
+Sími: +46 8 753 35<br />
+Slovenská republika 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +420 608 076 pv.global@exceedorphan.com </p>
+<p>Italia 
+Chiesi Italia S.p.A.<br />
+Tel: + 39 0521 2 
+Suomi/Finland 
+Chiesi Pharma AB<br />
+Puh/Tel: +46 8 753 35<br />
+Κύπρος 
+Amryt Pharmaceuticals DAC 
+Tηλ: +800 44 474Tηλ: +44 1604 549medinfo@amrytpharma.com </p>
+<p>Sverige 
+Chiesi Pharma AB<br />
+Tel: +46 8 753 35<br />
+Latvija 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +370 661 663 pv.global@exceedorphan.com </p>
+<p>United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 
+Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -785,6 +1201,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5c0fb39b14c2c2f1d40da5ef86f1b627"
 * entry[0].resource = composition-da-5c0fb39b14c2c2f1d40da5ef86f1b627
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5c0fb39b14c2c2f1d40da5ef86f1b627"
+* entry[=].resource = mp5c0fb39b14c2c2f1d40da5ef86f1b627
+                            
+                    
+Instance: bundlepackageleaflet-pt-5c0fb39b14c2c2f1d40da5ef86f1b627
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for filsuvez Package Leaflet for language pt"
+Description: "ePI document Bundle for filsuvez Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5c0fb39b14c2c2f1d40da5ef86f1b627"
+* entry[0].resource = composition-pt-5c0fb39b14c2c2f1d40da5ef86f1b627
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5c0fb39b14c2c2f1d40da5ef86f1b627"
@@ -886,6 +1324,18 @@ RuleSet: 5c0fb39b14c2c2f1d40da5ef86f1b627ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5c0fb39b14c2c2f1d40da5ef86f1b627) // filsuvez pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

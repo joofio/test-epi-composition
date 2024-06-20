@@ -978,6 +978,576 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-e34df9b486f1338f47595519afb12a7d
+InstanceOf: CompositionUvEpi
+Title: "Composition for exelon Package Leaflet"
+Description:  "Composition for exelon Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe34df9b486f1338f47595519afb12a7d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - exelon"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Exelon e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Exelon </li>
+<li>Como tomar Exelon </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Exelon </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é exelon e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é exelon e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A substância ativa de Exelon é a rivastigmina. </p>
+<p>A rivastigmina pertence a uma classe de substâncias denominada inibidores da colinesterase. Em 
+doentes com demência de Alzheimer ou demência devido à doença de Parkinson, algumas células 
+nervosas morrem no cérebro resultando em níveis baixos do neurotransmissor acetilcolina (uma 
+substância que permite às células nervosas comunicarem entre si). A rivastigmina funciona através do 
+bloqueio das enzimas que degradam a acetilcolina: acetilcolinesterase e butirilcolinesterase. Através 
+do bloqueio destas enzimas, o Exelon permite o aumento dos níveis de acetilcolina no cérebro, 
+ajudando a reduzir os sintomas da doença de Alzheimer e da demência associada à doença de 
+Parkinson. </p>
+<p>Exelon é utilizado no tratamento de doentes adultos com demência de Alzheimer ligeira a 
+moderadamente grave, uma perturbação progressiva do cérebro que afeta gradualmente a memória, a 
+capacidade intelectual e o comportamento. As cápsulas e a solução oral também podem ser utilizadas 
+para o tratamento da demência em doentes adultos com doença de Parkinson. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar exelon"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar exelon"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Exelon 
+- se tem alergia à rivastigmina (a substância ativa de Exelon) ou a qualquer outro componente 
+deste medicamento (indicados na secção 6). 
+- se tiver uma reação da pele que se alastra para além do tamanho do adesivo transdérmico, se 
+existir uma reação local mais intensa (tal como bolhas, inflamação da pele, inchaço) e se não 
+melhorar no espaço de 48 horas após a remoção do adesivo transdérmico. 
+Se isto se aplicar a si, informe o seu médico e não tome Exelon. </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de tomar Exelon: 
+- se tem ou tiver tido uma doença do coração tal como batimento irregular ou lento do coração, 
+prolongamento do intervalo QTc, história familiar de prolongamento do intervalo QTc, torsade 
+de pointes, ou tem um baixo nível de potássio ou magnésio. 
+- se tem ou tiver tido uma úlcera no estômago ativa. 
+- se tem ou tiver tido dificuldades na passagem da urina. 
+- se tem ou tiver tido convulsões. 
+- se tem ou tiver tido asma ou doença respiratória grave. 
+- se tem ou tiver tido a função renal comprometida. 
+- se tem ou tiver tido a função hepática comprometida. 
+- se sofre de tremores. 
+- se tem um peso corporal baixo. 
+- se sentir reações gastrointestinais tais como enjoos (náuseas), vómitos e diarreia. Poderá ficar 
+desidratado (perder demasiados líquidos) se os vómitos ou a diarreia forem prolongados. 
+Se alguma destas situações se aplicar a si, o seu médico pode necessitar de o acompanhar mais 
+regularmente enquanto está a tomar este medicamento. </p>
+<p>Se não tomou Exelon durante mais do que três dias, não tome a próxima dose antes de falar com o seu 
+médico. </p>
+<p>Crianças e adolescentes 
+Não é relevante a utilização de Exelon na população pediátrica no tratamento da doença de Alzheimer. </p>
+<p>Outros medicamentos e Exelon 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Exelon não deve ser administrado simultaneamente com outros medicamentos com efeitos 
+semelhantes a Exelon. Exelon pode interferir com os medicamentos anticolinérgicos (medicamentos 
+usados para aliviar os espasmos do estômago acompanhados de dor, tratar a doença de Parkinson ou 
+para prevenir o enjoo em viagem). </p>
+<p>Exelon não deve ser administrado ao mesmo tempo que a metoclopramida (um medicamento utilizado 
+para aliviar ou prevenir náuseas e vómitos). A toma conjunta destes dois medicamentos pode causar 
+problemas, tais como os membros rígidos e as mãos trémulas. </p>
+<p>Em caso de ter de se submeter a cirurgia enquanto estiver a tomar Exelon, deve informar o seu médico 
+antes de lhe serem administrados anestésicos, porque Exelon pode potenciar os efeitos de alguns 
+relaxantes musculares durante a anestesia. </p>
+<p>Deve ter cuidado ao tomar Exelon em conjunto com beta-bloqueadores (medicamentos, tais como 
+atenolol utilizados para tratar a tensão arterial elevada, angina e outras doenças do coração). A toma 
+conjunta destes dois medicamentos pode causar problemas como diminuição do batimento do coração 
+(bradicardia), levando a desmaios ou perda de consciência. </p>
+<p>Deve ter cuidado ao tomar Exelon com outros medicamentos que podem afetar o seu ritmo cardíaco 
+ou o sistema elétrico do seu coração (prolongamento do intervalo QT). </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Se estiver grávida, os benefícios da utilização de Exelon devem ser ponderados relativamente aos 
+possíveis efeitos no feto. Exelon não deve ser utilizado durante a gravidez, a não ser que seja 
+claramente necessário. </p>
+<p>Não deve amamentar durante o tratamento com Exelon. </p>
+<p>Condução de veículos e utilização de máquinas 
+O seu médico irá dizer-lhe se a sua doença lhe permite conduzir veículos e utilizar máquinas com 
+segurança. Exelon pode causar tonturas e sonolência, principalmente no início do tratamento ou quando 
+se aumenta a dose. Se sentir tonturas ou sonolência, não conduza, não utilize máquinas nem realize 
+outras tarefas que requeiram a sua atenção. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar exelon"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar exelon"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico, 
+farmacêutico ou enfermeiro se tiver dúvidas. </p>
+<p>Como começar o tratamento 
+O seu médico dir-lhe-á qual é a dose de Exelon mais adequada para si. </p>
+<ul>
+<li>
+<p>O tratamento é habitualmente iniciado com uma dose baixa. </p>
+</li>
+<li>
+<p>O seu médico irá aumentar gradualmente a sua dose dependendo da sua resposta ao tratamento. </p>
+</li>
+<li>
+<p>A dose mais elevada que deve ser tomada é de 6,0 mg duas vezes ao dia. </p>
+</li>
+</ul>
+<p>O seu médico irá verificar regularmente se o medicamento está a fazer efeito. O seu médico irá 
+também monitorizar o seu peso durante o tratamento. </p>
+<p>Se não tomou Exelon durante mais do que três dias, não tome a próxima dose antes de falar com o seu 
+médico. </p>
+<p>Ao tomar este medicamento </p>
+<ul>
+<li>
+<p>Informe a pessoa que lhe presta cuidados de saúde que está a tomar Exelon. </p>
+</li>
+<li>
+<p>Para beneficiar do seu medicamento, tome-o todos os dias. </p>
+</li>
+<li>
+<p>Tome Exelon duas vezes por dia, de manhã e à noite, com comida. </p>
+</li>
+<li>
+<p>Engula as cápsulas inteiras com uma bebida. </p>
+</li>
+<li>
+<p>Não abra nem esmague as cápsulas. </p>
+</li>
+</ul>
+<p>Se tomar mais Exelon do que deveria 
+Se tomou acidentalmente mais Exelon do que deveria, informe o seu médico. Pode necessitar de 
+assistência médica. Algumas pessoas que tomaram acidentalmente uma quantidade excessiva de 
+Exelon tiveram enjoos (náuseas), vómitos, diarreia, pressão arterial elevada e alucinações. Podem 
+também ocorrer batimento lento do coração e desmaio. </p>
+<p>Caso se tenha esquecido de tomar Exelon 
+Se verificar que se esqueceu de tomar uma dose de Exelon aguarde e tome a próxima dose à hora 
+habitual. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Poderá ter efeitos indesejáveis com mais frequência quando inicia o seu medicamento ou quando a sua 
+dose é aumentada. Normalmente, os efeitos indesejáveis irão desaparecer gradualmente, assim que o 
+seu organismo se habituar ao medicamento. </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Perda de apetite </p>
+</li>
+<li>
+<p>Problemas de estômago tais como enjoos (náuseas) ou vómitos, diarreia </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Ansiedade </p>
+</li>
+<li>
+<p>Transpiração </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Azia </p>
+</li>
+<li>
+<p>Perda de peso </p>
+</li>
+<li>
+<p>Dores de estômago </p>
+</li>
+<li>
+<p>Agitação </p>
+</li>
+<li>
+<p>Sensação de fadiga ou fraqueza </p>
+</li>
+<li>
+<p>Sensação geral de mal-estar </p>
+</li>
+<li>
+<p>Tremores ou confusão </p>
+</li>
+<li>
+<p>Perda de apetite </p>
+</li>
+<li>
+<p>Pesadelos </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Depressão </p>
+</li>
+<li>
+<p>Dificuldade em dormir </p>
+</li>
+<li>
+<p>Desmaio ou quedas acidentais </p>
+</li>
+<li>
+<p>Alterações do funcionamento do fígado </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1.000 pessoas) </p>
+<ul>
+<li>
+<p>Dor no peito </p>
+</li>
+<li>
+<p>Erupção na pele, comichão </p>
+</li>
+<li>
+<p>Crises epiléticas (ataques ou convulsões) </p>
+</li>
+<li>
+<p>Úlceras no estômago ou intestino </p>
+</li>
+</ul>
+<p>Muito raros (podem afetar até 1 em 10.000 pessoas) </p>
+<ul>
+<li>
+<p>Pressão arterial elevada </p>
+</li>
+<li>
+<p>Infeção do trato urinário </p>
+</li>
+<li>
+<p>Ver coisas que não existem (alucinações) </p>
+</li>
+<li>
+<p>Problemas com o batimento do coração tais como batimento do coração rápido ou lento </p>
+</li>
+<li>
+<p>Hemorragia gastrointestinal - identificada por sangue nas fezes ou ao vomitar </p>
+</li>
+<li>
+<p>Inflamação do pâncreas - os sintomas incluem dor forte na parte superior do estômago, 
+frequentemente acompanhada de enjoos (náuseas) ou vómitos </p>
+</li>
+<li>
+<p>Agravamento dos sinais da doença de Parkinson ou desenvolvimento de sinais semelhantes - 
+tais como rigidez muscular, dificuldade em efetuar movimentos </p>
+</li>
+</ul>
+<p>Desconhecido (a frequência não pode ser estimada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>Vómitos muito intensos que podem levar à rutura do tubo que liga a boca ao estômago 
+(esófago) </p>
+</li>
+<li>
+<p>Desidratação (perder demasiados líquidos) </p>
+</li>
+<li>
+<p>Problemas de fígado (pele amarela, amarelecimento da parte branca dos olhos, escurecimento 
+anormal da urina ou náuseas, vómitos, cansaço ou falta de apetite inexplicáveis) </p>
+</li>
+<li>
+<p>Agressividade, agitação </p>
+</li>
+<li>
+<p>Batimento irregular do coração </p>
+</li>
+</ul>
+<p>Doentes com demência associada à doença de Parkinson 
+Estes doentes têm alguns efeitos indesejáveis com mais frequência. Estes doentes também têm alguns 
+efeitos indesejáveis adicionais: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Tremores </p>
+</li>
+<li>
+<p>Desmaio </p>
+</li>
+<li>
+<p>Queda acidental </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Ansiedade </p>
+</li>
+<li>
+<p>Agitação </p>
+</li>
+<li>
+<p>Batimento do coração rápido e lento </p>
+</li>
+<li>
+<p>Dificuldade em dormir </p>
+</li>
+<li>
+<p>Aumento da secreção de saliva e desidratação </p>
+</li>
+<li>
+<p>Movimentos muito lentos ou involuntários </p>
+</li>
+<li>
+<p>Agravamento dos sinais da doença de Parkinson ou desenvolvimento de sinais semelhantes - 
+tais como rigidez muscular, dificuldade em efetuar movimentos e fraqueza muscular </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>Batimento irregular do coração e controlo insuficiente dos movimentos </li>
+</ul>
+<p>Outros efeitos indesejáveis observados com Exelon adesivos transdérmicos e que podem ocorrer 
+durante o tratamento com as cápsulas: </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Febre </p>
+</li>
+<li>
+<p>Confusão grave </p>
+</li>
+<li>
+<p>Incontinência urinária (incapacidade de retenção adequada de urina) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>Hiperatividade (elevado nível de atividade, agitação) </li>
+</ul>
+<p>Desconhecido (a frequência não pode ser estimada a partir dos dados disponíveis) </p>
+<ul>
+<li>Reações alérgicas no local de aplicação, tais como bolhas ou pele inflamada 
+Se tiver algum destes sintomas, contacte o seu médico pois pode necessitar de assistência médica. </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar exelon"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar exelon"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+</li>
+<li>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+</li>
+<li>
+<p>Não conservar acima de 30°C. </p>
+</li>
+<li>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Exelon 
+- A substância ativa é o hidrogenotartarato de rivastigmina. 
+- Os outros componentes são hipromelose, estearato de magnésio, celulose microcristalina, sílica 
+coloidal anidra, gelatina, óxido de ferro amarelo (E172), óxido de ferro vermelho (E172), 
+dióxido de titânio (E171) e goma laca. </p>
+<p>Cada cápsula de Exelon 1,5 mg contém 1,5 mg de rivastigmina. 
+Cada cápsula de Exelon 3,0 mg contém 3,0 mg de rivastigmina. 
+Cada cápsula de Exelon 4,5 mg contém 4,5 mg de rivastigmina. 
+Cada cápsula de Exelon 6,0 mg contém 6,0 mg de rivastigmina. </p>
+<p>Qual o aspeto de Exelon e conteúdo da embalagem 
+- Exelon 1,5 mg cápsulas, que contêm um pó esbranquiçado a ligeiramente amarelo, têm uma 
+tampa e corpo amarelos, com a expressão “EXELON 1,5 mg" impressa no corpo da cápsula 
+com tinta vermelha. 
+- Exelon 3,0 mg cápsulas, que contêm um pó esbranquiçado a ligeiramente amarelo, têm uma 
+tampa e corpo cor de laranja, com a expressão “EXELON 3 mg" impressa no corpo da cápsula 
+com tinta vermelha. 
+- Exelon 4,5 mg cápsulas, que contêm um pó esbranquiçado a ligeiramente amarelo, têm uma 
+tampa e corpo vermelhos, com a expressão “EXELON 4,5 mg" impressa no corpo da cápsula 
+com tinta branca. 
+- Exelon 6,0 mg cápsulas, que contêm um pó esbranquiçado a ligeiramente amarelo, têm uma 
+tampa vermelha e corpo cor de laranja, com a expressão “EXELON 6 mg" impressa no corpo 
+da cápsula com tinta vermelha. 
+As cápsulas estão acondicionadas em blister, disponíveis em três apresentações diferentes (28, 56 e 
+112 cápsulas) mas nem todas poderão estar disponíveis no seu país. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Farmacéutica, S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Espanha </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nuremberga 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1019,6 +1589,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-e34df9b486f1338f47595519afb12a7d"
 * entry[0].resource = composition-da-e34df9b486f1338f47595519afb12a7d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe34df9b486f1338f47595519afb12a7d"
+* entry[=].resource = mpe34df9b486f1338f47595519afb12a7d
+                            
+                    
+Instance: bundlepackageleaflet-pt-e34df9b486f1338f47595519afb12a7d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for exelon Package Leaflet for language pt"
+Description: "ePI document Bundle for exelon Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-e34df9b486f1338f47595519afb12a7d"
+* entry[0].resource = composition-pt-e34df9b486f1338f47595519afb12a7d
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpe34df9b486f1338f47595519afb12a7d"
@@ -1120,6 +1712,18 @@ RuleSet: e34df9b486f1338f47595519afb12a7dListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-e34df9b486f1338f47595519afb12a7d) // exelon pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

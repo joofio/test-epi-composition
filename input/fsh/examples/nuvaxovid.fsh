@@ -700,6 +700,398 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-0b2c64f281f8a04082b537d7d8030a6f
+InstanceOf: CompositionUvEpi
+Title: "Composition for nuvaxovid Package Leaflet"
+Description:  "Composition for nuvaxovid Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0b2c64f281f8a04082b537d7d8030a6f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - nuvaxovid"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Nuvaxovid e para que é utilizada </li>
+<li>O que precisa de saber antes de receber Nuvaxovid </li>
+<li>Como é administrada Nuvaxovid </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Nuvaxovid </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é nuvaxovid e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é nuvaxovid e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nuvaxovid é uma vacina utilizada para prevenir a COVID-19 causada pelo vírus SARS-CoV-2.  </p>
+<p>Nuvaxovid é administrada a indivíduos com idade igual ou superior a 12 anos. </p>
+<p>A vacina faz com que o sistema imunitário (as defesas naturais do corpo) produza anticorpos e 
+leucócitos especializados que atuam contra o vírus, para conferir proteção contra a COVID-19. Nenhum dos componentes contidos nesta vacina pode causar COVID-19.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar nuvaxovid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar nuvaxovid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nuvaxovid não deve ser administrada  </p>
+<ul>
+<li>se tem alergia à substância ativa ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de receber Nuvaxovid se: </p>
+<ul>
+<li>
+<p>já tiver tido uma reação alérgica grave ou potencialmente fatal depois de receber outra vacina por 
+injeção ou depois de ter recebido Nuvaxovid no passado; </p>
+</li>
+<li>
+<p>alguma vez desmaiou após uma injeção com agulha; </p>
+</li>
+<li>
+<p>tiver febre alta (superior a 38 °C) ou infeção grave. No entanto, pode receber a sua vacinação se 
+tiver uma febre ligeira ou infeção das vias aéreas superiores semelhante a constipação; </p>
+</li>
+<li>
+<p>tiver problemas de hemorragia, desenvolver nódoas negras facilmente ou se utilizar um 
+medicamento para evitar coágulos sanguíneos; </p>
+</li>
+<li>
+<p>se o seu sistema imunitário não funcionar corretamente (imunodeficiência) ou se estiver a tomar 
+medicamentos que enfraquecem o sistema imunitário (tais como corticosteroides em doses 
+elevadas, imunossupressores ou medicamentos oncológicos). </p>
+</li>
+</ul>
+<p>Existe um risco acrescido de miocardite (inflamação do músculo do coração) e de pericardite 
+(inflamação do revestimento externo do coração) após a vacinação com Nuvaxovid (ver secção 4). 
+Estas doenças podem desenvolver-se no prazo de apenas alguns dias após a vacinação e têm ocorrido 
+sobretudo num prazo de 14 dias. 
+Após a vacinação, deverá estar atento a sinais de miocardite e pericardite, tais como falta de ar, 
+palpitações e dor no peito, e procurar assistência médica imediata caso estes surjam. </p>
+<p>Se alguma das situações acima descritas se aplica a si (ou se tiver dúvidas), fale com o seu médico, 
+farmacêutico, ou enfermeiro antes de receber Nuvaxovid. </p>
+<p>Tal como sucede com qualquer vacina, o esquema de vacinação de 2 doses de Nuvaxovid pode não 
+proteger totalmente todos aqueles que a recebem, e desconhece-se durante quanto tempo ficará 
+protegido. </p>
+<p>Crianças </p>
+<p>Nuvaxovid não é recomendada para crianças de idade inferior a 12 anos. Presentemente, não existem 
+informações disponíveis sobre a utilização de Nuvaxovid em crianças com menos de 12 anos de idade. </p>
+<p>Outros medicamentos e Nuvaxovid </p>
+<p>Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou 
+se vier a tomar outros medicamentos. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico, 
+farmacêutico ou enfermeiro antes de receber esta vacina. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Alguns dos efeitos indesejáveis de Nuvaxovid listados na secção 4 (Efeitos indesejáveis possíveis) 
+pode reduzir temporariamente a sua capacidade de conduzir e utilizar máquinas (por exemplo, 
+sensação de desmaio ou tonturas ou sensação de grande cansaço).  </p>
+<p>Não conduza nem utilize máquinas se não se sentir bem após a vacinação. Aguarde até que quaisquer 
+efeitos da vacina tenham desaparecido antes de conduzir ou utilizar máquinas.  </p>
+<p>Nuvaxovid contém sódio e potássio  </p>
+<p>Esta vacina contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente “isenta de 
+sódio". </p>
+<p>Esta vacina contém menos de 1 mmol de potássio (39 mg) por  dose, ou seja, é praticamente “isenta de 
+potássio".  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar nuvaxovid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar nuvaxovid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Indivíduos com idade igual ou superior a 12 anos 
+Nuvaxovid ser-lhe-á administrada como duas injeções separadas de 0,5 ml cada. </p>
+<p>O seu médico, farmacêutico ou enfermeiro irá injetar-lhe a vacina num músculo, habitualmente na 
+parte superior do braço.  </p>
+<p>É recomendado que receba a segunda dose de Nuvaxovid 3 semanas após a sua primeira dose, para 
+receber o esquema de vacinação completo desta vacina. </p>
+<p>Uma dose de reforço de Nuvaxovid pode ser administrada aproximadamente 3 meses após a segunda 
+dose em indivíduos com idade igual ou superior a 12 anos. </p>
+<p>Durante e após cada injeção da vacina, o seu médico, farmacêutico ou enfermeiro irá vigiá-lo durante 
+cerca de 15 minutos, para monitorizar eventuais sinais de uma reação alérgica. </p>
+<p>Se falhar uma marcação para a segunda injeção de Nuvaxovid, fale com o seu médico ou enfermeiro. 
+Se falhar uma injeção agendada, poderá não ficar totalmente protegido contra o vírus da COVID-19.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, esta vacina pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. A maioria dos efeitos indesejáveis desaparece poucos dias depois de 
+terem aparecido. Se os sintomas persistirem, contacte o seu médico, farmacêutico ou enfermeiro. </p>
+<p>Tal como acontece com outras vacinas, poderá sentir dor ou desconforto no local da injeção, ou pode 
+desenvolver alguma vermelhidão e inchaço nesse local. No entanto, estas reações desaparecem 
+habitualmente ao fim de poucos dias. </p>
+<p>Procure assistência médica urgente se tiver algum dos seguintes sinais e sintomas de uma reação 
+alérgica: </p>
+<ul>
+<li>
+<p>sensação de desmaio ou de atordoamento </p>
+</li>
+<li>
+<p>alterações dos batimentos cardíacos </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>pieira </p>
+</li>
+<li>
+<p>inchaço dos lábios, rosto ou garganta </p>
+</li>
+<li>
+<p>urticária ou erupção na pele </p>
+</li>
+<li>
+<p>náuseas ou vómitos </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+</ul>
+<p>Informe o seu médico ou enfermeiro caso desenvolva quaisquer outros efeitos indesejáveis. Estes 
+podem incluir: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>indisposição (náuseas) ou enjoos (vómitos) </p>
+</li>
+<li>
+<p>dor muscular </p>
+</li>
+<li>
+<p>dor nas articulações </p>
+</li>
+<li>
+<p>sensibilidade ou dor no local de administração da injeção </p>
+</li>
+<li>
+<p>sensação de grande cansaço (fadiga)  </p>
+</li>
+<li>
+<p>sensação de indisposição geral </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>vermelhidão no local da injeção </p>
+</li>
+<li>
+<p>inchaço no local da injeção </p>
+</li>
+<li>
+<p>febre (&gt;38 °C) </p>
+</li>
+<li>
+<p>dor ou desconforto no braço, mão, pernas e/ou pé (dor nos membros) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>gânglios linfáticos aumentados </p>
+</li>
+<li>
+<p>tensão arterial elevada </p>
+</li>
+<li>
+<p>comichão, erupção na pele ou urticária </p>
+</li>
+<li>
+<p>vermelhidão da pele </p>
+</li>
+<li>
+<p>comichão no local da injeção </p>
+</li>
+<li>
+<p>arrepios </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1000 pessoas): </p>
+<ul>
+<li>calor no local da injeção </li>
+</ul>
+<p>Desconhecido ( não pode ser calculado a partir dos dados disponíveis): </p>
+<ul>
+<li>
+<p>reação alérgica grave </p>
+</li>
+<li>
+<p>sensação invulgar na pele, como formigueiro ou sensação de rastejamento (parestesia) </p>
+</li>
+<li>
+<p>diminuição da sensação ou sensibilidade, especialmente na pele (hipoestesia) </p>
+</li>
+<li>
+<p>inflamação do músculo do coração (miocardite) ou inflamação do revestimento externo do 
+coração (pericardite), que podem provocar falta de ar, palpitações ou dor no peito </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V e 
+incluir o número do lote, se disponível. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer 
+mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar nuvaxovid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar nuvaxovid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>O seu médico, farmacêutico ou enfermeiro é responsável por conservar esta vacina e eliminar qualquer 
+produto não utilizado corretamente. </p>
+<p>As informações sobre conservação, prazo de validade, utilização e manuseamento estão descritas na 
+secção destinada a profissionais de saúde, no final do folheto. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Nuvaxovid </p>
+<ul>
+<li>Nuvaxovid contém 5 microgramas de proteína Spike do SARS-CoV-2* recombinante, adjuvada 
+com Matrix-M  </li>
+</ul>
+<p>*produzida por tecnologia de ADN recombinante usando o sistema de expressão do 
+baculovirus numa linha celular de insetos que deriva de células Sf9 da espécie Spodoptera 
+frugiperda. </p>
+<ul>
+<li>
+<p>Matrix-M está incluído nesta vacina como adjuvante. Os adjuvantes são substâncias incluídas em 
+determinadas vacinas para acelerar, melhorar e/ou prolongar os efeitos protetores da vacina. 
+O adjuvante Matrix-M contém Fração-A (42,5 microgramas) e Fração-C (7,5 microgramas) de 
+extrato de Molina de Quillaja saponaria por dose de 0,5 ml. </p>
+</li>
+<li>
+<p>Os outros componentes (excipientes) incluídos na Nuvaxovid são:  </p>
+</li>
+<li>
+<p>Hidrogenofosfato dissódico heptahidratado  </p>
+</li>
+<li>
+<p>Dihidrogenofosfato de sódio monohidratado </p>
+</li>
+<li>
+<p>Hidrogenofosfato dissódico dihidratado  </p>
+</li>
+<li>
+<p>Cloreto de sódio </p>
+</li>
+<li>
+<p>Polissorbato 80  </p>
+</li>
+<li>
+<p>Colesterol </p>
+</li>
+<li>
+<p>Fosfatidilcolina (incluindo all-rac-α-Tocoferol) </p>
+</li>
+<li>
+<p>Dihidrogenofosfato de potássio </p>
+</li>
+<li>
+<p>Cloreto de potássio,  </p>
+</li>
+<li>
+<p>Hidróxido de sódio (para ajuste do pH) </p>
+</li>
+<li>
+<p>Ácido clorídrico (para ajuste do pH)  </p>
+</li>
+<li>
+<p>Água para preparações injetáveis </p>
+</li>
+</ul>
+<p>Qual o aspeto de Nuvaxovid e conteúdo da embalagem </p>
+<ul>
+<li>A dispersão é incolor a ligeiramente amarela, transparente a ligeiramente opalescente (pH 7,2). </li>
+</ul>
+<p>Frasco para injetáveis de 5 doses 
+- 2,5 ml de dispersão num frasco para injetáveis com uma rolha de borracha e tampa destacável 
+azul. 
+- Apresentação: 2 frascos para injetáveis multidose ou 10 frascos para injetáveis multidose. Cada 
+frasco para injetáveis contém 5 doses de 0,5 ml. </p>
+<p>Frasco para injetáveis de 10 doses 
+- 5 ml de dispersão num frasco para injetáveis com uma rolha de borracha e tampa destacável 
+azul. 
+- Apresentação: 2 frascos para injetáveis multidose ou 10 frascos para injetáveis multidose. Cada 
+frasco para injetáveis contém 10 doses de 0,5 ml. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novavax CZ a.s. 
+Líbalova 2348/1, Chodov 
+149 00 Praha 4 
+República Checa </p>
+<p>Fabricante 
+Novavax CZ a.s. 
+Bohumil Jevany 281 República Checa </p>
+<p>Este folheto foi revisto pela última vez em . </p>
+<p>Digitalize o código com um dispositivo móvel para obter o folheto informativo em idiomas diferentes. </p>
+<p>Ou visite o URL: https://www.NovavaxCovidVaccine.com </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -741,6 +1133,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-0b2c64f281f8a04082b537d7d8030a6f"
 * entry[0].resource = composition-da-0b2c64f281f8a04082b537d7d8030a6f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0b2c64f281f8a04082b537d7d8030a6f"
+* entry[=].resource = mp0b2c64f281f8a04082b537d7d8030a6f
+                            
+                    
+Instance: bundlepackageleaflet-pt-0b2c64f281f8a04082b537d7d8030a6f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nuvaxovid Package Leaflet for language pt"
+Description: "ePI document Bundle for nuvaxovid Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-0b2c64f281f8a04082b537d7d8030a6f"
+* entry[0].resource = composition-pt-0b2c64f281f8a04082b537d7d8030a6f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp0b2c64f281f8a04082b537d7d8030a6f"
@@ -842,6 +1256,18 @@ RuleSet: 0b2c64f281f8a04082b537d7d8030a6fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-0b2c64f281f8a04082b537d7d8030a6f) // nuvaxovid pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

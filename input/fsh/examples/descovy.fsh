@@ -987,6 +987,544 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-478b4098ffabcca87dff08bbf871c322
+InstanceOf: CompositionUvEpi
+Title: "Composition for descovy Package Leaflet"
+Description:  "Composition for descovy Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp478b4098ffabcca87dff08bbf871c322)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - descovy"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Descovy e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Descovy </li>
+<li>Como tomar Descovy </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Descovy </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é descovy e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é descovy e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Descovy contém duas substâncias ativas: </p>
+<ul>
+<li>
+<p>emtricitabina, um tipo de medicamento antirretroviral conhecido como inibidor nucleósido da 
+transcriptase reversa (INTR) </p>
+</li>
+<li>
+<p>tenofovir alafenamida, um tipo de medicamento antirretroviral conhecido como inibidor 
+nucleotídeo da transcriptase reversa (INtTR) </p>
+</li>
+</ul>
+<p>Descovy bloqueia a ação da enzima transcriptase reversa, que é essencial para o vírus se multiplicar. 
+Por conseguinte, Descovy diminui a quantidade de VIH no seu corpo. </p>
+<p>Descovy em associação com outros medicamentos é utilizado para o tratamento da infeção pelo 
+vírus da imunodeficiência humana 1 (VIH-1) em adultos e adolescentes com 12 anos ou mais de 
+idade, com um peso de, pelo menos, 35 kg. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar descovy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar descovy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Descovy </p>
+<ul>
+<li>Se tem alergia à emtricitabina, ao tenofovir alafenamida, ou a qualquer outro componente 
+deste medicamento (indicados na secção 6 deste folheto). </li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Deve necessariamente permanecer sob vigilância do seu médico enquanto estiver a tomar Descovy. </p>
+<p>Este medicamento não é uma cura para a infeção pelo VIH. Enquanto tomar Descovy, pode 
+desenvolver na mesma infeções ou outras doenças associadas com a infeção pelo VIH. </p>
+<p>Fale com o seu médico antes de tomar Descovy: </p>
+<ul>
+<li>
+<p>Se tem problemas no fígado ou se sofreu de doença do fígado, incluindo hepatite. Os 
+doentes com doença no fígado, incluindo hepatite B ou C crónica, que estejam a ser tratados 
+com medicamentos antirretrovirais, apresentam um risco superior de sofrerem complicações 
+graves e potencialmente fatais ao nível do fígado. Se tem hepatite B, o seu médico irá 
+considerar cuidadosamente o melhor regime terapêutico para si. </p>
+</li>
+<li>
+<p>Se tem infeção pelo vírus da hepatite B. Os problemas do fígado podem piorar depois de parar 
+de tomar Descovy. Não pare de tomar Descovy sem falar antes com o seu médico: ver secção 3, 
+Não pare de tomar Descovy. </p>
+</li>
+<li>
+<p>O seu médico poderá optar por não lhe prescrever Descovy se o seu vírus tiver uma determinada 
+mutação de resistência, pois Descovy poderá não conseguir reduzir a quantidade de VIH no seu 
+organismo com o mesmo nível de eficácia. </p>
+</li>
+<li>
+<p>Se teve doença renal ou se as análises revelaram problemas nos seus rins. O seu médico 
+pode pedir-lhe para efetuar análises ao sangue para monitorizar o funcionamento dos seus rins 
+no início e durante o tratamento com Descovy. </p>
+</li>
+</ul>
+<p>Enquanto estiver a tomar Descovy </p>
+<p>Assim que começar a tomar Descovy, fique atento a: </p>
+<ul>
+<li>
+<p>Sinais de inflamação ou infeção </p>
+</li>
+<li>
+<p>Dores nas articulações, rigidez ou problemas nos ossos </p>
+</li>
+</ul>
+<p> Se observar quaisquer destes sintomas, informe o seu médico imediatamente. Para obter mais 
+informações, consulte a secção 4, Efeitos indesejáveis possíveis. </p>
+<p>Existe a possibilidade de vir a ter problemas nos rins se tomar Descovy durante um longo período de 
+tempo (ver Advertências e precauções). </p>
+<p>Crianças e adolescentes </p>
+<p>Não dê este medicamento a crianças com 11 anos de idade ou menos ou com um peso inferior a 
+35 kg. A utilização de Descovy em crianças com 11 anos de idade ou menos ainda não foi estudada. </p>
+<p>Outros medicamentos e Descovy </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier 
+a tomar outros medicamentos. Descovy pode interferir com outros medicamentos. Como resultado, 
+as quantidades de Descovy ou dos outros medicamentos no seu sangue podem alterar-se. Isto pode 
+fazer com que os seus medicamentos parem de funcionar corretamente ou piorar quaisquer efeitos 
+indesejáveis. Em alguns casos, o seu médico pode precisar de ajustar a sua dose ou verificar os níveis 
+dos medicamentos no seu sangue. </p>
+<p>Medicamentos utilizados para tratar a infeção pela hepatite B: 
+Não deve tomar Descovy com medicamentos que contêm: </p>
+<ul>
+<li>
+<p>tenofovir alafenamida </p>
+</li>
+<li>
+<p>tenofovir disoproxil </p>
+</li>
+<li>
+<p>lamivudina </p>
+</li>
+<li>
+<p>adefovir dipivoxil </p>
+</li>
+</ul>
+<p> Informe o seu médico se estiver a tomar qualquer um destes medicamentos. </p>
+<p>Outros tipos de medicamentos: 
+Fale com o seu médico se estiver a tomar: </p>
+<ul>
+<li>antibióticos, utilizados para tratar infeções causadas por bactérias incluindo a tuberculose, 
+contendo: </li>
+<li>
+<p>rifabutina, rifampicina e rifapentina </p>
+</li>
+<li>
+<p>medicamentos antivirais utilizados para tratar o VIH: </p>
+</li>
+<li>
+<p>emtricitabina e tipranavir </p>
+</li>
+<li>
+<p>anticonvulsivantes, utilizados para tratar a epilepsia, tais como: </p>
+</li>
+<li>
+<p>carbamazepina, oxcarbazepina, fenobarbital e fenitoína </p>
+</li>
+<li>
+<p>medicamentos à base de plantas utilizados para tratar a depressão e a ansiedade contendo: </p>
+</li>
+<li>Hipericão (Hypericum perforatum) </li>
+</ul>
+<p> Informe o seu médico se estiver a tomar estes ou quaisquer outros medicamentos. Não pare o 
+seu tratamento sem contactar o seu médico. </p>
+<p>Gravidez e amamentação </p>
+<ul>
+<li>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico ou farmacêutico antes de tomar este medicamento. </p>
+</li>
+<li>
+<p>Se engravidar, informe imediatamente o seu médico e pergunte quais são os potenciais 
+benefícios e riscos da sua terapêutica antirretroviral para si e para o bebé. </p>
+</li>
+</ul>
+<p>Se tomou Descovy durante a gravidez, o seu médico pode pedir-lhe para efetuar análises ao sangue e 
+outros testes de diagnóstico regulares para verificar o desenvolvimento da sua criança. Nas crianças 
+cujas mães tomaram INTR durante a gravidez, o benefício da menor possibilidade de infeção pelo 
+VIH é superior ao risco de sofrerem efeitos indesejáveis. </p>
+<p>Não amamente durante o tratamento com Descovy. Isto deve-se ao facto de uma das substâncias 
+ativas deste medicamento ser excretada no leite materno. </p>
+<p>A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção pelo 
+VIH pode ser transmitida ao bebé através do leite materno. </p>
+<p>Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais 
+rapidamente possível. </p>
+<p>Condução de veículos e utilização de máquinas 
+Descovy pode causar tonturas. Se sentir tonturas enquanto estiver a tomar Descovy, não conduza e não 
+utilize quaisquer ferramentas ou máquinas. </p>
+<p>Descovy contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar descovy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar descovy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é: </p>
+<p>Adultos: um comprimido por dia com ou sem alimentos 
+Adolescentes com 12 anos de idade ou mais, com um peso de, pelo menos, 35 kg: um comprimido 
+por dia com ou sem alimentos </p>
+<p>Devido ao sabor amargo, recomenda-se não mastigar ou esmagar o comprimido. </p>
+<p>Se tiver dificuldade em engolir o comprimido inteiro, pode dividi-lo ao meio. Tome as duas metades 
+do comprimido, uma imediatamente depois da outra, para tomar a dose completa. Não guarde o 
+comprimido dividido. </p>
+<p>Tome sempre a dose recomendada pelo seu médico. Isto para ter a certeza que o seu medicamento é 
+totalmente eficaz, e para reduzir o risco de desenvolvimento de resistência ao tratamento. Não altere a 
+dose a menos que o seu médico lhe diga para o fazer.  </p>
+<p>Se estiver a fazer diálise, tome a sua dose diária de Descovy após terminar a diálise. </p>
+<p>Se tomar mais Descovy do que deveria </p>
+<p>Se tomar mais do que a dose recomendada de Descovy, pode correr um maior risco de ter efeitos 
+indesejáveis com este medicamento (ver secção 4, Efeitos indesejáveis possíveis). </p>
+<p>Entre imediatamente em contacto com o seu médico ou aconselhe-se junto do serviço de urgência 
+mais próximo. Mantenha o frasco de comprimidos consigo para que possa mostrar o que tomou. </p>
+<p>Caso se tenha esquecido de tomar Descovy </p>
+<p>É importante que não falhe nenhuma dose de Descovy. </p>
+<p>Caso se tenha esquecido de tomar uma dose: </p>
+<ul>
+<li>
+<p>Caso se aperceba no período de 18 horas após a hora em que habitualmente toma Descovy, 
+deve necessariamente tomar o comprimido o mais rapidamente possível. Depois tome a sua 
+dose seguinte como é habitual. </p>
+</li>
+<li>
+<p>Caso se aperceba 18 horas ou mais após a hora em que habitualmente toma Descovy, não 
+tome a dose que falhou. Espere e tome a dose seguinte à hora habitual. </p>
+</li>
+</ul>
+<p>Se vomitar menos de 1 hora após a toma de Descovy, tome outro comprimido. </p>
+<p>Não pare de tomar Descovy </p>
+<p>Não pare de tomar Descovy sem falar com o seu médico. A interrupção do tratamento com 
+Descovy pode afetar gravemente o modo como um tratamento futuro funcionará. Se o tratamento com 
+Descovy for interrompido por qualquer razão, fale com o seu médico antes de voltar a tomar os 
+comprimidos de Descovy. </p>
+<p>Quando a quantidade de Descovy começar a diminuir, obtenha mais junto do seu médico ou 
+farmacêutico. É muito importante que o faça porque a quantidade de vírus pode começar a aumentar 
+se o medicamento for interrompido, mesmo por alguns dias. A doença pode então tornar-se mais 
+difícil de tratar. </p>
+<p>Se tiver infeção por VIH e hepatite B, é muito importante não parar de tomar Descovy sem consultar 
+previamente o seu médico. Pode necessitar de análises ao sangue durante vários meses após 
+interrupção do tratamento. Em alguns doentes com doença hepática (do fígado) avançada ou cirrose, a 
+interrupção do tratamento pode levar a um agravamento da hepatite, que pode ser potencialmente 
+fatal. </p>
+<p> Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco habituais 
+após parar o tratamento, particularmente sintomas que associaria à sua hepatite B. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves possíveis: informe o seu médico imediatamente </p>
+<ul>
+<li>
+<p>Quaisquer sinais de inflamação ou infeção. Em alguns doentes com infeção pelo VIH 
+avançada (SIDA) e que tiveram infeções oportunistas no passado (infeções que ocorrem em 
+pessoas com um sistema imunológico fraco), podem ocorrer sinais e sintomas de inflamação de 
+infeções prévias logo após iniciar o tratamento antirretroviral. Pensa-se que estes sintomas são 
+devidos a uma melhoria na resposta imunológica do corpo, permitindo que o corpo lute contra 
+infeções que podem estar presentes sem sintomas óbvios. </p>
+</li>
+<li>
+<p>Também podem ocorrer doenças autoimunes (o sistema imunitário ataca os tecidos saudáveis 
+do corpo), após começar a tomar medicamentos para a sua infeção pelo VIH. As doenças 
+autoimunes podem ocorrer muitos meses depois do início do tratamento. Esteja atento a 
+quaisquer sintomas de infeção ou outros sintomas, como: </p>
+</li>
+<li>fraqueza muscular </li>
+<li>fraqueza que começa nas mãos e nos pés e que progride para o tronco </li>
+<li>palpitações, tremores ou hiperatividade. 
+ Se observar os efeitos indesejáveis descritos acima, informe o seu médico imediatamente. </li>
+</ul>
+<p>Efeitos indesejáveis muito frequentes 
+(podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>sensação de mal-estar geral (náuseas) </li>
+</ul>
+<p>Efeitos indesejáveis frequentes 
+(podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>sonhos anormais </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>gases (flatulência) </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>cansaço (fadiga) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes 
+(podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>baixa contagem de glóbulos vermelhos (anemia) </p>
+</li>
+<li>
+<p>problemas digestivos que podem resultar em desconforto após as refeições (dispepsia) </p>
+</li>
+<li>
+<p>inchaço da face, lábios, língua ou garganta (angioedema) </p>
+</li>
+<li>
+<p>comichão (prurido) </p>
+</li>
+<li>
+<p>urticária </p>
+</li>
+<li>
+<p>dor nas articulações (artralgia) </p>
+</li>
+</ul>
+<p> Se qualquer um dos efeitos indesejáveis se agravar informe o seu médico. </p>
+<p>Outros efeitos que podem ser observados durante o tratamento do VIH </p>
+<p>A frequência dos efeitos indesejáveis seguintes é desconhecida (a frequência não pode ser calculada a 
+partir dos dados disponíveis). </p>
+<ul>
+<li>Problemas nos ossos. Alguns doentes tratados com associações de medicamentos 
+antirretrovirais tais como Descovy, podem desenvolver uma doença óssea chamada 
+osteonecrose (morte do tecido ósseo causada pela perda da irrigação de sangue no osso). Tomar 
+este tipo de medicamentos durante um período prolongado, tomar corticosteroides, consumir 
+bebidas alcoólicas, ter um sistema imunológico muito fraco e ter excesso de peso, podem ser 
+alguns dos muitos fatores de risco para o desenvolvimento desta doença. Os sinais de 
+osteonecrose são: </li>
+<li>rigidez das articulações </li>
+<li>dores nas articulações (especialmente na anca, joelho e ombro) </li>
+<li>dificuldade em se movimentar 
+ Se observar qualquer um destes sintomas, informe o seu médico. </li>
+</ul>
+<p>Durante a terapêutica para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no 
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos 
+lípidos no sangue, por vezes aos próprios medicamentos para o VIH. O seu médico irá realizar testes 
+para determinar estas alterações. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V.  </p>
+<p>Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança 
+deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar descovy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar descovy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar na embalagem de origem para proteger da humidade. Manter o frasco bem fechado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Descovy </p>
+<p>As substâncias ativas são a emtricitabina e o tenofovir alafenamida. Cada comprimido revestido por 
+película de Descovy contém 200 mg de emtricitabina e tenofovir alafenamida fumarato equivalente a 
+10 mg de tenofovir alafenamida. </p>
+<p>Os outros componentes são </p>
+<p>Núcleo do comprimido: 
+Celulose microcristalina, croscarmelose sódica, estearato de magnésio. </p>
+<p>Revestimento por película: 
+Álcool polivinílico, dióxido de titânio, macrogol 3350, talco, óxido de ferro preto (E172). </p>
+<p>Qual o aspeto de Descovy e conteúdo da embalagem </p>
+<p>Descovy comprimidos revestidos por película são comprimidos de cor cinzenta, com forma retangular, 
+gravados num lado com “GSI" e no outro lado com o número “210". </p>
+<p>Descovy apresenta-se em frascos contendo 30 comprimidos (com um exsicante de sílica gel que deve 
+ser mantido dentro do frasco para ajudar a proteger os seus comprimidos). O exsicante de sílica gel 
+está contido numa saqueta ou recipiente separado e não deve ser engolido. </p>
+<p>Estão disponíveis as seguintes apresentações: embalagens contendo 1 frasco de 30 comprimidos 
+revestidos por película e embalagens contendo 60 (2 frascos de 30) e 90 (3 frascos 
+de 30) comprimidos revestidos por película. É possível que não sejam comercializadas todas as 
+apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado: 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrlanda  </p>
+<p>Fabricante: 
+Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: +353 (0) 1 686 1България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: +353 (0) 1 686 1Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: +48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: +353 (0) 1 686 1United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC<br />
+Tel: + 44 (0) 8000 113  </p>
+<p>Este folheto foi revisto pela última vez em. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1028,6 +1566,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-478b4098ffabcca87dff08bbf871c322"
 * entry[0].resource = composition-da-478b4098ffabcca87dff08bbf871c322
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp478b4098ffabcca87dff08bbf871c322"
+* entry[=].resource = mp478b4098ffabcca87dff08bbf871c322
+                            
+                    
+Instance: bundlepackageleaflet-pt-478b4098ffabcca87dff08bbf871c322
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for descovy Package Leaflet for language pt"
+Description: "ePI document Bundle for descovy Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-478b4098ffabcca87dff08bbf871c322"
+* entry[0].resource = composition-pt-478b4098ffabcca87dff08bbf871c322
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp478b4098ffabcca87dff08bbf871c322"
@@ -1129,6 +1689,18 @@ RuleSet: 478b4098ffabcca87dff08bbf871c322ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-478b4098ffabcca87dff08bbf871c322) // descovy pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1094,6 +1094,619 @@ inden". Udløbsdatoen er den sidste dag i den nævnte måned. </p>         </div
 
 
 
+Instance: composition-pt-9290357e39a2371931091ec451b2e152
+InstanceOf: CompositionUvEpi
+Title: "Composition for soliris Package Leaflet"
+Description:  "Composition for soliris Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9290357e39a2371931091ec451b2e152)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - soliris"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:<br />
+1. O que é Soliris e para que é utilizado 
+2. O que precisa de saber antes de utilizar Soliris<br />
+3. Como utilizar Soliris 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Soliris 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é soliris e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é soliris e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Soliris 
+Soliris contém a substância ativa eculizumab que pertence a uma classe de medicamentos denominada 
+anticorpos monoclonais. O eculizumab liga-se e inibe uma proteína específica do organismo que causa 
+inflamação prevenindo assim que o seu organismo ataque e destrua células sanguíneas vulneráveis, 
+rins, músculos ou nervos oculares e medula espinhal. </p>
+<p>Para que é Soliris utilizado 
+Hemoglobinúria Paroxística Noturna 
+Soliris é utilizado para tratar adultos e crianças com um tipo de doença que afeta o sistema sanguíneo 
+denominada Hemoglobinúria Paroxística Noturna (HPN). Nos doentes com HPN, os seus glóbulos 
+vermelhos podem ser destruídos, o que leva a valores baixos nas contagens de glóbulos vermelhos 
+(anemia), fadiga, dificuldade de funcionamento, dor, urina escura, falta de ar e coágulos sanguíneos. O 
+eculizumab pode bloquear a resposta inflamatória do organismo e a sua capacidade de atacar e destruir 
+as suas próprias células sanguíneas vulneráveis HPN. </p>
+<p>Síndrome Hemolítico Urémico Atípico<br />
+Soliris é também utilizado para tratar adultos e crianças com um tipo de doença que afeta o sistema 
+sanguíneo e os rins denominada Síndrome Hemolítico Urémico atípico (SHUa). Nos doentes com 
+SHUa, os seus rins e células sanguíneas, incluindo as plaquetas, podem estar inflamados o que leva a 
+valores baixos nas contagens das células sanguíneas (trombocitopenia e anemia), perda ou redução da 
+função do rim, coágulos sanguíneos, fadiga e dificuldade de funcionamento. O eculizumab pode 
+bloquear a resposta inflamatória do organismo e a sua capacidade de atacar e destruir as suas próprias 
+células vulneráveis do sangue e do rim. </p>
+<p>Miastenia Gravis Generalizada Refratária 
+Soliris é também utilizado para tratar doentes adultos e crianças com 6 anos de idade ou mais com um 
+certo tipo de doença que afeta os músculos e que se chama Miastenia Gravis Generalizada (MGg). 
+Nos doentes com MGg, os músculos podem ser atacados e danificados pelo seu sistema imunitário, o 
+que pode levar a uma profunda fraqueza muscular, compromisso da mobilidade, falta de ar, fadiga 
+extrema, risco de aspiração e compromisso acentuado das atividades da vida diária. Soliris pode 
+bloquear a resposta inflamatória do organismo e a sua capacidade para atacar e destruir os seus 
+próprios músculos para melhorar a contração muscular, reduzindo assim os sintomas da doença e o 
+impacto da doença nas atividades da vida diária. Soliris é especificamente indicado para doentes que 
+continuam sintomáticos apesar do tratamento com outras terapêuticas existentes para a MG. </p>
+<p>Doenças do Espetro da Neuromielite Ótica 
+Soliris é também utilizado para tratar doentes adultos com um certo tipo de doença que afeta 
+predominantemente os nervos oculares e a medula espinhal chamada Doença do Espetro da 
+Neuromielite Ótica (NMO). Em doentes com doença do espetro da NMO, o nervo ocular e a medula 
+espinhal são atacados e danificados pelo sistema imunitário, o que pode levar a cegueira de um ou dos 
+dois olhos, fraqueza muscular ou paralisia das pernas ou braços, espasmos dolorosos, perda de 
+sensação e compromisso acentuado das atividades do dia-a-dia. Soliris pode bloquear a resposta 
+inflamatória do organismo e a sua capacidade para atacar e destruir os seus próprios nervos oculares e 
+medula espinhal, reduzindo assim os sintomas da doença e o impacto da doença sobre as atividades do 
+dia-a-dia. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar soliris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar soliris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Soliris 
+- Se tem alergia ao eculizumab, a proteínas murinas, outros anticorpos monoclonais ou a qualquer 
+outro componente deste medicamento (indicados na secção 6). 
+- Se não foi vacinado contra a infeção meningocócica a menos que tome antibióticos para reduzir 
+o risco de infeção até 2 semanas após ter sido vacinado. 
+- Se tem uma infeção meningocócica. </p>
+<p>Advertências e precauções </p>
+<p>Advertência relativa a infeções meningocócicas e outras infeções por Neisseria 
+O tratamento com Soliris pode reduzir a resistência natural a infeções, sobretudo contra determinados 
+organismos causadores de infeção meningocócica (infeção grave no revestimento do cérebro e sépsis) 
+e outras infeções por Neisseria, incluindo gonorreia disseminada. </p>
+<p>Consulte o seu médico antes de tomar Soliris para ter a certeza de que é vacinado(a) contra a Neisseria 
+meningitidis, um organismo que causa infeção meningocócica, pelo menos 2 semanas antes de iniciar 
+o tratamento, ou que toma antibióticos para reduzir o risco de infeção até 2 semanas após ter sido 
+vacinado. Garanta que a sua vacinação meningocócica está atualizada. É necessário estar também 
+ciente de que a vacinação pode não prevenir este tipo de infeção. De acordo com as recomendações 
+nacionais, o seu médico poderá considerar que necessita de medidas suplementares para prevenir a 
+infeção. </p>
+<p>Se estiver em risco de contrair gonorreia, aconselhe-se com o seu médico ou farmacêutico antes de 
+utilizar este medicamento. </p>
+<p>Sintomas de infeção meningocócica 
+Dada a importância da rapidez na identificação e no tratamento de determinados tipos de infeção em 
+doentes que recebem Soliris, ser-lhe-á fornecido um cartão, que terá de ter sempre consigo, com uma 
+listagem dos sintomas de desencadeamento específicos. Este cartão chama-se “Cartão de Segurança do 
+Doente".  </p>
+<p>Se apresentar algum dos seguintes sintomas, deve informar de imediato o seu médico: 
+- dores de cabeça com náuseas ou vómitos 
+- dores de cabeça com rigidez no pescoço ou nas costas 
+- febre 
+- irritação cutânea<br />
+- confusão<br />
+- dores musculares fortes associadas a sintomas do tipo gripal 
+- sensibilidade à luz </p>
+<p>Tratamento para a infeção meningocócica em viagem 
+Se estiver a viajar numa região remota, onde não lhe seja possível contactar o seu médico ou onde se 
+encontre temporariamente impossibilitado(a) de receber tratamento médico, o seu médico pode tomar 
+providências no sentido de passar uma receita, como medida de prevenção, para um antibiótico que 
+combata a Neisseria meningitidis e que deve levar consigo. Se apresentar algum dos sintomas acima 
+referidos, tome os antibióticos, tal como lhe foram receitados. Tenha em mente que deve consultar um 
+médico logo que possível, mesmo que se sinta melhor depois de ter tomado os antibióticos. </p>
+<p>Infeções 
+Antes de iniciar Soliris, informe o seu médico se sofre de quaisquer infeções. </p>
+<p>Reações alérgicas 
+Soliris contém uma proteína e as proteínas podem causar reações alérgicas em algumas pessoas. </p>
+<p>Crianças e adolescentes 
+Doentes com menos de 18 anos de idade devem ser vacinados contra o Haemophilus influenzae e 
+infeções pneumocócicas. </p>
+<p>Idosos 
+Não existem precauções especiais necessárias no tratamento de pessoas com 65 ou mais anos de idade. </p>
+<p>Outros medicamentos e Soliris 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos. </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico ou 
+farmacêutico antes de tomar este medicamento. </p>
+<p>Mulheres em idade fértil 
+Em mulheres que possam engravidar deve considerar-se a utilização de um método contracetivo eficaz 
+durante e até 5 meses depois do tratamento. </p>
+<p>Gravidez/amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico ou 
+farmacêutico antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Soliris não tem ou tem uma influência negligenciável na capacidade de conduzir e utilizar máquinas. </p>
+<p>Soliris contém sódio 
+Quando diluído com uma solução injetável de cloreto de sódio de 9 mg/ml (0,9%), este medicamento 
+contém 0,88 g de sódio (componente principal do sal de cozinha/sal de mesa) por 240 ml na dose 
+máxima. Isto é equivalente a 44% da ingestão diária máxima de sódio recomendada na dieta para um 
+adulto. Deve ter isto em consideração se estiver a fazer uma dieta com ingestão controlada de sódio. 
+Quando diluído com uma solução injetável de cloreto de sódio de 4,5 mg/ml (0,45%), este medicamento 
+contém 0,67 g de sódio (componente principal do sal de cozinha/sal de mesa) por 240 ml na dose 
+máxima. Isto é equivalente a 33,5% da ingestão diária máxima de sódio recomendada na dieta para um 
+adulto. Deve ter isto em consideração se estiver a fazer uma dieta com ingestão controlada de sódio. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar soliris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar soliris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pelo menos 2 semanas antes de iniciar o tratamento com Soliris, o seu médico administrará uma 
+vacina contra a infeção meningocócica, caso não lhe tenha sido previamente administrada ou se o 
+prazo da sua vacinação tiver sido ultrapassado. Se o seu filho estiver abaixo da idade de vacinação ou 
+se você não tiver sido vacinado pelo menos 2 semanas antes de iniciar o tratamento com Soliris, o seu 
+médico irá prescrever-lhe antibióticos para reduzir o risco de infeção até 2 semanas depois de ter sido 
+vacinado. </p>
+<p>O seu médico irá administrar ao seu filho com idade inferior a 18 anos uma vacina contra o 
+Haemophilus influenzae e infeções pneumocócicas de acordo com as recomendações nacionais de 
+vacinação para cada grupo etário. </p>
+<p>Instruções para uso adequado 
+O tratamento será administrado pelo seu médico ou outro prestador de cuidados de saúde através da 
+perfusão de uma diluição do frasco de Soliris a partir de um saco de perfusão, por meio de um tubo, 
+diretamente para uma das suas veias. É aconselhável que o início dos seus tratamentos, a chamada fase 
+inicial, se prolongue por 4 semanas e que seja seguida por uma fase de manutenção. </p>
+<p>Se utilizar este medicamento para tratar a HPN 
+Para adultos: </p>
+<ul>
+<li>
+<p>Fase inicial: 
+Todas as semanas, ao longo das quatro primeiras semanas, o seu médico administrará uma 
+perfusão intravenosa de Soliris diluído. Cada perfusão consistirá numa dose de 600 mg 
+(2 frascos de 30 ml) e demorará 25 - 45 minutos (35 minutos ± 10 minutos). </p>
+</li>
+<li>
+<p>Fase de manutenção: </p>
+</li>
+<li>
+<p>Na quinta semana, o seu médico administrará uma perfusão intravenosa de Soliris diluído 
+numa dose de 900 mg (3 frascos de 30 ml) ao longo de um período de 25 - 45 minutos 
+(35 minutos ± 10 minutos). </p>
+</li>
+<li>
+<p>Após a quinta semana, o seu médico administrará 900 mg de Soliris diluído, de duas em duas 
+semanas, sob a forma de um tratamento a longo prazo. </p>
+</li>
+</ul>
+<p>Se utilizar este medicamento para tratar o SHUa, a MGg refratária ou a doença do espetro da NMO 
+Para adultos: </p>
+<ul>
+<li>
+<p>Fase inicial: 
+Todas as semanas, ao longo das quatro primeiras semanas, o seu médico administrará uma 
+perfusão intravenosa de Soliris diluído. Cada perfusão consistirá numa dose de 900 mg 
+(3 frascos de 30 ml) e demorará 25 - 45 minutos (35 minutos ± 10 minutos). </p>
+</li>
+<li>
+<p>Fase de manutenção: </p>
+</li>
+<li>
+<p>Na quinta semana, o seu médico administrará uma perfusão intravenosa de Soliris diluído 
+numa dose de 1200 mg (4 frascos de 30 ml) ao longo de um período de 25 - 45 minutos 
+(35 minutos ± 10 minutos).  </p>
+</li>
+<li>
+<p>Após a quinta semana, o seu médico administrará 1200 mg de Soliris diluído, de duas em 
+duas semanas, sob a forma de um tratamento a longo prazo. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes com HPN, SHUa ou MGg refratária e que tenham 40 kg ou peso superior são 
+tratados com a posologia para adultos. </p>
+<p>Crianças e adolescentes com HPN, SHUa ou MGg refratária e que tenham um peso inferior a 40 kg 
+necessitam de uma dose inferior com base no seu peso. O seu médico calculará esta dose. </p>
+<p>Para crianças e adolescentes com HPN e SHUa com idade inferior a 18 anos: 
+Peso Corporal 
+Fase Inicial 
+Fase de Manutenção 
+30 a &lt; 40 kg 
+600 mg por semana 
+durante as primeiras 2 
+semana<br />
+900 mg na semana 3; seguidos de 900 mg 
+a cada 2 semanas 
+20 a &lt; 30 kg 
+600 mg por semana, 
+durante as primeiras 2 
+semanas 
+600 mg na semana 3; seguidos de 600 mg 
+a cada 2 semanas 
+10 a &lt; 20 kg 
+600 mg em dose única na 
+semana 1 
+300 mg na semana 2; seguidos de 300 mg 
+a cada 2 semanas 
+5 a &lt; 10 kg 
+300 mg em dose única na 
+semana 1 
+300 mg na semana 2; seguidos de 300 mg 
+a cada 3 semanas </p>
+<p>Os indivíduos submetidos a substituição do plasma podem receber doses adicionais de Soliris. </p>
+<p>Após cada perfusão, ficará em observação durante cerca de uma hora. As instruções do seu médico 
+devem ser cuidadosamente seguidas. </p>
+<p>Se receber mais Soliris do que deveria<br />
+Caso suspeite de que lhe foi administrada acidentalmente uma dose de Soliris superior à prescrita, 
+consulte o seu médico. </p>
+<p>Caso se tenha esquecido de uma consulta para receber Soliris 
+Caso se esqueça de uma consulta, contacte de imediato o seu médico e consulte a secção abaixo “Se 
+parar de utilizar Soliris". </p>
+<p>Se parar de utilizar Soliris para a HPN 
+A interrupção ou a finalização do tratamento com Soliris pode provocar um retorno dos sintomas de 
+HPN, com maior gravidade, pouco depois. O seu médico discutirá consigo os possíveis efeitos 
+indesejáveis e explicará os riscos. O seu médico quererá monitorizá-lo(a) de perto, pelo menos, 
+durante 8 semanas. </p>
+<p>Os riscos da suspensão do tratamento com Soliris incluem um aumento da destruição dos glóbulos 
+vermelhos, o que pode causar: 
+- Uma diminuição significativa das contagens de glóbulos vermelhos (anemia),<br />
+- Confusão ou alteração no estado de alerta, 
+- Dor torácica ou angina do peito, 
+- Um aumento do nível de creatinina sérica (problemas com os rins), ou 
+- Trombose (coagulação sanguínea). </p>
+<p>Caso apresente quaisquer destes sintomas, contacte o seu médico. </p>
+<p>Se parar de utilizar Soliris para o SHUa 
+A interrupção ou a finalização do tratamento com Soliris pode provocar um retorno dos sintomas de 
+SHUa. O seu médico discutirá consigo os efeitos indesejáveis possíveis e explicará os riscos. O seu 
+médico quererá monitorizá-lo(a) de perto. </p>
+<p>Os riscos da suspensão do tratamento com Soliris incluem um aumento da inflamação das plaquetas, o 
+que pode causar: 
+- Uma diminuição significativa das plaquetas (trombocitopenia), 
+- Um aumento significativo na destruição dos glóbulos vermelhos, 
+- Micção diminuída (problemas nos rins), 
+-<br />
+Um aumento nos níveis de creatinina sérica (problemas nos rins), 
+- Confusão ou alteração do estado de alerta, 
+- Dor no peito, ou angina do peito, 
+- Falta de ar, ou 
+- Trombose (coagulação sanguínea). </p>
+<p>Se tiver algum destes sintomas contacte o seu médico. </p>
+<p>Se parar de utilizar Soliris para a MGg refratária 
+A interupção ou paragem do tratamento com Soliris pode provocar um retorno dos sintomas de MGg. 
+Queira falar com o seu médico antes de parar o tratamento com Soliris. O seu médico discutirá 
+consigo os efeitos indesejáveis possíveis e os riscos. O seu médico também quererá monitorizá-lo(a) 
+de perto. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>
+<p>Se parar de utilizar Soliris para a doença do espetro da NMO 
+A interrupção ou cessação do tratamento com Soliris poderá fazer com que a sua doença do espetro da 
+NMO se agrave e com que tenha uma recaída. Fale com o seu médico antes de parar de utilizar Soliris. 
+O seu médico discutirá consigo os possíveis efeitos indesejáveis e riscos. O seu médico irá também 
+querer monitorizá-lo cuidadosamente. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>O seu médico discutirá consigo os efeitos indesejáveis possíveis e explicará os riscos e benefícios de 
+Soliris antes do tratamento. 
+O efeito indesejável mais grave foi sépsis meningocócica. 
+Se apresentar algum dos sintomas de infeção meningocócica (ver secção 2 Advertência relativa à 
+infeção meningocócica e outras infeções por Neisseria), deve informar imediatamente o seu médico. </p>
+<p>Se tiver dúvidas sobre o significado dos efeitos indesejáveis abaixo indicados, peça ao seu médico que 
+lhe dê uma explicação. </p>
+<p>Muito frequentes: podem afetar mais de 1 em 10 pessoas: dores de cabeça. </p>
+<p>Frequentes: podem afetar até 1 em 10 pessoas: 
+ 
+infeção nos pulmões (pneumonia), constipação (nasofaringite), infeção do sistema urinário 
+(infeção do trato urinário), 
+ 
+contagem de glóbulos brancos baixa (leucopenia), diminuição dos glóbulos vermelhos o que faz 
+a pele ficar pálida ou causar fraqueza e falta de ar, 
+ 
+incapacidade de dormir, 
+ 
+tonturas, tensão arterial elevada 
+ 
+infeção do trato respiratório superior, tosse, dor na garganta (dor orofaríngea), bronquite, herpes 
+labial (herpes simplex) 
+ 
+diarreia, vómitos, náuseas, dor abdominal, erupção na pele, perda de cabelo (alopecia), pele com 
+comichão (prurido) 
+ 
+dor nas articulações (braços e pernas), dor nos membros (braços e pernas) 
+ 
+febre (pirexia), sensação de cansaço (fadiga), sintomas do tipo gripal </p>
+<ul>
+<li>reação relacionada com a perfusão. </li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em 100 pessoas: 
+ 
+infeção grave (infeção meningocócica), sépsis, choque séptico, infeção viral, infeção do trato 
+respiratório inferior, gastroenterite (infeção gastrointestinal), cistite 
+ 
+infeção, infeção fúngica, acumulação de pus (abcesso), tipo de infeção da pele (celulite), gripe, 
+sinusite, infeção nos dentes (abcesso), infeção das gengivas 
+ 
+número relativamente pequeno de plaquetas no sangue (trombocitopenia), valor baixo de 
+linfócitos - um tipo de glóbulos brancos (linfopenia), sentir os batimentos do coração 
+(palpitações) 
+ 
+reação alérgica grave que causa dificuldade em respirar ou tonturas (reação anafilática), 
+hipersensibilidade 
+ 
+perda de apetite 
+ 
+depressão, ansiedade, alterações bruscas de humor, alterações do sono 
+ 
+formigueiro em parte do corpo (parestesia), tremores, alterações do paladar (disgeusia), </p>
+<p>desmaios 
+ 
+visão desfocada 
+ 
+zumbido nos ouvidos, vertigens 
+ 
+desenvolvimento súbito e rápido de tensão arterial extremamente elevada, tensão arterial baixa, 
+afrontamentos, alterações nas veias 
+ 
+dispneia (dificuldade em respirar), hemorragia nasal, nariz entupido (congestão nasal), irritação 
+na garganta, corrimento nasal (rinorreia) 
+ 
+inflamação no peritoneu (o tecido que reveste a maioria dos órgãos no abdómen), prisão de 
+ventre, desconforto no estômago após as refeições (dispepsia), distensão abdominal 
+ 
+urticária, vermelhidão da pele, pele seca, pontos vermelhos ou púrpura sob a pele, transpiração 
+aumentada, inflamação da pele 
+ 
+dores musculares, cãibras musculares, dor nas costas e pescoço, dor óssea 
+ 
+alterações renais, dificuldade ou dor ao urinar (disúria), sangue na urina 
+ 
+ereção espontânea do pénis 
+ 
+inchaço (edema), desconforto no peito, sensação de fraqueza (astenia), dor no peito, dor no local 
+da perfusão, arrepios 
+ 
+aumento das enzimas do fígado, diminuição da proporção do volume do sangue que é ocupado 
+pelos glóbulos vermelhos, diminuição na proteína dos glóbulos vermelhos que transporta o 
+oxigénio </p>
+<p>Raros: podem afetar até 1 em 1.000 pessoas 
+ 
+infeção por fungos (infeção por Aspergillus), infeção nas articulações (artrite bacteriana), 
+infeção por Haemophilus influenzae, impetigo, doenças transmitidas sexualmente por bactérias 
+(gonorreia) 
+ 
+tumor de pele (melanoma), alterações da medula óssea 
+ 
+destruição dos glóbulos vermelhos (hemólise), aglutinação dos glóbulos vermelhos, fator de 
+coagulação anormal, anormal coagulação do sangue 
+ 
+doença relacionada com a hiperatividade da tiroide (Doença de Basedow) 
+ 
+sonhos invulgares 
+ 
+ 
+irritação dos olhos 
+ 
+nódoas negras 
+ 
+refluxo invulgar dos alimentos do estômago, dor nas gengivas 
+ 
+pele e/ou olhos amarelecidos (icterícia) 
+ 
+alteração da cor da pele 
+ 
+espasmo do músculo da boca, inchaço das articulações 
+ 
+alterações menstruais 
+ 
+saída anormal do medicamento administrado para fora da veia, sensação estranha no local da 
+perfusão, sensação de calor </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, ou farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V.<br />
+Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança 
+deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar soliris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar soliris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis após “VAL.". 
+O prazo de validade corresponde ao último dia do mês indicado. 
+Conservar no frigorífico (2°C - 8°C). 
+Não congelar. 
+Os frascos para injetáveis de Soliris na sua embalagem original podem ser removidos da refrigeração 
+apenas por um período único de até 3 dias. Após este período, o medicamento pode voltar a ser 
+colocado no frigorífico. 
+Conservar na embalagem de origem para proteger da luz. 
+Após a diluição, o produto deve ser utilizado nas 24 horas subsequentes. </p>
+<p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Soliris </p>
+<p>− 
+A substância ativa é o eculizumab (300 mg/30 ml num frasco para injetáveis, correspondentes a 
+uma concentração de 10 mg/ml). </p>
+<p>− 
+Os outros componentes são: 
+-  monofosfato de sódio<br />
+-  difosfato de sódio<br />
+-  cloreto de sódio 
+-  polissorbato 80 (origem vegetal) </p>
+<p>Solvente: água para injetáveis </p>
+<p>Qual o aspeto de Soliris e conteúdo da embalagem 
+Soliris é apresentado na forma de concentrado para solução para perfusão (30 ml num frasco para 
+injetáveis - embalagem com 1 frasco). 
+Soliris é uma solução transparente e incolor. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Alexion Europe SAS 
+103-105 rue Anatole France 
+92300 Levallois-Perret 
+França </p>
+<p>Fabricante 
+Almac Pharma Services 
+22 Seagoe Industrial Estate 
+Craigavon BT63 5QD 
+Reino Unido </p>
+<p>Alexion Pharma International Operations Limited<br />
+College Business and Technology Park 
+Blanchardstown Road North, 
+Dublin D15 RIrlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Alexion Pharma Belgium 
+Tél/Tel: +32 0 800 200<br />
+Lietuva 
+UAB AstraZeneca Lietuva 
+Tel: +370 5 2660 
+България 
+Luxembourg/Luxemburg 
+АстраЗенека България ЕООД 
+Teл.: +359 24455 
+Alexion Pharma Belgium 
+Tél/Tel: +32 0 800 200<br />
+Česká republika 
+AstraZeneca Czech Republic s.r.o. 
+Tel: +420 222 807 Magyarország 
+AstraZeneca Kft. 
+Tel.: +36 1 883 6 
+Danmark 
+Alexion Pharma Nordics AB 
+Tlf: +46 0 8 557 727<br />
+Malta 
+Alexion Europe SAS 
+Tel: +353 1 800 882 Deutschland 
+Alexion Pharma Germany GmbH 
+Tel: +49 (0) 89 45 70 91 Nederland 
+Alexion Pharma Netherlands B.V.<br />
+Tel: +32 (0)2 548 36 67<br />
+Eesti 
+AstraZeneca 
+Tel: +372 6549<br />
+Norge 
+Alexion Pharma Nordics AB 
+Tlf: +46 (0)8 557 727 50  </p>
+<p>Ελλάδα 
+AstraZeneca A.E. 
+Τηλ: +30 210 6871 
+Österreich 
+Alexion Pharma Austria GmbH 
+Tel: +41 44 457 40<br />
+España 
+Alexion Pharma Spain, S.L. 
+Tel: +34 93 272 30<br />
+Polska 
+AstraZeneca Pharma Poland Sp. z o.o. 
+Tel.: +48 22 245 73 00  </p>
+<p>France 
+Alexion Pharma France SAS 
+Tél: +33 1 47 32 36<br />
+Portugal 
+Alexion Pharma Spain, S.L. - Sucursal em 
+Portugal<br />
+Tel: +34 93 272 30<br />
+Hrvatska 
+AstraZeneca d.o.o. 
+Tel: +385 1 4628<br />
+România 
+AstraZeneca Pharma SRL 
+Tel: +40 21 317 60 41<br />
+Ireland 
+Alexion Europe SAS 
+Tel: +353 1 800 882 840  </p>
+<p>Slovenija 
+AstraZeneca UK Limited 
+Tel: +386 1 51 35<br />
+Ísland 
+Alexion Pharma Nordics AB 
+Sími: +46 0 8 557 727 Slovenská republika 
+AstraZeneca AB, o.z. 
+Tel: +421 2 5737 7 
+Italia 
+Alexion Pharma Italy srl 
+Tel: +39 02 7767 9211  </p>
+<p>Suomi/Finland 
+Alexion Pharma Nordics AB 
+Puh/Tel: +46 0 8 557 727 50<br />
+Κύπρος 
+Alexion Europe SAS<br />
+Τηλ: +357 22490305  </p>
+<p>Sverige 
+Alexion Pharma Nordics AB 
+Tel: +46 0 8 557 727<br />
+Latvija 
+SIA AstraZeneca Latvija 
+Tel: +371 67377 
+United Kingdom (Northern Ireland) 
+Alexion Europe SAS 
+Tel: +44 (0) 800 028 4394  </p>
+<p>Este folheto foi revisto pela última vez em. </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1135,6 +1748,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9290357e39a2371931091ec451b2e152"
 * entry[0].resource = composition-da-9290357e39a2371931091ec451b2e152
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9290357e39a2371931091ec451b2e152"
+* entry[=].resource = mp9290357e39a2371931091ec451b2e152
+                            
+                    
+Instance: bundlepackageleaflet-pt-9290357e39a2371931091ec451b2e152
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for soliris Package Leaflet for language pt"
+Description: "ePI document Bundle for soliris Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9290357e39a2371931091ec451b2e152"
+* entry[0].resource = composition-pt-9290357e39a2371931091ec451b2e152
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9290357e39a2371931091ec451b2e152"
@@ -1236,6 +1871,18 @@ RuleSet: 9290357e39a2371931091ec451b2e152ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9290357e39a2371931091ec451b2e152) // soliris pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

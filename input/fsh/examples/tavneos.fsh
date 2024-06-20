@@ -778,6 +778,470 @@ patient.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-74cee07ffddb72142d80fc4c20efe6f2
+InstanceOf: CompositionUvEpi
+Title: "Composition for tavneos Package Leaflet"
+Description:  "Composition for tavneos Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp74cee07ffddb72142d80fc4c20efe6f2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tavneos"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Tavneos e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Tavneos </li>
+<li>Como tomar Tavneos </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Tavneos </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tavneos e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tavneos e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Tavneos? </p>
+<p>Tavneos contém a substância ativa avacopan, que se liga a uma proteína específico do corpo chamada 
+recetor do complemento 5a. </p>
+<p>Para que é utilizado Tavneos? </p>
+<p>Tavneos é utilizado para tratar adultos com uma doença que se agrava gradualmente causada pela 
+inflamação dos pequenos vasos sanguíneos chamada granulomatose com poliangeíte (GPA) e 
+poliangeíte microscópica (PAM): </p>
+<ul>
+<li>
+<p>A granulomatose com poliangeíte atinge principalmente pequenos vasos sanguíneos e tecidos 
+nos rins, pulmão, garganta, nariz e seios nasais, mas também outros órgãos. Os doentes 
+apresentam pequenos nódulos (granulomas) nos vasos sanguíneos e em torno destes, que são 
+formados por danos nos tecidos causados pela inflamação. </p>
+</li>
+<li>
+<p>A poliangeíte microscópica atinge os vasos sanguíneos mais pequenos. Afeta os rins com 
+frequência, mas pode também afetar outros órgãos. </p>
+</li>
+</ul>
+<p>O recetor do complemento 5a tem um papel essencial na estimulação da inflamação. Este 
+medicamento liga-se a este recetor e impede-o de funcionar, reduzindo assim a inflamação dos vasos 
+sanguíneos observada nestas doenças. </p>
+<p>Tavneos pode ser utilizado juntamente com outros tratamentos prescritos pelo seu médico. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tavneos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tavneos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Tavneos </p>
+<ul>
+<li>se tem alergia ao avacopan ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico antes de tomar Tavneos e durante o tratamento se teve ou tem: </p>
+<ul>
+<li>
+<p>uma doença do fígado, como o aumento dos níveis de bilirrubina total, a substância de 
+decomposição amarela do pigmento sanguíneo, ou das enzimas do figado, como as 
+transaminases; </p>
+</li>
+<li>
+<p>uma infeção, hematomas e hemorragias inesperados (estes dois são sinais comuns de 
+insuficiência da medula óssea); </p>
+</li>
+<li>
+<p>hepatite B, hepatite C, infeções pelo VIH ou tuberculose; </p>
+</li>
+<li>
+<p>uma doença do coração, como ataque cardíaco, insuficiência cardíaca, inflamação dos vasos 
+sanguíneos do coração; </p>
+</li>
+<li>
+<p>um cancro. </p>
+</li>
+</ul>
+<p>Tavneos não é recomendado em doentes com  </p>
+<ul>
+<li>
+<p>uma doença do fígado ativa ou  </p>
+</li>
+<li>
+<p>uma infeção grave ativa. </p>
+</li>
+</ul>
+<p>O seu médico realizará análises de sangue antes e durante o tratamento, quando necessário, para 
+verificar: </p>
+<ul>
+<li>
+<p>eventuais problemas com o fígado (através da medição das enzimas hepáticas e da bilirrubina 
+total no sangue), </p>
+</li>
+<li>
+<p>o seu risco de contrair infeções (através da medição da contagem de glóbulos brancos). 
+O seu médico decidirá interromper temporariamente ou suspender permanentemente o tratamento.  </p>
+</li>
+</ul>
+<p>O seu médico irá monitorizá-lo também quanto a sinais e sintomas de uma infeção chamada Neisseria 
+meningitidis. Tal é recomendado para doentes adultos com GPA ou PAM. </p>
+<p>Recomenda-se que faça tratamento para prevenir a infeção pulmonar da pneumonia por Pneumocystis 
+jirovecii durante o tratamento com Tavneos. </p>
+<p>Recomenda-se a administração de vacinas antes do tratamento com Tavneos ou quando não houver 
+doença ativa (granulomatose com poliangeíte ou poliangeíte microscópica). </p>
+<p>Durante o tratamento com Tavneos, foi notificado um inchaço grave e frequentemente doloroso sob a 
+pele, principalmente no rosto. Se isto afetar a garganta, pode dificultar a respiração. Pare o tratamento 
+e consulte um médico urgentemente se ocorrer inchaço do rosto, dos lábios, da língua ou da garganta 
+ou dificuldades respiratórias. </p>
+<p>Crianças e adolescentes </p>
+<p>Não dê este medicamento a crianças com menos de 18 anos, pois não há evidências suficientes para se 
+saber se este medicamento é seguro e eficaz neste grupo etário. </p>
+<p>Outros medicamentos e Tavneos </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou puder vir a 
+tomar outros medicamentos. </p>
+<p>É importante informar o seu médico, especialmente se tomar algum dos seguintes medicamentos: </p>
+<ul>
+<li>
+<p>carbamazepina, fenobarbital, fenitoína: medicamentos para tratar a epilepsia e outras doenças </p>
+</li>
+<li>
+<p>enzalutamida, mitotano: medicamentos para o tratamento de cancro </p>
+</li>
+<li>
+<p>rifampicina: um medicamento para tratar a tuberculose e outras infeções </p>
+</li>
+<li>
+<p>hipericão (erva de São João): um medicamento à base de plantas usado no tratamento de 
+depressão ligeira 
+Se não for possível evitar a utilização de curta duração de algum destes medicamentos durante o 
+tratamento com Tavneos, o seu médico pode verificar regularmente o seu estado de saúde para ver 
+como Tavneos está a funcionar. </p>
+</li>
+</ul>
+<p>O Tavneos pode afetar ou ser afetado pelos seguintes medicamentos: </p>
+<ul>
+<li>
+<p>alfentanilo: um analgésico utilizado durante uma operação com anestesia </p>
+</li>
+<li>
+<p>boceprevir, telaprevir: medicamentos para tratar a hepatite C </p>
+</li>
+<li>
+<p>bosentano: um medicamento para tratar a tensão arterial elevada nos pulmões e feridas nos 
+dedos das mãos e dos pés chamadas esclerodermia </p>
+</li>
+<li>
+<p>claritromicina, telitromicina: medicamentos antibióticos para tratar infeções bacterianas </p>
+</li>
+<li>
+<p>conivaptan: um medicamento para tratar níveis baixos de sódio no sangue </p>
+</li>
+<li>
+<p>ciclosporina: um medicamento para suprimir o sistema imunitário e evitar rejeição de 
+transplante, tratar doenças de pele graves e inflamação grave dos olhos ou das articulações </p>
+</li>
+<li>
+<p>dabigatrano: um medicamento que inibe a coagulação do sangue </p>
+</li>
+<li>
+<p>di-hidroergotamina, ergotamina: medicamentos para tratar enxaquecas </p>
+</li>
+<li>
+<p>fentanilo: um analgésico potente </p>
+</li>
+<li>
+<p>indinavir, efavirenz, etravirina, lopinavir/ritonavir, nelfinavir, ritonavir, saquinavir: 
+medicamentos para tratar infeções pelo VIH </p>
+</li>
+<li>
+<p>itraconazol, posaconazol, voriconazol: medicamentos para o tratamento de infeções fúngicas </p>
+</li>
+<li>
+<p>cetoconazol: um medicamento para tratar os sintomas causados pela produção excessiva de 
+cortisol pelo organismo (síndrome de Cushing) </p>
+</li>
+<li>
+<p>mibefradil: um medicamento para tratar o ritmo cardíaco irregular e a tensão arterial elevada </p>
+</li>
+<li>
+<p>modafinil: um medicamento para tratar uma tendência extrema para adormecer </p>
+</li>
+<li>
+<p>nefazodona: medicamentos para tratar a depressão  </p>
+</li>
+<li>
+<p>sirolímus, tacrolímus: medicamentos para suprimir o sistema imunitário e evitar rejeição de 
+transplante. </p>
+</li>
+</ul>
+<p>Tavneos com alimentos e bebidas </p>
+<p>Evite a toranja e o sumo de toranja durante o tratamento com Tavneos, uma vez que estes podem 
+influenciar o efeito do medicamento. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<ul>
+<li>
+<p>Gravidez 
+Este medicamento não é recomendado durante a gravidez e em mulheres com potencial para 
+engravidar ou que não estejam a fazer contraceção. </p>
+</li>
+<li>
+<p>Amamentação 
+Não se sabe se o avacopan passa para o leite materno. Não se pode excluir um risco para o bebé. 
+O seu médico irá ajudar a decidir se deve parar o tratamento com Tavneos ou parar de 
+amamentar. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>É considerado improvável que Tavneos afete a sua capacidade de conduzir ou utilizar máquinas. </p>
+<p>Tavneos contém hidroxiestearato de macrogolglicerol </p>
+<p>Tal poderá causar indisposição gástrica e diarreia. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tavneos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tavneos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é de 3 cápsulas de manhã e 3 cápsulas à noite. </p>
+<p>Modo de administração </p>
+<p>Engula as suas cápsulas inteiras com um copo de água. Não esmague, mastigue ou abra as cápsulas. 
+Tome as cápsulas com uma refeição, 3 cápsulas de manhã e 3 cápsulas à noite. </p>
+<p>Se tomar mais Tavneos do que deveria </p>
+<p>Fale com o seu médico imediatamente. </p>
+<p>Caso se tenha esquecido de tomar Tavneos </p>
+<p>Se ainda faltam mais de 3 horas para a sua próxima dose prevista, tome a dose em falta o mais cedo 
+possível e depois tome a dose seguinte no momento certo. </p>
+<p>Se faltam menos de 3 horas para a sua próxima dose, não tome a dose em falta. Tome apenas a 
+próxima dose à hora habitual. </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Tavneos </p>
+<p>Se ocorrer inchaço do rosto, dos lábios, da língua ou da garganta ou dificuldades respiratórias, pare o 
+tratamento e consulte de imediato um médico. Noutras situações, não pare de tomar este medicamento 
+sem falar com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Contacte imediatamente o seu médico se ocorrerem os seguintes efeitos indesejáveis graves:<br />
+Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<h2>* análise ao sangue que revela um aumento dos níveis de</h2>
+<h2>enzimas hepáticas (um sinal de problemas de fígado)</h2>
+<p>bilirrubina: uma substância amarela de decomposição do pigmento sanguíneo. </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas)  </p>
+<ul>
+<li>inflamação do pulmão (os sintomas podem ser pieira, dificuldade em respirar ou dores no peito). </li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>reação alérgica grave que causa inchaço sob a pele, principalmente no rosto, e que pode causar 
+dificuldades respiratórias (angioedema).  </li>
+</ul>
+<p>Podem ocorrer outros efeitos indesejáveis com as seguintes frequências: 
+Muito frequentes </p>
+<ul>
+<li>
+<p>infeção das vias respiratórias superiores </p>
+</li>
+<li>
+<p>garganta e nariz doridos e inflamados </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>má-disposição (náuseas) </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>número de leucócitos diminuído nas análises de sangue. </p>
+</li>
+</ul>
+<p>Frequentes  </p>
+<ul>
+<li>
+<p>inflamação do revestimento interno do nariz, o que provoca espirros, comichão, corrimento e 
+obstrução nasal </p>
+</li>
+<li>
+<p>infeções urinárias </p>
+</li>
+<li>
+<p>inflamação dos seios nasais ou dos tubos bronquiais </p>
+</li>
+<li>
+<p>inflamação do estômago e do revestimento intestinal </p>
+</li>
+<li>
+<p>infeção das vias respiratórias inferiores </p>
+</li>
+<li>
+<p>celulite </p>
+</li>
+<li>
+<p>zona </p>
+</li>
+<li>
+<p>gripe </p>
+</li>
+<li>
+<p>candidíase ou herpes na boca </p>
+</li>
+<li>
+<p>infeção do ouvido médio </p>
+</li>
+<li>
+<p>redução do número de glóbulos brancos chamados neutrófilos (os sintomas podem ser infeções, 
+febre ou dor ao engolir)  </p>
+</li>
+<li>
+<p>dor abdominal superior </p>
+</li>
+<li>
+<p>aumento do nível de enzima creatinafosfoquinase no sangue (os sintomas podem ser dores no 
+peito, confusão, dores musculares, fraqueza súbita ou entorpecimento do corpo). </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tavneos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tavneos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior ou no frasco, 
+após “VAL". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de qualquer temperatura especial de conservação. Conservar no frasco 
+de origem para proteger da luz. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tavneos </p>
+<ul>
+<li>A substância ativa é o avacopan. 
+Cada cápsula contém 10 mg de avacopan. </li>
+</ul>
+<h2>* Os outros componentes são:</h2>
+<h2>hidroxiestearato de macrogolglicerol</h2>
+<h2>macrogol (4000)</h2>
+<h2>gelatina</h2>
+<p>polissorbato - 
+óxido de ferro vermelho (E172), óxido de ferro amarelo (E172), óxido de ferro negro 
+(E172) 
+- 
+dióxido de titânio (E171). 
+- 
+goma laca 
+- 
+hidróxido de potássio. </p>
+<p>Qual o aspeto de Tavneos e conteúdo da embalagem </p>
+<p>As cápsulas de Tavneos têm um corpo amarelo e cabeça de cor laranja claro com “CCX168" em tinta 
+preta. 
+As cápsulas têm 22 mm de comprimento e 8 mm de diâmetro. 
+As cápsulas estão disponíveis em garrafas de plástico com um fecho resistente à abertura por crianças. </p>
+<p>Tavneos está disponível em: </p>
+<ul>
+<li>
+<p>embalagens contendo 30 cápsulas ou </p>
+</li>
+<li>
+<p>embalagens contendo 180 cápsulas ou </p>
+</li>
+<li>
+<p>embalagens múltiplas contendo 540 cápsulas (3 embalagens individuais de 180 cápsulas). </p>
+</li>
+</ul>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Vifor Fresenius Medical Care Renal Pharma France 
+100-101 Terrasse Boieldieu 
+Tour Franklin La Défense 8 
+92042 Paris la Défense Cedex 
+França </p>
+<p>Fabricante </p>
+<p>Vifor France<br />
+100-101 Terrasse Boieldieu 
+Tour Franklin La Défense 8 
+92042 Paris La Défense Cedex 
+França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -819,6 +1283,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-74cee07ffddb72142d80fc4c20efe6f2"
 * entry[0].resource = composition-da-74cee07ffddb72142d80fc4c20efe6f2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp74cee07ffddb72142d80fc4c20efe6f2"
+* entry[=].resource = mp74cee07ffddb72142d80fc4c20efe6f2
+                            
+                    
+Instance: bundlepackageleaflet-pt-74cee07ffddb72142d80fc4c20efe6f2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tavneos Package Leaflet for language pt"
+Description: "ePI document Bundle for tavneos Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-74cee07ffddb72142d80fc4c20efe6f2"
+* entry[0].resource = composition-pt-74cee07ffddb72142d80fc4c20efe6f2
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp74cee07ffddb72142d80fc4c20efe6f2"
@@ -920,6 +1406,18 @@ RuleSet: 74cee07ffddb72142d80fc4c20efe6f2ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-74cee07ffddb72142d80fc4c20efe6f2) // tavneos pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

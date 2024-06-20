@@ -751,6 +751,439 @@ og om, hvordan de behandles. </p>         </div>"""
 
 
 
+Instance: composition-pt-c4042d3fb4af6b1a99be10ddedae7598
+InstanceOf: CompositionUvEpi
+Title: "Composition for pyrukynd Package Leaflet"
+Description:  "Composition for pyrukynd Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc4042d3fb4af6b1a99be10ddedae7598)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - pyrukynd"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Pyrukynd e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Pyrukynd </li>
+<li>Como tomar Pyrukynd </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Pyrukynd </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é pyrukynd e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é pyrukynd e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pyrukynd contém a substância ativa mitapivat. </p>
+<p>Pyrukynd é utilizado para tratar adultos com uma afeção hereditária chamada deficiência de piruvato 
+cinase. Os doentes com deficiência de piruvato cinase apresentam alterações numa enzima nos seus 
+glóbulos vermelhos chamada piruvato cinase, que fazem com que estes não funcionem bem. Isto faz 
+com que os glóbulos vermelhos sejam degradados com demasiada rapidez, um processo conhecido por 
+anemia hemolítica. </p>
+<p>Pyrukynd ajuda a enzima piruvato cinase a funcionar melhor. Este medicamento aumenta a energia 
+nos seus glóbulos vermelhos e impede-os de se degradarem com demasiada rapidez. </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro se tiver quaisquer dúvidas sobre o modo como 
+Pyrukynd atua ou porque é que este medicamento lhe foi prescrito. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar pyrukynd"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar pyrukynd"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Pyrukynd </p>
+<ul>
+<li>se tem alergia ao mitapivat ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Pyrukynd. </p>
+<p>É importante que não pare de tomar este medicamento subitamente, pois poderá levar a um 
+agravamento da sua anemia, com uma degradação súbita dos glóbulos vermelhos (hemólise aguda). </p>
+<ul>
+<li>
+<p>Se quiser deixar de tomar Pyrukynd, fale primeiro com o seu médico. </p>
+</li>
+<li>
+<p>O seu médico irá dizer-lhe como parar de tomar este medicamento - geralmente por redução 
+gradual da dose. Isto serve para evitar quaisquer efeitos indesejáveis causados pela degradação 
+súbita dos glóbulos vermelhos. </p>
+</li>
+</ul>
+<p>Ver a secção 4 abaixo para obter mais informação sobre estes efeitos indesejáveis. </p>
+<p>Crianças e adolescentes </p>
+<p>Não dê este medicamento a crianças e adolescentes com menos de 18 anos de idade. Isto porque não 
+se sabe se o mitapivat é seguro e eficaz nos mesmos. </p>
+<p>Outros medicamentos e Pyrukynd </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar medicamentos, incluindo medicamentos obtidos sem receita médica. Em particular: </p>
+<p>Informe o seu médico ou farmacêutico se tomar qualquer um dos seguintes medicamentos, pois 
+poderão aumentar o risco de efeitos indesejáveis com Pyrukynd (tais como não dormir) ou poderão 
+impedir Pyrukynd de atuar corretamente: </p>
+<ul>
+<li>
+<p>certos medicamentos para infeções fúngicas - como o itraconazol </p>
+</li>
+<li>
+<p>certos medicamentos para a tuberculose - como a rifampicina </p>
+</li>
+<li>
+<p>certos medicamentos para úlceras de estômago, azia ou refluxo ácido - como a famotidina </p>
+</li>
+</ul>
+<p>Informe o seu médico ou farmacêutico se tomar qualquer um dos seguintes medicamentos, pois 
+Pyrukynd poderá impedir estes medicamentos de atuarem corretamente: </p>
+<ul>
+<li>
+<p>certos sedativos - como o midazolam </p>
+</li>
+<li>
+<p>certos medicamentos contracetivos contendo hormonas - como o etinilestradiol </p>
+</li>
+<li>
+<p>certos medicamentos quimioterapêuticos para o tratamento do cancro - como o irinotecano, 
+ciclofosfamida, paclitaxel </p>
+</li>
+<li>
+<p>certos medicamentos para ajudar a deixar de fumar - como a bupropiona </p>
+</li>
+<li>
+<p>certos medicamentos para úlceras de estômago, azia ou refluxo ácido - como o omeprazol </p>
+</li>
+<li>
+<p>certos medicamentos para a diabetes tipo 2 - como a repaglinida </p>
+</li>
+<li>
+<p>certos fluidificantes do sangue - como a varfarina, o etexilato de dabigatrano </p>
+</li>
+<li>
+<p>certos medicamentos para problemas de coração - como a digoxina </p>
+</li>
+<li>
+<p>certos medicamentos para tratar a epilepsia - como a carbamazepina, fenitoína, ácido valpróico </p>
+</li>
+<li>
+<p>certos medicamentos utilizados para o alívio da dor forte - como o alfentanilo </p>
+</li>
+<li>
+<p>certos medicamentos utilizados para prevenir a rejeição de órgãos após um transplante de órgão </p>
+</li>
+<li>
+<p>como a ciclosporina, sirolímus, tacrolímus </p>
+</li>
+<li>
+<p>certos medicamentos utilizados para tratar um ritmo cardíaco anormal - como a quinidina </p>
+</li>
+<li>
+<p>certos medicamentos utilizados para tratar enxaquecas - como a ergotamina </p>
+</li>
+<li>
+<p>certos medicamentos utilizados para tratar a dor crónica - como o fentanilo </p>
+</li>
+<li>
+<p>certos medicamentos utilizados para controlar os movimentos involuntários ou sons - como a 
+pimozida </p>
+</li>
+<li>
+<p>certos medicamentos utilizados para tratar ou prevenir as crises de gota - como a colquicina </p>
+</li>
+</ul>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Gravidez </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Deve evitar engravidar durante o tratamento com Pyrukynd. </p>
+<ul>
+<li>
+<p>Isto porque poderá causar danos ao seu bebé ainda por nascer. </p>
+</li>
+<li>
+<p>Fale com o seu médico imediatamente se ficar grávida enquanto estiver a tomar este 
+medicamento. </p>
+</li>
+</ul>
+<p>Amamentação </p>
+<p>Se está a planear amamentar, consulte o seu médico ou farmacêutico antes de tomar este 
+medicamento. Isto porque não se sabe se este medicamento passa para o leite humano ou quais os 
+efeitos que poderá ter sobre o bebé. </p>
+<p>Fertilidade </p>
+<p>Enquanto estiver a tomar Pyrukynd, poderá haver um impacto na capacidade de uma mulher e um 
+homem conceberem. Fale com o seu médico se estiver a planear engravidar. </p>
+<p>Contraceção para as mulheres </p>
+<p>Se correr o risco de ficar grávida, tem de utilizar um método contracetivo fiável enquanto estiver a 
+tomar Pyrukynd. Terá de o fazer durante pelo menos 1 mês depois de tomar a sua última dose. 
+Enquanto estiver a tomar Pyrukynd, alguns medicamentos contracetivos que contêm hormonas (como 
+a pílula) poderão não funcionar tão bem como esperado, o que significa que poderá correr o risco de 
+engravidar. Fale com o seu médico, farmacêutico ou enfermeiro sobre métodos contracetivos que 
+poderão ser adequados para si enquanto estiver a utilizar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Poderá ter dificuldade em dormir (insónia) durante o tratamento com Pyrukynd. Se isto lhe acontecer, 
+tenha cuidado ao conduzir ou ao utilizar máquinas. </p>
+<p>Pyrukynd contém lactose e sódio </p>
+<p>Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar pyrukynd"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar pyrukynd"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Quanto é que deve tomar </p>
+<p>A dose inicial recomendada de Pyrukynd é um comprimido de 5 mg tomado duas vezes por dia. O seu 
+médico poderá aumentar a dose gradualmente em intervalos de algumas semanas, com base nos 
+resultados das suas análises ao sangue (níveis de hemoglobina) e o modo como a sua afeção responde 
+ao tratamento, até um máximo de um comprimido de 50 mg tomado duas vezes por dia. </p>
+<p>Deve continuar a tomar o medicamento a não ser que o seu médico lhe diga para parar. </p>
+<p>Como tomar </p>
+<p>Pyrukynd é tomado por via oral. </p>
+<ul>
+<li>
+<p>Engula o comprimido inteiro. </p>
+</li>
+<li>
+<p>Pode tomá-lo com ou sem alimentos. </p>
+</li>
+<li>
+<p>Não divida, esmague, mastigue ou dissolva os comprimidos. </p>
+</li>
+</ul>
+<p>Idosos </p>
+<p>Pyrukynd foi utilizado num número limitado de doentes com 65 anos de idade ou mais. Não existe 
+evidência que sugira que os doentes idosos precisam de uma dose diferente em comparação com os 
+adultos mais jovens. </p>
+<p>Instruções sobre como abrir os blisters </p>
+<p>As seguintes imagens mostram como retirar o comprimido do blister. </p>
+<p>Encontre a bolsa correta do blister indicada pelo dia da semana e, se aplicável, a hora do dia (dose da 
+manhã ou da noite, conforme ilustrado no blister com os símbolos do sol e da lua). Na aba 
+correspondente: </p>
+<ol>
+<li>Utilize o polegar para PRESSIONAR. </li>
+</ol>
+<p>A imagem acima mostra o interior da carteira blister. </p>
+<ol>
+<li>Vire a embalagem, DESCOLE a aba saliente na parte de trás. </li>
+</ol>
+<p>A imagem acima mostra a parte de trás da carteira blister. </p>
+<ol>
+<li>Pressione o comprimido através da película de alumínio. </li>
+</ol>
+<p>Se tomar mais Pyrukynd do que deveria </p>
+<p>Se tiver tomado mais Pyrukynd do que deveria, fale com um médico imediatamente, ou contacte o 
+serviço de urgência mais próximo de si. Leve a embalagem do medicamento consigo para poder 
+mostrar ao médico o que tomou. </p>
+<p>Caso se tenha esquecido de tomar Pyrukynd </p>
+<ul>
+<li>
+<p>Se falhar a toma de uma dose por 4 horas ou menos, tome-a assim que possível. </p>
+</li>
+<li>
+<p>Se falhar a toma de uma dose por mais de 4 horas, não tome uma dose para a substituir. Tome a 
+sua dose seguinte programada conforme faria normalmente. 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+</li>
+</ul>
+<p>Se parar de tomar Pyrukynd </p>
+<p>Não pare de tomar este medicamento de repente. </p>
+<ul>
+<li>
+<p>Se quiser deixar de tomar Pyrukynd, fale com o seu médico primeiro. </p>
+</li>
+<li>
+<p>O seu médico irá dizer-lhe como parar de tomar este medicamento - geralmente por redução 
+gradual da dose. 
+Isto serve para prevenir quaisquer efeitos indesejáveis causados pela degradação súbita dos glóbulos 
+vermelhos. 
+Ver a secção 4 abaixo para obter mais informação sobre estes efeitos indesejáveis. </p>
+</li>
+</ul>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Muito frequentes (podem afetar mais do que 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>Dificuldade em dormir (insónia) </p>
+</li>
+<li>
+<p>Diminuição dos níveis da hormona estrona - observada nas análises ao sangue nos homens </p>
+</li>
+<li>
+<p>Náuseas </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>Afrontamentos </p>
+</li>
+<li>
+<p>Aumento dos níveis da hormona testosterona - observado nas análises ao sangue nos homens </p>
+</li>
+<li>
+<p>Diminuição dos níveis da hormona estradiol - observada nas análises ao sangue nos homens </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis que poderão ocorrer se parar de tomar Pyrukynd de repente </p>
+<p>Se parar de tomar Pyrukynd de repente, os sintomas poderão incluir: </p>
+<ul>
+<li>
+<p>sentir-se muito cansado </p>
+</li>
+<li>
+<p>a sua pele e a parte branca dos seus olhos começam a ficar amarelos (icterícia) </p>
+</li>
+<li>
+<p>dores nas costas </p>
+</li>
+<li>
+<p>urina escura. </p>
+</li>
+</ul>
+<p>Fale com o seu médico imediatamente se tiver qualquer um destes sintomas depois de parar de tomar 
+este medicamento. </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar pyrukynd"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar pyrukynd"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, carteira 
+blister e blister após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar a temperatura inferior a 25 ºC. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Pyrukynd </p>
+<p>A substância ativa é o mitapivat. </p>
+<p>Pyrukynd 5 mg comprimidos revestidos por película </p>
+<p>Cada comprimido revestido por película contém 5 mg de mitapivat (na forma de sulfato). </p>
+<p>Pyrukynd 20 mg comprimidos revestidos por película </p>
+<p>Cada comprimido revestido por película contém 20 mg de mitapivat (na forma de sulfato). </p>
+<p>Pyrukynd 50 mg comprimidos revestidos por película </p>
+<p>Cada comprimido revestido por película contém 50 mg de mitapivat (na forma de sulfato). </p>
+<p>Pyrukynd 5 mg, 20 mg e 50 mg comprimidos revestidos por película </p>
+<p>Os outros componentes são: 
+- Núcleo do comprimido: celulose microcristalina, croscarmelose sódica, manitol (E421) e fumarato 
+sódico de estearilo. 
+- Película de revestimento: hipromelose (E464), dióxido de titânio (E171), lactose mono-hidratada, 
+triacetina, laca de alumínio índigo carmim (E132). 
+- Tinta de impressão: goma laca (E904), óxido de ferro preto (E172) e hidróxido de amónio (E527). 
+Ver secção 2 “Pyrukynd contém lactose e sódio". </p>
+<p>Qual o aspeto de Pyrukynd e conteúdo da embalagem </p>
+<p>Pyrukynd 5 mg comprimidos revestidos por película são comprimidos revestidos por película azuis, 
+redondos, com aproximadamente 5 mm de diâmetro, com “M5" impresso com tinta preta num lado e 
+lisos no lado inverso. </p>
+<p>Pyrukynd 20 mg comprimidos revestidos por película são comprimidos revestidos por película azuis, 
+redondos, com aproximadamente 8 mm de diâmetro, com “M20" impresso com tinta preta num lado e 
+lisos no lado inverso. </p>
+<p>Pyrukynd 50 mg comprimidos revestidos por película são comprimidos revestidos por película azuis, 
+com uma forma oblonga, com um tamanho de aproximadamente 16 mm x 6,8 mm, com "M50" 
+impresso com tinta preta num lado e lisos no lado inverso. </p>
+<p>Embalagens para iniciar e continuar o tratamento </p>
+<p>Pyrukynd 5 mg, 20 mg e 50 mg comprimidos revestidos por película estão disponíveis em 4 carteiras 
+blister, cada uma contendo 14 comprimidos revestidos por película. Cada embalagem exterior contém 
+56 comprimidos revestidos por película. </p>
+<p>Embalagens para reduzir ou descontinuar o tratamento </p>
+<p>Pyrukynd 5 mg comprimidos revestidos por película estão disponíveis em carteiras blister contendo 
+7 comprimidos revestidos por película. </p>
+<p>Pyrukynd 20 mg comprimidos revestidos por película + Pyrukynd 5 mg comprimidos revestidos por 
+película estão disponíveis em carteiras blister contendo 14 comprimidos revestidos por película 
+(7 comprimidos revestidos por película de 20 mg + 7 comprimidos revestidos por película de 5 mg). </p>
+<p>Pyrukynd 50 mg comprimidos revestidos por película + Pyrukynd 20 mg comprimidos revestidos por 
+película estão disponíveis em carteiras blister contendo 14 comprimidos revestidos por película 
+(7 comprimidos revestidos por película de 50 mg + 7 comprimidos revestidos por película de 20 mg). </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Agios Netherlands B.V. 
+Zuidplein Regus Amsterdam WTC 
+1077XV Amsterdam 
+Países Baixos </p>
+<p>Fabricante </p>
+<p>Almac Pharma Services Limited 
+Seagoe Industrial Estate 
+Portadown 
+Craigavon, County Armagh 
+BT63 5UA 
+Reino Unido (Irlanda do Norte) </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -792,6 +1225,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c4042d3fb4af6b1a99be10ddedae7598"
 * entry[0].resource = composition-da-c4042d3fb4af6b1a99be10ddedae7598
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc4042d3fb4af6b1a99be10ddedae7598"
+* entry[=].resource = mpc4042d3fb4af6b1a99be10ddedae7598
+                            
+                    
+Instance: bundlepackageleaflet-pt-c4042d3fb4af6b1a99be10ddedae7598
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pyrukynd Package Leaflet for language pt"
+Description: "ePI document Bundle for pyrukynd Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c4042d3fb4af6b1a99be10ddedae7598"
+* entry[0].resource = composition-pt-c4042d3fb4af6b1a99be10ddedae7598
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc4042d3fb4af6b1a99be10ddedae7598"
@@ -893,6 +1348,18 @@ RuleSet: c4042d3fb4af6b1a99be10ddedae7598ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c4042d3fb4af6b1a99be10ddedae7598) // pyrukynd pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

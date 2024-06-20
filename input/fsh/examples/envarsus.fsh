@@ -1185,6 +1185,609 @@ hjemmeside: http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-bfce752a769c6bdf68d02de41c720db5
+InstanceOf: CompositionUvEpi
+Title: "Composition for envarsus Package Leaflet"
+Description:  "Composition for envarsus Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbfce752a769c6bdf68d02de41c720db5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - envarsus"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Envarsus e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Envarsus </li>
+<li>Como tomar Envarsus </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Envarsus </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é envarsus e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é envarsus e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Envarsus contém a substância ativa tacrolímus. É um imunossupressor. Após o seu transplante de 
+rim ou de fígado, o seu sistema imunitário irá tentar rejeitar o novo órgão.  </p>
+<p>O Envarsus é usado para controlar a resposta imunitária do seu organismo, habilitando-o a aceitar o 
+órgão transplantado. </p>
+<p>Também lhe pode ser administrado Envarsus quando estiver a ocorrer uma rejeição do fígado, rim, 
+coração ou outro órgão transplantado, nas situações em que o tratamento, que estava a fazer 
+anteriormente, não foi capaz de controlar a sua resposta imunitária após o transplante. </p>
+<p>O Envarsus é usado em adultos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar envarsus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar envarsus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Envarsus 
+- se tem alergia ao tacrolímus ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se tem alergia ao sirolímus ou a qualquer antibiótico macrólido (por exemplo, eritromicina, 
+claritromicina, josamicina). </p>
+<p>Advertências e precauções<br />
+O Envarsus contém a substância ativa tacrolímus apresentada numa formulação de libertação 
+prolongada. O Envarsus é tomado uma vez por dia e não pode ser trocado com outros medicamentos 
+contendo tacrolímus já existentes (de libertação imediata ou de libertação prolongada) numa base de 
+doses iguais. </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Envarsus 
+- se tem ou teve problemas de fígado. 
+- se tem diarreia durante mais de um dia. 
+- se está a tomar quaisquer medicamentos abaixo mencionados em “Outros medicamentos e 
+Envarsus". 
+- se tem uma alteração da atividade elétrica do seu coração chamada “prolongamento do QT". 
+- se tem dores abdominais intensas acompanhadas ou não de outros sintomas, como arrepios, 
+febre, náuseas ou vómitos. 
+- uma infeção que causa problemas nos rins ou sintomas neurológicos. 
+- dores de cabeça, estado mental alterado, convulsões e perturbações visuais. 
+- fraqueza, alteração da cor da pele ou olhos, formação fácil de nódoas negras, infeção, tosse, 
+anemia. 
+- se tem ou teve danos nos pequenos vasos sanguíneos, conhecido como microangiopatia 
+trombótica/púrpura trombocitopénica trombótica/síndrome urémica hemolítica. Fale com o seu 
+médico se desenvolver febre, nódoas negras debaixo da pele (os quais podem aparecer como 
+minúsculos pontos vermelhos), cansaço extremo, confusão, amarelecimento da pele ou olhos, 
+baixa produção de urina, perda de visão e convulsões (ver secção 4). Quando tacrolímus é 
+tomado em conjunto com sirolímus ou everolímus, o risco de desenvolver estes sintomas pode 
+aumentar. </p>
+<p>Evite tomar medicamentos à base de plantas, p. ex., hipericão (Hypericum perforatum) ou quaisquer 
+outros produtos à base de plantas, uma vez que podem afetar a eficácia e a dose de Envarsus que 
+necessita de tomar. Em caso de dúvida, consulte o seu médico antes de tomar qualquer produto ou 
+medicamento à base de plantas. </p>
+<p>O seu médico pode necessitar de ajustar a sua dose de Envarsus ou tomará a decisão de parar o seu 
+tratamento com tacrolímus. </p>
+<p>Deve manter contacto regular com o seu médico. De vez em quando, o seu médico pode precisar de 
+efetuar testes ao sangue, à urina, ao coração ou aos olhos para ajustar a dose correta de Envarsus. </p>
+<p>Deve limitar a sua exposição ao sol e à luz UV (ultravioleta) enquanto está a tomar Envarsus. Isto 
+porque os imunossupressores podem aumentar o risco de cancro da pele. Use vestuário protetor 
+adequado e um protetor solar com um fator de proteção elevado. </p>
+<p>Crianças e adolescentes 
+O uso de Envarsus não é recomendado a crianças e adolescentes com menos de 18 anos. </p>
+<p>Outros medicamentos e Envarsus 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos, incluindo medicamentos obtidos sem receita médica e preparações à base 
+de plantas. </p>
+<p>Não se recomenda a toma de Envarsus com ciclosporina (outro medicamento utilizado para a 
+prevenção da rejeição de órgãos transplantados). </p>
+<p>Se tiver necessidade de consultar um médico que não seja o seu especialista em transplantação, 
+informe esse médico de que está a tomar tacrolímus. O seu médico poderá precisar de entrar em 
+contacto com o seu especialista em transplantação se tiver necessidade de utilizar outro 
+medicamento que possa aumentar ou diminuir os níveis sanguíneos de tacrolímus. </p>
+<p>Os níveis de Envarsus no sangue podem ser afetados pela toma de outros medicamentos e os níveis de 
+outros medicamentos no sangue podem ser afetados pela toma de Envarsus, o que pode requerer a 
+interrupção, o aumento ou a diminuição da dose de Envarsus.  </p>
+<p>Foram observados aumentos dos níveis sanguíneos de tacrolímus em alguns doentes que também 
+tomam outros medicamentos. Isto pode levar a efeitos indesejáveis graves, tais como problemas nos 
+rins, sistema nervoso e alterações do ritmo cardíaco (ver secção 4). 
+Pode ocorrer um efeito sobre os níveis sanguíneos de Envarsus pouco tempo depois de começar a 
+utilizar outro medicamento, pelo que uma monitorização frequente e contínua do nível sanguíneo de 
+Envarsus pode ser necessária nos primeiros dias depois de iniciar outro medicamento e regularmente 
+enquanto continuar o tratamento com outro medicamento. Alguns outros medicamentos podem causar 
+uma diminuição dos níveis sanguíneos de tacrolímus, podendo aumentar o risco de rejeição do órgão 
+transplantado. Em especial, deve informar o seu médico se está a tomar ou tomou recentemente 
+medicamentos como: 
+- medicamentos antifúngicos e antibióticos, especialmente os chamados antibióticos macrólidos, 
+usados no tratamento de infeções (por exemplo, cetoconazol, fluconazol, itraconazol, 
+posaconazol, voriconazol, clotrimazol, isavuconazol, miconazol, caspofungina, telitromicina, 
+eritromicina, claritromicina, josamicina, azitromicina, rifampicina, rifabutina, isoniazida e 
+flucloxacilina) 
+- letermovir, usado para prevenir a doença causada pelo CMV (citomegalovírus humano) 
+- inibidores da protease do VIH (por exemplo, ritonavir, nelfinavir, saquinavir), o medicamento 
+potenciador cobicistate, e comprimidos de associação, ou inibidores não nucleosídeos da 
+transcriptase reversa do VIH (efavirenz, etravirina, nevirapina) usados no tratamento da infeção 
+do VIH 
+- inibidores da protease do VHC (por exemplo, telaprevir, boceprevir, a associação de 
+ombitasvir/paritaprevir/ritonavir com ou sem dasabuvir, elbasvir/grazoprevir e 
+glecaprevir/pibrentasvir), usados no tratamento da hepatite C 
+- nilotinib e imatinib, idealisib, ceritinib, crizotinib, apalutamida, enzalutamida ou mitotano 
+(usados para tratar certos cancros) 
+- ácido micofenólico, usado para suprimir o sistema imunitário, a fim de impedir a rejeição de um 
+transplante 
+- medicamentos para a úlcera de estômago e refluxo ácido (por exemplo, omeprazol, lansoprazol 
+ou cimetidina) 
+- antieméticos, usados para tratar náuseas e vómitos (por exemplo, metoclopramida) 
+- cisaprida ou o antiácido hidróxido de alumínio e magnésio, usado no tratamento da azia 
+- pílula contracetiva ou outros tratamentos hormonais com etinilestradiol, tratamentos hormonais 
+com danazol 
+- medicamentos usados no tratamento da tensão arterial elevada ou problemas cardíacos (por 
+exemplo, nifedipina, nicardipina, diltiazem e verapamilo) 
+- substâncias antiarrítmicas (por exemplo, amiodarona) usadas no controlo de arritmias 
+(batimento irregular do coração) 
+- medicamentos chamados “estatinas", usados para o tratamento de colesterol e triglicéridos 
+elevados 
+- carbamazepina, fenitoína ou fenobarbital, usados no tratamento de epilepsia 
+- metamizol, usado no tratamento da dor e da febre 
+- os corticosteroides prednisolona e metilprednisolona, pertencentes à classe dos corticosteroides, 
+usados para tratar inflamações ou para suprimir o sistema imunitário (por exemplo, na rejeição 
+do transplante)<br />
+- nefazodona, usado no tratamento da depressão<br />
+- preparações à base de plantas contendo hipericão (Hypericum perforatum) ou extratos de 
+Schisandra sphenanthera 
+- canabidiol (utilizado, por exemplo, no tratamento de convulsões) </p>
+<p>Informe o seu médico se estiver a receber tratamento para a hepatite C. O tratamento farmacológico 
+para a hepatite C pode alterar o funcionamento do fígado e afetar os níveis sanguíneos de tacrolímus. 
+Os níveis sanguíneos de tacrolímus podem diminuir ou aumentar dependendo dos medicamentos 
+prescritos para a hepatite C. O seu médico necessita de monitorizar cuidadosamente os níveis 
+sanguíneos de tacrolímus e efetuar os ajustes necessários da dose de Envarsus depois de começar o 
+tratamento para a hepatite C. </p>
+<p>Informe o seu médico se está a tomar ou se necessita de tomar ibuprofeno (usado para tratar a febre, 
+inflamação e dor), antibióticos (cotrimoxazol, vancomicina ou antibióticos aminoglicosidos, tais como 
+a gentamicina), anfotericina B (usada para tratar infeções fúngicas), ou antivirais (usados para tratar 
+infeções virais, por exemplo, aciclovir, ganciclovir, cidofovir, foscarneto). Estes podem piorar os 
+problemas no rim ou no sistema nervoso quando tomados conjuntamente com Envarsus. </p>
+<p>Fale com o seu médico se estiver a tomar sirolímus ou everolímus. Quando tacrolímus é tomado em 
+conjunto com sirolímus ou everolímus, o risco de desenvolvimento de microangiopatia trombótica, 
+púrpura trombocitopénica trombótica, e síndrome urémica hemolítica pode aumentar (ver secção 4.4).  </p>
+<p>Enquanto está a tomar Envarsus, o seu médico também necessita de saber se está a tomar suplementos 
+de potássio ou certos diuréticos usados para a insuficiência cardíaca, hipertensão e doença renal (por 
+exemplo, amilorida, triamtereno ou espironolactona), ou os antibióticos trimetoprim ou cotrimoxazol 
+que podem aumentar os níveis de potássio no sangue, substâncias anti-inflamatórias não esteroides 
+(AINEs, por exemplo, ibuprofeno) usadas para a febre, inflamação e dor, anticoagulantes (para diluir o 
+sangue), ou medicamentos orais para a diabetes. </p>
+<p>Se necessita de tomar qualquer vacina, informe antecipadamente o seu médico. </p>
+<p>Envarsus com alimentos e bebidas 
+Evitar comer toranja (e também o sumo) durante o tratamento com Envarsus, pois esta pode afetar os 
+seus níveis no sangue. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. 
+O tacrolímus passa para o leite materno. Por conseguinte, não deve amamentar enquanto estiver a 
+tomar Envarsus. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza nem utilize quaisquer ferramentas ou máquinas se sentir tonturas ou sonolência, ou se 
+tiver problemas de visão após tomar Envarsus. Estes efeitos são mais frequentes se também beber 
+álcool. </p>
+<p>Envarsus contém lactose 
+O Envarsus contém lactose (açúcar do leite).  </p>
+<ul>
+<li>
+<p>Envarsus 0,75 mg comprimidos:<br />
+41,7 mg </p>
+</li>
+<li>
+<p>Envarsus 1 mg comprimidos:<br />
+41,7 mg </p>
+</li>
+<li>
+<p>Envarsus 4 mg comprimidos:<br />
+104 mg 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte o seu médico antes 
+de tomar este medicamento. </p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar envarsus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar envarsus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.<br />
+Este medicamento deve apenas ser-lhe prescrito por um médico com experiência no tratamento de 
+doentes transplantados. </p>
+<p>Informação importante 
+Certifique-se de que recebe o mesmo medicamento de tacrolímus sempre que recebe a sua prescrição, 
+a não ser que o seu especialista em transplantação tenha concordado em mudar para um medicamento 
+diferente contendo tacrolímus.<br />
+Este medicamento deve ser tomado uma vez por dia. Se a aparência deste medicamento não é a 
+habitual, ou se as instruções relativas à posologia mudaram, fale com o seu médico ou farmacêutico 
+com a maior brevidade possível para ter a certeza que está a tomar o medicamento correto. </p>
+<p>Que dose de Envarsus tenho de tomar 
+A dose inicial para prevenir a rejeição do seu órgão transplantado será determinada pelo seu médico, 
+calculada de acordo com o seu peso corporal. </p>
+<p>As doses diárias iniciais logo após a transplantação serão de 0,14 - 0,17 mg por kg de peso corporal 
+por dia, dependendo do órgão transplantado. No tratamento da rejeição, podem ser usadas as mesmas 
+doses. </p>
+<p>A sua dose depende do seu estado geral e de outros medicamentos imunossupressores que esteja a 
+tomar. Após o início do seu tratamento com este medicamento, o seu médico irá pedir frequentemente 
+análises ao sangue de forma a estabelecer a dose correta. Em seguida, o seu médico irá pedir análises 
+ao sangue regularmente para estabelecer a dose correta e para a ajustar de vez em quando. 
+Normalmente o seu médico irá reduzir a dose de Envarsus quando o seu estado estabilizar.  </p>
+<p>Como devo tomar os comprimidos de Envarsus 
+O Envarsus é tomado oralmente uma vez por dia, geralmente com o estômago vazio.  </p>
+<p>Tome os comprimidos imediatamente após retirá-los do blister. Os comprimidos devem ser engolidos 
+inteiros com um copo de água. Não engolir o exsicante que se encontra dentro da bolsa de alumínio. </p>
+<p>Durante quanto tempo deverei tomar Envarsus 
+Irá necessitar de tomar Envarsus todos os dias enquanto precisar de imunossupressão para prevenir a 
+rejeição do seu órgão transplantado. Deve manter contacto regular com o seu médico. </p>
+<p>Se tomar mais Envarsus do que deveria 
+Se tomar acidentalmente mais Envarsus do que deveria, contacte imediatamente o seu médico ou o 
+serviço de urgência do hospital mais próximo. </p>
+<p>Caso se tenha esquecido de tomar Envarsus 
+Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. Tome o 
+comprimido assim que possível no mesmo dia.  </p>
+<p>Se parar de tomar Envarsus<br />
+Parar o tratamento com Envarsus poderá aumentar o risco de rejeição do seu órgão transplantado. Não 
+pare o tratamento a não ser que o seu médico lhe tenha dito para o fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>O tacrolímus reduz o mecanismo de defesa do seu organismo (sistema imunitário), que não estará nas 
+condições normais para combater infeções. Assim, enquanto está a tomar Envarsus poderá estar mais 
+propenso a ter infeções. Algumas infeções podem ser graves ou fatais incluindo infeções causadas por 
+bactérias, vírus, fungos, parasitas, ou outras infeções. 
+Informe imediatamente o seu médico se tiver sinais ou sintomas de infeção incluindo: 
+- Febre, tosse, dores de garganta, sensação de fraqueza ou sensação de mal-estar 
+- Perda de memória, dificuldade em pensar, dificuldade em andar ou perda de visão - estas 
+podem ser devidas a uma infeção cerebral grave muito rara, a qual pode ser fatal 
+(Leucoencefalopatia multifocal progressiva [LMP]) 
+Contacte imediatamente o seu médico se sentir efeitos graves. 
+Podem ocorrer efeitos graves, incluindo reações alérgicas e anafiláticas. Foram notificados tumores 
+benignos e malignos após o tratamento com Envarsus. </p>
+<p>Informe imediatamente o seu médico se tiver ou suspeitar que pode ter qualquer um dos 
+seguintes efeitos indesejáveis graves: </p>
+<p>Efeitos indesejáveis graves frequentes (podem afetar até 1 em 10 pessoas): 
+- Perfuração gastrointestinal: forte dor abdominal acompanhada ou não de outros sintomas, tais 
+como arrepios, febre, náuseas ou vómitos. 
+- Funcionamento insuficiente do órgão transplantado. 
+- Visão turva. </p>
+<p>Efeitos indesejáveis graves pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- Microangiopatia trombótica (danos nos pequenos vasos sanguíneos) incluindo síndrome 
+hemolítica urémica, uma condição com os seguintes sintomas: produção de urina baixa ou 
+ausente (insuficiência renal aguda), cansaço extremo, amarelecimento da pele ou olhos 
+(icterícia) e nódoas negras ou hemorragia anormais e sinais de infeção. </p>
+<p>Efeitos indesejáveis graves raros (podem afetar até 1 em 1 000 pessoas): 
+- Púrpura Trombocitopénica Trombótica: uma condição envolvendo danos nos pequenos vasos 
+sanguíneos e caracterizada por febre e nódoas negras debaixo da pele que podem parecer como 
+minúsculos pontos vermelhos, com ou sem fadiga extrema inexplicável, confusão, 
+amarelecimento da pele ou olhos (icterícia), com sintomas de insuficiência renal aguda (baixa 
+produção de urina ou ausente), perda de visão e convulsões. 
+- Necrólise epidérmica tóxica: erosão e formação de bolhas na pele ou membranas mucosas, pele 
+inchada vermelha que pode destacar em grandes partes do corpo. 
+- Cegueira. </p>
+<p>Efeitos indesejáveis graves muito raros (podem afetar até 1 em 10 000 pessoas): 
+- Síndrome de Stevens-Johnson: dor de pele inexplicável generalizada, inchaço facial, doença 
+grave com formação de bolhas na pele, boca, olhos e genitais, urticária, inchaço na língua, 
+erupção na pele vermelha ou roxa disseminada, descamação da pele. 
+- Torsades de pointes: alteração da frequência cardíaca, que pode ou não ser acompanhada de 
+sintomas, como dor no peito (angina), desmaio, vertigem ou náusea, palpitações (sentir o 
+batimento cardíaco) e dificuldade em respirar. </p>
+<p>Efeitos indesejáveis graves - frequência desconhecida (a frequência não pode ser calculada a partir 
+dos dados disponíveis): 
+- Infeções oportunistas (bacterianas, fúngicas, virais e protozoárias): diarreia prolongada, febre e 
+dor de garganta. 
+- Foram notificados tumores benignos e malignos após o tratamento, como resultado de 
+imunossupressão. 
+- Foram notificados casos de aplasia eritrocitária pura (uma redução muito acentuada do número 
+de glóbulos vermelhos), anemia hemolítica (redução do número de glóbulos vermelhos por 
+destruição anormal dos mesmos, acompanhada de fadiga) e neutropenia febril (uma diminuição 
+no tipo de glóbulos brancos que combatem infeções, acompanhada de febre). Não existem 
+informações exatas sobre a frequência destes efeitos indesejáveis. Pode não ter sintomas ou, 
+dependendo da gravidade da condição, pode sentir: fadiga, apatia, palidez anormal da pele 
+(palidez), falta de ar, tonturas, dor de cabeça, dor no peito e sensação de frio nas mãos e pés. 
+- Casos de agranulocitose (um número muito reduzido de glóbulos brancos acompanhado de 
+úlceras na boca, febre e infeção(ões)). Pode não ter sintomas ou sentir febre abrupta, arrepios e 
+dor de garganta. 
+- Reações alérgicas e anafiláticas com os seguintes sintomas: erupção cutânea súbita com 
+comichão (urticária), inchaço das mãos, pés, tornozelos, face, lábios, boca ou garganta (que 
+pode causar dificuldade em engolir ou respirar) e pode sentir que vai desmaiar. 
+- Síndrome de Encefalopatia Posterior Reversível (PRES): dor de cabeça, confusão mental, 
+alterações de humor, convulsões e problemas na visão. Podem ser sinais de uma condição 
+chamada síndrome de encefalopatia posterior reversível, a qual foi notificada em alguns doentes 
+tratados com tacrolímus. 
+- Neuropatia ótica (anormalidades no nervo ótico): problemas na visão tais como visão turva, 
+alteração na visão das cores, dificuldade em focar ou se o seu campo de visão se tornar mais 
+restrito. </p>
+<p>Os efeitos indesejáveis listados abaixo também podem ocorrer depois de tomar Envarsus e 
+podem ser graves: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas): 
+- Aumento de açúcar no sangue, diabetes mellitus, aumento de potássio no sangue 
+- Dificuldade em dormir 
+- Tremores, dores de cabeça 
+- Aumento da tensão arterial 
+- Testes da função hepática anormais 
+- Diarreia, náuseas 
+- Problemas renais </p>
+<p>Efeitos indesejáveis frequentes (podem afetar 1 em 10 pessoas): 
+- Redução do número de células do sangue (plaquetas, glóbulos vermelhos ou brancos), aumento 
+do número de glóbulos brancos, alterações no número de glóbulos vermelhos (observados nas 
+análises ao sangue) 
+- Redução de magnésio, fosfato, potássio, cálcio ou sódio no sangue, sobrecarga de líquidos, 
+aumento do ácido úrico ou de lípidos no sangue, diminuição do apetite, perda de apetite, 
+aumento da acidez do sangue, outras alterações nos sais sanguíneos (observados nas análises ao 
+sangue) 
+- Sintomas de ansiedade, confusão e desorientação, depressão, alterações de humor, pesadelos, 
+alucinações, perturbações mentais 
+- Convulsões, perturbações da consciência, formigueiro e adormecimento (por vezes doloroso) 
+nas mãos e pés, tonturas, alteração da escrita, doenças do sistema nervoso 
+- Aumento da sensibilidade à luz, perturbações oculares 
+- Zumbidos nos ouvidos 
+- Diminuição do fluxo sanguíneo nas veias cardíacas, aumento da frequência cardíaca 
+- Hemorragia, bloqueio parcial ou completo dos vasos sanguíneos, diminuição da tensão arterial 
+- Falta de ar, alterações dos tecidos do pulmão, acumulação de líquido à volta do pulmão, 
+inflamação da faringe, tosse, sintomas gripais 
+- Inflamações ou úlceras causando dor abdominal ou diarreia, hemorragia no estômago, 
+inflamação ou úlcera na boca, acumulação de líquidos no abdómen, vómitos, dores abdominais, 
+indigestão, obstipação, flatulência, inchaço, fezes soltas, problemas de estômago 
+- Afeções do canal biliar, pele amarelada devido a problemas no fígado, danos no tecido hepático 
+e inflamação do fígado 
+- Comichão, erupção na pele, perda de cabelo, acne, aumento da sudação 
+- Dor nas articulações, nos membros ou nas costas, cãibras musculares 
+- Funcionamento insuficiente dos rins, produção de urina reduzida, dor ou dificuldade em urinar 
+- Fraqueza geral, febre, acumulação de líquidos no corpo, dor e desconforto, aumento da enzima 
+fosfatase alcalina no sangue, aumento de peso, problemas na perceção da temperatura corporal </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar 1 em 100 pessoas): 
+- Alterações na coagulação sanguínea, redução do número de todos os tipos de células sanguíneas 
+(observados nas análises ao sangue) 
+- Desidratação 
+- Comportamento psicótico, como delírio, alucinações e confusão 
+- Redução das proteínas ou açúcar no sangue, aumento do fosfato no sangue 
+- Coma, hemorragia no cérebro, acidente vascular cerebral, paralisia, lesões no cérebro, 
+anomalias da fala e da linguagem, problemas de memória 
+- Opacidade do cristalino, incapacidade parcial ou total de ouvir 
+- Batimento cardíaco irregular, paragem do batimento cardíaco, redução do desempenho do seu 
+coração, doença no músculo do coração, aumento do músculo do coração, batimento cardíaco 
+mais forte, ECG anormal, frequência cardíaca e pulso anormais 
+- Coágulo sanguíneo numa veia de um membro, choque 
+- Dificuldade em respirar, afeções das vias respiratórias, asma 
+- Inflamação aguda ou crónica do pâncreas, inflamação do revestimento da parede interna do 
+abdómen, obstrução do intestino, aumento do nível sanguíneo da enzima amilase, refluxo do 
+conteúdo do estômago para a garganta, atraso no esvaziamento do estômago 
+- Inflamação da pele, sensação de queimadura à luz solar 
+- Afeções das articulações 
+- Incapacidade de urinar, dor menstrual e hemorragia menstrual anormal 
+- Insuficiência de múltiplos órgãos, doença de tipo gripal, aumento da sensibilidade ao calor e ao 
+frio, sensação de pressão no peito, sensação de nervosismo ou sensação anormal, aumento da 
+enzima lactato desidrogenase no sangue, perda de peso </p>
+<p>Efeitos indesejáveis raros (podem afetar 1 em 1 000 pessoas): 
+- Pequenas hemorragias na pele devidas a coágulos sanguíneos 
+- Aumento da rigidez muscular 
+- Surdez 
+- Acumulação de líquido à volta do coração 
+- Falta de ar aguda 
+- Formação de quistos no pâncreas, fase que precede um bloqueio do intestino 
+- Problemas com o fluxo sanguíneo no fígado 
+- Doença grave com bolhas na pele, boca, olhos e órgãos genitais;<br />
+- Aumento de pilosidade 
+- Sede, queda, sensação de aperto no peito, diminuição da mobilidade, úlcera </p>
+<p>Efeitos indesejáveis muito raros (podem afetar 1 em 10 000 pessoas): 
+- Fraqueza muscular 
+- Deficiência da audição 
+- Alteração do ecocardiograma 
+- Insuficiência do fígado 
+- Dor ao urinar com sangue na urina 
+- Aumento do tecido adiposo </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar envarsus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar envarsus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, no blister e 
+na bolsa, após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 25ºC. </p>
+<p>Conservar na bolsa de alumínio de origem para proteger da luz. </p>
+<p>Utilizar todos os comprimidos de libertação prolongada no prazo de 45 dias após a abertura da bolsa 
+de alumínio. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Envarsus<br />
+- A substância ativa é o tacrolímus. </p>
+<p>Envarsus 0,75 mg comprimidos de libertação prolongada 
+Cada comprimido de libertação prolongada contém 0,75 mg de tacrolímus (como mono-
+hidrato). </p>
+<p>Envarsus 1 mg comprimidos de libertação prolongada 
+Cada comprimido de libertação prolongada contém 1 mg de tacrolímus (como mono-hidrato). </p>
+<p>Envarsus 4 mg comprimidos de libertação prolongada 
+Cada comprimido de libertação prolongada contém 4 mg de tacrolímus (como mono-hidrato). </p>
+<ul>
+<li>Os outros excipientes são hipromelose, lactose mono-hidratada, macrogol 6000, poloxamer 188, 
+estearato de magnésio, ácido tartárico (E334), butil hidroxitolueno (E321), dimeticona 350.<br />
+Qual o aspeto de Envarsus e conteúdo da embalagem 
+Envarsus 0,75 mg comprimidos de libertação prolongada são comprimidos não revestidos ovais, 
+brancos a esbranquiçados, com “0.75" gravado num dos lados e “TCS" no outro. 
+Envarsus 1 mg comprimidos de libertação prolongada são comprimidos não revestidos ovais, brancos 
+a esbranquiçados, com “1" gravado num dos lados e “TCS" no outro. 
+Envarsus 4 mg comprimidos de libertação prolongada são comprimidos não revestidos ovais, brancos 
+a esbranquiçados, com “4" gravado num dos lados e “TCS" no outro. </li>
+</ul>
+<p>Envarsus é fornecido em blisters de PVC/Alu contendo 10 comprimidos. Três blisters são embalados 
+conjuntamente dentro de uma bolsa protetora de alumínio, incluindo um exsicante. Estão disponíveis 
+embalagens de 30, 60 e 90 comprimidos de libertação prolongada. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Chiesi Farmaceutici S.p.A. 
+Via Palermo, 26/A 
+43122 Parma 
+Itália </p>
+<p>Fabricante 
+Rottendorf Pharma GmbH 
+Ostenfelder Straβe 51 - 59320 Ennigerloh 
+Alemanha 
+ou 
+Chiesi Farmaceutici S.p.A. 
+Via San Leonardo 43122 Parma 
+Itália 
+ou 
+Chiesi Pharmaceuticals GmbH 
+Gonzagagasse 16/1010 Wien 
+Áustria </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Chiesi sa/nv 
+Tél/Tel: +32 (0)2 788 42<br />
+Lietuva 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: +43 1 4073 
+България 
+Chiesi Bulgaria EOOD<br />
+Teл.: +359 29201Luxembourg/Luxemburg 
+Chiesi sa/nv 
+Tél/Tel: +32 (0)2 788 42<br />
+Česká republika 
+Chiesi CZ s.r.o. 
+Tel: +420 261221 
+Magyarország 
+Chiesi Hungary Kft. 
+Tel.: +36-1-429 1 
+Danmark 
+Chiesi Pharma AB 
+Tlf: +46 8 753 35<br />
+Malta 
+Chiesi Farmaceutici S.p.A. 
+Tel: +39 0521 2 
+Deutschland 
+Chiesi GmbH 
+Tel: +49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V. 
+Tel: +31 0 88 5016 
+Eesti 
+Chiesi Pharmaceuticals GmbH 
+Tel: +43 1 4073 
+Norge 
+Chiesi Pharma AB 
+Tlf: +46 8 753 35<br />
+Ελλάδα 
+Chiesi Hellas AEBE 
+Τηλ: +30 210 6179 
+Österreich 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: +43 1 4073 
+España 
+Chiesi España, S.A.U. 
+Tel: +34 93 494 8 
+Polska 
+Chiesi Poland Sp. z.o.o. 
+Tel.: +48 22 620 1 
+France 
+Chiesi S.A.S 
+Tél: +33 1 47688 
+Portugal 
+Chiesi Farmaceutici S.p.A. 
+Tel: +39 0521 2Hrvatska 
+Chiesi Pharmaceuticals GmbH 
+Tel: +43 1 4073 
+România 
+Chiesi Romania S.R.L. 
+Tel: +40 212023 
+Ireland 
+Chiesi Farmaceutici S.p.A. 
+Tel: +39 0521 2 
+Slovenija 
+CHIESI SLOVENIJA, d.o.o. 
+Tel: +386-1-43 00<br />
+Ísland 
+Chiesi Pharma AB 
+Sími: +46 8 753 35<br />
+Slovenská republika 
+Chiesi Slovakia s.r.o. 
+Tel: +421 259300 
+Italia 
+Chiesi Italia S.p.A. 
+Tel: +39 0521 2Suomi/Finland 
+Chiesi Pharma AB 
+Puh/Tel: +46 8 753 35<br />
+Κύπρος 
+Chiesi Farmaceutici S.p.A. 
+Τηλ: +39 0521 2 
+Sverige 
+Chiesi Pharma AB 
+Tel: +46 8 753 35<br />
+Latvija 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: +43 1 4073 
+United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A. 
+Tel: +39 0521 2791  </p>
+<p>Este folheto foi revisto pela última vez em. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1226,6 +1829,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-bfce752a769c6bdf68d02de41c720db5"
 * entry[0].resource = composition-da-bfce752a769c6bdf68d02de41c720db5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbfce752a769c6bdf68d02de41c720db5"
+* entry[=].resource = mpbfce752a769c6bdf68d02de41c720db5
+                            
+                    
+Instance: bundlepackageleaflet-pt-bfce752a769c6bdf68d02de41c720db5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for envarsus Package Leaflet for language pt"
+Description: "ePI document Bundle for envarsus Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-bfce752a769c6bdf68d02de41c720db5"
+* entry[0].resource = composition-pt-bfce752a769c6bdf68d02de41c720db5
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpbfce752a769c6bdf68d02de41c720db5"
@@ -1327,6 +1952,18 @@ RuleSet: bfce752a769c6bdf68d02de41c720db5ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-bfce752a769c6bdf68d02de41c720db5) // envarsus pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

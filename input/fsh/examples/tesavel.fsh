@@ -777,6 +777,423 @@ hjemmeside http://www.ema.europa.eu.</li>
 
 
 
+Instance: composition-pt-118afad7684b14db488523a58f186d8f
+InstanceOf: CompositionUvEpi
+Title: "Composition for tesavel Package Leaflet"
+Description:  "Composition for tesavel Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp118afad7684b14db488523a58f186d8f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tesavel"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Tesavel e para que é utilizado
+2. O que precisa de saber antes de tomar Tesavel
+3. Como tomar Tesavel
+4. Efeitos indesejáveis possíveis
+5. Como conservar Tesavel
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tesavel e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tesavel e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tesavel contém a substância ativa sitagliptina que é um membro de uma classe de medicamentos
+denominados inibidores da DPP-4 (inibidores da dipeptidil peptidase-4) que baixa os níveis de açúcar
+no sangue em doentes adultos com diabetes mellitus tipo 2. Este medicamento ajuda a aumentar os níveis de insulina produzida após uma refeição e diminui a
+quantidade de açúcar produzida pelo organismo. 
+O seu médico receitou este medicamento para ajudar a baixar o seu açúcar no sangue, que é muito alto
+devido à diabetes tipo 2. Este medicamento pode ser tomado isoladamente ou em associação com
+outros medicamentos que baixam o açúcar no sangue (insulina, metformina, sulfonilureias ou
+glitazonas), e que poderá já estar a tomar para a diabetes, em conjunto com um plano alimentar e de
+exercício físico. 
+O que é a diabetes tipo 2?
+A diabetes tipo 2 é uma doença em que o organismo não produz insulina suficiente, e mesmo a que o
+seu organismo produz não funciona tão bem como deveria. O seu organismo pode também produzir
+demasiado açúcar. Quando isto acontece, o açúcar (glucose) do sangue aumenta. Isto pode originar
+problemas médicos graves como doença de coração, doença de rins, cegueira e amputação.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tesavel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tesavel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Tesavel
+- se tem alergia à sitagliptina ou a qualquer outro componente deste medicamento (indicados na
+secção 6).
+Advertências e precauções 
+Foram comunicados casos de inflamação do pâncreas (pancreatite) em doentes a tomar Tesavel (ver
+secção 4). 
+35
+Se tiver formação de bolhas na pele, pode ser um sinal de uma situação chamada penfigóide bolhoso.
+O seu médico pode pedir-lhe para parar de tomar Tesavel.
+Informe o seu médico se tem ou já teve: 
+- uma doença do pâncreas (tal como pancreatite)
+- cálculos biliares, dependência do álcool ou valores muito altos de triglicéridos (um tipo de
+gordura) no seu sangue. Estas situações médicas podem aumentar a sua probabilidade de ter
+pancreatite (ver secção 4).
+- diabetes tipo 1
+- cetoacidose diabética (uma complicação da diabetes caracterizada por elevados níveis de açúcar
+no sangue, rápida perda de peso, náuseas ou vómitos)
+- quaisquer problemas de rins atuais ou passados
+- uma reação alérgica ao Tesavel (ver secção 4)
+É pouco provável que este medicamento cause níveis baixos de açúcar no sangue porque não atua
+quando o nível de açúcar no sangue é baixo. No entanto, quando TESAVEL é usado em associação
+com uma sulfonilureia ou com insulina, podem ocorrer níveis baixos de açúcar no sangue
+(hipoglicemia).
+O seu médico pode reduzir a dose da sua sulfonilureia ou insulina.
+Crianças e adolescentes
+Crianças e adolescentes com idade inferior a 18 anos não devem utilizar este medicamento. Não é
+eficaz em crianças e adolescentes com idades entre os 10 e os 17 anos. Não se sabe se este
+medicamento é seguro e eficaz quando utilizado em crianças com menos de 10 anos.
+Outros medicamentos e Tesavel 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a
+tomar outros medicamentos.
+Em particular, informe o seu médico se está a tomar digoxina (um medicamento utilizado no
+tratamento dos batimentos cardíacos irregulares e outros problemas de coração). Os valores de
+digoxina no sangue podem ter de ser verificados se estiver a tomar Tesavel.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico
+ou farmacêutico antes de tomar este medicamento.
+Não deve tomar este medicamento durante a gravidez.
+Não se sabe se este medicamento passa para o leite materno. Não deve tomar este medicamento se
+estiver a amamentar ou planear amamentar.
+Condução de veículos e utilização de máquinas
+Os efeitos deste medicamento sobre a capacidade de conduzir e utilizar máquinas são nulos ou
+desprezáveis. No entanto, foram comunicadas tonturas e sonolência, que podem afetar a sua
+capacidade para conduzir e utilizar máquinas.
+A administração deste medicamento em associação com medicamentos denominados sulfonilureias ou
+com insulina pode provocar hipoglicemia, podendo afetar a sua capacidade de conduzir e utilizar
+máquinas ou trabalhar sem uma base de apoio seguro.
+Tesavel contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja é
+praticamente “isento de sódio".
+36</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tesavel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tesavel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou
+farmacêutico se tiver dúvidas.
+A dose habitual recomendada é:
+- um comprimido revestido por película de 100 mg
+- uma vez por dia
+- por via oral
+Se tem problemas nos rins, o seu médico pode receitar-lhe doses mais baixas (tais como 25 mg ou
+50 mg).
+Pode tomar este medicamento com ou sem alimentos e bebidas.
+O seu médico poderá receitar-lhe este medicamento em monoterapia ou com outros medicamentos que
+baixam o açúcar no sangue.
+A dieta e o exercício físico podem ajudar o seu organismo a usar melhor o açúcar do sangue. É
+importante que faça uma dieta continuada e exercício físico recomendado pelo seu médico enquanto
+tomar Tesavel.
+Se tomar mais Tesavel do que deveria
+Se tomar este medicamento mais do que o receitado, contacte o seu médico imediatamente.
+Caso se tenha esquecido de tomar Tesavel
+Se se esquecer de uma dose, tome-a assim que se lembrar. Se não se lembrar até à altura de tomar a
+próxima dose, esqueça a dose que não tomou e retome o esquema habitual. Não tome uma dose a
+dobrar deste medicamento.
+Se parar de tomar Tesavel
+Continue a tomar este medicamento durante o tempo indicado pelo seu médico, para que possa
+continuar a ajudar a controlar o seu açúcar no sangue. Não deve parar de tomar este medicamento sem
+falar com o seu médico primeiro.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não
+se manifestem em todas as pessoas.
+PARE de tomar Tesavel e contacte um médico imediatamente se sentir algum dos seguintes efeitos
+indesejáveis graves:</p>
+<ul>
+<li>Dor grave e persistente no abdómen (área do estômago) que pode atingir as suas costas com ou
+sem náuseas e vómitos, uma vez que estes podem ser sinais de pâncreas inflamado (pancreatite).
+Se tiver uma reação alérgica grave (frequência desconhecida), incluindo erupção na pele, urticária,
+bolhas na pele/descamação da pele e inchaço da face, lábios, língua e garganta, podendo causar
+dificuldade em respirar ou engolir, pare de tomar este medicamento e contacte o seu médico
+imediatamente. O seu médico pode receitar-lhe um medicamento para tratar a reação alérgica e um
+medicamento diferente para a diabetes.
+37
+Alguns doentes apresentaram os seguintes efeitos indesejáveis após a adição da sitagliptina à
+metformina:
+Frequentes (podem afetar até 1 em 10 pessoas): açúcar baixo no sangue, náuseas, gases intestinais,
+vómitos
+Pouco frequentes (podem afetar até 1 em 100 pessoas): dor no estômago, diarreia, prisão de ventre,
+sonolência
+Alguns doentes apresentaram diferentes tipos de mal-estar no estômago quando iniciaram a associação
+de sitagliptina e metformina (frequência comum).
+Alguns doentes apresentaram os seguintes efeitos indesejáveis enquanto tomavam sitagliptina em
+associação com uma sulfonilureia e metformina:
+Muito frequentes (podem afetar mais do que 1 em 10 pessoas): açúcar baixo no sangue
+Frequentes: prisão de ventre
+Alguns doentes apresentaram os seguintes efeitos indesejáveis enquanto tomavam sitagliptina e
+pioglitazona:
+Frequentes: gases intestinais (flatulência), inchaço das mãos ou das pernas
+Alguns doentes apresentaram os seguintes efeitos indesejáveis enquanto tomavam sitagliptina em
+associação com pioglitazona e metformina:
+Frequentes: inchaço das mãos ou das pernas
+Alguns doentes apresentaram os seguintes efeitos indesejáveis enquanto tomavam sitagliptina em
+associação com insulina (com ou sem metformina):
+Frequentes: gripe
+Pouco frequentes: boca seca
+Alguns doentes apresentaram os seguintes efeitos indesejáveis enquanto tomavam sitagliptina
+isoladamente em estudos clínicos ou durante a utilização pós-aprovação isoladamente e/ou com outros
+medicamentos para a diabetes:
+Frequentes: açúcar baixo no sangue, dor de cabeça, infeção das vias respiratórias superiores, irritação
+ou corrimento nasal e garganta irritada, osteoartrite, dor nos braços ou pernas
+Pouco frequentes: tonturas, prisão de ventre, comichão
+Rara: número reduzido de plaquetas
+Frequência desconhecida: problemas renais (por vezes a necessitar de diálise), vómitos, dor nas
+articulações, dor muscular, dor nas costas, doença intersticial dos pulmões, penfigóide bolhoso (um
+tipo de bolhas na pele)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
+medicamento.</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tesavel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tesavel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior
+após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+Conservar a temperatura inferior a 25 °C.
+38
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tesavel
+- A substância ativa é a sitagliptina:
+o 
+Cada comprimido revestido por película (comprimido) de Tesavel 25 mg contém fosfato de
+sitagliptina mono-hidratado, equivalente a 25 mg de sitagliptina.
+o 
+Cada comprimido revestido por película (comprimido) de Tesavel 50 mg contém fosfato de
+sitagliptina mono-hidratado, equivalente a 50 mg de sitagliptina.
+o 
+Cada comprimido revestido por película (comprimido) de Tesavel 100 mg contém fosfato
+de sitagliptina mono-hidratado, equivalente a 100 mg de sitagliptina.
+- Os outros componentes são:
+o 
+Núcleo do comprimido: celulose microcristalina (E460), hidrogenofosfato de cálcio anidro
+(E341), croscarmelose sódica (E468), estearato de magnésio (E470b), fumarato sódico de
+estearilo e galhato de propilo.
+o 
+Revestimento do comprimido: álcool polivinílico, macrogol 3350, talco (E553b), dióxido de
+titânio (E171), óxido de ferro vermelho (E172) e óxido de ferro amarelo (E172).
+Qual o aspeto de Tesavel e conteúdo da embalagem
+- Tesavel 25 mg comprimidos revestidos por película são comprimidos revestidos por película
+redondos, de cor rosa, com “221" numa face.
+- Tesavel 50 mg comprimidos revestidos por película são comprimidos revestidos por película
+redondos, de cor bege claro, com “112" numa face.
+- Tesavel 100 mg comprimidos revestidos por película são comprimidos revestidos por película
+redondos, de cor bege, com “277" numa face.
+Blisters opacos (PVC/PE/PVDC e alumínio). Embalagens de 14, 28, 30, 56, 84, 90 ou 98 comprimidos
+revestidos por película e de 50 x 1 comprimidos revestidos por película em blisters destacáveis para
+dose unitária.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado e Fabricante
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Países Baixos
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular
+da Autorização de Introdução no Mercado:
+Belgique/België/Belgien
+MSD Belgium
+Tél/Tel: +32 (0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel.: +370 5 278 02 47
+msd_lietuva@merck.com
+39
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél: +32 (0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +36 1 888 53 00
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: +45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel.: 0800 9999000 (+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel: +372 6144 200
+msdeesti@merck.com 
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Eλλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: + 30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Almirall, S.A.
+Tel: +34 93 291 30 00
+info.spain@almirall.com
+Polska
+MSD Polska Sp. z o.o.
+Tel.: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 66 11 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: + 4021 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila
+d.o.o. 
+Tel: + 386 1 5204 201
+msd_slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel.: +421 2 58282010
+dpoc_czechslovak@merck.com
+40
+Ιtalia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0) 9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ: 80000 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: +371 67364 224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human
+Health) Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Este folheto foi revisto pela última vez em {MM/AAAA}.
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+
+
+
 
 
                     
@@ -818,6 +1235,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-118afad7684b14db488523a58f186d8f"
 * entry[0].resource = composition-da-118afad7684b14db488523a58f186d8f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp118afad7684b14db488523a58f186d8f"
+* entry[=].resource = mp118afad7684b14db488523a58f186d8f
+                            
+                    
+Instance: bundlepackageleaflet-pt-118afad7684b14db488523a58f186d8f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tesavel Package Leaflet for language pt"
+Description: "ePI document Bundle for tesavel Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-118afad7684b14db488523a58f186d8f"
+* entry[0].resource = composition-pt-118afad7684b14db488523a58f186d8f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp118afad7684b14db488523a58f186d8f"
@@ -919,6 +1358,18 @@ RuleSet: 118afad7684b14db488523a58f186d8fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-118afad7684b14db488523a58f186d8f) // tesavel pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

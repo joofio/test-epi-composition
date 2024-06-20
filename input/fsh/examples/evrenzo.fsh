@@ -817,6 +817,431 @@ hjemmeside http://www.ema.europa.eu.  </p>         </div>"""
 
 
 
+Instance: composition-pt-83e919009d254ffa32b4c1748bcfba15
+InstanceOf: CompositionUvEpi
+Title: "Composition for evrenzo Package Leaflet"
+Description:  "Composition for evrenzo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp83e919009d254ffa32b4c1748bcfba15)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - evrenzo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Evrenzo e para que é utilizado 
+2. O que precisa de saber antes de tomar Evrenzo 
+3. Como tomar Evrenzo 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Evrenzo 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é evrenzo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é evrenzo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Evrenzo 
+Evrenzo é um medicamento que aumenta o número de glóbulos vermelhos e o nível de hemoglobina 
+no sangue. Contém a substância ativa roxadustate. </p>
+<p>Para que é utilizado Evrenzo 
+Evrenzo é utilizado no tratamento de doentes adultos com anemia sintomática associada a doença renal 
+crónica. A anemia ocorre quando um indivíduo tem glóbulos vermelhos insuficientes e o nível de 
+hemoglobina é demasiado baixo. Como consequência, o corpo pode não obter oxigénio suficiente. A 
+anemia pode causar sintomas como fadiga, fraqueza ou dispneia. </p>
+<p>Como Evrenzo funciona 
+Roxadustate, a substância ativa de Evrenzo, leva ao aumento do nível do HIF, uma substância no 
+corpo que aumenta a produção de glóbulos vermelhos quando os níveis de oxigénio estão baixos. Ao 
+aumentar os níveis do HIF, o medicamento aumenta a produção de glóbulos vermelhos e aumenta os 
+níveis de hemoglobina (a proteína que transporta o oxigénio nos glóbulos vermelhos). Isto melhora o 
+fornecimento de oxigénio no corpo e pode reduzir os sintomas da anemia. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar evrenzo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar evrenzo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Evrenzo 
+- se tem alergia aos amendoins ou soja, não utilize este medicamento. Evrenzo contém lecitina de 
+soja. 
+- se tem alergia a roxadustate ou qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se está grávida há mais de 6 meses. (também é preferível evitar este medicamento no período 
+inicial da gravidez - ver secção sobre a gravidez). 
+- se está a amamentar. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Evrenzo: </p>
+<ul>
+<li>se tem epilepsia ou já tiver tido convulsões ou ataques. </li>
+<li>se tem sinais e sintomas de uma infeção, o que pode incluir febre, sudorese ou arrepios, dor de 
+garganta, nariz com corrimento, dispneia, sensação de fraqueza, confusão mental, tosse, vómito, 
+diarreia ou dor de estômago, sensação de ardor ao urinar, pele vermelha ou dorida, ou 
+ulcerações no corpo. </li>
+<li>se tem uma doença do fígado. </li>
+</ul>
+<p>A doença renal crónica e a anemia podem aumentar o risco de eventos cardiovasculares e morte. A 
+gestão da sua anemia é importante. O seu médico irá monitorizar a sua hemoglobina e também ter em 
+consideração o seu regime de tratamento, uma vez que o tratamento da anemia e a mudança entre 
+tratamentos da anemia pode também ter um impacto negativo na sua saúde cardiovascular. </p>
+<p>Fale com o seu médico ou farmacêutico imediatamente: 
+- se tiver coágulos sanguíneos: 
+- nas veias das pernas (trombose venosa profunda ou TVP), cujos sinais podem ser dor e/ou 
+tumefação das pernas, cãibras ou sensação de calor na perna afetada; 
+- nos pulmões (embolia pulmonar ou EP), cujos sinais podem ser dispneia súbita, dor 
+torácica (que agrava tipicamente ao respirar), sensação de ansiedade, tonturas, 
+atordoamento ou desmaio, aceleração cardíaca, tosse (às vezes com sangue); 
+- no seu meio de acesso para hemodiálise (trombose do acesso vascular ou TAV), o que 
+impede o funcionamento do acesso vascular; cujos sinais podem ser tumefação, rubor, 
+endurecimento ou espessamento da pele em redor do acesso, secreções no local de acesso, 
+não sentir uma vibração sobre a área de acesso; 
+- se tem uma convulsão ou possíveis sinais de aviso de que uma convulsão pode ocorrer, tais 
+como cefaleia, irritabilidade, medo, confusão mental ou sensações estranhas; 
+- se tem sinais e sintomas de uma infeção, o que inclui febre, sudorese ou arrepios, dor de 
+garganta, nariz com corrimento, dispneia, sensação de fraqueza ou de desmaio, confusão mental, 
+tosse, vómito, diarreia ou dor de estômago, ardor ao urinar, pele vermelha ou dorida, ou 
+ulcerações no corpo. </p>
+<p>Uma utilização incorreta pode resultar no aumento do número de células no sangue e tornar o sangue 
+mais espesso. Isto pode causar problemas potencialmente fatais no coração ou vasos sanguíneos. </p>
+<p>Crianças e adolescentes 
+Não dê Evrenzo a crianças e adolescentes com menos de 18 anos de idade, uma vez que não existem 
+informações sobre a utilização do medicamento nesta faixa etária. </p>
+<p>Outros medicamentos e Evrenzo 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Evrenzo pode afetar a ação desses medicamentos, ou esses medicamentos 
+podem afetar a ação de Evrenzo. </p>
+<p>Especificamente, informe o seu médico ou farmacêutico se tiver tomado ou estiver a tomar qualquer 
+um dos seguintes medicamentos: 
+- medicamentos que reduzem as concentrações de fosfato no sangue (chamados captadores de 
+fosfato) ou outros medicamentos ou suplementos que contenham cálcio, ferro, magnésio ou 
+alumínio (chamados catiões multivalentes), tais como o carbonato de sevelâmero ou acetato de 
+cálcio. É necessário tomar Evrenzo pelo menos 1 hora depois destes medicamentos ou 
+suplementos. Caso contrário, roxadustate não será absorvido corretamente pelo corpo. 
+- um medicamento para tratamento da gota, chamado probenecid. 
+- medicamentos utilizados para baixar o colesterol, tais como sinvastatina, atorvastatina ou 
+rosuvastatina (também chamados "estatinas") ou gemfibrozil. 
+- outros medicamentos utilizados para tratar a anemia, tais como agentes estimuladores da 
+eritropoiese (ESA). </p>
+<p>Se toma normalmente qualquer um destes medicamentos, o seu médico poderá decidir substituí-los e 
+prescrever um medicamento diferente para tomar durante o tratamento com Evrenzo. </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida, se pensa estar grávida ou planeia engravidar, contacte o seu médico. 
+Evrenzo pode ser nocivo para o feto. Evrenzo não é recomendado durante os primeiros 6 meses de 
+gravidez e não pode ser tomado durante os últimos 3 meses de gravidez. As mulheres que tomem 
+Evrenzo e tenham o potencial para engravidar têm de utilizar um método contracetivo eficaz durante o 
+tratamento com Evrenzo e pelo menos uma semana após a última dose de Evrenzo. Se utilizar um 
+contracetivo hormonal, também deverá utilizar um método de barreira, tais como o preservativo ou 
+diafragma. </p>
+<p>Não amamente se estiver a receber tratamento com Evrenzo. Desconhece-se se Evrenzo passa para o 
+leite materno e pode ser nocivo para o bebé.  </p>
+<p>Condução de veículos e utilização de máquinas 
+Este medicamento pode afetar a capacidade de conduzir ou utilizar máquinas. Podem ocorrer 
+convulsões como efeito indesejável (ver secção 4).   </p>
+<p>Evrenzo contém lactose, vestígios de lecitina de soja e laca de alumínio Allura Red AC<br />
+Evrenzo contém açúcar (lactose), vestígios de amendoim e de soja (lecitina de soja) e um agente 
+corante do grupo Azo (laca de alumínio Allura Red AC). Se tiver sido informado pelo seu médico que 
+tem intolerância a alguns açúcares ou alergia a amendoins, à soja ou a agentes corantes do grupo azo, 
+contacte o seu médico antes de tomar este medicamento.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar evrenzo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar evrenzo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>O seu médico irá dizer-lhe que dose de Evrenzo deve tomar. </p>
+<p>O seu médico irá verificar os seus níveis de hemoglobina regularmente e aumentar ou diminuir a dose 
+com base nos níveis de hemoglobina. 
+Evrenzo é tomado por via oral, na forma de comprimidos. </p>
+<p>Tomar Evrenzo 
+- Tome a sua dose de Evrenzo três vezes por semana, salvo indicação em contrário do seu médico 
+- Nunca tome Evrenzo em dias consecutivos 
+- Tome Evrenzo nos mesmos três dias todas as semanas 
+- Evrenzo pode ser tomado à refeição ou entre refeições 
+- Engula os comprimidos inteiros 
+- Não mastigue, parta ou esmague os comprimidos </p>
+<p>Tome Evrenzo pelo menos 1 hora depois de tomar medicamentos que reduzem as concentrações de 
+fosfato no sangue (chamados captadores de fosfato) ou outros medicamentos ou suplementos que 
+contenham cálcio, ferro, magnésio ou alumínio (chamados catiões multivalentes).  </p>
+<p>Calendário de dosagem 
+Calendário de dosagem 3 vezes por semana 
+Evrenzo é fornecido num blister com medicamento suficiente para 4 semanas (12 comprimidos), 
+dividido em 4 filas. Cada fila contém medicamento suficiente para 1 semana (3 comprimidos). 
+Certifique-se de que toma os comprimidos da mesma fila durante cada semana. </p>
+<p>O intervalo de dose situa-se entre 20 mg três vezes por semana e uma dose máxima de 400 mg três 
+vezes por semana. </p>
+<p>Frequências de dosagem diferentes 
+Em casos excecionais (com bases nos níveis de hemoglobina), o seu médico pode decidir diminuir a 
+dose de Evrenzo para 20 mg duas vezes ou uma vez por semana. Neste caso, o seu médico irá explicar-
+lhe a que dias da semana tem de tomar a dose. </p>
+<p>Mais de 1 comprimido necessário para uma dose 
+Na maioria dos casos, terá 1 blister por mês. Se a sua dose exigir mais de 1 blister, terá de tomar um 
+comprimido de cada blister por dia de dosagem. O seu médico irá explicar-lhe quando e quantos 
+comprimidos tomar. </p>
+<p>O seu médico irá monitorizar o seu nível de hemoglobina e poderá interromper o tratamento 
+temporariamente se o nível de hemoglobina ficar demasiado alto. Não reinicie o tratamento até ter 
+indicação do seu médico para tal. O seu médico irá informá-lo sobre a dose de Evrenzo que deve tomar 
+e quando pode voltar a tomar este medicamento.  </p>
+<p>Se tomar mais Evrenzo do que deveria 
+Se tomar mais comprimidos ou uma dose maior do que deveria, contacte o seu médico imediatamente. </p>
+<p>Caso se tenha esquecido de tomar Evrenzo 
+− 
+Nunca tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. 
+− 
+Se faltarem mais de 24 horas (1 dia) até à próxima dose agendada, tome a dose em falta assim 
+que possível e tome a dose seguinte no próximo dia agendado. 
+− 
+Se faltarem menos de 24 horas (1 dia) até à próxima dose agendada: salte a dose em falta e tome 
+a dose seguinte no próximo dia agendado. </p>
+<p>Se parar de tomar Evrenzo 
+Não pare de tomar este medicamento sem indicação por parte do seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. 
+Alguns dos possíveis efeitos indesejáveis podem ser graves. Contacte o seu médico 
+imediatamente se tiver algum dos seguintes: 
+- coágulo sanguíneo nas veias das pernas (trombose venosa profunda ou TVP) (pode afetar 
+até 1 em 10 pessoas). 
+- coágulo sanguíneo nos pulmões (embolia pulmonar) (pode afetar até 1 em 100 pessoas). </p>
+<ul>
+<li>coágulo sanguíneo no seu meio de acesso da hemodiálise (trombose do acesso vascular ou 
+TAV) que causa o encerramento ou não funcionamento do acesso vascular se estiver a utilizar 
+uma fístula ou enxerto como meio de acesso de diálise (pode afetar mais de 1 em 10 pessoas). </li>
+<li>convulsões e sinais de aviso de convulsões (pode afetar até 1 em 10 pessoas). </li>
+<li>sepsis, uma infeção grave e, em alguns casos, potencialmente fatal (pode afetar 
+até 1 em 10 pessoas). </li>
+<li>rubor e descamação da pele numa zona maior do corpo, a qual pode causar comichão ou dor 
+(dermatite exfoliativa) (a frequência não pode ser calculada a partir dos dados disponíveis) </li>
+</ul>
+<p>Outros efeitos indesejáveis possíveis </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- nível aumentado de potássio 
+- tensão arterial alta (hipertensão) 
+- sensação de enjoo (náuseas) 
+- diarreia 
+- inchaço devido a retenção de líquidos nas extremidades (edema periférico) </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): 
+- dificuldade em dormir (insónia) 
+- dor de cabeça 
+- vómitos 
+- prisão de ventre </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) 
+- nível aumentado de bilirrubina no sangue </p>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- função tiroideia diminuída </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis. não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar evrenzo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar evrenzo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem e no blister após EXP.          <br />
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Evrenzo 
+Evrenzo 20 mg: 
+- A substância ativa é roxadustate. Cada comprimido contém 20 mg de roxadustate </p>
+<p>Evrenzo 50 mg: 
+- A substância ativa é roxadustate. Cada comprimido contém 50 mg de roxadustate. </p>
+<p>Evrenzo 70 mg: 
+- A substância ativa é roxadustate. Cada comprimido contém 70 mg de roxadustate. </p>
+<p>Evrenzo 100 mg: 
+- A substância ativa é roxadustate. Cada comprimido contém 100 mg de roxadustate. </p>
+<p>Evrenzo 150 mg: 
+- A substância ativa é roxadustate. Cada comprimido contém 150 mg de roxadustate. </p>
+<p>Os outros componentes são: 
+- núcleo do comprimido: lactose mono-hidratada, celulose microcristalina (E460), croscarmelose 
+sódica (E468), povidona (E1201), estearato de magnésio (E470b). 
+- revestimento por película: álcool polivinílico (E1203), talco (E553b), macrogol (E1521), laca de 
+alumínio Allura Red AC (E129), dióxido de titânio (E171), lecitina (soja) (E322). </p>
+<p>Qual o aspeto de Evrenzo e conteúdo da embalagem 
+Evrenzo 20 mg são comprimidos revestidos por película vermelhos, ovais, com o número "20" em 
+relevo num dos lados. 
+Evrenzo 50 mg são comprimidos revestidos por película vermelhos, ovais, com o número "50" em 
+relevo num dos lados. 
+Evrenzo 70 mg são comprimidos revestidos por película vermelhos, redondos, com o número "70" em 
+relevo num dos lados. 
+Evrenzo 100 mg são comprimidos revestidos por película vermelhos, ovais, com o número "100" em 
+relevo num dos lados. 
+Evrenzo 150 mg são comprimidos revestidos por película vermelhos, em forma de amêndoa, com o 
+número "150" em relevo num dos lados. </p>
+<p>Evrenzo está disponível em blisters destacáveis para dose unitária em PVC/alumínio em embalagens 
+contendo 12 x 1 comprimidos revestidos por película e 36 x 1 comprimidos revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações.  </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Astellas Pharma Europe B.V. 
+Sylviusweg 2333 BE Leiden 
+Países Baixos </p>
+<p>Fabricante 
+Delpharm Meppel B.V. 
+Hogemaat 2 
+7942 JG Meppel 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Astellas Pharma B.V. Branch 
+Tél/Tel: +32 (0)2 5580 
+Lietuva 
+Astellas Pharma d.o.o. 
+Tel.: +370 37 408  </p>
+<p>България 
+Астелас Фарма ЕООД 
+Teл.: +359 2 862 53<br />
+Luxembourg/Luxemburg 
+Astellas Pharma B.V. Branch 
+Belgique/Belgien 
+Tél/Tel: +32 (0)2 5580 
+Česká republika 
+Astellas Pharma s.r.o. 
+Tel: +420 221 401<br />
+Magyarország 
+Astellas Pharma Kft. 
+Tel.: +36 1 577 8 
+Danmark 
+Astellas Pharma a/s 
+Tlf: +45 43 430 
+Malta 
+Astellas Pharmaceuticals AEBE 
+Tel: +30 210 8189900<br />
+Deutschland 
+Astellas Pharma GmbH 
+Tel.: +49 (0)89 454 
+Nederland 
+Astellas Pharma B.V. 
+Tel: +31 (0)71 5455 
+Eesti 
+Astellas Pharma d.o.o. 
+Tel: +372 6 056<br />
+Norge 
+Astellas Pharma 
+Tlf: +47 66 76 46<br />
+Ελλάδα 
+Astellas Pharmaceuticals AEBE 
+Τηλ: +30 210 8189 
+Österreich 
+Astellas Pharma Ges.m.b.H. 
+Tel.: +43 (0)1 8772 
+España 
+Astellas Pharma S.A. 
+Tel: +34 91 4952 
+Polska 
+Astellas Pharma Sp.z.o.o. 
+Tel.: +48 225451 France 
+Astellas Pharma S.A.S. 
+Tél: +33 (0)1 55917 
+Portugal 
+Astellas Farma, Lda. 
+Tel: +351 21 4401Hrvatska 
+Astellas d.o.o. 
+Tel: +385 1670 0 
+România 
+S.C. Astellas Pharma SRL 
+Tel: +40 (0)21 361 04<br />
+Ireland 
+Astellas Pharma Co. Ltd. 
+Tel: +353 (0)1 4671 
+Slovenija 
+Astellas Pharma d.o.o. 
+Tel: +386 14011 
+Ísland 
+Vistor hf 
+Sími: +354 535 7 
+Slovenská republika 
+Astellas Pharma s.r.o. 
+Tel: +421 2 4444 2 
+Italia 
+Astellas Pharma S.p.A. 
+Tel: +39 (0)2 921 
+Suomi/Finland 
+Astellas Pharma 
+Puh/Tel: +358 (0)9 85606Κύπρος 
+Ελλάδα 
+Astellas Pharmaceuticals AEBE 
+Τηλ: +30 210 8189 
+Sverige 
+Astellas Pharma AB 
+Tel: +46 (0)40-650 15  </p>
+<p>Latvija 
+Astellas Pharma d.o.o. 
+Tel: +371 67 619United Kingdom (Northern Ireland) 
+Astellas Pharma Co., Limited 
+Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5 </p>
+<p>Este folheto foi revisto pela última vez em MM/AAAA  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -858,6 +1283,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-83e919009d254ffa32b4c1748bcfba15"
 * entry[0].resource = composition-da-83e919009d254ffa32b4c1748bcfba15
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp83e919009d254ffa32b4c1748bcfba15"
+* entry[=].resource = mp83e919009d254ffa32b4c1748bcfba15
+                            
+                    
+Instance: bundlepackageleaflet-pt-83e919009d254ffa32b4c1748bcfba15
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for evrenzo Package Leaflet for language pt"
+Description: "ePI document Bundle for evrenzo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-83e919009d254ffa32b4c1748bcfba15"
+* entry[0].resource = composition-pt-83e919009d254ffa32b4c1748bcfba15
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp83e919009d254ffa32b4c1748bcfba15"
@@ -959,6 +1406,18 @@ RuleSet: 83e919009d254ffa32b4c1748bcfba15ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-83e919009d254ffa32b4c1748bcfba15) // evrenzo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

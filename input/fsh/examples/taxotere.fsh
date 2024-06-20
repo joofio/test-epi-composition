@@ -1061,6 +1061,605 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>       
 
 
 
+Instance: composition-pt-ba2de541591622fcd614de6be8043458
+InstanceOf: CompositionUvEpi
+Title: "Composition for taxotere Package Leaflet"
+Description:  "Composition for taxotere Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpba2de541591622fcd614de6be8043458)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - taxotere"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é TAXOTERE e para que é utilizado 
+2. O que precisa de saber antes de utilizar TAXOTERE 
+3. Como utilizar TAXOTERE 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar TAXOTERE 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é taxotere e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é taxotere e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O nome deste medicamento é TAXOTERE. A sua denominação comum é docetaxel. O docetaxel é 
+uma substância derivada das agulhas das árvores do teixo. 
+O docetaxel pertence ao grupo de medicamentos contra o cancro chamados taxoides. </p>
+<p>O TAXOTERE foi prescrito pelo seu médico para o tratamento do cancro da mama, de certas formas 
+do cancro do pulmão (cancro do pulmão de células não-pequenas), do cancro da próstata, cancro 
+gástrico ou cancro de cabeça e pescoço: 
+- Para o tratamento do cancro da mama avançado, o TAXOTERE pode ser administrado 
+isoladamente ou em associação com doxorrubicina, trastuzumab ou capecitabina. 
+- Para o tratamento do cancro da mama em fase inicial com ou sem envolvimento de gânglios 
+linfáticos, o TAXOTERE pode ser administrado em associação com doxorrubicina e 
+ciclofosfamida. 
+- Para o tratamento do cancro do pulmão, o TAXOTERE pode ser administrado isoladamente ou 
+em associação com cisplatina. 
+- Para o tratamento do cancro da próstata, o TAXOTERE é administrado em associação com 
+prednisona ou prednisolona. 
+- Para o tratamento do cancro gástrico metastizado, o TAXOTERE é administrado em associação 
+com a cisplatina e o 5-fluorouracilo. 
+. 
+Para o tratamento do cancro de cabeça e pescoço, o TAXOTERE é administrado em 
+combinação com cisplatina e 5-fluorouracilo. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar taxotere"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar taxotere"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe podem administrar o TAXOTERE: </p>
+<ul>
+<li>
+<p>se é alérgico (hipersensível) ao docetaxel ou a qualquer um dos outros constituintes do 
+TAXOTERE (indicados na secção 6). </p>
+</li>
+<li>
+<p>se o número de glóbulos brancos é demasiado baixo. </p>
+</li>
+<li>
+<p>se tiver uma doença hepática grave. </p>
+</li>
+</ul>
+<p>Advertências e precauções<br />
+Antes de cada tratamento com TAXOTERE irá fazer análises ao sangue para verificar se tem células 
+sanguíneas (glóbulos) suficientes e se a função hepática está suficientemente bem para receber o 
+TAXOTERE. No caso de alterações dos glóbulos brancos, pode ter febre ou infeções associadas. </p>
+<p>Informe o seu médico, farmacêutico hospitalar, ou enfermeiro imediatamente se tiver dor ou 
+sensibilidade abdominal, diarreia, hemorragia retal, sangue nas fezes ou febre. Estes sintomas podem 
+ser os primeiros sinais de uma toxicidade gastrointestinal grave, que pode ser fatal. O seu médico deve 
+resolve-los imediatamente. </p>
+<p>Informe o seu médico, farmacêutico hospitalar ou enfermeiro se tiver problemas de visão. Em caso de 
+problemas de visão, especialmente visão turva, deve ir imediatamente examinar os seus olhos e visão. </p>
+<p>Informe o seu médico, farmacêutico hospitalar ou enfermeiro se tem problemas de coração. </p>
+<p>Informe o seu médico, farmacêutico hospitalar ou enfermeiro se já teve, anteriormente, alguma reação 
+alérgica ao tratamento com paclitaxel. </p>
+<p>No caso de os seus problemas pulmonares se agravarem ou se tornarem agudos (febre, falta de ar ou 
+tosse), por favor informe o seu médico, farmacêutico hospitalar ou enfermeiro imediatamente. O seu 
+médico pode interromper o seu tratamento imediatamente. </p>
+<p>Vai-lhe ser pedido para tomar uma pré-medicação que consiste dum corticosteroide oral tal como 
+dexametasona, um dia antes da administração do TAXOTERE, e para continuar durante mais um ou 
+dois dias a fim de minimizar certos efeitos indesejáveis que podem ocorrer após a perfusão de 
+TAXOTERE, particularmente reações alérgicas e retenção de líquidos (inchaço das mãos, pés e pernas 
+ou aumento de peso). </p>
+<p>Durante o tratamento, podem administrar-lhe outros medicamentos para manter o número de glóbulos 
+no sangue.  </p>
+<p>Foram notificados problemas graves de pele, como Síndrome de Stevens-Johnson (SJS), Necrólise 
+Epidérmica Tóxica (NET), Pustulose Exantemática Generalizada Aguda (PEGA) com TAXOTERE: 
+- Os sintomas de SJS/NET podem incluir bolhas, descamação ou sangramento em qualquer 
+parte da pele (incluindo os lábios, olhos, boca, nariz, órgãos genitais, mãos ou pés) com ou 
+sem erupção cutânea. Também pode ter ao mesmo tempo sintomas semelhantes aos da gripe, 
+como febre, calafrios ou dores musculares. 
+- Os sintomas de PEGA podem incluir uma erupção cutânea avermelhada, extensa e escamosa 
+com altos sob a pele inchada (incluindo as dobras da pele, tronco e extremidades superiores) e 
+bolhas acompanhadas de febre. 
+Se desenvolver reações cutâneas graves ou qualquer uma das reações listadas acima, entre 
+imediatamente em contato com seu médico ou profissional de saúde. </p>
+<p>Informe o seu médico, farmacêutico hospitalar ou enfermeiro se tiver problemas renais ou níveis 
+elevados de ácido úrico no sangue antes de iniciar o tratamento com TAXOTERE. </p>
+<p>O TAXOTERE contém álcool. Aconselhe-se com o seu médico se sofre de dependência do álcool, 
+epilepsia ou de afeção hepática. Ver também a secção “TAXOTERE contém etanol (álcool)" mais 
+abaixo. </p>
+<p>Outros medicamentos e TAXOTERE  </p>
+<p>Informe por favor o seu médico ou farmacêutico hospitalar se estiver a tomar ou tiver tomado 
+recentemente qualquer outro medicamento, incluindo medicamentos que adquiriu sem receita. Esta 
+advertência deve-se ao facto de o TAXOTERE ou o outro medicamento poderem não ter um efeito tão 
+bom quanto o esperado, ou poderem torná-lo mais suscetível à ocorrência de efeitos indesejáveis.<br />
+A quantidade de álcool neste medicamento pode alterar os efeitos de outros medicamentos. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Consulte o seu médico antes de tomar qualquer medicamento. </p>
+<p>O TAXOTERE NÃO deve ser administrado se estiver grávida a menos que tal seja claramente 
+indicado pelo seu médico. </p>
+<p>Não deve engravidar durante o tratamento e durante 2 meses após o fim do tratamento com este 
+medicamento. Terá de utilizar um método de contraceção eficaz durante o tratamento e durante 2 meses 
+após o fim do tratamento, porque o TAXOTERE pode ser prejudicial para o feto. Se engravidar durante 
+o seu tratamento, informe imediatamente o seu médico.  </p>
+<p>Não pode amamentar enquanto estiver a fazer tratamento com TAXOTERE. </p>
+<p>Se você é um homem sujeito a tratamento com o TAXOTERE, não pode conceber uma criança e tem 
+de utilizar um método contracetivo eficaz durante o tratamento e durante 4 meses após o fim do 
+tratamento com este medicamento. Recomenda-se que procure informação sobre a conservação do seu 
+esperma antes de iniciar o tratamento, dado que o docetaxel pode alterar a fertilidade masculina.   </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>A quantidade de álcool neste medicamento pode afetar a sua capacidade de conduzir ou de utilizar 
+máquinas. 
+Este medicamento pode provocar efeitos indesejáveis que podem prejudicar a sua capacidade de 
+conduzir, usar ferramentas ou utilizar máquinas (ver seção 4 Efeitos indesejáveis possíveis). Se isso 
+acontecer, não conduza ou utilize ferramentas ou máquinas antes de discutir com seu médico, enfermeiro 
+ou farmacêutico hospitalar. </p>
+<p>TAXOTERE contém etanol (álcool).<br />
+Este medicamento contém 13% (p/p) em etanol 95% v/v (álcool), i.e. até 252 mg de etanol a 95% v/v 
+por frasco de solvente, equivalente a 6 ml de cerveja ou a 2,6 ml de vinho. </p>
+<p>É nocivo para indivíduos que sofram de alcoolismo. 
+Este facto deve ser tido em consideração no caso de mulheres grávidas ou a amamentar, crianças e 
+grupos de risco elevado, tais como doentes com comprometimento do fígado, ou com epilepsia. </p>
+<p>A quantidade de álcool neste medicamento poderá ter efeitos no sistema nervoso central (a parte do 
+sistema nervoso que inclui o cérebro e a medula espinal). </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar taxotere"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar taxotere"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O TAXOTERE ser-lhe-á administrado por um profissional de saúde. </p>
+<p>Doses usuais </p>
+<p>A dose vai depender do seu peso e da sua condição física. O seu médico vai calcular a sua área de 
+superfície corporal em metros quadrados (m²) e vai determinar a dose que lhe deve ser administrada. </p>
+<p>Modo e via de administração </p>
+<p>O TAXOTERE vai-lhe ser administrado por perfusão numa veia (utilização intravenosa). A perfusão 
+durará aproximadamente uma hora, durante a qual estará no hospital. </p>
+<p>Frequência de administração </p>
+<p>Deve normalmente receber uma perfusão de 3 em 3 semanas. </p>
+<p>O seu médico pode alterar a dose e a frequência da administração em função do resultado das suas 
+análises ao sangue, da sua condição física e da sua resposta ao TAXOTERE. Por favor informe o seu 
+médico no caso de diarreia, inflamações na boca, sensação de entorpecimento ou formigueiro ou febre 
+e forneça os resultados das suas análises ao sangue. Esta informação irá permitir decidir quanto à 
+necessidade ou não de redução da dose. Caso ainda tenha dúvidas sobre a utilização deste 
+medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.  </p>
+<p>O seu médico deverá discuti-los consigo e explicar-lhe os benefícios e os riscos potenciais do seu 
+tratamento. </p>
+<p>As reações adversas notificadas com maior frequência com TAXOTERE em monoterapia são: 
+diminuição do número de glóbulos vermelhos ou de glóbulos brancos, queda de cabelo, naúseas, 
+vómitos, inflamações na boca, diarreia e cansaço.  </p>
+<p>Se receber TAXOTERE em associação com outros agentes quimioterapêuticos, a intensidade das 
+reações adversas pode aumentar. </p>
+<p>Durante a perfusão no hospital poderão ocorrer as seguintes reações alérgicas (podem afetar mais do 
+que 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>rubor, reações cutâneas, comichão </p>
+</li>
+<li>
+<p>aperto no peito, dificuldade em respirar </p>
+</li>
+<li>
+<p>febre ou arrepios </p>
+</li>
+<li>
+<p>dor nas costas </p>
+</li>
+<li>
+<p>diminuição da pressão arterial. 
+Podem ocorrer reações mais graves. 
+Se já teve uma reação alérgica ao paclitaxel poderá desenvolver também uma reação alérgica ao 
+docetaxel, que poderá ser mais grave. </p>
+</li>
+</ul>
+<p>Os técnicos de saúde hospitalares vão monitorizar cuidadosamente o seu estado durante o tratamento. 
+Informe o seu médico imediatamente se tiver qualquer um destes efeitos. </p>
+<p>Entre as perfusões de TAXOTERE podem ocorrer os seguintes efeitos, com frequência variável de 
+acordo com a associação de medicamentos que lhe forem administrados: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>infeções, diminuição do número de glóbulos vermelhos (anemia), ou de glóbulos brancos (que 
+são importantes no combate às infeções) e de plaquetas, </p>
+</li>
+<li>
+<p>febre: se observar um aumento da temperatura deve contactar o seu médico imediatamente </p>
+</li>
+<li>
+<p>reações alérgicas semelhantes às acima descritas </p>
+</li>
+<li>
+<p>diminuição de apetite (anorexia) </p>
+</li>
+<li>
+<p>insónia </p>
+</li>
+<li>
+<p>sensação de adormecimento ou formigueiro, ou dores nas articulações ou nos músculos, </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>alteração do paladar </p>
+</li>
+<li>
+<p>inflamação ocular ou aumento do lacrimejo </p>
+</li>
+<li>
+<p>inchaço causado por drenagem linfática insuficiente </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>corrimento nasal; inflamação do nariz e garganta; tosse </p>
+</li>
+<li>
+<p>sangramento do nariz </p>
+</li>
+<li>
+<p>inflamações na boca </p>
+</li>
+<li>
+<p>perturbações do estômago incluindo náuseas, vómitos e diarreia, prisão de ventre </p>
+</li>
+<li>
+<p>dor abdominal </p>
+</li>
+<li>
+<p>enfartamento </p>
+</li>
+<li>
+<p>queda de cabelo:  na maioria dos casos o cabelo deve voltar a crescer normalmente. Foram 
+observados alguns casos de queda de cabelo permanente (frequência desconhecida). </p>
+</li>
+<li>
+<p>vermelhidão e inchaço da palma das mãos e da planta dos pés, que pode provocar a descamação 
+da pele (também poderá ocorrer nos braços, face, ou no corpo) </p>
+</li>
+<li>
+<p>alteração na cor das unhas, que podem soltar-se </p>
+</li>
+<li>
+<p>dores e cãibras musculares; dores ósseas ou dores nas costas </p>
+</li>
+<li>
+<p>alteração ou ausência do período menstrual </p>
+</li>
+<li>
+<p>inchaço das mãos, pés, pernas </p>
+</li>
+<li>
+<p>cansaço; ou sintomas idênticos aos de uma gripe </p>
+</li>
+<li>
+<p>aumento ou diminuição de peso </p>
+</li>
+<li>
+<p>infeção do trato respiratório superior  </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>candidíase oral </p>
+</li>
+<li>
+<p>desidratação </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>alterações da audição </p>
+</li>
+<li>
+<p>diminuição da pressão arterial; pulsação irregular ou rápida </p>
+</li>
+<li>
+<p>insuficiência cardíaca </p>
+</li>
+<li>
+<p>esofagite </p>
+</li>
+<li>
+<p>boca seca </p>
+</li>
+<li>
+<p>dificuldade ou dor ao engolir </p>
+</li>
+<li>
+<p>hemorragia </p>
+</li>
+<li>
+<p>aumento dos enzimas hepáticos (daí a necessidade de análises regulares ao sangue) </p>
+</li>
+<li>
+<p>aumento dos níveis de açucar no sangue (diabetes) </p>
+</li>
+<li>
+<p>diminuição do potássio, cálcio e/ou fosfato no sangue  </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas): </p>
+<ul>
+<li>
+<p>desmaio </p>
+</li>
+<li>
+<p>reação cutânea, flebite (inflamação da veia) ou inchaço no local de injeção </p>
+</li>
+<li>
+<p>coágulos sanguíneos </p>
+</li>
+<li>
+<p>leucemia mielóide aguda e síndrome mielodisplásica (tipos de cancro do sangue) podem ocorrer 
+em        doentes tratados com docetaxel juntamente com outros tratamentos anticancerígenos. </p>
+</li>
+</ul>
+<p>Raros (pode afetar até 1 em 1.000 pessoas) </p>
+<ul>
+<li>inflamação do cólon, intestino delgado, que pode ser fatal (frequência desconhecida); perfuração 
+intestinal </li>
+</ul>
+<p>Desconhecido (não pode ser calculado a partir dos dados disponíveis): </p>
+<ul>
+<li>
+<p>doença pulmonar intersticial (inflamação dos pulmões provocando tosse e dificuldade em 
+respirar. A inflamação dos pulmões pode ser desencadeada quando a terapêutica com docetaxel 
+é usada com radioterapia) </p>
+</li>
+<li>
+<p>pneumonia (infeção dos pulmões) </p>
+</li>
+<li>
+<p>fibrose pulmonar (cicatrização e espessamento dos pulmões provocando falta de ar) </p>
+</li>
+<li>
+<p>visão turva devido ao inchaço da retina no interior do olho (edema macular cistóide) </p>
+</li>
+<li>
+<p>diminuição do sódio e/ou magnésio no sangue (distúrbios do equilíbrio eletrolítico). </p>
+</li>
+<li>
+<p>arritmia ventricular ou taquicardia ventricular (manifesta-se por batimentos cardíacos 
+irregulares e/ou rápidos, falta de ar, tonturas e/ou desmaios). Alguns destes sintomas podem ser 
+bastante graves. Se tiver algum destes sintomas, fale com o seu médico o mais rápido possível </p>
+</li>
+<li>
+<p>reacção cutânea de reaparecimento no mesmo local de uma reação anterior </p>
+</li>
+<li>
+<p>linfoma não-Hodgkin (cancro que afeta o sistema imunológico) e outros tipos de cancro podem 
+ocorrer em doentes tratados com docetaxel juntamente com outros tratamentos 
+anticancerígenos. </p>
+</li>
+<li>
+<p>Sindrome de Stevens-Johnson (SSJ) e Necrólise Epidérmica Tóxica (NET) (bolhas, descamação 
+ou sangramento em qualquer parte da pele (incluindo lábios, olhos, boca, nariz, órgãos genitais, 
+mãos ou pés) com ou sem erupção cutânea. Também pode apresentar, ao mesmo tempo, sintomas 
+semelhantes aos da gripe, como febre, calafrios ou dores musculares.) </p>
+</li>
+<li>
+<p>Pustulose Exantemática Generalizada Aguda (PEGA) (erupção cutânea avermelhada, 
+generalizada e escamosa, com altos sob a pele inchada (incluindo as dobras da pele, tronco e 
+extremidades superiores) e bolhas acompanhadas de febre). </p>
+</li>
+<li>
+<p>A síndrome de lise tumoral é uma condição grave revelada por alterações em análises ao 
+sangue, como o aumento do nível de ácido úrico, do potássio, do fósforo e a diminuição do 
+nível de cálcio; e resulta em sintomas como convulsões, insuficiência renal (quantidade 
+reduzida ou escurecimento da urina) e distúrbio do ritmo cardíaco. Se isso acontecer, deve 
+informar o seu médico imediatamente. </p>
+</li>
+<li>
+<p>Miosite (inflamação dos músculos - quente, vermelho e inchado - que produz dor e fraqueza 
+muscular) </p>
+</li>
+</ul>
+<p>Notificação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico hospitalar ou enfermeiro. Pode também notificar efeitos 
+indesejáveis diretamente através do sistema de notificação nacional listado no Apêndice V. Ao 
+notificar efeitos indesejáveis está a ajudar a providênciar mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar taxotere"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar taxotere"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na cartonagem, na embalagem alveolar 
+e frascos. </p>
+<p>Não conservar acima de 25ºC ou abaixo de 2ºC. 
+Conservar na embalagem de origem de forma a proteger da luz. </p>
+<p>A solução de pré-mistura deve ser utilizada de imediato após a preparação; no entanto, foi 
+demonstrada a estabilidade química e física da solução de pré-mistura durante um período de 8 horas 
+quando conservada entre 2°C e 8ºC ou à temperatura ambiente (abaixo dos 25ºC). </p>
+<p>A solução para perfusão deve ser usada dentro de 4 horas à temperatura ambiente (abaixo dos 25ºC). </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição do frasco de concentrado de TAXOTERE 
+- A substância ativa é o docetaxel (como tri-hidrato). Cada ml de solução de docetaxel contém mg de docetaxel (anidro). Cada frasco para injetáveis contém 20 mg/0,5 ml de docetaxel.<br />
+- Os outros componentes são o polissorbato 80 e o ácido cítrico. </p>
+<p>Qual a composição do frasco de solvente 
+13% (p/p) etanol 95% (ver secção 2) em água para preparações injetáveis. </p>
+<p>Qual o aspeto de TAXOTERE e conteúdo da embalagem 
+TAXOTERE 20 mg/0,5 ml concentrado para solução para perfusão é uma solução viscosa 
+transparente amarela ou amarela-acastanhada. </p>
+<p>Cada embalagem alveolar contém: </p>
+<ul>
+<li>
+<p>um frasco para injetáveis unidose de TAXOTERE concentrado e, </p>
+</li>
+<li>
+<p>um frasco para injetáveis unidose de solvente. </p>
+</li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado 
+Sanofi Winthrop Industrie 
+82 Avenue Raspail 
+94250 Gentilly 
+França </p>
+<p>Fabricantes 
+Sanofi-Aventis Deutschland GmbH 
+Industriepark Höchst 
+65926 Frankfurt am Main 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado. </p>
+<p>België /Belgique/Belgien 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Magyarország 
+sanofi-aventis zrt., Magyarország 
+Tel: +36 1 505 0 
+Česká republika 
+Sanofi s.r.o. 
+Tel: +420 233 086<br />
+Malta 
+sanofi S.r.l. 
+Tel: + 39.02 39394 </p>
+<p>Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4000  </p>
+<p>Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 - 0 </p>
+<p>Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE 
+Τηλ: +30 210 900 16<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel: +48 22 280 00<br />
+España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda. 
+Tel: +351 21 35 89  </p>
+<p>France 
+Sanofi Winthrop Industrie 
+Tél-: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+România 
+Sanofi Romania SRL<br />
+Tel: +40 (0) 21 317 31<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33 <br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Italia 
+sanofi S.r.l. 
+Tel: +39.800.536 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 
+Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47  </p>
+<p>Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91  </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1102,6 +1701,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-ba2de541591622fcd614de6be8043458"
 * entry[0].resource = composition-da-ba2de541591622fcd614de6be8043458
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpba2de541591622fcd614de6be8043458"
+* entry[=].resource = mpba2de541591622fcd614de6be8043458
+                            
+                    
+Instance: bundlepackageleaflet-pt-ba2de541591622fcd614de6be8043458
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for taxotere Package Leaflet for language pt"
+Description: "ePI document Bundle for taxotere Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-ba2de541591622fcd614de6be8043458"
+* entry[0].resource = composition-pt-ba2de541591622fcd614de6be8043458
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpba2de541591622fcd614de6be8043458"
@@ -1203,6 +1824,18 @@ RuleSet: ba2de541591622fcd614de6be8043458ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-ba2de541591622fcd614de6be8043458) // taxotere pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

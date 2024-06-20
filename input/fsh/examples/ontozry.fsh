@@ -641,6 +641,305 @@ under forudsætning af, at de foreslåede ændringer indføres i produktinformat
 
 
 
+Instance: composition-pt-fca2b0949c2af4853c1cd5b425813585
+InstanceOf: CompositionUvEpi
+Title: "Composition for ontozry Package Leaflet"
+Description:  "Composition for ontozry Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfca2b0949c2af4853c1cd5b425813585)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ontozry"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Ontozry e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Ontozry  </li>
+<li>Como tomar Ontozry  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Ontozry  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ontozry e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ontozry e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ontozry contém a substância ativa cenobamato. Pertence a um grupo de medicamentos chamados 
+“antiepilépticos". Estes medicamentos são utilizados para tratar a epilepsia, uma doença em que 
+alguém tem convulsões ou crises por causa de atividade considerada anómala no cérebro.  </p>
+<p>Ontozry é utilizado em combinação com outros medicamentos antiepilépticos em doentes adultos com 
+epilepsia que não está controlada de forma adequada, apesar de um historial de tratamento com pelo 
+menos dois medicamentos antiepilépticos. Convulsões de início focal são aquelas causadas por 
+atividade cerebral anómala que começa numa parte de um dos lados do cérebro, e generalização 
+secundária significa que a atividade anómala se está a espalhar para ambos os lados do cérebro. O 
+medicamento apenas pode ser utilizado em adultos.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ontozry"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ontozry"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Ontozry  </p>
+<ul>
+<li>se tem alergia ao cenobamato ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).  </li>
+<li>se nasceu com problemas cardíacos, com alterações na atividade elétrica do coração 
+relacionadas com uma doença rara chamada síndrome de QT curto familiar. </li>
+</ul>
+<p>Advertências e precauções  </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Ontozry ou durante o tratamento se:<br />
+- tem pensamentos em se agredir ou se suicidar. Algumas pessoas a serem tratadas com 
+medicamentos antiepilépticos, tais como Ontozry, tiveram pensamentos de autoagressão ou 
+suicídio. Se tiver estes pensamentos em qualquer altura, contacte imediatamente o seu médico. 
+- tiver uma reação na pele grave que pode incluir temperatura alta e outros sintomas semelhantes 
+a gripe, erupção cutânea no rosto, erupção cutânea espalhada por outras partes do corpo, 
+inchaço dos gânglios (nódulos) linfáticos; e análises ao sangue que mostram aumento dos níveis 
+de enzimas do fígadoe de um tipo de glóbulo branco (eosinofilia). </p>
+<p>Crianças e adolescentes </p>
+<p>Ontozry não é recomendada em crianças e adolescentes com menos de 18 anos, pois não foi 
+investigado neste grupo. </p>
+<p>Outros medicamentos e Ontozry  </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. 
+Tomar Ontozry com outros determinados medicamentos pode afetar a forma como os outros 
+medicamentos funcionam ou afetar como Ontozry funciona. Não inicie ou pare outros medicamentos 
+sem falar com o seu médico ou farmacêutico. </p>
+<p>Informe o seu médico se estiver a tomar algum dos seguintes medicamentos, pois a sua dose pode ter 
+de ser ajustada: 
+- medicamentos usados para  ajudar a adormecer, como barbitúricos e benzodiazepinas. 
+- outros medicamentos para tratar a epilepsia, tais como clobazam, fenitoína e fenobarbital, 
+lamotrigina, carbamazepina, ácido valpróico, lacosamida, levetiracetam ou oxcarbazepina. 
+- medicamentos anticoncepcionais (contracetivos orais) uma vez que estes podem ser menos 
+eficazes quando combinados com Ontozry. O seu médico pode prescrever métodos alternativos 
+para evitar a gravidez enquanto toma este medicamento e até 4 semanas após ter deixado de 
+tomar este medicamento. 
+- medicamentos conhecidos por serem transformados no corpo por grupos específicos de 
+enzimas, como midazolam (um medicamento utilizado para parar crises convulsivas 
+prolongadas agudas (súbitas) para sedação e problemas de sono), bupropiom (um medicamento 
+utilizado para ajudar a deixar de fumar), omeprazol (um medicamento usado para tratar a azia 
+ou úlcera do estômago), baricitinib (um medicamento utilizado para tratar a inflamação das 
+articulações ou eczemas da pele), cefaclor (um antibiótico), empagliflozina (um medicamento 
+utilizado para tratar os elevados níveis de glicose na diabetes), penicilina G (um antibiótico), 
+ritobegrom (um medicamento utilizado para tratar a bexiga hiperativa), sitagliptina (um 
+medicamento utilizado para controlar os elevados níveis de glicose na diabetes). </p>
+<p>Ontozry com álcool  </p>
+<p>Não tome este medicamento com álcool. Ontozry pode aumentar os efeitos do álcool, tais como sentir 
+cansaço ou sonolência, e não deve beber álcool com este medicamento. </p>
+<p>Gravidez e amamentação  </p>
+<p>Se está grávida ou a amamentar, pensa estar grávida ou planeia engravidar, consulte o seu médico ou 
+farmacêutico antes de tomar este medicamento. 
+Tome Ontozry durante a gravidez ou a amamentação somente se, em conjunto com o seu médico, 
+decidirem que é absolutamente necessário. Tem de utilizar contraceção eficaz durante a utilização de 
+cenobamato e até 4 semanas após deixar de tomar o medicamento. Peça aconselhamento ao seu 
+médico em relação a métodos eficazes de contraceção. 
+Deve deixar de amamentar enquanto estiver a tomar Ontozry. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<ul>
+<li>Pode sentir sonolência, tonturas ou cansaço, e a sua visão pode ficar reduzida enquanto estiver a 
+tomar Ontozry.  </li>
+<li>Estes efeitos são mais prováveis no início do tratamento ou após a sua dose ser aumentada.  </li>
+<li>Não conduza, ande de bicicleta ou utilize quaisquer ferramentas ou máquinas se as suas reações 
+estiverem reduzidas e até saber como o medicamento o afeta a si. </li>
+</ul>
+<p>Ontozry contém lactose </p>
+<p>Se foi informado pelo seu médico que tem intolerância a alguns açúcares, consulte o seu médico antes 
+de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ontozry"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ontozry"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Irá tomar Ontozry com outros medicamentos para tratar a epilepsia. </p>
+<p>A dose recomendada<br />
+Irá começar Ontozry com uma dose diária de um comprimido de 12,5 mg durante as primeiras 
+2 semanas, seguido de um comprimido de 25 mg uma vez por dia nas 2 semanas seguintes. De 
+seguida, a sua dose será ajustada gradualmente a cada 2 semanas até atingir a dose que funciona 
+melhor. O seu médico irá elaborar a dose certa para si e pode precisar de a ajustar ao longo do tempo. 
+A dose diária recomendada está entre os 200 mg e os 400 mg uma vez por dia. </p>
+<p>Método de utilização 
+Tome a dose recomendada uma vez por dia,  aproximadamente à mesma hora. Pode tomar Ontozry a 
+qualquer hora tanto de dia como de noite, com alimentos ou entre as refeições.  </p>
+<p>Engula os comprimidos inteiros com um copo de água. Não parta os comprimidos ao meio porque 
+estes comprimidos não são adequados para divisão em duas partes iguais.  </p>
+<p>Se tomar mais Ontozry do que deveria </p>
+<p>Fale com o seu médico. Pode sentir tonturas, cansaço e sono.  </p>
+<p>Caso se tenha esquecido de tomar Ontozry </p>
+<p>Tome a dose esquecida assim que se lembrar, se se tiverem passado menos de 12 horas da hora a que a 
+devia ter tomado. Se já passaram mais de 12 horas, salte a dose esquecida e tome a próxima dose no 
+horário habitual. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Ontozry </p>
+<p>Não reduza a dose ou pare de tomar Ontozry sem confirmar com o seu médico. O seu médico irá 
+explicar-lhe como parar de tomar Ontozry reduzindo gradualmente a dose a tomar.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Contacte o seu médico imediatamente se ocorrer qualquer um dos seguintes efeitos secundários 
+graves:<br />
+Efeitos indesejáveis raros (podem afetar até 1 em cada 1.000 pessoas): 
+- uma reação na pele grave que pode incluir febre e outros sintomas semelhantes a gripe, uma 
+irritação no rosto, erupção cutânea espalhada por outras partes do corpo e inchaço dos gânglios 
+(nódulos) linfáticos. Análises ao sangue podem apresentar níveis aumentados de enzimas do 
+fígado e de um tipo de glóbulo branco (eosinofilia). </p>
+<p>Pode ter os seguintes efeitos secundários adicionais com este medicamento. Informe o médico se tiver 
+algum dos seguintes: 
+Efeitos indesejáveis muito frequentes (podem afetar mais do que 1 em 10 pessoas):<br />
+- sensação de sono (sonolência), sedação ou muito cansaço (fadiga) 
+- sensação de tontura 
+- sensação de vertigem 
+- ter problemas com a coordenação dos movimentos, ter problemas a andar ou a manter o 
+equilíbrio (ataxia, perturbações da marcha, coordenação anómala) 
+- dor de cabeça </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas):<br />
+- memória reduzida, confusão 
+- excitabilidade 
+- ter dificuldade ao dizer palavras ou dificuldade em falar 
+- movimentos rápidos e incontroláveis dos olhos (nistagmo), visão desfocada, visão dupla 
+- náuseas (sentir-se doente), vómitos, prisão de ventre ou diarreia 
+- boca seca 
+- erupção na pele, comichão 
+- inchaço das pálpebras, inchaço nos membros<br />
+- análises ao sangue que mostram aumentos de níveis de determinadas enzimas do fígado </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- reações alérgicas<br />
+- pensamentos de autoagressão ou suicídio. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, neste folheto, fale com o seu médico, farmacêutico ou 
+enfermeiro. Também poderá comunicar efeitos indesejáveis diretamente através do sistema nacional 
+de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a 
+fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ontozry"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ontozry"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na cartonagem e no blister após 
+VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de quaisquer precauções especiais de conservação.  </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ontozry  </p>
+<ul>
+<li>A substância ativa é o cenobamato. 
+Um comprimido de Ontozry 12,5 mg contém 12,5 mg de cenobamato. 
+Um comprimido revestido por película de Ontozry 25 mg contém 25 mg de cenobamato. 
+Um comprimido revestido por película de 50 mg contém 50 mg cenobamato. 
+Um comprimido revestido por película de 100 mg contém 100 mg de cenobamato. 
+Um comprimido revestido por película de 150 mg contém 150 mg cenobamato. 
+Um comprimido revestido por película de 200 mg contém 200 mg de cenobamato. </li>
+<li>Os outros componentes são celulose microcristalina (E460), lactose mono-hidratada, amido 
+glicolato de sódio, sílica coloidal anidra (E551), estearato de magnésio (E470b) </li>
+</ul>
+<p>25 mg e 100 mg comprimidos revestido por película: laca de alumínio índigo carmim (E132), 
+óxido de ferro vermelho (E172), óxido de ferro amarelo (E172), polietileno glicol 3350, álcool 
+polivinílico parcialmente hidrolisado (E1203), talco (E553b), dióxido de titânio (E171) </p>
+<p>50 mg comprimidos revestido por película: óxido de ferro amarelo (E172), polietilenoglicol 
+3350, álcool polivinílico parcialmente hidrolisado (E1203), talco, dióxido de titânio (E171) </p>
+<p>150 mg e 200 mg comprimidos revestidos por película: óxido de ferro vermelho (E172), óxido 
+de ferro amarelo (E172), polietileno glicol 3350, álcool polivinílico parcialmente hidrolisado 
+(E1203), talco (E553b), dióxido de titânio (E171) </p>
+<p>Qual o aspeto de Ontozry e conteúdo da embalagem </p>
+<p>Ontozry 12,5 mg são comprimidos redondos brancos a esbranquiçados revestidos com AV num lado e 
+“12" no outro lado.<br />
+Ontozry 25 mg são comprimidos revestidos por película redondos, castanhos com AV num lado e 
+“25" no outro lado. 
+Ontozry 50 mg são comprimidos revestidos por película redondos, amarelos com AV num lado e “50" 
+no outro lado. 
+Ontozry 100 mg são comprimidos revestidos por película redondos, castanhos com AV num lado e 
+“100" no outro lado. 
+Ontozry 150 mg são comprimidos revestidos por película redondos, laranja claro com AV num lado e 
+“150" no outro lado.<br />
+Ontozry 200 mg são comprimidos revestidos por película são ovais,  laranja claro com AV num lado e 
+“200" no outro lado.  </p>
+<p>A embalagem de iniciação de tratamento Ontozry contém 14 comprimidos de 12,5 mg e 
+14 comprimidos revestidos por película de 25 mg.  </p>
+<p>Ontozry 50 mg, 100 mg, 150 mg e 200 mg comprimidos revestidos por película estão disponíveis em 
+embalagens de 14, 28 ou 84 comprimidos.  </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado  </p>
+<p>Angelini Pharma S.p.A 
+Viale Amelia 70, 00Roma - Itália </p>
+<p>Fabricante </p>
+<p>Swiss Caps GmbH 
+Grassingerstrasse 9 
+83043 Bad Aibling 
+Alemanha </p>
+<p>Aziende Chimiche Riunite Angelini Francesco ACRAF SPA 
+Via Vecchia del Pinocchio, 22 60Ancona (AN), Itália </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -682,6 +981,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-fca2b0949c2af4853c1cd5b425813585"
 * entry[0].resource = composition-da-fca2b0949c2af4853c1cd5b425813585
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfca2b0949c2af4853c1cd5b425813585"
+* entry[=].resource = mpfca2b0949c2af4853c1cd5b425813585
+                            
+                    
+Instance: bundlepackageleaflet-pt-fca2b0949c2af4853c1cd5b425813585
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ontozry Package Leaflet for language pt"
+Description: "ePI document Bundle for ontozry Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-fca2b0949c2af4853c1cd5b425813585"
+* entry[0].resource = composition-pt-fca2b0949c2af4853c1cd5b425813585
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpfca2b0949c2af4853c1cd5b425813585"
@@ -783,6 +1104,18 @@ RuleSet: fca2b0949c2af4853c1cd5b425813585ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-fca2b0949c2af4853c1cd5b425813585) // ontozry pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

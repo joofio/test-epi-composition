@@ -1387,6 +1387,727 @@ og om, hvordan de behandles. </p>         </div>"""
 
 
 
+Instance: composition-pt-7f2ab73e6ec5569c0d6e8f4a6e01c023
+InstanceOf: CompositionUvEpi
+Title: "Composition for tasigna Package Leaflet"
+Description:  "Composition for tasigna Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7f2ab73e6ec5569c0d6e8f4a6e01c023)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tasigna"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Tasigna e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Tasigna </li>
+<li>Como tomar Tasigna </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Tasigna </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tasigna e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tasigna e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Tasigna 
+Tasigna é um medicamento contendo uma substância ativa chamada nilotinib. </p>
+<p>Para que é utilizado Tasigna 
+Tasigna é usado para tratar um tipo de leucemia chamada leucemia mieloide crónica positiva para o 
+cromossoma Filadélfia (LMC Ph-positiva). A LMC é um tipo de cancro no sangue que leva a que o 
+organismo produza demasiados glóbulos brancos anormais. </p>
+<p>Tasigna é usado em doentes adultos e pediátricos com LMC recém-diagnosticada ou em doentes com 
+LMC que já não estejam a beneficiar do tratamento anterior, incluindo imatinib. É também usado em 
+doentes adultos e pediátricos que experienciem efeitos secundários graves com o tratamento anterior e 
+que não seja possível continuarem com ele. </p>
+<p>Como atua Tasigna 
+Em doentes com LMC, uma alteração do DNA (material genético) desencadeia um sinal que leva o 
+organismo a produzir glóbulos brancos anormais. Tasigna bloqueia este sinal, parando assim a 
+produção destas células. </p>
+<p>Monitorização durante o tratamento com Tasigna 
+Serão-lhe efetuados testes regulares, incluindo testes sanguíneos, durante o tratamento. Estes testes 
+irão monitorizar. 
+- a quantidade de células sanguíneas (glóbulos brancos, glóbulos vermelhos e plaquetas) no 
+organismo para ver como Tasigna está a ser tolerado. 
+- a função hepática e a função pancreática no organismo para ver como Tasigna está a ser 
+tolerado. 
+- os eletrólitos no organismo (potássio, magnésio). Estes são importantes para o funcionamento 
+do seu coração. 
+- o nível de açúcar e gorduras no sangue. 
+A frequência cardíaca irá também ser verificada através de um aparelho que mede a atividade elétrica 
+do coração (um exame chamado “ECG"). </p>
+<p>O seu médico irá avaliar regularmente o seu tratamento e decidir se deve continuar a tomar Tasigna. 
+Se lhe disserem para suspender este medicamento, o seu médico irá continuar a monitorizar a LMC e 
+pode dizer-lhe que tem de recomeçar a tomar Tasigna se a sua condição de saúde indicar que isso é 
+necessário. </p>
+<p>Se tiver quaisquer questões sobre o modo como Tasigna atua ou porque lhe foi prescrito ou à sua 
+criança, fale com o seu médico. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tasigna"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tasigna"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Siga todas as instruções do seu médico cuidadosamente. Elas podem diferir da informação geral 
+contida neste folheto. </p>
+<p>Não tome Tasigna 
+- se tem alergia ao nilotinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+Se pensa que pode ser alérgico, informe o seu médico antes de tomar Tasigna. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Tasigna: 
+- se tiver sofrido acontecimentos cardiovasculares anteriormente, tais como um ataque cardíaco, 
+dor no peito (angina), problemas na irrigação de sangue ao cérebro (acidente vascular cerebral) 
+ou problemas com a irrigação de sangue para as pernas (claudicação), ou se tiver fatores de 
+risco para doenças cardiovasculares, tais como pressão arterial elevada (hipertensão), diabetes 
+ou problemas com o nível de gorduras no sangue (dislipidemias). 
+- se tiver uma perturbação cardíaca, tal como uma anomalia do sinal elétrico chamada 
+“prolongamento do intervalo QT". 
+- se estiver a ser tratado com medicamentos que baixem o colesterol no seu sangue (estatinas), 
+afetem o batimento cardíaco (antiarrítmicos) ou o fígado (ver Outros medicamentos e 
+Tasigna). 
+- se tiver falta de potássio ou de magnésio. 
+- se tem uma doença do fígado ou pâncreas. 
+- se tiver sintomas tais como facilidade em fazer hematomas, sensação de cansaço ou falta de ar 
+ou se teve infeções repetidas. 
+- se teve uma intervenção cirúrgica que envolveu a remoção da totalidade do estômago 
+(gastrectomia total). 
+- se alguma vez teve ou possa ter uma infeção pelo vírus da Hepatite B. Tasigna pode fazer com 
+que a Hepatite B volte a ficar ativa, o que pode levar à morte em alguns casos. Os doentes 
+devem ser avaliados cuidadosamente pelo médico para identificar sinais desta infeção antes de 
+iniciarem o tratamento. 
+Se qualquer destas situações se aplica a si ou à sua criança, fale com o seu médico. </p>
+<p>Durante o tratamento com Tasigna 
+- se desmaiar (perda de consciência) ou tiver um batimento cardíaco irregular enquanto estiver a 
+tomar este medicamento, informe o seu médico imediatamente uma vez que pode ser um sinal 
+de doença grave do coração. O prolongamento do intervalo QT ou um batimento cardíaco 
+irregular pode levar a morte súbita. Foram notificados casos pouco frequentes de morte súbita 
+em doentes a tomar Tasigna. 
+- se tiver palpitações cardíacas súbitas, fraqueza ou paralisia muscular graves, convulsões ou 
+alterações súbitas no seu pensamento ou nível de alerta, informe o seu médico imediatamente 
+pois estes podem ser sinais de um rápido colapso das células cancerígenas, chamado síndrome 
+de lise tumoral. Foram notificados casos raros de síndroma de lise tumoral em doentes tratados 
+com Tasigna. 
+- se sentir dor no peito ou desconforto, dormência ou fraqueza, problemas a andar ou a falar, dor, 
+descoloração ou uma sensação de frio num membro, fale com o seu médico imediatamente, 
+pois pode ser um sinal de um acontecimento cardiovascular. Foram notificados acontecimentos 
+cardiovasculares graves, incluindo problemas com o fluxo sanguíneo para a perna (doença 
+arterial oclusiva periférica), doença isquémica do coração e problemas com a irrigação do 
+sangue ao cérebro (acidente vascular cerebral isquémico) em doentes a tomar Tasigna. O seu 
+médico deve avaliar o nível de gorduras (lípidos) e açúcar no sangue antes de iniciar o 
+tratamento com Tasigna e durante o tratamento. 
+- se sentir inchaço dos pés ou mãos, inchaço generalizado ou aumento de peso rápido informe o 
+seu médico, pois estes podem ser sinais de retenção de líquidos grave. Foram notificados casos 
+pouco frequentes de retenção de líquidos grave em doentes tratados com Tasigna. 
+Se é pai de uma criança que está a ser tratada com Tasigna, informe o médico se alguma das situações 
+acima se aplicar ao seu filho. </p>
+<p>Crianças e adolescentes 
+Tasigna é um tratamento para crianças e adolescentes com LMC. Não existe experiência com a 
+utilização deste medicamento em crianças com menos de 2 anos de idade. Não existe experiência com 
+a utilização de Tasigna em crianças com menos de 10 anos de idade recém-diagnosticadas e 
+experiência limitada em doentes com menos de 6 anos de idade que já não estejam a beneficiar de 
+tratamentos anteriores para a LMC. </p>
+<p>Algumas crianças e adolescentes a tomar Tasigna podem ter um crescimento mais lento do que o 
+normal. O médico irá monitorizar o crescimento nas consultas regulares. </p>
+<p>Outros medicamentos e Tasigna 
+Tasigna pode interferir com outros medicamentos. </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Estes incluem em particular: 
+- antiarrítmicos - usados para tratar o batimento cardíaco irregular; 
+- cloroquina, halofantrina, claritromicina, haloperidol, metadona, moxifloxacina - medicamentos 
+que podem ter um efeito indesejado sobre a atividade elétrica cardíaca; 
+- cetoconazol, itraconazol, voriconazol, claritromicina, telitromicina - usados para tratar 
+infecções; 
+- ritonavir - um medicamento da classe “antiproteases" para tratar o VIH; 
+- carbamazepina, fenobarbital, fenitoína - usada para tratar a epilepsia; 
+- rifampicina - usada para tratar a tuberculose; 
+- hipericão - um produto de origem vegetal usado no tratamento da depressão e outras condições 
+(também conhecido como Hypericum perforatum); 
+- midazolam - usado para aliviar a ansiedade antes de uma cirurgia; 
+- alfentanil e fentanil - usados para tratar a dor e como sedativo antes ou durante uma cirurgia ou 
+procedimento médico; 
+- ciclosporina, sirolímus e tacrolímus - medicamentos que suprimem a capacidade de 
+“auto-defesa" e de combater as infeções do organismo e são vulgarmente usados para prevenir a 
+rejeição de órgãos transplantados tais como fígado, coração e rim; 
+- dihidroergotamina e ergotamina - usadas para tratar a demência; 
+- lovastatina, sinvastatina - usadas para tratar os níveis altos de gordura no sangue; 
+- varfarina - usada para tratar problemas de coagulação sanguínea (tais como coágulos 
+sanguíneos ou tromboses); 
+- astemizole, terfenadina, cisaprida, pimozida, quinidina, bepridil, ou alcaloides ergot 
+(ergotamina, dihidroergotamina). </p>
+<p>Estes medicamentos devem ser evitados durante o seu tratamento com Tasigna. Se estiver a tomar 
+algum destes medicamentos, o seu medico poderá receitar-lhe outros medicamentos alternativos. </p>
+<p>Se estiver a tomar uma estatina (um tipo de medicamento para baixar o colesterol no seu sangue), fale 
+com o seu médico ou farmacêutico. Se usado com certas estatinas, Tasigna pode aumentar o risco de 
+problemas musculares relacionados com as estatinas, que em raras ocasiões podem levar a lesões 
+musculares graves (rabdomiólise), resultando em lesão renal. </p>
+<p>Além disso, antes de tomar Tasigna, informe o seu médico ou farmacêutico se estiver a tomar algum 
+antiácido, que são medicamentos contra a azia. Os seguintes medicamentos não devem ser tomados 
+juntamente com Tasigna; 
+- bloqueadores H2, que diminuem a produção de ácido no estômago. Os bloqueadores H2 devem 
+ser tomados aproximadamente 10 horas antes e aproximadamente 2 horas depois de tomar 
+Tasigna. 
+- antiácidos tais como os que contêm hidróxido de alumínio, hidróxido de magnésio e simeticone, 
+que neutralizam a acidez elevada no estômago. Estes antiácidos devem ser tomados 
+aproximadamente 2 horas antes ou aproximadamente 2 horas depois de tomar Tasigna. </p>
+<p>Deve também informar o seu médico se já estiver a tomar Tasigna e lhe for prescrito um novo 
+medicamento que não tenha tomado previamente durante o tratamento com Tasigna. </p>
+<p>Tasigna com alimentos e bebidas 
+Não tome Tasigna com alimentos. Os alimentos podem aumentar a absorção de Tasigna e, assim, 
+aumentar a quantidade de Tasigna no sangue, possívelmente até níveis prejudiciais. Não beba sumo de 
+toranja ou coma toranja. Isso pode aumentar a quantidade de Tasigna no sangue até um nível 
+possivelmente prejudicial. </p>
+<p>Gravidez e amamentação 
+- Tasigna não é recomendado durante a gravidez a não ser que seja claramente necessário. Se 
+está grávida ou pensa que pode estar, informe o seu médico que discutirá consigo se pode 
+continuar a tomar este medicamento durante a sua gravidez. 
+- Mulheres que possam engravidar devem usar métodos contracetivos altamente efetivos 
+durante o tratamento com Tasigna e até duas semanas após o final do tratamento. 
+- O aleitamento não é recomendado durante o tratamento com Tasigna e durante duas semanas 
+após a última dose. Informe o seu médico se estiver a amamentar. 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Se sentir efeitos secundários (tais como tonturas ou perturbações visuais) com um potencial impacto 
+na capacidade de conduzir ou usar quaisquer ferramentas ou máquinas com segurança após tomar este 
+medicamento, deve evitar estas atividades até que o efeito tenha desaparecido. </p>
+<p>Tasigna contém lactose 
+Este medicamento contém lactose, também conhecida como açúcar do leite. Se foi informado pelo seu 
+médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tasigna"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tasigna"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Que quantidade tomar de Tasigna </p>
+<p>Utilização em adultos 
+- Doentes com LMC recém-diagnosticada: A dose recomendada é de 600 mg por dia. Esta dose 
+obtém-se tomando duas cápsulas de 150 mg duas vezes por dia. 
+- Doentes que já não estejam a beneficiar de tratamento anterior para a LMC: A dose 
+recomendada é de 800 mg por dia. Esta dose obtém-se tomando duas cápsulas de 200 mg duas 
+vezes por dia. </p>
+<p>Utilização em crianças e adolescentes 
+- A dose a dar à sua criança irá depender da altura e peso da criança. O médico calculará a dose 
+correta a utilizar e dir-lhe-á quais e quantas cápsulas de Tasigna deve dar à sua criança. A dose 
+diária total a dar à sua criança não deve exceder 800 mg. </p>
+<p>O seu médico pode receitar uma dose mais baixa dependendo da forma como responde ao tratamento. </p>
+<p>Pessoas idosas (65 anos de idade e mais velhos) 
+Tasigna pode ser usado por pessoas com 65 anos de idade e mais velhos na mesma dose que para 
+outros adultos. </p>
+<p>Quando tomar Tasigna 
+Tome as cápsulas: 
+- duas vezes por dia (aproximadamente a cada 12 horas); 
+- pelo menos 2 horas após qualquer alimento; 
+- depois espere 1 hora antes de voltar a comer. 
+Se tiver questões sobre quando tomar este medicamento, fale com o seu médico ou farmacêutico. 
+Tomar Tasigna à mesma hora todos os dias ajuda-lo-á a lembrar-se de quando tomar as suas cápsulas. </p>
+<p>Como tomar Tasigna 
+- Engula as cápsulas inteiras com água. 
+- Não ingira alimentos juntamente com as cápsulas. 
+- Não abra as cápsulas, a não ser que não seja capaz de as engolir. Se tiver dificuldades em 
+engolir as cápsulas, pode dissolver o conteúdo de cada cápsula numa colher de chá com sumo 
+de maçã (puré de maçã) e tomar imediatamente. Não use mais do que uma colher de chá com 
+sumo de maçã por cada cápsula e não use nenhum alimento que não seja o sumo de maçã. </p>
+<p>Durante quanto tempo tomar Tasigna 
+Continue a tomar Tasigna todos os dias durante o tempo que o seu médico lhe indicar. Este é um 
+tratamento de longa duração. O seu médico irá monitorizar regularmente a sua condição e verificar 
+que o tratamento está a ter o efeito desejado. 
+O seu médico pode considerar a descontinuação do tratamento com Tasigna com base em critérios 
+específicos. 
+Se tiver questões sobre durante quanto tempo deve tomar Tasigna, fale com o seu médico. </p>
+<p>Se tomar mais Tasigna do que deveria 
+Se tomar mais Tasigna do que deveria, ou se outra pessoa acidentalmente tomar as suas cápsulas, 
+contacte imediatamente um médico ou um hospital para aconselhamento. Leve consigo a embalagem 
+das cápsulas e este folheto informativo. Poderá ser necessário tratamento médico. </p>
+<p>Caso se tenha esquecido de tomar Tasigna 
+Se se esquecer de uma dose, tome a sua próxima dose conforme previsto. Não tome uma dose a dobrar 
+para compensar a cápsula que se esqueceu de tomar. </p>
+<p>Se parar de tomar Tasigna 
+Não pare de tomar este medicamento a não ser que o seu médico lhe diga para o fazer. Parar de tomar 
+Tasigna sem recomendação do seu médico coloca-o em risco de agravar a sua doença o que pode ter 
+consequências fatais. Assegure-se de que fala com o seu médico, enfermeiro e/ou farmacêutico se 
+estiver a considerar parar de tomar Tasigna. </p>
+<p>Se o seu médico lhe recomendar a descontinuação de tratamento com Tasigna 
+O seu médico irá avaliar regularmente o seu tratamento com um teste de diagnóstico específico e 
+decidir se deve continuar a tomar este medicamento. Se lhe disserem para deixar de tomar Tasigna, o 
+seu médico irá continuar a monitorizar a LMC antes, durante e após a interrupção de Tasigna e pode 
+dizer-lhe que tem de recomeçar a tomar Tasigna se a sua condição indicar que é necessário. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. A maioria dos efeitos secundários são ligeiros a moderados e 
+geralmente irão desaparecer após alguns dias ou algumas semanas de tratamento. </p>
+<p>Alguns efeitos indesejáveis podem ser graves. 
+- sinais de dor musculosquelética: dor nas articulações e músculos 
+- sinais de perturbações cardíacas: dor no peito ou desconforto, tensão arterial elevada ou baixa, 
+ritmo cardíaco irregular (rápido ou lento), palpitações (sensação de batimento cardíaco rápido), 
+desmaios, coloração azul nos lábios, língua ou pele 
+- sinais de obstrução arterial: dor, desconforto, fraqueza ou cãibras nos músculos das pernas, que 
+podem ser resultado da diminuição do fluxo sanguíneo, úlceras nas pernas ou braços que 
+cicatrizam lentamente ou que não cicatrizam de todo, e mudanças visíveis de cor (azulado ou 
+palidez) ou temperatura (arrefecimento) da perna, do braço, ou dedos dos pés ou das mãos 
+afetados 
+- sinais de pouca atividade da glândula tiroide: ganho de peso, cansaço, perda de cabelo, fraqueza 
+muscular, sensação de frio 
+- sinais de muita atividade da glândula tiroide: batimentos cardíacos rápidos, olhos salientes, 
+perda de peso, inchaço na parte frontal do pescoço 
+- sinais de perturbações renais ou nas vias urinárias: sede, pele seca, irritabilidade, urina escura, 
+diminuição do volume de urina, dificuldade e dor ao urinar, sensação exagerada de necessidade 
+de urinar, sangue na urina, coloração anormal da urina 
+- sinais de níveis elevados de açúcar no sangue: sede excessiva, elevado volume de urina, 
+aumento do apetite com perda de peso, cansaço 
+- sinais de vertigem: tonturas ou sensação de andar à roda 
+- sinal de pancreatite: dor abdominal superior (média ou esquerda) grave 
+- sinais de perturbações na pele: inchaço vermelho doloroso, dor na pele, vermelhidão na pele, 
+descamação ou bolhas 
+- sinais de retenção de líquidos: aumento de peso rápido, inchaço das mãos, tornozelos, pés ou 
+face 
+- sinais de enxaqueca: dor de cabeça intensa, muitas vezes acompanhada de náuseas, vómitos e 
+sensibilidade à luz 
+- sinais de perturbações no sangue: febre, hematomas fáceis ou sangramento inexplicada, 
+infeções graves ou frequentes, fraqueza inexplicada 
+- sinais de coagulação numa veia: inchaço e dor numa parte do corpo 
+- sinais de perturbações do sistema nervoso: fraqueza ou paralisia dos membros ou da face, 
+dificuldade em falar, dores de cabeça graves, ver, sentir ou ouvir coisas que não existem, 
+alterações na visão, perda de consciência, confusão, desorientação, tremor, sensação de 
+formigueiro, dor ou dormência nos dedos das mãos e dos pés 
+- sinais de perturbações nos pulmões: dificuldade em respirar ou respiração dolorosa, tosse, pieira 
+com ou sem febre, inchaço dos pés ou pernas 
+- sinais de perturbações gastrointestinais: dor abdominal, náuseas, vómitos com sangue, fezes 
+negras ou com sangue, prisão de ventre, azia, refluxo do ácido do estômago, abdómen inchado 
+- sinais de doenças do fígado: pele e olhos amarelos, náuseas, perda de apetite, urina de cor 
+escura 
+- sinais de infeção do fígado: recorrência (reativação) da infeção pelo vírus da Hepatite B 
+- sinais de perturbações nos olhos: distúrbios da visão incluindo visão turva, visão dupla ou 
+perceção de clarões de luz, diminuição da nitidez ou perda de visão, sangue no olho, aumento 
+da sensibilidade dos olhos à luz, dor no olho, vermelhidão, comichão ou irritação, olho seco, 
+inchaço ou comichão nas pálpebras 
+- sinais de desequilíbrio eletrolítico: náuseas, falta de ar, batimento cardíaco irregular, urina turva, 
+cansaço e/ou desconforto nas articulações associado a alterações de exames sanguíneos (tais 
+como. níveis elevados de potássio, ácido úrico e fósforo e níveis baixos de cálcio) 
+Contacte imediatamente o seu médico se sentir algum dos efeitos mencionados acima. </p>
+<p>Alguns efeitos indesejáveis são muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- diarreia 
+- dores de cabeça 
+- falta de energia 
+- dor muscular 
+- comichão, erupção na pele 
+- náuseas 
+- prisão de ventre 
+- vómitos 
+- queda de cabelo 
+- dor nos membros, dor óssea e dor na coluna ao descontinuar o tratamento com Tasigna 
+- atraso no crescimento em crianças e adolescentes 
+- infeções do trato respiratório superior incluindo dor de garganta e corrimento nasal ou nariz 
+entupido, espirros 
+- nível baixo de células do sangue (glóbulos vermelhos, plaquetas) ou hemoglobina 
+- nível alto de lipase no sangue (função do pâncreas) 
+- nível alto de bilirrubina no sangue (função do fígado) 
+- nível alto de alanina aminotransferases (enzimas do fígado) </p>
+<p>Alguns efeitos indesejáveis são frequentes (podem afetar até 1 em 10 pessoas) 
+- pneumonia 
+- dor abdominal, desconforto gástrico após as refeições, flatulência, inchaço ou dilatação do 
+abdómen 
+- dor óssea, espasmos musculares 
+- dor (incluindo dor no pescoço) 
+- pele seca, acne, diminuição da sensibilidade da pele 
+- diminuição ou aumento de peso 
+- insónia, depressão, ansiedade 
+- suores noturnos, suar excessivamente 
+- sensação geral de mal-estar 
+- sangramento do nariz 
+- sinais de gota: articulações doridas e inchadas 
+- incapacidade de atingir ou manter uma ereção 
+- sintomas tipo-gripe 
+- dor de garganta 
+- bronquite 
+- dor de ouvidos, ouvir ruídos (p. ex. zumbidos) que não são de origem externa (também 
+chamados acufenos) 
+- hemorroidas 
+- períodos menstruais intensos 
+- comichão na raíz do cabelo 
+- candidíase oral ou vaginal 
+- sinais de conjutivite: lacrimejo com comichão, vermelhidão e inchaço dos olhos 
+- irritação ocular, vermelhidão nos olhos 
+- sinais de hipertensão: tensão arterial alta, dor de cabeça, tonturas 
+- rubor 
+- sinais de doença arterial oclusiva periférica: dor, desconforto, fraqueza ou cãibras nos músculos 
+das pernas, que podem ser resultado da diminuição do fluxo sanguíneo, úlceras nas pernas ou 
+braços que cicatrizam lentamente ou que não cicatrizam de todo, e mudanças visíveis de cor 
+(azulado ou palidez) ou temperatura (arrefecimento) das pernas ou braços (sinais possíveis de 
+um bloqueio numa artéria da perna, do braço, ou dedos dos pés ou das mãos afetados) 
+- falta de ar (também chamada dispneia) 
+- aftas na boca com inflamação das gengivas (também chamada estomatite) 
+- nível elevado de amilase no sangue (função do pâncreas) 
+- nível elevado de creatinina no sangue (função dos rins) 
+- níveis elevados de fosfatase alcalina ou creatina fosfocinase no sangue 
+- níveis elevados de aspartato aminotransferases (enzimas do fígado) no sangue 
+- níveis elevados de gama-glutamiltransferases (enzimas do fígado) no sangue 
+- sinais de leucopenia ou neutropenia: nível baixo de glóbulos brancos no sangue 
+- aumento do número de plaquetas ou glóbulos brancos no sangue 
+- nível baixo de magnésio, potássio, sódio, cálcio ou fósforo no sangue 
+- níveis elevados de potássio, cálcio ou fósforo no sangue 
+- níveis elevados de gorduras (incluindo colesterol) no sangue 
+- nível elevado de ácido úrico no sangue </p>
+<p>Alguns efeitos indesejáveis são pouco frequentes (podem afetar até 1 em 100 pessoas) 
+- alergia (hipersensibilidade ao Tasigna) 
+- boca seca 
+- dor na mama 
+- dor ou desconforto num dos lados do corpo 
+- aumento do apetite 
+- aumento da mama em homens 
+- infeções provocadas pelo vírus herpes 
+- rigidez nos músculos e articulações, inchaço das articulações 
+- sensação de alteração de temperatura do corpo (incluindo sensação de calor e sensação de frio) 
+- alteração do paladar 
+- urinar frequentemente 
+- sinais de inflamação do revestimento do estômago: dor abdominal, náuseas, vómitos, diarreia, 
+distensão abdominal 
+- perda de memória 
+- quistos na pele, adelgaçamento ou espessamento da pele, espessamento da camada mais externa 
+da pele, descoloração da pele 
+- sinais de psoríase: placas espessadas da pele vermelhas/prateadas 
+- aumento da sensibilidade da pele à luz 
+- dificuldade de audição 
+- inflamação das articulações 
+- incontinência urinária 
+- inflamação do intestino (também chamada enterocolite) 
+- abcesso anal 
+- inchaço dos mamilos 
+- sintomas da síndrome das pernas inquietas (uma vontade irresistível de mover uma parte do 
+corpo, normalmente as pernas, acompanhada por sensações desconfortáveis) 
+- sinais de sepsis: febre, dor no peito, frequência cardíaca elevada/aumentada, falta de ar ou 
+respiração ofegante 
+- infeção da pele (abcesso subcutâneo) 
+- verrugas na pele 
+- aumento de tipos específicos de glóbulos brancos (chamado eosinofilia) 
+- sinais de linfopenia: nível baixo de glóbulos brancos 
+- nível elevado de hormona paratiroide no sangue (uma hormona que regula os níveis de cálcio e 
+fósforo) 
+- nível elevado de lactato desidrogenase (uma enzima) no sangue 
+- sinais de nível baixo de açúcar no sangue: náuseas, suores, fraqueza, tonturas, tremor, dor de 
+cabeça 
+- desidratação 
+- nível anormal de gordura no sangue 
+- tremores involuntários (também chamados tremor) 
+- dificuldade de concentração 
+- sensação desagradável e anormal quando tocado (também chamado de disestesia 
+- cansaço (também chamado fadiga) 
+- sensação de dormência ou formigueiro nos dedos das mãos e dos pés (também chamada de 
+neuropatia periférica) 
+- paralisia de qualquer músculo da face 
+- mancha vermelha na parte branca do olho provocada por lesão dos vasos sanguíneos (também 
+chamada hemorragia conjuntival) 
+- sangue nos olhos (também chamado hemorragia ocular) 
+- irritação dos olhos 
+- sinais de ataque cardíaco (também chamado enfarte do miocárdio): dor no peito súbita e 
+esmagadora, cansaço, batimentos cardíacos irregulares 
+- sinais de murmúrio cardíaco: cansaço, desconforto no peito, tonturas, dor no peito, palpitações 
+- infeção fúngica dos pés 
+- sinais de insuficiência cardíaca: falta de ar, dificuldade em respirar quando deitado, inchaço dos 
+pés ou pernas 
+- dor atrás do osso do peito (também chamada pericardite) 
+- sinais de crise hipertensiva: dor de cabeça intensa, tonturas, náuseas 
+- dor e fraqueza nas pernas ao andar (também chamada claudicação intermitente) 
+- sinais de estreitamento das artérias dos membros: possível tensão arterial elevada, cãibras 
+dolorosas em um ou ambos os lados da anca, coxas ou músculos da barriga da perna após certas 
+atividades, como caminhar ou subir escadas, dormência ou fraqueza nas pernas 
+- hematomas (sem se ter magoado) 
+- depósitos de gordura nas artérias que podem causar bloqueio (também chamado arteriosclerose) 
+- sinais de tensão arterial baixa (também chamada hipotensão): tonturas, vertigens ou desmaios 
+- sinais de edema pulmonar: falta de ar 
+- sinais de derrame pleural: acumulação de líquido entre as camadas de tecido que revestem os 
+pulmões e a cavidade torácica (que, se grave, pode diminuir a capacidade do coração de 
+bombear sangue), dor no peito, tosse, soluços, respiração ofegante 
+- sinais de doença pulmonar intersticial: tosse, dificuldade em respirar, respiração dolorosa 
+- sinais de dor pleurítica: dor no peito 
+- sinais de pleurisia: tosse, respiração dolorosa 
+- voz rouca 
+- sinais de hipertensão pulmonar: tensão arterial elevada nas artérias dos pulmões 
+- pieira 
+- sensibilidade dentária 
+- sinais de inflamação (também chamada gengivite): sangramento das gengivas, sensibilidade ou 
+aumento das gengivas 
+- nível elevado de ureia no sangue (função renal) 
+- alteração nas proteínas do sangue (baixo nível de globulinas ou presença de paraproteínas) 
+- nível elevado de bilirrubina não conjugada no sangue 
+- níveis elevados de troponinas no sangue </p>
+<p>Alguns efeitos indesejáveis são raros (podem afetar até 1 em 1.000 pessoas) 
+- vermelhidão e/ou inchaço e possivelmente descamação nas palmas das mãos e plantas dos pés 
+(chamada síndrome mão-pé) 
+- verrugas na boca 
+- sensação de endurecimento ou rigidez do peito 
+- inflamação da glândula tiroide (também chamada tiroidite) 
+- alteração de humor ou depressão 
+- sinais de hiperparatiroidismo secundário: dor óssea e articular, urinar em excesso, dor 
+abdominal, fraqueza, cansaço 
+- sinais de estreitamento das artérias no cérebro: perda de visão parcial ou total de ambos os 
+olhos, visão dupla, vertigem (sensação de rotação), dormência ou formigueiro, perda de 
+coordenação, tonturas ou confusão 
+- inchaço do cérebro (possível dor de cabeça e/ou alterações do estado mental) 
+- sinais de neurite ótica: visão turva, perda de visão 
+- sinais de disfunção cardíaca (fração de ejeção diminuída): cansaço, desconforto torácico, 
+tontura, dor, palpitações 
+- nível baixo ou alto de insulina no sangue (uma hormona que regula o nível de açúcar no sangue) 
+- nível baixo do péptido C da insulina no sangue (função do pâncreas) 
+- morte súbita </p>
+<p>Os outros efeitos indesejáveis foram notificados com frequência desconhecida (não pode ser 
+calculada a partir dos dados disponíveis): 
+- sinais de disfunção cardíaca (disfunção ventricular): falta de ar, esforço em repouso, batimentos 
+cardíacos irregulares, desconforto no peito, tonturas, dor, palpitações, urinar em excesso, 
+inchaço nos pés, tornozelos e abdómen </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tasigna"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tasigna"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Manter este medicamento fora da vista e do alcance das crianças. </li>
+<li>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+blister após EXP. O prazo de validade corresponde ao último dia do mês indicado. </li>
+<li>Não conservar acima de 30°C. </li>
+<li>Conservar na embalagem de origem para proteger da humidade. </li>
+<li>Não utilize este medicamento se verificar que a embalagem está danificada ou apresenta sinais 
+de deterioração. </li>
+<li>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tasigna 
+- A substância ativa é o nilotinib. </p>
+<ul>
+<li>
+<p>Cada cápsula de 50 mg contém 50 mg de nilotinib (como cloridrato monohidratado). 
+Os outros componentes são: 
+Conteúdo da cápsula: Lactose monohidratada, crospovidona tipo A, poloxamero 188, sílica 
+coloidal anidra e estearato de magnésio. 
+Invólucro da cápsula: Gelatina, dióxido de titânio (E171), óxido de ferro vermelho (E172), 
+óxido de ferro amarelo (E172) 
+Tinta de impressão: Goma laca (E904), óxido de ferro preto (E172), propilenoglicol e hidróxido 
+de amónia. </p>
+</li>
+<li>
+<p>Cada cápsula de 150 mg contém 150 mg de nilotinib (como cloridrato monohidratado). 
+Os outros componentes são: 
+Conteúdo da cápsula: Lactose monohidratada, crospovidona tipo A, poloxamero 188, sílica 
+coloidal anidra e estearato de magnésio. 
+Invólucro da cápsula: Gelatina, dióxido de titânio (E171), óxido de ferro vermelho (E172), 
+óxido de ferro amarelo (E172) 
+Tinta de impressão: Goma laca (E904), óxido de ferro preto (E172), álcool n-butílico, 
+propilenoglicol, etanol desidratado, álcool isopropílico e hidróxido de amónia. </p>
+</li>
+<li>
+<p>Cada cápsula de 200 mg contém 200 mg de nilotinib (como cloridrato monohidratado). 
+Os outros componentes são: 
+Conteúdo da cápsula: Lactose monohidratada, crospovidona tipo A, poloxamero 188, sílica 
+coloidal anidra e estearato de magnésio. 
+Invólucro da cápsula: Gelatina, dióxido de titânio (E171), óxido de ferro amarelo (E172) 
+Tinta de impressão: Goma laca (E904), álcool desidratado, álcool isopropílico, álcool butílico, 
+propilenoglicol, solução forte de amónia, hidróxido de potássio e óxido de ferro vermelho 
+(E172). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Tasigna e conteúdo da embalagem 
+Tasigna 50 mg apresenta-se como cápsulas. As cápsulas são vermelho/amarelo claro. Em cada cápsula 
+existe uma impressão a preto (“NVR/ABL"). 
+Tasigna 150 mg apresenta-se como cápsulas. As cápsulas são vermelhas. Em cada cápsula existe uma 
+impressão a preto (“NVR/BCR"). 
+Tasigna 200 mg apresenta-se como cápsulas. As cápsulas são amarelo claro. Em cada cápsula existe 
+uma impressão a vermelho (“NVR/TKI"). </p>
+<p>Tasigna 50 mg cápsulas está disponível numa embalagem contendo 120 cápsulas (3 embalagens de 
+40 cápsulas). 
+Tasigna 150 mg cápsulas está disponível em embalagens contendo 28 ou 40 cápsulas e em 
+embalagens múltiplas de 112 cápsulas (4 caixas, cada uma contendo 28 cápsulas), 120 cápsulas 
+(3 caixas, cada uma contendo 40 cápsulas) ou 392 cápsulas (14 caixas, cada uma contendo 
+28 cápsulas). 
+Tasigna 200 mg cápsulas está disponível em bolsas contendo 28 cápsulas e em embalagens contendo 
+28 ou 40 cápsulas. Tasigna 200 mg também está disponível em embalagens múltiplas de 112 cápsulas 
+(4 bolsas, cada uma contendo 28 cápsulas), 112 cápsulas (4 caixas, cada uma contendo 28 cápsulas), 
+120 cápsulas (3 caixas, cada uma contendo 40  cápsulas) ou 392 cápsulas (14 caixas, cada uma 
+contendo 28 cápsulas). </p>
+<p>Nem todas as embalagens poderão estar comercializadas no seu país. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Pharmaceutical Manufacturing LLC 
+Verovškova ulica 1000 Ljubljana 
+Eslovénia </p>
+<p>Novartis Farmacéutica SA 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Espanha </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nuremberga 
+Alemanha </p>
+<p>Lek d.d, PE PROIZVODNJA LENDAVA 
+Trimlini 2D 
+Lendava, 9Eslovénia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited. 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da Internet da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu. Também existem links para outros sítios da 
+internet sobre doenças raras e tratamentos. </p>         </div>"""      
+
+
+
 
 
                     
@@ -1428,6 +2149,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-7f2ab73e6ec5569c0d6e8f4a6e01c023"
 * entry[0].resource = composition-da-7f2ab73e6ec5569c0d6e8f4a6e01c023
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7f2ab73e6ec5569c0d6e8f4a6e01c023"
+* entry[=].resource = mp7f2ab73e6ec5569c0d6e8f4a6e01c023
+                            
+                    
+Instance: bundlepackageleaflet-pt-7f2ab73e6ec5569c0d6e8f4a6e01c023
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tasigna Package Leaflet for language pt"
+Description: "ePI document Bundle for tasigna Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-7f2ab73e6ec5569c0d6e8f4a6e01c023"
+* entry[0].resource = composition-pt-7f2ab73e6ec5569c0d6e8f4a6e01c023
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp7f2ab73e6ec5569c0d6e8f4a6e01c023"
@@ -1529,6 +2272,18 @@ RuleSet: 7f2ab73e6ec5569c0d6e8f4a6e01c023ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-7f2ab73e6ec5569c0d6e8f4a6e01c023) // tasigna pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1436,6 +1436,727 @@ lukkes til.
 
 
 
+Instance: composition-pt-f484a979444f206cec5fad8c011d38cd
+InstanceOf: CompositionUvEpi
+Title: "Composition for finlee Package Leaflet"
+Description:  "Composition for finlee Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf484a979444f206cec5fad8c011d38cd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - finlee"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Finlee e para que é utilizado </li>
+<li>O que precisa de saber antes de administrar Finlee </li>
+<li>Como administrar Finlee </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Finlee </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é finlee e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é finlee e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Finlee é um medicamento que contém a substância ativa dabrafenib. </p>
+<p>É utilizado em associação com outro medicamento (trametinib solução oral) em crianças com 1 ano ou 
+mais de idade para tratar um tipo de tumor no cérebro chamado glioma. </p>
+<p>Finlee pode ser usado em doentes com: </p>
+<ul>
+<li>
+<p>glioma de baixo grau </p>
+</li>
+<li>
+<p>glioma de alto grau após o doente ter recebido pelo menos um tratamento com radiação e/ou 
+quimioterapia. </p>
+</li>
+</ul>
+<p>Finlee é usado para tratar doentes cujo tumor cerebral tem uma mutação (alteração) específica no gene 
+chamado BRAF. Esta mutação leva o organismo a produzir proteínas defeituosas que, por sua vez, 
+podem fazer com que o tumor se desenvolva. O médico irá efetuar testes para esta mutação antes de 
+iniciar o tratamento. </p>
+<p>Em associação com trametinib, Finlee tem como alvo estas proteínas defeituosas e desacelera ou para 
+o desenvolvimento do tumor. Leia também o folheto informativo de trametinib solução oral. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar finlee"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar finlee"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não administre Finlee </p>
+<ul>
+<li>se a sua criança tem alergia a dabrafenib ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o médico antes de administrar Finlee. O médico precisa de saber se a sua criança: </p>
+<ul>
+<li>
+<p>tem alterações nos olhos incluindo obstrução da veia que drena o olho (oclusão da veia da 
+retina) ou inchaço do olho provocado por derrame de líquido (corioretinopatia). </p>
+</li>
+<li>
+<p>tem problemas cardíacos tais como insuficiência cardíaca ou problemas na forma como o seu 
+coração bate. </p>
+</li>
+<li>
+<p>tem ou alguma vez teve problemas nos rins. </p>
+</li>
+<li>
+<p>tem ou alguma vez teve problemas no fígado. </p>
+</li>
+<li>
+<p>tem ou alguma vez teve qualquer problema nos pulmões ou respiratórios, incluindo 
+dificuldade em respirar frequentemente acompanhada por tosse seca, falta de ar e fadiga. </p>
+</li>
+<li>
+<p>tem ou alguma vez teve qualquer problema gastrointestinal tal como diverticulite (bolsas 
+inflamadas no cólon) ou metástases no trato gastrointestinal. </p>
+</li>
+</ul>
+<p>Antes da sua criança começar a tomar Finlee, durante e após o seu tratamento, o médico irá fazer 
+testes para evitar complicações. </p>
+<p>Exame da pele 
+Finlee pode causar cancro da pele. Normalmente, estas alterações da pele mantêm-se localizadas e 
+podem ser removidas com cirurgia, e o tratamento com Finlee pode continuar sem interrupção. O 
+médico poderá verificar a pele da sua criança antes e regularmente durante o tratamento. </p>
+<p>Verifique a pele da sua criança mensalmente durante o tratamento e durante 6 meses após ela parar de 
+tomar este medicamento. Fale com o médico logo que possível se verificar quaisquer alterações na 
+pele da sua criança, tais como uma nova verruga, ou pele dorida ou inchaço avermelhado que sangra 
+ou que não cicatriza, ou uma alteração no tamanho ou cor de uma verruga. </p>
+<p>Síndrome de lise tumoral 
+Se a sua criança sentir os seguintes sintomas, informe o médico imediatamente dado que pode ser 
+uma condição com risco de vida: náuseas, falta de ar, batimento cardíaco irregular, cãibras musculares, 
+convulsões, urina turva, diminuição da produção de urina e cansaço. Estes podem ser provocados por 
+um grupo de complicações metabólicas, que podem ocorrer durante o tratamento do cancro que são 
+provocados pelos pelos produtos de degradação das células cancerígenas que morrem (síndrome de 
+lise tumoral ou SLT) e podem levar a alterações da função renal (ver também secção 4). </p>
+<p>Crianças com menos de 1 ano de idade 
+Os efeitos de Finlee em crianças com menos de 1 ano de idade são desconhecidos. Desta forma, Finlee 
+não é recomendado nesta faixa etária. </p>
+<p>Doentes com mais de 18 anos de idade 
+A informação sobre tratamento de doentes com mais de 18 anos de idade com glioma é limitada, assim 
+a continuidade do tratamento até à idade adulta deve ser avaliada pelo médico. </p>
+<p>Outros medicamentos e Finlee 
+Antes de iniciar o tratamento, informe o médico, farmacêutico ou enfermeiro se a sua criança estiver a 
+tomar, tiver tomado recentemente, ou se vier a tomar outros medicamentos. Isto inclui medicamentos 
+obtidos sem prescrição médica. </p>
+<p>Alguns medicamentos podem afetar a maneira como Finlee funciona ou podem aumentar a 
+probabilidade da sua criança ter efeitos indesejáveis. Finlee pode também afetar a forma como alguns 
+medicamentos funcionam. Estes incluem: </p>
+<ul>
+<li>
+<p>medicamentos utilizados para controlo de natalidade (contracetivos) contendo hormonas como 
+pílulas, injetáveis ou adesivos </p>
+</li>
+<li>
+<p>medicamentos utilizados para tornar o sangue mais fluido, tais como varfarina e acenocumarol </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar doenças do coração, tais como digoxina </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar infeções fúngicas, tais como itraconazol, voriconazol e 
+posaconazol </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar a doença de Cushing, tais como cetoconazol </p>
+</li>
+<li>
+<p>alguns medicamentos conhecidos como bloqueadores dos canais de cálcio, utilizados para tratar 
+tensão arterial elevada, tais como o diltiazem, felodipina, nicardipina, nifedipina ou verapamilo </p>
+</li>
+<li>
+<p>medicamento utilizados para tratar o cancro, como cabazitaxel </p>
+</li>
+<li>
+<p>alguns medicamentos utilizados para diminuir o nível de gordura (lípidos) no sangue, tais como 
+o gemfibrozil </p>
+</li>
+<li>
+<p>alguns medicamentos utilizados para tratar certas condições psiquiátricas, como haloperidol </p>
+</li>
+<li>
+<p>alguns medicamentos conhecidos como antibióticos, tais como claritromicina, doxicilina e 
+telitromicina </p>
+</li>
+<li>
+<p>alguns medicamentos utilizados para tratar a tuberculose (TB), como a rifampicina </p>
+</li>
+<li>
+<p>alguns medicamentos utilizados para reduzir os níveis de colesterol, tais como atorvastatina e 
+sinvastatina </p>
+</li>
+<li>
+<p>alguns medicamentos conhecidos como imunossupressores, tais como ciclosporina, tacrolimus e 
+sirolimus </p>
+</li>
+<li>
+<p>alguns medicamentos conhecidos como anti-inflamatórios, tais como dexametasona e 
+metilprednisolona </p>
+</li>
+<li>
+<p>alguns medicamentos utilizados para tratar o VIH, como o ritonavir, amprenavir, indinavir, 
+darunavir, delavirdine, efavirenz, fosamprenavir, lopinavir, nelfinavir, tipranavir, saquinavir e 
+atazanavir </p>
+</li>
+<li>
+<p>alguns medicamentos utilizados para ajudar a dormir, como diazepam, midazolam, zolpidem </p>
+</li>
+<li>
+<p>alguns medicamentos utilizados para aliviar a dor, como fentanilo e metadona </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar convulsões (epilepsia), tais como fenitoína, fenobarbital, 
+primidona, ácido valpróico ou carbamazepina </p>
+</li>
+<li>
+<p>medicamentos conhecidos como antidepressivos tais como nefazidina e o medicamento à base 
+de plantas Erva de S. João (Hypericum perforatum) </p>
+</li>
+</ul>
+<p>Informe o médico, farmacêutico ou enfermeiro se a sua criança estiver a tomar qualquer um destes 
+medicamentos (ou se não tem a certeza). O médico pode decidir ajustar a dose. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Gravidez </p>
+<ul>
+<li>
+<p>Se a sua criança está grávida ou se pensa que a sua criança pode estar grávida, consulte o 
+médico ou farmacêutico para aconselhamento antes de tomar este medicamento. Finlee pode 
+potencialmente prejudicar o feto. </p>
+</li>
+<li>
+<p>Se a sua criança ficar grávida enquanto está a tomar este medicamento, informe o médico 
+imediatamente. </p>
+</li>
+</ul>
+<p>Amamentação 
+Desconhece-se se Finlee pode passar para o leite materno. Se a sua criança está a amamentar ou 
+planeia amamentar, tem de informar o médico. Você, a sua criança e o médico irão decidir se irá tomar 
+Finlee ou amamentar. </p>
+<p>Fertilidade 
+Finlee pode reduzir a contagem de esperma e isto pode não regressar aos níveis normais após parar o 
+tratamento com Finlee. </p>
+<p>Tomar Finlee com trametinib solução oral: Trametinib pode comprometer a fertilidade dos homens e 
+das mulheres. </p>
+<p>Antes de começar o tratamento com Finlee, fale com o médico acerca das opções para melhorar as 
+hipóteses da sua criança ter filhos no futuro. </p>
+<p>Contraceção </p>
+<ul>
+<li>
+<p>Se a sua criança pode ficar grávida, tem de utilizar um método de contraceção que lhe ofereça 
+garantias (contraceção) enquanto está a tomar Finlee em associação com trametinib solução oral 
+e durante pelo menos 16 semanas após a última dose de Finlee em associação com trametinib. </p>
+</li>
+<li>
+<p>Os medicamentos contracetivos que contêm hormonas (como as pílulas, os injetáveis ou os 
+adesivos) podem não funcionar tão bem enquanto estiver a tomar Finlee em associação com 
+trametinib solução oral. Deve usar um método contracetivo eficaz alternativo para evitar o risco 
+de gravidez enquanto está a tomar esta associação de medicamentos. Fale com o seu médico ou 
+enfermeiro para que a aconselhem. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+Finlee pode ter efeitos indesejáveis que podem afetar a capacidade da sua criança de conduzir, andar 
+de bicicleta/motorizada, utilizar máquinas ou tomar parte noutras atividades que requeiram atenção. Se 
+a sua criança tem problemas com a sua visão ou se sentir cansaço ou fraqueza, ou se os seus níveis de 
+energia forem baixos, deve evitar estas atividades. </p>
+<p>As descrições destes efeitos podem ser encontradas na secção 4. Leia toda a informação neste folheto 
+para orientações. </p>
+<p>Fale com o médico, farmacêutico ou enfermeiro se não tem a certeza sobre qualquer assunto. A 
+doença da sua criança, sintomas e a situação do tratamento podem também afetar a sua capacidade de 
+tomar parte nestas atividades. </p>
+<p>Finlee contém potássio 
+Este medicamento contém menos do que 1 mmol (39 mg) de potássio por dose diária máxima, ou seja, 
+é praticamente “isento de sódio". </p>
+<p>Finlee contém álcool benzílico 
+Este medicamento contém &lt;0,00078 mg de álcool benzílico em cada comprimido dispersível. </p>
+<p>O álcool benzílico pode causar reações alérgicas. </p>
+<p>Consulte o médico ou farmacêutico para aconselhamento se a sua criança está grávida ou a 
+amamentar. Isto porque podem acumular-se grandes quantidades de álcool benzílico no corpo da sua 
+criança e pode causar efeitos secundários (“acidose metabólica"). </p>
+<p>Consulte o médico ou farmacêutico para aconselhamento se a sua criança tiver uma doença de fígado 
+ou rins. Isto porque podem acumular-se grandes quantidades de álcool benzílico no corpo da sua 
+criança e pode causar efeitos secundários (“acidose metabólica"). </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar finlee"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar finlee"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Administre sempre este medicamento à sua criança exatamente como indicado pelo médico, 
+farmacêutico ou enfermeiro. Fale com o médico, farmacêutico ou enfermeiro se tiver dúvidas. </p>
+<p>Quanto administrar 
+O médico irá decidir a dose correta de Finlee com base no peso corporal da sua criança. </p>
+<p>O médico irá decidir se deve administrar uma dose mais baixa à sua criança se esta tiver efeitos 
+indesejáveis. </p>
+<p>Como administrar 
+Por favor leia as Instruções de Utilização no final deste folheto para detalhes de como preparar e 
+administrar a solução dos comprimidos dispersíveis. </p>
+<ul>
+<li>
+<p>Administre Finlee duas vezes por dia. Administrar Finlee à mesma hora todos os dias irá 
+ajudá-lo a lembrar-se quando administrar o medicamento. Administre cada dose de Finlee com 
+cerca de 12 horas de intervalo. Trametinib solução oral é apenas administrado uma vez por dia. 
+Administre trametinib solução oral com a dose da manhã de Finlee ou com a dose da tarde de 
+Finlee. </p>
+</li>
+<li>
+<p>Administre Finlee de estômago vazio, pelo menos uma hora antes ou duas horas após uma 
+refeição, isto significa que: 
+o 
+após tomar Finlee, a sua criança tem de esperar pelo menos 1 hora antes de comer. 
+o 
+após comer, a sua criança tem de esperar pelo menos 2 horas antes de tomar Finlee. 
+o 
+se necessário, amamentação e/ou fórmula podem ser dados a pedido. </p>
+</li>
+</ul>
+<p>Se administrar mais Finlee mais do que deveria 
+Se administrar mais Finlee do que deveria, contacte o médico, farmacêutico ou enfermeiro para 
+aconselhamento. Se possível, mostre-lhes a embalagem de Finlee e este folheto. </p>
+<p>Caso se tenha esquecido de administrar Finlee 
+Se ainda não passaram mais de 6 horas desde a dose esquecida, administre-a assim que se lembre. 
+Se já passaram 6 horas ou mais de 6 horas, salte a dose. Administre a próxima dose à hora habitual e 
+continue a administrar Finlee às horas normais como habitualmente. 
+Não administre uma dose a dobrar para compensar uma dose que se esqueceu de administrar. </p>
+<p>Se a sua criança vomitar após tomar Finlee 
+Se a sua criança vomitar após tomar Finlee, não administre outra dose até à próxima dose planeada. </p>
+<p>Se parar de administrar Finlee 
+Administre Finlee durante o período de tempo recomendado pelo médico. Não pare o tratamento, a não 
+ser por indicação do médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o médico, farmacêutico ou 
+enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Pare de administrar este medicamento e procure ajuda médica urgente se a sua criança tiver 
+algum dos seguintes sintomas: </p>
+<ul>
+<li>
+<p>tossir sangue, sangue na urina, vómitos contendo sangue ou que se assemelhem a “grãos de 
+café", fezes vermelhas ou pretas que parecem alcatrão. Estes podem ser sinais de hemorragia. </p>
+</li>
+<li>
+<p>febre (temperatura 38ºC ou superior) </p>
+</li>
+<li>
+<p>do no peito ou falta de ar, por vezes com febre ou tosse. Estes podem ser sinais de pneumonite 
+ou pulmões inflamados (doença pulmonar intersticial). </p>
+</li>
+<li>
+<p>visão turva, perda de visão ou outras alterações da visão. Estes podem ser sinais de 
+descolamento da retina. </p>
+</li>
+<li>
+<p>vermelhidão nos olhos, dor nos olhos, sensibilidade aumentada à luz. Estes podem ser sinais de 
+uveíte. </p>
+</li>
+<li>
+<p>dor muscular inexplicada, cãibras musculares ou fraqueza muscular, urina escura. Estes podem 
+ser sinais de rabdomiólise. </p>
+</li>
+<li>
+<p>dor abdominal forte. Isto pode ser um sinal de pancreatite. </p>
+</li>
+<li>
+<p>febre, glândulas linfáticas inchadas, hematomas ou erupção cutânea ao mesmo tempo. Estes 
+podem ser sinais de uma condição em que o sistema imunitário produz demasiadas células que 
+combatem infeções, o que pode causar vários sintomas (infohistiocitose hemofagocítica). </p>
+</li>
+<li>
+<p>náuseas, falta de ar, batimento cardíaco irregular, cãibras musculares, convulsões, urina turva, 
+diminuição da produção de urina e cansaço. Estes podem ser sinais de uma condição que resulta 
+de uma rápida degradação das células cancerígenas que em algumas pessoas pode ser fatal 
+(síndrome de lise tumoral ou SLT). </p>
+</li>
+<li>
+<p>áreas de pele avermelhadas no tronco, circulares ou em forma de alvo, com ou sem bolhas no 
+centro, descamação da pele, úlceras na boca, garganta, nariz, genitais e olhos. Estes podem ser 
+sinais de erupções cutâneas graves, que podem causar risco de vida e que podem ser precedidas 
+por febre e sintomas tipo-gripe (síndrome de Stevens-Johnson), erupção cutânea generalizada, 
+febre e nódulos linfáticos aumentados (DRESS). </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis possíveis </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Tosse </p>
+</li>
+<li>
+<p>Diarreia, sentir-se doente (náuseas), estar doente (vómitos), prisão de ventre, dor de estômago </p>
+</li>
+<li>
+<p>Problemas na pele, tais como erupção, erupção tipo acne, pele seca ou com comichão, 
+vermelhidão da pele </p>
+</li>
+<li>
+<p>Infeção no leito das unhas </p>
+</li>
+<li>
+<p>Dor nos braços ou pernas ou articulações </p>
+</li>
+<li>
+<p>Falta de energia ou sentir-se fraco ou cansado </p>
+</li>
+<li>
+<p>Aumento de peso </p>
+</li>
+<li>
+<p>Aumento das enzimas hepáticas observadas em análises ao sangue </p>
+</li>
+<li>
+<p>Níveis diminuídos de glóbulos brancos (neutropenia, leucopenia) </p>
+</li>
+<li>
+<p>Níveis diminuídos de glóbulos vermelhos (anemia) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Infeções no trato respiratório superior com sintomas como garganta inflamada e nariz entupido 
+(nasofaringite) </p>
+</li>
+<li>
+<p>Urinar frequente com dor ou sensação de queimadura (infeção do trato urinário) </p>
+</li>
+<li>
+<p>Efeitos na pele incluindo infeção da pele (celulite), inflamação dos folículos pilosos da pele, 
+pele inflamada e com descamação (dermatite exfoliativa generalizada), crescimento tipo verruga 
+(papiloma cutâneo), espessamento da camada externa da pele (hiperqueratose) </p>
+</li>
+<li>
+<p>Diminuição do apetite </p>
+</li>
+<li>
+<p>Pressão sanguínea diminuída (hipotensão) </p>
+</li>
+<li>
+<p>Pressão sanguínea aumentada (hipertensão) </p>
+</li>
+<li>
+<p>Falta de ar </p>
+</li>
+<li>
+<p>Boca inflamada ou úlceras na boca, inflamação da mucosa </p>
+</li>
+<li>
+<p>Inflamação da camada de gordura abaixo da pele (paniculite) </p>
+</li>
+<li>
+<p>Perda ou enfraquecimento fora do habitual de cabelo </p>
+</li>
+<li>
+<p>Mãos e pés vermelhos e doridos (síndrome mãos-pés) </p>
+</li>
+<li>
+<p>Espasmos nos músculos </p>
+</li>
+<li>
+<p>Arrepios </p>
+</li>
+<li>
+<p>Reação alérgica (hipersensibilidade) </p>
+</li>
+<li>
+<p>Desidratação </p>
+</li>
+<li>
+<p>Problemas na visão incluindo visão turva </p>
+</li>
+<li>
+<p>Diminuição do ritmo cardíaco (bradicardia) </p>
+</li>
+<li>
+<p>Cansaço, desconforto no peito, cabeça leve, palpitações (fração de ejeção diminuída) </p>
+</li>
+<li>
+<p>Inchaço de tecidos (edema) </p>
+</li>
+<li>
+<p>Dores musculares (mialgias) </p>
+</li>
+<li>
+<p>Cansaço, arrepios, garganta inflamada, dor nas articulações ou músculos (doença tipo-gripe) </p>
+</li>
+<li>
+<p>Resultados de análises alterados relacionados com creatina fosfocinase, uma enzima encontrada 
+maioritariamente no coração, cérebro e músculo esquelético </p>
+</li>
+<li>
+<p>Aumento do nível de açúcar no sangue </p>
+</li>
+<li>
+<p>Diminuição dos níveis de sódio ou de fosfato no sangue </p>
+</li>
+<li>
+<p>Nível diminuído de plaquetas sanguíneas (células que ajudam o sangue a coagular) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Inflamação dos intestinos (colite) </p>
+</li>
+<li>
+<p>Pele com fissuras </p>
+</li>
+<li>
+<p>Suores noturnos </p>
+</li>
+<li>
+<p>Transpiração excessiva </p>
+</li>
+</ul>
+<p>Em adição aos efeitos indesejáveis descritos acima,os efeitos indesejáveis seguintes foram, até à data, 
+notificados apenas em doentes adultos, mas podem também ocorrer em crianças: </p>
+<ul>
+<li>
+<p>problema com os nervos que pode provocar dor, perda de sensibilidade ou formigueiro nas 
+mãos e nos pés e/ou fraqueza muscular (neuropatia periférica) </p>
+</li>
+<li>
+<p>boca seca </p>
+</li>
+<li>
+<p>sensibilidade aumentada da pele ao sol </p>
+</li>
+<li>
+<p>falência renal </p>
+</li>
+<li>
+<p>tumor cutâneo benigno (acrocórdon) </p>
+</li>
+<li>
+<p>doença inflamatória que afeta maioritariamente a pele, pulmões, olhos e nódulos linfáticos 
+(sarcoidose) </p>
+</li>
+<li>
+<p>inflamação dos rins </p>
+</li>
+<li>
+<p>um orifício (perfuração) no estômago ou intestinos </p>
+</li>
+<li>
+<p>inflamação do músculo cardíaco que pode resultar em falta de ar, febre, palpitações e dor no 
+peito </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se a sua criança tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não 
+indicados neste folheto, fale com o médico, farmacêutico ou enfermeiro. Também poderá comunicar 
+efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice 
+V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança 
+deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar finlee"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar finlee"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco e na embalagem 
+exterior após EXP. O prazo de validade corresponde ao último dia do mês indicado. 
+Administre a solução não mais do que 30 minutos após os comprimidos terem dissolvido. </p>
+<p>O medicamento não necessita de qualquer temperatura especial de conservação. 
+Conservar na embalagem de origem para proteger da humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Finlee 
+- A substância ativa é dabrafenib. Cada comprimido dispersível contém mesilato de dabrafenib 
+equivalente a 10 mg de dabrafenib. 
+- Os outros componentes são: manitol (E 421), celulose microcristalina (E 460), crospovidona 
+(E 1202), hipromelose (E 464), acessulfame (E 950) (ver secção 2), estearato de magnésio 
+(E 470b), sabor artificial a frutos silvestres (maltodextrina, propilenoglicol [E 1520], sabores 
+artificiais, citrato trietílico [E 1505], álcool benzílico [E 1519] [ver secção 2]), e sílica coloidal 
+anidra (E 551). </p>
+<p>Qual o aspeto de Finlee e conteúdo da embalagem 
+Finlee 10 mg comprimidos dispersíveis são comprimidos brancos a ligeiramente amarelos, redondos 
+de 6 mm com a gravação “D" num lado e “NVR" no outro lado. </p>
+<p>Os frascos são de plástico branco com fecho em rosca de plástico. </p>
+<p>Os frascos também incluem um dessecante de sílica gel em recipientes pequenos em forma de cilindro. 
+O dessecante tem de ser mantido dentro do frasco e não pode ser engolido. </p>
+<p>Finlee 10 mg comprimidos dispersíveis está disponível em embalagens contendo 1 ou 2 frascos 
+(210 ou 420 comprimidos dispersíveis) e 2 copos-medida. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Lek Pharmaceuticals d.d. 
+Verovškova ulica 1526, Ljubljana 
+Eslovénia </p>
+<p>Novartis Pharmaceutical Manufacturing LLC 
+Verovškova ulica 1000, Ljubljana 
+Eslovénia </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberga 
+Alemanha </p>
+<p>Novartis Farmacéutica S.A. 
+Gran Via de les Corts Catalanes 08013 Barcelona 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf.: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1477,6 +2198,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-f484a979444f206cec5fad8c011d38cd"
 * entry[0].resource = composition-da-f484a979444f206cec5fad8c011d38cd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf484a979444f206cec5fad8c011d38cd"
+* entry[=].resource = mpf484a979444f206cec5fad8c011d38cd
+                            
+                    
+Instance: bundlepackageleaflet-pt-f484a979444f206cec5fad8c011d38cd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for finlee Package Leaflet for language pt"
+Description: "ePI document Bundle for finlee Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-f484a979444f206cec5fad8c011d38cd"
+* entry[0].resource = composition-pt-f484a979444f206cec5fad8c011d38cd
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpf484a979444f206cec5fad8c011d38cd"
@@ -1578,6 +2321,18 @@ RuleSet: f484a979444f206cec5fad8c011d38cdListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-f484a979444f206cec5fad8c011d38cd) // finlee pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

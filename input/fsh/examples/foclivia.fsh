@@ -762,6 +762,428 @@ ikke er nævnt her. Se punkt 4. </li>
 
 
 
+Instance: composition-pt-81e7ff6268dfde3de233f5f0af119c35
+InstanceOf: CompositionUvEpi
+Title: "Composition for foclivia Package Leaflet"
+Description:  "Composition for foclivia Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp81e7ff6268dfde3de233f5f0af119c35)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - foclivia"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Foclivia e para que é utilizado </li>
+<li>O que precisa de saber antes de receber Foclivia </li>
+<li>Como Foclivia é administrado </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Foclivia </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é foclivia e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é foclivia e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Foclivia é uma vacina concebida para ser administrada para prevenir a gripe numa pandemia 
+oficialmente declarada. </p>
+<p>A gripe pandémica é um tipo de gripe que ocorre periodicamente, com intervalos que variam entre 
+menos de 10 anos a várias décadas. Este tipo de gripe alastra-se rapidamente por todo o mundo. 
+Os sinais de gripe pandémica são semelhantes aos observados na gripe normal, mas podem ser mais 
+graves. </p>
+<p>Destina-se a ser utilizada  para prevenir a gripe causada pelo tipo H5N1 do vírus. </p>
+<p>Quando uma pessoa recebe a vacina, as defesas naturais do organismo (o sistema imunitário) 
+produzem proteções próprias (anticorpos) contra a doença. Nenhum dos ingredientes na vacina tem 
+a capacidade de provocar a gripe. </p>
+<p>Tal como acontece com todas as vacinas, Foclivia pode não proteger totalmente as pessoas vacinadas. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar foclivia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar foclivia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não deve receber Foclivia: 
+- se teve uma reação alérgica grave (i.e. com perigo de morte) a qualquer componente 
+de Foclivia, 
+- se tem alergia (hipersensibilidade) a vacinas da gripe ou a qualquer outro componente 
+de Foclivia, 
+- se tem alergia a ovos, proteínas de galinha, ovalbumina, 
+- se tem alergia a sulfato de canamicina e sulfato de neomicina (antibióticos), hidrocortisona, 
+formaldeído, brometo de cetiltrimetilamónio. 
+- Os sinais de reação alérgica podem incluir erupções cutâneas com comichão, falta de ar 
+e inchaço na cara ou língua. 
+- No entanto, numa situação de pandemia, poderá ainda assim receber a vacina apenas se 
+estiver disponível tratamento médico imediato em caso de reação alérgica. </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou enfermeiro antes de receber esta vacina: </p>
+<ul>
+<li>se estiver febril, </li>
+<li>se tiver uma doença ou infeção, </li>
+<li>se estiver a fazer terapêutica imunossupressora, por ex., tratamento com corticosteroides ou 
+quimioterapia para o cancro, ou se tem uma afeção que o torna propenso a infeções (situações 
+de imunodeficiência). </li>
+</ul>
+<p>Informe o seu médico ou enfermeiro se tiver um problema de coagulação do sangue ou se faz nódoas 
+negras com facilidade. </p>
+<p>O médico deverá informá-lo acerca da possibilidade de convulsões, sobretudo se tiver antecedentes de 
+epilepsia. </p>
+<p>Podem ocorrer desmaios após ou mesmo antes da injeção por agulha. Por este motivo, informe o seu 
+médico ou enfermeiro se já tiver desmaiado durante uma injeção anterior. </p>
+<p>Foclivia pode não proteger totalmente todas as pessoas que sejam vacinadas, especialmente indivíduos 
+idosos e pessoas com um sistema imunitário enfraquecido, tais como doentes com VIH ou com 
+problemas médicos de longo prazo subjacentes, tais como diabetes, doença pulmonar ou problemas 
+cardíacos. Informe o seu médico se tem um sistema imunitário fraco ou um problema médico de longo 
+prazo subjacente. </p>
+<p>Em qualquer um destes casos, INFORME O SEU MÉDICO OU ENFERMEIRO, pois a vacinação 
+pode não ser recomendada ou pode ter de ser atrasada. </p>
+<p>Outros medicamentos e Foclivia 
+Informe o seu médico ou enfermeiro se estiver a tomar, tiver tomado recentemente ou se vier a tomar 
+outros medicamentos, incluindo medicamentos obtidos sem receita médica ou se tiver recebido 
+recentemente qualquer outra vacina.  </p>
+<p>Foclivia pode ser administrado ao mesmo tempo que outras vacinas para a gripe sazonal não-
+adjuvantadas convencionais. Não existem informações sobre a administração de Foclivia em conjunto 
+com outras vacinas (não anti-gripe). Se não for possível evitar a administração de Foclivia em 
+conjunto com outras vacinas, as vacinas devem ser injetadas em membros diferentes. Nestes casos, 
+deve ter consciência de que os efeitos indesejáveis podem ser mais intensos. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou enfermeiro antes de tomar esta vacina. O seu médico deve avaliar os benefícios e potenciais riscos 
+da vacina para si. </p>
+<p>Condução de veículos e utilização de máquinas 
+Alguns dos efeitos indesejáveis indicados na Secção 4 “Efeitos indesejáveis possíveis" podem afetar 
+a capacidade de condução ou de utilização de ferramentas ou máquinas. </p>
+<p>Foclivia contém sódio e potássio 
+Foclivia contém menos de 1 mmol de sódio (23 mg) e menos de 1 mmol de potássio (39 mg) por dose, 
+sendo essencialmente isenta de sódio e de potássio. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar foclivia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar foclivia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu médico ou enfermeiro administra a vacina de acordo com as recomendações oficiais. 
+Uma dose (0,5 ml) de vacina será injetada no antebraço (músculo deltoide) ou na parte superior da 
+coxa (dependendo da massa muscular). </p>
+<p>Deve administrar-se uma segunda dose da vacina após um intervalo de, pelo menos, 3 semanas. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como os demais medicamentos, Foclivia pode causar efeitos indesejáveis, no entanto estes não se 
+manifestam em todas as pessoas. </p>
+<p>Informe o seu médico imediatamente ou dirija-se ao serviço de urgência do hospital mais próximo se 
+tiver o seguinte efeito indesejável - poderá precisar de atenção médica urgente ou hospitalização: </p>
+<ul>
+<li>dificuldade ao respirar, tonturas, uma pulsação fraca e rápida e erupção na pele, os quais são 
+sintomas de uma reação anafilática (uma reação alérgica muito grave) </li>
+</ul>
+<p>Os efeitos indesejáveis mencionados em seguida apareceram com Foclivia em estudos clínicos: </p>
+<p>Efeitos indesejáveis ligeiros </p>
+<p>Muito frequentes (afetam mais do que 1 em 10 utilizadores): </p>
+<ul>
+<li>
+<p>Dor/sensibilidade no local da injeção </p>
+</li>
+<li>
+<p>Endurecimento da pele no local da injeção </p>
+</li>
+<li>
+<p>Vermelhidão no local da injeção </p>
+</li>
+<li>
+<p>Inchaço no local da injeção </p>
+</li>
+<li>
+<p>Nódoas negras na pele no local da injeção* </p>
+</li>
+<li>
+<p>Dor nos músculos </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Fadiga </p>
+</li>
+<li>
+<p>Sensação de mal-estar geral </p>
+</li>
+<li>
+<p>Calafrios </p>
+</li>
+<li>
+<p>Sudação* </p>
+</li>
+<li>
+<p>Náuseas* </p>
+</li>
+<li>
+<p>Alteração dos hábitos alimentares** </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Vómitos </p>
+</li>
+<li>
+<p>Sudação e sudação invulgar** </p>
+</li>
+<li>
+<p>Sonolência** </p>
+</li>
+<li>
+<p>Irritabilidade** </p>
+</li>
+<li>
+<p>Choro invulgar** </p>
+</li>
+<li>
+<p>Febre*** </p>
+</li>
+<li>
+<p>Comunicado como Frequente nos adultos e idosos </p>
+</li>
+</ul>
+<p>** Comunicado apenas em bebés e crianças pequenas dos 6-35 meses de idade </p>
+<p>*** Comunicado como Muito frequente apenas em bebés e crianças dos 6 meses-8 anos de idade. Comunicado 
+como Frequente em adolescentes e adultos dos 9-60 anos de idade e como Pouco frequente nos idosos (com 
+mais de 61 anos) </p>
+<p>Frequentes (afetam 1 a 10 em cada 100 utilizadores): </p>
+<ul>
+<li>
+<p>Dor nas articulações </p>
+</li>
+<li>
+<p>Hemorragia no local de injeção </p>
+</li>
+<li>
+<p>Perda de apetite </p>
+</li>
+</ul>
+<p>Pouco frequentes (afetam 1 a 10 em cada 1000 utilizadores): </p>
+<ul>
+<li>Urticária (erupção na pele) </li>
+</ul>
+<p>Estes efeitos indesejáveis, habitualmente ligeiros, desaparecem em 3 dias sem tratamento. Se 
+persistirem, CONSULTE O SEU MÉDICO. </p>
+<p>Efeitos indesejáveis em doentes com problemas médicos de longo prazo subjacentes, tais como 
+diabetes, doença pulmonar ou problemas cardíacos e sistemas imunitários enfraquecidos 
+(imunocomprometidos), tais como doentes com VIH 
+Náuseas, dores nas articulações, diarreia e perda de apetite foram comunicadas com muita frequência 
+nesta população. Além destes, foram comunicados vómitos com frequência. </p>
+<p>Outros efeitos indesejáveis raros observados após utilização de rotina: 
+Os efeitos indesejáveis adicionais abaixo mencionados apareceram nos dias ou semanas após a 
+vacinação com outra vacina chamada Focetria H1N1v, semelhante a Foclivia e com o mesmo 
+adjuvante. Estes efeitos indesejáveis podem ocorrer com Foclivia. </p>
+<ul>
+<li>
+<p>Reações cutâneas (na pele) generalizadas incluindo: </p>
+</li>
+<li>
+<p>Comichão </p>
+</li>
+<li>
+<p>Irritação ou inchaço da pele e membranas mucosas </p>
+</li>
+<li>
+<p>Angioedema (inchaço anormal da pele, geralmente em torno dos olhos, lábios, língua, 
+mãos ou pés, devido a uma reação alérgica) </p>
+</li>
+<li>
+<p>Perturbações intestinais, tais como: </p>
+</li>
+<li>
+<p>Dor abdominal </p>
+</li>
+<li>
+<p>Tonturas, sonolência </p>
+</li>
+<li>
+<p>Alterações neurológicas, tais como: </p>
+</li>
+<li>
+<p>Dor penetrante ou palpitante ao longo de um ou mais nervos </p>
+</li>
+<li>
+<p>Formigueiro </p>
+</li>
+<li>
+<p>Convulsões </p>
+</li>
+<li>
+<p>Neurite (uma inflamação dos nervos) </p>
+</li>
+<li>
+<p>Síncope ou pré-síncope (desmaio ou sensação de desmaio) </p>
+</li>
+<li>
+<p>Gânglios linfáticos inchados, palpitações (batimento cardíaco forte ou irregular), taquicardia 
+(batimento cardíaco mais rápido que o normal), fraqueza, dor nas extremidades, tosse e astenia 
+(fraqueza invulgar) </p>
+</li>
+<li>
+<p>Reações alérgicas possivelmente com dificuldade em respirar, sibilos (pieira), inchaço da 
+garganta, ou conduzindo a uma diminuição perigosa da tensão arterial que, se não for tratada, 
+pode levar a choque. Os médicos estão conscientes desta possibilidade e têm disponível 
+tratamento de emergência para utilizar nestes casos. </p>
+</li>
+</ul>
+<p>Adicionalmente, os efeitos indesejáveis abaixo mencionados apareceram nos dias ou semanas após 
+vacinação com vacinas, adjuvantadas e não adjuvantadas, administradas habitualmente todos os anos 
+para prevenir a gripe sazonal. Estes efeitos indesejáveis podem aparecer com Foclivia. </p>
+<ul>
+<li>
+<p>Contagem de plaquetas sanguíneas baixa que pode resultar em hemorragia (sangramento) ou 
+formação de nódoas negras. </p>
+</li>
+<li>
+<p>Vasculite (inflamação dos vasos sanguíneos que pode causar erupção cutânea, dor nas 
+articulações e problemas nos rins). </p>
+</li>
+<li>
+<p>Eritema multiforme (um tipo de reação alérgica na pele que aparece como resposta a 
+medicamentos, infeções ou doenças). </p>
+</li>
+<li>
+<p>Alterações neurológicas, tais como encefalomielite (inflamação do sistema nervoso central) e 
+um tipo de paralisia chamado síndrome de Guillain-Barré. </p>
+</li>
+<li>
+<p>Inchaço, dor e vermelhidão no local da injeção com uma extensão superior a 10 cm e uma 
+duração superior a uma semana (reação do tipo celulite no local da injeção). </p>
+</li>
+<li>
+<p>Inchaço extenso do membro injetado com uma duração superior a uma semana. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar foclivia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar foclivia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter esta vacina fora da vista e do alcance das crianças. </p>
+<p>Não utilize Foclivia após o prazo de validade impresso na embalagem exterior e no rótulo a seguir 
+a EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 ºC-8ºC). Não congelar. Eliminar se a vacina tiver sido congelada. 
+Conservar na embalagem de origem para proteger da luz. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Foclivia </p>
+<ul>
+<li>Substância ativa: 
+Os ingredientes ativos da vacina são proteínas virais purificadas (chamadas hemaglutinina 
+e neuraminidase). As mesmas são isoladas a partir da superfície de partículas do vírus da gripe 
+e crescem em ovos de galinha fertilizados de bandos de galinhas saudáveis e são inativadas com 
+formaldeído. Estas proteínas virais são preparadas a partir da estirpe do vírus da gripe que está em 
+conformidade com as recomendações da Organização Mundial de Saúde e com a decisão da UE 
+numa situação de pandemia declarada oficialmente. </li>
+</ul>
+<p>Uma dose (0,5 ml) de vacina contém, pelo menos, 7,5 microgramas de hemaglutinina da seguinte 
+estirpe recomendada do vírus da gripe: </p>
+<p>A/Vietnam/1194/2004 (H5N1) </p>
+<ul>
+<li>
+<p>Adjuvante: 
+A vacina contém um ‘adjuvante’ (um composto que contém esqualeno) para estimular uma resposta 
+melhor. O adjuvante inclui também polissorbato 80 e sorbitano, trioleato num tampão citrato (citrato 
+de sódio, ácido cítrico). </p>
+</li>
+<li>
+<p>Outros componentes: 
+Os outros componentes são: cloreto de sódio, cloreto de potássio, fosfato de potássio dibásico, fosfato 
+dissódico di-hidratado, cloreto de magnésio hexa-hidratado, cloreto de cálcio di-hidratado e água para 
+preparações injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Foclivia e conteúdo da embalagem 
+Foclivia é um líquido branco leitoso. 
+É apresentado numa seringa pronta a utilizar contendo uma dose única (0,5 ml) injetável, em caixa de 
+1 ou 10, com ou sem agulha. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Seqirus S.r.l. 
+Via del Pozzo 3/A, S. Martino 
+53035 Monteriggioni (SI) 
+Itália </p>
+<p>Fabricante 
+Seqirus Netherlands B.V. 
+Paasheuvelweg 1105BJ Amsterdam 
+Países Baixos </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
+<p>Foi concedida a Foclivia uma “Autorização de Introdução no Mercado em circunstâncias 
+excecionais". Isto significa que não foi possível obter informação completa sobre este medicamento 
+por razões científicas. A Agência Europeia de Medicamentos irá rever, pelo menos uma vez por ano, 
+qualquer nova informação sobre este medicamento e este folheto será atualizado se necessário. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -803,6 +1225,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-81e7ff6268dfde3de233f5f0af119c35"
 * entry[0].resource = composition-da-81e7ff6268dfde3de233f5f0af119c35
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp81e7ff6268dfde3de233f5f0af119c35"
+* entry[=].resource = mp81e7ff6268dfde3de233f5f0af119c35
+                            
+                    
+Instance: bundlepackageleaflet-pt-81e7ff6268dfde3de233f5f0af119c35
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for foclivia Package Leaflet for language pt"
+Description: "ePI document Bundle for foclivia Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-81e7ff6268dfde3de233f5f0af119c35"
+* entry[0].resource = composition-pt-81e7ff6268dfde3de233f5f0af119c35
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp81e7ff6268dfde3de233f5f0af119c35"
@@ -904,6 +1348,18 @@ RuleSet: 81e7ff6268dfde3de233f5f0af119c35ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-81e7ff6268dfde3de233f5f0af119c35) // foclivia pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

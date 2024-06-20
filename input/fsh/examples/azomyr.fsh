@@ -809,6 +809,444 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-49a6edf85307fce92cb7f88732583618
+InstanceOf: CompositionUvEpi
+Title: "Composition for azomyr Package Leaflet"
+Description:  "Composition for azomyr Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp49a6edf85307fce92cb7f88732583618)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - azomyr"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Azomyr e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Azomyr </li>
+<li>Como tomar Azomyr </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Azomyr </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é azomyr e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é azomyr e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Azomyr 
+Azomyr contém desloratadina que é um anti-histamínico. </p>
+<p>Como atua Azomyr 
+Azomyr é um medicamento antialérgico que não causa sonolência. Ajuda a controlar a sua reação 
+alérgica e os respetivos sintomas. </p>
+<p>Quando deve Azomyr ser utilizado 
+Azomyr alivia os sintomas associados à rinite alérgica (inflamação das vias nasais causada por uma 
+alergia, por exemplo, febre dos fenos ou alergia aos ácaros do pó) em adultos e adolescentes de idade 
+igual ou superior a 12 anos. Estes sintomas incluem espirros, corrimento ou prurido nasal, comichão 
+no palato e comichão, lacrimejo ou vermelhidão dos olhos. </p>
+<p>Azomyr é também utilizado para aliviar os sintomas associados à urticária (uma alteração da pele 
+causada por uma alergia). Estes sintomas incluem comichão e urticária. </p>
+<p>O alívio destes sintomas tem a duração de um dia inteiro e ajudá-lo-á a retomar as suas atividades 
+diárias normais e o sono. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar azomyr"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar azomyr"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Azomyr 
+- se tem alergia à desloratadina, ou a qualquer outro componente deste medicamento (indicados 
+na secção 6) ou à loratadina. </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Azomyr: 
+- se sofre de insuficiência renal. 
+- se tem antecedentes médicos ou familiares de convulsões. </p>
+<p>Crianças e adolescentes 
+Não dê este medicamento a crianças com menos de 12 anos de idade. </p>
+<p>Outros medicamentos e Azomyr<br />
+Não existem interações conhecidas de Azomyr com outros medicamentos. 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Azomyr com alimentos, bebidas e álcool 
+Azomyr pode ser tomado com ou sem alimentos. 
+Tenha precaução ao tomar Azomyr com álcool. </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.<br />
+Não é recomendado que tome Azomyr se está grávida ou a amamentar. 
+Não existem dados disponíveis sobre a fertilidade em homens/mulheres. </p>
+<p>Condução de veículos e utilização de máquinas 
+Na dose recomendada, não é previsível que este medicamento afete a sua capacidade de conduzir ou 
+utilizar máquinas. Embora a maioria das pessoas não sinta sonolência, recomenda-se que não realize 
+atividades que requeiram alerta mental, como conduzir um carro ou utilizar máquinas até ser 
+conhecida a sua resposta ao medicamento.  </p>
+<p>Azomyr comprimido contém lactose<br />
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar azomyr"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar azomyr"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.  </p>
+<p>Utilização em adultos e adolescentes com idade igual ou superior a 12 anos<br />
+A dose recomendada é um comprimido uma vez por dia, com água, com ou sem alimentos. </p>
+<p>Este medicamento é para uso oral. 
+Engula o comprimido inteiro. </p>
+<p>No que se refere à duração do tratamento, o seu médico irá determinar o tipo de rinite alérgica de que 
+sofre e durante quanto tempo deverá tomar Azomyr. 
+Se a sua rinite alérgica é intermitente (presença de sintomas durante menos de 4 dias por semana ou 
+durante menos de 4 semanas), o seu médico irá recomendar-lhe um esquema de tratamento que 
+dependerá da avaliação dos antecedentes da sua doença. 
+Se a sua rinite alérgica é persistente (presença de sintomas durante 4 dias ou mais por semana e 
+durante mais de 4 semanas), o seu médico poderá recomendar-lhe um tratamento mais prolongado. </p>
+<p>Para a urticária, a duração de tratamento pode ser variável de doente para doente e portanto deverá 
+seguir as instruções do seu médico. </p>
+<p>Se tomar mais Azomyr do que deveria 
+Só tome Azomyr de acordo com o que lhe foi prescrito. Não são previsíveis problemas graves em caso 
+de sobredosagem acidental. Todavia, se tomar uma dose de Azomyr superior à recomendada, contacte 
+imediatamente o seu médico, farmacêutico ou enfermeiro.  </p>
+<p>Caso se tenha esquecido de tomar Azomyr 
+Caso se tenha esquecido de tomar a sua dose na hora apropriada, tome a dose de que se esqueceu logo 
+que possível e retorne, seguidamente, ao seu esquema posológico regular. Não tome uma dose a 
+dobrar para compensar uma dose que se esqueceu de tomar.  </p>
+<p>Se parar de tomar Azomyr<br />
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Durante a comercialização de Azomyr foram muito raramente notificados casos de reações alérgicas 
+graves (dificuldade em respirar, pieira, comichão, urticária e inchaço). Se notar algum destes efeitos 
+indesejáveis graves, pare de tomar o medicamento e procure de imediato aconselhamento médico 
+urgente.  </p>
+<p>Em estudos clínicos em adultos, os efeitos indesejáveis foram aproximadamente os mesmos do que os 
+observados com um comprimido de placebo. Contudo, fadiga, boca seca e dor de cabeça foram 
+notificados mais frequentemente do que com um comprimido de placebo. A dor de cabeça foi o efeito 
+indesejável mais notificado nos adolescentes. </p>
+<p>Em estudos clínicos com Azomyr, foram notificados os seguintes efeitos indesejáveis: </p>
+<p>Frequentes: os seguintes efeitos podem afetar até 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>fadiga </p>
+</li>
+<li>
+<p>boca seca </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+</ul>
+<p>Durante a comercialização de Azomyr, foram notificados os seguintes efeitos indesejáveis: </p>
+<p>Muito raros: os seguintes efeitos podem afetar até 1 em 10.000 pessoas </p>
+<ul>
+<li>
+<p>reações alérgicas graves </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>palpitações ou batimento cardíaco irregular </p>
+</li>
+<li>
+<p>batimento cardíaco rápido </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>indisposição (náuseas) </p>
+</li>
+<li>
+<p>vómito </p>
+</li>
+<li>
+<p>mal-estar do estômago </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>sonolência </p>
+</li>
+<li>
+<p>incapacidade de dormir </p>
+</li>
+<li>
+<p>dores musculares </p>
+</li>
+<li>
+<p>alucinações </p>
+</li>
+<li>
+<p>convulsões </p>
+</li>
+<li>
+<p>agitação com aumento dos movimentos do corpo </p>
+</li>
+<li>
+<p>inflamação do fígado </p>
+</li>
+<li>
+<p>testes de função do fígado anormais </p>
+</li>
+</ul>
+<p>Desconhecido: a frequência não pode ser calculada a partir dos dados disponíveis </p>
+<ul>
+<li>
+<p>fraqueza pouco habitual </p>
+</li>
+<li>
+<p>amarelecimento da pele e/ou olhos </p>
+</li>
+<li>
+<p>sensibilidade aumentada da pele ao sol, mesmo no caso de céu nublado, e à luz UV por exemplo 
+radiação UV usada no solário </p>
+</li>
+<li>
+<p>alterações da forma como o coração bate </p>
+</li>
+<li>
+<p>comportamento anormal </p>
+</li>
+<li>
+<p>agressividade </p>
+</li>
+<li>
+<p>peso aumentado, apetite aumentado  </p>
+</li>
+<li>
+<p>humor depressivo </p>
+</li>
+<li>
+<p>olho seco </p>
+</li>
+</ul>
+<p>Crianças 
+Desconhecido: a frequência não pode ser calculada a partir dos dados disponíveis </p>
+<ul>
+<li>
+<p>batimento lento do coração </p>
+</li>
+<li>
+<p>alteração da forma como o coração bate </p>
+</li>
+<li>
+<p>comportamento anormal </p>
+</li>
+<li>
+<p>agressividade </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar azomyr"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar azomyr"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 30°C. Conservar na embalagem de origem. </p>
+<p>Não utilize este medicamento se verificar qualquer alteração no aspeto dos comprimidos. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Azomyr 
+- A substância ativa é a desloratadina 5 mg 
+- Os outros componentes do comprimido são o hidrogenofosfato de cálcio di-hidratado, a celulose 
+microcristalina, o amido de milho, o talco. O revestimento do comprimido é constituído por 
+uma película de revestimento (contendo lactose mono-hidratada (ver secção 2 “Azomyr 
+comprimido contém lactose"), hipromelose, dióxido de titânio, macrogol 400, indigotina 
+(E132)), um revestimento exterior transparente (contendo hipromelose, macrogol 400), cera de 
+carnaúba, cera branca. </p>
+<p>Qual o aspeto de Azomyr e conteúdo da embalagem 
+O comprimido revestido por película de Azomyr 5 mg é azul-claro, redondo e gravado com as letras 
+“S" e “P" alongadas em relevo num dos lados e liso do outro. 
+Os comprimidos revestidos por película de Azomyr 5 mg estão acondicionados em blisters em 
+embalagens de 1, 2, 3, 5, 7, 10, 14, 15, 20, 21, 30, 50 ou 100 comprimidos. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Titular da Autorização de Introdução no Mercado: 
+N.V. Organon 
+Kloosterstraat 6 
+5349 AB Oss 
+Países Baixos </p>
+<p>Fabricante: Organon Heist bv, Industriepark 30, 2220 Heist-op-den-Berg, Bélgica. </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Organon Belgium 
+Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+dpoc.benelux@organon.com </p>
+<p>Lietuva 
+Organon Pharma B.V. Lithuania atstovybė 
+Tel.: +370 52041dpoc.lithuania@organon.com </p>
+<p>България 
+Органон (И.А.) Б.В. - клон България 
+Тел.: +359 2 806 3dpoc.bulgaria@organon.com  </p>
+<p>Luxembourg/Luxemburg 
+Organon Belgium 
+Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+dpoc.benelux@organon.com </p>
+<p>Česká republika 
+Organon Czech Republic s.r.o. 
+Tel.: +420 233 010 dpoc.czech@organon.com </p>
+<p>Magyarország 
+Organon Hungary Kft. 
+Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
+<p>Danmark 
+Organon Denmark ApS 
+Tlf: + 45 4484 6info.denmark@organon.com </p>
+<p>Malta 
+Organon Pharma B.V., Cyprus branch 
+Tel: +356 2277 8dpoc.cyprus@organon.com </p>
+<p>Deutschland 
+Organon Healthcare GmbH 
+Tel: 0800 3384 726 (+49 (0) 89 2040022 10) 
+dpoc.germany@organon.com </p>
+<p>Nederland 
+N.V. Organon 
+Tel.: 00800 66550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Eesti 
+Organon Pharma B.V. Estonian RO 
+Tel: +372 66 61 dpoc.estonia@organon.com </p>
+<p>Norge 
+Organon Norway AS 
+Tlf: +47 24 14 56 info.norway@organon.com </p>
+<p>Ελλάδα 
+N.V. Organon 
+Τηλ: +30-216 6008 
+Österreich 
+Organon Austria GmbH 
+Tel: +43 (0) 1 263 28 dpoc.austria@organon.com </p>
+<p>España 
+Organon Salud, S.L. 
+Tel: +34 91 591 12 organon_info@organon.com 
+Polska 
+Organon Polska Sp. z o.o. 
+Tel.: +48 22 105 50 organonpolska@organon.com </p>
+<p>France 
+Organon France 
+Tél: + 33 (0) 1 57 77 32<br />
+Portugal 
+Organon Portugal, Sociedade Unipessoal Lda. 
+Tel: +351 218705geral_pt@organon.com </p>
+<p>Hrvatska 
+Organon Pharma d.o.o. 
+Tel: +385 1 638 4dpoc.croatia@organon.com </p>
+<p>România 
+Organon Biosciences S.R.L. 
+Tel: +40 21 527 29 dpoc.romania@organon.com </p>
+<p>Ireland 
+Organon Pharma (Ireland) Limited 
+Tel: +353 15828medinfo.ROI@organon.com </p>
+<p>Slovenija 
+Organon Pharma B.V., Oss, podružnica 
+Ljubljana 
+Tel: +386 1 300 10 dpoc.slovenia@organon.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Organon Slovakia s. r. o. 
+Tel: +421 2 44 88 98 dpoc.slovakia@organon.com  </p>
+<p>Italia 
+Organon Italia S.r.l. 
+Tel: +39 06 90259dpoc.italy@organon.com </p>
+<p>Suomi/Finland 
+Organon Finland Oy 
+Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
+<p>Κύπρος 
+Organon Pharma B.V., Cyprus branch 
+Τηλ: +357 22866dpoc.cyprus@organon.com </p>
+<p>Sverige 
+Organon Sweden AB 
+Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
+<p>Latvija 
+Ārvalsts komersanta “Organon Pharma B.V." 
+pārstāvniecība 
+Tel: +371 66968dpoc.latvia@organon.com </p>
+<p>United Kingdom (Northern Ireland) 
+Organon Pharma (UK) Limited 
+Tel: +44 (0) 208 159 3medicalinformationuk@organon.com  </p>
+<p>Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt;&lt;{mês de AAAA}.&gt; </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -850,6 +1288,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-49a6edf85307fce92cb7f88732583618"
 * entry[0].resource = composition-da-49a6edf85307fce92cb7f88732583618
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp49a6edf85307fce92cb7f88732583618"
+* entry[=].resource = mp49a6edf85307fce92cb7f88732583618
+                            
+                    
+Instance: bundlepackageleaflet-pt-49a6edf85307fce92cb7f88732583618
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for azomyr Package Leaflet for language pt"
+Description: "ePI document Bundle for azomyr Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-49a6edf85307fce92cb7f88732583618"
+* entry[0].resource = composition-pt-49a6edf85307fce92cb7f88732583618
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp49a6edf85307fce92cb7f88732583618"
@@ -951,6 +1411,18 @@ RuleSet: 49a6edf85307fce92cb7f88732583618ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-49a6edf85307fce92cb7f88732583618) // azomyr pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

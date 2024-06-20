@@ -854,6 +854,367 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nye
 
 
 
+Instance: composition-pt-7aec1315865776793cc9c31ea9e857c4
+InstanceOf: CompositionUvEpi
+Title: "Composition for fasenra Package Leaflet"
+Description:  "Composition for fasenra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7aec1315865776793cc9c31ea9e857c4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - fasenra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Fasenra e para que é utilizado 
+2. O que precisa de saber antes de utilizar Fasenra
+3. Como utilizar Fasenra
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Fasenra
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é fasenra e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é fasenra e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Fasenra
+Fasenra contém a substância ativa benralizumab, que é um anticorpo monoclonal, um tipo de proteína que 
+reconhece e se liga a uma substância-alvo específica no corpo. O alvo do benralizumab é uma proteína
+denominada recetor da interleucina-5, que se encontra particularmente num tipo de glóbulos brancos do 
+sangue chamados eosinófilos. 
+Para que é utilizado Fasenra
+Fasenra é utilizado para tratar a asma eosinofílica grave em adultos. A asma eosinofílica é um tipo de 
+asma em que os doentes têm muitos eosinófilos no sangue ou nos pulmões. 
+Fasenra é utilizado em conjunto com outros medicamentos para tratar a asma (doses elevadas de
+“corticosteroides inalados" associados a outros medicamentos para a asma) quando a doença não está bem 
+controlada por outros medicados isoladamente. 
+Como atua Fasenra
+Os eosinófilos são glóbulos brancos envolvidos na inflamação da asma. Ao ligar-se aos eosinófilos, 
+Fasenra ajuda a reduzir o seu número e a inflamação. 
+Quais são os benefícios de utilizar Fasenra
+Fasenra pode reduzir o número de ataques de asma que tem, ajuda-o a respirar melhor e diminui os seus 
+sintomas da asma. Se estiver a tomar medicamentos denominados “corticosteroides orais", a utilização de 
+Fasenra também pode permitir que reduza a dose diária ou pare os corticosteroides orais que precisa para 
+controlar a sua asma.
+36</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar fasenra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar fasenra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não utilize Fasenra:</h2>
+<p>se tem alergia ao benralizumab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Verifique com o seu médico, enfermeiro ou farmacêutico se pensa que isto se aplica a 
+si.
+Advertências e precauções
+Fale com o seu médico, enfermeiro ou farmacêutico antes de lhe ser administrado Fasenra:
+-
+se tiver uma infeção parasitária ou se vive numa zona onde as infeções parasitárias são frequentes, 
+ou está a viajar para uma dessas zonas. Este medicamento pode enfraquecer a sua capacidade de 
+combater certos tipos de infeções parasitárias;
+-
+se já teve uma reação alérgica a uma injeção ou medicamento no passado (ver secção 4 para 
+sintomas de reação alérgica).
+Fale também com o seu médico, enfermeiro ou farmacêutico quando lhe for administrado Fasenra:
+-
+se a sua asma continuar não controlada ou se piorar durante o tratamento com este
+medicamento.
+-
+se tiver sintomas de reação alérgica (ver secção 4). Ocorreram reações alérgicas em doentes a 
+utilizar este medicamento.
+Fasenra não é um medicamento de alívio. Não o utilize para tratar um ataque repentino de asma.
+Fique atento aos sinais de reações alérgicas graves
+Fasenra pode potencialmente causar reações alérgicas graves. Fique atento a sinais destas reações (tais 
+como urticária, erupção na pele, dificuldade em respirar, desmaio, tonturas, sensação de tontura e/ou 
+inchaço da face, língua ou boca) enquanto estiver a utilizar Fasenra.
+É importante falar com seu médico sobre como reconhecer os primeiros sintomas de reações alérgicas
+graves e como gerir estas reações, caso ocorram.
+Outros medicamentos para a asma
+Não pare de tomar repentinamente ou altere a dose dos seus medicamentos preventivos para a sua asma 
+quando começar o tratamento com Fasenra.
+Se a sua resposta ao tratamento o permitir, o seu médico pode tentar reduzir a dose de alguns dos outros 
+medicamentos, especialmente aqueles denominados “corticosteroides". Isto deve ser feito gradualmente e
+sob supervisão direta do seu médico.
+Crianças e adolescentes
+Não dê este medicamento a crianças com idade inferior a 18 anos porque a segurança e os benefícios deste 
+medicamento não são conhecidos nesta população.
+Outros medicamentos e Fasenra
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos antes de utilizar Fasenra.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico
+antes de utilizar este medicamento. 
+Não utilize Fasenra se estiver grávida, salvo indicação médica em contrário. Não é conhecido se Fasenra
+pode prejudicar o seu bebé.
+37
+Não é conhecido se os componentes de Fasenra podem passar para o leite materno. Se está a amamentar
+ou planeia amamentar, fale com o seu médico.
+Condução de veículos e utilização de máquinas
+É improvável que Fasenra afete a sua capacidade de conduzir e utilizar máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar fasenra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar fasenra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico, enfermeiro 
+ou farmacêutico se tiver dúvidas.
+A dose recomendada é uma injeção de 30 mg. As primeiras 3 injeções são administradas a cada 
+4 semanas. Depois, as injeções de 30 mg serão a cada 8 semanas. 
+Fasenra é administrado através de uma injeção debaixo da pele (via subcutânea). Você e o seu médico ou 
+enfermeiro devem decidir se pode administrar Fasenra a si próprio. Não deve administrar Fasenra a si 
+próprio se não foi tratado anteriormente com Fasenra e se teve uma reação alérgica anterior com Fasenra.
+Você ou o seu cuidador devem receber treino para a correta administração de Fasenra. Leia 
+cuidadosamente as “Instruções de Utilização" da seringa pré-cheia antes de utilizar Fasenra.
+Caso se tenha esquecido de utilizar Fasenra
+Se se esqueceu de administrar a dose de Fasenra, fale com o seu médico, farmacêutico ou enfermeiro 
+assim que possível.
+Se parar de utilizar Fasenra
+Não pare o tratamento com Fasenra, a não ser que o seu médico lhe diga para o fazer. Interromper ou 
+parar o tratamento com Fasenra pode fazer com que seus sintomas e ataques de asma regressem.
+Se os seus sintomas da asma piorarem enquanto está a administrar Fasenra, contacte o seu médico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou
+enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Reações alérgicas graves
+Procure assistência médica imediatamente se pensa que pode estar a ter uma reação alérgica. Estas
+reações podem ocorrer horas ou dias após a injeção.
+Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis):
+
+anafilaxia
+os sintomas geralmente incluem:
+o
+inchaço da sua face, língua ou boca
+o
+problemas em respirar
+o
+desmaio, tonturas, sensação de desmaio (devido a uma diminuição da tensão arterial)
+38
+Frequentes (podem afetar até 1 em cada 10 pessoas):
+
+reações de hipersensibilidade (urticária, erupção na pele)
+Outros efeitos indesejáveis:
+Frequentes (podem afetar até 1 em cada 10 pessoas)
+
+dor de cabeça
+
+faringite (dor de garganta)
+
+febre (temperatura elevada)
+
+reação no local de injeção (por exemplo dor, vermelhidão, comichão, inchaço na zona onde a 
+injeção foi administrada)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar fasenra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar fasenra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Fasenra é para utilização única.
+Não utilize este medicamento após o prazo de validade impresso no rótulo e embalagem após “EXP". O 
+prazo de validade corresponde ao último dia do mês indicado.
+Conserve na embalagem original para proteger da luz.
+Conserve no frigorífico (2 °C a 8 °C).
+A seringa pode ser mantida à temperatura ambiente até 25°C por um período máximo de 14 dias. Após 
+retirar do frigorífico, Fasenra tem que ser utilizado em 14 dias ou, caso contrário, tem que ser rejeitado, e a 
+data de eliminação deve ser escrita na embalagem.
+Não agite, congele ou exponha ao calor.
+Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora os 
+medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Fasenra
+A substância ativa é o benralizumab. Cada seringa pré-cheia com 1 ml de solução contém 30 mg de 
+benralizumab.
+Os outros componentes são a histidina, cloridrato de histidina mono-hidratado, trealose di-hidratada, 
+polissorbato 20 e água para preparações injetáveis.
+Qual o aspeto de Fasenra e conteúdo da embalagem
+Fasenra é uma solução numa seringa de vidro transparente. A sua cor pode variar de incolor a amarelo. 
+Pode conter partículas.
+Fasenra está disponível em embalagens contendo 1 seringa pré-cheia.
+39
+Titular da Autorização de Introdução no Mercado 
+AstraZeneca AB
+SE-151 85
+Södertälje
+Suécia
+Fabricante
+AstraZeneca AB
+Gärtunavägen
+SE-152 57 Södertälje
+Suécia
+MedImmune UK Ltd
+6 Renaissance Way
+Liverpool, L24 9JW
+Reino Unido
+AstraZeneca Nijmegen B.V., Nijmegen
+Lagelandseweg 78
+Njimegen, 6545CG
+Holanda
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+40
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska 
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Este folheto foi revisto pela última vez em 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -895,6 +1256,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-7aec1315865776793cc9c31ea9e857c4"
 * entry[0].resource = composition-da-7aec1315865776793cc9c31ea9e857c4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7aec1315865776793cc9c31ea9e857c4"
+* entry[=].resource = mp7aec1315865776793cc9c31ea9e857c4
+                            
+                    
+Instance: bundlepackageleaflet-pt-7aec1315865776793cc9c31ea9e857c4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fasenra Package Leaflet for language pt"
+Description: "ePI document Bundle for fasenra Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-7aec1315865776793cc9c31ea9e857c4"
+* entry[0].resource = composition-pt-7aec1315865776793cc9c31ea9e857c4
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp7aec1315865776793cc9c31ea9e857c4"
@@ -996,6 +1379,18 @@ RuleSet: 7aec1315865776793cc9c31ea9e857c4ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-7aec1315865776793cc9c31ea9e857c4) // fasenra pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

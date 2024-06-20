@@ -1498,6 +1498,1117 @@ observeres synligt uigennemsigtige partikler, misfarvning eller fremmedlegemer.
 
 
 
+Instance: composition-pt-909f6f2d2e9597ae246c0a311cd0f289
+InstanceOf: CompositionUvEpi
+Title: "Composition for zessly Package Leaflet"
+Description:  "Composition for zessly Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp909f6f2d2e9597ae246c0a311cd0f289)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - zessly"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Zessly e para que é utilizado
+2. O que precisa de saber antes de utilizar Zessly
+3. Como será administrado Zessly
+4. Efeitos indesejáveis possíveis
+5. Como conservar Zessly
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é zessly e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é zessly e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zessly contém a substância ativa infliximab. Infliximab é um anticorpo monoclonal - um tipo de 
+proteína que se liga a um alvo específico no organismo chamado TNF (fator de necrose tumoral) alfa.
+Zessly pertence a um grupo de medicamentos denominados “antagonistas do TNF". É utilizado em 
+adultos para as seguintes doenças inflamatórias:</p>
+<ul>
+<li>
+<p>Artrite reumatoide</p>
+</li>
+<li>
+<p>Artrite psoriática</p>
+</li>
+<li>
+<p>Espondilite anquilosante (Doença de Bechterew)</p>
+</li>
+<li>
+<p>Psoríase
+Zessly é também utilizado em adultos e crianças com idade igual ou superior a 6 anos para:</p>
+</li>
+<li>
+<p>Doença de Crohn</p>
+</li>
+<li>
+<p>Colite ulcerosa
+Zessly atua ligando-se seletivamente ao TNF alfa e inibindo a sua ação. O TNF alfa está envolvido nos 
+processos inflamatórios do corpo e a sua inibição pode reduzir a inflamação no seu corpo.
+Artrite reumatoide
+A artrite reumatoide é uma doença inflamatória das articulações. No caso de sofrer de artrite 
+reumatoide ativa receberá primeiro tratamento com outros medicamentos. Se estes medicamentos não 
+funcionarem de modo suficiente, ser-lhe-á administrado Zessly, o qual será administrado em 
+associação com outro medicamento chamado metotrexato para:</p>
+</li>
+<li>
+<p>Reduzir os sinais e sintomas da sua doença</p>
+</li>
+<li>
+<p>Retardar a progressão das lesões ao nível das suas articulações</p>
+</li>
+<li>
+<p>Melhorar a sua função física.
+55
+Artrite psoriática
+A artrite psoriática é uma doença inflamatória das articulações, geralmente acompanhada por psoríase. 
+No caso de sofrer de artrite psoriática ativa receberá primeiro tratamento com outros medicamentos. 
+Se esses medicamentos não funcionarem de modo suficiente, ser-lhe-á administrado Zessly para:</p>
+</li>
+<li>
+<p>Reduzir os sinais e sintomas da sua doença</p>
+</li>
+<li>
+<p>Retardar a progressão das lesões ao nível das suas articulações</p>
+</li>
+<li>
+<p>Melhorar a sua função física.
+Espondilite anquilosante (doença de Bechterew)
+A espondilite anquilosante é uma doença inflamatória da espinha dorsal. No caso de sofrer de 
+espondilite anquilosante receberá primeiro tratamento com outros medicamentos. Se esses 
+medicamentos não funcionarem de modo suficiente, ser-lhe-á administrado Zessly para:</p>
+</li>
+<li>
+<p>Reduzir os sinais e sintomas da sua doença</p>
+</li>
+<li>
+<p>Melhorar a sua função física.
+Psoríase
+A psoríase é uma doença inflamatória da pele. No caso de sofrer de psoríase em placas moderada a 
+grave, receberá primeiro tratamento com outros medicamentos ou tratamentos, tal como fototerapia. 
+Se esses medicamentos ou tratamentos não funcionarem de modo suficiente, ser-lhe-á administrado 
+Zessly para reduzir os sinais e sintomas da sua doença.
+Colite ulcerosa
+A colite ulcerosa é uma doença inflamatória do intestino. No caso de sofrer de colite ulcerosa receberá 
+primeiro tratamento com outros medicamentos. Se esses medicamentos não funcionarem de modo 
+suficiente, ser-lhe-á administrado Zessly para tratar a sua doença.
+Doença de Crohn
+A doença de Crohn é uma doença inflamatória do intestino. No caso de sofrer de doença de Crohn 
+receberá primeiro tratamento com outros medicamentos. Se esses medicamentos não funcionarem de 
+modo suficiente, ser-lhe-á administrado Zessly para:</p>
+</li>
+<li>
+<p>tratar a doença de Crohn ativa</p>
+</li>
+<li>
+<p>reduzir o número de aberturas anormais (fístulas) entre o seu intestino e a sua pele que não 
+foram controladas com outros medicamentos ou cirurgia.</p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar zessly"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar zessly"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe deve ser administrado Zessly se:</p>
+<ul>
+<li>
+<p>Tem alergia ao infliximab ou a qualquer outro componente deste medicamento (listado na 
+secção 6).</p>
+</li>
+<li>
+<p>Tem alergia (hipersensibilidade) às proteínas de rato.</p>
+</li>
+<li>
+<p>Tem tuberculose (TB) ou outra infeção grave tal como pneumonia ou sepsis.</p>
+</li>
+<li>
+<p>Tem insuficiência cardíaca moderada ou grave.
+Não use Zessly se alguma das situações acima se aplica a si. Se não tiver a certeza, fale com o seu 
+médico antes de lhe ser administrado Zessly.
+Advertências e precauções
+Fale com o seu médico antes ou durante o tratamento com Zessly se tem
+Foi tratado com qualquer medicamento contendo infliximab anteriormente</p>
+</li>
+<li>
+<p>Informe o seu médico se tiver sido tratado com medicamentos contendo infliximab no passado 
+e está agora a iniciar novamente o tratamento com o Zessly.</p>
+</li>
+<li>
+<p>Se tiver feito um intervalo superior a 16 semanas no seu tratamento com infliximab, existe um 
+risco mais elevado de reações alérgicas ao iniciar o tratamento.
+56
+Infeções</p>
+</li>
+<li>
+<p>Informe o seu médico antes de lhe ser administrado Zessly se tiver alguma infeção, mesmo que 
+seja mínima.</p>
+</li>
+<li>
+<p>Antes de lhe ser administrado Zessly, fale com o seu médico se tiver residido ou viajado para 
+uma região onde infeções como a histoplasmose, coccidioidomicose ou blastomicose são 
+frequentes. Estas infeções são causadas por tipos específicos de fungos que podem afetar os 
+pulmões ou outras partes do seu corpo.</p>
+</li>
+<li>
+<p>Pode apanhar infeções mais facilmente enquanto está a ser tratado com Zessly. Se tem 65 anos 
+de idade ou mais, tem um risco maior.</p>
+</li>
+<li>
+<p>Estas infeções podem ser graves e incluem a tuberculose, infeções causadas por vírus, fungos, 
+bactérias ou outros organismos do ambiente e sepsis que podem pôr a sua vida em risco.
+Informe imediatamente o seu médico se tiver sinais de infeção durante o tratamento com Zessly. 
+Estes sinais incluem febre, tosse, sinais de gripe, mal-estar, calor ou pele vermelha, feridas ou 
+problemas dentários. O seu médico poderá recomendar parar temporariamente Zessly.
+Tuberculose (TB)</p>
+</li>
+<li>
+<p>É muito importante que informe o seu médico se já teve TB ou se esteve em contacto próximo 
+com alguém que tenha tido TB.</p>
+</li>
+<li>
+<p>O seu médico irá fazer-lhe o teste para ver se tem TB. Têm sido notificados casos de TB em 
+doentes tratados com infliximab, mesmo em doentes que foram já tratados com medicamentos 
+para a TB. O seu médico irá registar estes testes no seu cartão de lembrete do doente.</p>
+</li>
+<li>
+<p>Se o seu médico achar que está em risco de ter TB, poderá ser tratado com medicamentos para 
+a TB antes de lhe ser administrado Zessly.
+Informe imediatamente o seu médico se tiver sinais de TB durante o tratamento com Zessly. 
+Estes sinais incluem tosse persistente, perda de peso, cansaço, febre, suores noturnos.
+Vírus da Hepatite B</p>
+</li>
+<li>
+<p>Informe o seu médico antes de lhe ser administrado Zessly se for um portador de hepatite B ou 
+se já a tiver tido.</p>
+</li>
+<li>
+<p>Informe o seu médico se pensa que pode estar em risco de contrair hepatite B.</p>
+</li>
+<li>
+<p>O seu médico deverá fazer-lhe um teste para o vírus da hepatite B.</p>
+</li>
+<li>
+<p>O tratamento com antagonistas do TNF, tal como Zessly, pode resultar na reativação do vírus da 
+hepatite B em doentes portadores deste vírus, que em alguns casos pode pôr a sua vida em risco.
+Problemas no coração</p>
+</li>
+<li>
+<p>Informe o seu médico se tem qualquer problema no coração, tal como insuficiência cardíaca 
+ligeira.</p>
+</li>
+<li>
+<p>O seu médico irá querer monitorizar cuidadosamente o seu coração.
+Informe imediatamente o seu médico se tiver sinais novos ou agravamento da insuficiência cardíaca 
+durante o tratamento com Zessly. Estes sinais incluem dificuldade em respirar ou inchaço nos pés.
+Cancro e linfoma</p>
+</li>
+<li>
+<p>Informe o seu médico antes de lhe ser administrado Zessly se tem ou teve linfoma (um tipo de 
+cancro do sangue) ou qualquer outro cancro.</p>
+</li>
+<li>
+<p>Doentes com artrite reumatoide grave que sofrem da doença há muito tempo, podem ter um 
+risco mais elevado de desenvolver linfoma.</p>
+</li>
+<li>
+<p>Crianças e adultos a utilizar Zessly podem ter um risco aumentado de desenvolver linfoma ou 
+outro cancro.</p>
+</li>
+<li>
+<p>Alguns doentes tratados com antagonistas do TNF, incluindo infliximab desenvolveram um tipo 
+de cancro raro chamado linfoma hepatoesplénico das células T. Destes doentes, a maior parte 
+eram adolescentes ou adultos jovens do sexo masculino e a maioria tinha doença de Crohn ou 
+colite ulcerosa. Este tipo de cancro tem habitualmente levado à morte. Quase todos os doentes 
+receberam igualmente medicamentos contendo azatioprina ou 6-mercaptopurina além do 
+antagonista do TNF.
+57</p>
+</li>
+<li>
+<p>Alguns doentes tratados com infliximab desenvolveram certos tipos de cancro de pele. Se 
+ocorrer alguma alteração na sua pele, ou crescimento de sinais na pele, durante ou após o 
+tratamento, fale com o seu médico.</p>
+</li>
+<li>
+<p>Algumas mulheres em tratamento para a artrite reumatoide com infliximab desenvolveram 
+cancro do colo do útero. Para mulheres a utilizar Zessly, incluindo mulheres com mais de 
+60 anos de idade, o seu médico poderá recomendar rastreio regular para o cancro do colo do 
+útero.
+Doença nos pulmões ou hábitos tabágicos intensos</p>
+</li>
+<li>
+<p>Informe o seu médico antes de lhe ser administrado Zessly se tem uma doença nos pulmões 
+denominada doença pulmonar obstrutiva crónica (DPOC) ou se tem hábitos tabágicos intensos.</p>
+</li>
+<li>
+<p>Doentes com DPOC e doentes com hábitos tabágicos intensos podem ter um risco mais elevado 
+de desenvolver cancro com o tratamento com Zessly.
+Doenças do sistema nervoso</p>
+</li>
+<li>
+<p>Informe o seu médico se tem ou teve um problema que afete o seu sistema nervoso antes de lhe 
+ser administrado Zessly. Isto inclui esclerose múltipla, síndrome de Guillain-Barre, se tem 
+convulsões ou se lhe foi diagnosticado nevrite ótica.
+Informe imediatamente o seu médico se tiver sintomas de uma doença do sistema nervoso durante o 
+tratamento com Zessly. Os sinais incluem alterações na sua visão, fraqueza nos seus braços ou pernas, 
+entorpecimento ou formigueiro em qualquer parte do seu corpo.
+Aberturas anormais na pele</p>
+</li>
+<li>
+<p>Informe o seu médico se tem quaisquer aberturas anormais na pele (fístulas) antes de lhe ser 
+administrado Zessly.
+Vacinação</p>
+</li>
+<li>
+<p>Fale com o seu médico se tiver recebido recentemente ou tem programado receber uma vacina.</p>
+</li>
+<li>
+<p>Deve receber as vacinas recomendadas antes de iniciar o tratamento com Zessly. Poderá receber 
+algumas vacinas durante o tratamento com Zessly mas não poderá receber vacinas vivas 
+(vacinas que contêm um agente infecioso vivo mas enfraquecido) enquanto está a fazer 
+tratamento com Zessly uma vez que podem causar infeções.</p>
+</li>
+<li>
+<p>Se recebeu Zessly enquanto estava grávida, o seu bebé pode também ter um maior risco de 
+contrair uma infeção como resultado de lhe ter sido administrado uma vacina viva durante o 
+primeiro ano de vida. É importante que informe os médicos do seu filho e outros profissionais 
+de saúde sobre a utilização de Zessly para que eles possam decidir quando o seu bebé deve 
+receber qualquer vacina, incluindo vacinas vivas como a vacina BCG (usada na prevenção da 
+tuberculose). </p>
+</li>
+<li>
+<p>Se está a amamentar é importante que informe os médicos do seu bebé e outros profissionais de 
+saúde sobre a utilização de Zessly antes de o seu bebé receber qualquer vacina. Para mais 
+informações ver secção relativa à Gravidez e amamentação.
+Agentes terapêuticos infecciosos</p>
+</li>
+<li>
+<p>Fale com o seu médico se tiver recebido recentemente ou tem programado receber tratamento 
+com um agente terapêutico infeccioso (como instilação de BCG usada no tratamento do cancro).
+Cirurgia ou tratamentos dentários</p>
+</li>
+<li>
+<p>Informe o seu médico se vai ser sujeito a qualquer cirurgia ou tratamento dentário.</p>
+</li>
+<li>
+<p>Informe o seu cirurgião ou dentista que está a fazer tratamento com Zessly e mostre-lhe o seu 
+cartão de lembrete do doente.
+Problemas de fígado</p>
+</li>
+<li>
+<p>Alguns doentes a receber tratamento com medicamentos que contenham infliximab 
+desenvolveram problemas de fígado graves.
+58
+Informe imediatamente o seu médico se tiver sintomas de problemas de fígado durante o tratamento 
+com Zessly. Os sinais incluem pele ou olhos amarelados, urina de cor castanha escura, dor ou inchaço 
+no lado superior direito na zona do estômago, dor nas articulações, erupções na pele ou febre.
+Baixo número de células no sangue</p>
+</li>
+<li>
+<p>Em alguns doentes a receber tratamento com medicamentos que contenham infliximab, o 
+organismo pode não produzir em quantidade suficiente as células sanguíneas que ajudam a 
+combater infeções ou que ajudam a parar hemorragias.
+Informe imediatamente o seu médico se tiver sintomas de baixo número de células no sangue durante 
+o tratamento com Zessly. Os sinais incluem febre persistente, hemorragias ou nódoas negras com 
+maior facilidade, pequenos pontos roxos ou vermelhos causados por hemorragia debaixo da pele ou 
+palidez.
+Alteração do sistema imunitário</p>
+</li>
+<li>
+<p>Alguns doentes a receber tratamento com medicamentos que contenham infliximab 
+desenvolveram sintomas de uma alteração do sistema imunitário chamada lúpus.
+Informe imediatamente o seu médico se desenvolver sintomas de lúpus durante o tratamento com 
+Zessly. Os sinais incluem dor nas articulações ou erupção da pele na face ou braços, sensível ao sol.
+Crianças e adolescentes
+A informação descrita acima também se aplica a crianças e adolescentes. Além disso:</p>
+</li>
+<li>
+<p>Algumas crianças e adolescentes que receberam antagonistas do TNF, como o infliximab, 
+desenvolveram cancros, incluindo de tipos não habituais, que algumas vezes resultaram em 
+morte.</p>
+</li>
+<li>
+<p>Mais crianças a tomar infliximab desenvolveram infeções em comparação com os adultos.</p>
+</li>
+<li>
+<p>As crianças devem receber a vacinação recomendada antes de iniciarem o tratamento com 
+Zessly. As crianças poderão receber algumas vacinas durante o tratamento com Zessly, mas não 
+devem receber vacinas vivas enquanto estão a fazer tratamento com Zessly.
+Se não tem a certeza se qualquer uma das situações acima se aplica a si, fale com o seu médico antes 
+de lhe ser administrado Zessly.
+Outros medicamentos e Zessly
+Doentes que tenham doenças inflamatórias já tomam medicamentos para tratar o seu problema. 
+Estes medicamentos podem causar efeitos indesejáveis. O seu médico irá aconselhá-lo sobre os 
+medicamentos que deve continuar a utilizar enquanto está a fazer tratamento com Zessly.
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos, incluindo qualquer outro medicamento usado no tratamento da doença de Crohn, colite 
+ulcerosa, artrite reumatoide, espondilite anquilosante, artrite psoriática ou psoríase ou medicamentos 
+não sujeitos a receita médica, tais como vitaminas e medicamentos à base de plantas.
+Em particular, informe o seu médico se estiver a utilizar qualquer um dos seguintes medicamentos:</p>
+</li>
+<li>
+<p>Medicamentos que afetam o seu sistema imunitário.</p>
+</li>
+<li>
+<p>Kineret (anacinra). Zessly e Kineret não devem ser administrados em conjunto.</p>
+</li>
+<li>
+<p>Orencia (abatacept). Zessly e Orencia não devem ser administrados em conjunto.
+Enquanto estiver a utilizar Zessly não deverá receber vacinas vivas. Se estava a utilizar Zessly durante 
+a gravidez ou se está a receber Zessly enquanto está a amamentar, informe o médico do seu bebé e 
+outros profissionais de saúde que cuidem do seu bebé sobre a utilização de Zessly antes de o bebé 
+receber qualquer vacina.
+Se não tem a certeza se qualquer uma das situações acima se aplica a si, fale com o seu médico ou 
+farmacêutico antes de utilizar Zessly.
+59
+Gravidez, amamentação e fertilidade</p>
+</li>
+<li>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico antes de tomar este medicamento. Zessly apenas deve ser utilizado durante a gravidez 
+ou amamentação se o seu médico considerar que é necessário para si.</p>
+</li>
+<li>
+<p>Deve evitar ficar grávida enquanto estiver a fazer tratamento com o Zessly e durante 6 meses 
+após o fim do tratamento. Discuta com o seu médico a utilização de contraceção durante este 
+tempo.</p>
+</li>
+<li>
+<p>Se recebeu Zessly durante a gravidez, o seu bebé pode ter um maior risco de contrair uma 
+infeção.</p>
+</li>
+<li>
+<p>É importante que informe os médicos do seu filho e outros profissionais de saúde sobre a 
+utilização de Zessly antes de ser dada qualquer vacina ao seu bebé. Se recebeu Zessly durante a 
+gravidez, dar a vacina BCG (usada na prevenção de tuberculose) ao seu bebé no período de 
+12 meses após o seu nascimento pode resultar numa infeção com complicações graves, 
+incluindo morte. Vacinas vivas, como a vacina BCG não devem ser administradas ao seu bebé 
+no período de 12 meses após o nascimento, exceto recomendação contrária pelo médico do seu 
+bébé. Para mais informações consulte a secção sobre vacinação. </p>
+</li>
+<li>
+<p>Se está a amamentar é importante que informe os médicos do seu bebé e outros profissionais de 
+saúde sobre a utilização de Zessly antes de ser dada qualquer vacina ao seu bebé. Se está a 
+amamentar, não devem ser administradas vacinas vivas ao seu bébé, exceto recomendação 
+contrária pelo médico do seu bébé.</p>
+</li>
+<li>
+<p>Foram comunicados casos de diminuição acentuada do número de glóbulos brancos do sangue 
+em lactentes cujas mães foram tratadas com infliximab durante a gravidez. Se o seu bebé tem 
+febre contínua ou infeções, contacte o médico do seu bebé de imediato.
+Condução de veículos e utilização de máquinas
+Não é provável que Zessly afete a sua capacidade de conduzir ou utilizar ferramentas ou máquinas. 
+Se sentir cansaço, tonturas ou mal-estar após a administração de Zessly, não conduza ou utilize 
+quaisquer ferramentas ou máquinas.
+Zessly contém sódio
+Zessly contém menos de 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente “isento de sódio". 
+No entanto, antes de lhe ser dado Zessly, ele é misturado com uma solução que contém sódio. Fale 
+com o seu médico se estiver numa dieta com restrição em sal.</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar zessly"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar zessly"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Artrite reumatoide
+A dose habitual é de 3 mg por cada kg de peso corporal.
+Artrite psoriática, espondilite anquilosante (doença de Bechterew), psoríase, colite ulcerosa e 
+doença de Crohn
+A dose habitual é de 5 mg por cada kg de peso corporal.
+Como será administrado Zessly</p>
+<ul>
+<li>
+<p>Zessly irá ser-lhe administrado pelo seu médico ou enfermeiro.</p>
+</li>
+<li>
+<p>O seu médico ou enfermeiro irá preparar o medicamento para perfusão.</p>
+</li>
+<li>
+<p>O medicamento irá ser-lhe administrado por perfusão (gota-a-gota) (durante 2 horas) numa das 
+suas veias, habitualmente do seu braço. Após o terceiro tratamento, o seu médico poderá decidir 
+administrar-lhe a sua dose de Zessly durante 1 hora.</p>
+</li>
+<li>
+<p>Será monitorizado enquanto lhe é administrado Zessly assim como nas 1 a 2 horas seguintes.
+60
+Qual a dose de Zessly administrada</p>
+</li>
+<li>
+<p>O médico irá decidir qual a sua dose e com que frequência lhe será administrado Zessly. Isto irá 
+depender da sua doença, peso e como responde a Zessly.</p>
+</li>
+<li>
+<p>A tabela abaixo mostra com que frequência irá habitualmente ser-lhe administrado este 
+medicamento após a sua primeira dose.
+Dose do 2.º tratamento
+2 semanas após a sua 1º dose
+Dose do 3.º tratamento
+6 semanas após a sua 1º dose
+Dose dos tratamentos seguintes
+A cada 6 a 8 semanas, dependendo da sua 
+doença
+Utilização em crianças e adolescentes
+Zessly só deve ser utilizado em crianças que estejam a fazer tratamento para a doença de Crohn ou 
+colite ulcerosa. Estas crianças devem ter idade igual ou superior a 6 anos.
+Se lhe for administrado mais Zessly do que deveria
+Como a administração deste medicamento é feita pelo seu médico ou enfermeiro, é pouco provável 
+que lhe seja administrado mais Zessly do que deveria. Não existem efeitos indesejáveis conhecidos 
+devido à toma excessiva de Zessly.
+Caso se tenha esquecido ou falte à sua perfusão de Zessly
+Se se esquecer ou faltar a uma marcação para receber Zessly, faça outra marcação o mais rapidamente 
+possível.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Os efeitos indesejáveis são, na sua maioria, ligeiros a moderados. 
+Contudo, alguns doentes podem ter efeitos indesejáveis graves e podem necessitar de tratamento. 
+Os efeitos indesejáveis podem também ocorrer após o seu tratamento com Zessly ter terminado.
+Informe imediatamente o seu médico se detetar qualquer um dos seguintes efeitos indesejáveis:</p>
+<ul>
+<li>
+<p>Sinais de uma reação alérgica, tais como inchaço da sua face, lábios, boca ou garganta que 
+podem provocar dificuldades em engolir ou respirar, erupção da pele, urticária, inchaço das 
+mãos, pés ou tornozelos. Algumas destas reações podem ser graves ou colocar um risco de 
+vida. Pode surgir uma reação alérgica durante as 2 horas da sua perfusão ou posteriormente. 
+Outros sinais de efeitos indesejáveis alérgicos que podem surgir até 12 dias após a sua 
+perfusão incluem dor nos músculos, febre, dor nas articulações ou nos maxilares, dor de 
+garganta ou dor de cabeça.</p>
+</li>
+<li>
+<p>Sinais de um problema no coração, tais como desconforto ou dor no peito, dor nos braços, dor 
+de estômago, dificuldade em respirar, ansiedade, vertigens, tonturas, desmaio, transpirar, 
+náuseas (sentir-se enjoado), vómito, sentir vibração ou pulsação no peito, batimento do coração 
+acelerado ou lento e inchaço dos pés.</p>
+</li>
+<li>
+<p>Sinais de infeção (incluindo TB), tais como febre, cansaço, tosse que pode ser persistente, 
+dificuldade em respirar, sintomas gripais, perda de peso, suores noturnos, diarreia, feridas, 
+acumulação de pus no intestino ou à volta do ânus (abcesso), problemas dentários ou sensação 
+de ardor ao urinar.</p>
+</li>
+<li>
+<p>Possíveis sinais de cancro incluindo mas não limitado a inchaço dos gânglios linfáticos, perda 
+de peso, febre, nódulos invulgares na pele, alterações em sinais ou na coloração da pele, ou 
+hemorragia vaginal invulgar.</p>
+</li>
+<li>
+<p>Sinais de um problema nos pulmões, tais como tosse, dificuldades em respirar ou aperto no 
+peito.
+61</p>
+</li>
+<li>
+<p>Sinais de um problema no sistema nervoso (incluindo problemas nos olhos), tais como 
+sinais de um AVC (adormecimento ou fraqueza súbitos da cara, braço ou perna, especialmente 
+de um dos lados do corpo; confusão súbita, dificuldades na fala ou de compreensão; dificuldade 
+de visão num ou em ambos os olhos, dificuldade na marcha, tonturas, perda de equilíbrio ou 
+coordenação ou dor de cabeça forte), convulsões, formigueiro/adormecimento em qualquer 
+parte do seu corpo, fraqueza nos braços ou pernas, alterações da visão, tais como visão dupla ou 
+outros problemas nos olhos.</p>
+</li>
+<li>
+<p>Sinais de um problema no fígado (incluindo hepatite B se já teve hepatite B no passado) tais 
+como pele ou olhos amarelados, urina de cor castanha escura, dor ou inchaço no lado superior 
+direito na zona do estômago, dor nas articulações, erupções da pele ou febre.</p>
+</li>
+<li>
+<p>Sinais de uma doença do sistema imunitário tais como dor nas articulações ou uma erupção 
+da pele na face ou braços sensível ao sol (lúpus) ou tosse, falta de ar, febre ou erupção da pele 
+(sarcoidose).</p>
+</li>
+<li>
+<p>Sinais de baixo número de células do sangue tais como febre persistente, perder sangue ou 
+ficar com nódoas negras mais facilmente, pequenos pontos roxos ou vermelhos causados por 
+hemorragia debaixo da pele ou ter um aspeto pálido.</p>
+</li>
+<li>
+<p>Sinais de problemas da pele graves tais como pontos avermelhados tipo alvo ou manchas 
+circulares muitas vezes com bolhas centrais no tronco, grandes áreas de pele descamativa e 
+exfoliativa, úlceras na boca, garganta, nariz, órgãos genitais e olhos ou pequenos inchaços 
+cheios de pus que podem estar espalhados pelo corpo. Estas reações da pele podem ser 
+acompanhadas de febre.
+Informe imediatamente o seu médico se detetar quaisquer efeitos indesejáveis mencionados acima.
+Observaram-se os seguintes efeitos indesejáveis com medicamentos que contenham infliximab:
+Muito frequentes: (podem afetar mais de 1 em 10 pessoas)</p>
+</li>
+<li>
+<p>Dor no estômago, sensação de mal-estar</p>
+</li>
+<li>
+<p>Infeções virais, tais como herpes ou gripe</p>
+</li>
+<li>
+<p>Infeções do trato respiratório superior, tal como sinusite</p>
+</li>
+<li>
+<p>Dor de cabeça</p>
+</li>
+<li>
+<p>Efeitos indesejáveis devido a uma perfusão</p>
+</li>
+<li>
+<p>Dor.
+Frequentes: (podem afetar até 1 em 10 pessoas)</p>
+</li>
+<li>
+<p>Alterações na forma como o seu fígado funciona, aumento das enzimas hepáticas (revelado nas 
+análises ao sangue)</p>
+</li>
+<li>
+<p>Infeções pulmonares ou torácicas, tais como bronquite ou pneumonias</p>
+</li>
+<li>
+<p>Dificuldade ou dor ao respirar, dor no peito</p>
+</li>
+<li>
+<p>Sangramento no estômago ou intestino, diarreia, indigestão, azia, obstipação (prisão de ventre)</p>
+</li>
+<li>
+<p>Erupção tipo urticária, erupção da pele com comichão ou pele seca</p>
+</li>
+<li>
+<p>Problemas de equilíbrio ou tonturas</p>
+</li>
+<li>
+<p>Febre, sudação (transpiração) aumentada</p>
+</li>
+<li>
+<p>Problemas de circulação, tais como tensão arterial alta ou baixa</p>
+</li>
+<li>
+<p>Hematomas (nódoas negras), afrontamentos ou perda de sangue pelo nariz, calor, pele vermelha 
+(rubor)</p>
+</li>
+<li>
+<p>Sensação de cansaço ou fraqueza</p>
+</li>
+<li>
+<p>Infeções bacterianas, tais como intoxicação do sangue, abcesso ou infeção da pele (celulite)</p>
+</li>
+<li>
+<p>Infeção fúngica da pele</p>
+</li>
+<li>
+<p>Problemas de sangue, tais como anemia ou baixa contagem de glóbulos brancos do sangue</p>
+</li>
+<li>
+<p>Nódulos linfáticos inchados</p>
+</li>
+<li>
+<p>Depressão, problemas de sono</p>
+</li>
+<li>
+<p>Problemas nos olhos, incluindo olhos vermelhos e infeções</p>
+</li>
+<li>
+<p>Batimento rápido do coração (taquicardia) ou palpitações</p>
+</li>
+<li>
+<p>Dor nas articulações, músculos ou nas costas
+62</p>
+</li>
+<li>
+<p>Infeção do trato urinário</p>
+</li>
+<li>
+<p>Psoríase, problemas de pele, tais como eczema e perda de cabelo</p>
+</li>
+<li>
+<p>Reações no local da injeção, tais como dor, inchaço, vermelhidão ou prurido</p>
+</li>
+<li>
+<p>Arrepios, uma acumulação de líquido debaixo da pele que causa inchaço</p>
+</li>
+<li>
+<p>Sensação de dormência ou ter uma sensação de formigueiro.
+Pouco frequentes: (podem afetar até 1 em 100 pessoas)</p>
+</li>
+<li>
+<p>Falta de irrigação sanguínea, inchaço de uma veia</p>
+</li>
+<li>
+<p>Acumulação de sangue fora dos vasos sanguíneos (hematoma) ou nódoa negra</p>
+</li>
+<li>
+<p>Problemas de pele, tais como bolhas, verrugas, coloração ou pigmentação anormal da pele ou 
+lábios inchados, ou espessamento da pele, ou pele vermelha e escamosa</p>
+</li>
+<li>
+<p>Reações alérgicas graves (ex. anafilaxia), uma doença do sistema imunitário chamada lúpus, 
+reações alérgicas a proteínas estranhas</p>
+</li>
+<li>
+<p>Feridas que demoram mais tempo a sarar</p>
+</li>
+<li>
+<p>Inchaço da vesícula biliar ou fígado (hepatite), lesão do fígado</p>
+</li>
+<li>
+<p>Falhas de memória, irritabilidade, confusão, nervosismo</p>
+</li>
+<li>
+<p>Problemas nos olhos, incluindo visão desfocada ou reduzida, olhos inchados ou terçolhos</p>
+</li>
+<li>
+<p>Aparecimento ou agravamento da insuficiência cardíaca, batimentos cardíacos lentos</p>
+</li>
+<li>
+<p>Desmaio</p>
+</li>
+<li>
+<p>Convulsões, problemas dos nervos</p>
+</li>
+<li>
+<p>Orifício intestinal ou obstrução do intestino, dor de estômago ou cólicas</p>
+</li>
+<li>
+<p>Inchaço do pâncreas (pancreatite)</p>
+</li>
+<li>
+<p>Infeções fúngicas, tais como infeções micóticas ou infeção fúngica das unhas</p>
+</li>
+<li>
+<p>Problemas pulmonares (tais como edema)</p>
+</li>
+<li>
+<p>Líquido à volta dos pulmões (derrame pleural)</p>
+</li>
+<li>
+<p>Estreitamento das vias respiratórias dos pulmões, que causam dificuldade em respirar</p>
+</li>
+<li>
+<p>Inflamação do revestimento do pulmão, que causa dores agudas no peito que piora com a 
+respiração (pleurisia)</p>
+</li>
+<li>
+<p>Tuberculose</p>
+</li>
+<li>
+<p>Infeções do rim</p>
+</li>
+<li>
+<p>Baixa contagem de plaquetas, demasiados glóbulos brancos do sangue</p>
+</li>
+<li>
+<p>Infeções vaginais</p>
+</li>
+<li>
+<p>Resultados de análises ao sangue com “anticorpos" contra o seu próprio organismo</p>
+</li>
+<li>
+<p>Alterações nos níveis de colesterol e gordura no sangue.</p>
+</li>
+<li>
+<p>Aumento de peso (para a maioria dos doentes o aumento de peso foi ligeiro)
+Raros: (podem afetar até 1 em 1000 pessoas)</p>
+</li>
+<li>
+<p>Um tipo de cancro do sangue (linfoma)</p>
+</li>
+<li>
+<p>O seu sangue não fornece a quantidade de oxigénio suficiente para o seu corpo, problemas de 
+circulação, tais como estreitamento de um vaso sanguíneo</p>
+</li>
+<li>
+<p>Inflamação da membrana que reveste o cérebro (meningite)</p>
+</li>
+<li>
+<p>Infeções devido a um enfraquecimento do sistema imunitário</p>
+</li>
+<li>
+<p>Infeção por hepatite B, quando já teve hepatite B no passado</p>
+</li>
+<li>
+<p>Inflamação do fígado causada por um problema no sistema imunitário (hepatite auto-imune)</p>
+</li>
+<li>
+<p>Problema no fígado que causa pele ou olhos amarelados (icterícia)</p>
+</li>
+<li>
+<p>Crescimento ou inchaço anormal dos tecidos</p>
+</li>
+<li>
+<p>Reação alérgica grave que pode causar perda de consciência e colocar a vida em risco (choque 
+anafilático)</p>
+</li>
+<li>
+<p>Inchaço dos pequenos vasos sanguíneos (vasculite)</p>
+</li>
+<li>
+<p>Alterações imunitárias que podem afetar os pulmões, pele e gânglios linfáticos (tal como 
+sarcoidose)</p>
+</li>
+<li>
+<p>Acumulação de células imunitárias em resultado de uma resposta inflamatória (lesões 
+granulomatosas)</p>
+</li>
+<li>
+<p>Falta de interesse ou emoção
+63</p>
+</li>
+<li>
+<p>Problemas graves de pele como necrólise epidérmica tóxica, Síndrome de Stevens-Johnson e 
+pustulose exantemática generalizada aguda</p>
+</li>
+<li>
+<p>Outros problemas de pele tais como eritema multiforme, reações liquenoides (erupção cutânea 
+de cor vermelha-arroxeada com comichão e/ou linhas de cor branca-acinzentada nas membranas 
+mucosas), bolhas ou pele descamativa ou furúnculos (furunculose)</p>
+</li>
+<li>
+<p>Doenças graves do sistema nervoso como mielite transversa, doença semelhante a esclerose 
+múltipla, nevrite ótica, síndrome de Guillain-Barré</p>
+</li>
+<li>
+<p>Inflamação no olho que pode causar alterações na visão, incluindo cegueira</p>
+</li>
+<li>
+<p>Líquido na camada que reveste o coração (derrame pericárdico)</p>
+</li>
+<li>
+<p>Problemas graves do pulmão (tais como doença pulmonar intersticial)</p>
+</li>
+<li>
+<p>Melanoma (um tipo de cancro da pele)</p>
+</li>
+<li>
+<p>Cancro do colo do útero</p>
+</li>
+<li>
+<p>Baixo número de células no sangue, incluindo uma diminuição acentuada, do número de 
+glóbulos brancos</p>
+</li>
+<li>
+<p>Pequenos pontos roxos ou vermelhos causados por hemorragia debaixo da pele</p>
+</li>
+<li>
+<p>Valores anormais de uma proteína sanguínea chamada “fator de complemento" que faz parte do 
+sistema imunitário.
+Frequência desconhecida: (a frequência não pode ser estimada a partir dos dados disponíveis)</p>
+</li>
+<li>
+<p>Cancro em crianças e adultos</p>
+</li>
+<li>
+<p>Um cancro do sangue raro que afeta maioritariamente rapazes adolescentes ou homens jovens 
+(linfoma hepatoesplénico das células T)</p>
+</li>
+<li>
+<p>Insuficiência hepática</p>
+</li>
+<li>
+<p>Carcinoma de células Merkel (um tipo de cancro da pele)</p>
+</li>
+<li>
+<p>Sarcoma de Kaposi, um cancro raro relacionado com a infeção pelo vírus herpes humano 8. O 
+sarcoma de Kaposi aparece mais frequentemente na forma de lesões cutâneas de cor púrpura</p>
+</li>
+<li>
+<p>Agravamento de uma doença chamada dermatomiosite (que corresponde a uma erupção da pele 
+acompanhada de fraqueza muscular)</p>
+</li>
+<li>
+<p>Ataque cardíaco</p>
+</li>
+<li>
+<p>AVC (acidente vascular cerebral)</p>
+</li>
+<li>
+<p>Perda de visão temporária que ocorre durante ou nas 2 horas após a perfusão</p>
+</li>
+<li>
+<p>Infeção originada por uma vacina viva devido a um sistema imunitário enfraquecido.
+Efeitos indesejáveis adicionais em crianças e adolescentes
+As crianças que tomaram infliximab para o tratamento da Doença de Crohn revelaram algumas 
+diferenças relativamente aos efeitos indesejáveis quando em comparação com os adultos que tomaram 
+infliximab para a Doença de Crohn. Os efeitos indesejáveis que aconteceram mais em crianças foram: 
+baixa contagem de glóbulos vermelhos do sangue (anemia), sangue nas fezes, baixa contagem geral de 
+glóbulos brancos do sangue (leucopenia), vermelhidão ou corar (rubor), infeções virais, baixa 
+contagem de glóbulos brancos do sangue que combatem as infeções (neutropenia), fraturas ósseas, 
+infeções bacterianas e reações alérgicas do trato respiratório.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, ou farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar zessly"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar zessly"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zessly será geralmente armazenado por profissionais de saúde. Os detalhes de conservação que deverá 
+saber são os seguintes:</p>
+<ul>
+<li>
+<p>Manter este medicamento fora da vista e do alcance das crianças.
+64</p>
+</li>
+<li>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado.</p>
+</li>
+<li>
+<p>Conservar no frigorífico (2 °C - 8 °C).</p>
+</li>
+<li>
+<p>Este medicamento pode também ser armazenado na embalagem de origem fora do frigorífico 
+até à temperatura máxima de 30 °C por um período único até seis meses, mas sem exceder o 
+prazo de validade original. Nesta situação, não volte a armazenar no frigorífico novamente. 
+Escreva o novo prazo de validade na cartonagem incluindo dia/mês/ano. Rejeite o medicamento 
+se este não for utilizado até ao novo prazo de validade ou até ao prazo de validade impresso na 
+cartonagem, conforme a data mais próxima.</p>
+</li>
+<li>
+<p>Após a preparação de Zessly para perfusão, é recomendado que seja utilizado o mais 
+rapidamente possível (dentro de 3 horas). Contudo, se a solução for preparada sob condições 
+assépticas, pode ser conservada no frigorífico entre 2 °C-8 °C durante 24 horas.</p>
+</li>
+<li>
+<p>Não utilize este medicamento se verificar que a solução apresenta alteração da coloração ou 
+partículas.</p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Zessly</p>
+<ul>
+<li>
+<p>A substância ativa é infliximab. Cada frasco para injetáveis contém 100 mg de infliximab. 
+Após preparação, cada ml contém 10 mg de infliximab</p>
+</li>
+<li>
+<p>Os outros componentes são succinato dissódico hexa-hidratado, ácido succínico, sacarose, 
+polissorbato 80 (ver secção 2).
+Qual o aspeto de Zessly e conteúdo da embalagem
+Zessly é fornecido num frasco para injetáveis de vidro contendo um pó para concentrado para solução 
+para perfusão (pó para concentrado). O pó é branco.
+Zessly está disponível em embalagens que contêm 1, 2, 3, 4 ou 5 frascos para injetáveis. É possível 
+que não sejam comercializadas todas as apresentações.
+Titular de Autorização de Introdução no Mercado
+Sandoz GmbH
+Biochemiestr. 10
+6250 Kundl
+Áustria
+Fabricante
+Sandoz GmbH
+Biochemiestr. 10
+6336 Langkampfen
+Áustria
+Lek Pharmaceuticals d.d.
+Verovškova ulica 57
+1526 Ljubljana
+Eslovénia
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Sandoz nv/sa
+Tél/Tel: +32 2 722 97 97
+Lietuva
+Sandoz Pharmaceuticals d.d filialas
+Tel: +370 5 2636 037
+65
+България
+Сандоз България КЧТ
+Тел.: +359 2 970 47 47
+Luxembourg/Luxemburg
+Sandoz nv/sa
+Tél/Tel.: +32 2 722 97 97
+Česká republika
+Sandoz s.r.o.
+Tel: +420 225 775 111
+Magyarország
+Sandoz Hungária Kft.
+Tel.: +36 1 430 2890
+Danmark/Norge/Ísland/Sverige
+Sandoz A/S
+Tlf: +45 63 95 10 00
+Malta
+Sandoz Pharmaceuticals d.d.
+Tel: +35699644126
+Deutschland
+Hexal AG
+Tel: +49 8024 908 0
+Nederland
+Sandoz B.V.
+Tel: +31 36 52 41 600
+Eesti
+Sandoz d.d. Eesti filiaal
+Tel: +372 665 2400
+Österreich
+Sandoz GmbH
+Tel: +43 5338 2000
+Ελλάδα
+SANDOZ HELLAS ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε.
+Τηλ: +30 216 600 5000
+Polska
+Sandoz Polska Sp. z o.o.
+Tel.: +48 22 209 70 00
+España
+Sandoz Farmacéutica, S.A.
+Tel: +34 900 456 856
+Portugal
+Sandoz Farmacêutica Lda.
+Tel: +351 21 000 86 00
+France
+Sandoz SAS
+Tél: +33 1 49 64 48 00
+România
+Sandoz Pharmaceuticals SRL
+Tel: +40 21 407 51 60
+Hrvatska
+Sandoz d.o.o.
+Tel: +385 1 23 53 Slovenija
+Sandoz farmacevtska družba d.d.
+Tel: +386 1 580 29 02
+Ireland
+Rowex Ltd.
+Tel: + 353 27 50077
+Slovenská republika
+Sandoz d.d. - organizačná zložka
+Tel: +421 2 48200 600
+Italia
+Sandoz S.p.A.
+Tel: +39 02 96541
+Suomi/Finland
+Sandoz A/S
+Puh/Tel: +358 10 6133 400
+Κύπρος
+Sandoz Pharmaceuticals d.d.
+Τηλ: +357 22 69 0690
+United Kingdom (Northern Ireland)
+Sandoz GmbH
+Tel: +43 5338 2000
+Latvija
+Sandoz d.d. Latvia filiāle
+Tel: +371 67 892 006
+Este folheto foi revisto pela última vez em 
+66
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da Internet da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu.
+67
+A informação que se segue destina-se apenas aos profissionais de saúde:
+O cartão de lembrete do doente deve ser entregue a doentes tratados com infliximab.
+Instruções de utilização e manuseamento - condições de conservação
+Conservar a 2 °C - 8 °C.
+Zessly pode ser armazenado até à temperatura máxima de 30 °C por um período único até 6 meses, 
+mas não excedendo o prazo de validade original. O novo prazo de validade tem de ser escrito na 
+cartonagem. Após remoção do frigorífico, Zessly não pode voltar a ser armazenado no frigorífico.
+Instruções de utilização e manuseamento - reconstituição, diluição e administração
+De forma a melhorar a rastreabilidade dos medicamentos biológicos, o nome comercial e o número de 
+lote do medicamento administrado devem ser claramente registados.</p>
+</li>
+<li>Calcule a dose e o número de frascos para injetáveis de Zessly necessários. Cada frasco para 
+injetáveis de Zessly contém 100 mg de infliximab. Calcule o volume total da solução de Zessly 
+reconstituída necessária.</li>
+<li>Reconstitua, sob condições assépticas, cada frasco para injetáveis de Zessly com 10 ml de água 
+para injetáveis, utilizando uma seringa com uma agulha de calibre 21 (0,8 mm) ou mais 
+pequena. Retire a tampa de remoção fácil do frasco para injetáveis e limpe o topo com uma 
+compressa embebida em álcool a 70%. Introduza a agulha da seringa no frasco para injetáveis 
+na parte central da rolha de borracha e dirija o jato de água para injetáveis para a parede de 
+vidro do frasco para injetáveis. Rode o frasco para injetáveis, efetuando movimentos giratórios 
+suaves, para dissolver o pó liofilizado. Evitar uma agitação prolongada ou vigorosa. NÃO 
+AGITE. Não se considera estranha a formação de espuma na solução após a reconstituição. 
+Deixe a solução reconstituída repousar durante 5 minutos. A solução deve ser incolor a castanho 
+claro e opalescente. A solução pode apresentar algumas partículas finas translúcidas em virtude 
+do infliximab ser uma proteína. Não utilize se estiverem presentes partículas opacas ou outras 
+partículas estranhas ou caso se observe alteração da cor.</li>
+<li>Dilua o volume total da dose da solução de Zessly reconstituída até 250 ml com solução de 
+cloreto de sódio injetável 9 mg/ml (0,9%). Não dilua a solução de Zessly reconstituída com 
+qualquer outro solvente. A diluição pode ser conseguida extraindo um volume da solução de 
+cloreto de sódio injetável 9 mg/ml (0,9%) do frasco de vidro ou saco de perfusão de 250 ml, 
+igual ao volume de Zessly reconstituído. Adicione lentamente o volume total da solução de 
+Zessly reconstituída até perfazer o volume do saco ou do frasco de perfusão para injetáveis de 
+250 ml. Misture suavemente. </li>
+<li>Administre a solução para perfusão durante um período não inferior ao tempo de perfusão 
+recomendado. Utilize apenas um sistema de perfusão com um filtro em linha, estéril, 
+apirogénico, com baixa ligação às proteínas (tamanho dos poros igual ou inferior a 
+1,2 micrómetros). Uma vez que não estão presentes conservantes, a administração da solução 
+para perfusão deve ser iniciada o mais rapidamente possível e no espaço de 3 horas após a 
+reconstituição e a diluição. Quando a reconstituição e diluição são realizadas sob condições de 
+assepsia controladas, a solução de perfusão Zessly pode ser usada no período de 24 horas, se 
+armazenada entre 2 °C - 8 °C. Não guarde qualquer quantidade remanescente de solução para 
+perfusão para reutilização.</li>
+<li>Não foram efetuados estudos de compatibilidade bioquímica física para avaliar a administração 
+concomitante de Zessly com outras substâncias. Não se deve proceder à perfusão de Zessly 
+simultaneamente com outras substâncias na mesma linha intravenosa.
+68</li>
+<li>Antes de ser utilizado, Zessly deve ser inspecionado visualmente para verificar se contém 
+partículas ou apresenta sinais de alteração da cor. A solução não deverá ser utilizada se contiver 
+partículas opacas visíveis, partículas estranhas ou alterações da cor.
+7.
+Os produtos não utilizados ou os resíduos devem ser eliminados de acordo com as exigências 
+locais.</li>
+</ul>         </div>"""      
+
+
+
 
 
                     
@@ -1539,6 +2650,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-909f6f2d2e9597ae246c0a311cd0f289"
 * entry[0].resource = composition-da-909f6f2d2e9597ae246c0a311cd0f289
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp909f6f2d2e9597ae246c0a311cd0f289"
+* entry[=].resource = mp909f6f2d2e9597ae246c0a311cd0f289
+                            
+                    
+Instance: bundlepackageleaflet-pt-909f6f2d2e9597ae246c0a311cd0f289
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zessly Package Leaflet for language pt"
+Description: "ePI document Bundle for zessly Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-909f6f2d2e9597ae246c0a311cd0f289"
+* entry[0].resource = composition-pt-909f6f2d2e9597ae246c0a311cd0f289
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp909f6f2d2e9597ae246c0a311cd0f289"
@@ -1640,6 +2773,18 @@ RuleSet: 909f6f2d2e9597ae246c0a311cd0f289ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-909f6f2d2e9597ae246c0a311cd0f289) // zessly pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

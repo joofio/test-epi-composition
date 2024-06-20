@@ -855,6 +855,370 @@ nærmere beskrevet i den europæiske offentlige vurderingsrapport. </li>
 
 
 
+Instance: composition-pt-7e98051b7b877024b322905712140ea8
+InstanceOf: CompositionUvEpi
+Title: "Composition for abecma Package Leaflet"
+Description:  "Composition for abecma Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7e98051b7b877024b322905712140ea8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - abecma"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Abecma e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Abecma </li>
+<li>Como é administrado Abecma </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Abecma </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é abecma e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é abecma e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Abecma 
+Abecma é um tipo de medicamento denominado “terapêutica de células geneticamente modificadas". 
+A substância ativa no medicamento é o idecabtagene vicleucel, que é produzido a partir dos seus 
+próprios glóbulos brancos, de um tipo chamado células T. </p>
+<p>Para que é utilizado Abecma 
+Abecma é utilizado para tratar adultos com mieloma múltiplo, que é um cancro da medula óssea. 
+É administrado quando os tratamentos anteriores para o seu cancro não funcionaram ou o cancro 
+regressou. </p>
+<p>Como funciona Abecma 
+Os glóbulos brancos são colhidos a partir do seu sangue e são geneticamente modificados de modo a 
+terem como alvo as células do mieloma no seu corpo. 
+Quando Abecma é perfundido (administrado gota-a-gota) no seu sangue, os glóbulos brancos 
+modificados matam as células do mieloma. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar abecma"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar abecma"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não pode receber Abecma 
+ 
+se tem alergia a qualquer outro componente deste medicamento (indicados na secção 6). Se 
+pensa que pode ser alérgico(a), consulte o seu médico. 
+ 
+se tem alergia a qualquer componente dos medicamentos que serão administrados para 
+quimioterapia de depleção linfocitária, a qual é utilizada para preparar o seu organismo para o 
+tratamento com Abecma. </p>
+<p>Advertências e precauções 
+Antes de lhe ser administrado Abecma deve informar o seu médico se: 
+ 
+tem problemas nos pulmões ou no coração. 
+ 
+tem pressão arterial baixa. 
+ 
+tiver feito um transplante de células estaminais nos últimos 4 meses.<br />
+ 
+tem sinais ou sintomas da doença do enxerto contra o hospedeiro. Isto acontece quando as 
+células transplantadas atacam o seu corpo, causando sintomas como erupção na pele, náuseas, 
+vómitos, diarreia e fezes com sangue. 
+ 
+tem uma infeção. A infeção será tratada antes de Abecma lhe ser administrado. 
+ 
+notar que os sintomas do seu cancro estão a piorar. No mieloma, estes poderão incluir febre, 
+sensação de fraqueza, dor nos ossos, perda de peso inexplicada. 
+ 
+tiver tido infeção pelo citomegalovírus (CMV), hepatite B ou C ou infeção pelo vírus da 
+imunodeficiência humana (VIH).<br />
+ 
+levou uma vacina nas 6 semanas anteriores ou está a planear levar uma vacina nos próximos 
+meses. </p>
+<p>Fale com o seu médico antes de lhe ser administrado Abecma se alguma das situações referidas acima 
+se aplica a si (ou se tiver dúvidas). </p>
+<p>Análises e exames 
+Antes de lhe ser administrado Abecma o seu médico irá: 
+ 
+Examinar os seus pulmões, coração e pressão arterial. 
+ 
+Procurar sinais de infeção; qualquer infeção será tratada antes de receber Abecma. 
+ 
+Verificar se o seu cancro está a piorar. 
+ 
+Verificar a presença de infeção pelo CMV, hepatite B, hepatite C ou infeção pelo VIH. </p>
+<p>Depois de lhe ser administrado Abecma 
+ 
+Existem efeitos indesejáveis graves que terá de comunicar imediatamente ao seu médico ou 
+enfermeiro e que podem necessitar que obtenha assistência médica imediata. Consulte "Efeitos 
+indesejáveis graves" na secção 4.  
+O seu médico irá verificar regularmente as suas contagens sanguíneas, uma vez que o número 
+de células sanguíneas pode diminuir. 
+ 
+Mantenha-se próximo do centro de tratamento onde recebeu Abecma durante, pelo menos, 
+4 semanas. Ver secções 3 e 4.  
+Não doe sangue, órgãos, tecidos ou células para transplante. </p>
+<p>Crianças e adolescentes 
+Abecma não deve ser administrado a crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Abecma 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos, incluindo medicamentos obtidos sem receita médica. </p>
+<p>Medicamentos que afetam o sistema imunitário 
+Antes de lhe ser administrado Abecma, informe o seu médico ou enfermeiro se estiver a tomar 
+quaisquer medicamentos que enfraquecem o seu sistema imunitário, tais como corticosteroides. Isto 
+deve-se ao facto de estes medicamentos poderem interferir com o efeito de Abecma. </p>
+<p>Consulte a secção 3 para informações sobre os medicamentos que lhe serão administrados antes de 
+receber Abecma. </p>
+<p>Vacinação 
+Não pode receber determinadas vacinas designadas por “vacinas vivas": 
+ 
+nas 6 semanas antes de receber um ciclo curto de quimioterapia (chamada quimioterapia de 
+depleção linfocitária) para preparar o seu corpo para Abecma. 
+ 
+durante o tratamento com Abecma. 
+ 
+após o tratamento, enquanto o sistema imunitário está a recuperar. </p>
+<p>Fale com o seu médico se precisar de receber alguma vacina. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de utilizar este medicamento. Isto deve-se ao facto de os efeitos de Abecma em mulheres 
+grávidas ou a amamentar não serem conhecidos e poderem prejudicar o feto ou a criança amamentada. 
+ 
+Se está grávida ou pensa que pode estar grávida após tratamento com Abecma, fale com o seu 
+médico imediatamente. 
+ 
+Ser-lhe-á feito um teste de gravidez antes de o tratamento começar. Abecma apenas deve ser 
+administrado se os resultados mostrarem que não está grávida. </p>
+<p>Discuta a gravidez com o seu médico se tiver recebido Abecma. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza, utilize máquinas ou participe em atividades em que precisa estar alerta durante, pelo 
+menos, 8 semanas após o tratamento ou até o seu médico lhe dizer que recuperou por completo. 
+Abecma pode causar sonolência, confusão ou ataques convulsivos (convulsões). </p>
+<p>Abecma contém sódio, potássio e dimetilsulfóxido (DMSO) 
+Este medicamento contém até 752 mg de sódio (principal componente do sal de cozinha/sal de mesa) 
+em cada dose. Isto é equivalente a 37,6% da ingestão diária máxima de sódio recomendada na dieta 
+para um adulto. </p>
+<p>Este medicamento contém até 274 mg de potássio por dose. Esta informação deve ser tida em 
+consideração em doentes com função renal diminuída ou em doentes com ingestão controlada de 
+potássio. </p>
+<p>Se não foi exposto anteriormente ao DMSO, deverá ser cuidadosamente observado durante os 
+primeiros minutos do período de perfusão. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar abecma"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar abecma"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fornecer sangue para produzir Abecma a partir dos seus glóbulos brancos<br />
+ 
+O seu médico irá colher algum sangue seu utilizando um tubo (cateter) na sua veia. Alguns dos 
+glóbulos brancos serão separados do sangue e o restante sangue é reintroduzido no seu corpo. 
+Este processo chama-se “leucaferese" e pode demorar 3 a 6 horas. Este processo poderá ter de 
+ser repetido. 
+ 
+Os glóbulos brancos são depois congelados e enviados para produzir Abecma. </p>
+<p>Outros medicamentos que serão administrados antes de receber Abecma 
+ 
+Alguns dias antes de receber Abecma, ser-lhe-á administrado um ciclo curto de quimioterapia. 
+Isto é feito para eliminar os glóbulos brancos existentes no seu sangue. 
+ 
+Pouco antes de receber Abecma, ser-lhe-á dado paracetamol e um medicamento anti-
+histamínico. Isto serve para reduzir o risco de reações à perfusão e febre. </p>
+<p>Como é administrado Abecma 
+ 
+O seu médico irá confirmar se Abecma foi preparado a partir do seu sangue verificando se as 
+informações de identificação do doente presentes nos rótulos do medicamento correspondem às 
+suas informações. 
+ 
+Abecma é administrado como uma perfusão por gotejamento através de um tubo introduzido na 
+sua veia.  </p>
+<p>Após a administração de Abecma 
+ 
+Mantenha-se próximo do centro de tratamento onde recebeu Abecma durante, pelo menos, 
+4 semanas. 
+ 
+Poderá ser monitorizado diariamente no centro de tratamento durante, pelo menos, 10 dias para 
+verificar se o seu tratamento está a funcionar e para que seja ajudado se tiver quaisquer efeitos 
+indesejáveis. Ver secções 2 e 4.  
+Não doe sangue, órgãos, tecidos ou células para transplante. </p>
+<p>Se falhar uma consulta 
+Contacte o seu médico ou o centro de tratamento assim que possível para marcar outra consulta. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Informe imediatamente o seu médico se tiver algum dos seguintes efeitos indesejáveis após a 
+administração de Abecma. Isto geralmente acontece nas primeiras 8 semanas após a perfusão, mas 
+também poderá desenvolver-se mais tarde:  </p>
+<p> 
+febre, arrepios, dificuldade em respirar, tonturas ou atordoamento, náuseas, dor de cabeça, 
+batimento cardíaco acelerado, pressão arterial baixa ou fadiga - estes podem ser sintomas da 
+síndrome de libertação de citocinas ou SLC, uma afeção grave e potencialmente fatal. 
+ 
+confusão, problemas de memória, dificuldade em falar ou fala arrastada, dificuldade de 
+compreensão do discurso, perda de equilíbrio ou de coordenação, desorientação, estar menos 
+alerta (diminuição de consciência) ou sonolência excessiva, perda de consciência, delírio, 
+ataques convulsivos (convulsões), tremores ou fraqueza com perda de movimento num lado do 
+corpo. Sintomas de parkinsonismo, tais como tremor, movimentos lentos e rigidez. 
+ 
+quaisquer sinais de uma infeção, que podem incluir febre, arrepios ou tremores, tosse, falta de 
+ar, respiração rápida e pulso rápido. 
+ 
+sensação de muito cansaço ou fraqueza ou falta de ar, que podem ser sinais de níveis baixos de 
+glóbulos vermelhos (anemia). 
+ 
+hemorragia ou fazer nódoas negras mais facilmente sem causa aparente, incluindo hemorragias 
+no nariz/boca ou no intestino, que podem ser um sinal de níveis baixos de plaquetas no sangue. </p>
+<p>Informe o seu médico imediatamente se tiver algum dos efeitos indesejáveis referidos acima, porque 
+pode necessitar de tratamento médico urgente. </p>
+<p>Outros efeitos indesejáveis possíveis </p>
+<p>Muito frequentes: podem afetar mais de 1 em 10 pessoas 
+ 
+falta de energia 
+ 
+pressão arterial alta 
+ 
+diminuição do apetite 
+ 
+prisão de ventre 
+ 
+tornozelos, braços, pernas e rosto inchados 
+ 
+dor nas articulações 
+ 
+dificuldade em dormir 
+ 
+número baixo de glóbulos brancos (neutrófilos, leucócitos e linfócitos), o que pode aumentar o 
+seu risco de infeção 
+ 
+infeções, incluindo pneumonia ou infeções do trato respiratório, boca, pele, trato urinário ou 
+sangue, que podem ser bacterianas, virais ou fúngicas 
+ 
+resultados de testes laboratoriais que mostram níveis baixos de anticorpos, denominados 
+imunoglobulinas (hipogamaglobulinemia), que são importantes no combate de infeções 
+ 
+resultados de testes laboratoriais que mostram níveis reduzidos de cálcio, sódio, magnésio, 
+potássio, fosfato ou albumina, o que pode causar fadiga, fraqueza muscular ou cãibras ou 
+batimento cardíaco irregular 
+ 
+resultados de testes laboratoriais que mostram um aumento dos níveis de enzimas do fígado 
+(teste de função hepática anormal) ou um nível mais elevado de uma proteína (proteína C 
+reativa) no sangue que pode indicar inflamação. </p>
+<p>Frequentes: podem afetar até 1 em 10 pessoas 
+ 
+inflamação grave devido à ativação do seu sistema imunitário, que pode provocar danos graves 
+no organismo 
+ 
+dor muscular 
+ 
+movimentos corporais anormais ou falta de coordenação<br />
+ 
+batimento cardíaco desigual ou irregular 
+ 
+líquido nos pulmões 
+ 
+baixo nível de oxigénio no sangue, que pode causar falta de ar, confusão ou sonolência. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar abecma"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar abecma"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A informação que se segue destina-se apenas aos médicos. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo da cassete e no rótulo do 
+saco de perfusão após “EXP". </p>
+<p>Conservar e transportar congelado na fase de vapor de azoto líquido (≤ -130 °C). Não descongelar o 
+produto até estar pronto para ser utilizado. Não voltar a congelar. </p>
+<p>Não utilize este medicamento se o saco de perfusão estiver danificado ou a verter. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Abecma<br />
+ 
+A substância ativa é idecabtagene vicleucel. Cada saco de perfusão de Abecma contém uma 
+dispersão celular de idecabtagene vicleucel numa concentração dependente do lote de células T 
+autólogas geneticamente modificadas para expressar um recetor antigénico quimérico (células T 
+CAR-positivas viáveis) anti-BCMA. Um ou mais sacos de perfusão contêm um total de 
+260 - 500 x 106 células T CAR-positivas viáveis. 
+ 
+Os outros componentes (excipientes) são Cryostor CS10, cloreto de sódio, gluconato de sódio, 
+acetato de sódio tri-hidratado, cloreto de potássio, cloreto de magnésio, água para preparações 
+injetáveis. Ver secção 2, “Abecma contém sódio, potássio e DMSO". </p>
+<p>Este medicamento contém células de sangue humano geneticamente modificadas. </p>
+<p>Qual o aspeto de Abecma e conteúdo da embalagem 
+Abecma é uma dispersão celular incolor para perfusão, fornecida em um ou mais sacos de perfusão 
+acondicionados individualmente numa cassete de metal. Cada saco contém 10 ml para 100 ml de 
+dispersão celular. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrlanda </p>
+<p>Fabricante 
+Celgene Distribution B.V. 
+Orteliuslaan 13528 BD Utrecht 
+Países Baixos </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -896,6 +1260,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-7e98051b7b877024b322905712140ea8"
 * entry[0].resource = composition-da-7e98051b7b877024b322905712140ea8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7e98051b7b877024b322905712140ea8"
+* entry[=].resource = mp7e98051b7b877024b322905712140ea8
+                            
+                    
+Instance: bundlepackageleaflet-pt-7e98051b7b877024b322905712140ea8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for abecma Package Leaflet for language pt"
+Description: "ePI document Bundle for abecma Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-7e98051b7b877024b322905712140ea8"
+* entry[0].resource = composition-pt-7e98051b7b877024b322905712140ea8
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp7e98051b7b877024b322905712140ea8"
@@ -997,6 +1383,18 @@ RuleSet: 7e98051b7b877024b322905712140ea8ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-7e98051b7b877024b322905712140ea8) // abecma pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

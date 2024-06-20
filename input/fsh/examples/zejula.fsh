@@ -964,6 +964,577 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-a48fce64d5ddc98dc0fe03d5edc214e9
+InstanceOf: CompositionUvEpi
+Title: "Composition for zejula Package Leaflet"
+Description:  "Composition for zejula Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa48fce64d5ddc98dc0fe03d5edc214e9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - zejula"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Zejula e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Zejula </li>
+<li>Como tomar Zejula </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Zejula </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é zejula e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é zejula e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Zejula e como funciona 
+Zejula contém a substância ativa niraparib. Niraparib é um tipo de medicamento anticancerígeno 
+chamado inibidor da PARP. Os inibidores da PARP bloqueiam uma enzima chamada poli [adenosina 
+difosfato ribose] polimerase (PARP). A PARP ajuda as células a reparar o ADN danificado, portanto, 
+ao bloqueá-la, significa que o ADN das células cancerígenas não pode ser reparado. Isso resulta na 
+morte das células tumorais, o que ajuda a controlar o cancro. </p>
+<p>Para que é utilizado Zejula 
+Zejula é usado em mulheres adultas para o tratamento do cancro do ovário, das trompas de Falópio 
+(parte do sistema reprodutor feminino que liga os ovários ao útero) ou do peritoneu (membrana que 
+forra o abdómen).  </p>
+<p>Zejula é utilizado para o cancro que: </p>
+<ul>
+<li>
+<p>respondeu ao primeiro tratamento com quimioterapia à base de platina, ou </p>
+</li>
+<li>
+<p>voltou a aparecer (regressado) após o cancro ter respondido ao tratamento padrão anterior com 
+quimioterapia à base de platina. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar zejula"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar zejula"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Zejula </p>
+<ul>
+<li>
+<p>Se tem alergia ao niraparib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>Se estiver a amamentar. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes ou enquanto tomar este medicamento, se 
+alguma das seguintes situações se aplicar a si: </p>
+<p>Contagens baixas de células do sangue 
+Zejula reduz as suas contagens de células do sangue, como a contagem de glóbulos vermelhos 
+(anemia), glóbulos brancos (neutropenia) ou de plaquetas no sangue (trombocitopenia). Os sinais e 
+sintomas a que deverá estar atento incluem febre ou infeção e nódoas negras ou hemorragias anormais 
+(ver secção 4 para mais informações). O seu médico irá solicitar regularmente análises ao seu sangue 
+durante o tratamento. </p>
+<p>Síndrome mielodisplásica/leucemia mieloide aguda 
+Raramente, contagens baixas de células do sangue podem ser sinal de problemas mais graves 
+relacionados com a medula óssea, como a síndrome mielodisplásica (SMD) ou a leucemia mieloide 
+aguda (LMA). O seu médico poderá solicitar análises à sua medula óssea para verificar estes 
+problemas. </p>
+<p>Tensão arterial alta 
+Zejula pode causar tensão arterial alta, o que, nalguns casos, pode ser grave. O seu médico medirá a 
+sua tensão arterial regularmente durante o seu tratamento. Também poderá dar-lhe um medicamento 
+para tratar a tensão arterial alta e ajustar a sua dose de Zejula, se necessário. O seu médico pode 
+aconselhar a monitorizar a tensão arterial em casa e instrução de quando o contactar em caso de 
+aumento da tensão arterial. </p>
+<p>Síndrome de encefalopatia posterior reversível (PRES) 
+Um efeito indesejável neurológico raro chamado PRES foi associado ao tratamento com Zejula. Se 
+tiver dor de cabeça, alterações da visão, confusão ou convulsão com ou sem tensão arterial alta, por 
+favor contacte o seu médico. </p>
+<p>Crianças e adolescentes 
+Crianças com menos de 18 anos de idade não devem tomar Zejula. Este medicamento não foi estudado 
+neste grupo etário. </p>
+<p>Outros medicamentos e Zejula 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Gravidez 
+Zejula não deve ser tomado durante a gravidez, uma vez que pode prejudicar o seu bebé. Se está 
+grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de 
+tomar este medicamento. </p>
+<p>Se for mulher e puder engravidar, deve usar contraceção altamente eficaz enquanto estiver a tomar 
+Zejula, e tem de continuar a utilizar contraceção altamente eficaz durante 6 meses após ter tomado a 
+sua última dose. O seu médico irá pedir-lhe que confirme que não está grávida, realizando um teste de 
+gravidez antes de iniciar o seu tratamento. Contacte o seu médico imediatamente se ficar grávida 
+enquanto estiver a tomar Zejula. </p>
+<p>Amamentação 
+Zejula não deve ser tomado se estiver a amamentar, uma vez que não se sabe se passa para o leite 
+materno. Se estiver a amamentar, tem de parar antes de começar a tomar Zejula e não pode recomeçar 
+a amamentar até 1 mês após ter tomado a sua última dose. Aconselhe-se com o seu médico antes de 
+tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Enquanto estiver a tomar Zejula, isso poderá fazê-la sentir-se fraca, desconcentrado, cansada ou com 
+tonturas e, portanto, influenciar a sua capacidade de conduzir e utilizar máquinas. Tenha cuidado ao 
+conduzir ou utilizar máquinas. </p>
+<p>Zejula contém lactose 
+Se o seu médico lhe disse que tem intolerância a alguns açúcares, contacte-o antes de tomar este 
+medicamento. </p>
+<p>Zejula contém tartrazina (E 102) 
+Pode causar reações alérgicas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar zejula"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar zejula"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Para o cancro do ovário que respondeu ao primeiro tratamento com quimioterapia à base de platina 
+A dose inicial recomendada é de 200 mg (duas cápsulas de 100 mg) tomadas juntas, uma vez por dia, 
+com ou sem alimentos. Se o seu peso é ≥ 77 kg e tem contagem de plaquetas ≥ 150.000/μl antes de 
+iniciar o tratamento, a dose inicial recomendada é de 300 mg (três cápsulas de 100 mg), tomadas 
+juntas, uma vez por dia, com ou sem alimentos.<br />
+Para o cancro do ovário que voltou a aparecer (regressou) 
+A dose inicial recomendada é de 300 mg (três cápsulas de 100 mg), tomadas juntas, uma vez por dia , 
+com ou sem alimentos.  </p>
+<p>Tome Zejula aproximadamente à mesma hora todos os dias. Tomar Zejula à hora de ir dormir pode 
+ajudar a controlar as náuseas. </p>
+<p>O seu médico poderá ajustar a sua dose inicial se tiver problemas de fígado. </p>
+<p>Engula as cápsulas inteiras com água. Não mastigue nem esmague as cápsulas. Isto garante que o 
+medicamento atua o melhor possível. </p>
+<p>O seu médico pode recomendar uma dose mais baixa caso tenha efeitos indesejáveis (tais como 
+náuseas, cansaço, sangramento anormal/nódoas negras, anemia). </p>
+<p>Regularmente, será examinada pelo seu médico e continuará a tomar Zejula normalmente enquanto 
+sentir benefícios e não sofrer efeitos indesejáveis inaceitáveis. </p>
+<p>Se tomar mais Zejula do que deveria 
+Se tomar mais do que a sua dose habitual, contacte imediatamente o seu médico. </p>
+<p>Caso se tenha esquecido de tomar Zejula 
+Não tome uma dose adicional se falhar uma dose ou se vomitar depois de tomar Zejula. Tome a sua 
+dose seguinte na hora planeada Não tome uma dose a dobrar para compensar uma dose que se 
+esqueceu de tomar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Informe imediatamente o seu médico se sentir qualquer um dos seguintes efeitos indesejáveis 
+GRAVES - pode necessitar de tratamento médico urgente: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Nódoas negras ou hemorragias por mais tempo do que o habitual, caso se magoe - estes podem 
+ser sinais de contagem baixa de plaquetas no sangue (trombocitopenia). </p>
+</li>
+<li>
+<p>Sentir falta de ar, sentir-se muito cansada, tiver pele pálida ou batimento cardíaco rápido - estes 
+podem ser sinais de contagem baixa de glóbulos vermelhos no sangue (anemia). </p>
+</li>
+<li>
+<p>Febre ou infeção -a contagem baixa de glóbulos brancos no sangue (neutropenia) pode 
+aumentar o risco de infeção. Os sintomas podem incluir febre, arrepios, sensação de fraqueza ou 
+confusão, tosse, sensação de dor ou ardor ao urinar. Algumas infeções podem ser graves e 
+podem levar à morte. </p>
+</li>
+<li>
+<p>Redução no número de glóbulos brancos no sangue (leucopenia) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Reação alérgica (incluindo reação alérgica grave que pode colocar a vida em risco). Os sinais 
+incluem erupção na pele saliente e com comichão (urticária) e inchaço - por vezes da cara e 
+boca (angioedema), causando dificuldade em respirar e colapso ou perda de consciência. </p>
+</li>
+<li>
+<p>Baixas contagens de células sanguíneas devido a um problema na medula óssea ou cancro no 
+sangue com inicio na medula óssea “síndrome mielodisplásica" (SMD) ou “leucemia mieloide 
+aguda" (LMA)  </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>Febre com contagem baixa de glóbulos brancos (neutropenia febril) </p>
+</li>
+<li>
+<p>Redução do número de glóbulos vermelhos, brancos e de plaquetas (pancitopenia) </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em cada 1.000 pessoas) </p>
+<ul>
+<li>
+<p>Um aumento repentino na tensão arterial, que pode ser uma emergência médica que pode levar a 
+lesões nos órgãos ou pode colocar a vida em risco. </p>
+</li>
+<li>
+<p>Um problema cerebral com sintomas que incluem convulsões (ataques), dor de cabeça, confusão 
+e alterações da visão (Síndrome de Encefalopatia Posterior Reversível ou PRES), que é uma 
+emergência médica que pode levar a lesões nos órgãos ou pode colocar a vida em risco. </p>
+</li>
+</ul>
+<p>Fale com o seu médico se apresentar outros efeitos indesejáveis. Estes podem incluir: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Sensação de enjoo (náuseas) </p>
+</li>
+<li>
+<p>Diminuição do número de glóbulos brancos no sangue  </p>
+</li>
+<li>
+<p>Diminuição do número de plaquetas no sangue </p>
+</li>
+<li>
+<p>Diminuição do número de glóbulos vermelhos no sangue (anemia) </p>
+</li>
+<li>
+<p>Sensação de cansaço </p>
+</li>
+<li>
+<p>Sensação de fraqueza </p>
+</li>
+<li>
+<p>Prisão de ventre </p>
+</li>
+<li>
+<p>Vómitos </p>
+</li>
+<li>
+<p>Dor de estômago </p>
+</li>
+<li>
+<p>Incapacidade de dormir </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Diminuição do apetite </p>
+</li>
+<li>
+<p>Corrimento nasal ou nariz entupido </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Falta de ar </p>
+</li>
+<li>
+<p>Dor nas costas </p>
+</li>
+<li>
+<p>Dor muscular </p>
+</li>
+<li>
+<p>Tensão arterial alta </p>
+</li>
+<li>
+<p>Indigestão  (dispepsia) </p>
+</li>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Tosse </p>
+</li>
+<li>
+<p>Infeção do aparelho urinário </p>
+</li>
+<li>
+<p>Palpitações (sensação de que o coração falha alguns batimentos ou bate mais forte do que o 
+habitual) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Reações tipo queimadura solar após exposição à luz </p>
+</li>
+<li>
+<p>Inchaço dos pés, tornozelos, pernas e/ou mãos </p>
+</li>
+<li>
+<p>Níveis de potássio baixos no sangue </p>
+</li>
+<li>
+<p>Inflamação ou inchaço das passagens de ar entre a boca, nariz e pulmões, bronquite </p>
+</li>
+<li>
+<p>Distensão abdominal </p>
+</li>
+<li>
+<p>Sensação de preocupação, nervosismo ou inquietação </p>
+</li>
+<li>
+<p>Sentimento de tristeza, depressão </p>
+</li>
+<li>
+<p>Hemorragia nasal </p>
+</li>
+<li>
+<p>Perda de peso </p>
+</li>
+<li>
+<p>Dor nas articulações </p>
+</li>
+<li>
+<p>Alteração da concentração, compreensão, memória e pensamento (insuficiência cognitiva) </p>
+</li>
+<li>
+<p>Olhos avermelhados/cor de rosa </p>
+</li>
+<li>
+<p>Batimentos rápidos do coração podem causar tonturas, dor no peito ou falta de ar </p>
+</li>
+<li>
+<p>Boca seca </p>
+</li>
+<li>
+<p>Inflamação da boca e/ou trato digestivo </p>
+</li>
+<li>
+<p>Erupção da pele </p>
+</li>
+<li>
+<p>Valores elevados nas análises sanguíneas </p>
+</li>
+<li>
+<p>Valores anómalos nas análises sanguíneas </p>
+</li>
+<li>
+<p>Gosto anormal na boca </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>Estado confusional </p>
+</li>
+<li>
+<p>Inflamação dos pulmões o que pode causar falta de ar e dificuldade em respirar (pneumonia 
+não-infecciosa) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar zejula"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar zejula"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 30°C. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Zejula </p>
+<ul>
+<li>
+<p>A substância ativa é niraparib. Cada cápsula contém tosilato mono-hidratado de niraparib 
+equivalente a 100 mg de niraparib. </p>
+</li>
+<li>
+<p>Os outros componentes (excipientes) são: 
+Conteúdo da cápsula: estearato de magnésio, lactose mono-hidratada 
+Invólucro da cápsula: dióxido de titânio (E 171), gelatina, azul brilhante FCF (E 133), eritrosina 
+(E 127), tartrazina (E 102) 
+Tinta de impressão: goma-laca (E 904), propilenoglicol (E 1520), hidróxido de potássio (E 525), 
+óxido de ferro negro (E 172), hidróxido de sódio (E 524), povidona (E 1201) e dióxido de 
+titânio (E 171). </p>
+</li>
+</ul>
+<p>Este medicamento contém lactose e tartrazina - ver secção 2 para mais informações. </p>
+<p>Qual o aspeto de Zejula e conteúdo da embalagem </p>
+<p>As cápsulas de Zejula têm um corpo branco opaco e uma cabeça lilás opaca. O corpo da cápsula 
+branco opaco tem ‘100 mg’ impresso a tinta preta e a cabeça lilás da cápsula tem ‘Niraparib’ impresso 
+a tinta branca. As cápsulas contêm um pó branco a esbranquiçado. </p>
+<p>As cápsulas são acondicionadas em blísteres de dose únitária </p>
+<ul>
+<li>
+<p>84 × 1 cápsulas </p>
+</li>
+<li>
+<p>56 × 1 cápsulas </p>
+</li>
+<li>
+<p>28 × 1 cápsulas </p>
+</li>
+</ul>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+GlaxoSmithKline (Ireland) Limited 
+12 Riverwalk 
+Citywest Business Campus 
+Dublin Irlanda  </p>
+<p>Fabricante 
+GlaxoSmithKline Trading Services Ltd. 
+12 Riverwalk 
+Citywest Business Campus 
+Dublin Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+GlaxoSmithKline Pharmaceuticals s.a./n.v. 
+Tél/Tel: + 32 (0) 10 85 52<br />
+Lietuva 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 370 80000 
+България 
+GlaxoSmithKline (Ireland) Limited<br />
+Teл.: + 359 80018 
+Luxembourg/Luxemburg 
+GlaxoSmithKline Pharmaceuticals s.a./n.v. 
+Belgique/Belgien 
+Tél/Tel: + 32 (0) 10 85 52<br />
+Česká republika 
+GlaxoSmithKline, s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com </p>
+<p>Magyarország 
+GlaxoSmithKline (Ireland) Limited 
+Tel.: + 36 80088 
+Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com 
+Malta 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 356 80065 
+Deutschland </p>
+<p>Nederland 
+GlaxoSmithKline GmbH &amp; Co. KG 
+Tel.: + 49 (0)89 36044 8produkt.info@gsk.com 
+GlaxoSmithKline BV 
+Tel: + 31 (0)33 2081 
+Eesti 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 372 8002estonia@gsk.com </p>
+<p>Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20  </p>
+<p>Ελλάδα 
+GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
+Τηλ: + 30 210 68 82  </p>
+<p>Österreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>España 
+GlaxoSmithKline, S.A. 
+Tel: + 34 900 202 es-ci@gsk.com  </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9 
+France 
+Laboratoire GlaxoSmithKline 
+Tél: + 33 (0)1 39 17 84 diam@gsk.com </p>
+<p>Portugal 
+GlaxoSmithKline - Produtos Farmacêuticos, Lda. 
+Tel: + 351 21 412 95 FI.PT@gsk.com  </p>
+<p>Hrvatska 
+GlaxoSmithKline (Ireland) Limited 
+Tel: +385 800787 
+Ireland 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955 
+România 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 40 800672 
+Slovenija 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 386 80688 
+Ísland 
+Vistor hf. 
+Sími: + 354 535 7 
+Slovenská republika 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 421 800500 
+Italia 
+GlaxoSmithKline S.p.A. 
+Tel: + 39 (0)45 7741 Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30<br />
+Κύπρος 
+GlaxoSmithKline (Ireland) Limited 
+Τηλ: + 357 80070 
+Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 371 80205 
+United Kingdom (Northern Ireland) 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
+<p>Este folheto foi revisto pela última vez em MM/AAAA. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1005,6 +1576,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a48fce64d5ddc98dc0fe03d5edc214e9"
 * entry[0].resource = composition-da-a48fce64d5ddc98dc0fe03d5edc214e9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa48fce64d5ddc98dc0fe03d5edc214e9"
+* entry[=].resource = mpa48fce64d5ddc98dc0fe03d5edc214e9
+                            
+                    
+Instance: bundlepackageleaflet-pt-a48fce64d5ddc98dc0fe03d5edc214e9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zejula Package Leaflet for language pt"
+Description: "ePI document Bundle for zejula Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a48fce64d5ddc98dc0fe03d5edc214e9"
+* entry[0].resource = composition-pt-a48fce64d5ddc98dc0fe03d5edc214e9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa48fce64d5ddc98dc0fe03d5edc214e9"
@@ -1106,6 +1699,18 @@ RuleSet: a48fce64d5ddc98dc0fe03d5edc214e9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a48fce64d5ddc98dc0fe03d5edc214e9) // zejula pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

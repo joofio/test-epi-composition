@@ -1683,6 +1683,986 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-53506f739e6f34ca79778a9dce57bf48
+InstanceOf: CompositionUvEpi
+Title: "Composition for spikevax Package Leaflet"
+Description:  "Composition for spikevax Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp53506f739e6f34ca79778a9dce57bf48)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - spikevax"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é a Spikevax e para que é utilizada </li>
+<li>O que precisa de saber antes de lhe ser administrada a Spikevax </li>
+<li>Como é administrada a Spikevax </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar a Spikevax </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é spikevax e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é spikevax e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A Spikevax é uma vacina utilizada para a prevenção da COVID-19 causada pelo SARS-CoV-2. É 
+administrada a adultos e crianças com idade igual ou superior a 6 meses. A substância ativa da 
+Spikevax é o mRNA que codifica a proteína S (spike) do SARS-CoV-2. O mRNA está encapsulado 
+em nanopartículas lipídicas SM-102.<br />
+Uma vez que a Spikevax não contém o vírus, esta não lhe poderá transmitir COVID-19.<br />
+Como a funciona a vacina 
+A Spikevax estimula as defesas naturais do corpo (sistema imunitário). A vacina funciona fazendo 
+com que o corpo produza proteção (anticorpos) contra o vírus que causa COVID-19. A Spikevax 
+utiliza uma substância chamada ácido ribonucleico mensageiro (mRNA) para transmitir instruções que 
+as células do corpo podem utilizar para produzir a proteína S, que também se encontra no vírus. As 
+células produzem então anticorpos contra a proteína S, para ajudar a combater o vírus. Isto irá ajudá-lo 
+a proteger-se contra a COVID-19.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar spikevax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar spikevax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A vacina não pode ser administrada se tem alergia à substância ativa ou a qualquer outro 
+componente desta vacina (indicados na secção 6). </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de lhe ser administrada a Spikevax  </p>
+<ul>
+<li>se teve anteriormente uma reação alérgica grave e potencialmente fatal após qualquer outra 
+injeção de vacinas ou após lhe ter sido administrada a Spikevax no passado. </li>
+<li>se o seu sistema imunitário estiver muito fraco ou comprometido. </li>
+<li>se alguma vez desmaiou após uma injeção por agulha. </li>
+<li>se tem um problema de hemorragias. </li>
+<li>se tem febre alta ou infeção grave; no entanto, pode fazer a sua vacinação se tiver febre ligeira 
+ou uma infeção das vias respiratórias superiores, tal como uma constipação. </li>
+<li>se tem alguma doença grave. </li>
+<li>se tem ansiedade associada a injeções. </li>
+</ul>
+<p>Existe um risco acrescido de miocardite (inflamação do músculo cardíaco) e pericardite (inflamação 
+da membrana que envolve o coração) após a vacinação com Spikevax (ver secção 4). </p>
+<p>Estas doenças podem desenvolver-se apenas alguns dias após a vacinação e ocorreram principalmente 
+no período de 14 dias. Foram observadas mais frequentemente em jovens do sexo masculino e mais 
+frequentemente após a segunda dose em comparação com a primeira dose. </p>
+<p>A maioria dos casos de miocardite e pericardite recuperou. Alguns casos exigiram cuidados intensivos 
+de suporte e foram observados casos fatais. </p>
+<p>Após a vacinação, deve estar alerta para sinais de miocardite e pericardite, tais como falta de ar, 
+palpitações e dor no peito, e procurar assistência médica imediata se desenvolver estes sintomas. </p>
+<p>Se alguma das situações acima descritas se aplicar a si (ou se tiver dúvidas), fale com o seu médico, 
+farmacêutico, ou enfermeiro antes de lhe ser administrada a Spikevax. </p>
+<p>Exacerbações da síndrome de transudação capilar (STC) 
+Após a vacinação com Spikevax, foram comunicados alguns casos de exacerbações da síndrome de 
+transudação capilar (causando fugas de líquido dos pequenos vasos sanguíneos [capilares] que 
+resultam em inchaço rápido dos braços e pernas, aumento súbito de peso e sensação de desmaio, 
+tensão arterial baixa). Se já teve episódios de STC anteriormente, fale com um médico antes de lhe ser 
+administrada a Spikevax. </p>
+<p>Duração da proteção 
+Como com qualquer vacina, o esquema de vacinação primário de 2 doses da Spikevax pode não 
+proteger totalmente todos aqueles que a recebem e desconhece-se durante quanto tempo ficará 
+protegido. </p>
+<p>Crianças 
+A Spikevax não é recomendada em crianças com idade inferior a 6 meses. </p>
+<p>Outros medicamentos e Spikevax 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. A Spikevax pode afetar a forma como outros medicamentos funcionam e 
+outros medicamentos podem afetar a forma como a Spikevax funciona. </p>
+<p>Indivíduos imunocomprometidos 
+Se está imunocomprometido, poderá receber uma terceira dose de Spikevax. Mesmo após uma terceira 
+dose, a eficácia da Spikevax poderá ser inferior em pessoas que estão imunocomprometidas. Nestes 
+casos, deve continuar a manter as precauções de natureza física para ajudar à prevenção da COVID-
+19. Além disso, as pessoas que têm contacto próximo consigo devem ser vacinadas, conforme 
+apropriado. Fale com o seu médico para discutir as recomendações individuais apropriadas. </p>
+<p>Gravidez e amamentação<br />
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico, enfermeiro ou 
+farmacêutico antes de receber esta vacina. Spikevax pode ser utilizada durante a gravidez. Uma grande 
+quantidade de informações obtidas de mulheres grávidas vacinadas com Spikevax durante o segundo e 
+terceiro trimestres não demonstrou efeitos negativos na gravidez ou no recém-nascido. Embora as 
+informações sobre efeitos na gravidez ou no recém-nascido após a vacinação durante o primeiro 
+trimestre sejam limitadas, não se observou qualquer alteração no risco acrescido de aborto espontâneo.  </p>
+<p>Spikevax pode ser administrada durante a amamentação. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza nem utilize máquinas se não se sentir bem após a vacinação. Aguarde até quaisquer 
+efeitos da vacina terem desaparecido antes de conduzir ou utilizar máquinas. </p>
+<p>A Spikevax contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar spikevax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar spikevax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tabela 1. Posologia de Spikevax para o esquema de vacinação primário, uma terceira dose para 
+indivíduos gravemente imunocomprometidos e doses de reforço </p>
+<p>Dosagem 
+Tipo de vacinação 
+Idade(s) </p>
+<p>Dose 
+Recomendações 
+Spikevax 0,2 mg/ml 
+dispersão injetável </p>
+<p>Esquema de 
+vacinação primário </p>
+<p>Indivíduos 
+com idade 
+igual ou 
+superior a 
+12 anos </p>
+<p>2 (duas) doses 
+(0,5 ml cada, 
+contendo 
+100 microgramas 
+de mRNA) </p>
+<p>Recomenda-se 
+que a segunda 
+dose seja 
+administrada 
+28 dias após a 
+primeira dose. </p>
+<p>Crianças 
+dos 6 anos 
+aos 
+11 anos de 
+idade </p>
+<p>2 (duas) doses 
+(0,25 ml cada, 
+contendo 
+50 microgramas 
+de mRNA, que é 
+metade da dose 
+primária para 
+indivíduos com 
+idade igual ou 
+superior a 
+12 anos) </p>
+<p>Terceira dose em 
+indivíduos 
+gravemente 
+imunocomprometidos </p>
+<p>Indivíduos 
+com idade 
+igual ou 
+superior a 
+12 anos  </p>
+<p>1 (uma) dose de 
+0,5 ml, contendo 
+100 microgramas 
+de mRNA </p>
+<p>Poderá ser 
+administrada 
+uma terceira 
+dose após pelo 
+menos 28 dias a 
+contar da 
+segunda dose. </p>
+<p>Crianças 
+dos 6 anos 
+aos 
+11 anos de 
+idade  </p>
+<p>1 (uma) dose de 
+0,25 ml, 
+contendo 
+25 microgramas 
+de mRNA </p>
+<p>Dose de reforço  </p>
+<p>Indivíduos 
+com idade 
+igual ou 
+superior a 
+12 anos </p>
+<p>1 (uma) dose de 
+0,25 ml, 
+contendo 
+50 microgramas 
+de mRNA </p>
+<p>A Spikevax pode 
+ser utilizada 
+como reforço em 
+indivíduos com 
+idade igual ou 
+superior a 
+12 anos que 
+Dosagem 
+Tipo de vacinação 
+Idade(s) </p>
+<p>Dose 
+Recomendações 
+tenham recebido 
+o esquema de 
+vacinação 
+primário com 
+Spikevax ou um 
+esquema de 
+vacinação 
+primário 
+constituído por 
+outra vacina de 
+mRNA ou por 
+uma vacina de 
+vetor adenoviral 
+pelo menos 
+3 meses após 
+completarem o 
+esquema de 
+vacinação 
+primário. </p>
+<p>Spikevax 0,1 mg/ml 
+dispersão injetável 
+e Spikevax 
+50 microgramas 
+dispersão injetável 
+em seringa pré-
+cheia* </p>
+<p>Esquema de 
+vacinação primário† </p>
+<p>Crianças 
+dos 6 anos 
+aos 
+11 anos de 
+idade  </p>
+<p>2 (duas) doses 
+(0,5 ml cada, 
+contendo 
+50 microgramas 
+de mRNA)  </p>
+<p>Recomenda-se 
+que a segunda 
+dose seja 
+administrada 
+28 dias após a 
+primeira dose. </p>
+<p>Crianças 
+dos 
+6 meses 
+aos 5 anos 
+de idade </p>
+<p>2 (duas) doses 
+(0,25 ml cada, 
+contendo 
+25 microgramas 
+de mRNA cada, 
+que é metade da 
+dose primária 
+para crianças dos 
+6 anos aos 
+11 anos de 
+idade)* </p>
+<p>Terceira dose em 
+indivíduos 
+gravemente 
+imunocomprometidos 
+‡  </p>
+<p>Crianças 
+dos 6 anos 
+aos 
+11 anos de 
+idade </p>
+<p>1 (uma) dose de 
+0,5 ml, contendo 
+50 microgramas 
+de mRNA </p>
+<p>Poderá ser 
+administrada 
+uma terceira 
+dose após pelo 
+menos 28 dias a 
+contar da 
+segunda dose. </p>
+<p>Crianças 
+dos 
+6 meses 
+aos 5 anos 
+de idade </p>
+<p>1 (uma) dose de 
+0,25 ml, 
+contendo 
+25 microgramas 
+de mRNA* </p>
+<p>Dose de reforço  </p>
+<p>Indivíduos 
+com idade 
+igual ou 
+superior a 
+12 anos<br />
+1 (uma) dose de 
+0,5 ml, contendo 
+50 microgramas 
+de mRNA  </p>
+<p>A Spikevax pode 
+ser utilizada 
+como reforço em 
+indivíduos com 
+idade igual ou 
+Dosagem 
+Tipo de vacinação 
+Idade(s) </p>
+<p>Dose 
+Recomendações </p>
+<p>superior a 6 anos 
+que tenham 
+recebido o 
+esquema de 
+vacinação 
+primário com 
+Spikevax ou um 
+esquema de 
+vacinação 
+primário 
+constituído por 
+outra vacina de 
+mRNA ou por 
+uma vacina de 
+vetor adenoviral 
+pelo menos 
+3 meses após 
+completarem o 
+esquema de 
+vacinação 
+primário. </p>
+<p>Crianças 
+dos 
+6 anos aos 
+11 anos de 
+idade </p>
+<p>1 (uma) dose de 
+0,25 ml, 
+contendo 
+25 microgramas 
+de mRNA* </p>
+<p>*Não utilizar a seringa pré-cheia para administrar um volume parcial de 0,25 ml. 
+†Para o esquema de vacinação primário em indivíduos com idade igual ou superior a 12 anos, deve ser 
+utilizado o frasco para injetáveis de concentração de 0,2 mg/ml. 
+‡Para a terceira dose em indivíduos gravemente imunocomprometidos com idade igual ou superior a 
+12 anos, deve ser utilizado o frasco para injetáveis de concentração de 0,2 mg/ml. </p>
+<p>Se falhar uma marcação para a sua 2.ª dose primária da Spikevax 
+- Se falhar uma marcação, marque outra consulta com o seu médico, farmacêutico ou enfermeiro 
+assim que possível. 
+- Se falhar uma injeção agendada, poderá não estar totalmente protegido contra a COVID-19.<br />
+O seu médico, farmacêutico ou enfermeiro irá injetar a vacina num músculo (injeção intramuscular) na 
+parte superior do seu braço. </p>
+<p>Após cada injeção da vacina, o seu médico, farmacêutico ou enfermeiro irá vigiá-lo durante pelo 
+menos 15 minutos para monitorizar sinais de uma reação alérgica. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização desta vacina, fale com o seu médico, farmacêutico ou 
+enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, esta vacina pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Obtenha assistência médica urgente se tiver algum dos seguintes sinais e sintomas de uma reação 
+alérgica: 
+- sensação de desmaio ou tonturas; 
+- alterações no seu batimento cardíaco; 
+- falta de ar; 
+- pieira; 
+- inchaço dos lábios, face ou garganta; 
+- urticária ou erupção na pele; 
+- náuseas ou vómitos; 
+- dor de estômago. </p>
+<p>Informe o seu médico ou enfermeiro se tiver outros efeitos indesejáveis. Estes podem incluir: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas): 
+- inchaço/sensibilidade debaixo do braço 
+- apetite diminuído (observado em crianças dos 6 meses aos 5 anos de idade) 
+- irritabilidade/choro (observado em crianças dos 6 meses aos 5 anos de idade) 
+- dor de cabeça 
+- sonolência (observada em crianças dos 6 meses aos 5 anos de idade) 
+- náuseas 
+- vómitos 
+- dores musculares, dores nas articulações e rigidez 
+- dor ou inchaço no local de injeção 
+- vermelhidão no local de injeção (alguns dos quais podem ocorrer cerca de 9 a 11 dias após a 
+injeção) 
+- sensação de muito cansaço 
+- arrepios 
+- febre </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): 
+- diarreia 
+- erupção na pele 
+- erupção na pele ou urticária no local de injeção (algumas podem ocorrer aproximadamente 9 a 
+11 dias depois da injeção) </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- comichão no local de injeção 
+- tonturas 
+- dor de estômago 
+- erupção na pele com comichão (urticária) (que pode ocorrer desde o momento da injeção até 
+cerca de duas semanas após a injeção) </p>
+<p>Raros (podem afetar até 1 em 1000 pessoas): 
+- queda temporário de um dos lados da face (paralisia de Bell) 
+- inchaço da face (o inchaço da face pode ocorrer em indivíduos que tenham recebido injeções na 
+face para fins cosméticos) 
+- diminuição do sentido do tato ou de sensações 
+- sensação estranha na pele, como, por exemplo, dormência ou formigueiro (parestesia) </p>
+<p>Muito raros (podem afetar 1 em cada 10 000 pessoas) 
+- inflamação do músculo cardíaco (miocardite) ou inflamação da membrana que envolve o 
+coração (pericardite) que pode resultar em falta de ar, palpitações ou dor no peito </p>
+<p>Frequência desconhecida 
+- reações alérgicas graves com dificuldade em respirar (anafilaxia) 
+- reação de sensibilidade aumentada ou intolerância pelo sistema imunitário (hipersensibilidade) 
+- uma reação na pele que provoca manchas ou pápulas vermelhas com aparência de alvo ou “olho 
+de boi" com um centro vermelho escuro rodeado de anéis de cor vermelha mais clara (eritema 
+multiforme) 
+- inchaço extenso do membro vacinado 
+- fluxo menstrual abundante (a maioria dos casos parece ser de natureza não grave e temporária) 
+- erupção na pele provocada por estímulos externos, tais como toque firme, coçar ou pressão na 
+pele (urticária mecânica) 
+- erupção na pele empolada ou com comichão com uma duração de mais de seis semanas 
+(urticária crónica) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança desta vacina. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar spikevax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar spikevax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter esta vacina fora da vista e do alcance das crianças. </p>
+<p>Não utilize esta vacina após o prazo de validade impresso no rótulo, após VAL. O prazo de validade 
+corresponde ao último dia do mês indicado. </p>
+<p>As informações sobre conservação, validade, e utilização e manuseamento estão descritas na secção 
+destinada aos profissionais de saúde, no final do folheto informativo. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Spikevax </p>
+<p>Tabela 2. Composição por tipo de embalagem </p>
+<p>Dosagem 
+Embalagem 
+Dose(s) 
+Composição </p>
+<p>Spikevax 
+0,2 mg/ml 
+dispersão 
+injetável 
+Frasco para 
+injetáveis 
+multidose 
+Máximo de 10 doses 
+de 0,5 ml cada<br />
+Uma dose (0,5 ml) contém 
+100 microgramas de elasomeran, 
+uma vacina de mRNA contra a 
+COVID-19 (com nucleósido 
+modificado) (encapsulado em 
+nanopartículas lipídicas SM-102). </p>
+<p>Máximo de 20 doses 
+de 0,25 ml cada </p>
+<p>Uma dose (0,25 ml) contém 
+50 microgramas de elasomeran, 
+uma vacina de mRNA contra a 
+COVID-19 (com nucleósido 
+modificado) (encapsulado em 
+nanopartículas lipídicas SM-102). </p>
+<p>Spikevax 
+0,1 mg/ml 
+dispersão 
+injetável<br />
+Frasco para 
+injetáveis 
+multidose </p>
+<p>5 doses 
+de 0,5 ml cada  </p>
+<p>Máximo de 10 doses 
+de 0,25 ml cada 
+Uma dose (0,5 ml) contém 
+50 microgramas de elasomeran, 
+uma vacina de mRNA contra a 
+COVID-19 (com nucleósido 
+modificado) (encapsulado em 
+nanopartículas lipídicas SM-102). </p>
+<p>Uma dose (0,25 ml) contém 
+25 microgramas de elasomeran, 
+uma vacina de mRNA contra a 
+Dosagem 
+Embalagem 
+Dose(s) 
+Composição </p>
+<p>COVID-19 (com nucleósido 
+modificado) (encapsulado em 
+nanopartículas lipídicas SM-102). 
+Spikevax 
+50 microgramas 
+dispersão 
+injetável em 
+seringa pré-
+cheia<br />
+Seringa pré-
+cheia </p>
+<p>1 dose de 0,5 ml </p>
+<p>Apenas para 
+utilização única. </p>
+<p>Não utilize a seringa 
+pré-cheia para 
+administrar um 
+volume parcial de 
+0,25 ml. </p>
+<p>Uma dose (0,5 ml) contém 
+50 microgramas de elasomeran, 
+uma vacina de mRNA contra a 
+COVID-19 (com nucleósido 
+modificado) (encapsulado em 
+nanopartículas lipídicas SM-102). </p>
+<p>O elasomeran é um RNA mensageiro (mRNA) de cadeia simples, com estrutura 5’-cap, produzido 
+utilizando a transcrição in vitro num sistema livre de células a partir dos moldes correspondentes de 
+DNA, que codifica a proteína S (spike) do vírus SARS-CoV-2 (original). </p>
+<p>Os outros componentes são SM-102 (heptadecan-9-il 8-{(2-hidroxietil)[6-oxo-6-
+(undeciloxi)hexil]amino}octanoato), colesterol, 1,2-distearoil-sn-glicero-3-fosfocolina (DSPC), 1,2-
+Dimiristoil-rac-glicero-3 metoxipolietilenoglicol-2000 (PEG2000-DMG), trometamol, cloridrato de 
+trometamol, ácido acético, acetato de sódio tri-hidratado, sacarose, água para preparações injetáveis. </p>
+<p>Qual o aspeto de Spikevax e conteúdo da embalagem </p>
+<p>Spikevax 0,2 mg/ml dispersão injetável </p>
+<p>A Spikevax é uma dispersão branca a esbranquiçada fornecida num frasco para injetáveis de vidro de 
+5 ml com uma rolha de borracha e cápsula de fecho de plástico de abertura fácil vermelha com selo de 
+alumínio.  </p>
+<p>Apresentação: 10 frascos para injetáveis multidose </p>
+<p>Spikevax 0,1 mg/ml dispersão injetável </p>
+<p>A Spikevax é uma dispersão branca a esbranquiçada fornecida num frasco para injetáveis de vidro de 
+2,5 ml com uma rolha de borracha e cápsula de fecho de plástico de abertura fácil azul com selo de 
+alumínio. </p>
+<p>Apresentação: 10 frascos para injetáveis multidose </p>
+<p>Spikevax 50 microgramas dispersão injetável em seringa pré-cheia </p>
+<p>A Spikevax é uma dispersão branca a esbranquiçada fornecida numa seringa pré-cheia (polímero de 
+olefina cíclica) com êmbolo e uma tampa de ponta (sem agulha). </p>
+<p>A seringa pré-cheia é embalada em 5 blísteres transparentes contendo 2 seringas pré-cheias em cada 
+blíster. </p>
+<p>Apresentação: 10 seringas pré-cheias </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>MODERNA BIOTECH SPAIN, S.L.<br />
+C/ Julián Camarillo nº 28037 Madrid 
+Espanha </p>
+<p>Fabricantes </p>
+<p>Para frascos para injetáveis multidose </p>
+<p>Rovi Pharma Industrial Services, S.A. 
+Paseo de Europa, 28703. San Sebastián de los Reyes, 
+Madrid 
+Espanha </p>
+<p>Recipharm Monts 
+18 Rue de Montbazon 
+Monts, França 37 
+Moderna Biotech Spain S.L. 
+C/ Julián Camarillo nº 28037 Madrid 
+Espanha </p>
+<p>Para seringa pré-cheia </p>
+<p>Rovi Pharma Industrial Services, S.A. 
+Calle Julián Camarillo n°28037 Madrid 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+Tél/Tel: 0800 81<br />
+Lietuva 
+Tel: 88 003 1 
+България 
+Teл: 0800 115 4<br />
+Luxembourg/Luxemburg 
+Tél/Tel: 800 85 Česká republika 
+Tel: 800 050<br />
+Magyarország 
+Tel: 06 809 87Danmark 
+Tlf: 80 81 06<br />
+Malta 
+Tel: 8006 5Deutschland 
+Tel: 0800 100 9 
+Nederland 
+Tel: 0800 409 0Eesti 
+Tel: 800 0044<br />
+Norge 
+Tlf: 800 31 Ελλάδα 
+Τηλ: 008004 4149 
+Österreich 
+Tel: 0800 909España 
+Tel: 900 031<br />
+Polska 
+Tel: 800 702<br />
+France 
+Tél: 0805 54 30 Portugal 
+Tel: 800 210 <br />
+Hrvatska 
+Tel: 08009 
+Ireland 
+Tel: 1800 800<br />
+România 
+Tel: 0800 400<br />
+Slovenija 
+Tel: 080 083 
+Ísland 
+Sími: 800 4Slovenská republika 
+Tel: 0800 191<br />
+Italia 
+Tel: 800 928<br />
+Suomi/Finland 
+Puh/Tel: 0800 774Κύπρος 
+Τηλ: 80091 
+Sverige 
+Tel: 020 10 92<br />
+Latvija 
+Tel: 80 005 United Kingdom (Northern Ireland) 
+Tel: 0800 085 7 
+Este folheto foi revisto pela última vez em {DD mês AAAA}. </p>
+<p>Digitalize este código com um dispositivo móvel para obter o folheto informativo em idiomas 
+diferentes.  </p>
+<p>Ou visite esta ligação: https://www.ModernaCovid19Global.com  </p>
+<p>Está disponível informação pormenorizada sobre esta vacina no sítio da internet da Agência Europeia 
+de Medicamentos: http://www.ema.europa.eu. </p>
+<p>Este folheto está disponível em todas as línguas da UE/EEE no sítio da Internet da Agência Europeia 
+de Medicamentos. </p>
+<hr />
+<p>A informação que se segue destina-se apenas aos profissionais de saúde: </p>
+<p>Rastreabilidade </p>
+<p>De forma a melhorar a rastreabilidade dos medicamentos biológicos, o nome e o número de lote do 
+medicamento administrado devem ser registados de forma clara. </p>
+<p>Conservação e preparação para administração </p>
+<p>A Spikevax deve ser administrada por um profissional de saúde com formação. </p>
+<p>A vacina está pronta a utilizar uma vez descongelada. </p>
+<p>Não agitar ou diluir. </p>
+<p>A vacina deve ser inspecionada visualmente em relação a partículas e descoloração antes da 
+administração. </p>
+<p>A Spikevax é uma dispersão branca a esbranquiçada. Pode conter partículas brancas ou translúcidas 
+relacionadas com o medicamento. Não administrar se a vacina estiver descolorada ou contiver outras 
+partículas. </p>
+<p>Conservar os frascos para injetáveis e as seringas pré-cheias no congelador entre -50ºC e -15ºC. </p>
+<p>Manter o frasco para injetáveis e a seringa pré-cheia na embalagem exterior para proteger da luz. </p>
+<p>Spikevax 0,2 mg/ml dispersão injetável (frascos para injetáveis multidose com uma cápsula de fecho 
+de abertura fácil vermelha) </p>
+<p>Podem ser retiradas dez (10) doses (de 0,5 ml cada) ou um máximo de vinte (20) doses (de 0,25 ml 
+cada) de cada frasco para injetáveis multidose. </p>
+<p>Perfure a rolha do frasco para injetáveis, de preferência num local diferente de cada vez. Não perfure a 
+cápsula vermelha do frasco para injetáveis mais de 20 vezes. </p>
+<p>Verifique que o frasco para injetáveis tem uma tampa de fecho de abertura fácil vermelha e o nome do 
+medicamento é Spikevax 0,2 mg/ml. Se o frasco para injetáveis tiver uma tampa de fecho de abertura 
+fácil azul e o nome do medicamento for Spikevax bivalent Original/Omicron BA.1 ou Spikevax 
+bivalent Original/Omicron BA.4-5, consulte o Resumo das Características do Medicamento dessa 
+formulação. </p>
+<p>Descongele cada frasco para injetáveis multidose antes da utilização seguindo as instruções abaixo 
+(Tabela 3). </p>
+<p>Tabela 3. Instruções de descongelação dos frascos para injetáveis multidose antes da utilização </p>
+<p>Configuração 
+Instruções de descongelação e duração 
+Temperatura 
+de 
+descongelação 
+(no 
+frigorífico) 
+Duração da 
+descongelaçã
+o 
+Temperatura 
+de 
+descongelação 
+(à 
+temperatura 
+ambiente) 
+Duração da 
+descongelação </p>
+<p>Frasco para injetáveis 
+multidose<br />
+2 - 8°C 
+2 horas e 
+30 minutos 
+15°C - 25°C 
+1 hora </p>
+<p>Spikevax 0,1 mg/ml dispersão injetável (frascos para injetáveis multidose com uma cápsula de fecho 
+de abertura fácil azul) </p>
+<p>Podem ser retiradas cinco (5) doses (de 0,5 ml cada) ou um máximo de dez (10) doses (de 0,25 ml 
+cada) de cada frasco para injetáveis multidose.  </p>
+<p>Perfure a rolha do frasco para injetáveis, de preferência num local diferente de cada vez. </p>
+<p>Verifique se o frasco para injetáveis tem uma tampa de fecho de abertura fácil azul e se o nome do 
+medicamento é Spikevax 0,1 mg/ml. Se o frasco para injetáveis tiver uma tampa de fecho de abertura 
+fácil azul e se o nome do medicamento for Spikevax bivalent Original/Omicron BA.1 ou Spikevax 
+bivalent Original/Omicron BA.4-5, consulte o Resumo das Características do Medicamento dessa 
+formulação. </p>
+<p>Descongele cada frasco para injetáveis multidose antes da utilização seguindo as instruções abaixo 
+(Tabela 4). Quando o frasco para injetáveis é descongelado no frigorífico, deixe o frasco para 
+injetáveis à temperatura ambiente durante 15 minutos antes da administração.  </p>
+<p>Tabela 4. Instruções de descongelação dos frascos para injetáveis multidose antes da utilização </p>
+<p>Configuração 
+Instruções de descongelação e duração 
+Temperatura 
+de 
+descongelação 
+(no frigorífico) 
+Duração da 
+descongelação 
+Temperatura 
+de 
+descongelação 
+(à temperatura 
+ambiente) 
+Duração da 
+descongelação 
+Frasco para injetáveis 
+multidose<br />
+2 - 8°C 
+2 horas e 
+30 minutos 
+15°C - 25°C 
+1 hora </p>
+<p>Spikevax 50 microgramas dispersão injetável em seringa pré-cheia </p>
+<p>Não agitar ou diluir o conteúdo da seringa pré-cheia. </p>
+<p>Cada seringa pré-cheia destina-se apenas a uma única utilização. A vacina está pronta a utilizar uma 
+vez descongelada. </p>
+<p>Pode ser administrada uma (1) dose de 0,5 ml de cada seringa pré-cheia. Não utilize a seringa pré-
+cheia para administrar um volume parcial de 0,25 ml. </p>
+<p>A Spikevax é fornecida numa seringa pré-cheia unidose (sem agulha) contendo 0,5 ml 
+(50 microgramas) de mRNA e tem de ser descongelada antes da administração. </p>
+<p>Durante a conservação, minimize a exposição à luz ambiente, e evite a exposição direta à luz solar e à 
+luz ultravioleta. </p>
+<p>Descongele cada seringa pré-cheia antes da utilização seguindo as instruções abaixo. As seringas 
+podem ser descongeladas nas embalagens blíster (cada blíster contém 2 seringas pré-cheias) ou na 
+própria embalagem exterior, no frigorífico ou à temperatura ambiente (Tabela 5). Quando a seringa é 
+descongelada no frigorífico, deixe a seringa à temperatura ambiente durante 15 minutos antes da 
+administração. </p>
+<p>Tabela 5. Instruções de descongelação das seringas pré-cheias e embalagens exteriores antes da 
+utilização </p>
+<p>Configuração 
+Instruções de descongelação e duração 
+Temperatura 
+de 
+descongelação 
+(no frigorífico) 
+(°C) 
+Duração 
+da 
+descongela
+ção 
+(minutos) 
+Temperatura 
+de 
+descongelação 
+(à 
+temperatura 
+ambiente) 
+(°C) 
+Duração da 
+descongelação 
+(minutos) 
+Seringa pré-cheia numa 
+embalagem blíster<br />
+2 - 8 
+15 - Embalagem exterior 
+2 - 8 
+15 -<br />
+Verifique se o nome do medicamento que consta na seringa pré-cheia é Spikevax 50 microgramas. Se 
+o nome do medicamento for Spikevax bivalent Original/Omicron BA.1 ou Spikevax bivalent 
+Original/Omicron BA.4-5, consulte o Resumo das Características do Medicamento dessa formulação. </p>
+<p>Instruções de manuseamento das seringas pré-cheias </p>
+<ul>
+<li>
+<p>Deixe cada seringa pré-cheia à temperatura ambiente (15 C a 25 C) durante 15 minutos antes da 
+administração. </p>
+</li>
+<li>
+<p>Não agitar. </p>
+</li>
+<li>
+<p>A seringa pré-cheia deve ser inspecionada visualmente em relação a partículas e descoloração 
+antes da administração. </p>
+</li>
+<li>
+<p>A Spikevax é uma dispersão branca a esbranquiçada. Pode conter partículas brancas ou 
+translúcidas relacionadas com o medicamento. Não administrar se a vacina estiver descolorada 
+ou contiver outras partículas. </p>
+</li>
+<li>
+<p>As agulhas não estão incluídas nas embalagens exteriores de seringas pré-cheias.  </p>
+</li>
+<li>
+<p>Utilize uma agulha estéril de tamanho adequado para injeção intramuscular (agulhas de calibre 
+21 ou mais finas). </p>
+</li>
+<li>
+<p>Com a tampa da ponta para cima, remova a tampa da ponta rodando-a no sentido anti-horário 
+até esta se soltar. Remova a tampa da ponta com um movimento lento e firme. Evite puxar a 
+tampa da ponta enquanto roda. </p>
+</li>
+<li>
+<p>Fixe a agulha rodando-a no sentido horário até que a agulha encaixe firmemente na seringa. </p>
+</li>
+<li>
+<p>Destape a agulha quando estiver pronto para a administração. </p>
+</li>
+<li>
+<p>Administre a totalidade da dose por via intramuscular. </p>
+</li>
+<li>
+<p>Uma vez descongelada, não volte a congelar a vacina.  </p>
+</li>
+</ul>
+<p>Eliminação </p>
+<p>Qualquer medicamento não utilizado ou resíduos devem ser eliminados de acordo com as exigências 
+locais. </p>
+<p>Posologia e esquema de vacinação </p>
+<p>Tabela 6. Posologia de Spikevax para o esquema de vacinação primário, uma terceira dose para 
+indivíduos gravemente imunocomprometidos e doses de reforço </p>
+<p>Vacinação 
+Spikevax 0,2 mg/ml 
+dispersão injetável 
+Spikevax 0,1 mg/ml 
+dispersão injetável e 
+Spikevax 50 microgramas 
+dispersão injetável em 
+seringa pré-cheia* </p>
+<p>Esquema de vacinação primário </p>
+<p>Recomenda-se que a segunda dose 
+da mesma vacina seja 
+administrada 28 dias após a 
+primeira dose para completar o 
+esquema de vacinação. </p>
+<p>Indivíduos com idade igual 
+ou superior a 12 anos 
+duas injeções de 0,5 ml </p>
+<p>Não aplicável† </p>
+<p>Crianças dos 6 anos aos 
+11 anos de idade 
+duas injeções de 0,25 ml </p>
+<p>Crianças dos 6 anos aos 
+11 anos de idade 
+duas injeções de 0,5 ml </p>
+<p>Não aplicável </p>
+<p>Crianças dos 6 meses aos 
+5 anos de idade 
+duas injeções de 0,25 ml* </p>
+<p>Terceira dose em indivíduos 
+gravemente 
+imunocomprometidos </p>
+<p>pelo menos 1 mês após a segunda 
+dose </p>
+<p>Indivíduos com idade igual 
+ou superior a 12 anos 
+0,5 ml </p>
+<p>Não aplicável‡ </p>
+<p>Crianças dos 6 anos aos 
+11 anos de idade 
+0,25 ml </p>
+<p>Crianças dos 6 anos aos 
+11 anos de idade 
+0,5 ml </p>
+<p>Não aplicável </p>
+<p>Crianças dos 6 meses aos 
+5 anos de idade 
+0,25 ml* </p>
+<p>Dose de reforço </p>
+<p>pode ser administrada pelo menos 
+3 meses após a segunda dose </p>
+<p>Indivíduos com idade igual 
+ou superior a 12 anos 
+0,25 ml </p>
+<p>Indivíduos com idade igual 
+ou superior a 12 anos 
+0,5 ml </p>
+<p>Não aplicável </p>
+<p>Indivíduos com idade igual 
+ou superior a 6 anos 
+0,25 ml* </p>
+<ul>
+<li>Não utilize a seringa pré-cheia para administrar um volume parcial de 0,25 ml. 
+† Para o esquema de vacinação primário em indivíduos com idade igual ou superior a 12 anos, deve 
+ser utilizado o frasco de concentração de 0,2 mg/ml. 
+‡ Para a terceira dose em indivíduos gravemente imunocomprometidos com idade igual ou superior a 
+12 anos, deve ser utilizado o frasco para injetáveis de concentração de 0,2 mg/ml. </li>
+</ul>
+<p>Como acontece com todas as vacinas injetáveis, tem de estar sempre imediatamente disponível 
+tratamento médico adequado e supervisão na eventualidade de uma reação anafilática após a 
+administração da Spikevax. </p>
+<p>Os indivíduos devem ser observados por um profissional de saúde durante, pelo menos, 15 minutos 
+após a vacinação. </p>
+<p>A vacina quadrivalente de dose elevada contra a gripe pode ser concomitantemente administrada com 
+Spikevax. 
+A Spikevax não pode ser misturada com outras vacinas ou medicamentos na mesma seringa. </p>
+<p>Administração </p>
+<p>A vacina tem de ser administrada por via intramuscular. O sítio preferido é o músculo deltoide da 
+parte superior do braço ou, em bebés e crianças pequenas, na face anterolateral da coxa. Não 
+administrar esta vacina por via intravascular, subcutânea ou intradérmica. </p>
+<p>Frascos para injetáveis multidose </p>
+<p>Seringas pré-cheias 
+Utilize uma agulha esterilizada do tamanho apropriado para injeção intramuscular (calibre 21 ou mais 
+fina). Com a tampa para cima, remova a tampa da ponta rodando-a no sentido anti-horário até esta se 
+soltar. Remova a tampa da ponta com um movimento lento e firme. Evite puxar a tampa da ponta 
+enquanto roda. Fixe a agulha rodando-a no sentido horário até que a agulha encaixe firmemente na 
+seringa. Destape a agulha quando estiver pronto para a administração. Administre a totalidade da dose 
+por via intramuscular. Elimine a seringa após a sua utilização. Apenas para utilização única. </p>
+<p>Folheto informativo: Informação para o utilizador </p>
+<p>Spikevax bivalent Original/Omicron BA.1 
+(50 microgramas/50 microgramas)/ml dispersão injetável 
+Spikevax bivalent Original/Omicron BA.1 
+25 microgramas/25 microgramas dispersão injetável 
+Spikevax bivalent Original/Omicron BA.1<br />
+25 microgramas/25 microgramas dispersão injetável em seringa pré-cheia 
+Vacina de mRNA contra a COVID-elasomeran/imelasomeran </p>
+<p>Este medicamento está sujeito a monitorização adicional. Isto irá permitir a rápida identificação de 
+nova informação de segurança. Poderá ajudar, comunicando quaisquer efeitos indesejáveis que tenha. 
+Para saber como comunicar efeitos indesejáveis, veja o final da secção 4.<br />
+Leia com atenção todo este folheto antes de receber esta vacina, pois contém informação 
+importante para si. 
+- Conserve este folheto. Pode ter necessidade de o ler novamente.<br />
+- Caso ainda tenha dúvidas, fale com o seu médico, farmacêutico ou enfermeiro. 
+- Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Ver secção 4.  </p>         </div>"""      
+
+
+
 
 
                     
@@ -1724,6 +2704,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-53506f739e6f34ca79778a9dce57bf48"
 * entry[0].resource = composition-da-53506f739e6f34ca79778a9dce57bf48
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp53506f739e6f34ca79778a9dce57bf48"
+* entry[=].resource = mp53506f739e6f34ca79778a9dce57bf48
+                            
+                    
+Instance: bundlepackageleaflet-pt-53506f739e6f34ca79778a9dce57bf48
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for spikevax Package Leaflet for language pt"
+Description: "ePI document Bundle for spikevax Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-53506f739e6f34ca79778a9dce57bf48"
+* entry[0].resource = composition-pt-53506f739e6f34ca79778a9dce57bf48
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp53506f739e6f34ca79778a9dce57bf48"
@@ -1825,6 +2827,18 @@ RuleSet: 53506f739e6f34ca79778a9dce57bf48ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-53506f739e6f34ca79778a9dce57bf48) // spikevax pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

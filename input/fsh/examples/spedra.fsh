@@ -890,6 +890,523 @@ som ikke er nævnt her. Se punkt 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-67eb9f5d8991acd60b19f2204c2773c0
+InstanceOf: CompositionUvEpi
+Title: "Composition for spedra Package Leaflet"
+Description:  "Composition for spedra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp67eb9f5d8991acd60b19f2204c2773c0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - spedra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Spedra e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Spedra </li>
+<li>Como tomar Spedra </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Spedra </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é spedra e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é spedra e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Spedra contém a substância ativa avanafil. Pertence a um grupo de medicamentos chamado 
+inibidores da fosfodiesterase de tipo 5 (PDE5). O Spedra é um tratamento para homens adultos 
+que sofrem de disfunção erétil (também conhecida como impotência). Ou seja, quando não 
+conseguem atingir ou manter o pénis duro e ereto, adequado para a prática de atividade sexual. </p>
+<p>O Spedra funciona ajudando os vasos sanguíneos no seu pénis a se relaxarem. Isto aumenta o 
+fluxo de sangue para o pénis, ajudando-o a manter-se duro e ereto quando fica sexualmente 
+excitado. O Spedra não cura a sua patologia. 
+É importante ter em conta que o Spedra só funciona se você for sexualmente estimulado. 
+Continua a ter de utilizar preliminares com o(a) seu(sua) parceiro(a) para se prepararem para a 
+atividade sexual - tal como faria se não estivesse a tomar um medicamento para ajudá-lo. </p>
+<p>O Spedra não o ajudará se não tiver disfunção erétil. O Spedra não se destina a mulheres. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar spedra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar spedra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Spedra: </p>
+<p> 
+se tem alergia ao avanafil ou a qualquer outro componente deste medicamento (indicados 
+na secção 6); 
+ 
+se está a tomar medicamentos de «nitrato» para a dor torácica (angina de peito), como 
+nitrito de amilo ou nitroglicerina. O Spedra pode aumentar os efeitos destes 
+medicamentos e baixar gravemente a sua tensão arterial; 
+ 
+se está a tomar medicamentos para o VIH ou SIDA, como ritonavir, indinavir, saquinavir, 
+nelfinavir ou atazanavir; </p>
+<p> 
+se está a tomar medicamentos para infeções fúngicas, como cetoconazol, itraconazol ou 
+voriconazol ou determinados antibióticos para infeções bacterianas, como claritromicina 
+ou telitromicina; 
+ 
+se tem um problema cardíaco grave; 
+ 
+se teve um acidente vascular cerebral (AVC) ou um ataque cardíaco nos últimos 6 meses; 
+ 
+se tem tensão arterial baixa ou tensão arterial alta não controlada por medicamentos; 
+ 
+se tem dor torácica (angina de peito) ou se fica com dor torácica durante a prática de 
+relações sexuais; 
+ 
+se tem problemas graves no fígado ou nos rins; 
+ 
+se tem perda de visão num olho devido à falta de irrigação sanguínea no olho (neuropatia 
+ótica isquémica anterior não arterítica [NAION]); 
+ 
+se determinados problemas oculares graves são de família (como retinite pigmentosa). 
+ 
+Se estiver a tomar riociguat. Este medicamento é usado para tratar a hipertensão arterial 
+pulmonar (i.e., pressão sanguínea elevada nos pulmões) e a hipertensão pulmonar 
+tromboembólica crónica (i.e pressão sanguínea elevada nos pulmões devida a coágulos de 
+sangue). Os inibidores da PDE5 mostraram aumentar os efeitos hipotensores deste 
+medicamento. Informe o seu médico se estiver a tomar riociguat ou se estiver inseguro. </p>
+<p>Não tome Spedra se alguma das situações acima referidas se aplica a si. Se tiver dúvidas, fale 
+com o seu médico ou farmacêutico antes de tomar Spedra. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Spedra: 
+ 
+se tem um problema no coração. Pode ser arriscado para si ter relações sexuais; 
+ 
+se sofre de priapismo, ou seja, uma ereção persistente com duração de 4 horas ou mais. 
+Isto pode acontecer a homens que têm doenças como anemia falciforme, mieloma 
+múltiplo ou leucemia); 
+ 
+se tem uma patologia física que afeta a forma do seu pénis (como angulação, doença de 
+Peyronie ou fibrose cavernosa); 
+ 
+se tem uma coagulopatia ou ulceração péptica ativa. </p>
+<p>Se alguma das situações acima referidas se aplica a si, fale com o seu médico ou farmacêutico 
+antes de tomar Spedra. Fale com o seu médico ou farmacêutico se tiver dúvidas. 
+Problemas de visão ou audição 
+Alguns homens que tomaram medicamentos como o Spedra tiveram problemas de visão e 
+audição - consulte «Efeitos indesejáveis graves» na secção 4 para obter mais informações. Não 
+se sabe se estes problemas estão diretamente relacionados com o Spedra, com outras doenças 
+que possa ter ou com uma combinação de fatores. </p>
+<p>Se sentir diminuição ou perda súbita de visão ou se a sua visão estiver distorcida ou escurecida 
+enquanto estiver a tomar Spedra, pare de tomar Spedra e contacte o seu médico imediatamente. </p>
+<p>Crianças e adolescentes </p>
+<p>O Spedra não deve ser tomado por crianças e adolescentes com idade inferior a 18 anos. </p>
+<p>Outros medicamentos e Spedra </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier 
+a tomar outros medicamentos. Deve fazê-lo porque o Spedra pode afetar a forma como alguns 
+outros medicamentos funcionam. Outros medicamentos podem igualmente afetar a forma como 
+o Spedra funciona. </p>
+<p>Em particular, informe o seu médico e não tome o Spedra se estiver a tomar medicamentos de 
+«nitrato» para a dor torácica (angina de peito), como nitrito de amilo ou nitroglicerina. 
+Demonstrou-se que o Spedra pode aumentar os efeitos destes medicamentos e baixar 
+gravemente a sua tensão arterial. Do mesmo modo, não tome o Spedra se estiver a tomar 
+medicamentos para o VIH ou a SIDA, como ritonavir, indinavir, saquinavir, nelfinavir ou 
+atazanavir, ou se estiver a tomar medicamentos para infeções fúngicas, como cetoconazol, 
+itraconazol ou voriconazol ou determinados antibióticos para infeções bacterianas, como 
+claritromicina ou telitromicina (ver início da secção 2 em «Não tome Spedra»). </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar alguns dos medicamentos seguintes: 
+ 
+os chamados «bloqueadores alfa» - para problemas da próstata ou para diminuir a tensão 
+arterial alta; 
+ 
+medicamentos para um batimento cardíaco irregular («arritmia»), como quinidina, 
+procainamida, amiodarona ou sotalol; 
+ 
+antibióticos para infeções como eritromicina; 
+ 
+fenobarbital ou primidona - para epilepsia; 
+ 
+carbamazepina - para epilepsia, para estabilizar o seu estado de humor ou para 
+determinados tipos de dor; 
+ 
+outros medicamentos que podem reduzir a decomposição do Spedra no organismo 
+(«inibidores moderados da CYP3A4») incluindo amprenavir, aprepitante, diltiazem, 
+fluconazol, fosamprenavir e verapamilo. 
+ 
+riociguat. </p>
+<p>Não utilize Spedra em associação com outros tratamentos para a disfunção erétil, como 
+sildenafil, tadalafil ou vardenafil. </p>
+<p>Se alguma das situações acima referidas se aplica a si, fale com o seu médico ou farmacêutico 
+antes de tomar Spedra. Fale com o seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>Spedra com bebidas e álcool </p>
+<p>O sumo de toranja pode aumentar a exposição ao medicamento e deve ser evitado no espaço de 
+24 horas antes da toma do Spedra. </p>
+<p>Beber álcool ao mesmo tempo que toma Spedra pode aumentar a sua frequência cardíaca e 
+baixar a sua tensão arterial. É possível que se sinta tonto (sobretudo quando estiver de pé), tenha 
+uma dor de cabeça ou sinta o seu coração a bater no peito (palpitações). Beber álcool pode 
+também diminuir a sua capacidade para ter uma ereção. </p>
+<p>Fertilidade </p>
+<p>Não se observou qualquer efeito no movimento ou morfologia do esperma após doses orais 
+únicas de 200 mg do avanafil em voluntários saudáveis. </p>
+<p>A repetida administração oral de 100 mg de avanafil por um período de 26 semanas em 
+voluntários adultos saudáveis com disfunção erétil ligeira, não foi associada com quaisquer 
+efeitos adversos sobre a concentração, contagem, motilidade ou morfologia de esperma.  </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Spedra pode fazê-lo sentir-se tonto ou afetar a sua visão. Caso isso aconteça, não conduza, não 
+ande de bicicleta, nem utilize quaisquer ferramentas ou máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar spedra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar spedra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. 
+A dose recomendada é de um comprimido de 100 mg, conforme necessário. Não deve tomar 
+Spedra mais do que uma vez por dia. Poderá ser-lhe dada uma dose de um comprimido de mg se o seu médico decidiu que a dose de 100 mg foi muito fraca para si, ou poderá ser-lhe 
+dado uma dose de um comprimido de 50 mg se o seu médico decidiu que a dose de 100 mg foi 
+muito forte para si. Podem também ser necessários ajustes de dose se Spedra for utilizado em 
+conjunto com determinados medicamentos. Se estiver a tomar um medicamento como 
+eritromicina, amprenavir, aprepitante, diltiazem, fluconazol, fosamprenavir ou verapamilo 
+(«inibidores moderados da CYP3A4»), a dose recomendada de Spedra é de um comprimido de 
+100 mg, com um intervalo de pelo menos 2 dias entre as doses. </p>
+<p>Deve tomar Spedra  cerca de 30 minutos antes da prática de relações sexuais. Lembre-se que 
+Spedra só o ajudará a obter uma ereção se estiver sexualmente estimulado. </p>
+<p>Spedra pode ser tomado com ou sem alimentos; se for tomado com alimentos, pode demorar 
+mais tempo a fazer efeito. </p>
+<p>Se tomar mais Spedra do que deveria 
+Se tomar demasiado Spedra, deve falar de imediato com o seu médico. Pode ter mais efeitos 
+indesejáveis do que o habitual e estes podem ser mais graves. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização do Spedra, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes 
+não se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Pare de tomar Spedra e consulte de imediato um médico se observar algum dos seguintes 
+efeitos indesejáveis graves - é possível que precise de tratamento médico urgente: 
+ 
+uma ereção que não desaparece («priapismo»). Se tiver uma ereção que dure mais de 
+4 horas, esta deve ser tratada logo que possível ou o seu pénis pode sofrer danos 
+duradouros (incluindo não ser capaz de alcançar ereções); 
+ 
+visão turva; 
+ 
+diminuição súbita de visão ou perda de visão num olho ou nos dois olhos; 
+ 
+diminuição súbita de audição ou perda de audição (por vezes, pode também sentir-se 
+tonto ou ouvir zumbidos nos ouvidos). </p>
+<p>Pare de tomar Spedra e consulte de imediato um médico se observar algum dos efeitos 
+indesejáveis graves supramencionados. </p>
+<p>Outros efeitos indesejáveis incluem: 
+Frequentes (podem afetar até 1 doente em cada 10) 
+ 
+dor de cabeça; </p>
+<p> 
+vermelhidão; 
+ 
+congestão nasal; </p>
+<p>Pouco frequentes (podem afetar até 1 doente em cada 100) 
+ 
+sensação de tonturas; 
+ 
+sonolência ou cansaço extremo; 
+ 
+congestão dos seios nasais; 
+ 
+dor de costas; 
+ 
+afrontamentos; 
+ 
+sensação de falta de ar quando se esforça; 
+ 
+alterações do batimento cardíaco observadas num traçado cardíaco (eletrocardiograma); 
+ 
+batimento cardíaco aumentado; 
+ 
+sensação do coração a bater no peito (palpitações); 
+ 
+indigestão, sentir má disposição no estômago; 
+ 
+visão turva; 
+ 
+enzimas hepáticas aumentadas. 
+Raros (podem afetar até 1 doente em cada 1 000) 
+ 
+gripe; 
+ 
+doença tipo gripe; 
+ 
+nariz entupido ou com corrimento; 
+ 
+febre dos fenos; 
+ 
+congestão no nariz, seios nasais ou parte superior das vias respiratórias que levam ar para 
+os pulmões; 
+ 
+gota; 
+ 
+distúrbios do sono (insónia); 
+ 
+ejaculação precoce; 
+ 
+sentir-se estranho; 
+ 
+sentir incapacidade para se manter quieto; 
+ 
+dor torácica; 
+ 
+dor torácica grave; 
+ 
+batimento cardíaco rápido; 
+ 
+tensão arterial alta; 
+ 
+boca seca; 
+ 
+dores de estômago ou azia; 
+ 
+dor ou desconforto na parte inferior do abdómen; 
+ 
+diarreia; 
+ 
+erupção cutânea; 
+ 
+dor na parte inferior das costas ou no lado da parte inferior do tórax; 
+ 
+dores musculares; 
+ 
+espasmos musculares; 
+ 
+urinar com frequência; 
+ 
+distúrbio peniano; 
+ 
+ereção espontânea sem estimulação sexual; 
+ 
+comichão na área genital; 
+ 
+sensação constante de fraqueza ou cansaço; 
+ 
+inchaço nos pés ou calcanhares; 
+ 
+tensão arterial aumentada; 
+ 
+urina rosa ou vermelha, sangue na urina; 
+ 
+som anormal extra do coração; 
+ 
+um resultado anormal de análises ao sangue, a nível de um teste da próstata chamado 
+«PSA»; </p>
+<p> 
+um resultado anormal de análises ao sangue, a nível da bilirrubina, uma substância 
+química derivada da decomposição normal dos glóbulos vermelhos; 
+ 
+um resultado anormal de análises ao sangue, a nível da creatinina, uma substância 
+química excretada na urina que serve para avaliar a função renal; 
+ 
+aumento de peso; 
+ 
+febre 
+ 
+sangramento do nariz </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. 
+Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
+segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar spedra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar spedra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e embalagem 
+exterior, após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Spedra </p>
+<p> 
+A substância ativa é avanafil. Cada comprimido contém 50 mg de avanafil. 
+ 
+Os outros componentes são manitol, ácido fumárico, hidroxipropilcelulose, 
+hidroxipropilcelulose (baixa substituição), carbonato de cálcio, estearato de magnésio e 
+óxido de ferro amarelo (E172). 
+Qual o aspeto de Spedra e conteúdo da embalagem </p>
+<p>Spedra é um comprimido oval de tom amarelo pálido, marcado «50» num lado. Os 
+comprimidos são fornecidos em embalagens de blisters descartáveisdescartáveis para dose 
+unitária que contêm 4x1, 8x1 ou 12x1 comprimidos.  </p>
+<p>É possível que não sejam comercializadas todas as apresentações no seu país. </p>
+<p>Titular da Autorização de Introdução no Mercado:<br />
+MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG S.A.,<br />
+1, Avenue de la Gare, 
+L-1611 Luxembourg, Luxemburgo </p>
+<p>Fabricante:<br />
+Menarini - Von Heyden GmbH 
+Leipziger Straβe 7- 01097 Dresden<br />
+Alemanha </p>
+<p>ou </p>
+<p>Sanofi Winthrop Industrie 
+1, rue de la Vierge 
+Ambares et Lagrave 
+33565 Carbon-Blanc-Cedex 
+França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do 
+Titular da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Menarini Benelux NV/SA 
+Tél/Tel: + 32 (0)2 721 4Lietuva 
+UAB “BERLIN-CHEMIE MENARINI 
+BALTIC" 
+Tel: +370 52 691<br />
+България 
+ТП “Берлин-Хеми АГ 
+тел+359 2 454 0Luxembourg/Luxemburg 
+Menarini Benelux NV/SA 
+Tél/Tel: + 32 (0)2 721 4Česká republika 
+Berlin-Chemie/A.Menarini Ceska republika 
+s.r.o. Tel: +420 267 199<br />
+Magyarország 
+Berlin-Chemie/A. Menarini Kft. 
+Tel.: +36 23501Danmark 
+Pharmaprim AB 
+Tlf: +46 8355 
+Malta 
+Menarini International Operations Luxembourg 
+S.A. 
+Tel: +352 264Deutschland 
+Berlin-Chemie AG 
+Tel: +49 (0) 30 67Nederland 
+Menarini Benelux NV/SA 
+Tel: +32 (0)2 721 4 
+Eesti 
+OÜ Berlin-Chemie Menarini Eesti 
+Tel: +372 667 5 </p>
+<p>Norge 
+Pharmaprim AB 
+Tlf: +46 8355 </p>
+<p>Ελλάδα 
+MENARINI HELLAS AE 
+Τηλ: +30 210 8316111- Österreich 
+A. Menarini Pharma GmbH. 
+Tel: +43 1 879 95 85-0 </p>
+<p>España 
+Laboratorios Menarini S.A. 
+Tel: +34-93 462 88 Polska 
+Berlin-Chemie/Menarini Polska Sp. z o.o. 
+Tel.: +48 22 566 21<br />
+France 
+MENARINI France 
+Tél: +33 (0)1 45 60 77 Portugal 
+A. Menarini Portugal - Farmacêutica, S.A. 
+Tel: +351 210 935 Hrvatska 
+Berlin-Chemie Menarini Hrvatska d.o.o. 
+Tel: + 385 1 4821 România 
+Berlin-Chemie A. Menarini S.R.L. 
+Tel: +40 21 232 34 Ireland 
+A. Menarini Pharmaceuticals Ireland Ltd 
+Tel: +353 1 284 6Slovenija 
+Berlin-Chemie / A. Menarini Distribution Ljubljana 
+d.o.o<br />
+Tel: +386 01 300 2 
+Ísland 
+Pharmaprim AB 
+Sími: +46 8355 
+Slovenská republika 
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o Tel: +421 2 544 30<br />
+Italia 
+A. Menarini Industrie Farmaceutiche Riunite 
+s.r.l. 
+Tel: +39-055 56 
+Suomi/Finland 
+Berlin-Chemie/A.Menarini Suomi OY 
+Puh/Tel: +358 403 000 Κύπρος 
+MENARINI HELLAS AE 
+Τηλ: +30 210 8316111-Sverige 
+Pharmaprim AB 
+Tel:+46 8355 
+Latvija 
+SIA Berlin-Chemie/Menarini Baltic 
+Tel: +371 67103210</p>
+<p>United Kingdom (Irlanda do Norte) 
+A. Menarini Farmaceutica Internazionale S.R.L. 
+Tel: +44 (0)1628 856 
+Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio Internet da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu. </p>
+<p>Folheto informativo: Informação para o doente </p>
+<p>Spedra 100 mg comprimidos </p>
+<p>avanafil </p>
+<p>Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois 
+contém informação importante para si. </p>
+<ul>
+<li>Conserve este folheto. Pode ter necessidade de o ler novamente. </li>
+<li>Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico. </li>
+<li>Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento 
+pode ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença. </li>
+<li>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não 
+indicados neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.  </li>
+</ul>         </div>"""      
+
+
+
 
 
                     
@@ -931,6 +1448,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-67eb9f5d8991acd60b19f2204c2773c0"
 * entry[0].resource = composition-da-67eb9f5d8991acd60b19f2204c2773c0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp67eb9f5d8991acd60b19f2204c2773c0"
+* entry[=].resource = mp67eb9f5d8991acd60b19f2204c2773c0
+                            
+                    
+Instance: bundlepackageleaflet-pt-67eb9f5d8991acd60b19f2204c2773c0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for spedra Package Leaflet for language pt"
+Description: "ePI document Bundle for spedra Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-67eb9f5d8991acd60b19f2204c2773c0"
+* entry[0].resource = composition-pt-67eb9f5d8991acd60b19f2204c2773c0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp67eb9f5d8991acd60b19f2204c2773c0"
@@ -1032,6 +1571,18 @@ RuleSet: 67eb9f5d8991acd60b19f2204c2773c0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-67eb9f5d8991acd60b19f2204c2773c0) // spedra pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

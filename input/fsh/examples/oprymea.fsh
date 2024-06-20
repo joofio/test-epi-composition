@@ -1304,6 +1304,700 @@ ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel
 
 
 
+Instance: composition-pt-b44aec4025bf7e6a7ad2808694b3bfd0
+InstanceOf: CompositionUvEpi
+Title: "Composition for oprymea Package Leaflet"
+Description:  "Composition for oprymea Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb44aec4025bf7e6a7ad2808694b3bfd0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - oprymea"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Oprymea e para que é utilizado
+2. O que precisa de saber antes de tomar Oprymea
+3. Como tomar Oprymea
+4. Efeitos indesejáveis possíveis
+5. Como conservar Oprymea
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é oprymea e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é oprymea e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oprymea contém a substância ativa pramipexol e pertence ao grupo de fármacos denominados 
+agonistas dopamínicos que estimulam os recetores cerebrais dopamínicos. A estimulação dos recetores 
+dopamínicos desencadeia impulsos nervosos no cérebro que ajudam a controlar os movimentos do 
+corpo.
+Oprymea é utilizada para:
+-
+tratar os sintomas primários da doença de Parkinson em adultos. Pode ser utilizada isoladamente 
+ou em associação com a levodopa (outro medicamento para a doença de Parkinson).
+-
+tratar os sintomas da Síndrome das Pernas Inquietas (SPI) primária moderada a grave em 
+adultos.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar oprymea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar oprymea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Oprymea</h2>
+<p>se tem alergia ao pramipexol ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+Advertências e precauções
+Fale com o seu médico antes de tomar Oprymea. Informe o seu médico se tem (teve) ou se 
+desenvolveu quaisquer situações clínicas ou sintomas, especialmente um dos seguintes:
+-
+Doença dos rins;
+-
+Alucinações (ver, ouvir ou sentir coisas que não existem). A maioria das alucinações é visual;
+-
+Discinesias (por exemplo, movimentos dos membros involuntários, anormais). Se sofre de 
+doença de Parkinson avançada e também está a tomar levodopa, poderá desenvolver discinesias
+durante a titulação de Oprymea;
+-
+Distonia (incapacidade de manter o corpo e o pescoço direitos e na vertical (distonia axial)). 
+Pode verificar-se, em particular, flexão da cabeça e do pescoço para a frente (também 
+96
+denominada anterocolo), inclinação da região lombar para a frente (também denominada
+camptocormia) ou inclinação lateral das costas (também denominada pleurotótono ou Síndroma 
+de Pisa). Nestes casos, o seu médico pode necessitar de alterar a sua medicação. 
+-
+Sonolência ataques súbitos de sono;
+-
+Psicose (por exemplo, comparável com os sintomas da esquizofrenia);
+-
+Perturbações visuais. Deverá ser submetido regularmente a exames oftalmológicos durante o 
+tratamento com Oprymea;
+-
+Doença cardíaca grave ou doença dos vasos sanguíneos. A sua tensão arterial deverá ser medida 
+regularmente, especialmente no início do tratamento. Pretende-se desta forma evitar hipotensão 
+postural (uma diminuição da pressão arterial quando de pé);
+-
+agravamento dos sintomas. Poderá notar uma manifestação dos sintomas mais cedo do que o 
+habitual, de forma mais intensa e envolvendo outros membros.
+Informe o seu médico se você, ou o seu familiar / cuidador, notar que está a desenvolver ansia ou 
+desejo de se comportar de maneiras que não são comuns em si e que não pode resistir ao apelo, 
+impulso ou tentação de realizar certas atividades que o poderiam prejudicar a si ou aos outros.
+Estes são chamados distúrbios do controlo de impulsos e podem incluir comportamentos tais como o 
+jogo viciante, excessiva ingestão de alimentos ou excessivo gasto de dinheiro, uma preocupação ou 
+desejo sexual anormalmente grandes, com um aumento dos pensamentos ou sentimentos sexuais. O 
+seu médico poderá ter de ajustar ou interromper a sua dose.
+Informe o seu médico se você, ou o seu familiar/cuidador, notar que está a desenvolver mania 
+(agitação, sensação de exaltação ou de sobre-excitação) ou delírio (diminuição da consciência, 
+confusão ou perda do sentido da realidade). O seu médico poderá ter de ajustar ou interromper a sua 
+dose.
+Informe o seu médico se tiver sintomas tais como depressão, apatia, ansiedade, fadiga, transpiração ou 
+dor depois de parar ou reduzir o seu tratamento com Oprymea. Se os problemas persistirem durante 
+mais de algumas semanas, o seu médico poderá ter de ajustar o seu tratamento.
+Crianças e adolescentes
+Não se recomenda a utilização de Oprymea em crianças e adolescentes até aos 18 anos de idade.
+Outros medicamentos e Oprymea
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Estes incluem medicamentos, medicamentos à base de plantas, alimentos 
+dietéticos ou suplementos alimentares obtidos sem receita médica.
+Deverá evitar tomar Oprymea juntamente com medicamentos antipsicóticos.
+Tome precaução se estiver a tomar os seguintes medicamentos:
+-
+cimetidina (para o tratamento do excesso de ácido do estômago e úlceras do estômago);
+-
+amantadina (que pode ser utilizada no tratamento da doença de Parkinson).
+-
+mexiletina (para tratar batimentos cardíacos irregulares, uma doença conhecida como arritmia 
+ventricular).
+-
+zidovudina (que pode ser utilizada no tratamento da síndrome da imunodeficiência adquirida 
+(SIDA), uma doença do sistema imunitário humano);
+-
+cisplatina (para tratar vários tipos de cancro);
+-
+quinina (que pode ser utilizada na prevenção de cãibras noturnas dolorosas das pernas e no 
+tratamento de um tipo de malária conhecido como malária falciparum (malária maligna));
+-
+procainamida (para tratar o batimento irregular do coração).
+Se estiver a tomar levodopa, recomenda-se que a dose deste medicamento seja reduzida quando iniciar 
+o tratamento com Oprymea.
+Tome precaução se estiver a tomar medicamentos para o acalmar (que tenham um efeito sedativo) ou 
+se estiver a consumir álcool. Nestes casos, Oprymea pode afetar a sua capacidade para conduzir e 
+97
+manobrar máquinas.
+Oprymea com alimentos, bebidas e álcool
+Deverá tomar precaução enquanto consumir álcool durante o tratamento com Oprymea.
+Oprymea pode ser tomada com ou sem alimentos. 
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. O seu médico irá discutir consigo se deverá 
+continuar a tomar Oprymea.
+Os efeitos de Oprymea no feto são desconhecidos. Como tal, não tome Oprymea se estiver grávida a 
+não ser que o seu médico diga para o fazer.
+Oprymea não deverá ser utilizada durante o período de aleitamento. Oprymea pode reduzir a produção 
+de leite. Pode também passar para o leite materno e, desta forma, afetar o seu bebé. Se a utilização de 
+Oprymea for inevitável, o aleitamento deverá ser interrompido.
+Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento.
+Condução de veículos e utilização de máquinas
+Oprymea pode provocar alucinações (ver, ouvir ou sentir coisas que não existem). Se for afetado, não 
+deve conduzir nem manobrar máquinas.
+Oprymea tem sido associada a sonolência e ataques súbitos de sono, particularmente em doentes com 
+a doença de Parkinson. Se observar estes efeitos indesejáveis, não deve conduzir nem manobrar 
+máquinas. Deverá informar o seu médico se tal ocorrer.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar oprymea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar oprymea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. O seu médico irá aconselhá-lo quando à dose. 
+Pode tomar Oprymea com ou sem alimentos. Engula os comprimidos com água.
+Doença de Parkinson
+A dose diária terá de ser tomada dividida em três doses iguais.
+Durante a primeira semana, a dose habitual é um comprimido de Oprymea 0,088 mg três vezes ao dia 
+(equivalente a uma dose diária de 0,264 mg):
+1ª semana
+Número de comprimidos
+1 comprimido de Oprymea 0,088 mg três vezes ao dia
+Dose diária total (mg)
+0,264
+A dose diária será então aumentada com intervalos de 5 - 7 dias, como determinado pelo seu médico, 
+até os sintomas estarem controlados (dose de manutenção).
+2ª semana
+3ª semana
+Número de comprimidos
+1 comprimido de Oprymea 
+0,18 mg três vezes ao dia
+OU
+2 comprimidos de Oprymea 
+0,088 mg três vezes ao dia
+1 comprimido de Oprymea 
+0,35 mg três vezes ao dia
+OU
+2 comprimidos de Oprymea 
+0,18 mg três vezes ao dia
+Dose diária total (mg)
+0,54
+1,1
+A dose de manutenção habitual é 1,1 mg por dia. Contudo, esta dose poderá ter de ser aumentada. Se 
+necessário, o seu médico poderá aumentar a dose de comprimidos até um máximo de 3,3 mg de 
+98
+pramipexol por dia. Uma dose de manutenção mais baixa de três comprimidos de Oprymea 0,088 mg 
+por dia também é possível.
+Dose de manutenção mais 
+baixa
+Dose de manutenção mais 
+elevada
+Número de comprimidos
+1 comprimido de Oprymea 
+0,088 mg três vezes ao dia
+1 comprimido de Oprymea 
+1,1 mg três vezes ao dia
+Dose diária total (mg)
+0,264
+3,3
+Doentes com doença renal
+Se sofrer de doença renal moderada a grave, o seu médico irá prescrever-lhe uma dose mais baixa. 
+Neste caso, terá de tomar os comprimidos apenas uma ou duas vezes por dia. Se sofrer de doença renal 
+moderada, a dose inicial habitual é de um comprimido de Oprymea 0,088 mg duas vezes ao dia. Na 
+doença renal grave, a dose inicial habitual é apenas de um comprimido de Oprymea 0,088 mg por dia. 
+Síndrome das Pernas Inquietas
+A dose é geralmente tomada uma vez ao dia, à noite, 2-3 horas antes de se deitar.
+Durante a primeira semana, a dose habitual é de um comprimido de Oprymea 0,088 mg uma vez ao 
+dia (equivalente a 0,088 mg diários):
+1ª semana
+Número de comprimidos
+Um comprimido de Oprymea 0,088 mg
+Dose diária total (mg)
+0,088
+A dose diária será então aumentada com intervalos de 4 - 7 dias, como determinado pelo seu médico, 
+até os sintomas estarem controlados (dose de manutenção).
+2ª semana
+3ª semana
+4ª semana
+Número de 
+comprimidos
+Um comprimido de 
+Oprymea 0,18 mg
+OU
+Dois comprimidos de 
+Oprymea 0,088 mg
+Um comprimido de 
+Oprymea 0,35 mg
+OU
+Dois comprimidos de 
+Oprymea 0,18 mg
+OU
+Quatro comprimidos de 
+Oprymea 0,088 mg
+Um comprimido de 
+Oprymea 0,35 mg e um 
+comprimido de 
+Oprymea 0,18 mg
+OU
+Três comprimidos de 
+Oprymea 0,18 mg
+OU
+Seis comprimidos de 
+Oprymea 0,088 mg
+Dose diária 
+total (mg)
+0,18
+0,35
+0,54
+A dose diária não deverá exceder os seis comprimidos de Oprymea 0,088 mg ou a dose de 0,54 mg 
+(0,75 mg de pramipexol sal).
+Se parar de tomar os comprimidos durante alguns dias e quiser recomeçar o tratamento, deverá iniciar 
+novamente com a dose mais baixa. Poderá depois aumentar a dose progressivamente, como fez da 
+primeira vez. Aconselhe-se com o seu médico.
+O seu médico irá rever o tratamento após três meses para decidir se deverá ou não continuar o 
+tratamento.
+Doentes com doença renal
+Se sofrer de doença renal grave, Oprymea pode não ser um tratamento adequado para si.
+Se tomar mais Oprymea do que deveria
+Se acidentalmente tomou muitos comprimidos:
+99
+-
+Contacte o seu médico imediatamente ou dirija-se à urgência hospitalar mais próxima para 
+aconselhamento.
+-
+Pode sentir vómitos, agitação, ou qualquer um dos efeitos indesejáveis descritos na secção 4. “Efeitos indesejáveis possíveis".
+Caso se tenha esquecido de tomar Oprymea
+Não se preocupe. Simplesmente omita completamente a dose que se esqueceu de tomar e tome a 
+próxima dose à hora certa.
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Se parar de tomar Oprymea
+Não pare de tomar Oprymea sem primeiro falar com o seu médico. Se tiver que suspender a toma 
+deste medicamento, o seu médico irá reduzir a dose gradualmente. Este procedimento reduz o risco de 
+agravamento dos sintomas.
+Se sofre de doença de Parkinson não deverá interromper o tratamento com Oprymea abruptamente. A 
+interrupção súbita pode levar ao desenvolvimento de uma condição clínica conhecida como síndroma 
+neuroléptica maligna, a qual pode representar um risco maior para a saúde. Os sintomas incluem:
+-
+aquinesia (perda do movimento muscular),
+-
+músculos rígidos,
+-
+febre,
+-
+tensão arterial instável,
+-
+taquicardia (frequência cardíaca aumentada),
+-
+confusão,
+-
+depressão do nível de consciência (por exemplo, coma).
+Se parar ou reduzir Oprymea também poderá desenvolver uma afeção médica denominada síndrome 
+de abstinência dos agonistas da dopamina. Os sintomas incluem depressão, apatia, ansiedade, fadiga, 
+sudação ou dor. Se tiver estes sintomas, deve contactar o seu médico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. A avaliação destes efeitos indesejáveis é baseada nas seguintes 
+frequências:
+Muito frequente:
+pode afetar mais de 1 em cada 10 pessoas 
+Frequente:
+pode afetar até 1 em 10 pessoas
+Pouco frequente:
+pode afetar até 1 em 100 pessoas
+Raro:
+pode afetar até 1 em 1000 pessoas
+Muito raro:
+pode afetar até 1 em 10.000 pessoas
+Desconhecido:
+A frequência não pode ser calculada a partir dos dados disponíveis
+Se sofre de doença de Parkinson, poderá ter manifestação dos seguintes efeitos indesejáveis.
+Muito frequentes:
+-
+Discinesia (por exemplo, movimentos dos membros involuntários, anormais)
+-
+Sonolência
+-
+Tonturas
+-
+Náuseas (enjoo)
+Frequentes:
+-
+Impulso para se comportar de forma pouco usual
+100
+-
+Alucinações (ver, ouvir ou sentir coisas que não existem)
+-
+Confusão
+-
+Cansaço (fadiga)
+-
+Insónia 
+-
+Excesso de fluído, geralmente nas pernas (edema periférico)
+-
+Cefaleia (dor de cabeça)
+-
+Hipotensão (tensão arterial baixa)
+-
+Sonhos invulgares
+-
+Obstipação
+-
+Compromisso visual 
+-
+Vómitos (sentir-se maldisposto)
+-
+Perda de peso, incluindo diminuição do apetite
+Pouco frequentes:
+-
+Paranoia (por exemplo, medo excessivo relativamente ao seu próprio bem-estar)
+-
+Ilusão
+-
+Sonolência excessiva durante o dia e ataques súbitos de sono
+-
+Amnésia (distúrbios de memória)
+-
+Hipercinesia (movimentos aumentados e incapacidade de se manter calmo)
+-
+Aumento de peso
+-
+Reações alérgicas (por exemplo erupção cutânea, comichão, hipersensibilidade)
+-
+Desmaio
+-
+Insuficiência cardíaca (problemas no coração que podem causar dificuldade em respirar ou 
+inchaço nos tornozelos)<em> -
+Secreção inapropriada da hormona antidiurética</em> -
+Irrequietude (incapacidade de se manter quieto)
+-
+Dispneia (dificuldade em respirar)
+-
+Soluços
+-
+Pneumonia (infeção dos pulmões)
+-
+Incapacidade de resistir ao impulso, apelo ou tentação de realizar certas atividades que o 
+poderiam prejudicar a si ou aos outros, que podem incluir:
+-
+Forte impulso para jogar excessivamente, apesar de sérias consequências pessoais ou 
+familiares.
+-
+Interesse sexual alterado ou aumentado e comportamentos de preocupação significativa
+para si ou para outros, por exemplo, um aumento do impulso sexual.
+-
+Compras e gastos excessivos ou incontroláveis.
+-
+A compulsão alimentar (comer grandes quantidades de alimentos num curto período de 
+tempo) ou comer compulsivo (comer mais alimentos do que o normal e mais do que 
+necessita para satisfazer a sua fome) * -
+Delírio (diminuição da consciência, confusão, perda do sentido da realidade)
+Raro:
+-
+Mania (agitação, sensação de exaltação ou de sobre-excitação)
+Desconhecido:
+-
+Depois de parar ou reduzir o seu tratamento com Oprymea, podem ocorrer: depressão, apatia, 
+ansiedade, fadiga, transpiração ou dor (chamada síndrome de abstinência dos agonistas da 
+dopamina ou SAAD).
+Informe o seu médico se apresentar qualquer um destes comportamentos, ele vai avaliar formas 
+de gerir ou reduzir os sintomas.
+Não é possível fazer uma estimativa precisa da frequência para os efeitos indesejáveis marcados com </p>
+<p><em>, uma vez que estes efeitos indesejáveis não foram observados em ensaios clínicos que envolveram 
+2.762 doentes tratados com pramipexol. A categoria de frequência é provavelmente não superior a 
+“pouco frequente"
+101
+Se sofre de Síndrome das Pernas Inquietas, poderá ter manifestação dos seguintes efeitos 
+indesejáveis:
+Muito frequente:
+-
+Náuseas (sentir-se enjoado)
+Frequente:
+-
+Alterações no padrão do sono, tais dificuldade em adormecer (insónia) e sonolência
+-
+Cansaço (fadiga)
+-
+Cefaleia (dor de cabeça)
+-
+Sonhos invulgares
+-
+Obstipação
+-
+Tonturas
+-
+Vómitos (sentir-se maldisposto)
+Pouco frequente:
+-
+Impulso para se comportar de forma pouco usual
+-
+Insuficiência cardíaca (problemas no coração que podem causar dificuldade em respirar ou 
+inchaço nos tornozelos)</em> -
+Secreção inapropriada da hormona antidiurética<em> -
+Discinesia (por exemplo, movimentos involuntários, anormais dos membros)
+-
+Hipercinesia (movimentos aumentados e incapacidade de se manter calmo) * -
+Paranoia (por exemplo, medo excessivo relativamente ao seu próprio bem estar)</em> -
+Ilusão<em> -
+Amnésia (distúrbios de memória) * -
+Alucinações (ver, ouvir ou sentir coisas que não existem)
+-
+Confusão
+-
+Sonolência excessiva durante o dia e ataques súbitos de sono
+-
+Hipercinesia (movimentos aumentados e incapacidade de se manter calmo)
+-
+Aumento de peso
+-
+Hipotensão (tensão arterial baixa)
+-
+Excesso de fluido, geralmente nas pernas (edema periférico)
+-
+Reações alérgicas (por exemplo erupção cutânea, comichão, hipersensibilidade)
+-
+Desmaio
+-
+Irrequietude (incapacidade de se manter quieto)
+-
+Compromisso visual
+-
+Perda de peso, incluindo diminuição do apetite
+-
+Dispneia (dificuldade em respirar)
+-
+Soluços
+-
+Pneumonia (infeção dos pulmões) * -
+Incapacidade de resistir ao impulso, apelo ou tentação de realizar certas atividades que o 
+poderiam prejudicar a si ou aos outros, que podem incluir:
+-
+Forte impulso para jogar excessivamente, apesar de sérias consequências pessoais ou 
+familiares.
+-
+Interesse sexual alterado ou aumentado e comportamentos de preocupação significativa 
+para si ou para outros, por exemplo, um aumento do impulso sexual.
+-
+Compras e gastos excessivos ou incontroláveis.
+-
+A compulsão alimentar (comer grandes quantidades de alimentos num curto período de 
+tempo) ou comer compulsivo (comer mais alimentos do que o normal e mais do que 
+necessita para satisfazer a sua fome) * -
+Mania (agitação, sensação de exaltação ou de sobre-excitação)</em> -
+Delírio (diminuição da consciência, confusão, perda do sentido da realidade)* Desconhecido:
+-
+Depois de parar ou reduzir o seu tratamento com Oprymea, podem ocorrer: depressão, apatia, 
+ansiedade, fadiga, transpiração ou dor (chamada síndrome de abstinência dos agonistas da 
+dopamina ou SAAD).
+102
+Informe o seu médico se apresentar qualquer um destes comportamentos, ele vai avaliar formas 
+de gerir ou reduzir os sintomas.
+Não é possível fazer uma estimativa precisa da frequência para os efeitos indesejáveis marcados com </p>
+<p>*, uma vez que estes efeitos indesejáveis não foram observados em ensaios clínicos que envolveram 
+1,395 doentes tratados com pramipexol. A categoria de frequência é provavelmente não superior a 
+“pouco frequente"
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar oprymea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar oprymea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no embalagem exterior, após EXP. O 
+prazo de validade corresponde ao último dia do mês indicado.
+Conservar na embalagem de origem para proteger da luz.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Oprymea</h2>
+<p>A substância ativa é o pramipexol. Cada comprimido contém 0,088 mg, 0,18 mg, 0,35 mg, 0,7 
+mg ou 1,1 mg de pramipexol, equivalente a 0,125 mg 0,25 mg, 0,5 mg, 1 mg ou 1,5 mg de 
+dicloridrato de pramipexol mono-hidratado, respetivamente.
+-
+Os outros componentes são manitol, amido de milho, amido de milho pré-gelatinizado, 
+povidona K25, sílica coloidal anidra e estearato de magnésio.
+Qual o aspeto de Oprymea e conteúdo da embalagem
+Oprymea 0,088 mg comprimido de cor branco, redondo, com as margens em bisel e a indicação “P6" 
+num dos lados do comprimido.
+Oprymea 0,18 mg comprimido de cor branco, oval, com as margens em bisel, ranhura nos dois lados, 
+com a indicação “P7" nas duas metades de um dos lados do comprimido. O comprimido pode ser 
+dividido em doses iguais.
+Oprymea 0,35 mg comprimido de cor branco, oval, com as margens em bisel, ranhura nos dois lados, 
+com a indicação “P8" nas duas metades de um dos lados do comprimido. O comprimido pode ser 
+dividido em doses iguais.
+Oprymea 0,7 mg comprimido de cor branco, redondo, com as margens em bisel, ranhura nos dois 
+lados, com a indicação “P9" nas duas metades de um dos lados do comprimido. O comprimido pode 
+ser dividido em doses iguais. 
+Oprymea 1,1 mg comprimido de cor branco, redondo, com as margens em bisel, ranhura nos dois 
+lados. O comprimido pode ser dividido em doses iguais.
+Estão disponíveis caixas de 20, 30, 60, 90 e 100 comprimidos em blisters de 10 comprimidos.
+É possível que não sejam comercializadas todas as apresentações.
+103
+Titular da Autorização de Introdução no Mercado 
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Eslovénia
+Fabricante
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Eslovénia
+TAD Pharma GmbH, Heinz-Lohmann-Straße 5, 27472 Cuxhaven, Alemanha
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+KRKA Belgium, SA.
+Tél/Tel: + 32 (0) 487 50 73 62
+Lietuva
+UAB KRKA Lietuva
+Tel: + 370 5 236 27 40
+България
+КРКА България ЕООД
+Teл.: + 359 (02) 962 34 50
+Luxembourg/Luxemburg
+KRKA Belgium, SA.
+Tél/Tel: + 32 (0) 487 50 73 62 (BE)
+Česká republika
+KRKA ČR, s.r.o.
+Tel: + 420 (0) 221 115 150
+Magyarország
+KRKA Magyarország Kereskedelmi Kft.
+Tel.: + 36 (1) 355 8490
+Danmark
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Malta
+E. J. Busuttil Ltd.
+Tel: + 356 21 445 885
+Deutschland
+TAD Pharma GmbH
+Tel: + 49 (0) 4721 606-0
+Nederland
+KRKA Belgium, SA.
+Tel: + 32 (0) 487 50 73 62 (BE)
+Eesti
+KRKA, d.d., Novo mesto Eesti filiaal
+Tel: + 372 (0) 6 671 658
+Norge
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Ελλάδα
+QUALIA PHARMA S.A.
+Τηλ: +30 210 6256177
+Österreich
+KRKA Pharma GmbH, Wien
+Tel: + 43 (0)1 66 24 300
+España
+KRKA Farmacéutica, S.L.
+Tel: + 34 911 61 03 80
+Polska
+KRKA-POLSKA Sp. z o.o.
+Tel.: + 48 (0)22 573 7500
+France
+KRKA France Eurl
+Tél: + 33 (0)1 57 40 82 25
+Portugal
+KRKA Farmacêutica, Sociedade Unipessoal Lda.
+Tel: + 351 (0)21 46 43 650
+Hrvatska
+KRKA - FARMA d.o.o.
+Tel: + 385 1 6312 100
+România
+KRKA Romania S.R.L., Bucharest
+Tel: + 4 021 310 66 05
+Ireland
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Slovenija
+KRKA, d.d., Novo mesto
+Tel: + 386 (0) 1 47 51 100
+Ísland
+LYFIS ehf.
+Slovenská republika
+KRKA Slovensko, s.r.o.
+104
+Sími: + 354 534 3500
+Tel: + 421 (0) 2 571 04 501
+Italia
+KRKA Farmaceutici Milano S.r.l.
+Tel: + 39 02 3300 8841
+Suomi/Finland
+KRKA Finland Oy
+Puh/Tel: + 358 20 754 5330
+Κύπρος
+KI.PA. (PHARMACAL) LIMITED
+Τηλ: + 357 24 651 882
+Sverige
+KRKA Sverige AB
+Tel: + 46 (0)8 643 67 66 (SE)
+Latvija
+KRKA Latvija SIA
+Tel: + 371 6 733 86 10
+United Kingdom (Northern Ireland)
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Este folheto foi revisto pela última vez em .
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1345,6 +2039,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-b44aec4025bf7e6a7ad2808694b3bfd0"
 * entry[0].resource = composition-da-b44aec4025bf7e6a7ad2808694b3bfd0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb44aec4025bf7e6a7ad2808694b3bfd0"
+* entry[=].resource = mpb44aec4025bf7e6a7ad2808694b3bfd0
+                            
+                    
+Instance: bundlepackageleaflet-pt-b44aec4025bf7e6a7ad2808694b3bfd0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oprymea Package Leaflet for language pt"
+Description: "ePI document Bundle for oprymea Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-b44aec4025bf7e6a7ad2808694b3bfd0"
+* entry[0].resource = composition-pt-b44aec4025bf7e6a7ad2808694b3bfd0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpb44aec4025bf7e6a7ad2808694b3bfd0"
@@ -1446,6 +2162,18 @@ RuleSet: b44aec4025bf7e6a7ad2808694b3bfd0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-b44aec4025bf7e6a7ad2808694b3bfd0) // oprymea pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

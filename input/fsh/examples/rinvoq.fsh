@@ -1289,6 +1289,776 @@ uændret under forudsætning af, at de foreslåede ændringer indføres i produk
 
 
 
+Instance: composition-pt-603d42b6b07783003b47c538f27a463d
+InstanceOf: CompositionUvEpi
+Title: "Composition for rinvoq Package Leaflet"
+Description:  "Composition for rinvoq Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp603d42b6b07783003b47c538f27a463d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - rinvoq"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é RINVOQ e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar RINVOQ </li>
+<li>Como tomar RINVOQ </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar RINVOQ </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é rinvoq e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é rinvoq e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>RINVOQ contém a substância ativa upadacitinib. Pertence a um grupo de medicamentos denominados 
+inibidores da Janus cinase. Ao reduzir a atividade de uma enzima no corpo denominada “Janus 
+cinase", RINVOQ diminui a inflamação nas seguintes doenças: </p>
+<ul>
+<li>
+<p>Artrite reumatóide </p>
+</li>
+<li>
+<p>Artrite psoriática </p>
+</li>
+<li>
+<p>Espondilartrite axial,  </p>
+</li>
+<li>
+<p>Espondilartrite axial não-radiográfica  </p>
+</li>
+<li>
+<p>Espondilite anquilosante (EA, espondilartrite axial radiográfica) </p>
+</li>
+<li>
+<p>Dermatite atópica </p>
+</li>
+<li>
+<p>Colite ulcerosa </p>
+</li>
+<li>
+<p>Doença de Crohn </p>
+</li>
+</ul>
+<p>Artrite reumatóide 
+RINVOQ é utilizado no tratamento de adultos com artrite reumatóide. A artrite reumatóide é uma 
+doença que causa a inflamação das articulações. Se tiver artrite reumatóide ativa moderada a grave, 
+poder-lhe-ão ser receitados em primeiro lugar outros medicamentos, um dos quais será habitualmente 
+metotrexato. Se estes medicamentos não tiverem o efeito desejado, ser-lhe-á receitado RINVOQ 
+isoladamente ou em combinação com metotrexato para tratar a sua artrite reumatóide. </p>
+<p>RINVOQ pode ajudar a reduzir a dor, a rigidez e o inchaço das suas articulações, a reduzir o cansaço e 
+a abrandar os danos no osso e na cartilagem das suas articulações. Estes efeitos podem facilitar as suas 
+atividades diárias normais e assim melhorar a sua qualidade de vida. </p>
+<p>Artrite psoriática 
+RINVOQ é utilizado no tratamento de adultos com artrite psoriática. A artrite psoriática é uma doença 
+que causa a inflamação das articulações e psoríase. Se tiver artrite psoriática ativa, poder-lhe-ão ser 
+receitados em primeiro lugar outros medicamentos. Se estes medicamentos não tiverem o efeito 
+desejado, ser-lhe-á receitado RINVOQ isoladamente ou em combinação com metotrexato para tratar a 
+sua artrite psoriática. </p>
+<p>RINVOQ pode ajudar a reduzir a dor, a rigidez e o inchaço nas suas articulações e à volta das mesmas, 
+a dor e a rigidez na sua coluna, a erupção psoriática na pele e o cansaço, e pode abrandar os danos no 
+osso e na cartilagem das suas articulações. Estes efeitos podem facilitar as suas atividades diárias 
+normais e assim melhorar a sua qualidade de vida. </p>
+<p>Espondilartrite axial (espondilartrite axial não-radiográfica e espondilite anquilosante) 
+RINVOQ é utilizado no tratamento de adultos com espondilartrite axial. A espondilartrite axial é uma 
+doença que, essencialmente, causa inflamação na coluna. Se tiver espondilartrite axial ativa, poder-
+lhe-ão ser receitados em primeiro lugar outros medicamentos. Se estes medicamentos não tiverem o 
+efeito desejado, ser-lhe-á receitado RINVOQ para tratar a sua espondilartrite axial. </p>
+<p>RINVOQ pode ajudar a reduzir a dor nas costas, a rigidez e a inflamação na sua coluna. Estes efeitos 
+podem facilitar as suas atividades diárias normais e assim melhorar a sua qualidade de vida. </p>
+<p>Dermatite atópica 
+RINVOQ é utilizado no tratamento de adultos e adolescentes com idade igual ou superior a 12 anos 
+com dermatite atópica moderada a grave, também conhecida como eczema atópico. RINVOQ pode ser 
+utilizado com medicamentos para o eczema que se aplicam na pele ou pode ser utilizado isoladamente. </p>
+<p>Tomar RINVOQ pode melhorar o estado da sua pele, e reduzir a comichão e as erupções cutâneas. 
+RINVOQ pode ajudar a melhorar os sintomas de dor, ansiedade e depressão que podem ocorrer nas 
+pessoas com dermatite atópica. RINVOQ também pode ajudar a melhorar a sua perturbação do sono e 
+qualidade de vida no geral. </p>
+<p>Colite ulcerosa 
+A colite ulcerosa é uma doença inflamatória do intestino grosso. RINVOQ é utilizado no tratamento 
+de adultos com colite ulcerosa que não tenham obtido uma resposta suficiente ou que não tenham 
+tolerado a terapêutica anterior. </p>
+<p>RINVOQ pode ajudar a reduzir os sinais e sintomas da doença, incluindo fezes com sangue, dor 
+abdominal e a necessidade e o número de vezes que vai à casa de banho. Estes efeitos podem permitir 
+as suas atividades diárias normais e reduzir a fadiga. </p>
+<p>Doença de Crohn 
+A doença de Crohn é uma doença inflamatória que pode envolver qualquer parte do aparelho 
+digestivo, mas que afeta com maior frequência os intestinos. RINVOQ é utilizado no tratamento de 
+adultos com doença de Crohn que não tenham obtido uma resposta suficiente ou que não tenham 
+tolerado a terapêutica anterior. </p>
+<p>RINVOQ pode ajudar a reduzir os sinais e sintomas da doença, incluindo a necessidade e o número de 
+vezes que vai à casa de banho, a dor abdominal e a inflamação do revestimento dos seus intestinos. 
+Estes efeitos podem permitir as suas atividades diárias normais e reduzir a fadiga. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar rinvoq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar rinvoq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome RINVOQ </p>
+<ul>
+<li>
+<p>se tem alergia a upadacitinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6) </p>
+</li>
+<li>
+<p>se tem uma infeção grave (como pneumonia ou infeção bacteriana da pele) </p>
+</li>
+<li>
+<p>se tem tuberculose ativa (TB) </p>
+</li>
+<li>
+<p>se tem problemas de fígado graves </p>
+</li>
+<li>
+<p>se está grávida (consulte a secção Gravidez, amamentação e contraceção) </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes e durante o tratamento com RINVOQ se: </p>
+<ul>
+<li>
+<p>tem uma infeção ou se tem infeções frequentemente. Informe o seu médico se apresentar 
+sintomas, tais como febre, feridas, sensação de cansaço superior ao habitual ou problemas nos 
+dentes, uma vez que podem ser sinais de infeção. RINVOQ pode reduzir a capacidade do seu 
+organismo para combater as infeções e pode agravar uma infeção existente ou aumentar a 
+probabilidade de ocorrência de uma nova infeção. Se tem diabetes ou idade igual ou superior a 
+65 anos, poderá ter uma maior probabilidade de infeções </p>
+</li>
+<li>
+<p>teve tuberculose ou esteve em contacto próximo com alguém com tuberculose. O seu médico irá 
+testá-lo quanto à presença de tuberculose antes de iniciar RINVOQ e poderá repetir os testes 
+durante o tratamento </p>
+</li>
+<li>
+<p>teve uma infeção por herpes zoster (zona), pois RINVOQ pode permitir que ela reapareça. Fale 
+com o seu médico se tiver uma erupção dolorosa na pele com bolhas, pois podem ser sinais de 
+zona </p>
+</li>
+<li>
+<p>tem ou teve hepatite B ou C </p>
+</li>
+<li>
+<p>foi vacinado recentemente ou planeia ser vacinado (imunização) - isto deve-se ao facto de as 
+vacinas vivas não serem recomendadas durante a utilização de RINVOQ </p>
+</li>
+<li>
+<p>tem ou teve cancro, fumar ou tiver sido fumador, uma vez que o seu médico falará consigo para 
+determinar se RINVOQ é adequado para si </p>
+</li>
+<li>
+<p>foi observado cancro de pele não-melanoma em doentes a tomar RINVOQ. O seu médico 
+poderá recomendar exames regulares à pele enquanto estiver a tomar RINVOQ. Se surgirem 
+lesões novas na pele durante ou após a terapêutica, ou se ocorrer alteração do aspeto de lesões 
+existentes, informe o seu médico </p>
+</li>
+<li>
+<p>tem ou teve problemas de coração, uma vez que o seu médico falará consigo para determinar se 
+RINVOQ é adequado para si </p>
+</li>
+<li>
+<p>o seu fígado não funcionar bem como deveria </p>
+</li>
+<li>
+<p>já teve previamente coágulos de sangue nas veias das suas pernas (trombose venosa profunda) 
+ou nos pulmões (embolia pulmonar) ou tem um risco acrescido de desenvolver esta condição 
+(por exemplo, se foi recentemente submetido a uma grande cirurgia, se utilizar contracetivos 
+hormonais/terapêutica hormonal de substituição, se uma perturbação da coagulação tiver sido 
+identificada em si ou nos seus parentes próximos). O seu médico falará consigo para determinar 
+se RINVOQ é adequado para si. Informe o seu médico se sentir falta de ar subitamente ou 
+dificuldade em respirar, dor no peito ou dor na parte superior das costas, inchaço das pernas ou 
+braços, dor ou sensibilidade ao toque nas pernas, ou vermelhidão ou descoloração nas pernas ou 
+braços, uma vez que estes podem ser sinais de coágulos de sangue nas veias </p>
+</li>
+<li>
+<p>tem problemas nos rins </p>
+</li>
+<li>
+<p>tem dores de estômago (abdominais) inexplicáveis, tem ou teve diverticulite (inflamação 
+dolorosa nas pequenas bolsas no revestimento dos seus intestinos) ou úlceras no seu estômago 
+ou intestinos, ou se está a tomar medicamentos anti-inflamatórios não esteroides. </p>
+</li>
+</ul>
+<p>Se tiver algum dos seguintes efeitos indesejáveis graves, informe um médico imediatamente: </p>
+<ul>
+<li>
+<p>sintomas como erupção na pele (comichão), dificuldade em respirar, ou inchaço dos lábios, 
+língua ou garganta podem indicar a ocorrência de uma reação alérgica. Algumas pessoas que 
+tomaram RINVOQ apresentaram reações alérgicas graves. Se tiver alguns destes sintomas 
+durante o tratamento com RINVOQ, pare de tomar RINVOQ e procure ajuda médica 
+urgentemente </p>
+</li>
+<li>
+<p>dor de estômago intensa especialmente acompanhada de febre, náuseas e vómitos. </p>
+</li>
+</ul>
+<p>Análises ao sangue 
+Terá de fazer análises ao sangue antes de começar a tomar RINVOQ ou durante o tratamento. Estas 
+servem para verificar se tem uma baixa contagem de glóbulos vermelhos (anemia), uma baixa 
+contagem de glóbulos brancos (neutropenia ou linfopenia), muita gordura no sangue (colesterol) ou 
+níveis elevados de enzimas do fígado. Estas análises servem para verificar que o tratamento com 
+RINVOQ não está a causar problemas. </p>
+<p>Idosos 
+Existe uma taxa de infeção mais elevada nos doentes com idade igual ou superior a 65 anos. Informe o 
+seu médico assim que detetar quaisquer sinais ou sintomas de uma infeção. </p>
+<p>Os doentes com idade igual ou superior a 65 anos podem ter um risco acrescido de infeções, 
+problemas de coração, incluindo ataque cardíaco, e alguns tipos de cancro. O seu médico falará 
+consigo para determinar se RINVOQ é adequado para si. </p>
+<p>Crianças e adolescentes </p>
+<p>Não se recomenda a utilização de RINVOQ em crianças com menos de 12 anos de idade ou 
+adolescentes que pesem menos de 30 kg com dermatite atópica. Não existem estudos sobre a 
+utilização nestes doentes. </p>
+<p>Não se recomenda a utilização de RINVOQ em crianças e adolescentes com menos de 18 anos de 
+idade com artrite reumatóide, artrite psoriática, espondilartrite axial (espondilartrite axial 
+não-radiográfica e espondilite anquilosante), colite ulcerosa ou doença de Crohn. Não existem 
+informações sobre a utilização neste grupo etário. </p>
+<p>Outros medicamentos e RINVOQ 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Alguns medicamentos podem reduzir a eficácia de RINVOQ ou aumentar 
+o risco de efeitos indesejáveis. É muito importante que fale com o seu médico ou farmacêutico se 
+estiver a tomar qualquer um dos seguintes medicamentos: </p>
+<ul>
+<li>
+<p>medicamentos para tratar infeções fúngicas (tais como itraconazol, posaconazol ou voriconazol)  </p>
+</li>
+<li>
+<p>medicamentos para tratar infeções bacterianas (tais como claritromicina)  </p>
+</li>
+<li>
+<p>medicamentos para tratar a síndrome de Cushing (tais como cetoconazol)  </p>
+</li>
+<li>
+<p>medicamentos para tratar a tuberculose (tais como rifampicina)  </p>
+</li>
+<li>
+<p>medicamentos para tratar convulsões ou crises epiléticas (tais como fenitoína)  </p>
+</li>
+<li>
+<p>medicamentos que afetam o seu sistema imunitário (tais como azatioprina, 6-mercaptopurina, 
+ciclosporina e tacrolímus) </p>
+</li>
+<li>
+<p>medicamentos que podem aumentar o seu risco de perfuração gastrointestinal ou diverticulite, 
+tais como medicamentos anti-inflamatórios não esteroides (geralmente utilizados para tratar 
+condições dolorosas e/ou inflamatórias dos músculos ou articulações) e/ou opioides (utilizados 
+para tratar dores intensas), e/ou corticosteroides (geralmente utilizados para tratar condições 
+inflamatórias) </p>
+</li>
+<li>
+<p>medicamentos para tratar a diabetes ou se tem diabetes. O seu médico pode decidir se necessita 
+de menos medicação antidiabética enquanto estiver a tomar upadacitinib. 
+Se algum dos pontos anteriores se aplica a si ou não tem a certeza, consulte o seu médico ou 
+farmacêutico antes de tomar RINVOQ. </p>
+</li>
+</ul>
+<p>Gravidez, amamentação e contraceção </p>
+<p>Gravidez 
+RINVOQ não pode ser utilizado durante a gravidez. </p>
+<p>Amamentação 
+Se está a amamentar ou se planeia amamentar, consulte o seu médico antes de tomar este 
+medicamento. Não deve tomar RINVOQ enquanto estiver a amamentar, uma vez que se desconhece se 
+este medicamento passa para o leite materno. Consulte o seu médico para decidirem se deve 
+amamentar ou utilizar RINVOQ. Não deverá fazer as duas coisas em simultâneo. </p>
+<p>Contraceção<br />
+Se for uma mulher em idade fértil, tem de utilizar contraceção eficaz para evitar engravidar durante o 
+tratamento com RINVOQ e durante, pelo menos, 4 semanas após a sua última dose de RINVOQ. Se 
+engravidar durante este período, consulte imediatamente o seu médico. </p>
+<p>Se a sua criança tiver a primeira menstruação durante o tratamento com RINVOQ, deve informar o 
+médico. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza nem utilize máquinas se sentir tonturas ou a andar à roda (vertigens) ao tomar RINVOQ, 
+até à resolução destes sintomas.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar rinvoq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar rinvoq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o 
+seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>Que quantidade tomar </p>
+<p>Se tem artrite reumatóide, artrite psoriática ou espondilartrite axial (espondilartrite axial 
+não-radiográfica e espondilite anquilosante)  </p>
+<p>A dose recomendada é um comprimido de 15 mg, uma vez por dia. </p>
+<p>Se tem dermatite atópica </p>
+<p>Adultos: 
+A dose recomendada é de 15 mg ou 30 mg, conforme prescrito pelo seu médico, na forma de um 
+comprimido, uma vez por dia. 
+O seu médico pode aumentar ou diminuir a sua dose, dependendo do efeito do medicamento. </p>
+<p>Idosos: 
+Se tem 65 anos de idade ou mais, a dose recomendada é de 15 mg, uma vez por dia. </p>
+<p>Adolescentes (com idades entre os 12 e os 17 anos) com um peso mínimo de 30 kg: 
+A dose recomendada é um comprimido de 15 mg, uma vez por dia. </p>
+<p>Se tem colite ulcerosa </p>
+<p>A dose recomendada é um comprimido de 45 mg, uma vez por dia, durante 8 semanas. O seu médico 
+pode decidir prolongar a dose inicial de 45 mg por mais 8 semanas (num total de 16 semanas). Isto 
+será seguido por um comprimido de 15 mg ou de 30 mg, uma vez por dia, para o seu tratamento a 
+longo prazo. O seu médico poderá aumentar ou diminuir a sua dose dependendo da sua resposta ao 
+medicamento. </p>
+<p>Idosos: 
+Se tem 65 anos de idade ou mais, a dose recomendada é de 15 mg, uma vez por dia, para o seu 
+tratamento a longo prazo. </p>
+<p>O seu médico pode reduzir a sua dose se sofrer de problemas nos rins, ou se tomar determinados 
+medicamentos. </p>
+<p>Se tem doença de Crohn </p>
+<p>A dose recomendada é de um comprimido de 45 mg, uma vez por dia, durante 12 semanas. Isto será 
+seguido por um comprimido de 15 mg ou 30 mg, uma vez por dia, para o seu tratamento a longo 
+prazo. O seu médico poderá aumentar ou diminuir a sua dose dependendo da sua resposta ao 
+medicamento. </p>
+<p>Idosos: 
+Se tem 65 anos de idade ou mais, a dose recomendada é de 15 mg, uma vez por dia, para o seu 
+tratamento a longo prazo. </p>
+<p>O seu médico pode reduzir a sua dose se sofrer de problemas nos rins, ou se tomar determinados 
+medicamentos. </p>
+<p>Como tomar </p>
+<ul>
+<li>
+<p>Engula o comprimido inteiro com água. Não divida, esmague, mastigue ou parta o comprimido 
+antes de o engolir, uma vez que isso pode afetar a quantidade de medicamento que entra no seu 
+corpo. </p>
+</li>
+<li>
+<p>Para o ajudar a lembrar-se de tomar RINVOQ, tome-o todos os dias à mesma hora.  </p>
+</li>
+<li>
+<p>Os comprimidos podem ser tomados com ou sem alimentos. </p>
+</li>
+<li>
+<p>Não engolir o dessecante. </p>
+</li>
+<li>
+<p>Evite alimentos ou bebidas com toranja enquanto estiver a tomar (ou a receber tratamento com) 
+RINVOQ, uma vez que podem aumentar a probabilidade de efeitos indesejáveis ao aumentar a 
+quantidade de medicamento no seu corpo. </p>
+</li>
+</ul>
+<p>Se tomar mais RINVOQ do que deveria 
+Se tomar mais RINVOQ do que deveria, contacte o seu médico. Poderá ter alguns dos efeitos 
+indesejáveis indicados na secção 4.<br />
+Caso se tenha esquecido de tomar RINVOQ </p>
+<ul>
+<li>
+<p>Se se esquecer de uma dose, tome-a assim que se lembrar. </p>
+</li>
+<li>
+<p>Se se esquecer de tomar durante um dia inteiro, omita a dose de que se esqueceu e tome apenas 
+uma dose única no dia seguinte, como habitualmente. </p>
+</li>
+<li>
+<p>Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. </p>
+</li>
+</ul>
+<p>Se parar de tomar RINVOQ 
+Não pare de tomar RINVOQ a menos que o seu médico lhe diga para o fazer. </p>
+<p>Como abrir o frasco </p>
+<p>Instrumento de corte da película - na 
+tampa do frasco </p>
+<ol>
+<li>
+<p>Como perfurar a película 
+1a. Remova a tampa do frasco fazendo 
+pressão para baixo. Mantendo a pressão, rode 
+a tampa no sentido contrário ao dos ponteiros 
+do relógio. 
+1b. Vire a tampa e coloque o instrumento de 
+corte junto ao rebordo da película de 
+proteção. </p>
+</li>
+<li>
+<p>Faça pressão para fazer um furo na 
+película e mova o instrumento de corte à 
+volta do rebordo para continuar a cortar a 
+película. </p>
+</li>
+<li>
+<p>Quando tiver retirado o seu comprimido, 
+volte a colocar a tampa e feche o frasco. </p>
+</li>
+</ol>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, RINVOQ pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Informe o seu médico ou procure imediatamente ajuda médica se tiver quaisquer sintomas de: </p>
+<ul>
+<li>
+<p>infeção, tais como zona ou erupção dolorosa na pele com bolhas (herpes zoster) - frequente 
+(pode afetar até 1 em 10 pessoas) </p>
+</li>
+<li>
+<p>infeção no pulmão (pneumonia), que poderá causar falta de ar, febre e tosse com muco - 
+frequente (pode afetar até 1 em 10 pessoas) </p>
+</li>
+<li>
+<p>infeção no sangue (sépsis) - pouco frequente (pode afetar até 1 em 100 pessoas) </p>
+</li>
+<li>
+<p>reação alérgica (aperto no peito, pieira, inchaço dos lábios, língua ou garganta, comichão) - 
+pouco frequente (pode afetar até 1 em 100 pessoas) </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis 
+Fale com o seu médico se tiver qualquer um dos efeitos indesejáveis seguintes: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>infeções da garganta e do nariz </p>
+</li>
+<li>
+<p>acne </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>cancro de pele não-melanoma </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>lesões herpéticas (herpes simplex) </p>
+</li>
+<li>
+<p>sentir indisposição no estômago (náuseas) </p>
+</li>
+<li>
+<p>aumento de uma enzima denominada creatina cinase, revelado por análises ao sangue </p>
+</li>
+<li>
+<p>contagem baixa de glóbulos brancos, revelada por análises ao sangue  </p>
+</li>
+<li>
+<p>níveis aumentados de colesterol (um tipo de gordura no sangue), revelado por análises  </p>
+</li>
+<li>
+<p>níveis aumentados de enzimas do fígado, revelados por análises ao sangue (sinal de problemas 
+no fígado) </p>
+</li>
+<li>
+<p>aumento de peso </p>
+</li>
+<li>
+<p>inflamação (inchaço) dos folículos do cabelo </p>
+</li>
+<li>
+<p>gripe (influenza) </p>
+</li>
+<li>
+<p>anemia </p>
+</li>
+<li>
+<p>dor de barriga (abdómen) </p>
+</li>
+<li>
+<p>fadiga (sensação de cansaço e fraqueza anormais) </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>urticária </p>
+</li>
+<li>
+<p>infeção do trato urinário </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>sensação de andar à roda (vertigens) </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>candidíase na boca (manchas brancas na boca) </p>
+</li>
+<li>
+<p>níveis aumentados de triglicéridos (um tipo de gordura) no sangue, revelados por análises </p>
+</li>
+<li>
+<p>diverticulite (inflamação dolorosa de pequenas bolsas no revestimento do seu intestino) </p>
+</li>
+<li>
+<p>perfuração gastrointestinal (um buraco no intestino) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar rinvoq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar rinvoq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo blister e na embalagem 
+exterior após “EXP". </p>
+<p>O medicamento não necessita de qualquer temperatura especial de conservação. </p>
+<p>Conservar no blister de origem ou frasco com a tampa bem fechada para proteger da humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de RINVOQ </p>
+<p>A substância ativa é upadacitinib. </p>
+<p>RINVOQ 15 mg comprimidos de libertação prolongada </p>
+<ul>
+<li>
+<p>Cada comprimido de libertação prolongada contém upadacitinib hemi-hidratado, equivalente a 
+15 mg de upadacitinib. </p>
+</li>
+<li>
+<p>Os outros componentes são: </p>
+</li>
+<li>
+<p>Núcleo do comprimido: celulose microcristalina, manitol, ácido tartárico, hipromelose, 
+sílica coloidal anidra, estearato de magnésio. </p>
+</li>
+<li>
+<p>Revestimento por película: poli(álcool vinílico), macrogol, talco, dióxido de titânio 
+(E171), óxido de ferro vermelho (E172), óxido de ferro negro (E172). </p>
+</li>
+</ul>
+<p>RINVOQ 30 mg comprimidos de libertação prolongada </p>
+<ul>
+<li>
+<p>Cada comprimido de libertação prolongada contém upadacitinib hemi-hidratado, equivalente a 
+30 mg de upadacitinib. </p>
+</li>
+<li>
+<p>Os outros componentes são: </p>
+</li>
+<li>
+<p>Núcleo do comprimido: celulose microcristalina, manitol, ácido tartárico, hipromelose, 
+sílica coloidal anidra, estearato de magnésio. </p>
+</li>
+<li>
+<p>Revestimento por película: poli(álcool vinílico), macrogol, talco, dióxido de titânio 
+(E171), óxido de ferro vermelho (E172). </p>
+</li>
+</ul>
+<p>RINVOQ 45 mg comprimidos de libertação prolongada </p>
+<ul>
+<li>
+<p>Cada comprimido de libertação prolongada contém upadacitinib hemi-hidratado, equivalente a 
+45 mg de upadacitinib. </p>
+</li>
+<li>
+<p>Os outros componentes são: </p>
+</li>
+<li>
+<p>Núcleo do comprimido: celulose microcristalina, manitol, ácido tartárico, hipromelose, 
+sílica coloidal anidra, estearato de magnésio. </p>
+</li>
+<li>
+<p>Revestimento por película: poli(álcool vinílico), macrogol, talco, dióxido de titânio 
+(E171), óxido de ferro amarelo (E172) e óxido de ferro vermelho (E172). </p>
+</li>
+</ul>
+<p>Qual o aspeto de RINVOQ e conteúdo da embalagem </p>
+<p>RINVOQ 15 mg comprimidos de libertação prolongada </p>
+<p>Os comprimidos de libertação prolongada de RINVOQ 15 mg são roxos, oblongos e biconvexos, com 
+a gravação “a15" num dos lados. </p>
+<p>Os comprimidos são fornecidos em blisters ou frascos. </p>
+<p>RINVOQ está disponível em embalagens de 28 ou 98 comprimidos de libertação prolongada e em 
+embalagens múltiplas de 84 comprimidos que contêm 3 embalagens cada com 28 comprimidos de 
+libertação prolongada. 
+Cada blister-calendário contém 7 comprimidos. </p>
+<p>RINVOQ está disponível em frascos de 30 comprimidos de libertação prolongada, com dessecante. 
+Cada embalagem contém 1 frasco (embalagem de 30 comprimidos) ou 3 frascos (embalagem de 
+90 comprimidos). </p>
+<p>RINVOQ 30 mg comprimidos de libertação prolongada </p>
+<p>Os comprimidos de libertação prolongada de RINVOQ 30 mg são vermelhos, oblongos e biconvexos, 
+com a gravação “a30" num dos lados. </p>
+<p>Os comprimidos são fornecidos em blisters ou frascos. </p>
+<p>RINVOQ está disponível em embalagens de 28 ou 98 comprimidos de libertação prolongada. 
+Cada blister-calendário contém 7 comprimidos. </p>
+<p>RINVOQ está disponível em frascos de 30 comprimidos de libertação prolongada, com dessecante. 
+Cada embalagem contém 1 frasco (embalagem de 30 comprimidos) ou 3 frascos (embalagem de 
+90 comprimidos). </p>
+<p>RINVOQ 45 mg comprimidos de libertação prolongada </p>
+<p>Os comprimidos de libertação prolongada de RINVOQ 45 mg são amarelos a amarelos mosqueados, 
+oblongos e biconvexos, com a gravação “a45" num dos lados. </p>
+<p>Os comprimidos são fornecidos em blisters ou frascos. </p>
+<p>RINVOQ está disponível em embalagens de 28 comprimidos de libertação prolongada. 
+Cada blister-calendário contém 7 comprimidos. </p>
+<p>RINVOQ está disponível em frascos de 28 comprimidos de libertação prolongada, com dessecante. 
+Cada embalagem contém 1 frasco. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+AbbVie Deutschland GmbH &amp; Co. KG 
+Knollstrasse 
+67061 Ludwigshafen 
+Alemanha </p>
+<p>Fabricante 
+AbbVie S.r.l.<br />
+S.R. 148 Pontina, km 52 SNC<br />
+04011 Campoverde di Aprilia (Latina)<br />
+Itália </p>
+<p>AbbVie Logistics B.V. 
+Zuiderzeelaan Zwolle, 8017 JV,<br />
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+AbbVie SA 
+Tél/Tel: +32 10 477Lietuva 
+AbbVie UAB<br />
+Tel.: +370 5 205 3 
+България 
+АбВи ЕООД 
+Тел.:+359 2 90 30 Luxembourg/Luxemburg 
+AbbVie SA 
+Belgique/Belgien 
+Tél/Tel: +32 10 477 
+Česká republika 
+AbbVie s.r.o.<br />
+Tel.: +420 233 098 Magyarország 
+AbbVie Kft. 
+Tel.:+36 1 455 8 
+Danmark 
+AbbVie A/S 
+Tlf: +45 72 30-20-Malta 
+V.J.Salomone Pharma Limited<br />
+Tel.: +356 22983 
+Deutschland 
+AbbVie Deutschland GmbH &amp; Co. KG 
+Tel.: 00800 222843 33 (gebührenfrei) 
+Tel.: +49 (0) 611 / 1720-0 
+Nederland 
+AbbVie B.V. 
+Tel.: +31 (0)88 322 2 </p>
+<p>Eesti 
+AbbVie OÜ 
+Tel.: +372 623 1Norge 
+AbbVie AS 
+Tlf: +47 67 81 80<br />
+Ελλάδα 
+AbbVie ΦΑΡΜΑΚΕΥΤΙΚΗ Α.Ε. 
+Τηλ: +30 214 4165 Österreich 
+AbbVie GmbH<br />
+Tel.: +43 1 20589-0 
+España 
+AbbVie Spain, S.L.U. 
+Tel.: +34 91 384 09 Polska 
+AbbVie Sp. z o.o. 
+Tel.: +48 22 372 78 00  </p>
+<p>France 
+AbbVie 
+Tél: +33 (0) 1 45 60 13 Portugal 
+AbbVie, Lda.<br />
+Tel.: +351 (0)21 1908 
+Hrvatska<br />
+AbbVie d.o.o. 
+Tel + 385 (0)1 5625 România 
+AbbVie S.R.L. 
+Tel.: +40 21 529 30<br />
+Ireland 
+AbbVie Limited<br />
+Tel.: +353 (0)1 4287Slovenija 
+AbbVie Biofarmacevtska družba d.o.o. 
+Tel.: +386 (1)32 08<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7Slovenská republika 
+AbbVie s.r.o. 
+Tel.: +421 2 5050 0 
+Italia 
+AbbVie S.r.l.<br />
+Tel.: +39 06 928Suomi/Finland 
+AbbVie Oy<br />
+Puh/Tel: +358 (0)10 2411<br />
+Κύπρος 
+Lifepharma (Z.A.M.) Ltd 
+Τηλ.: +357 22 34 74 Sverige 
+AbbVie AB 
+Tel.: +46 (0)8 684 44<br />
+Latvija 
+AbbVie SIA<br />
+Tel.: +371 67605United Kingdom (Northern Ireland) 
+AbbVie Deutschland GmbH &amp; Co. KG<br />
+Tel.: +44 (0)1628 561 
+Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1330,6 +2100,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-603d42b6b07783003b47c538f27a463d"
 * entry[0].resource = composition-da-603d42b6b07783003b47c538f27a463d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp603d42b6b07783003b47c538f27a463d"
+* entry[=].resource = mp603d42b6b07783003b47c538f27a463d
+                            
+                    
+Instance: bundlepackageleaflet-pt-603d42b6b07783003b47c538f27a463d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rinvoq Package Leaflet for language pt"
+Description: "ePI document Bundle for rinvoq Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-603d42b6b07783003b47c538f27a463d"
+* entry[0].resource = composition-pt-603d42b6b07783003b47c538f27a463d
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp603d42b6b07783003b47c538f27a463d"
@@ -1431,6 +2223,18 @@ RuleSet: 603d42b6b07783003b47c538f27a463dListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-603d42b6b07783003b47c538f27a463d) // rinvoq pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

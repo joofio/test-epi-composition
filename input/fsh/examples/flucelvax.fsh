@@ -699,6 +699,422 @@ beskaffenhed. </p>         </div>"""
 
 
 
+Instance: composition-pt-56a32a5ee239fc834b47c10db1faa3fd
+InstanceOf: CompositionUvEpi
+Title: "Composition for flucelvax Package Leaflet"
+Description:  "Composition for flucelvax Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp56a32a5ee239fc834b47c10db1faa3fd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - flucelvax"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Flucelvax Tetra e para que é utilizado  </li>
+<li>O que precisa de saber antes de receber Flucelvax Tetra  </li>
+<li>Como utilizar Flucelvax Tetra  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Flucelvax Tetra  </li>
+<li>Conteúdo da embalagem e outras informações  </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é flucelvax e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é flucelvax e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Flucelvax Tetra é uma vacina contra a gripe. Flucelvax Tetra é preparado em cultura celular e, 
+consequentemente, é isento de ovo. 
+Quando uma pessoa recebe a vacina, o sistema imunitário (sistema de defesa natural do organismo) irá 
+produzir a sua própria proteção contra o vírus da gripe. Nenhum dos componentes da vacina pode 
+causar a gripe. </p>
+<p>Flucelvax Tetra é utilizado para prevenir a gripe em adultos e crianças a partir dos 2 anos de idade. </p>
+<p>A vacina tem como alvo quatro estirpes do vírus da gripe e segue as recomendações da Organização 
+Mundial de Saúde para a ÉPOCA de 2023/2024.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar flucelvax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar flucelvax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não deve receber Flucelvax Tetra: 
+se tem alergia: </p>
+<ul>
+<li>
+<p>às substâncias ativas ou a qualquer outro componente deste medicamento (indicados na 
+secção 6) </p>
+</li>
+<li>
+<p>à beta-propiolactona, brometo de cetiltrimetilamónio ou polissorbato 80 que são resíduos 
+do processo de fabrico. </p>
+</li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de receber Flucelvax Tetra. </p>
+<p>ANTES de receber a vacina </p>
+<ul>
+<li>
+<p>O seu médico ou enfermeiro assegurará de que estão disponíveis tratamento e supervisão 
+médicos apropriados em caso de uma reação anafilática rara (uma reação alérgica muito grave 
+com sintomas, tais como dificuldade em respirar, tonturas, uma pulsação fraca e rápida 
+e erupção na pele) após a administração. Esta reação pode ocorrer com Flucelvax Tetra assim 
+como com todas as vacinas que são injetadas. </p>
+</li>
+<li>
+<p>Deverá informar o seu médico caso sofra de uma doença aguda associada a febre. O seu médico 
+poderá decidir adiar a vacinação até a febre desaparecer. </p>
+</li>
+<li>
+<p>Deve informar o seu médico se tem alguma alteração do sistema imunitário ou se está a ser 
+submetido a um tratamento que afete o sistema imunitário, p. ex., com medicamentos contra 
+o cancro (quimioterapia) ou medicamentos corticosteroides (ver secção “Outros medicamentos e 
+Flucelvax Tetra"). </p>
+</li>
+<li>
+<p>Deve informar o seu médico se tiver um problema hemorrágico ou se ficar facilmente com 
+nódoas negras. </p>
+</li>
+<li>
+<p>Pode ocorrer desmaio a seguir, ou mesmo antes, de qualquer injeção com agulha. Por isso, 
+informe o seu médico ou enfermeiro se tiver desmaiado com uma injeção anterior. </p>
+</li>
+</ul>
+<p>Como com todas as vacinas, Flucelvax Tetra pode não proteger totalmente todas as pessoas que são 
+vacinadas. </p>
+<p>Crianças com menos de 2 anos de idade 
+Esta vacina não está atualmente recomendada em crianças com menos de 2 anos de idade, dado que a 
+segurança e a eficácia neste grupo etário não foram estabelecidas. </p>
+<p>Outros medicamentos e Flucelvax Tetra<br />
+Informe o seu médico ou enfermeiro se estiver a utilizar, tiver utilizado recentemente ou se vier 
+a utilizar outros medicamentos, incluindo medicamentos obtidos sem receita médica ou se tiver 
+recebido recentemente outra vacina. 
+Flucelvax Tetra pode ser administrado ao mesmo tempo que outras vacinas. </p>
+<p>Gravidez e amamentação 
+Gravidez 
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico. As vacinas contra 
+a gripe podem ser administradas em qualquer trimestre da gravidez. </p>
+<p>Amamentação 
+A utilização de Flucelvax Tetra durante a amamentação não foi estudada. Não se preveem quaisquer 
+efeitos nos bebés a amamentar. Flucelvax Tetra pode ser administrado durante a amamentação. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de Flucelvax Tetra sobre a capacidade de conduzir e utilizar máquinas são nulos ou 
+desprezíveis. </p>
+<p>Flucelvax Tetra contém cloreto de sódio e cloreto de potássio 
+Esta vacina contém menos do que 1 mmol (23 mg) de sódio por unidade de dose, ou seja, 
+é praticamente “isento de sódio". 
+Esta vacina contém menos do que 1 mmol (39 mg) de potássio por unidade de dose, ou seja, 
+é praticamente “isento de potássio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar flucelvax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar flucelvax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Flucelvax Tetra é administrado pelo seu médico ou enfermeiro por injeção no músculo na parte 
+superior do braço (músculo deltoide) ou no músculo na parte superior ou externa da coxa em crianças 
+pequenas, conforme o tamanho do músculo. </p>
+<p>Adultos e crianças a partir dos 2 anos de idade: </p>
+<p>Uma dose de 0,5 ml </p>
+<p>Se a sua criança tiver menos de 9 anos de idade e não tiver sido anteriormente vacinada contra a gripe, 
+uma segunda dose deverá ser administrada após, pelo menos, 4 semanas. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. 
+Os seguintes efeitos indesejáveis foram notificados durante os estudos clínicos e a utilização geral: </p>
+<p>Efeitos indesejáveis muito graves 
+Informe imediatamente o seu médico ou dirija-se ao serviço de urgência do hospital mais próximo se 
+tiver os seguintes efeitos indesejáveis - pode precisar de assistência médica urgente ou 
+de hospitalização: </p>
+<ul>
+<li>Dificuldade em respirar, tonturas, uma pulsação fraca e rápida e erupção na pele, que são 
+sintomas de uma reação anafilática (uma reação alérgica muito grave) </li>
+</ul>
+<p>Efeitos indesejáveis graves 
+Informe imediatamente o seu médico se tiver algum dos efeitos indesejáveis seguintes - pode precisar 
+de assistência médica: </p>
+<ul>
+<li>
+<p>Sente fraqueza, tem dificuldade em movimentar-se ou sente dormência ou formigueiro nos seus 
+membros. Estes podem ser sintomas de síndrome de Guillan-Barré (SGB), uma doença 
+autoimune causada pelo sistema imunitário do seu próprio corpo </p>
+</li>
+<li>
+<p>Inchaço extenso do membro injetado </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis 
+Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Dor no local da injeção, nódoa negra, vermelhidão e endurecimento ou inchaço no local da 
+injeção </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Dor muscular </p>
+</li>
+<li>
+<p>Cansaço </p>
+</li>
+<li>
+<p>Perda de apetite </p>
+</li>
+<li>
+<p>Irritabilidade (apenas comunicado em crianças entre os 2 e &lt; 6 anos) </p>
+</li>
+<li>
+<p>Sonolência (apenas comunicado em crianças entre os 2 e &lt; 6 anos) 
+Endurecimento ou inchaço no local da injeção, dor de cabeça, dor muscular e fadiga foram frequentes 
+nos idosos. 
+Nódoa negra no local de injeção foi frequente em adultos, idosos e crianças entre os 9 e &lt; 18 anos. 
+Dor de cabeça foi frequente nos idosos. 
+Perda de apetite foi frequente em adultos, idosos e crianças entre os 9 e &lt; 18 anos. </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Náuseas, vómitos, diarreia </p>
+</li>
+<li>
+<p>Dor nas articulações  </p>
+</li>
+<li>
+<p>Calafrios </p>
+</li>
+<li>
+<p>Alterações nos hábitos alimentares (apenas comunicado em crianças entre os 2 e &lt; 6 anos) </p>
+</li>
+<li>
+<p>Febre (&gt; 38 °C) 
+Vómitos foram pouco frequentes nos idosos. 
+Febre foi frequente em adultos e nos idosos. </p>
+</li>
+</ul>
+<p>Frequência desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>Dormência e sensação de formigueiro (parestesia) </p>
+</li>
+<li>
+<p>Reações generalizadas na pele, incluindo comichão, inchaços na pele (comichão, urticária) ou 
+erupção não específica na pele </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no </p>
+<p>Apêndice V.Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
+segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar flucelvax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar flucelvax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter esta vacina fora da vista e do alcance das crianças. </p>
+<p>Não utilize esta vacina após o prazo de validade impresso no rótulo e na embalagem exterior, após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C a 8 °C). Não congelar. 
+Manter a seringa pré-cheia dentro da embalagem exterior para proteger da luz. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Flucelvax Tetra </p>
+<p>As substâncias ativas são antigénios de superfície do vírus da gripe (hemaglutinina e neuraminidase), 
+inativados, das seguintes estirpes*: </p>
+<p>A/Wisconsin/67/2022 (H1N1)pdm09-estirpe análoga (A/Georgia/12/2022 CVR-167) 15 microgramas 
+HA<strong> 
+A/Darwin/6/2021 (H3N2)-estirpe análoga (A/Darwin/11/2021, tipo selvagem) 15 microgramas HA</strong> 
+B/Austria/1359417/2021-estirpe análoga (B/Singapore/WUH4618/2021, tipo selvagem) 
+15 microgramas HA<strong> 
+B/Phuket/3073/2013-estirpe análoga (B/Singapore/INFTT-16-0610/2016, tipo selvagem) 
+15 microgramas HA</strong> </p>
+<p>por dose de 0,5 ml 
+………………………………………. </p>
+<ul>
+<li>propagada em células de rim caninas Madin Derby (Madin Darby Canine Kidney, MDCK) 
+(esta é a cultura de células especial na qual cresce o vírus da gripe) </li>
+</ul>
+<p>** 
+hemaglutinina </p>
+<p>A vacina está em conformidade com as recomendações da Organização Mundial de Saúde (OMS) 
+(hemisfério norte) e com a decisão da UE para a ÉPOCA de 2023/2024.<br />
+Os outros componentes são: cloreto de sódio, cloreto de potássio, cloreto de magnésio hexa-hidratado, 
+fosfato dissódico di-hidratado, fosfato monopotássico e água para preparações injetáveis (ver secção 2 
+- Flucelvax Tetra contém sódio e potássio). </p>
+<p>Qual o aspeto de Flucelvax Tetra e conteúdo da embalagem </p>
+<p>Flucelvax Tetra é uma suspensão injetável (injetável) numa seringa pré-cheia (seringa pronta a 
+utilizar).<br />
+Flucelvax Tetra é uma suspensão límpida a ligeiramente opalescente. 
+Uma seringa individual contém 0,5 ml de suspensão injetável. 
+Flucelvax Tetra está disponível em embalagens com 1 seringa pré-cheia com ou sem agulha ou 
+10 seringas pré-cheias com ou sem agulhas. 
+É possível que não sejam comercializadas todas as apresentações </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Seqirus Netherlands B.V. 
+Paasheuvelweg 1105BJ Amesterdão 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Seqirus Netherlands B.V. 
+Nederland/Netherlands 
+Tel: +31 (0) 20 204 6 
+България 
+Seqirus Netherlands B.V. Нидерландия 
+Тел.: +31 (0) 20 204 6 
+Česká republika 
+Seqirus Netherlands B.V. Nizozemsko 
+Tel: +31 (0) 20 204 6 
+Danmark 
+Seqirus Netherlands B.V. Holland 
+Tlf: +31 (0) 20 204 6 
+Deutschland 
+Seqirus GmbH Marburg 
+Tel: 0800/3601 
+Eesti 
+Seqirus Netherlands B.V. Holland 
+Tel: +31 (0) 20 204 6 
+Ελλάδα 
+WIN MEDICA Α.Ε. 
+Οιδίποδος 1-3 &amp; Παράδρομος Αττικής Οδού 
+33-35, 15238 Χαλάνδρι, Αττική 
+Τηλ: 210 7488 
+España 
+Seqirus Spain, S.L., Barcelona 
+Tel: 937 817<br />
+France 
+Seqirus Netherlands B.V. Netherlands 
+Tél: +31 (0) 20 204 6 
+Hrvatska 
+Seqirus Netherlands B.V. Nizozemska 
+Tel: +31 (0) 20 204 6 
+Ireland 
+Seqirus UK Limited Maidenhead 
+Tel: +44 1628 641 Lietuva 
+Seqirus Netherlands B.V. Nyderlandai 
+Tel: +31 (0) 20 204 6 </p>
+<p>Luxembourg/Luxemburg 
+Seqirus Netherlands B.V. Netherlands 
+Tél/Tel: +31 (0) 20 204 6 
+Magyarország 
+Seqirus Netherlands B.V. Hollandia 
+Tel.: +31 (0) 20 204 6 
+Malta 
+Seqirus Netherlands B.V. In-Netherlands 
+Tel: +31 (0) 20 204 6 
+Nederland 
+Seqirus Netherlands B.V. Amsterdam 
+Tel: +31 (0) 20 204 6 
+Norge 
+Seqirus Netherlands B.V. Nederland 
+Tlf: +31 (0) 20 204 6 
+Österreich 
+Valneva Austria GmbH, Wien 
+Tel: +43 1 20620 2 
+Polska 
+Seqirus Netherlands B.V. Holandia 
+Tel.: +31 (0) 20 204 6 
+Portugal 
+Seqirus Netherlands B.V. Holanda 
+Tel: +31 (0) 20 204 6 
+România 
+Seqirus Netherlands B.V. Olanda 
+Tel: +31 (0) 20 204 6 
+Slovenija 
+Seqirus Netherlands B.V. Nizozemska 
+Tel: +31 (0) 20 204 6 
+Slovenská republika </p>
+<p>Ísland 
+Seqirus Netherlands B.V. Holland 
+Sími: +31 (0) 20 204 6 
+Italia 
+Seqirus S.r.l. Siena 
+Tel: +39 0577 096 
+Κύπρος 
+Seqirus Netherlands B.V. Ολλανδία 
+Τηλ: +31 (0) 20 204 6 
+Latvija 
+Seqirus Netherlands B.V. Nīderlande 
+Tel: +31 (0) 20 204 6 
+Seqirus Netherlands B.V. Holandsko 
+Tel: +31 (0) 20 204 6 
+Suomi/Finland 
+Seqirus Netherlands B.V. Alankomaat 
+Puh/Tel: +31 (0) 20 204 6 
+Sverige 
+Seqirus Netherlands B.V. Nederländerna 
+Tel: +31 (0) 20 204 6 </p>
+<p>Este folheto foi revisto pela última vez em. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -740,6 +1156,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-56a32a5ee239fc834b47c10db1faa3fd"
 * entry[0].resource = composition-da-56a32a5ee239fc834b47c10db1faa3fd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp56a32a5ee239fc834b47c10db1faa3fd"
+* entry[=].resource = mp56a32a5ee239fc834b47c10db1faa3fd
+                            
+                    
+Instance: bundlepackageleaflet-pt-56a32a5ee239fc834b47c10db1faa3fd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for flucelvax Package Leaflet for language pt"
+Description: "ePI document Bundle for flucelvax Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-56a32a5ee239fc834b47c10db1faa3fd"
+* entry[0].resource = composition-pt-56a32a5ee239fc834b47c10db1faa3fd
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp56a32a5ee239fc834b47c10db1faa3fd"
@@ -841,6 +1279,18 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-56a32a5ee239fc834b47c10db1faa3fd) // flucelvax pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1030,6 +1030,648 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-a361de1944c94e68e8ec09dc10081b81
+InstanceOf: CompositionUvEpi
+Title: "Composition for deferasirox Package Leaflet"
+Description:  "Composition for deferasirox Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa361de1944c94e68e8ec09dc10081b81)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - deferasirox"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Deferasirox Mylan e para que é utilizado 
+2. O que precisa de saber antes de tomar Deferasirox Mylan 
+3. Como tomar Deferasirox Mylan 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Deferasirox Mylan 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é deferasirox e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é deferasirox e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Deferasirox Mylan 
+Deferasirox Mylan contém uma substância ativa chamada deferasirox. É um quelante do ferro que é 
+um medicamento usado para remover do seu corpo o excesso de ferro (também chamado sobrecarga 
+de ferro). Agrega e remove o excesso de ferro que é depois excretado, principalmente nas fezes. </p>
+<p>Para que é utilizado Deferasirox Mylan 
+As transfusões de sangue repetidas podem ser necessárias em doentes com vários tipos de anemia (por 
+exemplo, talassemia, doença das células falciformes ou síndromas mielodisplásticos (SMD)). No 
+entanto, as transfusões de sangue repetidas podem causar uma acumulação de excesso de ferro. Isto 
+acontece porque o sangue contém ferro e o seu organismo não tem uma forma natural de remover o 
+ferro em excesso que recebe com as transfusões sanguíneas. Em doentes com síndromes talassémicas 
+não dependentes de transfusão, pode também, com o tempo, desenvolver-se sobrecarga de ferro, 
+sobretudo devido ao aumento da absorção do ferro proveniente dos alimentos em resposta a valores 
+baixos de células sanguíneas. Ao longo do tempo, o excesso de ferro pode danificar órgãos 
+importantes tais como o fígado e o coração. Os medicamentos chamados quelantes do ferro são usados 
+para remover o excesso de ferro e reduzir o risco de causar danos nos órgãos. </p>
+<p>Deferasirox Mylan é usado no tratamento da sobrecarga crónica de ferro causada por transfusões de 
+sangue frequentes em doentes com beta talassemia major com 6 anos de idade ou mais. </p>
+<p>Deferasirox Mylan também é utilizado no tratamento da sobrecarga crónica de ferro quando o 
+tratamento com a desferroxamina está contraindicado ou é inadequado em doentes com beta talassemia 
+major com sobrecarga de ferro causada por transfusões de sangue pouco frequentes, em doentes com 
+outros tipos de anemias, e em crianças com 2 a 5 anos de idade. </p>
+<p>Deferasirox Mylan é também utilizado quando a terapêutica com desferroxamina é contraindicada ou 
+inadequada para tratar doentes com idade igual ou superior a 10 anos com sobrecarga de ferro 
+associada a síndromes de talassemia, mas que não sejam dependentes de transfusão. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar deferasirox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar deferasirox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Deferasirox Mylan</h2>
+<p>se tem alergia ao deferasirox ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Se isto se aplica a si, informe o seu médico antes de tomar Deferasirox Mylan. Se 
+pensa que pode ser alérgico, peça conselho ao seu médico. 
+- 
+se tem uma doença dos rins moderada ou grave. 
+- 
+se está a tomar simultaneamente qualquer outro medicamento quelante do ferro. </p>
+<h2>Deferasirox Mylan não é recomendado</h2>
+<p>se está num estado avançado do síndrome mielodisplástico (MDS, diminuição da produção de 
+células sanguíneas pela medula óssea) ou tem um cancro avançado. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Deferasirox Mylan: 
+- 
+se tem um problema nos rins ou no fígado. 
+- 
+se tem um problema cardíaco devido à sobrecarga de ferro. 
+- 
+se verificar uma diminuição marcada do volume da sua urina (sinal de problema nos rins). 
+- 
+se desenvolver uma erupção cutânea grave, ou dificuldade a respirar e tonturas ou inchaço, 
+principalmente na face e na garganta (sinal de reação alérgica grave, ver também secção 4 
+«Efeitos indesejáveis possíveis»). 
+- 
+se sentir uma combinação de quaisquer dos seguintes sintomas: erupção cutânea, vermelhidão 
+da pele, bolhas nos lábios, olhos ou boca, descamação da pele, febre alta, sintomas tipo gripe, 
+aumento dos gânglios linfáticos (sinal de reação cutânea grave, ver também secção 4 «Efeitos 
+indesejáveis possíveis»). 
+- 
+se sentir uma combinação de sonolência, dor abdominal na parte superior direita, 
+amarelecimento, ou amarelecimento aumentado da sua pele ou olhos, e urina escura (sinal de 
+problemas no fígado). 
+- 
+se sentir dificuldade em pensar, em lembrar-se de informação ou resolver problemas, estiver 
+menos alerta ou consciente ou sentir muito sonolento com pouca energia (sinais de nível elevado 
+de amónia no sangue, que pode estar associado a problemas no fígado ou rins, ver também 
+secção 4 «Efeitos indesejáveis possíveis»). 
+- 
+se vomitar sangue e/ou tiver fezes negras. 
+- 
+se sentir frequentemente dor abdominal, particularmente após a refeição ou após a toma de 
+Deferasirox Mylan. 
+- 
+se sentir frequentemente azia. 
+- 
+se tiver um nível baixo de plaquetas ou células brancas nas suas análises sanguíneas. 
+- 
+se tiver visão turva. 
+- 
+se tiver diarreia ou vómitos. 
+Se alguns destes sintomas se aplica a si, informe imediatamente o seu médico. </p>
+<p>Monitorização do seu tratamento com Deferasirox Mylan 
+Durante o tratamento irá efetuar regularmente testes sanguíneos e de urina. Estes testes monitorizarão 
+a quantidade de ferro no seu organismo (níveis sanguíneos de ferritina) para avaliar quão bem 
+Deferasirox Mylan está a atuar. Os testes irão também monitorizar a sua função renal (níveis 
+sanguíneos de creatinina, presença de proteína na urina) e do fígado (níveis sanguíneos de 
+transaminases). O seu médico pode pedir-lhe que seja submetido a uma biópsia ao rim se suspeitar de 
+lesão significativa do rim. Poderá também efetuar uma ressonância magnética para determinar a 
+quantidade de ferro no fígado. O seu médico irá ter estes testes em consideração quando decidir sobre 
+a dose de Deferasirox Mylan mais adequada para si e irá também utilizar estes testes para decidir 
+quando deverá deixar de tomar Deferasirox Mylan. </p>
+<p>Como medida de precaução, a sua visão e audição serão testadas anualmente durante o tratamento. </p>
+<p>Outros medicamentos e Deferasirox Mylan 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto inclui em particular: 
+- 
+outros quelantes do ferro, que não devem ser tomados com Deferasirox Mylan, 
+- 
+antiácidos (medicamentos para tratar a azia) contendo alumínio, que não devem ser tomados na 
+mesma altura do dia de Deferasirox Mylan, 
+- 
+ciclosporina (utilizada para prevenir rejeição, pelo organismo, de um órgão transplantado, ou 
+para outras situações, como a artrite reumatoide ou a dermatite atópica), 
+- 
+sinvastatina (utilizada para baixar o colesterol), 
+- 
+determinados analgésicos ou medicamentos anti-inflamatórios (p. ex. aspirina, ibuprofeno, 
+corticosteroides), 
+- 
+bifosfonatos orais (utilizados para tratar a osteoporose), 
+- 
+medicamentos anticoagulantes (usados para prevenir ou tratar a coagulação sanguínea), 
+- 
+agentes contracetivos hormonais (pílula anticoncecional), 
+- 
+bepridilo, ergotamina (usados para problemas cardíacos e enxaquecas), 
+- 
+repaglinida (utilizada para tratar a diabetes), 
+- 
+rifampicina (utilizada para tratar a tuberculose), 
+- 
+fenitoína, fenobarbital, carbamazepina (utilizados para tratar a epilepsia), 
+- 
+ritonavir (utilizado no tratamento de infeção por VIH), 
+- 
+paclitaxel (utilizados no tratamento de cancro), 
+- 
+teofilina (utilizada no tratamento de doenças respiratórias como a asma), 
+- 
+clozapina (utilizada para tratar doenças psiquiátrica como a esquizofrenia), 
+- 
+tizanidina (utilizada como relaxante muscular), 
+- 
+colestiramina (utilizada para baixar os níveis de colesterol no sangue), 
+- 
+bussulfano (usado como tratamento antes de transplante de modo a destruir a medula óssea antes 
+do transplante), 
+- 
+midazolam (utilizado para aliviar a ansiedade e/ou a dificuldade em dormir). </p>
+<p>Podem ser necessários testes adicionais para monitorização dos níveis sanguíneos de alguns destes 
+medicamentos. </p>
+<p>Pessoas idosas (com idade igual ou superior a 65 anos) 
+Deferasirox Mylan pode ser usado por pessoas com mais de 65 anos de idade nas mesmas doses que 
+para os outros adultos. Os doentes idosos podem ter mais efeitos indesejáveis (em particular diarreia) 
+que os doentes mais jovens. Devem ser monitorizados cuidadosamente pelo seu médico quanto aos 
+efeitos indesejáveis que necessitem de ajustes de dose. </p>
+<p>Crianças e adolescentes 
+Deferasirox Mylan pode ser usado em crianças e adolescentes que recebem transfusões de sangue 
+frequentes, com 2 anos de idade ou mais, e em crianças e adolescentes que não recebem transfusões de 
+sangue frequentes com 10 anos ou mais. O médico ajustará a dose à medida que o doente for 
+crescendo. </p>
+<p>Deferasirox Mylan não é recomendado para crianças com menos de 2 anos. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Deferasirox Mylan não é recomendado durante a gravidez a não ser que claramente necessário. </p>
+<p>Se está atualmente a utilizar um contracetivo hormonal para prevenir a gravidez, deve utilizar um 
+outro tipo ou um contracetivo adicional (por ex. preservativo), dado que Deferasirox Mylan pode 
+reduzir a eficácia dos contracetivos hormonais. </p>
+<p>A amamentação não é recomendada durante o tratamento com Deferasirox Mylan. </p>
+<p>Condução de veículos e utilização de máquinas 
+Se se sentir tonto após tomar Deferasirox Mylan não conduza ou utilize ferramentas ou máquinas até 
+que se sinta novamente normal. </p>
+<p>Deferasirox Mylan contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar deferasirox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar deferasirox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com Deferasirox Mylan será supervisionado por um médico com experiência no 
+tratamento da sobrecarga de ferro causada por transfusões de sangue. </p>
+<p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Que quantidade de Deferasirox Mylan tomar 
+A dose de Deferasirox Mylan está relacionada com o peso corporal para todos os doentes. O seu 
+médico calculará a dose de que necessitará e dir-lhe-á quantos comprimidos tomar por dia. </p>
+<ul>
+<li>
+<p>A dose diária habitual de Deferasirox Mylan comprimidos revestidos por película no início do 
+tratamento para doentes que recebem transfusões de sangue regulares é de 14 mg por 
+quilograma de peso corporal. Doses mais elevadas ou mais baixas podem ser recomendadas pelo 
+seu médico com base nas suas necessidades individuais de tratamento. </p>
+</li>
+<li>
+<p>A dose diária habitual de Deferasirox Mylan comprimidos revestidos por película no início do 
+tratamento para doentes que não recebem transfusões de sangue regulares é de 7 mg por 
+quilograma de peso corporal. </p>
+</li>
+<li>
+<p>Dependendo da sua resposta ao tratamento, o seu médico poderá, mais tarde, ajustar o seu 
+tratamento para doses mais elevadas ou mais baixas. </p>
+</li>
+</ul>
+<p>A dose diária máxima recomendada de Deferasirox Mylan comprimidos revestidos por película é: </p>
+<ul>
+<li>
+<p>28 mg por quilograma de peso corporal para doentes que recebem transfusões de sangue 
+regulares, </p>
+</li>
+<li>
+<p>14 mg por quilograma de peso corporal para doentes adultos que não recebem transfusões de 
+sangue regulares, </p>
+</li>
+<li>
+<p>7 mg por quilograma de peso corporal para crianças e adolescentes que não recebem transfusões 
+de sangue regulares. </p>
+</li>
+</ul>
+<p>Deferasirox também está disponível em comprimidos «dispersíveis». Se está a mudar de comprimidos 
+dispersíveis para comprimidos revestidos por película, irá necessitar de ajustar a dose. </p>
+<p>Quando tomar Deferasirox Mylan </p>
+<ul>
+<li>
+<p>Tome Deferasirox Mylan uma vez por dia, todos os dias, aproximadamente à mesma hora cada 
+dia com um pouco de água. </p>
+</li>
+<li>
+<p>Tome Deferasirox Mylan comprimidos revestidos por película com o estômago vazio ou com 
+uma refeição leve. 
+Tomar Deferasirox Mylan à mesma hora todos os dias irá também ajudá-lo a lembrar-se de quando 
+tomar os comprimidos. </p>
+</li>
+</ul>
+<p>Para os doentes que não conseguem engolir os comprimidos inteiros, Deferasirox Mylan comprimidos 
+revestidos por película podem ser esmagados e misturados na totalidade em alimentos moles, tais 
+como iogurte ou puré de maça. O alimento deve ser consumido imediatamente e na sua totalidade. Não 
+guarde o alimento para comer mais tarde. </p>
+<p>Durante quanto tempo tomar Deferasirox Mylan 
+Continue a tomar Deferasirox Mylan cada dia durante o tempo que o seu médico recomendar. 
+Este é um tratamento de longa duração, possivelmente irá durar meses ou anos. O seu médico </p>
+<p>monitorizará regularmente o seu estado para avaliar se o tratamento está a ter o efeito desejado (ver 
+também secção 2: «Monitorizar o tratamento com Deferasirox Mylan»). </p>
+<p>Se tiver questões sobre durante quanto tempo deverá tomar Deferasirox Mylan, fale com o seu médico. </p>
+<p>Se tomar mais Deferasirox Mylan do que deveria 
+Se tiver tomado demasiado Deferasirox Mylan, ou se outra pessoa acidentalmente tomar os seus 
+comprimidos, contacte imediatamente o seu médico ou hospital para aconselhamento. Mostre a 
+embalagem dos comprimidos. Pode ser necessário tratamento médico urgente. Pode sentir efeitos 
+como dor abdominal, diarreia, náuseas e vómitos e problemas renais ou do fígado podem ser graves. </p>
+<p>Caso se tenha esquecido de tomar Deferasirox Mylan 
+Se se esquecer de tomar uma dose, tome-a logo que se lembre nesse dia. Tome a sua próxima dose 
+conforme planeado. Não tome uma dose a dobrar no dia seguinte para compensar o(s) comprimido(s) 
+que se esqueceu de tomar. </p>
+<p>Se parar de tomar Deferasirox Mylan 
+Não pare de tomar Deferasirox Mylan, a não ser que o seu médico lhe diga. Se parar de tomar o 
+medicamento, o ferro em excesso não irá ser removido do seu organismo (ver também a secção acima 
+«Durante quanto tempo tomar Deferasirox Mylan»). </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. A maioria dos efeitos indesejáveis são ligeiros a moderados e irão 
+geralmente desaparecer entre alguns dias a algumas semanas após o início do tratamento. </p>
+<p>Alguns efeitos indesejáveis podem ser graves e requerem atenção médica imediata. 
+Estes efeitos indesejáveis são pouco frequentes (podem afetar até 1 em 100 pessoas) ou raros (podem 
+afetar até 1 em 1 000 pessoas). </p>
+<ul>
+<li>
+<p>Se tiver erupção cutânea grave, ou dificuldade em respirar e tonturas ou inchaço, principalmente 
+na face e na garganta (sinais de reação alérgica grave), </p>
+</li>
+<li>
+<p>Se sentir uma combinação de quaisquer dos seguintes sintomas: erupção cutânea, vermelhidão 
+da pele, bolhas nos lábios, olhos ou boca, descamação da pele, febre alta, sintomas tipo gripe, 
+aumento dos gânglios linfáticos (sinais de reação cutânea grave), </p>
+</li>
+<li>
+<p>Se notar uma diminuição marcada do volume da sua urina (sinal de problemas nos rins), </p>
+</li>
+<li>
+<p>Se sentir uma combinação de sonolência, dor abdominal na parte superior direita, 
+amarelecimento, ou amarelecimento aumentado da sua pele ou olhos e urina escura (sinal de 
+problemas no fígado), </p>
+</li>
+<li>
+<p>Se sentir dificuldade em pensar, em lembrar-se de informação ou resolver problemas, estiver 
+menos alerta ou consciente ou sentir muito sonolento com pouca energia (sinais de nível elevado 
+de amónia no sangue, que pode estar associado a prolemas no fígado ou rins e levar a uma 
+alteração na sua função cerebral), </p>
+</li>
+<li>
+<p>Se vomitar sangue e/ou tiver fezes negras, </p>
+</li>
+<li>
+<p>Se sentir frequentemente dor abdominal, particularmente após a refeição ou após a toma de 
+Deferasirox Mylan, </p>
+</li>
+<li>
+<p>Se sentir frequentemente azia, </p>
+</li>
+<li>
+<p>Se sentir perda parcial da visão, </p>
+</li>
+<li>
+<p>Se sentir dor forte no estômago (pancreatite), 
+pare de tomar este medicamento e informe imediatamente o seu médico. </p>
+</li>
+</ul>
+<p>Alguns efeitos indesejáveis podem tornar-se graves. 
+Estes efeitos indesejáveis são pouco pouco frequentes. </p>
+<ul>
+<li>
+<p>Se sentir a visão turva ou enevoada, </p>
+</li>
+<li>
+<p>Se sentir perda de audição, 
+informe o seu médico logo que possível. </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis 
+Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>Alterações nos testes da função dos rins. </li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Perturbações gastrointestinais, tais como náuseas, vómitos, dor no abdómen, enfartamento, 
+prisão de ventre, indigestão </p>
+</li>
+<li>
+<p>Erupção cutânea </p>
+</li>
+<li>
+<p>Dores de cabeça </p>
+</li>
+<li>
+<p>Alteração dos testes que avaliam o funcionamento do fígado </p>
+</li>
+<li>
+<p>Comichão </p>
+</li>
+<li>
+<p>Alteração da análise de urina (proteínas na urina) 
+Se algum destes efeitos o afetar gravemente, informe o seu médico. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Febre </p>
+</li>
+<li>
+<p>Dor de garganta </p>
+</li>
+<li>
+<p>Inchaço dos braços ou das pernas </p>
+</li>
+<li>
+<p>Alterações da cor da pele </p>
+</li>
+<li>
+<p>Ansiedade </p>
+</li>
+<li>
+<p>Perturbação do sono </p>
+</li>
+<li>
+<p>Fadiga 
+Se algum destes efeitos o afetar gravemente, informe o seu médico. </p>
+</li>
+</ul>
+<p>Frequência: desconhecido (não pode ser calculado a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>Diminuição do número de células envolvidas na coagulação sanguínea (trombocitopenia), do 
+número de glóbulos vermelhos (agravamento da anemia), no número de glóbulos brancos 
+(neutropenia) ou do número de todos os tipos de células sanguíneas (pancitopenia) </p>
+</li>
+<li>
+<p>Queda de cabelo </p>
+</li>
+<li>
+<p>Pedras nos rins </p>
+</li>
+<li>
+<p>Diminuição do volume de urina </p>
+</li>
+<li>
+<p>Lesão na parede do estômago ou do intestino que pode causar dor ou náuseas </p>
+</li>
+<li>
+<p>Dor forte no estômago (pancreatite) </p>
+</li>
+<li>
+<p>Nível anormal de ácido no sangue </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar deferasirox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar deferasirox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso no blister/rótulo e na embalagem 
+exterior após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não utilize qualquer embalagem que esteja danificada ou mostre sinais de deterioração. 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Deferasirox Mylan 
+A substância ativa é o deferasirox. </p>
+<ul>
+<li>
+<p>Cada comprimido revestido por película de Deferasirox Mylan 90 mg contém 90 mg de 
+deferasirox. </p>
+</li>
+<li>
+<p>Cada comprimido revestido por película de Deferasirox Mylan 180 mg contém 180 mg de 
+deferasirox. </p>
+</li>
+<li>
+<p>Cada comprimido revestido por película de Deferasirox Mylan 360 mg contém 360 mg de 
+deferasirox. </p>
+</li>
+</ul>
+<p>Os outros componentes são celulose microcristalina, crospovidona, povidona, estearato de magnésio, 
+sílica coloidal anidra e poloxâmero. O material de revestimento do comprimido contém: hipromelose, 
+dióxido de titânio (E171), macrogol/PEG (6000), talco, laca de alumínio Indigo Carmim (E132). </p>
+<p>Qual o aspeto de Deferasirox Mylan e conteúdo da embalagem 
+Deferasirox Mylan é fornecido na forma de comprimidos revestidos por película. </p>
+<ul>
+<li>
+<p>Deferasirox Mylan 90 mg comprimidos revestidos por película são comprimidos azuis, 
+revestidos por película, em forma de cápsula modificada, biconvexos com um «
+» gravado 
+num dos lados e «DF» no outro. </p>
+</li>
+<li>
+<p>Deferasirox Mylan 180 mg comprimidos revestidos por película são comprimidos azuis, 
+revestidos por película, em forma de cápsula modificada, biconvexos com um «
+» gravado 
+num dos lados e «DF 1» no outro. </p>
+</li>
+<li>
+<p>Deferasirox Mylan 360 mg comprimidos revestidos por película são comprimidos azuis, 
+revestidos por película, em forma de cápsula modificada, biconvexos com um «
+» gravado 
+num dos lados e «DF 2» no outro. </p>
+</li>
+</ul>
+<p>Deferasirox Mylan está disponível em blisters transparentes em PVC/PVdC/alumínio com 30 ou comprimidos revestidos por película, em blisters de dose individual de 30 comprimidos e em frascos 
+de plástico branco com tampa branca opaca roscada e vedante em alumínio que contêm 90 ou comprimidos. 
+Os comprimidos revestidos por película Deferasirox Mylan 360 mg também se encontram disponíveis 
+em blister de 300 comprimidos. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Mylan Pharmaceuticals Limited 
+Damastown Industrial Park, Mulhuddart, Dublin 15, DUBLIN, Irlanda </p>
+<p>Fabricante </p>
+<p>Mylan Hungary Kft, Mylan utca 1, Komárom, 2900, Hungria </p>
+<p>McDermott Laboratories Limited t/a Gerard Laboratories t/a Mylan Dublin, 35/36 Baldoyle Industrial 
+Estate, Grange Road, Dublin 13, Irlanda </p>
+<p>Mylan Germany GmbH, Zweigniederlassung Bad Homburg v. d. Hoehe 
+Benzstrasse 1, Bad Homburg v. d. Hoehe, Hessen, 61352, Alemanha  </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Mylan bvba/sprl 
+Tél/Tel: + 32 (0)2 658 61<br />
+Lietuva 
+Mylan Healthcare UAB<br />
+Tel: +370 5 205 1 
+България 
+Майлан ЕООД 
+Тел.: +359 2 44 55<br />
+Luxembourg/Luxemburg 
+Mylan bvba/sprl 
+Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>Česká republika 
+Viatris CZ s.r.o. 
+Tel: + 420 222 004<br />
+Magyarország 
+Mylan EPD Kft 
+Tel.: + 36 1 465 2 
+Danmark 
+Viatris ApS<br />
+Tlf: +45 28 11 69 32  </p>
+<p>Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01<br />
+Deutschland 
+Viatris Healthcare GmbH 
+Tel: +49 800 0700<br />
+Nederland 
+Mylan BV 
+Tel: +31 (0)20 426 3 
+Eesti 
+BGP Products Switzerland GmbH Eesti filiaal 
+Tel.: + 372 6363<br />
+Norge 
+Viatris AS 
+Tlf: +47 66 75 33<br />
+Ελλάδα 
+Generics Pharma Hellas ΕΠΕ 
+Τηλ: +30 210 993 6 
+Österreich 
+Arcana Arzneimittel GmbH 
+Tel.: +43 1 416 2 
+España 
+Viatris Pharmaceuticals, S.L.U. 
+Tel.: + 34 900 102<br />
+Polska 
+Mylan Healthcare Sp. z.o.o. 
+Tel.: + 48 22 546 64<br />
+France 
+Viatris Santé<br />
+Tél: +33 4 37 25 75<br />
+Portugal 
+Mylan, Lda. 
+Tel: + 351 214 127<br />
+Hrvatska 
+Mylan Hrvatska d.o.o. 
+Tel.: +385 1 23 50<br />
+România 
+BGP Products SRL 
+Tel: + 40 372 579<br />
+Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63<br />
+Ísland 
+Icepharma hf<br />
+Sími: +354 540 8000  </p>
+<p>Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199<br />
+Italia 
+Mylan  Italia S.r.l. 
+Tel: + 39 02 612 46 
+Suomi/Finland 
+Viatris Oy 
+Puh/Tel: +358 20 720 9 </p>
+<p>Κύπρος 
+Varnavas Hadjipanayis Ltd.<br />
+Τηλ: +357 2220 7Sverige 
+Viatris AB 
+Tel: + 46 (0)8 630 19<br />
+Latvija 
+Mylan Healthcare SIA 
+Tel: +371 676 055<br />
+United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: +353 18711 </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da Internet da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
 
 
                     
@@ -1071,6 +1713,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a361de1944c94e68e8ec09dc10081b81"
 * entry[0].resource = composition-da-a361de1944c94e68e8ec09dc10081b81
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa361de1944c94e68e8ec09dc10081b81"
+* entry[=].resource = mpa361de1944c94e68e8ec09dc10081b81
+                            
+                    
+Instance: bundlepackageleaflet-pt-a361de1944c94e68e8ec09dc10081b81
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for deferasirox Package Leaflet for language pt"
+Description: "ePI document Bundle for deferasirox Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a361de1944c94e68e8ec09dc10081b81"
+* entry[0].resource = composition-pt-a361de1944c94e68e8ec09dc10081b81
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa361de1944c94e68e8ec09dc10081b81"
@@ -1172,6 +1836,18 @@ RuleSet: a361de1944c94e68e8ec09dc10081b81ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a361de1944c94e68e8ec09dc10081b81) // deferasirox pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

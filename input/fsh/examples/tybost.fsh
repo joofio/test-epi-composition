@@ -1006,6 +1006,585 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-f9f99ae69c31ce78eb86e2425f62e81a
+InstanceOf: CompositionUvEpi
+Title: "Composition for tybost Package Leaflet"
+Description:  "Composition for tybost Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf9f99ae69c31ce78eb86e2425f62e81a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tybost"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Tybost e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Tybost </li>
+<li>Como tomar Tybost </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Tybost </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tybost e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tybost e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tybost contém a substância ativa cobicistate. </p>
+<p>Tybost é utilizado para o tratamento da infeção pelo vírus da imunodeficiência humana tipo 1 (VIH-1), 
+o vírus causador da síndrome da imunodeficiência adquirida (SIDA). É utilizado em adultos e 
+adolescentes com idade igual ou superior a 12 anos: </p>
+<ul>
+<li>
+<p>que pesam, pelo menos, 35 kg (quando administrado juntamente com atazanavir 300 mg) ou </p>
+</li>
+<li>
+<p>que pesam, pelo menos, 40 kg (quando administrado juntamente com darunavir 800 mg). </p>
+</li>
+</ul>
+<p>Tybost atua como um medicamento potenciador (intensificador) de atazanavir ou darunavir 
+(ambos inibidores da protéase), para ajudar a melhorar o efeito destes (ver secção 3 deste folheto). </p>
+<p>Tybost não trata o seu VIH diretamente, mas potencia os níveis de atazanavir e de darunavir no 
+sangue. Consegue fazê-lo atrasando a degradação de atazanavir e de darunavir, fazendo com que 
+permaneçam mais tempo no corpo. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tybost"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tybost"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Tybost </p>
+<ul>
+<li>
+<p>se tem alergia ao cobicistate ou a qualquer outro componente deste medicamento (indicados na 
+secção 6 deste folheto). </p>
+</li>
+<li>
+<p>Se estiver a tomar medicamentos que contêm qualquer uma das seguintes substâncias: </p>
+</li>
+<li>alfuzosina, utilizada para tratar o aumento de tamanho da próstata </li>
+<li>amiodarona, quinidina, utilizadas para corrigir batimentos irregulares do coração </li>
+<li>dabigatrano, utilizado para evitar e tratar coágulos de sangue </li>
+<li>carbamazepina, fenobarbital, fenitoína, utilizados para evitar convulsões </li>
+<li>rifampicina, utilizada para evitar e tratar a tuberculose e outras infeções </li>
+<li>
+<p>di-hidroergotamina, ergometrina, ergotamina, utilizadas para tratar a enxaqueca </p>
+</li>
+<li>
+<p>hipericão (Hypericum perforatum), um produto à base de plantas para tratar a depressão e 
+ansiedade </p>
+</li>
+<li>lovastatina, sinvastatina, utilizadas para diminuir o colesterol do sangue </li>
+<li>pimozida, lurasidona, utilizadas para tratar pensamentos ou sentimentos anormais </li>
+<li>sildenafil, utilizado para tratar a hipertensão arterial pulmonar - uma doença dos pulmões 
+que causa dificuldade em respirar </li>
+<li>midazolam administrado por vial oral, triazolam, utilizados para ajudar a dormir e/ou 
+aliviar a ansiedade </li>
+</ul>
+<p> Se qualquer uma destas situações se aplicar a si, não deve tomar Tybost e deve informar 
+imediatamente o seu médico. </p>
+<p>Advertências e precauções </p>
+<p>Deve necessariamente permanecer sob vigilância do seu médico enquanto estiver a tomar Tybost. </p>
+<p>Fale com o seu médico antes de tomar Tybost: </p>
+<ul>
+<li>
+<p>Se estiver a tomar outro inibidor da protease. Tybost tomado com atazanavir ou com 
+darunavir não deve ser utilizado com outro medicamento antiviral que exija potenciação. </p>
+</li>
+<li>
+<p>Informe o seu médico ou farmacêutico se tiver ou tiver tido uma doença renal, ou se as 
+análises revelaram problemas com os seus rins. O seu médico considerará cuidadosamente se 
+o deve tratar com Tybost. </p>
+</li>
+<li>
+<p>Informe o seu médico ou farmacêutico se tiver ou tiver tido uma doença hepática grave, ou 
+se as análises revelaram problemas com o seu fígado. O seu médico considerará 
+cuidadosamente se o deve tratar com Tybost. </p>
+</li>
+</ul>
+<p> Se qualquer uma destas situações se aplicar a si, fale com o seu médico antes de tomar 
+Tybost. </p>
+<p>Crianças e adolescentes </p>
+<p>Não dê este medicamento a crianças com idade inferior a 12 anos ou com peso inferior a 35 kg (ou 
+40 kg), conforme explicado na secção 3 deste folheto. A utilização de Tybost em crianças com idade 
+inferior a 12 anos ou com peso inferior a 35 kg ainda não foi estudada. </p>
+<p>Outros medicamentos e Tybost </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. Tybost pode interferir com outras substâncias. Como resultado, as 
+quantidades de Tybost ou dos outros medicamentos no seu sangue podem ser afetadas. Isto pode fazer 
+com que os seus medicamentos parem de funcionar apropriadamente ou piorar quaisquer efeitos 
+indesejáveis. Em alguns casos, o seu médico pode precisar de ajustar a sua dose ou verificar os níveis 
+do medicamento no seu sangue. </p>
+<p>Existem alguns medicamentos que não devem ser nunca tomados com Tybost. 
+São mencionados anteriormente na secção “Não tome Tybost — Se estiver a tomar medicamentos que 
+contêm qualquer uma das seguintes substâncias". </p>
+<p>Medicamentos utilizados no tratamento da infeção pelo VIH: 
+Não deve tomar Tybost com outros medicamentos contendo: </p>
+<ul>
+<li>
+<p>ritonavir </p>
+</li>
+<li>
+<p>cobicistate 
+Fale com o seu médico se estiver a tomar </p>
+</li>
+<li>
+<p>outro inibidor da protease </p>
+</li>
+<li>
+<p>efavirenz </p>
+</li>
+<li>
+<p>etravirina </p>
+</li>
+<li>
+<p>nevirapina </p>
+</li>
+<li>
+<p>maraviroc 
+ Informe o seu médico se estiver a tomar qualquer um destes medicamentos para o VIH. </p>
+</li>
+</ul>
+<p>Outros tipos de medicamentos: </p>
+<ul>
+<li>
+<p>cetoconazol, itraconazol, voriconazol, posaconazol e fluconazol, medicamentos utilizados 
+para tratar infeções por fungos </p>
+</li>
+<li>
+<p>claritromicina e rifabutina, medicamentos utilizados para tratar infeções causadas por 
+bactérias incluindo a tuberculose </p>
+</li>
+<li>
+<p>dasatinib, nilotinib, vinblastina e vincristina, medicamentos utilizados para tratar o cancro </p>
+</li>
+<li>
+<p>corticosteroides, incluindo betametasona, budesonida, fluticasona, mometasona, 
+prednisona, triamcinolona. Estes medicamentos são utilizados para tratar alergias, asma, 
+doenças intestinais inflamatórias, doenças inflamatórias da pele, dos olhos, das articulações e 
+dos músculos e outras doenças inflamatórias. Estes medicamentos são geralmente tomados por 
+via oral, inalados, injetados ou aplicados na pele ou olho. Se não for possível utilizar 
+alternativas, o seu uso só deverá efetuar-se após avaliação médica e sob monitorização apertada 
+do seu médico relativamente aos efeitos indesejáveis dos corticosteroides </p>
+</li>
+<li>
+<p>metformina, medicamento utilizado para o tratamento da diabetes tipo 2 </p>
+</li>
+<li>
+<p>contracetivos hormonais orais ou implantados, utilizados para impedir a gravidez </p>
+</li>
+<li>
+<p>amlodipina, digoxina, diltiazem, disopiramida, felodipina, flecainida, lidocaína, 
+metoprolol, mexiletina, nicardipina, nifedipina, propafenona, timolol e verapamil, 
+medicamentos utilizados para tratar problemas cardíacos </p>
+</li>
+<li>
+<p>bosentano, um medicamento utilizado para tratar a hipertensão arterial pulmonar </p>
+</li>
+<li>
+<p>apixabano, edoxabano, rivaroxabano e varfarina, medicamentos utilizados para evitar e 
+tratar coágulos de sangue </p>
+</li>
+<li>
+<p>salmeterol, um medicamento utilizado para tratar a asma </p>
+</li>
+<li>
+<p>atorvastatina, fluvastatina, pitavastatina, pravastatina e rosuvastatina, medicamentos 
+utilizados para diminuir o colesterol </p>
+</li>
+<li>
+<p>sildenafil e vardenafil, medicamentos utilizados para tratar a impotência e tadalafil, um 
+medicamento utilizado para tratar a impotência e a hipertensão pulmonar </p>
+</li>
+<li>
+<p>trazodona, um medicamento utilizado para tratar a depressão </p>
+</li>
+<li>
+<p>ciclosporina, sirolímus e tacrolímus, medicamentos utilizados para controlar a resposta 
+imunitária do seu corpo após um transplante </p>
+</li>
+<li>
+<p>buspirona, clorazepato, diazepam, estazolam, flurazepam, perfenazina, risperidona, 
+tioridazina, zolpidem, medicamentos utilizados para tratar doenças do sistema nervoso </p>
+</li>
+<li>
+<p>colchicina, um medicamento utilizado para tratar a gota </p>
+</li>
+<li>
+<p>clopidogrel, um medicamento utilizado para diminuir o risco de coágulos de sangue </p>
+</li>
+</ul>
+<p> Informe o seu médico se estiver a tomar qualquer um destes medicamentos. </p>
+<p> Informe o seu médico se estiver a tomar estes ou quaisquer outros medicamentos. Não pare o 
+seu tratamento sem contactar o seu médico. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<ul>
+<li>
+<p>Informe o seu médico imediatamente se está grávida, se pensa estar grávida ou se planeia 
+engravidar. As mulheres grávidas não devem tomar Tybost com atazanavir ou darunavir. A 
+quantidade destes medicamentos no sangue pode diminuir durante a gravidez, o que pode 
+impedir que atuem corretamente. </p>
+</li>
+<li>
+<p>Não amamente durante o tratamento com Tybost. Não se sabe se a substância ativa deste 
+medicamento é excretada no leite humano. </p>
+</li>
+<li>
+<p>A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção 
+pelo VIH pode ser transmitida ao bebé através do leite materno. </p>
+</li>
+<li>
+<p>Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais 
+rapidamente possível. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Alguns doentes descreveram tonturas quando tomaram Tybost com atazanavir ou darunavir. Caso se 
+sinta afetado enquanto tomar Tybost, não conduza nem utilize quaisquer ferramentas ou máquinas. </p>
+<p>Tybost contém amarelo-sol FCF (E110) </p>
+<p>Informe o seu médico se tem alergia a amarelo-sol FCF (E110). Tybost contém amarelo-sol FCF, a 
+qual pode causar reações alérgicas. </p>
+<p>Tybost contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tybost"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tybost"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada para adultos: </p>
+<ul>
+<li>
+<p>Um comprimido por dia por via oral, com alimentos. Não mastigue, esmague ou divida o 
+comprimido. </p>
+</li>
+<li>
+<p>Tybost tem de ser tomado com atazanavir (300 mg) ou darunavir (800 mg). </p>
+</li>
+</ul>
+<p>A dose recomendada para adolescentes com idade entre 12 e menos de 18 anos: </p>
+<ul>
+<li>
+<p>Um comprimido por dia por via oral, com alimentos. Não mastigue, esmague ou divida o 
+comprimido. </p>
+</li>
+<li>
+<p>Quando Tybost é tomado com atazanavir (300 mg), os adolescentes têm de pesar, pelo 
+menos, 35 kg. </p>
+</li>
+<li>
+<p>Quando Tybost é tomado com darunavir (800 mg), os adolescentes têm de pesar, pelo menos, 
+40 kg. </p>
+</li>
+</ul>
+<p>Tome sempre a dose recomendada pelo seu médico. Isto para ter a certeza que o seu medicamento é 
+totalmente eficaz. Não altere a dose a menos que o seu médico lhe diga para o fazer. </p>
+<p>Se tomar mais Tybost do que deveria </p>
+<p>Se acidentalmente tomar mais do que a dose recomendada de Tybost, pode estar em maior risco de ter 
+efeitos indesejáveis com este medicamento (ver secção 4 deste folheto). </p>
+<p>Entre imediatamente em contacto com o seu médico ou aconselhe-se junto do serviço de urgência 
+mais próximo. Mantenha o frasco de comprimidos consigo para que facilmente possa descrever o que 
+tomou. </p>
+<p>Caso se tenha esquecido de tomar Tybost </p>
+<p>É importante que não falhe nenhuma dose de Tybost. </p>
+<p>Caso se tenha esquecido de tomar uma dose e se aperceber disso: </p>
+<ul>
+<li>
+<p>no período até 12 horas após a hora em que habitualmente toma Tybost, deve necessariamente 
+tomar o comprimido o mais rapidamente possível. Tome sempre o comprimido com alimentos. 
+Depois tome a sua dose seguinte como é habitual em associação com atazanavir ou darunavir. </p>
+</li>
+<li>
+<p>12 horas ou mais após a hora em que habitualmente toma Tybost, não tome a dose que falhou. 
+Espere e tome a dose seguinte com alimentos na hora habitual. </p>
+</li>
+</ul>
+<p>Não pare de tomar Tybost </p>
+<p>Não pare de tomar Tybost sem falar com o seu médico. A interrupção do tratamento com Tybost e 
+atazanavir ou darunavir pode diminuir o êxito de tratamentos futuros receitados pelo seu médico. </p>
+<p>Tenha sempre Tybost suficiente para que não lhe falte. Quando a quantidade de Tybost começar a 
+diminuir, obtenha mais junto do seu médico ou farmacêutico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Ao tratar a infeção pelo VIH, não é sempre possível dizer se 
+alguns dos efeitos indesejados são causados por Tybost ou por outros medicamentos que está a tomar 
+ao mesmo tempo, ou pela doença do VIH propriamente dita. Os seguintes efeitos indesejáveis podem 
+ocorrer ao tomar Tybost com atazanavir. </p>
+<p>Efeitos indesejáveis muito frequentes 
+(podem afetar mais do que 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>sentir-se enjoado (náuseas) </p>
+</li>
+<li>
+<p>amarelecimento da pele e/ou dos olhos (icterícia) 
+Efeitos indesejáveis frequentes 
+(podem afetar até 1 em 10 pessoas) </p>
+</li>
+<li>
+<p>níveis elevados de açúcar no sangue (hiperglicemia) </p>
+</li>
+<li>
+<p>aumento do apetite, perturbação do sentido do paladar, boca seca  </p>
+</li>
+<li>
+<p>dores de cabeça, tonturas </p>
+</li>
+<li>
+<p>vómitos, diarreia, dor de estômago, problemas com a digestão que causam dor após as refeições 
+(dispepsia), sensação de enfartamento, gases (flatulência) </p>
+</li>
+<li>
+<p>níveis aumentados de bilirrubina no sangue (hiperbilirrubinemia) </p>
+</li>
+<li>
+<p>erupções na pele </p>
+</li>
+<li>
+<p>dificuldade em dormir, sonhos anormais, sonolência,cansaço (fadiga) 
+Efeitos indesejáveis pouco frequentes 
+(podem afetar até 1 em 100 pessoas)  </p>
+</li>
+<li>
+<p>sangue na urina (hematúria) </p>
+</li>
+<li>
+<p>proteínas na urina (proteinúria) </p>
+</li>
+<li>
+<p>sensação de depressão </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>músculos doridos, fraqueza </p>
+</li>
+<li>
+<p>pedras nos rins </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>distúrbios do sono </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>
+<p>Para obter mais informações sobre os efeitos indesejáveis de atazanavir ou darunavir, consulte o 
+folheto informativo destes medicamentos. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tybost"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tybost"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco ou embalagem exterior 
+após {VAL.}. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tybost </p>
+<p>A substância ativa é o cobicistate. Cada comprimido revestido por película contém 150 mg de 
+cobicistate. </p>
+<p>Os outros componentes são </p>
+<p>Núcleo do comprimido 
+Croscarmelose sódica, estearato de magnésio, celulose microcristalina (E460), dióxido de silício 
+(E551). </p>
+<p>Película de revestimento 
+Amarelo-sol FCF (E110), macrogol 3350 (E1521), álcool polivinílico (parcialmente hidrolisado) 
+(E1203), talco (E553b), dióxido de titânio (E171), óxido de ferro amarelo (E172) (ver secção 2 deste 
+folheto). </p>
+<p>Qual o aspeto de Tybost e conteúdo da embalagem </p>
+<p>Tybost comprimidos revestidos por película são comprimidos cor-de-laranja, redondos, biconvexos, 
+gravados num lado com “GSI" e de face lisa no outro lado do comprimido. </p>
+<p>Tybost apresenta-se em frascos de 30 comprimidos (com uma saqueta ou cartucho de sílica gel que 
+deve ser mantido(a) dentro do frasco para ajudar a proteger os seus comprimidos). O exsicante de 
+sílica gel está contido separadamente numa saqueta ou num cartucho e não deve ser engolido. </p>
+<p>Estão disponíveis as seguintes apresentações: embalagens exteriores contendo 1 frasco de 
+30 comprimidos revestidos por película e 90 (3 frascos de 30) comprimidos revestidos por película. É 
+possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrlanda </p>
+<p>Fabricante 
+Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SPRL-BVBA 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel.: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 </p>
+<p>Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1047,6 +1626,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-f9f99ae69c31ce78eb86e2425f62e81a"
 * entry[0].resource = composition-da-f9f99ae69c31ce78eb86e2425f62e81a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf9f99ae69c31ce78eb86e2425f62e81a"
+* entry[=].resource = mpf9f99ae69c31ce78eb86e2425f62e81a
+                            
+                    
+Instance: bundlepackageleaflet-pt-f9f99ae69c31ce78eb86e2425f62e81a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tybost Package Leaflet for language pt"
+Description: "ePI document Bundle for tybost Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-f9f99ae69c31ce78eb86e2425f62e81a"
+* entry[0].resource = composition-pt-f9f99ae69c31ce78eb86e2425f62e81a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpf9f99ae69c31ce78eb86e2425f62e81a"
@@ -1148,6 +1749,18 @@ RuleSet: f9f99ae69c31ce78eb86e2425f62e81aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-f9f99ae69c31ce78eb86e2425f62e81a) // tybost pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

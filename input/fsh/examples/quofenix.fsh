@@ -1159,6 +1159,552 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Oversigt ov
 
 
 
+Instance: composition-pt-27f53ce7e817ea56aac44769c7b5a3bb
+InstanceOf: CompositionUvEpi
+Title: "Composition for quofenix Package Leaflet"
+Description:  "Composition for quofenix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp27f53ce7e817ea56aac44769c7b5a3bb)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - quofenix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Quofenix e para que é utilizado  </li>
+<li>O que precisa de saber antes de lhe ser administrado Quofenix   </li>
+<li>Como utilizar Quofenix  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Quofenix </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é quofenix e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é quofenix e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Quofenix é um antibiótico que contém a substância ativa delafloxacina. Pertence a um grupo de 
+medicamentos chamados fluoroquinolonas. </p>
+<p>É utilizado para tratar adultos com infeções graves de curta duração, causadas por certas bactérias, 
+quando os antibióticos habituais não podem ser utilizados ou não funcionaram: 
+ 
+da pele e dos tecidos sob a pele 
+infeção dos pulmões chamada "pneumonia". 
+Funciona bloqueando as enzimas bacterianas necessárias para copiar e reparar o seu ADN. Ao bloquear 
+essas enzimas, Quofenix mata as bactérias que causam a infeção. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar quofenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar quofenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe pode ser administrado Quofenix: 
+- se tem alergia à delafloxacina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se tem alergia a qualquer outro medicamento antibacteriano de fluoroquinolona ou quinolona. 
+- Se alguma vez teve algum problema com os seus tendões, como tendinites relacionadas com o 
+tratamento com um antibiótico de quinolona. Um tendão é o cordão que une o músculo ao 
+esqueleto. 
+- Se está grávida, pode engravidar ou pensa que pode estar grávida. 
+- Se estiver a amamentar 
+- Crianças ou adolescentes em crescimento com idade inferior a 18 anos </p>
+<p>Advertências e precauções  </p>
+<p>Antes de lhe ser administrado este medicamento<br />
+Não lhe devem ser administrados medicamentos antibacterianos fluoroquinolona/quinolona, incluindo 
+Quofenix, se tiver tido qualquer reação adversa grave no passado quando tomou uma quinolona ou 
+fluoroquinolona. Fale com o seu médico antes de lhe ser administrado o medicamento, se for esse o 
+caso. </p>
+<p>Quando lhe é administrado este medicamento 
+ 
+Pode ocorrer raramente dor e inchaço nas articulações e inflamação ou rutura de tendões. O 
+risco aumenta se tiver mais de 60 anos de idade, tiver recebido um transplante de órgão, tiver 
+problemas renais ou se estiver a ser tratado com corticosteroides. Pode ocorrer inflamação e 
+ruturas de tendões nas primeiras 48 horas de tratamento e até vários meses após a interrupção 
+da terapia com Quofenix. Ao primeiro sinal de dor ou inflamação de um tendão (por exemplo, 
+no tornozelo, pulso, cotovelo, ombro ou joelho), pare de tomar Quofenix, contacte o seu médico 
+e descanse a área dorida. Evite qualquer exercício desnecessário, pois isso pode aumentar o 
+risco de rutura do tendão. </p>
+<p> 
+Pode apresentar raramente sintomas de dano nos nervos (neuropatia), como dor, ardor, 
+formigueiro, dormência e/ou fraqueza, especialmente nos pés e nas pernas ou mãos e braços. Se 
+isto acontecer, não lhe deve ser administrado Quofenix e informe imediatamente o seu médico 
+para evitar o desenvolvimento de uma condição potencialmente irreversível. </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de lhe ser administrado Quofenix se: 
+ 
+Foi diagnosticado com um aumento ou protuberância de um grande vaso sanguíneo (aneurisma 
+da aorta ou aneurisma periférico de vasos grandes). 
+ 
+Sofreu anteriormente um episódio de dissecção aórtica (uma rutura na parede da aorta). 
+ 
+Se tiver sido diagnosticado com vazamento de válvulas cardíacas (regurgitação da válvula 
+cardíaca). 
+ 
+Existem antecedentes na sua família de aneurisma aórtico ou dissecção da aorta ou de doença 
+congénita das válvulas cardíacas, ou outros fatores de risco ou predisposição (p.ex., doenças do 
+tecido conjuntivo, tais como síndrome de Marfan, síndrome de Ehlers-Danlos, síndrome de 
+Turner, síndrome de Sjögren [um doença inflamatória autoimune], ou doenças vasculares, tais 
+como arterite de Takayasu, arterite de células gigantes, doença de Behçet, hipertensão ou 
+aterosclerose conhecida, arterite reumatoide [uma doença das articulações] ou endocardite [uma 
+infeção do coração]). 
+ 
+Teve problemas nos tendões durante o tratamento anterior com fluoroquinolona ou antibiótico 
+com quinolona. 
+ 
+Tem ou pode ter problemas no sistema nervoso central (por exemplo, arteriosclerose cerebral 
+grave, epilepsia) ou ter outros fatores de risco que podem colocá-lo em maior risco de ter 
+convulsões (convulsões). Nesses casos, o seu médico irá considerar se este tratamento é a 
+melhor opção para si. 
+ 
+Tem miastenia gravis (um tipo de fraqueza muscular), porque os sintomas podem piorar. 
+ 
+Sofre de diarreia ou sofreu de diarreia enquanto toma antibióticos ou até 2 meses depois. 
+Contacte o seu médico imediatamente se tiver diarreia durante ou após o seu tratamento. Não 
+tome nenhum medicamento para tratar a sua diarreia sem primeiro consultar o seu médico. 
+ 
+Tem problemas renais. 
+ 
+Teve, por vezes, tratamento longo com antibióticos; pode significar que tem outra infeção 
+causada por outras bactérias (superinfeção) que não podem ser tratadas pelo antibiótico. Fale 
+com seu médico se tiver quaisquer dúvidas ou perguntas sobre isso e usar o Quofenix. 
+ 
+Pode ter uma reação grave na pele, como bolhas ou lesões. 
+ 
+Tem ou um membro de sua família é conhecido por ter uma deficiência de glicose-6-fosfato 
+desidrogenase. 
+ 
+Tem diabetes. Os antibióticos fluoroquinolona, incluindo o Quofenix, podem causar níveis de 
+glicose no sangue que aumentam muito ou diminuem muito. Se tem diabetes, deve monitorizar 
+os seus níveis de glicose no sangue com cuidado. </p>
+<p>Se sentir uma dor súbita e forte no abdómen, no peito ou nas costas, que podem ser sintomas de 
+aneurisma e disseção da aorta, procure de imediato um serviço de emergência médica. O risco pode 
+aumentar se estiver a receber tratamento com corticosteroides sistémicos. 
+Se começar a sentir aparecimento rápido de falta de ar, especialmente quando se deita na cama, ou se 
+notar um inchaço dos tornozelos, pés ou abdómen, ou um novo aparecimento de palpitações cardíacas 
+(sensação de batimento cardíaco rápido ou irregular), deve informar imediatamente um médico.  </p>
+<p>Efeitos indesejáveis graves prolongados, incapacitantes e potencialmente irreversíveis 
+Os medicamentos antibacterianos fluoroquinolona/quinolona têm sido associados a efeitos indesejáveis 
+muito raros, porém graves, sendo alguns deles de longa duração (meses ou anos), incapacitantes ou 
+potencialmente irreversíveis. Isso inclui dores nos tendões, músculos e articulações dos membros 
+superiores e inferiores, dificuldade em andar, sensações anormais como formigueiro, cócegas, 
+dormência ou ardor (parestesia), distúrbios sensoriais incluindo alterações da visão, paladar e olfato e 
+audição, depressão, perda de memória, fadiga grave e distúrbios do sono graves. </p>
+<p>Se sentir algum destes efeitos indesejáveis após receber Quofenix, informe o seu médico imediatamente 
+para decidir se continua o tratamento, considerando também um antibiótico de outra classe. </p>
+<p>Crianças e adolescentes 
+Este medicamento não pode ser utilizado em crianças e adolescentes, uma vez que não foi 
+suficientemente estudado nestes grupos. </p>
+<p>Outros medicamentos e Quofenix 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. 
+Não há dados acerca de uma interação de delafloxacina intravenosa com multivitaminas, outros 
+suplementos ou didanosina. No entanto, Quofenix não deve ser administrado em conjunto com qualquer 
+solução que contenha substâncias como cálcio e magnésio, através da mesma linha intravenosa. </p>
+<p>Gravidez e amamentação<br />
+Quofenix não deve ser utilizado se estiver grávida ou a amamentar. Quofenix não deve ser utilizado em 
+mulheres com potencial para engravidar que não utilizem contraceção.  </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes lhe ser administrado este medicamento. 
+Se engravidar, terá de utilizar métodos contracetivos eficazes durante o tratamento com Quofenix. </p>
+<p>Condução de veículos e utilização de máquinas 
+Quofenix pode fazer sentir-se tonto e com vertigens. Não conduza, utilize máquinas ou faça outras 
+atividades que exijam estado de alerta mental ou coordenação até saber como o Quofenix o afeta. </p>
+<p>Quofenix contém ciclodextrina 
+Este medicamento contém 2480 mg de sulfobutílico betadex de sódio em cada frasco. </p>
+<p>Quofenix contém sódio 
+Este medicamento contém 175 mg de sódio (componente principal do sal de cozinha) por frasco. Isto é 
+equivalente a 8,8% da ingestão diária máxima recomendada de sódio na dieta de um adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar quofenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar quofenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Quofenix será administrado por um enfermeiro ou médico através de uma perfusão (gota a gota) numa 
+veia. </p>
+<p>Ser-lhe-á administrada uma perfusão de Quofenix, contendo 300 mg do medicamento, duas vezes ao 
+dia, entre 5 e 14 dias para infeções de pele e entre 5 e 10 dias para pneumonia, a critério do seu médico. 
+Cada infusão durará cerca de uma hora. O seu médico decidirá quantos dias de tratamento são 
+necessários. </p>
+<p>Informe o seu médico se sofre de problemas renais porque a sua dose pode ter que ser ajustada. </p>
+<p>Se tiver dúvidas sobre a utilização deste medicamento, pergunte ao seu médico. </p>
+<p>Se lhe for administrado mais Quofenix do que deveria 
+Informe imediatamente o seu médio ou enfermeiro se estiver preocupado com o facto de lhe ter sido 
+dado Quofenix em excesso. </p>
+<p>Caso se tenha esquecido de uma dose de Quofenix 
+Informe imediatamente o seu médico ou enfermeiro se estiver preocupado por ter esquecido uma dose. 
+Se ainda tiver dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Por favor, informe imediatamente o seu médico ou enfermeiro se tiver algum destes sintomas, dado 
+que o medicamento deve ser interrompido e pode necessitar de tratamento médico urgente: </p>
+<ul>
+<li>Dificuldade em engolir ou dificuldade em respirar e tossir; inchaço dos lábios, face, garganta ou língua; 
+garganta seca ou aperto na garganta e erupção na pele grave. Estes podem ser sinais e sintomas de uma 
+reação de hipersensibilidade (alérgica) e podem ser fatais. Estas reações graves são efeitos indesejáveis 
+pouco frequentes que podem afetar até 1 em cada 100 pessoas. </li>
+<li>Diminuição da tensão arterial; visão turva; tonturas. Esta reação grave é um efeito indesejável pouco 
+frequente pode afetar até 1 em cada 100 pessoas. </li>
+<li>Dor abdominal (barriga) com possível diarreia grave; febre e náuseas. Estes podem ser sinais de uma 
+infeção do intestino, que não deve ser tratada com medicamentos para diarreia que impedem o 
+movimento dos intestinos. A infeção do intestino (infeção por Clostridioides difficile) é um efeito 
+indesejável pouco frequente que pode afetar até 1 em cada 100 pessoas. </li>
+</ul>
+<p>Outros efeitos indesejáveis podem incluir: </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): 
+ 
+Infeção por fungos 
+ 
+Dor de cabeça 
+ 
+Vómitos 
+ 
+Inchaço, vermelhidão ou dor ao redor da agulha onde o medicamento é administrado numa 
+veia (reação no local de infusão) 
+ 
+Aumento da quantidade de enzimas produzidas pelo fígado, chamadas transaminases - demonstrada em exames de sangue 
+ 
+Comichão </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): 
+ 
+Redução do número de glóbulos brancos no sangue (leucopenia) 
+ 
+Nível de hemoglobina baixa (anemia)<br />
+ 
+Reação alérgica 
+ 
+Níveis altos de glicose no sangue 
+ 
+Diminuição do apetite 
+ 
+Insónia 
+ 
+Fraqueza muscular nas extremidades 
+ 
+Sensações como dormência, formigueiro, picadas de alfinetes e agulhas 
+ 
+Sensação tátil (ao toque) reduzida 
+ 
+Mudança no paladar 
+ 
+Sensação do batimento cardíaco (palpitações) 
+ 
+Tensão alta 
+ 
+Vermelhidão (isto é vermelhidão na face e pescoço) 
+ </p>
+<p> 
+Inflamação do revestimento do estômago, inflamação dos tecidos internos da boca, dor 
+abdominal, desconforto/dor de estômago ou indigestão, boca seca, flatulência Suor anormal 
+ 
+Reação cutânea alérgica 
+ 
+Comichão, erupção cutânea vermelha 
+ 
+Dor nas articulações 
+ 
+Dor e inchaço dos tendões 
+ 
+Dor muscular e musculosquelética (isto é, dor nas extremidades, dor de costas, dor de 
+pescoço), fraqueza muscular<br />
+ 
+Aumento do nível de creatina fosfoquinase no sangue (um indicador de lesão muscular) 
+ 
+Função renal reduzida 
+ 
+Sensação de cansaço 
+ 
+Alterações no teste sanguíneo relacionadas com a função hepática (aumento da fosfatase 
+alcalina no sangue) 
+ 
+Temperatura corporal elevada (pirexia) 
+ 
+Inchaço do membro inferior </p>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em 1000 pessoas): 
+ 
+Infeção do trato urinário 
+ 
+Inflamação do trato da mucosa nasal 
+ 
+Contagem baixa de glóbulos brancos (redução de uma quantidade de glóbulos) 
+ 
+Diminuição de células sanguíneas especiais necessárias para a coagulação do sangue 
+ 
+Mudança nos testes que medem quão bem o seu sangue coagula 
+ 
+Alergia sazonal 
+ 
+Baixos níveis de glicose no sangue 
+ 
+Alto nível de ácido úrico 
+ 
+Alto nível de potássio no sangue 
+ 
+Baixo nível de potássio no sangue 
+ 
+Ouvir coisas que não existem (alucinação auditiva) 
+ 
+Ansiedade 
+ 
+Sonhos anormais 
+ 
+Confusão 
+ 
+Sonolência 
+ 
+Sensação de tontura ou desmaio, geralmente por causa de uma queda na tensão arterial 
+ 
+Olho seco 
+ 
+Tontura ou perda de equilíbrio (vertigem) 
+ 
+Zumbido nos ouvidos (zumbido) 
+ 
+Alteração do senso de equilíbrio 
+ 
+Batimentos cardíacos rápidos ou irregulares, diminuição dos batimentos cardíacos 
+ 
+Veias inchadas, vermelhas e irritadas (flebite) 
+ 
+Coágulo sanguíneo, conhecido como trombo na veia profunda 
+ 
+Azia / regurgitação ácida 
+ 
+Perda da sensação tátil na boca 
+ 
+Sensação tátil reduzida na boca 
+ 
+Sensação de queimadura na boca 
+ 
+Fezes descoloridas 
+ 
+Alteração do teste de sangue relacionada à função hepática (albumina sanguínea diminuída e 
+gama-glutamiltransferase aumentada) 
+ 
+Suor frio 
+ 
+Suor noturno 
+ 
+Perda anormal de cabelo 
+ 
+Espasmo muscular 
+ 
+Inflamação / dor muscular 
+ 
+Inflamação das articulações, dor nas mãos ou pés, dor nas costas 
+ 
+Sangue na urina 
+ 
+Urina turva devido à presença de componente sólido 
+ 
+Arrepios 
+ 
+Agravamento da ferida 
+ 
+Edema periférico </p>
+<p>Casos muito raros de longa duração (até meses ou anos) ou efeitos indesejáveis permanentes, como 
+inflamações dos tendões, rutura do tendão, dor nas articulações, dor nos membros, dificuldade em andar, 
+sensações anormais como formigueiro, cócegas, queimadura, dormência ou dor (neuropatia), depressão, 
+fadiga, distúrbios do sono, comprometimento da memória, bem como perda da audição, visão, paladar 
+e olfato têm sido associados aos antibióticos quinolona e fluoroquinolona, independentemente dos 
+fatores de risco pré-existentes. </p>
+<p>Foram notificados casos de alargamento e enfraquecimento da parede da aorta ou de rutura na parede 
+da aorta (aneurismas e disseções), que podem romper e ser fatais, e de vazamento de válvulas 
+cardíacas em doentes tratados com fluoroquinolonas. Ver também a secção 2.  </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar quofenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar quofenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior ou blister 
+após Val. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de quaisquer instruções especiais de conservação se o mantiver fechado 
+no recipiente original. </p>
+<p>Após reconstituição: A estabilidade química e física em uso foi demonstrada durante 24 horas a 20 até 
+25ºC ou a 2 até 8ºC. Do ponto de vista microbiológico, o produto deve ser utilizado imediatamente após 
+reconstituição e diluição. Se não for utilizado imediatamente, o tempo e as condições de conservação 
+antes da utilização são da responsabilidade do utilizador e normalmente não serão superiores a 24 horas 
+entre 2 e 8°C, salvo se a reconstituição e a diluição tiverem ocorrido em condições assépticas controladas 
+e validadas.  </p>
+<p>Não congele. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Quofenix 
+- A substância ativa é a delafloxacina. Cada frasco de pó contém 300 mg de delafloxacina (como 
+meglumina) 
+- Os outros) excipientes são meglumina, sulfobutílico betadex de sódio, edetato dissódico, 
+hidróxido de sódio (para ajuste de pH), ácido clorídrico concentrado (para ajuste do pH).  </p>
+<p>Qual o aspeto de Quofenix e conteúdo da embalagem 
+Quofenix pó para concentrado para solução para perfusão é fornecido em frascos de vidro transparente 
+de 20 ml. O frasco contém pó amarelo claro a âmbar.<br />
+Está disponível em embalagens contendo 10 frascos. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado  </p>
+<p>Menarini International Operations Luxembourg, S.A. 
+1, Avenue de la Gare 
+L-1611- Luxemburgo </p>
+<p>Fabricante 
+Patheon Italia S.p.A. 
+2° Trav. SX Via Morolense 5 
+03013 Ferentino (FR) 
+Itália </p>
+<p>or </p>
+<p>AlfaSigma 
+1 Via Enrico Fermi 
+65020 Alanno (PE) 
+Itália </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Menarini Benelux NV/SA 
+Tél/Tel: + 32 (0)2 721 4 
+Lietuva 
+UAB “BERLIN-CHEMIE MENARINI 
+BALTIC" 
+Tel: +370 52 691<br />
+България 
+Берлин-Хеми/А. Менарини България ЕООД 
+тел.: +359 2 454 0<br />
+Luxembourg/Luxemburg 
+Menarini Benelux NV/SA 
+Tél/Tel: + 32 (0)2 721 4Česká republika 
+Berlin-Chemie/A.Menarini Ceska republika 
+s.r.o. 
+Tel: +420 267 199<br />
+Magyarország 
+Berlin-Chemie/A. Menarini Kft. 
+Tel.: +36 17997Danmark 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
+Malta 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l.
+Tel: +39-055 56 
+Tel: +39-055 56Deutschland 
+Berlin-Chemie AG 
+Tel: +49 (0) 30 67Nederland 
+Menarini Benelux NV/SA 
+Tel: +32 (0)2 721 4Eesti 
+OÜ Berlin-Chemie Menarini Eesti 
+Tel: +372 667 5Norge 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
+Tel: +39-055 56Ελλάδα 
+MENARINI HELLAS AE 
+Τηλ: +30 210 8316111- Österreich 
+A. Menarini Pharma GmbH. 
+Tel: +43 1 879 95 85-0 
+España 
+Laboratorios Menarini S.A. 
+Tel: +34-93 462 88 Polska 
+Berlin-Chemie/Menarini Polska Sp. z o.o. 
+Tel.: +48 22 566 21 France 
+MENARINI France 
+Tél: +33 (0)1 45 60 77 Portugal 
+A. Menarini Portugal - Farmacêutica, S.A. 
+Tel: +351 210 935 Hrvatska 
+Berlin-Chemie Menarini Hrvatska d.o.o. 
+Tel: + 385 1 4821<br />
+Ireland 
+A. Menarini Pharmaceuticals Ireland Ltd 
+Tel: +353 1 284 6România 
+Berlin-Chemie A. Menarini S.R.L. 
+Tel: +40 21 232 34<br />
+Slovenija 
+Berlin-Chemie / A. Menarini Distribution 
+Ljubljana d.o.o.<br />
+Tel: +386 01 300 2Ísland 
+A. Menarini - Industrie Farmaceutiche Riunite -
+s.r.l. 
+Tel: +39-055 56 
+Slovenská republika 
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o. Tel: +421 2 544 30 Italia 
+A. Menarini - Industrie Farmaceutiche Riunite -
+s.r.l. 
+Tel: +39-055 56 
+Suomi/Finland 
+Berlin-Chemie/A.Menarini Suomi OY 
+Puh/Tel: +358 403 000 Κύπρος 
+MENARINI HELLAS AE 
+Τηλ: +30 210 8316111-Sverige 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
+Tel: +39-055 56 
+Latvija 
+SIA Berlin-Chemie/Menarini Baltic 
+Tel: +371 67103 
+United Kingdom (Northern Ireland) 
+A. Menarini Farmaceutica Internazionale S.R.L. 
+Tel: +44 (0)1628 856 
+Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1200,6 +1746,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-27f53ce7e817ea56aac44769c7b5a3bb"
 * entry[0].resource = composition-da-27f53ce7e817ea56aac44769c7b5a3bb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp27f53ce7e817ea56aac44769c7b5a3bb"
+* entry[=].resource = mp27f53ce7e817ea56aac44769c7b5a3bb
+                            
+                    
+Instance: bundlepackageleaflet-pt-27f53ce7e817ea56aac44769c7b5a3bb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for quofenix Package Leaflet for language pt"
+Description: "ePI document Bundle for quofenix Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-27f53ce7e817ea56aac44769c7b5a3bb"
+* entry[0].resource = composition-pt-27f53ce7e817ea56aac44769c7b5a3bb
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp27f53ce7e817ea56aac44769c7b5a3bb"
@@ -1301,6 +1869,18 @@ RuleSet: 27f53ce7e817ea56aac44769c7b5a3bbListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-27f53ce7e817ea56aac44769c7b5a3bb) // quofenix pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

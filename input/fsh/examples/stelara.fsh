@@ -1050,6 +1050,579 @@ ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel
 
 
 
+Instance: composition-pt-58c54bdf6fab9e6178694c2f025cc813
+InstanceOf: CompositionUvEpi
+Title: "Composition for stelara Package Leaflet"
+Description:  "Composition for stelara Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp58c54bdf6fab9e6178694c2f025cc813)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - stelara"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Stelara e para que é utilizado
+2. O que precisa de saber antes de utilizar Stelara
+3. Como será administrado Stelara
+4. Efeitos indesejáveis possíveis
+5. Como conservar Stelara
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é stelara e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é stelara e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Stelara
+Stelara contém a substância ativa “ustecinumab", um anticorpo monoclonal. Anticorpos monoclonais 
+são proteínas que reconhecem e se ligam especificamente a certas proteínas do corpo.
+Stelara pertence a um grupo de medicamentos denominados “imunossupressores". Estes 
+medicamentos atuam enfraquecendo parte do seu sistema imunitário.
+Para que é utilizado Stelara
+Stelara é utilizado para tratar as seguintes doenças inflamatórias:
+
+Doença de Crohn moderada a grave - em adultos
+
+Colite ulcerosa moderada a grave - em adultos
+Doença de Crohn
+A doença de Crohn é uma doença inflamatória do intestino. No caso de sofrer de doença de Crohn, irá 
+receber primeiro outros medicamentos. Se não tiver uma resposta suficiente ou se for intolerante a 
+esses medicamentos, poderá receber Stelara para reduzir os sinais e sintomas da sua doença.
+Colite ulcerosa
+A colite ulcerosa é uma doença inflamatória do intestino. No caso de sofrer de colite ulcerosa, irá 
+receber primeiro outros medicamentos. Se não tiver uma resposta suficiente ou se for intolerante a 
+esses medicamentos, poderá receber Stelara para reduzir os sinais e sintomas da sua doença.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar stelara"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar stelara"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Stelara
+
+Se tem alergia ao ustecinumab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6).
+
+Se tem uma infeção ativa que o seu médico pensa ser importante.
+109
+Se não tem a certeza se alguma das situações acima descritas se aplica a si, fale com o seu médico ou 
+farmacêutico antes de lhe ser administrado Stelara.
+Advertências e precauções
+Fale com o seu médico ou farmacêutico antes de utilizar Stelara. O seu médico avaliará o seu estado 
+de saúde, antes do tratamento. Certifique-se que, antes do tratamento, informou o seu médico sobre 
+qualquer doença que tenha. Informe igualmente o seu médico se tem estado, recentemente, perto de 
+alguém que possa ter tuberculose. O seu médico irá examiná-lo e fazer um teste para a tuberculose, 
+antes de utilizar Stelara. Se o seu médico pensar que está em risco de tuberculose, podem ser-lhe 
+receitados medicamentos para a tratar.
+Atenção aos efeitos indesejáveis graves
+Stelara pode causar efeitos indesejáveis graves, incluindo reações alérgicas e infeções. Deve ter 
+atenção a certos sinais da doença enquanto estiver a tomar Stelara. Ver “Efeitos indesejáveis graves" 
+na secção 4 para uma lista completa de todos os efeitos indesejáveis.
+Antes de utilizar Stelara informe o seu médico:
+
+Se alguma vez teve uma reação alérgica a Stelara. Fale com o seu médico se não tem a 
+certeza.
+
+Se alguma vez teve qualquer tipo de cancro - isto porque imunossupressores como Stelara 
+enfraquecem o sistema imunitário. Esta situação pode aumentar o risco de cancro.
+
+Se alguma vez foi tratado para a psoríase com outros medicamentos biológicos (um 
+medicamento produzido a partir de uma origem biológica e, geralmente, administrado por 
+injeção) - o risco de cancro pode ser maior.
+
+Se tem ou teve recentemente uma infeção ou se tem alguma abertura anormal na pele 
+(fístula).
+
+Se tem lesões novas ou alteradas entre áreas da pele com psoríase ou em pele normal.
+
+Se está a utilizar outro tratamento para a psoríase e/ou artrite psoriática - tal como outro 
+imunossupressor ou a fototerapia (quando o seu corpo é tratado com uma luz ultravioleta (UV) 
+específica). Estes tratamentos podem também enfraquecer o sistema imunitário. O uso destes 
+tratamentos, em conjunto com Stelara, não foi estudado. Contudo, é possível que possa 
+aumentar o risco de doenças relacionadas com um sistema imunitário enfraquecido.
+
+Se está a utilizar ou já utilizou injeções para tratar alergias - não se sabe se Stelara pode 
+afetar estes tratamentos.
+
+Se tiver 65 anos de idade ou mais - pode estar mais suscetível a ter infeções.
+Se não tem a certeza se algum dos pontos anteriores se aplica ao seu caso, fale com o seu médico ou 
+farmacêutico antes de utilizar Stelara.
+Alguns doentes apresentaram reações do tipo lúpus, incluindo lúpus cutâneo ou síndrome do tipo 
+lúpus, durante o tratamento com ustecinumab. Fale com o seu médico imediatamente se apresentar 
+uma erupção cutânea avermelhada, saliente e descamativa, por vezes com um rebordo mais escuro, em 
+áreas da pele que estão expostas ao sol, ou se tiver dores articulares.
+Ataque cardíaco e acidente vascular cerebral (AVC)
+Foram observados casos de ataque cardíaco e AVC num estudo em doentes com psoríase tratados com 
+Stelara. O seu médico irá verificar regularmente os seus fatores de risco quanto a doença cardíaca e 
+AVC, para garantir que são tratados adequadamente. Procure assistência médica imediatamente se 
+desenvolver dores no peito, fraqueza ou sensação anormal num dos lados do corpo, face descaída ou 
+anomalias visuais ou da fala.
+Crianças e adolescentes
+Stelara não é recomendado para utilização em crianças com idade inferior a 18 anos com doença de 
+Crohn ou colite ulcerosa porque não foi estudado nesse grupo etário.
+Outros medicamentos, vacinas e Stelara
+Informe o seu médico ou farmacêutico:
+110
+
+Se estiver a tomar, tiver tomado recentemente ou vier a tomar outros medicamentos
+
+Se foi recentemente ou vai ser vacinado. Alguns tipos de vacinas (vacinas vivas) não devem ser 
+administradas enquanto estiver em tratamento com Stelara.
+
+Se tiver recebido Stelara durante a gravidez, informe o médico do seu bebé sobre o seu 
+tratamento com Stelara antes de o bebé receber qualquer vacina, incluindo vacinas vivas, tais 
+como a vacina BCG (utilizada para prevenir a tuberculose). As vacinas vivas não são 
+recomendadas para o seu bebé nos primeiros seis meses após o nascimento se tiver recebido 
+Stelara durante a gravidez, exceto se o médico do seu bebé recomendar o contrário.
+Gravidez e aleitamento
+
+É preferível evitar a utilização de Stelara na gravidez. Os efeitos de Stelara nas mulheres 
+grávidas não são conhecidos. Se é uma mulher em risco de engravidar, é aconselhada a evitar 
+ficar grávida e deverá utilizar um método contracetivo durante o tratamento com Stelara e até 
+15 semanas após a última administração de Stelara.
+
+Fale com o seu médico se está grávida, se pensa estar grávida ou planeia engravidar.
+
+Stelara pode passar através da placenta para o feto. Se tiver recebido Stelara durante a sua 
+gravidez, o seu bebé poderá ter um maior risco de sofrer uma infeção.
+
+É importante que diga aos médicos do seu bebé e a outros profissionais de saúde se tiver 
+recebido Stelara durante a sua gravidez antes de o bebé receber qualquer vacina. As vacinas 
+vivas, tais como a vacina BCG (utilizada para prevenir a tuberculose) não são recomendadas 
+para o seu bebé nos primeiros seis meses após o nascimento se tiver recebido Stelara durante a 
+gravidez, exceto se o médico do seu bebé recomendar o contrário.
+
+O ustecinumab pode passar para o leite materno em quantidades muito reduzidas. Fale com o 
+seu médico se está a amamentar ou se planeia amamentar. Você e o seu médico devem decidir 
+se deve amamentar ou utilizar Stelara - não faça ambos.
+Condução de veículos e utilização de máquinas
+Os efeitos de Stelara sobre a capacidade de conduzir ou utilizar máquinas são nulos ou desprezáveis.
+Stelara contém sódio
+Stelara contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente “isento de 
+sódio".
+No entanto, antes de Stelara lhe ser administrado, é misturado com uma solução que contém sódio. 
+Fale com o seu médico se estiver a fazer uma dieta com pouco sal.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar stelara"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar stelara"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Stelara deverá ser utilizado sob a orientação e supervisão de um médico com experiência no 
+diagnóstico e tratamento da doença de Crohn ou colite ulcerosa.
+Stelara 130 mg concentrado para solução para perfusão será administrado pelo seu médico, através de 
+gota-a-gota numa veia do seu braço (perfusão intravenosa) ao longo de, pelo menos, uma hora. Fale 
+com o seu médico sobre quando irá receber as suas injeções e marcar as consultas de seguimento.
+Que quantidade de Stelara é administrada
+O seu médico decidirá qual a quantidade de Stelara que necessita receber e durante quanto tempo.
+Adultos com idade igual ou superior a 18 anos
+
+O médico irá determinar a dose de perfusão intravenosa recomendada para si com base no seu 
+peso corporal.
+O seu peso corporal
+Dose
+≤ 55 kg
+260 mg
+&gt; 55 kg a ≤ 85 kg
+390 mg
+&gt; 85 kg
+520 mg
+111
+
+Após a dose intravenosa inicial, irá receber a próxima dose de 90 mg de Stelara na forma de 
+injeção sob a pele (injeção subcutânea) 8 semanas mais tarde, e depois em intervalos de 
+12 semanas a partir daí.
+Como é administrado Stelara
+
+A primeira dose de Stelara para o tratamento da doença de Crohn ou colite ulcerosa é 
+administrada gota-a-gota, por um médico, numa veia do braço (perfusão intravenosa).
+Fale com o seu médico se tiver qualquer dúvida sobre a administração de Stelara.
+Caso se tenha esquecido de utilizar Stelara
+Caso se tenha esquecido ou faltado a uma consulta para receber a dose, contacte o seu médico para 
+fazer uma nova marcação.
+Se parar de utilizar Stelara
+Não é perigoso deixar de utilizar Stelara. No entanto, se parar, os seus sintomas podem voltar.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Efeitos indesejáveis graves
+Alguns doentes têm efeitos indesejáveis graves que podem necessitar de tratamento urgente.
+Reações alérgicas - pode necessitar de tratamento médico urgente. Fale com o seu médico 
+ou tenha ajuda de emergência médica se notar algum dos seguintes sinais.
+
+Reações alérgicas graves (“anafilaxia") são raras em pessoas que estão a utilizar Stelara 
+(pode afetar até 1 em cada 1.000 pessoas). Estes sinais incluem:
+o
+dificuldade em respirar ou engolir
+o
+tensão arterial baixa, o que pode causar vertigens ou tonturas
+o
+inchaço da face, lábios, boca ou garganta.
+
+Sinais frequentes de uma reação alérgica podem incluir erupção na pele e urticária (pode 
+afetar até 1 em cada 100 pessoas).
+Reações relacionadas com a perfusão - Se está a ser tratado para a doença de Crohn ou 
+colite ulcerosa, a primeira dose de Stelara deve ser administrada através de gota-a-gota 
+numa veia (perfusão intravenosa). Alguns doentes experienciaram reações alérgicas 
+graves durante a perfusão.
+Em casos raros, foram reportadas reações alérgicas pulmonares e inflamação pulmonar 
+em doentes que receberam ustecinumab. Informe imediatamente o seu médico se 
+desenvolver sintomas como tosse, falta de ar e febre.
+Se tiver uma reação alérgica grave, o seu médico pode decidir que não deve usar Stelara 
+novamente.
+Infeções - pode necessitar de tratamento médico urgente. Fale com o seu médico 
+imediatamente se notar algum dos seguintes sinais.
+
+Infeções do nariz e da garganta e constipações comuns são frequentes (podem afetar até 1 
+em cada 10 pessoas)
+
+Infeções do tórax são pouco frequentes (podem afetar até 1 em cada 100 pessoas)
+112
+
+Inflamação dos tecidos por baixo da pele (“celulite") é pouco frequente (pode afetar até 1 
+em cada 100 pessoas)
+
+Zona (um tipo de erupção na pele dolorosa com bolhas) é pouco frequente (pode afetar 
+até 1 em cada 100 pessoas).
+Stelara pode torná-lo menos capaz para combater infeções. Algumas infeções podem tornar-se 
+graves, e podem incluir infeções causadas por vírus, fungos, bactérias (incluindo tuberculose) 
+ou parasitas, incluindo infeções que, maioritariamente, ocorrem em pessoas com o sistema 
+imune debilitado (infeções oportunistas). Foram notificadas infeções oportunistas do cérebro 
+(encefalite, meningite), dos pulmões e do olho em doentes que receberam tratamento com 
+ustecinumab.
+Deve estar atento a sinais de infeção enquanto estiver a utilizar Stelara. Isto inclui:
+
+febre, sintomas de tipo gripal, transpiração excessiva durante a noite, perda de peso
+
+sensação de cansaço ou falta de ar, tosse que não desaparece
+
+pele quente, vermelha e dolorosa ou erupção cutânea dolorosa com bolhas
+
+ardor ao urinar
+
+diarreia
+
+perturbação visual ou perda de visão
+
+dores de cabeça, rigidez do pescoço, sensibilidade à luz, náuseas ou confusão.
+Fale imediatamente com o seu médico se notar algum destes sinais de infeção. Estes podem ser 
+sinais de infeções, tais como infeções do tórax, infeções da pele, zona ou infeções oportunistas, 
+que podem apresentar complicações graves. Fale com o seu médico se tiver qualquer tipo de 
+infeção que não desaparece ou continua a aparecer. O seu médico pode decidir que não deve 
+utilizar Stelara até a infeção desaparecer. Contacte também o seu médico se tiver quaisquer 
+cortes ou feridas abertas uma vez que podem infetar.
+Descamação da pele - aumento da vermelhidão e descamação da pele numa maior área do 
+corpo podem ser sintomas de psoríase eritrodérmica ou dermatite exfoliativa, que são 
+doenças de pele graves. Deve falar com o seu médico imediatamente se notar algum destes 
+sinais.
+Outros efeitos indesejáveis
+Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas):
+
+Diarreia
+
+Náuseas
+
+Vómito
+
+Sensação de cansaço
+
+Sensação de tontura
+
+Dor de cabeça
+
+Comichão (“prurido")
+
+Dor nos músculos, nas articulações ou nas costas
+
+Dor de garganta
+
+Vermelhidão e dor no local de injeção
+
+Infeções dos seios perinasais
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas):
+
+Infeções nos dentes
+
+Infeção fúngica vaginal
+
+Depressão
+
+Nariz entupido
+
+Hemorragia, nódoas negras, endurecimento, inchaço e comichão no local da injeção
+
+Sensação de fraqueza
+113
+
+Queda da pálpebra e flacidez dos músculos de um lado da cara (“paralisia facial" ou 
+“paralisia de Bell"), que é, habitualmente, temporário
+
+Uma alteração na psoríase, com vermelhidão e novas e pequenas bolhas amarelas ou 
+brancas, por vezes acompanhada de febre (psoríase pustular)
+
+Descamação da pele (exfoliação da pele)
+
+Acne
+Efeitos indesejáveis raros (podem afetar até 1 em cada 1000 pessoas):
+
+Aumento da vermelhidão e descamação da pele numa maior área do corpo, que pode 
+provocar comichão ou dor (dermatite exfoliativa). Por vezes, podem desenvolver-se 
+sintomas semelhantes como alterações naturais no tipo de sintomas da psoríase (psoríase 
+eritrodérmica)
+
+Inflamação de pequenos vasos sanguíneos, que pode conduzir a uma erupção na pele com 
+pequenas borbulhas vermelhas ou roxas, febre ou dores nas articulações (vasculite)
+Efeitos indesejáveis muito raros (podem afetar 1 em cada 10 000 pessoas):
+
+Bolhas na pele que podem provocar vermelhidão, comichão e dor (penfigóide bolhoso).
+
+Lúpus cutâneo ou síndrome do tipo lúpus (erupção cutânea avermelhada, saliente e 
+descamativa em áreas da pele expostas ao sol, possivelmente com dores articulares).
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar stelara"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar stelara"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Stelara 130 mg concentrado para solução para perfusão é administrado num hospital ou clínica e 
+os doentes não devem precisar de o conservar ou manusear.
+
+Manter este medicamento fora da vista e do alcance das crianças.
+
+Conservar no frigorífico (2°C-8°C). Não congelar.
+
+Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz.
+
+Não agite os frascos para injetáveis de Stelara. Uma agitação vigorosa prolongada pode 
+danificar o medicamento.
+Não utilize este medicamento:
+
+Após o prazo de validade impresso no rótulo e na embalagem exterior, após “VAL". O prazo de 
+validade corresponde ao último dia do mês indicado.
+
+Se o líquido estiver descolorado, turvo ou se observar outras partículas estranhas em suspensão 
+(ver a secção 6 “Qual o aspeto de Stelara e conteúdo da embalagem").
+
+Se sabe ou pensa que o medicamento tenha sido exposto a temperaturas extremas (tal como 
+acidentalmente congelado ou aquecido).
+
+Se o medicamento foi vigorosamente agitado.
+
+Se o selo estiver danificado.
+Stelara destina-se apenas para administração única. Qualquer solução para perfusão diluída ou produto 
+não utilizado que fique no frasco para injetáveis e na seringa deve ser deitado fora de acordo com os 
+requisitos locais.
+114</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Stelara
+
+A substância ativa é o ustecinumab. Cada frasco para injetáveis contém 130 mg de ustecinumab 
+em 26 ml.
+
+Os outros componentes são EDTA sal dissódico di-hidratado, L-histidina, monocloridrato de L-
+histidina mono-hidratado, L-metionina, polissorbato 80, sacarose e água para preparações 
+injetáveis.
+Qual o aspeto de Stelara e conteúdo da embalagem
+Stelara é um concentrado para solução para perfusão transparente, incolor a amarelo. Apresenta-se 
+numa embalagem de cartão contendo 1 frasco para injetáveis de dose única, de vidro, de 30 ml. Cada 
+frasco para injetáveis contém 130 mg de ustecinumab em 26 ml de concentrado para solução para 
+perfusão.
+Titular da Autorização de Introdução no Mercado
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Bélgica
+Fabricante
+Janssen Biologics B.V.
+Einsteinweg 101
+2333 CB Leiden
+Holanda
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+115
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: +1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel. +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Tηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle 
+Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Este folheto foi revisto pela última vez em
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1091,6 +1664,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-58c54bdf6fab9e6178694c2f025cc813"
 * entry[0].resource = composition-da-58c54bdf6fab9e6178694c2f025cc813
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp58c54bdf6fab9e6178694c2f025cc813"
+* entry[=].resource = mp58c54bdf6fab9e6178694c2f025cc813
+                            
+                    
+Instance: bundlepackageleaflet-pt-58c54bdf6fab9e6178694c2f025cc813
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for stelara Package Leaflet for language pt"
+Description: "ePI document Bundle for stelara Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-58c54bdf6fab9e6178694c2f025cc813"
+* entry[0].resource = composition-pt-58c54bdf6fab9e6178694c2f025cc813
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp58c54bdf6fab9e6178694c2f025cc813"
@@ -1192,6 +1787,18 @@ RuleSet: 58c54bdf6fab9e6178694c2f025cc813ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-58c54bdf6fab9e6178694c2f025cc813) // stelara pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

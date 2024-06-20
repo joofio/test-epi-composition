@@ -955,6 +955,536 @@ er nævnt i denne indlægsseddel. Se afsnit 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-8fe556bb25526e379f33fd00eb2af422
+InstanceOf: CompositionUvEpi
+Title: "Composition for procysbi Package Leaflet"
+Description:  "Composition for procysbi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8fe556bb25526e379f33fd00eb2af422)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - procysbi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é PROCYSBI e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar PROCYSBI </li>
+<li>Como tomar PROCYSBI </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar PROCYSBI </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é procysbi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é procysbi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>PROCYSBI contém a substância ativa cisteamina (também conhecida como mercaptamina) e é 
+tomado para o tratamento da cistinose nefropática em crianças e adultos. A cistinose é uma doença que 
+afeta o modo de funcionamento do organismo, com uma acumulação anormal do aminoácido cistina 
+em diversos órgãos do corpo como, por exemplo, rins, olhos, músculos, pâncreas e cérebro. A 
+acumulação de cistina provoca danos nos rins e a excreção de quantidades excessivas de glicose, 
+proteínas e eletrólitos. Diferentes órgãos são afetados em diferentes idades. </p>
+<p>PROCYSBI é um medicamento que reage com a cistina para reduzir o seu nível dentro das células. O 
+tratamento com cisteamina deve ser iniciado rapidamente após a confirmação do diagnóstico de 
+cistinose, para obter o máximo benefício. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar procysbi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar procysbi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome PROCYSBI 
+− 
+se tem alergia à cisteamina (também conhecida como mercaptamina) ou a qualquer outro 
+componente deste medicamento (indicados na secção 6); 
+− 
+se tem alergia à penicilamina (não se trata da “penicilina", mas sim de um medicamento 
+utilizado para o tratamento da doença de Wilson); 
+− 
+se está a amamentar. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar PROCYSBI. </p>
+<p>− 
+Na medida em que a cisteamina oral não impede a acumulação de cristais de cistina no olho, 
+deve continuar a usar a solução oftálmica de cisteamina receitada pelo seu médico. 
+− 
+As cápsulas inteiras de cisteamina não devem ser administradas a crianças com menos de 
+6 anos, devido ao risco de sufocação (ver secção 3 “Como tomar PROCYSBI - Modo de 
+administração"). 
+− 
+Podem ocorrer lesões graves na pele dos doentes tratados com doses altas de cisteamina. O seu 
+médico irá monitorizar a sua pele e os seus ossos regularmente e reduzir ou suspender o 
+tratamento se necessário (ver secção 4). 
+− 
+Podem ocorrer úlceras e hemorragias no estômago e intestinos nos doentes a receberem 
+cisteamina (ver secção 4). 
+− 
+Outros sintomas intestinais, incluindo náuseas, vómitos, falta de apetite e dores de estômago, 
+podem ocorrer com a cisteamina. Neste caso, o seu médico pode interromper o tratamento e 
+alterar a sua dose. 
+− 
+Fale com o seu médico se tiver sintomas pouco habituais no estômago ou alterações nos 
+sintomas no estômago. 
+− 
+Sintomas como convulsões, cansaço, sonolência, depressão e doenças cerebrais (encefalopatia) 
+podem ocorrer com a cisteamina. No caso de desenvolvimento desses sintomas, informe o seu 
+médico, o qual ajustará a sua dose. 
+− 
+Uma função dos rins anormal ou uma diminuição dos glóbulos brancos (leucopenia) podem 
+ocorrer com a utilização de cisteamina. O seu médico irá monitorizar regularmente a contagem 
+dos glóbulos no sangue e a função do fígado. 
+− 
+O seu médico irá monitorizá-lo para detetar a presença de hipertensão intracraniana benigna (ou 
+pseudotumor cerebral [PTC]) e/ou inchaço do nervo ótico (papiledema) associada ao tratamento 
+com a cisteamina. Será submetido a exames oculares regulares para identificar esta doença, 
+considerando que o tratamento precoce pode impedir a perda de visão. </p>
+<p>Outros medicamentos e PROCYSBI 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Se o seu médico lhe receitar bicarbonato, não o tome em simultâneo com 
+PROCYSBI; tome o bicarbonato pelo menos uma hora antes ou pelo menos uma hora depois do 
+medicamento. </p>
+<p>PROCYSBI com alimentos e bebidas 
+Durante pelo menos 1 hora antes e 1 hora depois de tomar PROCYSBI, tente evitar refeições que 
+sejam ricas em gorduras ou proteínas, assim como todos os alimentos ou líquidos que possam diminuir 
+a acidez no estômago, como leite ou iogurte. Se tal não for possível, pode comer uma pequena 
+quantidade (cerca de 100 gramas) de alimentos (de preferência hidratos de carbono, p. ex., pão, massa, 
+fruta) na hora que antecede e na hora que se segue à administração de PROCYSBI. 
+Tome a cápsula com uma bebida ácida (como sumo de laranja ou qualquer sumo ácido) ou água. No 
+caso de crianças e doentes com problemas para engolir, consulte a secção 3 “Como tomar PROCYSBI 
+- Modo de administração". </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Não deve utilizar este medicamento se está grávida, sobretudo durante o primeiro trimestre. Antes de 
+iniciar o tratamento deve ter um teste de gravidez com um resultado negativo e durante o tratamento 
+deve utilizar um método contracetivo adequado. Se for mulher e planear engravidar ou se ficar 
+grávida, consulte de imediato o seu médico para suspender o tratamento com este medicamento, pois a 
+continuação do tratamento pode ser prejudicial para o feto. </p>
+<p>Não utilize este medicamento se estiver a amamentar (ver secção 2, em “Não tome PROCYSBI"). </p>
+<p>Condução de veículos e utilização de máquinas 
+Este medicamento pode causar alguma sonolência. Depois de iniciar o tratamento, não deve conduzir, 
+utilizar máquinas ou realizar outras atividades perigosas enquanto não souber como o medicamento o 
+afeta. </p>
+<p>PROCYSBI contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar procysbi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar procysbi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada para si para ou para o seu filho dependerá do seu peso e idade ou do peso e idade 
+do seu filho. A dose de manutenção pretendida é de 1,3 g/m2/dia. </p>
+<p>Calendário de administração 
+Tome este medicamento duas vezes por dia, de 12 em 12 horas. Para obter o benefício máximo deste 
+medicamento, tente evitar refeições e produtos lácteos durante pelo menos 1 hora antes e 1 hora depois 
+da administração de PROCYSBI. Se tal não for possível, pode comer uma pequena quantidade (cerca 
+de 100 gramas) de alimentos (de preferência hidratos de carbono, p. ex., pão, massa, fruta) na hora que 
+antecede e na hora que se segue à administração de PROCYSBI. </p>
+<p>É importante tomar PROCYSBI de forma constante ao longo do tempo. </p>
+<p>Não aumente nem reduza a quantidade de medicamento sem a aprovação do médico. </p>
+<p>A dose total habitual não deverá exceder 1,95 g/m2/dia. </p>
+<p>Duração do tratamento 
+O tratamento com PROCYSBI deve manter-se por toda a vida, segundo as instruções do seu médico. </p>
+<p>Modo de administração 
+Só deve tomar este medicamento por via oral. </p>
+<p>Para que este medicamento funcione corretamente, deve proceder do seguinte modo: 
+- Doentes que conseguem engolir a cápsula inteira: 
+Engula a cápsula inteira com uma bebida ácida (como sumo de laranja ou qualquer sumo ácido) 
+ou água. Não esmagar ou mastigar as cápsulas ou o seu conteúdo. Crianças com menos de 
+6 anos de idade podem não conseguir engolir cápsulas gastrorresistentes, podendo sufocar. Pode 
+administrar PROCYSBI a crianças com menos de 6 anos de idade abrindo as cápsulas e 
+polvilhando o seu conteúdo sobre os alimentos ou líquido, de acordo com as instruções 
+fornecidas abaixo. </p>
+<p>Doentes que não conseguem engolir a cápsula inteira ou que usam uma sonda de alimentação: 
+Polvilhar sobre os alimentos 
+Abra as cápsulas gastrorresistentes e polvilhe o conteúdo (granulado) sobre cerca de 100 gramas 
+de alimentos, tais como puré de maçã ou compota de fruta. 
+Misture cuidadosamente o granulado nos alimentos moles, criando uma mistura de granulado e 
+alimentos. Coma toda a mistura. Em seguida, beba cerca de 250 ml de um líquido ácido (por 
+exemplo, sumo de laranja ou qualquer sumo ácido) ou água para facilitar a ingestão da mistura. 
+Se não consumir a mistura imediatamente, pode refrigerá-la (2°C-8°C) desde o momento da 
+preparação até ao momento da administração e deve consumi-la no espaço de 2 horas após a 
+preparação. Nenhuma porção da mistura deve ser guardada para além dessas 2 horas. </p>
+<p>Administrar através de uma sonda de alimentação 
+Abra as cápsulas gastrorresistentes e polvilhe o conteúdo (granulado) sobre cerca de 100 gramas 
+de puré de maçã ou compota de fruta. Misture cuidadosamente o granulado nos alimentos 
+moles, criando uma mistura de granulado e alimentos. Administre a mistura por meio de uma 
+sonda de gastrostomia, sonda nasogástrica ou sonda de gastrostomia-jejunostomia utilizando 
+uma seringa com bico para cateter. Antes da administração de PROCYSBI: solte o botão do 
+tubo G e ligue a sonda. Irrigue com 5 ml de água para limpar o botão. Aspire a mistura para 
+dentro da seringa. Recomenda-se um volume máximo de 60 ml da mistura numa seringa com 
+bico para cateter para utilização com uma sonda reta ou de bólus. Coloque a abertura da seringa 
+que contém a mistura de PROCYSBI e alimentos dentro da abertura da sonda de alimentação e 
+encha completamente com a mistura: pressione a seringa com suavidade e mantenha a sonda 
+horizontal durante a administração para ajudar a evitar entupimentos. É sugerido utilizar um 
+alimento viscoso, tal como puré de maçã ou compota de fruta a uma velocidade de cerca de 
+10 ml a cada 10 segundos até a seringa estar totalmente vazia, para evitar entupimentos. Repita 
+o passo acima descrito até toda a mistura ser administrada. Após a administração de 
+PROCYSBI, aspire 10 ml de sumo de frutas ou água para outra seringa e lave o tubo G, 
+certificando-se de que nenhuma porção da mistura de PROCYSBI e alimentos fica agarrada ao 
+tubo G. 
+Se não consumir a mistura imediatamente, pode refrigerá-la (2°C-8°C) desde o momento da 
+preparação até ao momento da administração e deve consumi-la no espaço de 2 horas após a 
+preparação. Nenhuma porção da mistura deve ser guardada para além dessas 2 horas. 
+Consulte o médico da criança para obter instruções completas sobre como administrar 
+corretamente o medicamento através de tubos de alimentação gástrica e se tiver problemas de 
+entupimento. </p>
+<p>Polvilhar sobre sumo de laranja, qualquer sumo de frutas ácido ou água 
+Abra as cápsulas gastrorresistentes e polvilhe o conteúdo (granulado) sobre cerca de 100 ml a 
+150 ml de um sumo de frutas ácido (por exemplo, sumo de laranja ou qualquer sumo de frutas 
+ácido) ou água. Misture cuidadosamente a mistura líquida de PROCYSBI durante 5 minutos 
+num copo ou agite cuidadosamente durante 5 minutos num copo com tampa (por exemplo, um 
+copo «de bebé») e beba a mistura.<br />
+Se não beber a mistura imediatamente, pode refrigerá-la (2°C-8°C) desde o momento da 
+preparação até ao momento da administração e deve consumi-la no espaço de 30 minutos após a 
+preparação. Nenhuma porção da mistura deve ser guardada para além desses 30 minutos. </p>
+<p>Administrar a mistura líquida com uma seringa oral 
+Aspire a mistura líquida para uma seringa doseadora e administre diretamente na boca. 
+Se não beber a mistura imediatamente, pode refrigerá-la (2°C-8°C) desde o momento da 
+preparação até ao momento da administração e deve consumi-la no espaço de 30 minutos após a 
+preparação. Nenhuma porção da mistura deve ser guardada para além desses 30 minutos. </p>
+<p>O seu médico poderá recomendar ou prescrever a inclusão, para além da cisteamina, de um ou mais 
+suplementos para substituir eletrólitos importantes que se perdem por eliminação através dos rins. É 
+importante tomar estes suplementos exatamente conforme as instruções. Se omitir várias doses destes 
+suplementos ou se sentir fraqueza ou sonolência, contacte o seu médico para obter instruções. </p>
+<p>É necessário realizar análises regulares ao sangue para medir a quantidade de cistina no interior dos 
+glóbulos brancos e/ou a concentração de cisteamina no sangue, para ajudar a determinar a dose correta 
+de PROCYSBI. Cabe a si ou ao seu médico providenciar a realização dessas análises sanguíneas. 
+Estas análises devem ser obtidas 12,5 horas após a dose da noite do dia anterior e, posteriormente, 
+30 minutos após a administração da dose da manhã seguinte. São igualmente necessárias análises 
+regulares ao sangue e à urina para determinar os níveis dos eletrólitos mais importantes do organismo 
+e também para o seu médico ajustar corretamente as doses destes suplementos. </p>
+<p>Se tomar mais PROCYSBI do que deveria 
+Deve contactar de imediato o seu médico ou serviço de urgências do hospital se tomar mais 
+PROCYSBI do que deveria. Pode ficar sonolento. </p>
+<p>Caso se tenha esquecido de tomar PROCYSBI 
+Se não tomou uma dose do medicamento, deverá tomá-la o mais brevemente possível. No entanto, se 
+estiver a menos de 4 horas da dose seguinte, deixe passar a dose em falta e mantenha o esquema 
+posológico habitual. </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Se tiver algum dos seguintes efeitos indesejáveis, fale de imediato com o seu médico ou 
+enfermeiro - pode necessitar de tratamento médico urgente: 
+− 
+Reação alérgica grave (pouco frequente): procure ajuda médica de urgência se apresentar algum 
+dos seguintes sinais de uma reação alérgica: urticária (reação da pele que causa manchas 
+vermelhas ou brancas e comichão), dificuldades respiratórias, inchaço do rosto, lábios, língua ou 
+garganta. </p>
+<p>No caso de aparecimento de algum dos efeitos indesejáveis a seguir indicados, contacte de imediato o 
+seu médico. Uma vez que alguns destes efeitos indesejáveis são considerados graves, peça ao seu 
+médico que lhe explique os sinais de alerta para estes sintomas. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 doentes): 
+− 
+Erupção cutânea (reação na pele): informe de imediato o seu médico se surgir uma erupção 
+cutânea. É possível que PROCYSBI tenha de ser temporariamente suspenso até ao 
+desaparecimento da erupção cutânea. Se a erupção cutânea for grave, o seu médico pode 
+interromper o tratamento com a cisteamina. 
+− 
+Função do fígado anormal nas análises de sangue. O seu médico irá manter este ponto sob 
+vigilância. </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 doentes): 
+− 
+Lesões cutâneas (lesões na pele), lesões ósseas e problemas das articulações: o tratamento com 
+doses altas de cisteamina pode levar ao desenvolvimento de lesões cutâneas. Estas incluem 
+estrias na pele, lesões nos ossos (como fraturas), deformidades ósseas e problemas nas 
+articulações. Examine a sua pele durante a toma deste medicamento. Comunique quaisquer 
+alterações ao seu médico. O seu médico irá monitorizá-lo. 
+− 
+Diminuição do número de glóbulos brancos. O seu médico irá monitorizá-lo. 
+− 
+Sintomas do sistema nervoso central: alguns doentes a tomarem cisteamina desenvolveram 
+convulsões, depressão e ficaram sonolentos (sonolência excessiva). Informe o seu médico em 
+caso de aparecimento destes sintomas. 
+− 
+Problemas de estômago e intestinos (gastrointestinais): os doentes a tomarem cisteamina 
+desenvolveram úlceras e hemorragias. Informe de imediato o seu médico se tiver dores de 
+estômago ou se vomitar sangue. 
+− 
+Foi comunicada a ocorrência de hipertensão intracraniana benigna, também denominada 
+pseudotumor cerebral, com o uso de cisteamina. Esta é uma doença na qual se verifica pressão 
+alta no líquido que rodeia o cérebro. Informe de imediato o seu médico se desenvolver algum 
+dos seguintes sintomas durante a toma de PROCYSBI: zumbidos nos ouvidos, tonturas, visão 
+dupla, visão turva, perda de visão, dor atrás do olho ou dor associada ao movimento ocular. O 
+seu médico irá monitorizá-lo por meio de exames oculares de modo a detetar e tratar 
+precocemente este problema. Isto irá ajudar a diminuir a probabilidade de perda de visão. </p>
+<p>Os outros efeitos indesejáveis a seguir referidos são indicados com uma estimativa da frequência com 
+que podem ocorrer com PROCYSBI. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 doente em cada 10): 
+− 
+náuseas 
+− 
+vómitos 
+− 
+perda de apetite 
+− 
+diarreia 
+− 
+febre 
+− 
+sensação de sonolência </p>
+<p>Efeitos indesejáveis frequentes: 
+− 
+dor de cabeça 
+− 
+encefalopatia 
+− 
+dor abdominal 
+− 
+dispepsia 
+− 
+mau hálito e odor corporal desagradável 
+− 
+azia 
+− 
+cansaço. </p>
+<p>Efeitos indesejáveis pouco frequentes: 
+− 
+dores nas pernas 
+− 
+escoliose (desvio na coluna vertebral) 
+− 
+fragilidade óssea 
+− 
+descoloração do cabelo 
+− 
+convulsões 
+− 
+nervosismo 
+− 
+alucinações 
+− 
+efeito sobre os rins, sob a forma de inchaço das mãos e pés e aumento de peso. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar procysbi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar procysbi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não tome este medicamento se a proteção em folha de alumínio tiver sido aberta há mais de 30 dias. 
+Elimine o frasco aberto e utilize um novo frasco. </p>
+<p>Conservar no frigorífico (2-8ºC). Não congelar. 
+Após abertura, não conservar acima de 25°C. 
+Manter o recipiente bem fechado para proteger da luz e da humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de PROCYSBI 
+− 
+A substância ativa é cisteamina (sob a forma de bitartrato de mercaptamina). 
+PROCYSBI 25 mg cápsulas gastrorresistentes 
+Cada cápsula gastrorresistente contém 25 mg de cisteamina. </p>
+<p>PROCYSBI 75 mg cápsulas gastrorresistentes </p>
+<p>Cada cápsula gastrorresistente contém 75 mg de cisteamina. </p>
+<p>− 
+Os outros componentes são: 
+o 
+Nas cápsulas: celulose microcristalina, copolímero ácido metacrílico-acrilato de etilo 
+(1:1), hipromelose, talco, citrato trietílico, laurilsulfato de sódio (ver secção “PROCYSBI 
+contém sódio"). 
+o 
+No revestimento da cápsula: gelatina, dióxido de titânio (E171), índigo carmim (E132). 
+o 
+Na tinta de impressão: goma-laca, povidona (K-17), dióxido de titânio (E171). </p>
+<p>Qual o aspeto de PROCYSBI e conteúdo da embalagem 
+− 
+PROCYSBI 25 mg apresenta-se sob a forma de cápsulas gastrorresistentes de cor azul (com o 
+tamanho de 15,9 mm x 5,8 mm). A cabeça azul clara está impressa com o logótipo da PRO a 
+tinta branca e o corpo azul claro apresenta a inscrição “25 mg" impressa a tinta branca. Um 
+frasco de plástico branco contém 60 cápsulas. A cabeça é resistente a crianças e tem uma 
+proteção em folha de alumínio. Cada frasco contém dois cilindros de plástico utilizados para a 
+proteção adicional contra a humidade e o ar. 
+− 
+PROCYSBI 75 mg apresenta-se sob a forma de cápsulas gastrorresistentes de cor azul (com o 
+tamanho de 21,7 mm x 7,6 mm). A cabeça azul escura está impressa com o logótipo da PRO a 
+tinta branca e o corpo azul claro apresenta a inscrição “75 mg" impressa a tinta branca. Um 
+frasco de plástico branco contém 250 cápsulas. A cabeça é resistente a crianças e tem uma 
+proteção em folha de alumínio. Cada frasco contém três cilindros de plástico utilizados para a 
+proteção adicional contra a humidade e o ar. 
+− 
+Mantenha os cilindros em cada frasco durante a utilização do mesmo. É possível eliminar os 
+cilindros com os frascos após a sua utilização. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Chiesi Farmaceutici S.p.A. 
+Via Palermo 26/A 
+43122 Parma 
+Itália </p>
+<p>Fabricante 
+Chiesi Farmaceutici S.p.A. 
+Via San Leonardo 43122 Parma 
+Itália </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Chiesi sa/nv 
+Tél/Tel: + 32 (0)2 788 42<br />
+Lietuva 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+България 
+Chiesi Bulgaria EOOD 
+Teл.: + 359 29201 
+Luxembourg/Luxemburg 
+Chiesi sa/nv 
+Tél/Tel: + 32 (0)2 788 42<br />
+Česká republika 
+Chiesi CZ s.r.o. 
+Tel: + 420 261221 
+Magyarország 
+Chiesi Hungary Kft. 
+Tel.: + 36-1-429 1 
+Danmark 
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35<br />
+Malta 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 
+Deutschland 
+Chiesi GmbH 
+Tel: + 49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V. 
+Tel: + 31 88 501 64<br />
+Eesti 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+Norge 
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35<br />
+Ελλάδα 
+Chiesi Hellas AEBE 
+Τηλ: + 30 210 6179 
+Österreich 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+España 
+Chiesi España, S.A.U. 
+Tel: + 34 93 494 8 
+Polska 
+Chiesi Poland Sp. z.o.o. 
+Tel.: + 48 22 620 1 
+France 
+Chiesi S.A.S. 
+Tél: + 33 1 47688 
+Portugal 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 
+Hrvatska 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+România 
+Chiesi Romania S.R.L. 
+Tel: + 40 212023 
+Ireland 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 
+Slovenija 
+Chiesi Slovenija d.o.o. 
+Tel: + 386-1-43 00<br />
+Ísland 
+Chiesi Pharma AB 
+Sími: +46 8 753 35<br />
+Slovenská republika 
+Chiesi Slovakia s.r.o. 
+Tel: + 421 259300 
+Italia 
+Chiesi Italia S.p.A. 
+Tel: + 39 0521 2 
+Suomi/Finland 
+Chiesi Pharma AB 
+Puh/Tel: +46 8 753 35<br />
+Κύπρος 
+Chiesi Farmaceutici S.p.A. 
+Τηλ: + 39 0521 2 
+Sverige 
+Chiesi Pharma AB 
+Tel: +46 8 753 35<br />
+Latvija 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -996,6 +1526,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8fe556bb25526e379f33fd00eb2af422"
 * entry[0].resource = composition-da-8fe556bb25526e379f33fd00eb2af422
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8fe556bb25526e379f33fd00eb2af422"
+* entry[=].resource = mp8fe556bb25526e379f33fd00eb2af422
+                            
+                    
+Instance: bundlepackageleaflet-pt-8fe556bb25526e379f33fd00eb2af422
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for procysbi Package Leaflet for language pt"
+Description: "ePI document Bundle for procysbi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8fe556bb25526e379f33fd00eb2af422"
+* entry[0].resource = composition-pt-8fe556bb25526e379f33fd00eb2af422
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8fe556bb25526e379f33fd00eb2af422"
@@ -1097,6 +1649,18 @@ RuleSet: 8fe556bb25526e379f33fd00eb2af422ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8fe556bb25526e379f33fd00eb2af422) // procysbi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

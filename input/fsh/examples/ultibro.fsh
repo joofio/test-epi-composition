@@ -1057,6 +1057,467 @@ Blisterkort </p>         </div>"""
 
 
 
+Instance: composition-pt-c534ceb0c415b656be1c262cf1f8af94
+InstanceOf: CompositionUvEpi
+Title: "Composition for ultibro Package Leaflet"
+Description:  "Composition for ultibro Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc534ceb0c415b656be1c262cf1f8af94)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ultibro"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instruções para utilização do inalador Ultibro Breezhaler </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Ultibro Breezhaler e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Ultibro Breezhaler </li>
+<li>Como utilizar Ultibro Breezhaler </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Ultibro Breezhaler </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ultibro e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ultibro e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Ultibro Breezhaler 
+Este medicamento contém duas substâncias ativas chamadas indacaterol e glicopirrónio. Estas 
+pertencem a um grupo de medicamentos chamados broncodilatadores. </p>
+<p>Para que é utilizado Ultibro Breezhaler 
+Este medicamento é utilizado para tornar a respiração mais fácil para doentes adultos com dificuldades 
+respiratórias devido a uma doença pulmonar chamada doença pulmonar obstrutiva crónica (DPOC). 
+Na DPOC, os músculos envolventes das vias aéreas contraem. Isto dificulta a respiração. Este 
+medicamento bloqueia a contração destes músculos nos pulmões, facilitando a entrada e saída de ar 
+dos pulmões. </p>
+<p>Se utilizar este medicamento uma vez por dia, este irá ajudar a reduzir os efeitos da DPOC no seu dia a 
+dia. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ultibro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ultibro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Ultibro Breezhaler 
+- se tem alergia ao indacaterol ou glicopirrónio ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Ultibro Breezhaler, se alguma 
+das seguintes situações se aplicar a si: 
+- se tem asma - este medicamento não deve ser utilizado para o tratamento da asma. 
+- se tem problemas de coração. 
+- se tem convulsões ou ataques. 
+- se tem problemas da glândula tiroide (tirotoxicose). 
+- se tem diabetes. 
+- se está a usar qualquer outro medicamento para a sua doença pulmonar que contenha 
+substâncias ativas semelhantes (mesma classe) às que se encontram em Ultibro Breezhaler (ver 
+secção “Outros medicamentos e Ultibro Breezhaler"). 
+- se tem problemas nos rins. 
+- se tem problemas graves no fígado. 
+- se tem um problema dos olhos chamado glaucoma de ângulo estreito. 
+- se tem dificuldades em urinar. 
+Se alguma destas situações acima se aplicar a si (ou se não tiver a certeza), fale com o seu médico, 
+farmacêutico ou enfermeiro antes de utilizar este medicamento. </p>
+<p>Durante o tratamento com Ultibro Breezhaler 
+- Pare de utilizar este medicamento e procure ajuda médica imediatamente se sentir algum 
+dos seguintes sintomas: 
+- se sentir dor ou desconforto nos olhos, visão temporariamente turva, halos visuais 
+(auréolas luminosas no campo de visão) ou imagens coloridas em associação com olhos 
+vermelhos. Estes podem ser sinais de uma crise aguda de glaucoma de ângulo estreito. 
+- dificuldade em respirar ou engolir, inchaço da língua, lábios ou face, erupção na pele, 
+prurido e urticária (sinais de reação alérgica). 
+- aperto no peito, tosse, pieira ou falta de ar imediatamente após utilizar este medicamento 
+- estes podem ser sinais de um problema chamado broncospasmo paradoxal. 
+- Informe o seu médico imediatamente se os seus sintomas de DPOC como dificuldade em 
+respirar, sibilos ou tosse não melhorarem ou se se agravarem. </p>
+<p>Ultibro Breezhaler é usado como tratamento continuado para a sua DPOC. Não utilize este 
+medicamento para tratar um ataque súbito de falta de ar ou pieira. </p>
+<p>Crianças e adolescentes 
+Este medicamento não deve ser dado a crianças ou adolescentes com menos de 18 anos de idade. Isso 
+ocorre porque não foi estudado nesta faixa etária. </p>
+<p>Outros medicamentos e Ultibro Breezhaler 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. 
+Em particular, por favor informe o seu médico se está a tomar: 
+-<br />
+quaisquer medicamentos que possam ser semelhantes a Ultibro Breezhaler (que contenham 
+substâncias ativas semelhantes). 
+- medicamentos chamados beta-bloqueantes que podem ser usados para a tensão arterial elevada 
+ou outros problemas de coração (como o propranolol), ou para um problema nos olhos chamado 
+glaucoma (como o timolol). 
+- medicamentos que diminuem a quantidade de potássio no sangue. Estes incluem: 
+- corticosteroides (como a prednisolona), 
+- diuréticos usados para a tensão arterial elevada (como a hidroclorotiazida), 
+- medicamentos para problemas respiratórios (como a teofilina). </p>
+<p>Gravidez e amamentação 
+Não existem dados sobre a utilização deste medicamento em mulheres grávidas e não se sabe se a 
+substância ativa deste medicamento passa para o leite materno humano. Indacaterol, uma das 
+substâncias ativas de Ultibro Breezhaler, pode impedir o trabalho de parto devido ao seu efeito sobre o 
+útero. </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. Não deve utilizar Ultibro Breezhaler a não ser que 
+o seu médico lhe diga para tal. </p>
+<p>Condução de veículos e utilização de máquinas 
+É improvável que este medicamento vá afetar a sua capacidade de conduzir e utilizar máquinas. No 
+entanto, este medicamento pode causar tonturas (ver secção 4). Se se sentir tonto enquanto toma este 
+medicamento não deve conduzir ou utilizar máquinas. </p>
+<p>Ultibro Breezhaler contém lactose 
+Este medicamento contém lactose (23,5 mg por cápsula). Se foi informado pelo seu médico que tem 
+intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ultibro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ultibro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Que quantidade de Ultibro Breezhaler utilizar 
+A dose habitual é a inalação do conteúdo de uma cápsula por dia. 
+Precisará apenas de inalar o medicamento uma vez por dia porque o efeito deste medicamento dura 
+24 horas. Não utilize uma quantidade superior à que o seu médico lhe recomendar. </p>
+<p>Idosos (75 anos de idade ou mais) 
+Pode utilizar este medicamento se tiver 75 anos de idade ou mais, na mesma dose que para os outros 
+adultos. </p>
+<p>Quando utilizar Ultibro Breezhaler 
+Utilize este medicamento à mesma hora em cada dia. Isto irá ajudá-lo a lembrar-se de tomar o 
+medicamento. 
+Pode inalar Ultibro Breezhaler em qualquer altura, antes ou após alimentos ou bebidas. </p>
+<p>Como inalar Ultibro Breezhaler 
+- Ultibro Breezhaler é para utilização por inalação. 
+- Nesta embalagem encontrará um inalador e cápsulas (em blisters) que contêm o medicamento 
+na forma de pó para inalação. Utilize apenas as cápsulas com o inalador fornecido na 
+embalagem (inalador Ultibro Breezhaler). As cápsulas devem manter-se no blister até que 
+necessite de as utilizar. 
+- Destaque a parte de trás do blister para o abrir - não pressione a cápsula através da película de 
+alumínio. 
+- Quando iniciar uma nova embalagem, utilize o novo inalador Ultibro Breezhaler fornecido na 
+embalagem. 
+- Elimine o inalador de cada embalagem após todas as cápsulas daquela embalagem terem sido 
+utilizadas. 
+- Não engula as cápsulas. 
+- Por favor leia as instruções no final deste folheto para mais informações sobre como utilizar o 
+inalador. </p>
+<p>Se utilizar mais Ultibro Breezhaler do que deveria 
+Se tiver inalado demasiado deste medicamento ou se outra pessoa utilizar acidentalmente as suas 
+cápsulas, informe o seu médico imediatamente ou dirija-se à urgência hospitalar mais próxima. Mostre 
+a embalagem de Ultibro Breezhaler. Podem ser necessários cuidados médicos. Pode notar que o seu 
+coração bate mais rapidamente do que o habitual, ou pode ter dor de cabeça, sentir-se sonolento, sentir 
+náuseas ou ter que vomitar, ou pode notar distúrbios visuais, sentir-se obstipado ou com dificuldade 
+em urinar. </p>
+<p>Caso se tenha esquecido de utilizar Ultibro Breezhaler 
+Se se esquecer de inalar uma dose à hora habitual, inale uma logo que possível nesse dia. Depois, inale 
+a próxima dose como habitualmente no dia seguinte. Não inale duas doses no mesmo dia. </p>
+<p>Durante quanto tempo deve continuar o seu tratamento com Ultibro Breezhaler 
+- Continue a utilizar Ultibro Breezhaler durante o tempo que o seu médico lhe disser. 
+- A DPOC é uma doença de longa duração e deve utilizar Ultibro Breezhaler diariamente e não 
+apenas quando tem problemas respiratórios ou outros sintomas de DPOC. 
+Se tiver questões sobre durante quanto tempo continuar o seu tratamento com este medicamento, fale 
+com o seu médico ou farmacêutico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis podem ser graves: </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+ 
+dificuldade em respirar ou engolir, inchaço da língua, lábios ou face, urticária, erupção na pele - 
+estes podem ser sinais de uma reação alérgica. 
+ 
+sentir cansaço ou muita sede, ter aumento de apetite sem ganho de peso e urinar mais do que o 
+habitual - estes podem ser sinais de níveis elevados de açúcar no sangue (hiperglicemia). </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) 
+ 
+dor forte no peito com aumento da transpiração - pode ser um problema cardíaco grave (doença 
+cardíaca isquémica). 
+ 
+inchaço, principalmente da língua, lábios, face ou garganta (possíveis sinais de angioedema). 
+ 
+dificuldade em respirar com pieira ou tosse. 
+ 
+dor ou desconforto nos olhos, visão temporariamente turva, halos visuais ou imagens coloridas 
+associadas a olhos vermelhos - estes podem ser sinais de glaucoma. 
+ 
+batimento cardíaco irregular. </p>
+<p>Se tiver algum destes efeitos indesejáveis graves, procure ajuda médica imediatamente. </p>
+<p>Outros efeitos indesejáveis podem incluir: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+ 
+nariz entupido, espirros, tosse, dor de cabeça com ou sem febre - estes podem ser sinais de uma 
+infeção no trato respiratório superior. </p>
+<p>Frequentes 
+ 
+associação de dor de garganta e corrimento nasal - estes podem ser sinais de nasofaringite. 
+ 
+micção frequente e dolorosa - estes podem ser sinais de uma infeção no trato urinário chamada 
+cistite. 
+ 
+sensação de pressão ou dor na face e testa - estes podem ser sinais de inflamação dos seios 
+nasais designada de sinusite. 
+ 
+nariz entupido. 
+ 
+tonturas. 
+ 
+dor de cabeça. 
+ 
+tosse. 
+ 
+dor de garganta. 
+ 
+mal-estar do estômago, indigestão. 
+ 
+cáries dentárias. 
+ 
+dificuldade e dor ao urinar - estes podem ser sinais de uma obstrução na bexiga ou retenção 
+urinária. 
+ 
+febre. 
+ 
+dor no peito. </p>
+<p>Pouco frequentes 
+ 
+dificuldade em dormir. 
+ 
+batimento cardíaco rápido. 
+ 
+palpitações - sinais de batimento cardíaco anormal. 
+ 
+alterações da voz (rouquidão). 
+ 
+hemorragia nasal. 
+ 
+diarreia ou dor de estômago. 
+ 
+boca seca. 
+ 
+comichão ou erupção na pele. 
+ 
+dor que afeta os músculos, ligamentos, tendões, articulações e ossos. 
+ 
+espasmo muscular. 
+ 
+dor muscular, dores ou sensibilidade. 
+ 
+dor nos braços ou pernas. 
+ 
+inchaço das mãos, tornozelos e pés. 
+ 
+cansaço. </p>
+<p>Raros (podem afetar até 1 em 1000 pessoas) 
+ 
+sensação de formigueiro ou adormecimento. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ultibro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ultibro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 25°C. </p>
+<p>Conservar as cápsulas no blister de origem para proteger da humidade e não retirar até imediatamente 
+antes da utilização. </p>
+<p>O inalador de cada embalagem deve ser eliminado após todas as cápsulas daquela embalagem terem 
+sido utilizadas. </p>
+<p>Não utilize este medicamento se verificar que a embalagem está danificada ou mostra sinais de ter sido 
+manipulada. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ultibro Breezhaler 
+- As substâncias ativas são indacaterol (sob a forma de maleato) e brometo de glicopirrónio. Cada 
+cápsula contém 143 microgramas de maleato de indacaterol equivalente a 110 microgramas de 
+indacaterol e 63 microgramas de brometo de glicopirrónio equivalente a 50 microgramas de 
+glicopirrónio. A dose libertada (a dose que sai do aplicador bucal do inalador) é equivalente a 
+85 microgramas de indacaterol (equivalente a 110 microgramas de maleato de indacaterol) e 
+43 microgramas de glicopirrónio (equivalente a 54 microgramas de brometo de glicopirrónio). 
+- Os outros componentes do pó para inalação são lactose mono-hidratada e estearato de magnésio 
+(ver secção 2 sob “Ultibro Breezhaler contém lactose). </p>
+<p>Qual o aspeto de Ultibro Breezhaler e conteúdo da embalagem 
+Ultibro Breezhaler 85 microgramas/43 microgramas pó para inalação, as cápsulas são transparentes e 
+amarelas e contêm um pó branco a quase branco. Elas têm o código do produto "IGP110.50" impresso 
+a azul sob duas barras azuis no corpo e o logótipo da empresa (
+) impresso em preto na tampa. </p>
+<p>Nesta embalagem encontrará um dispositivo denominado inalador, juntamente com cápsulas em 
+blisters. Cada blister contém 6 ou 10 cápsulas. </p>
+<p>Estão disponíveis as seguintes embalagens: 
+Embalagem única contendo 6x1, 10x1, 12x1, 30x1 ou 90x1 cápsulas e 1 inalador. </p>
+<p>Embalagens múltiplas contendo 96 cápsulas (4 embalagens de 24x1) e 4 inaladores. 
+Embalagens múltiplas contendo 150 cápsulas (15 embalagens de 10x1) e 15 inaladores. 
+Embalagens múltiplas contendo 150 cápsulas (25 embalagens de 6x1) e 25 inaladores. </p>
+<p>É possível que não sejam comercializadas todas as apresentações no seu país. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Pharma GmbH 
+Roonstraße D-90429 Nuremberga 
+Alemanha </p>
+<p>Novartis Farmacéutica SA 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1098,6 +1559,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c534ceb0c415b656be1c262cf1f8af94"
 * entry[0].resource = composition-da-c534ceb0c415b656be1c262cf1f8af94
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc534ceb0c415b656be1c262cf1f8af94"
+* entry[=].resource = mpc534ceb0c415b656be1c262cf1f8af94
+                            
+                    
+Instance: bundlepackageleaflet-pt-c534ceb0c415b656be1c262cf1f8af94
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ultibro Package Leaflet for language pt"
+Description: "ePI document Bundle for ultibro Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c534ceb0c415b656be1c262cf1f8af94"
+* entry[0].resource = composition-pt-c534ceb0c415b656be1c262cf1f8af94
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc534ceb0c415b656be1c262cf1f8af94"
@@ -1199,6 +1682,18 @@ RuleSet: c534ceb0c415b656be1c262cf1f8af94ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c534ceb0c415b656be1c262cf1f8af94) // ultibro pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

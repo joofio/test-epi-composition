@@ -922,6 +922,415 @@ leuprorelin (depotformuleringerne), forbliver uændret under forudsætning af, a
 
 
 
+Instance: composition-pt-d96fa44827f5ab161c32cbffe0ee34b9
+InstanceOf: CompositionUvEpi
+Title: "Composition for camcevi Package Leaflet"
+Description:  "Composition for camcevi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd96fa44827f5ab161c32cbffe0ee34b9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - camcevi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é CAMCEVI e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado CAMCEVI </li>
+<li>Como lhe será administrado CAMCEVI </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar CAMCEVI </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é camcevi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é camcevi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A substância ativa de CAMCEVI é a leuprorrelina que é um agonista da GnRH (uma versão sintética 
+de uma hormona natural chamada hormona libertadora de gonadotrofinas) e atua da mesma maneira 
+que a hormona natural para diminuir o nível da hormona sexual testosterona no organismo. </p>
+<p>O cancro da próstata é sensível a hormonas como a testosterona, e a redução dos níveis de testosterona 
+ajuda a controlar o crescimento do cancro. </p>
+<p>CAMCEVI é utilizado para tratar homens adultos que têm: 
+- cancro da próstata metastático hormono-dependente e 
+- cancro da próstata não metastático hormono-dependente de alto risco em associação com 
+radioterapia. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar camcevi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar camcevi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NÃO utilize CAMCEVI 
+- se é uma mulher ou uma criança com menos de 18 anos; 
+- se tem alergia à leuprorrelina ou a medicamentos semelhantes que afetam as suas 
+hormonas sexuais (agonistas da GnRH); o seu médico ajudá-lo-á a identificá-los se 
+necessário; <br />
+- se tem alergia a qualquer outro componente deste medicamento (indicados na secção 6); 
+- após remoção cirúrgica dos seus testículos. Este medicamento deixa de poder ajudar a 
+diminuir os seus níveis de testosterona quando não tem testículos; 
+- como único tratamento se tiver sintomas relacionados com pressão na medula espinal ou 
+um tumor na coluna vertebral. Neste caso, CAMCEVI só pode ser utilizado em associação 
+com outros medicamentos para o cancro da próstata. </p>
+<p>Advertências e precauções </p>
+<p>Consulte com urgência um médico se desenvolver: 
+- dores de cabeça súbitas; 
+- vómitos; 
+- perda de visão ou visão dupla; 
+- perda da capacidade para mover os músculos dos olhos ou os músculos que os rodeiam; 
+- estado mental alterado; 
+- sintomas precoces de insuficiência cardíaca incluindo: 
+o 
+fadiga 
+o 
+inchaço dos tornozelos;<br />
+o 
+aumento da necessidade de urinar à noite; 
+o 
+sintomas mais graves como respiração rápida, dor no peito e desmaio. 
+Estes podem ser os sinais de uma afeção chamada apoplexia da hipófise, que envolve hemorragia ou 
+diminuição da irrigação sanguínea da hipófise, uma glândula que se encontra na base do cérebro. A 
+apoplexia da hipófise pode ocorrer devido a um tumor na hipófise e pode surgir raramente após o 
+início do tratamento. A maioria dos casos ocorre nas primeiras 2 semanas após a primeira dose e 
+alguns na primeira hora. </p>
+<p>Foram notificados efeitos indesejáveis cutâneos graves, incluindo síndrome de Stevens-Johnson, 
+Necrólise epidérmica tóxica (SJS/NET), em associação com a leuprorrelina. Pare de utilizar 
+leuprorrelina e consulte imediatamente um médico se tiver qualquer um dos sintomas relacionados 
+com estes efeitos indesejáveis cutâneos graves descritos na secção 4.<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar CAMCEVI 
+- se desenvolver sinais e sintomas cardiovasculares tais como batimentos rápidos e 
+irregularesdo coração. Estes batimentos cardíacos rápidos podem causar desmaio ou 
+ataques (convulsões); 
+- se tem doenças do coração ou dos vasos sanguíneos, incluindo problemas do ritmo 
+cardíaco (arritmias) ou estiver a tomar medicamentos para estas doenças. O risco destes 
+problemas do ritmo cardíaco pode piorar quando utiliza CAMCEVI. O seu médico pode 
+monitorizar o seu coração utilizando um eletrocardiograma (ECG); 
+- se tem um cancro da próstata que se dissemina para a sua coluna ou cérebro. O seu 
+médico efetuará controlos regulares durante as primeiras semanas de tratamento; 
+- se tem diabetes mellitus (níveis elevados do açúcar no sangue). CAMCEVI pode agravar 
+uma diabetes existente e, portanto, as pessoas com diabetes necessitam de testes mais 
+frequentes da glucose no sangue; 
+- se tem a doença do fígado gordo (uma afeção na qual se acumula um excesso de gordura 
+no fígado). </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro durante o tratamento com CAMCEVI 
+- se tiver um ataque cardíaco. Os sintomas incluem dor no peito, falta de ar, tonturas e 
+transpiração; 
+- se tiver uma trombose. Os sintomas incluem queda de um dos lados da face, não ser capaz de 
+levantar os braços e fala mal articulada; 
+- se desenvolver uma fratura óssea. O tratamento com CAMCEVI pode aumentar o risco de 
+fraturas devido a osteoporose (diminuição da densidade dos ossos); 
+- se tiver um ataque epilético (convulsões); 
+- se detetar um aumento dos níveis de açúcar no sangue. O seu médico efetuará controlos dos 
+níveis da glucose no seu sangue durante o tratamento; 
+- se tiver dificuldade em urinar. Esta pode ser devida a um bloqueio do seu tubo urinário. Durante 
+as primeiras semanas de tratamento, o seu médico efetuará controlos regulares; 
+- se desenvolver sintomas de compressão da medula espinal como dor, dormência ou fraqueza 
+dos braços, mãos, pernas ou pés. Durante as primeiras semanas de tratamento, o seu médico 
+efetuará controlos regulares. </p>
+<p>Problemas que poderá ter durante as primeiras semanas de tratamento 
+Durante as primeiras semanas de tratamento, verifica-se geralmente um aumento de curta duração 
+da testosterona, a hormona sexual masculina, no sangue. Isto pode causar um agravamento 
+temporário dos sintomas relacionados com a doença e causar também novos sintomas que poderá 
+não ter tido antes. Estes incluem especialmente: 
+- dor nos ossos; 
+- problemas a urinar, dor, dormência ou fraqueza dos braços, mãos, pernas ou pés ou perda do 
+controlo da bexiga ou dos intestinos em consequência da compressão da medula espinal; 
+- sangue na urina. 
+Estes sintomas diminuem normalmente com a continuação do tratamento. Caso contrário, deve 
+contactar o seu médico. </p>
+<p>Pode ser-lhe administrado outro medicamento antes de iniciar CAMCEVI para ajudar a diminuir o 
+aumento inicial de testosterona no seu sangue. Pode continuar a tomar este outro medicamento durante 
+as primeiras semanas de tratamento com CAMCEVI. </p>
+<p>Se CAMCEVI não ajudar 
+Alguns doentes têm tumores que não são sensíveis a níveis mais baixos de testosterona. Se pensa que 
+o efeito de CAMCEVI é demasiado fraco, fale com o seu médico. </p>
+<p>Outros medicamentos e CAMCEVI 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. </p>
+<p>CAMCEVI pode interferir com alguns medicamentos utilizados para tratar problemas do ritmo do 
+coração (p. ex., quinidina, procainamida, amiodarona, sotalol, dofetilida e ibutilida) ou pode aumentar 
+o risco de problemas do ritmo do coração quando utilizado com alguns medicamentos como a 
+metadona (utilizada para alívio da dor e como substituto da heroína no tratamento de 
+toxicodependentes), moxifloxacina (um antibiótico) e antipsicóticos utilizados para tratar doenças 
+mentais graves. </p>
+<p>Gravidez e amamentação 
+Este medicamento não é indicado para mulheres. </p>
+<p>Condução de veículos e utilização de máquinas 
+Podem ocorrer cansaço, tonturas e perturbações da visão em pessoas que estão a ser tratadas com 
+CAMCEVI. Se tiver qualquer um destes efeitos indesejáveis, não conduza ou utilize ferramentas ou 
+máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar camcevi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar camcevi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ser-lhe-á administrado CAMCEVI na forma de uma injeção única sob a pele (subcutânea) uma vez  a 
+cada 6 meses, pelo seu médico ou enfermeiro. </p>
+<p>Este medicamento só deve ser administrado pelo seu médico ou um enfermeiro, que asseguram que é 
+injetado corretamente sob a pele e não numa veia. </p>
+<p>Após a injeção, o medicamento solidifica e, em seguida, liberta lentamente a leuprorrelina no seu 
+organismo durante um período de 6 meses. </p>
+<p>Em associação com radioterapia 
+Este medicamento pode ser administrado antes ou ao mesmo tempo que o tratamento por radioterapia 
+no cancro da próstata localmente avançado e localizado de alto risco. Localizado de alto risco significa 
+que, provavelmente, o cancro se disseminará para além da próstata para os tecidos vizinhos, passando 
+a ser localmente avançado. Localmente avançado significa que o cancro se disseminou para além da 
+região pélvica para os tecidos vizinhos, como os gânglios linfáticos. </p>
+<p>Monitorização do seu tratamento 
+O seu médico irá controlar a sua resposta ao tratamento com análises ao sangue, incluindo o antigénio 
+específico da próstata (PSA). </p>
+<p>Se lhe for administrado mais CAMCEVI do que deveria 
+Como a injeção é administrada pelo seu médico ou por pessoal devidamente formado, a sobredosagem 
+é improvável. Se receber acidentalmente demasiado medicamento, o seu médico efetuará a sua 
+monitorização e administrará tratamento adicional, se necessário. </p>
+<p>Caso seja esquecida uma dose de CAMCEVI 
+Fale com o seu médico se acha que a sua dose de CAMCEVI ao fim de seis meses foi esquecida. </p>
+<p>Efeitos quando se para o tratamento com CAMCEVI 
+Como regra geral, a terapêutica para o cancro da próstata com CAMCEVI requer um tratamento 
+prolongado. Por conseguinte, a terapêutica não deve ser parada demasiado cedo, ainda que note que os 
+seus sintomas melhoraram ou se desaparecerem completamente. Se o tratamento for parado demasiado 
+cedo, os seus sintomas podem voltar. Não pare o tratamento mais cedo sem falar primeiro com o seu 
+médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Consulte com urgência um médico se desenvolver: 
+- dores de cabeça súbitas; 
+- vómitos; 
+- perda de visão ou visão dupla; 
+- perda da capacidade para mover os músculos dos olhos ou os músculos que os rodeiam; 
+- estado mental alterado; 
+- sintomas precoces de insuficiência cardíaca incluindo: 
+o 
+fadiga 
+o 
+inchaço dos tornozelos;<br />
+o 
+aumento da necessidade de urinar à noite; 
+o 
+sintomas mais graves como respiração rápida, dor no peito e desmaio. 
+Estes podem ser os sinais de uma afeção chamada apoplexia da hipófise, que envolve hemorragia ou 
+diminuição da irrigação de sangue da hipófise, uma glândula que se encontra na base do cérebro. A 
+apoplexia da hipófise pode ocorrer devido a um tumor na hipófise e pode surgir raramente após o 
+início do tratamento. A maioria dos casos ocorre nas primeiras 2 semanas após a primeira dose e 
+alguns na primeira hora. </p>
+<p>Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis): 
+- Manchas avermelhadas não elevadas, semelhantes a um alvo ou circulares no tronco, muitas 
+vezes com bolhas centrais, descamação da pele, úlceras da boca, garganta, nariz, genitais e 
+olhos. Estas erupções graves da pele podem ser precedidas por febre e sintomas semelhantes à 
+gripe (síndrome de Stevens-Johnson/Necrólise epidérmica tóxica). 
+- Vermelhidão e erupção da pele com comichão (Erupção tóxica da pele) <br />
+- Uma reação da pele que causa manchas ou pontos vermelhos na pele, que podem assemelhar-se 
+a um alvo com um centro vermelho escuro circundado por aneis de um vermelho mais pálido 
+(Eritema multiforme). </p>
+<p>Efeitos indesejáveis iniciais 
+Durante a primeira semana de tratamento, verifica-se geralmente um aumento de curta duração da 
+testosterona, a hormona sexual masculina, no sangue. Isto pode causar um agravamento 
+temporário dos sintomas relacionados com a doença e causar também novos sintomas que poderá 
+não ter tido antes. Estes incluem especialmente: 
+- dor nos ossos; 
+- problemas a urinar, dor, dormência ou fraqueza dos braços, mãos, pernas ou pés ou perda do 
+controlo da bexiga ou dos intestinos, que podem ser sintomas de compressão da medula espinal; 
+- sangue na urina. 
+O seu médico pode administrar-lhe outro medicamento antes do início do tratamento para diminuir 
+alguns destes efeitos indesejáveis iniciais (ver também secção 2 Problemas que poderá ter durante as 
+primeiras semanas de tratamento). </p>
+<p>Efeitos indesejáveis no local de injeção 
+Após a sua injeção pode ter os seguintes efeitos indesejáveis no local de injeção: 
+- ardor ligeiro e dormência imediatamente após a injeção (muito frequente: pode afetar mais do 
+que 1 em cada 10 pessoas); 
+- dor, formação de uma nódoa negra e sensação de picadas após a injeção (frequente: pode afetar 
+até 1 em cada 10 pessoas); 
+- comichão e endurecimento da pele em redor do local de injeção (pouco frequente: pode afetar 
+até 1 em cada 100 pessoas); 
+- lesão ou ferida na pele no local de injeção (raro: pode afetar até 1 em cada 1.000 pessoas); 
+- tecido morto no local de injeção (muito raro, pode afetar até 1 em cada 10.000 pessoas). 
+Estes efeitos indesejáveis são ligeiros e não duram muito tempo. Só ocorrem na altura da injeção. Se 
+tiver qualquer um destes efeitos indesejáveis, fale com o seu médico. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais do que 1 em cada 10 pessoas) 
+- afrontamentos; 
+- formação de nódoas negras e/ou vermelhidão da pele; 
+- cansaço. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas) 
+- sintomas de constipação (nasofaringite); 
+- sensação de enjoo (náuseas), diarreia, inflamação do estômago e intestino 
+(gastroenterite/colite); 
+- comichão;<br />
+- suores noturnos; 
+- dor nas articulações, dor nos braços e pernas, sensação dolorosa e dor nos músculos; 
+- necessidade de urinar mais do que o normal, incluindo durante a noite, dificuldade em 
+urinar, dor ao urinar, não urinar o suficiente ou necessidade de urinar menos 
+frequentemente; 
+- sensação dolorosa e/ou inchaço dos seios, diminuição do tamanho dos testículos, dor nos 
+testículos, infertilidade, disfunção erétil, diminuição do tamanho do pénis; 
+- episódios de tremores exagerados com febres elevadas (rigidez), fraqueza, sensação geral 
+de mal-estar (mal-estar); 
+- alterações dos resultados laboratoriais do sangue (tempo de hemorragia prolongado, 
+alterações hematológicas, diminuição dos glóbulos vermelhos/baixa contagem de glóbulos 
+vermelhos). </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas) 
+- infeção das vias urinárias, infeção local da pele; 
+- agravamento da diabetes mellitus; 
+- sonhos anormais, depressão, diminuição da libido (desejo sexual); 
+- tonturas, dores de cabeça, perda parcial ou total da sensibilidade numa parte do corpo, 
+insónia, alteração anormal do paladar e/ou cheiro; 
+- tonturas e perda de equilíbrio (vertigens); 
+- alterações no eletrocardiograma (ECG) (prolongamento do intervalo QT) ataque de 
+coração. Os sintomas incluem dor no peito, falta de ar, tonturas e transpiração; 
+- tensão arterial alta ou baixa; 
+- corrimento nasal, falta de ar; 
+- prisão de ventre, boca seca, perturbações na digestão, com sintomas de estômago cheio, 
+dor no estômago, arrotos, náusea, vómitos, sensação de ardor no estômago (dispepsia), 
+vómitos; 
+- sensação de estar húmido e a transpirar; 
+- dor nas costas, cãibras musculares; 
+- espasmos da bexiga, sangue na urina, bexiga com atividade excessiva (necessidade de 
+urinar antes da sua bexiga estar cheia), incapacidade de urinar; 
+- aumento do tamanho dos seios, impotência, problemas nos testículos (por exemplo, 
+escroto inchado, vermelho ou quente, dor ou desconforto na região pélvica); 
+- sonolência (letargia), dor, febre; 
+- alterações das análises laboratoriais do sangue, aumento de peso; </p>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em cada 1.000 pessoas) 
+- o corpo move-se de maneira descontrolada e involuntária; 
+- desmaio, colapso; 
+- gases nos intestinos e arrotos; 
+- queda de cabelo e pelos, borbulhas na pele; 
+- dor nos seios; </p>
+<h2>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis)</h2>
+<p>inflamação dos pulmões (doença pulmonar intersticial) 
+- hipertensão intracraniana idiopática (aumento da pressão intracraniana à volta do cérebro 
+caracterizada por dor de cabeça, visão dupla e outros sintomas visuais e tinido ou zunido em um ou em 
+ambos os ouvidos). </p>
+<p>As seguintes reações alérgicas graves foram comunicadas com medicamentos do mesmo grupo 
+que CAMCEVI 
+- dificuldade em respirar ou tonturas (raramente). </p>
+<p>Os seguintes efeitos indesejáveis foram comunicados com outros medicamentos contendo 
+leuprorrelina 
+- inchaço das mãos e pés (edema); 
+- sintomas de embolia pulmonar (coágulo de sangue nos vasos que irrigam os pulmões), incluindo 
+dor no peito, falta de ar, dificuldade em respirar e tossir sangue; 
+- batimentos percetíveis rápidos, fortes ou irregulares do coração 
+- fraqueza muscular; 
+- arrepios; 
+- erupção na pele; 
+- memória alterada; 
+- perda de massa muscular/perda de tecido muscular após uso prolongado. 
+- visão alterada; 
+- doença na qual os ossos ficam quebradiços e frágeis chamada osteoporose existindo, portanto, 
+um risco mais elevado de fraturas ósseas. </p>
+<p>O seguinte efeito indesejável foi comunicado com medicamentos do mesmo grupo que 
+CAMCEVI 
+- convulsões. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar camcevi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar camcevi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após EXP. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C).<br />
+Conservar na embalagem de origem para proteger da luz. 
+Antes de utilizar, deixar CAMCEVI atingir a temperatura ambiente (15 °C a 25 °C). Isto demora 
+aproximadamente 15 a 20 minutos. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de CAMCEVI 
+- A substância ativa é a leuprorrelina. Uma seringa pré-cheia com suspensão injetável de 
+libertação prolongada contém mesilato de leuprorrelina equivalente a 42 mg de leuprorrelina. 
+- Os outros componentes são o poli-(D,L-láctico) e a N-metilpirrolidona. </p>
+<p>Qual o aspeto de CAMCEVI e conteúdo da embalagem 
+CAMCEVI é uma suspensão injetável de libertação prolongada. A seringa pré-cheia tem uma 
+suspensão opalescente e viscosa, esbranquiçada a amarelo pálido. </p>
+<p>CAMCEVI está disponível numa embalagem contendo: 1 seringa pré-cheia, 1 agulha e 1 dispositivo 
+de proteção da agulha Point-Lok. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Accord Healthcare S.L.U.<br />
+World Trade Center,<br />
+Moll de Barcelona, s/n,<br />
+Edifici Est 6ª planta,<br />
+08039, Barcelona,<br />
+Espanha </p>
+<p>Fabricante 
+Accord Healthcare Polska Sp. z.o.o. 
+Ul. Lutomierska 95-200, Pabianice 
+Polónia </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -963,6 +1372,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d96fa44827f5ab161c32cbffe0ee34b9"
 * entry[0].resource = composition-da-d96fa44827f5ab161c32cbffe0ee34b9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd96fa44827f5ab161c32cbffe0ee34b9"
+* entry[=].resource = mpd96fa44827f5ab161c32cbffe0ee34b9
+                            
+                    
+Instance: bundlepackageleaflet-pt-d96fa44827f5ab161c32cbffe0ee34b9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for camcevi Package Leaflet for language pt"
+Description: "ePI document Bundle for camcevi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d96fa44827f5ab161c32cbffe0ee34b9"
+* entry[0].resource = composition-pt-d96fa44827f5ab161c32cbffe0ee34b9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd96fa44827f5ab161c32cbffe0ee34b9"
@@ -1064,6 +1495,18 @@ RuleSet: d96fa44827f5ab161c32cbffe0ee34b9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d96fa44827f5ab161c32cbffe0ee34b9) // camcevi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

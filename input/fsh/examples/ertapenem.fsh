@@ -770,6 +770,411 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </d
 
 
 
+Instance: composition-pt-34b5097700b5b214baa08b9eb1554dbe
+InstanceOf: CompositionUvEpi
+Title: "Composition for ertapenem Package Leaflet"
+Description:  "Composition for ertapenem Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp34b5097700b5b214baa08b9eb1554dbe)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ertapenem"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Ertapenem SUN e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Ertapenem SUN </li>
+<li>Como utilizar Ertapenem SUN </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Ertapenem SUN </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ertapenem e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ertapenem e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ertapenem SUN contém ertapenem, que é um antibiótico do grupo dos beta-lactâmicos. Tem a 
+capacidade de matar uma vasta gama de bactérias (germes) que causam infeções em vários locais do 
+organismo. </p>
+<p>Ertapenem SUN pode ser administrado a pessoas com idade igual ou superior a 3 meses. </p>
+<p>Tratamento: 
+O seu médico receitou-lhe Ertapenem SUN porque você ou o seu filho tem um (ou mais) dos seguintes 
+tipos de infeção: 
+ 
+Infeção no abdómen 
+ 
+Infeção nos pulmões (pneumonia) 
+ 
+Infeções ginecológicas 
+ 
+Infeções da pele do pé em doentes diabéticos. </p>
+<p>Prevenção: 
+ 
+Prevenção de infeções em adultos no local de intervenção cirúrgica após cirurgia do intestino 
+grosso ou do reto. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ertapenem"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ertapenem"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Ertapenem SUN 
+- se tem alergia à substância ativa (ertapenem) ou a qualquer outro componente deste 
+medicamento (indicados na secção 6) 
+- se for alérgico a antibióticos como as penicilinas, cefalosporinas ou carbapenemes (os quais são 
+usados para tratar infeções várias). </p>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Ertapenem SUN. </p>
+<p>Durante o tratamento, se tiver uma reação alérgica (como inchaço da cara, língua ou garganta, 
+dificuldade em respirar ou engolir, erupção na pele), informe o seu médico imediatamente pois pode 
+necessitar de tratamento médico urgente. </p>
+<p>Embora os antibióticos incluindo Ertapenem SUN matem certas bactérias, outras bactérias e fungos 
+podem continuar a crescer mais do que o normal. A isto chama-se crescimento excessivo. O seu 
+médico irá monitorizá-lo relativamente ao crescimento excessivo e tratá-lo se necessário. </p>
+<p>É importante que informe o seu médico se teve diarreia antes, durante ou após o seu tratamento com 
+Ertapenem SUN, uma vez que pode ter uma condição conhecida como colite (uma inflamação do 
+intestino). Não tome nenhum medicamento para tratar a diarreia sem primeiro consultar o seu médico. </p>
+<p>Informe o seu médico se está a tomar medicamentos chamados ácido valpróico ou valproato de sódio 
+(ver Outros medicamentos e Ertapenem SUN em baixo). </p>
+<p>Informe o seu médico sobre quaisquer problemas de saúde que tem ou tenha tido, incluindo: 
+ 
+Doença de rins. É particularmente importante que o seu médico saiba se tem doença de rins e se 
+faz tratamento por diálise. 
+ 
+Alergias a quaisquer medicamentos, incluindo antibióticos. 
+ 
+Doenças do sistema nervoso central, como tremores localizados ou convulsões. </p>
+<p>Crianças e adolescentes (dos 3 meses aos 17 anos de idade) 
+A experiência com Ertapenem SUN é limitada em crianças com menos de 2 anos de idade. Neste 
+grupo etário, o médico decidirá sobre o possível benefício da sua utilização. Não existe experiência em 
+crianças com menos de 3 meses de idade. </p>
+<p>Outros medicamentos e Ertapenem SUN 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. </p>
+<p>Informe o seu médico, enfermeiro ou farmacêutico se está a tomar medicamentos chamados ácido 
+valpróico ou valproato de sódio (utilizados no tratamento da epilepsia, doença bipolar, dor de cabeça 
+ou esquizofrenia), uma vez que Ertapenem SUN pode afetar a maneira como alguns outros 
+medicamentos funcionam. O seu médico decidirá se deve tomar Ertapenem SUN com estes 
+medicamentos. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento.  </p>
+<p>Ertapenem SUN não foi estudado em mulheres grávidas. Ertapenem SUN não deve ser usado na 
+gravidez, exceto se o seu médico decidir que o potencial benefício justifica o potencial risco para o 
+feto. </p>
+<p>As mulheres a quem esteja a ser administrado Ertapenem SUN não devem amamentar, uma vez que 
+este foi encontrado no leite humano e o bebé lactente poderá ser afetado. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza ou utilize quaisquer ferramentas ou máquinas até saber de que forma reage ao 
+medicamento. 
+Foram comunicados com Ertapenem SUN alguns efeitos indesejáveis, como tonturas e sonolência, que 
+podem afetar a capacidade de alguns doentes para conduzir ou utilizar máquinas. </p>
+<p>Ertapenem SUN contém sódio 
+Este medicamento contém aproximadamente 158 mg sódio (principal componente de sal de cozinha/ 
+sal de mesa) em cada dose de 1 g. Isto é equivalente a 7,9 % da ingestão diária máxima de sódio 
+recomendada na dieta para um adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ertapenem"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ertapenem"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ertapenem SUN será sempre preparado e administrado por via intravenosa (numa veia) por um 
+médico ou outro profissional de saúde. </p>
+<p>A dose recomendada de Ertapenem SUN para adultos e adolescentes com idade igual ou superior a 
+13 anos é de 1 grama (g) administrado uma vez por dia. A dose recomendada para crianças dos 
+3 meses aos 12 anos de idade é de 15 mg/kg administrados duas vezes por dia (não exceder 1 g/dia). O 
+seu médico decidirá quantos dias de tratamento precisa. </p>
+<p>Para a prevenção de infeções no local de intervenção cirúrgica após cirurgia do intestino grosso ou do 
+reto, a dose recomendada de Ertapenem SUN é de 1 g administrado como uma dose intravenosa única 
+1 hora antes da cirurgia. </p>
+<p>É muito importante que continue a receber tratamento com Ertapenem SUN enquanto o seu médico 
+achar necessário. </p>
+<p>Se lhe for administrado mais Ertapenem SUN do que deveria 
+Se achar que pode ter-lhe sido administrada uma quantidade excessiva de Ertapenem SUN, consulte 
+imediatamente o seu médico ou outro profissional de saúde. </p>
+<p>Caso se tenha esquecido de utilizar Ertapenem SUN 
+Se achar que pode ter-se esquecido de receber uma dose, consulte imediatamente o seu médico ou 
+outro profissional de saúde. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Adultos com idade igual ou superior a 18 anos: </p>
+<p>Após a comercialização do medicamento, foram notificadas reações alérgicas graves (anafilaxia), 
+síndromes de hipersensibilidade (reações alérgicas incluindo erupção na pele, febre, resultados 
+anormais de testes sanguíneos). Os primeiros sinais de uma reação alérgica grave podem incluir 
+inchaço da face e/ou garganta. Se ocorrerem estes sintomas informe o seu médico imediatamente pois 
+pode necessitar de tratamento médico urgente. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) são: 
+ 
+Dor de cabeça 
+ 
+Diarreia, náuseas, vómitos 
+ 
+Erupção na pele, comichão 
+ 
+Problemas na veia onde o medicamento é administrado (incluindo inflamação, formação de um 
+alto, inchaço no local de injeção ou líquido disperso no tecido e na pele à volta do local de 
+injeção 
+ 
+Aumento do número de plaquetas 
+ 
+Alterações nos testes da função do fígado </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) são:<br />
+ 
+Tonturas, sonolência, insónia, confusão, crises convulsivas 
+ 
+Pressão arterial baixa, ritmo cardíaco baixo 
+ 
+Falta de ar, garganta irritada 
+ 
+Prisão de ventre, infeção da boca por fungos, diarreia associada ao antibiótico, regurgitação 
+ácida, boca seca, indigestão, perda de apetite 
+ 
+Vermelhidão da pele 
+ 
+Descarga e irritação vaginal 
+ 
+Dor abdominal, fadiga, infeção fúngica, febre, edema/inchaço, dor no peito, alteração do paladar 
+ 
+Alterações de algumas análises laboratoriais ao sangue e à urina </p>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas) são: 
+ 
+Diminuição dos glóbulos brancos, diminuição do número de plaquetas no sangue 
+ 
+Nível baixo de açúcar no sangue 
+ 
+Agitação, ansiedade, depressão, tremores 
+ 
+Ritmo cardíaco irregular, aumento da pressão arterial, hemorragia, ritmo cardíaco acelerado 
+ 
+Congestão nasal, tosse, hemorragia nasal, pneumonia, sons respiratórios anómalos, respiração 
+sibilante (assobiada) 
+ 
+Inflamação da vesícula biliar, dificuldade em engolir, incontinência fecal, icterícia, perturbações 
+do fígado 
+ 
+Inflamação da pele, infeção fúngica da pele, descamação da pele, infeção das feridas 
+pós-operatórias 
+ 
+Cãibras musculares, dor no ombro 
+ 
+Infeção do trato urinário, compromisso renal 
+ 
+Aborto espontâneo, hemorragia genital 
+ 
+Alergia, mal-estar, peritonite pélvica, alteração da zona branca do olho, desmaio 
+ 
+A pele pode ficar dura no local de injeção 
+ 
+Inchaço dos vasos sanguíneos da pele </p>
+<p>Efeitos indesejáveis comunicados com frequência desconhecida (a frequência não pode ser 
+calculada a partir dos dados disponíveis) são: 
+ 
+Alucinações 
+ 
+Diminuição da consciência 
+ 
+Estado mental alterado (incluindo agressividade, delírio, desorientação, mudanças de estado 
+mental) 
+ 
+Movimentos anormais 
+ 
+Fraqueza muscular 
+ 
+Caminhar de forma instável 
+ 
+Dentes manchados </p>
+<p>Houve também comunicações de alterações dos valores de algumas análises laboratoriais ao sangue. </p>
+<p>Se surgirem pontos na pele elevados ou com líquido numa área extensa do seu corpo, informe 
+imediatamente o seu médico ou enfermeiro. </p>
+<p>Crianças e adolescentes (dos 3 meses aos 17 anos de idade): </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) são: 
+ 
+Diarreia 
+ 
+Irritação da pele semelhante a dermatite causada pela fralda 
+ 
+Dor no local de perfusão 
+ 
+Alterações na contagem de glóbulos brancos do sangue 
+ 
+Alterações nos testes da função do fígado </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) são: 
+ 
+Dor de cabeça 
+ 
+Afrontamentos, pressão arterial elevada, pontos planos de cor vermelha ou púrpura, sob a pele 
+ 
+Fezes descoloradas, fezes escuras 
+ 
+Vermelhidão na pele, erupção na pele 
+ 
+Ardor, comichão, vermelhidão e calor no local de perfusão, vermelhidão no local de injeção 
+ 
+Aumento do número de plaquetas 
+ 
+Alterações de algumas análises laboratoriais ao sangue </p>
+<p>Efeitos indesejáveis comunicados com frequência desconhecida (a frequência não pode ser 
+calculada a partir dos dados disponíveis) são: 
+ 
+Alucinações 
+ 
+Estado mental alterado (incluindo agressividade) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.  </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ertapenem"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ertapenem"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis após VAL.<br />
+A data de validade refere-se ao último dia desse mês </p>
+<p>Não conservar acima de 25ºC. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ertapenem SUN 
+A substância ativa do Ertapenem SUN é o ertapenem 1 g. 
+Os outros componentes são: Hidrogenocarbonato de sódio (E500) e hidróxido de sódio (E524). Ver 
+secção 2 “Ertapenem SUN contém sódio". </p>
+<p>Qual o aspeto de Ertapenem SUN e conteúdo da embalagem<br />
+Ertapenem SUN é um pó para concentrado para solução para perfusão, esbranquiçado a amarelo 
+pálido. 
+As soluções de Ertapenem SUN oscilam de soluções incolores a amarelo. As variações dentro desta 
+gama de cores não afetam a potência. </p>
+<p>Ertapenem SUN está disponível em embalagens com 1 frasco para injetáveis ou com 10 frascos para 
+injetáveis. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Sun Pharmaceutical Industries Europe B.V. 
+Polarisavenue 87, 2132JH Hoofddorp, 
+Os Países Baixos </p>
+<p>Fabricante 
+Sun Pharmaceutical Industries Europe B.V. 
+Polarisavenue 87, 2132JH Hoofddorp, 
+Os Países Baixos </p>
+<p>Terapia S.A. 
+Str. Fabricii nr. 124, Cluj-Napoca, 400632,<br />
+Romênia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien/България/Česká republika/ 
+Danmark/Eesti/Ελλάδα/Hrvatska/Ireland/Ísland/ 
+Κύπρος/Latvija/Lietuva/Luxembourg/Luxemburg/Magyarország/ 
+Malta/Nederland/Norge/Österreich/Portugal/ 
+Slovenija/Slovenská republika/Suomi/Finland/Sverige 
+Sun Pharmaceutical Industries Europe B.V. 
+Polarisavenue 2132 JH Hoofddorp 
+Nederland/Pays-Bas/Niederlande/Нидерландия/Nizozemsko/ 
+Nederlandene/Holland/Ολλανδία/Nizozemska/The Netherlands/Holland/ 
+Ολλανδία/Nīderlande/Nyderlandai/Pays-Bas/Niederlande/Hollandia/ 
+L-Olanda/Nederland/Nederland/Niederlande/Países Baixos/ 
+Nizozemska/Holandsko/Alankomaat/Nederländerna/Nederländerna 
+Tel./тел./tlf./τηλ./Sími/τηλ./Tlf./Puh./ 
+ +31 (0)23 568 5 
+Deutschland 
+Sun Pharmaceuticals Germany GmbH 
+Hemmelrather Weg 51377 Leverkusen 
+Deutschland 
+Tel. +49 (0) 214 40399 0 </p>
+<p>España 
+Sun Pharma Laboratorios, S.L.<br />
+Rambla de Catalunya 53-08007 Barcelona 
+España 
+tel. +34 93 342 78<br />
+France 
+Sun Pharma France 
+31 Rue des Poissonniers 
+92200 Neuilly-Sur-Seine 
+France 
+Tel. +33 1 41 44 44<br />
+Italia 
+Sun Pharma Italia Srl 
+Viale Giulio Richard, 3 
+20143 Milano 
+Italia 
+tel. +39 02 33 49 07<br />
+Polska 
+Ranbaxy (Poland) Sp. Z o. o. 
+ul. Idzikowskiego 00-710 Warszawa<br />
+Polska 
+Tel. +48 22 642 07<br />
+România 
+Terapia S.A. 
+Str. Fabricii nr Cluj-Napoca, Judeţul Cluj 
+România 
+Tel. +40 (264) 501<br />
+Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -811,6 +1216,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-34b5097700b5b214baa08b9eb1554dbe"
 * entry[0].resource = composition-da-34b5097700b5b214baa08b9eb1554dbe
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp34b5097700b5b214baa08b9eb1554dbe"
+* entry[=].resource = mp34b5097700b5b214baa08b9eb1554dbe
+                            
+                    
+Instance: bundlepackageleaflet-pt-34b5097700b5b214baa08b9eb1554dbe
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ertapenem Package Leaflet for language pt"
+Description: "ePI document Bundle for ertapenem Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-34b5097700b5b214baa08b9eb1554dbe"
+* entry[0].resource = composition-pt-34b5097700b5b214baa08b9eb1554dbe
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp34b5097700b5b214baa08b9eb1554dbe"
@@ -912,6 +1339,18 @@ RuleSet: 34b5097700b5b214baa08b9eb1554dbeListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-34b5097700b5b214baa08b9eb1554dbe) // ertapenem pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

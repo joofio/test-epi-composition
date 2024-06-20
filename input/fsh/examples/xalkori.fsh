@@ -1068,6 +1068,639 @@ hjemmeside http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-1c9a12a6360cb16de82a801c02ba58e9
+InstanceOf: CompositionUvEpi
+Title: "Composition for xalkori Package Leaflet"
+Description:  "Composition for xalkori Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1c9a12a6360cb16de82a801c02ba58e9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - xalkori"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é XALKORI e para que é utilizado
+2. O que precisa de saber antes de tomar XALKORI
+3. Como tomar XALKORI
+4. Efeitos indesejáveis possíveis
+5. Como conservar XALKORI
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é xalkori e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é xalkori e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>XALKORI é um medicamento anticancerígeno que contém a substância ativa crizotinib usada para 
+tratar adultos com um tipo de cancro do pulmão, chamado cancro do pulmão de não-pequenas células, 
+que apresenta um rearranjo específico ou defeito num gene chamado cinase do linfoma anaplásico 
+(ALK) ou num gene chamado ROS1. XALKORI pode ser-lhe prescrito para tratamento inicial se a sua doença está num estado avançado de 
+cancro do pulmão.
+XALKORI pode ser-lhe prescrito se a sua doença está num estado avançado e o tratamento anterior 
+não ajudou a parar a sua doença.
+XALKORI pode reduzir ou parar o crescimento do cancro do pulmão. Pode ajudar a encolher tumores.
+XALKORI é utilizado para tratar crianças e adolescentes (≥ 6 a &lt; 18 anos de idade) com um tipo de 
+tumor chamado linfoma anaplásico de grandes células (LAGC) ou um tipo de tumor chamado tumor 
+miofibroblástico inflamatório (TMI) que se apresentam com um rearranjo ou defeito específicos num 
+gene chamado cinase do linfoma anaplásico (ALK).
+XALKORI pode ser receitado a crianças e adolescentes para tratar o LAGC, se o tratamento anterior 
+não tiver ajudado a parar a doença.
+XALKORI pode ser receitado a crianças e adolescentes para tratar o TMI, se a cirurgia anterior não 
+tiver ajudado a parar a doença.
+60
+O tratamento com este medicamento apenas pode ser receitado e supervisionado por um médico com 
+experiência no tratamento de cancro. Se tem questões sobre como funciona XALKORI ou porque é 
+que este medicamento lhe foi receitado, fale com o seu médico.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar xalkori"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar xalkori"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome XALKORI
+
+se tem alergia ao crizotinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6, “Qual a composição de XALKORI").
+Advertências e precauções
+Fale com o seu médico antes de tomar XALKORI:
+
+Se tem problemas moderados ou graves no fígado.
+
+Se alguma vez teve quaisquer outros problemas no pulmão. Alguns problemas no pulmão 
+podem piorar durante o tratamento com XALKORI, uma vez que XALKORI pode causar 
+inflamação dos pulmões durante o tratamento. Os sintomas podem ser semelhantes aos do 
+cancro do pulmão. Informe o seu médico imediatamente se tiver quaisquer sintomas novos ou 
+agravamento dos sintomas existentes incluindo dificuldade em respirar, falta de ar ou tosse com 
+ou sem muco ou febre.
+
+Se lhe foi dito que tem uma anomalia do seu coração detetada após um eletrocardiograma 
+(ECG) conhecida como prolongamento do intervalo QT.
+
+Se tem uma frequência cardíaca reduzida.
+
+Se alguma vez teve problemas de estômago ou de intestinos como perfurações, se tem 
+problemas que provoquem inflamação no abdómen (diverticulite), ou se o cancro se propagou 
+no abdómen (metástase).
+
+Se tem distúrbios da visão (visualização de flashes de luz, visão turva e visão dupla).
+
+Se tem uma doença grave dos rins. 
+
+Se está atualmente a ser tratado com algum dos medicamentos listados na secção “Outros 
+medicamentos e XALKORI".
+Se alguma das condições acima indicadas se aplicar a si, informe o seu médico.
+Fale com o seu médico de imediato após ter tomado XALKORI:
+
+Se tiver dores fortes no estômago ou abdómen, febre, arrepios, falta de ar, batimento cardíaco 
+acelerado, perda parcial ou completa da visão (de um ou de ambos os olhos) ou alterações dos 
+hábitos intestinais.
+A maioria da informação disponível é referente a doentes adultos com alguns tipos histológicos 
+específicos de CPNPC ALK-positivo ou ROS1-positivo (adenocarcinoma). A informação relativa a 
+outras histologias é limitada. 
+Crianças e adolescentes
+A indicação para cancro do pulmão de não-pequenas células não abrange crianças e adolescentes. Não 
+administre este medicamento a crianças com menos de 6 anos de idade com LAGC ALK-positivo ou 
+TMI ALK-positivo. Antes de receitar XALKORI, as crianças e os adolescentes devem ser avaliados 
+quanto à sua capacidade de engolir cápsulas intactas. XALKORI deve ser administrado a crianças e 
+adolescentes sob a supervisão de um adulto.
+Outros medicamentos e XALKORI
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos, incluindo medicamentos à base de plantas e medicamentos não sujeitos a 
+receita médica. 
+61
+Em especial, os seguintes medicamentos podem aumentar o risco de efeitos indesejáveis com 
+XALKORI:
+
+Claritromicina, telitromicina, eritromicina, antibióticos utilizados para tratar infeções 
+bacterianas.
+
+Cetoconazol, itraconazol, posaconazol, voriconazol, utilizados para tratar infeções fúngicas.
+
+Atazanavir, ritonavir, cobicistate, utilizados para tratar infeções por VIH/SIDA. 
+Os seguintes medicamentos podem reduzir a eficácia de XALKORI: 
+
+Fenitoína, carbamazepina ou fenobarbital, antiepiléticos utilizados para tratar convulsões ou 
+ataques.
+
+Rifabutina, rifampicina, utilizados para tratar a tuberculose.
+
+Erva de S. João (Hypericum perforatum), um produto à base de plantas utilizado para tratar a 
+depressão.
+XALKORI pode aumentar os efeitos indesejáveis associados com os seguintes medicamentos:
+
+Alfentanilo e outros opioides de curta duração como o fentanilo (analgésicos utilizados para 
+procedimentos cirúrgicos).
+
+Quinidina, digoxina, disopiramida, amiodarona, sotalol, dofetilida, ibutilida, verapamilo, 
+diltiazem, utilizados para tratar problemas do coração.
+
+Medicamentos para a pressão arterial elevada chamados beta-bloqueadores, tais como, atenolol, 
+propranolol, labetolol.
+
+Pimozida, utilizada para tratar doenças mentais.
+
+Metformina, utilizada para tratar a diabetes.
+
+Procainamida, utilizada para tratar a arritmia cardíaca.
+
+Cisaprida, utilizada para tratar problemas de estômago.
+
+Ciclosporina, sirolímus e tacrolímus utilizados em doentes transplantados.
+
+Alcaloides ergotamínicos (por exemplo, ergotamina, di-hidroergotamina) utilizados para tratar 
+enxaquecas.
+
+Dabigatrano, um anticoagulante utilizado para diminuir a coagulação do sangue.
+
+Colchicina, utilizada para tratar a gota.
+
+Pravastatina, utilizada para reduzir os níveis de colesterol.
+
+Clonidina, guanfacina, utilizadas para tratar a hipertensão.
+
+Mefloquina, utilizada para a prevenção da malária.
+
+Pilocarpina, utilizada para tratar o glaucoma (uma doença grave dos olhos).
+
+Anticolinesterases, utilizadas para restaurar a função muscular.
+
+Antipsicóticos, utilizados para tratar doenças mentais.
+
+Moxifloxacina, utilizada para tratar infeções bacterianas. 
+
+Metadona, utilizada para tratar a dor e para o tratamento da dependência de opioides.
+
+Bupropiona, utilizada para tratar a depressão e para parar de fumar.
+
+Efavirenz, raltegravir, utilizados para tratar a infeção por VIH.
+
+Irinotecano, um medicamento de quimioterapia utilizado para tratar o cancro do cólon e do reto.
+
+Morfina, utilizada para tratar a dor aguda e de cancro.
+
+Naloxona, utilizada para tratar a dependência em medicamentos opióides e a sua interrupção.<br />
+Estes medicamentos devem ser evitados durante o seu tratamento com XALKORI.
+Contracetivos orais 
+Se tomar XALKORI enquanto utiliza contracetivos orais, os contracetivos orais podem ser ineficazes.
+XALKORI com alimentos e bebidas
+Pode tomar XALKORI com ou sem alimentos; contudo, deve evitar beber sumo de toranja ou comer 
+toranja durante o tratamento com XALKORI uma vez que pode alterar a quantidade de XALKORI no 
+seu organismo.
+62
+Proteção solar
+Evite a exposição prolongada à luz solar. XALKORI pode tornar a sua pele sensível ao sol 
+(fotossensibilidade) e poderá fazer queimaduras solares com mais facilidade. Deve usar vestuário de 
+proteção e/ou usar protetor solar que cubra a sua pele, para ajudar a proteger-se contra as queimaduras 
+solares, caso tenha de estar exposto à luz solar durante o tratamento com XALKORI.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Recomenda-se que as mulheres evitem ficar grávidas e que os homens não tenham filhos durante o 
+tratamento com XALKORI porque este medicamento pode prejudicar o bebé. Se existir qualquer 
+possibilidade de a pessoa a tomar este medicamento ficar grávida ou ser pai de uma criança, estes 
+devem utilizar contraceção adequada durante o tratamento e pelo menos durante 90 dias após a 
+conclusão da terapêutica, uma vez que os contracetivos orais podem ser ineficazes enquanto tomar 
+XALKORI.
+Não amamente durante o tratamento com XALKORI. XALKORI pode prejudicar o bebé a ser 
+amamentado.
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Condução de veículos e utilização de máquinas
+Se tiver distúrbios da visão, tonturas e cansaço enquanto está a tomar XALKORI, tome especial 
+cuidado quando conduz e utiliza máquinas.
+XALKORI contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula de 200 mg ou 250 mg,
+ou seja, é praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar xalkori"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar xalkori"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+
+A dose recomendada para adultos com CPNPC é uma cápsula de 250 mg tomada oralmente 
+duas vezes por dia (quantidade total de 500 mg).
+
+A dose recomendada para crianças e adolescentes com LAGC ALK-positivo ou TMI ALK-
+positivo é de 280 mg/m2 por via oral, duas vezes por dia. A dose recomendada irá ser calculada 
+pelo médico da criança e depende da área de superfície corporal (ASC) da criança. A dose diária 
+máxima para as crianças e adolescentes não deve exceder 1000 mg. XALKORI deve ser 
+administrado sob a supervisão de um adulto.
+
+Tome a dose recomendada de manhã e à noite.
+
+Tome as cápsulas aproximadamente à mesma hora todos os dias.
+
+Pode tomar as cápsulas com ou sem alimentos e evite sempre a ingestão de toranja.
+
+Engula as cápsulas inteiras e não esmague, dissolva ou abra as cápsulas.
+Se necessário, o seu médico pode decidir reduzir a dose a ser tomada oralmente. O seu médico pode 
+decidir interromper permanentemente o seu tratamento com XALKORI se não for capaz de tolerar 
+XALKORI.
+Se tomar mais XALKORI do que deveria
+Se acidentalmente tomar demasiadas cápsulas, contacte imediatamente o seu médico ou farmacêutico. 
+Pode necessitar de cuidados médicos.
+63
+Caso se tenha esquecido de tomar XALKORI
+O que fazer se se esquecer de tomar uma cápsula depende de quanto tempo falta até à sua próxima 
+dose.
+
+Se a sua próxima dose é dentro de 6 horas ou mais, tome a cápsula esquecida assim que se 
+lembrar. Depois tome a próxima cápsula à hora habitual.
+
+Se a sua próxima dose é em menos de 6 horas, não tome a cápsula esquecida. Tome depois a 
+próxima cápsula à hora habitual.
+Informe o seu médico sobre a dose esquecida na sua próxima visita.
+Não tome uma dose a dobrar (duas doses ao mesmo tempo) para compensar uma dose que se esqueceu 
+de tomar.
+Se vomitar após ter tomado uma dose de XALKORI, não tome uma dose extra, tome apenas a sua 
+próxima dose à hora habitual.
+Se parar de tomar XALKORI
+É importante que tome XALKORI todos os dias, enquanto o seu médico lho receitar. Se não consegue 
+tomar este medicamento como o seu médico lhe receitou ou se sente que já não necessita dele, contacte 
+o seu médico imediatamente.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro.
+Embora nem todas as reações adversas identificadas em adultos com CPNPC tenham sido observadas 
+em crianças e adolescentes com LAGC ou TMI, os mesmos efeitos indesejáveis aplicáveis aos doentes 
+adultos com cancro do pulmão devem ser considerados para as crianças e adolescentes com LAGC ou 
+TMI.
+Alguns efeitos indesejáveis podem ser graves. Deve contactar o seu médico imediatamente se tiver 
+algum dos seguintes efeitos indesejáveis graves (ver também secção 2 “O que precisa de saber antes 
+de tomar XALKORI"):
+
+Falência do fígado
+Fale com o seu médico imediatamente se se sentir mais cansado do que o habitual, se a sua pele 
+e a parte branca dos olhos se tornarem amarelas, se a sua urina se tornar escura ou castanha (da 
+cor do chá), se tiver náuseas, vómitos ou diminuição do apetite, se tiver dor no lado direito do 
+seu estômago, se tiver comichão, ou se tiver nódoas negras mais facilmente do que o habitual. O 
+seu médico pode pedir análises ao sangue para verificar a função do seu fígado e, se os 
+resultados estiverem alterados, o seu médico pode decidir reduzir a dose de XALKORI ou parar 
+o seu tratamento.
+64
+
+Inflamação dos pulmões
+Fale com o seu médico de imediato se tiver dificuldade em respirar, especialmente se for 
+associado com tosse ou febre.
+
+Redução do número de glóbulos brancos (incluindo neutrófilos)
+Fale com o seu médico de imediato se tiver febre ou uma infeção. O seu médico pode efetuar 
+análises ao sangue e, se os resultados não estiverem normais, o seu médico pode reduzir a dose 
+de XALKORI.
+
+Sensação de atordoamento, desmaio ou desconforto no peito
+Fale com o seu médico de imediato se tiver estes sintomas, que podem ser sinais de alterações 
+na atividade elétrica (observadas num eletrocardiograma) ou alterações do ritmo cardíaco. O seu 
+médico pode efetuar eletrocardiogramas para verificar se há algum problema com o seu coração 
+durante o tratamento com XALKORI.
+
+Perda parcial ou completa da visão de um ou de ambos os olhos
+Fale com o seu médico de imediato se tiver quaisquer problemas de visão novos, perda da visão 
+ou qualquer alteração na visão como dificuldade em ver de um ou de ambos os olhos. O seu 
+médico pode suspender ou interromper permanentemente o tratamento com XALKORI e 
+encaminhá-lo para um oftalmologista.
+Para crianças e adolescentes a tomar XALKORI para tratar LAGC ALK-positivo ou TMI ALK-
+positivo: o seu médico deve encaminhá-lo para um oftalmologista antes de iniciar o tratamento 
+com XALKORI e no prazo de 1 mês após o início do tratamento, para verificar a existência de 
+problemas de visão. Deve fazer um exame aos olhos a cada 3 meses durante o tratamento com 
+XALKORI e com mais frequência se surgirem quaisquer problemas de visão novos.
+
+Problemas graves de estômago e intestinos (gastrointestinais) em crianças e adolescentes 
+com LAGC ALK-positivo ou TMI ALK-positivo
+XALKORI pode causar diarreia, náuseas e vómitos graves. Informe o seu médico 
+imediatamente caso se desenvolvam problemas ao engolir, vómitos ou diarreia durante o 
+tratamento com XALKORI. O seu médico poderá receitar-lhe medicamentos, conforme 
+necessário, para evitar ou tratar a diarreia, náuseas e vómitos. O seu médico pode recomendar-
+lhe que beba mais líquidos ou poderá receitar-lhe suplementos com eletrólitos ou outros tipos de 
+suporte nutricional, caso se desenvolvam sintomas graves.
+Outros efeitos indesejáveis de XALKORI em adultos com CPNPC podem incluir:
+Efeitos indesejáveis muito frequentes (podem afetar mais do que 1 em 10 pessoas)
+
+Efeitos visuais (visualização de flashes de luz, visão turva, sensibilidade à luz, pontos flutuantes
+ou visão dupla; estes normalmente começam pouco tempo depois do início do tratamento com 
+XALKORI).
+
+Distúrbio do estômago, incluindo vómitos, diarreia e náuseas.
+
+Edema (excesso de fluídos nos tecidos corporais, causando inchaço das mãos e pés).
+
+Obstipação (prisão de ventre).
+
+Alterações nas análises sanguíneas do fígado.
+
+Diminuição do apetite.
+
+Cansaço.
+
+Tonturas.
+
+Neuropatia (sensação de dormência ou formigueiro nas articulações ou extremidades).
+
+Alteração do paladar.
+
+Dor no abdómen.
+
+Redução no número de glóbulos vermelhos (anemia).
+
+Erupção na pele.
+
+Ritmo cardíaco reduzido.
+65
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas)
+
+Indigestão.
+
+Níveis aumentados de creatinina sérica (podem indicar que os rins não estão a funcionar 
+corretamente).
+
+Níveis aumentados da enzima fosfatase alcalina no sangue (um indicador de mau 
+funcionamento ou lesão de um órgão, em particular o fígado, o pâncreas, os ossos, a glândula 
+tiroide ou a vesícula).
+
+Hipofosfatemia (níveis baixos de fosfato no sangue que podem provocar sensação de confusão 
+ou fraqueza muscular).
+
+Bolsas fechadas de líquido dentro do rim (cistos renais).
+
+Desmaio.
+
+Inflamação do esófago (tubo utilizado na deglutição).
+
+Níveis diminuídos de testosterona, uma hormona sexual masculina.
+
+Insuficiência cardíaca.
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas)
+
+Perfuração no estômago ou nos intestinos.
+
+Sensibilidade à luz solar (fotossensibilidade).
+
+Níveis aumentados em análises ao sangue para investigar a existência de danos nos músculos 
+(níveis elevados de creatina fosfoquinase).
+Outros efeitos indesejáveis de XALKORI em crianças e adolescentes com LAGC ALK-positivo 
+ou TMI ALK-positivo podem incluir:
+Efeitos indesejáveis muito frequentes (podem afetar mais do que 1 em 10 pessoas)
+
+Alterações nas análises sanguíneas do fígado.
+
+Efeitos visuais (visualização de flashes de luz, visão turva ou visão dupla).
+
+Dor no abdómen.
+
+Níveis aumentados de creatinina sérica (pode indicar que os rins não estão a funcionar 
+corretamente).
+
+Anemia (redução do número de glóbulos vermelhos).
+
+Contagens baixas de plaquetas em análises ao sangue (o que pode aumentar o risco de 
+sangramento e nódoas negras).
+
+Cansaço.
+
+Diminuição do apetite.
+
+Prisão de ventre.
+
+Edema (excesso de fluidos nos tecidos corporais, causando inchaço das mãos e pés).
+
+Níveis aumentados da enzima fosfatase alcalina no sangue (um indicador de mau 
+funcionamento ou lesão de um órgão, em particular o fígado, o pâncreas, os ossos, a glândula 
+tiroide ou a vesícula biliar).
+
+Tonturas.
+
+Indigestão.
+
+Alteração do paladar.
+
+Hipofosfatemia (níveis baixos de fosfato no sangue que podem provocar sensação de confusão 
+ou fraqueza muscular).
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas)
+
+Erupção na pele.
+
+Inflamação do esófago (parte do tubo digestivo que liga a faringe ao estômago).
+66
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar xalkori"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar xalkori"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Manter este medicamento fora da vista e do alcance das crianças.
+
+Não utilize este medicamento após o prazo de validade impresso no frasco ou no blister e na 
+embalagem exterior após “EXP". O prazo de validade corresponde ao último dia do mês 
+indicado.
+
+Este medicamento não necessita de quaisquer precauções especiais de conservação. 
+
+Não utilize nenhuma embalagem que esteja danificada ou apresente sinais de adulteração.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de XALKORI
+
+A substância ativa de XALKORI é o crizotinib. 
+XALKORI 200 mg: cada cápsula contém 200 mg de crizotinib
+XALKORI 250 mg: cada cápsula contém 250 mg de crizotinib
+
+Os outros componentes são (ver também a secção “XALKORI contém sódio"):
+Conteúdo da cápsula: sílica anidra coloidal, celulose microcristalina, hidrogenofosfato de cálcio 
+anidro, carboximetilamido sódico (tipo A), estearato de magnésio.
+Invólucro da cápsula: gelatina, dióxido de titânio (E171) e óxido de ferro vermelho (E172).
+Tinta de impressão: shellac, propilenoglicol, hidróxido de potássio e óxido de ferro preto 
+(E172).
+Qual o aspeto de XALKORI e conteúdo da embalagem
+XALKORI 200 mg está disponível como cápsulas de gelatina com cabeça cor-de-rosa e corpo branco, 
+impressas com tinta preta com “Pfizer" na cabeça, “CRZ 200" no corpo. 
+XALKORI 250 mg está disponível como cápsulas de gelatina com cabeça e corpo cor-de-rosa, 
+impressas com tinta preta com “Pfizer" na cabeça, “CRZ 250" no corpo.
+Está disponível em embalagens de blisters com 60 cápsulas e em frascos de plástico com 60 cápsulas.
+É possível que não sejam comercializadas todas as apresentações.
+Titular de Autorização de Introdução no Mercado 
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+67
+Fabricante
+Pfizer Manufacturing Deutschland GmbH
+Betriebsstätte Freiburg
+Mooswaldallee 1
+79090 Freiburg
+Alemanha
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel: +36 1488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer 
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer România S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+68
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: +421 2 3355 5500
+Ísland
+Icepharma hf. 
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh./Tel: +358 (0)9 43 00 40
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige 
+Pfizer AB
+Tel: +46 (0)8 550 520 Kύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
+Τηλ: + 357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā 
+Tel: +371 670 35 775
+Este folheto foi revisto pela última vez em 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1109,6 +1742,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-1c9a12a6360cb16de82a801c02ba58e9"
 * entry[0].resource = composition-da-1c9a12a6360cb16de82a801c02ba58e9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1c9a12a6360cb16de82a801c02ba58e9"
+* entry[=].resource = mp1c9a12a6360cb16de82a801c02ba58e9
+                            
+                    
+Instance: bundlepackageleaflet-pt-1c9a12a6360cb16de82a801c02ba58e9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xalkori Package Leaflet for language pt"
+Description: "ePI document Bundle for xalkori Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-1c9a12a6360cb16de82a801c02ba58e9"
+* entry[0].resource = composition-pt-1c9a12a6360cb16de82a801c02ba58e9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp1c9a12a6360cb16de82a801c02ba58e9"
@@ -1210,6 +1865,18 @@ RuleSet: 1c9a12a6360cb16de82a801c02ba58e9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-1c9a12a6360cb16de82a801c02ba58e9) // xalkori pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

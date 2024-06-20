@@ -1304,6 +1304,817 @@ eller du får bivirkninger, som ikke er nævnt her. Se punkt. 4. </p>         </
 
 
 
+Instance: composition-pt-448b9ada9b9514edd6724425bc5c528e
+InstanceOf: CompositionUvEpi
+Title: "Composition for duoresp Package Leaflet"
+Description:  "Composition for duoresp Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp448b9ada9b9514edd6724425bc5c528e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - duoresp"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é DuoResp Spiromax e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar DuoResp Spiromax </li>
+<li>Como utilizar DuoResp Spiromax </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar DuoResp Spiromax </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é duoresp e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é duoresp e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DuoResp Spiromax contém duas substâncias ativas diferentes: budesonida e fumarato de formoterol 
+di-hidratado. </p>
+<ul>
+<li>
+<p>A budesonida pertence a um grupo de medicamentos chamados “corticosteroides" e também 
+conhecidos como “esteroides". Atua reduzindo e prevenindo o inchaço e inflamação dos seus 
+pulmões e ajuda-o a respirar com maior facilidade.  </p>
+</li>
+<li>
+<p>O fumarato de formoterol di-hidratado pertence a um grupo de medicamentos denominado 
+“agonistas dos β2-adrenorrecetores de longa duração de ação" ou “broncodilatadores". Atua 
+relaxando os músculos das suas vias respiratórias. Isto vai ajudar a abrir as vias respiratórias e 
+ajudá-lo a respirar mais facilmente. </p>
+</li>
+</ul>
+<p>DuoResp Spiromax está indicado para utilização apenas em adultos e adolescentes com idade 
+igual ou superior a 12 anos.  </p>
+<p>O seu médico receitou este medicamento para tratar a asma ou a doença pulmonar obstrutiva crónica 
+(DPOC). 
+Asma 
+DuoResp Spiromax pode ser receitado para a asma de duas formas diferentes: </p>
+<p>a) Podem ser-lhe receitados dois inaladores da asma: DuoResp Spiromax juntamente com um 
+“inalador de alívio" como, por exemplo, o salbutamol. </p>
+<ul>
+<li>
+<p>Utilize o DuoResp Spiromax todos os dias. Isto ajuda a prevenir o aparecimento dos sintomas 
+da asma tais como, falta de ar e pieira. </p>
+</li>
+<li>
+<p>Utilize o “inalador de alívio" quando tiver sintomas de asma, para ajudar a voltar a respirar mais 
+facilmente. </p>
+</li>
+</ul>
+<p>b) Pode ser-lhe receitado DuoResp Spiromax como o seu único inalador da asma. </p>
+<ul>
+<li>
+<p>Utilize o DuoResp Spiromax todos os dias. Isto ajuda a prevenir o aparecimento dos sintomas 
+da asma tais como, falta de ar e pieira. </p>
+</li>
+<li>
+<p>Utilize o DuoResp Spiromax quando necessitar de fazer inalações ou sopros adicionais para o 
+alívio dos sintomas da asma, para ajudar a voltar a respirar mais facilmente e, se acordado com 
+o médico, para prevenir também a ocorrência de sintomas de asma (p. ex. ao exercitar ou ao ser 
+exposto a alergénios). Não precisa de um inalador separado para isto. </p>
+</li>
+</ul>
+<p>Doença pulmonar obstrutiva crónica (DPOC) 
+A DPOC é uma doença crónica das vias aéreas dos pulmões, frequentemente causada pelo fumo dos 
+cigarros. Os sintomas incluem falta de ar, tosse, desconforto na zona do peito e expetoração. DuoResp 
+Spiromax também pode ser utilizado para tratar os sintomas da DPOC grave apenas em adultos.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar duoresp"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar duoresp"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize DuoResp Spiromax se 
+Tem alergia à budesonida, ao fumarato de formoterol di-hidratado ou a qualquer outro componente 
+deste medicamento (indicados na secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar DuoResp Spiromax se: </p>
+<ul>
+<li>
+<p>é diabético. </p>
+</li>
+<li>
+<p>tem uma infeção nos pulmões. </p>
+</li>
+<li>
+<p>tem tensão arterial elevada ou já teve problemas do coração (incluindo batimento do coração 
+irregular, pulsação muito rápida, estreitamento das artérias ou insuficiência cardíaca). </p>
+</li>
+<li>
+<p>tem problemas na tiroide ou glândulas suprarrenais. </p>
+</li>
+<li>
+<p>tem níveis baixos de potássio no sangue. </p>
+</li>
+<li>
+<p>tem problemas graves do fígado. </p>
+</li>
+<li>
+<p>se bebe regularmente bebidas alcoólicas. </p>
+</li>
+</ul>
+<p>Se estiver a tomar comprimidos à base de esteroides para a asma ou DPOC, o seu médico poderá 
+reduzir o número de comprimidos que toma, logo que começar a utilizar o DuoResp Spiromax. Se 
+estiver a tomar comprimidos à base de esteroides há muito tempo, o seu médico pode pedir para que 
+faça análises ao sangue regularmente. Durante a redução do número de comprimidos à base de 
+esteroides, poderá sentir-se indisposto em geral mesmo que note melhoria dos seus sintomas 
+respiratórios. Pode ter sintomas, tais como nariz entupido ou a pingar, diminuição da força muscular 
+ou dores musculares ou articulares e erupções na pele (eczema). Se algum destes sintomas o 
+incomodar ou caso surjam sintomas, tais como dores de cabeça, cansaço, náuseas (sentir-se doente) ou 
+vómitos (sentir-se enjoado), contacte o seu médico imediatamente. Pode precisar de tomar outros 
+medicamentos se desenvolver sintomas alérgicos ou artríticos. Deve falar com o seu médico se tiver 
+dúvidas se deve continuar ou não a utilizar o DuoResp Spiromax. </p>
+<p>O seu médico pode ponderar adicionar comprimidos à base de esteroides ao seu tratamento normal se 
+tiver uma doença como uma infeção respiratória ou antes de uma cirurgia.  </p>
+<p>Contacte o seu médico se apresentar visão turva ou outras perturbações visuais. </p>
+<p>Crianças 
+Não administre este medicamento a crianças com menos de 12 anos de idade. </p>
+<p>Outros medicamentos e DuoResp Spiromax 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. </p>
+<p>Em particular, informe o seu médico se estiver a tomar algum dos seguintes medicamentos: </p>
+<ul>
+<li>
+<p>Bloqueadores β (tais como o atenolol ou propranolol para o tratamento da tensão arterial elevada 
+ou doenças do coração), incluindo gotas para os olhos (tais como o timolol para o glaucoma). </p>
+</li>
+<li>
+<p>Oxitocina que é administrada a mulheres grávidas para induzir o trabalho de parto. </p>
+</li>
+<li>
+<p>Medicamentos para o tratamento do batimento do coração rápido ou irregular (tais como a 
+quinidina, disopiramida, procainamida e terfenadina). </p>
+</li>
+<li>
+<p>Medicamentos como a digoxina, frequentemente utilizados para o tratamento da insuficiência 
+cardíaca. </p>
+</li>
+<li>
+<p>Diuréticos, também conhecidos como “comprimidos de água" (tais como a furosemida). Estes 
+medicamentos são utilizados para tratar a tensão arterial elevada. </p>
+</li>
+<li>
+<p>Comprimidos à base de esteroides que toma oralmente (tais como a prednisolona). </p>
+</li>
+<li>
+<p>Medicamentos à base de xantina (tais como a teofilina ou a aminofilina). Estes medicamentos são 
+frequentemente utilizados para o tratamento da asma. </p>
+</li>
+<li>
+<p>Outros broncodilatadores (tais como o salbutamol). </p>
+</li>
+<li>
+<p>Antidepressivos tricíclicos (tais como a amitriptilina) e o antidepressivo nefazodona.  </p>
+</li>
+<li>
+<p>Antidepressivos tais como os inibidores da monoamino oxidase e aqueles com propriedades 
+semelhantes (como o antibiótico furazolidona e o medicamento quimioterapêutico 
+procarbazina). </p>
+</li>
+<li>
+<p>Antipsicóticos à base de fenotiazina (tais como a cloropromazina e procloroperazina).  </p>
+</li>
+<li>
+<p>Medicamentos chamados “inibidores da protease do VIH (Vírus da Imunodeficiência Humana)") 
+(tais como o ritonavir) para o tratamento da infeção pelo VIH. </p>
+</li>
+<li>
+<p>Medicamentos para tratar infeções (tais como o cetoconazol, itraconazol, voriconazol, 
+posaconazol, claritromicina e telitromicina).  </p>
+</li>
+<li>
+<p>Medicamentos para a doença de Parkinson (tais como a levodopa). </p>
+</li>
+<li>
+<p>Medicamentos para problemas da tiroide (tais como a levotiroxina).  </p>
+</li>
+</ul>
+<p>Alguns medicamentos podem potenciar os efeitos de DuoResp Spiromax e o seu médico poderá querer 
+monitorizá-lo cuidadosamente se estiver a tomar estes medicamentos (incluindo alguns medicamentos 
+utilizados para tratar as infeções por VIH: ritonavir, cobicistato). </p>
+<p>Se alguma das situações acima descritas se aplicar a si, ou caso não tenha a certeza, fale com o seu 
+médico, farmacêutico ou enfermeiro antes de utilizar o DuoResp Spiromax. </p>
+<p>Informe igualmente o seu médico, farmacêutico ou enfermeiro se for fazer uma cirurgia ou tratamento 
+dentário com anestesia geral para ajudar a diminuir qualquer risco de interação com o anestésico que 
+receberá. </p>
+<p>Gravidez e amamentação </p>
+<ul>
+<li>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico, farmacêutico ou enfermeiro antes de utilizar DuoResp Spiromax - NÃO utilize este 
+medicamento, a não ser que o seu médico lhe diga para o fazer.  </p>
+</li>
+<li>
+<p>Se engravidar enquanto estiver a utilizar o DuoResp Spiromax, NÃO pare de utilizar o DuoResp 
+Spiromax mas fale com o seu médico imediatamente. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+Não é provável que DuoResp Spiromax afete a sua capacidade de conduzir veículos ou utilizar 
+máquinas ou ferramentas. </p>
+<p>DuoResp Spiromax contém lactose.<br />
+A lactose é um tipo de açúcar encontrado no leite. Se foi informado pelo seu médico que tem 
+intolerância a alguns açúcares, contacte-o antes de utilizar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar duoresp"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar duoresp"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<ul>
+<li>
+<p>É importante utilizar DuoResp Spiromax todos os dias, mesmo que não tenha sintomas de asma 
+ou DPOC nessa altura. </p>
+</li>
+<li>
+<p>Se estiver a utilizar DuoResp Spiromax para a asma, o seu médico vai querer avaliar os seus 
+sintomas regularmente. </p>
+</li>
+</ul>
+<p>Asma<br />
+DuoResp Spiromax pode ser receitado para a asma de duas formas diferentes: A quantidade de 
+DuoResp Spiromax que deve utilizar e quando utilizar dependem da forma como este medicamento 
+lhe foi receitado. </p>
+<ul>
+<li>
+<p>Se lhe foi receitado DuoResp Spiromax e um inalador de alívio separado, leia a secção 
+intitulada “(A) Utilizar DuoResp Spiromax e um inalador de alívio separado".  </p>
+</li>
+<li>
+<p>Se lhe foi receitado DuoResp Spiromax como único inalador, leia a secção intitulada “(B) 
+Utilizar DuoResp Spiromax como único inalador da asma". </p>
+</li>
+</ul>
+<p>(A) Utilizar DuoResp Spiromax e um inalador de alívio separado 
+Utilize o seu DuoResp Spiromax todos os dias. Isto ajuda a prevenir o aparecimento dos sintomas da 
+asma. </p>
+<p>Dose recomendada: 
+Adultos (idade igual ou superior a 18 anos) 
+1 ou 2 inalações (atuações), duas vezes por dia, administradas de manhã e à noite. 
+O seu médico pode aumentar para 4 inalações, duas vezes por dia. 
+Se os seus sintomas estiverem bem controlados, o seu médico poderá alterar a administração para uma 
+vez por dia. </p>
+<p>Adolescentes (idade igual ou superior a 12 anos) 
+1 ou 2 inalações duas vezes por dia. </p>
+<p>O seu médico irá ajudá-lo a controlar a sua asma e vai ajustar a dose deste medicamento para a menor 
+dose que controla a sua asma. Se o seu médico considerar que precisa de uma dose inferior à 
+disponível para o seu DuoResp Spiromax, o seu médico poderá prescrever-lhe um inalador alternativo 
+com as mesmas substâncias ativas que o DuoResp Spiromax mas com uma dose inferior de 
+corticosteroides. Se os seus sintomas estiverem bem controlados, o seu médico poderá alterar a 
+administração para uma vez por dia. Contudo, não ajuste o número de inalações prescritas sem falar 
+primeiro com o seu médico. </p>
+<p>Utilize o seu “inalador de alívio" separado para tratar os sintomas da asma quando eles 
+surgirem. 
+Tenha sempre consigo o “inalador de alívio" para utilizar para aliviar ataques súbitos de falta de ar e 
+pieira. Não utilize o DuoResp Spiromax para tratar estes sintomas da asma. </p>
+<p>(B) Utilizar DuoResp Spiromax como único inalador da asma 
+Utilize o DuoResp Spiromax desta forma apenas se o seu médico lhe tiver dito para o fazer. </p>
+<p>Utilize o seu DuoResp Spiromax todos os dias. Isto ajuda a prevenir o aparecimento dos sintomas da 
+asma. </p>
+<p>Dose recomendada 
+Adultos e adolescentes (idade igual ou superior a 12 anos) </p>
+<p>1 inalação de manhã e 1 inalação à noite 
+ou 
+2 inalações de manhã<br />
+ou 
+2 inalações à noite </p>
+<p>O seu médico pode aumentar para 2 inalações, duas vezes por dia.  </p>
+<p>Utilize igualmente o DuoResp Spiromax como “inalador de alívio" para tratar os sintomas da asma 
+quando eles surgirem e para prevenir que os sintomas da asma apareçam (por exemplo, ao exercitar ou 
+ao ser exposto a alergénios). </p>
+<ul>
+<li>
+<p>Se sentir sintomas de asma, faça 1 inalação e espere alguns minutos. </p>
+</li>
+<li>
+<p>Se não se sentir melhor, faça outra inalação. </p>
+</li>
+<li>
+<p>Não faça mais de 6 inalações numa única ocasião. </p>
+</li>
+</ul>
+<p>Tenha sempre consigo o DuoResp Spiromax e utilize-o para aliviar ataques súbitos de falta de ar e 
+pieira. </p>
+<p>Normalmente não é necessária uma dose diária total superior a 8 inalações. Contudo, o seu médico por 
+permitir que faça até 12 inalações por dia, durante um período limitado de tempo. </p>
+<p>Se necessitar com regularidade de utilizar mais de 8 inalações por dia, marque uma consulta com o seu 
+médico. Pode ser necessário mudar o seu tratamento. </p>
+<p>NÃO faça mais de 12 inalações no total num período de 24 horas. </p>
+<p>Se estiver a praticar exercício e desenvolver sintomas de asma, utilize o DuoResp Spiromax tal como 
+descrito neste folheto. Contudo, não utilize o DuoResp Spiromax imediatamente antes do exercício 
+para impedir o aparecimento dos sintomas de asma. É importante que fale com o seu médico sobre a 
+utilização de DuoResp Spiromax para prevenir a ocorrência de sintomas de asma; a frequência com 
+que se faz exercício físico ou a frequência com que está exposto a alergénios pode influenciar o 
+tratamento que lhe é prescrito. </p>
+<p>Doença pulmonar obstrutiva crónica (DPOC) </p>
+<p>Dose recomendada: 
+Apenas adultos (idade igual ou superior a 18 anos): 
+2 inalações, duas vezes por dia, administradas de manhã e à noite. </p>
+<p>O seu médico pode igualmente receitar outro medicamento broncodilatador, por exemplo, um 
+anticolinérgico (tal como brometo de tiotrópio ou brometo de ipratrópio) para a sua DPOC. </p>
+<p>Preparação do seu DuoResp Spiromax novo </p>
+<p>Antes de utilizar o seu DuoResp Spiromax novo pela primeira vez, tem de o preparar da seguinte 
+forma: </p>
+<ul>
+<li>
+<p>Abra a bolsa de alumínio rasgando pelo entalhe no topo da bolsa de alumínio e retire o inalador. </p>
+</li>
+<li>
+<p>Verifique o indicador de doses para ver se existem 120 inalações no inalador. </p>
+</li>
+<li>
+<p>Escreva a data em que abriu a bolsa de alumínio no rótulo do inalador. O seu inalador está 
+pronto para ser utilizado. </p>
+</li>
+<li>
+<p>Não agite o seu inalador antes de utilizar. </p>
+</li>
+</ul>
+<p>Como fazer uma inalação 
+Sempre que necessitar de fazer uma inalação, siga as seguintes instruções. </p>
+<ol>
+<li>
+<p>Segure o seu inalador com a tampa do aplicador bucal vermelho escuro semitransparente na parte 
+inferior. </p>
+</li>
+<li>
+<p>Abra a tampa do aplicador bucal dobrando-a para baixo até ouvir um clique. O seu medicamento é 
+calibrado ativamente. O seu inalador está pronto para ser utilizado. </p>
+</li>
+<li>
+<p>Expire suavemente (enquanto for confortável). Não expire através do inalador. </p>
+</li>
+<li>Coloque o aplicador bucal entre os dentes. Não morda no aplicador bucal. Cerre os lábios em 
+redor do aplicador bucal. Tenha cuidado para não bloquear os orifícios de ventilação. </li>
+</ol>
+<p>Inspire pela boca o mais forte e profundamente que conseguir. </p>
+<ol>
+<li>
+<p>Retire o inalador da boca. Pode sentir um gosto no paladar enquanto inala. </p>
+</li>
+<li>
+<p>Sustenha a respiração durante 10 segundos ou enquanto for confortavelmente possível. </p>
+</li>
+<li>
+<p>Em seguida expire suavemente (não expire através do inalador). Feche a cobertura do aplicador 
+bucal. </p>
+</li>
+</ol>
+<p>Se precisar de fazer uma segunda inalação, repita os passos 1 a 7.<br />
+Bocheche com água após cada dose e deite fora a água. 
+Não tente desmontar o inalador, retirar ou rodar a tampa do aplicador bucal, uma vez que esta está fixa 
+ao inalador e não deve ser retirada. Não utilize o seu Spiromax, se este estiver danificado ou se o 
+aplicador bucal estiver separado do Spiromax. Não abra e feche a cobertura do aplicador bucal, a não 
+ser que esteja pronto para utilizar o seu inalador. </p>
+<p>Limpeza do seu Spiromax 
+Mantenha o seu Spiromax seco e limpo. 
+Se necessário, pode limpar o aplicador bucal do Spiromax com um pano seco ou lenço de papel após a 
+utilização. </p>
+<p>Quando deve começar a utilizar um Spiromax novo </p>
+<ul>
+<li>
+<p>O indicador de dose informa-o sobre quantas doses (inalações) restam no seu inalador, 
+começando por indicar 120 inalações quando o inalador está cheio e terminando com 0 (zero) 
+inalações quando está vazio. </p>
+</li>
+<li>
+<p>O indicador de doses, na parte de trás do dispositivo, mostra o número de inalações que restam 
+como números pares. Os espaços entre os números pares representam o número ímpar das 
+inalações restantes. </p>
+</li>
+<li>
+<p>Para as inalações que restam de 20 para baixo até “8", “6", “4", “2", os números são 
+apresentados a vermelho num fundo branco. Quando os números ficam vermelhos na janela, 
+deve consultar o seu médico para obter um novo inalador. </p>
+</li>
+</ul>
+<p>Nota:  </p>
+<ul>
+<li>
+<p>O aplicador bucal vai continuar a fazer “clique" mesmo quando o Spiromax estiver vazio.  </p>
+</li>
+<li>
+<p>Se abrir e fechar o aplicador bucal sem fazer nenhuma inalação, o indicador de doses vai 
+registar na mesma essa ação como uma inalação. Essa dose vai permanecer dentro do inalador 
+para quando for o momento da inalação seguinte. É impossível tomar acidentalmente 
+medicamento a mais ou uma dose dupla numa inalação. </p>
+</li>
+<li>
+<p>Mantenha o aplicador bucal sempre fechado, a não ser que esteja pronto para utilizar o seu 
+inalador. </p>
+</li>
+</ul>
+<p>Informação importante sobre os seus sintomas de asma ou DPOC </p>
+<p>Se sentir dificuldade em respirar ou pieira enquanto estiver a utilizar o DuoResp Spiromax, deverá 
+continuar a utilizar o DuoResp Spiromax, mas deve falar com o seu médico logo que possível, pois 
+pode necessitar de tratamento adicional. </p>
+<p>Contacte imediatamente o seu médico se: </p>
+<ul>
+<li>
+<p>A sua dificuldade em respirar piorar ou se acordar frequentemente durante a noite com falta de 
+ar e pieira. </p>
+</li>
+<li>
+<p>Se sentir um aperto no peito de manhã ou se sentir aperto no peito durante mais tempo do que o 
+habitual. </p>
+</li>
+</ul>
+<p>Estes sinais podem significar que a sua asma ou DPOC não está adequadamente controlada e pode 
+necessitar de tratamento adicional imediatamente. </p>
+<p>Logo que a sua asma esteja bem controlada, o seu médico pode ponderar se é apropriado reduzir 
+gradualmente a dose de DuoResp Spiromax. </p>
+<p>Se utilizar mais DuoResp Spiromax do que deveria 
+É importante que tome as suas doses conforme aconselhado pelo seu médico. Não deve exceder o 
+número de doses que lhe foi prescrito sem procurar aconselhamento médico. </p>
+<p>Se utilizar mais DuoResp Spiromax do que deveria, contacte o seu médico, farmacêutico ou 
+enfermeiro para obter aconselhamento. Os sintomas mais frequentes que podem ocorrer depois, 
+quando utiliza mais DuoResp Spiromax do que deveria são tremores, dores de cabeça ou batimento do 
+coração rápido.  </p>
+<p>Caso se tenha esquecido de utilizar o DuoResp Spiromax 
+Se se esquecer de tomar uma dose, tome-a assim que se lembrar. No entanto, não tome uma dose a 
+dobrar para compensar uma dose que se esqueceu de tomar, limite-se a tomar a dose seguinte à hora 
+habitual. </p>
+<p>Se sentir pieira ou dificuldade em respirar ou desenvolver outros sintomas de um ataque de asma, 
+utilize o seu inalador de alívio e, em seguida, procure assistência médica. </p>
+<p>Se parar de utilizar DuoResp Spiromax 
+Não pare de utilizar o seu inalador sem falar primeiro com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Se lhe acontecer qualquer uma das situações a seguir descritas, pare de utilizar o DuoResp 
+Spiromax e fale imediatamente com o seu médico: </p>
+<p>Efeitos indesejáveis raros: podem afetar até 1 em 1.000 pessoas </p>
+<ul>
+<li>
+<p>Inchaço da face, particularmente à volta da boca (língua e/ou garganta e/ou dificuldade em 
+engolir) ou urticária juntamente com dificuldades em respirar (angioedema) e/ou sensação 
+repentina de desmaio. Isto pode significar que está a ter uma reação alérgica, a qual pode 
+também incluir erupção na pele e comichão.  </p>
+</li>
+<li>
+<p>Broncoespasmo (aperto dos músculos das vias respiratórias, o que causa pieira e falta de ar). Se 
+a pieira surgir subitamente após utilizar este medicamento, pare de o utilizar e fale com o seu 
+médico imediatamente (ver abaixo). </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito raros: podem afetar até 1 em 10.000 pessoas </p>
+<ul>
+<li>Pieira aguda, súbita e inesperada e/ou falta de ar imediatamente após utilização do seu inalador 
+(também designado como “broncoespasmo paradoxal"). Se algum destes sintomas ocorrer, pare 
+de utilizar o DuoResp Spiromax imediatamente e utilize o seu inalador de “alívio" se tiver 
+um. Contacte o seu médico imediatamente, pois poderá necessitar de alterar o seu tratamento. </li>
+</ul>
+<p>Outros efeitos indesejáveis possíveis: </p>
+<p>Frequentes: podem afetar até 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>Palpitações (sentir o seu batimento do coração), tremores ou estremecimento. Caso estes efeitos 
+ocorram, são geralmente ligeiros e desaparecem habitualmente, à medida que continuar a 
+utilizar o DuoResp Spiromax. </p>
+</li>
+<li>
+<p>Sapinhos (uma infeção fúngica) na boca. Se bochechar com água após utilizar o seu inalador, 
+este efeito secundário poderá ser menos frequente </p>
+</li>
+<li>
+<p>Ligeira irritação da garganta, tosse e rouquidão </p>
+</li>
+<li>
+<p>Dores de cabeça </p>
+</li>
+<li>
+<p>Pneumonia (infeção no pulmão) em doentes com DPOC (efeito secundário frequente) </p>
+</li>
+</ul>
+<p>Informe o seu médico se tiver qualquer uma das seguintes situações enquanto está a tomar DuoResp 
+Spiromax pois podem ser sintomas de uma infeção nos pulmões:  </p>
+<ul>
+<li>
+<p>febre ou arrepios </p>
+</li>
+<li>
+<p>aumento da produção de muco, mudança da cor do muco </p>
+</li>
+<li>
+<p>aumento da tosse ou aumento da dificuldade em respirar </p>
+</li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em 100 pessoas </p>
+<ul>
+<li>
+<p>Sentir-se irrequieto, nervoso, agitado, ansioso ou zangado </p>
+</li>
+<li>
+<p>Perturbações do sono </p>
+</li>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Náuseas (sentir-se doente) </p>
+</li>
+<li>
+<p>Batimento do coração rápido </p>
+</li>
+<li>
+<p>Nódoas negras </p>
+</li>
+<li>
+<p>Cãibras musculares </p>
+</li>
+<li>
+<p>Visão turva </p>
+</li>
+</ul>
+<p>Raros:  </p>
+<ul>
+<li>
+<p>Níveis baixos de potássio no sangue </p>
+</li>
+<li>
+<p>Batimento irregular </p>
+</li>
+</ul>
+<p>Muito raros: </p>
+<ul>
+<li>
+<p>Depressão </p>
+</li>
+<li>
+<p>Alterações do comportamento, especialmente em crianças </p>
+</li>
+<li>
+<p>Dor no peito ou aperto no peito (angina de peito) </p>
+</li>
+<li>
+<p>Perturbações do sistema elétrico do coração que não causa sintomas (prolongamento do 
+intervalo QTc) </p>
+</li>
+<li>
+<p>Aumento dos níveis de açúcar (glicose) no sangue, quando faz uma análise ao sangue </p>
+</li>
+<li>
+<p>Alterações do paladar, tais como um sabor desagradável na boca </p>
+</li>
+<li>
+<p>Alterações da tensão arterial </p>
+</li>
+<li>
+<p>Os corticosteroides inalados podem afetar a produção normal de hormonas esteroides no seu 
+organismo, particularmente se utilizar doses elevadas durante um longo período. Os efeitos 
+incluem: </p>
+</li>
+<li>
+<p>Alterações da densidade mineral óssea (diminuição da espessura dos ossos) </p>
+</li>
+<li>
+<p>Cataratas (névoa do cristalino do olho) </p>
+</li>
+<li>
+<p>Glaucoma (aumento da pressão ocular) </p>
+</li>
+<li>
+<p>Decréscimo do ritmo de crescimento de crianças e adolescentes </p>
+</li>
+<li>
+<p>Um efeito nas glândulas suprarrenais (pequenas glândulas próximas dos rins). Os sintomas da 
+supressão das glândulas suprarrenais podem ser cansaço, fraqueza, problemas de estômago 
+incluindo náuseas, vómitos, dor e diarreia, coloração escura da pele e perda de peso. </p>
+</li>
+</ul>
+<p>Estes efeitos ocorrem muito raramente e têm menor probabilidade de ocorrerem com corticosteroides 
+inalados do que com comprimidos à base de corticosteroides. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar duoresp"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar duoresp"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+</li>
+<li>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo ou na embalagem 
+exterior do seu inalador após EXP. O prazo de validade corresponde ao último dia do mês 
+indicado. </p>
+</li>
+<li>
+<p>Não conservar acima de 25ºC. Manter a tampa do aplicador bucal fechada após retirar da 
+bolsa de alumínio. </p>
+</li>
+<li>
+<p>Usar no prazo máximo de 6 meses após retirar da bolsa de alumínio. Use a etiqueta do 
+inalador para apontar a data em que abre a bolsa de alumínio. </p>
+</li>
+<li>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de DuoResp Spiromax </p>
+<ul>
+<li>As substâncias ativas são a budesonida e o fumarato de formoterol di-hidratado. Cada dose 
+libertada (inalada) contém 160 microgramas de budesonida e 4,5 microgramas de fumarato de 
+formoterol di-hidratado.Isto equivale a uma dose calibrada de 200 microgramas de budesonida e 
+6 microgramas de fumarato de formoterol di-hidratado. </li>
+<li>O outro componente é a lactose mono-hidratada, que contém proteínas do leite (ver “DuoResp 
+Spiromax contém lactose" na secção 2). </li>
+</ul>
+<p>Qual o aspeto de DuoResp Spiromax e conteúdo da embalagem </p>
+<p>DuoResp Spiromax é um pó para inalação. 
+Cada inalador DuoResp Spiromax contém 120 inalações e apresenta um corpo branco com uma 
+cobertura do aplicador bucal vermelho escuro semitransparente. </p>
+<p>Embalagens de 1, 2 e 3 inaladores. É possível que não sejam comercializadas todas as apresentações 
+no seu país. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Teva Pharma B.V., 
+Swensweg 5, 2031GA Haarlem, Países Baixos </p>
+<p>Fabricante </p>
+<p>Norton (Waterford) Limited 
+Unit 27/35, IDA Industrial Park, Cork Road, Waterford, Irlanda </p>
+<p>Teva Pharmaceuticals Europe B.V., Swensweg 5, 2031 GA Haarlem, Países Baixos </p>
+<p>Teva Operations Poland Sp. z o.o. Mogilska 80 Str. 31-546 Kraków Polónia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG<br />
+Tel/Tél: +32 3 820 73<br />
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 5 266 02<br />
+България 
+Тева Фарма ЕАД 
+Teл: +359 2 489 95<br />
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG<br />
+Belgique/Belgien<br />
+Tel/Tél: +32 3 820 73<br />
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o.<br />
+Tel: +420 251 007<br />
+Magyarország 
+Teva Gyógyszergyár Zrt.<br />
+Tel.: +36 1 288 64<br />
+Danmark 
+Teva Denmark A/S<br />
+Tlf: +45 44 98 55<br />
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 207 540 7 
+Deutschland 
+Teva GmbH 
+Tel: +49 731 402<br />
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 800 0228<br />
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 661 0 
+Norge 
+Teva Norway AS<br />
+Tlf: +47 6677 55 Ελλάδα 
+Specifar A.B.E.E. 
+Τηλ: +30 211 880 5 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1 97007 0 </p>
+<p>España 
+Teva Pharma S.L.U.<br />
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tél: +34 91 387 32<br />
+Tel.: +48 22 345 93 France 
+Teva Santé 
+Tél: +33 1 55 91 7Portugal<br />
+Teva Pharma - Produtos Farmacêuticos, Lda 
+Tel: +351 21 476 75<br />
+Hrvatska 
+Pliva Hrvatska d.o.o 
+Tel: + 385 1 37 20<br />
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +4021 230 6Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 207 540 7 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 1 58 90<br />
+Ísland 
+Alvogen ehf. 
+Sími: + 354 522 2Slovenská republika 
+Teva Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 2 5726 7 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028 917<br />
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 20 180 5 
+Κύπρος 
+Specifar A.B.E.E. 
+Ελλάδα 
+Τηλ: +30 211 880 5 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42 12 11<br />
+Latvija 
+UAB Teva Baltics filiāle Latvijā<br />
+Tel: +371 67 323<br />
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 207 540 7 </p>
+<p>Este folheto foi revisto pela última vez em mês de AAAA. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da Internet da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu </p>
+<p>Folheto informativo: Informação para o doente </p>
+<p>DuoResp Spiromax 320 microgramas/9 microgramas, pó para inalação 
+budesonida/fumarato de formoterol di-hidratado </p>
+<p>Leia atentamente todo este folheto antes de começar a utilizar este medicamento, pois contém 
+informação importante para si. 
+- Conserve este folheto. Pode ter necessidade de o ler novamente.<br />
+- Caso ainda tenha dúvidas, fale com o seu médico, farmacêutico ou enfermeiro. 
+- Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode 
+ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença. 
+- Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Ver secção 4.  </p>         </div>"""      
+
+
+
 
 
                     
@@ -1345,6 +2156,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-448b9ada9b9514edd6724425bc5c528e"
 * entry[0].resource = composition-da-448b9ada9b9514edd6724425bc5c528e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp448b9ada9b9514edd6724425bc5c528e"
+* entry[=].resource = mp448b9ada9b9514edd6724425bc5c528e
+                            
+                    
+Instance: bundlepackageleaflet-pt-448b9ada9b9514edd6724425bc5c528e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for duoresp Package Leaflet for language pt"
+Description: "ePI document Bundle for duoresp Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-448b9ada9b9514edd6724425bc5c528e"
+* entry[0].resource = composition-pt-448b9ada9b9514edd6724425bc5c528e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp448b9ada9b9514edd6724425bc5c528e"
@@ -1446,6 +2279,18 @@ RuleSet: 448b9ada9b9514edd6724425bc5c528eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-448b9ada9b9514edd6724425bc5c528e) // duoresp pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

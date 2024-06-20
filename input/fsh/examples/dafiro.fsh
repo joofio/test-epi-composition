@@ -1649,6 +1649,1080 @@ hjemmeside http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-pt-3b3e934500294234d1df16dd589129e1
+InstanceOf: CompositionUvEpi
+Title: "Composition for dafiro Package Leaflet"
+Description:  "Composition for dafiro Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3b3e934500294234d1df16dd589129e1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - dafiro"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Dafiro HCT e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Dafiro HCT </li>
+<li>Como tomar Dafiro HCT </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Dafiro HCT </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é dafiro e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é dafiro e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Os comprimidos de Dafiro HCT contêm três substâncias chamadas amlodipina, valsartan e 
+hidroclorotiazida. Todas as substâncias ajudam a controlar a pressão arterial elevada. 
+− 
+A amlodipina pertence a um grupo de substâncias chamadas “bloqueadores dos canais de 
+cálcio". A amlodipina impede o cálcio de se deslocar através das paredes dos vasos sanguíneos, 
+o que impede que os vasos sanguíneos se estreitem. 
+− 
+O valsartan pertence a um grupo de substâncias chamadas “antagonistas dos recetores da 
+angiotensina-II". A angiotensina II é produzida pelo organismo e provoca o estreitamento dos 
+vasos sanguíneos, aumentando assim a pressão arterial. O valsartan funciona bloqueando o 
+efeito da angiotensina II. 
+− 
+A hidroclorotiazida pretence a um grupo de substâncias denominados “diuréticos tiazídicos". A 
+hidroclorotiazida aumenta o fluxo de urina, o que também reduz a pressão arterial. 
+Como consequência destes três mecanismos, os vasos sanguíneos relaxam e a pressão arterial sofre 
+uma redução. </p>
+<p>O Dafiro HCT é utilizado no tratamento da pressão arterial elevada em doentes adultos cuja pressão 
+arterial já está controlada tomando amlodipina, valsartan e hidroclorotiazida e que podem beneficiar 
+por tomar um comprimido contendo as três substâncias. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar dafiro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar dafiro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Dafiro HCT 
+- se tiver mais do que três meses de gravidez. (Também é recomendado não tomar Dafiro HCT no 
+início da gravidez - Ver secção Gravidez). 
+- se tem alergia (hipersensibilidade) à amlodipina ou a qualquer outro bloqueador dos canais de 
+cálcio, valsartan, hidroclorotiazida, medicamentos derivados de sulfonamidas (medicamentos 
+utilizados para tratar infeções pulmonares ou urinárias), ou a qualquer outro componente de 
+deste medicamento (indicados na secção 6) 
+Se pensa que pode ser alérgico, não tome Dafiro HCT e fale com o seu médico. 
+− 
+se tem doença de fígado, destruição dos pequenos ductos biliares no fígado (cirrose biliar) 
+originando acumulação de bílis no fígado (colestase). 
+− 
+se tem problemas graves nos rins ou se está a fazer diálise. 
+− 
+se é incapaz de produzir urina (anúria). 
+− 
+se os níveis de potássio ou sódio no sangue forem demasiado baixos apesar do tratamento para 
+aumentar os níveis de potássio ou sódio no sangue. 
+− 
+se o nível de cálcio no sangue for demasiado alto apesar do tratamento para diminuir o nível de 
+cálcio no sangue. 
+− 
+se tiver gota (cristais de ácido úrico nas articulações). 
+− 
+se tiver pressão arterial baixa grave (hipotensão). 
+− 
+se tem estreitamento da válvula aórtica (estenose aórtica) ou choque cardiogénico (uma doença 
+em que o coração não consegue fornecer sangue suficiente ao organismo). 
+− 
+se sofre de insuficiência cardíaca após enfarte do miocárdio. 
+− 
+se tem diabetes ou função renal diminuída e está a tomar um medicamento que contém 
+aliscireno para diminuir a pressão arterial. 
+Se alguma das situações acima descritas se aplicar a si, não tome Dafiro HCT e consulte o seu 
+médico. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Dafiro HCT 
+− 
+se tiver níveis baixos de potássio ou magnésio no sangue (com ou sem sintomas tais como 
+fraqueza muscular, espasmos musculares, ritmo cardíaco anormal). 
+− 
+se tiver níveis baixos de sódio no sangue (com ou sem sintomas tais como cansaço, confusão, 
+espasmos musculares, convulsões). 
+− 
+se tiver níveis altos de cálcio no sangue (com ou sem sintomas tais como náuseas, vómitos, 
+obstipação, dor de estômago, micção frequente, sede, fraqueza muscular e espasmos). 
+− 
+se sofrer de doença renal, se foi submetido a transplante renal ou se foi informado que sofre de 
+estreitamento da artéria renal. 
+− 
+se sofrer de doença hepática. 
+− 
+se sofrer ou tiver sofrido de insuficiência cardíaca ou doença das artérias coronárias, sobretudo 
+se lhe tiver sido prescrito a dose máxima de Dafiro HCT (10 mg/320 mg/25 mg). 
+− 
+se teve enfarte do miocárdio. Siga cuidadosamente as instruções do seu médico sobre a dose 
+inicial. O seu médico pode também verificar a sua função renal. 
+− 
+se o seu médico lhe disse que tem um estreitamento das válvulas cardíacas (situação 
+denominada “estenose aórtica ou mitral") ou que a espessura do seu músculo cardíaco está 
+aumentada de forma invulgar (situação denominada “cardiomiopatia hipertrófica obstrutiva"). 
+− 
+se sofrer de aldosteronismo. Trata-se de uma doença em que as glândulas suprarrenais 
+produzem a hormona aldosterona em excesso. Se isto se aplicar a si, o uso de Dafiro HCT não é 
+recomendado. 
+− 
+se sofrer de uma doença denominada lúpus eritematoso sistémico (também chamado “lúpus" ou 
+“SLE"). 
+− 
+se tiver diabetes (nível elevado de açúcar no sangue). 
+− 
+se tiver níveis elevados de colesterol ou triglicéridos no sangue. 
+− 
+se tiver reações na pele tais como erupção na pele após exposição solar. 
+− 
+se tiver tido reações alérgicas com outros fármacos para redução da pressão arterial ou com 
+diuréticos, particularmente se tiver alergias ou asma. 
+− 
+se esteve doente (vómitos ou diarreia). 
+− 
+se já sentiu inchaço, particularmente da face e da garganta, enquanto tomava outros 
+medicamentos (incluindo inibidores da enzima de conversão da angiotensina). Se sentir estes 
+sintomas pare de tomar Dafiro HCT e contacte o seu médico imediatamente. Não deve voltar a 
+tomar Dafiro HCT. 
+− 
+se sentiu tonturas e/ou desmaio durante o tratamento com Dafiro HCT, informe o seu médico 
+imediatamente. 
+− se tiver visão diminuída ou dor ocular. Estes podem ser sintomas de acumulação de líquido na 
+camada vascular do olho (efusão coroidal) ou do aumento da pressão nos seus olhos e podem 
+ocorrer horas a uma semana após ter tomado Dafiro HCT. Se não for tratado poderá originar perda 
+permanente da visão. 
+− 
+se está a tomar algum dos seguintes medicamentos para tratar a pressão arterial elevada: 
+- um inibidor da ECA (por exemplo enalapril, lisinopril, ramipril), em particular se tiver 
+problemas nos rins relacionados com diabetes 
+- aliscireno. 
+− 
+caso tenha tido cancro da pele ou se desenvolver uma lesão cutânea inesperada durante o 
+tratamento. O tratamento com hidroclorotiazida, no caso particular da utilização de doses 
+elevadas a longo prazo, pode aumentar o risco de alguns tipos de cancro da pele e do lábio 
+(cancro da pele não-melanoma). Proteja a sua pele contra a exposição solar e a radiação 
+ultravioleta, enquanto estiver a tomar Dafiro HCT. 
+− 
+se já teve problemas respiratórios ou pulmonares (incluindo inflamação ou líquido nos 
+pulmões) após a toma de hidroclorotiazida. Se desenvolver qualquer falta de ar grave ou 
+dificuldade em respirar após tomar Dafiro HCT, procure assistência médica imediatamente. </p>
+<p>O seu médico pode verificar a sua função renal, pressão arterial e a quantidade de eletrólitos (por 
+exemplo, o potássio) no seu sangue em intervalos regulares. </p>
+<p>Ver também a informação sob o título “Não tome Dafiro HCT". </p>
+<p>Se alguma destas situações se aplicar a si, informe o seu médico. </p>
+<p>Crianças e adolescentes 
+Não é recomendado o uso de Dafiro HCT em crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Pessoas idosas (com 65 anos de idade ou mais) 
+Dafiro HCT pode ser utilizado em pessoas com 65 anos de idade ou mais, nas mesmas doses dos 
+outros adultos e do mesmo modo como já tomaram as três substâncias denominadas amlodipina, 
+valsartan e hidroclorotiazida. Doentes idosos, particularmente os que estão a tomar a dose máxima de 
+Dafiro HCT (10 mg/320 mg/25 mg), devem verificar a pressão arterial regularmente. </p>
+<p>Outros medicamentos e Dafiro HCT 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. O seu médico pode necessitar de alterar a sua dose e/ou tomar outras 
+precauções. Em alguns casos, pode ter de interromper o tratamento com um dos medicamentos. Isto é 
+especialmente importante se estiver a usar um dos medicamentos abaixo descritos: </p>
+<p>Não tome com: </p>
+<ul>
+<li>
+<p>lítio (um medicamento utilizado no tratamento de alguns tipos de depressão); </p>
+</li>
+<li>
+<p>medicamentos ou substâncias que aumentem o nível de potássio no sangue. Tais como 
+suplementos de potássio ou substitutos salinos contendo potássio, medicamentos poupadores de 
+potássio e heparina; </p>
+</li>
+<li>
+<p>inibidores da ECA ou aliscireno (ver também informações sob os títulos “Não tome Dafiro 
+HCT" e “Advertências e precauções"). </p>
+</li>
+</ul>
+<p>Deve ser usado com precaução com: </p>
+<ul>
+<li>
+<p>álcool, comprimidos para dormir e anestésicos (fármacos utilizados durante a cirurgia ou outros 
+procedimentos); </p>
+</li>
+<li>
+<p>amantadina (terapêutica antiparkinsónica, também utilizado para tratar ou prevenir algumas 
+doenças causadas por vírus); </p>
+</li>
+<li>
+<p>fármacos anticolinérgicos (medicamentos utilizados para tratamento de vários distúrbios tais 
+como espasmos gastrointestinais, espasmos urinários na bexiga, asma, enjoo do movimento, 
+espasmos musculares, doença de Parkinson e como auxiliar de anestesia); </p>
+</li>
+<li>
+<p>medicamentos para tratamento de convulsões e medicamentos estabilizadores do humor 
+utilizados no tratamento da epilepsia e na doença bipolar (p. ex. carbamazepina, fenobarbital, 
+fenitoína, fosfenitoína, primidona); </p>
+</li>
+<li>
+<p>colestiramina, colestipol ou outras resinas (substâncias usadas sobretudo para tratamento de 
+níveis elevados de gorduras no sangue); </p>
+</li>
+<li>
+<p>sinvastatina (um medicamento usado para controlar os níveis altos de colesterol); </p>
+</li>
+<li>
+<p>ciclosporina (um medicamento utilizado no transplante para evitar a rejeição do órgão ou 
+noutras situações, por exemplo: artrite reumatoide ou dermatite atópica); </p>
+</li>
+<li>
+<p>medicamentos citotóxicos (usados para tratamento de cancro), tais como metotrexato ou 
+ciclofosfamida; </p>
+</li>
+<li>
+<p>digoxina ou outros glicosídeos digitálicos (medicamentos utilizados para o tratamento de 
+problemas do coração); </p>
+</li>
+<li>
+<p>verapamilo, diltiazem (medicamentos do coração); </p>
+</li>
+<li>
+<p>meios de contraste iodados (agentes utilizados em exames radiológicos); </p>
+</li>
+<li>
+<p>medicamentos para o tratamento da diabetes (fármacos orais tais como metformina ou 
+insulinas); </p>
+</li>
+<li>
+<p>medicamentos para o tratamento da gota, tais como alopurinol; </p>
+</li>
+<li>
+<p>medicamentos que podem aumentar os níveis de açúcar no sangue (beta-bloqueadores, 
+diazoxida); </p>
+</li>
+<li>
+<p>medicamentos que podem induzir “torsades de pointes" (batimento cardíaco irregular), tais 
+como antiarrítmicos (medicamentos utilizados para o tratamento de problemas de coração) e 
+alguns antipsicóticos; </p>
+</li>
+<li>
+<p>medicamentos que podem reduzir a quantidade de sódio no sangue, tais como antidepressivos, 
+antipsicóticos, antiepiléticos; </p>
+</li>
+<li>
+<p>medicamentos que podem reduzir a quantidade de potássio no sangue, tais como diuréticos, 
+corticosteroides, laxantes, anfotericina ou penicilina G; </p>
+</li>
+<li>
+<p>medicamentos para aumentar a pressão arterial tais como adrenalina ou noradrenalina; </p>
+</li>
+<li>
+<p>medicamentos usados para o VIH/SIDA (ex.: ritonavir, indinavir, nelfinavir); </p>
+</li>
+<li>
+<p>medicamentos usados para o tratamento de infeções fúngicas (ex.: cetoconazol, itraconazole); </p>
+</li>
+<li>
+<p>medicamentos usados para úlceras, úlcera esofágica e inflamação (carbenoxolona); </p>
+</li>
+<li>
+<p>medicamentos usados para alívio da dor ou inflamação, especialmente medicamentos anti-
+inflamatórios não-esteroides (AINEs), incluindo inibidores seletivos da cicloxigenase-2 
+(inibidores Cox-2); </p>
+</li>
+<li>
+<p>relaxantes musculares (medicamentos utilizados para relaxar os músculos que são utilizados 
+durante operações); </p>
+</li>
+<li>
+<p>nitroglicerina e outros nitratos, ou outras substâncias chamadas “vasodilatadores"; </p>
+</li>
+<li>
+<p>outros medicamentos para tratamento da pressão arterial elevada, incluindo metildopa; </p>
+</li>
+<li>
+<p>rifampicina (utilizada, por exemplo para tratar a tuberculose) ), eritromicina, claritromicina 
+(antibióticos); </p>
+</li>
+<li>
+<p>hipericão; </p>
+</li>
+<li>
+<p>dantroleno (perfusão para anomalias graves da temperatura corporal); </p>
+</li>
+<li>
+<p>vitamina D e sais de cálcio. </p>
+</li>
+</ul>
+<p>Fale com o seu médico antes de beber bebidas alcoólicas. O álcool pode fazer com que a pressão 
+arterial baixe demasiado e/ou pode aumentar o risco de ficar tonto ou desmaiar. </p>
+<p>Dafiro HCT com alimentos, bebidas e álcool 
+Toranjas ou sumo de toranja não devem ser consumidos por pessoas a quem foi prescrito Dafiro HCT. 
+Isto porque a toranja e o sumo de toranja podem levar a um aumento dos níveis no sangue da 
+substância ativa amlodipina, que pode causar um aumento imprevisível no efeito de redução da 
+pressão arterial de Dafiro HCT. Fale com o seu médico antes de beber álcool. O álcool pode fazer sua 
+pressão arterial diminuir demasiado e/ou aumentar a possibilidade de tonturas ou desmaios. </p>
+<p>Gravidez e amamentação 
+Gravidez 
+Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. O seu médico 
+normalmente irá aconselhá-la a interromper Dafiro HCT antes de engravidar ou assim que estiver 
+grávida e a tomar outro medicamento em vez de Dafiro HCT. Dafiro HCT não está recomendado no 
+início da gravidez e não pode ser tomado quando tiver mais de 3 meses de gravidez, uma vez que pode 
+ser gravemente prejudicial para o bebé se utilizado a partir desta altura. </p>
+<p>Aleitamento 
+Deverá informar o seu médico de que se encontra a amamentar ou que está prestes a iniciar o 
+aleitamento. Foi demonstrado que a amlodipina é excretada para o leite materno em pequenas 
+quantidades. Dafiro HCT não está recomendado em mães a amamentar, especialmente se o bebé for 
+recém-nascido ou prematuro; nestes casos o seu médico poderá indicar outro tratamento. </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Este medicamento pode provocar-lhe tonturas, sonolência, náuseas ou dor de cabeça. Se tiver estes 
+sintomas, não conduza nem utilize ferramentas ou máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar dafiro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar dafiro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. Isto contribuirá para obter os melhores resultados e diminuir o risco de efeitos indesejáveis. </p>
+<p>A dose habitual de Dafiro HCT é de um comprimido por dia. 
+− 
+É aconselhável tomar o seu medicamento à mesma hora todos os dias, de preferência de manhã. 
+− 
+Engula o comprimido inteiro com um copo de água. 
+− 
+Pode tomar Dafiro HCT com ou sem alimentos. Não tome Dafiro HCT com toranja ou sumo de 
+toranja. </p>
+<p>Dependendo da sua resposta ao tratamento, o seu médico poderá receitar uma dose mais elevada ou 
+mais baixa. </p>
+<p>Não exceda a dose prescrita. </p>
+<p>Se tomar mais Dafiro HCT do que deveria 
+Se acidentalmente tomou demasiados comprimidos de Dafiro HCT, fale com o seu médico 
+imediatamente.Pode necessitar de cuidados médicos. O excesso de líquido pode acumular-se nos 
+pulmões (edema pulmonar) provocando falta de ar que poderá desenvolver-se até 24-48 horas após a 
+ingestão. </p>
+<p>Caso se tenha esquecido de tomar Dafiro HCT 
+Se se esqueceu de tomar este medicamento, tome-o assim que se lembrar e depois tome a dose 
+seguinte à hora habitual. Se for quase a hora da próxima dose deve simplesmente tomar o comprimido 
+seguinte à hora habitual. Não tome uma dose a dobrar (dois comprimidos de uma só vez) para 
+compensar um comprimido que se esqueceu de tomar. </p>
+<p>Se parar de tomar Dafiro HCT 
+Interromper o tratamento com Dafiro HCT pode agravar a sua doença. Não deixe de tomar o 
+medicamento a menos que seja o seu médico a dizer-lhe que o faça. </p>
+<p>Tome sempre este medicamento, mesmo que se esteja a sentir bem 
+Os doentes com hipertensão arterial muitas vezes não sentem quaisquer sintomas da doença. Muitos 
+podem sentir-se bem. É muito importante que tome este medicamento exatamente como o seu médico 
+lhe recomenda de modo a obter os melhores resultados e reduzir o risco de efeitos indesejáveis. 
+Consulte o seu médico mesmo que se esteja a sentir bem. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, no entanto estes 
+não se manifestam em todas as pessoas. </p>
+<p>Como para qualquer associação contendo três substâncias ativas, os efeitos indesejáveis relacionados 
+com cada componentes individual não podem ser excluídos. Os efeitos indesejáveis notificados com 
+Dafiro HCT ou uma das suas três substâncias ativas (amlodipina, valsartan e hidroclorotiazida) estão 
+mencionadas abaixo e podem ocorrer com a utilização de Dafiro HCT. </p>
+<p>Alguns sintomas podem ser graves e requerem assistência médica imediata. 
+Consulte imediatamente um médico se sentir qualquer um dos seguintes efeitos indesejáveis 
+graves após tomar este medicamento: 
+Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>pressão arterial baixa (sensação de desmaio, sensação de cabeça oca, perda súbita de 
+consciência) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>redução significativa do débito urinário (redução da função renal), </li>
+</ul>
+<p>Raros (podem afetar até 1 em 1.000 pessoas): </p>
+<ul>
+<li>
+<p>hemorragias (sangramento) espontâneas </p>
+</li>
+<li>
+<p>batimento cardíaco irregular </p>
+</li>
+<li>
+<p>distúrbios hepáticos </p>
+</li>
+</ul>
+<p>Muito raros (podem afetar até 1 em 10.000 pessoas): </p>
+<ul>
+<li>
+<p>dificuldade respiratória súbita, dor no peito, falta de ar ou dificuldade em respirar. </p>
+</li>
+<li>
+<p>inchaço das pálpebras, face ou lábios </p>
+</li>
+<li>
+<p>inchaço da língua e garganta, que pode provocar grandes dificuldades em respirar </p>
+</li>
+<li>
+<p>reações graves na pele, incluindo erupção na pele intensa, urticária, vermelhidão da pele ao 
+longo de todo o seu corpo, comichão intensa, bolhas, descamação e inchaço da pele, inflamação 
+das membranas mucosas (Síndrome de Stevens-Johnson) ou outras reações alérgicas </p>
+</li>
+<li>
+<p>insuficiência respiratória aguda (os sinais incluem falta de ar grave, febre, fraqueza e confusão) </p>
+</li>
+<li>
+<p>ataque cardíaco </p>
+</li>
+<li>
+<p>inflamação do pâncreas que pode causar dor grave abdominal e nas costas acompanhada de 
+sensação de mal estar </p>
+</li>
+<li>
+<p>fraqueza, nódoas negras, febre e infeções frequentes </p>
+</li>
+<li>
+<p>rigidez </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis podem incluir: 
+Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>nível baixo de potássio no sangue </p>
+</li>
+<li>
+<p>aumento da gordura no sangue </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>sonolência </p>
+</li>
+<li>
+<p>palpitações (consciência do seu batimento cardíaco) </p>
+</li>
+<li>
+<p>rubor </p>
+</li>
+<li>
+<p>inchaço dos tornozelos (edema) </p>
+</li>
+<li>
+<p>dor abdominal </p>
+</li>
+<li>
+<p>mal-estar no estômago após a refeição </p>
+</li>
+<li>
+<p>cansaço </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>urinar com frequência </p>
+</li>
+<li>
+<p>nível elevado de ácido úrico no sangue </p>
+</li>
+<li>
+<p>nível baixo de magnésio no sangue </p>
+</li>
+<li>
+<p>nível baixo de sódio no sangue </p>
+</li>
+<li>
+<p>tonturas, desmaio </p>
+</li>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>naúseas e vómitos </p>
+</li>
+<li>
+<p>erupção na pele com comichão e outros tipos de erupção na pele </p>
+</li>
+<li>
+<p>incapacidade de atingir e manter a ereção </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>aumento do ritmo cardíaco </p>
+</li>
+<li>
+<p>sensação de andar à roda </p>
+</li>
+<li>
+<p>alterações da visão </p>
+</li>
+<li>
+<p>mal-estar de estômago </p>
+</li>
+<li>
+<p>dor no peito </p>
+</li>
+<li>
+<p>aumento da ureia plasmática, creatinina e ácido úrico no sangue </p>
+</li>
+<li>
+<p>nível elevado de cálcio, gordura ou sódio no sangue </p>
+</li>
+<li>
+<p>diminuição do potássio no sangue </p>
+</li>
+<li>
+<p>mau hálito </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>boca seca </p>
+</li>
+<li>
+<p>aumento de peso </p>
+</li>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>alteração do paladar </p>
+</li>
+<li>
+<p>dor nas costas </p>
+</li>
+<li>
+<p>inchaço das articulações </p>
+</li>
+<li>
+<p>cãibras/fraqueza/dor muscular </p>
+</li>
+<li>
+<p>dor nas extremidades </p>
+</li>
+<li>
+<p>dificuldade em estar de pé ou andar normalmente </p>
+</li>
+<li>
+<p>fraqueza </p>
+</li>
+<li>
+<p>descoordenação </p>
+</li>
+<li>
+<p>tonturas ao estar de pé ou após o exercício </p>
+</li>
+<li>
+<p>falta de energia </p>
+</li>
+<li>
+<p>distúrbios do sono </p>
+</li>
+<li>
+<p>sensação de formigueiro ou dormência </p>
+</li>
+<li>
+<p>neuropatia </p>
+</li>
+<li>
+<p>perda súbita e temporária da consciência </p>
+</li>
+<li>
+<p>pressão arterial baixa ao estar de pé </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>irritação da garganta </p>
+</li>
+<li>
+<p>transpiração aumentada </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>inchaço, vermelhidão e dor ao longo de uma veia </p>
+</li>
+<li>
+<p>vermelhidão da pele </p>
+</li>
+<li>
+<p>tremores </p>
+</li>
+<li>
+<p>alterações do humor </p>
+</li>
+<li>
+<p>ansiedade </p>
+</li>
+<li>
+<p>depressão </p>
+</li>
+<li>
+<p>insónias </p>
+</li>
+<li>
+<p>alterações do paladar </p>
+</li>
+<li>
+<p>desmaio </p>
+</li>
+<li>
+<p>diminuição da sensação de dor </p>
+</li>
+<li>
+<p>distúrbios da visão </p>
+</li>
+<li>
+<p>perda de visão </p>
+</li>
+<li>
+<p>zumbidos </p>
+</li>
+<li>
+<p>espirros/corrimento nasal provocado por uma inflamação no revestimento do nariz (rinite) </p>
+</li>
+<li>
+<p>alterações dos hábitos intestinais </p>
+</li>
+<li>
+<p>indigestão </p>
+</li>
+<li>
+<p>queda de cabelo </p>
+</li>
+<li>
+<p>comichão na pele </p>
+</li>
+<li>
+<p>descoloração da pele </p>
+</li>
+<li>
+<p>alterações na passagem da urina </p>
+</li>
+<li>
+<p>aumento da necessidade de urinar à noite </p>
+</li>
+<li>
+<p>aumento do número de vezes que urina </p>
+</li>
+<li>
+<p>desconforto ou aumento das mamas nos homens </p>
+</li>
+<li>
+<p>dor </p>
+</li>
+<li>
+<p>má disposição </p>
+</li>
+<li>
+<p>diminuição de peso </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1.000 pessoas): </p>
+<ul>
+<li>
+<p>nível baixo de plaquetas no sangue (por vezes com sangramento ou nódoas negras) </p>
+</li>
+<li>
+<p>açúcar na urina </p>
+</li>
+<li>
+<p>nível elevado de açúcar no sangue </p>
+</li>
+<li>
+<p>agravamento do estado metabólico do diabético </p>
+</li>
+<li>
+<p>desconforto abdominal </p>
+</li>
+<li>
+<p>prisão de ventre </p>
+</li>
+<li>
+<p>distúrbios hepáticos que podem ocorrer com amarelecimento da pele e dos olhos, ou urina de 
+coloração escura (anemia hemolítica) </p>
+</li>
+<li>
+<p>aumento da sensibilidade da pele ao sol </p>
+</li>
+<li>
+<p>manchas arroxeadas na pele </p>
+</li>
+<li>
+<p>perturbações nos rins </p>
+</li>
+<li>
+<p>confusão </p>
+</li>
+</ul>
+<p>Muito raros (podem afetar até 1 em 10.000 pessoas): </p>
+<ul>
+<li>
+<p>diminuição do número de células brancas do sangue </p>
+</li>
+<li>
+<p>diminuição do número de plaquetas no sangue o que pode resultar num aumento pouco comum 
+de nódoas negras ou hemorragias (lesões nas células vermelhas do sangue) </p>
+</li>
+<li>
+<p>inchaço das gengivas </p>
+</li>
+<li>
+<p>inchaço abdominal (gastrite) </p>
+</li>
+<li>
+<p>inflamação do fígado (hepatite) </p>
+</li>
+<li>
+<p>amarelecimento da pele (icterícia) </p>
+</li>
+<li>
+<p>aumento das enzimas do fígado que poderão ter efeito sobre alguns exames médicos </p>
+</li>
+<li>
+<p>aumento da tensão muscular </p>
+</li>
+<li>
+<p>inflamação dos vasos sanguíneos geralmente com erupções na pele </p>
+</li>
+<li>
+<p>sensibilidade à luz </p>
+</li>
+<li>
+<p>disfunções que combinam rigidez, tremor e/ou alterações no movimento </p>
+</li>
+<li>
+<p>febre, dor de garganta ou aftas, infeções mais frequentes (ausência ou nível baixo de glóbulos 
+brancos) </p>
+</li>
+<li>
+<p>pele pálida, cansaço, falta de ar, urina de cor escura (anemia hemolítica, descida anormal dos 
+glóbulos vermelhos tanto nos vasos sanguíneos como em qualquer parte do corpo) </p>
+</li>
+<li>
+<p>confusão, cansaço, espasmos musculares e espasmos, respiração rápida (alcalose hipoclorémica) </p>
+</li>
+<li>
+<p>dor intensa na parte superior do estômago (inflamação do pâncreas) </p>
+</li>
+<li>
+<p>dificuldades em respirar com febre, tosse, sibilação, falta de ar (distúrbio respiratório, edema 
+pulmonar, pneunomite) </p>
+</li>
+<li>
+<p>erupção facial, dor nas articulações, perturbações musculares, febre (lúpus eritematoso) </p>
+</li>
+<li>
+<p>inflamação dos vasos sanguíneos com sintomas tais como erupção na pele, manchas vermelho-
+arroxeadas, febre (vasculite) </p>
+</li>
+<li>
+<p>distúrbios graves da pele provocando erupção na pele, vermelhidão, vesículas nos lábios, olhos 
+ou boca, descamação da pele, febre (necrólise epidérmica tóxica) </p>
+</li>
+</ul>
+<p>Desconhecidos (a frequência não pode ser calculada a partir dos dados disponíveis): </p>
+<ul>
+<li>
+<p>alterações nas análises sanguíneas para a função renal, aumento do potássio no sangue, nível 
+baixo de glóbulos vermelhos </p>
+</li>
+<li>
+<p>alterações do número dos glóbulos vermelhos </p>
+</li>
+<li>
+<p>nível baixo de um certo tipo de glóbulos brancos e de plaquetas </p>
+</li>
+<li>
+<p>aumento do nível de creatinina no sangue </p>
+</li>
+<li>
+<p>alterações nos resultados de análises ao fígado </p>
+</li>
+<li>
+<p>redução significativa do débito urinário </p>
+</li>
+<li>
+<p>inflamação dos vasos sanguíneos </p>
+</li>
+<li>
+<p>fraqueza, nódoas negras e infeções frequentes (anemia aplástica) </p>
+</li>
+<li>
+<p>visão diminuída ou dor nos olhos devido a pressão elevada (sinais possíveis de acumulação de 
+líquido na camada vascular do olho (efusão coroidal) ou de glaucoma agudo de ângulo 
+fechado) </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>diminuição grave do débito urinário (sinais possíveis de perturbações renais ou falência renal) </p>
+</li>
+<li>
+<p>doença grave de pele que provoca erupção na pele, pele vermelha, vesículas nos lábios, olhos ou 
+boca, descamação da pele, febre (eritema multiforme) </p>
+</li>
+<li>
+<p>espasmos musculares </p>
+</li>
+<li>
+<p>febre (pirexia) </p>
+</li>
+<li>
+<p>formação de bolhas na pele (sinal de uma condição chamada dermatite bolhosa) </p>
+</li>
+<li>
+<p>cancro da pele e do lábio (cancro da pele não-melanoma) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar dafiro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar dafiro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 30°C. </p>
+<p>Conservar na embalagem de origem para proteger da humidade. </p>
+<p>Não utilize Dafiro HCT se verificar que a embalagem está danificada ou apresenta sinais de 
+adulteração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Dafiro HCT </p>
+<p>Dafiro HCT 5 mg/160 mg/12,5 mg comprimidos revestidos por película 
+As substâncias ativas de Dafiro HCT são amlodipina (como besilato de amlodipina), valsartan e 
+hidroclorotiazida. Cada comprimido revestido por película contém 5 mg de amlodipina (como besilato 
+de amlodipina), 160 mg de valsartan e 12,5 mg de hidroclorotiazida. </p>
+<p>Os outros componentes são celulose microcristalina; crospovidona (tipo A); sílica, coloidal anidra; 
+estearato de magnésio; hipromelose (substituição tipo 2910 (3 mPa.s)), macrogol 4000, talco, dióxido 
+de titânio(E171). </p>
+<p>Dafiro HCT 10 mg/160 mg/12,5 mg comprimidos revestidos por película 
+As substâncias ativas de Dafiro HCT são amlodipina (como besilato de amlodipina), valsartan e 
+hidroclorotiazida. Cada comprimido revestido por película contém 10 mg de amlodipina (como 
+besilato de amlodipina), 160 mg de valsartan e 12,5 mg de hidroclorotiazida. </p>
+<p>Os outros componentes são celulose microcristalina; crospovidona (tipo A); sílica, coloidal anidra; 
+estearato de magnésio; hipromelose (substituição tipo 2910 (3 mPa.s)), macrogol 4000, talco, dióxido 
+de titânio(E171), óxido de ferro amarelo(E172), óxido de ferro vermelho(E172). </p>
+<p>Dafiro HCT 5 mg/160 mg/25 mg comprimidos revestidos por película 
+As substâncias ativas de Dafiro HCT são amlodipina (como besilato de amlodipina), valsartan e 
+hidroclorotiazida. Cada comprimido revestido por película contém 5 mg de amlodipina (como besilato 
+de amlodipina), 160 mg de valsartan e 25 mg de hidroclorotiazida. </p>
+<p>Os outros componentes são celulose microcristalina; crospovidona (tipo A); sílica, coloidal anidra, 
+estearato de magnésio, hipromelose (substituição tipo 2910 (3 mPa.s)), macrogol 4000, talco, dióxido 
+de titânio(E171), óxido de ferro amarelo(E172). </p>
+<p>Dafiro HCT 10 mg/160 mg/25 mg comprimidos revestidos por película 
+As substâncias ativas de Dafiro HCT são amlodipina (como besilato de amlodipina), valsartan e 
+hidroclorotiazida. Cada comprimido revestido por película contém 10 mg de amlodipina (como 
+besilato de amlodipina), 160 mg de valsartan e 25 mg de hidroclorotiazida. </p>
+<p>Os outros componentes são celulose microcristalina; crospovidona (tipo A); sílica, coloidal anidra, 
+estearato de magnésio, hipromelose (substituição tipo 2910 (3 mPa.s)), macrogol 4000, talco, óxido de 
+ferro amarelo(E172). </p>
+<p>Dafiro HCT 10 mg/320 mg/25 mg comprimidos revestidos por película 
+As substâncias ativas de Dafiro HCT são amlodipina (como besilato de amlodipina), valsartan e 
+hidroclorotiazida. Cada comprimido revestido por película contém 10 mg de amlodipina (como 
+besilato de amlodipina), 320 mg de valsartan e 25 mg de hidroclorotiazida. </p>
+<p>Os outros componentes são celulose microcristalina; crospovidona (tipo A); sílica, coloidal anidra, 
+estearato de magnésio, hipromelose (substituição tipo 2910 (3 mPa.s)), macrogol 4000, talco, óxido de 
+ferro amarelo(E172). </p>
+<p>Qual o aspeto de Dafiro HCT e conteúdo da embalagem 
+Dafiro HCT 5 mg/160 mg/12,5 mg comprimidos revestidos por película são brancos, ovais com 
+“NVR" numa face e “VCL" na outra face. Tamanho aproximado: 15 mm (comprimento) x 5,9 mm 
+(largura). </p>
+<p>Dafiro HCT 10 mg/160 mg/12,5 mg comprimidos revestidos por película são amarelo-claro, ovais 
+com “NVR" numa face e “VDL" na outra face. Tamanho aproximado: 15 mm (comprimento) x 
+5,9 mm (largura). </p>
+<p>Dafiro HCT 5 mg/160 mg/25 mg comprimidos revestidos por película são amarelos, ovais com 
+“NVR" numa face e “VEL" na outra face. Tamanho aproximado: 15 mm (comprimento) x 5,9 mm 
+(largura). </p>
+<p>Dafiro HCT 10 mg/160 mg/25 mg comprimidos revestidos por película são amarelo-torrado, ovais 
+com “NVR" numa face e “VHL" na outra face. Tamanho proximado: 15 mm (comprimento) x 5,9 mm 
+(largura). </p>
+<p>Dafiro HCT 10 mg/320 mg/25 mg comprimidos revestidos por película são amarelo-torrado, ovais 
+com “NVR" numa face e “VFL" na outra face. Tamanho aproximado: 19 mm (largura) x 7,5 mm 
+(largura). </p>
+<p>Dafiro HCT está disponível em embalagens de 14, 28, 30, 56, 90, 98 or 280 comprimidos revestidos 
+por película, em embalagens múltiplas contendo 280 comprimidos (contendo 4 embalagens, cada 
+contendo 70 comprimidos, ou 20 embalagens, cada contendo 14 comprimidos), e em embalagens 
+hospitalares contendo 56, 98 ou 280 comprimidos em blisters de dose destacável. É possível que não 
+sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Farma S.p.A. 
+Via Provinciale Schito 80058 Torre Annunziata (NA) 
+Itália </p>
+<p>Novartis Farmacéutica S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Espanha </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nuremberga 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft.<br />
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Esteve Pharmaceuticals, S.A. 
+Tel: +34 93 446 60<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência 
+Europeia de Medicamentos http://www.ema.europa.eu </p>         </div>"""      
+
+
+
 
 
                     
@@ -1690,6 +2764,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-3b3e934500294234d1df16dd589129e1"
 * entry[0].resource = composition-da-3b3e934500294234d1df16dd589129e1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3b3e934500294234d1df16dd589129e1"
+* entry[=].resource = mp3b3e934500294234d1df16dd589129e1
+                            
+                    
+Instance: bundlepackageleaflet-pt-3b3e934500294234d1df16dd589129e1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for dafiro Package Leaflet for language pt"
+Description: "ePI document Bundle for dafiro Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-3b3e934500294234d1df16dd589129e1"
+* entry[0].resource = composition-pt-3b3e934500294234d1df16dd589129e1
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp3b3e934500294234d1df16dd589129e1"
@@ -1791,6 +2887,18 @@ RuleSet: 3b3e934500294234d1df16dd589129e1ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-3b3e934500294234d1df16dd589129e1) // dafiro pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

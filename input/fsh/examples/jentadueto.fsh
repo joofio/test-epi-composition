@@ -999,6 +999,546 @@ hjemmeside http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-dea6bb992c7a311f66506a0f31878b7e
+InstanceOf: CompositionUvEpi
+Title: "Composition for jentadueto Package Leaflet"
+Description:  "Composition for jentadueto Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpdea6bb992c7a311f66506a0f31878b7e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - jentadueto"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Jentadueto e para que é utilizado
+2. O que precisa de saber antes de tomar Jentadueto
+3. Como tomar Jentadueto
+4. Efeitos indesejáveis possíveis
+5. Como conservar Jentadueto
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é jentadueto e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é jentadueto e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O nome do seu comprimido é Jentadueto. Contém duas substâncias ativas diferentes: linagliptina e 
+metformina.
+-
+A linagliptina pertence a uma classe de medicamentos chamados inibidores da DPP-4 
+(inibidores da dipeptidil peptidase 4).
+-
+A metformina pertence a uma classe de medicamentos chamada biguanidas.
+Como funciona Jentadueto
+As duas substâncias ativas funcionam em conjunto para controlar os níveis elevados de açúcar no 
+sangue em doentes adultos com uma forma de diabetes chamada “diabetes mellitus tipo 2". 
+Conjuntamente com a dieta e exercício, este medicamento ajuda a melhorar os níveis e efeitos da 
+insulina após a refeição e reduz a quantidade de açúcar produzida pelo seu corpo.
+Este medicamento pode ser usado isoladamente ou com outros medicamentos para a diabetes, como as 
+sulfonilureias, empagliflozina ou insulina.
+O que é a diabetes tipo 2?
+A diabetes tipo 2 é uma doença na qual o seu corpo não produz insulina suficiente e a insulina que o 
+seu corpo produz não funciona tão bem como deveria. O seu corpo pode também produzir demasiado 
+açúcar. Quando isto acontece, o açúcar (glucose) acumula-se no sangue. Tal pode levar a problemas 
+médicos graves, como doenças cardíacas, doenças renais, cegueira e amputação.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar jentadueto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar jentadueto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Jentadueto</h2>
+<p>se tem alergia à linagliptina ou à metformina ou a qualquer outro componente deste 
+medicamento (indicados na secção 6).
+-
+se tem uma função renal gravemente reduzida.
+53
+-
+se tem diabetes não controlada, com por exemplo, hiperglicemia grave (glucose elevada no 
+sangue), náuseas, vómitos, diarreia, perda de peso rápida, acidose láctica (ver “Risco de acidose 
+láctica" abaixo) ou cetoacidose. A cetoacidose é um problema que ocorre quando substâncias 
+chamadas “corpos cetónicos" se acumulam no sangue, podendo provocar pré-coma diabético. 
+Os sintomas incluem dor de estômago, respiração rápida e profunda, sonolência ou 
+aparecimento no hálito de um cheiro frutado invulgar.
+-
+se alguma vez tiver estado em pré‑coma diabético;
+-
+se tem uma infeção grave como, por exemplo, uma infeção que afeta os pulmões, o sistema 
+brônquico ou os rins. As infeções graves podem provocar problemas renais, levando ao risco de 
+sofrer acidose láctica (ver “Advertências e precauções").
+-
+se o seu corpo tiver perdido bastante água (desidratação), p. ex., devido a diarreia prolongada ou 
+grave, ou se tiver vomitado várias vezes seguidas. A desidratação pode provocar problemas nos 
+rins, levando ao risco de sofrer acidose láctica (ver “Advertências e precauções").
+-
+se está a receber tratamento para a insuficiência cardíaca aguda ou se teve recentemente um 
+ataque cardíaco, se tem problemas graves de circulação (como “choque") ou se tem dificuldades 
+respiratórias. Estas situações podem fazer com que o oxigénio não seja transportado para os 
+tecidos, levando ao risco de sofrer acidose láctica (ver “Advertências e precauções").
+-
+se tem problemas de fígado.
+-
+se consome álcool em excesso, quer diariamente quer ocasionalmente (ver secção “Jentadueto 
+com álcool").
+Não tome Jentadueto se qualquer uma das situações acima indicadas se aplica a si. Em caso de 
+dúvidas, fale com o seu médico ou farmacêutico antes de tomar este medicamento.
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Jentadueto
+-
+se tem diabetes tipo 1 (o seu corpo não produz insulina). Jentadueto não deve ser utilizado para 
+tratar esta doença.
+-
+se está a tomar insulina ou um medicamento antidiabético conhecido por “sulfonilureia", o seu 
+médico poderá querer diminuir a sua dose de insulina ou de sulfonilureia quando tomar 
+qualquer um deles juntamente com Jentadueto, para evitar níveis de açúcar baixos no sangue 
+(hipoglicemia).
+-
+se sofrer ou tiver sofrido de uma doença do pâncreas
+Se tiver sintomas de pancreatite aguda, como dor abdominal intensa e persistente, deve consultar o seu 
+médico.
+A formação de bolhas na pele pode ser um sinal de uma doença chamada penfigoide bolhoso. Caso 
+surjam estas bolhas, o médico pode dizer-lhe para parar de tomar Jentadueto.
+Caso tenha dúvidas se alguma destas situações se aplica a si, fale com o seu médico, farmacêutico ou 
+enfermeiro antes de tomar Jentadueto.
+Os problemas de pele são uma complicação frequente da diabetes. É aconselhável seguir as 
+recomendações do seu médico ou enfermeiro sobre os cuidados a ter com a pele e com os pés.
+Risco de acidose láctica.
+Devido ao componente metformina, Jentadueto pode causar uma complicação muito rara, mas muito 
+grave chamada acidose láctica, particularmente se os seus rins não estiverem a funcionar bem. O risco 
+de sofrer acidose láctica aumenta também em caso de diabetes não controlada, infeção grave, jejum 
+prolongado ou consumo de álcool, desidratação (ver mais informações abaixo), problemas de fígado e 
+quaisquer problemas médicos em que uma zona do corpo receba menos oxigénio (como nas doenças 
+graves e agudas do coração).
+Se alguma destas situações se aplica a si, fale com o seu médico para obter mais indicações
+Pare de tomar Jentadueto durante um curto intervalo de tempo, se tiver algum problema que 
+possa estar associado a desidratação (uma grande perda de líquidos), tal como vómitos graves, 
+54
+diarreia, febre, exposição ao calor ou se beber menos líquidos do que o normal. Fale com o seu médico 
+para obter mais indicações.
+Pare de tomar Jentadueto e contacte imediatamente um médico ou o hospital mais próximo se 
+tiver um ou mais sintomas de acidose láctica, pois este problema pode levar a coma.
+Os sintomas de acidose láctica incluem:
+-
+vómitos
+-
+dor de estômago (dor abdominal)
+-
+cãibras musculares
+-
+sensação de mal-estar geral, com grande cansaço
+-
+dificuldade em respirar
+-
+diminuição da temperatura do corpo e dos batimentos cardíacos
+A acidose láctica é uma emergência médica e tem de ser tratada no hospital.
+Se necessitar de efetuar uma grande cirurgia, tem de parar de tomar Jentadueto durante a intervenção e 
+por algum tempo depois desta. O seu médico decidirá quando tem de parar e quando prosseguir com o 
+seu tratamento com Jentadueto.
+Durante o tratamento com Jentadueto, o seu médico irá verificar o funcionamento dos seus rins, pelo 
+menos, uma vez por ano ou com mais frequência, se for idoso, e/ou se os seus rins estiverem a 
+funcionar pior.
+Crianças e adolescentes
+Este medicamento não é recomendado para crianças e adolescentes com menos de 18 anos. Não é 
+eficaz em crianças e adolescentes com idades compreendidas entre os 10 e os 17 anos de idade. 
+Desconhece-se se este medicamento é seguro e eficaz quando utilizado em crianças com menos de 
+10 anos de idade.
+Outros medicamentos e Jentadueto
+Se necessitar de levar uma injeção na corrente sanguínea com um meio de contraste que contenha 
+iodo, por exemplo, no contexto de uma radiografia ou cintigrafia, tem de parar de tomar Jentadueto 
+antes ou no momento da injeção. O seu médico decidirá quando tem de parar e quando prosseguir com 
+o seu tratamento com Jentadueto.
+Informe o seu médico se estiver a tomar, tiver tomado recentemente ou se vier a tomar outros 
+medicamentos. Pode necessitar de análises mais frequentes da glucose no sangue e da função renal, ou 
+o seu médico pode necessitar de ajustar a dosagem de Jentadueto. É especialmente importante 
+mencionar o seguinte:
+-
+medicamentos que aumentam a produção de urina (diuréticos)
+-
+medicamentos utilizados para tratar a dor e a inflamação (AINE e inibidores da COX-2, tais como 
+o ibuprofeno e o celecoxib)
+-
+determinados medicamentos para o tratamento da tensão arterial elevada (inibidores da ECA e 
+antagonistas do recetor da angiotensina II)
+-
+medicamentos que podem alterar a quantidade de metformina no seu sangue, especialmente se 
+tiver uma função renal diminuída (como o verapamilo, rifampicina, cimetidina, dolutegravir, 
+ranolazina, trimetoprim, vandetanib, isavuconazol, crizotinib, olaparib).
+-
+carbamazepina, fenobarbital ou fenitoína. Estes podem ser utilizados para controlar crises 
+epiléticas (convulsões) ou dor crónica.
+-
+rifampicina. É um antibiótico utilizado para tratar infeções tais como tuberculose.
+-
+medicamentos utilizados no tratamento de doenças que envolvam inflamação, como a asma e a 
+artrite (corticosteroides).
+-
+broncodilatadores (β-simpaticomiméticos) para o tratamento da asma brônquica.
+-
+medicamentos contendo álcool.
+55
+Jentadueto com álcool
+Evite o consumo excessivo de álcool enquanto estiver a tomar Jentadueto, uma vez que tal pode 
+aumentar o risco de acidose láctica (ver a secção “Advertências e precauções").
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Não deve utilizar Jentadueto se estiver grávida. Não se sabe se este medicamento é prejudicial para o 
+feto (bebé que ainda não nasceu).
+A metformina passa para o leite materno em pequenas quantidades. Desconhece-se se a linagliptina 
+passa para o leite materno. Consulte o seu médico se pretende amamentar durante a toma deste 
+medicamento.
+Condução de veículos e utilização de máquinas
+Os efeitos de Jentadueto sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis.
+No entanto, a toma de Jentadueto em associação com medicamentos chamados sulfonilureias ou com 
+insulina pode causar níveis de açúcar no sangue demasiado baixos (hipoglicemia), o que poderá afetar 
+a sua capacidade de conduzir veículos e utilizar máquinas ou realizar trabalhos sem base de segurança.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar jentadueto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar jentadueto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.
+Quantidade a tomar
+A quantidade de Jentadueto que irá tomar varia consoante a sua doença e as doses de metformina e/ou 
+comprimidos individuais de linagliptina e metformina que toma atualmente. O seu médico irá 
+dizer-lhe a dose exata a tomar deste medicamento.
+Como tomar este medicamento
+-
+um comprimido duas vezes por dia, por via oral, na dose receitada pelo seu médico.
+-
+às refeições para reduzir a probabilidade de sentir desconforto no estômago.
+Não deve exceder a dose diária máxima recomendada de 5 mg de linagliptina e 2000 mg de cloridrato 
+de metformina.
+Continue a tomar Jentadueto enquanto o seu médico lho receitar para que possa continuar a ajudar a 
+controlar os seus níveis de açúcar no sangue. O seu médico pode prescrever-lhe este medicamento 
+juntamente com outro medicamento antidiabético oral ou com insulina. Lembre-se de tomar todos os 
+medicamentos conforme indicado pelo seu médico para obter os melhores resultados para a sua saúde.
+Deve continuar com a sua dieta durante o tratamento com Jentadueto e procurar que a sua ingestão de 
+hidratos de carbono seja uniformemente distribuída ao longo do dia. Se tem excesso de peso, 
+mantenha a sua dieta hipocalórica, conforme indicado. É improvável que este medicamento 
+isoladamente provoque níveis anormalmente baixos de açúcar no sangue (hipoglicemia). Quando 
+Jentadueto é utilizado com uma sulfonilureia ou com insulina, podem ocorrer níveis baixos de açúcar 
+no sangue e o seu médico pode reduzir a dose da sulfonilureia ou de insulina.
+Se tomar mais Jentadueto do que deveria
+Se tomar mais comprimidos de Jentadueto do que deveria, pode sofrer acidose láctica. Os sintomas da 
+acidose láctica são inespecíficos, incluindo enjoos e vómitos, dores de estômago com cãibras 
+musculares, sensação geral de indisposição com um cansaço intenso e dificuldade em respirar. Os 
+outros sintomas são a diminuição da temperatura do corpo e dos batimentos do coração. Se isto lhe 
+56
+acontecer, pode necessitar de tratamento hospitalar imediato, pois a acidose láctica pode 
+provocar coma. Pare imediatamente de tomar este medicamento e contacte logo um médico ou o 
+hospital mais próximo (ver secção 2). Leve a embalagem do medicamento consigo.
+Caso se tenha esquecido de tomar Jentadueto
+Se se esquecer de tomar uma dose, tome-a assim que se lembrar. No entanto, se estiver quase na hora 
+de tomar a dose seguinte, tome apenas essa. Não tome uma dose a dobrar para compensar uma dose 
+que se esqueceu de tomar. Nunca tome duas doses ao mesmo tempo (de manhã ou à noite).
+Se parar de tomar Jentadueto
+Continue a tomar Jentadueto até que o seu médico lhe diga para parar. Isto ajuda a manter o açúcar no 
+seu sangue sob controlo.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Alguns sintomas necessitam de cuidados médicos imediatos
+Deve parar de tomar Jentadueto e consultar imediatamente o seu médico, se apresentar os seguintes 
+sintomas de açúcar baixo no sangue (hipoglicemia): tremor, suores, ansiedade, visão turva, 
+formigueiro nos lábios, palidez, alteração de humor ou confusão. A hipoglicemia (cuja frequência é 
+muito frequente [pode afetar mais de 1 em 10 pessoas]) é um efeito indesejável conhecido da 
+associação de Jentadueto com uma sulfonilureia e da associação de Jentadueto com insulina.
+Jentadueto pode causar um efeito indesejável muito raro (pode afetar até 1 utilizador em cada 10 000), 
+mas muito grave, chamado acidose láctica (ver secção “Advertências e precauções"). Se isto 
+acontecer, tem de parar de tomar Jentadueto e contactar imediatamente um médico ou o hospital 
+mais próximo, pois a acidose láctica pode provocar coma.
+Alguns doentes apresentaram inflamação do pâncreas (pancreatite; frequência rara, pode afetar até 1 
+em 1000 pessoas).
+PARE de tomar Jentadueto e entre imediatamente em contacto com um médico se notar qualquer um 
+dos seguintes efeitos indesejáveis graves:
+-
+Dores muito fortes e persistentes no abdómen (na zona do estômago) que poderão estender-se 
+até às suas costas, assim como náuseas e vómitos, já que podem ser sinais de inflamação do 
+pâncreas (pancreatite).
+Outros efeitos adversos de Jentadueto incluem:
+Alguns doentes tiveram reações alérgicas (cuja frequência é rara), as quais podem ser graves, 
+incluindo pieira, falta de ar (hiperreatividade brônquica; cuja frequência é pouco frequente [pode 
+afetar até 1 em 100 pessoas]). Alguns doentes apresentaram erupção na pele (cuja frequência é pouco 
+frequente), urticária (cuja frequência é rara), e inchaço da face, lábios, língua e garganta, que podem 
+causar dificuldade em respirar ou engolir (angioedema; cuja frequência é rara). Se apresentar algum 
+dos sinais de doença acima descritos, pare de tomar Jentadueto e consulte o seu médico 
+imediatamente. O seu médico pode prescrever-lhe um medicamento para o tratamento da reação 
+alérgica e um medicamento diferente para a diabetes.
+57
+Alguns doentes apresentaram os seguintes efeitos indesejáveis enquanto estavam a tomar Jentadueto:
+-
+Frequentes (podem afetar até 1 em 10 pessoas): diarreia, aumento das enzimas no sangue 
+(aumento da lipase), sensação de enjoo (náuseas)
+-
+Pouco frequentes: inflamação do nariz ou garganta (nasofaringite), tosse, perda de apetite 
+(diminuição do apetite), vómitos, aumento das enzimas no sangue (aumento da amilase) 
+comichão (prurido).
+-
+Raros: formação de bolhas na pele (penfigoide bolhoso).
+Alguns doentes tiveram os seguintes efeitos indesejáveis enquanto estava a tomar Jentadueto com 
+insulina
+-
+Pouco frequentes: alterações da função do fígado, prisão de ventre
+Efeitos indesejáveis da metformina quando tomada isoladamente, não descritos com Jentadueto:
+-
+Muito frequentes: dor abdominal.
+-
+Frequentes (podem afetar até 1 em 10 pessoas): sabor metálico (alteração do paladar), níveis de 
+vitamina B12 no sangue diminuídos ou baixos (os sintomas poderão incluir cansaço extremo 
+(fadiga), língua vermelha e dorida (glossite), formigueiros (parestesia) ou pele pálida ou 
+amarela). O seu médico poderá marcar algumas análises para determinar a causa dos seus 
+sintomas, uma vez que alguns destes poderão também ser causados pela diabetes ou deverem-se 
+a outros problemas de saúde não relacionados.
+-
+Muito raros (podem afetar até 1 em 10 000 pessoas): hepatite (um problema no fígado), reações 
+na pele como vermelhidão na pele (eritema).
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. 
+Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar jentadueto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar jentadueto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no blister, frasco e cartonagem após 
+VAL. O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de qualquer temperatura especial de conservação.
+Blister: Conservar na embalagem de origem para proteger da humidade.
+Frasco: Manter o frasco bem fechado para proteger da humidade.
+Não utilize este medicamento se verificar que a embalagem está danificada ou apresenta sinais visíveis 
+de deterioração.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Jentadueto</h2>
+<p>As substâncias ativas são a linagliptina e o cloridrato de metformina.
+58
+-
+Cada comprimido revestido por película de Jentadueto 2,5 mg/850 mg contém 2,5 mg de 
+linagliptina e 850 mg de cloridrato de metformina.
+-
+Cada comprimido revestido por película de Jentadueto 2,5 mg/1000 mg contém 2,5 mg de 
+linagliptina e 1000 mg de cloridrato de metformina.
+-
+Os outros componentes são:
+-
+Núcleo do comprimido: arginina, copovidona, estearato de magnésio, amido de milho, 
+sílica coloidal anidra.
+-
+Película de revestimento: hipromelose, dióxido de titânio (E171), talco, propilenoglicol.
+Jentadueto 2,5 mg/850 mg comprimidos revestidos por película contêm também: óxido 
+de ferro vermelho (E172) e óxido de ferro amarelo (E172).
+Jentadueto 2,5 mg/1000 mg comprimidos revestidos por película contêm também: óxido 
+de ferro vermelho (E172).
+Qual o aspeto de Jentadueto e conteúdo da embalagem
+Jentadueto 2,5 mg/850 mg são comprimidos revestidos por película (comprimidos), cor-de-laranja 
+claro, ovais, biconvexos. Têm gravado “D2/850" numa face e o logótipo da Boehringer Ingelheim na 
+outra face.
+Jentadueto 2,5 mg/1000 mg são comprimidos revestidos por película (comprimidos), cor-de-rosa 
+claro, ovais, biconvexos. Têm gravado “D2/1000" numa face e o logótipo da Boehringer Ingelheim na 
+outra face.
+Jentadueto está disponível em blisteres unidose perfurados com 10 × 1, 14 × 1, 28 × 1, 30 × 1, 56 × 1, 
+60 × 1, 84 × 1, 90 × 1, 98 × 1, 100 × 1 e 120 × 1 comprimidos revestidos por película e embalagens 
+múltiplas contendo 120 × 1 (2 embalagens de 60 × 1), 180 × 1 (2 embalagens de 90 × 1), 180 × 1 
+(3 embalagens de 60 × 1) e 200 × 1 (2 embalagens de 100 × 1) comprimidos revestidos por película.
+Jentadueto está também disponível em frascos de plástico com tampa de rosca em plástico e um 
+exsicante de gel de sílica. Os frascos contêm 14, 60 ou 180 comprimidos revestidos por película.
+É possível que não sejam comercializadas todas as apresentações no seu país.
+Titular da Autorização de Introdução no Mercado
+Boehringer Ingelheim International GmbH
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Alemanha
+Fabricante
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Alemanha
+Boehringer Ingelheim Hellas Single Member S.A.
+5th km Paiania - Markopoulo
+Koropi Attiki, 19441
+Grécia
+Dragenopharm Apotheker Püschl GmbH
+Göllstraße 1
+84529 Tittmoning
+Alemanha
+59
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Lietuvos filialas
+Tel: +370 5 2595942
+България
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко.
+КГ - клон България
+Тел: +359 2 958 79 98
+Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Česká republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 111
+Magyarország
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Magyarországi Fióktelepe
+Tel: +36 1 299 8900
+Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf: +45 39 15 88 88
+Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 900
+Nederland
+Boehringer Ingelheim B.V.
+Tel: +31 (0) 800 22 55 889
+Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Eesti filiaal
+Tel: +372 612 8000
+Norge
+Boehringer Ingelheim Danmark
+Norwegian branch
+Tlf: +47 66 76 13 00
+Ελλάδα
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη Α.Ε.
+Tηλ: +30 2 10 89 06 300
+Österreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7870
+España
+Boehringer Ingelheim España, S.A.
+Tel: +34 93 404 51 00
+Polska
+Boehringer Ingelheim Sp. z o.o.
+Tel: +48 22 699 0 699
+France
+Boehringer Ingelheim France S.A.S.
+Tél: +33 3 26 50 45 33
+Portugal
+Boehringer Ingelheim Portugal, Lda.
+Tel: +351 21 313 53 00
+Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 600
+România
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Viena - Sucursala Bucureşti
+Tel: +40 21 302 28 00
+Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Podružnica Ljubljana
+Tel: +386 1 586 40 00
+60
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+organizačná zložka
+Tel: +421 2 5810 1211
+Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 800
+Κύπρος
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη Α.Ε.
+Tηλ: +30 2 10 89 06 300
+Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 00
+Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Latvijas filiāle
+Tel: +371 67 240 011
+United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Este folheto foi revisto pela última vez em {MM/AAAA}
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1040,6 +1580,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-dea6bb992c7a311f66506a0f31878b7e"
 * entry[0].resource = composition-da-dea6bb992c7a311f66506a0f31878b7e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdea6bb992c7a311f66506a0f31878b7e"
+* entry[=].resource = mpdea6bb992c7a311f66506a0f31878b7e
+                            
+                    
+Instance: bundlepackageleaflet-pt-dea6bb992c7a311f66506a0f31878b7e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jentadueto Package Leaflet for language pt"
+Description: "ePI document Bundle for jentadueto Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-dea6bb992c7a311f66506a0f31878b7e"
+* entry[0].resource = composition-pt-dea6bb992c7a311f66506a0f31878b7e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpdea6bb992c7a311f66506a0f31878b7e"
@@ -1141,6 +1703,18 @@ RuleSet: dea6bb992c7a311f66506a0f31878b7eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-dea6bb992c7a311f66506a0f31878b7e) // jentadueto pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

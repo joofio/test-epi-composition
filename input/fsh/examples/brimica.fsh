@@ -918,6 +918,441 @@ stykke køkkenrulle eller papirlommetørklæde. </p>
 
 
 
+Instance: composition-pt-17d853b2dfc7ae029cc7841c683817ea
+InstanceOf: CompositionUvEpi
+Title: "Composition for brimica Package Leaflet"
+Description:  "Composition for brimica Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp17d853b2dfc7ae029cc7841c683817ea)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - brimica"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instruções de Utilização </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Brimica Genuair e para que é utilizado<br />
+2. O que precisa de saber antes de utilizar Brimica Genuair<br />
+3. Como utilizar Brimica Genuair<br />
+4. Efeitos indesejáveis possíveis<br />
+5. Como conservar Brimica Genuair<br />
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é brimica e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é brimica e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Brimica Genuair 
+Este medicamento contém duas substâncias ativas designadas por aclidínio e fumarato de formoterol 
+di-hidratado. Ambas pertencem a um grupo de medicamentos designados por broncodilatadores. Os 
+broncodilatadores relaxam os músculos das vias respiratórias, o que permite que estas se abram mais 
+amplamente e ajudam a respirar mais facilmente. O inalador Genuair liberta as substâncias ativas 
+diretamente nos seus pulmões à medida que inspira. </p>
+<p>Para que é utilizado Brimica Genuair 
+Brimica Genuair é utilizado para doentes adultos que têm dificuldades respiratórias devido a uma 
+doença dos pulmões designada por doença pulmonar obstrutiva crónica (DPOC), na qual as vias 
+respiratórias e os alvéolos pulmonares ficam danificados ou obstruídos. Ao abrir as vias respiratórias, 
+este medicamento ajuda a aliviar sintomas como a falta de ar. Utilizar Brimica Genuair regularmente 
+irá reduzir os efeitos da DPOC na sua vida quotidiana. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar brimica"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar brimica"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Brimica Genuair: 
+- Se tem alergia ao aclidínio, fumarato de formoterol di-hidratado ou ao outro componente deste 
+medicamento (indicado na secção 6).  </p>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Brimica Genuair se tiver alguma 
+das seguintes doenças/sintomas: 
+- Se tiver asma. Este medicamento não deve ser utilizado para o tratamento da asma. 
+- Se tiver problemas cardíacos.<br />
+- Se tiver epilepsia. 
+- Se tiver problemas na glândula tiroide (tireotoxicose). 
+- Se tiver um tumor numa das glândulas suprarrenais (feocromocitoma). 
+- Se tiver dificuldade em urinar ou problemas devidos ao aumento da próstata. 
+- Se tiver uma condição nos olhos designada por glaucoma de ângulo fechado, que provoca 
+pressão elevada no olho. </p>
+<p>Pare de tomar Brimica Genuair e procure assistência médica imediatamente se sentir algum dos 
+seguintes sintomas: 
+- Se sentir um aperto súbito no peito, tiver tosse, pieira ou falta de ar imediatamente após utilizar 
+o medicamento. Ver secção 4.<br />
+Brimica Genuair é utilizado como tratamento de manutenção (longo prazo) para a DPOC. Não deverá 
+utilizar este medicamento para tratar uma crise súbita de falta de ar ou pieira. </p>
+<p>Se os seus sintomas habituais de DPOC (falta de ar, pieira, tosse) não melhorarem ou piorarem 
+enquanto estiver a utilizar Brimica Genuair, deve continuar a utilizá-lo, mas contacte o seu médico 
+assim que possível pois pode ser necessário outro medicamento. </p>
+<p>Se vir halos em torno de luzes ou imagens coloridas, sentir dor ou desconforto ocular ou sofrer de 
+visão turva temporariamente, contacte o seu médico para obter aconselhamento assim que possível. </p>
+<p>A secura na boca tem sido observada com medicamentos como Brimica Genuair. A longo prazo, a 
+secura na boca pode estar associada a cáries dentárias, pelo que é importante prestar atenção à higiene 
+oral. </p>
+<p>Crianças e adolescentes 
+Brimica Genuair não se destina a ser utilizado em crianças ou adolescentes com menos de 18 anos de 
+idade. </p>
+<p>Outros medicamentos e Brimica Genuair 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Se utilizar Brimica Genuair com outros medicamentos, o efeito de 
+Brimica Genuair ou dos outros medicamentos poderá sofrer alterações. </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar: </p>
+<ul>
+<li>
+<p>Quaisquer medicamentos que possam ser semelhantes a Brimica Genuair para o tratamento de 
+dificuldades respiratórias.  </p>
+</li>
+<li>
+<p>Medicamentos que reduzam a quantidade de potássio no sangue, como por exemplo: 
+o 
+corticosteroides que tome oralmente (tais como a prednisolona); 
+o 
+diuréticos (tais como a furosemida ou a hidroclorotiazida); 
+o 
+determinados medicamentos utilizados para o tratamento de problemas respiratórios 
+(como a teofilina). </p>
+</li>
+<li>
+<p>Medicamentos designados por bloqueadores beta que podem ser utilizados para o tratamento da 
+tensão arterial alta ou de outras doenças do coração (tais como o atenolol ou o propranolol) ou 
+para o tratamento do glaucoma (tal como o timolol).  </p>
+</li>
+<li>
+<p>Medicamentos que possam causar um tipo de alteração na atividade elétrica do coração 
+designada por prolongamento do intervalo QT (observada num eletrocardiograma). Estes 
+incluem medicamentos para o tratamento de: 
+o 
+depressão (tais como os inibidores da monoaminoxidase ou antidepressivos tricíclicos); 
+o 
+infeções bacterianas (tais como a eritromicina, claritromicina, telitromicina); 
+o 
+reações alérgicas (anti-histamínicos). </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico, 
+enfermeiro ou farmacêutico antes de utilizar este medicamento. Não deverá utilizar Brimica Genuair 
+se estiver grávida ou a amamentar, salvo indicação médica em contrário. </p>
+<p>Condução de veículos e utilização de máquinas 
+É pouco provável que Brimica Genuair afete a sua capacidade de conduzir ou utilizar máquinas. Em 
+alguns doentes, este medicamento pode causar visão turva ou tonturas. Se tiver algum destes efeitos 
+indesejáveis, não conduza nem utilize máquinas até que as tonturas tenham passado ou a sua visão 
+tenha voltado ao normal. </p>
+<p>Brimica Genuair contém lactose<br />
+Este medicamento contém lactose. Se o seu médico o informou de que sofre de intolerância a alguns 
+açúcares, contacte-o antes de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar brimica"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar brimica"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize sempre este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale 
+com o seu médico ou farmacêutico se tiver dúvidas. </p>
+<ul>
+<li>A dose recomendada é de uma inalação de manhã e uma inalação à noite. </li>
+<li>Pode utilizar Brimica Genuair a qualquer altura antes ou após a ingestão de alimentos ou 
+bebidas. </li>
+<li>Os efeitos de Brimica Genuair têm uma duração de 12 horas, por isso, deverá tentar utilizar 
+Brimica Genuair todas as manhãs e noites à mesma hora, uma vez que isto irá garantir que o seu 
+organismo dispõe sempre de medicamento suficiente para o ajudar a respirar mais facilmente ao 
+longo do dia e da noite. Tomar o seu medicamento a horas regulares também o ajudará a 
+lembrar-se de o utilizar. </li>
+<li>A dose recomendada pode ser utilizada em doentes idosos e em doentes com problemas renais 
+ou de fígado. Não são necessários ajustes de dose para estes doentes. </li>
+<li>Brimica Genuair é para utilização por via inalatória. </li>
+<li>Instruções de utilização: Consulte as Instruções de Utilização no final deste folheto para 
+informação sobre como utilizar o inalador Genuair. Se tiver dúvidas sobre a utilização de 
+Brimica Genuair, fale com o seu médico ou farmacêutico.  </li>
+</ul>
+<p>A DPOC é uma doença prolongada, pelo que Brimica Genuair é para utilização a longo prazo. Este 
+medicamento deve ser tomado todos os dias, duas vezes por dia, e não apenas quando apresentar 
+problemas respiratórios ou outros sintomas de DPOC. </p>
+<p>Se utilizar mais Brimica Genuair do que deveria 
+Se achar que pode ter utilizado mais Brimica Genuair do que deveria, terá maiores probabilidades de 
+sentir alguns dos seus efeitos indesejáveis, tais como visão turva, boca seca, enjoos, tremores, dor de 
+cabeça, palpitações ou um aumento da tensão arterial e, portanto, deverá contactar o seu médico 
+imediatamente ou dirigir-se à unidade de urgências mais próxima. Mostre a embalagem de Brimica 
+Genuair. Poderão ser necessários cuidados médicos. </p>
+<p>Caso se tenha esquecido de utilizar Brimica Genuair 
+Caso se tenha esquecido de tomar uma dose de Brimica Genuair, tome-a assim que for possível e tome 
+a dose seguinte no horário habitual. Não tome uma dose a dobrar para compensar uma dose que se 
+esqueceu de tomar. </p>
+<p>Se parar de utilizar Brimica Genuair 
+Este medicamento destina-se a utilização prolongada. Se pretender interromper o tratamento, fale 
+primeiro com o seu médico, uma vez que os seus sintomas podem agravar-se. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Pare de utilizar o medicamento e contacte imediatamente o seu médico se: </p>
+<ul>
+<li>
+<p>tiver inchaço da face, garganta, lábios ou língua (com ou sem dificuldade em respirar ou 
+engolir), erupção na pele associada a comichão intensa (urticária), pois podem ser sintomas de 
+reação alérgica. A frequência desta reação não pode ser calculada pelos dados disponíveis. </p>
+</li>
+<li>
+<p>sentir aperto no peito, tiver tosse, pieira ou falta de ar imediatamente após utilizar o 
+medicamento. Podem ser sinais de uma condição designada por “broncospasmo paradoxal", que 
+é uma contração excessiva e prolongada dos músculos das vias respiratórias imediatamente após 
+o tratamento com um broncodilatador. Esta reação pode ocorrer raramente (pode afetar até 1 em 
+casa 1.000 pessoas). </p>
+</li>
+</ul>
+<p>Alguns efeitos indesejáveis podem ser graves: informe o seu médico imediatamente se sentir algum 
+destes efeitos indesejáveis. </p>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) 
+- Fraqueza muscular, contrações musculares e/ou ritmo cardíaco anormal, que podem ser sinais 
+de uma diminuição da quantidade de potássio no sangue 
+- Cansaço, aumento da sede e/ou necessidade de urinar mais frequentemente do que o habitual, 
+que podem ser sinais de um aumento da quantidade de açúcar no sangue 
+- Palpitações, que podem ser sinal de um batimento cardíaco invulgarmente acelerado ou de um 
+ritmo cardíaco anormal </p>
+<p>Raros (podem afetar até 1 em cada 1.000 pessoas) 
+- Dificuldade súbita em respirar ou engolir, inchaço da língua, garganta, lábios ou rosto, erupção 
+na pele e/ou comichão - podem ser sinais de uma reação alérgica. </p>
+<p>Outros efeitos indesejáveis que podem ocorrer ao tomar Brimica Genuair: </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) 
+- Dor de garganta e corrimento nasal em simultâneo - podem ser sinais de rinofaringite 
+- Dor de cabeça 
+- Dor ao urinar e/ou urinar frequentemente - podem ser sinais de uma infeção do trato urinário 
+- Tosse 
+- Diarreia 
+- Nariz congestionado, entupido ou a pingar e/ou dor ou uma sensação de pressão na face ou testa 
+- podem ser sintomas de sinusite 
+- Tonturas 
+- Cãibras musculares 
+- Náuseas (sentir-se enjoado) 
+- Dificuldade em dormir 
+- Boca seca 
+- Dor muscular 
+- Abcesso (infeção) dos tecidos na base de um dente 
+- Aumento dos níveis sanguíneos de uma proteína que se encontra no músculo designada por 
+creatina fosfoquinase 
+- Tremores 
+- Ansiedade </p>
+<p>Pouco frequentes 
+- Batimentos cardíacos acelerados (taquicardia) 
+- Dor ou aperto no peito (angina de peito) 
+- Visão turva 
+- Alterações do som da voz (disfonia) 
+- Dificuldade em urinar ou sensação de que a bexiga não se esvaziou completamente (retenção 
+urinária) 
+- Traçado cardíaco anormal (prolongamento do intervalo QT) que pode levar a um ritmo cardíaco 
+anormal<br />
+- Alteração do paladar (disgeusia) 
+- Garganta irritada 
+- Inflamação da boca (estomatite) 
+- Aumento da tensão arterial 
+- Agitação 
+- Erupção na pele 
+- Comichão na pele </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar brimica"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar brimica"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do inalador, na embalagem 
+exterior e na bolsa do inalador após “EXP". O prazo de validade corresponde ao último dia do mês 
+indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de temperatura de conservação. </p>
+<p>Mantenha o inalador Genuair protegido dentro da bolsa selada até se iniciar o período de 
+administração. </p>
+<p>Utilizar no prazo de 60 dias após a abertura da bolsa. </p>
+<p>Não utilize Brimica Genuair se verificar que a embalagem está danificada ou que apresenta sinais de 
+adulteração. </p>
+<p>Depois de tomar a última dose, é necessário eliminar o inalador. Não deite fora quaisquer 
+medicamentos no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos que 
+já não utiliza. Estas medidas ajudarão a proteger o ambiente.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Brimica Genuair 
+- As substâncias ativas são o aclidínio e o fumarato de formoterol di-hidratado. Cada dose 
+administrada (a dose libertada pelo bocal do inalador) contém 396 microgramas de brometo de 
+aclidínio, equivalente a 340 microgramas de aclidínio, e 11,8 microgramas de fumarato de 
+formoterol di-hidratado.<br />
+- O outro componente é a lactose mono-hidratada (ver o final da secção 2 “Brimica Genuair 
+contém lactose" para mais informação). </p>
+<p>Qual o aspeto de Brimica Genuair e conteúdo da embalagem 
+Brimica Genuair é um pó para inalação branco ou esbranquiçado.<br />
+O inalador Genuair é um dispositivo branco dotado de um indicador de dose integrado e um botão de 
+dosagem laranja. O bocal está coberto com uma tampa protetora laranja amovível. É fornecido numa 
+bolsa protetora de alumínio selada, que contém uma saqueta de exsicante. Após retirar o inalador da 
+bolsa, a bolsa e a saqueta de exsicante podem ser deitadas fora. </p>
+<p>Apresentações disponíveis: </p>
+<p>Embalagem contendo 1 inalador com 30 doses. 
+Embalagem contendo 1 inalador com 60 doses. 
+Embalagem contendo 3 inaladores com 60 doses cada um. </p>
+<p>É possível que não sejam comercializadas todas as apresentações.  </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Covis Pharma Europe B.V.<br />
+Gustav Mahlerplein 2 
+1082MA Amesterdão 
+Países Baixos </p>
+<p>Fabricante: 
+Industrias Farmacéuticas Almirall, S.A. 
+Ctra. de Martorell 41-08740 Sant Andreu de la Barca, Barcelona 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien<br />
+Covis Pharma Europe B.V. 
+Tél/Tel:  80013 
+Lietuva<br />
+UAB “BERLIN CHEMIE MENARINI BALTIC"<br />
+Tel: +370 52 691<br />
+България<br />
+“Берлин-Хеми/А. Менарини България" EООД 
+тел.: +359 2 454 09 50  </p>
+<p>Luxembourg/Luxemburg<br />
+Covis Pharma Europe B.V. 
+Tél/Tel: 80024119   </p>
+<p>Česká republika<br />
+Berlin-Chemie/A.Menarini Ceska republika s.r.o.<br />
+Tel: +420 267 199 333<br />
+Magyarország<br />
+Berlin-Chemie/A. Menarini Kft.<br />
+Tel.: +36 1799 7320<br />
+Danmark<br />
+Covis Pharma Europe B.V. 
+Tlf:  80711 
+Malta<br />
+Covis Pharma Europe B.V. 
+Tel:  80065 
+Deutschland<br />
+Berlin-Chemie AG<br />
+Tel: +49 (0) 30 67070  </p>
+<p>Covis Pharma Europe B.V. 
+Tel:  +49 (0) 3031196 
+Nederland<br />
+Covis Pharma Europe B.V.<br />
+Tel:  08000270 
+Eesti<br />
+OÜ Berlin-Chemie Menarini Eesti<br />
+Tel: +372 667 5001  </p>
+<p>Norge<br />
+Covis Pharma Europe B.V.<br />
+Tlf:  80031Ελλάδα<br />
+MENARINI HELLAS AE<br />
+Τηλ: +30 210 8316111-13  </p>
+<p>Österreich<br />
+A. Menarini Pharma GmbH 
+Tel: +43 1 879 95 85-0  </p>
+<p>España<br />
+Laboratorios Menarini S.A.<br />
+Tel: +34-93 462 88 00  </p>
+<p>Polska<br />
+Covis Pharma Europe B.V.<br />
+Tel.: 0800919France<br />
+MENARINI France<br />
+Tél: +33 (0)1 45 60 77 20<br />
+Portugal<br />
+A. Menarini Portugal - Farmacêutica, S.A.<br />
+Tel: +351 210 935 500  </p>
+<p>Hrvatska<br />
+Berlin-Chemie Menarini Hrvatska d.o.o.<br />
+Tel: + 385 1 4821 361  </p>
+<p>România<br />
+Berlin-Chemie A.Menarini S.R.L.<br />
+Tel: +40 21 232 34 32<br />
+Ireland<br />
+A. Menarini Pharmaceuticals Ireland Ltd<br />
+Tel: +353 1 284 6744  </p>
+<p>Slovenija<br />
+Berlin-Chemie / A. Menarini Distribution 
+Ljubljana d.o.o. 
+Tel: +386 01 300 2160  </p>
+<p>Ísland<br />
+Covis Pharma Europe B.V.<br />
+Sími: 8007Slovenská republika<br />
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o. 
+Tel: +421 2 544 30 730  </p>
+<p>Italia<br />
+Laboratori Guidotti S.p.A.<br />
+Tel: +39- 050 971011  </p>
+<p>Suomi/Finland<br />
+Covis Pharma Europe B.V. 
+Puh/Tel:  0800413Κύπρος Covis Pharma Europe B.V. 
+Τηλ:  80091Sverige<br />
+Covis Pharma Europe B.V. 
+Tel:  0200898 
+Latvija<br />
+SIA Berlin-Chemie/Menarini Baltic<br />
+Tel: +371 67103210  </p>
+<p>United Kingdom (Northern Ireland) 
+Covis Pharma Europe B.V. 
+Tel: 08004334 
+Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -959,6 +1394,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-17d853b2dfc7ae029cc7841c683817ea"
 * entry[0].resource = composition-da-17d853b2dfc7ae029cc7841c683817ea
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp17d853b2dfc7ae029cc7841c683817ea"
+* entry[=].resource = mp17d853b2dfc7ae029cc7841c683817ea
+                            
+                    
+Instance: bundlepackageleaflet-pt-17d853b2dfc7ae029cc7841c683817ea
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for brimica Package Leaflet for language pt"
+Description: "ePI document Bundle for brimica Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-17d853b2dfc7ae029cc7841c683817ea"
+* entry[0].resource = composition-pt-17d853b2dfc7ae029cc7841c683817ea
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp17d853b2dfc7ae029cc7841c683817ea"
@@ -1060,6 +1517,18 @@ RuleSet: 17d853b2dfc7ae029cc7841c683817eaListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-17d853b2dfc7ae029cc7841c683817ea) // brimica pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

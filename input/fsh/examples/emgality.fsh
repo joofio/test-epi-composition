@@ -820,6 +820,332 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-f45f6799ffdf756697ce11d9c2b8c128
+InstanceOf: CompositionUvEpi
+Title: "Composition for emgality Package Leaflet"
+Description:  "Composition for emgality Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf45f6799ffdf756697ce11d9c2b8c128)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - emgality"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Emgality e para que é utilizado  </li>
+<li>O que precisa de saber antes de utilizar Emgality  </li>
+<li>Como utilizar Emgality  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Emgality </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é emgality e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é emgality e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Emgality contém galcanezumab, um medicamento que inibe a atividade de uma substância que ocorre 
+naturalmente no organismo chamada peptídeo relacionado com o gene da calcitonina (CGRP). As 
+pessoas com enxaqueca podem ter níveis mais elevados de CGRP.  </p>
+<p>Emgality é utilizado para prevenir a enxaqueca em adultos com, pelo menos, 4 dias por mês com 
+enxaqueca.  </p>
+<p>Emgality pode diminuir a frequência da cefaleia (dor de cabeça) de tipo enxaqueca e melhorar a sua 
+qualidade de vida. Começa a fazer efeito ao fim de cerca de uma semana. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar emgality"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar emgality"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Emgality: 
+- se tem alergia ao galcanezumab ou a qualquer outro componente deste medicamento (indicado 
+na secção 6). </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes ou durante o tratamento com Emgality se: 
+- Tiver uma doença cardiovascular grave. Emgality não foi estudado em doentes com </p>
+<p>doenças cardiovasculares graves. </p>
+<p>Preste atenção a eventuais reações alérgicas 
+Emgality pode causar reações alérgicas graves. As reações alérgicas graves ocorrem principalmente no 
+prazo de um dia após ter administrado Emgality; mas algumas reações podem ser retardadas (podem 
+acontecer depois de mais de 1 dia até 4 semanas após ter administrado Emgality). Algumas reações 
+alérgicas podem ter duração prolongada. Deve prestar atenção a eventuais sinais de tais reações 
+enquanto estiver a utilizar Emgality. Pare de utilizar Emgality e informe o seu médico ou procure 
+ajuda médica de imediato se notar algum sinal de reação alérgica grave. Esses sinais estão indicados 
+na secção 4 “Efeitos indesejáveis graves". </p>
+<p>Crianças e adolescentes 
+Este medicamento não deve ser administrado a crianças e adolescentes com menos de 18 anos de 
+idade, uma vez que não foi estudado neste grupo etário. </p>
+<p>Outros medicamentos e Emgality 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a utilizar, tiver utilizado recentemente, 
+ou se vier a utilizar outros medicamentos. </p>
+<p>Gravidez e amamentação 
+Se for uma mulher em idade fértil, recomenda-se que evite engravidar durante o tratamento com 
+Emgality.  </p>
+<p>Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de tomar 
+este medicamento. É preferível evitar utilizar Emgality durante a gravidez, uma vez que se 
+desconhecem os seus efeitos em mulheres grávidas. </p>
+<p>Se estiver a amamentar ou planeia amamentar, consulte o seu médico antes de tomar este 
+medicamento. Juntamente com o seu médico irá decidir se deverá amamentar e tomar Emgality. </p>
+<p>Condução de veículos e utilização de máquinas 
+É possível que galcanezumab afete ligeiramente a sua capacidade de conduzir e utilizar máquinas. 
+Alguns doentes tiveram vertigens durante o tratamento com Emgality. </p>
+<p>Emgality contém sódio<br />
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por cada dose de 120 mg, ou seja, é 
+praticamente "isento de sódio".  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar emgality"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar emgality"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize sempre este medicamento exatamente como indicado pelo seu médico, farmacêutico ou 
+enfermeiro. Fale com o seu médico, farmacêutico ou enfermeiro, se tiver dúvidas. </p>
+<p>Emgality caneta pré-cheia destina-se a uma única utilização e contém uma dose de Emgality (120 mg). 
+- Na primeira vez que administrar Emgality, o seu médico ou enfermeiro injetar-lhe-ão duas 
+canetas (total 240 mg).<br />
+- Depois da primeira dose, utilizará uma caneta (120 mg) por mês. </p>
+<p>O seu médico decidirá durante quanto tempo deve utilizar Emgality. </p>
+<p>Emgality é administrado por injeção sob a pele (injeção subcutânea). Deverá decidir com o seu médico 
+ou enfermeiro se pode auto-injetar Emgality. </p>
+<p>É importante que não tente auto-injetar-se enquanto não for treinado pelo seu médico ou enfermeiro. 
+Um cuidador também poderá administrar-lhe a injeção de Emgality, depois de receber treino 
+adequado. </p>
+<p>A caneta não deve ser agitada. </p>
+<p>Leia atentamente as “Instruções de Utilização" da caneta antes de utilizar Emgality. </p>
+<p>Se utilizar mais Emgality do que devia 
+Se injetar mais Emgality do que devia, ou seja, se depois da primeira dose de 240 mg, injetar duas 
+vezes o medicamento no mesmo mês, ou se alguém tiver utilizado Emgality acidentalmente, fale 
+imediatamente com o seu médico. </p>
+<p>Se se esquecer de administrar Emgality 
+Não administre uma dose a dobrar para compensar a injeção de que se esqueceu. </p>
+<p>Se se esquecer de administrar uma dose de Emgality, injete-a o mais rapidamente possível e depois 
+injete a dose seguinte um mês depois dessa data.  </p>
+<p>Se parar de utilizar Emgality 
+Não deve parar de utilizar Emgality sem falar primeiro com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.  </p>
+<p>Efeitos indesejáveis graves </p>
+<p>As reações alérgicas a Emgality são geralmente ligeiras a moderadas (como erupção na pele ou 
+comichão). Reações alérgicas graves podem ocorrer raramente (podem afetar até 1 em 1 000 pessoas) 
+e os sinais podem incluir: 
+- dificuldade em respirar ou engolir, 
+- pressão arterial baixa, que pode causar tonturas ou vertigens, 
+- inchaço do pescoço, cara, boca, lábios, língua ou garganta que poderá desenvolver rapidamente, 
+- comichão grave na pele, com uma erupção vermelha ou a formação de bolhas. 
+Se notar algum destes sinais, fale imediatamente com o seu médico ou recorra a serviços médicos de 
+urgência. </p>
+<p>Outros efeitos indesejáveis que foram comunicados: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas): 
+- dor no local da injeção 
+- reações no local da injeção (por exemplo, pele vermelha, comichão, nódoas negras, inchaço) </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): 
+- Vertigens (sensação de tontura ou de “ver tudo andar à roda") 
+- Obstipação (prisão de ventre) 
+- Comichão 
+- Erupção na pele </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- Urticária (zonas da pele com erupção e comichão) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar emgality"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar emgality"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem original, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C a 8 °C). Não congelar. </p>
+<p>Manter na embalagem original para proteger da luz. </p>
+<p>Emgality pode ser conservado fora do frigorífico durante um período único, máximo de 7 dias, se a 
+temperatura não exceder 30 °C. Caso exceda esta temperatura ou este período de tempo, a caneta 
+deverá ser descartada.  </p>
+<p>Não utilize este medicamento se verificar que a caneta está deteriorada, ou se o medicamento estiver 
+turvo ou contiver partículas visíveis. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu médico, 
+enfermeiro ou farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas 
+ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Emgality 
+A substância ativa é galcanezumab. Cada caneta pré-cheia contém 120 mg de galcanezumab em 1 ml 
+de solução.  </p>
+<p>Os outros componentes são L-histidina, monocloridrato de L-histidina, polissorbato 80, cloreto de 
+sódio e água para preparações injetáveis. </p>
+<p>Qual o aspeto de Emgality e conteúdo da embalagem 
+Emgality é uma solução injetável numa seringa de vidro transparente. A sua cor pode variar de incolor 
+a ligeiramente amarelado. 
+A seringa encontra-se dentro de uma caneta descartável, de dose única. Embalagens de 1, 2 ou 3 
+canetas pré-cheias. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Eli Lilly Nederland B. V., Papendorpseweg 83, 3528 BJ Utrecht, Países Baixos.  </p>
+<p>Fabricante: 
+Eli Lilly Italia S.p.A., Via Gramsci 731/733, 50019, Sesto Fiorentino (FI), Itália. 
+Lilly, S.A., Avda. de la Industria, 30, 28108 Alcobendas, Madrid, Espanha. </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>Belgique/België/Belgien 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Lietuva 
+Eli Lilly Lietuva 
+Tel. +370 (5) 2649 
+България 
+ТП "Ели Лили Недерланд" Б.В. - България 
+тел. + 359 2 491 41<br />
+Luxembourg/Luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84<br />
+Česká republika 
+ELI LILLY ČR, s.r.o. 
+Tel: + 420 234 664<br />
+Magyarország 
+Lilly Hungária Kft. 
+Tel: + 36 1 328 5 
+Danmark 
+Eli Lilly Danmark A/S<br />
+Tlf: +45 45 26 60<br />
+Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600<br />
+Deutschland 
+Lilly Deutschland GmbH 
+Tel. + 49-(0) 6172 273 2 
+Nederland 
+Eli Lilly Nederland B.V.<br />
+Tel: + 31-(0) 30 60 25<br />
+Eesti 
+Eli Lilly Nederland B.V. 
+Tel: +372 6 817<br />
+Norge 
+Eli Lilly Norge A.S.<br />
+Tlf: + 47 22 88 18<br />
+Ελλάδα 
+ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
+Τηλ: +30 210 629 4 
+Österreich 
+Eli Lilly Ges.m.b.H.<br />
+Tel: + 43-(0) 1 711<br />
+España 
+Organon Salud, S.L. 
+Tel.: +34 91 591 12<br />
+Polska 
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33<br />
+France 
+Organon France 
+Tél: +33-(0) 1 57 77 32<br />
+Portugal 
+Lilly Portugal Produtos Farmacêuticos, Lda 
+Tel: + 351-21-4126 
+Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350<br />
+România 
+Eli Lilly România S.R.L. 
+Tel: + 40 21 4023 
+Ireland 
+Eli Lilly e Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 
+Slovenija 
+Eli Lilly farmacevtska družba, d.o.o. 
+Tel: +386 (0)1 580 00<br />
+Ísland 
+Icepharma hf. 
+Sími + 354 540 8 
+Slovenská republika 
+Eli Lilly Slovakia s.r.o. 
+Tel: + 421 220 663<br />
+Italia 
+Eli Lilly Italia S.p.A. 
+Tel: + 39- 055 42 
+Suomi/Finland 
+Oy Eli Lilly Finland Ab<br />
+Puh/Tel: + 358-(0) 9 85 45<br />
+Κύπρος 
+Phadisco Ltd<br />
+Τηλ: +357 22 715 
+Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0) 8 7378 
+Latvija 
+Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā 
+Tel: +371 67364 
+United Kingdom (Northern Ireland) 
+Eli Lilly e Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -861,6 +1187,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-f45f6799ffdf756697ce11d9c2b8c128"
 * entry[0].resource = composition-da-f45f6799ffdf756697ce11d9c2b8c128
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf45f6799ffdf756697ce11d9c2b8c128"
+* entry[=].resource = mpf45f6799ffdf756697ce11d9c2b8c128
+                            
+                    
+Instance: bundlepackageleaflet-pt-f45f6799ffdf756697ce11d9c2b8c128
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for emgality Package Leaflet for language pt"
+Description: "ePI document Bundle for emgality Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-f45f6799ffdf756697ce11d9c2b8c128"
+* entry[0].resource = composition-pt-f45f6799ffdf756697ce11d9c2b8c128
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpf45f6799ffdf756697ce11d9c2b8c128"
@@ -962,6 +1310,18 @@ RuleSet: f45f6799ffdf756697ce11d9c2b8c128ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-f45f6799ffdf756697ce11d9c2b8c128) // emgality pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

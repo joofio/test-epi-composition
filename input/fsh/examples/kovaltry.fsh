@@ -880,6 +880,450 @@ ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 
 
 
+Instance: composition-pt-8467bc8586a2da87e0b1d648339b10b3
+InstanceOf: CompositionUvEpi
+Title: "Composition for kovaltry Package Leaflet"
+Description:  "Composition for kovaltry Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8467bc8586a2da87e0b1d648339b10b3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - kovaltry"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Kovaltry e para que é utilizado 
+2. O que precisa de saber antes de utilizar Kovaltry 
+3. Como utilizar Kovaltry 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Kovaltry 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é kovaltry e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é kovaltry e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kovaltry contém a substância ativa fator VIII de coagulação humana recombinante, também designada 
+por octocog alfa. Kovaltry é produzido por tecnologia recombinante sem adição de qualquer 
+componente de origem humana ou animal no processo de fabrico. O Fator VIII é uma proteína que se 
+encontra naturalmente no sangue e que ajuda o sangue a coagular. </p>
+<p>Kovaltry é utilizado para tratar e prevenir hemorragias em adultos, adolescentes e crianças de todas 
+as idades com hemofilia A (deficiência hereditária de fator VIII). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar kovaltry"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar kovaltry"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Kovaltry se tem </p>
+<ul>
+<li>
+<p>alergia ao octocog alfa ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>alergia às proteínas de ratinho ou de hamster. </p>
+</li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico se: </p>
+<ul>
+<li>
+<p>tiver um aperto no peito, tiver tonturas (incluindo quando se levanta da posição de sentado ou 
+de deitado), erupção na pele com comichão, pieira, sensação de enjoo ou de que vai desmaiar. 
+Estes podem ser sinais de uma reação alérgica súbita grave e rara a Kovaltry. Se estes 
+ocorrerem, pare imediatamente a administração do medicamento e consulte imediatamente 
+um médico. </p>
+</li>
+<li>
+<p>tiver uma hemorragia que não é controlada com a dose habitual de Kovaltry. A formação de 
+inibidores (anticorpos) é uma complicação conhecida que pode ocorrer durante o tratamento 
+com todos os medicamentos com o fator VIII. Estes inibidores, sobretudo em concentrações 
+elevadas, impedem o funcionamento correto do tratamento, doentes a receber  Kovaltry serão 
+monitorizados cuidadosamente para verificar o desenvolvimento destes inibidores. Se a sua 
+hemorragia ou a da sua criança não estiver a ser controlada com Kovaltry, informe o seu 
+médico imediatamente.  </p>
+</li>
+<li>
+<p>desenvolveu anteriormente inibidores do Fator VIII a um produto diferente.  Se mudou para um 
+Fator VIII diferente, poderá estar em risco de reaparecimento dos inibidores. </p>
+</li>
+<li>
+<p>tem uma doença cardíaca confirmada ou está em risco de ter uma doença cardíaca. </p>
+</li>
+<li>
+<p>usa um dispositivo de acesso venoso central para a administração de Kovaltry. Pode estar em 
+risco de complicações relacionadas com o dispositivo onde o cateter é inserido, incluindo:  </p>
+</li>
+<li>infeções locais, </li>
+<li>bactérias no sangue </li>
+<li>um coágulo de sangue num vaso sanguíneo </li>
+</ul>
+<p>Crianças e adolescentes 
+As advertências e precauções indicadas aplicam-se a doentes de todas as idades, adultos e crianças. </p>
+<p>Outros medicamentos e Kovaltry 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente ou se vier a 
+utilizar outros medicamentos.  </p>
+<p>Gravidez e amamentação<br />
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de utilizar este medicamento.  </p>
+<p>Não é provável que Kovaltry afete a fertilidade em doentes do sexo masculino ou feminino, visto que 
+a substância ativa ocorre naturalmente no organismo. </p>
+<p>Condução de veículos e utilização de máquinas 
+Se tiver tonturas ou outros sintomas que afectem a sua capacidade de concentração e reação, não 
+conduza ou utilize máquinas até ao desaparecimento destes sintomas.  </p>
+<p>Kovaltry contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio".  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar kovaltry"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar kovaltry"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com Kovaltry será iniciado por um médico com experiência no tratamento de doentes 
+com hemofilia A. Utilize este medicamento exatamente de acordo com as indicações do seu médico. 
+Fale com o seu médico se tiver dúvidas. 
+O número de unidades de fator VIII é medida em Unidades Internacionais (UI). </p>
+<p>Tratamento de hemorragias 
+Para tratar a hemorragia, o seu médico calculará e ajustará a sua dose e quantas vezes deve ser 
+administrada, o que depende de muitos fatores tais como: </p>
+<ul>
+<li>
+<p>o seu peso </p>
+</li>
+<li>
+<p>a gravidade da hemofilia A </p>
+</li>
+<li>
+<p>o local e a gravidade da hemorragia </p>
+</li>
+<li>
+<p>o nível de inibidores que possa ter presentes </p>
+</li>
+<li>
+<p>o nível de fator VIII que é necessário. </p>
+</li>
+</ul>
+<p>Prevenção de hemorragias 
+Se está a utilizar Kovaltry para prevenir hemorragias, o seu médico deverá efetuar o cálculo da dose 
+para o seu caso. Esta situa-se geralmente entre 20 a 40 UI de octocog alfa por kg de peso corporal, 
+injetada duas a três vezes por semana. Contudo, em alguns casos, especialmente para doentes mais 
+novos podem ser necessárias doses mais elevadas ou intervalos menores. </p>
+<p>Ensaios laboratoriais 
+Análises laboratoriais realizadas em intervalos adequados ajudarão a garantir que tem sempre os níveis 
+de fator VIII adequados. Especialmente no caso de grandes cirurgias, a coagulação do seu sangue tem 
+de ser monitorizada regularmente. </p>
+<p>Utilização em crianças e adolescentes 
+Kovaltry pode ser utilizado em crianças e adolescentes de todas as idades. Em crianças com menos de 
+12 anos de idade, podem ser necessárias doses mais elevadas ou injeções mais frequentes que as 
+prescritas para adultos. </p>
+<p>Doentes com inibidores 
+Se lhe foi dito pelo seu médico de que desenvolveu inibidores de fatorVIII poderá necessitar de 
+utilizar uma dose de Kovaltry superior à anteriormente usada por forma a controlar as hemorragias. Se 
+esta dose não controlar as hemorragias o seu médico poderá considerar dar-lhe outro produto.<br />
+Fale com o seu médico caso deseje saber mais informações. 
+Não aumente a dose de Kovaltry que utiliza para controlar as hemorragias sem confirmar com o seu 
+médico.  </p>
+<p>Duração do tratamento 
+Normalmente o tratamento com Kovaltry para a hemofilia é necessário durante toda a vida.  </p>
+<p>Como Kovaltry é administrado 
+Kovaltry é injetado numa veia durante 2 a 5 minutos dependendo do volume total e o seu grau de 
+conforto e deve ser utilizado no período de 3 horas após a reconstituição. </p>
+<p>Como Kovaltry é preparado para a administração 
+Utilize apenas os componentes (adaptador do frasco para injetáveis, seringa pré-cheia contendo o 
+solvente e dispositivo de venopunctura) fornecidos com cada embalagem deste medicamento. Se não 
+for possível utilizar estes componentes, consulte o seu médico. Se algum componente da embalagem 
+estiver aberto ou danificado, não o utilize. </p>
+<p>O medicamento reconstituído tem de ser filtrado utilizando o adaptador do frasco para injetáveis 
+antes da sua administração para remover possíveis partículas presentes na solução.<br />
+Não utilize o dispositivo de venopunctura fornecido para a colheita de sangue, uma vez que este 
+dispositivo contém um filtro no prolongador. </p>
+<p>Este medicamento não deve ser misturado com outras soluções injetáveis. Não utilize soluções 
+contendo partículas visíveis ou que estejam turvas. Siga as instruções de utilização dadas pelo seu 
+médico, fornecidas no final deste folheto. </p>
+<p>Se utilizar mais Kovaltry do que deveria 
+Se utilizou mais Kovaltry do que deveria, contacte o seu médico. Não foram comunicados casos de 
+sobredosagem. </p>
+<p>Caso se tenha esquecido de utilizar Kovaltry 
+Administre imediatamente a sua dose seguinte e continue a intervalos regulares tal como recomendado 
+pelo seu médico.<br />
+Não utilize uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de utilizar Kovaltry 
+Não pare de utilizar  este medicamento sem confirmar com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis mais graves são as reações alérgicas que podem ser reações alérgicas graves. 
+Pare imediatamente as injeções de Kovaltry e contacte o seu médico de imediato se estas reações 
+ocorrerem. Os seguintes sintomas podem ser um aviso precoce destas reações: </p>
+<ul>
+<li>
+<p>opressão no peito/sensação geral de mal-estar  </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>sentir fraqueza ao ficar em pé indicando uma diminuição da tensão arterial,  </p>
+</li>
+<li>
+<p>sensação de enjoo (náuseas) </p>
+</li>
+</ul>
+<p>Para crianças não tratadas previamente com medicamentos com fator VIII, a formação de inibidores 
+(ver secção 2) é muito frequente (mais de 1 em 10 doentes). Para doentes que receberam tratamento 
+prévio com fator VIII (mais de 150 dias de tratamento), a formação de anticorpos inibidores (ver 
+secção 2) é pouco frequente (menos de 1 em cada 100 doentes). Se isto acontecer, o seu medicamento 
+poderá deixar de funcionar adequadamente e você pode apresentar hemorragias persistentes. Se 
+isto acontecer, por favor contacte o seu médico imediatamente. </p>
+<p>Outros efeitos indesejáveis possíveis: </p>
+<p>Frequentes (podem afetar até 1 em cada 10 utilizadores): </p>
+<ul>
+<li>
+<p>dor ou desconforto no estômago </p>
+</li>
+<li>
+<p>indigestão  </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>reação no local de injeção quando o medicamento é injetado (p. ex.: hemorragia sob a 
+pele, comichão intensa, inchaço, sensação de queimadura, vermelhidão temporária)  </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>dificuldade em dormir </p>
+</li>
+<li>
+<p>urticária </p>
+</li>
+<li>
+<p>erupção na pele/erupção na pele com comichão </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 utilizadores): </p>
+<ul>
+<li>
+<p>aumento de volume dos gânglios linfáticos (inchaço sob a pele do pescoço, axilas ou 
+virilhas) </p>
+</li>
+<li>
+<p>palpitações do coração (sentir que o seu coração bate fortemente, com rapidez ou 
+irregularmente) </p>
+</li>
+<li>
+<p>batimento rápido do coração </p>
+</li>
+<li>
+<p>disgeusia (paladar estranho) </p>
+</li>
+<li>
+<p>rubores (vermelhidão da face) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar kovaltry"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar kovaltry"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso nos rótulos e nas embalagens 
+exteriores. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C - 8°C). Não congelar.<br />
+Conservar este medicamento dentro da embalagem de origem para proteger da luz. </p>
+<p>Este medicamento pode ser conservado à temperatura ambiente (até 25 °C) durante um período até 
+12 meses, quando o conservar na sua embalagem exterior. Se o conservar à temperatura ambiente, ele 
+expira após 12 meses ou ao expirar o prazo de validade se este ocorrer mais cedo. 
+A nova data de validade deve ser anotada na embalagem exterior quando o medicamento é retirado do 
+frigorífico. </p>
+<p>Não refrigerar a solução após a reconstituição. A solução reconstituída tem de ser utilizada num 
+período de 3 horas.<br />
+Este medicamento destina-se a utilização única. Qualquer solução não utilizada deve ser eliminada. </p>
+<p>Não utilize este medicamento se verificar quaisquer partículas visíveis na solução ou se a solução 
+estiver turva.  </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não necessita. Estas medidas ajudarão a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Kovaltry </p>
+<p>A substância ativa é o octocog alfa (fator VIII de coagulação humana recombinante). Cada frasco para 
+injetáveis de Kovaltry contém nominalmente 250, 500, 1000, 2000 ou 3000 UI de octocog alfa. 
+Os outros componentes são sacarose, histidina, glicina (E 640), cloreto de sódio, cloreto de cálcio di-
+hidratado (E 509), polissorbato 80 (E 433), ácido acético glacial (E 260) e água para preparações 
+injetáveis. </p>
+<p>Qual o aspeto de Kovaltry e conteúdo da embalagem </p>
+<p>Kovaltry é fornecido na forma de pó e solvente para solução injetável. O pó é seco e de cor branca a 
+ligeiramente amarelada. O solvente é um líquido límpido. </p>
+<p>Cada embalagem unitária de Kovaltry contém: </p>
+<ul>
+<li>
+<p>um frasco de vidro para injetáveis com pó </p>
+</li>
+<li>
+<p>uma seringa pré-cheia com solvente </p>
+</li>
+<li>
+<p>um êmbolo separado </p>
+</li>
+<li>
+<p>um adaptador do frasco para injetáveis </p>
+</li>
+<li>
+<p>um dispositivo de venopunctura (para injeção numa veia). </p>
+</li>
+</ul>
+<p>Kovaltry está disponível nas seguintes apresentações: 
+- 1 embalagem unitária. 
+- 1 embalagem múltipla com 30 embalagens unitárias. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Bayer AG 
+51368 Leverkusen 
+Alemanha </p>
+<p>Fabricante 
+Bayer AG 
+Kaiser-Wilhelm-Allee 
+51368 Leverkusen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63 Lietuva 
+UAB Bayer 
+Tel. +37 05 23 36 България 
+Байер България ЕООД 
+Tел.: +359-(0)2-424 72 Luxembourg/Luxemburg 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63 Česká republika 
+Bayer s.r.o. 
+Tel: +420 266 101 Magyarország 
+Bayer Hungária KFT 
+Tel:+36 14 87-41 Danmark 
+Bayer A/S 
+Tlf: +45 45 23 50 Malta 
+Alfred Gera and Sons Ltd. 
+Tel: +35 621 44 62 Deutschland 
+Bayer Vital GmbH 
+Tel: +49 (0)214-30 513 Nederland 
+Bayer B.V. 
+Tel: +31-(0)297-28 06 Eesti 
+Bayer OÜ 
+Tel: +372 655 8Norge 
+Bayer AS 
+Tlf: +47 23 13 05 Ελλάδα 
+Bayer Ελλάς ΑΒΕΕ 
+Τηλ: +30-210-61 87 Österreich 
+Bayer Austria Ges.m.b.H. 
+Tel: +43-(0)1-711 46-0 
+España 
+Bayer Hispania S.L. 
+Tel: +34-93-495 65 Polska 
+Bayer Sp. z o.o. 
+Tel: +48 22 572 35 France 
+Bayer HealthCare 
+Tél (N° vert): +33-(0)800 87 54 Portugal 
+Bayer Portugal, Lda. 
+Tel: +351 21 416 42 Hrvatska 
+Bayer d.o.o. 
+Tel: +385-(0)1-6599 România 
+SC Bayer SRL 
+Tel: +40 21 529 59 Ireland 
+Bayer Limited 
+Tel: +353 1 216 3Slovenija 
+Bayer d. o. o. 
+Tel: +386 (0)1 58 14 Ísland 
+Icepharma hf. 
+Sími: +354 540 8Slovenská republika 
+Bayer spol. s r.o. 
+Tel. +421 2 59 21 31 Italia 
+Bayer S.p.A. 
+Tel: +39 02 397 Suomi/Finland 
+Bayer Oy 
+Puh/Tel: +358- 20 785 Κύπρος 
+NOVAGEM Limited 
+Tηλ: +357 22 48 38 Sverige 
+Bayer AB 
+Tel: +46 (0) 8 580 223 Latvija 
+SIA Bayer 
+Tel: +371 67 84 55 United Kingdom (Irlanda do Norte) 
+Bayer AG 
+Tel: +44-(0)118 206 3 
+Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -921,6 +1365,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8467bc8586a2da87e0b1d648339b10b3"
 * entry[0].resource = composition-da-8467bc8586a2da87e0b1d648339b10b3
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8467bc8586a2da87e0b1d648339b10b3"
+* entry[=].resource = mp8467bc8586a2da87e0b1d648339b10b3
+                            
+                    
+Instance: bundlepackageleaflet-pt-8467bc8586a2da87e0b1d648339b10b3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kovaltry Package Leaflet for language pt"
+Description: "ePI document Bundle for kovaltry Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8467bc8586a2da87e0b1d648339b10b3"
+* entry[0].resource = composition-pt-8467bc8586a2da87e0b1d648339b10b3
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8467bc8586a2da87e0b1d648339b10b3"
@@ -1022,6 +1488,18 @@ RuleSet: 8467bc8586a2da87e0b1d648339b10b3ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8467bc8586a2da87e0b1d648339b10b3) // kovaltry pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1015,6 +1015,556 @@ hjemmeside http://www.ema.europa.eu.  </p>         </div>"""
 
 
 
+Instance: composition-pt-cfa624691d24d77fe98aa5c98b02fbeb
+InstanceOf: CompositionUvEpi
+Title: "Composition for puregon Package Leaflet"
+Description:  "Composition for puregon Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpcfa624691d24d77fe98aa5c98b02fbeb)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - puregon"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Puregon e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Puregon </li>
+<li>Como utilizar Puregon </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Puregon </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é puregon e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é puregon e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Puregon solução injetável contém folitropina beta, hormona conhecida como a hormona folículo-
+estimulante (FSH). </p>
+<p>A FSH pertence ao grupo das gonadotrofinas, desempenhando um papel importante na fertilidade 
+humana e na reprodução. Nas mulheres, a FSH é necessária para o crescimento e desenvolvimento dos 
+folículos nos ovários. Os folículos são sacos pequenos e redondos que contém os óvulos. No homem, a 
+FSH é necessária para a produção de espermatozoides. </p>
+<p>Puregon é utilizado para tratar a infertilidade em qualquer uma das seguintes situações:  </p>
+<p>Mulheres 
+Puregon pode ser utilizado para induzir a ovulação, em mulheres que não ovulam e que não 
+respondem ao tratamento com citrato de clomifeno.<br />
+Puregon pode levar ao desenvolvimento de folículos múltiplos, em mulheres que estão a ser sujeitas a 
+técnicas de procriação medicamente assistida, incluindo fertilização in vitro (FIV) e outros métodos. </p>
+<p>Homens 
+Puregon pode ser usado nos homens com problemas de infertilidade devido a baixos níveis hormonais, 
+para aumentar a produção de espermatozoides. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar puregon"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar puregon"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Puregon </p>
+<p>Se: </p>
+<ul>
+<li>
+<p>tem alergia à folitropina beta ou a qualquer outro componente de Puregon (indicados na secção 
+6) </p>
+</li>
+<li>
+<p>tiver tumores dos ovários, mama, útero, testículos, ou cérebro (hipófise ou hipotálamo) </p>
+</li>
+<li>
+<p>apresentar hemorragias vaginais abundantes ou irregulares de que se desconhece a causa </p>
+</li>
+<li>
+<p>os seus ovários não funcionarem devido a uma doença chamada insuficiência ovárica primária </p>
+</li>
+<li>
+<p>tiver quistos ou ovários aumentados não relacionados com a síndrome do ovário poliquístico 
+(SOP) </p>
+</li>
+<li>
+<p>apresentar malformações dos órgãos sexuais que impossibilitem uma gravidez normal </p>
+</li>
+<li>
+<p>tiver tumores fibroides no útero que tornem uma gravidez normal impossível </p>
+</li>
+<li>
+<p>for homem e for infértil devido a uma doença chamada insuficiência testicular primária. </p>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico antes de utilizar Puregon se: </p>
+<ul>
+<li>
+<p>já tiver tido uma reação alérgica a certos antibióticos (neomicina e/ou à estreptomicina) </p>
+</li>
+<li>
+<p>tem problemas não controlados da glândula pituitária ou hipotalâmica </p>
+</li>
+<li>
+<p>tem hipoatividade da tiróide (hipotiroidismo) </p>
+</li>
+<li>
+<p>tem glândulas adrenais que não estão a funcionar corretamente (insuficiência adrenocortical) </p>
+</li>
+<li>
+<p>tem níveis elevados de prolactina no sangue (hiperprolactinemia) </p>
+</li>
+<li>
+<p>tem qualquer outra condição clínica (por exemplo, diabetes, doença cardíaca, ou qualquer outra 
+doença crónica). </p>
+</li>
+</ul>
+<p>Se for mulher: </p>
+<p>Síndrome de hiperestimulação ovárica (SHO) 
+O seu médico irá acompanhar regularmente os efeitos do tratamento para poder escolher a dosagem 
+diária mais adequada de Puregon. Poderá ter de fazer regularmente ecografias aos ovários. O seu 
+médico poderá também verificar os seus níveis de hormonas no sangue. Isto é muito importante, uma 
+vez que uma dose muito alta de FSH pode levar a raras, mas graves complicações onde os ovários são 
+excessivamente estimulados e o crescimento de folículos se torna maior do que o normal. Esta 
+situação médica grave chama-se síndrome de hiperestimulação ovárica (SHO). Em casos raros, a SHO 
+grave poderá colocar a vida em risco. A SHO causa a acumulação repentina de líquido no estômago e 
+na zona do peito e pode causar a formação de coágulos sanguíneos. Consulte o seu médico 
+imediatamente se tiver inchaço abdominal intenso, dor na zona do estômago (abdómen), se sentir 
+doente (náuseas), tiver vómitos, tiver um aumento súbito de peso devido à acumulação de líquido, 
+tiver diarreia, tiver diminuição da produção de urina ou dificuldade em respirar (ver também secção 4 
+sobre efeitos indesejáveis possíveis). 
+→ A monitorização regular da resposta ao tratamento com FSH ajuda a prevenir a estimulação 
+excessiva do ovário. 
+Contacte imediatamente o seu médico no caso de sentir dores no estômago, mesmo que estas ocorram 
+alguns dias após a administração da última injeção. </p>
+<p>Nascimentos múltiplos ou malformações 
+Após o tratamento com preparações de gonadotropinas, há uma maior probabilidade de ter gravidezes 
+múltiplas, mesmo quando apenas um embrião é transferido para o seu útero. As gravidezes múltiplas 
+conferem um risco aumentado para a saúde da mãe e dos seus bebés na altura do nascimento. Além 
+disso, as gravidezes múltiplas e as características dos doentes que se submetem a tratamento de 
+infertilidade (por ex., idade da mulher, características do esperma, antecedentes genéticos de ambos os 
+pais) podem estar associados a um aumento do risco de malformações. </p>
+<p>Complicações durante a gravidez 
+Existe um risco ligeiramente aumentado de uma gravidez fora do útero (uma gravidez ectópica). 
+Assim, o seu médico deverá realizar precocemente uma ecografia para excluir a possibilidade de 
+gravidez fora do útero. 
+Poderá existir uma probabilidade ligeiramente maior de aborto em mulheres submetidas a tratamento 
+de fertilidade. </p>
+<p>Coágulo sanguíneo (Trombose) 
+O tratamento com Puregon, tal como a própria gravidez, pode aumentar o risco de ter um coágulo 
+sanguíneo (trombose). Uma trombose é a formação de um coágulo de sangue num vaso sanguíneo. </p>
+<p>Os coágulos sanguíneos podem causar condições médicas graves, tais como: </p>
+<ul>
+<li>
+<p>bloqueio nos seus pulmões (embolia pulmonar) </p>
+</li>
+<li>
+<p>acidente vascular cerebral (AVC) </p>
+</li>
+<li>
+<p>ataque cardíaco </p>
+</li>
+<li>
+<p>problemas nos vasos sanguíneos (tromboflebite) </p>
+</li>
+<li>
+<p>falta de fluxo sanguíneo (trombose venosa profunda) que pode resultar na perda de uma perna 
+ou braço. </p>
+</li>
+</ul>
+<p>Fale sobre este assunto com o seu médico, antes de iniciar o tratamento, especialmente: </p>
+<ul>
+<li>
+<p>se já sabe que tem um risco aumentado de ter trombose </p>
+</li>
+<li>
+<p>se você, ou algum dos seus familiares diretos, já tiver tido uma trombose </p>
+</li>
+<li>
+<p>se sofrer de obesidade grave. </p>
+</li>
+</ul>
+<p>Torção do ovário 
+Tem ocorrido torção do ovário após tratamento com gonadotropinas, incluindo Puregon. A torção do 
+ovário é quando este se enrola sobre si mesmo. A torção do ovário pode causar o corte de fluxo 
+sanguíneo para o ovário. </p>
+<p>Antes de iniciar o tratamento com este medicamento, informe o seu médico se: </p>
+<ul>
+<li>
+<p>já teve síndrome de hiperestimulação ovárica (SHO) </p>
+</li>
+<li>
+<p>está grávida ou pensa que pode estar grávida </p>
+</li>
+<li>
+<p>já fez uma cirurgia ao estômago (abdominal) </p>
+</li>
+<li>
+<p>já teve uma torção de um ovário </p>
+</li>
+<li>
+<p>teve ou tem quistos num ovário ou nos ovários. </p>
+</li>
+</ul>
+<p>Tumores dos ovários e outros tumores do sistema reprodutor 
+Foram notificados casos de tumores dos ovários e outros tumores do sistema reprodutor em mulheres 
+que foram submetidas a tratamento para a infertilidade. Não é conhecido se o tratamento com 
+medicamentos de fertilidade aumenta o risco destes tumores em mulheres inférteis.  </p>
+<p>Outras condições médicas 
+Adicionalmente, antes de iniciar a utilização deste medicamento, informe o seu médico se: </p>
+<ul>
+<li>algum médico lhe disse que a gravidez poderia ser perigosa para si. </li>
+</ul>
+<p>Se for homem: </p>
+<p>Homens com níveis elevados de FSH no sangue 
+Níveis elevados de FSH no sangue são sinal de lesões nos testículos. Geralmente, Puregon não é eficaz 
+nestes casos. Para verificar o efeito do tratamento, o seu médico poderá pedir-lhe para fazer uma 
+análise ao esperma, a realizar 4 a 6 meses após o início do tratamento. </p>
+<p>Crianças e adolescentes 
+Não existe utilização relevante de Puregon em crianças e adolescentes. </p>
+<p>Outros medicamentos e Puregon </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Se Puregon for utilizado em combinação com o citrato de clomifeno, o efeito de Puregon pode 
+aumentar. Se foi administrado um agonista GnRH (medicamento utilizado para prevenir a ovulação 
+precoce), poderá ser necessária uma dose mais elevada de Puregon. </p>
+<p>Gravidez e amamentação </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. Não deve tomar 
+Puregon se já estiver grávida ou se pensa que está grávida. </p>
+<p>O Puregon poderá afetar a produção de leite. É pouco provável que o Puregon passe para o leite 
+humano. Se estiver a amamentar, fale com o seu médico antes de utilizar Puregon. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>É pouco provável que o Puregon afete a capacidade de conduzir ou utilizar máquinas. </p>
+<p>Puregon contém álcool benzílico </p>
+<p>Este medicamento contém 10 mg de álcool benzílico por ml. 
+O álcool benzílico pode causar reações alérgicas. 
+Consulte o seu médico ou farmacêutico se tiver uma doença de fígado ou rins. Isto porque podem 
+acumular-se grandes quantidades de álcool benzílico no seu corpo e pode causar efeitos indesejáveis 
+(“acidose metabólica"). 
+Consulte o seu médico ou farmacêutico se está grávida ou a amamentar. Isto porque podem 
+acumular-se grandes quantidades de álcool benzílico no seu corpo e pode causar efeitos indesejáveis 
+(“acidose metabólica"). </p>
+<p>Puregon contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por injeção ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar puregon"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar puregon"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Dose nas mulheres </p>
+<p>O médico decidirá qual a sua dose inicial. Esta dose pode ser ajustada durante o período de tratamento. 
+No texto que se segue encontra-se informação mais detalhada.<br />
+Existem grandes diferenças na resposta dos ovários à FSH o que torna impossível a fixação de um 
+esquema de dosagem que seja adequado a todas as doentes. Para se encontrar a dose certa, o seu 
+médico verificará o crescimento do folículo através de ecografia e pela determinação da quantidade de 
+estradiol (hormona sexual feminina) encontrada no sangue. </p>
+<ul>
+<li>
+<p>Mulheres que não têm ovulação 
+O seu médico irá estabelecer uma dose inicial. Esta dose inicial prolonga-se, pelo menos, 
+durante 7 dias. Se não houver resposta do ovário, a dose diária será então gradualmente 
+aumentada até o crescimento do folículo e/ou os níveis plasmáticos de estradiol indicarem uma 
+resposta adequada. A dose diária é então mantida até que ocorra um folículo de tamanho 
+adequado. Normalmente, são suficientes 7 a 14 dias de tratamento. O tratamento com Puregon é 
+então interrompido e a ovulação será induzida pela administração da gonadotrofina coriónica 
+humana (hCG).  </p>
+</li>
+<li>
+<p>Programas de procriação medicamente assistida, por exemplo a FIV 
+O seu médico irá estabelecer uma dose inicial. Esta dose prolonga-se pelo menos durante os 
+quatro primeiros dias. Depois, a sua dose pode ser ajustada com base na sua resposta ovárica. 
+Quando existir um número suficiente de folículos de tamanho adequado, é induzida a fase final 
+de maturação dos folículos através da administração da hormona gonadotrofina coriónica 
+(hCG). A recolha do(s) óvulo(s) é feita 34-35 horas depois.  </p>
+</li>
+</ul>
+<p>Dose nos homens </p>
+<p>Puregon é geralmente prescrito numa dose de 450 UI por semana, dividida em 3 doses de 150 UI, em 
+combinação com outra hormona (hCG), durante pelo menos 3 a 4 meses. O período de tratamento é 
+igual ao tempo de desenvolvimento do esperma e durante o qual podem ser esperadas melhorias. Se a 
+sua produção de esperma não tiver começado após este período, o seu tratamento poderá prosseguir 
+durante pelo menos, 18 meses. </p>
+<p>Como são dadas as injeções </p>
+<p>Puregon solução injetável em cartuchos foi desenvolvido para ser usado na Puregon Pen. Devem 
+seguir-se as instruções dadas em separado para uso da caneta. Não usar o cartucho se a solução 
+apresentar partículas ou se a solução não estiver límpida. Se usar a caneta, as injeções sob a pele (por 
+exemplo na zona inferior do abdómen) podem ser administradas por si ou pelo seu companheiro. O 
+seu médico indicar-lhe-á quando e como fazer isto. Se você se injetar a si próprio com Puregon, siga 
+as instruções atentamente para administrar Puregon adequadamente e com desconforto mínimo. A 
+primeira injeção de Puregon só deverá ser dada na presença de um médico ou enfermeiro. 
+Pode ficar no cartucho uma pequena quantidade do medicamento após o tratamento com Puregon ser 
+completado mesmo que todas as doses tenham sido administradas corretamente. Não tente usar 
+qualquer medicamento remanescente. Após administração da última dose, o cartucho deverá ser 
+eliminado apropriadamente. </p>
+<p>Se utilizar mais Puregon do que deveria </p>
+<p>Informe o seu médico imediatamente. 
+Uma dosagem muito elevada de Puregon causa hiperestimulação dos ovários (SHO). Isto pode 
+manifestar-se através de dor abdominal. Se tiver dor abdominal, informe imediatamente o seu médico. 
+Ver também a secção 4 sobre efeitos indesejáveis possíveis. </p>
+<p>Caso se tenha esquecido de utilizar Puregon </p>
+<p>Se se esquecer de administrar uma dose, não tome uma dose a dobrar para compensar a dose em falta. 
+→ Contacte o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves em mulheres 
+Uma complicação com o tratamento com FSH é a hiperestimulação dos ovários. A hiperestimulação 
+ovárica pode evoluir para uma situação clínica chamada síndrome de hiperestimulação ovárica 
+(SHO) que pode ser um problema clínico grave. O risco pode ser reduzido pela monitorização 
+cuidadosa durante o tratamento do desenvolvimento folicular. O seu médico irá fazer ecografias aos 
+seus ovários para monitorizar cuidadosamente o número de folículos maduros. O seu médico poderá 
+também verificar os níveis de hormonas no sangue. Dor no abdómen, sensação de mal-estar ou 
+diarreia, são os primeiros sintomas Nos casos mais graves, os sintomas podem incluir um alargamento 
+dos ovários, acumulação de líquido no abdómen e/ou no peito (que pode causar súbito aumento de 
+peso devido à acumulação de líquido) e coágulos sanguíneos na circulação. Ver advertências e 
+precauções na secção 2.<br />
+→Consulte imediatamente o seu médico no caso de sentir dores no estômago ou quaisquer outros 
+sintomas de hiperestimulação ovárica, mesmo que estes ocorram alguns dias após a última injeção.  </p>
+<p>Se for uma mulher: 
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): 
+- Dor de cabeça 
+- Reações no local da injeção (como ardor, dor, vermelhidão, inchaço e comichão) 
+- Síndrome de hiperestimulação ovárica (SHO) 
+- Dor pélvica (dor na região abaixo do umbigo) 
+- Dor e/ou inchaço no estômago </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- Queixas mamárias (incluindo sensibilidade ao toque) 
+- Diarreia, prisão de ventre ou desconforto no estômago 
+- Aumento de volume do útero 
+- Sentir-se doente 
+- Reações de hipersensibilidade (como erupção da pele, vermelhidão, urticária e comichão) 
+- Quistos no ovário ou aumento de volume dos ovários 
+- Torção do ovário (ovários torcidos) 
+- Sangramento vaginal </p>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas) 
+- Coágulos de sangue (isto também pode ocorrer na ausência de hiperestimulação ovárica não 
+desejada, ver advertências e precauções na secção 2). </p>
+<p>Têm sido também notificados casos de gravidez fora do útero (gravidez ectópica), aborto e gravidezes 
+múltiplas. Não se considera que estes efeitos indesejáveis estejam relacionados com a utilização de 
+Puregon mas com o programa de Procriação Medicamente Assistida (PMA) ou gravidez subsequente. </p>
+<p>Se for um homem: 
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): 
+- Acne 
+- Reações no local da injeção (tal como endurecimento e dor) 
+- Dor de cabeça 
+- Erupção da pele 
+- Algum desenvolvimento mamário 
+- Quistos nos testículos </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar puregon"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar puregon"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Conservação pelo farmacêutico 
+Conservar 2ºC - 8ºC (no frigorífico). Não congelar. </p>
+<p>Conservação pelo doente 
+Tem duas opções: 
+1. Conservar a 2°C - 8°C (no frigorífico). Não congelar. 
+2. Não conservar acima de 25ºC (à temperatura ambiente) por um período único não superior a 3 
+meses. 
+Tome nota do início da conservação fora do frigorífico. </p>
+<p>Manter o cartucho dentro da embalagem exterior. </p>
+<p>Uma vez que a agulha passe através da borracha do cartucho, o produto pode ser armazenado no 
+máximo durante 28 dias. Por favor escreva o dia da primeira utilização do cartucho no cartão de 
+controlo tal como demonstrado no Manual de Puregon Pen. 
+Não utilize Puregon após o prazo de validade impresso no rótulo e na embalagem exterior a seguir a 
+‘EXP’. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>As agulhas usadas devem ser deitadas fora imediatamente após a injeção. 
+Não misture qualquer outro medicamento dentro dos cartuchos. Os cartuchos vazios não devem ser 
+recarregados. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Puregon </p>
+<ul>
+<li>
+<p>Cada cartucho contém a substância ativa folitropina beta, hormona conhecida como hormona 
+folículo-estimulante (FSH) na dosagem de 833 UI/ml de solução aquosa. </p>
+</li>
+<li>
+<p>Os outros componentes são a sacarose, o citrato de sódio, a L-metionina, o polissorbato 20 e o 
+álcool benzílico em água para injetáveis. O pH pode ser ajustado pela adição de hidróxido de 
+sódio e/ou ácido clorídrico.  </p>
+</li>
+</ul>
+<p>Qual o aspeto de Puregon e conteúdo da embalagem </p>
+<p>Puregon solução injetável (injetável) consiste num líquido límpido, incolor. Este apresenta-se sob a 
+forma de cartuchos de vidro. Está disponível em embalagens de 1 cartucho. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+N.V. Organon 
+Kloosterstraat 6 
+5349 AB Oss 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Organon Belgium 
+Tél/Tel: 0080066550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Lietuva 
+Organon Pharma B.V. Lithuania atstovybė 
+Tel.: +370 52041dpoc.lithuania@organon.com </p>
+<p>България 
+Органон (И.А.) Б.В. - клон България 
+Тел.: +359 2 806 3dpoc.bulgaria@organon.com </p>
+<p>Luxembourg/Luxemburg 
+Organon Belgium 
+Tél/Tel: 0080066550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Česká republika 
+Organon Czech Republic s.r.o. 
+Tel: +420 233 010 dpoc.czech@organon.com </p>
+<p>Magyarország 
+Organon Hungary Kft. 
+Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
+<p>Danmark 
+Organon Denmark ApS<br />
+Tlf: +45 4484 6info.denmark@organon.com </p>
+<p>Malta 
+Organon Pharma B.V., Cyprus branch 
+Tel: +356 2277 8dpoc.cyprus@organon.com </p>
+<p>Deutschland 
+Organon Healthcare GmbH 
+Tel.: 0800 3384 726 (+49 (0) 89 2040022 10) 
+dpoc.germany@organon.com </p>
+<p>Nederland 
+N.V. Organon 
+Tel: 00800 66550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Eesti 
+Organon Pharma B.V. Estonian RO 
+Tel: +372 66 61 dpoc.estonia@organon.com </p>
+<p>Norge 
+Organon Norway AS 
+Tlf: +47 24 14 56 info.norway@organon.com </p>
+<p>Ελλάδα 
+BIANEΞ Α.Ε. 
+Τηλ: +30 210 80091 Mailbox@vianex.gr </p>
+<p>Österreich 
+Organon Healthcare GmbH 
+Tel: +49 (0) 89 2040022 dpoc.austria@organon.com 
+España 
+Organon Salud, S.L. 
+Tel: +34 91 591 12 organon_info@organon.com 
+Polska 
+Organon Polska Sp. z o.o. 
+Tel.: +48 22 105 50 organonpolska@organon.com </p>
+<p>France 
+Organon France 
+Tél: +33 (0) 1 57 77 32<br />
+Portugal 
+Organon Portugal, Sociedade Unipessoal Lda. 
+Tel: +351 218705geral_pt@organon.com </p>
+<p>Hrvatska 
+Organon Pharma d.o.o. 
+Tel: +385 1 638 4dpoc.croatia@organon.com </p>
+<p>România 
+Organon Biosciences S.R.L. 
+Tel: +40 21 527 29 dpoc.romania@organon.com 
+Ireland 
+Organon Pharma (Ireland) Limited 
+Tel: +353 15828medinfo.ROI@organon.com </p>
+<p>Slovenija 
+Organon Pharma B.V., Oss, podružnica Ljubljana 
+Tel: +386 1 300 10 dpoc.slovenia@organon.com 
+Ísland 
+Vistor hf. 
+Sími: + 354 535 7 
+Slovenská republika 
+Organon Slovakia s. r. o. 
+Tel: +421 2 44 88 98 dpoc.slovakia@organon.com </p>
+<p>Italia 
+Organon Italia S.r.l. 
+Tel: +39 06 90259dpoc.italy@organon.com </p>
+<p>Suomi/Finland 
+Organon Finland Oy 
+Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
+<p>Κύπρος 
+Organon Pharma B.V., Cyprus branch 
+Τηλ: +357 22866dpoc.cyprus@organon.com </p>
+<p>Sverige 
+Organon Sweden AB 
+Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
+<p>Latvija 
+Ārvalsts komersanta “Organon Pharma B.V." 
+pārstāvniecība 
+Tel: +371 66968dpoc.latvia@organon.com </p>
+<p>United Kingdom (Northern Ireland) 
+Organon Pharma (UK) Limited 
+Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
+<p>Este folheto foi revisto pela última vez em mês de AAAA </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da Internet da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
 
 
                     
@@ -1056,6 +1606,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-cfa624691d24d77fe98aa5c98b02fbeb"
 * entry[0].resource = composition-da-cfa624691d24d77fe98aa5c98b02fbeb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcfa624691d24d77fe98aa5c98b02fbeb"
+* entry[=].resource = mpcfa624691d24d77fe98aa5c98b02fbeb
+                            
+                    
+Instance: bundlepackageleaflet-pt-cfa624691d24d77fe98aa5c98b02fbeb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for puregon Package Leaflet for language pt"
+Description: "ePI document Bundle for puregon Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-cfa624691d24d77fe98aa5c98b02fbeb"
+* entry[0].resource = composition-pt-cfa624691d24d77fe98aa5c98b02fbeb
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpcfa624691d24d77fe98aa5c98b02fbeb"
@@ -1157,6 +1729,18 @@ RuleSet: cfa624691d24d77fe98aa5c98b02fbebListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-cfa624691d24d77fe98aa5c98b02fbeb) // puregon pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

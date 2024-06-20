@@ -708,6 +708,376 @@ hjemmeside http://www.ema.europa.eu/. </p>         </div>"""
 
 
 
+Instance: composition-pt-a43f6802b7bc837851c3ee6d33acffd1
+InstanceOf: CompositionUvEpi
+Title: "Composition for sorafenib Package Leaflet"
+Description:  "Composition for sorafenib Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa43f6802b7bc837851c3ee6d33acffd1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - sorafenib"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Sorafenib Accord e para que é utilizado 
+2. O que precisa de saber antes de tomar Sorafenib Accord 
+3. Como tomar Sorafenib Accord 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Sorafenib Accord 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é sorafenib e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é sorafenib e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sorafenib Accord é utilizado para tratar o cancro do fígado (carcinoma hepatocelular). 
+Sorafenib Accord é também utilizado para tratar o cancro dos rins (carcinoma de células renais 
+avançado) numa fase avançada quando os tratamentos usuais não ajudaram a parar a doença ou são 
+considerados inadequados.  </p>
+<p>Sorafenib Accord é denominado um inibidor multiquinase. Atua reduzindo a velocidade de 
+crescimento das células cancerígenas e cortando o fornecimento de sangue que mantém o crescimento 
+das células cancerígenas. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar sorafenib"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar sorafenib"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Sorafenib Accord 
+- Se tem alergia ao sorafenib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar Sorafenib Accord. </p>
+<p>Tome especial cuidado com Sorafenib Accord 
+- Se apresentar problemas de pele. Sorafenib Accord pode causar erupções e reações cutâneas 
+(na pele), especialmente nas mãos e pés. Estas podem normalmente ser tratadas pelo seu 
+médico. Se não puderem, o seu médico poderá interromper ou suspender o tratamento com 
+Sorafenib Accord. 
+- Se tem tensão arterial elevada. Sorafenib Accord pode aumentar a pressão sanguínea, e o seu 
+médico irá usualmente monitorizar a sua pressão sanguínea podendo receitar-lhe um 
+medicamento para tratar a pressão sanguínea elevada.<br />
+- Se tiver ou tiver tido um aneurisma (dilatação ou enfraquecimento da parede de um vaso 
+sanguíneo) ou uma rotura na parede de um vaso sanguíneo. 
+- Se tem diabetes. Os níveis de açúcar no sangue em doentes diabéticos devem ser verificados 
+regularmente, a fim de avaliar se a dosagem do medicamento antidiabético necessita de ser 
+ajustada para minimizar o risco de níveis baixos de açúcar no sangue. 
+- Se apresentar algum problema hemorrágico (perda de sangue) ou está a tomar varfarina 
+ou fenprocumom. O tratamento com Sorafenib Accord pode aumentar o risco de hemorragias. 
+Se está a tomar varfarina ou fenprocumom, medicamentos que fluidificam o sangue para 
+prevenir coágulos sanguíneos, poderá existir um maior risco de hemorragias. 
+- Se apresentar dor no peito ou problemas de coração. O seu médico pode decidir interromper 
+o tratamento ou suspendê-lo. 
+- Se tem uma doença do coração, tal como um sinal elétrico anormal denominado 
+“prolongamento do intervalo QT". 
+- Se vai ser submetido a alguma cirurgia, ou se foi operado recentemente. Sorafenib Accord 
+pode afetar a cicatrização de feridas. Em princípio, o tratamento com Sorafenib Accord será 
+suspenso se for ter uma operação. O seu médico decidirá quando irá começar novamente o 
+tratamento com Sorafenib Accord. 
+- Se está a tomar irinotecano ou se lhe estão a administrar docetaxel, que são também 
+medicamentos para o cancro. Sorafenib Accord pode aumentar os efeitos e, em particular, os 
+efeitos indesejáveis destes medicamentos. 
+- Se está a tomar neomicina ou outros antibióticos. O efeito de Sorafenib Accord pode estar 
+diminuído. 
+- Se sofre de insuficiência grave do fígado. Poderá sentir efeitos indesejáveis mais graves ao 
+tomar este medicamento. 
+- Se tiver diminuição da função renal. O seu médico irá vigiar o seu equilíbrio hídrico e 
+eletrolítico. 
+- Fertilidade. Sorafenib Accord pode reduzir a fertilidade tanto nos homens como nas mulheres. 
+Se está preocupado, fale com o seu médico. 
+- Durante o tratamento podem surgir buracos na parede do intestino (perfuração 
+gastrointestinal) (ver secção 4: Efeitos Indesejáveis Possíveis). Neste caso, o seu médico irá 
+interromper o tratamento.<br />
+- Se tiver cancro da tiroide. O seu médico controlará os níveis sanguíneos do cálcio e da 
+hormona tiroideia. 
+- Se tiver os seguintes sintomas, contacte imediatamente o seu médico, pois pode ser uma 
+doença potencialmente fatal: náuseas, falta de ar, batimento cardíaco irregular, cãibras 
+musculares, convulsões, turvação da urina e cansaço. Estas podem ser causadas por um grupo 
+de complicações metabólicas que podem ocorrer durante o tratamento do cancro resultantes da 
+degradação das células cancerosas que foram destruídas (síndrome de lise tumoral (SLT)) e 
+podem levar a alterações na função renal e insuficiência renal aguda (ver também a secção 4: 
+Efeitos indesejáveis possíveis). </p>
+<p>Informe o seu médico se tiver algum destes efeitos. Poderá necessitar de tratamento para os 
+mesmos, ou o seu médico pode decidir alterar a dose de Sorafenib Accord, ou parar o tratamento (ver 
+também secção 4: Efeitos indesejáveis possíveis). </p>
+<p>Crianças e adolescentes 
+Não foram ainda realizados estudos em crianças e adolescentes com sorafenib. </p>
+<p>Outros medicamentos e Sorafenib Accord 
+Alguns medicamentos podem afetar Sorafenib Accord, ou ser afetados por ele. Informe o seu médico 
+ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos: 
+- Rifampicina, neomicina ou outros medicamentos utilizados para tratar infeções (antibióticos) 
+- Hipericão, um tratamento à base de plantas para a depressão 
+- Fenitoína, carbamazepina ou fenobarbital, tratamentos para a epilepsia e outras situações 
+- Dexametasona, um corticosteroide utilizado em várias situações 
+- Varfarina ou fenprocumom, anticoagulantes utilizados para prevenir coágulos sanguíneos 
+- Doxorrubicina, capecitabina, docetaxel, paclitaxel e irinotecano, também usados no tratamento 
+do cancro 
+- Digoxina, um tratamento para a insuficiência cardíaca ligeira a moderada </p>
+<p>Gravidez e amamentação 
+Evite ficar grávida enquanto está a ser tratada com Sorafenib Accord. Se puder engravidar, utilize 
+uma contraceção adequada durante o tratamento. Se engravidar durante o tratamento com Sorafenib 
+Accord, informe imediatamente o seu médico que decidirá se o tratamento deve continuar. </p>
+<p>Durante o tratamento com Sorafenib Accord não deve amamentar, pois este medicamento pode 
+interferir com o crescimento e desenvolvimento do seu bebé. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não existem evidências que o Sorafenib Accord possa afetar a capacidade de conduzir ou utilizar 
+máquinas. </p>
+<p>Sorafenib Accord contém sódio 
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar sorafenib"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar sorafenib"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A dose recomendada de Sorafenib Accord em adultos é de 2 comprimidos de 200 mg, duas vezes 
+ao dia. 
+Isto é equivalente a uma dose diária de 800 mg ou a quatro comprimidos por dia. </p>
+<p>Engula os comprimidos de Sorafenib Accord com um copo de água, sem alimentos ou com uma 
+refeição com pouca ou moderada gordura. Não tome este medicamento com refeições com muita 
+gordura, pois isso pode tornar Sorafenib Accord menos eficaz. Se tenciona tomar uma refeição com 
+um teor elevado em gorduras, tome os comprimidos pelo menos 1 hora antes ou 2 horas depois da 
+refeição. 
+Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>É importante tomar este medicamento à mesma hora todos os dias, de modo a que haja uma 
+quantidade constante na corrente sanguínea. </p>
+<p>De um modo geral, continuará a tomar este medicamento enquanto tiver benefícios clínicos e não tiver 
+efeitos indesejáveis inaceitáveis. </p>
+<p>Se tomar mais Sorafenib Accord do que deveria 
+Informe imediatamente o seu médico no caso de você (ou outra pessoa) ter tomado mais do que a 
+dose prescrita. Tomar muito Sorafenib Accord faz com que possa ter mais efeitos indesejáveis ou 
+efeitos indesejáveis mais graves, especialmente diarreia e reações cutâneas. O seu médico pode dizer-
+lhe para parar de tomar este medicamento. </p>
+<p>Caso se tenha esquecido de tomar Sorafenib Accord 
+Se se esqueceu de uma dose, tome-a logo que se lembre. Se forem quase horas da próxima dose, 
+esqueça a dose em falta e continue como normalmente. Não tome uma dose a dobrar para compensar 
+uma dose que se esqueceu de tomar. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Este medicamento também pode afetar os resultados de algumas 
+análises ao sangue. </p>
+<p>Efeitos indesejáveis muito frequentes: (podem afetar mais do que 1 em cada 10 pessoas) 
+- diarreia 
+- sentir-se enjoado (náuseas) 
+- sentir-se fraco ou cansado (fadiga) 
+- dor (incluindo dor na boca, dor no abdómen (barriga), dor de cabeça, dor óssea, dor tumoral) 
+- perda de cabelo (alopecia) 
+- palmas das mãos ou solas dos pés vermelhas ou dolorosas (reação mão-pé da pele) 
+- comichão ou erupção na pele 
+- vómitos 
+- sangramento (incluindo sangramento no cérebro, parede do intestino e trato respiratório; 
+hemorragia) 
+- pressão sanguínea alta ou aumento da pressão sanguínea (hipertensão) 
+- infeções 
+- perda de apetite (anorexia) 
+- prisão de ventre 
+- dor nas articulações (artralgia) 
+- febre 
+- perda de peso 
+- pele seca </p>
+<p>Efeitos indesejáveis frequentes: (podem afetar até 1  em cada 10 pessoas) 
+- sintomas do tipo gripal 
+- indigestão (dispepsia) 
+- dificuldade em engolir (disfagia) 
+- boca seca ou inflamada, dor na língua (estomatite e inflamação das mucosas) 
+- níveis baixos de cálcio no sangue (hipocalcemia) 
+- níveis baixos de potássio no sangue (hipocaliemia) 
+- níveis baixos de açúcar no sangue (hipoglicemia) 
+- dores nos músculos (mialgia) 
+- alteração das sensações nos dedos das mãos e pés incluindo formigueiros ou dormência 
+(neuropatia sensorial periférica) 
+- depressão<br />
+- problemas de ereção (impotência) 
+- alteração da voz (disfonia) 
+- acne 
+- pele seca, inflamada ou com descamações (dermatite, descamação da pele) 
+- insuficiência cardíaca 
+- ataque cardíaco (enfarte do miocárdio) ou dor no peito 
+- zumbidos (sons nos ouvidos) 
+- insuficiência renal 
+- níveis anormalmente elevados de proteína na urina (proteinúria)<br />
+- fraqueza geral ou perda de força (astenia) 
+- diminuição do número de glóbulos brancos (leucopenia e neutropenia) 
+- diminuição do número de glóbulos vermelhos (anemia) 
+- número baixo de plaquetas no sangue (trombocitopenia) 
+- inflamação dos folículos pilosos (foliculite) 
+- glândula tiroideia pouco ativa (hipotiroidismo) 
+- níveis baixos de sódio no sangue (hiponatremia) 
+- alteração do sentido do paladar (disgeusia) 
+- vermelhidão da face e muitas vezes de outras zonas da pele (rubor) 
+- corrimento nasal (rinorreia) 
+- azia (doença do refluxo gastroesofágico) 
+- cancro da pele (queratoacantomas/carcinoma das células escamosas da pele) 
+- um espessamento da camada externa da pele (hiperqueratose) 
+- contração involuntária e súbita de um músculo (espasmos musculares) </p>
+<p>Efeitos indesejáveis pouco frequentes: (podem afetar até 1 em cada 100 pessoas) 
+- inflamação do revestimento do estômago (gastrite) 
+- dor na barriga (abdómen) causada por pancreatite, inflamação da vesícula biliar e/ou canais 
+biliares 
+- pele ou olhos amarelos (icterícia) causada por níveis elevados de pigmentos biliares 
+(hiperbilirrubinemia) 
+- reações de tipo alérgico (incluindo reações cutâneas e urticária (erupção na pele com comichão) 
+- desidratação 
+- aumento dos seios (ginecomastia) 
+- dificuldade em respirar (doença do pulmão) 
+- eczema 
+- aumento da atividade da glândula tiroideia (hipertiroidismo) 
+- erupções múltiplas na pele (eritema multiforme) 
+- pressão sanguínea anormalmente alta 
+- buracos na parede do intestino (perfuração gastrointestinal) 
+- inchaço reversível na parte de trás do cérebro que pode estar associado a dores de cabeça, 
+alterações da consciência, desmaio e sintomas visuais incluindo perda de visão 
+(leucoencefalopatia posterior reversível) 
+- uma reação alérgica grave e súbita (reação anafiláctica) </p>
+<p>Efeitos indesejáveis raros: (podem afetar até 1 em cada 1.000 pessoas) 
+- reação alérgica com inchaço da pele (ex.: face, língua) que pode provocar dificuldade em 
+respirar ou engolir (angioedema)<br />
+- ritmo cardíaco anormal (prolongamento do QT) 
+- inflamação do fígado, que pode originar náuseas, vómitos, dor abdominal e icterícia (hepatite 
+induzida pelo fármaco) 
+- uma erupção tipo queimadura solar que pode ocorrer na pele previamente exposta a radioterapia 
+e que pode ser grave (reaparecimento da dermatite dos efeitos da radiação) 
+- reações graves da pele e/ou mucosas que podem incluir bolhas dolorosas e febre, incluindo um 
+descolamento extenso da pele (síndrome Stevens-Johnson e necrólise epidérmica tóxica) 
+- degradação muscular anormal que pode originar problemas nos rins (rabdomiólise) 
+- lesão dos rins, causando a perda de grandes quantidades de proteína (síndrome nefrótica)<br />
+- inflamação dos vasos sanguíneos da pele que pode resultar em erupção na pele (vasculite 
+leucocitoclástica) </p>
+<p>Desconhecido: frequência não pode ser calculada a partir dos dados disponíveis 
+- função diminuída do cérebro que pode estar associada com ex.: sonolência, alterações de 
+comportamento ou confusão (encefalopatia) 
+-         uma dilatação ou enfraquecimento da parede de um vaso sanguíneo ou uma rotura da parede de 
+um vaso sanguíneo (aneurismas e dissecções das artérias). 
+-         náuseas, falta de ar, batimento cardíaco irregular, cãibras musculares, convulsões, turvação da 
+urina e cansaço (Síndrome de lise tumoral (SLT)) (ver secção 2). </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar sorafenib"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar sorafenib"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e em cada 
+um dos blisters após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Sorafenib Accord </p>
+<ul>
+<li>A substância ativa é o sorafenib. Cada comprimido revestido por película contém 200 mg de 
+sorafenib (na forma de tosilato). </li>
+<li>Os outros componentes são: 
+Núcleo do comprimido: croscarmelose sódica, celulose microcristalina, hipromelose, 
+laurilsulfato de sódio, estearato de magnésio. Ver a secção 2 “Sorafenib Accord contém sódio" 
+Revestimento do comprimido: hipromelose (E464), macrogol (1521), dióxido de titânio 
+(E171), óxido de ferro vermelho (E172). </li>
+</ul>
+<p>Qual o aspeto de Sorafenib Accord e conteúdo da embalagem </p>
+<p>Sorafenib Accord 200 mg comprimidos revestidos por película são comprimidos revestidos por 
+película vermelhos, redondos, biconvexos, com bordos em bisel, com um diâmetro de 12,0 mm, com a 
+gravação “H1" numa face e lisos na outra face. </p>
+<p>Blísters de alumínio-alumínio perfurados para dose unitária em apresentações de 112x1 comprimidos 
+revestidos por película numa embalagem exterior </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Accord Healthcare S.L.U. 
+World Trade Center, Moll de Barcelona, s/n 
+Edifici Est, 6a Planta 
+08039 Barcelona 
+Espanha </p>
+<p>Fabricante 
+Accord Healthcare Polska Sp. z.o.o. 
+ul.Lutomierska 95-200, Pabianice 
+Polónia </p>
+<p>Pharmadox Healthcare Limited 
+KW20A Kordin Industrial Estate 
+Paola PLA 3Malta </p>
+<p>Accord Healthcare B.V. 
+Winthontlaan 200,<br />
+3526 KV Utrecht<br />
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>AT / BE / BG / CY / CZ / DE / DK / EE / FI / FR / HR / HU / IE / IS / IT / LT / LV / LX / MT / NL 
+/ NO / PT / PL / RO / SE / SI / SK / UK(NI) / ES 
+Accord Healthcare S.L.U. 
+Tel: +34 93 301 00<br />
+EL 
+Win Medica Pharmaceutical S.A.<br />
+Tel: +30 210 7488<br />
+Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -749,6 +1119,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a43f6802b7bc837851c3ee6d33acffd1"
 * entry[0].resource = composition-da-a43f6802b7bc837851c3ee6d33acffd1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa43f6802b7bc837851c3ee6d33acffd1"
+* entry[=].resource = mpa43f6802b7bc837851c3ee6d33acffd1
+                            
+                    
+Instance: bundlepackageleaflet-pt-a43f6802b7bc837851c3ee6d33acffd1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sorafenib Package Leaflet for language pt"
+Description: "ePI document Bundle for sorafenib Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a43f6802b7bc837851c3ee6d33acffd1"
+* entry[0].resource = composition-pt-a43f6802b7bc837851c3ee6d33acffd1
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa43f6802b7bc837851c3ee6d33acffd1"
@@ -850,6 +1242,18 @@ RuleSet: a43f6802b7bc837851c3ee6d33acffd1ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a43f6802b7bc837851c3ee6d33acffd1) // sorafenib pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

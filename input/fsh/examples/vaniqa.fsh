@@ -540,6 +540,320 @@ hjemmeside http://www.ema.europa.eu/. </p>         </div>"""
 
 
 
+Instance: composition-pt-6054fe37439ac8bd57061a7fc8bca219
+InstanceOf: CompositionUvEpi
+Title: "Composition for vaniqa Package Leaflet"
+Description:  "Composition for vaniqa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6054fe37439ac8bd57061a7fc8bca219)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - vaniqa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Vaniqa e para que é utilizado 
+2. O que precisa de saber antes de utilizar Vaniqa 
+3. Como utilizar Vaniqa 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Vaniqa 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é vaniqa e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é vaniqa e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vaniqa contém a substância ativa eflornitina. A eflornitina retarda o crescimento dos pelos ao 
+atuar sobre uma enzima específica (uma proteína do corpo que está envolvida na produção do 
+pelo). </p>
+<p>Vaniqa é utilizado para reduzir o crescimento excessivo de pelos (hirsutismo) na face em 
+mulheres com mais de 18 anos de idade. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar vaniqa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar vaniqa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Vaniqa </p>
+<ul>
+<li>se tem alergia à eflornitina ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).  </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de utilizar Vaniqa </p>
+<ul>
+<li>informe o seu médico sobre outros problemas de saúde que possa estar a ter 
+(especialmente relacionados com o fígado ou rins).  </li>
+<li>em caso de dúvida se deve ou não utilizar este medicamento, contacte o seu o médico 
+ou farmacêutico. </li>
+</ul>
+<p>O desenvolvimento excessivo de pelos pode ser uma consequência de uma doença subjacente. 
+Consulte o seu médico se sofrer de síndrome do ovário poliquístico (SOP) ou de tumores que 
+produzem hormonas específicas ou se estiver a tomar medicamentos que possam induzir o 
+crescimento de pelos, p. ex., ciclosporina (após transplante de órgãos), glucocorticóides (p. 
+ex., para o tratamento das doenças reumáticas ou alérgicas), minoxidil (para a tensão alta), 
+fenobarbitona (para as convulsões), fenitoína (para as convulsões) ou terapêutica hormonal de 
+substituição com efeitos semelhantes à hormona masculina. </p>
+<p>Crianças e adolescentes </p>
+<p>Vaniqa não é recomendado para uso em pessoas com idade inferior a 18 anos. </p>
+<p>Outros medicamentos e Vaniqa </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se 
+vier a tomar outros medicamentos, incluindo medicamentos obtidos sem receita médica. </p>
+<p>Consulte o seu médico caso seja necessário utilizar outros medicamentos nas mesmas zonas 
+da pele em que está a utilizar o creme. </p>
+<p>Gravidez e amamentação </p>
+<p>Não use Vaniqa se estiver grávida ou a amamentar. Deve utilizar um método alternativo para 
+controlar os seus pelos faciais se estiver grávida ou a tentar engravidar. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Não se prevêem efeitos de Vaniqa sobre a sua capacidade de conduzir ou utilizar máquinas. </p>
+<p>Vaniqa contém álcool cetostearílico e álcool estearílico, que podem provocar reações 
+dérmicas locais (p. ex. dermatite de contacto). Vaniqa também contém para-
+hidroxibenzoato de metilo (E218) e para-hidroxibenzoato de propilo (E216), que podem 
+causar reações alérgicas (possivelmente tardias). </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar vaniqa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar vaniqa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico 
+ou farmacêutico se tiver dúvidas. 
+- Utilize duas vezes por dia, com pelo menos 8 horas de intervalo entre as aplicações. 
+- Se sentir irritação (p. ex., ardor, picadas), reduza a utilização de Vaniqa para uma vez 
+por dia até que a irritação tenha desaparecido. Se esta persistir, consulte o seu médico. 
+- Se acabou de rapar os pelos ou tiver utilizado outro método de remoção de pelos, 
+aguarde pelo menos 5 minutos antes de aplicar Vaniqa. Pode picar ou arder se colocar 
+o creme na pele cortada ou irritada. Limpe e seque a pele onde vai aplicar o creme. 
+- Aplique uma camada fina do creme e friccione bem até não serem visíveis resíduos do 
+creme nas áreas tratadas. 
+- Se possível não lave a zona da pele tratada nas 4 horas seguintes à aplicação do creme. 
+- Lave as mãos depois da aplicação do creme. 
+- Aguarde pelo menos 5 minutos antes de usar maquilhagem ou protetores solares nas 
+áreas tratadas. 
+- Quando utilizado na face, evite o contacto com os olhos ou com o interior do nariz ou 
+da boca. Caso Vaniqa entre acidentalmente em contacto com os seus olhos, boca ou 
+nariz, lave abundantemente com água. </p>
+<p>Vaniqa não é um creme depilatório, por isso pode ter de continuar a utilizar o seu método de 
+remoção de pelos, por exemplo, rapando ou arrancando-os.  </p>
+<p>Pode demorar 8 semanas até ver resultados. É importante que continue a utilizar o creme. Se 
+não observar qualquer melhoria após quatro meses de tratamento, consulte o seu médico. Se 
+parar de utilizar Vaniqa, o crescimento dos seus pelos pode voltar ao estado original no prazo 
+de 8 semanas. </p>
+<p>Se utilizar mais Vaniqa do que deveria </p>
+<p>Se aplicou demasiado creme na pele, não é provável que seja prejudicial. </p>
+<p>No caso de ter ingerido acidentalmente Vaniqa ou se qualquer outra pessoa tiver ingerido 
+Vaniqa, contacte o seu médico imediatamente. </p>
+<p>Caso se tenha esquecido de utilizar Vaniqa </p>
+<p>Aplique o creme de imediato, mas aguarde pelo menos 8 horas antes de o voltar a utilizar. </p>
+<p>Se parar de utilizar Vaniqa </p>
+<p>Para manter a redução do crescimento dos pelos, continue a utilizar Vaniqa continuamente 
+conforme indicado. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora 
+estes não se manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis estão normalmente limitados à pele e são de intensidade ligeira. 
+Nesses casos, resolvem-se normalmente sem suspender a utilização de Vaniqa. </p>
+<p>A frequência dos efeitos indesejáveis possíveis apresentada seguidamente é definida pela 
+utilização da seguinte convenção: </p>
+<p>muito frequentes 
+(afetam mais de 1 utilizador em 10) 
+frequentes 
+(afetam 1 a 10 utilizadores em 100) 
+pouco frequentes (afetam 1 a 10 utilizadores em 1.000) 
+raros 
+(afetam 1 a 10 utilizadores em 10.000) 
+muito raros 
+(afetam menos de 1 utilizador em 10.000) 
+desconhecida 
+(a frequência não pode ser calculada a partir dos dados disponíveis). </p>
+<p>Muito frequentes (afetam mais de 1 utilizador em 10) 
+o acne </p>
+<p>Frequentes (afetam 1 a 10 utilizadores em 100) 
+o pele seca 
+o perda de cabelo 
+o inflamação à volta da haste capilar 
+o comichão 
+o erupção cutânea 
+o vermelhidão 
+o irritação cutânea e inchaços causados pelo rapar 
+o irritação cutânea 
+o picadas, sensação de formigueiro ou de ardor na pele </p>
+<p>Pouco frequentes (afetam 1 a 10 utilizadores em 1000) 
+o erupção cutânea irregular (erupção papular) 
+o herpes labial 
+o vermelhidão e irritação no local de aplicação do creme 
+o eczema 
+o lábios inflamados, secos, gretados ou dormentes 
+o pelos encravados 
+o zonas descoradas na pele 
+o hemorragia cutânea 
+o furúnculos 
+o rubor (vermelhidão) da pele 
+o inflamação cutânea 
+o pele sensível 
+o inchaço do rosto ou da boca 
+o textura e crescimento anormal do pelo </p>
+<p>Raros (afetam 1 a 10 utilizadores em 10.000) 
+o crescimento anómalo da pele (neoplasias cutâneas) 
+o crescimento excessivo dos pelos 
+o rubor, vermelhidão facial e borbulhas possivelmente com pus 
+o outras afeções cutâneas 
+o inflamação cutânea com vermelhidão, escamosa e com comichão (dermatite 
+seborreica) 
+o erupção cutânea com vermelhidão, pele irregular ou com bolhas 
+o quistos cutâneos 
+o pele repuxada </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice 
+V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
+segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar vaniqa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar vaniqa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+fundo da bisnaga após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Rejeite a bisnaga com o conteúdo remanescente do creme 6 meses após a primeira abertura. </p>
+<p>Fechar bem a bisnaga depois de usar. </p>
+<p>Não conservar acima de 25ºC. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Vaniqa </p>
+<p>A substância ativa é eflornitina.<br />
+Cada grama de creme contém 115 mg de eflornitina (como hidrocloreto monohidrato). </p>
+<p>Os outros componentes são álcool cetostearílico; éter cetostearílico de macrogol; dimeticone; 
+estearato de glicerilo; estearato de macrogol; para-hidroxibenzoato de metilo (E218); parafina 
+líquida; fenoxietanol; para-hidroxibenzoato de propilo (E216); água purificada e álcool 
+estearílico. São, por vezes, adicionadas pequenas quantidades de hidróxido de sódio (E524) 
+de forma a manter normais os níveis de acidez (valores de pH). </p>
+<p>Qual o aspeto de Vaniqa e conteúdo da embalagem </p>
+<p>Vaniqa é um creme de cor branca a bege. É fornecido em bisnagas de 15 g, 30 g e 60 g. É 
+possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Almirall S.A. 
+Ronda General Mitre, 08022 Barcelona 
+Espanha 
+Tel: + 34 93 291 30<br />
+Fabricante </p>
+<p>Almirall Hermal GmbH 
+Scholtzstrasse 3 
+D-21465 Reinbek 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do 
+Titular da Autorização de Introdução no Mercado: </p>
+<p>Belgique/België/Belgien 
+Almirall N.V. 
+Tél/Tel: +32 (0)2 771 86<br />
+Ireland / United Kingdom (Northern 
+Ireland) 
+Almirall, S.A. 
+Tel: +353 (0) 1431 9 
+България / Česká republika / Hrvatska / Eesti 
+/ Ελλάδα / España / Κύπρος / Latvija / Lietuva 
+/ Magyarország / Malta / România / Slovenija / 
+Slovenská republika 
+Almirall, S.A. 
+Teл./Tel/Tηλ: +34 93 291 30<br />
+Nederland 
+Almirall BV 
+Tel: +31 (0) 307991Danmark / Ísland / Norge / Sverige 
+Almirall ApS 
+Tlf/Sími/Tel: +45 70 25 75<br />
+Österreich 
+Almirall GmbH 
+Tel: +43 01/595 39<br />
+Deutschland 
+Luxembourg/Luxemburg 
+Almirall Hermal GmbH 
+Tel/Tél: +49 (0)40 72704-0 </p>
+<p>Polska 
+Almirall Sp. z o.o. 
+Tel.: +48 22 330 02<br />
+France 
+Almirall SAS 
+Tél: +33(0)1 46 46 19 Portugal 
+Almirall - Produtos Farmacêuticos, Lda. 
+Tel: +351 21 415 57  </p>
+<p>Italia 
+Almirall SpA 
+Tel: +39 02 346 
+Suomi/Finland 
+Orion Pharma 
+Puh/Tel: +358 10 4 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da 
+Agência Europeia de Medicamentos: http://www.ema.europa.eu  </p>         </div>"""      
+
+
+
 
 
                     
@@ -581,6 +895,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-6054fe37439ac8bd57061a7fc8bca219"
 * entry[0].resource = composition-da-6054fe37439ac8bd57061a7fc8bca219
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6054fe37439ac8bd57061a7fc8bca219"
+* entry[=].resource = mp6054fe37439ac8bd57061a7fc8bca219
+                            
+                    
+Instance: bundlepackageleaflet-pt-6054fe37439ac8bd57061a7fc8bca219
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vaniqa Package Leaflet for language pt"
+Description: "ePI document Bundle for vaniqa Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-6054fe37439ac8bd57061a7fc8bca219"
+* entry[0].resource = composition-pt-6054fe37439ac8bd57061a7fc8bca219
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp6054fe37439ac8bd57061a7fc8bca219"
@@ -682,6 +1018,18 @@ RuleSet: 6054fe37439ac8bd57061a7fc8bca219ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-6054fe37439ac8bd57061a7fc8bca219) // vaniqa pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

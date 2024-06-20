@@ -1164,6 +1164,658 @@ CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne �
 
 
 
+Instance: composition-pt-a3cd214d19f3341c3aa081ac17f909d1
+InstanceOf: CompositionUvEpi
+Title: "Composition for sutent Package Leaflet"
+Description:  "Composition for sutent Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa3cd214d19f3341c3aa081ac17f909d1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - sutent"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Sutent e para que é utilizado
+2. O que precisa de saber antes de tomar Sutent
+3. Como tomar Sutent
+4. Efeitos indesejáveis possíveis
+5. Como conservar Sutent
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é sutent e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é sutent e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Sutent contém a substância ativa sunitinib, que é um inibidor da proteína cinase. É utilizado no 
+tratamento do cancro, para prevenir a atividade de um grupo especial de proteínas que se sabe estarem 
+envolvidas no crescimento e difusão das células cancerígenas.
+O Sutent é utilizado no tratamento de adultos com os seguintes tipos de cancro:
+-
+Tumor do estroma gastrointestinal (GIST), um tipo de cancro do estômago e intestino, em que o 
+imatinib (outro medicamento anticancerígeno) já não tem efeito, ou se não puder tomar 
+imatinib.
+-
+Carcinoma de células renais metastático (MRCC), um tipo de cancro do rim que se espalhou 
+para outras partes do corpo.
+-
+Tumores neuroendócrinos pancreáticos (pNET) (tumores das células produtoras de hormonas no 
+pâncreas) que progrediram ou que não podem ser removidos por cirurgia. 
+Contacte o seu médico se tiver alguma questão relacionada com o modo de ação de Sutent ou com a 
+razão deste medicamento lhe ter sido prescrito. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar sutent"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar sutent"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Sutent</h2>
+<p>se tem alergia ao sunitinib ou a qualquer outro componente de Sutent (indicados na secção 6).
+64
+Advertências e precauções
+Fale com o seu médico antes de tomar Sutent:
+-
+Se tem a pressão sanguínea elevada. O Sutent pode aumentar a pressão sanguínea. O seu 
+médico poderá verificar a sua pressão sanguínea durante o tratamento com Sutent, e poderá ter 
+que ser tratado com medicamentos para reduzir a pressão sanguínea, caso seja necessário.
+-
+Se tem ou teve doenças do sangue, problemas de hemorragias, ou nódoas negras. O 
+tratamento com Sutent pode levar a um aumento do risco de hemorragia ou levar a alterações no 
+número de certas células do sangue, que podem levar a anemia ou afetar a capacidade do seu 
+sangue coagular. Se está a tomar varfarina ou acenocumarol, medicamentos que tornam o 
+sangue mais fino para prevenir a formação de coágulos sanguíneos, pode haver um maior risco 
+de hemorragias. Informe o seu médico se tiver alguma hemorragia durante o tratamento com 
+Sutent.
+-
+Se tem problemas de coração. O Sutent pode causar problemas de coração. Informe o seu 
+médico se se sentir muito cansado, tiver falta de ar, ou se tiver pés e tornozelos inchados.
+-
+Se tiver alterações irregulares do ritmo do coração. O Sutent pode causar irregularidades no 
+ritmo do seu coração. O seu médico pode obter eletrocardiogramas para avaliar estes problemas 
+durante o seu tratamento com Sutent. Informe o seu médico se sentir tonturas, sensação de 
+desmaio, ou tiver batimentos do coração irregulares enquanto tomar Sutent.
+-
+Se teve um problema recente com coágulos sanguíneos nas suas veias e/ou artérias (tipos 
+de vasos sanguíneos), incluindo acidente vascular cerebral, ataque cardíaco, embolia ou 
+trombose. Fale com o seu médico imediatamente se tiver sintomas como pressão ou dor no 
+peito, dor nos braços, costas, pescoço ou maxilar, falta de ar, dormência ou fraqueza em 1 dos 
+lados do corpo, dificuldade em falar, dores de cabeça, ou tonturas durante o tratamento com 
+Sutent.
+-
+Se tiver ou tiver tido um aneurisma (dilatação ou enfraquecimento da parede de um vaso 
+sanguíneo) ou uma rotura na parede de um vaso sanguíneo.
+-
+Se tem ou teve danos nos vasos sanguíneos mais pequenos, conhecidos como 
+microangiopatia trombótica (TMA). Informe o seu médico se desenvolver febre, fadiga, 
+cansaço, nódoas negras, hemorragias, inchaços, confusão, perda de visão e convulsões.
+-
+Se tiver problemas da glândula tiroideia. O Sutent pode causar problemas na glândula 
+tiroideia. Informe o seu médico se se cansar com mais facilidade, se se sentir com mais frio do 
+que as outras pessoas, ou se a sua voz se tornar mais fraca enquanto tomar Sutent. A função da 
+sua tiroide deve ser verificada antes de tomar Sutent, e regularmente durante a sua toma. Se a 
+sua glândula tiroideia não produzir hormonas da tiroide suficientes, poderá ser tratado com um 
+substituto da hormona da tiroide.
+-
+Se tem ou teve perturbações pancreáticas ou da vesícula biliar. Informe o seu médico se 
+desenvolver algum dos seguintes sinais e sintomas: dor na área do estômago (abdómen 
+superior), náuseas, vómitos e febre. Estes podem ser causados por inflamação do pâncreas ou da 
+vesícula biliar.
+-
+Se tem ou teve problemas no fígado. Informe o seu médico se sentir algum dos seguintes 
+sinais e sintomas de problemas no fígado durante o tratamento com Sutent: comichão, olhos ou 
+pele amarelados, urina escura e dor ou desconforto na zona superior direita do estômago. O seu 
+médico deverá fazer análises ao sangue para verificar a função do seu fígado, antes e durante o 
+tratamento com Sutent, e como indicado clinicamente.
+65
+-
+Se tem ou teve problemas de rins. O seu médico irá monitorizar a função do seu rim.
+-
+Se vai fazer uma cirurgia ou se fez uma cirurgia recentemente. O Sutent pode afetar o modo 
+como as suas feridas cicatrizam. Geralmente, se vai fazer uma operação, o tratamento com 
+Sutent é interrompido. O seu médico irá decidir quando deve iniciar Sutent novamente.
+-
+Poderá ser aconselhado a fazer uma revisão dentária antes do início do tratamento com 
+Sutent.
+-
+Se tem ou teve dor na boca, dentes e /ou maxilar, inchaço ou feridas dentro da boca, 
+dormência ou uma sensação de peso no maxilar, ou um dente a abanar, informe o seu 
+médico ou dentista imediatamente.
+-
+Se necessita de se submeter a um tratamento dentário invasivo ou cirurgia dentária, 
+informe o seu dentista que está a ser tratado com Sutent, em particular se também estiver a 
+receber, ou tiver recebido, bifosfonatos intravenosos. Os bifosfonatos são medicamentos 
+utilizados para prevenir complicações nos ossos, que podem ter sido prescritos para outra 
+condição médica.
+-
+Se tem ou teve afeções dos tecidos cutâneos e subcutâneos. Durante o tratamento com este 
+medicamento pode ocorrer piodermite gangrenosa (ulceração dolorosa da pele) ou fasceíte 
+necrosante (uma infeção da pele/tecidos moles que se espalha rapidamente e pode colocar a vida 
+em perigo). Contacte o seu médico imediatamente se surgirem sintomas de infeção à volta de uma 
+lesão da pele, incluindo febre, dor, vermelhidão, inchaço ou se sair pus ou sangue. Este efeito é, 
+geralmente, reversível após descontinuação do sunitinib. Foram notificados casos de erupções 
+graves na pele (síndrome de Stevens-Johnson, necrólise epidérmica tóxica, eritema multiforme) 
+com a utilização de sunitinib, que aparecem inicialmente no tronco como manchas avermelhadas 
+semelhantes a alvos ou manchas circulares muitas vezes com bolhas no centro. A erupção pode 
+progredir para bolhas generalizadas ou descamação da pele, e pode colocar a vida em perigo. Se 
+tiver uma erupção ou tiver estes sintomas na pele, procure assistência médica imediata. <br />
+-
+Se tem ou teve convulsões. Informe o seu médico, assim que possível, se tem pressão sanguínea 
+elevada, dores de cabeça, ou perda de visão.
+-
+Se tem diabetes. Os níveis de açúcar no sangue nos doentes diabéticos devem ser monitorizados 
+regularmente para avaliar se a dosagem do medicamento antidiabético necessita ser ajustada de 
+forma a minimizar o risco de níveis baixos de açúcar no sangue. Informe o seu médico logo que 
+possível se tiver quaisquer sinais e sintomas de níveis baixos de açúcar no sangue (fadiga, 
+palpitações, transpiração, fome e perda de consciência).
+Crianças e adolescentes
+O Sutent não está recomendado para pessoas com menos de 18 anos de idade. 
+Outros medicamentos e Sutent
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos, incluindo medicamentos obtidos sem receita médica.
+Alguns medicamentos podem afetar os níveis de Sutent no seu organismo. Deve informar o seu
+médico se estiver a tomar medicamentos que contenham as seguintes substâncias ativas:
+-
+cetoconazol, itraconazol - utilizados para tratar infeções fúngicas
+-
+eritromicina, claritromicina, rifampicina - usados para tratar infeções
+-
+ritonavir - utilizado para tratar o VIH
+-
+dexametasona - um corticosteroide utilizado em várias patologias (tais como doenças 
+alérgicas/respiratórias ou doenças da pele)
+-
+fenitoína, carbamazepina, fenobarbital - usado para tratar a epilepsia e outras condições
+neurológicas
+66
+-
+preparações à base de plantas contendo hipericão (Hypericum perforatum) - utilizadas no 
+tratamento da depressão e ansiedade
+Sutent com alimentos e bebidas
+Deverá evitar tomar sumo de toranja durante o tratamento com Sutent.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Se puder engravidar, deverá utilizar um método contracetivo fiável durante o tratamento com Sutent. 
+Informe o seu médico se estiver a amamentar. Não deve amamentar durante o período de tratamento 
+com Sutent. 
+Condução de veículos e utilização de máquinas
+Tome especial cuidado na condução ou utilização de máquinas se sentir tonturas ou se se sentir 
+invulgarmente cansado.
+Sutent contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é praticamente 
+“isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar sutent"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar sutent"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas.
+O seu médico irá prescrever-lhe a dose mais indicada para si, dependendo do tipo de cancro a ser 
+tratado. Se está a receber tratamento para:
+
+GIST ou MRCC: a dose habitual é de 50 mg uma vez por dia, durante 28 dias (4 semanas), 
+seguido de 14 dias (2 semanas) de repouso (sem medicação), administrado em ciclos de 6 
+semanas
+
+pNET: a dose habitual é 37,5 mg uma vez por dia sem um período de repouso. 
+O seu médico determinará a dose apropriada que deverá tomar, bem como se, e quando, deverá parar o 
+tratamento com Sutent.
+O Sutent pode ser tomado com ou sem alimentos.
+Se tomar mais Sutent do que deveria
+Informe imediatamente o seu médico se tomou acidentalmente demasiadas cápsulas. Poderá necessitar 
+de cuidados médicos. 
+Caso se tenha esquecido de tomar Sutent
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+67</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Deve contactar o seu médico imediatamente se tiver algum dos seguintes efeitos indesejáveis graves 
+(ver também O que precisa de saber antes de tomar Sutent):
+Problemas de coração. Informe o seu médico se se sentir muito cansado, tiver falta de ar, ou se tiver 
+pés e tornozelos inchados. Estes podem ser sintomas de problemas de coração que podem incluir 
+insuficiência do coração e problemas no músculo do coração (cardiomiopatia).
+Problemas em respirar ou dos pulmões. Informe o seu médico se desenvolver tosse, dor no peito, 
+aparecimento súbito de falta de ar, ou se tossir sangue. Estes podem ser sintomas de uma situação 
+chamada embolia pulmonar que ocorre quando coágulos sanguíneos são transportados para os seus 
+pulmões.
+Perturbações dos rins. Informe o seu médico se tiver alterações na frequência em urinar, ou se não 
+urinar, que podem ser sintomas de insuficiência renal.
+Hemorragia. Informe o seu médico se tiver algum destes sintomas ou um problema hemorrágico 
+grave durante o tratamento com Sutent: estômago (abdómen) inchado e doloroso; vomitar sangue;
+fezes escuras e pegajosas; urina com sangue; dores de cabeça ou alteração do seu estado mental; tosse 
+com sangue ou sangue expelido com a expetoração dos pulmões ou das vias respiratórias. <br />
+Destruição do tumor que leva a um orifício no intestino. Informe o seu médico se tiver dor 
+abdominal grave, febre, náuseas, vómitos, sangue nas fezes, ou alteração dos seus hábitos intestinais.
+Outros efeitos indesejáveis podem incluir:
+Muito frequentes (podem afetar mais de 1 em cada 10 pessoas)
+-
+Redução do número de plaquetas, glóbulos vermelhos e/ou glóbulos brancos (por exemplo, 
+neutrófilos).
+-
+Falta de ar.
+-
+Tensão arterial elevada.
+-
+Cansaço extremo, perda de força.
+-
+Inchaço devido a fluidos debaixo da pele e à volta dos olhos, erupção cutânea alérgica profunda.
+-
+Dor/irritação na boca (da cavidade oral), boca (cavidade oral)
+sensibilizada/inflamada/desidratada, alterações do paladar, problemas no estômago, náuseas, 
+vómitos, diarreia, prisão de ventre, dor/inchaço abdominal, perda/diminuição do apetite.
+-
+Atividade da glândula tiroideia diminuída (hipotiroidismo).
+-
+Tonturas.
+-
+Dores de cabeça.
+-
+Sangramento nasal.
+-
+Dor de costas, dor articular.
+-
+Dor nos braços e pernas.
+-
+Pele amarela/descoloração da pele, pigmentação excessiva da pele, alterações na coloração do 
+cabelo, erupção da pele nas palmas das mãos e nas plantas dos pés, erupção, pele seca.
+-
+Tosse.
+-
+Febre.
+-
+Dificuldade em adormecer.
+Frequentes (podem afetar até 1 em cada 10 pessoas)
+-
+Coágulos de sangue nos vasos sanguíneos.
+-
+Falta de fluxo sanguíneo para o músculo do coração, devido a obstrução ou constrição das 
+artérias coronárias.
+-
+Dor no peito.
+68
+-
+Diminuição da quantidade de sangue bombeada pelo coração.
+-
+Retenção de líquido, incluindo em redor dos pulmões.
+-
+Infeções.
+-
+Complicação de infeção grave (a infeção está presente na corrente sanguínea) que pode levar a 
+lesão dos tecidos, falência de órgãos e morte. Níveis de açúcar no sangue diminuídos (ver 
+secção 2).
+-
+Perda de proteína na urina resultando por vezes em inchaço.
+-
+Sintomas semelhantes aos da gripe.
+-
+Testes sanguíneos anómalos incluindo das enzimas pancreáticas e do fígado.
+-
+Nível elevado de ácido úrico no sangue.
+-
+Hemorroidas, dor no reto, sangramento das gengivas, dificuldade em engolir, ou incapacidade 
+de engolir.
+-
+Sensação de ardor ou dor na língua, inflamação no revestimento do aparelho digestivo, excesso 
+de gás no estômago ou intestino.
+-
+Perda de peso.
+-
+Dor músculo-esquelética (dor nos músculos e ossos), fraqueza muscular, fadiga muscular, dor 
+muscular, espasmos musculares.
+-
+Secura nasal, congestão nasal.
+-
+Fluxo lacrimal excessivo.
+-
+Alteração da sensação da pele, comichão, descamação e inflamação da pele, bolhas, acne, 
+descoloração das unhas, perda de cabelo.
+-
+Sensações alteradas nas extremidades.
+-
+Alteração, aumento ou diminuição da sensibilidade, particularmente ao toque.
+-
+Azia.
+-
+Desidratação.
+-
+Afrontamentos.
+-
+Cor da urina anómala. 
+-
+Depressão.
+-
+Calafrios.
+Pouco frequentes (podem afetar até 1 em cada 100 pessoas)
+-
+Infeções dos tecidos moles, incluindo da região ano-genital (ver secção2).
+-
+Acidente vascular cerebral.
+-
+Ataque cardíaco causado por interrupção ou diminuição do fluxo sanguíneo para o coração.
+-
+Alterações na atividade elétrica do coração ou ritmo do coração irregular.
+-
+Líquido à volta do coração (derrame pericárdico).
+-
+Insuficiência do fígado.
+-
+Dor no estômago (abdómen) causada por inflamação do pâncreas.
+-
+Destruição do tumor, que origina um orifício no intestino (perfuração).
+-
+Inflamação (inchaço e rubor) da vesícula biliar, com ou sem cálculos biliares associados.
+-
+Formação anormal de uma passagem, tipo tubo, de uma cavidade normal do corpo para outra 
+cavidade do corpo ou pele.
+-
+Dor na boca, dentes e/ou maxilares, inchaço ou feridas no interior da boca, dormência ou 
+sensação de peso no maxilar, ou um dente a abanar. Estes podem ser sinais e sintomas de danos 
+nos ossos do maxilar (osteonecrose), ver secção 2. -
+Produção excessiva de hormonas da tiroide, aumentando a quantidade de energia que o corpo 
+utiliza em repouso.
+-
+Problemas com cicatrização de feridas após cirurgia.
+-
+Níveis aumentados da enzima dos músculos (creatina fosfoquinase) no sangue.
+-
+Reação excessiva a um alergeno, incluindo febre dos fenos, erupção da pele, comichão na pele, 
+urticária, inchaço de partes do corpo e problemas em respirar.
+-
+Inflamação do cólon (colite, colite isquémica)
+Raros (podem afetar até 1 em cada 1.000 pessoas)
+-
+Reação grave na pele e/ou membranas mucosas (síndrome de Stevens-Johnson, necrólise 
+epidérmica tóxica, eritema multiforme). 
+69
+-
+Síndrome de lise tumoral (SLT) - SLT consiste num grupo de complicações metabólicas que 
+podem ocorrer durante o tratamento do cancro. Estas complicações são causadas por produtos 
+de degradação de células cancerígenas mortas e podem incluir: náuseas, falta de ar, batimento 
+do coração irregular, cãibras musculares, convulsões, turvamento da urina e cansaço associado a 
+resultados dos testes laboratoriais anómalos (níveis altos de potássio, ácido úrico e fósforo, e 
+níveis baixos de cálcio, no sangue) que podem levar a alterações da função do rim e 
+insuficiência renal aguda.
+-
+Lesão anómala do músculo, que pode originar problemas nos rins (rabdomiólise).
+-
+Alterações anómalas no cérebro que podem causar diversos sintomas incluindo dores de cabeça, 
+confusão, convulsões e perda de visão (síndrome de leucoencefalopatia posterior reversível).
+-
+Ulceração dolorosa da pele (piodermite gangrenosa).
+-
+Inflamação do fígado (hepatite).
+-
+Inflamação da glândula tiroideia.
+-
+Danos nos vasos sanguíneos mais pequenos, conhecidos como Microangiopatia Trombótica 
+(TMA).
+Desconhecido (não pode ser calculado a partir dos dados disponíveis)
+-
+Uma dilatação ou enfraquecimento da parede de um vaso sanguíneo ou uma rotura da parede de 
+um vaso sanguíneo (aneurismas e dissecções das artérias).
+-
+Falta de energia, confusão, sonolência, perda de consciência/coma - estes sintomas podem ser 
+sinais de toxicidade cerebral causada por níveis elevados de amónia no sangue (encefalopatia 
+hiperamonémica).
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar sutent"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar sutent"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>-
+Manter este medicamento fora da vista e do alcance das crianças. 
+-
+Não utilize este medicamento após o prazo de validade impresso na cartonagem, no frasco e no 
+blister, após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+-
+O medicamento não necessita de quaisquer precauções especiais de conservação. 
+-
+Não utilize este medicamento se verificar que a embalagem está danificada ou apresenta sinais 
+de violação. 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Sutent
+Sutent 12,5 mg cápsulas
+A substância ativa é o sunitinib. Cada cápsula contém malato de sunitinib equivalente a 12,5 mg de 
+sunitinib.
+Os outros componentes são:
+-
+Conteúdo da cápsula: manitol (E421), croscarmelose sódica, povidona (K-25), e estearato de 
+magnésio. 
+-
+Composição da cápsula: gelatina, óxido de ferro vermelho (E172), e dióxido de titânio (E171). 
+70
+-
+Composição da tinta de impressão: goma laca, propilenoglicol, hidróxido de sódio, povidona e 
+dióxido de titânio (E171).
+Sutent 25 mg cápsulas
+A substância ativa é o sunitinib. Cada cápsula contém malato de sunitinib equivalente a 25 mg.
+Os outros componentes são:
+-
+Conteúdo da cápsula: manitol, croscarmelose sódica, povidona (K-25), e estearato de magnésio. 
+-
+Composição da cápsula: gelatina, dióxido de titânio (E171), óxido de ferro amarelo (E172), 
+óxido de ferro vermelho (E172) e óxido de ferro preto (E172). 
+-
+Composição da tinta de impressão: goma laca, propilenoglicol, hidróxido de sódio, povidona, e 
+dióxido de titânio (E171).
+Sutent 37,5 mg cápsulas
+A substância ativa é o sunitinib. Cada cápsula contém malato de sunitinib equivalente a 37,5 mg.
+Os outros componentes são:
+-
+Conteúdo da cápsula: manitol, croscarmelose sódica, povidona (K-25), e estearato de magnésio.
+-
+Composição da cápsula: gelatina, dióxido de titânio (E171) e óxido de ferro amarelo (E172).
+-
+Composição da tinta de impressão: goma laca, propilenoglicol, hidróxido de potássio e óxido de 
+ferro preto (E172).
+Sutent 50 mg cápsulas
+A substância ativa é o sunitinib. Cada cápsula contém malato de sunitinib equivalente a 50 mg.
+Os outros componentes são:
+-
+Conteúdo da cápsula: manitol, croscarmelose sódica, povidona (K-25), e estearato de magnésio. 
+-
+Composição da cápsula: gelatina, dióxido de titânio (E171), óxido de ferro amarelo (E172), 
+óxido de ferro vermelho (E172) e óxido de ferro preto (E172). 
+-
+Composição da tinta de impressão: goma laca, propilenoglicol, hidróxido de sódio, povidona, e 
+dióxido de titânio (E171).
+Qual o aspeto de Sutent e conteúdo da embalagem
+Sutent 12,5 mg é fornecido como cápsulas de gelatina com a cabeça e o corpo cor de laranja, com 
+“Pfizer" impresso com tinta branca na cabeça e “STN 12,5 mg" no corpo, contendo grânulos de cor 
+amarela a laranja.
+Sutent 25 mg é fornecido como cápsulas de gelatina com a cabeça cor de caramelo e o corpo cor de 
+laranja, com “Pfizer" impresso com tinta branca na cabeça e “STN 25 mg" no corpo, contendo 
+grânulos de cor amarela a laranja.
+Sutent 37,5 mg é fornecido como cápsulas de gelatina com a cabeça e o corpo de cor amarela, com 
+“Pfizer" impresso com tinta preta na cabeça e “STN 37,5 mg" no corpo, contendo grânulos de cor 
+amarela a laranja.
+Sutent 50 mg é fornecido como cápsulas de gelatina com a cabeça e o corpo cor de caramelo, com 
+“Pfizer" impresso com tinta branca na cabeça e “STN 50 mg" no corpo, contendo grânulos de cor 
+amarela a laranja.
+Está disponível em frascos de plástico de 30 cápsulas e em blisteres perfurados, de dose unitária 
+contendo 28 x 1 cápsulas. 
+É possível que não sejam comercializadas todas as apresentações.
+71
+Titular da Autorização de Introdução no Mercado 
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante
+Pfizer Italia S.r.L
+Via Del Commercio - Zone Industriale
+63100 Marino del Tronto (Ascoli Piceno)
+Itália
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado.
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. + 370 52 51 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Pfizer HCP Corporation
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: +36-1-488-37-00
+Česká republika
+Pfizer, spol. s r.o.<br />
+Tel.: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer BV
+Tel: +31 (0)10 406 43 01
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel.: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τλ:   +30 210 6785 800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.:+48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer 
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+72
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel.: + 386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free) 
++44 (0) 1304616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel.:+ 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh./Tel: +358 (0)9 43 00 40
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige 
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Kύπρος
+Pfizer Ελλάς A.E. (Cyprus Branch)
+Tηλ.:+ 357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: + 371 670 35 775
+Este folheto foi revisto pela última vez em {MM/AAAA}.
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1205,6 +1857,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a3cd214d19f3341c3aa081ac17f909d1"
 * entry[0].resource = composition-da-a3cd214d19f3341c3aa081ac17f909d1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa3cd214d19f3341c3aa081ac17f909d1"
+* entry[=].resource = mpa3cd214d19f3341c3aa081ac17f909d1
+                            
+                    
+Instance: bundlepackageleaflet-pt-a3cd214d19f3341c3aa081ac17f909d1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sutent Package Leaflet for language pt"
+Description: "ePI document Bundle for sutent Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a3cd214d19f3341c3aa081ac17f909d1"
+* entry[0].resource = composition-pt-a3cd214d19f3341c3aa081ac17f909d1
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa3cd214d19f3341c3aa081ac17f909d1"
@@ -1306,6 +1980,18 @@ RuleSet: a3cd214d19f3341c3aa081ac17f909d1ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a3cd214d19f3341c3aa081ac17f909d1) // sutent pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

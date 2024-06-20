@@ -1155,6 +1155,632 @@ nærmere beskrevet i den europæiske offentlige vurderingsrapport. </li>
 
 
 
+Instance: composition-pt-27ec6b1f73b141fda5344cc71ceec655
+InstanceOf: CompositionUvEpi
+Title: "Composition for trodelvy Package Leaflet"
+Description:  "Composition for trodelvy Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp27ec6b1f73b141fda5344cc71ceec655)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - trodelvy"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Trodelvy e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser dado Trodelvy </li>
+<li>Como lhe será dado Trodelvy  </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Trodelvy </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é trodelvy e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é trodelvy e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trodelvy é um medicamento para o cancro que contém a substância ativa sacituzumab govitecano. 
+Uma parte do medicamento é um anticorpo monoclonal que se liga especificamente a uma proteína 
+existente na superfície das células do cancro da mama chamada Trop-2. A outra parte ativa de 
+Trodelvy é a SN-38, uma substância que pode matar células cancerosas. Depois de o medicamento se 
+ligar às células cancerosas, a SN-38 entra nas células cancerosas e elimina-as, ajudando assim a 
+combater o seu cancro. </p>
+<p>Trodelvy é usado para tratar um tipo de cancro da mama em adultos chamado cancro da mama 
+triplo negativo (CMTN). Trodelvy só deve ser usado depois dos doentes terem sido tratados com, 
+pelo menos, dois outros tratamentos para o seu cancro, incluindo, pelo menos, um tratamento para o 
+cancro localmente avançado ou metastizado. </p>
+<p>Trodelvy é usado para tratar um tipo de cancro da mama em adultos chamado cancro da mama 
+com recetor hormonal positivo (HR+), recetor do fator de crescimento epidérmico humano tipo 
+2 negativo (HER2-). Trodelvy só deve ser usado depois dos doentes terem sido tratados com um 
+tratamento que inclua um tratamento hormonal para o cancro e, pelo menos, dois outros tratamentos 
+adicionais para o cancro localmente avançado ou metastizado. </p>
+<p>O medicamento é usado quando não é possível remover o cancro com cirurgia porque o cancro 
+alastrou para áreas fora da mama (localmente avançado) ou para outros sítios no corpo (metastizado).  </p>
+<p>Fale com o seu médico ou enfermeiro se tiver questões sobre como Trodelvy atua ou porque é que este 
+medicamento lhe foi prescrito. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar trodelvy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar trodelvy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe pode ser dado Trodelvy se tem alergia a sacituzumab govitecano ou a qualquer outro 
+componente deste medicamento (indicados na secção 6). Se acha que pode ter alergia, consulte o seu 
+médico. </p>
+<p>Advertências e precauções </p>
+<p>Reações relacionadas com a perfusão </p>
+<p>Trodelvy é dado gota a gota numa veia. Algumas pessoas poderão desenvolver reações relacionadas 
+com a perfusão que podem ser graves ou potencialmente fatais. Procure assistência médica urgente 
+se tiver algum dos seguintes sinais e sintomas de reações relacionadas com a perfusão: </p>
+<ul>
+<li>
+<p>prurido </p>
+</li>
+<li>
+<p>surto repentino de placas ou saliências vermelho-pálido inchadas (pápulas) na pele </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>calafrios intensos repentinos acompanhados de uma sensação de frio </p>
+</li>
+<li>
+<p>sudorese excessiva </p>
+</li>
+<li>
+<p>dificuldades da respiração e síbilo </p>
+</li>
+<li>
+<p>dor no peito, palpitações no coração 
+O seu médico poderá dar-lhe medicamentos antes de Trodelvy para ajudar a aliviar os sintomas. 
+Durante cada perfusão e 30 minutos após a mesma, será cuidadosamente monitorizado/a quanto a estes 
+sinais e sintomas de reações relacionadas com a perfusão. O seu médico irá reduzir a taxa de perfusão 
+ou pará-la se desenvolver uma reação relacionada com a perfusão grave. </p>
+</li>
+</ul>
+<p>Neutropenia </p>
+<p>Este medicamento pode causar neutropenia, uma condição em que há um número muito baixo de 
+neutrófilos no seu sangue, o que aumenta o risco de infeções. Estas infeções podem ser graves, 
+potencialmente fatais e podem levar à morte. Procure assistência médica urgente se tiver os 
+seguintes sinais e sintomas de neutropenia ou infeções:  </p>
+<ul>
+<li>
+<p>febre (uma temperatura de 38,5 °C ou superior) </p>
+</li>
+<li>
+<p>arrepios ou suores  </p>
+</li>
+<li>
+<p>dor de garganta, feridas na boca ou dor de dentes  </p>
+</li>
+<li>
+<p>dor de estômago  </p>
+</li>
+<li>
+<p>dor perto do ânus </p>
+</li>
+<li>
+<p>dor ou ardor ao urinar, ou urinar mais vezes </p>
+</li>
+<li>
+<p>diarreia ou feridas à volta do ânus </p>
+</li>
+<li>
+<p>uma tosse ou dificuldade em respirar 
+O seu médico irá colher amostras de sangue para monitorizar os níveis de neutrófilos no seu sangue. 
+Não lhe será dado Trodelvy se os neutrófilos estiverem abaixo de um certo nível no Dia 1 ou no Dia 8 
+de qualquer ciclo do tratamento.<br />
+O seu médico irá ajustar a quantidade de medicamento que lhe é dado se tiver neutropenia grave.  </p>
+</li>
+</ul>
+<p>Diarreia </p>
+<p>Procure assistência médica urgente se sofrer de diarreia grave enquanto está a receber Trodelvy. 
+O seu tratamento com Trodelvy será adiado até a sua diarreia melhorar. Ser-lhe-á dada loperamida 
+para tratar a sua diarreia, desde que não tenha uma infeção. Se for apropriado, também ser-lhe-ão 
+dados fluidos. 
+O seu médico também poderá dar-lhe um medicamento, tal como a atropina, para ajudar com as 
+cãibras do estômago, diarreia e saliva excessiva na boca antes da sua próxima perfusão de tratamento.<br />
+A sua diarreia pode levar a desidratação e lesão renal súbita. Fale com o seu médico se apresentar 
+urina de cor escura ou diminuição do volume de urina.  </p>
+<p>Náuseas e vómitos </p>
+<p>Este medicamento pode causar náuseas e vómitos. Procure assistência médica urgente se sofrer de 
+náuseas e vómitos graves enquanto está a receber Trodelvy. 
+O seu médico irá dar-lhe alguns medicamentos antes da sua terapêutica para o cancro, bem como entre 
+as sessões de perfusão, para ajudar a aliviar as náuseas e os vómitos. Não lhe será dado Trodelvy se 
+tiver náuseas e vómitos graves, e apenas lhe será dado Trodelvy quando os sintomas tiverem sido 
+controlados. </p>
+<p>Doentes que têm o gene UGT1A1<em> 
+Alguns doentes são mais propensos a ter certos efeitos indesejáveis causados pelo medicamento 
+devido à sua constituição genética. Se tiver o gene UGT1A1</em>28, o seu corpo degrada o medicamento 
+mais lentamente. Isto significa que tem maior propensão para desenvolver certos efeitos indesejáveis 
+(tais como neutropenia com ou sem febre e baixo nível de glóbulos vermelhos (anemia)), em 
+comparação com as pessoas que não têm este gene. Estes doentes serão cuidadosamente 
+acompanhados pelo respetivo médico. </p>
+<p>Fale com o seu médico ou enfermeiro antes de lhe ser dado Trodelvy se: </p>
+<ul>
+<li>
+<p>tiver problemas de fígado </p>
+</li>
+<li>
+<p>tiver problemas de rins </p>
+</li>
+<li>
+<p>for uma mulher em idade fértil (ver “Gravidez", “Contraceção masculina e feminina" e 
+“Amamentação") </p>
+</li>
+<li>
+<p>estiver a tomar medicamentos para tratar outras condições (ver “Outros medicamentos e 
+Trodelvy") </p>
+</li>
+<li>
+<p>teve problemas depois de receber quaisquer outras perfusões no passado. </p>
+</li>
+</ul>
+<p>Enquanto lhe estiver a ser dado Trodelvy, o seu médico irá monitorizá-lo/a cuidadosamente quanto a 
+efeitos indesejáveis. Se tiver efeitos indesejáveis graves, o seu médico poderá dar-lhe outros 
+medicamentos para tratar estes efeitos indesejáveis, podendo alterar a quantidade de Trodelvy que 
+recebe ou parar totalmente de lhe dar Trodelvy. </p>
+<p>Ver secção 4 para obter uma lista de todos os efeitos indesejáveis possíveis relacionados com 
+Trodelvy. </p>
+<p>Crianças e adolescentes </p>
+<p>Trodelvy não deve ser dado a crianças e adolescentes com menos de 18 anos de idade porque não há 
+informações sobre como funciona neste grupo etário. </p>
+<p>Outros medicamentos e Trodelvy </p>
+<p>Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. Alguns medicamentos poderão afetar a forma como Trodelvy atua e poderão 
+aumentar o nível da substância ativa de Trodelvy no seu sangue, aumentando o risco de efeitos 
+indesejáveis. Estes são: 
+- propofol, dado como anestésico em cirurgia. 
+- cetoconazol, usado para tratar infeções fúngicas. 
+- inibidores da tirosina cinase, usados para tratar o cancro (medicamentos que terminam em 
+“nib"). </p>
+<p>Alguns medicamentos poderão diminuir o nível da substância ativa de Trodelvy no seu sangue, 
+diminuindo os seus efeitos: 
+- carbamazepina ou fenitoína, usados para tratar a epilepsia. 
+- rifampicina, usada para tratar a tuberculose. 
+- ritonavir ou tipranavir, usados para tratar a infeção por VIH. </p>
+<p>Gravidez </p>
+<p>Trodelvy não deve ser usado durante a gravidez porque poderá prejudicar o bebé. Informe o seu 
+médico imediatamente se está grávida, se pensa estar grávida ou planeia engravidar.  </p>
+<p>Contraceção masculina e feminina </p>
+<p>As mulheres que podem engravidar têm de usar métodos contracetivos eficazes durante o tratamento 
+com Trodelvy e até 6 meses após a última dose de Trodelvy. 
+Os homens com parceiras do sexo feminino que poderão engravidar têm de usar métodos 
+contracetivos eficazes durante o tratamento e até 3 meses após a última dose de Trodelvy. </p>
+<p>Amamentação </p>
+<p>Não amamente durante o tratamento com Trodelvy e até 1 mês após a última dose. Desconhece-se se 
+este medicamento passa para o leite materno e afeta o bebé. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Trodelvy poderá afetar a sua capacidade de conduzir e utilizar máquinas, por exemplo pode sentir 
+tonturas, fadiga. Portanto, deve ter cuidado quando conduzir, usar ferramentas ou operar máquinas 
+depois de lhe ser dado Trodelvy. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar trodelvy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar trodelvy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trodelvy apenas lhe será dado pelo seu médico ou por um enfermeiro com experiência no uso de 
+terapêuticas contra o cancro. </p>
+<p>É importante que o seu médico ou enfermeiro especializado nos seus cuidados tenha confirmado que 
+pode tomar este medicamento através da realização de uma análise de sangue antes do tratamento. </p>
+<p>Medicamentos dados antes do tratamento com Trodelvy 
+Ser-lhe-ão dados alguns medicamentos antes de receber Trodelvy para ajudar a parar as reações 
+relacionadas com a perfusão e quaisquer náuseas e vómitos. O seu médico irá decidir que 
+medicamentos poderá precisar e quanto tomar. </p>
+<p>Quanto Trodelvy lhe será dado 
+O tratamento para o seu cancro é repetido em ciclos de 21 dias (3 semanas). A dose recomendada de 
+Trodelvy é de 10 mg por cada quilograma do seu peso corporal no início de cada ciclo (Dia 1 de 
+cada ciclo) e novamente uma semana mais tarde (Dia 8 de cada ciclo). </p>
+<p>Como lhe será dado o seu medicamento 
+Um médico ou enfermeiro irá dar-lhe o medicamento através de uma perfusão intravenosa (gota a gota 
+na sua veia). 
+Primeira perfusão: ser-lhe-á dada a sua primeira perfusão do medicamento ao longo de 3 horas.<br />
+Segunda perfusão e perfusões subsequentes: ser-lhe-ão dadas as outras perfusões ao longo de 1 a 
+2 horas se a sua primeira perfusão ocorreu sem incidentes.<br />
+O seu médico ou enfermeiro irá monitorizá-lo/a durante e até 30 minutos após cada perfusão quanto a 
+sinais e sintomas de reações relacionadas com a perfusão. </p>
+<p>Reações relacionadas com a perfusão 
+O seu médico irá reduzir a taxa de perfusão do seu medicamento se desenvolver uma reação 
+relacionada com a perfusão. O medicamento irá ser interrompido se a reação relacionada com a 
+perfusão for potencialmente fatal. Ver secção 2.<br />
+Dose do medicamento ao ter alguns efeitos indesejáveis 
+O seu médico poderá mudar ou interromper a sua dose se tiver certos efeitos indesejáveis. Ver 
+secção 4.<br />
+Se lhe for dado mais Trodelvy do que deveria </p>
+<p>Uma vez que a perfusão lhe é dada pelo seu médico ou por outro elemento da equipa devidamente 
+qualificado, uma sobredosagem é improvável. Se receber inadvertidamente demasiado medicamento, o 
+seu médico irá monitorizá-lo/a e dar-lhe tratamento adicional conforme necessário. </p>
+<p>Se uma dose de Trodelvy for esquecida </p>
+<p>Se se esquecer ou não comparecer à sua consulta, ligue ao seu médico ou centro de tratamento para 
+marcar outra consulta o mais cedo possível. Não espere até à sua próxima consulta planeada. Para o 
+tratamento ser totalmente eficaz, é muito importante não esquecer uma dose. </p>
+<p>Se parar o tratamento com Trodelvy </p>
+<p>Não deve parar a terapêutica de forma antecipada sem falar com o seu médico primeiro. </p>
+<p>A terapêutica para o cancro da mama com Trodelvy normalmente exige um número de tratamentos. O 
+número de perfusões que recebe irá depender da forma como está a responder ao tratamento. Assim, 
+deve continuar a receber Trodelvy mesmo se vir que os seus sintomas melhoram e até o seu médico 
+decidir que Trodelvy deve ser interrompido. Se o tratamento for interrompido demasiado cedo, os seus 
+sintomas poderão voltar.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Procure assistência médica urgente se tiver algum dos seguintes efeitos indesejáveis graves muito 
+frequentes (poderão afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>Baixa contagem dos glóbulos brancos (neutropenia) que poderá causar os seguintes sinais e 
+sintomas: </li>
+<li>febre, que é uma temperatura corporal de 38,5 °C ou superior: isto chama-se neutropenia 
+febril  </li>
+<li>arrepios ou suores </li>
+<li>dor de garganta, feridas na boca ou dor de dentes </li>
+<li>dor de estômago </li>
+<li>dor perto do ânus ou feridas à volta do ânus </li>
+<li>dor ou ardor ao urinar, ou urinar frequentemente </li>
+<li>diarreia </li>
+<li>
+<p>uma tosse ou dificuldade em respirar </p>
+</li>
+<li>
+<p>Diarreia (mesmo sem outros sinais) </p>
+</li>
+<li>
+<p>Reações de hipersensibilidade (incluindo reações relacionadas com a perfusão) que poderão 
+causar os seguintes sinais e sintomas: </p>
+</li>
+<li>lábios, língua, olhos, garganta ou cara inchados </li>
+<li>inchaço ou uma erupção cutânea saliente, com sensação de comichão e vermelha </li>
+<li>surto de placas ou saliências vermelho-pálido inchadas (pápulas) na pele que aparecem 
+subitamente </li>
+<li>febre </li>
+<li>um ataque repentino de calafrios intensos acompanhado de uma sensação de frio </li>
+<li>suor em excesso </li>
+<li>síbilo, aperto da garganta ou do peito, dificuldade em respirar, tonturas, sensação de 
+desmaio, falta de ar </li>
+<li>
+<p>dor no peito, palpitações no coração </p>
+</li>
+<li>
+<p>Sensação de enjoo (náuseas), enjoo (vómitos) </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis possíveis </p>
+<p>Estão listados abaixo outros efeitos indesejáveis. Se algum destes efeitos se tornar grave ou sério, 
+informe o seu médico imediatamente.  </p>
+<p>Muito frequentes (poderão afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>sensação de ardor ao urinar e necessidade de urinar frequente e urgente  </p>
+</li>
+<li>
+<p>tosse, dor de garganta, nariz com corrimento, dores de cabeça e espirros  </p>
+</li>
+<li>
+<p>falta de glóbulos vermelhos suficientes no sangue (anemia) </p>
+</li>
+<li>
+<p>baixo nível de glóbulos brancos (linfócitos ou leucócitos) </p>
+</li>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>nível de potássio ou magnésio no sangue baixo  </p>
+</li>
+<li>
+<p>dificuldade em dormir </p>
+</li>
+<li>
+<p>estar com tonturas </p>
+</li>
+<li>
+<p>dificuldade em respirar </p>
+</li>
+<li>
+<p>obstipação; dor de estômago </p>
+</li>
+<li>
+<p>perda de cabelo; erupção cutânea; sensação de comichão geral </p>
+</li>
+<li>
+<p>dor nas costas; dor nas articulações </p>
+</li>
+<li>
+<p>fadiga </p>
+</li>
+</ul>
+<p>Frequentes (poderão afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>calafrios, febre, desconforto geral, pele pálida ou descolorada, dificuldade em respirar devido a 
+sobrecarga bacteriana na corrente sanguínea (sépsis) </p>
+</li>
+<li>
+<p>infeção dos pulmões (pneumonia) </p>
+</li>
+<li>
+<p>nariz entupido; dor na cara; síbilo </p>
+</li>
+<li>
+<p>tosse seca e persistente que pode levar à expetoração de catarro incolor, amarelo-acinzentado ou 
+esverdeado </p>
+</li>
+<li>
+<p>sintomas gripais; infeção por herpes na boca </p>
+</li>
+<li>
+<p>baixo número de plaquetas que pode levar a hemorragia ou nódoa negra (trombocitopenia)  </p>
+</li>
+<li>
+<p>nível alto de glicose no sangue </p>
+</li>
+<li>
+<p>diminuição da água no corpo </p>
+</li>
+<li>
+<p>baixo nível de fosfato, cálcio ou sódio no sangue </p>
+</li>
+<li>
+<p>ansiedade </p>
+</li>
+<li>
+<p>alteração no paladar </p>
+</li>
+<li>
+<p>tensão arterial baixa </p>
+</li>
+<li>
+<p>hemorragia nasal; reflexo de tosse desencadeado por corrimento mucoso na parte de trás da sua 
+garganta  </p>
+</li>
+<li>
+<p>inflamação do intestino delgado e intestino grosso (colite) </p>
+</li>
+<li>
+<p>boca dorida e inflamada; dor na parte superior do estômago; refluxo; estômago inchado </p>
+</li>
+<li>
+<p>escurecimento da pele; problema de pele tipo acne; pele seca  </p>
+</li>
+<li>
+<p>dor muscular no peito; espasmos musculares  </p>
+</li>
+<li>
+<p>sangue na urina; excesso de proteína na urina  </p>
+</li>
+<li>
+<p>arrepios </p>
+</li>
+<li>
+<p>perda de peso </p>
+</li>
+<li>
+<p>aumento de uma enzima chamada fosfatase alcalina ou lactato desidrogenase, análises de 
+sangue relacionada com a coagulação anormais </p>
+</li>
+</ul>
+<p>Raros (poderão afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>inflamação do intestino delgado (enterite) </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar trodelvy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar trodelvy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trodelvy será conservado por profissionais de saúde no hospital ou centro onde recebe tratamento. As 
+indicações de conservação são as seguintes: </p>
+<ul>
+<li>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+</li>
+<li>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco para 
+injetáveis e na embalagem após EXP. O prazo de validade corresponde ao último dia do mês 
+indicado. </p>
+</li>
+<li>
+<p>Conservar no frigorífico (2 °C - 8 °C). Não congelar.  </p>
+</li>
+<li>
+<p>Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>
+</li>
+<li>
+<p>Após a reconstituição e diluição, se não for utilizado imediatamente, o saco de perfusão que 
+contém a solução diluída pode ser conservado no frigorífico (2 °C - 8 °C) até 24 horas 
+protegido da luz. </p>
+</li>
+<li>
+<p>Não utilize este medicamento se verificar que a solução reconstituída está turva ou apresenta 
+alteração de cor. </p>
+</li>
+</ul>
+<p>Trodelvy é um medicamento citotóxico. Têm de ser seguidos os procedimentos de manuseamento e 
+eliminação especiais aplicáveis. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Trodelvy 
+- A substância ativa é sacituzumab govitecano. Um frasco para injetáveis de pó contém 200 mg 
+de sacituzumab govitecano. Após a reconstituição, um mililitro de solução contém 10 mg de 
+sacituzumab govitecano 
+- Os outros componentes são ácido 2-(N-morfolino)etanossulfónico (MES), polissorbato 80 e 
+trealose di-hidratada. </p>
+<p>Qual o aspeto de Trodelvy e conteúdo da embalagem </p>
+<p>O medicamento é um pó para concentrado para solução para perfusão esbranquiçado a amarelado 
+fornecido num frasco para injetáveis de vidro. Cada embalagem contém 1 frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrlanda </p>
+<p>Fabricante 
+Gilead Sciences Ireland UC 
+IDA Business and Technology Park 
+Carrigtohill 
+County Cork, T45 DPIrlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:  </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel.: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1196,6 +1822,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-27ec6b1f73b141fda5344cc71ceec655"
 * entry[0].resource = composition-da-27ec6b1f73b141fda5344cc71ceec655
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp27ec6b1f73b141fda5344cc71ceec655"
+* entry[=].resource = mp27ec6b1f73b141fda5344cc71ceec655
+                            
+                    
+Instance: bundlepackageleaflet-pt-27ec6b1f73b141fda5344cc71ceec655
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trodelvy Package Leaflet for language pt"
+Description: "ePI document Bundle for trodelvy Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-27ec6b1f73b141fda5344cc71ceec655"
+* entry[0].resource = composition-pt-27ec6b1f73b141fda5344cc71ceec655
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp27ec6b1f73b141fda5344cc71ceec655"
@@ -1297,6 +1945,18 @@ RuleSet: 27ec6b1f73b141fda5344cc71ceec655ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-27ec6b1f73b141fda5344cc71ceec655) // trodelvy pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

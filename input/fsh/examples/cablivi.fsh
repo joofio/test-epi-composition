@@ -1093,6 +1093,666 @@ lock af intravenøse linjer eller med en egnet kanyle. Linjen kan skylles med na
 
 
 
+Instance: composition-pt-2d5ce8dc4824b4100ae659aba75ae904
+InstanceOf: CompositionUvEpi
+Title: "Composition for cablivi Package Leaflet"
+Description:  "Composition for cablivi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2d5ce8dc4824b4100ae659aba75ae904)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - cablivi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Cablivi e para que é utilizado<br />
+2. O que precisa de saber antes de utilizar Cablivi<br />
+3. Como utilizar Cablivi<br />
+4. Efeitos indesejáveis possíveis<br />
+5. Como conservar Cablivi<br />
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é cablivi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é cablivi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cablivi contém a substância ativa caplacizumab. É utilizado para tratar um episódio de púrpura 
+trombocitopénica trombótica adquirida (PTTa) em adultos e adolescentes com idade igual ou 
+superior a 12 anos com peso igual ou superior a 40 kg. Esta é uma doença de coagulação sanguínea 
+rara na qual se formam coágulos nos pequenos vasos sanguíneos. Estes coágulos podem bloquear os 
+vasos sanguíneos e danificar o cérebro, o coração, os rins e outros órgãos. Cablivi previne a formação 
+destes coágulos impedindo que as plaquetas no sangue se agreguem. Ao fazê-lo, o Cablivi reduz o 
+risco de ter outro episódio de PTTa pouco tempo após o primeiro. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar cablivi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar cablivi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Cablivi </p>
+<ul>
+<li>se tem alergia ao caplacizumab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6)  </li>
+</ul>
+<p>Advertências e precauções  </p>
+<p>Informe o seu médico se:  </p>
+<ul>
+<li>
+<p>sangrar excessivamente ou apresentar sintomas incomuns como dor de cabeça, falta de ar, cansaço 
+ou desmaio,  que podem indicar hemorragia interna grave. O seu médico poderá pedir-lhe que pare 
+o tratamento. O médico irá dizer-lhe quando pode iniciar novamente o tratamento. </p>
+</li>
+<li>
+<p>está a utilizar  medicamentos que previnem ou tratam coágulos sanguíneos, tais como varfarina, 
+heparina, rivaroxaban, apixaban. O seu médico irá decidir como deve ser tratado.  </p>
+</li>
+<li>
+<p>está a utilizar agentes antiplaquetários como aspirina, ou heparina de baixo peso molecular (que 
+previnem os coágulos sanguíneos). O seu médico irá decidir como deve ser tratado.  </p>
+</li>
+<li>
+<p>tiver uma doença hemorrágica como hemofilia. O seu médico irá decidir como deve ser tratado. </p>
+</li>
+<li>
+<p>tiver função hepática gravemente reduzida. O seu médico irá decidir como deve ser tratado. </p>
+</li>
+<li>
+<p>vier a ser submetido a uma operação ou tratamento dentário. O seu médico irá decidir se pode ser 
+adiado ou se deverá parar de tomar Cablivi antes da cirurgia ou tratamento dentário.  </p>
+</li>
+</ul>
+<p>Crianças e adolescentes 
+Cablivi não é recomendado para crianças com menos de 12 anos e com peso corporal inferior a 40 kg..  </p>
+<p>Outros medicamentos e Cablivi 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente ou se vier a 
+utilizar outros medicamentos. </p>
+<p>Informe também o seu médico se estiver a utilizar um medicamento anticoagulante, tal como 
+antagonistas da vitamina K, rivaroxabano ou apixabano, que trata os coágulos sanguíneos ou agentes 
+antiplaquetários, como a aspirina ou heparina de baixo peso molecular, que previnem os coágulos 
+sanguíneos. </p>
+<p>Gravidez e amamentação<br />
+Informe o seu médico se está grávida ou planeia engravidar. A utilização de Cablivi não é 
+recomendada durante a gravidez. </p>
+<p>Informe o seu médico se está a amamentar. O seu médico poderá aconselhá-la a descontinuar a 
+amamentação ou a não utilizar Cablivi, considerando o benefício da amamentação para o bebé e o 
+benefício de Cablivi para si. </p>
+<p>Condução de veículos e utilização de máquinas<br />
+Não se espera que Cablivi influencie a capacidade de conduzir ou utilizar máquinas.  </p>
+<p>Cablivi contém sódio<br />
+Este medicamento contém menos de 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar cablivi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar cablivi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>O tratamento com Cablivi é iniciado por um médico com experiência em doenças sanguíneas.  </p>
+<p>O tratamento recomendado é </p>
+<ul>
+<li>primeira dose </li>
+<li>1 frasco para injetáveis injetado na veia por um profissional de saúde  </li>
+<li>
+<p>o medicamento será administrado antes de iniciar a plasmaférese. </p>
+</li>
+<li>
+<p>doses subsequentes </p>
+</li>
+<li>1 frasco para injetáveis uma vez por dia sob a forma de injeção subcutânea (sob a peleda 
+barriga)  </li>
+<li>a injeção subcutânea será administrada após cada plasmaférese diária   </li>
+<li>após a plasmaférese diária terminar, o seu tratamento com Cablivi irá continuar durante pelo 
+menos 30 dias com injeção de 1 frasco para injetáveis uma vez por dia.  </li>
+<li>o seu médico poderá pedir-lhe para continuar o tratamento diário até que os sinais subjacentes 
+da sua doença estejam resolvidos. </li>
+</ul>
+<p>O seu médico poderá decidir que o doente ou o seu cuidador poderá injetar Cablivi. Neste caso, o seu 
+médico ou prestador de cuidados de saúde irão dar-lhe formação a si ou ao seu prestador de cuidados 
+sobre como utilizar Cablivi. </p>
+<p>Instruções de utilização<br />
+A primeira injeção de Cablivi na veia tem de ser administrada por um profissional de saúde. As 
+instruções para profissionais de saúde sobre como injetar Cablivi na veia encontram-se no fim do 
+folheto. </p>
+<p>Para cada injeção, utilize uma embalagem nova do kit para preparar a solução injetável. Não tente 
+injetar Cablivi até receber formação de um profissional de saúde sobre como fazê-lo. Nunca utilize o 
+kit para outra injeção. </p>
+<p>Passo 1 - Limpeza  </p>
+<ul>
+<li>
+<p>Lave bem as mãos com sabão e água. </p>
+</li>
+<li>
+<p>Prepare uma superfície plana limpa para colocar a embalagem do kit. </p>
+</li>
+<li>
+<p>Certifique-se de que tem um recipiente para eliminação de resíduos à mão. </p>
+</li>
+</ul>
+<p>Passo 2 - Antes da utilização  </p>
+<ul>
+<li>
+<p>Certifique-se de que a embalagem do kit está completa. </p>
+</li>
+<li>
+<p>Verifique o prazo de validade. Não utilize caso o prazo de validade tenha sido ultrapassado.  </p>
+</li>
+<li>
+<p>Não utilize o kit caso a embalagem ou os elementos estejam de alguma forma danificados. </p>
+</li>
+<li>
+<p>Coloque todos os componentes do kit numa superfície plana limpa.  </p>
+</li>
+<li>
+<p>Se o kit não foi armazenado à temperatura ambiente, deixe que o frasco para injetáveis e a 
+seringa atinjam a temperatura ambiente (15 °C - 25 °C) deixando-os à temperatura ambiente 
+durante alguns minutos. Não os aqueça de nenhuma outra forma. </p>
+</li>
+</ul>
+<p>Passo 3 - Desinfetar a rolha de borracha  </p>
+<ul>
+<li>
+<p>Remova a tampa amovível de plástico do frasco para injetáveis. Não utilize o frasco para 
+injetáveis se a tampa de plástico verde estiver em falta. </p>
+</li>
+<li>
+<p>Limpe a rolha de borracha exposta utilizando um dos toalhetes com álcool fornecidos e deixe 
+secar durante alguns segundos. </p>
+</li>
+<li>
+<p>Após limpar, não toque na rolha de borracha nem permita que toque em qualquer superfície.  </p>
+</li>
+</ul>
+<p>Passo 4 - Colocar o adaptador  </p>
+<ul>
+<li>
+<p>Pegue no adaptador de frasco para injetáveis da embalagem e remova a cobertura de papel. 
+Deixe o adaptador na embalagem de plástico aberta. Não toque no próprio adaptador.  </p>
+</li>
+<li>
+<p>Coloque o adaptador sobre o frasco para injetáveis, mantendo o adaptador na embalagem de 
+plástico. </p>
+</li>
+<li>
+<p>Prima firmemente até que o adaptador fique colocado, com o espigão do adaptador passando 
+através da rolha do frasco para injetáveis. Deixe o adaptador colocado no frasco para injetáveis, 
+ainda na sua embalagem exterior. </p>
+</li>
+</ul>
+<p>Passo 5 - Preparar a seringa  </p>
+<ul>
+<li>
+<p>Segurando a seringa na mão, retire a tampa branca com a outra mão.  </p>
+</li>
+<li>
+<p>Não utilize a seringa se esta tampa branca estiver em falta, estiver solta ou danificada. </p>
+</li>
+<li>
+<p>Não toque na ponta da seringa nem permita que entre em contacto com quaisquer outras 
+superfícies. </p>
+</li>
+<li>
+<p>Coloque a seringa na superfície plana limpa.  </p>
+</li>
+</ul>
+<p>Passo 6 - Afixar a seringa ao adaptador e ao frasco para injetáveis  </p>
+<ul>
+<li>
+<p>Pegue no frasco para injetáveis com o adaptador ligado. </p>
+</li>
+<li>
+<p>Remova a embalagem de plástico do adaptador segurando o frasco para injetáveis com uma 
+mão, pressionando os lados da embalagem do adaptador com a outra mão e, em seguida, 
+levantando a embalagem para cima. Tenha cuidado para que 
+o adaptador não saia do frasco para injetáveis. </p>
+</li>
+<li>
+<p>Segure o adaptador com o frasco para injetáveis ligado com uma mão. Coloque a ponta da 
+seringa na parte do conector do adaptador do frasco para injetáveis.  </p>
+</li>
+<li>
+<p>De forma suave fixe a seringa ao frasco para injetáveis rodando-a no sentido dos ponteiros do 
+relógio até sentir resistência. </p>
+</li>
+</ul>
+<p>Passo 7 - Preparar a solução  </p>
+<ul>
+<li>
+<p>Mantenha o frasco para injetáveis na posição vertical na superfície com a seringa a apontar para 
+baixo. </p>
+</li>
+<li>
+<p>Lentamente empurre o êmbolo da seringa até que a seringa esvazie. Não remova a seringa do 
+frasco para injetáveis. </p>
+</li>
+<li>
+<p>Com a seringa ainda ligada ao adaptador do frasco para injetáveis, rode suavemente o frasco 
+para injetáveis com a seringa ligada até que o pó se dissolva. Evite a formação de espuma. Não 
+agite o frasco para injetáveis. </p>
+</li>
+<li>
+<p>Deixe que o frasco para injetáveis com a seringa ligada fique numa superfície durante 
+5 minutos à temperatura ambiente para permitir que a solução se dissolva completamente. O 
+êmbolo poderá subir por si só novamente - isto é normal.  </p>
+</li>
+<li>
+<p>Avance para o passo 8 imediatamente após estes 5 minutos. </p>
+</li>
+</ul>
+<p>Passo 8 - Preparar a solução  </p>
+<ul>
+<li>
+<p>Verifique a solução para ver se contém partículas. Todo o pó tem de estar dissolvido e a 
+solução tem de estar límpida. </p>
+</li>
+<li>
+<p>Prima lentamente o êmbolo da seringa totalmente para baixo.  </p>
+</li>
+<li>
+<p>Vire o conjunto - o frasco para injetáveis, o adaptador e a seringa - ao contrário. </p>
+</li>
+<li>
+<p>Mantendo-o na vertical, puxe lentamente o êmbolo para transferir toda a solução para a seringa. 
+Não agitar. </p>
+</li>
+</ul>
+<p>Passo 9 - Preparar a seringa para administração  </p>
+<ul>
+<li>
+<p>Vire o conjunto - o frasco para injetáveis, o adaptador e a seringa - novamente para cima (com 
+a seringa no topo). Retire a seringa cheia do adaptador segurando o adaptador com uma mão e 
+rodando suavemente a seringa no sentido contrário ao dos ponteiros do relógio. </p>
+</li>
+<li>
+<p>Coloque o frasco para injetáveis e o adaptador ligado no recipiente para eliminação de resíduos 
+fornecido. </p>
+</li>
+<li>
+<p>Não toque na ponta da seringa nem permita que toque na superfície. Coloque a seringa na 
+superfície plana limpa. </p>
+</li>
+<li>
+<p>Avance para o passo 10 para injetar caplacizumab sob a pele da barriga. As instruções para 
+profissionais de saúde sobre como injetar Cablivi na veia encontram-se no fim do folheto. </p>
+</li>
+</ul>
+<p>Passo 10 - Colocar a agulha  </p>
+<ul>
+<li>
+<p>Retire a agulha da embalagem rasgando a cobertura de papel da embalagem da agulha e 
+removendo a seringa com a tampa protetora.  </p>
+</li>
+<li>
+<p>Sem remover a tampa da seringa, coloque a agulha na seringa rodando no sentido dos ponteiros 
+do relógio até sentir resistência.  </p>
+</li>
+<li>
+<p>Puxe a proteção de segurança da agulha para trás. </p>
+</li>
+<li>
+<p>Verifique o conteúdo da seringa. Não utilize o medicamento caso observe qualquer turvação, 
+grumos ou algo que não pareça normal. Contacte o seu médico ou enfermeiro caso isso 
+aconteça. </p>
+</li>
+</ul>
+<p>Passo 11 - Preparar o local da injeção para injeção sob a pele  </p>
+<ul>
+<li>
+<p>Selecione um local adequado (“local da injeção") na barriga para a injeção sob a pele. 
+Evite a área em torno do umbigo. Selecione um local de injeção diferente do que utilizou no dia 
+anterior para ajudar a pele a recuperar após a injeção. </p>
+</li>
+<li>
+<p>Utilize o segundo toalhete com álcool para limpar o local de injeção que escolheu. </p>
+</li>
+</ul>
+<p>Passo 12 - Administração  </p>
+<ul>
+<li>
+<p>Remova cuidadosamente a tampa protetora da agulha e deite-a fora. Certifique-se de que a 
+agulha não toca em nada antes da injeção. </p>
+</li>
+<li>
+<p>Mantenha a seringa ao nível dos olhos com a seringa virada para cima. </p>
+</li>
+<li>
+<p>Remova quaisquer bolhas de ar tocando na parte lateral da seringa com o dedo para fazer com 
+que as bolhas subam até à ponta. Em seguida, empurre lentamente o êmbolo até que saia uma 
+pequena quantidade de líquido da agulha. </p>
+</li>
+<li>
+<p>Suavemente belisque a pele limpa entre o polegar e o indicador para formar uma prega.  </p>
+</li>
+<li>
+<p>Segure esta prega de pele durante a injeção. </p>
+</li>
+<li>
+<p>Insira a agulha na totalidade na prega de pele num ângulo como se mostra na figura. </p>
+</li>
+<li>
+<p>Prima o êmbolo para baixo até onde não conseguir mais. </p>
+</li>
+<li>
+<p>Retire a agulha no mesmo ângulo em que a inseriu. Não esfregue o local da injeção. </p>
+</li>
+</ul>
+<p>Passo 13 - Após a administração  </p>
+<ul>
+<li>
+<p>Imediatamente após a injeção, mova a proteção de segurança da agulha sobre a agulha até ouvir 
+um clique. </p>
+</li>
+<li>
+<p>Coloque a seringa e a agulha no recipiente para eliminação de resíduos. </p>
+</li>
+</ul>
+<p>Se utilizar mais Cablivi do que deveria 
+Não é provável que ocorra uma sobredosagem, uma vez que um frasco para injetáveis contém apenas 
+uma única dose. Informe o seu médico caso pense que teve uma sobredosagem.  </p>
+<p>Caso se tenha esquecido de utilizar Cablivi 
+Caso se esqueça de tomar uma dose, deverá tomá-la caso esteja no período de 12 horas após a dose 
+agendada. Se tiverem passado mais de 12 horas desde a hora em que a dose deveria ter sido 
+administrada, não tome uma dose em falta, mas injete a dose seguinte à hora habitual. </p>
+<p>Se parar de utilizar Cablivi 
+Para conseguir o máximo de benefício do seu tratamento, é importante que use Cablivi conforme 
+prescrito e durante o tempo que o médico indicar. Fale com o seu médico antes de interromper o 
+tratamento, porque interromper demasiado cedo pode fazer com que a  sua condição volte. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Contacte o seu médico imediatamente se ocorrer qualquer um dos seguintes efeitos indesejáveis 
+graves.<br />
+Hemorragia longa ou excessiva.<br />
+O seu médico poderá decidir mantê-lo sob observação atenta ou alterar o seu tratamento.  </p>
+<p>Foram comunicados efeitos indesejáveis num estudo clínico com as seguintes frequências: </p>
+<p>Muito frequentes. podem afetar mais de 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>hemorragias gengivais </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>cansaço </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>hemorragias nasais </p>
+</li>
+<li>
+<p>urticária </p>
+</li>
+</ul>
+<p>Frequentes: podem afetar até 1 em 10  pessoas </p>
+<ul>
+<li>
+<p>hemorragia ocular </p>
+</li>
+<li>
+<p>vómito com sangue  </p>
+</li>
+<li>
+<p>sangue nas fezes </p>
+</li>
+<li>
+<p>fezes pretas tipo alcatrão </p>
+</li>
+<li>
+<p>hemorragia no estômago  </p>
+</li>
+<li>
+<p>hemorragia hemorroidal </p>
+</li>
+<li>
+<p>hemorragia retal </p>
+</li>
+<li>
+<p>reações no local da injeção: erupção na pele, comichão e hemorragia  </p>
+</li>
+<li>
+<p>hemorragia cerebral evidenciada por uma dor de cabeça forte com início rápido, vómitos, 
+diminuição do nível de consciência, febre, por vezes convulsões e rigidez ou dor no pescoço </p>
+</li>
+<li>
+<p>dor muscular </p>
+</li>
+<li>
+<p>AVC </p>
+</li>
+<li>
+<p>sangue na urina </p>
+</li>
+<li>
+<p>hemorragia excessiva durante o período menstrual </p>
+</li>
+<li>
+<p>hemorragia vaginal  </p>
+</li>
+<li>
+<p>tosse com sangue </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>hematomas </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis<br />
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar cablivi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar cablivi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem após VAL. 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C a 8 °C). Não congelar. 
+Conservar na embalagem de origem para proteger da luz. </p>
+<p>Cablivi pode ser conservado a uma temperatura não superior a 25 °C durante um período único até 2 
+meses, mas não para além do prazo de validade. Não volte a colocar Cablivi no frigorífico, depois de 
+ser conservado à temperatura ambiente. Nunca expor a temperaturas superiores a 30 °C. </p>
+<p>Não utilize Cablivi se verificar quaisquer partículas ou descoloração antes da administração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Cablivi </p>
+<ul>
+<li>frasco para injetáveis de pó </li>
+<li>A substância ativa é caplacizumab. </li>
+<li>Cada frasco para injetáveis contém 10 mg de caplacizumab. </li>
+<li>Os outros componentes são sacarose, ácido cítrico anidro, citrato trissódico di-hidratado (ver 
+secção 2 “Cablivi contém sódio"), polissorbato 80. * seringa pré-cheia 
+A seringa pré-cheia contém 1 ml de água para preparações injetáveis. </li>
+</ul>
+<p>Qual o aspeto de Cablivi e conteúdo da embalagem </p>
+<p>Cablivi é fornecido sob a forma de: </p>
+<ul>
+<li>
+<p>um pó branco para solução injetável num frasco para injetáveis de vidro, e </p>
+</li>
+<li>
+<p>água para preparações injetáveis numa seringa pré-cheia para dissolver o pó 
+Depois de dissolver o pó no solvente, a solução deverá ser límpida, incolor ou ligeiramente amarelada. </p>
+</li>
+</ul>
+<p>Cablivi está disponível em  </p>
+<ul>
+<li>
+<p>embalagens individuais, cada uma contendo1 frasco para injetáveis de pó de caplacizumab, 1 
+seringa pré-cheia com solvente, 1 adaptador de frasco para injetáveis, 1 agulha e 2 compressas 
+com álcool  </p>
+</li>
+<li>
+<p>embalagens múltiplas, cada uma contendo 7 embalagens individuais. </p>
+</li>
+<li>
+<p>embalagens multidose, cada uma contendo 7 frascos para injetáveis de pó de caplacizumab, 7 
+seringas pré-cheias com solvente, 7 adaptadores de frasco para injetáveis, 7 agulhas e compressas com álcool. </p>
+</li>
+</ul>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Ablynx NV 
+Technologiepark 21<br />
+9052 Zwijnaarde<br />
+Bélgica </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado.  </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54 Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel.: +36 1 505 0Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70 Malta 
+Sanofi S.r.l. 
+Tel: + 39 02 39394 
+Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
+Nederland 
+Genzyme Europe B.V. 
+Tel: +31 20 245 4Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71 Ελλάδα 
+sanofi-aventis Μονοπρόσωπη AEBE 
+Τηλ: +30 210 900 16 Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 - 0 </p>
+<p>España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00 France 
+sanofi-aventis France 
+Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda. 
+Tel: +351 21 35 89 Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31 Ireland 
+sanofi-aventis Ireland Ltd.  T/A SANOFI 
+Tel: +353 (0) 1 403 56 Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33<br />
+Italia 
+Sanofi S.r.l. 
+Tel:  800 536Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija<br />
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>Este folheto foi revisto pela última vez em .  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1134,6 +1794,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-2d5ce8dc4824b4100ae659aba75ae904"
 * entry[0].resource = composition-da-2d5ce8dc4824b4100ae659aba75ae904
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2d5ce8dc4824b4100ae659aba75ae904"
+* entry[=].resource = mp2d5ce8dc4824b4100ae659aba75ae904
+                            
+                    
+Instance: bundlepackageleaflet-pt-2d5ce8dc4824b4100ae659aba75ae904
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cablivi Package Leaflet for language pt"
+Description: "ePI document Bundle for cablivi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-2d5ce8dc4824b4100ae659aba75ae904"
+* entry[0].resource = composition-pt-2d5ce8dc4824b4100ae659aba75ae904
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp2d5ce8dc4824b4100ae659aba75ae904"
@@ -1235,6 +1917,18 @@ RuleSet: 2d5ce8dc4824b4100ae659aba75ae904ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-2d5ce8dc4824b4100ae659aba75ae904) // cablivi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

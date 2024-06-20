@@ -965,6 +965,324 @@ injektionsstedet. Sæt om nødvendigt et plaster på. </p>         </div>"""
 
 
 
+Instance: composition-pt-874f4746d25a4c3b8fa97e889d85be10
+InstanceOf: CompositionUvEpi
+Title: "Composition for pelmeg Package Leaflet"
+Description:  "Composition for pelmeg Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp874f4746d25a4c3b8fa97e889d85be10)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - pelmeg"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Pelmeg e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Pelmeg </li>
+<li>Como utilizar Pelmeg </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Pelmeg  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é pelmeg e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é pelmeg e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pelmeg contém a substância ativa pegfilgrastim. O pegfilgrastim é uma proteína produzida por 
+biotecnologia numa bactéria chamada E. coli. Pertence a um grupo de proteínas denominadas 
+citocinas, e é muito semelhante a uma proteína natural (fator de estimulação de colónias de 
+granulócitos) produzida pelo nosso próprio corpo. </p>
+<p>Pelmeg é utilizado em doentes adultos para reduzir a duração da neutropenia (baixo número de 
+glóbulos brancos) e a ocorrência da neutropenia febril (baixo número de glóbulos brancos com febre) 
+que podem ser causadas pela administração de quimioterapia citotóxica (medicamentos que destroem 
+as células com crescimento acelerado). Os glóbulos brancos são importantes uma vez que ajudam o 
+seu corpo a combater as infeções. Estas células são muito sensíveis aos efeitos da quimioterapia, o que 
+pode provocar uma diminuição do número destas células no seu corpo. Se o número de glóbulos 
+brancos diminuir até um nível baixo podem não ser suficientes para combater as bactérias e pode 
+ocorrer um risco aumentado de infeção. </p>
+<p>O seu médico prescreveu-lhe Pelmeg para estimular a sua medula óssea (parte do osso que produz as 
+células do sangue) a produzir mais glóbulos brancos, que ajudarão o seu corpo a combater as infeções. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar pelmeg"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar pelmeg"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Pelmeg </p>
+<p> 
+se tem alergia ao pegfilgrastim, filgrastim, proteínas derivadas da E. coli, ou a qualquer outro 
+componente deste medicamento (indicados na secção 6). </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Pelmeg: </p>
+<p> 
+se tiver uma reação alérgica incluindo fraqueza, descida da pressão arterial, dificuldade em 
+respirar, inchaço da face (anafilaxia), vermelhidão e rubor, erupção cutânea e comichão em 
+áreas da pele. 
+ 
+se tiver tosse, febre e dificuldade em respirar. Isso pode ser um sinal de Síndrome de dificuldade 
+respiratória aguda (SDRA). 
+ 
+se tiver qualquer um ou uma combinação dos seguintes efeitos indesejáveis: 
+- edema ou inchaço, que pode estar associado a uma diminuição da frequência urinária, 
+dificuldade em respirar, aumento do volume abdominal e sensação de enfartamento, e 
+uma sensação geral de cansaço. 
+Estes podem ser sintomas de uma doença chamada de “Síndrome de extravasamento capilar", 
+que faz com que o sangue saia dos pequenos vasos sanguíneos para o seu corpo. Ver secção 4.  
+se tem dor abdominal no quadrante superior esquerdo ou dor em pontada no ombro. Este pode 
+ser um sinal de um problema com o seu baço (esplenomegalia). 
+ 
+se teve recentemente uma infeção pulmonar grave (pneumonia), líquido nos pulmões (edema 
+pulmonar), inflamação dos pulmões (doença pulmonar intersticial) ou alterações no raio-x aos 
+pulmões (infiltração pulmonar) . 
+ 
+se tem conhecimento de qualquer alteração na contagem das células sanguíneas (p. ex., aumento 
+dos glóbulos brancos ou anemia) ou diminuição das plaquetas no sangue, o que reduz a 
+capacidade do seu sangue para coagular (trombocitopenia). O seu médico pode querer observá-
+lo mais de perto. 
+ 
+se tem anemia de células falciformes. O seu médico pode monitorizar o seu estado mais 
+cuidadosamente. 
+
+se for um doente com cancro da mama ou do pulmão, Pelmeg, em conjunto com quimioterapia 
+e/ou radioterapia, pode aumentar o risco de desenvolver uma condição sanguínea pré-cancerosa, 
+chamada de síndrome mielodisplásica (SMD) ou um cancro do sangue, chamado de leucemia 
+mieloide aguda (LMA). Os sintomas podem incluir cansaço, febre e nódoas negras ou 
+hemorragia.<br />
+ 
+se manifestar sinais repentinos de alergia, tais como erupção na pele, comichão ou urticária na 
+pele, inchaço da cara, lábios, língua ou de outras partes do corpo, falta de ar, pieira ou 
+dificuldades respiratórias, estes podem ser sinais de uma reação alérgica grave. </p>
+<ul>
+<li>se tiver sintomas de inflamação da aorta (grande vaso sanguíneo que transporta o sangue do 
+coração para o organismo), esta foi notificada raramente em doentes com cancro e dadores 
+saudáveis. Os sintomas podem incluir febre, dor abdominal, mal estar, dor nas costas e aumento 
+dos marcadores inflamatórios. Informe o seu médico se sentir estes sintomas. </li>
+</ul>
+<p>O seu médico irá verificar regularmente o seu sangue e urina uma vez que Pelmeg pode lesar pequenos 
+vasos sanguíneos nos seus rins (glomerulonefrite). </p>
+<p>Foram notificadas reações cutâneas graves (síndrome de Stevens-Johnson) associadas à utilização de 
+Pelmeg. Se tiver algum dos sintomas descritos na secção 4, deve interromper a utilização de Pelmeg e 
+procurar imediatamente cuidados médicos. </p>
+<p>Deve conversar com seu médico sobre os seus riscos de desenvolver cancro do sangue. Se desenvolver 
+ou for propenso a desenvolver cancro do sangue, não deve utilizar Pelmeg, a menos que seja indicado 
+pelo seu médico. </p>
+<p>Perda de resposta ao pegfilgrastim </p>
+<p>Caso tenha uma perda de resposta ou incapacidade de manutenção da resposta com o tratamento com 
+pegfilgrastim, o seu médico irá investigar os motivos, incluindo se desenvolveu anticorpos que 
+neutralizam a atividade do pegfilgrastim. </p>
+<p>Outros medicamentos e Pelmeg </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Gravidez e aleitamento </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. O Pelmeg não foi 
+testado em mulheres grávidas. É importante que informe o seu médico se: 
+ 
+estiver grávida; 
+ 
+pensa poder estar grávida; ou<br />
+ 
+está a planear ter um bebé. </p>
+<p>Se ficar grávida durante o tratamento com Pelmeg, por favor informe o seu médico. </p>
+<p>A menos que o seu médico diga o contrário, deve interromper o aleitamento se utilizar Pelmeg.  </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Os efeitos de Pelmeg sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis. </p>
+<p>Pelmeg contém sorbitol (E 420) e acetato de sódio </p>
+<p>Este medicamento contém 30 mg de sorbitol em cada seringa pré-cheia, o que é equivalente a 
+50 mg/ml. </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose de 6 mg, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar pelmeg"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar pelmeg"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pelmeg é para ser administrado a adultos com 18 anos de idade ou mais. </p>
+<p>Utilize Pelmeg exatamente como indicado pelo seu médico. Fale com o seu médico ou farmacêutico se 
+tiver dúvidas. A dose habitual é uma injeção subcutânea (sob a pele) de 6 mg utilizando uma seringa 
+pré-cheia e deverá ser administrada pelo menos 24 horas após a sua última dose de quimioterapia, no 
+final de cada ciclo de quimioterapia. </p>
+<p>Não agite vigorosamente Pelmeg, uma vez que pode afetar a atividade do medicamento. </p>
+<p>Administrar a si próprio a injeção de Pelmeg </p>
+<p>O seu médico poderá decidir que é melhor para si administrar a injeção de Pelmeg a si próprio. O seu 
+médico ou enfermeiro demonstrarão como deve injetar Pelmeg a si próprio. Não tente injetar-se se não 
+foi devidamente treinado. </p>
+<p>Leia a secção no fim deste folheto para obter mais informações sobre como administrar Pelmeg a si 
+mesmo. </p>
+<p>Se utilizar mais Pelmeg do que deveria </p>
+<p>Se utilizar mais Pelmeg do que deveria, deverá contactar o seu médico, farmacêutico ou enfermeiro. </p>
+<p>Caso se tenha esquecido de tomar Pelmeg </p>
+<p>No caso de se esquecer de uma dose de Pelmeg, deverá contactar o seu médico para decidir quando 
+deverá ser administrada a dose seguinte. 
+- Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Por favor informe o seu médico imediatamente se tiver qualquer um ou uma combinação dos seguintes 
+efeitos indesejáveis: 
+ 
+edema ou inchaço, que podem estar associados a diminuição da frequência urinária, dificuldade 
+em respirar, aumento do volume abdominal e sensação de enfartamento, e uma sensação geral 
+de cansaço. Estes sintomas geralmente desenvolvem-se de uma forma rápida. </p>
+<p>Estes podem ser sintomas de uma doença pouco frequente (pode afetar até 1 em cada 100 pessoas) 
+chamada de “Síndrome de Extravasamento Capilar", que faz com que o sangue saia dos pequenos 
+vasos sanguíneos para o seu corpo e que precisa de cuidados médicos urgentes. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas): 
+ 
+dor óssea . O seu médico dir-lhe-á o que deverá tomar para aliviar a dor óssea. 
+ 
+náuseas e dores de cabeça. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas): 
+ 
+dor no local da injeção.<br />
+ 
+dores generalizadas e dores nas articulações e músculos. 
+ 
+podem ocorrer algumas alterações no seu sangue, mas estas serão detetadas nas suas análises 
+sanguíneas de rotina. Durante um período curto de tempo a sua contagem de glóbulos brancos 
+pode ser superior. Pode também ocorrer uma diminuição do número de plaquetas, podendo 
+originar o aparecimento de nódoas negras. </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas): 
+ 
+reações do tipo alérgico incluindo vermelhidão e rubor, erupção na pele e comichão em zonas 
+inchadas da pele. 
+ 
+reações alérgicas graves, incluindo anafilaxia (fraqueza, baixa da pressão arterial, dificuldade 
+em respirar, inchaço da face).<br />
+ 
+aumento do tamanho do baço. 
+ 
+ruptura esplénica. Alguns casos de ruptura esplénica foram fatais. É importante que contacte 
+imediatamente o seu médico se sentir dor na parte superior esquerda do seu abdómen ou dor 
+tipo pontada no ombro esquerdo, já que estas dores podem refletir problemas com o seu baço. 
+ 
+problemas respiratórios. Por favor, contacte o seu médico se tiver tosse, febre ou dificuldade em 
+respirar. 
+ 
+ocorreu Síndrome de Sweet (lesões dolorosas, inchadas, de cor violácea, nos membros e por 
+vezes na face e pescoço, acompanhadas de febre), mas outros fatores poderão ter contribuído 
+para esta ocorrência. 
+ 
+vasculite cutânea (inflamação dos vasos sanguíneos na pele). 
+ 
+lesões de pequenos vasos sanguíneos nos seus rins (glomerulonefrite). 
+ 
+vermelhidão no local da injeção. </p>
+<ul>
+<li>
+<p>tosse com sangue (hemoptise) </p>
+</li>
+<li>
+<p>doenças do sangue (síndrome mielodisplásica [SMD] ou leucemia mieloide aguda [LMA]). </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em 1,  000 pessoas): 
+ 
+Inflamação da aorta ( grande vaso sanguíneo que transporta o sangue do coração para o 
+organismo), ver secção 2. * sangrar do pulmão (hemorragia pulmonar) </p>
+<ul>
+<li>síndrome de Stevens-Johnson, que pode aparecer sob a forma de manchas avermelhadas 
+circulares ou tipo alvo, frequentemente acompanhadas por bolhas centrais que surgem no 
+tronco, descamação da pele, úlceras na boca, garganta, nariz, genitais e olhos, e pode ser 
+precedida por febre e sintomas tipo gripe. Pare de utilizar Pelmeg se tiver algum destes sintomas 
+e contacte o seu médico ou procure imediatamente cuidados médicos. Ver secção 2.<br />
+Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar pelmeg"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar pelmeg"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo da 
+seringa após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C). </p>
+<p>Pode retirar Pelmeg do frigorífico e mantê-lo à temperatura ambiente (não acima dos 30 °C) por um 
+período não superior a 4 dias. Quando uma seringa é retirada do frigorífico e atingiu a temperatura 
+ambiente (não acima dos 30 °C), deve ser utilizada dentro dos próximos 4 dias ou deve ser eliminada. </p>
+<p>Não congelar. Pelmeg poderá ser utilizado se for acidentalmente congelado durante dois períodos de 
+menos de 72 horas cada. </p>
+<p>Manter o recipiente dentro da embalagem exterior para proteger da luz. </p>
+<p>Não utilize este medicamento se estiver turvo ou com partículas. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Pelmeg 
+- A substância ativa é o pegfilgrastim. Cada seringa pré-cheia contém 6 mg de pegfilgrastim em 
+0,6 ml de solução. 
+- Os outros componentes são acetato de sódio, sorbitol (E 420), polissorbato 20 e água para 
+preparações injetáveis. Ver secção </p>         </div>"""      
+
+
+
 
 
                     
@@ -1006,6 +1324,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-874f4746d25a4c3b8fa97e889d85be10"
 * entry[0].resource = composition-da-874f4746d25a4c3b8fa97e889d85be10
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp874f4746d25a4c3b8fa97e889d85be10"
+* entry[=].resource = mp874f4746d25a4c3b8fa97e889d85be10
+                            
+                    
+Instance: bundlepackageleaflet-pt-874f4746d25a4c3b8fa97e889d85be10
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pelmeg Package Leaflet for language pt"
+Description: "ePI document Bundle for pelmeg Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-874f4746d25a4c3b8fa97e889d85be10"
+* entry[0].resource = composition-pt-874f4746d25a4c3b8fa97e889d85be10
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp874f4746d25a4c3b8fa97e889d85be10"
@@ -1107,6 +1447,18 @@ RuleSet: 874f4746d25a4c3b8fa97e889d85be10ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-874f4746d25a4c3b8fa97e889d85be10) // pelmeg pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -759,6 +759,391 @@ hjemmeside: http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-8734938a1d7cc06ba1013b88ab4857e8
+InstanceOf: CompositionUvEpi
+Title: "Composition for mycapssa Package Leaflet"
+Description:  "Composition for mycapssa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8734938a1d7cc06ba1013b88ab4857e8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - mycapssa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Mycapssa e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Mycapssa </li>
+<li>Como tomar Mycapssa </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Mycapssa </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é mycapssa e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é mycapssa e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mycapssa contém a substância ativa octreotida. Octreotida é uma forma sintética de somatostatina, 
+uma substância natural que controla a libertação da hormona do crescimento humano. A octreotida 
+funciona da mesma forma que a somatostatina, mas a sua ação dura mais tempo, por isso não precisa 
+de ser tomada com tanta frequência. </p>
+<p>Mycapssa é utilizado para tratamento de manutenção em adultos com acromegalia, uma condição em 
+que o corpo produz demasiada hormona de crescimento. É utilizado em doentes em que já se 
+demonstrou ser benéfico tomar medicamentos como a somatostatina. </p>
+<p>Normalmente, a hormona de crescimento regula o crescimento de tecidos, órgãos e ossos. Na 
+acromegalia, o aumento da produção da hormona do crescimento (normalmente de um tumor não 
+canceroso na hipófise) leva ao alargamento dos ossos e de determinados tecidos, e sintomas como 
+cefaleia, transpiração excessiva, dormência nas mãos e nos pés, cansaço e dor nas articulações. O 
+tratamento com Mycapssa pode ajudar a aliviar os sintomas. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar mycapssa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar mycapssa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Mycapssa 
+- se tem alergia a octreotida ou a qualquer outro componente deste medicamento (indicados na 
+secção 6) </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Mycapssa ou durante o tratamento se tiver: 
+- problemas cardíacos ou de circulação sanguínea, uma vez que o medicamento pode afetar a 
+frequência e a regularidade do seu batimento cardíaco. 
+- problemas da vesícula biliar. A octreotida pode causar a formação de pedras na vesícula, e o 
+seu médico irá recomendar a realização de exames de ultrassons para esse efeito, geralmente a 
+cada 6 a 12 meses enquanto estiver a ser tratado com este medicamento. 
+- diabetes, pois Mycapssa pode afetar o seu nível de açúcar no sangue. Podem ocorrer níveis 
+persistentes de açúcar no sangue durante o uso prolongado. Também foram notificados níveis 
+baixos de açúcar no sangue. Por isso, o seu médico pode recomendar a monitorização dos níveis 
+de açúcar no sangue e o tratamento da diabetes. 
+Se tiver diabetes de tipo I e estiver a ser tratado com insulina, as suas doses podem ter de ser 
+reduzidas durante o tratamento com Mycapssa. 
+- alguma vez teve falta de vitamina B12. Se tiver um historial de falta de vitamina B12, o seu 
+médico pode querer verificar periodicamente o seu nível de vitamina B12 durante o tratamento 
+com Mycapssa, uma vez que este medicamento pode diminuir os níveis de vitamina B12 no 
+sangue. </p>
+<p>Monitorização durante o tratamento 
+Os tumores da hipófise que produzem uma hormona de crescimento excessivo e que levam à 
+acromegalia, expandem por vezes, causando complicações graves, tais como problemas visuais. É 
+essencial que seja monitorizado quanto ao crescimento tumoral enquanto toma Mycapssa. Se 
+aparecerem sinais de expansão tumoral, o seu médico pode prescrever outro tratamento. </p>
+<p>O seu médico irá verificar regularmente a sua função hepática durante o tratamento e também irá 
+verificar a sua função da tiroide quando o tratamento com Mycapssa for prolongado. </p>
+<p>Crianças e adolescentes 
+O Mycapssa não é recomendado em crianças e adolescentes com menos de 18 anos, pois não é 
+conhecido se é seguro ou eficaz neste grupo etário. </p>
+<p>Outros medicamentos e Mycapssa 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. </p>
+<p>Informe o seu médico se estiver a tomar os seguintes medicamentos, pois podem mudar a forma como 
+o Mycapssa funciona: </p>
+<ul>
+<li>medicamentos que controlam ou reduzem o ácido do estômago </li>
+<li>metoclopramida: um medicamento para tratar náuseas e vómitos </li>
+<li>loperamida: um medicamento para tratar diarreia </li>
+</ul>
+<p>Informe também o seu médico se estiver a tomar qualquer um dos seguintes medicamentos, que 
+podem ser o seu efeito pode ser afetado quando utilizado com Mycapssa. Se tomar estes 
+medicamentos, o seu médico pode ter de ajustar as doses destes medicamentos: </p>
+<ul>
+<li>medicamentos chamados betabloqueadores, utilizados para tratar hipertensão arterial, doenças 
+cardíacas ou outras doenças </li>
+<li>medicamentos chamados bloqueadores dos canais do cálcio, utilizados para tratar hipertensão 
+arterial ou doenças cardíacas  </li>
+<li>hidroclorotiazida: um medicamento para tratar a hipertensão arterial e inchaço dos tecidos 
+causado pelo excesso de fluido </li>
+<li>quinidina: um medicamento para tratar o ritmo cardíaco irregular </li>
+<li>lisinopril: um medicamento para tratar a hipertensão arterial e outras doenças cardíacas e renais 
+específicas </li>
+<li>digoxina: um medicamento para tratar a debilidade cardíaca e um batimento cardíaco irregular </li>
+<li>medicamentos para tratar o equilíbrio de fluidos e eletrólitos </li>
+<li>insulina ou outros medicamentos para tratar diabetes </li>
+<li>ciclosporina: um medicamento para suprimir a rejeição do transplante, tratar doenças graves da 
+pele, inflamação grave dos olhos e das articulações </li>
+<li>bromocriptina: um medicamento para tratar Parkinson e outras doenças (por ex., tumores da 
+hipófise) e para ajudar o desmame </li>
+<li>contracetivos orais, como pílulas contracetivas: um medicamento para prevenir a gravidez ou 
+para tratar o sangramento menstrual intensivo 
+Mycapssa pode reduzir a eficácia dos contracetivos orais que contêm progestogénios. </li>
+</ul>
+<p>Gravidez, amamentação fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Evite tomar Mycapssa durante a gravidez e a amamentação. Esta é uma precaução, pois existe 
+informação limitada sobre a utilização de Mycapssa durante a gravidez e a amamentação. </p>
+<p>As mulheres que podem engravidar devem utilizar uma contraceção eficaz durante o tratamento com 
+Mycapssa. Fale sobre os métodos adequados com o seu médico, pois Mycapssa pode reduzir a eficácia 
+dos contracetivos orais que contêm progestogénios. Se estiver a utilizar estes contracetivos, é 
+aconselhável utilizar outros métodos não hormonais de contraceção ou adicionar um método de 
+substituição enquanto toma Mycapssa. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de Mycapssa sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis. 
+No entanto, evite conduzir ou utilizar máquinas se a sua capacidade de reação for reduzida devido a 
+efeitos secundários como tonturas, fraqueza/fadiga ou dores de cabeça. </p>
+<p>Mycapssa contém sódio 
+Este medicamento contém menos que 1 mmol de sódio (23 mg) por cápsula, ou seja, essencialmente 
+«isento de sódio». </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar mycapssa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar mycapssa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose inicial recomendada é de 1 cápsula duas vezes por dia. </p>
+<p>O médico aumentará gradualmente a dose em incrementos de 1 cápsula diariamente para controlar 
+adequadamente a sua doença, até uma dose diária máxima recomendada de 4 cápsulas. O seu médico 
+irá verificar os seus sintomas e os níveis de uma substância chamada fator de crescimento semelhante 
+à insulina a cada 2 semanas após cada aumento, para verificar como o seu corpo está a responder à 
+nova dose e encontrar a dose certa para si.  </p>
+<p>O seu médico irá verificar os seus sintomas com menos frequência se estiver a fazer uma dose diária 
+regular. Durante estas verificações, o seu médico certificar-se-á de que o medicamento ainda está a 
+funcionar bem para si. </p>
+<p>Modo de utilização 
+Tome sempre este medicamento de acordo com as instruções do seu médico. Engula a cápsula inteira 
+com um copo de água, pelo menos 1 hora antes ou pelo menos 2 horas após a ingestão de qualquer 
+alimento. Recomenda-se ter um plano de rotina para a toma diária de Mycapssa em relação às 
+refeições (por exemplo, tomar Mycapssa regularmente pelo menos 1 hora antes do pequeno-almoço e 
+pelo menos 2 horas depois do jantar). </p>
+<p>Como remover uma cápsula do blister:<br />
+Pressione CUIDADOSAMENTE na parte superior ou inferior da cápsula. </p>
+<p>NÃO pressione o centro da cápsula. Isso poderá danificá-la. 
+Se uma cápsula estiver rachada ou partida, elimine-a (descarte-a) e retire outra cápsula. </p>
+<p>Se tomar mais Mycapssa do que deveria 
+Se tomar acidentalmente mais Mycappsa do que deveria, deixe de tomar este medicamento e informe 
+imediatamente o seu médico. </p>
+<p>Caso se tenha esquecido de tomar Mycapssa 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Administre uma 
+dose assim que se lembrar, desde que seja tomada pelo menos 6 horas antes da dose seguinte 
+agendada. Caso contrário, salte a dose esquecida e tome a dose seguinte na hora habitual. </p>
+<p>Se parar de tomar Mycapssa 
+Não pare de tomar este medicamento sem falar primeiro com o seu médico. Se parar de tomar 
+Mycapssa, os seus sintomas de acromegalia podem voltar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis podem ocorrer com as seguintes frequências: 
+Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- dor abdominal (na barriga) 
+- diarreia 
+- náuseas 
+- aumento do nível de açúcar no sangue 
+- dores de cabeça<br />
+- obstipação 
+- gases 
+- pedra na vesícula </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- tonturas 
+- desconforto ou inchaço do abdómen (barriga) 
+- indigestão 
+- inflamação do revestimento do estômago 
+- doença causada pelo refluxo dos ácidos do estômago 
+- vómitos 
+- dores nas articulações 
+- fraqueza, fadiga 
+- inchaço dos braços e/ou pernas 
+- aumento do nível de enzimas hepáticas 
+- baixo nível de açúcar no sangue 
+- fezes descoloradas, moles 
+- perda de apetite<br />
+- batimento cardíaco lento 
+- dificuldade em respirar 
+- excesso de gordura nas fezes 
+- inflamação aguda da vesícula biliar 
+- espessamento da bílis<br />
+- aumento do nível sanguíneo de bilirrubina, um resíduo resultante da degradação dos glóbulos 
+vermelhos 
+- comichão, erupção cutânea 
+- queda de cabelo 
+- problemas da tiroide </p>
+<p>Pouco frequentes (pode afetar até 1 em 100 pessoas) 
+- inflamação de bolsas anormais na parede do intestino grosso 
+- inflamação do revestimento do estômago e do intestino 
+- herpes (feridas) do revestimento da boca 
+- tumor não agressivo de vasos sanguíneos hepáticos 
+- número reduzido de glóbulos brancos 
+- diminuição do apetite 
+- diabetes mellitus 
+- desidratação 
+- valores elevados de gordura no sangue de triglicéridos 
+- inquietação 
+- ansiedade 
+- depressão, desorientação, humor alterado, oscilações de humor 
+- alucinação auditiva, alucinação visual 
+- dificuldade em dormir 
+- dor, dormência e formigueiro no pulso ou na mão 
+- perturbação na atenção 
+- distúrbios no paladar 
+- memória reduzida 
+- sensação anormal, como reduzida sensação de toque, ardor, picadas, formigueiro e prurido 
+- sensação de fraqueza 
+- cefaleia devido a bloqueio dos seios nasais 
+- sonolência 
+- tremores 
+- maior fluxo de lacrimação 
+- batimento cardíaco irregular, batimento cardíaco rápido<br />
+- vermelhidão súbita da pele e sensação de calor 
+- tensão arterial baixa 
+- distúrbios do revestimento interno no nariz, irritação na garganta 
+- inflamação aguda do pâncreas 
+- alteração do hábito intestinal 
+- boca seca 
+- incontinência das fezes, aumento do volume das fezes 
+- movimentos intestinais frequentes<br />
+- perturbações do estômago e do intestino, tais como perturbações da mobilidade 
+- sangramento de hemorroidas 
+- dor durante a ingestão 
+- uma perturbação chamada de acalasia, que pode fazer com que o esfíncter do esófago inferior 
+permaneça fechado, causando dificuldade em engolir 
+- alargamento da glândula parótida (mandíbula) 
+- sensação de esvaziamento incompleto do intestino 
+- obstrução do ducto biliar<br />
+- amarelecimento da pele, órgãos internos e/ou brancos dos olhos 
+- queixas após a remoção cirúrgica da vesícula biliar denominada síndrome pós-colecistectomia 
+- crise da vesícula biliar, perturbação da vesícula biliar 
+- fígado gordo 
+- inflamação alérgica da pele 
+- aumento da transpiração 
+- condição de excesso de pelos no corpo 
+- dores, como dores nas costas, dores nos ossos, dores nos flancos, dores de virilha 
+- inchaço da articulação 
+- espasmos musculares 
+- desconforto ou dor muscular e esqueléticas 
+- dor nos braços e pernas 
+- inchaço dos tecidos moles 
+- sensação de desconforto ou indisposição 
+- sensação de alteração da temperatura corporal 
+- sensibilidade 
+- sede 
+- murmúrio no coração 
+- aumento ou perda de peso 
+- níveis de sangue aumentados de: 
+- creatina fosfoquinase 
+- creatinina 
+- lactato desidrogenase 
+- ureia 
+- fator de crescimento semelhante à insulina 
+- lipase 
+- tiroxina </p>
+<p>Desconhecido (não pode ser calculado a partir dos dados disponíveis) 
+- perturbação cardíaca 
+- aumento dos níveis de hormonas de crescimento no sangue 
+- contagens de plaquetas baixas, levando potencialmente a hematomas ou hemorragias 
+- reações alérgicas graves ou outras reações alérgicas 
+- ritmos cardíacos anormais 
+- inflamação do fígado 
+- fluxo de bílis reduzido 
+- icterícia 
+- urticária </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar mycapssa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar mycapssa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem e blister após VAL. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C-8 °C). Não congelar. </p>
+<p>Mycapssa pode ser mantido sem refrigeração até 1 mês, mas não pode ser armazenado acima dos 
+25 °C, depois do qual o medicamento deverá ser descartado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Mycapssa 
+- A substância ativa é octreotida. Uma cápsula contém acetato de octreotida equivalente a 20 mg 
+de octreotida. 
+- Os outros ingredientes são povidona, caprilato de sódio, cloreto de magnésio, polissorbato 80, 
+monocaprilato de gliceril, tricaprilato de glicerilo, gelatina, dióxido de titânio (E171), ácido 
+metacrílico - copolímero de acrilato de etilo (1:1), talco, citrato trietilo, sílica, anidro coloidal, 
+hidrogenato de sódio, laurilsulfato de sódio. (ver secção 2 “Mycapssa contém sódio"). </p>
+<p>Qual o aspeto de Mycapssa e conteúdo da embalagem 
+Mycapssa são cápsulas gastrorresistentes (cápsula gastrorresistente) São embalados em blisters de 
+plástico/alumínio numa embalagem de cartão. </p>
+<p>Dimensão da embalagem: 28 cápsulas gastrorresistentes </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular de autorização de introdução no mercado 
+Amryt Pharmaceuticals DAC 
+45 Mespil Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Pharbil Pharma GmbH 
+Reichenberger Strasse 33605 Bielefeld 
+Alemanha </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -800,6 +1185,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8734938a1d7cc06ba1013b88ab4857e8"
 * entry[0].resource = composition-da-8734938a1d7cc06ba1013b88ab4857e8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8734938a1d7cc06ba1013b88ab4857e8"
+* entry[=].resource = mp8734938a1d7cc06ba1013b88ab4857e8
+                            
+                    
+Instance: bundlepackageleaflet-pt-8734938a1d7cc06ba1013b88ab4857e8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mycapssa Package Leaflet for language pt"
+Description: "ePI document Bundle for mycapssa Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8734938a1d7cc06ba1013b88ab4857e8"
+* entry[0].resource = composition-pt-8734938a1d7cc06ba1013b88ab4857e8
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8734938a1d7cc06ba1013b88ab4857e8"
@@ -901,6 +1308,18 @@ RuleSet: 8734938a1d7cc06ba1013b88ab4857e8ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8734938a1d7cc06ba1013b88ab4857e8) // mycapssa pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

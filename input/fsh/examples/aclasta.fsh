@@ -934,6 +934,481 @@ køleskab, skal have stuetemperatur før administration. </li>
 
 
 
+Instance: composition-pt-9dc703bc672ed093a819de38cd335ddf
+InstanceOf: CompositionUvEpi
+Title: "Composition for aclasta Package Leaflet"
+Description:  "Composition for aclasta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9dc703bc672ed093a819de38cd335ddf)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - aclasta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Aclasta e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Aclasta </li>
+<li>Como administrar Aclasta </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Aclasta </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é aclasta e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é aclasta e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aclasta contém a substância ativa ácido zoledrónico. Pertence a um grupo de medicamentos 
+denominados bifosfonatos e é utilizado para o tratamento de mulheres pós-menopáusicas e homens 
+adultos com osteoporose ou osteoporose causada pelo tratamento com corticosteroides usados para 
+tratar inflamações e da doença óssea de Paget em adultos. </p>
+<p>Osteoporose 
+A osteoporose é uma doença que se caracteriza pelo adelgaçamento e enfraquecimento dos ossos 
+sendo comum em mulheres após a menopausa, mas também pode ocorrer em homens. Na menopausa, 
+os ovários das mulheres deixam de produzir a hormona feminina estrogénio, que é importante para a 
+saúde óssea. Após a menopausa, ocorre perda de massa óssea, tornando-se os ossos mais frágeis e 
+suscetíveis a fratura. A osteoporose também pode ocorrer em homens ou mulheres devido ao uso 
+prolongado de esteroides, que podem afetar a resistência dos ossos. Muitos doentes com osteoporose 
+não apresentam sintomas mas apresentam risco de fratura óssea porque a osteoporose torna os seus 
+ossos frágeis. A diminuição dos níveis circulantes de hormonas sexuais, principalmente estrogénios 
+convertidos a partir de androgénios, também desempenham um papel na perda óssea mais gradual 
+observada em homens. Tanto em mulheres como em homens, Aclasta fortalece o osso e, portanto, 
+torna menos provável a fratura. Aclasta também é utilizado em doentes que fraturaram recentemente a 
+anca após um traumatismo ligeiro, tal como uma queda e como tal apresentam risco de fraturas ósseas 
+subsequentes. </p>
+<p>Doença óssea de Paget 
+É normal que o osso envelhecido seja removido e seja substituído por osso novo. Este processo é 
+denominado de remodelação óssea. Na doença óssea de Paget, o processo de remodelação óssea está 
+acelerado e o osso novo é formado de forma desordenada, o que o torna mais fraco do que o normal. 
+Caso a doença não seja tratada, os ossos podem ficar deformados, provocando dor, e poderão partir-se. 
+Aclasta permite a normalização do processo de remodelação óssea, assegurando a formação de osso 
+novo normal e a recuperação da sua resistência. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar aclasta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar aclasta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Siga cuidadosamente todas as instruções dadas pelo seu médico, farmacêutico ou enfermeiro antes da 
+administração de Aclasta. </p>
+<p>Não lhe deve ser administrado Aclasta 
+- se tem alergia ao ácido zoledrónico ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). 
+- se tem hipocalcemia (níveis de cálcio no sangue muito baixos). 
+- se tem problemas renais graves. 
+- se está grávida. 
+- se está a amamentar. </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de lhe ser administrado Aclasta: 
+- se está a ser tratado com algum medicamento que contenha ácido zoledrónico, uma vez que é a 
+mesma substância ativa do Aclasta (ácido zoledrónico é usado em doentes adultos com certos 
+tipos de cancro para prevenir complicações do osso ou para reduzir a quantidade de cálcio). 
+- se tem, ou já teve, problemas nos rins. 
+- se não puder tomar suplementos de cálcio diariamente. 
+- se lhe foram retiradas cirurgicamente do pescoço alguma ou todas as glândulas paratiroideias. 
+- se lhe foram retirados segmentos do seu intestino. </p>
+<p>Um efeito secundário denominado osteonecrose da mandíbula (ONM) (lesão do osso no maxilar) tem 
+sido notificado durante a comercialização em doentes tratados com Aclasta (ácido zoledrónico) para a 
+osteoporose. A ONM também pode ocorrer após a interrupção do tratamento. </p>
+<p>É importante tentar prevenir o desenvolvimento da osteonecrose dado que é uma condição dolorosa 
+que pode ser difícil de tratar. A fim de reduzir o risco de desenvolver osteonecrose da mandíbula, deve 
+tomar algumas precauções. </p>
+<p>Antes de receber tratamento com Aclasta, informe o seu médico, farmacêutico ou enfermeiro se: 
+- tem algum problema na boca ou dentes tal como má saúde dentária, doença gengival ou uma 
+extração de dente planeada; 
+- não consulta regularmente o dentista ou se não faz uma revisão dentária há muito tempo; 
+- é fumador (pois isso pode aumentar o risco de problemas dentários); 
+- tiver sido previamente tratado com um bisfosfonato (usado para tratar ou prevenir doenças 
+ósseas); 
+- estiver a tomar medicamentos denominados corticosteroides (como prednisolona ou 
+dexametasona); 
+- tem cancro </p>
+<p>O seu médico pode pedir que se submeta a um exame dentário antes de iniciar o tratamento com 
+Aclasta. </p>
+<p>Durante o tratamento com Aclasta, deve manter uma boa higiene oral (incluindo lavagem de dentes 
+regular) e fazer revisões dentárias regularmente. Se usar próteses dentárias (dentaduras) deve 
+certificar-se se ajustam corretamente. Se estiver sob tratamento dentário ou se for submeter-se a 
+cirurgia dentária (por exemplo, arrancar dentes), informe o seu médico sobre o seu tratamento dentário 
+e informe o seu dentista que está a ser tratado com Aclasta. Contacte o seu médico e dentista 
+imediatamente se tiver algum problema com a sua boca ou dentes, como dentes soltos, dor ou inchaço, 
+ou não-cicatrização de feridas ou de supuração (deitar pus), uma vez que estes podem ser sinais de 
+osteonecrose da mandíbula. </p>
+<p>Teste de monitorização 
+O seu médico deve solicitar análises sanguíneas para avaliar o funcionamento dos seus rins (níveis de 
+creatinina) antes de cada administração de Aclasta. É importante que beba pelo menos um ou dois 
+copos de um líquido (como por exemplo água), algumas horas antes de lhe ser administrado Aclasta, 
+tal como o seu médico ou enfermeiro lhe indicou. </p>
+<p>Crianças e adolescentes 
+Aclasta não está recomendado para pessoas com idade inferior a 18 anos. </p>
+<p>Outros medicamentos e Aclasta 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar ou tiver tomado recentemente 
+outros medicamentos. </p>
+<p>É importante para o seu médico saber todos os medicamentos que está a tomar, especialmente se está a 
+tomar medicamentos que possam ser prejudiciais para os seus rins (por ex. aminoglicosidos) ou 
+diuréticos que podem causar desidratação. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, não lhe pode ser 
+administrado Aclasta. </p>
+<p>Consulte o seu médico, farmacêutico ou enfermeiro antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Se sentir tonturas enquanto toma Aclasta, não conduza ou utilize máquinas enquanto não se sentir 
+melhor. </p>
+<p>Aclasta contém sódio 
+Este medicamento contém menos de 1 mmol (23 mg) de sódio por frasco de 100 ml de Aclasta, ou 
+seja, é praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar aclasta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar aclasta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Siga cuidadosamente todas as instruções do seu médico ou enfermeiro. Fale com o seu médico ou 
+enfermeiro se tiver dúvidas. </p>
+<p>Osteoporose 
+A dose recomendada é de 5 mg administrada, na forma de uma perfusão anual numa veia pelo médico 
+ou enfermeiro. A perfusão demorará, pelo menos, 15 minutos. </p>
+<p>Caso tenha sofrido recentemente uma fratura da anca, recomenda-se que Aclasta lhe seja administrado 
+duas ou mais semanas após a cirurgia de reconstituição da anca. </p>
+<p>É importante tomar suplementos de cálcio e vitamina D (ex. comprimidos) de acordo com as 
+instruções do seu médico. </p>
+<p>Na osteoporose, Aclasta atua durante um ano. O seu médico irá informá-lo quando deve tomar a 
+próxima dose. </p>
+<p>Doença de Paget 
+Para o tratamento da doença de Paget, Aclasta deve ser prescrito apenas por médicos com experiência 
+no tratamento da doença óssea de Paget. </p>
+<p>A dose recomendada é de 5 mg em perfusão inicial, administrada numa veia pelo médico ou 
+enfermeiro. A perfusão demorará, pelo menos, 15 minutos. Aclasta pode atuar durante um período de 
+tempo superior a um ano. O seu médico informá-lo-á se necessita de receber tratamento novamente. </p>
+<p>O seu médico pode recomendar a ingestão de suplementos de cálcio e vitamina D (ex. comprimidos) 
+durante, pelo menos, os dez dias seguintes à administração de Aclasta. É importante que siga este 
+conselho cuidadosamente, de forma a que o nível de cálcio no seu sangue não se torne muito baixo 
+posteriormente à perfusão. O seu médico informá-lo-á sobre os sintomas associados à hipocalcemia. </p>
+<p>Aclasta com alimentos e bebidas 
+Assegure-se de que bebe líquidos suficientes (pelo menos um ou dois copos) antes e depois de lhe ser 
+administrado Aclasta, conforme indicado pelo seu médico. Tal irá prevenir a desidratação. Pode comer 
+normalmente no dia em que lhe for administrado Aclasta. Tal é especialmente importante em doentes 
+que tomam diuréticos e em doentes idosos (65 anos ou mais). </p>
+<p>Caso se tenha esquecido de uma dose de Aclasta 
+Contacte o seu médico ou o hospital o mais depressa possível de forma a marcar uma nova data para o 
+medicamento lhe ser administrado. </p>
+<p>Antes de parar a terapêutica com Aclasta 
+Se está a considerar parar o tratamento com Aclasta, por favor discuta essa questão com o seu médico 
+na próxima consulta. O seu médico aconselhá-lo-á e decidirá durante quanto tempo deve ser tratado 
+com Aclasta. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis relacionados com a primeira perfusão são muito frequentes (ocorrendo em 
+mais de 30% dos doentes), mas são menos frequentes após as perfusões subsequentes. A maioria dos 
+efeitos indesejáveis, tais como febre e arrepios, dor muscular ou articular e dor de cabeça, ocorrem 
+durante os primeiros três dias após a administração de Aclasta. Os sintomas são geralmente ligeiros a 
+moderados e desaparecem no espaço de três dias. O seu médico pode recomendar um medicamento 
+para alívio da dor, como o ibuprofeno ou o paracetamol para redução destes efeitos indesejáveis. A 
+possibilidade de sentir estes efeitos indesejáveis diminui com as doses subsequentes de Aclasta. </p>
+<p>Efeitos indesejáveis que podem ser graves 
+Frequentes (podem afetar até 1 em 10 pessoas) 
+Verificaram-se casos de irregularidade dos batimentos cardíacos (fibrilhação auricular) em doentes 
+medicados com Aclasta para o tratamento da osteoporose pós-menopáusica. Atualmente, não é claro 
+se Aclasta causa essa irregularidade dos batimentos cardíacos, mas deve informar o seu médico se 
+sentir este sintoma após lhe ser administrado Aclasta. </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) 
+Inchaço, vermelhidão, dor e coceira nos olhos ou sensibilidade dos olhos à luz. </p>
+<p>Muito raros (podem afetar até 1 em 10.000 pessoas) 
+Fale com o seu médico se tiver dor de ouvido, corrimento do ouvido e/ou uma infeção do ouvido. 
+Estes podem ser sinais de lesões ósseas no ouvido. </p>
+<p>Desconhecidos (a frequência não pode ser estimada a partir dos dados disponíveis) 
+Dor na boca e/ou mandíbula, inchaço ou feridas não cicatrizadas na boca ou mandíbula, supuração, 
+dormência ou sensação de peso na mandíbula, ou dente a abanar:.estes podem ser sinais de lesão óssea 
+da mandíbula (osteonecrose). Informe o seu médico e dentista imediatamente se sentir estes sintomas 
+enquanto estiver a ser tratado com Aclasta ou depois de ter terminado o tratamento. </p>
+<p>Podem ocorrer distúrbios renais (por exemplo, diminuição da produção de urina). O seu médico deve 
+solicitar análises sanguíneas para verificar a sua função renal antes de cada administração de Aclasta. 
+É importante que beba pelo menos dois copos de uma bebida (como por exemplo água), algumas 
+horas antes de lhe ser administrado Aclasta, tal como indicado pelo seu médico. </p>
+<p>Se sentir algum dos efeitos secundários acima mencionados, deve contactar o seu médico 
+imediatamente. </p>
+<p>Aclasta pode causar outros efeitos indesejáveis 
+Muito frequentes (podem afetar mais do que 1 em 10 pessoas) 
+Febre </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) 
+Dor de cabeça, tonturas, sensação de mal estar, vómitos, diarreia, dor muscular, dor óssea e/ou nas 
+articulações, dor de costas, dor nos braços ou pernas, sintomas gripais (ex. cansaço, arrepios, dor 
+articular e muscular), arrepios, sensação de cansaço e perda de interesse, fraqueza, dor, indisposição, 
+inchaço e/ou dor no local da perfusão. </p>
+<p>Nos doentes com doença óssea de Paget: Foram reportados sintomas causados por níveis sanguíneos 
+baixos de cálcio, tais como espasmos musculares, dormência ou sensação de formigueiro, 
+especialmente na região em redor da boca. </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) 
+Gripe, infeções do trato respiratório superior, baixa contagem de glóbulos vermelhos, perda de apetite, 
+insónia, sonolência que pode incluir diminuição do sentido de alerta e consciência, sensação de 
+formigueiro ou de dormência, fadiga extrema, tremor, perda temporária da consciência, infecão ocular 
+ou irritação ou inflamação dolorosa e vermelhidão nos olhos, sensação de andar à roda, aumento da 
+pressão sanguínea, rubor (vermelhidão), tosse, dificuldade em respirar, desconforto no estômago, dor 
+abdominal, prisão de ventre, boca seca, azia, erupção cutânea (na pele), suor excessivo, comichão, 
+vermelhidão na pele, dor de pescoço, rigidez muscular, ossos e/ou articulações, inchaço nas 
+articulações, espasmos musculares, dor nos ombros, dor nos músculos do peito e caixa torácica, 
+inflamação das articulações, fraqueza muscular, resultados de testes renais anormais, frequência 
+urinária anormal, inchaço das mãos, inchaço dos tornozelos ou pés, sede, dor de dentes, alterações do 
+paladar. </p>
+<p>Raros (podem afetar até 1 em 1.000 pessoas) 
+Pode ocorrer raramente fratura atípica do osso da coxa, especialmente em doentes em tratamento 
+prolongado da osteoporose. Informe o seu médico se sentir dor, fraqueza ou desconforto na sua anca, 
+coxa ou virilha, uma vez que pode ser uma indicação precoce de uma possível fratura do osso da coxa. 
+Níveis baixos de fosfato no sangue. </p>
+<p>Desconhecidos (a frequência não pode ser estimada a partir dos dados disponíveis): 
+Reações alérgicas graves incluindo tonturas e dificuldade em respirar, inchaço principalmente na cara 
+e garganta, diminuição da pressão sanguínea, desidratação secundária a reações de fase aguda 
+(sintomas que ocorrem após a toma da dose tais como febre, vómitos e diarreia). </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar aclasta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar aclasta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu médico, farmacêutico ou enfermeiro sabem como conservar Aclasta adequadamente. </p>
+<ul>
+<li>Manter este medicamento fora da vista e do alcance das crianças. </li>
+<li>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+frasco, após EXP. </li>
+<li>Antes de aberto, o frasco não necessita de quaisquer precauções especiais de conservação. </li>
+<li>Após abertura do frasco, o conteúdo deverá ser utilizado imediatamente a fim de evitar 
+contaminação microbiológica. Caso não seja utilizado imediatamente, o tempo e as condições 
+de armazenamento prévios à utilização são da responsabilidade do utilizador e não deverão ser 
+superiores a 24 horas a 2°C - 8°C. A solução refrigerada deverá atingir a temperatura ambiente 
+previamente à administração. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Aclasta 
+- A substância ativa é o ácido zoledrónico. Cada frasco com 100 ml de solução contém 5 mg de 
+ácido zoledrónico (sob a forma de monohidratado). 
+Um ml de solução contém 0,05 mg de ácido zoledrónico (sob a forma de monohidratado). 
+- Os outros componentes são: manitol, citrato de sódio e água para preparações injetáveis. </p>
+<p>Qual o aspeto de Aclasta e conteúdo da embalagem 
+Aclasta é uma solução límpida e incolor. Aclasta é acondicionado em frascos de plástico de 100 ml, na 
+forma de solução para perfusão pronta a utilizar. Aclasta é dispensado em embalagens contendo um 
+frasco como embalagem unitária ou em embalagens múltiplas incluindo cinco embalagens, cada uma 
+contendo um frasco. É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Sandoz Pharmaceuticals d.d. 
+Verovškova ulica 1000 Ljubljana 
+Eslovénia </p>
+<p>Fabricante 
+Novartis Pharma GmbH 
+Roonstraße D-90429 Nürnberg 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Sandoz N.V. 
+Telecom Gardens 
+Medialaan B-1800 Vilvoorde 
+Tél/Tel: +32 (0)2 722 97<br />
+Lietuva 
+Sandoz Pharmaceuticals d.d 
+Branch Office Lithuania 
+Seimyniskiu 3A 
+LT - 09312 Vilnius 
+Tel: +370 5 2636<br />
+България 
+КЧТ Сандоз България<br />
+Teл.: +359 2 970 47 Luxembourg/Luxemburg 
+Sandoz N.V. 
+Telecom Gardens 
+Medialaan B-1800 Vilvoorde 
+Tél/Tel: +32 (0)2 722 97<br />
+Česká republika 
+Sandoz s.r.o. 
+Na Pankráci 1724/CZ-140 00, Praha 4 
+Tel: +420 225 775 office.cz@ sandoz.com </p>
+<p>Magyarország 
+Sandoz Hungária Kft. 
+Bartók Béla út 43-H-1114 Budapest 
+Tel: +36 1 430 2Info.hungary@sandoz.com 
+Danmark 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 København S 
+Tlf: +45 6395 1info.danmark@sandoz.com </p>
+<p>Malta 
+Sandoz Pharmaceuticals d.d. 
+Verovskova SI-1000 Ljubljana 
+Slovenia 
+Tel: +356 21222Deutschland 
+Hexal AG 
+Industriestr. D-83607 Holzkirchen 
+Tel: +49 8024 908-0 
+service@hexal.com<br />
+Nederland 
+Sandoz B.V. 
+Veluwezoom NL-1327 AH Almere 
+Tel: +31 (0)36 5241info.sandoz-nl@sandoz.com </p>
+<p>Eesti 
+Sandoz d.d. Eesti filiaal 
+Pärnu mnt EE - 11312 Tallinn 
+Tel: +372 6652 </p>
+<p>Norge 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 København S 
+Danmark 
+Tlf: +45 6395 1info.norge@sandoz.com </p>
+<p>Ελλάδα 
+SANDOZ HELLAS<br />
+ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε.<br />
+Τηλ: +30 216 600 5 
+Österreich 
+Sandoz GmbH 
+Biochemiestr. A-6250 Kundl 
+Tel: +43(0)1 86659-0 </p>
+<p>España 
+Bexal Farmacéutica, S.A. 
+Centro Empresarial Parque Norte 
+Edificio Roble 
+C/ Serrano Galvache, 28033 Madrid 
+Tel: +34 900 456<br />
+Polska 
+Sandoz Polska Sp. z o.o. 
+ul. Domaniewska 50 C 
+02 672 Warszawa 
+Tel.: +48 22 209 7maintenance.pl@sandoz.com 
+France 
+Sandoz SAS 
+49, avenue Georges Pompidou 
+F-92300 Levallois-Perret 
+Tél: +33 1 49 64 48  </p>
+<p>Portugal 
+Sandoz Farmacêutica Lda. 
+Avenida Professor Doutor Cavaco Silva, n.º10E 
+Taguspark 
+P-2740−255 Porto Salvo 
+Tel: +351 21 196 40 regaff.portugal@sandoz.com </p>
+<p>Hrvatska 
+Sandoz d.o.o. 
+Maksimirska 10 000 Zagreb 
+Tel : +385 1 235 3upit.croatia@sandoz.com </p>
+<p>România 
+Sandoz S.R.L. 
+Strada Livezeni Nr. 7a 
+540472 Târgu Mureș 
+Tel: +40 21 407 51<br />
+Ireland 
+Sandoz Pharmaceuticals d.d. 
+Verovškova ulica 1000 Ljubljana 
+Slovenia 
+Slovenija 
+Lek farmacevtska družba d.d. 
+Verovškova SI-1526 Ljubljana 
+Tel: +386 1 580 21 Info.lek@sandoz.com 
+Ísland 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 Kaupmaannahöfn S 
+Danmörk 
+Tlf: +45 6395 1info.danmark@sandoz.com </p>
+<p>Slovenská republika 
+Sandoz d.d. - organizačná zložka 
+Žižkova 22B 
+811 02 Bratislava 
+Tel: +421 2 48 200 sk.regulatory@sandoz.com </p>
+<p>Italia 
+Sandoz S.p.A. 
+Largo Umberto Boccioni, 1 
+I-21040 Origgio / VA 
+Tel: +39 02 96 54 1 
+regaff.italy@sandoz.com 
+Suomi/Finland 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 Kööpenhamina S 
+Tanska 
+Puh: + 358 010 6133 info.suomi@sandoz.com </p>
+<p>Κύπρος 
+Sandoz Pharmaceuticals d.d. 
+Verovskova SI-1000 Ljubljana 
+Σλοβενία 
+Τηλ: +357 22 69 0 
+Sverige 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 Köpenhamn S 
+Danmark 
+Tel: +45 6395 1info.sverige@sandoz.com </p>
+<p>Latvija 
+Sandoz d.d. Latvia filiāle 
+K.Valdemāra 33 - LV-1010 Rīga 
+Tel: +371 67892 
+United Kingdom (Northern Ireland) 
+Sandoz Pharmaceuticals d.d. 
+Verovskova SI-1000 Ljubljana 
+Slovenia 
+Tel: +43 5338 2 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -975,6 +1450,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9dc703bc672ed093a819de38cd335ddf"
 * entry[0].resource = composition-da-9dc703bc672ed093a819de38cd335ddf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9dc703bc672ed093a819de38cd335ddf"
+* entry[=].resource = mp9dc703bc672ed093a819de38cd335ddf
+                            
+                    
+Instance: bundlepackageleaflet-pt-9dc703bc672ed093a819de38cd335ddf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aclasta Package Leaflet for language pt"
+Description: "ePI document Bundle for aclasta Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9dc703bc672ed093a819de38cd335ddf"
+* entry[0].resource = composition-pt-9dc703bc672ed093a819de38cd335ddf
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9dc703bc672ed093a819de38cd335ddf"
@@ -1076,6 +1573,18 @@ RuleSet: 9dc703bc672ed093a819de38cd335ddfListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9dc703bc672ed093a819de38cd335ddf) // aclasta pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

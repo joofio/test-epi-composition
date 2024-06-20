@@ -1043,6 +1043,653 @@ får bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>  
 
 
 
+Instance: composition-pt-552224bdd5379f4c4cfefcd5a85f0788
+InstanceOf: CompositionUvEpi
+Title: "Composition for omnitrope Package Leaflet"
+Description:  "Composition for omnitrope Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp552224bdd5379f4c4cfefcd5a85f0788)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - omnitrope"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Omnitrope e para que é utilizado
+2. O que precisa de saber antes de utilizar Omnitrope
+3. Como utilizar Omnitrope
+4. Efeitos indesejáveis possíveis
+5. Como conservar Omnitrope
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é omnitrope e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é omnitrope e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Omnitrope é a hormona recombinante de crescimento humana (também denominada somatropina). 
+Possui a mesma estrutura da hormona do crescimento natural humana que é necessária para os ossos e 
+os músculos crescerem. Também contribui para o desenvolvimento correto dos seus tecidos gordos e 
+musculares. É recombinante, o que significa que não é feita a partir de tecido humano ou animal. 
+Nas crianças, Omnitrope é usado para tratar as seguintes perturbações do crescimento:</p>
+<ul>
+<li>
+<p>se não está a crescer adequadamente e se tem uma quantidade insuficiente de hormona do 
+crescimento própria.</p>
+</li>
+<li>
+<p>se tem síndrome de Turner. A síndrome de Turner é um distúrbio genético nas raparigas que 
+pode afetar o crescimento - o seu médico ter-lhe-á dito se o tiver.</p>
+</li>
+<li>
+<p>se tem compromisso renal crónico. À medida que os rins perdem a sua capacidade de funcionar 
+normalmente, tal pode afetar o crescimento.</p>
+</li>
+<li>
+<p>se era pequeno ou com muito baixo peso à nascença. A hormona do crescimento ajudá-lo-á a 
+ficar mais alto se não conseguiu atingir o crescimento esperado ou manter o crescimento normal 
+até aos 4 anos ou mais de idade.</p>
+</li>
+<li>
+<p>se tem síndrome de Prader-Willi (um distúrbio cromossómico). A hormona do crescimento 
+ajudá-lo-á a ficar mais alto ainda se estiver em crescimento e também melhorará a sua 
+morfologia corporal. A sua gordura em excesso diminuirá e a sua massa muscular reduzida 
+melhorará.
+Nos adultos, Omnitrope é usado para</p>
+</li>
+<li>
+<p>Tratar pessoas com deficiência pronunciada em hormona do crescimento. Isto pode começar 
+durante a idade adulta ou ser uma continuação da infância.
+Se foi tratado com Omnitrope para a deficiência em hormona do crescimento durante a infância, 
+o estado da hormona do crescimento será reanalisado depois do fim do crescimento. Caso se 
+confirme a deficiência grave em hormona do crescimento, o seu médico propor-lhe-á a 
+continuação do tratamento com Omnitrope.
+Este medicamento só lhe deve ser administrado por um médico que tenha experiência no tratamento 
+com hormona do crescimento e que tenha confirmado o seu diagnóstico.
+94</p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar omnitrope"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar omnitrope"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Omnitrope</p>
+<ul>
+<li>
+<p>se tem alergia (hipersensibilidade) à somatropina ou a qualquer outro componente de 
+Omnitrope.</p>
+</li>
+<li>
+<p>e informe o seu médico se tem um tumor ativo (cancro). Os tumores têm de estar inativos e deve 
+ter terminado o seu tratamento antitumoral antes de iniciar o seu tratamento com Omnitrope.</p>
+</li>
+<li>
+<p>e informe o seu médico se lhe foi receitado Omnitrope para promover o crescimento, mas já 
+parou de crescer (epífises fechadas).</p>
+</li>
+<li>
+<p>se estiver gravemente doente (por exemplo, complicações após cirurgia de coração aberto, 
+cirurgia abdominal, traumatismo causado por acidente, deficiência respiratória aguda ou 
+situações semelhantes). Se vai ser ou se foi submetido a uma operação importante, ou se for 
+internado no hospital por algum motivo, informe o seu médico e lembre os outros médicos que 
+consulta que está a utilizar a hormona de crescimento.
+Advertências e precauções
+Fale com o seu médico antes de utilizar Omnitrope.</p>
+</li>
+<li>
+<p>se usa uma terapêutica de reposição com glucocorticoides, deve consultar o seu médico 
+regularmente, pois pode precisar de ajuste da dose de glucocorticoides.</p>
+</li>
+<li>
+<p>se está em risco de desenvolver diabetes, o seu médico irá necessitar de monitorizar os seus 
+valores de glucose no sangue durante a terapêutica com somatropina.</p>
+</li>
+<li>
+<p>se tem diabetes, deve vigiar atentamente os seus níveis de glucose no sangue durante o 
+tratamento com somatropina e discutir os resultados com o seu médico, para determinar se 
+necessita de alterar a dose dos seus medicamentos de tratamento da diabetes.</p>
+</li>
+<li>
+<p>após o início do tratamento com somatropina, alguns doentes podem necessitar de iniciar a 
+substituição da hormona tiroideia.</p>
+</li>
+<li>
+<p>se está a receber tratamento com hormonas tiroideias pode ser necessário proceder ao ajuste da 
+sua dose de hormona tiroideia. </p>
+</li>
+<li>
+<p>se criou pressão intracraniana (que provoca sintomas tais como dores de cabeça fortes, 
+perturbações visuais ou vómitos), deve informar o seu médico.</p>
+</li>
+<li>
+<p>se coxear ou começar a coxear durante o tratamento com hormona do crescimento, deve 
+informar o seu médico.</p>
+</li>
+<li>
+<p>se está a receber somatropina para a deficiência em hormona do crescimento a seguir a um 
+tumor (cancro) prévio, deve ser examinado regularmente relativamente à recorrência do tumor 
+ou qualquer outro tipo de cancro.</p>
+</li>
+<li>
+<p>se tiver agravamento de dor abdominal deve informar o seu médico.</p>
+</li>
+<li>
+<p>a experiência em doentes com mais de 80 anos de idade é limitada. Os idosos podem ser mais 
+sensíveis à ação da somatropina e, por isso, podem ser mais propensos a desenvolver efeitos 
+indesejáveis.</p>
+</li>
+<li>
+<p>O Omnitrope pode causar uma inflamação do pâncreas, causando dores graves no abdómen e 
+nas costas. Contacte o seu médico se você ou a sua criança desenvolver dor abdominal depois 
+de tomar Omnitrope.</p>
+</li>
+<li>
+<p>Um aumento da curvatura lateral da coluna vertebral (escoliose) pode desenvolver-se em 
+qualquer criança durante o crescimento acelerado. Durante o tratamento com somatropina, o seu 
+médico verificará se você (ou o seu filho/a) tem sinais de escoliose.
+Crianças com compromisso renal crónico</p>
+</li>
+<li>
+<p>O seu médico deve examinar a sua função renal e a sua taxa de crescimento antes de começar 
+com somatropina. O tratamento médico para o seu rim deve ser continuado. O tratamento com 
+somatropina deve ser interrompido aquando do transplante renal.
+Crianças com síndrome de Prader-Willi</p>
+</li>
+<li>
+<p>O seu médico dar-lhe-á uma dieta restritiva para seguir, a fim de controlar o seu peso.
+95</p>
+</li>
+<li>
+<p>O seu médico avaliá-lo-á relativamente a sinais de obstrução das vias respiratórias superiores, 
+apneia do sono (na qual a sua respiração é interrompida durante o sono) ou infeção respiratória, 
+antes de iniciar o tratamento com somatropina.</p>
+</li>
+<li>
+<p>Durante o tratamento com somatropina, informe o seu médico se mostrar sinais de obstrução 
+das vias respiratórias superiores (incluindo começar a ressonar ou aumento do ronco), o seu 
+médico terá necessidade de o examinar e poderá interromper o tratamento com somatropina.</p>
+</li>
+<li>
+<p>Durante o tratamento, o seu médico examiná-lo-á relativamente a sinais de escoliose, um tipo de 
+deformidade da coluna.</p>
+</li>
+<li>
+<p>Durante o tratamento, se desenvolver uma infeção pulmonar, informe o seu médico para que 
+possa tratar a infeção.
+Crianças que nasceram pequenas ou com muito baixo peso à nascença</p>
+</li>
+<li>
+<p>Se era muito pequeno ou se tinha muito baixo peso à nascença e se tiver entre 9 e 12 anos de 
+idade, consulte o seu médico para aconselhamento específico relativamente à puberdade e ao 
+tratamento com este medicamento.</p>
+</li>
+<li>
+<p>O tratamento deve ser continuado até ter parado de crescer.</p>
+</li>
+<li>
+<p>O seu médico verificará os seus níveis sanguíneos de açúcar e insulina antes do início do 
+tratamento e todos os anos durante o tratamento.
+Outros medicamentos e Omnitrope
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos.
+Em particular, informe o seu médico se estiver a tomar ou tiver tomado recentemente algum dos 
+seguintes medicamentos. O seu médico pode precisar de ajustar a dose de Omnitrope ou dos outros 
+medicamentos:</p>
+</li>
+<li>
+<p>medicamentos para tratar a diabetes mellitus,</p>
+</li>
+<li>
+<p>hormonas tiroideias,</p>
+</li>
+<li>
+<p>medicamentos para controlar a epilepsia (anticonvulsivos), </p>
+</li>
+<li>
+<p>ciclosporina (um medicamento que enfraquece o sistema imunitário após o transplante),</p>
+</li>
+<li>
+<p>estrogénio tomado por via oral ou outras hormonas sexuais,</p>
+</li>
+<li>
+<p>hormonas suprarrenais (corticosteroides). 
+O seu médico pode necessitar de ajustar a dose destes medicamentos ou a dose de somatropina
+Gravidez e amamentação
+Não deve utilizar Omnitrope se estiver grávida ou a tentar engravidar.
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Informações importantes sobre alguns componentes de Omnitrope
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por ml, ou seja, é praticamente 
+“isento de sódio".</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar omnitrope"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar omnitrope"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico, farmacêutico ou enfermeiro. 
+Fale com o seu médico, enfermeiro ou farmacêutico se tiver dúvidas.
+A dose depende do seu tamanho, da situação para a qual está a ser tratado e de como a hormona de 
+crescimento funciona em si. Todas as pessoas são diferentes. O seu médico aconselhá-lo-á sobre a sua 
+dose individualizada de Omnitrope em miligramas (mg) de acordo com o seu peso corporal em 
+96
+quilogramas (kg) ou da sua área de superfície corporal, calculada a partir da sua altura e do seu peso 
+em metros quadrados (m2), assim como sobre o seu esquema posológico. Não altere a dosagem e o 
+esquema posológico sem consultar o seu médico.
+A dose recomendada é para:
+Crianças com deficiência em hormona do crescimento:
+0,025-0,035 mg/kg de peso corporal por dia ou 0,7-1,0 mg/m2 de área de superfície corporal por dia. 
+Podem ser utilizadas doses mais elevadas. Quando a deficiência em hormona de crescimento se 
+prolonga para a adolescência, Omnitrope pode ser continuado até ao fim do desenvolvimento físico.
+Crianças com síndrome de Turner:
+0,045-0,050 mg/kg de peso corporal por dia ou 1,4 mg/m2 de área de superfície corporal por dia.
+Crianças com compromisso renal crónico:
+0,045-0,050 mg/kg de peso corporal por dia ou 1,4 mg/m2 de área de superfície corporal por dia. 
+Podem ser necessárias doses mais elevadas se a taxa de crescimento for demasiado baixa. Pode ser 
+necessário proceder ao ajuste da dose após 6 meses de tratamento.
+Crianças com síndrome de Prader-Willi:
+0,035 mg/kg de peso corporal por dia ou 1,0 mg/m2 de área de superfície corporal por dia. A dose 
+diária não deve exceder 2,7 mg. O tratamento não deve ser utilizado em crianças que praticamente 
+tenham deixado de crescer após a puberdade.
+Crianças que nasceram pequenas ou com menor peso do que era esperado e com perturbação do 
+crescimento:
+0,035 mg/kg de peso corporal por dia ou 1,0 mg/m2 de área de superfície corporal por dia. É 
+importante continuar o tratamento até ser alcançada a altura final. O tratamento deve ser suspenso após 
+o primeiro ano se não estiver a responder ou se tiver alcançado a sua altura final e tiver parado de 
+crescer.
+Adultos com deficiência de hormona do crescimento:
+Se continuar a tomar Omnitrope após o tratamento durante a infância, deve reiniciar o tratamento com 
+0,2-0,5 mg por dia.
+Esta dose deve ser aumentada ou diminuída gradualmente de acordo com os resultados das análises ao 
+sangue e com a sua resposta individual e efeitos indesejáveis.
+Se a sua deficiência de hormona do crescimento começar na idade adulta, deve começar com 
+0,15-0,3 mg por dia. Esta dosagem deve ser aumentada gradualmente de acordo com os resultados das 
+análises sanguíneas, assim como com a resposta clínica e os efeitos indesejáveis. A dose diária de 
+manutenção raramente excede 1,0 mg por dia. As mulheres podem necessitar de doses mais elevadas 
+do que os homens. A dosagem deve ser vigiada a cada 6 meses. Pessoas com mais de 60 anos, devem 
+iniciar com uma dose de 0,1-0,2 mg por dia que deve ser aumentada lentamente de acordo com as 
+necessidades individuais. Deve utilizar-se a dose mínima eficaz. A dose de manutenção raramente 
+excede 0,5 mg por dia. Siga as instruções do seu médico.
+Injetar Omnitrope
+Injete a sua hormona do crescimento por volta da mesma hora do dia, todos os dias. A hora de se ir 
+deitar é uma boa hora porque é fácil de lembrar. Também é natural ter um nível mais elevado de 
+hormona do crescimento à noite.
+Omnitrope é indicado para administração por via subcutânea. Isto significa que é injetado através de 
+uma agulha de injeção curta no tecido adiposo logo abaixo da pele. A maior parte das pessoas dão as 
+suas injeções na coxa ou nas nádegas. Dê a sua injeção no local que o seu médico lhe indicou. O 
+tecido gordo da pele pode encolher no local de injeção. Para o evitar, utilize um local ligeiramente 
+97
+diferente para cada vez que administra a sua injeção. Assim, dá à sua pele e à zona sob a pele tempo 
+para recuperar de uma injeção antes de receber outra no mesmo local.
+O seu médico já lhe deve ter mostrado como utilizar Omnitrope. Injete Omnitrope sempre de acordo 
+com as indicações do médico. Fale com o seu médico ou farmacêutico se tiver dúvidas.
+Como injetar Omnitrope 1,3 mg/ml
+As seguintes instruções explicam como injetar Omnitrope 1,3 mg/ml a si próprio. Por favor, leia 
+cuidadosamente as instruções e siga-as passo a passo. O seu médico ou enfermeiro irá mostrar-lhe 
+como injetar Omnitrope. Não tente injetar-se a não ser que tenha a certeza de que compreende o 
+procedimento e requisitos para a injeção.
+-
+Após reconstituição, Omnitrope é administrado como uma injeção debaixo da pele.
+-
+Inspecione cuidadosamente a solução antes de a injetar e utilize-a apenas se for límpida e 
+incolor.
+-
+Mude os locais de injeção para minimizar o risco de lipoatrofia local (redução local de tecido 
+adiposo sob a pele).
+Preparação
+Junte os itens necessários antes de começar:
+-
+Um frasco para injetáveis com Omnitrope 1,3 mg/ml pó para 
+solução injetável.
+-
+Um frasco para injetáveis com solvente (líquido) para Omnitrope 
+1,3 mg/ml.
+-
+Uma seringa (e.g., seringa de 2 ml) e uma agulha (e.g., 0.33 mm 
+x 12.7 mm) estéreis, descartáveis para retirar o solvente do frasco 
+para injetáveis (não fornecidas na embalagem).
+-
+Uma seringa estéril, descartável de tamanho apropriado (e.g., 
+seringa de 1 ml) e uma agulha para injeção estéril e descartável 
+(e.g. 0.25 mm x 8 mm) para injeção subcutânea (não fornecidas 
+na embalagem).
+-
+2 compressas para limpeza (não fornecidas na embalagem).
+Lave as mãos antes de continuar com os passos seguintes.
+Reconstituir Omnitrope
+-
+Retire as cápsulas de fecho protetoras dos dois frascos para 
+injetáveis na cartonagem. Com uma compressa de limpeza, 
+desinfete as membranas de borracha de ambos os frascos para 
+injetáveis cheios com pó e com solvente.
+-
+Pegue no frasco para injetáveis com solvente e na seringa (e.g., 
+seringa de 2 ml) e agulha (e.g., 0.33 mm x 12.7 mm) estéreis, 
+descartáveis. Empurre a agulha ajustada à seringa através da 
+membrana de borracha.
+-
+Vire o frasco para injetáveis com o solvente ao contrário e retire 
+todo o solvente do frasco para injetáveis.
+-
+Pegue no frasco para injetáveis com o pó e empurre a agulha 
+através da membrana de borracha do frasco para injetáveis. Injete 
+o solvente lentamente. Direcione o fluxo de líquido contra a 
+parede de vidro do modo a evitar formação de espuma. Retire a 
+seringa e agulha.
+98
+-
+Rode gentilmente o frasco para injetáveis reconstituído até o 
+conteúdo estar completamente dissolvido. Não agite.
+-
+Se a solução for turva (e a turvação não desaparecer em dez 
+minutos) ou contiver partículas, não deve ser usada. O conteúdo 
+deve ser límpido e incolor. 
+-
+Use a solução imediatamente.
+Medir a dose de Omnitrope a injetar
+-
+Pegue na seringa estéril, descartável de tamanho apropriado (e.g. 
+seringa de 1 ml) e agulha de injeção (e.g. 0.25 mm x 8 mm).
+-
+Empurre a agulha através da tampa de borracha do frasco para 
+injetáveis com a solução reconstituída.
+-
+Vire o frasco para injetáveis e a seringa ao contrário numa mão.
+-
+Assegure-se de que a ponta da seringa se encontra na solução 
+reconstituída de Omnitrope. A sua outra mão estará livre para 
+mover o êmbolo.
+-
+Puxe o êmbolo lentamente e retire apenas um pouco mais que a 
+dose prescrita pelo seu médico para a seringa.
+-
+Segure a seringa com a agulha no frasco para injetáveis 
+apontando para cima e retire a seringa do frasco-ampola.
+-
+Verifique a presença de bolhas de ar na seringa. Se vir quaisquer 
+bolhas, puxe o êmbolo ligeiramente para trás; bata na seringa 
+gentilmente, com a agulha apontada para cima, até as bolhas 
+desaparecerem. Empurre o êmbolo lentamente até à dose correta.
+-
+Inspecione visualmente a solução reconstituída antes da 
+administração. 
+-
+Não utilize se a solução for turva ou contiver partículas. 
+Agora está preparado para injetar a dose. 
+Injetar Omnitrope
+-
+Selecione o local da injeção. Os melhores locais para injeção são 
+tecidos com uma camada de gordura entre a pele e o músculo, 
+tais como as ancas e a barriga (exceto umbigo e cintura).
+-
+Assegure-se de que injeta a, pelo menos, 1 cm de distância do 
+seu último local de injeção e que muda os locais em que se 
+injeta, tal como foi ensinado.
+-
+Antes de tomar uma injeção, limpe bem a sua pele com uma 
+compressa de algodão. Espere que a zona seque.
+-
+Com uma mão, segure uma prega de pele. Com a outra mão, 
+segure a seringa como faria com um lápis. Insira a agulha na 
+prega de pele num ângulo de 45° a 90°. Após a agulha ser 
+inserida, retire a mão que usou para apanhar a prega de pele e 
+use-a para segurar o corpo para seringa. Puxe o êmbolo muito 
+ligeiramente com uma mão. Se sair sangue para a seringa, a 
+agulha entrou num vaso sanguíneo. Não injete neste local; retire 
+a agulha e repita este passo. Injete a solução empurrando o 
+êmbolo completa e gentilmente.
+-
+Retire a agulha para fora da pele. 
+Após injetar
+99
+-
+Após a injeção, pressione o local de injeção com um pequeno 
+penso ou gaze esterilizada durante vários segundos. Não massaje 
+o local de injeção.
+-
+A solução residual, frascos para injetáveis e materiais de injeção 
+destinados a utilização única devem ser eliminados. Descarte as 
+seringas de forma segura num contentor fechado.
+Se utilizar mais Omnitrope do que deveria
+Se tiver injetado muito mais do que deveria, consulte o seu médico ou farmacêutico logo que possível. 
+Os seus níveis de glucose no sangue podem baixar demasiado e a seguir subir demasiado. Pode sentir-
+se fraco, transpirado, sonolento ou não se sentir “você mesmo" e pode desmaiar.
+Caso se tenha esquecido de utilizar Omnitrope
+Não utilize uma dose a dobrar para compensar uma dose que se esqueceu de utilizar. É melhor utilizar 
+a sua hormona de crescimento regularmente. Caso se tenha esquecido de tomar uma dose, faça a sua 
+próxima injeção à hora habitual no dia seguinte. Tome nota de quantas injeções se esqueceu e informe 
+o seu médico na próxima visita de check-up.
+Se parar de utilizar Omnitrope
+Antes de interromper a utilização de Omnitrope, consulte o seu médico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Os efeitos indesejáveis muito frequentes e frequentes em adultos 
+podem começar nos primeiros meses de tratamento e podem desaparecer espontaneamente ou quando 
+se procede a uma redução da dose.
+Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas) incluem:</p>
+<ul>
+<li>
+<p>Dor nas articulações</p>
+</li>
+<li>
+<p>Retenção de líquidos (que se apresenta como dedos ou tornozelos inchados durante um período 
+curto no início do tratamento)</p>
+</li>
+<li>
+<p>Vermelhidão, comichão ou dor temporárias no local de injeção.
+Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas) incluem:</p>
+</li>
+<li>
+<p>Borbulhas na pele com comichão</p>
+</li>
+<li>
+<p>Erupção na pele</p>
+</li>
+<li>
+<p>Dormência/formigueiros</p>
+</li>
+<li>
+<p>Rigidez de pernas e braços, dor nos músculos
+Nos adultos</p>
+</li>
+<li>
+<p>Dor ou sensação de ardor nas mãos e nos antebraços (conhecidas como síndrome de túnel 
+cárpico).
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas) incluem:</p>
+</li>
+<li>
+<p>Aumento da Mama (ginecomastia)</p>
+</li>
+<li>
+<p>Comichão 
+100
+Efeitos indesejáveis raros (podem afetar até 1 em cada 1.000 pessoas) incluem:
+Nas crianças</p>
+</li>
+<li>
+<p>Leucemia (esta foi notificada num pequeno número de doentes com deficiência de hormona do 
+crescimento, alguns dos quais foram tratados com somatropina. Contudo, não existe evidência 
+de que a incidência de leucemia esteja aumentada em recipientes de hormona do crescimento 
+sem fatores predisponentes.)</p>
+</li>
+<li>
+<p>Aumento da pressão intracraniana (que provoca sintomas tais como fortes dores de cabeça, 
+perturbações visuais ou vómitos).
+Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis):</p>
+</li>
+<li>
+<p>Diabetes Tipo 2</p>
+</li>
+<li>
+<p>Uma diminuição dos níveis da hormona “cortisol" no seu sangue</p>
+</li>
+<li>
+<p>Inchaço da cara</p>
+</li>
+<li>
+<p>Dores de cabeça</p>
+</li>
+<li>
+<p>Hipotiroidismo
+Nos adultos</p>
+</li>
+<li>
+<p>Aumento da pressão intracraniana (que provoca sintomas tais como fortes dores de cabeça, 
+perturbações visuais ou vómitos)
+Formação de anticorpos contra a hormona do crescimento injetada, mas estes não parecem impedir o 
+funcionamento da hormona do crescimento.
+A pele à volta do local de injeção pode tornar-se irregular ou rugosa, mas tal não acontece se injetar 
+num local diferente de cada vez.
+Observaram-se casos de morte súbita em doentes com síndrome de Prader-Willi. Contudo, não se 
+estabeleceu qualquer relação entre estes casos e o tratamento com Omnitrope.
+O seu médico pode considerar epifisiólise femoral superior e doença de Legg-Calvé-Perthes se tiver 
+desconforto ou dor na anca ou joelho enquanto estiver a ser tratado com Omnitrope.
+Outros efeitos indesejáveis possíveis relacionados com o seu tratamento com a hormona do 
+crescimento podem incluir os seguintes:
+Pode ter (ou o seu filho) um aumento do açúcar no sangue ou uma diminuição dos níveis de hormona 
+tiroideia. Estes podem ser analisados pelo seu médico que, se necessário, receitará o tratamento 
+adequado. Foi comunicada raramente inflamação do pâncreas em doentes tratados com hormona do 
+crescimento.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar omnitrope"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar omnitrope"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter fora da vista e do alcance das crianças.
+101
+Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado.</p>
+<ul>
+<li>
+<p>Conservar e transportar refrigerado (2°C-8°C).</p>
+</li>
+<li>
+<p>Não congelar.</p>
+</li>
+<li>
+<p>Conservar na embalagem de origem para proteger da luz.</p>
+</li>
+<li>
+<p>Após a reconstituição, de um ponto de vista microbiológico, o produto deve ser utilizado 
+imediatamente. No entanto, foi demonstrada a estabilidade em utilização durante 24 horas a 
+2°C-8°C na embalagem de origem.</p>
+</li>
+<li>
+<p>Apenas para uma única utilização.
+Não utilize Omnitrope se verificar que a solução está turva.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não necessita. Estas medidas ajudarão a 
+proteger o ambiente.</p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Omnitrope
+A substância ativa de Omnitrope é a somatropina. 
+Um frasco para injetáveis contém 1,3 mg (correspondendo a 4 UI) de somatropina após reconstituição 
+com 1 ml de solvente.
+Os outros componentes são:
+Pó:
+Glicina
+Hidrogenofosfato dissódico hepta-hidratado
+Fosfato monossódico di-hidratado
+Solvente:
+Água para preparações injetáveis
+Qual o aspeto de Omnitrope e conteúdo da embalagem
+Pó e solvente para solução injetável (pó num frasco para injetáveis (1,3 mg), solvente num frasco para 
+injetáveis (1 ml)).
+Tamanho de embalagem de 1. O pó é branco e o solvente é uma solução límpida e incolor.
+Titular da Autorização de Introdução no Mercado 
+Sandoz GmbH
+Biochemiestr. 10
+A-6250 Kundl
+Áustria
+102
+Fabricante
+Sandoz GmbH 
+Biochemiestr. 10
+A-6336 Langkampfen
+Áustria
+Novartis Pharmaceutical Manufacturing GmbH
+Biochemiestr. 10
+A-6336 Langkampfen
+Áustria
+Este folheto foi revisto pela última vez em {MM/AAAA}
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1084,6 +1731,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-552224bdd5379f4c4cfefcd5a85f0788"
 * entry[0].resource = composition-da-552224bdd5379f4c4cfefcd5a85f0788
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp552224bdd5379f4c4cfefcd5a85f0788"
+* entry[=].resource = mp552224bdd5379f4c4cfefcd5a85f0788
+                            
+                    
+Instance: bundlepackageleaflet-pt-552224bdd5379f4c4cfefcd5a85f0788
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for omnitrope Package Leaflet for language pt"
+Description: "ePI document Bundle for omnitrope Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-552224bdd5379f4c4cfefcd5a85f0788"
+* entry[0].resource = composition-pt-552224bdd5379f4c4cfefcd5a85f0788
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp552224bdd5379f4c4cfefcd5a85f0788"
@@ -1185,6 +1854,18 @@ RuleSet: 552224bdd5379f4c4cfefcd5a85f0788ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-552224bdd5379f4c4cfefcd5a85f0788) // omnitrope pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

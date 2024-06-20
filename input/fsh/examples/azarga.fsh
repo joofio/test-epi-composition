@@ -1004,6 +1004,590 @@ hjemmeside http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-pt-244f0d5975a83ec03b917d6f24b1b649
+InstanceOf: CompositionUvEpi
+Title: "Composition for azarga Package Leaflet"
+Description:  "Composition for azarga Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp244f0d5975a83ec03b917d6f24b1b649)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - azarga"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é AZARGA e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar AZARGA </li>
+<li>Como utilizar AZARGA </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar AZARGA </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é azarga e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é azarga e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O AZARGA contém duas substâncias ativas, a brinzolamida e o timolol, que trabalham em conjunto 
+para reduzir a pressão no interior do olho. </p>
+<p>O AZARGA é utilizado para tratar a pressão elevada dentro do olho, uma doença chamada glaucoma 
+ou hipertensão ocular, em doentes adultos maiores de 18 anos cuja elevada pressão no olho não pode 
+ser controlada de forma efetiva apenas com um medicamento. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar azarga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar azarga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize AZARGA </p>
+<ul>
+<li>
+<p>Se tem alergia à brinzolamida, a medicamentos que sejam sulfonamidas (por exemplo: 
+medicamentos usados para tratar diabetes, infeções e medicamentos diuréticos), ao timolol, a 
+bloqueadores beta (medicamentos utilizados para tratar baixa pressão sanguínea ou doenças 
+cardíacas) ou a qualquer outro componente deste medicamento (indicados na secção 6). </p>
+</li>
+<li>
+<p>Se tem ou teve no passado problemas respiratórios, tais como asma, bronquite obstrutiva 
+crónica prolongada (doença pulmonar grave que pode causar pieira, dificuldade em respirar e/ou 
+tosse persistente) ou outro tipo de problemas em respirar. </p>
+</li>
+<li>
+<p>Se sofrer de febre dos fenos </p>
+</li>
+<li>
+<p>Se tem um ritmo cardíaco baixo, insuficiência cardíaca ou outros distúrbios do ritmo cardíaco 
+(batimento cardíaco irregular). </p>
+</li>
+<li>
+<p>Se tem demasiada acidez no sangue (uma patologia chamada acidose hiperclorémica). </p>
+</li>
+<li>
+<p>Se tem problemas graves nos rins. </p>
+</li>
+</ul>
+<p>Advertências e Precauções </p>
+<p>Apenas utilize AZARGA nos olhos. </p>
+<p>Se tiver sinais de reações graves ou de hipersensibilidade, descontinue a utilização deste produto e fale 
+com o seu médico. </p>
+<p>Fale com o seu médico ou farmacêutico antes de utilizar o AZARGA, se tem ou teve no passado: </p>
+<ul>
+<li>
+<p>Doença cardíaca coronária (os sintomas podem incluir dor ou aperto no peito, falta de ar ou 
+asfixia), insuficiência cardíaca, pressão arterial baixa </p>
+</li>
+<li>
+<p>Perturbações do ritmo cardíaco tais como ritmo cardíaco lento </p>
+</li>
+<li>
+<p>Problemas respiratórios, asma ou doença pulmonar obstrutiva crónica (DPOC) </p>
+</li>
+<li>
+<p>Doenças de má circulação sanguínea (tais como doença de Raynaud ou sindroma de Raynaud) </p>
+</li>
+<li>
+<p>Diabetes, uma vez que o timolol pode mascarar os sintomas da diminuição de açúcar no sangue </p>
+</li>
+<li>
+<p>Hiperactividade da glândula tiróide, uma vez que o timolol pode mascarar sinais e sintomas de 
+doenças da tiróide. </p>
+</li>
+<li>
+<p>Fraqueza muscular (miastenia gravis) </p>
+</li>
+<li>
+<p>Informe o seu médico de que está a utilizar AZARGA, antes de ser sujeito a uma cirurgia, uma 
+vez que o timolol pode alterar os efeitos de alguns medicamentos durante a anestesia </p>
+</li>
+<li>
+<p>se tiver história de atopia (tendência para desenvolver reações alérgicas) e reações alérgicas 
+graves poderá ser mais sensível a desenvolver uma reação alérgica com a utilização de 
+AZARGA. e a adrenalina poderá não ser tão eficaz no tratamento da reação alérgica. Quando 
+receber quaisquer outros tratamentos, informe o seu médico ou enfermeiro que está a utilizar o 
+AZARGA. </p>
+</li>
+<li>
+<p>se tem problemas de fígado. </p>
+</li>
+<li>
+<p>se tem olhos secos ou problemas na córnea. </p>
+</li>
+<li>
+<p>se tiver problemas renais. </p>
+</li>
+<li>
+<p>se já desenvolveu uma erupção cutânea grave ou descamação da pele, bolhas e/ou feridas na 
+boca após utilizar AZARGA ou outros medicamentos relacionados. </p>
+</li>
+</ul>
+<p>Tome especial cuidado com AZARGA: 
+Foram notificadas reações cutâneas graves, incluindo síndrome de Stevens-Johnson e necrólise 
+epidérmica tóxica, associadas ao tratamento com brinzolamida. Pare de utilizar AZARGA e contacte 
+um médico imediatamente se notar algum dos sintomas relacionados com as reações cutâneas graves 
+descritas na secção 4.<br />
+Crianças e adolescentes 
+O AZARGA não é recomendado a crianças e adolescentes com menos de 18 anos. </p>
+<p>Outros medicamentos e AZARGA 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente ou se vier a 
+utilizar outros medicamentos. </p>
+<p>O AZARGA pode afetar ou ser afetado por outros medicamentos que esteja a utilizar, incluindo outros 
+colírios para o tratamento do glaucoma. Informe o seu médico se estiver a utilizar ou pretender utilizar 
+medicamentos para baixar a tensão arterial, como parassimpaticomiméticos e guanetidina, ou outros 
+medicamentos para o coração, incluindo quinidina (usada para tratar doenças do coração e alguns tipos 
+de malária), amiodarona ou outros medicamentos usados para tratar arritmias e glicósidos para o 
+tratamento da insuficiência cardíaca. Informe também o seu médico se está a tomar ou pretender tomar 
+medicamentos para tratar a diabetes ou para tratar úlceras gástricas, medicamentos antifúngicos, 
+antivirais ou antibióticos, ou antidepressivos como a fluoxetina e a paroxetina. </p>
+<p>Se está a tomar outros inibidores da anidrase carbónica (acetazolamida ou dorzolamida), informe o seu 
+médico. 
+Ocasionalmente foram reportados casos do aumento do tamanho da pupila em casos de utilização de 
+Azarga e adrenalina (epinefrina). </p>
+<p>Gravidez e amamentação 
+Não deve utilizar o AZARGA se está grávida ou se pode vir a engravidar, exceto se o seu médico 
+considerar necessário. Fale com o seu médico antes de utilizar o AZARGA. </p>
+<p>Não utilize AZARGA se estiver a amamentar, o timolol pode passar para o seu leite. 
+Consulte o seu médico antes de utilizar qualquer medicamento, enquanto estiver a amamentar. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza nem utilize máquinas até que a sua visão fique nítida. Após a administração do 
+AZARGA poderá sentir a visão turva durante algum tempo. </p>
+<p>Um dos componentes ativos pode comprometer a capacidade de realizar tarefas que requeiram 
+agilidade mental e/ou coordenação motora. Caso tal aconteça, tome cuidado ao conduzir ou utilizar 
+máquinas. </p>
+<p>AZARGA contém cloreto de benzalcónio </p>
+<p>Este medicamento contém 3,35 µg de cloreto de benzalcónio por gota (=1 dose) o que equivale a 
+0,01% ou 0,1 mg/ml. </p>
+<p>AZARGA contém um conservante (cloreto de benzalcónio) pode ser absorvido pelas lentes de 
+contacto moles e pode alterar a cor das lentes de contacto. Deve remover as lentes de contacto antes da 
+utilização deste medicamento e voltar a colocá-las 15 minutos depois. Cloreto de benzalcónio também 
+pode causar irritação nos olhos, especialmente se tem os olhos secos ou alterações da córnea (a 
+camada transparente na frente do olho). Se sentir uma sensação estranha no olho, picadas ou dor no 
+olho após utilizar este medicamento, fale com o seu médico. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar azarga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar azarga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Se está a trocar de outro colírio utilizado no tratamento de glaucoma para o AZARGA, deverá parar de 
+utilizar o outro medicamento e começar a utilizar o AZARGA no dia seguinte. Fale com o seu médico 
+ou farmacêutico se tiver dúvidas. </p>
+<p>Para prevenir contaminações do conta-gotas e da suspensão, tenha cuidado para não tocar com o 
+aplicador na pálpebra, nas zonas circundantes ou outras superfícies. Mantenha o frasco bem fechado 
+quando não estiver a utilizar. </p>
+<p>As medidas seguintes são úteis para limitar a quantidade de medicamento que entra na corrente 
+sanguínea após a aplicação do colírio: 
+− 
+Mantenha a pálpebra fechada enquanto simultaneamente aplica uma leve pressão no canto do 
+olho junto ao nariz com o dedo durante pelo menos 2 minutos. </p>
+<p>A dose recomendada é 
+Uma gota no olho(s) afetado(s), duas vezes ao dia. 
+Utilize o AZARGA em ambos os olhos, apenas se o seu médico o indicar. Utilize-o durante o tempo 
+indicado pelo seu médico. </p>
+<p>Como utilizar </p>
+<p>1 
+2 
+3 </p>
+<ul>
+<li>
+<p>Pegue no frasco de AZARGA e num espelho. </p>
+</li>
+<li>
+<p>Lave as mãos. </p>
+</li>
+<li>
+<p>Agite bem antes da utilização. </p>
+</li>
+<li>
+<p>Desenrosque a tampa do frasco. Se após retirar a tampa, o selo de proteção estiver solto, retire-o 
+antes de utilizar o produto. </p>
+</li>
+<li>
+<p>Segure o frasco, virado para baixo, entre o polegar e os dedos. </p>
+</li>
+<li>
+<p>Incline a cabeça para trás. Com um dedo limpo puxe a pálpebra inferior para baixo até que se 
+forme uma ‘bolsa’ entre a pálpebra e o olho. A gota cairá aqui (figura 1). </p>
+</li>
+<li>
+<p>Aproxime o conta-gotas do olho. Utilize o espelho se ajudar. </p>
+</li>
+<li>
+<p>Não toque no olho ou na pálpebra, zonas circundantes ou outras superfícies com o conta-gotas. 
+Poderá infetar as gotas. </p>
+</li>
+<li>
+<p>Pressione levemente a base do frasco para libertar uma gota de AZARGA de cada vez. </p>
+</li>
+<li>
+<p>Não aperte o frasco: este foi concebido para que uma suave pressão na base do frasco seja 
+suficiente para libertar uma gota (figura 2). </p>
+</li>
+<li>
+<p>Após aplicar o AZARGA, pressione o canto interior do olho com o dedo, junto ao nariz durante 
+2 minutos. (figura 3). Desta forma, evitará que o AZARGA passe para o resto do corpo. </p>
+</li>
+<li>
+<p>Se estiver a utilizar as gotas em ambos os olhos, repita os passos descritos para o outro olho. </p>
+</li>
+<li>
+<p>Feche bem o frasco imediatamente após a utilização. </p>
+</li>
+<li>
+<p>Use um frasco até ao fim antes de abrir o próximo. </p>
+</li>
+</ul>
+<p>Se não acertar com a gota no olho, tente de novo. </p>
+<p>Se estiver a utilizar outro colírio, aguarde pelo menos 5 minutos entre a aplicação de AZARGA e das 
+outras gotas. As pomadas oftálmicas devem ser aplicadas em último lugar. </p>
+<p>Se utilizar mais AZARGA do que deveria, lave o olho com água tépida. Não coloque mais gotas até 
+à hora da próxima dose. </p>
+<p>Neste caso, pode ocorrer uma diminuição do ritmo cardíaco, diminuição da pressão arterial, 
+insuficiência cardíaca, dificuldades em respirar e ainda afetar o seu sistema nervoso. </p>
+<p>Caso se tenha esquecido de utilizar AZARGA, continue com a dose seguinte como previsto. Não 
+faça uma segunda administração para compensar a dose esquecida. Não aplique mais de uma gota 
+no(s) olho(s) afetado(s) duas vezes ao dia. </p>
+<p>Se parar de utilizar AZARGA sem falar com o seu médico, a pressão no seu olho não estará 
+controlada, o que pode originar perda de visão. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Pare de utilizar AZARGA e contacte um médico imediatamente se notar algum dos seguintes 
+sintomas: </p>
+<ul>
+<li>vermelhidão e comichão intensa nos olhos, manchas avermelhadas sem relevo, semelhantes a 
+um alvo ou circulares no tronco, frequentemente com bolhas centrais, descamação da pele, 
+úlceras na boca, garganta, nariz, genitais e olhos. Estas erupções cutâneas graves podem ser 
+precedidas de febre e sintomas semelhantes aos da gripe (síndrome de Stevens-Johnson, 
+necrólise epidérmica tóxica). </li>
+</ul>
+<p>Pode continuar a aplicar as gotas, exceto se os efeitos forem graves. Se estiver preocupado, fale com o 
+seu médico ou farmacêutico. Não deixe de utilizar AZARGA sem falar com o seu médico. </p>
+<p>Frequentes (podem afetar até 1 em 10 utilizadores) </p>
+<ul>
+<li>
+<p>Efeitos oculares: inflamação da superfície ocular, visão turva, sinais e sintomas de irritação 
+ocular (ex: sensação de queimadura, picadas, comichão, lacrimejo e vermelhidão), dor ocular. </p>
+</li>
+<li>
+<p>Efeitos indesejáveis gerais: diminuição da frequência cardíaca. perturbações do paladar </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 utilizadores) </p>
+<ul>
+<li>
+<p>Efeitos oculares: erosão da córnea (lesão na camada frontal do globo ocular), inflamação da 
+superfície ocular com danos da superfície, inflamação ocular, coloração da córnea, sensação 
+anormal no olho, descarga ocular, olho seco, olhos cansados, comichão ocular, vermelhidão 
+ocular, vermelhidão da pálpebra </p>
+</li>
+<li>
+<p>Efeitos indesejáveis gerais: diminuição na contagem de células brancas, tensão arterial 
+diminuída, tosse, sangue na urina, fraqueza corporal. </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1000 utilizadores) </p>
+<ul>
+<li>
+<p>Efeitos oculares: afeção da córnea, sensibilidade à luz, aumento do lacrimejo, encrostramento 
+da pálpebra </p>
+</li>
+<li>
+<p>Efeitos indesejáveis gerais: dificuldade em dormir (insónia), dor de garganta, corrimento nasal </p>
+</li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>Efeitos oculares: alergia ocular, perturbações visuais, lesões do nervo ótico, aumento da 
+pressão no interior do olho, depósitos na superfície do olho, diminuição da sensibilidade ocular, 
+inflamação ou infeção da conjuntiva (parte branca do olho), visão anormal, dupla ou reduzida, 
+aumento da pigmentação ocular, crescimento na superfície ocular, inchaço ocular, sensibilidade 
+à luz, diminuição do crescimento ou do número de pestanas, prostração das pálpebras superiores 
+(deixando o olho meio fechado), inflamação da pálpebra e das glândulas palpebrais, inflamação 
+da córnea e descolamento da camada inferior da retina que contém os vasos sanguíneos após 
+filtração cirúrgica, o que pode causar perturbações da visão, diminuição da sensibilidade da 
+córnea. </p>
+</li>
+<li>
+<p>Efeitos indesejáveis gerais: manchas avermelhadas sem relevo, semelhantes a um alvo ou 
+circulares no tronco, frequentemente com bolhas centrais, descamação da pele, úlceras na boca, 
+garganta, nariz, genitais e olhos, que podem ser precedidas de febre e sintomas semelhantes aos 
+da gripe. Estas erupções cutâneas graves podem ser potencialmente fatais (síndrome de Stevens-
+Johnson, necrólise epidérmica tóxica). </p>
+</li>
+<li>
+<p>Coração e circulação: alterações no ritmo cardíaco ou frequência do batimento cardíaco, 
+frequência cardíaco lenta, palpitações, um tipo de doença do ritmo cardíaco, aumento anormal 
+do ritmo cardíaco, dor no peito, redução da função cardíaca, ataque cardíaco, pressão sanguínea 
+aumentada, aporte( transporte) de sangue para o cérebro reduzido, acidente vascular cerebral, 
+edema (retenção de líquidos), insuficiência cardíaca congestiva (doença cardíaca com falta de ar 
+e inchaço dos pés e pernas devido a retenção de líquidos), inchaço das extremidades, pressão 
+arterial baixa, descoloração dos dedos das mãos e dos pés e, por vezes, de outras zonas do corpo 
+(fenómeno de Raynaud), mãos e pés frios </p>
+</li>
+<li>
+<p>Respiratórios: Constrição das vias pulmonares (predominantemente em doentes com doença 
+pré-existente) falta de ar ou dificuldade em respirar, sintomas de resfriado, congestão no peito, 
+infeção dos seios nasais, espirros, nariz entupido, nariz seco, hemorragias nasais, asma, irritação 
+da garganta. </p>
+</li>
+<li>
+<p>Sistema nervoso e perturbações gerais: alucinações, depressão, pesadelos, perda de memória, 
+dor de cabeça, nervosismo, irritabilidade, cansaço, tremores, sensação anormal, desmaio, 
+tonturas, sonolência, fraqueza grave ou generalizada, sensação estranha de picadas. </p>
+</li>
+<li>
+<p>Gástricos: náuseas, vómitos, diarreia, flatulência ou desconforto abdominal, inflamação da 
+garganta, secura ou sensação anormal na boca, indigestão, dor no estômago. </p>
+</li>
+<li>
+<p>Sangue: valores anormais da função hepática, aumento dos níveis de cloro no sangue, ou 
+diminuição do número de glóbulos vermelhos nos testes sanguíneos. </p>
+</li>
+<li>
+<p>Alergia: aumento dos sintomas alérgicos, reações alérgicas generalizadas incluindo inchaço 
+debaixo da pele que pode ocorrer em áreas tais como a cara e membros e pode obstruir as vias 
+aéreas podendo causar dificuldade em engolir ou respirar, urticária, erupção na pele localizada 
+ou generalizada, prurido, reação alérgica grave súbita e com risco de vida. </p>
+</li>
+<li>
+<p>Ouvido: zumbidos nos ouvidos, sensação de girar ou tonturas. </p>
+</li>
+<li>
+<p>Pele: erupção na pele, vermelhidão na pele ou inflamação, sensibilidade cutânea anormal ou 
+diminuída, queda de cabelo, erupção na pele com aspeto branco prateado (erupção de tipo 
+psoríase) ou agravamento da psoríase. </p>
+</li>
+<li>
+<p>Muscular: dor generalizada nas costas, nas articulações ou nos músculos não provocada por 
+exercício, espasmos musculares, dor nas extremidades, fraqueza/cansaço muscular, aumento dos 
+sinais e sintomas de miastenia gravis (doença muscular). </p>
+</li>
+<li>
+<p>Rim: dor no rim tal como dor no fundo das costas, micção frequente. </p>
+</li>
+<li>
+<p>Reprodução: disfunção sexual, líbido diminuído, dificuldade sexual masculina. </p>
+</li>
+<li>
+<p>Metabolismo: níveis de açúcar baixos no sangue. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar azarga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar azarga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem após EXP. 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Para evitar infeções, deite fora o frasco 4 semanas após a primeira abertura e utilize um frasco 
+novo. Escreva a data de abertura no rótulo do frasco e da embalagem, no espaço indicado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de AZARGA </p>
+<p> 
+As substâncias ativas são a brinzolamida e o timolol. Um ml de suspensão contém 10 mg de 
+brinzolamida e 5 mg de timolol (como maleato). </p>
+<p> 
+Os outros componentes são cloreto de benzalcónio (ver secção 2 “AZARGA contém cloreto de 
+benzalcónio), carbómero 974P, edetato dissódico, manitol (E421), água purificada, cloreto de 
+sódio, tiloxapol, ácido clorídrico e/ou hidróxido de sódio. 
+São adicionadas pequenas quantidades de ácido clorídrico e/ou hidróxido de sódio para manter 
+os níveis de acidez (níveis de pH) normais. </p>
+<p>Qual o aspeto de AZARGA e conteúdo da embalagem </p>
+<p>O AZARGA é um líquido (suspensão uniforme de cor branca a quase branca) fornecido numa 
+embalagem que contém um frasco plástico de 5 ml com uma tampa de rosca ou numa embalagem com 
+três frascos de 5 ml. É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Pharma GmbH 
+Roonstraße D-90429 Nuremberga 
+Alemanha </p>
+<p>S.A. Alcon-Couvreur N.V 
+Rijksweg B-2870 Puurs 
+Bélgica </p>
+<p>Novartis Farmacéutica, S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Espanha </p>
+<p>Siegfried El Masnou, S.A. 
+Camil Fabra El Masnou 
+08320 Barcelona 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+de Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65<br />
+Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2 
+Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52<br />
+Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20<br />
+Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6 
+España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4 
+France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299<br />
+Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: + 421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 </p>
+<p>Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1045,6 +1629,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-244f0d5975a83ec03b917d6f24b1b649"
 * entry[0].resource = composition-da-244f0d5975a83ec03b917d6f24b1b649
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp244f0d5975a83ec03b917d6f24b1b649"
+* entry[=].resource = mp244f0d5975a83ec03b917d6f24b1b649
+                            
+                    
+Instance: bundlepackageleaflet-pt-244f0d5975a83ec03b917d6f24b1b649
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for azarga Package Leaflet for language pt"
+Description: "ePI document Bundle for azarga Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-244f0d5975a83ec03b917d6f24b1b649"
+* entry[0].resource = composition-pt-244f0d5975a83ec03b917d6f24b1b649
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp244f0d5975a83ec03b917d6f24b1b649"
@@ -1146,6 +1752,18 @@ RuleSet: 244f0d5975a83ec03b917d6f24b1b649ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-244f0d5975a83ec03b917d6f24b1b649) // azarga pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

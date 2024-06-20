@@ -879,6 +879,479 @@ hjemmeside: http://www.ema.europa.eu/.</p>         </div>"""
 
 
 
+Instance: composition-pt-9601a69cc77fa33a3d0e2e4ba9d747e9
+InstanceOf: CompositionUvEpi
+Title: "Composition for edurant Package Leaflet"
+Description:  "Composition for edurant Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9601a69cc77fa33a3d0e2e4ba9d747e9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - edurant"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é EDURANT e para que é utilizado
+2. O que precisa de saber antes de tomar EDURANT
+3. Como tomar EDURANT
+4. Efeitos secundários possíveis
+5. Como conservar EDURANT
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é edurant e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é edurant e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>EDURANT contém rilpivirina que é utilizada para o tratamento da infeção pelo Vírus da 
+Imunodeficiência Humana (VIH). Pertence ao grupo de medicamentos para o VIH chamado inibidores 
+não nucleósidos da transcriptase reversa (NNRTIs). EDURANT atua através da diminuição da 
+quantidade de VIH no seu corpo.
+EDURANT é utilizado em associação com outros medicamentos para o VIH para tratar 
+adolescentes e adultos com 12 ou mais anos de idade infetados com VIH e que nunca tenham sido 
+tratados anteriormente com medicamentos para o VIH.
+O seu médico irá avaliar consigo a associação de medicamentos adequados ao seu caso.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar edurant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar edurant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome EDURANT se tem alergia à rilpivirina ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).
+Não tome EDURANT em associação com qualquer um dos seguintes medicamentos uma vez que 
+podem afetar a forma como EDURANT ou os outros medicamentos atuam:
+-
+carbamazepina, oxcarbazepina, fenobarbital, fenitoína (medicamentos para tratar epilepsia e 
+evitar convulsões)
+-
+rifampicina, rifapentina (medicamentos para tratar algumas infeções bacterianas, tais como 
+tuberculose)
+-
+omeprazol, esomeprazol, lansoprazol, pantoprazol, rabeprazol (inibidores da bomba de protões,
+que são medicamentos para evitar e tratar úlceras do estômago, azia ou doença de refluxo ácido)
+-
+dexametasona (um corticosteroide utilizado numa variedade de condições, tais como inflamação 
+e reações alérgicas); quando tomado pela boca ou injetado, exceto como tratamento da dose 
+única
+-
+produtos que contenham hipericão (Hypericum perforatum) (um produto à base de plantas 
+utilizado para a depressão).
+Se está a tomar algum dos medicamentos acima descritos, pergunte ao seu médico sobre alternativas.
+35
+Advertências e precauções
+Fale com o seu médico ou farmacêutico antes de tomar EDURANT.
+EDURANT não é uma cura para a infeção por VIH. É parte de um tratamento para diminuir a 
+quantidade de vírus no sangue.
+EDURANT foi utilizado apenas num número limitado de doentes com idade igual ou superior a 
+65 anos. Se pertencer a este grupo etário, fale com o seu médico sobre a utilização de EDURANT.
+Informe o seu médico sobre a sua situação
+Certifique-se de que verifica os seguintes pontos e informa o seu médico se alguma destas situações se 
+aplica a si.
+-
+Informe o seu médico caso sofra ou tenha sofrido de problemas no seu fígado, incluindo 
+hepatite B e/ou C, e/ou problemas nos seus rins. O seu médico pode avaliar a gravidade da sua 
+doença de fígado ou rins antes de decidir se pode tomar EDURANT.
+-
+Informe imediatamente o seu médico se notar quaisquer sintomas de infeções (por exemplo, 
+febre, arrepios, suores). Em alguns doentes com infeção avançada por VIH e antecedentes de 
+infeções oportunistas, podem ocorrer sinais e sintomas de inflamação, resultantes de infeções 
+anteriores, pouco depois do início do tratamento para o VIH. Supõe-se que estes sintomas são 
+devidos a uma melhoria da resposta imunológica do organismo, permitindo assim ao organismo 
+combater infeções que possam ter estado presentes sem quaisquer sintomas evidentes.
+-
+Adicionalmente às infeções oportunistas, as doenças autoimunes (uma condição que ocorre 
+quando o sistema imunitário ataca tecidos corporais saudáveis) também podem ocorrer depois 
+de começar a tomar os medicamentos para o tratamento da sua infeção pelo VIH. As doenças 
+autoimunes podem ocorrer muitos meses após o início do tratamento. Se notar quaisquer 
+sintomas de infeção ou outros sintomas como fraqueza muscular, fraqueza a começar nas mãos 
+e nos pés e dirigindo-se em direção ao tronco, palpitações, tremores ou hiperatividade, informe 
+o seu médico imediatamente para procurar o tratamento necessário.
+-
+Fale com o seu médico se está a tomar qualquer medicamento que pode causar um batimento 
+cardíaco irregular colocando a vida em risco (Torsade de Pointes).
+Crianças
+EDURANT não deve ser utilizado em crianças com menos de 12 anos de idade, uma vez que ainda 
+não foi suficientemente estudado nestes doentes.
+Outros medicamentos e EDURANT
+Deve tomar EDURANT juntamente com outros medicamentos para o VIH. O seu médico irá 
+aconselhá-lo sobre os medicamentos para o VIH que podem ser associados com EDURANT e juntos 
+decidirão qual a associação que melhor se adequa a si. Siga cuidadosamente as instruções do seu 
+médico.
+Alguns medicamentos podem afetar os níveis de EDURANT no sangue quando administrados ao 
+mesmo tempo que EDURANT.
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.
+Não se recomenda a associação de EDURANT com outros inibidores não nucleósidos da 
+transcriptase reversa (NNRTIs), tais como delavirdina, efavirenz, etravirina e nevirapina.
+Os efeitos de EDURANT ou de outros medicamentos podem ser influenciados caso tome 
+EDURANT ao mesmo tempo que algum dos seguintes medicamentos. Fale com o seu médico, caso 
+esteja a tomar:
+-
+rifabutina (um medicamento utilizado para tratar algumas infeções bacterianas). Se está a tomar 
+este medicamento enquanto toma EDURANT, por favor, leia com atenção como tomar 
+36
+EDURANT na secção 3 “Instruções para a utilização adequada em adultos e adolescentes (até menos de 18 anos de idade)"
+-
+claritromicina, eritromicina (antibióticos)
+-
+cimetidina, famotidina, nizatidina, ranitidina (antagonistas dos recetores H2 utilizados para tratar 
+úlceras de estômago ou intestino ou utilizados para o alívio de azia devido ao refluxo ácido). Se 
+toma estes medicamentos, leia por favor cuidadosamente as indicações sobre como tomá-los na 
+secção 3 “Instruções para a utilização adequada em adultos e adolescentes (12 até menos 
+de 18 anos de idade)"
+-
+antiácidos (utilizados para tratar doenças relacionadas com a acidez do estômago; por exemplo, 
+hidróxido de alumínio/magnésio, carbonato de cálcio). Se toma estes medicamentos, leia 
+cuidadosamente as indicações sobre como tomá-los na secção 3 “Instruções para a utilização 
+adequada em adultos e adolescentes (12 até menos de 18 anos de idade)"
+-
+metadona (utilizado para tratar a privação e dependência aos narcóticos)
+-
+dabigatrano etexilato (anticoagulantes).
+Gravidez e amamentação
+Se estiver grávida ou planeia engravidar, contacte o seu médico imediatamente. As mulheres grávidas
+devem discutir a toma de EDURANT com o seu médico.
+A amamentação não é recomendada em mulheres que vivem com VIH porque a infeção pelo VIH 
+pode passar para o bebé através do leite materno.
+Se está a amamentar ou pensa em amamentar, deverá assim que possível, aconselhar-se com o seu 
+médico.
+Condução de veículos e utilização de máquinas
+Alguns doentes podem sentir cansaço, tonturas ou sonolência durante o tratamento com EDURANT. 
+Não conduza ou utilize máquinas se se sentir cansado, com tonturas ou com sono enquanto toma 
+EDURANT.
+EDURANT contém lactose
+Se o médico lhe disse que tem intolerância a alguns açúcares, contacte-o antes de tomar este 
+medicamento.
+EDURANT contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar edurant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar edurant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.
+Instruções para a utilização adequada em adultos e adolescentes (12 até menos de 18 anos de 
+idade)
+A dose recomendada de EDURANT é de um comprimido uma vez por dia.
+EDURANT deve ser tomado com uma refeição. Uma refeição é importante para obter os níveis 
+apropriados da substância ativa no seu corpo. Uma bebida nutricional (i.e. rica em proteínas) isolada, 
+não substitui uma refeição.
+Existem quatro situações que necessitam de especial atenção:
+37
+1. Se está a tomar rifabutina (um medicamento utilizado para tratar algumas infeções 
+bacterianas), tome dois comprimidos de EDURANT uma vez por dia. Quando parar de tomar 
+rifabutina, tome um comprimido de EDURANT uma vez por dia. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+2. Se está a tomar um antiácido (medicamento utilizado para tratar doenças relacionadas com a 
+acidez do estômago, tais como hidróxido de alumínio/magnésio, carbonato de cálcio). Tome o 
+antiácido pelo menos 2 horas antes ou pelo menos 4 horas depois de EDURANT (ver secção 2 
+“Outros medicamentos e EDURANT").
+3. Se está a tomar um antagonista dos recetores H2 (medicamentos utilizados para tratar úlceras 
+do estômago ou intestino ou utilizados para o alívio de azia devido ao refluxo ácido) (tais como 
+cimetidina, famotidina, nizatidina ou ranitidina). Tome o antagonista dos recetores H2 pelo 
+menos 12 horas antes ou pelo menos 4 horas depois de EDURANT (ver secção 2 “Outros 
+medicamentos e EDURANT"). Os antagonistas dos recetores H2 não devem ser tomados num 
+regime de doses de duas vezes por dia. Fale com o seu médico sobre um regime alternativo.
+4. Se está a tomar didanosina (um medicamento para o tratamento da infeção pelo VIH), não é 
+necessário ajuste de dose. A didanosina deve ser administrada com o estômago vazio pelo 
+menos duas horas antes ou pelo menos quatro horas depois de tomar EDURANT (que deverá 
+ser tomado com uma refeição).
+Retirar a tampa resistente à abertura por crianças
+O frasco contém uma tampa resistente à abertura por crianças. Pode ser aberta 
+empurrando a tampa para baixo, enquanto a roda no sentido contrário ao dos
+ponteiros do relógio.
+Se tomar mais EDURANT do que deveria
+Contacte imediatamente o seu médico ou farmacêutico. No caso de sobredosagem poderá ter dor de 
+cabeça, náuseas, tonturas, e/ou sonhos anormais.
+Caso se tenha esquecido de tomar EDURANT
+Caso se lembre no período de 12 horas após a hora em que normalmente toma EDURANT, deve 
+tomá-lo o mais rapidamente possível. O comprimido de EDURANT deve ser tomado com uma 
+refeição. Depois tome a próxima dose de acordo com tratamento habitual. Caso se lembre após 
+12 horas, não tome essa dose e continue o tratamento como habitual. Não tome uma dose a dobrar 
+para compensar uma dose que se esqueceu de tomar.
+Se vomitar num período de menos de 4 horas após ter tomado EDURANT, tome outro comprimido 
+com uma refeição. Se vomitar num período superior a 4 horas após tomar EDURANT não necessita de 
+tomar outro comprimido até à próxima dose do esquema habitual.
+Fale com o seu médio se tem dúvidas sobre o que fazer se se esquecer de uma dose ou vomitar.
+Não pare de tomar EDURANT
+O tratamento do VIH não cura a infeção pelo VIH! Não pare de tomar EDURANT sem falar primeiro 
+com o seu médico. Mesmo que se sinta melhor, não pare de tomar EDURANT ou outros
+medicamentos para o VIH. Isto poderia aumentar o risco de desenvolvimento de resistência ao vírus. 
+Fale primeiro com o seu médico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.
+38</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos secundários, no entanto estes não 
+se manifestam em todas as pessoas.
+Muito frequentes:
+-
+dor de cabeça
+-
+náuseas
+-
+dificuldade em adormecer (insónias)
+-
+tonturas
+-
+alterações num dos seus exames de rotina ao fígado (transaminases)
+-
+aumento do colesterol e/ou da amilase pancreática no seu sangue
+Frequentes:
+-
+sonhos anormais
+-
+erupção na pele
+-
+dor de estômago
+-
+depressão
+-
+cansaço
+-
+vómitos
+-
+sonolência
+-
+diminuição do apetite
+-
+perturbações do sono
+-
+desconforto no estômago
+-
+humor depressivo
+-
+boca seca
+-
+contagem baixa de glóbulos brancos e/ou plaquetas, diminuição da hemoglobina no seu sangue, 
+aumento dos triglicéridos, da lipase e/ou da bilirrubina no seu sangue
+Pouco frequentes:
+-
+sinais ou sintomas de inflamação ou infeção, por exemplo febre, arrepios, suores (síndrome de 
+reativação imunológica)
+Comunicação de efeitos secundários
+Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos secundários 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar edurant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar edurant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado.
+Conservar no frasco de origem para proteger da luz.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.
+39</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de EDURANT</h2>
+<p>A substância ativa é a rilpivirina, sob a forma de cloridrato de rilpivirina. Cada comprimido de 
+EDURANT contém cloridrato de rilpivirina equivalente a 25 mg de rilpivirina.
+-
+Os outros componentes do núcleo do comprimido revestido por película são a lactose mono-
+hidratada, croscarmelose sódica, povidona K30, polissorbato 20, celulose microcristalina 
+siliciada e estearato de magnésio. O revestimento por película contém lactose mono-hidratada, 
+hipromelose 2910 6 mPa.s dióxido de titânio E171, macrogol 3000 e triacetina.
+Qual o aspeto de EDURANT e conteúdo da embalagem
+Comprimido branco a esbranquiçado, revestido por película, redondo, biconvexo, com “TMC" 
+gravado num dos lados e “25" no outro lado.
+Um frasco com fecho resistente à abertura por crianças contendo 30 comprimidos revestidos por 
+película.
+Titular da Autorização de Introdução no Mercado
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Bélgica
+Fabricante
+Janssen-Cilag SpA
+Via C. Janssen
+Borgo San Michele
+04100 Latina
+Itália
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD.
+Tel: +356 2397 6000
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+40
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+infojaces@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: +353 1 800 709 122
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ,
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+Este folheto foi revisto pela última vez em {MM/AAAA}.
+Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência 
+Europeia de Medicamentos http://www.ema.europa.eu/.</p>         </div>"""      
+
+
+
 
 
                     
@@ -920,6 +1393,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9601a69cc77fa33a3d0e2e4ba9d747e9"
 * entry[0].resource = composition-da-9601a69cc77fa33a3d0e2e4ba9d747e9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9601a69cc77fa33a3d0e2e4ba9d747e9"
+* entry[=].resource = mp9601a69cc77fa33a3d0e2e4ba9d747e9
+                            
+                    
+Instance: bundlepackageleaflet-pt-9601a69cc77fa33a3d0e2e4ba9d747e9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for edurant Package Leaflet for language pt"
+Description: "ePI document Bundle for edurant Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9601a69cc77fa33a3d0e2e4ba9d747e9"
+* entry[0].resource = composition-pt-9601a69cc77fa33a3d0e2e4ba9d747e9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9601a69cc77fa33a3d0e2e4ba9d747e9"
@@ -1021,6 +1516,18 @@ RuleSet: 9601a69cc77fa33a3d0e2e4ba9d747e9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9601a69cc77fa33a3d0e2e4ba9d747e9) // edurant pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

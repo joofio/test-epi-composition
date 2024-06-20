@@ -1079,6 +1079,624 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-e0ec42c68686885cc176ad73b71e1d80
+InstanceOf: CompositionUvEpi
+Title: "Composition for rivastigmine Package Leaflet"
+Description:  "Composition for rivastigmine Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe0ec42c68686885cc176ad73b71e1d80)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - rivastigmine"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Rivastigmina Sandoz e para que é utilizado 
+2. O que precisa de saber antes de tomar Rivastigmina Sandoz 
+3. Como tomar Rivastigmina Sandoz 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Rivastigmina Sandoz 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é rivastigmine e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é rivastigmine e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A substância ativa de Rivastigmina Sandoz é a rivastigmina. </p>
+<p>Rivastigmina pertence a uma classe de substâncias denominada inibidores da colinesterase. Em 
+doentes com demência de Alzheimer ou demência devido à doença de Parkinson, determinadas células 
+nervosas morrem no cérebro, resultando em baixos níveis do neurotransmissor acetilcolina (uma 
+substância que permite que as células nervosas comuniquem entre si). A rivastigmina bloqueia as 
+enzimas que inibem a acetilcolina: acetilcolinesterase e butirilcolinesterase. Ao bloquear estas 
+enzimas, a Rivastigmina Sandoz permite que os níveis de acetilcolina aumentem no cérebro, ajudando 
+a reduzir os sintomas da doença de Alzheimer e da demência associada à doença de Parkinson. </p>
+<p>Rivastigmina Sandoz utiliza-se para o tratamento de doentes adultos com demência de Alzheimer 
+ligeira a moderadamente grave, um distúrbio cerebral progressivo que afeta gradualmente a memória, 
+as capacidades intelectuais e o comportamento. As cápsulas e a solução oral podem também ser 
+utilizadas para o tratamento de demência em doentes adultos com a doença de Parkinson. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar rivastigmine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar rivastigmine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Rivastigmina Sandoz 
+- se tem alergia à rivastigmina (a substância ativa da Rivastigmina Sandoz) ou a qualquer outro 
+componente deste medicamento (indicados na secção 6). 
+- se tiver tido uma reação cutânea anterior sugestiva de dermatite alérgica de contacto com 
+rivastigmina. </p>
+<p>Se isto se aplicar ao seu caso, informe o seu médico e não tome Rivastigmina Sandoz. </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de tomar Rivastigmina Sandoz 
+- se tem ou tiver tido batimento cardíaco irregular ou lento. </p>
+<ul>
+<li>se tem ou tiver tido uma úlcera no estômago ativa. </li>
+<li>se tem ou tiver tido dificuldades na passagem da urina. </li>
+<li>se tem ou tiver tido convulsões. </li>
+<li>se tem ou tiver tido asma ou doença respiratória grave. </li>
+<li>se tem ou tiver tido a função renal comprometida. </li>
+<li>se tem ou tiver tido a função hepática comprometida. </li>
+<li>se sofre de tremores. </li>
+<li>se tem um peso corporal baixo. </li>
+<li>se sentir reações gastrointestinais tais como enjoos (náuseas), vómitos e diarreia. Poderá ficar 
+desidratado (perder demasiados líquidos) se os vómitos ou a diarreia forem prolongados. </li>
+</ul>
+<p>Se alguma destas situações se aplicar a si, o seu médico pode necessitar de o acompanhar mais 
+regularmente enquanto está a tomar este medicamento. </p>
+<p>Se não tomou Rivastigmina Sandoz durante mais do que três dias, não tome a próxima dose antes de 
+falar com o seu médico. </p>
+<p>Crianças e adolescentes 
+Não existe qualquer utilização relevante de Rivastigmina Sandoz na população pediátrica no 
+tratamento da doença de Alzheimer. </p>
+<p>Outros medicamentos e Rivastigmina Sandoz 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Rivastigmina Sandoz não deve ser administrada simultaneamente com outros medicamentos com 
+efeitos semelhantes a Rivastigmina Sandoz. Rivastigmina Sandoz pode interferir com medicamentos 
+anticolinérgicos (medicamentos utilizados para o alívio de cólicas ou espasmos do estômago, para 
+tratar a doença de Parkinson ou para prevenção do enjoo em viagem). </p>
+<p>Rivastigmina Sandoz não deve ser administrada simultaneamente com metoclopramida (um 
+medicamento utilizado para aliviar ou prevenir as náuseas e os vómitos). Tomar os dois medicamentos 
+em conjunto pode causar problemas, tais como rigidez dos membros e tremores nas mãos. </p>
+<p>Em caso de ter de se submeter a cirurgia enquanto estiver a tomar Rivastigmina Sandoz, informe o seu 
+médico antes de lhe serem administrados anestésicos, porque Rivastigmina Sandoz pode potenciar os 
+efeitos de alguns relaxantes musculares durante a anestesia. </p>
+<p>Proceder com cautela quando Rivastigmina Sandoz é tomada juntamente com bloqueadores beta 
+(medicamentos tais como o atenolol, utilizados para tratar a hipertensão, angina de peito e outros 
+problemas do coração). Tomar os dois medicamentos em conjunto pode causar problemas, tais como 
+abrandamento do batimento cardíaco (bradicardia) que, por sua vez, pode causar desmaios ou perda de 
+consciência. </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Se está grávida, o benefício da utilização de Rivastigmina Sandoz deve ser avaliado relativamente a 
+possíveis efeitos no feto. A Rivastigmina Sandoz não deve ser tomada durante a gravidez, a não ser 
+que seja claramente necessário. </p>
+<p>Não deve amamentar durante o tratamento com Rivastigmina Sandoz  </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+O seu médico irá dizer-lhe se a sua doença lhe permite conduzir veículos ou utilizar máquinas com 
+segurança. Rivastigmina Sandoz pode causar tonturas e sonolência, principalmente no início do 
+tratamento ou quando se aumenta a dose. Se se sentir tonto ou sonolento não conduza, não utilize 
+máquinas, nem execute quaisquer tarefas que exijam a sua atenção. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar rivastigmine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar rivastigmine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Como iniciar o tratamento 
+O seu médico dir-lhe-á qual é a dose de Rivastigmina Sandoz mais adequada para si. </p>
+<ul>
+<li>
+<p>O tratamento é habitualmente iniciado com uma dose baixa. </p>
+</li>
+<li>
+<p>O seu médico irá aumentar gradualmente a sua dose dependendo da sua resposta ao tratamento. </p>
+</li>
+<li>
+<p>A dose mais elevada que deve ser tomada é de 6 mg duas vezes ao dia. </p>
+</li>
+</ul>
+<p>O seu médico irá verificar regularmente se o medicamento está a fazer efeito. O seu médico irá 
+também monitorizar o seu peso durante o tratamento. </p>
+<p>Se não tomou Rivastigmina Sandoz durante mais do que três dias, não tome a próxima dose antes de 
+falar com o seu médico. </p>
+<p>Ao tomar este medicamento </p>
+<ul>
+<li>
+<p>Informe a pessoa que lhe presta cuidados de saúde que está a tomar Rivastigmina Sandoz. </p>
+</li>
+<li>
+<p>Para beneficiar do seu medicamento, deve tomá-lo todos os dias. </p>
+</li>
+<li>
+<p>Tome Rivastigmina Sandoz duas vezes por dia de manhã e à noite, com a comida. </p>
+</li>
+<li>
+<p>Engula as cápsulas inteiras com uma bebida. </p>
+</li>
+<li>
+<p>Não abra nem esmague as cápsulas. </p>
+</li>
+</ul>
+<p>Se tomar mais Rivastigmina Sandoz do que deveria 
+Se tomou acidentalmente mais Rivastigmina Sandoz do que devia, informe o seu médico. Pode 
+necessitar de assistência médica. Algumas pessoas que tomaram acidentalmente uma quantidade 
+excessiva de Rivastigmina Sandoz tiveram enjoos (náuseas), vómitos, diarreia, pressão arterial elevada 
+e alucinações. Podem também ocorrer batimento cardíaco lento e desmaio. </p>
+<p>Caso se tenha esquecido de tomar Rivastigmina Sandoz 
+Se verificar que se esqueceu de tomar uma dose de Rivastigmina Sandoz aguarde e tome a próxima 
+dose à hora habitual. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de 
+tomar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este pode causar efeitos indesejáveis, no entanto estes não se 
+manifestem em todas as pessoas. </p>
+<p>Poderá ter efeitos indesejáveis com mais frequência quando inicia o seu medicamento ou quando a sua 
+dose é aumentada. Normalmente, os efeitos indesejáveis irão desaparecer gradualmente, assim que o 
+seu organismo se habituar ao medicamento. </p>
+<p>Muito frequentes (poderão afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Perda de apetite </p>
+</li>
+<li>
+<p>Problemas de estômago tais como enjoos (náuseas) ou vómitos, diarreia </p>
+</li>
+</ul>
+<p>Frequentes (poderão afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Ansiedade </p>
+</li>
+<li>
+<p>Transpiração </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Azia </p>
+</li>
+<li>
+<p>Perda de peso </p>
+</li>
+<li>
+<p>Dores de estômago </p>
+</li>
+<li>
+<p>Agitação </p>
+</li>
+<li>
+<p>Sensação de fadiga ou fraqueza </p>
+</li>
+<li>
+<p>Sensação geral de mal-estar </p>
+</li>
+<li>
+<p>Tremores ou confusão </p>
+</li>
+<li>
+<p>Diminuição do apetite </p>
+</li>
+<li>
+<p>Pesadelos </p>
+</li>
+</ul>
+<p>Pouco frequentes (poderão afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Depressão </p>
+</li>
+<li>
+<p>Dificuldade em dormir </p>
+</li>
+<li>
+<p>Desmaio ou quedas acidentais </p>
+</li>
+<li>
+<p>Alterações do funcionamento do fígado </p>
+</li>
+</ul>
+<p>Raros (poderão afetar até 1 em 1000 pessoas) </p>
+<ul>
+<li>
+<p>Dor no peito </p>
+</li>
+<li>
+<p>Erupção na pele, comichão </p>
+</li>
+<li>
+<p>Crises epiléticas (ataques ou convulsões) </p>
+</li>
+<li>
+<p>Úlceras no estômago ou intestino </p>
+</li>
+</ul>
+<p>Muito raros (poderão afetar até 1 em 10 000 pessoas) </p>
+<ul>
+<li>
+<p>Pressão arterial elevada </p>
+</li>
+<li>
+<p>Infeções do trato urinário </p>
+</li>
+<li>
+<p>Ver coisas que não existem (alucinações) </p>
+</li>
+<li>
+<p>Problemas com o ritmo cardíaco (ritmo cardíaco rápido ou lento) </p>
+</li>
+<li>
+<p>Hemorragia gastrointestinal (sangue nas fezes ou ao vomitar) </p>
+</li>
+<li>
+<p>Inflamação do pâncreas (os sinais incluem dor forte na parte superior do estômago, 
+frequentemente acompanhada de náuseas e vómitos) </p>
+</li>
+<li>
+<p>Os sinais da doença de Parkinson agravam-se ou desenvolvem-se sintomas semelhantes (rigidez 
+muscular, dificuldade em efetuar movimentos) </p>
+</li>
+</ul>
+<p>Desconhecido (não pode ser calculado a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>Vómitos muito intensos que podem levar à rutura do tubo que liga a boca ao estômago 
+(esófago) </p>
+</li>
+<li>
+<p>Desidratação (perder demasiados líquidos) </p>
+</li>
+<li>
+<p>Problemas de fígado (pele amarela, amarelecimento da parte branca dos olhos, escurecimento 
+anormal da urina ou náuseas, vómitos, cansaço ou falta de apetite inexplicáveis) </p>
+</li>
+<li>
+<p>Agressividade, agitação </p>
+</li>
+<li>
+<p>Batimento cardíaco irregular </p>
+</li>
+</ul>
+<p>Doentes com demência associada à doença de Parkinson 
+Estes doentes têm alguns efeitos indesejáveis com mais frequência. Estes doentes também têm alguns 
+efeitos indesejáveis adicionais: </p>
+<p>Muito frequentes (poderão afetar mais do que 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Tremores </p>
+</li>
+<li>
+<p>Desmaio </p>
+</li>
+<li>
+<p>Queda acidental </p>
+</li>
+</ul>
+<p>Frequentes (poderão afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Ansiedade </p>
+</li>
+<li>
+<p>Agitação </p>
+</li>
+<li>
+<p>Ritmo cardíaco rápido e lento </p>
+</li>
+<li>
+<p>Dificuldade em dormir </p>
+</li>
+<li>
+<p>Aumento da secreção de saliva e desidratação </p>
+</li>
+<li>
+<p>Movimentos muito lentos ou involuntários </p>
+</li>
+<li>
+<p>Agravamento dos sinais da doença de Parkinson ou desenvolvimento de sinais semelhantes - 
+tais como rigidez muscular, dificuldade em efetuar movimentos e fraqueza muscular </p>
+</li>
+</ul>
+<p>Pouco frequentes (poderão afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>Batimento cardíaco irregular e controlo insuficiente dos movimentos  </li>
+</ul>
+<p>Outros efeitos indesejáveis observados com adesivos transdérmicos e que podem ocorrer 
+durante o tratamento com as cápsulas duras: </p>
+<p>Frequentes (poderão afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Febre </p>
+</li>
+<li>
+<p>Confusão grave </p>
+</li>
+<li>
+<p>Incontinência urinária (incapacidade de reter urina adequadamente) </p>
+</li>
+</ul>
+<p>Pouco frequentes (poderão afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>Hiperatividade (elevado nível de atividade, inquietação) </li>
+</ul>
+<p>Desconhecido (não pode ser calculado a partir dos dados disponíveis) </p>
+<ul>
+<li>Reação alérgica no local onde o adesivo foi utilizado, como bolhas ou inflamação da pele </li>
+</ul>
+<p>Se tiver algum destes sintomas, contacte o seu médico pois pode necessitar de assistência médica. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar rivastigmine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar rivastigmine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize Rivastigmina Sandoz após o prazo de validade impresso no blister, no frasco e na 
+embalagem exterior após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>
+<p>Não conservar acima de 30°C. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Rivastigmina Sandoz 
+- A substância ativa é a rivastigmina. 
+- Os outros componentes são: hipromelose, estearato de magnésio, celulose microcristalina, sílica 
+coloidal anidra, gelatina, óxido de ferro amarelo, óxido de ferro vermelho, dióxido de titânio e 
+goma laca. </p>
+<p>Cada cápsula de Rivastigmina Sandoz 1,5 mg contém 1,5 mg de rivastigmina. 
+Cada cápsula de Rivastigmina Sandoz 3 mg contém 3 mg de rivastigmina. 
+Cada cápsula de Rivastigmina Sandoz 4,5 mg contém 4,5 mg de rivastigmina. 
+Cada cápsula de Rivastigmina Sandoz 6 mg contém 6 mg de rivastigmina. </p>
+<p>Qual o aspeto de Rivastigmina Sandoz e conteúdo da embalagem 
+- Rivastigmina Sandoz 1,5 mg cápsulas duras, que contêm um pó esbranquiçado a ligeiramente 
+amarelo, têm uma tampa e corpo amarelos, com a expressão “RIV 1,5 mg" impressa no corpo 
+da cápsula com tinta vermelha. </p>
+<ul>
+<li>
+<p>Rivastigmina Sandoz 3 mg cápsulas duras, que contêm um pó esbranquiçado a ligeiramente 
+amarelo, têm uma tampa e corpo cor de laranja, com a expressão “RIV 3 mg" impressa no 
+corpo da cápsula com tinta vermelha. </p>
+</li>
+<li>
+<p>Rivastigmina Sandoz 4,5 mg cápsulas duras, que contêm um pó esbranquiçado a ligeiramente 
+amarelo, têm uma tampa e corpo vermelhos, com a expressão “RIV 4,5 mg" impressa no corpo 
+da cápsula com tinta branca. </p>
+</li>
+<li>
+<p>Rivastigmina Sandoz 6 mg cápsulas duras, que contêm um pó esbranquiçado a ligeiramente 
+amarelo, têm uma tampa vermelha e corpo cor de laranja, com a expressão “RIV 6 mg" 
+impressa no corpo da cápsula com tinta vermelha. </p>
+</li>
+</ul>
+<p>As cápsulas estão acondicionadas em blister, disponíveis em três apresentações diferentes (28, 56 e 
+112 cápsulas), mas nem todas poderão estar disponíveis no seu país. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Sandoz GmbH 
+Biochemiestraße A-6250 Kundl<br />
+Áustria </p>
+<p>Fabricante 
+Novartis Farmacéutica, S.A.<br />
+Gran Via de les Corts Catalanes, 08013 Barcelona<br />
+Espanha </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberg 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Sandoz N.V. 
+Telecom Gardens, Medialaan B-1800 Vilvoorde 
+Tél/Tel: + 32 (0)2 722 97<br />
+Luxembourg/Luxemburg 
+Sandoz N.V. 
+Telecom Gardens, Medialaan B 1800 Vilvoorde 
+Tél/Tel: + 32 (0)2 722 97<br />
+България 
+Сандоз България КЧТ 
+Teл.: + 359 2 970 47 regaffairs.bg@sandoz.com </p>
+<p>Magyarország 
+Sandoz Hungária Kft. 
+Bartók Béla út 43-H-1114 Budapest 
+Tel.: + 36 1 430 2E-mail: info.hungary@sandoz.com </p>
+<p>Česká republika 
+Sandoz s.r.o. 
+Na Pankráci 1724/CZ-14000 Praha 4 - Nusle 
+E-mail: office.cz@sandoz.com 
+Tel: +420 225 775<br />
+Malta 
+Sandoz Pharmaceuticals d.d. 
+Tel: +35699644Danmark 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 København S 
+Danmark 
+Tlf: +45 6395 1info.danmark@sandoz.com </p>
+<p>Nederland 
+Sandoz B.V. 
+Veluwezoom 22<br />
+NL-1327 AH Almere 
+Tel: + 31 36 5241E-mail: info.sandoz-nl@sandoz.com </p>
+<p>Deutschland 
+Hexal AG 
+Industriestraße D-83607 Holzkirchen 
+Tel: + 49 8024 908 0 
+E-mail: service@hexal.com </p>
+<p>Norge 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 København S 
+Danmark 
+Tlf: +45 6395 1info.norge@sandoz.com </p>
+<p>Eesti 
+Sandoz d.d. Eesti filiaal 
+Pärnu mnt EE-11312 Tallinn 
+Tel: +372 6652 
+Österreich 
+Sandoz GmbH 
+Biochemiestrasse A-6250 Kundl 
+Tel: + 43 (0)53382 
+Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17 Polska 
+Sandoz Polska Sp.z o.o. 
+ul. Domaniewska 50 C 
+PL-02-672 Warszawa 
+Tel: + 48 22 549 15<br />
+España 
+Sandoz Farmacéutica, S.A<br />
+Centro Empresarial Parque Norte 
+Edificio Roble 
+C/ Serrano Galvache Nº 56,<br />
+28033 Madrid 
+Tel: +34 900 456 registros.spain@sandoz.com 
+Portugal 
+Sandoz Farmacêutica Lda. 
+Avenida Professor Doutor Cavaco Silva, n.º 10E 
+Taguspark 
+2740-255 Porto Salvo 
+Portugal 
+Tel: +351 211 964  </p>
+<p>France 
+Sandoz SAS 
+49, avenue Georges Pompidou 
+F-92593 Levallois-Perret Cedex 
+Tél: + 33 1 4964 4 
+România 
+Sandoz S.R.L. 
+Str Livezeni nr. 7A,<br />
+Târgu Mureș, 540472<br />
+România 
+Tel: +40 21 310 44<br />
+Ireland 
+Rowex Ltd. 
+Newtown 
+IE-Bantry Co. Cork 
+P75 VTel: +353 27 50Slovenija 
+Lek Pharmaceuticals d.d. 
+Verovśkova SI-1526 Ljubljana 
+Tel: + 386 1 5802E-mail: info.lek@sandoz.com </p>
+<p>Ísland 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 Kaupmaannahöfn S 
+Danmörk 
+Tlf: +45 6395 1info.danmark@sandoz.com </p>
+<p>Slovenská republika 
+Sandoz d.d. - organizačná zložka 
+Žižkova 22B 
+SK-811 02 Bratislava 
+Tel: +421 2 48 200 Italia 
+Sandoz S.p.a<br />
+Largo Umberto Boccioni 1 
+I-21040 Origgio (VA) 
+Tel: + 39 02 96 
+Suomi/Finland 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 Kööpenhamina S/Köpenhamn S 
+Danmark 
+Puh: +358 010 6133 info.suomi@sandoz.com </p>
+<p>Κύπρος 
+Sandoz Pharmaceuticals d.d. 
+Τηλ: +357 22 69 0 
+Sverige 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 Köpenhamn S 
+Danmark 
+Tel: +45 6395 1info.sverige@sandoz.com </p>
+<p>Latvija 
+Sandoz d.d. Latvia filiāle 
+K.Valdemāra Str. 33 - LV-1010 Riga 
+Tel: + 371 67892 </p>
+<p>United Kingdom (Northern Ireland) 
+Sandoz Ltd 
+Frimley Business Park 
+Frimley Camberley Surrey GU16 7SR 
+Tel: +44 1276 69 8E-mail: uk.drugsafety@sandoz.com </p>
+<p>Lietuva 
+Sandoz Pharmaceuticals d.d., Branch Office 
+Lithuania 
+Seimyniskiu Str. 3A 
+LT-09312 Vilnius 
+Tel: + 370 5 2636 
+Hrvatska 
+Sandoz d.o.o. 
+Maksimirska 10 000 Zagreb 
+Tel: +38512353E-mail: upit.croatia@sandoz.com </p>
+<p>Este folheto foi revisto pela última vez em<br />
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1120,6 +1738,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-e0ec42c68686885cc176ad73b71e1d80"
 * entry[0].resource = composition-da-e0ec42c68686885cc176ad73b71e1d80
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe0ec42c68686885cc176ad73b71e1d80"
+* entry[=].resource = mpe0ec42c68686885cc176ad73b71e1d80
+                            
+                    
+Instance: bundlepackageleaflet-pt-e0ec42c68686885cc176ad73b71e1d80
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rivastigmine Package Leaflet for language pt"
+Description: "ePI document Bundle for rivastigmine Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-e0ec42c68686885cc176ad73b71e1d80"
+* entry[0].resource = composition-pt-e0ec42c68686885cc176ad73b71e1d80
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpe0ec42c68686885cc176ad73b71e1d80"
@@ -1221,6 +1861,18 @@ RuleSet: e0ec42c68686885cc176ad73b71e1d80ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-e0ec42c68686885cc176ad73b71e1d80) // rivastigmine pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

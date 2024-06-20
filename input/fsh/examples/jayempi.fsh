@@ -1229,6 +1229,531 @@ det sikres, at den rigtige mængde administreres. </p>         </div>"""
 
 
 
+Instance: composition-pt-29e53310e209535224a929c7efb5c5b7
+InstanceOf: CompositionUvEpi
+Title: "Composition for jayempi Package Leaflet"
+Description:  "Composition for jayempi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp29e53310e209535224a929c7efb5c5b7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - jayempi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Jayempi e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Jayempi  </li>
+<li>Como tomar Jayempi  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Jayempi </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é jayempi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é jayempi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jayempi 10 mg/ml suspensão oral contém a substância ativa azatioprina. Pertence a um grupo de 
+medicamentos denominado «imunossupressores». 
+Estes medicamentos reduzem a atividade do seu sistema imunitário (as defesas do organismo). </p>
+<p>Jayempi é utilizado para: </p>
+<ul>
+<li>
+<p>Evitar que o seu corpo rejeite um transplante de órgãos. Jayempi é geralmente utilizado em 
+associação com outros imunossupressores para este fim. </p>
+</li>
+<li>
+<p>Tratar algumas doenças crónica em que o sistema imunitário está a reagir contra o seu corpo. 
+Jayempi é geralmente utilizado em associação com esteroides ou outros medicamentos anti-
+inflamatórios. Estas doenças incluem: </p>
+</li>
+<li>Artrite reumatoide grave ou poliartrite crónica (inflamação crónica prolongada de múltiplas 
+articulações) que não pode ser controlada com outros medicamentos; </li>
+<li>Doenças inflamatórias intestinais crónicas (doenças do intestino, tais como a doença de 
+Crohn e a colite ulcerosa); </li>
+<li>Hepatite crónica (hepatite autoimune), uma doença do fígado; </li>
+<li>Lúpus eritematoso sistémico (uma doença em que o sistema imunitário ataca diferentes 
+órgãos); </li>
+<li>Dermatomiosite (agravamento da inflamação muscular acompanhada de erupção cutânea); </li>
+<li>Poliarterite nodosa (inflamação dos vasos sanguíneos); </li>
+<li>Pênfigo vulgar e pênfigo bolhoso (doenças de formação de bolhas na pele); </li>
+<li>Doença de Behçet (inflamação recorrente, especialmente dos olhos e das membranas 
+mucosas orais e genitais); </li>
+<li>Anemia hemolítica autoimune refratária (uma doença do sangue na qual os glóbulos 
+vermelhos são destruídos); </li>
+<li>
+<p>Púrpura trombocitopénica idiopática refratária crónica (hemorragia sob a pele devido a danos 
+nas plaquetas e redução do seu número). </p>
+</li>
+<li>
+<p>Tratar a esclerose múltipla recidivante. </p>
+</li>
+<li>
+<p>Tratar a miastenia gravis generalizada (uma doença que afeta os nervos e provoca fraqueza 
+muscular). Em alguns casos, Jayempi é administrado com um esteroide no início do tratamento. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar jayempi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar jayempi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Jayempi </p>
+<ul>
+<li>se tem alergia à azatioprina, outro medicamento denominado mercaptopurina, ou qualquer 
+outro componente deste medicamento (indicados na secção 6); </li>
+<li>se estiver a amamentar; </li>
+<li>se foi vacinado recentemente com uma vacina viva, tal como da tuberculose (BCG), varicela, 
+SPR ou febre amarela. </li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Jayempi: 
+- se tem uma infeção grave; 
+- se tem uma doença grave do fígado; 
+- se tem uma doença da medula óssea ou do pâncreas; 
+- se sofre de uma doença conhecida como síndrome de Lesch-Nyhan (deficiência hereditária da 
+enzima hipoxantina-guanina fosforibosiltransferase); 
+- se tem uma doença em que o seu organismo produz muito pouco de uma enzima denominada 
+tiopurina metiltransferase (TPMT); 
+- se está a tomar medicamentos como a messalazina, a olsalazina ou a sulfassalazina (para o 
+tratamento da doença inflamatória intestinal); 
+- se toma medicamentos que afetam a função da medula óssea (para a produção de células 
+sanguíneas), tais como a penicilamina e medicamentos citotóxicos. </p>
+<p>Se detetar nódoas negras ou hemorragias inexplicáveis durante o tratamento ou se tiver sinais de 
+infeção, contacte imediatamente o seu médico. </p>
+<p>Infeções </p>
+<p>O tratamento com Jayempi aumenta o risco de infeções e as infeções podem tornar-se mais graves (ver 
+também a secção 4). 
+Uma vez que a varicela (causada pelo vírus varicela zoster VZV) pode ser grave quando estiver a 
+tomar Jayempi, deve evitar qualquer contacto com pessoas que tenham varicela (varicela) ou zona 
+(herpes zoster). 
+Informe o seu médico se entrar em contacto com alguém que tenha varicela ou zona. 
+O seu médico decidirá se necessita de tratamento antiviral e se deve interromper o tratamento com 
+Jayempi. </p>
+<p>Análises sanguíneas </p>
+<p>Necessitará de fazer análises ao sangue para verificar a sua contagem de células sanguíneas, pelo 
+menos, uma vez por semana durante as primeiras 8 semanas de tratamento. Poderá necessitar de fazer 
+análises ao sangue com maior frequência se: </p>
+<ul>
+<li>estiver a tomar doses elevadas de Jayempi; </li>
+<li>for idoso; </li>
+<li>tiver uma doença do fígado ou dos rins. </li>
+</ul>
+<p>Após 8 semanas, o seu hemograma deve ser verificado uma vez por mês ou, pelo menos, a cada em 
+3 meses. </p>
+<p>Mutação do gene NUDTSe herdou uma mutação do gene NUDT15 (um gene que está envolvido na decomposição da 
+azatioprina no organismo), tem um risco mais elevado de infeções e queda de cabelo e o seu médico 
+pode, neste caso, receitar-lhe uma dose mais baixa. 
+O seu médico pode também pedir-lhe para fazer um teste para verificar se o seu organismo será capaz 
+de decompor este medicamento. O seu médico poderá alterar a sua dose após estes testes. </p>
+<p>Tomar Jayempi pode aumentar o seu risco de: </p>
+<ul>
+<li>desenvolver uma doença grave denominada síndrome de ativação macrofágica (ativação 
+excessiva dos glóbulos brancos associada a inflamação), que ocorre geralmente em pessoas que 
+sofrem de determinados tipos de artrite; </li>
+<li>desenvolver tumores, especialmente se estiver a receber terapêutica imunossupressora em doses 
+elevadas ou durante muito tempo; </li>
+<li>desenvolver cancros, tais como o cancro da pele causado pela exposição ao sol. Assim, deve 
+evitar uma exposição desnecessária à luz solar e à luz UV, utilizar roupa que o proteja e protetor 
+solar (fator de proteção solar (FPS) mínimo de 30); </li>
+<li>doenças linfoproliferativas (quando o organismo produz glóbulos brancos denominados 
+linfócitos de forma descontrolada); 
+com tratamentos que incluem vários imunossupressores (incluindo as tiopurinas, como a 
+azatioprina), a doença pode levar à morte; </li>
+<li>infeções virais do sistema linfático (doenças linfoproliferativas relacionadas com o vírus 
+Epstein-Barr), especialmente se forem administrados vários imunossupressores ao mesmo 
+tempo. </li>
+</ul>
+<p>Outros medicamentos e Jayempi </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto deve-se ao facto de Jayempi poder afetar a forma como alguns 
+medicamentos funcionam. Além disso, outros medicamentos podem afetar a forma como Jayempi 
+funciona: </p>
+<ul>
+<li>Ribavirina, utilizada para tratar infeções virais </li>
+<li>Alopurinol, oxipurinol ou tiopurinol ou outros inibidores da xantina-oxidase, tais como o 
+febuxostate (utilizado principalmente no tratamento da gota) </li>
+<li>Messalazina, olsalazina e sulfassalazina (tratamentos para a doença inflamatória intestinal 
+crónica, como a doença de Crohn) </li>
+<li>Anticoagulantes, tais como a varfarina </li>
+<li>Inibidores da ECA (tais como o enalapril, o lisinopril, o perindopril e o ramipril, tratamentos 
+para a pressão arterial elevada ou insuficiência cardíaca) </li>
+<li>Trimetoprim com sulfametoxazol (antibiótico) </li>
+<li>Cimetidina (tratamento para úlceras do trato digestivo) </li>
+<li>Indometacina (tratamento da artrite reumatoide) </li>
+<li>Penicilamina (utilizada principalmente no tratamento da artrite reumatoide) </li>
+<li>Medicamentos citotóxicos (para tratar tumores, tais como o metotrexato) </li>
+<li>A vacinação com vacinas vivas durante o tratamento com Jayempi pode ser prejudicial e deve 
+ser evitada. </li>
+<li>Atracúrio ou cloreto de suxametónio utilizados como relaxantes musculares em cirurgias. </li>
+<li>Infliximab (utilizado no tratamento de doenças inflamatórias, tais como a artrite reumatoide, a 
+colite ulcerosa, a doença de Crohn e a psoríase) </li>
+</ul>
+<p>Antes de uma operação, informe o seu médico de que está a tomar azatioprina porque os 
+relaxantes musculares utilizados durante a anestesia podem interagir com a azatioprina. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>As mulheres que tomam Jayempi ou as parceiras sexuais de homens que tomam Jayempi não devem 
+engravidar durante o tratamento e por 6 meses após o tratamento. Tanto os homens como as mulheres 
+que tomam Jayempi devem utilizar um método contracetivo eficaz durante o tratamento e por 6 meses 
+após o tratamento. Os dispositivos intrauterinos não são adequados para a contraceção em mulheres a 
+tomar Jayempi (ou em mulheres cujos parceiros masculinos estejam a tomar Jayempi). </p>
+<p>Se planeia engravidar, consulte o seu médico. 
+Se está grávida, só deve tomar Jayempi se o seu médico o indicar. Caso esteja grávida ou pensa 
+estar grávida, deve informar imediatamente o seu médico. </p>
+<p>Podem ocorrer alterações nas contagens sanguíneas em recém-nascidos de mães que receberam 
+azatioprina durante a gravidez. Recomenda-se a realização de análises regulares das contagens 
+sanguíneas durante a gravidez. </p>
+<p>Não amamentar durante a terapêutica com Jayempi. Tal deve-se ao facto de pequenas quantidades 
+poderem passar para o leite materno. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza ou utilize máquinas caso se sinta afetado ou com tonturas enquanto estiver a tomar este 
+medicamento. </p>
+<p>Jayempi contém benzoato de sódio (E211) 
+Este medicamento contém 1,5 mg de benzoato de sódio (E211) por ml. O benzoato de sódio pode 
+aumentar a icterícia (amarelecimento da pele e dos olhos) em recém-nascidos (até 4 semanas de 
+idade). </p>
+<p>Jayempi contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+«isento de sódio». </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar jayempi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar jayempi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Dose </p>
+<p>A dose de Jayempi depende do seu peso, da doença a tratar, do seu controlo e da sua saúde geral. O 
+seu médico irá determinar a dose adequada para si e poderá ajustá-la durante o tratamento. O seu 
+médico informá-lo-á da duração do seu tratamento. </p>
+<p>Para prevenir a rejeição de órgãos após o transplante, a dose inicial habitual é de 5 mg por kg do seu 
+peso por dia e, após algumas semanas ou meses, a dose é reduzida para entre 1 e 4 mg por kg do seu 
+peso por dia. 
+A dose para outras doenças situa-se geralmente entre 1 e 3 mg por kg do seu peso por dia. </p>
+<p>Doença renal/do fígado 
+A sua dose pode ser reduzida se tiver uma doença dos rins ou do fígado. </p>
+<p>Utilização em crianças 
+A dose para crianças e adolescentes é igual à dose para adultos. 
+A segurança e eficácia da azatioprina em crianças não foram ainda estabelecidas para o tratamento da 
+inflamação articular crónica (artrite idiopática juvenil) e da esclerose múltipla. Por conseguinte, não se 
+recomenda a utilização de Jayempi para estas doenças em crianças. </p>
+<p>Utilização em doentes idosos 
+Pode ser necessária uma dose reduzida. </p>
+<p>Jayempi com alimentos e bebidas </p>
+<p>Jayempi deve ser tomado, pelo menos, 1 hora antes ou 2 horas depois de uma refeição ou ingestão de 
+leite. Fale com o seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>Deve beber um pouco de água após cada dose de Jayempi. Isto ajuda a assegurar que a dose total do 
+medicamento entra no seu sistema digestivo. </p>
+<p>Manuseamento </p>
+<p>A sua embalagem contém um frasco de 200 ml de medicamento, uma tampa, um adaptador de frasco e 
+duas seringas doseadoras (uma seringa de 3 ml e uma seringa de 10 ml). Utilize sempre as seringas 
+fornecidas para tomar o seu medicamento. </p>
+<ul>
+<li>A seringa para uso oral de 3 ml mais pequena é marcada de 0,5 ml a 3 ml com graduações 
+menores de 0,1 ml. É utilizada para medir doses até 30 mg, com aumentos de 1 mg (0,1 ml). </li>
+</ul>
+<p>Por exemplo: 
+- se a dose receitada for de 14 mg, utilize a seringa de 3 ml e extraia um volume de 1,4 ml. 
+- se a dose receitada for de 26 mg, utilize a seringa de 3 ml e extraia um volume de 2,6 ml. </p>
+<ul>
+<li>A seringa para uso oral de 10 ml maior é marcada de 1 ml a 10 ml com graduações menores de 
+0,25 ml. É utilizada para medir doses superiores a 30 mg, em aumentos de 2,5 mg (0,25 ml). </li>
+</ul>
+<p>Por exemplo: 
+- se a dose receitada for de 32 mg, utilize a seringa de 10 ml e extraia um volume de 3,25 ml. 
+- se a dose receitada for de 54 mg, utilize a seringa de 10 ml e extraia um volume de 5,5 ml. 
+- se a dose receitada for de 140 mg, utilize a seringa de 10 ml duas vezes para extrair uma 
+dose de 10,0 ml seguida de 4,0 ml (14 ml no total). </p>
+<p>É importante que utilize a seringa doseadora correta para o seu medicamento. O seu médico ou 
+farmacêutico indicar-lhe-á qual a seringa a utilizar, dependendo da dose que lhe foi receitada </p>
+<p>Se estiver a tomar ou a administrar o medicamento a uma criança ou a outra pessoa, lave as mãos antes 
+e depois. Limpe imediatamente quaisquer derrames. Para diminuir o risco de entrar em contacto com o 
+medicamento, utilize luvas descartáveis sempre que manusear Jayempi. 
+Se Jayempi entrar em contacto com a pele, os olhos ou as mucosas, lave a área imediata e 
+meticulosamente com água e sabão. </p>
+<p>Quando utilizar o medicamento, siga as instruções seguintes: </p>
+<p>Figura 1 
+Figura 2 
+Figura 3 
+Figura 4 
+Figura 5 </p>
+<ol>
+<li>Coloque luvas descartáveis antes de manusear Jayempi. </li>
+<li>Agite o frasco para misturar bem o medicamento (figura 1). </li>
+<li>Retire a tampa do frasco (figura 2) e aplique firmemente o adaptador no topo do frasco e deixe-
+o colocado para futuras doses (figura 3). </li>
+<li>Introduza a extremidade da seringa doseadora no orifício do adaptador (figura 4). O seu médico 
+ou farmacêutico indicar-lhe-á qual a seringa correta a utilizar. </li>
+<li>Vire o frasco ao contrário (figura 5). </li>
+<li>Puxe o êmbolo da seringa para trás para que o medicamento seja retirado do frasco para a 
+seringa.  Puxe o êmbolo para trás até ao ponto na escala que corresponde à dose receitada 
+(figura 5). Se tiver dúvidas quanto à quantidade de medicamento a retirar para a seringa, 
+aconselhe-se sempre com o seu médico ou enfermeiro. </li>
+<li>Vire o frasco para ficar direito e, com cuidado, retire a seringa do adaptador, segurando-a pelo 
+corpo e não pelo êmbolo. </li>
+<li>Coloque suavemente a ponta da seringa no interior da boca, na parte de dentro da bochecha. </li>
+<li>Lenta e cuidadosamente, empurre o êmbolo para baixo para introduzir suavemente o 
+medicamento na parte de dentro da bochecha e engula-o. NÃO empurre o êmbolo à força para 
+baixo, nem esguiche o medicamento para a parte de trás da boca ou da garganta, pois poderá 
+engasgar-se. </li>
+<li>Retire a seringa da boca. </li>
+<li>Engula a dose de suspensão oral e beba um pouco de água, certificando-se de que não ficam 
+resíduos do medicamento na boca. </li>
+<li>Coloque de novo a tampa no frasco, deixando ficar o adaptador colocado. Certifique-se de que a 
+tampa está bem fechada. </li>
+<li>Lave a seringa com água fria ou morna da torneira e enxague bem. Segure na seringa debaixo de 
+água e mova o êmbolo para cima e para baixo várias vezes, para garantir que o interior da 
+seringa fica limpo. Deixe a seringa secar na totalidade, antes de a utilizar de novo para tomar a 
+dose seguinte. Conserve a seringa num local limpo, juntamente com o medicamento. </li>
+</ol>
+<p>Repita os passos acima para cada dose, de acordo com as instruções do seu médico ou farmacêutico. </p>
+<p>Se tomar mais Jayempi do que deveria </p>
+<p>Se tomar mais Jayempi do que deveria, fale com o seu médico ou dirija-se imediatamente a um 
+hospital. Leve a embalagem do medicamento consigo. </p>
+<p>O efeito mais provável de sobredosagem é a supressão da medula óssea, atingindo o seu máximo 9-
+14 dias após a administração. </p>
+<p>A supressão da medula óssea reduz as contagens sanguíneas e, em casos graves, provoca infeções 
+perigosas e outros efeitos graves. Alguns sintomas de supressão da medula óssea incluem sensação de 
+cansaço, úlceras na boca e na garganta, febre e infeção, e nódoas negras e hemorragias inexplicáveis. </p>
+<p>Caso se tenha esquecido de tomar Jayempi </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Tome a dose 
+seguinte como habitualmente. 
+Caso se tenha esquecido de tomar mais do que uma dose, fale com o seu médico. </p>
+<p>Se parar de tomar Jayempi </p>
+<p>O tratamento com Jayempi deve estar sempre sob vigilância médica rigorosa. Fale com o seu médico 
+se quiser interromper ou parar o tratamento. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Se apresentar algum dos seguintes efeitos indesejáveis graves, pare de tomar Jayempi e fale com 
+o seu médico ou dirija-se imediatamente ao hospital: </p>
+<ul>
+<li>Reação alérgica, os sinais podem incluir: 
+cansaço geral, tonturas, sensação de enjoo (náuseas), enjoo (vómitos) ou diarreia, temperatura 
+elevada (febre), tremores ou arrepios, vermelhidão da pele, nódulos na pele ou erupção cutânea, 
+dor nos músculos ou nas articulações, alterações na cor da urina (problemas nos rins), confusão, 
+sensação de atordoamento ou fraqueza (causada por pressão arterial baixa). </li>
+</ul>
+<p>Se apresentar algum dos seguintes efeitos indesejáveis graves, fale com o seu médico ou dirija-se 
+imediatamente ao hospital: </p>
+<ul>
+<li>febre ou deteta quaisquer sinais de infeção, tais como dor de cabeça e dores no corpo, tosse ou 
+dificuldade em respirar (semelhante a uma infeção no peito) </li>
+<li>se entrar em contacto com alguém que sofra de varicela ou zona </li>
+<li>deteta qualquer um dos seguintes: fezes escuras, sangue nas fezes, dor abdominal ou 
+amarelecimento da pele e da parte branca dos olhos </li>
+<li>forma nódoas negras com facilidade ou detetar qualquer hemorragia fora do normal </li>
+<li>sente-se extremamente cansado </li>
+<li>deteta nódulos em qualquer parte do seu corpo </li>
+<li>deteta quaisquer alterações na sua pele, por ex., bolhas ou descamação </li>
+<li>o seu estado de saúde piorou de repente </li>
+</ul>
+<p>Os outros efeitos indesejáveis incluem: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>Redução da função da medula óssea, que pode fazê-lo sentir-se mal ou aparecer nas suas 
+análises ao sangue 
+A supressão da função da medula óssea geralmente volta ao normal quando a dose é ajustada. 
+Os sinais de função anormal da medula óssea podem ser: aumento da suscetibilidade a infeções, 
+úlceras na boca e na garganta, aumento de hemorragias, cansaço e mau desempenho mental e 
+físico </li>
+<li>Nível baixo de glóbulos brancos nas suas análises ao sangue (leucopenia), o que pode causar 
+infeções </li>
+<li>Infeções em recetores de transplante que tomam Jayempi em associação com outros 
+imunossupressores </li>
+</ul>
+<p>Frequentes (podem afetar 1 em cada 10 pessoas) </p>
+<ul>
+<li>Nível baixo de plaquetas no sangue (trombocitopenia), o que pode causar nódoas negras ou 
+hemorragias facilmente </li>
+<li>Náuseas, ocasionalmente combinadas com vómitos </li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>Nível baixo de glóbulos vermelhos (anemia), o que pode fazer com que se sinta cansado, com 
+dores de cabeça, falta de fôlego durante o exercício, com tonturas e palidez </li>
+<li>Inflamação do pâncreas, especialmente em recetores de transplante e em doentes com doença 
+inflamatória intestinal </li>
+<li>Infeções em doentes que não receberam outros imunossupressores em associação com 
+azatioprina </li>
+<li>Reações de hipersensibilidade. Em casos muito raros, ocorreram reações de hipersensibilidade 
+fatais </li>
+<li>Problemas de fígado, que podem causar fezes claras, urina escura, comichão e amarelecimento 
+da pele e dos olhos </li>
+<li>Congestão biliar </li>
+<li>Agravamento dos valores da função do fígado </li>
+</ul>
+<p>As lesões hepáticas e a congestão biliar são dependentes da dose e geralmente diminuem após a 
+descontinuação do tratamento. </p>
+<p>Raros (podem afetar até 1 em cada 1000 pessoas) </p>
+<ul>
+<li>Vários tipos de cancro, incluindo cancro do sangue, linfático e da pele (doenças malignas do 
+sistema sanguíneo, tais como leucemias mieloides agudas e mielodisplasias, que são típicas da 
+supressão do sistema imunitário) </li>
+<li>Insuficiência da medula óssea que resulta na redução do número de determinados glóbulos 
+brancos ou vermelhos (agranulocitose, anemia aplástica), de todas células sanguíneas 
+(pancitopenia), aumento da ocorrência de glóbulos vermelhos imaturos anormais e 
+invulgarmente grandes (anemia megaloblástica) e de pequenos glóbulos vermelhos no sangue 
+Embora as alterações na contagem sanguínea ocorram geralmente no início da terapêutica, estas 
+também podem ocorrer mais tarde, durante a terapêutica. Por conseguinte, recomenda-se uma 
+verificação regular da contagem de células sanguíneas, mesmo para doentes que permanecem 
+estáveis, durante o tratamento a longo prazo </li>
+<li>Lesões hepáticas graves que podem ser fatais, especialmente em doentes transplantados que 
+recebem tratamento prolongado 
+Em alguns casos, a interrupção do tratamento com Jayempi pode melhorar os sintomas </li>
+<li>Queda de cabelo. Em muitos casos, pode melhorar mesmo que continue a tomar azatioprina. A 
+relação entre a queda de cabelo e a utilização de azatioprina não é clara </li>
+</ul>
+<p>Muito raros (podem afetar até 1 em cada 10 000 pessoas) </p>
+<ul>
+<li>Anemia devido ao aumento da degradação dos glóbulos vermelhos (anemia hemolítica) </li>
+<li>Reações cutâneas graves com bolhas e descolamento da pele, especialmente nas extremidades, 
+na boca, nos olhos e na zona genital, associadas a mau estado geral e febre (síndrome de 
+Stevens-Johnson, necrólise epidérmica tóxica) 
+Foram notificadas várias reações de origem possivelmente alérgica. Os sinais de tais reações de 
+hipersensibilidade podem ser sensação de mal-estar, tonturas, sonolência, náuseas (sensação de 
+enjoo), vómitos, diarreia, febre, arrepios, erupção cutânea, inflamação vascular, dor nos 
+músculos e nas articulações, diminuição da pressão arterial, problemas nos rins e no fígado e 
+bloqueio do canal biliar (obstrução biliar). Em casos muito raros, foram notificadas reações de 
+hipersensibilidade fatais </li>
+<li>A pneumonia melhora após a interrupção do tratamento com Jayempi </li>
+<li>Doenças inflamatórias graves do cólon (colite, diverticulite) e perfuração intestinal em recetores 
+de transplante </li>
+<li>Diarreia grave em doentes com doença inflamatória intestinal </li>
+<li>Doenças gastrointestinais que conduzem a diarreia, dor abdominal (barriga), obstipação, 
+náuseas e vómitos </li>
+<li>Um certo tipo de linfoma (linfoma hepatoesplénico de células T) </li>
+<li>Uma doença da matéria branca do cérebro (LMP), causada pelo vírus JC </li>
+</ul>
+<p>Se sofrer de náuseas com vómitos ocasionais, o seu médico pode pedir-lhe que tome Jayempi 
+após uma refeição para reduzir estes sintomas. Informe o seu médico se tiver diarreia grave ou 
+náuseas e vómitos. </p>
+<p>Desconhecida (a frequência não pode ser derivada a partir dos dados disponíveis) </p>
+<ul>
+<li>Pode desenvolver uma erupção cutânea (caroços vermelhos, cor-de-rosa ou roxos elevados que 
+são dolorosos ao toque), especialmente nos braços, nas mãos, nos dedos, no rosto e no pescoço, 
+que também pode ser acompanhada de febre (síndrome de Sweet, também conhecida como 
+dermatose neutrofílica febril aguda). </li>
+<li>Sensibilidade à luz solar que pode causar descoloração da pele ou erupção cutânea. </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos secundários não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar jayempi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar jayempi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Manter este medicamento fora da vista e do alcance das crianças. </li>
+<li>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+frasco, após VAL. O prazo de validade corresponde ao último dia do mês indicado. </li>
+<li>Não conservar acima de 25 ºC. </li>
+<li>Manter o frasco bem fechado para impedir a deterioração do medicamento e reduzir o risco de 
+derrame acidental. </li>
+</ul>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Jayempi 
+A substância ativa é a azatioprina. Um ml de suspensão contém 10 mg de azatioprina. </p>
+<p>Os outros componentes são benzoato de sódio (E211), sucralose (E955), aroma de banana, ácido 
+cítrico mono-hidratado, celulose microcristalina e carmelose sódica, goma xantana e água purificada. 
+Ver secção 2 «Jayempi contém benzoato de sódio» e «Jayempi contém sódio». </p>
+<p>Qual o aspeto de Jayempi e conteúdo da embalagem </p>
+<p>Jayempi é uma suspensão oral viscosa amarela. É fornecido em frascos de vidro de 200 ml com um 
+fecho resistente à abertura por crianças. Cada embalagem contém um frasco, um adaptador de frasco e 
+duas seringas doseadoras (uma seringa graduada de 3 ml e uma seringa graduada de 10 ml). 
+O seu médico ou farmacêutico indicar-lhe-á qual a seringa a utilizar, dependendo da dose que tenha 
+sido receitada. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Nova Laboratories Ireland Limited 
+3rd Floor 
+Ulysses House 
+Foley Street, Dublin 1 
+D01 W2T2 
+Irlanda </p>
+<p>Fabricante 
+Pronav Clinical Ltd. 
+Unit 5 
+Dublin Road Business Park 
+Carraroe, Sligo 
+F91 DIrlanda </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1270,6 +1795,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-29e53310e209535224a929c7efb5c5b7"
 * entry[0].resource = composition-da-29e53310e209535224a929c7efb5c5b7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp29e53310e209535224a929c7efb5c5b7"
+* entry[=].resource = mp29e53310e209535224a929c7efb5c5b7
+                            
+                    
+Instance: bundlepackageleaflet-pt-29e53310e209535224a929c7efb5c5b7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jayempi Package Leaflet for language pt"
+Description: "ePI document Bundle for jayempi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-29e53310e209535224a929c7efb5c5b7"
+* entry[0].resource = composition-pt-29e53310e209535224a929c7efb5c5b7
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp29e53310e209535224a929c7efb5c5b7"
@@ -1371,6 +1918,18 @@ RuleSet: 29e53310e209535224a929c7efb5c5b7ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-29e53310e209535224a929c7efb5c5b7) // jayempi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

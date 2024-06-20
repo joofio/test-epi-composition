@@ -617,6 +617,332 @@ Nedenstående oplysninger er til læger og sundhedspersonale: </p>
 
 
 
+Instance: composition-pt-f40a84cb5d324bdca9e9009c23b60458
+InstanceOf: CompositionUvEpi
+Title: "Composition for tigecycline Package Leaflet"
+Description:  "Composition for tigecycline Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf40a84cb5d324bdca9e9009c23b60458)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tigecycline"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Tigeciclina Accord e para que é utilizado 
+2. O que precisa de saber antes de utilizar Tigeciclina Accord 
+3. Como utilizar Tigeciclina Accord 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Tigeciclina Accord 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tigecycline e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tigecycline e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tigeciclina Accord é um antibiótico do grupo das glicilciclinas que atua parando o crescimento de 
+bactérias causadoras de infeções. </p>
+<p>O seu médico prescreveu Tigeciclina Accord a si ou ao seu filho com, pelo menos, idade igual ou 
+superior a 8 anos, porque tem um dos seguintes tipos de infeção grave: </p>
+<p> 
+Infeção complicada da pele e tecidos moles (o tecido debaixo da pele), excluindo infeções do pé 
+diabético 
+ 
+Infeção complicada do abdómen </p>
+<p>Tigeciclina Accord apenas é utilizado caso o seu médico considere que outros antibióticos não são 
+adequados. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tigecycline"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tigecycline"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Tigeciclina Accord </p>
+<p> 
+se tem alergia à tigeciclina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Se tem alergia a antibióticos da classe das tetraciclinas (por ex., minociclina, 
+doxiciclina, etc.), pode ser alérgico à tigeciclina. </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou enfermeiro antes de utilizar Tigeciclina Accord: 
+ 
+Se apresentar uma cicatrização lenta ou deficiente. 
+ 
+Se sofre de diarreia informe o seu médico antes que lhe seja administrado Tigeciclina Accord. Se 
+desenvolver diarreia durante ou após o tratamento, informe o seu médico imediatamente. Não 
+tome medicamentos para a diarreia sem primeiro consultar o seu médico. 
+ 
+Se tem ou já teve qualquer efeito indesejável devido a antibióticos da classe das tetraciclinas (por 
+ex., sensibilização da pele à exposição solar, manchas nos dentes em desenvolvimento, inflamação 
+do pâncreas e alteração de certos resultados laboratoriais destinados a avaliar a coagulação do seu 
+sangue). 
+ 
+Se tem ou já teve problemas hepáticos. Consoante a condição do seu fígado, o seu médico pode 
+reduzir a dose para evitar possíveis efeitos indesejáveis. 
+ 
+Se tem um bloqueio das vias biliares (colestase). 
+ 
+Se tem um distúrbio hemorrágico ou se estiver a fazer tratamento com anticoagulantes, uma vez 
+que este medicamento pode interferir com a coagulação do sangue. </p>
+<p>Durante o tratamento com Tigeciclina Accord: 
+ 
+Informe imediatamente o seu médico caso desenvolva sintomas de uma reação alérgica. 
+ 
+Informe imediatamente o seu médico se desenvolver dores abdominais intensas, náuseas e 
+vómitos. Estes podem ser sintomas de pancreatite aguda (pâncreas inflamado, que pode resultar 
+em dores abdominais intensas, náuseas e vómitos). 
+ 
+Em certas infeções graves, o seu médico pode considerar a utilização de Tigeciclina Accord em 
+associação com outros antibióticos. 
+ 
+O seu médico irá monitorizá-lo cuidadosamente para o desenvolvimento de quaisquer outras 
+infeções bacterianas. Caso desenvolva outra infeção bacteriana, o seu médico poderá prescrever-
+lhe um antibiótico diferente, específico para o tipo de infeção presente. 
+ 
+Embora os antibióticos, incluindo Tigeciclina Accord, combatam certas bactérias, outras 
+bactérias e fungos podem continuar a crescer. Isto é designado por superinfeção. O seu médico 
+irá monitorizá-lo relativamente a quaisquer infeções possíveis e irá tratá-lo se necessário. </p>
+<p>Crianças </p>
+<p>Tigeciclina Accord não deverá ser utilizado em crianças com idade inferior a 8 anos devido à falta de 
+dados de segurança e eficácia neste grupo etário e porque pode induzir imperfeições permanentes nos 
+dentes em desenvolvimento, como por exemplo manchas. </p>
+<p>Outros medicamentos e Tigeciclina Accord </p>
+<p>Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. </p>
+<p>Tigeciclina Accord pode prolongar certos testes destinados a avaliar a coagulação do seu sangue. É 
+importante que informe o seu médico se estiver a tomar medicamentos destinados a evitar uma 
+coagulação excessiva do sangue (chamados anticoagulantes). Se for o caso, o seu médico irá 
+acompanhá-lo de perto. </p>
+<p>Tigeciclina Accord pode interferir com a pílula contracetiva (pílula para evitar a gravidez). Fale com o 
+seu médico acerca da necessidade de utilizar um método contracetivo adicional durante o tratamento 
+com Tigeciclina Accord. </p>
+<p>Tigeciclina Accord pode aumentar o efeito dos medicamentos utilizados para suprimir o sistema 
+imunitário (como o tacrolímus ou a ciclosporina). É importante que informe o seu médico se estiver a 
+tomar estes medicamentos para que possa ser monitorizado de perto. </p>
+<p>Gravidez e amamentação </p>
+<p>Tigeciclina Accord pode causar lesões no feto. Se está grávida ou a amamentar, se pensa estar grávida 
+ou planeia engravidar, consulte o seu médico antes de tomar este medicamento. </p>
+<p>Desconhece-se se a tigeciclina passa para o leite materno nos seres humanos. Peça conselho ao seu 
+médico antes de amamentar o seu bebé. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Tigeciclina Accord pode causar efeitos indesejáveis tais como tonturas. Tal facto pode prejudicar a sua 
+capacidade de conduzir ou operar máquinas. </p>
+<p>Tigeciclina Accord contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por frasco para injetáveis, ou seja, 
+é praticamente “isento de sódio"  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tigecycline"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tigecycline"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tigeciclina Accord ser-lhe-á administrado por um médico ou um enfermeiro. </p>
+<p>A dose recomendada em adultos é de 100 mg administrada inicialmente, seguida de 50 mg de 12 em 
+12 horas. Esta dose é administrada intravenosamente (diretamente na corrente sanguínea) durante um 
+período de 30 a 60 minutos. </p>
+<p>A dose recomendada em crianças com idades compreendidas entre 8 e &lt;12 anos é de 1,2 mg/kg 
+administrada de 12 em 12 horas por via intravenosa até uma dose máxima de 50 mg de 12 em 
+12 horas. </p>
+<p>A dose recomendada em adolescentes com idades compreendidas entre 12 e &lt;18 anos é de 50 mg 
+administrada de 12 em 12 horas. </p>
+<p>O tratamento dura geralmente 5 a 14 dias. O seu médico decidirá qual a duração do seu tratamento. </p>
+<p>Se utilizar mais Tigeciclina Accord do que deveria </p>
+<p>Se pensa que lhe pode ter sido administrado demasiado Tigeciclina Accord, fale com o seu médico ou 
+enfermeiro imediatamente. </p>
+<p>Caso se tenha esquecido de administrar uma dose de Tigeciclina Accord </p>
+<p>Se pensa que se pode ter esquecido de administrar uma dose, fale com o seu médico ou enfermeiro 
+imediatamente. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Pode ocorrer colite pseudomembranosa com a maioria dos antibióticos, incluindo Tigeciclina Accord. 
+Esta consiste em diarreia grave, persistente ou diarreia com sangue, associada a dor abdominal ou 
+febre, o que pode ser sinal de inflamação grave dos intestinos, podendo ocorrer durante ou depois do 
+tratamento. </p>
+<p>Os efeitos indesejáveis muito frequentes são (podem afetar mais do que 1 em 10 pessoas): 
+ 
+Náuseas, vómitos e diarreia </p>
+<p>Os efeitos indesejáveis frequentes são (podem afetar até 1 em 10 pessoas): 
+ 
+Abcesso (acumulação de pus), infeções 
+ 
+Resultados laboratoriais com diminuição da capacidade para formar coágulos sanguíneos 
+ 
+Tonturas 
+ 
+Irritação no local da injeção incluindo dor, inflamação, inchaço e formação de coágulos 
+ 
+Dor abdominal, dispepsia (dor de estômago e indigestão), anorexia (perda de apetite) 
+ 
+Aumento das enzimas do fígado, hiperbilirrubinemia (excesso de pigmento biliar no sangue) 
+ 
+Prurido (comichão), erupção na pele 
+ 
+Cicatrização lenta ou deficiente 
+ 
+Dor de cabeça 
+ 
+Aumento da amílase, que é uma enzima presente nas glândulas salivares e no pâncreas, aumento 
+do azoto ureico no sangue 
+ 
+Pneumonia 
+ 
+Diminuição do açúcar no sangue 
+ 
+Sepsis (infeção grave no organismo e na corrente sanguínea) / choque sético (situação médica 
+grave que pode levar a falha múltipla de órgãos e morte como resultado da sepsis) 
+ 
+Reação no local da injeção (dor, vermelhidão, inflamação) 
+ 
+Níveis baixos de proteínas no sangue </p>
+<p>Os efeitos indesejáveis pouco frequentes são (podem afetar até 1 em 100 pessoas): 
+ 
+Pancreatite aguda (inflamação do pâncreas que pode causar dor abdominal intensa, náuseas e 
+vómitos) 
+ 
+Icterícia (coloração amarelada da pele), inflamação do fígado 
+ 
+Redução do nível de plaquetas no sangue (o qual pode levar a um aumento da tendência para 
+sangramentos/hemorragias e formação de nódoas negras/hematomas) </p>
+<p>Os efeitos indesejáveis raros são (podem afetar até 1 em 1.000 pessoas): 
+ 
+Níveis baixos de fibrinogénio no sangue (uma proteína envolvida na coagulação do sangue) </p>
+<p>Os efeitos indesejáveis desconhecidos são (a frequência não pode ser calculada a partir dos dados 
+disponíveis): 
+ 
+Reações anafiláticas/anafilactoides [que podem variar numa escala de gravidade de ligeira a 
+grave, incluindo reação alérgica generalizada e súbita que pode levar a choque potencialmente 
+fatal (por ex. dificuldade em respirar, descida da pressão arterial, aumento da frequência dos 
+batimentos cardíacos)] 
+ 
+Insuficiência hepática 
+ 
+Erupção na pele, que pode originar formação de bolhas graves e descamação da pele (síndrome 
+de Stevens-Johnson) </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tigecycline"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tigecycline"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. Não utilize este 
+medicamento após o prazo de validade impresso no frasco para injetáveis, após EXP. O prazo de 
+validade corresponde ao último dia do mês indicado. </p>
+<p>Conservação após a preparação </p>
+<p>Solução reconstituída: A estabilidade física e química em uso foi demonstrada durante 6 horas entre 
+20-25°C. Do ponto de vista microbiológico, o medicamento deve ser utilizado imediatamente. Caso 
+não seja imediatamente utilizado, os períodos de conservação e as condições em uso antes da 
+utilização são da responsabilidade do utilizador e não serão superiores aos períodos acima indicados 
+para a estabilidade física e química em uso. </p>
+<p>Solução diluída: A estabilidade física e química em uso foi demonstrada durante 24 horas entre 
+20-25°C e durante 48 horas entre 2-8°C. Do ponto de vista microbiológico, o medicamento 
+deve ser utilizado imediatamente. Caso não seja imediatamente utilizado, os períodos de 
+conservação e as condições em uso antes da utilização são da responsabilidade do utilizador e 
+não serão superiores aos períodos acima indicados para a estabilidade física e química em uso. </p>
+<p>A solução de Tigeciclina Accord deve ser de coloração amarelo-alaranjada após a dissolução, caso 
+contrário a solução deve ser eliminada. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tigeciclina Accord </p>
+<p>A substância ativa é a tigeciclina. Cada frasco para injetáveis contém 50 mg de tigeciclina. </p>
+<p>Os outros componentes são maltose mono-hidratada, ácido clorídrico e hidróxido de sódio. </p>
+<p>Qual o aspeto de Tigeciclina Accord e conteúdo da embalagem </p>
+<p>Tigeciclina Accord é fornecido como pó para solução para perfusão num frasco para injetáveis e tem o 
+aspeto de um pó ou aglomerado alaranjado antes de diluído. Estes frascos para injetáveis são 
+fornecidos ao hospital em embalagens com um frasco para injetáveis e em embalagens com dez 
+frascos para injetáveis. É possível que não sejam comercializadas todas as apresentações. </p>
+<p>O pó deve ser misturado no frasco para injetáveis com uma pequena quantidade de solução. O frasco 
+para injetáveis deve ser agitado suavemente até que o medicamento se dissolva. Em seguida, a solução 
+deve ser de imediato retirada do frasco para injetáveis e adicionada a um saco de 100 ml para 
+administração intravenosa ou outro recipiente para perfusão adequado no hospital.  </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado: 
+Accord Healthcare S.L.U.<br />
+World Trade Center,<br />
+Moll de Barcelona, s/n,<br />
+Edifici Est 6ª planta,<br />
+08039 Barcelona, Espanha </p>
+<p>Fabricantes: 
+Accord Healthcare Polska Sp.z.o.o. 
+ul. Lutomierska 50,<br />
+95-200 Pabianice 
+Polónia </p>
+<p>Ou 
+Laboratori Fundació Dau 
+C/ C, 12-14 Pol. Ind. 
+Zona Franca, Barcelona, 08040,<br />
+Espanha </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -658,6 +984,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-f40a84cb5d324bdca9e9009c23b60458"
 * entry[0].resource = composition-da-f40a84cb5d324bdca9e9009c23b60458
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf40a84cb5d324bdca9e9009c23b60458"
+* entry[=].resource = mpf40a84cb5d324bdca9e9009c23b60458
+                            
+                    
+Instance: bundlepackageleaflet-pt-f40a84cb5d324bdca9e9009c23b60458
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tigecycline Package Leaflet for language pt"
+Description: "ePI document Bundle for tigecycline Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-f40a84cb5d324bdca9e9009c23b60458"
+* entry[0].resource = composition-pt-f40a84cb5d324bdca9e9009c23b60458
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpf40a84cb5d324bdca9e9009c23b60458"
@@ -759,6 +1107,18 @@ RuleSet: f40a84cb5d324bdca9e9009c23b60458ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-f40a84cb5d324bdca9e9009c23b60458) // tigecycline pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

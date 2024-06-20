@@ -868,6 +868,460 @@ lægemidler.</p>         </div>"""
 
 
 
+Instance: composition-pt-7cf956e7748c0ba411215481856f48ab
+InstanceOf: CompositionUvEpi
+Title: "Composition for mylotarg Package Leaflet"
+Description:  "Composition for mylotarg Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7cf956e7748c0ba411215481856f48ab)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - mylotarg"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é MYLOTARG e para que é utilizado
+2. O que precisa de saber antes de tomar MYLOTARG 
+3. Como MYLOTARG será administrado
+4. Efeitos indesejáveis possíveis
+5. Como conservar MYLOTARG
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é mylotarg e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é mylotarg e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>MYLOTARG contém a substância ativa gemtuzumab ozogamicina, um medicamento anticancerígeno 
+que é constituído por um anticorpo monoclonal ligado a uma substância destinada a matar as células 
+cancerígenas. Esta substância é fornecida às células cancerígenas pelo anticorpo monoclonal. Um 
+anticorpo monoclonal é uma proteína que reconhece determinadas células cancerígenas. 
+MYLOTARG é utilizado para tratar um determinado tipo de cancro do sangue chamado leucemia 
+mieloide aguda (LMA), no qual a medula óssea produz glóbulos brancos alterados. MYLOTARG 
+destina-se ao tratamento da LMA em doentes com idade igual ou superior a 15 anos que não tenham 
+recebido outros tratamentos. MYLOTARG não se destina a ser utilizado em doentes com um tipo de 
+cancro chamado leucemia promielocítica aguda (LPA).</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar mylotarg"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar mylotarg"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não deve tomar MYLOTARG:
+
+se tem alergia a gemtuzumab ozogamicina ou a qualquer outro componente deste 
+medicamento (indicados na secção 6).
+Advertências e precauções 
+Quando receber este medicamento pela primeira vez e durante o tratamento, informe o seu médico ou 
+enfermeiro se:
+ tem ou alguma vez teve problemas no fígado: MYLOTARG pode causar, durante ou após o 
+tratamento, uma condição potencialmente fatal chamada doença hepática veno-oclusiva, na qual 
+os vasos sanguíneos do fígado ficam danificados e obstruídos por coágulos de sangue e que 
+pode resultar em retenção de líquidos, aumento rápido do peso, aumento do tamanho do fígado 
+(que pode ser doloroso) e ascite (acumulação excessiva de líquido na cavidade abdominal).<br />
+ reação alérgica: nota um som agudo durante a respiração (pieira), dificuldade em respirar, falta 
+de ar ou tosse com ou sem muco, urticária, comichão, inchaço ou sensação de febre e arrepios 
+(sinais de uma reação relacionada com a perfusão) durante ou pouco tempo após a perfusão de 
+MYLOTARG.
+ infeção: tem ou pensa que tem uma infeção, sente arrepios ou tremores, ou se sente quente ou 
+tem febre. Algumas infeções podem ser graves e podem ser potencialmente fatais.
+38
+ hemorragia: se tem hemorragias invulgares, sangra das gengivas, faz nódoas negras facilmente 
+ou sangra do nariz periodicamente.
+ anemia: tem dores de cabeça, se sente cansado, sente tonturas ou tem um aspeto pálido.
+ reação à perfusão: sente, durante ou logo após a perfusão de MYLOTARG, sintomas, tais 
+como tonturas, micção diminuída, confusão, vómitos, náuseas, inchaço, falta de ar ou alterações 
+do ritmo cardíaco (esta pode ser uma complicação potencialmente fatal conhecida como 
+síndrome de lise tumoral). 
+Crianças e adolescentes
+MYLOTARG não pode ser utilizado em crianças e adolescentes com idade inferior a 15 anos porque 
+os dados disponíveis para esta população são limitados.
+Outros medicamentos e MYLOTARG
+Informe o seu médico ou enfermeiro se estiver a tomar, tiver tomado recentemente ou se vier a tomar 
+outros medicamentos. Isto inclui medicamentos adquiridos sem receita médica e medicamentos à base 
+de plantas. 
+Gravidez, amamentação e fertilidade
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou enfermeiro antes de tomar este medicamento.
+Tem de evitar engravidar ou gerar um filho devidos aos potenciais efeitos adversos para a criança. As 
+mulheres têm de utilizar 2 métodos contracetivos eficazes durante o tratamento e durante, pelo menos, 
+7 meses após a última dose do tratamento. Os homens têm de utilizar 2 métodos contracetivos eficazes 
+durante o tratamento e durante, pelo menos, 4 meses após a última dose do tratamento. Contacte o seu 
+médico imediatamente se engravidar ou se a sua parceira engravidar enquanto estiver a tomar este 
+medicamento. 
+Procure aconselhamento sobre preservação da fertilidade antes do tratamento.
+Se necessita de tratamento com MYLOTARG, tem de parar de amamentar durante o tratamento e 
+durante, pelo menos, 1 mês após o tratamento. Fale com o seu médico.
+Condução de veículos e utilização de máquinas
+Caso sinta cansaço fora do normal, tonturas ou dor de cabeça (estes são efeitos indesejáveis muito 
+frequentes do MYLOTARG), não deve conduzir ou utilizar máquinas. 
+MYLOTARG contém sódio
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é  praticamente 
+“isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar mylotarg"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar mylotarg"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p> MYLOTARG ser-lhe-á administrado por um médico ou enfermeiro gota-a-gota numa veia 
+(perfusão intravenosa), gradualmente ao longo de 2 horas.
+ O seu médico vai decidir qual é a dose correta.
+ O seu médico ou enfermeiro poderá modificar a sua dose, interromper ou parar por completo o 
+tratamento com MYLOTARG se tiver determinados efeitos indesejáveis.
+ O seu médico poderá reduzir a sua dose com base na sua resposta ao tratamento.
+ O seu médico irá pedir análises ao sangue durante o tratamento para investigar efeitos 
+indesejáveis e avaliar a sua resposta ao tratamento.
+ Antes de receber MYLOTARG, irá receber medicamentos para ajudar a reduzir sintomas, tais 
+como febre e arrepios, conhecidos como reações à perfusão, durante ou pouco tempo depois da 
+perfusão de MYLOTARG.
+39
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Alguns dos efeitos indesejáveis podem ser graves e podem ocorrer durante ou após o tratamento com 
+MYLOTARG. Contacte imediatamente o seu médico ou enfermeiro se sentir algum dos seguintes 
+efeitos indesejáveis graves (ver também a secção 2 “O que precisa de saber antes de tomar 
+MYLOTARG"):
+ Problemas hepáticos
+Informe o seu médico de imediato se aumenta rapidamente de peso, sente dor no lado superior 
+direito do abdómen, tem acumulação de líquido que causa inchaço abdominal. O seu médico 
+poderá efetuar análises ao sangue e encontrar anomalias nas análises sanguíneas do fígado, que 
+podem ser sinais de uma condição potencialmente fatal chamada doença hepática veno-oclusiva.
+ Hemorragia (sinais de um número baixo de células sanguíneas conhecidas como plaquetas)
+Informe o seu médico imediatamente se faz nódoas negras facilmente ou se sangra do nariz 
+periodicamente, ou se tem fezes pretas, tosse com sangue, expetoração sanguinolenta, se se sente 
+tonto, a desmaiar ou confuso.
+ Infeções (sinais de um número baixo de glóbulos brancos conhecidos como neutrófilos)
+Algumas infeções podem ser graves e podem ser causadas por vírus, bactérias, ou por outras 
+causas que podem ser potencialmente fatais.
+ Complicação conhecida como síndrome de lise tumoral
+Informe o seu médico imediatamente se sente tonturas, micção diminuída, confusão, vómitos, 
+náuseas, inchaço, falta de ar, ou alterações do ritmo cardíaco.
+ Reações à perfusão
+Os medicamentos deste tipo (anticorpos monoclonais) podem causar reações relacionadas com a 
+perfusão, tais como erupção cutânea, falta de ar, dificuldade em respirar, sensação de aperto no 
+peito, arrepios ou febre, dor nas costas.
+Os efeitos indesejáveis  incluem:
+Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas):
+
+Infeções (incluindo infeções graves)
+
+Redução do número de plaquetas sanguíneas (células que ajudam o sangue a coagular)
+ Redução do número de glóbulos brancos, o que pode resultar em fraqueza generalizada e numa 
+tendência para contrair infeções
+
+Redução do número de glóbulos vermelhos (anemia), o que pode resultar em fadiga e falta de 
+ar
+
+Níveis elevados de açúcar no sangue
+
+Apetite diminuído
+
+Dor de cabeça
+
+Frequência cardíaca rápida
+
+Hemorragia
+
+Tensão arterial baixa
+
+Tensão arterial alta
+
+Falta de ar
+
+Vómitos
+
+Diarreia
+40
+
+Dor no abdómen
+
+Sensação de doença (náuseas)
+
+Inflamação da boca
+
+Prisão de ventre
+
+Anomalias nas análises sanguíneas do fígado (que podem ser indicadoras de lesão hepática)
+
+Erupção na pele
+
+Febre
+
+Edema (excesso de líquido nos tecidos corporais, causando inchaço das mãos e dos pés)
+
+Fadiga
+
+Arrepios
+ Alterações nos níveis de diferentes enzimas no sangue (podem ser observadas nas análises ao 
+sangue)
+
+Prolongamento do tempo de coagulação (o que pode resultar em sangramento prolongado)
+
+Nível elevado de ácido úrico no sangue
+Frequentes (podem afetar até 1 em 10 pessoas):
+ Sinais de uma reação relacionada com a perfusão, tais como uma erupção cutânea, falta de ar, 
+dificuldade em respirar, sensação de aperto no peito, arrepios ou febre, dor nas costas durante ou 
+após a perfusão de MYLOTARG
+
+Sinais de fígado aumentado (hepatomegalia), tal como ter a barriga aumentada
+
+Função anormal do fígado 
+
+Acumulação excessiva de fluido no abdómen/barriga
+
+Indigestão
+
+Inflamação do esófago (tubo que liga a garganta ao estômago)
+ Doença hepática veno-oclusiva (DVO), que inclui sinais de fígado aumentado, dor na parte 
+superior direita da barriga, amarelecimento da pele e da parte branca dos olhos, acumulação de 
+fluidos no abdómen, aumento de peso, análises sanguíneas anormais do fígado
+
+Amarelecimento da pele ou da parte branca dos olhos causado por problemas de fígado ou do 
+sangue (icterícia)
+
+Vermelhidão da pele
+
+Comichão na pele
+
+Falência de órgãos
+Pouco frequentes (podem afetar até 1 em 100 pessoas):
+
+Insuficiência hepática (do fígado)
+ Síndrome de Budd Chiari, que inclui dor na parte superior direita da barriga, fígado 
+anormalmente grande, e/ou acumulação de fluidos na barriga associada a coágulos sanguíneos 
+no fígado. Os sintomas também podem incluir sentir-se doente (náuseas) e/ou vómitos.
+Frequência desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis)
+
+Pneumonia intersticial (inflamação dos pulmões causando tosse e dificuldade em respirar)
+
+Inflamação do intestino associada a contagens de glóbulos brancos baixas
+
+Inflamação da bexiga, resultando em hemorragia da bexiga
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não incluídos neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar mylotarg"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar mylotarg"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>MYLOTARG será conservado pelos profissionais de saúde no hospital ou na clínica.
+41
+Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco para injetáveis e 
+na embalagem exterior após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+Frasco para injetáveis por abrir: Conservar no frigorífico (2°C-8°C). Não congelar. Conservar o 
+frasco para injetáveis na embalagem de origem para proteger da luz. 
+Solução reconstituída e diluída: Proteger as soluções de MYLOTARG reconstituídas e diluídas da 
+luz. As soluções devem ser utilizadas imediatamente. Não congelar a solução reconstituída ou diluída.
+Se não for utilizada imediatamente:
+
+Após a reconstituição, o frasco para injetáveis original pode ser conservado até 16 horas no 
+frigorífico (2°C-8°C) ou até 3 horas à temperatura ambiente (abaixo de 30°C).
+
+A solução diluída pode ser conservada até 18 horas no frigorífico (2°C-8°C) e até 6 horas à 
+temperatura ambiente (abaixo de 30°C). O tempo permitido à temperatura ambiente (abaixo 
+de 30°C) inclui o tempo necessário para a preparação da solução diluída, equilíbrio, se 
+necessário, e administração ao doente. O tempo máximo entre a preparação da solução diluída 
+até ao final da administração não deve exceder as 24 horas.
+Não utilize este medicamento se observar qualquer partícula ou alteração de cor antes da 
+administração.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu médico 
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de MYLOTARG 
+
+A substância ativa é gemtuzumab ozogamicina. 
+
+Um frasco para injetáveis contém 5 mg de gemtuzumab ozogamicina.
+
+Após reconstituição, cada ml da solução concentrada contém 1 mg de gemtuzumab 
+ozogamicina.
+
+Os outros componentes são dextrano 40, sacarose, cloreto de sódio, dihidrogenofosfato de 
+sódio mono-hidratado, hidrogenofosfato dissódico anidro. Ver secção 2, “MYLOTARG 
+contém sódio".
+Qual o aspeto de MYLOTARG e conteúdo da embalagem
+MYLOTARG é um pó para concentrado para solução para perfusão. É fornecido como pó compacto 
+ou solto branco a esbranquiçado.
+Cada embalagem contém um frasco para injetáveis de vidro âmbar de Tipo 1 com uma rolha de 
+borracha e selo e cápsula de fecho “flip-off".
+Titular da Autorização de Introdução no Mercado: 
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+42
+Fabricante
+Pfizer Service Company BV
+Hoge Wei 10
+1930, Zaventem
+Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: + 370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон
+България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel: +36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: + 356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055 51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tel: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel: + 386 (0)1 52 11 400
+43
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550-520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: + 371 670 35 775
+Este folheto foi revisto pela última vez em 
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -909,6 +1363,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-7cf956e7748c0ba411215481856f48ab"
 * entry[0].resource = composition-da-7cf956e7748c0ba411215481856f48ab
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7cf956e7748c0ba411215481856f48ab"
+* entry[=].resource = mp7cf956e7748c0ba411215481856f48ab
+                            
+                    
+Instance: bundlepackageleaflet-pt-7cf956e7748c0ba411215481856f48ab
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mylotarg Package Leaflet for language pt"
+Description: "ePI document Bundle for mylotarg Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-7cf956e7748c0ba411215481856f48ab"
+* entry[0].resource = composition-pt-7cf956e7748c0ba411215481856f48ab
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp7cf956e7748c0ba411215481856f48ab"
@@ -1010,6 +1486,18 @@ RuleSet: 7cf956e7748c0ba411215481856f48abListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-7cf956e7748c0ba411215481856f48ab) // mylotarg pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

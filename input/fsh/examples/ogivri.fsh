@@ -1252,6 +1252,704 @@ i op til 90 dage ved 2 °C-8 °C og i 24 timer ved temperaturer, som ikke overst
 
 
 
+Instance: composition-pt-3063ae54c8b95c21a8b236c970f9eb21
+InstanceOf: CompositionUvEpi
+Title: "Composition for ogivri Package Leaflet"
+Description:  "Composition for ogivri Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3063ae54c8b95c21a8b236c970f9eb21)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ogivri"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Ogivri e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Ogivri </li>
+<li>Como é administrado Ogivri </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Ogivri </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ogivri e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ogivri e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ogivri contém a substância ativa trastuzumab, que é um anticorpo monoclonal. Os anticorpos 
+monoclonais ligam-se a proteínas específicas ou antigénios. O trastuzumab é concebido para ligar-se 
+seletivamente a um antigénio chamado recetor-2 do fator de crescimento epidérmico humano (HER2). 
+O HER2 encontra-se em grandes quantidades na superfície de algumas células do cancro, estimulando 
+o seu crescimento. Quando o Ogivri se liga ao HER2, impede o crescimento dessas células e provoca a 
+morte das mesmas. </p>
+<p>O seu médico pode prescrever-lhe Ogivri para o tratamento do cancro da mama ou do cancro gástrico: </p>
+<ul>
+<li>
+<p>Se tiver cancro da mama em estadios precoces com níveis elevados de uma proteína 
+denominada de HER2. * Se tiver cancro da mama metastizado (cancro da mama que se disseminou para além do tumor 
+inicial) com níveis elevados de HER2. Ogivri pode ser prescrito em associação com o 
+medicamento de quimioterapia paclitaxel ou docetaxel, como o primeiro tratamento para o 
+cancro da mama metastizado, ou pode ser prescrito sozinho se outros tratamentos não foram 
+bem-sucedidos. Também é utilizado em associação com medicamentos chamados inibidores da 
+aromatase, em doentes com cancro da mama metastizado com níveis elevados de HER2 e com 
+recetores hormonais (cancro que é sensível à presença de hormonas sexuais femininas). </p>
+</li>
+<li>
+<p>Se tiver cancro gástrico metastizado com níveis elevados de HER2, em associação com outros 
+medicamentos para o cancro, capecitabina, ou 5-fluorouracilo, e cisplatina. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ogivri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ogivri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Ogivri se: </p>
+<ul>
+<li>
+<p>tem alergia ao trastuzumab, a proteínas murinas (de rato) ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </p>
+</li>
+<li>
+<p>tem problemas respiratórios graves em repouso, devido ao cancro, ou se precisar de tratamento 
+com oxigénio. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+O seu médico irá acompanhar de perto o seu tratamento. </p>
+<p>Monitorização do coração 
+O tratamento com Ogivri, sozinho ou com um taxano, pode afetar o coração, especialmente se já 
+utilizou alguma vez uma antraciclina (taxanos e antraciclinas são outros dois tipos de medicamentos 
+utilizados para tratar o cancro). 
+Os efeitos podem ser moderados ou graves e podem causar a morte. Assim, o funcionamento do seu 
+coração será controlado antes, durante (a cada 3 meses) e após (até 2 a 5 anos) o tratamento com 
+Ogivri. Se desenvolver qualquer sinal de insuficiência cardíaca (bombeamento inadequado do sangue 
+pelo coração), o funcionamento do seu coração poderá ser examinado mais frequentemente (a cada 6 a 
+8 semanas), poderá receber tratamento para a insuficiência cardíaca ou poderá ter de parar o 
+tratamento com Ogivri. </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de lhe ser administrado Ogivri se: </p>
+<ul>
+<li>
+<p>alguma vez tiver tido insuficiência cardíaca, doença arterial coronária, valvulopatia cardíaca 
+(sopros no coração), tensão arterial alta, tiver tomado qualquer medicamento para a tensão 
+arterial alta ou se está a tomar atualmente qualquer medicamento para a tensão arterial alta. </p>
+</li>
+<li>
+<p>alguma vez tiver sido tratado ou se está atualmente a ser tratado com um medicamento chamado 
+doxorrubicina ou epirrubicina (medicamentos usados para tratar o cancro). Estes medicamentos 
+(ou quaisquer outras antraciclinas) podem danificar o músculo do coração e aumentar o risco de 
+ter problemas cardíacos com Ogivri. </p>
+</li>
+<li>
+<p>tiver falta de ar, principalmente se está atualmente a ser tratado com um taxano. O Ogivri pode 
+causar dificuldades respiratórias, especialmente quando é administrado pela primeira vez. Esta 
+situação pode ser mais grave se já tiver falta de ar. Muito raramente, doentes com dificuldades 
+respiratórias graves antes do tratamento morreram quando lhes foi administrado Ogivri. </p>
+</li>
+<li>
+<p>alguma vez fez outro tratamento para o cancro. </p>
+</li>
+</ul>
+<p>Se lhe for administrado Ogivri com qualquer outro medicamento para tratar o cancro, tais como 
+paclitaxel, docetaxel, um inibidor da aromatase, capecitabina, 5-fluorouracilo ou cisplatina, deverá ler 
+também o Folheto Informativo destes medicamentos. </p>
+<p>Crianças e adolescentes 
+Ogivri não é recomendado para doentes com idade inferior a 18 anos. </p>
+<p>Outros medicamentos e Ogivri 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou 
+se vier a tomar outros medicamentos. </p>
+<p>A eliminação de Ogivri do seu corpo pode demorar até 7 meses. Assim, se iniciar qualquer 
+medicamento novo nos 7 meses seguintes ao fim do tratamento, deve informar o seu médico, 
+farmacêutico ou enfermeiro de que lhe foi administrado Ogivri. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico, 
+farmacêutico ou enfermeiro antes de tomar este medicamento. </p>
+<p>Gravidez </p>
+<ul>
+<li>
+<p>Deve utilizar contraceção eficaz durante o tratamento com Ogivri e durante, pelo menos, 
+7 meses após o fim do tratamento. </p>
+</li>
+<li>
+<p>O seu médico irá aconselhá-la sobre os riscos e benefícios de ser tratada com Ogivri durante a 
+gravidez. Em casos raros, foi observada em mulheres grávidas a receber tratamento com 
+trastuzumab, uma redução na quantidade de líquido (amniótico) que rodeia o bebé em 
+desenvolvimento no útero. Esta situação pode ser prejudicial ao seu bebé no útero e tem sido 
+associada a um desenvolvimento incompleto dos pulmões, originando morte fetal. </p>
+</li>
+</ul>
+<p>Amamentação </p>
+<p>Não amamente o seu bebé durante o tratamento com Ogivri nem nos 7 meses após a última dose de 
+Ogivri, uma vez que este medicamento pode passar para o seu bebé através do leite materno. Consulte 
+o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Ogivri pode afetar a sua capacidade de conduzir um carro ou de utilizar máquinas. Se apresentar 
+sintomas como tonturas, sonolência, calafrios e febre durante o tratamento, não deverá conduzir nem 
+utilizar máquinas até que estes sintomas desapareçam. </p>
+<p>Ogivri contém sorbitol (E420) e sódio 
+Ogivri 150 mg pó para concentrado para solução para perfusão 
+Este medicamento contém 115,2 mg de sorbitol em cada frasco para injetáveis.  </p>
+<p>Ogivri 420 mg pó para concentrado para solução para perfusão 
+Este medicamento contém 322,6 mg de sorbitol em cada frasco para injetáveis.  </p>
+<p>O sorbitol é uma fonte de frutose. Se tiver intolerância hereditária à frutose (IHF), uma doença 
+genética rara, não pode tomar este medicamento. Os doentes com IHF não conseguem digerir a 
+frutose, o que pode causar efeitos indesejáveis graves. Tem de informar o seu médico antes de tomar 
+este medicamento, se tem IHF ou se deixou de poder ingerir alimentos ou bebidas doces, porque se 
+sente enjoado, com vómitos ou se fica com efeitos desagradáveis como inchaço, dores de estômago ou 
+diarreia. </p>
+<p>Ogivri contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente “isento de 
+sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ogivri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ogivri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Antes de iniciar o tratamento, o seu médico irá determinar a quantidade de HER2 no seu tumor. 
+Apenas os doentes com uma grande quantidade de HER2 serão tratados com Ogivri. Ogivri só deverá 
+ser administrado por um médico ou enfermeiro. O seu médico irá prescrever a dose e regime de 
+tratamento adequado para si. A dose de Ogivri depende do seu peso corporal. </p>
+<p>A primeira dose do seu tratamento é administrada durante 90 minutos e será observado por um 
+profissional de saúde durante a administração para o caso de ter quaisquer efeitos indesejáveis. Se a 
+primeira dose for bem tolerada, as doses seguintes poderão ser administradas durante 30 minutos (ver 
+secção 2 em «Advertências e precauções»). O número de perfusões que receber dependerá da sua 
+resposta ao tratamento. O seu médico discutirá consigo este assunto. </p>
+<p>Ogivri é administrado sob a forma de uma perfusão numa veia (perfusão intravenosa, gota a gota), esta 
+formulação intravenosa não se destina a administração subcutânea e deverá apenas ser administrada 
+através de uma perfusão intravenosa. </p>
+<p>Para o cancro da mama em estadios precoces, cancro da mama metastizado e cancro gástrico 
+metastizado, Ogivri é administrado de 3 em 3 semanas. Ogivri também pode ser administrado uma vez 
+por semana para o cancro da mama metastizado. </p>
+<p>Para prevenir erros de medicação é importante verificar os rótulos dos frascos para injetáveis de forma 
+a garantir que o medicamento a ser preparado e administrado é Ogivri (trastuzumab) e não outro 
+medicamento que contenha trastuzumab (por. ex., trastuzumab emtansina ou trastuzumab 
+deruxtecano). </p>
+<p>Se parar de utilizar Ogivri 
+Não pare de utilizar este medicamento sem falar primeiro com o seu médico. Todas as doses devem 
+ser administradas na altura certa, todas as semanas ou de 3 em 3 semanas (dependendo do seu 
+calendário de tratamento). Isto ajuda a que o medicamento funcione o melhor possível. </p>
+<p>A eliminação de Ogivri do seu corpo pode demorar até 7 meses. Consequentemente o seu médico pode 
+decidir continuar a verificar o funcionamento do seu coração, mesmo após o final do tratamento. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Alguns desses efeitos indesejáveis podem ser graves e podem levar à 
+hospitalização. </p>
+<p>Durante uma perfusão de Ogivri podem ocorrer calafrios, febre e outros sintomas do tipo gripal. Estes 
+efeitos são muito frequentes (podem afetar mais de 1 em cada 10 pessoas). Outros sintomas 
+relacionados com a perfusão são: sensação de enjoo (náuseas), vómitos, dor, aumento da tensão 
+muscular e tremor, dor de cabeça, tonturas, dificuldades respiratórias, tensão arterial alta ou baixa, 
+alterações do ritmo cardíaco (palpitações, coração acelerado ou batimento irregular do coração), 
+inchaço da face e dos lábios, erupção cutânea e sensação de cansaço. Alguns destes sintomas podem 
+ser graves e alguns doentes morreram (ver secção 2 em «Advertências e precauções»). </p>
+<p>Estes efeitos ocorrem principalmente com a primeira perfusão intravenosa («gota a gota» na veia) e 
+nas primeiras horas que se seguem ao início da perfusão. Habitualmente são temporários. Será 
+observado por um profissional de saúde durante a perfusão e durante, pelo menos, seis horas após o 
+início da primeira perfusão e nas duas horas após o início das perfusões seguintes. Se desenvolver uma 
+reação, o profissional de saúde irá diminuir ou parar a perfusão e poderá ser-lhe administrado 
+tratamento para controlar os efeitos indesejáveis. A perfusão pode continuar após a melhoria dos 
+sintomas. </p>
+<p>Ocasionalmente, os sintomas podem começar mais de 6 horas após o início da perfusão. Se isto lhe 
+acontecer, contacte o seu médico imediatamente. Por vezes, os sintomas podem melhorar, e depois, 
+mais tarde, piorarem. </p>
+<p>Efeitos indesejáveis graves 
+Em qualquer altura, durante o tratamento com Ogivri, podem surgir outros efeitos indesejáveis para 
+além dos relacionados com a perfusão. Informe imediatamente o médico ou enfermeiro se observar 
+algum dos efeitos indesejáveis seguintes: </p>
+<ul>
+<li>Por vezes podem ocorrer problemas cardíacos durante o tratamento e, ocasionalmente, após o 
+tratamento ter terminado, e podem ser graves. Estes incluem enfraquecimento do músculo 
+cardíaco que pode levar a insuficiência cardíaca, inflamação da membrana que reveste o coração 
+e alterações do ritmo cardíaco. Isto poderá originar sintomas como falta de ar (incluindo falta de 
+ar à noite), tosse, retenção de líquidos (inchaço) nas pernas ou braços, palpitações (coração a 
+vibrar ou batimento irregular do coração) (ver “Monitorização do coração" na secção 2.). </li>
+</ul>
+<p>O seu médico irá monitorizar o seu coração regularmente durante e após o tratamento, mas deve 
+informá-lo imediatamente se sentir algum dos sintomas mencionados acima. </p>
+<ul>
+<li>Síndrome de lise tumoral (um conjunto de complicações metabólicas que ocorrem após o 
+tratamento do cancro, caracterizadas por níveis sanguíneos elevados de potássio e fosfato e 
+níveis sanguíneos baixos de cálcio). Os sintomas podem incluir problemas de rins (fraqueza, 
+falta de ar, fadiga e confusão), problemas de coração (coração a vibrar ou um batimento do 
+coração mais rápido ou mais lento), convulsões, vómitos ou diarreia e formigueiro na boca, 
+mãos ou pés. </li>
+</ul>
+<p>Se sentir qualquer dos sintomas mencionados acima quando o seu tratamento com Ogivri terminar, 
+deve consultar o seu médico e informá-lo de que foi previamente tratado com Ogivri. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>infeções </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>obstipação </p>
+</li>
+<li>
+<p>azia (dispepsia) </p>
+</li>
+<li>
+<p>fadiga </p>
+</li>
+<li>
+<p>erupções cutâneas </p>
+</li>
+<li>
+<p>dor no peito </p>
+</li>
+<li>
+<p>dor abdominal </p>
+</li>
+<li>
+<p>dor articular </p>
+</li>
+<li>
+<p>baixo número de glóbulos vermelhos e glóbulos brancos (células que ajudam a combater 
+infeções), por vezes com febre </p>
+</li>
+<li>
+<p>dor muscular </p>
+</li>
+<li>
+<p>conjuntivite (descarga com comichão dos olhos e pálpebras com crosta) </p>
+</li>
+<li>
+<p>lacrimejo (lágrimas nos olhos) </p>
+</li>
+<li>
+<p>sangramento do nariz </p>
+</li>
+<li>
+<p>corrimento nasal </p>
+</li>
+<li>
+<p>queda de cabelo </p>
+</li>
+<li>
+<p>tremor </p>
+</li>
+<li>
+<p>afrontamentos </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>alterações das unhas </p>
+</li>
+<li>
+<p>perda de peso </p>
+</li>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>dificuldade em adormecer (insónia) </p>
+</li>
+<li>
+<p>alteração do paladar </p>
+</li>
+<li>
+<p>baixa contagem de plaquetas </p>
+</li>
+<li>
+<p>nódoas negras </p>
+</li>
+<li>
+<p>dormência ou formigueiro nos dedos das mãos e pés </p>
+</li>
+<li>
+<p>vermelhidão, inchaço ou feridas na boca e/ou garganta </p>
+</li>
+<li>
+<p>dor, inchaço, vermelhidão ou formigueiro nas mãos e/ou pés, que ocasionalmente pode 
+estender-se para o resto do membro </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>náusea (sentir-se enjoado) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>reações alérgicas  </p>
+</li>
+<li>
+<p>secura da boca e da pele </p>
+</li>
+<li>
+<p>infeções de garganta </p>
+</li>
+<li>
+<p>olhos secos </p>
+</li>
+<li>
+<p>infeções da bexiga e da pele </p>
+</li>
+<li>
+<p>transpiração </p>
+</li>
+<li>
+<p>sensação de fraqueza e má disposição </p>
+</li>
+<li>
+<p>inflamação da mama </p>
+</li>
+<li>
+<p>ansiedade </p>
+</li>
+<li>
+<p>inflamação do fígado </p>
+</li>
+<li>
+<p>depressão </p>
+</li>
+<li>
+<p>alterações renais </p>
+</li>
+<li>
+<p>tónus ou tensão muscular aumentados (hipertonia) </p>
+</li>
+<li>
+<p>asma </p>
+</li>
+<li>
+<p>infeção pulmonar </p>
+</li>
+<li>
+<p>dor nos braços e/ou pernas </p>
+</li>
+<li>
+<p>doenças pulmonares </p>
+</li>
+<li>
+<p>erupção cutânea com comichão </p>
+</li>
+<li>
+<p>dor nas costas </p>
+</li>
+<li>
+<p>sonolência </p>
+</li>
+<li>
+<p>dor no pescoço </p>
+</li>
+<li>
+<p>hemorroidas (inchaço dos vasos sanguíneos à volta do ânus) </p>
+</li>
+<li>
+<p>dor óssea </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>acne </p>
+</li>
+<li>
+<p>cãibras nas pernas </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>surdez </p>
+</li>
+<li>
+<p>erupção cutânea com inchaço </p>
+</li>
+<li>
+<p>síbilos </p>
+</li>
+<li>
+<p>inflamação ou cicatrização dos pulmões </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em 1 000 pessoas): </p>
+<ul>
+<li>
+<p>icterícia (amarelecimento da pele e da parte branca dos olhos) </p>
+</li>
+<li>
+<p>reações anafiláticas (reações alérgicas repentinas com sintomas como erupção cutânea, 
+comichão na pele, dificuldade em respirar, sentir-se tonto ou desmaiar) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis de frequência desconhecida (a frequência não pode ser calculada a partir dos 
+dados disponíveis): </p>
+<ul>
+<li>
+<p>coagulação sanguínea anormal ou comprometida </p>
+</li>
+<li>
+<p>níveis de potássio elevados </p>
+</li>
+<li>
+<p>inchaço ou hemorragia na parte de trás dos olhos </p>
+</li>
+<li>
+<p>choque (uma depressão perigosa da pressão sanguínea que causa sintomas como respiração 
+rápida e superficial, pele fria e húmida, pulso rápido e fraco, tonturas, fraqueza e desmaio). </p>
+</li>
+<li>
+<p>ritmo cardíaco anormal </p>
+</li>
+<li>
+<p>dificuldade respiratória </p>
+</li>
+<li>
+<p>insuficiência respiratória </p>
+</li>
+<li>
+<p>acumulação aguda de líquido nos pulmões </p>
+</li>
+<li>
+<p>estreitamento agudo das vias aéreas </p>
+</li>
+<li>
+<p>níveis de oxigénio no sangue anormalmente baixos </p>
+</li>
+<li>
+<p>dificuldade em respirar quando deitado </p>
+</li>
+<li>
+<p>lesão do fígado </p>
+</li>
+<li>
+<p>inchaço da cara, lábios e garganta </p>
+</li>
+<li>
+<p>insuficiência renal </p>
+</li>
+<li>
+<p>níveis anormalmente baixos do líquido que rodeia o bebé no útero </p>
+</li>
+<li>
+<p>insuficiência pulmonar para desenvolvimento no útero </p>
+</li>
+<li>
+<p>desenvolvimento anormal dos rins no útero </p>
+</li>
+</ul>
+<p>Alguns dos efeitos indesejáveis que sentir podem ser devidos ao próprio cancro da mama. Se receber 
+Ogivri em associação com quimioterapia, alguns desses efeitos também podem ser devidos à 
+quimioterapia. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ogivri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ogivri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C). </p>
+<p>As soluções para perfusão devem ser utilizadas imediatamente após a diluição. Não utilize Ogivri se 
+verificar quaisquer partículas ou alterações de cor antes da administração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ogivri </p>
+<ul>
+<li>A substância ativa é o trastuzumab. Cada frasco para injetáveis contém: 
+o  150 mg de trastuzumab, que tem que ser dissolvido em 7,2 ml de água para 
+preparações injetáveis, ou 
+o 420 mg de trastuzumab, que tem que ser dissolvido em 20 ml de água para 
+preparações injetáveis.  </li>
+<li>A solução resultante contém aproximadamente 21 mg/ml de trastuzumab. </li>
+<li>Os outros componentes são cloridrato de L-histidina, L-histidina, sorbitol (E420 [ver secção 2 
+«Ogivri contém sorbitol (E420) e sódio»]), macrogol 3350, ácido clorídrico e hidróxido de sódio 
+(para ajuste do pH). </li>
+</ul>
+<p>Qual o aspeto de Ogivri e conteúdo da embalagem </p>
+<p>Ogivri é um pó para concentrado para solução para perfusão intravenosa, o qual é fornecido num 
+frasco para injetáveis de vidro com uma tampa de borracha, contendo 150 mg ou 420 mg de 
+trastuzumab. O pó é um liofilizado branco a amarelo pálido. Cada embalagem contém um frasco para 
+injetáveis com pó. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Biosimilar Collaborations Ireland Limited 
+Unit 35/36<br />
+Grange Parade, 
+Baldoyle Industrial Estate, 
+Dublin DUBLIN 
+Irlanda<br />
+D13 R20R </p>
+<p>Fabricante 
+Biosimilar Collaborations Ireland Limited 
+Block B, The Crescent Building, Santry Demesne 
+Dublin 
+D09 C6X8 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Biocon Biologics Belgium BV 
+Tél/Tel: 0080008250 
+Lietuva 
+Biosimilar Collaborations Ireland Limited 
+Tel: 0080008250 
+България 
+Biosimilar Collaborations Ireland Limited 
+Тел: 0080008250 
+Luxembourg/Luxemburg 
+Biocon Biologics France S.A.S 
+Tél/Tel: 0080008250Česká republika 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250Magyarország 
+Biosimilar Collaborations Ireland Limited<br />
+Tel.: 0080008250 
+Danmark 
+Biocon Biologics Finland OY<br />
+Tlf: 0080008250Malta 
+Biosimilar Collaborations Ireland Limited<br />
+Tel.: 0080008250 
+Deutschland 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250 
+Nederland 
+Biocon Biologics France S.A.S 
+Tel: 0080008250Eesti 
+Biosimilar Collaborations Ireland Limited 
+Tel: 0080008250Norge 
+Biocon Biologics Finland OY<br />
+Tlf: +47 800 62<br />
+Ελλάδα<br />
+Biocon Biologics Greece ΜΟΝΟΠΡΟΣΩΠΗ 
+Ι.Κ.Ε 
+Τηλ.: 0080008250 
+Österreich 
+Biocon Biologics Germany GmbH 
+Tel: 0080008250 
+España 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250 
+Polska 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 
+France 
+Biocon Biologics France S.A.S<br />
+Tel: 0080008250Portugal 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250 
+Hrvatska 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250 
+România 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 
+Ireland 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 1800 777<br />
+Slovenija 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 
+Ísland 
+Biocon Biologics Finland OY<br />
+Sími: +345 8004 
+Slovenská republika 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250Italia 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250 
+Suomi/Finland 
+Biocon Biologics Finland OY<br />
+Puh/Tel: 99980008250 
+Κύπρος 
+Biosimilar Collaborations Ireland Limited<br />
+Τηλ: 0080008250 
+Sverige 
+Biocon Biologics Finland OY<br />
+Tel: 0080008250 
+Latvija 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1293,6 +1991,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-3063ae54c8b95c21a8b236c970f9eb21"
 * entry[0].resource = composition-da-3063ae54c8b95c21a8b236c970f9eb21
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3063ae54c8b95c21a8b236c970f9eb21"
+* entry[=].resource = mp3063ae54c8b95c21a8b236c970f9eb21
+                            
+                    
+Instance: bundlepackageleaflet-pt-3063ae54c8b95c21a8b236c970f9eb21
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ogivri Package Leaflet for language pt"
+Description: "ePI document Bundle for ogivri Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-3063ae54c8b95c21a8b236c970f9eb21"
+* entry[0].resource = composition-pt-3063ae54c8b95c21a8b236c970f9eb21
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp3063ae54c8b95c21a8b236c970f9eb21"
@@ -1394,6 +2114,18 @@ RuleSet: 3063ae54c8b95c21a8b236c970f9eb21ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-3063ae54c8b95c21a8b236c970f9eb21) // ogivri pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

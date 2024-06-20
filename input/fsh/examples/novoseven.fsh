@@ -1132,6 +1132,382 @@ stedet.  </p>
 
 
 
+Instance: composition-pt-beff2655528d75e602c405816fbf6082
+InstanceOf: CompositionUvEpi
+Title: "Composition for novoseven Package Leaflet"
+Description:  "Composition for novoseven Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbeff2655528d75e602c405816fbf6082)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - novoseven"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Verso: Instruções sobre como utilizar NovoSeven </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:<br />
+1. O que é NovoSeven e para que é utilizado 
+2. O que precisa de saber antes de utilizar NovoSeven 
+3. Como utilizar NovoSeven 
+4. Efeitos indesejáveispossíveis 
+5. Como conservar NovoSeven 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é novoseven e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é novoseven e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NovoSeven é um fator de coagulação do sangue. A sua ação é a de coagular o sangue no local da 
+hemorragia quando os fatores de coagulação do corpo não funcionam. </p>
+<p>NovoSeven é utilizado para tratar hemorragias e para prevenir o sangramento excessivo após a 
+cirurgia ou outros tratamentos importantes. O tratamento atempado com NovoSeven reduz a 
+quantidade e duração do sangramento. Funciona em todos os tipos de hemorragias, incluindo 
+hemorragias das articulações. Isto reduz a necessidade de hospitalização e os dias de ausência no 
+trabalho e na escola. 
+É usado em certos grupos de pessoas: </p>
+<ul>
+<li>
+<p>Se nasceu com hemofilia hereditária e não responde normalmente ao tratamento com os fatores 
+VIII ou IX </p>
+</li>
+<li>
+<p>Se tem hemofilia adquirida </p>
+</li>
+<li>
+<p>Se tem deficiência de Fator VII </p>
+</li>
+<li>
+<p>Se tem trombastenia de Glanzmann (um distúrbio hemorrágico) e a sua situação não pode ser 
+tratada de forma eficaz com uma transfusão de plaquetas, ou se as plaquetas não estão 
+prontamente disponíveis. </p>
+</li>
+</ul>
+<p>NovoSeven também lhe pode ser administrado por um médico para tratar o sangramento intenso após 
+o parto do seu bebé, mesmo que não tenha qualquer doença hemorrágica.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar novoseven"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar novoseven"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize NovoSeven </p>
+<ul>
+<li>
+<p>Se tem alergia a eptacog alfa (substância ativa de NovoSeven) ou a quaisquer outros 
+componentes deste medicamento (indicados na secção 6.1). </p>
+</li>
+<li>
+<p>Se tem alergia às proteínas de rato, hamster ou bovinas (tais como as do leite de vaca). </p>
+</li>
+</ul>
+<p>► 
+Se alguma destas situações se aplicar a si, não use NovoSeven. Fale com o seu médico. </p>
+<p>Advertências e precauções 
+Antes do tratamento com NovoSeven, assegure-se de que o seu médico está informado sobre: </p>
+<ul>
+<li>
+<p>Se foi submetido a cirurgia recentemente </p>
+</li>
+<li>
+<p>Se sofreu recentemente lesões por esmagamento </p>
+</li>
+<li>
+<p>Se as suas artérias estão mais estreitas devido a doença (aterosclerose) </p>
+</li>
+<li>
+<p>Se tem um risco aumentado de coágulos sanguíneos (trombose) </p>
+</li>
+<li>
+<p>Se tem uma doença grave do fígado </p>
+</li>
+<li>
+<p>Se tem alguma infeção sanguínea grave </p>
+</li>
+<li>
+<p>Se tem tendência para coagulação intravascular disseminada (uma situação em que se 
+desenvolvem coágulos sanguíneos por toda a corrente sanguínea), tem de ser cuidadosamente 
+vigiado. </p>
+</li>
+</ul>
+<p>► 
+Se alguma destas situações se aplicar a si, fale com o seu médico antes de administrar a injeção. </p>
+<p>Outros medicamentos e NovoSeven 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. </p>
+<p>Não utilize ao mesmo tempo NovoSeven e concentrados de complexo protrombínico ou rFXIII. Se 
+também usa medicamentos com Fator VIII ou IX deve falar com o seu médico antes de usar 
+NovoSeven. </p>
+<p>A experiência com a utilização de NovoSeven em conjunto com os chamados medicamentos 
+antifibrinolíticos (tais como ácido aminocapróico ou ácido tranexâmico), que também são usados para 
+controlar as hemorragias, é limitada. Deverá falar com o seu médico antes de utilizar NovoSeven com 
+estes medicamentos. </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de utilizar NovoSeven. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não existem estudos sobre o efeito de NovoSeven na capacidade para conduzir e utilizar máquinas. 
+Contudo, não há qualquer razão médica para se pensar que a sua capacidade possa ser afetada. </p>
+<p>NovoSeven contém sódio 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por injeção, ou seja, é basicamente 
+‘isento de sódio’. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar novoseven"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar novoseven"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O pó de NovoSeven tem de ser reconstituído com o respetivo solvente e injetado numa veia. Para 
+instruções pormenorizadas, veja o verso da página. </p>
+<p>Quando deve tratar-se a si próprio 
+Comece o tratamento de uma hemorragia o mais cedo possível, de preferência dentro de um período 
+de 2 horas. </p>
+<ul>
+<li>
+<p>Nos casos de hemorragia ligeira ou moderada, deve tratar-se o mais cedo possível, de 
+preferência no domicílio. </p>
+</li>
+<li>
+<p>No caso de uma hemorragia grave, deve contactar o seu médico. Geralmente, as hemorragias 
+graves são tratadas no hospital e pode administrar a primeira dose de NovoSeven a si próprio a 
+caminho do hospital. </p>
+</li>
+</ul>
+<p>Não se trate a si próprio durante mais de 24 horas sem consultar o seu médico. </p>
+<ul>
+<li>
+<p>Cada vez que usar NovoSeven informe o seu médico ou o hospital o mais cedo possível. </p>
+</li>
+<li>
+<p>Se a hemorragia não for controlada em 24 horas, contacte o seu médico imediatamente. 
+Geralmente, irá necessitar de tratamento hospitalar. </p>
+</li>
+</ul>
+<p>Dose 
+A primeira dose deve ser administrada o mais cedo possível, após o início da hemorragia. Fale com o 
+seu médico sobre quando e durante quanto tempo deve administrar as injeções. 
+A dose será determinada pelo seu médico, com base no seu peso corporal, estado clínico e tipo de 
+hemorragia. 
+Para alcançar os melhores resultados, siga cuidadosamente a dose que lhe foi receitada. O seu médico 
+poderá alterar a dose. </p>
+<p>Se tem hemofilia: 
+A dose habitual é de 90 microgramas por cada quilograma de peso; pode repetir a injeção a cada 2-3 
+horas, até a hemorragia estar controlada. O seu médico pode recomendar uma dose única de microgramas por cada quilograma de peso corporal. Não existe experiência clínica com esta dose 
+única em pessoas com mais de 65 anos de idade. </p>
+<p>Se tem deficiência de Fator VII: 
+O intervalo de dose habitual é de 15 a 30 microgramas por cada quilograma de peso, para cada 
+injeção.  </p>
+<p>Se tem trombastenia de Glanzmann: 
+A dose habitual é de 90 microgramas (80-120 microgramas) por cada quilograma de peso, para cada 
+injeção. </p>
+<p>Se injetar mais NovoSeven do que deveria 
+Se injetou demasiado NovoSeven, consulte imediatamente o médico. </p>
+<p>Caso se tenha esquecido de administrar uma injeção de NovoSeven 
+Se se esqueceu de uma injeção ou se quer parar o tratamento, consulte o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.  </p>
+<p>Efeitos indesejáveis graves 
+Raros (podem afetar até 1 em 1.000 episódios de tratamento) </p>
+<ul>
+<li>
+<p>Reações alérgicas, de hipersensibilidade ou anafiláticas. Os sinais podem incluir erupções na 
+pele, comichão, vermelhidão e erupção na pele com comichão; pieira ou dificuldade em 
+respirar; sensação de desmaio ou tonturas e inchaço grave dos lábios ou garganta, ou no local da 
+injeção. </p>
+</li>
+<li>
+<p>Coágulos de sangue em artérias no coração (que podem conduzir a um ataque de coração ou a 
+angina), no cérebro (que podem conduzir a uma trombose) ou no intestino e rins. Os sinais </p>
+</li>
+</ul>
+<p>podem incluir dor aguda no peito, falta de ar, confusão, dificuldade em falar ou em movimentar-
+se (paralesia) ou dor abdominal. </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 episódios de tratamento) </p>
+<ul>
+<li>
+<p>Coágulos de sangue em veias nos pulmões, pernas, fígado, rins ou no local da injeção. Os sinais 
+podem incluir dificuldade em respirar, inchaço vermelho e doloroso nas pernas e dor abdominal. </p>
+</li>
+<li>
+<p>Falta de efeito ou diminuição da resposta ao tratamento. </p>
+</li>
+</ul>
+<p>► 
+Se sentir algum destes efeitos indesejáveis graves, procure ajuda médica imediatamente. 
+Explique que tem estado a utilizar NovoSeven. </p>
+<p>Relembre o seu médico caso tenha antecedentes clínicos de reações alérgicas, pois pode ter 
+necessidade de ser vigiado mais cuidadosamente. Na maioria dos casos de coágulos de sangue, os 
+doentes apresentavam predisposição para alterações da coagulação sanguínea. </p>
+<p>Outros efeitos indesejáveis raros 
+(podem afetar até 1 em 1.000 episódios de tratamento) </p>
+<ul>
+<li>
+<p>Náuseas (sensação de má disposição) </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Alterações em algumas análises ao fígado e ao sangue. </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis pouco frequentes 
+(podem afetar até 1 em 100 episódios de tratamento) </p>
+<ul>
+<li>
+<p>Reações alérgicas na pele, incluindo erupção na pele, comichão e erupção na pele com 
+comichão </p>
+</li>
+<li>
+<p>Febre. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar novoseven"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar novoseven"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Mantenha este medicamento fora da vista e do alcance das crianças. </p>
+</li>
+<li>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior. O 
+prazo de validade corresponde ao último dia do mês indicado.  </p>
+</li>
+<li>
+<p>Conserve o pó e o solvente a temperatura inferior a 25ºC. </p>
+</li>
+<li>
+<p>Conserve o pó e o solvente ao abrigo da luz. </p>
+</li>
+<li>
+<p>Não congele. </p>
+</li>
+<li>
+<p>Utilize NovoSeven imediatamente após ter misturado o pó com o solvente, para evitar uma 
+infeção. Se não puder utilizar imediatamente após a mistura, deve conservá-lo no frasco para 
+injetáveis com o adaptador e a seringa ainda colocados, no frigorífico entre 2ºC a 8ºC, durante 
+não mais de 24 horas. Não congele a solução misturada de NovoSeven e mantenha-a ao abrigo 
+da luz. Não conserve a solução sem o conselho do seu médico ou enfermeiro. </p>
+</li>
+<li>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de NovoSeven </p>
+<ul>
+<li>
+<p>A substância ativa é o fator VIIa de coagulação recombinante (eptacog alfa ativado). </p>
+</li>
+<li>
+<p>Os outros componentes do pó são cloreto de sódio, cloreto de cálcio di-hidratado, glicilglicina, 
+polisorbato 80, manitol, sacarose, metionina, ácido clorídrico, hidróxido de sódio. Os 
+componentes do solvente são a histidina, ácido clorídrico, hidróxido de sódio, água para 
+preparações injetáveis. </p>
+</li>
+</ul>
+<p>O pó para a solução injetável contém: 1 mg/frasco para injetáveis (correspondente a 50 KUI/frasco), 
+2 mg/frasco para injetáveis (correspondente a 100 KUI/frasco), 5 mg/frasco para injetáveis 
+(correspondente a 250 KUI/frasco) ou 8 mg/frasco para injetáveis (correspondente a 400 KUI/frasco). 
+Após a reconstituição, 1 ml de solução contém 1 mg de eptacog alfa (ativado). 
+1 KUI corresponde a 1.000 UI (Unidades Internacionais). </p>
+<p>Qual o aspeto de NovoSeven e conteúdo da embalagem 
+O frasco para injetáveis com pó contém um pó branco e a seringa pré-cheia contém uma solução 
+transparente e incolor. A solução reconstituída é incolor. Não utilize a solução reconstituída se notar 
+que existem partículas ou que está descolorada. </p>
+<p>Cada embalagem de NovoSeven contém: </p>
+<ul>
+<li>
+<p>1 frasco para injetáveis com pó branco para solução injetável </p>
+</li>
+<li>
+<p>1 adaptador para frascos para injetáveis </p>
+</li>
+<li>
+<p>1 seringa pré-cheia com solvente para reconstituição </p>
+</li>
+<li>
+<p>1 haste do êmbolo  </p>
+</li>
+</ul>
+<p>Apresentações: 1 mg (50 KUI), 2 mg (100 KUI), 5 mg (250 KUI) e 8 mg (400 KUI). 
+Consulte a embalagem exterior para saber qual é a apresentação. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Novo Nordisk A/S 
+Novo Allé 
+DK-2880 Bagsværd, Dinamarca </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1173,6 +1549,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-beff2655528d75e602c405816fbf6082"
 * entry[0].resource = composition-da-beff2655528d75e602c405816fbf6082
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbeff2655528d75e602c405816fbf6082"
+* entry[=].resource = mpbeff2655528d75e602c405816fbf6082
+                            
+                    
+Instance: bundlepackageleaflet-pt-beff2655528d75e602c405816fbf6082
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for novoseven Package Leaflet for language pt"
+Description: "ePI document Bundle for novoseven Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-beff2655528d75e602c405816fbf6082"
+* entry[0].resource = composition-pt-beff2655528d75e602c405816fbf6082
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpbeff2655528d75e602c405816fbf6082"
@@ -1274,6 +1672,18 @@ RuleSet: beff2655528d75e602c405816fbf6082ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-beff2655528d75e602c405816fbf6082) // novoseven pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

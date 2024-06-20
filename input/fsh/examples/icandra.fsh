@@ -860,6 +860,444 @@ hjemmeside http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-pt-961faf0eee8775284864611bbc5e6fdb
+InstanceOf: CompositionUvEpi
+Title: "Composition for icandra Package Leaflet"
+Description:  "Composition for icandra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp961faf0eee8775284864611bbc5e6fdb)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - icandra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Icandra e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Icandra </li>
+<li>Como tomar Icandra </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Icandra </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é icandra e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é icandra e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>As substâncias ativas de Icandra, vildagliptina e metformina, pertencem a um grupo de medicamentos 
+denominados “antidiabéticos orais". </p>
+<p>Icandra é utilizado para tratamento de doentes adultos com diabetes tipo 2. Este tipo de diabetes é 
+também conhecido por diabetes mellitus não insulino-dependente. Icandra é utilizado quando a 
+diabetes não pode ser controlada por dieta e exercício apenas e/ou outros medicamentos usados para 
+tratar diabetes (insulina ou sulfonilureias). </p>
+<p>A diabetes tipo 2 desenvolve-se se o organismo não produzir insulina suficiente ou se a insulina 
+produzida pelo organismo não funcionar tão bem como deveria. Pode também desenvolver-se se o 
+organismo produzir demasiado glucagom. </p>
+<p>Tanto a insulina como o glucagom são produzidos pelo pâncreas. A insulina ajuda a reduzir o nível de 
+açúcar no sangue, especialmente após as refeições. O glucagom desencadeia a produção de açúcar 
+pelo fígado, provocando o aumento do nível de açúcar no sangue. </p>
+<p>Como atua Icandra 
+Ambas as substâncias ativas, vildagliptina e metformina ajudam a controlar o nível de açúcar no 
+sangue. A substância vildagliptina atua estimulando o pâncreas a produzir mais insulina e menos 
+glucagom. A substância metformina atua ajudando o organismo a utilizar melhor a insulina. Este 
+medicamento provou reduzir o açúcar no sangue, o que pode ajudar a prevenir complicações da 
+diabetes. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar icandra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar icandra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Icandra 
+- se tem alergia à vildagliptina, à metformina ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). Se pensa que pode ser alérgico a qualquer um dos componentes, 
+consulte o seu médico antes de tomar Icandra. 
+- se tem diabetes não controlada, com, por exemplo, hiperglicemia grave (glicose elevada no 
+sangue), náuseas, vómitos, diarreia, rápida perda de peso, acidose láctica (ver “Risco de acidose 
+láctica" abaixo) ou cetoacidose. A cetoacidose é um problema que ocorre quando substâncias 
+chamadas “corpos cetónicos" se acumulam no sangue, podendo provocar pré-coma diabético. 
+Os sintomas incluem dor de estômago, respiração rápida e profunda, sonolência ou 
+aparecimento no hálito de um cheiro frutado invulgar.<br />
+- se teve recentemente um enfarte do miocárdio (ataque cardíaco) ou se tem insuficiência 
+cardíaca ou problemas graves de circulação sanguínea ou dificuldade em respirar que possa ser 
+sintoma de problemas cardíacos. 
+- se tem função renal gravemente reduzida. 
+- se tem uma infeção grave ou estiver gravemente desidratado (tiver perdido muita água do 
+organismo). 
+- se for fazer uma radiografia com contraste (um tipo específico de raio-x que requer a 
+administração de um corante através de uma injeção). Ver também informação na secção 
+“Advertências e precauções". 
+- se tem doença hepática (problemas ao nível do fígado). 
+- se bebe álcool em excesso (diariamente ou apenas de tempos a tempos). 
+- se está a amamentar (ver também “Gravidez e aleitamento"). </p>
+<p>Advertências e precauções </p>
+<p>Risco de acidose láctica 
+Icandra pode causar um efeito indesejável muito raro, mas muito grave, chamado acidose láctica, 
+particularmente se os seus rins não funcionam bem. O risco de sofrer acidose láctica aumenta também 
+em caso de diabetes não controlada, infeção grave, jejum prolongado ou consumo de álcool, 
+desidratação (ver mais informações abaixo), problemas de fígado, e quaisquer problemas médicos em 
+que uma zona do corpo receba menos oxigénio (como nas doenças graves e agudas do coração).<br />
+Se estiver em alguma destas situações, fale com o seu médico para que lhe dê mais indicações. </p>
+<p>Pare de tomar Icandra durante um curto intervalo de tempo se tiver algum problema que possa 
+estar associado a desidratação (grande perda de líquidos), tal como vómitos graves, diarreia, febre, 
+exposição ao calor ou se beber menos líquidos do que o normal. Fale com o seu médico para que lhe 
+dê mais indicações. </p>
+<p>Pare de tomar Icandra e contacte imediatamente um médico ou o hospital mais próximo se tiver 
+um ou mais sintomas de acidose láctica, pois este problema pode levar ao coma. 
+Os sintomas de acidose láctica incluem: 
+- vómitos 
+- dor de barriga (dor abdominal) 
+- cãibras musculares 
+- sensação de mal-estar geral, com grande cansaço 
+- dificuldade em respirar 
+- diminuição da temperatura do corpo e dos batimentos cardíacos </p>
+<p>A acidose láctica é uma emergência médica e tem de ser tratada no hospital. </p>
+<p>Icandra não é um substituto da insulina. Portanto, não deve tomar Icandra para o tratamento de 
+diabetes tipo 1.<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Icandra se tem ou teve uma 
+doença do pâncreas. </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Icandra se estiver a tomar um 
+medicamento antidiabético conhecido como uma sulfonilureia. O seu médico pode querer reduzir a 
+dose da sulfonilureia quando for tomá-la juntamente com Icandra para evitar um nível baixo de açúcar 
+no sangue [hipoglicemia]. </p>
+<p>Se já tomou vildagliptina mas teve de interromper o tratamento devido a doença do fígado, não deve 
+tomar este medicamento. </p>
+<p>As lesões na pele são uma complicação comum da diabetes. Aconselha-se que siga as recomendações 
+sobre os cuidados a ter com a pele e os pés que lhe são dadas pelo seu médico ou enfermeiro. 
+Aconselha-se também que esteja atento ao aparecimento de vesículas ou úlceras enquanto estiver a 
+tomar Icandra. Neste caso, deve consultar imediatamente o seu médico. </p>
+<p>Se necessitar de efetuar uma grande cirurgia, tem de parar de tomar Icandra durante a intervenção e 
+por algum tempo depois desta. O seu médico decidirá quando tem de parar e quando prosseguir o seu 
+tratamento com Icandra. </p>
+<p>Antes de iniciar o tratamento com Icandra será feito um teste para determinação da sua função 
+hepática, trimestralmente durante o primeiro ano e depois periodicamente. Os testes destinam-se a 
+detetar o mais cedo possível aumentos das enzimas hepáticas. </p>
+<p>Durante o tratamento com Icandra, o médico irá verificar o funcionamento dos seus rins uma vez por 
+ano, ou com mais frequência se for idoso e/ou se os seus rins estiverem a funcionar pior.  </p>
+<p>O seu médico pedirá análises regularmente para verificar o açúcar no sangue e na urina. </p>
+<p>Crianças e adolescentes 
+A utilização de Icandra não é recomendada em crianças e adolescentes até aos 18 anos de idade. </p>
+<p>Outros medicamentos e Icandra 
+Se necessitar de levar uma injeção na corrente sanguínea de um meio de contraste que contenha iodo, 
+por exemplo, no contexto de uma radiografia ou cintigrafia, tem de parar de tomar Icandra antes ou no 
+momento da injeção. O seu médico decidirá quando tem de parar e quando prosseguir o seu tratamento 
+com Icandra.  </p>
+<p>Informe o seu médico se estiver a tomar, tiver tomado recentemente ou se vier a tomar outros 
+medicamentos. Pode necessitar de análises mais frequentes da glicemia e da função renal, ou o médico 
+pode necessitar de ajustar a dosagem de Icandra. É especialmente importante mencionar o seguinte:<br />
+- glucocorticoides, geralmente utilizados para tratar uma inflamação 
+- beta-2 agonistas, geralmente utilizados para tratar problemas respiratórios 
+- outros medicamentos para tratamento da diabetes 
+- medicamentos que aumentam a produção de urina (diuréticos)<br />
+- medicamentos utilizados para tratar a dor e a inflamação (AINE e inibidores da COX-2, tais 
+como o ibuprofeno e celecoxib) 
+- determinados medicamentos para o tratamento da tensão arterial elevada (inibidores da ECA e 
+antagonistas do recetor da angiotensina II) 
+- alguns medicamentos que afetam a tiroide<br />
+- alguns medicamentos que afetam o sistema nervoso<br />
+- alguns medicamentos usados para tratar angina (por ex. ranolazina) 
+- alguns medicamentos usados para tratar infecção por HIV (por ex. dolutegravir) 
+- alguns medicamentos usados para tratar um tipo específico de cancro da tiróide (carcinoma 
+medular da tiróide) (por ex. vandetanib) 
+- alguns medicamentos usados para tratar azia e úlceras pépticas (ex. cimetidina) </p>
+<p>Icandra com álcool 
+Evite o consumo excessivo de álcool enquanto estiver a tomar Icandra, uma vez que tal pode aumentar 
+o risco de acidose láctica (ver secção “Advertências e precauções"). </p>
+<p>Gravidez e amamentação 
+- Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de 
+tomar este medicamento. O seu médico avaliará consigo o potencial risco de tomar Icandra 
+durante a gravidez. 
+- Não utilize Icandra se estiver grávida ou a amamentar (ver também “Não tome Icandra"). </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Se sentir tonturas enquanto está a tomar Icandra, não conduza nem utilize quaisquer ferramentas ou 
+máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar icandra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar icandra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A quantidade de Icandra que cada indivíduo deve tomar varia com a sua condição. O seu médico dir-
+lhe-á exatamente a dose de Icandra que deve tomar. </p>
+<p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é um comprimido revestido por película de 50 mg/850 mg ou de 50 mg/1000 mg 
+tomado duas vezes por dia. </p>
+<p>Se tiver uma função renal diminuída, o seu médico poderá receitar-lhe uma dose mais baixa. Além disso, 
+se estiver a tomar um medicamento antidiabético conhecido como uma sulfonilureia o seu médico pode 
+prescrever uma dose mais baixa. </p>
+<p>O seu médico poderá prescrever este medicamento isoladamente ou com outros medicamentos que 
+baixem o nível de açúcar no sangue. </p>
+<p>Quando e como tomar Icandra 
+- Engula os comprimidos inteiros com um copo de água. 
+- Tome um comprimido de manhã e o outro à noite, durante ou após a refeição. Tomar o 
+comprimido imediatamente após a refeição diminuirá o risco de indisposição do estômago. </p>
+<p>Continue a seguir os conselhos sobre dieta que o seu médico lhe deu. Particularmente se está a seguir 
+uma dieta para controlo de peso, não a interrompa enquanto estiver a tomar Icandra. </p>
+<p>Se tomar mais Icandra do que deveria 
+Se tomou demasiados comprimidos de Icandra ou se alguém tomou os seus comprimidos, contacte 
+imediatamente um médico ou farmacêutico. Podem ser necessários cuidados médicos. Se for 
+necessário dirigir-se ao médico ou ao hospital, leve consigo a embalagem e este folheto informativo. </p>
+<p>Caso se tenha esquecido de tomar Icandra 
+Se se esquecer de tomar um comprimido, tome-o com a refeição seguinte exceto se já tiver de tomar 
+um. Não tome uma dose a dobrar (dois comprimidos de uma vez) para compensar um comprimido que 
+se esqueceu de tomar. </p>
+<p>Se parar de tomar Icandra 
+Continue a tomar este medicamento enquanto o seu médico o prescrever para que este continue a 
+controlar o seu açúcar no sangue. Não deixe de tomar Icandra a menos que o seu médico lhe dê essa 
+indicação. Fale com o seu médico se tiver dúvidas sobre durante quanto tempo deve tomar este 
+medicamento. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico, 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Deve parar de tomar Icandra e consultar imediatamente o seu médico se sentir os seguintes efeitos 
+indesejáveis: 
+- Acidose láctica (muito raro: pode afetar até 1 em 10 000 pessoas): 
+Icandra pode causar um efeito secundário muito raro (pode afetar até 1 utilizador em cada 
+10.000), mas muito grave, chamado acidose láctica (ver secção “Advertências e precauções"). 
+Se isto acontecer, tem de parar de tomar Icandra e contactar imediatamente um médico ou o 
+hospital mais próximo, pois a acidose láctica pode provocar coma. 
+- Angioedema (raro: pode afetar até 1 em 1.000 pessoas): os sintomas incluem inchaço da face, 
+da língua ou da garganta, dificuldade em engolir, dificuldade em respirar, erupção cutânea 
+súbita ou urticária, que podem ser indicativos de uma reação denominada “angioedema". 
+- Doença do fígado (hepatite) (pouco frequente: pode afetar até 1 em 100 pessoas): os sintomas 
+incluem pele e olhos amarelos, náuseas, perda de apetite ou urina de cor escura, que podem ser 
+indicativos de doença no fígado (hepatite). 
+- Inflamação do pâncreas (pancreatite) (pouco frequente: pode afetar até 1 em 
+100 pessoas): Os sintomas incluem dor forte e persistente no abdómen (zona do 
+estômago), que pode irradiar para as costas, bem como náuseas e vómitos. </p>
+<p>Outros efeitos indesejáveis 
+Alguns doentes manifestaram os seguintes efeitos indesejáveis quando tomaram Icandra: </p>
+<ul>
+<li>Frequentes (pode afetar até 1 em 10 pessoas): dor de garganta, corrimento nasal, febre, erupção 
+na pele com comichão, transpiração excessiva, dores nas articulações, tonturas, cefaleias (dor de 
+cabeça), tremores não controláveis, prisão de ventre, náuseas (má disposição), vómitos, diarreia, 
+flatulência (gases), azia, dor no estômago e na zona do estômago (dor abdominal). </li>
+<li>Pouco frequentes (podem afetar até 1 em 100 pessoas): cansaço, fraqueza, sabor metálico, 
+glicose baixa no sangue, perda de apetite, inchaço das mãos, tornozelos ou pés (edema), 
+arrepios, inflamação do pâncreas, dores musculares. </li>
+<li>Muito raros (podem afetar até 1 em 10.000 pessoas): sintomas de nível elevado de ácido láctico 
+no sangue (conhecido como acidose láctica) tais como cansaço ou tonturas, náuseas intensas ou 
+vómitos, dor abdominal, arritmias cardíacas ou respiração ofegante; vermelhidão da pele, 
+prurido (comichão); níveis baixos de vitamina B12 (palidez, cansaço, sintomas mentais tais 
+como confusão ou perturbações da memória). </li>
+</ul>
+<p>Desde que este produto se encontra no mercado, foram também comunicados os seguintes efeitos 
+indesejáveis: 
+- Frequência desconhecida (não pode ser calculado a partir dos dados disponíveis): descamação 
+da pele localizada ou bolhas, inflamação dos vasos sanguíneos (vasculite) que pode resultar em 
+erupção na pele ou manchas redondas, vermelhas, planas, pontiagudas sob a superfície da pele 
+ou nódoas negras. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar icandra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar icandra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Manter este medicamento fora da vista e do alcance das crianças. </li>
+<li>Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem 
+exterior após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </li>
+<li>Não conservar acima de 30°C. </li>
+<li>Conservar na embalagem de origem (blister) para proteger da humidade. </li>
+<li>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Icandra 
+- As substâncias ativas são vildagliptina e cloridrato de metformina<br />
+- Cada comprimido revestido por película de Icandra 50 mg/850 mg contém 50 mg de 
+vildagliptina e 850 mg de cloridrato de metformina (correspondente a 660 mg de metformina). 
+- Cada comprimido revestido por película de Icandra 50 mg/1000 mg contém 50 mg de 
+vildagliptina e 1000 mg de cloridrato de metformina (correspondente a 780 mg de metformina). 
+- Os outros componentes são: hidroxipropilcelulose, estearato de magnésio, hipromelose, dióxido 
+de titânio (E 171), óxido de ferro amarelo (E 172), macrogol 4000 e talco. </p>
+<p>Qual o aspeto de Icandra e conteúdo da embalagem 
+Os comprimidos revestidos por película Icandra 50 mg/850 mg são amarelos, ovais com “NVR" numa 
+face e “SEH" na outra. 
+Os comprimidos revestidos por película Icandra 50 mg/1000 mg são amarelo-escuro, ovais com 
+“NVR" numa face e “FLO" na outra. </p>
+<p>Icandra encontra-se disponível em embalagens contendo 10, 30, 60, 120, 180 ou 360 comprimidos 
+revestidos por película e em embalagens múltiplas contendo 120 (2x60), 180 (3x60) ou 360 (6x60) 
+comprimidos revestidos por película. É possível que não sejam comercializadas todas as apresentações 
+e todas as dosagens no seu País. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Lek d.d, PE PROIZVODNJA LENDAVA 
+Trimlini 2D 
+Lendava, 9Eslovénia </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse D-90429 Nuremberga 
+Alemanha </p>
+<p>Novartis Pharmaceutical Manufacturing LLC 
+Verovškova ulica 1000 Ljubljana 
+Eslovénia </p>
+<p>Novartis Farmacéutica, S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16 Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Laboratorios Gebro Pharma, S.A. 
+Tel: +34 93 205 86<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Laboratório Normal - Produtos Farmacêuticos Lda. 
+Tel. +351 21 000 8 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -901,6 +1339,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-961faf0eee8775284864611bbc5e6fdb"
 * entry[0].resource = composition-da-961faf0eee8775284864611bbc5e6fdb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp961faf0eee8775284864611bbc5e6fdb"
+* entry[=].resource = mp961faf0eee8775284864611bbc5e6fdb
+                            
+                    
+Instance: bundlepackageleaflet-pt-961faf0eee8775284864611bbc5e6fdb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for icandra Package Leaflet for language pt"
+Description: "ePI document Bundle for icandra Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-961faf0eee8775284864611bbc5e6fdb"
+* entry[0].resource = composition-pt-961faf0eee8775284864611bbc5e6fdb
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp961faf0eee8775284864611bbc5e6fdb"
@@ -1002,6 +1462,18 @@ RuleSet: 961faf0eee8775284864611bbc5e6fdbListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-961faf0eee8775284864611bbc5e6fdb) // icandra pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

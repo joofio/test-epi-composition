@@ -2881,6 +2881,1465 @@ er nævnt i denne indlægsseddel. Se punkt 4. </p>
 
 
 
+Instance: composition-pt-25519bb07426cab26500e5ad89df90b0
+InstanceOf: CompositionUvEpi
+Title: "Composition for yuflyma Package Leaflet"
+Description:  "Composition for yuflyma Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp25519bb07426cab26500e5ad89df90b0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - yuflyma"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instruções para utilização </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Yuflyma e para que é utilizado 
+2. O que precisa de saber antes de utilizar Yuflyma 
+3. Como utilizar Yuflyma 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Yuflyma 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é yuflyma e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é yuflyma e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Yuflyma contém a substância ativa adalimumab, um medicamento que atua no sistema imunitário 
+(defesa) do seu corpo. </p>
+<p>Yuflyma é usado no tratamento das doenças inflamatórias seguintes: </p>
+<ul>
+<li>
+<p>Artrite reumatoide </p>
+</li>
+<li>
+<p>Artrite idiopática juvenil poliarticular </p>
+</li>
+<li>
+<p>Artrite relacionada com entesite </p>
+</li>
+<li>
+<p>Espondilite anquilosante </p>
+</li>
+<li>
+<p>Espondilartrite axial sem evidência radiográfica de espondilite anquilosante </p>
+</li>
+<li>
+<p>Artrite psoriática </p>
+</li>
+<li>
+<p>Psoríase em placas </p>
+</li>
+<li>
+<p>Hidradenite supurativa </p>
+</li>
+<li>
+<p>Doença de Crohn </p>
+</li>
+<li>
+<p>Colite ulcerosa </p>
+</li>
+<li>
+<p>Uveíte não infeciosa </p>
+</li>
+</ul>
+<p>A substância ativa de Yuflyma, adalimumab, é um anticorpo monoclonal humano. Os anticorpos 
+monoclonais são proteínas que se ligam a um alvo específico no corpo. </p>
+<p>O alvo de adalimumab é uma proteína denominada fator de necrose tumoral (TNFα), que está 
+envolvida no sistema imunitário (defesa) e está presente em níveis aumentados nas doenças 
+inflamatórias acima mencionadas. Ao ligar-se ao TNFα, Yuflyma diminui o processo inflamatório 
+destas doenças. </p>
+<p>Artrite reumatoide </p>
+<p>A artrite reumatoide é uma doença inflamatória das articulações. </p>
+<p>Yuflyma é usado no tratamento da artrite reumatoide moderada a grave em adultos. É possível que 
+tenha sido previamente tratado com outros medicamentos modificadores da doença, como 
+metotrexato. Se não responder suficientemente bem a estes medicamentos, receberá Yuflyma. </p>
+<p>Yuflyma pode ser usado no tratamento da artrite reumatoide grave, ativa e progressiva sem tratamento 
+prévio com metotrexato. </p>
+<p>Yuflyma pode retardar a lesão das articulações causada pela doença inflamatória e pode ajudá-las a 
+moverem-se mais livremente. </p>
+<p>O seu médico irá decidir se Yuflyma pode ser usado com metotrexato ou isoladamente. </p>
+<p>Artrite idiopática juvenil poliarticular </p>
+<p>A artrite idiopática juvenil poliarticular é uma doença inflamatória das articulações. </p>
+<p>Yuflyma é usado no tratamento da artrite idiopática juvenil poliarticular em doentes a partir dos 2 anos 
+de idade. É possível que tenha sido previamente tratado com outros medicamentos modificadores da 
+doença, como metotrexato. Se não responder suficientemente bem a estes medicamentos, receberá 
+Yuflyma. </p>
+<p>O seu médico irá decidir se Yuflyma pode ser usado com metotrexato ou isoladamente. </p>
+<p>Artrite relacionada com entesite </p>
+<p>A artrite relacionada com entesite é uma doença inflamatória das articulações e dos locais onde os 
+tendões se ligam ao osso. </p>
+<p>Yuflyma é usado no tratamento da artrite relacionada com entesite em doentes a partir dos 6 anos de 
+idade. É possível que tenha sido previamente tratado com outros medicamentos modificadores da 
+doença, como metotrexato. Se não responder suficientemente bem a estes medicamentos, receberá 
+Yuflyma. </p>
+<p>Espondilite anquilosante e espondilartrite axial sem evidência radiográfica de espondilite 
+anquilosante </p>
+<p>A espondilite anquilosante e espondilartrite axial sem evidência radiográfica de espondilite 
+anquilosante são doenças inflamatórias da coluna vertebral. </p>
+<p>Yuflyma é usado para tratar a espondilartrite axial e a espondilite anquilosante graves sem evidência 
+radiográfica de espondilite anquilosante em adultos. Pode ser tratado inicialmente com outros 
+medicamentos. Se não responder suficientemente bem a estes medicamentos, receberá Yuflyma. </p>
+<p>Artrite psoriática </p>
+<p>A artrite psoriática é uma doença inflamatória das articulações associada normalmente à psoríase. </p>
+<p>Yuflyma é usado no tratamento da artrite psoriática em adultos. Yuflyma pode retardar a lesão das 
+articulações causada pela doença e pode ajudá-las a moverem-se mais livremente. Pode ser tratado 
+inicialmente com outros medicamentos. Se não responder suficientemente bem a estes medicamentos, 
+receberá Yuflyma. </p>
+<p>Psoríase em placas </p>
+<p>Psoríase em placas é uma doença da pele que provoca manchas avermelhadas, secas e com placas na 
+pele, cobertas de escamas prateadas. A psoríase em placas pode também afetar as unhas, causando a 
+sua desintegração, tornando-as espessas e descoladas da base da unha o que pode ser doloroso. </p>
+<p>Yuflyma é usado no tratamento da </p>
+<ul>
+<li>
+<p>psoríase crónica em placas moderada a grave em adultos e </p>
+</li>
+<li>
+<p>psoríase crónica em placas grave em crianças e adolescentes com idades entre os 4 e os 17 anos 
+de idade, para os quais o tratamento tópico e fototerapias não resultaram ou são inadequados. </p>
+</li>
+</ul>
+<p>Hidradenite supurativa </p>
+<p>Hidradenite supurativa (por vezes chamada acne inversa) é uma doença inflamatória crónica da pele, 
+muitas vezes dolorosa. Os sintomas podem incluir nódulos dolorosos (caroços) e abcessos 
+(furúnculos) que podem libertar pus. Frequentemente afeta áreas da pele específicas, tais como a 
+região inframamária (abaixo das mamas), axilas, coxas, virilhas e nádegas. Nas áreas afetadas, podem 
+também surgir cicatrizes. </p>
+<p>Yuflyma é usado no tratamento da </p>
+<ul>
+<li>
+<p>hidradenite supurativa moderada a grave em adultos e </p>
+</li>
+<li>
+<p>hidradenite supurativa moderada a grave em adolescentes entre os 12 e os 17 anos. </p>
+</li>
+</ul>
+<p>Yuflyma pode reduzir o número de nódulos e abcessos existentes, bem como a dor frequentemente 
+associada à doença. Pode ser tratado inicialmente com outros medicamentos. Se não responder 
+suficientemente bem a estes medicamentos, receberá Yuflyma. </p>
+<p>Doença de Crohn </p>
+<p>A doença de Crohn é uma doença inflamatória do aparelho digestivo. Yuflyma é usado no tratamento 
+da </p>
+<ul>
+<li>
+<p>doença de Crohn moderada a grave em adultos e </p>
+</li>
+<li>
+<p>doença de Crohn moderada a grave em crianças e adolescentes entre os 6 e os 17 anos. </p>
+</li>
+</ul>
+<p>Pode ser tratado inicialmente com outros medicamentos. Se não responder suficientemente bem a estes 
+medicamentos, receberá Yuflyma. </p>
+<p>Colite ulcerosa </p>
+<p>A colite ulcerosa é uma doença inflamatória do intestino grosso. </p>
+<p>Yuflyma é usado no tratamento da  </p>
+<ul>
+<li>
+<p>colite ulcerosa moderada a grave em adultos e </p>
+</li>
+<li>
+<p>colite ulcerosa moderada a grave em crianças e adolescentes entre os 6 e os 17 anos. </p>
+</li>
+</ul>
+<p>Pode ser tratado inicialmente com outros medicamentos. Se não responder suficientemente bem a estes 
+medicamentos, receberá Yuflyma. </p>
+<p>Uveíte não infeciosa </p>
+<p>A uveíte não infeciosa é uma doença inflamatória que afeta diferentes partes do olho. Yuflyma é usado 
+no tratamento da </p>
+<ul>
+<li>
+<p>uveíte não infeciosa com inflamação, afetando a parte de trás do olho, em adultos </p>
+</li>
+<li>
+<p>uveíte não infeciosa, crónica, com inflamação, afetando a parte da frente do olho, em crianças a 
+partir dos 2 anos de idade. </p>
+</li>
+</ul>
+<p>Esta inflamação pode levar a uma diminuição da visão e/ou à presença de moscas volantes no olho 
+(pontos pretos ou linhas finas que se movem através do campo de visão). Yuflyma atua através da 
+redução da inflamação. </p>
+<p>Pode ser tratado inicialmente com outros medicamentos. Se não responder suficientemente bem a estes 
+medicamentos, receberá Yuflyma. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar yuflyma"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar yuflyma"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Yuflyma: </p>
+<ul>
+<li>
+<p>Se tem alergia a adalimumab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>Se tem tuberculose ativa ou outras infeções graves (ver “Advertências e precauções"). Deve 
+contactar o seu médico se tiver sintomas de infeção, tais como febre, feridas, sensação de 
+cansaço, problemas dentários. </p>
+</li>
+<li>
+<p>Se tem insuficiência cardíaca moderada a grave. É importante que informe o seu médico se tem 
+ou se teve alterações cardíacas graves (ver “Advertências e precauções"). </p>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou farmacêutico antes de utilizar Yuflyma. </p>
+<p>Reações alérgicas </p>
+<ul>
+<li>Se tiver reações alérgicas com sintomas, tais como dificuldade em respirar, respiração ofegante, 
+tonturas, inchaço ou pele irritada, interrompa a administração de Yuflyma e contacte 
+imediatamente o seu médico uma vez que, em casos raros, estas reações podem ser 
+potencialmente fatais. </li>
+</ul>
+<p>Infeções </p>
+<ul>
+<li>
+<p>Se tiver uma infeção, incluindo uma infeção crónica ou uma infeção em qualquer parte do seu 
+corpo (por exemplo, úlcera da perna) informe o seu médico antes de iniciar o tratamento com 
+Yuflyma. Se tiver quaisquer dúvidas, deve contactar o seu médico. </p>
+</li>
+<li>
+<p>Pode contrair mais facilmente infeções enquanto estiver a ser tratado com Yuflyma. Este risco 
+pode aumentar se a sua função pulmonar estiver diminuída. Estas infeções podem ser graves e 
+incluem: </p>
+</li>
+<li>
+<p>tuberculose </p>
+</li>
+<li>
+<p>infeções causadas por vírus, fungos, parasitas ou bactérias </p>
+</li>
+<li>
+<p>infeção grave no sangue (sepsia) </p>
+</li>
+</ul>
+<p>Em casos raros, estas infeções podem pôr a vida em risco. Deve informar o seu médico se tiver 
+sintomas, tais como febre, feridas, sensação de cansaço ou problemas dentários. O seu médico 
+pode aconselhar a suspensão temporária de Yuflyma. </p>
+<ul>
+<li>
+<p>Informe o seu médico se reside ou viaja em regiões nas quais as infeções fúngicas (tais como 
+histoplasmose, coccidioidomicose ou blastomicose) são endémicas. </p>
+</li>
+<li>
+<p>Informe o seu médico se tem antecedentes de infeções recorrentes ou quaisquer outros 
+problemas que aumentem o risco de infeções. </p>
+</li>
+<li>
+<p>Se tem mais de 65 anos, pode estar mais suscetível a infeções enquanto estiver a ser tratado com 
+Yuflyma. Em conjunto com o seu médico, deve tomar especial atenção a sinais de infeção 
+enquanto estiver a ser tratado com Yuflyma. É importante informar o seu médico se tiver 
+sintomas de infeções, tais como febre, feridas, sensação de cansaço ou problemas dentários. </p>
+</li>
+</ul>
+<p>Tuberculose </p>
+<ul>
+<li>
+<p>É muito importante que informe o seu médico se já sofreu de tuberculose ou se esteve em 
+contacto próximo com alguém com esta doença. Se tem tuberculose ativa, não utilize Yuflyma. </p>
+</li>
+<li>
+<p>Uma vez que foram notificados casos de tuberculose em doentes tratados com Yuflyma, o 
+seu médico irá avaliá-lo para despiste de sinais e sintomas de tuberculose antes de iniciar 
+a terapêutica com Yuflyma. Esta avaliação irá incluir uma história clinica pormenorizada 
+e exames de despiste apropriados (por exemplo, uma radiografia do tórax e um teste de 
+tuberculina). A realização e o resultado destes exames devem ser registados no Cartão de 
+Segurança do Doente. </p>
+</li>
+<li>
+<p>A tuberculose pode vir a manifestar-se durante o tratamento, ainda que tenha efetuado 
+tratamento de profilaxia da tuberculose. </p>
+</li>
+<li>
+<p>Se surgirem sintomas de tuberculose (tosse persistente, perda de peso, fraqueza, febre 
+ligeira) ou qualquer outra infeção durante ou após o tratamento, informe imediatamente o 
+seu médico. </p>
+</li>
+</ul>
+<p>Hepatite B </p>
+<ul>
+<li>
+<p>Informe o seu médico se é um portador do vírus da Hepatite B (VHB), se tem o vírus VHB ativo 
+ou se pensa que pode estar em risco de contrair VHB. </p>
+</li>
+<li>
+<p>O seu médico deve avaliá-lo para determinar se tem VHB. Yuflyma pode causar 
+reativação de VHB em pessoas portadoras deste vírus. </p>
+</li>
+<li>
+<p>Em alguns casos raros, especialmente se tomar outros medicamentos que suprimem o 
+sistema imunitário, a reativação de VHB pode pôr a sua vida em risco. </p>
+</li>
+</ul>
+<p>Intervenção cirúrgica ou dentária </p>
+<ul>
+<li>Se vai ser submetido a uma intervenção cirúrgica ou dentária, informe o seu médico de que está 
+a tomar Yuflyma. O seu médico pode aconselhar a suspensão temporária de Yuflyma. </li>
+</ul>
+<p>Doença desmielinizante </p>
+<ul>
+<li>Se sofre ou vier a desenvolver uma doença desmielinizante (uma doença que afeta a camada 
+isolante à volta dos nervos, tal como esclerose múltipla), o seu médico irá decidir se pode 
+utilizar ou continuar a utilizar Yuflyma. Caso desenvolva sintomas, tais como alterações na 
+visão, fraqueza nos braços ou pernas ou dormência ou formigueiro em qualquer parte do corpo, 
+informe imediatamente o seu médico. </li>
+</ul>
+<p>Vacinação </p>
+<ul>
+<li>
+<p>Certas vacinas podem causar infeções e não devem ser administradas em conjunto com 
+Yuflyma. </p>
+</li>
+<li>
+<p>Contacte o seu médico antes de receber qualquer vacina. </p>
+</li>
+<li>
+<p>Recomenda-se que as crianças, antes de iniciarem o tratamento com Yuflyma, se 
+possível, recebam todas as vacinas, de acordo com o atual plano de vacinação nacional. </p>
+</li>
+<li>
+<p>Se recebeu Yuflyma durante a gravidez, o seu bebé pode ter um risco superior de ter tais 
+infeções até, aproximadamente, cinco meses após a última dose de Yuflyma que recebeu 
+durante a gravidez. É importante que diga ao médico do seu bebé e a outros profissionais 
+de saúde que usou Yuflyma durante a sua gravidez, para que estes possam decidir quando 
+pode ser dada qualquer vacina ao seu bebé. </p>
+</li>
+</ul>
+<p>Insuficiência cardíaca </p>
+<ul>
+<li>Se sofre de insuficiência cardíaca ligeira e está a ser tratado com Yuflyma, o estado da sua 
+insuficiência cardíaca deve ser controlado cuidadosamente pelo seu médico. É muito importante 
+que informe o seu médico se sofre ou já sofreu de problemas cardíacos graves. Caso desenvolva 
+novos sintomas ou agravamento dos sintomas de insuficiência cardíaca (por exemplo, falta de ar 
+ou inchaço dos pés), deve contactar o seu médico imediatamente. O seu médico irá decidir se 
+pode utilizar Yuflyma. </li>
+</ul>
+<p>Febre, nódoas negras, perdas de sangue ou aspeto pálido </p>
+<ul>
+<li>Em alguns doentes, o organismo pode ser incapaz de produzir suficientes células sanguíneas que 
+combatam infeções ou ajudem a parar hemorragias. O seu médico pode decidir suspender o 
+tratamento. Caso verifique febre que se mantenha, tiver nódoas negras ou perdas de sangue 
+muito facilmente ou se apresentar um aspeto muito pálido, informe imediatamente o seu 
+médico. </li>
+</ul>
+<p>Cancro </p>
+<ul>
+<li>
+<p>Têm ocorrido, em casos muito raros, certos tipos de cancro em crianças e adultos doentes 
+tratados com Yuflyma ou com outros antagonistas-TNF. </p>
+</li>
+<li>
+<p>Doentes com artrite reumatoide muito grave que tenham doença prolongada podem ter 
+um maior risco médio de aparecimento de linfoma (um cancro que afeta o sistema 
+linfático) e leucemia (um cancro que afeta o sangue e medula óssea). </p>
+</li>
+<li>
+<p>Se toma Yuflyma, o risco de ter linfoma, leucemia, ou outro tipo de cancro pode 
+aumentar. Em raras ocasiões, em doentes tratados com Yuflyma, foi notificado um tipo 
+de linfoma pouco frequente e grave. Alguns destes doentes foram também tratados com 
+azatioprina ou 6-mercaptopurina. </p>
+</li>
+<li>
+<p>Diga ao seu médico se está a tomar azatioprina ou 6-mercaptopurina com Yuflyma. </p>
+</li>
+<li>
+<p>Foram observados casos de neoplasias cutâneas não melanomas em doentes tratados com 
+Yuflyma. </p>
+</li>
+<li>
+<p>Se aparecerem novas lesões de pele durante ou depois do tratamento, ou se existirem 
+alterações no aspeto de lesões existentes, informe o seu médico. </p>
+</li>
+<li>
+<p>Existem casos de cancros, para além de linfoma, em doentes com um tipo específico de doença 
+pulmonar denominada Doença Pulmonar Obstrutiva Crónica (DPOC) tratados com outros 
+antagonistas-TNF. Se tem DPOC, ou se fuma muito, deve falar com o seu médico para saber se 
+o tratamento com um bloqueador-TNF é apropriado para si. </p>
+</li>
+</ul>
+<p>Doença autoimune </p>
+<ul>
+<li>Em raras ocasiões, o tratamento com Yuflyma pode dar origem a sintomas sugestivos de uma 
+síndrome do tipo lúpus. Contacte o seu médico se ocorrerem sintomas tais como inesperada 
+erupção cutânea persistente, febre, dor nas articulações ou cansaço. </li>
+</ul>
+<p>Crianças e adolescentes </p>
+<ul>
+<li>Vacinação: se possível, antes de iniciar Yuflyma, a sua criança deve ter todas as vacinas 
+atualizadas. </li>
+</ul>
+<p>Outros medicamentos e Yuflyma </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. Devido ao risco aumentado de infeções graves, não deve tomar Yuflyma 
+com medicamentos contendo as substâncias ativas seguintes: </p>
+<ul>
+<li>
+<p>anacinra </p>
+</li>
+<li>
+<p>abatacept. </p>
+</li>
+</ul>
+<p>Yuflyma pode ser utilizado em conjunto com: </p>
+<ul>
+<li>
+<p>metotrexato </p>
+</li>
+<li>
+<p>certos medicamentos anti-reumatismais modificadores da doença (por exemplo, sulfassalazina, 
+hidroxicloroquina, leflunomida e preparações injetáveis de sais de ouro) </p>
+</li>
+<li>
+<p>corticosteroides ou medicamentos analgésicos, incluindo medicamentos anti-inflamatórios não 
+esteroides (AINEs). </p>
+</li>
+</ul>
+<p>Se tiver qualquer dúvida, pergunte ao seu médico. </p>
+<p>Gravidez e amamentação </p>
+<ul>
+<li>
+<p>Deverá considerar a utilização de um método contracetivo adequado para evitar a gravidez e 
+continuar a utilizá-lo durante, pelo menos, 5 meses após o último tratamento com Yuflyma. </p>
+</li>
+<li>
+<p>Se está grávida, se pensa que pode estar grávida ou se planeia engravidar, aconselhe-se com o 
+seu médico antes de utilizar esta terapêutica. </p>
+</li>
+<li>
+<p>Yuflyma só deve ser utilizado durante a gravidez se necessário. </p>
+</li>
+<li>
+<p>De acordo com um estudo na gravidez, não houve risco mais elevado de malformações 
+congénitas quando a mãe recebeu Yuflyma durante a gravidez, em comparação com mães com a 
+mesma doença que não receberam Yuflyma. </p>
+</li>
+<li>
+<p>Yuflyma pode ser utilizado durante a amamentação. </p>
+</li>
+<li>
+<p>Se durante a sua gravidez utilizar Yuflyma, o seu bebé pode ter um risco superior de ter uma 
+infeção. </p>
+</li>
+<li>
+<p>É importante que diga ao médico do seu bebé e a outros profissionais de saúde que usou 
+Yuflyma durante a sua gravidez antes que o seu bebé tome qualquer vacina. Para mais 
+informação sobre vacinação, ver secção “Advertências e precauções". </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Yuflyma pode ter uma pequena influência na sua capacidade de conduzir, andar de bicicleta ou utilizar 
+máquinas. Depois de tomar Yuflyma, pode ter vertigens e alterações da visão. </p>
+<p>YUFLYMA contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose de 0,4 ml, ou seja,  é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar yuflyma"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar yuflyma"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>As doses recomendadas de Yuflyma em cada uma das indicações aprovadas encontram-se na tabela 
+abaixo. O seu médico pode prescrever uma dose diferente de Yuflyma de acordo com as suas 
+necessidades. </p>
+<p>Artrite reumatoide, artrite psoriática, espondilite anquilosante ou espondilartrite axial sem 
+evidência radiográfica de espondilite anquilosante 
+Idade ou peso corporal 
+Qual a dose e com que 
+frequência se deve tomar? 
+Notas 
+Adultos 
+40 mg em semanas alternadas 
+Na artrite reumatoide, 
+metotrexato continua a ser 
+utilizado enquanto se usa 
+Yuflyma. Se o seu médico 
+considerar que metotrexato não 
+é adequado, Yuflyma pode ser 
+usado isoladamente. </p>
+<p>Se tem artrite reumatoide e não 
+usar metotrexato conjuntamente 
+com Yuflyma, o seu médico 
+pode decidir administrar 
+Yuflyma 40 mg por semana ou 
+80 mg em semanas alternadas. </p>
+<p>Artrite idiopática juvenil poliarticular 
+Idade ou peso corporal 
+Qual a dose e com que 
+frequência se deve tomar? 
+Notas 
+Crianças, adolescentes e adultos 
+a partir dos 2 anos de idade com 
+peso igual ou superior a 30 kg 
+40 mg em semanas alternadas 
+Não aplicável 
+Crianças e adolescentes a partir 
+dos 2 anos de idade com peso 
+igual a 10 kg ou inferior a 30 kg 
+20 mg em semanas alternadas 
+Não aplicável </p>
+<p>Artrite relacionada com entesite 
+Idade ou peso corporal 
+Qual a dose e com que 
+frequência se deve tomar? 
+Notas 
+Crianças, adolescentes e adultos 
+a partir dos 6 anos de idade com 
+peso igual ou superior a 30 kg 
+40 mg em semanas alternadas 
+Não aplicável 
+Crianças e adolescentes a partir 
+dos 6 anos de idade com peso 
+igual a 15 kg ou inferior a 30 kg 
+20 mg em semanas alternadas 
+Não aplicável </p>
+<p>Psoríase em placas 
+Idade ou peso corporal 
+Qual a dose e com que 
+frequência se deve tomar? 
+Notas 
+Adultos 
+Uma dose inicial de 80 mg 
+(duas injeções de 40 mg num 
+dia), seguida de 40 mg em 
+semanas alternadas, uma 
+semana após a dose inicial. 
+Se tiver uma resposta 
+inadequada, o seu médico pode 
+aumentar a dose para 40 mg por 
+semana ou 80 mg em semanas 
+alternadas. 
+Crianças e adolescentes entre os 
+4 e os 17 anos de idade com 
+peso igual ou superior a 30 kg 
+Dose inicial de 40 mg, seguida 
+de 40 mg uma semana depois. </p>
+<p>Depois disso, a dose habitual é 
+40 mg em semanas alternadas. 
+Não aplicável 
+Psoríase em placas 
+Idade ou peso corporal 
+Qual a dose e com que 
+frequência se deve tomar? 
+Notas 
+Crianças e adolescentes entre os 
+4 e os 17 anos de idade com 
+peso igual a 15 kg ou inferior a 
+30 kg 
+Uma dose inicial de 20 mg, 
+seguida de 20 mg uma semana 
+após a dose inicial. </p>
+<p>Depois disso, a dose habitual é 
+de 20 mg em semanas 
+alternadas. 
+Não aplicável </p>
+<p>Hidradenite supurativa 
+Idade ou peso corporal 
+Qual a dose e com que 
+frequência se deve tomar? 
+Notas 
+Adultos 
+A dose inicial é de 160 mg 
+(quatro injeções de 40 mg num 
+dia ou duas injeções de 40 mg 
+por dia, em dois dias 
+consecutivos), seguida de 80 mg 
+(duas injeções de 40 mg num 
+dia) duas semanas depois. Após 
+mais duas semanas, continuar 
+com uma dose de 40 mg por 
+semana ou 80 mg em semanas 
+alternadas, conforme prescrito 
+pelo seu médico. 
+É recomendável que use um 
+antisséptico de lavagem diária 
+nas áreas afetadas. 
+Adolescentes entre os 12 e os 
+17 anos de idade com peso igual 
+ou superior a 30 kg 
+Uma dose inicial de 80 mg 
+(duas injeções de 40 mg num 
+dia), seguida de 40 mg em 
+semanas alternadas, uma 
+semana depois. 
+Se tiver uma resposta 
+inadequada com Yuflyma 
+40 mg em semanas alternadas, o 
+seu médico pode aumentar a 
+dose para 40 mg semanalmente 
+ou 80 mg em semanas 
+alternadas. </p>
+<p>É recomendável que use um 
+antisséptico de lavagem diária 
+nas áreas afetadas. </p>
+<p>Doença de Crohn 
+Idade ou peso corporal 
+Qual a dose e com que 
+frequência se deve tomar? 
+Notas 
+Crianças, adolescentes e adultos 
+a partir dos 6 anos de idade com 
+peso igual ou superior a 40 kg 
+Uma dose inicial de 80 mg 
+(duas injeções de 40 mg num 
+dia), seguida de 40 mg duas 
+semanas depois. </p>
+<p>Nos casos onde é necessária 
+uma resposta mais rápida, o 
+médico pode prescrever uma 
+dose inicial de 160 mg (quatro 
+injeções de 40 mg num dia ou 
+duas injeções de 40 mg por dia 
+em dois dias consecutivos) 
+seguida de 80 mg (duas injeções 
+de 40 mg num dia) duas 
+semanas mais tarde. </p>
+<p>Depois disso, a dose habitual é 
+40 mg em semanas alternadas. 
+O seu médico pode aumentar a 
+dose para 40 mg por semana ou 
+80 mg em semanas alternadas. 
+Crianças e adolescentes entre os 
+6 e os 17 anos de idade com 
+peso inferior a 40 kg 
+Uma dose inicial de 40 mg, 
+seguida de 20 mg duas semanas 
+após a dose inicial. </p>
+<p>Se é necessária uma resposta 
+mais rápida, o seu médico pode 
+prescrever uma dose inicial de 
+80 mg (duas injeções de 40 mg 
+num dia), seguida de 40 mg 
+duas semanas após a dose 
+inicial. </p>
+<p>Depois disso, a dose habitual é 
+20 mg em semanas alternadas. 
+O seu médico pode aumentar a 
+frequência da dose para 20 mg 
+por semana. </p>
+<p>Colite ulcerosa 
+Idade ou peso corporal 
+Qual a dose e com que 
+frequência se deve tomar? 
+Notas 
+Adultos 
+A dose inicial é de 160 mg 
+(quatro injeções de 40 mg num 
+dia ou duas injeções de 40 mg 
+por dia, em dois dias 
+consecutivos), seguida de 80 mg 
+(duas injeções de 40 mg num 
+dia) duas semanas depois. </p>
+<p>Depois disso, a dose habitual é 
+40 mg em semanas alternadas. 
+O seu médico pode aumentar a 
+dose para 40 mg por semana ou 
+80 mg em semanas alternadas. 
+Colite ulcerosa 
+Idade ou peso corporal 
+Qual a dose e com que 
+frequência se deve tomar? 
+Notas 
+Crianças e adolescentes a partir 
+dos 6 anos de idade com peso 
+inferior a 40 kg 
+Uma dose inicial de 80 mg 
+(duas injeções de 40 mg num 
+dia), seguida de 40 mg (uma 
+injeção de 40 mg) duas semanas 
+após a dose inicial. </p>
+<p>Depois disso, a dose habitual é 
+de 40 mg em semanas 
+alternadas. 
+Deve continuar a tomar a sua 
+dose habitual de Yuflyma, 
+mesmo após completar 18 anos 
+de idade. 
+Crianças e adolescentes a partir 
+dos 6 anos de idade com peso 
+igual ou superior a 40 kg 
+Uma dose inicial de 160 mg 
+(quatro injeções de 40 mg num 
+dia ou duas injeções de 40 mg 
+por dia, em dois dias 
+consecutivos), seguida de 80 mg 
+(duas injeções de 40 mg num 
+dia) duas semanas após a dose 
+inicial. </p>
+<p>Depois disso, a dose habitual é 
+de 80 mg em semanas 
+alternadas. 
+Deve continuar a tomar a sua 
+dose habitual de Yuflyma, 
+mesmo após completar 18 anos 
+de idade. </p>
+<p>Uveíte não infeciosa 
+Idade ou peso corporal 
+Qual a dose e com que 
+frequência se deve tomar? 
+Notas 
+Adultos 
+Uma dose inicial de 80 mg 
+(duas injeções de 40 mg num 
+dia), seguida de 40 mg em 
+semanas alternadas, uma 
+semana após a dose inicial. 
+Pode continuar a utilizar 
+corticosteroides ou outros 
+medicamentos que influenciam 
+o sistema imunitário enquanto 
+se usa Yuflyma. Yuflyma pode 
+ser usado isoladamente. 
+Crianças e adolescentes a partir 
+dos 2 anos de idade com peso 
+inferior a 30 kg 
+20 mg em semanas alternadas 
+O seu médico pode prescrever 
+uma dose inicial de 40 mg que 
+pode ser administrada uma 
+semana antes do início da dose 
+habitual de 20 mg em semanas 
+alternadas. Recomenda-se a 
+utilização de Yuflyma em 
+associação com metotrexato. 
+Crianças e adolescentes a partir 
+dos 2 anos de idade com peso 
+igual ou superior a 30 kg 
+40 mg em semanas alternadas 
+O seu médico pode prescrever 
+uma dose inicial de 80 mg que 
+pode ser administrada uma 
+semana antes do início da dose 
+habitual de 40 mg em semanas 
+alternadas. Recomenda-se a 
+utilização de Yuflyma em 
+associação com metotrexato. </p>
+<p>Modo e via de administração </p>
+<p>Yuflyma é administrado por injeção debaixo da pele (via subcutânea). </p>
+<p>Instruções detalhadas sobre como administrar a injeção de Yuflyma estão indicadas na secção 7 
+“Instruções para utilização". </p>
+<p>Se utilizar mais Yuflyma do que deveria </p>
+<p>Se injetar acidentalmente Yuflyma mais frequentemente do que o prescrito, contacte o seu médico ou 
+farmacêutico e informe-os de que utilizou mais do que devia. Leve sempre consigo a embalagem 
+exterior do medicamento, mesmo que esteja vazia. </p>
+<p>Caso se tenha esquecido de utilizar Yuflyma </p>
+<p>Caso se tenha esquecido de administrar uma injeção, administre a próxima dose de Yuflyma logo que 
+se lembrar. Administre a dose seguinte conforme prescrito, como se não tivesse omitido a dose 
+anterior. </p>
+<p>Se parar de utilizar Yuflyma </p>
+<p>A decisão de parar de utilizar Yuflyma deve ser avaliada com o seu médico. Os seus sintomas podem 
+voltar se parar de utilizar Yuflyma. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. A maioria dos efeitos indesejáveis são ligeiros a moderados. No 
+entanto, alguns podem ser graves e requerer tratamento. Podem ocorrer efeitos indesejáveis, pelo 
+menos, até 4 meses após a última injeção de Yuflyma. </p>
+<p>Informe imediatamente o seu médico se tiver algum dos seguintes sintomas </p>
+<ul>
+<li>
+<p>pele muito irritada, comichão ou outros sinais de reação alérgica </p>
+</li>
+<li>
+<p>inchaço da face, mãos, pés </p>
+</li>
+<li>
+<p>dificuldades em respirar, em engolir </p>
+</li>
+<li>
+<p>falta de ar durante atividade física ou quando deitado ou inchaço dos pés </p>
+</li>
+</ul>
+<p>Informe logo que possível o seu médico se tiver algum dos seguintes sintomas </p>
+<ul>
+<li>
+<p>sinais de infeção tais como febre, má disposição, feridas, problemas dentários ou sensação de 
+ardor ao urinar </p>
+</li>
+<li>
+<p>sensação de fraqueza ou cansaço </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>formigueiro </p>
+</li>
+<li>
+<p>dormência </p>
+</li>
+<li>
+<p>visão dupla </p>
+</li>
+<li>
+<p>sensação de fraqueza nos braços ou pernas </p>
+</li>
+<li>
+<p>inchaço ou ferida aberta que não cicatriza </p>
+</li>
+<li>
+<p>sinais ou sintomas sugestivos de alterações sanguíneas tais como febre persistente, nódoas 
+negras, hemorragias, palidez </p>
+</li>
+</ul>
+<p>Os sintomas descritos acima podem ser sinais dos efeitos indesejáveis descritos a seguir e que foram 
+observados com Yuflyma. </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>reações no local da injeção (incluindo dor, inchaço, vermelhidão ou comichão) </p>
+</li>
+<li>
+<p>infeções do trato respiratório (incluindo constipação, nariz a pingar, infeção sinusal, pneumonia) </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>dor abdominal </p>
+</li>
+<li>
+<p>náuseas e vómitos </p>
+</li>
+<li>
+<p>erupção cutânea </p>
+</li>
+<li>
+<p>dor musculoesquelética </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>infeções graves (incluindo envenenamento do sangue e gripe) </p>
+</li>
+<li>
+<p>infeções intestinais (incluindo gastroenterite) </p>
+</li>
+<li>
+<p>infeções da pele (incluindo celulite e zona) </p>
+</li>
+<li>
+<p>infeções dos ouvidos </p>
+</li>
+<li>
+<p>infeções orais (incluindo infeções dentárias e constipações) </p>
+</li>
+<li>
+<p>infeções do sistema reprodutor </p>
+</li>
+<li>
+<p>infeção do trato urinário </p>
+</li>
+<li>
+<p>infeções fúngicas </p>
+</li>
+<li>
+<p>infeções das articulações </p>
+</li>
+<li>
+<p>tumores benignos </p>
+</li>
+<li>
+<p>cancro da pele </p>
+</li>
+<li>
+<p>reações alérgicas (incluindo alergia sazonal) </p>
+</li>
+<li>
+<p>desidratação </p>
+</li>
+<li>
+<p>alterações do humor (incluindo depressão) </p>
+</li>
+<li>
+<p>ansiedade </p>
+</li>
+<li>
+<p>dificuldade em adormecer </p>
+</li>
+<li>
+<p>alterações neurológicas, tais como prurido, comichão ou dormência </p>
+</li>
+<li>
+<p>enxaqueca </p>
+</li>
+<li>
+<p>compressão da raiz nervosa (incluindo dor lombar e dor nas pernas) </p>
+</li>
+<li>
+<p>alterações da visão </p>
+</li>
+<li>
+<p>inflamação dos olhos </p>
+</li>
+<li>
+<p>inflamação das pálpebras e inchaço dos olhos </p>
+</li>
+<li>
+<p>vertigem (sensação de tontura ou movimento) </p>
+</li>
+<li>
+<p>sensação de batimento cardíaco rápido </p>
+</li>
+<li>
+<p>tensão arterial alta </p>
+</li>
+<li>
+<p>vermelhidão </p>
+</li>
+<li>
+<p>hematoma (concentração de sangue fora dos vasos sanguíneos) </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>asma </p>
+</li>
+<li>
+<p>dificuldade em respirar </p>
+</li>
+<li>
+<p>hemorragia gastrointestinal </p>
+</li>
+<li>
+<p>dispepsia (indigestão, inchaço, azia) </p>
+</li>
+<li>
+<p>doença de refluxo </p>
+</li>
+<li>
+<p>síndrome de sicca (incluindo olhos e boca seca) </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>erupção da pele com comichão </p>
+</li>
+<li>
+<p>nódoas negras </p>
+</li>
+<li>
+<p>inflamação da pele (tais como eczema) </p>
+</li>
+<li>
+<p>unhas das mãos e dos pés quebradiças </p>
+</li>
+<li>
+<p>aumento de suor </p>
+</li>
+<li>
+<p>perda de cabelo </p>
+</li>
+<li>
+<p>início ou agravamento da psoríase </p>
+</li>
+<li>
+<p>espasmos musculares </p>
+</li>
+<li>
+<p>sangue na urina </p>
+</li>
+<li>
+<p>perturbações renais </p>
+</li>
+<li>
+<p>dor no peito </p>
+</li>
+<li>
+<p>edema (inchaço) </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>redução nas plaquetas sanguíneas aumentando o risco de hemorragia ou de nódoas negras </p>
+</li>
+<li>
+<p>diminuição na cicatrização </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>infeções oportunistas (as quais incluem tuberculose e outras infeções que ocorrem quando a 
+resistência à doença está diminuída) </p>
+</li>
+<li>
+<p>infeções neurológicas (incluindo meningite viral) </p>
+</li>
+<li>
+<p>infeções oculares </p>
+</li>
+<li>
+<p>infeções bacterianas </p>
+</li>
+<li>
+<p>diverticulite (inflamação e infeção do intestino grosso) </p>
+</li>
+<li>
+<p>cancro </p>
+</li>
+<li>
+<p>cancro que afeta o sistema linfático </p>
+</li>
+<li>
+<p>melanoma </p>
+</li>
+<li>
+<p>perturbações do sistema imunitário que podem afetar os pulmões, pele e gânglios linfáticos 
+(apresentando-se mais frequentemente como sarcoidose) </p>
+</li>
+<li>
+<p>vasculite (inflamação dos vasos sanguíneos) </p>
+</li>
+<li>
+<p>tremor (agitação) </p>
+</li>
+<li>
+<p>neuropatia (alteração dos nervos) </p>
+</li>
+<li>
+<p>AVC </p>
+</li>
+<li>
+<p>perda de audição, zumbido </p>
+</li>
+<li>
+<p>sensação de batimento irregular do coração tal como palpitações </p>
+</li>
+<li>
+<p>problemas no coração que podem causar falta de ar ou inchaço nos tornozelos </p>
+</li>
+<li>
+<p>ataque cardíaco </p>
+</li>
+<li>
+<p>quisto na parede de uma artéria maior, inflamação e coágulo de uma veia, bloqueio de um vaso 
+sanguíneo </p>
+</li>
+<li>
+<p>doenças pulmonares causando falta de ar (incluindo inflamação) </p>
+</li>
+<li>
+<p>embolia pulmonar (bloqueio de uma artéria no pulmão) </p>
+</li>
+<li>
+<p>derrame pleural (acumulação anormal de líquido no espaço pleural) </p>
+</li>
+<li>
+<p>inflamação do pâncreas que causa dor grave no abdómen e costas </p>
+</li>
+<li>
+<p>dificuldade em engolir </p>
+</li>
+<li>
+<p>edema facial (inchaço da face) </p>
+</li>
+<li>
+<p>inflamação da vesícula, pedra na vesícula </p>
+</li>
+<li>
+<p>fígado gordo </p>
+</li>
+<li>
+<p>suores noturnos </p>
+</li>
+<li>
+<p>escaras </p>
+</li>
+<li>
+<p>colapso muscular anormal </p>
+</li>
+<li>
+<p>lúpus eritematoso sistémico (incluindo inflamação da pele, coração, pulmão, articulações e 
+outros sistemas de órgãos) </p>
+</li>
+<li>
+<p>interrupções de sono </p>
+</li>
+<li>
+<p>impotência </p>
+</li>
+<li>
+<p>inflamações </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1000 pessoas) </p>
+<ul>
+<li>
+<p>leucemia (cancro que afeta o sangue e a medula óssea) </p>
+</li>
+<li>
+<p>reação alérgica grave com choque </p>
+</li>
+<li>
+<p>esclerose múltipla </p>
+</li>
+<li>
+<p>alterações neurológicas (tais como inflamação do nervo ocular e síndrome de Guillain-Barré que 
+pode causar fraqueza muscular, sensações anormais, formigueiro nos braços e na parte superior 
+do corpo) </p>
+</li>
+<li>
+<p>o coração deixa de bombear </p>
+</li>
+<li>
+<p>fibrose pulmonar (cicatrizes no pulmão) </p>
+</li>
+<li>
+<p>perfuração intestinal (buraco no intestino) </p>
+</li>
+<li>
+<p>hepatite </p>
+</li>
+<li>
+<p>reativação da hepatite B </p>
+</li>
+<li>
+<p>hepatite autoimune (inflamação do fígado causada pelo próprio sistema imunitário do corpo) </p>
+</li>
+<li>
+<p>vasculite cutânea (inflamação dos vasos sanguíneos da pele) </p>
+</li>
+<li>
+<p>síndrome de Stevens-Johnson (sintomas iniciais incluindo indisposição, febre, dor de cabeça e 
+erupção cutânea) </p>
+</li>
+<li>
+<p>edema facial (inchaço da face) associado a reações alérgicas </p>
+</li>
+<li>
+<p>eritema multiforme (erupção cutânea inflamatória) </p>
+</li>
+<li>
+<p>síndrome tipo lúpus </p>
+</li>
+<li>
+<p>angioedema (inchaço localizado da pele) </p>
+</li>
+<li>
+<p>reação cutânea liquenoide (erupção na pele vermelho-púrpura com comichão) </p>
+</li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>linfoma hepatoesplénico de linfócitos T (um raro cancro de sangue que muitas vezes é fatal) </p>
+</li>
+<li>
+<p>carcinoma de células de Merkel (um tipo de cancro de pele) </p>
+</li>
+<li>
+<p>O sarcoma de Kaposi, um cancro raro relacionado com a infeção do vírus herpes humano 8. O 
+sarcoma de Kaposi aparece mais frequentemente como lesões roxas na pele. </p>
+</li>
+<li>
+<p>insuficiência hepática </p>
+</li>
+<li>
+<p>agravamento de uma doença chamada dermatomiosite (que corresponde a uma erupção cutânea 
+acompanhada de fraqueza muscular) </p>
+</li>
+<li>
+<p>Aumento de peso (para a maioria dos doentes, o aumento de peso foi pequeno) </p>
+</li>
+</ul>
+<p>Alguns efeitos indesejáveis observados com Yuflyma podem não ter sintomas e só podem ser 
+identificados através de análises ao sangue. Estes incluem: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>contagem diminuída dos glóbulos brancos </p>
+</li>
+<li>
+<p>contagem diminuída dos glóbulos vermelhos </p>
+</li>
+<li>
+<p>aumento dos lípidos no sangue </p>
+</li>
+<li>
+<p>aumento das enzimas hepáticas </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>contagem aumentada dos glóbulos brancos </p>
+</li>
+<li>
+<p>contagem diminuída das plaquetas </p>
+</li>
+<li>
+<p>aumento de ácido úrico no sangue </p>
+</li>
+<li>
+<p>contagem anormal de sódio no sangue </p>
+</li>
+<li>
+<p>contagem diminuída de cálcio no sangue </p>
+</li>
+<li>
+<p>contagem diminuída de fosfato no sangue </p>
+</li>
+<li>
+<p>nível de açúcar aumentado no sangue </p>
+</li>
+<li>
+<p>valores aumentados de desidrogenase láctica no sangue </p>
+</li>
+<li>
+<p>presença de autoanticorpos no sangue </p>
+</li>
+<li>
+<p>baixo teor de potássio no sangue </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>aumento de bilirrubina (análises de sangue ao fígado) </li>
+</ul>
+<p>Raros (podem afetar até 1 em 1000 pessoas) </p>
+<ul>
+<li>contagem diminuída de glóbulos brancos, glóbulos vermelhos e plaquetas </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, fale com o seu médico ou farmacêutico. Incluindo possíveis 
+efeitos indesejáveis não indicados neste folheto. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar yuflyma"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar yuflyma"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo/embalagem, após EXP. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C). Não congelar. </p>
+<p>Manter a seringa pré-cheia com o sistema de proteção da agulha na embalagem exterior para proteger 
+da luz. </p>
+<p>Conservação Alternativa: </p>
+<p>Quando necessário (por exemplo, quando está a viajar), uma seringa pré-cheia de Yuflyma com o 
+sistema de proteção da agulha pode ser conservada até um período máximo de 31 dias, à temperatura 
+ambiente (até 25 ° C) - certifique-se de que a protege da luz. Uma vez retirada do frigorífico para a 
+temperatura ambiente, a seringa tem de ser utilizada dentro de 31 dias ou eliminada, mesmo que a 
+volte a colocar no frigorífico. </p>
+<p>Deve registar a data em que a seringa foi inicialmente retirada do frigorífico e a data em que deve ser 
+eliminada. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu médico 
+ou farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Yuflyma </p>
+<p>A substância ativa é adalimumab. 
+Os outros componentes são ácido acético, acetato de sódio trihidratado, glicina, polissorbato 80 e água 
+para preparações injetáveis. </p>
+<p>Qual o aspeto de Yuflyma em seringa pré-cheia com sistema de proteção da agulha e conteúdo 
+da embalagem </p>
+<p>Yuflyma 40 mg solução injetável em seringa pré-cheia com sistema de proteção da agulha é fornecido 
+sob a forma de uma solução estéril contendo 40 mg de adalimumab dissolvido em 0,4 ml de solução. </p>
+<p>Yuflyma em seringa pré-cheia é constituído por uma seringa de vidro contendo uma solução de 
+adalimumab. O pack de 1 seringa pré-cheia é fornecido com 2 compressas embebidas em álcool (1 
+sobresselente). Para as embalagens de 2, 4 e 6 seringas pré-cheias, cada seringa pré-cheia é fornecida 
+com 1 compressa embebida em álcool. </p>
+<p>A seringa pré-cheia de Yuflyma é uma seringa de vidro com sistema de proteção da agulha contendo a 
+solução de adalimumab. O pack de 1 seringa pré-cheia com sistema de proteção da agulha é fornecido 
+com 2 compressas embebidas em álcool (1 sobresselente). Para as embalagens de 2, 4 e 6 seringas pré-
+cheias com sistema de proteção da agulha, cada seringa pré-cheia com sistema de proteção da agulha é 
+fornecida com 1 compressa embebida em álcool. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Yuflyma pode estar disponível em seringa pré-cheia e/ou em caneta pré-cheia. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Celltrion Healthcare Hungary Kft. 
+1062 Budapeste 
+Váci út 1-3. WestEnd Office Building B torony 
+Hungria </p>
+<p>Fabricante </p>
+<p>Millmount Healthcare Ltd. 
+Bloco 7 
+City North Business Campus 
+Stamullen, Co. Meath K32 YDIrlanda </p>
+<p>Nuvisan GmbH 
+Wegenerstraße 13,<br />
+89231 Neu Ulm,<br />
+Alemanha </p>
+<p>Nuvisan France SARL 
+2400, Route des Colles,<br />
+06410, Biot,<br />
+França </p>
+<p>Midas Pharma GmbH 
+Rheinstr. 49,<br />
+55218 Ingelheim, 
+Alemanha </p>
+<p>KYMOS S.L.<br />
+Ronda Can Fatjó, 7B.<br />
+08290 Cerdanyola del Vallès,<br />
+Barcelona,<br />
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Celltrion Healthcare Belgium BVBA 
+Tél/Tel: + 32 1528 7 
+Lietuva 
+Celltrion Healthcare Hungary Kft. 
+Tel.: +36 1 231 0 
+България 
+Celltrion Healthcare Hungary Kft. 
+Teл.: +36 1 231 0 
+Luxembourg/Luxemburg 
+Celltrion Healthcare Belgium BVBA 
+Tél/Tel: + 32 1528 7 
+Česká republika 
+Celltrion Healthcare Hungary Kft. 
+Tel: +36 1 231 0 
+Magyarország 
+Celltrion Healthcare Hungary Kft. 
+Tel.: +36 1 231 0 
+Danmark 
+Celltrion Healthcare Hungary Kft. 
+Tlf: +36 1 231 0 
+Malta 
+Mint Health Ltd. 
+Tel: +356 2093 9 
+Deutschland 
+Celltrion Healthcare Deutschland GmbH 
+Tél.: +49 (0)30 346494infoDE@celltrionhc.com </p>
+<p>Nederland 
+Celltrion Healthcare Netherlands B.V. 
+Tel: + 31 20 888 7 
+Eesti 
+Celltrion Healthcare Hungary Kft. 
+Tel: +36 1 231 0 
+Norge 
+Celltrion Healthcare Hungary Kft. 
+Tlf: +36 1 231 0 
+España 
+Kern Pharma, S.L. 
+Tel: +34 93 700 2 
+Österreich 
+Astro-Pharma GmbH 
+Tel: +43 1 97 99<br />
+Ελλάδα 
+ΒΙΑΝΕΞ Α.Ε. 
+Τηλ: +30 210 8009 
+Polska 
+Celltrion Healthcare Hungary Kft. 
+Tel.: +36 1 231 0 
+France 
+Celltrion Healthcare France SAS 
+Tél.: +33 (0)1 71 25 27<br />
+Portugal 
+PharmaKERN Portugal - Produtos Farmacêuticos, 
+Sociedade Unipessoal, Lda. 
+Tel: +351 214 200<br />
+Hrvatska 
+Oktal Pharma d.o.o. 
+Tel: +385 1 6595<br />
+România 
+Celltrion Healthcare Hungary Kft. 
+Tel: +36 1 231 0 
+Irlanda 
+Celltrion Healthcare Ireland Limited 
+Tel: +353 1 223 4 
+Slovenija 
+OPH Oktal Pharma d.o.o. 
+Tel.: +386 1 519 29<br />
+Ísland 
+Celltrion Healthcare Hungary Kft. 
+Sími: +36 1 231 0 
+Slovenská republika 
+Celltrion Healthcare Hungary Kft. 
+Tel: +36 1 231 0 
+Italia 
+Celltrion Healthcare Italy S.r.l. 
+Tel: +39 02 47927 
+Suomi/Finland 
+Celltrion Healthcare Finland Oy.<br />
+Puh/Tel: +358 29 170 7 
+Κύπρος 
+C.A. Papaellinas Ltd 
+Τηλ: +357 22741 
+Sverige 
+Celltrion Healthcare Hungary Kft. 
+Tel: +36 1 231 0 
+Latvija 
+Celltrion Healthcare Hungary Kft. 
+Tālr.: +36 1 231 0 
+United Kingdom (Nothern Ireland) 
+Celltrion Healthcare Ireland Limited 
+Tel: +353 1 223 4 
+Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -2922,6 +4381,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-25519bb07426cab26500e5ad89df90b0"
 * entry[0].resource = composition-da-25519bb07426cab26500e5ad89df90b0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp25519bb07426cab26500e5ad89df90b0"
+* entry[=].resource = mp25519bb07426cab26500e5ad89df90b0
+                            
+                    
+Instance: bundlepackageleaflet-pt-25519bb07426cab26500e5ad89df90b0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for yuflyma Package Leaflet for language pt"
+Description: "ePI document Bundle for yuflyma Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-25519bb07426cab26500e5ad89df90b0"
+* entry[0].resource = composition-pt-25519bb07426cab26500e5ad89df90b0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp25519bb07426cab26500e5ad89df90b0"
@@ -3023,6 +4504,18 @@ RuleSet: 25519bb07426cab26500e5ad89df90b0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-25519bb07426cab26500e5ad89df90b0) // yuflyma pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

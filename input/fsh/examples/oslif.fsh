@@ -1119,6 +1119,427 @@ Blisterkort </p>         </div>"""
 
 
 
+Instance: composition-pt-69ba7123d300a992a466115b331a7218
+InstanceOf: CompositionUvEpi
+Title: "Composition for oslif Package Leaflet"
+Description:  "Composition for oslif Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp69ba7123d300a992a466115b331a7218)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - oslif"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Oslif Breezhaler e para que é utilizado 
+2. O que precisa de saber antes de utilizar Oslif Breezhaler 
+3. Como utilizar Oslif Breezhaler 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Oslif Breezhaler 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é oslif e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é oslif e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Oslif Breezhaler 
+Oslif Breezhaler contém a substância ativa indacaterol que pertence a um grupo de medicamentos 
+chamados broncodilatadores. Quando inala o medicamento, ele relaxa os músculos nas paredes das 
+pequenas passagens de ar nos pulmões. Isto ajuda a abrir as vias respiratórias, facilitando a entrada e 
+saída de ar. </p>
+<p>Para que é utilizado Oslif Breezhaler 
+Oslif Breezhaler é utilizado para facilitar a respiração em doentes adultos que tenham dificuldades 
+respiratórias devido a uma doença pulmonar chamada doença pulmonar obstrutiva crónica (DPOC). 
+Na DPOC, os músculos que envolvem as vias respiratórias estreitam e isto torna a respiração mais 
+difícil. Este medicamento relaxa estes músculos nos pulmões, facilitando a entrada e saída de ar dos 
+pulmões. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar oslif"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar oslif"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Oslif Breezhaler 
+- se tem alergia ao indacaterol ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de utilizar Oslif Breezhaler 
+ 
+se tem asma (neste caso, não deverá utilizar Oslif Breezhaler). 
+ 
+se tem problemas cardíacos. 
+ 
+se tem epilepsia. 
+ 
+se tem problemas da glândula tiroide (tirotoxicose). 
+ 
+se tem diabetes. </p>
+<p>Durante o tratamento com Oslif Breezhaler, 
+ 
+Pare de usar o medicamento e informe imediatamente o seu médico se sentir aperto no 
+peito, tosse, sibilos ou dificuldade em respirar imediatamente após tomar o medicamento. Estes 
+podem ser sinais de um problema chamado broncospasmo. 
+ 
+Informe o seu médico imediatamente se os seus sintomas de DPOC (dificuldade em respirar, 
+sibilos, tosse) não melhorarem ou se se agravarem. </p>
+<p>Crianças e adolescentes 
+Oslif Breezhaler não deve ser dado a crianças ou adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Oslif Breezhaler 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. 
+Em particular, por favor informe o seu médico se está a tomar: 
+ 
+medicamentos para problemas respiratórios que sejam semelhantes a Oslif Breezhaler (ou seja, 
+medicamentos como salmeterol e formoterol). Terá maior probabilidade de ter efeitos 
+indesejáveis. 
+ 
+medicamentos chamados beta-bloqueantes que são usados para a tensão arterial elevada ou 
+outros problemas cardíacos (como o propranolol), ou para um problema ocular chamado 
+glaucoma (como o timolol). 
+ 
+medicamentos que diminuem a quantidade de potássio no sangue. Estes incluem: 
+o 
+corticosteroides (ex.: prednisolona), 
+o 
+diuréticos usados para a pressão arterial elevada, como a hidroclorotiazida, 
+o 
+medicamentos para problemas respiratórios, como a teofilina. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, pensa que pode estar grávida ou planeia engravidar, consulte o seu 
+médico ou farmacêutico antes de utilizar este medicamento. </p>
+<p>Não deve utilizar Oslif Breezhaler a não ser que o seu médico lhe diga para tal. </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+É improvável que Oslif Breezhaler vá afetar a sua capacidade de conduzir e utilizar máquinas. </p>
+<p>Oslif Breezhaler contém lactose 
+Este medicamento contém lactose (açúcar do leite). Se foi informado pelo seu médico que tem 
+intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar oslif"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar oslif"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Que quantidade de Oslif Breezhaler utilizar 
+ 
+A dose habitual é a inalação do conteúdo de uma cápsula cada dia. O seu médico pode dizer-lhe 
+para utilizar a cápsula de 150 microgramas ou a de 300 microgramas dependendo da sua 
+condição e de como responde ao tratamento. Não tome uma quantidade superior à que lhe for 
+indicada pelo seu médico. 
+ 
+Utilize o seu inalador à mesma hora em cada dia; o efeito dura 24 horas. Isto assegura que existe 
+sempre quantidade de medicamento suficiente no seu organismo para ajudar a respirar mais 
+facilmente durante o dia e a noite. Também irá ajudar a que se lembre de tomar o medicamento. </p>
+<p>Como utilizar Oslif Breezhaler 
+ 
+Nesta embalagem encontrará um inalador e cápsulas (em blisters) que contêm o medicamento 
+na forma de pó para inalação. O inalador Oslif Breezhaler permite-lhe inalar o medicamento 
+contido nas cápsulas. 
+ 
+Utilize apenas as cápsulas com o inalador fornecido na embalagem (inalador Oslif Breezhaler). 
+As cápsulas devem manter-se no blister até que necessite de as utilizar. 
+ 
+Quando iniciar uma nova embalagem, utilize o novo inalador Oslif Breezhaler fornecido na 
+embalagem. 
+ 
+Elimine cada inalador após terem sido utilizadas todas as cápsulas. 
+ 
+Não engula as cápsulas. 
+ 
+Por favor leia as instruções no final deste folheto para mais informações sobre como 
+utilizar o inalador. </p>
+<p>Se utilizar mais Oslif Breezhaler do que deveria 
+Se tiver inalado demasiado Oslif Breezhaler ou se alguém utilizar as suas cápsulas, informe o seu 
+médico imediatamente ou dirija-se à urgência hospitalar mais próxima. Mostre a embalagem de Oslif 
+Breezhaler. Podem ser necessários cuidados médicos. Pode reparar que o seu coração bate mais 
+rapidamente que o normal, ou pode ter uma dor de cabeça, sentir-se sonolento, enjoado ou ter que 
+vomitar. </p>
+<p>Caso se tenha esquecido de utilizar Oslif Breezhaler 
+Se se esquecer de inalar uma dose, inale apenas uma dose à hora habitual no dia seguinte. Não inale 
+uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Durante quanto tempo deve continuar o seu tratamento com Oslif Breezhaler 
+ 
+Continue o seu tratamento com Oslif Breezhaler enquanto o médico lhe disser para tal. 
+ 
+A DPOC é uma doença crónica e deve utilizar Oslif Breezhaler diariamente e não apenas 
+quando tem problemas respiratórios ou outros sintomas de DPOC. 
+Se tiver questões sobre durante quanto tempo continuar o seu tratamento com Oslif Breezhaler, fale 
+com o seu médico ou farmacêutico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis podem ser graves. Informe o seu médico imediatamente. 
+ 
+se sentir dor forte no peito (frequentes). 
+ 
+se tiver níveis elevados de açúcar no sangue (diabetes). Se se sentir cansado, com muita sede e 
+fome (sem ganho de peso) e urinar mais do que o habitual (frequentes). 
+ 
+se sentir batimento cardíaco irregular (pouco frequentes). 
+ 
+se tiver sintomas de reação alérgica tais como erupção na pele, comichão, urticária, dificuldade 
+em respirar ou engolir, tonturas (pouco frequentes). 
+ 
+se tiver dificuldade em respirar com pieira ou tosse (pouco frequentes). </p>
+<p>Outros efeitos indesejáveis podem incluir: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+ 
+sintomas gripais. Pode sentir todos ou a maioria dos sintomas seguintes: dor de garanta, 
+corrimento nasal, nariz entupido, espirros, tosse e dor de cabeça. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) 
+ 
+sensação de pressão ou dor na face e testa (inflamação dos sinus) 
+ 
+corrimento nasal 
+ 
+tosse 
+ 
+dor de garganta 
+ 
+dor de cabeça 
+ 
+tonturas 
+ 
+palpitações 
+ 
+espasmos musculares 
+ 
+mãos, tornozelos ou pés inchados (edema) 
+ 
+comichão/erupção na pele 
+ 
+dor no peito 
+ 
+dor nos músculos, ossos ou articulações </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) 
+ 
+batimento cardíaco rápido 
+ 
+sensação de formigueiro ou entorpecimento 
+ 
+dor muscular </p>
+<p>Algumas pessoas ocasionalmente tossem pouco tempo após a inalação do medicamento. A tosse é um 
+sintoma comum na DPOC. Se sentir tosse pouco depois de inalar o medicamento, não se preocupe. 
+Verifique o seu inalador para verificar se a cápsula está vazia e que tomou a dose completa. Se a 
+cápsula estiver vazia, não há motivo para preocupação. Se a cápsula não estiver vazia, inale 
+novamente conforme indicado. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar oslif"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar oslif"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. 
+Não conservar acima de 30°C. 
+Conservar na embalagem de origem para proteger da humidade e não retirar até imediatamente antes 
+da administração. 
+Não utilize este medicamento se verificar que a embalagem está danificada ou mostra sinais de ter sido 
+manipulada. 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Oslif Breezhaler 
+- Cada cápsula de 150 microgramas de Oslif Breezhaler contém 150 microgramas de indacaterol, 
+como maleato de indacaterol. Os outros componentes incluem lactose e a cápsula é feita de 
+gelatina. 
+- Cada cápsula de 300 microgramas de Oslif Breezhaler contém 300 microgramas de indacaterol, 
+como maleato de indacaterol. Os outros componentes incluem lactose e a cápsula é feita de 
+gelatina. </p>
+<p>Qual o aspeto de Oslif Breezhaler e conteúdo da embalagem 
+Nesta embalagem encontrará um inalador, juntamente com cápsulas em fitas blister. As cápsulas são 
+transparentes (incolores) e contêm um pó branco. </p>
+<p> 
+As cápsulas de 150 microgramas de Oslif Breezhaler são transparentes e incolores. Têm um 
+código de produto “IDL 150" impresso em preto acima de uma barra preta e o logótipo da 
+companhia (
+) impresso em preto sob a barra preta. 
+ 
+As cápsulas de 300 microgramas de Oslif Breezhaler são transparentes e incolores. Têm um 
+código de produto “IDL 300" impresso em azul acima de uma barra azul e o logótipo da 
+companhia (
+)impresso em azul sob a barra azul. </p>
+<p>Estão disponíveis as seguintes apresentações: 
+Embalagem contendo 10 cápsulas e 1 inalador. 
+Embalagem contendo 30 cápsulas e 1 inalador. 
+Embalagem múltipla contendo 2 embalagens (cada uma contendo 30 cápsulas e 1 inalador). 
+Embalagem múltipla contendo 3 embalagens (cada uma contendo 30 cápsulas e 1 inalador). 
+Embalagem múltipla contendo 30 embalagens (cada uma contendo 10 cápsulas e 1 inalador). </p>
+<p>Poderão não ser comercializadas todas as apresentações ou dosagens no seu país. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Pharma GmbH 
+Roonstraße D-90429 Nuremberga 
+Alemanha </p>
+<p>Novartis Farmacéutica SA 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Ferrer Internacional, S.A. 
+Tel: +34 93 600 37<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Pierre Fabre Médicament 
+Tél: +33 1 49 10 96<br />
+Portugal 
+Laboratório Medinfar - Produtos Farmacêuticos, 
+S.A. 
+Tel: +351 21 499 7 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133  </p>
+<p>Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1160,6 +1581,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-69ba7123d300a992a466115b331a7218"
 * entry[0].resource = composition-da-69ba7123d300a992a466115b331a7218
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp69ba7123d300a992a466115b331a7218"
+* entry[=].resource = mp69ba7123d300a992a466115b331a7218
+                            
+                    
+Instance: bundlepackageleaflet-pt-69ba7123d300a992a466115b331a7218
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oslif Package Leaflet for language pt"
+Description: "ePI document Bundle for oslif Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-69ba7123d300a992a466115b331a7218"
+* entry[0].resource = composition-pt-69ba7123d300a992a466115b331a7218
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp69ba7123d300a992a466115b331a7218"
@@ -1261,6 +1704,18 @@ RuleSet: 69ba7123d300a992a466115b331a7218ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-69ba7123d300a992a466115b331a7218) // oslif pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

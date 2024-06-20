@@ -719,6 +719,397 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-a38db6f0b3670face0412d6c2e00cd92
+InstanceOf: CompositionUvEpi
+Title: "Composition for travatan Package Leaflet"
+Description:  "Composition for travatan Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa38db6f0b3670face0412d6c2e00cd92)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - travatan"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é TRAVATAN e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar TRAVATAN </li>
+<li>Como utilizar TRAVATAN </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar TRAVATAN </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é travatan e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é travatan e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TRAVATAN contém travoprost, que pertence a um grupo de medicamentos, denominados análogos 
+das prostaglandinas. Atua diminuindo a pressão no interior do olho. Pode ser utilizado isoladamente 
+ou em associação com outros colírios, ex: bloqueadores beta, que também reduzem a pressão. </p>
+<p>TRAVATAN é utilizado para reduzir a pressão que se encontra elevada no olho em adultos e 
+crianças dos 2 meses de idade em diante. Esta pressão pode provocar uma doença chamada 
+glaucoma. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar travatan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar travatan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize TRAVATAN 
+ 
+Se tem alergia ao travoprost ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Consulte o seu médico se isto se aplicar a si. </p>
+<p>Advertências e precauções </p>
+<p> 
+TRAVATAN pode aumentar o comprimento, espessura, cor e/ou número de pestanas. Foram 
+também observadas alterações nas pálpebras incluindo o crescimento anormal de pêlos nas 
+pálpebras e zonas em torno do olho. </p>
+<p> 
+TRAVATAN pode alterar a cor da íris (parte colorida do seu olho). Esta alteração pode ser 
+permanente. Pode também ocorrer alteração da cor da pele à volta do olho. </p>
+<p> 
+Caso tenha sido operado às cataratas, fale com o seu médico antes de utilizar TRAVATAN. </p>
+<p> 
+Se tem ou teve no passado inflamação do olho (irite e uveíte), fale com o seu médico antes de 
+utilizar TRAVATAN. </p>
+<p> 
+TRAVATAN pode causar, raramente, dificuldade em respirar ou respiração ruidosa ou 
+aumentar os sintomas de asma. Se está preocupado com alterações no seu perfil respiratório 
+durante a utilização de TRAVATAN, consulte o seu médico logo que possível. </p>
+<p> 
+Travoprost pode ser absorvido através da pele. Se alguma porção do medicamento entrar em 
+contacto com a pele, deverá ser lavado de imediato. Isto é especialmente importante em 
+mulheres grávidas ou que planeiam engravidar. </p>
+<p> 
+Se utiliza lentes de contacto hidrófilas, não aplique o colírio com as lentes de contacto 
+colocadas. Após a utilização do colírio, aguarde 15 minutos até voltar a colocar as lentes. </p>
+<p>Crianças e adolescentes 
+O TRAVATAN pode ser utilizado em crianças dos 2 meses até aos 18 anos na mesma dose que é 
+utilizada nos adultos. A utilização de TRAVATAN não é recomendada a crianças com menos de 
+2 meses. </p>
+<p>Outros medicamentos e TRAVATAN </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar ou tiver tomado recentemente outros 
+medicamentos. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Não utilize TRAVATAN se estiver grávida. Se pensa estar grávida, informe o seu médico 
+imediatamente. Se houver possibilidade de engravidar, deve utilizar contraceção adequada enquanto 
+utiliza o medicamento. </p>
+<p>Não utilize TRAVATAN se estiver a amamentar, TRAVATAN pode passar para o seu leite. </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Poderá sentir uma turvação da visão durante algum tempo imediatamente após a utilização de 
+TRAVATAN. Não conduza nem utilize máquinas até que sinta a visão descansada. </p>
+<p>TRAVATAN contém óleo de rícino hidrogenado e propilenoglicol, que podem causar reações e 
+irritação na pele. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar travatan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar travatan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico, ou pelo médico que segue a sua 
+criança. Fale com o seu médico, com o médico que segue a sua criança ou com o seu farmacêutico se 
+tiver dúvidas. </p>
+<p>A dose recomendada é… </p>
+<p>Uma gota no olho ou olhos afetados, uma vez por dia, à noite. 
+Utilize apenas o TRAVATAN em ambos os olhos por indicação do seu médico. Utilize-o no espaço 
+de tempo indicado pelo seu médico ou pelo médico que segue a sua criança. </p>
+<p>Utilize as gotas de TRAVATAN apenas no(s) seu(s) olho(s) ou no(s) olho(s) da sua criança. </p>
+<p>1 
+2 
+3 
+4 </p>
+<p> 
+Imediatamente antes de utilizar um frasco pela primeira vez, abra o invólucro protetor,<br />
+retire o frasco do seu interior (figura 1) e escreva a data de abertura no espaço indicado na 
+embalagem 
+ 
+Lave as suas mãos 
+ 
+Rode a tampa para a retirar 
+ 
+Segure no frasco com o aplicador virado para baixo, entre o seu polegar e os outros dedos 
+ 
+Incline a sua cabeça, ou da sua criança, gentilmente para trás. Puxe para baixo a pálpebra com 
+um dedo limpo, até se formar uma ‘bolsa’ entre a pálpebra e o olho. A gota deverá ser aqui 
+colocada (figura 2) 
+ 
+Coloque a extremidade do frasco perto do olho. Utilize um espelho caso sinta que este pode ser 
+útil 
+ 
+Não toque com o aplicador no olho ou na pálpebra, zonas circundantes ou outras 
+superfícies. Poderá contaminar as gotas 
+ 
+Aperte suavemente o frasco até à saída de uma gota de TRAVATAN de uma só vez. (figura 3) 
+ 
+Após aplicar o TRAVATAN, mantenha a pálpebra fechada e pressione suavemente com o dedo 
+o canto do olho, junto ao nariz (figura 4) durante pelo menos 1 minuto. Isto ajuda o 
+TRAVATAN a não se espalhar para o resto do corpo 
+ 
+Caso tenha de aplicar as gotas em ambos os olhos, repita os passos para o outro olho 
+ 
+Feche bem o frasco imediatamente após a sua utilização 
+ 
+Utilize apenas um frasco de cada vez. Não abra o invólucro senão quando necessitar de utilizar 
+o frasco. </p>
+<p>Caso não tenha conseguido colocar a gota no olho, tente novamente. </p>
+<p>Caso esteja, ou a sua criança esteja, a utilizar outros colírios, espere, pelo menos, 5 minutos entre a 
+aplicação de TRAVATAN e a das outras gotas. </p>
+<p>Se colocar, ou a sua criança colocar, mais TRAVATAN do que deveria 
+Lave todo o medicamento com água morna. Não aplique mais gotas até ao momento da aplicação 
+regular da dose seguinte. </p>
+<p>Caso se tenha esquecido de utilizar TRAVATAN 
+Continue com a dose seguinte como planeado. Não aplique uma dose a dobrar para compensar uma 
+dose que se esqueceu de aplicar. Nunca aplique mais que uma gota por dia no(s) olho(s) afetado(s). </p>
+<p>Se parar de utilizar TRAVATAN 
+Não pare de utilizar TRAVATAN sem falar com o seu médico primeiro, ou com o médico que segue a 
+sua criança, a pressão no seu olho, ou no olho da sua criança, não ficará controlada, o que pode levar a 
+perda de visão. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou com o 
+médico que segue a sua criança, ou com o seu farmacêutico. </p>
+<p>Vire agora  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Poderá continuar a utilizar as gotas, a menos que os efeitos sejam graves. Se estiver preocupado, fale 
+com o seu médico ou farmacêutico. Não interrompa a aplicação de TRAVATAN sem falar com o seu 
+médico. </p>
+<p>Os efeitos indesejáveis seguintes foram observados com TRAVATAN </p>
+<p>Muito frequentes: podem afetar mais de 1 em 10 utilizadores </p>
+<p>Efeitos oculares: vermelhidão. </p>
+<p>Frequentes: podem afetar até 1 em 10 utilizadores </p>
+<p>Efeitos oculares: alteração da cor da íris (parte colorida do olho), dor, desconforto, olho seco, 
+comichão, irritação. </p>
+<p>Pouco frequentes: podem afetar até 1 em 100 utilizadores </p>
+<p>Efeitos oculares: perturbações na córnea, inflamação, inflamação da iris, inflamação no interior do 
+olho, inflamação na superfície do olho com ou sem danos na superfície ocular, sensibilidade à luz, 
+descarga ocular, inflamação da pálpebra, vermelhidão da pálpebra, inchaço à volta do olho, comichão 
+na pálpebra, visão turva, aumento da produção de lágrima, inflamação ou infeção da conjuntiva 
+(conjuntivite), descaimento anormal da pálpebra inferior, turvação do olho, crostas nas pálpebras, 
+crescimento das pestanas. </p>
+<p>Efeitos indesejáveis gerais: sintomas alérgicos aumentados, dor de cabeça, frequência cardíaca 
+irregular, tosse, nariz entupido, escurecimento da pele à volta do olho(s), escurecimento da pele, 
+textura anormal dos pêlos e crescimento anormal dos pêlos. </p>
+<p>Raros: podem afetar até 1 em 1000 utilizadores </p>
+<p>Efeitos oculares: perceção de luzes intermitentes, eczema nas pálpebras, pestanas com 
+posicionamento anormal que crescem na direção do olho, inchaço, visão diminuída visão com halo, 
+sensação no olho diminuída, inflamação das glândulas das pálpebras, pigmentação no interior do olho, 
+aumento do tamanho da pupila, espessamento das pestanas, alteração da cor das pestanas, olhos 
+cansados. </p>
+<p>Efeitos indesejáveis gerais: infeção viral no olho, tonturas, paladar desagradável, frequência cardíaca 
+irregular ou diminuída, aumento ou diminuição da tensão arterial, falta de ar, asma, alergia nasal ou 
+inflamação, secura nasal, alteração da voz, ulcera ou desconforto gastrointestinal, obstipação, boca 
+seca, vermelhidão ou comichão na pele, alteração da cor dos pêlos, perda de pestanas, dor articular, 
+dor músculo esquelética, fraqueza generalizada. </p>
+<p>Desconhecidos: a frequência não pode ser calculada a partir dos dados disponíveis </p>
+<p>Efeitos oculares: inflamação na parte de trás do olho, olhos encovados </p>
+<p>Efeitos indesejáveis gerais: depressão, ansiedade, insónia, falsa sensação de movimento, campainhas 
+nos ouvidos, dor no peito, ritmo cardíaco anormal, agravamento da asma, diarreia, sangramentos do 
+nariz, dor abdominal, náusea, vómitos, comichão, crescimento anormal de pelos, dor ao urinar ou 
+urinar de forma involuntária, aumento do marcador de cancro da próstata. </p>
+<p>Em crianças e adolescentes, os efeitos indesejáveis mais frequentes observados com TRAVATAN, 
+foram olhos vermelhos e crescimento de pestanas. Ambos os efeitos indesejáveis foram observados 
+com uma incidência superior em crianças e adolescentes quando comparados com adultos. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar travatan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar travatan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize TRAVATAN após o prazo de validade impresso no frasco e na embalagem exterior após 
+“EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Para evitar infeções, deverá rejeitar o frasco 4 semanas após a sua primeira abertura e utilizar um 
+frasco novo. Escreva a data em que abriu o frasco nos espaços indicados em cada frasco e na 
+cartonagem. Na embalagem contendo um único frasco, só necessita de escrever uma data. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de TRAVATAN </p>
+<p>A substância ativa é travoprost 40 microgramas/ml. </p>
+<p>Os outros componentes são poliquaternário-1, óleo de rícino hidrogenado polioxilo 40, 
+propilenoglicol, cloreto de sódio, ácido bórico, manitol, água purificada. São adicionadas pequenas 
+quantidades de ácido clorídrico ou hidróxido de sódio de forma a manter normais os níveis de acidez 
+(valores de pH). </p>
+<p>Qual o aspeto de TRAVATAN e conteúdo da embalagem 
+TRAVATAN é um líquido (uma solução incolor, transparente) apresentado numa embalagem 
+contendo um frasco de plástico de 2,5 ml com tampa de rosca ou numa embalagem contendo três 
+frascos de plástico de 2,5 ml com tampas de rosca. Cada frasco está contido num invólucro. Poderão 
+não ser comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Farmacéutica, S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Espanha </p>
+<p>S.A. Alcon-Couvreur N.V. 
+Rijksweg B-2870 Puurs 
+Bélgica </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nuremberga 
+Alemanha </p>
+<p>Siegfried El Masnou, S.A. 
+Camil Fabra El Masnou 
+08320 Barcelona 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 
+Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52<br />
+Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4 
+France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299<br />
+Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: + 421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 </p>
+<p>Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 
+Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -760,6 +1151,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a38db6f0b3670face0412d6c2e00cd92"
 * entry[0].resource = composition-da-a38db6f0b3670face0412d6c2e00cd92
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa38db6f0b3670face0412d6c2e00cd92"
+* entry[=].resource = mpa38db6f0b3670face0412d6c2e00cd92
+                            
+                    
+Instance: bundlepackageleaflet-pt-a38db6f0b3670face0412d6c2e00cd92
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for travatan Package Leaflet for language pt"
+Description: "ePI document Bundle for travatan Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a38db6f0b3670face0412d6c2e00cd92"
+* entry[0].resource = composition-pt-a38db6f0b3670face0412d6c2e00cd92
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa38db6f0b3670face0412d6c2e00cd92"
@@ -861,6 +1274,18 @@ RuleSet: a38db6f0b3670face0412d6c2e00cd92ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a38db6f0b3670face0412d6c2e00cd92) // travatan pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

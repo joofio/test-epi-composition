@@ -846,6 +846,512 @@ er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på w
 
 
 
+Instance: composition-pt-0e210569ec71496664e40726e162d3a0
+InstanceOf: CompositionUvEpi
+Title: "Composition for fabrazyme Package Leaflet"
+Description:  "Composition for fabrazyme Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0e210569ec71496664e40726e162d3a0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - fabrazyme"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:<br />
+1. O que é Fabrazyme e para que é utilizado 
+2. O que precisa de saber antes de utilizar Fabrazyme 
+3. Como utilizar Fabrazyme 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Fabrazyme 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é fabrazyme e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é fabrazyme e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fabrazyme contém a substância ativa agalsidase beta e é usado como terapêutica de substituição 
+enzimática na doença de Fabry, na qual o nível da atividade da enzima -galactosidase está ausente ou 
+é inferior ao normal. Se sofrer da doença de Fabry, uma substância gorda, chamada 
+globotriaosilceramida (GL-3), não é removida das células do seu corpo e começa a acumular-se nas 
+paredes dos vasos sanguíneos dos órgãos. </p>
+<p>Fabrazyme está indicado para ser utilizado na terapêutica de substituição enzimática prolongada em 
+doentes com um diagnóstico confirmado de doença de Fabry. </p>
+<p>Fabrazyme é indicado em adultos, adolescentes e crianças com mais de 8 anos de idade. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar fabrazyme"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar fabrazyme"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Fabrazyme 
+- se tem alergia à agalsidase beta ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de utilizar Fabrazyme. </p>
+<p>Se for tratado com Fabrazyme, pode desenvolver reações relacionadas com a perfusão. Uma reação 
+relacionada com a perfusão consiste em qualquer efeito indesejável que ocorra durante a perfusão ou 
+até ao final do dia de perfusão (ver secção 4). Se tiver uma reação destas, deve informar o seu 
+médico imediatamente. Poderá ter de receber medicamentos adicionais para prevenir a ocorrência 
+destas reações.  </p>
+<p>Crianças e adolescentes 
+Não foram efetuados estudos clínicos em crianças dos 0 - 4 anos de idade. Os riscos e benefícios de 
+Fabrazyme nas crianças com idades entre os 5 e os 7 anos não foram ainda estabelecidos e, por isso, 
+nenhuma dose pode ser recomendada para este grupo etário. </p>
+<p>Outros medicamentos e Fabrazyme 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. 
+Informe o seu médico caso esteja a tomar medicamentos que contenham cloroquina, amiodarona, 
+benoquina ou gentamicina. Existe um risco teórico de diminuição da atividade da agalsidase beta. </p>
+<p>Gravidez, amamentação e fertilidade 
+A experiência de utilização de Fabrazyme em mulheres grávidas é limitada. Como precaução, é 
+preferível evitar a utilização de Fabrazyme durante a gravidez. Fabrazyme passa para o leite materno. 
+Fale com o seu médico sobre os riscos e benefícios da amamentação versus a continuação da 
+terapêutica com Fabrazyme.<br />
+Não foram efetuados estudos para examinar os efeitos de Fabrazyme sobre a fertilidade. </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza nem utilize máquinas se sentir tonturas, sonolência, vertigens ou desmaio durante, ou 
+pouco depois da administração de Fabrazyme (ver secção 4). Fale primeiro com o seu médico. </p>
+<p>Fabrazyme contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por frasco para injetáveis, ou seja, 
+é praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar fabrazyme"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar fabrazyme"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fabrazyme é administrado numa veia através de um sistema gota-a-gota (por perfusão intravenosa). É 
+fornecido como um pó que será misturado com água estéril antes de ser administrado (ver informação 
+para profissionais de saúde no final deste folheto). 
+Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas.  </p>
+<p>Fabrazyme será utilizado apenas sob a supervisão de um médico com conhecimentos no tratamento da 
+doença de Fabry. O seu médico poderá aconselhá-lo a continuar o tratamento em casa, no caso de 
+respeitar todos os critérios. Fale com o seu médico caso prefira fazer o tratamento em casa. </p>
+<p>A dose recomendada de Fabrazyme para adultos é de 1 mg/kg de peso corporal, administrada uma vez 
+de 2 em 2 semanas. Não são necessárias alterações da dose em doentes com compromisso renal. </p>
+<p>Utilização em crianças e adolescentes 
+A dose recomendada de Fabrazyme para crianças e adolescentes dos 8 - 16 anos é de 1 mg/kg de peso 
+corporal, administrada uma vez de duas em duas semanas. Não são necessárias alterações da dose em 
+doentes com compromisso renal. </p>
+<p>Se utilizar mais Fabrazyme do que deveria 
+Demonstrou-se que doses até 3 mg/kg de peso corporal são seguras. </p>
+<p>Caso se tenha esquecido de utilizar Fabrazyme 
+Se não fez uma perfusão de Fabrazyme, contacte o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestam em todas as pessoas. </p>
+<p>Nos estudos clínicos, os efeitos indesejáveis foram maioritariamente observados nos doentes durante a 
+administração do medicamento ou pouco depois da mesma (“reações associadas à perfusão"). Reações 
+alérgicas graves de perigo de vida (“reações anafilácticas") foram notificadas em alguns doentes. Se 
+tiver algum efeito indesejável grave, informe o seu médico imediatamente. </p>
+<p>Os sintomas muito frequentes (podem afetar mais do que 1 em cada 10 pessoas) incluem arrepios, 
+febre, sensação de frio, náuseas, vómitos, dor de cabeça e sensações cutâneas anormais, tais como 
+ardor e formigueiro. O seu médico pode decidir baixar a taxa de perfusão ou administrar outros 
+medicamentos para prevenir tais reações. </p>
+<p>Lista de outros efeitos indesejáveis: </p>
+<p>Frequentes (afetam até 1 em cada 10 pessoas): 
+ dor no peito 
+ sonolência 
+ fadiga </p>
+<p> batimento cardíaco 
+acelerado 
+ rubores 
+ dificuldade em respirar 
+ dor abdominal 
+ dor 
+ palidez 
+ dor nas costas 
+ aperto na garganta 
+ comichão 
+ eritema na pele 
+ tonturas 
+ secreção lacrimal alterada 
+ batimento cardíaco reduzido  palpitações 
+ fraqueza 
+ letargia 
+ sensibilidade à dor reduzida 
+ zumbidos 
+ síncopes 
+ sensação de queimadura 
+ congestão nasal 
+ tosse 
+ pieira 
+ diarreia 
+ desconforto abdominal 
+ urticária 
+ vermelhidão 
+ face inchada 
+ dor nas extremidades 
+ dor muscular 
+ dor nas articulações 
+ nasofaringite 
+ aumento da pressão 
+sanguínea 
+ diminuição da pressão 
+sanguínea 
+ afrontamentos 
+ inchaço súbito da face ou da 
+garganta 
+ desconforto no peito 
+ sensação de calor 
+ inchaço nas extremidades 
+ edema da face 
+ hipertermia 
+ vertigens 
+ dificuldade exagerada em 
+respirar 
+ diminuição da sensibilidade da 
+boca 
+ desconforto no estômago 
+ rigidez muscular 
+ rigidez musculosquelética 
+ espasmos musculares </p>
+<p>Pouco frequentes (afetam até 1 em cada 100 pessoas):<br />
+ tremores 
+ comichão na vista 
+ fraco batimento cardíaco 
+devido a perturbações da 
+condução 
+ olhos vermelhos 
+ ouvidos inchados 
+ aumento da sensibilidade à 
+dor 
+ dor de ouvidos 
+ broncospasmo 
+ congestão do tracto 
+respiratório superior 
+ dor de garganta 
+ corrimento nasal 
+ reação na pele avermelhada 
+ respiração rápida 
+ desconforto abdominal </p>
+<p> reação na pele com 
+comichão 
+ desconforto da pele 
+ descoloração da pele 
+(manchas arroxeadas) 
+ sentimento de frio e calor 
+ dor musculosquelética 
+ frio nas extremidades 
+ dificuldade em engolir 
+ rinite 
+ coagulação sanguínea no 
+local da injecção 
+ dor no local da perfusão 
+ estado gripal 
+ descoloração da pele 
+ reação no local da perfusão 
+ desconforto generalizado 
+ inchaço </p>
+<p>Desconhecido (frequentemente, não pode ser calculado a partir dos dados disponíveis): 
+ Níveis baixos de oxigénio no 
+sangue 
+ Inflamação vascular grave </p>
+<p>Em alguns doentes inicialmente tratados com a dose recomendada, e cuja dose tenha sido 
+posteriormente reduzida durante um período prolongado, alguns dos sintomas da doença de Fabry 
+foram comunicados com mais frequência. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar fabrazyme"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar fabrazyme"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento depois do prazo de validade impresso no rótulo após “VAL". O prazo de 
+validade corresponde ao último dia do mês indicado. </p>
+<p>Frascos para injetáveis não abertos<br />
+Conservar no frigorífico (2ºC - 8ºC) </p>
+<p>Soluções reconstituídas e diluídas 
+A solução reconstituída não pode ser conservada e deve ser imediatamente diluída; apenas a solução 
+diluída pode ser mantida até 24 horas a 2 °C -8 °C. </p>
+<p>Não deite fora quaisquer  medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Fabrazyme </p>
+<ul>
+<li>A substância ativa é a agalsidase beta, um frasco para injetáveis contém 35 mg. Após 
+reconstituição, cada frasco para injetáveis contém 5 mg de agalsidase beta por ml. </li>
+<li>Os outros ingredientes são </li>
+<li>Manitol (E421) </li>
+<li>Sódio, dihidrogenofosfato mono-hidratado (E339) </li>
+<li>fosfato de disódio , hepta-hidratado (E339) </li>
+</ul>
+<p>Qual o aspecto de Fabrazyme e conteúdo da embalagem </p>
+<p>Fabrazyme é fornecido como um pó branco ou quase branco. Após a reconstituição é um líquido 
+límpido, incolor, isento de partículas estranhas. A solução reconstituída deve ser diluída 
+posteriormente. Existe em embalagens de 1, 5, ou 10 frascos. Poderão não ser comercializados alguns 
+tamanhos de embalagem </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da autorização de introdução no mercado<br />
+Sanofi B.V., Paasheuvelweg 25, 1105 BP Amsterdam, Países Baixos </p>
+<p>Fabricante<br />
+Genzyme Ireland Limited, IDA Industrial Park, Old Kilmeaden Road, Waterford, Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien/ 
+Luxembourg/Luxemburg 
+Sanofi Belgium 
+Tél/Tel: + 32 2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel: +36 1 505 0Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Malta 
+Sanofi S.r.l. 
+Tel: 39 02 39394 
+Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: + 47 67 10 71<br />
+Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: + 43 1 80 185 - 0 
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE 
+Τηλ: +30 210 900 1Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00<br />
+España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94 <br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda.<br />
+Tel: +351 21 35 89 France 
+Sanofi Winthrop Industrie 
+Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: + 358 201 200<br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800536 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+United Kingdom (Irlanda do Norte) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 
+Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47  </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação 
+Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu. Também existem links para outros sites sobre 
+doenças raras e tratamentos. </p>
+<hr />
+<p>A informação que se segue destina-se apenas aos profissionais de saúde: </p>
+<p>Instruções de utilização - reconstituição, diluição e administração </p>
+<p>O pó para concentrado para solução para perfusão tem de ser reconstituído com água para preparações 
+injetáveis, diluído com solução injetável de cloreto de sódio a 0,9% e, em seguida, administrado por 
+perfusão intravenosa. </p>
+<p>De um ponto de vista microbiológico, o produto deve ser utilizado imediatamente. Caso não o seja, a 
+conservação e condições durante a utilização são da responsabilidade do utilizador. A solução 
+reconstituída não pode ser conservada e deve ser imediatamente diluída; apenas a solução diluída pode 
+ser conservada até 24 horas a 2ºC-8ºC. </p>
+<p>Utilização de uma técnica asséptica </p>
+<ol>
+<li>DO número de frascos para injetáveis deve ser determinado para serem reconstituídos com base 
+no peso de cada doente individual e os frascos para injetáveis necessários devem ser removidos 
+do frigorífico a fim de permitir que atinjam a temperatura ambiente (em aproximadamente minutos). Cada frasco para injetáveis de Fabrazyme destina-se apenas a utilização única. </li>
+</ol>
+<p>Reconstituição </p>
+<ol>
+<li>
+<p>Cada frasco para injetáveis de Fabrazyme 35 mg deve ser reconstituído com 7,2 ml de água para 
+preparações injetáveis. Um impacto violento da água para preparações injetáveis sobre o pó e  a 
+formação de espuma na solução devem ser evitados. A técnica utilizada consiste na adição lenta 
+gota a gota da água para preparações injetáveis no interior do frasco e não diretamente sobre o 
+liofilizado. Cada frasco deve ser rolado e inclinado suavemente. O frasco não deve ser invertido, 
+abanado ou agitado. </p>
+</li>
+<li>
+<p>A solução reconstituída contém 5 mg de agalsidase beta por ml e apresenta-se sob a forma de 
+uma solução incolor e límpida. O pH da solução reconstituída é aproximadamente de 7,0. Antes 
+de proceder à diluição, a solução reconstituída em cada frasco para injetáveis deve ser 
+inspecionada visualmente quanto à presença de matéria particulada e de descoloração. A 
+solução não deve ser utilizada se forem observadas partículas estranhas ou se a solução estiver 
+descolorada. </p>
+</li>
+<li>
+<p>Após reconstituição, recomenda-se a diluição imediata dos frascos para injetáveis, para 
+minimizar a formação de partículas proteicas com o passar do tempo. </p>
+</li>
+<li>
+<p>Parte do medicamento não utilizado ou resíduos devem ser eliminados de acordo com as 
+exigências locais. </p>
+</li>
+</ol>
+<p>Diluição </p>
+<ol>
+<li>
+<p>Antes de adicionar o volume reconstituído de Fabrazyme necessário para a dose do doente, ao 
+saco de perfusão de cloreto de sódio a 0,9%, recomenda-se a remoção de um volume 
+equivalente de solução injetável do saco. </p>
+</li>
+<li>
+<p>O ar de dentro do saco de perfusão deve ser removido para minimizar a interface ar/líquido. </p>
+</li>
+<li>
+<p>Devem ser lentamente extraídos.7,0 ml (igual a 35 mg) de solução reconstituída de cada frasco 
+para injetáveis até ao volume total necessário para a dose do doente. Agulhas de filtro não 
+devem ser utilizadas e a formação de espuma deve ser evitada.  </p>
+</li>
+<li>
+<p>A solução reconstituída deve ser lentamente injetada diretamente na solução injetável de cloreto 
+de sódio a 0,9% (não em qualquer espaço de ar remanescente) até perfazer uma concentração 
+final entre 0,05 mg/ml e 0,7 mg/ml. O volume total de cloreto de sódio para perfusão numa 
+solução de 0,9% (entre 50 e 500 ml) deve ser determinado com base na dose individual. Para 
+doses inferiores a 35 mg um mínimo de 50 ml deve ser utilizado, para doses entre 35 e 70 mg 
+um mínimo de 100 ml deve ser utilizado, para doses entre 70 e 100 mg um mínimo de 250 ml 
+deve ser utilizado e para doses superiores a 100 mg apenas devem ser utilizados 500 ml. O saco 
+de perfusão deve ser invertido suavemente e massajado lentamente para misturar a solução 
+diluída. O saco de infusão não deve ser mexido ou agitado excessivamente. </p>
+</li>
+</ol>
+<p>Administração </p>
+<ol>
+<li>Recomenda-se a administração da solução diluída através de um filtro em-linha de 0,2 μm e 
+baixa ligação às proteínas para remover quaisquer partículas proteicas, o que não levará a 
+qualquer perda de atividade de agalsidase beta. O ritmo inicial de perfusão IV não deve ser 
+superior a 0,25 mg/min (15 mg/hora). A taxa de perfusão pode ser diminuída em caso de 
+reações associadas à perfusão. </li>
+</ol>
+<p>Depois da tolerância do doente estar bem estabelecida, o ritmo de perfusão pode ser aumentado 
+em incrementos de 0,05 a 0,083 mg/min (aumentos de 3 a 5 mg/hora) em cada perfusão 
+subsequente. Em ensaios clínicos com doentes clássicos, a taxa de perfusão foi aumentada 
+progressivamente para atingir uma duração mínima de 2 horas. Este objetivo foi atingido após 8 
+perfusões iniciais a 0,25 mg/min (15 mg/hora), sem quaisquer RAPs, alteração na taxa de 
+perfusão ou interrupção da mesma. Foi permitida uma nova redução do tempo de perfusão para 
+1,5 horas para os doentes sem novas RAPs durante as últimas 10 perfusões ou sem efeitos 
+indesejáveis graves notificados nas últimas 5 perfusões. Cada aumento de 0,083 mg/min (~5 
+mg/hora) da taxa de perfusão foi mantido por 3 perfusões consecutivas, sem quaisquer RAPs 
+novas, alteração na taxa de perfusão ou interrupção da mesma, antes dos aumentos subsequentes 
+da taxa. </p>
+<p>Para doentes com peso &lt; 30 kg, a taxa de perfusão máxima deve manter-se a 0,25 mg/min 
+(15 mg/hora). 
+Folheto informativo: Informação para o doente </p>
+<p>Fabrazyme 5 mg pó para concentrado para solução para perfusão. 
+agalsidase beta </p>
+<ul>
+<li>Leia com atenção todo este folheto antes de começar a utilizar este medicamento, pois 
+contém informação importante para si.  </li>
+<li>Conserve este folheto. Pode ter necessidade de o ler novamente. </li>
+<li>Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico. </li>
+<li>Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode 
+ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença. </li>
+<li>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.  </li>
+</ul>         </div>"""      
+
+
+
 
 
                     
@@ -887,6 +1393,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-0e210569ec71496664e40726e162d3a0"
 * entry[0].resource = composition-da-0e210569ec71496664e40726e162d3a0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0e210569ec71496664e40726e162d3a0"
+* entry[=].resource = mp0e210569ec71496664e40726e162d3a0
+                            
+                    
+Instance: bundlepackageleaflet-pt-0e210569ec71496664e40726e162d3a0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fabrazyme Package Leaflet for language pt"
+Description: "ePI document Bundle for fabrazyme Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-0e210569ec71496664e40726e162d3a0"
+* entry[0].resource = composition-pt-0e210569ec71496664e40726e162d3a0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp0e210569ec71496664e40726e162d3a0"
@@ -988,6 +1516,18 @@ RuleSet: 0e210569ec71496664e40726e162d3a0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-0e210569ec71496664e40726e162d3a0) // fabrazyme pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

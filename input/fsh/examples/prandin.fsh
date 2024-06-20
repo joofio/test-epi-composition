@@ -652,6 +652,429 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""
 
 
 
+Instance: composition-pt-171cf6efa1f321eb434b5635b2f1abe1
+InstanceOf: CompositionUvEpi
+Title: "Composition for prandin Package Leaflet"
+Description:  "Composition for prandin Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp171cf6efa1f321eb434b5635b2f1abe1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - prandin"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Prandin e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Prandin </li>
+<li>Como tomar Prandin </li>
+<li>Efeitos secundários possíveis </li>
+<li>Como conservar Prandin </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é prandin e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é prandin e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Prandin é um medicamento antidiabético oral contendo repaglinida, que ajuda o seu pâncreas a 
+produzir mais insulina e, portanto, a baixar o seu açúcar no sangue (glicose). </p>
+<p>A diabetes tipo 2 é uma doença na qual o seu pâncreas não produz insulina suficiente para controlar o 
+o açúcar no sangue ou em que o seu corpo não responde de forma normal à insulina que o pâncreas 
+produz.  </p>
+<p>Prandin é utilizado para controlar a diabetes tipo 2 nos adultos, sendo adicionado à dieta e ao 
+exercício: o tratamento é, geralmente, iniciado se a dieta, o exercício físico e a redução de peso por si 
+só não foram suficientes para controlar (ou diminuir) o seu açúcar no sangue. Prandin também pode 
+ser administrado com metformina, que é outro medicamento para a diabetes. </p>
+<p>Foi demonstrado que Prandin baixa o açúcar no sangue, o que ajuda a prevenir as complicações da 
+sua diabetes. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar prandin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar prandin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Prandin </p>
+<ul>
+<li>
+<p>Se tem alergia à repaglinida ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>Se tiver diabetes tipo 1.  </p>
+</li>
+<li>
+<p>Se o nível de acidez no seu sangue for elevado (cetoacidose diabética). </p>
+</li>
+<li>
+<p>Se tiver uma doença grave do fígado. </p>
+</li>
+<li>
+<p>Se estiver a tomar gemfibrozil (um medicamento para reduzir os níveis de gordura no sangue). </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico antes de tomar Prandin: </p>
+<ul>
+<li>
+<p>Se tiver problemas de fígado. Prandin não é recomendado em doentes com doença moderada 
+do fígado. Prandin não deve ser tomado se tiver uma doença grave do fígado (ver Não tome 
+Prandin) </p>
+</li>
+<li>
+<p>Se tiver problemas renais. Prandin deve ser tomado com precaução </p>
+</li>
+<li>
+<p>Se estiver em vias de ser submetido a uma grande cirurgia ou se teve recentemente uma 
+doença ou infeção graves. Nestas circunstâncias, pode falhar o controlo da diabetes </p>
+</li>
+<li>
+<p>Se tiver menos de 18 anos ou mais de 75 anos de idade. A utilização de Prandin não é 
+recomendada. O medicamento não foi estudado nestes grupos etários. </p>
+</li>
+</ul>
+<p>Informe o seu médico se qualquer das situações acima referidas se aplica a si. Prandin pode não ser o 
+medicamento adequado ao seu caso. O seu médico aconselhá-lo-à. </p>
+<p>Crianças e adolescentes </p>
+<p>Não tome este medicamento se tiver menos de 18 anos de idade. </p>
+<p>Se entrar em hipoglicemia (baixo nível de açúcar no sangue) </p>
+<p>Pode entrar em hipoglicemia se o seu açúcar no sangue atingir um nível demasiado baixo. Isto pode 
+acontecer: </p>
+<ul>
+<li>
+<p>Se tomar demasiado Prandin </p>
+</li>
+<li>
+<p>Se fizer mais exercício do que o normal </p>
+</li>
+<li>
+<p>Se tomar outros medicamentos ou sofrer de problemas do fígado ou dos rins (ver outras secções 
+em </p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar prandin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar prandin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Os sinais de aviso de uma hipoglicemia podem surgir rapidamente e podem incluir: suores frios; 
+pele pálida e fria; dor de cabeça; batimento rápido do coração; enjoo; sensação de fome excessiva; 
+alterações temporárias na visão; sonolência; sensação invulgar de cansaço e fraqueza; nervosismo ou 
+tremores; sensação de ansiedade; sensação de desorientação; dificuldade de concentração. 
+Se o seu nível de açúcar no sangue for demasiado baixo ou se sentir que vai entrar em 
+hipoglicemia: coma rebuçados, alimentos ou bebidas muito açucarados e depois descanse. 
+Depois dos sintomas de hipoglicemia terem desaparecido ou após estabilização dos níveis de 
+açúcar no sangue, continue o tratamento com Prandin. 
+Informe as pessoas de que tem diabetes e que, se desmaiar (ficar inconsciente) devido a uma 
+hipoglicemia, devem virá-lo de lado e pedir ajuda médica imediatamente. Não devem dar-lhe nada 
+para comer ou beber. Pode sufocá-lo. </p>
+<ul>
+<li>
+<p>Se a hipoglicemia grave não for tratada, poderá causar uma lesão cerebral (temporária ou 
+permanente) e até mesmo a morte </p>
+</li>
+<li>
+<p>Se entrar em hipoglicemia e desmaiar, ou se entrar frequentemente em hipoglicemia, fale 
+com o seu médico. A dose de Prandin, a quantidade de alimentos ou de exercício podem 
+necessitar de ser ajustadas. </p>
+</li>
+</ul>
+<p>Se o seu nível de açúcar no sangue ficar demasiado alto </p>
+<p>O seu nível de açúcar no sangue pode ficar demadiado alto (hiperglicemia). Isto pode acontecer: </p>
+<ul>
+<li>
+<p>Se tomar pouco Prandin </p>
+</li>
+<li>
+<p>Se tiver uma infeção ou febre </p>
+</li>
+<li>
+<p>Se comer mais do que o habitual  </p>
+</li>
+<li>
+<p>Se fizer menos exercício do que o normal. </p>
+</li>
+</ul>
+<p>Os sinais de aviso de um nível de açúcar demasiado alto surgem gradualmente. Incluem: aumento 
+da frequência urinária; pele seca e boca seca. Fale com o seu médico. A quantidade de Prandin, de 
+alimentos ou de exercício pode necessitar de ser ajustada. </p>
+<p>Outros medicamentos e Prandin </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. 
+Pode tomar Prandin com metformina, que é outro medicamento para a diabetes, se o seu médico o 
+prescrever. 
+Se tomar gemfibrozil (utilizado para baixar os níveis elevados de gordura no sangue), não deve tomar 
+Prandin. </p>
+<p>A resposta do seu corpo a Prandin pode mudar se estiver a tomar outros medicamentos, em especial os 
+seguintes: </p>
+<ul>
+<li>
+<p>Inibidores de monoaminoxidase (IMAO) (usados para tratar a depressão) </p>
+</li>
+<li>
+<p>Beta-bloqueantes (usados para o tratamento da pressão arterial elevada ou perturbações 
+cardíacas) </p>
+</li>
+<li>
+<p>Inibidores IECA (usados para o tratamento de perturbações cardíacas) </p>
+</li>
+<li>
+<p>Salicilatos (p. ex. aspirina) </p>
+</li>
+<li>
+<p>Octreótido (usado para tratar o cancro) </p>
+</li>
+<li>
+<p>Anti-inflamatórios não esteróides (AINES) (com ação semelhante aos analgésicos) </p>
+</li>
+<li>
+<p>Esteróides (esteróides anabolizantes e corticosteróides - usados na anemia ou no tratamento da 
+inflamação) </p>
+</li>
+<li>
+<p>Contracetivos orais (pílulas para controlo da natalidade) </p>
+</li>
+<li>
+<p>Tiazidas (diuréticos ou comprimidos de ‘água’) </p>
+</li>
+<li>
+<p>Danazol (usado para tratar quistos da mama e a endometriose) </p>
+</li>
+<li>
+<p>Medicamentos para a tiróide (utilizados para o tratamento de baixos níveis de hormonas da 
+tiróide) </p>
+</li>
+<li>
+<p>Simpaticomiméticos (utilizados para tratamento da asma) </p>
+</li>
+<li>
+<p>Claritromicina, trimetoprim, rifampicina (antibióticos) </p>
+</li>
+<li>
+<p>Itraconazol, cetoconazol (medicamentos anti-fúngicos) </p>
+</li>
+<li>
+<p>Gemfibrozil (usado para tratar níveis elevados de gordura no sangue) </p>
+</li>
+<li>
+<p>Ciclosporina (usada para suprimir o sistema imunitário) </p>
+</li>
+<li>
+<p>Deferasirox (usado para reduzir o excesso crónico de ferro) </p>
+</li>
+<li>
+<p>Clopidogrel (previne os coágulos no sangue) </p>
+</li>
+<li>
+<p>Fenitoína, carbamazepina, fenobarbital (usados no tratamento da epilepsia) </p>
+</li>
+<li>
+<p>Erva de S. João (erva medicinal).  </p>
+</li>
+</ul>
+<p>Prandin com álcool </p>
+<p>O álcool pode alterar a capacidade de Prandin para reduzir o açúcar no sangue. A resposta do seu 
+corpo a Prandin pode alterar-se se ingerir bebidas alcoólicas. Fique alerta aos sintomas de 
+hipoglicemia. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Não deve tomar Prandin se estiver grávida ou a planear engravidar.  </p>
+<p>Não deve tomar Prandin se estiver a amamentar. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>A sua capacidade para conduzir ou utilizar máquinas pode ser afetada se o seu nível de açúcar no 
+sangue for baixo ou elevado. Não se esqueça que pode colocar a sua vida e a vida de outras pessoas 
+em perigo. Pergunte ao seu médico se pode conduzir caso: </p>
+<ul>
+<li>
+<p>Tenha hipoglicemias frequentes </p>
+</li>
+<li>
+<p>Tenha poucos ou nenhuns sinais de aviso de hipoglicemia.  </p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome sempre este medicamento exactamente como indicado pelo seu médico. Fale com o seu médico 
+se tiver dúvidas. 
+O seu médico determinará a sua dose.  </p>
+<ul>
+<li>
+<p>A dose inicial normal é de 0,5 mg antes de cada refeição principal. A dose pode ser ajustada 
+pelo seu médico até 4 mg, antes de cada refeição principal. Tome os comprimidos com um copo 
+de água imediatamente antes ou até 30 minutos antes de cada refeição principal. </p>
+</li>
+<li>
+<p>A dose pode ser ajustada pelo seu médico até 4 mg, para ser tomada imediatamente antes ou até 
+30 minutos antes de cada refeição principal. A dose máxima diária recomendada é de 16 mg.  </p>
+</li>
+</ul>
+<p>Não tome mais Prandin do que o recomendado pelo médico.  </p>
+<p>Se tomar mais Prandin do que deveria </p>
+<p>Se tomar demasiados comprimidos, o seu açúcar no sangue pode diminuir acentuadamente , 
+conduzindo a uma hipoglicemia. Ver Se entrar em hipoglicemia para obter informação sobre o que é 
+uma hipoglicemia e como tratá-la. </p>
+<p>Caso se tenha esquecido de tomar Prandin </p>
+<p>Se não tomar uma dose, tome a dose seguinte do modo habitual - não duplique a dose. </p>
+<p>Se parar de tomar Prandin </p>
+<p>Tenha em conta que o efeito desejado não será alcançado se deixar de tomar Prandin. A sua diabetes 
+pode piorar. Caso seja necessário alterar o seu tratamento fale primeiro com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.  </p>
+<ol>
+<li>Efeitos secundários possíveis </li>
+</ol>
+<p>Como todos os medicamentos, este medicamento pode causar efeitos secundários, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Hipoglicemia 
+O efeito secundário mais frequente é a hipoglicemia, que pode afetar até 1 em cada 10 doentes (ver Se 
+entrar em hipoglicemia na secção 2). As reações hipoglicémicas são, geralmente, ligeiras/moderadas, 
+mas podem, ocasionalmente, progredir para perda de consciência por hipoglicemia ou coma. Se isto 
+acontecer, é necessária assistência médica imediatamente. </p>
+<p>Alergia 
+A alergia é muito rara (pode afetar até 1 em 10.000 doentes). Sintomas, tais como inchaço, 
+dificuldade em respirar, batimento rápido do coração, tonturas e suores, podem ser sinais de reação 
+anafiláctica. Contacte imediatamente o médico. </p>
+<p>Outros efeitos secundários 
+Frequentes (podem afetar até 1 em cada 10 doentes) </p>
+<ul>
+<li>
+<p>Dores de estômago </p>
+</li>
+<li>
+<p>Diarreia. </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em cada 1.000 doentes) </p>
+<ul>
+<li>Sindroma coronário agudo (mas pode não estar relacionado com o medicamento). </li>
+</ul>
+<p>Muito raros (afetam até 1 em cada 10.000 doentes) </p>
+<ul>
+<li>
+<p>Vómitos </p>
+</li>
+<li>
+<p>Obstipação </p>
+</li>
+<li>
+<p>Perturbações da visão </p>
+</li>
+<li>
+<p>Problemas graves do fígado, disfunção do fígado, tais como aumento das enzimas hepáticas no 
+sangue </p>
+</li>
+</ul>
+<p>Frequência desconhecida </p>
+<ul>
+<li>
+<p>Hipersensibilidade (tal como erupção, prurido, vermelhidão e inchaço da pele) </p>
+</li>
+<li>
+<p>Sensação de má disposição (náuseas). </p>
+</li>
+</ul>
+<p>Comunicação de efeitos secundários 
+Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos secundários 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.  </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar prandin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar prandin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blíster, 
+após VAL. O prazo de validade corresponde ao últimodia do mês indicado.  </p>
+<p>Conservar na embalagem de origem para proteger da humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Prandin </p>
+<ul>
+<li>A substância ativa é a repaglinida. </li>
+<li>Os outros componentes são celulose microcristalina (E460), hidrogenofosfato de cálcio anidro, 
+amido de milho, potássio polacrilino, povidona (polividona), glicerol 85%, estearato de 
+magnésio, meglumina, poloxamero, óxido de ferro amarelo (E172) somente nos comprimidos 
+de 1 mg e óxido de ferro vermelho (E172) somente nos comprimidos de 2 mg. </li>
+</ul>
+<p>Qual o aspeto de Prandin e conteúdo da embalagem </p>
+<p>Os comprimidos de Prandin são redondos, convexos e gravados com o logótipo da Novo Nordisk (boi 
+Apis). As dosagens são 0,5 mg, 1 mg e 2 mg. Os comprimidos de 0,5 mg são brancos, os comprimidos 
+de 1 mg são amarelos e os comprimidos de 2 mg são cor de pêssego. Estão disponíveis quatro 
+embalagens em blister. Cada embalagem contém 30, 90, 120 ou 270 comprimidos.<br />
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Novo Nordisk A/S 
+Novo Allé, DK-2880 Bagsværd, Dinamarca </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -693,6 +1116,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-171cf6efa1f321eb434b5635b2f1abe1"
 * entry[0].resource = composition-da-171cf6efa1f321eb434b5635b2f1abe1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp171cf6efa1f321eb434b5635b2f1abe1"
+* entry[=].resource = mp171cf6efa1f321eb434b5635b2f1abe1
+                            
+                    
+Instance: bundlepackageleaflet-pt-171cf6efa1f321eb434b5635b2f1abe1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for prandin Package Leaflet for language pt"
+Description: "ePI document Bundle for prandin Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-171cf6efa1f321eb434b5635b2f1abe1"
+* entry[0].resource = composition-pt-171cf6efa1f321eb434b5635b2f1abe1
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp171cf6efa1f321eb434b5635b2f1abe1"
@@ -794,6 +1239,18 @@ RuleSet: 171cf6efa1f321eb434b5635b2f1abe1ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-171cf6efa1f321eb434b5635b2f1abe1) // prandin pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

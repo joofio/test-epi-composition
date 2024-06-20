@@ -869,6 +869,484 @@ ikke er nævnt her. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsse
 
 
 
+Instance: composition-pt-35e93ff91e96bbfad7fee25117b58d56
+InstanceOf: CompositionUvEpi
+Title: "Composition for plavix Package Leaflet"
+Description:  "Composition for plavix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp35e93ff91e96bbfad7fee25117b58d56)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - plavix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Plavix e para que é utilizado 
+2. O que precisa de saber antes de tomar Plavix 
+3. Como tomar Plavix 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Plavix 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é plavix e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é plavix e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Plavix contém clopidogrel e pertence a um grupo de medicamentos denominados antiagregantes 
+plaquetários. As plaquetas são estruturas muito pequenas no sangue que se agregam durante a 
+coagulação do sangue. Impedindo esta agregação, os medicamentos antiagregantes plaquetários 
+reduzem a possibilidade de formação de coágulos sanguíneos (um processo denominado trombose). </p>
+<p>Plavix é utilizado em adultos para prevenir a formação de coágulos sanguíneos (trombos) que se 
+formam em vasos sanguíneos endurecidos (artérias), um processo conhecido como aterotrombose, que 
+pode conduzir a acidentes aterotrombóticos (tais como o acidente vascular cerebral, ataque cardíaco 
+ou morte).  </p>
+<p>Foi-lhe prescrito Plavix para ajudar a prevenir a formação de coágulos sanguíneos e reduzir o risco 
+destes efeitos graves, porque: 
+- Tem uma situação de endurecimento das artérias (também conhecida por aterosclerose), e 
+- Já teve anteriormente um ataque cardíaco, acidente vascular cerebral ou uma situação 
+conhecida como doença arterial periférica, ou 
+- Já teve uma dor forte no peito conhecida como “angina instável" ou “enfarte de miocárdio" 
+(ataque cardíaco). Para o tratamento desta condição o seu médico poderá ter colocado um stent 
+na artéria bloqueada ou estreitada para recuperar a circulação eficaz de sangue. O seu médico 
+poderá também prescrever-lhe ácido acetilsalicílico (uma substância presente em muitos 
+medicamentos utilizada para aliviar a dor e baixar a febre, e também como anticoagulante). 
+- Se teve sintomas de um AVC que desapareceram num curto período de tempo (também 
+conhecido como acidente isquémico transitório) ou um AVC isquémico de baixa gravidade. O 
+seu médico poderá prescrever-lhe também ácido acetilsalicílico a partir das primeiras 24 horas. 
+- Se tem um batimento cardíaco irregular, uma condição conhecida por “fibrilhação auricular" e 
+não pode tomar medicamentos conhecidos como “anticoagulantes orais" (antagonistas da 
+vitamina K) que previnem a formação de novos coágulos e o crescimento dos coágulos já 
+existentes. Deve-lhe ter sido dito que os “anticoagulantes orais" são mais eficazes que o ácido 
+acetilsalicílico ou o uso combinado de Plavix e AAS para esta condição. O seu médico ter-lhe-
+á prescrito Plavix mais ácido acetilsalicílico caso não possa tomar “anticoagulantes orais" e não 
+tenha um risco acrescido de hemorragia. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar plavix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar plavix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Plavix  </p>
+<p> 
+Se tem alergia (hipersensibilidade) ao clopidogrel ou a qualquer outro componente deste 
+medicamento (indicados na seção 6).<br />
+ 
+Se tem uma hemorragia ativa, como por exemplo, uma úlcera de estômago ou hemorragia 
+cerebral. 
+ 
+Se sofrer de uma doença grave do fígado. </p>
+<p>Se pensa que algum destes problemas se aplica a si, ou se tiver quaisquer dúvidas, consulte o seu 
+médico antes de tomar Plavix. </p>
+<p>Advertências e precauções: 
+Se alguma das seguintes situações se aplicar ao seu caso, deverá informar o seu médico antes de tomar 
+Plavix: 
+ 
+Se tem risco de hemorragia, tal como: 
+- uma situação médica que o coloca em risco de hemorragia interna (tal como uma 
+úlcera de estômago) 
+- uma perturbação sanguínea que o torna suscetível a hemorragias internas 
+(hemorragias dentro de quaisquer tecidos, órgãos ou articulações do seu corpo). 
+- uma lesão grave recente 
+- uma cirurgia recente (incluindo cirurgia dentária) 
+- uma cirurgia planeada (incluindo cirurgia dentária) para os próximos sete dias 
+ 
+Se teve um coágulo na artéria do seu cérebro (acidente vascular cerebral isquémico) que ocorreu 
+nos últimos sete dias<br />
+ 
+Se sofre de doença dos rins ou do fígado 
+ 
+Se teve alguma alergia ou reação a qualquer medicamento utilizado para tratar a sua doença. 
+ 
+Se tem  historial clínico de hemorragia cerebral não-traumática. </p>
+<p>Enquanto está a tomar Plavix: 
+ 
+Deve informar o seu médico se uma cirurgia (incluindo dentária) está planeada. 
+ 
+Deve também informar o seu médico imediatamente se desenvolver uma condição médica 
+(também conhecida por Púrpura Trombocitopénica Trombótica ou PTT) que inclui febre e 
+nódoas negras debaixo da pele que podem parecer como minúsculos pontos vermelhos, com ou 
+sem cansaço extremo inexplicável, confusão, amarelecimento da pele e/ou olhos (icterícia) (ver 
+secção 4 “Efeitos Indesejáveis Possíveis").<br />
+ 
+Se se cortar ou ferir, poderá levar mais de tempo do que o normal para estancar a hemorragia. 
+Este facto está relacionado com o modo como o medicamento atua, uma vez que evita a 
+possibilidade de se formarem coágulos de sangue. Se se tratar de cortes ou feridas sem 
+importância (ex.: cortou-se ao fazer a barba) normalmente não tem que se preocupar. No 
+entanto se tiver preocupado com a sua hemorragia deve contactar o seu médico de imediato (ver 
+secção 4 “Efeitos Indesejáveis Possíveis"). 
+ 
+O seu médico pode pedir para realizar análises ao sangue. </p>
+<p>Crianças e adolescentes 
+Não dê este medicamento a crianças uma vez que este não funciona.  </p>
+<p>Outros medicamentos e Plavix:<br />
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. 
+Alguns medicamentos podem influenciar o uso de Plavix ou vice-versa.  </p>
+<p>Deve dizer especificamente ao seu médico se está a tomar 
+- medicamentos que podem aumentar o seu risco de hemorragia tais como: 
+ 
+ anticoagulantes orais, medicamentos utilizados para reduzir a coagulação do sangue, 
+ 
+ um medicamento anti-inflamatório não esteróide, usado normalmente para tratar situações 
+dolorosas e/ou inflamatórias dos músculos e articulações, 
+ 
+ heparina, ou qualquer outro medicamento injetável utilizado para reduzir a coagulação do 
+sangue, 
+ 
+ticlopidina, ou outros medicamentos antiplaquetários, 
+ 
+um inibidor seletivo da recaptação da serotonina  (incluindo, mas não restringido a, fluoxetina    <br />
+ou fluvoxamina), medicamentos utilizados normalmente para tratar a depressão, 
+ 
+rifampicina (utilizado para tratar infeções graves)<br />
+- omeprazol ou esomeprazol, medicamentos utilizados no tratamento de problemas no estômago, 
+- fluconazol ou voriconazol, medicamentos utilizados no tratamento de infeções fúngicas, 
+- efavirenz, ou outros medicamentos anti-retrovirais (utilizados para tratar infeções por VIH) 
+-<br />
+carbamazepina,um medicamento para tratar algumas formas de epilepsia, 
+- moclobemida, medicamento utilizado para tratar a depressão, 
+- repaglinida, medicamento para tratar a diabetes, 
+- paclitaxel, medicamento para tratar o cancro. 
+-  <br />
+opióides: enquanto estiver a ser tratado com clopidogrel, deve informar o seu médico antes de 
+lhe ser prescrito qualquer opióide (usados para tratar a dor severa), 
+-         rosuvastatina (usada para diminuir o seu nível de colesterol). </p>
+<p>Se teve dor forte no peito (angina instável ou ataque cardíaco), acidente isquémico transitório ou AVC 
+isquémico de baixa gravidade, pode ser-lhe receitado Plavix em associação com ácido acetilsalicílico, 
+uma substância presente em muitos medicamentos usada para aliviar dores e baixar a febre. Uma 
+utilização ocasional de ácido acetilsalicílico (até 1000 mg em 24 horas) não deve normalmente causar 
+problema, mas o uso prolongado noutras circunstâncias deve ser discutido com o seu médico. </p>
+<p>Plavix com alimentos e bebidas 
+O Plavix pode ser tomado com ou sem alimentos. </p>
+<p>Gravidez e amamentação<br />
+ É preferível não tomar este medicamento durante a gravidez. </p>
+<p>Se estiver grávida ou suspeitar que está grávida, deve informar o seu médico ou o seu farmacêutico 
+antes de iniciar o tratamento com Plavix. Se ficar grávida durante o tratamento com Plavix, deve 
+consultar imediatamente o seu médico, uma vez que é recomendado não tomar clopidogrel enquanto 
+estiver grávida. </p>
+<p>Não deve amamentar enquanto estiver a tomar este medicamento. 
+Caso esteja a amamentar ou planeia amamentar, fale com o seu médico antes de tomar este 
+medicamento. </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Condução de veículos e utilização de máquinas: 
+A sua capacidade para conduzir ou para trabalhar com máquinas não deverá ser afetada pelo Plavix.  </p>
+<p>Plavix contém lactose 
+Se foi informado pelo seu médico que sofre de intolerância a alguns açúcares (por exemplo, lactose), 
+contacte o seu médico antes de tomar este medicamento.  </p>
+<p>Plavix contém óleo de rícino hidrogenado 
+Este pode causar problemas de estômago ou diarreia. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar plavix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar plavix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada, incluindo doentes com uma condição designada de fibrilação auricular (um 
+batimento cardíaco irregular), é de um comprimido de 75 mg de Plavix por dia tomado por via oral 
+com ou sem alimentos e à mesma hora, todos os dias. </p>
+<p>Se teve uma dor forte no peito (angina instável ou ataque cardíaco), o seu médico pode receitar-lhe 
+300 mg ou 600 mg de Plavix (1 ou 2 comprimidos de 300 mg ou 4 ou 8 comprimidos de 75 mg) uma 
+vez no início do tratamento. Em seguida a dose recomendada é um comprimido de 75 mg de Plavix 
+por dia como acima descrito. </p>
+<p>Se teve sintomas de um AVC que despareceram num curto período de tempo (também conhecido 
+como acidente isquémico transitório) ou um AVC isquémico de baixa gravidade, o seu médico pode 
+prescrever-lhe 300 mg de Plavix (1 comprimido de 300 mg ou 4 comprimidos de 75 mg) uma vez no 
+início do tratamento. Posteriormente a dose recomendada é de 1 comprimido de 75 mg de Plavix por 
+dia como descrito acima com ácido acetilsalicílico durante 3 semanas. Depois o médico pode 
+prescrever apenas Plavix ou apenas ácido acetilsalicílico. </p>
+<p>Deve tomar Plavix durante o tempo que o médico assim o prescrever. </p>
+<p>Se tomar mais Plavix do que deveria 
+Contacte o seu médico ou o serviço de urgência hospitalar mais próximo devido ao risco aumentado 
+de hemorragia </p>
+<p>Caso se tenha esquecido de tomar Plavix 
+Se se esquecer de tomar uma dose de Plavix e ainda não tiverem passado 12 horas da hora normal da 
+toma, tome o comprimido imediatamente e tome o próximo comprimido na hora habitual.  </p>
+<p>Se se esquecer por mais de 12 horas, tome simplesmente a próxima dose na hora habitual. 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Para as embalagens de 7, 14, 28 e 84 comprimidos, pode verificar o dia em que pela última vez tomou 
+Plavix, consultando o calendário impresso no Blister. </p>
+<p>Se parar de tomar Plavix 
+Não interrompa o tratamento a não ser que o seu médico lhe tenha dito para o fazer. Contacte o 
+seu médico ou farmacêutico antes de interromper o tratamento. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.  </p>
+<ol>
+<li>Efeitos indesejáveis possíveis  </li>
+</ol>
+<p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.  </p>
+<p>Contacte imediatamente o seu médico se tiver: 
+ 
+Febre, sinais de infeção ou fraqueza grave. Isto pode ser devido a uma diminuição rara de 
+algumas células sanguíneas. 
+ 
+Sinais de alterações ao nível do fígado, tais como amarelecimento da pele e/ou olhos (icterícia), 
+associada ou não a hemorragia que aparece debaixo da pele como minúsculos pontos 
+vermelhos, e/ou confusão (ver secção 2). 
+ 
+Inchaço da boca ou alterações da pele como vermelhidão e comichão, bolhas na pele. Isto 
+podem ser sinais de reação alérgica. </p>
+<p>O efeito secundário mais frequente comunicado com Plavix é a hemorragia. A hemorragia pode 
+ocorrer como hemorragia no estômago ou intestinos, nódoas negras, hematoma (hemorragia invulgar 
+ou nódoa negra), hemorragia nasal, sangue na urina. Foi também referido um pequeno número de 
+casos de hemorragia ocular, no interior da cabeça, pulmão ou articulações.  </p>
+<p>Se surgir uma hemorragia prolongada ao tomar Plavix<br />
+Se se cortar ou ferir, poderá levar mais tempo do que o normal para estancar a hemorragia. Este facto 
+está relacionado com o modo como o medicamento atua, uma vez que evita a possibilidade de se 
+formarem coágulos de sangue. Se se tratar de cortes ou feridas sem importância (ex.: cortou-se ao 
+fazer a barba) não tem normalmente que se preocupar. No entanto se estiver preocupado com a sua 
+hemorragia, deve de imediato contactar o seu médico (ver secção 2 “Advertências e precauções"). </p>
+<p>Outros efeitos indesejáveis: 
+Efeitos indesejáveis frequentes (pode afetar até 1 em cada 10 pessoas):<br />
+Diarreia, dor abdominal, indigestão ou azia.  </p>
+<p>Efeitos indesejáveis pouco frequentes (pode afetar até 1 em cada 100 pessoas):<br />
+Dores de cabeça, úlcera de estômago, vómitos, náuseas, prisão de ventre, gás excessivo no estômago 
+ou intestinos, erupção na pele , comichão, tonturas, formigueiro ou dormência.  </p>
+<p>Efeitos indesejáveis raros (pode afetar até 1 em cada 1 000 pessoas): 
+Vertigens, aumento da mama nos homens. </p>
+<p>Efeitos indesejáveis muito raros (pode afetar até 1 em cada 10 000 pessoas):<br />
+Icterícia, dor abdominal grave, com ou sem dores de costas, febre, dificuldade em respirar por vezes 
+associada com tosse, reações alérgicas generalizadas (por exemplo, sensação geral de calor 
+acompanhado de desconforto geral com desmaio), inchaço na boca, bolhas na pele, alergia cutânea, 
+inflamação da boca (estomatite), diminuição da pressão sanguínea, confusão, alucinações, dor articular 
+e muscular, alterações na forma como os alimentos sabem ou perda do paladar. </p>
+<p>Efeitos indesejáveis cuja frequência é desconhecida (frequência não pode ser calculada com base nos 
+dados disponíveis): 
+Reações de hipersensibilidade com dor no peito ou abdominal, sintomas persistentes de baixo nível de 
+açúcar no sangue. </p>
+<p>Além disso, o seu médico pode identificar alterações nos resultados dos seus exames ao sangue ou à 
+urina. </p>
+<p>Comunicação de efeitos indesejáveis<br />
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter fora da vista e do alcance das crianças.<br />
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Consulte as condições de conservação na cartonagem. 
+Se Plavix for fornecido em blisters de PVC/PVDC/alumínio, conservar a temperatura inferior a 30ºC. 
+Se Plavix for fornecido em blisters de alumínio, não necessita de quaisquer precauções especiais de 
+conservação. 
+Não utilize este medicamento se verificar quaisquer sinais visíveis de deterioração.  </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar plavix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar plavix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Plavix 
+A substância ativa é o clopidogrel. Cada comprimido contém 75 mg de clopidogrel (como 
+hidrogenossulfato). </p>
+<p>Os outros componentes são (ver secção 2 “Plavix contém lactose" e “Plavix contém óleo de ricínio 
+hidrogenado": 
+- Núcleo do comprimido: manitol (E421), óleo de ricínio hidrogenado, celulose microcristalina, 
+macrogol 6.000 e hidroxipropilcelulose pouco substituída, 
+- Revestimento do comprimido: lactose mono-hidratada (açúcar do leite), hipromelose (E464), 
+triacetina (E1518), óxido de ferro vermelho (E172) e dióxido de titânio (E171), 
+- Agente polidor: cera de carnaúba. </p>
+<p>Qual o aspecto de Plavix e conteúdo da embalagem  </p>
+<p>Os comprimidos revestidos por película de Plavix 75 mg são redondos, biconvexos, cor rosa, 
+revestidos por película, tendo gravado num dos lados o número “75" e no outro o número “1171". O 
+Plavix é fornecido em caixas de cartão contendo: 
+- 7, 14, 28, 30, 84, 90 e 100 comprimidos em blisters de PVC/PVDC/Alu ou alumínio 
+- 50 x1 comprimidos em blisters de PVC/PVDC/Alu ou alumínio  de dose unitária. É possível 
+que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante  </p>
+<p>Titular da Autorização de Introdução no Mercado:<br />
+Sanofi Winthrop Industrie<br />
+82 avenue Raspail, 94250 Gentilly, France  </p>
+<p>Fabricantes:<br />
+Sanofi Winthrop Industrie<br />
+1, Rue de la Vierge, F-33440 Ambarès &amp; Lagrave, F-33565 Carbon Blanc cedex, França. 
+ou 
+Delpharm Dijon 
+6, Boulevard de l’Europe, F-21800 Quétigny, França 
+ou 
+Sanofi S.r.l. 
+Strada Statale 17, Km 67019 Scoppito (AQ) - Itália 
+ou 
+Sanofi Winthrop Industrie 
+30-36 avenue Gustave Eiffel 
+37100 Tours 
+França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local doTitular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/ Belgien 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel: +36 1 505 0 
+Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 
+Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel:  0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4 
+Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE 
+Τηλ: +30 210 900 16<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 - 0 </p>
+<p>España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel: +48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie 
+Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda 
+Tel: +351 21 35 89<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33 <br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800 536 
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>Este folheto foi revisto pela última vez em MM/AAAA </p>
+<p>Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu/ 
+Folheto informativo: Informação para o utilizador  </p>
+<p>Plavix 300 mg Comprimidos revestidos por película<br />
+clopidogrel </p>
+<p>Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois contém 
+informação importante para si. 
+- Conserve este folheto. Pode ter necessidade de o ler novamente. 
+- Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico. 
+- Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode 
+ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença. 
+- Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico ou farmacêutico. Ver seção 4.<br />
+O que contém este folheto: </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+
+
+
 
 
                     
@@ -910,6 +1388,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-35e93ff91e96bbfad7fee25117b58d56"
 * entry[0].resource = composition-da-35e93ff91e96bbfad7fee25117b58d56
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp35e93ff91e96bbfad7fee25117b58d56"
+* entry[=].resource = mp35e93ff91e96bbfad7fee25117b58d56
+                            
+                    
+Instance: bundlepackageleaflet-pt-35e93ff91e96bbfad7fee25117b58d56
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for plavix Package Leaflet for language pt"
+Description: "ePI document Bundle for plavix Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-35e93ff91e96bbfad7fee25117b58d56"
+* entry[0].resource = composition-pt-35e93ff91e96bbfad7fee25117b58d56
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp35e93ff91e96bbfad7fee25117b58d56"
@@ -1011,6 +1511,18 @@ RuleSet: 35e93ff91e96bbfad7fee25117b58d56ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-35e93ff91e96bbfad7fee25117b58d56) // plavix pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

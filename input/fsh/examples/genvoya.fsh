@@ -1276,6 +1276,702 @@ http://www.ema.europa.eu/. </p>         </div>"""
 
 
 
+Instance: composition-pt-9e5179bf4e803289b510a39f498792d0
+InstanceOf: CompositionUvEpi
+Title: "Composition for genvoya Package Leaflet"
+Description:  "Composition for genvoya Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9e5179bf4e803289b510a39f498792d0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - genvoya"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se Genvoya tiver sido receitado para o seu filho, note que toda a informação que consta deste 
+folheto é dirigida ao seu filho (neste caso leia “o seu filho" em vez de “você"). </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Genvoya e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Genvoya </li>
+<li>Como tomar Genvoya </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Genvoya </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é genvoya e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é genvoya e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Genvoya contém quatro substâncias ativas: </p>
+<ul>
+<li>
+<p>elvitegravir, um medicamento antirretroviral conhecido como um inibidor da integrase </p>
+</li>
+<li>
+<p>cobicistate, um medicamento que potencia (intensificador) os efeitos do elvitegravir </p>
+</li>
+<li>
+<p>emtricitabina, um medicamento antirretroviral conhecido como um inibidor nucleósido da 
+transcriptase reversa (INTR) </p>
+</li>
+<li>
+<p>tenofovir alafenamida fumarato, um medicamento antirretroviral conhecido como um 
+inibidor nucleotídeo da transcriptase reversa (INtTR) </p>
+</li>
+</ul>
+<p>Genvoya é um comprimido único para o tratamento da infeção pelo vírus da imunodeficiência 
+humana 1 (VIH-1) em adultos, adolescentes e crianças com 2 anos ou mais de idade, com um peso 
+de, pelo menos, 14 kg. </p>
+<p>Genvoya diminui a quantidade de VIH no seu corpo. Isto irá melhorar o seu sistema imunológico e 
+diminuir o risco de desenvolvimento de doenças ligadas à infeção pelo VIH. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar genvoya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar genvoya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Genvoya </p>
+<ul>
+<li>
+<p>Se tem alergia ao elvitegravir, ao cobicistate, à emtricitabina, ao tenofovir alafenamida, ou 
+a qualquer outro componente deste medicamento (indicados na secção 6 deste folheto). </p>
+</li>
+<li>
+<p>Se estiver a tomar um destes medicamentos: </p>
+</li>
+<li>alfuzosina (utilizada para tratar o aumento de tamanho da próstata) </li>
+<li>dabigatrano (utilizado para evitar e tratar coágulos de sangue) </li>
+<li>amiodarona, quinidina (utilizadas para corrigir batimentos irregulares do coração) </li>
+<li>carbamazepina, fenobarbital, fenitoína (utilizados para evitar convulsões) </li>
+<li>rifampicina (utilizada para evitar e tratar a tuberculose e outras infeções) </li>
+<li>di-hidroergotamina, ergometrina, ergotamina (utilizadas para tratar a enxaqueca) </li>
+<li>cisaprida (utilizada para aliviar certos problemas de estômago) </li>
+<li>hipericão (Hypericum perforatum, um produto à base de plantas para tratar a depressão e 
+ansiedade) ou produtos que o contenham. </li>
+<li>lomitapida, lovastatina, sinvastatina (utilizadas para diminuir o colesterol do sangue) </li>
+<li>lurasidona, pimozida (utilizadas para tratar pensamentos ou sentimentos anormais) </li>
+<li>sildenafil (quando utilizado para tratar a hipertensão arterial pulmonar - uma doença dos 
+pulmões que causa dificuldade em respirar) </li>
+<li>midazolam administrado por vial oral, triazolam (utilizados para ajudar a dormir e/ou 
+aliviar a ansiedade) </li>
+</ul>
+<p> Se qualquer uma destas situações se aplicar a si, não tome Genvoya e informe imediatamente o 
+seu médico. </p>
+<p>Advertências e precauções </p>
+<p>Deve necessariamente permanecer sob vigilância do seu médico enquanto estiver a tomar Genvoya. </p>
+<p>Este medicamento não é uma cura para a infeção pelo VIH. Enquanto tomar Genvoya, pode 
+desenvolver na mesma infeções ou outras doenças associadas com a infeção pelo VIH. </p>
+<p>Fale com o seu médico antes de tomar Genvoya: </p>
+<ul>
+<li>Se tem problemas no fígado ou antecedentes de doença do fígado, incluindo hepatite. Os 
+doentes com doença no fígado, incluindo hepatite B ou C crónica, que estejam a ser tratados 
+com medicamentos antirretrovirais, apresentam um risco superior de sofrerem complicações 
+graves e potencialmente fatais ao nível do fígado. Se tem hepatite B, o seu médico irá considerar 
+cuidadosamente o melhor regime terapêutico para si. </li>
+</ul>
+<p>Se tem infeção pelo vírus da hepatite B. Os problemas do fígado podem piorar depois de parar 
+de tomar Genvoya. É importante que não pare de tomar Genvoya sem falar antes com o seu 
+médico: ver secção 3, Não pare de tomar Genvoya. </p>
+<ul>
+<li>Se teve doença renal ou se as análises revelaram problemas nos seus rins. O seu médico 
+pode pedir-lhe para efetuar análises ao sangue para monitorizar o funcionamento dos seus rins 
+no início e durante o tratamento com Genvoya. </li>
+</ul>
+<p>Enquanto estiver a tomar Genvoya </p>
+<p>Assim que começar a tomar Genvoya, fique atento a: </p>
+<ul>
+<li>
+<p>Sinais de inflamação ou infeção </p>
+</li>
+<li>
+<p>Dores nas articulações, rigidez ou problemas nos ossos </p>
+</li>
+</ul>
+<p> Se observar quaisquer destes sintomas, informe o seu médico imediatamente. Para obter mais 
+informações, consulte a secção 4, Efeitos indesejáveis possíveis. </p>
+<p>Existe a possibilidade de vir a ter problemas nos rins se tomar Genvoya durante um longo período de 
+tempo (ver Advertências e precauções). </p>
+<p>Crianças e adolescentes </p>
+<p>Não dê este medicamento a crianças com menos de 2 anos de idade ou com um peso inferior a 
+14 kg, independentemente da idade. A utilização de Genvoya em crianças com menos de 2 anos de 
+idade ou com um peso inferior a 14 kg ainda não foi estudada. </p>
+<p>Outros medicamentos e Genvoya </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier 
+a tomar outros medicamentos. Genvoya pode interferir com outros medicamentos. Como resultado, 
+as quantidades de Genvoya ou dos outros medicamentos no seu sangue podem ser afetadas. Isto pode 
+fazer com que os seus medicamentos parem de funcionar corretamente ou piorar quaisquer efeitos 
+indesejáveis. Em alguns casos, o seu médico pode precisar de ajustar a sua dose ou verificar os níveis 
+dos medicamentos no seu sangue. </p>
+<p>Medicamentos que nunca podem ser tomados com Genvoya: 
+- alfuzosina (utilizada para tratar o aumento de tamanho da próstata) 
+- amiodarona, quinidina (utilizadas para corrigir batimentos irregulares do coração) 
+- carbamazepina, fenobarbital, fenitoína (utilizados para evitar convulsões) 
+- dabigatrano (utilizado para evitar e tratar coágulos de sangue) 
+- rifampicina (utilizada para evitar e tratar a tuberculose e outras infeções) 
+- di-hidroergotamina, ergometrina, ergotamina (utilizadas para tratar a enxaqueca) 
+- cisaprida (utilizada para aliviar certos problemas de estômago) 
+- hipericão (Hypericum perforatum, um produto à base de plantas para tratar a depressão e 
+ansiedade) ou produtos que o contenham. 
+- lomitapida, lovastatina, sinvastatina (utilizadas para diminuir o colesterol do sangue) 
+- lurasidona, pimozida (utilizadas para tratar pensamentos ou sentimentos anormais) 
+- sildenafil (quando utilizado para tratar a hipertensão arterial pulmonar - uma doença dos 
+pulmões que causa dificuldade em respirar) 
+- midazolam administrado por vial oral, triazolam (utilizados para ajudar a dormir e/ou 
+aliviar a ansiedade) 
+ Se estiver a tomar qualquer um destes medicamentos, não tome Genvoya e informe o seu médico 
+imediatamente. </p>
+<p>Medicamentos utilizados para tratar a infeção pela hepatite B: </p>
+<p>Não deve tomar Genvoya com medicamentos que contêm: </p>
+<ul>
+<li>
+<p>tenofovir alafenamida </p>
+</li>
+<li>
+<p>tenofovir disoproxil </p>
+</li>
+<li>
+<p>lamivudina </p>
+</li>
+<li>
+<p>adefovir dipivoxil </p>
+</li>
+</ul>
+<p> Informe o seu médico se estiver a tomar qualquer um destes medicamentos. </p>
+<p>Outros tipos de medicamentos: 
+Fale com o seu médico se estiver a tomar: </p>
+<ul>
+<li>antifúngicos, utilizados para tratar infeções por fungos, tais como: </li>
+<li>
+<p>cetoconazol, itraconazol, voriconazol, posaconazol e fluconazol  </p>
+</li>
+<li>
+<p>antibióticos, utilizados para tratar infeções causadas por bactérias incluindo a tuberculose, 
+contendo: </p>
+</li>
+<li>
+<p>rifabutina, claritromicina e telitromicina </p>
+</li>
+<li>
+<p>antidepressivos, utilizados para tratar a depressão: </p>
+</li>
+<li>
+<p>medicamentos contendo trazodona ou escitalopram  </p>
+</li>
+<li>
+<p>sedativos e hipnóticos, utilizados para tratar a ansiedade: </p>
+</li>
+<li>
+<p>buspirona, clorazepato, diazepam, estazolam, flurazepam, zolpidem e lorazepam </p>
+</li>
+<li>
+<p>imunossupressores, utilizados para controlar a resposta imunitária do seu corpo após um 
+transplante, tais como: </p>
+</li>
+<li>
+<p>ciclosporina, sirolímus e tacrolímus </p>
+</li>
+<li>
+<p>corticosteroides, incluindo: </p>
+</li>
+<li>
+<p>betametasona, budesonida, fluticasona, mometasona, prednisona, triamcinolona. 
+Estes medicamentos são utilizados para tratar alergias, asma, doenças intestinais inflamatórias, 
+doenças inflamatórias da pele, dos olhos, das articulações e dos músculos e outras doenças 
+inflamatórias. Estes medicamentos são geralmente tomados por via oral, inalados, injetados ou 
+aplicados na pele ou olho. Se não for possível utilizar alternativas, o seu uso só deverá efetuar-
+se após avaliação médica e sob monitorização apertada do seu médico relativamente aos efeitos 
+indesejáveis dos corticosteroides. </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar a diabetes: </p>
+</li>
+<li>
+<p>metformina </p>
+</li>
+<li>
+<p>pílula contracetiva, utilizada para prevenir a gravidez </p>
+</li>
+<li>
+<p>medicamentos para a disfunção erétil, utilizados para tratar a impotência, tais como: </p>
+</li>
+<li>
+<p>sildenafil, tadalafil e vardenafil </p>
+</li>
+<li>
+<p>medicamentos para o coração, tais como: </p>
+</li>
+<li>
+<p>digoxina, disopiramida, flecainida, lidocaína (injetável), mexiletina, propafenona, 
+metoprolol, timolol, amlodipina, diltiazem, felodipina, nicardipina, nifedipina e verapamil  </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar a hipertensão arterial pulmonar: </p>
+</li>
+<li>
+<p>bosentano e tadalafil </p>
+</li>
+<li>
+<p>anticoagulantes, utilizados para evitar e tratar coágulos de sangue, tais como: </p>
+</li>
+<li>
+<p>apixabano, edoxabano, rivaroxabano e varfarina </p>
+</li>
+<li>
+<p>broncodilatadores, utilizados para tratar a asma e outros problemas relacionados com os 
+pulmões: </p>
+</li>
+<li>
+<p>salmeterol </p>
+</li>
+<li>
+<p>medicamentos para diminuir o colesterol, tais como: </p>
+</li>
+<li>
+<p>atorvastatina e pitavastatina </p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar a gota: </p>
+</li>
+<li>
+<p>colquicina </p>
+</li>
+<li>
+<p>antiplaquetários, utilizados para reduzir o risco de coágulos de sangue, como: </p>
+</li>
+<li>
+<p>clopidogrel </p>
+</li>
+<li>
+<p>medicamentos ou suplementos orais contendo minerais (tais como magnésio, alumínio, 
+cálcio, ferro, zinco), como: </p>
+</li>
+<li>suplementos minerais, vitamínicos (incluindo multivitamínicos), antiácidos e laxantes 
+ Se estiver a tomar medicamentos, suplementos orais, antiácidos ou laxantes contendo 
+minerais (tais como magnésio, alumínio, cálcio, ferro, zinco), tome-os pelo menos 4 horas antes 
+ou pelo menos 4 horas depois de Genvoya. </li>
+</ul>
+<p> Informe o seu médico se estiver a tomar estes ou quaisquer outros medicamentos. Não pare o 
+seu tratamento sem contactar o seu médico. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<ul>
+<li>
+<p>Informe o seu médico imediatamente se está grávida, se pensa estar grávida ou se planeia 
+engravidar. As mulheres grávidas não devem tomar Genvoya. A quantidade deste 
+medicamento no sangue pode diminuir durante a gravidez, o que pode impedir que atue 
+corretamente. </p>
+</li>
+<li>
+<p>Utilize um método contracetivo eficaz enquanto estiver a tomar Genvoya. </p>
+</li>
+<li>
+<p>Não amamente durante o tratamento com Genvoya. Isto deve-se ao facto de algumas das 
+substâncias ativas deste medicamento serem excretadas no leite humano. A amamentação não é 
+recomendada em mulheres que vivem com VIH, uma vez que a infeção pelo VIH pode ser 
+transmitida ao bebé através do leite materno. Se estiver a amamentar ou planeia vir a 
+amamentar, deve falar com o seu médico o mais rapidamente possível. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Genvoya pode causar tonturas. Se sentir tonturas enquanto estiver a tomar Genvoya, não conduza ou 
+ande de bicicleta e não utilize quaisquer ferramentas ou máquinas. </p>
+<p>Genvoya contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio". </p>
+<p>Genvoya contém lactose </p>
+<p>Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>
+<p> Se qualquer uma destas situações se aplicar a si, fale com o seu médico antes de tomar Genvoya. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar genvoya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar genvoya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Existem duas dosagens de Genvoya comprimidos. O seu médico irá receitar o comprimido apropriado 
+para a sua idade e peso. </p>
+<p>A dose recomendada é: </p>
+<p>Adultos, adolescentes e crianças com um peso de, pelo menos, 25 kg: um comprimido por dia com 
+alimentos (um comprimido de 150 mg/150 mg/200 mg/10 mg) </p>
+<p>Crianças com 2 anos de idade ou mais, com um peso de, pelo menos, 14 kg mas inferior a 25 kg: 
+um comprimido por dia com alimentos (um comprimido de 90 mg/90 mg/120 mg/6 mg) </p>
+<p>Devido ao sabor amargo, recomenda-se não mastigar ou esmagar o comprimido. </p>
+<p>Se tiver dificuldade em engolir o comprimido inteiro, pode dividi-lo ao meio. Tome as duas metades 
+do comprimido, uma imediatamente depois da outra, para tomar a dose completa. Não guarde o 
+comprimido dividido. 
+A ranhura no comprimido de 90 mg/90 mg/120 mg/6 mg destina-se apenas a ajudá-lo a partir o 
+comprimido, caso a sua criança tenha dificuldade em engoli-lo inteiro. </p>
+<p>Tome sempre a dose recomendada pelo seu médico. Isto para ter a certeza que o seu medicamento é 
+totalmente eficaz, e para reduzir o risco de desenvolvimento de resistência ao tratamento. Não altere a 
+dose a menos que o seu médico lhe diga para o fazer. </p>
+<p>Não tome antiácidos ou multivitaminas ao mesmo tempo que Genvoya. Se estiver a tomar 
+medicamentos, suplementos orais, antiácidos ou laxantes contendo minerais (tais como 
+magnésio, alumínio, cálcio, ferro, zinco), tome-os, pelo menos, 4 horas antes ou, pelo menos, 4 horas 
+depois de Genvoya. </p>
+<p>Se estiver a fazer diálise, tome a sua dose diária de Genvoya após terminar a diálise. </p>
+<p>Se tomar mais Genvoya do que deveria </p>
+<p>Se acidentalmente tomar mais do que a dose recomendada de Genvoya, pode ter um maior risco de ter 
+efeitos indesejáveis possíveis com este medicamento (ver secção 4, Efeitos indesejáveis possíveis). </p>
+<p>Entre imediatamente em contacto com o seu médico ou aconselhe-se junto do serviço de urgência mais 
+próximo. Mantenha o frasco de comprimidos consigo para que facilmente possa descrever o que 
+tomou. </p>
+<p>Caso se tenha esquecido de tomar Genvoya </p>
+<p>É importante que não falhe nenhuma dose de Genvoya. </p>
+<p>Caso se tenha esquecido de tomar uma dose: </p>
+<ul>
+<li>
+<p>Caso se aperceba no período de 18 horas após a hora em que habitualmente toma Genvoya, 
+deve necessariamente tomar o comprimido o mais rapidamente possível. Tome sempre o 
+comprimido com alimentos. Depois tome a sua dose seguinte como é habitual. </p>
+</li>
+<li>
+<p>Caso se aperceba 18 horas ou mais após a hora em que habitualmente toma Genvoya, não 
+tome a dose que falhou. Espere e tome a dose seguinte com alimentos à hora habitual. </p>
+</li>
+</ul>
+<p>Se vomitar em menos de 1 hora após a toma de Genvoya, tome outro comprimido com alimentos. </p>
+<p>Não pare de tomar Genvoya </p>
+<p>Não pare de tomar Genvoya sem falar com o seu médico. A interrupção do tratamento com 
+Genvoya pode afetar gravemente a sua resposta a um tratamento futuro. Se o tratamento com Genvoya 
+for interrompido por qualquer razão, fale com o seu médico antes de voltar a tomar os comprimidos de 
+Genvoya. </p>
+<p>Quando a quantidade de Genvoya começar a diminuir, obtenha mais junto do seu médico ou 
+farmacêutico. É muito importante que o faça porque a quantidade de vírus pode começar a aumentar 
+se o medicamento for interrompido, mesmo por um curto período de tempo. A doença pode então 
+tornar-se mais difícil de tratar.  </p>
+<p>Se tiver infeção por VIH e hepatite B, é particularmente importante não parar o tratamento com 
+Genvoya sem previamente consultar o seu médico. Pode necessitar de análises ao sangue durante 
+vários meses após interrupção do tratamento. Em alguns doentes com doença hepática (do fígado) 
+avançada ou cirrose, a interrupção do tratamento não é recomendada, uma vez que pode levar a um 
+agravamento da sua hepatite, que pode ser potencialmente fatal. </p>
+<p> Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco habituais 
+após parar o tratamento, particularmente sintomas que associaria à sua hepatite B. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves possíveis: informe o seu médico imediatamente </p>
+<ul>
+<li>
+<p>Quaisquer sinais de inflamação ou infeção. Em alguns doentes com infeção pelo VIH 
+avançada (SIDA) e antecedentes de infeções oportunistas (infeções que ocorrem em pessoas 
+com um sistema imunológico fraco), podem ocorrer sinais e sintomas de inflamação de infeções 
+prévias logo após iniciar o tratamento contra o VIH. Pensa-se que estes sintomas são devidos a 
+uma melhoria na resposta imunológica do corpo, permitindo que o corpo lute contra infeções 
+que podem estar presentes sem sintomas óbvios. </p>
+</li>
+<li>
+<p>Também podem ocorrer doenças autoimunes, quando o sistema imunitário ataca os tecidos 
+saudáveis do corpo, após começar a tomar medicamentos para a sua infeção pelo VIH. As 
+doenças autoimunes podem ocorrer muitos meses depois do início do tratamento. Esteja atento a 
+quaisquer sintomas de infeção ou outros sintomas, como:  </p>
+</li>
+<li>fraqueza muscular </li>
+<li>fraqueza que começa nas mãos e nos pés e que progride para o tronco </li>
+<li>palpitações, tremores ou hiperatividade. </li>
+</ul>
+<p> Se observar os efeitos indesejáveis descritos acima, informe o seu médico imediatamente. </p>
+<p>Efeitos indesejáveis muito frequentes 
+(podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>sentir-se enjoado (náuseas)  </li>
+</ul>
+<p>Efeitos indesejáveis frequentes 
+(podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>sonhos anormais </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>gases (flatulência) </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>cansaço (fadiga) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes 
+(podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>baixa contagem de glóbulos vermelhos (anemia) </p>
+</li>
+<li>
+<p>pensamentos suicida e tentativa de suicídio (em doentes que sofreram anteriormente de 
+depressão ou problemas de saúde mental), depressão </p>
+</li>
+<li>
+<p>problemas digestivos que podem resultar em desconforto após as refeições (dispepsia) </p>
+</li>
+<li>
+<p>inchaço da face, lábios, língua ou garganta (angioedema) </p>
+</li>
+<li>
+<p>comichão (prurido) </p>
+</li>
+<li>
+<p>urticária </p>
+</li>
+</ul>
+<p> Se qualquer um dos efeitos indesejáveis se agravar informe o seu médico. </p>
+<p>Outros efeitos que podem ser observados durante o tratamento do VIH </p>
+<p>A frequência dos efeitos indesejáveis seguintes é desconhecida (a frequência não pode ser calculada a 
+partir dos dados disponíveis). </p>
+<ul>
+<li>Problemas nos ossos. Alguns doentes tratados com associações de medicamentos 
+antirretrovirais tais como Genvoya podem desenvolver uma doença óssea chamada 
+osteonecrose (morte do tecido ósseo causada pela perda da irrigação de sangue no osso). Tomar 
+este tipo de medicamentos durante um período prolongado, tomar corticosteroides, consumir 
+bebidas alcoólicas, ter um sistema imunológico muito fraco e ter excesso de peso, podem ser 
+alguns dos muitos fatores de risco para o desenvolvimento desta doença. Sinais de osteonecrose 
+são: </li>
+<li>rigidez das articulações </li>
+<li>dores nas articulações (especialmente na anca, joelho e ombro) </li>
+<li>dificuldade em se movimentar 
+ Se observar qualquer um destes sintomas, informe o seu médico. </li>
+</ul>
+<p>Durante a terapêutica para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no 
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos 
+lípidos no sangue, por vezes aos próprios medicamentos para o VIH. O seu médico irá realizar testes 
+para determinar estas alterações. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar genvoya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar genvoya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco, 
+após {VAL.}. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar na embalagem de origem para proteger da humidade. Manter o frasco bem fechado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Genvoya </p>
+<p>As substâncias ativas são elvitegravir, cobicistate, emtricitabina e tenofovir alafenamida. </p>
+<ul>
+<li>
+<p>Cada comprimido revestido por película de Genvoya 150 mg/150 mg/200 mg/10 mg contém 
+150 mg de elvitegravir, 150 mg de cobicistate, 200 mg de emtricitabina e tenofovir alafenamida 
+fumarato equivalente a 10 mg de tenofovir alafenamida. </p>
+</li>
+<li>
+<p>Cada comprimido revestido por película de Genvoya 90 mg/90 mg/120 mg/6 mg contém 90 mg de 
+elvitegravir, 90 mg de cobicistate, 120 mg de emtricitabina e tenofovir alafenamida fumarato 
+equivalente a 6 mg de tenofovir alafenamida. </p>
+</li>
+</ul>
+<p>Os outros componentes são  </p>
+<p>Núcleo do comprimido: 
+Lactose (sob a forma de mono-hidrato), celulose microcristalina (E460), croscarmelose sódica, 
+hidroxipropilcelulose (E463), dióxido de silício (E551), laurilsulfato de sódio, estearato de magnésio. </p>
+<p>Revestimento por película: 
+Álcool polivinílico (E1203), dióxido de titânio (E171), polietilenoglicol (E1521), talco (E553b), óxido 
+de ferro amarelo (E172), laca de alumínio indigotina (E132 - comprimido de 
+150 mg/150 mg/200 mg/10 mg apenas), óxido de ferro preto (E172 - comprimido de 
+90 mg/90 mg/120 mg/6 mg mg apenas). </p>
+<p>Qual o aspeto de Genvoya e conteúdo da embalagem </p>
+<p>Genvoya 150 mg/150 mg/200 mg/10 mg comprimidos revestidos por película são comprimidos de cor 
+verde, em forma de cápsula, gravados num lado com “GSI" e no outro lado com o número “510".  </p>
+<p>Genvoya 90 mg/90 mg/120 mg/6 mg comprimidos revestidos por película são comprimidos de cor 
+verde, em forma de cápsula, gravados num lado com “GSI" e com uma ranhura no outro lado. </p>
+<p>Genvoya apresenta-se em frascos de 30 comprimidos (com um exsicante de sílica gel que deve ser 
+mantido dentro do frasco para ajudar a proteger os seus comprimidos). O exsicante de sílica gel está 
+contido numa saqueta ou recipiente separado e não deve ser engolido. </p>
+<p>Estão disponíveis as seguintes apresentações: embalagens contendo 1 frasco de 30 comprimidos 
+revestidos por película e embalagens contendo 90 (3 frascos de 30) comprimidos revestidos por 
+película. É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrlanda  </p>
+<p>Fabricante 
+Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 22 262 8 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel.: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 22 262 8 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 22 262 8United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1317,6 +2013,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9e5179bf4e803289b510a39f498792d0"
 * entry[0].resource = composition-da-9e5179bf4e803289b510a39f498792d0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9e5179bf4e803289b510a39f498792d0"
+* entry[=].resource = mp9e5179bf4e803289b510a39f498792d0
+                            
+                    
+Instance: bundlepackageleaflet-pt-9e5179bf4e803289b510a39f498792d0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for genvoya Package Leaflet for language pt"
+Description: "ePI document Bundle for genvoya Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9e5179bf4e803289b510a39f498792d0"
+* entry[0].resource = composition-pt-9e5179bf4e803289b510a39f498792d0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9e5179bf4e803289b510a39f498792d0"
@@ -1418,6 +2136,18 @@ RuleSet: 9e5179bf4e803289b510a39f498792d0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9e5179bf4e803289b510a39f498792d0) // genvoya pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

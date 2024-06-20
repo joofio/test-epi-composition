@@ -705,6 +705,351 @@ krav. </p>         </div>"""
 
 
 
+Instance: composition-pt-7fc3f5c304b57f3b5fe9dfeb5e8133de
+InstanceOf: CompositionUvEpi
+Title: "Composition for dzuveo Package Leaflet"
+Description:  "Composition for dzuveo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7fc3f5c304b57f3b5fe9dfeb5e8133de)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - dzuveo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Dzuveo e para que é utilizado 
+2. O que precisa de saber antes de utilizar Dzuveo 
+3. Como utilizar Dzuveo 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Dzuveo 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é dzuveo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é dzuveo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A substância ativa de Dzuveo é o sufentanilo, que pertence a um grupo de analgésicos fortes 
+denominados opioides. </p>
+<p>O sufentanilo é utilizado no tratamento da dor súbita moderada a grave em adultos, em ambientes 
+clinicamente monitorizados, tal como um hospital. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar dzuveo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar dzuveo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Dzuveo 
+- se tem alergia ao sufentanilo ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- Se tiver um problema pulmonar ou de respiração grave. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou enfermeiro antes de utilizar Dzuveo. Informe o seu médico ou enfermeiro 
+antes do tratamento se: 
+- sofre de qualquer doença que afete a sua respiração (tal como asma, sibilos ou falta de ar). Uma 
+vez que Dzuveo pode afetar a respiração, o seu médico ou enfermeiro irão verificar a sua 
+respiração durante o tratamento; 
+- tiver um ferimento na cabeça ou um tumor cerebral; 
+- tiver problemas com o seu coração e circulação, especialmente se tiver uma frequência cardíaca 
+lenta, batimentos cardíacos irregulares, baixo volume de sangue ou tensão arterial baixa; 
+- tiver problemas moderados a graves no fígado ou problemas graves nos rins, uma vez que estes 
+órgãos interferem no modo como o seu corpo metaboliza e elimina o medicamento; tiver 
+movimentos intestinais anormalmente lentos; 
+- tiver uma doença da vesícula biliar ou do pâncreas; 
+- tem historial pessoal ou familiar de abuso ou dependência de álcool, medicamentos sujeitos a 
+receita médica ou drogas ilegais («dependência»); 
+- é fumador; 
+- já teve problemas de humor (depressão, ansiedade ou uma perturbação da personalidade) ou já 
+foi tratado por um psiquiatra para outras doenças do foro mental. </p>
+<p>Este medicamento contém sufentanilo, um medicamento opioide. A utilização repetida de analgésicos </p>
+<p>opioides pode resultar na diminuição da eficácia do medicamento (o utilizador habitua-se ao 
+medicamento). Pode também levar à dependência e ao abuso, o que pode resultar em sobredosagem 
+potencialmente fatal. Se tiver receio de se poder tornar dependente de Dzuveo, é importante que 
+consulte o seu médico. </p>
+<p>Consulte o seu médico DURANTE a utilização de Dzuveo se: 
+- Tiver dor ou um aumento da sensibilidade à dor (hiperalgesia) que não responde a uma dosagem 
+mais elevada do seu medicamento, conforme prescrito pelo seu médico. </p>
+<p>O que precisa saber antes de tomar Dzuveo: 
+Perturbações respiratórias relacionadas com o sono: 
+- Dzuveo pode causar perturbações respiratórias relacionadas com o sono, tais como apneia do 
+sono (pausas na respiração enquanto dorme) e hipoxia (nível baixo de oxigénio no sangue) 
+relacionada com o sono. Os sintomas podem incluir pausas na respiração enquanto dorme, 
+acordar a meio da noite devido a falta de ar, dificuldades em manter o sono ou sonolência 
+excessiva durante o dia. Se o próprio ou outra pessoa observar estes sintomas, contacte o seu 
+médico. O seu médico poderá considerar reduzir a sua dose. </p>
+<p>Crianças e adolescentes 
+Dzuveo não deve ser utilizado em crianças e adolescentes com idade inferior a 18 anos. </p>
+<p>Outros medicamentos e Dzuveo 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. Principalmente, informe o seu médico se estiver a tomar algum dos medicamentos 
+seguintes: 
+- Cetoconazol, que é utilizado para o tratamento de infeções fúngicas, pois este medicamento 
+pode ter um efeito na forma como o seu organismo metaboliza o sufentanilo. 
+- Quaisquer medicamentos que o possam tornar sonolento (ter um efeito sedativo), tais como 
+comprimidos para dormir, medicamentos para tratar ansiedade (por exemplo, benzodiazepinas), 
+tranquilizantes ou outros medicamentos opioides, uma vez que estes podem aumentar o risco de 
+problemas respiratórios graves ou coma e ter um resultado potencialmente fatal. 
+- Medicamentos para o tratamento da depressão conhecidos como Inibidores da Monoamino-
+Oxidase (IMAOs). Estes medicamentos não devem ser tomados nas 2 semanas anteriores ou ao 
+mesmo tempo que a toma de Dzuveo. 
+- Medicamentos para o tratamento da depressão conhecidos como Inibidores Seletivos da 
+Recaptação da Serotonina (ISRSs) e Inibidores da Recaptação da Serotonina e Noradrenalina 
+(IRSNs). Não é recomendado utilizar estes medicamentos ao mesmo tempo que Dzuveo. 
+- Medicamentos utilizados para tratar a epilepsia, a dor nos nervos ou ansiedade (gabapentina e 
+pregabalina), uma vez que aumentam o risco de sobredosagem com opioides e depressão 
+respiratória o que pode ser potencialmente fatal. 
+- Outros medicamentos que também sejam tomados por via sublingual (medicamentos que são 
+colocados debaixo da língua, onde se dissolvem), ou medicamentos que atuam na boca (por 
+exemplo, nistatina, um líquido ou pastilhas que se mantêm na boca para tratar infeções 
+fúngicas), uma vez que o seu efeito sobre Dzuveo não foi estudado. 
+- Medicamentos opioides prescritos regularmente (por exemplo, morfina, codeína, fentanilo, 
+hidromorfona, oxicodona). 
+- Medicamentos utilizados no tratamento da tensão arterial alta ou angina (dor no peito) 
+conhecidos como bloqueadores do canal de cálcio ou betabloqueadores (por exemplo, diltiazem 
+e nifedipina). </p>
+<p>Dzuveo e álcool 
+Não beba álcool enquanto tomar Dzuveo. Fazê-lo pode aumentar o risco de sofrer problemas 
+respiratórios graves. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Dzuveo não deve ser utilizado durante a gravidez nem em mulheres com potencial para engravidar que 
+não utilizem métodos contracetivos eficazes. </p>
+<p>Dzuveo passa para o leite materno e pode causar efeitos indesejáveis na criança amamentada. A 
+amamentação não é recomendada quando tomar Dzuveo. </p>
+<p>Condução de veículos e utilização de máquinas 
+Dzuveo afeta a sua capacidade de conduzir ou utilizar máquinas, uma vez que pode causar sonolência, 
+tonturas ou perturbações visuais. Não deverá conduzir ou utilizar máquinas caso sinta qualquer um 
+destes sintomas durante o tratamento com sufentanilo ou após o tratamento com o mesmo. Deve 
+apenas conduzir e utilizar máquinas se tiver decorrido tempo suficiente após a sua última dose de 
+Dzuveo. </p>
+<p>Dzuveo contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar dzuveo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar dzuveo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Este medicamento deve ser-lhe administrado por um médico ou enfermeiro, utilizando o dispositivo de 
+administração unidose. Não irá administrar este medicamento a si próprio. </p>
+<p>Dzuveo é apenas utilizado num ambiente clinicamente monitorizado, tal como um hospital. É apenas 
+prescrito por um médico com experiência na utilização de analgésicos fortes, como o sufentanilo, e 
+que conhece os efeitos que este pode ter sobre si, em particular sobre a sua respiração (ver 
+«Advertências e Precauções» acima). </p>
+<p>A dose máxima recomendada é de um comprimido sublingual de 30 microgramas por hora. O 
+comprimido sublingual ser-lhe-á administrado por um profissional de saúde, utilizando um aplicador 
+unidose. O aplicador irá ajudar o seu prestador de cuidados de saúde a colocar um comprimido debaixo 
+da sua língua. Os comprimidos dissolvem-se debaixo da língua e não devem ser mastigados ou 
+engolidos, pois o comprimido não é eficaz no alívio da dor a menos que o deixe dissolver-se debaixo 
+da língua. Não deve comer nem beber e deve evitar falar durante 10 minutos após cada dose. </p>
+<p>Após receber uma dose, não lhe será administrada outra dose durante, pelo menos, uma hora. A dose 
+máxima diária é de 720 microgramas (24 comprimidos por dia). 
+O tratamento com Dzuveo não deve ultrapassar as 48 horas. 
+Após o seu tratamento, o pessoal médico eliminará o aplicador em conformidade. </p>
+<p>Se utilizar mais Dzuveo do que deveria 
+Os sintomas de sobredosagem incluem problemas respiratórios graves, tais como respiração lenta e 
+superficial, perda de consciência, tensão arterial extremamente baixa, colapso e rigidez muscular. Caso 
+estes sintomas se comecem a desenvolver, informe imediatamente um médico ou enfermeiro. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Os efeitos indesejáveis mais graves são problemas de respiração graves, como respiração lenta e 
+superficial, os quais podem inclusivamente fazer parar a respiração. </p>
+<p>Se apresentar algum dos efeitos indesejáveis acima mencionados, contacte imediatamente o seu médico 
+ou enfermeiro. </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas): 
+Náuseas ou enjoos, vómitos ou má disposição e sensação geral de calor. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas): 
+- Incapacidade de ou dificuldade em dormir, sensação de ansiedade ou confusão, tonturas. 
+- Dor de cabeça, sonolência. 
+- Aumento da frequência cardíaca, tensão arterial alta, tensão arterial baixa. 
+- Níveis baixos de oxigénio no sangue, sensação de dor na parte inferior da garganta, respiração 
+lenta superficial. 
+- Boca seca, flatulência (gases), obstipação (prisão de ventre), indigestão ou refluxo. 
+- Reações alérgicas, comichão na pele. 
+- Contrações e espasmos musculares. 
+- Incapacidade de urinar. 
+- Este medicamento também pode causar alterações nos níveis de glóbulos vermelhos, glóbulos 
+brancos, cálcio, albumina, potássio e sódio no sangue, as quais apenas podem ser identificadas 
+numa análise ao sangue. Se fizer análises ao sangue, certifique-se de que o seu médico sabe que 
+está a tomar este medicamento. </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 doentes): 
+- Inflamação nos pulmões, vermelhidão e inflamação nos olhos, inflamação na garganta. 
+- Nódulos de gordura debaixo da pele. 
+- Incapacidade de gerir o nível de açúcar no sangue (diabetes), colesterol elevado. 
+- Sensação de agitação, falta de interesse ou emoção, falta de energia, desorientação, sensação de 
+euforia, alucinações ou ver coisas que não existem, nervosismo. 
+- Dificuldades de coordenação dos movimentos musculares, contrações musculares, tremores ou 
+estremecimento excessivo, reflexos exagerados, sensação de ardor, sensação de desmaio, 
+sensação anormal na pele (formigueiro, sensação de pele de galinha), dormência generalizada, 
+cansaço, esquecimentos, enxaqueca, cefaleias (dores de cabeça) de tensão. 
+- Perturbações da visão, dor ocular. 
+- Diminuição da frequência cardíaca, batimentos cardíacos irregulares, angina ou outro 
+desconforto no peito. 
+- Tensão arterial alta ou tensão arterial baixa ao levantar-se, rubores na pele. 
+- Respiração lenta ou dificuldades respiratórias (incluindo ao dormir), sangramento do nariz, 
+soluços. 
+- Dor no peito e dificuldades respiratórias causadas por um coágulo de sangue no pulmão, fluido 
+nos pulmões, sibilos. 
+- Diarreia, arrotos ou vómitos, inflamação do revestimento do estômago ou gastrite, inchaço, 
+refluxo gástrico, esforço para vomitar, dor de estômago ou sensação de desconforto no 
+estômago. 
+- Desenvolvimento de bolhas, transpiração excessiva, erupção na pele, pele seca, dormência da 
+boca ou da face. 
+- Dor nas costas, peito ou outras partes do corpo, dor nas extremidades. 
+- Dificuldade em urinar, urina de odor intenso, dor ao urinar, compromisso renal. 
+- Inchaço, sensações desconfortáveis no peito, arrepios e fraqueza (falta de energia). 
+Este medicamento também pode causar alterações nos níveis de plaquetas (que ajudam o sangue a 
+coagular), magnésio, proteínas, açúcar, gordura, fosfatos e plasma no sangue, o que apenas pode ser 
+identificado numa análise ao sangue. Se fizer análises ao sangue, certifique-se de que o seu médico 
+sabe que está a tomar este medicamento. </p>
+<p>Frequência desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis): 
+- Reações alérgicas graves (choque anafilático), convulsões (ataques), coma, tamanho reduzido 
+das pupilas, vermelhidão da pele. 
+- Síndrome de abstinência, o que pode incluir sintomas como agitação, ansiedade, dores </p>
+<p>musculares, insónia, sudação e bocejos. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêdice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar dzuveo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar dzuveo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+O seu médico ou enfermeiro certificar-se-ão de que: 
+- Este medicamento não é utilizado após o prazo de validade impresso no rótulo e na embalagem 
+exterior, após VAL. O prazo de validade corresponde ao último dia do mês indicado. 
+- É conservado na embalagem de origem para proteger da luz e oxigénio. 
+- Este medicamento não é utilizado caso existam quaisquer sinais de deterioração. </p>
+<p>Os medicamentos não devem ser eliminados no lixo ou esgotos domésticos. O seu prestador de 
+cuidados de saúde eliminará qualquer resíduo em conformidade com as políticas hospitalares. Estas 
+medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Dzuveo 
+- A substância ativa é o sufentanilo. Cada comprimido sublingual contém 30 microgramas de 
+sufentanilo (como citrato). 
+- Os outros ingredientes são manitol (E421), fosfato bicálcico, hipromelose, croscarmelose sódica, 
+Índigo carmim (E132), ácido esteárico e estearato de magnésio. </p>
+<p>Qual o aspeto de Dzuveo e conteúdo da embalagem 
+Dzuveo é um comprimido sublingual de cor azul, faces achatadas e arestas arredondadas. Mede 3 mm 
+de diâmetro e encontra-se fechado dentro de um aplicador unidose (rotulado [sublingual tablet]). O 
+aplicador, com o comprimido no seu interior, encontra-se fechado dentro de uma saqueta. </p>
+<p>Cada saqueta contém um aplicador e um comprimido de sufentanilo de 30 microgramas. Cada 
+embalagem contém 5 ou 10 saquetas. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e fabricante 
+Laboratoire Aguettant 
+1, rue Alexander Fleming 
+69007 Lyon 
+França </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>&lt;------------------------------------------------------------------------------------------------------------------------&gt; </p>
+<p>A informação que se segue destina-se apenas aos profissionais de saúde: </p>
+<p>Instruções para a utilização do Aplicador Unidose (AU) </p>
+<p>Produto de Utilização Única / Não Reutilizar </p>
+<p>Não utilizar se o selo da saqueta estiver danificado. </p>
+<p>Não utilizar se o Aplicador Unidose (AU) estiver danificado </p>
+<p>Instrua o doente a não mastigar nem engolir o comprimido. </p>
+<p>Instrua o doente a não comer nem beber e a minimizar o tempo de fala durante 10 minutos após a 
+administração do comprimido. </p>
+<ol>
+<li>Quando estiver pronto para administrar o medicamento, rasgue a saqueta aproveitando o 
+entalhe na sua parte superior. A saqueta contém um AU plástico transparente com um 
+comprimido único de cor azul alojado na ponta e um pacote do absorvente de oxigénio. O 
+pacote do absorvente de oxigénio deve ser eliminado. </li>
+</ol>
+<p>O conteúdo da saqueta é apresentado abaixo: </p>
+<p>Propulsor </p>
+<p>Bloqueio </p>
+<p>Comprimido </p>
+<ol>
+<li>
+<p>Remova o bloqueio branco do propulsor verde, apertando os lados e separando-o do 
+propulsor. Elimine o bloqueio. </p>
+</li>
+<li>
+<p>Peça ao doente para tocar com a língua no céu da boca, se possível. </p>
+</li>
+<li>Apoie ligeiramente o AU sobre os dentes ou lábios do doente. </li>
+<li>Coloque a ponta do AU debaixo da língua e faça pontaria para o pavimento da boca do </li>
+</ol>
+<p>doente.  </p>
+<p>NOTA: Evite o contacto direto da ponta do AU com as mucosas. </p>
+<ol>
+<li>Acione o propulsor verde para administrar o comprimido no espaço sublingual do doente e 
+confirme a posição do comprimido. </li>
+</ol>
+<p>O aplicador unidose (AU) deve ser eliminado em conformidade com as políticas institucionais e os 
+requisitos locais. </p>         </div>"""      
+
+
+
 
 
                     
@@ -746,6 +1091,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-7fc3f5c304b57f3b5fe9dfeb5e8133de"
 * entry[0].resource = composition-da-7fc3f5c304b57f3b5fe9dfeb5e8133de
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7fc3f5c304b57f3b5fe9dfeb5e8133de"
+* entry[=].resource = mp7fc3f5c304b57f3b5fe9dfeb5e8133de
+                            
+                    
+Instance: bundlepackageleaflet-pt-7fc3f5c304b57f3b5fe9dfeb5e8133de
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for dzuveo Package Leaflet for language pt"
+Description: "ePI document Bundle for dzuveo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-7fc3f5c304b57f3b5fe9dfeb5e8133de"
+* entry[0].resource = composition-pt-7fc3f5c304b57f3b5fe9dfeb5e8133de
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp7fc3f5c304b57f3b5fe9dfeb5e8133de"
@@ -847,6 +1214,18 @@ RuleSet: 7fc3f5c304b57f3b5fe9dfeb5e8133deListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-7fc3f5c304b57f3b5fe9dfeb5e8133de) // dzuveo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

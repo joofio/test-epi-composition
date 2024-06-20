@@ -1079,6 +1079,631 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-e8001a6516c891d8a1ff3a481f290741
+InstanceOf: CompositionUvEpi
+Title: "Composition for tivicay Package Leaflet"
+Description:  "Composition for tivicay Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe8001a6516c891d8a1ff3a481f290741)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tivicay"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto  </p>
+<ol>
+<li>O que é Tivicay e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Tivicay  </li>
+<li>Como tomar Tivicay </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Tivicay </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tivicay e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tivicay e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tivicay contém a substância ativa dolutegravir. Dolutegravir pertence a um grupo de medicamentos 
+antirretrovíricos chamados inibidores da integrase (INIs). </p>
+<p>Tivicay é utilizado no tratamento da infeção por VIH (vírus da imunodeficiência humana) em adultos, 
+adolescentes e em crianças com, pelo menos, 6 anos de idade ou mais, e com peso igual ou superior a 14 kg. </p>
+<p>Tivicay não cura a infeção por VIH; reduz a quantidade de vírus no seu organismo e mantém-na num nível 
+baixo. Como resultado disso, também aumenta o número de células CD4 no seu sangue. As células CD4 são 
+um tipo de glóbulo branco e são importantes para ajudar o seu organismo no combate à infeção. </p>
+<p>Nem todas as pessoas respondem da mesma forma ao tratamento com Tivicay. O seu médico monitorizará a 
+eficácia do seu tratamento. </p>
+<p>Tivicay é sempre utilizado em associação com outros medicamentos antirretrovíricos (terapêutica 
+combinada).<br />
+Para controlar a sua infeção por VIH, e para impedir que a sua doença se agrave, deve continuar a tomar 
+todos os seus medicamentos, a menos que o seu médico lhe diga para parar de tomar algum. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tivicay"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tivicay"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Tivicay:  </p>
+<ul>
+<li>
+<p>se tem (ou a sua criança tem, se for ele/a o/a doente) alergia ao dolutegravir ou a qualquer outro 
+componente deste medicamento (indicados na secção 6). </p>
+</li>
+<li>
+<p>se está (ou a sua criança está) a tomar outro medicamento chamado fampridina (também conhecido 
+como dalfampridina; utilizado na esclerose múltipla).<br />
+→ Se acha que alguma destas situações se aplica a si (ou à sua criança), informe o seu médico. </p>
+</li>
+</ul>
+<p>Advertências e precauções<br />
+Fique atento a sintomas importantes<br />
+Algumas pessoas que tomam medicamentos para a infeção por VIH desenvolvem outras doenças que podem 
+ser graves. Estas incluem:  </p>
+<ul>
+<li>
+<p>sintomas de infeções e inflamação  </p>
+</li>
+<li>
+<p>dor nas articulações, rigidez e problemas dos ossos 
+Precisa de saber acerca dos sinais e sintomas importantes a que deve ficar atento enquanto estiver (ou a sua 
+criança, se for ele/a o/a doente) a tomar Tivicay.<br />
+→ Leia a informação na Secção 4 deste folheto informativo.  </p>
+</li>
+</ul>
+<p>Crianças 
+Não dê este medicamento a crianças com menos de 6 anos de idade, que pesem menos de 14 kg ou com 
+infeção por VIH resistente a outros medicamentos semelhantes a Tivicay. A utilização de Tivicay 
+comprimidos revestidos por película em crianças com menos de 6 anos ou com peso inferior a 14 kg ainda 
+não foi estudada. </p>
+<p>As crianças têm de manter as consultas médicas planeadas (ver “Utilização em crianças e adolescentes" 
+na secção 3 para mais informação). </p>
+<p>Outros medicamentos e Tivicay 
+Informe o seu médico se estiver (ou se a sua criança estiver) a tomar, tiver tomado recentemente ou se estiver 
+a planear tomar outros medicamentos. </p>
+<p>Não tome Tivicay com o seguinte medicamento: </p>
+<ul>
+<li>fampridina (também conhecido como dalfampridina), utilizado na esclerose múltipla. </li>
+</ul>
+<p>Alguns medicamentos podem afetar a forma como Tivicay funciona, ou tornar mais provável que venha a ter 
+efeitos indesejáveis.<br />
+Tivicay também pode afetar a forma como outros medicamentos funcionam. 
+Informe o seu médico se estiver (ou se a sua criança estiver) a tomar algum dos medicamentos da seguinte 
+lista: </p>
+<ul>
+<li>
+<p>metformina, para tratar a diabetes </p>
+</li>
+<li>
+<p>medicamentos chamados antiácidos, para tratar a indigestão e a azia. Não tome um antiácido 
+durante as 6 horas anteriores a tomar Tivicay, ou por pelo menos 2 horas depois de o ter tomado (Ver 
+também Secção 3) </p>
+</li>
+<li>
+<p>suplementos de cálcio, suplementos de ferro e multivitaminas. Não tome um suplemento de cálcio, 
+um suplemento de ferro ou multivitaminas durante as 6 horas anteriores a tomar Tivicay, ou por 
+pelo menos 2 horas depois de o ter tomado (ver também Secção 3) </p>
+</li>
+<li>
+<p>etravirina, efavirenz, fosamprenavir/ritonavir, nevirapina ou tipranavir/ritonavir, para tratar a infeção 
+por VIH </p>
+</li>
+<li>
+<p>rifampicina, para tratar a tuberculose (TB) e outras infeções bacterianas </p>
+</li>
+<li>
+<p>fenitoína e fenobarbital, para tratar a epilepsia </p>
+</li>
+<li>
+<p>oxcarbazepina e carbamazepina, para tratar a epilepsia ou a doença bipolar </p>
+</li>
+<li>
+<p>Erva de S. João (Hypericum perforatum), um medicamento à base de plantas para tratar a 
+depressão </p>
+</li>
+</ul>
+<p>→ Informe o seu médico ou farmacêutico se estiver (ou se a sua criança estiver) a tomar algum destes 
+medicamentos. O seu médico pode decidir ajustar a sua dose ou que precisa de exames de rotina extra. </p>
+<p>Gravidez<br />
+Se está grávida, pensa que poderá estar grávida ou se planeia engravidar:  </p>
+<p>→ Fale com o seu médico sobre os riscos e benefícios de tomar Tivicay.  </p>
+<p>Tomar Tivicay no momento da conceção ou durante as primeiras seis semanas de gestação pode aumentar o 
+risco de um tipo de malformação congénita denominada defeito do tubo neural, tal como espinha bífida 
+(malformação da espinal medula).<br />
+Se tem potencial para engravidar durante o tratamento com Tivicay: </p>
+<p>→ Fale com o seu médico quanto à eventual necessidade de contraceção, tal como preservativo ou a 
+pílula. </p>
+<p>Informe imediatamente o seu médico se está grávida ou se planeia engravidar. O seu médico irá rever o seu 
+tratamento. Não pare de tomar Tivicay sem consultar o seu médico, uma vez que isso pode ser prejudicial 
+para si e para a criança em gestação.  </p>
+<p>Amamentação<br />
+A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção pelo VIH 
+pode ser transmitida ao bebé através do leite materno.  </p>
+<p>Uma pequena quantidade da substância de Tivicay pode passar para o leite materno.  </p>
+<p>Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais rapidamente 
+possível.  </p>
+<p>Condução de veículos e utilização de máquinas<br />
+Tivicay pode provocar-lhe tonturas e outros efeitos indesejáveis que o tornam menos alerta. </p>
+<p>→ Não conduza nem utilize máquinas a menos que tenha a certeza de que não é afetado.  </p>
+<p>Tivicay contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é praticamente “isento 
+de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tivicay"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tivicay"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<ul>
+<li>
+<p>A dose habitual é 50 mg uma vez por dia.  </p>
+</li>
+<li>
+<p>Se está a tomar certos outros medicamentos, a dose é 50 mg duas vezes por dia. </p>
+</li>
+<li>
+<p>Para o VIH resistente a outros medicamentos semelhantes a Tivicay, a dose habitual de Tivicay é 
+de 50 mg, duas vezes por dia. </p>
+</li>
+</ul>
+<p>O seu médico irá decidir qual a dose correta de Tivicay para si. </p>
+<p>Engula o(s) comprimido(s) com um pouco de líquido.  </p>
+<p>Tivicay pode ser tomado com ou sem alimentos. Quando Tivicay é tomado duas vezes por dia, o seu 
+médico pode aconselhar a que seja tomado com alimentos. </p>
+<p>Tivicay está também disponível em comprimidos dispersíveis. Os comprimidos revestidos por película e os 
+comprimidos dispersíveis não são iguais, por isso não mude entre comprimidos revestidos por película e 
+comprimidos dispersíveis sem falar primeiro com o seu médico. </p>
+<p>Utilização em crianças e adolescentes </p>
+<ul>
+<li>A dose para crianças de Tivicay necessita de ser ajustada à medida que vão crescendo ou ganhando 
+peso. </li>
+</ul>
+<p>→ Por isso, é importante que as crianças mantenham as consultas médicas planeadas. </p>
+<ul>
+<li>
+<p>Crianças e adolescentes que pesem pelo menos 20 kg podem tomar a dose de adulto de 50 mg, uma 
+vez por dia ou 25 mg duas vezes por dia. O seu médico irá decidir como Tivicay deve ser 
+administrado. </p>
+</li>
+<li>
+<p>Em crianças com idade entre os 6 e os 12 anos, o seu médico irá decidir qual a dose correta de 
+Tivicay, dependendo do peso da sua criança.  </p>
+</li>
+<li>
+<p>Para reduzir o risco de engasgamento, as crianças não podem engolir mais do que um comprimido 
+de cada vez. </p>
+</li>
+<li>
+<p>Tivicay não deve ser utilizado em crianças e adolescentes com infeção por VIH que seja resistente 
+a outros medicamentos semelhantes a Tivicay. </p>
+</li>
+</ul>
+<p>Medicamentos antiácidos 
+Os antiácidos, para tratar a indigestão e a azia, podem impedir que Tivicay seja absorvido pelo seu 
+organismo e podem torná-lo menos eficaz. 
+Não tome um antiácido durante as 6 horas anteriores a tomar Tivicay, ou por pelo menos 2 horas depois de 
+o ter tomado. Outros medicamentos que reduzem a acidez tais como a ranitidina e o omeprazol podem ser 
+tomados ao mesmo tempo que Tivicay. </p>
+<p>→ Fale com o seu médico para aconselhamento sobre a toma de medicamentos que reduzem a acidez 
+com Tivicay. </p>
+<p>Suplementos de cálcio, suplementos de ferro ou multivitaminas 
+Os suplementos de cálcio, os suplementos de ferro ou as multivitaminas podem impedir que Tivicay seja 
+absorvido pelo seu organismo e podem torná-lo menos eficaz. 
+Não tome um suplemento de cálcio, um suplemento de ferro ou multivitaminas durante as 6 horas anteriores 
+a tomar Tivicay, ou por pelo menos 2 horas depois de o ter tomado.  </p>
+<p>→ Fale com o seu médico para aconselhamento sobre a toma de suplementos de cálcio, suplementos 
+de ferro ou multivitaminas com Tivicay. </p>
+<p>Se tomar mais Tivicay do que deveria<br />
+Se tomar (ou se a sua criança tomar) demasiados comprimidos de Tivicay, contacte o seu médico ou 
+farmacêutico para aconselhamento. Se possível, mostre-lhes a embalagem de Tivicay. </p>
+<p>Caso se tenha esquecido de tomar Tivicay<br />
+Se se esqueceu (ou a sua criança se esqueceu) de tomar uma dose, tome-a assim que se lembrar. Porém, se a 
+dose seguinte estiver prevista no prazo de 4 horas, não tome a dose esquecida e tome a próxima dose à hora 
+habitual. Depois continue o seu tratamento como antes. </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Não pare de tomar Tivicay sem o conselho do seu médico<br />
+Tome Tivicay durante o período de tempo recomendado pelo seu médico. Não pare o tratamento, a não ser 
+por indicação do seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Reações alérgicas 
+Estas são pouco frequentes em pessoas a tomar Tivicay. Os sinais incluem: </p>
+<ul>
+<li>
+<p>erupção da pele </p>
+</li>
+<li>
+<p>uma temperatura elevada (febre) </p>
+</li>
+<li>
+<p>falta de energia (fadiga) </p>
+</li>
+<li>
+<p>inchaço, por vezes da face e da boca (angioedema), causando dificuldade em respirar </p>
+</li>
+<li>
+<p>dores musculares ou articulares. 
+→ Consulte um médico imediatamente. O seu médico pode decidir realizar testes ao seu fígado, rins 
+ou sangue, e pode dizer-lhe para parar de tomar Tivicay. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito frequentes<br />
+Estes podem afetar mais de 1 em 10 pessoas: </p>
+<ul>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>sentir-se enjoado (náuseas). </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes<br />
+Estes podem afetar até 1 em 10 pessoas: </p>
+<ul>
+<li>
+<p>erupção da pele </p>
+</li>
+<li>
+<p>comichão (prurido) </p>
+</li>
+<li>
+<p>estar enjoado (vómitos) </p>
+</li>
+<li>
+<p>dor de estômago (dor abdominal) </p>
+</li>
+<li>
+<p>desconforto de estômago (abdominal) </p>
+</li>
+<li>
+<p>ganho de peso </p>
+</li>
+<li>
+<p>insónia </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>sonhos anormais </p>
+</li>
+<li>
+<p>depressão (sentimentos de tristeza profunda e de falta de confiança) </p>
+</li>
+<li>
+<p>ansiedade </p>
+</li>
+<li>
+<p>falta de energia (fadiga) </p>
+</li>
+<li>
+<p>gases (flatulência) </p>
+</li>
+<li>
+<p>aumento no nível das enzimas do fígado </p>
+</li>
+<li>
+<p>aumento no nível das enzimas produzidas nos músculos (creatinafosfoquinase). </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes<br />
+Estes podem afetar até 1 em 100 pessoas: </p>
+<ul>
+<li>
+<p>inflamação do fígado (hepatite) </p>
+</li>
+<li>
+<p>tentativa de suicídio* </p>
+</li>
+<li>
+<p>pensamentos suicidas*  </p>
+</li>
+<li>
+<p>ataque de pânico </p>
+</li>
+<li>
+<p>dor nas articulações </p>
+</li>
+<li>
+<p>dor muscular. </p>
+</li>
+<li>
+<p>particularmente em doentes que tiveram depressão ou problemas mentais anteriormente. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis raros<br />
+Estes podem afetar até 1 em 1000 pessoas: </p>
+<ul>
+<li>
+<p>insuficiência hepática (pode incluir sinais de amarelecimento da pele e da parte branca dos olhos ou 
+urina excecionalmente escura).  </p>
+</li>
+<li>
+<p>Aumento da bilirrubina (uma análise da função do fígado) no sangue. </p>
+</li>
+<li>
+<p>Suicídio (principalmente em doentes que já tiveram anteriormente depressão ou problemas de saúde 
+mental). </p>
+</li>
+</ul>
+<p>→ Informe o seu médico imediatamente se tiver quaisquer problemas de saúde mental (ver 
+também outros problemas de saúde mental acima). </p>
+<p>Sintomas de infeção e inflamação 
+As pessoas com infeção avançada por VIH (SIDA) têm sistemas imunitários debilitados e estão mais 
+predispostas a desenvolver infeções graves (infeções oportunistas). Tais infeções podem ter estado 
+“silenciosas" e não ter sido detetadas pelo sistema imunitário enfraquecido antes do início do tratamento. 
+Após o início do tratamento, o sistema imunitário torna-se mais forte e pode atacar as infeções, o que pode 
+causar sintomas de infeção ou inflamação. Os sintomas normalmente incluem febre, além de alguns dos 
+seguintes sintomas: </p>
+<ul>
+<li>
+<p>dor de cabeça  </p>
+</li>
+<li>
+<p>dor de estômago  </p>
+</li>
+<li>
+<p>dificuldade em respirar 
+Em casos raros, à medida que o sistema imunitário se torna mais forte pode também atacar tecidos corporais 
+saudáveis (doenças autoimunes). Os sintomas das doenças autoimunes podem desenvolver-se muitos meses 
+após o início do seu tratamento para a infeção por VIH. Os sintomas podem incluir: </p>
+</li>
+<li>
+<p>palpitações (batimento cardíaco rápido ou irregular) ou tremor </p>
+</li>
+<li>
+<p>hiperatividade (agitação e movimentos excessivos)  </p>
+</li>
+<li>
+<p>fraqueza a começar nas mãos e nos pés e dirigindo-se em direção ao tronco. </p>
+</li>
+</ul>
+<p>Se tiver (ou se a sua criança tiver) quaisquer sintomas de infeção e inflamação ou se notar qualquer um 
+dos sintomas acima: </p>
+<p>→ Informe o seu médico imediatamente. Não tome outros medicamentos para a infeção sem o conselho 
+do seu médico. </p>
+<p>Dor nas articulações, rigidez e problemas dos ossos 
+Algumas pessoas a tomar terapêutica combinada para o VIH desenvolvem uma doença chamada 
+osteonecrose. Com esta doença, parte do tecido ósseo morre devido à diminuição do fornecimento de sangue 
+ao osso. As pessoas estão mais predispostas a ter esta doença: </p>
+<ul>
+<li>
+<p>se estiverem a tomar terapêutica combinada há muito tempo </p>
+</li>
+<li>
+<p>se estiverem também a tomar medicamentos anti-inflamatórios chamados corticosteroides </p>
+</li>
+<li>
+<p>se consomem álcool </p>
+</li>
+<li>
+<p>se o seu sistema imunitário estiver muito debilitado </p>
+</li>
+<li>
+<p>se tiverem excesso de peso. 
+Os sinais de osteonecrose incluem: </p>
+</li>
+<li>
+<p>rigidez nas articulações </p>
+</li>
+<li>
+<p>moinhas e dores nas articulações (especialmente na anca, joelho ou ombro) </p>
+</li>
+<li>
+<p>dificuldade em movimentar-se. 
+Se notar qualquer um destes sintomas: </p>
+</li>
+</ul>
+<p>→ Informe o seu médico. </p>
+<p>Efeitos no peso, nos lípidos e na glucose do sangue  </p>
+<p>Durante a terapêutica para o VIH poderá ocorrer um aumento do peso e dos níveis de lípidos e de glucose do 
+sangue. Isto está parcialmente relacionado com a recuperação da saúde e do estilo de vida e, por vezes, com 
+os próprios medicamentos para o VIH. O seu médico irá monitorizar estas alterações.  </p>
+<p>Comunicação de efeitos indesejáveis<br />
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
+fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente através 
+do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a 
+ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tivicay"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tivicay"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco, após 
+EXP. </p>
+<p>Tivicay 10 mg comprimidos revestidos por película 
+Conservar na embalagem de origem para proteger da humidade. Manter o frasco bem fechado. Não remover 
+o exsicante. Não engolir o exsicante. O medicamento não necessita de qualquer temperatura especial de 
+conservação. </p>
+<p>Tivicay 25 mg e 50 mg comprimidos revestidos por película 
+Este medicamento não necessita de quaisquer condições especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tivicay<br />
+- A substância ativa é dolutegravir. Cada comprimido contém dolutegravir sódico equivalente a 10 mg, 
+25 mg ou 50 mg de dolutegravir. 
+- Os outros componentes são manitol (E421), celulose microcristalina, povidona, glicolato de amido de 
+milho, estearil fumarato de sódio, álcool polivinílico parcialmente hidrolisado, dióxido de titânio 
+(E171), macrogol, talco e, para comprimidos de 25 mg e 50 mg, óxido de ferro amarelo (E172).  </p>
+<p>Qual o aspeto de Tivicay e conteúdo da embalagem 
+Tivicay 10 mg comprimidos revestidos por película são comprimidos biconvexos, redondos, brancos, 
+marcados com o código ‘SV 572’ de um dos lados e ‘10’ no outro. O frasco contém um exsicante para 
+reduzir a humidade. Uma vez aberto o frasco, manter o exsicante no frasco, não o remover. </p>
+<p>Tivicay 25 mg comprimidos revestidos por película são comprimidos biconvexos, redondos, amarelo-claros, 
+marcados com o código ‘SV 572’ de um dos lados e ‘25’ no outro.  </p>
+<p>Tivicay 50 mg comprimidos revestidos por película são comprimidos biconvexos, redondos, amarelos, 
+marcados com o código ‘SV 572’ de um dos lados e ‘50’ no outro.  </p>
+<p>Os comprimidos revestidos por película são fornecidos em frascos contendo 30 ou 90 comprimidos. É 
+possível que no seu país não estejam disponíveis todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+ViiV Healthcare BV 
+Van Asch van Wijckstraat 55H 
+3811 LP Amersfoort 
+Países Baixos </p>
+<p>Fabricante<br />
+Glaxo Wellcome, S.A., Avda. Extremadura 3, 9400 Aranda De Duero, Burgos, Espanha 
+OU 
+Delpharm Poznań Spółka Akcyjna, ul., Grunwaldzka 189, 60-322 Poznan, Polónia. </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+ViiV Healthcare srl/bv<br />
+Tél/Tel: + 32 (0) 10 85 65 Lietuva 
+ViiV Healthcare BV 
+Tel: + 370 80000 
+България 
+ViiV Healthcare BV 
+Teл.: + 359 80018 
+Luxembourg/Luxemburg 
+ViiV Healthcare srl/bv<br />
+Belgique/Belgien 
+Tél/Tel: + 32 (0) 10 85 65<br />
+Česká republika 
+GlaxoSmithKline, s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com </p>
+<p>Magyarország 
+ViiV Healthcare BV 
+Tel: + 36 80088Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+ViiV Healthcare BV 
+Tel: + 356 80065Deutschland 
+ViiV Healthcare GmbH<br />
+Tel.: + 49 (0)89 203 0038-10<br />
+viiv.med.info@viivhealthcare.com  </p>
+<p>Nederland 
+ViiV Healthcare BV<br />
+Tel: + 31 (0)33 2081Eesti 
+ViiV Healthcare BV 
+Tel: + 372 8002 
+Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20 Ελλάδα 
+GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
+Τηλ: + 30 210 68 82 Österreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>España 
+Laboratorios ViiV Healthcare, S.L.<br />
+Tel: + 34 900 923 501<br />
+es-ci@viivhealthcare.com </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9 
+France 
+ViiV Healthcare SAS<br />
+Tél.: + 33 (0)1 39 17 69 Infomed@viivhealthcare.com </p>
+<p>Portugal 
+VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br />
+Tel: + 351 21 094 08 01<br />
+viiv.fi.pt@viivhealthcare.com </p>
+<p>Hrvatska 
+ViiV Healthcare BV 
+Tel: + 385 800787 </p>
+<p>România 
+ViiV Healthcare BV<br />
+Tel: + 40800672Ireland 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955 
+Slovenija 
+ViiV Healthcare BV 
+Tel: + 386 80688 
+Ísland 
+Vistor hf. 
+Sími: + 354 535 7Slovenská republika 
+ViiV Healthcare BV 
+Tel: + 421 800500 
+Italia 
+ViiV Healthcare S.r.l<br />
+Tel: + 39 (0)45 7741Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30<br />
+Κύπρος 
+ViiV Healthcare BV 
+Τηλ: + 357 80070 
+Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+ViiV Healthcare BV 
+Tel: + 371 80205 
+United Kingdom (Northern Ireland) 
+ViiV Healthcare BV 
+Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
+<p>Este folheto foi revisto pela última vez em {mês de YYYY}.  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p>         </div>"""      
+
+
+
 
 
                     
@@ -1120,6 +1745,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-e8001a6516c891d8a1ff3a481f290741"
 * entry[0].resource = composition-da-e8001a6516c891d8a1ff3a481f290741
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe8001a6516c891d8a1ff3a481f290741"
+* entry[=].resource = mpe8001a6516c891d8a1ff3a481f290741
+                            
+                    
+Instance: bundlepackageleaflet-pt-e8001a6516c891d8a1ff3a481f290741
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tivicay Package Leaflet for language pt"
+Description: "ePI document Bundle for tivicay Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-e8001a6516c891d8a1ff3a481f290741"
+* entry[0].resource = composition-pt-e8001a6516c891d8a1ff3a481f290741
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpe8001a6516c891d8a1ff3a481f290741"
@@ -1221,6 +1868,18 @@ RuleSet: e8001a6516c891d8a1ff3a481f290741ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-e8001a6516c891d8a1ff3a481f290741) // tivicay pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

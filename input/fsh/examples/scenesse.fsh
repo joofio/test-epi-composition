@@ -630,6 +630,309 @@ er blevet indført. </li>
 
 
 
+Instance: composition-pt-365176ec901be3a749e148c628fa3afe
+InstanceOf: CompositionUvEpi
+Title: "Composition for scenesse Package Leaflet"
+Description:  "Composition for scenesse Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp365176ec901be3a749e148c628fa3afe)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - scenesse"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é SCENESSE e para que é utilizado </li>
+<li>O que precisa de saber antes de receber SCENESSE </li>
+<li>Como SCENESSE é administrado </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar SCENESSE </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é scenesse e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é scenesse e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SCENESSE contém a substância ativa afamelanotido (sob a forma de acetato). O afamelanotido é uma 
+forma sintética de uma hormona do organismo chamada hormona estimulante dos melanócitos tipo 
+alfa (α-MSH). O modo de funcionamento do afamelanotido é semelhante ao da hormona natural, 
+fazendo com que as células da pele produzam eumelanina, um tipo do pigmento da melanina castanho-
+preto presente no organismo. </p>
+<p>O afamelanotido é utilizado para aumentar a tolerância à luz solar em adultos com diagnóstico 
+confirmado de protoporfíria eritropoiética (PPE). A PPE é uma doença na qual os doentes apresentam 
+um aumento da sensibilidade à luz solar, o que pode causar efeitos tóxicos, tais como dor e ardor. Ao 
+aumentar a quantidade de eumelanina, SCENESSE pode ajudar a retardar o aparecimento da dor 
+devido a fotossensibilidade da pele (sensível à luz solar). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar scenesse"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar scenesse"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize SCENESSE </p>
+<ul>
+<li>se tem alergia ao afamelanotido ou a qualquer outro componente deste medicamento (indicados 
+na secção 6), </li>
+<li>se sofre de uma doença grave do fígado, </li>
+<li>se tem problemas do fígado, </li>
+<li>se tem problemas dos rins. </li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico antes de receber SCENESSE se tem ou se alguma vez teve: 
+- problemas do coração ou problemas respiratórios graves; 
+- problemas gastrointestinais; 
+- diabetes; 
+- doença de Cushing (uma afeção hormonal na qual o organismo produz demasiado cortisol, uma 
+hormona); 
+- doença de Addison (um distúrbio das glândulas suprarrenais que provoca a falta de algumas 
+hormonas); 
+- síndrome de Peutz-Jeghers (um distúrbio que causa o bloqueio do intestino e em que as mãos, 
+solas dos pés e superfície dos lábios podem apresentar sardas castanhas); 
+- epilepsia (ou que tenha sido informado de que está em risco de ter convulsões); 
+- anemia (baixa contagem de glóbulos vermelhos no sangue); 
+- melanoma (um tipo agressivo de cancro da pele), incluindo melanoma in situ, por exemplo, 
+lentigo maligno; ou se sofre de determinadas doenças hereditárias que aumentam o risco de 
+desenvolvimento de um melanoma; 
+- cancro da pele dos tipos carcinoma de células basais ou carcinoma de células escamosas (até de 
+carcinoma in situ como, por exemplo, doença de Bowen), carcinoma de células de Merkel ou 
+outros problemas da pele malignos ou pré-malignos. </p>
+<p>Fale com o seu médico antes receber SCENESSE se tiver idade superior a 70 anos. </p>
+<p>Se já alguma vez teve qualquer uma destas doenças, o seu médico poderá ter de acompanhá-lo mais de 
+perto durante o seu tratamento. </p>
+<p>Proteção solar </p>
+<p>Não altere as medidas de proteção solar que segue habitualmente no tratamento da PPE e de acordo 
+com o fototipo da sua pele (sensibilidade aos raios UV). Lembre-se de que o aumento da exposição à 
+luz UV contribuirá para o desenvolvimento do cancro da pele. </p>
+<p>Monitorização da pele </p>
+<p>Na medida em que este medicamento aumenta a eumelanina, a pele da maioria dos doentes tratados 
+escurece. Esta é uma resposta esperada a este medicamento, e o escurecimento desaparecerá 
+lentamente, a menos que se utilize um outro implante. </p>
+<p>O seu médico terá que observar regularmente a sua pele (corpo inteiro) para monitorizar as mudanças 
+nos sinais (por exemplo, escurecimento) ou outras anomalias cutâneas. Recomenda-se que esta 
+monitorização seja realizada a cada 6 meses. </p>
+<p>Informe o seu médico acerca de anomalias cutâneas novas ou alterações nas já existentes. Consulte de 
+imediato o seu especialista em porfíria se as lesões pigmentadas, como os sinais, crescerem ou se 
+surgirem outras lesões de tamanho crescente, que não cicatrizam, com corrimento, semelhantes a 
+placas ou a verrugas, ou com ulceração. Pode ser necessário o encaminhamento para um especialista 
+em dermatologia. </p>
+<p>Crianças e adolescentes </p>
+<p>Este medicamento não deve ser administrado a crianças e adolescentes com idade inferior a 18 anos, 
+porque não foi testado nesta faixa etária. </p>
+<p>Outros medicamentos e SCENESSE </p>
+<p>Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. </p>
+<p>Informe o seu médico se estiver a tomar medicamentos anticoagulantes, utilizados para impedir a 
+formação de coágulos sanguíneos. Estes podem incluirvarfarina, ácido acetilsalicílico (uma substância 
+presente em muitos medicamentos utilizados para aliviar a dor e diminuir a febre ou para prevenir a 
+formação de coágulos no sangue) e um grupo de medicamentos denominados anti-inflamatórios não 
+esteroides (AINE), utilizados para tratar doenças comuns, como artrite, dores de cabeça, febre baixa, 
+reumatismo e dores de garganta. Isto explica-se porque os doentes que tomam tais medicamentos 
+podem registar um aumento de hematomas (nódoas negras) ou hemorragias no local do implante.  </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, não deve receber 
+SCENESSE, na medida em que se desconhece como é que este medicamente afetará o feto ou o 
+lactente amamentado. </p>
+<p>As mulheres que possam engravidar devem utilizar um método contracetivo adequado, como 
+contracetivos orais, diafragma com espermicida, dispositivo intrauterino (também conhecido como 
+DIU), durante o tratamento e ao longo de três meses após a última implantação de SCENESSE. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Existe o risco de se sentir sonolento e cansado quando utiliza este medicamento, sobretudo nas 
+primeiras 72 horas após a administração. Se for afetado, não conduza nem utilize quaisquer 
+ferramentas ou máquinas. Se sofre de sonolência contínua, deve falar com o seu médico. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar scenesse"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar scenesse"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O implante será inserido por um médico que recebeu formação no processo de administração. O 
+médico decidirá consigo qual o momento e o local mais adequados para a inserção do implante. </p>
+<p>Um implante é injetado a cada dois meses, durante a primavera e o verão. Recomendam-se três 
+implantes por ano, dependendo da duração do efeito necessário. No entanto, este número não deve 
+exceder mais de 4 por ano. </p>
+<p>O implante é administrado como injeção sob a pele utilizando um tubo de cateter e uma agulha (via 
+subcutânea). Antes de inserir este medicamento, o seu médico pode decidir administrar-lhe um 
+anestésico local para adormecer a área onde o implante deverá ser inserido. O implante é inserido 
+diretamente sob as pregas da pele na cintura ou no abdómen, numa área conhecida como crista 
+suprailíaca. </p>
+<p>No final do procedimento de inserção, é possível que consiga sentir o implante sob a pele. Com o 
+passar do tempo, o implante será absorvido pelo corpo, o que acontecerá no prazo de 50 a 60 dias a 
+contar da implantação. </p>
+<p>Se sentir desconforto e estiver preocupado, fale com o seu médico. Se necessário, o implante pode ser 
+retirado por meio de um simples procedimento cirúrgico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os seguintes efeitos indesejáveis são considerados: </p>
+<p>Muito frequentes (podem afetar mais de 1 doente em cada 10): 
+- náuseas (sensação de enjoo), 
+- dor de cabeça, </p>
+<p>Frequentes (podem afetar até 1 doente em cada 10): 
+- gripe, infeção das vias respiratórias superiores (constipações), 
+- alterações gerais na pele, incluindo escurecimento de sardas e verrugas, 
+- erupção na pele com pequenas bolhas, comichão, erupção na pele, erupção na pele com 
+vermelhidão, erupção na pele com comichão, 
+- tonturas, sonolência e enxaquecas (dor de cabeça muito forte), 
+- rubor quente, afrontamentos, sensação de calor e vermelhidão da pele, 
+- dor abdominal (de barriga), dor de dentes, diarreia e vómitos, 
+- dor nos braços e pernas, dor ou fraqueza nos músculos e ossos, dor nas costas, 
+- fadiga, dor, febre reações no local do implante, incluindo dor, nódoas negras, inchaço, 
+sangramento, comichão e alterações da cor da pele que fica por cima, doença de tipo gripal, 
+tosse, nariz entupido, nariz e garganta inflamados. </p>
+<p>Pouco frequentes (podem afetar até 1 doente em cada 100): 
+- infeção das vias urinárias, folículo capilar infetado, infeção do estômago e intestinos, 
+- hipersensibilidade, 
+- aumento ou diminuição do apetite, 
+- humor deprimido, incluindo depressão, incapacidade de dormir, sono de má qualidade, 
+- desmaios, sensação de desmaio, fraqueza, incapacidade de manter as pernas confortáveis, 
+perturbação do equilíbrio, 
+- olho seco, dor no olho, olhos vermelhos, dificuldade em focar objetos, sensibilidade dos olhos à 
+luz, campainhas nos ouvidos, 
+- palpitações, nódoas negras, sangramento, tensão arterial elevada, 
+- seios nasais bloqueados,<br />
+- estômago e intestinos inflamados, azia, síndrome do intestino irritável, gases, inchaço dos 
+lábios, redução do sentido do tato na boca, dor nas gengivas, 
+- acne, eczema, inchaço vermelho da pele, pele seca, alterações da cor da pele, transpiração 
+excessiva, pigmentação nas unhas, coloração dos lábios, descamação da pele, sensação de ardor 
+na pele, alterações da cor da pele, incluindo perda de cor, pele oleosa, urticária, 
+-  rigidez nas articulações, rigidez muscular e dos ossos, contração muscular súbita, músculos 
+doridos, 
+- sensibilidade ao toque mamária, períodos menstruais irregulares, períodos dolorosos, 
+- arrepios, sensação de calor, ressaca, mal-estar geral, inchaço das pernas ou mãos, 
+- análises da função hepática anormais, diminuição da ligação do ferro, aumento do nível de 
+açúcar, diminuição do nível de ferro no sangue, sangue na urina, 
+- queda e ferida, 
+- expulsão do dispositivo. </p>
+<p>Raros (podem afetar até 1 doente em cada 1.000): 
+- infeção fúngica, 
+- diminuição da contagem de glóbulos brancos, 
+- aumento do nível de colesterol, 
+- confusão, dor de cabeça após lesão, sensação anormal do paladar, 
+- pálpebras inchadas, 
+- ritmo cardíaco acelerado, 
+- movimentos intestinais irregulares, lábios inflamados, descoloração das gengivas, lábios e 
+língua, 
+- nódulos vermelhos ou acastanhados na pele (o chamado “líquen plano"), vitiligo, 
+- períodos menstruais prolongados e intensos, corrimento vaginal, diminuição do desejo sexual, 
+- aumento do peso corporal, 
+- complicações da ferida, náuseas após a inserção do implante. </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar scenesse"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar scenesse"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco para injetáveis e na 
+embalagem exterior. Antes da utilização do implante, o seu médico verificará o prazo de validade do 
+mesmo. </p>
+<p>Conservar no frigorífico (2oC - 8oC) </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de SCENESSE </p>
+<ul>
+<li>A substância ativa é afamelanotido. Um implante contém 16 mg de afamelanotido (sob a forma 
+de acetato). </li>
+<li>O outro componente é poli (D,L-láctido-co-glicólido). </li>
+</ul>
+<p>Qual o aspeto de SCENESSE e conteúdo da embalagem </p>
+<p>O implante consiste num bastonete sólido branco a esbranquiçado com cerca de 1,7 cm de 
+comprimento e 1,5 mm de diâmetro num frasco para injetáveis de vidro cor de âmbar selado com uma 
+rolha de borracha revestida a PTFE. 
+Dimensão da embalagem de um frasco para injetáveis contendo um implante. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>CLINUVEL EUROPE LIMITED 
+10 Earlsfort Terrace 
+Dublin 2 
+D02 TIrlanda 
+Tel.: +353 1513 4mail@clinuvel.com </p>
+<p>Fabricante </p>
+<p>CLINUVEL EUROPE LIMITED 
+Alexandra House 
+The Sweepstakes 
+Ballsbridge 
+Dublin 4 
+D04 C7H2 
+Irlanda </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Foi concedida a este medicamento uma «Autorização de Introdução no Mercado em circunstâncias 
+excecionais». Isto significa que não foi possível obter informação completa sobre este medicamento 
+devido à raridade desta doença, por razões científicas e por razões éticas. 
+A Agência Europeia de Medicamentos irá analisar todos os anos, qualquer nova informação sobre este 
+medicamento e este folheto será atualizado se necessário. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -671,6 +974,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-365176ec901be3a749e148c628fa3afe"
 * entry[0].resource = composition-da-365176ec901be3a749e148c628fa3afe
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp365176ec901be3a749e148c628fa3afe"
+* entry[=].resource = mp365176ec901be3a749e148c628fa3afe
+                            
+                    
+Instance: bundlepackageleaflet-pt-365176ec901be3a749e148c628fa3afe
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for scenesse Package Leaflet for language pt"
+Description: "ePI document Bundle for scenesse Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-365176ec901be3a749e148c628fa3afe"
+* entry[0].resource = composition-pt-365176ec901be3a749e148c628fa3afe
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp365176ec901be3a749e148c628fa3afe"
@@ -772,6 +1097,18 @@ RuleSet: 365176ec901be3a749e148c628fa3afeListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-365176ec901be3a749e148c628fa3afe) // scenesse pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

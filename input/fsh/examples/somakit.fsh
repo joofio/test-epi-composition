@@ -724,6 +724,372 @@ og anvendelse af dette radioaktive lægemiddel. </p>
 
 
 
+Instance: composition-pt-188afbad7741da761c6e6e81c9577944
+InstanceOf: CompositionUvEpi
+Title: "Composition for somakit Package Leaflet"
+Description:  "Composition for somakit Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp188afbad7741da761c6e6e81c9577944)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - somakit"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é SomaKit TOC e para que é utilizado </li>
+<li>O que precisa de saber antes de SomaKit TOC ser utilizado </li>
+<li>Como é utilizado SomaKit TOC </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como SomaKit TOC é conservado </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é somakit e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é somakit e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Este medicamento é um radiofarmacêutico apenas para uso em diagnóstico. Contém a substância ativa 
+edotreotido. Antes de poder ser utilizado, o pó no frasco para injetáveis é misturado com uma 
+substância radioativa chamada cloreto de gálio (68Ga) para fazer gálio (68Ga)-edotreotido (este 
+procedimento designa-se marcação radioativa). </p>
+<p>O gálio (68Ga)-edotreotido contém uma pequena quantidade de radioatividade. Após a injeção numa 
+veia, pode tornar visíveis para os médicos partes do corpo durante um procedimento de imagiologia 
+médica chamado tomografia por emissão de positrões (PET). Este procedimento médico obtém 
+imagens dos seus órgãos, para ajudar a localizar as células anormais ou tumores, fornecendo 
+informações importantes sobre a sua doença. </p>
+<p>A utilização de SomaKit TOC envolve a exposição a pequenas quantidades de radioatividade. O seu 
+médico e o médico de medicina nuclear consideraram que o benefício clínico que obterá do 
+procedimento com o radiofármaco é superior ao risco da radiação. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar somakit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar somakit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SomaKit TOC não pode ser utilizado 
+- Se tiver alergia a edotreotido ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico de medicina nuclear antes de receber SomaKit TOC: 
+- se sentiu quaisquer sinais de reação alérgica (indicados na secção 4) após a administração prévia 
+de SomaKit TOC; 
+- se tiver problemas nos rins ou fígado (doença renal ou hepática); 
+- se tiver menos de 18 anos de idade; 
+- se apresentar sinais de desidratação antes e após o exame; 
+- se sofrer de outros problemas de saúde, como nível elevado de cortisol no corpo (síndrome de 
+Cushing), inflamação, doença da tiroide, outro tipo de tumor (da glândula pituitária, pulmão, 
+cérebro, mama, sistema imunológico, tiroide, glândula suprarrenal ou outros) ou doença do baço 
+(incluindo trauma anterior ou cirurgia envolvendo o baço). Estas condições podem ser visíveis e 
+afetar a interpretação das imagens. O seu médico pode por isso realizar exames e testes 
+adicionais para confirmar os resultados obtidos com imagens com gálio (68Ga)-edotreotido. 
+- se tiver sido recentemente vacinado. Os nódulos linfáticos aumentados devido à vacinação 
+podem ser visíveis durante os exames de imagem com gálio (68Ga)-edotreotido. 
+- se tiver estado a tomar outros medicamentos, tais como análogos de somatostatina e 
+glicocorticoides, suscetíveis de interagir com SomaKit TOC; 
+- se estiver grávida ou pensa que pode estar grávida; 
+- se estiver a amamentar. </p>
+<p>O seu médico de medicina nuclear irá informá-lo se tiver de tomar qualquer outra precaução especial 
+antes ou depois de utilizar SomaKit TOC. </p>
+<p>Antes da administração de SomaKit TOC 
+Deve beber muita água antes do início do exame, a fim de urinar tão frequentemente quanto possível 
+durante as primeiras horas após o procedimento, para garantir que SomaKit TOC é removido o mais 
+rapidamente possível do seu corpo. </p>
+<p>Crianças e adolescentes 
+Este medicamento não é recomendado em doentes com idade inferior a 18 anos, porque a sua 
+segurança e eficácia não foram estabelecidas nesta população de doentes. </p>
+<p>Outros medicamentos e SomaKit TOC 
+Informe o seu médico de medicina nuclear se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos, incluindo análogos de somatostatina ou glucocorticoides (também 
+chamados de corticosteroides), uma vez que podem interferir com a interpretação das imagens. Se 
+estiver a tomar análogos da somatostatina, poder-lhe-á ser pedido que interrompa o tratamento por um 
+curto período de tempo. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+de medicina nuclear antes de receber este medicamento. </p>
+<p>Deve informar o médico de medicina nuclear antes da administração de SomaKit TOC se existir a 
+possibilidade de estar grávida, se tiver um atraso na menstruação ou se estiver a amamentar. 
+Em caso de dúvida, é importante consultar o seu médico de medicina nuclear que irá supervisionar o 
+procedimento. </p>
+<p>Não há nenhuma informação sobre a segurança e a eficácia da utilização deste medicamento durante a 
+gravidez. Apenas investigações essenciais devem ser levadas a cabo durante a gravidez, quando o 
+benefício provável exceder em muito qualquer risco para a mãe e para o feto. </p>
+<p>Se estiver a amamentar, o médico de medicina nuclear poderá atrasar o procedimento médico até que 
+deixe de amamentar ou pedir-lhe para interromper a amamentação e eliminar o leite recolhido até que 
+não haja radioatividade no seu corpo (12 horas após a administração de SomaKit TOC). 
+Pergunte ao seu médico de medicina nuclear quando poderá retomar a amamentação. </p>
+<p>Condução de veículos e utilização de máquinas 
+Considera-se improvável que SomaKit TOC afete a sua capacidade de conduzir ou utilizar máquinas. </p>
+<p>SomaKit TOC contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar somakit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar somakit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Existem leis rigorosas relativas à utilização, ao manuseamento e à eliminação dos radiofármacos. 
+SomaKit TOC só será utilizado em áreas especiais controladas. Este medicamento só será manuseado 
+e administrado por pessoas com formação para um uso em segurança. Essas pessoas tomarão 
+precauções especiais para garantir uma utilização segura deste medicamento e irão mantê-lo 
+informado das suas ações. </p>
+<p>O médico de medicina nuclear que supervisiona o procedimento decidirá qual a quantidade de 
+SomaKit TOC a utilizar no seu caso. Será a menor quantidade necessária para obter a informação 
+desejada. 
+A quantidade a ser administrada geralmente recomendada para um adulto varia entre 100 MBq e 
+200 MBq (megaBecquerel, a unidade utilizada para expressar a radioatividade). </p>
+<p>Administração de SomaKit TOC e realização do procedimento 
+Após a marcação radioativa, SomaKit TOC é administrado por injeção intravenosa. 
+Uma única injeção é suficiente para realizar o exame que o seu médico precisa. 
+Após a injeção, ser-lhe-á oferecido algo para beber e pedido para urinar imediatamente antes do 
+exame. </p>
+<p>Duração do procedimento 
+O seu médico de medicina nuclear irá informá-lo sobre a duração habitual do procedimento. </p>
+<p>Após a administração de SomaKit TOC deverá: 
+- evitar qualquer contacto próximo com crianças pequenas e mulheres grávidas durante 12 horas 
+após a injeção 
+- urinar com frequência, a fim de eliminar o medicamento do seu corpo. </p>
+<p>O médico de medicina nuclear informá-lo-á se tiver de tomar precauções especiais depois de receber o 
+medicamento. Contacte o seu médico de medicina nuclear se tiver dúvidas. </p>
+<p>Se recebeu mais SomaKit TOC do que deveria 
+É improvável a ocorrência de uma sobredosagem (dose em excesso), porque receberá apenas uma dose 
+única sob condições controladas pelo médico de medicina nuclear responsável pelo procedimento. 
+Contudo, no caso de uma sobredosagem, receberá o tratamento adequado. Beber e esvaziar a bexiga 
+com frequência ajudará a remover a substância radioativa do seu corpo mais rapidamente. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização de SomaKit TOC, fale com o médico de medicina nuclear 
+responsável pela supervisão do procedimento. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Embora não tenham sido comunicados efeitos indesejáveis, existe um risco potencial de reações 
+alérgicas (hipersensibilidade) com SomaKit TOC. Os sintomas podem incluir: afrontamentos, 
+vermelhidão da pele, inchaço, comichão, náuseas e dificuldade em respirar. No caso de uma reação 
+alérgica, irá receber o tratamento adequado do seu pessoal médico. </p>
+<p>Desconhecido (não pode ser calculada a partir dos dados disponíveis): 
+- Picadas perto do local de injeção </p>
+<p>O baço é um órgão localizado no abdómen (barriga). Algumas pessoas nascem com um baço adicional 
+(um baço acessório). Tecido adicional do baço pode também ser encontrado no abdómen após cirurgia 
+ou trauma do baço (isto é conhecido como esplenose). O gálio (68Ga)-edotreotido pode tornar um baço 
+acessório ou a esplenose visíveis durante exames médicos de imagem. Foram relatados casos onde tal 
+foi incorretamente identificado como um tumor. O seu médico pode por isso realizar exames e testes 
+adicionais para confirmar os resultados das imagens com gálio (68Ga)-edotreotido (ver secção 2). </p>
+<p>Este radiofármaco fornecerá pequenas quantidades de radiação ionizante associada ao menor risco de 
+cancro e anomalias hereditárias. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico de medicina nuclear. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar somakit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar somakit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não terá de conservar este medicamento. Este medicamento é conservado sob responsabilidade do 
+especialista, em instalações adequadas. A conservação dos radiofármacos far-se-á de acordo com os 
+regulamentos nacionais relativos a materiais radioativos. </p>
+<p>As informações seguintes destinam-se somente ao especialista. </p>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>SomaKit TOC não pode ser utilizado após o prazo de validade impresso na embalagem exterior. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C a 8°C). 
+Conservar na embalagem de origem para proteger da luz. </p>
+<p>Após a marcação radioativa, SomaKit TOC deve ser utilizado no prazo de 4 horas. Não conservar 
+acima de 25°C após a marcação radioativa. </p>
+<p>SomaKit TOC não deve ser utilizado se verificar sinais visíveis de deterioração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Aguarde até que o nível 
+de radioatividade se desintegre de forma adequada antes de deitar fora produtos radioativos. Estas 
+medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de SomaKit TOC 
+- A substância ativa é edotreotido. Cada frasco para injetáveis de pó para solução injetável 
+contém 40 microgramas de edotreotido. 
+- Os outros componentes são: 1,10-fenantrolina, ácido gentísico, manitol, ácido fórmico, 
+hidróxido de sódio, água para preparações injetáveis. 
+Após a marcação radioativa, a solução obtida contém também ácido clorídrico. </p>
+<p>Qual o aspeto de SomaKit TOC e conteúdo da embalagem 
+SomaKit TOC é um kit para preparação radiofarmacêutica que contém: 
+- Um frasco para injetáveis de vidro com um selo destacável preto contendo um pó branco. 
+- Um frasco para injetáveis de polímero de olefina cíclica com um selo destacável amarelo 
+contendo uma solução transparente e incolor. </p>
+<p>A substância radioativa não faz parte do kit e deve ser adicionada durante as etapas de preparação 
+antes da injeção. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Advanced Accelerator Applications 
+8-10 Rue Henri Sainte-Claire Deville 
+92500 Rueil-Malmaison 
+França </p>
+<p>Fabricante 
+Advanced Accelerator Applications (Italy) S.r.l. 
+Via Crescentino snc, 
+13040 Saluggia (VC), 
+Itália </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SAM Nordic 
+Švedija 
+Tel: +46 8 720 58<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65<br />
+Danmark 
+SAM Nordic 
+Sverige 
+Tel: +46 8 720 58<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SAM Nordic 
+Rootsi 
+Tel: +46 8 720 58<br />
+Norge 
+SAM Nordic 
+Sverige 
+Tlf: +46 8 720 58<br />
+Ελλάδα 
+ΒΙΟΚΟΣΜΟΣ ΑΕΒΕ 
+Τηλ: +30 22920 63ή 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Advanced Accelerator Applications Ibérica, 
+S.L.U. 
+Tel: +34 97 6600<br />
+Polska 
+Advanced Accelerator Applications Polska Sp. z 
+o.o. 
+Tel.: +48 22 275 56<br />
+France 
+Advanced Accelerator Applications 
+Tél: +33 1 55 47 63<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75<br />
+Ísland 
+SAM Nordic 
+Svíþjóð 
+Sími: +46 8 720 58<br />
+Slovenská republika 
+MGP, spol. s r.o. 
+Tel: +421 254 654<br />
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 </p>
+<p>Suomi/Finland 
+SAM Nordic 
+Ruotsi/Sverige 
+Puh/Tel: +46 8 720 58<br />
+Κύπρος 
+ΒΙΟΚΟΣΜΟΣ ΑΕΒΕ 
+Τηλ: +30 22920 63ή 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+SAM Nordic 
+Tel: +46 8 720 58<br />
+Latvija 
+SAM Nordic 
+Zviedrija 
+Tel: +46 8 720 58<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -765,6 +1131,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-188afbad7741da761c6e6e81c9577944"
 * entry[0].resource = composition-da-188afbad7741da761c6e6e81c9577944
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp188afbad7741da761c6e6e81c9577944"
+* entry[=].resource = mp188afbad7741da761c6e6e81c9577944
+                            
+                    
+Instance: bundlepackageleaflet-pt-188afbad7741da761c6e6e81c9577944
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for somakit Package Leaflet for language pt"
+Description: "ePI document Bundle for somakit Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-188afbad7741da761c6e6e81c9577944"
+* entry[0].resource = composition-pt-188afbad7741da761c6e6e81c9577944
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp188afbad7741da761c6e6e81c9577944"
@@ -866,6 +1254,18 @@ RuleSet: 188afbad7741da761c6e6e81c9577944ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-188afbad7741da761c6e6e81c9577944) // somakit pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

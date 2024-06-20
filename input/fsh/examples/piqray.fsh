@@ -1068,6 +1068,548 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-6b73080af14d1aa8b030e2126902e0b9
+InstanceOf: CompositionUvEpi
+Title: "Composition for piqray Package Leaflet"
+Description:  "Composition for piqray Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6b73080af14d1aa8b030e2126902e0b9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - piqray"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Piqray e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Piqray </li>
+<li>Como tomar Piqray </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Piqray </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é piqray e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é piqray e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Piqray 
+Piqray contém a substância ativa alpelisib, que pertence a um grupo de medicamentos denominado 
+inibidores da fosfatidilinositol-3-quinase (PI3K). </p>
+<p>Para que é utilizado Piqray 
+Piqray é utilizado para o tratamento de mulheres pós-menopáusicas, e homens, com um tipo de cancro 
+da mama denominado cancro da mama avançado com recetor hormonal (HR)-positivo, com recetor do 
+fator de crescimento epidérmico humano tipo 2 (HER2)-negativo. Piqray é utilizado em associação 
+com fulvestrant, uma terapêutica anticancerígena hormonal, em doentes cujo cancro não respondeu a 
+outros tratamentos hormonais e que tenham certas alterações (mutações) num gene denominado 
+PIK3CA. </p>
+<p>O seu médico irá recolher uma amostra do seu sangue e/ou tecido tumoral, que será analisada em 
+relação a estas mutações PIK3CA. Se o resultado for positivo é provável que o seu cancro responda ao 
+tratamento com Piqray. </p>
+<p>Como atua Piqray 
+Piqray atua através do bloqueio dos efeitos de enzimas denominadas fosfatidilinositol-3-quinases 
+(PI3K). Estas enzimas ajudam as células cancerígenas a crescer e a multiplicar-se. Através do bloqueio 
+da sua ação, Piqray pode reduzir o crescimento e disseminação do cancro e ajudar a destruir as células 
+cancerígenas. </p>
+<p>Se tiver questões sobre como atua Piqray ou porque lhe foi receitado este medicamento, fale com o seu 
+médico, farmacêutico ou enfermeiro. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar piqray"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar piqray"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Siga cuidadosamente as instruções do seu médico. Estas podem ser diferentes da informação geral 
+neste folheto. Confirme com o seu médico se não tiver a certeza. </p>
+<p>Não tome Piqray 
+- se tem alergia ao alpelisib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Se pensa que pode ser alérgico, procure aconselhamento do seu médico. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Piqray. </p>
+<p>Se alguma das seguintes situações se aplicar a si antes de tomar Piqray, informe o seu médico ou 
+farmacêutico: 
+- Se tiver ou alguma vez tiver tido níveis de açúcar no sangue aumentados ou diabetes (ou sinais 
+de aumento dos níveis de açúcar, tais como sede excessiva e boca seca, necessidade de urinar 
+mais frequentemente que o habitual, produção de urina em quantidade maior que o habitual, 
+cansaço, náuseas, aumento do apetite com perda de peso). 
+- Se alguma vez tiver tido síndrome de Stevens-Johnson (SSJ), eritema multiforme (EM), reação 
+ao medicamento com eosinofilia e sintomas sistémicos (DRESS) ou necrólise epidérmica tóxica 
+(NET; os sintomas possíveis incluem pele vermelha, formação de bolhas nos lábios, olhos ou 
+boca, descamação da pele, com ou sem febre, erupção na pele). 
+- Se tiver uma doença óssea grave que afeta o maxilar (osteonecrose da mandíbula, ONM). </p>
+<p>Se alguma das seguintes situações se aplicar a si após o início do tratamento com Piqray, informe o 
+seu médico ou farmacêutico imediatamente: 
+- Erupção na pele, comichão, erupção da pele com comichão, falta de ar, dificuldade em respirar, 
+pieira, tosse, sensação de desmaio iminente, tonturas, alterações do estado de consciência, 
+tensão arterial baixa, vermelhidão na pele, inchaço da face ou garganta, coloração azul dos 
+lábios, língua ou pele (sinais possíveis de reações alérgicas graves). 
+- Problemas respiratórios novos ou que se alteram tais como respiração díficil ou dolorosa, tosse, 
+respiração rápida, coloração azul dos lábios, língua ou pele, soluços (sinais possíveis de uma 
+pneumonite não-infeciosa ou pneumonia). 
+- Aumento da sede e boca seca, urinar mais frequentemente que o habitual, cansaço, aumento do 
+apetite com perda de peso, confusão, náuseas, vómitos, hálito com odor frutado, dificuldade em 
+respirar e pele seca ou ruborisada, o que podem ser sinais de aumento dos níveis de acuçar no 
+sangue (hiperglicemia) e das suas complicações. 
+- Erupção na pele, vermelhidão da pele, formação de bolhas nos lábios, olhos ou boca, 
+descamação da pele, algumas vezes com febre (sinais possíveis de uma das seguintes condições 
+da pele: síndrome de Stevens-Johnson (SSJ), eritema multiforme (EM), reação ao medicamento 
+com eosinofilia e sintomas sistémicos (DRESS) ou necrólise epidérmica tóxica (NET)). 
+- Sintomas novos ou agravamento de sintomas que afetam a sua boca (como dentes soltos, dor ou 
+inchaço, não cicatrização de feridas, ou pus). 
+- Diarreia grave ou dor abdominal grave ou fezes com muco ou sangue, que podem ser sinais de 
+inflamação no seu intestino (colite). 
+O seu médico pode ter que tratar estes sintomas, interromper temporariamente o seu tratamento, 
+reduzir a sua dose ou parar o seu tratamento com Piqray de forma permanente. </p>
+<p>Análises sanguíneas antes e durante o seu tratamento com Piqray 
+O seu médico irá realizar-lhe análises sanguíneas antes e durante o tratamento com Piqray de forma 
+regular para monitorizar os seus níveis de açúcar. Com base nos resultados, o seu médico irá tomar as 
+medidas necessárias, tais como receitar um medicamento para baixar os níveis de açúcar no sangue. Se 
+necessário, o seu médico pode decidir interromper temporariamente o tratamento com Piqray ou 
+reduzir a sua dose de Piqray para permitir a diminuição do açúcar no sangue. O seu médico pode 
+também decidir interromper o tratamento com Piqray de forma permanente. </p>
+<p>Assegure-se que verifica regularmente o seu açúcar no sangue antes de iniciar o tratamento, 
+durante o tratamento e após parar o tratamento com Piqray. 
+- O seu médico irá informá-lo sobre exatamente quando e onde realizar as análises sanguíneas. O 
+tratamento com Piqray apenas pode ser iniciado se as análises mostrarem que tem os níveis de 
+açúcar no sangue adequados. Isto porque Piqray pode aumentar o açúcar no seu sangue 
+(hiperglicemia), o que pode ser grave e necessitar de tratamento. Apenas análises sanguíneas 
+regulares realizadas em jejum podem indicar ao médico se está a desenvolver hiperglicemia. 
+- O seu médico irá informá-lo sobre quando e onde deve verificar o seu açúcar no sangue. Tal 
+será necessário com maior frequência nas primeiras 4 semanas de tratamento e especialmente 
+nas primeiras 2 semanas de tratamento com Piqray. Posteriormente, as análises sanguíneas serão 
+necessárias pelo menos uma vez por mês, dependendo dos seus níveis de açúcar no sangue. </p>
+<p>Crianças e adolescentes 
+Piqray não deve ser utilizado em crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Piqray 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Incluindo em particular: 
+- eltrombopag, um medicamento utilizado para tratar a contagem baixa de plaquetas 
+- medicamentos utilizados para tratar o cancro da mama (tais como lapatinib, ribociclib) 
+- everolímus, apalutamida, enzalutamida e mitotano, medicamentos usados para tratar certos tipos 
+de cancros 
+- pantoprazol, um medicamento utilizado para tratar a azia e reduzir a quantidade de ácido 
+produzido no seu estômago 
+- midazolam, um medicamento utilizado para sedação ou em distúrbios do sono 
+- rifampicina, um medicamento para tratar a tuberculose e outras infeções graves 
+- carbamazepina e fenitoína, medicamentos usados para tratar convulsões 
+- Erva de S. João, um produto à base de plantas usado para tratar a depressão e outras condições 
+- encorafenib, um medicamento utilizado para tratar um tipo de cancro na pele 
+- varfarina, um medicamento utilizado para reduzir a capacidade de coagulação do sangue </p>
+<p>Fale com o seu médico ou farmacêutico se tiver dúvidas se o medicamento que toma é algum dos 
+enumerados acima. </p>
+<p>Gravidez, amamentação e fertilidade 
+Piqray não deve ser utilizado por mulheres que estão ou possam estar grávidas ou a amamentar. Piqray 
+pode ser prejudicial ao feto em gestação. Se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico ou farmacêutico antes de tomar este medicamento. As mulheres não devem amamentar 
+durante o tratamento e durante pelo menos 1 semana após a última dose de Piqray. O seu médico irá 
+falar consigo sobre os potenciais riscos de tomar Piqray durante a gravidez ou a amamentação. </p>
+<p>Se for uma mulher com potencial para engravidar, o seu médico vai excluir a existência de uma 
+gravidez antes de iniciar o seu tratamento com Piqray. Tal pode incluir a realização de um teste de 
+gravidez. </p>
+<p>As mulheres com potencial para engravidar devem utilizar um método contracetivo eficaz durante o 
+tratamento e pelo menos 1 semana após parar Piqray. Consulte o seu médico sobre métodos 
+contracetivos adequados. Se pensa que pode estar grávida após iniciar o tratamento com Piqray, 
+consulte de imediato o seu médico. </p>
+<p>Os doentes do sexo masculino devem utilizar preservativo nas relações sexuais com parceiras do sexo 
+feminino que possam engravidar, durante o tratamento e pelo menos 1 semana após parar o 
+tratamento. Se a parceira de um doente do sexo masculino suspeita que engravidou durante este 
+período, deve informar de imediato um médico. </p>
+<p>Condução de veículos e utilização de máquinas 
+O tratamento com Piqray pode provocar cansaço. Por este motivo, deve tomar precaução ao conduzir 
+ou utilizar máquinas durante o tratamento com Piqray. </p>
+<p>Piqray contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido revestido por 
+película ou seja, é praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar piqray"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar piqray"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>Que quantidade de Piqray tomar 
+A dose inicial habitual de Piqray é 300 mg uma vez por dia. O seu médico irá decidir qual a dose mais 
+adequada para si. </p>
+<p>Dependendo da dose receitada, o número de comprimidos a tomar é o seguinte: 
+- dose de 300 mg: dois comprimidos de 150 mg 
+- dose de 250 mg: um comprimido de 200 mg e um comprimido de 50 mg 
+- dose de 200 mg: um comprimido de 200 mg </p>
+<p>Se vomitar após tomar o(s) comprimido(s) Piqray, não tome mais comprimidos até à próxima dose 
+programada. </p>
+<p>O seu médico irá determinar a dose de fulvestrant que deve receber e quando deve recebê-la. </p>
+<p>Dependendo da resposta do seu organismo ao tratamento com Piqray, o seu médico pode ajustar a sua 
+dose de Piqray. É muito importante que siga as instruções do seu médico. Se tiver alguns efeitos 
+indesejáveis, o seu médico pode pedir-lhe que tome uma dose mais baixa, que interrompa o tratamento 
+durante algum tempo, ou que pare o tratamento. </p>
+<p>Quando tomar Piqray 
+Os comprimidos Piqray são fornecidos em embalagens contendo blisters em embalagem de cartão. 
+Cada blister em embalagem de cartão mostra o(s) comprimido(s) a tomar em cada dia da semana. Siga 
+as instruções na embalagem blister. </p>
+<p>Tome Piqray uma vez por dia, imediatamente após ingestão de alimentos. Tomar Piqray todos os dias 
+à mesma hora vai ajudá-lo a lembrar quando tomar o seu medicamento. </p>
+<p>Como tomar Piqray 
+Os comprimidos Piqray devem ser engolidos inteiros, não devem ser mastigados, esmagados ou 
+divididos antes de ingeridos. Não tome qualquer comprimido que esteja partido, fissurado ou de 
+alguma forma danificado uma vez que poderá não estar a tomar a dose completa. </p>
+<p>Durante quanto tempo tomar Piqray 
+Tome Piqray durante o tempo que lhe foi indicado pelo seu médico. </p>
+<p>Este é um tratamento de longo prazo, possivelmente durará meses ou anos. O seu médico irá 
+monitorizar regularmente a sua condição para verificar se o tratamento está a ter o efeito desejado. </p>
+<p>Se tiver questões sobre durante quanto tempo deve tomar Piqray, fale com o seu médico ou 
+farmacêutico. </p>
+<p>Se tomar mais Piqray do que deveria 
+Pessoas que tomaram demasiados comprimidos de Piqray tiveram efeitos que são efeitos indesejáveis 
+conhecidos de Piqray, incluindo níveis de açúcar no sangue altos, náuseas, cansaço e erupção na pele. 
+Se tomou acidentalmente demasiados comprimidos, ou se alguém tomou os seus comprimidos, 
+contacte imediatamente um médico ou hospital para aconselhamento. Pode ser necessário tratamento 
+médico. </p>
+<p>Caso se tenha esquecido de tomar Piqray 
+Caso se tenha esquecido de tomar uma dose de Piqray, ainda pode tomar a dose esquecida, 
+imediatamente após ingestão de alimentos, no prazo de até 9 horas após a hora a que devia ter tomado 
+a dose. Caso se lembre mais de 9 horas após a hora a que devia ter tomado a dose esquecida, ignore a 
+dose desse dia. No dia seguinte, tome a dose à hora habitual. Não tome uma dose a dobrar para 
+compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Piqray 
+Parar o seu tratamento com Piqray pode provocar o agravamento da sua condição. Não pare de tomar 
+Piqray a menos que o seu médico lhe diga para o fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis podem ser graves 
+Se tiver quaisquer efeitos indesejáveis graves, pare de tomar este medicamento e informe o seu 
+médico imediatamente. </p>
+<p>Muito frequentes: podem afetar mais de 1 em 10 pessoas 
+- Sentir muita sede, urinar mais frequentemente que o habitual ou urinar em quantidade maior que 
+o habitual, aumento do apetite com perda de peso (sintomas possíveis de níveis elevados de 
+açúcar no sangue, também denominado por hiperglicemia) 
+- Febre, tosse, corrimento nasal, nódulos linfáticos aumentados, dor nas articulações, erupção na 
+pele, suores noturnos, perda de peso (sintomas possíveis de nível baixo de linfócitos, um tipo de 
+glóbulo branco) </p>
+<p>Frequentes: podem afetar até 1 em 10 pessoas 
+- Erupção na pele, comichão, erupção na pele com comichão, falta de ar, dificuldade em respirar, 
+pieira, tosse, sensação de desmaio iminente, tonturas, alterações do estado de consciência, 
+tensão arterial baixa, vermelhidão da pele, inchaço da face e/ou garganta, coloração azul dos 
+lábios, língua ou pele (sinais possíveis de reações alérgicas graves). 
+- Problemas respiratórios incluindo respiração díficil ou dolorosa, tosse, respiração rápida, 
+coloração azul dos lábios, língua ou pele, soluços (sintomas possíveis de uma pneumonite). 
+- Urinar menos frequentemente que o habitual ou urinar em quantidade menor que o habitual, 
+inchaço das pernas, tornozelos e à volta dos olhos, cansaço, confusão, náuseas, convulsões, dor 
+no peito (sintomas possíveis de insuficiência renal aguda) 
+- Dor, inchaço ou dormência da mandíbula, sensação de peso na mandíbula ou de perda de um 
+dente (sintomas possíveis de osteonecrose da mandíbula) 
+- Erupção na pele, vermelhidão da pele, formação de bolhas nos lábios, olhos ou boca, 
+descamação da pele (sintomas possíveis de eritema multiforme) </p>
+<p>Pouco frequentes: podem afetar até 1 em 100 pessoas 
+- Dificuldade em respirar, dor de cabeça, náuseas, vómitos (sintomas possíveis de uma condição 
+denominada cetoacidose que envolve níveis elevados de ácidos no sangue) 
+- Dor grave na parte superior do estômago (sintomas possíveis de pancreatite) 
+- Erupção na pele, pele vermelha, formação de bolhas nos lábios, olhos ou boca, descamação da 
+pele, febre (sintomas possíveis de síndrome de Stevens-Johnson) </p>
+<p>Desconhecido: a frequência não pode ser calculada a partir dos dados disponíveis 
+- Diarreia, um número de movimentos intestinais maior do que o habitual, sangue nas suas fezes 
+ou fezes mais escuras, dor ou sensibilidade na zona do estômago (possíveis sintomas de colite, 
+inflamação dos intestinos) 
+- Confusão, boca seca, pele seca ou ruborizada, náuseas, vómitos, cansaço, urinar mais 
+frequentemente que o habitual, sede (possíveis sintomas de síndrome hiperosmolar 
+hiperglicémica não-cetónica (SHHNC)) 
+- Inchaço da sua cara ou garganta e dificuldade em respirar (possíveis sintomas de angioedema, 
+um tipo de reação alérgica grave) 
+- Erupção na pele, febre (sintomas possíveis de reação a um medicamento com eosinofilia e 
+sintomas sistémicos (DRESS)) </p>
+<p>Outros efeitos indesejáveis possíveis 
+Outros efeitos indesejáveis incluem os seguintes enumerados abaixo. Se estes efeitos indesejáveis se 
+tornarem graves, informe o seu médico, farmacêutico ou enfermeiro. </p>
+<p>Muito frequentes: 
+- Urinar com dor e de forma frequente (sintomas possíveis de uma infeção do trato urinário) 
+- Cansaço, pele pálida (sintomas possíveis de anemia, uma condição que envolve um nível baixo 
+de glóbulos vermelhos) 
+- Hemorragia ou nódoas negras espontâneas (sinais de nível baixo de trombócitos, também 
+denominados plaquetas, no sangue) 
+- Perda de apetite 
+- Dor de cabeça 
+- Sabor estranho na boca (disgeusia) 
+- Diarreia 
+- Náuseas 
+- Vómitos 
+- Feridas na boca ou aftas com inflamação das gengivas (estomatite) 
+- Dor abdominal 
+- Mal estar no estômago, indigestão (dispepsia) 
+- Erupção na pele 
+- Queda de cabelo ou enfraquecimento do cabelo (alopecia) 
+- Comichão (prurido) 
+- Pele seca 
+- Cansaço (fadiga) 
+- Dor, vermelhidão ou inchaço das vias respiratórias ou tubo digestivo ou mucosa genital 
+(inflamação da mucosa) 
+- Mãos, tornozelos ou pés inchados (edema periférico) 
+- Febre (pirexia) 
+- Secura da mucosa 
+- Diminuição de peso 
+- Nível de cálcio no sangue dimínuido, que pode por vezes levar a cãibras (hipocalcemia) 
+- Nível de potássio no sangue dimínuido, associado a fraqueza muscular, espamos musculares 
+e/ou ritmo cardíaco anormal (hipocaliemia) </p>
+<p>Frequentes: 
+- Desidratação 
+- Dificuldade em adormecer (insónia) 
+- Olho seco 
+- Visão desfocada 
+- Dor de cabeça, tonturas (sintomas possíveis de tensão arterial alta) 
+- Inchaço de parte ou de todo o seu braço (incluindo dos dedos) ou perna (incluindos dos dedos 
+dos pés), sensação de peso, restrição de movimentos, desconforto, espessamento da pele e 
+infeções recorrentes (sintomas possíveis de linfoedema) 
+- Dor de dentes 
+- Gengivas sensíveis, aumentadas ou com hemorragias (sinais de inflamação das gengivas) 
+- Lábios fissurados, gretados (queilite) 
+- Dor gengival 
+- Vermelhidão na pele 
+- Inflamação da pele com erupção (dermatite) 
+- Avermelhar e/ou inchaço e possível descamação das palmas das mãos e plantas dos pés, que 
+podem ser acompanhados de sensação de formigueiro e ardor (sinais de síndrome palmo-
+plantar) 
+- Espasmos musculares 
+- Dor muscular (mialgia) 
+- Inchaço generalizado (edema) </p>
+<p>Durante o tratamento com Piqray, os resultados de algumas análises sanguíneas podem ser anormais 
+do seguinte modo: </p>
+<p>Muito frequentes: 
+- Níveis elevados das seguintes enzimas no sangue: gamaglutamiltransferase, 
+alaninaminotransferase, lipase 
+- Nível elevado de açúcar no sangue 
+- Nível elevado de creatinina e/ou cálcio no sangue 
+- Nível baixo de linfócitos, plaquetas, açúcar, hemoglobina e/ou albumina no sangue 
+- Aumento do tempo de tromboplastina parcial ativada (um parâmetro que mede a capacidade do 
+sangue para coagular) </p>
+<p>Frequentes: 
+- Nível elevado de hemoglobina glicosilada (um marcador do nível de açúcar no sangue ao longo 
+das últimas 8 a 12 semanas) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar piqray"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar piqray"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+cartonado, após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não utilize este medicamento se verificar que a embalagem se encontra danificada ou se tiver 
+quaisquer sinais de adulteração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Piqray 
+- A substância ativa de Piqray é o alpelisib. 
+- Cada comprimido revestido por película Piqray 50 mg contém 50 mg de alpelisib. 
+- Cada comprimido revestido por película Piqray 150 mg contém 150 mg de alpelisib. 
+- Cada comprimido revestido por película Piqray 200 mg contém 200 mg de alpelisib. 
+- Os outros componentes são: 
+- Núcleo do comprimido: celulose microcristalina, manitol, carboximetilamido sódico, 
+hipromelose, estearato de magnésio. 
+- Material de revestimento: Hipromelose, óxido de ferro vermelho e preto (E172), dióxido 
+de titânio (E171), Macrogol, talco. </p>
+<p>Qual o aspeto de Piqray e conteúdo da embalagem 
+Piqray 50 mg comprimidos revestidos por película são comprimidos cor-de-rosa claro, redondos, com 
+gravação “L7" numa face e “NVR" na outra face. Diâmetro aproximado: 7,2 mm. </p>
+<p>Piqray 150 mg comprimidos revestidos por película são comprimidos vermelho pálido, ovais, com 
+gravação “UL7" numa face e “NVR" na outra face. Tamanho aproximado: 14,2 mm (comprimento); 
+5,7 mm (largura). </p>
+<p>Piqray 200 mg comprimidos revestidos por película são comprimidos vermelho claro, ovais, com 
+gravação “YL7" numa face e “NVR" na outra face. Tamanho aproximado: 16,2 mm (comprimento); 
+6,5 mm (largura). </p>
+<p>Piqray é fornecido na forma de comprimidos revestidos por película em blisters. Piqray está disponível 
+nas seguintes apresentações: 
+- Embalagens contendo comprimidos revestidos por película de 50 mg e 200 mg (para doentes a 
+tomar a dose diária de 250 mg): 
+- Embalagens para 14 dias: 28 comprimidos revestidos por película (14 de 50 mg e 14 de 
+200 mg). 
+- Embalagens para 28 dias: 56 comprimidos revestidos por película (28 de 50 mg e 28 de 
+200 mg). 
+- Embalagens múltiplas contendo 168 comprimidos revestidos por película (3x 56, cada 
+uma contendo 28 comprimidos de 50 mg e 28 comprimidos de 200 mg). 
+- Embalagens contendo comprimidos revestidos por película de 150 mg (para doentes a tomar a 
+dose diária de 300 mg) 
+- Embalagens para 14 dias: 28 comprimidos revestidos por película. 
+- Embalagens para 28 dias: 56 comprimidos revestidos por película. 
+- Embalagens múltiplas contendo 168 (3x 56) comprimidos revestidos por película. 
+- Embalagens contendo comprimidos revestidos por película de 200 mg (para doentes a tomar a 
+dose diária de 200 mg) 
+- Embalagens para 14 dias: 14 comprimidos revestidos por película. 
+- Embalagens para 28 dias: 28 comprimidos revestidos por película. 
+- Embalagens múltiplas contendo 84 (3x 28) comprimidos revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberga 
+Alemanha </p>
+<p>Lek Pharmaceuticals d.d. 
+Verovskova ulica 1526 Ljubljana 
+Eslovénia </p>
+<p>Novartis Pharmaceutical Manufacturing LLC 
+Verovskova ulica 1000 Ljubljana 
+Eslovénia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1109,6 +1651,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-6b73080af14d1aa8b030e2126902e0b9"
 * entry[0].resource = composition-da-6b73080af14d1aa8b030e2126902e0b9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6b73080af14d1aa8b030e2126902e0b9"
+* entry[=].resource = mp6b73080af14d1aa8b030e2126902e0b9
+                            
+                    
+Instance: bundlepackageleaflet-pt-6b73080af14d1aa8b030e2126902e0b9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for piqray Package Leaflet for language pt"
+Description: "ePI document Bundle for piqray Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-6b73080af14d1aa8b030e2126902e0b9"
+* entry[0].resource = composition-pt-6b73080af14d1aa8b030e2126902e0b9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp6b73080af14d1aa8b030e2126902e0b9"
@@ -1210,6 +1774,18 @@ RuleSet: 6b73080af14d1aa8b030e2126902e0b9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-6b73080af14d1aa8b030e2126902e0b9) // piqray pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

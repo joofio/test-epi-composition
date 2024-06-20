@@ -887,6 +887,521 @@ http://www.ema.europa.eu/. </p>         </div>"""
 
 
 
+Instance: composition-pt-2fe2164c1e264a15d1f750f56ec0a0e8
+InstanceOf: CompositionUvEpi
+Title: "Composition for xeloda Package Leaflet"
+Description:  "Composition for xeloda Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2fe2164c1e264a15d1f750f56ec0a0e8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - xeloda"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Xeloda e para que é utilizado 
+2. O que precisa de saber antes de tomar Xeloda 
+3. Como tomar Xeloda 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Xeloda 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é xeloda e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é xeloda e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Xeloda pertence ao grupo de fármacos designados de “medicamentos citostáticos", que impedem o 
+crescimento de células cancerígenas. Xeloda contém capecitabina, que não é um medicamento 
+citostático em si. Só depois de ser absorvida pelo organismo é que se transforma num medicamento 
+anticancerígeno ativo (mais no tecido tumoral do que no tecido normal). 
+O Xeloda é utilizado para o tratamento dos cancros do cólon, do reto, do estômago ou da mama. 
+Xeloda pode também ser utilizado para prevenir o reaparecimento do cancro do cólon, após a remoção 
+completa do tumor por cirurgia. 
+Xeloda pode ser utilizado isoladamente ou em associação com outros medicamentos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar xeloda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar xeloda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Xeloda: 
+
+se tem alergia à capecitabina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Deve informar o seu médico se souber que tem uma alergia ou uma reação exagerada 
+a este medicamento, 
+
+se tiver tido anteriormente reações graves com um tratamento com fluoropirimidinas (um grupo 
+de medicamentos anticancerígenos, tais como o fluorouracilo), 
+
+se estiver grávida ou a amamentar, 
+
+se tiver níveis gravemente baixos de glóbulos brancos ou de plaquetas no sangue (leucopenia, 
+neutropenia ou trombocitopenia), 
+
+se tiver problemas graves de fígado ou de rins, 
+
+se souber que não tem qualquer atividade da enzima dihidropirimidina desidrogenase (DPD) 
+(deficiência completa da DPD), 
+
+se estiver a ser tratado, ou se tiver sido tratado nas últimas 4 semanas, com brivudina como parte 
+do tratamento de herpes zóster (varicela ou zona). 
+44
+Não pode tomar brivudina (um medicamento anti-viral para o tratamento de zona ou varicela) 
+durante o tratamento com capecitabina (incluindo durante quaisquer períodos de descanso em 
+que não toma os comprimidos de capecitabina). 
+Se tiver tomado brivudina deve aguardar, pelo menos, 4 semanas após ter terminado a 
+brivudina antes de tomar capecitabina. Ver também a secção “Não tome Xeloda". 
+Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Xeloda 
+
+se souber que tem uma deficiência parcial na atividade da enzima dihidropirimidina 
+desidrogenase (DPD) 
+
+se tiver um membro da família que tenha uma deficiência parcial ou completa da enzima 
+dihidropirimidina desidrogenase (DPD) 
+
+se tem doenças do fígado ou dos rins 
+
+se tem ou teve problemas de coração (por exemplo, batimento cardíaco irregular ou dores no 
+peito, maxilar e costas originadas por esforço físico e devido a problemas com o fluxo 
+sanguíneo no coração) 
+
+se tem doenças cerebrais (por exemplo, cancro que se disseminou para o cérebro ou nervos 
+danificados (neuropatia)) 
+
+se tem alterações dos níveis de cálcio (verificadas em análises sanguíneas) 
+
+se tem diabetes 
+
+se não conseguir manter os alimentos ou a água no seu organismo devido a náuseas e vómitos 
+graves 
+
+se tem diarreia 
+
+se estiver ou se ficar desidratado 
+
+se tem alterações dos iões no seu sangue (alterações de eletrólitos, verificadas em análises) 
+
+se tem história de problemas nos olhos poderá necessitar de monitorização extra dos olhos 
+
+se tem uma reação grave na pele. 
+Deficiência da DPD 
+A deficiência da DPD é uma doença genética, que normalmente não está associada a problemas de 
+saúde, exceto se tomar certos medicamentos. Se tiver uma deficiência da DPD e tomar Xeloda, tem 
+um risco aumentado de efeitos indesejáveis graves (listados na secção 4 - Efeitos indesejáveis 
+possíveis). Recomenda-se que seja testado quanto à deficiência da DPD antes de iniciar o tratamento. 
+Se não tiver atividade da enzima, não deverá tomar Xeloda. Se tiver uma atividade reduzida da enzima 
+(deficiência parcial), o seu médico poderá prescrever uma dose reduzida. Se tiver resultados negativos 
+para o teste da deficiência da DPD, poderão ocorrer na mesma efeitos indesejáveis graves e que 
+colocam a vida em risco. 
+Crianças e adolescentes 
+Xeloda não é indicado em crianças e adolescentes. Não dê Xeloda a crianças ou adolescentes. 
+Outros medicamentos e Xeloda 
+Antes de iniciar o tratamento, informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado 
+recentemente, ou se vier a tomar outros medicamentos. Isto é de extrema importância, uma vez que 
+tomar mais do que um medicamento ao mesmo tempo pode intensificar ou reduzir o efeito dos 
+medicamentos. 
+Adicionalmente, deve ser particularmente cuidadoso se estiver a tomar qualquer um dos seguintes: 
+
+medicamentos para tratar a gota (alopurinol), 
+
+medicamentos para liquefazer o sangue (cumarina, varfarina), 
+
+medicamentos para tratar as convulsões ou os tremores (fenitoína), 
+
+interferão alfa, 
+
+radioterapia e certos medicamentos utilizados para tratar o cancro (ácido folínico, oxaliplatina, 
+bevacizumab, cisplatina, irinotecano), 
+45
+
+medicamentos usados para tratar a carência de ácido fólico. 
+Xeloda com alimentos e bebidas 
+Deve tomar Xeloda nos 30 minutos que se seguem à refeição. 
+Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. Não deve tomar Xeloda se estiver grávida ou se 
+pensar que pode estar grávida. 
+Não deve amamentar enquanto estiver a tomar Xeloda e nas duas semanas a seguir à última dose. 
+Se é uma mulher com possibilidade de engravidar, deve utilizar contraceção efetiva durante o 
+tratamento com Xeloda e nos 6 meses a seguir à última dose. 
+Se é um doente masculino e a sua parceira for uma mulher com possibilidade de engravidar, deve 
+utilizar contraceção efetiva durante o tratamento com Xeloda e nos 3 meses a seguir à última dose. 
+Condução de veículos e utilização de máquinas 
+Xeloda pode fazê-lo sentir tonturas, enjoado ou cansado. Por conseguinte, é possível que Xeloda possa 
+afetar a sua capacidade de conduzir o carro ou utilizar máquinas. 
+Xeloda contém lactose anidra 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. 
+Xeloda contém sódio 
+Xeloda contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar xeloda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar xeloda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. 
+Xeloda só deverá ser prescrito por um médico com experiência na utilização de fármacos 
+antineoplásicos. 
+O seu médico prescrever-lhe-á a dose e o regime terapêutico adequados ao seu caso. A dose de Xeloda 
+é baseada na sua área da superfície corporal, que é calculada tendo em conta o seu peso e altura. Nos 
+adultos, a dose habitual é de 1250 mg/m2 de superfície corporal, administrada duas vezes por dia (de 
+manhã e à noite). Descrevem-se de seguida dois exemplos: A área de superfície corporal de um doente 
+com 64 kg de peso e 1,64 m de altura, é de 1,7 m2, pelo que este deverá tomar 4 comprimidos de 
+500 mg mais 1 comprimido de 150 mg, duas vezes por dia. A área de superfície corporal de um doente 
+com 80 kg de peso e 1,80 m de altura, é de 2,00 m2, pelo que este deverá tomar 5 comprimidos de 
+500 mg, duas vezes por dia. 
+O seu médico dir-lhe-á que dose precisa de tomar, quando a tomar e por quanto tempo precisa 
+de a tomar. 
+O seu médico pode querer que tome uma associação de comprimidos de 150 mg e de comprimidos de 
+500 mg numa mesma toma. 
+
+Tome os comprimidos de manhã e à noite, como prescrito pelo seu médico. 
+
+Tome os comprimidos nos 30 minutos após o final da refeição (pequeno-almoço e jantar) e 
+engula-os inteiros com água. Não esmague nem corte os comprimidos. Se não puder 
+engolir os comprimidos de Xeloda fale com um profissional de saúde. 
+
+É importante que tome todos os seus medicamentos exatamente como o seu médico lhe 
+prescreveu. 
+46
+Os comprimidos de Xeloda são normalmente tomados durante 14 dias, seguido de um período de 
+descanso de 7 dias (no qual os comprimidos não são tomados). Este período de 21 dias constitui um 
+ciclo de tratamento. 
+Em associação com outros medicamentos, a dose habitual para adultos pode ser inferior a 1250 mg/m2 
+de superfície corporal, e poderá ter que tomar os comprimidos durante um período de tempo diferente 
+(p.ex. todos os dias, sem período de descanso). 
+Se tomar mais Xeloda do que deveria 
+Se tomar mais Xeloda do que deveria, contacte o seu médico o mais rapidamente possível antes de 
+tomar a dose seguinte. 
+Pode ter os seguintes efeitos indesejáveis se tomar muito mais capecitabina do que deveria: sensação 
+de enjoo ou vómitos, diarreia, inflamação ou ulceração do intestino ou boca, dor ou sangramento do 
+intestino ou do estômago, ou depressão da medula óssea (diminuição de certos tipos de células 
+sanguíneas). Fale imediatamente com o seu médico se sentir algum destes sintomas. 
+Caso se tenha esquecido de tomar Xeloda 
+Não tome a dose esquecida. Não tome uma dose a dobrar para compensar uma dose que se esqueceu 
+de tomar. Em vez disso, continue o horário habitual das suas doses, confirmando-o com o seu médico. 
+Se parar de tomar Xeloda 
+Não existem efeitos indesejáveis causados pela interrupção do tratamento com capecitabina. No caso 
+de estar a tomar anticoagulantes cumarínicos (contendo, por exemplo, fenprocoumon), a paragem do 
+tratamento com capecitabina pode exigir que o seu médico ajuste a dose do anticoagulante. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. 
+PARE imediatamente de tomar Xeloda e contacte o seu médico se aparecer algum destes sintomas: 
+
+Diarreia: se tiver um aumento de 4 ou mais dejeções, em comparação com o seu número 
+normal de dejeções por dia, ou se tiver algum episódio de diarreia durante a noite. 
+
+Vómitos: se vomitar mais do que uma vez num período de 24 horas. 
+
+Náuseas: se perder o apetite e a quantidade de comida que comer por dia for muito inferior ao 
+habitual. 
+
+Inflamação da boca: se tiver dor, vermelhidão, inchaço ou feridas na boca e/ou garganta. 
+
+Inflamação da pele das mãos e dos pés: se tiver dor, inchaço, vermelhidão ou formigueiro nas 
+mãos e/ou pés. 
+
+Febre: se tiver temperatura igual ou superior a 38 ºC. 
+
+Infeção: se tiver sinais de infeção causada por bactérias ou vírus ou outros organismos. 
+
+Dor no tórax: se tiver dor localizada no centro do tórax, especialmente se esta ocorrer durante o 
+exercício físico. 
+
+Síndrome Stevens-Johnson: se tiver erupção na pele dolorosa vermelha ou arroxeada que se 
+espalha e bolhas e/ou outras lesões começam a aparecer na membrana mucosa (por exemplo, 
+boca e lábios), em particular se anteriormente teve sensibilidade à luz, infeções do sistema 
+respiratório (por exemplo bronquite) e/ou febre. 
+
+Angioedema: Recorra de imediato a um médico pois poderá necessitar de tratamento urgente se 
+apresentar qualquer um dos sintomas seguintes: inchaço, principalmente da face, lábios, língua 
+ou garganta, que dificulte o engolir ou respirar, comichão e erupções cutâneas. Isto pode ser um 
+sinal de angioedema. 
+47
+Se identificados numa fase inicial, estes efeitos indesejáveis geralmente melhoram nos 2 a 3 dias após 
+a interrupção do tratamento. No entanto, se estes efeitos indesejáveis persistirem contacte 
+imediatamente o seu médico. O seu médico pode dizer-lhe para recomeçar o tratamento com uma dose 
+mais baixa. 
+Se, durante o primeiro ciclo de tratamento, ocorrerem estomatite grave (feridas na sua boca e/ou 
+garganta), inflamação da mucosa, diarreia, neutropenia (risco aumentado de infeções) ou 
+neurotoxicidade, pode estar envolvida uma deficiência da DPD (ver secção 2: Advertências e 
+precauções). 
+A inflamação da pele das mãos e dos pés pode levar a perda das impressões digitais, o que pode 
+comprometer a sua identificação por leitura de impressão digital. 
+Em adição ao descrito acima, quando Xeloda é utilizado sozinho, os efeitos indesejáveis muito 
+frequentes, que poderão afetar mais de 1 em 10 pessoas, são: 
+
+dor abdominal 
+
+erupção ou secura ou comichão na pele 
+
+cansaço 
+
+perda de apetite (anorexia) 
+Estes efeitos indesejáveis podem tornar-se graves. Assim, é importante que fale sempre 
+imediatamente com o seu médico quando começar a sentir um efeito secundário. O seu médico pode 
+pedir-lhe para diminuir a dose e/ou interromper temporariamente o tratamento com o Xeloda, uma vez 
+que isso diminuirá a probabilidade de esse efeito persistir ou se tornar grave. 
+Outros efeitos indesejáveis são: 
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) incluem: 
+
+diminuição do número de glóbulos brancos ou dos glóbulos vermelhos (observado em análises) 
+
+desidratação, perda de peso 
+
+dificuldade em dormir (insónia), depressão 
+
+dor de cabeça, sonolência, tonturas, sensação anormal na pele (sensação de dormência ou 
+formigueiro), alterações do paladar 
+
+irritação nos olhos, aumento das lágrimas, vermelhidão nos olhos (conjuntivite) 
+
+inflamação das veias (tromboflebite) 
+
+dificuldades em respirar, sangramento nasal, tosse, nariz a pingar 
+
+feridas herpéticas ou outras infeções herpéticas 
+
+infeções nos pulmões ou no sistema respiratório (p. ex., pneumonia ou bronquite) 
+
+sangramento do intestino, prisão de ventre, dor no abdómen superior, indigestão, excesso de 
+gases, boca seca 
+
+erupção na pele, queda de cabelo (alopecia), vermelhidão na pele, pele seca, comichão 
+(prurido), alteração da cor da pele, queda de pele, inflamação da pele, alteração das unhas 
+
+dor nas articulações ou nos membros (extremidades), no tórax ou nas costas 
+
+febre, inchaço dos membros, sensação de doença 
+
+problemas com o funcionamento do rim (observado em análises sanguíneas) e aumento da 
+bilirrubina no sangue (segregada pelo fígado) 
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) incluem: 
+
+infeção do sangue, infeção do trato urinário, infeção da pele, infeções do nariz e garganta, 
+infeções fúngicas (incluindo na boca), gripe, gastroenterite, abcesso dentário 
+
+nódulos debaixo da pele (lipoma) 
+
+diminuição das células do sangue, incluindo plaquetas, diluição do sangue (observada em 
+análises) 
+
+alergia 
+
+diabetes, diminuição do potássio no sangue, má nutrição, aumento dos triglicéridos no sangue 
+
+estado de confusão, ataques de pânico, humor depressivo, diminuição da líbido 
+48
+
+dificuldade em falar, alteração da memória, perda de coordenação dos movimentos, perturbação 
+do equilíbrio, desmaio, lesão dos nervos (neuropatia) e problemas de sensibilidade 
+
+visão turva ou dupla 
+
+vertigem, dor de ouvidos 
+
+batimentos cardíacos irregulares e palpitações (arritmias), dor no tórax e ataque cardíaco 
+(enfarte) 
+
+coágulos sanguíneos nas veias profundas, pressão sanguínea alta ou baixa, afrontamentos, 
+membros frios (extremidades), manchas púrpuras na pele 
+
+coágulos sanguíneos nas veias dos pulmões (embolia pulmonar), colapso pulmonar, tosse com 
+sangue, asma, falta de ar por esforço 
+
+obstrução do intestino, acumulação de líquido no abdómen, inflamação do intestino delgado ou 
+grosso, do estômago ou do esófago, dor no abdómen inferior, desconforto abdominal, azia 
+(refluxo da comida do estômago), sangue nas fezes 
+
+icterícia (coloração amarela da pele e olhos) 
+
+úlceras e bolhas na pele, reação da pele à luz solar, vermelhidão das palmas das mãos, inchaço 
+ou dor da face 
+
+inchaço ou rigidez das articulações, dor nos ossos, fraqueza ou rigidez dos músculos 
+
+acumulação de líquido nos rins, aumento da frequência de micções durante a noite, 
+incontinência, sangue na urina, aumento da creatinina no sangue (sinal de problemas no rim) 
+
+sangramento anormal da vagina 
+
+inchaço (edema), arrepios e tremores 
+Efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas) incluem: 
+
+estreitamento ou bloqueio do ducto das lágrimas (estenose do ducto lacrimal) 
+
+falência hepática 
+
+inflamação que origina alteração ou obstrução da secreção da bílis (hepatite colestática) 
+
+alterações específicas no eletrocardiograma (prolongamento QT) 
+
+certos tipos de arritmia (incluindo fibrilhação ventricular, torsade de pointes e bradicardia) 
+
+inflamação do olho que causa dor no olho e eventuais problemas de visão 
+
+inflamação da pele que causa placas vermelhas e escamosas devido a uma doença do sistema 
+imunitário 
+
+inchaço principalmente da face, lábios, língua ou garganta, comichão e erupções cutâneas 
+(angioedema) 
+Efeitos indesejáveis muito raros (podem afetar até 1 em 10.000 pessoas) incluem: 
+
+reação grave na pele, tal como erupção na pele, ulceração e formação de bolhas, que pode 
+envolver úlceras na boca, nariz, genitais, mãos, pés e olhos (olhos vermelhos e inchados) 
+Alguns destes efeitos indesejáveis são mais frequentes quando a capecitabina é utilizada com outros 
+medicamentos para tratamento do cancro. Outros efeitos indesejáveis observados neste contexto são: 
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) incluem: 
+
+diminuição do sódio, do magnésio ou do cálcio no sangue, aumento do açúcar no sangue 
+
+dor nos nervos 
+
+campainhas ou zumbidos nos ouvidos (acufenos), perda de audição 
+
+inflamação das veias 
+
+soluços, alteração da voz 
+
+dor ou sensação alterada/anormal na boca, dor no maxilar 
+
+suores, suores noturnos 
+
+espasmos musculares 
+
+dificuldade em urinar, sangue ou proteínas na urina 
+
+contusão ou reação no local da injeção (causada por medicamentos administrados 
+simultaneamente através de injeção) 
+49
+Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar xeloda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar xeloda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não conservar acima de 30 ºC, conservar na embalagem de origem para proteger da humidade. 
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após VAL. e EXP, respetivamente. O prazo de validade corresponde ao último dia do mês indicado. 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Xeloda 
+ A substância ativa é a capecitabina. 
+
+Xeloda 150 mg comprimidos revestidos por película: 
+Cada comprimido contém 150 mg de capecitabina 
+
+Xeloda 500 mg comprimidos revestidos por película: 
+Cada comprimido contém 500 mg de capecitabina 
+ Os outros componentes são: 
+
+Núcleo do comprimido: lactose anidra, croscarmelose sódica, hipromelose (3 mPa.s), 
+celulose microcristalina, estearato de magnésio (ver secção 2 “Xeloda contém lactose 
+anidra e sódio"). 
+
+Revestimento do comprimido: hipromelose, dióxido de titânio, óxido de ferro amarelo, 
+óxido de ferro vermelho e talco. 
+Qual o aspeto de Xeloda e conteúdo da embalagem 
+Xeloda 150 mg comprimidos revestidos por película: 
+Os comprimidos são revestidos por película, cor de pêssego (claro), de forma biconvexa e oblonga, 
+com a gravação ‘150’ numa das faces e ‘Xeloda’ na outra face. 
+Cada embalagem contém 60 comprimidos revestidos por película (6 blisters de 10 comprimidos). 
+Xeloda 500 mg comprimidos revestidos por película: 
+Os comprimidos são revestidos por película, cor de pêssego, de forma biconvexa e oblonga, com a 
+gravação ‘500’ numa das faces e ‘Xeloda’ na outra face. 
+Cada embalagem contém 120 comprimidos revestidos por película (12 blisters de 10 comprimidos). 
+Titular da Autorização de Introdução no Mercado 
+50
+CHEPLAPHARM Arzneimittel GmbH 
+Ziegelhof 17489 Greifswald 
+Alemanha 
+Fabricante 
+Excella GmbH &amp; Co. KG 
+Nuernberger Str. 90537 Feucht<br />
+Alemanha 
+CHEPLAPHARM Arzneimittel GmbH 
+Ziegelhof 23-17489 Greifswald 
+Alemanha
+Este folheto foi revisto pela última vez em {MM/YYYY} 
+Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -928,6 +1443,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-2fe2164c1e264a15d1f750f56ec0a0e8"
 * entry[0].resource = composition-da-2fe2164c1e264a15d1f750f56ec0a0e8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2fe2164c1e264a15d1f750f56ec0a0e8"
+* entry[=].resource = mp2fe2164c1e264a15d1f750f56ec0a0e8
+                            
+                    
+Instance: bundlepackageleaflet-pt-2fe2164c1e264a15d1f750f56ec0a0e8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xeloda Package Leaflet for language pt"
+Description: "ePI document Bundle for xeloda Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-2fe2164c1e264a15d1f750f56ec0a0e8"
+* entry[0].resource = composition-pt-2fe2164c1e264a15d1f750f56ec0a0e8
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp2fe2164c1e264a15d1f750f56ec0a0e8"
@@ -1029,6 +1566,18 @@ RuleSet: 2fe2164c1e264a15d1f750f56ec0a0e8ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-2fe2164c1e264a15d1f750f56ec0a0e8) // xeloda pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

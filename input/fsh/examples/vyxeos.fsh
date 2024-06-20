@@ -771,6 +771,403 @@ samt affald heraf skal bortskaffes i henhold til lokale retningslinjer for cytot
 
 
 
+Instance: composition-pt-691dd468387a7314644483dde7be004c
+InstanceOf: CompositionUvEpi
+Title: "Composition for vyxeos Package Leaflet"
+Description:  "Composition for vyxeos Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp691dd468387a7314644483dde7be004c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - vyxeos"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Vyxeos liposomal e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Vyxeos liposomal </li>
+<li>Como lhe é administrado Vyxeos liposomal </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Vyxeos liposomal </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é vyxeos e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é vyxeos e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Vyxeos liposomal 
+Vyxeos liposomal pertence a um grupo de medicamentos chamados ‘antineoplásicos’ usados no 
+cancro. Contém duas substâncias ativas chamadas ‘daunorrubicina’ e ‘citarabina’, sob a forma de 
+partículas minúsculas conhecidas por ‘lipossomas’. 
+Estas substâncias ativas atuam de formas diferentes para matar as células cancerígenas, ao impedi-las 
+de crescerem e se dividirem. O facto de estarem concentradas em lipossomas prolonga a sua ação no 
+organismo e ajuda-as a entrar e a matar as células cancerígenas. </p>
+<p>Para que é utilizado Vyxeos liposomal 
+Vyxeos liposomal é utilizado para tratar doentes com leucemia mieloide aguda recentemente 
+diagnosticada (um cancro dos glóbulos brancos). É administrado quando a leucemia foi causada por 
+tratamentos anteriores (conhecida como leucemia mieloide aguda relacionada com a terapêutica) ou 
+quando existem certas alterações mielodisplásicas na medula óssea (conhecida como leucemia 
+mieloide aguda com ‘alterações relacionadas com a mielodisplasia’). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar vyxeos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar vyxeos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe pode ser administrado Vyxeos liposomal </p>
+<ul>
+<li>se tem alergia às substâncias ativas (daunorrubicina ou citarabina) ou a qualquer outro 
+componente deste medicamento (indicados na secção 6). </li>
+</ul>
+<p>Advertências e precauções 
+O seu médico irá vigiá-lo durante o tratamento. Fale com o seu médico ou enfermeiro antes de lhe ser 
+administrado Vyxeos liposomal: </p>
+<ul>
+<li>se tiver um número baixo de plaquetas, glóbulos vermelhos ou glóbulos brancos no seu sangue 
+(fará uma análise ao sangue antes de iniciar o tratamento). Se isto se aplicar a si: </li>
+<li>o seu médico também lhe dará um medicamento para ajudar a impedir que tenha 
+uma infeção; </li>
+<li>
+<p>o seu médico também realizará testes durante o tratamento para detetar infeções. </p>
+</li>
+<li>
+<p>se já teve um problema de coração ou ataque cardíaco, ou se tomou anteriormente uns 
+medicamentos para o cancro chamados ‘antraciclinas’. Se isto se aplica a si, o seu médico 
+examinará o seu coração antes de começar e durante o tratamento. </p>
+</li>
+<li>
+<p>se pensa estar grávida. Deve usar um método contracetivo eficaz para não engravidar (você e o 
+seu parceiro) durante o tratamento e até 6 meses depois da sua última dose. </p>
+</li>
+<li>
+<p>se tem quaisquer reações alérgicas (hipersensibilidade). O seu médico pode pausar ou 
+interromper o tratamento ou reduzir a velocidade da perfusão, se ocorrer alguma 
+hipersensibilidade. </p>
+</li>
+<li>
+<p>se teve problemas de rins ou de fígado. O seu médico vigiá-lo-á durante o tratamento. </p>
+</li>
+<li>
+<p>se alguma vez teve uma doença conhecida como a doença de Wilson ou outras doenças 
+relacionadas com o cobre, uma vez que Vyxeos liposomal contém um componente conhecido 
+como “gluconato de cobre". </p>
+</li>
+<li>
+<p>se for receber uma vacina. </p>
+</li>
+</ul>
+<p>O seu médico vigiá-lo-á no que toca ao seu estado de saúde geral durante o tratamento e também pode 
+administrar-lhe outros medicamentos para apoiar o seu tratamento, quer antes quer com Vyxeos 
+liposomal. Se alguma das situações acima descritas se aplica a si (ou não tiver a certeza), fale com o 
+seu médico, farmacêutico ou enfermeiro antes de lhe ser administrado Vyxeos liposomal. </p>
+<p>Crianças e adolescentes 
+Vyxeos liposomal não é recomendado para utilização em crianças e adolescentes com menos 
+de 18 anos. </p>
+<p>Outros medicamentos e Vyxeos liposomal 
+Informe o seu médico ou enfermeiro, se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. Isto deve-se ao fato de Vyxeos liposomal poder afetar a forma como 
+outros medicamentos atuam. Além disso, outros medicamentos podem afetar a forma como Vyxeos 
+liposomal atua. </p>
+<p>Em particular, informe o seu médico ou enfermeiro se estiver a tomar algum dos seguintes 
+medicamentos: </p>
+<ul>
+<li>
+<p>medicamentos para o cancro que podem afetar o seu coração, como a doxorrubicina; </p>
+</li>
+<li>
+<p>medicamentos que podem afetar o seu fígado. </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+Não deve utilizar Vyxeos liposomal durante a gravidez, uma vez que pode ser nocivo para o bebé. Use 
+um método contracetivo eficaz durante e por um período de 6 meses após o tratamento. Informe 
+imediatamente o seu médico, se engravidar durante o tratamento.  </p>
+<p>Não deve amamentar durante o tratamento com Vyxeos liposomal, uma vez que pode ser prejudicial 
+para o bebé. </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de lhe ser administrado este medicamento. </p>
+<p>Contraceção masculina 
+Use um método contracetivo eficaz durante e por um período de 6 meses após o tratamento com 
+Vyxeos liposomal. </p>
+<p>Condução de veículos e utilização de máquinas 
+Pode sentir sonolência ou tonturas depois da administração de Vyxeos liposomal. Se tal acontecer, não 
+conduza nem utilize máquinas ou ferramentas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar vyxeos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar vyxeos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vyxeos liposomal tem de lhe ser administrado por um médico ou enfermeiro com experiência em 
+tratar LMA. </p>
+<ul>
+<li>
+<p>É administrado como um gotejamento (perfusão) numa veia. </p>
+</li>
+<li>
+<p>A perfusão é administrada durante hora e meia (90 minutos). </p>
+</li>
+</ul>
+<p>O seu médico ou enfermeiro determinará a sua dose de medicamento com base no seu peso e altura. O 
+seu tratamento será feito por ‘ciclos’. Cada ciclo é administrado como uma perfusão separada e pode 
+ser administrado com um intervalo de semanas. </p>
+<p>Receberá o primeiro ciclo de tratamento, e o seu médico decidirá se receberá mais ciclos de tratamento 
+consoante a sua resposta ao tratamento e efeitos indesejáveis que tenha. O seu médico avaliará como 
+responde ao tratamento depois de cada ciclo. </p>
+<ul>
+<li>Durante o primeiro ciclo - fará uma perfusão nos dias 1, 3 e 5. * Nos ciclos seguintes - fará uma perfusão nos dias 1 e 3. Isto pode ser repetido, se for necessário. </li>
+</ul>
+<p>Enquanto estiver a receber tratamento com Vyxeos liposomal, o seu médico realizará análises ao 
+sangue regulares para avaliar a forma como responde ao tratamento e para confirmar que é bem 
+tolerado. O seu médico também vigiará o seu coração, visto que Vyxeos liposomal pode afetá-lo. </p>
+<p>Se lhe for administrado demasiado Vyxeos liposomal 
+Este medicamento ser-lhe-á administrado num hospital por um médico ou enfermeiro. É improvável 
+que lhe seja administrada uma dose excessiva. Porém, informe o seu médico ou enfermeiro, se tiver 
+dúvidas. </p>
+<p>Se faltar a uma consulta 
+Contacte o seu médico ou enfermeiro o mais rápido possível. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves que podem afetar mais de 1 em 10 pessoas (muito frequentes) 
+Vyxeos liposomal pode reduzir o número de glóbulos brancos, que combatem a infeção, e também as 
+células sanguíneas que ajudam o sangue a coagular (plaquetas), dando origem a problemas 
+relacionados com hemorragias, como hemorragias nasais e hematomas. Vyxeos liposomal também 
+pode causar problemas de coração e danos no músculo cardíaco. </p>
+<p>Por conseguinte, tem de informar imediatamente o seu médico, se tiver: </p>
+<ul>
+<li>
+<p>febre, calafrios, dor de garganta, tosse, feridas na boca ou quaisquer outros sintomas de infeção </p>
+</li>
+<li>
+<p>hemorragia ou nódoas negras sem lesão </p>
+</li>
+<li>
+<p>dor no peito ou nas pernas </p>
+</li>
+<li>
+<p>sensação de falta de ar. </p>
+</li>
+</ul>
+<p>Informe imediatamente o seu médico, se sentir algum dos efeitos acima mencionados. </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>uma descida no número de plaquetas (células que ajudam o sangue a coagular) o que pode 
+causar hematomas ou sangramentos </p>
+</li>
+<li>
+<p>febre, muitas vezes com outros sinais de infeção, devido à contagem muito baixa de glóbulos 
+brancos (neutropenia febril) </p>
+</li>
+<li>
+<p>batimento cardíaco lento, rápido ou irregular, dor no peito (o que pode ser sinal de uma infeção)  </p>
+</li>
+<li>
+<p>problemas de visão, visão enevoada </p>
+</li>
+<li>
+<p>dor ou inchado do tecido que reveste o sistema digestivo (mucosite), ou dor no abdómen 
+(barriga), prisão de ventre, perda de apetite, diarreia, náuseas (enjoos) ou vómitos </p>
+</li>
+<li>
+<p>vermelhidão da pele, erupções na pele, dores musculares, cefaleia, dor nos ossos, dor nas 
+articulações, cansaço, inchaço generalizado, incluindo inchaço dos braços e das pernas </p>
+</li>
+<li>
+<p>dor de cabeça, tonturas, confusão, dificuldade em dormir, ansiedade </p>
+</li>
+<li>
+<p>falência dos rins </p>
+</li>
+<li>
+<p>falta de ar, tosse, líquido nos pulmões </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>hemorragia </p>
+</li>
+<li>
+<p>subida da tensão arterial ou descida na tensão arterial </p>
+</li>
+<li>
+<p>arrepios, temperatura corporal baixa ou alta </p>
+</li>
+<li>
+<p>sudação excessiva. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>uma descida no número de glóbulos vermelhos (anemia), levando ao cansaço e à fraqueza </p>
+</li>
+<li>
+<p>falência do fígado e alterações nas análises sanguíneas, devido à morte massiva de células 
+tumorais (síndrome de lise tumoral) </p>
+</li>
+<li>
+<p>espasmos no estômago ou flatulência (gases) excessiva </p>
+</li>
+<li>
+<p>suores excessivos à noite </p>
+</li>
+<li>
+<p>queda de cabelo. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>dormência e erupção cutânea nas mãos e nos pés (síndrome de eritrodisestesia palmo-plantar). </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar vyxeos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar vyxeos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+</li>
+<li>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+frasco para injetáveis após “VAL". O prazo de validade corresponde ao último dia do mês 
+indicado. </p>
+</li>
+<li>
+<p>Conservar no frigorífico (2 °C a 8 °C). </p>
+</li>
+<li>
+<p>Manter o frasco para injetáveis dentro da embalagem para proteger da luz. </p>
+</li>
+<li>
+<p>Conservar numa posição vertical. </p>
+</li>
+<li>
+<p>Após a reconstituição, os frascos para injetáveis devem ser conservados no frigorífico (2 °C 
+a 8 °C), até 4 horas, numa posição vertical.  </p>
+</li>
+<li>
+<p>Após a diluição, a solução em sacos de perfusão deve ser conservada no frigorífico 
+(2 °C a 8 °C), até 4 horas. O período de conservação combinado máximo, para o medicamento 
+reconstituído no frasco para injetáveis conservado numa posição vertical e para o medicamento 
+reconstituído após a diluição num saco de perfusão, não deve exceder 4 horas. O período de 
+perfusão de 90 minutos é adicional ao período de conservação de até 4 horas. </p>
+</li>
+<li>
+<p>Não utilize este medicamento se verificar quaisquer partículas na solução diluída. </p>
+</li>
+<li>
+<p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como 
+deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Vyxeos liposomal  </p>
+<ul>
+<li>
+<p>As substâncias ativas são daunorrubicina e citarabina. Cada frasco para injetáveis de 50 ml 
+contém 44 mg de daunorrubicina e 100 mg de citarabina. </p>
+</li>
+<li>
+<p>Após a reconstituição, a solução contém 2,2 mg/ml de daunorrubicina e 5 mg/ml de citarabina, 
+encapsulada em lipossomas. </p>
+</li>
+<li>
+<p>Os outros componentes são distearoilfosfatidilcolina, distearoilfosfatidilglicerol, colesterol, 
+gluconato de cobre, trolamina e sacarose. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Vyxeos liposomal e conteúdo da embalagem 
+Vyxeos liposomal é um pó púrpura para concentrado para solução para perfusão, fornecido num frasco 
+para injetáveis de vidro.  </p>
+<p>Cada embalagem contém 1 frasco para injetáveis, 2 frascos para injetáveis ou 5 frascos para injetáveis. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Jazz Pharmaceuticals Ireland Ltd<br />
+5th Floor 
+Waterloo Exchange 
+Waterloo Road 
+Dublin 
+D04 E5W7 
+Irlanda 
+Tel.: +353 1 968 1Email: medinfo-int@jazzpharma.com </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -812,6 +1209,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-691dd468387a7314644483dde7be004c"
 * entry[0].resource = composition-da-691dd468387a7314644483dde7be004c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp691dd468387a7314644483dde7be004c"
+* entry[=].resource = mp691dd468387a7314644483dde7be004c
+                            
+                    
+Instance: bundlepackageleaflet-pt-691dd468387a7314644483dde7be004c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vyxeos Package Leaflet for language pt"
+Description: "ePI document Bundle for vyxeos Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-691dd468387a7314644483dde7be004c"
+* entry[0].resource = composition-pt-691dd468387a7314644483dde7be004c
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp691dd468387a7314644483dde7be004c"
@@ -913,6 +1332,18 @@ RuleSet: 691dd468387a7314644483dde7be004cListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-691dd468387a7314644483dde7be004c) // vyxeos pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

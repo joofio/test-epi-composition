@@ -624,6 +624,310 @@ polyethylen eller polyurethan eller sprøjter af polypropylen.</p>         </div
 
 
 
+Instance: composition-pt-d22822bd27d19d92ff4537227a0ddc72
+InstanceOf: CompositionUvEpi
+Title: "Composition for praxbind Package Leaflet"
+Description:  "Composition for praxbind Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd22822bd27d19d92ff4537227a0ddc72)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - praxbind"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Praxbind e para que é utilizado
+2. O que precisa de saber antes de tomar Praxbind
+3. Como utilizar Praxbind
+4. Efeitos indesejáveis possíveis
+5. Como conservar Praxbind
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é praxbind e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é praxbind e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Praxbind
+Praxbind contém a substância ativa idarucizumab. O idarucizumab é um agente de reversão específico 
+para o dabigatrano (Pradaxa), um medicamento para tornar o sangue mais fluido que bloqueia uma 
+substância no corpo que está envolvida na formação de coágulos sanguíneos.
+Praxbind é utilizado para capturar rapidamente o dabigatrano a fim de inativar o seu efeito.
+Para que é utilizado Praxbind
+Praxbind é utilizado em adultos em situações de emergência em que o seu médico decide que é 
+necessária a inativação rápida do efeito de Pradaxa:
+-
+Para intervenções cirúrgicas de emergência/procedimentos urgentes;
+-
+Em hemorragias potencialmente fatais ou descontroladas.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar praxbind"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar praxbind"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Advertências e precauções
+Fale com o seu médico ou enfermeiro antes de receber Praxbind:
+-
+se tem alergia ao idarucizumab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6).
+-
+se tem uma doença genética chamada intolerância hereditária à frutose. Neste caso, a substância 
+sorbitol contida neste medicamento poderá causar reações adversas graves.
+Eles terão isto em consideração antes de o tratar com Praxbind.
+Este medicamento apenas removerá o dabigatrano do seu corpo. Não removerá outros medicamentos 
+utilizados na prevenção da formação de coágulos sanguíneos.
+Depois de o dabigatrano ter sido removido do seu corpo, não está protegido contra a formação de 
+coágulos de sangue. Assim que o seu estado clínico o permitir, o médico irá continuar o tratamento 
+com medicamentos utilizados para prevenir a formação de coágulos sanguíneos.
+30
+Crianças e adolescentes
+Não existe qualquer informação acerca da utilização de Praxbind em crianças.
+Outros medicamentos e Praxbind
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos.
+Este medicamento foi concebido para se ligar apenas ao dabigatrano. É improvável que Praxbind 
+influencie o efeito de outros medicamentos ou que outros medicamentos influenciem Praxbind.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico
+antes de receber este medicamento.
+Não existe qualquer informação acerca dos efeitos deste medicamento em mulheres grávidas ou a 
+amamentar. Praxbind não afeta quaisquer funções do corpo como tal, pelo que o seu médico pode 
+decidir dar-lhe este medicamento se os benefícios ultrapassarem os potenciais riscos.
+Praxbind contém sódio
+Este medicamento contém 50 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
+cada dose. Isto é equivalente a 2,5% da ingestão diária máxima de sódio recomendada na dieta para 
+um adulto.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar praxbind"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar praxbind"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Este medicamento é unicamente para uso hospitalar.
+A dose recomendada é de 5 g (2 frascos para injetáveis de 2,5 g/50 ml).
+Em casos raros, poderá ainda ter demasiado dabigatrano no sangue após a primeira dose deste 
+medicamento e o seu médico poderá decidir dar-lhe uma segunda dose de 5 g em situações específicas.
+O seu médico ou enfermeiro irá administrar-lhe este medicamento através de uma injeção ou perfusão 
+numa veia.
+Depois deste medicamento lhe ter sido administrado, o seu médico irá decidir se deve ou não continuar 
+o seu tratamento para prevenir a formação de coágulos sanguíneos. O dabigatrano pode ser 
+administrado novamente 24 horas após a administração deste medicamento.
+Podem ser encontradas instruções detalhadas para o seu médico ou enfermeiro acerca de como 
+administrar este medicamento no final deste folheto informativo (ver “Instruções de manuseamento").
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Até ao momento, não foram identificados efeitos indesejáveis.
+31
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar praxbind"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar praxbind"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no frasco para injetáveis e na 
+embalagem exterior, após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2ºC-8ºC).
+Não congelar.
+Conservar na embalagem de origem para proteger da luz.
+Uma vez aberto, este medicamento destina-se a utilização imediata.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Praxbind</h2>
+<h2>A substância ativa é idarucizumab.</h2>
+<p>Os outros componentes são: acetato de sódio tri-hidratado (E262), ácido acético (E260, para 
+ajuste do pH), sorbitol (E420), polissorbato 20 (E432) e água para injetáveis.
+Qual o aspeto de Praxbind e conteúdo da embalagem
+Praxbind é uma solução transparente a ligeiramente opalescente, incolor a ligeiramente amarelada, 
+apresentada num frasco para injetáveis de vidro encerrado com uma rolha de borracha butílica e uma 
+tampa de alumínio.
+Cada embalagem contém dois frascos para injetáveis.
+Titular da Autorização de Introdução no Mercado
+Boehringer Ingelheim International GmbH
+Binger Str. 173
+55216 Ingelheim am Rhein
+Alemanha
+Fabricante
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Birkendorfer Strasse 65
+88397 Biberach an der Riss
+Alemanha
+Boehringer Ingelheim France
+100-104 Avenue de France
+75013 Paris
+França
+32
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Lietuvos filialas
+Tel: +370 5 2595942
+България
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко. КГ -
+клон България
+Тел: +359 2 958 79 98
+Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Česká republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 111
+Magyarország
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Magyarországi Fióktelepe 
+Tel: +36 1 299 89 00
+Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf: +45 39 15 88 88
+Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: + 353 1 295 9620
+Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 900
+Nederland
+Boehringer Ingelheim B.V.
+Tel: +31 (0) 800 22 55 889
+Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Eesti filiaal
+Tel: +372 612 8000
+Norge
+Boehringer Ingelheim Norway KS
+Tlf: +47 66 76 13 00
+Ελλάδα
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη A.E.
+Tηλ: +30 2 10 89 06 300
+Österreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7870
+España
+Boehringer Ingelheim España, S.A.
+Tel: +34 93 404 51 00
+Polska
+Boehringer Ingelheim Sp. z o.o.
+Tel: +48 22 699 0 699
+France
+Boehringer Ingelheim France S.A.S.
+Tél: +33 3 26 50 45 33
+Portugal
+Boehringer Ingelheim Portugal, Lda.
+Tel: +351 21 313 53 00
+Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 600
+România
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Viena - Sucursala Bucureşti
+Tel: +40 21 302 28 00
+Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Podružnica Ljubljana
+Tel: +386 1 586 40 00
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+organizačná zložka 
+Tel: +421 2 5810 1211
+33
+Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 800
+Κύπρος
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη A.E.
+Tηλ: +30 2 10 89 06 300
+Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 00
+Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Latvijas filiāle
+Tel: +371 67 240 011
+United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -665,6 +969,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d22822bd27d19d92ff4537227a0ddc72"
 * entry[0].resource = composition-da-d22822bd27d19d92ff4537227a0ddc72
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd22822bd27d19d92ff4537227a0ddc72"
+* entry[=].resource = mpd22822bd27d19d92ff4537227a0ddc72
+                            
+                    
+Instance: bundlepackageleaflet-pt-d22822bd27d19d92ff4537227a0ddc72
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for praxbind Package Leaflet for language pt"
+Description: "ePI document Bundle for praxbind Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d22822bd27d19d92ff4537227a0ddc72"
+* entry[0].resource = composition-pt-d22822bd27d19d92ff4537227a0ddc72
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd22822bd27d19d92ff4537227a0ddc72"
@@ -766,6 +1092,18 @@ RuleSet: d22822bd27d19d92ff4537227a0ddc72ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d22822bd27d19d92ff4537227a0ddc72) // praxbind pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1304,6 +1304,612 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-a192389a9068e61de77d4f090e108cd6
+InstanceOf: CompositionUvEpi
+Title: "Composition for stocrin Package Leaflet"
+Description:  "Composition for stocrin Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa192389a9068e61de77d4f090e108cd6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - stocrin"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Stocrin e para que é utilizado
+2. O que precisa de saber antes de tomar Stocrin
+3. Como tomar Stocrin
+4. Efeitos indesejáveis possíveis
+5. Como conservar Stocrin
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é stocrin e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é stocrin e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Stocrin, que contém a substância ativa efavirenz, pertence a uma classe de medicamentos
+antirretrovíricos denominada inibidores da transcriptase reversa não nucleósidos (NNRTIs). É um
+medicamento antirretrovírico que combate a infeção pelo vírus da imunodeficiência humana
+(VIH) reduzindo a quantidade do vírus no sangue. É utilizado por adultos, adolescentes e crianças
+com 3 anos ou mais anos de idade.
+O seu médico receitou-lhe Stocrin porque tem uma infeção pelo VIH. Stocrin tomado em associação
+com outros medicamentos antirretrovíricos reduz a quantidade de vírus no sangue. Isto irá fortalecer o
+seu sistema imunitário e diminuir o risco de desenvolver doenças relacionadas com a infeção pelo
+VIH.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar stocrin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar stocrin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Stocrin</p>
+<ul>
+<li>
+<p>se tem alergia ao efavirenz ou a qualquer outro componente deste medicamento (indicados na
+secção 6). Aconselhe-se com o seu médico ou farmacêutico.</p>
+</li>
+<li>
+<p>se tiver doença do fígado grave.</p>
+</li>
+<li>
+<p>se tiver um problema cardíaco, tal como alterações do ritmo ou da frequência do
+batimento do coração, batimento do coração lento ou doença grave do coração.</p>
+</li>
+<li>
+<p>se algum membro da sua família (pais, avós, irmãos ou irmãs) morreu subitamente devido a um
+problema de coração ou nasceu com problemas de coração.</p>
+</li>
+<li>
+<p>se o seu médico o informou que tem níveis elevados ou baixos de eletrólitos, tais como potássio
+ou magnésio, no sangue.
+98</p>
+</li>
+<li>
+<p>se estiver atualmente a tomar algum dos seguintes medicamentos (ver também “Outros
+medicamentos e Stocrin"): </p>
+</li>
+<li>astemizol ou terfenadina (utilizados para tratar sintomas de alergia)</li>
+<li>bepridilo (usado no tratamento da doença cardíaca)</li>
+<li>cisaprida (usada para tratar a azia)</li>
+<li>alcaloides da cravagem de centeio (por exemplo, ergotamina, di-hidro
+ergotamina, ergonovina e metilergonovina) (usados no tratamento de enxaquecas e
+dores de cabeça pulsáteis)</li>
+<li>midazolam ou triazolam (usado para o ajudar a dormir)</li>
+<li>pimozida, imipramina, amitriptilina ou clomipramina (usados para tratar
+determinados distúrbios mentais)</li>
+<li>hipericão (Hypericum perforatum) (um medicamento à base de plantas usado no
+tratamento da depressão e ansiedade)</li>
+<li>flecainida, metoprolol (usados para tratar o batimento do coração irregular)</li>
+<li>certos antibióticos (macrólidos, fluoroquinolonas, imidazol)</li>
+<li>agentes antifúngicos triazois </li>
+<li>certos tratamentos antimaláricos </li>
+<li>metadona (usado para tratar a dependência de opiácios)</li>
+<li>
+<p>elbasvir/grazoprevir 
+Informe imediatamente o seu médico se estiver a tomar algum destes medicamentos. A toma
+destes medicamentos com Stocrin aumenta a possibilidade de Stocrin deixar de atuar corretamente,
+assim como de ocorrerem efeitos indesejáveis graves e/ou que põem em risco a vida.
+Advertências e precauções
+Fale com o seu médico antes de tomar Stocrin.</p>
+</li>
+<li>
+<p>Stocrin deve ser tomado com outros medicamentos que atuam contra o vírus VIH. Se vai
+iniciar o tratamento com Stocrin porque o tratamento atual não impediu a multiplicação do
+vírus, Stocrin tem de ser iniciado, na mesma altura, com outro medicamento que ainda não
+tenha tomado.</p>
+</li>
+<li>
+<p>Este medicamento não é uma cura para a infeção por VIH e poderá continuar a desenvolver
+infeções e outras doenças associadas com a doença por VIH. </p>
+</li>
+<li>
+<p>Deve continuar sob os cuidados do seu médico enquanto estiver a tomar Stocrin.</p>
+</li>
+<li>
+<p>Fale com o seu médico:</p>
+</li>
+<li>se tiver história de doença mental, incluindo depressão, ou abuso de drogas ou de
+álcool. Contacte imediatamente o seu médico se se sentir deprimido, tiver
+pensamentos suicidas ou pensamentos estranhos (ver secção </li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar stocrin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar stocrin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>possíveis).
+- se tiver história de convulsões (crises ou ataques convulsivos) ou se estiver a ser
+tratado com uma terapêutica anticonvulsivante, como a carbamazepina,
+fenobarbital e fenitoína. Se estiver a tomar algum destes medicamentos, o seu
+médico pode precisar de controlar o nível do medicamento anticonvulsivante no
+seu sangue para confirmar que não é afetado durante o tratamento com Stocrin. O
+seu médico pode dar-lhe outro anticonvulsivante.
+- se tiver história de doença do fígado, incluindo hepatite crónica ativa. 
+Os doentes com hepatite B ou C crónica e em tratamento com agentes
+antirretrovíricos em associação apresentam um risco aumentado para problemas do
+fígado graves e potencialmente ameaçadores da vida. O seu médico pode precisar
+de efetuar análises ao sangue para controlo da função do fígado ou pode trocar
+99
+Stocrin por outro medicamento. Se tiver doença grave do fígado, não tome
+Stocrin (ver secção 2, Não tome Stocrin).
+- se tiver uma doença do coração, tal como alteração dos sinais elétricos
+chamada prolongamento do intervalo QT. </p>
+<ul>
+<li>Ao iniciar o tratamento com Stocrin tome atenção a:</li>
+<li>sinais de tonturas, dificuldade em dormir, sonolência, dificuldade de
+concentração ou sonhos estranhos. Estes efeitos indesejáveis podem começar nos
+primeiros 1 ou 2 dias de tratamento e geralmente desaparecem após as primeiras 2
+a 4 semanas.</li>
+<li>sinais de confusão, pensamentos e movimentos físicos lentos, e delírios
+(certezas falsas) ou alucinações (ver ou ouvir coisas que os outros não vêem ou
+não ouvem). Estes efeitos indesejáveis podem ocorrer meses a anos após o início
+da terapêutica com Stocrin. Se notar quaisquer sintomas, por favor informe o seu
+médico.</li>
+<li>qualquer sinal de erupção na pele. Se tiver algum sinal de erupção grave com
+formação de bolhas ou febre, pare de tomar Stocrin e informe o seu médico
+imediatamente. Se teve uma erupção cutânea enquanto tomava outro NNRTI, pode
+ter um risco aumentado de desenvolver uma erupção cutânea ao tomar Stocrin.</li>
+<li>qualquer sinal de inflamação ou infeção. Em alguns doentes com infeção
+avançada por VIH (SIDA) e história de infeção oportunista, podem ocorrer sinais e
+sintomas de inflamação resultantes de infeções anteriores, pouco tempo após o
+início do tratamento anti-VIH. Pensa-se que estes sintomas se devem a um
+aumento da resposta imunológica do organismo, habilitando-o a combater infeções
+que possam ter existido sem sintomas evidentes. Se notar quaisquer sintomas de
+infeção, por favor informe imediatamente o seu médico.
+Adicionalmente às infeções oportunistas, as doenças autoimunes (uma condição
+que ocorre quando o sistema imunitário ataca tecidos corporais saudáveis) também
+podem ocorrer depois de começar a tomar os medicamentos para o tratamento da
+sua infeção pelo VIH. As doenças autoimunes podem ocorrer muitos meses após o
+início do tratamento. Se notar quaisquer sintomas de infeção ou outros sintomas
+como fraqueza muscular, fraqueza a começar nas mãos e nos pés e dirigindo-se em
+direção ao tronco, palpitações, tremores ou hiperatividade, informe o seu médico
+imediatamente para procurar o tratamento necessário.</li>
+<li>
+<p>problemas nos ossos. Alguns doentes em terapêutica antirretrovírica combinada
+podem desenvolver uma doença óssea chamada osteonecrose (morte do tecido
+ósseo provocada por falta de afluxo de sangue ao osso). A duração da terapêutica
+antirretrovírica combinada, a utilização de corticosteroides, o consumo de álcool, a
+imunossupressão grave, um índice de massa corporal aumentado, entre outros,
+podem ser alguns dos inúmeros fatores de risco para o desenvolvimento desta
+doença. Os sinais de osteonecrose são rigidez, mal-estar e dores nas articulações
+(especialmente na anca, joelho e ombro) e dificuldade de movimentos. Por favor
+informe o seu médico se notar qualquer um destes sintomas.
+Crianças e adolescentes
+Stocrin não é recomendado para crianças com menos de 3 anos de idade ou que pesem menos de 13 kg
+pois não foi estudado de forma adequada neste grupo de doentes.
+100
+Outros medicamentos e Stocrin
+Não deve tomar Stocrin com alguns medicamentos. Estes medicamentos estão listados no início da
+secção 2, Não tome Stocrin. Incluem medicamentos comuns e medicamentos à base de plantas
+(hipericão) que podem provocar interações graves.
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a
+tomar outros medicamentos.
+Stocrin pode interagir com outros medicamentos, incluindo preparações à base de plantas como os
+extratos de Ginkgo biloba. Consequentemente, a quantidade de Stocrin ou outros medicamentos no
+seu sangue pode ser afetada. Esta situação pode impedir os medicamentos de atuarem corretamente ou
+agravarem qualquer um dos efeitos indesejáveis. Em algumas situações, o seu médico pode precisar de
+ajustar a dose ou de controlar os níveis no sangue. É importante informar o seu médico ou
+farmacêutico se estiver a tomar:</p>
+</li>
+<li>
+<p>Outros medicamentos usados na infeção por VIH:</p>
+</li>
+<li>inibidores da protease: darunavir, indinavir, lopinavir/ritonavir, ritonavir, ritonavir
+potenciador atazanavir, saquinavir ou fosamprenavir/saquinavir. O seu médico pode achar
+necessário dar-lhe um medicamento alternativo ou alterar a dose do inibidor da protease.</li>
+<li>maraviroc</li>
+<li>
+<p>o comprimido combinado contendo efavirenz, emtricitabina e tenofovir não deve ser
+tomado com Stocrin, a não ser que o seu médico o recomende, uma vez que este contém
+efavirenz, a substância ativa de Stocrin.</p>
+</li>
+<li>
+<p>Medicamentos usados no tratamento da infeção pelo vírus da hepatite C: boceprevir,
+telaprevir, simeprevir, sofosbuvir/velpatasvir, glecaprevir/pibrentasvir e
+sofosbuvir/velpatasvir/voxilaprevir.</p>
+</li>
+<li>
+<p>Medicamentos usados no tratamento de infeções bacterianas, incluindo tuberculose e o
+complexo mycobacterium avium relacionado com SIDA: claritromicina, rifabutina, rifampicina.
+O seu médico pode ter necessidade de alterar a dose ou de lhe dar um antibiótico alternativo.
+Adicionalmente, o seu médico pode também prescrever uma dose aumentada de Stocrin.</p>
+</li>
+<li>
+<p>Medicamentos usados no tratamento de infeções fúngicas (antifúngicos):</p>
+</li>
+<li>voriconazol. Stocrin pode reduzir a quantidade de voriconazol no seu sangue e o
+voriconazol pode aumentar a quantidade sanguínea de Stocrin. Se tomar estes dois
+medicamentos simultaneamente, a dose de voriconazol tem de ser aumentada e a dose de
+efavirenz tem de ser reduzida. Tem de consultar o seu médico primeiro.</li>
+<li>itraconazol. Stocrin pode reduzir a quantidade de itraconazol no seu sangue.</li>
+<li>
+<p>posaconazol. Stocrin pode reduzir a quantidade de posaconazol no seu sangue.</p>
+</li>
+<li>
+<p>Medicamentos utilizados para tratar a malária:</p>
+</li>
+<li>arteméter/lumefantrina: Stocrin pode reduzir a quantidade de arteméter/lumefantrina no
+seu sangue.</li>
+<li>
+<p>atovaquona/proguanilo: Stocrin pode reduzir a quantidade de atovaquona/proguanilo no
+seu sangue.
+101</p>
+</li>
+<li>
+<p>Medicamentos utilizados no tratamento de convulsões (anticonvulsivantes): carbamazepina,
+fenitoína, fenobarbital. Stocrin pode reduzir ou aumentar a quantidade do anticonvulsivante no
+seu sangue. A carbamazepina pode reduzir o efeito do Stocrin. O seu médico pode ter
+necessidade de lhe prescrever outro anticonvulsivante.</p>
+</li>
+<li>
+<p>Medicamentos utilizados para reduzir as gorduras do sangue (também chamados
+estatinas): atorvastatina, pravastatina, sinvastatina. Stocrin pode reduzir a quantidade de
+estatinas no seu sangue. O seu médico irá controlar os seus valores de colesterol e se necessário,
+irá considerar a necessidade de alterar a dose de estatina.</p>
+</li>
+<li>
+<p>Metadona (um medicamento utilizado no tratamento do abuso de opiáceos): o seu médico pode
+recomendar um tratamento alternativo.</p>
+</li>
+<li>
+<p>Sertralina (um medicamento usado no tratamento da depressão): o seu médico pode achar
+necessário alterar a dose de sertralina.</p>
+</li>
+<li>
+<p>Bupropiom (um medicamento utilizado no tratamento da depressão ou para ajudá-lo a deixar
+de fumar): o seu médico pode achar necessário alterar a dose de bupropiom.</p>
+</li>
+<li>
+<p>Diltiazem ou medicamentos similares (chamados bloqueadores dos canais de cálcio que
+são medicamentos tipicamente utilizados para a tensão arterial alta ou problemas do
+coração): quando começar a tomar Stocrin, o seu médico pode achar necessário ajustar a dose
+do bloqueador dos canais de cálcio.</p>
+</li>
+<li>
+<p>Imunossupressores, como a ciclosporina, sirolímus ou tacrolímus (medicamentos utilizados
+na prevenção da rejeição de órgãos após transplante): quando começar ou deixar de tomar
+Stocrin, o seu médico irá monitorizar cuidadosamente os níveis plasmáticos do imunossupressor
+e pode achar necessário ajustar a sua dose.</p>
+</li>
+<li>
+<p>Contracetivo hormonal, como pílulas contracetivas, um contracetivo injetável (por
+exemplo, Depo Provera), ou um implante contracetivo (por exemplo, Implanon): tem de
+utilizar também um método fiável de contraceção de barreira (ver Gravidez, amamentação e
+fertilidade). Stocrin pode diminuir a probabilidade dos contracetivos hormonais atuarem. Já
+ocorreram gravidezes em mulheres medicadas com Stocrin usando em simultâneo um implante
+contracetivo, embora não tenha sido estabelecido que a terapêutica com Stocrin tenha causado a
+falência do contracetivo.</p>
+</li>
+<li>
+<p>Varfarina ou acenocumarol (medicamentos usados na redução da coagulação do sangue): o
+seu médico pode achar necessário ajustar a dose de varfarina ou acenocumarol. </p>
+</li>
+<li>
+<p>Extratos de Ginkgo biloba (uma preparação à base de plantas).</p>
+</li>
+<li>
+<p>Medicamentos que têm impacto no ritmo do coração:</p>
+</li>
+<li>Medicamentos usados para tratar problemas no ritmo do coração: tais como flecainida
+ou metoprolol.</li>
+<li>Medicamentos usados para tratar a depressão tais como imipramina, amitriptilina ou
+clomipramina.</li>
+<li>
+<p>Antibióticos, incluindo os seguintes tipos: macrólidos, fluoroquinolonas ou imidazol.</p>
+</li>
+<li>
+<p>Metamizol (um medicamento usado para tratar a dor e febre).</p>
+</li>
+<li>
+<p>Praziquantel (um medicamento usado para tratar infeções por parasitas).
+Gravidez e amamentação 
+102
+As mulheres não devem engravidar durante o tratamento com Stocrin e durante as 12 semanas
+seguintes. O seu médico poderá pedir-lhe que faça um teste de gravidez para assegurar que não está
+grávida antes de iniciar o tratamento com Stocrin. 
+Se houver possibilidade de engravidar durante o tratamento com Stocrin, deve utilizar um
+método fiável de contraceção de barreira (por exemplo, um preservativo) com outros métodos de
+contraceção, incluindo o oral (pílula) ou outros contracetivos hormonais (por exemplo, implantes,
+injeção). O efavirenz pode permanecer no seu sangue durante algum tempo após o fim do tratamento.
+Assim, deve continuar a usar medidas contracetivas, como as referidas acima, durante 12 semanas
+após o fim do tratamento com Stocrin.
+Informe imediatamente o seu médico se estiver grávida ou tencionar engravidar. Se estiver
+grávida, só deverá tomar Stocrin se for decidido entre si e o seu médico que é realmente necessário.
+Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento.
+Observaram-se defeitos graves à nascença em fetos de animais e em bebés de mulheres tratadas com
+efavirenz ou com um medicamento combinado contendo efavirenz, emtricitabina e tenofovir durante a
+gravidez. Se tomou Stocrin ou o comprimido combinado contendo efavirenz, emtricitabina e tenofovir
+durante a gravidez, o seu médico pode pedir análises ao sangue regulares bem como outros exames de
+diagnóstico para vigiar o desenvolvimento da sua criança. 
+A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção pelo
+VIH pode ser transmitida ao bebé através do leite materno.
+Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais rapidamente
+possível.</p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas
+Stocrin contém efavirenz e pode causar tonturas, incapacidade de concentração e sonolência. 
+Caso seja afetado, não conduza nem utilize quaisquer ferramentas ou máquinas.
+Stocrin 30 mg/ml solução oral contém ácido benzoico 
+Este medicamento contém 1 mg de ácido benzoico (E210) por ml.
+Stocrin 30 mg/ml solução oral contém álcool benzílico
+Este medicamento contém até 0,816 mg de álcool benzílico (E1519) por ml.
+O álcool benzílico pode causar reações alérgicas. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu
+médico ou farmacêutico se tiver dúvidas. O seu médico dar-lhe-á instruções sobre a dose correta.</p>
+<ul>
+<li>
+<p>A dose para adultos é de 24 ml uma vez por dia.</p>
+</li>
+<li>
+<p>A dose de Stocrin pode precisar de ser aumentada ou diminuída se já estiver a tomar certos
+medicamentos (ver Outros medicamentos e Stocrin).</p>
+</li>
+<li>
+<p>Stocrin solução oral pode ser tomada com ou sem alimentos.
+A dose de Stocrin solução oral em mg não é a mesma que a dos comprimidos revestidos por película
+de Stocrin. </p>
+</li>
+<li>
+<p>Stocrin tem de ser tomado todos os dias.</p>
+</li>
+<li>
+<p>Stocrin nunca deve ser utilizado isoladamente para tratar o VIH. Stocrin tem de ser sempre
+tomado em associação com outros medicamentos anti-VIH.
+103
+A dose de Stocrin solução oral deve ser medida usando a seringa para
+administração oral que se encontra na embalagem.</p>
+</li>
+<li>
+<p>Na primeira utilização, o adaptador para o frasco deve ser fixado ao
+colo do frasco. Para efetuar este passo, remova a tampa resistente à
+abertura por crianças e a película que sela o frasco. O adaptador para o
+frasco, que já se encontra fixo à cânula da seringa, pode ser em
+seguida adaptado ao colo do frasco e fortemente pressionado para 
+baixo.</p>
+</li>
+<li>
+<p>Separe a seringa do adaptador. O adaptador deve encontrar-se agora
+perfeitamente ajustado ao colo do frasco, de modo a que a tampa possa
+ser recolocada sem ter que o remover.</p>
+</li>
+<li>
+<p>Mantendo o frasco em posição vertical, adapte a ponta da seringa ao
+adaptador do frasco. </p>
+</li>
+<li>
+<p>Vire o frasco ao contrário, ainda com a seringa colocada no mesmo
+local. Segure o frasco e a seringa firmemente numa mão e com a outra
+mão, puxe o êmbolo para trás lentamente até à marca correspondente à
+dose necessária. Se aparecerem bolhas de ar na seringa, mantenha o
+frasco virado para baixo e carregue no êmbolo lentamente. Volte a
+puxá-lo para trás. Repita esta operação até que não existam bolhas na
+seringa.</p>
+</li>
+<li>
+<p>Para medir a dose de forma precisa, mantenha o frasco virado para
+baixo e carregue no êmbolo lentamente até que o topo do anel preto (a
+orla mais próxima da ponta da seringa) fique alinhado com a dose.
+Vire o frasco para cima e retire a seringa. Limpe o adaptador e volte a
+colocar a tampa firmemente sobre ele.</p>
+</li>
+<li>
+<p>Antes de administrar a dose de solução oral, certifique-se de que o
+doente está sentado ou em pé. Coloque a ponta da seringa dentro da
+boca, apontando-a para a face. Carregue no êmbolo lentamente de
+modo a dar tempo suficiente para que o medicamento seja engolido.
+Uma injeção rápida da solução para dentro da boca pode provocar
+sufocação.
+104
+Após a utilização, mergulhe a seringa em água quente com detergente durante pelo menos um minuto.
+Encha a seringa com esta água quente e depois esvazie-a completamente. Repita esta operação pelo
+menos três vezes. Retire o êmbolo do tubo e enxague cuidadosamente ambas as partes com água
+corrente quente. Se verificar que algum dos componentes da seringa não está limpo, repita as
+instruções de limpeza. Deixe-os secar completamente antes de os reunir. Não coloque a seringa na
+máquina de lavar louça.
+Utilização em crianças e adolescentes</p>
+</li>
+<li>
+<p>A dose para crianças com um peso superior a 40 kg é de 24 ml uma vez por dia.</p>
+</li>
+<li>
+<p>A dose para crianças com um peso inferior a 40 kg é calculada em função do peso corporal e é
+tomada uma vez por dia como se indica a seguir:
+Peso corporal
+Stocrin solução oral (30 mg/ml)
+kg
+Dose (ml)
+Crianças 3 - &lt; 5 anos 
+Adultos e crianças com
+idade igual ou superior a
+5 anos
+13 a &lt; 15
+12
+9
+15 a &lt; 20
+13
+10
+20 a &lt; 25
+15
+12
+25 a &lt; 32,5
+17
+15
+32,5 a &lt; 40
+-
+17
+ 40
+-
+24
+Se tomar mais Stocrin do que deveria
+Se tomar uma dose excessiva de Stocrin contacte o seu médico ou dirija-se ao serviço de urgências
+mais próximo para aconselhamento. Mantenha a embalagem do medicamento consigo para facilitar a
+descrição do medicamento tomado.
+Caso se tenha esquecido de tomar Stocrin
+Tente não se esquecer de tomar uma dose. Se se esquecer, tome a dose seguinte logo que for possível,
+mas não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Se necessitar de
+ajuda para planear as alturas melhores para tomar o seu medicamento, fale com o seu médico ou
+farmacêutico.
+Se parar de tomar Stocrin
+Quando tiver pouca quantidade de Stocrin, obtenha mais junto do seu médico ou farmacêutico. Isto
+é muito importante porque se o medicamento for interrompido mesmo por um curto período de tempo,
+a quantidade de vírus pode começar a aumentar. Pode então ser mais difícil combater o vírus.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico
+ou enfermeiro.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar stocrin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar stocrin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não
+se manifestem em todas as pessoas. No tratamento da infeção por VIH, não é possível determinar
+sempre se um determinado efeito indesejável foi causado por Stocrin, por outro medicamento que
+esteja a tomar em simultâneo, ou pela própria doença por VIH. 
+Durante a terapêutica para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos
+lípidos no sangue, por vezes aos próprios medicamentos para o VIH. O seu médico irá realizar testes
+para determinar estas alterações. 
+105
+Os efeitos indesejáveis mais notórios comunicados com Stocrin quando administrado em associação
+com outros medicamentos anti-VIH são erupção cutânea e sintomas do sistema nervoso.
+Deve consultar o seu médico se tiver uma erupção cutânea, porque algumas erupções cutâneas podem
+ser graves; contudo, a maior parte dos casos de erupção cutânea desaparecem sem que se proceda a
+qualquer alteração ao seu tratamento com Stocrin. A erupção cutânea foi mais comum em crianças do
+que em adultos tratados com Stocrin.
+Os sintomas do sistema nervoso tendem a ocorrer quando o tratamento é iniciado pela primeira vez,
+mas diminuem normalmente nas primeiras semanas. Num estudo, os sintomas do sistema nervoso
+ocorreram frequentemente durante as primeiras 1 - 3 horas após a toma. Se for afetado, o seu médico
+pode sugerir que tome Stocrin à hora de deitar. Alguns doentes apresentam sintomas mais graves que
+podem afetar o comportamento ou a capacidade de pensar com clareza. Alguns doentes tentaram
+mesmo o suicídio. Estes problemas tendem a ocorrer mais frequentemente em indivíduos com história
+de doença mental. Adicionalmente, alguns sintomas do sistema nervoso [ex.: confusão, pensamentos e
+movimentos fisícos lentos, e delírios (certezas falsas) ou alucinações (ver ou ouvir coisas que os outros
+não vêem ou não ouvem)] podem ocorrer meses a anos após o início da terapêutica com Stocrin.
+Informe sempre o seu médico imediatamente se sentir qualquer um destes sintomas ou quaisquer
+efeitos indesejáveis enquanto estiver a tomar Stocrin.
+Ocorreu diarreia em crianças que tomaram Stocrin solução oral e nelfinavir em associação com outros
+medicamentos antirretrovíricos.
+Informe o seu médico se sentir algum dos seguintes efeitos indesejáveis:
+Efeitos indesejáveis muito frequentes (afetam mais de 1 utilizador em cada 10)
+- erupção cutânea
+Efeitos indesejáveis frequentes (afetam 1 a 10 utilizadores em cada 100)
+- sonhos estranhos, dificuldade de concentração, tonturas, dores de cabeça, dificuldade em
+dormir, sonolência, problemas com coordenação ou equilíbrio
+- dor de estômago, diarreia, sensação de mal-estar (náuseas), vómitos
+- comichão
+- fadiga
+- ansiedade, depressão
+Análises laboratoriais podem apresentar:
+- aumento das enzimas do fígado no sangue
+- aumento dos triglicéridos (ácidos gordos) no sangue
+Efeitos indesejáveis pouco frequentes (afetam 1 a 10 utilizadores em cada 1.000)
+- nervosismo, esquecimento, confusão, espasmo (convulsões), pensamentos estranhos
+- visão turva
+- sensação de movimento ou de rotação (vertigens)
+- dor abdominal (estômago) causada pela inflamação do pâncreas
+- reação alérgica (hipersensibilidade) que pode causar reações cutâneas graves (síndrome de
+Stevens-Johnson e eritema multiforme).
+- pele ou olhos amarelos, comichão ou dor abdominal (estômago), causada por inflamação do
+fígado 
+- desenvolvimento mamário nos homens
+- comportamento agressivo, alteração de humor, ver ou ouvir coisas que não são reais
+(alucinações), mania (distúrbio mental caracterizado por episódios de hiperatividade, euforia ou
+irritabilidade), paranoia, pensamentos suicidas, catatonia (condição em que o doente fica imóvel
+e sem falar por um período de tempo)
+- sensação de assobio, de campainhas ou outro ruído persistente nos ouvidos
+- tremores
+- vermelhidão
+106
+Análises laboratoriais podem apresentar:
+- aumento do colesterol no sangue
+Efeitos indesejáveis raros (afetam 1 a 10 utilizadores em cada 10.000)
+- erupção na pele com comichão provocada por uma reação à luz solar
+- ocorreu com efavirenz insuficiência hepática, levando em alguns casos à morte ou a transplante
+do fígado. A maioria dos casos ocorreu em doentes que já tinham doença hepática prévia, mas
+foram comunicados alguns casos em doentes sem doença hepática prévia
+- sensação de aflição sem explicação, não associada a alucinações, mas pode ser difícil pensar de
+forma clara ou sensata
+- suicídio
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
+medicamento.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior,
+após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+O frasco de Stocrin solução oral deve ser usado no prazo de 1 mês após a primeira abertura do frasco.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
+o ambiente.</p>         </div>"""      
+
+
+
 
 
                     
@@ -1345,6 +1951,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a192389a9068e61de77d4f090e108cd6"
 * entry[0].resource = composition-da-a192389a9068e61de77d4f090e108cd6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa192389a9068e61de77d4f090e108cd6"
+* entry[=].resource = mpa192389a9068e61de77d4f090e108cd6
+                            
+                    
+Instance: bundlepackageleaflet-pt-a192389a9068e61de77d4f090e108cd6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for stocrin Package Leaflet for language pt"
+Description: "ePI document Bundle for stocrin Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a192389a9068e61de77d4f090e108cd6"
+* entry[0].resource = composition-pt-a192389a9068e61de77d4f090e108cd6
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa192389a9068e61de77d4f090e108cd6"
@@ -1446,6 +2074,18 @@ RuleSet: a192389a9068e61de77d4f090e108cd6ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a192389a9068e61de77d4f090e108cd6) // stocrin pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

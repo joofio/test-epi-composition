@@ -730,6 +730,374 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-d6a8f1a1ebaa6583d4e909e9b830debb
+InstanceOf: CompositionUvEpi
+Title: "Composition for levitra Package Leaflet"
+Description:  "Composition for levitra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd6a8f1a1ebaa6583d4e909e9b830debb)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - levitra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Levitra e para que é utilizado 
+2. O que precisa de saber antes de tomar Levitra 
+3. Como tomar Levitra 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Levitra 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é levitra e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é levitra e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Levitra contém vardenafil, um membro da classe de medicamentos denominados inibidores da 
+fosfodiesterase tipo 5. Estes são usados para o tratamento da disfunção erétil em homens adultos, uma 
+condição que implica dificuldades em obter ou manter uma ereção. </p>
+<p>Pelo menos um em cada dez homens tem, em algum momento, dificuldades em obter ou manter uma 
+ereção. Podem existir causas físicas ou psicológicas ou uma mistura de ambas. Qualquer que seja a 
+causa, devido a alterações nos músculos e vasos sanguíneos não permanece no pénis uma quantidade 
+de sangue suficiente para que este se torne e mantenha duro. </p>
+<p>Levitra apenas funcionará quando for sexualmente estimulado. Reduz a ação do químico natural no 
+seu organismo que faz as ereções desaparecerem. Levitra faz com que a ereção dure o tempo suficiente 
+para que complete a sua atividade sexual de forma satisfatória. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar levitra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar levitra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Levitra 
+- Se tem alergia ao vardenafil ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Os sinais de uma reação alérgica incluem erupções cutâneas, comichão, inchaço na 
+face ou lábios e dificuldade em respirar. 
+- Se está a tomar medicamentos contendo nitratos, tais como o trinitrato de glicerol para a angina, 
+ou dadores de óxido nítrico, tais como o nitrito de amilo. A utilização destes medicamentos com 
+Levitra pode afetar seriamente a sua pressão sanguínea. 
+- Se está a tomar ritonavir ou indinavir, medicamentos usados para tratar as infeções pelo vírus da 
+imunodeficiência humana (VIH). 
+- Se tem mais de 75 anos de idade e está a tomar os medicamentos antifúngicos cetoconazol ou 
+itraconazol. 
+- Se sofre de alguma doença grave do coração ou fígado. 
+- Se está a fazer hemodiálise. 
+- Se teve há pouco tempo um acidente vascular cerebral ou um ataque cardíaco. 
+- Se tem ou teve pressão sanguínea baixa. 
+- Se na sua família existem casos de doenças degenerativas dos olhos (tais como retinite 
+pigmentosa). 
+- Se alguma vez teve uma situação que envolveu perda de visão devido a lesão do nervo ótico 
+causada por fornecimento insuficiente de sangue conhecida como neuropatia ótica isquémica 
+anterior não arterítica (NAION). 
+-<br />
+Se estiver a tomar riociguat. Este fármaco é utilizado para tratar a hipertensão arterial pulmonar 
+(ou seja, pressão sanguínea elevada nos pulmões) e a hipertensão pulmonar tromboembólica 
+crónica (ou seja, pressão sanguínea elevada nos pulmões devido à presença de coágulos). Os 
+inibidores da PDE5, como Levitra, demonstraram aumentar os efeitos hipotensores deste 
+medicamento. Se estiver a tomar riociguat ou se tiver dúvidas, fale com o seu médico. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Levitra. </p>
+<p>Tome especial cuidado com Levitra 
+- Se tem problemas cardíacos. A atividade sexual pode envolver riscos. 
+- Se sofre de batimento irregular do coração (arritmia cardíaca) ou de doenças de coração 
+hereditárias que afetem o seu eletrocardiograma. 
+- Se tem alguma alteração física que afete a forma do pénis. Isto inclui situações chamadas 
+angulação, doença de Peyronie e fibrose cavernosa. 
+- Se sofre de alguma doença que possa causar ereções que não desaparecem (priapismo). Estas 
+doenças incluem a anemia das células falciformes, mieloma múltiplo e leucemia. 
+- Se tem úlceras de estômago (também chamadas úlceras gástricas ou pépticas). 
+- Se sofre de alguma alteração da coagulação sanguínea (como a hemofilia). 
+- Se utiliza qualquer outro tratamento para dificuldades de ereção, incluindo Levitra comprimidos 
+orodispersíveis (ver secção Outros medicamentos e Levitra). 
+- Se tiver diminuição ou perda de visão súbita, pare de tomar Levitra e consulte imediatamente o 
+seu médico. </p>
+<p>Crianças e adolescentes 
+Levitra não se destina a crianças ou adolescentes com menos de 18 anos. </p>
+<p>Outros medicamentos e Levitra 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou vier a tomar 
+outros medicamentos, incluindo medicamentos obtidos sem receita médica. 
+Alguns medicamentos podem causar problemas, em especial os seguintes: 
+- Nitratos, medicamentos para a angina de peito, ou dadores de óxido nítrico, tais como o nitrito 
+de amilo. A utilização destes medicamentos em conjunto com Levitra pode afetar seriamente a 
+sua pressão sanguínea.<br />
+- Medicamentos para o tratamento de arritmias, tais como quinidina, procainamida, amiodarona 
+ou sotalol. 
+- Ritonavir ou indinavir, medicamentos para o VIH.<br />
+- Cetoconazol ou itraconazol, medicamentos antifúngicos. 
+- Eritromicina ou claritromicina, antibióticos macrólidos. 
+- Bloqueadores-alfa, um tipo de medicamento usado para tratar a hipertensão e o aumento da 
+próstata (tal como a hiperplasia benigna da próstata). 
+- Riociguat. </p>
+<p>Não utilize Levitra comprimidos revestidos por película em combinação com qualquer outro 
+tratamento para a disfunção erétil, incluindo Levitra comprimidos orodispersíveis. </p>
+<p>Levitra com alimentos, bebidas e álcool 
+- Pode tomar Levitra com ou sem alimentos mas preferencialmente não após uma refeição pesada 
+ou com muitas gorduras a qual pode atrasar o efeito. 
+- Não beba sumo de toranja ao tomar Levitra. Pode interferir com o efeito usual do medicamento. 
+- As bebidas alcoólicas podem agravar as dificuldades de ereção. </p>
+<p>Gravidez, amamentação e fertilidade 
+Levitra não é para utilizar em mulheres. </p>
+<p>Condução de veículos e utilização de máquinas 
+Em algumas pessoas Levitra pode provocar tonturas ou afetar a visão. Se, após tomar Levitra se sentir 
+tonto ou notar que a visão é afetada, não deve conduzir nem utilizar ferramentas ou máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar levitra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar levitra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. A dose recomendada é 10 mg. </p>
+<p>Tome um comprimido de Levitra cerca de 25 a 60 minutos antes da relação sexual. Com estimulação 
+sexual poderá conseguir uma ereção num intervalo de tempo entre 25 minutos até cerca de quatro a 
+cinco horas após tomar Levitra. 
+- Engula um comprimido com um copo de água. </p>
+<p>Não tome Levitra comprimidos revestidos por película com nenhuma outra forma de Levitra. </p>
+<p>Não tome Levitra mais de uma vez ao dia. </p>
+<p>Fale com o seu médico se tiver a impressão de que Levitra é demasiado forte ou demasiado fraco. Ele 
+poderá sugerir a mudança para uma formulação alternativa de Levitra com uma dose diferente, 
+dependendo da forma como atua em si. </p>
+<p>Se tomar mais Levitra do que deveria 
+Homens que tomem mais Levitra do que o recomendado poderão apresentar mais efeitos indesejáveis 
+ou dores fortes nas costas. Se tomou mais Levitra do que devia diga ao seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. A maior parte dos efeitos são ligeiros ou moderados.  </p>
+<p>Alguns doentes apresentaram perda ou diminuição parcial, súbita, temporária ou permanente da visão, 
+num ou em ambos os olhos. Pare de tomar Levitra e contacte o seu médico imediatamente. 
+Foi descrita diminuição ou perda súbita da audição. </p>
+<p>Foram relatados casos de morte súbita, batimento cardíaco acelerado ou alterado, ataque cardíaco, dor 
+no peito e problemas na circulação cerebral (incluindo fluxo sanguíneo temporariamente diminuído 
+para partes do cérebro e hemorragia cerebral) em homens que tomavam vardenafil. A maioria dos 
+homens que experienciaram estes efeitos indesejáveis tiveram problemas cardíacos antes de tomar este 
+medicamento. Não é possível determinar se estes acontecimentos estavam diretamente relacionados 
+com o vardenafil. </p>
+<p>A possibilidade de ter um efeito secundário está descrita pelas seguintes categorias: </p>
+<p>Muito frequentes: 
+pode afetar mais de 1 em cada 10 utilizadores 
+- Dor de cabeça </p>
+<p>Frequentes: 
+pode afetar até 1 em 10 utilizadores 
+- Tonturas 
+- Vermelhidão 
+- Nariz entupido ou a pingar 
+- Indigestão </p>
+<p>Pouco frequentes: 
+pode afetar até 1 em 100 utilizadores 
+- Inchaço da pele e de mucosas incluindo inchaço da face, lábios ou garganta 
+- Alterações do sono 
+- Dormência e perceção diminuída ao toque 
+- Sonolência 
+- Efeitos na visão, vermelhidão dos olhos, efeitos na visão das cores, dor e desconforto nos olhos, 
+sensibilidade à luz 
+- Zumbido nos ouvidos, vertigens 
+- Batimento cardíaco rápido ou sensação do “coração a bater" 
+- Falta de fôlego 
+- Nariz entupido 
+- Refluxo ácido, gastrite, dor abdominal, diarreia, vómitos, indisposição (náuseas), boca seca 
+- Níveis aumentados de enzimas do fígado no seu sangue 
+- Erupções na pele, pele avermelhada 
+- Dor nas costas ou muscular, aumento no sangue de uma enzima muscular (creatina 
+fosfoquinase), rigidez muscular 
+- Ereções prolongadas 
+- Mal-estar </p>
+<p>Raros: 
+pode afetar até 1 em 1000 utilizadores 
+- Inflamação dos olhos (conjuntivite) 
+- Reação alérgica 
+- Ansiedade 
+- Desmaio 
+- Amnésia 
+- Convulsões 
+- Aumento da pressão no olho (glaucoma), aumento do lacrimejo 
+- Efeitos sobre o coração (tais como ataque cardíaco, batimento cardíaco alterado ou angina) 
+- Pressão sanguínea baixa ou elevada 
+- Hemorragia do nariz 
+- Efeito sobre o resultado de análises ao sangue para testar o funcionamento do fígado 
+-<br />
+Sensibilidade da pele à luz solar 
+-<br />
+Ereções dolorosas 
+- Dor no peito 
+- Diminuição temporária do fluxo sanguíneo para partes do cérebro </p>
+<p>Muito raros ou desconhecidos:<br />
+pode afetar menos de 1 em 10.000 utilizadores ou a frequência não pode ser calculada a partir dos 
+dados disponíveis 
+- Sangue na urina (Hematúria) 
+- Sangramento do pénis (Hemorragia peniana) 
+- Presença de sangue no sémen (Hematospermia) 
+- Morte súbita 
+- Hemorragia cerebral </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar levitra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar levitra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem após “EXP". O prazo 
+de validade corresponde ao último dia do mês indicado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Levitra 
+- A substância ativa é o vardenafil. Cada comprimido contém 5 mg de vardenafil (na forma de 
+cloridrato). 
+- Os outros componentes dos comprimidos são: 
+Núcleo do comprimido: crospovidona, estearato de magnésio, celulose microcristalina, silica 
+coloidal anidra. 
+Película de revestimento: macrogol 400, hipromelose, dióxido de titânio (E171), óxido de ferro 
+amarelo (E172), óxido de ferro vermelho (E172). </p>
+<p>Qual o aspeto de Levitra e conteúdo da embalagem 
+Levitra 5 mg comprimidos revestidos por película são de cor laranja com o símbolo BAYER num dos 
+lados e a dosagem (5) no outro. Os comprimidos são fornecidos em embalagens com blisters contendo 
+2, 4, 8, 12 ou 20 comprimidos. É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Bayer AG 
+51368 Leverkusen 
+Alemanha </p>
+<p>Fabricante 
+Bayer AG 
+Kaiser-Wilhelm-Allee 
+51368 Leverkusen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63 Lietuva 
+UAB Bayer 
+Tel: +370 523 36 България 
+Байер България ЕООД 
+Tел.: +359-(0)2-424 72 Luxembourg/Luxemburg 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63 Česká republika 
+Bayer s.r.o. 
+Tel: +420 266 101 Magyarország 
+Bayer Hungária KFT 
+Tel.: +36 14 87-4Danmark 
+Bayer A/S 
+Tlf: +45 45 23 50 Malta 
+Alfred Gera and Sons Ltd. 
+Tel: +35 621 44 62 Deutschland 
+Jenapharm GmbH &amp; Co. KG 
+Tel: +49 (0)3641-87 97 Nederland 
+Bayer B.V. 
+Tel: +31-(0)23 799 1Eesti 
+Bayer OÜ 
+Tel: +372 655 85 Norge 
+Bayer AS 
+Tlf: +47-23 13 05 Ελλάδα 
+Bayer Ελλάς ΑΒΕΕ 
+Τηλ: +30 210 61 87 Österreich 
+Bayer Austria Ges. m. b. H. 
+Tel: +43-(0)1-711 46-0 
+España 
+Bayer Hispania S.L. 
+Tel: +34-93-495 65 Polska 
+Bayer Sp. z o.o. 
+Tel.: +48 22 572 35 France 
+Bayer HealthCare 
+Tél (N° vert) : +33-(0)800 87 54 Portugal 
+Bayer Portugal, Lda. 
+Tel: +351 21 416 42 Hrvatska 
+Bayer d.o.o. 
+Tel: + 385-(0)1-6599 România 
+SC Bayer SRL. 
+Tel: +40-21-529 59 Ireland 
+Bayer Limited 
+Tel: +353 1 216 3Slovenija 
+Bayer d. o. o. 
+Tel: +386 (0)1 58 14 Ísland 
+Icepharma hf. 
+Sími: +354-540 8Slovenská republika 
+Bayer, spol. s r.o. 
+Tel: +421 2-59 21 31 Italia 
+Bayer S.p.A. 
+Tel: +39 02 397 Suomi/Finland 
+Bayer Oy 
+Puh/Tel: +358-20 785 Κύπρος 
+NOVAGEM Limited 
+Τηλ: +357 22 48 38 Sverige 
+Bayer AB 
+Tel: +46 (0)8 580 223 Latvija 
+SIA Bayer 
+Tel: +371 67 845 United Kingdom (Northern Ireland) 
+Bayer AG<br />
+Tel: +44-(0)118 206 3 
+Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -771,6 +1139,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d6a8f1a1ebaa6583d4e909e9b830debb"
 * entry[0].resource = composition-da-d6a8f1a1ebaa6583d4e909e9b830debb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd6a8f1a1ebaa6583d4e909e9b830debb"
+* entry[=].resource = mpd6a8f1a1ebaa6583d4e909e9b830debb
+                            
+                    
+Instance: bundlepackageleaflet-pt-d6a8f1a1ebaa6583d4e909e9b830debb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for levitra Package Leaflet for language pt"
+Description: "ePI document Bundle for levitra Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d6a8f1a1ebaa6583d4e909e9b830debb"
+* entry[0].resource = composition-pt-d6a8f1a1ebaa6583d4e909e9b830debb
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd6a8f1a1ebaa6583d4e909e9b830debb"
@@ -872,6 +1262,18 @@ RuleSet: d6a8f1a1ebaa6583d4e909e9b830debbListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d6a8f1a1ebaa6583d4e909e9b830debb) // levitra pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

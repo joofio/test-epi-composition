@@ -659,6 +659,350 @@ Ikke anvendt vaccine samt affald heraf skal bortskaffes i henhold til lokale ret
 
 
 
+Instance: composition-pt-dda2c427548650874074bbc49aa90b54
+InstanceOf: CompositionUvEpi
+Title: "Composition for trumenba Package Leaflet"
+Description:  "Composition for trumenba Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpdda2c427548650874074bbc49aa90b54)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - trumenba"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Trumenba e para que é utilizado 
+2. O que precisa de saber antes de Trumenba ser administrado a si ou à sua criança
+3. Como se administra Trumenba 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Trumenba 
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é trumenba e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é trumenba e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trumenba é uma vacina utilizada para a prevenção da doença invasiva meningocócica causada por 
+Neisseria meningitidis do serogrupo B em indivíduos a partir dos 10 anos de idade. Este é um tipo de 
+bactéria que pode causar infeções graves e, por vezes, potencialmente fatais, tais como meningite 
+(inflamação das membranas que revestem o cérebro e a medula espinhal) e sépsis (infeção do sangue).
+A vacina contém 2 componentes importantes da superfície da bactéria. 
+A vacina atua auxiliando o organismo a produzir anticorpos (as defesas naturais do organismo), que o 
+protegem a si ou à sua criança desta doença. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar trumenba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar trumenba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Trumenba não deve ser administrado</h2>
+<p>se tem, ou a sua criança tem, alergia à substância ativa ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). 
+Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes da vacinação com Trumenba. Informe o seu 
+médico, farmacêutico ou enfermeiro se você ou a sua criança:
+
+tem uma infeção grave com febre alta. Se tal se verificar, a vacinação será adiada. Uma infeção 
+ligeira, como uma constipação, não deve levar ao adiamento da vacinação, mas fale primeiro com o 
+seu médico.
+
+tem um problema de coagulação ou faz nódoas negras com facilidade. 
+
+tem um sistema imunitário enfraquecido, que pode impedir que obtenha, ou a sua criança obtenha,
+um benefício completo de Trumenba. 
+
+teve algum problema após qualquer dose de Trumenba, como uma reação alérgica ou dificuldade 
+em respirar.
+27
+Podem ocorrer desmaios, sensação de desmaio ou outras reações relacionadas com stress em resposta 
+a qualquer injeção com agulha. Informe o seu médico, farmacêutico ou enfermeiro se teve reações 
+deste tipo anteriormente. 
+Outros medicamentos e Trumenba
+Informe o seu médico, farmacêutico ou enfermeiro se estiver ou a sua criança estiver a tomar, tiver 
+tomado recentemente, ou se vier a tomar outros medicamentos, ou se lhe tiver sido administrada
+recentemente outra vacina. 
+Trumenba pode ser administrado em simultâneo com qualquer um dos seguintes componentes de 
+vacina: tétano, difteria, tosse convulsa (pertussis), poliomielite, vírus do papiloma humano e 
+meningococo dos serogrupos A, C, W, Y.
+A administração de Trumenba com outras vacinas, que não as acima mencionadas, não foi estudada.
+Se receber mais do que uma vacina ao mesmo tempo, é importante que sejam utilizados locais de 
+injeção diferentes.
+Se estiver a tomar medicamentos que afetem o sistema imunitário (tais como radioterapia, 
+corticosteroides ou alguns tipos de quimioterapia para o cancro), pode não obter um benefício 
+completo de Trumenba.
+Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de lhe ser administrado Trumenba. O seu médico poderá ainda assim recomendar a 
+administração de Trumenba se estiver em risco de contrair doença meningocócica.
+Condução de veículos e utilização de máquinas 
+Os efeitos de Trumenba sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis. 
+No entanto, alguns dos efeitos indesejáveis mencionados na secção 4 “Efeitos indesejáveis possíveis" 
+podem afetá-lo temporariamente. Se isto ocorrer, aguarde até os efeitos desaparecerem antes de 
+conduzir ou utilizar máquinas.
+Trumenba contém sódio
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
+“isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar trumenba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar trumenba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trumenba será administrado a si, ou à sua criança, por um médico, farmacêutico ou enfermeiro. Será 
+injetado no músculo da porção superior do braço. 
+É importante seguir as instruções do médico, farmacêutico ou enfermeiro para que complete, ou a sua 
+criança complete, o esquema de vacinação. 
+Indivíduos a partir dos 10 anos de idade
+- Irá receber, ou a sua criança irá receber, duas injeções da vacina, sendo a segunda injeção 
+administrada 6 meses após a primeira injeção;
+ou
+- Irá receber, ou a sua criança irá receber, duas injeções da vacina administradas com pelo menos 
+um mês de intervalo, e uma terceira injeção pelo menos 4 meses após a segunda injeção. 
+- Poderá receber, ou a sua criança poderá receber, uma dose de reforço.
+28</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todas as vacinas, esta vacina pode causar efeitos indesejáveis, embora estes não se manifestem 
+em todas as pessoas.
+Quando Trumenba for administrado a si, ou à sua criança, podem ocorrer os seguintes efeitos 
+indesejáveis:
+Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas)
+-
+Vermelhidão, inchaço e dor no local de injeção
+-
+Dor de cabeça
+-
+Diarreia 
+-
+Náuseas
+-
+Dor nos músculos 
+-
+Dor nas articulações 
+-
+Arrepios 
+-
+Fadiga
+Frequentes (podem afetar até 1 em cada 10 pessoas) 
+-
+Vómitos
+-
+Febre ≥38°C 
+Desconhecido (não pode ser calculado a partir dos dados disponíveis)
+-
+Reações alérgicas
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não incluídos neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar trumenba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar trumenba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2°C-8°C).
+As seringas devem ser conservadas no frigorífico na posição horizontal para minimizar o tempo de 
+re-dispersão.
+Não congelar. 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Trumenba 
+29
+Uma dose (0,5 ml) contém:
+Substâncias ativas:
+fHbp da subfamília A de Neisseria meningitidis do serogrupo B1,2,3
+60 microgramas
+fHbp da subfamília B de Neisseria meningitidis do serogrupo B1,2,3
+60 microgramas
+1 fHbp (proteína de ligação ao fator H) recombinante lipidada
+2 Produzida em células de Escherichia coli por tecnologia de ADN recombinante
+3 Adsorvida em fosfato de alumínio (0,25 miligramas de alumínio por dose) 
+Outros componentes:
+Cloreto de sódio (ver secção 2 “Trumenba contém sódio"), histidina, água para preparações 
+injetáveis, fosfato de alumínio e polissorbato 80 (E433).
+Qual o aspeto de Trumenba e conteúdo da embalagem
+Trumenba é uma suspensão injetável branca, fornecida numa seringa pré-cheia. 
+Embalagens de 1, 5 e 10 seringas pré-cheias, com ou sem agulhas.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado e Fabricante
+Titular da Autorização de Introdução no 
+Mercado:
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante responsável pela libertação do lote:
+Pfizer Manufacturing Belgium NV
+Rijksweg 12
+2870 Puurs-Sint-Amands
+Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien 
+Luxembourg/Luxemburg
+Pfizer S.A./N.V.
+Tél/Tel: + 32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 52 51 4000
+България
+Пфайзер Люксембург САРЛ, Клон
+България
+Teл.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel: +36 1 488 3700
+Česká republika
+Pfizer, spol. s r.o.
+Tel: + 420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: + 35621 344610
+Danmark
+Pfizer ApS
+Tlf: + 45 44 201 100
+Nederland
+Pfizer BV
+Tel: +31 (0)800 63 34 636
+Deutschland
+Pfizer Pharma GmbH
+Tel: + 49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 526 100
+30
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel.: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: + 43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ.: +30 210 6785 800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Télf:+34914909900
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: (+351) 21 423 55 00
+France
+Pfizer
+Tél +33 1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL Pfizer, podružnica za 
+svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel.: + 386 (0) 1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL
+organizačná zložka
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf
+Sími: + 354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer s.r.l
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Tηλ: +357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: + 371 670 35 775
+Este folheto foi revisto pela última vez em 
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -700,6 +1044,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-dda2c427548650874074bbc49aa90b54"
 * entry[0].resource = composition-da-dda2c427548650874074bbc49aa90b54
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdda2c427548650874074bbc49aa90b54"
+* entry[=].resource = mpdda2c427548650874074bbc49aa90b54
+                            
+                    
+Instance: bundlepackageleaflet-pt-dda2c427548650874074bbc49aa90b54
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trumenba Package Leaflet for language pt"
+Description: "ePI document Bundle for trumenba Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-dda2c427548650874074bbc49aa90b54"
+* entry[0].resource = composition-pt-dda2c427548650874074bbc49aa90b54
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpdda2c427548650874074bbc49aa90b54"
@@ -801,6 +1167,18 @@ RuleSet: dda2c427548650874074bbc49aa90b54ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-dda2c427548650874074bbc49aa90b54) // trumenba pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

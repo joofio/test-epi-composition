@@ -1001,6 +1001,498 @@ vigtighed, når der skiftes laboratorium og/eller ændres på de reagenser, der 
 
 
 
+Instance: composition-pt-5499c94597b7b7823625dbbed61c998f
+InstanceOf: CompositionUvEpi
+Title: "Composition for idelvion Package Leaflet"
+Description:  "Composition for idelvion Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5499c94597b7b7823625dbbed61c998f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - idelvion"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é IDELVION e para que é utilizado
+2. O que precisa de saber antes de utilizar IDELVION
+3. Como utilizar IDELVION
+4. Efeitos indesejáveis possíveis
+5. Como conservar IDELVION
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é idelvion e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é idelvion e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é IDELVION?
+IDELVION é um medicamento para a hemofilia que substitui o fator IX da coagulação (coagulante)
+que existe naturalmente no sangue. A substância ativa do IDELVION é albutrepenonacog alfa (fator 
+IX da coagulação recombinante ligado à albumina através de uma proteína de fusão (rIX-FP)) . 
+O fator IX está envolvido na coagulação do sangue. Os doentes com hemofilia B têm falta deste fator, 
+o que significa que o seu sangue não coagula tão rapidamente como deveria, pelo que existe um 
+aumento da tendência para hemorragias. IDELVION atua substituindo o fator IX em doentes com
+hemofilia B, de forma a permitir a coagulação do seu sangue.
+Para que é utilizado IDELVION?
+IDELVION é usado para prevenir ou estancar hemorragias provocadas pela deficiência de fator IX em
+doentes de todas as faixas etárias com hemofilia B (também chamada deficiência congénita de fator IX 
+ou doença de Christmas).</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar idelvion"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar idelvion"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NÃO utilize IDELVION
+
+Se tem alergia à substância ativa (albutrepenonacog alfa) ou a qualquer outro componente deste 
+medicamento (indicados na secção 6).
+
+Se tem alergia às proteínas de hamster.
+Advertências e precauções
+44
+É fortemente recomendado que sempre que utilizar IDELVION registe o nome e o número do lote do 
+produto para manter um registo dos produtos e dos lotes dos produtos que utilizou.
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar IDELVION.
+
+É possível que ocorram reações alérgicas (hipersensibilidade). O produto contém vestígios de 
+proteínas de hamster (ver também “Não utilize IDELVION"). Se ocorrerem sintomas de 
+reações alérgicas, deverá interromper imediatamente a utilização do medicamento e 
+contactar o seu médico ou o centro de tratamento onde está a ser acompanhado. O seu 
+médico deverá informá-lo acerca dos sinais iniciais das reações de hipersensibilidade. Estes 
+incluem urticária, erupções generalizadas na pele, aperto no peito, respiração ruidosa, pressão 
+arterial baixa (hipotensão) e anafilaxia (uma reação alérgica grave que provoca grave
+dificuldade em respirar ou tonturas). 
+
+Devido ao risco de reações alérgicas com fator IX, a sua administração inicial de IDELVION 
+deve ser efetuada sob observação médica, num local onde pode ser proporcionado tratamento 
+médico apropriado para reações alérgicas. 
+
+A formação de inibidores (anticorpos neutralizantes) é uma complicação conhecida que tem 
+sido notificada durante o tratamento com IDELVION. Os inibidores impedem que o tratamento
+atue adequadamente. Caso a sua hemorragia não esteja a ser controlada com IDELVION, 
+informe imediatamente o seu médico. Deverá ser regularmente monitorizado relativamente ao
+desenvolvimento de inibidores. 
+
+Se sofre de uma doença do coração ou do fígado ou se foi recentemente submetido a uma 
+grande cirurgia, por favor informe o seu médico, pois existe um aumento do risco de 
+complicações da coagulação do sangue.
+
+Se necessitar de um dispositivo de acesso venoso central (DAVC para a injeção de 
+IDELVION), o seu médico deverá ter em consideração o risco de complicações, incluindo 
+infeções locais, bactérias no sangue (bacteremia) e a formação de um coágulo de sangue no vaso
+sanguíneo (trombose) em que o catéter se encontra inserido.
+Outros medicamentos e IDELVION
+
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier 
+a tomar outros medicamentos.
+Gravidez e amamentação
+
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico ou farmacêutico antes de utilizar este medicamento.
+
+IDELVION só deverá ser administrado durante a gravidez e a amamentação se estiver 
+claramente indicado.
+Condução de veículos e utilização de máquinas
+IDELVION não afeta a sua capacidade de conduzir e utilizar máquinas. 
+IDELVION contém sódio
+Este medicamento contém até 8,6 mg de sódio (principal componente de sal de cozinha/sal de mesa) 
+em cada frasco para injetáveis. Isto é equivalente a 0,4% da ingestão diária máxima de sódio 
+recomendada na dieta para um adulto.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar idelvion"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar idelvion"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu tratamento deve ser iniciado e monitorizado por um médico com experiência no tratamento de 
+alterações da coagulação sanguínea.
+Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas.
+45
+O seu médico calculará a dose de IDELVION de que necessita. A quantidade de IDELVION que 
+necessita de utilizar e a duração do tratamento, dependem:
+
+da gravidade da sua doença
+
+do local e da intensidade da hemorragia
+
+do seu estado clínico e da sua resposta
+
+do seu peso corporal
+IDELVION é administrado pelo seu médico ou enfermeiro através de uma injeção numa veia 
+(intravenosa, IV) após reconstituição do pó com o solvente fornecido. Você ou outra pessoa poderão 
+também administrar IDELVION através de uma injeção IV mas apenas após receberem a formação 
+adequada.
+Se utilizar mais IDELVION do que deveria
+Por favor contacte imediatamente o seu médico se injetou mais IDELVION do que o recomendado 
+pelo seu médico.
+Se parar de utilizar IDELVION
+Não pare de utilizar IDELVION sem consultar o seu médico.
+Reconstituição e administração
+Instruções gerais:
+
+O pó tem de ser misturado com o solvente (líquido) e retirado do frasco para injetáveis 
+mantendo o medicamento estéril (isento de germes). O seu médico indicar-lhe-á como preparar 
+a solução e retirar corretamente a solução do frasco para injetáveis.
+
+IDELVION não pode ser misturado com outros medicamentos ou solventes, exceto os 
+mencionados na secção 6. 
+A solução deve ser límpida ou ligeiramente opalescente, amarela ou incolor, ou seja, pode 
+brilhar quando colocada contra a luz mas não deve conter partículas óbvias. Após filtração ou 
+transferência (ver abaixo) a solução deve ser visualmente inspecionada antes sua utilização. Não 
+utilize soluções turvas ou que contenham flocos ou partículas.
+
+Qualquer medicamento não utilizado ou resíduos devem ser eliminados de acordo com as 
+exigências locais e conforme indicado pelo seu médico.
+Reconstituição
+Sem abrir os frascos para injetáveis, aqueça o pó do IDELVION e o líquido até atingir a temperatura 
+ambiente ou a temperatura do corpo. Tal pode ser efetuado deixando os frascos para injetáveis à 
+temperatura ambiente durante cerca de uma hora ou segurando-os nas mãos durante alguns minutos.
+NÃO exponha os frascos para injetáveis diretamente a uma fonte de calor. Os frascos para injetáveis 
+não devem ser aquecidos acima da temperatura do corpo (37ºC).
+Retire cuidadosamente as cápsulas de fecho de proteção dos frascos para injetáveis e limpe as tampas 
+de borracha com um toalhete de álcool. Deixe secar os frascos para injetáveis antes de abrir a 
+embalagem do Mix2Vial (que contém o dispositivo de transferência com filtro) e depois siga as 
+instruções apresentadas em seguida.
+1
+1. Abra o Mix2Vial descolando e retirando a aba. 
+Não retire o Mix2Vial da embalagem do blister!
+46
+2
+2. Coloque o frasco para injetáveis do solvente
+sobre uma superfície lisa e limpa e agarre-o com 
+firmeza. Segure no Mix2Vial em conjunto com a 
+embalagem do blister e, empurrando para baixo, 
+insira a extremidade azul através da tampa do 
+frasco para injetáveis do solvente.
+3
+3. Retire cuidadosamente a embalagem do blister 
+do Mix2Vial segurando na borda e puxando para 
+cima na vertical. Certifique-se que puxa apenas a 
+embalagem do blister e não o sistema Mix2Vial.
+4
+4. Coloque o frasco para injetáveis de 
+IDELVION sobre uma superfície lisa e firme. 
+Inverta o frasco para injetáveis do solvente com o 
+sistema Mix2Vial acoplado e, empurrando para 
+baixo, insira o adaptador transparente através da 
+tampa do frasco para injetáveis de IDELVION. O 
+solvente será automaticamente transferido para o 
+frasco para injetáveis de IDELVION.
+5
+5. Com uma das mãos segure a parte do sistema 
+Mix2Vial acoplada ao frasco para injetáveis de 
+IDELVION, com a outra mão segure a parte 
+acoplada ao frasco para injetáveis do solvente e 
+cuidadosamente desenrosque o sistema no sentido 
+contrário ao dos ponteiros do relógio separando-o 
+em duas peças.
+Rejeite o frasco para injetáveis do solvente com o 
+adaptador azul do Mix2Vial acoplado.
+6
+6. Rode suavemente o frasco para injetáveis de 
+IDELVIONcom o adaptador transparente 
+acoplado até que a substância esteja 
+completamente dissolvida. Não agite. 
+7
+7. Insira ar numa seringa estéril vazia. Mantendo o 
+frasco para injetáveis de IDELVIONna vertical, 
+virado para cima, adapte a seringa à extremidade 
+Luer Lock do Mix2Vial enroscando no sentido 
+dos ponteiros do relógio. Injete ar no frasco para 
+injetáveis de IDELVION.
+Transferência da solução e administração
+47
+8
+8. Mantendo o êmbolo da seringa pressionado, 
+vire o sistema para baixo e aspire a solução 
+preparada para a seringa puxando o êmbolo 
+devagar para trás. 
+9
+9. Uma vez transferida a solução para a seringa, 
+segure com firmeza no corpo da seringa 
+(mantendo o êmbolo da seringa virado para baixo) 
+e retire o adaptador transparente do Mix2Vial da 
+seringa desenroscando no sentido contrário ao dos 
+ponteiros do relógio.
+Utilize o sistema de venopunção fornecido com o produto, insira a agulha numa veia. Deixe que o 
+fluxo de sangue retorne para o final do tubo. Adapte a seringa na extremidade com rosca do sistema de 
+venopunção. Injete lentamente (conforme seja confortável para si, até um máximo de 5 ml/min) a 
+solução reconstituída na veia, seguindo as instruções que lhe foram dadas pelo seu médico. Tome 
+cuidado para não deixar entrar sangue na seringa que contém o produto
+Esteja atento para detetar quaisquer efeitos indesejáveis que possam surgir imediatamente. Se tiver 
+quaisquer efeitos indesejáveis que possam estar relacionados com a administração de IDELVION, 
+deve parar imediatamente a injeção (ver também as secções 2 e 4).
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. 
+Por favor contacte o seu médico imediatamente:
+
+se sentir sintomas de reações alérgicas (ver abaixo) 
+
+se sentir que o medicamento deixou de atuar adequadamente
+Os seguintes efeitos indesejáveis têm sido observados com medicamentos de fator IX:
+
+É possível que ocorram reações de hipersensibilidade de tipo alérgico (frequentemente) que 
+podem incluir os seguintes sintomas: urticária, erupções na pele (urticária generalizada), aperto 
+no peito, respiração ruidosa, pressão arterial baixa (hipotensão) e anafilaxia (uma reação grave 
+que provoca grave dificuldade em respirar ou tonturas). Se tal acontecer, deverá deixar de 
+utilizar imediatamente o medicamento e contactar o seu médico. 
+
+Inibidores: o medicamento deixa de atuar adequadamente (hemorragia contínua). Poderá 
+desenvolver um inibidor (anticorpo neutralizante) do fator IX (frequência desconhecida) e neste 
+caso o fator IX deixará de atuar adequadamente. Se tal acontecer, deverá deixar de utilizar 
+imediatamente o medicamento e contactar o seu médico. 
+Os seguintes efeitos indesejáveis foram frequentemente observados com IDELVION (podem afetar
+até 1 em 10 pessoas):
+
+Dores de cabeça
+48
+
+Reações no local da injeção
+
+Tonturas
+
+Rash cutâneo (erupções na pele)
+Os seguintes efeitos indesejáveis ocorreram pouco frequentemente (podem afetar até 1 em pessoas):
+
+Eczema
+
+Efeitos indesejáveis em crianças e adolescentes
+Espera-se que os efeitos indesejáveis em crianças sejam os mesmos que nos adultos. 
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar idelvion"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar idelvion"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Manter este medicamento fora da vista e do alcance das crianças.
+
+Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem 
+exterior.
+
+Não conservar acima de 25 °C.
+
+Não congelar.
+
+Manter o frasco para injetáveis na embalagem exterior para proteger da luz.
+
+O produto reconstituído deve, de preferência, ser imediatamente utilizado.
+
+Se o produto reconstituído não for imediatamente utilizado, os tempos de conservação e as 
+condições antes da utilização são da responsabilidade do utilizador.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de IDELVION
+A substância ativa é:
+250 UI por frasco para injetáveis; após reconstituição com 2,5 ml de água para preparações injetáveis a 
+solução contém 100 UI/ml de albutrepenonacog alfa.
+500 UI por frasco para injetáveis; após reconstituição com 2,5 ml de água para preparações injetáveis a 
+solução contém 200 UI/ml de albutrepenonacog alfa.
+1000 UI por frasco para injetáveis; após reconstituição com 2,5 ml de água para preparações injetáveis 
+a solução contém 400 UI/ml de albutrepenonacog alfa.
+2000 UI por frasco para injetáveis; após reconstituição com 5 ml de água para preparações injetáveis a 
+solução contém 400 UI/ml de albutrepenonacog alfa.
+3500 UI por frasco para injetáveis; após reconstituição com 5 ml de água para preparações injetáveis a 
+solução contém 700 UI/ml de albutrepenonacog alfa.
+Os outros componentes são:
+Citrato de sódio, polissorbato 80, manitol, sacarose e ácido clorídrico (para ajuste do pH)
+Ver último parágrafo da secção 2. Solvente: Água para preparações injetáveis.
+Qual o aspeto de IDELVION e conteúdo da embalagem
+49
+IDELVION apresenta-se sob a forma de um pó amarelo pálido ou branco e é fornecido com água para 
+preparações injetáveis como solvente.
+A solução reconstituída deve ser límpida ou ligeiramente opalescente, amarela ou incolor, ou seja, 
+pode brilhar quando colocada contra a luz mas não deve conter partículas óbvias.
+Apresentações
+Uma embalagem com 250, 500 ou 1000 UI contendo:
+1 frasco para injetáveis com o pó
+1 frasco para injetáveis com 2,5 ml de água para preparações injetáveis
+1 dispositivo de transferência com filtro 20/20
+Uma caixa no interior contendo:
+1 seringa descartável de 5 ml 
+1 sistema de venopunção
+2 toalhetes de álcool
+1 penso rápido não estéril
+Uma embalagem com 2000 UI ou 3500 UI contendo:
+1 frasco para injetáveis com o pó
+1 frasco para injetáveis com 5 ml de água para preparações injetáveis
+1 dispositivo de transferência com filtro 20/20
+Uma caixa no interior contendo:
+1 seringa descartável de 10 ml 
+1 sistema de venopunção
+2 toalhetes de álcool
+1 penso rápido não estéril
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado e Fabricante
+CSL Behring GmbH
+Emil-von-Behring-Strasse 76
+35041 Marburg
+Alemanha
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+Lietuva
+CentralPharma Communications UAB
+Tel: +370 5 243 0444
+България
+МагнаФарм България ЕАД
+Тел: +359 2 810 3949
+Luxembourg/Luxemburg
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+Česká republika
+CSL Behring s.r.o.
+Tel: + 420 702 137 233
+Magyarország
+CSL Behring Kft.
+Tel.: +36 1 213 4290
+Danmark
+CSL Behring AB
+Tel: +46 8 544 966 70
+Malta
+AM Mangion Ltd.
+Tel: +356 2397 6333
+Deutschland
+Nederland
+50
+CSL Behring GmbH
+Tel: +49 69 30584437
+CSL Behring BV
+Tel: + 31 85 111 96 00
+Eesti
+CentralPharma Communications OÜ 
+Tel: +3726015540
+Norge
+CSL Behring AB
+Tlf: +46 8 544 966 70
+Ελλάδα
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+Österreich
+CSL Behring GmbH
+Tel: +43 1 80101 2463
+España
+CSL Behring S.A.
+Tel: +34 933 67 1870
+Polska
+CSL Behring Sp.z o.o.
+Tel: +48 22 213 22 65
+France
+CSL Behring S.A.
+Tél: + 33 -(0)-1 53 58 54 00
+Portugal
+CSL Behring Lda
+Tel: +351 21 782 62 30
+Hrvatska 
+Marti Farm d.o.o.
+Tel: +385 1 5588297
+România
+Prisum Healthcare srl
+Tel: +40 21 322 0171
+Ireland
+CSL Behring GmbH
+Tel: +49 69 30517254
+Slovenija
+NEOX s.r.o.-podružnica v Sloveniji 
+Tel: + 386 41 42 0002
+Ísland
+CSL Behring AB
+Sími: +46 8 544 966 70
+Slovenská republika
+CSL Behring s.r.o.
+Tel: + 421 911 653 862
+Italia
+CSL Behring S.p.A.
+Tel: +39 02 34964 200
+Suomi/Finland
+CSL Behring AB
+Puh/Tel: +46 8 544 966 70
+Κύπρος
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+Sverige
+CSL Behring AB
+Tel: +46 8 544 966 70
+Latvija
+CentralPharma Communications SIA 
+Tel: +371 6 7450497
+United Kingdom (Northern Ireland)
+CSL Behring GmbH
+Tel: +49 69 305 17254
+Este folheto foi revisto pela última vez em MM/AAAA.
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1042,6 +1534,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5499c94597b7b7823625dbbed61c998f"
 * entry[0].resource = composition-da-5499c94597b7b7823625dbbed61c998f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5499c94597b7b7823625dbbed61c998f"
+* entry[=].resource = mp5499c94597b7b7823625dbbed61c998f
+                            
+                    
+Instance: bundlepackageleaflet-pt-5499c94597b7b7823625dbbed61c998f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for idelvion Package Leaflet for language pt"
+Description: "ePI document Bundle for idelvion Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5499c94597b7b7823625dbbed61c998f"
+* entry[0].resource = composition-pt-5499c94597b7b7823625dbbed61c998f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5499c94597b7b7823625dbbed61c998f"
@@ -1143,6 +1657,18 @@ RuleSet: 5499c94597b7b7823625dbbed61c998fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5499c94597b7b7823625dbbed61c998f) // idelvion pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

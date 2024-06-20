@@ -942,6 +942,509 @@ og om, hvordan de behandles. </p>         </div>"""
 
 
 
+Instance: composition-pt-75a506f08e3ae1e41989ef75918dcae1
+InstanceOf: CompositionUvEpi
+Title: "Composition for epidyolex Package Leaflet"
+Description:  "Composition for epidyolex Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp75a506f08e3ae1e41989ef75918dcae1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - epidyolex"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Epidyolex e para que é utilizado  </li>
+<li>O que você ou o doente precisa de saber antes de tomar Epidyolex.  </li>
+<li>Como tomar ou como o doente deve tomar Epidyolex.  </li>
+<li>Efeitos indesejáveis possíveis.  </li>
+<li>Como conservar Epidyolex. </li>
+<li>Conteúdo da embalagem e outras informações. </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é epidyolex e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é epidyolex e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Epidyolex contém canabidiol, um medicamento que pode ser usado para tratar epilepsia, uma doença 
+em que a pessoa tem crises ou ataques. </p>
+<p>O Epidyolex é usado em combinação com clobazam ou com clobazam e outros medicamentos 
+antiepiléticos para tratar crises que ocorrem com duas doenças raras, designadas de síndrome de 
+Dravet e síndrome de Lennox-Gastaut. Pode ser usado em adultos, adolescentes e crianças com pelo 
+menos 2 anos de idade.  </p>
+<p>O Epidyolex é também usado em combinação com outros medicamentos antiepiléticos para o 
+tratamento de convulsões que ocorrem com uma perturbação genética que se designa por complexo de 
+esclerose tuberosa (CET). Pode ser usado em adultos, adolescentes e crianças com pelo menos 2 anos 
+de idade.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar epidyolex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar epidyolex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Epidyolex 
+- se tem alergia ao canabidiol ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se o seu médico determinar que tem resultados alterados das suas análises de sangue ao fígado. </p>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Epidyolex e durante o tratamento: 
+- se tiver ou tiver tido problemas de fígado, pois o seu médico pode ter de alterar a dose de 
+Epidyolex ou pode decidir que o Epidyolex não é adequado para si. 
+O seu médico pode fazer análises ao sangue para verificar o seu fígado antes de começar a 
+tomar este medicamento e durante o tratamento, pois o Epidyolex pode provocar problemas de 
+fígado. Se o seu fígado não estiver a funcionar corretamente, o seu tratamento pode ter de ser 
+interrompido. 
+- se observar alterações anormais no seu humor ou comportamento ou se tiver pensamentos em 
+magoar-se ou em suicidar-se. Contacte o seu médico ou desloque-se imediatamente a um 
+hospital (ver secção 4). 
+- Epidyolex pode provocar sonolência. Não conduza, opere máquinas ou participe em atividades 
+que exijam que esteja em alerta e tenha pleno controlo, como andar de bicicleta, até saber de 
+que forma o Epidyolex o afeta. 
+- se deixar de tomar Epidyolex de repente. 
+- se as crises ocorrerem com maior frequência, ou se tiver uma convulsão grave enquanto estiver 
+a tomar Epidyolex. Contacte o seu médico ou desloque-se imediatamente a um hospital. 
+- se tiver perda de peso ou não conseguir ganhar peso. O seu médico irá monitorizar o seu peso e 
+irá avaliar se o tratamento com Epidyolex deverá ser continuado. </p>
+<p>Crianças e adolescentes 
+Epidyolex não é recomendado para utilização em crianças com menos de 2 anos. </p>
+<p>Outros medicamentos e Epidyolex 
+Informe o seu médico ou farmacêutico se estiver a tomar, tomou recentemente ou se vier a tomar 
+outros medicamentos. Tomar Epidyolex com determinados medicamentos pode provocar efeitos 
+indesejáveis, afetar a forma como os outros medicamentos atuam ou afetar a forma como o Epidyolex 
+atua. Não inicie ou pare outros medicamentos sem falar com o seu médico ou farmacêutico. 
+Informe o seu médico caso esteja a tomar qualquer um dos seguintes medicamentos, pois a sua dose 
+pode ter de ser ajustada: 
+- outros medicamentos para a epilepsia, como carbamazepina, clobazam, lamotrigina, lorazepam, 
+fenitoína, estiripentol e valproato que são usados para tratar as crises<br />
+- outros medicamentos usados para tratar CET, incluindo everolímus e tacrolímus 
+- medicamentos usados para tratar o refluxo ácido (azia ou regurgitação ácida) como o omeprazol 
+- mitotano (um medicamento usado para tratar tumores na glândula adrenal) 
+- morfina ou diflunisal (medicamentos usados para a dor) 
+- efavirenz (um medicamento para tratar o VIH/SIDA) 
+- teofilina (um medicamento usado para tratar a asma) 
+- cafeína (um medicamento para bebés que precisam de ajuda para respirar) 
+- propofol (um anestésico usado para pessoas que são submetidas a cirurgia) 
+- sinvastatina, fenofibrato, gemfibrozil, (medicamentos usados para reduzir o colesterol/lípidos) 
+- enzalutamida (um medicamento para tratar o cancro de próstata) 
+- bupropiona (um medicamento para ajudar a deixar de fumar ou para tratar a obesidade) 
+- hipericão (Hypericum perforatum) (um medicamento de ervanária usado para tratar a ansiedade 
+ligeira) 
+- medicamentos para tratar infeções bacterianas, como rifampina, claritromicina e eritromicina </p>
+<p>Epidyolex com alimentos 
+Tome sempre o Epidyolex de acordo com as indicações do seu médico e de forma consistente, quer 
+com ou sem alimentos, incluindo refeições ricas em gorduras (como a dieta cetogénica). Se tomar 
+Epidyolex com alimentos, deverá ser tomado um tipo de refeição (por exemplo, teor de gordura 
+semelhante). (Ver também secção 3, Como tomar Epidyolex). </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida, pensa estar grávida ou planeia engravidar, consulte o seu médico ou farmacêutico 
+antes de utilizar este medicamento. Não deverá tomar Epidyolex enquanto estiver grávida exceto 
+quando o médico decidir que os benefícios são superiores aos possíveis riscos. 
+Não deverá amamentar enquanto estiver a tomar Epidyolex, pois é provável que o Epidyolex esteja 
+presente no leite materno. </p>
+<p>Condução de veículos e utilização de máquinas 
+Fale com o seu médico acerca da condução, utilização de máquinas ou quando as crianças realizam 
+atividades como andar de bicicleta ou outros desportos, pois pode sentir sonolência depois de tomar 
+este medicamento. 
+Não deverá conduzir, utilizar máquinas ou participar em atividades que exijam que esteja em estado de 
+alerta e tenha pleno controlo, até ser estabelecido que a sua capacidade em realizar estas atividades não 
+está afetada.  </p>
+<p>Epidyolex contém óleo de sésamo refinado, álcool (etanol), componentes de aromatizante de 
+morango (incluindo álcool benzílico). 
+Epidyolex contém óleo de sésamo refinado que pode, raramente, provocar reações alérgicas graves. </p>
+<p>Cada ml de Epidyolex contém 79 mg de etanol, equivalente a 10% v/v de etanol anidro, isto é, até 
+691,3 mg de etanol/por dose única máxima de Epidyolex (12,5 mg/kg), para um adulto que pese 70 kg 
+(9,9 mg de etanol/kg). Para um adulto que pese 70 kg, isto é equivalente a 17 mililitros (ml) de cerveja 
+ou 7 ml de vinho por dose. </p>
+<p>Este medicamento contém 0,0003 mg/ml de álcool benzílico, correspondendo a 0,0026 mg por dose 
+máxima de Epidyolex (Epidyolex 12,5 mg/kg por dose (CET) para um adulto que pese 70 kg). O 
+álcool benzílico poderá provocar reações alérgicas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar epidyolex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar epidyolex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.  </p>
+<p>Epidyolex é uma solução oral (um líquido para ser engolido). O seu médico e farmacêutico irão 
+indicar-lhe a quantidade (número de ml) de Epidyolex a tomar por dia, quantas vezes por dia deverá 
+tomar e qual a seringa que deverá usar para a sua dose (1 ml ou 5 ml). </p>
+<p>O seu médico irá calcular a dose de acordo com o seu peso corporal. Pode iniciar numa dose baixa que 
+o seu médico irá aumentar gradualmente ao longo do tempo. Contacte o seu médico caso não tenha a 
+certeza da sua dose ou se considerar que a sua dose pode ter de ser alterada. </p>
+<p>A toma de Epidyolex com alimentos pode aumentar a quantidade de medicamento que o seu corpo 
+assimila. Deverá tentar, na medida do possível, tomar o Epidyolex de forma consistente quer com ou 
+sem alimentos e de acordo com a sua rotina diária, para que tenha sempre o mesmo efeito. Se tomar 
+Epidyolex com alimentos, deverá ser tomado um tipo de refeição (por exemplo, teor de gordura 
+semelhante). </p>
+<p>Caso necessário, o Epidyolex pode ser tomado por tubo nasogástrico ou de gastrostomia. O seu 
+médico dar-lhe-á indicações sobre como o fazer. Consulte o seu médico ou farmacêutico caso tenha 
+dúvidas. </p>
+<p>Informe o seu médico caso tenha problemas de fígado pois o médico pode ter de ajustar a dose. </p>
+<p>Não reduza a dose ou deixe de tomar este medicamento exceto com indicação do seu médico. </p>
+<p>Instruções para a utilização oral de Epidyolex </p>
+<p>A embalagem de 1 frasco contém os seguintes itens: </p>
+<ul>
+<li>
+<p>frasco da solução oral de Epidyolex </p>
+</li>
+<li>
+<p>um saco de plástico contendo duas seringas para uso oral de 1 ml e um adaptador do frasco </p>
+</li>
+<li>
+<p>um saco de plástico contendo duas seringas para uso oral de 5 ml e um adaptador do frasco </p>
+</li>
+</ul>
+<p>A embalagem de 3 frascos contém os seguintes itens: </p>
+<ul>
+<li>
+<p>três frascos da solução oral de Epidyolex </p>
+</li>
+<li>
+<p>um saco de plástico contendo duas seringas para uso oral de 1 ml e um adaptador do frasco </p>
+</li>
+<li>
+<p>um saco de plástico contendo duas seringas para uso oral de 5 ml e dois adaptadores do frasco </p>
+</li>
+</ul>
+<p>É fornecida uma seringa suplente de cada tamanho na embalagem, em caso de a primeira ser 
+danificada ou perdida. No caso da embalagem de 3 frascos, são necessários os três adaptadores dos 
+dois conjuntos de seringas. </p>
+<p>A imagem acima é meramente ilustrativa. </p>
+<ol>
+<li>
+<p>Abra o saco contendo a seringa para uso oral correta para medir a sua dose. </p>
+</li>
+<li>
+<p>Se a sua dose é 1 ml (100 mg) ou menos, deverá usar a seringa mais pequena de 1 ml. </p>
+</li>
+<li>
+<p>Se a sua dose é mais de 1 ml (100 mg), deverá usar a seringa maior de 5 ml. </p>
+</li>
+<li>
+<p>Se a sua dose é mais de 5 ml (500 mg), deverá usar a seringa maior de 5 ml mais do que 
+uma vez. Neste caso, tenha atenção ao número de vezes que enche a seringa (por exemplo, 
+marcando cada dose de 5 ml, respetivamente), para que tome a dose certa. </p>
+</li>
+</ol>
+<p>É importante que use a seringa para uso oral correta para medir a sua dose. O seu médico ou 
+farmacêutico irá informar que seringa deverá usar dependendo da dose que lhe é prescrita. 
+Seguindo as indicações do médico ou farmacêutico, o saco que contém as outras seringas e 
+adaptador deverão ser retiradas da embalagem, exceto quando o seu médico ou farmacêutico lhe 
+disser para manter ambas as seringas até ser atingida a dose final. Se lhe for prescrita a embalagem 
+de 3 frascos, os três adaptadores de frasco devem ser conservados. </p>
+<ol>
+<li>
+<p>Retire a tampa resistente a abertura por 
+crianças do frasco, pressionando a tampa 
+para baixo, enquanto roda a tampa no 
+sentido contrário ao dos ponteiros do 
+relógio. </p>
+</li>
+<li>
+<p>Pressione firmemente o adaptador do 
+frasco no gargalo do frasco e 
+certifique-se de que está totalmente 
+inserido. O adaptador pode sair e 
+provocar entupimento caso não esteja 
+totalmente inserido. </p>
+</li>
+<li>
+<p>Insira a ponta da seringa para uso oral 
+correta totalmente no adaptador do frasco 
+e, com a seringa para uso oral no lugar, 
+vire o frasco ao contrário. </p>
+</li>
+<li>
+<p>Puxe lentamente o êmbolo da seringa, 
+para que o volume (número de ml) 
+necessário da solução seja retirado para a 
+seringa. Alinhe a extremidade do êmbolo 
+com a marca de volume exigida, 
+conforme mostrado. </p>
+</li>
+</ol>
+<p>Caso exista uma bolha de ar na seringa, 
+pressione novamente o líquido para o 
+frasco, mantendo o frasco para baixo, e 
+repita o Passo 5 até que a bolha 
+desapareça. </p>
+<ol>
+<li>
+<p>Vire o frasco para cima e retire 
+cuidadosamente a seringa para uso oral 
+do adaptador. </p>
+</li>
+<li>
+<p>Coloque a ponta da seringa para uso oral 
+na bochecha e pressione suavemente o 
+êmbolo para libertar o medicamento. Não 
+pressione o êmbolo com força nem 
+direcione o medicamento para a parte de 
+trás da boca ou garganta. </p>
+</li>
+</ol>
+<p>Se a dose for mais de 5 ml, repita os 
+Passos 4 a 7 para administrar a dose 
+restante, usando a seringa para uso oral 
+de 5 ml. </p>
+<ol>
+<li>
+<p>Enrosque nova e firmemente a tampa 
+resistente a abertura por crianças no 
+frasco, rodando a tampa no sentido dos 
+ponteiros do relógio - não precisa de 
+remover o adaptador do frasco, pois a 
+tampa ficará sobre o mesmo. </p>
+</li>
+<li>
+<p>Encha um copo com água quente com 
+sabão e limpe a seringa para uso oral, 
+retirando e tirando água usando o 
+êmbolo.  </p>
+</li>
+<li>
+<p>Retire o êmbolo do corpo da seringa e 
+enxague ambas as peças em água 
+corrente. Não coloque a seringa para uso 
+oral numa máquina de lavar louça. </p>
+</li>
+</ol>
+<p>Retire os restos de água de ambas as 
+peças e permita que sequem ao ar até à 
+utilização seguinte. Certifique-se de que 
+a seringa para uso oral está 
+completamente seca antes da utilização 
+seguinte, caso contrário, poderá fazer 
+com que a solução pareça turva caso a 
+água entre no frasco. </p>
+<p>Se a solução no frasco ficar turva, tal não 
+irá alterar a sua forma de atuação. 
+Continue a usar normalmente o 
+medicamento. </p>
+<p>Se você ou o seu doente tomar mais Epidyolex do que deveria 
+Caso tenha tomado mais Epidyolex do que deveria, informe imediatamente um médico ou 
+farmacêutico ou contacte o serviço de urgências do hospital mais próximo e leve o medicamento 
+consigo. 
+Os sinais devido a ter tomado mais Epidyolex do que deveria incluem diarreia e sonolência.<br />
+Caso você ou o seu doente se tenha esquecido de tomar Epidyolex 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Tome a dose 
+seguinte à hora habitual. Se falhar muitas doses, fale com o seu médico sobre a dose correta a tomar. 
+Se você ou o seu doente parar de tomar Epidyolex 
+Não reduza a dose ou pare de tomar Epidyolex sem falar primeiro com o seu médico. O médico irá 
+explicar-lhe como reduzir gradualmente a toma de Epidyolex. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis seguintes podem ser muito graves: </p>
+<ul>
+<li>Em doentes a tomar Epidyolex, foram observados níveis elevados das enzimas do fígado 
+(elevações de transaminases) nas análises ao sangue, que podem ser um sinal de lesão no fígado </li>
+<li>As pessoas a tomar este medicamento podem ter pensamentos de automutilação (magoar-se a si 
+próprio) ou suicidas. Caso tenha, em qualquer altura, estes pensamentos, contacte o seu médico </li>
+</ul>
+<p>Pode observar os seguintes efeitos indesejáveis com este medicamento. Informe o seu médico caso 
+tenha qualquer um dos seguintes: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais do que 1 em 10 pessoas): </p>
+<ul>
+<li>tonturas ou sonolência  </li>
+<li>diarreia </li>
+<li>apetite diminuído </li>
+<li>febre  </li>
+<li>vómitos </li>
+<li>sensação de cansaço </li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar mais do que 1 em 100 pessoas): </p>
+<ul>
+<li>análises ao sangue que relevem aumentos nos níveis de determinadas enzimas do fígado  </li>
+<li>convulsões </li>
+<li>mau humor (irritabilidade, agressividade) </li>
+<li>erupção na pele </li>
+<li>falta de energia  </li>
+<li>tosse </li>
+<li>pneumonia </li>
+<li>perda de peso </li>
+<li>indisposição </li>
+<li>infeção do trato urinário </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar epidyolex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar epidyolex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco. O prazo de validade 
+corresponde ao último dia do mês indicado. </p>
+<p>Se tiver qualquer solução restante no frasco durante mais de 12 semanas após a primeira abertura, não 
+deverá usá-la. </p>
+<p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos no esgoto ou lixo doméstico. Pergunte ao seu farmacêutico 
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Epidyolex 
+- A substância ativa é canabidiol. Cada ml de solução oral contém 100 mg de canabidiol. 
+- Os outros componentes são óleo de sésamo, etanol anidro, sucralose e aroma de morango 
+(incluindo álcool benzílico) </p>
+<p>Qual o aspeto de Epidyolex e conteúdo da embalagem 
+Epidyolex é uma solução oral translúcida, incolor a amarela. É fornecido num frasco em vidro âmbar 
+que tem um fecho com rosca resistente a abertura por crianças.  </p>
+<p>Estão disponíveis as seguintes apresentações para Epidyolex: </p>
+<p>100 ml (1 × frasco de 100 ml) com 2 × seringas calibradas de dose oral de 5 ml e 2 × seringas 
+calibradas de dose oral de 1 ml e dois adaptadores do frasco. </p>
+<p>300 ml (3 × frascos de 100 ml) com 2 × seringas calibradas de dose oral de 5 ml e 2 × seringas 
+calibradas de dose oral de 1 ml e três adaptadores do frasco. </p>
+<p>As seringas de 5 ml são graduadas em incrementos de 0,1 ml e a de 1 ml em incrementos de 0,05 ml. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Jazz Pharmaceuticals Ireland Ltd 
+5th Floor 
+Waterloo Exchange 
+Waterloo Road 
+Dublin 4 
+D04 E5W7 
+Irlanda 
+e-mail: medinfo-int@jazzpharma.com </p>
+<p>Fabricante </p>
+<p>GW Pharma (International) B.V., 
+Databankweg 26, 3821AL Amersfoort, Países Baixos 
+e-mail: medinfo-int@jazzpharma.com </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Tél/Tel: +31 207176 
+Lietuva 
+Tel: +353 1 968 1 
+България 
+Teл.: +353 1 968 1 
+Luxembourg/Luxemburg 
+Tél/Tel: +31 207176 
+Česká republika 
+Tel: +353 1 968 1Magyarország 
+Tel.: +353 1 968 1 
+Danmark 
+Tlf: +45 69918 
+Malta 
+Tel: +353 1 968 1 
+Deutschland 
+Tel: +49(0)3022957 
+Nederland 
+Tel: +31 207176 
+Eesti 
+Tel: +353 1 968 1 
+Norge 
+Tlf: +353 1 968 1 
+Ελλάδα 
+Τηλ: +353 1 968 1 
+Österreich 
+Tel: +353 1 968 1 
+España 
+Jazz Pharmaceuticals Iberia, S.L. 
+Tel: +34 914142 
+Polska 
+Tel.: +353 1 968 1 
+France 
+Exploitant : Jazz Pharmaceuticals France SAS 
+Tél: +33 176728 
+Portugal 
+Tel: +351 308805 
+Hrvatska 
+Tel: +353 1 968 1 
+România 
+Tel: +353 1 968 1 
+Ireland 
+Tel: +353 1 968 1 
+Slovenija 
+Tel: +353 1 968 1 
+Ísland 
+Sími: +353 1 968 1 
+Slovenská republika 
+Tel: +353 1 968 1 
+Italia 
+Jazz Healthcare Italy S.r.l. 
+Tel: +39 (0)800959 
+Suomi/Finland 
+Puh/Tel: +353 1 968 1 
+Κύπρος 
+Τηλ: +353 1 968 1 
+Sverige 
+Tel: +46 406688 
+Latvija 
+Tel: +353 1 968 1 
+United Kingdom (Northern Ireland) 
+Tel: +44 8081890387 (toll free) </p>
+<p>Este folheto foi revisto pela última vez em . </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -983,6 +1486,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-75a506f08e3ae1e41989ef75918dcae1"
 * entry[0].resource = composition-da-75a506f08e3ae1e41989ef75918dcae1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp75a506f08e3ae1e41989ef75918dcae1"
+* entry[=].resource = mp75a506f08e3ae1e41989ef75918dcae1
+                            
+                    
+Instance: bundlepackageleaflet-pt-75a506f08e3ae1e41989ef75918dcae1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for epidyolex Package Leaflet for language pt"
+Description: "ePI document Bundle for epidyolex Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-75a506f08e3ae1e41989ef75918dcae1"
+* entry[0].resource = composition-pt-75a506f08e3ae1e41989ef75918dcae1
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp75a506f08e3ae1e41989ef75918dcae1"
@@ -1084,6 +1609,18 @@ RuleSet: 75a506f08e3ae1e41989ef75918dcae1ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-75a506f08e3ae1e41989ef75918dcae1) // epidyolex pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

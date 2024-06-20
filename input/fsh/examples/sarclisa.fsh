@@ -920,6 +920,519 @@ standardprocedurer. </p>
 
 
 
+Instance: composition-pt-4fad6211e26b19476a10017c27cac221
+InstanceOf: CompositionUvEpi
+Title: "Composition for sarclisa Package Leaflet"
+Description:  "Composition for sarclisa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4fad6211e26b19476a10017c27cac221)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - sarclisa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Sarclisa e para que é utilizado  </li>
+<li>O que precisa de saber antes de utilizar Sarclisa </li>
+<li>Como utilizar Sarclisa </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Sarclisa </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é sarclisa e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é sarclisa e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Sarclisa 
+Sarclisa é um medicamento anticancerígeno que contém a substância ativa isatuximab. Pertence a um 
+grupo de medicamentos chamados “anticorpos monoclonais".<br />
+Anticorpos monoclonais, tais como Sarclisa, são proteínas que foram elaboradas para reconhecer e 
+ligar-se a uma substância alvo. No caso de Sarclisa, o alvo é uma substância chamada CD38, 
+encontrada nas células do mieloma múltiplo, um cancro da medula óssea. Ao ligar-se a várias células 
+do mieloma, o medicamento ajuda as defesas naturais do seu corpo (sistema imunitário) a identificá-
+las e a destruí-las. </p>
+<p>Para que é utilizado Sarclisa 
+Sarclisa é utilizado no tratamento de mieloma múltiplo em doentes que já tenham recebido<br />
+anteriormente tratamentos para o mieloma múltiplo.<br />
+É utilizado em conjunto com outras duas combinações de  medicamentos:.  </p>
+<ul>
+<li>
+<p>pomalidomida e dexametasona ou </p>
+</li>
+<li>
+<p>carfilzomib e dexametasona </p>
+</li>
+</ul>
+<p>Se tiver alguma dúvida sobre como funciona Sarclisa ou sobre o seu tratamento com Sarclisa, pergunte 
+ao seu médico. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar sarclisa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar sarclisa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Sarclisa se:  </p>
+<ul>
+<li>Tem alergia ao isatuximab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).  </li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou enfermeiro antes de utilizar Sarclisa e siga todas as instruções 
+cuidadosamente. </p>
+<p>Reações à perfusão 
+Informe o seu médico ou enfermeiro imediatamente se apresentar sinais de reações à perfusão 
+durante ou após a perfusão de Sarclisa - veja na secção 4 a lista de sinais de “reações à perfusão".  </p>
+<ul>
+<li>
+<p>Antes de iniciar a perfusão com Sarclisa, pode receber medicamentos para reduzir as reações à 
+perfusão (ver secção 3). </p>
+</li>
+<li>
+<p>Reações à perfusão podem acontecer durante a perfusão de Sarclisa ou após a perfusão e podem 
+ser graves. Estas reações são reversíveis. A equipa hospitalar irá acompanhá-lo atentamente 
+durante o tratamento. 
+Se tiver uma reação à perfusão, o seu médico ou enfermeiro pode dar-lhe medicamentos adicionais 
+para tratar os seus sintomas e evitar complicações. Podem, também, interromper temporariamente, 
+desacelerar ou parar completamente a perfusão de Sarclisa. </p>
+</li>
+</ul>
+<p>Febre e número baixo de glóbulos brancos 
+Informe o seu médico ou enfermeiro imediatamente se desenvolver febre, pois pode ser um sinal de 
+infeção. Sarclisa pode reduzir o número de glóbulos brancos - os quais são importantes no combate a 
+infeções.  </p>
+<p>O seu médico ou enfermeiro irá verificar a contagem das suas células sanguíneas durante o tratamento 
+com Sarclisa. O seu médico pode prescrever um antibiótico ou antiviral (por exemplo, para herpes 
+zoster (zona) )para ajudar a prevenir a infeção, ou um medicamento para ajudar a aumentar o número 
+de glóbulos brancos durante o tratamento com Sarclisa.  </p>
+<p>Problemas cardíacos 
+Fale com o seu médico ou enfermeiro antes de usar Sarclisa em combinação com carfilzomib e 
+dexametasona se tiver problemas cardíacos ou se alguma vez tiver tomado um medicamento para o 
+coração. Contacte o seu médico ou enfermeiro imediatamente se sentir qualquer dificuldade em 
+respirar, tosse ou inchaço nas pernas. </p>
+<p>Risco de novos tumores 
+Ocorreram novos tumores em doentes durante o tratamento com Sarclisa quando administrado com 
+pomalidomida e dexametasona ou com carfilzomib e dexametasona. O seu médico ou enfermeiro irá 
+monitorizá-lo para o aparecimento de novos tumores durante o tratamento. </p>
+<p>Síndrome da lise tumoral 
+Pode ocorrer degradação rápida de células cancerígenas (síndrome da lise tumoral). Os sintomas 
+incluem batimentos cardíacos irregulares, convulsões, confusão mental, cãibras musculares ou 
+diminuição da quantidade de urina eliminada pelos rins. Informe o seu médico imediatamente se sentir 
+qualquer um destes sintomas. </p>
+<p>Transfusão de sangue 
+Se necessitar de uma transfusão de sangue, irá fazer primeiro um exame de sangue para determinar o 
+seu tipo sanguíneo.  </p>
+<p>Informe a pessoa que está a fazer a análise de sangue de que está a ser tratado com Sarclisa. Isto 
+porque pode afetar os resultados deste teste ao sangue durante pelo menos 6 meses após a última dose 
+de Sarclisa. 
+Crianças e adolescentes 
+Sarclisa não é recomendado para utilização em crianças e adolescentes com idade inferior a 18 anos. 
+Isto porque a eficácia de Sarclisa não foi estabelecida em doentes pediátricos. </p>
+<p>Outros medicamentos e Sarclisa 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou 
+se vier a tomar outros medicamentos. Isto inclui medicamentos que pode obter sem receita médica e 
+medicamentos à base de plantas. </p>
+<p>Informe o seu médico ou enfermeiro, antes de utilizar Sarclisa, se toma algum medicamento para o 
+coração.  </p>
+<p>Sarclisa é utilizado em conjunto com outras duas combinações de medicamentos no tratamento do 
+mieloma múltiplo: </p>
+<ul>
+<li>
+<p>pomalidomida e dexametasona ou </p>
+</li>
+<li>
+<p>carfilzomib e dexametasona 
+Para informações sobre os outros medicamentos utilizados com Sarclisa, consulte o seu folheto 
+informativo. </p>
+</li>
+</ul>
+<p>Gravidez 
+Peça ao seu médico, farmacêutico ou enfermeiro aconselhamento antes de utilizar Sarclisa.<br />
+A utilização de Sarclisa durante a gravidez não é recomendada. Se está grávida ou planeia engravidar, 
+consulte o seu médico antes de tomar este medicamento. </p>
+<p>Para obter informações sobre a gravidez e outros medicamentos que são tomados com Sarclisa, analise 
+o folheto informativo para estes outros medicamentos. </p>
+<p>Amamentação<br />
+Peça ao seu médico, farmacêutico ou enfermeiro aconselhamento antes de utilizar Sarclisa.  </p>
+<ul>
+<li>
+<p>Isto porque Sarclisa pode passar para o leite materno. Desconhece-se de que modo pode afetar o 
+bebé.  </p>
+</li>
+<li>
+<p>Você e o seu médico irão decidir se o benefício da amamentação é maior do que o risco para o 
+seu bebé. </p>
+</li>
+</ul>
+<p>Contracepção 
+As mulheres a utilizar Sarclisa e em idade fértil devem utilizar um método eficaz de contracepção. 
+Fale com o seu médico sobre o método contraceptivo que terá de usar durante este período. Use 
+contraceptivos eficazes durante o tratamento e durante 5 meses após a última dose de Sarclisa. </p>
+<p>Condução de veículos e utilização de máquinas<br />
+É pouco provável que  Sarclisa afete a sua capacidade de conduzir ou utilizar máquinas. No entanto, 
+Sarclisa é utilizado com outros medicamentos que podem afetar a sua capacidade de conduzir ou 
+utilizar máquinas. Por favor, consulte o folheto informativo dos outros medicamentos que toma com 
+Sarclisa.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar sarclisa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar sarclisa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a quantidade de Sarclisa administrada<br />
+A quantidade de Sarclisa que irá receber é baseada no seu peso. A dose recomendada é de 10 mg de 
+Sarclisa por quilograma do seu peso corporal. </p>
+<p>Como é administrado Sarclisa<br />
+O seu médico ou enfermeiro irá dar-lhe Sarclisa gota  a gota através de uma veia (perfusão 
+intravenosa).  </p>
+<p>Com que frequência é administrado Sarclisa<br />
+Sarclisa é utilizado em ciclos de tratamento de 28 dias (4 semanas). É administrado com dois outros 
+medicamentos ou pomalidomida e dexametasona ou carfilzomib e dexametasona.  </p>
+<ul>
+<li>No ciclo 1: Sarclisa é administrado uma vez por semana nos dias 1, 8, 15 e * No ciclo 2 e seguintes: Sarclisa é administrado a cada 2 semanas - no dia 1 e O seu médico continuará a tratá-lo com Sarclisa, desde que beneficie e que os possíveis efeitos 
+indesejáveis sejam aceitáveis. </li>
+</ul>
+<p>Medicamentos administrados antes de Sarclisa 
+Deverão ser-lhe administradosos seguintes medicamentos antes da perfusão de Sarclisa. Estes 
+destinam-se a ajudar a reduzir as probabilidades de ter  reações à perfusão: </p>
+<ul>
+<li>
+<p>medicamentos para reduzir reações alérgicas (anti-histamínicos) </p>
+</li>
+<li>
+<p>medicamentos para reduzir a inflamação (corticosteroides) </p>
+</li>
+<li>
+<p>medicamento para reduzir a dor e a febre </p>
+</li>
+</ul>
+<p>Caso se tenha esquecido de tomar uma dose de Sarclisa<br />
+É muito importante que vá a todas as consultas para garantir que recebe o seu tratamento no momento 
+certo para que ele funcione corretamente. Se faltar a alguma consulta, contacte o médico ou 
+enfermeiro o mais cedo possível para remarcar a consulta.  </p>
+<p>O seu médico ou enfermeiro irá decidir como o tratamento deve ser continuado.  </p>
+<p>Se for administrado mais Sarclisa do que deveria<br />
+Sarclisa ser-lhe-á administrado pelo seu médico ou enfermeiro. Se for acidentalmente administrado 
+demasiado (uma sobredosagem), o seu médico irá tratar e monitorizar os seus efeitos indesejáveis.  </p>
+<p>Se parar de utilizar Sarclisa<br />
+Não interrompa o seu tratamento com Sarclisa, a menos que tenha falado sobre isso com o seu médico.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>O seu médico irá discutir os efeitos indesejáveis de Sarclisa consigo e irá explicar-lhe os possíveis 
+riscos e os benefícios do tratamento com Sarclisa. </p>
+<p>A equipa hospitalar irá monitorizar a sua condição de perto durante o tratamento. Diga imediatamente 
+se sentir algum dos efeitos abaixo. </p>
+<p>Reações à perfusão - Muito frequentes (podem afetar mais de 1 em 10 pessoas): 
+Informe o seu médico ou enfermeiro imediatamente se não se sentir bem durante ou após a 
+perfusão de Sarclisa. </p>
+<p>Os sinais graves de reação à perfusão incluem: </p>
+<ul>
+<li>
+<p>tensão arterial elevada (hipertensão) </p>
+</li>
+<li>
+<p>sensação de falta de ar  </p>
+</li>
+<li>
+<p>reação alérgica grave (reação anafilática que afeta até 1 em 100 pessoas) com dificuldade em 
+respirar e inchaço da face, boca, garganta, lábios ou língua. </p>
+</li>
+</ul>
+<p>Os sinais mais frequentes de reação à perfusão incluem:  </p>
+<ul>
+<li>
+<p>sensação de falta de ar  </p>
+</li>
+<li>
+<p>tosse  </p>
+</li>
+<li>
+<p>arrepios  </p>
+</li>
+<li>
+<p>náuseas  </p>
+</li>
+</ul>
+<p>Pode ter também outros efeitos indesejáveis durante a perfusão. O seu médico ou enfermeiro pode 
+decidir interromper temporariamente, desacelerar ou parar completamente a perfusão de Sarclisa. 
+Pode também dar medicamentos adicionais para tratar os seus sintomas e evitar complicações.  </p>
+<p>Fale com o seu médico ou enfermeiro imediatamente se não se sentir bem durante ou depois da 
+perfusão de Sarclisa. </p>
+<p>Outros efeitos indesejáveis 
+Fale com o seu médico, farmacêutico ou enfermeiro imediatamente se apresentar qualquer um dos 
+efeitos indesejáveis listados abaixo: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>menor número de alguns glóbulos brancos  (neutrófilos) que são importantes no combate à 
+infeção  </p>
+</li>
+<li>
+<p>menor número de plaquetas no sangue (trombocitopenia) - informe o seu médico ou 
+enfermeiro, se tiver nódoas negras  fora do normal ou hemorragia. </p>
+</li>
+<li>
+<p>infeção dos pulmões (pneumonia) </p>
+</li>
+<li>
+<p>infeção das vias aéreas (tais como nariz, seios nasais ou garganta) </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>bronquite </p>
+</li>
+<li>
+<p>sensação de falta de ar  </p>
+</li>
+<li>
+<p>náuseas </p>
+</li>
+<li>
+<p>febre com uma diminuição grave em alguns glóbulos brancos (neutropenia febril) (consulte a 
+secção 2 para mais detalhes) </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>Pressão arterial elevada (hipertensão) </p>
+</li>
+<li>
+<p>Tosse </p>
+</li>
+<li>
+<p>Cansaço (fadiga) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>Problemas cardíacos, que podem apresentar-se como dificuldade em respirar, tosse ou inchaço 
+nas pernas quando Sarclisa é administrado com carfilzomib e dexametasona </p>
+</li>
+<li>
+<p>menor número de glóbulos vermelhos (anemia) </p>
+</li>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>perda de peso </p>
+</li>
+<li>
+<p>batimento cardíaco irregular (fibrilhação auricular) </p>
+</li>
+<li>
+<p>herpes zoster (zona) </p>
+</li>
+</ul>
+<p>Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis): 
+- menor número de alguns glóbulos brancos (linfócitos) que são importantes no combate à infeção </p>
+<p>Se alguma das situações se aplicar a si, ou caso não tenha a certeza, fale imediatamente com o seu 
+médico, farmacêutico ou enfermeiro. </p>
+<p>Comunicação de efeitos indesejáveis<br />
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar sarclisa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar sarclisa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sarclisa será conservado no hospital ou clínica. </p>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco 
+para injetáveis após “VAL". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C a 8°C). Não congelar.<br />
+Conservar na embalagem de origem para proteger da luz. </p>
+<p>Os medicamentos não devem ser eliminados na canalização. O seu médico, farmacêutico ou 
+enfermeiro irá deitar fora quaisquer medicamentos que já não estejam a ser usados. Estas medidas 
+ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Sarclisa  </p>
+<ul>
+<li>
+<p>A substância ativa de Sarclisa é isatuximab.  </p>
+</li>
+<li>
+<p>Um ml de concentrado contém 20 mg de isatuximab.  </p>
+</li>
+<li>
+<p>Cada frasco para injetáveis de concentrado contém 100 mg de isatuximab em 5 mL de 
+concentrado ou 500 mg de isatuximab em 25 mL de concentrado. </p>
+</li>
+<li>
+<p>Os outros componentes (excipientes) são sacarose, cloridrato de histidina monohidratada, 
+histidina, polissorbato 80 e água para preparações injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Sarclisa e conteúdo da embalagem 
+Sarclisa é um concentrado para solução para perfusão. É um líquido incolor a ligeiramente amarelado, 
+essencialmente sem partículas visíveis. Sarclisa é fornecido numa embalagem contendo 1 ou 3 frascos 
+de vidro para injetáveis.  </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Sanofi Winthrop Industrie 
+82 avenue Raspail 
+94250 Gentilly 
+França </p>
+<p>Fabricante<br />
+Sanofi-Aventis Deutschland GmbH 
+Industriepark Hoechst Brueningstrasse 65926 Frankfurt am Main 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) 
+Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel.: +36 1 505 0Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l 
+Tel: +39 02 39394Deutschland 
+Nederland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
+Sanofi B.V. 
+Tel: +31 20 245 4Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71 Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη ΑΕΒΕ 
+Τηλ: +30 210 900 16  </p>
+<p>Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 - 0 
+Ελλάδα 
+sanofi-aventis AEBE 
+Τηλ: +30 210 900 16<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00 France 
+Sanofi Winthrop Industrie 
+Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda. 
+Tel: +351 21 35 89 Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56 România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 </p>
+<p>Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33<br />
+Italia 
+Sanofi Sr.l. 
+Tel: 800.536<br />
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200 Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50 Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>Este folheto foi revisto pela última vez em .  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -961,6 +1474,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-4fad6211e26b19476a10017c27cac221"
 * entry[0].resource = composition-da-4fad6211e26b19476a10017c27cac221
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4fad6211e26b19476a10017c27cac221"
+* entry[=].resource = mp4fad6211e26b19476a10017c27cac221
+                            
+                    
+Instance: bundlepackageleaflet-pt-4fad6211e26b19476a10017c27cac221
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sarclisa Package Leaflet for language pt"
+Description: "ePI document Bundle for sarclisa Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-4fad6211e26b19476a10017c27cac221"
+* entry[0].resource = composition-pt-4fad6211e26b19476a10017c27cac221
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp4fad6211e26b19476a10017c27cac221"
@@ -1062,6 +1597,18 @@ RuleSet: 4fad6211e26b19476a10017c27cac221ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-4fad6211e26b19476a10017c27cac221) // sarclisa pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -996,6 +996,446 @@ som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægssed
 
 
 
+Instance: composition-pt-701e93600aa20be1f78aef0a64b1f790
+InstanceOf: CompositionUvEpi
+Title: "Composition for nucala Package Leaflet"
+Description:  "Composition for nucala Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp701e93600aa20be1f78aef0a64b1f790)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - nucala"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instruções passo-a-passo para utilização </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto  </p>
+<ol>
+<li>O que é Nucala e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Nucala  </li>
+<li>Como utilizar Nucala </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Nucala </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é nucala e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é nucala e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nucala contém a substância ativa mepolizumab, um anticorpo monoclonal, um tipo de proteína desenhada 
+para reconhecer no corpo uma substância alvo específica. É utilizado para tratar a asma grave e GEPA 
+(Granulomatose Eosinofílica com Poliangeíte) em adultos, adolescentes e crianças com 6 ou mais anos de 
+idade. É também utilizado para tratar a RSCcPN (Rinossinusite Crónica com Pólipos Nasais) e a Síndrome 
+Hipereosinofílica em adultos. </p>
+<p>Mepolizumab, a substância ativa de Nucala, bloqueia uma proteína chamada interleucina-5. Ao bloquear a 
+ação desta proteína, limita a produção de eosinófilos pela medula óssea e diminui o número de eosinófilos na 
+corrente sanguínea e nos pulmões.  </p>
+<p>Asma eosinofílica grave </p>
+<p>Algumas pessoas com asma grave têm muitos eosinófilos (um tipo de glóbulo branco sanguíneo) no sangue e 
+nos pulmões. Esta condição é chamada de asma eosinofílica - o tipo de asma que Nucala pode tratar. </p>
+<p>Nucala pode reduzir o seu número de ataques de asma, se você ou a sua criança já estiver a utilizar 
+medicamentos tais como inaladores de dose elevada, mas a sua asma não está bem controlada por estes 
+medicamentos.<br />
+Se está a tomar medicamentos chamados corticosteroides orais, Nucala pode também ajudar a reduzir a dose 
+diária que precisa para controlar a sua asma. </p>
+<p>Rinossinusite crónica com pólipos nasais (RSCcPN) </p>
+<p>RSCcPN é uma doença em que as pessoas têm demasiados eosinófilos (um tipo de glóbulo branco 
+sanguíneo) no sangue e no tecido que reveste o nariz e os seios nasais. Isto pode causar sintomas como nariz 
+entupido e perda de olfato, e a formação de protuberâncias moles tipo gelatina (chamadas pólipos nasais) 
+dentro do nariz.  </p>
+<p>Nucala reduz o número de eosinófilos no sangue e pode reduzir o tamanho dos seus pólipos, alivia a sua 
+congestão nasal e ajuda a prevenir a cirurgia aos pólipos nasais.<br />
+Nucala pode também ajudar a reduzir a necessidade de corticosteroides orais para controlar os seus sintomas. </p>
+<p>Granulomatose eosinofílica com poliangeíte (GEPA) </p>
+<p>GEPA é uma doença em que as pessoas têm demasiados eosinófilos (um tipo de glóbulo branco sanguíneo) 
+no sangue e nos tecidos, e têm também um tipo de vasculite. Isto significa que existe inflamação dos vasos 
+sanguíneos. Esta doença afeta mais frequentemente os pulmões e os seios nasais, mas, por vezes, afeta outros 
+órgãos, tais como a pele, o coração e os rins. </p>
+<p>Nucala consegue controlar e adiar uma exacerbação destes sintomas de GEPA. Este medicamento também 
+pode ajudar a reduzir a dose diária de corticosteroides orais de que necessita para controlar os seus sintomas. </p>
+<p>Síndrome hipereosinofílica </p>
+<p>A síndrome hipereosinofílica é uma doença em que existe um elevado número de eosinófilos (um tipo de 
+glóbulo branco sanguíneo) no sangue. Estas células podem danificar os órgãos do corpo, particularmente o 
+coração, os pulmões, os nervos e a pele. 
+Nucala ajuda a reduzir os seus sintomas e previne exacerbações. Se estiver a tomar medicamentos 
+conhecidos como corticosteroides orais, Nucala pode também ajudar a reduzir a dose diária de que necessita 
+para controlar os seus sintomas/exacerbações de síndrome hipereosinofílica. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar nucala"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar nucala"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Nucala:<br />
+- se tem alergia ao mepolizumab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).<br />
+ Confirme com o seu médico se pensa que isto se aplica a si.  </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico antes de utilizar este medicamento. </p>
+<p>Agravamento da asma 
+Algumas pessoas têm efeitos indesejáveis relacionados com a asma, ou a sua asma pode piorar, durante o 
+tratamento com Nucala. 
+ Informe o seu médico ou enfermeiro se a sua asma permanecer não controlada, ou se piorar, 
+depois de iniciar o tratamento com Nucala. </p>
+<p>Reações alérgicas e no local da injeção 
+Medicamentos deste tipo (anticorpos monoclonais) podem causar reações alérgicas graves quando injetados 
+no corpo (ver secção 4, ‘Efeitos indesejáveis possíveis’). </p>
+<p>Se já tiver tido uma reação semelhante a alguma injeção ou medicamento: 
+ Informe o seu médico antes de lhe administrarem Nucala. </p>
+<p>Infeções parasitárias 
+Nucala pode enfraquecer a sua resistência a infeções causadas por parasitas. Se já tiver uma infeção 
+parasitária, esta deve ser tratada antes de iniciar o tratamento com Nucala. Se viver numa região onde estas 
+infeções são frequentes ou se for viajar para tal região: 
+ Confirme com o seu médico se pensa que alguma destas situações se aplica a si.  </p>
+<p>Crianças e adolescentes </p>
+<p>Asma eosinofílica grave </p>
+<p>A caneta pré-cheia não se destina a ser utilizada em crianças com idade inferior a 12 anos de idade para o 
+tratamento da asma eosinofílica grave. 
+Para crianças com 6-11 anos, contacte o seu médico o qual irá prescrever a dose recomendada de Nucala que 
+será administrada por um enfermeiro ou médico.  </p>
+<p>RSCcPN </p>
+<p>Este medicamento não se destina a ser utilizado em crianças ou adolescentes com idade inferior a 18 anos 
+de idade para o tratamento da RSCcPN. </p>
+<p>GEPA </p>
+<p>Este medicamento não se destina a ser utilizado em crianças com idade inferior a 6 anos de idade para o 
+tratamento da GEPA. </p>
+<p>Síndrome hipereosinofílica </p>
+<p>Este medicamento não se destina a ser utilizado em crianças ou adolescentes com idade inferior a 18 anos 
+de idade para o tratamento da síndrome hipereosinofílica. </p>
+<p>Outros medicamentos e Nucala 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos.  </p>
+<p>Outros medicamentos para a asma, RSCcPN, GEPA ou síndrome hipereosinofílica 
+ Não pare subitamente de tomar os seus medicamentos atuais para a asma, RSCcPN, GEPA ou 
+síndrome hipereosinofílica assim que iniciar Nucala. Estes medicamentos (especialmente os 
+chamados corticosteroides orais) devem ser parados gradualmente, sob a supervisão direta do seu 
+médico e dependendo da sua resposta a Nucala.  </p>
+<p>Gravidez e amamentação<br />
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de utilizar este 
+medicamento. </p>
+<p>Não é conhecido se os componentes de Nucala podem passar para o leite materno. Se estiver a amamentar, 
+deve consultar o seu médico antes de utilizar Nucala.  </p>
+<p>Condução de veículos e utilização de máquinas<br />
+É improvável que os efeitos indesejáveis possíveis de Nucala afetem a sua capacidade de conduzir ou utilizar 
+máquinas.  </p>
+<p>Nucala contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 100 mg de dose ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar nucala"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar nucala"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nucala é-lhe administrado através de uma injeção logo abaixo da pele (injeção subcutânea). </p>
+<p>O seu médico ou enfermeiro irão decidir se pode ou se o seu cuidador pode injetar Nucala. Caso apropriado, 
+irão depois dar formação para lhe mostrar ou mostrar ao seu cuidador a forma correta de utilizar Nucala. </p>
+<p>Nucala deve ser administrado a crianças de 6 a 11 anos por um médico, enfermeiro ou cuidador treinado. </p>
+<p>Asma eosinofílica grave </p>
+<p>A dose recomendada para adultos e adolescentes com 12 ou mais anos de idade é 100 mg. Receberá 1 
+injeção a cada quatro semanas.  </p>
+<p>RSCcPN </p>
+<p>A dose recomendada para adultos é 100 mg. Receberá 1 injeção a cada quatro semanas.  </p>
+<p>GEPA </p>
+<p>A dose recomendada para adultos e adolescentes com 12 ou mais anos de idade é 300 mg. Receberá 3 
+injeções a cada quatro semanas. </p>
+<p>Crianças com 6 a 11 anos de idade </p>
+<p>Crianças com 40 kg de peso ou mais: 
+A dose recomendada é 200 mg. Receberá 2 injeções a cada quatro semanas. </p>
+<p>Crianças com menos de 40 kg de peso:<br />
+A dose recomendada é 100 mg. Receberá 1 injeção a cada quatro semanas. </p>
+<p>Os locais da injeção devem ter, pelo menos, 5 cm de distância </p>
+<p>Síndrome hipereosinofílica </p>
+<p>A dose recomendada para adultos é 300 mg. Receberá 3 injeções a cada quatro semanas. </p>
+<p>Os locais da injeção devem ter, pelo menos, 5 cm de distância </p>
+<p>As instruções para utilização da caneta pré-cheia são fornecidas no verso deste folheto. </p>
+<p>Se utilizar mais Nucala do que deveria<br />
+Se pensa que injetou demasiado Nucala, contacte o seu médico para aconselhamento.  </p>
+<p>Se tiver sido omitida uma dose de Nucala<br />
+Deverá ou o seu cuidador deverá injetar a próxima dose de Nucala assim que se lembrar. Se não reparar que 
+omitiu uma dose até ser altura da administração da sua próxima dose, apenas injete a próxima dose conforme 
+planeado. Se não tiver a certeza do que fazer, fale com o seu médico, farmacêutico ou enfermeiro.  </p>
+<p>Se parar de utilizar Nucala<br />
+Não pare as injeções de Nucala a não ser que o seu médico lho recomende. Interromper ou parar o 
+tratamento com Nucala pode fazer com que os seus sintomas e ataques voltem.  </p>
+<p>Se os seus sintomas piorarem enquanto estiver a receber injeções de Nucala 
+ Contacte o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou 
+enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Os efeitos indesejáveis causados por Nucala são normalmente ligeiros a 
+moderados mas podem ocasionalmente ser graves. </p>
+<p>Reações alérgicas 
+Algumas pessoas podem ter reações alérgicas ou do tipo alérgico. Estas reações podem ser frequentes 
+(podem afetar até 1 em cada 10 pessoas). Elas ocorrem normalmente entre minutos a horas depois da 
+injeção, mas por vezes os sintomas podem começar após vários dias. </p>
+<p>Os sintomas podem incluir: </p>
+<ul>
+<li>
+<p>aperto no peito, tosse, dificuldade em respirar  </p>
+</li>
+<li>
+<p>desmaio, tonturas, sentir-se atordoado (devido a queda da pressão arterial)  </p>
+</li>
+<li>
+<p>inchaço das pálpebras, face, lábios, língua ou boca  </p>
+</li>
+<li>
+<p>urticária </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+</ul>
+<p> Procure imediatamente assistência médica se pensa que pode estar (ou a sua criança) pode estar a ter 
+uma reação.  </p>
+<p>Se já tiver tido uma reação semelhante a alguma injeção ou medicamento: 
+ Informe o seu médico antes de receber (ou da sua criança receber) Nucala </p>
+<p>Outros efeitos indesejáveis incluem: </p>
+<p>Muito frequentes:<br />
+podem afetar mais do que 1 em 10 pessoas  </p>
+<ul>
+<li>dor de cabeça  </li>
+</ul>
+<p>Frequentes:<br />
+podem afetar até 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>infeção no peito - sintomas da qual podem incluir tosse e febre (temperatura elevada)  </p>
+</li>
+<li>
+<p>infeção do trato urinário (sangue na urina, urinar com frequência e ter dor ao urinar, febre, dor na região 
+inferior das costas) </p>
+</li>
+<li>
+<p>dor abdominal alta (dor de estômago ou desconforto na região superior do estômago)  </p>
+</li>
+<li>
+<p>febre (temperatura elevada) </p>
+</li>
+<li>
+<p>eczema (placas vermelhas pruriginosas na pele) </p>
+</li>
+<li>
+<p>reação no local da injeção (dor, vermelhidão, inchaço, prurido e sensação de ardor na pele perto do local 
+onde a injeção foi dada) </p>
+</li>
+<li>
+<p>dor nas costas </p>
+</li>
+<li>
+<p>faringite (garganta inflamada) </p>
+</li>
+<li>
+<p>congestão nasal (nariz entupido) </p>
+</li>
+</ul>
+<p>Raros:<br />
+podem afetar até 1 em 1000 pessoas </p>
+<ul>
+<li>reações alérgicas graves (anafilaxia) </li>
+</ul>
+<p> Informe imediatamente o seu médico ou enfermeiro se tiver algum destes sintomas. </p>
+<p>Comunicação de efeitos indesejáveis<br />
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
+fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis diretamente do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a 
+ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar nucala"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar nucala"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize Nucala após o prazo de validade impresso no rótulo e na embalagem exterior, após EXP. O prazo 
+de validade corresponde ao último dia do mês indicado.  </p>
+<p>Conservar no frigorífico (2ºC a 8ºC). </p>
+<p>Não congelar. </p>
+<p>Conservar na embalagem de origem para proteger da luz.  </p>
+<p>A caneta pré-cheia de Nucala pode ser retirada do frigorífico e mantida na embalagem fechada até 7 dias à 
+temperatura ambiente (até 30ºC), quando protegida da luz. Eliminar caso mantida fora do frigorífico durante 
+mais de 7 dias. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Nucala 
+A substância ativa é mepolizumab.  </p>
+<p>Cada caneta pré-cheia de 1 ml contém 100 mg de mepolizumab. 
+Os outros componentes são sacarose, fosfato de sódio dibásico hepta-hidratado, ácido cítrico mono-
+hidratado, polissorbato 80, edetato dissódico, água para preparações injetáveis. </p>
+<p>Qual o aspeto de Nucala e conteúdo da embalagem </p>
+<p>Nucala é fornecido como uma solução transparente a opalescente, incolor a amarelo pálido a castanho pálido 
+numa caneta pré-cheia de 1 ml de utilização única. </p>
+<p>Nucala está disponível em embalagem contendo 1 caneta pré-cheia, ou em embalagem múltipla com 3 x 1 
+canetas pré-cheias ou 9 x 1 canetas pré-cheias. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+GlaxoSmithKline Trading Services Limited 
+12 Riverwalk 
+Citywest Business Campus 
+Dublin Irlanda </p>
+<p>Fabricante 
+GlaxoSmithKline Manufacturing S.P.A 
+Strada Provinciale Asolana, 43056 San Polo di Torrile, Parma 
+Itália </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+GlaxoSmithKline Pharmaceuticals s.a./n.v. 
+Tél/Tel: + 32 (0) 10 85 52<br />
+Lietuva 
+UAB “BERLIN-CHEMIE MENARINI BALTIC" 
+Tel: +370 52 691 lt@berlin-chemie.com </p>
+<p>България 
+“Берлин-Хеми/А. Менарини 
+България" EООД<br />
+Luxembourg/Luxemburg 
+GlaxoSmithKline Pharmaceuticals s.a./n.v. 
+Belgique/Belgien 
+Teл.: +359 2 454 0bcsofia@berlin-chemie.com </p>
+<p>Tél/Tel: + 32 (0) 10 85 52<br />
+Česká republika 
+GlaxoSmithKline, s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com 
+Magyarország 
+Berlin-Chemie/A. Menarini Kft. 
+Tel.: +36 23501bc-hu@berlin-chemie.com </p>
+<p>Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+GlaxoSmithKline Trading Services Ltd. 
+Tel: +356 80065Deutschland 
+GlaxoSmithKline GmbH &amp; Co. KG 
+Tel.: + 49 (0)89 36044 8produkt.info@gsk.com </p>
+<p>Nederland 
+GlaxoSmithKline BV 
+Tel: + 31 (0)33 2081 
+Eesti 
+OÜ Berlin-Chemie Menarini Eesti 
+Tel: +372 667 5ee@berlin-chemie.com </p>
+<p>Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20  </p>
+<p>Ελλάδα 
+GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
+Τηλ: + 30 210 68 82<br />
+Österreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>España 
+GlaxoSmithKline, S.A. 
+Tel: + 34 900 202 es-ci@gsk.com </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9France 
+Laboratoire GlaxoSmithKline 
+Tél: + 33 (0)1 39 17 84 diam@gsk.com </p>
+<p>Portugal 
+GlaxoSmithKline - Produtos Farmacêuticos, Lda. 
+Tel: + 351 21 412 95 FI.PT@gsk.com<br />
+Hrvatska 
+Berlin-Chemie Menarini Hrvatska d.o.o. 
+Tel: +385 1 4821 office-croatia@berlin-chemie.com 
+România 
+GlaxoSmithKline Trading Services Ltd. 
+Tel: +40 800672 
+Ireland 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955 </p>
+<p>Slovenija 
+Berlin-Chemie / A. Menarini Distribution 
+Ljubljana d.o.o. 
+Tel: +386 (0)1 300 2slovenia@berlin-chemie.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: + 354 535 7 
+Slovenská republika 
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o. 
+Tel: +421 2 544 30 slovakia@berlin-chemie.com </p>
+<p>Italia 
+Suomi/Finland 
+GlaxoSmithKline S.p.A. 
+Tel: + 39 (0)45 7741GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30<br />
+Κύπρος 
+GlaxoSmithKline Trading Services Ltd. 
+Τηλ: +357 80070 
+Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+SIA Berlin-Chemie/Menarini Baltic 
+Tel: +371 67103lv@berlin-chemie.com 
+United Kingdom (Northern Ireland) 
+GlaxoSmithKline Trading Services Ltd. 
+Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p>         </div>"""      
+
+
+
 
 
                     
@@ -1037,6 +1477,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-701e93600aa20be1f78aef0a64b1f790"
 * entry[0].resource = composition-da-701e93600aa20be1f78aef0a64b1f790
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp701e93600aa20be1f78aef0a64b1f790"
+* entry[=].resource = mp701e93600aa20be1f78aef0a64b1f790
+                            
+                    
+Instance: bundlepackageleaflet-pt-701e93600aa20be1f78aef0a64b1f790
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nucala Package Leaflet for language pt"
+Description: "ePI document Bundle for nucala Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-701e93600aa20be1f78aef0a64b1f790"
+* entry[0].resource = composition-pt-701e93600aa20be1f78aef0a64b1f790
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp701e93600aa20be1f78aef0a64b1f790"
@@ -1138,6 +1600,18 @@ RuleSet: 701e93600aa20be1f78aef0a64b1f790ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-701e93600aa20be1f78aef0a64b1f790) // nucala pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -545,6 +545,343 @@ lokale retningslinjer for håndtering af materiale, der stammer fra mennesker. <
 
 
 
+Instance: composition-pt-f00c2d057b37e01d3588f608535352b2
+InstanceOf: CompositionUvEpi
+Title: "Composition for alofisel Package Leaflet"
+Description:  "Composition for alofisel Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf00c2d057b37e01d3588f608535352b2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - alofisel"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Alofisel e para que é utilizado </li>
+<li>O que precisa de saber antes de receber Alofisel </li>
+<li>Como é administrado Alofisel </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Alofisel </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é alofisel e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é alofisel e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A substância ativa de Alofisel é o darvadstrocel que é composto por células estaminais do tecido gordo 
+de um dador adulto saudável (as chamadas células estaminais alogénicas) e, em seguida, cultivadas 
+num laboratório. As células estaminais adultas são um tipo especial de células que se encontram em 
+muitos tecidos adultos, e cuja principal função é reparar os tecidos onde se encontram.  </p>
+<p>Alofisel é um medicamento utilizado para o tratamento de fístulas perianais complexas em doentes 
+adultos com doença de Crohn (uma doença que causa inflamação do intestino) quando os outros 
+sintomas da doença estão controlados ou são de intensidade ligeira. As fístulas perianais são canais 
+anormais que ligam partes do intestino grosso (reto e ânus) à pele junto ao ânus, podendo desta forma 
+surgir uma ou mais aberturas perto do ânus. As fístulas perianais são descritas como sendo complexas 
+se tiverem múltiplos canais e aberturas, se penetrarem profundamente no corpo ou se estiverem 
+associadas a outras complicações, tais como acumulações de pus (líquido infetado, também designado 
+por abcesso). As fístulas perianais podem causar dor, irritação e corrimento purulento através das 
+aberturas na pele. </p>
+<p>Alofisel é utilizado quando as fístulas não responderam suficientemente bem ao tratamento anterior. 
+Quando é injetado perto das fístulas perianais, Alofisel reduz a inflamação, aumentando a 
+probabilidade de as fístulas sararem. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar alofisel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar alofisel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não pode receber Alofisel </p>
+<p>− 
+se tem alergia ao darvadstrocel, a soro bovino ou a qualquer um dos componentes deste 
+medicamento (indicados na secção 6). </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou cirurgião antes de receber Alofisel. </p>
+<p>Alofisel pode conter vestígios de gentamicina ou benzilpenicilina e de estreptomicina (antibióticos). 
+Isto deve ser levado em consideração se for alérgico a estes antibióticos, pois eles são utilizados no 
+processo de fabrico deste medicamento. </p>
+<p>Alofisel é uma terapêutica à base de células vivas e, por isso, o produto final não pode ser esterilizado. 
+O produto é verificado em diferentes fases durante o seu fabrico para garantir que está isento de 
+infeções. Como a verificação final ocorre imediatamente antes de Alofisel ser enviado para o hospital, 
+os resultados desta última verificação são desconhecidos quando o medicamento lhe é administrado. 
+No caso improvável de os resultados detetarem uma infeção, a equipa responsável pelo seu tratamento 
+será informada e irá, por sua vez, dizer-lhe se necessita de fazer análises clínicas ou de tratamento para 
+a infeção. Se depois do procedimento se sentir doente ou tiver febre, informe o seu médico o mais 
+rapidamente possível. </p>
+<p>Antes de receber Alofisel, será submetido à preparação das suas fístulas. Pode sentir dor no reto ou 
+ânus, assim como pode ocorrer dor na preparação da fístula. </p>
+<p>Depois de receber Alofisel, não deverá doar sangue, órgãos, tecidos ou células para transplantação. </p>
+<p>Crianças e adolescentes </p>
+<p>Este medicamento não deve ser administrado a crianças e adolescentes com menos de 18 anos de 
+idade. Desconhece-se se este medicamento é seguro e eficaz quando usado em crianças e adolescentes 
+com menos de 18 anos de idade. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico/cirurgião antes de receber este medicamento. O tratamento com Alofisel não é recomendado 
+durante a gravidez. As mulheres em idade fértil devem usar uma contraceção eficaz durante o 
+tratamento com Alofisel. </p>
+<p>O efeito de Alofisel nas mulheres a amamentar não é conhecido e pode ser nocivo para a sua criança a 
+amamentar. O seu médico irá ajudar a decidir se pára a amamentação, ou se pára a toma de Alofisel, 
+considerando o benefício da amamentação para o bebé e o benefício do Alofisel para a mãe. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Não é provável que Alofisel afete a sua capacidade de conduzir ou de utilizar ferramentas ou 
+máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar alofisel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar alofisel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Alofisel deve ser sempre administrado por um profissional de saúde. </p>
+<p>Poderá ter tido uma consulta inicial com o cirurgião 2 a 3 semanas antes da administração de Alofisel. 
+As informações que se seguem estão relacionadas com o dia em que Alofisel lhe é administrado. </p>
+<p>Alofisel é injetado por um cirurgião no tecido do trato fistuloso.  </p>
+<p>A dose recomendada é de 4 frascos para injetáveis de 6 ml (120 × 106 de células). </p>
+<p>Antes do tratamento com Alofisel irá receber um anestésico.  </p>
+<p>Assim que tenha sido anestesiado (anestesia geral ou regional), o cirurgião irá: </p>
+<ul>
+<li>
+<p>preparar as fístulas com solução de cloreto de sódio 9 mg/ml (0,9%) e remover todo o tecido 
+cicatricial. </p>
+</li>
+<li>
+<p>coser as aberturas internas das fístulas. </p>
+</li>
+<li>
+<p>injetar Alofisel. Metade da dose será injetada dentro do tecido em redor das aberturas internas 
+das fístulas e a outra metade da dose no tecido das paredes ao longo das fístulas. </p>
+</li>
+<li>
+<p>massajar suavemente durante 20 a 30 segundos a área onde a fístula abre na pele perto do ânus. </p>
+</li>
+</ul>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou cirurgião. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Alguns dos efeitos indesejáveis do tratamento com Alofisel estão relacionados com a preparação das 
+fístulas. Em geral, estes efeitos indesejáveis são bastante ligeiros e desaparecem nos dias a seguir ao 
+procedimento de limpeza das fístulas. Estes efeitos indesejáveis podem ocorrer até sete dias após o 
+procedimento. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 doentes):  </p>
+<ul>
+<li>
+<p>abcesso anal </p>
+</li>
+<li>
+<p>fístula anal </p>
+</li>
+<li>
+<p>proctalgia (dor no reto ou no ânus) </p>
+</li>
+<li>
+<p>dor relacionada com a intervenção (dor após a preparação da fístula) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou cirurgião. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar alofisel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar alofisel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A informação seguinte destina-se apenas a médicos. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem. </p>
+<p>Conservar entre 15 °C e 25 °C.  </p>
+<p>Não refrigerar ou congelar. </p>
+<p>Manter o medicamento dentro da embalagem de cartão para proteger da luz e humidade e dentro do 
+recipiente de expedição até à sua administração, para manter a temperatura necessária. </p>
+<p>Alofisel não pode ser irradiado ou esterilizado de outra forma. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Alofisel  </p>
+<p>− 
+A substância ativa é o darvadstrocel que consiste em células estaminais adultas obtidas de tecido 
+gordo de um dador adulto saudável e que foram posteriormente cultivadas (expandidas) em 
+laboratório e fornecidas com uma concentração de 5 × 106 de células por mililitro em frascos 
+para injetáveis contendo, cada um, 6 mililitros, ou seja, 30 × 106 de células por frasco para 
+injetáveis. 
+− 
+São utilizados dois excipientes para conservar as células: um é um líquido chamado meio 
+DMEM (Dulbecco’s Modified Eagle's Medium) que contém nutrientes para as células 
+(aminoácidos, vitaminas, sais e hidratos de carbono) e o outro é albumina humana, que é uma 
+proteína natural existente no corpo humano. </p>
+<p>Qual o aspeto de Alofisel e conteúdo da embalagem </p>
+<p>Alofisel é uma dispersão injetável. Durante a expedição, as células poderão ter-se depositado no fundo 
+dos frascos para injetáveis, formando um sedimento, e será necessário ressuspendê-las. Depois das 
+células terem sido ressuspendidas (batendo suavemente com as mãos), Alofisel é uma dispersão 
+homogénea branca a amarelada. </p>
+<p>Alofisel é fornecido para um doente individual. Uma dose individual de Alofisel é composta por 
+4 frascos para injetáveis de vidro contendo, cada um, 6 mililitros de Alofisel dispostos dentro de uma 
+embalagem de cartão. </p>
+<p>Titular da Autorização de Introdução no Mercado  </p>
+<p>Takeda Pharma A/S 
+Delta Park 2665 Vallensbaek Strand 
+Dinamarca </p>
+<p>Fabricante  </p>
+<p>TiGenix S.A.U. 
+C/Marconi 1 
+Parque Tecnológico de Madrid 
+28760 Tres Cantos, Madrid 
+Espanha </p>
+<p>Takeda Ireland Ltd.<br />
+Grange Castle Business Park<br />
+Nangor Road, Dublin 22, D22 XR57<br />
+Irlanda </p>
+<p>Este folheto foi revisto pela última vez em. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da Internet da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu/ema/ </p>
+<hr />
+<p>A informação que se segue destina-se apenas aos profissionais de saúde: </p>
+<p>Rastreabilidade </p>
+<p>Tem que se aplicar os requisitos de rastreabilidade dos medicamentos de terapia avançada baseada em 
+células. Para garantir a rastreabilidade, o nome do medicamento, o número de lote e o nome do doente 
+tratado deve ser mantido por um período de 30 anos após a data de validade do medicamento. </p>
+<p>Preparação antes da administração </p>
+<p>Alofisel não pode ser filtrado ou administrado utilizando uma agulha mais fina que 22G. 
+Imediatamente antes da utilização, Alofisel pode ser ressuspendido, batendo suavemente no fundo do 
+frasco para injetáveis até se obter uma dispersão homogénea, evitando a formação de bolhas.  </p>
+<p>Administração </p>
+<p>Imediatamente antes da administração de Alofisel, os tratos fistulosos devem ser condicionados da 
+seguinte forma: 
+a) 
+Se estiverem colocados setons (sedenhos), estes têm de ser retirados. 
+b) 
+Identificar a localização das aberturas internas. Para isto, é recomendada a injeção de 
+solução de cloreto de sódio a 9 mg/ml (0,9%) através das aberturas externas até começar a 
+sair pelas aberturas internas. A injeção de qualquer outra substância através dos tratos das 
+fístulas, tais como peróxido de hidrogénio, azul de metileno, soluções iodadas ou soluções 
+hipertónicas de glicose não é permitida, pois estes agentes comprometem a viabilidade das 
+células que serão injetadas (ver secção 4.4 e secção 4.5). 
+c) 
+Efetuar uma curetagem vigorosa de todos os tratos fistulosos, com ênfase especial nas áreas 
+das aberturas internas, utilizando uma cureta metálica. 
+d) 
+Suturar fechando as aberturas internas. </p>
+<p>Após o condicionamento dos tratos fistulosos, Alofisel deve ser administrado de acordo com os 
+seguintes dois passos: 
+1. Preparação 
+a) 
+Prazo de validade: a data de Alofisel deve ser novamente confirmada; os frascos 
+para injetáveis devem então ser removidos da embalagem externa. 
+b) 
+Ressuspender as células batendo suavemente no fundo dos frascos para injetáveis, 
+até ser obtida uma dispersão homogénea, evitando a formação de bolhas. Cada 
+frasco para injetáveis deve ser utilizado imediatamente após a ressuspensão para 
+evitar que as células voltem a sedimentar. 
+c) 
+Retirar a tampa do frasco para injetáveis, virar suavemente o frasco ao contrário e 
+aspirar suavemente todo o conteúdo com uma seringa com uma agulha 
+convencional não mais fina do que 22G (ver secção 4.4). 
+d) 
+Substituir a agulha por uma agulha mais comprida, também não mais fina do 
+que 22G, para conseguir alcançar os locais de injeção pretendidos. Por exemplo, é 
+necessária uma agulha para raquianestesia com cerca de 90 mm de comprimento. 
+e) 
+Repetir os passos (b), (c) e (d) para cada um dos frascos para injetáveis restantes, 
+após as células de um frasco terem sido injetadas. 
+2. Injeção 
+Devem ser utilizados dois dos frascos para injetáveis para as aberturas internas e os restantes 
+dois para injeção ao longo das paredes dos tratos fistulosos (através das aberturas externas). 
+Após inserir a ponta da agulha em cada local de injeção pretendido, efetuar uma ligeira 
+aspiração para evitar uma administração intravascular. 
+a) 
+Injeção em redor das aberturas internas dos tratos fistulosos: inserir a agulha 
+através do ânus e proceder da seguinte forma: 
+- Se existir uma única abertura interna, injetar o conteúdo de cada um dos dois 
+frascos para injetáveis (um a seguir ao outro) em pequenos depósitos dentro do 
+tecido que rodeia a abertura interna única. 
+- Se existirem duas aberturas internas, injetar o conteúdo do primeiro dos dois 
+frascos para injetáveis em pequenos depósitos dentro do tecido que rodeia uma das 
+aberturas internas. Em seguida, injetar o conteúdo do segundo frasco para 
+injetáveis em pequenos depósitos dentro do tecido que rodeia a segunda abertura 
+interna. 
+b) 
+Injeção ao longo das paredes dos tratos fistulosos: inserir a agulha através das 
+aberturas externas e, a partir do lúmen da fístula: 
+- Se existir uma única abertura externa, injetar separadamente o conteúdo de cada 
+um dos frascos para injetáveis restantes superficialmente dentro do tecido das 
+paredes, ao longo do comprimento dos tratos fistulosos, fazendo pequenos 
+depósitos da dispersão celular. 
+- Se existirem duas ou três aberturas externas, injetar o conteúdo dos dois frascos 
+para injetáveis restantes equitativamente entre os tratos associados.<br />
+O procedimento para injeção ao longo das paredes dos tratos fistulosos deve ser 
+efetuado com base no conhecimento prévio da anatomia e da topologia dos 
+mesmos, conforme determinado durante a caracterização da fístula. Certificar-se de 
+que as células não são injetadas no lúmen dos tratos fistulosos para evitar fuga de 
+células. 
+Massajar suavemente a área em redor das aberturas externas durante 20-30 segundos e 
+cobrir as aberturas externas com um penso estéril. </p>
+<p>Precauções a serem tomadas para eliminação do medicamento </p>
+<p>Qualquer medicamento não utilizado e todos os materiais que tenham estado em contacto com Alofisel 
+(resíduos sólidos e líquidos) têm de ser tratados e eliminados de acordo com as exigências locais sobre 
+processamento de material biológico humano. </p>         </div>"""      
+
+
+
 
 
                     
@@ -586,6 +923,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-f00c2d057b37e01d3588f608535352b2"
 * entry[0].resource = composition-da-f00c2d057b37e01d3588f608535352b2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf00c2d057b37e01d3588f608535352b2"
+* entry[=].resource = mpf00c2d057b37e01d3588f608535352b2
+                            
+                    
+Instance: bundlepackageleaflet-pt-f00c2d057b37e01d3588f608535352b2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for alofisel Package Leaflet for language pt"
+Description: "ePI document Bundle for alofisel Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-f00c2d057b37e01d3588f608535352b2"
+* entry[0].resource = composition-pt-f00c2d057b37e01d3588f608535352b2
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpf00c2d057b37e01d3588f608535352b2"
@@ -687,6 +1046,18 @@ RuleSet: f00c2d057b37e01d3588f608535352b2ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-f00c2d057b37e01d3588f608535352b2) // alofisel pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

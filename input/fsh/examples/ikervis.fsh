@@ -701,6 +701,377 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-1f85f95883d4c92167ca0868ad5c50fd
+InstanceOf: CompositionUvEpi
+Title: "Composition for ikervis Package Leaflet"
+Description:  "Composition for ikervis Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1f85f95883d4c92167ca0868ad5c50fd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ikervis"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é IKERVIS e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar IKERVIS </li>
+<li>Como utilizar IKERVIS </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar IKERVIS </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ikervis e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ikervis e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IKERVIS contém a substância ativa ciclosporina. A ciclosporina pertence a um grupo de 
+medicamentos conhecidos como agentes imunossupressores, que são utilizados para reduzir a 
+inflamação. </p>
+<p>IKERVIS é utilizado para tratar adultos com queratite (inflamação da córnea, a camada transparente 
+na parte frontal do olho) grave. É utilizado nos doentes que sofrem de doença do olho seco que não 
+tenha melhorado apesar do tratamento com substitutos lacrimais (lágrimas artificiais). </p>
+<p>Se não se sentir melhor ou se piorar, tem de consultar um médico. </p>
+<p>Deve consultar o seu médico, pelo menos, a cada 6 meses para avaliar o efeito de IKERVIS. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ikervis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ikervis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NÃO utilize IKERVIS 
+- se tem alergia à ciclosporina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se teve ou tem um cancro no(s) olho(s) ou em volta do(s) olho(s). 
+- se tem uma infeção no(s) olho(s). </p>
+<p>Advertências e precauções 
+Utilize apenas IKERVIS para aplicar gotas no(s) seu(s) olho(s). </p>
+<p>Fale com o seu médico ou farmacêutico antes de utilizar IKERVIS 
+- se teve anteriormente uma infeção no(s) olho(s) causada pelo vírus do herpes que possa ter 
+causado lesões na parte frontal transparente do olho (córnea); 
+- se está a tomar algum medicamento contendo corticoides; 
+- se está a tomar algum medicamento para o tratamento do glaucoma. </p>
+<p>As lentes de contacto podem causar mais lesões na parte frontal transparente do olho (córnea). Por 
+conseguinte, deve remover as lentes de contacto ao deitar, antes de utilizar IKERVIS; pode voltar a 
+colocá-las quando acordar. </p>
+<p>Crianças e adolescentes 
+IKERVIS não deve ser utilizado em crianças e adolescentes com idade inferior a 18 anos. </p>
+<p>Outros medicamentos e IKERVIS 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente ou se vier a 
+utilizar outros medicamentos. </p>
+<p>Informe o seu médico se estiver a utilizar colírios contendo corticoides com IKERVIS, dado estes 
+poderem aumentar o risco de efeitos secundários. </p>
+<p>O colírio IKERVIS deve ser utilizado com um intervalo mínimo de 15 minutos relativamente a 
+qualquer outro colírio aplicado anteriormente. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de utilizar este medicamento. </p>
+<p>Não utilize IKERVIS se estiver grávida </p>
+<p>Se existir alguma possibilidade de ficar grávida, deve utilizar um método contracetivo adequado 
+enquanto estiver a utilizar este medicamento. </p>
+<p>Existe a possibilidade de IKERVIS estar presente no leite materno em quantidades muito pequenas. 
+Se estiver a amamentar, fale com o seu médico antes de utilizar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+A sua visão pode ficar turva imediatamente após utilizar o colírio IKERVIS. Se isto ocorrer, aguarde 
+até que a visão regresse ao normal antes de conduzir ou utilizar máquinas. </p>
+<p>IKERVIS contém cloreto de cetalcónio 
+Este medicamento contém 0,05 mg de cloreto de cetalcónio em cada ml. Deve remover as lentes de 
+contacto antes da utilização deste medicamento, pode voltar a colocá-las quando acordar. O cloreto de 
+cetalcónio pode causar irritação nos olhos. Se tiver uma sensação estranha no olho, picadas ou dor no 
+olho após utilizar este medicamento, fale com o seu médico. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ikervis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ikervis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.  </p>
+<p>A dose recomendada é de uma gota em cada olho afetado, uma vez por dia, ao deitar. </p>
+<p>Instruções de utilização<br />
+Siga cuidadosamente estas instruções e fale com o seu médico ou farmacêutico se não compreender 
+alguma coisa. </p>
+<p>1 
+2 
+3 </p>
+<p> 
+Lave as mãos. 
+ 
+Se utiliza lentes de contacto, remova-as ao deitar antes de utilizar as gotas; pode voltar a colocá-
+las quando acordar. 
+ 
+Abra a saqueta de alumínio, que contém 5 recipientes unidose. 
+ 
+Retire um recipiente unidose da saqueta de alumínio. 
+ 
+Agite suavemente o recipiente unidose antes da utilização. 
+ 
+Torça a tampa para abrir (imagem 1). 
+ 
+Puxe a pálpebra inferior para baixo (imagem 2). 
+ 
+Incline a cabeça para trás e olhe para cima, para o teto. 
+ 
+Aperte gentilmente o recipiente para aplicar uma gota do medicamento no olho. Certifique-se de 
+que não toca no olho com a ponta do recipiente unidose. 
+ 
+Pestaneje algumas vezes, por forma a que o medicamento cubra o olho. 
+ 
+Depois de utilizar IKERVIS, pressione um dedo sobre o canto do olho junto ao nariz e feche 
+suavemente as pálpebras durante 2 minutos (imagem 3). Isto ajuda a impedir que IKERVIS 
+atinja o resto do corpo. 
+ 
+Se utiliza as gotas em ambos os olhos, repita os passos anteriores para o outro olho. 
+ 
+Elimine o recipiente unidose assim que acabar de o utilizar, mesmo que ainda reste 
+medicamento no seu interior. 
+ 
+Os restantes recipientes unidose devem ser mantidos na saqueta de alumínio. </p>
+<p>Se uma gota não cair no olho, tente novamente. </p>
+<p>Se utilizar mais IKERVIS do que deveria, lave o olho com água. Não aplique mais gotas até chegar 
+a altura da dose normal seguinte. </p>
+<p>Caso se tenha esquecido de utilizar IKERVIS, o tratamento deve continuar com a dose seguinte 
+como planeado. Não utilize uma dose a dobrar para compensar uma dose que se esqueceu de utilizar. 
+Não utilize mais do que uma gota por dia no(s) olho(s) afetado(s). </p>
+<p>Se parar de utilizar IKERVIS sem falar com o seu médico, a inflamação da parte frontal 
+transparente do olho (conhecida como queratite) não será controlada, podendo dar origem a 
+insuficiência visual. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Foram observados os seguintes efeitos secundários: </p>
+<p>Os efeitos indesejáveis mais frequentes verificam-se nos olhos ou em torno dos mesmos. </p>
+<p>Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas) 
+- Dor nos olhos, 
+- Irritação nos olhos </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) 
+- Vermelhidão da pálpebra, 
+- Olhos lacrimejantes, 
+- Vermelhidão do olho, 
+- Visão turva, 
+- Inchaço da pálpebra, 
+- Vermelhidão da conjuntiva (membrana fina que recobre a parte frontal do olho), 
+- Comichão no olho </p>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) 
+- Desconforto no olho ou em torno do mesmo quando as gotas são colocadas no olho, incluindo 
+sensação da presença de algo no olho, 
+- Irritação ou inchaço da conjuntiva (membrana fina que recobre a parte frontal do olho), 
+- Perturbação da produção de lágrimas, 
+- Corrimento no(s) olho(s), 
+- Irritação ou inflamação da conjuntiva (membrana fina que cobre a parte frontal do olho), 
+- Inflamação da íris (parte colorida do olho) ou pálpebra, 
+- Depósitos no olho, 
+- Escoriação da camada exterior da córnea, 
+- Pálpebras vermelhas ou inchadas 
+- Quistos na pálpebra, 
+- Resposta imunitária ou cicatrizes na córnea, 
+- Comichão na pálpebra,<br />
+- Infeção bacteriana ou inflamação da córnea (parte frontal transparente do olho), 
+- Erupção na pele dolorosa em torno do olho causado pelo vírus do herpes zóster, 
+- Dor de cabeça </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ikervis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ikervis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, na saqueta 
+de alumínio e nos recipientes unidose após "EXP". O prazo de validade corresponde ao último dia do 
+mês indicado. </p>
+<p>Não congelar. 
+Conservar a temperatura inferior a 25°C. 
+Após abertura das saquetas de alumínio, os recipientes unidose devem ser mantidos dentro das 
+saquetas de modo a proteger da luz e evitar a evaporação. Eliminar qualquer recipiente unidose aberto 
+com eventuais restos de emulsão imediatamente após a utilização. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de IKERVIS 
+- A substância ativa é a ciclosporina. Um mililitro de IKERVIS contém 1 mg de ciclosporina. 
+- Os outros componentes são triglicéridos de cadeia média, cloreto de cetalcónio, glicerol, 
+tiloxapol, poloxamero 188, hidróxido de sódio (para ajuste do pH) e água para preparações 
+injetáveis. </p>
+<p>Qual o aspeto de IKERVIS e conteúdo da embalagem 
+IKERVIS é um colírio sob a forma de emulsão branca leitosa. </p>
+<p>É fornecido em recipientes unidose feitos de um polietileno de baixa densidade (PEBD). 
+Cada recipiente unidose contém 0,3 ml de emulsão para colírio. 
+Os recipientes unidose são acondicionados numa saqueta de alumínio selada. </p>
+<p>Tamanhos da embalagem: 30 e 90 recipientes unidose. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+SANTEN Oy 
+Niittyhaankatu 33720 Tampere 
+Finlândia </p>
+<p>Fabricante 
+EXCELVISION 
+Rue de la Lombardière 
+ZI la Lombardière 
+F-07100 Annonay 
+França </p>
+<p>SANTEN Oy 
+Kelloportinkatu 1 
+33100 Tampere 
+Finlândia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Santen Oy 
+Tél/Tel : +32 (0) 24019Lietuva 
+Santen Oy 
+Tel: +370 37 366 
+България 
+Santen Oy 
+Teл.: + 359 (0) 888 755<br />
+Luxembourg/Luxemburg 
+Santen Oy 
+Tél/Tel: +352 (0) 27862 
+Česká republika 
+Santen Oy 
+Tel: +358 (0) 3 284 8Magyarország 
+Santen Oy 
+Tel.: +358 (0) 3 284 8 
+Danmark 
+Santen Oy 
+Tlf: +45 898 713<br />
+Malta 
+Santen Oy 
+Tel: +358 (0) 3 284 8Deutschland 
+Santen GmbH<br />
+Tel: +49 (0) 3030809Nederland 
+Santen Oy 
+Tel: +31 (0)207139 
+Eesti 
+Santen Oy 
+Tel: +37 25067 
+Norge 
+Santen Oy 
+Tlf: +47 21939 
+Ελλάδα 
+Santen Oy 
+Τηλ: +358 (0) 3 284 8 
+Österreich 
+Santen Oy 
+Tel: + 43 (0) 720116 
+España 
+Santen Pharmaceutical Spain S.L. 
+Tel: +34 914 142<br />
+Polska 
+Santen Oy 
+Tel.: +48 (0) 221042 
+France 
+Santen S.A.S. 
+Tél: +33 (0) 1 70 75 26<br />
+Portugal 
+Santen Oy 
+Tel: +351 308 805<br />
+Hrvatska 
+Santen Oy 
+Tel: +358 (0) 3 284 8 
+Ireland 
+Santen Oy 
+Tel: +353 (0) 16950 
+România 
+Santen Oy 
+Tel: +358 (0) 3 284 8 
+Slovenija 
+Santen Oy 
+Tel: +358 (0) 3 284 8 
+Ísland 
+Santen Oy 
+Sími: +358 (0) 3 284 8 
+Slovenská republika 
+Santen Oy 
+Tel: +358 (0) 3 284 8 
+Italia 
+Santen Italy S.r.l. 
+Tel: +39 0236009 
+Suomi/Finland 
+Santen Oy 
+Puh/Tel: +358 (0) 974790 
+Κύπρος 
+Santen Oy 
+Τηλ: +358 (0) 3 284 8 
+Sverige 
+Santen Oy 
+Tel: +46 (0) 850598 
+Latvija 
+Santen Oy 
+Tel: +371 677 917 United Kingdom (Northern Ireland) 
+Santen Oy 
+Tel: +353 (0) 169 500 (UK Tel: +44 (0) 345 075 4863) </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -742,6 +1113,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-1f85f95883d4c92167ca0868ad5c50fd"
 * entry[0].resource = composition-da-1f85f95883d4c92167ca0868ad5c50fd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1f85f95883d4c92167ca0868ad5c50fd"
+* entry[=].resource = mp1f85f95883d4c92167ca0868ad5c50fd
+                            
+                    
+Instance: bundlepackageleaflet-pt-1f85f95883d4c92167ca0868ad5c50fd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ikervis Package Leaflet for language pt"
+Description: "ePI document Bundle for ikervis Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-1f85f95883d4c92167ca0868ad5c50fd"
+* entry[0].resource = composition-pt-1f85f95883d4c92167ca0868ad5c50fd
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp1f85f95883d4c92167ca0868ad5c50fd"
@@ -843,6 +1236,18 @@ RuleSet: 1f85f95883d4c92167ca0868ad5c50fdListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-1f85f95883d4c92167ca0868ad5c50fd) // ikervis pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

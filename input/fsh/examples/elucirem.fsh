@@ -531,6 +531,273 @@ bortskaffelse og anden form for håndtering i produktresuméet for dette produkt
 
 
 
+Instance: composition-pt-7b4681f061a21ab4a530ac7b9667ac82
+InstanceOf: CompositionUvEpi
+Title: "Composition for elucirem Package Leaflet"
+Description:  "Composition for elucirem Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7b4681f061a21ab4a530ac7b9667ac82)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - elucirem"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Elucirem e para que é utilizado  </li>
+<li>O que precisa de saber antes de lhe ser administrado Elucirem </li>
+<li>Como lhe será administrado Elucirem </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Elucirem </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é elucirem e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é elucirem e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Elucirem é um agente de contraste que intensifica o contraste das imagens obtidas durante exames de 
+ressonância magnética (IRMN). Elucirem contém a substância ativa gadopiclenol. </p>
+<p>Melhora a visualização e delineamento de estruturas anormais ou lesões de certas partes do corpo, e ajuda 
+na diferenciação entre tecido saudável e tecido doente.<br />
+É utilizado em adultos e crianças (idade igual ou superior a 2 anos). </p>
+<p>É administrado sob a forma de uma injeção na veia. Este medicamento é apenas para utilização em 
+diagnóstico e será administrado apenas por profissionais de saúde com experiência no campo da prática 
+da ressonância magnética clínica. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar elucirem"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar elucirem"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Elucirem não lhe pode ser administrado 
+- se tem alergia ao gadopiclenol ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções: 
+Fale com o seu médico, radiologista ou farmacêutico antes de lhe ser administrado Elucirem: 
+- se teve uma reação anterior a qualquer agente de contraste; 
+- se tem asma; 
+- se tem um historial de alergia (como febre dos fenos, urticária); 
+- se os seus rins não funcionam adequadamente; 
+- se teve convulsões (ataques) ou está a receber tratamento para a epilepsia; 
+- se sofre de uma doença que afeta o coração ou os vasos sanguíneos. </p>
+<p>Em todos estes casos, o seu médico decidirá se o exame pretendido é ou não possível. Se lhe for 
+administrado Elucirem, o seu médico ou radiologistaadotará as precauções necessárias, e a administração 
+de Elucirem será cuidadosamente monitorizada. </p>
+<p>O seu médico ou radiologistapode decidir efetuar uma análise ao sangue para verificar se os seus rins 
+estão a funcionar bem, antes de tomar a decisão de utilizar Elucirem, sobretudo se tiver uma idade igual 
+ou superior a 65 anos. </p>
+<p>Outros medicamentos e Elucirem 
+Informe o seu médico, radiologista ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se 
+vier a tomar outros medicamentos. 
+Em especial, informe o seu médico, radiologista ou farmacêutico se estiver a tomar, ou tiver tomado 
+recentemente, medicamentos para problemas cardíacos ou de tensão arterial, como agentes 
+betabloqueadores, substâncias vasoativas, inibidores da enzima de conversão da angiotensina (ECA), 
+antagonistas do recetor da angiotensina II. </p>
+<p>Gravidez e amamentação  </p>
+<p>Gravidez 
+Deve informar o seu médico ou radiologista se pensa que está ou possa vir a estar grávida, dado que 
+Elucirem só deve ser utilizado durante a gravidez se absolutamente necessário. </p>
+<p>Amamentação 
+Informe o seu médico ou radiologistase está a amamentar ou se está prestes a começar a amamentar.<br />
+O seu médico informá-la-á se deve continuar a amamentar ou se deve interromper a amamentação por um 
+período de 24 horas depois de lhe ser administrado Elucirem. </p>
+<p>Condução de veículos e utilização de máquinas 
+Elucirem não tem efeito ou é negligenciável sobre a capacidade de conduzir e usar máquinas. No entanto, 
+em caso de indisposição após o exame, não deve conduzir nem utilizar máquinas. </p>
+<p>Elucirem contém sódio 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por frasco para injetáveis de 15 ml, ou 
+seja, é essencialmente "isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar elucirem"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar elucirem"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Elucirem ser-lhe-á injetado numa veia, utilizando uma pequena agulha, por um profissional de saúde 
+especializado. 
+Pode ser administrado manualmente ou através de um injetor automático. </p>
+<p>O seu médico ou radiologista irá determinar a dose que irá receber e supervisionar a injeção. 
+A dose habitual de 0,1 ml/kg de peso corporal é a mesma em adultos e crianças com idade igual ou 
+superior a 2 anos. </p>
+<p>Nas crianças, o seu médico ou radiologista utilizará Elucirem em frascos para injetáveis com uma seringa 
+de uso único, para poder ter uma melhor precisão do volume injetado. </p>
+<p>Após a injeção, será mantido sob supervisão durante, pelo menos, 30 minutos. Esta é a altura em que a 
+maioria das reações indesejáveis (tais como reações alérgicas) podem ocorrer. No entanto, em casos raros, 
+as reações podem ocorrer após horas ou dias.  </p>
+<p>Utilização em doentes com problemas renais graves 
+A utilização de Elucirem não é recomendada em doentes com problemas renais graves. Contudo, se a 
+utilização for necessária, deve receber apenas uma dose de Elucirem durante um exame, e não deverá 
+receber uma segunda injeção durante, pelo menos, 7 dias. </p>
+<p>Utilização em idosos 
+Não é necessário ajustar a dose se tiver idade igual ou superior a 65 anos, mas é possível que tenha que 
+fazer análises ao sangue para verificar se os rins estão a funcionar bem. </p>
+<p>Se receber mais Elucirem do que deveria 
+É altamente improvável que receba uma sobredosagem de Elucirem, uma vez que o medicamento lhe será 
+administrado por um profissional de saúde com formação. No entanto, se tal acontecer, Elucirem pode ser 
+removido do corpo através de hemodiálise (limpeza do sangue). </p>
+<p>Caso ainda tenha dúvidas quanto à utilização deste medicamento, fale com o seu médico, radiologista ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.  </p>
+<p>Após a administração de Elucirem, será mantido sob observação. A maioria dos efeitos indesejáveis 
+ocorre em minutos. Existe um pequeno risco de poder desenvolver uma reação alérgica ao medicamento. 
+Estes efeitos podem ocorrer imediatamente até sete dias após a injeção. Tais reações podem ser graves e 
+resultar em choque anafilático (caso de uma reação alérgica que pode colocar a sua vida em perigo). </p>
+<p>Informe imediatamente o seu médico, radiologista ou profissional de saúde se sentir algum dos 
+seguintes efeitos indesejáveis, pois podem ser os primeiros sinais de um choque: 
+- inchaço do rosto, lábios, língua ou garganta 
+- sensação de atordoamento (tensão arterial baixa), 
+- dificuldades respiratórias 
+- erupção cutânea 
+- tosse, espirros ou corrimento nasal </p>
+<p>Os efeitos indesejáveis possíveis que foram observados durante os ensaios clínicos com Elucirem são 
+listados abaixo de acordo com a respetiva probabilidade: </p>
+<p>Frequência<br />
+Efeitos indesejáveis possíveis<br />
+Frequentes (podem afetar até 1 em cada pessoas)<br />
+Reação no local de injeção<em> 
+Dor de cabeça 
+Pouco frequentes<br />
+(podem afetar até 1 em cada 100 pessoas)<br />
+Reação alérgica</em>* 
+Diarreia 
+Náuseas (sensação de enjoo) 
+Fadiga (cansaço) 
+Dor abdominal 
+Sabor invulgar na boca 
+Sensação de calor 
+Vómitos (má disposição) </p>
+<p>*A reação no local de injeção inclui: dor, inchaço, sensação de frio, sensação de calor, nódoas negras ou 
+vermelhidão.  </p>
+<p>**As reações alérgicas podem incluir: inflamação da pele, vermelhidão da pele, dificuldades respiratórias, 
+problemas de voz, aperto da garganta, irritação da garganta, sensação anormal na boca, vermelhidão 
+transitória do rosto (reações precoces) e olhos inchados, inchaço, erupção da pele e comichão (reações 
+tardias). </p>
+<p>Foram relatados casos de fibrose sistémica nefrogénica (FSN) (que causa endurecimento da pele e pode 
+afetar também os tecidos moles e órgãos internos) com outro agente de contraste contendo gadolínio, 
+contudo não foi relatado nenhum caso de FSN com Elucirem durante os ensaios clínicos. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar elucirem"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar elucirem"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco para injetáveis ou da 
+seringa pré-cheia e da embalagem exterior após "EXP". O prazo de validade corresponde ao último dia do 
+mês indicado. </p>
+<p>Este medicamento é uma solução transparente, sem cor ou amarela pálido. 
+Não utilize este medicamento se a solução não for transparenteou se contiver partículas visíveis. </p>
+<p>Frascos para injetáveis: este medicamento não requer quaisquer condições especiais de conservação. 
+A estabilidade química e física durante o uso foi demonstrada durante 24 horas a uma temperatura 
+máxima de 25 °C. De um ponto de vista microbiológico, o produto deve ser utilizado imediatamente após 
+a sua abertura. </p>
+<p>Seringas pré-cheias: Não congelar. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Elucirem<br />
+- A substância ativa é o gadopiclenol. Cada ml de solução contém 485,1 mg de gadopiclenol 
+(equivalente a 0,5 mmol de gadopiclenol e a 78,6 mg de gadolínio). 
+- Os outros componentes são tetraxetano, trometamol, ácido clorídrico (para ajuste de pH), hidróxido 
+de sódio (para ajuste de pH) e água para preparações injetáveis. </p>
+<p>Qual o aspeto de Elucirem e conteúdo da embalagem </p>
+<p>É uma solução injetável transparente, sem cor ou amarelo pálido. </p>
+<p>Está disponível em embalagens, incluindo: 
+- 1 frasco para injetáveis contendo 3, 7,5, 10, 15, 30, 50 ou 100 ml de solução injetável. 
+- 25 frascos para injetáveis contendo 7,5, 10 ou 15 ml de solução injetável. 
+- 1 ou 10 (10 x 1) seringas pré-cheias contendo 7,5, 10 ou 15 ml de solução injetável. 
+- 1 seringa pré-cheia contendo 7,5, 10 ou 15 ml de solução injetável com conjunto de administração 
+para injeção manual (uma linha de extensão e um cateter). 
+- 1 seringa pré-cheia contendo 7,5, 10 ou 15 ml de solução injetável com conjunto de administração 
+para injetor Optistar Elite (uma linha de extensão, um cateter e uma seringa de plástico vazia de 
+60 ml). 
+- 1 seringa pré-cheia contendo 7,5, 10 ou 15 ml de solução injetável com conjunto de administração 
+para injetor Medrad Spectris Solaris EP (uma linha de extensão, um cateter e uma seringa de 
+plástico vazia de 115 ml). </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Guerbet 
+15 rue des Vanesses 
+93420 Villepinte 
+França </p>
+<p>Fabricante 
+Guerbet<br />
+16 - 24 rue Jean Chaptal 
+93600 Aulnay-sous-Bois 
+França </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -572,6 +839,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-7b4681f061a21ab4a530ac7b9667ac82"
 * entry[0].resource = composition-da-7b4681f061a21ab4a530ac7b9667ac82
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7b4681f061a21ab4a530ac7b9667ac82"
+* entry[=].resource = mp7b4681f061a21ab4a530ac7b9667ac82
+                            
+                    
+Instance: bundlepackageleaflet-pt-7b4681f061a21ab4a530ac7b9667ac82
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for elucirem Package Leaflet for language pt"
+Description: "ePI document Bundle for elucirem Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-7b4681f061a21ab4a530ac7b9667ac82"
+* entry[0].resource = composition-pt-7b4681f061a21ab4a530ac7b9667ac82
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp7b4681f061a21ab4a530ac7b9667ac82"
@@ -673,6 +962,18 @@ RuleSet: 7b4681f061a21ab4a530ac7b9667ac82ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-7b4681f061a21ab4a530ac7b9667ac82) // elucirem pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

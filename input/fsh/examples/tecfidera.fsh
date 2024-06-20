@@ -800,6 +800,430 @@ hjemmeside http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-pt-eb26fa1671149a9a84afe4c1bb85528a
+InstanceOf: CompositionUvEpi
+Title: "Composition for tecfidera Package Leaflet"
+Description:  "Composition for tecfidera Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpeb26fa1671149a9a84afe4c1bb85528a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tecfidera"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Tecfidera e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Tecfidera </li>
+<li>Como tomar Tecfidera </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Tecfidera </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tecfidera e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tecfidera e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Tecfidera </p>
+<p>Tecfidera é um medicamento que contém a substância ativa fumarato de dimetilo. </p>
+<p>Para que é utilizado Tecfidera </p>
+<p>Tecfidera é usado para tratar a esclerose múltipla (EM) do tipo surto-remissão em doentes com 
+idade igual ou superior a 13 anos. </p>
+<p>A EM é uma condição de longa duração que afeta o sistema nervoso central (SNC), incluindo o 
+cérebro e a medula espinal. A esclerose múltipla surto-remissão caracteriza-se por ataques repetidos 
+(surtos) de sintomas do sistema nervoso. Os sintomas variam de doente para doente mas, geralmente, 
+incluem dificuldades em andar, perdas de equilíbrio e dificuldades visuais (p. ex. visão turva ou 
+dupla). Estes sintomas podem desaparecer completamente quando o surto acaba, mas podem 
+permanecer alguns problemas. </p>
+<p>Como funciona Tecfidera </p>
+<p>Tecfidera parece funcionar impedindo que o sistema de defesa do corpo danifique o cérebro e medula 
+espinal. Isto pode ajudar a retardar o agravamento futuro da sua EM. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tecfidera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tecfidera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Tecfidera </p>
+<ul>
+<li>se tem alergia ao fumarato de dimetilo ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </li>
+<li>se existir a suspeita de que sofre de uma infeção rara do cérebro denominada 
+leucoencefalopatia multifocal progressiva (LMP) ou caso tenha sido confirmada LMP. </li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Tecfidera pode afetar as suas contagens de glóbulos brancos, os seus rins e fígado. Antes de 
+começar a tomar Tecfidera, o seu médico vai fazer análises ao seu sangue para contar o número de 
+glóbulos brancos e vai verificar se os seus rins e fígado estão a funcionar bem. O seu médico vai fazer 
+estas análises de forma periódica durante o tratamento. Se o seu número de glóbulos brancos diminuir 
+durante o tratamento, o seu médico pode considerar análises adicionais ou a interrupção do tratamento. </p>
+<p>Fale com o seu médico antes de tomar Tecfidera se tiver: 
+- doença renal grave 
+- doença hepática grave 
+- uma doença do estômago ou intestino 
+- uma infeção grave (como pneumonia) </p>
+<p>Herpes zóster (zona) pode ocorrer com o tratamento com Tecfidera. Em alguns casos, ocorreram 
+complicações graves. Deverá informar o seu médico imediatamente se suspeitar que tem sintomas de 
+zona. </p>
+<p>Se sentir que a sua EM está a piorar (por ex., fraqueza ou alterações na visão) ou se detetar novos 
+sintomas, informe imediatamente o seu médico, uma vez que estes podem ser os sintomas de uma 
+infeção rara do cérebro denominada LMP. A LMP é uma condição grave que pode conduzir a 
+incapacidade grave ou morte. </p>
+<p>Foi notificada uma doença renal rara mas grave, denominada síndrome de Fanconi), com um 
+medicamento que contém fumarato de dimetilo, em associação com outros ésteres do ácido fumárico, 
+utilizado no tratamento da psoríase (uma doença de pele). Se verificar que está a urinar mais, tem mais 
+sede e bebe mais do que o normal, os seus músculos parecem mais fracos, partiu um osso ou 
+simplesmente tem mal-estar e dores, fale com o seu médico assim que possível, para que a situação 
+possa ser avaliada mais aprofundadamente. </p>
+<p>Crianças e adolescentes </p>
+<p>Não dê este medicamento a crianças com menos de 10 anos de idade, pois não existem dados 
+disponíveis nesta faixa etária. </p>
+<p>Outros medicamentos e Tecfidera </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos, em especial: 
+- medicamentos que contenham ésteres do ácido fumárico (fumaratos) usados para tratar a 
+psoríase; 
+- medicamentos que afetem o sistema imunitário do corpo, incluindo quimioterapia, 
+imunossupressores ou outros medicamentos usados para tratar a EM; 
+- medicamentos que afetam os rins incluindo alguns antibióticos (usados para tratar infeções), 
+diuréticos, certos tipos de analgésicos (tais como ibuprofeno e outros anti-inflamatórios 
+semelhantes e medicamentos comprados sem receita médica) e medicamentos que contenham 
+lítio; 
+- a toma de Tecfidera com certos tipos de vacinas (vacinas vivas) pode causar-lhe uma infeção e, 
+portanto, deve ser evitada. O seu médico irá aconselhá-lo se deverá receber outros tipos de 
+vacinas (vacinas não vivas). </p>
+<p>Tecfidera com álcool </p>
+<p>O consumo acima de uma pequena quantidade (mais de 50 ml) de bebidas alcoólicas fortes (mais de 
+30% de álcool de volume, como por exemplo, bebidas espirituosas) deve ser evitado dentro de uma 
+hora após tomar Tecfidera, porque o álcool pode interagir com este medicamento. Isto pode levar a 
+uma inflamação do estômago (gastrite), especialmente em pessoas que já tenham tendência para 
+gastrite. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Gravidez </p>
+<p>A informação sobre os efeitos deste medicamento no feto se utilizado durante a gravidez é limitada. 
+Não utilize Tecfidera se estiver grávida, a menos que tenha discutido este assunto com o seu médico e 
+este medicamento seja claramente necessário para si. </p>
+<p>Amamentação </p>
+<p>Desconhece-se se a substância ativa de Tecfidera passa para o leite materno. O seu médico vai 
+aconselhá-la se deve parar de amamentar ou parar de usar Tecfidera. Isto envolve ponderar o benefício 
+de amamentar o seu bebé e o benefício do tratamento para si. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Não se prevê que Tecfidera afete a sua capacidade de conduzir e de utilizar máquinas. </p>
+<p>Tecfidera contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tecfidera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tecfidera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Dose inicial: 120 mg, duas vezes ao dia. 
+Tome esta dose inicial durante os primeiros 7 dias, depois tome a dose habitual. </p>
+<p>Dose habitual: 240 mg, duas vezes ao dia. </p>
+<p>Tecfidera é para utilização por via oral. </p>
+<p>Engula cada cápsula inteira, com alguma água. Não divida, esmague, dissolva, chupe ou mastigue a 
+cápsula porque isto pode aumentar alguns efeitos indesejáveis. </p>
+<p>Tome Tecfidera com alimentos - pode ajudar a reduzir alguns dos efeitos indesejáveis muito 
+frequentes (listados na secção 4). </p>
+<p>Se tomar mais Tecfidera do que deveria </p>
+<p>Se tomar demasiadas cápsulas, fale imediatamente com o seu médico. Pode sofrer efeitos 
+indesejáveis semelhantes aos descritos abaixo na secção 4.<br />
+Caso se tenha esquecido de tomar Tecfidera </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Pode tomar a dose em falta se deixar passar, pelo menos, 4 horas entre as doses. Caso contrário, espere 
+até à próxima dose planeada. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Tecfidera pode diminuir a contagem de linfócitos (um tipo de glóbulo branco). Ter uma contagem 
+baixa de glóbulos brancos pode aumentar o seu risco de infeção, incluindo o risco de uma infeção rara 
+do cérebro denominada leucoencefalopatia multifocal progressiva (LMP). A LMP pode conduzir a 
+uma incapacidade grave ou morte. A LMP ocorreu após 1 a 5 anos de tratamento, pelo que o seu 
+médico deve continuar a monitorizar os seus glóbulos brancos ao longo do tratamento e o doente 
+deverá estar atento a quaisquer potenciais sintomas de LMP conforme descrito abaixo. O risco de 
+LMP pode ser maior se tiver tomado anteriormente um medicamento que afete a funcionalidade do 
+seu sistema imunitário. </p>
+<p>Os sintomas de LMP podem ser semelhantes a um surto de esclerose múltipla. Os sintomas podem 
+incluir uma nova fraqueza ou agravamento de uma fraqueza de um lado do corpo; falta de destreza; 
+alterações da visão, raciocínio ou memória; ou confusão ou alterações de personalidade, assim como 
+dificuldades de fala e comunicação que durem vários dias. Desta forma, se sentir que a sua condição 
+de EM está a piorar ou se identificar novos sintomas enquanto estiver a ser tratado com Tecfidera, é 
+muito importante que fale com o seu médico o mais rapidamente possível. Fale também com o seu 
+parceiro ou cuidadores e informe-os acerca do seu tratamento. Poderão surgir sintomas dos quais não 
+se tenha apercebido. </p>
+<p> 
+Informe o seu médico imediatamente se apresentar algum destes sintomas </p>
+<p>Reações alérgicas graves </p>
+<p>A frequência das reações alérgicas graves não pode ser calculada a partir dos dados disponíveis 
+(desconhecida). </p>
+<p>A vermelhidão na face ou no corpo (rubor) é um efeito secundário muito frequente. No entanto, se o 
+rubor for acompanhado de uma erupção vermelha na pele ou urticária e se tiver algum destes 
+sintomas: </p>
+<ul>
+<li>inchaço da face, lábios, boca ou língua (angioedema) </li>
+<li>respiração ruidosa, dificuldade em respirar ou falta de ar (dispneia, hipoxia) </li>
+<li>tonturas ou perda de consciência (hipotensão) </li>
+</ul>
+<p>então tal poderá representar uma reação alérgica grave (anafilaxia). </p>
+<p> 
+Pare de tomar Tecfidera e chame um médico imediatamente </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- vermelhidão na face ou corpo, sentir-se quente, com calores ou sensação de queimadura ou 
+comichão (rubor) 
+- fezes soltas (diarreia) 
+- náuseas 
+- dor de estômago ou cãibras no estômago </p>
+<p> 
+Tomar o medicamento com alimentos poderá ajudar a diminuir os efeitos indesejáveis acima 
+mencionados </p>
+<p>Substâncias chamadas cetonas, que são produzidas naturalmente no corpo, aparecem muito 
+frequentemente em testes de urina enquanto tomar Tecfidera. </p>
+<p>Fale com o seu médico sobre como tratar estes efeitos indesejáveis. O seu médico pode reduzir a sua 
+dose. Não reduza a sua dose a menos que o médico lhe diga para o fazer. </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- inflamação do revestimento dos intestinos (gastroenterite) 
+- sentir-se mal (vómitos) 
+- indigestão (dispepsia) 
+- inflamação do revestimento do estômago (gastrite) 
+- distúrbio gastrointestinal 
+- sensação de queimadura 
+- afrontamento, sensação de calor 
+- comichão na pele (prurido) 
+- erupção cutânea 
+- manchas na pele, de coloração rosa ou vermelha (eritema) 
+- perda de cabelo (alopécia) </p>
+<p>Efeitos indesejáveis que podem aparecer nas suas análises ao sangue ou urina </p>
+<ul>
+<li>níveis baixos de glóbulos brancos (linfopenia, leucopenia) no sangue. A redução dos glóbulos 
+brancos pode significar que o seu corpo tem menos capacidade de combater uma infeção. Se 
+tiver uma infeção grave (como pneumonia), fale imediatamente com o seu médico. </li>
+<li>proteínas (albumina) na urina </li>
+<li>aumento nos níveis de enzimas hepáticas (ALT, AST) no sangue </li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) 
+- reações alérgicas (hipersensibilidade) 
+- redução das plaquetas sanguíneas </p>
+<p>Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- inflamação do fígado e aumento dos níveis das enzimas hepáticas (ALT ou AST em combinação 
+com a bilirrubina) 
+- herpes zóster (zona) com sintomas como vesículas, ardor, comichão ou dor na pele, tipicamente 
+num dos lados da parte superior do corpo ou do rosto, e outros sintomas, como febre e fraqueza 
+nas fases iniciais da infeção, seguidos de dormência, comichão ou manchas vermelhas com dor 
+grave 
+- corrimento nasal (rinorreia) </p>
+<p>Crianças e adolescentes (com idade igual ou superior a 13 anos) 
+Os efeitos indesejáveis listados acima também se aplicam a crianças e adolescentes. 
+Alguns efeitos indesejáveis foram comunicados com maior frequência em crianças e adolescentes do 
+que nos adultos, p. ex., dores de cabeça, dores de estômago ou cãibras no estômago, vómitos, dor de 
+garganta, tosse e períodos menstruais dolorosos. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tecfidera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tecfidera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior, 
+após “EXP". 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 30ºC. 
+Manter os blisters dentro da embalagem exterior para proteger da luz. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como eliminar os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tecfidera </p>
+<p>A substância ativa é o fumarato de dimetilo. 
+Tecfidera 120 mg: Cada cápsula contém 120 mg de fumarato de dimetilo. 
+Tecfidera 240 mg: Cada cápsula contém 240 mg de fumarato de dimetilo. </p>
+<p>Os outros ingredientes são celulose microcristalina, croscarmelose de sódio, talco, sílica coloidal 
+anidra, estearato de magnésio, citrato de trietilo, ácido metacrílico - copolímero de metacrilato de 
+metilo (1:1), ácido metacrílico - copolímero de acrilato de etilo (1:1) em dispersão a 30%, simeticone, 
+laurilsulfato de sódio, polissorbato 80, gelatina, dióxido de titânio (E171), azul brilhante FCF (E133), 
+óxido de ferro amarelo (E172), goma-laca, hidróxido de potássio e óxido de ferro preto (E172). </p>
+<p>Qual o aspeto de Tecfidera e conteúdo da embalagem </p>
+<p>As cápsulas gastrorresistentes de 120 mg de Tecfidera são verdes e brancas com a gravação “BG-120 mg" e estão disponíveis em embalagens de 14 cápsulas. </p>
+<p>As cápsulas gastrorresistentes de 240 mg de Tecfidera são verdes com a gravação “BG-12 240 mg" e 
+estão disponíveis em embalagens de 56 ou 168 cápsulas. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Biogen Netherlands B.V.<br />
+Prins Mauritslaan 1171 LP Badhoevedorp 
+Países Baixos </p>
+<p>Fabricante </p>
+<p>FUJIFILM Diosynth Biotechnologies Denmark ApS 
+Biotek Allé 1 
+DK-3400 Hillerød 
+Dinamarca </p>
+<p>Biogen Netherlands B.V. 
+Prins Mauritslaan 1171 LP Badhoevedorp 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Biogen Belgium NV/SA 
+Tél/Tel: +32 2 2191Lietuva 
+Biogen Lithuania UAB 
+Tel: +370 5 259 6 
+България 
+ТП ЕВОФАРМА 
+Teл: +359 2 962 12 00<br />
+Luxembourg/Luxemburg 
+Biogen Belgium NV/SA 
+Tél/Tel: +32 2 2191 
+Česká republika 
+Biogen (Czech Republic) s.r.o. 
+Tel: +420 255 706<br />
+Magyarország 
+Biogen Hungary Kft. 
+Tel: + 36 1 899 9 
+Danmark 
+Biogen (Denmark) A/S 
+Tlf: +45 77 41 57<br />
+Malta 
+Pharma. MT Ltd. 
+Tel: +356 21337008<br />
+Deutschland 
+Biogen GmbH 
+Tel: +49 (0) 89 99 6 
+Nederland 
+Biogen Netherlands B.V. 
+Tel: +31 20 542 2 
+Eesti 
+Biogen Estonia OÜ 
+Tel: +372 618 9 
+Norge 
+Biogen Norway AS 
+Tlf: +47 23 40 01 Ελλάδα 
+Genesis Pharma SA 
+Tηλ: +30 210 8771500<br />
+Österreich 
+Biogen Austria GmbH 
+Tel: +43 1 484 46<br />
+España 
+Biogen Spain, S.L. 
+Tel: +34 91 310 7 
+Polska 
+Biogen Poland Sp. z o.o. 
+Tel: +48 22 351 51<br />
+France 
+Biogen France SAS 
+Tél: +33 (0)1 41 37 95<br />
+Portugal 
+Biogen Portugal Sociedade Farmacêutica, 
+Unipessoal, Lda. 
+Tel: +351 21 318 8 
+Hrvatska 
+Biogen Pharma d.o.o. 
+Tel: +385 (0) 1 775 73<br />
+România 
+Johnson &amp; Johnson Romania S.R.L. 
+Tel: +40 21 207 18<br />
+Ireland 
+Biogen Idec (Ireland) Ltd. 
+Tel: +353 (0)1 463 7 
+Slovenija 
+Biogen Pharma d.o.o. 
+Tel: +386 1 511 02 Ísland 
+Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika 
+Biogen Slovakia s.r.o. 
+Tel: +421 2 323 340<br />
+Italia 
+Biogen Italia s.r.l. 
+Tel: +39 02 5849Suomi/Finland 
+Biogen Finland Oy 
+Puh/Tel: +358 207 401<br />
+Κύπρος 
+Genesis Pharma Cyprus Ltd 
+Tηλ: +3572 2 765Sverige 
+Biogen Sweden AB 
+Tel: +46 8 594 113<br />
+Latvija 
+Biogen Latvia SIA 
+Tel: +371 68 688 United Kingdom (Northern Ireland) 
+Biogen Idec (Ireland) Limited 
+Tel: +44 (0) 1628 50 1 
+Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -841,6 +1265,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-eb26fa1671149a9a84afe4c1bb85528a"
 * entry[0].resource = composition-da-eb26fa1671149a9a84afe4c1bb85528a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpeb26fa1671149a9a84afe4c1bb85528a"
+* entry[=].resource = mpeb26fa1671149a9a84afe4c1bb85528a
+                            
+                    
+Instance: bundlepackageleaflet-pt-eb26fa1671149a9a84afe4c1bb85528a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tecfidera Package Leaflet for language pt"
+Description: "ePI document Bundle for tecfidera Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-eb26fa1671149a9a84afe4c1bb85528a"
+* entry[0].resource = composition-pt-eb26fa1671149a9a84afe4c1bb85528a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpeb26fa1671149a9a84afe4c1bb85528a"
@@ -942,6 +1388,18 @@ RuleSet: eb26fa1671149a9a84afe4c1bb85528aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-eb26fa1671149a9a84afe4c1bb85528a) // tecfidera pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

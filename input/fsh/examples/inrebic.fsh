@@ -741,6 +741,450 @@ URL: www.inrebic-eu-pil.com. </p>         </div>"""
 
 
 
+Instance: composition-pt-d143dc49ab0647909fad048e72ad56b0
+InstanceOf: CompositionUvEpi
+Title: "Composition for inrebic Package Leaflet"
+Description:  "Composition for inrebic Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd143dc49ab0647909fad048e72ad56b0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - inrebic"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Inrebic e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Inrebic </li>
+<li>Como tomar Inrebic </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Inrebic </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é inrebic e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é inrebic e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Inrebic 
+Inrebic contém a substância ativa fedratinib. É um tipo de medicamento conhecido como “inibidor da 
+proteína cinase". </p>
+<p>Para que é utilizado Inrebic 
+Inrebic é utilizado para tratar doentes adultos com baço aumentado ou com sintomas relacionados com 
+mielofibrose, uma forma rara de cancro do sangue. </p>
+<p>Como funciona Inrebic 
+O aumento do baço é uma das características de mielofibrose. A mielofibrose é um distúrbio da 
+medula óssea, em que a medula é substituída por tecido cicatricial. A medula anormal já não consegue 
+produzir suficientes células sanguíneas normais e como resultado o baço fica significativamente 
+aumentado. Ao bloquear a ação de determinadas enzimas (chamadas de cinases associadas a Janus), 
+Inrebic pode reduzir o tamanho do baço em doentes com mielofibrose e aliviar sintomas como febre, 
+suores noturnos, dor óssea e perda de peso em doentes com mielofibrose. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar inrebic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar inrebic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Inrebic 
+- se tem alergia a fedratinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se está grávida ou pensa estar grávida. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar estas cápsulas e durante o tratamento, se tiver 
+algum dos seguintes sinais ou sintomas: </p>
+<p>Condição que afeta o cérebro chamada encefalopatia, incluindo encefalopatia de Wernicke </p>
+<ul>
+<li>
+<p>Confusão, perda de memória, ou dificuldade em pensar; perda de equilíbrio ou dificuldade em 
+andar. </p>
+</li>
+<li>
+<p>Problemas oculares, tais como movimento ocular aleatório, visão dupla, visão turva e perda de 
+visão. 
+Estes podem ser sinais potenciais de uma condição cerebral denominada encefalopatia, 
+incluindo encefalopatia de Wernicke que podem levar à morte. 
+Contacte o seu médico imediatamente caso tenha quaisquer destes sinais ou sintomas. </p>
+</li>
+</ul>
+<p>Fale com o seu médico ou farmacêutico durante o tratamento </p>
+<ul>
+<li>
+<p>se sentir muito cansaço, falta de ar, pele pálida ou batimento cardíaco rápido - estes podem ser 
+sinais de uma contagem baixa de glóbulos vermelhos. </p>
+</li>
+<li>
+<p>se tiver uma hemorragia pouco comum ou nódoas negras sob a pele, hemorragia mais longa que 
+o habitual depois do sangue ser colhido, ou hemorragia das gengivas - estes podem ser sinais de 
+uma baixa contagem de plaquetas no sangue. </p>
+</li>
+<li>
+<p>se tiver infeções frequentes ou recorrentes, que podem ser um sinal de uma baixa contagem de 
+glóbulos brancos. </p>
+</li>
+<li>
+<p>se tiver náuseas, vómitos ou diarreia. </p>
+</li>
+<li>
+<p>se tiver ou alguma vez tiver tido quaisquer problemas nos rins. </p>
+</li>
+<li>
+<p>se tiver ou alguma vez tiver tido quaisquer problemas no fígado. </p>
+</li>
+<li>
+<p>se tiver ou alguma vez tiver tido quaisquer problemas no pâncreas. </p>
+</li>
+</ul>
+<p>Observou-se o seguinte com outro tipo de medicamento semelhante utilizado para o tratamento da 
+artrite reumatoide: problemas cardíacos, coágulos de sangue e cancro. Fale com o seu médico ou 
+farmacêutico antes ou durante o tratamento se: </p>
+<ul>
+<li>
+<p>tem mais de 65 anos. Os doentes com 65 anos de idade ou mais poderão ter um risco maior de 
+problemas cardíacos, incluindo ataque cardíaco e alguns tipos de cancro. </p>
+</li>
+<li>
+<p>tem ou tiver tido problemas cardíacos. </p>
+</li>
+<li>
+<p>tem ou tiver tido um cancro. </p>
+</li>
+<li>
+<p>é fumador ou fumou no passado. </p>
+</li>
+<li>
+<p>teve anteriormente coágulos de sangue nas veias das pernas (trombose venosa profunda) ou nos 
+pulmões (embolia pulmonar). </p>
+</li>
+<li>
+<p>fica com falta de ar subitamente ou tem dificuldade em respirar, dor no peito ou dor na parte 
+superior das costas, inchaço de uma perna ou braço, dor na perna ou dor ao toque, ou 
+vermelhidão ou descoloração na perna ou no braço, uma vez que estes podem ser sinais de 
+coágulos de sangue nas veias. </p>
+</li>
+<li>
+<p>notar quaisquer novos crescimentos da pele ou alterações nos crescimentos já existentes. O seu 
+médico poderá recomendar que faça exames regulares à pele enquanto estiver a tomar Inrebic. </p>
+</li>
+</ul>
+<p>O seu médico irá discutir consigo se o Inrebic é apropriado para si. </p>
+<p>Análises ao sangue 
+Antes e durante o tratamento, fará análises ao sangue para verificar os seus níveis de células 
+sanguíneas (glóbulos vermelhos, glóbulos brancos e plaquetas), os seus níveis de vitamina B1 e a sua 
+função do fígado e pâncreas. O seu médico pode ajustar a dose ou interromper o tratamento com base 
+nos resultados das análises ao sangue. </p>
+<p>Crianças e adolescentes 
+Inrebic não deve ser utilizado em crianças ou jovens com menos de 18 anos de idade, porque este 
+medicamento não foi estudado neste grupo etário. </p>
+<p>Outros medicamentos e Inrebic 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. Isto porque Inrebic pode afetar o modo como alguns medicamentos 
+funcionam. E, outros medicamentos podem afetar também o modo como o Inrebic funciona. </p>
+<p>Os seguintes podem aumentar o risco de efeitos secundários com Inrebic: </p>
+<ul>
+<li>
+<p>Cetoconazol, fluconazol (utilizado para tratar infeções fúngicas); </p>
+</li>
+<li>
+<p>Fluvoxamina (utilizado para tratar depressão); </p>
+</li>
+<li>
+<p>Ritonavir (utilizado para tratar infeções de VIH/SIDA). </p>
+</li>
+</ul>
+<p>Os seguintes podem reduzir a eficácia de Inrebic: </p>
+<ul>
+<li>
+<p>Rifampicina (utilizada para tratar a tuberculose e outras infeções); </p>
+</li>
+<li>
+<p>Fenitoína (utilizada para tratar a epilepsia e controlar ataques ou convulsões); </p>
+</li>
+<li>
+<p>Efavirenz (utilizado para tratar infeções de VIH/SIDA). </p>
+</li>
+</ul>
+<p>Inrebic pode afetar outros medicamentos: </p>
+<ul>
+<li>
+<p>Midazolam (utilizado para o ajudar a dormir ou aliviar a ansiedade); </p>
+</li>
+<li>
+<p>Omeprazol (utilizado para tratar problemas de estômago); </p>
+</li>
+<li>
+<p>Metoprolol (utilizado para tratar a angina ou pressão arterial elevada); </p>
+</li>
+<li>
+<p>Metformina (utilizado para baixar os níveis de açúcar no sangue); </p>
+</li>
+<li>
+<p>E também a simvastatina, S-mefenitoína e dextrometorfano. </p>
+</li>
+</ul>
+<p>O seu médico irá decidir se a dose tem de ser alterada. </p>
+<p>Informe igualmente o seu médico se fez recentemente uma operação ou se vai realizar uma operação 
+ou um procedimento cirúrgico uma vez que Inrebic pode interagir com alguns sedativos. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Não tome Inrebic durante a gravidez. Se puder engravidar, tem de utilizar contraceção eficaz enquanto 
+tomar estas cápsulas e evitar engravidar durante pelo menos um mês após a última dose. </p>
+<p>Não amamente enquanto estiver a tomar Inrebic e durante pelo menos um mês após a última dose, 
+uma vez que se desconhece se este medicamento passa para o leite materno. </p>
+<p>Condução de veículos e utilização de máquinas 
+Se sentir tonturas, não conduzir ou utilizar máquinas até estes efeitos secundários terem desaparecido. </p>
+<p>Inrebic contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar inrebic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar inrebic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é de 400 mg (quatro cápsulas de 100 mg) por via oral uma vez por dia. </p>
+<p>Fará análises ao sangue antes e durante a toma deste medicamento para monitorizar o seu progresso. 
+Se experimentar determinados efeitos secundários enquanto estiver a tomar Inrebic (ver secção 4) o 
+seu médico pode baixar a sua dose ou suspender ou interromper o tratamento. </p>
+<p>Tomar estas cápsulas </p>
+<ul>
+<li>
+<p>engolir as cápsulas inteiras, de preferência com água. </p>
+</li>
+<li>
+<p>não abrir, quebrar ou mastigar as cápsulas. </p>
+</li>
+<li>
+<p>as cápsulas podem ser tomadas com ou sem alimentos, mas é preferível tomar com alimentos 
+para evitar sensação de ou enjoo (vómitos). </p>
+</li>
+</ul>
+<p>Deve continuar a tomar Inrebic durante o tempo que o seu médico indicar. Este é um tratamento 
+prolongado. </p>
+<p>Se tomar mais Inrebic do que deveria 
+Se tomar acidentalmente demasiadas cápsulas de Inrebic ou uma dose mais elevada do que deveria, 
+contacte imediatamente o seu médico ou farmacêutico. </p>
+<p>Caso se tenha esquecido de tomar Inrebic 
+Se falhar uma dose ou vomitar após tomar uma cápsula, ignorar a dose em falta e tomar a dose 
+seguinte à hora regular no dia seguinte. Não tome uma dose a dobrar para compensar a cápsula que se 
+esqueceu de tomar ou vomitou. </p>
+<p>Se parar de tomar Inrebic 
+Não pare de tomar Inrebic a menos que o seu médico lhe diga para o fazer. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Informe imediatamente o seu médico se notar algum dos seguintes sintomas, que podem ser um 
+sinal de uma condição grave que afeta o cérebro denominada encefalopatia (incluindo 
+encefalopatia de Wernicke): </p>
+<ul>
+<li>
+<p>Confusão, perda de memória ou dificuldade em pensar, </p>
+</li>
+<li>
+<p>Perda de equilíbrio ou dificuldade em andar, </p>
+</li>
+<li>
+<p>Problemas oculares, visão dupla, visão turva e, perda de visão ou movimentos oculares 
+aleatórios. </p>
+</li>
+</ul>
+<p>Informe o seu médico se tiver quaisquer efeitos indesejáveis. Estes podem incluir: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Níveis baixos de glóbulos vermelhos que podem causar cansaço, falta de ar, palidez ou um 
+batimento cardíaco acelerado (anemia). </p>
+</li>
+<li>
+<p>Redução de plaquetas no sangue, que pode facilitar o sangramento ou o aparecimento de nódoas 
+negras(trombocitopenia). </p>
+</li>
+<li>
+<p>Redução dos glóbulos brancos (neutropenia), por vezes acompanhada de febre. Um nível baixo 
+de glóbulos brancos pode reduzir a sua capacidade de combater as infeções. </p>
+</li>
+<li>
+<p>Indisposição (náuseas) ou enjoos (vómitos). </p>
+</li>
+<li>
+<p>Diarreia. </p>
+</li>
+<li>
+<p>Prisão de ventre </p>
+</li>
+<li>
+<p>Hemorragia. </p>
+</li>
+<li>
+<p>Infeção do trato urinário. </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Espasmos musculares. </p>
+</li>
+<li>
+<p>Cansaço (fadiga) ou fraqueza (astenia). </p>
+</li>
+<li>
+<p>Alterações nos resultados das análises ao sangue (alanina aminotransferase aumentada, 
+aumento da aspartato aminotransferase, aumento na creatinina no sangue, aumento nos níveis 
+de amilase e lipase). Estas podem ser um sinal de problemas no fígado, rins ou pâncreas. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Tonturas. </p>
+</li>
+<li>
+<p>Aumento da pressão arterial (hipertensão). </p>
+</li>
+<li>
+<p>Indigestão (dispepsia). </p>
+</li>
+<li>
+<p>Dor nos ossos. </p>
+</li>
+<li>
+<p>Dor nos membros, mãos ou pés (dor nas extremidades). </p>
+</li>
+<li>
+<p>Aumento de peso. </p>
+</li>
+<li>
+<p>Dor aquando da passagem de urina. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar inrebic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar inrebic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e frasco após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Manter o frasco bem fechado para proteger da humidade. </p>
+<p>O medicamento não necessita de qualquer temperatura especial de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Inrebic </p>
+<ul>
+<li>
+<p>A substância activa é fedratinib. Cada cápsula contém dicloridrato de fedratinib mono-hidratado 
+equivalente a 100 mg de fedratinib. </p>
+</li>
+<li>
+<p>Os outros componentes são: 
+o 
+A cápsula conteúdo contém celulose microcristalina silicificada (contém celulose 
+microcristalina (E460) e sílica coloidal anidra (E551)) e estearil fumarato de sódio (ver 
+secção 2, “Inrebic contém sódio"). 
+o 
+O revestimento da cápsula contém gelatina (E441), dióxido de titânio (E171) e óxido de 
+ferro vermelho (E172). 
+o 
+A tinta de impressão branca é composta por goma laca (E904), dióxido de titânio (E171) 
+e propilenoglicol (E1520). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Inrebic e conteúdo da embalagem </p>
+<ul>
+<li>
+<p>Inrebic são cápsulas de cor castanho avermelhado, 21,4 -22,0 mm, impressas com “FEDR| sobre 
+a tampa e “100 mg" no corpo em tinta branca. </p>
+</li>
+<li>
+<p>As cápsulas são embaladas num frasco de polietileno de alta densidade (HDPE) com tampa de 
+polipropileno resistente a crianças e com selo de indução de calor. Cada frasco 
+contém 120 cápsulas e é embalado numa caixa de cartão. </p>
+</li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrlanda </p>
+<p>Fabricante 
+Celgene Distribution B.V. 
+Orteliuslaan 13528 BD Utrecht 
+Países Baixos </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -782,6 +1226,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d143dc49ab0647909fad048e72ad56b0"
 * entry[0].resource = composition-da-d143dc49ab0647909fad048e72ad56b0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd143dc49ab0647909fad048e72ad56b0"
+* entry[=].resource = mpd143dc49ab0647909fad048e72ad56b0
+                            
+                    
+Instance: bundlepackageleaflet-pt-d143dc49ab0647909fad048e72ad56b0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inrebic Package Leaflet for language pt"
+Description: "ePI document Bundle for inrebic Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d143dc49ab0647909fad048e72ad56b0"
+* entry[0].resource = composition-pt-d143dc49ab0647909fad048e72ad56b0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd143dc49ab0647909fad048e72ad56b0"
@@ -883,6 +1349,18 @@ RuleSet: d143dc49ab0647909fad048e72ad56b0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d143dc49ab0647909fad048e72ad56b0) // inrebic pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

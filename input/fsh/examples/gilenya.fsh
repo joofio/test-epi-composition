@@ -1355,6 +1355,722 @@ hjemmeside http://www.ema.europa.eu/ </p>         </div>"""
 
 
 
+Instance: composition-pt-62a8f25678d9e8ed32026d400d8228e9
+InstanceOf: CompositionUvEpi
+Title: "Composition for gilenya Package Leaflet"
+Description:  "Composition for gilenya Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp62a8f25678d9e8ed32026d400d8228e9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - gilenya"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Gilenya e para que é utilizado 
+2. O que precisa de saber antes de tomar Gilenya 
+3. Como tomar Gilenya 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Gilenya 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é gilenya e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é gilenya e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Gilenya 
+Gilenya contém a substância ativa fingolimod. </p>
+<p>Para que é utilizado Gilenya 
+Gilenya é utilizado para o tratamento de esclerose múltipla (EM) surto-remissão nos adultos e em 
+crianças e adolescentes (10 ou mais anos de idade), mais especificamente em: 
+- Doentes que não respondem ao tratamento, apesar do tratamento com outro tratamento para a 
+esclerose múltipla. 
+ou 
+- Doentes com esclerose múltipla grave em rápida evolução. </p>
+<p>Gilenya não cura a esclerose múltipla mas ajuda a diminuir o número de surtos e atrasa a progressão 
+da incapacidade física devido à esclerose múltipla. </p>
+<p>O que é a esclerose múltipla 
+A esclerose múltipla é uma doença de longa duração que afeta o sistema nervoso central (SNC), 
+composto por o cérebro e a espinal medula. Na esclerose múltipla, a inflamação destrói a bainha 
+protetora (chamada mielina) que envolve os nervos do SNC, impedindo os nervos de funcionarem 
+normalmente. Este processo é chamado desmielinização. </p>
+<p>A esclerose múltipla surto-remissão é caracterizada por crises (surtos) repetidas de sintomas do 
+sistema nervoso que indicam inflamação do SNC. Os sintomas variam de doente para doente mas 
+normalmente envolvem dificuldade em andar, dormência (adormecimento), problemas de visão ou 
+alterações do equilíbrio. Os sintomas de um surto podem desaparecer completamente após este 
+terminar mas alguns problemas podem-se manter. </p>
+<p>Como atua Gilenya 
+Gilenya ajuda na proteção contra os ataques do sistema imunitário ao SNC diminuindo a capacidade 
+de alguns glóbulos brancos (linfócitos) se moverem livremente no organismo e impedindo-os de 
+alcançarem o cérebro e a espinal medula. Este mecanismo limita os danos que a esclerose múltipla 
+causa nos nervos. Gilenya também reduz algumas das reações imunes do seu corpo. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar gilenya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar gilenya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Gilenya 
+- se tem uma resposta imunitária reduzida (devido a uma síndrome de imunodeficiência, uma 
+doença ou medicamentos que suprimem o sistema imunitário). 
+- se tem uma infeção ativa grave ou infeção crónica ativa tais como hepatite ou tuberculose. 
+- se tem um cancro ativo. 
+- se tem problemas de fígado graves. 
+- se, nos últimos 6 meses, teve ataque do coração, angina, acidente vascular cerebral ou sinal 
+de alerta de um acidente vascular cerebral ou alguns tipos de insuficiência cardíaca. 
+- se tem alguns tipos de batimento cardíaco irregular ou anormal (arritmia), incluindo doentes 
+nos quais o eletrocardiograma (ECG) mostra intervalo QT prolongado antes de iniciar Gilenya. 
+- se toma ou tiver tomado recentemente algum medicamento para o batimento cardíaco 
+irregular, tais como, quinidina, disopiramida, amiodarona ou sotalol. 
+- se está grávida ou é uma mulher com potencial para engravidar que não utiliza 
+contracetivos eficazes. 
+- se tem alergia ao fingolimod ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+Se estas situações se aplicam a si ou está inseguro, informe o seu médico antes de tomar Gilenya. </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de tomar Gilenya: 
+- se tem problemas graves na respiração durante o sono (apneia do sono grave). 
+- se foi informado que tem um eletrocardiograma anormal. 
+- se sofre de sintomas de frequência cardíaca lenta (por exemplo tonturas, náuseas ou 
+palpitações). 
+- se toma ou tiver tomado recentemente medicamentos que diminuem a sua frequência 
+cardíaca (tais como betabloqueadores, verapamilo, diltiazem ou ivabradina, digoxina, agentes 
+anticolinesterásicos ou pilocarpina). 
+- se tem história clínica de perda súbita de consciência ou desmaio (síncope). 
+- se planeia ser vacinado. 
+- se nunca teve varicela. 
+- se tem ou teve perturbações visuais ou outros sinais de inchaço na área visual central (mácula) 
+na parte posterior do olho (uma doença conhecida por edema macular, ver abaixo), inflamação 
+ou infeção do olho (uveíte) ou se tem diabetes (que pode provocar problemas visuais). 
+- se tem problemas de fígado. 
+- se tem tensão arterial alta que não é controlada por medicamentos. 
+- se tem problemas pulmonares graves ou tosse do fumador. 
+Se estas situações se aplicam a si ou está inseguro, informe o seu médico antes de tomar Gilenya. </p>
+<p>Frequência cardíaca lenta (bradicardia) e batimento cardíaco irregular 
+No início do tratamento, ou após tomar a primeira dose de 0,5 mg quando é transferido da dose diária 
+de 0,25 mg, Gilenya faz com que a frequência cardíaca abrande. Como resultado, poderá sentir 
+tonturas ou cansaço ou sentir conscientemente o seu batimento cardíaco, ou a sua pressão arterial pode 
+diminuir. Se estes efeitos forem marcados, informe o seu médico, porque pode precisar de 
+tratamento imediato. Gilenya também pode causar batimento cardíaco irregular, principalmente após 
+a primeira dose. O batimento cardíaco irregular normalmente regressa ao normal em menos de um dia. 
+A frequência cardíaca lenta normalmente regressa ao normal ao fim de um mês. Normalmente, durante 
+este período não são esperados efeitos significativos no ritmo cardíaco. </p>
+<p>O seu médico pedirá que fique no consultório médico ou clínica durante pelo menos 6 horas após a 
+toma da primeira dose de Gilenya, ou após tomar a primeira dose de 0,5 mg quando é transferido da 
+dose diária de 0,25 mg, com monitorização da tensão arterial e pulso hora a hora, para que possam ser 
+tomadas medidas apropriadas caso tenha efeitos indesejáveis que podem acontecer no início do 
+tratamento. Deverá ser efetuado um eletrocardiograma antes da primeira dose de Gilenya e após o 
+período de monitorização de 6 horas. O seu médico poderá monitorizar o seu eletrocardiograma 
+continuamente durante esse tempo. Se tiver um batimento cardíaco muito lento ou a diminuir após o 
+período de 6 horas, ou se o eletrocardiograma mostra irregularidades, poderá ser monitorizado por um 
+período prolongado (pelo menos 2 horas mais e possivelmente durante a noite) até à resolução das 
+irregularidades. O mesmo se pode aplicar se voltar a tomar Gilenya após uma pausa no tratamento, 
+dependendo da duração da pausa e de há quanto tempo estava a tomar Gilenya antes da pausa. </p>
+<p>Se tiver, ou se tiver em risco de, batimento cardíaco anormal ou irregular, se o seu eletrocardiograma é 
+anormal, ou se tem doença cardíaca ou insuficiência cardíaca, Gilenya poderá não ser apropriado para 
+si. </p>
+<p>Se tem história clínica de perda de consciência súbita ou frequência cardíaca diminuída, Gilenya 
+poderá não ser apropriado para si. Será avaliado por um cardiologista (especialista do coração) para 
+aconselhar como iniciar o tratamento com Gilenya, incluindo monitorização durante a noite. </p>
+<p>Se toma medicamentos que podem originar diminuição da frequência cardíaca, Gilenya poderá não ser 
+apropriado para si. Será necessário ser avaliado por um cardiologista, o qual irá verificar se terá de 
+substituir os seus medicamentos por outros que não diminuam a frequência cardíaca de modo a 
+permitir o tratamento com Gilenya. Se esta substituição não for possível, o cardiologista aconselhará 
+como iniciar o tratamento com Gilenya, incluindo monitorização durante a noite. </p>
+<p>Se nunca teve varicela 
+Se nunca teve varicela, o seu médico verificará a sua imunidade ao vírus que a causa (vírus varicella 
+zoster). Se não tem proteção contra o vírus, pode precisar de ser vacinado antes de iniciar o tratamento 
+com Gilenya. Se for este o caso, o seu médico irá atrasar o início do tratamento com Gilenya até um 
+mês após o ciclo completo de vacinação estar terminado. </p>
+<p>Infeções 
+Gilenya diminui a contagem dos glóbulos brancos (principalmente a contagem de linfócitos). Os 
+glóbulos brancos lutam contra as infeções. Enquanto estiver a tomar Gilenya (e até 2 meses após a 
+interrupção do tratamento), poderá ter infeções mais facilmente. Qualquer infeção que possa ter 
+poderá piorar. As infeções podem ser graves e com risco de vida. Se acha que tem uma infeção, tem 
+febre, sente que tem gripe, tem zona ou tem uma dor de cabeça acompanhada de rigidez do pescoço, 
+sensibilidade à luz, náuseas, erupção da pele e/ou confusão ou crises (convulsões) (estes podem 
+sintomas de meningite e/ou encefalite causados por uma infeção fúngica ou herpes vírica), contacte 
+imediatamente o seu médico, pode ser considerado uma situação grave ou pode colocar a sua vida em 
+risco. </p>
+<p>Se acredita que a sua esclerose múltipla está a piorar (por ex. fraqueza ou alterações da visão) ou se 
+notar quaisquer novos sintomas, fale com o seu médico imediatamente porque estes podem ser os 
+sintomas de uma doença rara causada por infeção e chamada Leucoencefalopatia Multifocal 
+Progressiva (LMP). A LMP é uma condição séria que pode conduzir a incapacidade grave ou morte. O 
+seu médico irá considerar a realização de um ressonância magnética para avaliar esta condição e irá 
+decidir se tem de parar de tomar Gilenya. </p>
+<p>Foram notificadas em doentes tratados com Gilenya infeções pelo vírus do papiloma humano (VPH), 
+incluindo papiloma, displasia, verrugas e cancro relacionado com o VPH. O seu médico irá ter em 
+conta se necessita de receber vacinação para VPH antes de iniciar o tratamento. Se é uma mulher, o 
+seu médico também irá recomendar monitorização para o VPH. </p>
+<p>Edema macular 
+Antes de iniciar o tratamento com Gilenya, se tem ou teve perturbações da visão ou outros sinais de 
+inchaço na área visual central (mácula) na parte posterior do olho, inflamação ou infeção do olho 
+(uveíte) ou se tem diabetes, o seu médico poderá querer que faça um exame aos olhos. </p>
+<p>O seu médico poderá querer que efetue um exame ocular 3 a 4 meses após o início do tratamento com 
+Gilenya. </p>
+<p>A mácula é uma pequena área da retina na parte posterior do olho que lhe permite ver formas, cores e 
+detalhes claramente e nitidamente. Gilenya pode provocar inchaço da mácula, uma situação conhecida 
+por edema macular. O inchaço acontece normalmente nos primeiros 4 meses de tratamento com 
+Gilenya. </p>
+<p>A probabilidade de desenvolver edema macular é maior se tem diabetes ou se teve uma inflamação do 
+olho designada por uveíte. Nestes casos, o seu médico poderá querer que efetue exames regulares aos 
+olhos para detetar edema ocular. </p>
+<p>Se já teve edema macular, informe o seu médico antes de iniciar o tratamento com Gilenya. </p>
+<p>O edema macular pode provocar alguns dos mesmos sintomas visuais de um surto de EM (nevrite 
+ótica). Os sintomas poderão não surgir logo de início. Tenha a certeza que informa o seu médico se 
+acontecer qualquer alteração na sua visão. O seu médico poderá querer que efetue um exame ocular, 
+especialmente se: 
+- o centro da sua visão ficar enevoado ou com sombras; 
+- desenvolver um ponto cego no centro da sua visão; 
+- tiver problemas em ver cores ou pequenos detalhes. </p>
+<p>Testes da função hepática 
+Não tome Gilenya se tem problemas de fígado graves. Gilenya pode afetar a sua função hepática. 
+Provavelmente não irá notar quaisquer sintomas mas se notar o amarelecimento da sua pele ou das 
+partes brancas dos olhos, escurecimento anormal da urina (de cor acastanhada), dor no lado direito do 
+seu estômago (abdómen), cansaço, ter menos apetite do que habitualmente ou náuseas e vómitos 
+inexplicáveis, informe imediatamente o seu médico. 
+Se tiver algum destes sintomas após o início do tratamento com Gilenya, informe imediatamente o 
+seu médico. </p>
+<p>Antes, durante e após o tratamento, o seu médico irá pedir exames ao sangue para vigiar a sua função 
+hepática. Se os resultados dos exames indicarem um problema com o seu fígado, poderá ter de 
+interromper o tratamento com Gilenya. </p>
+<p>Tensão arterial elevada 
+Uma vez que Gilenya provoca um ligeiro aumento da pressão arterial, o seu médico poderá querer 
+verificar a sua pressão arterial regularmente. </p>
+<p>Problemas nos pulmões 
+Gilenya tem um efeito ligeiro na função pulmonar. Os doentes com problemas pulmonares graves ou 
+com tosse do fumador podem ter uma maior probabilidade de desenvolverem efeitos indesejáveis. </p>
+<p>Contagem sanguínea 
+O efeito desejado com o tratamento de Gilenya é a diminuição da quantidade de glóbulos brancos no 
+sangue. A quantidade de glóbulos brancos no sangue regressa aos valores normais 2 meses após a 
+paragem do tratamento. Se necessitar fazer análises ao sangue, informe o médico que está a tomar 
+Gilenya. Caso contrário, poderá não ser possível ao médico entender os resultados das análises e, para 
+alguns tipos de análises sanguíneas, o seu médico poderá necessitar de colher mais sangue que o 
+habitual. </p>
+<p>Antes de iniciar o tratamento com Gilenya, o seu médico irá confirmar se tem glóbulos brancos 
+suficientes no seu sangue e poderá querer repetir a verificação regularmente. Caso não tenha glóbulos 
+brancos suficientes, poderá ter de interromper o tratamento com Gilenya. </p>
+<p>Síndrome de encefalopatia posterior reversível (PRES) 
+Uma condição denominada síndrome de encefalopatia posterior reversível (PRES) foi notificada 
+raramente em doentes com esclerose múltipla tratados com Gilenya. Os sintomas podem incluir dor de 
+cabeça intensa, confusão, convulsões e alterações de visão. Informe o seu médico imediatamente se 
+tiver algum destes sintomas durante o tratamento com Gilenya, porque pode ser grave. </p>
+<p>Cancro 
+Foram notificados cancros da pele em doentes com esclerose múltipla tratados com Gilenya. Fale com 
+o seu médico imediatamente se notar quaisquer nódulos cutâneos (nódulos na pele) (por exemplo 
+nódulos brilhantes como pérolas), manchas ou feridas abertas que não saram em semanas. Os sintomas 
+de cancro da pele podem incluir o crescimento anormal ou alterações do tecido da pele (por exemplo 
+sinais incomuns) com uma alteração da cor, forma ou tamanho ao longo do tempo. Antes de iniciar o 
+tratamento com Gilenya é necessário um exame da pele para verificar se tem quaisquer nódulos 
+cutâneos (nódulos na pele). O seu médico também realizará exames regulares da pele durante o seu 
+tratamento com Gilenya. Se desenvolver problemas na sua pele, o seu médico poderá encaminhá-lo 
+para um dermatologista que, após consulta, poderá decidir que é importante que seja visto 
+regularmente. </p>
+<p>Foi notificado um tipo de cancro do sistema linfático (linfoma) em doentes com escleose múltipla 
+tratados com Gilenya. </p>
+<p>Exposição ao sol e proteção contra o sol 
+O fingolimod enfraquece o seu sistema imunitário. Isto aumenta o seu risco de desenvolver cancros, 
+em particular cancros da pele. Deve limitar a sua exposição ao sol e raios UV ao: </p>
+<ul>
+<li>
+<p>utilizar roupa protetora apropriada. </p>
+</li>
+<li>
+<p>aplicar regularmente protetor solar com um elevado grau de proteção UV. </p>
+</li>
+</ul>
+<p>Lesões cerebrais invulgares associadas a surtos de esclerose múltipla 
+Foram notificados em doentes tratados com Gilenya casos raros de lesões cerebrais invulgarmente 
+grandes associadas a surtos de esclerose múltipla. Em caso de surtos graves, o seu médico irá 
+considerar a realização de ressonância magnética para avaliar esta condição e decidirá se deve parar de 
+tomar Gilenya. </p>
+<p>Transferência de outros tratamentos para Gilenya 
+O seu médico poderá mudá-lo diretamente de interferão beta, acetato de glatirâmero ou fumarato de 
+dimetilo para Gilenya se não tiver sinais de anomalias provocadas pelo tratamento anterior. O seu 
+médico poderá ter de fazer um teste sanguíneo de modo a excluir tais anomalias. Após parar 
+natalizumab poderá ter de esperar 2-3 meses antes do início do tratamento com Gilenya. Para mudá-lo 
+de teriflunomida, o seu médico poderá aconselhá-lo a esperar algum tempo ou efetuar um 
+procedimento de eliminação acelerada. Se tem sido tratado com alemtuzumab, é necessária uma 
+avaliação completa e falar com o seu médico para decidir se Gilenya é apropriado para si. </p>
+<p>Mulheres com potencial para engravidar 
+Se utilizado durante a gravidez, Gilenya pode causar dano ao bebé que irá nascer. Antes de iniciar 
+tratamento com Gilenya o seu médico irá explicar-lhe o risco e pedir-lhe que faça um teste de gravidez 
+para assegurar que não está grávida. O seu médico irá dar-lhe um cartão de explica porque não deve 
+engravidar enquanto toma Gilenya. Também explica o que deve fazer para evitar engravidar enquanto 
+toma Gilenya. Deve utilizar métodos contracetivos eficazes durante o tratamento e durante 2 meses 
+após interromper o tratamento (ver secção “Gravidez e amamentação"). </p>
+<p>Agravamento da esclerose múltipla após interromper o tratamento com Gilenya 
+Não pare de tomar Gilenya ou altere a sua dose sem falar com o seu médico primeiro. </p>
+<p>Informe o seu médico de imediato se pensa que a sua esclerose múltipla está a piorar após ter parado o 
+tratamento com Gilenya. Isto pode ser grave (ver “Se parar de tomar Gilenya" na secção 3, e também 
+na secção 4 “Efeitos indesejáveis possíveis") </p>
+<p>Idosos 
+A experiência com Gilenya em doentes idosos com idade superior a 65 anos é limitada. Fale com o 
+seu médico se tem algumas preocupações. </p>
+<p>Crianças e adolescentes </p>
+<p>Gilenya não se destina a utilização em crianças com menos de 10 anos de idade, uma vez que não foi 
+estudado em doentes com esclerose múltipla nesta faixa etária. </p>
+<p>As advertências e precauções listadas acima também se aplicam a crianças e adolescentes. A seguinte 
+informação é particularmente importante para crianças e adolescentes e os seus cuidadores: 
+- Antes de iniciar Gilenya, o seu médico irá verificar o seu estado de vacinação. Se não recebeu 
+determinadas vacinas, poderá ser necessário que as receba antes que Gilenya possa ser iniciado. 
+- A primeira vez que tomar Gilenya, ou quando mudar da dose diária de 0,25 mg para a dose 
+diária 0,5 mg, o seu médico irá monitorizar o seu ritmo cardíaco e batimento cardíaco (ver 
+“Frequência cardíaca lenta (bradicardia) e batimento cardíaco irregular" acima). 
+- Se tiver convulsões ou ataques antes ou enquanto toma Gilenya, informe o seu médico. 
+- Se sofre de depressão ou ansiedade ou se fica deprimido ou ansioso enquanto toma Gilenya, 
+informe o seu médico. Poderá ter de ser monitorizado de perto. </p>
+<p>Outros medicamentos e Gilenya 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Informe o seu médico se toma algum dos seguintes medicamentos: </p>
+<ul>
+<li>
+<p>Medicamentos que suprimem ou alteram o sistema imunitário, incluindo outros 
+medicamentos utilizados para o tratamento da esclerose múltipla, tais como, interferão-
+beta, acetato de glatirâmero, natalizumab, mitoxantrona, teriflunomida, fumarato de dimetilo ou 
+alemtuzumab. Não tome Gilenya com estes medicamentos porque podem aumentar o efeito no 
+sistema imunitário (ver também “Não tome Gilenya"). </p>
+</li>
+<li>
+<p>Corticosteroides, devido a um possível efeito aditivo no sistema imunitário. </p>
+</li>
+<li>
+<p>Vacinas. Se necessita de uma vacina, primeiro solicite conselhos ao seu médico. Durante e até 
+2 meses após o início do tratamento com Gilenya, não lhe deverão ser administrados alguns 
+tipos de vacinas (vacinas vivas atenuadas) porque podem provocar infeções que deveriam 
+prevenir. Outras vacinas podem não funcionar como normalmente se administradas durante este 
+período. </p>
+</li>
+<li>
+<p>Medicamentos que abrandam o batimento cardíaco (por exemplo betabloqueadores, tais 
+como atenolol). A administração conjunta de Gilenya com estes medicamentos pode intensificar 
+o efeito no batimento cardíaco nos primeiros dias após o início do tratamento com Gilenya. </p>
+</li>
+<li>
+<p>Medicamentos para o batimento cardíaco irregular, tais como, quinidina, disopiramida, 
+amiodarona ou sotalol. Não deve utilizar Gilenya se está a tomar algum destes medicamentos 
+porque pode intensificar o efeito no batimento cardíaco irregular (ver também “Não tome 
+Gilenya"). </p>
+</li>
+<li>
+<p>Outros medicamentos:<br />
+o 
+inibidores da protease, anti-infeciosos tais como cetoconazol, antifúngicos azóis, 
+claritromicina ou telitromicina. 
+o 
+carbamazepina, rifampicina, fenobarbital, fenitoína, efavirenz ou Erva de S. João (risco 
+potencial de reduzir a eficácia de Gilenya). </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Gravidez 
+Não utilize Gilenya durante a gravidez, se está a tentar engravidar ou se é uma mulher que poderá 
+engravidar e não está a utilizar métodos contracetivos eficazes. Se Gilenya for utilizado durante a 
+gravidez, existe um risco de prejudicar o bebé que irá nascer. A taxa de malformações congénitas 
+observadas em bebés expostos a Gilenya durante a gravidez é cerca de 2 vezes a taxa observada na 
+população geral (em quem a taxa de malformações congénitas é cerca de 2-3%). As malformações 
+mais frequentemente notificadas incluíram malformações cardíacas, renais e musculoesqueléticas. </p>
+<p>Por este motivo, se é uma mulher com potencial para engravidar: 
+- antes do início do tratamento com Gilenya, o seu médico irá informá-la sobre o risco para o 
+bebé que irá nascer e irá pedir que faça um teste de gravidez para garantir que não está grávida, 
+e, 
+- deve utilizar métodos contracetivos eficazes enquanto toma Gilenya e durante os dois meses 
+seguintes à paragem do tratamento para evitar engravidar. Fale com o seu médico sobre 
+métodos contracetivos fiáveis. </p>
+<p>O seu médico irá dar-lhe um cartão que explica porque não deve engravidar enquanto toma Gilenya. </p>
+<p>Se engravidar durante o tratamento com Gilenya, informe imediatamente o seu médico. O seu 
+médico irá decidir interromper o tratamento (ver “Se parar de tomar Gilenya" na secção 3, e também 
+na secção 4, “Efeitos indesejáveis possíveis). Serão realizadas verificações pré-natais especializadas. </p>
+<p>Amamentação </p>
+<p>Não deve amamentar durante o tratamento com Gilenya. Gilenya pode passar para o leite materno 
+e existe um risco grave de efeitos indesejáveis para o bebé. </p>
+<p>Condução de veículos e utilização de máquinas 
+O seu médico informá-lo-á se a sua doença o permite conduzir, incluindo a bicicleta, e utilizar 
+máquinas em segurança. Não se prevê que Gilenya influencie a sua capacidade de conduzir e utilizar 
+máquinas. </p>
+<p>Porém, no início do tratamento terá de ficar no consultório médico ou enfermaria durante 6 horas após 
+a toma da primeira dose de Gilenya. A sua capacidade de conduzir ou utilizar máquinas poderá ficar 
+diminuída durante e possivelmente após este período de tempo. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar gilenya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar gilenya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com Gilenya será supervisionado por um médico com experiência no tratamento da 
+esclerose múltipla. </p>
+<p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>A dose recomendada é: </p>
+<p>Adultos: 
+A dose é uma cápsula de 0,5 por dia. </p>
+<p>Crianças e adolescentes (10 ou mais anos de idade): 
+A dose depende do peso corporal: </p>
+<ul>
+<li>
+<p>Crianças e adolescentes com peso corporal igual ou inferior a 40 kg: uma cápsula de 0,25 mg 
+por dia. </p>
+</li>
+<li>
+<p>Crianças e adolescentes com peso corporal superior a 40 kg: uma cápsula de 0,5 mg por dia. 
+Crianças e adolescentes que iniciam com uma cápsula de 0,25 mg por dia e mais tarde atingem um 
+peso corporal estável acima de 40 kg serão instruídos pelo seu médico a mudar para uma cápsula de 
+0,5 mg por dia. Neste caso é recomendado repetir o período de observação da primeira dose. </p>
+</li>
+</ul>
+<p>Não exceda a dose recomendada. </p>
+<p>Gilenya é para administração por via oral. </p>
+<p>Tome Gilenya uma vez ao dia com um copo de água. As cápsulas de Gilenya devem sempre ser 
+engolidas intactas, sem que sejam abertas. Gilenya pode ser tomado com ou sem alimentos. </p>
+<p>Tomar Gilenya sempre à mesma hora, irá ajudá-lo a lembrar-se de quando tem de tomar o seu 
+medicamento. </p>
+<p>Se tem questões acerca de quanto tempo tomar Gilenya, fale com o seu médico ou farmacêutico. </p>
+<p>Se tomar mais Gilenya do que deveria 
+Se tomou mais Gilenya do que deveria, contacte imediatamente o seu médico. </p>
+<p>Caso se tenha esquecido de tomar Gilenya 
+Se estiver a tomar Gilenya há menos de 1 mês e se se esquecer de 1 dose durante um dia inteiro, fale 
+com o seu médico antes de tomar a próxima dose. O seu médico poderá decidir mantê-lo sob 
+observação na altura de tomar a próxima dose. </p>
+<p>Se estiver a tomar Gilenya há pelo menos 1 mês e se se tiver esquecido de tomar o seu tratamento por 
+mais de 2 semanas, fale com o seu médico antes de tomar a próxima dose. O seu médico poderá 
+decidir mantê-lo sob observação na altura de tomar a próxima dose. No entanto, se se tiver esquecido 
+de tomar o seu tratamento durante um período de até 2 semanas, pode tomar a próxima dose, como 
+planeado. </p>
+<p>Nunca tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Gilenya 
+Não pare de tomar Gilenya nem altere a sua dose sem falar primeiro com o seu médico. </p>
+<p>Gilenya ficará no seu organismo durante 2 meses após a paragem do tratamento. A sua contagem de 
+glóbulos brancos (contagem de linfócitos) pode ficar diminuída durante este tempo e os efeitos 
+indesejáveis descritos neste folheto informativo podem ainda acontecer. Após parar de tomar Gilenya, 
+poderá ter de esperar 6-8 semanas antes de iniciar um novo tratamento para a esclerose múltipla. </p>
+<p>Se tiver que iniciar novamente o tratamento com Gilenya mais de 2 semanas após a sua paragem, pode 
+acontecer de novo o efeito na frequência cardíaca normalmente observado na primeira toma e 
+necessitará de ser monitorizado pelo médico no hospital ou clínica para o reinício do tratamento. Não 
+reinicie Gilenya após 2 semanas de interrupção sem se aconselhar com o seu médico. </p>
+<p>O seu médico irá decidir se e como deve ser monitorizado após interromper Gilenya. Informe o seu 
+médico de imediato se pensa que a sua esclerose múltipla está a piorar após ter parado o tratamento 
+com Gilenya. Isto pode ser grave. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis podem ser ou tornar-se graves 
+Frequentes (podem afetar até 1 em 10 pessoas) 
+- Tosse com expetoração, desconforto no peito, febre (sinais de doenças de pulmão) 
+- Infeção por vírus herpes (zona ou herpes zoster) com sintomas, tais como, bolhas, sensação de 
+ardor, comichão ou dor na pele, normalmente na parte superior do corpo ou na face. Outros 
+sintomas podem ser febre e fraqueza no início da infeção, seguidos de dormência, comichão ou 
+manchas vermelhas com dor intensa 
+- Batimento cardíaco lento (bradicardia), ritmo cardíaco irregular 
+- Um tipo de cancro na pele chamado carcinoma basocelular (CBC) que frequentemente aparece 
+como um nódulo com aspeto de pérola, embora possa também assumir outras formas 
+- Depressão e ansiedade são conhecidas por ocorrer com frequência aumentada na população com 
+EM e também foram notificadas em doentes pediátricos tratados com Gilenya 
+- Perda de peso </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) 
+- Pneumonia com sintomas, tais como, febre, tosse, dificuldade em respirar 
+- Edema macular (inchaço na área central da visão da retina na parte posterior do olho) com 
+sintomas, tais como, sombras ou ponto cego no centro da visão, visão enevoada, dificuldade em 
+ver cores ou detalhes 
+- Redução do número de plaquetas sanguíneas o que aumenta o risco de hemorragia ou de 
+hematoma 
+- Melanoma maligno (um tipo de cancro da pele que geralmente se desenvolve a partir de um 
+sinal incomum). Possíveis sinais de melanoma incluem sinais que podem mudar de tamanho, 
+forma, elevação ou cor ao longo do tempo, ou novos sinais. Os sinais podem provocar 
+comichão, sangrar ou ulcerar 
+- Convulsões, ataques (mais frequentes em crianças e adolescentes do que em adultos) </p>
+<p>Raros (podem afetar até 1 em 1.000 pessoas) 
+- Uma condição designada por síndrome de encefalopatia posterior reversível (PRES). Os 
+sintomas podem incluir início súbito de dor de cabeça intensa, confusão, convulsões e/ou 
+distúrbios da visão 
+- Linfoma (um tipo de cancro que afeta o sistema linfático) 
+- Carcinoma das células escamosas: um tipo de cancro da pele que pode apresentar-se como um 
+nódulo vermelho firme, uma ferida com crosta, ou uma nova ferida numa cicatriz existente </p>
+<p>Muito raros (podem afetar até 1 em 10.000 pessoas) 
+- Anomalia no eletrocardiograma (inversão da onda T) 
+- Tumor associado a infeção com vírus herpes humano tipo 8 (Sarcoma de Kaposi) </p>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- Reações alérgicas, incluindo sintomas de erupção cutânea (erupção na pele) ou urticária com 
+comichão, tumefação dos lábios, língua ou face que têm maior probabilidade de ocorrência no 
+dia em que inicia o tratamento com Gilenya 
+- Sinais de doença hepática (incluíndo insuficiencia hepática), tais como o amarelecimento da sua 
+pele ou das partes brancas dos olhos (icterícia), nauseas ou vómitos, dor no lado direito do seu 
+estômago, urina escura (de cor acastanhada), ter menos apetite do que o habitual, cansaço e 
+resultados anormais nos testes de função hepática. Num pequeno número de casos, a 
+insuficiência hepática pode levar a transplante do fígado. 
+- Risco de uma infeção rara do cérebro chamada Leucoencefalopatia Multifocal Progressiva 
+(LMP). Os sintomas da LMP podem ser semelhantes a surtos de esclerose múltipla. Podem 
+surgir também sintomas sem que se dê conta por si próprio, tais como alterações de humor ou 
+comportamento, lapsos de memória, dificuldades no discurso e na comunicação, que o seu 
+médico poderá ter que continuar a investigar para excluir a LMP. Portanto, se acredita que a sua 
+esclerose múltipla está a piorar ou se notar, ou aqueles que lhe são próximos notarem, quaisquer 
+sintomas novos ou invulgares, é muito importante que fale com o seu médico assim que 
+possível 
+- Infeções criptocócicas (um tipo de infeção fúngica), incluindo meningite criptocócica com 
+sintomas como dor de cabeça acompanhada de rigidez do pescoço, sensibilidade à luz, náuseas, 
+e /ou confusão 
+- Carcinoma das células de Merkel (um tipo de cancro da pele). Possíveis sinais de carcinoma das 
+células de Merkel incluem nódulo cor de carne ou vermelho-azulado, indolor, frequentemente 
+na face, cabeça ou pescoço. A exposição prolongada ao sol e um fraco sistema imunitário 
+podem afetar o risco de desenvolver carcinoma das células de Merkel. 
+- Após o tratamento com Gilenya ser interrompido, os sintomas de esclerose múltipla podem 
+regressar e podem tornar-se piores do que eram antes ou durante o tratamento. 
+- Forma autoimune de anemia (quantidade diminuída de eritrócitos) em que os eritrócitos são 
+destruídos (anemia hemolítica autoimune). </p>
+<p>Se lhe ocorrer alguma destas situações, informe imediatamente o seu médico. </p>
+<p>Outros efeitos indesejáveis 
+Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- Infeção por vírus da gripe com sintomas, tais como, cansaço, arrepios, garganta inflamada, 
+dores nas articulações ou músculos, febre 
+- Sensação de pressão ou dor nas bochechas e testa (sinusite) 
+- Dor de cabeça 
+- Diarreia 
+- Dor de costas 
+- Aumento dos níveis sanguíneos das enzimas do fígado 
+- Tosse </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- Micose, uma infeção fúngica que afeta a pele (Tinha versicolor) 
+- Tonturas 
+- Dor de cabeça intensa acompanhada por náuseas, vómitos e sensibilidade à luz (enxaqueca) 
+- Nível diminuído de glóbulos brancos (linfócitos, leucócitos) 
+- Fraqueza 
+- Irritação da pele com ardor, comichão e vermelhidão (eczema) 
+- Comichão 
+- Aumento dos níveis sanguíneos de certos tipos de lípidos (triglicéridos) 
+- Perda de cabelo 
+- Falta de ar 
+- Depressão 
+- Visão enevoada (ver também a secção sobre o edema macular em “Alguns efeitos indesejáveis 
+podem ser ou tornar-se graves") 
+- Hipertensão (Gilenya pode causar um aumento ligeiro da tensão arterial) 
+- Dor muscular 
+- Dor nas articulações </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) 
+- Nível diminuído de certos tipos de glóbulos brancos (neutrófilos) 
+- Estado depressivo 
+- Náuseas </p>
+<p>Raros (podem afetar até 1 em 1.000 pessoas) 
+- Cancro do sistema linfático (linfoma) </p>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- Edema (inchaço) periférico </p>
+<p>Se alguma destas situações o afetar gravemente, informe o seu médico. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar gilenya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar gilenya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. 
+Não conservar acima de 25°C. 
+Conservar na embalagem de origem para proteger da humidade. 
+Não utilize este medicamento se verificar que a embalagem se encontra danificada ou com sinais de 
+adulteração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não necessita. Estas medidas ajudarão a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Gilenya 
+- A substância ativa é o fingolimod. </p>
+<p>Gilenya 0,25 mg cápsulas 
+- Cada cápsula contém 0,25 mg de fingolimod (sob a forma de cloridrato). 
+- Os outros componentes são: 
+Conteúdo da cápsula: manitol, hidroxipropilcelulose, hidroxipropilbetadex, estearato de 
+magnésio. 
+Invólucro da cápsula: gelatina, dióxido de titânio (E171), óxido de ferro amarelo (E172). 
+Tinta de impressão: shellac (E904), óxido de ferro negro (E172), propilenoglicol (E1520), 
+solução concentrada de amónia (E527). </p>
+<p>Gilenya 0,5 mg cápsulas 
+- Cada cápsula contém 0,5 mg de fingolimod (sob a forma de cloridrato). 
+- Os outros componentes são: 
+Conteúdo da cápsula: manitol, estearato de magnésio. 
+Invólucro da cápsula: gelatina, dióxido de titânio (E171), óxido de ferro amarelo (E172). 
+Tinta de impressão: shellac (E904), etanol anidro, álcool isopropílico, álcool butílico, 
+propilenoglicol (E1520), água purificada, solução concentrada de amónia (E527), hidróxido de 
+potássio, óxido de ferro negro (E172), óxido de ferro amarelo (E172), dióxido de titânio (E171), 
+dimeticone. </p>
+<p>Qual o aspeto de Gilenya e conteúdo da embalagem 
+Gilenya 0,25 mg cápsulas tem tampa e corpo de cor marfim. A expressão “FTY0.25 mg" encontra-se 
+impressa na tampa da cápsula com tinta preta e uma banda radial a preto encontra-se impressa no 
+corpo da cápsula. </p>
+<p>Gilenya 0,5 mg cápsulas tem corpo opaco branco e uma tampa opaca de cor amarelo brilhante. A 
+expressão “FTY0.5 mg" encontra-se impressa na tampa da cápsula com tinta preta e duas bandas 
+encontram-se impressas no corpo da cápsula com tinta amarela. </p>
+<p>Gilenya cápsulas de 0,25 mg encontram-se disponíveis em embalagens contendo 7 ou 28 cápsulas. É 
+possível que não sejam comercializadas todas as apresentações. </p>
+<p>Gilenya cápsulas de 0,5 mg encontram-se disponíveis em embalagens contendo 7, 28 ou 98 cápsulas 
+ou em embalagens múltiplas contendo 84 cápsulas (3 embalagens de 28 cápsulas). É possível que não 
+sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberga 
+Alemanha </p>
+<p>Lek Pharmaceuticals d.d. 
+Verovskova Ulica Ljubljana, 1Eslovénia </p>
+<p>Novartis Pharmaceutical Manufacturing LLC 
+Verovskova Ulica Ljubljana, 1Eslovénia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1396,6 +2112,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-62a8f25678d9e8ed32026d400d8228e9"
 * entry[0].resource = composition-da-62a8f25678d9e8ed32026d400d8228e9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp62a8f25678d9e8ed32026d400d8228e9"
+* entry[=].resource = mp62a8f25678d9e8ed32026d400d8228e9
+                            
+                    
+Instance: bundlepackageleaflet-pt-62a8f25678d9e8ed32026d400d8228e9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for gilenya Package Leaflet for language pt"
+Description: "ePI document Bundle for gilenya Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-62a8f25678d9e8ed32026d400d8228e9"
+* entry[0].resource = composition-pt-62a8f25678d9e8ed32026d400d8228e9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp62a8f25678d9e8ed32026d400d8228e9"
@@ -1497,6 +2235,18 @@ RuleSet: 62a8f25678d9e8ed32026d400d8228e9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-62a8f25678d9e8ed32026d400d8228e9) // gilenya pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

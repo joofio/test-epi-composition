@@ -1285,6 +1285,778 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-36b89eaa45afd7ab0e486d51fb7ebc12
+InstanceOf: CompositionUvEpi
+Title: "Composition for cabometyx Package Leaflet"
+Description:  "Composition for cabometyx Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp36b89eaa45afd7ab0e486d51fb7ebc12)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - cabometyx"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é o CABOMETYX e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar CABOMETYX </li>
+<li>Como tomar CABOMETYX </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar CABOMETYX </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é cabometyx e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é cabometyx e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é CABOMETYX </p>
+<p>CABOMETYX é um medicamento para o cancro que contém a substância ativa cabozantinib.<br />
+É usado em adultos para tratar: 
+- cancro do rim avançado chamado carcinoma de células renais avançado 
+- cancro do fígado quando um medicamento anticancerígeno específico (sorafenib) já não impede a 
+progressão da doença. </p>
+<p>CABOMETYX é também utilizado no tratamento do cancro diferenciado da tiroide localmente avançado ou 
+metastático, um tipo de cancro na glândula tiroideia, em adultos quando os tratamentos com iodo radioativo 
+ou com medicamentos anticancerígenos já não evitam que a doença progrida. </p>
+<p>CABOMETYX pode ser administrado em associação com nivolumab no cancro do rim avançado. É 
+importante que também leia o folheto informativo do nivolumab. Fale com o seu médico se tiver dúvidas 
+acerca destes medicamentos. </p>
+<p>Como atua o CABOMETYX </p>
+<p>O CABOMETYX bloqueia a ação de proteínas chamadas recetores da tirosina cinase (RTKs), que estão 
+envolvidas no crescimento de células e no desenvolvimento de novos vasos sanguíneos que as alimentam. 
+Estas proteínas podem estar presentes em quantidades elevadas em células cancerosas e, ao bloquear a sua 
+ação, este medicamento pode abrandar a velocidade a que o tumor cresce e ajudar a cortar o fornecimento de 
+sangue necessário ao cancro.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar cabometyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar cabometyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome CABOMETYX </p>
+<ul>
+<li>se tem alergia ao cabozantinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </li>
+</ul>
+<p>Advertências e precauções  </p>
+<h2>Fale com o seu médico ou farmacêutico antes de tomar CABOMETYX se:</h2>
+<h2>tiver tensão arterial elevada</h2>
+<p>tem ou teve um aneurisma (alargamento ou enfraquecimento da parede de um vaso sanguíneo) ou 
+um rasgão numa parede de um vaso sanguíneo 
+-<br />
+tiver diarreia 
+-<br />
+tiver um historial recente de hemorragia significativa 
+-  foi submetido a uma cirurgia há menos de um mês (ou se estiverem planeados procedimentos<br />
+cirúrgicos), incluindo cirurgia dentária 
+-<br />
+tiver doença intestinal inflamatória (por exemplo doença de Crohn ou colite ulcerosa, diverticulite ou 
+apendicite) 
+-<br />
+tiver um historial recente de coágulo sanguíneo na perna, AVC (Acidente Vascular Cerebral) ou 
+ataque cardíaco 
+- tiver problemas de tiroide. Informe o seu médico se se sentir cansado com mais facilidade, se<br />
+normalmente sente mais frio do que as outras pessoas ou se a sua voz ficar mais grossa enquanto 
+tomar este medicamento.<br />
+-<br />
+tiver doença hepática ou renal.  </p>
+<p>Informe o seu médico se alguma destas condições se aplicar a si.  </p>
+<p>É possível que necessite de tratamento para estas condições, ou o seu médico pode optar por alterar a sua 
+dose de CABOMETYX ou interromper completamente o tratamento. Consulte também a secção 4 "Efeitos 
+indesejáveis possíveis". 
+Deve informar o seu dentista que está a tomar este medicamento. É importante para si que pratique uma boa 
+higiene oral durante o tratamento. </p>
+<p>Crianças e adolescentes </p>
+<p>O CABOMETYX não é recomendado para crianças ou adolescentes. Desconhecem-se os efeitos deste 
+medicamento  em pessoas com idade inferior a 18 anos. </p>
+<p>Outros medicamentos e CABOMETYX </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar ou tiver tomado recentemente outros 
+medicamentos, incluindo medicamentos obtidos sem receita médica. Isto porque o CABOMETYX pode 
+afetar a forma como alguns medicamentos atuam. De igual modo, alguns medicamentos podem afetar a 
+forma como CABOMETYX atua. Isto pode implicar que o seu médico tenha de alterar a(s) dose(s) que 
+toma. Deve indicar ao médico todos os medicamentos que toma, principalmente se estiver a tomar: </p>
+<ul>
+<li>Medicamentos utilizados para tratar infeções fúngicas, como itraconazol, cetoconazol e posaconazol </li>
+<li>Medicamentos utilizados para tratar infeções bacterianas (antibióticos), como eritromicina, 
+claritromicina e rifampicina </li>
+<li>Medicamentos anti-alérgicos, como fexofenadina  </li>
+<li>Medicamentos utilizados para o tratamento da angina de peito (dor no peito devida a insuficiente 
+aporte de sangue ao coração) como a ranolazina  </li>
+<li>Medicamentos utilizados para tratar epilepsia ou convulsões, como fenitoína, carbamazepina e 
+fenobarbital  </li>
+<li>Misturas de plantas contendo Hipericão (Hypericum perforatum), utilizadas por vezes para tratar a 
+depressão ou estados relacionados como a ansiedade </li>
+<li>Medicamentos utilizados para diluir o sangue, como varfarina e etexilato de dabigatran </li>
+<li>Medicamentos para tratar a tensão arterial elevada ou outros problemas cardíacos, como aliscireno, 
+ambrisentano, digoxina, talinolol e tolvaptan </li>
+<li>
+<p>Medicamentos para a diabetes, como saxagliptina e sitagliptina  </p>
+</li>
+<li>
+<p>Medicamentos utilizados para tratar a gota, como colchicina </p>
+</li>
+<li>Medicamentos utilizados para tratar o VIH ou a SIDA, como efavirenz, ritonavir, maraviroc e 
+emtricitabina </li>
+<li>Medicamentos utilizados para prevenir a rejeição de transplantes (ciclosporina) e regimes à base de 
+ciclosporina utilizados no tratamento da artrite reumatoide e da psoríase </li>
+</ul>
+<p>CABOMETYX com alimentos </p>
+<p>Evite consumir produtos que contenham toranja enquanto estiver a tomar este medicamento porque podem 
+aumentar os níveis de CABOMETYX no sangue. </p>
+<p>Gravidez, amamentação e fertilidade  </p>
+<p>Evite engravidar durante o tratamento com CABOMETYX. Se você ou, no caso de um doente 
+masculino, a sua companheira, puder engravidar durante o tratamento e, pelo menos, nos 4 meses seguintes 
+ao fim do mesmo, deve usar um método contracetivo adequado. Fale com o seu médico sobre os métodos 
+contracetivos que são adequados enquanto estiver a tomar este medicamento (ver também Outros 
+Medicamentos e CABOMETYX, em cima). </p>
+<p>Informe o seu médico se engravidar ou planear fazê-lo, ou no caso de doente masculino, a sua companheira, 
+durante o tratamento com este medicamento.  </p>
+<p>Fale com o seu médico ANTES de tomar este medicamento se estiver, ou se a sua companheira estiver a 
+planear engravidar uma vez terminado o tratamento. Existe a possibilidade do tratamento com este 
+medicamento afetar a sua fertilidade.  </p>
+<p>As mulheres que tomem este medicamento não devem amamentar durante o tratamento e pelo menos nos 
+primeiros 4 meses após conclusão do mesmo, porque o cabozantinib e/ou os seus metabolitos podem ser 
+excretados no leite materno e serem prejudiciais para a criança. </p>
+<p>Se tomar este medicamento enquanto usar contracetivos orais, os contracetivos orais podem ser ineficazes. 
+Deve usar também um método contracetivo de barreira (por exemplo, preservativo ou diafragma) enquanto 
+estiver a tomar este medicamento e durante pelo menos 4 meses após ter acabado o tratamento. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Tenha cuidado ao conduzir veículos ou utilizar máquinas. Tenha em mente que o tratamento com 
+CABOMETYX pode fazer com que se sinta cansado ou fraco e afetar a sua capacidade de conduzir ou 
+utilizar máquinas. </p>
+<p>CABOMETYX contém lactose 
+este medicamento contém lactose (um tipo de açúcar). Caso tenha sido informado pelo seu médico de que 
+tem intolerância a alguns açúcares, fale com o seu médico antes de tomar este medicamento. </p>
+<p>CABOMETYX contém sódio 
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por comprimido, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar cabometyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar cabometyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome sempre este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o 
+seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>Deve continuar a tomar este medicamento até que o seu médico decida parar o tratamento. Se sofrer de 
+efeitos indesejáveis graves, o seu médico pode decidir mudar a dose ou parar o tratamento mais cedo do que 
+planeado originalmente. O seu médico dir-lhe-á se é necessário ajustar a dose. </p>
+<p>CABOMETYX deve ser tomado uma vez por dia. A dose habitual é de 60 mg, no entanto o seu médico 
+decidirá qual a dose certa para o seu caso. 
+Quando este medicamento é administrado em associação com nivolumab para o tratamento do cancro renal 
+avançado, a dose recomendada de CABOMETYX é de 40 mg uma vez ao dia. </p>
+<p>Não deve tomar CABOMETYX com alimentos. Não deve comer nada durante pelo menos 2 horas antes de 
+tomar este medicamento e até 1 hora após tomar o medicamento. Engula o comprimido com um copo cheio 
+de água. Não parta os comprimidos. </p>
+<p>Se tomar mais CABOMETYX do que deveria </p>
+<p>Se tomar mais deste medicamento do que deveria, fale com o seu médico ou dirija-se imediatamente ao 
+hospital, fazendo-se acompanhar dos comprimidos e deste folheto. </p>
+<p>Caso se tenha esquecido de tomar CABOMETYX </p>
+<ul>
+<li>Se ainda faltarem 12 horas ou mais até à próxima dose, tome a dose em falta assim que se lembrar. 
+Tome a próxima dose no horário normal. </li>
+<li>Se faltarem menos de 12 horas até à próxima dose, então não tome a dose em falta. Tome a próxima 
+dose no horário normal.  </li>
+</ul>
+<p>Se parar de tomar CABOMETYX 
+Parar o tratamento pode parar o efeito do medicamento. Não pare o tratamento com este medicamento a não 
+ser que o tenha discutido com o seu médico. </p>
+<p>Quando este medicamento é administrado em associação com nivolumab, primeiro ser-lhe-á administrado 
+nivolumab, seguido por CABOMETYX. </p>
+<p>Leia o folheto informativo do nivolumab de modo a compreender a utilização deste medicamento. Caso 
+ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Se tiver efeitos indesejáveis, o seu médico pode dizer-lhe para tomar doses 
+mais baixas de CABOMETYX. O seu médico pode ainda receitar outros medicamentos para ajudar a 
+controlar os seus efeitos indesejáveis. </p>
+<p>Informe o seu médico imediatamente se notar algum dos seguintes efeitos indesejáveis - pode precisar 
+de assistência médica urgente: </p>
+<ul>
+<li>
+<p>Sintomas como dor abdominal, náuseas (sensação de enjoo), vómitos, prisão de ventre ou febre. 
+Estes podem ser sinais de perfuração gastrointestinal, um buraco que aparece no estômago ou no 
+intestino e que pode ser potencialmente fatal. A perfuração gastrointestinal é frequente (pode afetar 
+até 1 em cada 10 pessoas). </p>
+</li>
+<li>
+<p>Hemorragia grave ou não controlável com sintomas como: vomitar sangue, fezes escuras, sangue na 
+urina, dores de cabeça, tosse com sangue. É frequente (pode afetar até 1 em cada 10 pessoas). </p>
+</li>
+<li>
+<p>Sentir-se sonolento, confuso ou com perda de consciência. Isto pode ser devido a problemas no 
+fígado que são frequentes (podem afetar até 1 em cada 10 pessoas). </p>
+</li>
+<li>
+<p>Inchaço ou falta de ar. São muito frequentes (podem afetar mais de 1 em cada 10 pessoas). </p>
+</li>
+<li>
+<p>Uma ferida que não cicatriza. É pouco frequente (pode afetar 1 em cada 100 pessoas). </p>
+</li>
+<li>
+<p>Ataques, dor de cabeça, confusão ou dificuldade em concentrar-se. Estes podem ser sinais de uma 
+condição chamada síndrome de encefalopatia reversível posterior (PRES). A PRES é pouco 
+frequente (pode afetar 1 em cada 100 pessoas). </p>
+</li>
+<li>
+<p>Dor na boca, dentes e/ou maxilar, inchaço ou feridas dentro da boca, torpor ou sensação de peso no 
+maxilar, ou perda de um dente. Estes podem ser sinais de danos ósseos no maxilar (osteonecrose). É 
+pouco frequente (pode afetar 1 em cada 100 pessoas). </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis com CABOMETYX apenas incluem: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas)  </p>
+<ul>
+<li>
+<p>Anemia (níveis baixos de glóbulos vermelhos no sague que transportam oxigénio), níveis baixos de 
+plaquetas (células que ajudam o sangue a coagular) </p>
+</li>
+<li>
+<p>Diminuição da atividade da tiroide; os sintomas podem incluir cansaço, ganho de peso, obstipação, 
+sensação de frio e pele seca </p>
+</li>
+<li>
+<p>Diminuição do apetite, alteração do sentido do gosto </p>
+</li>
+<li>
+<p>Diminuição da quantidade de magnésio ou de potássio no sangue </p>
+</li>
+<li>
+<p>Diminuição da quantidade da proteína albumina no sangue (que transporta substâncias como as 
+hormonas, medicamentos e enzimas pelo corpo) </p>
+</li>
+<li>
+<p>Dor de cabeça, tonturas </p>
+</li>
+<li>
+<p>Tensão arterial elevada (hipertensão) </p>
+</li>
+<li>
+<p>Sangramento </p>
+</li>
+<li>
+<p>Dificuldade em falar, rouquidão (disfonia), tosse e falta de ar </p>
+</li>
+<li>
+<p>Mal-estar no estômago, incluindo diarreia, náuseas, vómitos, prisão de ventre, indigestão e dor 
+abdominal </p>
+</li>
+<li>
+<p>Vermelhidão, inchaço ou dor na boca ou garganta (estomatite) </p>
+</li>
+<li>
+<p>Erupção na pele por vezes com bolhas, comichão, dor nas mãos ou nas plantas dos pés, irritação na 
+pele </p>
+</li>
+<li>
+<p>Dor nos braços, mãos, pernas ou pés </p>
+</li>
+<li>
+<p>Sensação de cansaço ou de fraqueza, inflamação da mucosa oral e gastrointestinal, inchaço das 
+pernas e braços </p>
+</li>
+<li>
+<p>Perda de peso </p>
+</li>
+<li>
+<p>Alterações dos testes da função hepática (aumento das enzimas hepáticas aspartato aminotransferase 
+e alanina aminotransferase) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Abcessos (acumulação de pus, com inchaço e inflamação) </p>
+</li>
+<li>
+<p>Baixos níveis de glóbulos brancos no sangue (que são importantes para combater infeções) </p>
+</li>
+<li>
+<p>Desidratação </p>
+</li>
+<li>
+<p>Diminuição da quantidade de fostato, sódio e cálcio no sangue </p>
+</li>
+<li>
+<p>Aumento da quantidade de potássio no sangue </p>
+</li>
+<li>
+<p>Aumento da quantidade do produto residual bilirrubina no sangue (que pode causar icterícia/pele ou 
+olhos amarelos) </p>
+</li>
+<li>
+<p>Níveis de açúcar elevados (hiperglicemia) ou baixos (hipoglicemia) no sangue </p>
+</li>
+<li>
+<p>Inflamação dos nervos (que causa dormência, fraqueza, formigueiro ou dor tipo queimadura nos 
+braços e pernas) </p>
+</li>
+<li>
+<p>Zumbidos nos ouvidos (acufenos) </p>
+</li>
+<li>
+<p>Coágulos nas veias </p>
+</li>
+<li>
+<p>Coágulos nos pulmões </p>
+</li>
+<li>
+<p>Inflamação do pâncreas, uma rotura dolorosa ou conexão anormal dos tecidos no corpo (fístula), 
+doença do refluxo gastro-esofágico (subida do ácido do estômago), hemorroidas, boca seca e dor na 
+boca, dificuldade em engolir </p>
+</li>
+<li>
+<p>Comichão severa na pele, alopecia (queda e enfraquecimento do cabelo), pele seca, acne, alteração 
+da cor do cabelo, espessamento da camada de fora da pele, vermelhidão da pele </p>
+</li>
+<li>
+<p>Espasmos musculares, dor nas articulações </p>
+</li>
+<li>
+<p>Proteína na urina (visto nas análises) </p>
+</li>
+<li>
+<p>Alteração dos testes da função hepática (aumento das enzimas hepáticas fosfatase alcalina e gama-
+glutamil transferase no sangue) </p>
+</li>
+<li>
+<p>Alteração dos testes da função renal (aumento da creatinina no sangue) </p>
+</li>
+<li>
+<p>Aumento dos níveis da enzima que degrada a gordura (lipase) e da enzima que degrada o amido 
+(amilase) </p>
+</li>
+<li>
+<p>Aumento dos níveis de colesterol ou trigliceridos no sangue </p>
+</li>
+<li>
+<p>Infeção pulmonar (pneumonia) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Ataques, AVC (Acidente Vascular Cerebral) </p>
+</li>
+<li>
+<p>Aumento severo da tensão arterial </p>
+</li>
+<li>
+<p>Coágulos sanguíneos nas artérias </p>
+</li>
+<li>
+<p>Diminuição do fluxo biliar a partir do fígado </p>
+</li>
+<li>
+<p>Sensação de queimadura ou de dor na língua (glossodinia) </p>
+</li>
+<li>
+<p>Ataque cardíaco </p>
+</li>
+<li>
+<p>Coágulo/êmbolo que viajou pelas artérias e ficou preso </p>
+</li>
+<li>
+<p>Pulmão colapsado com ar preso no espaço entre o pulmão e o peito, causando frequentemente falta 
+de ar (pneumotórax) </p>
+</li>
+</ul>
+<p>Desconhecido (proporção de pessoas afetadas desconhecida) </p>
+<ul>
+<li>
+<p>Aumento ou enfraquecimento da parede de um vaso sanguíneo ou rasgão na parede de um vaso 
+sanguíneo (aneurismas ou disseções arteriais) </p>
+</li>
+<li>
+<p>Inflamação dos vasos sanguíneos na pele (vasculite cutânea). </p>
+</li>
+</ul>
+<p>Foram notificados os seguintes efeitos indesejáveis com CABOMETYX em associação com nivolumab: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas)  </p>
+<ul>
+<li>
+<p>Infeções do trato respiratório superior </p>
+</li>
+<li>
+<p>Função diminuída da glândula tiroide; os sintomas podem incluir cansaço, ganho de peso, prisão de 
+ventre, sensação de frio e pele seca </p>
+</li>
+<li>
+<p>Função aumentada da glândula tiroide; os sintomas podem incluir aumento do ritmo cardíaco, suor e 
+perda de peso </p>
+</li>
+<li>
+<p>Diminuição do apetite, paladar alterado </p>
+</li>
+<li>
+<p>Dor de cabeça, tonturas </p>
+</li>
+<li>
+<p>Tensão arterial elevada (hipertensão) </p>
+</li>
+<li>
+<p>Dificuldade em falar, rouquidão (disfonia), tosse e falta de ar  </p>
+</li>
+<li>
+<p>Dor de estômago, incluindo diarreia, náuseas, vómitos, indigestão, dor de barriga e prisão de ventre </p>
+</li>
+<li>
+<p>Vermelhidão, inchaço ou dor na boca ou garganta (estomatite) </p>
+</li>
+<li>
+<p>Irritação na pele por vezes com bolhas, comichão, dor nas mãos ou na planta dos pés, irritação ou 
+comichão severa da pele </p>
+</li>
+<li>
+<p>Dor nas articulações (artralgia), espasmos musculares, fraqueza muscular e dor nos músculos </p>
+</li>
+<li>
+<p>Proteína na urina (visto nas análises) </p>
+</li>
+<li>
+<p>Sentir-se cansado ou fraco, febre e edema (inchaço) </p>
+</li>
+<li>
+<p>Alteração dos testes da função hepática (aumentos das enzimas hepáticas aspartato aminotransferase, 
+alanina aminotransferase ou fosfatase alcalina no sangue, níveis aumentados do produto de 
+degradação bilirrubina no sangue) </p>
+</li>
+<li>
+<p>Alteração dos testes da função renal (níveis aumentados de creatinina no sangue) </p>
+</li>
+<li>
+<p>Níveis de açúcar no sangue elevados (hiperglicemia) ou baixos (hipoglicemia)  </p>
+</li>
+<li>
+<p>Anemia (níveis baixos de glóbulos vermelhos que transportam o oxigénio), níveis baixos de glóbulos 
+brancos (que são importantes no combate às infeções), níveis baixos de plaquetas (células que 
+ajudam o sangue a coagular) </p>
+</li>
+<li>
+<p>Um aumento dos níveis da enzima que degrada as gorduras (lipase) e da enzima que degrada o 
+amido (amilase) </p>
+</li>
+<li>
+<p>Diminuição da quantidade de fosfato </p>
+</li>
+<li>
+<p>Aumento ou diminuição da quantidade de potássio </p>
+</li>
+<li>
+<p>Diminuição ou aumento dos níveis sanguíneos de cálcio, magnésio ou de sódio  </p>
+</li>
+<li>
+<p>Diminuição do peso corporal </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Infeção grave nos pulmões (pneumonia) </p>
+</li>
+<li>
+<p>Aumento de alguns glóbulos brancos do sangue chamados eosinófilos </p>
+</li>
+<li>
+<p>Reação alérgica (incluindo reação anafilática) </p>
+</li>
+<li>
+<p>Redução da secreção de hormonas produzidas pelas glândulas suprarrenais (glândulas situadas por 
+cima dos rins) </p>
+</li>
+<li>
+<p>Desidratação </p>
+</li>
+<li>
+<p>Inflamação dos nervos (causando dormência, fraqueza, formigueiro ou ardor nos braços e pernas) </p>
+</li>
+<li>
+<p>Zumbidos nos ouvidos (acufenos) </p>
+</li>
+<li>
+<p>Olhos secos e visão turva </p>
+</li>
+<li>
+<p>Alterações no ritmo ou frequência dos batimentos do coração, ritmo cardíaco acelerado  </p>
+</li>
+<li>
+<p>Coágulos nos vasos sanguíneos </p>
+</li>
+<li>
+<p>Inflamação dos pulmões (pneumonite, caracterizada por tosse e dificuldade em respirar), coágulos 
+sanguíneos no pulmão, líquido à volta dos pulmões </p>
+</li>
+<li>
+<p>Sangramento do nariz </p>
+</li>
+<li>
+<p>Inflamação do cólon (colite), boca seca, dor na boca, inflamação do estômago (gastrite) e 
+hemorróidas </p>
+</li>
+<li>
+<p>Inflamação do fígado (hepatite) </p>
+</li>
+<li>
+<p>Pele seca e vermelhidão da pele  </p>
+</li>
+<li>
+<p>Alopecia (perda e enfraquecimento do cabelo), alteração da cor do cabelo </p>
+</li>
+<li>
+<p>Inflamação das articulações (artrite)  </p>
+</li>
+<li>
+<p>Falência renal (incluindo perda abrupta da função renal) </p>
+</li>
+<li>
+<p>Dor, dor no peito </p>
+</li>
+<li>
+<p>Aumento dos níveis de triglicéridos no sangue </p>
+</li>
+<li>
+<p>Aumento dos níveis de colesterol no sangue </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Reações alérgicas relacionadas com a perfusão do medicamento nivolumab </p>
+</li>
+<li>
+<p>Inflamação da glândula hipófise situada na base do cérebro (hipofisite), inchaço da glândula tiroide 
+(tiroidite) </p>
+</li>
+<li>
+<p>Inflamação temporária dos nervos que causa dor, fraqueza e paralisia nas extremidades (síndrome de 
+Guillain Barré); fraqueza muscular e cansaço sem atrofia (síndrome miasténica) </p>
+</li>
+<li>
+<p>Inflamação do cérebro  </p>
+</li>
+<li>
+<p>Inflamação do olho (que causa dor e vermelhidão)  </p>
+</li>
+<li>
+<p>Inflamação do músculo cardíaco </p>
+</li>
+<li>
+<p>Coágulo/êmbolo que viajou pelas artérias e ficou preso </p>
+</li>
+<li>
+<p>Inflamação do pâncreas (pancreatite), perfuração intestinal, sensação de queimadura ou dor na língua 
+(glossodinia) </p>
+</li>
+<li>
+<p>Doença de pele com manchas vermelhas engrossadas, muitas vezes com escamas prateadas 
+(psoríase) </p>
+</li>
+<li>
+<p>Urticária (pele irritada com comichão) </p>
+</li>
+<li>
+<p>Sensibilidade muscular ou fraqueza, não causada pelo exercício (miopatia), dano no osso do maxilar, 
+rotura dolorosa ou conexão anormal dos tecidos no corpo (fístula) </p>
+</li>
+<li>
+<p>Inflamação do rim </p>
+</li>
+<li>
+<p>Pulmão colapsado com ar preso no espaço entre o pulmão e o peito, causando frequentemente falta 
+de ar (pneumotórax) </p>
+</li>
+</ul>
+<p>Descconhecido (proporção de pessoas afetadas desconhecida) </p>
+<ul>
+<li>
+<p>Inflamação dos vasos sanguíneos na pele (vasculite cutânea) </p>
+</li>
+<li>
+<p>Destruição e perda progressiva dos canais biliares intra-hepáticos e icterícia </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis<br />
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
+fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente através 
+do sistema nacional de notificação mencionado no Anexo V. Ao comunicar efeitos indesejáveis, estará a 
+ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar cabometyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar cabometyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco e embalagem após 
+VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de CABOMETYX  </p>
+<p>A substância ativa é (S)-maleato de cabozantinib.  </p>
+<p>CABOMETYX 20 mg comprimidos revestidos por película: Cada comprimido contêm (S)-maleato de 
+cabozantinib equivalente a 20 mg de cabozantinib. 
+CABOMETYX 40 mg comprimidos revestidos por película: Cada comprimido contêm (S)-maleato de 
+cabozantinib equivalente a 40 mg de cabozantinib. 
+CABOMETYX 60 mg comprimidos revestidos por película: Cada comprimido contêm (S)-maleato de 
+cabozantinib equivalente a 60 mg de cabozantinib. </p>
+<p>Os outros componentes são: </p>
+<ul>
+<li>Conteúdo dos comprimidos: celulose microcristalina, lactose anidra, hidroxipropilcelulose, 
+croscarmelose sódica, dióxido de silício coloidal anidro, estearato de magnésio (ver secção 2 quanto 
+ao teor em lactose) </li>
+<li>Película de revestimento: hipromelose, dióxido de titânio (E171), triacetina, óxido de ferro 
+amarelo (E172) </li>
+</ul>
+<p>Qual o aspeto de CABOMETYX e conteúdo da embalagem </p>
+<p>Os comprimidos CABOMETYX 20 mg revestidos por película são amarelos, redondos, sem ranhura e 
+identificados com "XL" num dos lados e "20" no outro lado. 
+Os comprimidos CABOMETYX 40 mg revestidos por película são amarelos, de forma triangular, sem 
+ranhura e identificados com "XL" num dos lados e "40" no outro lado. 
+Os comprimidos CABOMETYX 60 mg revestidos por película são amarelos, de forma oval, sem ranhura e 
+identificados com "XL" num dos lados e "60" no outro lado. </p>
+<p>O CABOMETYX está disponível em embalagens contendo um frasco de plástico com 30 comprimidos 
+revestidos. O frasco contém três recipientes de sílica gel dissecante e um rolo de poliéster para prevenir 
+danos nos comprimidos revestidos. Mantenha os recipientes e o rolo de poliéster no frasco e não engula os 
+recipientes de dissecante. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Ipsen Pharma 
+65 quai Georges Gorse 
+92100 Boulogne-Billancourt<br />
+França </p>
+<p>Fabricante </p>
+<p>Patheon France<br />
+40 Boulevard de Champaret 
+38300 Bourgoin Jallieu, França </p>
+<p>Tjoapack Netherlands B.V. 
+Nieuwe Donk 9 
+4879 AC Etten-Leur 
+Holanda </p>
+<p>Rottendorf Pharma GmbH 
+Ostenfelderstrasse 51 - D-59320 Ennigerloh, Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien, Luxembourg/Luxemburg 
+Italia 
+Ipsen NV 
+Ipsen SpA 
+België/Belgique/Belgien 
+Tel: + 39 - 02 - 39 22 Tél/Tel: + 32 - 9 - 243 96  </p>
+<p>България,<br />
+Latvija<br />
+PharmaSwiss EOOD 
+Ipsen Pharma representative office 
+Тел.: +359 2 8952 Tel: +371 67622 </p>
+<p>Česká republika 
+Lietuva 
+Ipsen Pharma, s.r.o.<br />
+Tel: + 420 242 481 Ipsen Pharma SAS Lietuvos filialas<br />
+Tel. + 370 700 33 
+Danmark, Norge, Suomi/Finland, Sverige, Ísland 
+Magyarország 
+Institut Produits Synthèse (IPSEN) AB 
+Sverige/Ruotsi/Svíþjóð<br />
+Tlf/Puh/Tel/Sími: +46 8 451 60 IPSEN Pharma Hungary Kft. 
+Tel.: +36-1-555-5 </p>
+<p>Deutschland, Österreich 
+Nederland 
+Ipsen Pharma GmbH<br />
+Ipsen Farmaceutica B.V.<br />
+Deutschland </p>
+<p>Tel: + 31 (0) 23 554 1Eesti 
+Polska 
+Centralpharma Communications OÜ 
+Ipsen Poland Sp. z o.o.<br />
+Tel: +372 60 15 Tel.: + 48 22 653 68  </p>
+<p>Ελλάδα, Κύπρος, Malta 
+Portugal 
+Ipsen Μονοπρόσωπη EΠΕ 
+ΕλλάδαΤηλ: + 30 - 210 - 984 3Ipsen Portugal - Produtos Farmacêuticos S.A.<br />
+Tel: + 351 - 21 - 412 3 </p>
+<p>España 
+România 
+Ipsen Pharma, S.A.U. 
+Ipsen Pharma România SRL 
+Tel: + 34 - 936 - 858 Tel: + 40 21 231 27  </p>
+<p>France 
+Slovenija 
+Ipsen Pharma 
+PharmaSwiss d.o.o.<br />
+Tél: + 33 1 58 33 50 Tel: + 386 1 236 47  </p>
+<p>Hrvatska 
+Bausch Health Poland sp. z.o.o. podružnica Zagreb 
+Tel: +385 1 6700 Slovenská republika 
+Ipsen Pharma, organizačná zložka 
+Tel: + 420 242 481 821  </p>
+<p>Ireland, United Kingdom (Northern Ireland) </p>
+<p>Ipsen Pharmaceuticals Limited  </p>
+<p>Tel:  44 (0)1753 62 77  </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1326,6 +2098,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-36b89eaa45afd7ab0e486d51fb7ebc12"
 * entry[0].resource = composition-da-36b89eaa45afd7ab0e486d51fb7ebc12
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp36b89eaa45afd7ab0e486d51fb7ebc12"
+* entry[=].resource = mp36b89eaa45afd7ab0e486d51fb7ebc12
+                            
+                    
+Instance: bundlepackageleaflet-pt-36b89eaa45afd7ab0e486d51fb7ebc12
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cabometyx Package Leaflet for language pt"
+Description: "ePI document Bundle for cabometyx Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-36b89eaa45afd7ab0e486d51fb7ebc12"
+* entry[0].resource = composition-pt-36b89eaa45afd7ab0e486d51fb7ebc12
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp36b89eaa45afd7ab0e486d51fb7ebc12"
@@ -1427,6 +2221,18 @@ RuleSet: 36b89eaa45afd7ab0e486d51fb7ebc12ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-36b89eaa45afd7ab0e486d51fb7ebc12) // cabometyx pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

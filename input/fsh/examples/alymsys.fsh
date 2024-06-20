@@ -1329,6 +1329,826 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-8ad222fa20f6122792e54d69414353b7
+InstanceOf: CompositionUvEpi
+Title: "Composition for alymsys Package Leaflet"
+Description:  "Composition for alymsys Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8ad222fa20f6122792e54d69414353b7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - alymsys"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Alymsys e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Alymsys </li>
+<li>Como utilizar Alymsys </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Alymsys </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é alymsys e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é alymsys e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Alymsys contém a substância ativa bevacizumab, que é um anticorpo monoclonal humanizado (um 
+tipo de proteína que é normalmente produzido pelo sistema imunitário para ajudar a defender o 
+organismo de infeção e cancro). O bevacizumab liga-se seletivamente a uma proteína designada por 
+fator de crescimento do endotélio vascular humano (VEGF), que se encontra no revestimento dos 
+vasos sanguíneos e linfáticos do organismo. A proteína VEGF causa o crescimento dos vasos 
+sanguíneos nos tumores; estes vasos sanguíneos abastecem o tumor de nutrientes e oxigénio. Quando 
+o bevacizumab se liga ao VEGF, impede o crescimento do tumor através do bloqueio do crescimento 
+dos vasos sanguíneos que fornecem nutrientes e oxigénio ao tumor. </p>
+<p>Alymsys é um medicamento utilizado para o tratamento de doentes adultos com cancro avançado do 
+intestino grosso, isto é, do cólon ou reto. Alymsys será administrado juntamente com quimioterapia 
+que contém medicamentos com fluoropirimidinas. </p>
+<p>Alymsys também é utilizado para o tratamento de doentes adultos com cancro da mama metastizado. 
+Quando utilizado em doentes com cancro da mama, será administrado com um medicamento para 
+quimioterapia denominado paclitaxel ou capecitabina. </p>
+<p>Alymsys também é utilizado para o tratamento de doentes adultos com cancro do pulmão de células 
+não pequenas avançado. Alymsys será administrado em associação com um regime de quimioterapia 
+com platina. </p>
+<p>Alymsys também é utilizado para o tratamento de doentes adultos com cancro do pulmão de células 
+não pequenas avançado quando as células cancerígenas têm mutações específicas de uma proteína 
+chamada recetor do fator de crescimento epidérmico (EGFR). Alymsys será administrado em 
+associação com erlotinib. </p>
+<p>Alymsys também é utilizado para o tratamento de doentes adultos com cancro renal avançado. Quando 
+utilizado em doentes com cancro renal, será administrado com outro tipo de medicamento denominado 
+interferão. </p>
+<p>Alymsys também é utilizado no tratamento de doentes adultos com cancro epitelial do ovário, da 
+trompa de Falópio ou cancro peritoneal primário, avançados. Quando usado em doentes com cancro 
+epitelial do ovário, da trompa de Falópio ou peritoneal primário, será administrado em associação com 
+carboplatina e paclitaxel. </p>
+<p>Quando usado nos doentes adultos com cancro epitelial do ovário, da trompa de Falópio ou cancro 
+peritoneal primário, avançados, em que a doença reapareceu, pelo menos, 6 meses após a última vez 
+que foram tratados com um regime de quimioterapia com um agente de platina, o Alymsys será 
+administrado em associação com carboplatina e gemcitabina ou com carboplatina e paclitaxel. </p>
+<p>Quando usado nos doentes adultos com cancro epitelial do ovário, da trompa de Falópio ou cancro 
+peritoneal primário, avançados, em que a doença reapareceu até 6 meses após a última vez que foram 
+tratados com um regime de quimioterapia com um agente de platina, o Alymsys será administrado em 
+associação com paclitaxel, topotecano, ou doxorrubicina lipossómica peguilada. </p>
+<p>Alymsys também é utilizado no tratamento de doentes adultos com cancro do colo do útero com 
+doença persistente, recorrente ou metastizada. Alymsys será administrado em associação com 
+paclitaxel e cisplatina, ou, alternativamente, paclitaxel e topotecano em doentes que não podem 
+receber tratamento com platina. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar alymsys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar alymsys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não use Alymsys se: </p>
+<ul>
+<li>
+<p>tem alergia ao bevacizumab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>tem alergia a derivados de células de ovário de hamster chinês (CHO) ou a outros anticorpos 
+recombinantes humanos ou humanizados. </p>
+</li>
+<li>
+<p>estiver grávida. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Alymsys: </p>
+<ul>
+<li>
+<p>É possível que Alymsys aumente o risco de desenvolvimento de orifícios na parede do intestino. 
+Se tiver doenças que causem inflamação no interior do abdómen (ex. diverticulite, úlceras no 
+estômago, colite associada à quimioterapia), fale com o seu médico sobre o assunto. </p>
+</li>
+<li>
+<p>Alymsys pode aumentar o risco de desenvolvimento de uma ligação anormal ou passagem entre 
+dois órgãos ou vasos. O risco de desenvolvimento de ligações entre a vagina e quaisquer partes 
+do intestino pode aumentar caso tenha cancro do colo do útero com doença persistente, 
+recorrente ou metastizada. </p>
+</li>
+<li>
+<p>Alymsys pode aumentar o risco de hemorragia ou aumentar o risco de problemas com a 
+cicatrização após cirurgia. Se vai ser submetido a uma operação cirúrgica, se tiver sido 
+submetido a uma grande intervenção cirúrgica nos 28 dias anteriores ou se tiver uma ferida 
+cirúrgica não cicatrizada, não deve ser tratado com este medicamento. </p>
+</li>
+<li>
+<p>Alymsys pode aumentar o risco de desenvolvimento de infeções graves da pele ou em camadas 
+profundas debaixo da pele, especialmente se teve perfurações na parede do intestino ou 
+problemas com a cicatrização de feridas. </p>
+</li>
+<li>
+<p>Alymsys pode aumentar a incidência de tensão arterial elevada. Se tem tensão arterial elevada 
+que não é controlada com anti-hipertensores, contacte por favor o seu médico dado que é 
+importante certificar que a sua tensão arterial está controlada antes de iniciar o tratamento com 
+Alymsys.  </p>
+</li>
+<li>
+<p>Se tiver ou tiver tido um aneurisma (dilatação ou enfraquecimento da parede de um vaso 
+sanguíneo) ou uma rotura na parede de um vaso sanguíneo. </p>
+</li>
+<li>
+<p>Alymsys aumenta o risco de ter proteínas na sua urina, em especial se já tem tensão arterial 
+elevada. </p>
+</li>
+<li>
+<p>O risco de desenvolver coágulos sanguíneos nas suas artérias (um tipo de vaso sanguíneo) pode 
+aumentar se tiver mais de 65 anos de idade, se tiver diabetes, ou se teve uma situação prévia de 
+coágulos sanguíneos nas suas artérias. Por favor, fale com o seu médico dado que os coágulos 
+sanguíneos podem resultar em enfarte do miocárdio (ataque cardíaco) e acidente vascular 
+cerebral. </p>
+</li>
+<li>
+<p>Alymsys pode também aumentar o risco de desenvolver coágulos sanguíneos nas suas veias (um 
+tipo de vaso sanguíneo). </p>
+</li>
+<li>
+<p>Alymsys pode causar hemorragia, especialmente hemorragia relacionada com o tumor. Por 
+favor, consulte o seu médico se tiver, ou alguém da sua família tiver tendência para ter 
+problemas de hemorragias ou se, por qualquer razão, estiver a tomar medicamentos que tornam 
+o sangue menos espesso. </p>
+</li>
+<li>
+<p>Alymsys pode provocar hemorragia dentro ou à volta do cérebro. Por favor, discuta o assunto 
+com o seu médico se tiver cancro metastizado que afete o seu cérebro. </p>
+</li>
+<li>
+<p>É possível que Alymsys aumente o risco de hemorragia nos seus pulmões, incluindo tosse ou 
+expetoração com sangue. Por favor, discuta o assunto com o seu médico se tiver notado esta 
+situação anteriormente. </p>
+</li>
+<li>
+<p>Alymsys pode aumentar o risco de desenvolvimento de problemas de coração. É importante que 
+o seu médico saiba se foi alguma vez submetido a tratamento com antraciclinas (por exemplo, 
+doxorrubicina, um tipo específico de quimioterapia utilizada para o tratamento de alguns 
+cancros) ou tiver sido submetido a radioterapia no tórax ou se tiver alguma doença de coração. </p>
+</li>
+<li>
+<p>Alymsys pode causar infeções e uma diminuição do número de neutrófilos (um tipo de célula 
+sanguínea importante na sua proteção contra bactérias). </p>
+</li>
+<li>
+<p>É possível que Alymsys possa causar reações de hipersensibilidade (incluindo choque 
+anafilático) e/ou à perfusão (reações relacionadas com a injeção do medicamento). Por favor, 
+informe o seu médico, farmacêutico ou enfermeiro se tiver tido problemas após injeções, tais 
+como tonturas/sensação de desmaio, falta de ar, inchaço (edema) ou erupção da pele. </p>
+</li>
+<li>
+<p>Foi associado ao tratamento com Alymsys um efeito indesejável neurológico raro denominado 
+síndrome de encefalopatia posterior reversível (SEPR). Se tiver dor de cabeça, alterações na 
+visão, confusão ou convulsão, com ou sem aumento da tensão arterial, por favor, contacte o seu 
+médico. </p>
+</li>
+<li>
+<p>Foi notificada, em doentes com idade inferior a 18 anos quando tratados com Alymsys, a morte 
+do tecido do osso (osteonecrose) em ossos que não a mandíbula. Dor na boca, dentes e/ou 
+maxilar, inchaço ou feridas no interior da boca, adormecimento ou sensação de peso no maxilar 
+ou perda de um dente podem ser sinais e sintomas de danos na mandíbula (osteonecrose). Se 
+apresentar qualquer um deles, informe imediatamente o seu médico e o dentista. </p>
+</li>
+</ul>
+<p>Não deixe de informar o médico, mesmo que algum dos problemas descritos acima tenha ocorrido no 
+passado. 
+Antes de ser tratado com bevacizumab ou enquanto estiver a ser tratado com Alymsys: </p>
+<ul>
+<li>
+<p>se tiver ou tiver tido dor na boca, dentes e/ou maxilar, inchaço ou feridas no interior da boca, 
+adormecimento ou sensação de peso no maxilar ou desprendimento de um dente, informe o seu 
+médico e o dentista imediatamente. </p>
+</li>
+<li>
+<p>se precisar de ser submetido a um tratamento dentário invasivo ou cirurgia dentária, informe o 
+seu dentista de que está a ser tratado com Alymsys, particularmente quando está também a 
+receber ou se recebeu uma injeção de bifosfonato no seu sangue. </p>
+</li>
+</ul>
+<p>Poderá ser aconselhado a fazer uma consulta de revisão do estado dentário antes de iniciar o 
+tratamento com Alymsys. </p>
+<p>Alymsys foi desenvolvido e produzido para tratar o cancro através de injeção na corrente sanguínea. 
+Não foi desenvolvido nem produzido para ser injetado no olho. Como tal, não está autorizado para ser 
+utilizado deste modo. Quando Alymsys é injetado diretamente no olho (utilização não aprovada), 
+podem ocorrer os seguintes efeitos indesejáveis: </p>
+<ul>
+<li>
+<p>Infeção ou inflamação do globo ocular, </p>
+</li>
+<li>
+<p>Vermelhidão do olho, pequenas partículas ou manchas na sua visão (moscas volantes), dor no 
+olho, </p>
+</li>
+<li>
+<p>Ver raios de luz flutuantes, progredindo para alguma perda da sua visão, </p>
+</li>
+<li>
+<p>Pressão ocular aumentada, </p>
+</li>
+<li>
+<p>Hemorragia no olho. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes 
+O uso de Alymsys em crianças e adolescentes com idade inferior a 18 anos não é recomendado porque 
+a segurança e o benefício não foram estabelecidos nestas populações de doentes. </p>
+<p>Outros medicamentos e Alymsys 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou 
+se vier a tomar outros medicamentos.  </p>
+<p>A combinação de Alymsys com outro medicamento chamado malato de sunitinib (prescrito para o 
+cancro renal e gastrointestinal) pode causar graves efeitos indesejáveis. Fale com o seu médico para se 
+certificar que não combina estes medicamentos. </p>
+<p>Informe o seu médico se estiver a usar terapêuticas com base em platina ou taxanos para o cancro do 
+pulmão ou o cancro da mama metastizado. Estas terapêuticas em combinação com Alymsys podem 
+aumentar o risco de efeitos indesejáveis graves. </p>
+<p>Informe o seu médico se fez recentemente ou está a fazer radioterapia. </p>
+<p>Gravidez, amamentação e fertilidade 
+Não pode usar este medicamento se estiver grávida. Alymsys pode afetar o bebé que se está a 
+desenvolver no útero uma vez que pode parar a formação de novos vasos sanguíneos. O seu médico 
+deve aconselhá-la a utilizar contraceção durante o tratamento com Alymsyse durante, pelo menos, 
+6 meses após a última dose de Alymsys. </p>
+<p>Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico ou farmacêutico 
+antes de tomar este medicamento. </p>
+<p>Não pode amamentar o seu filho durante o tratamento com Alymsys e durante, pelo menos, 6 meses 
+após a última dose de Alymsys, uma vez que este pode interferir com o crescimento e 
+desenvolvimento do seu bebé. </p>
+<p>Alymsys pode comprometer a fertilidade feminina. Para mais informação, por favor, consulte o seu 
+médico.  </p>
+<p>As mulheres pré-menopáusicas (mulheres que têm ciclo menstrual) podem notar que a menstruação se 
+torna irregular ou que têm faltas, e podem ter problemas de fertilidade. Se está a considerar ter filhos, 
+deverá discuti-lo com o seu médico antes do início do tratamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Alymsys não mostrou reduzir os efeitos na sua capacidade de conduzir ou utilizar quaisquer 
+ferramentas ou máquinas. No entanto, foram notificados sonolência e desmaios com o uso de 
+Alymsys. Se teve sintomas que afetam a sua visão ou de concentração, ou a sua capacidade de reagir, 
+não conduza ou utilize máquinas até que os sintomas desapareçam. </p>
+<p>Alymsys contém sódio 
+Este medicamento contém menos de 1 mmol (23 mg) de sódio por frasco para injetáveis, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar alymsys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar alymsys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dose e frequência de administração 
+A dose necessária de Alymsys depende do seu peso corporal e do tipo de cancro que está a ser tratado. 
+A dose recomendada é de 5 mg, 7,5 mg, 10 mg ou 15 mg por quilograma do seu peso corporal. O seu 
+médico vai prescrever a dose de Alymsys adequada ao seu caso. A administração de Alymsys vai ser 
+feita 1 vez, a cada 2 ou 3 semanas. O número de perfusões vai depender da forma como responder ao 
+tratamento; deve prosseguir o tratamento até o Alymsys deixar de conseguir impedir o crescimento do 
+tumor. O seu médico irá discutir este assunto consigo.  </p>
+<p>Modo e via de administração 
+Não agitar o frasco para injetáveis. Alymsys é um concentrado para solução para perfusão. Antes da 
+utilização, uma parte ou a totalidade, consoante a dose que lhe foi prescrita, do conteúdo do frasco 
+para injetáveis de Alymsys será diluída com uma solução de cloreto de sódio. Um médico ou 
+enfermeiro irá administrar-lhe a solução diluída de Alymsys por meio de perfusão intravenosa (um 
+gotejamento para a sua veia). A primeira perfusão ser-lhe-á administrada durante 90 minutos. Se esta 
+for bem tolerada, a segunda perfusão pode ser administrada durante 60 minutos. As perfusões 
+seguintes podem ser administradas durante 30 minutos. </p>
+<p>A administração de Alymsys deve ser temporariamente interrompida </p>
+<ul>
+<li>
+<p>se desenvolver tensão arterial elevada grave, que necessite de tratamento com anti-
+hipertensores, </p>
+</li>
+<li>
+<p>se tiver problemas de cicatrização depois de uma cirurgia, </p>
+</li>
+<li>
+<p>se for submetido a uma cirurgia. </p>
+</li>
+</ul>
+<p>A administração de Alymsys deve ser permanentemente interrompida se tiver </p>
+<ul>
+<li>
+<p>tensão arterial elevada grave não controlada pelos medicamentos anti-hipertensores; ou uma 
+subida grave, súbita, da tensão arterial, </p>
+</li>
+<li>
+<p>presença de proteínas na urina, acompanhada por inchaço no seu corpo, </p>
+</li>
+<li>
+<p>um orifício na parede do seu intestino, </p>
+</li>
+<li>
+<p>uma ligação ou passagem anormal, em forma de tubo, entre a traqueia e o esófago, entre órgãos 
+internos e a pele, entre a vagina e quaisquer partes do intestino ou entre outros tecidos que não 
+são normalmente conectados (fístula), e que seja considerada grave pelo seu médico, </p>
+</li>
+<li>
+<p>infeção grave da pele ou em camadas profundas debaixo da pele, </p>
+</li>
+<li>
+<p>um coágulo de sangue nas suas artérias, </p>
+</li>
+<li>
+<p>um coágulo nos vasos sanguíneos dos pulmões, </p>
+</li>
+<li>
+<p>uma hemorragia grave. </p>
+</li>
+</ul>
+<p>Se for administrada uma quantidade excessiva de Alymsys </p>
+<ul>
+<li>pode ter uma enxaqueca muito forte. Se isto acontecer, contacte imediatamente o seu médico, 
+farmacêutico ou enfermeiro. </li>
+</ul>
+<p>Se não for administrada uma dose de Alymsys, </p>
+<ul>
+<li>o seu médico decidirá quando deve receber a próxima dose de Alymsys. Deve falar disso com o 
+seu médico. </li>
+</ul>
+<p>Se parar de tomar Alymsys, 
+Interromper o tratamento com Alymsys pode parar o seu efeito no crescimento do tumor. Não pare o 
+tratamento com Alymsys exceto se o assunto tiver sido discutido com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis abaixo descritos foram observados quando Alymsys foi administrado 
+juntamente com quimioterapia. Isto não significa necessariamente que estes efeitos indesejáveis 
+tenham sido causados unicamente pelo Alymsys. </p>
+<p>Reações alérgicas 
+Se tiver uma reação alérgica, informe de imediato o seu médico ou um elemento da equipa médica. Os 
+sinais podem incluir: dificuldade em respirar ou dor no peito. Poderá também ter vermelhidão ou rubor 
+da pele ou erupção cutânea, arrepios e calafrios, mau estar (náuseas) ou má disposição (vómitos); 
+tumefação, atordoamento, batimento cardíaco rápido e perda de consciência. </p>
+<p>Deve procurar ajuda imediatamente se tiver algum dos efeitos indesejáveis abaixo descritos. </p>
+<p>Efeitos indesejáveis graves, que podem ser muito frequentes (podem afetar mais de 1 em cada pessoas), incluem: </p>
+<ul>
+<li>
+<p>tensão arterial elevada, </p>
+</li>
+<li>
+<p>sensação de adormecimento ou formigueiro das mãos ou pés, </p>
+</li>
+<li>
+<p>diminuição do número de células sanguíneas, incluindo glóbulos brancos, que ajudam a 
+combater infeções (pode ser acompanhado de febre), e células que ajudam na coagulação do 
+sangue, </p>
+</li>
+<li>
+<p>sentir-se fraco ou sem energia, </p>
+</li>
+<li>
+<p>cansaço, </p>
+</li>
+<li>
+<p>diarreia, náusea, vómito e dor abdominal. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis graves, que podem ser frequentes (podem afetar até 1 em cada 10 pessoas), 
+incluem: </p>
+<ul>
+<li>
+<p>perfuração intestinal, </p>
+</li>
+<li>
+<p>hemorragia, incluindo hemorragia dos pulmões em doentes com cancro do pulmão de células 
+não pequenas, </p>
+</li>
+<li>
+<p>bloqueio de artérias por um coágulo sanguíneo, </p>
+</li>
+<li>
+<p>bloqueio das veias por um coágulo sanguíneo, </p>
+</li>
+<li>
+<p>bloqueio dos vasos sanguíneos dos pulmões por um coágulo sanguíneo, </p>
+</li>
+<li>
+<p>bloqueio das veias das pernas por um coágulo sanguíneo, </p>
+</li>
+<li>
+<p>insuficiência cardíaca, </p>
+</li>
+<li>
+<p>problemas de cicatrização de feridas após cirurgia, </p>
+</li>
+<li>
+<p>vermelhidão, descamação, sensibilidade ao toque, dor ou formação de bolhas nos dedos ou pés, </p>
+</li>
+<li>
+<p>diminuição do número de glóbulos vermelhos no sangue, </p>
+</li>
+<li>
+<p>falta de energia, </p>
+</li>
+<li>
+<p>afeções intestinais e do estômago, </p>
+</li>
+<li>
+<p>dor muscular e nas articulações, fraqueza muscular, </p>
+</li>
+<li>
+<p>boca seca associada a sede e/ou diminuição do volume ou escurecimento da urina, </p>
+</li>
+<li>
+<p>inflamação do revestimento húmido interior da boca e do intestino, pulmões e passagens de ar, 
+tratos reprodutor e urinário, </p>
+</li>
+<li>
+<p>feridas na boca e no tubo da boca até ao estômago, que poderão ser dolorosas e causar 
+dificuldade em engolir, </p>
+</li>
+<li>
+<p>dor, incluindo dor de cabeça, dor de costas e dor na pélvis e região anal, </p>
+</li>
+<li>
+<p>acumulação localizada de pus, </p>
+</li>
+<li>
+<p>infeção, em particular infeção no sangue ou na bexiga, </p>
+</li>
+<li>
+<p>redução da circulação de sangue no cérebro ou acidente vascular cerebral, </p>
+</li>
+<li>
+<p>sonolência, </p>
+</li>
+<li>
+<p>hemorragia nasal, </p>
+</li>
+<li>
+<p>aumento do ritmo cardíaco (pulso), </p>
+</li>
+<li>
+<p>obstrução no intestino, </p>
+</li>
+<li>
+<p>resultados anormais no teste da urina (proteínas na urina), </p>
+</li>
+<li>
+<p>dificuldades respiratórias ou baixos níveis de oxigénio no sangue, </p>
+</li>
+<li>
+<p>infeções da pele ou camadas mais profundas debaixo da pele, </p>
+</li>
+<li>
+<p>fístula: uma ligação anormal, em forma de tubo, entre órgãos internos e a pele ou outros tecidos 
+que não estão normalmente ligados, incluindo ligações entre a vagina e o intestino em doentes 
+com cancro do colo do útero. </p>
+</li>
+<li>
+<p>reações alérgicas (os sinais podem incluir dificuldade em respirar, vermelhidão da face, erupção 
+da pele, tensão arterial baixa ou tensão arterial elevada, oxigénio baixo no seu sangue, dor 
+torácica, ou náusea/vómitos), 
+Efeitos indesejáveis graves, que podem ser raros (podem afetar até 1 em cada 1000 pessoas), incluem: </p>
+</li>
+<li>
+<p>reação alérgica grave e súbita, com dificuldade em respirar, tumefação, atordoamento, 
+batimento cardíaco rápido, sudorese e perda de consciência (choque anafilático). </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis graves de frequência desconhecida (a frequência não pode ser calculada a partir 
+dos dados disponíveis) incluem: </p>
+<ul>
+<li>
+<p>infeções graves da pele ou em camadas profundas debaixo da pele, especialmente se tinha 
+perfurações na parede do intestino ou problemas de cicatrização de feridas, </p>
+</li>
+<li>
+<p>um efeito negativo na capacidade das mulheres em ter filhos (ver nos parágrafos abaixo a lista 
+de recomendações adicionais), </p>
+</li>
+<li>
+<p>uma condição no cérebro com sintomas que incluem convulsões (ataques), dor de cabeça, 
+confusão e alterações na visão (Síndrome de Encefalopatia Posterior Reversível ou SEPR), </p>
+</li>
+<li>
+<p>sintomas que sugerem alterações na função normal do cérebro (dores de cabeça, alterações da 
+visão, confusão, ou convulsões) e tensão arterial elevada, </p>
+</li>
+<li>
+<p>uma dilatação ou enfraquecimento da parede de um vaso sanguíneo ou uma rotura da parede de 
+um vaso sanguíneo (aneurismas e dissecções das artérias). </p>
+</li>
+<li>
+<p>bloqueio de vasos sanguíneos muito pequenos no rim, </p>
+</li>
+<li>
+<p>tensão arterial anormalmente elevada nos vasos sanguíneos dos pulmões que faz com que o lado 
+direito do coração trabalhe mais do que o normal, </p>
+</li>
+<li>
+<p>uma perfuração na parede de cartilagem que separa as narinas, </p>
+</li>
+<li>
+<p>uma perfuração no estômago ou nos intestinos, </p>
+</li>
+<li>
+<p>uma ferida aberta ou perfuração no revestimento do estômago ou intestino delgado (os sinais 
+podem incluir dor abdominal, sensação de enfartamento, fezes negras cor de alcatrão ou sangue 
+nas fezes ou sangue no seu vómito), </p>
+</li>
+<li>
+<p>hemorragia na parte inferior do intestino grosso, </p>
+</li>
+<li>
+<p>lesões nas gengivas com exposição do osso da mandíbula que não cicatrizam e podem estar 
+associadas a dor e inflamação do tecido circundante (ver nos parágrafos abaixo a lista de efeitos 
+indesejáveis para recomendações adicionais), </p>
+</li>
+<li>
+<p>perfuração na vesícula biliar (os sintomas e sinais podem incluir dor abdominal, febre, e 
+náusea/vómitos). </p>
+</li>
+</ul>
+<p>Deve procurar ajuda logo que possível se tiver algum dos efeitos indesejáveis abaixo descritos. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas), que não foram 
+graves incluem: </p>
+<ul>
+<li>
+<p>obstipação, </p>
+</li>
+<li>
+<p>perda do apetite, </p>
+</li>
+<li>
+<p>febre, </p>
+</li>
+<li>
+<p>problemas nos olhos (incluindo aumento da produção de lágrimas), </p>
+</li>
+<li>
+<p>distúrbios na fala, </p>
+</li>
+<li>
+<p>alteração do paladar, </p>
+</li>
+<li>
+<p>corrimento nasal, </p>
+</li>
+<li>
+<p>pele seca, descamação e inflamação da pele, alteração da cor da pele, </p>
+</li>
+<li>
+<p>perda de peso, </p>
+</li>
+<li>
+<p>hemorragias nasais. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas), que não foram graves 
+incluem: </p>
+<ul>
+<li>alterações da voz e rouquidão. </li>
+</ul>
+<p>Os doentes com mais de 65 anos têm um risco aumentado de sofrerem dos seguintes efeitos 
+indesejáveis: </p>
+<ul>
+<li>
+<p>coágulos sanguíneos nas artérias, que podem levar a um AVC (acidente vascular cerebral) ou a 
+um enfarte do miocárdio (ataque cardíaco), </p>
+</li>
+<li>
+<p>diminuição no número de glóbulos brancos no sangue e de células que ajudam na coagulação do 
+sangue, </p>
+</li>
+<li>
+<p>diarreia, </p>
+</li>
+<li>
+<p>enjoo, </p>
+</li>
+<li>
+<p>dor de cabeça, </p>
+</li>
+<li>
+<p>fadiga, </p>
+</li>
+<li>
+<p>tensão arterial elevada. </p>
+</li>
+</ul>
+<p>Alymsys pode ainda causar alterações nas análises pedidas pelo seu médico. Estas incluem a 
+diminuição do número de glóbulos brancos, em particular de neutrófilos (um tipo de glóbulo branco 
+que ajuda na proteção contra infeções) no sangue; presença de proteínas na urina; diminuição dos 
+níveis de potássio, sódio ou fósforo (um mineral) no sangue; aumento do nível de açúcar no sangue; 
+aumento do nível de fosfatase alcalina (uma enzima) no sangue; aumento da creatinina sérica (uma 
+proteína medida por um teste de sangue para ver se os seus rins estão a funcionar); e diminuição do 
+nível da hemoglobina (presente nos glóbulos vermelhos, que transportam oxigénio), que pode ser 
+grave. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar alymsys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar alymsys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2ºC - 8°C). Não congelar. 
+Conservar o frasco para injetáveis na embalagem exterior para proteger da luz. </p>
+<p>As soluções para perfusão devem ser utilizadas imediatamente após a diluição. Se não forem utilizadas 
+imediatamente, a duração e as condições de conservação após a preparação são da responsabilidade do 
+utilizador, não devendo normalmente ser superiores a 24 horas a 2°C-8°C, exceto se as soluções para 
+perfusão tiverem sido preparadas num ambiente estéril. Quando a diluição é efetuada num ambiente 
+estéril, Alymsys é estável durante até 30 dias a 2°C-8°C após a diluição, e durante um período de até 
+48 horas a temperaturas que não ultrapassem os 30°C. </p>
+<p>Não utilize Alymsys se notar qualquer partícula sólida ou descoloração antes da administração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Alymsys </p>
+<ul>
+<li>
+<p>A substância ativa é bevacizumab. Cada ml de concentrado contém 25 mg de bevacizumab, 
+correspondendo a 1,4 a 16,5 mg/ml quando diluído conforme recomendado. </p>
+</li>
+<li>
+<p>Cada frasco para injetáveis de 4 ml contém 100 mg de bevacizumab correspondendo a 1,4 mg/ml 
+quando diluído conforme recomendado. </p>
+</li>
+<li>
+<p>Cada frasco para injetáveis de 16 ml contém 400 mg de bevacizumab correspondendo a 
+16,5 mg/ml quando diluído conforme recomendado. </p>
+</li>
+<li>
+<p>Os outros componentes são a trealose dihidratada, fosfato de sódio monobásico mono-
+hidratado, fosfato dissódico, polissorbato 20 e água para preparações injetáveis (ver secção 2 
+"Alymsys contém sódio"). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Alymsys e conteúdo da embalagem 
+Alymsys é um concentrado para solução para perfusão (concentrado estéril). O concentrado é 
+um líquido transparente, incolor a amarelado ou acastanhado claro num frasco para injetáveis de vidro, 
+com uma tampa de borracha. Cada frasco para injetáveis contém 100 mg de bevacizumab em 4 ml de 
+solução ou 400 mg de bevacizumab em 16 ml de solução. Cada embalagem de Alymsys contém um 
+frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Mabxience Research SL 
+C/ Manuel Pombo Angulo 28050 Madrid 
+Espanha </p>
+<p>Fabricante 
+GH GENHELIX S.A. 
+Parque Tecnológico de León 
+Edifício GENHELIX<br />
+C/Julia Morros, s/n 
+Armunia, 24009 León, Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+Mabxience Research SL 
+Tél/Tel: +34 917 711<br />
+Lietuva 
+Zentiva, k.s. 
+Tel: +370 52152 
+България 
+Zentiva, k.s. 
+Teл.: +35924417 
+Luxembourg/Luxemburg 
+Mabxience Research SL 
+Tél/Tel: +34 917 711<br />
+Česká republika 
+Zentiva, k.s. 
+Tel: +420 267 241<br />
+Magyarország 
+Zentiva Pharma Kft. 
+Tel.: +36 1 299 1 
+Danmark 
+Medical Valley Invest AB 
+Tlf: +46 40 122 
+Malta 
+Zentiva, k.s. 
+Tel: +356 2034 1 
+Deutschland 
+Zentiva Pharma GmbH<br />
+Tel: +49 (0) 800 53 53<br />
+Nederland 
+Medical Valley Invest AB 
+Tel.: +46 40 122 
+Eesti 
+Zentiva, k.s. 
+Tel: +372 52 70 
+Norge 
+Medical Valley Invest AB 
+Tlf: +46 40 122 
+Ελλάδα 
+Win Medica S.A. 
+Τηλ: +30 210 7488 Österreich 
+G.L. Pharma GmbH 
+Tel: +43 3136 82 
+España 
+Cipla Europe NV sucursal en España 
+Tel: +34 91 534 16 Polska 
+Zentiva Polska Sp. z o.o. 
+Tel: +48 22 375 92<br />
+France 
+Zentiva France 
+Tél: +33 (0) 800 089<br />
+Portugal 
+Zentiva Portugal, Lda 
+Tel: +351210601 
+Hrvatska 
+Zentiva d.o.o. 
+Tel: +385 1 6641<br />
+România 
+ZENTIVA S.A. 
+Tel: +4 021 304 7 
+Ireland 
+Zentiva, k.s. 
+Tel: +353 818 882<br />
+Slovenija 
+Zentiva, k.s. 
+Tel: +386 360 00<br />
+Ísland 
+Alvogen ehf. 
+Sími: +354 522 2 
+Slovenská republika 
+Zentiva, a.s. 
+Tel: +421 2 3918 3 
+Italia 
+Zentiva Italia S.r.l. 
+Tel: +39 800081 
+Suomi/Finland 
+Medical Valley Invest AB 
+Puh/Tel: +46 40 122 
+Κύπρος 
+Win Medica S.A. 
+Τηλ: +30 210 7488<br />
+Sverige 
+Medical Valley Invest AB 
+Tel: +46 40 122 
+Latvija 
+Zentiva, k.s. 
+Tel: +371 67893 
+United Kingdom (Northern Ireland) 
+Zentiva, k.s. 
+Tel: +44 (0) 800 090 2 </p>
+<p>Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt;&lt;{mês YYYY}&gt;. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da Internet da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu </p>         </div>"""      
+
+
+
 
 
                     
@@ -1370,6 +2190,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8ad222fa20f6122792e54d69414353b7"
 * entry[0].resource = composition-da-8ad222fa20f6122792e54d69414353b7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8ad222fa20f6122792e54d69414353b7"
+* entry[=].resource = mp8ad222fa20f6122792e54d69414353b7
+                            
+                    
+Instance: bundlepackageleaflet-pt-8ad222fa20f6122792e54d69414353b7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for alymsys Package Leaflet for language pt"
+Description: "ePI document Bundle for alymsys Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8ad222fa20f6122792e54d69414353b7"
+* entry[0].resource = composition-pt-8ad222fa20f6122792e54d69414353b7
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8ad222fa20f6122792e54d69414353b7"
@@ -1471,6 +2313,18 @@ RuleSet: 8ad222fa20f6122792e54d69414353b7ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8ad222fa20f6122792e54d69414353b7) // alymsys pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

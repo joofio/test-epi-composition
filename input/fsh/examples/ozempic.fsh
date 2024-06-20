@@ -1089,6 +1089,464 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>       
 
 
 
+Instance: composition-pt-d321e28009e316a0922b3b06c7400fef
+InstanceOf: CompositionUvEpi
+Title: "Composition for ozempic Package Leaflet"
+Description:  "Composition for ozempic Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd321e28009e316a0922b3b06c7400fef)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ozempic"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Ozempic e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Ozempic </li>
+<li>Como utilizar Ozempic </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Ozempic </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ozempic e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ozempic e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ozempic contém a substância ativa semaglutido. Ajuda o seu corpo a reduzir o seu nível de açúcar no 
+sangue apenas quando este nível é demasiado elevado e pode ajudar a prevenir o risco de doença do 
+coração. </p>
+<p>Ozempic é utilizado para tratar adultos (com 18 anos de idade ou mais) com diabetes tipo 2, quando a 
+dieta e o exercício não são suficientes: </p>
+<ul>
+<li>
+<p>sem outros medicamentos para a diabetes - quando não puder utilizar metformina (outro 
+medicamento para a diabetes) ou </p>
+</li>
+<li>
+<p>com outros medicamentos para a diabetes - quando os mesmos não são suficientes para 
+controlar os seus níveis de açúcar no sangue. Estes podem ser medicamentos que toma por via 
+oral ou que injeta, como, por exemplo, a insulina.  </p>
+</li>
+</ul>
+<p>É importante que continue o seu plano alimentar e de exercício físico como indicado pelo seu médico, 
+farmacêutico ou enfermeiro. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ozempic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ozempic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Ozempic  </p>
+<ul>
+<li>se tem alergia ao semaglutido ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar este medicamento. </p>
+<p>Este medicamento não é o mesmo que uma insulina e não deverá utilizá-lo se: </p>
+<ul>
+<li>
+<p>tiver diabetes tipo 1 - uma condição em que o seu corpo não produz qualquer insulina </p>
+</li>
+<li>
+<p>desenvolver cetoacidose diabética - uma complicação da diabetes com um nível alto de açúcar 
+no sangue, dificuldade em respirar, confusão, sede excessiva, odor doce no hálito ou sabor doce 
+ou metálico na boca.  </p>
+</li>
+</ul>
+<p>Ozempic não é uma insulina e, consequentemente, não deve ser utilizado como um substituto da 
+insulina. </p>
+<p>Efeitos no sistema digestivo  </p>
+<p>Durante o tratamento com este medicamento, pode sentir-se maldisposto (náuseas) ou doente 
+(vómitos) ou ter diarreia. Estes efeitos indesejáveis podem causar desidratação (perda de líquidos). É 
+importante que beba bastantes líquidos para evitar a desidratação. Isto é particularmente importante, se 
+tiver problemas de rins. Fale com o seu médico se tiver quaisquer perguntas ou preocupações. </p>
+<p>Dor de estômago intensa e constante que pode dever-se a pancreatite aguda </p>
+<p>Se sentir uma dor intensa e constante na zona do estômago - fale imediatamente com um médico, uma 
+vez que pode ser um sinal de pancreatite aguda (pâncreas inflamado). Ver secção 4 sobre os sinais de 
+aviso de pâncreas inflamado. </p>
+<p>Nível baixo de açúcar no sangue (hipoglicemia) </p>
+<p>A associação de uma sulfonilureia ou insulina com este medicamento poderá aumentar o risco de 
+baixos níveis de açúcar no sangue (hipoglicemia). Veja a secção 4 para os sinais de aviso de níveis 
+baixos de açúcar no sangue. O seu médico poderá pedir-lhe para testar os seus níveis de açúcar no 
+sangue. Esta medição ajudará o seu médico a decidir se a dose de sulfonilureia ou de insulina precisa 
+de ser alterada para reduzir o risco de baixo nível de açúcar no sangue. </p>
+<p>Doença do olho provocada pela diabetes (retinopatia) </p>
+<p>Se tem doença do olho provocada pela diabetes e está a usar insulina, este medicamento pode levar a 
+um agravamento da sua visão e esta situação poderá requerer tratamento. Informe o seu médico se 
+tiver doença do olho provocada pela diabetes ou se sentir perturbações da visão durante o tratamento 
+com este medicamento. Caso tenha doença do olho potencialmente instável provocada pela diabetes, 
+não é recomendado que utilize Ozempic 2 mg. </p>
+<p>Crianças e adolescentes 
+Este medicamento não é recomendado para crianças e adolescentes com menos de 18 anos de idade, 
+uma vez que a segurança e eficácia neste grupo de idades ainda não foram estabelecidas. </p>
+<p>Outros medicamentos e Ozempic 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente ou se 
+vier a tomar outros medicamentos, incluindo medicamentos à base de plantas ou outros medicamentos 
+que tenha comprado sem receita médica. </p>
+<p>Em especial, informe o seu médico, farmacêutico ou enfermeiro se estiver a utilizar medicamentos 
+contendo qualquer uma das seguintes substâncias: </p>
+<ul>
+<li>
+<p>Varfarina ou outros medicamentos semelhantes tomados por via oral para reduzir a coagulação 
+do sangue (anticoagulantes orais). Poderá necessitar fazer análises frequentes ao sangue para 
+confirmar a velocidade de coagulação do seu sangue. </p>
+</li>
+<li>
+<p>Se está a utilizar insulina, o seu médico irá dizer-lhe como deve reduzir a dose de insulina e irá 
+recomendar-lhe que teste o seu nível de açúcar no sangue mais frequentemente, de modo a 
+evitar o desenvolvimento de hiperglicemia (nível alto de açúcar no sangue) e de cetoacidose 
+diabética (uma complicação da diabetes que ocorre quando o seu corpo não é capaz de reduzir 
+os níveis de açúcar por não ter insulina suficiente). </p>
+</li>
+</ul>
+<p>Gravidez e amamentação<br />
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento.  </p>
+<p>Este medicamento não deve ser utilizado durante a gravidez, dado desconhecer-se se prejudica o feto. 
+Por conseguinte, a utilização de contracetivos é recomendada enquanto tomar este medicamento. Se 
+pretender ficar grávida, fale com o seu médico sobre como mudar o seu tratamento, uma vez que 
+deverá deixar de tomar este medicamento, pelo menos, com 2 meses de antecedência. Se ficar grávida 
+enquanto estiver a tomar este medicamento, fale imediatamente com o seu médico, uma vez que o 
+tratamento terá de ser alterado. </p>
+<p>Não utilize este medicamento se estiver a amamentar, dado que se desconhece se o medicamento passa 
+para o leite materno. </p>
+<p>Condução de veículos e utilização de máquinas<br />
+É pouco provável que Ozempic afete a sua capacidade de conduzir e utilizar máquinas. Se utilizar este 
+medicamento em associação com uma sulfonilureia ou insulina, o nível de açúcar no sangue pode 
+baixar (hipoglicemia), podendo reduzir a sua capacidade de concentração. Não conduza ou utilize 
+máquinas se sentir sinais de baixo nível de açúcar no sangue. Veja na secção 2, “Advertências e 
+precauções" para obter informações sobre o risco acrescido de baixo nível de açúcar no sangue e a 
+secção 4 para os sinais de aviso de baixo nível de açúcar no sangue. Fale com o seu médico para obter 
+mais informações.  </p>
+<p>Teor de sódio 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
+‘isento de sódio’.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ozempic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ozempic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico, 
+farmacêutico ou enfermeiro se tiver dúvidas. </p>
+<p>Quantidade a utilizar </p>
+<ul>
+<li>
+<p>A dose inicial é de 0,25 mg uma vez por semana, durante quatro semanas. </p>
+</li>
+<li>
+<p>Após quatro semanas, o seu médico irá aumentar a dose para 0,5 mg uma vez por semana. </p>
+</li>
+<li>
+<p>O seu médico poderá aumentar a dose para 1 mg uma vez por semana, se o nível de açúcar no 
+sangue não estiver adequadamente controlado com uma dose de 0,5 mg uma vez por semana. </p>
+</li>
+<li>
+<p>O seu médico poderá aumentar a dose para 2 mg uma vez por semana, se o nível de açúcar no 
+sangue não estiver adequadamente controlado com uma dose de 1 mg uma vez por semana. </p>
+</li>
+</ul>
+<p>Não altere a dose a menos que o seu médico lhe diga para o fazer. </p>
+<p>Como é administrado Ozempic 
+Ozempic é administrado na forma de uma injeção sob a pele (injeção subcutânea). Não injete a 
+solução numa veia ou num músculo. </p>
+<ul>
+<li>
+<p>Os melhores pontos para administrar a injeção são a parte da frente das coxas, a barriga ao nível 
+da cintura (abdómen) ou o braço. </p>
+</li>
+<li>
+<p>Antes de utilizar a caneta pela primeira vez, o seu médico ou enfermeiro irá mostrar-lhe como 
+utilizá-la. 
+São fornecidas instruções de utilização mais pormenorizadas no verso deste folheto informativo. </p>
+</li>
+</ul>
+<p>Quando utilizar Ozempic </p>
+<ul>
+<li>
+<p>Deverá utilizar este medicamento uma vez por semana no mesmo dia de cada semana, se 
+possível. </p>
+</li>
+<li>
+<p>Pode administrar a injeção a qualquer hora do dia - independentemente das refeições.  </p>
+</li>
+</ul>
+<p>Para ajudá-lo a lembrar-se de injetar este medicamento apenas uma vez por semana, recomenda-se que 
+anote o dia da semana escolhido (por exemplo, quarta-feira) na embalagem e escreva a data na 
+embalagem sempre que tenha injetado o medicamento. </p>
+<p>Se necessário, pode alterar o dia da sua injeção semanal deste medicamento desde que tenham 
+passado, pelo menos, 3 dias desde a sua última injeção. Depois de selecionar um novo dia para 
+administrar a dose, continue a utilização uma vez por semana. </p>
+<p>Se utilizar mais Ozempic do que deveria<br />
+Se utilizar mais Ozempic do que deveria, deve informar o seu médico imediatamente. Pode sentir 
+efeitos indesejáveis, como sensação de má disposição (náuseas).  </p>
+<p>Caso se tenha esquecido de utilizar Ozempic<br />
+Caso se tenha esquecido de injetar uma dose e: </p>
+<ul>
+<li>
+<p>tenham passado 5 dias ou menos desde a hora em que deveria ter utilizado Ozempic, utilize 
+assim que se lembrar. Injete a próxima dose como é normal no dia previsto. </p>
+</li>
+<li>
+<p>tenham passado mais de 5 dias desde a hora em que deveria ter utilizado Ozempic, ignore a dose 
+não administrada. Injete a próxima dose como é normal no dia previsto. 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+</li>
+</ul>
+<p>Se parar de utilizar Ozempic<br />
+Não interrompa a utilização deste medicamento sem falar com o seu médico. Se interromper a 
+utilização, os níveis de açúcar no sangue poderão aumentar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.  </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>complicações da doença do olho provocada pela diabetes (retinopatia) - deverá falar com o seu 
+médico se tiver problemas nos olhos, tais como alterações na visão, durante o tratamento com 
+este medicamento. </li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>Pâncreas inflamado (pancreatite aguda) que pode causar uma dor intensa no estômago e nas 
+costas que não desaparece. Deve consultar o seu médico, imediatamente, se tiver estes sintomas. </li>
+</ul>
+<p>Raros (podem afetar até 1 em 1.000 pessoas) </p>
+<ul>
+<li>reações alérgicas graves (reações anafiláticas, angioedema). Tem de obter ajuda médica 
+imediatamente e informar o seu médico assim que possível, se sentir sintomas, como problemas 
+respiratórios, inchaço da cara, dos lábios, da língua e/ou da garganta com dificuldade em engolir 
+e batimento rápido do coração. </li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>Obstrução do instestino. Uma forma grave de prisão de ventre com sintomas adicionais, tais 
+como dor de estômago, inchaço, vómitos, etc. </li>
+</ul>
+<p>Outros efeitos indesejáveis  </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas)  </p>
+<ul>
+<li>
+<p>sensação de má disposição (náuseas) - este sintoma normalmente desaparece com o tempo </p>
+</li>
+<li>
+<p>diarreia - este sintoma normalmente desaparece com o tempo </p>
+</li>
+<li>
+<p>nível baixo de açúcar no sangue (hipoglicemia) quando este medicamento é utilizado com 
+medicamentos que contêm uma sulfonilureia ou insulina.  </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas)  </p>
+<ul>
+<li>
+<p>sentir-se maldisposto (vómitos) </p>
+</li>
+<li>
+<p>baixo nível de açúcar no sangue (hipoglicemia) quando este medicamento é utilizado com outro 
+medicamento tomado por via oral para a diabetes que não seja sulfonilureia ou insulina </p>
+</li>
+</ul>
+<p>Os sinais de aviso de um nível baixo de açúcar no sangue podem surgir rapidamente. Estes podem 
+incluir: suores frios, pele pálida e fria, dores de cabeça, batimento rápido do coração, sensação de má 
+disposição (náuseas) ou sensação de muita fome, alterações na visão, sonolência ou fraqueza, 
+nervosismo, ansiedade ou desorientação, dificuldade de concentração ou tremores.<br />
+O seu médico irá informá-lo sobre como tratar o nível baixo de açúcar no sangue e o que deve fazer 
+quando sentir estes sinais de aviso. 
+O baixo nível de açúcar no sangue é mais provável de acontecer se também estiver a tomar uma 
+sulfonilureia ou insulina. O seu médico poderá reduzir a dose destes medicamentos antes de começar a 
+utilizar este medicamento. </p>
+<ul>
+<li>
+<p>indigestão </p>
+</li>
+<li>
+<p>estômago inflamado (‘gastrite’) - os sintomas incluem dor de estômago, sensação de má 
+disposição (náuseas) ou de doença (vómitos) </p>
+</li>
+<li>
+<p>refluxo ou azia - também chamado de ‘refluxo gastroesofágico’ (RGE) </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>inchaço do estômago </p>
+</li>
+<li>
+<p>prisão de ventre </p>
+</li>
+<li>
+<p>arrotos </p>
+</li>
+<li>
+<p>pedras na vesícula </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>cansaço </p>
+</li>
+<li>
+<p>perda de peso </p>
+</li>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>gases (flatulência) </p>
+</li>
+<li>
+<p>aumento de enzimas pancreáticas (como a lipase e a amilase) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas)  </p>
+<ul>
+<li>
+<p>mudança no sabor dos alimentos e das bebidas </p>
+</li>
+<li>
+<p>pulsação rápida </p>
+</li>
+<li>
+<p>reações no local da injeção - tais como nódoa negra, dor, irritação, comichão e erupção na pele </p>
+</li>
+<li>
+<p>reações alérgicas tais como erupção na pele, comichão ou urticária </p>
+</li>
+<li>
+<p>atraso no esvaziamento do estômago. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis<br />
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ozempic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ozempic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo da caneta e na embalagem 
+exterior após ‘VAL’. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Antes de abrir: </p>
+<p>Conservar no frigorífico (2°C-8°C). Não congelar. Manter afastado do elemento de refrigeração. 
+Manter a tampa na caneta para proteger da luz. </p>
+<p>Durante a utilização: </p>
+<ul>
+<li>
+<p>Pode guardar a caneta durante 6 semanas, quando conservada a temperatura inferior a 30 °C ou 
+no frigorífico (2°C-8°C), afastada do elemento de refrigeração. Não congelar Ozempic e não 
+utilizá-lo, se tiver sido congelado. </p>
+</li>
+<li>
+<p>Quando não estiver a utilizar a caneta, mantenha a tampa da caneta colocada, para proteger da 
+luz. </p>
+</li>
+</ul>
+<p>Não utilize este medicamento se verificar que a solução não está transparente e incolor ou quase 
+incolor. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ozempic  </p>
+<ul>
+<li>
+<p>A substância ativa é o semaglutido. Um ml de solução injetável contém 1,34 mg de 
+semaglutido. Uma caneta pré-cheia contém 2 mg de semaglutido em 1,5 ml de solução. Cada 
+dose contém 0,25 mg de semaglutido em 0,19 ml. </p>
+</li>
+<li>
+<p>Os outros componentes são: fosfato dissódico di-hidratado, propilenoglicol, fenol, água para 
+preparações injetáveis, hidróxido de sódio/ácido clorídrico (para ajuste do pH). Ver também a 
+secção 2, ‘Teor de sódio’. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Ozempic e conteúdo da embalagem 
+Ozempic é uma solução injetável transparente e incolor ou quase incolor, numa caneta pré-cheia. Cada 
+caneta pré-cheia contém 1,5 ml de solução, administrando 4 doses de 0,25 mg. </p>
+<p>Ozempic 0,25 mg solução injetável está disponível no seguinte tamanho de embalagem: 
+1 caneta e 4 agulhas NovoFine Plus descartáveis </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Novo Nordisk A/S 
+Novo Allé 
+DK-2880 Bagsværd 
+Dinamarca </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1130,6 +1588,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d321e28009e316a0922b3b06c7400fef"
 * entry[0].resource = composition-da-d321e28009e316a0922b3b06c7400fef
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd321e28009e316a0922b3b06c7400fef"
+* entry[=].resource = mpd321e28009e316a0922b3b06c7400fef
+                            
+                    
+Instance: bundlepackageleaflet-pt-d321e28009e316a0922b3b06c7400fef
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ozempic Package Leaflet for language pt"
+Description: "ePI document Bundle for ozempic Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d321e28009e316a0922b3b06c7400fef"
+* entry[0].resource = composition-pt-d321e28009e316a0922b3b06c7400fef
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd321e28009e316a0922b3b06c7400fef"
@@ -1231,6 +1711,18 @@ RuleSet: d321e28009e316a0922b3b06c7400fefListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d321e28009e316a0922b3b06c7400fef) // ozempic pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

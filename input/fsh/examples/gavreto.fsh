@@ -964,6 +964,583 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-db55bd922aa6d7007a8fefbeb8bc2264
+InstanceOf: CompositionUvEpi
+Title: "Composition for gavreto Package Leaflet"
+Description:  "Composition for gavreto Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpdb55bd922aa6d7007a8fefbeb8bc2264)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - gavreto"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Gavreto e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Gavreto  </li>
+<li>Como tomar Gavreto </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Gavreto  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é gavreto e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é gavreto e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Gavreto </p>
+<p>Gavreto é um medicamento contra o cancro que contém a substância ativa pralsetinib. </p>
+<p>Para que é utilizado o Gavreto </p>
+<p>Gavreto é utilizado no tratamento de adultos com estádios avançados de uma forma de cancro do 
+pulmão denominado “cancro do pulmão de não pequenas células" (CPNPC), que apresenta um 
+rearranjo específico num gene denominado rearranjado durante a transfeção (RET), caso não tenha 
+sido previamente tratado com outro inibidor RET.  </p>
+<p>Como Gavreto atua </p>
+<p>Em doentes cujo cancro é devido a um gene RET alterado, a mudança no gene faz com que o corpo 
+produza uma proteína alterada chamada proteína de fusão RET, que pode levar ao crescimento celular 
+descontrolado e cancro. Gavreto bloqueia a ação das proteínas de fusão RET e pode ajudar a retardar 
+ou impedir o crescimento do cancro do pulmão. Também pode ajudar a diminuir o cancro. </p>
+<p>Se tiver alguma dúvida sobre como funciona Gavreto ou porque este medicamento lhe foi prescrito, 
+consulte o seu médico. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar gavreto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar gavreto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Gavreto </p>
+<ul>
+<li>se tem alergia ao pralsetinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </li>
+</ul>
+<p>Advertências e precauções  </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Gavreto. </p>
+<ul>
+<li>
+<p>se tem história de problemas pulmonares ou respiratórios além de cancro do pulmão. </p>
+</li>
+<li>
+<p>se teve tensão arterial elevada  </p>
+</li>
+<li>
+<p>se teve problemas de fígado  </p>
+</li>
+<li>
+<p>se teve problemas de hemorragias </p>
+</li>
+<li>
+<p>se alguma vez teve tuberculose ou se esteve em contacto próximo com alguém que tem, ou 
+tenha tido, tuberculose. O seu médico pode realizar exames para ver se tem tuberculose </p>
+</li>
+</ul>
+<p>Gavreto pode causar efeitos indesejáveis que devem ser comunicados ao seu médico imediatamente. 
+Estes incluem: </p>
+<ul>
+<li>
+<p>inflamação pulmonar (pneumonite). Gavreto pode causar inchaço (inflamação) dos pulmões 
+grave, potencialmente fatal ou fatal, durante o tratamento. Os sinais podem ser semelhantes aos 
+do cancro do pulmão. Informe imediatamente o seu médico se tiver quaisquer sinais novos ou 
+agravamento dos existentes, incluindo dificuldade em respirar, falta de ar ou tosse com ou sem 
+muco, ou febre.  </p>
+</li>
+<li>
+<p>pressão arterial elevada (hipertensão). Gavreto pode aumentar a ocorrência de pressão arterial 
+elevada. O seu médico irá monitorizar a sua pressão arterial antes de iniciar o tratamento, após 1 
+semana de tratamento e, seguidamente, quando necessário. Se tiver pressão arterial elevada que 
+não esteja bem controlada com medicamentos para a pressão arterial, consulte o seu médico, 
+pois é importante garantir que a sua pressão arterial se encontra controlada antes de iniciar o 
+tratamento com Gavreto. </p>
+</li>
+<li>
+<p>lesão no fígado (elevação das transaminases). O seu médico irá fazer análises ao sangue antes 
+de iniciar o tratamento, a cada 2 semanas durante os primeiros 3 meses de tratamento e, 
+seguidamente, quando necessário. O objetivo é verificar que não tem problemas de fígado 
+durante a toma de Gavreto. Informe imediatamente o seu médico se tiver algum dos seguintes 
+sinais: amarelecimento da pele ou da parte branca dos olhos, dor no lado direito da zona do 
+estômago, urina escura, comichão na pele, sentir menos apetite do que o normal, náuseas ou 
+vómitos, sentir-se cansado, hemorragias ou formação de nódoas negras mais facilmente do que 
+o normal. </p>
+</li>
+<li>
+<p>problemas de hemorragias. Podem ocorrer hemorragias graves durante o tratamento com 
+Gavreto. Informe imediatamente o seu médico se tiver algum destes sintomas: vómito com 
+sangue ou vómito com aspeto de borras de café, tosse com sangue ou com coágulos sanguíneos, 
+urina cor de rosa ou castanha, fezes vermelhas ou negras (semelhantes a alcatrão), hemorragias 
+ou nódoas negras invulgares na pele, fluxo menstrual mais intenso do que o normal, 
+hemorragias vaginais invulgares, hemorragias nasais frequentes, sonolência ou dificuldade em 
+manter-se acordado. </p>
+</li>
+<li>
+<p>eletrocardiograma (ECG) alterado. Gavreto pode originar ECGs alterados. Fará um ECG 
+antes e durante o tratamento com Gavreto. Informe o seu médico se sentir tonturas ou tiver 
+palpitações, pois isso pode ser um sintoma de um ECG alterado. </p>
+</li>
+</ul>
+<p>Esteja atento a isto enquanto estiver a tomar Gavreto. Consulte “Efeitos indesejáveis" na secção 4 para 
+obter mais informações. </p>
+<p>Crianças e adolescentes </p>
+<p>Gavreto não foi estudado em crianças ou adolescentes. Não dê este medicamento a crianças ou 
+adolescentes com idade inferior a 18 anos. </p>
+<p>Outros medicamentos e Gavreto </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Gavreto pode afetar o modo como outros medicamentos atuam e alguns 
+outros medicamentos podem afetar o modo como Gavreto atua. </p>
+<p>Informe o seu médico ou farmacêutico antes de tomar Gavreto se estiver a tomar algum dos 
+seguintes medicamentos: </p>
+<p>Os seguintes medicamentos podem aumentar a concentração de Gavreto no sangue: </p>
+<ul>
+<li>
+<p>determinados medicamentos usados para tratar SIDA/VIH (p.ex. ritonavir, saquinavir, 
+cobicistate) </p>
+</li>
+<li>
+<p>determinados medicamentos usados para tratar infeções. Estes incluem medicamentos que 
+tratam infeções fúngicas (antifúngicos como cetoconazol, itraconazol, voriconazol, 
+posaconazol) e medicamentos que tratam certos tipos de infeção bacteriana (antibióticos como 
+claritromicina, eritromicina) </p>
+</li>
+<li>
+<p>determinados medicamentos usados para tratar a depressão (por exemplo, fluvoxamina, 
+nefazodona) </p>
+</li>
+<li>
+<p>determinados medicamentos usados para tratar a tensão arterial elevada e ritmo cardíaco 
+irregular (por exemplo, verapamilo, diltiazem) </p>
+</li>
+</ul>
+<p>Os seguintes medicamentos podem reduzir a efetividade de Gavreto: </p>
+<ul>
+<li>
+<p>medicamentos usados para parar convulsões (antiepiléticos como fenitoína ou carbamazepina) </p>
+</li>
+<li>
+<p>medicamentos usados para tratar a tuberculose (por exemplo, rifampicina, rifabutina) </p>
+</li>
+<li>
+<p>Erva de São João, um medicamento à base de plantas para tratar a depressão. </p>
+</li>
+</ul>
+<p>Gavreto pode afetar o modo como alguns medicamentos atuam, incluindo: </p>
+<ul>
+<li>
+<p>ciclosporina </p>
+</li>
+<li>
+<p>paclitaxel </p>
+</li>
+<li>
+<p>varfarina </p>
+</li>
+</ul>
+<p>Os medicamentos aqui indicados podem não ser os únicos que podem interagir com Gavreto. </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Gavreto com alimentos e bebidas </p>
+<p>Deve evitar beber sumo de toranja e comer toranja ou laranjas de Sevilha durante o tratamento com 
+Gavreto. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.  </p>
+<p>Contraceção em mulheres:  </p>
+<p>Deve evitar engravidar enquanto estiver a tomar este medicamento. Se tiver capacidade de engravidar, 
+deve utilizar contraceção altamente eficaz (por exemplo, contraceção de dupla barreira como 
+preservativo e diafragma) durante o tratamento e durante pelo menos 2 semanas após terminar o 
+tratamento. Gavreto pode diminuir a eficácia de métodos contracetivos hormonais (por exemplo, a 
+pílula contracetiva); por este motivo, os contracetivos hormonais não podem ser considerados 
+altamente eficazes. Caso não seja possível evitar a contraceção hormonal, esta deve ser utilizada em 
+combinação com um preservativo.  </p>
+<p>Contraceção em homens: </p>
+<p>Homens com parceiras com potencial para engravidar têm de usar métodos contracetivos eficazes, 
+incluindo um método de barreira, durante o tratamento e durante 1 semana após o término do 
+tratamento.  </p>
+<p>Fale com o seu médico sobre os métodos de contraceção adequados para si e para o seu parceiro ou 
+parceira. </p>
+<p>Gravidez: </p>
+<p>Este medicamento não é recomendado para utilização durante a gravidez, a menos que seja 
+absolutamente necessário. Evite engravidar durante o tratamento com este medicamento, pois pode 
+prejudicar o seu feto. O seu médico irá discutir consigo os riscos potenciais de tomar Gavreto durante 
+a gravidez. </p>
+<p>O seu médico pode verificar se está grávida antes de iniciar o tratamento com este medicamento. </p>
+<p>Amamentação: </p>
+<p>Informe o seu médico se estiver a amamentar ou se planeia amamentar. Não se sabe se Gavreto passa 
+para o leite materno. Não deve amamentar durante o tratamento com este medicamento e pelo menos 1 
+semana após a última dose. Fale com seu médico sobre a melhor forma de alimentar o seu bebé 
+durante esse período.  </p>
+<p>Fertilidade: </p>
+<p>Este medicamento pode afetar permanentemente a sua capacidade de ter filhos. Recomenda-se que 
+fale com um médico sobre a possibilidade de conservar os seus espermatozoides ou ovócitos antes de 
+utilizar Gavreto. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Gavreto pode alterar a sua capacidade de conduzir ou utilizar máquinas. Gavreto pode provocar 
+fadiga. Se isto acontecer, não deve conduzir ou utilizar maquinaria pesada até os seus sintomas 
+desaparecerem. Fale com o seu médico sobre se é seguro para si conduzir ou utilizar máquinas. </p>
+<p>Gavreto contém sódio </p>
+<p>Este medicamento contém menos de 1 mmol de sódio (23 mg) por cápsula, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar gavreto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar gavreto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.  </p>
+<p>A dose recomendada é 400 mg (4 cápsulas) tomadas por via oral uma vez ao dia.  </p>
+<p>Se tiver efeitos indesejáveis, o seu médico pode alterar a sua dose, interromper temporariamente ou 
+parar permanentemente o tratamento. Não altere a sua dose nem pare de tomar Gavreto a menos que o 
+seu médico lhe diga para o fazer. </p>
+<p>Gavreto é para uso oral. Engula as cápsulas inteiras com um copo de água, com o estômago vazio. Não 
+coma por pelo menos duas horas antes e pelo menos uma hora depois de tomar Gavreto. </p>
+<p>Se vomitar após tomar uma dose de Gavreto, não tome uma dose extra. Tome a sua dose regular de 
+Gavreto no dia seguinte. </p>
+<p>Se tomar mais Gavreto do que deveria </p>
+<p>Se acidentalmente tomou demasiadas cápsulas, fale imediatamente com o seu médico. Poderá 
+necessitar de atenção médica. </p>
+<p>Caso se tenha esquecido de tomar Gavreto </p>
+<p>Caso se esqueça de uma dose de Gavreto, tome-a assim que se lembrar no mesmo dia. Tome a sua 
+dose habitual de Gavreto no dia seguinte. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis mais graves </p>
+<p>Alguns efeitos indesejáveis podem ser graves. Informe imediatamente o seu médico se tiver o 
+seguinte efeito indesejável (ver também secção 2): </p>
+<ul>
+<li>
+<p>Sinais novos ou agravamento de dificuldade em respirar, falta de ar ou tosse com ou sem muco, 
+ou febre  </p>
+</li>
+<li>
+<p>Pressão arterial elevada. </p>
+</li>
+<li>
+<p>Amarelecimento da pele ou da parte branca dos olhos, dor no lado direito da zona do estômago, 
+urina escura, comichão na pele, sentir menos apetite do que o normal, náuseas ou vómitos, 
+sentir-se cansado, hemorragias ou formação de nódoas negras mais facilmente do que o normal 
+(sinais de possíveis problemas do fígado). </p>
+</li>
+<li>
+<p>Hemorragias com sintomas como tosse com sangue </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis: </p>
+<p>Informe o seu médico ou farmacêutico se notar algum dos seguintes efeitos indesejáveis: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas):  </p>
+<ul>
+<li>
+<p>Infeção pulmonar  </p>
+</li>
+<li>
+<p>Infeção do trato urinário  </p>
+</li>
+<li>
+<p>Análise de sangue mostrando diminuição de glóbulos vermelhos  </p>
+</li>
+<li>
+<p>Análise de sangue mostrando diminuição de um tipo de glóbulos brancos (por exemplo, 
+neutrófilos, linfócitos, etc.)  </p>
+</li>
+<li>
+<p>Baixo nível de plaquetas  </p>
+</li>
+<li>
+<p>Análises de sangue mostrando quantidades aumentadas ou diminuídas de mineral no sangue </p>
+</li>
+<li>
+<p>Alteração do paladar </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Pressão arterial aumentada </p>
+</li>
+<li>
+<p>Hemorragia </p>
+</li>
+<li>
+<p>Inflamação do pulmão </p>
+</li>
+<li>
+<p>Tosse </p>
+</li>
+<li>
+<p>Falta de ar </p>
+</li>
+<li>
+<p>Prisão de ventre </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Secura afetando os olhos, boca e pele </p>
+</li>
+<li>
+<p>Dor abdominal (barriga) </p>
+</li>
+<li>
+<p>Vómitos </p>
+</li>
+<li>
+<p>Amarelecimento da pele e dos olhos </p>
+</li>
+<li>
+<p>Erupção na pele </p>
+</li>
+<li>
+<p>Dor nos ossos ou muscular </p>
+</li>
+<li>
+<p>Falta de energia </p>
+</li>
+<li>
+<p>Inchaços (por exemplo, pé, tornozelo, cara, olho, articulação) </p>
+</li>
+<li>
+<p>Febre </p>
+</li>
+<li>
+<p>Análises de sangue mostrando quantidades alteradas de uma substância produzida pelo fígado 
+(aspartato aminotransferase, alanina aminotransferase, fosfatase alcalina, bilirrubina) </p>
+</li>
+<li>
+<p>Análise de sangue mostrando um nível elevado de uma substância importante utilizada para 
+avaliar a função renal (creatinina) </p>
+</li>
+<li>
+<p>Análise de sangue mostrando níveis mais elevados de uma enzima importante para a função 
+muscular no seu sangue (creatina fosfoquinase) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>Inchaço doloroso e aftas na boca </p>
+</li>
+<li>
+<p>Prolongamento do intervalo QT no seu ECG </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>Tuberculose </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar gavreto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar gavreto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco e embalagem 
+exterior, após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de qualquer temperatura especial de conservação. Conservar na 
+embalagem de origem para proteger da humidade. </p>
+<p>Não utilize este medicamento se verificar que o frasco está danificado ou mostra sinais de adulteração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Gavreto  </p>
+<ul>
+<li>
+<p>A substância ativa é o pralsetinib. Cada cápsula contém 100 mg de pralsetinib. </p>
+</li>
+<li>
+<p>Os outros componentes são: 
+− 
+O conteúdo da cápsula contém: hipromelose, celulose microcristalina, amido pré-
+gelatinizado, hidrogenocarbonato de sódio, ácido cítrico e estearato de magnésio (ver 
+secção 2 “Gavreto contém sódio"). 
+− 
+O invólucro da cápsula contém: FCF azul brilhante (E133), hipromelose e dióxido de 
+titânio (E171). 
+− 
+A tinta de impressão contém: goma laca, propilenoglicol (E1520), hidróxido de potássio e 
+dióxido de titânio (E171). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Gavreto e conteúdo da embalagem </p>
+<p>As cápsulas de 100 mg de Gavreto são cápsulas azuis claras opacas com a impressão em tinta branca 
+“BLU-667" no corpo da cápsula e “100 mg" na tampa da cápsula. </p>
+<p>Gavreto está disponível num frasco de plástico com fecho resistente à abertura por crianças contendo 
+60, 90 ou 120 cápsulas e uma saqueta dessecante. Cada embalagem contém um frasco. </p>
+<p>Mantenha a saqueta dessecante no frasco. O dessecante é um material que absorve a humidade, 
+embalado numa pequena saqueta para proteger as cápsulas da humidade. Não engolir o dessecante.  </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Fabricante </p>
+<p>Roche Pharma AG 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+N.V. Roche S.A. 
+Tél/Tel: +32 (0) 2 525 82<br />
+Lietuva 
+UAB “Roche Lietuva" 
+Tel: +370 5 2546 
+България 
+Рош България ЕООД 
+Тел: +359 2 474 5 
+Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>Česká republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382 
+Magyarország 
+Roche (Magyarország) Kft. 
+Tel: +36 - 23 446<br />
+Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99<br />
+Malta 
+(See Ireland) </p>
+<p>Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624 Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438 </p>
+<p>Eesti 
+Roche Eesti OÜ 
+Tel: + 372 - 6 177<br />
+Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90<br />
+Ελλάδα 
+Roche (Hellas) A.E.<br />
+Τηλ: +30 210 61 66<br />
+Österreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27 
+España 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81 00  </p>
+<p>Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18 88.<br />
+France 
+Roche 
+Tél: +33  (0)1 47 61 40<br />
+Portugal 
+Roche Farmacêutica Química, Lda 
+Tel: +351 - 21 425 70<br />
+Hrvatska 
+Roche d.o.o. 
+Tel: + 385 1 47 22<br />
+România 
+Roche România S.R.L. 
+Tel: +40 21 206 47<br />
+Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0 
+Slovenija 
+Roche farmacevtska družba d.o.o. 
+Tel: +386 - 1 360 26<br />
+Ísland 
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika 
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638 
+Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554<br />
+Κύπρος 
+Γ.Α.Σταμάτης &amp; Σια Λτδ. 
+Τηλ: +357 - 22 76 62<br />
+Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1 
+Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039 
+United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Foi concedida a este medicamento uma «Autorização de Introdução no Mercado condicional». Isto 
+significa que se aguarda mais informação sobre este medicamento. 
+A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
+sobre este medicamento e este folheto será atualizado se necessário              </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1005,6 +1582,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-db55bd922aa6d7007a8fefbeb8bc2264"
 * entry[0].resource = composition-da-db55bd922aa6d7007a8fefbeb8bc2264
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdb55bd922aa6d7007a8fefbeb8bc2264"
+* entry[=].resource = mpdb55bd922aa6d7007a8fefbeb8bc2264
+                            
+                    
+Instance: bundlepackageleaflet-pt-db55bd922aa6d7007a8fefbeb8bc2264
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for gavreto Package Leaflet for language pt"
+Description: "ePI document Bundle for gavreto Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-db55bd922aa6d7007a8fefbeb8bc2264"
+* entry[0].resource = composition-pt-db55bd922aa6d7007a8fefbeb8bc2264
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpdb55bd922aa6d7007a8fefbeb8bc2264"
@@ -1106,6 +1705,18 @@ RuleSet: db55bd922aa6d7007a8fefbeb8bc2264ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-db55bd922aa6d7007a8fefbeb8bc2264) // gavreto pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

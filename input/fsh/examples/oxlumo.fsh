@@ -728,6 +728,355 @@ sprøjter og kanyler i henhold til lokale retningslinjer. </p>
 
 
 
+Instance: composition-pt-1f87461293bc326acebf2dcaabf7857f
+InstanceOf: CompositionUvEpi
+Title: "Composition for oxlumo Package Leaflet"
+Description:  "Composition for oxlumo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1f87461293bc326acebf2dcaabf7857f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - oxlumo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Oxlumo e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Oxlumo </li>
+<li>Como é administrado Oxlumo </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Oxlumo </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é oxlumo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é oxlumo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Oxlumo </p>
+<p>Oxlumo contém a substância ativa “lumasiran". </p>
+<p>Para que é utilizado Oxlumo </p>
+<p>Oxlumo é utilizado para tratar hiperoxalúria primária de tipo 1 (HP1) em adultos e crianças de todas as 
+idades. </p>
+<p>O que é a HP1 </p>
+<p>A HP1 é uma doença rara na qual o fígado produz demasiado de uma substância chamada oxalato. Os 
+seus rins removem o oxalato do corpo, eliminando-o através da urina. Nas pessoas com HP1, o oxalato 
+extra pode acumular-se nos rins e causar pedras nos rins, bem como pode levar a insuficiência renal. 
+Uma acumulação de oxalato também pode danificar outras partes do organismo, tais como os olhos, o 
+coração, a pele e os ossos. A isto chama-se oxalose. </p>
+<p>Como Oxlumo atua </p>
+<p>O lumasiran, a substância ativa em Oxlumo, reduz a quantidade de uma enzima chamada glicolato 
+oxidase produzida pelo fígado. Glicolato oxidase é uma das enzimas envolvidas na produção de 
+oxalato. Ao reduzir a quantidade da enzima, o fígado produz menos oxalato e os níveis de oxalato na 
+urina e no sangue também diminuem. Isto pode ajudar a reduzir os efeitos da doença. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar oxlumo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar oxlumo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe pode ser administrado Oxlumo: </p>
+<ul>
+<li>se tem alergia grave ao lumasiran ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico antes de lhe ser administrado este medicamento. </p>
+<p>O seu médico pode monitorizá-lo quanto a sinais de acidose metabólica (a acumulação de ácido no 
+corpo) se tiver compromisso renal grave. </p>
+<p>Outros medicamentos e Oxlumo </p>
+<p>Informe o seu médico se estiver a utilizar, tiver utilizado recentemente, ou se vier a utilizar outros 
+medicamentos. </p>
+<p>Gravidez </p>
+<p>Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico ou enfermeiro 
+antes de utilizar este medicamento. O seu médico decidirá se deve ou não tomar Oxlumo depois de 
+considerar os benefícios esperados para a saúde, bem como os riscos para o feto. </p>
+<p>Amamentação </p>
+<p>Este medicamento pode passar para o leite materno e pode ter um efeito no seu bebé. Se está a 
+amamentar, consulte o seu médico antes de tomar este medicamento. O seu médico irá ajudá-la a 
+decidir entre parar de amamentar e parar o tratamento. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>É improvável que este medicamento tenha qualquer efeito sobre a sua capacidade de conduzir ou 
+utilizar máquinas. </p>
+<p>Oxlumo contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por ml, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar oxlumo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar oxlumo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Que quantidade de Oxlumo é administrada </p>
+<p>O seu médico vai determinar a quantidade de medicamento que lhe deve administrar. A dose vai 
+depender do seu peso corporal. O médico irá ajustar a sua dose à medida que o seu peso se altere. </p>
+<p>Vai receber as primeiras doses (doses de carga) uma vez por mês durante 3 doses. Em seguida, vai 
+começar com as doses de manutenção um mês após a última dose de carga. </p>
+<p>Peso corporal inferior a 10 kg </p>
+<ul>
+<li>
+<p>Doses de carga: 6 mg por cada kg de peso, administradas uma vez por mês durante 3 doses. </p>
+</li>
+<li>
+<p>Doses de manutenção: 3 mg por cada kg de peso, administradas uma vez por mês a começar um 
+mês após a última dose de carga. </p>
+</li>
+</ul>
+<p>Peso corporal desde 10 kg a menos de 20 kg </p>
+<ul>
+<li>
+<p>Doses de carga: 6 mg por cada kg de peso, administradas uma vez por mês durante 3 doses. </p>
+</li>
+<li>
+<p>Doses de manutenção: 6 mg por cada kg de peso, administradas uma vez a cada 3 meses a 
+começar um mês após a última dose de carga. </p>
+</li>
+</ul>
+<p>Peso corporal igual ou superior a 20 kg </p>
+<ul>
+<li>
+<p>Doses de carga: 3 mg por cada kg de peso, administradas uma vez por mês durante 3 doses. </p>
+</li>
+<li>
+<p>Doses de manutenção: 3 mg por cada kg de peso, administradas uma vez a cada 3 meses a 
+começar um mês após a última dose de carga. </p>
+</li>
+</ul>
+<p>Como é administrado Oxlumo </p>
+<p>Este medicamento vai ser-lhe administrado por um médico ou enfermeiro. </p>
+<ul>
+<li>
+<p>É administrado como uma injeção sob a pele (subcutaneamente) na área do estômago 
+(abdómen) ou, em alguns casos, na parte superior do braço ou na coxa. Cada uma das injeções 
+será administrada num local diferente. </p>
+</li>
+<li>
+<p>Dependendo da sua dose, poderá ser necessário administrar mais do que uma injeção 
+subcutânea. </p>
+</li>
+<li>
+<p>O seu médico ou enfermeiro não injetará em áreas da pele com cicatrizes, vermelhas, inflamadas 
+ou inchadas. </p>
+</li>
+</ul>
+<p>Se lhe for administrado demasiado Oxlumo </p>
+<p>No caso improvável de o seu médico ou enfermeiro lhe administrar demasiado medicamento (uma 
+sobredosagem), irão vigiá-lo quanto a efeitos indesejáveis. </p>
+<p>Caso se tenha esquecido da sua dose de Oxlumo </p>
+<p>Caso se tenha esquecido de uma dose de Oxlumo, fale com o seu médico ou enfermeiro logo que 
+possível sobre quando deve receber a dose seguinte. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os seguintes efeitos indesejáveis podem ocorrer enquanto estiver a tomar Oxlumo: </p>
+<p>Muito frequentes: podem afetar mais do que 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>Vermelhidão, dor, comichão, inchaço, desconforto, alterações de cor, massa, induração, erupção 
+na pele, nódoa negra ou exfoliação no local de injeção (reações no local de injeção). </p>
+</li>
+<li>
+<p>Dor ou desconforto na barriga (dor abdominal) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar oxlumo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar oxlumo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco 
+para injetáveis, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento destina-se a uma única utilização. Assim que o frasco para injetáveis for aberto, 
+utilizar imediatamente. </p>
+<p>Não conservar acima de 30°C. </p>
+<p>Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Oxlumo </p>
+<ul>
+<li>
+<p>A substância ativa é o lumasiran. </p>
+</li>
+<li>
+<p>Cada frasco para injetáveis contém lumasiran sódico equivalente a 94,5 mg de lumasiran. </p>
+</li>
+<li>
+<p>Os outros componentes são água para preparações injetáveis, hidróxido de sódio e ácido 
+fosfórico (ver “Oxlumo contém sódio" na secção 2). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Oxlumo e conteúdo da embalagem </p>
+<p>Este medicamento é uma solução transparente, incolor a amarela para injeção subcutânea. </p>
+<p>Cada embalagem contém um frasco para injetáveis de utilização única contendo 0,5 ml de solução. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Alnylam Netherlands B.V. 
+Antonio Vivaldistraat 1083 HP Amsterdam 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Alnylam Netherlands B.V. 
+Tél/Tel: 0800 81 443 (+32 234 208 71) 
+medinfo@alnylam.com </p>
+<p>Luxembourg/Luxemburg 
+Alnylam Netherlands B.V. 
+Tél/Tel: 80085235 (+352 203 014 48) 
+medinfo@alnylam.com </p>
+<p>България 
+Genesis Pharma Bulgaria EOOD 
+Teл.: +359 2 969 3medinfo@genesispharmagroup.com </p>
+<p>Malta 
+Genesis Pharma (Cyprus) Ltd 
+Tel: +357 22765medinfo@genesispharmagroup.com </p>
+<p>Česká republika 
+Alnylam Czech s.r.o. 
+Tel: 800 050 450 (+420 234 092 195) 
+medinfo@alnylam.com </p>
+<p>Nederland 
+Alnylam Netherlands B.V. 
+Tel: 08002820025 (+31 203697861) 
+medinfo@alnylam.com </p>
+<p>Danmark 
+Alnylam Sweden AB 
+Tlf: 433 105 15 (+45 787 453 01) 
+medinfo@alnylam.com </p>
+<p>Norge 
+Alnylam Sweden AB 
+Tlf: 800 544 00 (+472 1405 657) 
+medinfo@alnylam.com </p>
+<p>Deutschland 
+Alnylam Germany GmbH 
+Tel: 08002569526 (+49 8920190112) 
+medinfo@alnylam.com </p>
+<p>Österreich 
+Alnylam Austria GmbH 
+Tel: 0800070339 (+43 720 778 072) 
+medinfo@alnylam.com 
+Ελλάδα 
+ΓΕΝΕΣΙΣ ΦΑΡΜΑ Α.Ε 
+Τηλ: +30 210 87 71 medinfo@genesispharmagroup.com </p>
+<p>Portugal 
+Alnylam Portugal 
+Tel: 707201512 (+351 707502642) 
+medinfo@alnylam.com </p>
+<p>España 
+Alnylam Pharmaceuticals Spain SL 
+Tel: 900810212 (+34 910603753) 
+medinfo@alnylam.com </p>
+<p>România 
+Genesis Biopharma Romania SRL 
+Tel: +40 21 403 4medinfo@genesispharmagroup.com </p>
+<p>France 
+Alnylam France SAS 
+Tél: 0805542656 (+33 187650921) 
+medinfo@alnylam.com </p>
+<p>Slovenija 
+Genesis Pharma Adriatic d.o.o 
+Tel: +385 1 5813 medinfo@genesispharmagroup.com </p>
+<p>Hrvatska 
+Genesis Pharma Adriatic d.o.o 
+Tel: +385 1 5813 medinfo@genesispharmagroup.com </p>
+<p>Suomi/Finland 
+Alnylam Sweden AB 
+Puh/Tel: 0800 417 452 (+358 942 727 020) 
+medinfo@alnylam.com </p>
+<p>Ireland 
+Alnylam Netherlands B.V. 
+Tel: 1800 924260 (+353 818 882213) 
+medinfo@alnylam.com </p>
+<p>Sverige 
+Alnylam Sweden AB 
+Tel: 020109162 (+46 842002641) 
+medinfo@alnylam.com </p>
+<p>Italia 
+Alnylam Italy S.r.l. 
+Tel: 800 90 25 37 (+39 02 89 73 22 91) 
+medinfo@alnylam.com </p>
+<p>United Kingdom (Northern Ireland) 
+Alnylam UK Ltd. 
+Tel: 08001412569 (+44 1628 878592) 
+medinfo@alnylam.com </p>
+<p>Κύπρος 
+Genesis Pharma (Cyprus) Ltd 
+Τηλ: +357 22765medinfo@genesispharmagroup.com </p>
+<p>Eesti, Ísland, Latvija, Lietuva, Magyarország, 
+Polska, Slovenská republika 
+Alnylam Netherlands B.V. 
+Tel/Sími: +31 20 369 7medinfo@alnylam.com </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -769,6 +1118,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-1f87461293bc326acebf2dcaabf7857f"
 * entry[0].resource = composition-da-1f87461293bc326acebf2dcaabf7857f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1f87461293bc326acebf2dcaabf7857f"
+* entry[=].resource = mp1f87461293bc326acebf2dcaabf7857f
+                            
+                    
+Instance: bundlepackageleaflet-pt-1f87461293bc326acebf2dcaabf7857f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oxlumo Package Leaflet for language pt"
+Description: "ePI document Bundle for oxlumo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-1f87461293bc326acebf2dcaabf7857f"
+* entry[0].resource = composition-pt-1f87461293bc326acebf2dcaabf7857f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp1f87461293bc326acebf2dcaabf7857f"
@@ -870,6 +1241,18 @@ RuleSet: 1f87461293bc326acebf2dcaabf7857fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-1f87461293bc326acebf2dcaabf7857f) // oxlumo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

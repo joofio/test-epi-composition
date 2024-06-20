@@ -1123,6 +1123,461 @@ nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.
 
 
 
+Instance: composition-pt-e2a8db799211e459b47eab2397a33e4f
+InstanceOf: CompositionUvEpi
+Title: "Composition for cubicin Package Leaflet"
+Description:  "Composition for cubicin Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe2a8db799211e459b47eab2397a33e4f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - cubicin"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Cubicin e para que é utilizado
+2. O que precisa de saber antes de lhe ser administrado Cubicin
+3. Como é que Cubicin é administrado
+4. Efeitos indesejáveis possíveis
+5. Como conservar Cubicin
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é cubicin e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é cubicin e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A substância ativa presente em Cubicin pó para solução injetável ou para perfusão é a daptomicina. A
+daptomicina é um agente antibacteriano que pode parar o crescimento de certas bactérias. Cubicin é
+utilizado em adultos e em crianças e adolescentes (idade de 1 a 17 anos) para tratar infeções da pele e
+de tecidos que estão sob a pele. É também usado para tratar infeções no sangue quando associadas a
+uma infeção na pele.
+Cubicin é também usado em adultos para tratar infeções nos tecidos que revestem o interior do
+coração (incluindo as válvulas cardíacas) que são causadas por um tipo de bactéria que se denomina
+Staphylococcus aureus. É também usado para tratar infeções no sangue causadas pela mesma
+bacterias quando associadas a uma infeção no coração.
+Dependendo do tipo de infeção(ões) que tem, o seu médico também pode prescrever outros agentes
+antibacterianos durante o seu tratamento com Cubicin.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar cubicin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar cubicin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe deve ser administrado Cubicin
+Se tem alergia à daptomicina ou ao hidróxido de sódio ou a qualquer outro componente deste
+medicamento (indicados na secção 6).
+Se tal se aplicar, informe o seu médico ou enfermeiro. Se achar que pode ser alérgico, peça
+aconselhamento ao seu médico ou enfermeiro.
+Advertências e precauções
+Fale com o seu médico ou enfermeiro antes de lhe ser administrado Cubicin:
+- Se tem ou tiver tido problemas renais. O seu médico pode precisar de mudar a dose de Cubicin
+(ver a secção 3 deste folheto).
+- Ocasionalmente, os doentes medicados com Cubicin podem desenvolver uma sensação
+dolorosa ou dores nos músculos ou fraqueza muscular (ver a secção 4 deste folheto para mais
+informações). Nesta eventualidade informe o seu médico. O seu médico pedir-lhe-á para efetuar
+37
+uma análise de sangue e decidirá se deve continuar o tratamento com Cubicin. Os sintomas
+desaparecem geralmente alguns dias depois de parar o tratamento com Cubicin.
+- Se alguma vez desenvolveu uma erupção da pele ou uma exfoliação da pele graves, formação
+de bolhas e/ou feridas da boca ou problemas de rins graves após tomar daptomicina.
+- Se tiver um peso excessivo. Há uma possibilidade de que os seus níveis sanguíneos de Cubicin
+sejam mais elevados do que os níveis detetados em pessoas com peso mediano e pode
+necessitar de uma monitorização cuidadosa caso ocorram efeitos indesejáveis.
+Se qualquer das situações se aplicar a si, informe o seu médico ou enfermeiro antes de lhe ser
+administrado Cubicin.
+Informe o seu médico ou enfermeiro imediatamente se desenvolver algum dos seguintes
+sintomas:
+- Foram observadas reações alérgicas graves e agudas em doentes tratados com praticamente
+todos os agentes antibacterianos, incluindo Cubicin. Os sintomas podem incluir respiração
+ruidosa, dificuldade em respirar, inchaço na cara, pescoço e garganta, erupções da pele e
+urticária ou febre.
+- Foram notificadas doenças da pele graves com a utilização de Cubicin. Os sintomas que
+ocorrem com estas doenças da pele podem incluir:
+- aparecimento ou agravamento de febre,
+- manchas na pele salientes vermelhas ou com líquido que podem aparecer inicialmente
+nas axilas ou no peito ou na zona das virilhas e que podem alastrar a uma grande área do
+corpo,
+- bolhas ou feridas na boca ou genitais.
+- Foi notificado um problema de rins grave com a utilização de Cubicin. Os sintomas podem
+incluir febre e erupção da pele.
+- Qualquer formigueiro ou adormecimento anormal das mãos ou pés, perda de sensação ou
+dificuldades com os movimentos. Se tal acontecer, informe o seu médico, ele decidirá se deve
+continuar o tratamento.
+- Diarreia, especialmente se se observar sangue ou muco, ou se a diarreia se tornar grave ou
+persistente.
+- Aparecimento ou agravamento de febre, tosse ou dificuldade em respirar. Estes podem ser
+sinais de uma doença pulmonar rara mas grave, chamada pneumonia eosinofílica. O seu médico
+irá verificar o estado dos seus pulmões e decidir se deve ou não continuar o tratamento com
+Cubicin.
+Cubicin pode interferir com testes laboratoriais que determinam se o seu sangue está a coagular bem.
+Os resultados podem sugerir uma má coagulação quando, de facto, não há qualquer problema.
+Portanto, é importante que o seu médico tenha em consideração que está a ser medicado com Cubicin.
+Por favor informe o seu médico que está a ser medicado com Cubicin.
+O seu médico pedir-lhe-á análises ao sangue para monitorizar a saúde dos seus músculos antes de
+iniciar o tratamento e frequentemente durante o tratamento com Cubicin.
+Crianças e adolescentes
+Cubicin não deve ser administrado a crianças com idade inferior a um ano uma vez que estudos
+animais indicaram que este grupo etário pode apresentar efeitos indesejáveis graves.
+Uso em idosos
+A pessoas com idade superior a 65 anos pode ser-lhes administrada a mesma dose que é administrada
+aos outros adultos, desde que os seus rins estejam a funcionar bem.
+38
+Outros medicamentos e Cubicin
+Informe o seu médico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou se vier a tomar
+outros medicamentos.
+É particularmente importante que mencione o seguinte:
+- Medicamentos chamados estatinas ou fibratos (para baixar o colesterol) ou ciclosporina
+(medicamento usado no transplante para prevenir a rejeição de órgãos ou noutras situações, ex.
+artrite reumatoide ou dermatite atópica). É possível que o risco de efeitos indesejáveis que
+afetam os músculos seja mais elevado quando é tomado qualquer um destes medicamentos (e
+alguns outros que podem afetar os músculos) durante o tratamento com Cubicin. O seu médico
+pode decidir não lhe dar Cubicin ou parar o outro medicamento durante algum tempo.
+- Medicamentos para as dores chamados anti-inflamatórios não esteroides (AINEs) ou inibidores
+da COX-2 (ex. celecoxib). Estes podem interferir com os efeitos do Cubicin no rim.
+- Anticoagulantes orais (por ex. varfarina), que são medicamentos que impedem que o sangue
+coagule. Pode ser necessário que o seu médico monitorize os tempos da sua coagulação
+sanguínea.
+Gravidez e amamentação
+Cubicin não deve geralmente ser administrado a mulheres grávidas. Se está grávida ou a amamentar,
+se pensa estar grávida ou planeia engravidar, consulte o seu médico ou farmacêutico antes de lhe ser
+administrado este medicamento.
+Não amamente se estiver a ser medicada com Cubicin porque este pode passar para o seu leite e afetar
+o bebé.
+Condução de veículos e utilização de máquinas
+Cubicin não apresenta efeitos conhecidos na capacidade de conduzir ou de utilizar máquinas.
+Cubicin contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente
+“isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar cubicin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar cubicin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Cubicin ser-lhe-á administrado geralmente por um médico ou um enfermeiro.
+Adultos (18 anos de idade ou mais)
+A dose irá depender do seu peso e do tipo de infeção a ser tratada. A dose normal para adultos é de
+4 mg por cada quilograma (kg) de peso corporal uma vez ao dia para infeções da pele ou 6 mg por
+cada kg de peso corporal uma vez ao dia para infeções cardíacas ou sanguíneas associadas a infeções
+da pele ou do coração. Em doentes adultos, esta dose é administrada diretamente na corrente
+sanguínea (numa veia), como perfusão que demora cerca de 30 minutos ou como injeção que demora
+cerca de 2 minutos. É recomendada a mesma dose para pessoas com mais de 65 anos de idade desde
+que os seus rins estejam a funcionar bem.
+Se os seus rins não funcionam bem, pode ser-lhe administrado Cubicin menos frequentemente, por
+ex.: uma vez em dias alternados. Se estiver a fazer diálise e a sua próxima dose de Cubicin for num
+dia de diálise, ser-lhe-á administrado Cubicin normalmente depois da sessão de diálise.
+Crianças e adolescentes (1 a 17 anos de idade)
+A dose para crianças e adolescentes (1 a 17 anos de idade) irá depender da idade do doente e do tipo
+de infeção a ser tratada. Esta dose será dada diretamente na corrente sanguínea (numa veia), por
+perfusão durante cerca de 30-60 minutos. 
+Um ciclo de tratamento dura normalmente 1 a 2 semanas no caso das infeções da pele. No caso das
+infeções sanguíneas ou cardíacas e da pele, o seu médico decidirá durante quanto tempo será tratado.
+39
+No final deste folheto são dadas instruções detalhadas sobre a utilização e manipulação deste
+medicamento.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não
+se manifestem em todas as pessoas.
+Os efeitos indesejáveis mais graves encontram-se descritos abaixo:
+Efeitos indesejáveis graves com frequência desconhecida (a frequência não pode ser calculada a
+partir dos dados disponíveis)
+- Foi notificada uma reação de hipersensibilidade (reação alérgica grave incluindo anafilaxia e
+angioedema), nalguns casos durante a administração de Cubicin. Esta reação alérgica grave
+necessita de atenção médica imediata. Informe imediatamente o seu médico ou enfermeiro se
+tiver algum dos seguintes sintomas:
+- Dor ou aperto no peito,
+- Erupção na pele ou urticária,
+- Inchaço na região da garganta,
+- Pulso acelerado ou fraco,
+- Dificuldade em respirar,
+- Febre,
+- Arrepios e tremor,
+- Afrontamentos,
+- Tonturas,
+- Perda de consciência,
+- Sabor metálico na boca.
+- Informe o seu médico imediatamente se sentir dores, sensação dolorosa ou fraqueza nos
+músculos que não consegue explicar. Os problemas musculares podem ser graves, incluindo
+degradação muscular (rabdomiólise), que pode causar lesão dos rins.
+Outros efeitos indesejáveis graves notificados com a utilização de Cubicin:
+- Uma doença dos pulmões rara mas potencialmente grave chamada pneumonia eosinofílica, a
+maior parte das vezes após mais de 2 semanas de tratamento. Os sintomas podem incluir
+dificuldade em respirar, aparecimento ou agravamento de tosse ou aparecimento ou
+agravamento de febre.
+- Doenças da pele graves. Os sintomas podem incluir:
+- aparecimento ou agravamento de febre,
+- manchas na pele salientes vermelhas ou com líquido que podem aparecer inicialmente
+nas axilas ou no peito ou na zona das virilhas e que podem alastrar a uma grande área do
+corpo,
+- bolhas ou feridas na boca ou genitais.
+- Um problema de rins grave. Os sintomas podem incluir febre e erupção da pele.
+Se tiver estes sintomas, informe imediatamente o seu médico ou enfermeiro. O seu médico irá efetuar
+testes adicionais para fazer um diagnóstico.
+Os efeitos indesejáveis notificados com maior frequência encontram-se descritos abaixo:
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas)
+- Infeções fúngicas como por exemplo sapinhos,
+- Infeção das vias urinárias,
+- Diminuição do número de glóbulos vermelhos (anemia),
+- Tonturas, ansiedade, dificuldade em dormir,
+- Dor de cabeça,
+- Febre, fraqueza (astenia),
+- Pressão sanguínea (tensão arterial) elevada ou baixa,
+40
+- Prisão de ventre, dor abdominal,
+- Diarreia, enjoo (náuseas ou vómitos),
+- Flatulência (gases),
+- Inchaço ou distensão abdominal (acumulação de gases na barriga),
+- Erupção na pele ou comichão,
+- Dor, comichão ou vermelhidão no local da perfusão,
+- Dores nos braços ou pernas,
+- Análises sanguíneas que mostrem níveis elevados de enzimas do fígado ou da creatina
+fosfoquinase (CPK).
+Outros efeitos indesejáveis que podem ocorrer após o tratamento com Cubicin encontram-se descritos
+abaixo:
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas)
+- Alterações sanguíneas (ex. aumento do número de pequenas partículas do sangue chamadas
+plaquetas, que podem aumentar a tendência para a formação de coágulos de sangue, ou níveis
+elevados de certos tipos de glóbulos brancos),
+- Diminuição do apetite,
+- Sensação de formigueiro ou de adormecimento das mãos ou dos pés, perturbação do paladar,
+- Tremores,
+- Alterações no ritmo cardíaco, rubor (vermelhidão),
+- Indigestão (dispepsia), inflamação da língua,
+- Comichão,
+- Dor, cãibras ou fraqueza musculares, inflamação dos músculos (miosite), dores articulares,
+- Problemas renais,
+- Inflamação ou irritação da vagina,
+- Dor ou fraqueza generalizada, cansaço (fadiga),
+- Análises sanguíneas que mostrem níveis elevados de açúcar no sangue, da creatinina
+plasmática, da mioglobulina, ou da lactato desidrogenase (LDH), prolongamento do tempo de
+coagulação ou alteração das quantidades de sais,
+- Comichão nos olhos.
+Efeitos indesejáveis raros (podem afetar até 1 em cada 1.000 pessoas)
+- Amarelecimento da pele e olhos,
+- Prolongamento do tempo de protrombina.
+Frequência desconhecida (a frequência não pode ser estimada a partir dos dados disponíveis)
+Colite associada a agentes antibacterianos, incluindo colite pseudomembranosa (diarreia grave ou
+persistente contendo sangue e/ou muco, associada a dor abdominal ou febre), facilidade em fazer
+nódoas negras, sangramento das gengivas ou sangramento do nariz.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar cubicin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar cubicin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Manter este medicamento fora da vista e do alcance das crianças.</li>
+<li>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no
+rótulo após EXP. O prazo de validade corresponde ao último dia do mês indicado.</li>
+<li>Conservar no frigorífico (2°C - 8°C).
+41</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Cubicin
+- A substância ativa é a daptomicina. Um frasco para injetáveis com pó contém 350 mg de
+daptomicina.
+- O outro componente é o hidróxido de sódio.
+Qual o aspeto de Cubicin e conteúdo da embalagem
+Cubicin pó para solução injetável ou para perfusão é fornecido como um pó compacto ou solto
+amarelo pálido a castanho claro num frasco para injetáveis de vidro. Antes de ser administrado é
+misturado com um solvente para produzir um líquido.
+Cubicin está disponível em embalagens que contêm 1 frasco para injetáveis ou 5 frascos para
+injetáveis.
+Titular da Autorização de Introdução no Mercado
+Merck Sharp &amp; Dohme B.V., Waarderweg 39, 2031 BN Haarlem, Países Baixos
+Fabricante
+FAREVA Mirabel, Route de Marsat, Riom, 63963, Clermont-Ferrand Cedex 9, França
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular
+da Autorização de Introdução no Mercado:
+Belgique/België/Belgien
+MSD Belgium 
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel.: +370 5 278 02 47
+msd_lietuva@merck.com
+България 
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium 
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +361 888 53 00
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: +45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999000 (+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@ msd.no
+Ελλάδα 
+Österreich
+42
+MSD Α .Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp.z o.o.
+Tel.: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o. 
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 299 8700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: + 386 1 5204 201
+msd_slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel.: +421 2 58282010
+dpoc_czechslovak@merck.com
+Ιtalia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0) 9 804650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ: 800 00 673 (+357 22866700)
+cyprus_info@merck.com 
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija 
+SIA Merck Sharp &amp; Dohme Latvija 
+Tel: +371 67364msd_lv@merck.com. </p>
+<p>United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt;&lt;{mês de AAAA}&gt;.
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+
+
+
 
 
                     
@@ -1164,6 +1619,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-e2a8db799211e459b47eab2397a33e4f"
 * entry[0].resource = composition-da-e2a8db799211e459b47eab2397a33e4f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe2a8db799211e459b47eab2397a33e4f"
+* entry[=].resource = mpe2a8db799211e459b47eab2397a33e4f
+                            
+                    
+Instance: bundlepackageleaflet-pt-e2a8db799211e459b47eab2397a33e4f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cubicin Package Leaflet for language pt"
+Description: "ePI document Bundle for cubicin Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-e2a8db799211e459b47eab2397a33e4f"
+* entry[0].resource = composition-pt-e2a8db799211e459b47eab2397a33e4f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpe2a8db799211e459b47eab2397a33e4f"
@@ -1265,6 +1742,18 @@ RuleSet: e2a8db799211e459b47eab2397a33e4fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-e2a8db799211e459b47eab2397a33e4f) // cubicin pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -795,6 +795,394 @@ validerede aseptiske betingelser.</p>         </div>"""
 
 
 
+Instance: composition-pt-9875a9482c2e354f3a12ea545ebc4f3b
+InstanceOf: CompositionUvEpi
+Title: "Composition for dexdor Package Leaflet"
+Description:  "Composition for dexdor Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9875a9482c2e354f3a12ea545ebc4f3b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - dexdor"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Dexdor e para que é utilizado
+2. O que precisa de saber antes de lhe ser administrado Dexdor
+3. Como utilizar Dexdor
+4. Efeitos indesejáveis possíveis
+5. Como conservar Dexdor
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é dexdor e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é dexdor e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dexdor contém uma substância ativa chamada dexmedetomidina que pertence a um grupo de 
+medicamentos chamados sedativos. É utilizado para provocar sedação (um estado de calma, 
+sonolência ou sono) em doentes adultos em unidades de cuidados intensivos hospitalares ou sedação 
+consciente durante diferentes procedimentos de diagnóstico ou cirúrgicos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar dexdor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar dexdor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não lhe deve ser administrado Dexdor</h2>
+<p>se tem alergia à dexmedetomidina ou a qualquer outro componente deste medicamento 
+(indicados na secção 6)
+-
+se tiver alguns problemas de ritmo cardíaco (bloqueio cardíaco de grau 2 ou 3)
+-
+se tiver uma tensão arterial muito baixa que não responde a tratamento
+-
+se tiver tido recentemente um AVC ou outra doença grave que afete o fluxo de sangue para o 
+cérebro.
+Advertências e precauções
+Antes de lhe ser administrado este medicamento, informe o seu médico ou enfermeiro se alguma das 
+seguintes situações se aplica a si, uma vez que o Dexdor deve ser utilizado com precaução:
+-
+se tiver batimentos do coração anormalmente lentos (devido a doença ou a atividade física intensa)
+pois este pode aumentar o risco de paragem cardíaca
+-
+se tiver tensão arterial baixa
+-
+se tiver um baixo volume de sangue, por exemplo após hemorragia (sangramento)
+-
+se tiver certos problemas de coração 
+-
+se for idoso
+-
+se tiver um problema neurológico (por exemplo lesão da cabeça ou da medula espinhal ou AVC)
+-
+se tiver problemas graves de fígado
+-
+se alguma vez tiver tido febre muito alta após a toma de alguns medicamentos, especialmente 
+anestésicos.
+27
+Este medicamento pode provocar uma grande quantidade de urina e sede excessiva; contacte um 
+médico se estes efeitos indesejáveis ocorrerem. Ver a secção 4 para mais informações.
+Foi observado um aumento do risco de mortalidade em doentes com idade igual ou inferior a 65 anos
+quando se utiliza este medicamento, especialmente em doentes hospitalizados em unidades de 
+cuidados intensivos por outras causas que não após uma cirurgia, com uma doença mais grave no 
+momento do internamento na unidade de cuidados intensivos e com uma idade mais jovem. O médico 
+decidirá se este medicamento é ainda adequado para si. O médico terá em consideração o benefício e 
+os riscos deste medicamento para si em comparação com o tratamento com outros agentes sedativos.
+Outros medicamentos e Dexdor
+Informe o seu médico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou se vier a tomar
+outros medicamentos.
+Os seguintes medicamentos podem aumentar o efeito de Dexdor:
+-
+medicamentos que o ajudem a dormir ou que causem sedação (ex. midazolam, propofol)
+-
+medicamentos para a dor forte (ex. opioides como a morfina, codeína)
+-
+medicamentos anestésicos (ex. sevoflurano, isoflurano).
+Se estiver a utilizar medicamentos que baixem a tensão arterial e os batimentos do coração, a sua 
+administração em conjunto com Dexdor pode aumentar este efeito. Dexdor não deve ser utilizado com 
+medicamentos que causam paralisia temporária.
+Gravidez e amamentação
+Dexdor não deve ser utilizado durante a gravidez ou aleitamento, a não ser que seja claramente 
+necessário. 
+Consulte o seu médico antes de utilizar este medicamento.
+Condução de veículos e utilização de máquinas
+Dexdor tem um grande impacto sobre a capacidade de conduzir e utilizar máquinas. Após lhe ser 
+administrado Dexdor não deverá conduzir, utilizar máquinas ou trabalhar em situações perigosas até 
+que os efeitos tenham desaparecido completamente. Pergunte ao seu médico quando poderá retomar 
+estas atividades e quando poderá voltar a realizar este tipo de trabalho. 
+Excipientes
+Dexdor contém menos do que 1 mmol (23 mg) de sódio por ml, ou seja, é praticamente “isento de 
+sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar dexdor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar dexdor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cuidados intensivos no hospital
+Dexdor vai-lhe ser administrado por um médico ou enfermeiro nos cuidados intensivos de um 
+hospital. 
+Sedação para a realização de procedimentos/sedação consciente
+Dexdor vai-lhe ser administrado por um médico ou enfermeiro antes e/ou durante um procedimento de 
+diagnóstico ou cirúrgico que necessite de sedação, ou seja uma sedação para realização de um 
+procedimento/sedação consciente.
+28
+O seu médico decidirá qual a dose adequada para si. A quantidade de Dexdor depende da sua idade, 
+altura, estado geral de saúde, nível de sedação pretendido e da sua resposta a este medicamento. O 
+médico poderá alterar a dose se necessário e irá vigiar o seu coração e a tensão arterial durante o 
+tratamento. 
+Dexdor é diluído e administrado sob a forma de perfusão (gotejamento) na veia.
+Após a sedação/ao acordar
+-
+O médico irá mantê-lo sob supervisão médica durante algumas horas após a sedação para garantir 
+que se sente bem.
+-
+Não deverá regressar a casa sem estar acompanhado.
+-
+Medicamentos que o ajudem a dormir, causem sedação ou sejam analgésicos potentes, poderão 
+não ser adequados durante algum tempo após lhe ter sido administrado Dexdor. Fale com o seu 
+médico sobre o uso destes medicamentos e sobre o consumo de álcool.
+Se lhe for administrado mais Dexdor do que deveria
+Se lhe for administrado demasiado Dexdor, a sua tensão arterial poderá subir ou descer, o coração 
+bater mais devagar, respirar mais lentamente e sentir-se mais sonolento. O seu médico saberá como 
+tratá-lo, tendo em conta o seu estado.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos secundários, embora estes não se 
+manifestem em todas as pessoas.
+Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+-
+batimentos lentos do coração
+-
+tensão arterial baixa ou alta
+-
+alteração no padrão repiratório ou falha da respiração.
+Frequentes (podem afetar até 1 em 10 pessoas)
+-
+dor no peito ou ataque cardíaco
+-
+batimentos rápidos do coração
+-
+nível de açúcar no sangue baixo ou elevado 
+-
+náuseas, vómitos ou boca seca
+-
+inquietação 
+-
+temperatura elevada (febre)
+-
+sintomas após parar o medicamento.
+Pouco frequentes (podem afetar até 1 em 100 pessoas)
+-
+diminuição da função do coração, paragem cardíaca
+-
+inchaço do estômago
+-
+sede
+-
+condição em que há demasiado ácido no organismo
+-
+baixo nível de albumina no sangue
+-
+dificuldade em respirar
+-
+alucinações
+-
+o medicamento não está a ser suficientemente eficaz.
+Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis)
+-
+grande quantidade de urina e sede excessiva - podem ser sintomas de uma perturbação 
+29
+hormonal chamada diabetes insípida. Contacte um médico se estes ocorrerem.
+Comunicação de efeitos secundários
+Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos secundários 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar dexdor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar dexdor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior 
+após VAL.
+Este medicamento não necessita de qualquer temperatura especial de conservação. Manter os frascos 
+para injetáveis e as ampolas dentro da embalagem exterior para proteger da luz.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Dexdor</h2>
+<p>A substância ativa é a dexmedetomidina. Cada ml de concentrado contém cloridrato de 
+dexmedetomidina equivalente a 100 microgramas de dexmedetomidina.
+-
+Os outros componentes são cloreto de sódio e água para preparações injetáveis. 
+Cada ampola de 2 ml contém 200 microgramas de dexmedetomidina (sob a forma de cloridrato).
+Cada frasco para injetáveis de 2 ml contém 200 microgramas de dexmedetomidina (sob a forma 
+de cloridrato). 
+Cada frasco para injetáveis de 4 ml contém 400 microgramas de dexmedetomidina (sob a forma 
+de cloridrato).
+Cada frasco para injetáveis de 10 ml contém 1000 microgramas de dexmedetomidina (sob a 
+forma de cloridrato).
+A concentração da solução final após diluição deve ser de 4 microgramas/ml ou 
+8 microgramas/ml.
+Qual o aspeto de Dexdor e conteúdo da embalagem
+Concentrado para solução para perfusão (concentrado estéril). 
+O concentrado é uma solução límpida e incolor.
+Recipientes
+Ampolas de vidro de 2 ml 
+Frascos para injetáveis de vidro de 2, 5 ou de 10 ml.
+Apresentações
+5 ampolas de 2 ml 
+25 ampolas de 2 ml 
+5 frascos para injetáveis de 2 ml
+4 frascos para injetáveis de 4 ml 
+4 frascos para injetáveis de 10 ml 
+É possível que não sejam comercializadas todas as apresentações.
+30
+Titular da Autorização de Introdução no Mercado
+Orion Corporation
+Orionintie 1 
+FI-02200 Espoo
+Finlândia
+Fabricante
+Orion Corporation
+Orion Pharma
+Orionintie 1 
+FI-02200 Espoo
+Finlândia
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg 
+Orion Pharma BVBA/SPRL
+Tél/Tel: +32 (0)15 64 10 20
+Nederland
+Orion Pharma BVBA/SPRL
+Tel: +32 (0)15 64 10 20
+Česká republika
+Orion Pharma s.r.o.
+Tel: +420 234 703 305
+Danmark
+Orion Pharma A/S
+Tlf: +45 8614 00 00
+Eesti
+Orion Pharma Eesti Oü
+Tel: +372 6 644 550
+Deutschland 
+Österreich
+Orion Pharma GmbH
+Tel: + 49 40 899 6890
+España
+Orion Pharma S.L.
+Tel: + 34 91 599 86 01
+Ελλάδα
+Orion Pharma Hellas M.E.Π.E
+Τηλ: + 30 210 980 3355
+Ireland
+Orion Pharma (Ireland) Ltd.
+Tel: + 353 1 428 7777
+France
+Orion Pharma 
+Tél: +33 (0) 1 85 18 00 00
+Ísland
+Vistor hf.
+Simi: +354 535 7000
+Italia
+Orion Pharma S.r.l.
+Tel: + 39 02 67876111
+Latvija
+Orion Corporation
+Orion Pharma pārstāvniecība
+Tel: +371 20028332
+Κύπρος
+Lifepharma (ZAM) Ltd
+Τηλ.: +357 22056300
+Magyarország
+Orion Pharma Kft.
+Tel.: +36 1 239 9095
+31
+Lietuva
+UAB Orion Pharma
+Tel: +370 5 276 9499
+Norge
+Orion Pharma AS
+Tlf: + 47 4000 4210
+Portugal
+Orionfin Unipessoal Lda
+Tel: + 351 21 154 68 20
+България
+Orion Pharma Poland Sp. z.o.o.
+Тел.: + 48 22 8 333 177
+Malta
+Orion Corporation
+Tel: + 358 10 4261
+Slovenská republika
+Orion Pharma s.r.o.
+Tel: +420 234 703 305
+Polska
+Orion Pharma Poland Sp. z.o.o.
+Tel.: + 48 22 8 333 177
+Slovenija
+Orion Pharma d.o.o.
+Tel: +386 (0) 1 600 8015
+Suomi/Finland
+Orion Corporation
+Puh/Tel: + 358 104261<br />
+Hrvatska
+PHOENIX Farmacija d.o.o.
+Tel: +385 1 6370450
+România
+Orion Corporation
+Tel: + 358 10 4261
+United Kingdom (Northern Ireland):
+Orion Pharma (Ireland) Ltd.
+Tel: +353 1 428 7777
+Sverige
+Orion Pharma AB
+Tel: + 46 8 623 6440
+Este folheto foi revisto pela última vez em 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -836,6 +1224,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9875a9482c2e354f3a12ea545ebc4f3b"
 * entry[0].resource = composition-da-9875a9482c2e354f3a12ea545ebc4f3b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9875a9482c2e354f3a12ea545ebc4f3b"
+* entry[=].resource = mp9875a9482c2e354f3a12ea545ebc4f3b
+                            
+                    
+Instance: bundlepackageleaflet-pt-9875a9482c2e354f3a12ea545ebc4f3b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for dexdor Package Leaflet for language pt"
+Description: "ePI document Bundle for dexdor Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9875a9482c2e354f3a12ea545ebc4f3b"
+* entry[0].resource = composition-pt-9875a9482c2e354f3a12ea545ebc4f3b
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9875a9482c2e354f3a12ea545ebc4f3b"
@@ -937,6 +1347,18 @@ RuleSet: 9875a9482c2e354f3a12ea545ebc4f3bListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9875a9482c2e354f3a12ea545ebc4f3b) // dexdor pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -959,6 +959,369 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-5e5d8991119f1b6cc9a73ed8524ab6d3
+InstanceOf: CompositionUvEpi
+Title: "Composition for adtralza Package Leaflet"
+Description:  "Composition for adtralza Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5e5d8991119f1b6cc9a73ed8524ab6d3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - adtralza"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Adtralza e para que é utilizado 
+2. O que precisa de saber antes de utilizar Adtralza 
+3. Como utilizar Adtralza 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Adtralza 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é adtralza e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é adtralza e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Adtralza contém a substância ativa tralocinumab. </p>
+<p>Tralocinumab é um anticorpo monoclonal (um tipo de proteína) que bloqueia a ação de uma proteína 
+chamada IL-13. A IL-13 desempenha um papel importante na origem dos sintomas da dermatite 
+atópica. </p>
+<p>Adtralza é utilizado para tratar doentes adultos e adolescentes com idade igual ou superior a 12 anos 
+com dermatite atópica moderada a grave, também conhecida por eczema atópico. Adtralza pode ser 
+utilizado em conjunto com medicamentos para o eczema que aplica na pele ou pode ser utilizado 
+sozinho. </p>
+<p>A utilização de Adtralza para a dermatite atópica pode melhorar o seu eczema e reduzir a comichão e a 
+dor da pele que lhe estão associadas. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar adtralza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar adtralza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Adtralza: 
+- se tem alergia ao tralocinumab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). 
+Se pensa que pode ser alérgico, ou se não tem a certeza, aconselhe-se com o seu médico, farmacêutico 
+ou enfermeiro antes de utilizar Adtralza. </p>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Adtralza. </p>
+<p>Reações alérgicas 
+Muito raramente, os medicamentos podem causar reações alérgicas (hipersensibilidade) e reações 
+alérgicas graves, designadas de anafilaxia. Tem de estar atento aos sinais destas reações (tais como, 
+problemas respiratórios, inchaço da cara, boca e língua, desmaios, tonturas, sensação de tontura 
+(devido a tensão arterial baixa), urticária, comichão e erupção na pele) enquanto estiver a utilizar 
+Adtralza. 
+Pare de utilizar Adtralza e informe o seu médico ou procure assistência médica imediatamente se notar 
+algum sinal de reação alérgica. Estes sinais estão listados no início da secção 4.<br />
+Infeção parasitária nos intestinos 
+Adtralza pode reduzir a sua resistência a infeções causadas por parasitas. Qualquer infeção parasitária 
+deverá ser tratada antes de iniciar o tratamento com Adtralza. Fale com o seu médico se tiver diarreia, 
+gases, desconforto no estômago, fezes gordas e desidratação, que podem ser sinal de uma infeção 
+parasitária. Se viver numa região em que estas infeções são frequentes, ou se vai viajar para uma 
+dessas regiões, fale com o seu médico. </p>
+<p>Problemas dos olhos 
+Fale com o seu médico se surgirem problemas nos seus olhos, ou se os problemas existentes se 
+agravarem, incluindo dor nos olhos e alterações da visão. </p>
+<p>Crianças 
+Não administre este medicamento a crianças com menos de 12 anos de idade, uma vez que a 
+segurança e os benefícios de Adtralza nesta população ainda não são conhecidos. </p>
+<p>Outros medicamentos e Adtralza 
+Informe o seu médico ou farmacêutico 
+- Se estiver a utilizar, tiver utilizado recentemente, ou se vier a utilizar outros medicamentos. 
+- Se foi vacinado recentemente ou vai ser vacinado. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de utilizar este medicamento. Os efeitos de Adtralza nas mulheres grávidas são desconhecidos; 
+por este motivo, é preferível evitar a sua utilização durante a gravidez, a não ser que o seu médico 
+recomende a utilização. </p>
+<p>Se aplicável, deverá decidir em conjunto com o seu médico se irá amamentar ou vai utilizar Adtralza. 
+Não deverá fazer ambos. </p>
+<p>Condução de veículos e utilização de máquinas 
+É improvável que Adtralza reduza a sua capacidade de conduzir e utilizar máquinas. </p>
+<p>Adtralza contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 150 mg, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar adtralza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar adtralza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico, farmacêutico ou enfermeiro. 
+Fale com o seu médico, farmacêutico ou enfermeiro se tiver dúvidas. </p>
+<p>Cada seringa pré-cheia contém 150 mg de tralocinumab. </p>
+<p>Qual é a quantidade de Adtralza utilizada e durante quanto tempo </p>
+<ul>
+<li>
+<p>O seu médico irá decidir qual a dose de Adtralza de que necessita e durante quanto tempo. </p>
+</li>
+<li>
+<p>A primeira dose recomendada é de 600 mg (quatro injeções de 150 mg), seguida de uma dose 
+de 300 mg (duas injeções de 150 mg) de 2 em 2 semanas. Dependendo do efeito que o 
+medicamento estiver a ter, o seu médico poderá decidir que uma dose de 4 em 4 semanas é 
+aceitável. </p>
+</li>
+</ul>
+<p>Adtralza é administrado por injeção por baixo da pele (injeção subcutânea). Poderá decidir em 
+conjunto com o seu médico ou enfermeiro se poderá injetar Adtralza a si próprio. </p>
+<p>Apenas deverá injetar Adtralza sozinho depois de receber a devida formação pelo seu médico ou 
+enfermeiro. A sua injeção de Adtralza pode também ser administrada por um prestador de cuidados 
+após a devida formação. </p>
+<p>Não agite a seringa. </p>
+<p>Leia as “Instruções de utilização" antes de injetar Adtralza. </p>
+<p>Se utilizar mais Adtralza do que deveria 
+Se utilizar mais deste medicamento do que deveria, ou se a dose tiver sido administrada demasiado 
+cedo, fale com o seu médico, farmacêutico ou enfermeiro. </p>
+<p>Caso se tenha esquecido de utilizar Adtralza 
+Caso se esqueça de injetar uma dose à hora certa, injete Adtralza assim que for possível. A dose 
+seguinte deve ser injetada à hora marcada habitual. </p>
+<p>Se parar de utilizar Adtralza 
+Não pare de utilizar Adtralza sem falar primeiro com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. 
+Adtralza pode causar efeitos indesejáveis graves, incluindo reações alérgicas (hipersensibilidade), tais 
+como anafilaxia; os sinais podem incluir: </p>
+<ul>
+<li>
+<p>problemas respiratórios </p>
+</li>
+<li>
+<p>inchaço da cara, boca e língua </p>
+</li>
+<li>
+<p>desmaio, tonturas, sensação de tontura(tensão arterial baixa) </p>
+</li>
+<li>
+<p>urticária </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>erupção na pele 
+Deixe de tomar Adtralza e fale com o seu médico ou procure assistência médica imediatamente se 
+notar qualquer sinal de uma reação alérgica. </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes (podem afetar mais do que 1 em 10 pessoas) </p>
+<ul>
+<li>infeções das vias respiratórias superiores (ou seja, constipação e dor de garganta) </li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>vermelhidão dos olhos e comichão </p>
+</li>
+<li>
+<p>infeção dos olhos </p>
+</li>
+<li>
+<p>reações no local da injeção (ou seja, vermelhidão, inchaço) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>inflamação dos olhos, que pode causar dor dos olhos ou diminuição da visão </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar adtralza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar adtralza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e embalagem exterior após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar na embalagem de origem para proteger da luz. </p>
+<p>Conservar no frigorífico (2 °C a 8 °C). Não congelar. 
+Se necessário, Adtralza pode ser conservado à temperatura ambiente até 25 °C na embalagem de 
+origem durante 14 dias, no máximo. Não conservar acima de 25 °C. Deite fora Adtralza se este não for 
+utilizado dentro dos 14 dias de armazenamento à temperatura ambiente. </p>
+<p>Se precisar de remover permanentemente a embalagem do frigorífico, anote a data de remoção na 
+embalagem e utilize Adtralza no prazo de 14 dias. Adtralza não pode ser refrigerado novamente 
+durante este período. </p>
+<p>Não utilize este medicamento se verificar que está turvo, descorado ou tem partículas. 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu médico, 
+farmacêutico ou enfermeiro como deitar fora os medicamentos que já não utiliza. Estas medidas 
+ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Adtralza 
+- A substância ativa é tralocinumab. 
+- Cada seringa pré-cheia contém 150 mg de tralocinumab em 1 ml de solução injetável. 
+- Os outros componentes são acetato de sódio tri-hidratado (E262), ácido acético (E260), cloreto 
+de sódio, polissorbato 80 (E433) e água para preparações injetáveis. </p>
+<p>Qual o aspeto de Adtralza e conteúdo da embalagem 
+Adtralza é uma solução transparente a opalescente, incolor a amarelo-clara, fornecida numa seringa 
+pré-cheia de vidro, com proteção da agulha. </p>
+<p>Adtralza está disponível em embalagens unitárias com 2 seringas pré-cheias ou embalagens múltiplas 
+com 4 (2 embalagens de 2) ou 12 (6 embalagens de 2) seringas pré-cheias. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>LEO Pharma A/S 
+Industriparken DK-2750 Ballerup 
+Dinamarca </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+LEO Pharma N.V./S.A 
+Tél/Tel: +32 3 740 7 
+Lietuva 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+България 
+LEO Pharma A/S 
+Teл.: +45 44 94 58<br />
+Luxembourg/Luxemburg 
+LEO Pharma N.V./S.A 
+Tél/Tel: +32 3 740 7 
+Česká republika 
+LEO Pharma s.r.o. 
+Tel: +420 734 575<br />
+Magyarország 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+Danmark 
+LEO Pharma AB 
+Tlf: +45 70 22 49<br />
+Malta 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+Deutschland 
+LEO Pharma GmbH 
+Tel: +49 6102 2Nederland 
+LEO Pharma B.V. 
+Tel: +31 205104 
+Eesti 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+Norge 
+LEO Pharma AS 
+Tlf: +47 22514 
+Ελλάδα 
+LEO Pharmaceutical Hellas S.A. 
+Τηλ: +30 210 68 34 
+Österreich 
+LEO Pharma GmbH 
+Tel: +43 1 503 6 
+España 
+Laboratorios LEO Pharma, S.A. 
+Tel: +34 93 221 3 
+Polska 
+LEO Pharma Sp. z o.o. 
+Tel.: +48 22 244 18<br />
+France 
+Laboratoires LEO 
+Tél: +33 1 3014 4 
+Portugal 
+LEO Farmacêuticos Lda. 
+Tel: +351 21 711 0 
+Hrvatska 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+Ireland 
+LEO Laboratories Ltd 
+Tel: +353 (0) 1 490 8 
+România 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+Slovenija 
+LEO Pharma A/S 
+Tel: +45 44 94 58 Ísland 
+Vistor hf. 
+Sími: +354 535 7Slovenská republika 
+LEO Pharma s.r.o. 
+Tel: +420 734 575  </p>
+<p>Italia 
+LEO Pharma S.p.A 
+Tel: +39 06 52625 
+Suomi/Finland 
+LEO Pharma Oy 
+Puh/Tel: +358 20 721 8 
+Κύπρος 
+The Star Medicines Importers Co. Ltd. 
+Τηλ: +357 2537 1 
+Sverige 
+LEO Pharma AB 
+Tel: +46 40 3522<br />
+Latvija 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+United Kingdom (Northern Ireland) 
+LEO Laboratories Ltd 
+Tel: +44 (0) 1844 347 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1000,6 +1363,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5e5d8991119f1b6cc9a73ed8524ab6d3"
 * entry[0].resource = composition-da-5e5d8991119f1b6cc9a73ed8524ab6d3
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5e5d8991119f1b6cc9a73ed8524ab6d3"
+* entry[=].resource = mp5e5d8991119f1b6cc9a73ed8524ab6d3
+                            
+                    
+Instance: bundlepackageleaflet-pt-5e5d8991119f1b6cc9a73ed8524ab6d3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adtralza Package Leaflet for language pt"
+Description: "ePI document Bundle for adtralza Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5e5d8991119f1b6cc9a73ed8524ab6d3"
+* entry[0].resource = composition-pt-5e5d8991119f1b6cc9a73ed8524ab6d3
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5e5d8991119f1b6cc9a73ed8524ab6d3"
@@ -1101,6 +1486,18 @@ RuleSet: 5e5d8991119f1b6cc9a73ed8524ab6d3ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5e5d8991119f1b6cc9a73ed8524ab6d3) // adtralza pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

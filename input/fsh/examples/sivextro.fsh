@@ -870,6 +870,502 @@ nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.
 
 
 
+Instance: composition-pt-4c889264e6df1e0383b0ef68358c4009
+InstanceOf: CompositionUvEpi
+Title: "Composition for sivextro Package Leaflet"
+Description:  "Composition for sivextro Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4c889264e6df1e0383b0ef68358c4009)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - sivextro"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Sivextro e para que é utilizado
+2. O que precisa de saber antes de tomar Sivextro
+3. Como tomar Sivextro
+4. Efeitos indesejáveis possíveis
+5. Como conservar Sivextro 
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é sivextro e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é sivextro e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sivextro é um antibiótico que contém a substância ativa fosfato de tedizolida. Pertence a um grupo de
+medicamentos chamados “oxazolidinonas".
+É utilizado para tratar adultos e adolescentes com 12 ou mais anos de idade com infeções da pele e dos
+tecidos inferiores da pele.
+Funciona ao impedir o crescimento de certas bactérias que podem causar infeções graves.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar sivextro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar sivextro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Sivextro </p>
+<ul>
+<li>se tem alergia ao fosfato de tedizolida ou a qualquer outro componente deste medicamento
+(indicados na secção 6).
+Advertências e precauções
+O seu médico decidirá se Sivextro é adequado para tratar a sua infeção.
+Fale com o seu médico ou farmacêutico antes de tomar Sivextro se alguma das seguintes situações se
+aplicar a si:</li>
+<li>tem diarreia ou se teve diarreia durante (ou até 2 meses depois) um tratamento com antibióticos
+no passado.</li>
+<li>tem alergia a outros medicamentos pertencentes ao grupo das “oxazolidinonas" (como por
+exemplo linezolida, cicloserina).</li>
+<li>tem história de hemorragia ou aparecimento de nódoas negras com facilidade (que pode ser
+sinal de um baixo número de plaquetas, pequenas células envolvidas na coagulação do sangue).</li>
+<li>tem problemas nos rins.</li>
+<li>está a tomar certos medicamentos para tratar a depressão, conhecidos como tricíclicos, ISRSs
+(inibidores seletivos da recaptação da serotonina), opioides ou IMAOs (inibidores da
+monoaminoxidase). A utilização destes medicamentos com fosfato de tedizolida pode originar
+41
+síndrome da serotonina, uma situação com potencial risco de vida (com sintomas como
+sensação de desorientação, dificuldade de concentração, temperatura elevada, reflexos
+aumentados, dificuldade de coordenação dos movimentos musculares). Ver Outros
+medicamentos e Sivextro para exemplos.</li>
+<li>
+<p>está a tomar certos medicamentos para tratar a enxaqueca, conhecidos como “triptanos". Ver
+Outros medicamentos e Sivextro para exemplos.
+Fale com o seu médico ou farmacêutico, se não tiver a certeza se está a tomar algum destes
+medicamentos.
+Diarreia
+Contacte imediatamente o seu médico se tiver diarreia durante ou depois do tratamento. Não tome
+nenhum medicamento para tratar a diarreia sem falar primeiro com o seu médico.
+Resistência a antibióticos
+Com o tempo, as bactérias podem tornar-se resistentes ao tratamento com antibióticos. Isto acontece
+quando os antibióticos não conseguem impedir o desenvolvimento das bactérias e tratar a sua infeção.
+O seu médico decidirá se lhe deve ser dado Sivextro para tratar a sua infeção.
+Efeitos indesejáveis possíveis
+Foram observados certos efeitos indesejáveis com Sivextro ou outro membro da classe das
+oxazolidinonas, quando administrados durante um período que exceda o recomendado para Sivextro.
+Informe o seu médico de imediato, se sofrer algum dos seguintes durante a toma de Sivextro:</p>
+</li>
+<li>
+<p>tem uma baixa contagem de glóbulos brancos</p>
+</li>
+<li>
+<p>anemia (nível reduzido de glóbulos vermelhos)</p>
+</li>
+<li>
+<p>hemorragia ou aparecimento de nódoas negras com facilidade</p>
+</li>
+<li>
+<p>perda de sensibilidade nas mãos ou pés (como por exemplo, dormência, picadas/formigueiro ou
+dores intensas)</p>
+</li>
+<li>
+<p>quaisquer problemas com a sua visão, como visão enevoada, alterações na visão a cores,
+dificuldade em ver em pormenor ou se o seu campo de visão ficar limitado.
+Crianças
+Este medicamento não deve ser utilizado em crianças com idade inferior a 12 anos, uma vez que não
+foi suficientemente estudado nesta população.
+Outros medicamentos e Sivextro
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a
+tomar outros medicamentos. É especialmente importante que informe o seu médico se estiver também
+a tomar:</p>
+</li>
+<li>
+<p>amitriptilina, citalopram, clomipramina, dosulepina, doxepina, fluoxetina, fluvoxamina,
+imipramina, isocarboxazida, lofepramina, moclobemida, paroxetina, fenelzina, selegilina,
+sertralina, duloxetina e venlafaxina (utilizados para tratar a depressão). Existe o risco de que o
+fosfato de tedizolida possa interagir com alguns medicamentos, incluindo os mencionados,
+causando efeitos indesejáveis tais como alterações na tensão arterial ou temperatura.</p>
+</li>
+<li>
+<p>sumatriptano, zolmitriptano (utilizados para tratar a enxaqueca)</p>
+</li>
+<li>
+<p>opioides (tal como fentanilo)</p>
+</li>
+<li>
+<p>imatinib, lapatinib (utilizados para tratar o cancro)</p>
+</li>
+<li>
+<p>metotrexato (utilizado para tratar o cancro, artrite reumatoide ou psoríase)</p>
+</li>
+<li>
+<p>sulfassalazina (utilizada para tratar doenças intestinais inflamatórias)</p>
+</li>
+<li>
+<p>topotecano (utilizado para tratar o cancro)</p>
+</li>
+<li>
+<p>estatinas tais como a pitavastatina, rosuvastatina (utilizadas para baixar o colesterol no sangue)
+Sivextro pode interferir com os efeitos destes medicamentos. O seu médico explicar-lhe-á melhor.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico
+42
+ou farmacêutico antes de tomar este medicamento.
+Desconhece-se se Sivextro passa para o leite materno nos humanos. Aconselhe-se com o seu médico
+antes de amamentar o seu bebé.
+Condução de veículos e utilização de máquinas
+Não conduza nem utilize máquinas, caso se sinta tonto ou cansado depois de tomar este medicamento.</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar sivextro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar sivextro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu
+médico ou farmacêutico se tiver dúvidas.
+A dose recomendada é um comprimido de 200 mg, uma vez ao dia, durante 6 dias. Os comprimidos
+são engolidos inteiros e podem ser tomados com ou sem alimentos ou bebidas.
+Consulte o médico, se não se sentir melhor ou estiver pior passados 6 dias.
+Se tomar mais Sivextro do que deveria 
+Contacte o mais rápido possível o seu médico, farmacêutico ou a Urgência do hospital mais próximo,
+se tiver tomado mais comprimidos do que deveria, e leve a medicação consigo.
+Caso se tenha esquecido de tomar Sivextro
+Caso se esqueça de tomar o seu medicamento, tome a dose o mais rápido possível até 8 horas antes da
+próxima dose agendada. Se faltarem menos de 8 horas para a dose seguinte, espere até à próxima dose
+agendada. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Em caso
+de dúvidas, aconselhe-se com o seu médico.
+Deve tomar os 6 comprimidos para completar o ciclo de tratamento, mesmo que se tenha esquecido de
+uma dose.
+Se parar de tomar Sivextro
+Se parar de tomar Sivextro sem o conselho do seu médico, os seus sintomas podem agravar-se. Fale
+com o seu médico ou farmacêutico antes de parar de tomar o seu medicamento.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se
+manifestem em todas as pessoas.
+Contacte imediatamente o seu médico, se tiver diarreia durante ou depois do tratamento.
+Outros efeitos indesejáveis podem incluir:
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas)</p>
+<ul>
+<li>
+<p>Náuseas</p>
+</li>
+<li>
+<p>Vómitos</p>
+</li>
+<li>
+<p>Dor de cabeça</p>
+</li>
+<li>
+<p>Comichão por todo o corpo</p>
+</li>
+<li>
+<p>Cansaço</p>
+</li>
+<li>
+<p>Tonturas
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas)</p>
+</li>
+<li>
+<p>Infeções fúngicas da pele, boca e vagina (“sapinhos" orais/vaginais)
+43</p>
+</li>
+<li>
+<p>Comichão (incluindo comichão devido a reação alérgica), queda de cabelo, acne, erupção na
+pele com vermelhidão e comichão ou urticária, transpiração excessiva </p>
+</li>
+<li>
+<p>Redução ou perda da sensibilidade da pele, sensação de formigueiro/picadas na pele </p>
+</li>
+<li>
+<p>Afrontamentos ou rubores/vermelhidão no rosto, pescoço ou zona superior do peito </p>
+</li>
+<li>
+<p>Abcesso (nódulo inchado cheio de pus) </p>
+</li>
+<li>
+<p>Infeção vaginal, inflamação ou comichão </p>
+</li>
+<li>
+<p>Ansiedade, irritabilidade, arrepios ou tremores</p>
+</li>
+<li>
+<p>Infeção do trato respiratório (seios nasais, garganta e peito)</p>
+</li>
+<li>
+<p>Secura no nariz, congestionamento no peito, tosse </p>
+</li>
+<li>
+<p>Insónia, padrão de sono anormal, dificuldade em dormir, pesadelos (sonhos
+desagradáveis/perturbadores)</p>
+</li>
+<li>
+<p>Boca seca, prisão de ventre, indigestão, dor/desconforto na barriga (abdómen), vontade de
+vomitar, vómitos em seco, sangue vivo nas fezes</p>
+</li>
+<li>
+<p>Doença de refluxo (azia, dor ou dificuldade em engolir), flatulência/gases </p>
+</li>
+<li>
+<p>Dor na articulação, espasmos musculares, dor nas costas, dor no pescoço, dor/desconforto nos
+membros, diminuição na força de mãos</p>
+</li>
+<li>
+<p>Visão enevoada, “moscas" (pequenas formas que se veem a voar no campo de visão)</p>
+</li>
+<li>
+<p>Gânglios linfáticos inchados ou dilatados </p>
+</li>
+<li>
+<p>Reação alérgica </p>
+</li>
+<li>
+<p>Desidratação </p>
+</li>
+<li>
+<p>Fraco controlo da diabetes </p>
+</li>
+<li>
+<p>Paladar alterado </p>
+</li>
+<li>
+<p>Batimento cardíaco lento</p>
+</li>
+<li>
+<p>Febre </p>
+</li>
+<li>
+<p>Inchaço nos tornozelos e/ou pés </p>
+</li>
+<li>
+<p>Urina com cheiro anormal, análises ao sangue alteradas
+Frequência desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis)</p>
+</li>
+<li>
+<p>Hemorragia ou aparecimento de nódoas negras com facilidade (devido a um baixo número de
+plaquetas, pequenas células envolvidas na coagulação do sangue)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, fale com o seu médico ou farmacêutico. Isto inclui possíveis
+efeitos indesejáveis não indicados neste folheto. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
+medicamento.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar sivextro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar sivextro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, blister ou
+rótulo após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer precauções especiais de conservação.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
+o ambiente.
+44</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Sivextro </p>
+<ul>
+<li>
+<p>A substância ativa é fosfato de tedizolida. Cada comprimido revestido por película contém
+200 mg de fosfato de tedizolida.</p>
+</li>
+<li>
+<p>Os outros componentes são celulose microcristalina, manitol, povidona, crospovidona e
+estearato de magnésio no núcleo do comprimido. O revestimento do comprimido contém álcool
+polivinílico, dióxido de titânio (E171), macrogol, talco e óxido de ferro amarelo (E172).
+Qual o aspeto de Sivextro e conteúdo da embalagem
+Sivextro é um comprimido revestido por película amarelo, oval com “TZD" impresso numa das faces
+e “200" na outra.
+Está disponível em 6 x 1 comprimidos em blisters unidose perfurados.
+Titular da Autorização de Introdução no Mercado e Fabricante
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Países Baixos
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel.: +370 5 278 02 47
+msd_lietuva@merck.com
+България 
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +361 888 5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: +45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999000 (+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+45
+Ελλάδα
+MSD Α .Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel.: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o. 
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: +386 1 5204 201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel.: +421 2 58282010
+dpoc_czechslovak@merck.com
+Ιtalia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ.: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: +371 67364224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Este folheto foi revisto pela última vez em {MM/AAAA}.
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>
+</li>
+</ul>         </div>"""      
+
+
+
 
 
                     
@@ -911,6 +1407,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-4c889264e6df1e0383b0ef68358c4009"
 * entry[0].resource = composition-da-4c889264e6df1e0383b0ef68358c4009
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4c889264e6df1e0383b0ef68358c4009"
+* entry[=].resource = mp4c889264e6df1e0383b0ef68358c4009
+                            
+                    
+Instance: bundlepackageleaflet-pt-4c889264e6df1e0383b0ef68358c4009
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sivextro Package Leaflet for language pt"
+Description: "ePI document Bundle for sivextro Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-4c889264e6df1e0383b0ef68358c4009"
+* entry[0].resource = composition-pt-4c889264e6df1e0383b0ef68358c4009
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp4c889264e6df1e0383b0ef68358c4009"
@@ -1012,6 +1530,18 @@ RuleSet: 4c889264e6df1e0383b0ef68358c4009ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-4c889264e6df1e0383b0ef68358c4009) // sivextro pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

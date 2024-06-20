@@ -1021,6 +1021,608 @@ hjemmeside http://www.ema.europa.eu.  </p>         </div>"""
 
 
 
+Instance: composition-pt-fba0a8367a83300af2a00b0c6fd0b172
+InstanceOf: CompositionUvEpi
+Title: "Composition for fotivda Package Leaflet"
+Description:  "Composition for fotivda Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfba0a8367a83300af2a00b0c6fd0b172)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - fotivda"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Fotivda e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Fotivda  </li>
+<li>Como tomar Fotivda  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Fotivda  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é fotivda e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é fotivda e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A substância ativa do Fotivda, o tivozanib, é um inibidor da proteína-cinase. O tivozanib reduz o 
+fornecimento de sangue para o cancro, o que retarda o crescimento e a propagação das células 
+cancerígenas. Funciona bloqueando a ação de uma proteína chamada fator de crescimento endotelial 
+vascular (VEGF). O bloqueio da ação do VEGF impede a formação de novos vasos sanguíneos. </p>
+<p>O Fotivda é utilizado para tratar adultos com cancro do rim avançado. É utilizado onde outros 
+tratamentos como o interferão-alfa ou interleucina-2 não foram ainda utilizados ou não ajudaram a 
+travar a doença. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar fotivda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar fotivda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Fotivda </p>
+<ul>
+<li>
+<p>se tem alergia ao tivozanib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6),  </p>
+</li>
+<li>
+<p>se toma hipericão (também conhecido como Hypericum perforatum, um remédio à base de 
+plantas utilizado para o tratamento da depressão e ansiedade). </p>
+</li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Fotivda:  </p>
+<ul>
+<li>
+<p>se tem tensão arterial elevada. 
+O Fotivda pode aumentar a sua tensão arterial. O seu médico irá monitorizar a sua tensão 
+arterial regularmente e, se for demasiado elevada, pode dar-lhe um medicamento para 
+diminuí-la, ou reduzir a dose de Fotivda. No entanto, se a sua tensão arterial permanecer 
+demasiado elevada, o seu médico pode decidir interromper ou parar o tratamento com o Fotivda. 
+Se já estiver a tomar um medicamento para tratar a tensão arterial elevada e o seu médico 
+reduzir a dose do Fotivda ou interromper ou parar o tratamento, será regularmente verificado 
+para tensão arterial baixa.  </p>
+</li>
+<li>
+<p>se tiver ou tiver tido um aneurisma (dilatação ou enfraquecimento da parede de um vaso 
+sanguíneo) ou uma rotura na parede de um vaso sanguíneo. </p>
+</li>
+<li>
+<p>se teve problemas com coágulos sanguíneos.<br />
+O tratamento com o Fotivda pode aumentar o risco de desenvolver um coágulo sanguíneo 
+(trombo) nos seus vasos sanguíneos que se pode soltar e ser transportado pela corrente 
+sanguínea para bloquear outro vaso sanguíneo.<br />
+Informe o seu médico se alguma vez teve um dos seguintes sintomas:<br />
+o 
+um coágulo de sangue nos pulmões (com tosse, dor no peito, falta de ar repentina ou tosse 
+com sangue),<br />
+o 
+coágulo de sangue nas pernas ou braços, olhos ou cérebro (com dor ou inchaço nas mãos 
+ou pés, visão reduzida ou alterações no seu estado mental), 
+o 
+um acidente vascular cerebral, ou sinais e sintomas de um “mini-acidente vascular 
+cerebral" (crise isquémica transitória), 
+o 
+um ataque cardíaco, 
+o 
+tensão alta, 
+o 
+diabetes, 
+o 
+cirurgia importante, lesões múltiplas, tais como ossos partidos e danos aos órgãos 
+internos, 
+o 
+incapacidade de se mover por um longo período de tempo, 
+o 
+insuficiência cardíaca que pode causar falta de ar ou inchaço dos tornozelos, 
+o 
+incapacidade de respirar, cor azulada na pele, dedos ou lábios, inquietação, ansiedade, 
+confusão, consciência ou sentido de consciência alterados, respiração rápida e superficial, 
+coração acelerado ou transpiração excessiva.  </p>
+</li>
+<li>
+<p>se sofre ou sofreu de algum destes sintomas ou se é tratado por insuficiência cardíaca:<br />
+o 
+falta de ar (dispneia) quando não se esforça ou quando se deita, 
+o 
+sentir-se fraco e cansado, 
+o 
+inchaço (edema) nas pernas, tornozelos e pés, 
+o 
+redução da capacidade de exercício, 
+o 
+tosse ou sibilos persistentes com expetoração branca ou rosa sangue. 
+Os sinais e sintomas de insuficiência cardíaca serão monitorizados enquanto estiver a tomar o 
+medicamento. Se necessário, o seu médico pode reduzir a dose de Fotivda, ou interromper ou 
+parar este tratamento. </p>
+</li>
+<li>
+<p>se apresenta ou está a ser tratado para um ritmo anormal dos batimentos cardíacos 
+(arritmia). O seu médico irá monitorizar o efeito de Fotivda no seu coração registando a 
+atividade elétrica do seu coração (um eletrocardiograma) ou medindo os seus níveis sanguíneos 
+de cálcio, magnésio e potássio durante o tratamento. </p>
+</li>
+<li>
+<p>se tem problemas com o fígado.<br />
+O seu médico irá monitorizar regularmente a forma como o seu fígado está a funcionar antes e 
+durante o tratamento com Fotivda (por exemplo, com análises ao sangue) e, se necessário, 
+poderá ter de reduzir a frequência com que toma Fotivda.  </p>
+</li>
+<li>
+<p>se tem problemas com a glândula tiroide ou utiliza medicamentos para tratar a doença da 
+tiroide. O tratamento com Fotivda pode fazer com que a glândula tiroide funcione menos do 
+que o habitual. O seu médico irá monitorizar regularmente o quão bem a sua glândula tiroide 
+está a funcionar antes e durante o tratamento com Fotivda (por exemplo, com análises ao 
+sangue).  </p>
+</li>
+</ul>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro enquanto toma Fotivda:  </p>
+<ul>
+<li>
+<p>se tiver falta de ar ou inchaço dos tornozelos. 
+Informe o seu médico imediatamente, pois estes podem ser sintomas de insuficiência cardíaca.<br />
+O seu médico monitorizará esta situação e, dependendo da gravidade, poderá reduzir a dose de 
+Fotivda ou interromper ou parar o tratamento com Fotivda. </p>
+</li>
+<li>
+<p>se teve problemas de hemorragia. 
+O tratamento com Fotivda pode aumentar o risco de hemorragia. Se tiver problemas de 
+hemorragia (com estômago doloroso e inchado (abdómen), vómitos de sangue, tosse com 
+sangue, fezes negras, sangue na urina, dor de cabeça ou alterações no estado mental), informe o 
+seu médico imediatamente. O tratamento com Fotivda pode ter de ser interrompido 
+temporariamente.  </p>
+</li>
+<li>
+<p>se as analises laboratoriais mostrarem que existe proteína na urina. 
+O seu médico irá monitorizá-lo no início e durante o tratamento. Dependendo dos resultados, o 
+seu médico pode reduzir a dose de Fotivda, ou interromper ou parar este tratamento. </p>
+</li>
+<li>
+<p>se sofre de uma doença do cérebro, chamada síndrome de encefalopatia posterior reversível 
+(SEPR). 
+Informe imediatamente o seu médico se tiver sintomas como dor de cabeça, convulsões (crises), 
+falta de energia, confusão, cegueira ou outros distúrbios visuais e neurológicos, como fraqueza 
+num braço ou numa perna. Se a SEPR for diagnosticada, o seu médico suspenderá o tratamento 
+com Fotivda.  </p>
+</li>
+<li>
+<p>se a pele nas palmas das mãos e as solas dos pés ficarem secas, rachadas ou descamadas ou 
+com comichão ou formigueiro. 
+Estes podem ser sintomas de uma condição chamada reação da pele pé-mão. O seu médico irá 
+tratar a doença e, dependendo da gravidade, o médico poderá reduzir a sua dose de Fotivda, ou 
+interromper ou parar este tratamento. </p>
+</li>
+<li>
+<p>se tem sintomas de perfuração ou formação de fístula gastrointestinal (desenvolvimento de 
+um orifício no estômago ou no intestino ou passagens anormais que se formam entre as partes 
+do intestino), tais como dor de estômago intensa, calafrios, febre, náuseas, vómitos ou obstrução 
+intestinal dolorosa, diarreia ou sangramento retal.<br />
+O seu médico irá monitorizá-lo regularmente para estes sintomas durante o seu tratamento com 
+Fotivda. </p>
+</li>
+<li>
+<p>se necessitar de uma operação ou outra forma de cirurgia. 
+O seu médico pode recomendar que interrompa temporariamente o uso de Fotivda se tiver uma 
+operação ou cirurgia, uma vez que poderá afetar a cicatrização de feridas.  </p>
+</li>
+</ul>
+<p>Crianças e adolescentes<br />
+Não dê Fotivda a crianças e adolescentes com idade inferior a 18 anos. Este medicamento não foi 
+estudado em crianças e adolescentes.  </p>
+<p>Outros medicamentos e Fotivda<br />
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto inclui medicamentos à base de plantas e outros medicamentos que 
+comprou sem receita médica.  </p>
+<p>Fotivda pode funcionar menos bem quando tomado com alguns medicamentos. Informe o seu médico 
+se estiver a tomar algum dos seguintes medicamentos; este pode decidir mudar a medicação: </p>
+<ul>
+<li>
+<p>dexametasona (um corticosteroide para reduzir a inflamação e tratar distúrbios do sistema 
+imunológico); </p>
+</li>
+<li>
+<p>rosuvastatina (um medicamento utilizado para ajudar a reduzir os níveis de colesterol no 
+sangue); </p>
+</li>
+<li>
+<p>fenobarbital, fenitoína, carbamazepina (utilizados no tratamento da epilepsia); </p>
+</li>
+<li>
+<p>nafcilina, rifampicina, rifabutina, rifapentina (antibióticos); </p>
+</li>
+<li>
+<p>hipericão (também conhecido como Hypericum perforatum, um remédio à base de plantas 
+utilizado para o tratamento da depressão e ansiedade), na medida em que este medicamento à 
+base de plantas não deve ser utilizado ao mesmo tempo que Fotivda. </p>
+</li>
+</ul>
+<p>Gravidez, amamentação e fertilidade </p>
+<ul>
+<li>
+<p>Não tome Fotivda se estiver grávida. Informe o seu médico que irá discutir consigo os riscos 
+de tomar Fotivda para si e para o seu filho </p>
+</li>
+<li>
+<p>Tanto você como o seu parceiro devem utilizar contraceção eficaz.  Se você ou o seu parceiro 
+estiverem a tomar contracetivos hormonais (a pílula, um implante ou um adesivo), deve utilizar 
+um método de barreira adicional ao longo do tratamento e durante um mês depois de concluir 
+o tratamento. </p>
+</li>
+<li>
+<p>Não amamente durante o tratamento com Fotivda, pois não se sabe se o componente ativo 
+de Fotivda passa para o leite materno. Fale com o seu médico se já está a amamentar. </p>
+</li>
+<li>
+<p>Fale com o seu médico quando estiver a planear um bebé, uma vez que Fotivda pode afetar a 
+fertilidade de homens e mulheres. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+Fotivda pode ter efeitos indesejáveis que podem afetar a sua capacidade de conduzir ou utilizar 
+máquinas. Evite conduzir ou utilizar máquinas se se sentir fraco, cansado ou tonto. Consulte também a 
+secção 4 “Possíveis efeitos indesejáveis". </p>
+<p>Fotivda contém tartrazina (E102) 
+A tinta de impressão utilizada em Fotivda 890 microgramas cápsulas contém tartrazina (E102), que 
+pode causar reações alérgicas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar fotivda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar fotivda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Dose recomendada 
+A dose recomendada é uma cápsula de Fotivda 1340 microgramas, tomada uma vez por dia durante 
+21 dias (3 semanas), seguida de um período de 7 dias (1 semana) em que não são tomadas cápsulas.<br />
+Este esquema é repetido em ciclos de 4 semanas.  </p>
+<p>O seu médico irá verificá-lo regularmente e, normalmente, continuará a tomar Fotivda enquanto este 
+funcionar e não sofrer efeitos indesejáveis inaceitáveis. </p>
+<p>Dose reduzida 
+No caso de ser afetado por efeitos indesejáveis graves, o seu médico pode decidir interromper a 
+terapêutica com Fotivda e/ou diminuir a dose para: 
+Uma cápsula de Fotivda 890 microgramas, tomada uma vez por dia durante 21 dias (3 semanas), 
+seguida de um período de 7 dias (1 semana), em que não são tomadas cápsulas. 
+21 dias (três semanas) </p>
+<p>Uma cápsula de Fotivda 
+uma vez por dia 
+7 dias (1 semana) </p>
+<p>Nenhuma cápsula tomada 
+Este esquema é repetido em ciclos de 4 semanas.  </p>
+<p>Problemas no fígado 
+Se tiver problemas hepáticos, o seu médico pode reduzir a frequência com que toma a dose para dias 
+alternados (ou seja, uma cápsula de 1340 microgramas em dias alternados). </p>
+<p>Fotivda com alimentos e bebidas 
+Fotivda deve ser tomado com um copo de água e pode ser tomado com ou sem alimentos. Engula a 
+cápsula inteira. Não mastigue, dissolva ou abra a cápsula antes de engolir.  </p>
+<p>Se tomar mais Fotivda do que deveria 
+Informe imediatamente o seu médico se tiver tomado mais do que a dose prescrita de 1 cápsula por 
+dia.<br />
+Tomar demasiado Fotivda faz com que os efeitos indesejáveis sejam mais prováveis ou se tornem 
+mais graves, sobretudo a tensão arterial elevada. Obtenha ajuda médica de imediato se sentir 
+confusão, alterações do estado mental ou dores de cabeça. Todos estes são sintomas da hipertensão 
+arterial. </p>
+<p>Caso se tenha esquecido de tomar Fotivda 
+Se se esqueceu de tomar uma cápsula, não tome uma cápsula de substituição. Continue a tomar a dose 
+seguinte à hora habitual. </p>
+<p>Não tome uma dose a dobrar para compensar uma cápsula que se esqueceu de tomar. </p>
+<p>Se vomitar depois de tomar Fotivda, não tome uma cápsula de substituição. Continue a tomar a dose 
+seguinte à hora habitual.  </p>
+<p>Se parar de tomar Fotivda<br />
+Só deixe de tomar este medicamento se o seu médico lho indicar. Se parar de tomar as cápsulas, o seu 
+estado pode piorar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves </p>
+<p>A tensão arterial alta é o efeito indesejável mais grave e muito frequente (ver também na secção 2 
+“Advertências e precauções"). 
+Informe imediatamente o seu médico se pensa que tem tensão arterial alta. Os sintomas incluem 
+dores de cabeça graves, visão turva, falta de ar, alterações do estado mental, como sentir-se ansioso, 
+confuso ou desorientado. </p>
+<p>O seu médico irá verificar a sua tensão arterial regularmente durante o tratamento com Fotivda. Se 
+desenvolver hipertensão arterial, o seu médico pode prescrever um medicamento para tratar a tensão 
+arterial elevada, reduzir a dose de Fotivda ou interromper o tratamento com Fotivda.  </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes (podem afetar mais de 1 doente em cada 10) </p>
+<ul>
+<li>
+<p>Dificuldade em falar </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Perda de apetite; perda de peso </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Dificuldades respiratórias; falta de ar durante a prática de exercício; tosse </p>
+</li>
+<li>
+<p>Cansaço; fraqueza invulgar; dor (incluindo na boca, ossos, extremidades, partes laterais do 
+corpo, virilhas, tumor) </p>
+</li>
+<li>
+<p>Inflamação da boca; ligeira dor ou desconforto na boca; sensação de enjoo; dor, desconforto e 
+compressão no estômago </p>
+</li>
+<li>
+<p>Síndrome mão-pé com vermelhidão, inchaço, dormência da pele e descamação da pele nas 
+palmas e solas </p>
+</li>
+<li>
+<p>Dor de costas </p>
+</li>
+<li>
+<p>Cansaço e falta de energia </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 pessoa em cada 10)  </p>
+<ul>
+<li>
+<p>Glândula tiroide pouco ativa (hipotiroidismo), que pode causar sintomas como cansaço, letargia, 
+fraqueza muscular, ritmo cardíaco lento, aumento de peso </p>
+</li>
+<li>
+<p>Incapaz de dormir </p>
+</li>
+<li>
+<p>Danos nervosos, incluindo dormência, formigueiro, pele sensível ou entorpecimento e fraqueza 
+nos braços e pernas </p>
+</li>
+<li>
+<p>Problemas de visão, incluindo visão turva </p>
+</li>
+<li>
+<p>Batimentos cardíacos rápidos; aperto do peito; ataque cardíaco/fluxo sanguíneo reduzido para o 
+coração; coágulo sanguíneo numa artéria (vaso sanguíneo) </p>
+</li>
+<li>
+<p>Coágulo sanguíneo no pulmão. Os sintomas incluem tosse, dor de peito, falta de ar súbita ou tossir 
+sangue </p>
+</li>
+<li>
+<p>Coágulo sanguíneo numa veia profunda, como na perna </p>
+</li>
+<li>
+<p>Tensão arterial muito alta, que pode causar um AVC; vermelhidão da pele  </p>
+</li>
+<li>
+<p>Hemorragia nasal; corrimento nasal; nariz entupido </p>
+</li>
+<li>
+<p>Flatulência; azia; dificuldade e dor ao engolir; garganta inflamada; estômago dilatado; língua 
+inchada e dolorosa; gengivas inflamadas dolorosas e/ou com sangue </p>
+</li>
+<li>
+<p>Mudanças de paladar ou perda de paladar  </p>
+</li>
+<li>
+<p>Tonturas, zumbido nos ouvidos; tonturas e uma sensação de rotação (vertigens) </p>
+</li>
+<li>
+<p>Hemorragia, por exemplo, no cérebro, da boca, gengivas, pulmões, estômago, úlceras 
+intestinais, genitais femininos, ânus, glândula suprarrenal </p>
+</li>
+<li>
+<p>Tossir sangue; vomitar sangue </p>
+</li>
+<li>
+<p>Palidez e cansaço devido a sangramento excessivo </p>
+</li>
+<li>
+<p>Estar mal disposto; indigestão; prisão de ventre; boca seca </p>
+</li>
+<li>
+<p>Comichão na pele; erupções na pele; comichão no corpo; descamação da pele; pele seca; perda 
+de cabelo; vermelhidão da pele, incluindo mãos e corpo; acne </p>
+</li>
+<li>
+<p>Febre; dor no peito; inchaço dos pés e das pernas; calafrios e temperatura corporal baixa </p>
+</li>
+<li>
+<p>Dor nas articulações; dor muscular </p>
+</li>
+<li>
+<p>Aumento da quantidade de proteína na urina </p>
+</li>
+<li>
+<p>Resultados anormais da análise ao sangue para fígado, pâncreas e tiroide; perda de peso </p>
+</li>
+<li>
+<p>Inflamação do pâncreas que causa dor de estômago grave, a qual se pode espalhar para as costas </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 pessoa em cada 100) </p>
+<ul>
+<li>
+<p>Erupções cutâneas com pus; infeções fúngicas </p>
+</li>
+<li>
+<p>Nódoas negras fáceis, hemorragia na pele </p>
+</li>
+<li>
+<p>Glândula tiroide hiperativa (que pode causar sintomas como aumento do apetite, perda de peso, 
+intolerância ao calor, aumento da transpiração, tremores, batimento cardíaco rápido); glândula 
+tiroide aumentada </p>
+</li>
+<li>
+<p>Aumento do número de glóbulos vermelhos </p>
+</li>
+<li>
+<p>Perda de memória </p>
+</li>
+<li>
+<p>Redução temporária do fluxo sanguíneo para o cérebro </p>
+</li>
+<li>
+<p>Olhos com lacrimação </p>
+</li>
+<li>
+<p>Ouvidos tapados </p>
+</li>
+<li>
+<p>Ausência de fluxo sanguíneo através dos vasos sanguíneos do coração </p>
+</li>
+<li>
+<p>Úlcera péptica no intestino delgado </p>
+</li>
+<li>
+<p>Pele vermelha, inchada e com feridas; pele com bolhas; transpiração excessiva; urticária </p>
+</li>
+<li>
+<p>Fraqueza muscular </p>
+</li>
+<li>
+<p>Inchaço ou irritação das mucosas </p>
+</li>
+<li>
+<p>Eletrocardiograma (ECG) anormal, batimento cardíaco rápido e/ou irregular </p>
+</li>
+<li>
+<p>Insuficiência cardíaca. Os sintomas incluem falta de ar ou inchaço dos tornozelos. Inchaço dos 
+pulmões causados por acumulação de líquidos </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 pessoa em cada 1000) </p>
+<ul>
+<li>Síndrome de encefalopatia posterior reversível (SEPR). Os sintomas incluem dor de cabeça, 
+convulsões, falta de energia, confusão, cegueira ou outros distúrbios visuais e neurológicos </li>
+</ul>
+<p>Desconhecida (não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>Uma dilatação ou enfraquecimento da parede de um vaso sanguíneo ou uma rotura da parede de 
+um vaso sanguíneo (aneurismas e dissecções das artérias). </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar fotivda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar fotivda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e frasco após 
+VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Manter o frasco bem fechado para proteger da humidade.  </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Fotivda  </p>
+<p>Fotivda 890 microgramas cápsulas 
+A substância ativa é o tivozanib. Cada cápsula contém cloridrato de tivozanib, mono-hidratado 
+equivalente a 890 microgramas de tivozanib. 
+Os outros componentes são: 
+- Conteúdo da cápsula: manitol, estearato de magnésio.<br />
+- Invólucro da cápsula: gelatina, dióxido de titânio (E171), índigo carmim (E132), óxido de ferro 
+amarelo (E172). 
+- Tinta de impressão, amarela: goma laca, propilenoglicol, solução forte de amoníaco, dióxido de 
+titânio (E171), lago de alumínio de tartrazina (E102) (ver secção 2 “Fotivda contém tartrazina 
+(E102)"). 
+- Tinta de impressão, azul: goma laca, propilenoglicol, solução forte de amoníaco, índigo 
+carmim, lago de alumínio (E102). </p>
+<p>Fotivda 1340 microgramas cápsulas 
+A substância ativa é o tivozanib. Cada cápsula contém cloridrato de tivozanib, mono-hidratado 
+equivalente a 1340 microgramas de tivozanib. 
+Os outros componentes são:<br />
+- Conteúdo da cápsula: manitol, estearato de magnésio. 
+- Invólucro da cápsula: gelatina, dióxido de titânio (E171), óxido de ferro amarelo (E172). 
+- Tinta de impressão, azul: goma laca, propilenoglicol, solução forte de amoníaco, índigo 
+carmim, lago de alumínio (E132). </p>
+<p>Qual o aspeto de Fotivda e conteúdo da embalagem 
+As cápsulas de Fotivda 890 microgramas têm uma cabeça opaca azul escura e corpo opaco amarelo 
+brilhante, com “TIVZ" impresso a tinta amarela na cabeça e com “LD" no corpo a tinta azul escura. </p>
+<p>As cápsulas de Fotivda 1340 microgramas têm uma cabeça opaca amarelo brilhante e corpo opaco 
+amarelo brilhante, com “TIVZ" impresso a tinta azul escura na cabeça e com “SD" no corpo a tinta 
+azul escura. </p>
+<p>Fotivda 890 microgramas e Fotivda 1340 microgramas estão disponíveis como embalagens de 
+21 cápsulas em frascos de HDPE com fecho resistente à abertura por crianças. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Recordati Netherlands B.V. 
+Beechavenue 54, 
+1119PW Schiphol-Rijk 
+Países Baixos </p>
+<p>Fabricante 
+ALMAC PHARMA SERVICES (IRELAND) LIMITED 
+Finnabair Industrial Estate 
+Dundalk<br />
+Co. Louth<br />
+A91 P9KD<br />
+Irlanda </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1062,6 +1664,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-fba0a8367a83300af2a00b0c6fd0b172"
 * entry[0].resource = composition-da-fba0a8367a83300af2a00b0c6fd0b172
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfba0a8367a83300af2a00b0c6fd0b172"
+* entry[=].resource = mpfba0a8367a83300af2a00b0c6fd0b172
+                            
+                    
+Instance: bundlepackageleaflet-pt-fba0a8367a83300af2a00b0c6fd0b172
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fotivda Package Leaflet for language pt"
+Description: "ePI document Bundle for fotivda Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-fba0a8367a83300af2a00b0c6fd0b172"
+* entry[0].resource = composition-pt-fba0a8367a83300af2a00b0c6fd0b172
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpfba0a8367a83300af2a00b0c6fd0b172"
@@ -1163,6 +1787,18 @@ RuleSet: fba0a8367a83300af2a00b0c6fd0b172ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-fba0a8367a83300af2a00b0c6fd0b172) // fotivda pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

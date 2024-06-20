@@ -628,6 +628,371 @@ hjemmeside: http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-da0c248904d382a9eb3bce64c5a02953
+InstanceOf: CompositionUvEpi
+Title: "Composition for veltassa Package Leaflet"
+Description:  "Composition for veltassa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpda0c248904d382a9eb3bce64c5a02953)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - veltassa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Veltassa e para que é utilizado 
+2. O que precisa de saber antes de tomar Veltassa 
+3. Como tomar Veltassa 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Veltassa 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é veltassa e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é veltassa e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Veltassa é um medicamento que contém a substância ativa patirómero. </p>
+<p>Este medicamento é utilizado no tratamento de adultos e adolescentes com 12 a 17 anos de idade com 
+níveis elevados de potássio no sangue. </p>
+<p>A presença de demasiado potássio no sangue pode afetar a forma como os nervos controlam os 
+músculos. Isto pode causar fraqueza ou mesmo paralisia. Os níveis elevados de potássio também 
+podem resultar em batimento cardíaco anormal, o que pode causar efeitos graves no seu ritmo cardíaco 
+ou do(a) seu(sua) filho(a). </p>
+<p>Este medicamento funciona através da ligação ao potássio no intestino. Isto previne que o potássio 
+entre na corrente sanguínea e diminua os níveis de potássio no sangue para níveis normais. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar veltassa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar veltassa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Veltassa </p>
+<ul>
+<li>se você ou o(a) seu(sua) filho(a) tem alergia ao patirómero ou a qualquer outro componente 
+deste medicamento (indicados na secção 6). </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de utilizar Veltassa se você ou o(a) seu(sua) filho(a) 
+tiver: </p>
+<ul>
+<li>
+<p>problemas em engolir - Se não conseguir engolir este medicamento, este não irá atuar.  </p>
+</li>
+<li>
+<p>problemas graves de estômago ou de intestino - Este medicamente pode provocar prisão de 
+ventre ou diarreia em alguns doentes. </p>
+</li>
+<li>
+<p>sido submetido a uma grande cirurgia no estômago ou no intestino - Este medicamento funciona 
+ao passar pelo intestino, pelo que uma grande cirurgia nesta área pode afetar o efeito deste 
+medicamento. </p>
+</li>
+</ul>
+<p>Podem ocorrer níveis baixos de magnésio no sangue enquanto estiver a tomar este medicamento. O 
+seu médico irá verificar o nível de magnésio durante o tratamento com este medicamento ao longo de, 
+pelo menos, 1 mês e poderá receitar-lhe um suplemento de magnésio, se necessário. </p>
+<p>Crianças e adolescentes 
+Não dê este medicamento a crianças com menos de 12 anos de idade, pois não foi estudado neste 
+grupo etário. </p>
+<p>Outros medicamentos e Veltassa 
+Informe o seu médico ou farmacêutico se você ou o(a) seu(sua) filho(a) estiver a tomar, tiver tomado 
+recentemente, ou se vier a tomar outros medicamentos. </p>
+<p>Este medicamento pode reduzir a absorção ou interagir com alguns medicamentos, se forem tomados 
+por via oral e ao mesmo tempo, tais como: </p>
+<ul>
+<li>
+<p>ciprofloxacina: um medicamento para tratar infeções bacterianas </p>
+</li>
+<li>
+<p>levotiroxina: um medicamento para tratar a deficiência de hormonas da tiroide </p>
+</li>
+<li>
+<p>metformina: um medicamento para tratar a diabetes </p>
+</li>
+<li>
+<p>micofenolato de mofetil: um medicamento para evitar que o seu corpo rejeite um órgão 
+transplantado </p>
+</li>
+<li>
+<p>quinidina: um medicamento para tratar o ritmo cardíaco irregular </p>
+</li>
+<li>
+<p>telmisartano, bisoprolol, carvedilol, nebivolol: medicamentos para tratar a hipertensão arterial e 
+para problemas cardíacos. </p>
+</li>
+</ul>
+<p>Utilize todos os medicamentos que se destinam a ser tomados por via oral, pelo menos, 3 horas antes 
+ou depois de utilizar Veltassa. Alguns medicamentos não são afetados por Veltassa, pelo que o seu 
+médico ou farmacêutico poderá dar-lhe uma instrução diferente consoante os medicamentos que você 
+ou o(a) seu(sua) filho(a) estiver a tomar. Pergunte ao seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Utilize este medicamento durante a gravidez e a amamentação apenas se o seu médico o considerar 
+necessário. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos deste medicamento sobre a capacidade de conduzir e utilizar máquinas são nulos ou 
+desprezáveis. </p>
+<p>Veltassa contém sorbitol 
+O conteúdo de sorbitol é de, aproximadamente, 4 g (10,4 kcal) por 8,4 g de patirómero e, 
+aproximadamente, 0,5 g (1,2 kcal) por 1 g de patirómero. O sorbitol é uma fonte de frutose. Se o seu 
+médico lhe disse que você ou o(a) seu(sua) filho(a) tem uma intolerância a alguns açúcares ou se você 
+ou o(a) seu(sua) filho(a) foi diagnosticado(a) com intolerância hereditária à frutose (IHF), uma doença 
+genética rara em que a pessoa não consegue digerir a frutose, fale com o seu médico antes de utilizar 
+este medicamento. O sorbitol pode causar desconforto gastrointestinal e ter um efeito laxante ligeiro. </p>
+<p>Veltassa contém cálcio 
+Se o seu médico lhe disse para limitar o cálcio na sua dieta ou na dieta do(a) seu(sua) filho(a), fale com 
+o seu médico antes de utilizar este medicamento. O seu médico verificará o nível de cálcio durante o 
+tratamento com este medicamento ao longo de, pelo menos, 1 mês. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar veltassa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar veltassa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Este medicamento é administrado uma vez por dia. A dose inicial recomendada deste medicamento 
+varia com a idade. Podem ser utilizadas várias saquetas para alcançar a dose desejada. O seu médico 
+pode ajustar a dose, dependendo do nível de potássio no seu sangue ou do(a) seu(sua) filho(a), até uma 
+dose máxima de 25,2 g por dia. </p>
+<p>Adultos 
+Dose inicial: 8,4 g de patirómero (o conteúdo de uma saqueta de 8,4 g), uma vez por dia. </p>
+<p>Adolescentes com 12 a 17 anos de idade 
+Dose inicial: 4 g de patirómero(o conteúdo de quatro saquetas de 1 g), uma vez por dia. Mude para 
+saquetas de 8,4 g de patirómero se forem necessárias doses superiores a 7 g. </p>
+<p>O seu médico decidirá a duração do tratamento com base no nível de potássio no sangue. </p>
+<p>Utilize este medicamento, pelo menos, 3 horas antes ou depois de outros medicamentos que se 
+destinam a ser tomados por via oral, a não ser que receba outra recomendação do seu médico ou 
+farmacêutico. </p>
+<p>Modo de administração 
+Antes de tomar este medicamento, este tem de ser misturado com água conforme descrito abaixo. O 
+volume de água depende da sua dose: </p>
+<ul>
+<li>
+<p>1 g de patirómero: 10 ml (2 colheres de chá) </p>
+</li>
+<li>
+<p>2 g de patirómero: 20 ml (4 colheres de chá) </p>
+</li>
+<li>
+<p>3 g de patirómero: 30 ml (6 colheres de chá) </p>
+</li>
+<li>
+<p>4 g de patirómero: 40 ml (3 colheres de sopa) </p>
+</li>
+<li>
+<p>Mais de 4 g de patirómero: 80 ml (6 colheres de sopa) </p>
+</li>
+</ul>
+<p>Prepare a mistura de acordo com os passos seguintes: </p>
+<ul>
+<li>
+<p>Coloque metade da água num copo, adicione o número necessário de saquetas de Veltassa e 
+agite. </p>
+</li>
+<li>
+<p>Adicione a restante metade da água e agite bem. O pó não se dissolve, formando, em vez disso, 
+uma suspensão, que pode parecer granulosa. </p>
+</li>
+<li>
+<p>Pode acrescentar mais água à mistura para o ajudar a engolir o medicamento. Tenha em atenção 
+que, com volumes maiores, o pó pode sedimentar mais rapidamente. </p>
+</li>
+<li>
+<p>Beba a mistura no espaço de 1 hora após a preparação. Se ficar pó no copo depois de beber, 
+acrescente mais água, agite e beba imediatamente. Poderá ter de fazê-lo novamente para se 
+certificar de que tomou a totalidade do pó. </p>
+</li>
+</ul>
+<p>Se desejar, pode utilizar os seguintes líquidos ou alimentos moles em vez de água para preparar a 
+mistura, seguindo os passos descritos acima: sumo de maçã, sumo de arando, sumo de ananás, sumo 
+de laranja, sumo de uva, sumo de pera, néctar de alperce, néctar de pêssego, iogurte, leite, espessante 
+(por exemplo: amido de milho), puré de maçã e pudim de baunilha e de chocolate. </p>
+<p>Quando utilizar esses líquidos e alimentos moles, siga as suas recomendações alimentares ou as do(a) 
+seu(sua) filho(a) relativamente à ingestão de potássio. Consulte o seu médico ou farmacêutico se tiver 
+dúvidas. </p>
+<p>Deve beber apenas quantidades moderadas (menos de 400 ml por dia) de sumo de arando, uma vez 
+que este pode afetar outros medicamentos. </p>
+<p>Utilize a suspensão de Veltassa, depois de preparada, juntamente com as refeições ou não, 
+preferencialmente à mesma hora todos os dias. Nunca aqueça este medicamento nem o adicione a 
+alimentos ou líquidos aquecidos. 
+Não tome este medicamento sob a forma de pó seco. </p>
+<p>Se utilizar uma sonda nasogástrica ou sonda de gastrostomia endoscópica percutânea, siga os passos 
+descritos acima para preparar a suspensão para administração oral. Para doses  até 8,4 g de patirómero, 
+utilize o volume descrito acima. Para doses superiores a 8,4 g e até 16,8 g de patirómero, utilize um 
+volume total de 160 ml (12 colheres de sopa) e, para doses superiores a 16,8 g e até 25,2 g de 
+patirómero, utilize um volume total de 240 ml (18 colheres de sopa). Estes volumes asseguram que a 
+suspensão flui facilmente através das sondas.  </p>
+<p>Podem ser utilizadas sondas fabricadas em poliuretano, silicone e policloreto de vinilo. O diâmetro 
+recomendado das sondas é de 2,17 mm (6,5 Fr) ou maior. Após a administração da suspensão, a sonda 
+deve ser irrigada com água. Siga as instruções do fabricante. </p>
+<p>Se tomar mais Veltassa do que deveria 
+Pare de utilizar este medicamento e fale imediatamente com o seu médico ou farmacêutico. </p>
+<p>Caso se tenha esquecido de tomar Veltassa 
+No caso de você ou o(a) seu(sua) filho(a) se ter esquecido de tomar uma dose, tome-a, o mais 
+rapidamente possível, no mesmo dia. Não tome uma dose a dobrar para compensar uma dose que se 
+esqueceu de tomar. Se se esquecer de tomar mais do que uma dose, contacte o seu médico. </p>
+<p>Se parar de tomar Veltassa 
+Não pare de utilizar este medicamento sem o consentimento do seu médico, uma vez que o nível de 
+potássio no sangue pode aumentar. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Pare de tomar o medicamento e procure aconselhamento médico urgente se notar algum dos seguintes 
+efeitos indesejáveis: 
+Desconhecida, a frequência não pode ser calculada a partir dos dados disponíveis: 
+reações alérgicas: os sintomas incluem erupção cutânea, urticária, inchaço dos lábios, língua ou 
+garganta. </p>
+<p>Foram notificados os seguintes efeitos indesejáveis adicionais: 
+Frequentes, podem afetar até 1 em 10 pessoas: </p>
+<ul>
+<li>
+<p>prisão de ventre </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>dor abdominal </p>
+</li>
+<li>
+<p>náuseas </p>
+</li>
+<li>
+<p>gases </p>
+</li>
+<li>
+<p>níveis baixos de magnésio no sangue observados nas análises  </p>
+</li>
+</ul>
+<p>Pouco frequentes, podem afetar até 1 em 100 pessoas: </p>
+<ul>
+<li>vómitos </li>
+</ul>
+<p>Também foram notificadas ocorrências de prisão de ventre, diarreia e gases em crianças e adolescentes 
+com 6 a 17 anos de idade. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar veltassa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar veltassa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior ou na saqueta, 
+após «VAL.». O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar e transportar refrigerado (2°C - 8°C). </p>
+<p>Depois de receber este medicamento, pode conservá-lo a temperatura inferior a 25°C durante, no 
+máximo, 6 meses. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Veltassa 
+A substância ativa é o patirómero (como patirómero sorbitex cálcico). </p>
+<ul>
+<li>
+<p>Veltassa 1 g de pó para suspensão oral: cada saqueta contém 1 g de patirómero. </p>
+</li>
+<li>
+<p>Veltassa 8,4 g de pó para suspensão oral: cada saqueta contém 8,4 g de patirómero. </p>
+</li>
+<li>
+<p>Veltassa 16,8 g de pó para suspensão oral: cada saqueta contém 16,8 g de patirómero. </p>
+</li>
+<li>
+<p>Veltassa 25,2 g de pó para suspensão oral: cada saqueta contém 25,2 g de patirómero. </p>
+</li>
+</ul>
+<p>O outro componente é a goma xantana (ver secção 2 para informações sobre o sorbitol). </p>
+<p>Qual o aspeto de Veltassa e conteúdo da embalagem 
+O pó para suspensão oral é esbranquiçado a castanho-claro, apresentando, por vezes, partículas 
+brancas. </p>
+<p>Veltassa 1 g está disponível em embalagens contendo 60 saquetas. </p>
+<p>Veltassa 8,4 g está disponível em embalagens contendo 30, 60 ou 90 saquetas e multiembalagens 
+compostas por 3 embalagens, cada uma contendo 30 saquetas. </p>
+<p>Veltassa 16,8 g e 25,2 g estão disponíveis em embalagens contendo 30, 60 ou 90 saquetas. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Vifor Fresenius Medical Care Renal Pharma France 
+100-101 Terrasse Boieldieu 
+Tour Franklin La Défense 8 
+92042 Paris La Défense Cedex 
+França </p>
+<p>Fabricante 
+Vifor France 
+100-101 Terrasse Boieldieu 
+Tour Franklin La Défense 8 
+92042 Paris La Défense Cedex 
+França </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -669,6 +1034,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-da0c248904d382a9eb3bce64c5a02953"
 * entry[0].resource = composition-da-da0c248904d382a9eb3bce64c5a02953
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpda0c248904d382a9eb3bce64c5a02953"
+* entry[=].resource = mpda0c248904d382a9eb3bce64c5a02953
+                            
+                    
+Instance: bundlepackageleaflet-pt-da0c248904d382a9eb3bce64c5a02953
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for veltassa Package Leaflet for language pt"
+Description: "ePI document Bundle for veltassa Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-da0c248904d382a9eb3bce64c5a02953"
+* entry[0].resource = composition-pt-da0c248904d382a9eb3bce64c5a02953
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpda0c248904d382a9eb3bce64c5a02953"
@@ -770,6 +1157,18 @@ RuleSet: da0c248904d382a9eb3bce64c5a02953ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-da0c248904d382a9eb3bce64c5a02953) // veltassa pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

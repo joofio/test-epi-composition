@@ -1163,6 +1163,706 @@ hjemmeside http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-pt-eab8b33e25257b37415a6df6ca70ca04
+InstanceOf: CompositionUvEpi
+Title: "Composition for kisqali Package Leaflet"
+Description:  "Composition for kisqali Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpeab8b33e25257b37415a6df6ca70ca04)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - kisqali"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Kisqali e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Kisqali </li>
+<li>Como tomar Kisqali </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Kisqali </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é kisqali e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é kisqali e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Kisqali 
+Kisqali contém a substância ativa ribociclib, que pertence a um grupo de medicamentos denominado 
+inibidor das cinases dependentes de ciclinas (CDK). </p>
+<p>Para que é usado Kisqali 
+Kisqali é utilizado em mulheres com um tipo de cancro da mama denominado recetor hormonal (HR)- positivo, com recetor do fator de crescimento epidérmico humano tipo 2 (HER2)-negativo localmente 
+avançado ou que se tenha espalhado para outras partes do corpo (metastático). É usado em associação 
+com um inibidor da aromatase ou fulvestrant, que são utilizados como terapêuticas anticancerígenas 
+hormonais. </p>
+<p>As mulheres que não se encontrem ainda em menopausa serão também tratadas com um medicamento 
+chamado agonista da hormona libertadora da hormona luteinizante (LHRH). </p>
+<p>Como atua Kisqali 
+Kisqali atua através do bloqueio das proteínas denominadas cinases dependentes de ciclinas 4 e 6, que 
+são importantes para o crescimento e divisão de células. O bloqueio destas proteínas pode atrasar o 
+desenvolvimento das células cancerígenas e a progressão do seu cancro. </p>
+<p>Se tiver questões sobre como atua Kisqali ou porque este medicamento lhe foi receitado fale com o 
+seu médico, farmacêutico ou enfermeiro. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar kisqali"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar kisqali"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Siga cuidadosamente as instruções do seu médico. Estas podem ser diferentes da informação geral 
+neste folheto. </p>
+<p>Não tome Kisqali 
+- se tem alergia a ribociclib, amendoim, soja ou a qualquer outro componente deste medicamento 
+(indicados na secção 6) 
+Se pensa que pode ser alérgico, procure aconselhamento do seu médico. </p>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Kisqali. </p>
+<p>Se alguma das situações seguintes se aplicar a si antes de tomar Kisqali, informe o seu médico ou 
+farmacêutico: </p>
+<ul>
+<li>
+<p>Se tiver febre, dor de garganta ou feridas na boca devido a infeções (sinais de nível baixo de 
+glóbulos brancos). </p>
+</li>
+<li>
+<p>Se tiver problemas no fígado ou se tiver tido anteriormente algum tipo de doença no fígado. </p>
+</li>
+<li>
+<p>Se tiver ou tiver tido problemas cardíacos ou alterações no ritmo cardíaco, tais como batimento 
+cardíaco irregular, incluindo uma condição denominada síndroma do QT longo (prolongamento 
+do intervalo QT) ou níveis baixos de potássio, magnésio, cálcio ou fósforo no sangue. </p>
+</li>
+</ul>
+<p>Se alguma das situações seguintes se aplicar a si durante o tratamento com Kisqali, informe o 
+seu médico ou farmacêutico: </p>
+<ul>
+<li>
+<p>Se tiver uma associação de qualquer um dos seguintes sintomas: erupção na pele, pele vermelha, 
+formação de bolhas nos lábios, olhos ou boca, descamação da pele, febre alta, sintomas tipo 
+gripais e nódulos linfáticos aumentados (sinais de reação na pele grave). 
+No caso de reação na pele grave, o seu médico irá pedir-lhe que pare imediatamente o 
+tratamento com Kisqali. </p>
+</li>
+<li>
+<p>Dificuldade em respirar, tosse e falta de ar (podem ser sinais de problemas pulmonares ou 
+respiratórios). Se necessário, o seu médico pode interromper ou reduzir a sua dose de Kisqali ou 
+decidir parar o tratamento com Kisqali permanentemente. </p>
+</li>
+</ul>
+<p>Monitorização durante o tratamento com Kisqali 
+Irá realizar análises regulares ao sangue antes e durante o tratamento com Kisqali para avaliar a função 
+do fígado e a quantidade de células sanguíneas (glóbulos brancos, glóbulos vermelhos e plaquetas) e 
+eletrólitos (sais sanguíneos incluindo potássio, cálcio, magnésio e fosfato) no seu organismo. A 
+atividade do seu coração também será monitorizada antes e durante o tratamento com Kisqali com um 
+exame denominado eletrocardiograma (ECG). Se necessário, serão realizados exames adicionais para 
+avaliar a sua função renal durante o tratamento com Kisqali. Se necessário, o seu médico poderá 
+reduzir a dose de Kisqali ou interromper temporariamente para permitir a recuperação do fígado, do 
+rim, das células sanguíneas, dos níveis eletrolíticos ou da atividade cardíaca. O seu médico pode 
+também decidir suspender definitivamente o seu tratamento com Kisqali. </p>
+<p>Crianças e adolescentes 
+Kisqali não deve ser utilizado em crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Kisqali 
+Antes de tomar Kisqali, informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado 
+recentemente, ou se vier a tomar outros medicamentos, incluindo medicamentos ou suplementos sem 
+receita médica, porque podem influenciar o efeito de Kisqali. Incluindo nomeadamente: </p>
+<ul>
+<li>
+<p>Tamoxifeno, outro medicamento utilizado no tratamento do cancro da mama. </p>
+</li>
+<li>
+<p>Alguns medicamentos para tratar infeções fúngicas, tais como cetoconazol, itraconazol, 
+voriconazol ou posaconazol. </p>
+</li>
+<li>
+<p>Alguns medicamentos utilizados para tratar VIH/SIDA tais como ritonavir, saquinavir, 
+indinavir, lopinavir, nelfinavir, telaprevir e efavirenz. </p>
+</li>
+<li>
+<p>Alguns medicamentos utilizados para tratar ataques ou convulsões (antiepiléticos) tais como 
+carbamazepina e fenitoína. </p>
+</li>
+<li>
+<p>Hipericão (também conhecido por Hypericum perforatum) - um produto à base de plantas 
+utilizado para tratar a depressão e outras condições. </p>
+</li>
+<li>
+<p>Alguns medicamentos utilizados para tratar problemas de ritmo cardíaco ou tensão arterial 
+elevada tais como amiodarona, disopiramida, procainamida, quinidina, sotalol e verapamilo. </p>
+</li>
+<li>
+<p>Antimaláricos tais como cloroquina. </p>
+</li>
+<li>
+<p>Antibióticos tais como claritromicina, telitromicina, moxifloxacina, rifampicina, ciprofloxacina, 
+levofloxacina e azitromicina. </p>
+</li>
+<li>
+<p>Alguns medicamentos utilizados para sedação ou anestesia tais como midazolam. </p>
+</li>
+<li>
+<p>Alguns medicamentos utilizados como anti-psicóticos tais como haloperidol. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para tratar angina tais como bepridil. </p>
+</li>
+<li>
+<p>Metadona, utilizado para tratamento de dor e dependência de opiáceos. </p>
+</li>
+<li>
+<p>Medicamentos como ondansetron por via endovenosa, utilizados para prevenção de náuseas e 
+vómitos provocados pela quimioterapia (tratamento com medicamentos contra o cancro). </p>
+</li>
+</ul>
+<p>Kisqali pode aumentar ou reduzir os níveis no sangue de outros medicamentos. Incluindo 
+nomeadamente: </p>
+<ul>
+<li>
+<p>Medicamentos utilizados para tratar sintomas de hiperplasia benigna da próstata tais como 
+alfuzosina. </p>
+</li>
+<li>
+<p>Tamoxifeno, outro medicamento utilizado no tratamento do cancro da mama. </p>
+</li>
+<li>
+<p>Antiarrítmicos tais como amiodarona ou quinidina. </p>
+</li>
+<li>
+<p>Anti-psicóticos tais como pimozida ou quetiapina. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para melhorar os níveis de gordura no sangue tais como sinvastatina 
+ou lovastatina, pitavastatina, pravastatina ou rosuvastatina. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para tratar os níveis elevados de açucar no sangue (por ex. diabetes) 
+tais como metformina. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para tratar problemas cardíacos tais como digoxina. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para tratar hipertensão arterial pulmonar e disfunção erétil tais como 
+sildenafil. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para tratar a tensão arterial baixa ou a enxaqueca tais como ergotamina 
+ou dihidroergotamina. </p>
+</li>
+<li>
+<p>Alguns medicamentos utilizados para tratar ataques epiléticos ou que são utilizados para 
+sedação ou anestesia tais como midazolam. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para tratar distúrbios do sono tais como triazolam. </p>
+</li>
+<li>
+<p>Analgésicos tais como alfentanilo e fentanilo. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para o tratamento de problemas gastrointestinais tais como cisaprida. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para prevenir a rejeição de um transplante de órgãos tais como 
+tacrolímus, sirolímus e ciclosporina (também usada para tratar a inflamação na artrite 
+reumatoide e psoríase). </p>
+</li>
+<li>
+<p>Everolímus, utilizado em diversos tipos de cancro e esclerose tuberosa (também utilizado para 
+prevenir a rejeição de um transplante de órgão). </p>
+</li>
+</ul>
+<p>Assegure-se de que informa o seu médico sobre todos os medicamentos e suplementos, incluindo 
+medicamentos à base de plantas, que estiver a tomar antes de iniciar o tratamento com Kisqali e se lhe 
+for receitado um novo medicamento depois de ter iniciado o tratamento com Kisqali. </p>
+<p>Fale com o seu médico ou farmacêutico se tiver dúvidas se o medicamento que toma é algum dos 
+enumerados acima. </p>
+<p>Kisqali com alimentos e bebidas 
+Não deve comer toranjas nem beber sumo de toranja durante o tratamento com Kisqali. Estes 
+podem alterar o modo como Kisqali é processado no seu organismo e podem aumentar a quantidade 
+de Kisqali na corrente sanguínea. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>O seu médico irá falar consigo sobre os potenciais riscos de tomar Kisqali durante a gravidez. </p>
+<p>Gravidez e mulheres com potencial para engravidar 
+Kisqali não deve ser utilizado durante a gravidez pois pode ser prejudicial para o seu bebé. Se for uma 
+mulher com potencial para engravidar deverá ter um teste de gravidez negativo antes de iniciar o 
+tratamento com Kisqali. Deve utilizar contraceção efetiva (por exemplo um método de contraceção de 
+dupla barreira como o preservativo ou o diafragma) enquanto estiver a tomar Kisqali e durante pelo 
+menos 21 dias após a última dose. Consulte o seu médico sobre as opções para contraceção efetiva. </p>
+<p>Amamentação 
+Não deve amamentar enquanto estiver a tomar Kisqali e durante pelo menos 21 dias após a última 
+dose. </p>
+<p>Condução de veículos e utilização de máquinas 
+O tratamento com Kisqali pode provocar cansaço (fadiga), tonturas ou sensação de andar à roda. Por 
+este motivo, deve tomar precaução ao conduzir ou utilizar máquinas durante o tratamento com Kisqali. </p>
+<p>Kisqali contém lecitina de soja 
+Se for alérgico ao amendoim ou soja, não utilize este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar kisqali"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar kisqali"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico, farmacêutico ou enfermeiro. O 
+seu médico, farmacêutico ou enfermeiro irá dizer-lhe exatamente quantos comprimidos deve tomar e 
+em que dia os deve tomar. Fale com o seu médico, farmacêutico ou enfermeiro se tiver dúvidas. Não 
+altere a dose de Kisqali ou o esquema posológico sem falar com o seu médico. </p>
+<p>Não exceda a dose recomendada prescrita pelo seu médico. </p>
+<p>Que quantidade de Kisqali devo tomar </p>
+<ul>
+<li>
+<p>A dose inicial recomendada de Kisqali é de 600 mg (3 comprimidos de 200 mg) uma vez por 
+dia. O seu médico dir-lhe-á exatamente quantos comprimidos de Kisqali deve tomar; em certas 
+situações (por ex. no caso de problemas do fígado ou dos rins) o seu médico pode dar-lhe 
+indicações para tomar uma dose mais baixa de Kisqali, por exemplo 400 mg (2 comprimidos de 
+200 mg) uma vez por dia ou 200 mg (1 comprimido de 200 mg) uma vez por dia. </p>
+</li>
+<li>
+<p>Um ciclo de tratamento dura 28 dias. Tome Kisqali uma vez por dia apenas nos dias 1 a 21 de 
+um ciclo de 28 dias. 
+A embalagem exterior de Kisqali inclui um “calendário" que lhe permite registar a dose diária 
+de Kisqali através de um círculo em cada comprimido que tomar ao longo dos 28 dias do ciclo. 
+Não deve tomar Kisqali nos dias 22 a 28 de cada ciclo. </p>
+</li>
+</ul>
+<p>É muito importante que siga as instruções do seu médico. Se tiver alguns efeitos indesejáveis o seu 
+médico pode pedir-lhe que tome uma dose mais baixa, que interrompa o tratamento com Kisqali ou 
+que o suspenda definitivamente. </p>
+<p>Quando tomar Kisqali 
+Tome Kisqali uma vez por dia sempre à mesma hora do dia, de preferência de manhã. Isto irá ajudá-lo 
+a recordar quando deve tomar o medicamento. </p>
+<p>Como tomar Kisqali 
+Os comprimidos Kisqali devem ser engolidos inteiros (os comprimidos não devem ser mastigados, 
+esmagados ou divididos antes de ingeridos). Não tome qualquer comprimido que esteja partido, 
+esmagado ou danificado. </p>
+<p>Kisqali com alimentos e bebidas 
+Deve tomar Kisqali uma vez por dia todos os dias sempre à mesma hora do dia, de preferência de 
+manhã. Pode tomá-lo com ou sem alimentos. </p>
+<p>Durante quanto tempo tomar Kisqali 
+Tome Kisqali uma vez por dia nos dias 1 a 21 de um ciclo de 28 dias. Continue o tratamento com 
+Kisqali enquanto o seu médico lhe disser para o fazer. </p>
+<p>Este é um tratamento de longo prazo, possivelmente durará meses ou anos. O seu médico irá 
+monitorizar regularmente a sua condição para verificar se o tratamento está a ter o efeito desejado.  </p>
+<p>Se tomar mais Kisqali do que deveria 
+Se tomou demasiados comprimidos, ou se alguém tomou os seus comprimidos, contacte 
+imediatamente um médico ou hospital para aconselhamento. Mostre a embalagem de Kisqali. Pode ser 
+necessário tratamento médico. </p>
+<p>Se falhar uma dose de Kisqali 
+Se vomitar após ter tomado a dose ou se se esqueceu de a tomar ignore essa dose nesse dia. Tome a 
+dose seguinte à hora habitual. </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que deixou de tomar. Em vez disso, espere até 
+à hora da dose seguinte planeada e tome a dose habitual. </p>
+<p>Se parar de tomar Kisqali 
+Parar o seu tratamento com Kisqali pode provocar o agravamento da sua condição. Não pare de tomar 
+Kisqali a menos que o seu médico lhe diga para o fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis podem ser graves 
+Informe imediatamente o seu médico se tiver algum dos seguintes sintomas durante o 
+tratamento com Kisqali: </p>
+<ul>
+<li>
+<p>Febre, suores ou arrepios, tosse, sintomas semelhantes a uma gripe, perda de peso, falta de ar, 
+expetoração com sangue, feridas no corpo, zonas do corpo mais quentes ou doridas, diarreia ou 
+dor de estômago, ou sentimento de cansaço (sinais ou sintomas de infeções). Muito frequentes 
+(podem afetar mais de 1 em 10 pessoas). </p>
+</li>
+<li>
+<p>Febre, arrepios, fraqueza e infeções frequentes com sintomas tais como dor de garganta e feridas 
+na boca (sinais de um nível baixo de leucócitos ou linfócitos, que são tipos de glóbulos 
+brancos). Muito frequentes (podem afetar mais de 1 em 10 pessoas). </p>
+</li>
+<li>
+<p>Alteração dos resultados das análises ao sangue que dão informação acerca da saúde do fígado 
+(análises alteradasda função do fígado). Muito frequentes (podem afetar mais de 1 em 
+10 pessoas). </p>
+</li>
+<li>
+<p>Hemorragias espontâneas ou hematomas (sinais de níveis baixos de plaquetas). Frequentes 
+(podem afetar até 1 em 10 pessoas). </p>
+</li>
+<li>
+<p>Dor de garganta ou feridas na boca com um episódio único de febre de, pelo menos, 38,3 C ou 
+febre superior a 38ºC durante mais de uma hora e/ou com infeção (neutropenia febril). 
+Frequentes (podem afetar até 1 em 10 pessoas). </p>
+</li>
+<li>
+<p>Cansaço, pele amarela com comichão ou amarelecimento do branco dos olhos, náuseas ou 
+vómitos, perda de apetite, dor na parte superior direita da barriga (abdómen), urina escura ou 
+castanha, hemorragias ou hematomas (nódoas negras) mais fáceis do que o normal (estes podem 
+ser sinais de um problema no fígado). Frequentes (podem afetar até 1 em 10 pessoas). </p>
+</li>
+<li>
+<p>Níveis baixos de potássio no sangue, o que pode levar a perturbações no ritmo do coração. 
+Frequentes (podem afetar até 1 em 10 pessoas). </p>
+</li>
+<li>
+<p>Dor no peito ou desconforto, alterações no ritmo cardíaco (acelerado ou lento), palpitações, 
+sensação de cabeça oca, desmaio, tonturas, lábios azulados, falta de ar, inchaço (edema) dos 
+membros inferiores ou da pele (estes podem ser sinais de problemas cardíacos). Frequentes 
+(podem afetar até 1 em 10 pessoas). </p>
+</li>
+<li>
+<p>Inflamação dos pulmões, o que pode causar tosse seca, dor no peito, febre, falta de ar e 
+dificuldade em respirar (estes podem ser sinais de doença pulmonar intersticial/pneumonite que, 
+caso seja grave, pode apresentar um risco de vida). Frequentes (podem afetar até 1 em 
+10 pessoas). </p>
+</li>
+<li>
+<p>Infeção grave com frequência cardíaca aumentada, falta de ar ou respiração acelerada, febre e 
+arrepios (estes podem ser sinais de septicémia, uma infeção no sistema sanguíneo que pode 
+colocar a vida em risco). Não frequentes (podem afetar até 1 em 100 pessoas). </p>
+</li>
+<li>
+<p>Reação na pele grave que pode incluir uma associação de qualquer um dos seguintes sintomas: 
+erupção na pele, pele vermelha, formação de bolhas nos lábios, olhos ou boca, descamação da 
+pele, febre alta, sintomas tipo gripais, nódulos linfáticos aumentados (necrólise epidérmica 
+tóxica [NET]). Frequência desconhecida (a frequência não pode ser calculada a partir dos 
+dados disponíveis). 
+O seu médico pode pedir-lhe que tome uma dose mais baixa, que interrompa o tratamento com Kisqali 
+ou que o suspenda definitivamente. </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis possíveis 
+Outros efeitos indesejáveis incluem os seguintes enumerados abaixo. Se estes efeitos indesejáveis se 
+tornarem graves fale com o seu médico, farmacêutico ou enfermeiro. </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Cansaço, palidez (sinal potencial de um nível baixo de glóbulos vermelhos, anemia) </p>
+</li>
+<li>
+<p>Dor de garganta, corrimento nasal, febre (sinais de uma infeção no trato respiratório) </p>
+</li>
+<li>
+<p>Micção frequente e dolorosa (sinais de uma infeção do trato urinário) </p>
+</li>
+<li>
+<p>Falta de apetite </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Tonturas ou atordoamento </p>
+</li>
+<li>
+<p>Falta de ar, dificuldade em respirar </p>
+</li>
+<li>
+<p>Tosse </p>
+</li>
+<li>
+<p>Náuseas (sensação de enjôo) </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Vómitos </p>
+</li>
+<li>
+<p>Obstipação (prisão de ventre) </p>
+</li>
+<li>
+<p>Dor abdominal (de barriga) </p>
+</li>
+<li>
+<p>Aftas com inflamação das gengivas (estomatite) </p>
+</li>
+<li>
+<p>Mal-estar de estômago, indigestão, azia (dispepsia) </p>
+</li>
+<li>
+<p>Queda de cabelo ou cabelo mais fraco (alopecia) </p>
+</li>
+<li>
+<p>Erupção na pele </p>
+</li>
+<li>
+<p>Comichão (prurido) </p>
+</li>
+<li>
+<p>Dor nas costas </p>
+</li>
+<li>
+<p>Cansaço (fadiga) </p>
+</li>
+<li>
+<p>Mãos, tornozelos e pés inchados (edema periférico) </p>
+</li>
+<li>
+<p>Febre (pirexia) </p>
+</li>
+<li>
+<p>Fraqueza (astenia) </p>
+</li>
+</ul>
+<p>Frequentes (pode afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Dor abdominal, náuseas, vómitos e diarreia (sinais de gastroenterite, infeção no trato 
+gastrointestinal) </p>
+</li>
+<li>
+<p>Nível baixo de cálcio no sangue, o que pode por vezes provocar cãibras </p>
+</li>
+<li>
+<p>Nível baixo de fosfato no sangue </p>
+</li>
+<li>
+<p>Sensação de andar à roda (vertigem) </p>
+</li>
+<li>
+<p>Olhos lacrimejantes </p>
+</li>
+<li>
+<p>Olhos secos </p>
+</li>
+<li>
+<p>Nível reduzido de potássio no sangue, o que pode levar a distúrbios no ritmo do coração </p>
+</li>
+<li>
+<p>Sabor estranho na boca (disgeusia) </p>
+</li>
+<li>
+<p>Pele seca </p>
+</li>
+<li>
+<p>Vermelhidão da pele (eritema) </p>
+</li>
+<li>
+<p>Perda de coloração da pele na forma de manchas (vitiligo) </p>
+</li>
+<li>
+<p>Dor de garganta (dor orofaríngea) </p>
+</li>
+<li>
+<p>Boca seca </p>
+</li>
+<li>
+<p>Resultados de testes renais no sangue alterados (nível elevado de creatinina no sangue) </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1000 pessoas) </p>
+<ul>
+<li>Uma reação cutânea que provoca manchas ou placas vermelhas na pele que podem ter a 
+aparência de um alvo ou um “olho de boi", com um centro vermelho escuro rodeado de anéis de 
+cor vermelha mais clara (eritema multiforme). </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar kisqali"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar kisqali"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não utilize este medicamento se verificar que a embalagem se encontra danificada ou se tiver 
+quaisquer sinais de adulteração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Kisqali 
+- A substância ativa é ribociclib. Cada comprimido revestido por película contém sucinato de 
+ribociclib equivalente a 200 mg de ribociclib. 
+- Os outros componentes são: 
+Núcleo do comprimido: celulose microcristalina; crospovidona tipo A; hidroxipropilcelulose de 
+baixa substituição; estearato de magnésio; silica coloidal anidra. 
+Material de revestimento: óxido de ferro negro (E172); óxido de ferro vermelho (E172); lecitina 
+de soja (E322) (ver “Kisqali contém lecitina de soja" na secção 2); álcool polivinílico 
+(parcialmente hidrolisado); talco; dióxido de titânio (E171); goma xantana. </p>
+<p>Qual o aspeto de Kisqali e conteúdo da embalagem 
+Kisqali é fornecido em comprimidos revestidos por película em blisters. </p>
+<p>Os comprimidos revestidos por película são de cor violeta acinzentado claro, sem ranhura, redondos, 
+com gravação “RIC" numa face e “NVR" na outra face. </p>
+<p>Estão disponíveis as seguintes apresentações: Embalagens contendo 21, 42 ou 63 comprimidos 
+revestidos por película e embalagens múltiplas contendo 63 (3 embalagens de 21), 126 (3 embalagens 
+de 42) ou 189 (3 embalagens de 63) comprimidos revestidos por película. 
+Embalagens de Kisqali contendo 63 comprimidos destinadas a doentes a tomar a dose máxima diária 
+de ribociclib de 600 mg (3 comprimidos uma vez por dia). 
+Embalagens de Kisqali contendo 42 comprimidos destinadas a doentes a tomar a dose diária reduzida 
+de ribociclib de 400 mg (2 comprimidos uma vez por dia). 
+Embalagens de Kisqali contendo 21 comprimidos destinadas a doentes a tomar a dose diária mais 
+baixa de ribociclib de 200 mg (1 comprimido uma vez por dia). </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberga 
+Alemanha </p>
+<p>Lek Pharmaceuticals d.d. 
+Verovškova Ulica 1526 Ljubljana 
+Eslovénia </p>
+<p>Novartis Pharmaceutical Manufacturing LLC 
+Verovškova Ulica 1000 Ljubljana 
+Eslovénia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf.: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1204,6 +1904,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-eab8b33e25257b37415a6df6ca70ca04"
 * entry[0].resource = composition-da-eab8b33e25257b37415a6df6ca70ca04
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpeab8b33e25257b37415a6df6ca70ca04"
+* entry[=].resource = mpeab8b33e25257b37415a6df6ca70ca04
+                            
+                    
+Instance: bundlepackageleaflet-pt-eab8b33e25257b37415a6df6ca70ca04
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kisqali Package Leaflet for language pt"
+Description: "ePI document Bundle for kisqali Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-eab8b33e25257b37415a6df6ca70ca04"
+* entry[0].resource = composition-pt-eab8b33e25257b37415a6df6ca70ca04
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpeab8b33e25257b37415a6df6ca70ca04"
@@ -1305,6 +2027,18 @@ RuleSet: eab8b33e25257b37415a6df6ca70ca04ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-eab8b33e25257b37415a6df6ca70ca04) // kisqali pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

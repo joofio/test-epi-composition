@@ -1002,6 +1002,606 @@ hjemmeside http://www.ema.europa.eu.  </p>         </div>"""
 
 
 
+Instance: composition-pt-9648a8c3d3b260e0c01496efb4b0ef56
+InstanceOf: CompositionUvEpi
+Title: "Composition for vosevi Package Leaflet"
+Description:  "Composition for vosevi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9648a8c3d3b260e0c01496efb4b0ef56)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - vosevi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>No caso de Vosevi ter sido prescrito a uma criança, queira por favor ter em conta que todas as 
+informações neste folheto são destinadas à criança (neste caso, leia “a criança" em vez de 
+“você"). </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Vosevi e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Vosevi </li>
+<li>Como tomar Vosevi </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Vosevi </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é vosevi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é vosevi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vosevi é um medicamento que contém as substâncias ativas sofosbuvir, velpatasvir e voxilaprevir 
+num único comprimido. É administrado para tratar uma infeção viral crónica (prolongada) do fígado 
+designada por hepatite C em doentes com idade igual ou superior a 12 anos e que pesam, pelo menos, 
+30 kg. </p>
+<p>As substâncias ativas presentes neste medicamento atuam em conjunto bloqueando três proteínas 
+diferentes que o vírus da hepatite C necessita para crescer e reproduzir-se, fazendo com que a infeção 
+seja eliminada do organismo. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar vosevi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar vosevi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Vosevi </p>
+<ul>
+<li>Se tem alergia ao sofosbuvir, velpatasvir, voxilaprevir ou a qualquer outro componente deste 
+medicamento (indicados na secção 6 deste folheto). </li>
+</ul>
+<p> Se estas situações forem aplicáveis a si, não tome Vosevi e informe imediatamente o 
+seu médico. </p>
+<ul>
+<li>
+<p>Se estiver a tomar presentemente qualquer um dos seguintes medicamentos: </p>
+</li>
+<li>
+<p>rifampicina e rifabutina (antibióticos utilizados para tratar infeções, incluindo a 
+tuberculose); </p>
+</li>
+<li>
+<p>hipericão (Hypericum perforatum) (um medicamento à base de plantas utilizado para 
+tratar a depressão); </p>
+</li>
+<li>
+<p>carbamazepina, fenobarbital e fenitoína (medicamentos utilizados para tratar a 
+epilepsia e evitar convulsões); </p>
+</li>
+<li>
+<p>rosuvastatina (um medicamento utilizado para tratar níveis elevados de colesterol no 
+sangue e diminuir o risco de determinados acontecimentos cardíacos); </p>
+</li>
+<li>
+<p>dabigatrano etexilato (um medicamento utilizado para prevenir os coágulos 
+sanguíneos); </p>
+</li>
+<li>
+<p>medicamentos contendo etinilestradiol, incluindo muitos contracetivos. </p>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico se: </p>
+<ul>
+<li>
+<p>tem problemas de fígado que não a hepatite C, por exemplo </p>
+</li>
+<li>
+<p>se tem uma infeção atual ou anterior pelo vírus da hepatite B, porque o seu médico pode 
+querer controlá-lo mais frequentemente; </p>
+</li>
+<li>
+<p>se tiver feito um transplante de fígado. </p>
+</li>
+<li>
+<p>está a receber um tratamento para infeção pelo vírus de imunodeficiência humana (VIH), 
+porque o seu médico pode querer controlá-lo mais frequentemente. </p>
+</li>
+</ul>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Vosevi se: </p>
+<ul>
+<li>
+<p>toma atualmente, ou tomou nos últimos meses, o medicamento amiodarona para o tratamento de 
+frequências cardíacas irregulares, uma vez que pode causar uma redução da sua frequência 
+cardíaca potencialmente fatal. O seu médico pode considerar tratamentos alternativos no caso de 
+ter tomado este medicamento. Se o tratamento com Vosevi for necessário, poderá necessitar de 
+monitorização cardíaca adicional. </p>
+</li>
+<li>
+<p>tem diabetes. Após o início do tratamento com Vosevi poderá necessitar de um controlo mais 
+rigoroso dos seus níveis de glucose no sangue e/ou um ajuste dos seus medicamentos para a 
+diabetes. Alguns doentes com diabetes apresentaram níveis baixos de açúcar no sangue 
+(hipoglicemia) após o início do tratamento com medicamentos como Vosevi. </p>
+</li>
+</ul>
+<p>Informe o seu médico imediatamente se estiver atualmente a tomar, ou tiver tomado nos últimos 
+meses, quaisquer medicamentos para problemas cardíacos e se, durante o tratamento, sofrer de: </p>
+<ul>
+<li>
+<p>frequência cardíaca lenta ou irregular, ou problemas no ritmo cardíaco; </p>
+</li>
+<li>
+<p>falta de ar ou agravamento de falta de ar existente; </p>
+</li>
+<li>
+<p>dor no peito; </p>
+</li>
+<li>
+<p>tonturas; </p>
+</li>
+<li>
+<p>palpitações; </p>
+</li>
+<li>
+<p>quase desmaio ou desmaio. </p>
+</li>
+</ul>
+<p>Análises ao sangue </p>
+<p>O seu médico fará análises ao seu sangue antes, durante e depois do seu tratamento com Vosevi. Isto 
+para que: </p>
+<ul>
+<li>
+<p>O seu médico possa decidir se deverá tomar Vosevi e durante quanto tempo; </p>
+</li>
+<li>
+<p>O seu médico possa confirmar que o seu tratamento funcionou e que já não tem o vírus da 
+hepatite C. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes </p>
+<p>Não administre este medicamento a crianças com idade inferior a 12 anos e que pesam menos de 
+30 kg. A utilização de Vosevi nestes doentes não foi ainda estudada. </p>
+<p>Outros medicamentos e Vosevi </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Caso tenha dúvidas, fale com o seu médico ou farmacêutico. </p>
+<p>Alguns medicamentos não podem ser tomados com Vosevi. Tomar Vosevi com algum dos 
+seguintes medicamentos pode impedir os seus medicamentos de atuarem devidamente ou pode agravar 
+efeitos indesejáveis:  </p>
+<ul>
+<li>
+<p>rifampicina e rifabutina (antibióticos utilizados para tratar infeções, incluindo a tuberculose); </p>
+</li>
+<li>
+<p>hipericão (Hypericum perforatum) (um medicamento à base de plantas utilizado para tratar a 
+depressão); </p>
+</li>
+<li>
+<p>carbamazepina, fenobarbital e fenitoína (medicamentos utilizados para tratar a epilepsia e 
+evitar convulsões); </p>
+</li>
+<li>
+<p>rosuvastatina (um medicamento utilizado para tratar níveis elevados de colesterol no sangue e 
+diminuir o risco de determinados acontecimentos cardíacos); </p>
+</li>
+<li>
+<p>dabigatrano etexilato (um medicamento utilizado para prevenir os coágulos sanguíneos); </p>
+</li>
+<li>
+<p>medicamentos contendo etinilestradiol, incluindo muitos contracetivos. </p>
+</li>
+</ul>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar qualquer um dos medicamentos abaixo: </p>
+<ul>
+<li>
+<p>amiodarona, utilizada para o tratamento de frequências cardíacas irregulares; </p>
+</li>
+<li>
+<p>rifapentina (um antibiótico utilizado para tratar infeções, incluindo a tuberculose); </p>
+</li>
+<li>
+<p>oxcarbazepina (um medicamento utilizado para tratar a epilepsia e evitar convulsões); </p>
+</li>
+<li>
+<p>tenofovir disoproxil fumarato, ou qualquer medicamento contendo tenofovir disoproxil 
+fumarato, utilizado para tratar a infeção pelo VIH; </p>
+</li>
+<li>
+<p>atazanavir, efavirenz ou lopinavir, utilizados para tratar a infeção pelo VIH; </p>
+</li>
+<li>
+<p>digoxina, utilizada para tratar doenças cardíacas; </p>
+</li>
+<li>
+<p>modafinil, utilizado para tratar perturbações do sono; </p>
+</li>
+<li>
+<p>atorvastatina, pravastatina ou outras estatinas, utilizadas para tratar níveis elevados de 
+colesterol; </p>
+</li>
+<li>
+<p>ciclosporina, utilizada para suprimir o sistema imunitário. 
+A toma de Vosevi com qualquer um destes medicamentos pode impedir que os seus medicamentos 
+atuem corretamente ou pode agravar quaisquer efeitos indesejáveis. O seu médico pode ter de lhe dar 
+um medicamento diferente ou ter de ajustar a dose do medicamento que está a tomar. </p>
+</li>
+<li>
+<p>Peça aconselhamento ao seu médico ou farmacêutico se tomar medicamentos utilizados para 
+tratar úlceras de estômago, azia ou refluxo de ácido, uma vez que estes podem reduzir a 
+quantidade de velpatasvir no seu sangue. Estes medicamentos incluem: </p>
+</li>
+<li>
+<p>antiácidos (tais como hidróxido de alumínio/hidróxido de magnésio ou carbonato de 
+cálcio). Estes devem ser tomados pelo menos 4 horas antes ou 4 horas depois de Vosevi; </p>
+</li>
+<li>
+<p>inibidores da bomba de protões (tais como omeprazol, lansoprazol, rabeprazol, 
+pantoprazol e esomeprazol). Se precisar de doses elevadas destes medicamentos, o seu 
+médico pode em vez disso dar-lhe um medicamento diferente ou ajustar a dose do 
+medicamento que está a tomar; </p>
+</li>
+<li>
+<p>antagonistas dos recetores H2 (tais como famotidina, cimetidina, nizatidina ou ranitidina). 
+Se precisar de doses elevadas destes medicamentos, o seu médico pode em vez disso dar-
+lhe um medicamento diferente ou ajustar a dose do medicamento que está a tomar. 
+Estes medicamentos podem diminuir a quantidade de Vosevi no seu sangue. Se estiver a tomar um 
+destes medicamentos, o seu médico dar-lhe-á um medicamento diferente para úlceras de estômago, 
+azia ou refluxo de ácido, ou aconselhá-lo-á sobre como e quando tomar esse medicamento. </p>
+</li>
+<li>
+<p>Peça aconselhamento ao seu médico ou farmacêutico se tomar varfarina ou outros 
+medicamentos semelhantes designados por antagonistas da vitamina K e utilizados para tornar 
+o sangue mais fluido. O seu médico poderá necessitar de aumentar a frequência das suas 
+análises ao sangue para verificar se o sangue coagula corretamente. </p>
+</li>
+<li>
+<p>A função do seu fígado pode alterar-se com o tratamento da hepatite C e, portanto, pode afetar 
+outros medicamentos (p. ex., medicamentos usados para suprimir o seu sistema imunitário, 
+etc.). O seu médico pode precisar de monitorizar atentamente estes outros medicamentos que 
+está a tomar e fazer ajustes depois de começar a tomar Vosevi. </p>
+</li>
+</ul>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Se está grávida, se pensa estar grávida, se está a amamentar ou planeia engravidar, consulte o seu 
+médico antes de tomar este medicamento.  </p>
+<p>Gravidez </p>
+<p>Vosevi não é recomendado durante a gravidez. Desconhecem-se quais são os efeitos de Vosevi 
+durante a gravidez. </p>
+<p>Amamentação </p>
+<p>Não amamente durante o tratamento com Vosevi. Algumas das substâncias ativas de Vosevi 
+podem passar para o leite humano. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Vosevi não deve afetar a sua capacidade de conduzir e utilizar máquinas. </p>
+<p>Vosevi contém lactose </p>
+<p>Informe o seu médico se é intolerante à lactose ou intolerante a outros açúcares. Vosevi contém 
+lactose mono-hidratada. Se foi informado pelo seu médico que tem intolerância a alguns açúcares, 
+contacte-o antes de tomar este medicamento. </p>
+<p>Vosevi contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar vosevi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar vosevi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Dose recomendada </p>
+<p>A dose recomendada de Vosevi é de um comprimido de 400 mg/100 mg/100 mg ou dois 
+comprimidos de 200 mg/50 mg/50 mg, tomado(s) uma vez por dia, durante 8 ou 12 semanas. </p>
+<p>Tome Vosevi como indicado pelo seu médico. </p>
+<p>Engula o(s) comprimido(s) inteiro(s) com alimentos. Não mastigue, esmague ou divida o comprimido 
+porque este tem um sabor muito amargo. </p>
+<p>Problemas dos rins </p>
+<p>Informe o seu médico se tiver problemas dos rins ou se estiver a fazer diálise renal, pois Vosevi não 
+foi completamente testado em doentes com problemas graves dos rins. </p>
+<p>Problemas do fígado </p>
+<p>Vosevi não deve ser utilizado se tiver problemas moderados ou graves do fígado. </p>
+<p>Se estiver a tomar um antiácido, tome-o, pelo menos, 4 horas antes ou, pelo menos, 4 horas depois 
+de Vosevi. </p>
+<p>Se vomitar após tomar Vosevi, tal pode afetar a quantidade de Vosevi no seu sangue. Isto pode fazer 
+com que Vosevi não atue tão bem. </p>
+<ul>
+<li>
+<p>Se vomitar menos de 4 horas após tomar Vosevi, tome outra dose. </p>
+</li>
+<li>
+<p>Se vomitar mais de 4 horas após tomar Vosevi, não necessita tomar outra dose até à hora 
+prevista para tomar a próxima dose. </p>
+</li>
+</ul>
+<p>Se tomar mais Vosevi do que deveria </p>
+<p>Se tomar acidentalmente mais do que a dose recomendada de Vosevi pode apresentar um maior risco 
+de efeitos indesejáveis com este medicamento (ver secção 4 Efeitos indesejáveis possíveis). </p>
+<p>Contacte imediatamente o seu médico ou os serviços de urgência do hospital mais próximo para 
+aconselhamento. Leve consigo o frasco de comprimidos para que possa descrever facilmente o que 
+tomou. </p>
+<p>Caso se tenha esquecido de tomar Vosevi </p>
+<p>É importante que não se esqueça de tomar nenhuma dose deste medicamento. </p>
+<p>Caso se esqueça de tomar uma dose, tente lembrar-se quanto tempo decorreu desde que tomou pela 
+última vez Vosevi: </p>
+<ul>
+<li>
+<p>Se se aperceber nas 18 horas após a hora a que habitualmente toma Vosevi, deve tomar a dose 
+esquecida logo que lhe for possível. Depois tome a dose seguinte à hora habitual. </p>
+</li>
+<li>
+<p>Se tiverem passado 18 horas ou mais após a hora a que habitualmente toma Vosevi, aguarde e 
+tome a dose seguinte à hora habitual. Não tome uma dose a dobrar (duas doses muito próximas) 
+para compensar uma dose esquecida. </p>
+</li>
+</ul>
+<p>Não pare de tomar Vosevi </p>
+<p>Não pare de tomar este medicamento a menos que o seu médico lhe diga para o fazer. É muito 
+importante que termine o ciclo completo de tratamento para dar ao medicamento toda a possibilidade 
+de tratar a sua infeção pelo vírus da hepatite C. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis podem ser graves </p>
+<p>Pare de tomar Vosevi e procure ajuda médica imediatamente se apresentar qualquer um dos 
+seguintes sintomas: </p>
+<ul>
+<li>
+<p>inchaço da face, lábios, língua ou garganta (angiedema) (um efeito indesejável pouco frequente 
+— pode afetar até 1 em 100 pessoas) </p>
+</li>
+<li>
+<p>uma erupção cutânea grave generalizada com pele a descamar que pode ser acompanhada por 
+febre, sintomas semelhantes aos da gripe, bolhas na boca, olhos e/ou genitais (síndrome de 
+Stevens-Johnson) (a frequência do efeito indesejável é desconhecida) </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis que podem ocorrer </p>
+<p>Efeitos indesejáveis muito frequentes 
+(Podem afetar mais do que 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>sensação de enjoo (náuseas) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes 
+(Podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>dor muscular (mialgia) </p>
+</li>
+<li>
+<p>alteração num teste laboratorial da função hepática (bilirrubina total) </p>
+</li>
+<li>
+<p>erupção cutânea </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes 
+(Podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>espasmos musculares </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar vosevi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar vosevi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de qualquer temperatura especial de conservação. Conservar na 
+embalagem de origem para proteger da humidade. Manter o frasco bem fechado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Vosevi </p>
+<ul>
+<li>
+<p>As substâncias ativas são o sofosbuvir, velpatasvir e voxilaprevir. Cada comprimido revestido 
+por película contém 400 mg de sofosbuvir, 100 mg de velpatasvir e 100 mg de voxilaprevir ou 
+200 mg de sofosbuvir, 50 mg de velpatasvir e 50 mg de voxilaprevir. </p>
+</li>
+<li>
+<p>Os outros componentes são 
+Núcleo do comprimido: 
+Sílica anidra coloidal, copovidona, croscarmelose sódica (E468) (ver secção 2 deste folheto), 
+lactose mono-hidratada (ver secção 2 deste folheto), estearato de magnésio, celulose 
+microcristalina (E460) </p>
+</li>
+</ul>
+<p>Revestimento por película: 
+Óxido de ferro preto (E172), óxido de ferro vermelho (E172), óxido de ferro amarelo (E172), 
+macrogol (E1521), álcool polivinílico (E1203), talco (E553b), dióxido de titânio (E171) </p>
+<p>Qual o aspeto de Vosevi e conteúdo da embalagem </p>
+<p>Vosevi 400 mg/100 mg/100 mg comprimidos revestidos por película são comprimidos bege, em forma 
+de cápsula, gravados com “GSI" num lado do comprimido e com “3" no outro lado do comprimido. O 
+comprimido tem 20 mm de comprimento e 10 mm de largura. </p>
+<p>Vosevi 200 mg/50 mg/50 mg comprimidos revestidos por película são comprimidos bege, em forma 
+ovalada, gravados com “GSI" num lado do comprimido e com “SVV" no outro lado do comprimido. 
+O comprimido tem 15 mm de comprimento e 8 mm de largura. </p>
+<p>Os comprimidos são embalados em frascos de plástico com fecho resistente à abertura por crianças. 
+Cada frasco contém um exsicante de sílica gel (agente de secagem) que tem de ser mantido no frasco 
+para ajudar a proteger os seus comprimidos. O exsicante de sílica gel encontra-se numa bolsa ou 
+recipiente separado e não deve ser engolido. </p>
+<p>Está disponível a seguinte apresentação para comprimidos revestidos por película tanto de 
+400 mg/100 mg/100 mg como de 200 mg/50 mg/50 mg: </p>
+<ul>
+<li>embalagem exterior contendo 1 frasco de 28 comprimidos revestidos por película </li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrlanda </p>
+<p>Fabricante 
+Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: +353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1043,6 +1643,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9648a8c3d3b260e0c01496efb4b0ef56"
 * entry[0].resource = composition-da-9648a8c3d3b260e0c01496efb4b0ef56
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9648a8c3d3b260e0c01496efb4b0ef56"
+* entry[=].resource = mp9648a8c3d3b260e0c01496efb4b0ef56
+                            
+                    
+Instance: bundlepackageleaflet-pt-9648a8c3d3b260e0c01496efb4b0ef56
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vosevi Package Leaflet for language pt"
+Description: "ePI document Bundle for vosevi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9648a8c3d3b260e0c01496efb4b0ef56"
+* entry[0].resource = composition-pt-9648a8c3d3b260e0c01496efb4b0ef56
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9648a8c3d3b260e0c01496efb4b0ef56"
@@ -1144,6 +1766,18 @@ RuleSet: 9648a8c3d3b260e0c01496efb4b0ef56ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9648a8c3d3b260e0c01496efb4b0ef56) // vosevi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -797,6 +797,385 @@ bruges med det samme, er opbevaringstid og -forhold brugerens ansvar. </p>
 
 
 
+Instance: composition-pt-b118a8011d0099eb4bb6c4b864ba44c0
+InstanceOf: CompositionUvEpi
+Title: "Composition for tevimbra Package Leaflet"
+Description:  "Composition for tevimbra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb118a8011d0099eb4bb6c4b864ba44c0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tevimbra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Tevimbra e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Tevimbra </li>
+<li>Como lhe é administrado Tevimbra </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Tevimbra </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tevimbra e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tevimbra e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tevimbra é um medicamento para o cancro que contém a substância ativa tislelizumab. É um 
+anticorpo monoclonal, um tipo de proteína que funciona reconhecendo e ligando-se a uma substância-
+alvo específica no organismo denominada recetor de morte programada 1 (PD-1) que se encontra na 
+superfície das células T e B (tipos de glóbulos brancos que formam parte do sistema imunitário, as 
+defesas naturais do organismo). Quando o PD-1 é ativado pelas células cancerígenas pode desativar a 
+atividade das células T. Ao bloquear o PD-1, Tevimbra impede a desativação das células T ajudando o 
+sistema imunitário a lutar contra o cancro. </p>
+<p>Tevimbra é utilizado em adultos para tratar: </p>
+<ul>
+<li>Um tipo de cancro do esófago chamado carcinoma de células escamosas do esófago que se 
+espalhou para outras partes do corpo, já foi tratado com terapêutica anticancerígena e não pode 
+ser removido por cirurgia. </li>
+</ul>
+<p>Pergunte ao seu médico, caso tenha dúvidas sobre como funciona Tevimbra ou por que motivo este 
+medicamento lhe foi prescrito. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tevimbra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tevimbra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe deve ser administrado Tevimbra 
+- se tem alergia a tislelizumab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Fale com o seu médico caso tenha dúvidas. </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de lhe ser administrado Tevimbra se tem ou teve: 
+- doença autoimune (uma situação em que o sistema de defesa do organismo ataca as células 
+normais) 
+- inflamação do fígado (hepatite) ou outros problemas no fígado 
+- inflamação dos rins (nefrite) 
+- pneumonia ou inflamação dos pulmões (pneumonite) 
+- inflamação do intestino grosso (colite) 
+- erupção na pele grave 
+- problemas com glândulas que produzem hormonas (incluindo as glândulas suprarrenais, 
+pituitária e tiroide) 
+- diabetes mellitus tipo 1 
+- transplante de um órgão sólido 
+- reação relacionada com a perfusão 
+Se alguma das condições acima se aplica a si, ou caso tenha dúvidas, fale com o seu médico antes de 
+lhe ser administrado Tevimbra. </p>
+<p>Tenha atenção a efeitos adversos graves 
+Tevimbra pode ter efeitos indesejáveis graves, que podem por vezes vir a colocar a vida em risco e 
+serem fatais. Fale com o seu médico imediatamente caso tenha algum dos efeitos adversos graves 
+enumerados abaixo, durante o tratamento com Tevimbra: 
+- inflamação do fígado (hepatite) ou outros problemas no fígado 
+- inflamação dos rins (nefrite) 
+- inflamação dos pulmões (pneumonite) 
+- inflamação do intestino grosso (colite) 
+- reações na pele graves (incluindo síndrome de Stevens-Johnson (SSJ) ou necrólise epidérmica 
+tóxica (NET)): sintomas podem incluir febre, sintomas semelhantes a gripe, erupção na pele, 
+prurido, bolhas na pele ou úlceras na boca ou noutras superfícies húmidas 
+- problemas em glândulas produtoras de hormonas (especialmente as glândulas suprarrenal, 
+pituitária ou tiroide): sintomas podem incluir ritmo cardíaco elevado, cansaço extremo, aumento 
+de peso ou perda de peso, tonturas ou desmaios, perda de cabelo, sensação de frio, obstipação, 
+dores de cabeça que não passam ou dores de cabeça que não são normais 
+- diabetes mellitus tipo 1 
+- reação relacionada com a perfusão 
+- inflamação dos músculos (miosite) 
+- inflamação do músculo do coração (miocardite) 
+- inflamação das articulações (artrite) 
+- distúrbio inflamatório que provoca dor e rigidez muscular, especialmente nos ombros e anca 
+(polimialgia reumática): os sintomas podem incluir dor nos ombros, pescoço, parte superior do 
+braço, nádegas, ancas ou coxas, rigidez em áreas afetadas, dor ou rigidez nos pulsos, cotovelo 
+ou joelhos 
+- inflamação da membrana à volta do coração (pericardite) 
+- inflamação dos nervos: os sintomas podem incluir dor, fraqueza e paralisia nas extremidades 
+(síndrome de Guillain-Barré) </p>
+<p> 
+Para mais informações sobre qualquer dos sintomas acima, ver secção 4 (“Efeitos indesejáveis 
+possíveis"). Fale com o seu médico caso tenha alguma dúvida ou preocupação. </p>
+<p>Cartão do Doente 
+Vai também encontrar informações chave deste folheto informativo no Cartão do Doente que lhe 
+foram dados pelo seu médico. É importante que traga sempre consigo o Cartão do Doente e que o 
+mostre a um profissional de saúde em caso de sinais e sintomas que possam indicar reações adversas 
+relacionadas com o sistema imunitário (listadas abaixo em “Tenha atenção a efeitos indesejáveis 
+graves"), para um diagnóstico rápido e um tratamento adequado. </p>
+<p>Monitorização durante o tratamento com Tevimbra 
+O seu médico irá realizar exames regulares (testes à função hepática, testes à função renal, testes 
+imagiológicos radiográficos) antes e durante o tratamento. </p>
+<p>O seu médico também irá realizar análises ao sangue regulares antes e durante o tratamento com 
+Tevimbra para monitorizar os níveis de açúcar e de hormonas no sangue. Isto porque os níveis de 
+açúcar e de hormonas podem ser afetados por Tevimbra. </p>
+<p>Crianças e adolescentes 
+Tevimbra não deve ser utilizado em crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Tevimbra 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. Isto inclui medicamentos à base de plantas e medicamentos obtidos sem prescrição 
+médica. </p>
+<p>Em particular, informe o seu médico caso esteja a tomar alguns medicamentos que suprimam o seu 
+sistema imunitário, incluindo corticosteroides (como a prednisolona), uma vez que estes 
+medicamentos podem interferir com o efeito de Tevimbra. Contudo, uma vez que tenha começado o 
+tratamento com Tevimbra, o seu médico pode dar-lhe corticosteroides para reduzir quaisquer efeitos 
+indesejáveis que possa vir a ter. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de lhe ser administrado este medicamento. </p>
+<p>Não lhe deve ser administrado Tevimbra se estiver grávida a não ser que o seu médico lho prescreva. 
+Os efeitos de Tevimbra em mulheres grávidas não são conhecidos, mas é possível que a substância 
+ativa, tislelizumab, possa prejudicar um bebé em gestação. 
+- Se é uma mulher que pode vir a estar grávida, deve usar métodos contracetivos eficazes 
+enquanto estiver a ser tratada com Tevimbra e durante pelo menos 4 meses após a última dose 
+de Tevimbra. 
+- Se estiver grávida, pensa que pode estar grávida ou planeia ter um bebé, fale com o seu médico. </p>
+<p>Desconhece-se se Tevimbra passa para o leite materno. Não pode ser excluído risco para o bebé em 
+amamentação. Se estiver a amamentar, fale com o seu médico. Não deve amamentar durante o 
+tratamento com Tevimbra e durante pelo menos 4 meses após a última dose de Tevimbra. </p>
+<p>Condução de veículos e utilização de máquinas 
+Tevimbra tem um efeito menor na capacidade de conduzir ou utilizar máquinas. </p>
+<p>Sentir-se cansado ou fraco são efeitos indesejáveis possíveis de Tevimbra. Não conduza ou utilize 
+máquinas após ter utilizado Tevimbra a menos que tenha certeza de que está a sentir-se bem. </p>
+<p>Tevimbra contém sódio 
+Fale com o seu médico se estiver a seguir uma dieta com pouco sódio (pouco sal) antes de utilizar 
+Tevimbra. Este medicamento contém 1,6 mg de sódio (principal componente do sal de cozinha/sal de 
+mesa) em cada ml de concentrado. Uma única perfusão de Tevimbra contém 32 mg de sódio em dois 
+frascos para injetáveis de10 ml. Isto é equivalente a 1,6% da ingestão diária máxima recomendada na 
+dieta para um adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tevimbra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tevimbra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tevimbra ser-lhe-á administrado num hospital ou clínica sob a supervisão de um médico experiente. 
+- A dose diária habitual de Tevimbra é 200 mg, que é administrada por perfusão intravenosa (gota 
+a gota numa veia) a cada 3 semanas. 
+- A primeira dose de Tevimbra será administrada por perfusão por um período de 60 minutos. Se 
+tolerar bem a primeira dose, a próxima perfusão poderá ser administrada por um período de 
+30 minutos. 
+- O seu médico irá decidir quantos tratamentos precisa. </p>
+<p>Se faltar a uma administração da dose de Tevimbra 
+- Ligue ao seu médico imediatamente para remarcar a sua consulta. 
+- É muito importante que não falte a uma administração da dose deste medicamento. </p>
+<p>Se parar o tratamento com Tevimbra 
+Parar o seu tratamento pode parar o efeito deste medicamento. Não pare o tratamento com Tevimbra a 
+menos que tenha discutido isso com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre o seu tratamento ou sobre a utilização deste medicamento, fale com o 
+seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Alguns dos efeitos indesejáveis de Tevimbra podem ser graves (ver lista em “Tenha atenção a efeitos 
+indesejáveis graves" na secção 2. Se tiver algum dos efeitos indesejáveis graves, fale com o seu 
+médico imediatamente. </p>
+<p>Os efeitos indesejáveis seguintes foram notificados com Tevimbra isoladamente: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- Glândula tiroide hipoativa, que pode causar cansaço, ganho de peso, alterações na pele e no 
+cabelo (hipotiroidismo) 
+- Tosse 
+- Erupção da pele 
+- Comichão (prurido) 
+- Cansaço (fadiga) 
+- Diminuição do apetite 
+- Fraqueza, sangramento espontâneo ou hematoma e infeções frequentes, febre, calafrios e dor de 
+garganta (anemia) 
+- Nível elevados de bilirrubina no sangue, um produto de degradação dos glóbulos vermelhos que 
+pode causar amarelecimento da pele e dos olhos, indicativos de problemas no fígado 
+- Níveis aumentados da enzima do fígado aspartato aminotransferase no sangue 
+- Níveis aumentados da enzima do fígado alanina aminotransferase no sangue </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) 
+- Pneumonia 
+- Diarreia 
+- Náuseas 
+- Sangramento espontâneo ou hematomas (trombocitopenia) 
+- Infeções frequentes, febre, calafrios, dor de garganta ou úlceras na boca devido a infeções 
+(neutropenia ou linfopenia) 
+- Enjoos (náuseas), vómitos, perda de apetite, dor no lado direito do estômago, amarelecimento 
+da pele ou do branco dos olhos, sonolência, urina de cor escura, sangramento ou hematomas 
+mais frequentes que o normal - possíveis sintomas de problemas no fígado (hepatite) 
+- Dor nas articulações (artralgia) 
+- Dor muscular (mialgia) 
+- Falta de ar, tosse ou dor no peito - possíveis sintomas de problemas nos pulmões (pneumonite) 
+- Fadiga, inchaço na base do pescoço, dor em frente à garganta - possíveis sintomas de problemas 
+na glândula tiroide (tiroidite) 
+- Nível aumentados de açúcar no sangue, sede, boca seca, necessidade de urinar mais 
+frequentemente, cansaço, aumento do apetite com perda de peso, confusão, náuseas, vómitos, 
+hálito com cheiro frutado, dificuldade em respirar e pele seca ou ruborizada - possíveis 
+sintomas de hiperglicemia 
+- Cansaço, confusão, espasmos musculares, convulsões (hiponatremia) 
+- Fraqueza muscular, espasmos musculares, ritmo cardíaco alterado (hipocalemia) 
+- Glândula tiróide hiperativa, que pode causar hiperatividade, sudorese, perda de peso e sede 
+(hipertiroidismo) 
+- Dificuldade em respirar (dispneia) 
+- Tensão arterial alta (hipertensão) 
+- Feridas na boca ou úlceras com inflamação das gengivas (estomatite) 
+- Nível elevado da enzima do fígado alcalina fosfatase no sangue 
+- Nível elevado da enzima creatina cinase no sangue 
+- Nível elevado de creatinina no sangue </p>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) 
+- Alterações na quantidade e cor da urina, dor enquanto urina, dor nos rins - possíveis sintomas 
+de problemas nos rins (nefrite) 
+- Diarreia ou mais movimentos intestinais do que o normal, fezes escuras, fezes pegajosas, fezes 
+com sangue ou muco, dor grave ou sensibilidade no estômago - possíveis sintomas de 
+problemas nos intestinos (colite) 
+- Dor grave na parte superior do estômago, vómitos, febre, sensibilidade no abdómen - possíveis 
+sintomas de problemas no pâncreas (pancreatite) 
+- Açúcar no sangue aumentado, sentir mais fome ou sede do que o habitual, urinar mais 
+frequentemente do que o normal - possíveis sintomas de diabetes mellitus 
+- Dor nos músculos, rigidez, fraqueza, dor no peito ou cansaço extremo - possíveis sintomas de 
+problemas nos músculos (miosite) 
+- Dor no peito, batimento cardíaco rápido ou anormal, falta de ar em repouso ou durante atividade 
+física, acumulação de fluídos com inchaço das pernas, tornozelos e pés, cansaço - possíveis 
+sintomas de problemas no coração (miocardite) 
+- Dor nas articulações, rigidez, inchaço ou vermelhidão, diminuição da amplitude de movimentos 
+das articulações- possíveis sintomas de problemas nas articulações (artrite) 
+- Vermelhidão nos olhos, dor ou inchaço nos olhos - possíveis sintomas de problemas que afetam 
+a úvea, a camada abaixo da parte branca dos olhos (uveíte) 
+- Insuficiência supra renal (distúrbio em que as glândulas supra-renais não produzem certas 
+hormonas em quantidade suficiente) 
+- Inflamação dos nervos: os sintomas podem incluir dor, fraqueza e paralisia nas extremidades 
+(Síndrome de Guillain-Barré) 
+- Calafrios ou tremores, comichão ou erupção da pele, rubor, falta de ar ou respiração ofegante, 
+tonturas ou febre que pode ocorrer durante a perfusão ou até 24 horas após a perfusão - 
+possíveis sintomas de reação relacionada com a perfusão 
+- Nível baixo de leucócitos no sangue 
+- Níveis altos de hemoglobina, potássio e sódio no sangue 
+- Nível baixo de albumina no sangue </p>
+<p>Raros (podem afetar até 1 em cada 1000 pessoas) 
+- Dor no peito, febre, tosse, palpitações - possíveis sintomas de problemas que afetam a 
+membrana à volta do coração (pericardite) 
+- Dores de cabeça frequentes, alterações da visão (perda de visão ou visão dupla), fadiga e/ou 
+fraqueza, confusão, tensão arterial baixa, tonturas - possíveis sintomas de problemas na 
+glândula pituitária (hipofisite) 
+- Comichão ou descamação da pele, lesões na pele - possíveis sintomas de reações graves na pele 
+- Doença celíaca (caracterizada por sintomas como dor de estômago, diarreia e inchaço após o 
+consumo de alimentos que contêm glúten) </p>
+<p>Efeitos de classe dos inibidores de checkpoints imunológicos 
+Durante o tratamento com outros inibidores de checkpoints imunológicos, foram notificados casos das 
+seguintes reações adversas que também podem ocorrer durante o tratamento com tilelizumab: 
+insuficiência pancreática exócrina </p>
+<p>O uso de Tevimbra deve ser interrompido e um médico deve ser procurado imediatamente se 
+notar algum dos seguintes sintomas: </p>
+<p>Frequência desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- Manchas avermelhadas, não elevadas, em forma de alvo ou circulares no tronco, muitas vezes 
+com bolhas centrais, descamação da pele, úlceras na boca, garganta, nariz, genitais e olhos. 
+Estas erupções cutâneas graves podem ser precedidas por febre e sintomas semelhantes aos da 
+gripe (SJS ou NET) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não incluidos neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tevimbra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tevimbra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu médico, farmacêutico ou enfermeiro é responsável por armazenar este medicamento e eliminar 
+qualquer produto não utilizado corretamente. A informação seguinte destina-se aos profissionais de 
+saúde. </p>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C - 8°C). </p>
+<p>Não congelar. </p>
+<p>Conservar na embalagem de origem para proteger da luz. </p>
+<p>Tevimbra não contém conservantes. A estabilidade química e física em utilização foi demonstrada 
+durante 24 horas de 2°C a 8°C. As 24 horas incluem o armazenamento da solução diluída sob 
+refrigeração (de 2°C a 8°C) durante no máximo 20 horas, tempo necessário para atingir a temperatura 
+ambiente (25°C ou abaixo) e o tempo para completar a perfusão dentro de 4 horas. </p>
+<p>Do ponto de vista microbiológico, a menos que o método de diluição exclua o risco de contaminação 
+microbiana, o medicamento deve ser utilizado imediatamente. </p>
+<p>Caso não seja utilizado imediatamente, os tempos e condições de armazenamento em utilização são da 
+responsabilidade do utilizador. A solução diluída não deve ser congelada. </p>
+<p>Não conserve qualquer porção da solução para perfusão não utilizada para reutilização. Qualquer 
+medicamento não utilizado ou resíduos devem ser eliminados de acordo com as exigências locais. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tevimbra 
+- A substância ativa é tislelizumab. Cada ml de concentrado para solução para perfusão contém 
+10 mg de tislelizumab. 
+- Cada frasco para injetáveis contém 100 mg de tislelizumab em 10 ml de concentrado. </p>
+<p>Os outros componentes são citrato de sódio dihidratado (ver secção 2, “Tevimbra contém sódio"), 
+ácido cítrico monohidratado, cloridrato de L-histidina monohidratado, L-histidina, trealose 
+dihidratada, polissorbato 20 e água para injetáveis. </p>
+<p>Qual o aspeto de Tevimbra e conteúdo da embalagem 
+Tevimbra concentrado para solução para perfusão (concentrado estéril) é uma solução límpida a 
+ligeiramente opalescente, incolor a ligeiramente amarelada. </p>
+<p>Tevimbra está disponível em embalagens contendo 1 frasco para injetáveis e em embalagens múltiplas 
+contendo 2 (2 embalagens de 1) frascos para injetáveis. </p>
+<p>Titular da Autorização da Introdução no Mercado 
+BeiGene Ireland Limited<br />
+10 Earlsfort Terrace 
+Dublin 2 
+D02 TIrlanda 
+Tel. +353 1 566 7E-mail: bg.ireland@beigene.com </p>
+<p>Fabricante 
+BeiGene Switzerland GmbH Dutch Branch 
+Evert Van De Beekstraat 1/Schiphol 
+1118 CL 
+Países Baixos </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -838,6 +1217,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-b118a8011d0099eb4bb6c4b864ba44c0"
 * entry[0].resource = composition-da-b118a8011d0099eb4bb6c4b864ba44c0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb118a8011d0099eb4bb6c4b864ba44c0"
+* entry[=].resource = mpb118a8011d0099eb4bb6c4b864ba44c0
+                            
+                    
+Instance: bundlepackageleaflet-pt-b118a8011d0099eb4bb6c4b864ba44c0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tevimbra Package Leaflet for language pt"
+Description: "ePI document Bundle for tevimbra Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-b118a8011d0099eb4bb6c4b864ba44c0"
+* entry[0].resource = composition-pt-b118a8011d0099eb4bb6c4b864ba44c0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpb118a8011d0099eb4bb6c4b864ba44c0"
@@ -939,6 +1340,18 @@ RuleSet: b118a8011d0099eb4bb6c4b864ba44c0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-b118a8011d0099eb4bb6c4b864ba44c0) // tevimbra pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

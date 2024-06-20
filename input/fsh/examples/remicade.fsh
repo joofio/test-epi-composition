@@ -1572,6 +1572,975 @@ der observeres synligt uigennemsigtige partikler, misfarvning eller fremmedlegem
 
 
 
+Instance: composition-pt-0c99db4eccd07c1cf26c691487dc71e8
+InstanceOf: CompositionUvEpi
+Title: "Composition for remicade Package Leaflet"
+Description:  "Composition for remicade Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0c99db4eccd07c1cf26c691487dc71e8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - remicade"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Remicade e para que é utilizado
+2. O que precisa de saber antes de utilizar Remicade
+3. Como será administrado Remicade
+4. Efeitos indesejáveis possíveis
+5. Como conservar Remicade
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é remicade e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é remicade e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Remicade contém a substância ativa infliximab. Infliximab é um anticorpo monoclonal - um tipo de 
+proteína que se liga a um alvo específico no organismo chamado TNF (fator de necrose tumoral) alfa.
+Remicade pertence a um grupo de medicamentos denominados “antagonistas do TNF". É utilizado em 
+adultos para as seguintes doenças inflamatórias:
+
+Artrite reumatoide
+
+Artrite psoriática
+
+Espondilite anquilosante (Doença de Bechterew)
+
+Psoríase
+Remicade é também utilizado em adultos e crianças com idade igual ou superior a 6 anos para:
+
+Doença de Crohn
+
+Colite ulcerosa
+Remicade atua ligando-se seletivamente ao TNF alfa e inibindo a sua ação. O TNF alfa está envolvido
+nos processos inflamatórios do corpo e a sua inibição pode reduzir a inflamação no seu corpo.
+Artrite reumatoide
+A artrite reumatoide é uma doença inflamatória das articulações. No caso de sofrer de artrite 
+reumatoide ativa receberá primeiro tratamento com outros medicamentos. Se estes medicamentos não 
+funcionarem de modo suficiente, ser-lhe-á administrado Remicade, o qual será administrado em 
+associação com outro medicamento chamado metotrexato para:
+
+Reduzir os sinais e sintomas da sua doença
+
+Retardar a progressão das lesões ao nível das suas articulações
+
+Melhorar a sua função física.
+52
+Artrite psoriática
+A artrite psoriática é uma doença inflamatória das articulações, geralmente acompanhada por psoríase. 
+No caso de sofrer de artrite psoriática ativa receberá primeiro tratamento com outros medicamentos. 
+Se esses medicamentos não funcionarem de modo suficiente, ser-lhe-á administrado Remicade para:
+
+Reduzir os sinais e sintomas da sua doença
+
+Retardar a progressão das lesões ao nível das suas articulações
+
+Melhorar a sua função física.
+Espondilite anquilosante (doença de Bechterew)
+A espondilite anquilosante é uma doença inflamatória da espinha dorsal. No caso de sofrer de 
+espondilite anquilosante receberá primeiro tratamento com outros medicamentos. Se esses 
+medicamentos não funcionarem de modo suficiente, ser-lhe-á administrado Remicade para:
+
+Reduzir os sinais e sintomas da sua doença
+
+Melhorar a sua função física.
+Psoríase
+A psoríase é uma doença inflamatória da pele. No caso de sofrer de psoríase em placas moderada a 
+grave, receberá primeiro tratamento com outros medicamentos ou tratamentos, tal como fototerapia. 
+Se esses medicamentos ou tratamentos não funcionarem de modo suficiente, ser-lhe-á administrado 
+Remicade para reduzir os sinais e sintomas da sua doença.
+Colite ulcerosa
+A colite ulcerosa é uma doença inflamatória do intestino. No caso de sofrer de colite ulcerosa receberá 
+primeiro tratamento com outros medicamentos. Se esses medicamentos não funcionarem de modo 
+suficiente, ser-lhe-á administrado Remicade para tratar a sua doença.
+Doença de Crohn
+A doença de Crohn é uma doença inflamatória do intestino. No caso de sofrer de doença de Crohn 
+receberá primeiro tratamento com outros medicamentos. Se esses medicamentos não funcionarem de 
+modo suficiente, ser-lhe-á administrado Remicade para:
+
+Tratar a doença de Crohn ativa
+
+Reduzir o número de aberturas anormais (fístulas) entre o seu intestino e a sua pele que não 
+foram controladas com outros medicamentos ou cirurgia.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar remicade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar remicade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe deve ser administrado Remicade se
+
+Tem alergia ao infliximab ou a qualquer outro componente de Remicade (listado na secção 6).
+
+Tem alergia (hipersensibilidade) às proteínas de rato.
+
+Tem tuberculose (TB) ou outra infeção grave tal como pneumonia ou sepsis.
+
+Tem insuficiência cardíaca moderada ou grave.
+Não use Remicade se alguma das situações acima se aplica a si. Se não tiver a certeza, fale com o seu 
+médico antes de lhe ser administrado Remicade.
+Advertências e precauções
+Fale com o seu médico antes ou durante o tratamento com Remicade se tem:
+Tratamento anterior com Remicade
+
+Informe o seu médico se tiver sido tratado com Remicade no passado e está agora a 
+iniciar novamente o tratamento com o Remicade.
+Se tiver feito um intervalo superior a 16 semanas no seu tratamento com o Remicade, existe um 
+risco mais elevado de reações alérgicas ao iniciar o tratamento.
+53
+Infeções
+
+Informe o seu médico antes de lhe ser administrado Remicade se tiver alguma infeção, 
+mesmo que seja mínima.
+
+Antes de lhe ser administrado Remicade, fale com o seu médico se tiver residido ou 
+viajado para uma região onde infeções como a histoplasmose, coccidioidomicose ou 
+blastomicose são frequentes. Estas infeções são causadas por tipos específicos de fungos 
+que podem afetar os pulmões ou outras partes do seu corpo.
+
+Pode apanhar infeções mais facilmente enquanto está a ser tratado com Remicade. Se tem 
+65 anos de idade ou mais, tem um risco maior.
+
+Estas infeções podem ser graves e incluem a tuberculose, infeções causadas por vírus, 
+fungos, bactérias ou outros organismos do ambiente e sepsis que podem pôr a sua vida 
+em risco.
+Informe imediatamente o seu médico se tiver sinais de infeção durante o tratamento com 
+Remicade. Estes sinais incluem febre, tosse, sinais de gripe, mal-estar, calor ou pele vermelha, 
+feridas ou problemas dentários. O seu médico poderá recomendar parar temporariamente
+Remicade.
+Tuberculose (TB)
+
+É muito importante que informe o seu médico se já teve TB ou se esteve em contacto 
+próximo com alguém que tenha tido TB.
+
+O seu médico irá fazer-lhe o teste para ver se tem TB. Têm sido notificados casos de TB 
+em doentes tratados com Remicade, mesmo em doentes que foram já tratados com 
+medicamentos para a TB. O seu médico irá registar estes testes no seu cartão de alerta do 
+doente.
+
+Se o seu médico achar que está em risco de ter TB, poderá ser tratado com medicamentos 
+para a TB antes de lhe ser administrado Remicade.
+Informe imediatamente o seu médico se tiver sinais de TB durante o tratamento com Remicade. 
+Estes sinais incluem tosse persistente, perda de peso, cansaço, febre, suores noturnos.
+Vírus da Hepatite B
+
+Informe o seu médico antes de lhe ser administrado Remicade se for um portador de 
+hepatite B ou se já a tiver tido.
+
+Informe o seu médico se pensa que pode estar em risco de contrair hepatite B.
+
+O seu médico deverá fazer-lhe um teste para o vírus da hepatite B.
+
+O tratamento com antagonistas do TNF, tal como Remicade, pode resultar na reativação 
+do vírus da hepatite B em doentes portadores deste vírus, que em alguns casos pode pôr a 
+sua vida em risco.
+Problemas no coração
+
+Informe o seu médico se tem qualquer problema no coração, tal como insuficiência 
+cardíaca ligeira.
+
+O seu médico irá querer monitorizar cuidadosamente o seu coração.
+Informe imediatamente o seu médico se tiver sinais novos ou agravamento da insuficiência 
+cardíaca durante o tratamento com Remicade. Estes sinais incluem dificuldade em respirar ou 
+inchaço nos pés.
+Cancro e linfoma
+
+Informe o seu médico antes de lhe ser administrado Remicade se tem ou teve linfoma (um 
+tipo de cancro do sangue) ou qualquer outro cancro.
+
+Doentes com artrite reumatoide grave que sofrem da doença há muito tempo, podem ter 
+um risco mais elevado de desenvolver linfoma.
+
+Crianças e adultos a utilizar Remicade podem ter um risco aumentado de desenvolver 
+linfoma ou outro cancro.
+
+Alguns doentes tratados com antagonistas do TNF, incluindo Remicade desenvolveram 
+um tipo de cancro raro chamado linfoma hepatoesplénico das células T. Destes doentes, a 
+maior parte eram adolescentes ou adultos jovens do sexo masculino e a maioria tinha 
+54
+doença de Crohn ou colite ulcerosa. Este tipo de cancro tem habitualmente levado à 
+morte. Quase todos os doentes receberam igualmente medicamentos contendo azatioprina 
+ou 6-mercaptopurina além do antagonista do TNF.
+
+Alguns doentes tratados com infliximab desenvolveram certos tipos de cancro de pele. Se 
+ocorrer alguma alteração na sua pele, ou crescimento de sinais na pele, durante ou após o 
+tratamento, fale com o seu médico.
+
+Algumas mulheres em tratamento para a artrite reumatoide com Remicade 
+desenvolveram cancro do colo do útero. Para mulheres a utilizar Remicade, incluindo 
+mulheres com mais de 60 anos de idade, o seu médico poderá recomendar rastreio regular 
+para o cancro do colo do útero.
+Doença nos pulmões ou hábitos tabágicos intensos
+
+Informe o seu médico antes de lhe ser administrado Remicade se tem uma doença nos 
+pulmões denominada Doença Pulmonar Obstrutiva Crónica (DPOC) ou se tem hábitos 
+tabágicos intensos.
+
+Doentes com DPOC e doentes com hábitos tabágicos intensos podem ter um risco mais 
+elevado de desenvolver cancro com o tratamento com Remicade.
+Doenças do sistema nervoso
+
+Informe o seu médico se tem ou teve um problema que afete o seu sistema nervoso antes 
+de lhe ser administrado Remicade. Isto inclui esclerose múltipla, síndrome de 
+Guillain-Barre, se tem convulsões ou se lhe foi diagnosticado nevrite ótica.
+Informe imediatamente o seu médico se tiver sintomas de uma doença do sistema nervoso 
+durante o tratamento com Remicade. Os sinais incluem alterações na sua visão, fraqueza nos 
+seus braços ou pernas, entorpecimento ou formigueiro em qualquer parte do seu corpo.
+Aberturas anormais na pele
+
+Informe o seu médico se tem quaisquer aberturas anormais na pele (fístulas) antes de lhe 
+ser administrado Remicade.
+Vacinação
+
+Fale com o seu médico se tiver recebido recentemente ou tem programado receber uma 
+vacina.
+
+Deve receber as vacinas recomendadas antes de iniciar o tratamento com Remicade. 
+Poderá receber algumas vacinas durante o tratamento com Remicade mas não poderá 
+receber vacinas vivas (vacinas que contêm um agente infecioso vivo mas enfraquecido) 
+enquanto está a fazer tratamento com Remicade uma vez que podem causar infeções.
+
+Se recebeu Remicade enquanto estava grávida, o seu bebé pode também ter um maior 
+risco de contrair uma infeção como resultado de lhe ter sido administrado uma vacina 
+viva durante o primeiro ano de vida. É importante que informe os médicos do seu filho e 
+outros profissionais de saúde sobre a utilização de Remicade para que eles possam decidir 
+quando o seu bebé deve receber qualquer vacina, incluindo vacinas vivas como a vacina 
+BCG (usada na prevenção da tuberculose).
+
+Se está a amamentar é importante que informe os médicos do seu bebé e outros 
+profissionais de saúde sobre a utilização de Remicade antes de o seu bebé receber 
+qualquer vacina. Para mais informações ver secção relativa à Gravidez e amamentação.
+Agentes terapêuticos infecciosos
+
+Fale com o seu médico se tiver recebido recentemente ou tem programado receber 
+tratamento com um agente terapêutico infeccioso (como instilação de BCG usada no 
+tratamento do cancro).
+Cirurgia ou tratamentos dentários
+
+Informe o seu médico se vai ser sujeito a qualquer cirurgia ou tratamento dentário.
+
+Informe o seu cirurgião ou dentista que está a fazer tratamento com Remicade e 
+mostre-lhe o seu cartão de alerta do doente.
+55
+Problemas de fígado
+
+Alguns doentes a receber Remicade desenvolveram problemas de fígado graves.
+Informe imediatamente o seu médico se tiver sintomas de problemas de fígado durante o 
+tratamento com Remicade. Os sinais incluem pele ou olhos amarelados, urina de cor castanha
+escura, dor ou inchaço no lado superior direito na zona do estômago, dor nas articulações, 
+erupções na pele ou febre.
+Baixo número de células no sangue
+
+Em alguns doentes a receber Remicade, o organismo pode não produzir em quantidade 
+suficiente as células sanguíneas que ajudam a combater infeções ou que ajudam a parar 
+hemorragias.
+Informe imediatamente o seu médico se tiver sintomas de baixo número de células no sangue
+durante o tratamento com Remicade. Os sinais incluem febre persistente, hemorragias ou 
+nódoas negras com maior facilidade, pequenos pontos roxos ou vermelhos causados por
+hemorragia debaixo da pele ou palidez.
+Alteração do sistema imunitário
+
+Alguns doentes a receber Remicade desenvolveram sintomas de uma alteração do sistema 
+imunitário chamada lúpus.
+Informe imediatamente o seu médico se desenvolver sintomas de lúpus durante o tratamento 
+com Remicade. Os sinais incluem dor nas articulações ou erupção da pele na face ou braços, 
+sensível ao sol.
+Crianças e adolescentes
+A informação descrita acima também se aplica a crianças e adolescentes. Além disso:
+
+Algumas crianças e adolescentes que receberam antagonistas do TNF, como o Remicade, 
+desenvolveram cancros, incluindo de tipos não habituais, que algumas vezes resultaram 
+em morte.
+
+Mais crianças a tomar Remicade desenvolveram infeções em comparação com os adultos.
+
+As crianças devem receber a vacinação recomendada antes de iniciarem o tratamento com 
+Remicade. As crianças poderão receber algumas vacinas durante o tratamento com 
+Remicade mas não devem receber vacinas vivas enquanto estão a fazer tratamento com 
+Remicade.
+Se não tem a certeza se qualquer uma das situações acima se aplica a si, fale com o seu médico antes 
+de lhe ser administrado Remicade.
+Outros medicamentos e Remicade
+Doentes que tenham doenças inflamatórias já tomam medicamentos para tratar o seu problema. Estes 
+medicamentos podem causar efeitos indesejáveis. O seu médico irá aconselhá-lo sobre os 
+medicamentos que deve continuar a utilizar enquanto está a fazer tratamento com Remicade.
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos, incluindo qualquer outro medicamento usado no tratamento da doença de Crohn, colite 
+ulcerosa, artrite reumatoide, espondilite anquilosante, artrite psoriática ou psoríase ou medicamentos
+não sujeitos a receita médica, tais como vitaminas e medicamentos à base de plantas.
+Em particular, informe o seu médico se estiver a utilizar qualquer um dos seguintes medicamentos:
+
+Medicamentos que afetam o seu sistema imunitário.
+
+Kineret (anacinra). Remicade e Kineret não devem ser administrados em conjunto.
+
+Orencia (abatacept). Remicade e Orencia não devem ser administrados em conjunto.
+Enquanto estiver a utilizar Remicade não deverá receber vacinas vivas. Se estava a utilizar Remicade 
+durante a gravidez ou se está a receber Remicade enquanto está a amamentar, informe o médico do seu 
+bebé e outros profissionais de saúde que cuidem do seu bebé sobre a utilização de Remicade antes de o 
+bebé receber qualquer vacina.
+56
+Se não tem a certeza se qualquer uma das situações acima se aplica a si, fale com o seu médico ou 
+farmacêutico antes de utilizar Remicade.
+Gravidez, amamentação e fertilidade
+
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico antes de tomar este medicamento. Remicade apenas deve ser utilizado durante a 
+gravidez ou amamentação se o seu médico considerar que é necessário para si.
+
+Deve evitar ficar grávida enquanto estiver a fazer tratamento com o Remicade e durante 6 meses 
+após o fim do tratamento. Discuta com o seu médico a utilização de contraceção durante este 
+tempo.
+
+Se recebeu Remicade durante a gravidez, o seu bebé pode ter um maior risco de contrair uma 
+infeção.
+
+É importante que informe os médicos do seu filho e outros profissionais de saúde sobre a 
+utilização de Remicade antes de ser dada qualquer vacina ao seu bebé. Se recebeu Remicade 
+durante a gravidez, dar a vacina BCG (usada na prevenção de tuberculose) ao seu bebé no 
+período de 12 meses após o seu nascimento pode resultar numa infeção com complicações 
+graves, incluindo morte. Vacinas vivas, como a vacina BCG não devem ser administradas ao 
+seu bebé no período de 12 meses após o nascimento, exceto recomendação contrária pelo 
+médico do seu bébé. Para mais informações consulte a secção sobre vacinação.
+
+Se está a amamentar é importante que informe os médicos do seu bebé e outros profissionais de 
+saúde sobre a utilização de Remicade antes de ser dada qualquer vacina ao seu bebé. Se está a 
+amamentar, não devem ser administradas vacinas vivas ao seu bébé, exceto recomendação
+contrária pelo médico do seu bébé.
+
+Foram comunicados casos de diminuição acentuada do número de glóbulos brancos do sangue 
+em lactentes cujas mães foram tratadas com Remicade durante a gravidez. Se o seu bebé tem 
+febre contínua ou infeções, contacte o médico do seu bebé de imediato.
+Condução de veículos e utilização de máquinas
+Não é provável que Remicade afete a sua capacidade de conduzir ou utilizar ferramentas ou máquinas. 
+Se sentir cansaço, tonturas ou mal-estar após a administração de Remicade, não conduza ou utilize 
+quaisquer ferramentas ou máquinas.
+Remicade contém sódio
+Remicade contém menos de 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente “isento de 
+sódio". No entanto, antes de lhe ser dado Remicade, ele é misturado com uma solução que contém 
+sódio. Fale com o seu médico se estiver numa dieta com restrição em sal.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar remicade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar remicade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Artrite reumatoide
+A dose habitual é de 3 mg por cada kg de peso corporal.
+Artrite psoriática, espondilite anquilosante (doença de Bechterew), psoríase, colite ulcerosa e 
+doença de Crohn
+A dose habitual é de 5 mg por cada kg de peso corporal.
+Como será administrado Remicade
+
+Remicade irá ser-lhe administrado pelo seu médico ou enfermeiro.
+
+O seu médico ou enfermeiro irá preparar o medicamento para perfusão.
+
+O medicamento irá ser-lhe administrado por perfusão (gota-a-gota) (durante 2 horas) numa das 
+suas veias, habitualmente do seu braço. Após o terceiro tratamento, o seu médico poderá decidir 
+administrar-lhe a sua dose de Remicade durante 1 hora.
+
+Será monitorizado enquanto lhe é administrado Remicade assim como nas 1 a 2 horas seguintes.
+57
+Qual a dose de Remicade administrada
+
+O médico irá decidir qual a sua dose e com que frequência lhe será administrado Remicade. Isto 
+irá depender da sua doença, peso e como responde a Remicade.
+
+A tabela abaixo mostra com que frequência irá habitualmente ser-lhe administrado este 
+medicamento após a sua primeira dose.
+Dose do 2º tratamento
+2 semanas após a sua 1ª dose
+Dose do 3º tratamento
+6 semanas após a sua 1ª dose
+Dose dos tratamentos seguintes
+A cada 6 a 8 semanas, dependendo da sua 
+doença
+Utilização em crianças e adolescentes
+Remicade só deve ser utilizado em crianças que estejam a fazer tratamento para a doença de Crohn ou 
+colite ulcerosa. Estas crianças devem ter idade igual ou superior a 6 anos.
+Se lhe for administrado mais Remicade do que deveria
+Como a administração deste medicamento é feita pelo seu médico ou enfermeiro, é pouco provável 
+que lhe seja administrado mais Remicade do que deveria.
+Não existem efeitos indesejáveis conhecidos devido à toma excessiva de Remicade.
+Caso se tenha esquecido ou falte à sua perfusão de Remicade
+Se se esquecer ou faltar a uma marcação para receber Remicade, faça outra marcação o mais 
+rapidamente possível.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Os efeitos indesejáveis são, na sua maioria, ligeiros a moderados. 
+Contudo, alguns doentes podem ter efeitos indesejáveis graves e podem necessitar de tratamento. Os 
+efeitos indesejáveis podem também ocorrer após o seu tratamento com Remicade ter terminado.
+Informe imediatamente o seu médico se detetar qualquer um dos seguintes efeitos indesejáveis:
+
+Sinais de uma reação alérgica, tais como inchaço da sua face, lábios, boca ou garganta que 
+podem provocar dificuldades em engolir ou respirar, erupção da pele, urticária, inchaço das 
+mãos, pés ou tornozelos. Algumas destas reações podem ser graves ou colocar em risco de vida. 
+Pode surgir uma reação alérgica durante as 2 horas da sua perfusão ou posteriormente. Outros 
+sinais de efeitos indesejáveis alérgicos que podem surgir até 12 dias após a sua perfusão 
+incluem dor nos músculos, febre, dor nas articulações ou nos maxilares, dor de garganta ou dor 
+de cabeça.
+
+Sinais de um problema no coração, tais como desconforto ou dor no peito, dor nos braços, dor 
+de estômago, dificuldade em respirar, ansiedade, atordoamento, tonturas, desmaio, transpirar, 
+náuseas (sentir-se enjoado), vómito, sentir vibração ou pulsação no peito, batimento do coração 
+acelerado ou lento e inchaço dos pés.
+
+Sinais de infeção (incluindo TB), tais como febre, cansaço, tosse que pode ser persistente, 
+dificuldade em respirar, sintomas gripais, perda de peso, suores noturnos, diarreia, feridas, 
+acumulação de pus no intestino ou à volta do ânus (abcesso), problemas dentários ou sensação 
+de ardor ao urinar.
+
+Possíveis sinais de cancro incluindo mas não limitado a inchaço dos gânglios linfáticos, perda 
+de peso, febre, nódulos invulgares na pele, alterações em sinais ou na coloração da pele, ou
+hemorragia vaginal invulgar.
+
+Sinais de um problema nos pulmões, tais como tosse, dificuldades em respirar ou aperto no 
+peito.
+58
+
+Sinais de um problema no sistema nervoso (incluindo problemas nos olhos), tais como 
+sinais de um AVC (adormecimento ou fraqueza súbitos da cara, braço ou perna, especialmente 
+de um dos lados do corpo; confusão súbita, dificuldades na fala ou de compreensão; dificuldade 
+de visão num ou em ambos os olhos, dificuldade na marcha, tonturas, perda de equilíbrio ou
+coordenação ou dor de cabeça forte), convulsões, formigueiro/adormecimento em qualquer 
+parte do seu corpo, fraqueza nos braços ou pernas, alterações da visão, tais como visão dupla ou 
+outros problemas nos olhos.
+
+Sinais de um problema no fígado (incluindo hepatite B se já teve hepatite B no passado) tais 
+como pele ou olhos amarelados, urina de cor castanha escura, dor ou inchaço no lado superior 
+direito na zona do estômago, dor nas articulações, erupções da pele ou febre.
+
+Sinais de uma doença do sistema imunitário tais como dor nas articulações ou uma erupção 
+da pele na face ou braços sensível ao sol (lúpus) ou tosse, falta de ar, febre ou erupção da pele 
+(sarcoidose).
+
+Sinais de baixo número de células do sangue tais como febre persistente, perder sangue ou 
+ficar com nódoas negras mais facilmente, pequenos pontos roxos ou vermelhos causados por 
+hemorragia debaixo da pele ou ter um aspeto pálido.
+
+Sinais de problemas da pele graves tais como pontos avermelhados tipo alvo ou manchas 
+circulares muitas vezes com bolhas centrais no tronco, grandes áreas de pele descamativa e 
+exfoliativa, úlceras na boca, garganta, nariz, órgãos genitais e olhos ou pequenos inchaços
+cheios de pus que podem estar espalhados pelo corpo. Estas reações da pele podem ser 
+acompanhadas de febre.
+Informe imediatamente o seu médico se detetar quaisquer efeitos indesejáveis mencionados acima.
+Observaram-se os seguintes efeitos indesejáveis com Remicade:
+Muito frequentes: podem afetar mais de 1 em 10 pessoas
+
+Dor no estômago, sensação de mal-estar
+
+Infeções virais, tais como herpes ou gripe
+
+Infeções do trato respiratório superior, tal como sinusite
+
+Dor de cabeça
+
+Efeitos indesejáveis devido a uma perfusão
+
+Dor.
+Frequentes: podem afetar até 1 em 10 pessoas
+
+Alterações na forma como o seu fígado funciona, aumento das enzimas hepáticas (revelado nas 
+análises ao sangue)
+
+Infeções pulmonares ou torácicas, tais como bronquite ou pneumonias
+
+Dificuldade ou dor ao respirar, dor no peito
+
+Sangramento no estômago ou intestino, diarreia, indigestão, azia, obstipação (prisão de ventre)
+
+Erupção tipo urticária, erupção da pele com comichão ou pele seca
+
+Problemas de equilíbrio ou tonturas
+
+Febre, sudação (transpiração) aumentada
+
+Problemas de circulação, tais como tensão arterial alta ou baixa
+
+Hematomas (nódoas negras), afrontamentos ou perda de sangue pelo nariz, calor, pele vermelha 
+(rubor)
+
+Sensação de cansaço ou fraqueza
+
+Infeções bacterianas, tais como intoxicação do sangue, abcesso ou infeção da pele (celulite)
+
+Infeção fúngica da pele
+
+Problemas de sangue, tais como anemia ou baixa contagem de glóbulos brancos do sangue
+
+Nódulos linfáticos inchados
+
+Depressão, problemas de sono
+
+Problemas nos olhos, incluindo olhos vermelhos e infeções
+
+Batimento rápido do coração (taquicardia) ou palpitações
+
+Dor nas articulações, músculos ou nas costas
+59
+
+Infeção do trato urinário
+
+Psoríase, problemas de pele, tais como eczema e perda de cabelo
+
+Reações no local da injeção, tais como dor, inchaço, vermelhidão ou prurido
+
+Arrepios, uma acumulação de líquido debaixo da pele que causa inchaço
+
+Sensação de dormência ou ter uma sensação de formigueiro.
+Pouco frequentes: podem afetar até 1 em 100 pessoas
+
+Falta de irrigação sanguínea, inchaço de uma veia
+
+Acumulação de sangue fora dos vasos sanguíneos (hematoma) ou nódoa negra
+
+Problemas de pele, tais como bolhas, verrugas, coloração ou pigmentação anormal da pele ou 
+lábios inchados, ou espessamento da pele, ou pele vermelha e escamosa
+
+Reações alérgicas graves (ex. anafilaxia), uma doença do sistema imunitário chamada lúpus, 
+reações alérgicas a proteínas estranhas
+
+Feridas que demoram mais tempo a sarar
+
+Inchaço da vesícula biliar ou fígado (hepatite), lesão do fígado
+
+Falhas de memória, irritabilidade, confusão, nervosismo
+
+Problemas nos olhos, incluindo visão desfocada ou reduzida, olhos inchados ou treçolhos
+
+Aparecimento ou agravamento da insuficiência cardíaca, batimentos cardíacos lentos
+
+Desmaio
+
+Convulsões, problemas dos nervos
+
+Orifício intestinal ou obstrução do intestino, dor de estômago ou cólicas
+
+Inchaço do pâncreas (pancreatite)
+
+Infeções fúngicas, tais como infeções micóticas ou infeção fúngica das unhas
+
+Problemas pulmonares (tais como edema)
+
+Líquido à volta dos pulmões (derrame pleural)
+
+Estreitamento das vias respiratórias dos pulmões, que causam dificuldade em respirar
+
+Inflamação do revestimento do pulmão, que causa dores agudas no peito que piora com a 
+respiração (pleurisia)
+
+Tuberculose
+
+Infeções do rim
+
+Baixa contagem de plaquetas, demasiados glóbulos brancos do sangue
+
+Infeções vaginais
+
+Resultados de análises ao sangue com “anticorpos" contra o seu próprio organismo.
+
+Alterações nos níveis de colesterol e gordura no sangue.
+
+Aumento de peso (para a maioria dos doentes o aumento de peso foi ligeiro)
+Raros: podem afetar até 1 em 1.000 pessoas
+
+Um tipo de cancro do sangue (linfoma)
+
+O seu sangue não fornece a quantidade de oxigénio suficiente para o seu corpo, problemas de 
+circulação, tais como estreitamento de um vaso sanguíneo
+
+Inflamação da membrana que reveste o cérebro (meningite)
+
+Infeções devido a um enfraquecimento do sistema imunitário
+
+Infeção por hepatite B, quando já teve hepatite B no passado
+
+Inflamação do fígado causada por um problema no sistema imunitário (hepatite auto-imune)
+
+Problema no fígado que causa pele ou olhos amarelados (icterícia)
+
+Crescimento ou inchaço anormal dos tecidos
+
+Reação alérgica grave que pode causar perda de consciência e colocar a vida em risco (choque 
+anafilático)
+
+Inchaço dos pequenos vasos sanguíneos (vasculite)
+
+Alterações imunitárias que podem afetar os pulmões, pele e gânglios linfáticos (tal como 
+sarcoidose)
+
+Acumulação de células imunitárias em resultado de uma resposta inflamatória (lesões 
+granulomatosas)
+
+Falta de interesse ou emoção
+60
+
+Problemas graves de pele como necrólise epidérmica tóxica, Síndrome de Stevens-Johnson e 
+pustulose exantematosa generalizada aguda
+
+Outros problemas de pele tais como eritema multiforme, reações liquenoides (erupção cutânea 
+de cor vermelha-arroxeada com comichão e/ou linhas de cor branca-acinzentada nas membranas 
+mucosas), bolhas e pele descamativa ou furúnculos (furunculose)
+
+Doenças graves do sistema nervoso como mielite transversa, doença semelhante a esclerose 
+múltipla, nevrite ótica, síndrome de Guillain-Barré
+
+Inflamação no olho que pode causar alterações na visão, incluindo cegueira
+
+Líquido na camada que reveste o coração (derrame pericárdico)
+
+Problemas graves do pulmão (tais como doença pulmonar intersticial)
+
+Melanoma (um tipo de cancro da pele)
+
+Cancro do colo do útero
+
+Baixo número de células no sangue, incluindo uma diminuição acentuada, do número de 
+glóbulos brancos
+
+Pequenos pontos roxos ou vermelhos causados por hemorragia debaixo da pele
+
+Valores anormais de uma proteína sanguínea chamada “fator de complemento" que faz parte do 
+sistema imunitário.
+Frequência desconhecida: a frequência não pode ser estimada a partir dos dados disponíveis
+
+Cancro em crianças e adultos
+
+Um cancro do sangue raro que afeta maioritariamente rapazes adolescentes ou homens jovens 
+(linfoma hepatoesplénico das células T)
+
+Insuficiência hepática
+
+Carcinoma de células Merkel (um tipo de cancro da pele)
+
+Sarcoma de Kaposi, um cancro raro relacionado com a infeção pelo vírus herpes humano 8. O 
+sarcoma de Kaposi aparece mais frequentemente na forma de lesões da pele de cor púrpura.
+
+Agravamento de uma doença chamada dermatomiosite (que corresponde a uma erupção da pele 
+acompanhada de fraqueza muscular)
+
+Ataque cardíaco
+
+AVC (acidente vascular cerebral)
+
+Perda de visão temporária que ocorre durante ou nas 2 horas após a perfusão
+
+Infeção originada por uma vacina viva devido a um sistema imunitário enfraquecido.
+Efeitos indesejáveis adicionais em crianças e adolescentes
+As crianças que tomaram Remicade para o tratamento da doença de Crohn revelaram algumas 
+diferenças relativamente aos efeitos indesejáveis quando em comparação com os adultos que tomaram 
+Remicade para a doença de Crohn. Os efeitos indesejáveis que aconteceram mais em crianças foram: 
+baixa contagem de glóbulos vermelhos do sangue (anemia), sangue nas fezes, baixa contagem geral de 
+de glóbulos brancos do sangue (leucopenia), vermelhidão ou corar (rubor), infeções virais, baixa 
+contagem de glóbulos brancos do sangue que combatem as infeções (neutropenia), fraturas ósseas, 
+infeções bacterianas e reações alérgicas do trato respiratório.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, ou farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar remicade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar remicade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Remicade será geralmente armazenado por profissionais de saúde. Os detalhes de conservação que 
+deverá saber são os seguintes:
+
+Manter este medicamento fora da vista e do alcance das crianças.
+61
+
+Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem,
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+
+Conservar no frigorífico (2°C-8°C).
+
+Este medicamento pode também ser armazenado na embalagem de origem fora do frigorífico
+até à temperatura máxima de 25°C por um período único até seis meses, mas sem exceder o 
+prazo de validade original. Nesta situação, não volte a armazenar no frigorífico novamente. 
+Escreva o novo prazo de validade na cartonagem incluindo dia/mês/ano. Rejeite o medicamento 
+se este não for utilizado até ao novo prazo de validade ou até ao prazo de validade impresso na 
+cartonagem, conforme a data mais próxima.
+
+Após a preparação de Remicade para perfusão, é recomendado que seja utilizado o mais 
+rapidamente possível (dentro de 3 horas). Contudo, se a solução for preparada sob condições 
+assépticas, pode ser conservada no frigorífico entre 2°C e 8°C até 28 dias e por um período 
+adicional de 24 horas a 25ºC após retirar do frigorífico.
+
+Não utilize este medicamento se verificar que a solução apresenta alteração da coloração ou 
+partículas.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Remicade
+
+A substância ativa é infliximab. Cada frasco para injetáveis contém 100 mg de infliximab. Após 
+preparação, cada ml contém 10 mg de infliximab
+
+Os outros componentes são sacarose, polissorbato 80, fosfato monossódico e fosfato dissódico.
+Qual o aspeto de Remicade e conteúdo da embalagem
+Remicade é fornecido num frasco para injetáveis de vidro contendo um pó para concentrado para 
+solução para perfusão. O pó é um granulado branco liofilizado.
+Remicade é produzido em embalagens de 1, 2, 3, 4 ou 5 frascos para injetáveis. É possível que não 
+sejam comercializadas todas as apresentações.
+Titular de Autorização de Introdução no Mercado e Fabricante
+Janssen Biologics B.V.
+Einsteinweg 101
+2333 CB Leiden
+Países Baixos
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado.
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel. + 370 5 278 02 47
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft. Tel.: 
++36 1 888 5300
+hungary_msd@merck.com
+62
+Danmark
+MSD Danmark ApS
+Tlf: + 45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 45610)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999000
+(+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health) 
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila 
+d.o.o.
+Tel: +386 1 5204 201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421 2 58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ.: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+63
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: + 371 67364224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health) 
+Limited
+Tel: +35312998700
+medinfoNI@msd.com
+Este folheto foi revisto pela última vez em {MM/AAAA}
+Outras informações
+Está disponível informação pormenorizada sobre este medicamento no sítio da Internet da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu.
+64
+A informação que se segue destina-se apenas aos profissionais de saúde:
+O cartão de alerta do doente deve ser entregue a doentes tratados com Remicade.
+Instruções de utilização e manuseamento - condições de conservação
+Conservar a 2°C - 8°C.
+Este medicamento pode ser armazenado até à temperatura máxima de 25°C por um período único até 
+6 meses, mas não excedendo o prazo de validade original. O novo prazo de validade tem de ser escrito 
+na cartonagem. Após remoção do frigorífico, Remicade não pode voltar a ser armazenado no 
+frigorífico.
+Instruções de utilização e manuseamento - reconstituição, diluição e administração
+De forma a melhorar a rastreabilidade dos medicamentos biológicos, o nome comercial e o número de 
+lote do medicamento administrado devem ser claramente registados.
+1. Calcule a dose e o número de frascos para injetáveis de Remicade necessários. Cada frasco para 
+injetáveis de Remicade contém 100 mg de infliximab. Calcule o volume total da solução de 
+Remicade reconstituída necessária.
+2. Reconstitua, sob condições assépticas, cada frasco para injetáveis de Remicade com 10 ml de 
+água para injetáveis, utilizando uma seringa com uma agulha de calibre 21 (0,8 mm) ou mais 
+pequena. Retire a tampa de remoção fácil do frasco para injetáveis e limpe o topo com uma 
+compressa embebida em álcool a 70 %. Introduza a agulha da seringa no frasco para injetáveis 
+na parte central da rolha de borracha e dirija o jato de água para injetáveis para a parede de 
+vidro do frasco para injetáveis. Rode o frasco para injetáveis, efetuando movimentos giratórios 
+suaves, para dissolver o pó liofilizado. Evitar uma agitação prolongada ou vigorosa. NÃO 
+AGITE. Não se considera estranha a formação de espuma na solução após a reconstituição. 
+Deixe a solução reconstituída repousar durante 5 minutos. A solução deve ser incolor a amarelo 
+claro e opalescente. A solução pode apresentar algumas partículas finas translúcidas em virtude 
+do infliximab ser uma proteína. Não utilize se estiverem presentes partículas opacas ou outras 
+partículas estranhas ou caso se observe alteração da cor.
+3. Dilua o volume total da dose da solução de Remicade reconstituída até 250 ml com solução de 
+cloreto de sódio para perfusão 9 mg/ml (0,9 %). Não dilua a solução de Remicade reconstituída 
+com qualquer outro solvente. A diluição pode ser conseguida extraindo um volume da solução 
+de cloreto de sódio para perfusão 9 mg/ml (0,9 %) do frasco de vidro ou saco de perfusão de 
+250 ml, igual ao volume de Remicade reconstituído. Adicione lentamente o volume total da 
+solução de Remicade reconstituída até perfazer o volume do saco ou do frasco de perfusão de 
+250 ml. Misture suavemente. Para volumes superiores a 250 ml, utilizar um saco de perfusão 
+maior (ex. 500 ml, 1000 ml) ou utilizar múltiplos sacos de perfusão de 250 ml para assegurar 
+que a concentração da solução para perfusão não excede os 4 mg/ml. Se armazenada refrigerada 
+após reconstituição e diluição, deve permitir-se que a solução para perfusão se equilibre à 
+temperatura ambiente de 25ºC durante 3 horas antes do Passo 4 (perfusão). O armazenamento 
+por mais de 24 horas a 2°C - 8°C aplica-se apenas à preparação do Remicade no saco de 
+perfusão.
+4. Administre a solução para perfusão durante um período não inferior ao tempo de perfusão 
+recomendado. Utilize apenas um sistema de perfusão com um filtro em linha, estéril, 
+apirogénico, com baixa ligação às proteínas (tamanho dos poros igual ou inferior a 
+1,2 micrómetros). Uma vez que não estão presentes conservantes, a administração da solução 
+para perfusão deve ser iniciada o mais rapidamente possível e no espaço de 3 horas após a 
+reconstituição e a diluição. Se não for usada imediatamente, os tempos e condições de 
+conservação antes da utilização são da responsabilidade do utilizador e normalmente não 
+deverão ser superiores a 24 horas a 2°C-8°C, a não ser que a reconstituição/diluição tenha sido 
+65
+realizada em condições assépticas controladas e validadas. Não guarde qualquer quantidade 
+remanescente de solução para perfusão para reutilização.
+5. Não foram efetuados estudos de compatibilidade bioquímica física para avaliar a administração 
+concomitante de Remicade com outras substâncias. Não se deve proceder à perfusão de
+Remicade simultaneamente com outras substâncias na mesma linha intravenosa.
+6. Antes de ser utilizado, Remicade deve ser inspecionado visualmente para verificar se contém 
+partículas ou apresenta sinais de alteração da cor. A solução não deverá ser utilizada se contiver 
+partículas opacas visíveis, partículas estranhas ou alterações da cor.
+7.
+Os produtos não utilizados ou os resíduos devem ser eliminados de acordo com as exigências 
+locais.</p>         </div>"""      
+
+
+
 
 
                     
@@ -1613,6 +2582,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-0c99db4eccd07c1cf26c691487dc71e8"
 * entry[0].resource = composition-da-0c99db4eccd07c1cf26c691487dc71e8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0c99db4eccd07c1cf26c691487dc71e8"
+* entry[=].resource = mp0c99db4eccd07c1cf26c691487dc71e8
+                            
+                    
+Instance: bundlepackageleaflet-pt-0c99db4eccd07c1cf26c691487dc71e8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for remicade Package Leaflet for language pt"
+Description: "ePI document Bundle for remicade Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-0c99db4eccd07c1cf26c691487dc71e8"
+* entry[0].resource = composition-pt-0c99db4eccd07c1cf26c691487dc71e8
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp0c99db4eccd07c1cf26c691487dc71e8"
@@ -1714,6 +2705,18 @@ RuleSet: 0c99db4eccd07c1cf26c691487dc71e8ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-0c99db4eccd07c1cf26c691487dc71e8) // remicade pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

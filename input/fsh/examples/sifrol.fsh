@@ -1189,6 +1189,728 @@ hjemmeside http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-00c9db2c528dacf2cdd39b041aea9315
+InstanceOf: CompositionUvEpi
+Title: "Composition for sifrol Package Leaflet"
+Description:  "Composition for sifrol Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp00c9db2c528dacf2cdd39b041aea9315)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - sifrol"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é SIFROL e para que é utilizado
+2. O que precisa de saber antes de tomar SIFROL
+3. Como tomar SIFROL
+4. Efeitos indesejáveis possíveis
+5. Como conservar SIFROL
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é sifrol e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é sifrol e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SIFROL contém a substância ativa pramipexol e pertence ao grupo de fármacos denominados 
+agonistas dopamínicos que estimulam os recetores cerebrais dopamínicos. A estimulação dos recetores 
+dopamínicos desencadeia impulsos nervosos no cérebro que ajudam a controlar os movimentos do 
+corpo.
+SIFROL é utilizado para:
+-
+tratar os sintomas da doença de Parkinson em adultos. Este medicamento pode ser utilizado 
+isoladamente ou em associação com a levodopa (outro medicamento para a doença de 
+Parkinson).
+-
+tratar os sintomas da Síndrome das Pernas Inquietas primária moderada a grave em adultos.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar sifrol"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar sifrol"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome SIFROL</h2>
+<p>se tem alergia ao pramipexol ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+Advertências e precauções
+Fale com o seu médico ou farmacêutico antes de tomar SIFROL.
+Informe o seu médico se tem (teve) ou se desenvolveu quaisquer situações clínicas ou sintomas, 
+especialmente um dos seguintes:
+-
+Doença renal.
+-
+Alucinações (ver, ouvir ou sentir coisas que não existem). A maioria das alucinações é visual.
+-
+Discinesias (p. ex., movimentos dos membros involuntários, anormais). Se sofre de doença de 
+Parkinson avançada e também está a tomar levodopa, poderá desenvolver discinesias durante a 
+titulação de SIFROL.
+-
+Distonia (incapacidade de manter o corpo e o pescoço direitos e na vertical (distonia axial)). 
+Pode verificar-se, em particular, flexão da cabeça e do pescoço para a frente (também 
+69
+denominada anterocolo), inclinação da região lombar para a frente (também denominada 
+camptocormia) ou inclinação lateral das costas (também denominada pleurotótono ou Síndrome
+de Pisa).
+-
+Sonolência e ataques súbitos de sono.
+-
+Psicoses (p. ex., comparável com os sintomas da esquizofrenia).
+-
+Perturbações visuais. Deverá ser submetido regularmente a exames oftalmológicos durante o 
+tratamento com SIFROL.
+-
+Doença cardíaca grave ou doença dos vasos sanguíneos. A sua tensão arterial deverá ser medida 
+regularmente, especialmente no início do tratamento. Pretende-se desta forma evitar hipotensão 
+postural (uma diminuição da tensão arterial quando de pé).
+-
+Síndrome de acréscimo das pernas inquietas. Se os seus sintomas começarem mais cedo do que 
+o habitual ao início da noite (ou mesmo à tarde), são mais intensos ou envolvem áreas maiores 
+dos membros afetados ou envolvem outros membros. O seu médico poderá reduzir a dose ou 
+parar o tratamento.
+Informe o seu médico se você, ou o seu familiar/prestador de cuidados, notar que está a desenvolver 
+ânsias ou desejos de se comportar de maneiras que não são comuns em si e que não pode resistir ao 
+apelo, impulso ou tentação de realizar certas atividades que o poderiam prejudicar a si ou aos outros.
+Estes são chamados distúrbios do controlo de impulsos e podem incluir comportamentos tais como o 
+jogo viciante, ingestão excessiva de alimentos ou gasto excessivo de dinheiro, um desejo sexual 
+anormalmente elevado ou uma preocupação relacionada com um aumento dos pensamentos ou 
+sentimentos sexuais. O seu médico poderá ter de ajustar ou interromper a sua dose.
+Informe o seu médico se você, ou o seu familiar/prestador de cuidados, notar que está a desenvolver 
+mania (agitação, sensação de exaltação ou de sobre-excitação) ou delírio (diminuição do estado de
+consciência, confusão ou perda do sentido da realidade). O seu médico poderá ter de ajustar ou 
+interromper a sua dose.
+Informe o seu médico se tiver sintomas tais como depressão, apatia, ansiedade, fadiga, transpiração ou 
+dor depois de parar ou reduzir o seu tratamento com SIFROL. Se os problemas persistirem durante 
+mais de algumas semanas, o seu médico poderá ter de ajustar o seu tratamento.
+Informe o seu médico se estiver a desenvolver uma incapacidade de manter o corpo e o pescoço 
+direitos e na vertical (distonia axial). Nestes casos, o seu médico pode necessitar de ajustar ou alterar a 
+sua medicação.
+Crianças e adolescentes
+Não se recomenda a utilização de SIFROL em crianças ou adolescentes com menos de 18 anos de 
+idade.
+Outros medicamentos e SIFROL
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto inclui medicamentos, remédios à base de plantas, produtos ou 
+suplementos alimentares que tenha obtido sem receita médica.
+Deverá evitar tomar SIFROL juntamente com medicamentos antipsicóticos.
+Tome precaução se estiver a tomar os seguintes medicamentos:
+-
+cimetidina (para o tratamento do excesso de ácido do estômago e úlceras do estômago)
+-
+amantadina (que pode ser utilizada no tratamento da doença de Parkinson)
+-
+mexiletina (para tratar batimentos cardíacos irregulares, uma doença conhecida como arritmia 
+ventricular)
+-
+zidovudina (que pode ser utilizada no tratamento da síndrome da imunodeficiência adquirida 
+(SIDA), uma doença do sistema imunitário humano)
+-
+cisplatina (para tratar vários tipos de cancro)
+-
+quinina (que pode ser utilizada na prevenção de cãibras noturnas, dolorosas, das pernas e no 
+tratamento de um tipo de malária conhecido como malária falciparum (malária maligna))
+70
+-
+procainamida (para tratar o batimento irregular do coração)
+Se estiver a tomar levodopa, recomenda-se que a dose deste medicamento seja reduzida quando iniciar 
+o tratamento com SIFROL.
+Tome precaução se estiver a tomar medicamentos para o acalmar (que tenham um efeito sedativo) ou 
+se estiver a consumir álcool. Nestes casos, SIFROL pode afetar a sua capacidade para conduzir e 
+utilizar máquinas.
+SIFROL com alimentos, bebidas e álcool
+Deverá tomar precaução enquanto consumir álcool durante o tratamento com SIFROL.
+SIFROL pode ser tomado com ou sem alimentos.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. O seu médico irá discutir consigo se deverá continuar a tomar 
+SIFROL.
+Desconhecem-se os efeitos de SIFROL no feto. Como tal, não tome SIFROL se estiver grávida a 
+menos que o seu médico lhe diga para o fazer.
+SIFROL não deve ser utilizado durante o período de amamentação. SIFROL pode reduzir a produção 
+de leite materno. Pode também passar para o leite materno e, desta forma, atingir o seu bebé. Se a 
+utilização de SIFROL for inevitável, a amamentação deverá ser interrompida.
+Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento.
+Condução de veículos e utilização de máquinas
+SIFROL pode causar alucinações (ver, ouvir ou sentir coisas que não existem). Se for afetado, não 
+conduza nem utilize máquinas.
+SIFROL tem sido associado a sonolência e ataques súbitos de sono, particularmente em doentes com 
+doença de Parkinson. Se observar estes efeitos indesejáveis, não conduza nem utilize máquinas. 
+Deverá informar o seu médico se tal ocorrer.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar sifrol"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar sifrol"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. O seu médico aconselhá-lo-á quanto à dose correta.
+Pode tomar SIFROL com ou sem alimentos. Engula os comprimidos com água.
+Doença de Parkinson
+A dose diária terá de ser tomada dividida em três doses iguais.
+Durante a primeira semana, a dose habitual é de um comprimido de SIFROL 0,088 mg três vezes por 
+dia (equivalente a uma dose diária de 0,264 mg):
+1ª semana
+Número de comprimidos
+Um comprimido de SIFROL 0,088 mg três vezes por dia
+Dose diária total (mg)
+0,264
+71
+A dose diária será então aumentada com intervalos de 5-7 dias, como determinado pelo seu médico, 
+até os sintomas estarem controlados (dose de manutenção).
+2ª semana
+3ª semana
+Número de comprimidos
+Um comprimido de SIFROL 
+0,18 mg três vezes por dia
+OU
+Dois comprimidos de SIFROL 
+0,088 mg três vezes por dia
+Um comprimido de SIFROL 
+0,35 mg três vezes por dia
+OU
+Dois comprimidos de SIFROL 
+0,18 mg três vezes por dia
+Dose diária total (mg)
+0,54
+1,1
+A dose de manutenção habitual é 1,1 mg por dia. Contudo, esta dose poderá ter de ser aumentada. Se 
+necessário, o seu médico poderá aumentar a dose de comprimidos até um máximo de 3,3 mg de 
+pramipexol por dia. Uma dose de manutenção mais baixa de três comprimidos de SIFROL 0,088 mg 
+por dia também é possível.
+Dose de manutenção mais 
+baixa
+Dose de manutenção mais elevada
+Número de comprimidos
+Um comprimido de SIFROL 
+0,088 mg três vezes por dia
+Um comprimido de SIFROL 0,7 mg 
+e 1 comprimido de SIFROL 
+0,35 mg três vezes por dia
+Dose diária total (mg)
+0,264
+3,15
+Doentes com doença renal
+Se sofrer de doença renal moderada a grave, o seu médico irá prescrever-lhe uma dose mais baixa. 
+Neste caso, terá de tomar os comprimidos apenas uma ou duas vezes por dia. Se sofrer de doença renal 
+moderada, a dose inicial habitual é de um comprimido de SIFROL 0,088 mg duas vezes por dia. Na 
+doença renal grave, a dose inicial habitual é apenas de um comprimido de SIFROL 0,088 mg por dia.
+Síndrome das Pernas Inquietas
+A dose é geralmente tomada uma vez por dia, à noite, 2-3 horas antes de se deitar.
+Durante a primeira semana, a dose habitual é de um comprimido de SIFROL 0,088 mg uma vez por 
+dia (equivalente a 0,088 mg diários):
+1ª semana
+Número de comprimidos
+Um comprimido de SIFROL 0,088 mg
+Dose diária total (mg)
+0,088
+A dose diária será então aumentada em intervalos de 4-7 dias, como determinado pelo seu médico, até 
+os sintomas estarem controlados (dose de manutenção).
+2ª semana
+3ª semana
+4ª semana
+Número de 
+comprimidos
+Um comprimido de 
+SIFROL 0,18 mg
+OU
+Dois comprimidos de 
+SIFROL 0,088 mg
+Um comprimido de 
+SIFROL 0,35 mg
+OU
+Dois comprimidos de 
+SIFROL 0,18 mg
+OU
+Quatro comprimidos 
+de SIFROL 0,088 mg
+Um comprimido de 
+SIFROL 0,35 mg e um 
+comprimido de SIFROL 
+0,18 mg
+OU
+Três comprimidos de 
+SIFROL 0,18 mg
+OU
+Seis comprimidos de 
+SIFROL 0,088 mg
+Dose diária total 
+(mg)
+0,18
+0,35
+0,54
+72
+A dose diária não deverá exceder os seis comprimidos de SIFROL 0,088 mg ou a dose de 0,54 mg 
+(0,75 mg de pramipexol sal).
+Se parar de tomar os comprimidos durante alguns dias e quiser recomeçar o tratamento, deverá iniciar 
+novamente com a dose mais baixa. Poderá então aumentar a dose progressivamente, como fez da 
+primeira vez. Aconselhe-se com o seu médico.
+O seu médico irá rever o seu tratamento após três meses para decidir se deverá ou não continuar o 
+tratamento.
+Doentes com doença renal
+Se sofrer de doença renal grave, SIFROL pode não ser um tratamento adequado para si.
+Se tomar mais SIFROL do que deveria
+Se tomou acidentalmente demasiados comprimidos,
+-
+contacte o seu médico imediatamente ou diriga-se à urgência hospitalar mais próxima para 
+aconselhamento.
+-
+poderá ter vómitos, agitação, ou qualquer um dos efeitos indesejáveis descritos na secção 4 
+“Efeitos indesejáveis possíveis".
+Caso se tenha esquecido de tomar SIFROL
+Não se preocupe. Simplesmente omita completamente a dose que se esqueceu de tomar e tome a 
+próxima dose à hora correta.
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Se parar de tomar SIFROL
+Não pare de tomar SIFROL sem primeiro falar com o seu médico. Se tiver de suspender a toma deste 
+medicamento, o seu médico irá reduzir a dose gradualmente. Este procedimento reduz o risco de 
+agravamento dos sintomas.
+Se sofre de doença de Parkinson não deverá interromper o tratamento com SIFROL abruptamente. A 
+interrupção súbita pode levar ao desenvolvimento de uma afeção clínica conhecida como síndrome 
+neuroléptica maligna, a qual poderá representar um risco maior para a saúde. Os sintomas incluem:
+-
+acinesia (perda do movimento muscular)
+-
+músculos rígidos
+-
+febre
+-
+tensão arterial instável
+-
+taquicardia (frequência cardíaca aumentada)
+-
+confusão
+-
+depressão do nível de consciência (p. ex., coma)
+Se parar ou reduzir SIFROL também poderá desenvolver uma afeção médica denominada síndrome de 
+abstinência dos agonistas da dopamina. Os sintomas incluem depressão, apatia, ansiedade, fadiga, 
+sudação ou dor. Se tiver estes sintomas, deve contactar o seu médico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.
+73</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. A avaliação destes efeitos indesejáveis é baseada nas seguintes 
+frequências:
+Muito frequente:
+pode afetar mais de 1 em cada 10 pessoas
+Frequente:
+pode afetar até 1 em 10 pessoas
+Pouco frequente:
+pode afetar até 1 em 100 pessoas
+Raro:
+pode afetar até 1 em 1000 pessoas
+Muito raro:
+pode afetar até 1 em 10 000 pessoas
+Desconhecida:
+A frequência não pode ser calculada a partir dos dados disponíveis
+Se sofre de doença de Parkinson, poderá ter os seguintes efeitos indesejáveis.
+Muito frequente:
+-
+Discinesia (p. ex., movimentos involuntários, anormais dos membros)
+-
+Sonolência
+-
+Tonturas
+-
+Naúseas (sentir-se enjoado)
+Frequente:
+-
+Impulso para se comportar de forma pouco usual
+-
+Alucinações (ver, ouvir ou sentir coisas que não existem)
+-
+Confusão
+-
+Cansaço (fadiga)
+-
+Insónia
+-
+Excesso de fluídos, geralmente nas pernas (edema periférico)
+-
+Dor de cabeça
+-
+Hipotensão (tensão arterial baixa)
+-
+Sonhos invulgares
+-
+Prisão de ventre
+-
+Compromisso visual
+-
+Vómitos
+-
+Perda de peso, incluindo diminuição do apetite
+Pouco frequente:
+-
+Paranoia (p. ex., medo excessivo relativamente ao seu próprio bem estar)
+-
+Ilusão
+-
+Sonolência excessiva durante o dia e ataques súbitos de sono
+-
+Amnésia (distúrbios de memória)
+-
+Hipercinesia (movimentos aumentados e incapacidade de se manter quieto)
+-
+Aumento de peso
+-
+Reações alérgicas (p. ex., erupção na pele, comichão, hipersensibilidade)
+-
+Desmaio
+-
+Insuficiência cardíaca (problemas no coração que podem causar dificuldade em respirar ou 
+inchaço nos tornozelos)<em> -
+Secreção inapropriada da hormona antidiurética</em> -
+Irrequietude
+-
+Dispneia (dificuldade em respirar)
+-
+Soluços
+-
+Pneumonia (infeção dos pulmões)
+-
+Incapacidade de resistir ao impulso, apelo ou tentação de realizar certas atividades que o 
+poderiam prejudicar a si ou aos outros, que podem incluir:
+-
+Forte impulso para o jogo viciante, apesar de sérias consequências pessoais ou familiares.
+-
+Interesse sexual alterado ou aumentado e comportamentos de preocupação significativa 
+em relação a si ou a outros, p. ex., um aumento do impulso sexual.
+74
+-
+Compras e gastos excessivos ou incontroláveis.
+-
+Compulsão alimentar (comer grandes quantidades de alimentos num curto período de 
+tempo) ou comer de forma compulsiva (comer mais alimentos do que o normal e mais do 
+que necessita para satisfazer a sua fome) * -
+Delírio (diminuição do estado de consciência, confusão, perda do sentido da realidade)
+Raro:
+-
+Mania (agitação, sensação de exaltação ou de sobre-excitação)
+-
+Ereção espontânea do pénis
+Desconhecido:
+-
+Depois de parar ou reduzir o seu tratamento com SIFROL podem ocorrer: depressão, apatia, 
+ansiedade, fadiga, transpiração ou dor (chamada síndrome de abstinência dos agonistas da 
+dopamina ou SAAD).
+Informe o seu médico se apresentar qualquer um destes comportamentos, ele irá avaliar formas 
+de gerir ou reduzir os sintomas.
+Não é possível fazer uma estimativa precisa da frequência para os efeitos indesejáveis marcados com </p>
+<p><em>, uma vez que estes efeitos indesejáveis não foram observados em estudos clínicos que envolveram 
+2762 doentes tratados com pramipexol. A categoria de frequência é provavelmente não superior a 
+“pouco frequente".
+Se sofre de Síndrome das Pernas Inquietas, poderá ter os seguintes efeitos indesejáveis:
+Muito frequente:
+-
+Naúseas (sentir-se enjoado)
+-
+Sintomas que começam mais cedo do que o habitual, são mais intensos ou envolvem outros 
+membros (síndrome de acréscimo das pernas inquietas).
+Frequente:
+-
+Alterações no padrão do sono, tais como dificuldade em adormecer (insónia) e sonolência
+-
+Cansaço (fadiga)
+-
+Dor de cabeça
+-
+Sonhos invulgares
+-
+Prisão de ventre
+-
+Tonturas
+-
+Vómitos
+Pouco frequente:
+-
+Impulso para se comportar de forma pouco usual</em> -
+Insuficiência cardíaca (problemas no coração que podem causar dificuldade em respirar ou 
+inchaço nos tornozelos)<em> -
+Secreção inapropriada da hormona antidiurética</em> -
+Discinesia (p. ex., movimentos involuntários, anormais dos membros)
+-
+Hipercinesia (movimentos aumentados e incapacidade de se manter quieto)<em> -
+Paranoia (p. ex., medo excessivo relativamente ao seu próprio bem estar)</em> -
+Ilusão<em> -
+Amnésia (distúrbios de memória)</em> -
+Alucinações (ver, ouvir ou sentir coisas que não existem)
+-
+Confusão
+-
+Sonolência excessiva durante o dia e ataques súbitos de sono
+-
+Aumento de peso
+-
+Hipotensão (tensão arterial baixa)
+-
+Excesso de fluídos, geralmente nas pernas (edema periférico)
+-
+Reações alérgicas (p. ex., erupção na pele, comichão, hipersensibilidade)
+-
+Desmaio
+75
+-
+Incapacidade de se manter quieto
+-
+Compromisso visual
+-
+Perda de peso, incluindo diminuição do apetite
+-
+Dispneia (dificuldade em respirar)
+-
+Soluços
+-
+Pneumonia (infeção dos pulmões)<em> -
+Incapacidade de resistir ao impulso, apelo ou tentação de realizar certas atividades que o 
+poderiam prejudicar a si ou aos outros, que podem incluir:
+-
+Forte impulso para o jogo viciante, apesar de sérias consequências pessoais ou 
+familiares.</em> -
+Interesse sexual alterado ou aumentado e comportamentos de preocupação significativa 
+em relação a si ou a outros, p. ex., um aumento do impulso sexual.<em> -
+Compras e gastos excessivos ou incontroláveis.</em> -
+Compulsão alimentar (comer grandes quantidades de alimentos num curto período de 
+tempo) ou comer de forma compulsiva (comer mais alimentos do que o normal e mais do 
+que necessita para satisfazer a sua fome) * -
+Mania (agitação, sensação de exaltação ou de sobre-excitação)<em> -
+Delírio (diminuição do estado de consciência, confusão, perda do sentido da realidade)</em> Raro:
+-
+Ereção espontânea do pénis
+Desconhecido:
+-
+Depois de parar ou reduzir o seu tratamento com SIFROL podem ocorrer: depressão, apatia, 
+ansiedade, fadiga, transpiração ou dor (chamada síndrome de abstinência dos agonistas da 
+dopamina ou SAAD).
+Informe o seu médico se apresentar qualquer um destes comportamentos, ele irá avaliar formas 
+de gerir ou reduzir os sintomas.
+Não é possível fazer uma estimativa precisa da frequência para os efeitos indesejáveis marcados com </p>
+<p>*, uma vez que estes efeitos indesejáveis não foram observados em estudos clínicos que envolveram 
+1395 doentes tratados com pramipexol. A categoria de frequência é provavelmente não superior a 
+“pouco frequente".
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar sifrol"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar sifrol"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior após VAL. O 
+prazo de validade corresponde ao último dia do mês indicado.
+Não conservar acima de 30 °C.
+Conservar na embalagem original para proteger os comprimidos da luz.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.
+76</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de SIFROL
+A substância ativa é o pramipexol.
+Cada comprimido contém 0,088 mg, 0,18 mg, 0,35 mg ou 0,7 mg de pramipexol equivalente a 
+0,125 mg, 0,25 mg, 0,5 mg ou 1 mg de di-hidrocloreto mono-hidratado de pramipexol, 
+respetivamente.
+Os outros componentes são manitol, amido de milho, sílica coloidal anidra, povidona K 25 e estearato 
+de magnésio.
+Qual o aspeto de SIFROL e conteúdo da embalagem
+SIFROL 0,088 mg comprimidos são brancos, de forma redonda, com superfície plana e sem ranhura.
+SIFROL 0,18 mg comprimidos e SIFROL 0,35 mg comprimidos são brancos, de forma oval e com 
+superfície plana. Os comprimidos contêm uma ranhura em ambos os lados que permite a sua divisão.
+SIFROL 0,7 mg comprimidos são brancos, de forma redonda e com superfície plana. Os comprimidos 
+contêm uma ranhura em ambos os lados que permite a sua divisão.
+Todos os comprimidos têm o símbolo da Boehringer Ingelheim gravado num dos lados e no outro têm 
+os códigos P6, P7, P8 ou P9, representando as dosagens 0,088 mg, 0,18 mg, 0,35 mg e 0,7 mg, 
+respetivamente.
+Todas as dosagens de SIFROL estão disponíveis em fitas contentoras de blisters de alumínio com 
+10 comprimidos por fita contentora, em caixas de cartão com 3 ou 10 fitas contentoras de blisters de 
+alumínio (30 ou 100 comprimidos). É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+Boehringer Ingelheim International GmbH
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Alemanha
+Fabricante
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Alemanha
+Rottendorf Pharma GmbH
+Ostenfelder Strasse 51 - 61
+59320 Ennigerloh
+Alemanha
+Boehringer Ingelheim France
+100-104 avenue de France
+75013 Paris
+França
+77
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado.
+België/Belgique/Belgien
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Lietuvos filialas
+Tel: +370 2595942
+България
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко. КГ -
+клон България
+Тел: +359 2 958 79 98
+Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Česká republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 111
+Magyarország
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Magyarországi Fiókelepe
+Tel: +36 1 229 89 00
+Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf: +45 39 15 88 88
+Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 900
+Nederland
+Boehringer Ingelheim B.V.
+Tel: +31 (0) 800 22 55889
+Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Eesti filiaal
+Tel: +372 612 8000
+Norge
+Boehringer Ingelheim Danmark Norwegian branch
+Tlf: +47 66 76 13 00
+Eλλάδα
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη A.E.
+Tηλ: +30 2 10 89 06 300
+Österreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7870
+España
+Boehringer Ingelheim España, S.A.
+Tel: +34 93 404 51 00
+Polska
+Boehringer Ingelheim Sp.zo.o.
+Tel: +48 22 699 0 699
+France
+Boehringer Ingelheim France S.A.S.
+Tél: +33 3 26 50 45 33
+Portugal
+Boehringer Ingelheim Portugal, Lda.
+Tel: +351 21 313 53 00
+Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 600
+România
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Viena - Sucursala Bucureşti
+Tel: +40 21 302 28 00
+Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Podružnica Ljubljana
+Tel: +386 1 586 40 00
+78
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+organizačná zložka
+Tel: +421 2 5810 1211
+Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 800
+Κύπρος
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη A.E.
+Tηλ: +30 2 10 89 06 300
+Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 00
+Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Latvijas filiāle
+Tel: +371 67 240 011
+United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Este folheto foi revisto pela última vez em {MM/AAAA}
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1230,6 +1952,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-00c9db2c528dacf2cdd39b041aea9315"
 * entry[0].resource = composition-da-00c9db2c528dacf2cdd39b041aea9315
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp00c9db2c528dacf2cdd39b041aea9315"
+* entry[=].resource = mp00c9db2c528dacf2cdd39b041aea9315
+                            
+                    
+Instance: bundlepackageleaflet-pt-00c9db2c528dacf2cdd39b041aea9315
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sifrol Package Leaflet for language pt"
+Description: "ePI document Bundle for sifrol Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-00c9db2c528dacf2cdd39b041aea9315"
+* entry[0].resource = composition-pt-00c9db2c528dacf2cdd39b041aea9315
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp00c9db2c528dacf2cdd39b041aea9315"
@@ -1331,6 +2075,18 @@ RuleSet: 00c9db2c528dacf2cdd39b041aea9315ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-00c9db2c528dacf2cdd39b041aea9315) // sifrol pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

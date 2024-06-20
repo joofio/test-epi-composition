@@ -926,6 +926,542 @@ hjemmeside: http://www.ema.europa.eu/. </p>         </div>"""
 
 
 
+Instance: composition-pt-749702afc7782cf3e72848a0a0ebc924
+InstanceOf: CompositionUvEpi
+Title: "Composition for tarceva Package Leaflet"
+Description:  "Composition for tarceva Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp749702afc7782cf3e72848a0a0ebc924)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tarceva"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Tarceva e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Tarceva </li>
+<li>Como tomar Tarceva </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Tarceva </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tarceva e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tarceva e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tarceva contém a substância ativa erlotinib. Tarceva é um medicamento usado para tratar o cancro 
+impedindo a atividade de uma proteína chamada recetor do fator de crescimento epidérmico (EGFR). 
+Sabe-se que esta proteína está envolvida no crescimento e disseminação das células cancerosas. </p>
+<p>Tarceva é indicado para adultos. Este medicamento pode ser-lhe prescrito se tem cancro do pulmão de 
+células não pequenas num estado avançado. Pode ser prescrito como tratamento inicial ou como 
+tratamento após quimioterapia inicial se a sua doença permanecer sem agravamento, desde que as suas 
+células cancerígenas tenham mutações específicas do EGFR. Pode também ser prescrito se a 
+quimioterapia anterior não ajudou a controlar a sua doença. </p>
+<p>Este medicamento pode também ser-lhe prescrito em associação com outro medicamento denominado 
+gemcitabina, se tem um cancro do pâncreas numa fase metastática. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tarceva"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tarceva"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Tarceva </p>
+<ul>
+<li>se tem alergia ao erlotinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </li>
+</ul>
+<p>Advertências e precauções: </p>
+<ul>
+<li>
+<p>se estiver a tomar outros medicamentos que podem aumentar ou diminuir a quantidade de 
+erlotinib no sangue ou influenciar o seu efeito (por exemplo, antifúngicos como o cetoconazol, 
+inibidores da protease, eritromicina, claritromicina, fenitoína, carbamazepina, barbitúricos, 
+rifampicina, ciprofloxacina, omeprazol, ranitidina, hipericão ou inibidores dos proteosomas), 
+fale com o seu médico. Em determinadas circunstâncias estes medicamentos podem diminuir a 
+eficácia ou intensificar os efeitos indesejáveis do Tarceva e o médico pode decidir alterar o 
+tratamento. O seu médico pode evitar usar estes medicamentos durante o tratamento com 
+Tarceva. </p>
+</li>
+<li>
+<p>se estiver a tomar anticoagulantes (um medicamento que ajuda a prevenir a trombose ou a 
+coagulação do sangue, por exemplo, a varfarina), Tarceva pode aumentar a sua tendência para 
+sangrar. Fale como o seu médico, ele vai necessitar de monitorizá-lo regularmente através de 
+algumas análises ao sangue. </p>
+</li>
+<li>
+<p>se estiver a tomar estatinas (medicamentos que baixam o colesterol no seu sangue), Tarceva 
+pode aumentar o risco de problemas musculares relacionados com estatinas, que em ocasiões 
+raras podem conduzir a uma lesão muscular grave (rabdomiólise), resultando em danos nos rins, 
+fale com o seu médico. </p>
+</li>
+<li>
+<p>se usar lentes de contacto e/ou tiver histórico de problemas nos olhos como secura grave, 
+inflamação da parte frontal do olho (córnea) ou úlceras envolvendo a parte da frente do olho, 
+informe o seu médico. </p>
+</li>
+</ul>
+<p>Leia também a secção seguinte “Outros medicamentos e Tarceva". </p>
+<p>Deve informar o seu médico: </p>
+<ul>
+<li>
+<p>se sentiu uma súbita dificuldade em respirar acompanhada de tosse ou febre, uma vez que o seu 
+médico pode precisar de o tratar com outros medicamentos e interromper o seu tratamento com 
+Tarceva;  </p>
+</li>
+<li>
+<p>se tiver diarreia, uma vez que o seu médico pode ter que o tratar com um anti-diarreico (por 
+exemplo, com loperamida); </p>
+</li>
+<li>
+<p>imediatamente, se tiver diarreia intensa ou persistente, náuseas, perda do apetite ou vómitos, 
+uma vez que o seu médico pode ter que interromper o tratamento com Tarceva, e pode 
+necessitar de o tratar no hospital; </p>
+</li>
+<li>
+<p>se alguma vez teve problemas no fígado. Tarceva pode provocar problemas graves no fígado e 
+alguns casos foram fatais. O seu médico poderá pedir análises ao sangue enquanto estiver a 
+tomar este medicamento para verificar se o seu fígado está a funcionar corretamente; </p>
+</li>
+<li>
+<p>se sentir uma dor forte no abdómen, bolhas ou grave descamação da pele. O seu médico poderá 
+necessitar de interromper ou parar o tratamento; </p>
+</li>
+<li>
+<p>se desenvolver de forma aguda ou sentir agravar dor ou vermelhidão nos olhos, aumento de 
+lágrimas, visão turva e/ou sensibilidade à luz, por favor informe o seu médico ou enfermeiro 
+imediatamente, porque poderá precisar de tratamento urgente (ver Efeitos indesejáveis possíveis 
+abaixo); </p>
+</li>
+<li>
+<p>se estiver também a tomar uma estatina e tiver uma inexplicável dor, sensibilidade, fraqueza ou 
+cãibras nos músculos. O seu médico pode necessitar de interromper ou parar o seu tratamento.  </p>
+</li>
+</ul>
+<p>Leia também a secção 4 “Efeitos indesejáveis possíveis". </p>
+<p>Doença no fígado ou no rim 
+Não se sabe se o Tarceva tem um efeito diferente no caso de o seu fígado ou o seu rim não estarem a 
+funcionar corretamente. Não se recomenda o tratamento com este medicamento se tiver uma doença 
+grave no fígado ou no rim. </p>
+<p>Alteração da glucuronidação, como a síndrome de Gilbert<br />
+Será tratado pelo seu médico com precaução se tiver uma doença que origina alterações no processo 
+de glucuronidação, como acontece na síndrome de Gilbert. </p>
+<p>Fumar 
+É aconselhado a deixar de fumar, se estiver em tratamento com Tarceva, uma vez que fumar pode 
+diminuir a quantidade de medicamento no sangue. </p>
+<p>Crianças e adolescentes 
+Tarceva não foi estudado em doentes com idade inferior a 18 anos. O tratamento com este 
+medicamento não é recomendado em crianças e adolescentes. </p>
+<p>Outros medicamentos e Tarceva 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. </p>
+<p>Tarceva com alimentos e bebidas 
+Não tome Tarceva com alimentos. Ver também a secção 3 “Como tomar Tarceva". </p>
+<p>Gravidez e amamentação 
+Evite engravidar durante o tratamento com Tarceva. Se existir risco de engravidar, deve usar 
+contraceção adequada durante o tratamento e durante pelo menos 2 semanas após ter tomado o último 
+comprimido.<br />
+Se engravidar durante o tratamento com Tarceva, informe imediatamente o seu médico. O médico 
+decidirá se o tratamento deverá ou não prosseguir. 
+Não amamente durante o tratamento com Tarceva e durante, pelo menos, 2 semanas após tomar o 
+último comprimido. 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Tarceva não foi estudado quanto aos seus possíveis efeitos na capacidade de conduzir ou de utilizar 
+máquinas, mas é muito improvável que o seu tratamento venha a afetar essas capacidades. </p>
+<p>Tarceva contém sódio 
+Este medicamento contém menos do que 1 mmol (menos do que 23 mg) de sódio por comprimido, ou 
+seja, Tarceva é praticamente “isento de sódio". </p>
+<p>Tarceva contém um açúcar designado por lactose mono-hidratada. 
+Se o seu médico lhe disse que tem intolerância a alguns açúcares, fale com ele antes de tomar Tarceva. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tarceva"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tarceva"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome sempre este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico 
+ou farmacêutico se tiver dúvidas.  </p>
+<p>O comprimido deve ser tomado pelo menos uma hora antes ou duas horas depois da ingestão de 
+alimentos.  </p>
+<p>Caso tenha cancro do pulmão de células não pequenas, a dose habitual é de um comprimido de 
+Tarceva 150 mg por dia. </p>
+<p>Caso tenha cancro do pâncreas metastático, a dose habitual é de um comprimido de Tarceva 100 mg 
+por dia. O Tarceva é administrado em associação com a gemcitabina. </p>
+<p>O seu médico pode ajustar a sua dose em 50 mg de cada vez. Para os diferentes regimes de dose, o 
+Tarceva encontra-se disponível em concentrações de 25 mg, 100 mg e 150 mg. </p>
+<p>Se tomar mais Tarceva do que deveria 
+Contacte imediatamente o seu médico ou farmacêutico. 
+Pode apresentar um aumento dos efeitos indesejáveis e o médico pode decidir interromper o seu 
+tratamento. </p>
+<p>Caso se tenha esquecido de tomar Tarceva 
+Se se esquecer de tomar uma ou mais doses de Tarceva, contacte o seu médico ou farmacêutico logo 
+que possível.<br />
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Tarceva 
+É importante que continue a tomar Tarceva todos os dias enquanto o seu médico lhe disser para o 
+fazer.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Contacte o seu médico assim que possível se tiver qualquer efeito indesejável mencionado abaixo. Em 
+alguns casos, o seu médico poderá necessitar de reduzir a sua dose de Tarceva ou interromper o 
+tratamento: </p>
+<ul>
+<li>
+<p>Diarreia e vómitos (muito frequentes: podem afetar mais de 1 em 10 pessoas). A diarreia grave 
+e persistente pode originar níveis baixos de potássio no sangue e compromisso da sua função 
+renal, em particular se ao mesmo tempo estiver a receber outros tratamentos com 
+quimioterapia. Se tiver diarreia mais grave ou persistente, contacte imediatamente o seu 
+médico, uma vez que pode necessitar de ser tratado no hospital. </p>
+</li>
+<li>
+<p>Irritação dos olhos devido a queratoconjuntivite (muito frequentes: podem afetar mais de 1 em 
+10 pessoas), conjuntivite e queratite (frequentes: podem afetar até 1 em 10 pessoas).  </p>
+</li>
+<li>
+<p>Uma forma de irritação dos pulmões chamada doença intersticial pulmonar (pouco frequente 
+nos doentes europeus; frequente nos doentes japoneses: pode afetar até 1 em 100 pessoas na 
+Europa e até 1 em 10 pessoas no Japão). Esta doença também pode estar relacionada com a 
+progressão natural da sua situação clínica e, nalguns casos, pode ser fatal. Se desenvolver 
+sintomas, tais como uma súbita dificuldade em respirar, associada a tosse ou febre, contacte 
+imediatamente o seu médico, uma vez que poderá sofrer desta doença. O seu médico pode 
+decidir parar definitivamente o seu tratamento com Tarceva. </p>
+</li>
+<li>
+<p>Foram observadas perfurações gastrointestinais (pouco frequentes: podem afetar até 1 em pessoas). Informe o seu médico se tem uma dor forte no seu abdómen. Informe também o seu 
+médico se teve úlceras pépticas ou doença diverticular no passado, pois tal pode aumentar o 
+risco.  </p>
+</li>
+<li>
+<p>Foi observada inflamação do fígado (hepatite) em casos raros (podem afetar até 1 em 1.pessoas). Os sintomas podem incluir sensação geral de mal-estar, com ou sem possível 
+icterícia (coloração amarela da pele e dos olhos), urina escura, náuseas, vómitos e dor 
+abdominal. Foi observada insuficiência hepática em casos raros. Esta pode ser fatal. Se os 
+valores dos testes ao seu sangue indicarem alterações graves da sua função hepática, o seu 
+médico pode necessitar de interromper o seu tratamento. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>Erupção cutânea que pode ocorrer ou agravar-se em áreas expostas ao sol. Se estiver exposto 
+ao sol poderá ser recomendável a utilização de roupa protetora e/ou protetor solar (por 
+exemplo, com filtros minerais). </p>
+</li>
+<li>
+<p>Infeção </p>
+</li>
+<li>
+<p>Perda de apetite, diminuição do peso </p>
+</li>
+<li>
+<p>Depressão </p>
+</li>
+<li>
+<p>Dor de cabeça, alterações da sensação na pele ou extremidades adormecidas </p>
+</li>
+<li>
+<p>Dificuldade em respirar, tosse </p>
+</li>
+<li>
+<p>Náuseas </p>
+</li>
+<li>
+<p>Irritação da boca </p>
+</li>
+<li>
+<p>Dor de estômago, indigestão e flatulência </p>
+</li>
+<li>
+<p>Valores alterados nos testes de funcionamento do fígado </p>
+</li>
+<li>
+<p>Comichão </p>
+</li>
+<li>
+<p>Cansaço, febre, arrepios </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>Pele seca </p>
+</li>
+<li>
+<p>Perda de cabelo </p>
+</li>
+<li>
+<p>Hemorragia do nariz </p>
+</li>
+<li>
+<p>Hemorragia do estômago ou intestinos </p>
+</li>
+<li>
+<p>Reações inflamatórias à volta da unha </p>
+</li>
+<li>
+<p>Infeção dos folículos pilosos </p>
+</li>
+<li>
+<p>Acne </p>
+</li>
+<li>
+<p>Pele gretada (fissuras cutâneas) </p>
+</li>
+<li>
+<p>Função dos rins diminuída (quando usado em combinação com quimioterapia fora das 
+indicações aprovadas) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>Inflamação dos rins (nefrite) </p>
+</li>
+<li>
+<p>Excesso de proteína na urina (proteinúria) </p>
+</li>
+<li>
+<p>Alterações das pestanas  </p>
+</li>
+<li>
+<p>Excesso de pelos no corpo e face distribuídos segundo um padrão masculino </p>
+</li>
+<li>
+<p>Excesso de pigmentação na pele </p>
+</li>
+<li>
+<p>Alterações das sobrancelhas  </p>
+</li>
+<li>
+<p>Unhas frágeis e soltas </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas): </p>
+<ul>
+<li>Palmas das mãos ou dos pés doridas ou vermelhas (Síndrome de eritrodisestesia palmo-
+plantar) </li>
+</ul>
+<p>Efeitos indesejáveis muito raros (podem afetar até 1 em 10.000 pessoas): </p>
+<ul>
+<li>
+<p>Casos de ulceração ou perfuração da córnea </p>
+</li>
+<li>
+<p>Bolhas ou esfoliação grave da pele (sugestivo de síndrome de Stevens-Johnson) </p>
+</li>
+<li>
+<p>Inflamação da parte colorida do olho </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V*. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.  </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tarceva"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tarceva"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tarceva </p>
+<ul>
+<li>
+<p>A substância ativa do Tarceva é o erlotinib. Cada comprimido revestido por película contém 
+25 mg, 100 mg ou 150 mg de erlotinib (sob a forma de cloridrato de erlotinib), dependendo da 
+concentração. </p>
+</li>
+<li>
+<p>Os outros componentes são: 
+Núcleo do comprimido: lactose mono-hidratada, celulose microcristalina, carboximetilamido 
+sódico Tipo A, laurilsulfato de sódio, estearato de magnésio (ver também a secção 2 acerca de 
+lactose mono-hidratada e sódio). 
+Revestimento do comprimido: hipromelose, hidroxipropilcelulose, dióxido de titânio, macrogol. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Tarceva e conteúdo da embalagem: 
+Tarceva 25 mg apresenta-se como um comprimido revestido por película, branco a amarelado, 
+redondo, com “T 25" gravado numa das faces, e encontra-se disponível em embalagens de comprimidos. 
+Tarceva 100 mg apresenta-se como um comprimido revestido por película, branco a amarelado, 
+redondo, com “T 100" gravado numa das faces, e encontra-se disponível em embalagens de comprimidos. 
+Tarceva 150 mg apresenta-se como um comprimido revestido por película, branco a amarelado, 
+redondo, com “T 150" gravado numa das faces, e encontra-se disponível em embalagens de comprimidos. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Fabricante 
+Roche Pharma AG 
+Emil-Barell-Strasse 1 
+D-79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+N.V. Roche S.A. 
+Tél/Tel: +32 (0) 2 525 82<br />
+Lietuva 
+UAB “Roche Lietuva" 
+Tel: +370 5 2546 
+България 
+Рош България ЕООД 
+Тел: +359 2 818 44<br />
+Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>Česká republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382 
+Magyarország 
+Roche (Magyarország) Kft. 
+Tel: +36  - 1 279 4Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99<br />
+Malta 
+(See Ireland) </p>
+<p>Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624<br />
+Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438 
+Eesti 
+Roche Eesti OÜ 
+Tel: + 372 - 6 177<br />
+Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90<br />
+Ελλάδα 
+Roche (Hellas) A.E.<br />
+Τηλ: +30 210 61 66<br />
+Österreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27 
+España 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81<br />
+Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18<br />
+France 
+Roche 
+Tél: +33 (0) 1 47 61 40<br />
+Portugal 
+Roche Farmacêutica Química, Lda 
+Tel: +351 - 21 425 70  </p>
+<p>Hrvatska 
+Roche d.o.o. 
+Tel: +385 1 4722<br />
+România 
+Roche România S.R.L. 
+Tel: +40 21 206 47<br />
+Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0 
+Slovenija 
+Roche farmacevtska družba d.o.o. 
+Tel: +386 - 1 360 26<br />
+Ísland<br />
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika<br />
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638 
+Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554<br />
+Kύπρος<br />
+Γ.Α.Σταμάτης &amp; Σια Λτδ. 
+Τηλ: +357 - 22 76 62<br />
+Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1 
+Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039 
+United Kingdom  (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
 
 
                     
@@ -967,6 +1503,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-749702afc7782cf3e72848a0a0ebc924"
 * entry[0].resource = composition-da-749702afc7782cf3e72848a0a0ebc924
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp749702afc7782cf3e72848a0a0ebc924"
+* entry[=].resource = mp749702afc7782cf3e72848a0a0ebc924
+                            
+                    
+Instance: bundlepackageleaflet-pt-749702afc7782cf3e72848a0a0ebc924
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tarceva Package Leaflet for language pt"
+Description: "ePI document Bundle for tarceva Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-749702afc7782cf3e72848a0a0ebc924"
+* entry[0].resource = composition-pt-749702afc7782cf3e72848a0a0ebc924
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp749702afc7782cf3e72848a0a0ebc924"
@@ -1068,6 +1626,18 @@ RuleSet: 749702afc7782cf3e72848a0a0ebc924ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-749702afc7782cf3e72848a0a0ebc924) // tarceva pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

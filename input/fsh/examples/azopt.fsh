@@ -835,6 +835,340 @@ hjemmeside http://www.ema.europa.eu/. </p>         </div>"""
 
 
 
+Instance: composition-pt-831dc32174e3de65bc27162f5e1c766f
+InstanceOf: CompositionUvEpi
+Title: "Composition for azopt Package Leaflet"
+Description:  "Composition for azopt Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp831dc32174e3de65bc27162f5e1c766f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - azopt"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é AZOPT e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar AZOPT </li>
+<li>Como utilizar AZOPT </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar AZOPT </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é azopt e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é azopt e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AZOPT contém brinzolamida que pertence a um grupo de medicamentos denominado inibidores da 
+anidrase carbónica. Reduz a pressão dentro do olho. </p>
+<p>AZOPT colírio é utilizado para tratar a pressão ocular elevada. Esta pressão pode provocar uma 
+doença chamada glaucoma. </p>
+<p>Se a pressão no olho for muito elevada pode lesar a sua visão. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar azopt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar azopt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize o AZOPT 
+- se tem problemas graves de rins. 
+- se tem alergia à brinzolamida ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se tem alergia aos medicamentos chamados sulfonamidas. Exemplos destas incluem 
+medicamentos utilizados no tratamento da diabetes, infeções e também diuréticos. AZOPT pode 
+causar a mesma alergia. 
+- Se tem demasiada acidez no sangue (uma doença chamada acidose hiperclorémica) </p>
+<p>Se tiver dúvidas, consulte o seu médico. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de utilizar AZOPT: 
+- se tem problemas de rim ou fígado. 
+- se tem olhos secos ou problemas da córnea. 
+- se utiliza lentes de contacto hidrófilas. 
+- se está a tomar outros medicamentos sulfonamídicos. 
+- se tem uma forma específica de glaucoma em que a pressão dentro do olho aumenta devido a 
+depósitos que bloqueiam a drenagem de fluidos (glaucoma pseudoexfoliativo ou glaucoma 
+pigmentar) ou uma forma específica de glaucoma em que a pressão no interior do olho aumenta 
+(às vezes rapidamente) porque a protuberância (volume) do olho aumenta e bloqueia a 
+drenagem do fluido (glaucoma de ângulo fechado). 
+- se já desenvolveu uma erupção cutânea grave ou descamação da pele, bolhas e/ou feridas na 
+boca após utilizar AZOPT ou outros medicamentos relacionados. </p>
+<p>Tome especial cuidado com AZOPT: 
+Foram notificadas reações cutâneas graves, incluindo síndrome de Stevens-Johnson e necrólise 
+epidérmica tóxica, associadas ao tratamento com brinzolamida. Pare de utilizar AZOPT e contacte um 
+médico imediatamente se notar algum dos sintomas relacionados com as reações cutâneas graves 
+descritas na secção 4.<br />
+Crianças e adolescentes 
+AZOPT não deve ser usado por crianças ou adolescentes com idade inferior a 18 anos a não ser por 
+indicação do seu médico. </p>
+<p>Outros medicamentos e AZOPT 
+Informe o seu médico ou farmacêutico se estiver a tomar ou tiver tomado recentemente outros 
+medicamentos, ou se vier a tomar outros medicamentos, incluindo medicamentos obtidos sem receita 
+médica. </p>
+<p>Se tiver a utilizar outro medicamento que contenha um inibidor da anidrase carbónica (acetazolamida 
+ou dorzolamida, ver a secção </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar azopt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar azopt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de utilizar este medicamento. </p>
+<p>As mulheres com potencial para engravidar devem de utilizar métodos contracetivos eficazes durante 
+o tratamento com AZOPT. A utilização de AZOPT não é recomendada durante a gravidez ou 
+amamentação. Não utilize AZOPT exceto se claramente indicado pelo seu médico. </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza ou utilize máquinas até a sua visão ficar nítida. Pode sentir a sua visão turva durante 
+algum tempo após a utilização do AZOPT. </p>
+<p>O AZOPT pode comprometer a capacidade de realizar tarefas que requeiram alerta mental e/ou 
+coordenação motora. Se isso acontecer, tome cuidado ao conduzir ou utilizar máquinas. </p>
+<p>AZOPT contém cloreto de benzalcónio </p>
+<p>Este medicamento contém 3,35 µg de cloreto de benzalcónio por gota (=1 dose) o que equivale a 
+0,01% ou 0,1 mg/ml. </p>
+<p>AZOPT contém um conservante (cloreto de benzalcónio) pode ser absorvido pelas lentes de contacto 
+moles e pode alterar a cor das lentes de contacto. Deve remover as lentes de contacto antes da 
+utilização deste medicamento e voltar a colocá-las 15 minutos depois. Cloreto de benzalcónio também 
+pode causar irritação nos olhos, especialmente se tem os olhos secos ou alterações da córnea (a 
+camada transparente na frente do olho). Se sentir uma sensação estranha no olho, picadas ou dor no 
+olho após utilizar este medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Apenas utilize AZOPT nos olhos. Não engula ou injete. </p>
+<p>A dose recomendada é 
+1 gota no olho ou olhos afetados, duas vezes por dia -de manhã e à noite. 
+Utilize esta quantidade, exceto se o seu médico lhe indicar algo diferente. Só utilize AZOPT em 
+ambos os olhos se o seu médico o indicar. Utilize-o durante o tempo indicado pelo seu médico. </p>
+<p>Como utilizar </p>
+<p>1 
+2 
+3 </p>
+<ul>
+<li>
+<p>Pegue no frasco de AZOPT e num espelho. </p>
+</li>
+<li>
+<p>Lave as suas mãos. </p>
+</li>
+<li>
+<p>Agite o frasco e retire a tampa. Se após retirar a tampa, o selo de proteção estiver solto, retire-o 
+antes de utilizar o produto. </p>
+</li>
+<li>
+<p>Segure o frasco, virado para baixo, entre o polegar e o dedo médio. </p>
+</li>
+<li>
+<p>Incline a cabeça para trás. Puxe a pálpebra inferior do olho para baixo com um dos dedos até se 
+formar uma bolsa entre a pálpebra e o olho. A gota cairá nesta bolsa (figura 1). </p>
+</li>
+<li>
+<p>Coloque a extremidade do frasco perto do olho. Utilize o espelho se considerar necessário. </p>
+</li>
+<li>
+<p>Não toque com a extremidade do frasco no seu olho, pálpebra, áreas circundantes ou outras 
+superfícies, pois pode infetar o colírio. </p>
+</li>
+<li>
+<p>Exerça uma pressão suave com o indicador no fundo do frasco e faça cair uma gota de AZOPT 
+de cada vez. </p>
+</li>
+<li>
+<p>Não aperte o frasco. O frasco está desenhado para que seja apenas necessária uma suave pressão 
+no fundo (figura 2). </p>
+</li>
+<li>
+<p>Após instilar AZOPT, pressione o canto do olho, junto ao nariz, com o dedo (figura 3) durante 
+pelo menos 1 minuto. Isto ajuda o AZOPT a não se espalhar para o resto do corpo. </p>
+</li>
+<li>
+<p>Se está a aplicar as gotas em ambos os olhos, repita os passos já referidos para o outro olho. </p>
+</li>
+<li>
+<p>Coloque a tampa no frasco imediatamente após a sua utilização. </p>
+</li>
+<li>
+<p>Utilize cada frasco até à sua validade de abertura, antes de abrir o seguinte. </p>
+</li>
+</ul>
+<p>Se a gota não cair no olho, tente novamente. </p>
+<p>Se estiver a usar outro colírio, aguarde pelo menos 5 minutos entre colocar as gotas de AZOPT e as 
+outras gotas. As pomadas oftalmológicas devem ser administradas em último lugar. </p>
+<p>Se utilizar mais AZOPT do que deveria 
+Se utilizar demasiado produto nos seus olhos, lave-os com água morna. Não coloque mais gotas até ser 
+altura de aplicar a próxima dose. </p>
+<p>Caso se tenha esquecido de utilizar o AZOPT 
+Coloque uma única gota assim que se lembrar, e siga depois o seu esquema de aplicação habitual. Não 
+aplique uma dose dupla para compensar a dose esquecida. </p>
+<p>Se parar de utilizar AZOPT 
+Se parar de usar o AZOPT sem falar com o seu médico, a pressão no seu olho não ficará controlada o 
+que poderá levar à perda de visão. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar azopt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar azopt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestam em todas as pessoas. </p>
+<p>Os efeitos indesejáveis seguintes foram observados com AZOPT. </p>
+<p>Pare de utilizar AZOPT e contacte um médico imediatamente se notar algum dos seguintes sintomas: </p>
+<ul>
+<li>manchas avermelhadas sem relevo, semelhantes a um alvo ou circulares no tronco, 
+frequentemente com bolhas centrais, descamação da pele, úlceras na boca, garganta, nariz, 
+genitais e olhos. Estas erupções cutâneas graves podem ser precedidas de febre e sintomas 
+semelhantes aos da gripe (síndrome de Stevens-Johnson, necrólise epidérmica tóxica). </li>
+</ul>
+<p>Frequentes (podem afetar mais de 1 em 10 utilizadores) </p>
+<ul>
+<li>
+<p>Efeitos oculares: visão turva, irritação ocular, dor ocular, secreção ocular, comichão, olho seco, 
+sensação estranha no olho, olho vermelho </p>
+</li>
+<li>
+<p>Efeitos gerais: mau gosto na boca </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 utilizadores) </p>
+<ul>
+<li>
+<p>Efeitos oculares: sensibilidade à luz, inflamação ou infeção da conjuntiva, edema ocular, 
+comichão, vermelhidão, ou inchaço na pálpebra, depósitos no olho, brilho, sensação de 
+queimadura, diminuição da sensibilidade ocular, crescimento na superfície do olho, aumento da 
+pigmentação do olho, olhos cansados, descamação das pálpebras, aumento da produção de 
+lágrimas. </p>
+</li>
+<li>
+<p>Efeitos indesejáveis gerais: frequência cardíaca diminuída, redução da função cardíaca, 
+batimento cardíaco intenso que pode ser rápido ou irregular, dificuldade respiratória, diminuição 
+dos glóbulos vermelhos no sangue, aumento do nível de cloro no sangue, vertigens, dificuldade 
+com a memória, depressão, nervosismo, diminuição do interesse emocional, pesadelos, fraqueza 
+generalizada, sensação estranha, dor, problemas motores, dificuldade sexual masculina, 
+sintomas gripais, congestão respiratória, infeção dos seios nasais, irritação na garganta, dor de 
+garganta, sensibilidade anormal ou diminuída na boca, inflamação das paredes do esófago, dor 
+abdominal, náuseas, vómitos, perturbação do estômago, movimentos intestinais frequentes, 
+diarreia, gases intestinais, distúrbios digestivos, dor renal, dor muscular, espasmos musculares, 
+dor nas costas, hemorragias nasais, corrimento nasal, nariz entupido, espirros, eritema, sensação 
+anormal na pele, comichão, erupção na pele ligeira ou vermelhidão com protuberâncias, 
+espessamento da pele, dor de cabeça, boca seca, detritos no olho. </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1000 utilizadores) </p>
+<ul>
+<li>
+<p>Efeitos oculares: inchaço da córnea, visão dupla ou reduzida, visão anormal, “flashes" de luz 
+no campo de visão, sensibilidade ocular diminuída, inchaço à volta do olho, aumento da pressão 
+no interior do olho, deterioração do nervo ótico. </p>
+</li>
+<li>
+<p>Efeitos indesejáveis gerais: deterioração da memória, sonolência, dor no peito, 
+congestionamento das vias respiratórias superiores, congestão sinusal, congestão nasal, nariz 
+seco, zumbidos, perda de cabelos, comichão generalizada, nervosismo, irritabilidade, frequência 
+cardíaca irregular, fraqueza, dificuldades em adormecer, pieira, erupção na pele com comichão. </p>
+</li>
+</ul>
+<p>Desconhecidos (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>Efeitos oculares: perturbações na pálpebra, perturbações na visão, perturbações na córnea, 
+alergia no olho, diminuição no crescimento e/ou número de pestanas, vermelhidão das 
+pálpebras. </p>
+</li>
+<li>
+<p>Efeitos indesejáveis gerais: aumento dos sintomas alérgicos, sensibilidade diminuída, 
+tremores, perda ou diminuição do paladar, diminuição da tensão arterial, aumento da tensão 
+arterial, dor nas articulações, asma, dores nas extremidades, vermelhidão, inflamação ou 
+comichão na pele, análises sanguíneas hepáticas anormais, inchaço das extremidades, aumento 
+da frequência urinária, diminuição do apetite, sensação de mal-estar, manchas avermelhadas 
+sem relevo, semelhantes a um alvo ou circulares no tronco, frequentemente com bolhas centrais, 
+descamação da pele, úlceras na boca, garganta, nariz, genitais e olhos, que podem ser precedidas 
+de febre e sintomas semelhantes aos da gripe. Estas erupções cutâneas graves podem ser 
+potencialmente fatais (síndrome de Stevens-Johnson, necrólise epidérmica tóxica). </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na caixa após a palavra 
+“EXP.". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de quaisquer condições especiais de conservação. </p>
+<p>Deverá rejeitar cada frasco quatro semanas após a sua primeira abertura, para prevenir infeções. 
+Escreva a data de abertura de cada frasco no espaço disponível abaixo e no espaço disponível na 
+rotulagem do frasco e na caixa. Na embalagem contendo um único frasco, só necessita de escrever 
+uma data. </p>
+<p>Aberto (1): 
+Aberto (2): 
+Aberto (3): </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+
+
+
 
 
                     
@@ -876,6 +1210,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-831dc32174e3de65bc27162f5e1c766f"
 * entry[0].resource = composition-da-831dc32174e3de65bc27162f5e1c766f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp831dc32174e3de65bc27162f5e1c766f"
+* entry[=].resource = mp831dc32174e3de65bc27162f5e1c766f
+                            
+                    
+Instance: bundlepackageleaflet-pt-831dc32174e3de65bc27162f5e1c766f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for azopt Package Leaflet for language pt"
+Description: "ePI document Bundle for azopt Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-831dc32174e3de65bc27162f5e1c766f"
+* entry[0].resource = composition-pt-831dc32174e3de65bc27162f5e1c766f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp831dc32174e3de65bc27162f5e1c766f"
@@ -977,6 +1333,18 @@ RuleSet: 831dc32174e3de65bc27162f5e1c766fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-831dc32174e3de65bc27162f5e1c766f) // azopt pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1120,6 +1120,460 @@ under forudsætning af, at de foreslåede ændringer indføres i produktinformat
 
 
 
+Instance: composition-pt-c0c73074469385390d12a06f439c2f95
+InstanceOf: CompositionUvEpi
+Title: "Composition for palynziq Package Leaflet"
+Description:  "Composition for palynziq Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc0c73074469385390d12a06f439c2f95)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - palynziq"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Palynziq e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Palynziq </li>
+<li>Como utilizar Palynziq </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Palynziq </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é palynziq e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é palynziq e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Palynziq contém a substância ativa pegvaliase, uma enzima com a capacidade de decompor uma 
+substância chamada fenilalanina no organismo. Palynziq é um tratamento para doentes com idade 
+igual ou superior a 16 anos que tenham fenilcetonúria, uma doença hereditária rara que resulta na 
+acumulação no organismo da fenilalanina proveniente das proteínas nos alimentos. As pessoas com 
+fenilcetonúria apresentam níveis altos de fenilalanina, o que pode resultar em problemas de saúde 
+graves. Palynziq reduz os níveis de fenilalanina no sangue dos doentes com fenilcetonúria e cujos 
+níveis de fenilalanina no sangue não se consigam manter abaixo dos 600 micromol/l através de outros 
+métodos como, por exemplo, a alimentação. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar palynziq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar palynziq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Palynziq </p>
+<ul>
+<li>se tem alergia grave à pegvaliase ou a qualquer outro componente deste medicamento, ou a 
+outro medicamento que contenha polietilenoglicol (PEG) (indicados na secção 6). </li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Palynziq. </p>
+<p>Reações alérgicas 
+Poderá ter reações alérgicas durante o tratamento com Palynziq. O seu médico irá informá-lo sobre 
+como pode gerir as suas reações alérgicas, com base na gravidade da reação, e irá receitar-lhe 
+medicamentos adicionais para controlar a reação. </p>
+<p>Antes de utilizar Palynziq, informe o seu médico se não puder ou não quiser utilizar um dispositivo de 
+injeção de adrenalina para tratar uma reação alérgica grave ao Palynziq. </p>
+<p>Palynziq pode causar reações alérgicas graves, as quais podem ser potencialmente fatais e que 
+podem acontecer em qualquer momento após uma injeção com Palynziq. </p>
+<ul>
+<li>
+<p>Interrompa as injeções de Palynziq se ocorrer qualquer um dos sintomas seguintes.  </p>
+</li>
+<li>
+<p>Inchaço da cara, olhos, lábios, boca, garganta, língua, mãos e/ou pés </p>
+</li>
+<li>Dificuldade ao respirar ou pieira </li>
+<li>Aperto da garganta ou sensação de sufocação </li>
+<li>Dificuldade ao engolir ou falar </li>
+<li>Tonturas ou desmaio </li>
+<li>Perda de controlo da urina ou fezes </li>
+<li>Batimento rápido do coração </li>
+<li>Urticária (erupção na pele com papos e comichão) que se alastra rapidamente </li>
+<li>Afrontamento (calores) </li>
+<li>
+<p>Cólicas ou dores de barriga graves, vómito ou diarreia </p>
+</li>
+<li>
+<p>Utilize o dispositivo de injeção de adrenalina de acordo com as instruções do seu médico e 
+procure auxílio médico imediatamente. </p>
+</li>
+</ul>
+<p>O seu médico irá receitar-lhe um dispositivo de injeção de adrenalina para utilizar em caso de reação 
+alérgica grave. O médico irá dar-lhe formação, e à pessoa responsável por lhe prestar assistência, sobre 
+quando e como utilizar a adrenalina. Mantenha o dispositivo de injeção de adrenalina sempre consigo. </p>
+<p>Durante pelo menos os primeiros 6 meses de tratamento, deverá ter alguém consigo quando 
+administrar a autoinjeção com Palynziq. Esta pessoa deverá permanecer consigo durante pelo 
+menos 1 hora após a injeção para observar eventuais sinais e sintomas de uma reação alérgica grave e, 
+se necessário, administrar-lhe uma injeção de adrenalina e contactar os serviços de emergência 
+médica. </p>
+<p>Se tiver uma reação alérgica grave, não continue a utilizar Palynziq antes de falar com o médico que 
+lhe receitou Palynziq. Informe o seu médico se tiver uma reação alérgica grave. O seu médico irá 
+decidir se pode continuar o tratamento com Palynziq. </p>
+<p>Tempo necessário para diminuir os seus níveis de fenilalanina no sangue 
+O médico irá iniciar o seu tratamento com Palynziq numa dose baixa e irá aumentar a dose lentamente. 
+Demorará algum tempo para encontrar a dose que funciona melhor para reduzir os seus níveis de 
+fenilalanina no sangue. Na maioria das pessoas, isto acontece após 18 meses, mas, em alguns casos, 
+pode demorar até 30 meses. </p>
+<p>Injeção de outros medicamentos que contêm PEG durante a utilização de Palynziq 
+Palynziq inclui um ingrediente chamado polietilenoglicol (PEG). Se injetar Palynziq em conjunto com 
+outro medicamento injetável que contenha PEG, tal como o acetato de medroxiprogesterona 
+PEGuilado, poderá ocorrer uma reação alérgica. Informe o seu médico ou farmacêutico se estiver a 
+injetar, tiver injetado recentemente, ou se vier a injetar outros medicamentos. </p>
+<p>Níveis demasiado baixos de fenilalanina no sangue 
+Poderá apresentar níveis demasiado baixos de fenilalanina no sangue durante a utilização de Palynziq. 
+O seu médico irá verificar os seus níveis de fenilalanina no sangue mensalmente. Se os seus níveis de 
+fenilalanina no sangue forem demasiado baixos, o seu médico poderá pedir-lhe para mudar a sua </p>
+<p>alimentação e/ou reduzir a dose de Palynziq. O seu médico irá verificar os seus níveis de fenilalanina 
+no sangue de 2 em 2 semanas até os níveis de fenilalanina no sangue regressarem ao normal. </p>
+<p>Crianças e adolescentes 
+Não existem informações sobre a segurança e eficácia de Palynziq em crianças e adolescentes com 
+menos de 16 anos de idade com fenilcetonúria. Por este motivo, este medicamento não deve ser 
+utilizado em pessoas com menos de 16 anos de idade. </p>
+<p>Outros medicamentos e Palynziq 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de utilizar este medicamento. </p>
+<p>Palynziq não é recomendado durante a gravidez, a não ser que a sua condição exija o tratamento com 
+Palynziq e se os outros métodos de controlo dos níveis de fenilalanina no sangue não funcionarem. Se 
+os seus níveis de fenilalanina no sangue forem demasiado altos ou demasiado baixos durante a 
+gravidez, isso poderá prejudicá-la ou ao seu bebé. O seu médico irá decidir, em conjunto consigo, a 
+melhor forma de controlar os seus níveis de fenilalanina no sangue. É muito importante manter os seus 
+níveis de fenilalanina sob controlo antes e durante a gravidez. </p>
+<p>Desconhece-se se Palynziq é excretado no leite humano ou se poderá afetar o seu bebé. Fale com o seu 
+profissional de saúde sobre a melhor forma de alimentar o seu bebé se estiver a utilizar Palynziq. </p>
+<p>Desconhece-se se Palynziq tem efeitos sobre a fertilidade. Estudos em animais sugerem que as 
+mulheres podem ter dificuldades em engravidar se os seus níveis de fenilalanina no sangue forem 
+anormalmente baixos. </p>
+<p>Condução de veículos e utilização de máquinas 
+Palynziq pode afetar a sua capacidade de conduzir veículos e utilizar máquinas se tiver uma reação 
+alérgica grave. </p>
+<p>Palynziq contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por seringa pré-cheia, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar palynziq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar palynziq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>Palynziq é administrado como uma injeção debaixo da pele (injeção subcutânea). </p>
+<p>Dose </p>
+<ul>
+<li>
+<p>O tratamento com Palynziq será iniciado na dose mais baixa. Será utilizada a seringa de 2,5 mg, 
+uma vez por semana, durante pelo menos as primeiras 4 semanas. A seringa de 2,5 mg tem um 
+êmbolo branco. </p>
+</li>
+<li>
+<p>O seu médico irá, depois, aumentar lentamente a sua dose e/ou a frequência com que injeta 
+Palynziq. O seu médico irá dizer-lhe durante quanto tempo deve manter a mesma dose. 
+Aumentar a dose lentamente permite ao seu organismo ajustar-se a este medicamento. </p>
+</li>
+<li>
+<p>O objetivo é atingir uma dose diária que reduza os níveis de fenilalanina no sangue para o 
+intervalo alvo de 120 a 600 micromol/l, sem causar demasiados efeitos secundários. </p>
+</li>
+</ul>
+<p>Tipicamente, os doentes precisam de uma dose diária de 20 mg, 40 mg ou 60 mg para atingir o 
+nível pretendido de fenilalanina no sangue. </p>
+<p>Exemplo de passos para atingir o objetivo de fenilalanina no sangue </p>
+<p>Dose de Palynziq e frequência de 
+administração 
+Cor da seringa </p>
+<p>2,5 mg, uma vez por semana 
+Êmbolo branco 
+2,5 mg, duas vezes por semana 
+10 mg, uma vez por semana 
+Êmbolo verde </p>
+<p>10 mg, duas vezes por semana 
+10 mg, quatro vezes por semana 
+10 mg diariamente 
+20 mg diariamente 
+Êmbolo azul </p>
+<p>40 mg diariamente 
+(2 injeções da seringa pré-cheia de 20 mg)1 
+60 mg diariamente 
+(3 injeções da seringa pré-cheia de 20 mg)1 
+1 Se precisar de mais do que uma injeção para receber a sua dose diária, todas as 
+injeções devem ser efetuadas à mesma hora e os locais de injeção devem estar 
+separados uns dos outros por, pelo menos, 5 centímetros. Não divida a sua dose 
+diária ao longo do dia. </p>
+<ul>
+<li>
+<p>O seu médico continuará a verificar os seus níveis de fenilalanina no sangue durante o 
+tratamento e poderá ajustar a sua dose de Palynziq ou pedir-lhe para mudar a sua alimentação. </p>
+</li>
+<li>
+<p>O seu médico precisará de verificar os seus níveis de fenilalanina no sangue mensalmente para 
+determinar se este medicamento está a funcionar para si. </p>
+</li>
+</ul>
+<p>Iniciar o tratamento com Palynziq </p>
+<ul>
+<li>
+<p>Será um profissional de saúde a administrar a injeção de Palynziq até que o doente (ou um 
+prestador de cuidados) seja capaz de o fazer sozinho. </p>
+</li>
+<li>
+<p>O seu médico irá receitar-lhe medicamentos que deverá tomar antes da injeção com Palynziq, 
+por exemplo paracetamol, fexofenadina e/ou ranitidina. Estes medicamentos ajudam a reduzir 
+os sintomas de uma reação alérgica. </p>
+</li>
+<li>
+<p>O doente será monitorizado por um profissional de saúde durante pelo menos 1 hora após a 
+administração de Palynziq, de modo a detetar sinais e sintomas de uma reação alérgica. </p>
+</li>
+<li>
+<p>O seu médico também irá receitar-lhe um dispositivo de injeção de adrenalina para utilizar em 
+caso de qualquer reação alérgica grave. O seu profissional de saúde irá também informá-lo 
+acerca dos sinais e sintomas a que deverá estar atento e do que deve fazer em caso de reação 
+alérgica grave. </p>
+</li>
+<li>
+<p>O seu médico irá mostrar-lhe como e quando deve utilizar o dispositivo de injeção de 
+adrenalina. Mantenha o dispositivo sempre consigo. </p>
+</li>
+</ul>
+<p>Continuar o tratamento com Palynziq </p>
+<ul>
+<li>
+<p>Este medicamento é fornecido em seringas pré-cheias com 3 dosagens diferentes 
+(2,5 mg - êmbolo branco, 10 mg - êmbolo verde, ou 20 mg - êmbolo azul). Poderá ser 
+necessário utilizar mais do que uma seringa pré-cheia para atingir a dose que lhe foi receitada. O 
+seu profissional de saúde irá dizer-lhe que seringa, ou que combinação de seringas, deve utilizar 
+e mostrar-lhe (ou a um prestador de cuidados) como injetar Palynziq. </p>
+</li>
+<li>
+<p>As “Instruções de utilização" (secção 7 deste folheto informativo) mostram: 
+o 
+como preparar e injetar Palynziq e 
+o 
+como eliminar as seringas de Palynziq corretamente depois da utilização </p>
+</li>
+<li>
+<p>O seu médico irá dizer-lhe durante quanto tempo deverá continuar a tomar medicamentos como, 
+por exemplo, paracetamol, fexofenadina e/ou ranitidina, antes de tomar Palynziq. </p>
+</li>
+<li>
+<p>Durante pelo menos os primeiros 6 meses de tratamento com Palynziq, o doente tem de estar 
+acompanhado por outra pessoa durante a autoinjeção com Palynziq, assim como durante pelo 
+menos 1 hora após a injeção para observar eventuais sinais e sintomas de uma reação alérgica 
+grave e, se necessário, administrar uma injeção de adrenalina ao doente e contactar os serviços 
+médicos de emergência. 
+o 
+O seu médico irá ensinar esta pessoa a reconhecer os sinais e sintomas de uma reação 
+alérgica grave e a administrar uma injeção de adrenalina. 
+o 
+O seu médico irá informá-lo se for necessário manter o observador durante mais 
+de 6 meses. </p>
+</li>
+<li>
+<p>Não mude a sua ingestão de proteínas na alimentação sem indicação do seu médico. </p>
+</li>
+</ul>
+<p>Se utilizar mais Palynziq do que deveria 
+Se utilizar mais Palynziq do que deveria, informe o seu médico. Ver a secção 4 para informações 
+pormenorizadas sobre o que fazer consoante os seus sintomas. </p>
+<p>Caso se tenha esquecido de utilizar Palynziq 
+Se se esquecer de tomar uma dose, tome a dose seguinte na altura prevista. Não tome duas doses de 
+Palynziq para compensar uma dose em falta. </p>
+<p>Se parar de tomar Palynziq 
+Se parar o tratamento com Palynziq, os seus níveis de fenilalanina no sangue deverão aumentar. Fale 
+com o seu médico antes de parar o tratamento com Palynziq. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>As reações alérgicas ocorrem muito frequentemente (podem afetar mais do que 1 em cada 10 pessoas) 
+e variam em termos de gravidade. Os sintomas de reação alérgica podem incluir erupção na pele, 
+comichão, inchaço da cabeça ou da cara, olhos lacrimejantes ou com comichão, tosse, dificuldade ao 
+respirar, pieira e tonturas. O seu médico irá explicar-lhe como gerir estas reações alérgicas com base 
+na respetiva gravidade e irá receitar-lhe medicamentos adicionais para gerir estas reações. Algumas 
+destas reações alérgicas podem ser mais graves, conforme descrito em seguida, e exigem auxílio 
+imediato. </p>
+<p>Os efeitos indesejáveis graves incluem: </p>
+<ul>
+<li>Reações alérgicas graves súbitas: (Frequentes - podem afetar até 1 em cada 10 pessoas). 
+Interrompa as injeções de Palynziq se observar algum sinal súbito e grave de alergia ou uma 
+combinação dos sinais indicados em seguida. 
+o 
+Inchaço da cara, olhos, lábios, boca, garganta, língua, mãos e/ou pés 
+o 
+Dificuldade ao respirar ou pieira 
+o 
+Aperto da garganta ou uma sensação de sufocação 
+o 
+Dificuldade ao engolir ou falar 
+o 
+Tonturas ou desmaio 
+o 
+Perda de controlo da urina ou fezes 
+o 
+Batimento rápido do coração 
+o 
+Urticária (erupção na pele com papos e comichão) que se alastra rapidamente 
+o 
+Afrontamento (calores) 
+o 
+Cólicas ou dores de barriga graves, vómito ou diarreia </li>
+</ul>
+<p>Utilize o dispositivo de injeção de adrenalina de acordo com as instruções do seu médico e procure 
+auxílio médico imediatamente. O seu médico irá receitar-lhe um dispositivo de injeção de adrenalina 
+para utilizar em caso de reação alérgica grave. O médico irá dar-lhe formação e instruções, e à pessoa 
+responsável por lhe prestar assistência, sobre quando e como utilizar a adrenalina. Mantenha o 
+dispositivo de injeção de adrenalina sempre consigo. </p>
+<p>Contacte o seu médico imediatamente se tiver o seguinte: 
+- Um tipo de reação alérgica chamada “doença do soro" que inclui uma combinação de febre 
+(temperatura alta), erupção na pele e dores nos músculos e nas articulações (Frequente - pode 
+afetar até 1 em cada 10 pessoas) </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes: podem afetar mais do que 1 em cada 10 pessoas 
+- vermelhidão, inchaço, pisadura, sensibilidade ou dor na pele no local onde injetou Palynziq 
+- dor nas articulações 
+- diminuição dos fatores de complemento C3 e C4 (que fazem parte do seu sistema imunitário) 
+observada numa análise de sangue 
+- reação alérgica 
+- níveis de fenilalanina demasiado baixos nas análises de sangue 
+- dores de cabeça 
+- erupção na pele 
+- dores de barriga 
+- enjoos (náuseas) 
+- vómito 
+- urticária (erupção na pele com papos e comichão) 
+- comichão 
+- enfraquecimento ou perda de cabelo 
+- tosse 
+- aumento da proteína C reativa (PCR) numa análise de sangue (a PCR é uma proteína que indica 
+a presença de inflamação) 
+- gânglios inchados no pescoço, nas axilas ou nas virilhas 
+- vermelhidão da pele 
+- dores musculares 
+- diarreia 
+- fadiga (sensação de cansaço) </p>
+<p>Frequentes: podem afetar até 1 em cada 10 pessoas 
+- dificuldade ao respirar 
+- rigidez nas articulações 
+- inchaço nas articulações 
+- rigidez muscular 
+- erupção da pele com pequenos papos 
+- formação de bolhas ou exfoliação da camada exterior de pele </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar palynziq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar palynziq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo da seringa, na cobertura da 
+bandeja e na embalagem exterior após “EXP". O prazo de validade corresponde ao último dia do mês 
+indicado. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C). Não congelar. </p>
+<p>Se necessário, Palynziq pode ser conservado fora do frigorífico (abaixo de 25 °C) na respetiva bandeja 
+selada durante um único período de 30 dias, no máximo, afastado de fontes de calor. Registe a data de 
+remoção do frigorífico na bandeja do medicamento por abrir. Depois de ser conservado fora do 
+frigorífico, o medicamento não pode ser colocado novamente no frigorífico. </p>
+<p>Não utilize este medicamento se a seringa pré-cheia estiver danificada ou se verificar que a solução 
+apresenta um aspeto descolorado ou turvo ou partículas visíveis. </p>
+<p>Utilize procedimentos de eliminação seguros para as seringas. Não deite fora quaisquer medicamentos 
+na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos 
+que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Palynziq 
+- A substância ativa é a pegvaliase. 
+Cada seringa pré-cheia de 2,5 mg contém 2,5 mg de pegvaliase em 0,5 ml de solução. 
+Cada seringa pré-cheia de 10 mg contém 10 mg de pegvaliase em 0,5 ml de solução. 
+Cada seringa pré-cheia de 20 mg contém 20 mg de pegvaliase em 1 ml de solução. 
+- Os outros componentes são trometamol, cloridrato de trometamol, cloreto de sódio (ver 
+secção 2 para mais informações), ácido trans-cinâmico, água para preparações injetáveis. </p>
+<p>Qual o aspeto de Palynziq e conteúdo da embalagem 
+Palynziq solução injetável (injetável) é uma solução transparente a ligeiramente opalescente, incolor a 
+amarelo pálida. A seringa pré-cheia inclui uma proteção automática da agulha. </p>
+<p>Seringa pré-cheia de 2,5 mg (êmbolo branco): 
+Cada caixa de 2,5 mg contém 1 seringa pré-cheia. </p>
+<p>Seringa pré-cheia de 10 mg (êmbolo verde): 
+Cada caixa de 10 mg contém 1 seringa pré-cheia. </p>
+<p>Seringa pré-cheia de 20 mg (êmbolo azul): 
+Cada caixa de 20 mg contém 1 ou 10 seringas pré-cheias. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+BioMarin International Limited 
+Shanbally, Ringaskiddy 
+County Cork 
+Irlanda 
+P43 R 
+Este folheto foi revisto pela última vez em MM/YYYY. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1161,6 +1615,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c0c73074469385390d12a06f439c2f95"
 * entry[0].resource = composition-da-c0c73074469385390d12a06f439c2f95
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc0c73074469385390d12a06f439c2f95"
+* entry[=].resource = mpc0c73074469385390d12a06f439c2f95
+                            
+                    
+Instance: bundlepackageleaflet-pt-c0c73074469385390d12a06f439c2f95
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for palynziq Package Leaflet for language pt"
+Description: "ePI document Bundle for palynziq Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c0c73074469385390d12a06f439c2f95"
+* entry[0].resource = composition-pt-c0c73074469385390d12a06f439c2f95
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc0c73074469385390d12a06f439c2f95"
@@ -1262,6 +1738,18 @@ RuleSet: c0c73074469385390d12a06f439c2f95ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c0c73074469385390d12a06f439c2f95) // palynziq pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

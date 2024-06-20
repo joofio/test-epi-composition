@@ -1295,6 +1295,697 @@ hjemmeside: http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-370a06b10b762d93e4a42cb2abad2584
+InstanceOf: CompositionUvEpi
+Title: "Composition for emtricitabinetenofovir Package Leaflet"
+Description:  "Composition for emtricitabinetenofovir Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp370a06b10b762d93e4a42cb2abad2584)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - emtricitabinetenofovir"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Emtricitabina/Tenofovir disoproxil Krka e para que é utilizado
+2. O que precisa de saber antes de tomar Emtricitabina/Tenofovir disoproxil Krka
+3. Como tomar Emtricitabina/Tenofovir disoproxil Krka
+4. Efeitos indesejáveis possíveis
+5. Como conservar Emtricitabina/Tenofovir disoproxil Krka
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é emtricitabinetenofovir e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é emtricitabinetenofovir e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Emtricitabina/Tenofovir disoproxil Krka contém duas substâncias ativas, emtricitabina e 
+tenofovir disoproxil. Estas substâncias ativas são ambas fármacos antirretrovirais utilizados para tratar 
+a infeção por VIH. A emtricitabina é um análogo nucleosídeo inibidor da transcriptase reversa e o 
+tenofovir é um análogo nucleótido inibidor da transcriptase reversa. No entanto, ambos são 
+geralmente conhecidos como análogos nucleosídeos inibidores da transcriptase reversa (NRTIs) e eles 
+atuam interferindo com a atividade normal de uma enzima (transcriptase reversa) que é fundamental 
+para que o vírus se possa reproduzir.
+-
+Emtricitabina/Tenofovir disoproxil Krka é utilizado para tratar a infeção pelo Vírus da 
+Imunodeficiência Humana 1 (VIH-1) em adultos.
+-
+É também utilizado para tratar a infeção pelo VIH em adolescentes com idade 
+compreendida entre os 12 e &lt; 18 anos que pesam, pelo menos, 35 kg, e que foram 
+previamente tratados com outros medicamentos para o VIH que já não são eficazes ou que 
+causaram efeitos indesejáveis.
+-
+Emtricitabina/Tenofovir disoproxil Krka deve ser sempre utilizado em associação com 
+outros medicamentos para tratar a infeção por VIH.
+-
+Emtricitabina/Tenofovir disoproxil Krka pode ser administrado em vez da emtricitabina e 
+do tenofovir disoproxil utilizados nas mesmas doses em separado.
+Este medicamento não é uma cura para a infeção por VIH. Enquanto tomar 
+Emtricitabina/Tenofovir disoproxil Krka pode desenvolver, na mesma, infeções ou outras doenças 
+associadas com a infeção por VIH.
+-
+Emtricitabina/Tenofovir disoproxil Krka também é utilizado para reduzir o risco de 
+contrair a infeção por VIH-1 em adultos e adolescentes com idade compreendida entre os 
+12 e &lt; 18 anos que pesam, pelo menos 35 kg, quando tomado diariamente, juntamente com 
+práticas de sexo seguro:
+Consulte a lista de precauções a tomar contra a infeção por VIH na secção 2. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar emtricitabinetenofovir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar emtricitabinetenofovir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>49
+Não tome Emtricitabina/Tenofovir disoproxil Krka para tratar o VIH ou para reduzir o risco de 
+contrair o VIH se tem alergia à emtricitabina, ao tenofovir, ao tenofovir disoproxil, ou a qualquer 
+outro componente deste medicamento (indicados na secção 6).
+ Caso isto se aplique a si, informe imediatamente o seu médico.
+Antes de tomar Emtricitabina/Tenofovir disoproxil Krka para reduzir o risco de contrair a 
+infeção por VIH:
+Emtricitabina/Tenofovir disoproxil Krka apenas pode ajudar a reduzir o risco de contrair a infeção por 
+VIH antes de estar infetado.
+-
+Tem de ser negativo para o VIH antes de começar a tomar Emtricitabina/Tenofovir 
+disoproxil Krka para reduzir o risco de contrair a infeção por VIH. Tem de realizar uma 
+análise para garantir que ainda não está infetado pelo VIH. Não tome Emtricitabina/Tenofovir 
+disoproxil Krka para reduzir o risco de infeção sem que tenha a confirmação de que é negativo 
+para o VIH. As pessoas que já estão infetadas pelo VIH têm de tomar Emtricitabina/Tenofovir 
+disoproxil Krka em combinação com outros medicamentos.
+-
+Muitos testes para o VIH podem não detetar uma infeção recente. Se tiver sintomas 
+parecidos com os de uma gripe, tal pode significar que foi recentemente infetado por VIH. Os 
+seguintes sinais podem ser sinais de infeção por VIH:
+-
+cansaço
+-
+febre
+-
+dores musculares ou nas articulações
+-
+cefaleias
+-
+vómitos ou diarreia
+-
+erupção cutânea
+-
+suores noturnos
+-
+gânglios linfáticos aumentados no pescoço ou na virilha
+
+Informe o seu médico se sentir qualquer sintoma parecido com os da gripe - quer seja no 
+mês antes de começar a tomar Emtricitabina/Tenofovir disoproxil Krka ou em qualquer altura 
+enquanto estiver a tomar Emtricitabina/Tenofovir disoproxil Krka.
+Advertências e precauções
+Enquanto tomar Emtricitabina/Tenofovir disoproxil Krka para reduzir o risco de contrair a 
+infeção por VIH:
+-
+Tome Emtricitabina/Tenofovir disoproxil Krka todos os dias para reduzir o risco e não 
+apenas quando achar que esteve em risco de contrair a infeção por VIH. Não falhe 
+nenhuma dose nem deixe de tomar Emtricitabina/Tenofovir disoproxil Krka. As doses em falta 
+podem aumentar o risco de contrair a infeção por VIH.
+-
+Realize testes para o VIH regularmente.
+-
+Se achar que foi infetado pelo VIH informe imediatamente o seu médico. O médico poderá 
+querer realizar mais exames para ter a certeza que ainda é negativo para o VIH.
+-
+Tomar Emtricitabina/Tenofovir disoproxil Krka por si só pode não impedir que contraia o 
+VIH.
+-
+Pratique sempre sexo seguro. Use preservativos para reduzir o contacto com sémen, 
+fluidos vaginais ou sangue.
+-
+Não partilhe artigos pessoais que possam ter sangue ou fluidos corporais, como escovas 
+de dentes e lâminas de barbear.
+-
+Não partilhe nem reutilize agulhas ou outros utensílios de injeção ou de medicamentos.
+50
+-
+Realize testes para outras infeções transmitidas sexualmente como a sífilis e a gonorreia. 
+Estas infeções podem facilitar a infeção por VIH.
+Fale com o seu médico se tiver mais perguntas sobre como evitar contrair o VIH ou transmitir o VIH 
+às outras pessoas.
+Enquanto tomar Emtricitabina/Tenofovir disoproxil Krka para tratar o VIH ou para reduzir o 
+risco de contrair VIH:
+-
+Emtricitabina/Tenofovir disoproxil Krka pode afetar os seus rins. Antes e durante o 
+tratamento, o seu médico pode pedir-lhe análises ao sangue para medir a função dos seus rins. 
+Informe o seu médico se tiver tido uma doença nos rins ou se as análises tiverem apresentado 
+alterações relativas aos seus rins. Emtricitabina/Tenofovir disoproxil Krka não deve ser 
+administrado a adolescentes com alterações preexistentes ao nível dos rins. Se tiver alterações 
+ao nível dos rins, o seu médico pode aconselhá-lo a deixar de tomar Emtricitabina/Tenofovir 
+disoproxil Krka ou, se já estiver infetado por VIH, a tomar Emtricitabina/Tenofovir disoproxil 
+Krka menos frequentemente. Emtricitabina/Tenofovir disoproxil Krka não é recomendado se 
+tiver doença renal grave ou se está em diálise.
+-
+Podem também ocorrer problemas ósseos (manifestados como dor óssea persistente ou 
+agravada e que, por vezes, resulta em fraturas), devido a lesão nas células tubulares do rim (ver 
+secção 4, Efeitos indesejáveis possíveis). Informe o seu médico se tiver dores ósseas ou fraturas.
+Tenofovir disoproxil também pode causar a perda de massa óssea. A perda óssea mais 
+pronunciada foi observada em estudos clínicos quando os doentes foram tratados para o VIH 
+com tenofovir disoproxil e um inibidor da protease potenciado. 
+De modo geral, os efeitos de tenofovir disoproxil na saúde óssea a longo prazo e o risco de 
+fraturas em doentes adultos e pediátricos são incertos.
+Informe o seu médico se souber que sofre de osteoporose. Os doentes com osteoporose têm um 
+risco mais elevado de fraturas.
+-
+Se tem ou tiver tido uma doença no fígado, incluindo hepatite, fale com o seu médico. Os 
+doentes infetados por VIH com doença no fígado (incluindo hepatite B ou C crónica) que
+estejam a ser tratados com medicamentos antirretrovirais, apresentam um risco superior ao 
+normal de sofrerem complicações graves e potencialmente fatais ao nível do fígado. Se tem 
+hepatite B ou C, o seu médico irá considerar exatamente o melhor regime terapêutico para si.
+-
+Conheça o seu estado da infeção por vírus da hepatite B (VHB) antes de começar a tomar 
+Emtricitabina/Tenofovir disoproxil Krka. Se tiver o VHB, existe um risco elevado de ter 
+problemas hepáticos quando deixar de tomar Emtricitabina/Tenofovir disoproxil Krka, quer 
+esteja ou não infetado pelo VIH. É importante que não pare de tomar Emtricitabina/Tenofovir 
+disoproxil Krka sem falar com o seu médico: ver secção 3, Não pare de tomar 
+Emtricitabina/Tenofovir disoproxil Krka.
+-
+Se tem mais de 65 anos, fale com o seu médico. Emtricitabina/Tenofovir disoproxil Krka não 
+foi estudado em doentes com mais de 65 anos de idade.
+-
+Se for intolerante à lactose, fale com o seu médico (ver mais à frente nesta secção, 
+Emtricitabina/Tenofovir disoproxil Krka contém lactose).
+Crianças e adolescentes
+Emtricitabina/Tenofovir disoproxil Krka não é para ser utilizado em crianças com menos de 12 anos 
+de idade.
+51
+Outros medicamentos e Emtricitabina/Tenofovir disoproxil Krka
+Não tome Emtricitabina/Tenofovir disoproxil Krka se já estiver a tomar outros medicamentos que 
+contenham os componentes de Emtricitabina/Tenofovir disoproxil Krka (emtricitabina e tenofovir 
+disoproxil) ou quaisquer outros medicamentos antivirais que contenham tenofovir alafenamida, 
+lamivudina ou adefovir dipivoxil.
+Tomar Emtricitabina/Tenofovir disoproxil Krka com outros medicamentos que podem 
+danificar os rins: é particularmente importante informar o seu médico se estiver a tomar algum destes 
+medicamentos, incluindo
+-
+aminoglicosídeos (para infeções bacterianas)
+-
+anfotericina B (para infeções fúngicas)
+-
+foscarneto (para infeções virais)
+-
+ganciclovir (para infeções virais)
+-
+pentamidina (para infeções)
+-
+vancomicina (para infeções bacterianas)
+-
+interleucina-2 (para tratamento do cancro)
+-
+cidofovir (para infeções virais)
+-
+anti-inflamatórios não esteroides (AINEs, para aliviar a dor óssea ou a dor muscular)
+Se estiver a tomar outro medicamento antiviral para tratar o VIH chamado inibidor da protease, o seu 
+médico pode pedir análises sanguíneas para monitorizar mais de perto a sua função renal.
+Também é importante que informe o seu médico se estiver a tomar ledipasvir/sofosbuvir,
+sofosbuvir/velpatasvir ou sofosbuvir/velpatasvir/voxilaprevir para tratar a infeção por hepatite C.
+Tomar Emtricitabina/Tenofovir disoproxil Krka com outros medicamentos que contêm 
+didanosina (para o tratamento da infeção por VIH): Tomar Emtricitabina/Tenofovir disoproxil 
+Krka com outros medicamentos antivirais que contêm didanosina pode aumentar os níveis de 
+didanosina no seu sangue e pode reduzir as contagens de células CD4. Foram notificadas, raramente, 
+inflamação do pâncreas e acidose láctica (excesso de ácido láctico no sangue), que ocasionalmente 
+causaram morte, quando foram tomados em conjunto medicamentos contendo tenofovir disoproxil e 
+didanosina. O seu médico irá considerar cuidadosamente se deverá tratá-lo com associações de 
+tenofovir e didanosina.
+ Informe o seu médico se estiver a tomar algum destes medicamentos. Informe o seu médico ou 
+farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos.
+Emtricitabina/Tenofovir disoproxil Krka com alimentos e bebidas
+-
+Sempre que possível, Emtricitabina/Tenofovir disoproxil Krka deve ser tomado com alimentos.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico ou farmacêutico antes de tomar este medicamento.
+Se tomou Emtricitabina/Tenofovir disoproxil Krka durante a gravidez, o seu médico pode pedir-lhe 
+para efetuar análises ao sangue e outros testes de diagnóstico regulares para verificar o 
+desenvolvimento da sua criança. Nas crianças cujas mães tomaram NRTIs durante a gravidez, o 
+benefício da menor possibilidade de infeção pelo VIH é superior ao risco de sofrerem efeitos 
+indesejáveis.
+-
+Não deverá amamentar durante o tratamento com Emtricitabina/Tenofovir disoproxil 
+Krka. Isto deve-se ao facto de que as substâncias ativas deste medicamento são excretadas no 
+leite humano.
+52
+-
+A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção 
+pelo VIH pode ser transmitida ao bebé através do leite materno.
+-
+Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais 
+rapidamente possível.
+Condução de veículos e utilização de máquinas
+Emtricitabina/Tenofovir disoproxil Krka pode causar tonturas. Se sentir tonturas enquanto estiver a 
+tomar Emtricitabina/Tenofovir disoproxil Krka, não conduza e não utilize quaisquer ferramentas ou 
+máquinas.
+Emtricitabina/Tenofovir disoproxil Krka contém lactose
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento.
+Emtricitabina/Tenofovir disoproxil Krka contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar emtricitabinetenofovir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar emtricitabinetenofovir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>-
+Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico 
+ou farmacêutico se tiver dúvidas.
+A dose recomendada de Emtricitabina/Tenofovir disoproxil Krka para tratar a infeção por VIH
+é:
+-
+Adultos: um comprimido por dia, sempre que possívelcom alimentos.
+-
+Adolescentes com idade compreendida entre os 12 e &lt; 18 anos que pesam, pelo menos, 
+35 kg: um comprimido por dia, sempre que possível com alimentos.
+A dose recomendada de Emtricitabina/Tenofovir disoproxil Krka para reduzir o risco de 
+contrair VIH é:
+-
+Adultos: um comprimido por dia, sempre que possível com alimentos.
+-
+Adolescentes com idade compreendida entre os 12 e &lt; 18 anos que pesam, pelo menos, 
+35 kg: um comprimido por dia, sempre que possível com alimentos.
+Se tiver dificuldade em engolir, pode desfazer o comprimido com a ajuda de uma colher. Em seguida, 
+dissolva o pó em cerca de 100 ml (meio copo) de água, sumo de laranja ou sumo de uva, e beba 
+imediatamente.
+-
+Tomar sempre a dose recomendada pelo seu médico. Isto para ter a certeza que o seu 
+medicamento é totalmente eficaz, e para reduzir o risco de desenvolvimento de resistência ao 
+tratamento. Não altere a dose a menos que o seu médico lhe diga para o fazer.
+-
+Se estiver a ser tratado para a infeção por VIH o seu médico irá receitar-lhe 
+Emtricitabina/Tenofovir disoproxil Krka com outros medicamentos antirretrovirais. Por favor, 
+consulte o folheto informativo dos outros medicamentos antirretrovirais para orientação sobre o 
+modo como tomar esses medicamentos.
+-
+Se estiver a tomar Emtricitabina/Tenofovir disoproxil Krka para reduzir o risco de 
+contrair o VIH, tome Emtricitabina/Tenofovir disoproxil Krka todos os dias e não apenas 
+quando achar que esteve em risco de contrair a infeção por VIH.
+53
+Fale com o seu médico se tiver mais perguntas sobre como evitar contrair o VIH ou evitar transmitir o 
+VIH às outras pessoas.
+Se tomar mais Emtricitabina/Tenofovir disoproxil Krka do que deveria
+Se acidentalmente tomar mais do que a dose recomendada de Emtricitabina/Tenofovir disoproxil 
+Krka, consulte o seu médico ou aconselhe-se junto do serviço de urgência mais próximo. Mantenha o 
+frasco de comprimidos consigo para que facilmente possa descrever o que tomou.
+Caso se tenha esquecido de tomar Emtricitabina/Tenofovir disoproxil Krka
+É importante que não falhe nenhuma dose de Emtricitabina/Tenofovir disoproxil Krka.
+-
+Caso se aperceba até 12 horas após a hora em que habitualmente toma 
+Emtricitabina/Tenofovir disoproxil Krka, tome o comprimido de preferência com alimentos 
+logo que possível. Depois, tome a dose seguinte como normalmente.
+-
+Caso se aperceba 12 horas ou mais após a hora a que habitualmente toma 
+Emtricitabina/Tenofovir disoproxil Krka, não tome a dose que falhou. Aguarde e tome a dose 
+seguinte, de preferência com alimentos, à hora habitual.
+Se vomitar até 1 hora após a toma de Emtricitabina/Tenofovir disoproxil Krka, tome outro 
+comprimido. Não terá de tomar outro comprimido se tiver vomitado mais de 1 hora após a toma de 
+Emtricitabina/Tenofovir disoproxil Krka.
+Não pare de tomar Emtricitabina/Tenofovir disoproxil Krka
+-
+Se estiver a tomar Emtricitabina/Tenofovir disoproxil Krka para o tratamento da infeção 
+por VIH, deixar de tomar os comprimidos pode reduzir a eficácia da terapêutica anti-VIH 
+recomendada pelo seu médico.
+-
+Se estiver a tomar Emtricitabina/Tenofovir disoproxil Krka para reduzir o risco de 
+contrair o VIH, não deixe de tomar Emtricitabina/Tenofovir disoproxil Krka nem falhe 
+nenhuma dose. Interromper o uso de Emtricitabina/Tenofovir disoproxil Krka, ou falhar doses, 
+pode aumentar o risco de contrair a infeção por VIH.
+ Não pare de tomar Emtricitabina/Tenofovir disoproxil Krka sem falar com o seu médico.
+-
+Se tiver hepatite B, é particularmente importante não parar o tratamento com 
+Emtricitabina/Tenofovir disoproxil Krka sem previamente consultar o seu médico. Pode 
+necessitar de análises ao sangue durante vários meses após interrupção do tratamento. Em 
+alguns doentes com doença hepática (do fígado) avançada ou cirrose, a interrupção do 
+tratamento não é recomendada, uma vez que pode levar a um agravamento da sua hepatite e 
+pode ser fatal.
+ Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco habituais 
+após parar o tratamento, particularmente sintomas que associaria à sua hepatite B.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+54
+Efeitos indesejáveis graves possíveis:
+-
+Acidose láctica (excesso de ácido láctico no sangue) é um efeito secundário raro, mas 
+potencialmente fatal. A acidose láctica ocorre mais frequentemente em mulheres, 
+particularmente nas que apresentam excesso de peso, e em pessoas com doença do fígado. Os 
+seguintes podem ser sinais de acidose láctica:
+-
+respiração profunda, rápida
+-
+sonolência
+-
+sentir-se enjoado (náuseas), estar enjoado (vómitos)
+-
+dor de estômago
+Caso pense que possa ter acidose láctica, obtenha ajuda médica imediatamente.
+-
+Quaisquer sinais de inflamação ou infeção. Em alguns doentes com infeção avançada por 
+VIH (SIDA) e antecedentes de infeções oportunistas (infeções que ocorrem em pessoas com um 
+sistema imunitário fraco), podem ocorrer sinais e sintomas de inflamação de infeções prévias 
+logo após iniciar o tratamento contra o VIH. Pensa-se que estes sintomas são devidos a uma 
+melhoria na resposta imunitária do corpo, permitindo que o corpo lute contra infeções que 
+possam estar presentes sem sintomas óbvios.
+-
+Também podem ocorrer doenças autoimunes, quando o sistema imunitário ataca os tecidos 
+corporais saudáveis, após começar a tomar os medicamentos para tratar a infeção pelo VIH. As 
+doenças autoimunes podem ocorrer muitos meses depois do início do tratamento. Esteja atento a 
+quaisquer sintomas de infeção ou outros sintomas como:
+-
+fraqueza muscular
+-
+fraqueza a começar nas mãos e nos pés e que progride para o tronco
+-
+palpitações, tremores ou hiperatividade
+ Se observar estes ou quaisquer outros sintomas de inflamação ou infeção, obtenha ajuda 
+médica imediatamente.
+Efeitos indesejáveis possíveis:
+Efeitos indesejáveis muito frequentes
+(podem afetar mais do que 1 em 10 pessoas)
+-
+diarreia, estar enjoado (vómitos), sentir-se enjoado (náuseas),
+-
+tonturas, dor de cabeça,
+-
+erupção cutânea
+-
+fraqueza
+As análises também podem revelar:
+-
+diminuição do fosfato no sangue
+-
+elevação da creatina cinase
+Efeitos indesejáveis frequentes
+(podem afetar 1 em 10 pessoas)
+-
+dor, dor de estômago
+-
+dificuldade em dormir, sonhos anormais
+-
+problemas digestivos que podem resultar em desconforto após as refeições, enfartamento, 
+flatulência
+-
+erupções cutâneas (incluindo manchas vermelhas ou pústulas algumas vezes com bolhas e 
+inchaço da pele), que podem ser reações alérgicas, comichão, alterações na cor da pele 
+incluindo escurecimento da pele em manchas
+-
+outras reações alérgicas, tais como dificuldade em respirar, inchaço do corpo ou sentir-se 
+confuso
+As análises também podem revelar:
+-
+baixa contagem de glóbulos brancos (uma diminuição dos seus glóbulos brancos pode torná-lo 
+mais sujeito a infeções)
+55
+-
+aumento dos triglicéridos (ácidos gordos), da bílis ou do açúcar no sangue
+-
+alterações no fígado e pâncreas
+Efeitos indesejáveis pouco frequentes
+(podem afetar até 1 em 100 pessoas)
+-
+dor no abdómen (barriga) causada por inflamação do pâncreas
+-
+inchaço da face, lábios, língua ou garganta
+-
+anemia (baixa contagem de glóbulos vermelhos)
+-
+perda da força muscular, dor muscular ou fraqueza muscular que podem ocorrer devido a lesão 
+nas células tubulares do rim
+As análises também podem revelar:
+-
+diminuição do potássio no sangue
+-
+aumento da creatinina no sangue
+-
+alterações na urina
+Efeitos indesejáveis raros
+(podem afetar até 1 em 1000 doentes)
+-
+acidose láctica (ver Efeitos indesejáveis graves possíveis)
+-
+fígado gordo
+-
+pele ou olhos de cor amarelada, comichão ou dor no abdómen (barriga) causadas por 
+inflamação do fígado
+-
+inflamação do rim, aumento da quantidade de urina e sentir sede, insuficiência renal, lesão nas 
+células tubulares do rim
+-
+perda de resistência dos ossos (com dor nos ossos e por vezes resultando em fraturas)
+-
+dor nas costas causadas por problemas de rins
+A lesão nas células tubulares do rim pode estar associada a perda de força muscular, perda de 
+resistência dos ossos (com dor nos ossos e por vezes resultando em fraturas), dor muscular, fraqueza 
+muscular e diminuição do potássio ou fosfato no sangue.
+ Se observar qualquer um dos efeitos indesejáveis acima indicados ou se algum destes efeitos 
+indesejáveis se agravar, informe o seu médico ou farmacêutico.
+A frequência dos efeitos indesejáveis seguintes é desconhecida.
+-
+Problemas ósseos. Alguns doentes tratados com associações de medicamentos antirretrovirais 
+tais como emtricitabina/tenofovir disoproxil podem desenvolver uma doença óssea chamada 
+osteonecrose (morte do tecido ósseo causada pela perda da irrigação de sangue no osso). Tomar 
+este tipo de medicamentos durante um período prolongado, tomar corticosteroides, consumir 
+bebidas alcoólicas, ter um sistema imunológico muito fraco e ter excesso de peso, podem ser 
+alguns dos muitos fatores de risco para o desenvolvimento desta doença. Sinais de osteonecrose 
+são:
+-
+Rigidez nas articulações
+-
+dores nas articulações (especialmente na anca, joelho e ombro)
+-
+dificuldade em se movimentar
+ Se observar qualquer um destes sintomas, informe o seu médico.
+Durante o tratamento para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no 
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos 
+lípidos no sangue, por vezes aos medicamentos para o VIH. O seu médico irá realizar exames para 
+determinar estas alterações.
+Outros efeitos em crianças
+-
+As crianças que tomaram emtricitabina apresentaram muito frequentemente alterações na cor da 
+pele, incluindo
+-
+escurecimento da pele em manchas
+-
+As crianças apresentaram frequentemente contagens baixas dos glóbulos vermelhos (anemia).
+56
+-
+isto pode fazer com que a criança fique cansada ou com falta de ar
+
+Se observar qualquer um destes sintomas, informe o seu médico.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar emtricitabinetenofovir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar emtricitabinetenofovir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+Blisters
+Não conservar acima de 30°C.
+Conservar no blister de origem para proteger da humidade e da luz.
+Frasco
+Não conservar acima de 30°C.
+Manter o frasco bem fechado para proteger da humidade e da luz.
+Validade após primeira abertura do frasco: 2 meses.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Emtricitabina/Tenofovir disoproxil Krka</h2>
+<p>As substâncias ativas são a emtricitabina e o tenofovir disoproxil. Cada comprimido contém 
+200 mg de emtricitabina e 245 mg de tenofovir disoproxil (equivalente a 300,7 mg de tenofovir 
+disoproxil succinato ou 136 mg de tenofovir).
+-
+Os outros componentes são:
+Núcleo do comprimido: amido pré-gelificado, croscarmelose sódica, lactose mono-hidratada, 
+celulose microcristalina, fumarato sódico de estearilo e ácido esteárico.
+Película de revestimento: hipromelose 5 cP, dióxido de titânio (E171), macrogol e laca de 
+alumínio de indigo carmim (E132). Ver secção 2 “Emtricitabina/Tenofovir disoproxil Krka
+contém lactose", “Emtricitabina/Tenofovir disoproxil Krka contém sódio".
+Qual o aspeto de Emtricitabina/Tenofovir disoproxil Krka e conteúdo da embalagem
+Os comprimidos revestidos por película (comprimidos) de Emtricitabina/Tenofovir disoproxil Krka
+são, de cor azul, em forma oval, biconvexos e com as dimensões 20 mm x 10 mm.
+Emtricitabina/Tenofovir disoproxil Krka está disponível em caixas de 28, 84 comprimidos revestidos 
+por película e 28 x 1 comprimido revestido por película em blisters.
+Emtricitabina/Tenofovir disoproxil Krka também está disponível em frascos de 30 comprimidos, com 
+um fecho de polipropileno resistente à abertura por crianças e anti-adulteração com um exsicante de 
+sílica gel integrado, que ajuda a proteger os comprimidos. Estão disponíveis as seguintes 
+apresentações: caixas contendo 1 frasco de 30 comprimidos revestidos por película e 90 (3 frascos de 
+57
+30) comprimidos revestidos por película
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Eslovénia
+Fabricante
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Eslovénia
+TAD Pharma GmbH, Heinz-Lohmann-Straße 5, 27472 Cuxhaven, Alemanha
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+KRKA Belgium, SA.
+Tél/Tel: +32 (0) 487 50 73 62
+Lietuva
+UAB KRKA Lietuva
+Tel: + 370 5 236 27 40
+България
+КРКА България ЕООД
+Teл.: + 359 (02) 962 34 50
+Luxembourg/Luxemburg
+KRKA Belgium, SA.
+Tél/Tel: +32 (0) 487 50 73 62 (BE)
+Česká republika
+KRKA ČR, s.r.o.
+Tel: + 420 (0) 221 115 150
+Magyarország
+KRKA Magyarország Kereskedelmi Kft.
+Tel.: + 36 (1) 355 8490
+Danmark
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Malta
+E. J. Busuttil Ltd.
+Tel: + 356 21 445 885
+Deutschland
+TAD Pharma GmbH
+Tel: + 49 (0) 4721 606-0
+Nederland
+KRKA Belgium, SA.
+Tel: +32 (0) 487 50 73 62 (BE)
+Eesti
+KRKA, d.d., Novo mesto Eesti filiaal
+Tel: + 372 (0) 6 671 658
+Norge
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Ελλάδα
+KRKA ΕΛΛΑΣ ΕΠΕ
+Τηλ: + 30 2100101613
+Österreich
+KRKA Pharma GmbH, Wien
+Tel: + 43 (0)1 66 24 300
+España
+KRKA Farmacéutica, S.L.
+Tel: + 34 911 61 03 80
+Polska
+KRKA-POLSKA Sp. z o.o.
+Tel.: + 48 (0)22 573 7500
+France
+KRKA France Eurl
+Tél: + 33 (0)1 57 40 82 25
+Portugal
+KRKA Farmacêutica, Sociedade Unipessoal Lda.
+Tel: + 351 (0)21 46 43 650
+Hrvatska
+KRKA - FARMA d.o.o.
+Tel: + 385 1 6312 100
+România
+KRKA Romania S.R.L., Bucharest
+Tel: + 4 021 310 66 05
+Ireland
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Slovenija
+KRKA, d.d., Novo mesto
+Tel: + 386 (0) 1 47 51 100
+58
+Ísland
+LYFIS ehf.
+Sími: + 354 534 3500
+Slovenská republika
+KRKA Slovensko, s.r.o.
+Tel: + 421 (0) 2 571 04 501
+Italia
+KRKA Farmaceutici Milano S.r.l.
+Tel: + 39 02 3300 8841
+Suomi/Finland
+KRKA Finland Oy
+Puh/Tel: +358 20 754 5330
+Κύπρος
+KI.PA. (PHARMACAL) LIMITED
+Τηλ: + 357 24 651 882
+Sverige
+KRKA Sverige AB
+Tel: + 46 (0)8 643 67 66 (SE)
+Latvija
+KRKA Latvija SIA
+Tel: + 371 6 733 86 10
+United Kingdom (Northern Ireland)
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Este folheto foi revisto pela última vez em
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1336,6 +2027,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-370a06b10b762d93e4a42cb2abad2584"
 * entry[0].resource = composition-da-370a06b10b762d93e4a42cb2abad2584
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp370a06b10b762d93e4a42cb2abad2584"
+* entry[=].resource = mp370a06b10b762d93e4a42cb2abad2584
+                            
+                    
+Instance: bundlepackageleaflet-pt-370a06b10b762d93e4a42cb2abad2584
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for emtricitabinetenofovir Package Leaflet for language pt"
+Description: "ePI document Bundle for emtricitabinetenofovir Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-370a06b10b762d93e4a42cb2abad2584"
+* entry[0].resource = composition-pt-370a06b10b762d93e4a42cb2abad2584
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp370a06b10b762d93e4a42cb2abad2584"
@@ -1437,6 +2150,18 @@ RuleSet: 370a06b10b762d93e4a42cb2abad2584ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-370a06b10b762d93e4a42cb2abad2584) // emtricitabinetenofov pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

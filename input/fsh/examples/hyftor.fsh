@@ -591,6 +591,347 @@ og om, hvordan de behandles. </p>         </div>"""
 
 
 
+Instance: composition-pt-a0d64103b1c8a608be4329399bf17c80
+InstanceOf: CompositionUvEpi
+Title: "Composition for hyftor Package Leaflet"
+Description:  "Composition for hyftor Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa0d64103b1c8a608be4329399bf17c80)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - hyftor"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Hyftor e para que é utilizado 
+2. O que precisa de saber antes de utilizar Hyftor 
+3. Como utilizar Hyftor 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Hyftor 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é hyftor e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é hyftor e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hyftor contém a substância ativa sirolímus, que é um medicamento que reduz a atividade do sistema 
+imunitário. 
+Nos doentes com complexo de esclerose tuberosa, o m-TOR, que é uma proteína que regula o sistema 
+imunitário, está demasiado ativa. Ao bloquear a atividade do m-TOR, Hyftor regula o crescimento 
+celular e reduz o número ou o tamanho dos angiofibromas. </p>
+<p>Hyftor é um medicamento utilizado para tratar adultos e crianças a partir dos 6 anos de idade com 
+angiofibroma na face resultante do complexo de esclerose tuberosa. O complexo de esclerose tuberosa 
+é uma doença genética rara que causa o crescimento de tumores não cancerosos em diferentes órgãos 
+do corpo, incluindo o cérebro e a pele. A doença causa angiofibromas faciais, que são lesões 
+(crescimentos) não cancerosas na pele e nas membranas mucosas (superfícies húmidas do corpo, tais 
+como o revestimento da boca) na face, em muitos doentes. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar hyftor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar hyftor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Hyftor se tem alergia ao sirolímus ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de utilizar Hyftor se tiver: </p>
+<ul>
+<li>
+<p>o sistema imunitário enfraquecido; </p>
+</li>
+<li>
+<p>função do fígado gravemente diminuída. </p>
+</li>
+</ul>
+<p>Evite o contacto de Hyftor com os olhos, o revestimento da boca e do nariz ou com feridas. De forma 
+semelhante, não deve ser utilizado em pele irritada ou pele que esteja infetada ou de algum modo 
+lesionada. 
+No caso de contacto acidental, recomenda-se que retire imediatamente o gel lavando com água. </p>
+<p>Evite expor a pele tratada com Hyftor à luz solar direta, pois pode causar efeitos indesejáveis na pele. 
+Isto inclui a luz solar natural e artificial (por exemplo, nos solários). O seu médico vai aconselhá-lo 
+acerca de uma proteção solar apropriada, tal como a utilização de protetor solar e de vestuário para 
+cobrir a pele ou de acessórios para a cabeça. </p>
+<p>Crianças 
+Hyftor não é recomendado para crianças com menos de 6 anos, uma vez que o medicamento não foi 
+suficientemente estudado neste grupo etário. </p>
+<p>Outros medicamentos e Hyftor 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. </p>
+<p>Não aplique outros medicamentos na área da pele tratada com Hyftor. </p>
+<p>Gravidez e amamentação 
+Hyftor não é recomendado durante a gravidez, a menos que o médico considere que os benefícios do 
+tratamento são superiores aos riscos. Não existe informação sobre a utilização de Hyftor em mulheres 
+grávidas. 
+As mulheres em idade fértil devem utilizar uma contraceção segura durante o tratamento com Hyftor. </p>
+<p>Não se sabe se o sirolímus é excretado no leite humano após o tratamento com Hyftor. A doente e o 
+médico devem tomar uma decisão sobre a descontinuação da amamentação ou a 
+descontinuação/abstenção da terapêutica com Hyftor tendo em conta o benefício da amamentação para 
+a criança e o benefício da terapêutica para a mulher. </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de utilizar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não se prevê que este medicamento afete a capacidade de conduzir e utilizar máquinas. </p>
+<p>Hyftor contém álcool 
+Este medicamento contém 458 mg de álcool (etanol) em cada grama. Pode causar sensação de 
+queimadura na pele lesionada. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar hyftor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar hyftor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou o farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é 
+O seu médico ou farmacêutico vai dizer-lhe que quantidade de gel deve utilizar. </p>
+<p>Uma tira de gel com cerca de 0,5 cm duas vezes por dia é o recomendado para uma lesão com cerca de 
+7 cm por 7 cm (50 cm2). </p>
+<p>A dose recomendada máxima na face é: </p>
+<ul>
+<li>
+<p>Crianças entre os 6 e 11 anos: não mais de uma tira de gel com cerca de 1 cm duas vezes por dia </p>
+</li>
+<li>
+<p>Adultos e crianças a partir dos 12 anos: não mais de uma tira de gel com cerca de 1,25 cm duas 
+vezes por dia </p>
+</li>
+</ul>
+<p>Como aplicar o gel 
+Aplique uma camada fina de Hyftor duas vezes por dia (de manhã e à noite) na área da pele afetada e 
+massaje suavemente. A aplicação deve ser feita uma vez de manhã e uma vez à noite antes de se 
+deitar. Limite a utilização às áreas de pele afetada pelo angiofibroma. Não cubra a pele afetada após a 
+aplicação de Hyftor. </p>
+<p>Lave as mãos cuidadosamente antes e imediatamente após utilizar o gel para evitar espalhar ou ingerir 
+o gel de forma não intencional. </p>
+<p>Duração da utilização 
+O seu médico vai dizer-lhe durante quanto tempo deve utilizar Hyftor. </p>
+<p>Se utilizar mais Hyftor do que deveria 
+Hyftor é aplicado na pele e a absorção para dentro do corpo é mínima. Isto torna uma sobredosagem 
+muito improvável. 
+Se aplicar demasiado gel numa lesão, retire com cuidado o excesso de gel com um lenço de papel e 
+deite fora o lenço. </p>
+<p>Se, acidentalmente, engolir ou outra pessoa engolir algum gel, contacte o seu médico imediatamente. </p>
+<p>Caso se tenha esquecido de utilizar Hyftor 
+Caso se esqueça de utilizar o medicamento de manhã, aplique o gel logo que se lembrar mas sempre 
+antes do jantar do mesmo dia. Depois do jantar, administre Hyftor apenas ao deitar desse mesmo dia. 
+Caso se esqueça de utilizar o medicamento ao deitar, omita essa dose. Não aplique mais gel para 
+compensar uma dose que se esqueceu de utilizar. </p>
+<p>Se parar de utilizar Hyftor 
+O seu médico vai dizer-lhe durante quanto tempo deve utilizar Hyftor e quando pode parar o 
+tratamento. Não pare de o utilizar sem falar primeiro com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Pele seca </p>
+</li>
+<li>
+<p>Pele com comichão </p>
+</li>
+<li>
+<p>Acne </p>
+</li>
+<li>
+<p>Irritação no local de aplicação, tal como vermelhidão, sensação de queimadura e picadas, 
+comichão, inchaço e/ou dormência </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Hemorragia no local de aplicação </p>
+</li>
+<li>
+<p>Sensação anormal, incluindo no local de aplicação, tal como dormência, picadas, formigueiro e 
+comichão </p>
+</li>
+<li>
+<p>Inchaço no local de aplicação </p>
+</li>
+<li>
+<p>Eczema caracterizado por alterações que ocorrem quando a pele fica anormalmente seca, 
+vermelha, com comichão e fissuras </p>
+</li>
+<li>
+<p>Quisto dérmico (um quisto que contém tecido sólido ou estruturas, tais como cabelo) </p>
+</li>
+<li>
+<p>Erupção na pele, erupção na pele com comichão </p>
+</li>
+<li>
+<p>Descamação da pele </p>
+</li>
+<li>
+<p>Irritação da pele </p>
+</li>
+<li>
+<p>Vermelhidão </p>
+</li>
+<li>
+<p>Hemorragia da pele </p>
+</li>
+<li>
+<p>Dermatite (inflamação da pele), incluindo dermatite de contacto (inflamação da pele após o 
+contacto com o medicamento), dermatite acneiforme (inflamação da pele com pequenos papos 
+semelhantes à acne), dermatite seborreica (doença da pele que afeta a cabeça com pele vermelha 
+e a descamar), dermatite solar (inflamação da pele após a exposição à luz solar) </p>
+</li>
+<li>
+<p>Pele seca, dura e a descamar </p>
+</li>
+<li>
+<p>Urticária </p>
+</li>
+<li>
+<p>Nódulos </p>
+</li>
+<li>
+<p>Furúnculos </p>
+</li>
+<li>
+<p>Tinha versicolor (uma infeção fúngica da pele) </p>
+</li>
+<li>
+<p>Inflamação do revestimento da boca </p>
+</li>
+<li>
+<p>Aumento da sensibilidade à luz </p>
+</li>
+<li>
+<p>Vermelhidão da pálpebra </p>
+</li>
+<li>
+<p>Olho vermelho </p>
+</li>
+<li>
+<p>Irritação do olho </p>
+</li>
+<li>
+<p>Conjuntivite (vermelhidão e desconforto no olho) </p>
+</li>
+<li>
+<p>Inflamação dos folículos capilares </p>
+</li>
+<li></li>
+<li>
+<p>Sensações, tais como dormência, formigueiro e picadas </p>
+</li>
+<li>
+<p>Desconforto nasal </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar hyftor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar hyftor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e na bisnaga 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. 
+Conservar no frigorífico (2 °C - 8 °C). 
+Conservar na bisnaga de origem para proteger da luz. 
+Manter afastado do fogo. </p>
+<p>Deitar fora a bisnaga e o gel restante 4 semanas após a abertura. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Hyftor </p>
+<ul>
+<li>
+<p>A substância ativa é o sirolímus. Cada grama de gel contém 2 mg de sirolímus. </p>
+</li>
+<li>
+<p>Os outros componentes são carbómero, etanol anidro, trolamina e água purificada (ver secção 2 
+“Hyftor contém álcool"). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Hyftor e conteúdo da embalagem 
+Hyftor é um gel transparente e incolor. É fornecido numa bisnaga de alumínio contendo 10 g de gel. </p>
+<p>Apresentação: 1 bisnaga </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Plusultra pharma GmbH 
+Fritz-Vomfelde-Str. 40547 Düsseldorf 
+Alemanha </p>
+<p>Fabricante 
+MSK Pharmalogistic GmbH 
+Donnersbergstraße 4 
+64646 Heppenheim 
+Alemanha </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -632,6 +973,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a0d64103b1c8a608be4329399bf17c80"
 * entry[0].resource = composition-da-a0d64103b1c8a608be4329399bf17c80
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa0d64103b1c8a608be4329399bf17c80"
+* entry[=].resource = mpa0d64103b1c8a608be4329399bf17c80
+                            
+                    
+Instance: bundlepackageleaflet-pt-a0d64103b1c8a608be4329399bf17c80
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hyftor Package Leaflet for language pt"
+Description: "ePI document Bundle for hyftor Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a0d64103b1c8a608be4329399bf17c80"
+* entry[0].resource = composition-pt-a0d64103b1c8a608be4329399bf17c80
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa0d64103b1c8a608be4329399bf17c80"
@@ -733,6 +1096,18 @@ RuleSet: a0d64103b1c8a608be4329399bf17c80ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a0d64103b1c8a608be4329399bf17c80) // hyftor pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

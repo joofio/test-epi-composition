@@ -772,6 +772,435 @@ hensyn til miljøet må du ikke smide lægemiddelrester i afløbet, toilettet el
 
 
 
+Instance: composition-pt-70fa014e07592e69938a0c03f0ec3015
+InstanceOf: CompositionUvEpi
+Title: "Composition for vidprevtyn Package Leaflet"
+Description:  "Composition for vidprevtyn Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp70fa014e07592e69938a0c03f0ec3015)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - vidprevtyn"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é VidPrevtyn Beta e para que é utilizado  </li>
+<li>O que precisa de saber antes de receber VidPrevtyn Beta </li>
+<li>Como é administrado VidPrevtyn Beta </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar VidPrevtyn Beta </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é vidprevtyn e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é vidprevtyn e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VidPrevtyn Beta é uma vacina utilizada para prevenir a COVID-19. VidPrevtyn Beta é administrada a adultos que receberam anteriormente uma vacina de mRNA ou uma 
+vacina de vetor adenoviral contra a COVID-19.  </p>
+<p>A vacina estimula o sistema imunitário (as defesas naturais do organismo) a produzir anticorpos 
+específicos que atuam contra o vírus, dando proteção contra a COVID-19. Nenhum dos componentes 
+contidos na vacina pode causar COVID-19.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar vidprevtyn"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar vidprevtyn"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize VidPrevtyn Beta:  </p>
+<ul>
+<li>
+<p>Se tem alergia à substância ativa ou a qualquer outro componente deste medicamento (indicados na 
+secção 6);  </p>
+</li>
+<li>
+<p>Se tem alergia ao etoxilato de octilfenol, uma substância que é utilizada no processo de fabrico. 
+Pequenas quantidades desta substância podem permanecer após o fabrico.  </p>
+</li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de receber a vacina se:  </p>
+<ul>
+<li>
+<p>alguma vez teve uma reação alérgica grave após qualquer outra injeção de vacina ou após ter 
+recebido VidPrevtyn Beta no passado;  </p>
+</li>
+<li>
+<p>alguma vez desmaiou após qualquer injeção com agulha; 
+Medicamento já não autorizado</p>
+</li>
+<li>
+<p>tiver uma doença ou infeção graves com temperatura alta (mais de 38°C). No entanto, pode ser 
+vacinado se tiver febre ligeira ou infeção das vias aéreas superiores, como uma constipação.  </p>
+</li>
+<li>
+<p>tem um problema de hemorragia, faz nódoas negras facilmente ou utiliza um medicamento para 
+prevenir coágulos sanguíneos. </p>
+</li>
+<li>
+<p>tiver um sistema imunitário enfraquecido (imunodeficiência) ou se estiver a tomar medicamentos 
+que enfraqueçam o sistema imunitário, (tais como corticosteroides de dose elevada ou 
+medicamentos contra o cancro).  </p>
+</li>
+</ul>
+<p>Tal como acontece com qualquer vacina, VidPrevtyn Beta pode não proteger totalmente todos aqueles 
+que o recebem. Não se sabe durante quanto tempo estará protegido. </p>
+<p>Crianças e adolescentes 
+VidPrevtyn Beta não é recomendado em crianças com menos de 18 anos de idade. Atualmente não existe 
+informação disponível sobre a utilização de VidPrevtyn Beta em crianças e adolescentes com menos de 
+18 anos de idade. </p>
+<p>Outros medicamentos e VidPrevtyn Beta 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou se 
+vier a tomar outros medicamentos ou vacinas. </p>
+<p>Gravidez e amamentação<br />
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico, 
+farmacêutico ou enfermeiro antes de receber esta vacina. </p>
+<p>Condução de veículos e utilização de máquinas<br />
+Alguns dos efeitos indesejáveis de VidPrevtyn Beta mencionados na secção 4 (Efeitos indesejáveis 
+possíveis) podem afetar temporariamente a sua capacidade de conduzir ou utilizar máquinas. Espere até 
+que estes efeitos desapareçam antes de conduzir ou utilizar máquinas.  </p>
+<p>VidPrevtyn Beta contém sódio e potássio<br />
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+«isento de sódio».  </p>
+<p>Este medicamento contém menos do que 1 mmol (39 mg) de potássio por dose, ou seja, é praticamente 
+«isento de potássio».  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar vidprevtyn"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar vidprevtyn"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu médico, farmacêutico ou enfermeiro irá injetar a vacina num músculo - normalmente na parte 
+superior do seu braço. </p>
+<p>Irá receber 1 injeção.<br />
+Recomenda-se que receba VidPrevtyn Beta uma vez como dose de reforço pelo menos 4 meses após 
+vacinação anterior com uma vacina de mRNA ou de vetor adenoviral contra a COVID-19.<br />
+Após a injeção, o seu médico, farmacêutico ou enfermeiro irá vigiá-lo durante cerca de 15 minutos para 
+monitorizar sinais de uma reação alérgica. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização desta vacina, fale com o seu médico, farmacêutico ou 
+enfermeiro. </p>
+<p>Medicamento já não autorizado</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>A maioria dos efeitos indesejáveis ocorrem no prazo de 3 dias após a administração da vacina e 
+desaparecem no prazo de alguns dias após o aparecimento. Se os sintomas persistirem, contacte o seu 
+médico, farmacêutico ou enfermeiro.  </p>
+<p>Procure cuidados médicos urgentes se tiver sintomas de uma reação alérgica grave pouco tempo depois 
+da vacinação. Tais sintomas podem incluir:  </p>
+<ul>
+<li>
+<p>sensação de desmaio ou atordoamento  </p>
+</li>
+<li>
+<p>alterações no seu batimento cardíaco  </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>síbilo </p>
+</li>
+<li>
+<p>inchaço dos lábios, rosto ou garganta  </p>
+</li>
+<li>
+<p>inchaço sob a pele com comichão (urticária) ou erupção da pele  </p>
+</li>
+<li>
+<p>mal-estar (náuseas) ou vómitos  </p>
+</li>
+<li>
+<p>dor de estômago. </p>
+</li>
+</ul>
+<p>Podem ocorrer os seguintes efeitos indesejáveis com VidPrevtyn Beta: 
+Os efeitos indesejáveis que podem afetar até 1 em 100 pessoas podem não ter sido todos detetados nos 
+estudos clínicos feitos até a data. </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas):  </p>
+<ul>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Dor muscular  </p>
+</li>
+<li>
+<p>Dor nas articulações </p>
+</li>
+<li>
+<p>Sensação de indisposição </p>
+</li>
+<li>
+<p>Arrepios </p>
+</li>
+<li>
+<p>Dor no local onde a vacina é injetada  </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas):  </p>
+<ul>
+<li>
+<p>Febre (≥38,0°C) </p>
+</li>
+<li>
+<p>Cansaço </p>
+</li>
+<li>
+<p>Mal-estar (náuseas) </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Vermelhidão ou inchaço no local onde a vacina é injetada </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas): </p>
+<ul>
+<li>
+<p>Gânglios linfáticos aumentados </p>
+</li>
+<li>
+<p>Comichão, nódoas negras ou calor no local onde a vacina é injetada.  </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em cada 1000 pessoas) </p>
+<ul>
+<li>Tonturas </li>
+</ul>
+<p>Desconhecidos (não pode ser calculado a partir dos dados disponíveis): </p>
+<ul>
+<li>
+<p>Reações alérgicas tais como erupção cutânea ou urticária ou inchaço da face 
+Medicamento já não autorizado</p>
+</li>
+<li>
+<p>Reações alérgicas graves (anafilaxia) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis<br />
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar vidprevtyn"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar vidprevtyn"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>As informações sobre conservação, utilização e manuseamento estão descritas na secção destinada aos 
+profissionais de saúde no final do folheto informativo. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de VidPrevtyn Beta  </p>
+<ul>
+<li>
+<p>Existem dois frascos para injetáveis multidose (frasco para injetáveis de antigénio e frasco para 
+injetáveis de adjuvante) que têm de ser misturados antes da utilização. Após a mistura, o frasco para 
+injetáveis da vacina contém 10 doses de 0,5 ml. </p>
+</li>
+<li>
+<p>Uma dose (0,5 ml) contém 5 microgramas de antigénio de proteína Spike de SARS-CoV-2 
+recombinante (estirpe B.1.351).  </p>
+</li>
+<li>
+<p>O AS03 está incluído nesta vacina como adjuvante para melhorar a produção de anticorpos 
+específicos. 
+Este 
+adjuvante 
+contém 
+esqualeno 
+(10,miligramas), 
+DL-α-tocoferol 
+(11,86 miligramas) e polissorbato 80 (4,86 miligramas). </p>
+</li>
+<li>
+<p>Os outros componentes são: di-hidrogenofosfato de sódio mono-hidratado, fosfato dissódico dodeca-
+hidratado, cloreto de sódio, polissorbato 20, hidrogenofosfato dissódico, di-hidrogenofosfato de 
+potássio, cloreto de potássio, água para preparações injetáveis.  </p>
+</li>
+</ul>
+<p>Qual o aspeto de VidPrevtyn Beta e conteúdo da embalagem </p>
+<ul>
+<li>
+<p>A solução de antigénio é um líquido transparente e incolor.  </p>
+</li>
+<li>
+<p>A emulsão adjuvante é um líquido leitoso homogéneo esbranquiçado a amarelado. </p>
+</li>
+<li>
+<p>Antes da administração, os dois componentes devem ser misturados. A vacina misturada é uma 
+emulsão líquida leitosa homogénea esbranquiçada a amarelada. </p>
+</li>
+</ul>
+<p>Cada embalagem contém 10 frascos para injetáveis multidose de antigénio e 10 frascos para injetáveis 
+multidose de adjuvante. </p>
+<ul>
+<li>
+<p>Cada frasco para injetáveis de antigénio contém 2,5 ml de solução de antigénio num frasco para 
+injetáveis multidose (vidro tipo 1) com uma rolha (clorobutilo) e um selo de alumínio com uma 
+tampa de plástico destacável verde.  </p>
+</li>
+<li>
+<p>Cada frasco para injetáveis de adjuvante contém 2,5 ml de emulsão adjuvante num frasco para 
+injetáveis multidose (vidro tipo 1) com uma rolha (clorobutilo) e um selo de alumínio com uma 
+tampa de plástico destacável amarela. </p>
+</li>
+</ul>
+<p>Medicamento já não autorizado
+Após misturar a solução de antigénio com a emulsão adjuvante, o frasco para injetáveis contém 10 doses 
+de 0,5 ml. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Sanofi Pasteur - 14 Espace Henry Vallée - 69007 Lyon - França </p>
+<p>Fabricante 
+Sanofi Pasteur - 1541 avenue Marcel Mérieux - 69280 Marcy-l’Étoile - França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado: </p>
+<p>België/ Belgique /Belgien 
+Sanofi Belgium 
+tel.: +32 2 710.54. Lietuva 
+Swixx Biopharma UAB 
+Tel.: +370 5 236 91 40   <br />
+България 
+Swixx Biopharma EOOD<br />
+Teл.: +359 (0)2 4942 Luxembourg/Luxemburg 
+Sanofi Belgium 
+tel.: +32 2 710.54. Česká republika 
+Sanofi s.r.o. 
+Tel: +420 233 086 Magyarország 
+sanofi-aventis zrt 
+Tel.: +36 1 505 0Danmark 
+Sanofi A/S 
+Tel: +45 4516 7000  </p>
+<p>Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 54 54 Tel. aus dem Ausland: +49 69 305 21 Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4 
+Eesti 
+Swixx Biopharma OÜ 
+Tel.: +372 640 10<br />
+Norge 
+Sanofi-Aventis Norge AS 
+Tel: + 47 67 10 71 Ελλάδα 
+ΒΙΑΝΕΞ Α.Ε.<br />
+Τηλ: +30.210.8009Österreich 
+sanofi-aventis GmbH 
+Tel: +43 (1) 80 185-0.<br />
+España 
+sanofi-aventis, S.A.<br />
+Tel: +34 93 485 94 Polska 
+Sanofi Pasteur Sp. z o.o. 
+Tel.: + 48 22 280 00<br />
+France 
+Sanofi Pasteur Europe 
+Tél: 0800 222 555<br />
+Appel depuis l’étranger: +33 1 57 63 23 Portugal 
+Sanofi - Produtos Farmacêuticos, Lda. 
+Tel: + 351 21 35 89  </p>
+<p>Medicamento já não autorizado
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel.: +385 1 2078<br />
+Ireland 
+sanofi-aventis Ireland T/A SANOFI 
+Tel: + 353 (0) 1 4035 România 
+Sanofi Romania SRL 
+Tel.: +40(21) 317 31<br />
+Slovenija 
+Swixx Biopharma d.o.o. 
+Tel.: +386 1 235 51<br />
+Ísland 
+Vistor 
+Tel : +354 535 7Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel.: +421 2 208 33<br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800536389  </p>
+<p>Suomi/Finland 
+Sanofi Oy 
+Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ.: +357 22 741 </p>
+<p>Sverige 
+Sanofi AB 
+Tel: +46 8-634 50 Latvija 
+Swixx Biopharma SIA 
+Tel.: +371 6 616 4United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel.: +44 (0) 800 035 2 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -813,6 +1242,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-70fa014e07592e69938a0c03f0ec3015"
 * entry[0].resource = composition-da-70fa014e07592e69938a0c03f0ec3015
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp70fa014e07592e69938a0c03f0ec3015"
+* entry[=].resource = mp70fa014e07592e69938a0c03f0ec3015
+                            
+                    
+Instance: bundlepackageleaflet-pt-70fa014e07592e69938a0c03f0ec3015
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vidprevtyn Package Leaflet for language pt"
+Description: "ePI document Bundle for vidprevtyn Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-70fa014e07592e69938a0c03f0ec3015"
+* entry[0].resource = composition-pt-70fa014e07592e69938a0c03f0ec3015
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp70fa014e07592e69938a0c03f0ec3015"
@@ -914,6 +1365,18 @@ RuleSet: 70fa014e07592e69938a0c03f0ec3015ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-70fa014e07592e69938a0c03f0ec3015) // vidprevtyn pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

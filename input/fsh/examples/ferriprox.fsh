@@ -649,6 +649,342 @@ f.eks. feber, ondt i halsen eller influenzalignende symptomer. </p>
 
 
 
+Instance: composition-pt-174da4bc3583312132255c6ab13da6ac
+InstanceOf: CompositionUvEpi
+Title: "Composition for ferriprox Package Leaflet"
+Description:  "Composition for ferriprox Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp174da4bc3583312132255c6ab13da6ac)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ferriprox"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Ferriprox e para que é utilizado 
+2. O que precisa de saber antes de tomar Ferriprox 
+3. Como tomar Ferriprox 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Ferriprox 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ferriprox e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ferriprox e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Ferriprox contém como substância ativa a deferriprona. Ferriprox é um quelante do ferro, um tipo 
+de medicamento que remove o excesso de ferro do organismo. </p>
+<p>Ferriprox é usado para tratar a sobrecarga de ferro causada por frequentes transfusões de sangue em 
+doentes com talassemia major, quando a atual terapia quelante é contraindicada ou inadequada. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ferriprox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ferriprox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Ferriprox 
+− 
+se tem alergia à deferriprona ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+− 
+caso possua historial de episódios repetidos de neutropenia (número baixo de glóbulos brancos 
+(neutrófilos) no sangue). 
+− 
+caso possua historial de agranulocitose (número muito baixo de glóbulos brancos (neutrófilos) 
+no sangue). 
+− 
+caso esteja atualmente a tomar medicamentos que se saiba causarem neutropenia ou 
+agranulocitose (ver a secção “Outros medicamentos e Ferriprox"). 
+− 
+caso esteja grávida ou a amamentar. </p>
+<p>Advertências e precauções 
+− 
+o efeito indesejável mais grave que pode ocorrer ao tomar Ferriprox é uma diminuição 
+acentuada dos glóbulos brancos (neutrófilos). Esta afeção, conhecida por neutropenia grave ou 
+agranulocitose, ocorreu em 1 a 2 em cada 100 pessoas que tomaram Ferriprox durante os 
+ensaios clínicos. O facto de os glóbulos brancos ajudarem a combater as infeções faz com que a 
+redução de neutrófilos o/a possa colocar em risco de sofrer infeções graves e potencialmente 
+fatais. Para controlar a neutropenia, o seu médico pedir-lhe- á que efetue regularmente uma 
+análise de sangue (para verificar a contagem de glóbulos brancos), com frequência semanal, 
+durante o seu tratamento com Ferriprox. É muito importante que as faça sempre. Por favor 
+consulte o cartão de alerta para o doente em anexo à caixa de cartão. Se observar qualquer 
+sintoma indiciador de infeção como febre, dores de garganta ou sintomas do tipo gripal, procure 
+imediatamente assistência médica. A contagem dos seus glóbulos brancos deve ser verificada no 
+prazo de 24 horas de forma a detetar uma possível agranulocitose. 
+− 
+se for positivo para o vírus de imunodeficiência humana (VIH) ou se a sua função hepática ou 
+renal estiver gravemente comprometida, o seu médico pode recomendar análises adicionais. </p>
+<p>O seu médico pedir-lhe-á também que faça análises para controlar a carga de ferro no organismo. 
+Além disso, poderá também pedir-lhe que seja submetido a biópsias hepáticas. </p>
+<p>Outros medicamentos e Ferriprox 
+Não tome medicamentos que se saiba causarem neutropenia ou agranulocitose (ver a secção “Não 
+tome Ferriprox"). Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente 
+ou se vier a tomar outros medicamentos, incluindo medicamentos sem receita médica. </p>
+<p>Não tome antiácidos à base de alumínio enquanto estiver a tomar o Ferriprox. </p>
+<p>Por favor consulte o seu médico ou farmacêutico antes de tomar vitamina C com Ferriprox. </p>
+<p>Gravidez e amamentação 
+Ferriprox pode ser prejudicial para os bebés por nascer quando é utilizado por mulheres grávidas. 
+Ferriprox não pode ser utilizado durante a gravidez a menos que seja claramente necessário. Se está 
+grávida ou se engravidar durante o tratamento com Ferriprox, procure assistência médica 
+imediatamente. </p>
+<p>Recomenda-se que todos os doentes, do sexo masculino e feminino, tomem precauções especiais 
+durante a atividade sexual, caso exista qualquer possibilidade de ocorrência de gravidez. Recomenda-
+se que as mulheres com potencial para engravidar utilizem métodos contracetivos eficazes durante o 
+tratamento com Ferriprox e durante 6 meses após a última dose. Recomenda-se que os homens 
+utilizem métodos contracetivos eficazes durante o tratamento e durante 3 meses após a última dose. 
+Isto deve ser discutido com o seu médico. </p>
+<p>Não tome o Ferriprox se estiver a amamentar. Consulte o cartão de alerta para o doente anexado à 
+caixa de cartão. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não relevante. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ferriprox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ferriprox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. A quantidade de Ferriprox que irá tomar depende do seu peso. A dose 
+habitual é de 25 mg/kg, 3 vezes por dia, para uma dose diária total de 75 mg/kg. A dose diária total 
+não deve exceder os 100 mg/kg. Tome a sua primeira dose de manhã. Tome a segunda dose ao meio-
+dia. Tome a sua terceira dose à noite. Ferriprox pode ser ingerido com ou sem alimentos; contudo, 
+poderá ser mais fácil recordar-se de tomar o Ferriprox se o tomar na hora das refeições. </p>
+<p>Se tomar mais Ferriprox do que deveria 
+Não existem relatos de sobredosagem aguda com Ferriprox. No caso de ingestão acidental de uma 
+dose superior à prescrita, deve contactar o seu médico. </p>
+<p>Caso se tenha esquecido de tomar Ferriprox 
+Ferriprox será mais eficaz se não se esquecer de tomar nenhuma dose. No caso de se esquecer de uma 
+dose, tome-a logo que se lembrar e tome a dose seguinte na hora normalmente programada. No caso 
+de se esquecer de tomar mais do que uma dose, não tome uma dose a dobrar para compensar as doses 
+que se esqueceu de tomar, continue apenas com o seu esquema normal. Não mude a sua dose diária 
+sem falar primeiro com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>O efeito indesejável mais grave do Ferriprox é uma contagem muito baixa dos glóbulos brancos 
+(neutrófilos). Esta doença, conhecida como agranulocitose ou neutropenia grave, ocorreu em 1 a 2 em 
+cada 100 pessoas que tomaram Ferriprox em estudos clínicos. Uma contagem baixa dos glóbulos 
+brancos pode estar associada a uma infeção grave e potencialmente fatal. Comunique imediatamente 
+ao seu médico quaisquer sintomas de infeção como: febre, dores de garganta ou sintomas semelhantes 
+aos da gripe. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas): 
+- dor abdominal; 
+- náuseas; 
+- vómitos; 
+- descoloração avermelhada/castanha da urina. </p>
+<p>Se tiver náuseas ou vómitos, tomar o Ferriprox com alguma comida poderá ajudar. A descoloração da 
+urina é um efeito indesejável muito frequente e é inofensivo. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar 1 a 10 pessoas em cada 100): 
+- diminuição dos glóbulos brancos (agranulocitose e neutropenia); 
+- dores de cabeça; 
+- diarreia; 
+- aumento das enzimas do fígado; 
+- fadiga; 
+- aumento do apetite. </p>
+<p>Desconhecido (a frequência não pode ser determinada com os dados disponíveis): 
+- reações alérgicas, incluindo erupções cutâneas ou urticária. </p>
+<p>Situações de dores ou inchaço nas articulações, desde dor ligeira numa ou mais articulações a 
+incapacidade grave. Na maioria dos casos, a dor desapareceu enquanto os doentes continuaram a 
+tomar Ferriprox. </p>
+<p>Foram assinalados distúrbios neurológicos (tais como tremores, distúrbios da marcha, visão dupla, 
+contrações musculares involuntárias, problemas de coordenação motora) em crianças a quem foi 
+voluntariamente prescrito mais do dobro da dose máxima recomendada de 100 mg/kg/dia durante 
+vários anos, que também foram observados em crianças com doses padrão de deferriprona. As 
+crianças recuperaram destes sintomas após a interrupção da toma de Ferriprox. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ferriprox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ferriprox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e embalagem exterior após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 30ºC. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ferriprox 
+A substância ativa é a deferriprona. Cada comprimido de 500 mg contém 500 mg de deferriprona. </p>
+<p>Os outros componentes são:<br />
+núcleo do comprimido: celulose microcristalina, estearato de magnésio, sílica coloidal anidra.<br />
+revestimento: hipromelose, macrogol, dióxido de titânio. </p>
+<p>Qual o aspeto de Ferriprox e conteúdo da embalagem 
+Comprimido revestido por película, branco a esbranquiçado, em forma de cápsula, com “APO" linha 
+de divisão “500" num lado, sendo liso no outro. O comprimido mede 7,1 mm x 17,5 mm x 6,8 mm e 
+apresenta uma ranhura. O comprimido pode ser dividido em metades iguais. Ferriprox é 
+acondicionado em frascos de 100 comprimidos. </p>
+<p>Titular da Autorização de Introdução no Mercado: 
+Chiesi Farmaceutici S.p.A. 
+Via Palermo 26/A 
+43122 Parma 
+Itália </p>
+<p>Fabricante: 
+Eurofins PROXY Laboratories B.V. 
+Archimedesweg 2333 CM Leiden 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Chiesi sa/nv<br />
+Tél/Tel: + 32 (0)2 788 42<br />
+Lietuva 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073919  </p>
+<p>България 
+Chiesi Bulgaria EOOD<br />
+Тел.: +359 29201205  </p>
+<p>Luxembourg/Luxemburg 
+Chiesi sa/nv 
+Tél/Tel: + 32 (0)2 788 42<br />
+Česká republika 
+Chiesi CZ s.r.o. 
+Tel: + 420 261221 
+Magyarország 
+Chiesi Hungary Kft. 
+Tel.: + 36-1-429 1 
+Danmark 
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35<br />
+Malta 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 
+Deutschland 
+Chiesi GmbH 
+Tel: + 49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V. 
+Tel: + 31 88 501 64<br />
+Eesti 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+Norge 
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35<br />
+Ελλάδα 
+DEMO ABEE 
+Τηλ: + 30 210 8161 
+Österreich 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+España 
+Chiesi España, S.A.U. 
+Tel: + 34 934948 
+Polska 
+Chiesi Poland Sp. z.o.o. 
+Tel.: + 48 22 620 1 
+France 
+Chiesi S.A.S.<br />
+Tél: + 33 1 47688899  </p>
+<p>Portugal 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 
+Hrvatska 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+România 
+Chiesi Romania S.R.L. 
+Tel: + 40 212023 
+Ireland 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 
+Slovenija 
+CHIESI SLOVENIJA, d.o.o. 
+Tel: + 386-1-43 00<br />
+Ísland 
+Chiesi Pharma AB 
+Sími: +46 8 753 35<br />
+Slovenská republika 
+Chiesi Slovakia s.r.o. 
+Tel: + 421 259300 
+Italia 
+Chiesi Italia S.p.A. 
+Tel: + 39 0521 2 
+Suomi/Finland 
+Chiesi Pharma AB 
+Puh/Tel: +46 8 753 35<br />
+Κύπρος 
+The Star Medicines Importers Co. Ltd. 
+Τηλ: + 357 25 371 
+Sverige 
+Chiesi Pharma AB 
+Tel: +46 8 753 35<br />
+Latvija 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 </p>
+<p>Este folheto foi revisto pela última vez em . </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -690,6 +1026,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-174da4bc3583312132255c6ab13da6ac"
 * entry[0].resource = composition-da-174da4bc3583312132255c6ab13da6ac
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp174da4bc3583312132255c6ab13da6ac"
+* entry[=].resource = mp174da4bc3583312132255c6ab13da6ac
+                            
+                    
+Instance: bundlepackageleaflet-pt-174da4bc3583312132255c6ab13da6ac
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ferriprox Package Leaflet for language pt"
+Description: "ePI document Bundle for ferriprox Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-174da4bc3583312132255c6ab13da6ac"
+* entry[0].resource = composition-pt-174da4bc3583312132255c6ab13da6ac
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp174da4bc3583312132255c6ab13da6ac"
@@ -791,6 +1149,18 @@ RuleSet: 174da4bc3583312132255c6ab13da6acListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-174da4bc3583312132255c6ab13da6ac) // ferriprox pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

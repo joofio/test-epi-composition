@@ -670,6 +670,357 @@ og om, hvordan de behandles. </p>         </div>"""
 
 
 
+Instance: composition-pt-9a5ac6d518a24ab2e0257a8b57ce793b
+InstanceOf: CompositionUvEpi
+Title: "Composition for raxone Package Leaflet"
+Description:  "Composition for raxone Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9a5ac6d518a24ab2e0257a8b57ce793b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - raxone"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Raxone e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Raxone  </li>
+<li>Como tomar Raxone  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Raxone  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é raxone e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é raxone e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Raxone contém uma substância chamada idebenona.  </p>
+<p>A idebenona é utilizada no tratamento da deficiência visual em doentes adolescentes e adultos que 
+sofrem de uma doença ocular chamada neuropatia ótica hereditária de Leber (LHON). 
+- Este problema ocular é hereditário, ou seja, afeta os membros de uma mesma família. 
+- É causado por um problema nos genes (a chamada «mutação genética») que afeta a capacidade 
+das células no olho para produzirem a energia necessária para conseguirem funcionar 
+normalmente, acabando por se tornar inativas. 
+- A LHON pode causar perda de visão devido à inatividade das células responsáveis pela visão.  </p>
+<p>O tratamento com Raxone pode restaurar a capacidade das células para produzir energia e, deste 
+modo, permitir que as células inativas do olho funcionem novamente. Isto pode levar a alguma 
+melhoria em termos de perda de visão.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar raxone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar raxone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Raxone:<br />
+- se tem alergia à idebenona ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).  </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar Raxone se: 
+- tem problemas no sangue, fígado ou rins.  </p>
+<p>Alteração na cor da urina<br />
+Raxone pode fazer com que a sua urina se torne castanho-avermelhada. Esta alteração de cor é 
+inofensiva e não significa que o seu tratamento tenha de ser alterado. Contudo, a alteração da cor pode 
+indicar que sofre de problemas nos rins ou bexiga.<br />
+- Informe o seu médico se a sua urina mudar de cor. 
+- O seu médico poderá solicitar a realização de uma análise à urina para se certificar de que a 
+alteração da cor não está a ocultar outros problemas. </p>
+<p>Testes 
+O seu médico verificará a sua visão antes de começar a tomar o medicamento e, posteriormente, em 
+consultas regulares durante a toma deste.  </p>
+<p>Crianças e adolescentes 
+Este medicamento não deve ser utilizado em crianças, pois desconhece-se se Raxone é seguro ou 
+funciona em doentes com idade inferior a 12 anos. </p>
+<p>Outros medicamentos e Raxone 
+Alguns medicamentos podem interagir com Raxone. Informe o seu médico se estiver a tomar, tiver 
+tomado recentemente, ou se vier a tomar outros medicamentos, em especial os seguintes: 
+- medicamentos anti-histamínicos para o tratamento de alergias (astemizol, terfenadina) 
+- medicamentos para o tratamento da azia (cisaprida) 
+- medicamentos para o tratamento de tiques musculares e da fala associados à síndrome de 
+Tourette (pimozida) 
+- medicamentos para o tratamento de perturbações da frequência cardíaca (quinidina) 
+- medicamentos para o tratamento da enxaqueca (di-hidroergotamina, ergotamina) 
+- medicamentos para colocá-lo a dormir designados «anestésicos» (alfentanil) 
+- medicamentos para o tratamento da inflamação na artrite reumatoide e psoríase (ciclosporina) 
+- medicamentos para a prevenção da rejeição de um órgão transplantado (sirulimus, tacrolimus) 
+- medicamentos para o tratamento da dor forte designados «opiáceos» (fentanil) </p>
+<p>Gravidez e amamentação<br />
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento.<br />
+- O seu médico só lhe prescreverá Raxone se os benefícios do tratamento forem superiores aos 
+riscos para o feto. 
+- Raxone pode passar para o leite da mãe. Se está a amamentar, o seu médico falará consigo sobre 
+se deve deixar de amamentar ou deixar de tomar o medicamento. Esta decisão terá em 
+consideração o benefício da amamentação para a criança e o benefício do medicamento para si. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não se prevê que Raxone afete a sua capacidade de condução de veículos ou utilização de máquinas.  </p>
+<p>Raxone contém lactose e amarelo sunset (E110) 
+- Raxone contém lactose (um tipo de açúcar). Se foi informado pelo seu médico que tem 
+intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>
+<ul>
+<li>Raxone contém um corante chamado «amarelo sunset» (também conhecido por E110). Este 
+corante pode causar reações alérgicas. </li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar raxone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar raxone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.  </p>
+<p>Que dose deve tomar 
+A dose recomendada é de 2 comprimidos três vezes ao dia (um total de 6 comprimidos por dia).  </p>
+<p>Tomar este medicamento 
+- Tome os comprimidos com alimentos - isto facilita a passagem do medicamento do estômago 
+para o sangue. 
+- Engula os comprimidos inteiros com um copo de água. 
+- Não esmague nem mastigue os comprimidos. 
+− 
+Tome os comprimidos à mesma hora do dia, todos os dias. Por exemplo, de manhã ao pequeno-
+almoço, ao almoço a meio do dia, e ao jantar à noite. </p>
+<p>Se tomar mais Raxone do que deveria 
+Se tomar mais Raxone do que deveria, fale de imediato com o seu médico. </p>
+<p>Caso se tenha esquecido de tomar Raxone 
+Caso se tenha esquecido de tomar uma dose, omita a dose que se esqueceu de tomar. Tome a dose 
+seguinte à hora habitual. 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.  </p>
+<p>Se parar de tomar Raxone 
+Fale com o seu médico antes de parar de tomar este medicamento. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Podem ocorrer os seguintes efeitos indesejáveis com este 
+medicamento: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas)<br />
+- nasofaringite (constipação) 
+- tosse </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas):<br />
+- diarreia (ligeira a moderada que, geralmente, não implica a descontinuação do tratamento) 
+- dor de costas </p>
+<p>Frequência desconhecida (não pode ser calculada a partir dos dados disponíveis)<br />
+- bronquite 
+- alterações nos resultados das análises de sangue: nível baixo de glóbulos brancos, nível baixo de 
+glóbulos vermelhos ou nível baixo de plaquetas 
+- aumento dos níveis de colesterol ou de gordura no sangue (observado nas análises) 
+- convulsões, sensação de confusão, ver ou ouvir coisas que não são reais (alucinações), sentir-se 
+excitado, movimentos que não consegue controlar, tendência para deambular, sentir-se com 
+tonturas, dores de cabeça, sentir-se irrequieto, aturdido e incapaz de agir ou pensar normalmente 
+- náuseas, vómitos, perda de apetite, indigestão 
+- níveis altos de algumas enzimas hepáticas no organismo, o que significa que tem problemas de 
+fígado - observado nas análises, níveis elevados de «bilirrubina» -, o que pode fazer com que a 
+sua pele e a parte branca dos olhos adquiram um tom amarelado, hepatite 
+- erupção cutânea, comichão 
+- dor nas extremidades 
+- níveis altos de azoto no sangue - observados em análises com alteração da cor da urina 
+- sensação geral de mal-estar </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar raxone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar raxone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Raxone  </p>
+<ul>
+<li>A substância ativa é a idebenona. Cada comprimido revestido por película contém 150 mg de 
+idebenona. </li>
+<li>Os outros componentes são 
+Núcleo do comprimido: lactose mono-hidratada, celulose microcristalina, croscarmelose sódica, 
+povidona K25, estearato de magnésio e sílica coloidal anidra. 
+Revestimento de película do comprimido: macrogol, álcool polivinílico, talco, dióxido de 
+titânio, amarelo sunset (E110). </li>
+</ul>
+<p>Qual o aspeto de Raxone e conteúdo da embalagem </p>
+<ul>
+<li>Raxone comprimidos revestidos por película são comprimidos de cor laranja, redondos e com 
+10 mm de diâmetro, com o logótipo da Santhera gravado num lado e a inscrição  «150» no 
+outro.  </li>
+<li>Raxone é fornecido em frascos brancos de plástico. Um blister contém 180 comprimidos. </li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado 
+Chiesi Farmaceutici S.p.A. 
+Via Palermo 26/A 
+43122 Parma 
+Itália </p>
+<p>Fabricante 
+Santhera Pharmaceuticals (Deutschland) GmbH 
+Marie-Curie Strasse 8 
+79539 Lörrach 
+Alemanha 
+Tel.: +49 (0)7621 1690 E-mail: office@santhera.com </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Chiesi sa/nv<br />
+Tél/Tel: + 32 (0)2 788 42<br />
+Lietuva 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+България 
+Chiesi Bulgaria EOOD<br />
+Teл.: + 359 29201 
+Luxembourg/Luxemburg 
+Chiesi sa/nv<br />
+Tél/Tel: + 32 (0)2 788 42<br />
+Česká republika 
+Chiesi CZ s.r.o.<br />
+Tel: + 420 261221 
+Magyarország 
+Chiesi Hungary Kft.<br />
+Tel.: + 36-1-429 1 
+Danmark 
+Chiesi Pharma AB<br />
+Tlf: + 46 8 753 35<br />
+Malta 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 
+Deutschland 
+Chiesi GmbH<br />
+Tel: + 49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V.<br />
+Tel: + 31 88 501 64<br />
+Eesti 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+Norge 
+Chiesi Pharma AB<br />
+Tlf: + 46 8 753 35<br />
+Ελλάδα 
+Chiesi Hellas AEBE<br />
+Τηλ: + 30 210 6179 
+Österreich 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+España 
+Chiesi España, S.A.U.<br />
+Tel: + 34 93 494 8 
+Polska 
+Chiesi Poland Sp. z.o.o.<br />
+Tel.: + 48 22 620 1 
+France 
+Chiesi S.A.S.<br />
+Tél: + 33 1 47688 
+Portugal 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 
+Hrvatska 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+România 
+Chiesi Romania S.R.L.<br />
+Tel: + 40 212023 
+Ireland 
+Chiesi Farmaceutici S.p.A. <br />
+Tel: + 39 0521 2 
+Slovenija 
+CHIESI SLOVENIJA d.o.o.<br />
+Tel: + 386-1-43 00<br />
+Ísland 
+Chiesi Pharma AB<br />
+Sími: +46 8 753 35<br />
+Slovenská republika 
+Chiesi Slovakia s.r.o.<br />
+Tel: + 421 259300 
+Italia 
+Chiesi Italia S.p.A.<br />
+Tel: + 39 0521 2 
+Suomi/Finland 
+Chiesi Pharma AB<br />
+Puh/Tel: +46 8 753 35<br />
+Κύπρος 
+Chiesi Farmaceutici S.p.A.<br />
+Τηλ: + 39 0521 2 
+Sverige 
+Chiesi Pharma AB<br />
+Tel: +46 8 753 35<br />
+Latvija 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+United Kingdom (Northern Ireland)<br />
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Foi concedida a este medicamento uma «Autorização de Introdução no Mercado em circunstâncias 
+excecionais». Isto significa que não foi possível obter informação completa sobre este medicamento 
+devido à raridade da doença. 
+A Agência Europeia de Medicamentos irá analisar todos os anos, qualquer nova informação sobre este 
+medicamento e este folheto será atualizado se necessário. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -711,6 +1062,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9a5ac6d518a24ab2e0257a8b57ce793b"
 * entry[0].resource = composition-da-9a5ac6d518a24ab2e0257a8b57ce793b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9a5ac6d518a24ab2e0257a8b57ce793b"
+* entry[=].resource = mp9a5ac6d518a24ab2e0257a8b57ce793b
+                            
+                    
+Instance: bundlepackageleaflet-pt-9a5ac6d518a24ab2e0257a8b57ce793b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for raxone Package Leaflet for language pt"
+Description: "ePI document Bundle for raxone Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9a5ac6d518a24ab2e0257a8b57ce793b"
+* entry[0].resource = composition-pt-9a5ac6d518a24ab2e0257a8b57ce793b
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9a5ac6d518a24ab2e0257a8b57ce793b"
@@ -812,6 +1185,18 @@ RuleSet: 9a5ac6d518a24ab2e0257a8b57ce793bListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9a5ac6d518a24ab2e0257a8b57ce793b) // raxone pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

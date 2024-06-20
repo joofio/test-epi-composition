@@ -941,6 +941,495 @@ hjemmeside: http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-pt-065d110b327b470e1ddc262836549605
+InstanceOf: CompositionUvEpi
+Title: "Composition for temomedac Package Leaflet"
+Description:  "Composition for temomedac Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp065d110b327b470e1ddc262836549605)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - temomedac"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Temomedac e para que é utilizado 
+2. O que precisa de saber antes de tomar Temomedac 
+3. Como tomar Temomedac 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Temomedac 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é temomedac e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é temomedac e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Temomedac contém um medicamento chamado temozolomida. Este medicamento é um agente 
+antitumoral. 
+Temomedac é indicado para o tratamento de formas específicas de tumores cerebrais: 
+- em adultos com glioblastoma multiforme recentemente diagnosticado. Inicialmente o 
+Temomedac é utilizado em associação com radioterapia (fase concomitante do tratamento) e 
+posteriormente sozinho (fase de monoterapia do tratamento). 
+- em crianças com idade igual ou superior a 3 anos e adultos com glioma maligno, tal como 
+glioblastoma multiforme ou astrocitoma anaplásico. Temomedac é utilizado nestes tumores 
+caso demonstrem recorrência ou progressão após uma terapêutica padrão. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar temomedac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar temomedac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Temomedac 
+- se tem alergia à temozolomida ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). 
+- se já teve qualquer reacção alérgica à dacarbazina (um medicamento contra o cancro, por vezes 
+chamado DTIC). Os sinais de reacção alérgica incluem comichão, falta de ar ou dificuldade em 
+respirar, inchaço da face, lábios, língua ou garganta. 
+- se a contagem de certos tipos de células sanguíneas estiver gravemente reduzida 
+(mielossupressão), tais como o número de glóbulos brancos e de plaquetas. Estas células do 
+sangue são importantes para combater infecções e para uma adequada coagulação do sangue. O 
+seu médico irá fazer análises ao sangue para confirmar que possui uma quantidade suficiente 
+destas células antes de iniciar o tratamento. </p>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Temomedac, 
+- se deve ser acompanhado de perto quanto à possibilidade de desenvolvimento de uma forma 
+grave de infeção no peito, denominada pneumonia por Pneumocystis jirovecii (PCP). Se o seu 
+diagnóstico é recente (gliobastoma multiforme) poderá estar a receber Temomedac durante o 
+regime de 42 dias, em associação com o tratamento por radioterapia. Neste caso, o seu médico 
+também irá prescrever-lhe medicamentos para ajudar a prevenir este tipo de pneumonia (PCP). 
+- se alguma vez teve ou tem agora uma infeção por hepatite B. Isto porque o Temomedac pode 
+causar que a hepatite B fique novamente ativa, o que pode ser fatal em alguns casos. Os doentes 
+serão cuidadosamente avaliados pelo seu médico relativamente a sinais desta infeção antes do 
+tratamento se iniciar. 
+- se tiver baixas contagens de glóbulos vermelhos (anemia), glóbulos brancos e plaquetas no 
+sangue, ou tiver problemas de coagulação do sangue antes de iniciar o tratamento, ou se estas 
+situações surgirem durante o tratamento. O seu médico pode decidir reduzir a dose, 
+interromper, parar ou alterar o seu tratamento. Pode também necessitar de outros tratamentos. 
+Em alguns casos pode ser necessário a interrupção do tratamento com Temomedac. Será 
+regularmente submetido a análises ao sangue durante o tratamento para vigiar os efeitos 
+indesejáveis de Temomedac sobre as suas células do sangue. 
+- se pode ter um pequeno risco de outras alterações nas células do sangue, incluindo leucemia. 
+- se tiver náuseas (indisposição gástrica (do estômago)) e/ou vómitos que são efeitos indesejáveis 
+muito comuns do Temomedac (ver secção 4), o seu médico poderá prescrever-lhe um 
+medicamento (um anti-emético) que o ajude a evitar os vómitos.<br />
+- se vomitar frequentemente antes ou durante o tratamento, pergunte ao seu médico qual a melhor 
+altura para tomar Temomedac até que a situação esteja controlada. Se vomitar após tomar a sua 
+dose, não tome uma segunda dose nesse dia. 
+- contacte imediatamente o seu médico se desenvolver febre ou sintomas de uma infecção. 
+- se tem mais de 70 anos de idade pode estar mais suscetível a infecções, nódoas negras ou 
+hemorragias (perdas de sangue). 
+- se sofre de problemas no fígado ou nos rins, a sua dose de Temomedac pode necessitar de ser 
+ajustada. </p>
+<p>Crianças e adolescentes 
+Não dê este medicamento a crianças com idade inferior a 3 anos, pois não foi estudado para esta 
+população. A informação relativa ao uso de Temomedac por crianças com idade superior a 3 anos é 
+limitada. </p>
+<p>Outros medicamentos e Temomedac 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico ou farmacêutico 
+antes de tomar este medicamento, porque não poderá ser tratada com Temomedac durante a gravidez 
+a não ser que tal tenha sido expressamente indicado pelo seu médico. </p>
+<p>Os doentes do sexo feminino com capacidade de engravidar devem adotar medidas contracetivas 
+eficazes durante o tratamento com Temomedac e pelo menos durante 6 meses após o fim do 
+tratamento. </p>
+<p>Deve parar de amamentar durante o tratamento com Temomedac. </p>
+<p>Fertilidade masculina 
+Temomedac pode causar infertilidade permanente. Os doentes do sexo masculino devem usar um 
+método contracetivo eficaz e não devem conceber uma criança durante pelo menos 3 meses após o fim 
+do tratamento. Recomenda-se que procure aconselhamento sobre a conservação de esperma antes de 
+iniciar o tratamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Enquanto tomar Temomedac poderá sentir fadiga ou sonolência. Neste caso, não conduza nem utilize 
+ferramentas, máquinas ou bicicletas até perceber como este medicamento o afeta (ver secção 4). </p>
+<p>Temomedac contém lactose 
+Temomedac contém lactose (um tipo de açúcar). Se foi informado pelo seu médico que tem 
+intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>
+<p>Temomedac contém sódio 
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por cápsula, ou seja, é 
+praticamente “isento de sódio". </p>
+<p>Informação adicional sobre Temomedac 20 mg ca'sulas 
+O excipiente amarelo sunset FCF (E 110) presente nas cápsulas pode provocar reacções alérgicas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar temomedac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar temomedac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Dose e duração do tratamento </p>
+<p>O seu médico determinará qual a dose correcta de Temomedac que deverá tomar, com base no seu 
+tamanho (altura e peso) e no facto de ter ou não um tumor recorrente e já ter sido submetido a um 
+tratamento de quimioterapia no passado. 
+Antes e/ou depois de tomar Temomedac, pode ter de tomar outros medicamentos (anti-eméticos) para 
+evitar ou controlar as náuseas e os vómitos. </p>
+<p>Doentes com glioblastoma multiforme recentemente diagnosticados: 
+Se é um doente recentemente diagnosticado, o tratamento vai decorrer em duas fases: </p>
+<ul>
+<li>
+<p>primeiro o tratamento simultaneamente com radioterapia (fase concomitante) </p>
+</li>
+<li>
+<p>seguido de tratamento apenas com Temomedac (fase de monoterapia). </p>
+</li>
+</ul>
+<p>Durante a fase concomitante, o seu médico iniciará o Temomedac numa dose de 75 mg/m² (dose 
+usual). Irá tomar esta dose todos os dias durante 42 dias (até 49 dias) em associação com a 
+radioterapia. A dose de Temomedac poderá sofrer um atraso ou ser suspensa, com base nas contagens 
+das suas células do sangue e na maneira como tolera o seu medicamento durante a fase concomitante. 
+Uma vez terminada a terapêutica por radiação, irá interromper o tratamento durante 4 semanas. Isto 
+dará oportunidade ao seu organismo para recuperar. 
+Em seguida, iniciará a fase de monoterapia. </p>
+<p>Durante a fase de monoterapia, a dose e a forma como toma Temomedac vão ser diferentes. O seu 
+médico irá determinar a sua dose exacta. Podem existir até 6 períodos (ciclos) de tratamento. Cada um 
+tem a duração de 28 dias. Irá tomar a sua nova dose de Temomedac sozinha uma vez por dia durante 
+os primeiros 5 dias (“dias de toma") de cada ciclo.<br />
+A primeira dose será de 150 mg/m². De seguida terá 23 dias sem Temomedac. Isto totaliza um ciclo de 
+tratamento de 28 dias. 
+Depois do Dia 28, iniciar-se-á o ciclo seguinte. Irá tomar Temomedac novamente uma vez por dia 
+durante 5 dias seguindo-se 23 dias sem Temomedac. Com base nas contagens das suas células do 
+sangue e na maneira como tolera o seu medicamento durante cada ciclo de tratamento, a dose de 
+Temomedac poderá ser ajustada, ou a sua administração sofrer um atraso ou ser suspensa. </p>
+<p>Doentes com tumores recorrentes ou que pioraram (glioma maligno, tais como glioblastoma 
+multiforme ou astrocitoma anaplásico) que tomem apenas Temomedac: </p>
+<p>Cada ciclo de tratamento com Temomedac tem a duração de 28 dias. 
+Irá tomar apenas Temomedac uma vez por dia, durante os primeiros 5 dias. Esta dose diária irá 
+depender do facto de já ter recebido quimioterapia antes ou não. </p>
+<p>Se não tiver sido previamente tratado com quimioterapia, a sua primeira dose de Temomedac será de 
+200 mg/m² uma vez por dia, durante os primeiros 5 dias. Se tiver sido previamente tratado com 
+quimioterapia, a sua primeira dose de Temomedac será de 150 mg/m² uma vez por dia, durante os 
+primeiros 5 dias. 
+Seguidamente terá 23 dias sem Temomedac. Isto totaliza um ciclo de tratamento de 28 dias. </p>
+<p>Após o Dia 28 iniciar-se-á o ciclo seguinte. Irá receber Temomedac novamente uma vez por dia 
+durante 5 dias, seguindo-se 23 dias sem Temomedac. </p>
+<p>Antes de cada novo ciclo de tratamento, irá fazer análises ao sangue para verificar se a dose de 
+Temomedac deve ser ajustada. Dependendo dos resultados das suas análises ao sangue, o seu médico 
+poderá ajustar a dose para o ciclo seguinte. </p>
+<p>Como tomar Temomedac </p>
+<p>Tome a dose prescrita de Temomedac uma vez por dia, de preferência à mesma hora todos os dias. </p>
+<p>Tome as cápsulas com o estômago vazio; por exemplo, pelo menos uma hora antes da hora a que 
+pretende tomar o pequeno-almoço. Engula a(s) cápsula(s) inteiras com um copo de água. Não abra, 
+esmague nem mastigue as cápsulas. Se uma cápsula estiver danificada, evite o contacto do pó com a 
+pele, olhos ou nariz. Caso exista contacto acidental com os seus olhos ou nariz, lave essa zona com 
+água. </p>
+<p>Dependendo da dose prescrita, poderá ter de tomar mais de uma cápsula ao mesmo tempo, 
+eventualmente com dosagens (conteúdo de substância activa, em mg) diferentes. A cor da cápsula 
+difere para cada dosagem (ver tabela em baixo). </p>
+<p>Dosagem </p>
+<p>Cor/marcações 
+Temomedac 5 mg 
+duas riscas de tinta verde na tampa 
+e com “T 5 mg" de tinta verde no 
+corpo 
+Temomedac 20 mg 
+riscas de tinta laranja na tampa e 
+com “T 20 mg" em tinta laranja no 
+corpo 
+Temomedac 100 mg 
+duas riscas de tinta rosa na tampa e 
+com “T 100 mg" em tinta rosa no 
+corpo 
+Temomedac 140 mg 
+duas riscas de tinta azul na tampa e 
+com “T 140 mg" em tinta azul no 
+corpo 
+Temomedac 180 mg 
+duas riscas de tinta vermelha na 
+tampa e com “T 180 mg" em tinta 
+vermelha no corpo 
+Temomedac 250 mg 
+duas riscas de tinta preta na tampa e 
+com “T 250 mg" em tinta preta no 
+corpo </p>
+<p>Deve assegurar-se que compreende na totalidade e se recorda do seguinte: </p>
+<ul>
+<li>
+<p>quantas cápsulas de cada dosagem necessita de tomar em cada dia de toma. Peça ao seu médico 
+ou farmacêutico para escrever (incluindo a cor). </p>
+</li>
+<li>
+<p>que dias são os seus dias de toma. 
+Reveja a dose com o seu médico de cada vez que inicia um novo ciclo, pois poderá ser diferente do 
+último ciclo. </p>
+</li>
+</ul>
+<p>Tomar Temomedac sempre de acordo com as indicações do médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. Erros na forma como toma este medicamento podem ter consequências 
+graves para a saúde. </p>
+<p>Se tomar mais Temomedac do que deveria 
+Se acidentalmente tomar mais cápsulas de Temomedac do que as recomendadas, contacte 
+imediatamente o seu médico, farmacêutico u enfermeiro. </p>
+<p>Caso se tenha esquecido de tomar Temomedac </p>
+<p>Tome a dose que se esqueceu o mais cedo possível, ainda no próprio dia. Caso tenha passado um dia 
+inteiro, consulte o seu médico. Não tome uma dose a dobrar para compensar uma dose que se 
+esqueceu de tomar, a não ser por indicação do seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Contacte o seu médico imediatamente se ocorrer qualquer das seguintes situações: 
+− 
+uma reacção alérgica (hipersensibilidade) grave (urticária, sibilos ou outro tipo de dificuldade 
+na respiração), 
+− 
+hemorragia não controlada, 
+− 
+ataques (convulsões), 
+− 
+febre, 
+− 
+arrepios, 
+− 
+forte dor de cabeça que não desaparece. </p>
+<p>O tratamento com Temomedac pode reduzir o número de certos tipos de células sanguíneas. Tal 
+poderá provocar um aumento de equimoses ou hemorragias, anemia (uma diminuição de glóbulos 
+vermelhos), febre e uma diminuição da resistência às infecções. A redução de células do sangue é 
+geralmente transitória. Nalguns casos poderá ser prolongada e levar a uma forma muito grave de 
+anemia (anemia aplástica). O seu médico pedirá, regularmente, análises ao seu sangue para detetar 
+quaisquer alterações e decidirá se será necessário qualquer tratamento específico. Em alguns casos, a 
+dose de Temomedac será reduzida ou suspensa. </p>
+<p>Outros efeitos secundários que têm sido comunicados estão listados abaixo: </p>
+<p>Efeitos secundários muito frequentes (podem afetar mais do que 1 em 10 pessoas) são: 
+ 
+perda de apetite, dificuldade em falar, dor de cabeça 
+ 
+vómito, náuseas, diarreia, obstipação 
+ 
+erupção cutânea, perda de cabelo 
+ 
+cansaço </p>
+<p>Efeitos secundários frequentes (podem afetar até 1 em 10 pessoas) são: 
+ 
+infeções, infeções orais 
+ 
+redução do número de células do sangue (neutropenia, linfopenia, trombocitopenia) 
+ 
+reação alérgica 
+ 
+aumento do açúcar no sangue 
+ 
+falhas de memória, depressão, ansiedade, confusão, dificuldade em adormecer ou manter-se 
+adormecido 
+ 
+dificuldade de coordenação e de equilíbrio 
+ 
+dificuldade de concentração, alterações no estado de consciência ou de alerta, esquecimento 
+ 
+tonturas, sensibilidade alterada, sensação de formigueiro, tremores, paladar alterado 
+ 
+perda parcial da visão, visão alterada, visão dupla, olhos doridos 
+ 
+surdez, zumbido nos ouvidos, dor de ouvidos 
+ 
+coágulo de sangue nos pulmões ou nas pernas, pressão arterial alta 
+ 
+pneumonia, falta de ar, bronquite, tosse, inflamação dos seios nasais 
+ 
+dor de estômago ou abdominal, estômago irritado/azia, dificuldade em engolir 
+ 
+pele seca, comichão 
+ 
+dano nos músculos, fraqueza muscular, dor muscular 
+ 
+dor nas articulações, dor nas costas 
+ 
+micção frequente, dificuldade em reter a urina 
+ 
+febre, sintomas tipo gripe, dor, mal-estar, constipação ou gripe 
+ 
+retenção de líquidos, pernas inchadas 
+ 
+enzimas do fígado aumentadas 
+ 
+perda de peso, aumento de peso 
+ 
+lesão por radiação </p>
+<p>Efeitos secundários pouco frequentes (podem afetar até 1 em 100 pessoas) são: 
+ 
+infeções no cérebro (meningoencefalite herpética) incluindo casos fatais 
+ 
+infeções novas ou reativadas por citomegalovírus 
+ 
+infeções de feridas 
+ 
+infeções reativadas pelo vírus da hepatite B<br />
+ 
+cancros secundários incluindo leucemia 
+ 
+diminuição do número de células do sangue (pancitopenia, anemia, leucopenia) 
+ 
+manchas vermelhas debaixo da pele 
+ 
+diabetes insípida (os sintomas incluem aumento da micção e sensação de sede), baixos níveis 
+de potássio no sangue 
+ 
+alterações do humor, alucinações 
+ 
+paralisia parcial, alteração do olfato 
+ 
+olhos secos 
+ 
+insuficiência auditiva, infeção do ouvido médio 
+ 
+palpitações (quando sente o bater do coração), afrontamentos 
+ 
+estômago inchado, dificuldade em controlar os movimentos intestinais, hemorroidas, boca seca 
+ 
+hepatite e lesão no fígado (incluindo falência do fígado fatal), colestase, bilirrubina aumentada 
+ 
+bolhas no corpo ou na boca, descamação da pele, erupção da pele, vermelhidão dolorosa da 
+pele, erupção grave com inchaço da pele (incluindo palmas das mãos e dos pés) 
+ 
+aumento da sensibilidade da pele ao sol, urticária, aumento da sudorese, alteração da cor da 
+pele 
+ 
+dificuldade em urinar 
+ 
+hemorragia vaginal, irritação vaginal, períodos menstruais ausentes ou abundantes, dor no 
+peito, impotência sexual 
+ 
+calafrios, inchaço na face, descoloração da língua, sede, alterações nos dentes </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar temomedac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar temomedac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças, de preferência num armário 
+fechado. A ingestão acidental pode ser letal para as crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e embalagem. O prazo de 
+validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 30 °C. 
+Conservar na embalagem de origem para proteger da humidade. 
+Manter o frasco bem fechado. </p>
+<p>Informe o seu farmacêutico se detectar qualquer alteração no aspecto das cápsulas. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Temomedac </p>
+<ul>
+<li>A substância ativa é temozolomida.<br />
+Temomedac 5 mg cápsulas: Cada cápsula contém 5 mg de temozolomida. 
+Temomedac 20 mg cápsulas: Cada cápsula contém 20 mg de temozolomida. 
+Temomedac 100 mg cápsulas: Cada cápsula contém 100 mg de temozolomida. 
+Temomedac 140 mg cápsulas: Cada cápsula contém 140 mg de temozolomida. 
+Temomedac 180 mg cápsulas: Cada cápsula contém 180 mg de temozolomida.<br />
+Temomedac 250 mg cápsulas: Cada cápsula contém 250 mg de temozolomida. </li>
+<li>Os outros componentes são: 
+o 
+Conteúdo da cápsula: lactose anidra, carboximetilamido sódico Tipo A, sílica coloidal anidra, 
+ácido tartárico, ácido esteárico (ver secção 2 “Temomedac contém lactose"). 
+o 
+Cápsula (incluindo a tinta de impressão): 
+Temomedac 5 mg cápsulas: gelatina, dióxido de titânio (E 171), shelllac, propilenoglicol, laca 
+de alumínio de indigotina (E 132), óxido de ferro amarelo (E 172). 
+Temomedac 20 mg cápsulas: gelatina, dióxido de titânio (E 171), shelllac, propilenoglicol, laca 
+de alumínio amarelo sunset FCF (E 110). 
+Temomedac 100 mg cápsulas: gelatina, dióxido de titânio (E 171), óxido de ferro vermelho 
+(E 172), shelllac, propilenoglicol, óxido de ferro amarelo (E 172). 
+Temomedac 140 mg cápsulas: gelatina, dióxido de titânio (E 171), shelllac, propilenoglicol, 
+laca de alumínio de indigotina (E 132). 
+Temomedac 180 mg cápsulas: gelatina, dióxido de titânio (E 171), óxido de ferro vermelho 
+(E 172), shelllac, propilenoglicol. 
+Temomedac 250 mg cápsulas: gelatina, dióxido de titânio (E 171), shelllac, propilenoglicol, 
+óxido de ferro preto (E 172). </li>
+</ul>
+<p>Qual o aspeto de Temomedac e conteúdo da embalagem </p>
+<p>Temomedac 5 mg cápsulas têm um corpo e a tampa branco opaco com duas riscas de tinta verde na 
+tampa e com “T 5 mg" de tinta verde no corpo. </p>
+<p>Temomedac 20 mg cápsulas têm corpo e a tampa branco opaco com duas riscas de tinta laranja na 
+tampa e com “T 20 mg" em tinta laranja no corpo. </p>
+<p>Temomedac 100 mg cápsulas têm corpo e a tampa branco opaco com duas riscas de tinta rosa na 
+tampa e com “T 100 mg" em tinta rosa no corpo. </p>
+<p>Temomedac 140 mg cápsulas têm corpo e a tampa branco opaco com duas riscas de tinta azul na 
+tampa e com “T 140 mg" em tinta azul no corpo. </p>
+<p>Temomedac 180 mg cápsulas têm corpo e a tampa branco opaco com duas riscas de tinta vermelha na 
+tampa e com “T 180 mg" em tinta vermelha no corpo. </p>
+<p>Temomedac 250 mg cápsulas têm corpo e a tampa branco opaco com duas riscas de tinta preta na 
+tampa e com “T 250 mg" em tinta preta no corpo. </p>
+<p>As cápsulas para administração oral estão disponíveis em frascos de vidro âmbar contendo 5 ou 
+20 cápsulas. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>medac 
+Gesellschaft für klinische Spezialpräparate mbH 
+Theaterstr. 6 
+22880 Wedel 
+Alemanha </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -982,6 +1471,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-065d110b327b470e1ddc262836549605"
 * entry[0].resource = composition-da-065d110b327b470e1ddc262836549605
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp065d110b327b470e1ddc262836549605"
+* entry[=].resource = mp065d110b327b470e1ddc262836549605
+                            
+                    
+Instance: bundlepackageleaflet-pt-065d110b327b470e1ddc262836549605
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for temomedac Package Leaflet for language pt"
+Description: "ePI document Bundle for temomedac Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-065d110b327b470e1ddc262836549605"
+* entry[0].resource = composition-pt-065d110b327b470e1ddc262836549605
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp065d110b327b470e1ddc262836549605"
@@ -1083,6 +1594,18 @@ RuleSet: 065d110b327b470e1ddc262836549605ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-065d110b327b470e1ddc262836549605) // temomedac pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

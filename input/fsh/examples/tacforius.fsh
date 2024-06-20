@@ -1175,6 +1175,626 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-dff98a1057e854dd22ade83cc61ef07f
+InstanceOf: CompositionUvEpi
+Title: "Composition for tacforius Package Leaflet"
+Description:  "Composition for tacforius Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpdff98a1057e854dd22ade83cc61ef07f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tacforius"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Tacforius e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Tacforius </li>
+<li>Como tomar Tacforius </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Tacforius </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tacforius e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tacforius e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tacforius contém a substância ativa tacrolímus. É um imunossupressor. Após ser submetido a um 
+transplante (fígado, rim), o seu sistema imunológico irá tentar rejeitar o novo órgão. Tacforius é usado 
+para controlar a resposta imunitária do seu corpo, habilitando-o a aceitar o órgão transplantado. </p>
+<p>Também lhe pode ser administrado Tacforius quando estiver a ocorrer uma rejeição do fígado, rim, 
+coração ou outro órgão transplantado, ou quando em tratamentos anteriores não foi capaz de controlar 
+a sua resposta imunitária após a transplantação. </p>
+<p>Tacforius é usado em adultos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tacforius"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tacforius"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Tacforius 
+- se tem alergia ao tacrolímus ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se tem alergia ao sirolímus ou a qualquer antibiótico macrólido (por exemplo, eritromicina, 
+claritromicina, josamicina). </p>
+<p>Advertências e precauções 
+As cápsulas de libertação imediata de tacrolímus (p. ex. Tacni) e Tacforius cápsulas de libertação 
+prolongada contêm ambos a mesma substância ativa, o tacrolímus. No entanto, Tacforius cápsulas de 
+libertação prolongada é tomado uma vez por dia, enquanto que as cápsulas de libertação imediata de 
+tacrolímus são tomadas duas vezes por dia. Isto deve-se ao facto das cápsulas de Tacforius permitirem 
+a libertação prolongada de tacrolímus (libertação mais lenta ao longo de um maior período de tempo). 
+Tacforius cápsulas de libertação prolongada e as cápsulas de libertação imediata de tacrolímus não 
+podem ser trocados entre si. </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Tacforius: 
+- se está a tomar algum medicamento mencionado abaixo em “Outros medicamentos e 
+Tacforius" 
+- se tem ou teve problemas de fígado 
+- se tem diarreia durante mais de um dia 
+- se sentir uma forte dor abdominal acompanhada ou não por outros sintomas, como por 
+exemplo arrepios, febre, náuseas ou vómitos 
+- se tem uma alteração da atividade elétrica do coração chamada “prolongamento do intervalo 
+QT" 
+- se tem ou teve danos nos pequenos vasos sanguíneos, conhecido como microangiopatia 
+trombótica/púrpura trombocitopénica trombótica/síndrome urémica hemolítica. Fale com o 
+seu médico se desenvolver febre, nódoas negras debaixo da pele (os quais podem aparecer 
+como minúsculos pontos vermelhos), cansaço extremo, confusão, amarelecimento da pele ou 
+olhos, baixa produção de urina, perda de visão e convulsões (ver secção 4). Quando tacrolímus 
+é tomado em conjunto com sirolímus ou everolímus, o risco de desenvolver estes sintomas 
+pode aumentar. </p>
+<p>Evite tomar medicamentos à base de plantas, p. ex., hipericão (Hypericum perforatum) ou quaisquer 
+outros produtos à base de plantas, uma vez que podem afetar a eficácia e a dose de Tacforius que 
+necessita de tomar. Em caso de dúvida, consulte o seu médico antes de tomar qualquer produto ou 
+medicamento à base de plantas. </p>
+<p>O seu médico pode necessitar de ajustar a sua dose de Tacforius. </p>
+<p>Deve manter-se em contacto regular com o seu médico. De vez em quando, o seu médico pode 
+precisar de efetuar testes ao sangue, à urina, ao coração e aos olhos para ajustar a dose correta de 
+Tacforius. </p>
+<p>Deve limitar a sua exposição ao sol e à luz UV (ultravioleta) enquanto está a tomar Tacforius. Isto 
+porque os imunossupressores podem aumentar o risco de cancro da pele. Use vestuário protetor 
+adequado e use um protetor solar com um alto fator de proteção solar. </p>
+<p>Precauções de manuseamento: 
+O contacto direto com qualquer parte do seu corpo, como a sua a pele ou olhos, ou a inalação do pó 
+existente nas cápsulas, devem ser evitados. Se este contacto ocorrer, lave a pele e os olhos. </p>
+<p>Crianças e adolescentes 
+O uso de Tacforius não é recomendado em crianças e adolescentes com menos de 18 anos. </p>
+<p>Outros medicamentos e Tacforius 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Não é recomendado que Tacforius seja tomado com ciclosporina (outro medicamento utilizado para a 
+prevenção da rejeição de órgãos transplantados). </p>
+<p>Se tiver necessidade de consultar um médico que não seja o seu especialista em transplantação, 
+informe esse médico de que está a tomar tacrolímus. O seu médico poderá precisar de entrar em 
+contacto com o seu especialista em transplantação se tiver necessidade de utilizar outro 
+medicamento que possa aumentar ou diminuir os níveis sanguíneos de tacrolímus. </p>
+<p>A quantidade de Tacforius no sangue pode ser alterada pela toma de outros medicamentos, e a 
+quantidade de outros medicamentos no sangue pode ser alterada por tomar Tacforius, o que pode 
+requerer a suspensão, um aumento ou uma diminuição da dose de Tacforius. </p>
+<p>Foram observados aumentos dos níveis sanguíneos de tacrolímus em alguns doentes que também 
+tomam outros medicamentos. Isto pode levar a efeitos indesejáveis graves, tais como problemas nos 
+rins, sistema nervoso e alterações do ritmo cardíaco (ver secção 4). 
+Pode ocorrer um efeito sobre os níveis sanguíneos de Tacforius pouco tempo depois de começar a 
+utilizar outro medicamento, pelo que uma monitorização frequente e contínua do nível sanguíneo de 
+Tacforius pode ser necessária nos primeiros dias depois de iniciar outro medicamento e regularmente 
+enquanto continuar o tratamento com outro medicamento. Alguns outros medicamentos podem causar 
+uma diminuição dos níveis sanguíneos de tacrolímus, podendo aumentar o risco de rejeição do órgão 
+transplantado. Em especial, deve informar o seu médico se está a tomar ou tomou recentemente 
+medicamentos como: 
+- medicamentos antifúngicos e antibióticos, especialmente os chamados antibióticos macrólidos, 
+usados no tratamento de infeções, por exemplo, cetoconazol, fluconazol, itraconazol, 
+posaconazol, voriconazol, clotrimazol, isovuconazol, miconazol, caspofungina, telitromicina, 
+eritromicina, claritromicina, josamicina, azitromicina, rifampicina, rifabutina, isoniazida e 
+flucloxacilina 
+- letermovir, usado para prevenir a doença causada pelo CVM (citomegalovírus humano) 
+- inibidores da protease do VIH (como por exemplo, o ritonavir, nelfinavir, saquinavir), o 
+medicamento indutor cobicistat e medicamentos associados, ou inibidores não nucleosídeos da 
+transcriptase reversa do VIH (efavirenz, etravirina, nevirapina) usados no tratamento da infeção 
+do VIH 
+- inibidores da protease do VHC (por exemplo, telaprevir, boceprevir, a combinação 
+ombitasvir/paritaprevir/ritonavir com ou sem dasabuvir, elbasvir/grazoprevir e 
+glecaprevir/pibrentasvir), usados no tratamento da infeção com hepatite C 
+- nilotinib e imatinib, idealisib, ceritinib, crizotinib, apalutamida, enzalutamida ou mitotano 
+(usados para tratar alguns tipos de cancro) 
+- ácido micofenólico, usado na supressão do sistema imunitário para prevenir a rejeição de 
+transplantes 
+- medicamentos para a úlcera de estômago ou refluxo ácido (por exemplo, omeprazol, lansoprazol 
+ou cimetidina) 
+- antieméticos, usados para tratar náuseas e vómitos (por exemplo, metoclopramida) 
+- cisaprida ou o antiácido hidróxido de alumínio e magnésio, usado no tratamento da azia 
+- pílula contracetiva ou outros tratamentos hormonais com etinilestradiol, tratamentos hormonais 
+com danazol 
+- medicamentos usados no tratamento da tensão arterial elevada ou problemas cardíacos (por 
+exemplo, nifedipina, nicardipina, diltiazem e verapamil) 
+-<br />
+medicamentos antiarrítmicos (amiodarona) usados para o tratamento de arritmias (batimento 
+irregular do coração) 
+- medicamentos chamados “estatinas" usados para o tratamento do colesterol e triglicéridos 
+elevados 
+- carbamazepina, fenitoína ou fenobarbital, usados no tratamento da epilepsia 
+- canabidiol (utilizado, por exemplo, no tratamento de convulsões) 
+- metamizol, usado para tratar a dor e febre 
+- os corticosteroides prednisolona e metilprednisolona, pertencentes à classe dos corticosteroides 
+usados para tratar inflamações ou para suprimir o sistema imunitário (por exemplo, na rejeição 
+do transplante) 
+- nefazodona, usado no tratamento da depressão 
+- preparações à base de plantas contendo hipericão (Hypericum perforatum) ou extratos de 
+Schisandra sphenanthera. </p>
+<p>Informe o seu médico se estiver a receber tratamento para a hepatite C. O tratamento farmacológico 
+para a hepatite C pode alterar o funcionamento do fígado e afetar os níveis sanguíneos de tacrolímus. 
+Os níveis sanguíneos de tacrolímus podem diminuir ou aumentar dependendo dos medicamentos 
+prescritos para a hepatite C. O seu médico necessita de monitorizar cuidadosamente os níveis 
+sanguíneos de tacrolímus e efetuar os ajustes necessários da dose de Advagraf depois de começar o 
+tratamento para a hepatite C. </p>
+<p>Informe o seu médico se está a tomar ou se necessita de tomar ibuprofeno (usado para tratar a febre, 
+inflamação e dor), antibióticos (cotrimoxazol, vancomicina ou antibióticos aminoglicosidos, tais como 
+a gentamicina), anfotericina B (usada para tratar infeções fúngicas) ou antivirais (usados para tratar 
+infeções virais por exemplo, aciclovir, ganciclovir, cidofovir, foscamet). Estes podem piorar os 
+problemas no rim ou no sistema nervoso quando tomados conjuntamente com Tacforius. </p>
+<p>Fale com o seu médico se estiver a tomar sirolímus ou everolímus. Quando tacrolímus é tomado em 
+conjunto com sirolímus ou everolímus, o risco de desenvolvimento de microangiopatia trombótica, 
+púrpura trombocitopénica trombótica, e síndrome urémica hemolítica pode aumentar (ver secção 4.4). </p>
+<p>O seu médico também necessita de saber se, enquanto está a tomar Tacforius, está também a tomar 
+suplementos de potássio ou certos diuréticos usados para a insuficiência cardíaca, hipertensão ou 
+doença renal (por exemplo, amilorida, triamtereno ou espironolactona), ou os antibióticos trimetoprim 
+ou cotrimoxazol que podem aumentar os níveis de potássio no sangue, certos medicamentos anti-
+inflamatórios não esteroides (conhecidos por AINES, por exemplo, ibuprofeno) usados para a febre, 
+inflamação e dor, anticoagulantes (para diluir o sangue), ou medicamentos orais para a diabetes. </p>
+<p>Se necessita de tomar qualquer vacina, por favor informe antecipadamente o seu médico. </p>
+<p>Tacforius com alimentos e bebidas 
+Evitar comer toranja (e também o seu sumo) durante o tratamento com Tacforius pois esta pode afetar 
+os seus níveis no sangue. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de utilizar este medicamento. 
+O tacrolímus passa para o leite materno. Deste modo, não deve amamentar enquanto estiver a tomar 
+Tacforius. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza e não utilize quaisquer ferramentas ou máquinas se sentir tonturas ou sono, ou se tiver 
+problemas de visão após tomar Tacforius. Estes efeitos são mais frequentes se também beber álcool. </p>
+<p>Tacforius contém lactose 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>
+<p>Tacforius 5 mg cápsulas contém ponceau 4R 
+Este pode causar reações alérgicas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tacforius"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tacforius"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. 
+Este medicamento deve apenas ser-lhe prescrito por um médico com experiência no tratamento de 
+doentes transplantados. </p>
+<p>Certifique-se que recebe o mesmo medicamento de tacrolímus sempre que recebe a sua prescrição, a 
+não ser que o seu especialista em transplantação tenha concordado em mudar para um medicamento 
+diferente contendo tacrolímus. Este medicamento deve ser tomado uma vez por dia. Se a aparência 
+deste medicamento não é a habitual, ou se as instruções relativamente à posologia mudaram, fale com 
+o seu médico ou farmacêutico com a maior brevidade possível para ter a certeza que está a tomar o 
+medicamento correto. </p>
+<p>A dose inicial para prevenir a rejeição do seu órgão transplantado será determinada pelo seu médico, 
+calculada de acordo com o seu peso corporal. Por norma, as doses diárias iniciais logo após a 
+transplantação estão dentro do intervalo </p>
+<p>0,10 - 0,30 mg por kg de peso corporal por dia </p>
+<p>dependendo do órgão transplantado. No tratamento da rejeição, podem ser usadas as mesmas doses. </p>
+<p>A sua dose depende da sua condição geral e de outros medicamentos imunossupressores que esteja a 
+tomar. </p>
+<p>Após o início do seu tratamento com Tacforius o seu médico irá requerer análises sanguíneas de forma 
+a estabelecer e ajustar a dose correta sempre que for necessário. O seu médico irá normalmente reduzir 
+a dose de Tacforius quando a sua condição estabilizar. O seu médico irá dizer-lhe exatamente quantas 
+cápsulas tem de tomar. </p>
+<p>Irá necessitar de tomar Tacforius todos os dias enquanto precisar de imunossupressão para prevenir a 
+rejeição do seu órgão transplantado. Deve manter um contacto regular com o seu médico. </p>
+<p>Tacforius é tomado oralmente uma vez por dia de manhã. Tome Tacforius com o estômago vazio ou 2 
+a 3 horas depois de uma refeição. Espere pelo menos uma hora até à próxima refeição. Tome as 
+cápsulas imediamente após retirá-las do blister. As cápsulas devem ser engolidas inteiras com um 
+copo de água. 
+Não engolir o com exsicante que se encontra dentro da bolsa de alumínio. </p>
+<p>Se tomar mais Tacforius do que deveria 
+Se tomar acidentalmente mais cápsulas do que deveria, contacte imediatamente o seu médico ou o 
+serviço de urgência do hospital mais próximo. </p>
+<p>Caso se tenha esquecido de tomar Tacforius 
+Se se esqueceu de tomar as cápsulas de manhã, tome-as assim que possível no mesmo dia. Não tome 
+uma dose a dobrar na manhã seguinte. </p>
+<p>Se parar de tomar Tacforius 
+Parar o tratamento com Tacforius poderá aumentar o risco de rejeição do seu órgão transplantado. Não 
+pare o tratamento a não ser que o seu médico lhe tenha dito para o fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Tacforius reduz os mecanismos de defesa do seu próprio organismo (sistema imunitário), que não 
+estará nas condições normais para combater infeções. Assim, enquanto está a tomar Tacforius poderá 
+estar mais propenso a ter infeções. 
+Algumas infeções podem ser graves ou fatais incluindo infeções causadas por bactérias, vírus, fungos, 
+parasitas, ou outras infeções. 
+Informe imediatamente o seu médico se tiver sinais ou sintomas de infeção incluindo: 
+- Febre, tosse, dor de garganta, sensação de fraqueza ou sensação de mal-estar 
+- Perda de memória, dificuldade em pensar, dificuldade em andar ou perda de visão - estas podem 
+ser devidas a uma infeção cerebral grave muito rara, a qual pode ser fatal (Leucoencefalopatia 
+multifocal progressiva ou LMP) </p>
+<p>Podem ocorrer efeitos graves incluindo reações alérgicas e anafiláticas. Foram notificados tumores 
+benignos e malignos após o tratamento com Tacforius. 
+Informe imediatamente o seu médico se tiver ou suspeitar que pode ter qualquer um dos 
+seguintes efeitos indesejáveis graves: </p>
+<p>Efeitos indesejáveis graves frequentes (podem afetar até 1 em 10 pessoas): 
+- Perfuração gastrointestinal: forte dor abdominal acompanhada ou não de outros sintomas, tais 
+como arrepios, febre, náuseas ou vómitos. 
+- Funcionamento insuficiente do órgão transplantado. 
+- Visão turva. </p>
+<p>Efeitos indesejáveis graves pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- Microangiopatia trombótica (danos nos pequenos vasos sanguíneos) incluindo síndrome 
+hemolítica urémica, uma condição com os seguintes sintomas: produção de urina baixa ou 
+ausente (insuficiência renal aguda), cansaço extremo, amarelecimento da pele ou olhos 
+(icterícia) e nódoas negras ou hemorragias anormais e sinais de infeção. </p>
+<p>Efeitos indesejáveis graves raros (podem afetar até 1 em 1 000 pessoas): 
+- Púrpura Trombocitopénica Trombótica: uma condição envolvendo danos nos pequenos vasos 
+sanguíneos e caracterizada por febre e nódoas negras debaixo da pele que podem parecer 
+como minúsculos pontos vermelhos, com ou sem fadiga extrema inexplicável, confusão, 
+amarelecimento da pele ou olhos (icterícia), com sintomas de insuficiência renal aguda (baixa 
+produção de urina ou ausente), perda de visão e convulsões. 
+- Necrólise epidérmica tóxica: erosão e formação de bolhas na pele ou membranas mucosas, 
+pele inchada vermelha que pode destacar em grandes partes do corpo. 
+- Cegueira. </p>
+<p>Efeitos indesejáveis graves muito raros (podem afetar até 1 em 10 000 pessoas): 
+- Síndrome de Stevens-Johnson: dor de pele inexplicável generalizada, inchaço facial, doença 
+grave com formação de bolhas na pele, boca, olhos e genitais, urticária, inchaço na língua, 
+erupção na pele vermelha ou roxa disseminada, descamação da pele. 
+- Torsades de pointes: alteração da frequência cardíaca, que pode ou não ser acompanhada de 
+sintomas, como dor no peito (angina), desmaio, vertigem ou náusea, palpitações (sentir o 
+batimento cardíaco) e dificuldade em respirar. </p>
+<p>Efeitos indesejáveis graves - frequência desconhecida (a frequência não pode ser calculada a partir 
+dos dados disponíveis): 
+- Infeções oportunistas (bacterianas, fúngicas, virais e protozoárias): diarreia prolongada, febre 
+e dor de garganta. 
+- Foram notificados tumores benignos e malignos após o tratamento, como resultado de 
+imunossupressão. 
+- - Foram notificados casos de aplasia eritrocitária pura (uma redução muito grave na 
+contagem dos glóbulos vermelhos no sangue), anemia hemolítica (redução do número de 
+glóbulos vermelhos no sangue por destruição anormal dos mesmos, acompanhada de fadiga) e 
+neutropenia febril (uma redução do número de glóbulos brancos que combatem a infeção, 
+acompanhado por febre). Não existem informações exatas sobre a frequência destes efeitos 
+indesejáveis. Pode não ter sintomas ou, dependendo da gravidade da condição, pode sentir: 
+fadiga, apatia, palidez anormal da pele (palidez), falta de ar, tonturas, dor de cabeça, dor no 
+peito e sensação de frio nas mãos e pés. 
+- Casos de agranulocitose (um número muito reduzido de glóbulos brancos acompanhado de 
+feridas na boca, febre e infeção(ões)). Pode não ter sintomas ou sentir febre abrupta, arrepios e 
+dor de garganta. 
+- Reações alérgicas e anafiláticas com os seguintes sintomas: erupção cutânea súbita com 
+comichão (urticária), inchaço das mãos, pés, tornozelos, face, lábios, boca ou garganta (que 
+pode causar dificuldade em engolir ou respirar) e pode sentir que vai desmaiar. 
+- Síndrome de Encefalopatia Posterior Reversível (SEPR): dor de cabeça, confusão mental, 
+alterações de humor, convulsões e problemas na visão. Podem ser sinais de uma condição 
+chamada síndrome de encefalopatia posterior reversível, a qual foi notificada em alguns 
+doentes tratados com tacrolímus. 
+- Neuropatia ótica (anormalidades no nervo ótico): problemas na visão tais como visão turva, 
+alteração na visão das cores, dificuldade em focar ou se o seu campo de visão se tornar mais 
+restrito. </p>
+<p>Os efeitos indesejáveis listados abaixo também podem ocorrer depois de tomar Tacforius e podem ser 
+graves: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- Aumento do açúcar no sangue, diabetes mellitus, aumento do potássio no sangue 
+- Dificuldade em dormir 
+- Tremores, dores de cabeça 
+- Aumento da tensão arterial 
+- Testes da função hepática alterados 
+- Diarreia, náuseas 
+- Problemas renais </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- Redução do número de células do sangue (plaquetas, glóbulos vermelhos ou glóbulos brancos) 
+aumento do número de glóbulos brancos, alterações no número de glóbulos vermelhos (observados 
+nas análises ao sangue) 
+- Redução do magnésio, fosfato, potássio, cálcio ou sódio no sangue, sobrecarga de fluidos, aumento 
+do ácido úrico ou de lípidos no sangue, diminuição do apetite, aumento da acidez do sangue, outras 
+alterações nos sais sanguíneos (observados nas análises ao sangue) 
+- Sintomas de ansiedade, confusão e desorientação, depressão, alterações de humor, pesadelos, 
+alucinações, perturbações mentais 
+- Desmaios, perturbações da consciência, formigueiro e dormência (por vezes doloroso) nas mãos e 
+pés, tonturas, perturbação na capacidade de escrever, doenças do sistema nervoso 
+- Aumento da sensibilidade à luz, perturbações oculares 
+- Zumbidos nos ouvidos 
+- Diminuição do fluxo sanguíneo nos vasos cardíacos, aumento da frequência cardíaca 
+- Hemorragia, bloqueio completo ou parcial dos vasos sanguíneos, diminuição da tensão arterial 
+- Falta de ar, alteração dos tecidos do pulmão, acumulação de líquido à volta do pulmão, inflamação 
+da faringe, tosse, sintomas gripais 
+- Inflamações ou úlceras causando dor abdominal ou diarreia, hemorragias no estômago, inflamação 
+ou úlcera na boca, acumulação de líquido no abdómen, vómitos, dores abdominais, indigestão, 
+prisão de ventre, flatulência, enfartamento, fezes moles, problemas de estômago 
+- Perturbações no ducto biliar, pele amarelada devido a problemas no fígado, lesão no tecido do 
+fígado e inflamação do fígado 
+- Comichão, erupção na pele, perda de cabelo, acne, aumento da transpiração 
+- Dor nas articulações, nos membros, nas costas e nos pés, espasmos musculares 
+- Funcionamento insuficiente dos rins, diminuição da produção de urina, dor ou dificuldade em 
+urinar 
+- Fraqueza geral, febre, acumulação de fluidos no corpo, dor e desconforto, aumento da enzima 
+fosfatase alcalina no sangue, aumento de peso, problemas na perceção da temperatura corporal </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) 
+- Alterações na coagulação sanguínea, redução do número de todos os tipos de células sanguíneas 
+(observados nas análises ao sangue) 
+- Desidratação 
+- Redução das proteínas ou açúcar no sangue, aumento do fosfato no sangue 
+- Coma, hemorragia no cérebro, AVC (acidente vascular cerebral), paralisia, perturbações no 
+cérebro, anomalias da fala e da comunicação, problemas de memória 
+- Opacificação do cristalino do olho) 
+- Audição comprometida 
+- Frequência cardíaca irregular, paragem do batimento cardíaco, redução do desempenho do seu 
+coração, doença no músculo do coração, aumento do músculo do coração, batimento cardíaco 
+mais forte, eletrocardiograma alterado, frequência cardíaca e pulsação alteradas 
+- Coágulo sanguíneo numa veia de um membro, choque 
+- Dificuldade em respirar, doenças das vias respiratórias, asma 
+- Obstrução do intestino, aumento do nível sanguíneo da enzima amilase, refluxo do conteúdo do 
+estômago para a garganta, atraso no esvaziamento do estômago 
+- Inflamação da pele, sensação de queimadura à luz solar 
+- Perturbações nas articulações 
+- Incapacidade de urinar, dor menstrual e hemorragia menstrual anormal 
+- Falência de múltiplos órgãos, sintomas de tipo gripal, aumento da sensibilidade ao calor e ao 
+frio, sensação de pressão no seu peito, sensação nervosa ou sensação anormal, aumento da 
+enzima lactato desidrogenase no sangue, diminuição de peso </p>
+<p>Raros (podem afetar até 1 em 1.000 pessoas) 
+- Pequenas hemorragias na pele devido a coágulos sanguíneos 
+- Aumento da rigidez muscular 
+- Surdez 
+- Acumulação de fluidos à volta do coração 
+- Dificuldade respiratória aguda 
+- Formação de quistos no pâncreas 
+- Problemas com o fluxo sanguíneo no fígado 
+- Doença grave com borbulhas na pele, boca, olhos e genitais, aumento da pilosidade 
+- Sede, queda, sensação de pressão no peito, diminuição da mobilidade, úlcera </p>
+<p>Muito raros (podem afetar até 1 em 10.000 pessoas) 
+- Fraqueza muscular 
+- Alteração do ecocardiograma 
+- Insuficiência do fígado 
+- Dor ao urinar com sangue na urina 
+- Aumento do tecido adiposo </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tacforius"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tacforius"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e blister, após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado.  </p>
+<p>Conservar na embalagem de origem para proteger da luz e da humidade. O medicamento não necessita 
+de qualquer temperatura especial de conservação. </p>
+<p>Tome todas as cápsulas dentro de um ano após a abertura da bolsa de alumínio. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tacforius 
+- A substância ativa é o tacrolímus. 
+Cada cápsula de Tacforius 0,5 mg contém 0,5 mg de tacrolímus (como mono-hidrato). 
+Cada cápsula de Tacforius 1 mg contém 1 mg de tacrolímus (como mono-hidrato). 
+Cada cápsula de Tacforius 3 mg contém 3 mg de tacrolímus (como mono-hidrato). 
+Cada cápsula de Tacforius 5 mg contém 5 mg de tacrolímus (como mono-hidrato). </p>
+<ul>
+<li>Os outros componentes são: 
+Conteúdo da cápsula 
+Hipromelose 2910, etilcelulose, lactose, estearato de magnésio. 
+Revestimento da cápsula 
+Tacforius 0,5 mg / 1 mg / 3 mg cápsulas de libertação prolongada: óxido de ferro vermelho 
+(E172), óxido de ferro amarelo (E172), dióxido de titânio (E171), gelatina. 
+Tacforius 5 mg cápsulas de libertação prolongada: óxido de ferro vermelho (E172), óxido de 
+ferro amarelo (E172), dióxido de titânio (E171), óxido de ferro preto (E172), ponceau 4R 
+(E124), gelatina. 
+Tinta de impressão 
+Goma laca, propilenoglicol, óxido de ferro preto (E172), hidróxido de potássio. </li>
+</ul>
+<p>Qual o aspeto de Tacforius e conteúdo da embalagem </p>
+<p>Tacforius 0,5 mg cápsulas de libertação prolongada<br />
+Cápsulas de gelatina gravadas com “TR" na cabeça amarelo claro da cápsula e “0,5 mg" no corpo 
+laranja claro da cápsula. 
+Tacforius 1 mg cápsulas de libertação prolongada<br />
+Cápsulas de gelatina gravadas com “TR" na cabeça branca da cápsula e “1 mg" no corpo laranja claro 
+da cápsula. 
+Tacforius 3 mg cápsulas de libertação prolongada<br />
+Cápsulas de gelatina gravadas com “TR" na cabeça laranja claro da cápsula e “3 mg" no corpo laranja 
+claro da cápsula. 
+Tacforius 5 mg cápsulas de libertação prolongada<br />
+Cápsulas de gelatina gravadas com “TR" na cabeça vermelha acinzentada claro da cápsula e “5 mg" 
+no corpo laranja claro da cápsula. </p>
+<p>Tacforius 0,5 mg / 3 mg / 5 mg cápsulas de libertação prolongada 
+Apresendo em blisters ou blisters destacáveis contendo 10 cápsulas dentro de uma bolsa protetora de 
+alumínio, incluindo um exsicante. Estão disponíveis embalagens de 30, 50 e 100 cápsulas de 
+libertação prolongada em blisters e embalagens de 30x1, 50x1 e 100x1 cápsulas de libertação 
+prolongada em blisters destacáveis de dose unitária. </p>
+<p>Tacforius 1 mg cápsulas de libertação prolongada 
+Apresentado em blisters ou blisters destacáveis de dose unitária contendo 10 cápsulas dentro de uma 
+bolsa protetora de alumínio, incluindo um exsicante. Estão disponíveis embalagens de 30, 50, 60 e 
+100 cápsulas de libertação prolongada em blisters e embalagens de 30x1, 50x1, 60x1 e 100x1 cápsulas 
+de libertação prolongada em blisters destacáveis de dose unitária. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Teva B.V. 
+Swensweg 5 
+2031GA Haarlem 
+Países Baixos </p>
+<p>Fabricante </p>
+<p>Merckle GmbH 
+Ludwig-Merckle-Straße 3 
+89143 Blaubeuren 
+Alemanha </p>
+<p>PLIVA Hrvatska d.o.o. 
+Prilaz baruna Filipovića 10 000 Zagreb 
+Croácia </p>
+<p>Teva Czech Industries s.r.o. 
+Ostravská 29, c.p. Opava-Komárov 
+74República Checa </p>
+<p>Teva Operations Poland Sp. z.o.o. 
+ul. Mogilska 31-546 Krakow 
+Polónia </p>
+<p>Teva Pharma S.L.U. 
+C/C, n. 4, Poligono Industrial Malpica 
+ES-50016 Zaragoza 
+Espanha </p>
+<p>Teva Pharmaceutical Works Private Limited Company<br />
+Pallagi út 4042 Debrecen<br />
+Hungria </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg 
+ratiopharm GmbH 
+Allemagne/Deutschland 
+Tél/Tel: +49 73140 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Norge 
+Teva Norway AS 
+Tel: +372 6610 
+Tlf: +47 66775 
+Ελλάδα 
+Specifar A.B.E.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Nordic Pharma, S.A.U. 
+Tel.: +34 916404 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: + 385 13720 
+România 
+Teva Pharmaceuticals S.R.L 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+Specifar A.B.E.E. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1216,6 +1836,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-dff98a1057e854dd22ade83cc61ef07f"
 * entry[0].resource = composition-da-dff98a1057e854dd22ade83cc61ef07f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdff98a1057e854dd22ade83cc61ef07f"
+* entry[=].resource = mpdff98a1057e854dd22ade83cc61ef07f
+                            
+                    
+Instance: bundlepackageleaflet-pt-dff98a1057e854dd22ade83cc61ef07f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tacforius Package Leaflet for language pt"
+Description: "ePI document Bundle for tacforius Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-dff98a1057e854dd22ade83cc61ef07f"
+* entry[0].resource = composition-pt-dff98a1057e854dd22ade83cc61ef07f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpdff98a1057e854dd22ade83cc61ef07f"
@@ -1317,6 +1959,18 @@ RuleSet: dff98a1057e854dd22ade83cc61ef07fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-dff98a1057e854dd22ade83cc61ef07f) // tacforius pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

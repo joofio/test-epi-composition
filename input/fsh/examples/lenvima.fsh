@@ -1396,6 +1396,908 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-2a6f62e1d5ad7fde088bdbbe5ee1875e
+InstanceOf: CompositionUvEpi
+Title: "Composition for lenvima Package Leaflet"
+Description:  "Composition for lenvima Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2a6f62e1d5ad7fde088bdbbe5ee1875e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - lenvima"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é LENVIMA e para que é utilizado 
+2. O que precisa de saber antes de tomar LENVIMA 
+3. Como tomar LENVIMA 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar LENVIMA 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é lenvima e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é lenvima e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é LENVIMA 
+LENVIMA é um medicamento que contém a substância ativa lenvatinib. É utilizado sem outros 
+medicamentos para tratar o cancro da tiroide progressivo ou avançado em adultos quando o tratamento 
+com iodo radioativo não ajudou a travar a doença. </p>
+<p>LENVIMA também pode ser utilizado sem outros medicamentos para tratar o cancro do fígado 
+(carcinoma hepatocelular) em adultos que não foram tratados anteriormente com outro medicamento 
+anticancerígeno que viaje pela circulação sanguínea. LENVIMA é administrado aos doentes quando o 
+cancro do fígado alastrou ou não pode ser extraído por cirurgia. </p>
+<p>LENVIMA também pode ser utilizado em conjunto com outro medicamento anticancerígeno 
+denominado pembrolizumab para tratar cancro avançado do revestimento do útero (carcinoma do 
+endométrio) em adultos cujo cancro se tenha disseminado, depois de ter sido tratado anteriormente 
+com outro medicamento anticancerígeno, que percorra a circulação sanguínea e não possa ser extraído 
+por cirurgia ou por radioterapia. </p>
+<p>Como atua LENVIMA </p>
+<p>LENVIMA bloqueia a ação de proteínas chamadas recetores das tirosina cinases (RTKs), as quais 
+estão envolvidas no desenvolvimento de novos vasos de sangue que fornecem oxigénio e nutrientes às 
+células e as ajudam a crescer. Estas proteínas podem apresentar-se em elevadas quantidades nas 
+células cancerosas e, ao bloquear a sua ação, LENVIMA pode atrasar a velocidade com que as células 
+cancerosas se multiplicam e o tumor cresce, e ajudar a cortar o fornecimento de sangue de que o 
+cancro precisa. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar lenvima"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar lenvima"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome LENVIMA </p>
+<ul>
+<li>
+<p>se tem alergia ao lenvatinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>se estiver a amamentar (ver a secção abaixo sobre Contraceção, gravidez e amamentação). </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico antes de tomar LENVIMA se: </p>
+<ul>
+<li>
+<p>tiver a tensão arterial alta </p>
+</li>
+<li>
+<p>for uma mulher com potencial para engravidar (ver a secção abaixo sobre Contraceção, gravidez 
+e amamentação) </p>
+</li>
+<li>
+<p>tiver antecedentes de problemas de coração ou de acidente vascular-cerebral </p>
+</li>
+<li>
+<p>tiver problemas de fígado ou de rins </p>
+</li>
+<li>
+<p>tiver sido submetido recentemente a uma cirurgia ou a radioterapia </p>
+</li>
+<li>
+<p>necessitar de ser submetido a um procedimento cirúrgico. O seu médico poderá considerar a 
+interrupção de LENVIMA se tiver um grande procedimento cirúrgico agendado, uma vez que 
+LENVIMA pode afetar a cicatrização de feridas. A administração de LENVIMA pode ser 
+retomada depois de se observar uma cicatrização de feridas adequada. </p>
+</li>
+<li>
+<p>tiver mais de 75 anos de idade </p>
+</li>
+<li>
+<p>pertencer a um grupo étnico que não a raça branca ou asiática </p>
+</li>
+<li>
+<p>pesar menos de 60 kg </p>
+</li>
+<li>
+<p>tiver antecedentes de formação de canais anormais (conhecidas por fístulas) entre órgãos 
+diferentes no corpo ou de um órgão para a pele </p>
+</li>
+<li>
+<p>tiver ou tiver tido um aneurisma (dilatação ou enfraquecimento da parede de um vaso 
+sanguíneo) ou uma rotura na parede de um vaso sanguíneo. </p>
+</li>
+<li>
+<p>tiver ou tiver tido dores na boca, nos dentes e/ou maxilares, inchaço ou feridas dentro da boca, 
+dormência ou uma sensação de peso no maxilar ou afrouxamento de um dente. Poderá ser 
+aconselhado(a) a fazer um exame dentário completo antes de iniciar a toma de LENVIMA, pois 
+foram relatados danos ósseos no maxilar (osteonecrose) em doentes tratados com LENVIMA. 
+Se necessitar de fazer um tratamento dentário invasivo ou uma cirurgia dentária, avise o seu 
+dentista de que está a ser tratado(a) com LENVIMA, nomeadamente se também estiver a 
+receber, ou tiver recebido, injeções de bisfosfonatos (usados para tratar ou prevenir problemas 
+ósseos). </p>
+</li>
+<li>
+<p>estiver a receber ou tiver recebido alguns medicamentos usados para tratar a osteoporose 
+(medicamentos antirreabsortivos) ou medicamentos oncológicos que alteram a formação de 
+vasos sanguíneos (os denominados inibidores da angiogénese), pois o risco de danos ósseos no 
+maxilar pode aumentar. 
+Antes de tomar LENVIMA, o seu médico poderá efetuar alguns exames, por exemplo, verificar a sua 
+tensão arterial e a função do seu fígado ou rins e ver se tem níveis baixos de sal e níveis elevados de 
+hormona de estimulação da tiroide no seu sangue. O seu médico irá conversar consigo sobre os 
+resultados destes exames e decidir se poderá receber LENVIMA. Poderá precisar de fazer tratamento 
+adicional com outros medicamentos, tomar uma dose mais baixa de LENVIMA ou ter um cuidado 
+adicional devido a um aumento do risco de efeitos indesejáveis. </p>
+</li>
+</ul>
+<p>Se tiver dúvidas, fale com o seu médico antes de tomar LENVIMA. </p>
+<p>Crianças e adolescentes 
+LENVIMA não é atualmente recomendado para utilização em crianças e adolescentes com menos de 
+18 anos de idade. </p>
+<p>Outros medicamentos e LENVIMA 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto inclui preparações à base de plantas e medicamentos sem receita 
+médica. </p>
+<p>Contraceção, gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<ul>
+<li>
+<p>Se tiver potencial para engravidar, utilize contraceção altamente eficaz enquanto estiver a tomar 
+este medicamento e durante pelo menos um mês após o fim do tratamento. Uma vez que se 
+desconhece se LENVIMA pode reduzir o efeito da pílula contracetiva oral, caso este seja o seu 
+método de contraceção normal, deve assegurar-se que acrescenta também um método de 
+barreira, tal como o diafragma ou preservativos, se tiver relações sexuais durante o tratamento 
+com LENVIMA. </p>
+</li>
+<li>
+<p>Não tome LENVIMA se estiver a planear engravidar durante o seu tratamento. Isto porque pode 
+prejudicar gravemente o seu bebé. </p>
+</li>
+<li>
+<p>Se ficar grávida enquanto estiver a fazer o tratamento com LENVIMA, informe o seu médico 
+imediatamente. O seu médico ajudá-la-á a decidir se o tratamento deve ser continuado. </p>
+</li>
+<li>
+<p>Não amamente se estiver a tomar LENVIMA. Isto porque o medicamento passa para o leite 
+humano e pode prejudicar gravemente o seu bebé a amamentar. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+LENVIMA pode causar efeitos indesejáveis que podem afetar a sua capacidade de conduzir ou utilizar 
+máquinas. Evite conduzir ou utilizar máquinas se sentir tonturas ou cansaço. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar lenvima"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar lenvima"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Quanto é que deve tomar 
+Cancro da tiroide </p>
+<ul>
+<li>
+<p>A dose recomendada de LENVIMA é habitualmente de 24 mg uma vez por dia (2 cápsulas de 
+10 mg e 1 cápsula de 4 mg). </p>
+</li>
+<li>
+<p>Se tiver problemas de fígado ou de rins graves a dose recomendada é de 14 mg uma vez por dia 
+(1 cápsula de 10 mg e 1 cápsula de 4 mg). </p>
+</li>
+<li>
+<p>O seu médico pode diminuir a sua dose se tiver problemas com efeitos indesejáveis </p>
+</li>
+</ul>
+<p>Cancro do fígado </p>
+<ul>
+<li>
+<p>A dose recomendada de LENVIMA depende do seu peso corporal quando começa o tratamento. 
+A dose é habitualmente de 12 mg uma vez por dia (3 cápsulas de 4 mg) se pesar 60 kg ou mais e 
+de 8 mg uma vez por dia (2 cápsulas de 4 mg) se pesar menos de 60 kg </p>
+</li>
+<li>
+<p>O seu médico poderá reduzir a dose se tiver problemas com os efeitos indesejáveis. </p>
+</li>
+</ul>
+<p>Cancro do útero </p>
+<ul>
+<li>
+<p>A dose recomendada de LENVIMA é de 20 mg uma vez por dia (2 cápsulas de 10 mg), em 
+associação com pembrolizumab. O pembrolizumab é administrado pelo seu médico como uma 
+injeção na sua veia, de 200 mg de 3 em 3 semanas, ou de 400 mg de 6 em 6 semanas. </p>
+</li>
+<li>
+<p>O seu médico poderá reduzir a sua dose se tiver problemas com efeitos indesejáveis. </p>
+</li>
+</ul>
+<p>Tomar este medicamento </p>
+<ul>
+<li>
+<p>Pode tomar as cápsulas com ou sem alimentos. </p>
+</li>
+<li>
+<p>Não abra as cápsulas para evitar a exposição ao conteúdo da cápsula. </p>
+</li>
+<li>
+<p>Engula as cápsulas inteiras com água. Se não conseguir engolir as cápsulas inteiras, é possível 
+preparar uma mistura líquida com água, sumo de maçã ou leite. A mistura líquida pode ser dada 
+pela boca ou através de um tubo de alimentação. Se for dada através de um tubo de alimentação, 
+a mistura líquida deve, nesse caso, ser preparada com água. Se não for usada no momento da 
+preparação, a mistura líquida pode ser conservada num recipiente com tampa e deve ser 
+refrigerada entre 2 °C e 8 °C durante 24 horas, no máximo. Agite a mistura líquida durante 
+30 segundos depois de a retirar do frigorífico. Se não for usada no prazo de 24 horas após a 
+preparação, a mistura líquida deve ser eliminada.<br />
+Preparação e administração da mistura líquida: 
+o 
+Coloque a(s) cápsula(s) correspondentes à dose prescrita (até 5 cápsulas) num recipiente 
+pequeno (com capacidade para, aproximadamente, 20 ml [4 colheres de chá]) ou numa 
+seringa oral (20 ml); não parta nem esmague as cápsulas. 
+o 
+Adicione 3 ml de líquido ao recipiente ou à seringa oral. Aguarde 10 minutos para que o 
+invólucro da cápsula (superfície exterior) se desintegre e, em seguida, agite ou sacuda a 
+mistura durante 3 minutos até que as cápsulas estejam completamente dissolvidas. </p>
+</li>
+<li>
+<p>Se a mistura líquida for preparada numa seringa oral, tape a seringa, retire o 
+êmbolo e use uma segunda seringa ou um conta-gotas de medicamento para 
+adicionar o líquido à primeira seringa. Em seguida, reponha o êmbolo antes de 
+proceder à mistura. 
+o 
+Beba a mistura líquida a partir do recipiente ou use uma seringa oral para colocar 
+diretamente na boca ou através de um tubo de alimentação. 
+o 
+Em seguida, adicione 2 ml adicionais de líquido ao recipiente ou à seringa oral, usando 
+uma segunda seringa ou um conta-gotas, mexa ou agite e tome a mistura líquida. Repita 
+este passo pelo menos duas vezes e até não haver resíduos visíveis da mistura, para 
+garantir que toda a medicação é tomada. </p>
+</li>
+<li>
+<p>Tome as cápsulas mais ou menos à mesma hora todos os dias. </p>
+</li>
+</ul>
+<p>Durante quanto tempo deverá tomar LENVIMA 
+Em geral, continuará a tomar este medicamento enquanto tiver um benefício clínico. </p>
+<p>Se tomar mais LENVIMA do que deveria 
+Se tomar mais LENVIMA do que deveria, fale com um médico ou farmacêutico imediatamente. Leve 
+a embalagem do medicamento consigo. </p>
+<p>Caso se tenha esquecido de tomar LENVIMA 
+Não tome uma dose a dobrar (duas doses ao mesmo tempo) para compensar uma dose que se esqueceu 
+de tomar. </p>
+<p>Aquilo que deverá fazer se se esquecer de tomar a sua dose dependerá da hora à qual deverá tomar a 
+sua dose seguinte. </p>
+<ul>
+<li>
+<p>Se faltarem 12 horas ou mais até à sua dose seguinte: tome a dose em falta assim que se 
+lembrar. Depois tome a dose seguinte à hora normal. </p>
+</li>
+<li>
+<p>Se faltarem menos de 12 horas até à sua dose seguinte: não tome a dose em falta. Tome depois a 
+dose seguinte à hora normal. </p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Informe o seu médico imediatamente se detetar qualquer um dos efeitos indesejáveis seguintes - 
+poderá precisar de tratamento médico urgente: </p>
+<ul>
+<li>
+<p>sensação de dormência ou fraqueza num dos lados do corpo, dores de cabeça intensas, 
+convulsões, confusão, dificuldade em falar, alterações da visão ou sensação de tonturas - estes 
+poderão ser sinais de um acidente vascular cerebral, hemorragia no cérebro, ou o efeito de um 
+aumento acentuado da pressão sanguínea no seu cérebro. </p>
+</li>
+<li>
+<p>dor ou pressão no peito, dor nos braços, costas, pescoço ou maxilar, sentir falta de ar, um 
+batimento cardíaco rápido ou irregular, tosse, cor azulada nos lábios ou nos dedos, sentir-se 
+muito cansado - estes podem ser sinais de um problema no coração, de um coágulo de sangue 
+nos seus pulmões, ou de uma fuga de ar dos seus pulmões para o seu peito que impede o 
+enchimento dos pulmões. </p>
+</li>
+<li>
+<p>dor intensa na barriga (abdómen) - isto pode ser devido a um buraco na parede do seu intestino 
+ou uma fístula (um buraco no seu intestino que liga uma passagem semelhante a um tubo a outra 
+parte do seu corpo ou à pele). </p>
+</li>
+<li>
+<p>fezes escuras, com aspeto de alcatrão ou com sangue ou expetorar sangue ao tossir - estes 
+podem ser sinais de uma hemorragia no interior do seu corpo. </p>
+</li>
+<li>
+<p>pele amarela ou cor amarelada na parte branca dos olhos (icterícia) ou sonolência, confusão, 
+dificuldades de concentração - estes sintomas podem ser sinais de problemas no fígado. </p>
+</li>
+<li>
+<p>diarreia, enjoos e vómitos (náuseas e vómitos) - estes são efeitos indesejáveis muito frequentes 
+que podem tornar-se graves se fizerem com que fique desidratado, o que poderá levar a 
+insuficiência renal. O seu médico pode dar-lhe medicamentos para reduzir estes efeitos 
+indesejáveis. </p>
+</li>
+<li>
+<p>dores na boca, nos dentes e/ou maxilares, inchaço ou feridas dentro da boca, dormência ou uma 
+sensação de peso no maxilar ou afrouxamento de um dente - estes podem ser sinais de danos 
+ósseos no maxilar (osteonecrose). </p>
+</li>
+</ul>
+<p>Informe o seu médico imediatamente se detetar qualquer um dos efeitos indesejáveis mencionados 
+acima. </p>
+<p>Os seguintes efeitos indesejáveis poderão ocorrer com este medicamento quando administrado 
+isoladamente : </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>tensão arterial alta ou baixa </p>
+</li>
+<li>
+<p>perda de apetite ou perda de peso </p>
+</li>
+<li>
+<p>enjoos (náuseas) e vómitos, prisão de ventre, diarreia, dor no abdómen, indigestão </p>
+</li>
+<li>
+<p>sentir-se muito cansado ou fraco </p>
+</li>
+<li>
+<p>rouquidão </p>
+</li>
+<li>
+<p>inchaço das pernas </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>boca seca, dolorosa ou inflamada, sensação de sabor estranho </p>
+</li>
+<li>
+<p>dor nas articulações ou músculos </p>
+</li>
+<li>
+<p>sentir tonturas </p>
+</li>
+<li>
+<p>perda de cabelo </p>
+</li>
+<li>
+<p>sangrar (mais frequentemente sangrar do nariz, mas também outros tipos de sangramento, tais 
+como, sangue na urina, formação de nódoas negras, sangrar das gengivas ou da parede dos 
+intestinos) </p>
+</li>
+<li>
+<p>dificuldade em dormir </p>
+</li>
+<li>
+<p>alterações nas análises das proteínas na urina (elevadas) e infeções urinárias (aumento da 
+frequência urinária ou dor ao urinar) </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>dor nas costas </p>
+</li>
+<li>
+<p>vermelhidão, dor e inchaço da pele nas mãos e pés (eritrodisestesia palmo-plantar) </p>
+</li>
+<li>
+<p>tiroide pouco ativa (cansaço, aumento de peso, obstipação, sentir frio, pele seca) </p>
+</li>
+<li>
+<p>alterações nos resultados das análises ao sangue para os níveis de potássio (baixos) e níveis de 
+cálcio (baixos) </p>
+</li>
+<li>
+<p>diminuição no número de glóbulos brancos </p>
+</li>
+<li>
+<p>alterações nos resultados das análises ao sangue para a função do fígado </p>
+</li>
+<li>
+<p>níveis baixos de plaquetas no sangue que podem levar à formação de nódoas negras e 
+dificuldade na cicatrização de feridas </p>
+</li>
+<li>
+<p>alterações nos resultados das análise ao sangue para magnésio no sangue (baixo), colesterol 
+(alto) e hormona de estimulação da tiroide (elevada) </p>
+</li>
+<li>
+<p>alterações nos resultados das análises de sangue para a função dos rins e insuficiência renal </p>
+</li>
+<li>
+<p>aumento da lipase e da amilase (enzimas envolvidas na digestão) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>perda de líquidos corporais (desidratação) </p>
+</li>
+<li>
+<p>palpitações do coração </p>
+</li>
+<li>
+<p>pele seca, espessamento e comichão na pele </p>
+</li>
+<li>
+<p>sensação de enfartamento ou gases nos intestinos </p>
+</li>
+<li>
+<p>problemas de coração ou coágulos de sangue nos pulmões (dificuldade em respirar, dor no 
+peito) ou noutros órgãos </p>
+</li>
+<li>
+<p>insuficiência no fígado </p>
+</li>
+<li>
+<p>sonolência, confusão, dificuldades de concentração, perda da consciência - estes podem ser 
+sinais de insuficiência no fígado </p>
+</li>
+<li>
+<p>indisposição </p>
+</li>
+<li>
+<p>inflamação da vesícula biliar </p>
+</li>
+<li>
+<p>acidente vascular cerebral </p>
+</li>
+<li>
+<p>fístula anal (um pequeno canal que se forma entre o ânus e a pele que o rodeia) </p>
+</li>
+<li>
+<p>um buraco (perfuração) no estômago ou nos intestinos </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>infeção ou irritação dolorosa próximo do ânus </p>
+</li>
+<li>
+<p>pequeno acidente vascular cerebral </p>
+</li>
+<li>
+<p>lesão no fígado </p>
+</li>
+<li>
+<p>dor intensa na parte superior esquerda da barriga (abdómen) que pode estar associada a febre, 
+arrepios, náuseas e vómitos (enfarte esplénico) </p>
+</li>
+<li>
+<p>inflamação do pâncreas </p>
+</li>
+<li>
+<p>problemas na cicatrização de feridas </p>
+</li>
+<li>
+<p>danos ósseos no maxilar (osteonecrose) </p>
+</li>
+<li>
+<p>inflamação do cólon (colite) </p>
+</li>
+<li>
+<p>diminuição da secreção de hormonas produzidas pelas glândulas suprarrenais </p>
+</li>
+</ul>
+<p>Desconhecido (os seguintes efeitos indesejáveis têm sido notificados desde a comercialização de 
+LENVIMA mas a frequência com que ocorrem é desconhecida) </p>
+<ul>
+<li>
+<p>outros tipos de fístulas (uma ligação anormal entre órgãos diferentes no corpo ou entre a pele e 
+uma estrutura subjacente como a garganta e vias respiratórias). Os sintomas dependem da 
+localização da fístula. Fale com o seu médico se tiver quaisquer sintomas novos ou invulgares 
+tais como tosse ao engolir </p>
+</li>
+<li>
+<p>uma dilatação ou enfraquecimento da parede de um vaso sanguíneo ou uma rotura da parede de 
+um vaso sanguíneo (aneurismas e dissecções das artérias). </p>
+</li>
+</ul>
+<p>Os seguintes efeitos indesejáveis poderão ocorrer com este medicamento quando administrado 
+em associação com pembrolizumab: </p>
+<p>Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>alterações nos resultados das análises à urina para proteínas (elevados) e infeções urinárias 
+(aumento da frequência urinária e dor ao urinar) </p>
+</li>
+<li>
+<p>níveis baixos de plaquetas no sangue que podem levar à formação de nódoas negras e 
+dificuldade na cicatrização de feridas </p>
+</li>
+<li>
+<p>diminuição no número de glóbulos brancos </p>
+</li>
+<li>
+<p>diminuição no número de glóbulos vermelhos </p>
+</li>
+<li>
+<p>tiroide pouco ativa (cansaço, aumento de peso, prisão de ventre, sentir frio, pele seca) e 
+alterações nos resultados das análises ao sangue para a hormona de estimulação da tiroide 
+(elevada) </p>
+</li>
+<li>
+<p>tiroide demasiado ativa (os sintomas podem incluir frequência cardíaca rápida, suores e perda de 
+peso) </p>
+</li>
+<li>
+<p>alterações nos resultados das análises ao sangue para níveis de cálcio (baixos) </p>
+</li>
+<li>
+<p>alterações nos resultados das análises ao sangue para níveis de potássio (baixos) </p>
+</li>
+<li>
+<p>alterações nos resultados das análises ao sangue para níveis de colesterol (elevados) </p>
+</li>
+<li>
+<p>alterações nos resultados das análises ao sangue para níveis de magnésio (baixos) </p>
+</li>
+<li>
+<p>perda de apetite ou perda de peso </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>dor nas costas </p>
+</li>
+<li>
+<p>boca seca, dolorosa ou inflamada, sensação de sabor estranho </p>
+</li>
+<li>
+<p>hemorragia (mais frequentemente sangrar do nariz, mas também outros tipos de hemorragias , 
+tais como, sangue na urina, formação de nódoas negras, sangrar das gengivas ou da parede dos 
+intestinos) </p>
+</li>
+<li>
+<p>tensão arterial alta </p>
+</li>
+<li>
+<p>rouquidão </p>
+</li>
+<li>
+<p>enjoos (náuseas) e vómitos, prisão de ventre, diarreia, dor no abdómen </p>
+</li>
+<li>
+<p>aumento na amilase (enzima envolvida na digestão) </p>
+</li>
+<li>
+<p>aumento na lipase (enzima envolvida na digestão) </p>
+</li>
+<li>
+<p>alterações nos resultados das análises ao sangue para a função do fígado </p>
+</li>
+<li>
+<p>alterações nos resultados das análises ao sangue para a função do rim </p>
+</li>
+<li>
+<p>vermelhidão, dor e inchaço da pele nas mãos e pés (eritrodisestesia palmo-plantar) </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>dor nas articulações ou músculos </p>
+</li>
+<li>
+<p>sentir-se muito cansado ou fraco </p>
+</li>
+<li>
+<p>inchaço das pernas </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>perda de líquidos corporais (desidratação) </p>
+</li>
+<li>
+<p>dificuldade em dormir </p>
+</li>
+<li>
+<p>palpitações do coração </p>
+</li>
+<li>
+<p>tensão arterial baixa </p>
+</li>
+<li>
+<p>coágulos de sangue nos pulmões (dificuldade em respirar, dor no peito) </p>
+</li>
+<li>
+<p>inflamação do pâncreassensação de enfartamento ou gases nos intestinos  </p>
+</li>
+<li>
+<p>indigestão  </p>
+</li>
+<li>
+<p>inflamação da vesícula biliar </p>
+</li>
+<li>
+<p>perda de cabelo </p>
+</li>
+<li>
+<p>insuficiência renal </p>
+</li>
+<li>
+<p>indisposição </p>
+</li>
+<li>
+<p>inflamação do cólon (colite) </p>
+</li>
+<li>
+<p>diminuição da secreção de hormonas produzidas pelas glândulas suprarrenais </p>
+</li>
+<li>
+<p>um buraco (perfuração) no estômago ou nos intestinos </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>dor de cabeça, confusão, convulsões e alterações da visão </p>
+</li>
+<li>
+<p>sinais de um acidente vascular cerebral, incluindo sensação de dormência ou fraqueza num dos 
+lados do corpo, dores de cabeça intensas, convulsões, confusão, dificuldade em falar, alterações 
+da visão ou sensação de tonturas </p>
+</li>
+<li>
+<p>pequeno acidente vascular cerebral </p>
+</li>
+<li>
+<p>sinais de um problema no coração, incluindo dor ou pressão no peito, dor nos braços, costas, 
+pescoço ou maxilar, sentir falta de ar, um batimento cardíaco rápido ou irregular, tosse, cor 
+azulada nos lábios ou nos dedos, sentir-se muito cansado </p>
+</li>
+<li>
+<p>dificuldade grave em respirar e dores no peito, provocadas por uma fuga de ar dos seus pulmões 
+para o seu peito que impede o enchimento dos pulmõespequeno acidente vascular cerebral </p>
+</li>
+<li>
+<p>infeção ou irritação dolorosa próximo do ânus </p>
+</li>
+<li>
+<p>fístula anal (um pequeno canal que se forma entre o ânus e a pele que o rodeia) </p>
+</li>
+<li>
+<p>insuficiência hepática ou sinais de danos no fígado, incluindo pele amarela ou amarelecimento 
+da parte branca dos olhos (icterícia) ou tontura, confusão, falta de concentração </p>
+</li>
+<li>
+<p>pele seca, espessamento e comichão na pele </p>
+</li>
+<li>
+<p>problemas na cicatrização de feridas </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar lenvima"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar lenvima"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+</li>
+<li>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e em 
+cada blister após ‘EXP’. O prazo de validade corresponde ao último dia do mês indicado. </p>
+</li>
+<li>
+<p>Não conservar acima de 25 °C. Conservar no blister de origem para proteger da humidade. </p>
+</li>
+<li>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de LENVIMA </p>
+<ul>
+<li>
+<p>A substância ativa é o lenvatinib. 
+− 
+LENVIMA 4 mg cápsulas: - Cada cápsula contém 4 mg de lenvatinib (na forma de 
+mesilato). 
+− 
+LENVIMA 10 mg cápsulas: - Cada cápsula contém 10 mg de lenvatinib (na forma de 
+mesilato). </p>
+</li>
+<li>
+<p>Os outros componentes são carbonato de cálcio, manitol, celulose microcristalina, 
+hidroxipropilcelulose, hidroxipropilcelulose de baixa substituição, talco. O invólucro da cápsula 
+contém hipromelose, dióxido de titânio (E171), óxido de ferro amarelo (E172), óxido de ferro 
+vermelho (E172). A tinta de impressão contém goma laca, óxido de ferro negro (E172), 
+hidróxido de potássio, propilenoglicol. </p>
+</li>
+</ul>
+<p>Qual o aspeto de LENVIMA e conteúdo da embalagem </p>
+<ul>
+<li>
+<p>A cápsula de 4 mg consiste num corpo vermelho-amarelado e cabeça vermelho-amarelada, com 
+aproximadamente 14,3 mm de comprimento, com a marcação “Є" a tinta preta na cabeça, e 
+“LENV 4 mg" no corpo. </p>
+</li>
+<li>
+<p>A cápsula de 10 mg consiste num corpo amarelo e cabeça vermelho-amarelada, com 
+aproximadamente 14,3 mm de comprimento, com a marcação “Є" a tinta preta na cabeça, e 
+“LENV 10 mg" no corpo. </p>
+</li>
+<li>
+<p>As cápsulas apresentam-se em blisters de poliamida/alumínio/PVC com uma tampa de pressão 
+em folha de alumínio em embalagens de 30, 60 ou 90 cápsulas. É possível que não sejam 
+comercializadas todas as apresentações. </p>
+</li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado 
+Eisai GmbH 
+Edmund-Rumpler-Straße 3   <br />
+60549 Frankfurt am Main 
+Alemanha 
+E-mail: medinfo_de@eisai.net </p>
+<p>Fabricante 
+Eisai GmbH 
+Edmund-Rumpler-Straße 3   <br />
+60549 Frankfurt am Main 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Eisai SA/NV 
+Tél/Tel: + 32 (0) 800 158<br />
+Lietuva 
+Ewopharma AG atstovybė 
+Tel.: +370 5 2430 
+България 
+Ewopharma AG 
+Teл.: +359 2 962 12<br />
+Luxembourg/Luxemburg 
+Eisai SA/NV 
+Tél/Tel: + 32 (0) 800 158 (Belgique/Belgien) </p>
+<p>Česká republika 
+Eisai GesmbH organizačni složka 
+Tel.: + 420 242 485<br />
+Magyarország 
+Ewopharma Hungary Ltd. 
+Tel.: +36 1 200 46<br />
+Danmark 
+Eisai AB 
+Tlf: + 46 (0) 8 501 01 (Sverige) </p>
+<p>Malta 
+Cherubino LTD 
+Tel.: +356 21343270<br />
+pharmacovigilance@cherubino.com.mt </p>
+<p>Deutschland 
+Eisai GmbH 
+Tel: + 49 (0) 69 66 58<br />
+Nederland 
+Eisai B.V. 
+Tel: + 31 (0) 900 575 3 
+Eesti 
+Ewopharma AG Eesti filiaal 
+Tel.: +372 6015 
+Norge 
+Eisai AB 
+Tlf: + 46 (0) 8 501 01 (Sverige) </p>
+<p>Ελλάδα 
+Arriani Pharmaceutical S.A. 
+Τηλ: + 30 210 668 3 
+Österreich 
+Eisai GesmbH 
+Tel: + 43 (0) 1 535 1980-0 </p>
+<p>España 
+Eisai Farmacéutica, S.A. 
+Tel: + (34) 91 455 94<br />
+Polska 
+Ewopharma AG Sp. z o.o 
+Tel.:+48 (22) 620 11<br />
+France 
+Eisai SAS 
+Tél: + (33) 1 47 67 00<br />
+Portugal 
+Eisai Farmacêutica, Unipessoal Lda 
+Tel: + 351 214 875<br />
+Hrvatska 
+Ewopharma d.o.o 
+info@ewopharma.hr 
+Tel.: +385 (0) 1 6646<br />
+România 
+Ewopharma AG 
+Tel.: +40 21 260 13  </p>
+<p>Ireland 
+Eisai GmbH 
+Tel.: + 49 (0) 69 66 58 (Germany) </p>
+<p>Slovenija 
+Ewopharma d.o.o. 
+Tel.: +386 590 848<br />
+Ísland 
+Eisai AB 
+Sími: + 46 (0) 8 501 01 (Svíþjóð) </p>
+<p>Slovenská republika 
+Eisai GesmbH organizační složka 
+Tel.: +420 242 485 (Česká republika) </p>
+<p>Italia 
+Eisai S.r.l. 
+Tel: + 39 02 5181 
+Suomi/Finland 
+Eisai AB 
+Puh/Tel: + 46 (0) 8 501 01 (Ruotsi/Sverige) </p>
+<p>Κύπρος 
+Arriani Pharmaceuticals S.A. 
+Τηλ: + 30 210 668 3(Ελλάδα) </p>
+<p>Sverige 
+Eisai AB 
+Tel: + 46 (0) 8 501 01<br />
+Latvija 
+Ewopharma AG Pārstāvniecība 
+Tel.:+371 67450 
+United Kingdom (Northern Ireland) 
+Eisai GmbH 
+Tel.: + 49 (0) 69 66 58 (Germany) </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1437,6 +2339,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-2a6f62e1d5ad7fde088bdbbe5ee1875e"
 * entry[0].resource = composition-da-2a6f62e1d5ad7fde088bdbbe5ee1875e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2a6f62e1d5ad7fde088bdbbe5ee1875e"
+* entry[=].resource = mp2a6f62e1d5ad7fde088bdbbe5ee1875e
+                            
+                    
+Instance: bundlepackageleaflet-pt-2a6f62e1d5ad7fde088bdbbe5ee1875e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lenvima Package Leaflet for language pt"
+Description: "ePI document Bundle for lenvima Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-2a6f62e1d5ad7fde088bdbbe5ee1875e"
+* entry[0].resource = composition-pt-2a6f62e1d5ad7fde088bdbbe5ee1875e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp2a6f62e1d5ad7fde088bdbbe5ee1875e"
@@ -1538,6 +2462,18 @@ RuleSet: 2a6f62e1d5ad7fde088bdbbe5ee1875eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-2a6f62e1d5ad7fde088bdbbe5ee1875e) // lenvima pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1040,6 +1040,609 @@ ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel
 
 
 
+Instance: composition-pt-d9dc9ab79b2a856f92a3151fb8d4fca9
+InstanceOf: CompositionUvEpi
+Title: "Composition for erleada Package Leaflet"
+Description:  "Composition for erleada Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd9dc9ab79b2a856f92a3151fb8d4fca9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - erleada"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Erleada e para que é utilizado 
+2. O que precisa de saber antes de tomar Erleada
+3. Como tomar Erleada
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Erleada
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é erleada e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é erleada e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Erleada
+Erleada é um medicamento para o cancro que contém a substância ativa apalutamida.
+Para que é utilizado Erleada
+É utilizado para tratar homens adultos com cancro da próstata que:
+
+metastizou para outras partes do corpo e ainda responde a tratamentos médicos ou cirúrgicos 
+que diminuem a testosterona (também designado cancro da próstata hormonossensível).
+
+não metastizou para outras partes do corpo e já não responde a um tratamento médico ou 
+cirúrgico que diminui a testosterona (também designado cancro da próstata resistente à 
+castração).
+Como funciona Erleada
+Erleada funciona através do bloqueio da atividade de hormonas androgénicas (como a testosterona). O 
+androgénio pode causar o crescimento do tumor. Ao bloquear o efeito das hormonas androgénicas, a 
+apalutamida impede que as células do cancro da próstata cresçam e se dividam.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar erleada"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar erleada"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Erleada
+
+se tem alergia à apalutamida ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+
+se está grávida ou poderá engravidar (ver a secção abaixo sobre Gravidez e contraceção para 
+mais informações).
+Não tome este medicamento se alguma das situações acima se aplicar a si. Se não tiver a certeza, fale 
+com o seu médico ou farmacêutico antes de tomar este medicamento.
+Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar este medicamento se:
+
+já teve crises ou convulsões.
+80
+
+está a tomar algum medicamento para prevenir coágulos sanguíneos (como varfarina,
+acenocumarol).
+
+tem alguma doença cardíaca ou dos vasos sanguíneos, incluindo problemas do ritmo cardíaco 
+(arritmia).
+
+alguma vez teve uma erupção disseminada, temperatura corporal elevada e nódulos linfáticos 
+aumentados (reação medicamentosa com eosinofilia e sintomas sistémicos ou DRESS) ou 
+erupção grave na pele ou descamação da pele, bolhas e/ou feridas na boca (síndrome de 
+Stevens-Johnson/necrólise epidérmica tóxica ou SSJ/NET) após tomar Erleada ou outros 
+medicamentos relacionados.
+Se alguma das condições acima se aplica a si (ou se não tiver a certeza), fale com o seu médico ou 
+farmacêutico antes de tomar este medicamento.
+Quedas e fraturas de ossos
+Foram observadas quedas em doentes a tomar Erleada. Tome cuidado extra para reduzir o risco de 
+queda. Foram observadas fraturas de ossos em doentes a tomar este medicamento.
+Doenças cardíacas, acidente vascular cerebral (AVC) ou mini-AVC
+Algumas pessoas tiveram um bloqueio das artérias no coração ou numa parte do cérebro, que pode 
+levar a morte durante o tratamento com Erleada.
+O seu profissional de saúde irá monitorizá-lo para sinais e sintomas de problemas cardíacos ou 
+cerebrais durante o seu tratamento com este medicamento.
+Telefone ao seu profissional de saúde ou dirija-se imediatamente ao serviço de urgência mais próximo 
+se tiver:
+
+dor no peito ou desconforto em repouso ou em atividade, ou
+
+falta de ar, ou
+
+fraqueza muscular/paralisia em qualquer parte do corpo, ou 
+
+dificuldade em falar.
+Se estiver a tomar quaisquer medicamentos, fale com o seu médico ou farmacêutico para verificar se 
+estão associados a um risco aumentado de convulsões, hemorragias ou problemas cardíacos.
+Reações Adversas Cutâneas Graves (SCARs)
+Foram notificadas Reações Adversas Cutâneas Graves (SCARs), incluindo reação medicamentosa
+com eosinofilia e sintomas sistémicos (DRESS) ou síndrome de Stevens-Johnson/necrólise epidérmica 
+tóxica (SSJ/NET) com o uso de Erleada. DRESS pode surgir como erupção disseminada, temperatura 
+corporal elevada e nódulos linfáticos aumentados. SSJ/NET podem aparecer inicialmente como 
+manchas avermelhadas em forma de alvo ou circulares, muitas vezes com bolhas centrais no tronco. 
+Além disso, podem ocorrer úlceras na boca, garganta, nariz, órgãos genitais e olhos (olhos vermelhos 
+e inchados). Estas erupções graves na pele são frequentemente precedidas por febre e/ou sintomas 
+semelhantes aos da gripe. As erupções podem progredir para descamação generalizada da pele e 
+complicações que colocam a vida em risco ou são fatais. 
+Se desenvolver uma erupção na pele grave ou outro destes sintomas de pele, pare de tomar este 
+medicamento e contacte o seu médico ou procure assistência médica imediata.
+Se alguma das situações acima se aplicar a si (ou se não tiver a certeza), fale com o seu médico ou 
+farmacêutico antes de tomar este medicamento. Consulte a Secção 4 “Efeitos indesejáveis graves" na 
+parte superior da Secção 4 para mais informações.
+Doença Pulmonar Intersticial 
+Têm sido observados casos de doença pulmonar intersticial (inflamação não infecciosa nos pulmões 
+que pode levar a lesões permanentes) em doentes a tomar Erleada, incluindo casos fatais. Os sintomas 
+de doença pulmonar intersticial são tosse e falta de ar, por vezes com febre, que não são causados pela
+81
+atividade física. Procure ajuda médica imediata caso experiencie sintomas que poderão representar 
+sinais de doença pulmonar intersticial.
+Crianças e adolescentes
+Este medicamento não é para uso em crianças e adolescentes com menos de 18 anos de idade.
+Se uma criança ou jovem tomar acidentalmente este medicamento:
+
+dirija-se ao hospital imediatamente
+
+leve consigo este folheto informativo para mostrar ao médico da urgência.
+Outros medicamentos e Erleada
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto porque Erleada pode afetar o modo como alguns medicamentos 
+funcionam. Para além disso, alguns medicamentos podem afetar a forma como Erleada funciona.
+Em particular, informe o seu médico se estiver a tomar medicamentos que:
+
+diminuem níveis elevados de gordura no sangue (como gemfibrozil)
+
+tratam infeções bacterianas (como moxifloxacina, claritromicina)
+
+tratam infeções fúngicas (como itraconazol, cetoconazol)
+
+tratam infeção pelo VIH (como ritonavir, efavirenz, darunavir)
+
+tratam a ansiedade (como midazolam, diazepam)
+
+tratam epilepsia (como fenitoína, ácido valpróico)
+
+tratam a doença do refluxo gastroesofágico (doenças em que existe demasiado ácido no 
+estômago) (como omeprazol)
+
+previnem coágulos sanguíneos (como varfarina, clopidogrel, dabigatrano etexilato)
+
+tratam febre dos fenos e alergias (como fexofenadina)
+
+diminuem os níveis de colesterol (como “estatinas" como a rosuvastatina, sinvastatina)
+
+tratam condições cardíacas e diminuem a tensão arterial (como digoxina, felodipina)
+
+tratam problemas do ritmo cardíaco (como quinidina, disopiramida, amiodarona, sotalol, 
+dofetilida, ibutilida)
+
+tratam doenças da tiroide (como levotiroxina)
+
+tratam gota (como colchicina)
+
+baixam os níveis de glucose no sangue (como repaglinida)
+
+tratam o cancro (como lapatinib, metotrexato)
+
+tratam a dependência de opiáceos ou a dor (como metadona)
+
+tratam doenças mentais sérias (como haloperidol).
+Necessita de ter uma lista com os nomes dos medicamentos que toma e de a mostrar ao seu médico ou 
+farmacêutico quando começar a tomar um novo medicamento. Diga ao seu médico que está a tomar 
+Erleada se o seu médico lhe indicar que deve começar a tomar um novo medicamento. A dose de 
+Erleada ou qualquer outro medicamento que esteja a tomar poderá ter de ser alterada.
+Informação sobre gravidez e contraceção para homens e mulheres
+Informação para mulheres
+
+Erleada não pode ser tomado por mulheres que estejam grávidas, que podem ficar grávidas ou 
+que se encontram a amamentar. Este medicamento pode causar danos ao seu feto.
+Informação para homens - siga este conselho durante o tratamento e durante 3 meses depois de 
+parar o tratamento
+
+Se tiver relações sexuais com uma mulher grávida - use preservativo para proteger o feto.
+
+Se tiver relações sexuais com uma mulher que possa engravidar - use preservativo e outro 
+método de contraceção altamente eficaz.
+Use contraceção durante o tratamento e durante 3 meses depois de parar o tratamento. Fale com o seu 
+médico se tiver alguma questão sobre a contraceção.
+82
+Este medicamento pode reduzir a fertilidade masculina.
+Condução de veículos e utilização de máquinas
+Erleada não é suscetível de afetar a sua capacidade de conduzir e utilizar quaisquer ferramentas ou 
+máquinas.
+Os efeitos indesejáveis deste medicamento incluem convulsões. Se tem risco elevado de ter 
+convulsões (ver secção 2 “Advertências e precauções"), consulte o seu médico.
+Erleada contém sódio
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por cada dose de 240 mg 
+(4 comprimidos), ou seja, é praticamente "isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar erleada"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar erleada"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+O seu médico também pode prescrever outros medicamentos enquanto estiver a tomar Erleada.
+Quanto tomar
+A dose recomendada deste medicamento é 240 mg (quatro comprimidos de 60 mg) uma vez por dia.
+Tomar Erleada
+
+Tome este medicamento por via oral.
+
+Pode tomar este medicamento com alimentos ou entre refeições.
+
+Engula cada comprimido inteiro para garantir que toma a dose na totalidade. Não esmague nem 
+parta os comprimidos.
+Se não conseguir engolir os comprimidos inteiros
+
+Se não conseguir engolir este medicamento inteiro, pode:
+o
+Misturar com uma das seguintes bebidas não gaseificadas ou alimentos moles: sumo 
+de laranja, chá verde, puré de maçã, iogurte líquido ou mais água, do seguinte 
+modo:
+
+Coloque toda a dose prescrita de Erleada num copo. Não esmague nem parta os
+comprimidos.
+
+Adicione cerca de 20 ml (4 colheres de chá) de água não gaseificada para garantir 
+que os comprimidos ficam completamente submersos em água.
+
+Aguarde 2 minutos até que os comprimidos se desfaçam e dispersem e, em 
+seguida, mexa a mistura.
+
+Adicione 30 ml (6 colheres de chá ou 2 colheres de sopa) de uma das seguintes 
+bebidas não gaseificadas ou alimentos moles: sumo de laranja, chá verde, puré de 
+maçã, iogurte líquido ou mais água, e mexa a mistura.
+
+Ingira a mistura imediatamente.
+
+Passe o copo por água suficiente para garantir que a dose é tomada por inteiro, e 
+beba imediatamente.
+
+Não guarde o medicamento/mistura alimentar para utilização posterior.
+o
+Sonda de alimentação: este medicamento também pode ser administrado através de 
+algumas sondas de alimentação. Pergunte ao seu profissional de saúde as instruções 
+específicas sobre como tomar os comprimidos adequadamente através de uma sonda de 
+alimentação.
+Se tomar mais Erleada do que deveria
+Se tomar mais do que deveria, pare de tomar este medicamento e consulte o seu médico. Pode ter um 
+risco aumentado de ter efeitos indesejáveis.
+83
+Caso se tenha esquecido de tomar Erleada
+
+Caso se tenha esquecido de tomar este medicamento, tome a sua dose habitual assim que se 
+lembrar no mesmo dia.
+
+Caso se tenha esquecido de tomar este medicamento durante o dia inteiro - tome a sua dose 
+habitual no dia seguinte.
+
+Caso se tenha esquecido de tomar este medicamento durante mais de um dia - fale com o seu 
+médico imediatamente.
+
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Se parar de tomar Erleada
+Não pare de tomar este medicamento sem consultar o seu médico primeiro.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Efeitos indesejáveis graves
+Pare de tomar Erleada e procure um médico imediatamente se notar algum dos seguintes 
+sintomas:
+
+erupção disseminada, temperatura corporal elevada e nódulos linfáticos aumentados (reação 
+medicamentosa com eosinofilia e sintomas sistémicos ou DRESS)
+
+manchas avermelhadas não elevadas, semelhantes a um alvo ou circulares no tronco, 
+frequentemente com bolhas centrais, descamação da pele, úlceras da boca, garganta, nariz, 
+genitais e olhos. Essas erupções cutâneas graves podem ser precedidas por febre e sintomas 
+semelhantes aos da gripe (síndrome de Stevens-Johnson, necrólise epidérmica tóxica).
+Informe imediatamente o seu médico se notar algum dos seguintes efeitos indesejáveis graves - o seu 
+médico pode interromper o tratamento:
+Muito frequentes: podem afetar mais de 1 em 10 pessoas
+
+quedas ou fraturas (fratura de ossos). O seu profissional de saúde poderá monitorizá-lo com 
+mais cuidado se estiver em risco de ter fraturas.
+Frequentes: pode afetar até 1 em 10 pessoas
+
+doença cardíaca, AVC ou mini-AVC. O seu profissional de saúde irá monitorizá-lo para sinais e 
+sintomas de problemas cardíacos ou cerebrais durante o seu tratamento. Telefone ao seu 
+profissional de saúde ou dirija-se imediatamente ao serviço de urgência mais próximo se tiver 
+dor no peito ou desconforto em repouso ou em atividade ou falta de ar, ou se sentir fraqueza 
+muscular/paralisia em qualquer parte do corpo, ou dificuldade em falar durante o seu tratamento 
+com Erleada.
+Pouco frequentes: pode afetar até 1 em 100 pessoas
+
+crise ou convulsão. O seu profissional de saúde irá parar este medicamento se tiver uma 
+convulsão durante o tratamento.
+
+síndrome das pernas inquietas (necessidade de mover as pernas de modo a parar sensações 
+dolorosas ou estranhas, ocorrendo mais frequentemente à noite).
+Desconhecido: a frequência não pode ser estimada a partir dos dados disponíveis
+
+tosse e falta de ar, possivelmente acompanhadas por febre, que não é provocada pela atividade 
+física (inflamação nos pulmões, conhecida como doença pulmonar intersticial).
+84
+Fale com o seu médico imediatamente se notar algum dos efeitos indesejáveis graves acima listados.
+Efeitos indesejáveis incluem
+Fale com o seu médico se notar algum dos seguintes efeitos indesejáveis:
+Muito frequentes (podem afetar mais de 1 em 10 pessoas):
+
+sensação de muito cansaço
+
+dor nas articulações
+
+erupção na pele
+
+diminuição do apetite
+
+pressão arterial elevada
+
+afrontamento
+
+diarreia
+
+fratura de ossos
+
+quedas
+
+perda de peso.
+Frequentes (podem afetar até 1 em 10 pessoas):
+
+espasmos musculares
+
+comichão
+
+perda de cabelo
+
+alteração no sentido do paladar
+
+análises ao sangue que mostram níveis elevados de colesterol no sangue
+
+análises ao sangue que mostram níveis elevados no sangue de um tipo de gordura denominado 
+“triglicéridos" 
+
+doença cardíaca
+
+acidente vascular cerebral ou mini acidente vascular cerebral causado por baixo fluxo sanguíneo 
+para parte do cérebro
+
+tiroide pouco ativa que pode fazê-lo sentir-se mais cansado e ter dificuldade em se levantar de 
+manhã, e as análises sanguíneas também podem mostrar uma tiroide pouco ativa.
+Pouco frequentes (podem afetar até 1 em 100 pessoas):
+
+convulsões.
+Desconhecidos (a frequência não pode ser calculada a partir dos dados disponíveis):
+
+traçado cardíaco anormal num ECG (eletrocardiograma)
+
+erupção disseminada, temperatura corporal elevada e nódulos linfáticos aumentados (reação 
+medicamentosa com eosinofilia e sintomas sistémicos ou DRESS)
+
+manchas avermelhadas não elevadas, em forma de alvo ou circulares no tronco, geralmente com 
+bolhas centrais, descamação da pele, úlceras da boca, garganta, nariz, genitais e olhos, que 
+podem ser precedidas por febre e sintomas semelhantes aos da gripe. Estas erupções graves da 
+pele podem representar risco de vida (síndrome de Stevens-Johnson, necrólise epidérmica 
+tóxica).
+Fale com o seu médico se notar algum dos efeitos indesejáveis acima listados.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar erleada"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar erleada"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+85
+Não utilize este medicamento após o prazo de validade impresso no recipiente (blister, embalagem
+interna, embalagem de cartão externa, frascos e cartonagem) após VAL. O prazo de validade 
+corresponde ao último dia do mês indicado.
+Conservar na embalagem de origem para proteger da humidade. O medicamento não necessita de 
+qualquer temperatura especial de conservação.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Erleada 
+
+A substância ativa é apalutamida. Cada comprimido revestido por película contém 60 mg de 
+apalutamida.
+
+Os outros componentes do núcleo do comprimido são sílica coloidal anidra, croscarmelose 
+sódica, hipromelose acetato succinato, estearato de magnésio, celulose microcristalina e 
+celulose microcristalina silicificada. O revestimento contém óxido de ferro preto (E172), óxido 
+de ferro amarelo (E172), macrogol, álcool polivinílico (parcialmente hidrolisado), talco e 
+dióxido de titânio (E171) (ver secção 2, Erleada contém sódio).
+Qual o aspeto de Erleada e conteúdo da embalagem
+Os comprimidos revestidos por película de Erleada são ligeiramente amarelados a verde-acinzentados, 
+oblongos (17 mm de comprimento x 9 mm de largura), marcados com “AR 60" num dos lados.
+Os comprimidos podem ser fornecidos num frasco ou numa embalagem. É possível que não sejam 
+comercializadas todas as apresentações.
+Frasco
+Os comprimidos são fornecidos num frasco de plástico com fecho resistente à abertura por crianças. 
+Cada frasco contém 120 comprimidos e um total de 6 g de dessecante. Cada embalagem contém um 
+frasco. Conservar na embalagem de origem. Não engula ou elimine o dessecante.
+Embalagem de 28 dias
+Cada embalagem de 28 dias contém 112 comprimidos revestidos por película em 4 embalagens de 
+cartão cada uma com 28 comprimidos revestidos por película.
+Embalagem de 30 dias
+Cada embalagem de 30 dias contém 120 comprimidos revestidos por película em 5 embalagens de 
+cartão cada uma com 24 comprimidos revestidos por película.
+Titular da Autorização de Introdução no Mercado 
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Bélgica
+Fabricante
+Janssen Cilag S.P.A
+Via C. Janssen
+Borgo San Michele
+Latina 04100
+Itália
+86
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 45 94 82 82
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: 0800 086 9247 / +49 2137 955 6955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.:+48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 18 00
+Ireland
+Janssen Sciences Ireland UC
+Tel:  1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+87
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800 688 777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Este folheto foi revisto pela última vez em 
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1081,6 +1684,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d9dc9ab79b2a856f92a3151fb8d4fca9"
 * entry[0].resource = composition-da-d9dc9ab79b2a856f92a3151fb8d4fca9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd9dc9ab79b2a856f92a3151fb8d4fca9"
+* entry[=].resource = mpd9dc9ab79b2a856f92a3151fb8d4fca9
+                            
+                    
+Instance: bundlepackageleaflet-pt-d9dc9ab79b2a856f92a3151fb8d4fca9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for erleada Package Leaflet for language pt"
+Description: "ePI document Bundle for erleada Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d9dc9ab79b2a856f92a3151fb8d4fca9"
+* entry[0].resource = composition-pt-d9dc9ab79b2a856f92a3151fb8d4fca9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd9dc9ab79b2a856f92a3151fb8d4fca9"
@@ -1182,6 +1807,18 @@ RuleSet: d9dc9ab79b2a856f92a3151fb8d4fca9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d9dc9ab79b2a856f92a3151fb8d4fca9) // erleada pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

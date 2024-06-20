@@ -1520,6 +1520,833 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-c73255ba16f112f8e9f93b50083ae06f
+InstanceOf: CompositionUvEpi
+Title: "Composition for prezista Package Leaflet"
+Description:  "Composition for prezista Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc73255ba16f112f8e9f93b50083ae06f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - prezista"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é PREZISTA e para que é utilizado
+2. O que precisa de saber antes de tomar PREZISTA
+3. Como tomar PREZISTA
+4. Efeitos indesejáveis possíveis
+5. Como conservar PREZISTA
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é prezista e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é prezista e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é PREZISTA?
+PREZISTA contém a substância ativa darunavir. PREZISTA é um medicamento antirretroviral, 
+utilizado no tratamento da infeção pelo Vírus da Imunodeficiência Humana (VIH). Pertence a um 
+grupo de medicamentos denominado inibidores da protease. PREZISTA atua reduzindo a quantidade 
+de VIH presente no seu corpo. Desta forma, irá melhorar o seu sistema imunológico e reduzir o risco 
+de desenvolvimento de doenças associadas à infeção pelo VIH.
+Para que é utilizado?
+PREZISTA é utilizado no tratamento de adultos e crianças com idade igual ou superior a 3 anos e 
+com, pelo menos, 15 quilogramas de peso corporal infetados pelo VIH (ver Como tomar 
+PREZISTA).
+PREZISTA deve ser administrado em associação com uma dose baixa de cobicistate ou ritonavir e 
+outros medicamentos anti-VIH. O seu médico falará consigo sobre qual será a associação de 
+medicamentos melhor para o seu caso.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar prezista"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar prezista"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome PREZISTA</h2>
+<p>se tem alergia ao darunavir, a qualquer outro componente deste medicamento (indicados na 
+secção 6) ou ao cobicistate ou ritonavir.
+-
+se tem problemas de fígado graves. Pergunte ao seu médico se não tem a certeza sobre a 
+gravidade do seu problema de fígado. Alguns testes adicionais poderão ser necessários.
+Fale com o seu médico sobre todos os medicamentos que está a tomar, incluindo medicamentos 
+tomados por via oral, inalados, injetados ou aplicados na pele.
+Não combine PREZISTA com qualquer um dos seguintes medicamentos
+Se estiver a utilizar qualquer um destes medicamentos consulte o seu médico sobre a possibilidade de 
+mudar para outro medicamento.
+155
+Medicamento
+Ação do medicamento
+Avanafil
+para tratamento da disfunção erétil
+Astemizol ou terfenadina
+para tratamento dos sintomas de alergia
+Triazolam e midazolam oral (tomado pela boca)
+para ajudar a dormir e/ou aliviar a ansiedade
+Cisaprida
+para tratamento de algumas perturbações 
+gástricas
+Colquicina (se tem problemas nos rins e/ou no 
+fígado)
+para tratamento da gota ou febre Mediterrânica 
+familiar
+Lurasidona, pimozida, quetiapina ou sertindol
+para tratamento de perturbações psiquiátricas
+Alcaloides da ergotamina, como ergotamina, di-
+hidroergotamina, ergometrina e metilergonovina
+para tratamento da enxaqueca
+Amiodarona, bepridilo, drodenarona, ivabradina, 
+quinidina, ranolazina
+para tratamento de certas doenças do coração, por 
+exemplo: batimento cardíaco anormal
+Lovastatina, sinvastatina e lomitapida
+para baixar os níveis de colesterol
+Rifampicina
+para o tratamento de algumas infeções como a 
+tuberculose
+O medicamento de associação lopinavir/ritonavir
+este medicamento anti-VIH pertence à mesma 
+classe que PREZISTA
+Elbasvir/grazoprevir
+para o tratamento da infeção pelo vírus da 
+hepatite C
+Alfuzosina
+para tratamento da próstata aumentada
+Sildenafil
+para tratamento da pressão arterial elevada na 
+circulação pulmonar
+Ticagrelor
+para ajudar a impedir a agregação de plaquetas no 
+tratamento de doentes com história de ataque 
+cardíaco
+Naloxegol
+para tratamento da obstipação induzida por 
+opioides
+Dapoxetina
+para tratamento da ejaculação precoce
+Domperidona
+para tratamento de náuseas e vómitos
+Não utilize PREZISTA em combinação com outros produtos contendo hipericão (Hypericum 
+perforatum).
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar PREZISTA.
+PREZISTA não é uma cura para a infeção pelo VIH.
+Os indivíduos que tomam PREZISTA podem continuar a desenvolver infeções ou outras doenças 
+associadas à infeção por VIH. Deve manter um contacto regular com o seu médico.
+Os indivíduos a tomar PREZISTA podem desenvolver uma erupção na pele. Pouco frequentemente 
+uma erupção na pele pode tornar-se grave ou potencialmente fatal. Contacte, por favor, o seu médico 
+sempre que desenvolver uma erupção na pele.
+As erupções na pele (geralmente ligeiras ou moderadas) podem ocorrer mais frequentemente nos 
+doentes a tomar PREZISTA e raltegravir (para infeção por VIH) do que nos doentes a tomar os 
+medicamentos em separado.
+Informe o seu médico sobre a sua situação ANTES e DURANTE o seu tratamento
+Assegure-se que revê os pontos a seguir referidos e informe o seu médico se algum é aplicável à sua 
+situação.
+156
+-
+Informe o seu médico se já teve problemas de fígado, incluindo infeção pelo vírus da hepatite 
+B ou C. O seu médico poderá avaliar o grau de gravidade da sua doença hepática antes de 
+decidir se pode tomar PREZISTA.
+-
+Informe o seu médico se tem diabetes. PREZISTA pode aumentar os níveis de açúcar no 
+sangue.
+-
+Informe imediatamente o seu médico se apresentar quaisquer sintomas de infeção (por 
+exemplo, inchaço dos gânglios linfáticos e febre). Alguns doentes com infeção pelo VIH 
+avançada e antecedentes de uma infeção oportunista, podem desenvolver sinais e sintomas de 
+inflamação resultantes de uma infeção anterior logo após iniciar um tratamento anti-VIH. 
+Pensa-se que estes sintomas são devidos a uma melhoria da resposta imunológica do organismo, 
+que permite ao organismo combater as infeções que se encontrem eventualmente presentes sem 
+sintomas óbvios.
+-
+Adicionalmente às infeções oportunistas, as doenças autoimunes (uma condição que ocorre 
+quando o sistema imunitário ataca tecidos corporais saudáveis) também podem ocorrer depois 
+de começar a tomar os medicamentos para o tratamento da sua infeção pelo VIH. As doenças 
+autoimunes podem ocorrer muitos meses após o início do tratamento. Se notar quaisquer 
+sintomas de infeção ou outros sintomas como fraqueza muscular, fraqueza a começar nas mãos 
+e nos pés e dirigindo-se em direção ao tronco, palpitações, tremores ou hiperatividade, informe 
+o seu médico imediatamente para procurar o tratamento necessário.
+-
+Informe o seu médico se tem hemofilia. PREZISTA pode aumentar o risco de hemorragia.
+-
+Informe o seu médico se é alérgico a sulfonamidas (ex.: utilizadas para tratar certas infeções).
+-
+Informe o seu médico se notar alguns problemas musculoesqueléticos. Alguns doentes que 
+tomam terapêutica antirretroviral combinada podem desenvolver uma doença nos ossos 
+denominada osteonecrose (morte do tecido ósseo causada por uma perda de fornecimento de 
+sangue aos ossos). Alguns dos vários fatores de risco para o desenvolvimento desta doença são 
+a duração da terapêutica antirretroviral combinada, utilização de corticosteroides, consumo de 
+álcool, imunodepressão grave e índice de massa corporal elevado. Os sinais da osteonecrose são 
+rigidez nas articulações, dores (especialmente na anca, joelho e ombro) ou dificuldade nos 
+movimentos. Se notar qualquer destes sintomas, por favor informe o seu médico.
+Idosos
+PREZISTA foi administrado a um número limitado de doentes com idade igual ou superior a 65 anos. 
+Se pertence a este grupo etário, fale com o seu médico para saber se pode utilizar PREZISTA.
+Crianças
+PREZISTA não é para ser tomado por crianças com menos de 3 anos de idade ou com peso inferior a 
+15 quilogramas.
+Outros medicamentos e PREZISTA
+Informe o seu médico se estiver a tomar ou tiver tomado recentemente outros medicamentos.
+Existem alguns medicamentos que não poderá combinar com PREZISTA. Estes são mencionados no 
+título “Não combine PREZISTA com qualquer um dos seguintes medicamentos".
+Na maioria dos casos, PREZISTA pode ser combinado com outros medicamentos anti-VIH, 
+pertencentes a outra classe de medicamentos [por exemplo: NRTIs (análogos dos nucleosídeos 
+inibidores da transcriptase reversa), NNRTIs (análogos não nucleosídeos inibidores da transcriptase 
+reversa), antagonistas dos recetores CCR5 e IFs (inibidores da fusão)]. A associação de PREZISTA 
+com cobicistate ou ritonavir não foi testada com todos os IPs (inibidores da protease) e não deve ser 
+utilizado com outros IPs do VIH. Em alguns casos, pode ser necessário alterar a dose de outros 
+medicamentos. Assim, informe sempre o seu médico se está a tomar outro medicamento anti-VIH e 
+siga cuidadosamente as suas instruções sobre que medicamentos podem ser associados.
+Os efeitos de PREZISTA podem ser reduzidos se utilizar qualquer um dos seguintes medicamentos. 
+Informe o seu médico se está a tomar:
+-
+Fenobarbital, fenitoína (para prevenir convulsões)
+-
+Dexametasona (corticosteroide)
+157
+-
+Efavirenz (infeção pelo VIH)
+-
+Rifapentina, rifabutina (medicamentos para tratamento de algumas infeções como a 
+tuberculose)
+-
+Saquinavir (infeção pelo VIH)
+Os efeitos de outros medicamentos podem ser afetados pelo tratamento com PREZISTA e o seu 
+médico poderá querer fazer algumas análises ao sangue adicionais. Informe o seu médico se está a 
+tomar:
+-
+Amlodipina, diltiazem, disopiramida, carvedilol, felodipina, flecainida, lidocaína, metoprolol, 
+mexiletina, nifedipina, nicardipina, propafenona, timolol, verapamilo (para doenças do 
+coração), uma vez que o efeito terapêutico ou os efeitos indesejáveis destes medicamentos 
+podem ser aumentados.
+-
+Apixabano, dabigatrano etexilato, edoxabano, rivaroxabano, varfarina, clopidogrel (para 
+reduzir a coagulação do sangue), uma vez que o efeito terapêutico ou os efeitos indesejáveis
+deste medicamento podem estar alterados.
+-
+Contracetivos orais à base de estrogénios e terapêutica hormonal de substituição. PREZISTA 
+pode reduzir a sua eficácia. Quando utilizado para controlo da natalidade são recomendados 
+métodos contracetivos não hormonais alternativos.
+-
+Etinilestradiol/drospirenona. PREZISTA pode aumentar o risco de níveis elevados de potássio 
+causados pela drospirenona.
+-
+Atorvastatina, pravastatina, rosuvastatina (para baixar os níveis de colesterol). Pode 
+observar-se um aumento do risco de dano muscular. O seu médico avaliará qual o regime mais 
+adequado para baixar os níveis de colesterol para a sua situação específica.
+-
+Claritromicina (antibiótico).
+-
+Ciclosporina, everolímus, tacrolímus, sirolímus (para diminuir a ação do seu sistema 
+imunológico) uma vez que o efeito terapêutico ou os efeitos indesejáveis destes medicamentos 
+podem ser aumentados.
+-
+Corticosteroides incluindo betametasona, budesonida, fluticasona, mometasona, prednisona, 
+triamcinolona. Estes medicamentos são utilizados para tratar alergias, asma, doenças 
+inflamatórias intestinais, condições inflamatórias da pele, dos olhos, articulações e músculos e 
+outras condições inflamatórias. Estes medicamentos são, habitualmente, tomados por via oral, 
+inalados, injetados ou aplicados na pele. Se não puderem ser utilizadas alternativas, a sua 
+utilização só pode ocorrer após avaliação médica e sob monitorização cuidada por parte do seu 
+médico relativamente a efeitos indesejáveis dos corticosteroides.
+-
+Buprenorfina/naloxona (medicamentos para tratamento da dependência de opioides)
+-
+Salmeterol (medicamento para tratar a asma)
+-
+Arteméter/lumefantrina (uma combinação de medicamentos para o tratamento da malária)
+-
+Dasatinib, everolímus, irinotecano, nilotinib, vinblastina, vincristina (para tratamento do 
+cancro)
+-
+Sildenafil, tadalafil, vardenafil (para a disfunção erétil ou para tratar um problema do coração e 
+pulmões chamado hipertensão arterial pulmonar)
+-
+Glecaprevir/pibrentasvir (para tratar a infeção pelo vírus da hepatite C)
+-
+Fentanilo, oxicodona, tramadol (para tratamento da dor)
+-
+Fesoterodina, solifenacina (para tratamento de distúrbios urológicos).
+O seu médico poderá querer fazer algumas análises ao sangue adicionais e poderá ser necessário 
+alterar a dose de outros medicamentos, uma vez que os efeitos terapêuticos ou os efeitos indesejáveis
+destes medicamentos ou de PREZISTA podem ser influenciados quando associados. Informe o seu 
+médico se está a utilizar:
+-
+Dabigatrano etexilato, edoxabano, varfarina (para diminuir a coagulação do sangue)
+-
+Alfentanilo (analgésico injetável forte e de curta duração utilizado em procedimentos cirúrgicos)
+-
+Digoxina (para tratar certas doenças do coração)
+-
+Claritromicina (antibiótico)
+-
+Itraconazol, isavuconazol, fluconazol, posaconazol, clotrimazol (para tratar infeções fúngicas). 
+O voriconazol deve apenas ser tomado após avaliação clínica.
+-
+Rifabutina (contra infeções bacterianas)
+158
+-
+Sildenafil, vardenafil, tadalafil (para a disfunção erétil ou pressão arterial elevada na circulação 
+pulmonar)
+-
+Amitriptilina, desipramina, imipramina, nortriptilina, paroxetina, sertralina, trazodona (para 
+tratamento da depressão e ansiedade)
+-
+Maraviroc (para tratar a infeção pelo VIH)
+-
+Metadona (para tratar a dependência opioide)
+-
+Carbamazepina, clonazepam (para prevenir as convulsões ou para o tratamento de certos tipos 
+de dor no nervo)
+-
+Colquicina (para tratar a gota ou febre Mediterrânica familiar)
+-
+Bosentano (para tratar a pressão arterial elevada na circulação pulmonar)
+-
+Buspirona, clorazepato, diazepam, estazolam, flurazepam, midazolam quando usado sob a 
+forma de injeção, zolpidem (agentes sedativos)
+-
+Perfenazina, risperidona, tioridazina (para tratar condições psiquiátricas)
+-
+Metformina (para tratar a diabetes tipo 2).
+Esta não é uma lista completa de medicamentos. Informe o seu médico sobre todos os medicamentos 
+que está a tomar.
+PREZISTA com alimentos e bebidas
+Ver a secção 3 “Como tomar PREZISTA".
+Gravidez e amamentação
+Informe imediatamente o seu médico se está grávida ou se planeia engravidar. As mulheres grávidas 
+não devem tomar PREZISTA com ritonavir, a não ser se especificamente recomendado pelo médico.
+As mulheres grávidas não devem tomar PREZISTA com cobicistate.
+Devido ao potencial de efeitos indesejáveis em lactentes amamentados, as mulheres não devem 
+amamentar se estiverem a ser tratadas com PREZISTA.
+A amamentação não é recomendada em mulheres que vivem com VIH porque a infeção pelo VIH 
+pode passar para o bebé através do leite materno. Se está a amamentar ou pensa em amamentar, 
+deverá, assim que possível, aconselhar-se com o seu médico.
+Condução de veículos e utilização de máquinas
+Não conduza nem utilize quaisquer máquinas caso sinta tonturas após tomar PREZISTA.
+PREZISTA suspensão oral contém para-hidroxibenzoato de metilo sódico. Este ingrediente pode 
+causar reações alérgicas (por vezes retardadas).
+PREZISTA contém sódio
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por ml, ou seja, é praticamente
+“isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar prezista"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar prezista"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como está descrito neste folheto, ou conforme indicado pelo seu 
+médico, farmacêutico ou enfermeiro. Fale com o seu médico, farmacêutico ou enfermeiro se tiver 
+dúvidas.
+Mesmo que se sinta melhor, não deixe de tomar PREZISTA e cobicistate ou ritonavir sem falar com o 
+seu médico.
+Após o tratamento ter sido iniciado, a dose ou a forma de apresentação não devem ser alteradas ou o 
+tratamento não deve ser interrompido sem indicação do seu médico.
+159
+Dose para crianças com idade igual ou superior a 3 anos que pesem, pelo menos, 15 quilogramas
+e que ainda não tenham tomado medicamentos antirretrovirais anteriormente (o médico da sua 
+criança irá determinar isto)
+O médico irá determinar qual a dose correta a administrar uma vez por dia com base no peso e idade 
+da criança (ver tabela abaixo). Esta dose não deve exceder a dose recomendada para o adulto, que é de 
+800 miligramas de PREZISTA em associação com 150 miligramas de cobicistate ou 100 miligramas 
+de ritonavir, uma vez por dia.
+O médico informá-lo-á de quanto PREZISTA suspensão oral e qual a quantidade de cobicistate
+(comprimido) ou ritonavir (cápsulas, comprimidos ou solução) que a criança deverá tomar.
+Peso corporal:
+Uma dose de 
+PREZISTA é
+Uma dose de ritonavira
+é
+Uma dose de 
+cobicistate é
+entre 15 e 
+30 quilogramas
+600 miligramas 
+(6 mililitros) 
+100 miligramas 
+(1,2 mililitros)
+Não tomar
+entre 30 e 
+40 quilogramas
+675 miligramas 
+(6,8 mililitros)
+100 miligramas 
+(1,2 mililitros)
+Não tomar
+mais de 
+40 quilogramas
+800 miligramas 
+(8 mililitros)
+100 miligramas 
+(1,2 mililitros)
+150 miligramasb
+a
+solução oral de ritonavir: 80 miligramas por mililitro
+b
+a criança tem de ter idade igual ou superior a 12 anos
+A criança deve tomar PREZISTA todos os dias e sempre em combinação com 150 miligramas de 
+cobicistate ou 100 miligramas de ritonavir e com alimentos. PREZISTA não atua adequadamente sem 
+cobicistate ou ritonavir e sem alimentos. A criança deverá comer uma refeição ou um lanche nos minutos antes de tomar PREZISTA e cobicistate ou ritonavir. O tipo de alimentos não é importante.
+O médico da sua criança irá determinar se a sua criança deve tomar PREZISTA com cobicistate ou
+ritonavir.
+Dose para crianças com idade igual ou superior a 3 anos de idade, que pesem, pelo menos,
+15 quilogramas e que já tenham tomado medicamentos antirretrovirais anteriormente (o médico 
+da sua criança irá determinar isto)
+O médico irá determinar qual a dose correta com base no peso e idade da criança (ver tabela abaixo). 
+O médico irá determinar qual a dose mais apropriada para a criança, se uma vez por dia, se duas vezes 
+por dia. Esta dose não deve exceder a dose recomendada para o adulto, que é de 600 miligramas de 
+PREZISTA em associação com 100 miligramas de ritonavir, duas vezes por dia ou 800 miligramas de 
+PREZISTA em associação com 150 miligramas de cobicistate ou 100 miligramas de ritonavir, uma 
+vez por dia.
+O médico informá-lo-á de quanto PREZISTA suspensão oral e qual a quantidade de cobicistate
+(comprimido) ou ritonavir (cápsulas, comprimidos ou solução) que a criança deverá tomar.
+Dose duas vezes por dia
+Peso corporal:
+Uma dose de PREZISTA é
+Uma dose de ritonavira é
+entre 15 e 30 quilogramas
+380 miligramas (3,8 mililitros)
+50 miligramas (0,6 mililitros)
+entre 30 e 40 quilogramas
+460 miligramas (4,6 mililitros)
+60 miligramas (0,8 mililitros)
+mais de 40 quilogramas
+600 miligramas (6 mililitros)
+100 miligramas (1,2 mililitros)
+a
+solução oral de ritonavir: 80 miligramas por mililitro
+Dose uma vez por dia
+Peso corporal:
+Uma dose de PREZISTA 
+é
+Uma dose de ritonavira
+é
+Uma dose de 
+cobicistate é
+entre 15 e 
+30 quilogramas
+600 miligramas 
+(6 mililitros)
+100 miligramas 
+(1,2 mililitros)
+Não tomar
+entre 30 e 
+40 quilogramas
+675 miligramas
+(6,8 mililitros)
+100 miligramas 
+(1,2 mililitros)
+Não tomar
+mais de 
+40 quilogramas
+800 miligramas 
+(8 mililitros)
+100 miligramas 
+(1,2 mililitros)
+150 miligramasb
+160
+a
+solução oral de ritonavir: 80 miligramas por mililitro
+b
+a criança tem de ter idade igual ou superior a 12 anos
+Instruções para crianças
+-
+A criança tem de tomar sempre PREZISTA em conjunto com cobicistate ou ritonavir. 
+PREZISTA não atua adequadamente sem cobicistate ou ritonavir.
+-
+A criança deve tomar as doses apropriadas de PREZISTA e ritonavir, duas vezes por dia ou uma 
+vez por dia ou PREZISTA e cobicistate, uma vez por dia. Se PREZISTA for receitado duas 
+vezes por dia, a criança deve tomar uma dose de manhã e uma dose ao final da tarde. O médico 
+da sua criança irá determinar qual o melhor regime de administração da dose.
+-
+A criança deve tomar PREZISTA com alimentos. PREZISTA não atua adequadamente sem 
+alimentos. O tipo de alimento não é importante.
+Dose para os adultos que não tenham tomado anteriormente medicamentos antirretrovirais (o 
+seu médico determinará se é aplicável no seu caso)
+A dose habitual de PREZISTA é 800 miligramas, uma vez por dia.
+PREZISTA deve ser tomado todos os dias e sempre em combinação com 150 miligramas de 
+cobicistate ou 100 miligramas de ritonavir e com alimentos. PREZISTA não atua adequadamente sem 
+cobicistate ou ritonavir e sem alimentos. Deverá comer uma refeição ou um lanche até 30 minutos 
+antes de tomar PREZISTA e cobicistate ou ritonavir. O tipo de alimentos não é importante. Mesmo 
+que se sinta melhor, não deixe de tomar PREZISTA e cobicistate ou ritonavir sem falar com o seu 
+médico.
+Dose para os adultos que tenham tomado anteriormente medicamentos antirretrovirais (o seu 
+médico determinará se é aplicável no seu caso)
+A dose é:
+-
+600 miligramas de PREZISTA em conjunto com 100 miligramas de ritonavir, duas vezes por 
+dia.
+OU
+-
+800 miligramas de PREZISTA em conjunto com 150 miligramas de cobicistate ou
+100 miligramas de ritonavir uma vez por dia.
+Discuta com o seu médico qual a dose mais indicada para si.
+Instruções para os adultos
+-
+Tome sempre PREZISTA em conjunto com cobicistate ou ritonavir. PREZISTA não atua 
+adequadamente sem cobicistate ou ritonavir.
+-
+Tome PREZISTA com alimentos. PREZISTA não atua adequadamente sem alimentos. O tipo 
+de alimentos não é importante.
+Instruções de utilização
+Use a pipeta doseadora fornecida com a embalagem para medir adequadamente a dose:
+1. Agite vigorosamente o frasco antes de cada utilização.
+2. Abra o frasco de PREZISTA suspensão oral empurrando o fecho com rosca de plástico para 
+baixo, enquanto o roda no sentido contrário dos ponteiros do relógio.
+3. Insira a pipeta doseadora no frasco.
+4. Puxe o êmbolo até à linha que corresponde a dose prescrita pelo seu médico.
+161
+5. Tome a dose de PREZISTA. Coloque a ponta da pipeta doseadora na boca. Pressione o êmbolo 
+da pipeta dentro da boca, e de seguida, engula.
+6. Após a utilização, feche o frasco com a tampa e conserve PREZISTA suspensão oral conforme 
+indicado na secção 5. 7.
+Após cada utilização, remova o êmbolo da pipeta, e lave com água deixando secar ao ar.
+8.
+Após a secagem, coloque a pipeta doseadora novamente na embalagem juntamente com o frasco 
+de PREZISTA.
+A pipeta doseadora fornecida não deve ser utilizada noutros medicamentos.
+Se tomar mais PREZISTA do que deveria
+Contacte imediatamente o seu médico, farmacêutico ou enfermeiro.
+Caso se tenha esquecido de tomar PREZISTA
+Caso tome PREZISTA duas vezes por dia e se recorde no período de 6 horas deverá tomar a 
+suspensão oral imediatamente. Tome sempre o medicamento com ritonavir e com alimentos. Caso se 
+recorde após 6 horas, não tome a dose que se esqueceu e tome as doses seguintes conforme habitual. 
+Não tome uma dose a dobrar para compensar a dose que se esqueceu de tomar.
+Caso tome PREZISTA uma vez por dia e se recorde no período de 12 horas deverá tomar a 
+suspensão oral imediatamente. Tome sempre o medicamento com cobicistate ou ritonavir e com 
+alimentos. Caso se recorde após 12 horas, não tome a dose que se esqueceu e tome as doses seguintes 
+conforme habitual. Não tome uma dose a dobrar para compensar a dose que se esqueceu de tomar.
+Se vomitar após tomar PREZISTA e cobicistate ou ritonavir
+Se vomitar dentro de 4 horas após a toma do medicamento, deve ser tomada outra dose de 
+PREZISTA e cobicistate ou ritonavir, com alimentos, logo que possível. Se vomitar mais de 4 horas
+após a toma do medicamento, não necessita de tomar outra dose de PREZISTA com cobicistate ou 
+ritonavir até à próxima dose programada. 
+Contacte o seu médico se não tiver a certeza do que fazer, caso se tenha esquecido de tomar uma 
+dose ou se vomitar.
+Não pare de tomar PREZISTA sem falar previamente com o seu médico
+Os medicamentos anti-VIH podem fazê-lo sentir-se melhor. Não deixe de tomar PREZISTA mesmo 
+que se sinta melhor. Fale primeiro com o seu médico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Durante a terapêutica para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no 
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos 
+lípidos no sangue, por vezes aos próprios medicamentos para o VIH. O seu médico irá realizar testes 
+para determinar estas alterações.
+Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Informe o seu médico se desenvolver qualquer dos seguintes efeitos indesejáveis
+Foram notificados problemas de fígado que podem ocasionalmente ser graves. Antes de iniciar
+PREZISTA, o seu médico deverá pedir-lhe análises ao sangue. Se tiver infeção crónica por hepatite B 
+ou C, o seu médico irá pedir-lhe análises ao sangue mais frequentemente, visto que tem uma 
+probabilidade mais elevada de desenvolver problemas de fígado. Fale com o seu médico acerca dos 
+sinais e sintomas dos problemas de fígado. Estes podem incluir coloração amarelada da pele ou da 
+162
+zona branca dos olhos, urina escurecida (da cor do chá), fezes de cor clara (movimentos dos 
+intestinos), náuseas, vómitos, perda de apetite, ou dor, sensação dolorosa ou dor e desconforto do lado 
+direito por baixo das costelas.
+Erupção na pele (mais frequentemente quando usado em associação com raltegravir), comichão. A 
+erupção na pele é geralmente ligeira a moderada. A erupção na pele pode também ser um sintoma de 
+uma situação rara grave. É importante falar com o seu médico se desenvolver erupção na pele. O seu 
+médico irá aconselhar sobre como lidar com os seus sintomas ou se deve interromper o tratamento
+com PREZISTA.
+Outros efeitos indesejáveis graves incluem a diabetes (frequente) e inflamação do pâncreas (pouco 
+frequente).
+Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 utilizadores)
+-
+diarreia.
+Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 utilizadores)
+-
+vómitos, náuseas, dor ou distensão abdominal, má digestão, gases
+-
+dor de cabeça, cansaço, tonturas, sonolência, dormência, formigueiro ou dor nas mãos ou pés, 
+falta de força, dificuldade em adormecer
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 utilizadores)
+-
+dor no peito, alterações no eletrocardiograma, batimento rápido do coração
+-
+sensibilidade da pele diminuída ou anormal, sensação de picadas, falta de atenção, perda de 
+memória, problemas com o seu equilíbrio
+-
+dificuldade em respirar, tosse, hemorragia no nariz, irritação da garganta
+-
+inflamação do estômago ou boca, azia, ânsia de vomitar, boca seca, desconforto do abdómen, 
+prisão de ventre, arroto
+-
+insuficiência renal, pedras (cálculos) no rim, dificuldade em urinar, passagem frequente ou 
+excessiva de urina, às vezes de noite
+-
+urticária, inchaço grave da pele e outros tecidos (mais frequentemente dos lábios ou dos olhos), 
+eczema, transpiração excessiva, suores noturnos, perda de cabelo, acne, pele descamativa, 
+coloração das unhas
+-
+dor muscular, cãibras ou fraqueza muscular, dor nas extremidades, osteoporose
+-
+diminuição da função da glândula tiroideia. Isto pode ser visualizado nas análises sanguíneas.
+-
+pressão arterial elevada, vermelhidão
+-
+olhos vermelhos ou secos
+-
+febre, inchaço dos membros inferiores devido a retenção de fluidos, mal-estar, irritabilidade, dor
+-
+sintomas de infeção, herpes simplex
+-
+disfunção erétil, aumento mamário
+-
+problemas do sono, sonolência, depressão, ansiedade, sonhos anormais, diminuição do desejo 
+sexual
+Efeitos indesejáveis raros (podem afetar até 1 em cada 1.000 utilizadores)
+-
+reação chamada DRESS [erupção grave na pele, que pode ser acompanhada de febre, cansaço, 
+inchaço da face ou gânglios linfáticos, aumento dos eosinófilos (um tipo de glóbulos brancos), 
+efeitos no fígado, rins ou pulmões]
+-
+ataque cardíaco, batimento lento do coração, palpitações
+-
+perturbação visual
+-
+arrepios, sensação anormal
+-
+sensação de confusão ou desorientação, alteração do humor, agitação
+-
+desmaio, convulsões epiléticas, alterações ou perda de paladar
+-
+úlceras na boca, vomitar sangue, inflamação dos lábios, lábios secos, língua saburrosa
+-
+corrimento nasal
+-
+lesões na pele, pele seca
+-
+rigidez nos músculos ou articulações, dor nas articulações com ou sem inflamação
+163
+-
+alterações em determinados valores bioquímicos ou das suas células sanguíneas. Estas podem 
+ser observadas nos resultados das análises ao sangue e/ou urina. O seu médico irá explicá-las. 
+Exemplos incluem o aumento de alguns glóbulos brancos
+-
+cristais de darunavir no rim, provocando doença renal.
+Alguns efeitos indesejáveis são típicos de medicamentos anti-VIH da mesma família que PREZISTA. 
+Estes são:
+-
+dor, sensibilidade ou fraqueza muscular. Em casos raros, estas perturbações musculares foram 
+graves.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar prezista"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar prezista"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado.
+Conservar a temperatura inferior a 30°C.
+Não refrigerar ou congelar. Evitar a exposição excessiva ao calor.
+Conservar na embalagem de origem.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de PREZISTA</h2>
+<p>A substância ativa é darunavir. Cada mililitro contém 100 miligramas de darunavir (sob a forma 
+de etanolato).
+-
+Os outros componentes são hidroxipropilcelulose, celulose microcristalina e carmelose sódica, 
+ácido cítrico monohidratado, sucralose, aroma de morango, corretor de sabor, para-
+hidroxibenzoato de metilo sódico (E219), ácido clorídrico (para ajuste do pH) e água purificada.
+Qual o aspeto de PREZISTA e conteúdo da embalagem
+Suspensão oral esbranquiçada opaca. Frasco de vidro de cor âmbar multidose para 200 ml de 
+suspensão, com fecho de polipropileno resistente à abertura por crianças e com uma pipeta doseadora 
+de 6 ml, graduada em 0,2 ml, de polietileno de baixa densidade (LDPE). A parte superior do frasco é 
+preenchida por uma inserção de polietileno de baixa densidade (LDPE), que acomoda a pipeta 
+doseadora. A pipeta doseadora fornecida não deve ser utilizada noutros medicamentos.
+PREZISTA está também disponível nas dosagens de 75 miligramas, 150 miligramas, 400 miligramas,
+600 miligramas e 800 miligramas na forma de comprimidos revestidos por película.
+Titular da Autorização de Introdução no Mercado
+Janssen-Cilag International NV, Turnhoutseweg 30, B-2340 Beerse, Bélgica
+Fabricante
+Janssen-Cilag International NV, Turnhoutseweg 30, B-2340 Beerse, Bélgica
+164
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+165
+Ireland
+Janssen Sciences Ireland UC
+Tel: +353 1 800 709 122
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+Este folheto foi revisto pela última vez em MM/AAAA
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1561,6 +2388,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c73255ba16f112f8e9f93b50083ae06f"
 * entry[0].resource = composition-da-c73255ba16f112f8e9f93b50083ae06f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc73255ba16f112f8e9f93b50083ae06f"
+* entry[=].resource = mpc73255ba16f112f8e9f93b50083ae06f
+                            
+                    
+Instance: bundlepackageleaflet-pt-c73255ba16f112f8e9f93b50083ae06f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for prezista Package Leaflet for language pt"
+Description: "ePI document Bundle for prezista Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c73255ba16f112f8e9f93b50083ae06f"
+* entry[0].resource = composition-pt-c73255ba16f112f8e9f93b50083ae06f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc73255ba16f112f8e9f93b50083ae06f"
@@ -1662,6 +2511,18 @@ RuleSet: c73255ba16f112f8e9f93b50083ae06fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c73255ba16f112f8e9f93b50083ae06f) // prezista pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -827,6 +827,418 @@ Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale
 
 
 
+Instance: composition-pt-e8b67f07b418969c3e83d3aef06331ab
+InstanceOf: CompositionUvEpi
+Title: "Composition for qarziba Package Leaflet"
+Description:  "Composition for qarziba Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe8b67f07b418969c3e83d3aef06331ab)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - qarziba"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Qarziba e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Qarziba </li>
+<li>Como utilizar Qarziba </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Qarziba </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é qarziba e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é qarziba e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qarziba contém dinutuximab beta, que pertence a um grupo de medicamentos chamados anticorpos 
+monoclonais. São proteínas que reconhecem e se ligam especificamente a outras proteínas únicas no 
+organismo. Dinutuximab beta liga-se a uma molécula chamada disialogangliosídeo 2 (GD2), que está 
+presente nas células tumorais, ativando o sistema imunitário do organismo e fazendo com que ele ataque 
+estas células. </p>
+<p>Qarziba é utilizado para tratar neuroblastoma com alto risco de reaparecimento após uma série de 
+tratamentos, incluindo um transplante de células estaminais para restaurar o sistema imunitário. É 
+também utilizado no tratamento de neuroblastoma que reapareceu (recidivante) ou que não foi 
+completamente tratado com as terapêuticas anteriores. </p>
+<p>Antes do tratamento de um neuroblastoma recidivante, o seu médico assistente irá estabilizar qualquer 
+doença em progressão ativa com outras medidas adequadas. </p>
+<p>O seu médico irá decidir se a administração simultânea de um segundo medicamento, a interleucina-2, 
+é necessária para o tratamento do seu cancro. </p>
+<p>O neuroblastoma é um tipo de cancro que cresce a partir de células anormais dos nervos no organismo, 
+em particular nas glândulas que se encontram acima dos rins. É um dos cancros mais comuns na 
+infância. </p>
+<p>É utilizado em doentes com idades iguais ou superiores a 12 meses. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar qarziba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar qarziba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Qarziba </p>
+<ul>
+<li>
+<p>se tem alergia ao dinutuximab beta ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </p>
+</li>
+<li>
+<p>se tem doença do enxerto contra hospedeiro aguda de grau 3 ou 4, ou extensa e de longa 
+duração. 
+Esta doença é uma reação na qual as células do tecido transplantado atacam as células do 
+recetor do enxerto. </p>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico antes de utilizar Qarziba. </p>
+<p>Antes de ser tratado com Qarziba, irá fazer análises ao sangue para verificar o funcionamento do seu 
+fígado, pulmões, rins e medula óssea. </p>
+<p>Poderá notar os seguintes efeitos quando lhe for administrado Qarziba pela primeira vez e durante o 
+ciclo de tratamento: </p>
+<ul>
+<li>
+<p>Dor 
+A dor é um dos efeitos indesejáveis mais frequentes de Qarziba. Normalmente, ocorre no início 
+da perfusão. Por conseguinte, o seu médico irá dar-lhe um tratamento adequado para a dor, que 
+irá começar 3 dias antes e durante a utilização de Qarziba. </p>
+</li>
+<li>
+<p>Reações alérgicas ou outras reações relacionadas com a perfusão 
+Informe o seu médico ou enfermeiro se apresentar qualquer tipo de reação durante ou após a 
+perfusão, tal como: </p>
+</li>
+<li>febre, arrepios e/ou tensão arterial baixa </li>
+<li>dificuldade em respirar </li>
+<li>
+<p>erupção na pele , urticária. 
+Irá receber tratamento adequado para evitar estas reações e será cuidadosamente monitorizado 
+em relação a estes sintomas durante a perfusão de Qarziba. </p>
+</li>
+<li>
+<p>Fuga dos vasos sanguíneos mais pequenos (síndrome de transudação capilar) 
+A fuga de componentes do sangue dos vasos sanguíneos mais pequenos pode provocar inchaço 
+rápido nos braços, pernas e outras partes do corpo. Queda rápida na tensão arterial, tonturas e 
+dificuldade em respirar são sinais adicionais. </p>
+</li>
+<li>
+<p>Problemas nos olhos 
+Pode notar alterações da sua visão. </p>
+</li>
+<li>
+<p>Problemas com os seus nervos 
+Pode sentir dormência, formigueiro ou ardor nas mãos, pés, pernas ou braços, sensibilidade 
+reduzida ou fraqueza motora. </p>
+</li>
+<li>
+<p>Problemas na medula espinal e no cérebro (sistema nervoso central, SNC) 
+Informe o seu médico ou enfermeiro se tiver qualquer tipo de sintomas do SNC, tais como: 
+déficit neurológico substancial prolongado sem razão aparente, tal como fraqueza muscular ou 
+perda de força muscular nas pernas (ou braços) ou problemas de mobilidade ou sensações 
+invulgares e dormência. Uma dor de cabeça persistente ou de aparecimento súbito ou perda 
+progressiva de memória e de capacidade cognitiva, alterações de personalidade subtis, 
+incapacidade de se concentrar, letargia e perda de consciência progressiva </p>
+</li>
+</ul>
+<p>Contacte imediatamente o médico se tiver qualquer um destes sintomas. </p>
+<p>O seu médico poderá decidir parar o seu tratamento se tiver qualquer um dos problemas mencionados 
+aqui. Em alguns casos, o seu tratamento poderá ser reiniciado após um intervalo ou com uma 
+velocidade mais lenta, mas por vezes, poderá ter de ser totalmente cessado. </p>
+<p>O seu médico irá pedir a realização de análises ao sangue e pode fazer-lhe exames aos olhos enquanto 
+estiver a tomar este medicamento. </p>
+<p>Crianças </p>
+<p>Este medicamento não deve ser administrado a crianças com menos de 12 meses de idade, dado que 
+não existe experiência suficiente neste grupo etário. </p>
+<p>Outros medicamentos e Qarziba </p>
+<p>Informe o seu médico se estiver a utilizar, tiver utilizado recentemente, ou se vier a utilizar outros 
+medicamentos. </p>
+<p>Não utilize medicamentos que deprimam o sistema imunitário a partir das 2 semanas anteriores à 
+primeira dose de Qarziba e até 1 semana após o último ciclo de tratamento, a menos que sejam 
+receitados pelo seu médico. Exemplos de medicamentos que deprimem o sistema imunitário são os 
+corticosteroides utilizados para reduzir a inflamação ou evitar a rejeição de órgãos transplantados. </p>
+<p>Evite a vacinação durante o tratamento com Qarziba e nas 10 semanas seguintes. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de receber o tratamento. </p>
+<p>Fale com o seu médico antes de receber Qarziba se estiver em idade fértil. Recomenda-se a utilização 
+de métodos contracetivos durante 6 meses após a interrupção do tratamento com Qarziba. Só poderá 
+utilizar Qarziba se o seu médico avaliar que os benefícios são superiores aos riscos para o feto. </p>
+<p>Informe o seu médico se estiver a amamentar. Não deverá amamentar durante o tratamento com 
+Qarziba e durante 6 meses após a última dose. Desconhece-se se o medicamento pode passar para o 
+leite materno. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Qarziba apresenta diversos efeitos indesejáveis que podem afetar a sua capacidade para conduzir e 
+utilizar máquinas. Não realize estas atividades se a sua capacidade de concentração e reação for 
+afetada. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar qarziba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar qarziba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Um médico com experiência na utilização de medicamentos para tratamento do cancro irá supervisionar 
+o seu tratamento. Ser-lhe-á administrado por um médico ou enfermeiro enquanto estiver no hospital. É 
+administrado numa das suas veias (perfusão intravenosa) utilizando tubos especiais (cateteres) e uma 
+bomba. Durante e após a perfusão, será avaliado regularmente em relação a efeitos indesejáveis 
+relacionados com a perfusão. </p>
+<p>Qarziba ser-lhe-á administrado em cinco ciclos de tratamento de 35 dias, e a perfusão durará 5 ou dias no início de cada ciclo. A dose recomendada é de 100 mg de dinutuximab beta por metro 
+quadrado de superfície corporal por ciclo de tratamento. O médico calculará a sua área de superfície 
+corporal através da sua altura e peso. </p>
+<p>Se o seu médico considerar a administração de interleucina-2 ao mesmo tempo, esta será administrada 
+duas vezes, por injeção sob a pele, cada vez por 5 dias consecutivos (antes e durante o tratamento com 
+Qarziba). </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Fale imediatamente com o seu médico ou enfermeiro se notar algum dos seguintes efeitos: 
+Muito frequentes (podem afetar mais de 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>inchaço rápido de braços, pernas e outras partes do corpo, queda rápida da tensão arterial, 
+tonturas e dificuldade em respirar (síndrome de transudação capilar) </p>
+</li>
+<li>
+<p>dor no estômago, garganta, peito, rosto, mãos, pés, pernas, braços, costas, pescoço, articulações 
+ou músculos </p>
+</li>
+<li>
+<p>reações alérgicas e síndrome de libertação de citocinas com sintomas tais como inchaço da face 
+ou da garganta, dificuldade em respirar, tonturas, urticária, batimento cardíaco rápido ou 
+percetível, tensão arterial baixa, erupção cutânea, febre ou náuseas. </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis e suas frequências incluem: 
+Muito frequentes (podem afetar mais de 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>febre, arrepios </p>
+</li>
+<li>
+<p>vómitos, diarreia, obstipação (prisão de ventre) </p>
+</li>
+<li>
+<p>inflamação da boca e lábios (estomatite) </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>comichão, erupção cutânea </p>
+</li>
+<li>
+<p>tensão arterial baixa, ritmo cardíaco aumentado </p>
+</li>
+<li>
+<p>deficiência de oxigénio </p>
+</li>
+<li>
+<p>inchaço dos tecidos (na face, lábios, à volta dos olhos, nos membros inferiores) </p>
+</li>
+<li>
+<p>aumento de peso </p>
+</li>
+<li>
+<p>infeção, nomeadamente infeção associada ao cateter de administração do medicamento </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>pupilas dilatadas ou reações anómalas da pupila </p>
+</li>
+<li>
+<p>valores anormais nas análises de sangue ou urina (células ou outros componentes sanguíneos, 
+função hepática, função renal) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>infeção potencialmente fatal (sépsis) </p>
+</li>
+<li>
+<p>convulsões </p>
+</li>
+<li>
+<p>agitação, ansiedade </p>
+</li>
+<li>
+<p>doença dos nervos nos braços e/ou pernas (com sensibilidade anómala ou fraqueza), tonturas, 
+tremores, espasmos musculares </p>
+</li>
+<li>
+<p>paralisia dos músculos dos olhos, visão turva, sensibilidade à luz, inchaço da retina </p>
+</li>
+<li>
+<p>tensão arterial alta </p>
+</li>
+<li>
+<p>insuficiência cardíaca, líquido em redor do coração </p>
+</li>
+<li>
+<p>insuficiência respiratória, líquido nos pulmões </p>
+</li>
+<li>
+<p>aperto súbito das vias aéreas (broncospasmo, laringospasmo), respiração rápida </p>
+</li>
+<li>
+<p>diminuição de apetite, náuseas, distensão abdominal, acumulação de líquido na cavidade 
+abdominal </p>
+</li>
+<li>
+<p>reações no local da injeção, problemas de pele como vermelhidão, pele seca, eczema, 
+transpiração excessiva, reação à luz </p>
+</li>
+<li>
+<p>incapacidade de urinar ou urinar um volume muito reduzido </p>
+</li>
+<li>
+<p>diminuição de peso, perda de líquidos (desidratação) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas): </p>
+<ul>
+<li>
+<p>choque por diminuição do volume de líquidos corporais </p>
+</li>
+<li>
+<p>formação de coágulos sanguíneos nos pequenos vasos sanguíneos (coagulação intravascular 
+disseminada) </p>
+</li>
+<li>
+<p>um tipo de alergia (doença do soro) com febre, erupção cutânea, inflamação das articulações </p>
+</li>
+<li>
+<p>um distúrbio cerebral caracterizado por dor de cabeça, confusão, convulsões e perda de visão 
+(síndrome de encefalopatia posterior reversível) </p>
+</li>
+<li>
+<p>inflamação do intestino, lesão no fígado </p>
+</li>
+<li>
+<p>insuficiência renal </p>
+</li>
+<li>
+<p>uma doença na qual algumas das pequenas veias do fígado ficam obstruídas (doença 
+veno-oclusiva) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar qarziba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar qarziba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C). Manter o frasco para injetáveis dentro da embalagem exterior 
+para proteger da luz. </p>
+<p>Qarziba destina-se a ser utilizado imediatamente depois de aberto. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Qarziba </p>
+<ul>
+<li>
+<p>A substância ativa é dinutuximab beta. 
+1 ml de concentrado contém 4,5 mg de dinutuximab beta. Cada frasco para injetáveis contém mg de dinutuximab beta em 4,5 ml. </p>
+</li>
+<li>
+<p>Os outros componentes são histidina, sacarose, polissorbato 20, água para preparações 
+injetáveis, ácido clorídrico (para ajuste do pH). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Qarziba e conteúdo da embalagem </p>
+<p>Qarziba é um líquido incolor a ligeiramente amarelado, fornecido num frasco de vidro transparente 
+com uma rolha de borracha e selo de alumínio. 
+Cada embalagem contém 1 frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<ul>
+<li>
+<p>Titular da Autorização de Introdução no Mercado 
+Recordati Netherlands B.V. 
+Beechavenue 54, 
+1119PW Schiphol-Rijk 
+Países Baixos </p>
+</li>
+<li>
+<p>Fabricante 
+Millmount Healthcare Ltd 
+Block 7, City North Business Campus 
+Stamullen, Co. Meath 
+K32 YDIrlanda </p>
+</li>
+</ul>
+<p>Patheon Italia S.P.A. 
+Via Morolense, 
+5 - 03013 Ferentino 
+Itália </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -868,6 +1280,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-e8b67f07b418969c3e83d3aef06331ab"
 * entry[0].resource = composition-da-e8b67f07b418969c3e83d3aef06331ab
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe8b67f07b418969c3e83d3aef06331ab"
+* entry[=].resource = mpe8b67f07b418969c3e83d3aef06331ab
+                            
+                    
+Instance: bundlepackageleaflet-pt-e8b67f07b418969c3e83d3aef06331ab
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for qarziba Package Leaflet for language pt"
+Description: "ePI document Bundle for qarziba Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-e8b67f07b418969c3e83d3aef06331ab"
+* entry[0].resource = composition-pt-e8b67f07b418969c3e83d3aef06331ab
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpe8b67f07b418969c3e83d3aef06331ab"
@@ -969,6 +1403,18 @@ RuleSet: e8b67f07b418969c3e83d3aef06331abListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-e8b67f07b418969c3e83d3aef06331ab) // qarziba pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

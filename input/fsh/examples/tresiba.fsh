@@ -1221,6 +1221,568 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>       
 
 
 
+Instance: composition-pt-fab5fa92013ddb0c611232569286ddbb
+InstanceOf: CompositionUvEpi
+Title: "Composition for tresiba Package Leaflet"
+Description:  "Composition for tresiba Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfab5fa92013ddb0c611232569286ddbb)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tresiba"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Tresiba e para que é utilizado 
+2. O que precisa de saber antes de utilizar Tresiba 
+3. Como utilizar Tresiba 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Tresiba 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tresiba e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tresiba e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tresiba é uma insulina basal de ação lenta, chamada insulina degludec. É utilizado no tratamento da 
+diabetes mellitus em adultos, adolescentes e crianças com 1 ano ou mais de idade. Tresiba ajuda o 
+organismo a reduzir o seu nível de açúcar no sangue. É administrado uma vez por dia. 
+Ocasionalmente, quando não puder seguir a sua posologia regular, pode alterar a hora de 
+administração da dose, uma vez que Tresiba tem um efeito prolongado de diminuição do nível de 
+açúcar no sangue (ver secção 3 ‘Posologia flexível’). Tresiba pode ser utilizado com insulinas de ação 
+rápida administradas às refeições. Na diabetes mellitus tipo 2, Tresiba pode ser utilizado em 
+combinação com comprimidos para a diabetes ou com outros medicamentos antidiabéticos injetáveis 
+para além das insulinas. 
+No caso de diabetes mellitus tipo 1, Tresiba tem de ser sempre utilizado em associação com insulinas 
+de ação rápida administradas às refeições. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tresiba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tresiba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Tresiba </p>
+<ul>
+<li>se tem alergia à insulina degludec ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </li>
+</ul>
+<p>Advertências e precauções 
+Consulte o seu médico, farmacêutico ou enfermeiro antes de utilizar Tresiba. Tenha especialmente em 
+conta o seguinte: </p>
+<ul>
+<li>
+<p>Nível baixo de açúcar no sangue (hipoglicemia) - se o seu nível de açúcar no sangue estiver 
+muito baixo, siga as orientações para a situação de nível baixo de açúcar no sangue na secção 4. * Nível alto de açúcar no sangue (hiperglicemia) - se o seu nível de açúcar no sangue estiver 
+muito alto, siga as orientações para a situação de nível alto de açúcar no sangue na secção 4. * Mudança de outras insulinas - se mudar de outro tipo, marca ou fabricante de insulina, a dose 
+de insulina pode ter que ser alterada. Fale com o seu médico. </p>
+</li>
+<li>
+<p>Pioglitazona utilizada com insulina, ver abaixo ‘Pioglitazona’. </p>
+</li>
+<li>
+<p>Perturbações da visão - as melhorias rápidas do controlo do açúcar no sangue podem levar a um 
+agravamento temporário das afeções oculares da diabetes. Se sentir perturbações da visão, fale 
+com o seu médico. </p>
+</li>
+<li>
+<p>Assegurar que utiliza o tipo correto de insulina - verifique sempre o rótulo da insulina antes de 
+cada injeção, para evitar qualquer troca acidental entre as diferentes dosagens de Tresiba, bem 
+como de outras insulinas. </p>
+</li>
+</ul>
+<p>Se tiver uma insuficiência visual veja a secção 3.<br />
+Alterações da pele no local de injeção 
+Os locais de injeção devem ser alternados para ajudar a prevenir alterações no tecido adiposo sob a 
+pele, tais como espessamento da pele, encolhimento da pele ou nódulos sob a pele. A insulina poderá 
+não funcionar muito bem se for injetada numa área irregular, encolhida ou espessa (ver secção 3, 
+‘Como utilizar Tresiba’). Informe o seu médico se notar quaisquer alterações da pele no local de 
+injeção. Informe o seu médico se estiver atualmente a administrar a injeção nestas áreas afetadas antes 
+de começar a administrar a injeção numa área diferente. O seu médico poderá aconselhá-lo a verificar 
+mais atentamente o seu nível de açúcar no sangue e a ajustar a sua dose de insulina ou de outros 
+medicamentos antidiabéticos. </p>
+<p>Crianças e adolescentes 
+Tresiba pode ser utilizado em adolescentes e crianças com 1 ano de idade ou mais. Não existe 
+experiência com a utilização de Tresiba em crianças com menos de 1 ano de idade. </p>
+<p>Outros medicamentos e Tresiba 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou 
+se vier a tomar outros medicamentos. Alguns medicamentos afetam o seu nível de açúcar no sangue; 
+isto pode implicar a alteração da sua dose de insulina. </p>
+<p>Abaixo encontra-se uma lista dos medicamentos mais comuns que podem afetar o seu tratamento com 
+insulina. </p>
+<p>O seu nível de açúcar no sangue pode baixar (hipoglicemia), se tomar: </p>
+<ul>
+<li>
+<p>outros medicamentos para o tratamento da diabetes (orais e injetáveis) </p>
+</li>
+<li>
+<p>sulfonamidas, para tratamento de infeções </p>
+</li>
+<li>
+<p>esteroides anabolizantes, tais como a testosterona </p>
+</li>
+<li>
+<p>bloqueadores beta, para tratamento da tensão arterial alta. Tornam mais difícil o reconhecimento 
+dos sinais de aviso de um nível de açúcar no sangue demasiado baixo (ver secção 4 ‘Sinais de 
+aviso de nível de açúcar no sangue demasiado baixo’) </p>
+</li>
+<li>
+<p>ácido acetilsalicílico (e outros salicilatos), para tratamento da dor e febre ligeira </p>
+</li>
+<li>
+<p>inibidores da monoaminoxidase (IMAOs), para tratamento da depressão </p>
+</li>
+<li>
+<p>inibidores da enzima de conversão da angiotensina (IECAs), utilizados para tratar certas 
+doenças cardíacas ou a tensão arterial elevada. </p>
+</li>
+</ul>
+<p>O seu nível de açúcar no sangue pode subir (hiperglicemia), se tomar: </p>
+<ul>
+<li>
+<p>danazol, para a endometriose </p>
+</li>
+<li>
+<p>contracetivos orais, (comprimidos para o controlo da natalidade) </p>
+</li>
+<li>
+<p>hormonas da tiroide, para tratamento de distúrbios da tiroide </p>
+</li>
+<li>
+<p>hormona do crescimento, para tratamento da deficiência da hormona do crescimento </p>
+</li>
+<li>
+<p>glucocorticoides, tais como a ‘cortisona’, para tratamento da inflamação </p>
+</li>
+<li>
+<p>simpaticomiméticos, tais como epinefrina (adrenalina), salbutamol ou terbutalina, para 
+tratamento da asma </p>
+</li>
+<li>
+<p>tiazidas, para tratamento da tensão arterial elevada ou se o seu corpo retém demasiada água 
+(retenção de líquidos). </p>
+</li>
+</ul>
+<p>Octreótido e lanreótido: utilizados para tratar uma doença rara envolvendo um excesso de hormona do 
+crescimento (acromegalia). Podem aumentar ou diminuir o seu nível de açúcar no sangue. </p>
+<p>Pioglitazona: medicamento antidiabético oral utilizado para tratar a diabetes mellitus tipo 2. Alguns 
+doentes com diabetes mellitus tipo 2 de longa duração e com doença cardíaca ou antecedente de 
+acidente vascular cerebral que foram tratados com pioglitazona e insulina desenvolveram insuficiência 
+cardíaca. Informe o seu médico imediatamente, se sentir sinais de insuficiência cardíaca, tais como 
+falta de ar invulgar ou rápido aumento de peso ou inchaço localizado (edema). </p>
+<p>Se qualquer dos pontos acima se aplicar no seu caso (ou em caso de dúvida), fale com o seu médico, 
+farmacêutico ou enfermeiro. </p>
+<p>Tresiba com álcool 
+Se beber bebidas alcoólicas, as suas necessidades de insulina podem mudar. O seu nível de açúcar no 
+sangue pode aumentar ou diminuir. Assim, é aconselhável uma vigilância do seu nível de açúcar no 
+sangue mais frequente do que o habitual. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. A sua dose de insulina pode ter que ser alterada 
+durante a gravidez e após o parto. É necessário um controlo cuidadoso da sua diabetes durante a 
+gravidez. Evitar um nível de açúcar no sangue demasiado baixo (hipoglicemia) é particularmente 
+importante para a saúde do seu bebé. </p>
+<p>Condução de veículos e utilização de máquinas 
+Níveis de açúcar no sangue demasiado baixos ou demasiado altos podem afetar a sua capacidade de 
+condução de veículos ou de utilização de ferramentas ou máquinas. Se o seu nível de açúcar no sangue 
+for demasiado baixo ou demasiado alto, a sua capacidade de concentração ou reação pode ser afetada. 
+Deste modo, poderá colocar-se a si próprio ou a outras pessoas em perigo. Pergunte ao seu médico se 
+pode conduzir, caso: </p>
+<ul>
+<li>
+<p>tenha frequentemente um nível baixo de açúcar no sangue </p>
+</li>
+<li>
+<p>não consiga reconhecer facilmente os sintomas de um nível baixo de açúcar no sangue. </p>
+</li>
+</ul>
+<p>Informações importantes sobre alguns componentes de Tresiba 
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
+‘isento de sódio’. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tresiba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tresiba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico, 
+farmacêutico ou enfermeiro se tiver dúvidas. </p>
+<p>Se for invisual ou tiver alterações da visão e não puder ver o marcador de doses na caneta, não utilize 
+esta caneta sem ajuda. Obtenha ajuda junto de uma pessoa com boa visão, com formação para utilizar 
+a caneta pré-cheia FlexTouch. </p>
+<p>Tresiba em caneta pré-cheia está disponível em duas dosagens. “Tresiba 100 unidades/ml" ou “Tresiba 
+200 unidades/ml" está marcado de forma clara no rótulo da caneta e na embalagem. Além disso, a 
+embalagem e o rótulo de Tresiba 100 unidades/ml são verde claro, e a embalagem e o rótulo de 
+Tresiba 200 unidades/ml são verde escuro com um retângulo vermelho a realçar a dosagem da 
+formulação. </p>
+<p>Para ambas as dosagens, a dose necessária é marcada em unidades. Contudo, os aumentos de dose são 
+diferentes entre as duas dosagens de Tresiba. </p>
+<p>A caneta pré-cheia de 100 unidades/ml pode fornecer uma dose de 1-80 unidades numa injeção com 
+aumentos de 1 unidade. O marcador de doses da caneta pré-cheia mostra o número de unidades de 
+insulina que irão ser injetadas. Não faça qualquer outro cálculo da dose. </p>
+<p>O seu médico irá decidir consigo: </p>
+<ul>
+<li>
+<p>a quantidade diária de Tresiba de que necessita </p>
+</li>
+<li>
+<p>quando deverá verificar o seu nível de açúcar no sangue e se é necessário uma dose maior ou 
+menor. </p>
+</li>
+</ul>
+<p>Flexibilidade da hora de administração </p>
+<ul>
+<li>
+<p>Respeite sempre a dose indicada pelo seu médico. </p>
+</li>
+<li>
+<p>Utilize Tresiba uma vez por dia, preferencialmente todos os dias à mesma hora. </p>
+</li>
+<li>
+<p>Nos casos em que não seja possível a administração à mesma hora do dia, Tresiba pode ser 
+administrado a uma hora diferente do dia. É necessário garantir sempre um mínimo de 8 horas 
+entre as doses. Não existe experiência clínica em crianças e adolescentes relativamente à 
+flexibilidade da hora de administração de Tresiba. </p>
+</li>
+<li>
+<p>Se pretender alterar a sua dieta habitual, fale previamente com o seu médico, farmacêutico ou 
+enfermeiro, uma vez que a alteração da dieta poderá alterar as suas necessidades de insulina. </p>
+</li>
+</ul>
+<p>O médico poderá alterar a sua dose, com base no seu nível de açúcar no sangue. </p>
+<p>Caso esteja a utilizar outros medicamentos, pergunte ao seu médico se é necessário ajustar o 
+tratamento.  </p>
+<p>Utilização em idosos (≥65 anos) 
+Tresiba pode ser utilizado em idosos, mas, neste caso, poderá ser necessário verificar mais 
+frequentemente o nível de açúcar no sangue. Fale com o seu médico sobre alterações na sua dose. </p>
+<p>Se tiver problemas de rins ou de fígado 
+Se tiver problemas de rins ou de fígado, poderá ser necessário verificar o seu nível de açúcar no 
+sangue mais frequentemente. Fale com o seu médico sobre alterações na sua dose. </p>
+<p>Injeção do medicamento<br />
+Antes de utilizar Tresiba pela primeira vez, o seu médico ou enfermeiro irá mostrar-lhe como utilizar a 
+caneta pré-cheia. </p>
+<ul>
+<li>Verifique o nome e a dosagem no rótulo da caneta, para se certificar de que se trata de Tresiba 
+100 unidades/ml. </li>
+</ul>
+<p>Não utilize Tresiba </p>
+<ul>
+<li>
+<p>em bombas de perfusão de insulina. </p>
+</li>
+<li>
+<p>se a caneta estiver danificada ou não tiver sido conservada corretamente (ver secção 5). </p>
+</li>
+<li>
+<p>se a insulina não tiver um aspeto límpido e incolor. </p>
+</li>
+</ul>
+<p>Como administrar a injeção </p>
+<ul>
+<li>
+<p>Tresiba é administrado através de uma injeção sob a pele (injeção subcutânea). Não injete numa 
+veia nem num músculo. </p>
+</li>
+<li>
+<p>Os melhores pontos para se autoinjetar são as coxas, a parte superior dos braços ou a barriga ao 
+nível da cintura (abdómen). </p>
+</li>
+<li>
+<p>Mude o local na área de administração da injeção todos os dias para reduzir o risco de 
+desenvolver inchaços e deformações na pele (ver secção 4). </p>
+</li>
+<li>
+<p>Utilize sempre uma agulha nova em cada injeção. A reutilização de agulhas pode aumentar o 
+risco de entupimento das agulhas, o que pode levar à administração de doses incorretas. Deite a 
+agulha fora em segurança após cada utilização. </p>
+</li>
+<li>
+<p>Não utilize uma seringa para retirar a solução da caneta, para evitar erros de dose e uma 
+potencial sobredosagem.  </p>
+</li>
+</ul>
+<p>São fornecidas instruções de utilização pormenorizadas no verso deste folheto. </p>
+<p>Se utilizar mais Tresiba do que deveria 
+Se utilizar demasiada insulina, o seu nível de açúcar no sangue pode ficar demasiado baixo 
+(hipoglicemia) - ver aviso na secção 4 ‘Nível de açúcar no sangue demasiado baixo’. </p>
+<p>Caso se tenha esquecido de utilizar Tresiba 
+Se se esquecer de uma dose, injete a dose em falta quando se aperceber de tal, certificando-se de que 
+garante um mínimo de 8 horas entre doses. Caso se aperceba de que se esqueceu de tomar a dose 
+anterior no momento de tomar a dose seguinte, não injete uma dose a dobrar, mas retome a sua dose 
+de uma vez por dia. </p>
+<p>Se parar de utilizar Tresiba 
+Não pare a utilização da sua insulina sem falar com o seu médico. Se parar de utilizar a sua insulina, 
+poderá levar a um nível de açúcar no sangue muito alto e a cetoacidose (um problema que consiste no 
+excesso de ácido no sangue) (ver aviso na secção 4 ‘Nível de açúcar no sangue demasiado alto’). </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.  </p>
+<p>A hipoglicemia (nível de açúcar no sangue muito baixo) pode ocorrer muito frequentemente com o 
+tratamento com insulina (pode afetar mais de 1 em 10 pessoas). Esta situação pode ser muito grave. Se 
+o seu nível de açúcar no sangue ficar muito baixo, pode ficar inconsciente. A hipoglicemia grave pode 
+causar lesões cerebrais e pode ser perigosa. Se tiver sintomas de um nível baixo de açúcar no sangue, 
+tome medidas para aumentar o seu nível de açúcar no sangue imediatamente. Ver abaixo aviso em 
+‘Pode ocorrer um nível de açúcar no sangue demasiado baixo’. </p>
+<p>Se tiver uma reação alérgica grave (raramente observada) à insulina ou a qualquer um dos 
+componentes de Tresiba, pare de utilizar este medicamento e fale com um médico imediatamente. Os 
+sinais de uma reação alérgica grave são: </p>
+<ul>
+<li>
+<p>as reações locais espalham-se por outras partes do corpo </p>
+</li>
+<li>
+<p>deixa de se sentir bem subitamente e apresenta transpiração </p>
+</li>
+<li>
+<p>começa a sentir-se maldisposto (vómitos) </p>
+</li>
+<li>
+<p>sente dificuldade em respirar </p>
+</li>
+<li>
+<p>tem um batimento cardíaco rápido ou sente tonturas. </p>
+</li>
+</ul>
+<p>Alterações da pele no local de injeção:<br />
+Se injetar insulina no mesmo local, o tecido adiposo tanto pode encolher (lipoatrofia) como aumentar 
+de espessura (lipohipertrofia) (pode afetar até 1 em 100 pessoas). Os nódulos sob a pele podem 
+também ser causados pela acumulação de uma proteína chamada amiloide (amiloidose cutânea; a 
+frequência com que ocorre não é conhecida). A insulina poderá não funcionar muito bem se for 
+injetada numa área irregular, encolhida ou espessa. Altere o local da injeção a cada injeção para ajudar 
+a evitar essas alterações na pele. </p>
+<p>Outros efeitos indesejáveis incluem: </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) 
+Reações no local da injeção: Podem ocorrer reações no local da injeção. Os sinais podem incluir: dor, 
+vermelhidão, erupção na pele com comichão, inchaço e comichão. As reações normalmente 
+desaparecem após alguns dias. Se não desaparecerem após algumas semanas, consulte o seu médico. 
+Pare de utilizar Tresiba e fale com um médico imediatamente, se as reações se agravarem. Para mais 
+informações, ver ‘reação alérgica grave’ abaixo. </p>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) 
+Articulações inchadas: Quando começar a utilizar o medicamento, o corpo poderá fazer uma retenção 
+de líquidos superior ao necessário. Esta situação provoca um inchaço nos tornozelos e noutras 
+articulações. Geralmente, é uma situação que dura pouco tempo. </p>
+<p>Raros (podem afetar até 1 em cada 1000 pessoas) 
+Este medicamento pode provocar reações alérgicas, tais como erupção na pele com comichão, inchaço 
+da língua e lábios, diarreia, náuseas, cansaço e comichão. </p>
+<p>Efeitos gerais do tratamento da diabetes </p>
+<ul>
+<li>Nível de açúcar no sangue demasiado baixo (hipoglicemia) </li>
+</ul>
+<p>Pode ocorrer um nível de açúcar no sangue demasiado baixo se: 
+beber álcool; utilizar demasiada insulina; fizer mais exercício do que o habitual; comer muito pouco 
+ou falhar uma refeição. </p>
+<p>Sinais de aviso de um nível de açúcar no sangue demasiado baixo - podem surgir rapidamente: 
+Dor de cabeça; fala lenta e indistinta; batimento cardíaco rápido; suores frios, pele fria e pálida; enjoo, 
+sensação de muita fome; tremores ou sensação de nervosismo ou ansiedade; sensação invulgar de 
+cansaço, fraqueza e sonolência; sensação de desorientação, dificuldades de concentração; alterações 
+temporárias na visão. </p>
+<p>O que fazer se tiver um nível de açúcar no sangue demasiado baixo </p>
+<ul>
+<li>
+<p>Coma alguns rebuçados ou outros alimentos muito açucarados, como doces, bolachas ou sumo 
+de fruta (traga sempre consigo alguns rebuçados ou alimentos muito açucarados, para estar 
+prevenido). </p>
+</li>
+<li>
+<p>Se possível, meça o seu nível de açúcar no sangue e descanse. Pode necessitar medir o seu nível 
+de açúcar no sangue mais do que uma vez, dado que, como com todas as insulinas basais, a 
+melhoria do nível baixo de açúcar no sangue pode ser demorada.  </p>
+</li>
+<li>
+<p>Aguarde até os sintomas de nível de açúcar no sangue demasiado baixo desaparecerem ou até o 
+nível de açúcar no sangue estabilizar. Em seguida, continue o tratamento com insulina como 
+habitualmente. </p>
+</li>
+</ul>
+<p>O que as outras pessoas precisam de fazer se desmaiar<br />
+Informe todas as pessoas com quem convive de que tem diabetes. Informe-as acerca do que poderia 
+acontecer se o seu nível de açúcar no sangue ficar demasiado baixo, incluindo o risco de desmaiar. </p>
+<p>Informe as pessoas de que se desmaiar, devem: </p>
+<ul>
+<li>
+<p>virá-lo de lado </p>
+</li>
+<li>
+<p>pedir ajuda médica imediatamente </p>
+</li>
+<li>
+<p>não lhe dar nada para comer ou beber, uma vez que poderá sufocar. </p>
+</li>
+</ul>
+<p>Pode recuperar mais rapidamente do estado de inconsciência se lhe for administrado glucagom. Este 
+tratamento apenas poderá ser administrado por alguém que saiba como utilizar o produto. </p>
+<ul>
+<li>
+<p>Se lhe for injetado glucagom, irá precisar de açúcar ou um alimento açucarado logo que 
+recupere a consciência. </p>
+</li>
+<li>
+<p>Se não responder ao tratamento com glucagom, terá de receber tratamento num hospital. </p>
+</li>
+<li>
+<p>Se a hipoglicemia grave e prolongada não for tratada, poderá causar uma lesão cerebral. Esta 
+poderá ser temporária ou permanente. Poderá mesmo provocar a morte. </p>
+</li>
+</ul>
+<p>Fale com o seu médico se: </p>
+<ul>
+<li>
+<p>o seu nível de açúcar no sangue ficou tão baixo que o levou a desmaiar </p>
+</li>
+<li>
+<p>tiver utilizado glucagom </p>
+</li>
+<li>
+<p>recentemente teve muitas vezes um nível de açúcar no sangue demasiado baixo. 
+Poderá ser necessário alterar a dose ou a hora de administração das suas injeções de insulina, os 
+alimentos ou o exercício. </p>
+</li>
+<li>
+<p>Nível de açúcar no sangue demasiado alto (hiperglicemia) </p>
+</li>
+</ul>
+<p>Pode ocorrer um nível de açúcar no sangue demasiado alto se: 
+comer mais ou fizer menos exercício do que o habitual; beber álcool; tiver uma infeção ou febre; não 
+tiver administrado insulina suficiente; administrar repetidamente menos insulina do que aquela de que 
+necessita; esquecer-se de administrar insulina ou parar a administração de insulina sem falar com o seu 
+médico. </p>
+<p>Sinais de aviso de um nível de açúcar no sangue demasiado alto - de um modo geral, surgem 
+gradualmente: 
+Pele seca e com vermelhidão; sensação de sonolência ou cansaço; boca seca, hálito com cheiro a fruta 
+(acetona); aumento da frequência urinária, sensação de sede; perda de apetite, enjoo (náuseas ou 
+vómitos). 
+Estes podem ser sinais de um problema muito grave chamado cetoacidose. Trata-se da acumulação de 
+ácidos no sangue, dado que o sangue está a decompor gordura em vez de açúcar. Caso não seja 
+tratada, esta situação pode conduzir a coma diabético e, eventualmente, à morte. </p>
+<p>O que fazer se tiver um nível de açúcar no sangue demasiado alto </p>
+<ul>
+<li>
+<p>Teste o seu nível de açúcar no sangue. </p>
+</li>
+<li>
+<p>Controle a presença de corpos cetónicos na urina ou no sangue. </p>
+</li>
+<li>
+<p>Procure auxílio médico imediatamente. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tresiba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tresiba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso no rótulo da caneta e na embalagem, 
+após "VAL". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Antes da primeira utilização 
+Conservar no frigorífico (2°C a 8°C). Não congelar. Manter afastado do gerador de frio. 
+Manter a tampa colocada na caneta para a proteger da luz. </p>
+<p>Após a abertura inicial ou quando transportado como sobresselente 
+Pode transportar a sua caneta pré-cheia Tresiba (FlexTouch) consigo e mantê-la à temperatura 
+ambiente (não superior a 30°C) ou no frigorífico (2°C a 8°C) durante um máximo de 8 semanas. </p>
+<p>Mantenha sempre a tampa da caneta colocada quando não estiver a utilizá-la para a proteger da luz.  </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tresiba  </p>
+<ul>
+<li>
+<p>A substância ativa é a insulina degludec. Cada ml de solução contém 100 unidades de insulina 
+degludec. Cada caneta pré-cheia contém 300 unidades de insulina degludec em 3 ml de solução. </p>
+</li>
+<li>
+<p>Os outros componentes são glicerol, metacresol, fenol, acetato de zinco, ácido clorídrico e 
+hidróxido de sódio (para ajuste do pH) e água para preparações injetáveis (ver secção 2). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Tresiba e conteúdo da embalagem 
+Tresiba apresenta-se como uma solução injetável límpida e incolor, numa caneta pré-cheia 
+(300 unidades em 3 ml). </p>
+<p>Embalagens de 1 (com ou sem agulhas), 5 (sem agulhas) e embalagem múltipla de 10 (2 x 5) (sem 
+agulhas) canetas pré-cheias de 3 ml. É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novo Nordisk A/S 
+Novo Allé<br />
+DK-2880 Bagsværd, Dinamarca </p>
+<p>Fabricante 
+Novo Nordisk A/S 
+Novo Allé 
+DK-2880 Bagsværd 
+Dinamarca </p>
+<p>Novo Nordisk Production SAS 
+45, Avenue d’Orléans 
+28000 Chartres 
+França </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1262,6 +1824,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-fab5fa92013ddb0c611232569286ddbb"
 * entry[0].resource = composition-da-fab5fa92013ddb0c611232569286ddbb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfab5fa92013ddb0c611232569286ddbb"
+* entry[=].resource = mpfab5fa92013ddb0c611232569286ddbb
+                            
+                    
+Instance: bundlepackageleaflet-pt-fab5fa92013ddb0c611232569286ddbb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tresiba Package Leaflet for language pt"
+Description: "ePI document Bundle for tresiba Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-fab5fa92013ddb0c611232569286ddbb"
+* entry[0].resource = composition-pt-fab5fa92013ddb0c611232569286ddbb
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpfab5fa92013ddb0c611232569286ddbb"
@@ -1363,6 +1947,18 @@ RuleSet: fab5fa92013ddb0c611232569286ddbbListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-fab5fa92013ddb0c611232569286ddbb) // tresiba pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

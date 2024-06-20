@@ -1140,6 +1140,603 @@ hjemmeside http://www.ema.europa.eu</p>         </div>"""
 
 
 
+Instance: composition-pt-7735eb5a61959c532a72049da08ec908
+InstanceOf: CompositionUvEpi
+Title: "Composition for qtern Package Leaflet"
+Description:  "Composition for qtern Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7735eb5a61959c532a72049da08ec908)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - qtern"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Qtern e para que é utilizado
+2. O que precisa de saber antes de tomar Qtern
+3. Como tomar Qtern
+4. Efeitos indesejáveis possíveis
+5. Como conservar Qtern
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é qtern e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é qtern e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qtern contém as substâncias ativas saxagliptina e dapagliflozina. Ambas pertencem a um grupo de 
+medicamentos denominados “antidiabéticos orais". Este medicamento é tomado por via oral para a 
+diabetes.
+Qtern é utilizado para um tipo de diabetes chamada “diabetes mellitus tipo 2" em doentes adultos (com 
+idade igual ou superior a 18 anos). Se tem diabetes tipo 2, o seu pâncreas não produz insulina 
+suficiente ou o seu corpo não consegue utilizar a insulina que produz corretamente. Isto origina um
+nível elevado de açúcar no seu sangue. As duas substâncias ativas em Qtern atuam de formas 
+diferentes para ajudar a controlar o nível de açúcar no seu sangue e remover o excesso de açúcar do 
+seu corpo através da sua urina.
+Qtern é utilizado para tratar a diabetes tipo 2 quando:
+- saxagliptina ou dapagliflozina isoladamente em associação com metformina e/ou sulfonilureia não 
+podem controlar a sua diabetes.
+- já está a ser tratado com saxagliflozina e dapagliflozina com comprimidos únicos. O seu médico 
+pode pedir-lhe para mudar este medicamento.
+É importante que continue a seguir as recomendações que lhe foram dadas pelo seu médico, 
+farmacêutico ou enfermeiro sobre dieta e exercício físico.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar qtern"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar qtern"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Qtern:</h2>
+<p>se tem alergia à saxagliptina, à dapagliflozina ou a qualquer outro componente deste 
+medicamento (indicados na secção 6).
+-
+se já teve uma reação alérgica grave a quaisquer outros medicamentos semelhantes (por 
+exemplo inibidores da DPP-4, como sitagliptina, linagliptina, alogliptina, ou inibidores do
+SGLT2 como canagliflozina, empagliflozina) que toma para controlar o seu açúcar no sangue.
+Não tome Qtern se alguma das situações acima se aplica a si. Caso tenha dúvidas, fale com o seu 
+médico, farmacêutico ou enfermeiro antes de tomar este medicamento.
+40
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Qtern, e durante o tratamento:
+-
+tem ou teve uma doença do pâncreas chamada pancreatite. Possíveis sinais de pancreatite estão 
+listados na secção 4. -
+se está a tomar medicamentos para baixar a sua tensão arterial (anti hipertensores) e tem história
+de tensão arterial baixa (hipotensão). Para mais informação, ver secção “Outros medicamentos e
+Qtern", abaixo.
+-
+se tem valores muito elevados de açúcar no seu sangue que podem fazer com que fique 
+desidratado (perder muito líquido do seu corpo). Possíveis sinais de desidratação estão listados 
+na secção 4. Informe o seu médico antes de começar a tomar Qtern se tiver algum destes sinais.
+-
+se tiver ou desenvolver náuseas (sentir-se doente), vómitos ou febre ou se não for capaz de 
+comer ou beber. Estas condições podem causar desidratação. O seu médico pode pedir-lhe que 
+pare de tomar Qtern até recuperar para prevenir a desidratação.
+-
+se tem problemas de fígado moderados ou graves.
+-
+se perder peso rapidamente, sensação de mal-estar geral ou sentir-se doente, dor de estômago, 
+sede excessiva, respiração rápida e profunda, confusão, sonolência ou cansaço invulgares, um
+cheiro doce do seu hálito, um sabor doce ou metálico na sua boca ou um odor diferente na sua 
+urina ou suor contacte imediatamente um médico ou o hospital mais próximo. Estes sintomas 
+podem ser um sinal de “cetoacidose diabética" - um problema raro mas grave, às vezes 
+apresentando risco de vida que pode aparecer com a diabetes devido aos níveis elevados de 
+“corpos cetónicos" na sua urina ou sangue, encontrados nas análises. O risco de desenvolver 
+cetoacidose diabética pode estar aumentado num jejum prolongado, consumo excessivo de 
+álcool, desidratação, reduções súbitas nas doses de insulina, ou um aumento da necessidade de 
+insulina devido a uma grande cirurgia ou doença grave.
+-
+se tem “diabetes tipo 1" o seu organismo não produz insulina. Qtern não deve ser utilizado para 
+tratar esta condição.
+-
+se tem ou teve uma uma reação de hipersensibilidade (alérgica) grave ou há suspeita. Sinais de 
+uma reação alérgica grave estão listados na secção 4. -
+se costuma ter infeções nas vias urinárias.
+-
+se tem história de doença grave de coração.
+-
+se sofre de insuficiência cardíaca ou tem outros fatores de risco para o desenvolvimento de 
+insuficiência cardíaca tais como problemas nos seus rins. O seu médico irá informá-lo dos sinais 
+e sintomas de insuficiência cardíaca. Os sintomas podem incluir, mas não estão limitados a, 
+aumento da falta de ar, rápido aumento de peso e inchaço dos pés (edema dos pés). Deve 
+contactar imediatamente o seu médico, farmacêutico ou enfermeiro se sentir qualquer um destes 
+sintomas.
+-
+se tem dor articular grave.
+-
+se a capacidade do seu corpo de lutar contra infeções for reduzida, por exemplo se tiver uma 
+doenaça como a SIDA ou se foi submetido a um transplante de órgão.
+-
+se está a tomar um medicamento para baixar o seu açúcar no sangue, como insulina ou 
+sulfonilureias (ver “Outros medicamentos e Qtern").
+Se alguma das situações acima se aplica a si (ou se não tem a certeza), fale com o seu médico, 
+farmacêutico ou enfermeiro antes de tomar Qtern.
+As lesões diabéticas da pele (lesões na pele como feridas ou úlceras) são uma complicação frequente
+da diabetes. Foi observada erupção na pele com ambas saxagliptina e dapagliflozina quando 
+administradas separadamente (ver secção 4). É aconselhável seguir as recomendações do seu médico 
+ou enfermeiro sobre os cuidados a ter com a pele.
+Contacte o seu médico se tiver bolhas na pele, pois pode ser um sinal de uma condição chamada 
+penfigoide bolhoso. O seu médico pode pedir-lhe que pare de tomar Qtern.
+Para todos os doentes com diabetes é importante verificar os seus pés regularmente e aderir a qualquer 
+outro conselho sobre cuidados dos pés dado pelo seu profissional de saúde.
+41
+Fale com o seu médico imediatamente se apresentar uma combinação de sintomas de dor,
+sensibilidade, vermelhidão ou inchaço nos órgãos genitais ou na área entre os órgãos genitais e o ânus 
+com febre ou sensação de mal-estar geral. Estes sintomas podem ser um sinal de uma infeção rara mas
+grave ou até potencialmente fatal, denominada fasciite necrotizante do períneo ou gangrena de 
+Fournier, que destrói o tecido abaixo da pele. A gangrena de Fournier tem que ser imediatamente 
+tratada.
+Função renal
+A sua função renal deve ser verificada antes de começar a tomar Qtern. Durante o tratamento com este 
+medicamento, o seu médico irá verificar a sua função renal uma vez por ano ou com mais frequência 
+se tiver agravamento da função renal.
+Análises à urina
+Devido ao modo de ação de Qtern, a sua urina dará resultados positivos para açúcar enquanto tomar 
+este medicamento.
+Crianças e adolescentes
+Qtern não é recomendado para crianças e adolescentes com menos de 18 anos de idade, porque não foi 
+estudado nestes doentes.
+Outros medicamentos e Qtern
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente ou se 
+vier a tomar outros medicamentos.
+Em particular, informe o seu médico:
+-
+se está a tomar um medicamento utilizado para remover a água do corpo (diurético). O seu 
+médico pode pedir-lhe para parar de tomar Qtern. Possíveis sinais de perda de muito líquido
+pelo seu corpo estão listados no início da secção 4. -
+se está a tomar outro medicamento que diminui a quantidade de açúcar no seu sangue, como 
+uma sulfonilureia (por exemplo, glimepirida). O seu médico pode querer diminuir a dose deste 
+outro medicamento, para evitar que fique com níveis baixo de açúcar no sangue (hipoglicemia).
+-
+se estiver a utilizar medicamentos que contenham alguma das seguintes substâncias ativas, que 
+podem ter um efeito de degradação de Qtern no seu corpo. O seu médico pode pedir-lhe para 
+verificar os seus níveis de açúcar no sangue com mais frequência enquanto estiver a tomar estes 
+medicamentos.
+-
+Carbamazepina, fenobarbital ou fenitoína. Estas podem ser utilizadas para controlar 
+ataques epiléticos (convulsões) ou dor crónica.
+-
+Dexametasona - um medicamento esteroide. Pode ser utilizado para tratar inflamação em 
+diferentes partes do corpo e órgãos.
+-
+Rifampicina. É um antibiótico utilizado para tratar infeções tais como tuberculose.
+-
+Cetoconazol. Pode ser utilizado para tratar infeções por fungos.
+-
+Diltiazem. É um medicamento utilizado para tratar a angina (dor no peito) e baixar a 
+tensão arterial.
+Se alguma das situações acima se aplica a si (ou se não tem a certeza), fale com o seu médico antes de 
+tomar Qtern.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. Qtern não está recomendado durante a gravidez e o 
+seu médico irá pedir-lhe para parar de tomar este medicamento se ficar grávida. Fale com o seu 
+médico sobre a melhor forma de controlar o açúcar no seu sangue durante a gravidez.
+Não utilize Qtern se está a amamentar. Desconhece-se se este medicamento passa para o leite materno.
+Fale com o seu médico se pretende amamentar ou está a amamentar antes de tomar este medicamento.
+Condução de veículos e utilização de máquinas
+42
+Não é expectável que Qtern afete a sua capacidade para conduzir ou utilizar quaisquer ferramentas ou 
+máquinas. Se sentir tonturas enquanto está a tomar este medicamento, não conduza nem utilize 
+quaisquer ferramentas ou máquinas. Tomar este medicamento com outro medicamento que reduz o 
+açúcar no sangue, como uma sulfonilureia, pode provocar níveis muito baixos de açúcar no sangue 
+(hipoglicemia). Pode causar sintomas como tremores, suores e alterações na visão, e podem afetar a 
+sua capacidade de conduzir e utilizar máquinas.
+Qtern contém lactose
+Qtern contém lactose (açúcar do leite). Se foi informado pelo seu médico que tem uma intolerância a 
+alguns açúcares, contacte-o antes de tomar este medicamento.
+Qtern contém sódio
+Qtern contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente “isento de 
+sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar qtern"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar qtern"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome sempre este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico 
+ou farmacêutico ou enfermeiro se tiver dúvidas.
+Quanto deve tomar
+-
+A dose recomendada é um comprimido por dia.
+Ao tomar este medicamento
+-
+Engula o comprimido inteiro com meio copo de água.
+-
+Pode tomar o seu comprimido com ou sem alimentos.
+-
+Pode tomar o seu comprimido a qualquer hora do dia. No entanto, tente tomar o comprimido à 
+mesma hora todos os dias. Isto ajudá-lo-á a lembrar-se de o tomar.
+O seu médico pode receitar outros medicamentos para baixar a quantidade de açúcar no seu sangue.
+Lembre-se de tomar o(s) outro(s) medicamento(s) conforme indicado pelo seu médico. Isto irá ajudá-
+lo a obter os melhores resultados para a sua saúde.
+Dieta e exercício físico
+Para controlar a sua diabetes, deverá prosseguir com a dieta e o exercício físico, mesmo enquanto está 
+a tomar este medicamento. Por conseguinte, é importante que continue a seguir as recomendações do 
+seu médico, farmacêutico ou enfermeiro sobre a dieta e o exercício físico. Em particular, se está a 
+seguir uma dieta de controlo de peso para diabéticos, continue a segui-la enquanto estiver a tomar
+Qtern.
+Se tomar mais Qtern do que deveria
+Se tomou mais comprimidos de Qtern do que deveria, fale com um médico ou vá imediatamente a um 
+hospital. Leve a embalagem do medicamento consigo.
+Caso se tenha esquecido de tomar Qtern
+O que fazer se se esqueceu de tomar um comprimido.
+-
+Se tiverem passado menos de 12 horas desde que devia ter tomado a sua dose, tome uma dose 
+de Qtern assim que se lembrar. Depois tome a dose seguinte à hora habitual.
+-
+Se tiverem passado mais de 12 horas desde que devia ter tomado a sua dose, não tome a dose 
+que se esqueceu. Depois tome a dose seguinte à hora habitual.
+-
+Não tome uma dose a dobrar de Qtern para compensar uma dose que se esqueceu de tomar.
+Se parar de tomar Qtern
+Não pare de tomar Qtern sem falar primeiro com o seu médico. O seu nível de açúcar no sangue pode 
+aumentar sem este medicamento.
+43
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Pare de tomar Qtern e consulte imediatamente um médico se tiver algum dos seguintes efeitos 
+indesejáveis graves:
+-
+Sintomas de uma reação alérgica grave (reação anafilática, angioedema) rarmente 
+observada, (pode afetar até 1 em cada 1.000 pessoas), que podem incluir:
+- erupção na pele
+- aparecimento de manchas vermelhas na sua pele (urticária)
+- inchaço da cara, lábios, língua, e garganta que pode causar dificuldade a respirar ou a engolir.
+O seu médico poderá receitar um medicamento para tratar a sua reação alérgica e um 
+medicamento diferente para a sua diabetes.
+-
+Pancreatite, raramente observada (pode afetar até 1 em cada 100 pessoas): dor grave e 
+persistente no abdómen (zona do estômago) que pode irradiar para as suas costas, bem como 
+náuseas e vómitos, dado que pode ser um sinal de pâncreas inflamado.
+-
+Desidratação, (perder muito líquido do seu corpo), raramente observada.
+Estes são sinais de desidratação:
+-
+boca muito seca ou pegajosa, sentir muita sede,
+-
+sensação de muito sono ou cansaço,
+-
+urinar pouco ou nada,
+-
+batimentos cardíacos acelerados.
+-
+Infeções do trato urinário, frequentemente observadas (podem afetar até 1 em cada 
+10 pessoas).
+Estes são sinais de uma infeção grave das vias urinárias:
+-
+febre e/ou arrepios,
+-
+sensação de ardor quando urinar (micção),
+-
+dor nas costas ou de lado.
+Embora pouco frequente, se vir sangue na sua urina, informe o seu médico imediatamente.
+-
+Níveis baixos de açúcar no sangue (hipoglicemia), muito frequentemente observados (podem
+afetar mais de 1 em cada 10 pessoas) se utilizado com outros medicamentos para a diabetes 
+conhecidos por causarem hipoglicemia.
+Estes são sinais de açúcar baixo no sangue:
+-
+tremer, suar, sentir-se muito ansioso, batimentos cardíacos acelerados
+-
+sensação de fome, dor de cabeça, alterações na visão
+-
+uma mudança no seu humor ou sensação de confusão.
+O seu médico irá dizer-lhe como tratar os níveis baixos de açúcar no sangue e o que fazer se 
+tiver algum dos sinais acima.
+-
+Cetoacidose diabética, raramente observada
+Estes são sinais de cetoacidose diabética (ver também secção 2 Advertências e precauções):
+-
+aumento dos níveis de “corpos cetónicos" na sua urina ou sangue
+-
+rápida perda de peso
+-
+sensação de mal-estar geral ou sentir-se doente
+-
+dor de estômago
+-
+sede excessiva
+44
+-
+respiração rápida e profunda
+-
+confusão
+-
+sonolência ou cansaço invulgares
+-
+um cheiro doce do seu hálito, um sabor doce ou metálico na sua boca ou um odor
+diferente na sua urina ou suor.
+Isto pode ocorrer independentemente dos níveis de glucose no sangue. O seu médico pode 
+decidir interromper temporariamente ou permanentemente o seu tratamento com Qtern.
+-
+Fasciite necrotizante do períneo (gangrena de Fournier), uma infeção grave dos tecidos moles 
+dos órgãos genitais ou da área entre os órgãos genitais e o ânus, observado muito raramente
+(pode afetar até 1 em cada 10.000 pessoas).
+Pare de tomar Qtern e consulte um médico ou enfermeiro imediatamente, se tiver algum dos efeitos 
+indesejáveis graves acima mencionados.
+Outros efeitos indesejáveis enquanto tomar Qtern isoladamente ou em associação com
+metformina:
+Muito frequentes
+-
+infeção do trato respiratório superior ou pulmões
+-
+infeção dos seios nasais com uma sensação de dor e obstrução atrás das maçãs do rosto e olhos 
+(sinusite)
+-
+inflamação do nariz ou garganta (nasofaringite) (sinais desta situação podem incluir uma 
+constipação ou garganta inflamada)
+Frequentes
+-
+infeção genital (candidíase) no seu pénis ou vagina (sinais podem incluir irritação, comichão, 
+corrimento anormal ou odor)
+-
+dor nas costas
+-
+urinar mais do que o habitual ou sentir necessidade de urinar com mais frequência
+-
+alterações no valor de colesterol ou gorduras no seu sangue (detetado nas análises)
+-
+aumento da quantidade de glóbulos vermelhos no seu sangue (detetado nas análises)
+-
+diminuição da depuração renal da creatinina (detetado nas análises) no início do tratamento
+-
+tonturas
+-
+cansaço
+-
+dor articular grave (artralgia)
+-
+náuseas
+-
+diarreia
+-
+inflamação do estômago ou intestino geralmente causada por uma infeção (gastroenterite)
+-
+dor de cabeça, dor muscular (mialgia)
+-
+vómitos, inflamação do estômago (gastrite)
+-
+erupção na pele
+Pouco frequentes
+-
+sede
+-
+prisão de ventre
+-
+acordar durante a noite para urinar
+-
+boca seca
+-
+diminuição de peso
+-
+aumento da creatinina (detetado nas análises laboratoriais ao sangue) no início do tratamento
+-
+aumento da ureia (detetado nas análises laboratoriais ao sangue)
+-
+erupção na pele que pode incluir pequenas elevações, irritação da pele ou comichão
+desagradável
+-
+dificuldade em ter ou manter uma ereção (disfunção erétil)
+-
+infeção fúngica
+-
+reações de hipersensibilidade
+-
+comichão, na área genital (prurido genital ou prurido vulvovaginal) ou desconforto enquanto 
+urinar
+45
+Desconhecidos (a frequência não pode ser calculada a partir dos dados disponíveis)
+-
+formação de bolhas na pele (penfigoide bolhoso)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar qtern"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar qtern"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+Este medicamento não necessita de quaisquer precauções especiais de conservação.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Qtern</h2>
+<p>As substâncias ativas são saxagliptina e dapagliflozina.
+Cada comprimido contém cloridrato de saxagliptina equivalente a 5 mg de saxagliptina e 
+dapagliflozina propanodiol mono-hidratada equivalente a 10 mg de dapagliflozina
+-
+Os outros componentes são:
+- núcleo do comprimido: celulose microcristalina (E460i), croscarmelose sódica (E468) (ver 
+secção 2 “Qtern contém sódio"), lactose (ver secção 2 “Qtern contém lactose"), estearato de 
+magnésio (E470b), sílica para uso dental (E551).
+- revestimento: álcool poli(vinílico) (E1203), macrogol (3350), dióxido de titânio (E171), talco
+(E553b), óxido de ferro amarelo (E172), óxido de ferro vermelho (E172).
+- tinta de impressão: shellac, laca de alumínio de indigotina (E132).
+Qual o aspeto de Qtern e conteúdo da embalagem
+Qtern 5 mg/10 mg comprimidos revestidos por película são comprimidos revestidos por película, 
+castanho claro a castanho, biconvexos, redondos, com a impressão “5/10" numa face e impressão 
+“1122" na outra face, em tinta azul.
+Os comprimidos de Qtern 5 mg/10 mg estão disponíveis em blisters de alumínio em embalagens de 
+14, 28 ou 98 comprimidos revestidos por película em blisters calendário e 30 comprimidos revestidos 
+por película em blisters.
+É possível que não sejam comercializadas todas as apresentações no seu país.
+Titular da Autorização de Introdução no Mercado
+AstraZeneca AB
+SE-151 85 Södertälje
+Suécia
+46
+Fabricante
+AstraZeneca AB
+Gärtunavägen
+SE-152 57 Södertälje
+Suécia
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V. 
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 2 4455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V. 
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd 
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E. 
+Τηλ: +30 2 106871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o. 
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda. 
+Tel: +351 21 434 61 00
+Hrvatska
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL 
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited 
+Tel: +386 1 51 35 600
+47
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z. 
+Tel: +421 2 5737 7Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy 
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1181,6 +1778,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-7735eb5a61959c532a72049da08ec908"
 * entry[0].resource = composition-da-7735eb5a61959c532a72049da08ec908
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7735eb5a61959c532a72049da08ec908"
+* entry[=].resource = mp7735eb5a61959c532a72049da08ec908
+                            
+                    
+Instance: bundlepackageleaflet-pt-7735eb5a61959c532a72049da08ec908
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for qtern Package Leaflet for language pt"
+Description: "ePI document Bundle for qtern Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-7735eb5a61959c532a72049da08ec908"
+* entry[0].resource = composition-pt-7735eb5a61959c532a72049da08ec908
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp7735eb5a61959c532a72049da08ec908"
@@ -1282,6 +1901,18 @@ RuleSet: 7735eb5a61959c532a72049da08ec908ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-7735eb5a61959c532a72049da08ec908) // qtern pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

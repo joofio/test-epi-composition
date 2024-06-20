@@ -977,6 +977,495 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-e0aa2bfe700a8fcff3620d6e0a596f13
+InstanceOf: CompositionUvEpi
+Title: "Composition for pemetrexed Package Leaflet"
+Description:  "Composition for pemetrexed Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe0aa2bfe700a8fcff3620d6e0a596f13)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - pemetrexed"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Pemetrexedo Pfizer e para que é utilizado
+2. O que precisa de saber antes de utilizar Pemetrexedo Pfizer
+3. Como utilizar Pemetrexedo Pfizer
+4. Efeitos indesejáveis possíveis
+5. Como conservar Pemetrexedo Pfizer
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é pemetrexed e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é pemetrexed e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pemetrexedo Pfizer é um medicamento utilizado no tratamento do cancro.
+Pemetrexedo Pfizer é administrado em combinação com cisplatina, outro medicamento antineoplásico,
+para o tratamento do mesotelioma pleural maligno, uma forma de cancro que afeta o revestimento do 
+pulmão, a doentes que nunca fizeram quimioterapia.
+Pemetrexedo Pfizer é também administrado em combinação com cisplatina, para o tratamento inicial 
+de doentes em estadios avançados de cancro do pulmão.
+Pemetrexedo Pfizer pode ser-lhe prescrito se tiver cancro de pulmão em estadio avançado, se a sua
+doença tiver respondido ao tratamento ou se continuar inalterada após quimioterapia inicial.
+Pemetrexedo Pfizer é também usado como tratamento em doentes em estadios avançados de cancro 
+pulmonar, cuja doença progrediu após utilização de outra quimioterapia inicial.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar pemetrexed"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar pemetrexed"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não utilize Pemetrexedo Pfizer</h2>
+<p>se tem alergia à substância ativa (hipersensibilidade) ou a qualquer outro componente deste 
+medicamento (indicados na secção 6).
+-
+se estiver a amamentar: deverá interromper a amamentação durante o tratamento com 
+Pemetrexedo Pfizer.
+-
+se tiver feito recentemente ou for fazer uma vacina contra a febre amarela.
+Advertências e precauções
+Fale com o seu médico ou farmacêutico hospitalar antes de utilizar Pemetrexedo Pfizer.
+Se tiver ou tiver tido problemas renais fale com o seu médico ou farmacêutico hospitalar pois pode 
+não ser possível receber Pemetrexedo Pfizer.
+64
+Antes de cada perfusão ser-lhe-á feita uma colheita de sangue para avaliar a função renal e hepática e 
+verificar se tem células sanguíneas em número suficiente para lhe poder ser administrado Pemetrexedo 
+Pfizer. O seu médico pode decidir alterar a dose ou adiar o tratamento dependendo do seu estado geral 
+e se a contagem das suas células sanguíneas se revelar demasiado baixa. Se estiver também a receber 
+cisplatina, o seu médico certificar-se-á de que o nível de hidratação é adequado e de que recebeu
+tratamento apropriado, antes e depois da administração de cisplatina, para evitar o vómito.
+Informe o seu médico se tiver feito ou tiver que fazer radioterapia, dado que pode haver uma reação à 
+radiação no início ou no final do tratamento com Pemetrexedo Pfizer.
+Se tiver sido recentemente vacinado, por favor informe o seu médico, pois isso pode ter efeitos 
+nocivos com Pemetrexedo Pfizer.
+Se tiver doença do coração ou história de doença do coração, informe o seu médico.
+Se tiver uma acumulação de líquido à volta dos pulmões, o seu médico pode decidir removê-lo antes 
+de lhe administrar Pemetrexedo Pfizer.
+Crianças e adolescentes
+Este medicamento não deve ser utilizado em crianças ou adolescentes, uma vez que não existe
+experiência com este medicamento em crianças e adolescentes com menos de 18 anos de idade.
+Outros medicamentos e Pemetrexedo Pfizer
+Informe o seu médico se está a tomar algum medicamento para as dores ou inflamação (edema), 
+incluindo os denominados “anti-inflamatórios não-esteroides" (AINEs), e os medicamentos 
+comprados sem receita médica (tal como ibuprofeno). Existem muitas espécies de AINEs com 
+diferentes durações de ação. Com base na data de administração de pemetrexedo e/ou a sua função 
+renal, o seu médico aconselhá-lo-á sobre que medicamentos pode tomar e quando os pode tomar. Em 
+caso de dúvida, pergunte ao seu médico ou farmacêutico se algum dos medicamentos que está a tomar 
+são AINEs.
+Informe o seu médico ou farmacêutico hospitalar se estiver a tomar ou tiver tomado recentemente
+outros medicamentos, incluindo medicamentos obtidos sem receita médica.
+Gravidez, amamentação e fertilidade
+Gravidez
+Se está grávida, se pensa estar grávida ou planeia engravidar, informe o seu médico. A utilização de
+pemetrexedo deve ser evitada durante a gravidez. O seu médico irá discutir consigo o risco potencial a 
+que estará sujeita se lhe for administrado pemetrexedo durante a gravidez. Deverá ser utilizada uma 
+contraceção eficaz durante o tratamento com pemetrexedo e durante 6 meses após receber a última 
+dose.
+Amamentação
+Se está a amamentar, informe o seu médico. Deve parar de amamentar durante o tratamento com 
+pemetrexedo.
+Fertilidade
+Aconselha-se aos homens a não terem filhos durante o tratamento e até 3 meses após o tratamento com 
+pemetrexedo, devendo por isso utilizar meios contracetivos eficazes durante o tratamento com 
+pemetrexedo e durante os 3 meses a seguir ao tratamento. Se quiser ter um filho durante o tratamento 
+ou nos 3 meses a seguir ao tratamento, aconselhe-se com o seu médico ou farmacêutico. Pemetrexedo
+Pfizer pode afetar a sua capacidade de ter filhos. Fale com o seu médico para procurar aconselhamento
+sobre a conservação de esperma antes de começar a terapêutica.
+Condução de veículos e utilização de máquinas
+65
+Pemetrexedo Pfizer pode fazê-lo sentir-se cansado. Seja cuidadoso quando conduzir ou utilizar 
+máquinas.
+Pemetrexedo Pfizer contém sódio
+Pemetrexedo Pfizer 100 mg pó para concentrado para solução para perfusão
+Este medicamento contém menos de 1 mmol (23 mg) de sódio por frasco, ou seja, é praticamente 
+“isento de sódio".
+Pemetrexedo Pfizer 500 mg pó para concentrado para solução para perfusão
+Este medicamento contém 54 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
+cada frasco. Isto é equivalente a 2,7% da ingestão diária máxima de sódio recomendada na dieta para 
+um adulto.
+Pemetrexedo Pfizer 1.000 mg pó para concentrado para solução para perfusão
+Este medicamento contém 108 mg de sódio (principal componente de sal de cozinha/sal de mesa) em
+cada frasco. Isto é equivalente a 5,4% da ingestão diária máxima de sódio recomendada na dieta para
+um adulto.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar pemetrexed"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar pemetrexed"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A dose de Pemetrexedo Pfizer é 500 miligramas por cada metro quadrado de área do seu corpo. A sua 
+altura e peso são medidos para determinar a sua superfície corporal. O seu médico utilizará esta 
+superfície corporal para determinar a dose mais indicada para si. Esta dose pode ser ajustada, ou o 
+tratamento pode ser adiado dependendo da contagem das suas células sanguíneas e do seu estado 
+geral. Um farmacêutico hospitalar, enfermeiro ou médico fará a mistura do pó de Pemetrexedo Pfizer
+com uma solução injetável de cloreto de sódio a 9 mg/ml (0,9%) antes da administração.
+Pemetrexedo Pfizer irá sempre ser-lhe administrado por perfusão intravenosa numa das suas veias. A
+perfusão durará aproximadamente 10 minutos.
+Quando Pemetrexedo Pfizer for utilizado em combinação com cisplatina:
+O médico ou farmacêutico hospitalar irá determinar a dose que precisa com base na sua altura e peso.
+Cisplatina é também administrada por perfusão intravenosa, aproximadamente 30 minutos após a 
+perfusão de Pemetrexedo Pfizer ter terminado. A perfusão de cisplatina irá ter a duração aproximada 
+de 2 horas.
+Irá habitualmente fazer a perfusão uma vez em cada 3 semanas.
+Medicação adicional:
+Corticosteroides: o seu médico receitar-lhe-á comprimidos corticoides (em dose equivalente a 
+4 miligramas de dexametasona duas vezes ao dia) que terá que tomar no dia anterior, no próprio dia e 
+no dia seguinte ao tratamento com Pemetrexedo Pfizer. Este medicamento é-lhe dado para diminuir a
+frequência e gravidade das reações cutâneas que podem surgir durante o tratamento antineoplásico.
+Suplemento vitamínico: o seu médico receitar-lhe-á ácido fólico oral (vitamina) ou um 
+multivitamínico contendo ácido fólico (350 a 1.000 microgramas) que terá que tomar uma vez ao dia 
+enquanto estiver a ser tratado com Pemetrexedo Pfizer. Deve tomar pelo menos cinco doses de ácido 
+fólico durante os sete dias anteriores à primeira dose de Pemetrexedo Pfizer, e deverá manter esta toma 
+diária até 21 dias após a última dose de Pemetrexedo Pfizer. Também irá receber uma injeção de 
+vitamina B12 (1.000 microgramas) na semana anterior à primeira dose de Pemetrexedo Pfizer e
+subsequentemente durante 9 semanas (correspondente a 3 ciclos de tratamento com Pemetrexedo
+Pfizer). A vitamina B12 e o ácido fólico são-lhe dados para diminuir os possíveis efeitos tóxicos do 
+tratamento antineoplásico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.
+66</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não
+se manifestem em todas as pessoas.
+Deve de imediato contactar o seu médico se detetar algum dos seguintes efeitos indesejáveis:
+
+Febre ou infeção (frequente ou muito frequente, respetivamente): se tiver temperatura igual ou 
+superior a 38 ºC, transpiração ou outros sinais de infeção (uma vez que pode ter menos glóbulos 
+brancos do que é normal, o que é muito frequente). A infeção (septicemia) pode ser grave e 
+pode levar à morte. 
+
+Se começar a sentir dor no peito (frequente) ou frequência cardíaca aumentada (frequente).
+
+Se tiver dor, rubor, inflamação ou úlceras na boca (muito frequente).
+
+Reação alérgica: se desenvolver erupção na pele (muito frequente), sensação de queimadura ou 
+de formigueiro (frequente) ou febre (frequente). Raramente, as reações na pele podem ser 
+graves e podem levar à morte. Contacte o seu médico se tiver uma erupção grave na pele, 
+comichão ou bolhas (Síndrome de Stevens-Johnson ou necrólise epidérmica tóxica).
+
+Se se sentir cansado, fraco, ficar facilmente sem fôlego ou estiver pálido (uma vez que pode ter 
+menos hemoglobina do que é normal, o que é muito frequente).
+
+Se sangrar das gengivas, nariz ou boca ou sangrar de forma contínua, tiver urina avermelhada 
+ou rosada, nódoas negras inesperadas (uma vez que pode ter menos plaquetas do que é normal, 
+o que é frequente).
+
+Se sentir uma súbita falta de ar, dor intensa no peito ou tosse com expetoração sanguinolenta 
+(pouco frequente) (pode indicar que tem um coágulo de sangue nos vasos sanguíneos dos 
+pulmões).
+Efeitos indesejáveis com pemetrexedo podem incluir:
+Muito frequentes (podem afetar mais que 1 em 10 pessoas)
+Infeção
+Níveis baixos de granulócitos neutrófilos (um tipo de glóbulos brancos)
+Níveis baixos de glóbulos brancos
+Níveis baixos de hemoglobina, dor, vermelhidão, inchaço ou feridas na boca
+Perda de apetite
+Vómitos
+Diarreia
+Náuseas
+Erupção na pele
+Descamação da pele
+Testes sanguíneos anormais que demonstram uma funcionalidade reduzida dos rins
+Fadiga (cansaço)
+Frequentes (podem afetar até 1 em cada 10 pessoas)
+Infeção sanguínea
+Febre com níveis baixos de granulócitos neutrófilos (um tipo de glóbulos brancos)
+Contagem de plaquetas baixa
+Reação alérgica
+Perda de fluídos corporais
+Alterações do sabor
+Danos nos nervos motores, que podem causar fraqueza muscular e atrofia (perda) primária nos braços 
+e pernas)
+Danos nos nervos sensoriais que podem causar perda de sensibilidade, dor ardente e marcha instável
+Tonturas
+Inflamação ou inchaço da conjuntiva (membrana que reveste as pálpebras e cobre o branco do olho)
+Olho seco
+Olhos lacrimejantes
+67
+Secura da conjuntiva (membrana que reveste as pálpebras e cobre o branco do olho) e da córnea
+(camada clara na frente da íris e da pupila)
+Inchaço das pálpebras
+Distúrbio ocular com secura, lacrimejo, irritação e/ou dor
+Insuficiência cardíaca (condição que afeta a capacidade de bombeamento dos músculos do coração)
+Ritmo cardíaco irregular
+Indigestão
+Obstipação
+Dor abdominal
+Fígado: aumento das substâncias químicas no sangue produzidas pelo fígado
+Aumento da pigmentação da pele
+Comichão na pele
+Erupção cutânea no corpo, onde cada marca se assemelha a um alvo
+Queda de cabelo
+Urticária
+O rim deixa de funcionar
+Funcionalidade reduzida do rim
+Febre
+Dor
+Excesso de líquido no tecido corporal, causando inchaço
+Dor no peito
+Inflamação e ulceração das mucosas que revestem o tubo digestivo
+Pouco frequentes (podem afetaraté 1 em cada 100 pessoas)
+Redução do número de glóbulos vermelhos, de glóbulos brancos e plaquetas
+Acidente vascular cerebral
+Tipo de acidente vascular cerebral quando uma artéria do cérebro está bloqueada
+Hemorragia dentro do crânio
+Angina (dor no peito causada pelo reduzido fluxo sanguíneo para o coração)
+Ataque cardíaco
+Estreitamento ou bloqueio das artérias coronárias
+Aumento do batimento
+Distribuição deficiente do sangue para os membros
+Bloqueio numa das artérias pulmonares nos pulmões
+Inflamação e cicatrização do revestimento dos pulmões com problemas respiratórios
+Passagem de sangue vermelho vivo pelo ânus
+Hemorragia no trato gastrointestinal
+Rutura do intestino
+Inflamação do revestimento do esófago
+Inflamação do revestimento do intestino grosso, que pode ser acompanhada por hemorragia intestinal 
+ou retal (observada apenas em combinação com cisplatina)
+Inflamação, edema, eritema e erosão da superfície mucosa do esófago causada pela radioterapia
+Inflamação do pulmão causada pela radioterapia
+Raros (podem afetar até 1 em cada 1.000 pessoas)
+Destruição dos glóbulos vermelhos
+Choque anafilático (reação alérgica grave)
+Condição inflamatória do fígado
+Vermelhidão da pele
+Erupção cutânea que se desenvolve numa área previamente irradiada
+Muito raros (podem afetar até 1 em cada 10.000 pessoas)
+Infeções da pele e tecidos moles
+Síndrome de Stevens-Johnson (um tipo de reação grave da pele e das mucosas que pode ser fatal)
+Necrose epidérmica tóxica (um tipo de reação da pele grave que pode ser fatal)
+Doença auto-imune que resulta em erupções cutâneas e bolhas nas pernas, braços e abdómen
+Inflamação da pele caracterizada pela presença de bolhas preenchidas com líquido
+68
+Fragilidade da pele, bolhas e erosões, e cicatrizes da pele
+Vermelhidão, dor e inchaço principalmente dos membros inferiores
+Inflamação da pele e gordura abaixo da pele (pseudocelulite)
+Inflamação da pele (dermatite)
+Pele inflamada, com coceira, vermelha, gretada e áspera
+Comichão local intensa
+Desconhecidos (a frequência não pode ser estimada a partir dos dados disponíveis)
+Forma de diabetes principalmente devido a patologia do rim
+Distúrbios dos rins que envolve a morte de células epiteliais tubulares que formam os túbulos renais
+Pode ter algum destes sintomas e/ou condições. Caso tenha algum destes efeitos indesejáveis, deve
+informar o seu médico logo que possível. 
+Se estiver preocupado com algum efeito indesejável, fale com o seu médico.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar pemetrexed"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar pemetrexed"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco para injetáveis e 
+embalagem exterior, após VAL. O prazo de validade corresponde ao último dia do mês indicado.
+Este medicamento não requer condições especiais de conservação.
+Soluções reconstituídas e para perfusão: O produto deve ser utilizado de imediato. Quando preparado 
+como indicado, as propriedades químicas e físicas da estabilidade em uso das soluções de 
+pemetrexedo ficaram demonstradas durante 24 horas a temperatura de refrigeração (2 °C a 8 °C).
+A solução resultante é límpida e a coloração obtida pode ir desde incolor a amarelo ou amarelo 
+esverdeado sem afetar adversamente a qualidade do produto. Os medicamentos destinados a
+administração parentérica têm que ser visualmente inspecionados antes da administração para detetar 
+eventuais partículas em suspensão e descoloração. Se forem detetadas partículas em suspensão não 
+administre.
+Este medicamento é de administração única. Qualquer porção da solução não utilizada deve ser 
+eliminada de acordo com os procedimentos locais.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Pemetrexedo Pfizer
+A substância ativa é pemetrexedo.
+Pemetrexedo Pfizer 100 mg pó para concentrado para solução para perfusão: cada frasco para
+injetáveis contém 100 miligramas de pemetrexedo (sob a forma de pemetrexedo dissódico hemipenta-
+hidratado).
+69
+Pemetrexedo Pfizer 500 mg pó para concentrado para solução para perfusão: cada frasco para 
+injetáveis contém 500 miligramas de pemetrexedo (sob a forma de pemetrexedo dissódico hemipenta-
+hidratado).
+Pemetrexedo Pfizer 1.000 mg pó para concentrado para solução para perfusão: cada frasco para 
+injetáveis contém 1.000 miligramas de pemetrexedo (sob a forma de pemetrexedo dissódico
+hemipenta-hidratado).
+Após reconstituição, a solução contém 25 mg/ml de pemetrexedo. O profissional de saúde terá que
+fazer uma nova diluição antes da administração.
+Os outros ingredientes são manitol (E421), ácido clorídrico (para ajuste do pH) e hidróxido de sódio 
+(para ajuste do pH). Ver secção 2 “Pemetrexedo Pfizer contém sódio".
+Qual o aspeto de Pemetrexedo Pfizer e conteúdo da embalagem
+Pemetrexedo Pfizer é um pó para concentrado para solução para perfusão em frasco para injetáveis de 
+vidro. É um pó liofilizado branco a amarelo claro ou amarelo-esverdeado.
+Cada embalagem de Pemetrexedo Pfizer contém um frasco para injetáveis de 100 mg, 500 mg ou 
+1.000 mg de pemetrexedo (sob a forma de pemetrexedo dissódico).
+Titular da Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante
+Pfizer Service Company BV
+Hoge Wei 10
+1930 Zaventem
+Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+BE
+Pfizer SA/NV
+Tél/Tel: +32 2 554 62 11
+LT
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. + 370 52 51 4000
+BG
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+LU
+Pfizer SA/NV
+Tél/Tel: +32 2 554 62 11
+CZ
+Pfizer, spol. s r.o.
+Tel: +420-283-004-111
+HU
+Pfizer Kft.
+Tel: + 36 1 488 37 00
+DK
+Pfizer ApS
+Tlf: + 45 44 20 11 00
+MT
+Drugsales Ltd 
+Tel.: + 356 21 419 070/1/2
+DE 
+PFIZER PHARMA GmbH 
+Tel: + 49 (0)30 550055-51000
+NL
+Pfizer bv
+Tel: +31 (0) 800 63 34 636
+70
+EE
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+NO
+Pfizer AS
+Tlf: +47 67 52 61 00
+EL
+Pfizer ΕΛΛΑΣ A.E.
+Τηλ.: +30 210 6785 800
+AT
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+ES
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+PL
+Pfizer Polska Sp. z o.o.
+Tel: +48 22 335 61 00
+FR
+Pfizer
+Tél: + 33 (0)1 58 07 34 40
+PT
+Laboratórios Pfizer, Lda.
+Tel: + 351 21 423 55 00
+HR
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+RO
+Pfizer România S.R.L.
+Tel: +40 (0)21 207 28 00
+IE
+Pfizer Healthcare Ireland 
+Tel: 1800 633 363 (toll free)
++44 (0) 1304 616161
+SI
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+IS
+Icepharma hf.
+Sími: +354 540 8000
+SK
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: +421-2-3355 5500
+IT
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+FI
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+CY
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ.: +357 22817690
+SE
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+LV
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: + 371 670 35 775
+UK (Northern Ireland)
+Pfizer Limited
+Tel: + 44 (0) 1304 616161
+Este folheto foi revisto pela última vez em 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1018,6 +1507,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-e0aa2bfe700a8fcff3620d6e0a596f13"
 * entry[0].resource = composition-da-e0aa2bfe700a8fcff3620d6e0a596f13
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe0aa2bfe700a8fcff3620d6e0a596f13"
+* entry[=].resource = mpe0aa2bfe700a8fcff3620d6e0a596f13
+                            
+                    
+Instance: bundlepackageleaflet-pt-e0aa2bfe700a8fcff3620d6e0a596f13
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pemetrexed Package Leaflet for language pt"
+Description: "ePI document Bundle for pemetrexed Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-e0aa2bfe700a8fcff3620d6e0a596f13"
+* entry[0].resource = composition-pt-e0aa2bfe700a8fcff3620d6e0a596f13
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpe0aa2bfe700a8fcff3620d6e0a596f13"
@@ -1119,6 +1630,18 @@ RuleSet: e0aa2bfe700a8fcff3620d6e0a596f13ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-e0aa2bfe700a8fcff3620d6e0a596f13) // pemetrexed pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

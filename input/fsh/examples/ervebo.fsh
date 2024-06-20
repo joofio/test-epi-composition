@@ -1215,6 +1215,644 @@ affaldsvæske fra vask af øjne opsamles og dekontamineres, før det hældes i a
 
 
 
+Instance: composition-pt-b1355bc14a128fa4430d01fced9887b5
+InstanceOf: CompositionUvEpi
+Title: "Composition for ervebo Package Leaflet"
+Description:  "Composition for ervebo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb1355bc14a128fa4430d01fced9887b5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ervebo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Ervebo e para que é utilizado 
+2. O que precisa de saber antes de você ou o seu filho receberem Ervebo 
+3. Como é administrado Ervebo
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Ervebo
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ervebo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ervebo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Ervebo é uma vacina para pessoas com 1 ou mais anos de idade.</p>
+</li>
+<li>
+<p>Ervebo é administrado para proteger as pessoas contra a doença por vírus Ébola que é causada
+pelo vírus Ébola Zaire, que é um tipo de vírus Ébola. Esta vacina não irá proteger contra os
+outros tipos de vírus Ébola.</p>
+</li>
+<li>
+<p>Uma vez que Ervebo não contém o vírus Ébola inteiro, não poderá causar às pessoas a doença
+por vírus Ébola.
+O seu profissional de saúde pode recomendar a administração desta vacina numa situação de
+emergência que envolva a propagação da doença por vírus Ébola.
+O que é o Ébola?</p>
+</li>
+<li>
+<p>O Ébola é uma doença grave causada por um vírus. Se as pessoas tiverem Ébola podem morrer.
+As pessoas apanham Ébola a partir de pessoas ou animais que estão infetados com Ébola ou que
+morreram de Ébola.</p>
+</li>
+<li>
+<p>As pessoas podem apanhar Ébola a partir de sangue ou fluidos corporais como urina, fezes,
+saliva, vómito, suor, leite materno, sémen e fluidos vaginais de pessoas infetadas pelo vírus
+Ébola.</p>
+</li>
+<li>
+<p>As pessoas também podem apanhar Ébola a partir de coisas que tenham estado em contacto com
+o sangue ou fluidos corporais de uma pessoa ou animal com Ébola (como roupa ou objetos em
+contacto direto).</p>
+</li>
+<li>
+<p>O Ébola não se espalha pelo ar, água ou comida.
+O seu profissional de saúde irá falar consigo e depois podem decidir em conjunto se você ou o seu
+filho deverão receber esta vacina.
+26</p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ervebo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ervebo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não receba Ervebo se:</p>
+<ul>
+<li>
+<p>tem alergia a Ervebo, arroz ou a qualquer outro componente desta vacina (indicados na
+secção 6). 
+Não deverá receber Ervebo se alguma das situações acima se aplicar a si. Se não tiver a certeza, fale
+com o seu profissional de saúde.
+Advertências e precauções 
+Esta vacina poderá não proteger todas as pessoas que são vacinadas e o período de proteção contra o
+Ébola conferido por Ervebo é desconhecido.
+Continue a seguir as recomendações do seu profissional de saúde para se proteger da infeção por
+Ébola após receber esta vacina.
+Lavar as mãos:
+Lavar devidamente as mãos é a forma mais efetiva para prevenir a propagação de germes perigosos,
+como o vírus Ébola. Diminui o número de germes nas mãos e por isso limita a sua propagação pessoa
+a pessoa.
+Abaixo estão descritos métodos apropriados para a lavagem das mãos;</p>
+</li>
+<li>
+<p>Usar sabão e água quando as mãos estiverem com sujidade, sangue ou outros fluidos corporais.
+Não há necessidade de utilizar sabonetes antimicrobianos para lavagem das mãos.</p>
+</li>
+<li>
+<p>Usar desinfetante para as mãos à base de álcool quando as mãos não estiverem sujas. Não usar
+desinfetantes para as mãos à base de álcool quando as mãos estiverem com sujidade, sangue ou
+outros fluidos corporais.
+Numa área afetada por Ébola:
+Enquanto estiver numa área afetada por Ébola é importante evitar o seguinte: </p>
+</li>
+<li>
+<p>Contacto com sangue e fluidos corporais (tais como urina, fezes, saliva, suor, vómito, leite
+materno, sémen e fluidos vaginais).</p>
+</li>
+<li>
+<p>Objetos que possam ter estado em contacto com o sangue ou fluidos corporais de uma pessoa
+infetada (tais como vestuário, roupa de cama, agulhas e equipamento médico).</p>
+</li>
+<li>
+<p>Funerais ou rituais fúnebres que requeiram o manuseamento do corpo de alguém que morreu de
+Ébola.</p>
+</li>
+<li>
+<p>Contacto com morcegos, símios e macacos ou com sangue, fluidos e carne crua preparada a
+partir destes animais (carne de animais selvagens) ou carne de origem desconhecida.</p>
+</li>
+<li>
+<p>Contacto com sémen de um homem que teve Ébola. Deverá seguir práticas de sexo seguro até
+saber que o vírus foi eliminado do sémen.
+No caso de erupção na pele:
+Se surgir uma erupção na zona onde a pele foi perfurada após receber Ervebo, tape-a até que esteja
+cicatrizada. Coloque os pensos e gaze usados num recipiente fechado, se possível, e deite-os fora nos
+contentores de lixo para assegurar que pessoas com um sistema imunitário enfraquecido ou animais
+não entram em contacto com os pensos e gaze.
+Cuidados a ter com as crianças que receberam Ervebo:
+Durante pelo menos 6 semanas depois de as crianças receberem esta vacina, é importante que lave
+bem as suas mãos depois de ter estado em contacto com sangue ou fluidos corporais de crianças
+vacinadas. Se possível, lave as fraldas sujas com detergentes/desinfectantes adequados ou, se utilizar
+fraldas descartáveis, feche-as num saco de plástico duplo e deite-as no lixo doméstico.
+27
+Fale com o seu profissional de saúde antes de receber Ervebo se:
+Teve reações alérgicas a vacinas ou medicamentos</p>
+</li>
+<li>
+<p>Se alguma vez teve uma reação alérgica a uma vacina ou medicamento, fale com o seu
+profissional de saúde antes de receber esta vacina.
+Tem um sistema imunitário enfraquecido
+Se o seu sistema imunitário está enfraquecido (o que significa que o seu corpo é menos eficaz na luta
+contra doenças), pode não ser possível administrar-lhe Ervebo. Poderá ter um sistema imunitário
+enfraquecido se:</p>
+</li>
+<li>
+<p>tem infeção por VIH ou SIDA,</p>
+</li>
+<li>
+<p>está a tomar certos medicamentos que enfraquecem o seu sistema imunitário como
+imunossupressores ou corticosteroides,</p>
+</li>
+<li>
+<p>tem cancro ou um problema no sangue que faz o seu sistema imunitário enfraquecer,</p>
+</li>
+<li>
+<p>um membro da sua família tem um sistema imunitário enfraquecido.
+Se pensa que pode ter um sistema imunitário enfraquecido, pergunte ao seu profissional de saúde se
+deve receber esta vacina. Se receber a vacina e tiver um sistema imunitário enfraquecido, a vacina
+pode não resultar tão bem como nas pessoas com um sistema imunitário normal.
+Está em contacto com indivíduos vulneráveis
+Fale com o seu profissional de saúde se nas 6 semanas após receber Ervebo existir a possibilidade de
+estar em contacto próximo com ou na mesma casa que:</p>
+</li>
+<li>
+<p>bebés com menos de 1 ano de idade,</p>
+</li>
+<li>
+<p>alguém que possa estar grávida ou a amamentar,</p>
+</li>
+<li>
+<p>alguém que tenha um sistema imunitário enfraquecido.
+Isto porque pode transmitir-lhes o vírus da vacina através dos seus fluidos corporais.
+Planeia doar sangue</p>
+</li>
+<li>
+<p>Não dê sangue durante pelo menos 6 semanas após receber esta vacina.
+Está em contacto com animais de quinta
+Assegure que o seu sangue ou fluidos corporais não entram em contacto próximo com animais de
+quinta durante pelo menos 6 semanas após ter recebido esta vacina, uma vez que existe a possibilidade
+de transmitir o vírus da vacina aos animais.
+Tem febre (temperatura elevada)</p>
+</li>
+<li>
+<p>Se tem febre (temperatura elevada), deverá falar com o seu profissional de saúde antes de
+receber Ervebo. A vacinação poderá ter que ser adiada até que a febre passe.</p>
+</li>
+<li>
+<p>Uma infeção ligeira como uma constipação não deverá ser um problema mas fale com o seu
+profissional de saúde antes de receber Ervebo.
+Tem uma perturbação hemorrágica ou faz nódoas negras com facilidade</p>
+</li>
+<li>
+<p>Fale com o seu profissional de saúde se tem hemorragias ou faz nódoas negras facilmente.
+Ervebo pode fazer sangrar ou nódoas negras no local onde a vacina é injetada.
+Teste para Ébola após receber Ervebo</p>
+</li>
+<li>
+<p>Poderá ter um resultado positivo para o vírus Ébola após receber Ervebo. Isto não quer dizer que
+tem Ébola. Informe o seu profissional de saúde que recebeu Ervebo. O seu profissional de saúde
+poderá necessitar fazer outro teste.
+Crianças com menos de 1 ano de idade
+Se a sua criança tiver menos de 1 ano de idade, fale com o seu profissional de saúde. Desconhece-se se
+este medicamento é seguro e funciona em crianças com menos de 1 ano de idade. 
+28
+Outros medicamentos e Ervebo
+Informe o seu profissional de saúde se estiver a tomar, tiver tomado recentemente, ou se vier a tomar
+outros medicamentos ou vacinas.
+Não foram realizados estudos sobre como outros medicamentos ou vacinas poderão interagir com
+Ervebo. A utilização de Ervebo com outras vacinas não é recomendada.
+Se planeia receber sangue ou produtos derivados de sangue
+Não receba esta vacina ao mesmo tempo que recebe sangue ou outros produtos derivados do sangue.
+Ervebo poderá não funcionar tão bem se receber sangue ou produtos derivados do sangue nos 3 meses
+antes ou até 1 mês após a vacinação.
+Gravidez e amamentação</p>
+</li>
+<li>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu
+profissional de saúde antes de receber esta vacina. Eles ajudarão a decidir se deverá receber
+Ervebo.</p>
+</li>
+<li>
+<p>Não engravide nos 2 meses após receber Ervebo. Mulheres com capacidade de engravidar
+devem utilizar um método eficaz de controlo de gravidez. Desconhece-se se Ervebo será
+prejudicial para a mãe ou para o feto. É também desconhecido se pode passar para o bebé
+através do leite materno.</p>
+</li>
+<li>
+<p>Se estiver em contacto próximo ou na mesma habitação com alguém que possa estar grávida ou
+a amamentar, durante as 6 semanas após receber Ervebo, informe o seu profissional de saúde,
+uma vez que pode passar a vacina a essas pessoas através dos seus fluidos corporais.
+Ervebo contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente
+“isento de sódio".</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ervebo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ervebo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ervebo é administrado por um profissional de saúde. É administrado como uma injeção única (dose de
+1 ml) na parte superior do braço ou na zona exterior da coxa.
+Fale com o seu profissional de saúde se tiver dúvidas sobre esta vacina. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todas as vacinas, Ervebo pode causar efeitos indesejáveis, embora estes não se manifestem em
+todas as pessoas.
+Efeitos indesejáveis graves:
+Os efeitos indesejáveis graves são raros. Procure ajuda médica imediatamente se você ou o seu filho
+tiverem sintomas de uma reação alérgica, que podem incluir:</p>
+<ul>
+<li>
+<p>pieira ou dificuldade em respirar,</p>
+</li>
+<li>
+<p>inchaço da cara, lábios, língua ou outras partes do corpo,</p>
+</li>
+<li>
+<p>comichão generalizada, vermelhidão, afrontamento ou borbulhas com comichão na pele.
+Outros efeitos indesejáveis em adultos com 18 ou mais anos de idade:
+Muito frequentes (podem afetar mais do que 1 em 10 pessoas):</p>
+</li>
+<li>
+<p>Dor de cabeça,</p>
+</li>
+<li>
+<p>Dor nas articulações,</p>
+</li>
+<li>
+<p>Dores musculares,
+29</p>
+</li>
+<li>
+<p>Febre,</p>
+</li>
+<li>
+<p>Cansaço,</p>
+</li>
+<li>
+<p>Arrepios,</p>
+</li>
+<li>
+<p>Dor, inchaço ou vermelhidão no local de injeção,</p>
+</li>
+<li>
+<p>Comer menos do que o habitual,</p>
+</li>
+<li>
+<p>Dor de estômago.
+Frequentes (podem afetar até 1 em 10 pessoas):</p>
+</li>
+<li>
+<p>Náuseas,</p>
+</li>
+<li>
+<p>Erupção na pele,</p>
+</li>
+<li>
+<p>Inchaço das articulações,</p>
+</li>
+<li>
+<p>Transpiração excessiva,</p>
+</li>
+<li>
+<p>Sensação de tonturas,</p>
+</li>
+<li>
+<p>Feridas na boca,</p>
+</li>
+<li>
+<p>Comichão no local da injeção.
+A contagem de determinados glóbulos brancos pode diminuir abaixo do normal após a vacinação, mas
+esta diminuição não resultou em doença e as contagens normalizam.
+A maioria dos efeitos indesejáveis desaparecem em alguns dias. A dor e o inchaço das articulações
+podem durar semanas ou meses em algumas pessoas. Em algumas pessoas a dor e o inchaço das
+articulações podem voltar após terem desaparecido inicialmente.
+Efeitos indesejáveis em crianças e adolescentes dos 1 aos 17 anos de idade
+Muito frequentes (podem afetar mais do que 1 em 10 pessoas):</p>
+</li>
+<li>
+<p>Dor de cabeça,</p>
+</li>
+<li>
+<p>Comer menos do que o habitual,</p>
+</li>
+<li>
+<p>Dores musculares,</p>
+</li>
+<li>
+<p>Febre,</p>
+</li>
+<li>
+<p>Cansaço,</p>
+</li>
+<li>
+<p>Arrepios,</p>
+</li>
+<li>
+<p>Dor no local onde o seu filho recebeu esta vacina,</p>
+</li>
+<li>
+<p>Dor de estômago.
+Frequentes (podem afetar até 1 em 10 pessoas):</p>
+</li>
+<li>
+<p>Dor nas articulações,</p>
+</li>
+<li>
+<p>Náuseas,</p>
+</li>
+<li>
+<p>Sensação de tonturas,</p>
+</li>
+<li>
+<p>Transpiração excessiva,</p>
+</li>
+<li>
+<p>Feridas na boca,</p>
+</li>
+<li>
+<p>Choro,</p>
+</li>
+<li>
+<p>Inchaço ou comichão no local onde o seu filho recebeu esta vacina.
+Pouco frequentes (podem afetar até 1 em 100 pessoas):</p>
+</li>
+<li>
+<p>Vermelhidão no local onde o seu filho recebeu esta vacina.
+Fale com o seu profissional de saúde se você ou o seu filho tiverem algum dos efeitos indesejáveis
+acima listados.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste
+folheto, fale com o seu profissional de saúde. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.
+30</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ervebo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ervebo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Manter este medicamento fora da vista e do alcance das crianças.</p>
+</li>
+<li>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco para
+injetáveis e na embalagem exterior após EXP. O prazo de validade corresponde ao último dia do
+mês indicado.</p>
+</li>
+<li>
+<p>Conservar e transportar congelado entre -80ºC a -60ºC.</p>
+</li>
+<li>
+<p>Após descongelar, a vacina deve ser usada imediatamente. Contudo, uma vez descongelada, a
+vacina pode ser conservada até 14 dias entre 2ºC e 8ºC antes da utilização. Rejeite a vacina se
+não for utilizada ao fim de 14 dias. Uma vez descongelada a vacina não pode voltar a ser
+congelada.</p>
+</li>
+<li>
+<p>Após remoção do congelador, o medicamento deve ser marcado com a data em que foi retirado
+do congelador e também com o novo prazo de validade (em vez do prazo de validade inscrito na
+embalagem). </p>
+</li>
+<li>
+<p>Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz.</p>
+</li>
+<li>
+<p>Não utilize esta vacina se observar partículas no líquido.</p>
+</li>
+<li>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
+profissional de saúde como deitar fora os medicamentos que já não utiliza. Estas medidas
+ajudarão a proteger o ambiente.</p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ervebo
+A substância ativa é um vírus vivo da estomatite vesicular. A proteína de superfície do vírus foi
+substituída pelo vírus Ébola Zaire (rVSV∆G-ZEBOV-GP).
+Uma dose (1 ml) contém:
+Vacina contra o Ébola Zaire (rVSV∆G-ZEBOV-GP1,2, viva, atenuada) ≥72 milhões ufp3
+1Vírus da estomatite vesicular recombinante (rVSV) estirpe Indiana com uma supressão da
+glicoproteína (G) do envelope de VSV substituída pela glicoproteína (GP) de superfície da estirpe
+Kikwit 1995 do Vírus Ébola Zaire (ZEBOV)
+2Produzida em células Vero
+3ufp= unidades formadoras de placas
+Este medicamento contém organismos geneticamente modificados (OGMs).
+Esta vacina contém vestígios de proteína de arroz. 
+Esta vacina contém menos do que 1 mmol (23 mg) de sódio por dose.
+Os outros excipientes são albumina sérica humana recombinante, tampão trometamol, água para
+preparações injetáveis, ácido clorídrico, hidróxido de sódio.
+Qual o aspeto de Ervebo e conteúdo da embalagem</p>
+<ul>
+<li>
+<p>Ervebo é uma solução injetável.</p>
+</li>
+<li>
+<p>Ervebo é um líquido incolor a ligeiramente amarelo-acastanhado.</p>
+</li>
+<li>
+<p>Ervebo está disponível em embalagens de 10 frascos para injetáveis.
+Titular da Autorização de Introdução no Mercado <br />
+Fabricante
+Merck Sharp &amp; Dohme B.V. </p>
+</li>
+</ul>
+<p>Burgwedel Biotech GmbH 
+Waarderweg  </p>
+<p>Im Langen Felde 5
+2031 BN Haarlem </p>
+<p>30938 Burgwedel
+Países Baixos </p>
+<p>Alemanha
+31
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@msd.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel.: +370.5.2780.247
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД, 
+тел.: + 359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32 (0) 27766211
+dpoc_belux@msd.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o. 
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: + 36.1.888.5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: + 45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited.
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999(+31 23 5153153)
+medicalinfo.nl@merck.com 
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel.: +48.22.549.51.00
+msdpolska@merck.com
+France
+MSD France
+Tél: +33 (0)1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: +385 1 66 11 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L
+Tel: + 4021 529 29 00
+msdromania@merck.com
+32
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@msd.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: +386.1.520.4201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421 2 58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l. 
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi 
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: +371.67364.224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health) 
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Este folheto foi revisto pela última vez em MM/AAAA.
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+
+
+
 
 
                     
@@ -1256,6 +1894,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-b1355bc14a128fa4430d01fced9887b5"
 * entry[0].resource = composition-da-b1355bc14a128fa4430d01fced9887b5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb1355bc14a128fa4430d01fced9887b5"
+* entry[=].resource = mpb1355bc14a128fa4430d01fced9887b5
+                            
+                    
+Instance: bundlepackageleaflet-pt-b1355bc14a128fa4430d01fced9887b5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ervebo Package Leaflet for language pt"
+Description: "ePI document Bundle for ervebo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-b1355bc14a128fa4430d01fced9887b5"
+* entry[0].resource = composition-pt-b1355bc14a128fa4430d01fced9887b5
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpb1355bc14a128fa4430d01fced9887b5"
@@ -1357,6 +2017,18 @@ RuleSet: b1355bc14a128fa4430d01fced9887b5ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-b1355bc14a128fa4430d01fced9887b5) // ervebo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

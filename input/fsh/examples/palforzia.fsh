@@ -1430,6 +1430,707 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-2a5703f6da594e7a35f6df08af026e1e
+InstanceOf: CompositionUvEpi
+Title: "Composition for palforzia Package Leaflet"
+Description:  "Composition for palforzia Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2a5703f6da594e7a35f6df08af026e1e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - palforzia"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é PALFORZIA e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar PALFORZIA </li>
+<li>Como tomar PALFORZIA </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar PALFORZIA  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é palforzia e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é palforzia e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>PALFORZIA contém proteína de amendoim de pó de semente de amendoim desengordurado. 
+Pertence a uma classe de medicamentos chamada alergénios alimentares. É um tratamento para as 
+pessoas alérgicas ao amendoim (Arachis hypogaea L.). </p>
+<p>PALFORZIA destina-se a crianças e jovens com idade compreendida entre os 4 e os 17 anos e àqueles 
+que atinjam a maioridade enquanto estiverem a fazer o tratamento. </p>
+<p>PALFORZIA funciona em pessoas com alergia ao amendoim ao aumentar gradualmente a capacidade 
+do corpo de tolerar pequenas quantidades de amendoim (dessensibilização). PALFORZIA pode ajudar 
+a reduzir a gravidade de reações alérgicas após entrar em contacto com o amendoim. </p>
+<p>PALFORZIA não é eficaz contra qualquer outra alergia a frutos secos ou alimento. </p>
+<p>Tem de continuar a evitar rigorosamente comer amendoins enquanto estiver a tomar PALFORZIA. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar palforzia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar palforzia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome PALFORZIA 
+- se tem alergia a qualquer excipiente (outros componentes) neste medicamento (indicados na 
+secção 6). 
+- se tem asma grave ou se a sua asma não estiver sob controlo (como avaliado por um médico). 
+- se já teve problemas em engolir ou problemas a longo prazo com o seu sistema digestivo. 
+- se já teve uma doença dos mastócitos grave (segundo a avaliação de um médico). 
+- se teve uma anafilaxia grave ou potencialmente fatal nos 60 dias anteriores ao início do 
+tratamento. </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico antes de tomar PALFORZIA e informe-o sobre quaisquer condições médicas 
+que possa ter. </p>
+<p>Não pode ingerir amendoim ou qualquer outra comida com amendoim na sua dieta enquanto estiver a 
+tomar PALFORZIA. </p>
+<p>É importante manter um registo do número de lote do seu PALFORZIA. Portanto, sempre que receber 
+uma embalagem nova de PALFORZIA, anote a data e o número de lote (que se encontra na 
+embalagem após “Lote") e guarde essa informação num lugar seguro. </p>
+<p>PALFORZIA não trata os sintomas da alergia ao amendoim e não pode tomar PALFORZIA 
+durante uma reação alérgica. </p>
+<p>O seu médico dir-lhe-á qual a melhor altura para iniciar o tratamento, dependendo de quaisquer 
+condições clínicas que tenha. </p>
+<p>PALFORZIA contém a substância a que os doentes com alergia ao amendoim reagem. Podem ocorrer 
+reações alérgicas ao PALFORZIA durante o tratamento. Estas reações ocorrem principalmente nas 
+primeiras duas horas depois de tomar uma dose de PALFORZIA e são geralmente ligeiras ou 
+moderadas, mas ocasionalmente podem ser graves. </p>
+<p>Pare de tomar PALFORZIA e procure tratamento médico de imediato, se tiver algum dos seguintes 
+sintomas: 
+- Dificuldade em respirar 
+- Aperto na garganta ou sensação de enchimento na garganta 
+- Dificuldade em engolir 
+- Alteração na voz 
+- Tonturas ou desmaio ou sentir-se em perigo 
+- Cãibras ou dor no estômago graves, vómitos ou diarreia 
+- Rubor grave ou comichão na pele 
+- Agravamento da asma ou de qualquer outra doença respiratória 
+- Azia, problemas em engolir, dor ao engolir, dor de estômago ou dor no peito que não 
+desaparece ou se agrava </p>
+<p>Certas condições ou fatores podem aumentar a probabilidade de uma reação alérgica. Estes incluem: 
+- Agravamento da asma 
+- Ter uma ferida na boca ou outra lesão na mucosa da boca ou no canal que vai da boca até ao 
+estômago (esófago) 
+- Fazer exercício físico 
+- Tomar um banho ou duche quente 
+- Estar muito cansado ou não ter dormido 
+- No caso das mulheres, estar com o período<br />
+- Tomar certos medicamentos para as dores, como a aspirina ou ibuprofeno 
+- Beber álcool 
+- Estar stressado 
+- Tomar PALFORZIA com o estômago vazio 
+- Ter uma doença como resfriado ou gripe ou outras infecções virais  </p>
+<p>Existem ações que deve tomar para evitar que alguns destes fatores o afetem. Estes fatores incluem: 
+exercício físico, tomar um banho ou um duche quente, beber álcool ou tomar este medicamento com o 
+estômago vazio. Consulte as secções “PALFORZIA com alimentos, bebidas e álcool" e “Instruções 
+posológicas" para obter um aconselhamento sobre estas situações. </p>
+<p>Para todas as outras condições ou fatores acima indicados, fale com o seu médico se experienciar 
+reações alérgicas durante qualquer uma das situações. </p>
+<p>O seu médico receitar-lhe-á adrenalina para se autoinjetar, que deve ter sempre consigo, para o caso de 
+ter uma reação alérgica grave. O seu médico ensinar-lhe-á a reconhecer uma reação alérgica e ensinar-
+lhe-á quando e como usar a adrenalina. Fale com o seu médico e leia o folheto informativo incluso na 
+embalagem da adrenalina, se tiver dúvidas sobre a sua utilização. </p>
+<p>Se utilizar adrenalina, não tome mais doses de PALFORZIA e procure cuidados médicos de 
+emergência logo a seguir. </p>
+<p>A dessensibilização ao amendoim com PALFORZIA demora tempo. A capacidade de tolerar 
+pequenas quantidades gradualmente aumentadas de amendoim foi demonstrada após a conclusão de 
+todos os níveis de dosagem crescente de PALFORZIA e passados, pelo menos, 3 meses de terapêutica 
+de manutenção e isto continua a melhorar com o tempo. </p>
+<p>PALFORZIA tem de ser tomado todos os dias para manter a dessensibilização que fornece. Falhar 
+quaisquer doses pode levar a um risco acrescido de reações alérgicas. </p>
+<p>O tratamento com PALFORZIA pode não funcionar em todos os doentes. </p>
+<p>Crianças e adolescentes </p>
+<p>PALFORZIA destina-se a crianças e jovens com idade compreendida entre os 4 e os 17 anos e àqueles 
+que atinjam a maioridade enquanto estiverem fazer o tratamento. </p>
+<p>Não dê este medicamento a crianças com idade inferior a 4 anos porque desconhece-se se 
+PALFORZIA é seguro e eficaz neste grupo etário. </p>
+<p>Outros medicamentos e PALFORZIA </p>
+<p>Informe o seu médico se estiver a tomar, tiver tomado recentemente ou se vier a tomar outros 
+medicamentos. </p>
+<p>PALFORZIA com alimentos, bebidas e álcool </p>
+<p>PALFORZIA não deve ser misturado com líquido (como por exemplo, água, leite, sumo, sopa, 
+batido). </p>
+<p>Não beba álcool 2 horas antes e 2 horas depois de tomar PALFORZIA, uma vez que isto pode 
+aumentar a probabilidade de uma reação alérgica. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Não comece o tratamento com PALFORZIA, se estiver grávida ou planear engravidar. </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>PALFORZIA pode ter um pequeno efeito na sua capacidade de conduzir veículos, andar de bicicleta 
+ou operar maquinaria. Tem de ter precaução nas 2 horas seguintes à toma de uma dose de 
+PALFORZIA, caso tenha uma reação alérgica que afete a sua capacidade de conduzir veículos, andar 
+de bicicleta ou utilizar maquinaria. Aguarde até todos os sintomas de tais reações alérgicas tiverem 
+desaparecido antes de conduzir, andar de bicicleta ou utilizar maquinaria. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar palforzia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar palforzia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico, se tiver 
+dúvidas. </p>
+<p>PALFORZIA é prescrito por médicos com experiência no diagnóstico e tratamento da alergia e de 
+reações alérgicas, incluindo anafilaxia. </p>
+<p>Como devo tomar PALFORZIA? </p>
+<p>Posologia </p>
+<p>Existem 3 fases de tratamento com PALFORZIA: escalonamento da dose inicial, dosagem crescente e 
+manutenção. Tem de concluir estas fases de tratamento pela ordem prescrita pelo seu médico. Durante 
+as fases de escalonamento da dose inicial e dosagem crescente, a dose de PALFORZIA é aumentada 
+de uma forma exata. Durante a fase de manutenção, toma a mesma dose de PALFORZIA todos os 
+dias. </p>
+<p>Deve tomar PALFORZIA todos os dias para manter o seu nível de dessensibilização ao amendoim. </p>
+<p>Informe o seu médico no dia de cada visita à clínica se não se sentir bem ou se sentir que a sua asma 
+está menos controlada. </p>
+<p>Escalonamento da dose inicial </p>
+<p>Será tratado com as primeiras doses (escalonamento da dose inicial) de PALFORZIA durante um 
+período de aproximadamente 4 a 5 horas na clínica do seu médico. No primeiro dia, será tratado com 
+0,5 mg, 1 mg, 1,5 mg, 3 mg e 6 mg de PALFORZIA. </p>
+<p>Dosagem crescente </p>
+<p>Se tolerar a fase inicial de escalonamento da dose, ser-lhe-á pedido para voltar à clínica do seu médico 
+noutro dia (normalmente no dia seguinte) para iniciar a fase de dosagem crescente. </p>
+<p>Existem 11 níveis de dose diferentes na fase de dosagem crescente, começando com 3 mg de 
+PALFORZIA (nível 1) e aumentando até 300 mg de PALFORZIA (nível 11). </p>
+<p>Os níveis de dosagem crescente são apresentados na seguinte tabela: </p>
+<p>Dose diária 
+Nível de dose 
+Apresentação da dose 
+3 mg 
+nível 1 
+3 × cápsulas de 1 mg (vermelhas) 
+6 mg 
+nível 2 
+6 × cápsulas de 1 mg (vermelhas) 
+12 mg 
+nível 3 
+2 × cápsulas de 1 mg (vermelhas) e 
+1 × cápsula de 10 mg (azul) 
+20 mg 
+nível 4 
+1 × cápsula de 20 mg (branca) 
+40 mg 
+nível 5 
+2 × cápsulas de 20 mg (brancas) 
+80 mg 
+nível 6 
+4 × cápsulas de 20 mg (brancas) 
+120 mg 
+nível 7 
+1 × cápsula de 20 mg (branca) e 
+1 × cápsula de 100 mg (vermelha) 
+160 mg 
+nível 8 
+3 × cápsulas de 20 mg (brancas) e 
+1 × cápsula de 100 mg (vermelha) 
+200 mg 
+nível 9 
+2 × cápsulas de 100 mg (vermelhas) 
+240 mg 
+nível 2 × cápsulas de 20 mg (brancas) e 
+2 × cápsulas de 100 mg (vermelhas) 
+300 mg 
+nível 1 × saqueta de 300 mg </p>
+<p>A primeira dose de cada nível de dosagem crescente é-lhe dada pelo seu médico numa clínica. Se 
+tolerar a primeira dose de um novo nível de dose, o seu médico pedir-lhe-á para continuar a tomar 
+aquela dose todos os dias, em casa, durante cerca de 2 semanas. </p>
+<p>Durante a fase de dosagem crescente, o seu médico voltará a vê-lo aproximadamente a cada 2 semanas 
+para o avaliar para um novo nível de dosagem crescente. </p>
+<p>Tem de concluir todos os 11 níveis de dosagem crescente antes de poder começar o tratamento de 
+manutenção. Demorará, pelo menos, 22 semanas a concluir todos os níveis de dosagem crescente. </p>
+<p>Dose de manutenção </p>
+<p>Se conseguir tolerar o nível 11 da fase de dosagem crescente, o seu médico pedir-lhe-á para continuar 
+a tomar PALFORZIA, com uma dose de 300 mg todos os dias, como terapêutica de manutenção. </p>
+<p>Preparação para a utilização </p>
+<p>PALFORZIA está disponível em cápsulas ou saquetas. Esvazie o pó das cápsulas ou saquetas de 
+PALFORZIA. </p>
+<p>Não engula as cápsulas PALFORZIA. </p>
+<p>Abra a dose diária de PALFORZIA. 
+- Para abrir a cápsula, puxe suavemente as extremidades da cápsula para fora sobre uma taça com 
+comida mole e esvazie o pó para a taça, fazendo rolar cada metade da cápsula entre o dedo 
+indicador e o polegar. Dê pequenos toques na extremidade de cada uma das metades da cápsula 
+para se certificar de que todo o pó foi despejado. 
+- Para abrir uma saqueta, rasgue-a ou corte-a cuidadosamente pela parte de cima, ao longo da 
+linha indicada. Vire a saqueta ao contrário sobre uma taça com comida mole e dê-lhe pequenos 
+toques para se certificar de que todo o pó foi despejado. </p>
+<p>Esvazie a dose total de PALFORZIA pó oral numa pequena quantidade de comida mole à qual não 
+seja alérgico, tal como puré de fruta, iogurte ou pudim de arroz. Certifique-se de que não é alérgico à 
+comida usada para misturar. </p>
+<p>A comida usada para misturar deve estar fria e não mais quente do que a temperatura ambiente.  </p>
+<p>Misture bem. </p>
+<p>Use apenas a quantidade de comida necessária para misturar com PALFORZIA, de modo a que possa 
+consumir tudo em poucas colheradas para tomar a dose total. </p>
+<p>Tome PALFORZIA imediatamente após a mistura. No entanto, se for necessário, pode misturar 
+PALFORZIA com comida e guardar no frigorífico até 8 horas antes da toma. Se não for utilizado em 8 
+horas, elimine-o e prepare uma dose nova. </p>
+<p>Instruções de manuseamento </p>
+<p>Não inale o pó de PALFORZIA, porque isso pode causar problemas respiratórios (agravamento da 
+asma) ou causar uma reação alérgica. </p>
+<p>Lave imediatamente as mãos após o manuseamento das cápsulas ou saquetas de PALFORZIA. </p>
+<p>Quando o seu médico lhe disser que terminou um nível de dosagem crescente, tem de eliminar todas 
+as cápsulas ou saquetas restantes dessa embalagem (ver secção 5) antes de iniciar um novo nível. Isto 
+inclui quaisquer doses adicionais que sejam fornecidas em cada embalagem, se não forem utilizadas. </p>
+<p>Instruções posológicas </p>
+<p>Tome PALFORZIA mais ou menos à mesma hora, todos os dias, com comida, de preferência como 
+parte do seu jantar. Não tome este medicamento de estômago vazio. </p>
+<p>Não tome Palforzia em casa nos dias em que visita o seu médico para avaliação, visto que o seu 
+médico administrar-lhe-á Palforzia nesses dias. </p>
+<p>Cada dose de PALFORZIA deve ser dada às crianças por um adulto e estas têm de ser vigiadas depois 
+durante aproximadamente 1 hora para detetar quaisquer sintomas de uma reação alérgica. </p>
+<p>Não tome nas 2 horas que antecedem a hora de deitar. </p>
+<p>Não tome um banho ou duche quente mesmo antes ou nas 3 horas seguintes a tomar PALFORZIA. </p>
+<p>Não faça exercício mesmo antes ou nas 3 horas seguintes a tomar PALFORZIA. </p>
+<p>Se tiver feito exercício físico ou tiver tomado um banho ou duche quente e se sinta quente, ou estiver a 
+suar e o seu coração estiver a bater depressa, não tome PALFORZIA até ter arrefecido ou o seu ritmo 
+cardíaco (pulsação) tiver regressado ao normal. </p>
+<p>Não tome mais do que a sua dose diária total individual, de acordo com o seu atual nível de dose de 
+PALFORZIA num único dia. </p>
+<p>Se tomar mais PALFORZIA do que deveria </p>
+<p>Tomar PALFORZIA em doses superiores às recomendadas aumenta o risco de reações alérgicas. </p>
+<p>Em caso de reações graves, tais como dificuldade em engolir, dificuldade em respirar, alterações na 
+voz ou sensação de enchimento na garganta, trate as reações com o autoinjetor de adrenalina como 
+instruído pelo seu médico e depois contacte imediatamente um médico. </p>
+<p>Caso se tenha esquecido de tomar PALFORZIA </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>As doses falhadas de PALFORZIA podem fazer com que perca a tolerância ao amendoim que tem 
+vindo a acumular e aumentar o seu risco de reações alérgicas. </p>
+<p>Se falhar a sua dose de PALFORZIA durante 1 a 2 dias seguidos, tome a dose seguinte, à hora normal, 
+no dia seguinte. </p>
+<p>Se falhar a sua dose de PALFORZIA durante 3 dias seguidos ou mais, pare de tomar PALFORZIA e 
+contacte o seu médico para aconselhamento sobre como recomeçar o seu tratamento. </p>
+<p>Se parar de tomar PALFORZIA </p>
+<p>Parar de tomar PALFORZIA pode fazer com que perca a tolerância ao amendoim que tem vindo a 
+acumular e aumentar o seu risco de reações alérgicas. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis importantes </p>
+<p>PALFORZIA pode causar reações alérgicas graves que podem ser potencialmente fatais. Se 
+experienciar algum dos seguintes sintomas, pare de tomar PALFORZIA, trate a reação de acordo com 
+quaisquer instruções fornecidas anteriormente pelo seu médico e, depois contacte um médico 
+imediatamente. 
+- Dificuldade em respirar 
+- Aperto na garganta ou sensação de enchimento na garganta 
+- Dificuldade em engolir ou em falar 
+- Alterações na voz 
+- Tonturas ou desmaio 
+- Cãibras ou dor de estômago graves, vómitos ou diarreia 
+- Rubores graves ou comichão na pele </p>
+<p>PALFORZIA pode causar problemas de estômago e a nível do sistema digestivo, incluindo esofagite 
+eosinofílica. Esta é uma condição que afeta o canal entre a boca e o estômago e que afeta até 1 em 
+1.000 pessoas. Os sintomas de esofagite eosinofílica podem incluir: 
+- Dificuldade em engolir 
+- Comida entalada na garganta 
+- Ardor no peito, boca ou garganta 
+- Regurgitação </p>
+<p>Se tiver estes sintomas de forma persistente, contacte um médico. </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes (podem afetar até 1 em 10 pessoas) 
+- Aperto na garganta 
+- Vómitos 
+- Dor ou desconforto abdominal 
+- Mal-estar 
+- Reação alérgica (ligeira ou moderada) 
+- Tosse 
+- Espirros 
+- Irritação na garganta 
+- Dor de estômago 
+- Formigueiro na boca ou comichão no interior e em redor da boca<br />
+- Urticária 
+- Comichão na pele </p>
+<p>Frequentes (podem afetar até 1 em 100 pessoas) 
+- Dificuldade em respirar 
+- Reações alérgicas (graves) 
+- Pieira </p>
+<p>Reações alérgicas podem afetar diferentes partes do corpo, como abaixo descrito: 
+- Relacionadas com a pele: urticária, rubor ou comichão na pele, inchaço da cara, erupção na pele 
+- Relacionadas com a respiração: dificuldade em respirar, pieira, tosse, aperto na garganta, nariz 
+com corrimento, irritação na garganta 
+- Relacionadas com o estômago: dor de estômago, náuseas, vómitos </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar palforzia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar palforzia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+ou saqueta após “VAL". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar a temperatura inferior a 25°C. </p>
+<p>Não utilize este medicamento se notar quaisquer grumos duros de pó que não se desfaçam facilmente 
+ou se o pó estiver descolorado. </p>
+<p>Não deite fora quaisquer medicamentos no lixo doméstico. Pergunte ao seu farmacêutico como deitar 
+fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de PALFORZIA </p>
+<p>A substância ativa é proteína de amendoim de pó de semente de amendoim (Arachis hypogaea L.) 
+desengordurado. </p>
+<p>Os outros componentes são: </p>
+<p>PALFORZIA 0,5 mg, 1 mg, 10 mg, 20 mg pó oral em cápsulas para abrir 
+Amido de milho parcialmente pré-gelatinizado, celulose microcristalina, sílica anidra coloidal, 
+estearato de magnésio </p>
+<p>PALFORZIA 100 mg pó oral em cápsulas para abrir 
+Celulose microcristalina, sílica anidra coloidal, estearato de magnésio </p>
+<p>PALFORZIA 300 mg pó oral em saqueta 
+Celulose microcristalina, sílica anidra coloidal, estearato de magnésio </p>
+<p>Qual o aspeto de PALFORZIA e conteúdo da embalagem </p>
+<p>Pó oral branco a bege em cápsula para abrir ou saqueta. </p>
+<p>Escalonamento da dose inicial (ver secção 3) </p>
+<p>Cada embalagem exterior contém 13 cápsulas em blisters de 5 unidoses: 
+- 0,5 mg (1 × cápsula de 0,5 mg) 
+- 1 mg (1 × cápsula de 1 mg) 
+- 1,5 mg (1 × cápsula de 0,5 mg e 1 × cápsula de 1 mg) 
+- 3 mg (3 × cápsulas de 1 mg) 
+- 6 mg (6 × cápsulas de 1 mg) </p>
+<p>Fase de dosagem crescente (ver secção 3) </p>
+<p>Nome/Dosagem da cápsula ou 
+saqueta 
+Conteúdo da embalagem por nível de dose (dose diária) 
+PALFORZIA 1 mg<br />
+pó oral em cápsulas para abrir 
+Nível 1 (3 mg por dia): 
+48 cápsulas em blisters 
+16 doses (cada bolsa de blister contém 3 cápsulas de 1 mg) </p>
+<p>Nível 2 (6 mg por dia): 
+96 cápsulas em blisters 
+16 doses (cada bolsa de blister contém 6 cápsulas de 1 mg)  </p>
+<p>PALFORZIA 10 mg 
+PALFORZIA 1 mg<br />
+pó oral em cápsulas para abrir 
+Nível 3 (12 mg por dia): 
+48 cápsulas em blisters 
+16 doses (cada bolsa de blister contém 1 cápsula de 10 mg + 
+2 cápsulas de 1 mg) </p>
+<p>PALFORZIA 20 mg<br />
+pó oral em cápsulas para abrir 
+Nível 4 (20 mg por dia): 
+16 cápsulas em blisters 
+16 doses (cada bolsa de blister contém 1 cápsula de 20 mg)  </p>
+<p>Nível 5 (40 mg por dia): 
+32 cápsulas em blisters 
+16 doses (cada bolsa de blister contém 2 cápsulas de 20 mg) </p>
+<p>Nível 6 (80 mg por dia): 
+64 cápsulas em blisters 
+16 doses (cada bolsa de blister contém 4 cápsulas de 20 mg)  </p>
+<p>PALFORZIA 100 mg<br />
+pó oral em cápsulas para abrir 
+Nível 9 (200 mg por dia): 
+32 cápsulas em blisters 
+16 doses (cada bolsa de blister contém 2 cápsulas de 
+100 mg) </p>
+<p>Nome/Dosagem da cápsula ou 
+saqueta 
+Conteúdo da embalagem por nível de dose (dose diária) 
+PALFORZIA 100 mg 
+PALFORZIA 20 mg<br />
+pó oral em cápsulas para abrir 
+Nível 7 (120 mg por dia): 
+32 cápsulas em blisters 
+16 doses (cada bolsa de blister contém 1 cápsula de 100 mg 
++ 1 cápsula de 20 mg) </p>
+<p>Nível 8 (160 mg por dia): 
+64 cápsulas em blisters 
+16 doses (cada bolsa de blister contém 1 cápsula de 100 mg 
++ 3 cápsulas de 20 mg) </p>
+<p>Nível 10 (240 mg por dia): 
+64 cápsulas em blisters 
+16 doses (cada bolsa de blister contém 2 cápsulas de 100 mg 
++ 2 cápsulas de 20 mg) </p>
+<p>PALFORZIA 300 mg<br />
+pó oral em saqueta 
+Nível 11 (300 mg por dia): 
+15 saquetas (saqueta de 300 mg) </p>
+<p>Dosagem de manutenção (ver secção 3) </p>
+<p>Cada embalagem exterior contém 30 saquetas de 300 mg. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Aimmune Therapeutics Ireland Ltd 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irlanda </p>
+<p>Fabricante 
+Millmount Healthcare Limited<br />
+Block 7, City North Business Campus 
+Stamullen 
+Co Meath 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+de Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irlande<br />
+Tel: +353 (0)1 5827 
+Lietuva 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Airija 
+Tel: +353 (0)1 5827 
+България 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Ирландия<br />
+Teл.: +353 (0)1 5827 
+Luxembourg/Luxemburg 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irlande/Irland 
+Tél/Tel: +353 (0)1 5827 
+Česká republika 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irsko<br />
+Tel: +353 (0)1 5827 
+Magyarország 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Írország 
+Tel.: +353 (0)1 5827 
+Danmark 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irland 
+Tlf: +45 80 711 
+Malta 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+L-Irlanda<br />
+Tel: +353 (0)1 5827 
+Deutschland 
+Aimmune Therapeutics Germany GmbH 
+Mies-van-der-Rohe-Straße 6 
+80807 München 
+Deutschland 
+Tel: +49 (0)800 00 09<br />
+Nederland 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Ierland 
+Tel: +353 (0)1 5827 
+Eesti 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Iirimaa<br />
+Tel: +353 (0)1 5827 
+Norge 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irland<br />
+Tlf: +47 800 60 
+Ελλάδα 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Ιρλανδία<br />
+Τηλ: +353 (0)1 5827 
+Österreich 
+Aimmune Therapeutics Germany GmbH 
+Mies-van-der-Rohe-Straße 6 
+80807 München 
+Deutschland 
+Tel: +43 (0)800 017 
+España 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irlanda<br />
+Tel: +353 (0)1 5827 
+Polska 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irlandia<br />
+Tel.: +353 (0)1 5827 
+France 
+Aimmune Therapeutics France S.A.S 
+34-40 Rue Guynemer 
+92130 Issy-les-Moulineaux 
+France 
+Tél: +33 (0)805 542<br />
+Portugal 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irlanda<br />
+Tel: +353 (0)1 5827 
+Hrvatska 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irska<br />
+Tel: +353 (0)1 5827 
+Ireland 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Ireland <br />
+Tel: (+353) 1800 816 
+România 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irlanda 
+Tel: +353 (0)1 5827 
+Slovenija 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irska<br />
+Tel: +353 (0)1 5827 
+Ísland 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Írland<br />
+Sími: +353 (0)1 5827 
+Slovenská republika 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Írsko<br />
+Tel: +353 (0)1 5827 
+Italia 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irlanda<br />
+Tel: +353 (0)1 5827 
+Suomi/Finland 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irlanti<br />
+Puh/Tel: +358 (0)800 916Κύπρος 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Ιρλανδία<br />
+Τηλ: +353 (0)1 5827 
+Sverige 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Irland<br />
+Tel: +46 (0)200 890<br />
+Latvija 
+Aimmune Therapeutics Ireland Ltd. 
+Block B, The Crescent Building 
+Northwood Crescent, Northwood, Dublin 9 
+D09 C6X8 
+Īrija 
+Tel: +353 (0)1 5827 
+United Kingdom (Northern Ireland) 
+Aimmune Therapeutics UK Ltd. 
+10 Eastbourne Terrace<br />
+London, W2 6LG 
+United Kingdom <br />
+Tel: +44 (0)800 0487 217  </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1471,6 +2172,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-2a5703f6da594e7a35f6df08af026e1e"
 * entry[0].resource = composition-da-2a5703f6da594e7a35f6df08af026e1e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2a5703f6da594e7a35f6df08af026e1e"
+* entry[=].resource = mp2a5703f6da594e7a35f6df08af026e1e
+                            
+                    
+Instance: bundlepackageleaflet-pt-2a5703f6da594e7a35f6df08af026e1e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for palforzia Package Leaflet for language pt"
+Description: "ePI document Bundle for palforzia Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-2a5703f6da594e7a35f6df08af026e1e"
+* entry[0].resource = composition-pt-2a5703f6da594e7a35f6df08af026e1e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp2a5703f6da594e7a35f6df08af026e1e"
@@ -1572,6 +2295,18 @@ RuleSet: 2a5703f6da594e7a35f6df08af026e1eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-2a5703f6da594e7a35f6df08af026e1e) // palforzia pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

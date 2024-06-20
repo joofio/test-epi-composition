@@ -1064,6 +1064,628 @@ hjemmeside. </p>         </div>"""
 
 
 
+Instance: composition-pt-987aff669508e9ccbe676197e17e96d0
+InstanceOf: CompositionUvEpi
+Title: "Composition for tibsovo Package Leaflet"
+Description:  "Composition for tibsovo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp987aff669508e9ccbe676197e17e96d0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tibsovo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Tibsovo e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Tibsovo </li>
+<li>Como tomar Tibsovo </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Tibsovo </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tibsovo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tibsovo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Tibsovo 
+Tibsovo contém a substância ativa ivosidenib. É um medicamento utilizado para tratar cancros 
+específicos, que contêm uma mutação (alteração) no gene que produz uma proteína conhecida por 
+IDH1, que por sua vez desempenha um papel importante na produção de energia para as células. 
+Quando o gene IDH1 está mutado, a proteína IDH1 é alterada e não funciona adequadamente, o que 
+resulta em alterações na célula que podem levar ao desenvolvimento de cancro. Tibsovo bloqueia a 
+forma mutada da proteína IDH1 e ajuda a retardar ou impedir o crescimento do cancro.  </p>
+<p>Para que é utilizado Tibsovo 
+Tibsovo é utilizado para tratar adultos com: </p>
+<ul>
+<li>
+<p>leucemia mieloide aguda (LMA). Quando utilizado em doentes com LMA, Tibsovo será 
+administrado em combinação com outro medicamento anticancerígeno, denominado “azacitidina". </p>
+</li>
+<li>
+<p>cancro das vias biliares (também conhecido como “colangiocarcinoma"). Tibsovo é utilizado 
+isoladamente para tratar doentes cujo cancro das vias biliares se espalhou para outras partes do 
+corpo e que foram tratados com, pelo menos, uma terapêutica anterior. 
+Tibsovo é apenas utilizado em doentes cuja LMA ou cancro das vias biliares está relacionado com 
+uma alteração (mutação) na proteína IDH1.  </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tibsovo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tibsovo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu médico irá realizar um teste para verificar se tem uma mutação na proteína IDH1, antes de 
+decidir se este medicamento é o tratamento certo para si. </p>
+<p>Não tome Tibsovo </p>
+<ul>
+<li>
+<p>se tem alergia ao ivosidenib ou a qualquer outro componente deste medicamento (indicados 
+na secção 6); </p>
+</li>
+<li>
+<p>se já está a tomar medicamentos como dabigatrano (um medicamento utilizado para prevenir a 
+formação de coágulos sanguíneos), hipericão (uma planta medicinal usada para a depressão e 
+ansiedade), rifampicina (um medicamento utilizado para o tratamento de infeções bacterianas) 
+ou certos medicamentos utilizados para tratar a epilepsia (por exemplo, carbamazepina, 
+fenobarbital, fenitoína). </p>
+</li>
+<li>
+<p>se tem um problema de coração com o qual nasceu, denominado “síndrome do segmento QTc 
+longo congénito". </p>
+</li>
+<li>
+<p>se tem história familiar de morte súbita ou um batimento cardíaco anormal ou irregular nas 
+câmaras inferiores do coração. </p>
+</li>
+<li>
+<p>se tem uma anomalia grave da atividade elétrica do coração que afeta o seu ritmo, denominado 
+“prolongamento do intervalo QTc". </p>
+</li>
+</ul>
+<p>Não tome Tibsovo se alguma das situações acima se aplica a si. Se tiver dúvidas, fale com o seu 
+médico ou enfermeiro. </p>
+<p>Advertências e precauções </p>
+<p>Síndrome de diferenciação em doentes com LMA: </p>
+<p>Tibsovo pode causar uma condição grave conhecida como síndrome de diferenciação em doentes 
+com LMA. Esta é uma condição que afeta as suas células sanguíneas e pode apresentar risco de vida 
+se não for tratada. </p>
+<p>Procure assistência médica urgente se tiver algum dos seguintes sintomas após tomar Tibsovo: 
+● febre, 
+● tosse, 
+● dificuldade em respirar, 
+● erupção na pele, 
+● diminuição da necessidade de urinar, 
+● tonturas ou sensação de desmaio, 
+● ganho de peso rápido, 
+● inchaço dos braços ou pernas. </p>
+<p>Estes podem ser sinais de síndrome de diferenciação.<br />
+A embalagem contém um cartão de alerta do doente para andar sempre consigo. Este contém 
+informação importante para si e para os seus profissionais de saúde sobre o que fazer se tiver algum 
+dos sintomas da síndrome de diferenciação (ver secção 4). 
+Prolongamento do intervalo QTc: 
+Tibsovo pode causar uma condição grave, conhecida como prolongamento do intervalo QTc, 
+que pode causar batimentos cardíacos irregulares e arritmias potencialmente fatais (atividade 
+elétrica anormal do coração, o que afeta o seu ritmo). O seu médico tem de verificar a atividade 
+elétrica do seu coração antes e durante o tratamento com Tibsovo (ver “Exames regulares").<br />
+Procure assistência médica urgente se sofrer tonturas, sensação de desmaio, palpitações ou 
+desmaiar mesmo (ver também secção 4) após tomar Tibsovo.<br />
+Durante o tratamento, informe os seus médicos de que está a tomar Tibsovo antes de iniciar 
+qualquer medicamento novo, uma vez que estes podem aumentar o risco de ritmo cardíaco 
+anormal. </p>
+<p>Se tiver algum dos efeitos indesejáveis graves acima, o seu médico pode dar-lhe outros medicamentos 
+para tratá-los e pode dizer-lhe para parar de tomar Tibsovo durante algum tempo, ou parar de o tomar 
+completamente. </p>
+<p>Fale com o seu médico antes de tomar Tibsovo se: </p>
+<ul>
+<li>
+<p>tem problemas de coração ou tem problemas com níveis anormais de eletrólitos (tais como 
+sódio, potássio, cálcio ou magnésio); </p>
+</li>
+<li>
+<p>está a tomar certos medicamentos que podem afetar o coração (por exemplo, aqueles usados 
+para prevenir a arritmia, chamados antiarrítmicos, alguns antibióticos, alguns antifúngicos e 
+aqueles usados para prevenir náuseas e vómitos - ver “Outros medicamentos e Tibsovo"); </p>
+</li>
+<li>
+<p>tem problemas de rins; </p>
+</li>
+<li>
+<p>tem problemas de fígado. </p>
+</li>
+</ul>
+<p>Exames regulares 
+Será cuidadosamente monitorizado pelo seu médico, antes e durante o tratamento com Tibsovo. Terá 
+de fazer eletrocardiogramas regulares (ECG; um registo da atividade elétrica do seu coração) para 
+monitorizar o seu batimento cardíaco. Ser-lhe-á feito um ECG antes de iniciar o tratamento com 
+Tibsovo, uma vez por semana durante as primeiras três semanas de tratamento e, depois, mensalmente. 
+Podem ser realizados ECG adicionais, mediante indicação do seu médico. Se começar a tomar certos 
+medicamentos que podem afetar o seu coração, será submetido a um ECG antes de iniciar e durante o 
+tratamento com o novo medicamento, conforme necessário. 
+Fará também análises ao sangue antes de iniciar o tratamento com Tibsovo e, posteriormente, de 
+forma regular. 
+Se for necessário, o seu médico pode reduzir a sua dose de Tibsovo, interrompê-lo temporariamente, 
+ou parar completamente. </p>
+<p>Crianças e adolescentes 
+Não administre este medicamento a crianças e adolescentes com idade inferior a 18 anos, pois não há 
+informação sobre a sua utilização neste grupo etário. </p>
+<p>Outros medicamentos e Tibsovo 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. Isto deve-se ao facto de poderem reduzir a eficácia de Tibsovo ou aumentar o risco de 
+efeitos indesejáveis, ou Tibsovo pode afetar a forma como estes outros medicamentos atuam.  </p>
+<p>Em particular, deve informar o seu médico se estiver a tomar algum dos seguintes medicamentos 
+para que este possa decidir se o seu tratamento precisa de ser alterado: </p>
+<ul>
+<li>
+<p>antibióticos utilizados para infeções bacterianas (por exemplo, eritromicina, claritromicina, 
+benzilpenicilina, ciprofloxacina, levofloxacina); </p>
+</li>
+<li>
+<p>varfarina (utilizada para prevenir a formação de coágulos sanguíneos); </p>
+</li>
+<li>
+<p>medicamentos utilizados para infeções fúngicas (por exemplo, itraconazol, cetoconazol, 
+fluconazol, isavuconazol, posaconazol, voriconazol); </p>
+</li>
+<li>
+<p>medicamentos que afetam o seu batimento cardíaco, conhecidos como antiarrítmicos (por 
+exemplo, diltiazem, verapamilo, quinidina); </p>
+</li>
+<li>
+<p>medicamentos utilizados para parar as náuseas e vómitos, conhecidos como antieméticos 
+(por exemplo, aprepitant, ondansetrom, tropisetrom, granisetrom); </p>
+</li>
+<li>
+<p>medicamentos utilizados após transplantes de órgãos, conhecidos como imunossupressores 
+(por exemplo, ciclosporina, everolímus, sirolímus, tacrolímus); </p>
+</li>
+<li>
+<p>medicamentos utilizados para o VIH (por exemplo, raltegravir, ritonavir); </p>
+</li>
+<li>
+<p>alfentanilo (utilizado para anestesia em cirurgia); </p>
+</li>
+<li>
+<p>fentanilo (utilizado para a dor intensa); </p>
+</li>
+<li>
+<p>pimozida (utilizada para a esquizofrenia); </p>
+</li>
+<li>
+<p>medicamentos utilizados para o cancro (por exemplo, ciclofosfamida, ifosfamida, paclitaxel); </p>
+</li>
+<li>
+<p>metadona (utilizada para dependência de morfina ou heroína, ou dor intensa); </p>
+</li>
+<li>
+<p>medicamentos utilizados para a diabetes tipo 2 (por exemplo, pioglitazona, repaglinida); </p>
+</li>
+<li>
+<p>omeprazol (utilizado para úlceras do estômago e refluxo ácido); </p>
+</li>
+<li>
+<p>furosemida (utilizada para a acumulação de líquidos, conhecida como edema); </p>
+</li>
+<li>
+<p>medicamentos utilizados para o colesterol alto, conhecidos como estatinas (por exemplo, 
+atorvastatina, pravastatina, rosuvastatina). </p>
+</li>
+<li>
+<p>lamotrigina (utilizada para a epilepsia). </p>
+</li>
+</ul>
+<p>Tibsovo com alimentos e bebidas 
+Não ingira toranja ou sumo de toranja durante o tratamento com Tibsovo, uma vez que pode afetar a 
+forma como este medicamento atua. </p>
+<p>Gravidez, amamentação e fertilidade 
+A utilização de Tibsovo não é recomendada durante a gravidez, uma vez que pode prejudicar o feto. 
+As mulheres em idade fértil devem fazer um teste de gravidez antes de iniciarem o tratamento com 
+Tibsovo e devem evitar engravidar durante o tratamento.  </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. Contacte imediatamente o seu médico ou enfermeiro se ficar 
+grávida enquanto estiver a tomar Tibsovo. </p>
+<p>Contraceção 
+Tibsovo não deve ser utilizado durante a gravidez, uma vez que pode prejudicar o feto. Mulheres que 
+possam engravidar ou homens com parceiras que possam engravidar têm de utilizar contraceção 
+eficaz, para evitar uma gravidez durante o tratamento com Tibsovo e durante, pelo menos, 1 mês após 
+a última dose. </p>
+<p>Tibsovo pode impedir que os contracetivos hormonais funcionem corretamente. Se usa ou a sua 
+parceira usa um contracetivo hormonal (por exemplo, pílulas, adesivos ou implantes contracetivos), 
+tem de usar também um método de barreira (por exemplo, preservativos ou diafragma) para evitar 
+uma gravidez. Fale com o seu médico ou enfermeiro sobre o método contracetivo certo para si. </p>
+<p>Amamentação 
+Desconhece-se se Tibsovo passa para o leite materno. Não amamente o seu bebé durante o tratamento 
+com Tibsovo e durante, pelo menos, 1 mês após a última dose. </p>
+<p>Fertilidade 
+Desconhece-se se Tibsovo afeta a fertilidade. Se estiver preocupado com a sua fertilidade durante o 
+tratamento com Tibsovo, fale com o seu médico. </p>
+<p>Condução de veículos e utilização de máquinas 
+Este medicamento tem pouca influência na sua capacidade de conduzir ou utilizar quaisquer 
+ferramentas ou máquinas. Se se sentir indisposto depois de tomar Tibsovo, não conduza nem utilize 
+quaisquer ferramentas ou máquinas até se sentir bem novamente. </p>
+<p>Tibsovo contém lactose e sódio 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tibsovo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tibsovo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+enfermeiro se tiver dúvidas. </p>
+<p>A dose recomendada é de 2 comprimidos (500 mg de ivosidenib) que devem ser tomados uma vez 
+por dia aproximadamente à mesma hora todos os dias. </p>
+<p>O seu médico pode dizer-lhe para tomar 1 comprimido (250 mg de ivosidenib) se estiver a tomar 
+outros medicamentos ou para ajudá-lo a tolerar melhor alguns efeitos indesejáveis possíveis. </p>
+<ul>
+<li>
+<p>Tome os comprimidos sem alimentos. Não coma nada 2 horas antes e 1 hora depois de tomar 
+os comprimidos. </p>
+</li>
+<li>
+<p>Engula os comprimidos inteiros com água. </p>
+</li>
+<li>
+<p>Não engula o exsicante que se encontra no frasco. O exsicante ajuda a proteger os comprimidos 
+da humidade (ver secção 5 e secção 6.). </p>
+</li>
+<li>
+<p>Se vomitar depois de tomar a sua dose habitual, não tome comprimidos adicionais. Tome a sua 
+próxima dose como habitualmente no dia seguinte. </p>
+</li>
+</ul>
+<p>Se tomar mais Tibsovo do que deveria 
+Se tomar acidentalmente mais comprimidos do que os receitados pelo seu médico, procure 
+assistência médica urgente e leve o frasco do medicamento consigo. </p>
+<p>Caso se tenha esquecido de tomar Tibsovo 
+Se se esquecer de uma dose ou não a tomar à hora habitual, tome os comprimidos o mais depressa 
+possível, a menos que a próxima dose deva ser tomada dentro de 12 horas. Não tome duas doses num 
+intervalo de 12 horas. Tome a próxima dose como habitualmente no dia seguinte. </p>
+<p>Quanto tempo tomar Tibsovo<br />
+Deve continuar a tomar este medicamento até que o seu médico lhe diga para parar. Não pare de tomar 
+os comprimidos antes de falar primeiro com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves  </p>
+<p>Procure assistência médica urgente se tiver algum dos seguintes efeitos indesejáveis. Os sintomas 
+listados abaixo podem dever-se a condições graves conhecidas como síndrome de diferenciação ou 
+prolongamento do intervalo QTc, que podem ambas ser potencialmente fatais: </p>
+<ul>
+<li>Síndrome de diferenciação 
+Contacte o seu médico imediatamente se tiver algum dos seguintes sintomas: </li>
+</ul>
+<p>● febre, </p>
+<p>● tosse, </p>
+<p>● dificuldade em respirar, </p>
+<p>● erupção na pele, </p>
+<p>● diminuição da necessidade de urinar, </p>
+<p>● tonturas ou sensação de desmaio, </p>
+<p>● ganho de peso rápido, </p>
+<p>● inchaço dos braços ou pernas.  </p>
+<p>Alguns ou todos estes sintomas podem ser sinais de uma condição chamada síndrome de diferenciação 
+(pode afetar mais de 1 em cada 10 pessoas). 
+A síndrome de diferenciação em doentes com LMA ocorreu até 46 dias após o início de Tibsovo. </p>
+<ul>
+<li>Problemas do ritmo cardíaco (prolongamento do intervalo QTc) 
+Contacte o seu médico imediatamente se tiver uma alteração no batimento cardíaco, ou se sentir: 
+tonturas, sensação de desmaio ou desmaiar mesmo. Estes podem ser sinais de um problema cardíaco 
+chamado prolongamento QT (pode afetar mais de 1 em cada 10 pessoas). </li>
+</ul>
+<p>Outros efeitos indesejáveis 
+Informe o seu médico se detetar algum dos seguintes efeitos indesejáveis: </p>
+<p>Para doentes com LMA<br />
+Muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>vómitos; </p>
+</li>
+<li>
+<p>neutropenia (níveis baixos de neutrófilos, um tipo de glóbulos brancos que combate infeções); </p>
+</li>
+<li>
+<p>trombocitopenia (níveis baixos de plaquetas sanguíneas, que podem levar a hemorragias e 
+nódoas negras); </p>
+</li>
+<li>
+<p>leucocitose (níveis elevados de glóbulos brancos); </p>
+</li>
+<li>
+<p>insónia (dificuldade em dormir); </p>
+</li>
+<li>
+<p>dor nas extremidades, dor nas articulações; </p>
+</li>
+<li>
+<p>dor de cabeça; </p>
+</li>
+<li>
+<p>dor nas costas. </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar mais de 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>dor na boca ou garganta; </p>
+</li>
+<li>
+<p>leucopenia (níveis baixos de glóbulos brancos). </p>
+</li>
+</ul>
+<p>Para doentes com cancro das vias biliares 
+Muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>cansaço; </p>
+</li>
+<li>
+<p>náuseas; </p>
+</li>
+<li>
+<p>dor de barriga; </p>
+</li>
+<li>
+<p>diarreia; </p>
+</li>
+<li>
+<p>apetite diminuído; </p>
+</li>
+<li>
+<p>ascite (acumulação de líquido no abdómen); </p>
+</li>
+<li>
+<p>vómitos; </p>
+</li>
+<li>
+<p>anemia (níveis baixos de glóbulos vermelhos); </p>
+</li>
+<li>
+<p>dor de cabeça; </p>
+</li>
+<li>
+<p>alterações nas provas da função hepática (aspartato aminotransferase aumentada);  </p>
+</li>
+<li>
+<p>neuropatia periférica (danos nos nervos dos braços e pernas, causando dor ou dormência, 
+sensação de ardor ou formigueiro); </p>
+</li>
+<li>
+<p>erupção cutânea; </p>
+</li>
+<li>
+<p>aumento da bilirrubina no sangue (um produto da decomposição dos glóbulos vermelhos), que 
+pode causar amarelecimento da pele e dos olhos. </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar mais de 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>diminuição da contagem dos glóbulos brancos; </p>
+</li>
+<li>
+<p>diminuição da contagem de plaquetas; </p>
+</li>
+<li>
+<p>alterações nas provas da função hepática (alanina aminotransferase aumentada); </p>
+</li>
+<li>
+<p>quedas; </p>
+</li>
+<li>
+<p>hiperbilirrubinemia (níveis elevados de bilirrubina no sangue); </p>
+</li>
+<li>
+<p>icterícia colestática (acumulação de bílis, causando amarelecimento da pele ou dos olhos). </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tibsovo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tibsovo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco e na caixa, após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de qualquer temperatura especial de conservação. Mantenha o frasco 
+bem fechado para proteger da humidade. Mantenha o exsicante dentro do frasco (ver secção 6). </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tibsovo </p>
+<ul>
+<li>
+<p>A substância ativa é ivosidenib. Cada comprimido contém 250 miligramas de ivosidenib. </p>
+</li>
+<li>
+<p>Os outros componentes são celulose microcristalina, croscarmelose sódica, succinato de acetato 
+de hipromelose, sílica coloidal anidra, estearato de magnésio, laurilsulfato de sódio (E487), 
+hipromelose, dióxido de titânio (E171), lactose mono-hidratada, triacetina e laca de alumínio de 
+indigotina (E132) (ver secção 2 “Tibsovo contém lactose e sódio"). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Tibsovo e conteúdo da embalagem </p>
+<ul>
+<li>
+<p>Os comprimidos revestidos por película são azuis, ovais, com “IVO" de um dos lados e “250" 
+do outro lado. </p>
+</li>
+<li>
+<p>Tibsovo está disponível em frascos de plástico contendo 60 comprimidos revestidos por película 
+e um exsicante. Os frascos estão embalados numa caixa de cartão; cada caixa contém 1 frasco. </p>
+</li>
+</ul>
+<p>Titular de Autorização de Introdução no Mercado 
+Les Laboratoires Servier<br />
+50 rue Carnot 
+92284 Suresnes Cedex 
+França  </p>
+<p>Fabricante 
+Les Laboratoires Servier Industrie 
+905, route de Saran 
+45520 Gidy 
+França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:  </p>
+<p>België/Belgique/Belgien 
+S.A. Servier Benelux N.V. 
+Tel: +32 (0)2 529 43<br />
+Lietuva 
+UAB “SERVIER PHARMA" 
+Tel: +370 (5) 2 63 86 България 
+Сервие Медикал ЕООД 
+Тел.: +359 2 921 57<br />
+Luxembourg/Luxemburg 
+S.A. Servier Benelux N.V. 
+Tel: +32 (0)2 529 43<br />
+Česká republika 
+Servier s.r.o. 
+Tel: +420 222 118 Magyarország 
+Servier Hungaria Kft. 
+Tel: +36 1 238 7 
+Danmark 
+Servier Danmark A/S 
+Tlf: +45 36 44 22<br />
+Malta 
+V.J. Salomone Pharma Ltd<br />
+Tel: + 356 21 22 01 Deutschland 
+Servier Deutschland GmbH 
+Tel: +49 (0)89 57095<br />
+Nederland 
+Servier Nederland Farma B.V. 
+Tel: +31 (0)71 5246 
+Eesti 
+Servier Laboratories OÜ<br />
+Tel:+ 372 664 5 
+Norge 
+Servier Danmark A/S 
+Tlf: +45 36 44 22<br />
+Eλλάδα 
+ΣΕΡΒΙΕ ΕΛΛΑΣ ΦΑΡΜΑΚΕΥΤΙΚΗ ΕΠΕ 
+Τηλ: +30 210 939 1 
+Österreich 
+Servier Austria GmbH 
+Tel: +43 (1) 524 39<br />
+España 
+Laboratorios Servier S.L. 
+Tel: +34 91 748 96<br />
+Polska 
+Servier Polska Sp. z o.o. 
+Tel: +48 (0) 22 594 90 France 
+Les Laboratoires Servier 
+Tel: +33 (0)1 55 72 60<br />
+Portugal 
+Servier Portugal, Lda 
+Tel.: +351 21 312 20 Hrvatska 
+Servier Pharma, d. o. o. 
+Tel.: +385 (0)1 3016<br />
+România 
+Servier Pharma SRL 
+Tel: +4 021 528 52<br />
+Ireland 
+Servier Laboratories (Ireland) Ltd. 
+Tel: +353 (0)1 663 8 
+Slovenija 
+Servier Pharma d. o. o.<br />
+Tel.: +386 (0)1 563 48 Ísland 
+Servier Laboratories 
+c/o Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika 
+Servier Slovensko spol. s r.o. 
+Tel.:+421 (0) 2 5920 41 Italia 
+Servier Italia S.p.A. 
+Tel: +39 06 669Suomi/Finland 
+Servier Finland Oy 
+P. /Tel: +358 (0)9 279 80<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +35722741 
+Sverige 
+Servier Sverige AB 
+Tel : +46 (0)8 522 508<br />
+Latvija 
+SIA Servier Latvia 
+Tel: +37167502 
+United Kingdom (Northern Ireland) 
+Servier Laboratories (Ireland) Ltd. 
+Tel: +44 (0)1753 666 
+Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1105,6 +1727,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-987aff669508e9ccbe676197e17e96d0"
 * entry[0].resource = composition-da-987aff669508e9ccbe676197e17e96d0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp987aff669508e9ccbe676197e17e96d0"
+* entry[=].resource = mp987aff669508e9ccbe676197e17e96d0
+                            
+                    
+Instance: bundlepackageleaflet-pt-987aff669508e9ccbe676197e17e96d0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tibsovo Package Leaflet for language pt"
+Description: "ePI document Bundle for tibsovo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-987aff669508e9ccbe676197e17e96d0"
+* entry[0].resource = composition-pt-987aff669508e9ccbe676197e17e96d0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp987aff669508e9ccbe676197e17e96d0"
@@ -1206,6 +1850,18 @@ RuleSet: 987aff669508e9ccbe676197e17e96d0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-987aff669508e9ccbe676197e17e96d0) // tibsovo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

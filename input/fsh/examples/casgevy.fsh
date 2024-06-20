@@ -1244,6 +1244,841 @@ retningslinjer om håndtering af humant materiale. </p>         </div>"""
 
 
 
+Instance: composition-pt-7231462c5958bc15b9c9fab8da21ba25
+InstanceOf: CompositionUvEpi
+Title: "Composition for casgevy Package Leaflet"
+Description:  "Composition for casgevy Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7231462c5958bc15b9c9fab8da21ba25)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - casgevy"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Casgevy e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Casgevy </li>
+<li>Como lhe é administrado Casgevy </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Casgevy </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é casgevy e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é casgevy e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Casgevy 
+Casgevy é um medicamento de terapia genética, que contém a substância ativa exagamglogene 
+autotemcel. </p>
+<p>Casgevy é feito especificamente para si, utilizando as suas próprias células estaminais do seu sangue. 
+As células estaminais do sangue podem transformar-se noutras células, incluindo glóbulos vermelhos, 
+glóbulos brancos e plaquetas. Estas células são recolhidas do seu sangue, depois são geneticamente 
+modificadas e devolvidas a si na forma de transplante num hospital. </p>
+<p>Para que é utilizado Casgevy 
+Casgevy é utilizado para tratar: </p>
+<ul>
+<li>
+<p>Pessoas com idade igual ou superior a 12 anos, com beta-talassemia que necessitam de 
+transfusões de sangue regulares (talassemia dependente de transfusões - TDT). As pessoas com 
+TDT não produzem hemoglobina em quantidade suficiente, a qual é uma proteína no sangue que 
+transporta o oxigénio pelo corpo, devido a um defeito num gene. Esta insuficiência provoca a 
+anemia e estas pessoas precisam de transfusões de sangue regulares. </p>
+</li>
+<li>
+<p>Pessoas com idade igual ou superior a 12 anos, com anemia de células falciformes (ACF) que 
+têm crises dolorosas frequentes (chamadas crises vaso-oclusivas ou CVO). Os doentes com ACF 
+apresentam uma forma de hemoglobina diferente (hemoglobina de células falciformes ou HbS) em 
+relação às outras pessoas, devido a um defeito num gene. A HbS leva a glóbulos vermelhos com 
+uma forma anormal em foice que se juntam, não se conseguindo deslocar facilmente através dos 
+vasos sanguíneos. Isto pode levar ao bloqueio dos vasos sanguíneos causando CVO. </p>
+</li>
+</ul>
+<p>Como funciona Casgevy 
+Casgevy funciona ao aumentar a produção de um tipo especial de hemoglobina chamada 
+hemoglobina F (hemoglobina fetal ou HbF). A presença de mais HbF melhora a produção e função 
+dos glóbulos vermelhos. Por isso, as pessoas com TDT poderão não precisar de transfusões de sangue 
+e as pessoas com anemia de células falciformes poderão não ter CVO. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar casgevy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar casgevy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Casgevy não lhe pode ser administrado: </p>
+<ul>
+<li>
+<p>se tem alergia ao exagamglogene autotemcel ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </p>
+</li>
+<li>
+<p>se tem alergia a qualquer um dos componentes dos medicamentos que lhe serão administrados 
+para o preparar para o tratamento com Casgevy (ver secção 3). </p>
+</li>
+</ul>
+<p>Informe o seu médico imediatamente se qualquer uma destas situações se aplicar a si ou se não tiver 
+a certeza. O tratamento não lhe será administrado se for alérgico a qualquer um destes medicamentos. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou enfermeiro antes de lhe ser administrado Casgevy. </p>
+<p>Antes do tratamento com Casgevy: </p>
+<ul>
+<li>
+<p>Receberá dois outros tipos de medicamentos antes de lhe ser administrado Casgevy. Para obter 
+mais informações sobre estes medicamentos, ver secção 3. o Medicamento(s) de mobilização para deslocar as células estaminais do sangue da sua 
+medula óssea para a corrente sanguínea, para que as mesmas possam ser colhidas para 
+produzir Casgevy. Este passo demorará 2-6 dias. 
+o O medicamento de condicionamento é-lhe administrado pouco antes de lhe ser 
+administrado Casgevy. Isto cria espaço na medula óssea para que novas células do sangue 
+possam crescer após o tratamento com Casgevy. </p>
+</li>
+<li>
+<p>O médico conversará consigo sobre o possível impacto do medicamento de condicionamento 
+sobre a fertilidade. Ver abaixo sob “Fertilidade nos homens e nas mulheres". </p>
+</li>
+<li>
+<p>Em pessoas com ACF, pode ser mais difícil deslocar as células estaminais do sangue da medula 
+óssea para o sangue, para assim as recolher, em comparação com as pessoas com TDT. Por 
+conseguinte, poderão ser necessárias mais mobilizações e colheitas em pessoas com ACF do que 
+em pessoas com TDT. </p>
+</li>
+</ul>
+<p>Após o tratamento com Casgevy: </p>
+<ul>
+<li>
+<p>Terá menos células no sangue durante algum tempo, até Casgevy se consolidar na sua medula 
+óssea. Isto inclui: 
+o Níveis baixos de plaquetas (as células que ajudam o sangue a coagular). Os níveis baixos 
+de plaquetas poderão causar hemorragias. 
+Informe o seu médico imediatamente se apresentar qualquer um destes sinais de níveis 
+baixos de plaquetas: dores de cabeça intensas, formação anormal de nódoas negras, 
+hemorragias prolongadas ou hemorragias sem lesão, tal como sangrar do nariz, sangrar 
+das gengivas, sangue na urina, nas fezes, ou vomitar ou tossir sangue. 
+o Níveis baixos de neutrófilos (um tipo de glóbulos brancos, que geralmente previnem as 
+infeções). Os níveis baixos de neutrófilos poderão aumentar a probabilidade de infeções. 
+Informe o seu médico imediatamente se apresentar qualquer um destes sinais de níveis 
+baixos de glóbulos brancos: febre, arrepios ou outros sinais de infeções, tais como dor de 
+garganta, tosse ou falta de ar, dor ou ardor ao urinar, ou urinar com frequência, ou 
+diarreia. </p>
+</li>
+<li>
+<p>O seu médico irá monitorizar os níveis das células no seu sangue e prestar-lhe tratamento, 
+conforme seja necessário. O médico irá dizer-lhe quando as suas plaquetas e neutrófilos voltarem 
+para níveis seguros. </p>
+</li>
+<li>
+<p>O médico irá monitorizar os níveis das células no seu sangue e a sua saúde em geral para ajudar os 
+investigadores a compreender os efeitos a longo prazo de Casgevy. </p>
+</li>
+<li>
+<p>Em alguns doentes, os níveis de hemoglobina poderão estar mais baixos do que seria 
+normalmente esperado para a sua idade e sexo. </p>
+</li>
+<li>
+<p>Após o tratamento com Casgevy, existe um risco teórico de cancros do sangue (mielodisplasia, 
+leucemia ou linfoma), embora este risco não tenha sido observado em estudos com Casgevy. O 
+seu médico irá monitorizá-lo, pelo menos, uma vez por ano, durante 15 anos, para despistar 
+quaisquer sinais de cancros do sangue. </p>
+</li>
+<li>
+<p>Os componentes de Casgevy chamados dimetilsulfóxido (DMSO), dextrano 40 e Cas9 poderão 
+causar reações alérgicas graves. O seu médico ou enfermeiro irá monitorizá-lo para despistar 
+sinais e sintomas de uma reação alérgica, tanto durante como após o tratamento com Casgevy. Ver 
+também a secção 2 “Casgevy contém sódio e dimetilsulfóxido (DMSO)". </p>
+</li>
+<li>
+<p>Casgevy é analisado para ver se há presença de micróbios infecciosos, mas continua a haver um 
+pequeno risco de infeção. O seu médico ou enfermeiro irá monitorizá-lo para despistar sinais e 
+sintomas de infeções e prestar-lhe tratamento, conforme seja necessário. </p>
+</li>
+<li>
+<p>Depois do tratamento com Casgevy, não pode doar sangue, órgãos, tecidos ou células. </p>
+</li>
+<li>
+<p>Casgevy é feito a partir das suas próprias células e é administrado apenas a si. A informação 
+sobre os medicamentos à base de células tem de ser guardada durante 30 anos no hospital onde 
+receber o tratamento. A informação que guardarem incluirá o seu nome, o nome do medicamento 
+e o(s) número(s) do(s) lote(s) de Casgevy que recebeu. </p>
+</li>
+</ul>
+<p>Se o tratamento com Casgevy não puder ser concluído ou não for bem sucedido 
+Se Casgevy não puder ser administrado a seguir ao medicamento de condicionamento, ou se as células 
+estaminais do sangue modificadas não estabilizarem no corpo, o médico poderá decidir dar-lhe uma 
+injeção numa veia que contém as suas células de resgate (as suas células estaminais do sangue 
+originais não tratadas) que foram colhidas e conservadas antes do início do tratamento (ver secção 3). 
+Se lhe forem administradas células de resgate, não terá qualquer benefício com o tratamento e 
+continuará a precisar de tratamento para a TDT ou ACF. </p>
+<p>Crianças com menos de 12 anos de idade 
+Casgevy não deve ser administrado a crianças com menos de 12 anos de idade. Desconhece-se ainda 
+se Casgevy é seguro e eficaz nestas crianças. </p>
+<p>Outros medicamentos e Casgevy 
+Informe o seu médico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos. </p>
+<p>Não tome medicamentos que retiram ferro do seu corpo (agentes quelantes, tais como a 
+dexteroxamina, deferiprona e/ou deferasirox) durante, pelo menos, 7 dias antes de lhe ser administrado 
+o medicamento de condicionamento. O seu médico irá dizer-lhe se e quando é que poderá começar a 
+tomar estes medicamentos após o tratamento com Casgevy. </p>
+<p>Não tome outros medicamentos para a anemia de células falciformes (tais como 
+hidroxiureia/hidroxicarbamida, crizanlizumab ou voxelotor) durante, pelo menos, 8 semanas antes de 
+receber os medicamentos de mobilização e de condicionamento. O seu médico irá dizer-lhe se, e 
+quando é que poderá começar a tomar estes medicamentos após o tratamento com Casgevy. </p>
+<p>As vacinas chamadas “vacinas vivas" não podem ser administradas durante 6 semanas antes de o 
+medicamento de condicionamento utilizado para preparar para o tratamento com Casgevy, nem após o 
+tratamento, enquanto o seu sistema imunitário (o sistema de defesa do seu organismo) estiver a 
+recuperar. Fale com o seu médico se precisar de receber alguma vacina. </p>
+<p>Gravidez 
+Este tratamento não pode ser administrado durante a gravidez devido aos possíveis efeitos do 
+medicamento de condicionamento. Desconhecem-se os efeitos de Casgevy nas mulheres grávidas. 
+Fale com o seu médico sobre a gravidez depois de receber Casgevy. </p>
+<p>Se está grávida ou se pensa estar grávida após o tratamento com Casgevy, fale com o seu médico 
+imediatamente. </p>
+<p>Se for uma mulher com potencial para engravidar, terá de fazer um teste de gravidez antes de iniciar 
+os medicamentos de mobilização e de condicionamento para assegurar que não está grávida. </p>
+<p>Contraceção nos homens e nas mulheres 
+Se for uma mulher com potencial para engravidar ou um homem com capacidade para conceber uma 
+criança, tem de utilizar um método contracetivo eficaz desde o início do tratamento de mobilização 
+e durante, pelo menos, 6 meses depois de receber Casgevy. Fale com o seu médico sobre quais os 
+métodos contracetivos considerados apropriados. </p>
+<p>Amamentação 
+A amamentação tem de ser interrompida durante o condicionamento devido aos possíveis efeitos 
+do medicamento de condicionamento. Desconhece-se se os componentes de Casgevy conseguem 
+passar para o leite humano. O seu médico conversará consigo sobre o benefício da amamentação para 
+o seu bebé versus os potenciais riscos do tratamento. </p>
+<p>Fertilidade nos homens e nas mulheres 
+Poderá não lhe ser possível engravidar enquanto mulher, ou conceber uma criança enquanto homem, 
+depois de ter recebido o medicamento de condicionamento. Deve conversar com o seu médico sobre 
+as suas opções antes do tratamento. Estas poderão incluir conservar o material de reprodução (por 
+exemplo, os óvulos, espermatozoides) para utilizar no futuro. </p>
+<p>Condução de veículos e utilização de máquinas 
+O medicamento de mobilização e os medicamentos de condicionamento utilizados antes do tratamento 
+com Casgevy poderão causar tonturas e fadiga. Se sentir tonturas, cansaço ou se não se sentir bem, não 
+conduza, utilize máquinas nem participe em atividades que exijam que esteja atento. </p>
+<p>Casgevy contém sódio e dimetilsulfóxido (DMSO) 
+Este medicamento contém aproximadamente 5,3-70 mg de sódio (principal componente do sal de 
+mesa) por frasco para injetáveis. Isto é equivalente a 0,3%-4% da ingestão diária máxima de sódio 
+recomendada na dieta para um adulto. O número total de frascos para injetáveis que compreende uma 
+dose varia de acordo com o doente. </p>
+<p>Este medicamento contém aproximadamente 50 mg de DMSO por ml. Ver secção 2 “Advertências e 
+precauções". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar casgevy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar casgevy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Casgevy é administrado apenas uma vez. </p>
+<p>Casgevy só pode ser administrado num centro de tratamento autorizado (hospital especializado) por 
+médicos com experiência em transplantes de células estaminais e no tratamento de doentes com 
+doenças do sangue, tais como a TDT e a ACF. </p>
+<p>PASSO 1: Antes do tratamento com Casgevy, um médico irá dar-lhe um medicamento de 
+mobilização. Este medicamento desloca as células estaminais do sangue da sua medula óssea para a 
+corrente sanguínea. As células são então colhidas num aparelho que separa as diferentes células do 
+sangue (chama-se a isto aférese). Todo este passo poderá dar-se mais do que uma vez. Cada passo de 
+colheita demora cerca de uma semana. </p>
+<p>São também colhidas “células de resgate", as quais são conservadas no hospital. Estas são as suas 
+células estaminais existentes no seu sangue e são mantidas não tratadas para o caso de haver um 
+problema durante o processo de tratamento. Ver acima na secção 2, “Se o tratamento com Casgevy 
+não puder ser concluído ou não for bem sucedido". </p>
+<p>PASSO 2: As suas células estaminais do sangue serão enviadas para o local de fabrico onde serão 
+utilizadas para produzir Casgevy. Poderá demorar até 6 meses entre a altura em que as suas células 
+são colhidas, e o fabrico e os testes de Casgevy, antes de este ser enviado de volta para o seu médico. </p>
+<p>PASSO 3: Pouco antes do seu transplante de células estaminais, o médico irá dar-lhe um 
+medicamento de condicionamento no hospital. Este passo demora cerca de 2 a 6 dias e irá prepará-lo 
+para o tratamento ao remover as células da medula óssea, para que possam ser substituídas pelas 
+células modificadas em Casgevy. Depois de receber este medicamento, o número de células no seu 
+sangue irá cair para níveis muito baixos (ver secção 4). Nesta altura, ficará no hospital até depois da 
+perfusão de Casgevy. </p>
+<p>PASSO 4: Ser-lhe-á dado um ou mais frascos para injetáveis de Casgevy na forma de uma injeção 
+numa veia, através de um cateter venoso central. Os cateteres venosos centrais são tubos finos e 
+flexíveis, que são inseridos por um médico numa veia de grandes dimensões para aceder à sua corrente 
+sanguínea. Os riscos dos cateteres consistem em infeções e na formação de coágulos de sangue. O 
+médico e os enfermeiros irão monitorizá-lo para despistar quaisquer complicações relacionadas com o 
+cateter venoso central. Poderá demorar algumas horas até todas as injeções serem administradas. 
+Depois de lhe ser administrado Casgevy, ficará no hospital para que a equipa de cuidados de saúde 
+possa monitorizar cuidadosamente a sua recuperação. Isto pode levar, aproximadamente, 2 meses, mas 
+os tempos podem variar. Um médico irá decidir quando é que pode voltar para casa. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis estão relacionados com o medicamento de mobilização e com o 
+medicamento de condicionamento. Deve também ler os folhetos informativos destes medicamentos. </p>
+<p>Podem ocorrer os seguintes efeitos indesejáveis graves nos primeiros dias ou semanas após o 
+tratamento, mas podem também desenvolver-se muito mais tarde. </p>
+<ul>
+<li>
+<p>Dor na parte superior direita do abdómen por baixo das costelas, amarelecimento dos olhos ou 
+da pele, aumento de peso rápido, inchaço dos braços, pernas e abdómen e dificuldade em 
+respirar. 
+Estes poderão ser sinais de um problema grave no fígado chamada doença venoclusiva. </p>
+</li>
+<li>
+<p>Dores de cabeça intensas, formação anormal de nódoas negras, hemorragias 
+prolongadas ou hemorragias sem lesão, tais como sangrar do nariz, sangrar das 
+gengivas, sangue na urina, nas fezes, ou vomitar ou tossir sangue. 
+Estes poderão ser sinais de trombocitopenia, níveis baixos de plaquetas, o que pode 
+reduzir a capacidade do sangue para coagular e pode levar a hemorragias. </p>
+</li>
+<li>
+<p>Febre, arrepios ou infeções. 
+Estes poderão ser sinais de neutropenia, níveis baixos de glóbulos brancos no seu 
+sangue, chamados neutrófilos, que combatem as infeções. </p>
+</li>
+</ul>
+<p>Informe o seu médico imediatamente se tiver qualquer um dos efeitos indesejáveis indicados acima. </p>
+<p>Outros efeitos indesejáveis que ocorrem com o medicamento de mobilização e a colheita de 
+células </p>
+<p>Muito frequentes (poderão afetar mais do que 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>enjoos (náuseas) </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>dores de barriga </p>
+</li>
+<li>
+<p>dor nos ossos ou nos músculos </p>
+</li>
+</ul>
+<p>Frequentes (poderão afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>doença dos pulmões com sintomas de dor súbita no peito, febre, dificuldade em respirar e 
+sinais de acumulação de líquido nos pulmões num raio-x do tórax, que ocorre na anemia 
+de células falciformes (síndrome torácica aguda) </p>
+</li>
+<li>
+<p>crise de células falciformes dolorosa (anemia de células falciformes com crise) </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>níveis elevados de glóbulos brancos (leucocitose) </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>dor na boca e na garganta </p>
+</li>
+<li>
+<p>dormência na boca </p>
+</li>
+<li>
+<p>dor nas articulações </p>
+</li>
+<li>
+<p>dor em geral </p>
+</li>
+<li>
+<p>sensação de cansaço </p>
+</li>
+<li>
+<p>níveis baixos de potássio no sangue (hipocaliemia) </p>
+</li>
+<li>
+<p>níveis baixos de magnésio no sangue (hipomagnesemia) </p>
+</li>
+<li>
+<p>níveis altos de fosfato no sangue (hiperfosfatemia) </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis que ocorrem com o medicamento de condicionamento </p>
+<p>Muito frequentes (poderão afetar mais do que 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>febre durante um período de números baixos de neutrófilos (um tipo de glóbulos brancos) 
+(neutropenia febril) </p>
+</li>
+<li>
+<p>níveis baixos de glóbulos vermelhos (anemia) </p>
+</li>
+<li>
+<p>níveis baixos de linfócitos, um tipo de glóbulos brancos (linfopenia) </p>
+</li>
+<li>
+<p>níveis baixos de glóbulos brancos (leucopenia) </p>
+</li>
+<li>
+<p>níveis baixos de potássio no sangue (hipocaliemia) </p>
+</li>
+<li>
+<p>níveis elevados de fosfato no sangue (hiperfosfatemia) </p>
+</li>
+<li>
+<p>níveis baixos de magnésio no sangue (hipomagnesemia) </p>
+</li>
+<li>
+<p>níveis baixos de fosfato no sangue (hipofosfatemia) </p>
+</li>
+<li>
+<p>retenção de líquidos </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>sensação de cansaço </p>
+</li>
+<li>
+<p>sangrar do nariz </p>
+</li>
+<li>
+<p>enjoos (náuseas) </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>dor de barriga </p>
+</li>
+<li>
+<p>inflamação do revestimento do estômago </p>
+</li>
+<li>
+<p>prisão de ventre </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>dor na boca ou na garganta </p>
+</li>
+<li>
+<p>inflamação das membranas mucosas, como nas gengivas (mucosite) </p>
+</li>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>perda de peso </p>
+</li>
+<li>
+<p>dor nos ossos ou nos músculos </p>
+</li>
+<li>
+<p>pele seca </p>
+</li>
+<li>
+<p>pele escamosa </p>
+</li>
+<li>
+<p>descoloração da pele e das unhas </p>
+</li>
+<li>
+<p>pequenas manchas de sangue sob a pele </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>perda de cabelo (alopecia) </p>
+</li>
+<li>
+<p>níveis elevados de bilirrubina no sangue, um produto de degradação dos glóbulos 
+vermelhos que causa o amarelecimento da pele e dos olhos (hiperbilirrubinemia) </p>
+</li>
+<li>
+<p>aumento dos níveis de uma enzima no fígado (alanina aminotransferase) </p>
+</li>
+</ul>
+<p>Frequentes (poderão afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>conjunto de sintomas tipo pneumonia, tais como febre, arrepios, tosse e dificuldade em 
+respirar; problemas que ocorrem sem quaisquer sinais de infeção nos pulmões (síndrome 
+de pneumonia idiopática) </p>
+</li>
+<li>
+<p>incapacidade dos pulmões em fornecer oxigénio ao seu sangue (insuficiência respiratória) </p>
+</li>
+<li>
+<p>dificuldade em respirar </p>
+</li>
+<li>
+<p>infeção no sangue (sépsis) </p>
+</li>
+<li>
+<p>infeção no sangue causada pela bactéria Klebsiella (sépsis por Klebsiella) </p>
+</li>
+<li>
+<p>infeção no pulmão (pneumonia) </p>
+</li>
+<li>
+<p>infeção na boca causada por um fungo (candidíase oral) </p>
+</li>
+<li>
+<p>infeção dos folículos capilares (foliculite) </p>
+</li>
+<li>
+<p>aumento da frequência cardíaca (taquicardia) </p>
+</li>
+<li>
+<p>aumento dos níveis das enzimas do fígado no sangue (aspartato aminotransferase, gama-
+glutamiltransferase) </p>
+</li>
+<li>
+<p>tensão arterial baixa (hipotensão) </p>
+</li>
+<li>
+<p>níveis baixos de oxigénio no sangue (hipoxia) </p>
+</li>
+<li>
+<p>aumento do tamanho do fígado </p>
+</li>
+<li>
+<p>aumento do tamanho do baço </p>
+</li>
+<li>
+<p>lesão nos nervos dos braços e/ou das pernas, o que causa dor ou dormência, ardor e 
+formigueiros (neuropatia periférica) </p>
+</li>
+<li>
+<p>problemas nos nervos que provoca dor ou dormência, sensação de ardor e formigueiro 
+(neuropatia sensorial periférica) </p>
+</li>
+<li>
+<p>dor nos nervos </p>
+</li>
+<li>
+<p>problemas com o paladar </p>
+</li>
+<li>
+<p>visão turva </p>
+</li>
+<li>
+<p>olhos secos </p>
+</li>
+<li>
+<p>afrontamentos </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>indigestão </p>
+</li>
+<li>
+<p>doença na qual o ácido do estômago sobe acima do estômago e passa para o esófago, o 
+tubo que liga a boca ao estômago (doença de refluxo gastroesofágico) </p>
+</li>
+<li>
+<p>sangrar das gengivas (hemorragia gengival) </p>
+</li>
+<li>
+<p>dor de garganta </p>
+</li>
+<li>
+<p>dificuldade ao engolir </p>
+</li>
+<li>
+<p>inflamação do intestino grosso, causando dor e diarreia (colite) </p>
+</li>
+<li>
+<p>inflamação do esófago (esofagite) </p>
+</li>
+<li>
+<p>sangue no vómito </p>
+</li>
+<li>
+<p>hemorragia retal </p>
+</li>
+<li>
+<p>inflamação do estômago e dos intestinos </p>
+</li>
+<li>
+<p>úlceras na boca </p>
+</li>
+<li>
+<p>dor em geral </p>
+</li>
+<li>
+<p>dor ao urinar </p>
+</li>
+<li>
+<p>sangue na urina </p>
+</li>
+<li>
+<p>ausência de menstruação </p>
+</li>
+<li>
+<p>hemorragias entre períodos menstruais </p>
+</li>
+<li>
+<p>menstruação irregular </p>
+</li>
+<li>
+<p>dor na vulva e na vagina </p>
+</li>
+<li>
+<p>menopausa precoce </p>
+</li>
+<li>
+<p>aumento de peso </p>
+</li>
+<li>
+<p>formação de nódoas negras </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>vermelhidão da pele </p>
+</li>
+<li>
+<p>cortes ou arranhões na pele </p>
+</li>
+<li>
+<p>níveis baixos de todos os tipos de células do sangue (pancitopenia) </p>
+</li>
+<li>
+<p>níveis baixos de reticulócitos, um tipo de glóbulo vermelho imaturo (reticulocitopenia) </p>
+</li>
+<li>
+<p>hemorragia numa zona do cérebro relacionada com o equilíbrio e coordenação 
+(hemorragia do cerebelo)  </p>
+</li>
+<li>
+<p>acumulação anormal de líquido que rodeia o cérebro e a espinal medula (hidrocéfalo) </p>
+</li>
+<li>
+<p>níveis baixos de albumina, uma proteína do sangue (hipoalbuminemia) </p>
+</li>
+<li>
+<p>níveis baixos de cálcio no sangue (hipocalcemia) </p>
+</li>
+<li>
+<p>dor nas articulações  </p>
+</li>
+<li>
+<p>um período de tempo mais longo para o seu sangue coagular </p>
+</li>
+<li>
+<p>um nível mais elevado de um indicador de inflamação (proteína c reativa) </p>
+</li>
+<li>
+<p>um período de tempo mais longo para que as células transplantadas comecem a crescer e 
+a produzir células do sangue normais (enxerto retardado) </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis que ocorrem com Casgevy </p>
+<p>Frequentes (poderão afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>alteração do sistema imunitário (linfohistiocitose hemofagocítica) na qual certos tipos de 
+glóbulos brancos (histiócitos e linfócitos) se acumulam nos órgãos, causando um excesso 
+de inflamação e destruição de tecidos. Os sintomas poderão incluir uma febre que não é 
+devida a uma infeção e que não responde a antibióticos, um aumento do fígado e/ou do 
+baço, erupção na pele, problemas respiratórios, formação de nódoas negras com 
+facilidade, tensão arterial baixa, anomalias nos rins e problemas de coração </p>
+</li>
+<li>
+<p>dificuldade em respirar, o que poderá exigir oxigénio para o ajudar a respirar, por vezes 
+com dor no peito, febre, arrepios ou tosse (síndrome de dificuldade respiratória aguda) </p>
+</li>
+<li>
+<p>conjunto de sintomas tipo pneumonia, tais como febre, arrepios, tosse e problemas 
+respiratórios, que ocorrem sem quaisquer sinais de infeção nos pulmões (síndrome de 
+pneumonia idiopática) </p>
+</li>
+<li>
+<p>aumento da frequência cardíaca (taquicardia) </p>
+</li>
+<li>
+<p>níveis baixos de glóbulos vermelhos (anemia) </p>
+</li>
+<li>
+<p>níveis baixos de glóbulos brancos (leucopenia) </p>
+</li>
+<li>
+<p>níveis baixos de cálcio no sangue (hipocalcemia) </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>sensações como dormência, formigueiro ou picadas (parestesia) </p>
+</li>
+<li>
+<p>sangrar do nariz </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>pequenas manchas vermelhas sob a pele </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>arrepios </p>
+</li>
+<li>
+<p>período de tempo mais prolongado para as células transplantadas começarem a crescer e a 
+produzir células do sangue normais (enxerto retardado) </p>
+</li>
+<li>
+<p>acontecimentos tais como arrepios e aumento da frequência cardíaca na altura em que lhe 
+é administrado Casgevy (reações relacionadas com a perfusão) </p>
+</li>
+</ul>
+<p>Informe o seu médico ou enfermeiro se tiver qualquer um destes efeitos indesejáveis. Informe o seu 
+médico ou enfermeiro imediatamente se qualquer um destes efeitos indesejáveis se agravar. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar casgevy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar casgevy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A informação que se segue destina-se apenas a médicos e enfermeiros. </p>
+<p>Dado que este medicamento será administrado por um médico ou enfermeiro qualificado, estes serão 
+responsáveis pela conservação correta do medicamento antes e durante a sua utilização, assim como 
+pela sua eliminação correta. </p>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e em cada 
+frasco para injetáveis. </p>
+<p>Conservar congelado, a uma temperatura igual ou inferior a -135 °C durante um máximo de dois anos. 
+Manter o(s) frasco(s) para injetáveis na embalagem exterior até estar(em) pronto(s) para descongelar. 
+Descongelar um frasco para injetáveis de cada vez. Não descongelar até estar pronto para perfundir. 
+Não voltar a congelar depois de ter sido descongelado. Uma vez descongelado, conservar à 
+temperatura ambiente (20 °C a 25 °C) e perfundir no período de 20 minutos. </p>
+<p>Este medicamento contém células de sangue humano. O medicamento não usado tem de ser eliminado 
+de acordo com as orientações locais sobre o manuseamento de material de origem humana. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Casgevy 
+- A substância ativa é o exagamglogene autotemcel. Cada ml de Casgevy contém 4-13 × 106 células 
+CD34+ (células estaminais do sangue). 
+- Os outros componentes são uma solução utilizada para preservar as células congeladas, que contém 
+sódio, dimetilsulfóxido (DMSO) e dextrano 40. Ver secção 2 “O que precisa de saber antes de lhe ser 
+administrado Casgevy". </p>
+<p>Qual o aspeto de Casgevy e conteúdo da embalagem </p>
+<p>Casgevy é uma dispersão para perfusão semitransparente. Casgevy é fornecido em frascos para 
+injetáveis contendo 1,5 ml a 20 ml. Um ou mais frascos para injetáveis são acondicionados numa 
+embalagem exterior. Uma embalagem exterior poderá conter até 9 frascos para injetáveis. O número 
+de frasco para injetáveis é específico para a dose de cada doente. A sua dose poderá consistir em 
+múltiplos frascos para injetáveis e embalagens exteriores. </p>
+<p>O seu nome e data de nascimento, assim como a informação codificada que o identifica como o 
+recipiente a que se destina, estão impressos em cada embalagem exterior e frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Vertex Pharmaceuticals (Ireland) Limited 
+Unit 49, Block 5, Northwood Court, Northwood Crescent, 
+Dublin 9, D09 T665, 
+Irlanda 
+Tel: +353 (0)1 761 7 
+Fabricante 
+Vertex Pharmaceuticals (Europe) Limited 
+Unit 49, Block 5, Northwood Court, Northwood Crescent, 
+Dublin 9, D09 T665, 
+Irlanda 
+Tel: +353 (0)1 761 7 
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien, България, Česká 
+republika, Danmark, Deutschland, Eesti, 
+France, Hrvatska, Ireland, Ísland, Κύπρος, 
+Latvija, Lietuva, Luxembourg/Luxemburg, 
+Magyarország, Malta, Nederland, Norge, 
+Österreich, Polska, Portugal, România, 
+Slovenija, Slovenská republika, 
+Suomi/Finland, Sverige, United Kingdom 
+(Northern Ireland) 
+Vertex Pharmaceuticals (Ireland) Limited 
+Tél/Tel/Teл/Tlf/Sími/Τηλ/Puh:<br />
++353 (0) 1 761 7 
+España 
+Vertex Pharmaceuticals Spain, S.L. 
+Tel: + 34 91 7892 
+Ελλάδα 
+Vertex Φαρμακευτική Μονοπρόσωπη Ανώνυμη 
+Εταιρία 
+Τηλ: +30 (211) 2120Italia 
+Vertex Pharmaceuticals 
+(Italy) S.r.l. 
+Tel: +39 0697794 </p>
+<p>Este folheto foi revisto pela última vez em. </p>
+<p>Foi concedida a este medicamento uma «Autorização de Introdução no Mercado condicional». Isto 
+significa que se aguarda mais informação sobre este medicamento. A Agência Europeia de 
+Medicamentos irá analisar, pelo menos uma vez por ano, nova informação sobre este medicamento e 
+este folheto será atualizado se necessário. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1285,6 +2120,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-7231462c5958bc15b9c9fab8da21ba25"
 * entry[0].resource = composition-da-7231462c5958bc15b9c9fab8da21ba25
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7231462c5958bc15b9c9fab8da21ba25"
+* entry[=].resource = mp7231462c5958bc15b9c9fab8da21ba25
+                            
+                    
+Instance: bundlepackageleaflet-pt-7231462c5958bc15b9c9fab8da21ba25
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for casgevy Package Leaflet for language pt"
+Description: "ePI document Bundle for casgevy Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-7231462c5958bc15b9c9fab8da21ba25"
+* entry[0].resource = composition-pt-7231462c5958bc15b9c9fab8da21ba25
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp7231462c5958bc15b9c9fab8da21ba25"
@@ -1386,6 +2243,18 @@ RuleSet: 7231462c5958bc15b9c9fab8da21ba25ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-7231462c5958bc15b9c9fab8da21ba25) // casgevy pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

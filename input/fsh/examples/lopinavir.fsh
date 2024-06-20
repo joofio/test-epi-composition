@@ -1186,6 +1186,597 @@ bivirkninger, som ikke er nævnt her. Se punkt. 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-a0f6051c039253e4a1c573c85f53f945
+InstanceOf: CompositionUvEpi
+Title: "Composition for lopinavir Package Leaflet"
+Description:  "Composition for lopinavir Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa0f6051c039253e4a1c573c85f53f945)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - lopinavir"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Lopinavir/Ritonavir Mylan e para que é utilizado 
+2. O que precisa de saber antes de tomar ou o seu filho tomar Lopinavir/Ritonavir Mylan 
+3. Como tomar Lopinavir/Ritonavir Mylan 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Lopinavir/Ritonavir Mylan 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é lopinavir e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é lopinavir e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>O seu médico receitou-lhe lopinavir/ritonavir para ajudar a controlar a sua infeção pelo Vírus da 
+Imunodeficiência Humana (VIH). Lopinavir/ritonavir ajuda a diminuir a evolução da infeção no 
+seu organismo. </li>
+<li>Lopinavir/Ritonavir Mylan não é uma cura para a infeção pelo VIH ou SIDA. </li>
+<li>Lopinavir/ritonavir é usado em crianças com 2 anos de idade ou mais, adolescentes e adultos, 
+infetados com VIH, o vírus que causa a SIDA. </li>
+<li>Lopinavir/Ritonavir Mylan contém as substâncias ativas lopinavir e ritonavir. 
+Lopinavir/ritonavir é um medicamento antirretroviral. Pertence a um grupo de medicamentos 
+chamados inibidores da protease. </li>
+<li>Lopinavir/ritonavir é receitado para uso em associação com outros medicamentos antivíricos. O 
+seu médico irá falar consigo e determinar quais os medicamentos mais indicados para si. </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar lopinavir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar lopinavir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Lopinavir/Ritonavir Mylan se: 
+- tem alergia ao lopinavir, ao ritonavir ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). 
+- tem problemas do fígado graves. </p>
+<p>Não tome Lopinavir/Ritonavir Mylan com nenhum dos seguintes medicamentos: 
+- astemizol ou terfenadina (habitualmente usados para tratar sintomas de alergia - estes 
+medicamentos podem estar disponíveis sem receita médica); 
+- midazolam oral (tomado pela boca), triazolam (usados para alívio da ansiedade e/ou 
+perturbações do sono); 
+- pimozida (usado para tratar a esquizofrenia); 
+- quetiapina (usada para tratar esquizofrenia, doença bipolar e perturbação depressiva major); 
+- lurasidona (usado para tratar a depressão); 
+- ranolazina (usado para tratar a dor no peito crónica [angina]); 
+- cisaprida (usado no alívio de certas perturbações do estômago); 
+- ergotamina, di-hidroergotamina, ergonovina, metilergonovina (usados para tratar dores de 
+cabeça); 
+- amiodarona, dronedarona (usadas para tratar alterações do batimento cardíaco); 
+- lovastatina, sinvastatina (usados para baixar o colesterol no sangue); 
+- lomitapida (usado para baixar o colesterol no sangue); 
+- alfuzosina (usada no homem para tratar sintomas de próstata aumentada (hiperplasia benigna da 
+próstata (HBP)); 
+- ácido fusídico (usado para tratar infeções da pele causadas por bactérias Staphylococcus tais 
+como impetigo e dermatite infetada. Ácido fusídico usado para tratar infeções prolongadas dos 
+ossos e articulações pode ser tomado sob supervisão médica (ver a secção Outros 
+medicamentos e Lopinavir/Ritonavir Mylan); 
+- colquicina (usada para tratar a gota) se tiver problemas de rins e/ou fígado (ver a secção Outros 
+medicamentos e Lopinavir/Ritonavir Mylan); 
+- elbasvir/grazoprevir (usado para tratar a infeção crónica pelo vírus da hepatite C [VHC]); 
+- ombitasvir/paritaprevir/ritonavir com ou sem dasabuvir (usado para tratar a infeção 
+crónica pelo vírus da hepatite C [VHC]); 
+- neratinib (usado para tratar o cancro da mama); 
+- avanafil ou vardenafil (usado para tratar a disfunção eréctil); 
+- sildenafil usado para tratar a hipertensão arterial pulmonar (pressão arterial elevada na artéria 
+pulmonar). Sildenafil usado para tratar a disfunção eréctil pode ser tomado com a supervisão do 
+médico (ver secção Outros medicamentos e Lopinavir/Ritonavir Mylan); 
+- produtos que contenham hipericão (Hypericum perforatum). </p>
+<p>Leia a lista de medicamentos abaixo na secção “Outros medicamentos e Lopinavir/Ritonavir 
+Mylan" para informação sobre outros medicamentos que requerem cuidados especiais. </p>
+<p>Se atualmente estiver a tomar algum destes medicamentos, pergunte ao seu médico sobre alterações 
+necessárias no tratamento para a outra doença(s) ou no seu tratamento antirretroviral. </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Lopinavir/Ritonavir Mylan. </p>
+<p>Informação importante </p>
+<ul>
+<li>Os doentes a tomar lopinavir/ritonavir podem ainda desenvolver infeções ou outras doenças 
+associadas à infeção por VIH e SIDA. É pois importante que continue sob vigilância do seu 
+médico enquanto toma lopinavir/ritonavir. </li>
+</ul>
+<p>Informe o seu médico se você ou o seu filho tem/teve </p>
+<ul>
+<li>Hemofilia tipo A e B, porque lopinavir/ritonavir pode aumentar o risco de hemorragia. </li>
+<li>Diabetes porque foi descrito aumento do açúcar no sangue em doentes tratados com 
+lopinavir/ritonavir. </li>
+<li>Antecedentes de problemas hepáticos porque os doentes com antecedentes de doença hepática, 
+incluindo hepatite B e C crónica possuem um risco aumentado de efeitos indesejáveis hepáticos 
+graves e potencialmente fatais. </li>
+</ul>
+<p>Informe o seu médico se você ou o seu filho tiver </p>
+<ul>
+<li>Náuseas, vómitos, dor abdominal, dificuldade em respirar e fraqueza muscular grave nas pernas 
+e braços, porque estes sintomas podem indicar aumento dos níveis de ácido láctico. </li>
+<li>Sede, urinar com frequência, visão desfocada ou perda de peso, porque isso pode indicar 
+aumento dos níveis de açúcar no sangue. </li>
+<li>Náuseas, vómitos, dor abdominal (dor de barriga), assim como aumentos elevados nos 
+triglicéridos (gordura no sangue) foram considerados fatores de risco para desenvolvimento de 
+pancreatite (inflamação do pâncreas) e estes sintomas podem sugerir isso. </li>
+<li>Nalguns doentes com infeção pelo VIH avançada e antecedentes de infeção oportunista, podem 
+ocorrer sinais e sintomas de inflamação de infeções anteriores imediatamente após o início do 
+tratamento anti-VIH. Pensa-se que estes sintomas são devido a uma melhoria na resposta 
+imunitária do organismo, permitindo que o organismo combata infeções que possam estar 
+presentes sem sintomas óbvios. 
+Além das infeções oportunistas, depois de iniciar os medicamentos para o tratamento da sua 
+infeção pelo VIH, podem também ocorrer doenças autoimunes (uma condição que ocorre 
+quando o sistema imunitário ataca os tecidos saudáveis do corpo). As doenças autoimunes 
+podem ocorrer vários meses após o início do tratamento. Se sentir alguns sintomas de infeção 
+ou outros sintomas tais como fraqueza muscular, fraqueza que se inicia nas mãos e nos pés 
+progredindo em direção ao tronco, palpitações, tremores ou hiperatividade, deve informar o seu 
+médico imediatamente para receber o tratamento necessário. </li>
+<li>Rigidez das articulações e dores (especialmente da anca, joelho e ombro) e dificuldade nos 
+movimentos, porque alguns doentes a tomar estes medicamentos podem desenvolver uma 
+doença óssea chamada osteonecrose (morte do tecido ósseo provocada por perda de 
+fornecimento de sangue ao osso). A duração da terapêutica de associação antirretroviral, uso de 
+corticosteroides, consumo de álcool, imunossupressão grave (redução na atividade do sistema 
+imunitário), índice de massa corporal mais elevado, entre outros, podem ser alguns dos fatores 
+de risco de desenvolvimento desta doença. </li>
+<li>Dor muscular, sensibilidade ou fraqueza, particularmente associadas a estes medicamentos. Em 
+raras ocasiões estes problemas musculares foram graves. </li>
+<li>Sintomas de tonturas, vertigens, desmaio ou sensação de batimentos cardíacos anormais. 
+Lopinavir/ritonavir pode causar alterações no ritmo cardíaco e atividade elétrica do seu coração. 
+Estas alterações podem ser observadas num ECG (eletrocardiograma). </li>
+</ul>
+<p>Outros medicamentos e Lopinavir/Ritonavir Mylan </p>
+<p>Informe o seu médico ou farmacêutico se você ou o seu filho estiver a tomar, tiver tomado 
+recentemente, ou se vier a tomar outros medicamentos. 
+- antibióticos (por ex. rifabutina, rifampicina, claritromicina); 
+- medicamentos anticancerígenos (por ex. abemaciclib, afatinib, apalutamida, ceritinib, 
+encorafenib, ibrutinib, venetoclax, a maioria dos inibidores das tirosinacinases como dasatinib e 
+nilotinib e também vincristina e vinblastina); 
+- anticoagulantes (por ex. dabigatrano etexilato, edoxabano, rivaroxabano, vorapaxar e varfarina); 
+- antidepressivos (por ex. trazodona, bupropiom); 
+- medicamentos antiepiléticos (por ex. carbamazepina, fenítoina, fenobarbital, lamotrigina e 
+valproato); 
+- antifúngicos (por ex. cetoconazol, itraconazol, voriconazol); 
+- medicamentos antigota (por ex. colquicina). Não pode tomar Lopinavir/Ritonavir Mylan com 
+colquicina se tiver problemas de rins e/ou fígado (ver também acima ‘Não tome 
+Lopinavir/Ritonavir Mylan’); 
+- medicamentos para a tuberculose (bedaquilina, delamanid); 
+- medicamentos antivirais usados para tratar a infeção crónica pelo vírus da hepatite C (VHC) em 
+adultos (por ex. glecaprevir/pibrentasvir, sofosbuvir/velpatasvir/voxilaprevir); 
+- medicamentos para a disfunção eréctil (por ex. sildenafil e tadalafil); 
+- ácido fusídico usado no tratamento das infeções prolongadas dos ossos e articulações (por ex. 
+osteomielite); 
+- medicamentos para o coração incluindo: 
+- digoxina; 
+- antagonistas dos canais de cálcio (por ex. felodipina, nifedipina, nicardipina); 
+- medicamentos usados para corrigir o ritmo do coração (por ex. bepridilo, lidocaína 
+sistémica, quinidina); 
+- antagonistas-CCR5 do VIH (por ex. maraviroc); 
+- inibidores da integrase do VIH-1 (por ex. raltegravir); 
+- medicamentos usados para tratar a contagem baixa de plaquetas no sangue (por 
+ex. fostamatinib); 
+- levotiroxina (utilizado para tratar problemas na tiroide); 
+- medicamentos usados para baixar o colesterol no sangue (por ex. atorvastatina, lovastatina, 
+rosuvastatina ou sinvastatina); 
+- medicamentos usados para tratar a asma e outros problemas relacionados com o pulmão tais 
+como doença pulmonar obstrutiva crónica (DPOC) (por ex. salmeterol); 
+- medicamentos usados para tratar a hipertensão arterial pulmonar (pressão arterial elevada na 
+artéria pulmonar) (por ex. bosentano, riociguat, sildenafil, tadalafil); 
+- medicamentos que afetam o sistema imunitário (por ex. ciclosporina, sirolímus (rapamicina), 
+tacrolímus); 
+- medicamentos usados para deixar de fumar (por ex. bupropiom); 
+- medicamentos para o alívio da dor (por ex. fentanilo); 
+- medicamentos tipo morfina (por ex. metadona); 
+- inibidores não-nucleósidos da transcriptase reversa (NNRTIs) (por ex. efavirenz, nevirapina); 
+- contracetivos orais ou adesivos contracetivos para evitar a gravidez (ver secção abaixo intitulada 
+Contracetivos); 
+- inibidores da protease (por ex. fosamprenavir, indinavir, ritonavir, saquinavir, tipranavir); 
+- sedativos (por ex. midazolam administrado por injeção); 
+- esteroides (por ex. budesonida, dexametasona, propionato de fluticasona, etinilestradiol, 
+triamcinolona). </p>
+<p>Leia a lista de medicamentos acima na secção “Não tome Lopinavir/Ritonavir Mylan com 
+nenhum dos seguintes medicamentos" para informação sobre medicamentos que não deve tomar 
+com lopinavir/ritonavir. </p>
+<p>Informe o seu médico ou farmacêutico se se você ou o seu filho estiver a tomar, tiver tomado 
+recentemente, ou se vier a tomar outros medicamentos, incluindo medicamentos obtidos sem receita 
+médica. </p>
+<p>Medicamentos para a disfunção eréctil (avanafil, vardenafil, sildenafil, tadalafil) 
+- Não tome lopinavir/ritonavir se estiver atualmente a tomar avanafil ou vardenafil. 
+- Não deve tomar lopinavir/ritonavir com sildenafil usado para tratar a hipertensão arterial 
+pulmonar (pressão arterial elevada na artéria pulmonar) (ver também secção acima Não tome 
+Lopinavir/Ritonavir Mylan). 
+- Se estiver a tomar sildenafil ou tadalafil e lopinavir/ritonavir ao mesmo tempo, pode estar em 
+risco de ter efeitos indesejáveis como por exemplo pressão arterial baixa, desmaio, alterações 
+visuais e ereção no pénis durante mais de 4 horas. Se uma ereção durar mais de 4 horas, deve 
+procurar ajuda médica imediatamente para evitar lesão permanente no pénis. O seu médico 
+pode explicar-lhe estes sintomas. </p>
+<p>Contracetivos </p>
+<ul>
+<li>Se está atualmente a tomar um contracetivo oral ou a usar um adesivo contracetivo para evitar a 
+gravidez, deverá usar um tipo de contraceção adicional ou diferente (por ex. preservativo) 
+porque lopinavir/ritonavir pode reduzir a eficácia dos contracetivos orais ou dos adesivos 
+contracetivos. </li>
+</ul>
+<p>Gravidez e amamentação </p>
+<ul>
+<li>Informe o seu médico imediatamente se está a planear ter um bebé, se está ou pensa estar 
+grávida ou se está a amamentar. </li>
+<li>Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais 
+rapidamente possível. </li>
+<li>A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção 
+pelo VIH pode ser transmitida ao bebé através do leite materno. </li>
+</ul>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Lopinavir/ritonavir não foi especificamente testado relativamente aos seus possíveis efeitos na 
+capacidade de condução de veículos ou de utilização de máquinas. Não conduza um carro nem utilize 
+máquinas se tiver alguns efeitos indesejáveis (por ex. náuseas) que possam impedi-lo de o fazer com 
+segurança. Consulte o seu médico. </p>
+<p>Lopinavir/Ritonavir Mylan contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar lopinavir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar lopinavir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>É importante que os comprimidos de Lopinavir/Ritonavir Mylan sejam engolidos inteiros e não 
+sejam mastigados, partidos ou esmagados. Para doentes com dificuldade a engolir os comprimidos, 
+deve verificar-se a existência de fórmulas mais adequadas. </p>
+<p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas sobre a utilização deste medicamento. </p>
+<p>Quando e que quantidade de Lopinavir/Ritonavir Mylan devo tomar? </p>
+<p>Uso em adultos </p>
+<ul>
+<li>A dose habitual para o adulto é de 400 mg/100 mg, duas vezes ao dia, isto é, de 12 em 12 horas, 
+associado a outros medicamentos anti-VIH. Os doentes adultos que não tomaram previamente 
+outros medicamentos antirretrovirais podem também tomar os comprimidos de 
+lopinavir/ritonavir, uma vez ao dia, numa dose de 800/200 mg. O seu médico indicará o número 
+de comprimidos que deve tomar. Os doentes adultos que tomaram previamente outros 
+medicamentos antivirais podem tomar os comprimidos de lopinavir/ritonavir, uma vez ao dia, 
+numa dose de 800 mg/200 mg, se o seu médico o considerar apropriado. </li>
+<li>Lopinavir/ritonavir não deve ser tomado uma vez ao dia com efavirenz, nevirapina, 
+carbamazepina, fenobarbital e fenitoína. </li>
+<li>Os comprimidos de lopinavir/ritonavir podem ser tomados com ou sem alimentos. </li>
+</ul>
+<p>Uso em crianças </p>
+<ul>
+<li>Para as crianças, o seu médico decidirá a dose correta (número de comprimidos) com base na 
+altura e no peso da criança. </li>
+<li>Os comprimidos de lopinavir/ritonavir podem ser tomados com ou sem alimentos. </li>
+</ul>
+<p>Lopinavir/ritonavir é também fornecido sob a forma de comprimidos revestidos por película de 
+100 mg/25 mg. </p>
+<p>Se você ou o seu filho tomar mais Lopinavir/Ritonavir Mylan do que deveria </p>
+<ul>
+<li>Se se aperceber que tomou mais lopinavir/ritonavir do que devia, contacte o seu médico de 
+imediato. </li>
+<li>Se não puder contactar o seu médico, dirija-se a um hospital. </li>
+</ul>
+<p>Caso se tenha esquecido de tomar, ou de dar a tomar ao seu filho, Lopinavir/Ritonavir Mylan </p>
+<p>Se estiver a tomar lopinavir/ritonavir duas vezes ao dia </p>
+<ul>
+<li>
+<p>Caso se tenha esquecido de tomar uma dose e se aperceba num período de 6 horas após a hora 
+da toma habitual, tome a sua dose em falta o mais breve possível. Depois continue a tomar a 
+dose seguinte à hora habitual conforme estabelecido pelo seu médico. </p>
+</li>
+<li>
+<p>Caso se tenha esquecido de tomar uma dose e se aperceba mais de 6 horas após a hora da toma 
+habitual, não tome a dose em falta. Tome a dose seguinte à hora habitual. Não tome uma dose a 
+dobrar para compensar uma dose que se esqueceu de tomar. </p>
+</li>
+</ul>
+<p>Se estiver a tomar lopinavir/ritonavir uma vez ao dia </p>
+<ul>
+<li>
+<p>Caso se tenha esquecido de tomar uma dose e se aperceba num período de 12 horas após 
+a hora da toma habitual, tome a sua dose em falta o mais breve possível. Depois continue 
+a tomar a dose seguinte à hora habitual conforme estabelecido pelo seu médico. </p>
+</li>
+<li>
+<p>Caso se tenha esquecido de tomar uma dose e se aperceba mais de 12 horas após a hora 
+da toma habitual, não tome a dose em falta. Tome a dose seguinte à hora habitual. Não 
+tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+</li>
+</ul>
+<p>Se você ou o seu filho parar de tomar Lopinavir/Ritonavir Mylan </p>
+<ul>
+<li>Não pare ou mude a dose diária de lopinavir/ritonavir sem consultar primeiro o seu médico. </li>
+<li>Lopinavir/ritonavir deve ser sempre tomado todos os dias para ajudar a controlar a sua infeção 
+pelo VIH, mesmo que se sinta melhor. </li>
+<li>Se tomar lopinavir/ritonavir como lhe foi recomendado terá mais possibilidades de atrasar o 
+desenvolvimento de resistência ao produto. </li>
+<li>Se um efeito secundário o está a impedir de tomar lopinavir/ritonavir de acordo com as 
+instruções, informe o seu médico imediatamente. </li>
+<li>Tenha sempre lopinavir/ritonavir suficiente para que não lhe falte. Quando viaja ou está 
+hospitalizado, certifique-se de que tem lopinavir/ritonavir suficiente até obter o próximo 
+fornecimento. </li>
+<li>Continue a tomar este medicamento até instruções em contrário do seu médico. </li>
+</ul>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, lopinavir/ritonavir pode causar efeitos indesejáveis, no entanto estes 
+não se manifestam em todas as pessoas. Pode ser difícil diferenciar entre os efeitos indesejáveis 
+causados por lopinavir/ritonavir e aqueles que podem surgir devido a outros medicamentos que esteja 
+a tomar ao mesmo tempo ou pelas complicações da infeção pelo VIH. </p>
+<p>Durante a terapêutica para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no 
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos 
+lípidos no sangue, por vezes aos próprios medicamentos para o VIH. O seu médico irá realizar testes 
+para determinar estas alterações. </p>
+<p>Os efeitos indesejáveis seguintes foram comunicados por doentes a tomar este medicamento. 
+Informe o seu médico imediatamente acerca destes ou quaisquer outros sintomas. Se os sintomas 
+persistirem ou agravarem, consulte o seu médico. </p>
+<p>Muito frequentes: podem afetar mais de 1 em cada 10 pessoas 
+- diarreia; 
+- náuseas; 
+- infeção do trato respiratório superior. </p>
+<p>Frequentes: podem afetar até 1 em cada 10 pessoas 
+- inflamação do pâncreas; 
+- vómitos, aumento do abdómen, dor na parte superior e inferior do estômago, gases intestinais, 
+indigestão, diminuição do apetite, refluxo do estômago para o esófago que pode causar dor; 
+- Informe o seu médico se sentir náuseas, vómitos ou dor abdominal porque estes sintomas 
+podem ser sugestivos de pancreatite (inflamação do pâncreas); 
+- inchaço ou inflamação do estômago, intestinos e cólon; 
+- aumento nos níveis de colesterol no sangue, aumento nos níveis de triglicéridos (uma forma de 
+gordura) no sangue, tensão arterial elevada; 
+- diminuição na capacidade do organismo processar o açúcar incluindo diabetes mellitus, perda 
+de peso; 
+- contagem baixa de glóbulos vermelhos, contagem baixa de glóbulos brancos que geralmente 
+combatem a infeção; 
+- erupção na pele, eczema, acumulação de crostas de pele gordurosa; 
+- tonturas, ansiedade, dificuldade em dormir; 
+- cansaço, falta de forças e de energia, dor de cabeça incluindo enxaqueca; 
+- hemorroidas; 
+- inflamação do fígado incluindo aumento das enzimas hepáticas; 
+- reações alérgicas incluindo aftas e inflamação na boca; 
+- infeção do trato respiratório inferior; 
+- aumento dos nódulos linfáticos; 
+- impotência, fluxo menstrual anormalmente abundante ou prolongado ou ausência de 
+menstruação; 
+- problemas musculares como por exemplo fraqueza e espasmos, dor nas articulações, músculos e 
+costas; 
+- lesão nos nervos do sistema nervoso periférico; 
+- suores noturnos, comichão, erupção na pele incluindo inchaço na pele, infeção na pele, 
+inflamação da pele ou folículos pilosos, acumulação de líquido nas células ou tecidos. </p>
+<p>Pouco frequentes: podem afetar até 1 em cada 100 pessoas 
+- sonhos anormais; 
+- perda ou alteração do sentido do paladar; 
+- queda de cabelo; 
+- anomalia no eletrocardiograma (ECG) chamada bloqueio auriculoventricular; 
+- formação de placas dentro das artérias que podem originar ataque cardíaco ou acidente vascular 
+cerebral; 
+- inflamação dos vasos sanguíneos e capilares; 
+- inflamação do canal biliar; 
+- agitação descontrolada do corpo; 
+- prisão de ventre; 
+- inflamação das veias profundas relacionada com um coágulo sanguíneo; 
+- boca seca; 
+- incapacidade para controlar os intestinos; 
+- inflamação da primeira secção do intestino delgado logo a seguir ao estômago, ferida ou úlcera 
+no aparelho digestivo, hemorragia no aparelho intestinal ou reto; 
+- sangue na urina; 
+- cor amarela da pele ou da parte branca dos olhos (icterícia); 
+- depósito de gordura no fígado, aumento do fígado; 
+- não funcionamento dos testículos; 
+- exacerbação dos sintomas relacionados com uma infeção inativa no corpo (reconstituição 
+imunológica); 
+- aumento do apetite; 
+- níveis anormalmente elevados de bilirrubina (um pigmento produzido a partir do colapso dos 
+glóbulos vermelhos) no sangue; 
+- diminuição do desejo sexual; 
+- inflamação dos rins; 
+- morte óssea causada por fraco aporte de sangue à zona; 
+- feridas na boca ou ulcerações, inflamação do estômago e intestino; 
+- falência do rim; 
+- colapso das fibras musculares resultando na libertação do conteúdo das fibras musculares 
+(mioglobina) na corrente sanguínea; 
+- ruído num ou ambos os ouvidos, como por exemplo zumbido, zunido ou assobio; 
+- tremor; 
+- encerramento anormal de uma das válvulas (válvula tricúspide no coração); 
+- vertigens (sensação de rodar); 
+- problemas nos olhos, alteração na visão; 
+- aumento de peso. </p>
+<p>Raros: podem afetar até 1 em cada 1.000 pessoas 
+- erupção grave ou mesmo letal na pele e bolhas (síndrome de Stevens Johnson e eritema 
+multiforme). </p>
+<p>Desconhecido: a frequência não pode ser calculada a partir dos dados disponíveis 
+- pedras nos rins. </p>
+<p>Se algum dos efeitos indesejáveis se agravar ou se detetar quaisquer efeitos indesejáveis não 
+mencionados neste folheto, informe o seu médico ou farmacêutico. </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar lopinavir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar lopinavir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Este medicamento não requer quaisquer condições especiais de conservação. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após EXP. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Recipientes de plástico, utilizar no prazo de 120 dias após a primeira abertura. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Lopinavir/Ritonavir Mylan </p>
+<ul>
+<li>As substâncias ativas são lopinavir e ritonavir. </li>
+<li>Os outros componentes são laurato de sorbitano, sílica coloidal anidra, copovidona, fumarato 
+sódico de estearilo, hipromelose, dióxido de titânio (E171), macrogol, hidroxipropilcelulose, 
+talco, polissorbato 80.<br />
+Qual o aspeto de Lopinavir/Ritonavir Mylan e conteúdo da embalagem </li>
+</ul>
+<p>Lopinavir/Ritonavir Mylan 200 mg/50 mg comprimidos revestidos por película são brancos, 
+revestidos por película, de forma oval, biconvexos e com bordos biselados, gravados com ‘MLR3’ 
+numa das faces e lisos na outra face. </p>
+<p>Estão disponíveis em embalagens múltiplas blister de 120, 120 x 1 (4 caixas de 30 ou de 30 x 1) ou de 
+360 (12 caixas de 30) comprimidos revestidos por película e em frascos de plástico (que contêm um 
+excicante, que não deve ser ingerido) de 120 comprimidos revestidos por película e uma embalagem 
+múltipla que contém 360 (3 frascos de 120) comprimidos revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Mylan Pharmaceuticals Limited 
+Damastown Industrial Park,<br />
+Mulhuddart, Dublin 15,<br />
+DUBLIN 
+Irlanda </p>
+<p>Fabricante </p>
+<p>Mylan Hungary Kft 
+H-2900 Komárom, Mylan utca 1 
+Hungria </p>
+<p>McDermott Laboratories Limited trading as Gerard Laboratories 
+35/36 Baldoyle Industrial Estate, Grange Road, Dublin Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Viatris 
+Tél/Tel: + 32 (0)2 658 61 Lietuva 
+Viatris UAB<br />
+Tel: +370 5 205 1 
+България 
+Майлан ЕООД 
+Тел.: +359 2 44 55<br />
+Luxembourg/Luxemburg 
+Viatris 
+Tél/Tel: + 32 02 658 61 (Belgique/Belgien) </p>
+<p>Česká republika 
+Viatris CZ s.r.o. 
+Tel: +420 274 770<br />
+Magyarország 
+Viatris Healthcare Kft 
+Tel.: + 36 1 465 2 
+Danmark 
+Viatris ApS 
+Tlf: +45 28 11 69<br />
+Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01<br />
+Deutschland 
+Viatris Healthcare GmbH 
+Tel: +49 800 0700<br />
+Nederland 
+Mylan BV 
+Tel: +31 (0)20 426 3Eesti 
+Viatris OÜ 
+Tel: + 372 6363<br />
+Norge 
+Viatris AS 
+Tlf: + 47 66 75 33<br />
+Ελλάδα<br />
+Viatris Hellas Ltd 
+Τηλ: +30 2100 100 Österreich 
+Arcana Arzneimittel GmbH 
+Tel: +43 1 416 2 
+España 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102<br />
+Polska 
+Mylan Healthcare Sp. z o.o. 
+Tel.: + 48 22 546 64<br />
+France 
+Mylan S.A.S 
+Tél: +33 4 37 25 75<br />
+Portugal 
+Mylan, Lda. 
+Tel: + 351 214 127<br />
+Hrvatska 
+Viatris Hrvatska d.o.o. 
+Tel: +385 1 23 50<br />
+România 
+BGP Products SRL 
+Tel: +40 372 579<br />
+Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711 
+Slovenija 
+Mylan Healthcare d.o.o. 
+Tel: + 386 1 23 63<br />
+Ísland 
+Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199 Italia 
+Viatris Italia S.r.l. 
+Tel: + 39 (0) 2 612 46 
+Suomi/Finland 
+Viatris Oy 
+Puh/Tel: +358 20 720 9 
+Κύπρος 
+Varnavas Hadjipanayis Ltd 
+Τηλ: +357 2220 7Sverige 
+Viatris AB<br />
+Tel: + 46 855 522<br />
+Latvija 
+Viatris SIA<br />
+Tel: +371 676 055<br />
+United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: +353 18711 </p>
+<p>Este folheto foi revisto pela última vez em:  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1227,6 +1818,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a0f6051c039253e4a1c573c85f53f945"
 * entry[0].resource = composition-da-a0f6051c039253e4a1c573c85f53f945
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa0f6051c039253e4a1c573c85f53f945"
+* entry[=].resource = mpa0f6051c039253e4a1c573c85f53f945
+                            
+                    
+Instance: bundlepackageleaflet-pt-a0f6051c039253e4a1c573c85f53f945
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lopinavir Package Leaflet for language pt"
+Description: "ePI document Bundle for lopinavir Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a0f6051c039253e4a1c573c85f53f945"
+* entry[0].resource = composition-pt-a0f6051c039253e4a1c573c85f53f945
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa0f6051c039253e4a1c573c85f53f945"
@@ -1328,6 +1941,18 @@ RuleSet: a0f6051c039253e4a1c573c85f53f945ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a0f6051c039253e4a1c573c85f53f945) // lopinavir pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

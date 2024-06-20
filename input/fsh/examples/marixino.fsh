@@ -727,6 +727,384 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-5b6e393c6403bed8aaf028ca7b1d8cd4
+InstanceOf: CompositionUvEpi
+Title: "Composition for marixino Package Leaflet"
+Description:  "Composition for marixino Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5b6e393c6403bed8aaf028ca7b1d8cd4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - marixino"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Marixino e para que é utilizado
+2. O que precisa de saber antes de tomar Marixino
+3. Como tomar Marixino
+4. Efeitos indesejáveis possíveis
+5. Como conservar Marixino
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é marixino e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é marixino e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Marixino contém a substância ativa cloridrato de memantina. Pertence a um grupo de medicamentos 
+conhecidos como fármacos anti demência. A perda de memória associada à doença de Alzheimer 
+deve-se a uma perturbação dos sinais mensageiros no cérebro. O cérebro contém recetores do N-metil-
+D-aspartato (NMDA) envolvidos na transmissão de sinais nervosos importantes na aprendizagem e 
+memória. Marixino pertence a um grupo de medicamentos denominados antagonistas dos recetores 
+NMDA. Marixino atua nestes recetores, melhorando a transmissão dos sinais nervosos e a memória.
+Marixino é utilizado para o tratamento de doentes com doença de Alzheimer moderada a grave.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar marixino"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar marixino"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Marixino:</h2>
+<p>se tem alergia à memantina ou a qualquer outro componente deste medicamento (ver secção 6).
+Advertências e precauções
+Fale com o seu médico ou farmacêutico antes de tomar Marixino:
+-
+se tiver uma história de epilepsia
+-
+se tiver tido um enfarte do miocárdio (ataque cardíaco) recente ou se sofrer de compromisso 
+cardíaco congestivo ou de hipertensão (pressão arterial alta) não controlada.
+Nestas situações, o tratamento deve ser supervisionado cuidadosamente e os benefícios clínicos de
+Marixino devem ser avaliados pelo seu médico regularmente.
+Se sofrer de compromisso renal (problemas de rins), o seu médico deverá monitorizar cuidadosamente 
+a sua função renal e, se necessário, adaptar as doses de memantina.
+A utilização simultânea de medicamentos designados de amantadina (para o tratamento da doença de 
+Parkinson), cetamina (uma substância usada geralmente como anestésico), dextrometorfano (usado 
+geralmente para tratar a tosse) e outros antagonistas do NMDA deve ser evitada.
+Crianças e adolescentes
+26
+Marixino não é recomendado para crianças e adolescentes com menos de 18 anos de idade.
+Outros medicamentos e Marixino
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.
+Em especial, os efeitos dos seguintes medicamentos podem ser alterados por Marixino e o seu médico 
+poderá achar necessário ajustar as respetivas doses:
+-
+amantadina, cetamina, dextrometorfano
+-
+dantroleno, baclofeno
+-
+cimetidina, ranitidina, procaínamida, quinidina, quinina, nicotina
+-
+hidroclorotiazida (ou qualquer outra combinação com hidroclorotiazida)
+-
+anticolinérgicos (substâncias geralmente utilizadas para tratar perturbações do movimento ou 
+cãibras intestinais)
+-
+anti convulsivantes (substâncias utilizadas para evitar ou atenuar convulsões)
+-
+barbitúricos (substâncias utilizadas geralmente para induzir o sono)
+-
+agonistas dopaminérgicos (substâncias como L-dopa, bromocriptina)
+-
+neurolépticos (substâncias utilizadas no tratamento de perturbações mentais)
+-
+anticoagulantes orais
+Se for hospitalizado, informe o seu médico de que está a tomar Marixino.
+Marixino com alimentos e bebidas
+Deverá informar o seu médico caso tenha recentemente alterado ou pretenda alterar a sua dieta 
+substancialmente (ex.: de uma dieta normal para uma dieta estritamente vegetariana) ou se sofrer de 
+estados de acidose tubular renal (ATR, um excesso de substâncias formadoras de ácido no sangue 
+devido a uma disfunção renal (função dos rins debilitada)) ou infeções graves das vias urinárias 
+(estrutura que transporta a urina), uma vez que poderá ser necessário que o seu médico faça um ajuste 
+da dose do medicamento.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Gravidez
+A utilização de memantina em grávidas não é recomendada. 
+Amamentação
+Mulheres que tomem Marixino não devem amamentar.
+Condução de veículos e utilização de máquinas
+O seu médico irá informá-lo se a sua doença o impede de conduzir e utilizar máquinas com segurança. 
+Para além disso, Marixino pode alterar a sua capacidade de reação, tornando a condução ou utilização 
+de máquinas não apropriada.
+Marixino contém lactose e sódio
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento.
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar marixino"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar marixino"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+27
+Dose
+A dose recomendada de Marixino para adultos e idosos é de 20 mg uma vez por dia. De forma a 
+reduzir o risco de efeitos indesejáveis, esta dose é atingida gradualmente segundo o seguinte esquema 
+de tratamento diário:
+semana 1
+metade de um comprimido revestido por película de
+10 mg
+semana 2
+1 comprimido revestido por película de 10 mg
+semana 3
+1 comprimido revestido por película mais meio 
+comprimido revestido por película de 10 mg
+semana 4
+2 comprimidos revestidos por película de 10 mg 
+A dose inicial habitual corresponde a meio comprimido revestido por película, uma vez por dia (1 x 
+5 mg) na primeira semana. Esta dose é aumentada para um comprimido revestido por película, uma 
+vez por dia (1 x 10 mg) na segunda semana e 1 comprimido revestido por película e meio, uma vez 
+por dia uma vez por dia (1 x 15 mg) na terceira semana. A partir da quarta semana, a dose habitual é 
+de 2 comprimidos revestidos por película, uma vez por dia (1 x 20 mg).
+Dose em doentes com compromisso da função renal
+Se tiver compromisso da função renal, o seu médico deverá decidir por uma dose adequada a essa 
+situação. Neste caso, o seu médico deverá monitorizar a sua função renal regularmente.
+Administração
+Marixino deve ser administrado por via oral, uma vez por dia. Para tirar o maior benefício do seu 
+medicamento, deve tomá-lo todos os dias, à mesma hora do dia. Os comprimidos revestidos por 
+película devem ser engolidos com água. Os comprimidos de 10 mg podem ser divididos em doses 
+iguais. Os comprimidos revestidos por película podem ser administrados com ou sem alimentos.
+Duração do tratamento
+Continue a tomar Marixino enquanto tiver um efeito benéfico. O seu médico deve avaliar o tratamento 
+regularmente.
+Se tomar mais Marixino do que deveria
+-
+De uma forma geral, uma sobredosagem de Marixino não deve ser prejudicial. Poderá detetar 
+um maior número de sintomas, tal como descrito na secção 4. “Efeitos indesejáveis possíveis".
+-
+Se tomar uma dose muito elevada de Marixino, contacte o seu médico ou procure
+aconselhamento médico, uma vez que poderá necessitar de cuidados médicos.
+Caso se tenha esquecido de tomar Marixino
+-
+Se se esquecer de tomar uma dose de Marixino, espere e tome a dose seguinte à hora habitual.
+-
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+De uma forma geral, os efeitos indesejáveis observados são ligeiros a moderados.
+Frequentes (pode afetar até 1 em 10 pessoas):
+-
+Dores de cabeça, sono, prisão de ventre, teste de função hepática aumentado, tonturas, 
+perturbações do equilíbrio, falta de ar, pressão arterial elevada e hipersensibilidade ao 
+medicamento.
+28
+Pouco frequentes (pode afetar até 1 em 100 pessoas):
+-
+Cansaço, infeções fúngicas, confusão, alucinações, vómitos, alterações na forma de andar, 
+insuficiência cardíaca e coagulação sanguínea venosa (trombose, tromboembolia).
+Muito raros (pode afetar até 1 em 10.000 pessoas):
+-
+Convulsões.
+Desconhecido (não pode ser calculado a partir dos dados disponíveis):
+-
+Inflamação do pâncreas, inflamação do fígado (hepatite) e reações psicóticas
+A doença de Alzheimer tem sido associada a depressão, ideação suicida e suicídio. Estes efeitos têm 
+sido notificados com doentes tratados com memantina.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar marixino"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar marixino"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer precauções especiais de conservação.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Marixino</h2>
+<p>A substância ativa é cloridrato de memantina.
+Cada comprimido revestido por película contém 10 mg de cloridrato de memantina, equivalente 
+a 8,31 mg de memantina.
+-
+Os outros componentes (excipientes) são:
+Núcleo do comprimido: lactose mono-hidratada, celulose microcristalina (E460), sílica coloidal 
+anidra, talco (E553b), estearato de magnésio (E470b). Revestimento: Copolímero do ácido 
+metilacrílico-etilacrilato (1:1), laurilsulfato de sódio, polissorbato 80, talco (E553b), triacetina, 
+simeticone.
+Ver secção 2 “Marixino contém lactose e sódio".
+Qual o aspeto de Marixino e conteúdo da embalagem
+Comprimido revestido por película branco, oval, biconvexo, com ranhura num dos lados 
+(comprimento do comprimido: 12,2-12,9 mm, espessura:3,5-4,5 mm). O comprimido pode ser 
+dividido em doses iguais.
+Marixino está disponível em embalagens com 14, 28, 30, 42, 50, 56, 60, 70, 84, 90, 98, 100 e comprimidos revestidos por película acondicionados em blisters.
+É possível que não sejam comercializadas todas as apresentações.
+29
+Titular da Autorização de Introdução no Mercado
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Eslovénia
+Fabricante
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Eslovénia
+TAD Pharma GmbH, Heinz-Lohmann-Straße 5, 27472 Cuxhaven, Alemanha
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+KRKA Belgium, SA
+Tél/Tel: + 32 (0) 487 50 73 62
+Lietuva
+UAB KRKA Lietuva
+Tel: + 370 5 236 27 40
+България
+КРКА България ЕООД
+Teл.: + 359 (02) 962 34 50
+Luxembourg/Luxemburg
+KRKA Belgium, SA.
+Tél/Tel: + 32 (0) 487 50 73 62 (BE)
+Česká republika
+KRKA ČR, s.r.o.
+Tel: + 420 (0) 221 115 150
+Magyarország
+KRKA Magyarország Kereskedelmi Kft.
+Tel.: + 36 (1) 355 8490
+Danmark
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Malta
+E. J. Busuttil Ltd.
+Tel: + 356 21 445 885
+Deutschland
+TAD Pharma GmbH
+Tel: + 49 (0) 4721 606-0
+Nederland
+KRKA Belgium, SA.
+Tel: + 32(0) 487 50 73 62 (BE)
+Eesti
+KRKA, d.d., Novo mesto Eesti filiaal
+Tel: + 372 (0) 6 671 658
+Norge
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Ελλάδα
+KRKA ΕΛΛΑΣ ΕΠΕ
+Τηλ: + 30 2100101613
+Österreich
+KRKA Pharma GmbH, Wien
+Tel: + 43 (0)1 66 24 300
+España
+KRKA Farmacéutica, S.L.
+Tel: + 34 911 61 03 80
+Polska
+KRKA-POLSKA Sp. z o.o.
+Tel.: + 48 (0)22 573 7500
+France
+KRKA France Eurl
+Tél: + 33 (0)1 57 40 82 25
+Portugal
+KRKA Farmacêutica, Sociedade Unipessoal Lda.
+Tel: + 351 (0)21 46 43 650
+Hrvatska
+KRKA - FARMA d.o.o.
+Tel: + 385 1 6312 100
+România
+KRKA Romania S.R.L., Bucharest
+Tel: + 4 021 310 66 05
+Ireland
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Slovenija
+KRKA, d.d., Novo mesto
+Tel: + 386 (0) 1 47 51 100
+Ísland
+LYFIS ehf.
+Slovenská republika
+KRKA Slovensko, s.r.o.
+30
+Sími: + 354 534 3500
+Tel: + 421 (0) 2 571 04 501
+Italia
+KRKA Farmaceutici Milano S.r.l.
+Tel: + 39 02 3300 8841
+Suomi/Finland
+KRKA Finland Oy
+Puh/Tel 358 20 754 5330
+Κύπρος
+KI.PA. (PHARMACAL) LIMITED
+Τηλ: + 357 24 651 882
+Sverige
+KRKA Sverige AB
+Tel: + 46 (0)8 643 67 66 (SE)
+Latvija
+KRKA Latvija SIA
+Tel: + 371 6 733 86 10
+United Kingdom (Northern Ireland)
+Consilient Health Limited
+Tel: + 353 (0) 1 2057760
+Este folheto foi revisto pela última vez em
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -768,6 +1146,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5b6e393c6403bed8aaf028ca7b1d8cd4"
 * entry[0].resource = composition-da-5b6e393c6403bed8aaf028ca7b1d8cd4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5b6e393c6403bed8aaf028ca7b1d8cd4"
+* entry[=].resource = mp5b6e393c6403bed8aaf028ca7b1d8cd4
+                            
+                    
+Instance: bundlepackageleaflet-pt-5b6e393c6403bed8aaf028ca7b1d8cd4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for marixino Package Leaflet for language pt"
+Description: "ePI document Bundle for marixino Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5b6e393c6403bed8aaf028ca7b1d8cd4"
+* entry[0].resource = composition-pt-5b6e393c6403bed8aaf028ca7b1d8cd4
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5b6e393c6403bed8aaf028ca7b1d8cd4"
@@ -869,6 +1269,18 @@ RuleSet: 5b6e393c6403bed8aaf028ca7b1d8cd4ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5b6e393c6403bed8aaf028ca7b1d8cd4) // marixino pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

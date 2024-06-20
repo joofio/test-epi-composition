@@ -1178,6 +1178,726 @@ Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemid
 
 
 
+Instance: composition-pt-899927b87eee0edddf78e53b80fec139
+InstanceOf: CompositionUvEpi
+Title: "Composition for zokinvy Package Leaflet"
+Description:  "Composition for zokinvy Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp899927b87eee0edddf78e53b80fec139)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - zokinvy"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Zokinvy e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Zokinvy </li>
+<li>Como tomar Zokinvy </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Zokinvy </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é zokinvy e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é zokinvy e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Zokinvy </p>
+<p>O Zokinvy contém a substância ativa lonafarnib. </p>
+<p>Para que é utilizado o Zokinvy </p>
+<p>Este medicamento é utilizado no tratamento de doentes com 12 ou mais meses de idade com as seguintes 
+doenças raras: </p>
+<ul>
+<li>
+<p>Síndrome de Hutchinson-Gilford ou Progeria </p>
+</li>
+<li>
+<p>laminopatias progeroides deficientes em termos do processamento </p>
+</li>
+</ul>
+<p>Estas doenças são causadas por alterações nos genes necessários para produzir determinadas proteínas. As 
+versões normais destas proteínas ajudam a manter as células fortes e estáveis. No entanto, os genes alterados 
+provocam uma acumulação de formas nocivas das proteínas progerina ou proteínas do tipo progerina. Estas 
+proteínas nocivas levam a danos celulares que se assemelham aos efeitos do envelhecimento. </p>
+<p>Como funciona Zokinvy </p>
+<p>O Zokinvy funciona ajudando a reduzir a acumulação das proteínas nocivas da progerina ou do tipo 
+progerina. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar zokinvy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar zokinvy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Zokinvy </p>
+<ul>
+<li>
+<p>se tem alergia ao lonafarnib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>com medicamentos conhecidos como inibidores fortes do CYP3A (estes podem reduzir a degradação 
+de Zokinvy no organismo, levando a mais efeitos indesejáveis, ver «Outros medicamentos e Zokinvy», 
+abaixo). </p>
+</li>
+<li>
+<p>com o medicamento midazolam </p>
+</li>
+<li>
+<p>com os medicamentos atorvastatina, lovastatina, sinvastatina </p>
+</li>
+<li>
+<p>se sofre de compromisso hepático (do fígado) grave </p>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Zokinvy. </p>
+<p>Informe imediatamente o seu médico se: </p>
+<ul>
+<li>
+<p>tem mais de 10 anos de idade. Os resultados do tratamento podem variar em função da idade quando 
+começa a tomar Zokinvy. </p>
+</li>
+<li>
+<p>tiver vómitos ou diarreia persistentes e perda prolongada de apetite ou peso (ver secção 4). </p>
+</li>
+<li>
+<p>começar a tomar o medicamento antidiarreico loperamida. Devido à interação entre Zokinvy e 
+loperamida, será importante que o seu médico forneça orientações posológicas e monitorize a sua 
+utilização deste medicamento. </p>
+</li>
+<li>
+<p>estiver prestes a ser submetido a uma cirurgia. Não pode utilizar midazolam, um medicamento 
+habitualmente utilizado durante cirurgias, com Zokinvy. O seu médico pode fornecer instruções para 
+esta situação. </p>
+</li>
+<li>
+<p>apresentar níveis aumentados de enzimas hepáticas demonstrados pelas análises ao sangue. O seu 
+médico deve monitorizar a sua função hepática enquanto estiver a tomar este medicamento. </p>
+</li>
+<li>
+<p>desenvolver quaisquer sintomas de problemas renais. O seu médico deve monitorizar a sua função 
+renal enquanto estiver a tomar este medicamento. </p>
+</li>
+<li>
+<p>tiver quaisquer novas alterações visuais. O seu médico deve monitorizar a sua visão e saúde ocular 
+enquanto estiver a tomar este medicamento. </p>
+</li>
+<li>
+<p>estiver a tomar um medicamento que é um indutor moderado ou forte do CYP3A. Estes tipos de 
+medicamentos devem ser evitados (ver «Outros medicamentos e Zokinvy», abaixo). </p>
+</li>
+<li>
+<p>estiver a tomar um medicamento que é um inibidor moderado do CYP3A. Adicionar Zokinvy a um 
+tratamento existente com estes tipos de medicamentos exige cautela (ver «Outros medicamentos e 
+Zokinvy», abaixo). </p>
+</li>
+<li>
+<p>tem um polimorfismo disfuncional conhecido do gene CYP3A4. * tem uma síndrome progeroide causada por uma mutação num gene que não o LMNA ou o ZMPSTEe que não causa uma acumulação de proteínas nocivas denominadas proteínas da progerina ou do tipo 
+progerina. Não se prevê que o Zokinvy seja eficaz para o tratamento destes tipos de síndromes 
+progeroides. Entre os exemplos de síndromes progeroides para as quais não se prevê que Zokinvy 
+proporcione benefícios incluem-se a síndrome de Werner, a síndrome de Bloom, a síndrome de 
+Rothmund-Thomson, a síndrome de Cockayne, o xeroderma pigmentoso, a tricotiodistrofia e a ataxia-
+telangiectasia. </p>
+</li>
+</ul>
+<p>Crianças </p>
+<p>Não administre este medicamento a crianças com menos de 12 meses de idade porque não foi estudado neste 
+grupo etário. </p>
+<p>Outros medicamentos e Zokinvy </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar ou puder vir a tomar outros medicamentos. </p>
+<p>Alguns medicamentos podem interagir com o Zokinvy quando tomados em conjunto. Os medicamentos 
+seguintes não podem ser tomados com Zokinvy: </p>
+<ul>
+<li>
+<p>medicamentos que são inibidores fortes do CYP3A (podem reduzir a degradação de Zokinvy no 
+organismo, levando a mais efeitos indesejáveis; pergunte ao seu farmacêutico ou médico se algum dos 
+seus outros medicamentos é deste tipo) </p>
+</li>
+<li>
+<p>midazolam (utilizado para tratar convulsões e para intervenções cirúrgicas - informe o seu médico de 
+que está a tomar Zokinvy, caso esteja a planear submeter-se a uma cirurgia) </p>
+</li>
+<li>
+<p>atorvastatina, lovastatina ou sinvastatina (utilizadas para reduzir o colesterol no sangue) </p>
+</li>
+</ul>
+<p>Os seguintes medicamentos exigem cautela quando tomados com Zovinky: </p>
+<ul>
+<li>
+<p>medicamentos que são inibidores moderados do CYP3A4 (adicionar Zovinky a um tratamento 
+existente com este tipo de medicamentos exige cautela; pergunte ao seu farmacêutico ou médico se 
+algum dos seus outros medicamentos é deste tipo). Se já estiver a tomar este tipo de medicamentos, o 
+seu médico poderá reduzir a sua dose inicial de Zovinky. </p>
+</li>
+<li>
+<p>medicamentos indutores fortes, moderados ou fracos do CYP3A (estes podem aumentar a degradação 
+do Zokinvy no organismo, tornando o medicamento menos eficaz; pergunte ao seu farmacêutico ou 
+médico se algum dos seus outros medicamentos é deste tipo) </p>
+</li>
+<li>
+<p>loperamida (utilizada para tratar a diarreia). A dose de loperamida não deve exceder 1 mg por dia. As 
+crianças com menos de 2 anos de idade não devem tomar loperamida. </p>
+</li>
+<li>
+<p>metformina (utilizada para tratar a diabetes do tipo 2) </p>
+</li>
+<li>
+<p>medicamentos que são substratos do CYP2C19 (pergunte ao seu farmacêutico ou médico se algum dos 
+seus outros medicamentos é deste tipo). Se tiver de tomar um substrato do CYP2C19, o seu médico 
+poderá ter de ajustar a sua dose do substrato do CYP2C19 e monitorizar os seus efeitos indesejáveis de 
+forma mais rigorosa. </p>
+</li>
+<li>
+<p>hipericão ou produtos que contenham hipericão (ou erva-de-são-joão) (um medicamento à base de 
+plantas utilizado no tratamento da depressão ligeira) </p>
+</li>
+<li>
+<p>medicamentos que são substratos da glicoproteína-P (pergunte ao seu farmacêutico ou médico se 
+algum dos seus outros medicamentos é deste tipo). Se tiver de tomar um substrato da glicoproteína-P, 
+o seu médico poderá ter de ajustar a sua dose do substrato da glicoproteína-P e de monitorizar mais 
+atentamente os seus efeitos indesejáveis. </p>
+</li>
+<li>
+<p>medicamentos que são substratos do OCT1 (pergunte ao seu farmacêutico ou médico se algum dos 
+seus outros medicamentos é deste tipo) </p>
+</li>
+<li>
+<p>contracetivos orais </p>
+</li>
+</ul>
+<p>Zokinvy com alimentos e bebidas </p>
+<p>Não tome Zokinvy com alimentos ou bebidas que contenham toranjas, airelas, romãs ou laranja-amarga 
+(como o doce de laranja-amarga). Os alimentos ou bebidas que contêm estes frutos podem aumentar os 
+efeitos indesejáveis do Zokinvy. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico ou 
+farmacêutico antes de tomar este medicamento. </p>
+<p>O Zokinvy não foi testado em mulheres grávidas. </p>
+<p>O Zokinvy não é recomendado durante a gravidez. </p>
+<p>As mulheres com potencial para engravidar têm de utilizar um método contracetivo eficaz enquanto tomam 
+Zokinvy e durante, pelo menos, 1 semana após a dose final. Os homens com parceiras com potencial para 
+engravidar têm de utilizar um método contracetivo eficaz enquanto tomam Zokinvy e durante, pelo menos, 
+3 meses após a dose final. Adicione um método de contraceção de barreira se forem utilizados esteroides 
+sistémicos para a contraceção. </p>
+<p>Desconhece-se se Zokinvy passa para o leite materno e pode afetar um bebé amamentado. Se desejar 
+amamentar, discuta primeiro os benefícios e os possíveis riscos de o fazer ou de interromper o Zokinvy com 
+o seu médico. </p>
+<p>Ainda não se sabe se este medicamento afeta a fertilidade em homens ou mulheres. </p>
+<p>Condução de veículos e utilização de ferramentas ou máquinas </p>
+<p>Os efeitos de Zokinvy sobre a capacidade de conduzir e utilizar máquinas são reduzidos. Pode ocorrer 
+cansaço após a administração de Zokinvy. </p>
+<p>Zokinvy contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente «isento 
+de sódio». </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar zokinvy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar zokinvy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<ul>
+<li>
+<p>O Zokinvy é tomado sob a forma de 1 ou 2 cápsulas duas vezes por dia, com um intervalo de cerca de 
+12 horas (de manhã e à noite) com alimentos. A dose de Zokinvy baseia-se na sua altura e peso. </p>
+</li>
+<li>
+<p>O seu médico irá determinar a dose inicial correta de Zokinvy para si. Isto pode significar tomar 
+cápsulas de diferentes dosagens para perfazer a quantidade certa. Após 4 meses de tratamento com 
+Zokinvy, o seu médico pode aumentar a sua dose. </p>
+</li>
+<li>
+<p>Certifique-se de que sabe quantas cápsulas necessita de tomar em cada dose e qual a dosagem de cada 
+cápsula de que necessita. Peça ao seu médico, farmacêutico ou enfermeiro que o anote (incluindo a cor 
+da(s) cápsula(s) a tomar para cada dose). </p>
+</li>
+<li>
+<p>Tome as cápsulas com alimentos, acompanhando-as de água suficiente para o ajudar a engoli-las. 
+Tomar Zokinvy com alimentos pode ajudar a reduzir os efeitos indesejáveis. </p>
+</li>
+</ul>
+<p>Se não conseguir engolir uma cápsula de Zokinvy inteira </p>
+<ul>
+<li>Se não conseguir engolir uma cápsula de Zokinvy inteira, siga as instruções seguintes para misturar o 
+conteúdo da cápsula com sumo de laranja. </li>
+</ul>
+<p>Do que necessita para misturar Zokinvy com sumo de laranja </p>
+<ul>
+<li>
+<p>Misture uma dose nova de Zokinvy para cada utilização. </p>
+</li>
+<li>
+<p>Coloque de lado o número certo de cápsulas de Zokinvy para a sua dose. Coloque a cápsula ou as 
+cápsulas numa superfície plana e limpa. </p>
+</li>
+<li>
+<p>Utilize apenas sumo de laranja. Não utilize outras bebidas para misturar Zokinvy. </p>
+</li>
+<li>
+<p>Um copo para medicamentos limpo com níveis de medição de 5 ml e 10 ml. </p>
+</li>
+<li>
+<p>Um copo limpo para cada cápsula de Zokinvy a misturar. </p>
+</li>
+<li>
+<p>Uma colher limpa para mexer a mistura. </p>
+</li>
+</ul>
+<p>Como misturar Zokinvy com sumo de laranja </p>
+<p>Passo 1: </p>
+<ul>
+<li>
+<p>Utilizando um copo para medicamentos 
+limpo, meça 5 ml ou 10 ml de sumo de 
+laranja. </p>
+</li>
+<li>
+<p>Pode optar por utilizar 5 ml ou 10 ml de 
+sumo de laranja. </p>
+</li>
+</ul>
+<p>Passo 2: </p>
+<p>Deite o sumo de laranja medido no Passo 1 num 
+copo limpo. </p>
+<p>Passo 3: </p>
+<ul>
+<li>
+<p>Segure uma cápsula de Zokinvy por cima do 
+copo que contém o sumo de laranja. </p>
+</li>
+<li>
+<p>Segure a cápsula entre o polegar e o 
+indicador de ambos os lados. </p>
+</li>
+<li>
+<p>Torça e abra cuidadosamente a cápsula. </p>
+</li>
+</ul>
+<p>Passo 4: 
+Esvazie todo o conteúdo da cápsula no copo que 
+contém o sumo de laranja. </p>
+<p>Encha com 5 ml 
+ou 10 ml<br />
+10 ml 
+5 ml 
+10 ml 
+5 ml 
+ou </p>
+<p>Passo 5: </p>
+<ul>
+<li>
+<p>Com uma colher limpa, misture bem o 
+conteúdo da cápsula com o sumo de laranja. </p>
+</li>
+<li>
+<p>Se for necessário tomar apenas 1 cápsula, 
+ignore o Passo 7. * Se for necessário tomar 2 cápsulas, avance 
+para o Passo 6.<br />
+Passo 6: </p>
+</li>
+<li>
+<p>Se for necessário tomar 2 cápsulas, repita 
+os Passos 1 a 5 para a segunda cápsula. </p>
+</li>
+<li>
+<p>Uma vez misturada a segunda cápsula, as 
+2 porções podem ser combinadas num 
+único copo ou permanecer em 2 copos. </p>
+</li>
+<li>
+<p>Depois de terminar, vá para os Passos 7, 
+8 e 9.<br />
+Passo 7: 
+Tome toda a mistura de Zokinvy: </p>
+</li>
+<li>
+<p>com alimentos. </p>
+</li>
+<li>
+<p>num período de cerca de 10 minutos após a 
+preparação. </p>
+</li>
+</ul>
+<p>Cada dose tem de ser misturada e consumida num 
+período de 10 minutos. A mistura só deve ser 
+preparada no momento em que se destina a ser 
+consumida. </p>
+<p>Passo 8: 
+Lave o copo para medicamentos utilizado para 
+medir o sumo de laranja e encha-o com 5 ml de 
+água para cada cápsula misturada com sumo de 
+laranja. </p>
+<p>Passo 9: </p>
+<ul>
+<li>
+<p>Coloque a água medida no Passo 8 no copo 
+utilizado para misturar o Zokinvy e o sumo 
+de laranja (a). </p>
+</li>
+<li>
+<p>Faça rodar suavemente a água à volta do 
+copo (b). Beba a água. </p>
+</li>
+</ul>
+<p>Se necessita de uma dose diária reduzida de Zovinky </p>
+<p>(a) 
+(b) 
+TOMAR NUM PERÍODO 
+de 10 minutos 
+10 ml 
+5 ml </p>
+<p>Passo 1: </p>
+<p>Utilize um copo para medicamentos limpo e encha-o com 
+10 ml de sumo de laranja.  </p>
+<p>Passo 2:  </p>
+<p>Coloque o sumo de laranja medido no Passo 1 num copo 
+limpo para misturar. </p>
+<p>Passo 3: </p>
+<ul>
+<li>
+<p>Dependendo das indicações do seu médico, segure 
+uma cápsula de 75 mg ou 50 mg de Zokinvy por 
+cima do copo que contém o sumo de laranja. </p>
+</li>
+<li>
+<p>Segure a cápsula entre o polegar e o indicador de 
+ambos os lados. </p>
+</li>
+<li>
+<p>Torça e abra cuidadosamente a cápsula. </p>
+</li>
+</ul>
+<p>Passo 4: </p>
+<ul>
+<li>Esvazie todo o conteúdo da cápsula no copo que 
+contém o sumo de laranja. </li>
+</ul>
+<p>Passo 5: </p>
+<p>Com uma colher limpa, misture bem o conteúdo da cápsula 
+com o sumo de laranja. </p>
+<p>Encher com 
+10 ml de 
+sumo de laranja 
+10 ml 
+5 ml </p>
+<p>Passo 6: </p>
+<p>Passe 5 ml do sumo de laranja e da mistura de Zokinvy do 
+copo misturador para um copo para medicamentos limpo. </p>
+<p>Passo 7:  </p>
+<p>Tome a mistura de 5 ml de Zokinvy e sumo de laranja a 
+partir do copo para medicamentos: </p>
+<ul>
+<li>
+<p>com alimentos </p>
+</li>
+<li>
+<p>cerca de 10 minutos após a preparação </p>
+</li>
+</ul>
+<p>Cada dose tem de ser misturada e consumida num período 
+de 10 minutos. A mistura só deve ser preparada no 
+momento em que se destina a ser consumida. </p>
+<p>Passo 8: </p>
+<p>Encha o copo para medicamentos utilizado para consumir a 
+mistura de Zokinvy e sumo de laranja com 5 ml de água. </p>
+<p>Passo 9: </p>
+<p>Faça rodar suavemente a água à volta do copo para 
+medicamentos. Beba a água. </p>
+<p>Beba muita água enquanto estiver a tomar Zokinvy </p>
+<p>É importante beber muita água e outros líquidos enquanto estiver a tomar Zokinvy. Isto pode ajudar a reduzir 
+os problemas associados à diarreia ou aos vómitos. </p>
+<p>Fale com o seu médico sobre a quantidade de água ou de outros líquidos que deve beber todos os dias. </p>
+<p>O seu médico irá falar consigo acerca dos líquidos que pode beber para se certificar de que está a ingerir a 
+quantidade correta de líquidos todos os dias. </p>
+<p>Encher 
+com 
+5 ml 
+Encher com 
+5 ml 
+TOMAR NUM PERÍODO 
+de 10 minutos 
+10 ml 
+5 ml 
+10 ml 
+5 ml 
+10 ml 
+5 ml </p>
+<p>Não ingerir alimentos nem beber sumos que contenham toranjas, airelas, romãs ou laranjas-amargas 
+(conhecidas como bigarades). </p>
+<p>Se tomar mais Zokinvy do que deveria </p>
+<p>Se tomar mais cápsulas do que deveria, pare de tomar o medicamento e contacte o seu médico.  </p>
+<p>Caso se tenha esquecido de tomar Zokinvy </p>
+<p>Caso se tenha esquecido de tomar uma dose e faltem oito horas ou mais até à próxima dose prevista, tome a 
+dose em falta o mais rapidamente possível com alguns alimentos. Se faltarem menos de 8 horas para a dose 
+seguinte prevista, não tome a dose em falta e reinicie a toma de Zokinvy na dose seguinte programada. </p>
+<p>Se parar de tomar Zokinvy </p>
+<p>Não pare de tomar Zokinvy sem falar com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou 
+enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves. Informe imediatamente o seu médico se: </p>
+<ul>
+<li>tiver náuseas, vómitos ou diarreia persistentes que provoquem perda de apetite, perda de peso ou 
+desidratação. Os vómitos ou a diarreia são muito frequentes (podem afetar mais de 1 em cada 
+10 pessoas) e podem provocar deficiências eletrolíticas que requerem cuidados de suporte. O médico 
+poderá monitorizar o seu peso, o seu apetite e as quantidades que come e bebe para ajudar a detetar 
+qualquer uma destas possíveis doenças eletrolíticas. </li>
+</ul>
+<p>Informe imediatamente o seu médico se notar algum dos efeitos indesejáveis graves acima mencionados. </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>aumento das enzimas do fígado demonstrado por análises ao sangue, que indicam tensão no fígado </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>cansaço </p>
+</li>
+<li>
+<p>prisão de ventre </p>
+</li>
+<li>
+<p>infeções dos seios perinasais ou outras infeções das vias respiratórias superiores </p>
+</li>
+<li>
+<p>diminuição da hemoglobina demonstrada por análises ao sangue </p>
+</li>
+<li>
+<p>diminuição do bicarbonato demonstrado por análises ao sangue </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>dores no corpo, incluindo dor nas costas e dor nas extremidades </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>diminuição dos níveis de sódio, potássio, albumina e creatinina demonstrados por análises ao sangue </p>
+</li>
+<li>
+<p>aumento dos níveis de magnésio demonstrados por análises ao sangue </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>flatulência </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>comichão (pele pruriginosa) </p>
+</li>
+<li>
+<p>isquemia cerebral (AVC) </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>corrimento nasal </p>
+</li>
+<li>
+<p>congestão nasal (nariz entupido) </p>
+</li>
+<li>
+<p>hemorragia nasal </p>
+</li>
+<li>
+<p>dor de garganta </p>
+</li>
+<li>
+<p>depressão </p>
+</li>
+<li>
+<p>pústula oral (feridas na boca) </p>
+</li>
+<li>
+<p>inchaço doloroso em forma de furúnculo próximo do ânus (abcesso perirretal) </p>
+</li>
+<li>
+<p>pneumonia </p>
+</li>
+<li>
+<p>gripe </p>
+</li>
+<li>
+<p>diminuição da contagem de células sanguíneas (como a contagem de glóbulos brancos) demonstrada 
+por análises ao sangue </p>
+</li>
+<li>
+<p>formigueiro nas mãos e nos pés </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>irritação, inflamação ou feridas do intestino grosso (colite) </p>
+</li>
+<li>
+<p>indigestão (pode incluir sensação de inchaço, desconforto, sensação de estar demasiado cheio ou de 
+gases) </p>
+</li>
+<li>
+<p>inflamação do revestimento do estômago (gastrite) </p>
+</li>
+<li>
+<p>hemorragia do intestino grosso, do reto ou do ânus </p>
+</li>
+<li>
+<p>pele seca </p>
+</li>
+<li>
+<p>escurecimento da pele (hiperpigmentação) </p>
+</li>
+<li>
+<p>dor no peito </p>
+</li>
+<li>
+<p>arrepios </p>
+</li>
+<li>
+<p>fratura dentária </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, fale com o seu médico, farmacêutico ou enfermeiro. Incluindo 
+possíveis efeitos indesejáveis não indicados neste folheto. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar zokinvy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar zokinvy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco após a 
+VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar na embalagem de origem. Manter o frasco bem fechado para proteger da humidade. O 
+medicamento não necessita de qualquer temperatura especial de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Zokinvy </p>
+<ul>
+<li>
+<p>A substância ativa é o lonafarnib 
+Zokinvy 50 mg cápsulas: cada cápsula contém 50 mg de lonafarnib. 
+Zokinvy 75 mg cápsulas: cada cápsula contém 75 mg de lonafarnib. </p>
+</li>
+<li>
+<p>Os outros componentes são: 
+Conteúdo da cápsula: croscarmelose sódica (ver secção 2 «Zokinvy contém sódio»), estearato de 
+magnésio, poloxamero, povidona e sílica coloidal anidra </p>
+</li>
+</ul>
+<p>Invólucro da cápsula: 
+Zokinvy 50 mg cápsulas: gelatina, dióxido de titânio, óxido de ferro amarelo e lecitina de girassol 
+Zokinvy 75 mg cápsulas: gelatina, dióxido de titânio, óxido de ferro amarelo, óxido de ferro vermelho 
+e lecitina de girassol 
+Tinta de impressão: goma laca, óxido de ferro negro </p>
+<p>Qual o aspeto de Zokinvy e conteúdo da embalagem </p>
+<p>As cápsulas de Zokinvy 50 mg são cápsulas amarelas opacas, marcadas com «LNF» e «50» a tinta preta. </p>
+<p>As cápsulas de Zokinvy de 75 mg são cápsulas cor-de-laranja claro opacas, marcadas com «LNF» e «75» a 
+tinta preta. </p>
+<p>A embalagem do frasco contém 30 cápsulas e um dessecante. O dessecante está contido numa lata e esta lata 
+está incluída no frasco que contém as cápsulas. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+EigerBio Europe Ltd. 
+1 Castlewood Avenue 
+Rathmines, D06 H685, Irlanda </p>
+<p>Fabricante 
+ABF Pharmaceutical Services GmbH 
+Brunner Straße 63/18-A-1230 Viena 
+Áustria </p>
+<p>Sciensus International B.V. 
+Bijsterhuizen 36604 LV, Wijchen 
+Holanda </p>
+<p>Este folheto foi revisto pela última vez em MÊS ANO </p>
+<p>Foi concedida a este medicamento uma «Autorização de Introdução no Mercado em circunstâncias 
+excecionais». 
+Isto significa que não foi possível obter informação completa sobre este medicamento devido à raridade 
+desta doença. 
+A Agência Europeia de Medicamentos irá analisar todos os anos qualquer nova informação sobre este 
+medicamento e este folheto será atualizado, se necessário. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da Internet da Agência Europeia 
+de Medicamentos: http://www.ema.europa.eu. Também existem links para outros sítios da Internet sobre 
+doenças raras e tratamentos. 
+Este folheto está disponível em todas as línguas da UE/EEE no sítio da Internet da Agência Europeia de 
+Medicamentos. </p>         </div>"""      
+
+
+
 
 
                     
@@ -1219,6 +1939,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-899927b87eee0edddf78e53b80fec139"
 * entry[0].resource = composition-da-899927b87eee0edddf78e53b80fec139
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp899927b87eee0edddf78e53b80fec139"
+* entry[=].resource = mp899927b87eee0edddf78e53b80fec139
+                            
+                    
+Instance: bundlepackageleaflet-pt-899927b87eee0edddf78e53b80fec139
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zokinvy Package Leaflet for language pt"
+Description: "ePI document Bundle for zokinvy Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-899927b87eee0edddf78e53b80fec139"
+* entry[0].resource = composition-pt-899927b87eee0edddf78e53b80fec139
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp899927b87eee0edddf78e53b80fec139"
@@ -1320,6 +2062,18 @@ RuleSet: 899927b87eee0edddf78e53b80fec139ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-899927b87eee0edddf78e53b80fec139) // zokinvy pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

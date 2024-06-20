@@ -1015,6 +1015,552 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-78e33c6ca57a9089f2dae156018ba8d2
+InstanceOf: CompositionUvEpi
+Title: "Composition for pritorplus Package Leaflet"
+Description:  "Composition for pritorplus Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp78e33c6ca57a9089f2dae156018ba8d2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - pritorplus"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é PritorPlus e para que é utilizado
+2. O que precisa de saber antes de tomar PritorPlus 
+3. Como tomar PritorPlus 
+4. Efeitos indesejáveis possíveis
+5. Como conservar PritorPlus 
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é pritorplus e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é pritorplus e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>PritorPlus é uma combinação de duas substâncias ativas, telmisartan e hidroclorotiazida, num 
+comprimido. Estas duas substâncias ajudam a controlar a pressão arterial elevada.
+
+Telmisartan pertence a um grupo de fármacos conhecidos como antagonistas dos recetores da 
+angiotensina II. A angiotensina II é uma substância produzida pelo organismo, que contrai os 
+vasos sanguíneos aumentando assim a sua pressão arterial. O telmisartan bloqueia este efeito da 
+angiotensina II, provocando um relaxamento dos vasos sanguíneos e diminuindo 
+consequentemente a sua pressão arterial.
+
+A hidroclorotiazida pertence a um grupo de fármacos denominados diuréticos tiazídicos que 
+induzem um aumento do seu débito urinário, levando a uma redução da sua pressão arterial.
+A pressão arterial elevada, se não for tratada, pode danificar os vasos sanguíneos em vários órgãos, o 
+que pode por vezes causar ataques cardíacos, insuficiências cardíaca ou renal, acidentes vasculares 
+cerebrais ou cegueira. Habitualmente não existem sintomas de pressão arterial elevada antes de 
+ocorrerem danos. Assim, é importante medir regularmente a pressão arterial para verificar se esta se 
+encontra dentro dos valores normais.
+PritorPlus é utilizado para tratar a pressão arterial elevada (hipertensão essencial) em adultos que 
+não têm a pressão arterial suficientemente controlada com o telmisartan usado em monoterapia.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar pritorplus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar pritorplus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome PritorPlus
+
+se tem alergia ao telmisartan ou a qualquer um dos outros componentes deste medicamento 
+(indicados na secção 6).
+
+se tem alergia à hidroclorotiazida ou a qualquer outro medicamento derivado das sulfonamidas.
+62
+
+se tiver mais do que três meses de gravidez. (Também é preferível não tomar PritorPlus no 
+início da gravidez - ver secção Gravidez).
+
+se tem problemas hepáticos graves, tais como colestase ou obstrução biliar (problemas 
+relacionados com a drenagem da bílis do fígado e vesícula biliar), ou qualquer outra doença 
+hepática grave.
+
+se tem uma doença renal grave.
+
+se o seu médico determinar que tem baixos níveis de potássio ou elevados níveis de cálcio no 
+sangue que não melhoram com tratamento.
+
+se tem diabetes ou função renal diminuída e se está a ser tratado com um medicamento que 
+contém aliscireno para diminuir a pressão arterial.
+Se alguma das situações acima se aplica ao seu caso, informe o seu médico ou farmacêutico antes de 
+tomar PritorPlus.
+Advertências e precauções 
+Fale com o seu médico antes de tomar PritorPlus se sofre ou sofreu de alguma das seguintes condições 
+ou doenças:
+
+Pressão arterial baixa (hipotensão), que pode ocorrer se estiver desidratado (perda excessiva de 
+água corporal) ou se tiver deficiência em sais devido a terapêutica com diuréticos (comprimidos 
+diuréticos), dieta pobre em sal, diarreia, vómitos ou hemodiálise.
+
+Doença renal ou transplante renal.
+
+Estenose da artéria renal (contração dos vasos sanguíneos de um ou de ambos os rins).
+
+Doença do fígado.
+
+Problemas cardíacos.
+
+Diabetes.
+
+Gota.
+
+Níveis de aldosterona aumentados (retenção de água e sal no organismo acompanhada por 
+desequilíbrio de vários minerais no sangue).
+
+Lúpus eritematoso sistémico (também denominado “lúpus" ou “LES"), uma doença em que o 
+sistema imunitário ataca o próprio corpo.
+
+A substância ativa hidroclorotiazida pode causar uma reação não usual, que leva a uma 
+diminuição da visão e dor ocular. Estes podem ser sintomas de acumulação de líquido na camada 
+vascular do olho (efusão coroidal) ou um aumento da pressão no seu olho e podem acontecer 
+horas ou semanas após tomar PritorPlus. Se não for tratada, pode levar a perda permanente da 
+visão.
+
+Caso tenha tido cancro da pele ou se desenvolver uma lesão cutânea inesperada durante o 
+tratamento. O tratamento com hidroclorotiazida, no caso particular da utilização de doses 
+elevadas a longo prazo, pode aumentar o risco de alguns tipos de cancro da pele e do lábio 
+(cancro da pele não-melanoma). Proteja a sua pele contra a exposição solar e a radiação 
+ultravioleta, enquanto estiver a tomar PritorPlus.
+Fale com o seu médico antes de tomar PritorPlus:
+
+se está a tomar algum dos seguintes medicamentos para tratar a pressão arterial elevada:
+- um inibidor da ECA (por exemplo enalapril, lisinopril, ramipril), em particular se tiver 
+problemas nos rins relacionados com diabetes.
+- aliscireno.
+O seu médico pode verificar a sua função renal, pressão arterial e a quantidade de eletrólitos 
+(por exemplo, o potássio) no seu sangue em intervalos regulares. Ver também a informação sob 
+o título “Não tome PritorPlus".
+
+se estiver a tomar digoxina.
+
+se já teve problemas respiratórios ou pulmonares (incluindo inflamação ou líquido nos pulmões) 
+após a toma de hidroclorotiazida. Se desenvolver qualquer falta de ar grave ou dificuldade em 
+respirar após tomar PritorPlus, procure assistência médica imediatamente.
+63
+Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. PritorPlus não está 
+recomendado no início da gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez 
+que pode ser gravemente prejudicial para o bebé se utilizado a partir desta altura (ver secção 
+Gravidez).
+O tratamento com hidroclorotiazida pode causar um desequilíbrio eletrolítico no seu corpo. Os 
+sintomas típicos do desequilíbrio de fluidos ou eletrólitos incluem secura da boca, fraqueza, letargia, 
+sonolência, agitação, dores ou cãibras musculares, náuseas (má disposição), vómitos, cansaço 
+muscular e uma frequência cardíaca rápida e anómala (superior a 100 batimentos por minuto). Caso 
+sinta qualquer destes sintomas deverá comunicá-lo ao seu médico.
+Deve também informar o seu médico, se sentir um aumento da sensibilidade cutânea ao sol, com 
+sintomas de queimadura solar (tais como vermelhidão, comichão, inchaço, formação de bolhas) que 
+ocorram mais rapidamente do que o normal.
+Em caso de cirurgia ou anestesia, deverá informar o seu médico que se encontra a tomar PritorPlus.
+PritorPlus pode ser menos eficaz na diminuição da tensão arterial em doentes de raça negra. 
+Crianças e adolescentes
+Não é recomendada a utilização de PritorPlus em crianças e adolescentes menores de 18 anos.
+Outros medicamentos e PritorPlus
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. O seu médico pode ter de alterar a dose desses medicamentos ou tomar 
+outras precauções. Nalguns casos, pode ter de parar de tomar um dos medicamentos. Isto aplica-se 
+principalmente aos medicamentos indicados abaixo, tomados simultaneamente com PritorPlus:
+
+Medicamentos que contenham lítio para tratar alguns tipos de depressão.
+
+Medicamentos associados a baixa concentração de potássio no sangue (hipocaliemia), tais como 
+outros diuréticos (‘comprimidos diuréticos’), laxantes (por exemplo, óleo de rícino), 
+corticosteroides (por exemplo, prednisona), ACTH (uma hormona), anfotericina (um 
+medicamento antifúngico), carbenoxolona (utilizado para tratar úlceras bucais), penicilina G 
+sódica (um antibiótico), e ácido salicílico e derivados.
+
+Medicamentos que podem aumentar os níveis de potássio no sangue, tais como, diuréticos 
+poupadores de potássio, suplementos de potássio, substitutos salinos contendo potássio, 
+inibidores da ECA, ciclosporina (um medicamento imunossupressor) e outros medicamentos, tais 
+como heparina sódica (um anticoagulante).
+
+Medicamentos que sejam afetados por alterações dos níveis de potássio no sangue, tais como 
+medicamentos para o coração (por exemplo, digoxina) ou medicamentos para controlar o ritmo 
+do seu coração (por exemplo, quinidina, disopiramida, amiodarona, sotalol), medicamentos 
+utilizados para distúrbios mentais (por exemplo, tioridazina, clorpromazina, levomepromazina) e 
+outros medicamentos tais como certos antibióticos (por exemplo, esparfloxacina, pentamidina) ou 
+determinados medicamentos utilizados para tratar reações alérgicas (por exemplo, terfenadina).
+
+Medicamentos para o tratamento da diabetes (insulinas ou agentes orais tais como metformina).
+
+Colestiramina e colestipol, medicamentos utilizados para reduzir os níveis de gordura no sangue.
+
+Medicamentos para aumentar a pressão arterial, tais como noradrenalina.
+
+Relaxantes musculares como a tubocurarina.
+
+Suplementos de cálcio e/ou suplementos de vitamina D.
+
+Medicamentos anticolinérgicos (medicamentos utilizados para tratar uma variedade de doenças 
+tais como cólicas gastrointestinais, espasmos da bexiga, asma, enjoo de movimento, espasmos 
+musculares, doença de Parkinson e como auxiliar em anestesia) tais como atropina e biperideno.
+
+Amantadina (medicamento usado para tratar a doença de Parkinson, também utilizado para tratar 
+ou prevenir algumas doenças causadas por vírus).
+64
+
+Outros medicamentos utilizados para tratar a pressão arterial elevada, corticosteróides, 
+analgésicos (tais como os medicamentos anti-inflamatórios não esteroides (AINEs)), 
+medicamentos para o tratamento do cancro, gota ou artrite.
+
+Se está a tomar um inibidor da ECA ou aliscireno (ver também informações sob os títulos “Não 
+tome PritorPlus" e “Advertências e precauções").
+
+Digoxina.
+PritorPlus pode aumentar o efeito redutor da pressão arterial de outros medicamentos utilizados para 
+diminuir a pressão arterial ou de medicamentos com potencial de redução da pressão arterial (por 
+exemplo, baclofeno, amifostina). Ademais, a pressão arterial baixa pode ser agravada pelo álcool, 
+barbitúricos, narcóticos ou antidepressivos. Pode percecionar isto como tonturas ao levantar-se. Deve 
+consultar o seu médico, se precisa de ajustar a dose dos outros medicamentos, enquanto estiver a 
+tomar PritorPlus.
+O efeito do PritorPlus pode ser reduzido se estiver a tomar AINEs (medicamentos anti-inflamatórios 
+não esteroides, por exemplo, aspirina ou ibuprofeno).
+PritorPlus com alimentos e álcool
+PritorPlus pode ser tomado com ou sem alimentos.
+Evite o consumo de álcool antes de falar com o seu médico. O álcool pode provocar uma descida 
+maior da pressão arterial e/ou aumentar o risco de ficar com tonturas ou com sensação de desmaio.
+Gravidez e amamentação
+Gravidez
+Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. O seu médico 
+normalmente aconselhá-la-á a interromper PritorPlus antes de engravidar ou assim que estiver grávida 
+e a tomar outro medicamento em vez de PritorPlus. PritorPlus não está recomendado durante a 
+gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez que pode ser gravemente 
+prejudicial para o bebé se utilizado a partir desta altura.
+Amamentação
+Deverá informar o seu médico de que se encontra a amamentar ou que está prestes a iniciar o 
+aleitamento. PritorPlus não está recomendado em mães a amamentar; nestes casos o seu médico 
+poderá indicar outro tratamento. 
+Condução de veículos e utilização de máquinas
+Algumas pessoas referem tonturas ou cansaço quando tomam PritorPlus. Se se sentir tonto ou cansado, 
+não conduza ou utilize máquinas.
+PritorPlus contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio".
+PritorPlus contém açúcar do leite (lactose).
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento.
+PritorPlus contém sorbitol
+Este medicamento contém 169 mg de sorbitol em cada comprimido.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar pritorplus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar pritorplus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+65
+A dose recomendada é de um comprimido por dia. Tente tomar o comprimido sempre à mesma hora. 
+Pode tomar PritorPlus com ou sem alimentos. Os comprimidos devem ser engolidos com um pouco de 
+água ou outra bebida não-alcoólica. É importante que tome PritorPlus todos os dias, até indicação em 
+contrário por parte do seu médico.
+Se o seu fígado não estiver a trabalhar adequadamente, a dose habitual não deve exceder os mg/12,5 mg uma vez ao dia.
+Se tomar mais PritorPlus do que deveria
+Se tomar acidentalmente demasiados comprimidos pode sentir diminuição da pressão arterial e 
+batimento cardíaco acelerado. Também foram notificados batimento cardíaco lento, tonturas, vómitos e 
+diminuição da função renal, incluindo insuficiência renal. Devido à hidroclorotiazida também podem 
+ocorrer diminuição acentuada da pressão arterial e diminuição dos níveis de potássio no sangue, o que 
+pode resultar em náuseas, sonolência e cãibras musculares, e/ou batimentos cardíacos irregulares 
+associados ao uso concomitante com outros medicamentos, tais como os digitálicos ou certos 
+tratamentos antiarrítmicos. Contacte o seu médico ou farmacêutico, ou as urgências do hospital mais 
+próximo imediatamente.
+Caso se tenha esquecido de tomar PritorPlus
+Caso se esqueça de tomar uma dose, não se preocupe. Tome-a logo que se lembre e mantenha o 
+regime de tratamento como anteriormente. Se não tomar o seu comprimido durante um dia, tome a sua 
+dose normal, no dia seguinte. Não tome um comprimido a dobrar para compensar doses individuais 
+que se esqueceu de tomar.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Alguns efeitos indesejáveis podem ser graves e necessitar de atenção médica imediata:
+Deve procurar imediatamente o seu médico se apresentar qualquer um dos seguintes sintomas:
+Sepsis<em> (muitas vezes designada “envenenamento sanguíneo", é uma infeção grave que desencadeia 
+uma resposta generalizada do sistema inflamatório), rápido inchaço da pele e mucosas (angioedema) 
+formação de bolhas e descamação da camada superior da pele (necrólise epidérmica tóxica); estes 
+efeitos são raros (podem afetar até 1 em 1.000 pessoas) ou de frequência desconhecida (necrólise 
+epidérmica tóxica) mas são extremamente graves e os doentes devem parar de tomar o medicamento e 
+procurar o seu médico imediatamente. Se estes efeitos não forem tratados, podem ser fatais. A 
+incidência aumentada de sepsis foi observada apenas com telmisartan, no entanto não pode ser 
+excluída relativamente ao PritorPlus.<br />
+Efeitos indesejáveis possíveis de PritorPlus:
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas)
+Tonturas
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas)
+Diminuição dos níveis de potássio no sangue, ansiedade, desmaio (síncope), sensação de formigueiro, 
+sensação de picadas de agulhas (parestesia), sensação de “cabeça à roda" (vertigens), batimento 
+cardíaco acelerado (taquicardia), alterações do ritmo cardíaco, tensão arterial baixa, uma queda brusca 
+da pressão sanguínea quando se levanta, falta de ar (dispneia), diarreia, boca seca, flatulência 
+66
+(libertação de gases), dor nas costas, espasmos musculares, dores musculares, disfunção eréctil 
+(incapacidade de obter ou manter uma ereção), dor no peito, aumento dos níveis de ácido úrico no 
+sangue.
+Efeitos indesejáveis raros podem incluir (podem afetar até 1 em 1.000 pessoas)
+Inflamação do pulmão (bronquite), ativação ou agravamento de lúpus eritematoso sistémico (uma 
+doença em que o sistema imunitário ataca o próprio corpo, o que causa dor nas articulações, erupção 
+na pele e febre); dor de garganta, sinusite (inflamação dos seios perinasais), sensação de tristeza 
+(depressão), dificuldade em adormecer (insónia), visão alterada, dificuldade em respirar, dor 
+abdominal, prisão de ventre, inchaço abdominal (dispepsia), sentir-se doente (vómitos), inflamação do 
+estômago (gastrite), alteração da função hepática (os doentes japoneses são mais suscetíveis de sofrer 
+este efeito secundário), vermelhidão na pele (eritema), reações alérgicas, tais como comichão ou 
+erupção cutânea, aumento da sudação, urticária, dor nas articulações (artralgia) e dor nas 
+extremidades, cãibras musculares, doença do tipo gripal, dor, níveis baixos de sódio, aumento dos 
+níveis de creatinina, enzimas hepáticas ou creatinina fosfoquinase no sangue.
+As reações adversas notificadas com cada um dos constituintes individuais podem constituir potenciais 
+reações adversas de PritorPlus, mesmo que não tenham sido observadas em ensaios clínicos com este 
+medicamento. 
+Telmisartan
+Em doentes a tomar telmisartan isolado, foram notificados os seguintes efeitos indesejáveis: 
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas)
+Infeção do trato respiratório superior (p. ex.: garganta inflamada, sinusite, constipação), infeções do 
+trato urinário, deficiência em células vermelhas do sangue (anemia), níveis elevados de potássio, 
+batimento cardíaco lento (bradicardia), compromisso renal incluindo insuficiência renal aguda, 
+fraqueza, tosse.
+Efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas)
+Contagem de plaquetas baixa (trombocitopenia), aumento de algumas células brancas do sangue 
+(eosinofilia), reações alérgicas graves (ex.: hipersensibilidade, reação anafilática, erupção cutânea 
+causada pelo medicamento), níveis baixos de açúcar no sangue (em doentes diabéticos), mal-estar no 
+estômago, eczema (uma alteração da pele), artroses, inflamação dos tendões, diminuição da 
+hemoglobina (uma proteína sanguínea), sonolência.
+Efeitos indesejáveis muito raros (podem afetar até 1 em 10.000 pessoas)
+Cicatrização progressiva do tecido pulmonar (doença pulmonar intersticial)</em>* * O acontecimento pode ter ocorrido por acaso ou pode estar relacionado com um mecanismo 
+atualmente desconhecido.</p>
+<p>** Casos de cicatrização progressiva do tecido pulmonar foram notificados durante a toma de 
+telmisartan. No entanto, não se sabe se o telmisartan é a causa. 
+Hidroclorotiazida
+Em doentes a tomar hidroclorotiazida isolada, foram comunicados os seguintes efeitos indesejáveis:
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas)
+Enjoos (náuseas), nível baixo de magnésio no sangue.
+Efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas)
+Redução no número de plaquetas no sangue, o que aumenta o risco de hemorragias ou de nódoas negras 
+(pequenas marcas roxo-avermelhadas na pele ou noutros tecidos causadas por uma hemorragia), nível 
+elevado de cálcio no sangue, dores de cabeça.
+67
+Efeitos indesejáveis muito raros (podem afetar até 1 em 10.000 pessoas)
+pH aumentado (distúrbio no equilíbrio ácido-base) devido a um baixo nível de cloreto no sangue, 
+insuficiência respiratória aguda (os sinais incluem falta de ar grave, febre, fraqueza e confusão).
+Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis)
+Inflamação da glândula salivar, cancro da pele e do lábio (cancro da pele não-melanoma), diminuição 
+do número (ou mesmo ausência) de células no sangue, incluindo contagem baixa de glóbulos 
+vermelhos e glóbulos brancos, reações alérgicas graves (ex.: hipersensibilidade, reação anafilática), 
+diminuição ou perda de apetite, agitação, sensação de cabeça vazia, visão turva ou amarelada, 
+diminuição da visão e dor ocular (possíveis sinais de acumulação de líquido na camada vascular do 
+olho (efusão coroidal) ou miopia aguda ou glaucoma agudo de ângulo fechado), inflamação dos vasos 
+sanguíneos (vasculite necrosante), inflamação do pâncreas, mal-estar no estômago, coloração amarela 
+da pele ou olhos (icterícia), síndrome tipo lúpus (uma situação que mimetiza uma doença chamada 
+lúpus eritematoso sistémico em que o sistema imunitário ataca o próprio corpo); alterações cutâneas, 
+tais como inflamação dos vasos sanguíneos na pele, aumento da sensibilidade à luz solar, erupção na 
+pele, vermelhidão da pele, formação de bolhas nos lábios, olhos ou boca, descamação da pele, febre 
+(possíveis sinais de eritema multiforme), fraqueza, inflamação dos rins ou compromisso da função 
+renal, glucose na urina (glicosúria), febre, compromisso do equilíbrio eletrolítico, níveis elevados de 
+colesterol no sangue, diminuição do volume sanguíneo, aumento dos níveis de glucose no sangue, 
+dificuldade em controlar os níveis de glucose no sangue/urina em doentes com diagnóstico de diabetes 
+mellitus, ou gordura no sangue.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar pritorplus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar pritorplus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após “VAL". 
+O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer condições especiais de temperatura de conservação. 
+Conservar na embalagem de origem para proteger da humidade. Retire o seu comprimido de PritorPlus
+do blister apenas imediatamente antes da toma.
+Ocasionalmente, a camada exterior do blister separa-se da camada interior entre os blisters. Não 
+precisa de tomar qualquer ação caso tal aconteça.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de PritorPlus
+
+As substâncias ativas são o telmisartan e a hidroclorotiazida.
+Cada comprimido contém 40 mg de telmisartan e 12,5 mg de hidroclorotiazida.
+
+Os outros componentes são lactose mono-hidratada, estearato de magnésio, amido de milho, 
+meglumina, celulose microcristalina, povidona K25, óxido de ferro vermelho (E 172), hidróxido de 
+sódio, carboximetilamido sódico (Tipo A), sorbitol (E420). 
+68
+Qual o aspeto de PritorPlus e conteúdo da embalagem
+Os comprimidos de PritorPlus 40 mg/12,5 mg são vermelhos e brancos, oblongos, com duas camadas, 
+marcados com o número de código ‘H4’.
+PritorPlus está disponível em embalagens de blisters contendo 14, 28, 30, 56, 90 ou 98 comprimidos, 
+ou em embalagens de blisters unidose contendo 28 x 1 comprimidos.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+Bayer AG
+51368 Leverkusen
+Alemanha
+Fabricante
+Bayer AG
+Kaiser-Wilhelm-Allee
+51368 Leverkusen
+Alemanha
+69
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België / Belgique / Belgien
+Bayer SA-NV
+Tél/Tel: +32-(0)2-535 63 11
+Lietuva
+UAB Bayer
+Tel. +370 52 33 68 68
+България
+Байер България ЕООД
+Тел. +359 (0)2-424 72 80
+Luxembourg / Luxemburg
+Bayer SA-NV
+Tél/Tel: +32-(0)2-535 63 11
+Česká republika
+Bayer s.r.o.
+Tel: +420 266 101 111
+Magyarország
+Bayer Hungária Kft.
+Tel.:+36-14 87-41 00
+Danmark
+Bayer A/S
+Tlf: +45-45 23 50 00
+Malta
+Alfred Gera and Sons Ltd.
+Tel: +356-21 44 62 05
+Deutschland
+Bayer Vital GmbH
+Tel: +49-(0)214-30 513 48
+Nederland
+Bayer B.V.
+Tel: +31-(0)297-28 06 66
+Eesti
+Bayer OÜ
+Tel: +372 655 85 65
+Norge
+Bayer AS
+Tlf. +47 23 13 05 00
+Ελλάδα
+Bayer Ελλάς ΑΒΕΕ
+Τηλ:
++30 210 618 75 00
+Österreich
+Bayer Austria Ges. m. b. H.
+Tel: +43-(0)1-711 46-0
+España
+Bayer Hispania S.L.
+Tel: +34-93-495 65 00
+Polska
+Bayer Sp. z o.o.
+Tel.: +48-22-572 35 00
+France
+Bayer HealthCare
+Tél (N° vert): +33-(0)800 87 54 54
+Portugal
+Bayer Portugal Lda.
+Tel: +351-21-416 42 00
+Hrvatska
+Bayer d.o.o.
+Tel: + 385-(0)1-6599 900
+România
+SC Bayer SRL 
+Tel.: +40 21 528 59 00
+Ireland
+Bayer Limited
+Tel: +353-1-216-3300
+Slovenija
+Bayer d. o. o.
+Tel.: +386-1-58 14 400
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Slovenská republika
+Bayer, spol. s r.o.
+Tel: +421 2 59 21 31 11
+Italia
+Bayer S.p.A.
+Tel: +39-02-397 81
+Suomi/Finland
+Bayer Oy
+Puh/Tel.: +358-20 785 21
+Κύπρος
+NOVAGEM Limited
+Τηλ: + 357 22 48 38 58
+Sverige
+Bayer AB
+Tel: +46-(0)8-580 223 Latvija
+SIA Bayer
+Tel: +371 67 84 55 63
+United Kingdom (Northern Ireland)
+Bayer AG
+Tel: +44 (0) 118 206 30 00
+Este folheto foi revisto pela última vez em {MM/AAAA}
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1056,6 +1602,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-78e33c6ca57a9089f2dae156018ba8d2"
 * entry[0].resource = composition-da-78e33c6ca57a9089f2dae156018ba8d2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp78e33c6ca57a9089f2dae156018ba8d2"
+* entry[=].resource = mp78e33c6ca57a9089f2dae156018ba8d2
+                            
+                    
+Instance: bundlepackageleaflet-pt-78e33c6ca57a9089f2dae156018ba8d2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pritorplus Package Leaflet for language pt"
+Description: "ePI document Bundle for pritorplus Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-78e33c6ca57a9089f2dae156018ba8d2"
+* entry[0].resource = composition-pt-78e33c6ca57a9089f2dae156018ba8d2
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp78e33c6ca57a9089f2dae156018ba8d2"
@@ -1157,6 +1725,18 @@ RuleSet: 78e33c6ca57a9089f2dae156018ba8d2ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-78e33c6ca57a9089f2dae156018ba8d2) // pritorplus pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

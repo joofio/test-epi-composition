@@ -694,6 +694,415 @@ hjemmeside: http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-dbc2060ee6f62aba124d52b5666f8915
+InstanceOf: CompositionUvEpi
+Title: "Composition for lytgobi Package Leaflet"
+Description:  "Composition for lytgobi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpdbc2060ee6f62aba124d52b5666f8915)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - lytgobi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Lytgobi e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Lytgobi </li>
+<li>Como tomar Lytgobi </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Lytgobi </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é lytgobi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é lytgobi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lytgobi contém a substância ativa futibatinib, que pertence a um grupo de medicamentos para o 
+cancro designados inibidores da tirosina cinase. Este bloqueia a ação de uma proteína da célula 
+chamada recetor do fator de crescimento de fibroblastos (FGFR) que ajuda a regular o crescimento 
+celular. As células cancerígenas podem ter uma forma anormal desta proteína. Ao bloquear o FGFR, o 
+futibatinib pode prevenir o crescimento de tais células cancerígenas. </p>
+<p>Lytgobi é utilizado isoladamente (monoterapia) para tratar adultos com cancro do canal biliar 
+(também conhecido como colangiocarcinoma) que se propagou ou não pode ser removido pela 
+cirurgia em doentes que já receberam tratamento anterior, e cujo tumor tem um determinado tipo de 
+“FGFR" anormal. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar lytgobi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar lytgobi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Lytgobi se tem alergia a futibatinib ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar Lytgobi se: </p>
+<ul>
+<li>
+<p>lhe foi dito que tem níveis elevados de fosfato no sangue (uma condição conhecida como 
+hiperfosfatemia) com base no resultado de uma análise ao sangue </p>
+</li>
+<li>
+<p>tem problemas de visão ou oculares, tais como problemas na retina (camadas de tecido nervoso 
+sensíveis à luz na parte de trás do olho) </p>
+</li>
+</ul>
+<p>Recomendam-se exames oculares: </p>
+<ul>
+<li>
+<p>antes de iniciar o tratamento com Lytgobi </p>
+</li>
+<li>
+<p>6 semanas daí em diante ou em qualquer altura se ocorrer qualquer problema visual ou ocular.  </p>
+</li>
+</ul>
+<p>Lytgobi pode causar o descolamento seroso da retina (a retina afasta-se da sua posição normal). Os 
+sintomas incluem visão turva, raios de luz no campo de visão (fotopsia) e pequenas formas escuras 
+que se movem no campo de visão (“moscas volantes"). Informe o seu médico imediatamente se tiver 
+quaisquer problemas com a sua visão. </p>
+<p>Lytgobi pode causar altos níveis de fosfato no seu sangue e pode levar a uma acumulação de minerais 
+como o cálcio em diferentes tecidos do seu corpo. O seu médico pode prescrever mudanças na sua 
+dieta, terapêutica de diminuição de fosfato, ou mudar ou parar o tratamento com Lytgobi, se 
+necessário. Informe imediatamente o seu médico se desenvolver lesões dolorosas na pele, quaisquer 
+cãibras musculares, dormência ou formigueiro à volta da boca, ou um batimento cardíaco anormal. </p>
+<p>Lytgobi pode prejudicar o feto. Se for uma mulher em idade fértil ou um homem com parceira em 
+idade fértil tem de utilizar contraceção eficaz durante o tratamento e durante pelo menos 1 semana 
+após a última dose de Lytgobi. Uma vez que é desconhecido se Lytgobi diminui a eficácia da 
+medicação de controlo de natalidade, devem ser aplicados métodos de barreira em adição a tal 
+medicação para evitar a gravidez. </p>
+<p>Crianças e adolescentes </p>
+<p>Lytgobi não deve ser administrado a crianças ou adolescentes com menos de 18 anos. É desconhecido 
+se é seguro e eficaz neste grupo etário. </p>
+<p>Outros medicamentos e Lytgobi 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. </p>
+<p>Em particular, deve informar o seu médico se estiver a tomar algum dos seguintes medicamentos para 
+que o médico possa decidir se o seu tratamento precisa de mudar: </p>
+<ul>
+<li>
+<p>Itraconazol: um medicamento para tratar infeções fúngicas  </p>
+</li>
+<li>
+<p>Claritromicina: medicamentos para tratar certas infeções </p>
+</li>
+<li>
+<p>Rifampicina: um medicamento para tratar a tuberculose ou outras infeções  </p>
+</li>
+<li>
+<p>Carbamazepina, fenitoína, fenobarbital: medicamentos para tratar a epilepsia  </p>
+</li>
+<li>
+<p>Efavirenz: medicamento para tratar a infeção por VIH  </p>
+</li>
+<li>
+<p>Digoxina: um medicamento para tratar a doença cardíaca  </p>
+</li>
+<li>
+<p>Dabigatrano: um medicamento para prevenir coágulos de sangue  </p>
+</li>
+<li>
+<p>Colchicina: um medicamento para tratar ataques de gota </p>
+</li>
+<li>
+<p>Rosuvastatina: um medicamento para tratar o colesterol elevado  </p>
+</li>
+<li>
+<p>Teofilina: um medicamento para tratar problemas respiratórios </p>
+</li>
+<li>
+<p>Olanzapina: um medicamento para gerir os sintomas de condições de saúde mental </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, pensa estar grávida ou planeia engravidar, consulte o seu médico ou 
+farmacêutico antes de tomar este medicamento. </p>
+<ul>
+<li>
+<p>Informações de contraceção/gravidez para mulheres 
+Não deve engravidar durante o tratamento com Lytgobi porque este medicamento pode prejudicar 
+o seu bebé. Deve ser realizado um teste de gravidez antes de iniciar o tratamento, e mulheres que 
+possam engravidar têm de usar contraceção eficaz durante o tratamento e durante 1 semana após a 
+última dose de Lytgobi. Devem ser aplicados métodos de barreira como uma segunda forma de 
+contraceção para evitar a gravidez. Fale com o seu médico sobre a contraceção mais adequada 
+para si. </p>
+</li>
+<li>
+<p>Informação de contraceção para homens<br />
+Não deve gerar uma criança durante o tratamento com Lytgobi porque este medicamento pode 
+prejudicar o bebé. Tem de utilizar contraceção eficaz durante o tratamento e durante 1 semana 
+após a última dose de Lytgobi.  </p>
+</li>
+<li>
+<p>Amamentação 
+Não amamentar durante o tratamento com Lytgobi e durante 1 semana após a última dose. Isto 
+porque é desconhecido se Lytgobi consegue passar para o leite materno e pode, portanto, 
+prejudicar o bebé. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+Lytgobi pode causar efeitos secundários, tais como fadiga ou perturbações visuais. Não conduzir ou 
+operar máquinas se isto acontecer. </p>
+<p>Lytgobi contém lactose e sódio 
+Este medicamento contém lactose (encontrado no leite ou em produtos lácteos). Se foi informado pelo 
+seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. 
+Este medicamento contém menos de 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar lytgobi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar lytgobi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com Lytgobi deve ser iniciado por um médico que tem experiência no diagnóstico e 
+tratamento do cancro do canal biliar. Tome este medicamento exatamente como indicado pelo seu 
+médico ou farmacêutico. Fale com o seu médico ou farmacêutico se tiver dúvidas.  </p>
+<p>A dose recomendada é 
+5 comprimidos de Lytgobi 4 mg (20 mg futibatinib no total) tomados por via oral uma vez por dia. O 
+seu médico irá ajustar a dose ou interromper o tratamento, se necessário. </p>
+<p>Modo de administração 
+Engolir o comprimido inteiro com um copo de água à mesma hora todos os dias. Lytgobi pode ser 
+tomado com alimentos ou entre refeições. Os comprimidos devem ser engolidos inteiros para 
+assegurar que é tomada a dose completa.  </p>
+<p>Duração do tratamento 
+Tomar Lytgobi durante o tempo prescrito pelo médico. </p>
+<p>Se tomar mais Lytgobi do que deveria 
+Informe o seu médico imediatamente se tiver tomado mais Lytgobi do que deveria. </p>
+<p>Caso se tenha esquecido de tomar Lytgobi </p>
+<ul>
+<li>
+<p>Se falhar uma dose de Lytgobi por 12 horas ou menos, tome a dose em falta assim que se lembrar. </p>
+</li>
+<li>
+<p>Se falhar uma dose de Lytgobi por mais de 12 horas, ignore a dose em falta. Tome a dose seguinte 
+à hora habitual. </p>
+</li>
+<li>
+<p>Não tome uma dose a dobrar de Lytgobi se sentir vómitos. Tome a dose seguinte à hora habitual 
+programada. </p>
+</li>
+<li>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+</li>
+</ul>
+<p>Se parar de tomar Lytgobi 
+Não pare de tomar Lytgobi sem falar com o seu médico, uma vez que isto pode reduzir o sucesso da 
+terapêutica. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Se tiver algum dos seguintes efeitos indesejáveis graves, informe o seu médico imediatamente. 
+Estes efeitos indesejáveis listados abaixo são frequentes (podem afetar até 1 em 10 pessoas). </p>
+<ul>
+<li>
+<p>Enxaqueca </p>
+</li>
+<li>
+<p>Obstrução intestinal </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis<br />
+Fale com o seu médico se tiver quaisquer efeitos indesejáveis. Estes podem ocorrer com as seguintes 
+frequências: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>níveis elevados ou reduzidos de fosfato observados em análises ao sangue </p>
+</li>
+<li>
+<p>níveis reduzidos de sódio observados em análises ao sangue </p>
+</li>
+<li>
+<p>unhas que se separam do leito ungueal, má formação da unha, alteração na cor das unhas </p>
+</li>
+<li>
+<p>prisão de ventre </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>boca seca </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>dor abdominal </p>
+</li>
+<li>
+<p>perda de cabelo (alopecia) </p>
+</li>
+<li>
+<p>sensação de cansaço ou fraqueza </p>
+</li>
+<li>
+<p>pele seca </p>
+</li>
+<li>
+<p>níveis elevados de enzimas hepáticas (do fígado) observados em análises ao sangue </p>
+</li>
+<li>
+<p>náuseas </p>
+</li>
+<li>
+<p>inflamação do revestimento da boca (estomatite)  </p>
+</li>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>olho seco </p>
+</li>
+<li>
+<p>vermelhidão, inchaço, descamação ou sensibilidade, principalmente nas mãos ou pés (síndrome 
+“palmo-plantar") </p>
+</li>
+<li>
+<p>alteração do paladar </p>
+</li>
+<li>
+<p>dor muscular </p>
+</li>
+<li>
+<p>dor nas articulações </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>Problemas oculares incluindo inflamação dos olhos ou córnea (parte frontal do olho), visão turva, 
+súbito aparecimento de pequenas formas escuras que se movem no campo de visão (“moscas 
+volantes") e raios de luz no campo de visão (fotopsia).  </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar lytgobi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar lytgobi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+depois de VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger </p>
+<p>o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Lytgobi  </p>
+<ul>
+<li>
+<p>A substância ativa é futibatinib.<br />
+Cada comprimido revestido por película contém 4 mg de futibatinib.  </p>
+</li>
+<li>
+<p>O(s) outro(s) componente(s) é (são): 
+Núcleo do comprimido: amido de milho, crospovidona, hidroxipropilcelulose, lactose mono-
+hidratada, estearato de magnésio, manitol, celulose microcristalina e sódio lauril sulfato (ver 
+secção 2, “Lytgobi contém lactose e sódio")<br />
+Película de revestimento: hipromelose, macrogoles e dióxido de titânio<br />
+Agente lustrante: estearato de magnésio </p>
+</li>
+</ul>
+<p>Qual o aspeto de Lytgobi e conteúdo da embalagem 
+Lytgobi 4 mg é fornecido como comprimidos revestidos por película, redondos, brancos com 
+gravação “4MG" de um lado e “FBN" no verso. </p>
+<p>Os comprimidos de Lytgobi são embalados num cartão blister selado dentro de uma carteira dobrável 
+que contém um fornecimento de 7 dias, como se segue: </p>
+<ul>
+<li>
+<p>Dose diária de 20 mg: Cada carteira contém 35 comprimidos (5 comprimidos uma vez ao dia).  </p>
+</li>
+<li>
+<p>Dose diária de 16 mg: Cada carteira contém 28 comprimidos (4 comprimidos uma vez ao dia).  </p>
+</li>
+<li>
+<p>Dose diária de 12 mg: Cada carteira contém 21 comprimidos (3 comprimidos uma vez ao dia).  </p>
+</li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado 
+Taiho Pharma Netherlands B.V. 
+Barbara Strozzilaan 1083HN Amesterdão 
+Países Baixos </p>
+<p>Fabricante 
+PCI Pharma Services (Millmount Healthcare Limited) 
+Block 7, City North Business Campus 
+Stamullen, Co. Meath, K32 YDIrlanda </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA} 
+Foi concedida a este medicamento uma «Autorização de Introdução no Mercado condicional».<br />
+Isto significa que se aguarda mais informação sobre este medicamento. 
+A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
+sobre este medicamento e este folheto será atualizado se necessário. </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -735,6 +1144,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-dbc2060ee6f62aba124d52b5666f8915"
 * entry[0].resource = composition-da-dbc2060ee6f62aba124d52b5666f8915
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdbc2060ee6f62aba124d52b5666f8915"
+* entry[=].resource = mpdbc2060ee6f62aba124d52b5666f8915
+                            
+                    
+Instance: bundlepackageleaflet-pt-dbc2060ee6f62aba124d52b5666f8915
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lytgobi Package Leaflet for language pt"
+Description: "ePI document Bundle for lytgobi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-dbc2060ee6f62aba124d52b5666f8915"
+* entry[0].resource = composition-pt-dbc2060ee6f62aba124d52b5666f8915
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpdbc2060ee6f62aba124d52b5666f8915"
@@ -836,6 +1267,18 @@ RuleSet: dbc2060ee6f62aba124d52b5666f8915ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-dbc2060ee6f62aba124d52b5666f8915) // lytgobi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -795,6 +795,317 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nye
 
 
 
+Instance: composition-pt-c81102ba15ecf1ae72d97505f0c21e9d
+InstanceOf: CompositionUvEpi
+Title: "Composition for ibrance Package Leaflet"
+Description:  "Composition for ibrance Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc81102ba15ecf1ae72d97505f0c21e9d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ibrance"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é IBRANCE e para que é utilizado
+2. O que precisa de saber antes de tomar IBRANCE
+3. Como tomar IBRANCE
+4. Efeitos indesejáveis possíveis
+5. Como conservar IBRANCE
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ibrance e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ibrance e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IBRANCE é um medicamento anticancerígeno que contém a substância ativa palbociclib.
+O palbociclib atua bloqueando umas proteínas chamadas cinases dependentes da ciclina 4 e 6 que 
+regulam o crescimento e a divisão das células. O bloqueio destas proteínas pode retardar o crescimento 
+das células cancerígenas e atrasar a progressão do seu cancro.
+IBRANCE é utilizado para tratar doentes com determinados tipos de cancro da mama (positivo para 
+recetores hormonais, negativo para o recetor tipo 2 do fator de crescimento epidérmico humano) que 
+se espalhou para além do tumor original e/ou para outros órgãos. É administrado juntamente com 
+inibidores da aromatase ou fulvestrant, que são medicamentos utilizados como terapêuticas hormonais 
+anticancerígenas.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ibrance"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ibrance"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome IBRANCE</h2>
+<p>se tem alergia ao palbociclib ou a qualquer outro componente deste medicamento (indicados 
+na secção 6).
+-
+o uso de preparações contendo hipericão, um medicamento à base de plantas utilizado para 
+tratar a depressão ligeira e a ansiedade, deve ser evitado enquanto estiver a tomar IBRANCE.
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar IBRANCE.
+IBRANCE pode reduzir o seu número de glóbulos brancos e enfraquecer o seu sistema imunitário. Por 
+conseguinte, poderá ter um risco mais elevado de contrair uma infeção enquanto estiver a tomar 
+IBRANCE.
+98
+Informe o seu médico, farmacêutico ou enfermeiro se tiver sinais ou sintomas de infeção, tais como 
+calafrios e febre.
+Vai fazer análises ao sangue em intervalos regulares durante o tratamento para verificar se IBRANCE 
+afeta as suas células sanguíneas (glóbulos brancos, glóbulos vermelhos e plaquetas).
+IBRANCE pode causar coágulos de sangue nas veias. Informe o seu médico, farmacêutico ou 
+enfermeiro se tiver sinais ou sintomas de coágulos de sangue nas veias, tais como dor ou rigidez, 
+inchaço e vermelhidão da perna (ou braço) afetada, dor no peito, falta de ar ou sensação de 
+atordoamento.
+IBRANCE pode causar inflamação dos pulmões grave ou potencialmente fatal durante o tratamento 
+que pode resultar em morte. Informe imediatamente o seu prestador de cuidados de saúde se tiver 
+quaisquer novos sintomas ou o agravamento dos sintomas existentes, incluindo:
+
+dificuldade em respirar ou falta de ar
+
+tosse seca 
+
+dor no peito
+Crianças e adolescentes
+IBRANCE não deve ser utilizado em crianças e adolescentes (idade inferior a 18 anos).
+Outros medicamentos e IBRANCE
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. IBRANCE pode afetar a forma como alguns medicamentos atuam.
+Em particular, os seguintes medicamentos podem aumentar o risco de ocorrência de efeitos 
+indesejáveis com IBRANCE:
+
+Lopinavir, indinavir, nelfinavir, ritonavir, telaprevir e saquinavir utilizados para tratar a 
+infeção pelo VIH/SIDA.
+
+Claritromicina e telitromicina, que são antibióticos utilizados para tratar infeções bacterianas.
+
+Voriconazol, itraconazol, cetoconazol e posaconazol, utilizados para tratar infeções fúngicas.
+
+Nefazodona, utilizada para tratar a depressão.
+Os seguintes medicamentos podem ter um risco aumentado de efeitos indesejáveis quando 
+administrados com IBRANCE:
+
+Quinidina, geralmente utilizada para tratar problemas do ritmo do coração.
+
+Colquicina, utilizada para tratar a gota.
+
+Pravastatina, sinvastatina, atorvastatina, fluvastatina e rosuvastatina, utilizadas para tratar 
+níveis elevados de colesterol.
+
+Sulfassalazina, utilizada para tratar a artrite reumatoide.
+
+Alfentanilo, utilizado para anestesia em cirurgia; fentanilo, utilizado em pré-procedimentos 
+para alívio da dor, bem como anestésico.
+
+Ciclosporina, everolímus, tacrolímus e sirolímus, utilizados em casos de transplante de órgãos 
+para prevenir a rejeição.
+
+Di-hidroergotamina e ergotamina, utilizadas para tratar as enxaquecas.
+
+Pimozida, utilizada para tratar a esquizofrenia e a psicose crónica.
+Os seguintes medicamentos podem reduzir a efetividade de IBRANCE:
+
+Carbamazepina e fenitoína, utilizadas para tratar convulsões ou crises epiléticas.
+
+Enzalutamida para tratar cancro da próstata.
+
+Rifampicina, utilizada para tratar a tuberculose (TB).
+
+Hipericão, um medicamento à base de plantas utilizado para tratar a depressão ligeira e a 
+ansiedade.
+99
+IBRANCE com alimentos e bebidas
+Evite a ingestão de toranja e sumo de toranja enquanto estiver a tomar IBRANCE pois podem 
+aumentar os efeitos indesejáveis de IBRANCE.
+Gravidez, amamentação e fertilidade
+Não deve tomar IBRANCE se estiver grávida.
+Deve evitar engravidar enquanto estiver a tomar IBRANCE.
+Fale sobre as opções de contraceção, para si ou para o seu parceiro, com o seu médico se existir 
+alguma possibilidade de engravidar.
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+As mulheres com potencial para engravidar que estejam a tomar este medicamento, ou os seus 
+parceiros, devem utilizar métodos contracetivos adequados (por ex., contraceção de dupla barreira, 
+como o preservativo e o diafragma). Estes métodos devem ser utilizados durante o tratamento e 
+durante, pelo menos, 3 semanas após completar o tratamento para as mulheres e 14 semanas para os 
+homens.
+Amamentação
+Não deve amamentar enquanto estiver a tomar IBRANCE. Não se sabe se IBRANCE passa para o 
+leite materno.
+Fertilidade
+Palbociclib pode diminuir a fertilidade nos homens. 
+Assim, os homens poderão ponderar a preservação de esperma antes de tomarem IBRANCE.
+Condução de veículos e utilização de máquinas
+A fadiga é um efeito indesejável muito frequente de IBRANCE. Caso se sinta invulgarmente cansada, 
+tome especial cuidado ao conduzir ou utilizar máquinas.
+IBRANCE contém lactose e sódio
+Este medicamento contém lactose (existente no leite e nos laticínios). Se tiver sido informada pelo seu 
+médico de que tem uma intolerância a alguns açúcares, contacte-o antes de tomar este medicamento.
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é praticamente 
+“isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ibrance"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ibrance"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.
+A dose recomendada de IBRANCE é de 125 mg tomados uma vez por dia durante 3 semanas seguido 
+de 1 semana sem tomar IBRANCE. O seu médico vai dizer-lhe quantas cápsulas de IBRANCE deve 
+tomar.
+100
+Se sentir determinados efeitos indesejáveis enquanto estiver a tomar IBRANCE (ver secção 4 “Efeitos 
+indesejáveis possíveis"), o seu médico poderá diminuir a sua dose ou parar o tratamento de forma 
+temporária ou permanente. A dose pode ser diminuída para uma das outras dosagens disponíveis de 
+100 mg ou 75 mg.
+Tome IBRANCE uma vez por dia, todos os dias à mesma hora com alimentos, preferencialmente à 
+refeição.
+Engula a cápsula inteira com um copo de água. Não mastigue ou esmague as cápsulas. Não abra as 
+cápsulas.
+Se tomar mais IBRANCE do que deveria
+Se tomou demasiado IBRANCE, consulte um médico ou dirija-se ao hospital imediatamente. Poderá 
+ser necessário tratamento de emergência.
+Leve consigo a embalagem e este folheto, para que o médico possa saber o que tem estado a tomar.
+Caso se tenha esquecido de tomar IBRANCE
+Caso se esqueça de uma dose ou se vomitar, tome a próxima dose à hora habitual. Não tome uma dose 
+a dobrar para compensar uma dose que se esqueceu de tomar.
+Se parar de tomar IBRANCE
+Não pare de tomar IBRANCE a não ser que o seu médico lhe diga para o fazer.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Contacte imediatamente o seu médico se tiver algum destes sintomas: 
+
+febre, calafrios, fraqueza, falta de ar, sangramentos ou facilidade em fazer nódoas negras, o 
+que pode ser um sinal de uma alteração grave do sangue.
+
+dificuldade em respirar, tosse seca ou dor no peito, o que pode ser um sinal de inflamação dos 
+pulmões.
+
+uma perna inchada e dorida, dor no peito, falta de ar, respiração rápida ou batimento cardíaco 
+rápido, pois podem ser sinais de coágulos de sangue nas veias (podem afetar até 1 em 
+10 indivíduos).
+Outros efeitos indesejáveis de IBRANCE podem incluir:
+Efeitos indesejáveis muito frequentes (podem afetar mais do que 1 em 10 indivíduos)
+Infeções
+Redução do número de glóbulos brancos, glóbulos vermelhos e plaquetas do sangue
+Sensação de cansaço
+Apetite diminuído
+Inflamação da boca e lábios (estomatite), náuseas, vómitos, diarreia
+Erupção na pele
+Perda de cabelo
+Fraqueza
+Febre
+101
+Alterações nos valores das análises sanguíneas ao fígado
+Pele seca
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 indivíduos)
+Febre com diminuição da contagem dos glóbulos brancos (neutropenia febril)
+Visão turva, aumento da secreção lacrimal, olho seco
+Alteração do paladar (disgeusia)
+Sangramento do nariz
+Vermelhidão, dor, descamação, inchaço e formação de bolhas nas palmas das mãos e/ou solas dos pés 
+(síndrome de eritrodisestesia palmoplantar [SEPP])
+Resultado anormal numa análise ao sangue relacionada com os rins (nível elevado de creatinina no 
+sangue)
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 indivíduos)
+Inflamação da pele que causa manchas escamosas e avermelhadas e que ocorre, possivelmente, 
+em conjunto com dor nas articulações e febre (lúpus eritematoso cutâneo [LEC]).
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não incluídos neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ibrance"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ibrance"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no frasco ou blister e na embalagem 
+exterior após "EXP". O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer precauções especiais de conservação.
+Não utilize este medicamento se notar que a embalagem está danificada ou apresenta sinais de 
+adulteração.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de IBRANCE</h2>
+<h2>A substância ativa é palbociclib. IBRANCE cápsulas é fornecido em dosagens diferentes:</h2>
+<h2>IBRANCE 75 mg cápsulas: cada cápsula contém 75 mg de palbociclib.</h2>
+<h2>IBRANCE 100 mg cápsulas: cada cápsula contém 100 mg de palbociclib.</h2>
+<h2>IBRANCE 125 mg cápsulas: cada cápsula contém 125 mg de palbociclib.</h2>
+<p>Os outros componentes são:
+Conteúdo da cápsula: celulose microcristalina, lactose mono-hidratada, glicolato de amido sódico
+tipo A, sílica anidra coloidal, estearato de magnésio.
+Invólucro da cápsula: gelatina, óxido de ferro vermelho (E172), óxido de ferro amarelo (E172), 
+dióxido de titânio (E171).
+Tinta de impressão: goma-laca, dióxido de titânio (E171), hidróxido de amónio (solução 28%), 
+propilenoglicol, simeticone (ver secção 2 “IBRANCE contém lactose e sódio").
+10</p>         </div>"""      
+
+
+
 
 
                     
@@ -836,6 +1147,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c81102ba15ecf1ae72d97505f0c21e9d"
 * entry[0].resource = composition-da-c81102ba15ecf1ae72d97505f0c21e9d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc81102ba15ecf1ae72d97505f0c21e9d"
+* entry[=].resource = mpc81102ba15ecf1ae72d97505f0c21e9d
+                            
+                    
+Instance: bundlepackageleaflet-pt-c81102ba15ecf1ae72d97505f0c21e9d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ibrance Package Leaflet for language pt"
+Description: "ePI document Bundle for ibrance Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c81102ba15ecf1ae72d97505f0c21e9d"
+* entry[0].resource = composition-pt-c81102ba15ecf1ae72d97505f0c21e9d
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc81102ba15ecf1ae72d97505f0c21e9d"
@@ -937,6 +1270,18 @@ RuleSet: c81102ba15ecf1ae72d97505f0c21e9dListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c81102ba15ecf1ae72d97505f0c21e9d) // ibrance pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

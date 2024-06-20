@@ -902,6 +902,504 @@ hjemmeside: http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-pt-f502911808bc1b6ee8b26c1badf235f8
+InstanceOf: CompositionUvEpi
+Title: "Composition for slenyto Package Leaflet"
+Description:  "Composition for slenyto Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf502911808bc1b6ee8b26c1badf235f8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - slenyto"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Slenyto e para que é utilizado 
+2. O que precisa de saber antes de você ou o seu filho tomarem Slenyto 
+3. Como tomar Slenyto 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Slenyto 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é slenyto e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é slenyto e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Slenyto 
+O Slenyto é um medicamento que contém a substância ativa melatonina. A melatonina é uma hormona 
+produzida naturalmente pelo organismo. </p>
+<p>Para que é utilizado 
+O Slenyto é utilizado em crianças e adolescentes (dos 2 aos 18 anos de idade) com Perturbação do 
+Espetro do Autismo (PEA) e/ou síndrome de Smith-Magenis, uma doença neurogenética (doença 
+hereditária que afeta o sistema nervoso e o cérebro). </p>
+<p>Slenyto reduz o tempo que se demora a adormecer e prolonga a duração do sono. 
+É utilizado para o tratamento da insónia (dificuldade em dormir) quando a implementação de 
+rotinas saudáveis de sono (tal como uma hora de dormir regular e um ambiente calmo para adormecer) 
+não funcionou tão bem como o necessário. O medicamento pode ajudá-lo a si ou ao seu filho a 
+adormecer, bem como a ter um maior período de sono durante a noite </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar slenyto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar slenyto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NÃO tome Slenyto se você ou o seu filho 
+- tem alergia à melatonina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Slenyto se você ou o seu filho tiverem: </p>
+<ul>
+<li>problemas do fígado ou dos rins. Deve falar com o seu médico antes de tomar/administrar 
+Slenyto, uma vez que a sua utilização não é recomendada nesses casos. </li>
+<li>uma doença autoimune (em que o organismo é «atacado» pelo próprio sistema imunitário). 
+Deve falar com o seu médico antes de tomar/administrar Slenyto, uma vez que a sua utilização 
+não é recomendada nesses casos. </li>
+<li>sonolência (ver a secção «Condução de veículos e utilização de máquinas» abaixo). </li>
+</ul>
+<p>Crianças com menos de 2 anos de idade<br />
+Não dê este medicamento a crianças com menos de 2 anos de idade uma vez que ainda não foi testado 
+e os seus efeitos são desconhecidos. </p>
+<p>Outros medicamentos e Slenyto </p>
+<p>Informe o seu médico ou farmacêutico se você ou o seu filho estiver a tomar, tiver tomado 
+recentemente ou possa vir a tomar outros medicamentos.  </p>
+<p>Em particular, a administração de Slenyto com os medicamentos seguintes pode aumentar o risco de 
+efeitos indesejáveis ou afetar a atuação do Slenyto ou do outro medicamento: </p>
+<ul>
+<li>
+<p>fluvoxamina (utilizada no tratamento da depressão e da perturbação obsessivo compulsiva) </p>
+</li>
+<li>
+<p>metoxipsoralenos (utilizados no tratamento de afeções da pele, por exemplo, psoríase) </p>
+</li>
+<li>
+<p>cimetidina (utilizada no tratamento de problemas de estômago, como úlceras) </p>
+</li>
+<li>
+<p>quinolonas (por exemplo, ciprofloxacina e norfloxacina) e rifampicina (utilizada no tratamento 
+de infeções bacterianas) </p>
+</li>
+<li>
+<p>estrogénios (utilizados em contracetivos ou na terapêutica hormonal de substituição)  </p>
+</li>
+<li>
+<p>carbamazepina (utilizada no tratamento da epilepsia) </p>
+</li>
+<li>
+<p>medicamentos anti-inflamatórios não esteroides como a aspirina e o ibuprofeno (utilizados 
+no tratamento da dor e inflamação). Estes medicamentos devem ser evitados, especialmente à 
+noite. </p>
+</li>
+<li>
+<p>bloqueadores beta (utilizados para controlar a tensão arterial). Estes medicamentos devem ser 
+tomados de manhã. </p>
+</li>
+<li>
+<p>benzodiazepinas e hipnóticos não benzodiazepínicos, tais como o zaleplom, o zolpidem e a 
+zopiclona (utilizados para induzir o sono) </p>
+</li>
+<li>
+<p>tioridazina (utilizada no tratamento da esquizofrenia) </p>
+</li>
+<li>
+<p>imipramina (utilizada no tratamento da depressão) </p>
+</li>
+</ul>
+<p>Tabagismo 
+O tabaco pode aumentar a decomposição da melatonina pelo fígado, o que pode tornar este 
+medicamento menos eficaz. Fale com o seu médico se você ou o seu filho começar a ou parar de 
+fumar durante o tratamento. </p>
+<p>Slenyto e álcool 
+Não beba álcool antes, durante ou após tomar Slenyto, uma vez que reduz a eficácia do medicamento. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Slenyto se você ou a sua filha: </p>
+<ul>
+<li>
+<p>estiver grávida ou a pensar estar grávida. Como medida de precaução, é preferível evitar a 
+utilização de melatonina durante a gravidez. </p>
+</li>
+<li>
+<p>estiver a amamentar ou a planear amamentar. É possível que a melatonina seja excretada para o 
+leite materno humano e, por isso, o seu médico decidirá se você ou a sua filha deve amamentar 
+enquanto toma melatonina. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+O Slenyto pode causar sonolência. Após tomar este medicamento, não deve conduzir, andar de 
+bicicleta ou utilizar máquinas até estar totalmente recuperado.  </p>
+<p>Se você ou o seu filho sofrem de sonolência contínua, consulte o seu médico. </p>
+<p>Slenyto contém lactose<br />
+Slenyto contém lactose mono-hidratada. Se o seu médico lhe tiver dito que você ou o seu filho é 
+intolerante a alguns açúcares, contacte o seu médico antes de tomar este medicamento.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar slenyto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar slenyto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Quanto tomar 
+Slenyto está disponível em duas dosagens: 1 mg e 5 mg. A dose inicial recomendada é de 2 mg (dois 
+comprimidos de 1 mg) por dia. Caso não se verifique uma melhoria dos seus sintomas/sintomas do seu 
+filho, o seu médico poderá aumentar a dose de Slenyto para conseguir a dose mais adequada para si ou 
+para o seu filho. A dose máxima diária que poderá ser administrada a si/ ao seu filho é de 10 mg (dois 
+comprimidos de 5 mg). </p>
+<p>Quando tomar<br />
+Slenyto deve ser tomado à noite, cerca de 30 a 60 minutos antes da hora de dormir. Os comprimidos 
+devem ser tomados após a última refeição do dia, isto é, de estômago cheio. </p>
+<p>Como tomar Slenyto 
+Slenyto destina-se a uso oral. Os comprimidos devem ser tomados inteiros e NÃO partidos, 
+esmagados ou mastigados. Se o medicamento for esmagado ou mastigado deixa de ter as suas 
+propriedades especiais, o que implica que não atuará eficazmente. </p>
+<p>Os comprimidos inteiros podem ser colocados em alimentos, como iogurte, sumo de laranja ou 
+gelado, para ajudar na deglutição. Se os comprimidos forem misturados com estes alimentos, devem 
+ser tomados de imediato e não guardados, uma vez que pode afetar o modo de ação do medicamento. 
+Se os comprimidos forem misturados com outro tipo de alimentos, o medicamento pode não atuar 
+eficazmente. </p>
+<p>Durante quanto tempo 
+Você ou o seu filho devem ser monitorizados a intervalos regulares (pelo menos de 6 em 6 meses) 
+pelo seu médico, para verificar se Slenyto ainda é o tratamento adequado para si/ele.  </p>
+<p>Se você ou o seu filho tomarem mais Slenyto do que deveriam 
+Se, acidentalmente, você ou o seu filho tiverem tomado uma dose de medicamento maior do que 
+deveriam, contacte o seu médico ou farmacêutico logo que possível. </p>
+<p>Tomar mais do que a dose diária recomendada poderá provocar sonolência a si/ ao seu filho. </p>
+<p>Caso você ou o seu filho se tenham esquecido de tomar Slenyto 
+Caso você ou o seu filho se tenham esquecido de tomar um comprimido, poderão tomá-lo antes de se 
+deitarem mas, a partir daí, não poderão tomar outro comprimido até à noite seguinte. 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se você ou o seu filho pararem de tomar Slenyto 
+Fale com o seu médico antes de você ou o seu filho pararem de tomar Slenyto. É importante que 
+continue a tomar este medicamento para tratar esta condição. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Alterações de comportamento inesperadas, tais como agressividade, podem ocorrer frequentemente 
+(podem afetar entre 1 em 100 e 1 em 10 pessoas). Se tiver esta alteração do comportamento, 
+contacte imediatamente o seu médico. O médico poderá decidir parar o tratamento. </p>
+<p>Se algum dos seguintes efeitos indesejáveis for grave ou incómodo, contacte o seu médico ou peça 
+aconselhamento médico: </p>
+<p>Frequentes: podem afetar entre 1 em cada 100 a 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>Alterações do humor </p>
+</li>
+<li>
+<p>Agressividade </p>
+</li>
+<li>
+<p>Irritabilidade </p>
+</li>
+<li>
+<p>Sonolência </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Ataques súbitos de sono </p>
+</li>
+<li>
+<p>Inchaço e inflamação dos seios nasais associados a dor e nariz entupido (sinusite) </p>
+</li>
+<li>
+<p>Cansaço </p>
+</li>
+<li>
+<p>Sintomas do tipo ressaca </p>
+</li>
+</ul>
+<p>Pouco frequentes: podem afetar entre 1 em cada 1000 a 1 em cada 100 pessoas </p>
+<ul>
+<li>
+<p>Depressão </p>
+</li>
+<li>
+<p>Pesadelos </p>
+</li>
+<li>
+<p>Agitação </p>
+</li>
+<li>
+<p>Dor de estômago </p>
+</li>
+</ul>
+<p>Frequência desconhecida (comunicada com outra forma farmacêutica e dosagem) </p>
+<ul>
+<li>
+<p>Convulsões (epilepsia) </p>
+</li>
+<li>
+<p>Perturbações visuais </p>
+</li>
+<li>
+<p>Falta de ar/dificuldade em respirar (dispneia) </p>
+</li>
+<li>
+<p>Sangramento do nariz (epistaxe) </p>
+</li>
+<li>
+<p>Prisão de ventre </p>
+</li>
+<li>
+<p>Diminuição do apetite </p>
+</li>
+<li>
+<p>Inchaço da face </p>
+</li>
+<li>
+<p>Lesões na pele  </p>
+</li>
+<li>
+<p>Sensação anormal </p>
+</li>
+<li>
+<p>Comportamento alterado </p>
+</li>
+<li>
+<p>Níveis baixos de glóbulos brancos (neutropenia) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se você ou o seu filho tiverem quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis 
+não indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar 
+efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no 
+Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
+segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar slenyto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar slenyto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 30 °C. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Slenyto </p>
+<p>Dose de 1 mg </p>
+<ul>
+<li>A substância ativa é a melatonina. Cada comprimido contém 1 mg de melatonina. </li>
+<li>Os outros componentes são o copolímero tipo B do metacrilato de amónio, hidrogenofosfato de 
+cálcio di-hidratado, lactose mono-hidratada, sílica (coloidal anidra), talco, estearato de 
+magnésio, carmelose sódica (E466), maltodextrina, glucose mono-hidratada, lecitina (E322), 
+dióxido de titânio (E171), óxido de ferro vermelho (E172) e óxido de ferro amarelo (E172). </li>
+</ul>
+<p>Dose de 5 mg </p>
+<ul>
+<li>A substância ativa é a melatonina. Cada comprimido contém 5 mg de melatonina. </li>
+<li>Os outros componentes são o copolímero tipo A do metacrilato de amónio, hidrogenofosfato de 
+cálcio di-hidratado, lactose mono-hidratada, sílica (coloidal anidra), estearato de magnésio, 
+carmelose sódica (E466), maltodextrina, glucose mono-hidratada, lecitina (E322), dióxido de 
+titânio (E171) e óxido de ferro amarelo (E172). </li>
+</ul>
+<p>Qual o aspeto de Slenyto e conteúdo da embalagem </p>
+<p>Dose de 1 mg </p>
+<p>Slenyto 1 mg comprimido de libertação prolongada está disponível na forma de comprimidos 
+revestidos por película, redondos, biconvexos, rosa com 3 mm de diâmetro. </p>
+<p>Está disponível em embalagens blisters de 30/60 comprimidos. </p>
+<p>Dose de 5 mg </p>
+<p>Slenyto 5 mg comprimido de libertação prolongada está disponível na forma de comprimidos 
+revestidos por película, redondos, biconvexos, amarelos com 3 mm de diâmetro. </p>
+<p>Está disponível em embalagens blisters de 30 comprimidos. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>RAD Neurim Pharmaceuticals EEC SARL 
+4 rue de Marivaux 
+75002 Paris 
+França 
+e-mail: regulatory@neurim.com </p>
+<p>Fabricante </p>
+<p>Iberfar Indústria Farmacêutica, S.A. 
+Estrada Consiglieri Pedroso 123,<br />
+Queluz De Baixo 
+Barcarena 
+2734-Portugal </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tél/Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>Lietuva 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>България 
+RAD Neurim Pharmaceuticals EEC SARL 
+Teл.: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>Luxembourg/Luxemburg 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tél/Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>Česká republika 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com 
+Magyarország 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tel.: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>Danmark 
+Takeda Pharma A/S 
+e-mail: medinfoEMEA@takeda.com </p>
+<p>Malta 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>Deutschland 
+INFECTOPHARM Arzneimittel und Consilium 
+GmbH 
+Tel: +49 6252 957e-mail: kontakt@infectopharm.com </p>
+<p>Nederland 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>Eesti 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>Norge 
+Takeda AS 
+e-mail: medinfoEMEA@takeda.com </p>
+<p>Ελλάδα 
+INNOVIS PHARMA A.E.B.E 
+Τηλ: +30 216 200 5e-mail: info@innovispharma.gr </p>
+<p>Österreich 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>España 
+EXELTIS HEALTHCARE, S.L. 
+Tel: +34 91 7711e-mail: RegistrosExeltisSpain@exeltis.com 
+Polska 
+RAD Neurim Pharmaceuticals EEC SARL<br />
+Tel.: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>France 
+BIOCODEX 
+Tél: +33 (0)1 41 24 30 e-mail: medinfo@biocodex.com </p>
+<p>Portugal 
+Laboratórios Azevedos - Indústria Farmacêutica, 
+S.A. 
+Tel: +351 214 725 e-mail: mail@azevedos-sa.pt </p>
+<p>Hrvatska 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>România 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>Ireland 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>Slovenija 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>Ísland 
+Williams &amp; Halls ehf.<br />
+Sími: +354 527 0Netfang: info@wh.is </p>
+<p>Slovenská republika 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>Italia 
+Fidia Farmaceutici S.p.A. 
+Tel: +39 049 8232e-mail: info@fidiapharma.it </p>
+<p>Suomi/Finland 
+RAD Neurim Pharmaceuticals EEC SARL 
+Puh/Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>Κύπρος 
+RAD Neurim Pharmaceuticals EEC SARL 
+Τηλ: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>Sverige 
+Takeda Pharma AB 
+e-mail: medinfoEMEA@takeda.com </p>
+<p>Latvija 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com 
+United Kingdom (Northern Ireland) 
+RAD Neurim Pharmaceuticals EEC SARL 
+Tel: +33 185149776 (FR) 
+e-mail: neurim@neurim.com </p>
+<p>Este folheto foi revisto pela última vez em { mês de AAAA}. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -943,6 +1441,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-f502911808bc1b6ee8b26c1badf235f8"
 * entry[0].resource = composition-da-f502911808bc1b6ee8b26c1badf235f8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf502911808bc1b6ee8b26c1badf235f8"
+* entry[=].resource = mpf502911808bc1b6ee8b26c1badf235f8
+                            
+                    
+Instance: bundlepackageleaflet-pt-f502911808bc1b6ee8b26c1badf235f8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for slenyto Package Leaflet for language pt"
+Description: "ePI document Bundle for slenyto Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-f502911808bc1b6ee8b26c1badf235f8"
+* entry[0].resource = composition-pt-f502911808bc1b6ee8b26c1badf235f8
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpf502911808bc1b6ee8b26c1badf235f8"
@@ -1044,6 +1564,18 @@ RuleSet: f502911808bc1b6ee8b26c1badf235f8ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-f502911808bc1b6ee8b26c1badf235f8) // slenyto pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1388,6 +1388,807 @@ indføres i produktinformationen. </p>
 
 
 
+Instance: composition-pt-6471e64aafea74720593633f2a0cd695
+InstanceOf: CompositionUvEpi
+Title: "Composition for truvada Package Leaflet"
+Description:  "Composition for truvada Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6471e64aafea74720593633f2a0cd695)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - truvada"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Truvada e para que é utilizado 
+2. O que precisa de saber antes de tomar Truvada 
+3. Como tomar Truvada 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Truvada 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é truvada e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é truvada e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Truvada contém duas substâncias ativas, emtricitabina e tenofovir disoproxil. Estas substâncias 
+ativas são ambas fármacos antirretrovirais utilizados para tratar a infeção por VIH. A emtricitabina é 
+um análogo nucleosídeo inibidor da transcriptase reversa e o tenofovir é um análogo nucleótido 
+inibidor da transcriptase reversa. No entanto, ambos são geralmente conhecidos como análogos 
+nucleosídeos inibidores da transcriptase reversa (NRTIs) e eles atuam interferindo com a atividade 
+normal de uma enzima (transcriptase reversa) que é fundamental para que o vírus se possa reproduzir.  </p>
+<ul>
+<li>
+<p>Truvada é utilizado para tratar a infeção pelo Vírus da Imunodeficiência Humana 1 
+(VIH-1) em adultos </p>
+</li>
+<li>
+<p>É também utilizado para tratar a infeção pelo VIH em adolescentes com idade 
+compreendida entre os 12 e &lt; 18 anos que pesam, pelo menos, 35 kg, e que foram 
+previamente tratados com outros medicamentos para o VIH que já não são eficazes ou que 
+causaram efeitos indesejáveis. </p>
+</li>
+</ul>
+<p>­ 
+Truvada deve ser sempre utilizado em associação com outros medicamentos para tratar a 
+infeção por VIH.<br />
+­ 
+Truvada pode ser administrado em vez da emtricitabina e do tenofovir disoproxil 
+utilizados nas mesmas doses em separado. </p>
+<p>Este medicamento não é uma cura para a infeção por VIH. Enquanto tomar Truvada pode 
+desenvolver, na mesma, infeções ou outras doenças associadas com a infeção por VIH. </p>
+<ul>
+<li>Truvada também é utilizado para reduzir o risco de contrair a infeção por VIH-1 em 
+adultos e adolescentes com idade compreendida entre os 12 e &lt; 18 anos que pesam, pelo 
+menos, 35 kg, quando tomado diariamente, juntamente com práticas de sexo seguro: 
+Consulte a lista de precauções a tomar contra a infeção por VIH na secção 2.  </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar truvada"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar truvada"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Truvada para tratar o VIH ou para reduzir o risco de contrair o VIH se tem alergia à 
+emtricitabina, ao tenofovir, ao tenofovir disoproxil, ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </p>
+<p> 
+Caso isto se aplique a si, informe imediatamente o seu médico. </p>
+<p>Antes de tomar Truvada para reduzir o risco de contrair a infeção por VIH: </p>
+<p>Truvada apenas pode ajudar a reduzir o risco de contrair a infeção por VIH antes de estar infetado. </p>
+<ul>
+<li>
+<p>Tem de ser negativo para o VIH antes de começar a tomar Truvada para reduzir o risco 
+de contrair a infeção por VIH. Tem de realizar uma análise para garantir que ainda não está 
+infetado pelo VIH. Não tome Truvada para reduzir o risco de infeção sem que tenha a 
+confirmação de que é negativo para o VIH. As pessoas que já estão infetadas pelo VIH têm de 
+tomar Truvada em combinação com outros medicamentos.  </p>
+</li>
+<li>
+<p>Muitos testes para o VIH podem não detetar uma infeção recente. Se tiver sintomas 
+parecidos com os de uma gripe, tal pode significar que foi recentemente infetado por VIH. 
+Os seguintes sinais podem ser sinais de infeção por VIH: </p>
+</li>
+<li>
+<p>cansaço </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>dores musculares ou nas articulações </p>
+</li>
+<li>
+<p>cefaleias </p>
+</li>
+<li>
+<p>vómitos ou diarreia </p>
+</li>
+<li>
+<p>erupção cutânea </p>
+</li>
+<li>
+<p>suores noturnos </p>
+</li>
+<li>
+<p>gânglios linfáticos aumentados no pescoço ou na virilha 
+ 
+Informe o seu médico se sentir qualquer sintoma parecido com os da gripe - quer 
+seja no mês antes de começar a tomar Truvada ou em qualquer altura enquanto estiver a 
+tomar Truvada. </p>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Enquanto tomar Truvada para reduzir o risco de contrair a infeção por VIH: </p>
+<ul>
+<li>
+<p>Tome Truvada todos os dias para reduzir o risco e não apenas quando achar que esteve em 
+risco de contrair a infeção por VIH. Não falhe nenhuma dose nem deixe de tomar Truvada. 
+As doses em falta podem aumentar o risco de contrair a infeção por VIH. </p>
+</li>
+<li>
+<p>Realize testes para o VIH regularmente.  </p>
+</li>
+<li>
+<p>Se achar que foi infetado pelo VIH informe imediatamente o seu médico. O médico poderá 
+querer realizar mais exames para ter a certeza que ainda é negativo para o VIH. </p>
+</li>
+<li>
+<p>Tomar Truvada por si só pode não impedir que contraia o VIH. 
+o 
+Pratique sempre sexo seguro. Use preservativos para reduzir o contacto com sémen, 
+fluidos vaginais ou sangue. 
+o 
+Não partilhe artigos pessoais que possam ter sangue ou fluidos corporais, como escovas 
+de dentes e lâminas de barbear. 
+o 
+Não partilhe nem reutilize agulhas ou outros utensílios de injeção ou de medicamentos. 
+o 
+Realize testes para outras infeções transmitidas sexualmente como a sífilis e a gonorreia. 
+Estas infeções podem facilitar a infeção por VIH.  </p>
+</li>
+</ul>
+<p>Fale com o seu médico se tiver mais perguntas sobre como evitar contrair o VIH ou transmitir o VIH 
+às outras pessoas. </p>
+<p>Enquanto tomar Truvada para tratar o VIH ou para reduzir o risco de contrair VIH: </p>
+<ul>
+<li>
+<p>Truvada pode afetar os seus rins. Antes e durante o tratamento, o seu médico pode pedir-lhe 
+análises ao sangue para medir a função dos seus rins. Informe o seu médico se tiver tido uma 
+doença nos rins ou se as análises tiverem apresentado alterações relativas aos seus rins. Truvada 
+não deve ser administrado a adolescentes com alterações preexistentes ao nível dos rins. Se tiver 
+alterações ao nível dos rins. O seu médico pode aconselhá-lo a deixar de tomar Truvada ou, se 
+já estiver infetado por VIH, a tomar Truvada menos frequentemente. Truvada não é 
+recomendado se tiver doença renal grave ou se está em diálise. </p>
+</li>
+<li>
+<p>Fale com o seu médico se tem osteoporose, tiver história de fraturas ósseas ou tiver 
+problemas com os ossos. </p>
+</li>
+</ul>
+<p>Podem também ocorrer problemas ósseos (manifestados como dor óssea persistente ou 
+agravada e que, por vezes, resulta em fraturas), devido a lesão nas células tubulares do rim (ver 
+secção 4, Efeitos indesejáveis possíveis). Informe o seu médico se tiver dores ósseas ou fraturas. </p>
+<p>Tenofovir disoproxil também pode causar a perda de massa óssea. A perda óssea mais 
+pronunciada foi observada em estudos clínicos quando os doentes foram tratados para o VIH 
+com tenofovir disoproxil e um inibidor da protease potenciado. </p>
+<p>De modo geral, os efeitos de tenofovir disoproxil na saúde óssea a longo prazo e o risco de 
+fraturas em doentes adultos e pediátricos são incertos. </p>
+<ul>
+<li>
+<p>Se tem ou tiver tido uma doença no fígado, incluindo hepatite, fale com o seu médico. Os 
+doentes infetados por VIH com doença no fígado (incluindo hepatite B ou C crónica) que 
+estejam a ser tratados com medicamentos antirretrovirais, apresentam um risco superior ao 
+normal de sofrerem complicações graves e potencialmente fatais ao nível do fígado. Se tem 
+hepatite B ou C, o seu médico irá considerar exatamente o melhor regime terapêutico para si.  </p>
+</li>
+<li>
+<p>Conheça o seu estado da infeção por vírus da hepatite B (VHB) antes de começar a tomar 
+Truvada. Se tiver o VHB, existe um risco elevado de ter problemas hepáticos quando deixar de 
+tomar Truvada, quer esteja ou não infetado pelo VIH. É importante que não pare de tomar 
+Truvada sem falar com o seu médico: ver secção 3, Não pare de tomar Truvada. </p>
+</li>
+<li>
+<p>Se tem mais de 65 anos, fale com o seu médico. Truvada não foi estudado em doentes com 
+mais de 65 anos de idade. </p>
+</li>
+<li>
+<p>Se for intolerante à lactose, fale com o seu médico (ver mais à frente nesta secção, Truvada 
+contém lactose). </p>
+</li>
+</ul>
+<p>Crianças e adolescentes </p>
+<p>Truvada não é para ser utilizado em crianças com menos de 12 anos de idade. </p>
+<p>Outros medicamentos e Truvada </p>
+<p>Não tome Truvada se já estiver a tomar outros medicamentos que contenham os componentes de 
+Truvada (emtricitabina e tenofovir disoproxil) ou quaisquer outros medicamentos antivirais que 
+contenham tenofovir alafenamida, lamivudina ou adefovir dipivoxil. </p>
+<p>Tomar Truvada com outros medicamentos que podem danificar os rins: é particularmente 
+importante informar o seu médico se estiver a tomar algum destes medicamentos, incluindo </p>
+<ul>
+<li>
+<p>aminoglicosídeos (para infeções bacterianas) </p>
+</li>
+<li>
+<p>anfotericina B (para infeções fúngicas) </p>
+</li>
+<li>
+<p>foscarneto (para infeções virais) </p>
+</li>
+<li>
+<p>ganciclovir (para infeções virais) </p>
+</li>
+<li>
+<p>pentamidina (para infeções) </p>
+</li>
+<li>
+<p>vancomicina (para infeções bacterianas) </p>
+</li>
+<li>
+<p>interleucina-2 (para tratamento do cancro) </p>
+</li>
+<li>
+<p>cidofovir (para infeções virais) </p>
+</li>
+<li>
+<p>anti-inflamatórios não esteroides (AINEs, para aliviar a dor óssea ou a dor muscular) </p>
+</li>
+</ul>
+<p>Se estiver a tomar outro medicamento antiviral para tratar o VIH chamado inibidor da protease, o seu 
+médico pode pedir análises sanguíneas para monitorizar mais de perto a sua função renal.  </p>
+<p>Também é importante que informe o seu médico se estiver a tomar ledipasvir/sofosbuvir, 
+sofosbuvir/velpatasvir ou sofosbuvir/velpatasvir/voxilaprevir para tratar a infeção por hepatite C. </p>
+<p>Tomar Truvada com outros medicamentos que contêm didanosina (para o tratamento da 
+infeção por VIH): Tomar Truvada com outros medicamentos antivirais que contêm didanosina pode 
+aumentar os níveis de didanosina no seu sangue e pode reduzir as contagens de células CD4. Foram 
+notificadas, raramente, inflamação do pâncreas e acidose láctica (excesso de ácido láctico no sangue), 
+que ocasionalmente causaram morte, quando foram tomados em conjunto medicamentos contendo 
+tenofovir disoproxil e didanosina. O seu médico irá considerar cuidadosamente se deverá tratá-lo com 
+associações de tenofovir e didanosina. </p>
+<p> 
+Informe o seu médico se estiver a tomar algum destes medicamentos. Informe o seu médico ou 
+farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. </p>
+<p>Truvada com alimentos e bebidas </p>
+<ul>
+<li>Sempre que possível, Truvada deve ser tomado com alimentos. </li>
+</ul>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico ou farmacêutico antes de tomar este medicamento. </p>
+<p>Se tomou Truvada durante a gravidez, o seu médico pode pedir-lhe para efetuar análises ao sangue e 
+outros testes de diagnóstico regulares para verificar o desenvolvimento da sua criança. Nas crianças 
+cujas mães tomaram NRTIs durante a gravidez, o benefício da menor possibilidade de infeção pelo 
+VIH é superior ao risco de sofrerem efeitos indesejáveis. </p>
+<ul>
+<li>
+<p>Não deverá amamentar durante o tratamento com Truvada. Isto deve-se ao fato de que as 
+substâncias ativas deste medicamento são excretadas no leite humano. </p>
+</li>
+<li>
+<p>A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção 
+pelo VIH pode ser transmitida ao bebé através do leite materno. </p>
+</li>
+<li>
+<p>Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais 
+rapidamente possível. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Truvada pode causar tonturas. Se sentir tonturas enquanto estiver a tomar Truvada, não conduza e não 
+utilize quaisquer ferramentas ou máquinas. </p>
+<p>Truvada contém lactose </p>
+<p>Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento.  </p>
+<p>Truvada contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar truvada"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar truvada"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico 
+ou farmacêutico se tiver dúvidas. </li>
+</ul>
+<p>A dose recomendada de Truvada para tratar a infeção por VIH é: </p>
+<ul>
+<li>
+<p>Adultos: um comprimido por dia, sempre que possível com alimentos. </p>
+</li>
+<li>
+<p>Adolescentes com idade compreendida entre os 12 e &lt; 18 anos que pesam, pelo menos, 
+35 kg: um comprimido por dia, sempre que possível com alimentos. </p>
+</li>
+</ul>
+<p>A dose recomendada de Truvada para reduzir o risco de contrair o VIH é: </p>
+<ul>
+<li>
+<p>Adultos: um comprimido por dia, sempre que possível com alimentos. </p>
+</li>
+<li>
+<p>Adolescentes com idade compreendida entre os 12 e &lt; 18 anos que pesam, pelo menos, 
+35 kg: um comprimido por dia, sempre que possível com alimentos. </p>
+</li>
+</ul>
+<p>Se tiver dificuldade em engolir, pode desfazer o comprimido com a ajuda de uma colher. Em 
+seguida, dissolva o pó em cerca de 100 ml (meio copo) de água, sumo de laranja ou sumo de 
+uva, e beba imediatamente. </p>
+<ul>
+<li>
+<p>Tomar sempre a dose recomendada pelo seu médico. Isto para ter a certeza que o seu 
+medicamento é totalmente eficaz, e para reduzir o risco de desenvolvimento de resistência ao 
+tratamento. Não altere a dose a menos que o seu médico lhe diga para o fazer. </p>
+</li>
+<li>
+<p>Se estiver a ser tratado para a infeção por VIH, o seu médico irá receitar-lhe Truvada com 
+outros medicamentos antirretrovirais. Por favor, consulte o folheto informativo dos outros 
+medicamentos antirretrovirais para orientação sobre o modo como tomar esses medicamentos. </p>
+</li>
+<li>
+<p>Se estiver a tomar Truvada para reduzir o risco de contrair o VIH, tome Truvada todos os 
+dias e não apenas quando achar que esteve em risco de contrair a infeção por VIH. </p>
+</li>
+</ul>
+<p>Fale com o seu médico se tiver mais perguntas sobre como evitar contrair o VIH ou evitar transmitir o 
+VIH às outras pessoas. </p>
+<p>Se tomar mais Truvada do que deveria </p>
+<p>Se acidentalmente tomar mais do que a dose recomendada de Truvada, consulte o seu médico ou 
+aconselhe-se junto do serviço de urgência mais próximo. Mantenha o frasco de comprimidos consigo 
+para que facilmente possa descrever o que tomou. </p>
+<p>Caso se tenha esquecido de tomar Truvada </p>
+<p>É importante que não falhe nenhuma dose de Truvada. </p>
+<ul>
+<li>
+<p>Caso se aperceba até 12 horas após a hora em que habitualmente toma Truvada, tome o 
+comprimido de preferência com alimentos logo que possível. Depois, tome a dose seguinte 
+como normalmente. </p>
+</li>
+<li>
+<p>Caso se aperceba 12 horas ou mais após a hora a que habitualmente toma Truvada, não tome 
+a dose que falhou. Aguarde e tome a dose seguinte, de preferência com alimentos, à hora 
+habitual. </p>
+</li>
+</ul>
+<p>Se vomitar até 1 hora após a toma de Truvada, tome outro comprimido. Não terá de tomar outro 
+comprimido se tiver vomitado mais de 1 hora após a toma de Truvada. </p>
+<p>Não pare de tomar Truvada </p>
+<ul>
+<li>
+<p>Se estiver a tomar Truvada para o tratamento da infeção por VIH, deixar de tomar os 
+comprimidos pode reduzir a eficácia da terapêutica anti-VIH recomendada pelo seu médico.  </p>
+</li>
+<li>
+<p>Se estiver a tomar Truvada para reduzir o risco de contrair o VIH, não deixe de tomar 
+Truvada nem falhe nenhuma dose. Interromper o uso de Truvada, ou falhar doses, pode 
+aumentar o risco de contrair a infeção por VIH. </p>
+</li>
+</ul>
+<p> 
+Não pare de tomar Truvada sem falar com o seu médico. </p>
+<ul>
+<li>Se tiver hepatite B, é particularmente importante não parar o tratamento com Truvada sem 
+previamente consultar o seu médico. Pode necessitar de análises ao sangue durante vários meses 
+após interrupção do tratamento. Em alguns doentes com doença hepática (do fígado) avançada 
+ou cirrose, a interrupção do tratamento não é recomendada, uma vez que pode levar a um 
+agravamento da sua hepatite e pode ser fatal. </li>
+</ul>
+<p> 
+Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco 
+habituais após parar o tratamento, particularmente sintomas que associaria à sua 
+hepatite B. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves possíveis: </p>
+<ul>
+<li>
+<p>Acidose láctica (excesso de ácido láctico no sangue) é um efeito indesejável raro, mas 
+potencialmente fatal. A acidose láctica ocorre mais frequentemente em mulheres, 
+particularmente nas que apresentam excesso de peso, e em pessoas com doença do fígado. Os 
+seguintes podem ser sinais de acidose láctica: </p>
+</li>
+<li>
+<p>respiração profunda, rápida </p>
+</li>
+<li>
+<p>sonolência </p>
+</li>
+<li>
+<p>sentir-se enjoado (náuseas), estar enjoado (vómitos) </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+</ul>
+<p> Caso pense que possa ter acidose láctica, obtenha ajuda médica imediatamente. </p>
+<ul>
+<li>
+<p>Quaisquer sinais de inflamação ou infeção. Em alguns doentes com infeção avançada por 
+VIH (SIDA) e antecedentes de infeções oportunistas (infeções que ocorrem em pessoas com um 
+sistema imunitário fraco), podem ocorrer sinais e sintomas de inflamação de infeções prévias 
+logo após iniciar o tratamento contra o VIH. Pensa-se que estes sintomas são devidos a uma 
+melhoria na resposta imunitária do corpo, permitindo que o corpo lute contra infeções que 
+possam estar presentes sem sintomas óbvios.  </p>
+</li>
+<li>
+<p>Também podem ocorrer doenças autoimunes, quando o sistema imunitário ataca os tecidos 
+corporais saudáveis, após começar a tomar os medicamentos para tratar a infeção pelo VIH. As 
+doenças autoimunes podem ocorrer muitos meses depois do início do tratamento. Esteja atento a 
+quaisquer sintomas de infeção ou outros sintomas como: </p>
+</li>
+<li>
+<p>fraqueza muscular </p>
+</li>
+<li>
+<p>fraqueza a começar nas mãos e nos pés e que progride para o tronco </p>
+</li>
+<li>
+<p>palpitações, tremores ou hiperatividade </p>
+</li>
+</ul>
+<p> 
+Se observar estes ou quaisquer outros sintomas de inflamação ou infeção, obtenha 
+ajuda médica imediatamente. </p>
+<p>Efeitos indesejáveis possíveis: </p>
+<p>Efeitos indesejáveis muito frequentes 
+(podem afetar mais do que 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>diarreia, estar enjoado (vómitos), sentir-se enjoado (náuseas),  </p>
+</li>
+<li>
+<p>tonturas, dor de cabeça,  </p>
+</li>
+<li>
+<p>erupção cutânea </p>
+</li>
+<li>
+<p>fraqueza </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>diminuição do fosfato no sangue </p>
+</li>
+<li>
+<p>elevação da creatina cinase </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes 
+(podem afetar 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>dor, dor de estômago </p>
+</li>
+<li>
+<p>dificuldade em dormir, sonhos anormais </p>
+</li>
+<li>
+<p>problemas digestivos que podem resultar em desconforto após as refeições, enfartamento, 
+flatulência </p>
+</li>
+<li>
+<p>erupções cutâneas (incluindo manchas vermelhas ou pústulas algumas vezes com bolhas e 
+inchaço da pele), que podem ser reações alérgicas, comichão, alterações na cor da pele 
+incluindo escurecimento da pele em manchas </p>
+</li>
+<li>
+<p>outras reações alérgicas, tais como dificuldade em respirar, inchaço do corpo ou sentir-se 
+confuso </p>
+</li>
+<li>
+<p>perda de massa óssea </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>baixa contagem de glóbulos brancos (uma diminuição dos seus glóbulos brancos pode torná-lo 
+mais sujeito a infeções) </p>
+</li>
+<li>
+<p>aumento dos triglicéridos (ácidos gordos), da bílis ou do açúcar no sangue </p>
+</li>
+<li>
+<p>alterações no fígado e pâncreas </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes 
+(podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>dor no abdómen (barriga) causada por inflamação do pâncreas </p>
+</li>
+<li>
+<p>inchaço da face, lábios, língua ou garganta </p>
+</li>
+<li>
+<p>anemia (baixa contagem de glóbulos vermelhos) </p>
+</li>
+<li>
+<p>perda da força muscular, dor muscular ou fraqueza muscular que podem ocorrer devido a lesão 
+nas células tubulares do rim </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>diminuição do potássio no sangue </p>
+</li>
+<li>
+<p>aumento da creatinina no sangue </p>
+</li>
+<li>
+<p>alterações na urina </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis raros 
+(podem afetar até 1 em 1.000 doentes) </p>
+<ul>
+<li>
+<p>acidose láctica (ver Efeitos indesejáveis graves possíveis) </p>
+</li>
+<li>
+<p>fígado gordo </p>
+</li>
+<li>
+<p>pele ou olhos de cor amarelada, comichão ou dor no abdómen (barriga) causadas por inflamação 
+do fígado </p>
+</li>
+<li>
+<p>inflamação do rim, aumento da quantidade de urina e sentir sede, insuficiência renal, lesão nas 
+células tubulares do rim </p>
+</li>
+<li>
+<p>perda de resistência dos ossos (com dor nos ossos e por vezes resultando em fraturas) </p>
+</li>
+<li>
+<p>dor nas costas causadas por problemas de rins </p>
+</li>
+</ul>
+<p>A lesão nas células tubulares do rim pode estar associada a perda de força muscular, perda de 
+resistência dos ossos (com dor nos ossos e por vezes resultando em fraturas), dor muscular, fraqueza 
+muscular e diminuição do potássio ou fosfato no sangue. </p>
+<p> 
+Se observar qualquer um dos efeitos indesejáveis acima indicados ou se algum destes 
+efeitos indesejáveis se agravar, informe o seu médico ou farmacêutico. </p>
+<p>A frequência dos efeitos indesejáveis seguintes é desconhecida. </p>
+<ul>
+<li>
+<p>Problemas ósseos. Alguns doentes tratados com associações de medicamentos antirretrovirais 
+tais como Truvada podem desenvolver uma doença óssea chamada osteonecrose (morte do 
+tecido ósseo causada pela perda da irrigação de sangue no osso). Tomar este tipo de 
+medicamentos durante um período prolongado, tomar corticosteroides, consumir bebidas 
+alcoólicas, ter um sistema imunológico muito fraco e ter excesso de peso, podem ser alguns dos 
+muitos fatores de risco para o desenvolvimento desta doença. Sinais de osteonecrose são: </p>
+</li>
+<li>
+<p>Rigidez nas articulações </p>
+</li>
+<li>
+<p>dores nas articulações (especialmente na anca, joelho e ombro) </p>
+</li>
+<li>
+<p>dificuldade em se movimentar 
+ 
+Se observar qualquer um destes sintomas, informe o seu médico. </p>
+</li>
+</ul>
+<p>Durante o tratamento para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no 
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos 
+lípidos no sangue, por vezes aos medicamentos para o VIH. O seu médico irá realizar exames para 
+determinar estas alterações. </p>
+<p>Outros efeitos em crianças </p>
+<ul>
+<li>
+<p>As crianças que tomaram emtricitabina apresentaram muito frequentemente alterações na cor da 
+pele, incluindo </p>
+</li>
+<li>
+<p>escurecimento da pele em manchas </p>
+</li>
+<li>
+<p>As crianças apresentaram frequentemente contagens baixas dos glóbulos vermelhos (anemia). </p>
+</li>
+<li>
+<p>Isto pode fazer com que a criança fique cansada ou com falta de ar 
+ 
+Se observar qualquer um destes sintomas, informe o seu médico. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar truvada"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar truvada"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar na embalagem de origem para proteger da humidade. Manter o frasco bem fechado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Truvada </p>
+<ul>
+<li>
+<p>As substâncias ativas são a emtricitabina e o tenofovir disoproxil. Cada comprimido revestido 
+por película de Truvada contém 200 mg de emtricitabina e 245 mg de tenofovir disoproxil 
+(equivalente a 300 mg de tenofovir disoproxil fumarato ou 136 mg de tenofovir). </p>
+</li>
+<li>
+<p>Os outros componentes são croscarmelose sódica (E468), triacetato de glicerol (E1518), 
+hipromelose (E464), laca de alumínio indigotina (E132), lactose mono-hidratada, estearato de 
+magnésio (E572), celulose microcristalina (E460), amido pré-gelificado (sem glúten) e dióxido 
+de titânio (E171). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Truvada e conteúdo da embalagem </p>
+<p>Truvada comprimidos revestidos por película são comprimidos de cor azul, em forma de cápsula, 
+impressos num lado com a palavra “GILEAD" e no outro lado com o número “701". Truvada 
+apresenta-se em frascos de 30 comprimidos. Cada frasco contém um exsicante de sílica gel que deve 
+ser mantido no frasco para ajudar a proteger os seus comprimidos. O exsicante de sílica gel está 
+contido numa saqueta ou recipiente separado e não deve ser engolido. </p>
+<p>Estão disponíveis as seguintes apresentações: embalagens contendo 1 frasco de 30 comprimidos 
+revestidos por película e 60 (2 frascos de 30) e 90 (3 frascos de 30) comprimidos revestidos por 
+película. É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado: 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrlanda </p>
+<p>Fabricante: 
+Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 (0) 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel.: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Este folheto foi revisto pela última vez em. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1429,6 +2230,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-6471e64aafea74720593633f2a0cd695"
 * entry[0].resource = composition-da-6471e64aafea74720593633f2a0cd695
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6471e64aafea74720593633f2a0cd695"
+* entry[=].resource = mp6471e64aafea74720593633f2a0cd695
+                            
+                    
+Instance: bundlepackageleaflet-pt-6471e64aafea74720593633f2a0cd695
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for truvada Package Leaflet for language pt"
+Description: "ePI document Bundle for truvada Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-6471e64aafea74720593633f2a0cd695"
+* entry[0].resource = composition-pt-6471e64aafea74720593633f2a0cd695
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp6471e64aafea74720593633f2a0cd695"
@@ -1530,6 +2353,18 @@ RuleSet: 6471e64aafea74720593633f2a0cd695ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-6471e64aafea74720593633f2a0cd695) // truvada pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -781,6 +781,393 @@ brugsstabilitet af den klargjorte opløsning til infusion er blevet vist i op ti
 
 
 
+Instance: composition-pt-4aba175a0cd44d120f1be90c1da17ad7
+InstanceOf: CompositionUvEpi
+Title: "Composition for zynlonta Package Leaflet"
+Description:  "Composition for zynlonta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4aba175a0cd44d120f1be90c1da17ad7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - zynlonta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Zynlonta e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Zynlonta </li>
+<li>Como lhe é administrado Zynlonta </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Zynlonta  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é zynlonta e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é zynlonta e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zynlonta é um medicamento para o cancro que contém a substância ativa loncastuximab tesirina. </p>
+<p>Zynlonta é utilizado para tratar adultos com um determinado tipo de cancro denominado linfoma 
+difuso de grandes células B (LDGCB), que: </p>
+<ul>
+<li>
+<p>tenha voltado (recidivante) após dois ou mais tratamentos, ou que </p>
+</li>
+<li>
+<p>não tenha respondido ao tratamento anterior (refratário). </p>
+</li>
+</ul>
+<p>O linfoma difuso de grandes células B é um cancro que se desenvolve a partir de um tipo de glóbulo 
+branco denominado linfócito B (também denominado célula B). </p>
+<p>Fale com o seu médico ou enfermeiro se tiver dúvidas sobre o modo como Zynlonta funciona ou sobre 
+o motivo por que este medicamento lhe foi receitado. </p>
+<p>Como atua Zynlonta </p>
+<p>O loncastuximab tesirina consiste em duas partes: um anticorpo (um tipo de proteína concebido para 
+reconhecer e ligar-se a um alvo específico) e um agente citotóxico (um medicamento capaz de matar 
+células, incluindo células cancerígenas). O anticorpo deste medicamento foi concebido para se ligar à 
+CD19, uma proteína que se encontra na superfície das células B. Quando o anticorpo se liga a estas 
+células, incluindo às células canceríngenas, o medicamento entra nas células e mata-as. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar zynlonta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar zynlonta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe pode ser administrado Zynlonta se tem alergia ao loncastuximab tesirina ou a qualquer 
+outro componente deste medicamento (indicados na secção 6). </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou enfermeiro antes de lhe ser administrado Zynlonta: 
+- se tem ou teve recentemente uma infeção ativa 
+- se tem problemas no fígado; os sintomas podem incluir o amarelecimento da pele e dos olhos 
+(icterícia). O seu médico irá vigiá-lo quanto à ocorrência de efeitos indesejáveis durante o 
+tratamento. 
+- se está grávida ou planeia engravidar. Zynlonta pode prejudicar o seu bebé por nascer (para 
+mais informação, ver secção “Gravidez, amamentação e fertilidade"). </p>
+<p>Informe imediatamente o seu médico ou enfermeiro se tiver algum dos seguintes efeitos 
+indesejáveis graves. </p>
+<p>Infeções 
+Ocorreram infeções graves, incluindo infeções que podem causar morte, em pessoas tratadas com 
+Zynlonta. Informe imediatamente o seu médico ou enfermeiro se tiver novos sinais ou sintomas de 
+infeção ou agravamento dos mesmos, indicados na secção 4, em “Efeitos indesejáveis graves". </p>
+<p>Retenção de líquidos 
+O seu corpo poderá reter demasiados líquidos durante o tratamento com Zynlonta, o que pode ser 
+grave. Informe imediatamente o seu médico ou enfermeiro se tiver sinais ou sintomas de retenção 
+de líquidos, indicados na secção 4, em “Efeitos indesejáveis graves". O seu médico irá dar-lhe 
+tratamento adequado para a retenção de líquidos. Se tiver inchaço grave, o seu médico poderá parar o 
+tratamento até o inchaço reduzir. </p>
+<p>Contagem de células baixa (plaquetas, glóbulos vermelhos e glóbulos brancos) 
+Níveis baixos de determinadas células sanguíneas (contagem de células baixa) podem ser sérios ou 
+graves. O seu médico ou enfermeiro irá monitorizar a sua contagem de células sanguíneas durante o 
+tratamento com Zynlonta. Informe imediatamente o seu médico ou enfermeiro se tiver sinais ou 
+sintomas de infeção, indicados na secção 4, em “Efeitos indesejáveis graves". A contagem de células 
+baixa pode ser responsável pela sua infeção. </p>
+<p>Reações na pele 
+Ocorreram reações na pele graves em pessoas tratadas com Zynlonta. A exposição à luz solar 
+(incluindo através de vidro ou janelas de carros) pode causar queimadura solar grave. É importante 
+usar protetor solar e vestuário apropriado, de forma a garantir que não se queima. Informe 
+imediatamente o seu médico ou enfermeiro se tiver reações na pele graves novas ou que se 
+agravaram. Os sinais e sintomas estão indicados na secção 4, em “Efeitos indesejáveis possíveis". </p>
+<p>Crianças e adolescentes 
+Este medicamento não deve ser administrado a crianças ou jovens com menos de 18 anos de idade, 
+uma vez que não existe informação sobre a utilização neste grupo etário. </p>
+<p>Outros medicamentos e Zynlonta 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. </p>
+<p>Contraceção (homens e mulheres) 
+As mulheres em idade fértil têm de utilizar contraceção eficaz durante o tratamento com Zynlonta 
+e durante 10 meses após a última dose.  </p>
+<p>Homens com parceiras com potencial para engravidar têm de utilizar contraceção eficaz durante o 
+tratamento com Zynlonta e durante 7 meses após a última dose. Fale com o seu médico sobre 
+contraceção eficaz. </p>
+<p>Gravidez 
+Deve evitar engravidar se estiver a tomar este medicamento. Informe o seu médico imediatamente 
+se engravidar ou se pensa que pode estar grávida durante o tratamento com Zynlonta. O seu médico 
+poderá fazer-lhe um teste de gravidez antes de iniciar o tratamento com Zynlonta. </p>
+<p>Amamentação 
+Não amamente durante o tratamento, e durante 3 meses após a última dose. Desconhece-se se 
+Zynlonta passa para o leite materno. </p>
+<p>Fertilidade 
+Zynlonta pode causar problemas de fertilidade nos homens, que podem afetar a sua capacidade de 
+ter filhos. Poderá procurar aconselhamento sobre como preservar esperma antes de iniciar o 
+tratamento. Fale com o seu médico para mais informação.  </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de Zynlonta sobre a sua capacidade de conduzir e utilizar máquinas são nulos ou 
+desprezáveis. Se tiver reações relacionadas com a perfusão ou se sentir cansaço, fraqueza ou tonturas 
+(ver secção 4), não conduza, não ande de bicicleta nem utilize ferramentas ou máquinas até se sentir 
+melhor. </p>
+<p>Para mais informação sobre efeitos indesejáveis, ver secção 4.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar zynlonta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar zynlonta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zynlonta é administrado sob a supervisão de um médico com experiência na administração desse tipo 
+de tratamento. É administrado numa veia, gota-a-gota (perfusão) durante um período de 
+30 minutos. </p>
+<p>A dose deste medicamento depende do seu peso corporal. A dose inicial habitual é de 0,15 mg por 
+cada kg do peso corporal. </p>
+<p>A tabela abaixo indica a dose recomendada em cada ciclo de tratamento. </p>
+<p>Dose recomendada 
+Ciclo 
+0,15 mg por kg a cada 21 dias 
+1.º ciclo 
+0,15 mg por kg a cada 21 dias<br />
+2.º ciclo 
+0,075 mg por kg a cada 21 dias 
+3.º ciclo e daí em 
+diante </p>
+<p>O seu médico poderá reduzir a dose se você tiver efeitos indesejáveis graves. </p>
+<p>Tomar dexametasona com Zynlonta 
+Durante o seu tratamento com Zynlonta, também lhe será administrado outro medicamento 
+denominado dexametasona para ajudar a reduzir os efeitos indesejáveis resultantes do tratamento.<br />
+Ser-lhe-ão administrados 4 mg de dexametasona por via oral ou numa veia duas vezes ao dia durante 
+três dias, com início no dia anterior a receber o tratamento com Zynlonta.<br />
+Se não receber dexametasona no dia anterior ao seu tratamento, esta terá de lhe ser administrada pelo 
+menos 2 horas antes de receber Zynlonta. </p>
+<p>Com que frequência lhe será administrado Zynlonta 
+Zynlonta é normalmente administrado a cada 3 semanas (no dia 1 de um ciclo de 21 dias). 
+- O seu médico irá dar-lhe medicamentes antes de cada perfusão para reduzir a possibilidade de 
+ter efeitos indesejáveis. 
+- O seu médico poderá parar o seu tratamento, atrasar o seu tratamento ou alterar a sua dose de 
+Zynlonta se tiver efeitos indesejáveis graves (ver secção 4, “Efeitos indesejáveis possíveis"). 
+- O seu médico irá fazer-lhe regularmente análises ao sangue para verificar a existência de efeitos 
+indesejáveis de Zynlonta. 
+- O seu médico irá decidir de quantos ciclos de tratamento você irá necessitar. </p>
+<p>Se lhe for administrado mais Zynlonta do que deveria 
+Uma vez que a perfusão lhe é administrada pelo seu médico ou outro pessoal devidamente formado, a 
+sobredosagem é improvável. Se receber inadvertidamente demasiado medicamento, o seu médico irá 
+monitorizá-lo e administrar-lhe tratamento adicional, conforme a necessidade. </p>
+<p>Se falhar uma dose de Zynlonta 
+Se falhar uma dose de Zynlonta, esta deve ser-lhe administrada o mais brevemente possível. Poderá ter 
+de reagendar a administração da dose seguinte planeada para garantir que esta é administrada 21 dias 
+após ter falhado a dose. O intervalo de 21 dias entre doses deve ser mantido. </p>
+<p>Se parar de receber Zynlonta 
+Não deve parar o tratamento precocemente sem falar primeiro com o seu médico. </p>
+<p>O tratamento do linfoma com Zynlonta requer habitualmente várias perfusões. O número de perfusões 
+que recebe irá depender da sua resposta ao tratamento. Assim, mesmo se os seus sintomas 
+melhorarem, deve continuar a tomar Zynlonta até que o seu médico decida que o seu medicamento 
+deve ser interrompido. Se o tratamento for parado demasiado cedo, os seus sintomas podem regressar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Os seguintes efeitos indesejáveis foram notificados com este 
+medicamento: </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Infeções 
+Ocorreram infeções graves, incluindo infeções que podem causar morte, em pessoas tratadas com 
+Zynlonta. Informe imediatamente o seu médico ou enfermeiro se tiver algum dos seguintes sinais e 
+sintomas: </p>
+<ul>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>arrepios </p>
+</li>
+<li>
+<p>sintomas do tipo gripal (tosse, cansaço ou fraqueza e dores no corpo) </p>
+</li>
+<li>
+<p>dor de cabeça grave </p>
+</li>
+<li>
+<p>cortes ou arranhões vermelhos, quentes, inchados ou dolorosos </p>
+</li>
+</ul>
+<p>Retenção de líquidos 
+O seu corpo poderá reter demasiados líquidos durante o tratamento com Zynlonta, o que pode ser 
+grave. Poderá ter inchaço em várias partes do corpo, incluindo as suas mãos, pés (muito frequentes) e 
+abdómen (frequentes), ou em redor dos órgãos internos, tais como o seu coração (frequentes) e 
+pulmões (muito frequentes). 
+Informe imediatamente o seu médico ou enfermeiro se tiver algum dos seguintes sinais e sintomas: </p>
+<ul>
+<li>
+<p>tem dor no peito (frequentes) </p>
+</li>
+<li>
+<p>dificuldade em respirar (muito frequentes) </p>
+</li>
+<li>
+<p>inchaço em qualquer parte do seu corpo (muito frequentes) </p>
+</li>
+</ul>
+<p>Contagem de células baixa<br />
+A contagem de células baixa (muito frequentes) pode ser grave. O seu médico ou enfermeiro irá vigiar 
+a sua contagem de células durante o tratamento com Zynlonta. Informe imediatamente o seu médico 
+ou enfermeiro se observar nódoas negras ou hemorragia, ou qualquer um dos sinais ou sintomas de 
+infeções acima mencionados. </p>
+<p>Reações na pele 
+Ocorreram reações na pele (frequentes) em pessoas tratadas com Zynlonta. Algumas podem ser 
+graves. Informe imediatamente o seu médico ou enfermeiro se tiver reações na pele graves novas 
+ou que se agravaram, incluindo: 
+- sensibilidade à luz solar, incluindo reações do tipo queimadura solar, tais como descamação da 
+pele e irritação após a exposição solar 
+- erupção com comichão 
+- bolhas na pele 
+- manchas mais escuras na pele 
+- irritação, inchaço, dor e/ou lesões na pele no local de injeção. </p>
+<p>Outros efeitos indesejáveis 
+Informe o seu médico ou enfermeiro se tiver algum dos seguintes efeitos indesejáveis: </p>
+<p>Muito frequentes: podem afetar mais de 1 em 10 pessoas 
+- cansaço e pele pálida 
+- análises ao sangue anormais que apresentam: 
+o 
+níveis baixos de neutrófilos, um tipo de glóbulo branco que combate a infeção, por vezes 
+com febre 
+o 
+contagem baixa de plaquetas sanguíneas, o que pode provocar hemorragia e nódoas 
+negras 
+o 
+problemas no fígado 
+- perda de apetite 
+- mal-estar ou vómitos 
+- diarreia 
+- dores de estômago 
+- obstipação 
+- vermelhidão da pela 
+- erupção 
+- comichão. </p>
+<p>Frequentes: podem afetar até 1 em 10 pessoas 
+- infeção pulmonar, incluindo bronquite ou pneumonia 
+- infeção no nariz ou garganta 
+- erupção caracterizada por uma área vermelha e plana na pele que se encontra coberta com 
+pequenos altos 
+- dor muscular 
+- dor nas articulações 
+- dor nas costas e no pescoço 
+- dor nos braços e nas pernas 
+- falta de energia. </p>
+<p>Pouco frequentes: podem afetar menos de 1 em 10 pessoas 
+- altos na pele com pus 
+- desconforto nos membros 
+- desconforto nos músculos e nos ossos 
+- inflamação da membrana em redor do coração. </p>
+<p>Desconhecido: a frequência não pode ser calculada a partir dos dados disponíveis 
+- derrames (vasos sanguíneos que se rompem perto da superfície da pele) 
+- bolhas 
+- erupção na pele que consiste em minúsculas a pequenas bolhas cheias de líquido </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar zynlonta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar zynlonta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zynlonta será conservado pelo médico ou farmacêutico no hospital ou clínica em que recebe 
+tratamento. 
+O seu médico, farmacêutico ou enfermeiro é responsável pela conservação deste medicamento e pela 
+eliminação de quaisquer resíduos do medicamento não utilizado. A informação que se segue destina-se 
+aos profissionais de saúde. </p>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco 
+para injetáveis após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C-8 °C). Não congelar. </p>
+<p>Manter o frasco dentro da embalagem exterior para proteger da luz. 
+Tanto a solução reconstituída como a solução para perfusão diluída não devem ser congeladas ou 
+expostas à luz solar direta. </p>
+<p>Zynlonta é um medicamento citotóxico. Devem ser observados os procedimentos de manuseamento e 
+eliminação aplicáveis. </p>
+<p>O seu médico ou farmacêutico é responsável pela eliminação correta de qualquer Zynlonta não 
+utilizado. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Zynlonta </p>
+<ul>
+<li>
+<p>A substância ativa é o loncastuximab tesirina. Cada frasco para injetáveis contém 10 mg de 
+loncastuximab tesirina. Após a reconstituição, cada ml contém 5 mg de loncastuximab tesirina. </p>
+</li>
+<li>
+<p>Os outros componentes são: L-histidina, monocloridrato de L-histidina, polissorbato 20, 
+sacarose. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Zynlonta e conteúdo da embalagem 
+Este medicamento é um pó branco a esbranquiçado, com aparência semelhante a bolo. É fornecido 
+num frasco para injetáveis de vidro e destina-se a utilização única. O pó tem de ser reconstituído e 
+diluído antes da perfusão. </p>
+<p>Cada embalagem contém 1 frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Swedish Orphan Biovitrum AB (publ) 
+SE-112 76 Stockholm 
+Suécia </p>
+<p>Fabricante 
+Swedish Orphan Biovitrum AB (publ)<br />
+Strandbergsgatan 49<br />
+SE-112 51 Stockholm<br />
+Suécia </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Foi concedida a este medicamento uma «Autorização de Introdução no Mercado condicional». Isto 
+significa que se aguarda mais informação sobre este medicamento. </p>
+<p>A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
+sobre este medicamento e este folheto será atualizado se necessário. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -822,6 +1209,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-4aba175a0cd44d120f1be90c1da17ad7"
 * entry[0].resource = composition-da-4aba175a0cd44d120f1be90c1da17ad7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4aba175a0cd44d120f1be90c1da17ad7"
+* entry[=].resource = mp4aba175a0cd44d120f1be90c1da17ad7
+                            
+                    
+Instance: bundlepackageleaflet-pt-4aba175a0cd44d120f1be90c1da17ad7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zynlonta Package Leaflet for language pt"
+Description: "ePI document Bundle for zynlonta Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-4aba175a0cd44d120f1be90c1da17ad7"
+* entry[0].resource = composition-pt-4aba175a0cd44d120f1be90c1da17ad7
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp4aba175a0cd44d120f1be90c1da17ad7"
@@ -923,6 +1332,18 @@ RuleSet: 4aba175a0cd44d120f1be90c1da17ad7ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-4aba175a0cd44d120f1be90c1da17ad7) // zynlonta pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

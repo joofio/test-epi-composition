@@ -955,6 +955,528 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-d4e93c060506fdcc083b5b1a04e82522
+InstanceOf: CompositionUvEpi
+Title: "Composition for actelsar Package Leaflet"
+Description:  "Composition for actelsar Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd4e93c060506fdcc083b5b1a04e82522)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - actelsar"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Actelsar HCT e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Actelsar HCT </li>
+<li>Como tomar Actelsar HCT </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Actelsar HCT </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é actelsar e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é actelsar e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Actelsar HCT é uma combinação de duas substâncias ativas, telmisartan e hidroclorotiazida, num 
+comprimido. Estas duas substâncias ajudam a controlar a tensão arterial elevada. </p>
+<ul>
+<li>O telmisartan pertence a um grupo de fármacos conhecidos como antagonistas dos recetores da </li>
+</ul>
+<p>angiotensina II. A angiotensina II é uma substância produzida pelo organismo, que contrai os </p>
+<p>vasos sanguíneos aumentando assim a sua tensão arterial. O telmisartan bloqueia este efeito da </p>
+<p>angiotensina II, provocando um relaxamento dos vasos sanguíneos e diminuindo </p>
+<p>consequentemente a sua tensão arterial. 
+−<br />
+A hidroclorotiazida pertence a um grupo de fármacos denominados diuréticos tiazídicos que </p>
+<p>induzem um aumento do seu débito urinário, levando a uma redução da sua tensão arterial. </p>
+<p>A tensão arterial elevada, se não for tratada, pode danificar os vasos sanguíneos em vários órgãos, o 
+que pode por vezes causar ataques cardíacos, insuficiência cardíaca ou renal, acidentes vasculares 
+cerebrais ou cegueira. Habitualmente não existem sintomas de tensão arterial elevada antes de 
+ocorrerem danos. Assim, é importante medir regularmente a tensão arterial para verificar se esta se 
+encontra dentro dos valores normais. </p>
+<p>Actelsar HCT é utilizado para  tratar a tensão arterial elevada (hipertensão essencial) em adultos que 
+não têm a tensão arterial suficientemente controlada com o telmisartan usado monoterapia. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar actelsar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar actelsar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Actelsar HCT 
+- se tem alergia ao telmisartan ou a qualquer outro componente deste medicamento (indicados na 
+ secção 6). 
+- se tem alergia à hidroclorotiazida ou a qualquer outro medicamento derivado das sulfonamidas. 
+- se tiver mais do que três meses de gravidez. (Também é preferível não tomar Actelsar HCT no </p>
+<p>início da gravidez - ver secção Gravidez). 
+- se tem problemas hepáticos graves, tais como colestase ou obstrução biliar (problemas </p>
+<p>relacionados com a drenagem da bílis do fígado e da vesícula biliar), ou qualquer outra doença 
+hepática grave. 
+- se tem uma doença renal grave. 
+- se o seu médico determinar que tem baixos níveis de potássio ou elevados níveis de cálcio no </p>
+<p>sangue que não melhoram com tratamento. 
+- se tem diabetes ou função renal diminuída e está a ser tratado com um medicamento que contém 
+aliscireno para diminuir a tensão arterial. </p>
+<p>Se alguma das situações acima se aplica ao seu caso, informe o seu médico ou farmacêutico antes de 
+tomar Actelsar HCT. </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico antes de tomar Actelsar HCT se sofre ou sofreu de alguma das seguintes 
+condições ou doenças: </p>
+<p>− 
+Tensão arterial baixa (hipotensão), que pode ocorrer se estiver desidratado (perda excessiva de </p>
+<p>água corporal) ou se tiver deficiência em sais devido a terapêutica com diuréticos (comprimidos </p>
+<p>diuréticos), dieta pobre em sal, diarreia, vómitos ou hemodiálise. 
+− 
+Doença renal ou transplante renal. 
+−<br />
+Estenose da artéria renal (contração dos vasos sanguíneos de um ou de ambos os rins). 
+− 
+Doença do fígado. 
+− 
+Problemas cardíacos. 
+− 
+Diabetes. 
+− 
+Gota. 
+− 
+Níveis de aldosterona aumentados (retenção de água e sal no organismo acompanhada por </p>
+<p>desequilíbrio de vários minerais no sangue). 
+− 
+Lupus eritematoso sistémico (também denominado “lúpus" ou “LES"), uma doença em que o </p>
+<h2>sistema imunitário ataca o próprio corpo.</h2>
+<p>A substância ativa hidroclorotiazída pode provocar uma reação pouco habitual, resultando numa 
+diminuição da visão e dor ocular. Estes podem ser sintomas de acumulação de líquido na 
+camada vascular do olho (efusão coroidal) ou um aumento da pressão no seu olho e pode 
+acontecer após horas ou semanas de tomar Actelsar HCT. Caso não seja tratado, isto pode levar 
+a uma diminuição da visão permanente. 
+− 
+Caso tenha tido cancro da pele ou se desenvolver uma lesão cutânea inesperada durante o 
+tratamento. O tratamento com hidroclorotiazida, no caso particular da utilização de doses 
+elevadas a longo prazo, pode aumentar o risco de alguns tipos de cancro da pele e do lábio 
+(cancro da pele não-melanoma). Proteja a sua pele contra a exposição solar e a radiação 
+ultravioleta, enquanto estiver a tomar Actelsar HCT. 
+− 
+Se já teve problemas respiratórios ou pulmonares (incluindo inflamação ou líquido nos 
+pulmões) após a toma de hidroclorotiazida. Se desenvolver qualquer falta de ar grave ou 
+dificuldade em respirar após tomar Actelsar HCT, procure assistência médica imediatamente. </p>
+<p>Fale com o seu médico antes de tomar Actelsar HCT, se estiver a tomar: 
+- algum dos seguintes medicamentos para tratar a tensão arterial elevada: 
+- um inibidor da ECA (por exemplo enalapril, lisinopril, ramipril), em particular se tiver 
+problemas nos rins relacionados com diabetes. 
+- aliscireno 
+O seu médico pode verificar a sua função renal, tensão arterial e a quantidade de eletrólitos (por 
+exemplo, o potássio) no seu sangue em intervalos regulares. 
+Ver também a informação sob o título “Não tome Actelsar HCT". 
+- digoxina </p>
+<p>Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. Actelsar HCT não está 
+recomendado no início da gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez 
+que pode ser gravemente prejudicial para o bebé se utilizado a partir desta altura (ver secção 
+Gravidez). </p>
+<p>O tratamento com hidroclorotiazida pode causar um desequilíbrio eletrolítico no seu corpo. Os 
+sintomas típicos do desequilíbrio de fluidos ou eletrólitos incluem secura da boca, fraqueza, letargia, 
+sonolência, agitação, dores ou cãibras musculares, náuseas (má disposição), vómitos, cansaço 
+muscular e uma frequência cardíaca rápida e anómala (superior a 100 batimentos por minuto). Caso 
+sinta qualquer destes sintomas deverá comunicá-lo ao seu médico. </p>
+<p>Deve também informar o seu médico, se sentir um aumento da sensibilidade cutânea ao sol, com 
+sintomas de queimadura solar (tais como vermelhidão, comichão, inchaço, formação de bolhas) que 
+ocorram mais rapidamente do que o normal. </p>
+<p>Em caso de cirurgia ou anestesia, deverá informar o seu médico que se encontra a tomar Actelsar 
+HCT. </p>
+<p>Actelsar HCT pode ser menos eficaz na diminuição da tensão arterial em doentes de raça negra. </p>
+<p>Crianças e adolescentes<br />
+Não é recomendada a utilização de Actelsar HCT em crianças e adolescentes menores de 18 anos.  </p>
+<p>Outros medicamentos e Actelsar HCT </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos.<br />
+O seu médico pode ter de alterar a dose desses medicamentos ou tomar outras precauções. Nalguns 
+casos, pode ter de parar de tomar um dos medicamentos. Isto aplica-se principalmente aos 
+medicamentos indicados abaixo, tomados simultaneamente com Actelsar HCT: </p>
+<h2>- Medicamentos que contenham lítio para tratar alguns tipos de depressão.</h2>
+<p>Medicamentos associados a baixa concentração de potássio no sangue (hipocaliemia), tais como </p>
+<p>outros diuréticos (‘comprimidos diuréticos’), laxantes (por exemplo, óleo de rícino), </p>
+<p>corticoesteróides (por exemplo, prednisona), ACTH (uma hormona), anfotericina (um </p>
+<p>medicamento antifúngico), carbenoxolona (utilizado para tratar úlceras bucais), penicilina G </p>
+<p>sódica (um antibiótico), e ácido salicílico e derivados. 
+- Medicamentos que podem aumentar os níveis de potássio no sangue, tais como, diuréticos 
+poupadores de potássio, suplementos de potássio, substitutos salinos contendo </p>
+<p>potássio, inibidores da ECA, ciclosporina (um medicamento imunossupressor) e outros 
+medicamentos, tais como heparina sódica (um anticoagulante). 
+- Medicamentos que sejam afetados por alterações dos níveis de potássio no sangue, tais como 
+medicamentos para o coração (por exemplo, digoxina) ou medicamentos para controlar o ritmo 
+ do seu coração (por exemplo, quinidina, disopiramida, amiodarona, sotalol), medicamentos 
+utilizados para distúrbios mentais (por exemplo, tioridazina, cloropromazina, </p>
+<p>levomepromazina) e outros medicamentos tais como certos antibióticos (por exemplo, 
+esparfloxacina, pentamidina) ou determinados medicamentos utilizados para tratar reações 
+alérgicas (por exemplo, terfenadina). 
+- Medicamentos para o tratamento da diabetes (insulinas ou agentes orais tais como metformina). 
+- Colestiramina e colestipol, medicamentos utilizados para reduzir os níveis de gordura no 
+sangue. 
+- Medicamentos para aumentar a tensão arterial, tais como noradrenalina. 
+- Relaxantes musculares como a tubocurarina. 
+- Suplementos de cálcio e/ou suplementos de vitamina D. 
+- Medicamentos anticolinérgicos (medicamentos utilizados para tratar uma variedade de doenças 
+tais como cólicas gastrointestinais, espasmos da bexiga, asma, enjoo de movimento, espasmos 
+musculares, doença de Parkinson e como auxiliar em anestesia) tais como atropina e biperideno. 
+- Amantadina (medicamento usado para tratar a doença de Parkinson, também utilizado para 
+tratar ou prevenir algumas doenças causadas por vírus). 
+- Outros medicamentos utilizados para tratar a tensão arterial elevada, corticoesteroides, 
+analgésicos (tais como os medicamentos anti-inflamatórios não esteroides [AINEs]), </p>
+<p>medicamentos para o tratamento do cancro, gota ou artrite. 
+- Se está a tomar um inibidor da ECA ou aliscireno (ver também informações sob os títulos “Não 
+tome Actelsar HCT " e “Advertências e precauções"). 
+- Digoxina. </p>
+<p>Actelsar HCT pode aumentar o efeito redutor da tensão arterial de outros medicamentos utilizados 
+para tratar a tensão arterial elevada ou de medicamentos com potencial para baixar a tensão arterial 
+(por exemplo, baclofeno, amifostina). Adicionalmente, a tensão arterial baixa pode ser agravada pelo 
+álcool, barbitúricos, narcóticos ou antidepressivos. Pode aperceber-se disto ao ter tonturas quando se 
+levanta. Deve consultar o seu médico se necessitar de ajustar a dose dos outros medicamentos 
+enquanto estiver a tomar Actelsar HCT. </p>
+<p>O efeito de Actelsar HCT pode ser reduzido se estiver a tomar AINEs (medicamentos anti-
+inflamatórios não esteroides, por exemplo, ácido acetilsalicílico ou ibuprofeno). </p>
+<p>Actelsar HCT com alimentos e álcool </p>
+<p>Actelsar HCT pode ser tomado com ou sem alimentos. 
+Evite o consumo de álcool antes de falar com o seu médico. O álcool pode provocar uma descida 
+maior da tensão arterial e/ou aumentar o risco de ficar com tonturas ou com sensação de desmaio. </p>
+<p>Gravidez e amamentação 
+Gravidez 
+Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. O seu médico 
+normalmente aconselha-la-á a interromper Actelsar HCT antes de engravidar ou assim que estiver 
+grávida e a tomar outro medicamento em vez de Actelsar HCT. Actelsar HCT não está recomendado 
+durante a gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez que pode ser 
+gravemente prejudicial para o bebé se utilizado a partir desta altura. </p>
+<p>Amamentação<br />
+Deverá informar o seu médico de que se encontra a amamentar ou que está prestes a iniciar o 
+aleitamento. Actelsar HCT não está recomendado em mães a amamentar; nestes casos o seu médico 
+poderá indicar outro tratamento. </p>
+<p>Condução de veículos e utilização de máquinas<br />
+Algumas pessoas referem tonturas ou cansaço quando tomam Actelsar HCT. Se se sentir tonto ou 
+cansado, não conduza ou utilize máquinas. </p>
+<p>Actelsar HCT contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar actelsar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar actelsar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é de um comprimido por dia. Tente tomar o comprimido sempre à mesma hora. 
+Pode tomar Actelsar HCT com ou sem alimentos. Os comprimidos devem ser engolidos com um 
+pouco de água ou outra bebida não-alcoólica. É importante que tome Actelsar HCT todos os dias, até 
+indicação em contrário por parte do seu médico. </p>
+<p>Se o seu fígado não estiver a trabalhar adequadamente, a dose habitual não deve exceder os 
+40 mg/12,5 mg uma vez ao dia. </p>
+<p>Se tomar mais Actelsar HCT do que deveria<br />
+Se tomar acidentalmente demasiados comprimidos pode sentir diminuição da tensão arterial e 
+batimento cardíaco acelerado. Também foram notificados batimento cardíaco lento, tonturas, vómitos 
+e diminuição da função renal, incluindo insuficiência renal. Devido à hidroclorotiazida também podem 
+ocorrer diminuição acentuada da tensão arterial e diminuição dos níveis de potássio no sangue, o que 
+pode resultar em náuseas, sonolência e cãibras musculares, e/ou batimentos cardíacos irregulares 
+associados ao uso concomitante com outros medicamentos, tais como os digitálicos ou certos 
+tratamentos antiarrítmicos. Contacte o seu médico ou farmacêutico, ou as 
+urgências do hospital mais próximo imediatamente. </p>
+<p>Caso se tenha esquecido de tomar Actelsar HCT 
+Caso se esqueça de tomar uma dose, não se preocupe. Tome-a logo que se lembre e mantenha o 
+regime de tratamento como anteriormente. Se não tomar o seu comprimido durante um dia, tome a sua 
+dose normal, no dia seguinte. Não tome um comprimido a dobrar para compensar doses individuais 
+que se esqueceu de tomar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis podem ser graves e necessitar de atenção médica imediata: 
+Deve procurar imediatamente o seu médico se apresentar qualquer um dos seguintes sintomas: </p>
+<p>Sepsis* (muitas vezes designada “envenenamento do sangue"), é uma infeção grave que desencadeia 
+uma resposta generalizada do sistema inflamatório, rápido inchaço da pele e mucosas (angioedema), 
+formação de bolhas e descamação da camada superior da pele (necrólise epidérmica tóxica); estes 
+efeitos são raros (podem afetar até 1 em 1.000 pessoas) ou de frequência desconhecida (necrólise 
+epidérmica tóxica), mas são extremamente graves e os doentes devem parar de tomar o medicamento e 
+procurar o seu médico imediatamente. Se estes efeitos não forem tratados, podem ser fatais. A 
+incidência aumentada de sepsis foi observada apenas com telmisartan, no entanto não pode ser 
+excluída relativamente ao Actelsar HCT. 
+Muito raros (podem afetar até 1 em 10.000 pessoas): Insuficiência respiratória aguda (os sinais 
+incluem falta de ar grave, febre, fraqueza e confusão). </p>
+<p>Efeitos indesejáveis possíveis de Actelsar HCT: </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): 
+Tonturas </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): 
+Diminuição dos níveis de potássio no sangue, ansiedade, desmaio (síncope), sensação de formigueiro, 
+sensação de picadas de agulhas (parestesia), sensação de “cabeça à roda" (vertigens), batimento 
+cardíaco acelerado (taquicardia), alterações do ritmo cardíaco, tensão arterial baixa, uma queda brusca 
+da pressão sanguínea quando se levanta, falta de ar (dispneia), diarreia, boca seca, flatulência 
+(libertação de gases), dor nas costas, espasmos musculares, dores musculares, disfunção eréctil 
+(incapacidade de obter ou manter uma ereção), dor no peito, aumento dos níveis de ácido úrico no 
+sangue. </p>
+<p>Raros (podem afetar até 1 em 1.000 pessoas): 
+Inflamação do pulmão (bronquite), ativação ou agravamento de lúpus eritematoso sistémico (uma 
+doença em que o sistema imunitário ataca o próprio corpo, o que causa dor nas articulações, erupção 
+na pele e febre); dor de garganta, sinusite (inflamação dos seios perinasais), sensação de tristeza 
+(depressão); dificuldade em adormecer (insónia), visão alterada, dificuldade em respirar, dor 
+abdominal, prisão de ventre, inchaço abdominal (dispepsia), sentir-se doente (vómitos), inflamação do 
+estômago (gastrite), alteração da função hepática (os doentes japoneses são mais susceptíveis de sofrer 
+este efeito indesejável), vermelhidão na pele (eritema), reações alérgicas, tais como comichão ou 
+erupção cutânea, aumento da sudação, urticária, dor nas articulações (artralgia) e dor nas 
+extremidades, cãibras musculares, doença do tipo gripal, dor, níveis baixos de sódio, aumento dos 
+níveis de creatinina, enzimas hépaticas ou creatinina fosfoquinase no sangue. </p>
+<p>As reacções adversas notificadas com cada um dos constituintes individuais podem constituir 
+potenciais reacções adversas de Actelsar HCT, mesmo que não tenham sido observadas em ensaios 
+clínicos com este medicamento. </p>
+<p>Telmisartan 
+Em doentes a tomar telmisartan isolado, foram comunicados os seguintes efeitos indesejáveis: </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas):<br />
+Infeção do trato respiratório superior (p. ex.: garganta inflamada, sinusite, constipação), infeções do 
+trato urinário, deficiência em células vermelhas do sangue (anemia), níveis elevados de potássio, 
+batimento cardíaco lento (bradicardia), compromisso renal incluindo insuficiência renal aguda, 
+fraqueza, tosse. </p>
+<p>Raros (podem afetar até 1 em 1.000 pessoas):<br />
+Contagem de plaquetas baixa (trombocitopenia), aumento dos glóbulos brancos  do sangue 
+(eosinofilia), reações alérgicas graves (ex.: hipersensibilidade, reação anafilática, erupção cutânea 
+causada pelo medicamento), níveis baixos de açúcar no sangue (em doentes diabéticos), mal-estar no 
+estômago, eczema (uma alteração da pele), artroses, inflamação dos tendões, diminuição da 
+hemoglobina (uma proteína sanguínea), sonolência. </p>
+<p>Muito raros (podem afetar até 1 em 10.000 pessoas):<br />
+Cicatrização progressiva do tecido pulmonar (doença pulmonar intersticial)**  </p>
+<ul>
+<li>O acontecimento pode ter ocorrido por acaso ou pode estar relacionado com um mecanismo 
+atualmente desconhecido. </li>
+</ul>
+<p>** Casos de cicatrização progressiva do tecido pulmonar foram notificados durante a toma de 
+telmisartan. No entanto, não se sabe se o telmisartan é a causa.  </p>
+<p>Hidroclorotiazida<br />
+Em doentes a tomar hidroclorotiazida isolada, foram comunicados os seguintes efeitos indesejáveis: </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): 
+Enjoos (náuseas), nível baixo de magnésio no sangue. </p>
+<p>Raros (podem afetar até 1 em 1.000 pessoas): 
+Redução no número de plaquetas no sangue, o que aumenta o risco de hemorragias ou de nódoas 
+negras (pequenas marcas roxo-avermelhadas na pele ou noutros tecidos causadas por uma 
+hemorragia), nível elevado de cálcio no sangue, dores de cabeça. </p>
+<p>Muito raros (podem afetar até 1 em 10.000 pessoas): 
+pH aumentado (distúrbio no equilíbrio ácido-base) devido a um baixo nível de cloreto no sangue. </p>
+<p>Efeitos indesejáveis de frequência desconhecida (frequência não pode ser calculada a partir dos 
+dados disponíveis): 
+Inflamação da glândula salivar, cancro da pele e do lábio (cancro da pele não-melanoma), diminuição 
+do número (ou mesmo ausência) de células no sangue, incluindo contagem baixa de glóbulos 
+vermelhos e glóbulos brancos, reações 
+alérgicas graves (ex.: hipersensibilidade, reação anafilática), diminuição ou perda de apetite, agitação, 
+sensação de cabeça vazia, visão turva ou amarelada, diminuição da visão e dor ocular (possíveis sinais 
+de miopia aguda ou glaucoma agudo de ângulo fechado), inflamação dos vasos sanguíneos (vasculite 
+necrosante), inflamação do pâncreas, mal-estar no estômago, coloração amarela da pele ou olhos 
+(icterícia), síndrome tipo lúpus (uma situação que mimetiza uma doença chamada lúpus eritematoso 
+sistémico em que o sistema imunitário ataca o próprio corpo); alterações cutâneas, tais como 
+inflamação dos vasos sanguíneos na pele, aumento da sensibilidade à luz solar, erupção na pele, 
+vermelhidão da pele, formação de bolhas nos lábios, olhos ou boca, descamação da pele, febre 
+(possíveis sinais de eritema multiforme), fraqueza, inflamação 
+dos rins ou compromisso da função renal, glucose na urina (glicosúria), febre, compromisso do 
+equilíbrio eletrolítico, níveis elevados de colesterol no sangue, diminuição do volume sanguíneo, 
+aumento dos níveis de glucose no sangue, dificuldade em controlar os níveis de glucose no 
+sangue/urina em doentes com diagnóstico de diabetes mellitus, ou gordura no sangue. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar actelsar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar actelsar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após 
+“EXP"/“VAL". O prazo de validade corresponde ao último dia do mês indicado. “Lot“ que está 
+impresso na cartonagem, refere-se ao número do lote. </p>
+<p>Para os blisters Alu/Alu e recipiente para comprimidos de HDPE: 
+O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Para os blisters Alu/PVC/PVDC: 
+Não conservar acima dos 30ºC. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Actelsar HCT<br />
+- As substâncias ativas são o telmisartan e a hidroclorotiazida. Cada comprimido contém 40 mg 
+de telmisartan e 12,5 mg de hidroclorotiazida. 
+- Os outros componentes são estearato de magnésio (E470b), hidróxido de potássio, meglumina, 
+povidona, carboximetilamido sódico (tipo A), celulose microcristalina,manitol (E421). </p>
+<p>Qual o aspeto de Actelsar HCT e conteúdo da embalagem 
+Actelsar HCT 40 mg/12,5 mg em comprimidos, são brancos ou quase brancos, com 6,55 x 13,6 mm, 
+de forma oval e biconvexos marcados com, “TH“ num dos lados. </p>
+<p>Tamanho das embalagens: 
+Blisters Alu/Alu: 14, 28, 30, 56, 84, 90 e 98 comprimidos 
+Blisters Alu/PVC/PVDC: 28, 56, 84, 90 e 98 comprimidos 
+Recipiente para comprimidos: 30, 90 e 250 comprimidos </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Actavis Group PTC ehf. 
+Dalshraun 1, 220 Hafnarfjörður, Islândia </p>
+<p>Fabricante 
+Actavis Ltd. 
+BLB016, Bulebel Industrial Estate, Zejtun ZTN 3000, Malta </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Teл: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+ratiopharm GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+TEVA HELLAS A.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+TEVA HELLAS A.E.<br />
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -996,6 +1518,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d4e93c060506fdcc083b5b1a04e82522"
 * entry[0].resource = composition-da-d4e93c060506fdcc083b5b1a04e82522
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd4e93c060506fdcc083b5b1a04e82522"
+* entry[=].resource = mpd4e93c060506fdcc083b5b1a04e82522
+                            
+                    
+Instance: bundlepackageleaflet-pt-d4e93c060506fdcc083b5b1a04e82522
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for actelsar Package Leaflet for language pt"
+Description: "ePI document Bundle for actelsar Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d4e93c060506fdcc083b5b1a04e82522"
+* entry[0].resource = composition-pt-d4e93c060506fdcc083b5b1a04e82522
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd4e93c060506fdcc083b5b1a04e82522"
@@ -1097,6 +1641,18 @@ RuleSet: d4e93c060506fdcc083b5b1a04e82522ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d4e93c060506fdcc083b5b1a04e82522) // actelsar pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

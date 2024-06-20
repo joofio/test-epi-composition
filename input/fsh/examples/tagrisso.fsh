@@ -896,6 +896,400 @@ hjemmeside http://www.ema.europa.eu</p>         </div>"""
 
 
 
+Instance: composition-pt-d7f220f9031e8b4b6b6e866b11abbe3a
+InstanceOf: CompositionUvEpi
+Title: "Composition for tagrisso Package Leaflet"
+Description:  "Composition for tagrisso Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd7f220f9031e8b4b6b6e866b11abbe3a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tagrisso"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é TAGRISSO e para que é utilizado
+2. O que precisa de saber antes de tomar TAGRISSO
+3. Como tomar TAGRISSO
+4. Efeitos indesejáveis possíveis
+5. Como conservar TAGRISSO
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tagrisso e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tagrisso e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TAGRISSO contém a substância ativa osimertinib, que pertence a um grupo de medicamentos chamados
+inibidores da proteína cinase que são utilizados para tratar o cancro. TAGRISSO é utilizado para tratar
+adultos com um tipo de cancro do pulmão chamado “cancro do pulmão de não-pequenas células". Se um 
+teste mostrou que o seu cancro apresenta certas alterações (mutações) num gene chamado “EGFR" 
+(recetor do fator de crescimento epidérmico), é provável que o seu cancro responda ao tratamento com 
+TAGRISSO. TAGRISSO pode ser receitado para si:
+
+após remoção completa do seu cancro como um tratamento pós-cirúrgico (adjuvante)
+ou
+
+como o primeiro medicamento que recebe para o seu cancro que se espalhou para outras partes do 
+corpo
+ou
+
+em determinadas circunstâncias, se o seu cancro tiver sido previamente tratado com outros 
+medicamentos inibidores da proteína cinase.
+Como funciona TAGRISSO
+TAGRISSO funciona bloqueando o EGFR e pode ajudar a retardar ou a impedir o crescimento do seu
+cancro de pulmão. Também pode ajudar a reduzir o tamanho do tumor e evitar que o tumor volte a 
+aparecer após remoção cirúrgica.
+
+Se está a receber TAGRISSO após remoção completa do seu cancro, significa que o seu cancro 
+contém defeitos no gene EGFR, “deleção do exão 19" ou “mutação de substituição do exão 21".
+
+Se TAGRISSO é o primeiro medicamento inibidor da proteína cinase que está a receber, significa 
+que o seu cancro contém defeitos no gene EGFR, por exemplo “deleção do exão 19" ou “mutação
+de substituição do exão 21".
+50
+
+Se o seu cancro progrediu enquanto estava a ser tratado com outros medicamentos inibidores da 
+proteína cinase, significa que o seu cancro contém um defeito genético chamado “T790M". Devido 
+a este defeito, outros medicamentos inibidores da proteína cinase podem não funcionar.
+Se tiver dúvidas acerca da forma como este medicamento funciona ou porque lhe foi receitado este
+medicamento a si, fale com o seu médico.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tagrisso"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tagrisso"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome TAGRISSO se:
+
+tem alergia (hipersensibilidade) ao osimertinib ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).
+
+está a tomar hipericão (Hypericum perforatum).
+Se não tem a certeza fale com o seu médico, farmacêutico ou enfermeiro antes de tomar TAGRISSO.
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar TAGRISSO se:
+
+sofreu de uma inflamação dos seus pulmões (uma condição chamada “doença pulmonar 
+intersticial")
+
+alguma vez já teve problemas cardíacos - o seu médico pode querer monitorizar de perto o seu 
+estado.
+
+se tem histórico de problemas nos olhos.
+Se alguma das situações acima se aplicar a si (ou se não tem a certeza), fale com o seu médico, 
+farmacêutico ou enfermeiro antes de tomar este medicamento.
+Informe o seu médico imediatamente enquanto tomar este medicamento se:
+
+sentir uma súbita dificuldade em respirar acompanhada de tosse ou febre.
+
+a sua pele apresentar descamação grave.
+
+tem batimentos cardíacos rápidos ou irregulares, tonturas, vertigens, desconforto no peito, falta de 
+ar e desmaios. 
+
+tem os olhos húmidos, sensibilidade à luz, dor nos olhos, vermelhidão, ou alterações da visão.
+Para mais informação ver “Efeitos indesejáveis graves" na secção 4. 
+se desenvolver febre persistente, nódoas negras ou hemorragias mais facilmente, cansaço crescente, 
+pele pálida e infeção. Para mais informações ver “Efeitos indesejáveis graves" na secção 4. Crianças e adolescentes
+TAGRISSO não foi estudado em crianças e adolescentes. Não dê este medicamento a crianças e
+adolescentes com menos de 18 anos de idade.
+Outros medicamentos e TAGRISSO
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos. Isto inclui medicamentos à base de plantas e medicamentos obtidos sem receita. 
+Isto porque TAGRISSO pode afetar a forma como alguns medicamentos funcionam. Igualmente alguns 
+outros medicamentos podem afetar a forma como TAGRISSO funciona.
+51
+Informe o seu médico antes de tomar TAGRISSO se estiver a tomar algum dos seguintes 
+medicamentos:
+Os seguintes medicamentos podem reduzir a eficácia de TAGRISSO:
+
+Fenitoína, carbamazepina ou fenobarbital - utilizado para a epilepsia ou convulsões.
+
+Rifabutina ou rifampicina - utilizado para a tuberculose (TB).
+
+Hipericão (Hypericum perforatum) - um medicamento à base de plantas utilizado para a depressão.
+TAGRISSO pode afetar a forma como alguns medicamentos funcionam e/ou aumentar os efeitos 
+indesejáveis destes medicamentos:
+
+Rosuvastatina - utilizada para baixar o colesterol.
+
+Pílula contracetiva hormonal oral - utilizada para prevenir a gravidez.
+
+Bosentano - utilizado na hipertensão arterial pulmonar.
+
+Efavirenz e etravirina - utilizadas para tratar as infeções VIH/SIDA.
+
+Modafinil - utilizada nos distúrbios do sono.
+
+Dabigatrano - utilizado para prevenir coágulos sanguíneos.
+
+Digoxina - utilizado para ritmo cardíaco irregular ou outros problemas cardíacos.
+
+Aliscireno - utilizado para a tensão arterial elevada.
+Se estiver a tomar algum dos medicamentos listados acima, fale com o seu médico antes de tomar 
+TAGRISSO. O seu médico irá falar consigo sobre as opções de tratamento mais adequadas.
+Gravidez - informação para mulheres
+
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico antes de tomar este medicamento. Se ficar grávida durante o tratamento informe o seu 
+médico imediatamente. O seu médico irá decidir consigo se deve continuar a tomar TAGRISSO.
+
+Não deve engravidar enquanto tomar este medicamento. Se pode ficar grávida, deve utilizar 
+contraceção eficaz. Ver abaixo “Contraceção - informação para mulheres e homens".
+
+Se planeia engravidar após tomar a última dose deste medicamento, consulte o seu médico. Isto
+porque algum medicamento poderá estar ainda no seu corpo (ver abaixo aconselhamento sobre 
+contraceção).
+Gravidez - informação para homens
+
+Se a sua companheira ficar grávida enquanto você estiver a tomar este medicamento informe o seu 
+médico imediatamente.
+Contraceção - informação para mulheres e homens
+Durante o tratamento tem que utilizar contraceção eficaz.
+
+TAGRISSO pode interferir com o funcionamento dos contracetivos orais. Aconselhe-se com o seu 
+médico sobre os métodos de contraceção mais adequados.
+
+TAGRISSO pode passar para o sémen. Pelo que é importante que os homens utilizem contraceção 
+eficaz.
+Também tem de fazer o mesmo após completar o tratamento com TAGRISSO:
+
+Mulheres - continuar a utilizar contraceção durante 2 meses após último tratamento.
+
+Homens - continuar a utilizar contraceção durante 4 meses após último tratamento.
+Amamentação
+Enquanto tomar este medicamento não amamente. Isto porque não é conhecido se existe risco para o seu
+bebé.
+52
+Condução de veículos e utilização de máquinas
+Os efeitos de TAGRISSO sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis.
+TAGRISSO contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tagrisso"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tagrisso"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.
+Quanto tomar
+
+A dose recomendada é de um comprimido de 80 mg por dia
+
+Se necessário, o seu médico pode reduzir a sua dose para um comprimido de 40 mg por dia.
+Como tomar
+
+TAGRISSO é tomado oralmente. Engula o comprimido inteiro com água. O comprimido não deve 
+ser esmagado, partido ou mastigado.
+
+Tome TAGRISSO todos os dias à mesma hora.
+
+Pode tomar este medicamento com ou sem alimentos.
+Se tiver dificuldade em engolir o comprimido, misture-o em água:
+
+Coloque o comprimido num copo.
+
+Adicione 50 ml (cerca de dois terços de um copo de vidro) de água não gaseificada - não utilize
+quaisquer outros líquidos.
+
+Agite a água até que o comprimido esteja desfeito em pedaços muito pequenos - o comprimido não 
+irá dissolver completamente.
+
+Beba o líquido imediatamente
+
+Para garantir que bebeu todo o medicamento, volte a encher cuidadosamente o copo com 50 ml de 
+água e beba novamente.
+Se tomar mais TAGRISSO do que deveria
+Se tomou mais comprimidos do que deveria, contacte imediatamente o seu médico ou o hospital mais 
+próximo.
+Caso se tenha esquecido de tomar TAGRISSO
+Se se esqueceu de tomar uma dose tome-a assim que se lembrar. Contudo se faltarem menos de 12 horas 
+para a próxima dose, não tome a dose que se esqueceu. Tome a sua próxima dose à hora habitual.
+Se parar de tomar TAGRISSO
+Não pare de tomar este medicamento - fale com o seu médico primeiro. É importante que tome este 
+comprimido todos os dias, enquanto o seu médico o receitar para si.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou 
+enfermeiro.
+53</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Efeitos indesejáveis graves
+Informe o seu médico imediatamente se notar os seguintes efeitos indesejáveis graves (ver também 
+secção 2.):
+
+Súbita dificuldade em respirar acompanhada de tosse ou febre - isto pode ser um sinal de
+inflamação dos pulmões (uma condição chamada “doença pulmonar intersticial"). A maioria dos
+casos pode ser tratada mas alguns casos foram fatais. O seu médico pode querer interromper
+TAGRISSO se tiver este efeito indesejável. Este efeito indesejável é frequente: pode afetar até 1 em 
+10 pessoas.
+
+Síndrome de Stevens-Johnson e necrólise epidérmica tóxica, que pode aparecer no tronco na forma 
+de manchas avermelhadas tipo-alvo ou manchas circulares, geralmente com bolhas centrais, 
+descamação da pele, úlceras na boca, garganta, nariz, genitais e olhos e pode ser precedido por febre 
+e sintomas semelhantes aos da gripe. O síndrome de Stevens-Johnson é raro: pode afetar até 1 em 
+1000 pessoas. A frequência de necrólise epidérmica tóxica não pode ser determinada, pois os casos 
+apenas foram notificados desde a comercialização de TAGRISSO.
+
+Alterações na atividade elétrica do coração (prolongamento QTc), como batimentos cardíacos 
+rápidos ou irregulares, tonturas, vertigens, desconforto no peito, falta de ar e desmaios. Este efeito 
+indesejável é pouco frequente: pode afetar até 1 em cada 100 pessoas.
+
+Se começar a sentir os olhos húmidos, sensibilidade à luz, dor nos olhos, vermelhidão, ou alterações 
+da visão. Este efeito indesejável é pouco frequente: pode afetar até 1 em 100 pessoas.
+
+Uma doença do sangue chamada anemia aplástica, em que a medula óssea deixa de produzir novas 
+células sanguíneas - os sinais sugestivos desta doença do sangue podem incluir febre persistente, 
+nódoas negras ou hemorragias mais facilmente, aumento do cansaço e uma diminuição da sua 
+capacidade para combater infeções. Este efeito indesejável é raro: pode afetar até 1 em 
+1000 pessoas.
+
+Uma condição em que o coração ao bater não bombeia sangue suficiente para fora do coração tão
+bem quanto deveria, o que pode resultar em falta de ar, cansaço e inchaço do tornozelo (sugerindo
+insuficiência cardíaca ou fração de ejeção do ventrículo esquerdo diminuída).
+Informe o seu médico imediatamente se notar os efeitos indesejáveis graves mencionados acima.
+Outros efeitos indesejáveis
+Muito frequentes (podem afetar mais de 1 em cada 10 pessoas)
+
+Diarreia - que pode aparecer e desaparecer durante o tratamento. Informe o seu médico se a sua 
+diarreia não desaparecer ou se se tornar mais grave.
+
+Problemas na pele e unhas. Os sinais podem incluir dor, comichão, pele seca, erupção na pele e 
+vermelhidão à volta das unhas. Isto é mais provável em áreas expostas ao sol. Utilizar regularmente 
+hidratantes na sua pele e unhas pode ajudar. Informe o seu médico se os problemas na pele e nas 
+unhas se agravarem.
+
+Estomatite - inflamação do revestimento interno da boca ou úlceras que se formam na boca.
+
+Perda de apetite.
+
+Redução do número de glóbulos brancos (leucócitos, linfócitos ou neutrófilos).
+
+Redução do número de plaquetas no sangue.
+Frequentes (podem afetar até 1 em cada 10 pessoas)
+
+Hemorragia nasal (epistaxe).
+
+Perda de cabelo (alopécia).
+54
+
+Comichão (urticária) - prurido, manchas com relevo em qualquer lugar da pele, que podem ser
+cor-de-rosa ou vermelhas e de forma redonda. Informe o seu médico se notar este efeito indesejável.
+
+Síndrome mão-pé - pode incluir vermelhidão, inchaço, formigueiro ou sensação de ardor com 
+fendas na pele nas palmas das mãos e/ou plantas dos pés.
+
+Aumento de uma substância no sangue chamada creatinina (produzida pelo seu corpo e removida 
+pelo rim).
+
+Aumento de uma substância no sangue chamada creatina fosfocinase (uma enzima que é libertada
+no sangue quando o músculo é danificado).
+Pouco frequentes (podem afetar até 1 em 100 pessoas)
+
+Pele acinzentada ou escurecida (hiperpigmentação).
+
+Lesões alvo, que são reações na pele que parecem anéis (sugestivas de Eritema multiforme).
+
+Inflamação dos vasos sangíneos da pele. Isto pode dar a aparência de hematomas ou vermelhidão da
+pele que não perde a cor de cor quando pressionadas.
+Raros (podem afetar até 1 em 1000 pessoas)
+
+Inflamação do músculo que pode resultar em dor ou fraqueza muscular
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tagrisso"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tagrisso"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, após
+EXP. O prazo de validade corresponde ao último dia do mês indicado.
+Este medicamento não requer condições especiais de conservação.
+Não utilize este medicamento se a embalagem estiver danificada ou apresentar sinais de deterioração.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de TAGRISSO
+
+A substância ativa é mesilato de osimertinib. Cada comprimido revestido por película de 40 mg
+contém 40 mg de osimertinib. Cada comprimido revestido por película de 80 mg contém 80 mg de 
+osimertinib.
+
+Os outros componentes são manitol, celulose microcristalina, hidroxipropilcelulose de baixa 
+substituição, estearilfumarato de sódio, álcool polivinílico, dióxido de titânio, macrogol 3350, talco, 
+óxido de ferro amarelo, óxido de ferro vermelho, óxido de ferro preto (ver secção 2 “TAGRISSO 
+contém sódio").
+5</p>         </div>"""      
+
+
+
 
 
                     
@@ -937,6 +1331,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d7f220f9031e8b4b6b6e866b11abbe3a"
 * entry[0].resource = composition-da-d7f220f9031e8b4b6b6e866b11abbe3a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd7f220f9031e8b4b6b6e866b11abbe3a"
+* entry[=].resource = mpd7f220f9031e8b4b6b6e866b11abbe3a
+                            
+                    
+Instance: bundlepackageleaflet-pt-d7f220f9031e8b4b6b6e866b11abbe3a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tagrisso Package Leaflet for language pt"
+Description: "ePI document Bundle for tagrisso Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d7f220f9031e8b4b6b6e866b11abbe3a"
+* entry[0].resource = composition-pt-d7f220f9031e8b4b6b6e866b11abbe3a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd7f220f9031e8b4b6b6e866b11abbe3a"
@@ -1038,6 +1454,18 @@ RuleSet: d7f220f9031e8b4b6b6e866b11abbe3aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d7f220f9031e8b4b6b6e866b11abbe3a) // tagrisso pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

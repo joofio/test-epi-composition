@@ -1007,6 +1007,576 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-21bdef881af840c0b4e754d37782a5bd
+InstanceOf: CompositionUvEpi
+Title: "Composition for adrovance Package Leaflet"
+Description:  "Composition for adrovance Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp21bdef881af840c0b4e754d37782a5bd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - adrovance"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é ADROVANCE e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar ADROVANCE </li>
+<li>Como tomar ADROVANCE </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar ADROVANCE </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é adrovance e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é adrovance e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é o ADROVANCE? 
+O ADROVANCE é um comprimido que contém duas substâncias ativas, ácido alendrónico 
+(frequentemente chamado alendronato) e colecalciferol conhecido por vitamina D</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar adrovance"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar adrovance"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O alendronato pertence a um grupo de medicamentos não-hormonais chamados bifosfonatos. O 
+alendronato previne a perda de massa óssea que ocorre nas mulheres após a menopausa e ajuda a 
+reconstruir o osso. Reduz o risco de fraturas da coluna vertebral e da anca. </p>
+<p>O que é a vitamina D? 
+A vitamina D é um nutriente essencial, necessário para a absorção do cálcio e para a saúde dos ossos. 
+O organismo só pode absorver adequadamente o cálcio dos alimentos, caso estes contenham 
+quantidade suficiente de vitamina D. Muito poucos alimentos contêm vitamina D. A principal fonte é 
+através da exposição à luz solar, que provoca a formação de vitamina D na pele. À medida que 
+envelhecemos, a nossa pele produz menos vitamina D. Uma pequena quantidade de vitamina D pode 
+levar à perda de massa óssea e a osteoporose. A carência grave em vitamina D pode causar fraqueza 
+muscular, que pode provocar quedas e aumentar o risco de fraturas. </p>
+<p>Para que é utilizado ADROVANCE? 
+O seu médico receitou-lhe ADROVANCE para tratar a sua osteoporose e porque está em risco de 
+insuficiência em vitamina D. Reduz o risco de ocorrerem fraturas vertebrais e da anca em mulheres 
+após a menopausa. </p>
+<p>O que é a osteoporose? 
+A osteoporose é a transformação do osso normal em osso rendilhado e enfraquecido. A osteoporose é 
+frequente nas mulheres após a menopausa. Na menopausa, os ovários deixam de produzir a hormona 
+feminina, estrogénio, que ajuda a manter saudável o esqueleto da mulher. Isto resulta na perda de 
+massa óssea, o que torna os ossos mais fracos. Quanto mais cedo a mulher atingir a menopausa, maior 
+é o risco de osteoporose. </p>
+<p>De início, a osteoporose não dá sintomas, mas se não for tratada podem ocorrer fraturas dos ossos. 
+Embora as fraturas geralmente causem dor, se ocorrerem nos ossos da coluna vertebral (vértebras), 
+podem passar despercebidas até causarem perda da altura da doente. As fraturas podem ocorrer 
+durante a atividade diária normal, por exemplo, ao levantar um peso, ou podem resultar de uma 
+pequena pancada ou queda, que em situação normal não provocaria qualquer fratura. Normalmente, as 
+fraturas ocorrem na anca, na coluna vertebral (vértebras) ou no punho, e podem não só provocar dor, 
+como também ser responsáveis por consideráveis problemas (por exemplo, corcunda provocada pela 
+curvatura da coluna vertebral) e dificuldade de movimentação. </p>
+<p>Como pode a osteoporose ser tratada? 
+Adicionalmente ao seu tratamento com ADROVANCE, o seu médico poderá aconselhar-lhe algumas 
+alterações no seu estilo de vida, tais como: </p>
+<p>Parar de fumar 
+O tabaco parece aumentar o índice de perda de massa óssea e, 
+portanto, pode aumentar os riscos de fratura dos ossos. </p>
+<p>Exercício físico 
+Tal como os músculos, os ossos também precisam de exercício para se 
+manterem fortes e saudáveis. Peça conselho ao seu médico antes de 
+iniciar o exercício. </p>
+<p>Fazer uma dieta equilibrada 
+O seu médico aconselhá-la-á a escolher uma alimentação adequada ou 
+a tomar suplementos dietéticos. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar adrovance"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar adrovance"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome ADROVANCE </p>
+<ul>
+<li>
+<p>se tem alergia ao ácido alendrónico, ao colecalciferol ou a qualquer outro componente deste 
+medicamento (indicados na secção 6), </p>
+</li>
+<li>
+<p>se tem certos problemas no esófago (o canal que liga a boca ao estômago) tais como 
+estreitamento ou dificuldade em engolir, </p>
+</li>
+<li>
+<p>se não for capaz de se manter na posição vertical ou sentada durante pelo menos 30 minutos, </p>
+</li>
+<li>
+<p>se o seu médico lhe detetou recentemente um valor baixo de cálcio no sangue (hipocalcemia). </p>
+</li>
+</ul>
+<p>Se pensa que alguma destas situações se aplica si, não tome estes comprimidos. Contacte primeiro o 
+seu médico e siga as instruções que ele lhe der. </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar ADROVANCE se: </p>
+<ul>
+<li>
+<p>sofre de doença dos rins, </p>
+</li>
+<li>
+<p>tem, ou teve recentemente, dificuldades em engolir ou de digestão, </p>
+</li>
+<li>
+<p>o seu médico lhe disse que tem esófago de Barrett (uma situação associada a alterações nas 
+células do esófago inferior), </p>
+</li>
+<li>
+<p>lhe foi dito que tem dificuldades na absorção de minerais no seu estômago ou intestinos 
+(síndrome de mal-absorção),  </p>
+</li>
+<li>
+<p>tem má saúde oral, doença nas gengivas, planeou uma extração dentária ou não recebe cuidados 
+dentários regularmente, </p>
+</li>
+<li>
+<p>tem doença cancerígena, </p>
+</li>
+<li>
+<p>está a fazer quimioterapia ou radioterapia, </p>
+</li>
+<li>
+<p>está a tomar inibidores de angiogénese (tais como bevacizumab ou talidomida) que são usados 
+no tratamento do cancro, </p>
+</li>
+<li>
+<p>está a tomar corticosteroides (tais como prednisona ou dexametasona) que são usados no 
+tratamento de doenças como asma, artrite reumatoide e alergias graves, </p>
+</li>
+<li>
+<p>é ou foi fumadora (o que pode aumentar o risco de problemas dentários). </p>
+</li>
+</ul>
+<p>Pode ser aconselhada a fazer uma verificação dentária antes de iniciar o tratamento com 
+ADROVANCE. </p>
+<p>É importante manter uma boa higiene oral quando está em tratamento com ADROVANCE. Deve fazer 
+verificações dentárias de rotina durante o tratamento e consultar o seu médico ou dentista se apresentar 
+qualquer problema na boca ou dentes tais como perda de dentes, dor ou inchaço. </p>
+<p>Podem ocorrer irritação, inflamação ou ulceração do esófago (o canal que liga a boca ao estômago), 
+habitualmente com sintomas de dor no peito, azia, dificuldade ou dor ao engolir, especialmente se as 
+doentes não beberem um copo cheio de água e/ou se se deitarem antes de 30 minutos após tomarem 
+ADROVANCE. Estes efeitos indesejáveis podem agravar-se se as doentes continuarem a tomar 
+ADROVANCE após desenvolverem estes sintomas. </p>
+<p>Crianças e adolescentes 
+ADROVANCE não deve ser dado a crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e ADROVANCE 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>É provável que os suplementos de cálcio, os antiácidos e alguns medicamentos que toma por via oral, 
+possam interferir com a absorção do ADROVANCE, se tomados ao mesmo tempo. Assim, é 
+importante que cumpra as recomendações da secção 3 e espere pelo menos 30 minutos antes de tomar 
+quaisquer outros medicamentos ou suplementos orais. </p>
+<p>Alguns medicamentos para o reumatismo ou para a dor de longa duração chamados AINEs (por 
+exemplo, ácido acetilsalicílico ou ibuprofeno) podem causar problemas digestivos. Por isso, deve ser 
+utilizada precaução quando estes medicamentos são tomados ao mesmo tempo do ADROVANCE. </p>
+<p>É provável que alguns medicamentos ou aditivos alimentares possam evitar que a vitamina D do 
+ADROVANCE seja absorvida pelo seu organismo, incluindo os substitutos artificiais da gordura, os 
+óleos minerais, o medicamento para a perda de peso orlistato e os medicamentos para baixar o 
+colesterol, a colestiramina e o colestipol. Os medicamentos para tratamento da epilepsia (convulsões) 
+(tais como fenitoína ou fenobarbital) podem diminuir a eficácia da vitamina D. Suplementos de 
+vitamina D adicionais podem ser considerados de acordo com a avaliação individual de cada caso. </p>
+<p>ADROVANCE com alimentos e bebidas 
+É provável que os alimentos e as bebidas (incluindo água mineral) tornem o ADROVANCE menos 
+eficaz se tomados ao mesmo tempo. Assim, é importante que cumpra as recomendações da secção 3. Deve esperar pelo menos 30 minutos antes de tomar qualquer alimento e bebida com exceção da água. </p>
+<p>Gravidez e amamentação 
+O ADROVANCE está indicado apenas em mulheres pós-menopáusicas. Não deve tomar 
+ADROVANCE se está ou suspeita que pode estar grávida, ou se está a amamentar.  </p>
+<p>Condução de veículos e utilização de máquinas 
+Foram comunicados efeitos indesejáveis (como visão turva, tonturas e dor óssea, muscular ou das 
+articulações grave) com ADROVANCE que podem afetar a sua capacidade para conduzir ou utilizar 
+máquinas. (ver secção 4). Se tiver alguns destes efeitos indesejáveis não deve conduzir até se sentir 
+melhor. </p>
+<p>ADROVANCE contém lactose e sacarose. 
+Se lhe foi dito pelo médico que tem uma intolerância a alguns açúcares, contacte o seu médico antes 
+de tomar este medicamento. </p>
+<p>ADROVANCE contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome ADROVANCE exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Tome ADROVANCE uma vez por semana. </p>
+<p>Siga estas instruções cuidadosamente. </p>
+<p>1) 
+Escolha o dia da semana que melhor se adapte à sua rotina diária. Todas as semanas, tome um 
+comprimido de ADROVANCE no dia escolhido por si. </p>
+<p>É muito importante que siga os passos 2), 3), 4) e 5) para ajudar o comprimido de ADROVANCE a 
+chegar rapidamente ao estômago e assim diminuir a possibilidade de irritação do esófago (o canal que 
+liga a boca ao estômago). </p>
+<p>2) 
+Após se levantar de manhã, e antes de tomar a sua primeira refeição, bebida ou outra 
+medicação, engula inteiro o comprimido de ADROVANCE com um copo cheio (pelo menos 
+200 ml) de água (não mineral), de modo a que ADROVANCE seja absorvido adequadamente. </p>
+<ul>
+<li>
+<p>Não tome com águas minerais ou gaseificadas. </p>
+</li>
+<li>
+<p>Não tome com café nem com chá. </p>
+</li>
+<li>
+<p>Não tome com sumos ou com leite. </p>
+</li>
+</ul>
+<p>Não parta ou mastigue nem deixe que o comprimido se dissolva na boca devido à possibilidade de 
+ulceração na boca. </p>
+<p>3) 
+Após engolir o comprimido de ADROVANCE não se deite - permaneça totalmente na posição 
+vertical (sentada, em pé ou a caminhar) durante pelo menos 30 minutos. Não se deite até tomar 
+a primeira refeição do dia.  </p>
+<p>4) 
+Não tome ADROVANCE ao deitar nem antes de se levantar. </p>
+<p>5) 
+Caso sinta dificuldade ou dor ao engolir, dor no peito, ou novos sintomas de azia ou 
+agravamento destes, pare de tomar ADROVANCE e consulte o seu médico. </p>
+<p>6) 
+Após engolir o comprimido de ADROVANCE, espere pelo menos 30 minutos antes de tomar a 
+primeira refeição, beber, ou tomar outra medicação diária, incluindo medicamentos antiácidos, 
+suplementos de cálcio e vitaminas. ADROVANCE só é eficaz quando tomado em jejum. </p>
+<p>Se tomar mais ADROVANCE do que deveria 
+Se tomar comprimidos a mais por engano, beba um copo cheio de leite e contacte o seu médico 
+imediatamente. Não induza o vómito e não se deite. </p>
+<p>Caso se tenha esquecido de tomar ADROVANCE 
+Se se esquecer de tomar uma dose, tome um comprimido de ADROVANCE na manhã seguinte ao dia 
+em que se recordar. Não tome dois comprimidos no mesmo dia. Volte a tomar um comprimido 
+semanal, no dia escolhido, conforme previamente planeado. </p>
+<p>Se parar de tomar ADROVANCE 
+É importante que tome ADROVANCE durante o tempo recomendado pelo seu médico. Uma vez que 
+não é conhecido por quanto tempo deverá tomar ADROVANCE, deverá falar com o seu médico 
+periodicamente acerca da necessidade de continuar a tomar este medicamento, de modo a determinar 
+se o ADROVANCE continua a ser o medicamento indicado para si. </p>
+<p>Dentro da embalagem de ADROVANCE está incluído um Cartão de Instruções. Este cartão contém 
+informação importante que o lembra como tomar ADROVANCE de forma correta.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>
+<ol>
+<li>Efeitos indesejáveis possíveis  </li>
+</ol>
+<p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Consulte o seu médico imediatamente se notar algum dos seguintes efeitos indesejáveis, que podem 
+ser graves e para os quais pode necessitar de tratamento médico urgente: 
+Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>azia; dificuldade em engolir; dor ao engolir; úlceras no esófago (canal que liga a boca ao 
+estômago) que pode causar dor no peito, azia ou dificuldade ou dor ao engolir. </li>
+</ul>
+<p>Raros (podem afetar até 1 em 1.000 pessoas): </p>
+<ul>
+<li>
+<p>reações alérgicas tais como urticária; inchaço da face, lábios, língua e/ou garganta, com 
+possibilidade de causarem dificuldade a respirar ou a engolir; reações graves na pele, </p>
+</li>
+<li>
+<p>dor na boca e/ou no maxilar, inchaço ou feridas no interior da boca, adormecimento ou sensação 
+de peso no maxilar, ou perda de um dente. Estes podem ser sinais de danos no osso do maxilar 
+(osteonecrose) geralmente associados a atrasos na cicatrização e infeções, habitualmente após 
+extração de dentes. Contacte o seu médico e dentista se apresentar estes sintomas, </p>
+</li>
+<li>
+<p>fratura atípica do osso da coxa, que pode ocorrer raramente, especialmente em doentes em 
+tratamento prolongado para a osteoporose. Informe o seu médico se sentir dor, fraqueza ou 
+desconforto na sua anca, coxa ou virilha, uma vez que pode ser uma indicação precoce de uma 
+possível fratura do osso da coxa. </p>
+</li>
+<li>
+<p>dores ósseas, musculares e/ou nas articulações, as quais são graves. </p>
+</li>
+</ul>
+<p>Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis): </p>
+<ul>
+<li>fratura invulgar noutros locais que não o osso da coxa. </li>
+</ul>
+<p>Outros efeitos indesejáveis incluem 
+Muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>dores ósseas, musculares e/ou nas articulações que são por vezes graves. </li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>inchaço nas articulações, </p>
+</li>
+<li>
+<p>dor abdominal; sensação de desconforto no estômago ou arroto após as refeições; prisão de 
+ventre; sensação de inchaço ou enfartamento no estômago; diarreia; gases intestinais, </p>
+</li>
+<li>
+<p>perda de cabelo; comichão, </p>
+</li>
+<li>
+<p>dor de cabeça; tonturas, </p>
+</li>
+<li>
+<p>cansaço; inchaço nas mãos ou pernas. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>náuseas; vómitos, </p>
+</li>
+<li>
+<p>irritação ou inflamação do esófago (canal que liga a boca ao estômago) ou do estômago, </p>
+</li>
+<li>
+<p>fezes escuras, </p>
+</li>
+<li>
+<p>visão turva; dor ou vermelhidão no olho, </p>
+</li>
+<li>
+<p>erupções da pele; vermelhidão da pele, </p>
+</li>
+<li>
+<p>sintomas transitórios semelhantes a gripe, tais como músculos doridos, mal-estar geral e por 
+vezes febre, habitualmente no início do tratamento, </p>
+</li>
+<li>
+<p>distúrbio no paladar. </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1.000 pessoas): </p>
+<ul>
+<li>
+<p>sintomas de níveis baixos de cálcio no sangue, incluindo cãibras ou espasmos musculares e/ou 
+sensação de formigueiro nos dedos ou à volta da boca, </p>
+</li>
+<li>
+<p>úlceras estomacais ou pépticas (por vezes graves, com sangramento), </p>
+</li>
+<li>
+<p>estreitamento do esófago (canal que liga a boca ao estômago), </p>
+</li>
+<li>
+<p>erupções na pele que se agravam com a luz solar, </p>
+</li>
+<li>
+<p>úlceras na boca. </p>
+</li>
+</ul>
+<p>Muito raros (podem afetar até 1 em 10.000 pessoas): </p>
+<ul>
+<li>fale com o seu médico se tiver dor de ouvido, corrimento do ouvido e/ou uma infeção do 
+ouvido. Estes podem ser sinais de lesões ósseas no ouvido.  </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar adrovance"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar adrovance"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no blister de origem para proteger da humidade e da luz. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de ADROVANCE </p>
+<p>As substâncias ativas são o ácido alendrónico e o colecalciferol (vitamina D3). Cada comprimido de 
+ADROVANCE 70 mg/2.800 UI contém 70 mg de ácido alendrónico (na forma de sódio tri-hidratado) 
+e 70 microgramas (2.800 UI) de colecalciferol (vitamina D3). Cada comprimido de ADROVANCE 
+70 mg/5.600 UI contém 70 mg de ácido alendrónico (na forma de sódio tri-hidratado) e 
+140 microgramas (5.600 UI) de colecalciferol (vitamina D3). </p>
+<p>Os outros componentes são celulose microcristalina (E460), lactose anidra (ver secção 2), triglicéridos 
+de cadeia média, gelatina, croscarmelose sódica, sacarose (ver secção 2), dióxido de sílica coloidal, 
+estearato de magnésio (E572), butil-hidroxitolueno (E321), amido modificado (milho) e silicato de 
+sódio e alumínio (E554). </p>
+<p>Qual o aspeto de ADROVANCE e conteúdo da embalagem </p>
+<p>Os comprimidos de ADROVANCE 70 mg/2.800 UI encontram-se disponíveis como comprimidos 
+brancos a esbranquiçados, em forma de cápsula modificada, com a gravação do contorno da imagem 
+de um osso numa face e “710" na outra. ADROVANCE 70 mg/2.800 UI comprimidos está disponível 
+em embalagens contendo 2, 4, 6 ou 12 comprimidos. </p>
+<p>Os comprimidos de ADROVANCE 70 mg/5.600 UI encontram-se disponíveis como comprimidos 
+brancos a esbranquiçados, em forma de retângulo modificado, com a gravação do contorno da imagem 
+de um osso numa face e “270" na outra. ADROVANCE 70 mg/5.600 UI comprimidos está disponível 
+em embalagens contendo 2, 4 ou 12 comprimidos. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no 
+Mercado 
+N.V. Organon 
+Kloosterstraat 6 
+5349 AB Oss 
+Países Baixos 
+Fabricante 
+Merck Sharp &amp; Dohme B.V. 
+Waarderweg 2031 BN Haarlem 
+Países Baixos </p>
+<p>Organon Heist bv 
+Industriepark 2220 Heist-op-den-Berg 
+Bélgica </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/ Belgique/Belgien 
+Organon Belgium 
+Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+dpoc.benelux@organon.com </p>
+<p>Lietuva 
+Organon Pharma B.V. Lithuania 
+atstovybėTel.: +370 52041dpoc.lithuania@organon.com </p>
+<p>България 
+Органон (И.А.) Б.В. - клон България 
+Тел.: +359 2 806 3dpoc.bulgaria@organon.com 
+Luxembourg/Luxemburg 
+Organon Belgium 
+Tél/Tel: 0080066550123 (+32 2 
+2418100)<br />
+dpoc.benelux@organon.com </p>
+<p>Česká republika 
+Organon Czech Republic s.r.o. 
+Tel: +420 233 010 dpoc.czech@organon.com </p>
+<p>Magyarország 
+Organon Hungary Kft. 
+Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
+<p>Danmark 
+Organon Denmark ApS<br />
+Tlf: +45 4484 6info.denmark@organon.com 
+Malta 
+Organon Pharma B.V., Cyprus branch 
+Tel: +356 2277 8dpoc.cyprus@organon.com </p>
+<p>Deutschland 
+Organon Healthcare GmbH 
+Tel.: 0800 3384 726 (+49 (0) 89 2040022 10) 
+dpoc.germany@organon.com </p>
+<p>Nederland<br />
+N.V. Organon 
+Tel.: 0800 66550123<br />
+(+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Eesti 
+Organon Pharma B.V. Estonian RO 
+Tel: +372 66 61 dpoc.estonia@organon.com </p>
+<p>Norge 
+Organon Norway AS 
+Tlf: +47 24 14 56 info.norway@organon.com </p>
+<p>Eλλάδα 
+N.V. Organon 
+Τηλ: +30-216 6008 
+Österreich 
+Organon Healthcare GmbH<br />
+Tel: +49 (0) 89 2040022 dpoc.austria@organon.com </p>
+<p>España 
+Organon Salud, S.L. 
+Tel: +34 91 591 12 organon_info@organon.com </p>
+<p>Polska 
+Organon Polska Sp. z o.o. 
+Tel.: +48 22 105 50 organonpolska@organon.com </p>
+<p>France 
+Organon France<br />
+Tél: +33 (0) 1 57 77 32  </p>
+<p>Portugal 
+Organon Portugal, Sociedade Unipessoal 
+Lda. 
+Tel: +351 218705geral_pt@organon.com </p>
+<p>Hrvatska 
+Organon Pharma d.o.o. 
+Tel: +385 1 638 4dpoc.croatia@organon.com </p>
+<p>România 
+Organon Biosciences S.R.L. 
+Tel: +40 21 527 29 dpoc.romania@organon.com </p>
+<p>Ireland 
+Organon Pharma (Ireland) Limited 
+ Tel: +353 15828medinfo.ROI@organon.com </p>
+<p>Slovenija 
+Organon Pharma B.V., Oss, podružnica 
+Ljubljana 
+Tel: +386 1 300 10 dpoc.slovenia@organon.com  </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Organon Slovakia s. r. o. 
+Tel: +421 2 44 88 98 dpoc.slovakia@organon.com </p>
+<p>Ιtalia 
+Addenda Pharma S.r.l.,<br />
+Tel: +39-06-9139 3addendapharma@legalmail.it 
+Suomi/Finland 
+Organon Finland Oy 
+Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
+<p>Κύπρος 
+Organon Pharma B.V., Cyprus branch 
+Τηλ: +357 22866dpoc.cyprus@organon.com </p>
+<p>Sverige 
+Organon Sweden AB 
+Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
+<p>Latvija 
+Ārvalsts komersanta “Organon Pharma B.V." 
+pārstāvniecība 
+Tel: +371 66968dpoc.latvia@organon.com </p>
+<p>United Kingdom (Northern Ireland) 
+Organon Pharma (UK) Limited<br />
+Tel: +44 (0) 208 159 3593<br />
+medicalinformationuk@organon.com </p>
+<p>Este folheto foi revisto pela última vez em . </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1048,6 +1618,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-21bdef881af840c0b4e754d37782a5bd"
 * entry[0].resource = composition-da-21bdef881af840c0b4e754d37782a5bd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp21bdef881af840c0b4e754d37782a5bd"
+* entry[=].resource = mp21bdef881af840c0b4e754d37782a5bd
+                            
+                    
+Instance: bundlepackageleaflet-pt-21bdef881af840c0b4e754d37782a5bd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adrovance Package Leaflet for language pt"
+Description: "ePI document Bundle for adrovance Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-21bdef881af840c0b4e754d37782a5bd"
+* entry[0].resource = composition-pt-21bdef881af840c0b4e754d37782a5bd
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp21bdef881af840c0b4e754d37782a5bd"
@@ -1149,6 +1741,18 @@ RuleSet: 21bdef881af840c0b4e754d37782a5bdListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-21bdef881af840c0b4e754d37782a5bd) // adrovance pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

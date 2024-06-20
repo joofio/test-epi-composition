@@ -716,6 +716,391 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-ded378039327f28c36307d251503f7d3
+InstanceOf: CompositionUvEpi
+Title: "Composition for izba Package Leaflet"
+Description:  "Composition for izba Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpded378039327f28c36307d251503f7d3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - izba"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é IZBA e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar IZBA </li>
+<li>Como utilizar IZBA </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar IZBA </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é izba e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é izba e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IZBA contém travoprost, que pertence a um grupo de medicamentos, chamados análogos das 
+prostaglandinas. 
+IZBA é usado para reduzir a pressão elevada do olho em adultos, adolescentes e crianças de 
+3 anos em diante. Esta pressão pode provocar uma doença chamada glaucoma. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar izba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar izba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize IZBA: 
+ 
+se tem alergia ao travoprost ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Consulte o seu médico se isto se aplicar a si. </p>
+<p>Advertências e precauções </p>
+<p> 
+IZBA pode aumentar o comprimento, espessura, cor e/ou número das suas pestanas. Foram 
+igualmente observadas alterações nas pálpebras incluindo o crescimento anormal de pelos ou 
+nos tecidos em torno do olho. </p>
+<p> 
+IZBA pode alterar gradualmente a cor da sua íris (parte colorida do seu olho). Esta alteração 
+pode ser permanente. </p>
+<p> 
+Fale com o seu médico no caso de ter sofrido uma cirurgia a uma catarata, antes de usar IZBA. 
+IZBA pode aumentar o risco de inflamação da parte de trás do olho. </p>
+<p> 
+Se tiver o olho inflamado ou história prévia de inflamação nos olhos (irite ou uveíte), fale com o 
+seu médico antes de usar IZBA. A inflamação nos olhos é um possível efeito secundário que 
+pode estar associado à utilização de análogos da prostaglandina, tal como IZBA. </p>
+<p> 
+O travoprost pode ser absorvido através da pele. Se alguma porção do medicamento entrar 
+em contacto com a pele, deverá ser lavado de imediato. Isto é especialmente importante em 
+mulheres grávidas ou que planeiam engravidar. </p>
+<p> 
+Caso use lentes de contacto hidrófilas não aplique o colírio com as lentes colocadas. Após a 
+utilização do colírio, aguarde 15 minutos até voltar a colocar as lentes. </p>
+<p>Fale com o seu médico ou farmacêutico antes de utilizar IZBA. </p>
+<p>Crianças e adolescentes 
+A utilização de IZBA não é recomendada a crianças com menos de 3 anos. A segurança e eficácia de 
+travoprost não foram estabelecidas neste grupo etário.  </p>
+<p>Outros medicamentos e IZBA 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. </p>
+<p>Gravidez e amamentação 
+Não utilize IZBA se estiver grávida. Os efeitos deste medicamento em mulheres grávidas não são 
+conhecidos. Se pensa que pode estar grávida, informe o seu médico imediatamente. Se houver 
+possibilidade de engravidar, deve utilizar contraceção adequada enquanto utiliza o IZBA. </p>
+<p>Não utilize IZBA se estiver a amamentar. IZBA pode passar para o seu leite. </p>
+<p>Condução de veículos e utilização de máquinas 
+Poderá sentir uma turvação da visão durante algum tempo imediatamente após a utilização de IZBA. 
+Não conduza nem utilize máquinas até que a mesma tenha desaparecido. </p>
+<p>IZBA contém óleo de rícino hidrogenado e propilenoglicol, que podem causar reações e irritação na 
+pele. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar izba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar izba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou pelo médico que segue a sua 
+criança. Fale com o seu médico, o médico que segue a sua criança ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é </p>
+<p>Uma gota no olho ou olhos afetados, uma vez por dia, à noite. 
+Utilize apenas o IZBA em ambos os olhos por indicação do seu médico. Utilize-o no espaço de tempo 
+indicado pelo seu médico ou pelo médico que segue a sua criança. 
+IZBA pode ser utilizado em crianças de 3 anos a &lt;18 anos, na mesma dose que para os adultos. </p>
+<p>IZBA só deve ser utilizado como colírio. </p>
+<p>1 
+2 
+3 
+4 </p>
+<p> 
+Imediatamente antes de utilizar um frasco pela primeira vez, abra o invólucro protetor, retire o 
+frasco do seu interior (figura 1) e escreva a data de abertura no espaço indicado na embalagem. 
+ 
+Lave as suas mãos. 
+ 
+Rode a tampa para a retirar. 
+ 
+Segure no frasco com o aplicador virado para baixo, entre o seu polegar e os outros dedos. 
+ 
+Incline a sua cabeça, ou da sua criança, gentilmente para trás. Puxe para baixo a pálpebra com 
+um dedo limpo, até se formar uma ‘bolsa’ entre a pálpebra e o seu olho. A gota deverá ser aqui 
+colocada (figura 2). 
+ 
+Coloque a extremidade do frasco perto do olho. Utilize um espelho caso sinta que este pode ser 
+útil. 
+ 
+Não toque com o aplicador no olho ou na pálpebra, zonas circundantes ou outras 
+superfícies. Poderá contaminar as gotas. 
+ 
+Aperte suavemente o frasco até à saída de uma gota de IZBA de uma só vez (figura 3). 
+ 
+Após usar IZBA, mantenha a pálpebra fechada, pressione suavemente o canto do olho, junto ao 
+nariz, com o dedo (figura 4) por pelo menos 1 minuto. Isto ajuda o IZBA a não se espalhar para 
+o resto do corpo. 
+ 
+Caso tenha de aplicar as gotas em ambos os olhos, repita os passos para o outro olho. 
+ 
+Feche bem o frasco imediatamente após a sua utilização. 
+ 
+Utilize apenas um frasco de cada vez. Não abra o invólucro senão quando necessitar de utilizar 
+o frasco. </p>
+<p>Caso não tenha conseguido colocar a gota no olho, tente novamente. </p>
+<p>Caso esteja, ou a sua criança, a utilizar outros medicamentos oftalmológicos como colírios ou 
+pomadas, espere, pelo menos, 5 minutos entre a aplicação de IZBA e dos outros medicamentos 
+oftalmológicos. </p>
+<p>Se utilizar, ou a sua criança utilizar, mais IZBA do que deveria 
+Enxague todo o medicamento com água morna. Não aplique mais gotas até ao momento da aplicação 
+regular da dose seguinte. Caso IZBA seja engolido, consulte o seu médico ou farmacêutico 
+imediatamente. </p>
+<p>Caso se tenha esquecido de utilizar IZBA 
+Continue com a dose seguinte como planeado. Não aplique uma dose a dobrar para compensar a dose 
+que se esqueceu de aplicar. Nunca aplique mais que uma gota por dia no(s) olho(s) afetado(s). </p>
+<p>Se parar de utilizar IZBA 
+Não interrompa a utilização de IZBA sem falar com o seu médico, ou com o médico que segue a sua 
+criança, a pressão no seu olho, ou no olho da sua criança, não ficará controlada, o que pode levar a 
+perda de visão. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, com o médico 
+que segue a sua criança, ou farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Foram observados os seguintes efeitos indesejáveis com IZBA. </p>
+<p>Efeitos indesejáveis muito frequentes: podem afetar mais de 1 em cada 10 pessoas </p>
+<p>Efeitos no olho: vermelhidão. </p>
+<p>Efeitos indesejáveis frequentes: podem afetar até 1 em cada 10 pessoas </p>
+<p>Efeitos no olho: desconforto ocular, comichão e secura. </p>
+<p>Efeitos indesejáveis pouco frequentes: podem afetar até 1 em cada 100 pessoas </p>
+<p>Efeitos no olho: inflamação no interior do olho, inflamação na superfície do olho com ou sem dano, 
+inflamação das pálpebras, inflamação da conjuntiva, dor, sensibilidade à luz, visão turva ou anormal, 
+inchaço ou crostas nas pálpebras, descarga ocular, escurecimento da pele à volta do(s) olho(s), 
+crescimento e espessamento das pestanas. </p>
+<p>Efeitos indesejáveis gerais: vermelhidão ou comichão da pele. </p>
+<p>Os seguintes efeitos indesejáveis foram observados com outro medicamento que contém uma 
+dose maior de travoprost (40 microgramas/mL): </p>
+<p>Efeitos indesejáveis muito frequentes: podem afetar mais que 1 em cada 10 pessoas </p>
+<p>Efeitos no olho: vermelhidão. </p>
+<p>Efeitos indesejáveis frequentes: podem afetar até 1 em cada 10 pessoas </p>
+<p>Efeitos no olho: alterações da cor da íris (parte colorida do olho), irritação ocular, dor ocular, 
+desconforto ocular, olho seco, comichão no olho. </p>
+<p>Efeitos indesejáveis pouco frequentes: podem afetar 1 em cada 100 pessoas </p>
+<p>Efeitos no olho: perturbações na córnea, inflamação ocular, inflamação da íris, inflamação no interior 
+do olho, inflamação na superfície do olho com ou sem danos superficiais, sensibilidade à luz, descarga 
+ocular, inflamação da pálpebra, vermelhidão da pálpebra, inchaço da pálpebra, comichão na pálpebra, 
+visão turva, aumento da produção de lágrima, inflamação ou infeção da conjuntiva (conjuntivite), 
+pálpebra inferior descaída, turvação do olho, crostas nas pálpebras, crescimento das pestanas. </p>
+<p>Efeitos indesejáveis gerais: sintomas alérgicos aumentados, dor de cabeça, frequência cardíaca 
+irregular, tosse, nariz entupido, irritação na garganta, escurecimento da pele à volta do(s) olho(s), 
+escurecimento da pele, textura capilar anormal, crescimento excessivo de pelos. </p>
+<p>Raros: podem afetar até 1 em cada 1000 pessoas </p>
+<p>Efeitos no olho: sensação de flashes de luz, eczema nas pálpebras, pestanas anormalmente 
+posicionadas que crescem de volta para o olho, inchaço do olho, visão reduzida, visão com halo, 
+sensação ocular diminuída, inflamação das glândulas das pálpebras, pigmentação no interior do olho, 
+aumento do tamanho da pupila, espessamento das pestanas, alteração da coloração das pestanas, olhos 
+cansados. </p>
+<p>Efeitos indesejáveis gerais: infeção viral no olho, tonturas, mau sabor na boca, frequência cardíaca 
+irregular ou diminuída, tensão arterial aumentada ou diminuída, falta de ar, asma, alergia ou 
+inflamação nasal, secura nasal, alterações da voz, desconforto gastrointestinal ou úlcera, prisão de 
+ventre, boca seca, vermelhidão ou comichão na pele, erupção na pele, alteração da cor do cabelo, 
+perda de pestanas, dores nas articulações, dores músculo-esqueléticas, fraqueza generalizada. </p>
+<p>Desconhecido: a frequência não pode ser estabelecida com base nos dados disponíveis </p>
+<p>Efeitos no olho: inflamação na parte de trás do olho, olhos encovados. </p>
+<p>Efeitos indesejáveis gerais: depressão, ansiedade, insónia, falsa sensação de movimento, zumbidos 
+nos ouvidos, dor no peito, ritmo cardíaco anormal, aumento dos batimentos cardíacos, agravamento da 
+asma, diarreia, hemorragia nasal, dor abdominal, náuseas, vómitos, comichão, crescimento anormal de 
+pelos, micção dolorosa ou involuntária, antigénio da próstata aumentado. </p>
+<p>Em crianças e adolescentes, os efeitos indesejáveis mais frequente observados com o medicamento 
+com uma dose superior de travoprost (40 microgramas/mL) foram olhos vermelhos e crescimento das 
+pestanas. Ambos os efeitos indesejáveis foram observados com uma incidência superior em crianças e 
+adolescentes quando comparados com adultos. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar izba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar izba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior, 
+após 'EXP'. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Deve deitar fora o frasco 4 semanas após a primeira abertura, a fim de evitar infeções, e utilizar 
+um novo frasco. Escreva a data de abertura no espaço indicado em cada embalagem. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de IZBA 
+- A substância ativa é travoprost. Cada mL de solução contém 30 microgramas de travoprost. 
+- Os outros componentes são: poliquaternário-1, óleo de rícino hidrogenado polioxilo 40, 
+propilenoglicol (ver fim secção 2), cloreto de sódio, ácido bórico, manitol e água purificada. 
+São adicionadas pequenas quantidades de ácido clorídrico ou hidróxido de sódio de forma a 
+manter normais os níveis de acidez (valores de pH). </p>
+<p>Qual o aspeto de IZBA e conteúdo da embalagem 
+IZBA colírio é um líquido (uma solução incolor, transparente) apresentado numa embalagem contendo 
+um frasco de plástico de 4 mL com tampa de rosca. Cada frasco contém 2,5 mL de travoprost colírio e 
+está contido num invólucro. </p>
+<p>Embalagens: 1 ou 3 frascos. </p>
+<p>Poderão não ser comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+S.A. Alcon-Couvreur N.V. 
+Rijksweg 14<br />
+B-2870 Puurs 
+Bélgica </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775 Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 
+Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52<br />
+Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4 
+France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299<br />
+Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: + 421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 </p>
+<p>Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 
+Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -757,6 +1142,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-ded378039327f28c36307d251503f7d3"
 * entry[0].resource = composition-da-ded378039327f28c36307d251503f7d3
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpded378039327f28c36307d251503f7d3"
+* entry[=].resource = mpded378039327f28c36307d251503f7d3
+                            
+                    
+Instance: bundlepackageleaflet-pt-ded378039327f28c36307d251503f7d3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for izba Package Leaflet for language pt"
+Description: "ePI document Bundle for izba Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-ded378039327f28c36307d251503f7d3"
+* entry[0].resource = composition-pt-ded378039327f28c36307d251503f7d3
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpded378039327f28c36307d251503f7d3"
@@ -858,6 +1265,18 @@ RuleSet: ded378039327f28c36307d251503f7d3ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-ded378039327f28c36307d251503f7d3) // izba pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

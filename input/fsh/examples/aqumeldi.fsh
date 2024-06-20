@@ -1265,6 +1265,775 @@ http://www.laegemiddelstyrelsen.dk. </p>
 
 
 
+Instance: composition-pt-5df3251458790d2240f34b809fdcc93e
+InstanceOf: CompositionUvEpi
+Title: "Composition for aqumeldi Package Leaflet"
+Description:  "Composition for aqumeldi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5df3251458790d2240f34b809fdcc93e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - aqumeldi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Aqumeldi e para que é utilizado
+2. O que precisa de saber antes de utilizar, ou de o seu filho utilizar, Aqumeldi
+3. Como utilizar Aqumeldi
+4. Efeitos indesejáveis possíveis
+5. Como conservar Aqumeldi
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é aqumeldi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é aqumeldi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aqumeldi contém a substância ativa maleato de enalapril.
+É utilizado em crianças e adolescentes desde o nascimento até aos 17 anos de idade para o tratamento 
+da insuficiência cardíaca (a incapacidade do coração de bombear sangue suficiente para todo o 
+organismo). 
+O maleato de enalapril pertence a um grupo de medicamentos denominados inibidores da enzima de 
+conversão da angiotensina (inibidores da ECA), o que significa que bloqueia uma enzima (proteína) no 
+organismo de formar a hormona angiotensina II. Ao estreitar os vasos sanguíneos, a angiotensina II 
+pode causar tensão arterial elevada, o que força o coração a trabalhar mais intensamente para bombear 
+sangue para todo o organismo. A angiotensina II também liberta hormonas, como a aldosterona, que 
+elevam a tensão arterial ao causar retenção de líquidos.
+Ao bloquear a formação da angiotensina II, Aqumeldi modifica o sistema hormonal que influencia a 
+tensão arterial e o equilíbrio de fluidos no organismo. Isto ajuda a baixar a tensão arterial e aumenta o 
+fornecimento de sangue e oxigénio ao coração. O medicamento começa normalmente a funcionar 
+dentro de uma hora, mas podem ser necessárias várias semanas de tratamento antes de a patologia 
+melhorar.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar aqumeldi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar aqumeldi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Aqumeldi se
+
+tem, ou o seu filho tem, alergia ao maleato de enalapril, a qualquer outro componente deste 
+medicamento (indicados na secção 6) ou a outros inibidores da ECA (tais como captopril, 
+31
+lisinopril ou ramipril). Os inibidores da ECA são utilizados no tratamento da tensão arterial 
+elevada ou da insuficiência cardíaca).
+
+alguma vez teve, ou o seu filho alguma vez teve, uma reação chamada angioedema (inchaço 
+rápido sob a pele em áreas como a face, a garganta, os braços e as pernas, que pode ser 
+potencialmente fatal se o inchaço da garganta bloquear as vias respiratórias) ao tomar outro 
+inibidor da ECA ou quando a causa do angioedema não era conhecida ou era hereditária.
+
+está grávida há mais de 3 meses. É também melhor evitar Aqumeldi no início da gravidez - (ver 
+secção 2 «Gravidez, amamentação e fertilidade»).
+
+tem, ou o seu filho tem, diabetes ou função renal reduzida e faz tratamento com um medicamento 
+para baixar a tensão arterial que contém aliscireno (ver secção 2 «Outros medicamentos e 
+Aqumeldi»).
+
+tomou ou está a tomar, ou o seu filho tomou ou está a tomar, sacubitril/valsartan, um medicamento 
+utilizado no tratamento de um tipo de insuficiência cardíaca (crónica) a longo prazo, uma vez que 
+o risco de angioedema é aumentado. Aguarde pelo menos 36 horas após a última dose de 
+sacubitril/valsartan antes de tomar Aqumeldi.
+
+tem, ou o seu filho tem, doença renal grave.
+Se não tiver a certeza, fale com o seu médico ou farmacêutico, ou com o médico ou farmacêutico do 
+seu filho, antes de administrar Aqumeldi.
+Advertências e precauções
+Fale com o médico antes de administrar Aqumeldi se:
+
+tem, ou o seu filho tem, um problema cardíaco denominado obstrução da válvula ventricular 
+esquerda e do volume de ejeção ou choque cardiogénico.
+
+sofre, ou o seu filho sofre, de uma doença que envolve os vasos sanguíneos no cérebro (por 
+exemplo, estenose, trombose, embolia, hemorragia).
+
+tem, ou o seu filho tem, doença vascular do colagénio (doenças que causam inflamação duradoura 
+nos tecidos conjuntivos, que são tecidos que mantêm os seus ossos, músculos e ligamentos juntos).
+
+está a tomar, ou o seu filho está a tomar, terapêutica imunossupressora (utilizada para reduzir a 
+resposta imunitária do organismo), tratamento com alopurinol (utilizado para reduzir os níveis de 
+ácido úrico) ou procainamida (utilizada para tratar perturbações do ritmo cardíaco). Nestes casos, 
+o enalapril pode aumentar o risco de níveis baixos de neutrófilos (neutropenia), um tipo de glóbulo 
+branco que combate as infeções, níveis muito baixos de um tipo de glóbulo branco denominado 
+granulócitos (agranulocitose) que são importantes para combater as infeções, níveis baixos de 
+plaquetas sanguíneas (trombocitopenia) que podem originar hemorragias e hematomas e níveis 
+baixos de glóbulos vermelhos (anemia) que podem causar cansaço e pele pálida (ver secção 2 
+«Outros medicamentos e Aqumeldi»).
+
+alguma vez teve, ou o seu filho alguma vez teve, uma reação alérgica aos inibidores da ECA, com 
+inchaço da face, lábios, língua ou garganta com dificuldade em engolir ou respirar (angioedema).<br />
+O angioedema pode ocorrer em qualquer momento durante o tratamento com Aqumeldi. Se 
+surgirem sintomas, Aqumeldi deve ser interrompido e deve procurar-se tratamento imediato. Deve 
+estar ciente de que os doentes de raça negra apresentam um risco aumentado destes tipos de 
+reações aos inibidores da ECA (medicamentos que funcionam como o Aqumeldi).  O risco de 
+angioedema pode ser aumentado nos doentes que tomam outros medicamentos (ver secção 2 
+«Outros medicamentos e Aqumeldi»).
+
+tem, ou o seu filho tem, um problema renal (incluindo transplante renal), diabetes, desidratação, 
+agravamento repentino da insuficiência cardíaca, acumulação de ácido no organismo ou utilização 
+de diuréticos (comprimidos de água) que mantêm a quantidade de potássio no sangue (tais como 
+espironolactona, eplerenona, triamtereno ou amilorida) ou substitutos que contêm potássio ou 
+medicamentos conhecidos por aumentarem o potássio no sangue (tais como, heparina, trimetoprim 
+ou cotrimoxazol). Estas situações podem levar a níveis elevados de potássio no sangue 
+(hipercaliemia), o que pode causar cansaço, fraqueza muscular, sensação de enjoo e perturbações 
+do ritmo cardíaco. O seu médico ou o médico do seu filho poderá ter de ajustar a dose de 
+Aqumeldi ou verificar regularmente a quantidade de potássio no sangue (ver secção 2 «Outros 
+medicamentos e Aqumeldi»).
+32
+
+tem, ou o seu filho tem, um problema com as artérias do rim, uma vez que tal pode aumentar o 
+risco de tensão arterial baixa ou de os rins não funcionarem corretamente.
+
+tem estado, ou o seu filho tem estado, muito doente (vómitos excessivos) ou sofreu, ou o seu filho 
+sofreu, recentemente diarreia grave.
+
+sofre, ou o seu filho sofre, de diabetes. O sangue deve ser avaliado para detetar níveis baixos de 
+glicose, especialmente durante o primeiro mês de tratamento. A quantidade de potássio no sangue 
+também pode ser mais elevada.
+
+está, ou o seu filho está, a ser submetido a diálise, uma vez que a dose de Aqumeldi poderá 
+necessitar de ser alterada.
+
+tem, ou o seu filho tem, tensão arterial baixa (pode ser observada como fraqueza ou tonturas, 
+especialmente quando se está de pé).
+
+está, ou o seu filho está, a tomar qualquer um dos seguintes medicamentos utilizados para o 
+tratamento da tensão arterial elevada: um bloqueador dos recetores da angiotensina II (BRA) 
+(também conhecidos como sartans — por exemplo valsartan, telmisartan, irbesartan), uma vez que 
+estes podem aumentar o risco de tensão arterial baixa, níveis elevados de potássio no sangue e 
+problemas renais (ver secção 2 «Outros medicamentos e Aqumeldi»).
+
+o seu filho tem menos de 1 mês de idade e tem um problema no fígado ou icterícia 
+(amarelecimento da pele e da esclerótica).
+
+o seu filho tem menos de 1 mês de idade, uma vez que as crianças muito pequenas correm maior 
+risco de ter problemas de tensão arterial baixa, problemas renais e níveis elevados de potássio no 
+sangue.
+O seu médico ou o médico do seu filho poderá verificar regularmente a sua função renal, a tensão 
+arterial e o nível de eletrólitos (por exemplo, potássio) no sangue.
+Se não tiver a certeza de que alguma das situações acima se aplica a si ou ao seu filho, fale com o seu 
+médico ou farmacêutico antes de administrar Aqumeldi.
+Se estiver prestes a ser submetido, ou o seu filho, a um procedimento médico
+Informe o médico de que está a utilizar, ou de que o seu filho está a utilizar, Aqumeldi se estiver 
+prestes a ser submetido, ou o seu filho, a algum dos seguintes procedimentos:
+
+qualquer cirurgia ou medicamento para adormecer a sensibilidade (anestesia) (mesmo no dentista).
+
+dessensibilização como tratamento de alergia, por exemplo com veneno de abelha ou vespa 
+(veneno de hymenoptera).
+
+tratamento para remover o colesterol do sangue denominado LDL-aférese.
+Se algum dos casos acima referidos for aplicável, fale com o seu médico ou dentista, ou com o médico 
+ou dentista do seu filho, antes do procedimento.
+Outros medicamentos e Aqumeldi
+Indique ao médico ou farmacêutico se toma, tomou recentemente ou pode vir a tomar, ou se o seu 
+filho toma, tomou recentemente ou pode vir a tomar, quaisquer outros medicamentos, incluindo 
+medicamentos obtidos sem receita médica. Isto inclui medicamentos à base de plantas. O seu médico 
+pode necessitar de alterar a sua dose ou a dose do seu filho e/ou tomar outras precauções.
+Tomar Aqumeldi com os seguintes medicamentos pode afetar a forma como Aqumeldi ou os 
+medicamentos enumerados na lista funcionam ou pode aumentar o risco de efeitos indesejáveis:
+
+anti-hipertensores, medicamentos para baixar a tensão arterial (enumeram-se em seguida 
+diferentes tipos):
+o
+bloqueadores dos recetores da angiotensina II (ARB), por vezes denominados sartans (por 
+exemplo, losartan, valsartan);
+o
+aliscireno;
+o
+bloqueadores beta (por exemplo, atenolol, propranolol);
+o
+diuréticos (um medicamento que aumenta a produção de urina) (p. ex. furosemida, 
+clorotiazida);
+33
+o
+vasodilatadores (medicamento para abrir (dilatar) os vasos sanguíneos) (p. ex. 
+nitroglicerina, mononitrato de isossorbida);
+o
+inibidores da neprilisina (por exemplo, sacubitril, racecadotril).
+O risco de angioedema (inchaço da face, dos lábios, da língua ou da garganta com dificuldade 
+em engolir ou respirar) pode ser aumentado com a utilização destes medicamentos (ver secção 2 
+«Não utilize Aqumeldi se»).
+
+medicamentos que preservam o potássio, os medicamentos para aumentar o potássio no 
+sangue podem fazer com que o potássio seja demasiado elevado (os diferentes tipos são 
+indicados abaixo):
+o
+suplementos de potássio e substitutos de sal;
+o
+diuréticos poupadores de potássio (um medicamento que aumenta a produção de urina) 
+(p. ex. espironolactona, amilorida);
+o
+antibióticos, utilizados para tratar infeções bacterianas (por exemplo, trimetoprim e 
+cotrimoxazol);
+o
+heparina utilizada para diluir o sangue e prevenir a formação de coágulos.
+
+lítio, medicamento para o tratamento da depressão.
+
+antidepressivos tricíclicos utilizados no tratamento da depressão (por exemplo, amitriptilina).
+
+antipsicóticos, medicamento para o tratamento de problemas de saúde mental.
+
+medicamentos para a tosse e constipação e medicamentos para a redução do peso (p. ex. 
+pseudoefedrina, anfetamina).
+
+ouro, utilizado no tratamento da dor ou da artrite.
+
+medicamentos antidiabéticos, incluindo insulina e vildagliptina, utilizados para reduzir o 
+açúcar no sangue.
+
+medicamentos anti-inflamatórios não esteroides (AINE), medicamentos para reduzir a 
+inflamação e aliviar a dor (encontram-se listados abaixo diferentes tipos):
+o
+inibidores seletivos da ciclooxigenase-2 (inibidores da COX-2, por exemplo, ibuprofeno);
+o
+ácido acetilsalicílico (aspirina).
+
+medicamentos utilizados para evitar a rejeição de um transplante, utilizados para prevenir a 
+rejeição de órgãos transplantados (p. ex., ciclosporina, temsirolímus, sirolímus, everolímus).
+Se não tiver a certeza de que alguma das situações acima se aplica a si ou ao seu filho, fale com o seu 
+médico ou farmacêutico antes de administrar Aqumeldi.
+Aqumeldi com alimentos, bebidas e álcool
+Não deve beber álcool (nem o seu filho) enquanto estiver a tomar Aqumeldi. O álcool pode provocar 
+uma descida excessiva da tensão arterial e pode sentir, ou o seu filho pode sentir, tonturas, sensação de 
+cabeça vazia ou desmaios.
+Gravidez, amamentação e fertilidade
+Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. O seu médico irá, 
+normalmente, aconselhar-lhe a interromper a toma de Aqumeldi antes de engravidar ou assim que 
+tiver conhecimento da gravidez, e irá aconselhar-lhe a tomar outro medicamento em vez de Aqumeldi.
+Aqumeldi não é recomendado no início da gravidez e não deve ser tomado com mais de 3 meses de 
+gravidez, pois pode causar danos graves ao bebé se utilizado após o terceiro mês de gravidez (ver 
+secção 2 «Não utilize Aqumeldi se»).
+Se é uma mulher com potencial para engravidar, deve utilizar um método contracetivo eficaz durante e 
+até 1 semana após o tratamento.
+Amamentação
+Informe o seu médico se está a amamentar ou prestes a começar a amamentar e discuta se deve deixar 
+de amamentar ou deixar de tomar o tratamento com Aqumeldi.
+34
+Condução de veículos e utilização de máquinas
+Aqumeldi pode causar sonolência a si ou ao seu filho ou afetar a concentração e a coordenação. Isso 
+poderá afetar o desempenho em tarefas especializadas, tais como conduzir, andar de bicicleta ou 
+utilizar máquinas.
+Aqumeldi contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+«isento de sódio».</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar aqumeldi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar aqumeldi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico, ou pelo 
+médico ou farmacêutico do seu filho. Fale com o médico ou farmacêutico se tiver dúvidas.
+A dose será aconselhada pelo seu médico, ou pelo médico do seu filho, e dependerá do seu peso, ou do 
+peso do seu filho, e da forma como respondem ao tratamento.
+
+A dose inicial recomendada é de até 2 mg numa dose única.
+
+A dose de manutenção recomendada é de 1 mg a 20 mg uma vez por dia.
+O médico do seu filho aconselhará quando aumentar a dose com base na tensão arterial, nos níveis de 
+potássio no sangue e na função renal do seu filho.
+INSTRUÇÕES DE UTILIZAÇÃO
+Leia com atenção antes de utilizar o(s) comprimido(s) orodispersíveis(s).
+Aqumeldi só deve ser tomado por via oral. Trata-se de um comprimido orodispersível, o que significa 
+que se dissolve na boca ou em água. O comprimido pode ser tomado com ou sem refeições.
+1. Devido ao pequeno tamanho dos comprimidos, utilize a colher fornecida na embalagem para 
+recolher o número necessário de comprimidos orodispersíveis do frasco. Na medida do possível, 
+evite tocar nos comprimidos com as mãos.
+2. Coloque o(s) comprimido(s) orodispersível(s) na língua, ou no espaço entre a gengiva e a 
+bochecha (cavidade bucal) e aguarde até que se dissolva.
+3. Não esmague os comprimidos orodispersíveis.
+Se a dose prescrita pelo médico for inferior a 0,25 mg, pode ser obtida da seguinte forma:
+1. Coloque um comprimido orodispersível de 0,25 mg a ser dissolvido numa seringa oral de 10 ml.
+2. Introduza na seringa 10 ml de água fresca da torneira (até ao nível de graduação de 10 ml). 
+Deve ser utilizada água estéril em crianças com menos de 6 meses de idade.
+3. Rode cuidadosamente a seringa durante 3 minutos até que o comprimido orodispersível esteja 
+completamente dissolvido.
+4. Isto resulta numa concentração de 0,025 mg/ml de maleato de enalapril.
+5. 1 ml da solução resultante conterá 0,025 mg de enalapril e 4 ml contém 0,1 mg de enalapril.
+6. O volume de dispersão necessário deve então ser administrado imediatamente ao doente; não 
+guarde a dispersão na seringa oral.
+Se receber, ou se o seu filho receber, o medicamento através de uma sonda de alimentação, deve 
+seguir o seguinte procedimento:
+1. Retire o êmbolo da seringa que utiliza com a sonda de alimentação (seringa não fornecida) e 
+coloque o número necessário de comprimidos orodispersíveis no tubo da seringa.
+35
+Nota: podem ser dissolvidos em 1 ml, de cada vez, um máximo de quatro comprimidos 
+orodispersíveis; poderá ser necessário repetir o procedimento seguinte para obter a dose 
+recomendada.
+2. Substitua o êmbolo e retire 1 ml de água fresca da torneira. Deve ser utilizada água estéril em 
+crianças com menos de 6 meses de idade.
+3. Tape a seringa e rode cuidadosamente ou misture durante 3 minutos para que os comprimidos 
+orodispersíveis se dissolvam.
+4. Retire a tampa e administre a dose através da sonda de alimentação.
+5. Lave a sonda de alimentação com, pelo menos, 3 ml de água após a administração do 
+medicamento.
+A solução deve ser administrada imediatamente a si ou ao seu filho. Não conserve a solução.
+As sondas de alimentação normais (poliuretano, cloreto de polivinilo e silicone) foram consideradas 
+adequadas para utilização com este medicamento.
+Se tomar, ou o seu filho tomar, mais Aqumeldi do que deveria
+Não dê mais medicamentos do que aqueles que o seu médico ou o médico do seu filho lhe indicar. Se 
+tiver ingerido, ou se o seu filho tiver ingerido, mais comprimidos do que os prescritos pelo médico, 
+contacte imediatamente o serviço de urgências do hospital mais próximo ou um médico. Leve a 
+embalagem do medicamento consigo.
+Os sinais e sintomas mais frequentes de sobredosagem são diminuição da tensão arterial (os sinais 
+podem incluir tonturas ou sensação de cabeça vazia) e um estado de quase total falta de consciência 
+(entorpecimento). Outros sintomas podem incluir batimento cardíaco forte e acelerado, pulso 
+acelerado, ansiedade, tosse, insuficiência renal e respiração acelerada.
+36
+Caso se tenha esquecido, ou caso o seu filho se tenha esquecido, de tomar Aqumeldi
+Caso se tenha esquecido, ou caso o seu filho se tenha esquecido, de tomar Aqumeldi, não tome a dose 
+esquecida.
+Tome a dose seguinte como habitualmente.
+Se se esquecer de uma dose não tome uma dose a dobrar para compensar a dose esquecida.
+Se parar de tomar, ou se o seu filho parar de tomar, Aqumeldi
+Não deixe de administrar Aqumeldi a não ser que tal lhe seja indicado pelo seu médico ou pelo médico 
+do seu filho.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro, ou com o médico, farmacêutico ou enfermeiro do seu filho.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Foram notificados os seguintes efeitos indesejáveis graves em doentes adultos. Se desenvolver, ou 
+se o seu filho desenvolver, algum destes efeitos indesejáveis, interrompa a toma do medicamento 
+e consulte um médico com urgência:
+
+Inchaço dos lábios, olhos, boca ou garganta que pode causar dificuldade em respirar ou engolir 
+(angioedema) - frequentes
+
+Doenças do sangue, incluindo alterações nos valores sanguíneos, tais como menor número de 
+glóbulos brancos e vermelhos, menor hemoglobina, menor número de plaquetas no sangue - 
+pouco frequentes
+
+Ataque cardíaco (possivelmente devido a tensão arterial muito baixa em determinados doentes de 
+alto risco, incluindo os doentes com problemas de fluxo sanguíneo do coração ou do cérebro) - 
+pouco frequentes
+
+Acidente vascular cerebral (possivelmente devido a tensão arterial muito baixa em doentes de alto 
+risco) - pouco frequentes
+
+Doenças do sangue (depressão da medula óssea), incluindo alterações nos valores sanguíneos tais 
+como diminuição do número de glóbulos brancos (neutropenia), diminuição do número de 
+plaquetas sanguíneas (trombocitopenia), níveis baixos de hemoglobina, níveis baixos de 
+hematócrito, pancitopenia, agranulocitose - raros
+
+Reações cutâneas graves com vermelhidão e descamação da pele, bolhas ou feridas em carne viva 
+(síndrome de Stevens-Johnson, necrólise epidérmica tóxica) - raros
+
+Erupção na pele súbita e inesperada ou ardor, vermelhidão ou descamação da pele - raros
+
+A medula óssea deixa de produzir novas células sanguíneas, causando cansaço, menor capacidade 
+para combater infeções e hemorragias não controladas (anemia aplástica) - raros
+
+Inflamação do fígado, doença do fígado, aumento das enzimas do fígado ou bilirrubina (medida 
+nos testes), icterícia (amarelecimento da pele e/ou dos olhos) - raros
+Efeitos indesejáveis observados em crianças a tomar Aqumeldi em caso de insuficiência 
+cardíaca:
+Frequentes (podem afetar até 1 em 10 pessoas)</p>
+<ul>
+<li>
+<p>Sensação de tonturas, tensão arterial baixa (tonturas posturais)</p>
+</li>
+<li>
+<p>Tosse,</p>
+</li>
+<li>
+<p>Náuseas (vómito)</p>
+</li>
+<li>
+<p>Níveis elevados de potássio (hipercalemia), medidos no sangue</p>
+</li>
+<li>
+<p>Ligeiros aumentos da proteína albumina na urina (microalbuminúria)
+37
+Pode sentir, ou o seu filho pode sentir, tonturas quando começar a tomar Aqumeldi. Isto é causado por 
+uma diminuição da tensão arterial. Se isto acontecer, será útil deitar-se. Fale com o seu médico ou com 
+o médico do seu filho.
+Outros efeitos indesejáveis possíveis observados em adultos tratados com enalapril incluem:
+Muito frequentes (podem afetar mais de 1 em 10 pessoas)</p>
+</li>
+<li>
+<p>Sensação de tontura</p>
+</li>
+<li>
+<p>Sensação de fraqueza (astenia)</p>
+</li>
+<li>
+<p>Sensação de enjoo (náuseas)</p>
+</li>
+<li>
+<p>Visão turva</p>
+</li>
+<li>
+<p>Tosse
+Frequentes (podem afetar até 1 em 10 pessoas)</p>
+</li>
+<li>
+<p>Diarreia</p>
+</li>
+<li>
+<p>Dores abdominais</p>
+</li>
+<li>
+<p>Vómitos</p>
+</li>
+<li>
+<p>Erupção na pele</p>
+</li>
+<li>
+<p>Dor de cabeça</p>
+</li>
+<li>
+<p>Desmaio (síncope)</p>
+</li>
+<li>
+<p>Tensão arterial baixa</p>
+</li>
+<li>
+<p>Alterações do ritmo cardíaco</p>
+</li>
+<li>
+<p>Batimento cardíaco acelerado</p>
+</li>
+<li>
+<p>Angina</p>
+</li>
+<li>
+<p>Dor no peito</p>
+</li>
+<li>
+<p>Cansaço (fadiga)</p>
+</li>
+<li>
+<p>Depressão</p>
+</li>
+<li>
+<p>Aumento do nível de potássio (hipercaliemia), medidos em análises ao sangue</p>
+</li>
+<li>
+<p>Aumento dos níveis de creatinina (aumento da creatina sérica), medidos em análises ao sangue</p>
+</li>
+<li>
+<p>Perda anormal de albumina na urina (microalbuminúria), medida em testes à urina</p>
+</li>
+<li>
+<p>Alterações no paladar</p>
+</li>
+<li>
+<p>Falta de ar (dispneia)
+Pouco frequentes (afetam até 1 em 100 pessoas)</p>
+</li>
+<li>
+<p>Indigestão</p>
+</li>
+<li>
+<p>Prisão de ventre</p>
+</li>
+<li>
+<p>Perda de apetite (anorexia)</p>
+</li>
+<li>
+<p>Movimento lento dos alimentos no intestino</p>
+</li>
+<li>
+<p>Inflamação do pâncreas</p>
+</li>
+<li>
+<p>Estômago irritado (irritação gástrica)</p>
+</li>
+<li>
+<p>Boca seca</p>
+</li>
+<li>
+<p>Úlcera</p>
+</li>
+<li>
+<p>Função renal comprometida</p>
+</li>
+<li>
+<p>Insuficiência renal</p>
+</li>
+<li>
+<p>Corrimento nasal</p>
+</li>
+<li>
+<p>Rouquidão</p>
+</li>
+<li>
+<p>Dor de garganta</p>
+</li>
+<li>
+<p>Batimentos cardíacos acelerados ou irregulares (palpitações)</p>
+</li>
+<li>
+<p>Degradação excessiva dos glóbulos vermelhos que causam cansaço e pele pálida (anemia 
+hemolítica)</p>
+</li>
+<li>
+<p>Confusão,</p>
+</li>
+<li>
+<p>Dificuldade em dormir</p>
+</li>
+<li>
+<p>Sonolência</p>
+</li>
+<li>
+<p>Nervosismo</p>
+</li>
+<li>
+<p>Sensação de formigueiro ou dormência na pele</p>
+</li>
+<li>
+<p>Sensação de tontura (vertigem)
+38</p>
+</li>
+<li>
+<p>Zumbidos nos ouvidos (acufenos)</p>
+</li>
+<li>
+<p>Asma</p>
+</li>
+<li>
+<p>Aperto no peito associado à asma (broncoespasmo)</p>
+</li>
+<li>
+<p>Aumento da transpiração</p>
+</li>
+<li>
+<p>Comichão</p>
+</li>
+<li>
+<p>Urticária</p>
+</li>
+<li>
+<p>Perda de cabelo</p>
+</li>
+<li>
+<p>Espasmos musculares</p>
+</li>
+<li>
+<p>Rubor</p>
+</li>
+<li>
+<p>Tensão arterial baixa quando em pé (hipotensão postural)</p>
+</li>
+<li>
+<p>Sensação geral de indisposição (mal-estar),</p>
+</li>
+<li>
+<p>Febre</p>
+</li>
+<li>
+<p>Disfunção erétil (impotência)</p>
+</li>
+<li>
+<p>Nível elevado de proteínas na urina (medido num teste)</p>
+</li>
+<li>
+<p>Baixo nível de açúcar no sangue</p>
+</li>
+<li>
+<p>Baixo nível de sódio (hiponatremia), medido no sangue</p>
+</li>
+<li>
+<p>Nível elevado de ureia no sangue, medido no sangue
+Raros (pode afetar até 1 em cada 1 000 pessoas)</p>
+</li>
+<li>
+<p>Pequenos inchaços com líquido na pele (pênfigo)</p>
+</li>
+<li>
+<p>Insuficiência hepática</p>
+</li>
+<li>
+<p>Colestase (problemas com a excreção da bílis)</p>
+</li>
+<li>
+<p>Aumento das enzimas do fígado</p>
+</li>
+<li>
+<p>Fenómeno de Raynaud, em que as mãos e os pés podem ficar muito frios e pálidos devido ao 
+baixo fluxo sanguíneo</p>
+</li>
+<li>
+<p>Doenças autoimunes</p>
+</li>
+<li>
+<p>Sonhos estranhos</p>
+</li>
+<li>
+<p>Perturbações do sono</p>
+</li>
+<li>
+<p>Acumulação de fluidos ou de outras substâncias nos pulmões (conforme observado em raios X)</p>
+</li>
+<li>
+<p>Inflamação do nariz</p>
+</li>
+<li>
+<p>Inflamação dos pulmões causada por uma acumulação de células sanguíneas que provoca 
+dificuldades na respiração (pneumonia eosinófila)</p>
+</li>
+<li>
+<p>Inflamação da boca (estomatite)</p>
+</li>
+<li>
+<p>Inflamação da língua (glossite)</p>
+</li>
+<li>
+<p>Feridas na boca (úlcera aftosa)</p>
+</li>
+<li>
+<p>Menor quantidade de urina produzida</p>
+</li>
+<li>
+<p>Doença da pele devida a uma reação alérgica ou infeção (eritema multiforme)</p>
+</li>
+<li>
+<p>Aumento das mamas nos homens</p>
+</li>
+<li>
+<p>Gânglios inchados no pescoço, na axila ou na virilha</p>
+</li>
+<li>
+<p>Inchaço das mãos, dos pés ou dos tornozelos
+Muito raros (podem afetar até 1 em cada 10 000 pessoas)</p>
+</li>
+<li>
+<p>Inchaço no intestino (angioedema intestinal)
+Desconhecido (não é possível estimar a frequência a partir dos dados disponíveis):</p>
+</li>
+<li>
+<p>Produção excessiva de hormona antidiurética, uma hormona que ajuda os rins a controlar a 
+quantidade de água que o corpo perde através da urina, o que provoca retenção de fluidos, 
+resultando em fraqueza, cansaço ou confusão (SIADH).</p>
+</li>
+<li>
+<p>Reações na pele graves. Foi notificado um complexo de sintomas que pode incluir alguns ou 
+todos os seguintes: febre, inflamação dos vasos sanguíneos (serosite/vasculite), dor muscular 
+(mialgia/miosite), dor nas articulações (artralgia/artrite). Podem ocorrer erupções na pele, 
+sensibilidade à luz solar e radiação UV ou outras manifestações cutâneas.
+39
+Comunicação de efeitos indesejáveis
+Se tiver, ou se o seu filho tiver, quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis 
+não indicados neste folheto, fale com o seu médico, farmacêutico ou enfermeiro, ou com o médico, 
+farmacêutico ou enfermeiro do seu filho. Também poderá comunicar efeitos indesejáveis diretamente 
+através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar aqumeldi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar aqumeldi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado.
+Não armazenar acima de 25 °C. Armazenar na embalagem original.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Aqumeldi</h2>
+<h2>A substância ativa é o maleato de enalapril.</h2>
+<p>Os outros excipientes são: manitol (E421), crospovidona, poli(acetato de vinilo), povidona, 
+laurilsulfato de sódio (ver secção 2 «Aqumeldi contém sódio»), fumarato sódico de estearilo, sílica 
+coloidal anidra 
+Qual o aspeto de Aqumeldi e conteúdo da embalagem
+Aqumeldi 0,25 mg comprimidos orodispersíveis são comprimidos brancos, redondos, biconvexos, de 
+2 mm de diâmetro.
+Ambos são fornecidos num frasco de plástico com uma tampa de plástico inviolável e resistente à 
+abertura por crianças dentro de uma embalagem de cartão. Cada embalagem contém um frasco e uma 
+colher azul.
+Embalagens disponíveis com 50, 100 ou 200 comprimidos orodispersíveis por frasco.
+É possível que não sejam comercializadas todas as apresentações.
+A primeira vez que o frasco é aberto, o selo tem de ser quebrado:
+
+Segure o frasco com firmeza com uma das mãos.
+
+Com a outra mão: pressione firmemente para baixo enquanto roda a tampa no sentido contrário 
+ao dos ponteiros do relógio.
+
+Continue a rodar até que o selo seja quebrado.
+Titular da Autorização de Introdução no Mercado
+Proveca Pharma Limited
+2 Dublin Landings
+North Wall Quay
+Dublin 1
+Irlanda
+40
+Fabricante
+Pharbil Waltrop GmbH
+Im Wirrigen 25
+45731 Waltrop
+Alemanha
+Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1306,6 +2075,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5df3251458790d2240f34b809fdcc93e"
 * entry[0].resource = composition-da-5df3251458790d2240f34b809fdcc93e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5df3251458790d2240f34b809fdcc93e"
+* entry[=].resource = mp5df3251458790d2240f34b809fdcc93e
+                            
+                    
+Instance: bundlepackageleaflet-pt-5df3251458790d2240f34b809fdcc93e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aqumeldi Package Leaflet for language pt"
+Description: "ePI document Bundle for aqumeldi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5df3251458790d2240f34b809fdcc93e"
+* entry[0].resource = composition-pt-5df3251458790d2240f34b809fdcc93e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5df3251458790d2240f34b809fdcc93e"
@@ -1407,6 +2198,18 @@ RuleSet: 5df3251458790d2240f34b809fdcc93eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5df3251458790d2240f34b809fdcc93e) // aqumeldi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

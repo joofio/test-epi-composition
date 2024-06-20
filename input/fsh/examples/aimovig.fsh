@@ -772,6 +772,334 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-27621dca9c70d4aa804aaf075667f6df
+InstanceOf: CompositionUvEpi
+Title: "Composition for aimovig Package Leaflet"
+Description:  "Composition for aimovig Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp27621dca9c70d4aa804aaf075667f6df)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - aimovig"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Aimovig e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Aimovig </li>
+<li>Como utilizar Aimovig </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Aimovig </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é aimovig e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é aimovig e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aimovig contém a substância ativa erenumab. Pertence a um grupo de medicamentos chamados 
+anticorpos monoclonais. </p>
+<p>Aimovig atua através do bloqueio da atividade da molécula CGRP, que foi relacionada com a 
+enxaqueca (CGRP significa peptídeo relacionado com o gene da calcitonina). </p>
+<p>Aimovig é utilizado para prevenir a enxaqueca em adultos que têm pelo menos 4 dias de enxaqueca 
+por mês quando inicia o tratamento com Aimovig. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar aimovig"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar aimovig"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Aimovig 
+- se tem alergia ao erenumab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de utilizar Aimovig: 
+- se alguma vez teve uma reação alérgica ao látex de borracha. O recipiente deste medicamento 
+contém látex de borracha na tampa. 
+- se sofre de uma doença cardiovascular. Aimovig não foi estudado em doentes com determinadas 
+doenças cardiovasculares. 
+-  </p>
+<p>Fale com o seu médico ou procure ajuda médica de emergência imediatamente: 
+- Se tiver quaisquer sintomas de uma reação alérgica grave, tais como erupção na pele ou 
+inchaço, geralmente da face, boca, língua ou garganta; ou dificuldade em respirar. Reações 
+alérgicas graves podem acontecer em minutos, mas algumas podem acontecer mais de uma 
+semana após a utilização de Aimovig. 
+- Contacte um médico e procure ajuda médica imediatamente se desenvolver prisão de ventre 
+com dor de barriga (abdominal) grave ou constante e vómitos, distensão do abdómen ou inchaço 
+com flatulência. Pode ocorrer prisão de ventre com o tratamento com Aimovig. Esta é 
+geralmente de intensidade ligeira ou moderada. Contudo, alguns doentes a utilizar Aimovig 
+tiveram prisão de ventre com complicações graves e hospitalização. Alguns casos necessitaram 
+de cirurgia. </p>
+<p>Crianças e adolescentes 
+Não dê este medicamento a crianças ou adolescentes (menores de 18 anos de idade) porque a 
+utilização de Aimovig não foi estudada neste grupo etário. </p>
+<p>Outros medicamentos e Aimovig 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Gravidez 
+O seu médico irá decidir se deve parar de usar Aimovig durante a gravidez. </p>
+<p>Amamentação 
+Os anticorpos monoclonais como Aimovig são conhecidos por passar para o leite materno durante os 
+primeiros dias após o nascimento, mas após este primeiro período Aimovig pode ser utilizado. Fale 
+com o seu médico acerca de Aimovig enquanto está a amamentar para ajudá-la a decidir se deve parar 
+de amamentar ou parar de utilizar Aimovig. </p>
+<p>Condução de veículos e utilização de máquinas 
+É improvável que Aimovig afete a sua capacidade de conduzir e utilizar máquinas. </p>
+<p>Aimovig contém sódio 
+Aimovig contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente “isento de 
+sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar aimovig"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar aimovig"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>Se o seu médico prescreve a dose de 70 mg deve utilizar uma injeção uma vez a cada 4 semanas. Se o 
+seu médico prescreve a dose de 140 mg deve utilizar ou uma injeção de Aimovig 140 mg ou duas 
+injeções de Aimovig 70 mg uma vez a cada 4 semanas. Caso esteja a utilizar duas injeções de Aimovig 
+70 mg, a segunda injeção deve ser administrada imediatamente após a primeira num local de injeção 
+diferente. Certifique-se de que injeta todo o conteúdo de ambas as seringas. </p>
+<p>Aimovig é dado como uma injeção sob a sua pele (conhecido como injeção subcutânea). Pode ou o 
+seu cuidador pode dar a injeção no seu abdómen ou na sua coxa. A zona exterior do seu braço pode 
+também ser utilizada como um local de injeção, mas apenas se outra pessoa lhe der a injeção. Se 
+necessitar de 2 injeções, estas devem ser dadas em locais diferentes para evitar que a pele endureça e 
+não devem ser dadas em locais onde a pele está dolorosa ao toque, tem nódoas negras, está vermelha 
+ou dura. </p>
+<p>O seu médico ou enfermeiro irá dar-lhe, ou ao seu cuidador, treino acerca da forma correta de preparar 
+e injetar Aimovig. Não tente injetar Aimovig até que este treino tenha sido dado. </p>
+<p>Se não notou qualquer efeito do tratamento após 3 meses, informe o seu médico que irá decidir se deve 
+continuar o tratamento. </p>
+<p>As seringas de Aimovig destinam-se a uma única utilização. </p>
+<p>Para instruções detalhadas acerca de como injetar Aimovig, ver “Instruções para administração de 
+Aimovig seringa pré-cheia" no final deste folheto. </p>
+<p>Se utilizar mais Aimovig do que deveria 
+Se tiver recebido mais Aimovig do que deveria ou se a dose foi dada mais cedo do que deveria, 
+informe o seu médico. </p>
+<p>Caso se tenha esquecido de utilizar Aimovig 
+- Se se tiver esquecido de uma dose de Aimovig, tome-a assim que possível após ter percebido. 
+- Depois contacte o seu médico, que lhe dirá quando deve agendar a sua próxima toma. Siga o 
+novo esquema exatamente como o seu médico lhe indicou. </p>
+<p>Se parar de utilizar Aimovig 
+Não pare de utilizar Aimovig sem consultar o seu médico primeiro. Os seus sintomas podem regressar 
+se parar o tratamento. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis possíveis estão listados em baixo. A maioria destes efeitos indesejáveis são 
+ligeiros a moderados. </p>
+<p>Frequentes: podem afetar até 1 em 10 pessoas 
+- reações alérgicas tais como erupção na pele, inchaço, comichão ou dificuldade em respirar (ver 
+secção 2) 
+- prisão de ventre 
+- comichão 
+- espasmos musculares 
+- reações no local de injeção, tais como dor, vermelhidão e inchaço onde a injeção é administrada. </p>
+<p>Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- reações cutâneas tais como erupção na pele, comichão, perda de cabelo ou feridas na 
+boca/lábios. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar aimovig"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar aimovig"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e embalagem exterior, após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Manter a(s) seringa(s) dentro da embalagem exterior para proteger da luz. Conservar no frigorífico 
+(2°C - 8°C). Não congelar. </p>
+<p>Após Aimovig ter sido retirado do frigorífico, tem de ser mantido à temperatura ambiente (até 25°C) 
+na embalagem exterior e tem de ser utilizado dentro de 7 dias, ou então rejeitado. Não coloque 
+Aimovig de novo no frigorífico uma vez que tenha sido removido. </p>
+<p>Não utilize este medicamento se notar que a solução contém partículas, está turva ou está 
+distintamente amarela. </p>
+<p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
+os medicamentos que já não utiliza. Poderão existir regulamentos locais para eliminação. Estas 
+medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Aimovig 
+- A substância ativa é erenumab. 
+- Aimovig 70 mg solução injetável em seringa pré-cheia contém 70 mg de erenumab. 
+- Aimovig 140 mg solução injetável em seringa pré-cheia contém 140 mg de erenumab. 
+- Os outros componentes são sacarose, polissorbato 80, hidróxido de sódio, ácido acético glacial, 
+água para preparações injetáveis. </p>
+<p>Qual o aspeto de Aimovig e conteúdo da embalagem 
+A solução injetável de Aimovig é límpida a opalescente, incolor e ligeiramente amarela, e 
+praticamente livre de partículas. </p>
+<p>Cada embalagem contém uma seringa pré-cheia de utilização única. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Alcon-Couvreur 
+Rijksweg B-2870 Puurs 
+Bélgica </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberga 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -813,6 +1141,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-27621dca9c70d4aa804aaf075667f6df"
 * entry[0].resource = composition-da-27621dca9c70d4aa804aaf075667f6df
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp27621dca9c70d4aa804aaf075667f6df"
+* entry[=].resource = mp27621dca9c70d4aa804aaf075667f6df
+                            
+                    
+Instance: bundlepackageleaflet-pt-27621dca9c70d4aa804aaf075667f6df
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aimovig Package Leaflet for language pt"
+Description: "ePI document Bundle for aimovig Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-27621dca9c70d4aa804aaf075667f6df"
+* entry[0].resource = composition-pt-27621dca9c70d4aa804aaf075667f6df
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp27621dca9c70d4aa804aaf075667f6df"
@@ -914,6 +1264,18 @@ RuleSet: 27621dca9c70d4aa804aaf075667f6dfListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-27621dca9c70d4aa804aaf075667f6df) // aimovig pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

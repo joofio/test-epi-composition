@@ -1002,6 +1002,598 @@ og om, hvordan de behandles. </p>         </div>"""
 
 
 
+Instance: composition-pt-a2ad7d6c832ea8692cbcd9e308086f01
+InstanceOf: CompositionUvEpi
+Title: "Composition for volibris Package Leaflet"
+Description:  "Composition for volibris Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa2ad7d6c832ea8692cbcd9e308086f01)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - volibris"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Volibris e para que é utilizado 
+2. O que precisa de saber antes de tomar Volibris 
+3. Como tomar Volibris 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Volibris 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é volibris e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é volibris e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Volibris contém a substância ativa ambrisentano. Pertence ao grupo de medicamentos denominados 
+outros anti-hipertensores (utilizados para tratar a pressão sanguínea elevada). </p>
+<p>Este é usado para tratar a hipertensão arterial pulmonar (HAP) em adultos, adolescentes e crianças 
+com 8 ou mais anos de idade. A HAP é pressão sanguínea elevada nos vasos sanguíneos (as artérias 
+pulmonares) que transportam o sangue do coração para os pulmões. Em pessoas com HAP, estas 
+artérias ficam mais estreitas, pelo que o coração tem de trabalhar mais para bombear o sangue através 
+delas. Isto faz com que as pessoas se sintam cansadas, com tonturas e falta de ar.  </p>
+<p>Volibris alarga as artérias pulmonares, tornando mais fácil para o coração bombear o sangue através 
+delas. Isto baixa a pressão arterial e alivia os sintomas. </p>
+<p>Volibris pode também ser utilizado em associação com outros medicamentos utilizados para tratar a 
+HAP. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar volibris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar volibris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Volibris:  </p>
+<ul>
+<li>
+<p>se tem alergia ao ambrisentano, soja, ou a qualquer outro componente deste medicamento 
+(indicados na secção 6) </p>
+</li>
+<li>
+<p>se está grávida, se está a planear engravidar, ou se puder ficar grávida por não estar a usar 
+um método de controlo da natalidade seguro (contraceção). Por favor leia a informação na 
+secção ‘Gravidez’ </p>
+</li>
+<li>
+<p>se estiver a amamentar. Por favor leia a informação na secção ‘Amamentação’ </p>
+</li>
+<li>
+<p>se tiver doença do fígado. Fale com o seu médico, que decidirá se este medicamento é 
+adequado para si </p>
+</li>
+<li>
+<p>se tiver cicatrizes nos pulmões, de causa desconhecida (fibrose pulmonar idiopática). </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico antes de tomar este medicamento: </p>
+<ul>
+<li>
+<p>se tiver problemas no fígado </p>
+</li>
+<li>
+<p>se tiver anemia (um reduzido número de glóbulos vermelhos) </p>
+</li>
+<li>
+<p>se tiver mãos, tornozelos ou pés inchados devido a retenção de fluidos (edema periférico) </p>
+</li>
+<li>
+<p>se tiver uma doença nos pulmões em que as veias dos pulmões estão bloqueadas (doença veno-
+oclusiva pulmonar).  </p>
+</li>
+</ul>
+<p>→ O seu médico irá decidir se Volibris é adequado para si. </p>
+<p>Irá necessitar de análises ao sangue regulares<br />
+Antes de começar a tomar Volibris, e em intervalos regulares enquanto estiver a tomá-lo, o seu médico 
+irá realizar-lhe análises ao sangue para verificar:  </p>
+<ul>
+<li>
+<p>se tem anemia  </p>
+</li>
+<li>
+<p>se o seu fígado está a trabalhar bem. </p>
+</li>
+</ul>
+<p>→ É importante que faça estas análises ao sangue regularmente durante o período em que estiver a 
+tomar Volibris. </p>
+<p>Sinais de que o seu fígado pode não estar a trabalhar bem incluem: </p>
+<ul>
+<li>
+<p>perda de apetite  </p>
+</li>
+<li>
+<p>sensação de má disposição (náuseas)  </p>
+</li>
+<li>
+<p>estar mal disposto (vómitos)  </p>
+</li>
+<li>
+<p>temperatura elevada (febre)  </p>
+</li>
+<li>
+<p>dor no seu estômago (abdómen) </p>
+</li>
+<li>
+<p>amarelecimento da sua pele ou da cor branca dos seus olhos (icterícia)  </p>
+</li>
+<li>
+<p>urina de cor escura </p>
+</li>
+<li>
+<p>comichão na pele. </p>
+</li>
+</ul>
+<p>Se notar qualquer um destes sinais:  </p>
+<p>→ Informe o seu médico imediatamente.  </p>
+<p>Crianças 
+Não dê este medicamento a crianças com idade inferior a 8 anos uma vez que não é conhecida a 
+segurança e a eficácia neste grupo etário.  </p>
+<p>Outros medicamentos e Volibris<br />
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Se começar a tomar ciclosporina A (um medicamento usado após transplantes ou para tratamento da 
+psoríase), o seu médico poderá necessitar de ajustar a sua dose de Volibris. </p>
+<p>Se estiver a tomar rifampicina (um antibiótico utilizado para tratar infeções graves), o seu médico irá 
+monitorizá-lo(a) quando começar a tomar Volibris. </p>
+<p>Se estiver a tomar outros medicamentos para tratar a HAP (por exemplo, iloprost, epoprostenol, 
+sildenafil), o seu médico poderá ter necessidade de o(a) monitorizar.  </p>
+<p>→ Informe o seu médico ou farmacêutico se estiver a tomar algum destes medicamentos  </p>
+<p>Gravidez<br />
+Volibris pode ser prejudicial para os bebés se estes forem concebidos antes, durante ou logo após o 
+tratamento. </p>
+<p>→ Se for possível que possa ficar grávida, use um método de controlo da natalidade seguro 
+(contraceção) enquanto estiver a tomar Volibris. Fale com o seu médico acerca disto. </p>
+<p>→ Não tome Volibris se estiver grávida ou a planear engravidar.  </p>
+<p>→ Se engravidar ou pensar que pode estar grávida enquanto estiver a tomar Volibris, fale com o 
+seu médico imediatamente.  </p>
+<p>Se for uma mulher com possibilidade de engravidar, o seu médico irá pedir-lhe que faça um 
+teste de gravidez antes de começar a tomar Volibris e regularmente enquanto estiver a tomar este 
+medicamento. </p>
+<p>Amamentação<br />
+Desconhece-se se a substância ativa de Volibris consegue passar para o leite materno.  </p>
+<p>→ Não amamente enquanto estiver a tomar Volibris. Fale com o seu médico acerca disto. </p>
+<p>Fertilidade<br />
+Se for um homem e estiver a tomar Volibris, é possível que Volibris possa diminuir a sua contagem de 
+esperma. Fale com o seu médico se tiver alguma questão ou preocupações relativamente a isto. </p>
+<p>Condução de veículos e utilização de máquinas<br />
+Volibris pode causar efeitos indesejáveis, tais como diminuição da pressão sanguínea, tonturas, 
+cansaço (ver secção 4) que podem afetar a sua capacidade para conduzir ou utilizar máquinas. Os 
+sintomas da sua condição podem também torná-lo(a) menos apto(a) para conduzir ou utilizar 
+máquinas. </p>
+<p>→ Não conduza nem utilize máquinas se não se estiver a sentir bem.  </p>
+<p>Volibris contém lactose 
+Os comprimidos de Volibris contêm pequenas quantidades de um açúcar chamado lactose. Se foi 
+informado pelo seu médico que tem intolerância a alguns açúcares: </p>
+<p>→ Contacte o seu médico antes de tomar este medicamento. </p>
+<p>Volibris contém lecitina derivada da soja 
+Se for alérgico(a) à soja, não utilize este medicamento (ver secção 2 “Não tome Volibris"). </p>
+<p>Volibris 5 mg e 10 mg comprimidos contém um corante chamado laca de alumínio de vermelho-
+allura AC (E129) 
+Pode causar reações alérgicas (ver secção 4). </p>
+<p>Volibris contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar volibris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar volibris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome sempre este medicamento exatamente como indicado pelo seu médico ou farmacêutico. 
+Fale com o seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>Qual a quantidade de Volibris a tomar  </p>
+<p>Adultos 
+A dose habitual de Volibris é de um comprimido de 5 mg, uma vez por dia. O seu médico pode decidir 
+aumentar a sua dose para 10 mg, uma vez por dia.  </p>
+<p>Se tomar ciclosporina A, não tome mais do que um comprimido de 5 mg de Volibris, uma vez por dia. </p>
+<p>Adolescentes e crianças com idades entre os 8 e menos de 18 anos  </p>
+<p>Dose inicial habitual de Volibris 
+Pesando 35 kg ou mais 
+Um comprimido de 5 mg, uma vez por dia 
+Pesando, pelo menos 20 kg e menos de 35 kg 
+Um comprimido de 2,5 mg, uma vez por dia </p>
+<p>O seu médico pode decidir aumentar a sua dose. É importante que as crianças estejam presentes nas 
+suas consultas médicas regulares, uma vez que a sua dose precisa de ser ajustada à medida que 
+crescem ou ganham peso. </p>
+<p>Se tomado em associação com ciclosporina A, a dose de Volibris para adolescentes e crianças com 
+peso inferior a 50 kg será limitada a 2,5 mg uma vez por dia, ou 5 mg uma vez por dia se pesarem 
+50 kg ou mais. </p>
+<p>Como tomar Volibris<br />
+É melhor tomar o seu comprimido todos os dias à mesma hora. Engula o comprimido inteiro, com um 
+copo de água, não divida, esmague ou mastigue o comprimido. Volibris pode ser tomado com ou sem 
+alimentos. </p>
+<p>Retirar um comprimido de uma embalagem blister (apenas comprimidos de 5 mg e 10 mg)<br />
+Estes comprimidos vêm numa embalagem especial para impedir que as crianças os possam 
+retirar. </p>
+<ol>
+<li>
+<p>Separe um comprimido: rasgue ao longo das linhas de corte para separar uma "bolsa" das 
+restantes. </p>
+</li>
+<li>
+<p>Descasque a camada exterior: começando no canto colorido, levante e remova a parte que cobre a 
+bolsa. </p>
+</li>
+<li>
+<p>Retirar o comprimido: com cuidado, empurre uma extremidade do comprimido através da camada 
+de cobertura. </p>
+</li>
+</ol>
+<p>Os comprimidos de 2,5 mg de Volibris são fornecidos num frasco, não numa embalagem blister. </p>
+<p>Se tomar mais Volibris do que deveria<br />
+Se tomar muitos comprimidos, pode ficar mais suscetível a ter efeitos indesejáveis, tais como dores de 
+cabeça, afrontamentos, tonturas, náuseas (sensação de má disposição) ou diminuição da pressão 
+sanguínea que pode causar a sensação de cabeça leve. </p>
+<p>→ Peça aconselhamento ao seu médico ou farmacêutico, se tomou mais comprimidos do que o que 
+lhe foi prescrito.  </p>
+<p>Caso se tenha esquecido de tomar Volibris<br />
+Se se esquecer de tomar uma dose de Volibris, tome o comprimido assim que se lembrar e depois 
+continue como anteriormente.  </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.  </p>
+<p>Se parar de tomar Volibris<br />
+Volibris é um tratamento que irá necessitar de continuar a tomar para controlar a sua HAP.  </p>
+<p>→ Não pare de tomar Volibris a não ser que tenha acordado parar o tratamento com o seu 
+médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.  </p>
+<p>Efeitos indesejáveis graves 
+Informe o seu médico se tiver algum destes 
+Reações alérgicas 
+Estas são um efeito indesejável frequente que pode afetar até 1 em 10 indivíduos. Pode notar:  </p>
+<ul>
+<li>uma erupção cutânea ou comichão e inchaço (normalmente na face, lábios, língua ou garganta), o 
+que pode causar dificuldade em respirar ou em engolir. </li>
+</ul>
+<p>Inchaço (edema), especialmente dos tornozelos e pés 
+Este é um efeito indesejável muito frequente que pode afetar mais de 1 em 10 indivíduos </p>
+<p>Insuficiência cardíaca 
+Esta é devida ao coração não bombear sangue suficiente. Este é um efeito indesejável frequente que 
+pode afetar até 1 em 10 indivíduos. Os sintomas incluem,  </p>
+<ul>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>cansaço extremo </p>
+</li>
+<li>
+<p>inchaço dos tornozelos e pernas.  </p>
+</li>
+</ul>
+<p>Número reduzido de glóbulos vermelhos (anemia) 
+Este é um efeito indesejável muito frequente que pode afetar mais de 1 em 10 indivíduos. Por vezes 
+requer uma transfusão de sangue. Os sintomas incluem: </p>
+<ul>
+<li>
+<p>cansaço e fraqueza </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>sensação de mal-estar geral. </p>
+</li>
+</ul>
+<p>Pressão arterial baixa (hipotensão)<br />
+Este é um efeito indesejável frequente que pode afetar até 1 em 10 indivíduos. Os sintomas incluem: </p>
+<ul>
+<li>sensação de cabeça leve. </li>
+</ul>
+<p>→ Informe o seu médico imediatamente se notar (ou se o seu filho notar) estes efeitos ou se estes 
+surgirem subitamente após tomar Volibris. </p>
+<p>É importante que faça análises ao sangue regularmente, para verificar se tem anemia e se o seu 
+fígado está a trabalhar bem. Certifique-se que leu também a informação na secção 2, incluída nos 
+títulos ‘Irá necessitar de análises ao sangue regulares’ e ‘Sinais de que o seu fígado pode não estar a 
+trabalhar bem’. </p>
+<p>Outros efeitos indesejáveis<br />
+Muito frequentes (podem afetar mais de 1 em 10 indivíduos)  </p>
+<ul>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>palpitações (batimentos cardíacos rápidos ou irregulares) </p>
+</li>
+<li>
+<p>falta de ar com agravamento pouco tempo após iniciar Volibris </p>
+</li>
+<li>
+<p>corrimento nasal ou nariz entupido, congestão ou dor nos seios nasais </p>
+</li>
+<li>
+<p>sensação de má disposição (náuseas) </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>sensação de cansaço. </p>
+</li>
+</ul>
+<p>Em associação com tadalafil (outro medicamento para a HAP) 
+Para além dos acima mencionados: </p>
+<ul>
+<li>
+<p>afrontamentos (vermelhidão da pele) </p>
+</li>
+<li>
+<p>estar maldisposto (vómitos) </p>
+</li>
+<li>
+<p>dor/desconforto no peito </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 indivíduos)  </p>
+<ul>
+<li>
+<p>visão turva ou outras alterações da visão </p>
+</li>
+<li>
+<p>desmaio </p>
+</li>
+<li>
+<p>resultados anormais das análises sanguíneas para a função hepática </p>
+</li>
+<li>
+<p>corrimento nasal </p>
+</li>
+<li>
+<p>obstipação </p>
+</li>
+<li>
+<p>dor no seu estômago (abdómen) </p>
+</li>
+<li>
+<p>dor ou desconforto no peito </p>
+</li>
+<li>
+<p>afrontamentos (vermelhidão da pele) </p>
+</li>
+<li>
+<p>estar mal disposto (vómitos) </p>
+</li>
+<li>
+<p>sensação de fraqueza </p>
+</li>
+<li>
+<p>hemorragia nasal </p>
+</li>
+<li>
+<p>erupção cutânea </p>
+</li>
+</ul>
+<p>Em associação com tadalafil 
+Para além dos acima mencionados, (exceto resultados anormais das análises sanguíneas para a função 
+hepática): </p>
+<ul>
+<li>zumbidos nos ouvidos (acufenos). </li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 indivíduos)  </p>
+<ul>
+<li>
+<p>lesão no fígado </p>
+</li>
+<li>
+<p>inflamação do fígado causada pelas defesas do próprio corpo (hepatite autoimune) </p>
+</li>
+</ul>
+<p>Em associação com tadalafil </p>
+<ul>
+<li>perda de audição repentina. </li>
+</ul>
+<p>Efeitos indesejáveis em crianças e adolescentes 
+Espera-se que sejam semelhantes aos listados acima para os adultos. </p>
+<p>Comunicação de efeitos indesejáveis<br />
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar volibris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar volibris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.  </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem, após EXP.  </p>
+<p>O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Volibris  </p>
+<p>A substância ativa é o ambrisentano. 
+Cada comprimido revestido por película contém 2,5 mg, 5 mg ou 10 mg de ambrisentano. </p>
+<p>Para os comprimidos de 2,5 mg: 
+Os outros componentes são: lactose mono-hidratada, celulose microcristalina, croscarmelose sódica, 
+estearato de magnésio, álcool polivinílico, talco, dióxido de titânio (E171), macrogol e lecitina (soja) 
+(E322). </p>
+<p>Para os comprimidos de 5 mg ou 10 mg: 
+Os outros componentes são: lactose mono-hidratada, celulose microcristalina, croscarmelose sódica, 
+estearato de magnésio, álcool polivinílico, talco , dióxido de titânio (E171), macrogol , lecitina (soja) 
+(E322) e laca de alumínio de vermelho-allura AC (E129). </p>
+<p>Qual o aspeto de Volibris e conteúdo da embalagem  </p>
+<p>O comprimido revestido por película (comprimido) de Volibris 2,5 mg é branco, redondo, convexo, 
+com 7 mm, com a gravação “GS" num dos lados e “K11" no outro. </p>
+<p>O comprimido revestido por película (comprimido) de Volibris 5 mg é rosa-pálido, quadrado, 
+convexo, com 6,6 mm, com a gravação “GS" numa das faces e “K2C" na outra face. </p>
+<p>O comprimido revestido por película (comprimido) de Volibris 10 mg é rosa forte, oval, convexo, com 
+9,8 mm x 4,9 mm com a gravação “GS" num dos lados e “KE3" no outro. </p>
+<p>Volibris é fornecido sob a forma de comprimidos revestidos por película de 2,5 mg em frascos. Cada 
+frasco contém 30 comprimidos. </p>
+<p>Volibris é fornecido sob a forma de comprimidos revestidos por película de 5 mg e 10 mg em 
+embalagens blister com 10 × 1 ou 30 × 1 comprimidos. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+GlaxoSmithKline (Ireland) Limited 
+12 Riverwalk 
+Citywest Business Campus 
+Dublin Irlanda </p>
+<p>Fabricante  </p>
+<p>GlaxoSmithKline Trading Services Limited <br />
+12 Riverwalk<br />
+Citywest Business Campus<br />
+Dublin Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien<br />
+GlaxoSmithKline Pharmaceuticals s.a./n.v. 
+Tél/Tel: + 32 (0) 10 85 52  </p>
+<p>Lietuva<br />
+GlaxoSmithKline (Ireland) Limited<br />
+Tel: + 370 80000334<br />
+България<br />
+GlaxoSmithKline (Ireland) Limited<br />
+Teл.: + 359 80018 </p>
+<p>Luxembourg/Luxemburg<br />
+GlaxoSmithKline Pharmaceuticals s.a./n.v. 
+Belgique/Belgien 
+Tél/Tel: + 32 (0) 10 85 52<br />
+Česká republika<br />
+GlaxoSmithKline s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com </p>
+<p>Magyarország<br />
+GlaxoSmithKline (Ireland) Limited 
+Tel.: + 36 80088 
+Danmark<br />
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta<br />
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 356 8006Deutschland<br />
+GlaxoSmithKline GmbH &amp; Co. KG 
+Tel.: + 49 (0)89 36044 8produkt.info@gsk.com </p>
+<p>Nederland<br />
+GlaxoSmithKline BV 
+Tel: + 31 (0) 33 2081 
+Eesti<br />
+GlaxoSmithKline (Ireland) Limited<br />
+Tel: + 372 8002 
+Norge<br />
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20<br />
+Ελλάδα<br />
+GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
+Τηλ: + 30 210 68 82<br />
+Österreich<br />
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com 
+España<br />
+GlaxoSmithKline, S.A. 
+Tel: + 34 900 202 es-ci@gsk.com </p>
+<p>Polska<br />
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9France<br />
+Laboratoire GlaxoSmithKline 
+Tél: + 33 (0)1 39 17 84 diam@gsk.com </p>
+<p>Portugal<br />
+GlaxoSmithKline - Produtos Farmacêuticos, Lda. 
+Tel: + 351 21 412 95 FI.PT@gsk.com 
+Hrvatska 
+GlaxoSmithKline (Ireland) Limited<br />
+Tel: + 385 800787 
+România<br />
+GlaxoSmithKline (Ireland) Limited<br />
+Tel: + 40 800672Ireland<br />
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955 
+Slovenija<br />
+GlaxoSmithKline (Ireland) Limited<br />
+Tel: + 386 80688 
+Ísland<br />
+Vistor hf. 
+Sími: + 354 535 7 
+Slovenská republika<br />
+GlaxoSmithKline (Ireland) Limited<br />
+Tel: + 421 800500Italia<br />
+GlaxoSmithKline S.p.A. 
+Tel: + 39 (0)45 7741 Suomi/Finland<br />
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30<br />
+Κύπρος<br />
+GlaxoSmithKline (Ireland) Limited<br />
+Τηλ: + 357 80070 
+Sverige<br />
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija<br />
+GlaxoSmithKline (Ireland) Limited<br />
+Tel: + 371 80205 
+United Kingdom (Northern Ireland)<br />
+GlaxoSmithKline (Ireland) Limited<br />
+Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA} </p>
+<p>Outras fontes de informação  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1043,6 +1635,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a2ad7d6c832ea8692cbcd9e308086f01"
 * entry[0].resource = composition-da-a2ad7d6c832ea8692cbcd9e308086f01
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa2ad7d6c832ea8692cbcd9e308086f01"
+* entry[=].resource = mpa2ad7d6c832ea8692cbcd9e308086f01
+                            
+                    
+Instance: bundlepackageleaflet-pt-a2ad7d6c832ea8692cbcd9e308086f01
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for volibris Package Leaflet for language pt"
+Description: "ePI document Bundle for volibris Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a2ad7d6c832ea8692cbcd9e308086f01"
+* entry[0].resource = composition-pt-a2ad7d6c832ea8692cbcd9e308086f01
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa2ad7d6c832ea8692cbcd9e308086f01"
@@ -1144,6 +1758,18 @@ RuleSet: a2ad7d6c832ea8692cbcd9e308086f01ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a2ad7d6c832ea8692cbcd9e308086f01) // volibris pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

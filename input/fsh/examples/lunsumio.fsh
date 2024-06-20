@@ -1105,6 +1105,671 @@ medmindre fortynding er foretaget under kontrollerede og validerede aseptiske fo
 
 
 
+Instance: composition-pt-8921696d13cf74e5c9697718160f9f03
+InstanceOf: CompositionUvEpi
+Title: "Composition for lunsumio Package Leaflet"
+Description:  "Composition for lunsumio Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8921696d13cf74e5c9697718160f9f03)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - lunsumio"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto  </p>
+<ol>
+<li>O que é Lunsumio e para que é utilizado  </li>
+<li>O que precisa de saber antes de utilizar Lunsumio  </li>
+<li>Como utilizar Lunsumio  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Lunsumio  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é lunsumio e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é lunsumio e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lunsumio contém a substância ativa mosunetuzumab, que é um tipo de anticorpo. Este medicamento é 
+um medicamento contra o cancro. É utilizado no tratamento de adultos que têm um cancro do sangue 
+chamado linfoma folicular (LF). </p>
+<p>No LF, um tipo de glóbulo branco, as células B, tornam-se cancerígenas. As células B anormais não 
+funcionam corretamente e crescem com demasiada rapidez, substituindo as células B normais na 
+medula óssea e nos gânglios linfáticos, que ajudam a proteger contra infeções. </p>
+<p>Lunsumio é administrado em doentes que experimentaram, pelo menos, dois tratamentos anteriores 
+para o LF, quando o cancro não respondeu aos mesmos ou reapareceu novamente. </p>
+<p>Como funciona Lunsumio </p>
+<p>A substância ativa de Lunsumio, mosunetuzumab, é um anticorpo monoclonal, um tipo de proteína 
+que se liga a alvos específicos no organismo. Neste caso, mosunetuzumab liga-se a uma substância-
+alvo que se encontra nas células B, incluindo as células B cancerígenas, e a outro alvo que se encontra 
+nas células T, um tipo de glóbulo branco diferente. As células T são outro componente das defesas do 
+organismo que conseguem destruir células invasoras. Ao ligar-se a ambas as células, como uma ponte, 
+Lunsumio incentiva as células T a destruir as células B cancerígenas. Isto ajuda a controlar o LF e a 
+prevenir que este se dissemine. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar lunsumio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar lunsumio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não pode receber Lunsumio  </p>
+<ul>
+<li>se tem alergia ao mosunetuzumab ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).  </li>
+</ul>
+<p>Caso tenha dúvidas, fale com o seu médico ou enfermeiro antes de lhe administrarem Lunsumio. </p>
+<p>Advertências e precauções  </p>
+<p>Se alguma das situações seguintes se aplicar a si (ou se não tiver a certeza), fale com o seu médico ou 
+enfermeiro antes de lhe administrarem Lunsumio: </p>
+<ul>
+<li>
+<p>se alguma vez teve problemas no coração, nos pulmões ou nos rins  </p>
+</li>
+<li>
+<p>se tem uma infeção, ou se teve uma infeção no passado que durou muito tempo ou que tem 
+continuado a aparecer </p>
+</li>
+<li>
+<p>se estiver planeado levar uma vacina ou se souber que pode precisar de uma num futuro 
+próximo. </p>
+</li>
+</ul>
+<p>Se alguma das situações anteriores se aplicar a si (ou se não tiver a certeza), fale com o seu médico ou 
+enfermeiro antes de receber este medicamento. </p>
+<p>Informe imediatamente o seu médico se tiver sintomas de qualquer um dos efeitos indesejáveis a 
+seguir descritos, durante ou após o tratamento com Lunsumio. Pode precisar de tratamento médico 
+adicional. Os sintomas de cada um dos efeitos indesejáveis são apresentados na secção 4.  </p>
+<ul>
+<li>Síndrome de libertação de citocinas (SLC) - uma condição associada a medicamentos que 
+estimulam as células T. </li>
+<li>Antes de cada perfusão, poderão ser-lhe administrados medicamentos para ajudar a 
+reduzir possíveis efeitos indesejáveis da síndrome de libertação de citocinas.  </li>
+<li>
+<p>A linfohistiocitose hemofagocítica é uma condição em que o sistema imunitário produz 
+demasiadas células que combatem infeções, chamadas histiócitos e linfócitos. Os sinais e 
+sintomas podem sobrepor-se aos da SLC; o seu médico irá verificar a ocorrência desta 
+condição se a sua SLC não responder ao tratamento ou durar mais tempo do que o 
+esperado. </p>
+</li>
+<li>
+<p>Síndrome de lise tumoral - algumas pessoas podem desenvolver valores pouco habituais de 
+alguns sais no sangue, provocados pela degradação rápida de células cancerígenas durante o 
+tratamento.  </p>
+</li>
+<li>
+<p>O seu médico ou enfermeiro irá verificar se tem esta síndrome através de análises de 
+sangue. Antes de cada perfusão, deverá estar bem hidratado e poderão ser-lhe 
+administrados medicamentos que podem ajudar a reduzir valores elevados de ácido úrico. 
+Estes poderão ajudar a reduzir possíveis efeitos indesejáveis da síndrome de lise tumoral.  </p>
+</li>
+<li>
+<p>Exacerbação tumoral - à medida que seu cancro é destruído, este pode reagir e pode parecer 
+que está a piorar; a isto, chama-se reação de exacerbação tumoral.  </p>
+</li>
+<li>
+<p>Infeções - pode ter sinais de infeção, os quais podem variar dependendo do local do organismo 
+onde se localiza a infeção. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes </p>
+<p>Este medicamento não deve ser utilizado em crianças ou adolescentes com idade inferior a 18 anos. 
+Isto porque não existe informação sobre a utilização neste grupo etário.  </p>
+<p>Outros medicamentos e Lunsumio  </p>
+<p>Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. Isto inclui medicamentos obtidos sem receita médica e medicamentos à base de 
+plantas. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida, se pensa estar grávida ou planeia engravida, é importante informar o seu médico antes 
+e durante o tratamento. Isto porque Lunsumio pode afetar o feto.  </p>
+<ul>
+<li>Não use Lunsumio durante a gravidez, a não ser que, após falar com o seu médico, este 
+concordar que os benefícios do tratamento superam eventuais riscos para o feto. </li>
+</ul>
+<p>Contraceção </p>
+<p>As mulheres que possam engravidar tem de utilizar contraceção eficaz enquanto estiverem a receber 
+tratamento e durante 3 meses após a última dose de Lunsumio.   </p>
+<ul>
+<li>Fale com o seu médico ou enfermeiro sobre os métodos contracetivos adequados. </li>
+</ul>
+<p>Amamentação  </p>
+<p>Não pode amamentar enquanto estiver a receber tratamento e durante, pelo menos, 3 meses após o seu 
+último tratamento. Isto porque não se sabe se Lunsumio passa para o leite materno, pelo que pode 
+afetar o bebé. </p>
+<p>Condução de veículos e utilização de máquinas  </p>
+<p>Os efeitos de Lunsumio sobre a capacidade de conduzir, andar de bicicleta ou utilizar quaisquer 
+ferramentas ou máquinas são reduzidos. Se tiver qualquer sintoma que possa afetar a sua capacidade 
+de conduzir, não conduza, não ande de bicicleta nem use ferramentas ou máquinas até a reação 
+desaparecer. Consulte mais informações sobre efeitos indesejáveis na secção 4.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar lunsumio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar lunsumio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lunsumio é administrado sob a supervisão de um médico com experiência na administração destes 
+tratamentos. Siga o esquema de tratamento que o seu médico lhe explicou. Fale com o seu médico se 
+tiver dúvidas. </p>
+<p>Como é administrado Lunsumio </p>
+<p>É administrado, gota a gota, numa veia (perfusão). </p>
+<ul>
+<li>É administrado durante 4 horas no primeiro ciclo. Cada ciclo tem 21 dias e, no primeiro ciclo, 
+receberá a perfusão de 4 horas no dia 1, no dia 8 e no dia 15. * Se os efeitos indesejáveis não forem demasiado intensos, a dose pode ser administrada durante 2 
+horas nos ciclos seguintes. </li>
+</ul>
+<p>Medicamentos administrados antes do tratamento com Lunsumio  </p>
+<p>Poderão dar-lhe outros medicamentos 30 a 60 minutos antes do tratamento com Lunsumio. Isto para 
+ajudar a prevenir reações à perfusão e febre. Estes medicamentos podem incluir: </p>
+<ul>
+<li>
+<p>Corticosteroides - como dexametasona e metilprednisolona </p>
+</li>
+<li>
+<p>Paracetamol  </p>
+</li>
+<li>
+<p>Um anti-histamínico - como a difenidramina </p>
+</li>
+</ul>
+<p>Que quantidade de Lunsumio é administrada  </p>
+<p>Normalmente, Lunsumio é administrado em ciclos de 21 dias. A duração recomendada do tratamento 
+é de, pelo menos, 8 ciclos de tratamento. Contudo, dependendo dos efeitos indesejáveis e da forma 
+como a doença responder ao tratamento, poderão ser-lhe administrados até 17 ciclos.  </p>
+<p>No ciclo 1, receberá 3 doses de Lunsumio durante os 21 dias: </p>
+<ul>
+<li>
+<p>Dia 1: 1 mg </p>
+</li>
+<li>
+<p>Dia 8: 2 mg </p>
+</li>
+<li>
+<p>Dia 15: 60 mg </p>
+</li>
+</ul>
+<p>No ciclo 2, receberá apenas uma dose: </p>
+<ul>
+<li>Dia 1: 60 mg </li>
+</ul>
+<p>Nos ciclos 3 a 17, receberá apenas uma dose: </p>
+<ul>
+<li>Dia 1: 30 mg </li>
+</ul>
+<p>Se falhar uma dose de Lunsumio </p>
+<p>Se faltar a uma marcação para administração do medicamento, marque outra consulta imediatamente. 
+Para que o tratamento seja completamente eficaz é muito importante que não falte a uma 
+administração. </p>
+<p>Se parar de utilizar Lunsumio </p>
+<p>Não pare o tratamento com Lunsumio exceto se já discutiu o assunto com o seu médico. Isto porque 
+parar o tratamento pode fazer com que a sua doença piore.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.  </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Informe imediatamente o seu médico se tiver algum dos sintomas dos seguintes efeitos indesejáveis 
+graves. Poderá ter só um ou alguns destes sintomas. </p>
+<p>Síndrome de libertação de citocinas </p>
+<p>Os sintomas podem incluir: </p>
+<ul>
+<li>
+<p>febre (38 °C ou superior)  </p>
+</li>
+<li>
+<p>arrepios ou tremores </p>
+</li>
+<li>
+<p>pele húmida pálida ou fria  </p>
+</li>
+<li>
+<p>dificuldade em respirar </p>
+</li>
+<li>
+<p>sensação de tonturas ou vertigens </p>
+</li>
+<li>
+<p>batimento cardíaco rápido ou irregular </p>
+</li>
+<li>
+<p>confusão  </p>
+</li>
+<li>
+<p>sensação de grande cansaço ou fraqueza </p>
+</li>
+<li>
+<p>desmaio </p>
+</li>
+<li>
+<p>visão turva </p>
+</li>
+<li>
+<p>dor de cabeça. 
+Linfohistiocitose hemofagocítica </p>
+</li>
+</ul>
+<p>Os sintomas podem incluir: </p>
+<ul>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>aumento do tamanho do fígado e/ou do baço </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>aumento do tamanho dos gânglios linfáticos </p>
+</li>
+<li>
+<p>facilidade de formação de nódoas negras </p>
+</li>
+<li>
+<p>anomalias nos rins </p>
+</li>
+<li>
+<p>problemas respiratórios </p>
+</li>
+<li>
+<p>problemas cardíacos </p>
+</li>
+</ul>
+<p>Síndrome de lise tumoral  </p>
+<p>Os sintomas podem incluir: </p>
+<ul>
+<li>
+<p>febre  </p>
+</li>
+<li>
+<p>arrepios </p>
+</li>
+<li>
+<p>sensação de mal-estar ou mal-estar (náuseas e vómitos) </p>
+</li>
+<li>
+<p>confusão </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>convulsões </p>
+</li>
+<li>
+<p>batimento cardíaco irregular </p>
+</li>
+<li>
+<p>urina escura ou turva </p>
+</li>
+<li>
+<p>cansaço pouco habitual </p>
+</li>
+<li>
+<p>dor muscular ou nas articulações.  </p>
+</li>
+</ul>
+<p>Observado em análises ao sangue </p>
+<ul>
+<li>aumento no potássio, fosfato ou ácido úrico, o que pode provocar problemas nos rins (parte da 
+síndrome de lise tumoral) </li>
+</ul>
+<p>Exacerbação tumoral </p>
+<p>Os sintomas podem incluir: </p>
+<ul>
+<li>
+<p>gânglios linfáticos inchados e dolorosos </p>
+</li>
+<li>
+<p>dor no peito </p>
+</li>
+<li>
+<p>tosse ou dificuldade em respirar </p>
+</li>
+<li>
+<p>dor no local do tumor. </p>
+</li>
+</ul>
+<p>Infeções </p>
+<p>Os sintomas podem incluir: </p>
+<ul>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>dor no peito  </p>
+</li>
+<li>
+<p>cansaço  </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>erupção cutânea dolorosa  </p>
+</li>
+<li>
+<p>dor de garganta  </p>
+</li>
+<li>
+<p>ardor ao urinar  </p>
+</li>
+<li>
+<p>sensação de fraqueza ou mal-estar generalizado. </p>
+</li>
+</ul>
+<p>Se tiver algum destes sintomas após o tratamento com Lunsumio, informe imediatamente o seu 
+médico. Poderá precisar de tratamento médico. </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes: podem afetar mais de 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>Erupção cutânea </p>
+</li>
+<li>
+<p>Comichão na pele </p>
+</li>
+<li>
+<p>Pele seca </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Febre </p>
+</li>
+<li>
+<p>Arrepios </p>
+</li>
+<li>
+<p>Síndrome de libertação de citocinas </p>
+</li>
+</ul>
+<p>Observado em análises ao sangue </p>
+<ul>
+<li>
+<p>Valores baixos de alguns glóbulos brancos (neutropenia) </p>
+</li>
+<li>
+<p>Baixo número de glóbulos vermelhos, o que pode provocar cansaço e falta de ar </p>
+</li>
+<li>
+<p>Baixa contagem de plaquetas, o que pode aumentar a probabilidade de aparecimento de nódoas 
+negras ou hemorragias (trombocitopenia) </p>
+</li>
+<li>
+<p>Valores baixos de fosfato, potássio ou magnésio </p>
+</li>
+<li>
+<p>Valores elevados de alanina aminotransferase no sangue </p>
+</li>
+</ul>
+<p>Frequentes: podem afetar até 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>Infeção pulmonar </p>
+</li>
+<li>
+<p>Infeção das vias respiratórias superiores (infeção do nariz, da garganta, dos seios nasais) </p>
+</li>
+<li>
+<p>Infeção urinária </p>
+</li>
+<li>
+<p>Febre devido a valores baixos de neutrófilos (um tipo de glóbulo branco) </p>
+</li>
+<li>
+<p>Exacerbação tumoral </p>
+</li>
+</ul>
+<p>Observado em análises ao sangue </p>
+<ul>
+<li>Aumento dos valores das enzimas hepáticas, o que pode ser um sinal de problemas no fígado </li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em 100 pessoas </p>
+<ul>
+<li>
+<p>Degradação rápida de células cancerígenas, que conduz a alterações químicas no sangue e a 
+lesão nos órgãos, incluindo os rins, o coração e o fígado (síndrome de lise tumoral) </p>
+</li>
+<li>
+<p>Uma condição em que o sistema imunitário produz demasiadas células que combatem infeções, 
+chamadas histiócitos e linfócitos (linfohistiocitose hemofagocítica). </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V.* Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar lunsumio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar lunsumio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lunsumio será conservado por profissionais de saúde no hospital ou na clínica. As condições de 
+conservação que têm de se ter em conta são as seguintes: </p>
+<ul>
+<li>
+<p>Manter este medicamento fora da vista e do alcance das crianças.  </p>
+</li>
+<li>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+frasco para injetáveis, após VAL/EXP. O prazo de validade corresponde ao último dia do mês 
+indicado. </p>
+</li>
+<li>
+<p>Conservar no frigorífico (2 °C a 8 °C). </p>
+</li>
+<li>
+<p>Não congelar. </p>
+</li>
+<li>
+<p>A solução diluída não deve ser mantida durante mais de 24 horas a 2 °C a 8 °C e durante mais 
+de 24 horas à temperatura ambiente (9 °C a 30 °C). </p>
+</li>
+<li>
+<p>Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>
+</li>
+</ul>
+<p>O seu profissional de saúde irá eliminar adequadamente qualquer medicamento que não seja 
+necessário. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Lunsumio  </p>
+<ul>
+<li>
+<p>A substância ativa é o mosunetuzumab.  </p>
+</li>
+<li>
+<p>Lunsumio 1 mg: Cada frasco para injetáveis contém 1 miligrama (mg) de mosunetuzumab em 
+1 ml, na concentração de 1 mg/ml. </p>
+</li>
+<li>
+<p>Lunsumio 30 mg: Cada frasco para injetáveis contém 30 miligramas (mg) de mosunetuzumab 
+em 30 ml, na concentração de 1 mg/ml. </p>
+</li>
+<li>
+<p>Os outros componentes são: L-histidina, L-metionina, ácido acético, sacarose, polissorbato (E 432), água para preparações injetáveis.  </p>
+</li>
+</ul>
+<p>Qual o aspeto de Lunsumio e conteúdo da embalagem </p>
+<p>Lunsumio é um concentrado para solução para perfusão (concentrado estéril). Trata-se de um líquido 
+límpido e incolor, fornecido num frasco para injetáveis de vidro. </p>
+<p>Cada embalagem de Lunsumio contém um frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Fabricante </p>
+<p>Roche Pharma AG 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+N.V. Roche S.A. 
+Tél/Tel: +32 (0) 2 525 82<br />
+Lietuva 
+UAB “Roche Lietuva" 
+Tel: +370 5 2546 
+България 
+Рош България ЕООД 
+Тел: +359 2 474 54<br />
+Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>Česká republika 
+Roche s. r. O. 
+Tel: +420 - 2 20382Magyarország 
+Roche (Magyarország) Kft. 
+Tel: +36 1 279 4 
+Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99 <br />
+Malta 
+Irreferi għall-Irlanda<br />
+Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624 140<br />
+Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438 
+Eesti 
+Roche Eesti OÜ 
+Tel: + 372 - 6 177 380  </p>
+<p>Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90<br />
+Ελλάδα 
+Roche (Hellas) A.E. 
+Τηλ: +30 210 61 66<br />
+Österreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27 
+España 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81<br />
+Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18<br />
+France 
+Roche 
+Tél: +33 (0) 1 47 61 40<br />
+Portugal 
+Roche Farmacêutica Química, Lda 
+Tel: +351 - 21 425 70<br />
+Hrvatska 
+Roche d.o.o. 
+Tel: +385 1 4722<br />
+România 
+Roche România S.R.L. 
+Tel: +40 21 206 47<br />
+Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0 
+Slovenija 
+Roche farmacevtska družba d.o.o. 
+Tel: +386 - 1 360 26<br />
+Ísland 
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika 
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638 
+Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2 
+Suomi/Finland 
+Roche Oy 
+Puh/Tel: +358 (0) 10 554<br />
+Κύπρος 
+Γ.Α.Σταμάτης &amp; Σια Λτδ. 
+Τηλ: +357 - 22 76 62<br />
+Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1 
+Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039 
+United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Foi concedida a este medicamento uma «Autorização de Introdução no Mercado condicional». Isto 
+significa que se aguarda mais informação sobre este medicamento.  </p>
+<p>A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
+sobre este medicamento e este folheto será atualizado se necessário. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1146,6 +1811,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8921696d13cf74e5c9697718160f9f03"
 * entry[0].resource = composition-da-8921696d13cf74e5c9697718160f9f03
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8921696d13cf74e5c9697718160f9f03"
+* entry[=].resource = mp8921696d13cf74e5c9697718160f9f03
+                            
+                    
+Instance: bundlepackageleaflet-pt-8921696d13cf74e5c9697718160f9f03
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lunsumio Package Leaflet for language pt"
+Description: "ePI document Bundle for lunsumio Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8921696d13cf74e5c9697718160f9f03"
+* entry[0].resource = composition-pt-8921696d13cf74e5c9697718160f9f03
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8921696d13cf74e5c9697718160f9f03"
@@ -1247,6 +1934,18 @@ RuleSet: 8921696d13cf74e5c9697718160f9f03ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8921696d13cf74e5c9697718160f9f03) // lunsumio pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

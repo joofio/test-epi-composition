@@ -675,6 +675,329 @@ hjemmeside http://www.ema.europa.eu. </p>
 
 
 
+Instance: composition-pt-4106f4a5a4b46a8c1fb9847b0f08bced
+InstanceOf: CompositionUvEpi
+Title: "Composition for nerlynx Package Leaflet"
+Description:  "Composition for nerlynx Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4106f4a5a4b46a8c1fb9847b0f08bced)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - nerlynx"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Nerlynx e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Nerlynx </li>
+<li>Como tomar Nerlynx </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Nerlynx </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é nerlynx e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é nerlynx e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Nerlynx 
+Nerlynx contém a substância ativa «neratinib». Pertence a um grupo de medicamentos denominados 
+«inibidores da tirosina quinase» utilizados para bloquear as células cancerígenas e tratar o cancro da 
+mama.  </p>
+<p>Para que é utilizado Nerlynx? 
+Nerlynx é utilizado em doentes com cancro da mama em fase precoce: 
+- com recetores hormonais positivos (HR positivo) e recetor 2 do fator de crescimento epidérmico 
+humano (HER2) positivo (HER2 positivo) e 
+- previamente tratados com outro medicamento denominado «trastuzumab». </p>
+<p>O «recetor HER2» é uma proteína que se encontra à superfície das células do organismo. Ajuda a 
+controlar o modo de crescimento de uma célula mamária saudável. No cancro da mama HER2 
+positivo, as células cancerígenas apresentam uma quantidade elevada de recetores HER2 na sua 
+superfície. Isto resulta numa divisão e crescimento mais rápidos das células cancerígenas. 
+Os «recetores hormonais» também são proteínas expressas no interior das células de alguns tecidos 
+específicos. Os estrogénios e a progesterona ligam-se a essas proteínas e regulam a atividade celular. 
+No cancro da mama HR positivo, o crescimento e a divisão das células tumorais podem estar 
+aumentados pelos estrogénios e/ou progesterona. </p>
+<p>Antes de utilizar Nerlynx, o seu cancro teve de ser testado para demonstrar que é HR positivo e HER2 
+positivo. Terá também de ter recebido tratamento prévio com trastuzumab. </p>
+<p>Como funciona Nerlynx 
+Nerlynx atua bloqueando os recetores HER2 nas células cancerígenas. Isto ajuda a impedir que as 
+células se dividam e cresçam. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar nerlynx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar nerlynx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Nerlynx 
+- se tem alergia ao neratinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6), 
+- se tiver um problema grave no fígado, 
+- se estiver a tomar rifampicina (um medicamento para a tuberculose (TB)), 
+- se estiver a tomar carbamazepina ou fenitoína (medicamentos para convulsões), 
+- se estiver a tomar hipericão (produto à base de plantas para a depressão). </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Nerlynx. </p>
+<p>Tem de tomar um medicamento antidiarreico quando iniciar o tratamento com Nerlynx 
+Nerlynx pode causar diarreia na fase inicial do tratamento. Deve tomar um medicamento antidiarreico 
+para que a sua diarreia não se torne grave e para evitar que fique desidratado durante o tratamento com 
+Nerlynx.  </p>
+<p>Testes e verificações de problemas hepáticos 
+Nerlynx pode causar alterações na função hepática - estas são detetadas em análises ao sangue. O seu 
+médico irá realizar análises ao sangue antes e durante o seu tratamento com Nerlynx. O médico irá 
+interromper o seu tratamento com Nerlynx se os seus testes hepáticos revelarem problemas graves. </p>
+<p>Crianças e adolescentes 
+Não utilizar em crianças com menos de 18 anos de idade. A segurança e eficácia de Nerlynx não 
+foram estudadas neste grupo etário. </p>
+<p>Outros medicamentos e Nerlynx 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto porque Nerlynx pode afetar o modo como outros medicamentos 
+funcionam. Além disso, outros medicamentos podem afetar o modo como Nerlynx funciona. </p>
+<p>Especialmente, informe o seu médico ou farmacêutico se estiver a tomar algum dos medicamentos 
+seguintes: 
+- rifampicina - um medicamento para a tuberculose 
+- carbamazepina, fenobarbital, ou fenitoína - medicamentos para as convulsões 
+- hipericão - um produto à base de plantas para a depressão 
+- cetoconazol, voriconazol, itraconazol ou fluconazol- medicamentos para as infeções fúngicas 
+- eritromicina ou claritromicina - medicamentos para as infeções bacterianas 
+- inibidores da protease - medicamentos antivirais 
+- nefazodona - um medicamento para tratar a depressão 
+- diltiazem ou verapamil - medicamentos para a tensão arterial alta e dor no peito 
+- dabigatrano ou digoxina - um medicamento para problemas cardíacos 
+- rosuvastatina - um medicamento para tratar a colesterolemia elevada 
+- irinotecano - um medicamento usado nos cancros colorretais 
+- sulfassalazina - um medicamento anti-inflamatório intestinal<br />
+- medicamentos para problemas de estômago, tais como: 
+- lansoprazol, omeprazol ou medicamentos semelhantes denominados «inibidores da 
+bomba de protões» ou IBP, não são recomendados. 
+- ranitidina, cimetidina ou medicamentos semelhantes designados “antagonistas do recetor-
+H2". - O neratinib deve ser tomado 10 horas após a administração do antagonista do 
+recetor-H2 e pelo menos 2 horas antes da dose seguinte do antagonista do recetor-H2 
+- antiácidos - a toma destes medicamentos e Nerlynx deve ser separada por um intervalo 
+de, pelo menos, 3 horas. </p>
+<p>Se alguma das situações acima se aplica a si (ou se tiver dúvidas), fale com o seu médico ou 
+farmacêutico antes de tomar Nerlynx. </p>
+<p>Nerlynx com alimentos e bebidas 
+Não ingira toranja ou romã enquanto estiver a tomar Nerlynx - isto inclui comer, beber sumo ou tomar 
+um suplemento que possa conter toranja ou romã. Isto deve-se ao facto de estes frutos poderem 
+interagir com Nerlynx e afetar o modo de funcionamento do medicamento. </p>
+<p>Gravidez 
+Se estiver grávida, o médico avaliará o potencial benefício para si e o risco para o feto antes de lhe 
+administrar este medicamento. Se engravidar enquanto estiver a tomar este medicamento, o médico 
+avaliará o potencial benefício para si e o risco para o feto de continuar o tratamento com este 
+medicamento.   </p>
+<p>Contraceção 
+As mulheres que podem engravidar têm de utilizar um método contracetivo eficaz, incluindo um 
+método de barreira: 
+- durante o tratamento com Nerlynx 
+- durante um mês após o final do tratamento. </p>
+<p>Os homens devem utilizar um método de contraceção de barreira eficaz, tal como um preservativo: 
+- durante o tratamento com Nerlynx 
+- durante três meses após o final do tratamento. </p>
+<p>Amamentação 
+Fale com o seu médico antes de tomar Nerlynx se estiver a amamentar ou se planeia amamentar, uma 
+vez que podem passar pequenas quantidades deste medicamento para o leite materno. O seu médico 
+irá discutir consigo os benefícios e os riscos de tomar Nerlynx durante este período. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de Nerlynx sobre a capacidade de conduzir e utilizar máquinas são reduzidos. Os efeitos 
+indesejáveis de Nerlynx (por exemplo, desidratação e tonturas resultantes da diarreia, fadiga e 
+desmaios) podem afetar o modo como tarefas que exigem discernimento, capacidades motoras ou 
+cognitivas são realizadas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar nerlynx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar nerlynx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Que quantidade de Nerlynx tomar 
+A dose recomendada de Nerlynx é de 6 comprimidos uma vez por dia (um total de 240 mg). 
+- Tome os comprimidos com alimentos. Não esmague ou dissolva os comprimidos.<br />
+- Tome todos os comprimidos com água, aproximadamente à mesma hora todos os dias, 
+preferencialmente de manhã. </p>
+<p>O ciclo do tratamento é de um ano. </p>
+<p>Tem de tomar um medicamento antidiarreico quando iniciar o tratamento com Nerlynx 
+Nerlynx pode causar diarreia na fase inicial do tratamento, a menos que seja tomado um medicamento 
+antidiarreico para prevenir ou reduzir a diarreia. A diarreia ocorre geralmente no início do tratamento 
+com Nerlynx e pode ser grave, fazendo com que fique desidratado.<br />
+- Comece a tomar o medicamento antidiarreico prescrito pelo seu médico com a primeira dose de 
+Nerlynx. 
+- O seu médico irá informá-lo como tomar o medicamento antidiarreico. 
+- Continue a tomar o medicamento antidiarreico durante o primeiro mês ou até ao segundo mês 
+de tratamento com Nerlynx. O seu médico irá informá-lo se é necessário continuar a tomar um 
+medicamento antidiarreico após os primeiros dois meses de tratamento para controlar a diarreia.<br />
+- O seu médico irá também informá-lo se é necessário alterar a dose de Nerlynx devido à diarreia. </p>
+<p>Se tomar mais Nerlynx do que deveria, contacte um médico ou um hospital imediatamente. Leve a 
+embalagem do medicamento consigo. </p>
+<p>Alguns dos efeitos indesejáveis associados à sobredosagem de Nerlynx são: diarreia, náuseas, vómitos 
+e desidratação. </p>
+<h2>Caso se tenha esquecido de tomar Nerlynx</h2>
+<p>Caso se tenha esquecido de tomar uma dose, aguarde até ao dia seguinte e continue com a 
+próxima dose como habitual. 
+-<br />
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Nerlynx 
+- Não pare de tomar Nerlynx sem consultar o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Podem ocorrer os seguintes efeitos indesejáveis com este 
+medicamento: </p>
+<p>Diarreia 
+Nerlynx pode causar diarreia na fase inicial do tratamento, a menos que sejam tomados medicamentos 
+antidiarreicos para prevenir ou reduzir a diarreia. A diarreia pode ser grave e pode ficar desidratado. 
+Ver a secção 3 para obter mais informações sobre o medicamento antidiarreico que deve tomar 
+durante o tratamento com Nerlynx. </p>
+<p>Fale com o seu médico se: 
+- tiver diarreia que não passa - o médico pode aconselhá-lo sobre como controlar a diarreia. 
+- sentir tonturas ou fraqueza devido à diarreia - em alternativa, dirija-se imediatamente ao 
+hospital. </p>
+<p>Problemas hepáticos 
+Nerlynx pode causar alterações na função hepática - estas são detetadas em análises ao sangue. Pode 
+ou não apresentar sinais ou sintomas de problemas hepáticos (por exemplo, pele e/ou olhos amarelos, 
+urina escura ou fezes claras). O seu médico irá realizar análises ao sangue antes e durante o seu 
+tratamento com Nerlynx. O seu médico irá interromper o seu tratamento com Nerlynx se os seus testes 
+hepáticos revelarem problemas graves. </p>
+<p>Outros efeitos indesejáveis 
+Fale com o seu médico ou farmacêutico se notar algum dos seguintes efeitos indesejáveis: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas): 
+- diarreia 
+- dor de estômago, sensação de enjoo ou vómitos, pouco apetite 
+- boca seca ou inflamada, incluindo bolhas ou feridas na boca 
+- erupção na pele 
+- espasmos ou cãibras musculares 
+- sentir-se muito cansado </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas): 
+- sensação de ardor ao urinar e necessidade frequente e urgente de urinar (podem ser sintomas de 
+uma infeção das vias urinárias)<br />
+- desidratação 
+- desmaio 
+- hemorragia nasal 
+- ligeiro mal-estar no estômago 
+- boca seca 
+- alterações nos parâmetros hepáticos nas análises ao sangue 
+- problemas nas unhas, incluindo unhas partidas ou alteração da cor 
+- pele seca, incluindo pele gretada 
+- alterações nos testes da função renal 
+- perda de peso </p>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas): 
+- insuficiência renal 
+- alterações nos parâmetros hepáticos nas análises ao sangue (por ex., aumento da bilirrubina) </p>
+<p>Fale com o seu médico ou farmacêutico se notar algum dos efeitos indesejáveis acima. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar nerlynx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar nerlynx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de qualquer temperatura especial de conservação. 
+Manter o frasco bem fechado para proteger da humidade. </p>
+<p>Não utilize Nerlynx se notar quaisquer sinais de danos na embalagem ou se houver indícios de 
+adulteração (por ex., se o selo interno estiver quebrado). </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Nerlynx 
+- A substância ativa é o neratinib. Cada comprimido revestido por película contém maleato de 
+neratinib, equivalente a 40 mg de neratinib. 
+- Os outros componentes são: 
+- Núcleo do comprimido: manitol (E421), celulose microcristalina, crospovidona, 
+povidona, sílica coloidal anidra, estearato de magnésio<br />
+- Revestimento do comprimido: poli(álcool vinílico), dióxido de titânio (E171), macrogol, 
+talco, óxido de ferro vermelho (E172) </p>
+<p>Qual o aspeto de Nerlynx e conteúdo da embalagem 
+Os comprimidos revestidos por película têm uma forma oval, de cor vermelha, com a gravação 
+«W104» numa face e lisos na outra. </p>
+<p>Nerlynx comprimidos revestidos por película são embalados num frasco branco, redondo, de 
+polietileno de alta densidade (HDPE) com um fecho de polipropileno resistente à abertura por crianças 
+e um selo interno inviolável. Cada frasco contém 180 comprimidos revestidos por película. </p>
+<p>É incluído com cada frasco de comprimidos um agente exsicante de HDPE com 1 g de gel de sílica. 
+Não engolir o exsicante. Mantenha-o dentro do frasco.  </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+PIERRE FABRE MEDICAMENT 
+Les Cauquillous 
+81500 Lavaur 
+França </p>
+<p>Fabricante 
+Pierre Fabre Médicament Production - Cahors 
+Site de Cahors 
+Le Payrat 
+46000 Cahors 
+França </p>
+<p>Este folheto foi revisto pela última vez em MM/AAAA </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -716,6 +1039,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-4106f4a5a4b46a8c1fb9847b0f08bced"
 * entry[0].resource = composition-da-4106f4a5a4b46a8c1fb9847b0f08bced
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4106f4a5a4b46a8c1fb9847b0f08bced"
+* entry[=].resource = mp4106f4a5a4b46a8c1fb9847b0f08bced
+                            
+                    
+Instance: bundlepackageleaflet-pt-4106f4a5a4b46a8c1fb9847b0f08bced
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nerlynx Package Leaflet for language pt"
+Description: "ePI document Bundle for nerlynx Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-4106f4a5a4b46a8c1fb9847b0f08bced"
+* entry[0].resource = composition-pt-4106f4a5a4b46a8c1fb9847b0f08bced
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp4106f4a5a4b46a8c1fb9847b0f08bced"
@@ -817,6 +1162,18 @@ RuleSet: 4106f4a5a4b46a8c1fb9847b0f08bcedListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-4106f4a5a4b46a8c1fb9847b0f08bced) // nerlynx pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

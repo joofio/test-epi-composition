@@ -1197,6 +1197,710 @@ http://www.ema.europa.eu</p>         </div>"""
 
 
 
+Instance: composition-pt-542b66b905705c6df098d31fe81d888d
+InstanceOf: CompositionUvEpi
+Title: "Composition for silapo Package Leaflet"
+Description:  "Composition for silapo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp542b66b905705c6df098d31fe81d888d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - silapo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Silapo e para que é utilizado
+2. O que precisa de saber antes de utilizar Silapo
+3. Como utilizar Silapo
+4. Efeitos indesejáveis possíveis
+5. Como conservar Silapo
+6. Contéudo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é silapo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é silapo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Silapo contém a substância ativa epoetina zeta - uma proteína que estimula a medula óssea a produzir 
+mais glóbulos vermelhos, os quais são transportam hemoglobina (uma substância que transporta 
+ooxigénio). A epoetina zeta é uma cópia da proteína humana eritropoetina e atua de forma idêntica.
+
+Silapo é utilizado para tratar a anemia sintomática causada por doença renal
+
+em crianças em hemodiálise
+
+em adultos em hemodiálise ou diálise
+
+em adultos com anemia grave ainda não submetidos a diálise
+Se tem doença renal, pode ter pouca quantidade de glóbulos vermelhos se o seu rim não 
+produzir eritropoetina suficiente (necessária para a produção de glóbulos vermelhos). Silapo é 
+prescrito para estimular a sua medula óssea a produzir mais glóbulos vermelhos. 
+
+Silapo é utilizado para tratar a anemia em adultos a receber quimioterapia para tumores 
+sólidos, linfoma maligno ou mieloma múltiplo (cancro da medula óssea) que possam necessitar 
+de uma transfusão de sangue. Silapo pode reduzir a necessidade de transfusão de sangue nestes 
+doentes.
+
+Silapo é utilizado em adultos com anemia moderada que doeam algum do seu sangue antes
+de uma cirurgia para que este lhes possa ser dado durante ou após a operação. Uma vez que 
+72
+Silapo estimula a produção de glóbulos vermelhos, os médicos podem tirar mais sangue destas 
+pessoas.
+
+Silapo é utilizado em adultos com anemia moderada que vão ser submetidos a uma 
+cirurgia ortopédica major
+(por ex., cirurgias de colocação de uma prótese da anca ou joelho), para reduzir a potencial 
+necessidade de transfusões sanguíneas.
+
+Silapo é utilizado para tratar a anemia em adultos com distúrbios da medula óssea que 
+provocam uma grave perturbação na produção de células sanguíneas (síndromes
+mielodisplásicas). Silapo pode reduzir a necessidade de transfusões de sangue.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar silapo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar silapo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Silapo
+
+Se tem alergia à epoetina zeta ou a qualquer outro componente deste medicamento (listados na 
+secção 6).
+
+Se foi diagnosticado com Aplasia Eritroide Pura (a medula óssea não consegue produzir 
+glóbulos vermelhos em quantidade suficiente) após tratamento prévio com qualquer 
+medicamento que estimule a produção de glóbulos vermelhos (incluindo Silapo). Ver secção 4. 
+Se tiver tensão arterial alta, não adequadamente controlada com medicamentos.
+
+Para estimular a produção dos seus glóbulos vermelhos (para que os médicos possam colher 
+mais sangue de si) se não pode receber transfusões com o seu próprio sangue durante ou 
+após a cirurgia.
+
+Se vai ser submetido a uma cirurgia eletiva ortopédica major (tal como cirurgia da anca ou 
+do joelho), e:
+
+tem doença cardíaca grave 
+
+tem doenças graves nas suas veias e artérias
+
+teve recentemente um ataque cardíaco ou um acidente vascular cerebral
+
+não pode tomar medicamentos para tornar o sangue mais fluido.
+Silapo pode não ser adequado para si. Fale com o seu médico. Durante o tratamento com Silapo, 
+algumas pessoas precisam de medicamentos para reduzir o risco de coágulos no sangue. Se não 
+pode tomar medicamentos que previnem a coagulação do sangue, não pode tomar Silapo.
+Avisos e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Silapo.
+Silapo e outros medicamentos que estimulam a produção de glóbulos vermelhos podem 
+aumentar o risco de desenvolver coágulos no sangue em todos os doentes. Este risco pode ser 
+mais elevado se tiver outros fatores de risco para desenvolver coágulos no sangue (por exemplo, se 
+já teve um coágulo no sangue no passado ou se tem excesso de peso, se tem diabetes, se tem doença 
+cardíaca ou se está muito tempo em repouso devido a cirurgia ou doença). Por favor informe o seu 
+médico sobre qualquer uma destas situações. O seu médico irá ajudá-lo a decidir se Silapo é adequado 
+para si.
+Fale com o seu médico se alguma das seguintes situações se aplicar a si. É possível que mesmo assim 
+possa utilizar Silapo, mas fale primeiro com o seu médico.
+
+Se sabe que tem, ou teve no passado de:
+
+tensão arterial elevada
+
+ataques epiléticos ou convulsões
+
+doença no fígado
+
+anemia com outras causas
+
+porfiria (uma doença rara do sangue)
+73
+
+Se é um doente com insuficiência renal crónica e, em particular, se não responde 
+adequadamente ao Silapo, o seu médico irá verificar a sua dose de Silapo uma vez que aumentar 
+repetidamente a dose de Silapo se não está a responder ao tratamento, pode aumentar o risco de 
+ter um problema do coração ou dos vasos sanguíneos e pode aumentar o risco de enfarte do 
+miocárdio, AVC e morte.
+
+Se é um doente oncológico, tenha em atenção que os medicamentos que estimulam a produção 
+de glóbulos vermelhos (como o Silapo) podem atuar como fatores de crescimento e, por 
+conseguinte, em teoria podem afetar a progressão do seu cancro. Dependendo da sua situação 
+individual, poder ser preferível uma transfusão de sangue. Por favor, fale com o seu 
+médico.
+
+Se é um doente oncológico, tenha em atenção que a utilização de Silapo pode estar associada a 
+uma sobrevivência menor e a uma maior taxa de morte em doentes com cancro da cabeça e 
+pescoço e cancro da mama metastático que estão a receber quimioterapia.
+
+Foram notificadas reações cutâneas graves, incluindo síndrome de Stevens-Johnson (SSJ) e 
+necrólise epidérmica tóxica (NET), em associação com tratamento com epoetina.
+O SSJ/NET pode aparecer inicialmente sob a forma de manchas avermelhadas tipo alvo ou 
+manchas circulares, muitas vezes com bolhas centrais no tronco. Também podem ocorrer 
+úlceras na boca, garganta, nariz, órgãos genitais e olhos (olhos vermelhos e inchados). Estas 
+erupções cutâneas graves são muitas vezes precedidas de febre e/ou sintomas de tipo gripal. As 
+erupções cutâneas podem evoluir para uma descamação generalizada da pele e complicações 
+potencialmente fatais.
+Se desenvolver uma erupção cutânea grave ou outro destes sintomas cutâneos, pare de tomar 
+Silapo e contacte o seu médico ou procure assistência médica imediatamente.
+Tome especial cuidado com outros medicamentos que estimulam a produção de glóbulos 
+vermelhos: 
+Silapo faz parte de um grupo de medicamentos que estimula a produção de glóbulos vermelhos, à 
+semelhança da proteína humana eritropoietina. O seu profissional de saúde irá sempre registar o 
+medicamento exato que está a utilizar.
+Se, durante o seu tratamento, lhe for administrado um medicamento deste grupo diferente de Silapo, 
+fale com o seu médico ou farmacêutico antes de o utilizar.
+Outros medicamentos e Silapo
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.
+Se está a tomar um medicamento chamado ciclosporina (utilizado, por exemplo, apóstransplantes
+renais), o seu médico pode pedir análises ao sangue para verificar o nível de ciclosporina enquanto 
+estiver a tomar Silapo.
+Se tiver uma consulta num hospital, clínica ou com o seu médico de família, informe os 
+profissionais de saúde que está a ser tratado com Silapo. Silapo pode afetar outros tratamentos ou 
+resultados de análises.
+Os suplementos de ferro e outros estimulantes do sangue podem aumentar a eficácia de Silapo. O 
+seu médico decidirá se é indicado para si tomá-los.
+Gravidez, aleitamento e fertilidade
+É importante que informe o seu médico se alguma das seguintes situações se aplicar a si. É possível 
+que mesmo assim possa utilizar Silapo, mas fale primeiro com o seu médico.
+74
+
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu
+médico ou farmacêutico antes de tomar este medicamento.
+Não estão disponíveis dados sobre o efeito de Silapo na fertilidade.
+Condução de veículos e utilização de máquinas
+Não foram realizados estudos acerca dos efeitos sobre a capacidade de conduzir e utilizar máquinas.
+Silapo contém fenilanalina
+Este medicamento contém até 0,5 mg fenilalanina em cada unidade de dose. A fenilalanina pode ser 
+prejudicial se tiver fenilcetonúria (PKU), uma doença genética rara em que a fenilalanina se acumula 
+porque o seu organismo não a consegue remover adequadamente.
+Silapo contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por unidade de dose, ou seja, é 
+praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar silapo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar silapo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilizar este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se 
+tiver dúvidas.
+O seu médico pediu análises ao sangue e decidiu que precisa de Silapo.
+Silapo pode ser administrado por injeção:
+
+Ou numa veia ou através de um tubo introduzido numa veia (via intravenosa)
+
+Ou sob a pele (via subcutânea).
+O seu médico irá decidir de que forma será efetuada a injeção de Silapo. Normalmente, as injeções 
+serão administradas por um médico, enfermeiro ou outro profissional de saúde. Algumas pessoas, 
+dependendo do motivo do tratamento com Silapo, poderão, mais tarde, aprender como se injetar a si 
+próprios sob a pele: ver Instruções sobre como injetar Silapo a si próprio.
+Silapo não deve ser utilizado:
+
+depois do prazo de validade impresso no rótulo e na embalagem exterior
+
+se sabe ou suspeita que pode ter sido congelado acidentalmente, ou
+
+se o frigorífico teve uma avaria.
+A dose de Silapo que vai receber é baseada no seu peso corporal em quilogramas. A causa da sua 
+anemia é também um fator a considerar para a decisão da dose correta pelo seu médico.
+O seu médico irá monitorizar a sua tensão arterial regularmente enquanto estiver a utilizar Silapo.
+Pessoas com doença renal
+
+O seu médico irá manter o seu nível de hemoglobina entre 10 e 12 g/dl, pois um nível elevado 
+de hemoglobina pode aumentar o risco de coágulos no sangue e de morte. Nas crianças, o nível 
+de hemoglobina deve ser mantido entre 9,5 e 11 g/dl.
+
+A dose inicial recomendada de Silapo para adultos e crianças é de 50 Unidades Internacionais 
+(UI) por quilograma(/kg) de peso corporal, administrada três vezes por semana. 
+
+Para doentes em diálise peritoneal, Silapo poderá ser administrado duas vezes por semana.
+
+Para adultos e crianças, Silapo é administrado por injeção numa veia (via intravenosa) ou 
+através de um tubo colocado numa veia. Quando este acesso (através de uma veia ou tubo) não 
+está disponível de imediato, o seu médico poderá decidir que Silapo deve ser injetado sob a pele 
+(via subcutânea). Isto inclui doentes em diálise e doentes que ainda não estão em diálise.
+75
+
+O seu médico irá pedir análises ao sangue regulares para ver como a sua anemia está a 
+responder e poderá ajustar a dose, normalmente com uma frequência nunca inferior a cada 
+quatro semanas. Deve ser evitada uma subida da hemoglobina superior a 2 g/dl ao longo de um 
+período de quatro semanas. 
+
+Assim que a sua anemia estiver corrigida, o seu médico irá continuar a verificar o seu sangue 
+regularmente. A sua dose de Silapo e a frequência da administração poderão voltar a ser 
+ajustadas para manter a sua resposta ao tratamento. O seu médico irá usar a dose mais baixa 
+eficaz para controlar os sintomas da anemia.
+
+Se não responder adequadamente a Silapo, o seu médico irá verificar a sua dose e irá informá-lo 
+se precisar de mudar as doses de Silapo.
+
+Se estiver a fazer um intervalo posológico mais alargado (superior a uma vez por semana) de 
+Silapo, poderá não manter níveis adequados de hemoglobina e poderá necessitar de um aumento 
+da dose de Silapo ou da frequência da administração.
+
+Poderá receber suplementos de ferro antes e durante o tratamento com Silapo para que este seja 
+mais eficaz.
+
+Se estiver m diálise quando iniciar o tratamento com Silapo, as suas sessões de diálise poderão 
+ter de ser ajustadas. O seu médico irá decidir o que fazer.
+Adultos em quimioterapia
+
+O seu médico pode iniciar o tratamento com Silapo se a sua hemoglobina for igual ou inferior a 
+10 g/dl.
+
+O seu médico irá manter o seu nível da hemoglobina entre 10 e 12 g/dl, pois um nível mais 
+elevado de hemoglobina poderá aumentar o risco de coágulos no sangue e de morte.
+
+A dose inicial recomendada é de 150 UI por quilograma de peso corporal, três vezes por semana
+ou de 450 UI por quilograma de peso corporal uma vez por semana. 
+
+Silapo é administrado por injeção sob a pele.
+
+O seu médico irá pedir análises ao sangue e poderá ajustar a dose, dependendo da forma como a 
+sua anemia responde ao tratamento com Silapo.
+
+Poderá receber suplementos de ferro antes e durante o tratamento com Silapo para o tornar mais 
+eficaz.
+
+Normalmente, irá continuar com o tratamento com Silapo durante um mês após o fim da 
+quimioterapia.
+Adultos que doam o seu próprio sangue
+
+A dose recomendada é de 600 UI por quilograma de peso corporal, duas vezes por semana.
+
+Silapo é administrado por injeção numa veia imediatamente após ter doado sangue, durante as 3 
+semanas anteriores à sua cirurgia.
+
+Poderá receber suplementos de ferro antes e durante o tratamento com Silapo para o tornar mais 
+eficaz.
+Adultos com marcação para cirurgia ortopédica major
+
+A dose recomendada é de 600 UI por quilograma de peso corporal, uma vez por semana.
+
+Silapo é administrado por injeção sob a pele todas as semanas, durante três semanas antes da 
+cirurgia e no dia da cirurgia.
+
+Caso haja uma necessidade médica de reduzir o tempo antes da sua operação, poderá receber 
+uma dose diária de 300 UI/kg durante até os dez dias anteriores à cirurgia, no dia da cirurgia e 
+nos quatro dias imediatamente depois.
+
+Se as análises sanguíneas mostrarem a hemoglobina está muito elevada antes da operação, o 
+tratamento será interrompido.
+
+Poderá receber suplementos de ferro antes e durante o tratamento com Silapo para o tornar mais 
+eficaz.
+Adultos com síndrome mielodisplásica
+
+O seu médico pode iniciar o tratamento com Silapo caso a sua hemoglobina seja igual ou 
+inferior a 10 g/dl. O objetivo do tratamento é manter o nível de hemoglobina entre 10 e 12 g/dl, 
+76
+uma vez que um nível mais elevado de hemoglobina pode aumentar o risco de formação de 
+coágulos sanguíneos e de morte.
+
+O Silapo é administrado por injeção sob a pele.
+
+A dose inicial é de 450 UI por quilograma de peso corporal, uma vez por semana.
+
+O seu médico irá pedir-lhe que faça análises ao sangue e poderá ajustar a dose, dependendo de 
+como a sua anemia responde ao tratamento com Silapo.
+Instruções sobre como injetar Silapo a si próprio
+No início do tratamento, Silapo é normalmente injetado pela equipe médica ou de enfermagem. Mais 
+tarde, o seu médico pode sugerir que seja o próprio ou o seu prestador de cuidados de saúde a aprender 
+a injetar Silapo sob a pele (via subcutânea).
+
+Não tente injetar-se a si próprio, a menos que tenha sido treinado para o fazer por um 
+médico ou enfermeiro,
+
+Utilize Silapo exatamente como indicado pelo seu médico ou enfermeiro.
+
+Utilize Silapo apenas se tiver sido conservado corretamente - ver secção 5, Como conservar 
+Silapo.
+
+Antes de utilizar, deixe a seringa de Silapo em repouso até atingir a temperatura ambiente. 
+Isto normalmente demora entre 15 a 30 minutos.
+Tome apenas uma dose de Silapo por seringa.
+Se Silapo for administrado sob a pele (via subcutânea) o volume injetado não é normalmente mais do 
+que um mililitro (1 ml) em injeção única.
+Silapo é administrado sozinho e não misturado com outros líquidos para injeção.
+Não agite as seringas de Silapo. Agitação vigorosa e prolongada pode estragar o medicamento. Se o 
+medicamento foi vigorosamente agitado, não o utilize.
+Como autoadministrar a seringa pré-cheia
+
+Tire a seringa do frigorífico. O líquido deve atingir a temperatura ambiente. Não retire a 
+proteção da agulha enquanto aguarda que a seringa atinja a temperatura ambiente. 
+
+Retire a seringa da embalagem e verifique se é a dose certa, se não ultrapassou o prazo de 
+validade, se não está danificada e se a solução se apresenta límpida e não congelada.
+
+Escolha o local da injeção. Os melhores locais para administração são no topo da coxa e à volta 
+da barriga (abdómen) mas sempre afastado do umbigo. Varie o local de dia para dia.
+
+Lave as mãos. Utilize um toalhete antisséptico no local da injeção para o desinfetar.
+
+Segure a seringa com a tampa da agulha virada para cima.
+
+Não segure pela extremidade do êmbolo, pelo êmbolo ou pela tampa de proteção da agulha. 
+
+Não puxe o êmbolo para trás em qualquer momento.
+
+Não retire a tampa de proteção da agulha da seringa pré-cheia enquanto não estiver tudo 
+preparado para a administração de Silapo.
+
+Retire a tampa de proteção da agulha segurando o corpo da seringa e puxando cuidadosamente a 
+tampa de proteção da agulha, sem a rodar. Não empurre o êmbolo, não toque na agulha, nem 
+agite a seringa.
+
+Segure uma área larga de pele entre os dedos polegar e indicador. Não a aperte.
+
+Espete completamente a agulha. O seu médico ou enfermeiro poderão ter-lhe indicado como 
+fazer isto.
+
+Com o dedo polegar, empurre o êmbolo até ao limite para injetar todo o líquido. Empurre-o 
+devagar e uniformemente, mantendo a pele segura.
+
+Quando o êmbolo atingir o limite, retire a agulha e solte a pele.
+
+Quando a agulha já tiver sido retirada, pode haver um pequeno sangramento no local da injeção 
+Isto é normal. Pode pressionar o local com um toalhete antisséptico durante alguns segundos 
+após a injeção.
+
+Elimine a sua seringa usada num contentor de seringas. Não tente substituir a tampa de proteção 
+da agulha.
+
+Nunca coloque a sua seringa usada no seu lixo doméstico.
+77
+Como autoadministrar a seringa pré-cheia
+A sua seringa pré-cheia pode ter associado um sistema passivo de proteção da agulha, a fim de evitar 
+acidentes com picadas nas agulhas.
+
+Tire a seringa do frigorífico. O líquido deve atingir a temperatura ambiente. Não retire a 
+proteção da agulha enquanto aguarda que a seringa atinja a temperatura ambiente.
+
+Verifique a seringa para ter a certeza que a dose é a correta, que não ultrapassou o prazo de 
+validade, que não está danificada e que a solução se apresenta límpida e não congelada.
+
+Escolha o local da injeção. Os melhores locais para administração são no topo da coxa e à volta 
+da barriga (abdómen) mas sempre afastado do umbigo. Varie o local de dia para dia.
+
+Lave as mãos. Utilize um toalhete antisséptico no local da injeção para o desinfetar.
+
+Segure a seringa pré-cheia pelo corpo da seringa com a tampa da agulha virada para cima.
+
+Não segure pela extremidade do êmbolo, pelo êmbolo ou pela tampa de proteção da agulha. 
+
+Não puxe o êmbolo para trás em qualquer momento.
+
+Não retire a tampa de proteção da agulha da seringa pré-cheia enquanto não estiver tudo 
+preparado para a administração de Silapo.
+
+Retire a tampa de proteção da agulha segurando o corpo da seringa e puxando cuidadosamente a 
+tampa de proteção da agulha, sem a rodar. Não empurre o êmbolo, não toque na agulha, nem
+agite a seringa.
+
+Segure uma prega de pele entre os dedos polegar e indicador. Não a aperte.
+
+Espete completamente a agulha. O seu médico ou enfermeiro poderão ter-lhe indicado como 
+fazer isto.
+
+Pressione o êmbolo, enquanto segura o rebordo da seringa com os dedos, até que toda a dose 
+tenha sido administrada. O sistema de proteção da agulha NÃO será ativado até que TODA a 
+dose seja administrada.
+
+Quando o êmbolo atingir o limite, retire a agulha e solte a pele.
+
+Solte o êmbolo e deixe a seringa subir até que toda a agulha esteja guardada e trancada no seu 
+lugar.
+
+Quando a agulha já tiver sido retirada da sua pele, pode haver um pequeno sangramento no local 
+da injeção. Isto é normal. Pode pressionar o local com um toalhete antisséptico durante alguns 
+segundos após a injeção.
+
+Elimine a sua seringa usada num contentor de seringas. Não tente substituir a tampa de proteção 
+da agulha.
+
+Nunca coloque a sua seringa usada no seu lixo doméstico.
+78
+Se utilizar mais Silapo do que deveria
+Informe o médico ou enfermeiro imediatamente se pensar que foi administrado mais Silapo do que 
+deveria. É improvável que uma dose excessiva de Silapo cause efeitos indesejáveis.
+Caso se tenha esquecido de administrar Silapo
+Administre a próxima injeção assim que se lembrar. Se está a um dia de administrar a próxima injeção, 
+omita a injeção esquecida e continue com o seu calendário normal de administração. Não administre 
+uma injeção a dobrar para compensar uma dose que se esqueceu de tomar.
+Se é um doente com hepatite C e está a receber interferão e ribavirina
+Deve discutir este assunto com o seu médico pois a associação de Silapo com interferão e ribavirina 
+resultou, em casos raros, em perda do efeito e no desenvolvimento de uma condição chamada Aplasia 
+Eritroide Pura (AEP), que se trata de uma forma grave de anemia. Silapo não está aprovado para o 
+tratamento da anemia associada à hepatite C.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestam em todas as pessoas.
+Informe imediatamente o seu médico ou enfermeira se apresentar qualquer um dos efeitos referidos 
+nesta lista.
+Foram comunicadas erupções cutâneas graves, incluindo síndrome de Stevens-Johnson e necrólise 
+epidérmica tóxica em associação com o tratamento com epoetina. Estas podem aparecer sob a forma 
+de manchas avermelhadas tipo alvo ou manchas circulares, muitas vezes com bolhas centrais no 
+tronco, descamação da pele, úlceras na boca, garganta, nariz, órgãos genitais e olhos e podem ser 
+precedidas de febre e sintomas de tipo gripal. Pare de utilizar Silapo se desenvolver estes sintomas, e 
+contacte o seu médico ou procure assistência médica imediatamente. Ver também a secção 2. Muito frequentes: podem afetar mais de 1 em 10 pessoas
+
+Diarreia
+
+Sensação de mal-estar no estômago
+
+Vómitos
+
+Febre
+
+Congestão das vias respiratórias, tal como nariz entupido e dor de garganta, foram 
+comunicados em doentes com doença do rim que ainda não foram submetidos a diálise.
+Frequentes: podem afetar até 1 em 10 pessoas
+
+Aumento da tensão arterial. Dor de cabeça, particularmente se esta for súbita e penetrante do 
+tipo enxaqueca, sentir-se confuso ou ter convulsões podem ser sinais de um aumento súbito da 
+tensão arterial. Isto necessita de tratamento urgente.O aumento da tensão arterial pode necessitar 
+de tratamento com medicamentos (ou ajuste de qualquer medicamento que toma para a tensão 
+alta).
+
+Coágulos no sangue (incluindo trombose das veias profundas e embolismo) que podem 
+requerer tratamento urgente. Pode ter sintomas como dor no peito, dificuldade em respirar e 
+inchaço e vermelhidão dolorosos geralmente nas pernas.
+
+Tosse
+
+Erupções na pele, que podem resultar de uma reação alérgica
+
+Dor nos ossos ou músculos
+
+Sintomas de tipo gripal, tais como dores de cabeça, dores nas articulações, sensação de 
+fraqueza, arrepios, cansaço e tonturas. Estes sintomas podem ser mais frequentes no início do 
+79
+tratamento. Se tiver estes sintomas durante a injeção numa veia, uma injeção mais lenta pode 
+ajudar a evitá-los no futuro.
+
+Vermelhidão, sensação de queimadura e dor no local de injecção
+
+Inchaço dos tornozelos, pés e dedos
+
+Dor no braço ou perna
+Pouco frequentes: podem afetar até 1 em 100 pessoas
+
+Níveis elevados de potássio no sangue que podem causar um ritmo cardíaco anormal (este é 
+um efeito secundário muito frequente nos doentes em diálise).
+
+Convulsões
+
+Congestão do nariz e vias aéreas
+
+Reação alérgica
+
+Erupção na pele com comichão
+Raros: podem afetar até 1 em 1 000 pessoas.
+
+Sintomas de Aplasia eritrocítica pura (AEP)
+A AEP significa a incapacidade de produzir glóbulos vermelhos suficientes na medula óssea.
+A AEP pode resultar em anemia grave e súbita. Os sintomas são:
+o
+Cansaço fora do normal
+o
+Sensação de tonturas
+o
+Falta de ar.
+A AEP foi comunicada muito raramente, na maioria em doentes com doença no rim, após meses 
+ou anos de tratamento com Silapo ou outros medicamentos que estimulam a produção de 
+glóbulos vermelhos.
+
+Um aumento dos níveis de pequenas células sanguíneas (denominadas plaquetas), normalmente 
+envolvidas na formação de coágulos sanguíneos, particularmente no início do tratamento. O seu 
+médico verificará este parâmetro.
+
+Reação alérgica grave que pode incluir:
+o
+o inchaço da face, lábios, boca, língua ou garganta
+o
+dificuldade em engolir ou respirar
+o
+erupção da pele com comichão (urticária)
+
+Problema com o sangue que pode causar dor, urina de cor escura ou aumento da sensibilidade 
+da pele à luz solar (porfiria).
+Se estiver a receber hemodiálise:
+
+Podem formar-se coágulos no sangue (trombose) no acesso vascular. Há maior probabilidade 
+desta complicação se sofrer de tensão arterial baixa ou se tiver complicações da sua fístula.
+
+Podem também formar-se coágulos no sangue no seu sistema de hemodiálise. O seu médico 
+pode decidir aumentar a sua dose de heparina durante a diálise.
+Informe imediatamente o seu médico ou enfermeiro se tiver qualquer dos efeitos mencionados ou 
+se se aperceber de quaisquer outros efeitos enquanto estiver a receber o tratamento com Silapo.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.
+80</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar silapo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar silapo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2°C - 8°C). Pode retirar Silapo do frigorífico e mantê-lo à temperatura 
+ambiente (até 25°C) durante um máximo de 3 dias. Assim que uma seringa tenha sido retirada do 
+frigorífico e tenha atingido a temperatura ambiente (até 25°C) tem de ser utilizada no prazo de 3 dias 
+ou eliminada.
+Não congelar ou agitar.
+Manter a seringa pré-cheia dentro da embalagem exterior para proteger da luz.
+Não utilize este medicamento se verificar que o selo foi violado ou se o líquido apresenta coloração ou 
+se observar partículas a flutuar. No caso de observar alguma destas situações, rejeite o medicamento.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Silapo
+
+A substância ativa é epoetina zeta (produzida por tecnologia de ADN recombinante na linhagem 
+celular de ovário de hamster chinês (CHO)).
+Silapo 1 000 UI/0,3 ml solução injetável em seringa pré-cheia
+Uma seringa pré-cheia com 0,3 ml de solução injetável contém 1 000 unidades internacionais 
+(UI) de epoetina zeta (eritropoetina humana recombinante). A solução contém 3 333 UI de 
+epoetina zeta por ml.
+Silapo 2 000 UI/0,6 ml solução injetável em seringa pré-cheia
+Uma seringa pré-cheia com 0,6 ml de solução injetável contém 2 000 unidades internacionais 
+(UI) de epoetina zeta (eritropoetina humana recombinante). A solução contém 3 333 UI de 
+epoetina zeta por ml.
+Silapo 3 000 UI/0,9 ml solução injetável em seringa pré-cheia
+Uma seringa pré-cheia com 0,9 ml de solução injetável contém 3 000 unidades internacionais 
+(UI) de epoetina zeta (eritropoetina humana recombinante). A solução contém 3 333 UI de 
+epoetina zeta por ml.
+Silapo 4 000 UI/0,4 ml solução injetável em seringa pré-cheia
+Uma seringa pré-cheia com 0,4 ml de solução injetável contém 4 000 unidades internacionais 
+(UI) de epoetina zeta (eritropoetina humana recombinante). A solução contém 10 000 UI de 
+epoetina zeta por ml.
+Silapo 5 000 UI/0,5 ml solução injetável em seringa pré-cheia
+Uma seringa pré-cheia com 0,5 ml de solução injetável contém 5 000 unidades internacionais 
+(UI) de epoetina zeta (eritropoetina humana recombinante). A solução contém 10 000 UI de 
+epoetina zeta por ml.
+81
+Silapo 6 000 UI/0,6 ml solução injetável em seringa pré-cheia
+Uma seringa pré-cheia com 0,6 ml de solução injetável contém 6 000 unidades internacionais 
+(UI) de epoetina zeta (eritropoetina humana recombinante). A solução contém 10 000 UI de 
+epoetina zeta por ml.
+Silapo 8 000 UI/0,8 ml solução injetável em seringa pré-cheia
+Uma seringa pré-cheia com 0,8 ml de solução injetável contém 8 000 unidades internacionais 
+(UI) de epoetina zeta (eritropoetina humana recombinante). A solução contém 10 000 UI de 
+epoetina zeta por ml.
+Silapo 10 000 UI/1 ml solução injetável em seringa pré-cheia
+Uma seringa pré-cheia com 1 ml de solução injetável contém 10 000 unidades internacionais 
+(UI) de epoetina zeta (eritropoetina humana recombinante). A solução contém 10 000 UI de 
+epoetina zeta por ml.
+Silapo 20 000 UI/0,5 ml solução injetável em seringa pré-cheia
+Uma seringa pré-cheia com 0,5 ml de solução injetável contém 20 000 unidades internacionais 
+(UI) de epoetina zeta (eritropoetina humana recombinante). A solução contém 40 000 UI de 
+epoetina zeta por ml.
+Silapo 30 000 UI/0,75 ml solução injetável em seringa pré-cheia
+Uma seringa pré-cheia com 0,75 ml de solução injetável contém 30 000 unidades internacionais 
+(UI) de epoetina zeta (eritropoetina humana recombinante). A solução contém 40 000 UI de 
+epoetina zeta por ml.
+Silapo 40 000 UI/1 ml solução injetável em seringa pré-cheia
+Uma seringa pré-cheia com 1 ml de solução injetável contém 40 000 unidades internacionais 
+(UI) de epoetina zeta (eritropoetina humana recombinante). A solução contém 40 000 UI de 
+epoetina zeta por ml.
+
+Os outros componentes são fosfato dissódico di-hidratado, fosfato monossódico di-hidratado, 
+cloreto de sódio, cloreto de cálcio di-hidratado, polissorbato 20, glicina, leucina, isoleucina, 
+treonina, ácido glutâmico, fenilalanina, água para preparações injetáveis, hidróxido de sódio 
+(regulador de pH), ácido clorídrico (regulador de pH).
+Qual o aspeto de Silapo e conteúdo da embalagem
+Silapo é uma solução injetável incolor e límpida. É cheia em seringas de vidro transparente com uma 
+agulha para injeção fixa.
+As seringas pré-cheias contêm entre 0,3 e 1 ml de solução, dependendo do conteúdo da epoetina zeta 
+(ver “Qual a composição de Silapo").
+Uma embalagem contém 1, 4 ou 6 seringas pré-cheias com ou sem proteção de agulha.
+Titular da Autorização de Introdução no Mercado
+STADA Arzneimittel AG
+Stadastrasse 2-18
+D-61118 Bad Vilbel
+Germany
+82
+Fabricante
+STADA Arzneimittel AG 
+Stadastrasse 2-18
+D-61118 Bad Vilbel
+Alemanha
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+STADAPHARM GmbH
+Stadastraße 2-18
+D-61118 Bad Vilbel
+Tel: +49 (0) 6101 603-0
+Fax: +49 (0) 6101 603-3888
+Este folheto foi revisto pela última vez em {MM/AAAA}.
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1238,6 +1942,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-542b66b905705c6df098d31fe81d888d"
 * entry[0].resource = composition-da-542b66b905705c6df098d31fe81d888d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp542b66b905705c6df098d31fe81d888d"
+* entry[=].resource = mp542b66b905705c6df098d31fe81d888d
+                            
+                    
+Instance: bundlepackageleaflet-pt-542b66b905705c6df098d31fe81d888d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for silapo Package Leaflet for language pt"
+Description: "ePI document Bundle for silapo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-542b66b905705c6df098d31fe81d888d"
+* entry[0].resource = composition-pt-542b66b905705c6df098d31fe81d888d
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp542b66b905705c6df098d31fe81d888d"
@@ -1339,6 +2065,18 @@ RuleSet: 542b66b905705c6df098d31fe81d888dListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-542b66b905705c6df098d31fe81d888d) // silapo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

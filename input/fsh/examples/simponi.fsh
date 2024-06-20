@@ -1508,6 +1508,762 @@ Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""
 
 
 
+Instance: composition-pt-d2d145b277f24456eda5f7dbaa40b7cf
+InstanceOf: CompositionUvEpi
+Title: "Composition for simponi Package Leaflet"
+Description:  "Composition for simponi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd2d145b277f24456eda5f7dbaa40b7cf)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - simponi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Simponi e para que é utilizado
+2. O que precisa de saber antes de utilizar Simponi
+3. Como utilizar Simponi
+4. Efeitos indesejáveis possíveis
+5. Como conservar Simponi
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é simponi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é simponi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Simponi contém a substância ativa chamada golimumab.
+Simponi pertence a um grupo de medicamentos chamados “antagonistas do TNF". É utilizado em 
+crianças com 2 ou mais anos de idade para o tratamento da artrite idiopática juvenil poliarticular.
+Simponi bloqueia a ação de uma proteína chamada “fator de necrose tumoral alfa" (TNF-α). Esta 
+proteína está envolvida em processos inflamatórios do organismo e o seu bloqueio pode diminuir a 
+inflamação no seu corpo.
+Artrite idiopática juvenil poliarticular
+A artrite idiopática juvenil poliarticular é uma doença inflamatória que causa dor e inchaço nas 
+articulações das crianças. Se tem artrite idiopática juvenil poliarticular receberá primeiro tratamento 
+com outros medicamentos. Se não responder de forma adequada a estes medicamentos, receberá
+Simponi em combinação com metotrexato para tratar a doença.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar simponi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar simponi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Simponi
+
+Se tem alergia (hipersensibilidade) ao golimumab ou a qualquer outro componente deste 
+medicamento (indicados na secção 6).
+
+Se tem tuberculose (TB) ou outra infeção grave.
+
+Se tem insuficiência cardíaca moderada ou grave.
+Se não tem a certeza se alguma das situações acima referidas se aplica a si, fale com o seu médico, 
+farmacêutico ou enfermeiro antes de utilizar Simponi.
+132
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Simponi.
+Infeções
+Informe imediatamente o seu médico se já teve ou tiver sintomas de infeção durante ou após o 
+tratamento com Simponi. Os sintomas de infeção incluem febre, tosse, falta de ar, sintomas gripais, 
+diarreia, feridas, problemas dentários ou sensação de ardor ao urinar.
+
+Poderá contrair (desenvolver) infeções mais facilmente ao utilizar Simponi.
+
+As infeções poderão progredir mais rapidamente e ser mais graves. Adicionalmente, algumas 
+infeções anteriores poderão voltar a aparecer.
+Tuberculose (TB)
+Fale imediatamente com o seu médico se surgirem sintomas de TB durante ou após o tratamento 
+com Simponi. Os sintomas de TB incluem tosse persistente, perda de peso, cansaço, febre ou 
+suores noturnos.
+
+Foram notificados casos de TB em doentes tratados com Simponi, em raras ocasiões 
+mesmo em doentes que foram tratados com medicamentos para a TB. O seu médico irá 
+fazer-lhe um teste para ver se tem TB. O seu médico irá registar estes testes no seu Cartão 
+de Alerta do Doente.
+
+É muito importante que informe o seu médico se já tiver tido TB ou se esteve em contacto 
+próximo com alguém que teve ou tem TB.
+
+Se o seu médico entender que está em risco de ter TB, poderá ser tratado com 
+medicamentos para a tuberculose antes de iniciar o tratamento com Simponi.
+Vírus da Hepatite B (VHB)
+
+Fale com o seu médico se for portador ou se tem ou tiver tido VHB antes de lhe ser 
+administrado Simponi.
+
+Fale com o seu médico se pensa que pode estar em risco de contrair VHB.
+
+O seu médico deverá fazer-lhe um teste para o VHB
+
+O tratamento com antagonistas do TNF, tal como Simponi, pode resultar na reativação do
+VHB em doentes portadores deste vírus. Em alguns casos, esta situação pode pôr a vida 
+em risco.
+Infeções fúngicas invasivas
+Se viveu ou viajou para uma região onde infeções causadas por tipos específicos de fungos que 
+podem afetar os pulmões ou outras partes do corpo (chamadas histoplasmose, 
+coccidioidomicose ou blastomicose) são frequentes, informe o seu médico imediatamente. 
+Pergunte ao seu médico se não souber se estas infeções são ou não frequentes na área onde 
+viveu ou para onde viajou.
+Cancro ou linfoma
+Fale com o seu médico se alguma vez lhe foi diagnosticado linfoma (um tipo de cancro do sangue) ou 
+qualquer outro tipo de cancro, antes de utilizar Simponi.
+
+Ao utilizar Simponi ou outros antagonistas do TNF, o seu risco de desenvolver linfoma ou outro 
+tipo de cancro pode aumentar.
+
+Os doentes com artrite reumatoide grave ou outra doença inflamatória, que sofrem da doença há 
+muito tempo, podem ter um risco maior de ter linfoma do que a população em geral.
+
+Ocorreram casos de cancros, incluindo de tipos não habituais, em doentes crianças e 
+adolescentes a receber antagonistas do TNF, que algumas vezes resultaram em morte.
+
+Em raras ocasiões, um tipo de linfoma específico e agressivo chamado linfoma hepatoesplénico 
+de células T foi observado em doentes a tomar antagonistas do TNF. A maioria destes doentes 
+eram adolescentes ou jovens adultos do sexo masculino. Este tipo de cancro tem geralmente 
+resultado em morte. Quase todos estes doentes tomaram também medicamentos conhecidos 
+como azatioprina ou 6-mercaptopurina. Fale com o seu médico se estiver a tomar azatioprina ou 
+6-mercaptopurina com Simponi.
+133
+
+Doentes com asma grave persistente, doença pulmonar obstrutiva crónica (DPOC) ou que sejam 
+fumadores compulsivos, podem estar em maior risco de desenvolver cancro com o tratamento 
+com Simponi. Se tiver asma grave persistente, DPOC ou se é um fumador compulsivo, deve 
+discutir com o seu médico se o tratamento com um antagonista do TNF é apropriado para si.
+
+Alguns doentes tratados com golimumab desenvolveram certos tipos de cancro de pele. Se 
+ocorrer alguma alteração no aspeto da pele, ou crescimento de sinais na pele, durante ou após o 
+tratamento, fale com o seu médico.
+Insuficiência cardíaca
+Fale imediatamente com o seu médico se desenvolver ou piorar os sintomas de insuficiência cardíaca. 
+Os sintomas de insuficiência cardíaca incluem falta de ar ou inchaço dos pés.
+
+Têm sido notificados novos casos ou casos de agravamento da insuficiência cardíaca congestiva 
+com antagonistas do TNF, incluindo Simponi. Alguns destes casos foram fatais.
+
+Se tiver insuficiência cardíaca ligeira e estiver a ser tratado com Simponi, deverá ser 
+cuidadosamente monitorizado (seguido) pelo seu médico.
+Doenças do sistema nervoso
+Informe imediatamente o seu médico se alguma vez lhe foi diagnosticado ou se teve sintomas de uma 
+doença desmielinizante, como a esclerose múltipla. Os sintomas podem incluir alterações da visão, 
+fraqueza nos braços ou pernas ou dormência ou sensação de formigueiro em qualquer parte do seu 
+corpo. O seu médico decidirá se deve receber Simponi.
+Cirurgias ou procedimentos dentários
+
+Fale com o seu médico caso venha a ser submetido a alguma cirurgia ou procedimento dentário.
+
+Fale com o seu cirurgião ou médico dentista informando-o de que está a ser tratado com 
+Simponi e mostre-lhe o seu Cartão de Alerta do Doente.
+Doença autoimune
+Fale com o seu médico se desenvolver sintomas de uma doença chamada lúpus. Os sintomas incluem 
+erupções cutâneas persistentes, febre, dores nas articulações e cansaço.
+
+Em casos raros, as pessoas tratadas com antagonistas do TNF desenvolveram lúpus.
+Doença do sangue
+Nalguns doentes o corpo pode deixar de produzir quantidade suficiente das células do sangue que 
+ajudam o seu corpo a combater infeções, ou que ajudam a parar as hemorragias. Se desenvolver uma 
+febre que não desaparece, tiver nódoas negras ou perder sangue com muita facilidade ou tiver um 
+aspeto muito pálido, contacte o seu médico imediatamente. O seu médico pode decidir parar o 
+tratamento.
+Se não tem a certeza se alguma das situações acima referidas se aplica a si, fale com o seu médico ou 
+farmacêutico antes de utilizar Simponi.
+Vacinação
+Fale com o seu médico no caso de ter recebido uma vacina ou de estar programado receber uma 
+vacina.
+
+Não deve receber certos tipos de vacinas (vivas) durante o tratamento com Simponi.
+
+Algumas vacinas podem causar infeções. Se recebeu Simponi enquanto estava grávida, o seu 
+bebé pode ter um maior risco de contrair uma infeção até cerca de seis meses após a última dose 
+que recebeu durante a gravidez. É importante que informe os médicos do seu filho e outros 
+profissionais de saúde sobre a utilização de Simponi para que eles possam decidir quando o seu 
+bebé deve receber qualquer vacina.
+Fale com o médico do seu filho sobre a vacinação para o seu filho. Se possível, o seu filho deverá ter a 
+vacinação em dia antes de iniciar o tratamento com Simponi.
+134
+Agentes terapêuticos infecciosos
+Fale com o seu médico se tiver recebido recentemente ou tem programado receber tratamento com um 
+agente terapêutico infeccioso (como instilação de BCG usada no tratamento do cancro).
+Reações alérgicas
+Informe o seu médico imediatamente se desenvolver sintomas de uma reação alérgica após o seu 
+tratamento com Simponi. Os sintomas de uma reação alérgica podem incluir inchaço da cara, lábios, 
+boca ou garganta que pode causar dificuldade em engolir ou respirar, erupção cutânea (pele), urticária, 
+inchaço das mãos, pés ou tornozelos.
+
+Algumas destas reações podem ser graves ou, raramente, podem pôr a sua vida em risco.
+
+Algumas destas reações ocorreram após a primeira administração de Simponi.
+Crianças
+Simponi não é recomendado para crianças com menos de 2 anos de idade com artrite idiopática juvenil 
+poliarticular uma vez que não foi estudado neste grupo.
+Outros medicamentos e Simponi
+
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se 
+vier a utilizar outros medicamentos, incluindo qualquer outro medicamento usado no tratamento 
+de artrite idiopática juvenil poliarticular.
+
+Não deve utilizar Simponi com medicamentos que contêm a substância ativa anacinra ou 
+abatacept. Estes medicamentos são utilizados no tratamento de doenças reumáticas.
+
+Informe o seu médico ou farmacêutico se estiver a tomar outros medicamentos que afetem o seu 
+sistema imunitário.
+
+Não deve receber determinadas vacinas (vivas) enquanto estiver a utilizar Simponi.
+Se não tem a certeza se alguma das situações acima referidas se aplica a si, fale com o seu médico ou 
+farmacêutico antes de utilizar Simponi.
+Gravidez e aleitamento
+Fale com o seu médico antes de utilizar Simponi se:
+
+Estiver grávida ou planear ficar grávida durante o tratamento com Simponi. Há informação 
+limitada sobre os efeitos deste medicamento em mulheres grávidas. Se estiver a ser tratada com 
+Simponi, tem de evitar ficar grávida utilizando um método contracetivo adequado durante o seu 
+tratamento e durante, pelo menos, 6 meses após a última administração de Simponi. Simponi só 
+deve ser administrado durante a gravidez se for claramente necessário para si.
+
+Antes de amamentar, o seu último tratamento com Simponi deve ter ocorrido há, pelo menos, 
+6 meses. Deve parar de amamentar se estiver a ser tratada com Simponi.
+
+Se recebeu Simponi durante a gravidez, o seu bebé pode ter um maior risco de contrair uma 
+infeção. É importante que informe os médicos do seu filho e outros profissionais de saúde sobre 
+a utilização de Simponi antes de o seu bebé receber qualquer vacina (para mais informações 
+consulte a secção sobre vacinação).
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Condução de veículos e utilização de máquinas
+Simponi tem influência reduzida na sua capacidade de andar de bicicleta, conduzir ou utilizar 
+ferramentas ou máquinas. No entanto, podem ocorrer tonturas depois de utilizar Simponi. Se isto 
+acontecer, não ande de bicicleta, não conduza nem utilize quaisquer ferramentas ou máquinas.
+Simponi contém látex e sorbitol.
+Sensibilidade ao látex
+Uma parte da caneta pré-cheia, a proteção da agulha, contém látex. Uma vez que o látex pode causar 
+reações alérgicas graves, fale com o seu médico antes de utilizar Simponi se for ou o seu cuidador for 
+alérgico ao látex.
+135
+Intolerância ao sorbitol
+Este medicamento contém 18,45 mg de sorbitol (E420) em cada caneta pré-cheia. Cada 0,05 ml do 
+medicamento contém 2,05 mg de sorbitol (E420).</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar simponi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar simponi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.
+Qual a dose de Simponi a administrar
+Artrite idiopática juvenil poliarticular em crianças com 2 ou mais anos de idade:
+
+Crianças com peso inferior a 40 kg:
+A dose recomendada de Simponi para crianças com peso inferior a 40 kg depende do seu peso e 
+altura. O seu médico indicará a dose correta a utilizar. A dose deve ser administrada uma vez 
+por mês, na mesma data de cada mês.
+
+Crianças com pelo menos 40 kg de peso:
+Para crianças com peso corporal de pelo menos 40 kg, está disponível uma caneta pré-cheia ou 
+uma seringa pré-cheia de dose fixa de 50 mg. Para a dose de 50 mg, ver secção 3 “Como utilizar 
+Simponi" do folheto informativo de Simponi 50 mg caneta pré-cheia ou seringa pré-cheia.
+
+Fale com o seu médico antes de tomar a quarta dose. O médico irá decidir se deve continuar o 
+tratamento com Simponi.
+Como é administrado Simponi
+
+Simponi é administrado através de injeção dada por baixo da pele (subcutânea).
+
+Inicialmente, poderá ser o seu médico ou enfermeiro a administrar Simponi. No entanto, poderá 
+decidir com o seu médico se pode administrar Simponi a si próprio ou ao seu filho. Neste caso 
+irá ter treino sobre como injetar Simponi.
+Fale com o seu médico se tiver alguma dúvida sobre a administração de uma injeção a si próprio. No 
+final deste folheto, irá encontrar as “Instruções de utilização" detalhadas.
+Se utilizar mais Simponi do que deveria
+Se utilizou ou lhe administraram Simponi a mais (seja por ter administrado demasiado numa única vez 
+ou por utilizar com frequência a mais), informe o seu médico ou farmacêutico imediatamente. Leve 
+sempre consigo a embalagem exterior, mesmo se estiver vazia, e este folheto informativo.
+Caso se tenha esquecido de utilizar Simponi
+Caso se tenha esquecido de utilizar Simponi na data planeada, injete a dose esquecida logo que se 
+lembre.
+Não administre uma dose a dobrar para compensar uma dose que se esqueceu de administrar.
+Quando administrar a próxima dose:
+
+Se se atrasar menos do que 2 semanas, administre a dose esquecida logo que se lembre e 
+mantenha o seu esquema original.
+
+Se se atrasar mais de 2 semanas, administre a dose esquecida logo que se lembre e consulte o 
+seu médico ou farmacêutico para saber quando deve administrar a próxima dose.
+Se tiver dúvidas sobre o que fazer, fale com o seu médico ou farmacêutico.
+Se parar de utilizar Simponi
+Se estiver a considerar parar o tratamento com Simponi, fale primeiro com o seu médico ou 
+farmacêutico.
+136
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Alguns doentes podem ter efeitos indesejáveis graves e podem 
+necessitar de tratamento. Os efeitos indesejáveis podem surgir até vários meses após a última injeção.
+Informe imediatamente o seu médico se detetar qualquer um dos seguintes efeitos indesejáveis graves
+de Simponi:
+
+reações alérgicas que podem ser graves, ou raramente, fatais (raro). Os sintomas de uma 
+reação alérgica podem incluir inchaço da cara, lábios, boca ou garganta que pode causar 
+dificuldade em engolir ou respirar, erupções cutâneas (na pele), urticária (erupção da pele com 
+comichão), inchaço das mãos, pés ou tornozelos. Algumas destas reações ocorreram após a 
+primeira administração de Simponi.
+
+infeções graves (incluindo TB, infeções bacterianas incluindo infeções graves do sangue e 
+pneumonia, infeções graves causadas por fungos ou outras infeções oportunistas) 
+(frequentes). Sintomas de uma infeção podem incluir febre, cansaço, tosse (persistente), falta 
+de ar, sintomas gripais, perda de peso, suores noturnos, diarreia, feridas, problemas dentários e 
+sensação de ardor ao urinar.
+
+reativação do vírus da hepatite B se for um portador ou se teve hepatite B no passado 
+(raro). Sintomas podem incluir pele e olhos amarelados, urina com uma cor castanho escura, 
+dor abdominal (de barriga) no lado direito, febre, sentir-se enjoado, enjoos e sensação de forte 
+cansaço.
+
+doenças do sistema nervoso como esclerose múltipla (raro). Sintomas das doenças do 
+sistema nervoso podem incluir alterações de visão, fraqueza nos braços ou pernas, 
+adormecimento ou formigueiro de qualquer parte do corpo.
+
+cancro do sistema linfático (linfoma) (raro). Sintomas de linfoma podem incluir inchaço dos 
+gânglios linfáticos, perda de peso ou febre.
+
+insuficiência cardíaca (raro). Sintomas de insuficiência cardíaca podem incluir falta de ar ou 
+inchaço dos pés.
+
+sinais de distúrbios do sistema imunitário chamados:
+-
+lúpus (raro). Sintomas podem incluir dor das articulações ou uma erupção cutânea na 
+face ou braços que é sensível ao sol.
+-
+sarcoidose (raro). Sintomas podem incluir uma tosse persistente, falta de ar, dor no 
+peito, febre, inchaço dos gânglios linfáticos, perda de peso, erupções cutâneas e visão 
+turva.
+
+inchaço dos pequenos vasos sanguíneos (vasculite) (raro). Sintomas podem incluir febre, dor 
+de cabeça, perda de peso, suores noturnos, erupções na pele e alterações de sensibilidade 
+nervosa como dormência ou formigueiro.
+
+cancro de pele (pouco frequente). Sintomas de cancro de pele podem incluir alterações no 
+aspeto da pele ou crescimento de sinais na pele.
+
+doença do sangue (frequente). Sintomas de doença do sangue podem incluir febre que não 
+desaparece, nódoas negras ou hemorragia que surgem muito facilmente ou uma aparência muito 
+pálida.
+
+cancro no sangue (leucemia) (raro). Sintomas de leucemia podem incluir febre, sensação de 
+cansaço, infeções frequentes, nódoas negras que surgem muito facilmente e suores noturnos.
+Informe imediatamente o seu médico se detetar qualquer um dos sintomas mencionados acima.
+Os seguintes efeitos indesejáveis adicionais foram observados com Simponi:
+Efeitos indesejáveis muito frequentes (podem afetar mais de 1 doente em 10):
+
+Infeções do trato respiratório superior, dor de garganta ou rouquidão, nariz a pingar
+137
+Efeitos indesejáveis frequentes (podem afetar até 1 doente em 10):
+
+Alterações nos testes do fígado (aumento das enzimas do fígado) observadas nas análises de 
+sangue realizadas pelo seu médico
+
+Tonturas
+
+Dores de cabeça
+
+Sensação de dormência ou formigueiro
+
+Infeções superficiais causadas por fungos
+
+Abcesso
+
+Infeções bacterianas (tais como celulite)
+
+Baixo número de glóbulos vermelhos no sangue
+
+Baixo número de glóbulos brancos no sangue
+
+Teste no sangue positivo para o lúpus
+
+Reações alérgicas
+
+Indigestão
+
+Dor no estômago
+
+Sentir-se enjoado (náuseas)
+
+Gripe
+
+Bronquite
+
+Infeção dos seios perinasais
+
+Arrepios de frio
+
+Tensão arterial elevada
+
+Febre
+
+Asma, dificuldade em respirar, pieira
+
+Perturbações no estômago e no intestino, que incluem inflamação do revestimento do estômago 
+e do cólon, que podem provocar febre
+
+Dor e úlceras na boca
+
+Reações no local de injeção (incluindo vermelhidão, rigidez, dor, nódoas negras, comichão, 
+formigueiro e irritação)
+
+Perda de cabelo
+
+Erupção e comichão na pele
+
+Dificuldade em dormir
+
+Depressão
+
+Sensação de fraqueza
+
+Fraturas ósseas
+
+Desconforto no peito
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 doente em 100):
+
+Infeção dos rins
+
+Cancro, incluindo cancro da pele e crescimentos ou massas não cancerígenos, incluindo sinais 
+na pele
+
+Bolhas na pele
+
+Infeção grave no corpo (sepsis), incluindo por vezes tensão arterial baixa (choque séptico)
+
+Psoríase (incluindo nas palmas das suas mãos e/ou nas solas dos seus pés e/ou sob a forma de 
+bolhas na pele)
+
+Baixo número de plaquetas no sangue
+
+Combinação de baixos números de plaquetas, glóbulos vermelhos e glóbulos brancos no sangue
+
+Doenças da tiroide
+
+Aumento nos níveis de açúcar no sangue
+
+Aumento nos níveis de colesterol no sangue
+
+Perturbações do equilíbrio
+
+Perturbações da visão
+
+Olho inflamado (conjuntivite)
+
+Alergia no olho
+
+Sensação de batimento irregular do coração
+138
+
+Estreitamento dos vasos sanguíneos no coração
+
+Coágulos de sangue
+
+Rubor (vermelhidão)
+
+Prisão de ventre
+
+Inflamação crónica dos pulmões
+
+Refluxo ácido
+
+Pedras na vesícula
+
+Afeções no fígado
+
+Doenças na mama
+
+Perturbações menstruais
+Efeitos indesejáveis raros (podem afetar até 1 doente em 1.000):
+
+Incapacidade da medula óssea para produzir células do sangue
+
+Diminuição acentuada do número de glóbulos brancos do sangue
+
+Infeção das articulações ou do tecido envolvente
+
+Dificuldade na cicatrização
+
+Inflamação dos vasos sanguíneos em órgãos internos
+
+Leucemia
+
+Melanoma (um tipo de cancro da pele)
+
+Carcinoma de células Merkel (um tipo de cancro da pele)
+
+Reações liquenoides (erupção cutânea de cor vermelha-arroxeada com comichão e/ou linhas de 
+cor branca-acinzentada nas membranas mucosas)
+
+Descamação, pele escamosa
+
+Doenças do sistema imunitário que podem afetar os pulmões, a pele e os gânglios linfáticos 
+(mais frequentemente na forma de sarcoidose)
+
+Dor e alteração da cor nos dedos das mãos ou dos pés
+
+Alterações no paladar
+
+Doenças na bexiga
+
+Doenças nos rins
+
+Inflamação dos vasos sanguíneos da pele que resulta em erupção cutânea
+Efeitos indesejáveis dos quais se desconhece a frequência:
+
+Um cancro no sangue raro que afeta sobretudo pessoas jovens (linfoma hepatoesplénico de 
+células T)
+
+Sarcoma de Kaposi, um cancro raro relacionado com a infeção pelo vírus herpes humano 8. O 
+sarcoma de Kaposi aparece mais frequentemente na forma de lesões da pele de cor púrpura
+
+Agravamento de uma doença chamada dermatomiosite (que corresponde a uma erupção da pele 
+acompanhada de fraqueza muscular)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar simponi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar simponi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Manter este medicamento fora da vista e do alcance das crianças.
+
+Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem após 
+“EXP". O prazo de validade corresponde ao último dia do mês indicado.
+
+Conservar no frigorífico (2°C - 8°C). Não congelar.
+
+Manter a caneta pré-cheia dentro da embalagem exterior para proteger da luz.
+139
+
+Este medicamento pode também ser armazenado fora do frigorífico a temperaturas até um 
+máximo de 25°C por um período único de até 30 dias, mas não além do prazo de validade 
+original impresso na cartonagem. Escreva o novo prazo de validade na cartonagem incluindo 
+dia/mês/ano (não mais do que 30 dias depois de ter sido retirado do frigorífico). Não voltar a 
+colocar no frigorífico depois de ter atingido a temperatura ambiente. Deitar fora este 
+medicamento se não for usado dentro do novo prazo de validade ou dentro do prazo de validade 
+impresso na cartonagem, considerando o que ocorrer primeiro.
+
+Não utilizar este medicamento se verificar que a solução não é incolor a ligeiramente amarelada, 
+se estiver enevoada ou se tiver partículas estranhas.
+
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Simponi
+A substância ativa é o golimumab. Uma caneta pré-cheia de 0,45 ml contém 45 mg de golimumab.
+1 ml contém 100 mg de golimumab.
+Os outros componentes são o sorbitol (E420), histidina, cloridrato de histidina mono-hidratado, 
+polissorbato 80 e água para preparações injetáveis. Para mais informação sobre o sorbitol (E420), ver 
+a secção 2. Qual o aspeto de Simponi e o conteúdo da embalagem
+Simponi é fornecido como solução injetável numa caneta pré-cheia de utilização única, VarioJect. 
+Simponi está disponível em embalagens com 1 caneta pré-cheia.
+A solução é límpida a ligeiramente opalescente (tem um brilho pérola), incolor a ligeiramente 
+amarelada e pode conter algumas pequenas partículas translúcidas ou brancas de proteína. Não utilize 
+Simponi se a solução se apresentar descolorada, enevoada ou se tiver partículas estranhas visíveis.
+Titular de Autorização de Introdução no Mercado e fabricante
+Janssen Biologics B.V.
+Einsteinweg 101
+2333 CB Leiden
+Países Baixos
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel. + 370 5 278 02 47
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: (+32(0)27766211)
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +36 1 888 5300
+hungary_msd@merck.com
+140
+Danmark
+MSD Danmark ApS
+Tlf: + 45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999000
+(+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health) 
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila 
+d.o.o.
+Tel: +386 1 5204 201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421 2 58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ.: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+141
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: + 371 67364224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health) 
+Limited
+Tel: +35312998700
+medinfoNI@msd.com
+Este folheto foi revisto pela última vez em
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1549,6 +2305,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d2d145b277f24456eda5f7dbaa40b7cf"
 * entry[0].resource = composition-da-d2d145b277f24456eda5f7dbaa40b7cf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd2d145b277f24456eda5f7dbaa40b7cf"
+* entry[=].resource = mpd2d145b277f24456eda5f7dbaa40b7cf
+                            
+                    
+Instance: bundlepackageleaflet-pt-d2d145b277f24456eda5f7dbaa40b7cf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for simponi Package Leaflet for language pt"
+Description: "ePI document Bundle for simponi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d2d145b277f24456eda5f7dbaa40b7cf"
+* entry[0].resource = composition-pt-d2d145b277f24456eda5f7dbaa40b7cf
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd2d145b277f24456eda5f7dbaa40b7cf"
@@ -1650,6 +2428,18 @@ RuleSet: d2d145b277f24456eda5f7dbaa40b7cfListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d2d145b277f24456eda5f7dbaa40b7cf) // simponi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

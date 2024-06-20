@@ -545,6 +545,275 @@ hjemmeside. </p>         </div>"""
 
 
 
+Instance: composition-pt-72698f459e623b86f3f80561e5b525b7
+InstanceOf: CompositionUvEpi
+Title: "Composition for mevlyq Package Leaflet"
+Description:  "Composition for mevlyq Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp72698f459e623b86f3f80561e5b525b7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - mevlyq"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Mevlyq e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Mevlyq </li>
+<li>Como utilizar Mevlyq </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Mevlyq </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é mevlyq e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é mevlyq e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mevlyq contém a substância ativa eribulina e é um medicamento anticancerígeno que atua parando o 
+crescimento e a propagação das células cancerosas. </p>
+<p>É utilizado em adultos para o cancro da mama localmente avançado ou metastático (cancro da mama 
+que se espalhou para além do tumor de origem) nos casos em que foi tentado pelo menos um outro 
+tratamento, mas que perdeu o seu efeito. </p>
+<p>É também utilizado em adultos para o lipossarcoma (um tipo de cancro que surge a partir do tecido 
+gordo) avançado ou metastático quando se experimentou uma terapêutica anterior mas a mesma 
+perdeu o seu efeito. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar mevlyq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar mevlyq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Mevlyq 
+- se tem alergia à eribulina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se está a amamentar </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou enfermeiro antes de utilizar Mevlyq: 
+- se tem problemas de fígado 
+- se tem febre ou uma infeção 
+- se tem uma sensação de dormência, formigueiros ou de picadas, sensibilidade ao toque ou 
+fraqueza muscular 
+- se tem problemas de coração </p>
+<p>Se qualquer um destes o afetar, informe o seu médico que pode querer parar o tratamento ou diminuir 
+a dose. </p>
+<p>Crianças e adolescentes </p>
+<p>Mevlyq não é recomendado para crianças e adolescentes com menos de 18 anos de idade com 
+sarcomas pediátricos, uma vez que ainda se desconhece quão bem atua neste grupo etário. </p>
+<p>Outros medicamentos e Mevlyq 
+Informe o seu médico se estiver a utilizar, tiver utilizado recentemente, ou se vier a utilizar outros 
+medicamentos. </p>
+<p>Gravidez, amamentação e fertilidade 
+Mevlyq pode causar defeitos congénitos graves e não deve ser utilizado se estiver grávida, a menos 
+que se pense ser claramente necessário após consideração cuidadosa de todos os riscos para si e para o 
+bebé. Também pode causar, no futuro, problemas de fertilidade permanentes em homens se utilizarem 
+este medicamento, e estes deverão discutir o assunto com o médico antes de iniciarem o tratamento. 
+As mulheres com potencial para engravidar devem utilizar métodos contracetivos eficazes durante e 
+até 3 meses após o tratamento com Mevlyq. </p>
+<p>Mevlyq não pode ser utilizado durante a amamentação devido ao possível risco para a criança. </p>
+<p>Condução de veículos e utilização de máquinas 
+Mevlyq pode causar efeitos indesejáveis como cansaço (muito frequente) e tonturas (frequente). Não 
+conduza ou utilize máquinas se sentir cansaço ou tonturas. </p>
+<p>Mevlyq contém álcool (etanol) e sódio 
+Este medicamento contém 80 mg de álcool (etanol) em cada frasco para injetáveis de 2 ml. A 
+quantidade por dose (5 ml) deste medicamento é equivalente a menos de 5 ml de cerveja ou de 2 ml de 
+vinho. 
+A pequena quantidade de álcool neste medicamento não terá quaisquer efeitos percetíveis. 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio em cada frasco para injetáveis de 
+2 ml, ou seja, é praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar mevlyq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar mevlyq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mevlyq ser-lhe-á administrado por um profissional de saúde qualificado sob a forma de uma injeção 
+numa veia durante um período de 2 a 5 minutos. A dose que lhe será administrada baseia-se na sua 
+área de superfície corporal (expressa em metros quadrados ou m2) que é calculada a partir do seu peso 
+e altura. A dose habitual de Mevlyq é de 1,23 mg/m2, mas esta pode ser ajustada pelo seu médico em 
+função dos resultados das análises ao sangue ou de outros fatores. Para assegurar que a dose completa 
+de Mevlyq é administrada, recomenda-se a irrigação da veia com soro fisiológico após a administração 
+de Mevlyq. </p>
+<p>Com que frequência lhe será administrado Mevlyq? 
+Mevlyq é administrado habitualmente nos Dias 1 e 8 de cada ciclo de 21 dias. O seu médico 
+determinará quantos ciclos de tratamento receberá. Dependendo dos resultados das suas análises ao 
+sangue, o médico pode necessitar de adiar a administração do medicamento até as análises sanguíneas 
+normalizarem. O médico também pode depois decidir diminuir a dose que lhe será administrada. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Caso experimente algum dos seguintes sintomas graves, deve parar de tomar Mevlyq e procurar 
+imediatamente apoio médico: </p>
+<ul>
+<li>Febre, com um batimento cardíaco rápido, respiração rápida e superficial, pele fria, pálida, 
+húmida ou com manchas, e/ou confusão. Estes podem ser sinais de uma afeção chamada sépsis - uma reação grave e séria a uma infeção. A sépsis é pouco frequente (pode afetar até 1 em cada 
+100 pessoas) e pode causar risco de vida e pode resultar em morte. </li>
+<li>Qualquer dificuldade em respirar ou inchaço da face, boca, língua ou garganta. Estes poderão 
+ser sinais de uma reação alérgica pouco frequente (pode afetar até 1 em cada 100 pessoas). </li>
+<li>Erupções na pele graves com formação de bolhas na pele, boca, olhos e genitais. Estes podem 
+ser sinais de uma afeção chamada síndrome de Stevens-Johnson/necrólise epidérmica tóxica. A 
+frequência desta afeção é desconhecida mas pode causar risco de vida. </li>
+</ul>
+<p>Outros efeitos indesejáveis: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas) 
+- diminuição do número de glóbulos brancos ou de glóbulos vermelhos 
+- cansaço ou fraqueza 
+- náuseas, vómitos, prisão de ventre, diarreia 
+- sensação de dormência, formigueiros ou de picadas 
+- febre 
+- perda de apetite, perda de peso 
+- dificuldade em respirar, tosse 
+- dor nas articulações, nos músculos e nas costas 
+- dores de cabeça 
+- queda de cabelo e pelos </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas) 
+- diminuição do número de plaquetas (que pode causar nódoas negras ou fazer com que demore 
+mais tempo a parar de sangrar) 
+- infeção com febre, pneumonia, arrepios 
+- ritmo rápido do coração, afrontamentos 
+- vertigens, tonturas 
+- aumento da produção de lágrimas, conjuntivite (vermelhidão e sensação dolorosa na superfície 
+do olho), sangramento (hemorragia) do nariz 
+- desidratação, boca seca, herpes labial, sapinhos na boca, indigestão, azia, dor ou distensão da 
+barriga (abdominal) 
+- inchaço dos tecidos moles, dores (em especial no tórax, costas e ossos), espasmos musculares 
+ou fraqueza muscular 
+- infeções da boca, das vias respiratórias e das vias urinárias, dor ao urinar 
+- garganta irritada, nariz dorido ou a pingar, sintomas do tipo gripal, dores de garganta 
+- anomalias das provas da função hepática, alteração dos níveis de açúcar, bilirrubina, fosfatos, 
+potássio, magnésio ou cálcio no sangue 
+- incapacidade de dormir, depressão, sensação do paladar alterada 
+- erupção na pele, comichão, problemas nas unhas, pele seca ou vermelha 
+- transpiração excessiva (incluindo suores noturnos) 
+- zumbido nos ouvidos 
+- coágulos de sangue nos pulmões 
+- zona 
+- inchaço da pele e dormência das mãos e pés </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas) 
+- coágulos sanguíneos 
+- alterações nas provas da função hepática (hepatotoxicidade) 
+- insuficiência nos rins, sangue ou proteínas na urina 
+- inflamação generalizada dos pulmões que pode deixar cicatrizes 
+- inflamação do pâncreas </p>
+<ul>
+<li>úlceras na boca </li>
+</ul>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em cada 1000 pessoas) 
+- um distúrbio grave de coagulação do sangue que resulta na formação generalizada de coágulos 
+sanguíneos e hemorragias internas. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar mevlyq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar mevlyq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco 
+para injetáveis após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Se Mevlyq estiver diluído para perfusão, deve ser conservado a 2 °C-8 °C durante um período máximo 
+de 72 horas. </p>
+<p>Se Mevlyq na forma de solução não diluída tiver sido transferido para uma seringa, deverá ser 
+conservado a 25 °C durante um período máximo de 4 horas, ou a 2 °C-8 °C durante um período 
+máximo de 24 horas. </p>
+<p>Do ponto de vista microbiológico, o medicamento deve ser imediatamente utilizado. Se não for 
+utilizado imediatamente, os tempos e condições de conservação em uso antes da utilização são da 
+responsabilidade do utilizador e normalmente não serão superiores a 24 horas a 2 °C-8 °C, a menos 
+que a diluição tenha sido efetuada em condições asséticas controladas e validadas. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Mevlyq </p>
+<ul>
+<li>A substância ativa é a eribulina. Cada frasco para injetáveis contém mesilato de eribulina 
+equivalente a 0,88 mg de eribulina em 2 ml de solução. </li>
+<li>Os outros componentes são etanol anidro, água para preparações injetáveis, ácido clorídrico 
+(para ajuste do pH) e hidróxido de sódio (para ajuste do pH). Ver secção 2 “Mevlyq contém 
+álcool (etanol) e sódio". </li>
+</ul>
+<p>Qual o aspeto de Mevlyq e conteúdo da embalagem </p>
+<p>Mevlyq é uma solução aquosa, incolor e límpida, apresentada em frascos para injetáveis de vidro 
+contendo 2 ml de solução injetável. Cada embalagem exterior contém 1 frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+YES Pharmaceutical Development Services GmbH 
+Basler Strasse 7 
+61352 Bad Homburg 
+Alemanha </p>
+<p>Fabricante 
+A &amp; O Pharma GmbH 
+Am Sattel 79588 Efringen-Kirchen 
+Alemanha </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -586,6 +855,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-72698f459e623b86f3f80561e5b525b7"
 * entry[0].resource = composition-da-72698f459e623b86f3f80561e5b525b7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp72698f459e623b86f3f80561e5b525b7"
+* entry[=].resource = mp72698f459e623b86f3f80561e5b525b7
+                            
+                    
+Instance: bundlepackageleaflet-pt-72698f459e623b86f3f80561e5b525b7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mevlyq Package Leaflet for language pt"
+Description: "ePI document Bundle for mevlyq Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-72698f459e623b86f3f80561e5b525b7"
+* entry[0].resource = composition-pt-72698f459e623b86f3f80561e5b525b7
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp72698f459e623b86f3f80561e5b525b7"
@@ -687,6 +978,18 @@ RuleSet: 72698f459e623b86f3f80561e5b525b7ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-72698f459e623b86f3f80561e5b525b7) // mevlyq pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

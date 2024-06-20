@@ -700,6 +700,389 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-8ff5d67e0b7de732bda1082340f24212
+InstanceOf: CompositionUvEpi
+Title: "Composition for sotyktu Package Leaflet"
+Description:  "Composition for sotyktu Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8ff5d67e0b7de732bda1082340f24212)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - sotyktu"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é SOTYKTU e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar SOTYKTU </li>
+<li>Como tomar SOTYKTU </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar SOTYKTU </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é sotyktu e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é sotyktu e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é SOTYKTU 
+SOTYKTU contém a substância ativa deucravacitinib, que pertence a um grupo de medicamentos 
+denominado inibidores da tirosina cinase 2 (TYK2) que ajudam a reduzir a inflamação associada à 
+psoríase. </p>
+<p>Para que é utilizado SOTYKTU 
+SOTYKTU é utilizado para tratar adultos com “psoríase em placas" moderada a grave, uma condição 
+inflamatória que afeta a pele e que pode provocar manchas vermelhas, escamosas, espessas, que 
+provocam comichão e dolorosas na pele, e que também pode afetar o couro cabeludo, as unhas, as 
+mãos e os pés. </p>
+<p>Como funciona SOTYKTU 
+SOTYKTU bloqueia de forma seletiva a atividade de uma enzima denominada “TYK2" (tirosina 
+cinase 2) que está envolvida no processo de inflamação. Ao reduzir a atividade desta enzima, 
+SOTYKTU pode ajudar a controlar a inflamação associada à psoríase em placas, reduzindo assim os 
+sinais (pele seca, pele gretada, descamação da pele, vermelhidão e sangramento) e pode, por 
+conseguinte, ajudar a reduzir os sintomas, tais como comichão, dor, ardor, sensação de picadas e pele 
+repuxada, desta condição. </p>
+<p>SOTYKTU também demonstrou melhorar a qualidade de vida dos doentes com psoríase. Isto significa 
+que o impacto da sua condição em atividades diárias, relações e outros fatores deverá ser inferior ao 
+que era anteriormente. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar sotyktu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar sotyktu"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome SOTYKTU </p>
+<ul>
+<li>
+<p>se tem alergia ao deucravacitinib ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </p>
+</li>
+<li>
+<p>se tem uma infeção, incluindo tuberculose (TB) ativa, que o seu médico considere importante. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar SOTYKTU: </p>
+<ul>
+<li>
+<p>se tem atualmente uma infeção que não desaparece ou que é recorrente </p>
+</li>
+<li>
+<p>se tem ou teve tuberculose (TB) </p>
+</li>
+<li>
+<p>se tem cancro, porque o seu médico terá de decidir se pode na mesma iniciar o tratamento com 
+SOTYKTU </p>
+</li>
+<li>
+<p>se tem problemas cardíacos ou condições médicas que o tornam mais propenso a desenvolver 
+doença cardíaca - não é claro se SOTYKTU aumenta o risco de doença cardíaca </p>
+</li>
+<li>
+<p>se esteve ou está em risco de ter coágulos de sangue nas veias das pernas (trombose venosa 
+profunda) ou nos pulmões (embolismo pulmonar). Informe o seu médico se ficar com uma 
+perna inchada e com dor, se tiver dores no peito ou se ficar com falta de ar, pois estes podem ser 
+sinais de coágulos de sangue nas veias. Não é claro se SOTYKTU aumenta o risco de coágulos 
+de sangue </p>
+</li>
+<li>
+<p>se recebeu recentemente ou planeia receber uma vacina. </p>
+</li>
+</ul>
+<p>Caso tenha dúvidas sobre se alguma das situações acima descritas se aplica a si, fale com o seu 
+médico, farmacêutico ou enfermeiro antes de tomar SOTYKTU. </p>
+<p>Crianças e adolescentes 
+SOTYKTU não é recomendado para crianças e adolescentes com menos de 18 anos, pois não foi 
+avaliado para este grupo etário. </p>
+<p>Outros medicamentos e SOTYKTU 
+Informe o seu médico ou farmacêutico: </p>
+<ul>
+<li>
+<p>se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros medicamentos </p>
+</li>
+<li>
+<p>se tiver recebido recentemente ou planeia receber uma vacina. Não lhe devem ser administrados 
+determinados tipos de vacinas (vacinas vivas) enquanto está a tomar SOTYKTU. </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. Deve fazê-lo porque não se sabe de que forma o medicamento irá 
+afetar o bebé. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não se prevê que SOTYKTU afete a sua capacidade de conduzir e utilizar máquinas. </p>
+<p>SOTYKTU contém lactose 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>
+<p>SOTYKTU contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar sotyktu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar sotyktu"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é de 6 mg, tomada todos os dias. O comprimido deve ser engolido inteiro e pode 
+ser tomado com ou sem alimentos. Não esmague, parta ou mastigue os comprimidos. </p>
+<p>O seu médico decidirá durante quanto tempo tem de tomar SOTYKTU. </p>
+<p>Se a sua condição não tiver melhorado após seis meses de tratamento, fale com o seu médico. </p>
+<p>Se tomar mais SOTYKTU do que deveria 
+Se tiver tomado mais SOTYKTU do que deveria, fale com o seu médico assim que possível. Poderá 
+ter alguns dos efeitos indesejáveis listados na secção 4.<br />
+Caso se tenha esquecido de tomar SOTYKTU 
+Caso se tenha esquecido de tomar SOTYKTU, tome a dose normal no dia seguinte. Não tome uma 
+dose a dobrar para compensar um comprimido que se esqueceu de tomar. </p>
+<p>Se parar de tomar SOTYKTU 
+Não pare de tomar SOTYKTU sem falar com o seu médico primeiro. Se parar o tratamento, os 
+sintomas da psoríase podem voltar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>infeções das vias respiratórias superiores (nariz e garganta) com sintomas como dor de garganta 
+e nariz entupido </li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>infeção viral na boca (tal como herpes labial) </p>
+</li>
+<li>
+<p>aumento do nível de uma enzima no sangue denominada creatina fosfoquinase (CPK) </p>
+</li>
+<li>
+<p>feridas na boca </p>
+</li>
+<li>
+<p>erupções cutâneas tipo acne </p>
+</li>
+<li>
+<p>inflamação dos folículos pilosos </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>zona (herpes zoster) </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar sotyktu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar sotyktu"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não utilize este medicamento se verificar que os comprimidos estão danificados ou que existem sinais 
+de adulteração da embalagem do medicamento. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de SOTYKTU 
+A substância ativa é o deucravacitinib. Cada comprimido revestido por película contém 6 mg de 
+deucravacitinib. </p>
+<p>Os outros componentes são </p>
+<ul>
+<li>
+<p>núcleo do comprimido: acetato succinato de hipromelose, lactose anidra, celulose 
+microcristalina, croscarmelose sódica, sílica coloidal hidratada e estearato de magnésio. </p>
+</li>
+<li>
+<p>película de revestimento: álcool polivinílico, dióxido de titânio (E171), macrogol, talco, óxido 
+de ferro vermelho (E172) e óxido de ferro amarelo (E172). </p>
+</li>
+</ul>
+<p>Qual o aspeto de SOTYKTU e conteúdo da embalagem 
+SOTYKTU é um comprimido revestido por película redondo e biconvexo, cor-de-rosa, marcado com 
+“BMS 895" e “6 mg" num dos lados em duas linhas, liso no outro lado. </p>
+<p>Os comprimidos revestidos por película são fornecidos em blisters calendário ou não calendário com 7 
+ou 14 comprimidos. 
+Cada embalagem contém 7, 14, 28 ou 84 comprimidos revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrlanda </p>
+<p>Fabricante 
+Swords Laboratories Unlimited Company 
+T/A Bristol-Myers Squibb Pharmaceutical Operations 
+External Manufacturing 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>Belgique/België/Belgien 
+N.V. Bristol-Myers Squibb Belgium S.A. 
+Tél/Tel: + 32 2 352 76 medicalinfo.belgium@bms.com </p>
+<p>Lietuva 
+Swixx Biopharma UAB 
+Tel: + 370 52 369medinfo.lithuania@swixxbiopharma.com </p>
+<p>България 
+Swixx Biopharma EOOD 
+Teл.: + 359 2 4942 medinfo.bulgaria@swixxbiopharma.com </p>
+<p>Luxembourg/Luxemburg 
+N.V. Bristol-Myers Squibb Belgium S.A. 
+Tél/Tel: + 32 2 352 76 medicalinfo.belgium@bms.com </p>
+<p>Česká republika 
+Bristol-Myers Squibb spol. s r.o. 
+Tel: + 420 221 016 medinfo.czech@bms.com </p>
+<p>Magyarország 
+Bristol-Myers Squibb Kft. 
+Tel.: + 36 1 301 9Medinfo.hungary@bms.com </p>
+<p>Danmark 
+Bristol-Myers Squibb Denmark 
+Tlf: + 45 45 93 05 medinfo.denmark@bms.com </p>
+<p>Malta 
+A.M. Mangion Ltd 
+Tel: + 356 23976pv@ammangion.com </p>
+<p>Deutschland 
+Bristol-Myers Squibb GmbH &amp; Co. KGaA 
+Tel: 0800 0752002 (+ 49 89 121 42 350) 
+medwiss.info@bms.com </p>
+<p>Nederland 
+Bristol-Myers Squibb B.V. 
+Tel: + 31 (0)30 300 2medischeafdeling@bms.com </p>
+<p>Eesti 
+Swixx Biopharma OÜ 
+Tel: + 372 640 1medinfo.estonia@swixxbiopharma.com </p>
+<p>Norge 
+Bristol-Myers Squibb Norway AS 
+Tlf: + 47 67 55 53 medinfo.norway@bms.com </p>
+<p>Ελλάδα 
+Bristol-Myers Squibb A.E. 
+Τηλ: + 30 210 6074medinfo.greece@bms.com </p>
+<p>Österreich 
+Bristol-Myers Squibb GesmbH 
+Tel: + 43 1 60 14 medinfo.austria@bms.com </p>
+<p>España 
+Bristol-Myers Squibb, S.A. 
+Tel: + 34 91 456 53 informacion.medica@bms.com </p>
+<p>Polska 
+Bristol-Myers Squibb Polska Sp. z o.o. 
+Tel.: + 48 22 2606informacja.medyczna@bms.com </p>
+<p>France 
+Bristol-Myers Squibb SAS 
+Tél: + 33 (0)1 58 83 84 infomed@bms.com </p>
+<p>Portugal 
+Bristol-Myers Squibb Farmacêutica Portuguesa, 
+S.A. 
+Tel: + 351 21 440 70 portugal.medinfo@bms.com </p>
+<p>Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: + 385 1 2078 medinfo.croatia@swixxbiopharma.com </p>
+<p>România 
+Bristol-Myers Squibb Marketing Services S.R.L. 
+Tel: + 40 (0)21 272 16 medinfo.romania@bms.com </p>
+<p>Ireland 
+Bristol-Myers Squibb Pharmaceuticals uc 
+Tel: 1 800 749 749 (+ 353 (0)1 483 3625) 
+medical.information@bms.com </p>
+<p>Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: + 386 1 2355 medinfo.slovenia@swixxbiopharma.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: + 354 535 7vistor@vistor.is 
+medical.information@bms.com </p>
+<p>Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: + 421 2 20833 medinfo.slovakia@swixxbiopharma.com<br />
+Italia 
+Bristol-Myers Squibb S.r.l. 
+Tel: + 39 06 50 39 medicalinformation.italia@bms.com </p>
+<p>Suomi/Finland 
+Oy Bristol-Myers Squibb (Finland) Ab 
+Puh/Tel: + 358 9 251 21 medinfo.finland@bms.com </p>
+<p>Κύπρος 
+Bristol-Myers Squibb A.E. 
+Τηλ:  800 92666 (+ 30 210 6074300) 
+medinfo.greece@bms.com </p>
+<p>Sverige 
+Bristol-Myers Squibb Aktiebolag 
+Tel: + 46 8 704 71 medinfo.sweden@bms.com </p>
+<p>Latvija 
+Swixx Biopharma SIA 
+Tel: + 371 66164medinfo.latvia@swixxbiopharma.com </p>
+<p>United Kingdom (Northern Ireland) 
+Bristol-Myers Squibb Pharmaceutical Limited 
+Tel: +44 (0)800 731 1medical.information@bms.com </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -741,6 +1124,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8ff5d67e0b7de732bda1082340f24212"
 * entry[0].resource = composition-da-8ff5d67e0b7de732bda1082340f24212
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8ff5d67e0b7de732bda1082340f24212"
+* entry[=].resource = mp8ff5d67e0b7de732bda1082340f24212
+                            
+                    
+Instance: bundlepackageleaflet-pt-8ff5d67e0b7de732bda1082340f24212
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sotyktu Package Leaflet for language pt"
+Description: "ePI document Bundle for sotyktu Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8ff5d67e0b7de732bda1082340f24212"
+* entry[0].resource = composition-pt-8ff5d67e0b7de732bda1082340f24212
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8ff5d67e0b7de732bda1082340f24212"
@@ -842,6 +1247,18 @@ RuleSet: 8ff5d67e0b7de732bda1082340f24212ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8ff5d67e0b7de732bda1082340f24212) // sotyktu pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

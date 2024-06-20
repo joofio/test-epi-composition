@@ -679,6 +679,364 @@ er nævnt i denne indlægsseddel. Se punkt 4. </li>
 
 
 
+Instance: composition-pt-a170adf9726f4d3c42997e5fb725cb61
+InstanceOf: CompositionUvEpi
+Title: "Composition for sapropterin Package Leaflet"
+Description:  "Composition for sapropterin Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa170adf9726f4d3c42997e5fb725cb61)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - sapropterin"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Sapropterina Dipharma e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Sapropterina Dipharma </li>
+<li>Como tomar Sapropterina Dipharma  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Sapropterina Dipharma </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é sapropterin e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é sapropterin e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sapropterina Dipharma contém a substância ativa sapropterina que é uma cópia sintética de uma 
+substância do nosso organismo chamada tetrahidrobiopterina (BH4). A substância BH4 é necessária 
+ao organismo para utilizar um aminoácido chamado fenilalanina, de forma a originar um outro 
+aminoácido chamado tirosina. </p>
+<p>Sapropterina Dipharma é utilizado para tratar a hiperfenilalaninemia (HFA) ou fenilcetonúria (PKU) 
+em doentes de todas as idades. A HFA e a PKU são causadas por níveis anormalmente elevados de 
+fenilalanina no sangue, os quais podem ser prejudiciais. Sapropterina Dipharma diminui estes níveis 
+em alguns doentes que respondem à BH4 e pode ajudar a aumentar a quantidade de fenilalanina que 
+pode ser incluída na dieta. </p>
+<p>Este medicamento também é utilizado para tratar uma doença hereditária chamada deficiência em BH4 
+em doentes de todas as idades, na qual o organismo não consegue produzir quantidade suficiente de 
+BH4. Devido ao facto dos níveis de BH4 serem muito baixos, a fenilalanina não é utilizada 
+corretamente e os seus níveis aumentam, resultando em efeitos prejudiciais. Substituindo a BH4 que o 
+organismo não pode produzir, Sapropterina Dipharma reduz o excesso prejudicial de fenilalanina no 
+sangue e aumenta a tolerância aos alimentos que contêm fenilalanina. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar sapropterin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar sapropterin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Sapropterina Dipharma 
+- se tem alergia à sapropterina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar Sapropterina Dipharma, especialmente: 
+- se tem 65 anos de idade ou mais 
+- se tem problemas nos rins ou no fígado<br />
+- se está doente. Recomenda-se que consulte o médico durante a doença, uma vez que os níveis 
+de fenilalanina no sangue podem aumentar 
+- se está predisposto para convulsões </p>
+<p>Quando está a ser tratado com Sapropterina Dipharma, o seu médico irá pedir-lhe análises ao sangue 
+para verificar a quantidade de fenilalanina e de tirosina e pode decidir ajustar a dose de Sapropterina 
+Dipharma ou a sua dieta alimentar, se necessário. </p>
+<p>Tem de continuar a sua dieta de tratamento tal como recomendado pelo seu médico. Não altere a sua 
+dieta sem contactar o seu médico. Mesmo que tome Sapropterina Dipharma, se os níveis de 
+fenilalanina no seu sangue não forem bem controlados, pode desenvolver problemas neurológicos 
+graves. O seu médico deve continuar a controlar frequentemente os níveis de fenilalanina no sangue 
+durante o seu tratamento com Sapropterina Dipharma, para se assegurar de que os níveis de 
+fenilalanina no seu sangue não estão demasiado altos ou demasiado baixos. </p>
+<p>Outros medicamentos e Sapropterina Dipharma 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Informe, em particular, o seu médico se está a tomar: 
+- levodopa (utilizada para tratar a doença de Parkinson) 
+- medicamentos para tratamento do cancro (p. ex., metotrexato) 
+- medicamentos para tratamento de infeções bacterianas (p. ex., trimetoprim) 
+- medicamentos que causam dilatação dos vasos sanguíneos (como trinitrato de glicerilo (GTN), 
+dinitrato de isossorbido (ISDN), nitroprussiato de sódio (SNP), molsidomina, minoxidil). </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Se estiver grávida, o seu médico dir-lhe-á como controlar adequadamente os níveis de fenilalanina. Se 
+estes não forem rigorosamente controlados antes da gravidez ou ao engravidar, poderão ser 
+prejudiciais para si e para o seu bebé. O seu médico controlará a restrição da ingestão de fenilalanina 
+na dieta alimentar antes e durante a gravidez. </p>
+<p>Se a dieta rigorosa não reduzir adequadamente a quantidade de fenilalanina no seu sangue, o seu 
+médico considerará se deve tomar este medicamento. </p>
+<p>Não deve tomar este medicamento se está a amamentar. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não se espera que o Sapropterina Dipharma afete a capacidade de conduzir e utilizar máquinas. </p>
+<p>Sapropterina Dipharma contém sódio<br />
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar sapropterin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar sapropterin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>Posologia para PKU 
+A dose inicial recomendada de Sapropterina Dipharma em doentes com PKU é de 10 mg por kg de 
+peso corporal. Tome Sapropterina Dipharma numa dose única diária, com uma refeição, para aumentar 
+a absorção, à mesma hora todos os dias, de preferência de manhã. O seu médico pode ajustar a sua 
+dose, habitualmente entre 5 e 20 mg por kg de peso corporal por dia, dependendo da sua condição. </p>
+<p>Posologia para deficiência de BH4 
+A dose inicial recomendada de Sapropterina Dipharma em doentes com deficiência de BH4 é de 2 a 
+5 mg por kg de peso corporal. Tome Sapropterina Dipharma com uma refeição, para aumentar a 
+absorção. Divida a dose total diária em 2 ou 3 doses durante o dia. O seu médico pode ajustar a sua 
+dose até 20 mg por kg de peso corporal por dia, dependendo da sua condição. </p>
+<p>A tabela abaixo indica um exemplo de como calcular uma dose apropriada </p>
+<p>Peso corporal (kg) 
+Número de comprimidos de 
+100 mg (Dose de 10 mg/kg) 
+Número de comprimidos de 
+100 mg (Dose de 20 mg/kg) 
+1 
+2 
+2 
+4 
+3 
+6 
+4 
+8 
+5 </p>
+<p>Modo de administração 
+Para doentes com PKU, a dose diária total é tomada uma vez por dia, à mesma hora, de preferência de 
+manhã. </p>
+<p>Para os doentes com deficiência de BH4, a dose diária total é dividida em 2 ou 3 doses durante o dia. </p>
+<p>Utilização em todos os doentes 
+Coloque o número prescrito de comprimidos num copo ou numa chávena com água conforme descrito 
+abaixo, em pormenor, e misture até ficarem dissolvidos. </p>
+<p>Pode demorar alguns minutos até que os comprimidos se dissolvam. Para fazer com que os 
+comprimidos se dissolvam mais rapidamente, pode esmagá-los. A solução poderá conter pequenas 
+partículas visíveis, as quais não afetam a eficácia do medicamento. 
+Beba a preparação dissolvida de Sapropterina Dipharma com uma refeição e entre 15 a 20 minutos 
+após a sua preparação. </p>
+<p>Utilização em doentes com um peso corporal superior a 20 kg 
+Coloque os comprimidos num copo ou chávena com água (120 a 240 ml) e agite até dissolver. </p>
+<p>Crianças com um peso corporal até 20 kg 
+A dose baseia-se no peso corporal. Esta mudará à medida que o seu filho cresce. O seu médico dir-lhe-
+á: </p>
+<ul>
+<li>
+<p>o número de comprimidos de Sapropterina Dipharma necessários para uma dose </p>
+</li>
+<li>
+<p>a quantidade de água necessária para misturar uma dose de Sapropterina Dipharma </p>
+</li>
+<li>
+<p>a quantidade de solução que tem de dar ao seu filho para a dose que foi prescrita. </p>
+</li>
+</ul>
+<p>O seu filho deverá beber a solução com uma refeição. </p>
+<p>Dê ao seu filho a quantidade de solução prescrita no período de 15 a 20 minutos após a dissolução. Se 
+não conseguir dar a dose ao seu filho no período de 15 a 20 minutos após a dissolução dos 
+comprimidos, terá de preparar uma nova solução, dado que a solução não deve ser utilizada após minutos. </p>
+<p>Acessórios que necessita para preparar e dar a dose de Sapropterina Dipharma ao seu filho </p>
+<ul>
+<li>
+<p>O número de comprimidos de Sapropterina Dipharma necessários para uma dose </p>
+</li>
+<li>
+<p>Um copo-medida de medicamento com marcações de graduação de 20, 40, 60 e 80 ml </p>
+</li>
+<li>
+<p>Um copo ou uma chávena </p>
+</li>
+<li>
+<p>Uma colher pequena ou um utensílio limpo para misturar a solução </p>
+</li>
+<li>
+<p>Uma seringa para uso oral (graduada em divisões de 1 ml) (uma seringa de 10 ml para a 
+administração de volumes de ≤10 ml ou uma seringa de 20 ml para a administração de volumes 
+de &gt;10 ml) </p>
+</li>
+</ul>
+<p>Peça ao seu médico o copo-medida de medicamento para dissolver os comprimidos e a seringa para 
+administração oral de 10 ml ou 20 ml, se não tiver estes dispositivos. </p>
+<p>Passos para preparar e tomar a sua dose: </p>
+<ul>
+<li>
+<p>Coloque o número prescrito de comprimidos no copo-medida de medicamento. Deite a 
+quantidade de água no copo-medida de medicamento, de acordo com as instruções do seu 
+médico (por exemplo, o seu médico disse-lhe para usar 20 ml para dissolver um comprimido de 
+Sapropterina Dipharma). Confirme que a quantidade de líquido indicada corresponde à 
+quantidade que o seu médico lhe disse. Misture com uma colher pequena ou um utensílio limpo 
+até os comprimidos se dissolverem. </p>
+</li>
+<li>
+<p>Se o seu médico lhe disse para administrar apenas uma porção da solução, coloque a ponta da 
+seringa para uso oral no copo-medida de medicamento. Puxe lentamente o êmbolo para retirar a 
+quantidade indicada pelo seu médico. </p>
+</li>
+<li>
+<p>Transfira a solução premindo lentamente o êmbolo até toda a solução da seringa para 
+administração oral ter sido transferida para um copo ou chávena para a administração (por 
+exemplo, se o seu médico lhe disse para dissolver dois comprimidos de Sapropterina Dipharma 
+em 40 ml de água e administrar 30 ml ao seu filho, deverá ter de utilizar a seringa para 
+administração oral de 20 ml duas vezes para retirar 30 ml (por exemplo, 20 ml + 10 ml) de 
+solução e transferi-los para o copo ou chávena para a administração). Utilize uma seringa para 
+administração oral de 10 ml para a administração de volumes de ≤10 ml ou uma seringa para 
+administração oral de 20 ml para a administração de volumes de &gt;10 ml </p>
+</li>
+<li>
+<p>Se o seu bebé for muito pequeno para beber de um copo ou uma chávena, pode administrar a 
+solução utilizando a seringa para uso oral. Retire o volume prescrito da solução preparada do 
+copo-medida de medicamento e coloque a ponta da seringa para uso oral na boca do seu bebé. 
+Aponte a ponta da seringa para uso oral na direção de uma das bochechas. Prima lentamente o 
+êmbolo, libertando uma pequena quantidade de cada vez, até ter sido administrada toda a 
+solução da seringa para uso oral. </p>
+</li>
+<li>
+<p>Deite fora qualquer solução restante. Retire o êmbolo do corpo da seringa para uso oral. Lave 
+ambas as partes da seringa para uso oral e o copo-medida de medicamento com água morna e 
+seque-os ao ar. Quando a seringa para uso oral estiver seca, coloque o êmbolo novamente no 
+corpo. Guarde a seringa para uso oral e o copo-medida de medicamento para a utilização 
+seguinte. </p>
+</li>
+</ul>
+<p>Se tomar mais Sapropterina Dipharma do que deveria 
+Se tomar mais Sapropterina Dipharma do que o que lhe foi receitado, pode sentir efeitos secundários 
+que podem incluir dores de cabeça e tonturas. Contacte imediatamente o seu médico ou farmacêutico 
+se tomar mais Sapropterina Dipharma do que o receitado. </p>
+<p>Caso se tenha esquecido de tomar Sapropterina Dipharma 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Tome a dose 
+seguinte à hora habitual. </p>
+<p>Se parar de tomar Sapropterina Dipharma 
+Não pare de tomar Sapropterina Dipharma sem falar previamente com o seu médico, pois os níveis de 
+fenilalanina no seu sangue podem aumentar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Foram relatados alguns casos de reações alérgicas (tais como erupções na pele e reações graves). A 
+sua frequência é desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis). </p>
+<p>Se tiver áreas vermelhas, com comichão e salientes (erupções), nariz a pingar, pulso acelerado ou 
+irregular, inchaço da língua e garganta, espirros, pieira, dificuldade grave em respirar ou tonturas, 
+pode estar a ter uma reação alérgica grave ao medicamento. Se detetar estes sinais, contacte 
+imediatamente o seu médico. </p>
+<p>Efeitos secundários muito frequentes (podem afetar mais de 1 em 10 pessoas)<br />
+Dores de cabeça e nariz a pingar. </p>
+<p>Efeitos secundários frequentes (podem afetar até 1 em 10 pessoas) 
+Dores de garganta, congestão nasal ou nariz entupido, tosse, diarreia, vómitos, dores de estômago, 
+níveis muito baixos de fenilalanina no sangue em testes laboratoriais, indigestão e sensação de doença 
+(náuseas) (ver secção 2: “Advertências e precauções"). </p>
+<p>Efeitos secundários desconhecidos (a frequência não pode ser calculada a partir dos dados disponíveis) 
+Gastrite (inflamação do revestimento do estômago), esofagite (inflamação do revestimento do 
+esófago). </p>
+<p>Comunicação de efeitos secundários 
+Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar sapropterin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar sapropterin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não precisa de temperaturas especiais de armazenamento. 
+Manter o frasco bem fechado para proteger da humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Sapropterina Dipharma 
+- A substância ativa é o dicloridrato de sapropterina. Cada comprimido contém 100 mg de 
+dicloridrato de sapropterina equivalente a 77 mg de sapropterina. 
+- Os outros componentes são manitol (E421), crospovidona tipo A, copovidona K 28, ácido 
+ascórbico (E300), estearil fumarato de sódio, riboflavina (E101), sílica coloidal anidra (E551). 
+Ver secção 2. “Sapropterina Dipharma contém sódio". </p>
+<p>Qual o aspeto de Sapropterina Dipharma e conteúdo da embalagem 
+Os comprimidos solúveis Sapropterina Dipharma 100 mg são comprimidos redondos,  brancos a 
+esbranquiçados, aproximadamente 10 mm x 3,65 mm, com um “11" gravado num dos lados e uma 
+linha ponteada no outro lado. 
+A ranhura do comprimido não se destina à sua divisão. </p>
+<p>Está disponível em frascos com fecho à prova de criança, com tampa roscada que contém dessecante 
+(sílica). 
+Embalagens de 30 e 120 comprimidos solúveis.  </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Dipharma Arzneimittel GmbH 
+Offheimer Weg 65549 Limburg a. d. Lahn 
+Alemanha </p>
+<p>Fabricante 
+Depo-Pack S.r.l. 
+Via Giovanni Morandi 21047 Saronno (VA) 
+Itália </p>
+<p>ou </p>
+<p>Pharmadox Healthcare Ltd. 
+KW20A Kordin Industrial Park 
+Paola, PLA 3Malta </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -720,6 +1078,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a170adf9726f4d3c42997e5fb725cb61"
 * entry[0].resource = composition-da-a170adf9726f4d3c42997e5fb725cb61
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa170adf9726f4d3c42997e5fb725cb61"
+* entry[=].resource = mpa170adf9726f4d3c42997e5fb725cb61
+                            
+                    
+Instance: bundlepackageleaflet-pt-a170adf9726f4d3c42997e5fb725cb61
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sapropterin Package Leaflet for language pt"
+Description: "ePI document Bundle for sapropterin Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a170adf9726f4d3c42997e5fb725cb61"
+* entry[0].resource = composition-pt-a170adf9726f4d3c42997e5fb725cb61
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa170adf9726f4d3c42997e5fb725cb61"
@@ -821,6 +1201,18 @@ RuleSet: a170adf9726f4d3c42997e5fb725cb61ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a170adf9726f4d3c42997e5fb725cb61) // sapropterin pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

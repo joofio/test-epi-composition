@@ -983,6 +983,618 @@ ifølge lokal standardpraksis for ikke-blæretrækkende midler. </p>
 
 
 
+Instance: composition-pt-fd0c928ba69b44963057ba928ecaf5ac
+InstanceOf: CompositionUvEpi
+Title: "Composition for onpattro Package Leaflet"
+Description:  "Composition for onpattro Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfd0c928ba69b44963057ba928ecaf5ac)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - onpattro"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Onpattro e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Onpattro </li>
+<li>Como é Onpattro administrado </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Onpattro </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é onpattro e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é onpattro e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A substância ativa no Onpattro é patisiran. </p>
+<p>Onpattro é um medicamento que trata uma doença que aparece em determinadas famílias chamada de 
+amiloidose mediada pela transtirretina hereditária (amiloidose ATTRh). </p>
+<p>A amiloidose ATTRh é causada por problemas numa proteína do organismo chamada ‘transtirretina’ 
+(TTR). </p>
+<ul>
+<li>
+<p>Esta proteína é produzida, maioritariamente, no fígado e transporta vitamina A e outras 
+substâncias no organismo </p>
+</li>
+<li>
+<p>Em pessoas com esta doença, as proteínas TTR com forma anómala agregam-se para formar 
+depósitos chamados de ‘amiloides’. </p>
+</li>
+<li>
+<p>Os amiloides podem acumular-se em torno dos nervos, coração e outros locais no organismo, 
+impedindo-os de funcionar normalmente. Isto causa os sintomas da doença. </p>
+</li>
+</ul>
+<p>Onpattro funciona diminuindo a quantidade de proteína TTR que o fígado produz. </p>
+<ul>
+<li>
+<p>Isto significa que existe menos proteína TTR no sangue que possa formar amiloides. </p>
+</li>
+<li>
+<p>Isto pode ajudar a reduzir os efeitos desta doença. </p>
+</li>
+</ul>
+<p>Onpattro é usado apenas em adultos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar onpattro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar onpattro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Onpattro </p>
+<ul>
+<li>se tem alergia ao patisiran, ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Se não tem a certeza, fale com o seu médico ou enfermeiro antes de receber Onpattro. </li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Reações relacionadas com a perfusão </p>
+<p>Onpattro é administrado em soro numa veia (chamado de ‘perfusão intravenosa’). Poderão ocorrer 
+reações a esta perfusão durante o tratamento com Onpattro. Antes de cada perfusão, irá receber 
+medicamentos que ajudam a diminuir a probabilidade de haverem reações relacionadas com a perfusão 
+(ver “Medicamentos administrados durante o tratamento com Onpattro" na secção 3). </p>
+<p>Informe imediatamente o seu médico ou enfermeiro, caso tenha quaisquer sinais de uma reação 
+relacionada com a perfusão. Estes sinais estão listados no início da secção 4.<br />
+Se tiver uma reação relacionada com a perfusão, o seu médico ou enfermeiro poderá tornar mais lenta 
+a perfusão, ou pará-la, e poderá ter de tomar outros medicamentos para controlar os sintomas. Quando 
+estas reações param, ou melhoram, o seu médico ou enfermeiro podem decidir iniciar novamente a 
+perfusão. </p>
+<p>Deficiência de vitamina A </p>
+<p>O tratamento com Onpattro diminui a quantidade de vitamina A no seu sangue. O seu médico irá 
+medir os seus níveis de vitamina A. Se os seus níveis de vitamina A estiverem baixos, o seu médico irá 
+esperar até que os seus níveis de vitamina A tenham regressado aos valores normais e que quaisquer 
+sintomas causados pela deficiência de vitamina A estejam resolvidos antes de iniciar o tratamento com 
+Onpattro. Os sintomas de deficiência de vitamina A pode incluir: </p>
+<ul>
+<li>Diminuição da visão noturna, olhos secos, má visão, visão enublada ou turva </li>
+</ul>
+<p>Se tiver problemas com a visão ou qualquer outro problema dos olhos enquanto estiver a utilizar 
+Onpattro, deve falar com o seu médico. O seu médico poderá encaminhá-lo para um especialista dos 
+olhos para fazer uma avaliação, se for necessário. </p>
+<p>O seu médico vai pedir-lhe para tomar um suplemento diário de vitamina A durante o tratamento com 
+Onpattro. </p>
+<p>Tanto níveis demasiado altos como demasiados baixos de vitamina A podem prejudicar o 
+desenvolvimento do feto. Por conseguinte, as mulheres com potencial para engravidar não devem estar 
+grávidas quando iniciam o tratamento com Onpattro e devem utilizar métodos de contraceção eficazes 
+(ver secção “Gravidez, amamentação e contraceção" a seguir). </p>
+<p>Informe o seu médico se estiver a planear engravidar. O médico poderá dizer-lhe para parar de tomar 
+Onpattro. O seu médico vai certificar-se de que os seus níveis de vitamina A regressaram ao normal 
+antes de tentar engravidar. </p>
+<p>Informe o seu médico se tiver uma gravidez não planeada. O médico poderá dizer-lhe para parar de 
+tomar Onpattro. Durante os primeiros 3 meses da gravidez, o seu médico poderá dizer-lhe para parar 
+de tomar o suplemento de vitamina A. Durante os últimos 6 meses da gravidez, se os níveis de 
+vitamina A no seu sangue ainda não tiveram regressado ao normal, deve recomeçar a suplementação 
+com vitamina A, devido a um aumento do risco de deficiência de vitamina A durante os últimos 
+3 meses da gravidez. </p>
+<p>Crianças e adolescentes </p>
+<p>Onpattro não é recomendado a crianças e adolescentes menores de 18 anos de idade. </p>
+<p>Outros medicamentos e Onpattro </p>
+<p>Informe o seu médico ou enfermeiro se estiver a tomar, tomou recentemente ou se vier a tomar outros 
+medicamentos. É importante que informe o seu médico ou enfermeiro se estiver a tomar algum dos 
+seguintes medicamentos, pois o médico poderá ter de alterar a dose: </p>
+<ul>
+<li>
+<p>Bupropiom, um medicamento utilizado para tratar a depressão e para ajudar a deixar de fumar </p>
+</li>
+<li>
+<p>Efavirenz, um medicamento utilizado para tratar a infeção pelo VIH e a SIDA </p>
+</li>
+</ul>
+<p>Gravidez, amamentação e contraceção </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Mulheres com potencial para engravidar </p>
+<p>Onpattro irá reduzir os níveis de vitamina A no seu sangue, a qual é importante para o 
+desenvolvimento normal dos fetos. Se for uma mulher com potencial para engravidar, deve utilizar 
+métodos de contraceção eficazes durante o tratamento com Onpattro. Fale com o seu médico ou 
+enfermeiro sobre métodos de contraceção adequados. Deve ter a certeza de que não está grávida antes 
+de iniciar o tratamento com Onpattro. </p>
+<p>Gravidez </p>
+<p>Não deve utilizar Onpattro se estiver grávida, a não ser que o seu médico o aconselhe. Se for uma 
+mulher com potencial para engravidar e pretenda utilizar Onpattro, deve utilizar métodos de 
+contraceção eficazes. </p>
+<p>Amamentação </p>
+<p>Os componentes de Onpattro podem passar para o leite humano. Fale com o seu médico sobre parar de 
+amamentar ou parar o tratamento com Onpattro. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Crê-se que os efeitos de Onpattro sobre a capacidade de conduzir e utilizar máquinas são nulos ou 
+desprezáveis. O seu médico irá dizer-lhe se a sua condição permite que conduza veículos e utilize 
+máquinas de forma segura. </p>
+<p>Onpattro contém sódio </p>
+<p>Este medicamento contém 3,99 miligramas (mg) de sódio (componente principal do sal de 
+cozinha/mesa) por cada mililitro (ml). Isto é 0,2% da dose diária máxima na dieta recomendada de 
+sódio para um adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar onpattro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar onpattro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Que quantidade de Onpattro é administrada </p>
+<ul>
+<li>
+<p>O seu médico irá calcular quanto Onpattro irá administrar - isto irá depender do seu peso corporal. </p>
+</li>
+<li>
+<p>A dose habitual de Onpattro é de 300 microgramas por cada quilograma (kg) de peso corporal, 
+administrada uma vez a cada 3 semanas. </p>
+</li>
+</ul>
+<p>Como tomar Onpattro </p>
+<ul>
+<li>
+<p>Onpattro ser-lhe-á administrado por um médico ou enfermeiro. </p>
+</li>
+<li>
+<p>É administrado como soro numa veia (‘perfusão intravenosa’) geralmente durante cerca de 
+80 minutos. </p>
+</li>
+</ul>
+<p>Se não tiver problemas com as suas perfusões no hospital, o seu médico poderá falar consigo sobre um 
+profissional de cuidados de saúde que lhe vá administrar as perfusões a sua casa. </p>
+<p>Medicamentos administrados durante o tratamento com Onpattro </p>
+<p>Cerca de 60 minutos antes de cada perfusão de Onpattro, irá receber medicamentos que ajudam a 
+diminuir o risco de ter reações relacionadas com a perfusão (ver secção 4). Estes incluem anti-
+histamínicos, um corticosteroide (um medicamento que suprime a inflamação) e um analgésico. </p>
+<p>Durante quanto tempo usar Onpattro </p>
+<p>O seu médico irá dizer-lhe durante quanto tempo precisa de receber Onpattro. Não pare o tratamento 
+com Onpattro, a menos que o seu médico lhe diga para parar. </p>
+<p>Se tomar mais Onpattro do que deveria </p>
+<p>Irá receber este medicamento através do seu médico ou enfermeiro. No caso pouco provável de lhe ser 
+administrado demasiado (uma sobredosagem) medicamento, o seu médico ou enfermeiro irá 
+vigiá-lo(a) para efeitos secundários. </p>
+<p>Se se esquecer da sua dose de Onpattro </p>
+<p>Se se esquecer de uma consulta para receber o Onpattro, pergunte ao seu médico ou enfermeiro 
+quando deverá marcar o seu próximo tratamento. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Reações relacionadas com a perfusão </p>
+<p>As reações relacionadas com a perfusão são muito frequentes (poderão afetar mais do que 1 em cada 
+10 pessoas). </p>
+<p>Informe imediatamente o seu médico ou enfermeiro, caso tenha qualquer um dos seguintes sinais de 
+uma reação relacionada com a perfusão durante o tratamento. A perfusão poderá precisar de ser mais 
+lenta ou de ser interrompida, e poderá precisar de tomar outros medicamentos para controlar a reação. </p>
+<ul>
+<li>
+<p>Dor de estômago </p>
+</li>
+<li>
+<p>Sensação de enjoo (náuseas) </p>
+</li>
+<li>
+<p>Corpo dorido ou dor, incluindo dor nas costas, pescoço ou articulações </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Sensação de cansaço (fadiga) </p>
+</li>
+<li>
+<p>Arrepios </p>
+</li>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Tosse, sentir falta de ar ou outros problemas respiratórios </p>
+</li>
+<li>
+<p>Vermelhidão na cara ou corpo (afrontamentos), pele quente, erupção na pele ou comichão  </p>
+</li>
+<li>
+<p>Desconforto ou dor no peito </p>
+</li>
+<li>
+<p>Ritmo cardíaco acelerado </p>
+</li>
+<li>
+<p>Pressão sanguínea baixa ou alta; alguns doentes desmaiaram durante a perfusão devido a 
+pressão sanguínea baixa </p>
+</li>
+<li>
+<p>Dor, vermelhidão, sensação de queimadura ou inchaço no local ou perto do local da perfusão </p>
+</li>
+<li>
+<p>Inchaço da cara </p>
+</li>
+<li>
+<p>Alterações no som ou tom da sua voz (rouquidão) </p>
+</li>
+</ul>
+<p>Outros efeitos secundários </p>
+<p>Informe o seu médico ou enfermeiro se sentir algum dos seguintes efeitos secundários: </p>
+<p>Muito frequentes: podem afetar mais de 1 em 10 pessoas </p>
+<ul>
+<li>Inchaço dos braços ou pernas (edema periférico) </li>
+</ul>
+<p>Frequentes: podem afetar até 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>Dor nas articulações (artralgia) </p>
+</li>
+<li>
+<p>Espasmos musculares </p>
+</li>
+<li>
+<p>Indigestão (dispepsia) </p>
+</li>
+<li>
+<p>Falta de ar (dispneia) </p>
+</li>
+<li>
+<p>Vermelhidão da pele (eritema) </p>
+</li>
+<li>
+<p>Sentir-se tonto(a) ou desmaiar (vertigens) </p>
+</li>
+<li>
+<p>Nariz entupido ou com corrimento (rinite) </p>
+</li>
+<li>
+<p>Irritação ou infeção das vias aéreas (sinusite, bronquite) </p>
+</li>
+</ul>
+<p>Pouco frequentes: podem ocorrer em até 1 em 100 perfusões </p>
+<ul>
+<li>Fuga do medicamento para os tecidos circundantes no local de perfusão, o que pode causar 
+inchaço ou vermelhidão </li>
+</ul>
+<p>Informe o seu médico ou enfermeiro se notar qualquer um dos efeitos secundários listados acima. </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar onpattro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar onpattro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior após ‘VAL’. 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C a 8 °C). Não congelar. </p>
+<p>Se não estiver disponível refrigeração, Onpattro poderá ser armazenado à temperatura ambiente (até 
+25 °C) até 14 dias. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêuticocomo deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Onpattro </p>
+<ul>
+<li>
+<p>A(s) substância(s) ativa(s) é (são) patisiran. </p>
+</li>
+<li>
+<p>Cada ml contém patisiran sódico equivalente a 2 mg de patisiran. </p>
+</li>
+<li>
+<p>Cada frasco para injetáveis contém patisiran sódico, equivalente a 10 mg de patisiran. </p>
+</li>
+<li>
+<p>O(s) outro(s) componente(s) são DLin-MC3-DMA 
+((6Z,9Z,28Z,31Z)-heptatriaconta-6,9,28,31-tetraen-19-il-4-(dimetilamina) butanoato), 
+PEG2000-C-DMG (α-(3’-{[1,2-di(miristiloxi)propanoxii]carbonilamina}propil)-ω-metoxi, 
+polioxietileno), DSPC (1,2-distearoil-sn-glicero-3-fosfocolina), colesterol, fosfato de hidrogénio 
+dissódico heptahidratado, fosfato de diidrogénio potássico anidro, cloreto de sódio e água para 
+preparações injetáveis (ver “Onpattro contém sódio" na secção 2). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Onpattro e conteúdo da embalagem </p>
+<ul>
+<li>
+<p>Onpattro é um concentrado homogéneo branco a esbranquiçado, opalescente para solução para 
+perfusão (concentrado estéril). </p>
+</li>
+<li>
+<p>Onpattro é fornecido em embalagens contendo, cada uma, um frasco para injetáveis. </p>
+</li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Alnylam Netherlands B.V. 
+Antonio Vivaldistraat 1083 HP Amesterdão 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Alnylam Netherlands B.V. 
+Tél/Tel: 0800 81 443 (+32 234 208 71) 
+medinfo@alnylam.com </p>
+<p>Malta 
+Genesis Pharma (Cyprus) Ltd 
+Tel: +357 22765medinfo@genesispharmagroup.com </p>
+<p>България 
+Genesis Pharma Bulgaria EOOD 
+Teл.: +359 2 969 3medinfo@genesispharmagroup.com </p>
+<p>Nederland 
+Alnylam Netherlands B.V. 
+Tel: 08002820025 (+31 203697861) 
+medinfo@alnylam.com </p>
+<p>Česká republika 
+Alnylam Czech s.r.o. 
+Tel: 800 050 450 (+420 234 092 195) 
+medinfo@alnylam.com </p>
+<p>Norge 
+Alnylam Sweden AB 
+Tlf: 800 544 00 (+472 1405 657) 
+medinfo@alnylam.com 
+Danmark 
+Alnylam Sweden AB 
+Tlf.: 433 105 15 (+45 787 453 01) 
+medinfo@alnylam.com </p>
+<p>Österreich 
+Alnylam Austria GmbH 
+Tel: 0800070339 (+43 720 778 072) 
+medinfo@alnylam.com </p>
+<p>Deutschland 
+Alnylam Germany GmbH 
+Tel: 08002569526 (+49 8920190112) 
+medinfo@alnylam.com </p>
+<p>Polska 
+Alnylam Netherlands B.V. 
+Tel: 0800 000 medinfo@alnylam.com </p>
+<p>Ελλάδα 
+ΓΕΝΕΣΙΣ ΦΑΡΜΑ Α.Ε 
+Τηλ: +30 210 87 71 medinfo@genesispharmagroup.com </p>
+<p>España 
+Alnylam Pharmaceuticals Spain SL 
+Tel: 900810212 (+34 910603753) 
+medinfo@alnylam.com </p>
+<p>Portugal 
+Alnylam Portugal 
+Tel: 707201512 (+351 707502642) 
+medinfo@alnylam.com </p>
+<p>România 
+Genesis Biopharma Romania SRL 
+Tel: +40 21 403 4medinfo@genesispharmagroup.com </p>
+<p>France 
+Alnylam France SAS 
+Tél: 0805542656 (+33 187650921) 
+medinfo@alnylam.com </p>
+<p>Slovenija 
+Genesis Biopharma SL d.o.o. 
+Tel: +386 1 292 70 medinfo@genesispharmagroup.com </p>
+<p>Hrvatska 
+Genesis Pharma Adriatic d.o.o 
+Tel: +385 1 5530 medinfo@genesispharmagroup.com </p>
+<p>Ireland 
+Alnylam Netherlands B.V. 
+Tel: 1800 924260 (+353 818 882213) 
+medinfo@alnylam.com </p>
+<p>Slovenská republika 
+Alnylam Netherlands B.V. 
+Tel: 0800 601 medinfo@alnylam.com </p>
+<p>Suomi/Finland 
+Alnylam Sweden AB 
+Puh/Tel: 0800 417 452 (+358 942 727 020) 
+medinfo@alnylam.com </p>
+<p>Italia 
+Alnylam Italy S.r.l. 
+Tel: 800 90 25 37 (+39 02 89 73 22 91) 
+medinfo@alnylam.com </p>
+<p>Sverige 
+Alnylam Sweden AB 
+Tel: 020109162 (+46 842002641) 
+medinfo@alnylam.com 
+Κύπρος 
+Genesis Pharma (Cyprus) Ltd 
+Τηλ: +357 22765medinfo@genesispharmagroup.com </p>
+<p>United Kingdom (Northern Ireland) 
+Alnylam UK Ltd. 
+Tel: 08001412569 (+44 1628 878592) 
+medinfo@alnylam.com </p>
+<p>Luxembourg/Luxemburg 
+Alnylam Netherlands B.V. 
+Tél/Tel: 80085235 (+352 203 014 48) 
+medinfo@alnylam.com </p>
+<p>Eesti, Ísland, Latvija, Lietuva, Magyarország 
+Alnylam Netherlands B.V. 
+Tel/Sími: +31 20 369 7medinfo@alnylam.com </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sitio da internet da Agência 
+Europeia de Medicamentos: https://www.ema.europa.eu. </p>
+<hr />
+<p>A informação que se segue destina-se apenas aos profissionais de saúde: </p>
+<p>Medicação prévia obrigatória </p>
+<p>Todos os doentes deverão receber medicação prévia antes da administração de Onpattro, de forma a 
+reduzir o risco de reações relacionadas com a perfusão (RRP). Cada um dos seguintes medicamentos </p>
+<p>deverá ser administrado no dia da perfusão de Onpattro, pelo menos 60 minutos antes do início da 
+perfusão: </p>
+<ul>
+<li>
+<p>Corticosteroide intravenoso (10 mg de dexametasona ou equivalente) </p>
+</li>
+<li>
+<p>Paracetamol por via oral (500 mg) </p>
+</li>
+<li>
+<p>Bloqueador H1 intravenoso (50 mg de difenidramina ou equivalente) </p>
+</li>
+<li>
+<p>Bloqueador H2 intravenoso (20 mg de famotidina ou equivalente) </p>
+</li>
+</ul>
+<p>Para pré-medicações não disponíveis ou não toleradas por via intravenosa, os equivalentes poderão ser 
+administrados por via oral. </p>
+<p>Se clinicamente indicado, o corticosteroide poderá ser diminuído em decréscimos não superiores a 
+2,5 mg para uma dose mínima de 5 mg de dexametasona (intravenosa, IV). O doente deve receber, 
+pelo menos, 3 perfusões consecutivas de Onpattro sem ter RRP antes de cada redução da medicação 
+prévia com corticosteroide. </p>
+<p>Poderão ser administradas doses adicionais ou mais elevadas de uma ou mais das pré-medicações, de 
+forma a reduzir o risco de RRPs, se necessário. </p>
+<p>Preparação da solução para perfusão </p>
+<p>Este medicamento é apenas para uso único. </p>
+<p>Onpattro tem de ser diluído com uma solução de cloreto de sódio de 9 mg/ml (0,9%) antes da perfusão 
+intravenosa. A solução diluída para perfusão deverá ser preparada por um profissional de saúde, 
+usando uma técnica assética conforme se segue: </p>
+<ul>
+<li>
+<p>Remover Onpattro do frigorífico. Não agitar nem criar um vórtex. </p>
+</li>
+<li>
+<p>Eliminar o frasco para injetáveis se tiver sido congelado. </p>
+</li>
+<li>
+<p>Inspecionar visualmente para deteção de partículas de matéria e descoloração. Não usar se 
+houver descoloração ou presença de partículas estranhas. Onpattro é uma solução homogénea 
+branca a esbranquiçada, opalescente. Poderá ser observado um revestimento branco a 
+esbranquiçado na superfície interna do frasco para injetáveis, tipicamente na zona de interface 
+entre o líquido e o espaço vazio. A qualidade do produto não é influenciada pela presença do 
+revestimento branco a esbranquiçado. </p>
+</li>
+<li>
+<p>Calcular o volume necessário de Onpattro com base na dosagem recomendada baseada no peso. </p>
+</li>
+<li>
+<p>Retirar todo o conteúdo de um ou mais frascos para injetáveis para uma única seringa estéril. </p>
+</li>
+<li>
+<p>Filtrar Onpattro através de um filtro de seringa de 0,45 microns de polietersulfona (PES) para 
+um contentor estéril. </p>
+</li>
+<li>
+<p>Retirar o volume necessário de Onpattro filtrado do contentor estéril, utilizando uma seringa 
+estéril. </p>
+</li>
+<li>
+<p>Diluir o volume necessário de Onpattro filtrado num saco de perfusão que contenha uma 
+solução de 9 mg/ml de cloreto de sódio (0,9%) para um volume total de 200 ml. Utilizar sacos 
+de perfusão livres de di(2-etilhexil)ftalato (DEHP). </p>
+</li>
+<li>
+<p>Inverter de forma suave o saco para misturar a solução. Não agitar. Não misturar ou diluir com 
+outros medicamentos. </p>
+</li>
+<li>
+<p>Descartar qualquer porção não usada de Onpattro. Qualquer medicamento não utilizado ou 
+resíduos devem ser eliminados de acordo com as exigências locais. </p>
+</li>
+<li>
+<p>Onpattro não contém conservantes. A solução diluída deverá ser administrada imediatamente 
+após a sua preparação. Se não for usada imediatamente, conservar a solução diluída no saco de 
+perfusão à temperatura ambiente (até 30 °C) ou entre 2 °C e 8 °C até 16 horas (incluindo o 
+tempo de perfusão). Não congelar. </p>
+</li>
+</ul>
+<p>Administração </p>
+<p>Onpattro destina-se a ser usado por via intravenosa. </p>
+<ul>
+<li>
+<p>Onpattro tem de ser diluído antes da perfusão intravenosa. </p>
+</li>
+<li>
+<p>Terá de ser usado um acesso dedicado com um kit de perfusão que contenha um filtro integrado 
+de polieterssulfona (PES) com 1,2 micron. O kit de perfusão e os acessos não podem conter 
+ftalato de bis(2-etil-hexilo) (DEHP). </p>
+</li>
+<li>
+<p>A perfusão da solução diluída de Onpattro deverá ser administrada por via intravenosa durante, 
+aproximadamente 80 minutos, a um ritmo de perfusão inicial de, aproximadamente, 1 ml/min 
+durante os primeiros 15 minutos, seguido de um aumento para, aproximadamente, 3 ml/min 
+durante o resto da perfusão. A duração da perfusão poderá estender-se, caso haja uma RRP. </p>
+</li>
+<li>
+<p>Onpattro tem de ser administrado através de uma linha de acesso venoso com fluxo livre. O 
+local da perfusão deverá ser monitorizado para possíveis infiltrações durante a administração. O 
+extravasamento suspeito deverá ser gerido de acordo com as práticas locais padronizadas para 
+não-vesicantes. </p>
+</li>
+<li>
+<p>O(A) doente deverá ser observado(a) durante a perfusão e, se for clinicamente indicado, após a 
+perfusão. </p>
+</li>
+<li>
+<p>Após o término da perfusão, deverá fazer-se passar pelo kit de perfusão uma solução de cloreto 
+de sódio de 9 mg/ml (0,9%) para assegurar que todo o medicamento foi administrado. </p>
+</li>
+</ul>         </div>"""      
+
+
+
 
 
                     
@@ -1024,6 +1636,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-fd0c928ba69b44963057ba928ecaf5ac"
 * entry[0].resource = composition-da-fd0c928ba69b44963057ba928ecaf5ac
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfd0c928ba69b44963057ba928ecaf5ac"
+* entry[=].resource = mpfd0c928ba69b44963057ba928ecaf5ac
+                            
+                    
+Instance: bundlepackageleaflet-pt-fd0c928ba69b44963057ba928ecaf5ac
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for onpattro Package Leaflet for language pt"
+Description: "ePI document Bundle for onpattro Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-fd0c928ba69b44963057ba928ecaf5ac"
+* entry[0].resource = composition-pt-fd0c928ba69b44963057ba928ecaf5ac
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpfd0c928ba69b44963057ba928ecaf5ac"
@@ -1125,6 +1759,18 @@ RuleSet: fd0c928ba69b44963057ba928ecaf5acListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-fd0c928ba69b44963057ba928ecaf5ac) // onpattro pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

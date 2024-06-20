@@ -977,6 +977,583 @@ som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægssed
 
 
 
+Instance: composition-pt-a75d7e9d67efdcc2afd6268e67a7d0cd
+InstanceOf: CompositionUvEpi
+Title: "Composition for entresto Package Leaflet"
+Description:  "Composition for entresto Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa75d7e9d67efdcc2afd6268e67a7d0cd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - entresto"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Entresto e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Entresto </li>
+<li>Como tomar Entresto </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Entresto </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é entresto e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é entresto e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Entresto é um medicamento para o coração que contém um inibidor da neprilisina e dos recetores da 
+angiotensina. Distribui duas substâncias ativas, sacubitril e valsartan. </p>
+<p>Entresto é utilizado para tratar um tipo de insuficiência cardíaca de longa duração em adultos, crianças 
+e adolescentes (com um ano de idade e mais velhas). </p>
+<p>Este tipo de insuficiência cardíaca ocorre quando o coração está fraco e não consegue bombear sangue 
+suficiente para os pulmões e para o resto do corpo. Os sintomas mais comuns de insuficiência cardíaca 
+são falta de ar, fadiga, cansaço e inchaço dos tornozelos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar entresto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar entresto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Entresto </p>
+<ul>
+<li>
+<p>se tem alergia ao sacubitril, valsartan ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </p>
+</li>
+<li>
+<p>se estiver a tomar outro tipo de medicamento chamado inibidor da enzima de conversão da 
+angiotensina (ECA) (por exemplo enalapril, lisinopril ou ramipril), que são utilizados para tratar 
+a hipertensão arterial ou a insuficiência cardíaca. Se tem estado a tomar um inibidor da ECA, 
+aguarde 36 horas após a toma da última dose antes de começar a tomar Entresto (Ver “Outros 
+medicamentos e Entresto"). </p>
+</li>
+<li>
+<p>se já teve uma reação adversa chamada angioedema (inchaço rápido sob a pele em zonas tais 
+como a face, garganta, braços e pernas, que pode causar risco de vida se o inchaço da garganta 
+bloquear as vias aéreas) enquanto tomava um inibidor da ECA ou um antagonista dos recetores 
+da angiotensina (ARA) (tais como valsartan, telmisartan ou irbesartan). </p>
+</li>
+<li>
+<p>se tem um historial de angioedema que seja hereditário ou para o qual a causa seja desconhecida 
+(idiopático). </p>
+</li>
+<li>
+<p>se tem diabetes ou função renal diminuída e está a ser tratado com medicamentos que reduzem a 
+pressão arterial contendo aliscireno (ver “Outros medicamentos e Entresto"). </p>
+</li>
+<li>
+<p>Se tem doença hepática grave. </p>
+</li>
+<li>
+<p>se estiver grávida de mais de 3 meses (ver “Gravidez e amamentação"). 
+Se alguma das situações acima se aplica a si, não tome Entresto e fale com o seu médico. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes ou durante a toma de Entresto: </p>
+<ul>
+<li>
+<p>se está a ser tratado com um antagonista dos recetores da angiotensina (ARA) ou aliscireno (ver 
+“Não tome Entresto"). </p>
+</li>
+<li>
+<p>se alguma vez teve angioedema (ver “Não tome Entresto" e secção 4 “Efeitos indesejáveis 
+possíveis"). </p>
+</li>
+<li>
+<p>se tem a pressão arterial baixa ou está a tomar outros medicamentos que baixam a pressão 
+arterial (por exemplo, um medicamento que aumenta a produção de urina (diurético)) ou está 
+com vómitos ou diarreia, especialmente se tiver 65 anos de idade ou mais, ou se tem doença 
+renal e tensão arterial baixa. </p>
+</li>
+<li>
+<p>se tem doença nos rins. </p>
+</li>
+<li>
+<p>se sofre de desidratação. </p>
+</li>
+<li>
+<p>se a sua artéria renal é mais estreita. </p>
+</li>
+<li>
+<p>se tem doença hepática. </p>
+</li>
+<li>
+<p>se tiver alucinações, paranoia ou alterações do padrão do sono enquanto está a tomar Entresto. </p>
+</li>
+<li>
+<p>se tem hipercalemia (níveis elevados de potássio no sangue). </p>
+</li>
+<li>
+<p>se sofre de insuficiência cardíaca classificada como classe IV da NYHA (incapaz de efetuar 
+qualquer atividade física sem desconforto e pode ter sintomas mesmo em descanso). </p>
+</li>
+</ul>
+<p>Se alguma das situações acima se aplica a si, fale com o seu médico, farmacêutico ou enfermeiro 
+antes de tomar Entresto. </p>
+<p>O seu médico pode verificar a quantidade de potássio e sódio no seu sangue a intervalos regulares, 
+durante o tratamento com Entresto. Adicionalmente, o seu médico pode verificar a sua tensão arterial 
+no início do tratamento e quando aumenta as doses do medicamento. </p>
+<p>Crianças e adolescentes 
+Não dê este medicamento a crianças com idade inferior a 1 ano, uma vez que não foi estudado neste 
+grupo etário. Para crianças com um ano de idade e mais velhas, com peso corporal abaixo de 40 kg, 
+este medicamento será administrado na forma de granulado (em vez de comprimidos). </p>
+<p>Outros medicamentos e Entresto 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou 
+se vier a tomar outros medicamentos. Pode ser necessário alterar a dose, tomar outras precauções, ou 
+até mesmo parar de tomar algum desses medicamentos. Isto é particularmente importante para os 
+seguintes medicamentos: </p>
+<ul>
+<li>
+<p>inibidores da ECA. Não tome Entresto com inibidores da ECA. Se tem estado a tomar um 
+inibidor da ECA, aguarde 36 horas após a toma da última dose do inibidor da ECA antes de 
+começar a tomar Entresto (ver “Não tome Entresto"). Se parou de tomar Entresto, aguarde 
+36 horas após a toma da última dose de Entresto antes de começar a tomar um inibidor da ECA. </p>
+</li>
+<li>
+<p>outros medicamentos utilizados para tratar a insuficiência cardíaca ou baixar a pressão arterial, 
+tais como um antagonista dos recetores da angiotensina ou aliscireno (ver “Não tomar 
+Entresto"). </p>
+</li>
+<li>
+<p>alguns medicamentos conhecidos como estatinas que são utilizados para baixar os níveis 
+elevados de colesterol (por exemplo atorvastatina). </p>
+</li>
+<li>
+<p>sildenafil, tadalafil, vardenafil ou avafanil, que são medicamentos utilizados para tratar a 
+disfunção erétil ou a hipertensão pulmonar. </p>
+</li>
+<li>
+<p>medicamentos que aumentam a quantidade de potássio no sangue. Estes incluem suplementos 
+de potássio, substitutos do sal contendo potássio, medicamentos poupadores de potássio e 
+heparina. </p>
+</li>
+<li>
+<p>analgésicos do tipo chamados medicamentos anti-inflamatórios não esteroides (AINE) ou 
+inibidores seletivos da ciclooxigenase-2 (Cox-2). Se está a tomar um destes medicamentos, o 
+seu médico poderá querer verificar a sua função renal quando começar ou alterar o tratamento 
+(ver “Advertências e precauções"). </p>
+</li>
+<li>
+<p>lítio, um medicamento utilizado para tratar determinados tipos de doença psiquiátrica. </p>
+</li>
+<li>
+<p>furosemida, um medicamento pertencente ao grupo dos diuréticos, que são usados para 
+aumentar a quantidade de urina produzida. </p>
+</li>
+<li>
+<p>nitroglicerina, um medicamento utilizado no tratamento da angina pectoris. </p>
+</li>
+<li>
+<p>alguns tipos de antibióticos (grupo da rifamicina), ciclosporina (utilizado para prevenir a 
+rejeição de órgãos transplantados) ou antivirais, tais como ritonavir (utilizado para tratar o 
+VIH). </p>
+</li>
+<li>
+<p>metformina, um medicamento utilizado para o tratamento da diabetes. 
+Se alguma das situações acima se aplica a si, fale com o seu médico ou farmacêutico antes de 
+tomar Entresto. </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Gravidez 
+Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. O seu médico irá 
+normalmente aconselhá-la a que pare de tomar este medicamento antes de engravidar ou logo que 
+saiba que está grávida e a tomar outro medicamento em vez de Entresto.  </p>
+<p>Este medicamento não é recomendado no início da gravidez e não deve ser tomado após os 3 meses de 
+gravidez, uma vez que pode causar danos graves ao seu bebé se for usado após o terceiro mês de 
+gravidez. </p>
+<p>Amamentação 
+Entresto não é recomendado em mães que estão a amamentar. Informe o seu médico se está a 
+amamentar ou se vai começar a amamentar. </p>
+<p>Condução de veículos e utilização de máquinas 
+Antes de conduzir um veículo, utilizar ferramentas ou operar máquinas, ou desempenhar outras tarefas 
+que requeiram concentração, certifique-se que sabe como Entresto o afecta.Se sentir tonturas ou muito 
+cansado enquanto estiver a tomar este medicamento, não conduza um veículo, não ande de bicicleta ou 
+utilize quaisquer ferramentas ou máquinas. </p>
+<p>Entresto contém sódio 
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose de 97 mg/103 mg, ou 
+seja, é praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar entresto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar entresto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Adultos 
+Normalmente irá começar por tomar um comprimido de 24 mg/26 mg ou 49 mg/51 mg duas vezes por 
+dia (um comprimido de manhã e um comprimido à noite). O seu médico decidirá a dose exata inicial 
+com base nos medicamentos que tomou anteriormente e na sua tensão arterial. O seu médico irá depois 
+ajustar a sua dose a cada 2-4 semanas, dependendo da forma como responde ao tratamento até 
+encontrar a melhor dose para si. </p>
+<p>Habitualmente, a dose que se pretende atingir é 97 mg/103 mg duas vezes por dia (um comprimido de 
+manhã e um comprimido à noite). </p>
+<p>Crianças e adolescentes (um ano de idade e mais velhos) 
+O seu médico (ou da sua criança) decidirá a dose inicial com base no peso corporal e outros fatores, 
+incluindo medicamentos tomados anteriormente. O médico irá ajustar a dose a cada 2-4 semanas, até 
+que seja encontrada a melhor dose. </p>
+<p>Entresto deve ser administrado duas vezes por dia (um comprimido de manhã e um comprimido à 
+noite). </p>
+<p>Entresto comprimidos revestidos por película não se destinam a ser usados em crianças com peso 
+corporal inferior a 40 kg. Para estes doentes, está disponível Entresto na forma de granulado. </p>
+<p>Os doentes a tomar Entresto podem desenvolver tensão arterial baixa (tonturas, sensação de cabeça 
+leve), um nível elevado de potássio no sangue (que pode ser detetado quando o seu médico efetuar 
+análises sanguíneas) ou função renal diminuída. Se tal acontecer, o seu médico pode reduzir a dose de 
+qualquer outro medicamento que esteja a tomar, reduzir temporariamente a dose de Entresto ou parar 
+completamente o tratamento com Entresto. </p>
+<p>Engula os comprimidos com um copo de água. Pode tomar Entresto com ou sem alimentos. Não é 
+recomendado partir ou esmagar os comprimidos. </p>
+<p>Se tomar mais Entresto do que deveria 
+Se tiver tomado acidentalmente demasiados comprimidos de Entresto, ou se alguém tomou os seus 
+comprimidos, contacte o seu médico imediatamente. Se sentir tonturas fortes e/ou desmaiar, informe o 
+seu médico o mais rápido possível e deite-se. </p>
+<p>Caso se tenha esquecido de tomar Entresto 
+É aconselhavel tomar o seu medicamento à mesma hora todos os dias. No entanto, se se esquecer de 
+tomar uma dose, deve simplesmente tomar a próxima dose na hora que estava programada. Não tome 
+uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Entresto 
+Parar o tratamento com Entresto pode causar o agravamento da sua condição. Não pare de tomar o 
+medicamento a não ser o que o seu médico lhe diga. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis podem ser graves. </p>
+<ul>
+<li>Pare de tomar Entresto e procure atendimento médico imediatamente se notar inchaço da face, 
+lábios, língua e/ou garganta, que podem causar dificuldades em respirar ou engolir. Podem ser 
+sinais de angioedema (um efeito secundário pouco frequente - pode afetar até 1 em 
+100 pessoas). </li>
+</ul>
+<p>Outros efeitos indesejáveis possíveis: 
+Se algum dos efeitos indesejáveis mencionados abaixo o afetar de forma grave, informe o seu médico 
+ou farmacêutico. </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>tensão arterial baixa, que pode causar sintomas de tonturas e sensação de cabeça leve 
+(hipotensão) </p>
+</li>
+<li>
+<p>níveis elevados de potássio no sangue, demonstrado por análises ao sangue (hipercalemia) </p>
+</li>
+<li>
+<p>diminuição da função dos rins (compromisso renal) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>níveis baixos de glóbulos vermelhos, demonstrado por análises ao sangue (anemia) </p>
+</li>
+<li>
+<p>cansaço (fadiga) </p>
+</li>
+<li>
+<p>incapacidade (aguda) do rim funcionar adequadamente (doença renal) </p>
+</li>
+<li>
+<p>níveis baixos de potássio no sangue, demonstrado por análises ao sangue (hipocalemia) </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>desmaio (síncope) </p>
+</li>
+<li>
+<p>fraqueza (astenia) </p>
+</li>
+<li>
+<p>mal estar (náuseas) </p>
+</li>
+<li>
+<p>tensão arterial baixa (tonturas, sensação de cabeça leve) ao mudar da posição sentado ou deitado 
+para de pé </p>
+</li>
+<li>
+<p>gastrite (dor no estômago, náuseas) </p>
+</li>
+<li>
+<p>sensação de andar à roda (vertigem) </p>
+</li>
+<li>
+<p>níveis baixos de açúcar no sangue, demonstrado por análises ao sangue (hipoglicemia) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>reação alérgica com erupção cutânea e comichão (hipersensibilidade) </p>
+</li>
+<li>
+<p>tonturas ao mudar da posição sentado para de pé (tontura postural) </p>
+</li>
+<li>
+<p>níveis baixos de sódio no sangue, demonstrado por análises ao sangue (hiponatremia) </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1 000 pessoas) </p>
+<ul>
+<li>
+<p>ver, ouvir ou sentir coisas que não existem (alucinações) </p>
+</li>
+<li>
+<p>alterações do padrão do sono (doenças do sono) </p>
+</li>
+</ul>
+<p>Muito raros (podem afetar até 1 em 10 000 pessoas) </p>
+<ul>
+<li>paranoia </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar entresto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar entresto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e blister após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado. 
+Este medicamento não requer quaisquer condições especiais de conservação. 
+Conservar na embalagem de origem para proteger da humidade. 
+Não utilize este medicamento se a embalagem estiver danificada ou apresentar sinais de violação. 
+Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Entresto </p>
+<ul>
+<li>
+<p>As substâncias ativas são sacubitril e valsartan. 
+o 
+Cada comprimido revestido por película de 24 mg/26 mg contém 24,3 mg de sacubitril e 
+25,7 mg de valsartan (como complexo de sal de sódio de sacubitril valsartan). 
+o 
+Cada comprimido revestido por película de 49 mg/51 mg contém 48,6 mg de sacubitril e 
+51,4 mg de valsartan (como complexo de sal de sódio de sacubitril valsartan). 
+o 
+Cada comprimido revestido por película de 97 mg/103 mg contém 97,2 mg de sacubitril e 
+102,8 mg de valsartan (como complexo de sal de sódio de sacubitril valsartan). </p>
+</li>
+<li>
+<p>Os outros componentes no núcleo do comprimido são celulose microcristalina, 
+hidroxipropilcelulose de baixa substituição, crospovidona, estearato de magnésio, talco e sílica 
+coloidal anidra (ver final da secção 2 sob ‘Entresto contém sódio’). </p>
+</li>
+<li>
+<p>O revestimento dos comprimidos de 24 mg/26 mg e 97 mg/103 mg contêm hipromelose, 
+dióxido de titânio (E171), macrogol (4000), talco, óxido de ferro vermelho (E172) e óxido de 
+ferro preto (E172). </p>
+</li>
+<li>
+<p>O revestimento dos comprimidos de 49 mg/51 mg contêm hipromelose, dióxido de titânio 
+(E171), macrogol (4000), talco, óxido de ferro vermelho (E172) e óxido de ferro amarelo 
+(E172). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Entresto e conteúdo da embalagem 
+Os comprimidos revestidos por película de Entresto 24 mg/26 mg são comprimidos ovais branco-
+violeta com “NVR" numa face e “LZ" na outra face. Dimensões do comprimido aproximadas 
+13,1 mm x 5,2 mm. 
+Os comprimidos revestidos por película de Entresto 49 mg/51 mg são comprimidos ovais amarelo 
+claro com “NVR" numa face e “L1" na outra face. Dimensões do comprimido aproximadas 13,1 mm x 
+5,2 mm. 
+Os comprimidos revestidos por película de Entresto 97 mg/103 mg são comprimidos ovais rosa claro 
+com “NVR" numa face e “L11" na outra face. Dimensões do comprimido aproximadas 15,1 mm x 
+6,0 mm. </p>
+<p>Os comprimidos estão disponíveis em embalagens contendo 14, 20, 28, 56, 168 ou 196 comprimidos e 
+em embalagens múltiplas constituídas por 7 embalagens, cada uma contendo 28 comprimidos. Os 
+comprimidos de 49 mg/51 mg e 97 mg/103 mg são também fornecidos em embalagens múltiplas 
+constituídas por 3 embalagens, cada uma contendo 56 comprimidos. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Pharmaceutical Manufacturing LLC 
+Verovskova Ulica 1000 Ljubljana 
+Eslovénia </p>
+<p>Novartis Farma S.p.A 
+Via Provinciale Schito 80058 Torre Annunziata (NA) 
+Itália </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse D-90429 Nuremberga 
+Alemanha </p>
+<p>LEK farmacevtska družba d. d., Poslovna enota PROIZVODNJA LENDAVA 
+Trimlini 2D 
+Lendava 9Eslovénia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20<br />
+Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1018,6 +1595,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a75d7e9d67efdcc2afd6268e67a7d0cd"
 * entry[0].resource = composition-da-a75d7e9d67efdcc2afd6268e67a7d0cd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa75d7e9d67efdcc2afd6268e67a7d0cd"
+* entry[=].resource = mpa75d7e9d67efdcc2afd6268e67a7d0cd
+                            
+                    
+Instance: bundlepackageleaflet-pt-a75d7e9d67efdcc2afd6268e67a7d0cd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for entresto Package Leaflet for language pt"
+Description: "ePI document Bundle for entresto Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a75d7e9d67efdcc2afd6268e67a7d0cd"
+* entry[0].resource = composition-pt-a75d7e9d67efdcc2afd6268e67a7d0cd
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa75d7e9d67efdcc2afd6268e67a7d0cd"
@@ -1119,6 +1718,18 @@ RuleSet: a75d7e9d67efdcc2afd6268e67a7d0cdListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a75d7e9d67efdcc2afd6268e67a7d0cd) // entresto pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

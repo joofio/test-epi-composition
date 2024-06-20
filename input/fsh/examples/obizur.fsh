@@ -794,6 +794,344 @@ intrakranial blødning
 
 
 
+Instance: composition-pt-4361504119fec5762723adfabb108410
+InstanceOf: CompositionUvEpi
+Title: "Composition for obizur Package Leaflet"
+Description:  "Composition for obizur Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4361504119fec5762723adfabb108410)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - obizur"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é OBIZUR e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar OBIZUR </li>
+<li>Como tomar OBIZUR </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar OBIZUR </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é obizur e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é obizur e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>OBIZUR contém a substância ativa susoctocog alfa, fator VIII anti-hemofílico, sequência porcina. O 
+fator VIII é necessário para a formação de coágulos no sangue e para parar hemorragias. 
+Nos doentes com hemofilia adquirida, o fator VIII não funciona corretamente porque o doente 
+desenvolveu anticorpos para o fator VIII do seu organismo, os quais neutralizam o fator de coagulação 
+do sangue. </p>
+<p>OBIZUR é utilizado para o tratamento de episódios hemorrágicos em adultos com hemofilia adquirida 
+(uma doença hemorrágica provocada por uma insuficiência de atividade do fator VIII devido ao 
+desenvolvimento de anticorpos). Estes anticorpos têm um efeito neutralizador reduzido contra o 
+OBIZUR, em comparação com o fator VIII humano. </p>
+<p>OBIZUR repõe a atividade do fator VIII em falta e ajuda na formação de coágulos sanguíneos nos 
+locais com hemorragia. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar obizur"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar obizur"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O medicamento destina-se a ser administrado exclusivamente em doentes hospitalizados. Requer a 
+supervisão clínica do estado hemorrágico do doente. </p>
+<p>Não tome OBIZUR: 
+- se tem alergia a susoctocog alfa ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). 
+- se tem alergia a proteínas de hamster (podem existir vestígios em OBIZUR remanescentes do 
+processo de fabrico) 
+- se tem hemofilia A congénita com inibidores (CHAWI). </p>
+<p>Se não tiver a certeza, fale com o médico antes de tomar este medicamento. </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de tomar OBIZUR. </p>
+<p>Hipersensibilidade 
+Em casos raros, poderá ter uma reação alérgica a OBIZUR. Deverá ter conhecimento dos sinais 
+iniciais de reações alérgicas (ver secção 4 para obter informações sobre os sinais e sintomas). Se 
+observar algum destes sintomas, a injeção deve ser interrompida. Os sintomas graves, incluindo a 
+dificuldade em respirar e desmaio (ou quase desmaio), exigem tratamento hospitalar urgente. </p>
+<p>Inibidores 
+O seu médico poderá verificar se desenvolveu anticorpos ao fator VIII porcino e se ocorreu um 
+aumento destes anticorpos. 
+O seu médico irá verificar o seu nível de fator VIII no sangue para confirmar que está a receber uma 
+quantidade suficiente de fator VIII. O seu médico também irá verificar se a hemorragia está 
+devidamente controlada. </p>
+<p>Eventos cardiovasculares 
+Fale com o seu médico se atualmente tem, ou tiver tido, antecedentes de doença cardiovascular ou se 
+tiver um risco conhecido de trombose (doenças relacionadas com a formação de coágulos sanguíneos 
+na vasculatura normal), uma vez que não é possível excluir a possibilidade de desenvolver doenças 
+tromboembólicas com níveis elevados e constantes de fator VIII no sangue. </p>
+<p>Crianças e adolescentes 
+Não existe informação sobre a utilização de OBIZUR em crianças e adolescentes com menos de 
+18 anos. </p>
+<p>Outros medicamentos e OBIZUR 
+Informe o seu médico se estiver a utilizar, tiver utilizado recentemente, ou se vier a utilizar outros 
+medicamentos. Não são conhecidas interações entre OBIZUR e outros medicamentos. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+OBIZUR não tem influência sobre a sua capacidade de conduzir e utilizar máquinas. </p>
+<p>OBIZUR contém sódio 
+Este medicamento contém 4,6 mg de sódio (componente principal do sal de cozinha) por mililitro após 
+a reconstituição. Isto é equivalente a 0,23% da ingestão diária máxima recomendada pela OMS de 2 g 
+de sódio para um adulto. Têm de ser tomados vários frascos para injetáveis por dose. </p>
+<p>Fale com o seu médico se estiver num regime de alimentação com sódio controlado. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar obizur"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar obizur"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com OBIZUR será realizado por um médico com experiência no tratamento de doentes 
+com hemofilia (doenças hemorrágicas). </p>
+<p>O seu médico irá calcular a sua dose de OBIZUR (em unidades ou U) dependendo da sua condição e 
+peso corporal. A frequência e duração da administração dependem da sua reação ao tratamento com 
+OBIZUR. Normalmente, a terapêutica de reposição com OBIZUR é um tratamento temporário até a 
+hemorragia se resolver ou os anticorpos contra o fator VIII do seu organismo estarem erradicados. </p>
+<p>O seu médico irá monitorizar os anticorpos contra OBIZUR. </p>
+<p>A dose inicial recomendada é de 200 U por quilograma de peso corporal, administrada por injeção 
+intravenosa. </p>
+<p>O seu médico irá medir a sua atividade do fator VIII regularmente para decidir a dose e frequência 
+subsequentes de OBIZUR. </p>
+<p>A hemorragia reage ao tratamento tipicamente nas 24 horas iniciais e o seu médico irá ajustar a dose e 
+duração de OBIZUR até a hemorragia parar. 
+O volume total de OBIZUR reconstituído deve ser administrado a uma velocidade de 1 a 2 ml por 
+minuto. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Se ocorrerem reações alérgicas graves e súbitas, a injeção deve ser interrompida imediatamente. Deve 
+contactar o seu médico imediatamente se apresentar qualquer um dos seguintes sintomas iniciais: 
+- Inchaço nos lábios e língua; 
+- Sensação de ardor e picadas no local de injeção; 
+- Arrepios, afrontamentos; 
+- Urticária, comichão generalizada; 
+- Dor de cabeça, tensão arterial baixa; 
+- Letargia, estado nauseoso, irrequietude; 
+- Batimento rápido do coração, sensação de aperto no peito; 
+- Formigueiro, vómitos 
+- Síbilo. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- Desenvolvimento de anticorpos e aumento dos anticorpos preexistentes contra o medicamento 
+que poderá resultar em falta de eficácia em hemorragias continuadas. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar obizur"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar obizur"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem, no frasco para 
+injetáveis e na seringa pré-cheia, após VAL. O prazo de validade corresponde ao último dia do mês 
+indicado. </p>
+<p>Conservar no frigorífico (2°C - 8°C). 
+Não congelar. </p>
+<p>Utilize a solução reconstituída imediatamente, até 3 horas após dissolver o pó totalmente. </p>
+<p>Após a reconstituição a solução deve ser transparente e incolor. 
+Não administre a solução se detetar partículas ou descoloração. </p>
+<p>Visto que este medicamento se destina a utilização em meio hospitalar, os profissionais de saúde são 
+responsáveis pelo armazenamento correto deste medicamento antes e durante a sua utilização, assim 
+como pela eliminação correta do mesmo. </p>
+<p>Nome e número do lote 
+Recomenda-se vivamente que sempre que OBIZUR for utilizado, o nome e o número de lote do 
+medicamento sejam registados pelo profissional de saúde, a fim de manter uma ligação entre o seu 
+tratamento e o número de lote do medicamento. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de OBIZUR 
+- A substância ativa é susoctocog alfa (fator VIII anti-hemofílico, sequência porcina, produzido 
+por tecnologia de ADN recombinante). Cada frasco para injetáveis com pó contém 500 U de 
+susoctocog alfa. 
+- Os outros componentes no pó são polissorbato 80, cloreto de sódio (ver também secção 2), 
+cloreto de cálcio di-hidratado, sacarose, trometamol, cloridrato de trometamol e citrato de sódio. 
+- O solvente é 1 ml de água para preparações injetáveis. </p>
+<p>Qual o aspeto de OBIZUR e conteúdo da embalagem 
+Uma embalagem contém 1, 5 ou 10 de cada um dos seguintes itens: 
+- frasco para injetáveis de vidro com OBIZUR 500 U, pó branco e macio, com rolha de borracha 
+de butilo revestida com FluroTec® e selo de abertura fácil; 
+- seringa de vidro pré-cheia de 1 ml com água esterilizada para preparações injetáveis, com rolha 
+de borracha de bromobutilo revestida com folha FluroTec® no lado do contacto, uma tampa de 
+bromobutilo de ponta em borracha e um adaptador Luer lock; 
+- dispositivo de transferência de fluidos com espigão integrado em plástico. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Baxalta Innovations GmbH 
+Industriestrasse 1221 Viena 
+Áustria </p>
+<p>Fabricante 
+Takeda Manufacturing Austria AG 
+Industriestrasse 1221 Viena 
+Áustria </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 11<br />
+medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel.: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>България 
+Такеда България ЕООД 
+Тел.: +359 2 958 27 medinfoEMEA@takeda.com  </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>Česká republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel.: +420 234 722 medinfoEMEA@takeda.com </p>
+<p>Magyarország 
+Takeda Pharma Kft. 
+Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
+<p>Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Τakeda HELLAS S.A. 
+Tel.: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel.: +49 (0)800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel.: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel.: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>Ελλάδα 
+Τakeda ΕΛΛΑΣ Α.Ε. 
+Tηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Österreich 
+Takeda Pharma Ges.m.b.H.<br />
+Tel.: +43 (0) 800-20 80 50<br />
+medinfoEMEA@takeda.com </p>
+<p>España 
+Takeda Farmacéutica España, S.A. 
+Tel.: +34 917 90 42 medinfoEMEA@takeda.com </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+Tel.: +48223062medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+Tél: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmacêuticos Portugal, Lda. 
+Tel.: + 351 21 120 1medinfoEMEA@takeda.com </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel.: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>România 
+Takeda Pharmaceuticals SRL 
+Tel.: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel.: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska družba d.o.o. 
+Tel.: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovenská republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel.: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel.: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>Κύπρος 
+Τakeda ΕΛΛΑΣ Α.Ε. 
+Τηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Sverige 
+Takeda Pharma AB 
+Tel.: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel.: +371 67840medinfoEMEA@takeda.com </p>
+<p>United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel.: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
+<p>Este folheto foi revisto pela última vez em.  </p>
+<p>Foi concedida a este medicamento uma “Autorização de Introdução no Mercado em circunstâncias 
+excecionais". Isto significa que não foi possível obter informação completa sobre este medicamento 
+devido à raridade desta doença. 
+A Agência Europeia de Medicamentos irá analisar todos os anos, qualquer nova informação sobre este 
+medicamento e este folheto será atualizado se necessário. </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -835,6 +1173,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-4361504119fec5762723adfabb108410"
 * entry[0].resource = composition-da-4361504119fec5762723adfabb108410
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4361504119fec5762723adfabb108410"
+* entry[=].resource = mp4361504119fec5762723adfabb108410
+                            
+                    
+Instance: bundlepackageleaflet-pt-4361504119fec5762723adfabb108410
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for obizur Package Leaflet for language pt"
+Description: "ePI document Bundle for obizur Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-4361504119fec5762723adfabb108410"
+* entry[0].resource = composition-pt-4361504119fec5762723adfabb108410
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp4361504119fec5762723adfabb108410"
@@ -936,6 +1296,18 @@ RuleSet: 4361504119fec5762723adfabb108410ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-4361504119fec5762723adfabb108410) // obizur pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1197,6 +1197,616 @@ CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne �
 
 
 
+Instance: composition-pt-0d94803bc9c6a74df09f017a447745b8
+InstanceOf: CompositionUvEpi
+Title: "Composition for fintepla Package Leaflet"
+Description:  "Composition for fintepla Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0d94803bc9c6a74df09f017a447745b8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - fintepla"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Fintepla e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Fintepla </li>
+<li>Como tomar Fintepla </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Fintepla </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é fintepla e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é fintepla e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fintepla contém a substância ativa fenfluramina. </p>
+<p>Fintepla é utilizado no tratamento de convulsões (ataques epiléticos) em doentes com idade igual ou 
+superior a 2 anos com um tipo de epilepsia denominado síndrome de Dravet ou um outro tipo 
+denominado síndrome de Lennox-Gastaut. O medicamento pode ajudar a reduzir o número e a 
+gravidade das convulsões. </p>
+<p>A forma como Fintepla funciona não é totalmente conhecida. No entanto, pensa-se que funciona 
+aumentando a atividade cerebral de uma substância natural chamada serotonina e o recetor sigma 1, o 
+que pode reduzir as convulsões. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar fintepla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar fintepla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Fintepla 
+ 
+se tem, ou a sua criança tem, alergia à fenfluramina ou a qualquer outro componente deste 
+medicamento (indicados na secção 6) 
+ 
+se tem, ou a sua criança tem, um problema cardíaco como «doença das válvulas cardíacas» ou 
+«hipertensão arterial pulmonar» (pressão alta nas artérias pulmonares) 
+ 
+se tomou, ou a sua criança tomou, medicamentos chamados inibidores da monoaminoxidase nas 
+últimas 2 semanas. </p>
+<p>Não tome Fintepla se qualquer uma das situações acima indicadas se aplicar a si. Se tiver dúvidas, fale 
+com o seu médico, farmacêutico ou enfermeiro antes de tomar Fintepla. </p>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Fintepla se: 
+ 
+tem, ou a sua criança tem, glaucoma 
+ 
+tiver tido, ou a sua criança tiver tido, pensamentos sobre agredir-se a si próprio ou suicidar-se 
+ 
+se estiver a tomar, ou a sua criança estiver a tomar, um medicamento denominado 
+ciproheptadina, que é utilizado para tratar alergias ou para melhorar o apetite. </p>
+<p>Se alguma das situações acima descritas se aplicar a si ou à sua criança (ou se não tiver a certeza), fale 
+com o seu médico, farmacêutico ou enfermeiro antes de tomar Fintepla. </p>
+<p>Testes e avaliações 
+Antes de começar a tomar Fintepla, ou de a sua criança começar a tomar, o seu médico deve fazer-lhe 
+um exame ao coração chamado ecocardiograma. O médico irá verificará se as válvulas do coração 
+funcionam corretamente e se a pressão na artéria entre o coração e os pulmões não é demasiado alta. 
+Depois de ter começado a tomar Fintepla, ou de a sua criança ter começado a tomar, fará um 
+ecocardiograma a cada 6 meses durante os primeiros 2 anos e, em seguida, uma vez por ano. Se o 
+tratamento com Fintepla for interrompido, terá de fazer, ou a sua criança terá de fazer, um 
+ecocardiograma 6 meses após a última dose. </p>
+<p>O médico também deve verificar o seu peso antes e durante o tratamento, uma vez que Fintepla pode 
+causar perda de peso. </p>
+<p>«Síndrome serotoninérgica» 
+Informe o seu médico ou farmacêutico antes de tomar Fintepla se estiver a tomar, ou a sua criança 
+estiver a tomar, medicamentos que possam aumentar os níveis de serotonina no seu cérebro. Isto 
+porque tomar estes medicamentos e Fintepla pode causar síndrome serotoninérgica, uma situação que 
+põe a vida em perigo. Os medicamentos que podem aumentar os níveis de serotonina incluem: 
+ 
+«triptanos» (como o sumatriptano) - utilizados para a enxaqueca 
+ 
+medicamentos IMAO - utilizados para a depressão 
+ 
+medicamentos ISRS ou ISRSN - utilizados para a depressão e ansiedade. </p>
+<p>Tenha atenção aos sinais da síndrome serotoninérgica, que incluem: 
+ 
+estado de agitação, ver coisas que não existem (alucinações) ou desmaiar 
+ 
+problemas cardíacos e da circulação sanguínea, tais como batimento cardíaco rápido, tensão 
+arterial a subir e a descer, temperatura corporal elevada, suores 
+ 
+contrações musculares e descoordenação 
+ 
+sensação de enjoo ou diarreia. </p>
+<p>Informe imediatamente o seu médico se detetar algum dos efeitos indesejáveis graves acima 
+mencionados. </p>
+<p>Outros medicamentos e Fintepla 
+Informe o seu médico ou farmacêutico se estiver a tomar, ou a sua criança estiver a tomar, tiver 
+tomado recentemente, ou se vier a tomar outros medicamentos. Isto deve-se ao facto de Fintepla poder 
+afetar a forma como outros medicamentos funcionam. Além disso, outros medicamentos podem afetar 
+a forma como Fintepla funciona. </p>
+<p>Fintepla pode causar sonolência, a si ou à sua criança. Pode causar ainda mais sonolência se estiver a 
+tomar, ou a sua criança estiver a tomar, outros medicamentos, como antidepressivos, ou se ingerir 
+álcool ao mesmo tempo que Fintepla. </p>
+<p>Informe o seu médico ou farmacêutico em especial se estiver a tomar, ou a sua criança estiver a tomar, 
+tiver tomado recentemente, ou possa vir a tomar: 
+ 
+estiripentol, um medicamento para a epilepsia, uma vez que a dose de Fintepla pode ter de ser 
+reduzida 
+ 
+«triptanos», IMAO, ISRS ou ISRSN - ver acima «Síndrome serotoninérgica» 
+ 
+carbamazepina, primidona, rifampicina, fenobarbital e outros barbitúricos, fenitoína e efavirenz, 
+uma vez que a dose de Fintepla pode ter de ser aumentada. </p>
+<p>Fale também com o seu médico ou farmacêutico se fumar, ou o(a) seu(sua) filho(a) fumar, uma vez 
+que a dose de Fintepla pode ter de ser aumentada. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, ou a sua filha está grávida ou a amamentar, se pensa estar grávida, ou 
+planeia engravidar, consulte o seu médico antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Fale com o seu médico sobre a condução e a utilização de máquinas, ou se praticar, ou a sua criança 
+praticar atividades como ciclismo ou outros desportos, porque podem sentir sonolência depois de 
+tomar este medicamento. </p>
+<p>Fintepla contém sal de sódio do p-hidroxibenzoato de etilo (E 215) e sal de sódio do p-
+hidroxibenzoato de metilo (E 219) 
+Estes componentes podem causar reações alérgicas (possivelmente retardadas). </p>
+<p>Fintepla contém dióxido de enxofre (E 220) 
+Este componente pode causar, raramente, reações de hipersensibilidade e broncospasmo. </p>
+<p>Fintepla contém glucose 
+Este componente pode ser prejudicial aos dentes. 
+Se o seu médico lhe tiver dito que é intolerante a alguns açúcares, contacte o seu médico antes de 
+tomar este medicamento. </p>
+<p>Fintepla contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 12 ml, ou seja, é praticamente 
+«isento de sódio». </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar fintepla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar fintepla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico, farmacêutico ou enfermeiro. 
+Fale com o médico, farmacêutico ou enfermeiro se tiver dúvidas. </p>
+<p>Que dose deve tomar 
+ 
+Ser-lhe-á dito quantos ml deve tomar para cada dose. 
+ 
+Tome o medicamento duas vezes por dia. 
+ 
+O médico iniciará o seu tratamento, ou o tratamento da sua criança, com uma dose baixa. Esta 
+dose pode ser aumentada gradualmente, dependendo da forma como o medicamento funciona e 
+do seu efeito, em si ou na sua criança. 
+ 
+A quantidade máxima que pode tomar é 6 ml duas vezes por dia. 
+ 
+Se estiver a tomar estiripentol, a quantidade máxima que pode tomar é 4 ml duas vezes por dia. 
+ 
+Não tome mais do que a dose prescrita porque pode causar efeitos indesejáveis graves. </p>
+<p>Tomar este medicamento 
+ 
+Tome este medicamento pela boca. 
+ 
+Tome o medicamento com alimentos ou entre as refeições. 
+ 
+Fintepla solução oral é compatível com uma dieta cetogénica. 
+ 
+O medicamento é um líquido. Utilize as seringas de administração oral fornecidas para medir a 
+dose, tal como é explicado em seguida. 
+ 
+Utilize a seringa verde de 3 ml para doses até 3,0 ml. 
+ 
+Utilize a seringa roxa de 6 ml para doses entre 3,2 ml e 6,0 ml. 
+ 
+Fintepla solução oral é compatível com a maioria dos tubos de alimentação entéricos. 
+ 
+Para lavar o tubo de alimentação, encha a seringa utilizada para a administração da dose com 
+água e lave o tubo. Repita 3 vezes. </p>
+<p>Seringa de 3 ml - verde 
+Seringa de 6 ml - roxa </p>
+<p>Escreva na embalagem a data em que abriu o 
+frasco pela primeira vez. 
+Tem de colocar o adaptador no frasco da 
+primeira vez que o abrir. As instruções 
+seguintes indicam como deve colocar o 
+adaptador. 
+Inserir o adaptador no frasco: 
+Quando o frasco é aberto pela primeira vez, o 
+adaptador tem de ser empurrado para dentro 
+do frasco. 
+Lave e seque as mãos. 
+Retire o adaptador do frasco da respetiva 
+embalagem. 
+Coloque o frasco numa superfície plana e 
+firme. 
+Abra o frasco. </p>
+<p>Segure o frasco com firmeza. 
+Alinhe o adaptador do frasco com a parte de 
+cima aberta do frasco. 
+Empurre o adaptador para dentro do frasco 
+com a palma da mão até que o adaptador 
+esteja ao nível da parte de cima do frasco. 
+Deixe o adaptador no frasco depois de 
+utilizar o medicamento. 
+Enrosque a tampa no frasco deixando o 
+adaptador colocado. </p>
+<p>Tomar o medicamento: 
+Antes de medir a dose, certifique-se de que o 
+êmbolo está totalmente para dentro da 
+seringa oral. 
+Segure firmemente o frasco do medicamento 
+numa superfície firme e plana. 
+Empurre a ponta da seringa para dentro do 
+adaptador do frasco até não conseguir 
+empurrar mais. </p>
+<p>Segure o frasco e a seringa juntos e vire-os 
+ao contrário. 
+Puxe lentamente o êmbolo para retirar a dose 
+correta. 
+Segure o frasco e a seringa juntos e vire-os 
+novamente. 
+Segurando o frasco com firmeza, retire 
+cuidadosamente a seringa do adaptador do 
+frasco. </p>
+<p>Coloque a ponta da seringa no interior da 
+boca do doente, junto à bochecha. 
+Empurre suavemente o êmbolo até que este 
+esteja completamente para baixo. Irá ficar um 
+pequeno volume de líquido na ponta da 
+seringa. Isso é normal. 
+Não esguiche o medicamento para a 
+garganta, pois isso pode causar asfixia. </p>
+<p>Volte a colocar a tampa no frasco e rode até 
+parar. 
+Deixe sempre o adaptador colocado no 
+frasco. </p>
+<p>Limpar a seringa: 
+Lave a seringa com água limpa e deixe secar 
+ao ar após cada utilização. 
+Lave a parte interna da seringa e o êmbolo. 
+Para limpar a seringa, pode puxar água limpa 
+para dentro da seringa e empurrar para fora 
+com o êmbolo, repetindo várias vezes. 
+Pode separar o êmbolo da seringa para lavar 
+cada uma das partes. 
+Pode lavar a seringa e o êmbolo na máquina 
+de lavar louça. 
+A seringa e o êmbolo devem estar 
+completamente secos antes da utilização 
+seguinte. </p>
+<p>Se tomar, ou a sua criança tomar, mais Fintepla do que deveria 
+Fale com um médico ou vá imediatamente ao hospital. Leve o frasco do medicamento consigo. Podem 
+ocorrer os seguintes efeitos: agitação, sonolência ou confusão, rubor ou calor, calafrios e suores. </p>
+<p>Caso se tenha esquecido, ou a sua criança se tenha esquecido, de tomar Fintepla 
+ 
+Tome o medicamento assim que se lembrar. No entanto, se for quase hora de tomar a dose 
+seguinte, não tome a dose em falta. 
+ 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar ou a sua criança parar de tomar Fintepla 
+Não deixe de tomar Fintepla sem falar com o seu médico. Se o seu médico decidir parar este 
+medicamento, irá pedir-lhe, a si ou à sua criança, que baixem lentamente a quantidade que tomam 
+todos os dias. A diminuição gradual da dose reduz o risco de ter convulsões e estado epilético. 
+Seis meses após a sua última dose de Fintepla, ou da sua criança, será necessário realizar um 
+ecocardiograma. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Síndrome de Dravet 
+Muito frequentes: podem afetar mais de 1 em cada 10 pessoas 
+ 
+infeção do trato respiratório superior 
+ 
+diminuição do apetite 
+ 
+sonolência 
+ 
+diarreia 
+ 
+temperatura elevada 
+ 
+sensação de cansaço, sono ou fraqueza 
+ 
+níveis baixos de açúcar no sangue 
+ 
+anomalias no ecocardiograma </p>
+<p>Frequentes: podem afetar 1 em cada 10 pessoas 
+ 
+bronquite 
+ 
+comportamento anormal 
+ 
+mudanças de humor repentinas 
+ 
+agressão 
+ 
+agitação 
+ 
+insónias 
+ 
+tremor nas mãos, nos braços ou nas pernas 
+ 
+problemas na coordenação de movimentos, andar e equilíbrio 
+ 
+diminuição do tónus muscular 
+ 
+convulsões 
+ 
+convulsões prolongadas (estado epilético) 
+ 
+letargia 
+ 
+perda de peso 
+ 
+prisão de ventre 
+ 
+hipersecreção salivar 
+ 
+nível aumentado de prolactina no sangue </p>
+<p>Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis) 
+ 
+pressão arterial elevada nas artérias dos pulmões (hipertensão arterial pulmonar) </p>
+<p>Síndrome de Lennox-Gastaut 
+Muito frequentes: podem afetar mais de 1 em cada 10 pessoas 
+ 
+diarreia<br />
+ 
+vómitos 
+ 
+infeção do trato respiratório superior<br />
+ 
+sensação de cansaço, sonolência ou fraqueza 
+ 
+sonolência 
+ 
+perda de apetite </p>
+<p>Frequentes: podem afetar 1 em cada 10 pessoas 
+ 
+agressividade 
+ 
+prisão de ventre 
+ 
+hipersecreção salivar 
+ 
+bronquite<br />
+ 
+gripe 
+ 
+pneumonia 
+ 
+queda 
+ 
+perda de peso<br />
+ 
+convulsões 
+ 
+convulsões prolongadas (estado epilético) 
+ 
+letargia 
+ 
+tremor nas mãos, nos braços ou nas pernas 
+ 
+nível aumentado de prolactina no sangue </p>
+<p>Informe o seu médico, farmacêutico ou enfermeiro se detetar algum dos efeitos indesejáveis acima 
+mencionados. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar fintepla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar fintepla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p> 
+Manter este medicamento fora da vista e do alcance das crianças. 
+ 
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+rótulo do frasco, após EXP. O prazo de validade corresponde ao último dia do mês indicado. 
+ 
+Não refrigerar ou congelar. 
+ 
+Utilizar no prazo de 3 meses após a primeira abertura do frasco. 
+ 
+Lavar a seringa após cada utilização. 
+ 
+Se perder ou danificar uma seringa, ou se não conseguir ler as marcações da dose numa seringa, 
+utilize outra das seringas fornecidas na embalagem, ou fale com o seu farmacêutico. 
+ 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Fintepla 
+A substância ativa é a fenfluramina. Cada ml contém 2,2 mg de fenfluramina (sob a forma de 
+cloridrato de fenfluramina). 
+Os outros componentes são: 
+ 
+Sal de sódio do p-hidroxibenzoato de etilo (E 215) 
+ 
+Sal de sódio do p-hidroxibenzoato de metilo (E 219) 
+ 
+Sucralose (E 955) 
+ 
+Hidroxietilcelulose (E 1525) 
+ 
+Fosfato monossódico (E 339) 
+ 
+Fosfato dissódico (E 339) 
+ 
+Aroma de cereja em pó: 
+o Acácia (E 414) 
+o Glucose (milho) 
+o Benzoato de etilo 
+o Preparações aromatizantes naturais 
+o Substâncias aromatizantes naturais 
+o Substâncias aromatizantes 
+o Maltodextrina (milho) 
+o Dióxido de enxofre (E 220) 
+ 
+Citrato de potássio (E 332) 
+ 
+Ácido cítrico mono-hidratado (E 330) 
+ 
+Água para preparações injetáveis </p>
+<p>Qual o aspeto de Fintepla e conteúdo da embalagem 
+ 
+Fintepla solução oral é fornecido na forma de líquido límpido, incolor, ligeiramente viscoso e 
+com sabor a cereja. 
+ 
+A solução está disponível num frasco branco com uma tampa inviolável e resistente à abertura 
+por crianças. 
+ 
+Cada embalagem contém: 
+o Frasco contendo 60 ml de solução oral, um adaptador para o frasco, duas seringas orais de 
+3 ml com graduações de 0,1 ml e duas seringas de 6 ml com graduações de 0,2 ml. 
+o Frasco contendo 120 ml de solução oral, um adaptador para o frasco, duas seringas orais 
+de 3 ml com graduações de 0,1 ml e duas seringas de 6 ml com graduações de 0,2 ml. 
+o Frasco contendo 250 ml de solução oral, um adaptador para o frasco, duas seringas orais 
+de 3 ml com graduações de 0,1 ml e duas seringas de 6 ml com graduações de 0,2 ml. 
+o Frasco contendo 360 ml de solução oral, um adaptador para o frasco, duas seringas orais 
+de 3 ml com graduações de 0,1 ml e duas seringas de 6 ml com graduações de 0,2 ml. 
+ 
+É possível que não sejam comercializadas todas as apresentações no seu país. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado: 
+UCB Pharma S.A., 
+Allée de la Recherche 60, 
+B-1070 Bruxelles, 
+Bélgica </p>
+<p>Fabricante: 
+Millmount Healthcare Ltd, 
+Millmount Site, Block 7, 
+City North Business Campus, 
+Stamullen, 
+Co. Meath, 
+K32 YD60, 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+UCB Pharma S.A./NV<br />
+Tél/Tel: + 32 / (0)2 559 92 Lietuva 
+UAB Medfiles 
+Tel: +370 5 246 16<br />
+България 
+Ю СИ БИ България ЕООД<br />
+Teл.: + 359 (0) 2 962 30<br />
+Luxembourg/Luxemburg 
+UCB Pharma SA/NV<br />
+Tél/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+UCB s.r.o.<br />
+Tel: + 420 221 773 Magyarország 
+UCB Magyarország Kft.<br />
+Tel.: + 36-(1) 391 0Danmark 
+UCB Nordic A/S<br />
+Tlf: + 45 / 32 46 24<br />
+Malta 
+Pharmasud Ltd.<br />
+Tel: + 356 / 21 37 64<br />
+Deutschland 
+UCB Pharma GmbH<br />
+Tel: + 49 /(0) 2173 48 4 
+Nederland 
+UCB Pharma B.V.<br />
+Tel.: + 31 / (0)76-573 11<br />
+Eesti 
+OÜ Medfiles 
+Tel: +372 730 5Norge 
+UCB Nordic A/S<br />
+Tlf: + 47 / 67 16 5 
+Ελλάδα 
+UCB Α.Ε.<br />
+Τηλ: + 30 / 2109974 
+Österreich 
+UCB Pharma GmbH<br />
+Tel: + 43-(0)1 291 80<br />
+España 
+UCB Pharma, S.A.<br />
+Tel: + 34 / 91 570 34<br />
+Polska 
+UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o. 
+Tel: + 48 22 696 99<br />
+France 
+UCB Pharma S.A.<br />
+Tél: + 33 / (0)1 47 29 44<br />
+Portugal<br />
+UCB Pharma (Produtos Farmacêuticos), Lda<br />
+Tel: + 351 21 302 5 
+Hrvatska 
+Medis Adria d.o.o.<br />
+Tel: +385 (0) 1 230 34<br />
+Ireland 
+UCB (Pharma) Ireland Ltd.<br />
+Tel: + 353 / (0)1-46 37<br />
+România 
+UCB Pharma Romania S.R.L.<br />
+Tel: + 40 21 300 29<br />
+Slovenija 
+Medis, d.o.o.<br />
+Tel: + 386 1 589 69<br />
+Ísland 
+Vistor hf.<br />
+Simi: + 354 535 7 
+Slovenská republika 
+UCB s.r.o., organizačná zložka<br />
+Tel: + 421 (0) 2 5920 2 
+Italia 
+UCB Pharma S.p.A.<br />
+Tel: + 39 / 02 300<br />
+Suomi/Finland 
+UCB Pharma Oy Finland<br />
+Puh/Tel: + 358 9 2514 4 
+Κύπρος 
+Lifepharma (Z.A.M.) Ltd<br />
+Sverige 
+UCB Nordic A/STel: + 46 / (0) 40 294 Τηλ: + 357 22 056 </p>
+<p>Latvija 
+Medfiles SIA 
+Tel: . +371 67 370 United Kingdom (Northern Ireland) 
+UCB (Pharma) Ireland Ltd.<br />
+Tel : + 353 / (0)1-46 37  </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1238,6 +1848,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-0d94803bc9c6a74df09f017a447745b8"
 * entry[0].resource = composition-da-0d94803bc9c6a74df09f017a447745b8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0d94803bc9c6a74df09f017a447745b8"
+* entry[=].resource = mp0d94803bc9c6a74df09f017a447745b8
+                            
+                    
+Instance: bundlepackageleaflet-pt-0d94803bc9c6a74df09f017a447745b8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fintepla Package Leaflet for language pt"
+Description: "ePI document Bundle for fintepla Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-0d94803bc9c6a74df09f017a447745b8"
+* entry[0].resource = composition-pt-0d94803bc9c6a74df09f017a447745b8
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp0d94803bc9c6a74df09f017a447745b8"
@@ -1339,6 +1971,18 @@ RuleSet: 0d94803bc9c6a74df09f017a447745b8ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-0d94803bc9c6a74df09f017a447745b8) // fintepla pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

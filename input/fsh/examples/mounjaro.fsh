@@ -976,6 +976,640 @@ indlægsseddel. Se afsnit 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-ef5bb2365c3e700f3696b97c07007976
+InstanceOf: CompositionUvEpi
+Title: "Composition for mounjaro Package Leaflet"
+Description:  "Composition for mounjaro Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpef5bb2365c3e700f3696b97c07007976)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - mounjaro"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto  </p>
+<ol>
+<li>O que é Mounjaro e para que é utilizado  </li>
+<li>O que precisa de saber antes de utilizar Mounjaro  </li>
+<li>Como utilizar Mounjaro  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Mounjaro </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é mounjaro e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é mounjaro e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mounjaro contém uma substância ativa denominada tirzepatida e é utilizado para tratar adultos com 
+diabetes mellitus tipo 2. Mounjaro reduz o nível de açúcar no corpo apenas quando os níveis de açúcar 
+estão elevados. </p>
+<p>Mounjaro também é utilizado para tratar adultos com obesidade ou excesso de peso (com IMC de pelo 
+menos 27 kg/m2). Mounjaro influencia a regulação do apetite, o que poderá ajudá-lo/a a comer menos 
+comida e a reduzir o seu peso corporal. </p>
+<p>Na diabetes tipo 2, Mounjaro é utilizado: 
+- por si só quando não pode tomar metformina (outro medicamento para a diabetes).<br />
+- com outros medicamentos para a diabetes quando estes não são suficientes para controlar os 
+seus níveis de açúcar no sangue. Esses outros medicamentos podem ser medicamentos que toma 
+por via oral e/ou insulina administrada por injeção. </p>
+<p>Mounjaro também é utilizado conjuntamente com dieta e exercício para a perda de peso e para ajudar 
+a manter o peso sob controlo em adultos que tenham: 
+- um IMC de 30 kg/m2 ou superior (obesidade) ou 
+- um IMC de pelo menos 27 kg/m2 mas inferior a 30 kg/m2 (excesso de peso) e problemas de 
+saúde relacionados com o peso (tais como pré-diabetes, diabetes tipo 2, pressão sanguínea 
+elevada, níveis anormais de gordura no sangue, problemas respiratórios durante o sono 
+chamados “apneia obstrutiva do sono" ou uma história de ataque do coração, enfarte ou 
+problemas nas veias sanguíneas). </p>
+<p>O IMC (Índice de Massa Corporal) é uma medida do seu peso em relação à sua altura. </p>
+<p>É importante continuar a seguir os conselhos do seu médico, enfermeiro ou farmacêutico 
+relativamente à dieta e ao exercício. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar mounjaro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar mounjaro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Mounjaro<br />
+- se tem alergia à tirzepatida ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico, enfermeiro ou farmacêutico antes de utilizar Mounjaro se:<br />
+- tiver problemas graves com a digestão dos alimentos, ou se os alimentos ficam mais tempo do 
+que o normal no seu estômago (incluindo gastroparesia grave).<br />
+- já tiver tido alguma vez pancreatite (inflamação do pâncreas que pode provocar dores intensas 
+no estômago e nas costas, que não passam). 
+- tiver um problema nos seus olhos (retinopatia diabética ou edema macular). 
+- estiver a utilizar uma sulfonilureia (outro medicamento para a diabetes) ou insulina para a sua 
+diabetes, porque pode ocorrer uma diminuição dos níveis de açúcar no sangue (hipoglicemia). O 
+seu médico poderá ter a necessidade de alterar a dose desses outros medicamentos para diminuir 
+este risco. </p>
+<p>Ao iniciar o tratamento com Mounjaro, em alguns casos poderá ocorrer perda de fluidos/desidratação, 
+por exemplo, devido a vómitos, náuseas e/ou diarreia, que poderão levar a uma diminuição da função 
+renal. É importante evitar a desidratação bebendo muitos líquidos. Contacte o seu médico se tiver 
+qualquer dúvida ou preocupação. </p>
+<p>Crianças e adolescentes<br />
+Este medicamento não deve ser administrado a crianças e adolescentes com menos de 18 anos de 
+idade porque não foi estudado neste grupo etário. </p>
+<p>Outros medicamentos e Mounjaro<br />
+Informe o seu médico, enfermeiro ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, 
+ou se vier a utilizar outros medicamentos. </p>
+<p>Gravidez<br />
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de utilizar 
+este medicamento. Este medicamento não deve ser utilizado durante a gravidez, porque se 
+desconhecem os seus efeitos sobre a criança antes de nascer. Portanto, é recomendada a utilização de 
+contraceção durante a utilização deste medicamento. </p>
+<p>Amamentação<br />
+Desconhece-se se tirzepatida passa para o leite humano. Não pode ser excluído qualquer risco para os 
+recém-nascidos/lactentes. Se está a amamentar ou planeia amamentar, fale com o seu médico antes de 
+utilizar este medicamento. Você e o seu médico devem decidir se deve parar a amamentação ou atrasar 
+a utilização de Mounjaro. </p>
+<p>Condução de veículos e utilização de máquinas<br />
+É pouco provável que este medicamento venha a afetar a sua capacidade para conduzir e utilizar 
+máquinas. Contudo, se utilizar Mounjaro em combinação com uma sulfonilureia ou insulina, pode 
+ocorrer uma diminuição dos níveis de açúcar no sangue (hipoglicemia) que poderá reduzir a sua 
+capacidade de se concentrar. Evite conduzir ou utilizar máquinas se tiver quaisquer sinais de níveis 
+baixos de açúcar no sangue, por exemplo, dores de cabeça, sonolência, fraqueza, tonturas, sensação de 
+fome, confusão, irritabilidade, pulsação acelerada e suores (ver secção 4). Ver secção 2, “Advertências 
+e precauções" para informações sobre o risco acrescido de baixos níveis de açúcar no sangue. Para 
+mais informações, fale com o seu médico.  </p>
+<p>Mounjaro contém sódio<br />
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar mounjaro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar mounjaro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas sobre a utilização deste medicamento. </p>
+<p>Quanto utilizar </p>
+<ul>
+<li>
+<p>A dose inicial é de 2,5 mg uma vez por semana durante quatro semanas. Após quatro semanas, 
+o seu médico irá aumentar a sua dose para 5 mg uma vez por semana. </p>
+</li>
+<li>
+<p>Se necessário, o seu médico poderá aumentar a sua dose em aumentos de 2,5 mg até 7,5 mg, 
+10 mg, 12,5 mg ou 15 mg uma vez por semana. Em qualquer desses casos, o seu médico dir-
+lhe-á para manter uma determinada dose durante, pelo menos, 4 semanas antes de passar para 
+uma dose maior. </p>
+</li>
+</ul>
+<p>Não altere a sua dose a menos que o seu médico lhe diga para o fazer. </p>
+<p>Cada caneta contém uma dose de Mounjaro de 2,5 mg, 5 mg, 7,5 mg, 10 mg, 12,5 mg ou 15 mg.  </p>
+<p>Escolher quando utilizar Mounjaro<br />
+Pode utilizar a sua caneta a qualquer hora do dia, com ou sem alimentos. Se puder, deverá utilizá-la no 
+mesmo dia da semana. Para ajudá-lo a lembrar-se, quando utilizar Mounjaro, pode assinalar o dia da 
+semana em que injeta a sua primeira dose na embalagem da caneta ou marcar num calendário. </p>
+<p>Se necessário, pode alterar o dia da semana em que faz a sua injeção semanal de Mounjaro, desde que 
+tenham passado pelo menos 3 dias desde a sua última injeção. Depois de escolher um novo dia para a 
+injeção, continue a administrar a injeção uma vez por semana nesse novo dia. </p>
+<p>Como injetar Mounjaro<br />
+Mounjaro é injetado debaixo da pele (injeção subcutânea) na zona da barriga (abdómen) distando pelo 
+menos 5 cm do umbigo, ou na parte superior da perna (coxa) ou na parte superior do braço. Poderá 
+precisar da ajuda de outra pessoa se quiser fazer a injeção na parte superior do seu braço. </p>
+<p>Se quiser, poderá administrar a injeção na mesma zona do seu corpo a cada semana. Mas garanta que 
+escolhe um local de injeção diferente nessa zona. Se também injetar insulina, escolha um local de 
+injeção diferente para essa injeção. </p>
+<p>Leia cuidadosamente as “Instruções de Utilização" da caneta antes de utilizar Mounjaro. </p>
+<p>Monitorizar os níveis de açúcar no sangue<br />
+Se estiver a utilizar Mounjaro com uma sulfanilureia ou insulina, é importante que meça os seus níveis 
+de açúcar no sangue de acordo com as instruções do seu médico, enfermeiro ou farmacêutico (ver 
+secção 2 “Advertências e precauções"). </p>
+<p>Se utilizar mais Mounjaro do que deveria<br />
+Se utilizar mais Mounjaro do que deveria, fale imediatamente com o seu médico. O excesso deste 
+medicamento poderá causar baixos níveis de açúcar no sangue (hipoglicemia) e pode fazê-lo sentir-se 
+enjoado ou ter vómitos. </p>
+<p>Caso se tenha esquecido de utilizar Mounjaro<br />
+Caso se tenha esquecido de administrar uma dose e,  </p>
+<ul>
+<li>
+<p>tiverem passado 4 dias ou menos desde o dia em que devia ter utilizado Mounjaro, administre-o 
+assim que se lembrar. Depois, administre a dose seguinte no dia previsto. </p>
+</li>
+<li>
+<p>tiverem passado mais de 4 dias desde o dia em que devia ter utilizado Mounjaro, não 
+administre a dose em falta. Depois, administre a dose seguinte no dia previsto. </p>
+</li>
+</ul>
+<p>Não administre uma dose a dobrar para compensar uma dose que se esqueceu de administrar. O 
+intervalo mínimo de tempo entre duas doses tem de ser pelo menos 3 dias. </p>
+<p>Se parar de utilizar Mounjaro<br />
+Não pare de utilizar Mounjaro sem falar com o seu médico. Se deixar de utilizar Mounjaro, e tiver 
+diabetes tipo 2, os seus níveis de açúcar no sangue podem aumentar.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, enfermeiro ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves  </p>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) 
+- Inflamação no pâncreas (pancreatite aguda) que pode causar dores fortes no estômago e nas 
+costas que não passam. Deve consultar imediatamente um médico se tiver estes sintomas. </p>
+<p>Raros (podem afetar até 1 em cada 1000 pessoas) 
+- Reações alérgicas graves (ex. reação anafilática, angioedema). Deve procurar imediatamente 
+ajuda médica e informar o seu médico se tiver sintomas tais como problemas de respiração, 
+inchaço rápido dos lábios, língua e/ou garganta com dificuldade em engolir e batimento cardíaco 
+rápido. </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) 
+- Sentir-se enjoado (náuseas)<br />
+- Diarreia 
+Geralmente, estes efeitos indesejáveis não são graves. Ocorrem com maior frequência quando se inicia 
+o tratamento com tirzepatida, mas vão diminuindo com o tempo na maioria dos doentes. </p>
+<ul>
+<li>Os níveis baixos de açúcar no sangue (hipoglicemia) são muito frequentes quando a tirzepatida 
+é utilizada com medicamentos que contêm uma sulfonilureia e/ou insulina. Se estiver a utilizar 
+uma sulfonilureia ou insulina para diabetes tipo 2, a dose poderá ter de ser reduzida enquanto 
+estiver a utilizar tirzepatida (ver secção 2 “Advertências e precauções"). 
+Os sintomas de níveis baixos de açúcar no sangue poderão incluir dores de cabeça, sonolência, 
+fraqueza, tonturas, sensação de fome, confusão, irritabilidade, pulsação acelerada e suores. O 
+seu médico deverá dizer-lhe como tratar os níveis baixos de açúcar no sangue. </li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) 
+- Níveis baixos de açúcar no sangue (hipoglicemia) quando a tirzepatida é utilizada para diabetes 
+tipo 2 tanto com metformina como com um inibidor do co-transportador de sódio e glucose 2 
+(outro medicamento para a diabetes) 
+- Reação alérgica (hipersensibilidade) (por exemplo, erupção na pele, comichão e eczema) 
+- Tonturas comunicadas em doentes tratados para controlo do peso 
+- Tensão arterial baixa comunicada em doentes tratados para controlo de peso 
+- Sentir menos fome (diminuição do apetite) notificado em doentes tratados para diabetes tipo 2 
+- Dor de estômago (abdominal) 
+- Estar maldisposto (vómitos) - geralmente desaparecem com o tempo 
+- Indigestão (dispepsia) 
+- Prisão de ventre<br />
+- Estômago inchado 
+- Arrotos (eructação) 
+- Gases (flatulência) 
+- Refluxo ou azia (também chamada doença do refluxo gastroesofágico - DRGE) - uma doença 
+causada pela subida do ácido do estômago para o tubo que vai do seu estômago até à sua boca 
+- Queda de cabelo notificada em doentes tratados para controlo de peso 
+- Sensação de cansaço (fadiga) 
+- Reações no local da injeção (por exemplo, comichão ou vermelhidão) 
+- Pulsação acelerada 
+- Elevação dos níveis das enzimas pancreáticas (como a lipase e a amilase) no sangue. </p>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas)<br />
+- Níveis baixos de açúcar no sangue (hipoglicemia) quando a tirzepatida é utilizada com 
+metformina para a diabetes tipo 2.<br />
+- Pedras na vesícula biliar 
+- Inflamação da vesícula biliar 
+- Perda de peso notificada em doentes tratados para diabetes tipo 2 
+- Dor no local de injeção 
+- Aumento dos níveis de calcitonina no sangue. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, enfermeiro ou farmacêutico. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar mounjaro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar mounjaro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo da caneta e na embalagem 
+exterior após EXP. O prazo de validade corresponde ao último dia do mês indicado.  </p>
+<p>Conservar no frigorífico (2°C - 8°C). Não congelar. Se a caneta for congelada, NÃO UTILIZAR </p>
+<p>Manter na embalagem original para proteger da luz.  </p>
+<p>Mounjaro pode ser conservado fora do frigorífico a uma temperatura inferior a 30°C durante um 
+período máximo de 21 dias cumulativos e posteriormente a caneta tem de ser eliminada.  </p>
+<p>Não utilize este medicamento se verificar que a caneta está danificada, ou se o medicamento estiver 
+turvo, com cor ou contiver partículas.  </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Mounjaro 
+A substância ativa é a tirzepatida. 
+- Mounjaro 2,5 mg: Cada caneta pré-cheia contém 2,5 mg de tirzepatida em 0,5 ml de solução 
+(5 mg/ml). 
+- Mounjaro 5 mg: Cada caneta pré-cheia contém 5 mg de tirzepatida em 0,5 ml de solução 
+(10 mg/ml). 
+- Mounjaro 7,5 mg: Cada caneta pré-cheia contém 7,5 mg de tirzepatida em 0,5 ml de solução 
+(15 mg/ml). 
+- Mounjaro 10 mg: Cada caneta pré-cheia contém 10 mg de tirzepatida em 0,5 ml de solução 
+(20 mg/ml). 
+- Mounjaro 12,5 mg: Cada caneta pré-cheia contém 12,5 mg de tirzepatida em 0,5 ml de solução 
+(25 mg/ml). 
+- Mounjaro 15 mg: Cada caneta pré-cheia contém 15 mg de tirzepatida em 0,5 ml de solução 
+(30 mg/ml). </p>
+<p>Os outros componentes são hidrogenofosfato dissódico hepta-hidratado (E339), cloreto de sódio, 
+hidróxido de sódio (ver secção 2 “Mounjaro contém sódio" para mais informações), ácido clorídrico 
+concentrado e água para preparações injetáveis. </p>
+<p>Qual o aspeto de Mounjaro e conteúdo da embalagem<br />
+Mounjaro é uma solução injetável límpida, incolor a ligeiramente amarelada contida numa caneta pré-
+cheia.<br />
+A caneta pré-cheia tem uma agulha oculta que penetrará automaticamente na pele quando carregar no 
+botão de injeção. A caneta pré-cheia recolhe a agulha quando a injeção estiver concluída. 
+Cada caneta pré-cheia contém 0,5 ml de solução.<br />
+A caneta pré-cheia destina-se a uma única utilização.<br />
+Embalagens de 2 canetas pré-cheias, 4 canetas pré-cheias ou embalagem múltipla de 12 (3 embalagens 
+de 4) canetas pré-cheias. É possível que não sejam comercializadas todas as apresentações no seu país. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Eli Lilly Nederland B.V., Papendorpseweg 83, 3528 BJ Utrecht, Países Baixos. </p>
+<p>Fabricante 
+Eli Lilly Italia S.p.A.,Via Gramsci 731/733, 50019, Sesto Fiorentino, Firenze (FI), Itália 
+Lilly France, 2, rue du Colonel Lilly, 67640 Fegersheim, França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>Belgique/België/Belgien 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84<br />
+Lietuva 
+Eli Lilly Lietuva 
+Tel. +370 (5) 2649 
+България 
+ТП "Ели Лили Недерланд" Б.В. - България 
+тел. + 359 2 491 41<br />
+Luxembourg/Luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Česká republika 
+ELI LILLY ČR, s.r.o. 
+Tel: + 420 234 664<br />
+Magyarország 
+Lilly Hungária Kft. 
+Tel: + 36 1 328 5Danmark 
+Eli Lilly Danmark A/S<br />
+Tlf: +45 45 26 60<br />
+Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600 Deutschland 
+Lilly Deutschland GmbH 
+Tel. + 49-(0) 6172 273 2 
+Nederland 
+Eli Lilly Nederland B.V.<br />
+Tel: + 31-(0) 30 60 25 Eesti 
+Eli Lilly Nederland B.V. 
+Tel: +372 6 817<br />
+Norge 
+Eli Lilly Norge A.S.<br />
+Tlf: + 47 22 88 18 Ελλάδα 
+ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
+Τηλ: +30 210 629 4 
+Österreich 
+Eli Lilly Ges.m.b.H.<br />
+Tel: + 43-(0) 1 711 España 
+Lilly S.A. 
+Tel: + 34-91 663 50<br />
+Polska<br />
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33 France 
+Lilly France 
+Tél: +33-(0) 1 55 49 34<br />
+Portugal 
+Lilly Portugal Produtos Farmacêuticos, Lda 
+Tel: + 351-21-4126Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350<br />
+România 
+Eli Lilly România S.R.L. 
+Tel: + 40 21 4023Ireland 
+Eli Lilly e Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 
+Slovenija<br />
+Eli Lilly farmacevtska družba, d.o.o. 
+Tel: +386 (0)1 580 00 Ísland 
+Icepharma hf. 
+Sími + 354 540 8 
+Slovenská republika 
+Eli Lilly Slovakia s.r.o. 
+Tel: + 421 220 663 Italia 
+Eli Lilly Italia S.p.A. 
+Tel: + 39- 055 42 
+Suomi/Finland 
+Oy Eli Lilly Finland Ab<br />
+Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Phadisco Ltd<br />
+Τηλ: +357 22 715 
+Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0) 8 7378Latvija 
+Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā 
+Tel: +371 67364 
+United Kingdom (Northern Ireland) 
+Eli Lilly e Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 
+Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação<br />
+Está disponível informação pormenorizada sobre este medicamente no sítio da internet da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu.  </p>
+<p>Instruções de utilização </p>
+<p>Mounjaro 2,5 mg solução injetável em caneta pré-cheia 
+Mounjaro 5 mg solução injetável em caneta pré-cheia 
+Mounjaro 7,5 mg solução injetável em caneta pré-cheia 
+Mounjaro 10 mg solução injetável em caneta pré-cheia 
+Mounjaro 12,5 mg solução injetável em caneta pré-cheia 
+Mounjaro 15 mg solução injetável em caneta pré-cheia 
+Tirzepatida </p>
+<p>Informação importante que necessita de saber antes de injetar Mounjaro. </p>
+<p>Leia estas instruções de utilização e o folheto informativo antes de utilizar a sua caneta pré-cheia 
+Mounjaro (caneta) e cada vez que utilizar uma nova caneta. Podem existir novas informações. 
+Estas informações não substituem o contacto com o seu médico, enfermeiro ou farmacêutico sobre a 
+sua doença ou o tratamento. </p>
+<p>Fale com o seu médico, enfermeiro ou farmacêutico sobre a forma de injetar Mounjaro corretamente. </p>
+<ul>
+<li>
+<p>Mounjaro é uma caneta pré-cheia de administração única. </p>
+</li>
+<li>
+<p>A caneta tem uma agulha oculta que penetrará automaticamente na pele quando carregar no 
+botão de injeção. A caneta recolhe a agulha quando a injeção estiver concluída. </p>
+</li>
+<li>
+<p>Mounjaro é utilizado 1 vez por semana. </p>
+</li>
+<li>
+<p>Injete apenas debaixo da pele (injeção subcutânea). </p>
+</li>
+<li>
+<p>Você ou outra pessoa pode administrar a injeção na sua barriga (abdómen), parte superior da 
+perna (coxa) ou parte superior do braço. </p>
+</li>
+<li>
+<p>Poderá precisar da ajuda de outra pessoa se quiser dar a injeção na parte superior do seu braço. </p>
+</li>
+</ul>
+<p>Componentes </p>
+<p>Preparar a injeção de Mounjaro </p>
+<p>Retire a caneta do frigorífico. </p>
+<p>Deixe ficar a tampa cinzenta da base até estar preparado para dar a injeção. </p>
+<p>Verifique o rótulo da caneta 
+para ter a certeza de que tem 
+o medicamento e a dose 
+certos e que está dentro do 
+prazo de validade. </p>
+<p>Inspecione a caneta para ter 
+a certeza de que não está 
+danificada. </p>
+<p>Certifique-se de que o medicamento: </p>
+<ul>
+<li>
+<p>não está congelado </p>
+</li>
+<li>
+<p>não está turvo </p>
+</li>
+<li>
+<p>incolor a ligeiramente amarelo </p>
+</li>
+<li>
+<p>não tem partículas 
+Lave as mãos. </p>
+</li>
+</ul>
+<p>Botão de injeção roxo 
+Anel de bloqueio 
+Indicador 
+Travar ou destravar<br />
+Medicamento 
+Base transparente 
+ Tampa cinzenta da base 
+Parte de baixo 
+e extremidade 
+da agulha 
+Parte de cima </p>
+<p>Data de 
+validade 
+Escolha o local de injeção </p>
+<p>O seu médico, enfermeiro ou farmacêutico podem ajudá-lo a escolher o melhor local de injeção para 
+si. </p>
+<p>Você ou outra pessoa podem injetar o medicamento na sua barriga (abdómen) 
+distando pelo menos 5 cm do umbigo ou coxa. </p>
+<p>A injeção na parte de trás da parte superior do seu braço deve ser dada por outra 
+pessoa. </p>
+<p>Alterne (rode) o local de injeção todas as semanas. </p>
+<p>Pode utilizar a mesma zona do corpo, mas garanta que escolhe um local de 
+injeção diferente nessa zona. </p>
+<p>Passo 1 
+Retire a tampa cinzenta da base </p>
+<p>Certifique-se de que a caneta está travada. </p>
+<p>Não destrave a caneta enquanto a base transparente não estiver 
+colocada sobre a sua pele e não estiver pronto para dar a 
+injeção. </p>
+<p>Retire a tampa cinzenta da base a direito e deite-a fora. </p>
+<p>Não torne a colocar a tampa cinzenta da base - pode danificar a 
+agulha. </p>
+<p>Não toque na agulha. </p>
+<p>Passo 2 
+Coloque a base transparente sobre a pele e a seguir destrave a caneta </p>
+<p>Coloque a base transparente bem encostada à sua pele no local da injeção. 
+Base 
+cinzenta 
+base  transparente </p>
+<p>Destrave rodando o anel de bloqueio. </p>
+<p>Passo 3 
+Pressione e mantenha até 10 segundos </p>
+<p>Pressione o botão de injeção roxo e mantenha-o pressionado. </p>
+<p>Fique à escuta para ouvir: </p>
+<ul>
+<li>
+<p>O primeiro clique = a injeção começou </p>
+</li>
+<li>
+<p>O segundo clique = a injeção está concluída </p>
+</li>
+</ul>
+<p>Saberá que a injeção está concluída quando o êmbolo cinzento estiver 
+visível. 
+Depois da sua injeção, deite a caneta utilizada num contentor de eliminação 
+de objetos cortantes. </p>
+<p>Eliminação da caneta utilizada </p>
+<ul>
+<li>
+<p>Deite fora (elimine) a caneta para 
+um contentor de eliminação de 
+objetos cortantes ou de acordo com 
+as instruções do seu médico, 
+enfermeiro ou farmacêutico. Não 
+deite fora (elimine) as canetas no 
+lixo doméstico. </p>
+</li>
+<li>
+<p>Não recicle o contentor de objetos 
+cortantes utilizado. </p>
+</li>
+<li>
+<p>Pergunte ao seu médico, 
+enfermeiro ou farmacêutico como 
+eliminar medicamentos que já não 
+utiliza. </p>
+</li>
+</ul>
+<p>Conservação e manuseamento </p>
+<ul>
+<li>
+<p>Para instruções de conservação, ver a secção 5 do folheto informativo. </p>
+</li>
+<li>
+<p>A caneta tem partes de vidro. Manuseie-a com cuidado. Se deixar cair a caneta sobre uma 
+superfície dura, não a utilize. Utilize uma nova caneta para a sua injeção. </p>
+</li>
+</ul>
+<p>Perguntas frequentes </p>
+<p>O que devo fazer se vir bolhas de ar na minha caneta?<br />
+As bolhas de ar são normais.  </p>
+<p>Êmbolo
+cinzento 
+O que devo fazer se a minha caneta não estiver à temperatura ambiente? 
+Não é necessário deixar aquecer a caneta até estar à temperatura ambiente.  </p>
+<p>E se eu destravar a caneta e pressionar o botão de injeção roxo antes de tirar a tampa cinzenta 
+da base?<br />
+Não retire a tampa cinzenta da base. Elimine a caneta e obtenha uma nova caneta. </p>
+<p>E se houver uma gota de líquido na ponta da agulha quando eu tirar a tampa cinzenta da base?<br />
+Uma gota de líquido na ponta da agulha é normal. Não toque na agulha. </p>
+<p>Tenho de pressionar o botão de injeção até a injeção chegar ao fim?<br />
+Não é necessário, mas pode ajudá-lo a manter a caneta imóvel contra a sua pele. </p>
+<p>Ouvi mais de 2 cliques durante a minha injeção - 2 mais altos e um 1 baixo. Terei dado a injeção 
+até ao fim?<br />
+Algumas pessoas podem ouvir um clique suave imediatamente antes do segundo clique mais audível. 
+É o funcionamento normal da caneta. Não afaste a caneta da sua pele enquanto não ouvir o segundo 
+clique mais audível.  </p>
+<p>Não tenho a certeza se a minha caneta funcionou bem. </p>
+<p>Verifique se recebeu a sua dose. A sua dose foi administrada da maneira 
+correta se o êmbolo cinzento estiver visível. Pode também ver o Passo 3 das 
+instruções. </p>
+<p>Se não conseguir ver o êmbolo cinzento, contacte a Lilly para mais 
+instruções. Até lá, guarde a caneta em segurança para evitar lesões acidentais 
+com a agulha. </p>
+<p>Se houver uma gota de líquido ou de sangue na minha pele depois da minha injeção? 
+Isto é normal. Pressione uma bola de algodão ou uma gaze sobre o local da injeção. Não esfregue o 
+local da injeção. </p>
+<p>Outras informações </p>
+<ul>
+<li>Se tiver problemas de visão, não utilize a caneta sem a ajuda de uma pessoa que tenha aprendido a 
+utilizar a caneta Mounjaro. </li>
+</ul>
+<p>Onde posso obter mais informações  </p>
+<ul>
+<li>Se tiver dúvidas ou problemas com a sua caneta Mounjaro, contacte a Lilly ou o seu médico, 
+enfermeiro ou farmacêutico.  </li>
+</ul>
+<p>Revisto pela última vez em </p>
+<p>Êmbolo 
+cinzento </p>
+<p>Folheto informativo: Informação para o doente  </p>
+<p>Mounjaro 2,5 mg solução injetável em frasco para injetáveis 
+Mounjaro 5 mg solução injetável em frasco para injetáveis 
+Mounjaro 7,5 mg solução injetável em frasco para injetáveis 
+Mounjaro 10 mg solução injetável em frasco para injetáveis 
+Mounjaro 12,5 mg solução injetável em frasco para injetáveis 
+Mounjaro 15 mg solução injetável em frasco para injetáveis 
+tirzepatida </p>
+<p>Este medicamento está sujeito a monitorização adicional. Isto irá permitir a rápida identificação de 
+nova informação de segurança. Poderá ajudar, comunicando quaisquer efeitos indesejáveis que tenha. 
+Para saber como comunicar efeitos indesejáveis, veja o final da secção 4.  </p>
+<p>Leia com atenção todo este folheto antes de começar a utilizar este medicamento, pois contém 
+informação importante para si. 
+- Conserve este folheto. Pode ter necessidade de o ler novamente.<br />
+- Caso ainda tenha dúvidas, fale com o seu médico, enfermeiro ou farmacêutico. 
+- Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode 
+ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença.<br />
+- Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico, enfermeiro ou farmacêutico. Ver secção 4.  </p>         </div>"""      
+
+
+
 
 
                     
@@ -1017,6 +1651,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-ef5bb2365c3e700f3696b97c07007976"
 * entry[0].resource = composition-da-ef5bb2365c3e700f3696b97c07007976
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpef5bb2365c3e700f3696b97c07007976"
+* entry[=].resource = mpef5bb2365c3e700f3696b97c07007976
+                            
+                    
+Instance: bundlepackageleaflet-pt-ef5bb2365c3e700f3696b97c07007976
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mounjaro Package Leaflet for language pt"
+Description: "ePI document Bundle for mounjaro Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-ef5bb2365c3e700f3696b97c07007976"
+* entry[0].resource = composition-pt-ef5bb2365c3e700f3696b97c07007976
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpef5bb2365c3e700f3696b97c07007976"
@@ -1118,6 +1774,18 @@ RuleSet: ef5bb2365c3e700f3696b97c07007976ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-ef5bb2365c3e700f3696b97c07007976) // mounjaro pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

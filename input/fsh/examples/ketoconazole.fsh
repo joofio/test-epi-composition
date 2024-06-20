@@ -815,6 +815,470 @@ hvordan de behandles.  </p>         </div>"""
 
 
 
+Instance: composition-pt-a28a8b9246548829f22c8b8c14ca6138
+InstanceOf: CompositionUvEpi
+Title: "Composition for ketoconazole Package Leaflet"
+Description:  "Composition for ketoconazole Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa28a8b9246548829f22c8b8c14ca6138)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ketoconazole"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Ketoconazole HRA e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Ketoconazole HRA  </li>
+<li>Como tomar Ketoconazole HRA  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Ketoconazole HRA  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ketoconazole e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ketoconazole e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ketoconazole HRA é um medicamento que contém a substância ativa cetoconazol com uma atividade 
+anticorticosteroide. É utilizado para o tratamento da síndrome de Cushing endógena (quando o corpo produz 
+um excesso de cortisol) em adultos e adolescentes com idades superiores a 12 anos. </p>
+<p>A síndrome de Cushing é causada pelo excesso de produção de uma hormona denominada cortisol, que é 
+produzida pelas glândulas adrenais. O Ketoconazole HRA consegue bloquear a atividade das enzimas 
+responsáveis pela síntese do cortisol e, consequentemente, consegue diminuir o excesso de produção de 
+cortisol pelo seu organismo e de melhorar os sintomas da síndrome de Cushing. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ketoconazole"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ketoconazole"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Ketoconazole HRA </p>
+<ul>
+<li>se tem alergia ao cetoconazol e/ou a qualquer medicamento antifúngico imidazólico, ou a qualquer outro 
+componente deste medicamento (indicados na secção 6) </li>
+<li>se tiver problemas de fígado </li>
+<li>se estiver grávida </li>
+<li>se estiver a amamentar </li>
+<li>se tiver antecedentes de batimento cardíaco irregular </li>
+<li>se estiver a tomar algum dos seguintes medicamentos: </li>
+<li>alguns medicamentos para reduzir o colesterol do sangue: sinvastatina, atorvastatina, lovastatina  </li>
+<li>alguns medicamentos para o coração: eplerenona, dronedarona, disopiramida, felodipina, 
+nisoldipina, ranolazina  </li>
+<li>alguns medicamentos utilizados para o tratamento do paludismo: quinidina, halofantrina </li>
+<li>alguns medicamentos utilizados para perturbações mentais graves e depressão grave: pimozida, 
+sertindol, lurasidona, quetiapina </li>
+<li>alguns medicamentos utilizados para alergias: mizolastina  </li>
+<li>dabigatrano - medicamento utilizado para prevenir a formação de coágulos sanguíneos  </li>
+<li>alguns medicamentos para ajudar a dormir e para a ansiedade: triazolam, alprazolam, midazolam 
+(administrados por via oral) </li>
+<li>alguns medicamentos utilizados para crises de enxaqueca: dihidroergotamina, ergometrina 
+(ergonovina) ergotamina e metilergometrina (metilergonovina)  </li>
+<li>alguns medicamentos utilizados em cancros: irinotecano, everolímus  </li>
+<li>sirolímus: utilizado para prevenir que o seu organismo rejeite um transplante renal </li>
+<li>tolvaptano utilizado para uma doença específica denominada “síndrome da secreção inadequada 
+da hormona antidiurética" </li>
+<li>vardenafil em homens com mais de 75 anos - medicamento para o tratamento da disfunção erétil 
+em homens adultos </li>
+<li>alguns medicamentos para o VIH: saquinavir/ritonavir, saquinavir  </li>
+<li>alguns medicamentos para o tratamento da hepatite C (uma doença infeciosa que afeta o fígado, 
+causada pelo vírus da hepatite C) a longo prazo (crónica): Paritaprevir/Ombitasvir (ritonavir) </li>
+<li>metadona: medicamento para o tratamento da toxicodependência </li>
+<li>em doentes com doenças renais: 
+▪ 
+colchicina: medicamento para o tratamento da gota 
+▪ 
+fesoterodina e solifenacina: medicamentos para o tratamento de sintomas da bexiga 
+hiperativa 
+▪ 
+telitromicina e claritromicina: medicamento para o tratamento de infeções </li>
+</ul>
+<p>Não tome Ketoconazole HRA se alguma das situações acima mencionadas lhe é aplicável. Se tiver dúvidas, 
+fale com o seu médico ou farmacêutico antes de tomar Ketoconazole HRA. </p>
+<p>Advertências e precauções  </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Ketoconazole HRA. </p>
+<p>Doença hepática 
+Fale com o seu médico se tiver antecedentes de doença hepática. Note que os seus testes de enzimas hepáticas 
+serão monitorizados regularmente antes de iniciar o tratamento, uma vez por semana durante o primeiro mês 
+após o início do tratamento com Ketoconazole HRA e, depois, mensalmente durante 6 meses devido ao risco 
+de toxicidade hepática grave. Eles serão verificados de novo, posteriormente, caso o seu médico aumente a sua 
+dose diária de cetoconazol. Deverá suspender o tratamento e contactar o seu médico imediatamente se se 
+sentir mal ou se tiver sintomas como falta de apetite, náusea, vómitos, fadiga, icterícia, dores abdominais 
+ou urina escura.  </p>
+<p>Regime específico de dosagem<br />
+Se tomar terapia de substituição de glucocorticoides concomitantemente com o tratamento com Ketoconazole 
+HRA, o seu médico deverá informá-lo sobre como adaptar a sua dose de terapia de substituição de 
+glucocorticoides se estiver sob stress ou fizer uma cirurgia ou tiver uma infeção. Adicionalmente, deve receber 
+um cartão de emergência e deve-lhe ser fornecido um conjunto de emergência de glucocorticoides. </p>
+<p>Função adrenal 
+A sua função adrenal será monitorizada a intervalos regulares, pois é este o tratamento padrão no 
+acompanhamento da terapia da síndrome de Cushing e visto que a insuficiência adrenal pode ocorrer durante 
+o tratamento. Deverá contactar imediatamente o seu médico se tiver sintomas como fraqueza, fadiga, falta de 
+apetite, náusea, vómitos ou tensão arterial baixa.  </p>
+<p>Doença cardíaca 
+O Ketoconazole HRA pode alterar o seu batimento cardíaco - isto pode ser grave. Contacte imediatamente 
+o seu médico se sentir palpitações ou batimentos cardíacos irregulares durante o tratamento.  </p>
+<p>Doenças inflamatórias/autoimunes coexistentes 
+Informe o seu médico se sofrer de uma doença autoimune; será acompanhado cuidadosamente. </p>
+<p>Crianças e adolescentes 
+Este medicamento não é recomendado a crianças com menos de 12 anos devido à falta de informação nestes 
+doentes. </p>
+<p>Outros medicamentos e Ketoconazole HRA 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente ou se vier a tomar outros medicamentos. 
+Existem alguns medicamentos que não deverão ser tomados com Ketoconazole HRA (ver secção 2). Peça 
+ao seu médico ou farmacêutico mais informações se estiver a tomar Ketoconazole HRA com outros 
+medicamentos. </p>
+<p>Os medicamentos que podem interagir com Ketoconazole HRA incluem: 
+- pasireotide, outro medicamento utilizado para tratar um subgrupo da síndrome de Cushing, pois poderá levar 
+a efeitos secundários graves em pacientes que sofram de doença cardíaca 
+- medicamentos administrados por via oral que previnem a formação de coágulos sanguíneos: rivaroxabano, 
+apixaban, edoxabano, cilostazol, varfarina e outros do tipo cumarínico 
+- medicamentos para o VIH, tais como maraviroc, indivanir, nevirapina, ritonavir 
+- alguns medicamentos utilizados contra o cancro, tais como alcaloides da vinca, bussulfano, docetaxel, 
+erlotinib, imatinib, dasatinib, sunitinib, lapatinib, nilotinib, bortezomib, paclitaxel, vincristina, vimblastina, 
+cabozantinib, dabrafenib, cabazitaxel, crizotinib, ibrutinib 
+- alguns medicamentos utilizados para tratar infeções: rifabutina, telitromicina, rifampicina, isoniazida, 
+claritromicina, isavuconazole 
+- alguns antidiabéticos: repaglinida, saxagliptina, tolbutamida 
+- alguns medicamentos utilizados para perturbações mentais: buspirona, aripiprazol, haloperidol, reboxetina, 
+risperidona 
+- alguns medicamentos para o coração -verapamil, digoxina, nadolol, aliscireno 
+- alguns anticonvulsivantes: carbamazepina, fenitoína<br />
+- alguns glucocorticoides - tais como budesonida, fluticasona, dexametasona, metilprednisolona, ciclesonida 
+- alguns analgésicos fortes (barbitúricos) - como alfentanil, fentanil, buprenorfina (injeção e sublingual), 
+oxicodona 
+- alguns medicamentos utilizados para náusea e vómitos: domperidona, aprepitant 
+- naloxegol (medicamento utilizado para a obstipação especificamente causada por medicamentos fortes para 
+a dor) 
+- solifenacina, fesoterodina em doentes com compromisso renal 
+- outros: sildenafil, tolterodina, mitotano, praziquantel, eletriptano, salmeterol, bosentano, midazolam 
+(injeção), tadalafil, vardenafil, temsirolímus, cinalcacet, tacrolímus, ebastina, ciclosporina, colquicina </p>
+<p>Não deve tomar antiácidos (hidróxido de alumínio, por exemplo) ou outros medicamentos para a indigestão 
+ácida durante, pelo menos, 2 horas após a ingestão de Ketoconazole HRA (ver secção Advertências e 
+Precauções). </p>
+<p>Ketoconazole HRA com álcool 
+Não ingira álcool enquanto estiver a tomar cetoconazol. </p>
+<p>Gravidez, amamentação e fertilidade 
+Não tome este medicamento durante a gravidez. Se está grávida ou a amamentar, se pensa estar grávida ou 
+planeia engravidar, consulte o seu médico antes de tomar este medicamento.<br />
+Não amamente o seu bebé se estiver a tomar Ketoconazole HRA. </p>
+<p>Condução de veículos e utilização de máquinas 
+Foram comunicadas tonturas ou sonolência durante o tratamento com Ketoconazole HRA. Não conduza ou 
+opere máquinas se sentir estes sintomas. </p>
+<p>Ketoconazole HRA contém lactose 
+Se tiver sido informado pelo seu médico que tem intolerância a alguns açúcares, contacte o seu médico antes 
+de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ketoconazole"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ketoconazole"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O início e o acompanhamento do tratamento deve ser supervisionado por especialistas em endocrinologia.  </p>
+<p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou farmacêutico 
+se tiver dúvidas. </p>
+<p>O seu médico analisará o seu sangue antes de iniciar o tratamento e regularmente durante o tratamento para 
+detetar eventuais anomalias e também para medir os níveis de cortisol. A dose será adaptada à sua doença de 
+forma a restaurar os níveis normais de cortisol. </p>
+<p>De um modo geral, a dose inicial recomendada é 600 mg por dia, administrada por via oral (3 comprimidos 
+por dia divididos em 3 vezes). Para repor os seus níveis normais de cortisol, poderá ser necessária uma dose 
+diária de entre 400 mg (2 comprimidos) a 1200 mg por dia (6 comprimidos) tomada por via oral dividida entre 
+2 a 3 doses.  </p>
+<p>Se tomar mais Ketoconazole HRA do que deveria 
+Deverá contactar imediatamente o seu médico se tiver tomado mais do que a dose prescrita de Ketoconazole 
+HRA. </p>
+<p>Caso se tenha esquecido de tomar Ketoconazole HRA 
+Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. Caso se tenha 
+esquecido de tomar uma dose, tome essa dose assim que se lembrar. Continue então com o horário habitual 
+assim como estabelecido. Não altere a dose prescrita por sua iniciativa. </p>
+<p>Se parar de tomar Ketoconazole HRA 
+Caso interrompa o seu tratamento com Ketoconazole HRA, o seu nível de cortisol poderá novamente 
+aumentar e os seus sintomas poderão voltar. Assim, não deixe de tomar Ketoconazole HRA a menos que o 
+seu médico o indique. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Alguns efeitos secundários poderão ser graves. Raramente, podem ocorrer problemas hepáticos (podem 
+afetar até 1 em cada 1.000 pessoas).<br />
+Pare de tomar Ketoconazole HRA e informe imediatamente o seu médico se sentir algum dos seguintes 
+sintomas: 
+- dores de cabeça graves ou visão turva de longa duração<br />
+- falta de apetite grave (anorexia) 
+- perda de peso 
+- náusea ou vómitos 
+- cansaço ou febre invulgar 
+- dor de estômago 
+- fraqueza muscular 
+- amarelecimento da pele ou das zonas brancas dos olhos 
+- urina escura ou fezes claras invulgares  </p>
+<p>É comum ocorrer insuficiência adrenal e pode ser um efeito secundário grave. Ketoconazole HRA poderá 
+reduzir temporariamente a quantidade de hormonas produzidas pela glândula adrenal (cortisol) abaixo do 
+intervalo normal, mas o seu médico irá corrigir isso utilizando medicamentos hormonais apropriados ou 
+ajustando a dose de Ketoconazole HRA. Deverá contactar imediatamente o seu médico se tiver sintomas como 
+fraqueza, fadiga, falta de apetite, náusea, vómitos ou tensão arterial baixa. </p>
+<p>Efeitos muito frequentes:(podem afetar mais de 1 em cada 10 pessoas): </p>
+<ul>
+<li>níveis elevados de enzimas hepáticas no sangue  </li>
+</ul>
+<p>Efeitos secundários frequentes (podem afetar até 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>náusea </p>
+</li>
+<li>
+<p>dores abdominais </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>reações cutâneas (prurido, erupção) </p>
+</li>
+</ul>
+<p>Efeitos secundários pouco frequentes (podem afetar até 1 em cada 100 pessoas): </p>
+<ul>
+<li>
+<p>reações alérgicas que podem, raramente, 
+ser graves </p>
+</li>
+<li>
+<p>alteração em marcadores laboratoriais </p>
+</li>
+<li>
+<p>diminuição da contagem das plaquetas </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>sonolência </p>
+</li>
+<li>
+<p>reações cutâneas (urticária) </p>
+</li>
+<li>
+<p>queda de cabelo </p>
+</li>
+<li>
+<p>fadiga </p>
+</li>
+</ul>
+<p>Efeitos secundários muito raros (podem afetar até 1 em cada 10.000 pessoas): </p>
+<ul>
+<li>pirexia (febre) </li>
+</ul>
+<p>Efeitos secundários com frequência desconhecida (a frequência não pode ser calculada a partir dos dados 
+disponíveis): </p>
+<ul>
+<li>
+<p>insónia </p>
+</li>
+<li>
+<p>nervosismo </p>
+</li>
+<li>
+<p>intolerância ao álcool </p>
+</li>
+<li>
+<p>perda de apetite ou aumento de apetite </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>sensação de formigueiro ou picadas </p>
+</li>
+<li>
+<p>aversão à luz </p>
+</li>
+<li>
+<p>hemorragia nasal </p>
+</li>
+<li>
+<p>dispepsia (dificuldades de digestão) </p>
+</li>
+<li>
+<p>flatulência (libertação de gases com maior 
+frequência) </p>
+</li>
+<li>
+<p>descoloração da língua </p>
+</li>
+<li>
+<p>boca seca </p>
+</li>
+<li>
+<p>alteração do paladar </p>
+</li>
+<li>
+<p>vermelhidão, secura ou comichão na pele </p>
+</li>
+<li>
+<p>fotossensibilidade (aumento da reação à 
+luz solar: vermelhidão e erupção cutânea 
+que dá comichão) </p>
+</li>
+<li>
+<p>mialgia (dor muscular) </p>
+</li>
+<li>
+<p>artralgia (dores nas articulações) </p>
+</li>
+<li>
+<p>alterações menstruais </p>
+</li>
+<li>
+<p>azoospermia 
+(sem 
+contagem 
+de 
+espermatozoides) </p>
+</li>
+<li>
+<p>disfunção erétil </p>
+</li>
+<li>
+<p>ginecomastia 
+(aumento 
+de 
+tecidos 
+mamários no sexo masculino) </p>
+</li>
+<li>
+<p>inchaço 
+periférico 
+(hidropsia 
+nas 
+extremidades) </p>
+</li>
+<li>
+<p>mal-estar </p>
+</li>
+<li>
+<p>afrontamentos </p>
+</li>
+<li>
+<p>diminuição transitória de testosterona, uma 
+hormona masculina (andrógena) produzida 
+pelo organismo, produzida sobretudo nos 
+testículos </p>
+</li>
+</ul>
+<p>Comunicação de efeitos secundários 
+Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste folheto, 
+fale com o seu médico. Também poderá comunicar efeitos secundários diretamente através do sistema 
+nacional de notificação mencionado no Anexo V. Ao comunicar efeitos secundários, estará a ajudar a 
+fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ketoconazole"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ketoconazole"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Manter este medicamento fora da vista e do alcance das crianças. </li>
+<li>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no “blister" 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </li>
+<li>O medicamento não necessita de quaisquer condições de armazenamento especiais.  </li>
+<li>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como pode deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ketoconazole HRA 
+- A substância ativa é cetoconazol. Cada comprimido contém 200 miligramas de cetoconazol. 
+- Os outros componentes são amido de milho, lactose mono-hidratada (ver secção 2), povidona, celulose 
+microcristalina, silício coloidal e estearato de magnésio </p>
+<p>Qual o aspeto de Ketoconazole HRA e conteúdo da embalagem 
+Ketoconazole HRA está disponível em embalagens com 60 comprimidos. 
+Cada comprimido é esbranquiçado a creme claro, redondo, 10 mm de diâmetro, biconvexo. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+HRA Pharma Rare Diseases<br />
+200 avenue de Paris 
+92320 CHATILLON 
+França 
+Tel : + 33 1 40 33 93<br />
+Fabricante 
+Centre Spécialités Pharmaceutiques 
+76-78 avenue du Midi 
+63800 Courron d‘Auvergne 
+França </p>
+<p>ou </p>
+<p>Polfarmex S.A. 
+ul. Józefów 9, 
+99-300 Kutno 
+Polónia </p>
+<p>Este folheto foi revisto pela última vez em. </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p>         </div>"""      
+
+
+
 
 
                     
@@ -856,6 +1320,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a28a8b9246548829f22c8b8c14ca6138"
 * entry[0].resource = composition-da-a28a8b9246548829f22c8b8c14ca6138
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa28a8b9246548829f22c8b8c14ca6138"
+* entry[=].resource = mpa28a8b9246548829f22c8b8c14ca6138
+                            
+                    
+Instance: bundlepackageleaflet-pt-a28a8b9246548829f22c8b8c14ca6138
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ketoconazole Package Leaflet for language pt"
+Description: "ePI document Bundle for ketoconazole Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a28a8b9246548829f22c8b8c14ca6138"
+* entry[0].resource = composition-pt-a28a8b9246548829f22c8b8c14ca6138
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa28a8b9246548829f22c8b8c14ca6138"
@@ -957,6 +1443,18 @@ RuleSet: a28a8b9246548829f22c8b8c14ca6138ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a28a8b9246548829f22c8b8c14ca6138) // ketoconazole pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -723,6 +723,399 @@ hjemmeside http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-99b35aa72c0e418c8749ea99edf139d2
+InstanceOf: CompositionUvEpi
+Title: "Composition for vizimpro Package Leaflet"
+Description:  "Composition for vizimpro Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp99b35aa72c0e418c8749ea99edf139d2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - vizimpro"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Vizimpro e para que é utilizado 
+2. O que precisa de saber antes de tomar Vizimpro
+3. Como tomar Vizimpro
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Vizimpro
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é vizimpro e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é vizimpro e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vizimpro contém a substância ativa dacomitinib, que pertence ao grupo de medicamentos 
+denominados inibidores da proteína tirosina cinase, que são utilizados no tratamento do cancro.
+Vizimpro é utilizado para tratar adultos com um tipo de cancro do pulmão chamado “cancro do 
+pulmão de não pequenas células". Se um exame tiver demonstrado que o seu cancro tem determinadas
+alterações (mutações) num gene chamado EGFR (recetor do fator de crescimento epidérmico) e se 
+tiver espalhado para o outro pulmão ou para outros órgãos, é provável que o seu cancro responda ao 
+tratamento com Vizimpro.
+Vizimpro pode ser utilizado como o seu primeiro tratamento assim que o seu cancro do pulmão se 
+tenha espalhado para o outro pulmão ou para outros órgãos.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar vizimpro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar vizimpro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Vizimpro
+
+se tem alergia ao dacomitinib ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). 
+Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Vizimpro:
+
+se alguma vez teve quaisquer outros problemas no pulmão. Alguns problemas no pulmão 
+podem piorar durante o tratamento com Vizimpro, uma vez que Vizimpro pode causar 
+inflamação dos pulmões durante o tratamento. Os sintomas podem ser semelhantes aos do 
+cancro do pulmão. Informe o seu médico imediatamente se tiver quaisquer sintomas novos ou 
+agravamento dos sintomas, incluindo dificuldade em respirar, falta de ar ou tosse com ou sem 
+expetoração (muco) ou febre. 
+34
+
+Se está a ser tratado com algum dos medicamentos listados na secção Outros medicamentos e 
+Vizimpro.
+Informe o seu médico imediatamente enquanto estiver a tomar este medicamento:
+
+se desenvolver diarreia. O tratamento imediato da diarreia é importante. 
+
+se desenvolver uma erupção na pele. O tratamento precoce da erupção na pele é importante.
+
+se tiver quaisquer sintomas de um problema de fígado os quais podem incluir: amarelecimento 
+da pele ou da parte branca dos olhos (icterícia), urina escura ou castanha (da cor do chá), e 
+fezes claras.
+Crianças e adolescentes
+Vizimpro não foi estudado em crianças ou adolescentes e não pode ser administrado a doentes com 
+idade inferior a 18 anos. 
+Outros medicamentos e Vizimpro
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.
+Em particular, os efeitos de alguns medicamentos podem aumentar quando tomados com Vizimpro. 
+Estes incluem, entre outros:
+
+Procainamida, utilizado para tratar arritmias cardíacas
+
+Pimozida e tioridazina, utilizados para tratar esquizofrenia e psicose
+Não deve tomar estes medicamentos durante o tratamento com Vizimpro.
+Os medicamentos seguintes podem reduzir a ação de Vizimpro:
+
+Medicamentos de ação prolongada para reduzir a acidez do estômago, tais como inibidores da 
+bomba de protões (para úlceras, indigestão e azia).
+Não deve tomar estes medicamentos durante o tratamento com Vizimpro. Como alternativa, pode 
+tomar um medicamento de ação rápida, como um antiácido ou um medicamento bloqueador dos 
+recetores H2. Se tomar um medicamento bloqueador dos recetores H2, tome a dose de Vizimpro pelo 
+menos 2 horas antes ou 10 horas depois de tomar o medicamento bloqueador dos recetores H2. Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Gravidez
+Não deve engravidar durante o tratamento com Vizimpro porque este medicamento pode ser 
+prejudicial para o bebé. Se houver alguma possibilidade de poder engravidar tem de utilizar métodos 
+contracetivos eficazes durante o tratamento, e durante, pelo menos, 17 dias após conclusão do 
+tratamento. Se engravidar enquanto estiver a tomar este medicamento, deve falar com o seu médico 
+imediatamente.
+Amamentação
+Não amamente enquanto estiver a tomar este medicamento porque não se sabe se pode prejudicar o 
+bebé. 
+Condução de veículos e utilização de máquinas
+Pode ocorrer cansaço e irritação ocular em doentes a tomar Vizimpro. Caso sinta cansaço ou irritação 
+nos olhos, deve ter cuidado ao conduzir ou utilizar máquinas.
+35
+Vizimpro contém lactose e sódio
+Este medicamento contém lactose (existente no leite ou nos laticínios). Se tiver sido informado pelo 
+seu médico que tem intolerância a alguns açúcares, fale com o seu médico antes de tomar este 
+medicamento.
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido, ou seja, é 
+essencialmente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar vizimpro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar vizimpro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. 
+
+A dose recomendada é de 45 mg por dia, por via oral. 
+
+Tome o comprimido aproximadamente à mesma hora todos os dias. 
+
+Engula o comprimido inteiro com um copo de água.
+
+Pode tomar o comprimido com ou sem alimentos. 
+O seu médico pode diminuir a dose do medicamento, dependendo da forma como o tolera.
+Se tomar mais Vizimpro do que deveria
+Se tiver tomado demasiado Vizimpro, consulte um médico ou vá a um hospital imediatamente. 
+Caso se tenha esquecido de tomar Vizimpro
+Caso se tenha esquecido de tomar uma dose ou se vomitar, tome a sua próxima dose conforme 
+programado. Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar.
+Se parar de tomar Vizimpro
+Não pare de tomar Vizimpro a não ser que o seu médico lhe diga para o fazer. Caso ainda tenha 
+dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Contacte o seu médico imediatamente se notar algum dos seguintes efeitos indesejáveis - poderá 
+precisar de tratamento médico urgente:
+ Inflamação dos pulmões (frequente, pode afetar até 1 em 10 pessoas)
+Dificuldade em respirar, falta de ar, possivelmente com tosse ou febre. Isto pode significar que 
+tem uma inflamação nos pulmões chamada doença pulmonar intersticial a qual pode ser fatal. 
+ Diarreia (muito frequente, pode afetar mais do que 1 em cada 10 pessoas) 
+A diarreia pode levar à perda de líquidos (frequente), diminuir os níveis de potássio no sangue 
+(muito frequente) e agravar a função renal, e pode ser fatal. Aos primeiros sinais de aumento 
+da frequência dos movimentos intestinais, contacte o seu médico imediatamente, beba muitos 
+líquidos e comece o tratamento contra a diarreia o mais rapidamente possível. Deve ter um 
+medicamento contra a diarreia disponível antes de começar a tomar Vizimpro. 
+ Erupção na pele (muito frequente)
+É importante tratar a erupção na pele precocemente. Informe o seu médico se aparecer uma 
+erupção na pele. Se o tratamento para a erupção na pele não estiver a funcionar ou se a 
+erupção na pele piorar (por exemplo, tem a pele a descamar ou com fissuras), deve informar o 
+seu médico imediatamente, uma vez que o seu médico pode decidir parar o tratamento com 
+Vizimpro. A erupção na pele pode ocorrer ou piorar em áreas expostas ao sol. Recomenda-se a 
+utilização de protetor solar e roupa de proteção contra o sol.
+36
+Informe o seu médico logo que possível, se notar algum dos seguintes efeitos indesejáveis:
+Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas):
+ Inflamação da boca e lábios
+ Problemas nas unhas
+ Pele seca
+ Perda de apetite
+ Olhos secos, vermelhos ou com comichão
+ Perda de peso
+ Queda de cabelo
+ Comichão
+ Análises de sangue das enzimas hepáticas anormais
+ Náuseas ou vómitos
+ Palmas das mãos ou solas dos pés vermelhas ou dolorosas
+ Cansaço
+ Fraqueza
+ Fissuras na pele
+Frequentes (podem afetar até 1 em 10 pessoas):
+ Alteração do paladar
+ Pele a descamar
+ Olhos inflamados
+ Quantidade anormal de crescimento de pêlos no corpo
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar vizimpro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar vizimpro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer precauções especiais de conservação.
+Este medicamento pode colocar em risco o ambiente. Não deite fora quaisquer medicamentos na 
+canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos 
+que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Vizimpro</h2>
+<p>A substância ativa é o dacomitinib (sob a forma de dacomitinib mono-hidratado). Os comprimidos 
+revestidos por película de Vizimpro têm diferentes dosagens.
+Vizimpro 15 mg comprimido: cada comprimido revestido por película contém 15 mg de 
+dacomitinib
+Vizimpro 30 mg comprimido: cada comprimido revestido por película contém 30 mg de 
+dacomitinib
+Vizimpro 45 mg comprimido: cada comprimido revestido por película contém 45 mg de 
+dacomitinib
+37
+-
+Os outros componentes são: 
+Núcleo do comprimido: lactose mono-hidratada, celulose microcristalina, glicolato de amido 
+sódico, estearato de magnésio (ver secção 2 Vizimpro contém lactose e sódio).
+Película: Opadry II azul 85F30716 contendo álcool polivinílico - parcialmente hidrolisado 
+(E1203), talco (E553b), dióxido de titânio (E171), macrogol (E1521), laca de alumínio carmim 
+de índigo (E132).
+Qual o aspeto de Vizimpro e conteúdo da embalagem
+-
+Vizimpro 15 mg comprimidos revestidos por película são fornecidos como um comprimido 
+revestido por película azul, redondo e biconvexo, com “Pfizer" gravado numa face e “DCB15" 
+na outra face.
+-
+Vizimpro 30 mg comprimidos revestidos por películas são fornecidos como um comprimido 
+revestido por película azul, redondo e biconvexo, com “Pfizer" gravado numa face e “DCB30" 
+na outra face.
+-
+Vizimpro 45 mg comprimidos revestidos por película são fornecidos como um comprimido 
+revestido por película azul, redondo e biconvexo, com “Pfizer" gravado numa face e “DCB45" 
+na outra face.
+Está disponível em blisters com 30 comprimidos revestidos por película (comprimidos).
+Titular da Autorização de Introdução no Mercado 
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante
+Pfizer Manufacturing Deutschland GmbH
+Betriebsstätte Freiburg
+Mooswaldallee 1
+79090 Freiburg
+Alemanha
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. + 370 52 51 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: +36-1-488-37-00
+Česká republika
+Pfizer, spol. s r.o.
+Tel.: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: + 35621 344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer BV
+Tel: +31 (0)10 406 43 01
+38
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel.: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ.: +30 210 6785 800
+Polska
+Pfizer Polska Sp.z o.o
+Tel.:+48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer 
+Tel: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel.: + 386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka 
+Tel.: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh./Tel: +358 (0)9 43 00 40
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige 
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Kύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
+Τηλ: +357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: + 371 670 35 775
+Este folheto foi revisto pela última vez em MM/AAAA
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -764,6 +1157,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-99b35aa72c0e418c8749ea99edf139d2"
 * entry[0].resource = composition-da-99b35aa72c0e418c8749ea99edf139d2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp99b35aa72c0e418c8749ea99edf139d2"
+* entry[=].resource = mp99b35aa72c0e418c8749ea99edf139d2
+                            
+                    
+Instance: bundlepackageleaflet-pt-99b35aa72c0e418c8749ea99edf139d2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vizimpro Package Leaflet for language pt"
+Description: "ePI document Bundle for vizimpro Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-99b35aa72c0e418c8749ea99edf139d2"
+* entry[0].resource = composition-pt-99b35aa72c0e418c8749ea99edf139d2
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp99b35aa72c0e418c8749ea99edf139d2"
@@ -865,6 +1280,18 @@ RuleSet: 99b35aa72c0e418c8749ea99edf139d2ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-99b35aa72c0e418c8749ea99edf139d2) // vizimpro pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

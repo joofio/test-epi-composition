@@ -877,6 +877,462 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-18a94f164fb1fa919f787ce6c80174e7
+InstanceOf: CompositionUvEpi
+Title: "Composition for zytiga Package Leaflet"
+Description:  "Composition for zytiga Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp18a94f164fb1fa919f787ce6c80174e7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - zytiga"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é ZYTIGA e para que é utilizado
+2. O que precisa de saber antes de tomar ZYTIGA
+3. Como tomar ZYTIGA
+4. Efeitos indesejáveis possíveis
+5. Como conservar ZYTIGA
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é zytiga e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é zytiga e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZYTIGA contém um medicamento chamado acetato de abiraterona. ZYTIGA é usado em homens 
+adultos para tratar o cancro da próstata que se espalhou para outras zonas do corpo. ZYTIGA impede 
+que o seu organismo produza testosterona, isto pode atrasar o crescimento do cancro da próstata.
+Quando ZYTIGA é prescrito para a fase inicial da doença, altura em que ainda responde à terapêutica 
+hormonal, este é usado com um tratamento que diminui a testosterona (terapêutica de privação 
+androgénica).
+Quando tomar este medicamento, o seu médico também irá receitar-lhe outro medicamento chamado 
+prednisona ou prednisolona. Este é usado para diminuir as hipóteses de sofrer hipertensão arterial
+(tensão alta), de ter demasiada água acumulada no seu organismo (retenção de fluidos) ou de ter níveis 
+baixos, no seu sangue, de uma substância química conhecida por potássio.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar zytiga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar zytiga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome ZYTIGA:</h2>
+<p>se tem alergia ao acetato de abiraterona ou a qualquer outro componente deste medicamento
+(indicados na secção 6).
+-
+se é uma mulher, especialmente se estiver grávida. ZYTIGA só deve ser utilizado em homens 
+adultos.
+-
+se tem lesões graves no fígado.
+-
+em combinação com Ra-223 (utilizado no tratamento de cancro da próstata). 
+Não tome este medicamento se alguma das situações acima descritas se aplicar a si.
+Se não tiver a certeza, fale com o seu médico ou farmacêutico antes de tomar este medicamento.
+Advertências e Precauções
+Fale com o seu médico ou farmacêutico antes de tomar o medicamento:
+-
+se sofre de problemas de fígado
+68
+-
+se lhe foi dito que sofre de hipertensão arterial (tensão alta) ou insuficiência cardíaca ou níveis
+baixos de potássio no sangue (níveis baixos de potássio no sangue podem aumentar o risco de 
+problemas do ritmo do coração)
+-
+se já alguma vez sofreu outros problemas de coração ou a nível dos vasos sanguíneos
+-
+se tem um batimento do coração irregular ou rápido
+-
+se sente falta de ar
+-
+se ganhou peso rapidamente
+-
+se tem inchaço nos pés, tornozelos ou pernas
+-
+se tomou no passado um medicamento para o cancro da próstata chamado cetoconazol
+-
+quanto à necessidade de tomar este medicamento com prednisona ou prednisolona
+-
+quanto a efeitos indesejáveis nos seus ossos
+-
+se tem níveis elevados de açúcar no sangue.
+Fale com o seu médico se lhe foi dito que tem qualquer doença no coração ou nos vasos sanguíneos, 
+incluindo problemas do ritmo do coração (arritmia), ou se estiver a ser tratado com medicamentos para 
+estas doenças.
+Fale com o seu médico se tiver coloração amarela da pele ou dos olhos, escurecimento da urina, ou 
+náuseas graves ou vómitos, uma vez que estes podem ser sinais ou sintomas de problemas de fígado. 
+Pode ocorrer raramente falência da função do fígado (chamada insuficiência hepática aguda), o que 
+pode levar à morte.
+Pode ocorrer diminuição dos glóbulos vermelhos, diminuição da libido sexual, fraqueza muscular e/ou 
+dor muscular.
+ZYTIGA não deve ser administrado em combinação com Ra-223 devido à possibilidade de aumento 
+do risco de fratura óssea ou morte. 
+Se planeia tomar Ra-223 a seguir ao tratamento com ZYTIGA e prednisona / prednisolona, deverá 
+aguardar 5 dias antes de iniciar o tratamento com Ra-223. Se não tiver a certeza se alguma das situações acima se aplica a si, consulte o seu médico ou 
+farmacêutico antes de tomar este medicamento.
+Monitorização (vigilância) sanguínea
+ZYTIGA pode afetar o seu fígado e pode não causar quaisquer sintomas. Enquanto estiver a tomar 
+este medicamento, o seu médico irá efetuar análises ao sangue para procurar quaisquer efeitos no seu 
+fígado.
+Crianças e adolescentes
+Este medicamento não é para ser usado em crianças e adolescentes. Se ZYTIGA for ingerido 
+acidentalmente por uma criança ou adolescente, dirija-se ao hospital imediatamente e leve o Folheto 
+Informativo consigo para o mostrar ao médico da emergência.
+Outros medicamentos e ZYTIGA
+Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento.
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto é importante porque ZYTIGA pode aumentar os efeitos de um 
+número de medicamentos - incluindo medicamentos para o coração, calmantes, alguns medicamentos 
+para a diabetes, medicamentos à base de plantas (p. ex. Erva de São João) e outros. O seu médico pode 
+querer alterar a dose desses medicamentos. Além disso, alguns medicamentos podem aumentar ou 
+diminuir o efeito de ZYTIGA, conduzindo a efeitos indesejáveis ou a que ZYTIGA não funcione tão 
+bem quanto deveria.
+69
+O tratamento de privação androgénica pode aumentar o risco de problemas do ritmo do coração. Fale 
+com o seu médico se estiver a receber medicamentos:
+-
+utilizados para tratar problemas do ritmo do coração (por exemplo, quinidina, procainamida, 
+amiodarona e sotalol);
+-
+conhecidos por aumentar o risco de problemas do ritmo do coração [por exemplo, metadona 
+(utilizado para o alívio da dor e parte da desintoxicação de toxicodependência), a moxifloxacina 
+(um antibiótico), antipsicóticos (utilizados para doenças mentais graves)].
+Informe o seu médico se está a tomar algum dos medicamentos listados acima.
+ZYTIGA com alimentos
+-
+Este medicamento não pode ser tomado com alimentos (ver secção 3, “Ao tomar este 
+medicamento").
+-
+Tomar ZYTIGA com alimentos pode causar efeitos indesejáveis.
+Gravidez e amamentação
+ZYTIGA não deve ser usado em mulheres.
+-
+Este medicamento pode afetar o feto se for tomado por mulheres grávidas.
+-
+As mulheres que estão grávidas ou que possam estar grávidas devem usar luvas caso 
+necessitem de tocar ou manusear ZYTIGA.
+-
+Se tem relações sexuais com uma mulher que pode engravidar, deve usar preservativo e 
+outro método de contraceção eficaz. Se tem relações sexuais com uma mulher grávida, 
+deve usar preservativo para proteger o feto.
+Condução de veículos e utilização de máquinas
+Não é provável que este medicamento afete a sua capacidade para conduzir e usar ferramentas e 
+máquinas.
+ZYTIGA contém lactose e sódio
+-
+ZYTIGA contém lactose. Se foi informado pelo seu médico que é intolerante a determinados 
+açúcares, contacte o seu médico antes de tomar este medicamento.
+-
+Este medicamento contém 27,2 mg de sódio (principal componente de sal de cozinha/sal de 
+mesa) por dose diária de quatro comprimidos. Isto é equivalente a 1,36% da ingestão diária 
+máxima de sódio recomendada na dieta para um adulto.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar zytiga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar zytiga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tomar este medicamento sempre de acordo com as indicações do médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+Quanto deve tomar
+A dose recomendada é de 1 000 mg (quatro comprimidos), uma vez por dia.
+Ao tomar este medicamento
+-
+Tome este medicamento pela boca.
+-
+Não tome ZYTIGA com alimentos. Tomar ZYTIGA com alimentos pode causar uma maior 
+absorção do medicamento pelo organismo do que o necessário, podendo causar efeitos 
+indesejáveis.
+-
+Tome os comprimidos de ZYTIGA em dose única uma vez ao dia com o estômago vazio. 
+ZYTIGA tem de ser tomado pelo menos duas horas depois de comer e não podem ser ingeridos 
+alimentos durante pelo menos uma hora após tomar ZYTIGA. (ver secção 2, “ZYTIGA com 
+alimentos").
+-
+Engula os comprimidos inteiros com água.
+-
+Não parta os comprimidos.
+-
+ZYTIGA é tomado com um medicamento chamado prednisona ou prednisolona. Tome a 
+prednisona ou a prednisolona exatamente de acordo com as instruções do seu médico.
+70
+-
+Enquanto está a tomar ZYTIGA, deve tomar prednisona ou prednisolona todos os dias.
+-
+Se tiver uma emergência médica, a quantidade de prednisona ou prednisolona que está a tomar 
+pode ter que ser alterada. O seu médico irá informá-lo se tiver que alterar a quantidade de 
+prednisona ou prednisolona que está a tomar. Não pare de tomar prednisona ou prednisolona a 
+não ser que o seu médico lhe diga para parar.
+O seu médico poderá receitar-lhe outros medicamentos enquanto está a tomar ZYTIGA, prednisona ou 
+prednisolona.
+Se tomar mais ZYTIGA do que deveria
+Se tomar mais ZYTIGA do que deveria, informe o seu médico ou dirija-se imediatamente a um 
+hospital.
+Caso se tenha esquecido de tomar ZYTIGA
+-
+Caso se tenha esquecido de tomar ZYTIGA ou prednisona ou prednisolona, tome a sua dose 
+habitual no dia seguinte.
+-
+Caso se tenha esquecido de tomar ZYTIGA ou prednisona ou prednisolona durante mais do que 
+um dia, fale imediatamente com o seu médico.
+Se parar de tomar ZYTIGA
+Não pare de tomar ZYTIGA, prednisona ou prednisolona a não ser que o seu médico lhe diga para 
+parar.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, no entanto estes 
+não se manifestam em todas as pessoas.
+Pare de tomar ZYTIGA e dirija-se imediatamente a um médico caso verifique:
+-
+Fraqueza nos músculos, espasmos nos músculos ou ritmo irregular do coração (palpitações).
+Estes poderão ser sinais de que apresenta níveis baixos de potássio no seu sangue.
+Outros efeitos indesejáveis incluem:
+Muito frequentes (podem afetar mais de 1 pessoa em cada 10):
+Fluidos nas suas pernas ou pés, níveis baixos de potássio no sangue, aumentos nos testes de função 
+hepática (do fígado), tensão arterial aumentada, infeção do trato urinário, diarreia.
+Frequentes (podem afetar menos de 1 pessoa em cada 10):
+Níveis elevados de gordura no sangue, dor no peito, batimento irregular do coração (fibrilhação 
+auricular), insuficiência cardíaca, ritmo rápido do coração, infeções graves chamadas sepsis, fraturas
+ósseas, indigestão, sangue na urina, erupções na pele.
+Pouco frequentes (podem afetar menos de 1 pessoa em cada 100):
+Problemas nas glândulas suprarrenais (problemas relacionados com sal e água), ritmo do coração
+anormal (arritmia), fraqueza muscular e/ou dor muscular.
+Raros (podem afetar até 1 pessoa em cada 1 000):
+Irritação pulmonar (também chamada, alveolite alérgica).
+Falência da função do fígado (chamada insuficiência hepática aguda).
+Desconhecidos (não podem ser calculados a partir dos dados disponíveis):
+Ataque cardíaco, alterações no ECG - eletrocardiograma (prolongamento do intervalo QT) e reações 
+alérgicas graves com dificuldade em engolir ou respirar, face, lábios, língua ou garganta inchados ou 
+erupção na pele com comichão.
+Pode ocorrer perda óssea em homens tratados para o cancro da próstata. ZYTIGA em combinação 
+com a prednisona ou a prednisolona pode aumentar a perda óssea.
+71
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar zytiga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar zytiga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>-
+Manter este medicamento fora da vista e do alcance das crianças.
+-
+Não utilize ZYTIGA após o prazo de validade impresso no rótulo do frasco e na embalagem, 
+indicado após VAL. O prazo de validade corresponde ao último dia do mês indicado.
+-
+Este medicamento não necessita de quaisquer precauções especiais de conservação.
+-
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de ZYTIGA</h2>
+<p>A substância ativa é o acetato de abiraterona. Cada comprimido contém 250 mg de acetato de 
+abiraterona.
+-
+Os outros componentes são a celulose microcristalina, croscarmelose sódica, lactose mono-
+hidratada, estearato de magnésio, povidona, sílica coloidal anidra e laurilsulfato de sódio (ver 
+secção 2, ZYTIGA contém lactose e sódio).
+Qual o aspeto de ZYTIGA e conteúdo da embalagem
+-
+Os comprimidos de ZYTIGA são brancos a esbranquiçados, ovais (15,9 mm de comprimento x 
+9,5 mm de largura), com a gravação “AA250" numa das faces.
+-
+Os comprimidos de ZYTIGA são fornecidos num frasco de plástico com um fecho resistente à 
+abertura por crianças. Cada frasco contém 120 comprimidos. Cada embalagem contém um 
+frasco.
+Titular da Autorização de Introdução no Mercado e Fabricante
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Bélgica
+Fabricante
+Janssen-Cilag SpA
+Via C. Janssen
+Borgo San Michele
+I-04100 Latina, Itália
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+72
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel. +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 45 94 82 82
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD.
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.+48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: +353 1 800 709 122
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+73
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+Este folheto informativo foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -918,6 +1374,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-18a94f164fb1fa919f787ce6c80174e7"
 * entry[0].resource = composition-da-18a94f164fb1fa919f787ce6c80174e7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp18a94f164fb1fa919f787ce6c80174e7"
+* entry[=].resource = mp18a94f164fb1fa919f787ce6c80174e7
+                            
+                    
+Instance: bundlepackageleaflet-pt-18a94f164fb1fa919f787ce6c80174e7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zytiga Package Leaflet for language pt"
+Description: "ePI document Bundle for zytiga Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-18a94f164fb1fa919f787ce6c80174e7"
+* entry[0].resource = composition-pt-18a94f164fb1fa919f787ce6c80174e7
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp18a94f164fb1fa919f787ce6c80174e7"
@@ -1019,6 +1497,18 @@ RuleSet: 18a94f164fb1fa919f787ce6c80174e7ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-18a94f164fb1fa919f787ce6c80174e7) // zytiga pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

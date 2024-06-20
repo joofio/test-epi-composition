@@ -952,6 +952,531 @@ hjemmeside http://www.ema.europa.eu/</p>         </div>"""
 
 
 
+Instance: composition-pt-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
+InstanceOf: CompositionUvEpi
+Title: "Composition for inlyta Package Leaflet"
+Description:  "Composition for inlyta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8d8f8c8dd8b6d0af13b2bc71d6fa0c36)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - inlyta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Inlyta e para que é utilizado
+2. O que precisa de saber antes de tomar Inlyta
+3. Como tomar Inlyta
+4. Efeitos secundários possíveis
+5. Como conservar Inlyta
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é inlyta e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é inlyta e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Inlyta é um medicamento que contém a substância ativa axitinib. O axitinib reduz o fornecimento de 
+sangue ao tumor e atrasa o crescimento do cancro.
+Inlyta está indicado no tratamento do cancro do rim avançado (carcinoma de células renais avançado) 
+em adultos, quando outro medicamento (denominado sunitinib ou uma citocina) já não está a impedir 
+a progressão da doença.
+Se tem questões sobre como funciona este medicamento ou porque é que este medicamento lhe foi 
+receitado, pergunte ao seu médico.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar inlyta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar inlyta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Inlyta:
+Se tem alergia ao axitinib ou a qualquer outro componente deste medicamento (indicados na secção 6). 
+Se pensa que pode ser alérgico, consulte o seu médico.
+Advertências e precauções
+Fale com o seu médico ou enfermeiro antes de tomar Inlyta:
+
+Se tem tensão arterial elevada.
+Inlyta pode aumentar a sua tensão arterial. É importante verificar a sua tensão arterial antes de 
+tomar este medicamento e regularmente enquanto o está a tomar. Se tem tensão arterial elevada 
+(hipertensão) pode ser tratado com medicamentos para reduzir a tensão arterial. O seu médico 
+48
+tem que ter a certeza que a sua tensão arterial está controlada antes de começar o tratamento 
+com Inlyta e enquanto decorre o tratamento com este medicamento.
+
+Se tem problemas da glândula tiroide.
+Inlyta pode causar problemas da glândula tiroide. Informe o seu médico se ficar cansado mais 
+facilmente, se geralmente sente mais frio do que as outras pessoas, ou se a sua voz se tornar 
+mais fraca enquanto estiver a tomar este medicamento. A função da sua tiroide deve ser 
+verificada antes de tomar Inlyta e regularmente durante a sua toma. Se a sua glândula tiroide 
+não produzir hormonas da tiroide suficientes, antes ou durante o tratamento com este 
+medicamento, deverá ser tratado com um substituto da hormona da tiroide.
+
+Se teve um problema recente com coágulos sanguíneos nas suas veias e artérias (tipos de 
+vasos sanguíneos), incluindo acidente vascular cerebral, ataque cardíaco, embolia ou 
+trombose. 
+Procure assistência médica imediatamente e fale com o seu médico se tiver sintomas tais como 
+pressão ou dor no peito, dor nos braços, costas, pescoço ou maxilar, falta de ar, dormência ou 
+fraqueza num dos lados do corpo, dificuldade em falar, dores de cabeça, alterações da visão ou 
+tonturas durante o tratamento com este medicamento.
+
+Se sofrer de problemas hemorrágicos.
+Inlyta pode aumentar a probabilidade de ter uma hemorragia. Informe o seu médico se tiver 
+alguma hemorragia, se tossir sangue ou se tiver expetoração com sangue durante o tratamento 
+com este medicamento.
+
+Se tiver ou tiver tido um aneurisma (dilatação ou enfraquecimento da parede de um vaso 
+sanguíneo) ou uma rotura na parede de um vaso sanguíneo.
+
+Se durante o tratamento com este medicamento tiver dor de estômago (abdominal) intensa 
+ou se tiver uma dor de estômago que não desaparece.
+Inlyta pode aumentar o risco de desenvolver um buraco no estômago ou intestino ou a formação 
+de fístula (passagem anormal tipo tubo de uma cavidade normal do corpo para outra cavidade 
+ou pele).
+Informe o seu médico se tiver alguma dor abdominal intensa durante o tratamento com este 
+medicamento.
+
+Se vai ser submetido a uma operação ou se tem uma ferida não cicatrizada.
+O seu médico deve interromper Inlyta pelo menos 24 horas antes da sua operação uma vez que 
+pode afetar a cicatrização da ferida. O seu tratamento com este medicamento deve ser retomado 
+quando a ferida já tiver cicatrizado adequadamente.
+
+Se durante o tratamento com este medicamento tiver sintomas como dores de cabeça, 
+confusão, convulsões (ataques), ou alterações da visão com ou sem tensão arterial elevada.
+Procure ajuda médica de imediato e contacte o seu médico. Esta situação pode ser um efeito 
+adverso neurológico raro denominado síndrome de encefalopatia reversível posterior.
+
+Se tem problemas de fígado.
+O seu médico deve fazer análises sanguíneas para verificar a função do seu fígado antes e 
+durante o tratamento com Inlyta.
+
+Se durante o tratamento com este medicamento tiver sintomas como cansaço excessivo, 
+inchaço do abdómen, pernas ou tornozelos, falta de ar ou veias do pescoço salientes.
+Inlyta pode aumentar o risco de desenvolver acontecimentos de insuficiência cardíaca. O seu 
+médico deve monitorizar os sinais ou sintomas associados a acontecimentos de insuficiência 
+cardíaca periodicamente ao longo do tratamento com axitinib.
+49
+Crianças e adolescentes
+Inlyta não está recomendado para pessoas com menos de 18 anos de idade. Este medicamento não foi 
+estudado em crianças e adolescentes.
+Outros medicamentos e Inlyta
+Alguns medicamentos podem afetar Inlyta ou ser afetados por ele. Informe o seu médico, farmacêutico 
+ou enfermeiro acerca de todos os medicamentos que tenha tomado recentemente, está a tomar 
+atualmente, ou está a planear tomar, incluindo medicamentos obtidos sem receita médica, vitaminas e 
+medicamentos à base de plantas. Os medicamentos referidos neste folheto informativo podem não ser 
+os únicos a poder interagir com Inlyta.
+Os seguintes medicamentos podem aumentar o risco de efeitos secundários com Inlyta:
+
+cetoconazol ou itraconazol, usados para tratar infeções fúngicas;
+
+claritromicina, eritromicina ou telitromicina, antibióticos usados para tratar infeções 
+bacterianas;
+
+atazanavir, indinavir, nelfinavir, ritonavir ou saquinavir, utilizados para tratar infeções por 
+VIH/SIDA;
+
+nefazodona, utilizada para tratar a depressão.
+Os seguintes medicamentos podem reduzir a eficácia de Inlyta:
+
+rifampicina, rifabutina ou rifapentina, utilizados para tratar a tuberculose (TB);
+
+dexametasona, um medicamento esteroide, receitado para diferentes doenças, incluindo doenças
+graves;
+
+fenitoína, carbamazepina ou fenobarbital, antiepiléticos utilizados para parar as convulsões ou 
+os ataques;
+
+hipericão, também conhecido como erva de S. João (Hypericum perforatum), um produto à base 
+de plantas utilizado para tratar a depressão.
+Não deve tomar estes medicamentos durante o seu tratamento com Inlyta. Se está a tomar qualquer um 
+deles, informe o seu médico, farmacêutico ou enfermeiro. O seu médico pode alterar a dose destes 
+medicamentos, alterar a dose de Inlyta, ou trocá-lo para um medicamento diferente.
+Inlyta pode aumentar os efeitos secundários associados à teofilina usada para tratar a asma ou outras 
+doenças dos pulmões.
+Inlyta com alimentos e bebidas
+Não tome este medicamento com toranja ou com sumo de toranja, uma vez que pode aumentar a 
+possibilidade de efeitos secundários.
+Gravidez e aleitamento
+
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico, farmacêutico ou enfermeiro antes de tomar este medicamento.
+
+Inlyta pode prejudicar o bebé em gestação (antes de nascer) ou o lactente. 
+
+Não tome este medicamento durante a gravidez. Fale com o seu médico antes de tomar este 
+medicamento se está grávida ou pode ficar grávida. 
+
+Use um método contracetivo fiável enquanto estiver a tomar Inlyta e até 1 semana após a última 
+dose deste medicamento, para evitar uma gravidez.
+50
+
+Não amamente durante o tratamento com Inlyta. Se está a amamentar, o seu médico deve 
+discutir consigo se deve parar a amamentação ou se deve parar o tratamento com Inlyta.
+Condução de veículos e utilização de máquinas
+Se sentir tonturas e/ou se se sentir cansado durante o tratamento com Inlyta, tome especial cuidado 
+quando conduzir veículos ou utilizar máquinas.
+Inlyta contém lactose
+Se o seu médico lhe disse que tem uma intolerância a alguns açúcares, contacte o seu médico antes de 
+tomar este medicamento.
+Inlyta contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido revestido por 
+película ou seja, é praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar inlyta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar inlyta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico, 
+farmacêutico ou enfermeiro se tiver dúvidas.
+A dose recomendada é de 5 mg duas vezes por dia. O seu médico pode posteriormente aumentar ou 
+diminuir a sua dose dependendo da forma como tolera o tratamento com Inlyta.
+Engula os comprimidos inteiros com água, com ou sem comida. Tome as doses de Inlyta com, 
+aproximadamente, 12 horas de intervalo.
+Se tomar mais Inlyta do que deveria
+Se acidentalmente tomar demasiados comprimidos ou uma dose mais elevada do que a que necessita, 
+contacte imediatamente um médico para aconselhamento. Se possível, mostre ao médico a embalagem 
+ou este folheto. Pode necessitar de cuidados médicos.
+Caso se tenha esquecido de tomar Inlyta
+Deverá tomar a sua dose seguinte à sua hora normal. Não tome uma dose a dobrar para compensar um 
+comprimido que se esqueceu de tomar.
+Se vomitar após a toma de Inlyta
+Se vomitar, não tome uma dose adicional. Tome a dose seguinte à hora habitual.
+Se parar de tomar Inlyta
+Se não consegue tomar este medicamento como o seu médico lhe receitou ou se sente que já não 
+necessita dele, contacte o seu médico imediatamente. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.
+51</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos secundários, embora estes não se 
+manifestem em todas as pessoas.
+Alguns efeitos secundários podem ser graves. Deve contactar o seu médico imediatamente se 
+tiver algum dos seguintes efeitos secundários graves (ver também secção 2 “O que precisa de 
+saber antes de tomar Inlyta"):
+
+Acontecimentos de insuficiência cardíaca. Informe o seu médico se sentir cansaço excessivo, 
+inchaço do abdómen, pernas ou tornozelos, falta de ar ou veias do pescoço salientes.
+
+Coágulos sanguíneos nas suas veias e artérias (tipos de vasos sanguíneos), incluindo 
+acidente vascular cerebral, ataque cardíaco, embolia ou trombose. Procure assistência 
+médica imediatamente e fale com o seu médico se tiver sintomas tais como pressão ou dor no 
+peito; dor nos seus braços, costas, pescoço ou maxilar; falta de ar; dormência ou fraqueza num 
+dos lados do corpo; dificuldade em falar; dores de cabeça; alterações da visão; ou tonturas.
+
+Hemorragia. Informe o seu médico imediatamente se tiver qualquer um destes sintomas ou um 
+problema hemorrágico grave durante o tratamento com Inlyta: fezes negras (cor de alcatrão), 
+tosse com sangue ou expetoração com sangue ou alteração do seu estado mental.
+
+Buraco no estômago ou no intestino ou formação de fístula (passagem anormal tipo tubo 
+de uma cavidade normal do corpo para outra cavidade ou pele). Informe o seu médico se 
+tiver dores abdominais intensas.
+
+Aumento grave na tensão arterial (crise hipertensiva). Informe o seu médico se tem tensão 
+arterial muito alta, dores de cabeça fortes ou dor intensa no peito.
+
+Inchaço reversível do cérebro (síndrome de encefalopatia reversível posterior). Procure 
+assistência médica imediatamente e fale com o seu médico se tiver sintomas como dores de 
+cabeça, confusão, convulsões (ataques), ou alterações na visão com ou sem tensão arterial 
+elevada.
+Outros efeitos secundários com Inlyta podem incluir:
+Muito frequentes: podem afetar mais do que 1 em cada 10 pessoas
+
+Tensão arterial elevada ou aumentos na tensão arterial
+
+Diarreia, sentir-se (enjoos) ou ficar doente (vómitos), dor de estômago, indigestão, dor na boca, 
+língua ou garganta, prisão de ventre
+
+Falta de ar, tosse, rouquidão
+
+Falta de energia, sentir-se fraco ou cansado
+
+Glândula tiroide pouco ativa (pode observar-se nas suas análises sanguíneas)
+
+Vermelhidão e inchaço das palmas das mãos e das solas dos pés (síndrome mão-pé), erupção na 
+pele, secura da pele
+
+Dores nas articulações, dores nas mãos ou pés
+
+Perda de apetite
+
+Proteínas na urina (pode observar-se nas suas análises de urina)
+
+Perda de peso
+
+Dor de cabeça, alterações do paladar ou perda do paladar
+Frequentes: podem afetar até 1 em cada 10 pessoas
+
+Desidratação (perda de fluidos corporais)
+
+Insuficiência renal
+52
+
+Flatulência (gases), hemorroidas, sangramento das gengivas, sangramento a partir do reto, 
+sensação de ardor ou picadas na boca
+
+Glândula tiroideia hiperativa (pode observar-se nas suas análises sanguíneas)
+
+Dor de garganta ou nariz e garganta irritados
+
+Dores musculares
+
+Sangramento do nariz
+
+Comichão na pele, vermelhidão da pele, perda de cabelo
+
+Zumbido/som nos ouvidos (acufeno)
+
+Redução do número de glóbulos vermelhos (pode observar-se nas suas análises sanguíneas)
+
+Redução do número de plaquetas sanguíneas (células que ajudam o sangue a coagular) (pode
+observar-se nas suas análises sanguíneas)
+
+Presença de glóbulos vermelhos na urina (pode observar-se nas suas análises de urina)
+
+Alterações nos níveis de diferentes químicos/enzimas no sangue (pode observar-se nas suas 
+análises sanguíneas)
+
+Aumento no número de glóbulos vermelhos (pode observar-se nas suas análises sanguíneas)
+
+Inchaço do abdómen, pernas ou tornozelos, veias do pescoço salientes, cansaço excessivo, falta 
+de ar (sinais associados a acontecimentos de insuficiência cardíaca)
+
+Fístula (passagem anormal tipo tubo de uma cavidade normal do corpo para outra cavidade ou 
+pele)
+
+Tonturas
+
+Inflamação da vesícula biliar
+Pouco frequentes: podem afetar até 1 em cada 100 pessoas
+
+Redução do número de glóbulos brancos (pode observar-se nas suas análises sanguíneas)
+Desconhecido: a frequência não pode ser calculada a partir dos dados disponíveis
+
+Uma dilatação ou enfraquecimento da parede de um vaso sanguíneo ou uma rotura da parede de 
+um vaso sanguíneo (aneurismas e dissecções das artérias).
+Comunicação de efeitos secundários
+Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+secundários diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar inlyta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar inlyta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Manter este medicamento fora da vista e do alcance das crianças.
+
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+blister ou no frasco após “EXP". O prazo de validade corresponde ao último dia do mês
+indicado.
+
+O medicamento não necessita de quaisquer precauções especiais de conservação.
+
+Não utilize nenhuma embalagem caso esteja danificada ou apresente sinais de adulteração.
+
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente.
+53</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Inlyta 
+
+A substância ativa é o axitinib. Os comprimidos revestidos por película de Inlyta têm diferentes 
+dosagens.
+Inlyta 1 mg: cada comprimido contém 1 mg de axitinib.
+Inlyta 3 mg: cada comprimido contém 3 mg de axitinib.
+Inlyta 5 mg: cada comprimido contém 5 mg de axitinib.
+Inlyta 7 mg: cada comprimido contém 7 mg de axitinib.
+
+Os outros componentes são celulose microcristalina, lactose mono-hidratada, croscarmelose 
+sódica, estearato de magnésio, hipromelose 2910 (15 mPa•s), dióxido de titânio (E171), 
+triacetina (E1518), óxido de ferro vermelho (E172) (ver secção 2 Inlyta contém lactose).
+Qual o aspeto de Inlyta e conteúdo da embalagem
+Inlyta 1 mg comprimidos revestidos por película, ovais, vermelhos, marcados com “Pfizer" num dos 
+lados e “1 XNB" no outro. Inlyta 1 mg está disponível em frascos de 180 comprimidos e blisters de comprimidos. Cada embalagens blister contém 28 comprimidos ou 56 comprimidos.
+Inlyta 3 mg comprimidos revestidos por película, redondos, vermelhos, marcados com “Pfizer" num 
+dos lados e “3 XNB" no outro. Inlyta 3 mg está disponível em frascos de 60 comprimidos e blisters de 
+14 comprimidos. Cada embalagens blister contém 28 comprimidos ou 56 comprimidos.
+Inlyta 5 mg comprimidos revestidos por película, triangulares, vermelhos, marcados com “Pfizer" num 
+dos lados e “5 XNB" no outro. Inlyta 5 mg está disponível em frascos de 60 comprimidos e blisters de 
+14 comprimidos. Cada embalagens blister contém 28 comprimidos ou 56 comprimidos.
+Inlyta 7 mg comprimidos revestidos por película, em forma de losango, vermelhos, marcados com 
+“Pfizer" num dos lados e “7 XNB" no outro. Inlyta 7 mg está disponível em frascos de comprimidos e blisters de 14 comprimidos. Cada embalagens blister contém 28 comprimidos ou comprimidos.
+É possível que não sejam comercializadas todas as apresentações.
+Titular de Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante 
+Pfizer Manufacturing Deutschland GmbH
+Betriebsstätte Freiburg
+Mooswaldallee 1
+79090 Freiburg
+Alemanha
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+54
+Belgique/ België /Belgien
+Pfizer SA/NV
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. + 370 52 51 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Luxembourg/Luxemburg
+Pfizer S.A.
+Tél/Tel: +32 (0)2 554 62 11
+Česká republika
+Pfizer, spol. s r.o.
+Tel.: +420 283 004 111
+Magyarország
+Pfizer Kft.
+Tel.: +36-1-488-37-00
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Malta
+Vivian Corporation Ltd.
+Tel. +356 21344610
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055 51000
+Nederland
+Pfizer BV
+Tel: +31 (0)10 406 43 01
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel.: +372 666 7500
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Ελλάδα
+Pfizer ΕλλάςA.E.
+Τλ: +30 210 6785 800
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+España
+Pfizer S.L.
+Tél: +34 91 490 99 00
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.:+48 22 335 61 00
+France
+Pfizer 
+Tél: +33 (0)1 58 07 34 40
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+Hrvatska 
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel.: + 386 (0)1 52 11 400
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel.: + 421 2 3355 5500
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Suomi/Finland
+Pfizer Oy
+Puh./Tel: +358 (0)9 43 00 40
+55
+Kύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
+Τηλ: +357 22 817690
+Sverige 
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: + 371 670 35 775
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -993,6 +1518,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8d8f8c8dd8b6d0af13b2bc71d6fa0c36"
 * entry[0].resource = composition-da-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8d8f8c8dd8b6d0af13b2bc71d6fa0c36"
+* entry[=].resource = mp8d8f8c8dd8b6d0af13b2bc71d6fa0c36
+                            
+                    
+Instance: bundlepackageleaflet-pt-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inlyta Package Leaflet for language pt"
+Description: "ePI document Bundle for inlyta Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8d8f8c8dd8b6d0af13b2bc71d6fa0c36"
+* entry[0].resource = composition-pt-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8d8f8c8dd8b6d0af13b2bc71d6fa0c36"
@@ -1094,6 +1641,18 @@ RuleSet: 8d8f8c8dd8b6d0af13b2bc71d6fa0c36ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8d8f8c8dd8b6d0af13b2bc71d6fa0c36) // inlyta pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

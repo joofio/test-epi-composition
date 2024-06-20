@@ -1263,6 +1263,817 @@ medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""
 
 
 
+Instance: composition-pt-05f8c1dee8f03d43d5a47046b61f2f18
+InstanceOf: CompositionUvEpi
+Title: "Composition for norvir Package Leaflet"
+Description:  "Composition for norvir Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp05f8c1dee8f03d43d5a47046b61f2f18)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - norvir"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Norvir e para que é utilizado
+2. O que precisa de saber antes de tomar ou o seu filho tomar Norvir
+3. Como tomar Norvir
+4. Efeitos secundários possíveis
+5. Como conservar Norvir
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é norvir e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é norvir e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Norvir contém a substância ativa ritonavir. Norvir é um inibidor da protease usado para controlar a 
+infeção pelo VIH. Norvir é usado em associação com outros medicamentos anti-VIH (antirretrovirais) 
+para controlar a sua infeção pelo VIH. O seu médico discutirá consigo qual a associação de 
+medicamentos que é melhor para si.
+Norvir é usado por crianças com 2 anos de idade ou mais, adolescentes e adultos que estão infetados 
+pelo VIH, o vírus que causa SIDA.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar norvir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar norvir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Norvir</h2>
+<h2>se tem alergia a ritonavir ou a qualquer outro componente de Norvir (ver secção 6).</h2>
+<h2>se sofre de doença hepática grave.</h2>
+<h2>se está atualmente a tomar algum dos seguintes medicamentos:</h2>
+<p>astemizol ou terfenadina (habitualmente usados para tratar sintomas de alergia - estes 
+medicamentos podem estar disponíveis sem receita médica);
+-
+amiodarona, bepridilo, dronedarona, encaínida, flecaínida, propafenona, quinidina 
+(usados para corrigir alterações dos batimentos cardíacos);
+-
+di-hidroergotamina, ergotamina (usados para tratar enxaquecas);
+-
+ergonovina, metilergonovina (usados para parar hemorragias graves que podem acontecer 
+após o parto ou um aborto);
+-
+clorazepato, diazepam, estazolam, flurazepam, triazolam ou midazolam por via oral 
+(tomado pela boca) (usados para o ajudar a dormir e/ou para aliviar a ansiedade);
+-
+clozapina, pimozida (usados para tratar pensamentos ou sentimentos anormais);
+-
+quetiapina (usada para tratar esquizofrenia, doença bipolar e perturbação depressiva 
+major);
+-
+lurasidona (usado para tratar a depressão);
+-
+ranolazina (usado para tratar a dor no peito crónica angina);
+92
+-
+petidina, propoxifeno (usados no alívio da dor);
+-
+cisaprida (usado no alívio de certos problemas do estômago);
+-
+rifabutina (usado na prevenção/tratamento de certas infeções)<em>;
+-
+voriconazol (usado para tratar infeções fúngicas)</em>;
+-
+sinvastatina, lovastatina (usados para diminuir o colesterol sanguíneo);
+-
+neratinib (usado para tratar o cancro da mama);
+-
+lomitapida (usado para diminuir o colesterol sanguíneo);
+-
+alfuzosina (usado para tratar a glândula prostática aumentada);
+-
+ácido fusídico (usado para tratar infeções bacterianas);
+-
+sildenafil se sofrer de uma doença pulmonar chamada hipertensão arterial pulmonar que 
+torna difícil a respiração. Os doentes sem esta doença podem usar sildenafil para a 
+impotência (disfunção erétil) com a supervisão de um médico (ver a secção Outros 
+medicamentos e Norvir);
+-
+avanafil ou vardenafil (usados para tratar a disfunção erétil);
+-
+colquicina (usada para tratar a gota) se tiver problemas de rins e/ou fígado (ver a secção 
+Outros medicamentos e Norvir);
+-
+medicamentos contendo hipericão (Hypericum perforatum) porque pode impedir Norvir 
+de atuar convenientemente. O hipericão é geralmente usado em medicamentos à base de 
+plantas que pode comprar sem receita médica.</p>
+<ul>
+<li>O seu médico pode decidir que pode tomar rifabutina e/ou voriconazol com uma dose (baixa) 
+potenciadora de Norvir, mas não deve ser tomada uma dose total de Norvir com estes dois 
+medicamentos.
+Se atualmente está a tomar algum destes medicamentos, pergunte ao seu médico se pode mudar para 
+um medicamento diferente enquanto estiver a tomar Norvir. 
+Leia também a lista de medicamentos em “Outros medicamentos e Norvir" sobre a utilização de 
+outros medicamentos que requerem cuidado especial.
+Advertências e precauções 
+Fale com o seu médico antes de tomar Norvir.
+Informação importante
+-
+Se Norvir for tomado em associação com outros medicamentos antirretrovirais, é importante 
+que leia também cuidadosamente os folhetos informativos que são fornecidos com esses 
+medicamentos. Nesses folhetos informativos pode existir informação adicional sobre as 
+situações nas quais Norvir deve ser evitado. Caso ainda tenha dúvidas sobre Norvir (ritonavir) 
+ou sobre os outros medicamentos receitados, fale com o seu médico ou farmacêutico.
+-
+Norvir não é uma cura para a infeção por VIH ou SIDA.
+-
+As pessoas que tomam Norvir podem ainda desenvolver infeções ou outras doenças associadas 
+à infeção por VIH ou SIDA. É pois importante que continue sob a supervisão do seu médico 
+enquanto toma Norvir.
+Informe o seu médico se tem/teve:
+-
+Antecedentes de doença hepática. 
+-
+Hepatite B ou C e está a ser tratado com uma associação de medicamentos antirretrovirais, 
+porque está em risco aumentado para uma reação grave e potencialmente fatal, devido ao efeito 
+no fígado. Podem ser necessárias análises regulares ao sangue para verificar se o seu fígado está 
+a funcionar convenientemente.
+-
+Hemofilia, porque foram notificados casos de aumento de hemorragia nos doentes com 
+hemofilia tratados com este tipo de medicamentos (inibidores da protease). Desconhece-se qual 
+a razão. Pode necessitar de um medicamento adicional para ajudar o seu sangue a coagular 
+(fator VIII), para controlar qualquer hemorragia.
+93
+-
+Disfunção erétil, porque os medicamentos usados para tratar a disfunção erétil podem causar 
+hipotensão (baixar a tensão arterial) e ereção prolongada.
+-
+Diabetes, porque foram notificados casos de agravamento ou desenvolvimento de diabetes 
+(diabetes mellitus) nalguns doentes tratados com inibidores da protease.
+-
+Doença do rim (renal), porque o seu médico pode precisar de verificar a dose dos seus outros 
+medicamentos (como por exemplo inibidores da protease).
+Informe o seu médico se tiver:
+-
+Diarreia ou vómitos que não melhoram (persistentes), porque isso pode reduzir a eficácia dos 
+medicamentos que estiver a tomar.
+-
+Indisposição (náuseas), vómitos ou dor de estômago, porque podem ser sinais de inflamação 
+do pâncreas (pancreatite). Alguns doentes a tomar Norvir podem desenvolver problemas graves 
+no pâncreas. Informe o seu médico imediatamente se for este o seu caso. 
+-
+Sintomas de infeção - informe o seu médico imediatamente. Alguns doentes com infeção 
+avançada por VIH (SIDA) que iniciam tratamento anti-VIH podem desenvolver sintomas de 
+infeções que tiveram no passado, mesmo que desconheçam que as tiveram. Pensa-se que isto 
+acontece devido a uma melhoria na resposta imunitária do organismo, permitindo que o corpo 
+combata estas infeções.
+Além das infeções oportunistas, depois de iniciar os medicamentos para o tratamento da sua 
+infeção pelo VIH, podem também ocorrer doenças autoimunes (uma condição que ocorre 
+quando o sistema imunitário ataca os tecidos saudáveis do corpo). As doenças autoimunes 
+podem ocorrer muitos meses após o início do tratamento. Se sentir alguns sintomas de infeção 
+ou outros sintomas tais como fraqueza muscular, fraqueza que se inicia nas mãos e nos pés 
+progredindo em direção ao tronco, palpitações, tremores ou hiperatividade, deve informar o seu 
+médico imediatamente para receber o tratamento necessário. 
+-
+Rigidez, mal-estar e dores nas articulações (especialmente na anca, joelho e ombro) e 
+dificuldade de movimentos, informe o seu médico, porque isto pode ser um sinal de um 
+problema que pode destruir o osso (osteonecrose). Alguns doentes que tomam vários 
+medicamentos antirretrovirais podem desenvolver esta doença.
+-
+Dor muscular, sensibilidade ou fraqueza, particularmente associadas à terapêutica 
+antirretroviral incluindo inibidores da protease e análogos nucleósidos. Em raras ocasiões estes 
+problemas musculares foram graves. (Ver secção 4 Possíveis efeitos secundários).
+-
+Tonturas, vertigens (sensação de andar à roda), desmaio ou batimento cardíaco anormal. 
+Alguns doentes a tomar Norvir podem ter alterações no eletrocardiograma (ECG). Informe o seu 
+médico se tiver problemas cardíacos ou problemas na condução cardíaca.
+-
+Se tem quaisquer outras preocupações de saúde, deve discuti-las com o seu médico, logo que 
+possível.
+Crianças e adolescentes
+Norvir não é recomendado em crianças com menos de 2 anos de idade.
+Outros medicamentos e Norvir
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos, incluindo medicamentos obtidos sem uma receita médica. Existem alguns 
+medicamentos que não podem ser tomados com Norvir. Esses medicamentos estão descritos na Secção 
+2, em “Não tomar Norvir". Existem outros medicamentos que só podem ser usados em certas 
+situações, como descrito abaixo. 
+As advertências seguintes são aplicáveis quando Norvir é tomado numa dose total. No entanto, estas 
+advertências podem também aplicar-se quando Norvir é usado em doses mais baixas (como 
+potenciador) com outros medicamentos. 
+94
+Informe o seu médico se está a tomar algum dos medicamentos descritos abaixo, porque deverá 
+ser tomado cuidado especial.
+-
+Sildenafil ou tadalafil para a impotência (disfunção erétil). 
+Pode ser necessário diminuir a dose e/ou frequência destes medicamentos para evitar hipotensão 
+e ereção prolongada. Não deve tomar Norvir com sildenafil se sofrer de hipertensão arterial 
+pulmonar (ver também secção </li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar norvir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar norvir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Norvir). Informe o seu médico se está a tomar tadalafil para a hipertensão arterial pulmonar.</h2>
+<p>Colquicina (para a gota) porque Norvir pode aumentar os níveis sanguíneos deste 
+medicamento. Não deve tomar Norvir com colquicina se tiver problemas de rins e/ou fígado 
+(ver também acima “Não tome Norvir").
+-
+Digoxina (medicamento para o coração). O seu médico pode precisar de ajustar a dose de 
+digoxina e vigiá-lo se estiver a tomar digoxina e Norvir para evitar problemas cardíacos.
+-
+Contracetivos hormonais contendo etinilestradiol porque Norvir pode diminuir a eficácia 
+destes medicamentos. Em alternativa, recomenda-se o uso de um preservativo ou de outro 
+método de contraceção não hormonal. Pode também observar hemorragia uterina irregular se 
+estiver a tomar este tipo de contracetivo hormonal com Norvir. 
+-
+Atorvastatina ou rosuvastatina (para o colesterol elevado) porque Norvir pode aumentar os 
+níveis sanguíneos destes medicamentos. Fale com o seu médico antes de tomar qualquer 
+medicamento para baixar o colesterol com Norvir (ver também acima “Não tomar Norvir").
+-
+Esteróides (por ex. dexametasona, propionato de fluticasona, prednisolona, triamcinolona) 
+porque Norvir pode aumentar os níveis sanguíneos destes medicamentos, o que pode levar a 
+síndrome de Cushing (desenvolvimento de face redonda) e diminuir a produção da hormona 
+cortisol. O seu médico pode diminuir a dose de esteroide ou vigiar os seus efeitos secundários 
+mais atentamente.
+-
+Trazodona (um medicamento para a depressão) porque podem ocorrer efeitos indesejáveis 
+como náuseas, tonturas, tensão arterial baixa e desmaio quando tomada com Norvir. 
+-
+Rifampicina e saquinavir (usados, respetivamente, para a tuberculose e VIH) porque pode 
+ocorrer lesão hepática grave quando tomados com Norvir.
+-
+Bosentano, riociguat (usado para a hipertensão arterial pulmonar) porque Norvir pode 
+aumentar os níveis sanguíneos deste medicamento.
+Existem medicamentos que não podem ser misturados com Norvir porque os seus efeitos podem 
+aumentar ou diminuir quando tomados em associação. Nalguns casos o seu médico pode precisar de 
+efetuar algumas análises, alterar a dose ou vigiá-lo regularmente. Por isso é que deve informar o seu 
+médico se está a tomar outros medicamentos, incluindo aqueles que comprou por iniciativa própria ou 
+produtos à base de plantas, sendo particularmente importante mencionar os seguintes: 
+-
+anfetaminas ou derivados de anfetaminas;
+-
+antibióticos (por ex. eritromicina, claritromicina);
+-
+tratamentos antineoplásicos (por ex. abemaciclib, afatinib, apalutamida, ceritinib, encorafenib, 
+dasatinib, ibrutinib, nilotinib, venetoclax, vincristina, vinblastina);
+-
+medicamentos usados para tratar a contagem baixa de plaquetas no sangue (por ex. 
+fostamatinib);
+-
+anticoagulantes (por ex. dabigatrano etexilato, edoxabano, rivaroxabano, vorapaxar, varfarina);
+-
+antidepressivos (por ex: amitriptilina, desipramina, fluoxetina, imipramina, nefazodona, 
+nortriptilina, paroxetina, sertralina, trazodona);
+-
+antifúngicos (por ex. cetoconazol, itraconazol);
+-
+anti-histamínicos (por ex. loratadina, fexofenadina);
+-
+medicamentos antirretrovirais, incluindo inibidores da protease do VIH (amprenavir, atazanavir, 
+darunavir, fosamprenavir, indinavir, nelfinavir, saquinavir, tipranavir), inibidores não 
+nucleósidos da transcriptase reversa (NNRTI) (delavirdina, efavirenz, nevirapina) e outros 
+(didanosina, maraviroc, raltegravir, zidovudina);
+-
+medicamento para a tuberculose (bedaquilina e delamanid);
+-
+medicamentos antivirais usados para tratar a infeção crónica pelo vírus da hepatite C (VHC) em 
+adultos (por ex. glecaprevir/pibrentasvir e simeprevir);
+-
+medicamento para a ansiedade, buspirona;
+95
+-
+medicamentos para a asma, teofilina, salmeterol;
+-
+atovaquona, um medicamento usado para tratar um certo tipo de pneumonia e malária;
+-
+buprenorfina, um medicamento usado para o tratamento da dor crónica;
+-
+bupropiona, um medicamento usado para ajudar a deixar de fumar;
+-
+medicamentos para a epilepsia (por ex. carbamazepina, divalproato, lamotrigina, fenitoína);
+-
+medicamentos para o coração (por ex. disopiramida, mexiletina e antagonistas dos canais do 
+cálcio como por exemplo amlodipina, diltiazem e nifedipina);
+-
+medicamentos para o sistema imunitário (por ex. ciclosporina, tacrolímus, everolímus);
+-
+levotiroxina (utilizado para tratar problemas na tiroide);
+-
+morfina e medicamentos tipo morfina usados para tratar a dor grave (por ex. metadona, 
+fentanilo);
+-
+comprimidos para dormir (por ex. alprazolam, zolpidem) e também midazolam administrado 
+por injeção;
+-
+tranquilizantes (por ex. haloperidol, risperidona, tioridazina);
+-
+colquicina, um tratamento para a gota.
+Existem alguns medicamentos que não podem ser tomados com Norvir. Estes medicamentos estão 
+descritos anteriormente na secção 2 em “Não tomar Norvir".
+Norvir com alimentos e bebidas
+Ver secção 3. Gravidez e amamentação
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de 
+tomar este medicamento.
+Existe um elevado número de dados sobre o uso de ritonavir (a substância ativa de Norvir) durante a 
+gravidez. Em geral, as grávidas receberam ritonavir após os primeiros três meses de gravidez numa 
+dose mais baixa (como potenciador) juntamente com outros inibidores da protease. Norvir não pareceu 
+aumentar a possibilidade de desenvolvimento de anomalias à nascença comparativamente com a 
+população em geral.
+A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção pelo 
+VIH pode ser transmitida ao bebé através do leite materno. 
+Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais rapidamente 
+possível.
+Condução de veículos e utilização de máquinas
+Norvir pode causar tonturas. Se tiver este efeito não deve conduzir nem utilizar máquinas. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. Tome este medicamento uma ou duas vezes ao dia, todos os 
+dias com alimentos.
+Para doses com quantidades exatas de 100 mg (100, 200, 300, 400, 500, ou 600 mg) deite todo o 
+conteúdo de cada saqueta sobre alimentos moles (puré de maçã ou pudim de baunilha) ou misture com 
+uma pequena quantidade de líquido (água, leite com chocolate, ou fórmula para lactentes) e consuma a 
+porção inteira.
+96
+Para doses inferiores a 100 mg ou doses entre os 100 mg, misture todo o conteúdo da saqueta 
+com um líquido e depois doseie o volume apropriado em ml utilizando a seringa doseadora para 
+uso oral, tal como indicado pelo seu médico.
+Para a administração utilizando um tubo de alimentação, siga as instruções na secção "Como tomar a 
+dose correta de Norvir pó para suspensão oral misturado com líquido?" Use água para misturar o 
+medicamento e siga as instruções do tubo de alimentação para administrar o medicamento.
+As doses recomendadas de Norvir são:
+
+se Norvir for usado para potenciar os efeitos de outros medicamentos anti-VIH, a dose habitual 
+para adultos é 1 ou 2 saquetas, uma ou duas vezes ao dia. Para mais detalhes sobre a posologia 
+recomendada, incluindo a relativa às crianças, ver o Folheto Informativo dos medicamentos 
+anti-VIH com os quais Norvir é administrado em associação.
+
+se o seu médico receitar uma dose total, os adultos podem iniciar com uma dose de 3 saquetas de 
+manhã e 3 saquetas 12 horas depois, aumentando gradualmente durante um período de até 14 dias 
+para a dose total de 6 saquetas, duas vezes ao dia. As crianças (2-12 anos de idade) começarão 
+com uma dose inferior a esta e continuam a aumentar até à dose máxima permitida para o seu 
+tamanho.
+O seu médico dir-lhe-á qual a dose que deve tomar.
+Norvir deve ser tomado todos os dias para controlar a sua infeção pelo VIH, quer se sinta melhor ou 
+não. Se algum efeito secundário o impedir de tomar Norvir, informe o seu médico imediatamente. 
+Durante os episódios de diarreia o seu médico pode decidir que pode ser necessária monitorização 
+adicional.
+Tenha sempre Norvir suficiente de modo a não interromper o tratamento. Quando viajar ou precisar de 
+ficar no hospital, garanta que terá Norvir em quantidade suficiente até que consiga obter uma nova
+embalagem.
+Norvir pó para suspensão oral tem um sabor amargo prolongado. A ingestão de manteiga de 
+amendoim, creme de chocolate com avelãs, ou xarope de groselha preta, imediatamente após a 
+administração do medicamento, pode ajudar a eliminar o sabor amargo da sua boca. 
+Prepare apenas uma dose de cada vez usando o número correto de saquetas. Após misturar o pó com 
+alimentos ou líquidos certifique-se de que toma dose completa dentro de 2 horas. Não misture Norvir 
+com nenhum outro alimento ou líquido sem primeiro falar com o seu médico ou farmacêutico. 
+Como tomar a dose correta de Norvir pó para suspensão oral misturado com alimentos (saqueta 
+inteira)?
+Siga as instruções abaixo:
+Passo 1. Antes de misturar a dose de Norvir, reúna 
+os seguintes utensílios: (ver Figura 1).
+Passo 2. Verifique o número de saquetas na 
+prescrição ou fale com o seu médico ou 
+farmacêutico.
+Figura 1
+Copo
+Saqueta de 
+Norvir
+Colher
+Alimento mole, puré de 
+maçã ou pudim de baunilha
+97
+Passo 3. Antes da primeira utilização do copo de mistura, lave-o com água morna e detergente. 
+Enxagúe e deixe secar ao ar.
+Passo 4. Coloque uma pequena quantidade do alimento 
+mole (puré de maçã ou pudim de baunilha) num copo (ver 
+Figura 2).
+Figura 2
+Passo 5. Rasgue e abra a saqueta (ver Figura 3).
+Figura 3
+Passo 6. Deite TODO o pó da saqueta em cima do 
+alimento (ver Figura 4). 
+Figura 4
+Passo 7. Misture completamente (ver Figura 5).
+98
+Figura 5
+Passo 8. Administre a dose ao doente.
+Passo 9. A dose deverá ser TOTALMENTE ingerida (ver 
+Figura 6). Se ficarem resíduos de pó, adicione mais 
+colheres do alimento e sirva ao doente. Usar no período de 
+2 horas.
+Figura 6
+Passo 10. Deite a saqueta vazia no lixo. Lave e seque a 
+área de preparação. Lave imediatamente a colher e o copo 
+com água morna e detergente (ver Figura 7). Enxagúe e 
+deixe secar ao ar.
+Figura </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar norvir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar norvir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Siga as instruções abaixo:
+Figura 1
+Material necessário
+Antes de misturar uma dose de Norvir, reúna os 
+utensílios da Figura 1. Poderá precisar de mais de 1 saqueta para cada 
+dose. Verifique a sua prescrição no rótulo da 
+embalagem ou em caso de dúvida, fale com o seu 
+médico ou farmacêutico.  Caso seja necessário 
+mais de 1 saqueta, repita todos os passos com cada 
+saqueta.
+Copo com
+bebida* Seringa 
+de ml
+Saqueta com mg de Norvir pó 
+para suspensão 
+Copo de 
+mistura com 
+tampa
+Copo com água, 
+fórmula para 
+lactentes ou leite 
+com chocolate
+Seringa
+de 10 ml 
+Saqueta com 
+100 mg de 
+Norvir pó para 
+suspensão oral
+Copo de mistura 
+com tampa
+99
+Usando a seringa
+Antes da primeira utilização da seringa doseadora, 
+lave-a com água morna e detergente. Enxagúe e 
+deixe secar ao ar.
+Leitura da escala
+a. Cada mililitro (ml) é mostrado como um 
+número com uma linha grande.
+b. Cada 0,2 ml é mostrado como uma linha 
+pequena entre os números. 
+Verifique a seringa antes de cada utilização
+Deverá utilizar uma nova seringa se:
+
+não consegue limpar a seringa
+
+não consegue ler a escala 
+
+não consegue mover o êmbolo
+
+a seringa está danificada ou a verter.
+Figura 2
+Passo 1. Encher a seringa
+a. Empurre o êmbolo todo para dentro da seringa.
+b. Introduza a ponta da seringa no líquido.
+c. Lentamente puxe para trás o êmbolo até à marca 
+dos 10 ml na seringa (ver Figura 2).
+Figura 3
+Passo 2. Mover quaisquer bolhas para a ponta 
+da seringa
+a. Segure a seringa com a ponta virada para cima.
+b. Bata levemente na seringa com a outra mão. Isto 
+deslocará quaisquer bolhas para a ponta.
+c. Puxe o êmbolo para baixo. Cuidado para não 
+puxar o êmbolo para fora.
+d. Volte a bater levemente na seringa. Isto levará à
+quebra das bolhas e permitirá que fiquem todas na 
+ponta (ver Figura 3).
+Figura 4
+Passo 3. Medir o líquido
+a. Mantenha a seringa virada para cima.
+b. Lentamente empurre o êmbolo para cima até que 
+o topo do êmbolo esteja nos 9,4 ml - isto removerá 
+todas as bolhas da seringa (ver Figura 4).
+100
+Figura 5
+Passo 4. Esvaziar a seringa
+a. Lentamente empurre o êmbolo para esvaziar o 
+líquido da seringa para dentro do copo de mistura
+(ver Figura 5).
+Figura 6
+Passo 5. Deitar o pó para o copo
+a. Rasgue e abra a saqueta.
+b. Deite todo o pó no copo de mistura.
+c. Verifique se a saqueta está vazia.
+Tenha cuidado para não deitar pó para fora do 
+copo de mistura (ver Figura 6).
+Figura 7
+Passo 6. Misturar o pó e o líquido
+a. Enrosque a tampa do copo de mistura até ficar 
+apertada e agite energicamente o copo de mistura 
+durante pelo menos 90 segundos até que todos os 
+aglomerados de pó se tenham desfeito.
+b. Verifique se existem aglomerados de pó. Se 
+ainda existirem, continue a agitar até que tenham 
+desaparecido.<br />
+c. O líquido pode parecer turvo - isto está bem.
+d. Deixe o líquido descansar durante 10 minutos e a 
+maioria das bolhas irá desaparecer. 
+e. Podem observar-se algumas bolhas no cimo do 
+líquido - isto também está bem (ver Figura 7).
+Figura 8
+Passo 7. Encher a seringa
+a. Empurre o êmbolo todo para dentro da seringa.
+b. Introduza a ponta da seringa no fundo do copo de 
+mistura.
+c. Lentamente puxe para trás o êmbolo até à marca 
+dos 10 ml na seringa - tente não puxar bolhas para 
+dentro da seringa (ver Figura 8).
+101
+Figura 9
+Passo 8. Remover quaisquer bolhas
+a. Segure a seringa com a ponta virada para cima.
+b. Bata levemente na seringa com a outra mão. Isto 
+deslocará quaisquer bolhas para a ponta. 
+c. Puxe o êmbolo para baixo. Cuidado para não 
+puxar o êmbolo para fora.
+d. Volte a bater na seringa para desfazer as bolhas e 
+para que fiquem todas na ponta (ver Figura 9).
+e. Empurre lentamente o êmbolo até que apareça 
+uma pequena quantidade de líquido na ponta da 
+seringa.
+f. No caso de ainda persistirem algumas bolhas 
+grandes de ar, esvaziar o líquido da seringa para o 
+copo de mistura e recomeçar desde o Passo 7.
+Figura 10
+Passo 9. Medir a dose
+a. Verifique a posologia prescrita no rótulo da 
+embalagem para a dose em ml. Em caso de dúvida, 
+fale com o seu médico ou farmacêutico.
+b. Aponte a seringa para o copo de mistura e 
+empurre lentamente o êmbolo até à dose correta em 
+ml (ver Figura 10).
+c. Se empurrar demasiado líquido, recomece desde 
+o Passo 7. Tenha cuidado para não deitar líquido
+para fora do copo de mistura.
+Figura 11
+Passo 10. Administrar o medicamento ao doente
+a. Coloque a ponta da seringa no interior da boca do 
+doente, direcionada para o interior da bochecha.
+b. Empurre o êmbolo lentamente para administrar a 
+dose completa (ver Figura 11).
+c. Administre a dose total ao doente dentro de 2 
+horas após a abertura da saqueta.
+Passo 11. (Se necessário)
+Se precisar de utilizar mais do que uma saqueta, 
+repita o processo desde o início.
+102
+Passo 12. Depois de ter terminado
+a. Coloque a saqueta vazia e quaisquer restos de 
+medicamento que tenham ficado no copo de 
+mistura, no lixo.
+b. Retire o êmbolo da seringa.
+c. Lave à mão a seringa, o êmbolo, o copo de 
+mistura e a tampa, com água morna e detergente. 
+Enxagúe e deixe secar ao ar. Não lave estes 
+utensílios na máquina de lavar loiça.
+d. Lave e seque a área utilizada para misturar o 
+medicamento.
+Se tomar mais Norvir do que deveria
+Se tomou Norvir a mais pode sentir dormência, formigueiro ou uma sensação de “picadas". Caso se 
+aperceba que tomou mais Norvir do que devia, contacte o seu médico ou dirija-se a um Serviço de 
+Urgência do hospital mais próximo de imediato. 
+Caso se tenha esquecido de tomar Norvir
+Caso se tenha esquecido de tomar uma dose, tome-a assim que puder. Se estiver próximo de tomar a 
+dose seguinte, deve fazê-lo. Não tome uma dose a dobrar para compensar uma dose que se esqueceu 
+de tomar.
+Se parar de tomar Norvir
+Mesmo que se sinta melhor, não pare de tomar Norvir sem falar com o seu médico. Tomar Norvir 
+como lhe foi recomendado dá-lhe mais possibilidade de atrasar a resistência aos medicamentos.
+4. Efeitos secundários possíveis 
+Durante a terapêutica para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no 
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos 
+lípidos no sangue, por vezes aos próprios medicamentos para o VIH. O seu médico irá realizar testes 
+para determinar estas alterações.
+Como todos os medicamentos, Norvir pode causar efeitos secundários, embora estes não se 
+manifestem em todas as pessoas. Do mesmo modo, os efeitos secundários de Norvir, quando é 
+administrado com outros medicamentos antirretrovirais, dependem desses medicamentos. É pois 
+importante que leia cuidadosamente a secção relativa aos efeitos secundários no Folheto Informativo 
+que é fornecido com os outros medicamentos.
+Muito frequentes: podem afetar mais de 1 em cada 10 pessoas
+
+dor na parte superior ou inferior do <br />
+             estômago 
+
+vómitos<br />
+
+diarreia (que pode ser grave)
+
+indisposição (náuseas) 
+
+rubor, sensação de calor
+
+dor de cabeça 
+
+tonturas
+
+dor de garganta
+
+sensação de formigueiro ou dormência 
+nas 
+           mãos, pés ou à volta dos lábios e boca
+
+sensação de fraqueza/fadiga
+
+sabor desagradável na boca
+
+lesões nos nervos que podem causar 
+           fraqueza e dor
+
+comichão
+
+erupção
+
+dor nas articulações e nas costas
+103
+
+tosse
+
+dor de estômago ou indigestão
+Frequentes: podem afetar até 1 em cada 10 pessoas
+
+     reações alérgicas incluindo erupções 
+            na pele (por ex. vermelhidão,<br />
+            inchaço, comichão), edema grave da pele
+            e outros tecidos
+
+     dificuldade em dormir (insónias) 
+
+     ansiedade 
+
+    aumento do colesterol
+
+     aumento dos triglicéridos
+
+     gota
+
+     hemorragia no estômago
+
+     inflamação do fígado e coloração  <br />
+           amarelada da pele ou da parte branca dos 
+           olhos
+
+aumento na micção
+
+função renal diminuída 
+
+convulsões (ataques)
+
+níveis baixos de contagem de plaquetas
+
+sede (desidratação)
+
+períodos anormalmente abundantes
+
+gases (flatulência)
+
+perda de apetite
+
+úlceras (feridas) na boca
+
+dores musculares (dor), sensibilidade ou 
+           fraqueza
+
+febre
+
+perda de peso
+
+resultados dos testes laboratoriais:
+           alterações nos resultados das análises ao
+           sangue (como a química do sangue e
+           contagem sanguínea)
+
+confusão
+
+dificuldade de concentração
+
+desmaio
+
+visão turva
+
+inchaço nas mãos e pés
+
+tensão arterial elevada
+
+tensão arterial baixa e sensação de <br />
+           desmaio ao levantar
+
+mãos e pés frios
+
+acne
+Pouco frequentes: podem afetar até 1 em cada 100 pessoas
+
+ataque cardíaco 
+
+diabetes
+
+insuficiência renal
+Raros: podem afetar até 1 em cada 1.000 pessoas
+
+reações dermatológicas graves ou de 
+compromisso vital, incluindo bolhas 
+(síndrome de Stevens Johnson, necrólise 
+epidérmica tóxica)
+
+reação alérgica grave (anafilaxia)
+
+níveis elevados de açúcar no sangue
+Desconhecido: a frequência não pode ser calculada a partir dos dados disponíveis
+
+pedras nos rins
+Informe o seu médico quando se sentir maldisposto (nauseado), se vomitar, ou tiver dor de estômago, 
+porque estes podem ser sinais de inflamação do pâncreas. Informe também o seu médico se sentir 
+rigidez, mal-estar e dores nas articulações (especialmente da anca, joelho e ombro) e dificuldade nos 
+movimentos, porque isso pode ser um sinal de osteonecrose. Ver também a secção 2. O que precisa 
+de saber antes de tomar ou o seu filho tomar Norvir.
+Foram notificados em doentes com hemofilia do tipo A e B casos de aumentos de hemorragias durante 
+o tratamento com este medicamento ou outro inibidor da protease. Se estiver nesta situação deverá 
+consultar imediatamente o seu médico. 
+Nos doentes tratados com Norvir foram descritos testes anormais da função hepática, hepatite 
+(inflamação do fígado) e raramente icterícia. Alguns doentes sofriam de outras doenças ou estavam a 
+104
+tomar outros medicamentos. As pessoas com doença hepática ou hepatite podem sofrer agravamento 
+da doença hepática.
+Foram descritos casos de dor, sensibilidade ou fraqueza muscular, particularmente quando foram 
+tomados medicamentos para diminuir o colesterol em associação com terapêutica antirretroviral que 
+inclua inibidores da protease e análogos dos nucleósidos. Em ocasiões raras estes distúrbios 
+musculares foram graves (rabdomiólise). Em caso de dor muscular, sensibilidade, fraqueza ou cãibras, 
+inexplicáveis ou contínuas, parar de tomar o medicamento, contactar o seu médico imediatamente ou 
+dirigir-se a um Serviço de Urgência do hospital mais próximo.
+Informe o seu médico imediatamente se tiver quaisquer sintomas que sugiram uma reação alérgica 
+depois de tomar Norvir, como por exemplo erupção cutânea, urticária ou dificuldades respiratórias.
+Se algum dos efeitos secundários se agravar ou se detetar quaisquer efeitos secundários não 
+mencionados neste folheto, informe o seu médico, farmacêutico ou, se for urgente, procure ajuda 
+médica de imediato.
+Comunicação de efeitos secundários
+Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
+folheto, fale com o seu médico, ou farmacêutico. Também poderá comunicar efeitos secundários 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize Norvir pó para suspensão oral após o prazo de validade impresso na saqueta e cartonagem. 
+O prazo de validade corresponde ao último dia do mês indicado.
+Norvir pó para suspensão oral deve ser conservado a temperatura inferior a 30º C.
+Não utilize este medicamento se notar que o pó não é de cor bege/amarelo pálido a amarelo.
+Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+
+
+
 
 
                     
@@ -1304,6 +2115,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-05f8c1dee8f03d43d5a47046b61f2f18"
 * entry[0].resource = composition-da-05f8c1dee8f03d43d5a47046b61f2f18
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp05f8c1dee8f03d43d5a47046b61f2f18"
+* entry[=].resource = mp05f8c1dee8f03d43d5a47046b61f2f18
+                            
+                    
+Instance: bundlepackageleaflet-pt-05f8c1dee8f03d43d5a47046b61f2f18
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for norvir Package Leaflet for language pt"
+Description: "ePI document Bundle for norvir Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-05f8c1dee8f03d43d5a47046b61f2f18"
+* entry[0].resource = composition-pt-05f8c1dee8f03d43d5a47046b61f2f18
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp05f8c1dee8f03d43d5a47046b61f2f18"
@@ -1405,6 +2238,18 @@ RuleSet: 05f8c1dee8f03d43d5a47046b61f2f18ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-05f8c1dee8f03d43d5a47046b61f2f18) // norvir pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

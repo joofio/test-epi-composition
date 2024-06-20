@@ -1204,6 +1204,826 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-88027b29b9aee30b33b41e1a72006b30
+InstanceOf: CompositionUvEpi
+Title: "Composition for eviplera Package Leaflet"
+Description:  "Composition for eviplera Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp88027b29b9aee30b33b41e1a72006b30)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - eviplera"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Eviplera e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Eviplera </li>
+<li>Como tomar Eviplera </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Eviplera </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é eviplera e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é eviplera e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Eviplera contém três substâncias ativas que são utilizadas para tratar a infeção pelo Vírus da 
+Imunodeficiência Humana (VIH): </p>
+<ul>
+<li>
+<p>Emtricitabina, um análogo nucleosídeo inibidor da transcriptase reversa (NRTI). </p>
+</li>
+<li>
+<p>Rilpivirina, um análogo não nucleosídeo inibidor da transcriptase reversa (NNRTI). </p>
+</li>
+<li>
+<p>Tenofovir disoproxil, um análogo nucleótido inibidor da transcriptase reversa (NtRTI). </p>
+</li>
+</ul>
+<p>Cada uma destas substâncias ativas, também conhecidas como medicamentos antirretrovirais, funciona 
+interferindo com uma enzima (uma proteína chamada "transcriptase reversa") que é essencial para a 
+multiplicação do vírus. </p>
+<p>Eviplera diminui a quantidade de VIH no seu corpo. Isto irá melhorar o seu sistema imunológico e 
+diminuir o risco de desenvolvimento de doenças ligadas à infeção por VIH. </p>
+<p>Eviplera é utilizado para o tratamento da infeção pelo Vírus da Imunodeficiência Humana 
+(VIH) em adultos com 18 anos de idade ou mais. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar eviplera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar eviplera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Eviplera </p>
+<ul>
+<li>Se tem alergia à emtricitabina, rilpivirina, tenofovir disoproxil ou a qualquer outro componente 
+deste medicamento (indicados na secção 6 deste folheto). </li>
+</ul>
+<p> Caso isto se aplique a si, informe imediatamente o seu médico. </p>
+<ul>
+<li>
+<p>Se estiver a tomar presentemente qualquer um dos seguintes medicamentos </p>
+</li>
+<li>
+<p>carbamazepina, oxcarbazepina, fenobarbital e fenitoína (medicamentos para tratar a 
+epilepsia e evitar convulsões) </p>
+</li>
+<li>
+<p>rifampicina e rifapentina (utilizados para tratar algumas infeções bacterianas, tais como 
+tuberculose) </p>
+</li>
+<li>
+<p>omeprazol, lansoprazol, rabeprazol, pantoprazol e esomeprazol (inibidores da bomba 
+de protões, que são medicamentos utilizados para evitar e tratar úlceras do estômago, 
+azia, doença do refluxo de ácido) </p>
+</li>
+<li>
+<p>dexametasona (um corticosteroide utilizado para tratar a inflamação e suprimir o sistema 
+imunológico) quando tomado por via oral ou injetável (exceto como tratamento de dose 
+única) </p>
+</li>
+<li>
+<p>produtos que contêm hipericão (Hypericum perforatum) (um remédio à base de plantas 
+medicinais utilizado para a depressão e ansiedade) </p>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Deve necessariamente permanecer sob vigilância do seu médico enquanto estiver a tomar Eviplera. </p>
+<ul>
+<li>
+<p>Este medicamento não é a cura para a infeção por VIH. Enquanto estiver a tomar Eviplera, 
+ainda pode desenvolver infeções ou outras doenças associadas à infeção por VIH. </p>
+</li>
+<li>
+<p>Se tiver tido uma doença nos rins, ou se as análises tiverem apresentado alterações relativas 
+aos seus rins, informe o seu médico. Eviplera pode afetar os seus rins. Antes de iniciar e durante 
+o tratamento, o seu médico pode pedir-lhe análises ao sangue para medir a função dos seus rins. 
+Eviplera não é recomendado se tiver uma doença nos rins moderada ou grave. </p>
+</li>
+</ul>
+<p>Eviplera não é geralmente tomado com outros medicamentos que possam prejudicar os seus rins 
+(ver Outros medicamentos e Eviplera). Caso isto seja inevitável, o seu médico irá verificar, uma 
+vez por semana, se os seus rins estão a funcionar corretamente. </p>
+<ul>
+<li>
+<p>Fale com o seu médico se tem osteoporose, tiver história de fraturas ósseas ou tiver problemas 
+com os ossos. </p>
+</li>
+<li>
+<p>Se tiver tido uma doença de fígado, incluindo hepatite, fale com o seu médico. Os doentes 
+com VIH que tenham uma doença de fígado (incluindo hepatite B ou C crónica), que estejam a 
+ser tratados com antirretrovirais, apresentam um risco superior ao normal de terem 
+complicações do fígado graves e potencialmente fatais. Se tiver hepatite B, o seu médico irá 
+considerar cuidadosamente o melhor regime de tratamento para si. Duas das substâncias ativas 
+de Eviplera (tenofovir disoproxil e emtricitabina) apresentam alguma atividade contra o vírus da 
+hepatite B. Se tiver tido uma doença de fígado ou hepatite B crónica, o seu médico poderá pedir-
+lhe análises ao sangue para monitorizar a função do fígado. </p>
+</li>
+</ul>
+<p>Se tem hepatite B, os problemas do fígado podem piorar depois de parar de tomar Eviplera. 
+É importante que não pare de tomar Eviplera sem falar antes com o seu médico: ver secção 3, 
+Não pare de tomar Eviplera. </p>
+<ul>
+<li>
+<p>Informe o seu médico imediatamente e pare de tomar Eviplera se desenvolver uma 
+erupção na pele com os seguintes sintomas: febre, bolhas, vermelhidão nos olhos e inchaço 
+da sua face, boca ou corpo. Isto pode tornar-se grave ou potencialmente fatal. </p>
+</li>
+<li>
+<p>Fale com o seu médico se tem mais de 65 anos de idade. Não foi estudado um número 
+suficiente de doentes com mais de 65 anos de idade. Se tem mais de 65 anos e lhe foi receitado 
+Eviplera, o seu médico irá vigiar o seu estado cuidadosamente. </p>
+</li>
+</ul>
+<p>Enquanto estiver a tomar Eviplera </p>
+<p>Uma vez que comece a tomar Eviplera, preste atenção a: </p>
+<ul>
+<li>
+<p>quaisquer sinais de inflamação ou infeção </p>
+</li>
+<li>
+<p>problemas nos ossos (manifestados como dor óssea persistente ou agravada e que, por vezes, 
+resulta em fraturas) podem também ocorrer devido a lesão nas células tubulares do rim (ver 
+secção 4, Efeitos indesejáveis possíveis). Informe o seu médico se tiver dor óssea ou fraturas. </p>
+</li>
+</ul>
+<p>Tenofovir disoproxil (um componente de Eviplera) também pode causar a perda de massa óssea. 
+De modo geral, os efeitos de tenofovir disoproxil na saúde óssea a longo-prazo e o risco de 
+fraturas em doentes adultos são incertos. </p>
+<p> Se observar quaisquer destes sintomas, informe o seu médico imediatamente. </p>
+<p>Crianças e adolescentes </p>
+<p>Não dê este medicamento a crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Eviplera </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou possa 
+vir a tomar quaisquer outros medicamentos. Estes incluem medicamentos e medicamentos à base 
+de plantas medicinais obtidos sem receita médica. </p>
+<p>Informe o seu médico se estiver a tomar qualquer um dos seguintes medicamentos: </p>
+<ul>
+<li>
+<p>Qualquer outro medicamento que contenha: </p>
+</li>
+<li>
+<p>emtricitabina </p>
+</li>
+<li>
+<p>rilpivirina </p>
+</li>
+<li>
+<p>tenofovir disoproxil </p>
+</li>
+<li>
+<p>tenofovir alafenamida </p>
+</li>
+<li>
+<p>quaisquer outros medicamentos antivirais que contenham lamivudina ou adefovir 
+dipivoxil </p>
+</li>
+</ul>
+<p>Eviplera pode interferir com outros medicamentos. Como resultado, as quantidades de Eviplera ou dos 
+outros medicamentos no seu sangue podem ser afetadas. Isto pode fazer com que os seus 
+medicamentos parem de funcionar apropriadamente ou piorar quaisquer efeitos indesejáveis. Em 
+alguns casos, o seu médico pode precisar de ajustar a sua dose ou verificar os níveis dos medicamentos 
+no seu sangue. </p>
+<ul>
+<li>
+<p>Medicamentos que podem lesar os seus rins, cujos exemplos incluem: </p>
+</li>
+<li>
+<p>aminoglicosidos (tais como estreptomicina, neomicina e gentamicina), vancomicina (para 
+infeções bacterianas) </p>
+</li>
+<li>
+<p>foscarneto, ganciclovir, cidofovir (para infeções virais) </p>
+</li>
+<li>
+<p>anfotericina B, pentamidina (para infeções por fungos) </p>
+</li>
+<li>
+<p>interleucina-2, também chamado aldesleucina (para tratar o cancro) </p>
+</li>
+<li>
+<p>anti-inflamatórios não esteroides (AINEs, para aliviar a dor óssea ou a dor muscular) </p>
+</li>
+<li>
+<p>Medicamentos que contêm didanosina (para infeção por VIH): Tomar Eviplera com outros 
+medicamentos antivirais que contêm didanosina pode aumentar os níveis de didanosina no seu 
+sangue e pode diminuir as contagens de células CD4+. Foram comunicadas, raramente, 
+inflamação do pâncreas e acidose láctica (excesso de ácido láctico no sangue), que 
+ocasionalmente causaram morte, quando foram tomados em conjunto medicamentos contendo 
+tenofovir disoproxil e didanosina. O seu médico irá considerar cuidadosamente se deverá tratá-
+lo com outros medicamentos utilizados para tratar a infeção por VIH (ver Outros medicamentos 
+utilizados para tratar a infeção por VIH). </p>
+</li>
+<li>
+<p>Outros medicamentos utilizados para tratar a infeção por VIH: Inibidores não nucleosídeos 
+da transcriptase reversa (NNRTIs). Eviplera contém um NNRTI (rilpivirina) e, portanto, 
+Eviplera não deve ser associado a outros medicamentos deste tipo. O seu médico irá discutir 
+sobre um medicamento diferente, se necessário. </p>
+</li>
+<li>
+<p>Rifabutina, um medicamento utilizado para tratar algumas infeções bacterianas. Este 
+medicamento pode diminuir a quantidade de rilpivirina (um componente de Eviplera) no seu 
+sangue. O seu médico pode precisar de lhe dar uma dose adicional de rilpivirina para tratar a sua 
+infeção por VIH (ver secção 3, Como tomar Eviplera). </p>
+</li>
+<li>
+<p>Antibióticos utilizados para tratar infeções bacterianas, incluindo tuberculose, contendo: </p>
+</li>
+<li>
+<p>claritromicina </p>
+</li>
+<li>
+<p>eritromicina 
+Estes medicamentos podem aumentar a quantidade de rilpivirina (um componente de Eviplera) 
+no seu sangue. O seu médico pode precisar de alterar a dose do antibiótico ou dar-lhe um 
+antibiótico diferente. </p>
+</li>
+<li>
+<p>Medicamentos para úlceras no estômago, azia ou refluxo ácido, tais como: </p>
+</li>
+<li>
+<p>antiácidos (hidróxido de alumínio/magnésio ou carbonato de cálcio) </p>
+</li>
+<li>
+<p>antagonistas H2 (famotidina, cimetidina, nizatidina ou ranitidina) 
+Estes medicamentos podem diminuir a quantidade de rilpivirina (um componente de Eviplera) 
+no seu sangue. Se estiver a tomar um destes medicamentos, o seu médico irá: dar-lhe um 
+medicamento diferente para úlceras do estômago, azia ou refluxo ácido, ou recomendar como e 
+quando deve tomar esse medicamento. </p>
+</li>
+<li>
+<p>Se estiver a tomar um antiácido (tal como medicamentos que contenham magnésio e 
+potássio), tome-o pelo menos 2 horas antes ou pelo menos 4 horas depois de Eviplera (ver 
+secção 3, Como tomar Eviplera). </p>
+</li>
+<li>
+<p>Se estiver a tomar um antagonista H2 (também utilizado para tratar os ácidos do estômago ou 
+o refluxo ácido), tome-o pelo menos 12 horas antes ou pelo menos 4 horas após Eviplera. Os 
+antagonistas H2 só podem ser tomados uma vez por dia se estiver a tomar Eviplera. Os 
+antagonistas H2 não devem ser tomados num esquema de duas vezes por dia. Fale com o seu 
+médico sobre um esquema alternativo (ver secção 3, Como tomar Eviplera). </p>
+</li>
+<li>
+<p>Metadona, um medicamento utilizado para tratar a dependência de opiáceos, já que o seu 
+médico pode necessitar de alterar a sua dose de metadona. </p>
+</li>
+<li>
+<p>Etexilato de dabigatrano, um medicamento utilizado para tratar condições cardíacas, já que o 
+seu médico pode precisar de vigiar os níveis deste medicamento no seu sangue. </p>
+</li>
+</ul>
+<p> Informe o seu médico se estiver a tomar qualquer um destes medicamentos. Não interrompa o 
+seu tratamento sem entrar primeiro em contacto com o seu médico. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<ul>
+<li>
+<p>Utilize um método contracetivo eficaz enquanto estiver a tomar Eviplera. </p>
+</li>
+<li>
+<p>Informe o seu médico imediatamente se engravidar ou se planeia engravidar. As mulheres 
+grávidas devem falar sobre o uso de Eviplera com o seu médico. O seu médico irá discutir os 
+benefícios e riscos potenciais para si e para o seu filho, de tomar Eviplera. </p>
+</li>
+<li>
+<p>Se tomou Eviplera durante a gravidez, o seu médico pode pedir-lhe para efetuar análises ao 
+sangue e outros testes de diagnóstico regulares para verificar o desenvolvimento da sua criança. 
+Nas crianças cujas mães tomaram NRTIs durante a gravidez, o benefício da menor possibilidade 
+de infeção pelo VIH é superior ao risco de sofrerem efeitos indesejáveis. </p>
+</li>
+</ul>
+<p>Não deverá amamentar durante o tratamento com Eviplera. Isto deve-se ao facto de as substâncias 
+ativas deste medicamento serem excretadas no leite humano. </p>
+<p>A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção pelo 
+VIH pode ser transmitida ao bebé através do leite materno. </p>
+<p>Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais 
+rapidamente possível. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Não conduza nem utilize máquinas se sentir cansaço, sonolência ou tonturas após tomar o seu 
+medicamento. </p>
+<p>Eviplera contém lactose, laca de alumínio amarelo sol (E110) e sódio </p>
+<ul>
+<li>
+<p>Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de 
+tomar este medicamento. </p>
+</li>
+<li>
+<p>Se tem alergia à laca de alumínio amarelo sol (E110), informe o seu médico. Eviplera 
+contém a laca de alumínio amarelo sol, também chamada “E110", a qual pode causar reações 
+alérgicas. </p>
+</li>
+<li>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar eviplera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar eviplera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>A dose habitual é de um comprimido por dia por via oral. O comprimido tem de ser tomado com 
+alimentos. Isto é importante para obter os níveis corretos de substância ativa no seu corpo. Uma 
+bebida nutritiva não substitui por si só os alimentos. </p>
+<p>Engula o comprimido inteiro com água. </p>
+<p>Não mastigue, esmague ou divida o comprimido - se fizer isto, pode afetar o modo pelo qual o 
+medicamento é libertado no seu corpo. </p>
+<p>Se o seu médico decidir interromper um dos componentes de Eviplera ou alterar a dose de Eviplera, 
+pode ser-lhe dado emtricitabina, rilpivirina e/ou tenofovir disoproxil em separado ou com outros 
+medicamentos para o tratamento da infeção por VIH. </p>
+<p>Se estiver a tomar um antiácido tal como medicamentos que contenham magnésio ou potássio. 
+Tome-o pelo menos 2 horas antes ou pelo menos 4 horas depois de Eviplera. </p>
+<p>Se estiver a tomar um antagonista H2 tal como famotidina, cimetidina, nizatidina ou ranitidina. 
+Tome-o pelo menos 12 horas antes ou pelo menos 4 horas depois de Eviplera. Os antagonistas H2 só 
+podem ser tomados uma vez por dia se estiver a tomar Eviplera. Os antagonistas H2 não devem ser 
+tomados duas vezes por dia. Fale com o seu médico sobre um esquema alternativo. </p>
+<p>Se estiver a tomar rifabutina. O seu médico pode precisar de lhe dar uma dose adicional de 
+rilpivirina. Tome o comprimido de rilpivirina na mesma altura em que toma Eviplera. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Se tomar mais Eviplera do que deveria </p>
+<p>Se acidentalmente tomar mais do que a dose recomendada de Eviplera, pode estar em maior risco de 
+ter efeitos indesejáveis possíveis com este medicamento (ver secção 4, Efeitos indesejáveis possíveis). </p>
+<p>Entre imediatamente em contacto com o seu médico ou aconselhe-se junto do serviço de urgência mais 
+próximo. Mantenha o frasco de comprimidos consigo para que facilmente possa descrever o que 
+tomou. </p>
+<p>Caso se tenha esquecido de tomar Eviplera </p>
+<p>É importante que não falhe nenhuma dose de Eviplera. </p>
+<p>Caso se tenha esquecido de tomar uma dose: </p>
+<ul>
+<li>
+<p>Caso se aperceba no período de 12 horas após a hora em que habitualmente toma Eviplera, 
+deve necessariamente tomar o comprimido o mais rapidamente possível. Tome sempre o 
+comprimido com alimentos. Depois tome a sua dose seguinte como é habitual. </p>
+</li>
+<li>
+<p>Caso se aperceba depois de 12 horas ou mais da hora em que habitualmente toma Eviplera, 
+não tome a dose que falhou. Espere e tome a dose seguinte com alimentos na hora habitual. </p>
+</li>
+</ul>
+<p>Se vomitar em menos de 4 horas após a toma de Eviplera, tome outro comprimido com alimentos. 
+Se vomitar mais de 4 horas após a toma de Eviplera, não necessita de tomar outro comprimido até 
+ao seu próximo comprimido de acordo com o esquema habitual. </p>
+<p>Não pare de tomar Eviplera </p>
+<p>Não pare de tomar Eviplera sem falar com o seu médico. A interrupção do tratamento com 
+Eviplera pode afetar gravemente a sua resposta a um tratamento futuro. Se o tratamento com Eviplera 
+for interrompido por qualquer razão, fale com o seu médico antes de voltar a tomar os comprimidos de 
+Eviplera. O seu médico pode considerar dar-lhe os componentes de Eviplera separadamente se tiver 
+problemas ou se precisar de um ajuste da dose. </p>
+<p>Quando a sua embalagem de Eviplera estiver a acabar, obtenha mais junto do seu médico ou 
+farmacêutico. É muito importante que o faça porque a quantidade de vírus pode começar a aumentar se 
+o medicamento for interrompido, mesmo por um curto período de tempo. O vírus pode então tornar-se 
+mais difícil de tratar. </p>
+<p>Se tiver infeção por VIH e hepatite B, é particularmente importante não parar o tratamento com 
+Eviplera sem antes falar com o seu médico. Alguns doentes apresentaram análises ao sangue ou 
+sintomas indicativos de que a sua hepatite tinha agravado após interrupção do tratamento com 
+emtricitabina ou tenofovir disoproxil (duas das três substâncias ativas de Eviplera). Se o tratamento 
+com Eviplera for interrompido, o seu médico pode recomendar-lhe reiniciar o tratamento da 
+hepatite B. Pode necessitar de análises ao sangue para verificar a função do seu fígado durante 4 meses 
+após interrupção do tratamento. Em alguns doentes com doença hepática (do fígado) avançada ou 
+cirrose, a interrupção do tratamento não é recomendada, uma vez que pode levar a um agravamento da 
+sua hepatite o que pode pôr em risco a sua vida. </p>
+<p> Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco habituais 
+após parar o tratamento, particularmente sintomas que associaria à sua hepatite B. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis possíveis: informe o seu médico imediatamente </p>
+<ul>
+<li>
+<p>Acidose láctica (excesso de ácido láctico no sangue) é um efeito secundário raro, mas 
+potencialmente fatal, de alguns medicamentos para o tratamento do VIH. A acidose láctica 
+ocorre mais frequentemente em mulheres, particularmente se elas apresentam excesso de peso, e 
+em pessoas com doença do fígado. Os seguintes podem ser sinais de acidose láctica: </p>
+</li>
+<li>
+<p>Respiração profunda, rápida </p>
+</li>
+<li>
+<p>Cansaço ou sonolência </p>
+</li>
+<li>
+<p>Sentir-se enjoado (náuseas), estar enjoado (vómitos) </p>
+</li>
+<li>
+<p>Dor no estômago 
+ Caso pense que pode ter acidose láctica, informe imediatamente o seu médico. </p>
+</li>
+</ul>
+<p>Quaisquer sinais de inflamação ou infeção. Em alguns doentes com infeção por VIH avançada 
+(SIDA) e antecedentes de infeções oportunistas (infeções que ocorrem em pessoas com um sistema 
+imunológico fraco), sinais e sintomas de inflamação de infeções prévias podem ocorrer logo após 
+iniciar o tratamento contra o VIH. Pensa-se que estes sintomas são devidos a uma melhoria na resposta 
+imunológica do corpo, permitindo que o corpo lute contra infeções que podem estar presentes sem 
+sintomas óbvios. </p>
+<p>Adicionalmente às infeções oportunistas, as doenças autoimunes (uma condição que ocorre quando o 
+sistema imunitário ataca tecidos corporais saudáveis) também podem ocorrer depois de começar a 
+tomar os medicamentos para o tratamento da sua infeção pelo VIH. As doenças autoimunes podem 
+ocorrer muitos meses após o início do tratamento. Se notar quaisquer sintomas de infeção ou outros 
+sintomas como fraqueza muscular, fraqueza a começar nas mãos e nos pés e dirigindo-se em direção 
+ao tronco, palpitações, tremores ou hiperatividade, informe o seu médico imediatamente para procurar 
+o tratamento necessário. 
+ Se observar quaisquer sintomas de inflamação ou infeção, informe o seu médico 
+imediatamente. </p>
+<p>Efeitos indesejáveis muito frequentes 
+(podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Diarreia, estar enjoado (vómitos), sentir-se enjoado (náuseas) </p>
+</li>
+<li>
+<p>Dificuldade em dormir (insónia) </p>
+</li>
+<li>
+<p>Tonturas, dor de cabeça </p>
+</li>
+<li>
+<p>Erupção na pele </p>
+</li>
+<li>
+<p>Sensação de fraqueza </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>Diminuição dos níveis de fosfato no sangue </p>
+</li>
+<li>
+<p>Aumento dos níveis de creatina cinase no sangue, que pode causar dor e fraqueza muscular </p>
+</li>
+<li>
+<p>Aumento dos níveis de colesterol e/ou da amilase pancreática no sangue </p>
+</li>
+<li>
+<p>Aumento dos níveis de enzimas hepáticas no sangue 
+ Se qualquer um destes efeitos indesejáveis se agravar, informe o seu médico. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes 
+(podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Diminuição do apetite </p>
+</li>
+<li>
+<p>Depressão e humor deprimido </p>
+</li>
+<li>
+<p>Cansaço, sentir-se sonolento (sonolência) </p>
+</li>
+<li>
+<p>Dor, dor ou desconforto no estômago, enfartamento, boca seca </p>
+</li>
+<li>
+<p>Sonhos anormais, perturbações do sono </p>
+</li>
+<li>
+<p>Problemas na digestão que resultam em desconforto após as refeições, libertação de gases com 
+mais frequência (flatulência) </p>
+</li>
+<li>
+<p>Erupções na pele (incluindo manchas vermelhas ou pústulas algumas vezes com bolhas e 
+inchaço da pele), que podem ser reações alérgicas, comichão, alterações na cor da pele 
+incluindo escurecimento da pele em manchas </p>
+</li>
+<li>
+<p>Outras reações alérgicas, tais como dificuldade em respirar, inchaço do corpo ou sentir-se 
+confuso </p>
+</li>
+<li>
+<p>Perda de massa óssea </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>Diminuição do número de glóbulos brancos (uma diminuição dos seus glóbulos brancos pode 
+torná-lo mais sujeito a infeções) </p>
+</li>
+<li>
+<p>Baixa contagem de plaquetas (um tipo de célula sanguínea envolvida na coagulação sanguínea) </p>
+</li>
+<li>
+<p>Diminuição da hemoglobina no sangue (baixa contagem de glóbulos vermelhos) </p>
+</li>
+<li>
+<p>Aumento dos ácidos gordos (triglicéridos), de bilirrubina ou do açúcar no sangue </p>
+</li>
+<li>
+<p>Alterações no pâncreas 
+ Se qualquer um destes efeitos indesejáveis se agravar, informe o seu médico. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes 
+(podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Anemia (baixa contagem de glóbulos vermelhos). </p>
+</li>
+<li>
+<p>Dor no abdómen (barriga) causada por inflamação do pâncreas </p>
+</li>
+<li>
+<p>Perda de força muscular, dor ou fraqueza muscular </p>
+</li>
+<li>
+<p>Inchaço da face, lábios, língua ou garganta </p>
+</li>
+<li>
+<p>Sinais ou sintomas de inflamação ou infeção </p>
+</li>
+<li>
+<p>Reações na pele graves incluindo erupção na pele acompanhada de febre, inchaço e problemas 
+do fígado </p>
+</li>
+<li>
+<p>Lesão nas células tubulares dos rins </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>Diminuição do potássio no sangue </p>
+</li>
+<li>
+<p>Aumento da creatinina no sangue </p>
+</li>
+<li>
+<p>Alterações na urina 
+ Se qualquer um destes efeitos indesejáveis se agravar, informe o seu médico. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis raros 
+(podem afetar até 1 em 1.000 pessoas) </p>
+<ul>
+<li>
+<p>Acidose láctica (ver Efeitos indesejáveis possíveis: informe o seu médico imediatamente). </p>
+</li>
+<li>
+<p>Dor nas costas causadas por problemas de rins, incluindo insuficiência renal. O seu médico pode 
+fazer-lhe análises ao sangue para verificar se os seus rins estão a funcionar corretamente. </p>
+</li>
+<li>
+<p>Fígado gordo </p>
+</li>
+<li>
+<p>Pele ou olhos de cor amarelada, comichão ou dor no abdómen (barriga) causadas por inflamação 
+do fígado </p>
+</li>
+<li>
+<p>Inflamação do rim, aumento da quantidade de urina e sentir sede </p>
+</li>
+<li>
+<p>Perda de resistência dos ossos (com dor nos ossos e por vezes resultando em fraturas) </p>
+</li>
+</ul>
+<p>Pode ocorrer perda da força muscular, perda de resistência dos ossos (com dores nos ossos e por vezes 
+resultando em fraturas), dor muscular, fraqueza muscular e diminuição do potássio ou fosfato no 
+sangue devido a lesão nas células tubulares dos rins. </p>
+<p> Se qualquer um destes efeitos indesejáveis se agravar, informe o seu médico. </p>
+<p>Outros efeitos que podem ser observados durante o tratamento para o VIH </p>
+<p>A frequência dos efeitos indesejáveis seguintes é desconhecida (a frequência não pode ser calculada a 
+partir dos dados disponíveis). </p>
+<ul>
+<li>
+<p>Problemas nos ossos. Alguns doentes medicados com associações de medicamentos 
+antirretrovirais tais como Eviplera podem desenvolver uma doença óssea chamada osteonecrose 
+(morte do tecido ósseo causada pela perda da irrigação de sangue no osso). Tomar este tipo de 
+medicamentos durante um período prolongado, tomar corticosteroides, consumir bebidas 
+alcoólicas, ter sistema imunológico muito fraco e ter excesso de peso, podem ser alguns dos 
+muitos fatores de risco para o desenvolvimento desta doença. Sinais de osteonecrose são: </p>
+</li>
+<li>
+<p>Rigidez das articulações </p>
+</li>
+<li>
+<p>Dores nas articulações (especialmente na anca, joelho e ombro) </p>
+</li>
+<li>
+<p>Dificuldade em se movimentar 
+ Se observar qualquer um destes sintomas, informe o seu médico. </p>
+</li>
+</ul>
+<p>Durante a terapêutica para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no 
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos 
+lípidos no sangue, por vezes aos próprios medicamentos para o VIH. O seu médico irá realizar testes 
+para determinar estas alterações. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar eviplera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar eviplera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior, 
+após {VAL.}. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar na embalagem de origem para proteger da humidade. Manter o frasco bem fechado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Eviplera </p>
+<ul>
+<li>
+<p>As substâncias ativas são emtricitabina, rilpivirina e tenofovir disoproxil. Cada comprimido 
+revestido por película de Eviplera contém 200 mg de emtricitabina, 25 mg de rilpivirina (como 
+cloridrato) e 245 mg de tenofovir disoproxil (como fumarato). </p>
+</li>
+<li>
+<p>Os outros componentes são: 
+Núcleo do comprimido: 
+Celulose microcristalina, lactose mono-hidratada, povidona, amido de milho pré-gelatinizado, 
+polissorbato 20, croscarmelose sódica e estearato de magnésio. </p>
+</li>
+</ul>
+<p>Película de revestimento: 
+Hipromelose, laca de alumínio indigotina, lactose mono-hidratada, polietilenoglicol, óxido de 
+ferro vermelho, laca de alumínio amarelo sol (E110), dióxido de titânio e triacetina. </p>
+<p>Qual o aspeto de Eviplera e conteúdo da embalagem </p>
+<p>Eviplera é um comprimido revestido por película de cor rosa-púrpura, em forma de cápsula, impresso 
+num lado com “GSI" e liso no outro lado. Eviplera é apresentado em frascos de 30 comprimidos e em 
+embalagens de 3 frascos, cada um contendo 30 comprimidos. Cada frasco contém um exsicante de 
+sílica gel que deve ser mantido no frasco para ajudar a proteger os seus comprimidos. O exsicante de 
+sílica gel está contido numa saqueta ou recipiente separado e não deve ser engolido. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrlanda </p>
+<p>Fabricante 
+Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél : + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: +353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Este folheto foi revisto pela última vez em. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1245,6 +2065,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-88027b29b9aee30b33b41e1a72006b30"
 * entry[0].resource = composition-da-88027b29b9aee30b33b41e1a72006b30
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp88027b29b9aee30b33b41e1a72006b30"
+* entry[=].resource = mp88027b29b9aee30b33b41e1a72006b30
+                            
+                    
+Instance: bundlepackageleaflet-pt-88027b29b9aee30b33b41e1a72006b30
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for eviplera Package Leaflet for language pt"
+Description: "ePI document Bundle for eviplera Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-88027b29b9aee30b33b41e1a72006b30"
+* entry[0].resource = composition-pt-88027b29b9aee30b33b41e1a72006b30
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp88027b29b9aee30b33b41e1a72006b30"
@@ -1346,6 +2188,18 @@ RuleSet: 88027b29b9aee30b33b41e1a72006b30ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-88027b29b9aee30b33b41e1a72006b30) // eviplera pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

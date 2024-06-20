@@ -1203,6 +1203,790 @@ Derefter kan du slippe huden. Tryk ned på indsprøjtningsstedet med en tør, st
 
 
 
+Instance: composition-pt-6f8fb6a1c6179a9554b85e75fc6f0388
+InstanceOf: CompositionUvEpi
+Title: "Composition for binocrit Package Leaflet"
+Description:  "Composition for binocrit Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6f8fb6a1c6179a9554b85e75fc6f0388)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - binocrit"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Binocrit e para que é utilizado
+2. O que precisa de saber antes de utilizar Binocrit
+3. Como utilizar Binocrit
+4. Efeitos indesejáveis possíveis
+5. Como conservar Binocrit
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é binocrit e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é binocrit e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Binocrit contém a substância ativa epoetina alfa, uma proteína que estimula a medula óssea para 
+produzir mais glóbulos vermelhos que contêm hemoglobina (uma substância que transporta oxigénio). 
+Epoetina alfa é uma cópia da proteína humana eritropoietina e atua da mesma forma.
+Binocrit é utilizado para tratar a anemia sintomática causada por doença dos rins:</p>
+<ul>
+<li>
+<p>em crianças em hemodiálise</p>
+</li>
+<li>
+<p>em adultos em hemodiálise ou diálise peritoneal</p>
+</li>
+<li>
+<p>em adultos com anemia grave ainda não submetidos a diálise
+80
+Se tem uma doença renal, pode ter poucos glóbulos vermelhos se os seus rins não produzirem 
+eritropoietina suficiente (necessária para a produção de glóbulos vermelhos). Binocrit é prescrito para 
+estimular a sua medula óssea a produzir mais glóbulos vermelhos.
+Binocrit é utilizado para tratar a anemia em adultos a receber quimioterapia para tratamento 
+de tumores sólidos, linfoma maligno ou mieloma múltiplo (cancro da medula óssea) que possam ter 
+necessidade de uma transfusão de sangue. Binocrit pode diminuir a necessidade de transfusões de 
+sangue nestes doentes.
+Binocrit é utilizado em adultos com anemia moderada que doam algum do seu sangue antes da 
+cirurgia para que este lhes seja administrado novamente durante ou após a operação. Como Binocrit 
+estimula a produção de glóbulos vermelhos, os médicos podem colher mais sangue destas pessoas.
+Binocrit é utilizado em adultos com anemia moderada que vão ser submetidos a grande cirurgia 
+ortopédica (por exemplo, operações de substituição da anca ou do joelho), para reduzir a necessidade 
+potencial de transfusões sanguíneas.
+Binocrit é utilizado para tratar a anemia em adultos com uma afeção da medula óssea que 
+provoca uma perturbação grave na criação de células sanguíneas (síndrome mielodisplásica). 
+Binocrit pode reduzir a necessidade de uma transfusão de sangue.</p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar binocrit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar binocrit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Binocrit</p>
+<ul>
+<li>
+<p>se tem alergia à epoetina alfa ou a qualquer outro componente deste medicamento (indicados 
+na secção 6).</p>
+</li>
+<li>
+<p>se lhe tiver sido diagnosticada Aplasia eritrocítica (a medula óssea não pode produzir 
+glóbulos vermelhos suficientes) após o tratamento prévio com qualquer medicamento que 
+estimule a produção de glóbulos vermelhos (incluindo Binocrit), ver secção 4. * se tiver tensão arterial elevada não adequadamente controlada com medicamentos.</p>
+</li>
+<li>
+<p>para estimular a produção de glóbulos vermelhos (para que os médicos lhe possam tirar mais 
+sangue) se não puder receber transfusões com o seu próprio sangue durante ou após a 
+cirurgia.</p>
+</li>
+<li>
+<p>se vai ser submetido a grande cirurgia ortopédica elective (como cirurgia da anca ou do 
+joelho) e:</p>
+</li>
+<li>
+<p>tiver uma doença cardíaca grave</p>
+</li>
+<li>
+<p>tiver problemas graves nas veias e nas artérias</p>
+</li>
+<li>
+<p>teve recentemente um ataque cardíaco ou trombose</p>
+</li>
+<li>
+<p>não pode tomar medicamentos para tornar o sangue mais fluido
+Binocrit pode não ser adequado para si. Fale com o seu médico. Enquanto estão a utilizar 
+Binocrit, algumas pessoas necessitam de medicamentos para reduzirem o risco de coágulos 
+sanguíneos. Se não pode tomar medicamentos que evitam a coagulação sanguínea, não 
+deve tomar Binocrit.
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Binocrit.
+Binocrit e outros medicamentos que estimulam a produção de glóbulos vermelhos podem 
+aumentar o risco de desenvolvimento de coágulos de sangue em todos os doentes. Este risco pode 
+ser mais elevado se tiver outros fatores de risco para desenvolver coágulos de sangue (por exemplo, 
+se tiver tido um coágulo de sangue no passado ou se tiver excesso de peso, tiver diabetes, tiver uma 
+doença do coração ou se estiver acamado durante um período prolongado devido a uma cirurgia ou 
+doença). Informe o seu médico sobre qualquer um destes problemas. O seu médico dir-lhe-á se 
+Binocrit é adequado para si.
+81
+É importante informar o seu médico se alguma das seguintes situações se aplicar a si. É possível 
+que ainda possa utilizar Binocrit, mas consulte primeiro o seu médico.
+Se sabe que sofre ou sofreu de:</p>
+</li>
+<li>
+<p>tensão arterial elevada;</p>
+</li>
+<li>
+<p>ataques epiléticos ou convulsões;</p>
+</li>
+<li>
+<p>doença hepática;</p>
+</li>
+<li>
+<p>anemia de outras causas;</p>
+</li>
+<li>
+<p>porfiria (uma doença rara do sangue).
+Se é um doente com insuficiência renal crónica e, em particular, se não responde de forma adequada 
+ao Binocrit, o seu médico verificará a sua dose de Binocrit uma vez que o aumento repetido da sua 
+dose de Binocrit, se não estiver a responder ao tratamento, poderá aumentar o risco de ter problemas 
+de coração ou dos vasos sanguíneos e pode aumentar o risco de enfarte do miocárdio, acidente 
+vascular cerebral e morte.
+Se é doente oncológico esteja ciente que os medicamentos que estimulam a produção de glóbulos 
+vermelhos (como Binocrit) podem atuar como um fator de crescimento e portanto, em teoria, podem 
+afetar a progressão do seu cancro.
+Dependendo da sua situação individual, pode ser preferível uma transfusão de sangue. Discuta 
+este assunto com o seu médico.
+Se é doente oncológico, esteja ciente de que a utilização de Binocrit pode estar associada a uma 
+sobrevivência reduzida e a uma taxa de morte superior em doentes com cancro da cabeça e pescoço e 
+cancro da mama metastático a receberem quimioterapia.
+Foram notificadas reações cutâneas graves, incluindo síndrome de Stevens-Johnson (SSJ) e necrólise 
+epidérmica tóxica (NET), em associação com tratamento com epoetina.
+SSJ/NET pode aparecer inicialmente sob a forma de manchas avermelhadas tipo alvo ou manchas 
+circulares, muitas vezes com bolhas centrais no tronco. Também podem ocorrer úlceras na boca, 
+garganta, nariz, órgãos genitais e olhos (olhos vermelhos e inchados). Estas erupções cutâneas graves 
+são muitas vezes precedidas de febre e/ou sintomas de tipo gripal. As erupções cutâneas podem 
+evoluir para uma descamação generalizada da pele e complicações potencialmente fatais.
+Se desenvolver uma erupção cutânea grave ou outro destes sintomas cutâneos, pare de tomar Binocrit 
+e contacte o seu médico ou procure assistência médica imediatamente.
+Tome especial cuidado com outros medicamentos que estimulam a produção de glóbulos 
+vermelhos:
+Binocrit pertence a um grupo de medicamentos que estimulam a produção de glóbulos vermelhos tal 
+como a proteína humana eritropoietina o faz. O seu profissional de saúde registará sempre o 
+medicamento exato que está a utilizar. Se, durante o seu tratamento, lhe for administrado outro 
+medicamento deste grupo que não seja Binocrit, fale com o seu médico ou farmacêutico antes de o 
+utilizar.
+Outros medicamentos e Binocrit
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos.
+Se é um doente com hepatite C e recebe interferão e ribavirina
+Deve discutir este assunto com o seu médico uma vez que a combinação de epoetina alfa com 
+interferão e ribavirina conduziu, em casos raros, a uma perda do efeito e ao desenvolvimento de uma 
+82
+doença chamada aplasia eritrocítica (AEP), uma forma grave de anemia. Binocrit não está aprovado no 
+tratamento da anemia associada a hepatite C.
+Se estiver a tomar um medicamento chamado ciclosporina (utilizado, p. ex., após transplantes 
+renais), o seu médico poderá pedir análises sanguíneas para verificar o nível de ciclosporina enquanto 
+estiver a tomar Binocrit.
+Os suplementos de ferro e outros estimulantes sanguíneos podem aumentar a eficácia de Binocrit. 
+O seu médico decidirá se os deve tomar.
+Se consultar um médico de um hospital ou de uma clínica ou o médico de família, informe-os de 
+que está a fazer o tratamento com Binocrit. Este pode afetar outros tratamentos ou os resultados de 
+análises.
+Gravidez, amamentação e fertilidade
+É importante informar o seu médico se alguma das seguintes situações se aplicar a si. É possível 
+que ainda possa utilizar Binocrit, mas consulte primeiro o seu médico:</p>
+</li>
+<li>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico ou farmacêutico antes de tomar este medicamento.
+Não existem dados disponíveis sobre os efeitos de Binocrit na fertilidade.
+Binocrit contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente 
+“isento de sódio".</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar binocrit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar binocrit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se 
+tiver dúvidas.
+O seu médico realizou análises sanguíneas e decidiu que você necessita de Binocrit.
+Binocrit pode ser administrado por injeção:</p>
+<ul>
+<li>
+<p>numa veia ou num tubo que entra numa veia (via intravenosa)</p>
+</li>
+<li>
+<p>ou sob a pele (via subcutânea).
+O seu médico decidirá como Binocrit será injetado. Normalmente, as injeções ser-lhe-ão dadas por um 
+médico, um enfermeiro ou outro profissional de saúde. Algumas pessoas, dependendo do motivo 
+porque necessitam do tratamento com Binocrit, podem posteriormente aprender como injetar-se a si 
+próprias sob a pele: ver Instruções sobre como injetar Binocrit você mesmo no fim deste folheto 
+informativo.
+Binocrit não deve ser utilizado:</p>
+</li>
+<li>
+<p>após o prazo de validade impresso no rótulo e na embalagem exterior</p>
+</li>
+<li>
+<p>se sabe ou pensa que pode ter sido congelado acidentalmente ou </p>
+</li>
+<li>
+<p>se houve uma falha no frigorífico.
+A dose de Binocrit que recebe baseia-se no seu peso corporal em quilogramas. A causa da sua anemia 
+também é um fator na decisão do seu médico relativamente à dose correta.
+O seu médico controlará a sua tensão arterial regularmente enquanto estiver a utilizar Binocrit.
+83
+Pessoas com doença renal</p>
+</li>
+<li>
+<p>O seu médico irá manter o seu nível de hemoglobina entre 10 e 12 g/dl uma vez que um nível 
+elevado de hemoglobina pode aumentar o risco de coágulos sanguíneos e morte. Nas crianças, 
+o nível de hemoglobina deve ser mantido entre 9,5 e 11 g/dl.</p>
+</li>
+<li>
+<p>A dose inicial habitual de Binocrit para adultos e crianças é de 50 Unidades Internacionais (UI) 
+por quilograma (/kg) de peso corporal dada três vezes por semana. Em doentes em diálise 
+peritoneal, Binocrit pode ser administrado duas vezes por semana.</p>
+</li>
+<li>
+<p>Em adultos e crianças, Binocrit é administrado na forma de injeção quer numa veia (via 
+intravenosa) ou num tubo que entra numa veia. Quando este acesso (através de uma veia ou 
+tubo) não está prontamente disponível, o seu médico pode decidir que Binocrit deve ser injetado 
+sob a pele (via subcutânea). Esta situação inclui doentes a fazerem diálise e doentes ainda não 
+submetidos a diálise.</p>
+</li>
+<li>
+<p>O seu médico pedirá análises ao sangue regulares para ver como a sua anemia está a responder e 
+poderá ajustar a dose, normalmente com uma frequência não superior a cada quatro semanas. 
+Deve ser evitado um aumento da hemoglobina superior a 2 g/dl durante um período de quatro 
+semanas.</p>
+</li>
+<li>
+<p>Logo que a anemia tiver sido corrigida, o seu médico continuará a controlar regularmente o seu 
+sangue. A sua dose de Binocrit e a frequência de administração podem ser novamente ajustadas 
+para manter a sua resposta ao tratamento. O seu médico utilizará a dose eficaz mais baixa para 
+controlar os sintomas da sua anemia.</p>
+</li>
+<li>
+<p>Se não responder de forma adequada ao Binocrit, o seu médico verificará a sua dose e informá-
+lo-á se precisa de mudar a sua dose de Binocrit.</p>
+</li>
+<li>
+<p>Se tiver um intervalo posológico mais alargado (superior a uma vez por semana) de Binocrit, 
+pode não manter níveis adequados de hemoglobina e pode necessitar de um aumento da dose ou 
+frequência de administração de Binocrit.</p>
+</li>
+<li>
+<p>Podem ser-lhe dados suplementos de ferro antes e durante o tratamento com Binocrit para o 
+tornar mais eficaz.</p>
+</li>
+<li>
+<p>Se estiver a fazer tratamento de diálise quando iniciar o tratamento com Binocrit, o seu regime 
+de diálise pode necessitar de ser ajustado, ficando essa decisão a cargo do seu médico.
+Adultos submetidos a quimioterapia </p>
+</li>
+<li>
+<p>O seu médico pode iniciar o tratamento com Binocrit se a sua hemoglobina for de 10 g/dl ou 
+inferior.</p>
+</li>
+<li>
+<p>O seu médico manterá o seu nível de hemoglobina entre 10 e 12 g/dl uma vez que um nível 
+elevado de hemoglobina pode aumentar o risco de coágulos de sangue ou de morte.</p>
+</li>
+<li>
+<p>A dose inicial é de 150 UI por quilograma de peso corporal três vezes por semana ou de 450 UI 
+por quilograma de peso corporal uma vez por semana.</p>
+</li>
+<li>
+<p>Binocrit é administrado através de injeção sob a pele. </p>
+</li>
+<li>
+<p>O seu médico pedirá análises ao sangue e poderá ajustar a dose, dependendo da forma como a 
+sua anemia responde ao tratamento com Binocrit. </p>
+</li>
+<li>
+<p>Poderão ser-lhe dados suplementos de ferro antes e durante o tratamento com Binocrit para o 
+tornar mais eficaz. </p>
+</li>
+<li>
+<p>Normalmente, continuará com o tratamento com Binocrit durante um mês após o final da 
+quimioterapia.
+Adultos dadores de sangue</p>
+</li>
+<li>
+<p>A dose habitual é de 600 UI por quilograma de peso corporal duas vezes por semana.</p>
+</li>
+<li>
+<p>Binocrit é administrado por injeção numa veia imediatamente depois de ter doado sangue, 
+durante 3 semanas antes da cirurgia. </p>
+</li>
+<li>
+<p>Poderão ser-lhe administrados suplementos de ferro antes e durante o tratamento com Binocrit 
+para o tornar mais eficaz.
+84
+Adultos com grande cirurgia ortopédica programada</p>
+</li>
+<li>
+<p>A dose recomendada é de 600 UI por quilograma de peso corporal uma vez por semana. </p>
+</li>
+<li>
+<p>Binocrit é dado através de injeção sob a pele todas as semanas durante três semanas antes da 
+cirurgia e no dia da cirurgia.</p>
+</li>
+<li>
+<p>Se houver necessidade médica de reduzir o tempo antes da sua operação, ser-lhe-á administrada 
+uma dose diária de 300 UI/kg durante até dez dias antes da cirurgia, no dia da cirurgia e durante 
+quatro dias imediatamente a seguir.</p>
+</li>
+<li>
+<p>Se as análises ao sangue demonstrarem que a sua hemoglobina está demasiado alta antes da 
+operação, o tratamento será interrompido.</p>
+</li>
+<li>
+<p>Poderão ser-lhe administrados suplementos de ferro antes e durante o tratamento com Binocrit 
+para o tornar mais eficaz. 
+Adultos com síndrome mielodisplásica</p>
+</li>
+<li>
+<p>O seu médico pode iniciar o tratamento com Binocrit se a sua hemoglobina for de 10 g/dl ou 
+inferior. O tratamento tem por objetivo manter o nível de hemoglobina entre 10 e 12 g/dl, uma 
+vez que um nível de hemoglobina superior poderá aumentar o risco de coágulos sanguíneos e 
+morte.</p>
+</li>
+<li>
+<p>Binocrit é administrado através de injeção sob a pele.</p>
+</li>
+<li>
+<p>A dose inicial é de 450 UI por quilograma de peso corporal, uma vez por semana.</p>
+</li>
+<li>
+<p>O seu médico pedirá análises ao sangue e poderá ajustar a dose, dependendo da forma como a 
+sua anemia responde ao tratamento com Binocrit.
+Instruções sobre como injetar Binocrit você mesmo
+Quando o tratamento é iniciado, Binocrit é injetado normalmente por um médico ou um enfermeiro. 
+Mais tarde, o seu médico poderá sugerir que você ou o seu prestador de cuidados aprendam a injetar 
+Binocrit sob a pele (por via subcutânea).</p>
+</li>
+<li>
+<p>Não tente injetar-se a si próprio a menos que tenha recebido formação para o fazer por 
+um médico ou enfermeiro.</p>
+</li>
+<li>
+<p>Utilize sempre Binocrit exatamente de acordo com as instruções do seu médico ou 
+enfermeiro.</p>
+</li>
+<li>
+<p>Certifique-se de que injeta apenas a quantidade de líquido de acordo com as instruções do 
+seu médico ou enfermeiro.</p>
+</li>
+<li>
+<p>Utilize Binocrit apenas se tiver sido conservado corretamente, ver secção 5, Como 
+conservar Binocrit.</p>
+</li>
+<li>
+<p>Antes de utilizar, deixe a seringa de Binocrit repousar até chegar à temperatura ambiente. 
+Isto demora normalmente entre 15 a 30 minutos. Utilize a seringa no prazo de 3 dias 
+depois de a retirar do frigorífico.
+Utilize apenas uma dose de Binocrit de cada seringa.
+Se Binocrit for injetado sob a pele (subcutaneamente), a quantidade injetada não é normalmente 
+superior a um mililitro (1 ml) numa única injeção.
+Binocrit é administrado isoladamente e não misturado com outros líquidos para injetáveis.
+Não agite as seringas de Binocrit. A agitação vigorosa prolongada pode danificar o medicamento. Se 
+o medicamento tiver sido agitado vigorosamente, não o utilize. 
+As instruções sobre como injetar Binocrit você mesmo encontram-se no fim do folheto.
+85
+Se utilizar mais Binocrit do que deveria
+Informe o seu médico ou enfermeiro imediatamente se acha que foi injetado demasiado Binocrit. Os 
+efeitos secundários de uma sobredosagem de Binocrit são improváveis.
+Caso se tenha esquecido de utilizar Binocrit
+Faça a injeção seguinte logo que se lembrar. Se faltar um dia para a injeção seguinte, esqueça a injeção 
+omitida e prossiga com o seu plano normal. Não tome uma dose a dobrar para compensar uma dose 
+que se esqueceu de tomar.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, enfermeiro ou 
+farmacêutico.</p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos secundários, embora estes não se 
+manifestem em todas as pessoas.
+Informe imediatamente o seu médico ou enfermeiro se detetar qualquer um dos efeitos 
+mencionados nesta lista.
+Foram notificadas erupções cutâneas graves, incluindo síndrome de Stevens-Johnson e necrólise 
+epidérmica tóxica, em associação com tratamento à epoetina. Estas podem aparecer sob a forma de 
+manchas avermelhadas tipo alvo ou máculas circulares, muitas vezes com bolhas centrais no tronco, 
+exfoliação da pele, úlceras na boca, garganta, nariz, órgãos genitais e olhos, e podem ser precedidas de 
+febre e sintomas de tipo gripal. Pare de utilizar Binocrit se desenvolver estes sintomas e contacte o seu 
+médico ou procure assistência médica imediatamente. Ver também a secção 2. Efeitos indesejáveis muito frequentes
+Estes podem afetar mais de 1 em 10 pessoas.</p>
+<ul>
+<li>
+<p>Diarreia</p>
+</li>
+<li>
+<p>Sensação de enjoo</p>
+</li>
+<li>
+<p>Vómitos</p>
+</li>
+<li>
+<p>Febre</p>
+</li>
+<li>
+<p>Congestão do trato respiratório, como nariz entupido e dores de garganta, foi comunicada em 
+doentes com doença renal ainda não submetidos a diálise.
+Efeitos indesejáveis frequentes
+Estes podem afetar até 1 em 10 pessoas.</p>
+</li>
+<li>
+<p>Aumento da tensão arterial. Dores de cabeça do tipo enxaqueca que aparecem subitamente, 
+sensação de confusão ou ataques convulsivos podem ser sinais de um aumento súbito da 
+tensão arterial. Este aumento exige tratamento urgente. A tensão arterial elevada pode necessitar 
+de tratamento com medicamentos (ou ajuste da dose de medicamentos que já esteja a tomar para 
+a tensão arterial elevada).</p>
+</li>
+<li>
+<p>Coágulos de sangue (incluindo trombose venosa profunda e embolia) que podem necessitar de 
+tratamento urgente. Pode ter como sintomas dor no peito, falta de ar e inchaço e vermelhidão 
+dolorosos geralmente na perna.</p>
+</li>
+<li>
+<p>Tosse.</p>
+</li>
+<li>
+<p>Erupções cutâneas que podem ser causadas por uma reação alérgica</p>
+</li>
+<li>
+<p>Dor nos ossos ou nos músculos.</p>
+</li>
+<li>
+<p>Sintomas de tipo gripal, como dores de cabeça, dores nas articulações, sensação de fraqueza, 
+arrepios, cansaço e tonturas. Estes podem ser mais frequentes no início do tratamento. Se tiver 
+86
+estes sintomas durante a injeção na veia, uma administração mais lenta da injeção pode ajudar a 
+evitá-los no futuro.</p>
+</li>
+<li>
+<p>Vermelhidão, ardor e dor no local de injeção.</p>
+</li>
+<li>
+<p>Inchaço dos tornozelos, pés ou dedos das mãos.</p>
+</li>
+<li>
+<p>Dor na perna ou braço.
+Efeitos indesejáveis pouco frequentes 
+Podem afetar até 1 em 100 pessoas. </p>
+</li>
+<li>
+<p>Níveis altos de potássio no sangue que podem causar um ritmo anormal do coração (este é um 
+efeito secundário muito frequente em doentes a fazerem diálise)</p>
+</li>
+<li>
+<p>Ataques epilépticos.</p>
+</li>
+<li>
+<p>Congestão nasal ou das vias aéreas.</p>
+</li>
+<li>
+<p>Reação alérgica.</p>
+</li>
+<li>
+<p>Urticária.
+Efeitos indesejáveis raros
+Estes podem afetar até 1 em 1000 pessoas.</p>
+</li>
+<li>
+<p>Sintomas de aplasia eritrocítica (AEP)
+AEP significa que a medula óssea não produz glóbulos vermelhos suficientes. A AEP causa anemia 
+súbita e grave. Os sintomas são:</p>
+</li>
+<li>
+<p>cansaço anormal,</p>
+</li>
+<li>
+<p>tonturas,</p>
+</li>
+<li>
+<p>falta de ar.
+A AEP foi comunicada muito raramente, sobretudo em doentes com doença renal após vários meses a 
+anos de tratamento com epoetina alfa e com outros medicamentos que estimulam a produção de 
+glóbulos vermelhos.</p>
+</li>
+<li>
+<p>Pode ocorrer um aumento dos níveis de pequenas células sanguíneas (chamadas plaquetas) que, 
+normalmente, estão envolvidas na formação dos coágulos de sangue, especialmente no início do 
+tratamento. O seu médico efetuará um controlo desta situação. </p>
+</li>
+<li>
+<p>Reação alérgica grave, podendo incluir:</p>
+</li>
+<li>
+<p>inchaço da cara, lábios, boca, língua ou garganta,</p>
+</li>
+<li>
+<p>dificuldade em engolir ou respirar,</p>
+</li>
+<li>
+<p>erupção cutânea com comichão (urticária).</p>
+</li>
+<li>
+<p>Problema do sangue que pode causar dor, urina de cor escura ou maior sensibilidade da pele à 
+luz solar (porfiria).
+Se estiver a fazer hemodiálise:</p>
+</li>
+<li>
+<p>Podem formar-se coágulos sanguíneos (trombose) no shunt de diálise. Estes são mais prováveis 
+se tiver uma tensão arterial baixa ou se a sua fístula tiver complicações.</p>
+</li>
+<li>
+<p>Também se podem formar coágulos sanguíneos no sistema de hemodiálise. O seu médico pode 
+decidir aumentar a dose de heparina durante a diálise.
+Informe o seu médico ou enfermeiro imediatamente se estiver consciente de qualquer um destes 
+efeitos ou se detetar quaisquer outros efeitos enquanto estiver a receber tratamento com Binocrit.
+Se algum dos efeitos indesejáveis se agravar ou se detetar quaisquer efeitos indesejáveis não 
+mencionados neste folheto, informe o seu médico, farmacêutico ou enfermeiro.
+87
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. 
+Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança 
+deste medicamento.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar binocrit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar binocrit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Manter este medicamento fora da vista e do alcance das crianças.</p>
+</li>
+<li>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem 
+exterior, após EXP. 
+O prazo de validade corresponde ao último dia do mês indicado.</p>
+</li>
+<li>
+<p>Conservar e transportar refrigerado (2 C-8 C).</p>
+</li>
+<li>
+<p>Pode tirar Binocrit do frigorífico e mantê-lo à temperatura ambiente (temperaturas inferiores a 
+25 °C) durante não mais de 3 dias. Assim que a seringa tenha sido retirada do frigorífico e tenha 
+atingido a temperatura ambiente (temperaturas inferiores a 25 °C) deve ser utilizada dentro de 
+3 dias ou rejeitada.</p>
+</li>
+<li>
+<p>Não congelar nem agitar.</p>
+</li>
+<li>
+<p>Conservar na embalagem de origem para proteger da luz.
+Não utilize este medicamento se verificar</p>
+</li>
+<li>
+<p>que pode ter sido congelado acidentalmente ou</p>
+</li>
+<li>
+<p>que pode ter havido um problema no frigorífico,</p>
+</li>
+<li>
+<p>que o líquido apresenta coloração ou se conseguir observar partículas a flutuarem, </p>
+</li>
+<li>
+<p>que o selo está quebrado.
+Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar 
+fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Binocrit</h2>
+<h2>A substância ativa é: epoetina alfa (para quantidade, ver a tabela abaixo).</h2>
+<p>Os outros componentes são: di-hidrogeno fosfato de sódio di-hidratado, fosfato dissódico di-
+hidratado, cloreto de sódio, glicina, polissorbato 80, ácido clorídrico (para ajuste do pH), 
+hidróxido de sódio (para ajuste do pH) e água para injetáveis.
+88
+Qual o aspeto de Binocrit e conteúdo da embalagem
+Binocrit é apresentado na forma de uma solução injetável límpida e incolor em seringas pré-cheias. 
+As seringas são seladas num blister.
+Apresentação
+Apresentações correspondentes em 
+quantidade/volume para cada 
+dosagem
+Quantidade de 
+epoetina alfa
+Seringas pré-cheias* 2000 UI/ml:
+1000 UI/0,5 ml
+2000 UI/1 ml
+10 000 UI/ml:
+3000 UI/0,3 ml
+4000 UI/0,4 ml
+5000 UI/0,5 ml
+6000 UI/0,6 ml
+7000 UI/0,7 ml
+8000 UI/0,8 ml
+9000 UI/0,9 ml
+10 000 UI/1 ml
+40 000 UI/ml:
+20 000 UI/0,5 ml
+30 000 UI/0,75 ml
+40 000 UI/1 ml
+8,4 microgramas
+16,8 microgramas
+25,2 microgramas
+33,6 microgramas
+42,0 microgramas
+50,4 microgramas
+58,8 microgramas
+67,2 microgramas
+75,6 microgramas
+84,0 microgramas
+168,0 microgramas
+252,0 microgramas
+336,0 microgramas</p>
+<p>*Embalagens de 1, 4 ou 6 seringas pré-cheias com ou sem uma proteção de segurança da agulha.
+É possível que não sejam comercializadas todas as apresentações. 
+Titular da Autorização de Introdução no Mercado
+Sandoz GmbH
+Biochemiestr. 10
+6250 Kundl
+Áustria
+Fabricante
+Sandoz GmbH
+Biochemiestr. 10
+6336 Langkampfen
+Áustria
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Sandoz nv/sa
+Tél/Tel: +32 2 722 97 97
+Lietuva
+Sandoz Pharmaceuticals d.d filialas
+Tel: +370 5 2636 037
+България
+Сандоз България КЧТ
+Тел.: +359 2 970 47 47
+Luxembourg/Luxemburg
+Sandoz nv/sa
+Tél/Tel.: +32 2 722 97 97
+89
+Česká republika
+Sandoz s.r.o.
+Tel: +420 225 775 111
+Magyarország
+Sandoz Hungária Kft.
+Tel.: +36 1 430 2890
+Danmark/Norge/Ísland/Sverige
+Sandoz A/S
+Tlf: +45 63 95 10 00
+Malta
+Sandoz Pharmaceuticals d.d.
+Tel: +35699644126
+Deutschland
+Hexal AG
+Tel: +49 8024 908 0
+Nederland
+Sandoz B.V.
+Tel: +31 36 52 41 600
+Eesti
+Sandoz d.d. Eesti filiaal
+Tel: +372 665 2400
+Österreich
+Sandoz GmbH
+Tel: +43 5338 2000
+Ελλάδα
+SANDOZ HELLAS ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε.
+Τηλ: +30 216 600 5000
+Polska
+Sandoz Polska Sp. z o.o.
+Tel.: +48 22 209 70 00
+España
+Sandoz Farmacéutica, S.A.
+Tel: +34 900 456 856
+Portugal
+Sandoz Farmacêutica Lda.
+Tel: +351 21 000 86 00
+France
+Sandoz SAS
+Tél: +33 1 49 64 48 00
+România
+Sandoz Pharmaceuticals SRL
+Tel: +40 21 407 51 60
+Hrvatska
+Sandoz d.o.o.
+Tel: +385 1 23 53 Slovenija
+Sandoz farmacevtska družba d.d.
+Tel: +386 1 580 29 02
+Ireland
+Rowex Ltd.
+Tel: + 353 27 50077
+Slovenská republika
+Sandoz d.d. - organizačná zložka
+Tel: +421 2 50 70 6111
+Italia
+Sandoz S.p.A.
+Tel: +39 02 96541
+Suomi/Finland
+Sandoz A/S
+Puh/Tel: +358 10 6133 400
+Κύπρος
+Sandoz Pharmaceuticals d.d.
+Τηλ: +357 22 69 0690
+United Kingdom (Northern Ireland)
+Sandoz GmbH
+Tel: +43 5338 2000
+Latvija
+Sandoz d.d. Latvia filiāle
+Tel: +371 67 892 006
+Este folheto foi revisto pela última vez em {MM/AAAA}.
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1244,6 +2028,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-6f8fb6a1c6179a9554b85e75fc6f0388"
 * entry[0].resource = composition-da-6f8fb6a1c6179a9554b85e75fc6f0388
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6f8fb6a1c6179a9554b85e75fc6f0388"
+* entry[=].resource = mp6f8fb6a1c6179a9554b85e75fc6f0388
+                            
+                    
+Instance: bundlepackageleaflet-pt-6f8fb6a1c6179a9554b85e75fc6f0388
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for binocrit Package Leaflet for language pt"
+Description: "ePI document Bundle for binocrit Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-6f8fb6a1c6179a9554b85e75fc6f0388"
+* entry[0].resource = composition-pt-6f8fb6a1c6179a9554b85e75fc6f0388
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp6f8fb6a1c6179a9554b85e75fc6f0388"
@@ -1345,6 +2151,18 @@ RuleSet: 6f8fb6a1c6179a9554b85e75fc6f0388ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-6f8fb6a1c6179a9554b85e75fc6f0388) // binocrit pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

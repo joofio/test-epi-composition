@@ -671,6 +671,380 @@ smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </di
 
 
 
+Instance: composition-pt-166a454c6539dfdbdc3afea683fe6474
+InstanceOf: CompositionUvEpi
+Title: "Composition for stayveer Package Leaflet"
+Description:  "Composition for stayveer Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp166a454c6539dfdbdc3afea683fe6474)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - stayveer"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é STAYVEER e para que é utilizado
+2. O que precisa de saber antes de tomar STAYVEER
+3. Como tomar STAYVEER
+4. Efeitos indesejáveis possíveis
+5. Como conservar STAYVEER
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é stayveer e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é stayveer e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Os comprimidos de STAYVEER contêm bosentano, que bloqueia uma hormona que ocorre 
+naturalmente chamada endotelina-1 (ET-1), que provoca o estreitamento dos vasos sanguíneos. 
+STAYVEER causa, por isso, a dilatação dos vasos sanguíneos e pertence à classe de medicamentos 
+chamada “antagonistas dos recetores da endotelina".
+STAYVEER é utilizado para tratar:
+
+Hipertensão arterial pulmonar (HAP): A HAP é uma doença de estreitamento grave dos 
+vasos sanguíneos nos pulmões resultando numa pressão sanguínea elevada nos vasos 
+sanguíneos (as artérias pulmonares) que transportam o sangue do coração para os pulmões. Esta 
+pressão reduz a quantidade de oxigénio que entra no sangue pelos pulmões, tornando a atividade 
+física mais difícil. STAYVEER dilata as artérias pulmonares, fazendo com que seja mais fácil o 
+coração bombear o sangue através delas. Isto reduz a pressão sanguínea e alivia os sintomas.
+STAYVEER é usado para tratar doentes com HAP da classe III para melhorar os sintomas e a 
+capacidade de exercício (capacidade de executar uma atividade física). A ‘classe’ reflete a gravidade 
+da doença: ‘classe III’ envolve limitação marcada de atividade física. Foram também demonstradas 
+algumas melhorias em doentes com HAP classe II. A ‘classe II’ envolve limitação ligeira da atividade 
+física. A HAP para a qual STAYVEER está indicado pode ser: 
+
+primária (sem causa identificada ou familiar); 
+
+causada por esclerodermia (também chamada de esclerose sistémica, uma doença onde há 
+crescimento anormal de tecido conjuntivo que suporta a pele e outros órgãos);
+
+causada por defeitos cardíacos congénitos (de nascença) com shunts (canais anormais) causando 
+um fluxo sanguíneo alterado pelo coração e pulmões.
+
+Úlceras digitais: (feridas nos dedos das mãos e dos pés) em doentes adultos com uma condição 
+chamada esclerodermia. STAYVEER reduz o número de novas úlceras que aparecem nos dedos 
+das mãos e dos pés.
+42</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar stayveer"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar stayveer"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome STAYVEER
+
+se tem alergia ao bosentano ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+
+se tiver problemas de fígado (consulte o seu médico) 
+
+se estiver grávida ou tiver a possibilidade de engravidar, por não estar a utilizar métodos 
+contracetivos fiáveis. Por favor leia a informação em “Contracetivos" e “Outros medicamentos 
+e STAYVEER"
+
+se estiver a tomar ciclosporina A (um medicamento utilizado depois de um transplante ou para 
+tratamento de psoríase)
+Se algum destes se aplicar a si, informe o seu médico.
+Advertências e precauções
+Análises que o seu médico lhe mandará fazer antes do tratamento
+
+uma análise ao sangue para examinar o funcionamento do seu fígado
+
+uma análise ao sangue para verificar se está anémico/a (nível de hemoglobina baixo)
+
+um teste de gravidez se é uma mulher com potencial para engravidar
+Alguns dos doentes a tomar STAYVEER tiveram resultados alterados nos testes de função hepática e 
+anemia (níveis de hemoglobina baixos). 
+Análises que o seu médico lhe mandará fazer durante o tratamento
+Durante o seu tratamento com STAYVEER, o seu médico mandá-lo-á/mandá-la-á fazer análises ao 
+sangue a intervalos regulares, a fim de verificar se houve alguma alteração na função hepática e nos 
+níveis de hemoglobina.
+Para todos estes testes, por favor veja também o Cartão de Aviso do Doente (dentro da sua embalagem 
+de comprimidos de STAYVEER). É importante fazer estas análises ao sangue a intervalos regulares 
+enquanto estiver a tomar STAYVEER. Sugerimos que tome nota da data da sua análise mais recente e 
+também da sua próxima análise (pergunte ao seu médico qual é a data da mesma) no Cartão de Aviso 
+do Doente, para o ajudar a recordar-se da data da sua próxima análise.
+Análises ao sangue para verificar a função hepática
+Deve fazer estas análises todos os meses durante o período de tratamento com STAYVEER. Duas 
+semanas depois de um aumento de dose deve também fazer-se uma análise adicional.
+Análises ao sangue para verificar se sofre de anemia
+Deve fazer estas análises todos os meses durante os primeiros quatro meses de tratamento, e depois 
+disso de 3 em 3 meses, dado que os doentes a tomar STAYVEER podem ter anemia.
+Se os resultados destas análises estiverem alterados, o seu médico pode decidir reduzir a dose ou 
+interromper o seu tratamento com STAYVEER e mandar fazer mais análises para investigar a causa 
+da alteração.
+Crianças e adolescentes
+STAYVEER não é recomendado em doentes pediátricos com esclerose sistémica e úlceras digitais em 
+curso. Por favor consulte também a secção </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar stayveer"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar stayveer"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Outros medicamentos e STAYVEER
+Informe o seu médico ou farmacêutico se estiver a tomar ou tiver tomado recentemente outros 
+medicamentos, incluindo medicamentos obtidos sem receita médica. É especialmente importante 
+informar o seu médico caso esteja a tomar:
+
+ciclosporina A (um medicamento utilizado depois de transplantes e para o tratamento de 
+psoríase), que não deve ser usado juntamente com STAYVEER.
+
+sirolimus ou tacrolimus, que são medicamentos utilizados depois de transplantes, uma vez que o 
+uso destes não é recomendado juntamente com STAYVEER.
+43
+
+glibenclamida (um medicamento para a diabetes), rifampicina (um medicamento para a 
+tuberculose), fluconazol (um medicamento para o tratamento de infeções fúngicas), cetoconazol 
+(um medicamento utilizado para o tratamento da síndroma de Cushing) ou nevirapina (um 
+medicamento para o VIH), uma vez que o uso destes medicamentos não é recomendado 
+juntamente com STAYVEER.
+
+outros medicamentos para o tratamento da infeção de VIH, que podem necessitar de 
+monitorização especial se usados em conjunto com STAYVEER.
+
+contracetivos hormonais que não são eficazes como único método de contraceção quando toma 
+STAYVEER. Dentro da sua embalagem de comprimidos de STAYVEER encontrará um Cartão 
+de Aviso do Doente que deverá ler atentamente. O seu médico e/ou ginecologista estabelecerão 
+a contraceção que é adequada para si.
+
+outros medicamentos destinados ao tratamento de hipertensão pulmonar: sildenafil e tadalafil;
+
+varfarina (um agente anticoagulante);
+
+sinvastatina (utilizado para o tratamento de hipercolesterolemia).
+Condução de veículos e utilização de máquinas
+STAYVEER não influencia ou tem uma influência negligenciável na capacidade de conduzir e utilizar 
+máquinas. No entanto, STAYVEER pode induzir hipotensão (diminuição da sua pressão sanguínea) 
+que pode fazê-lo sentir-se tonto, afetar a sua visão e afetar a sua capacidade de conduzir e utilizar 
+máquinas. Como tal, se se sentir tonto ou se sentir que a sua visão está turva enquanto toma 
+STAYVEER, não conduza nem utilize quaisquer ferramentas ou máquinas.
+Mulheres em idade fértil
+NÃO tome STAYVEER se está grávida ou se planeia engravidar.
+Testes de gravidez
+STAYVEER pode fazer mal aos bebés por nascer concebidos antes do início ou durante o tratamento. 
+Se é uma mulher que pode engravidar, o seu médico pedir-lhe-á para fazer um teste de gravidez antes 
+de começar a tomar STAYVEER e regularmente enquanto estiver a tomar STAYVEER.
+Contracetivos
+Se é possível que fique grávida, use um método de contraceção fiável enquanto está a tomar 
+STAYVEER. O seu médico ou ginecologista indicar-lhe-ão métodos de contraceção fiáveis para 
+utilizar enquanto estiver a tomar STAYVEER. A contraceção hormonal (p. ex.º oral, injeção, implante 
+ou sistemas cutâneos), por si só, não é um método fiável porque STAYVEER pode torná-la ineficaz. 
+Por conseguinte, se utiliza contracetivos hormonais deve também utilizar um método de barreira (p. 
+ex.º: preservativo feminino, diafragma, esponja contracetiva ou o seu parceiro deverá também utilizar 
+um preservativo). Dentro da sua embalagem de comprimidos de STAYVEER encontrará um Cartão de 
+Aviso do Doente. Deve preencher este cartão e levá-lo ao seu médico na sua próxima consulta para 
+que o seu médico ou ginecologista possam avaliar se necessita de métodos contracetivos fiáveis 
+adicionais ou alternativos. Recomenda-se fazer testes de gravidez mensais durante o tratamento com 
+STAYVEER e enquanto está na idade fértil.
+Informe imediatamente o seu médico se engravidar enquanto está a tomar STAYVEER ou se planeia 
+engravidar num futuro próximo.
+Amamentação
+STAYVEER passa para o seu leite materno. É aconselhável deixar de amamentar se o médico lhe 
+receitar STAYVEER, porque não se sabe se STAYVEER no leite materno pode prejudicar o seu bebé. 
+Fale com o seu médico sobre este assunto.
+Fertilidade
+Se é um homem a tomar STAYVEER, é possível que este medicamento possa baixar a sua contagem 
+de esperma. Não pode ser excluído que tal pode afetar a sua capacidade de ser pai de uma criança. Fale 
+com o seu médico se tiver dúvidas ou preocupações em relação a isto.
+STAYVEER contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio".
+44</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com STAYVEER só deve ser iniciado e acompanhado por um médico que tenha 
+experiência no tratamento de HAP ou esclerose sistémica. Tome este medicamento exatamente como 
+indicado pelo seu médico. Fale com o seu médico ou farmacêutico se tiver dúvidas.
+STAYVEER com alimentos e bebidas
+STAYVEER pode ser tomado com ou sem alimentos.
+Dose recomendada
+Adulto
+O tratamento em adultos é normalmente iniciado nas primeiras 4 semanas com 62,5 mg duas vezes por 
+dia (de manhã e à noite), depois disso é provável que o seu médico lhe receite o comprimido de 
+125 mg duas vezes ao dia, dependendo da forma como tenha reagido a STAYVEER.
+Crianças e adolescentes
+A recomendação de dose em crianças é apenas para a HAP. Para crianças com 1 ano ou mais de idade, 
+o tratamento com STAYVEER é normalmente iniciado com 2 mg por kg de peso corporal duas vezes 
+por dia (de manhã e à noite). O seu médico receitar-lhe-á a sua dosagem.
+Fale com o seu médico se tiver a impressão de que o efeito de STAYVEER é demasiado forte ou 
+demasiado fraco, a fim de determinar se a sua dose necessita de ser alterada.
+Como tomar STAYVEER
+Os comprimidos devem ser tomados (de manhã e à noite), engolidos com água. Os comprimidos 
+podem ser tomados com ou sem alimentos.
+Se tomar mais STAYVEER do que deveria
+Se tomar mais comprimidos do que aqueles que lhe disseram para tomar, contacte imediatamente o 
+seu médico.
+Caso se tenha esquecido de tomar STAYVEER
+Caso se tenha esquecido de tomar STAYVEER, tome uma dose logo que se recorde, continuando 
+depois a tomar o medicamento às horas habituais. Não tome uma dose a dobrar para compensar uma 
+dose que se esqueceu de tomar.
+Se parar de tomar STAYVEER
+Interromper subitamente o tratamento com STAYVEER, pode conduzir a um agravamento dos seus 
+sintomas. Não interrompa o tratamento com STAYVEER a não ser que o seu médico assim o indique. 
+O seu médico poderá mandar reduzir a dose durante alguns dias antes de lhe dizer para parar por 
+completo.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar stayveer"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar stayveer"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Os efeitos indesejáveis mais graves com STAYVEER são
+
+Função hepática alterada que pode afetar mais do que 1 em cada 10 pessoas
+
+Anemia (valor de sangue baixo) que pode afetar até 1 em cada 10 pessoas. A anemia pode 
+necessitar ocasionalmente de uma transfusão de sangue
+45
+Os seus valores hepáticos e de sangue serão monitorizados durante o tratamento com STAYVEER 
+(ver secção 2). É importante que faça estes testes tal como requisitado pelo seu médico.
+Sinais que o seu fígado pode não estar a funcionar adequadamente incluem:
+
+náusea (vontade de vomitar)
+
+vómitos
+
+febre (temperatura alta)
+
+dor de estômago (abdominal)
+
+icterícia (amarelecimento da sua pele ou da parte branca dos seus olhos)
+
+urina escurecida
+
+comichão na pele
+
+letargia ou fadiga (cansaço ou exaustão não habituais)
+
+sintomas tipo gripe (dores musculares e das articulações com febre)
+Se detetar algum destes sinais contacte o seu médico imediatamente.
+Outros efeitos indesejáveis
+Muito frequentes (podem afetar mais de uma em cada 10 pessoas):
+
+Cefaleias (dores de cabeça)
+
+Edema (inchaço das pernas e tornozelos ou outros sinais de retenção de líquidos)
+Frequentes (podem afetar até uma em cada 10 pessoas):
+
+Aspeto avermelhado ou vermelhidão da pele
+
+Reações alérgicas (incluindo inflamação da pele, comichão e erupção na pele)
+
+Doença do refluxo gastroesofágico (refluxo ácido)
+
+Diarreia
+
+Síncope (desmaio)
+
+Palpitações (batimentos cardíacos rápidos ou irregulares)
+
+Tensão arterial baixa
+
+Congestão nasal
+Pouco frequentes (podem afetar até uma em cada 100 pessoas):
+
+Trombocitopenia (número baixo de plaquetas sanguíneas)
+
+Neutropenia/leucopenia (número baixo de glóbulos brancos)
+
+Testes de função hepática elevados com hepatite (inflamação do fígado) incluindo possível 
+exacerbação de hepatite subjacente e/ou icterícia (amarelecimento da pele ou da parte branca dos 
+olhos)
+Raros (podem afetar até uma em cada 1 000 pessoas):
+
+Anafilaxia (reação alérgica generalizada), angioedema (inchaço, mais frequentemente à volta 
+dos olhos, lábios, língua ou garganta)
+
+Cirrose (cicatrização) do fígado, insuficiência hepática (distúrbio sério do funcionamento do 
+fígado)
+A visão turva também tem sido notificada com uma frequência desconhecida (a frequência não pode 
+ser calculada a partir dos dados disponíveis).
+Efeitos indesejáveis em crianças e adolescentes
+Os efeitos indesejáveis que têm sido notificados em crianças tratadas com STAYVEER são os mesmo 
+que os dos adultos.
+46
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+blister a seguir a “VAL".
+Para frascos brancos de polietileno de alta densidade, utilizar num prazo de 30 dias após a primeira 
+abertura.
+Para blisters de PVC/PE/PVDC/alumínio:
+Não conservar acima de 25°C.
+Para frascos brancos de polietileno de alta densidade:
+O medicamento não necessita de quaisquer precauções especiais de conservação.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente.</p>         </div>"""      
+
+
+
 
 
                     
@@ -712,6 +1086,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-166a454c6539dfdbdc3afea683fe6474"
 * entry[0].resource = composition-da-166a454c6539dfdbdc3afea683fe6474
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp166a454c6539dfdbdc3afea683fe6474"
+* entry[=].resource = mp166a454c6539dfdbdc3afea683fe6474
+                            
+                    
+Instance: bundlepackageleaflet-pt-166a454c6539dfdbdc3afea683fe6474
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for stayveer Package Leaflet for language pt"
+Description: "ePI document Bundle for stayveer Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-166a454c6539dfdbdc3afea683fe6474"
+* entry[0].resource = composition-pt-166a454c6539dfdbdc3afea683fe6474
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp166a454c6539dfdbdc3afea683fe6474"
@@ -813,6 +1209,18 @@ RuleSet: 166a454c6539dfdbdc3afea683fe6474ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-166a454c6539dfdbdc3afea683fe6474) // stayveer pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1053,6 +1053,596 @@ infusionsrelaterede reaktioner, indtil en maksimal hastighed på 7 mg/kg/time n�
 
 
 
+Instance: composition-pt-639cce8c495cbcbb29789688f0c06663
+InstanceOf: CompositionUvEpi
+Title: "Composition for pombiliti Package Leaflet"
+Description:  "Composition for pombiliti Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp639cce8c495cbcbb29789688f0c06663)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - pombiliti"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto<br />
+1. O que é Pombiliti e para que é utilizado 
+2. O que tem de saber antes de lhe ser administrado Pombiliti 
+3. Como administrar Pombiliti 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Pombiliti 
+6. Conteúdo da embalagem e outras informações  </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é pombiliti e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é pombiliti e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Pombiliti 
+Pombiliti é um tipo de “terapêutica de substituição enzimática" (TSE) que é utilizada no tratamento<br />
+da doença de Pompe de início tardio em adultos. Este contém a substância ativa “cipaglucosidase 
+alfa". </p>
+<p>Para que é utilizado 
+Pombiliti é sempre utilizado com outro medicamento chamado miglustat 65 mg cápsulas. É muito 
+importante que também leia o folheto informativo de miglustat 65 mg cápsulas.  </p>
+<p>Se tiver quaisquer dúvidas sobre os seus medicamentos, fale com o seu médico ou farmacêutico. </p>
+<p>Como funciona Pombiliti 
+As pessoas com doença de Pompe têm níveis baixos da enzima alfa-glucosidase ácida (GAA). Esta 
+enzima ajuda a controlar os níveis de glicogénio (um tipo de hidrato de carbono) no corpo. </p>
+<p>Na doença de Pompe, acumulam-se níveis elevados de glicogénio nos músculos do corpo. Isto impede 
+que os músculos, tais como os músculos que o ajudam a caminhar, os músculos sob os pulmões que o 
+ajudam a respirar e o músculo cardíaco, funcionem corretamente. 
+Pombiliti entra nas células musculares que são afetadas pela doença de Pompe. Quando está no 
+interior das células, o medicamento funciona como a GAA para ajudar a decompor o glicogénio e a 
+controlar os seus níveis. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar pombiliti"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar pombiliti"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não pode tomar Pombiliti </p>
+<ul>
+<li>
+<p>Se já tiver tido reações de hipersensibilidade com risco de vida a: 
+▪ 
+cipaglucosidase alfa 
+▪ 
+miglustat 
+▪ 
+outros componentes deste medicamento (indicados na secção 6). </p>
+</li>
+<li>
+<p>Se uma perfusão anterior teve de ser interrompida e não pôde ser reiniciada devido a reações de 
+hipersensibilidade com risco de vida. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Pombiliti. </p>
+<p>Fale com o seu médico ou enfermeiro imediatamente se isto se aplica a si, se pensa que pode 
+aplicar-se a si ou se já tiver tido quaisquer dessas reações com outra terapêutica de substituição 
+enzimática (TSE):  </p>
+<ul>
+<li>
+<p>reações alérgicas incluindo anafilaxia (uma reação alérgica grave) - ver secção 4 em “Possíveis 
+efeitos secundários" para saber quais os sintomas de reações com possível risco de vida. </p>
+</li>
+<li>
+<p>reação associada à perfusão enquanto está a receber o medicamento ou nas horas que se seguem </p>
+</li>
+<li>ver secção 4 em ‘Possíveis efeitos secundários’, para sintomas de reações que ponham a vida em 
+risco. </li>
+</ul>
+<p>Informe o seu médico se tem um historial de doença cardíaca ou pulmonar. Estas condições podem 
+agravar-se durante ou imediatamente a seguir à perfusão de Pombiliti. Informe imediatamente um 
+médico ou enfermeiro se sentir falta de ar, tosse, ritmo cardíaco rápido ou irregular ou qualquer outro 
+efeito destas condições. </p>
+<p>Informe igualmente o seu médico se tiver as pernas inchadas ou o corpo inchado, reação cutânea grave 
+ou urina com resíduos de espuma. O seu médico decidirá se deve interromper a sua perfusão de 
+Pombiliti  e dar-lhe-á tratamento médico apropriado. O seu médico irá igualmente decidir se pode 
+continuar a receber Pombiliti. </p>
+<p>Medicação pré-tratamento<br />
+O seu médico pode dar-lhe outros medicamentos antes do Pombiliti. Estes medicamentos incluem: </p>
+<ul>
+<li>
+<p>anti-histamínicos e corticosteroides para prevenir ou ajudar a reduzir as reações relacionadas com 
+a perfusão. </p>
+</li>
+<li>
+<p>antipiréticos para reduzir a febre. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes 
+Este medicamento não deve ser administrado a doentes com menos de 18 anos de idade. Isto porque os 
+efeitos de Pombiliti em conjunto com miglustat neste grupo etário são desconhecidos. </p>
+<p>Outros medicamentos e Pombiliti 
+Informe o seu médico ou enfermeiro se estiver a utilizar, tiver utilizado recentemente ou se vier a 
+utilizar outros medicamentos. Isto inclui quaisquer medicamentos obtidos sem prescrição médica, 
+como vitaminas ou produtos de ervanária. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, pensa estar grávida ou planeia engravidar, consulte o seu médico ou 
+farmacêutico imediatamente antes de tomar este medicamento. </p>
+<p>Não há experiência com a utilização de Pombiliti em combinação com miglustat durante a gravidez. </p>
+<ul>
+<li>
+<p>Não deve receber Pombiliti e/ou tomar cápsulas miglustat 65 mg se estiver grávida. Certifique-se 
+de que informa imediatamente o seu médico se engravidar, pensar que pode estar grávida ou se 
+estiver a planear engravidar. Não pode haver riscos para o feto. </p>
+</li>
+<li>
+<p>Pombiliti em combinação com miglustat não deve ser administrado a mulheres a amamentar. Tem 
+de ser tomada uma decisão sobre a descontinuação da amamentação ou a 
+descontinuação/abstenção da terapêutica. </p>
+</li>
+</ul>
+<p>Contraceção e fertilidade 
+As pacientes femininas com potencial de parto devem utilizar métodos fiáveis de controlo da 
+natalidade durante e durante 4 semanas após a paragem de ambos os medicamentos. </p>
+<p>Condução de veículos e utilização de máquinas 
+Pode sentir tonturas, sonolência ou ter pressão arterial baixa (hipotensão) depois de tomar Pombiliti ou 
+medicamentos antes do tratamento. Se isto acontecer, não conduza nem utilize quaisquer ferramentas 
+ou máquinas. </p>
+<p>Pombiliti contém sódio 
+Este medicamento contém 10,5 mg de sódio (principal componente do sal de cozinha/mesa) em cada 
+frasco para injetáveis. Isto é equivalente a 0,52% da ingestão diária máxima de sódio recomendada na 
+dieta para um adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar pombiliti"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar pombiliti"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pombiliti é-lhe administrado por um médico ou enfermeiro. É administrado de forma gota a gota numa 
+veia. Esta forma de administração designada perfusão por via intravenosa. </p>
+<p>Fale com o seu médico se quiser ser tratado em casa. O seu médico irá decidir, após avaliação, se é 
+seguro receber a perfusão de Pombiliti em casa. Se tiver quaisquer efeitos indesejáveis durante uma 
+perfusão de Pombiliti, o membro do pessoal da perfusão da sua casa pode interromper a perfusão e 
+iniciar o tratamento médico adequado. </p>
+<p>Pombiliti deve ser utilizado em conjunto com miglustat. Pode apenas utilizar miglustat 65 mg cápsulas 
+com cipaglucosidase alfa. NÃO utilize miglustat 100 mg cápsulas (medicamento diferente). Siga as 
+instruções do seu médico e leia o folheto informativo de miglustat 65 mg cápsulas, para saber qual a 
+dose recomendada. </p>
+<p>Quantidade de Pombiliti a administrar 
+A quantidade de medicamento que irá receber é baseada no seu peso. A dose recomendada é de 20 mg 
+por cada quilograma de peso corporal. </p>
+<p>Quando e durante quanto tempo é administrado Pombiliti </p>
+<ul>
+<li>
+<p>Irá ser tratado com Pombiliti uma vez a cada duas semanas. Miglustat 65 mg cápsulas é tomado 
+no mesmo dia que o Pombiliti. Consulte o folheto informativo de miglustat 65 mg cápsulas para 
+informação sobre como tomar miglustat. </p>
+</li>
+<li>
+<p>Cipaglucosidase alfa perfusão deve ter início 1 hora depois de tomar miglustat 65 mg cápsulas. 
+▪ 
+Em caso de atraso, o início da perfusão não deve exceder 3 horas desde a toma de miglustat. </p>
+</li>
+<li>
+<p>A perfusão de cipaglucosidase alfa tem a duração aproximada de 4 horas. </p>
+</li>
+</ul>
+<p>Figura 1. Dose - cronograma </p>
+<ul>
+<li>A perfusão de cipaglucosidase alfa deverá ter início 1 hora após a toma das cápsulas de miglustat. Em caso de atraso da 
+perfusão, o início da perfusão não deverá exceder 3 horas após a toma de miglustat. </li>
+</ul>
+<p>Mudar de outra terapêutica de substituição enzimática (TSE) 
+Se estiver atualmente a ser tratado com outra TSE: </p>
+<ul>
+<li>
+<p>O seu médico irá dizer-lhe quando parar a outra TSE antes de iniciar Pombiliti. </p>
+</li>
+<li>
+<p>Informe o seu médico quando concluiu a sua última dose. </p>
+</li>
+</ul>
+<p>Se lhe for administrado mais Pombiliti do que deveria 
+Se tiver dificuldade em respirar, sensação de inchaço ou tumefação, ou se tiver o coração acelerado, 
+poderá ter sido administrado demasiado Pombiliti; informe o seu médico imediatamente. Taxa 
+excessiva de perfusão de Pombiliti pode resultar em sintomas relacionados com demasiado líquido no 
+corpo, tais como falta de ar, frequência cardíaca rápida ou inchaço generalizado do corpo. </p>
+<p>Se não tomar a sua dose de Pombiliti 
+Se tiver falhado uma perfusão, contacte o seu médico ou enfermeiro assim que possível para remarcar 
+Pombiliti em combinação com miglustat 24 horas após a última toma de miglustat. </p>
+<p>Se parar de receber Pombiliti 
+Fale com o seu médico se quiser parar o tratamento com Pombiliti. Os sintomas da sua doença podem 
+agravar-se se interromper o tratamento. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Pombiliti é utilizado com miglustat e os efeitos indesejáveis podem ocorrer com qualquer destes 
+medicamentos. Os efeitos indesejáveis observaram-se sobretudo enquanto os doentes estavam a ser 
+infundidos com Pombiliti (efeitos relacionados com a perfusão) ou pouco depois. Tem de informar 
+imediatamente o seu médico se tiver uma reação relacionada com a perfusão ou uma reação alérgica. 
+Algumas destas reações podem tornar-se graves e fatais. O seu médico pode dar-lhe medicamentos 
+antes da sua perfusão para evitar essas reações. </p>
+<p>Reações relacionadas com a perfusão 
+A maioria das reações relacionadas com a perfusão são ligeiras ou moderadas. Os sintomas de uma 
+reação relacionada com a perfusão podem incluir dificuldade em respirar, inchaço, febre, arrepios, 
+tonturas, vermelhidão, comichão na pele e erupção na pele. </p>
+<p>Reações alérgicas 
+As reações alérgicas podem incluir sintomas como erupção na pele em qualquer parte do corpo, papos 
+nos olhos, dificuldade prolongada em respirar, tosse, inchaço dos lábios, língua ou garganta, comichão 
+na pele e urticária. </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>Cefaleia </li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Tosse </p>
+</li>
+<li>
+<p>Rubor súbito do rosto, pescoço ou parte superior do peito </p>
+</li>
+<li>
+<p>Dor no peito </p>
+</li>
+<li>
+<p>Erupção na pele, comichão </p>
+</li>
+<li>
+<p>Aumento da pressão arterial </p>
+</li>
+<li>
+<p>Suores </p>
+</li>
+<li>
+<p>Distensão abdominal </p>
+</li>
+<li>
+<p>Gases abdominais </p>
+</li>
+<li>
+<p>Fezes moles, diarreia </p>
+</li>
+<li>
+<p>Vómitos </p>
+</li>
+<li>
+<p>Náuseas </p>
+</li>
+<li>
+<p>Febre ou calafrios </p>
+</li>
+<li>
+<p>Urticária </p>
+</li>
+<li>
+<p>Inchaço ou dor na zona do corpo onde a agulha foi inserida </p>
+</li>
+<li>
+<p>Cãibras musculares, dores musculares, fraqueza muscular </p>
+</li>
+<li>
+<p>Tremuras involuntárias de uma ou mais partes do corpo </p>
+</li>
+<li>
+<p>Aumento da transpiração </p>
+</li>
+<li>
+<p>Dor </p>
+</li>
+<li>
+<p>Alteração do paladar </p>
+</li>
+<li>
+<p>Sentir-se constantemente cansado ou sensação de sonolência </p>
+</li>
+<li>
+<p>Falta de ar 
+Pouco frequentes (pode afetar até 1 em 100 pessoas) </p>
+</li>
+<li>
+<p>Respiração difícil que desencadeia tosse, som de assobio (pieira) ao expirar e falta de ar (asma) </p>
+</li>
+<li>
+<p>Reação alérgica </p>
+</li>
+<li>
+<p>Inchaço nas mãos, pés, tornozelos, pernas </p>
+</li>
+<li>
+<p>Inchaço da pele </p>
+</li>
+<li>
+<p>Indigestão </p>
+</li>
+<li>
+<p>Dor de barriga </p>
+</li>
+<li>
+<p>Sensação de cansaço constante </p>
+</li>
+<li>
+<p>Dor de garganta ou garganta irritada </p>
+</li>
+<li>
+<p>Dor e contrações anormais da garganta </p>
+</li>
+<li>
+<p>Irritação na boca </p>
+</li>
+<li>
+<p>Dor na boca ou desconforto na parte de trás da boca </p>
+</li>
+<li>
+<p>Dor na bochecha, gengivas, lábios, queixo </p>
+</li>
+<li>
+<p>Perda de força e energia, sensação de fraqueza </p>
+</li>
+<li>
+<p>Sensação de instabilidade, sensação de lentidão geral </p>
+</li>
+<li>
+<p>Sensação de ardor </p>
+</li>
+<li>
+<p>Irritação ou danos na pele </p>
+</li>
+<li>
+<p>Alterações na temperatura corporal </p>
+</li>
+<li>
+<p>Diminuição de um tipo de glóbulos brancos - indicado nas análises </p>
+</li>
+<li>
+<p>Sensação de sonolência </p>
+</li>
+<li>
+<p>Sensação de tonturas </p>
+</li>
+<li>
+<p>Dor nas articulações </p>
+</li>
+<li>
+<p>Dor na área entre a anca e a costela </p>
+</li>
+<li>
+<p>Fadiga muscular  </p>
+</li>
+<li>
+<p>Aumento da rigidez muscular </p>
+</li>
+<li>
+<p>Perda de equilíbrio </p>
+</li>
+<li>
+<p>Pressão arterial baixa </p>
+</li>
+<li>
+<p>Sensação de desmaio </p>
+</li>
+<li>
+<p>Dor em um ou ambos os lados da cabeça, dor latejante, aura, dor ocular, sensibilidade à luz 
+(enxaqueca) </p>
+</li>
+<li>
+<p>Descoloração da pele  </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar pombiliti"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar pombiliti"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu médico, farmacêutico ou enfermeiro é responsável pelo armazenamento deste medicamento e 
+por eliminar corretamente os frascos para injetáveis abertos. A informação que se segue destina-se aos 
+profissionais de saúde.  </p>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e embalagem após “VAL". 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Frascos para injetáveis por abrir: Conservar no frigorífico (2 °C - 8 °C). Manter o frasco para 
+injetáveis na embalagem exterior para proteger da luz. </p>
+<p>Após a diluição, recomenda-se a utilização imediata. No entanto, o armazenamento do saco 
+intravenoso com Pombiliti foi demonstrado durante 6 horas a 20 °C - 25 °C e 24 horas a 2 °C - 8 °C. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que Pombiliti contém 
+A substância ativa é “cipaglucosidase alfa". Um frasco para injetáveis contém 105 mg de 
+cipaglucosidase alfa. Após a reconstituição, a solução no frasco para injetáveis contém 15 mg de 
+cipaglucosidase alfa por ml. A concentração final recomendada de cipaglucosidase alfa diluída dentro 
+do saco intravenoso varia entre 0,5 mg/ml e 4 mg/ml. </p>
+<p>Os outros componentes são: </p>
+<ul>
+<li>
+<p>Citrato de sódio dihidratado (E 331) </p>
+</li>
+<li>
+<p>Ácido cítrico monoidratado (E 330) </p>
+</li>
+<li>
+<p>Manitol (E 421) </p>
+</li>
+<li>
+<p>Polissorbato 80 (E 433) </p>
+</li>
+</ul>
+<p>Qual o aspeto de Pombiliti e conteúdo da embalagem </p>
+<p>Pombiliti é um pó branco a ligeiramente amarelado. Após a reconstituição, aparece como uma solução 
+clara a opalescente, incolor a ligeiramente amarela, sem partículas estranhas, praticamente livre de 
+partículas brancas a translúcidas. A solução reconstituída tem de ser mais diluída para dentro de um 
+saco intravenoso para perfusão.  </p>
+<p>Pombiliti é um pó para concentrado para solução para perfusão num frasco para injetáveis </p>
+<p>Embalagens de 1 frasco para injetáveis, 10 frascos para injetáveis ou 25 frascos para injetáveis </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Amicus Therapeutics Europe Limited 
+Block 1, Blanchardstown Corporate Park 
+Ballycoolin Road 
+Blanchardstown, Dublin 
+D15 AKK1 
+Irlanda 
+Tel: +353 (0) 1 588 0Fax: +353 (0) 1 588 6e-mail: info@amicusrx.co.uk </p>
+<p>Fabricante 
+Manufacturing Packaging Farmaca (MPF) B.V. 
+Neptunus 12, Heerenveen, 8448CN, Países Baixos  </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Amicus Therapeutics Europe Limited 
+Tél/Tel: (+32) 0800 89e-mail: MedInfo@amicusrx.com </p>
+<p>Lietuva 
+Amicus Therapeutics Europe Limited<br />
+Tel: (+370) 8800 33El. paštas: MedInfo@amicusrx.com 
+България 
+Amicus Therapeutics Europe Limited<br />
+Teл.: (+359) 00800 111 3имейл: MedInfo@amicusrx.com </p>
+<p>Luxembourg/Luxemburg 
+Amicus Therapeutics Europe Limited<br />
+Tél/Tel: (+352) 800 27e-mail: MedInfo@amicusrx.com 
+Česká republika 
+Amicus Therapeutics Europe Limited<br />
+Tel.: (+420) 800 142 e-mail: MedInfo@amicusrx.com </p>
+<p>Magyarország 
+Amicus Therapeutics Europe Limited<br />
+Tel.: (+36) 06 800 21e-mail: MedInfo@amicusrx.com 
+Danmark 
+Amicus Therapeutics Europe Limited<br />
+Tlf.: (+45) 80 253 e-mail: MedInfo@amicusrx.com </p>
+<p>Malta 
+Amicus Therapeutics Europe Limited<br />
+Tel: (+356) 800 62e-mail: MedInfo@amicusrx.com </p>
+<p>Deutschland 
+Amicus Therapeutics GmbH 
+Tel: (+49) 0800 000 2E-Mail: MedInfo@amicusrx.com </p>
+<p>Nederland 
+Amicus Therapeutics BV 
+Tel: (+31) 20 235 8510 / (+31) 0800 022 8e-mail: MedInfo@amicusrx.com 
+Eesti 
+Amicus Therapeutics Europe Limited<br />
+Tel: (+372) 800 0111 e-post: MedInfo@amicusrx.com </p>
+<p>Norge 
+Amicus Therapeutics Europe Limited<br />
+Tlf: (+47) 800 13e-post: MedInfo@amicusrx.com 
+Ελλάδα 
+Amicus Therapeutics Europe Limited<br />
+Τηλ: (+30) 00800 126 e-mail: MedInfo@amicusrx.com </p>
+<p>Österreich 
+Amicus Therapeutics Europe Limited<br />
+Tel: (+43) 0800 909 E-Mail: MedInfo@amicusrx.com 
+España 
+Amicus Therapeutics S.L.U. 
+Tel: (+34) 900 941 616<br />
+e-mail: MedInfo@amicusrx.com </p>
+<p>Polska 
+Amicus Therapeutics Europe Limited<br />
+Tel.: (+48) 0080 012 15e-mail: MedInfo@amicusrx.com 
+France 
+Amicus Therapeutics SAS 
+Tél: (+33) 0 800 906 e-mail: MedInfo@amicusrx.com </p>
+<p>Portugal 
+Amicus Therapeutics Europe Limited<br />
+Tel: (+351) 800 812 e-mail: MedInfo@amicusrx.com 
+Hrvatska 
+Amicus Therapeutics Europe Limited<br />
+Tel: (+358) 0800 222 e-pošta: MedInfo@amicusrx.com </p>
+<p>Irlanda 
+Amicus Therapeutics Europe Limited<br />
+Tel: (+353) 1800 936 e-mail: MedInfo@amicusrx.com </p>
+<p>România 
+Amicus Therapeutics Europe Limited<br />
+Tel.: (+40) 0808 034 e-mail: MedInfo@amicusrx.com </p>
+<p>Slovenija 
+Amicus Therapeutics Europe Limited<br />
+Tel.: (+386) 0800 81e-pošta: MedInfo@amicusrx.com </p>
+<p>Ísland 
+Amicus Therapeutics Europe Limited<br />
+Sími: (+354) 800 7Netfang: MedInfo@amicusrx.com 
+Slovenská republika 
+Amicus Therapeutics Europe Limited<br />
+Tel: (+421) 0800 002 e-mail: MedInfo@amicusrx.com </p>
+<p>Italia 
+Amicus Therapeutics S.r.l. 
+Tel: (+39) 800 795 e-mail: MedInfo@amicusrx.com </p>
+<p>Suomi/Finland 
+Amicus Therapeutics Europe Limited<br />
+Puh/Tel: (+358) 0800 917 sähköposti/e-mail: MedInfo@amicusrx.com </p>
+<p>Κύπρος 
+Amicus Therapeutics Europe Limited<br />
+Τηλ: (+357) 800 97e-mail: MedInfo@amicusrx.com </p>
+<p>Sverige 
+Amicus Therapeutics Europe Limited<br />
+Tfn: (+46) 020 795 e-post: MedInfo@amicusrx.com </p>
+<p>Latvija 
+Amicus Therapeutics Europe Limited<br />
+Tel: (+371) 800 05e-pasts: MedInfo@amicusrx.com </p>
+<p>Reino Unido (Irlanda do Norte) 
+Amicus Therapeutics, UK Limited<br />
+Tel: (+44) 08 0823 46e-mail: MedInfo@amicusrx.com </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1094,6 +1684,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-639cce8c495cbcbb29789688f0c06663"
 * entry[0].resource = composition-da-639cce8c495cbcbb29789688f0c06663
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp639cce8c495cbcbb29789688f0c06663"
+* entry[=].resource = mp639cce8c495cbcbb29789688f0c06663
+                            
+                    
+Instance: bundlepackageleaflet-pt-639cce8c495cbcbb29789688f0c06663
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pombiliti Package Leaflet for language pt"
+Description: "ePI document Bundle for pombiliti Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-639cce8c495cbcbb29789688f0c06663"
+* entry[0].resource = composition-pt-639cce8c495cbcbb29789688f0c06663
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp639cce8c495cbcbb29789688f0c06663"
@@ -1195,6 +1807,18 @@ RuleSet: 639cce8c495cbcbb29789688f0c06663ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-639cce8c495cbcbb29789688f0c06663) // pombiliti pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

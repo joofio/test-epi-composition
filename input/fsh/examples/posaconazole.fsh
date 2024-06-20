@@ -1133,6 +1133,489 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-2e5fc8a9ad9427a49a8dfdfc9d19d676
+InstanceOf: CompositionUvEpi
+Title: "Composition for posaconazole Package Leaflet"
+Description:  "Composition for posaconazole Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2e5fc8a9ad9427a49a8dfdfc9d19d676)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - posaconazole"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Posaconazole AHCL e para que é utilizado 
+2. O que precisa de saber antes de tomar Posaconazole AHCL 
+3. Como tomar Posaconazole AHCL 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Posaconazole AHCL 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é posaconazole e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é posaconazole e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Posaconazole AHCL contém um medicamento chamado posaconazol. Pertence a um grupo de 
+medicamentos denominados “antifúngicos". Posaconazole AHCL é utilizado para prevenir e tratar 
+diferentes infeções causadas por fungos. </p>
+<p>O medicamento atua por eliminação ou interrupção do desenvolvimento de alguns tipos de fungos que 
+podem causar infeções. </p>
+<p>Posaconazole AHCL pode ser utilizado em adultos no tratamento dos seguintes tipos de infeções 
+fúngicas quando outros medicamentos antifúngicos não resultaram ou quando teve que interromper o 
+tratamento com estes medicamentos: 
+- infeções causadas por fungos da família do Aspergillus, que não melhoraram durante o 
+tratamento com os medicamentos antifúngicos anfotericina B ou itraconazol, ou quando o 
+tratamento com estes medicamentos teve que ser interrompido; 
+- infeções causadas por fungos da família do Fusarium, que não melhoraram durante o tratamento 
+com anfotericina B, ou quando o tratamento com anfotericina B teve que ser interrompido; 
+- infeções causadas por fungos que provocam as doenças conhecidas como “cromoblastomicose" 
+e “micetoma", que não melhoraram durante o tratamento com itraconazol, ou quando o 
+tratamento com itraconazol teve que ser interrompido; 
+- infeções causadas por um fungo denominado Coccidioides, que não melhoraram durante o 
+tratamento com um ou mais dos medicamentos anfotericina B, itraconazol ou fluconazol, ou 
+quando o tratamento com estes medicamentos teve que ser interrompido; 
+- infeções na zona da boca ou garganta (conhecidas como “sapinhos") causadas por fungos 
+denominados Candida, que não foram tratadas previamente. </p>
+<p>Posaconazole AHCL pode também ser utilizado para prevenir infeções fúngicas em adultos em risco 
+elevado de contrair uma infeção fúngica, tais como: 
+- doentes cujo sistema imunitário possa estar enfraquecido devido a quimioterapia para “leucemia 
+mieloide aguda" (LMA) ou “síndromes mielodisplásticos" (SMD) 
+- doentes a tomar “doses elevadas de terapêutica imunossupressora" após “transplante de células 
+estaminais hematopoiéticas" (TCEH). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar posaconazole"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar posaconazole"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Posaconazoel AHCL: 
+- se tem alergia ao posaconazol ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). 
+- se está a tomar terfenadina, astemizol, cisaprida, pimozida, halofantrina, quinidina, algum 
+medicamento contendo “alcalóides ergotamínicos" tais como a ergotamina ou 
+dihidroergotamina, ou “estatinas" tais como sinvastatina, atorvastatina ou lovastatina. 
+- se começou agora a tomar venetoclax ou se a sua dose de venetoclax está progressivamente a 
+ser aumentada para o tratamento de leucemia linfocítica crónica (CLL). </p>
+<p>Não tome Posaconazole AHCL se alguma das situações anteriores se aplicar a si. Em caso de dúvida, 
+fale com o seu médico ou farmacêutico antes de tomar Posaconazole AHCL. </p>
+<p>Consulte em baixo a secção "Outros medicamentos e Posaconazole AHCL" para mais informação, 
+incluindo informação sobre outros medicamentos que podem interagir com Posaconazole AHCL. </p>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Posaconazole AHCL 
+- se alguma vez sofreu uma reação alérgica a outro medicamento antifúngico como cetoconazol, 
+fluconazol, itraconazol ou voriconazol. 
+- se sofre ou sofreu de quaisquer problemas hepáticos (no fígado). Pode necessitar que sejam 
+efetuados testes ao sangue enquanto estiver a tomar Posaconazole AHCL. 
+- se desenvolver diarreia grave ou vómitos, uma vez que estas situações podem limitar a eficácia 
+deste medicamento. 
+- se tem um registo alterado de ritmo cardíaco (ECG) que revele um problema chamado intervalo 
+QTc longo. 
+- se tem uma fraqueza do músculo cardíaco ou insuficiência cardíaca. 
+- se tem um batimento cardíaco muito lento. 
+- se sofre de qualquer perturbação do ritmo cardíaco. 
+- se sofre de qualquer problema com os níveis de potássio, magnésio ou cálcio no seu sangue. 
+- se está a tomar vincristina, vinblastina ou outro “alcaloide da vinca" (medicamentos utilizados 
+para tratar o cancro). 
+- está a tomar venetoclax (um medicamento utilizado para tratar o cancro). </p>
+<p>Se alguma das situações anteriores se aplicar a si (ou em caso de dúvida), fale com o seu médico, 
+farmacêutico ou enfermeiro antes de utilizar Posaconazole AHCL. </p>
+<p>Caso desenvolva diarreia grave ou vómitos (enjoo) enquanto toma Posaconazole AHCL, fale 
+imediatamente com o seu médico, farmacêutico ou enfermeiro, pois isso pode impedir que o 
+medicamento atue corretamente. Consulte a secção 4 para mais informação. </p>
+<p>Crianças 
+A solução oral de Posaconazole AHCL não deve ser utilizado em crianças e adolescentes (17 anos de 
+idade ou mais novos). </p>
+<p>Outros medicamentos e Posaconazole AHCL 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Não tome Posaconazole AHCL se está a tomar algum dos seguintes medicamentos: 
+- terfenadina (utilizada para tratar alergias) 
+- astemizol (utilizado para tratar alergias) 
+- cisaprida (utilizada para tratar problemas de estômago) 
+- pimozida (utilizada para tratar sintomas do síndrome de Tourette e doenças mentais) 
+- halofantrina (utilizada para tratar malaria) 
+- quinidina (utilizada para tratar ritmos cardíacos anómalos). </p>
+<p>Posaconazole AHCL pode aumentar a quantidade destes medicamentos no sangue, o que pode 
+provocar alterações muito graves do seu ritmo cardíaco. 
+- quaisquer medicamentos que contenham “alcalóides ergotamínicos" como a ergotamina ou di- hidroergotamina, utilizadas no tratamento da enxaqueca. Posaconazole AHCL pode aumentar a 
+quantidade destes medicamentos no sangue, o que pode provocar uma redução grave do fluxo 
+sanguíneo para os seus dedos das mãos ou dos pés, causando danos. 
+- “estatinas", como sinvastatina, atorvastatina ou lovastatina, utilizadas no tratamento de 
+colesterol elevado. 
+- venetoclax quando utilizado no início do tratamento de um tipo de cancro, leucemia linfocítica 
+crónica (CLL). </p>
+<p>Não tome Posaconazole AHCL se alguma das situações referidas acima se aplica a si. Se tiver dúvidas, 
+consulte o seu médico ou farmacêutico antes de tomar Posaconazole AHCL. </p>
+<p>Outros medicamentos 
+Verifique a lista acima fornecida de medicamentos que não podem ser tomados enquanto estiver a 
+tomar Posaconazole AHCL. Para além dos medicamentos mencionados em cima, existem outros em 
+que o risco de alterações do ritmo cardíaco pode ser maior quando são administrados com 
+Posaconazole AHCL. Por favor, certifique-se que informa o seu médico sobre todos os medicamentos 
+que está a tomar (de prescrição médica obrigatória ou não). </p>
+<p>Alguns medicamentos poderão aumentar o risco de efeitos indesejáveis de Posaconazole AHCL 
+através do aumento da quantidade de Posaconazole AHCL no sangue. </p>
+<p>Os seguintes medicamentos podem diminuir a eficácia de Posaconazole AHCL pela diminuição da 
+quantidade de Posaconazole AHCL no sangue: 
+- rifabutina e rifampicina (utilizadas para tratar determinadas infeções). Se já está a tomar 
+rifabutina, será necessário efetuar testes ao sangue e terá de vigiar alguns possíveis efeitos 
+indesejáveis da rifabutina. 
+- fenitoína, carbamazepina, fenobarbital ou primidona (utilizado para tratar ou prevenir 
+convulsões). 
+- efavirenz e fosamprenavir, utilizados no tratamento da infeção por VIH. 
+- medicamentos utilizados para diminuir a acidez do estômago, tais como cimetidina e ranitidina 
+ou omeprazol e medicamentos semelhantes denominados inibidores da bomba de protões. </p>
+<p>Posaconazole AHCL pode possivelmente aumentar o risco de efeitos indesejáveis de alguns outros 
+medicamentos através do aumento da quantidade destes medicamentos no sangue. Estes 
+medicamentos incluem: 
+- vincristina, vinblastina e outros “alcalóides da vinca" (utilizados no tratamento do cancro) 
+- venetoclax (utilizado para tratar o cancro) 
+- ciclosporina (utilizada durante ou após transplante) 
+- tacrolimus e sirolimus (utilizados durante ou após transplante) 
+- rifabutina (utilizada para tratar determinadas infeções) 
+- medicamentos utilizados para tratar o VIH, denominados inibidores da protease (incluindo 
+lopinavir e atazanavir que são administrados com ritonavir) 
+- midazolam, triazolam, alprazolam e outras “benzodiazepinas" (utilizados como sedativos ou 
+relaxante musculares) 
+- diltiazem, verapamilo, nifedipina, nisoldipina e outros medicamentos denominados 
+bloqueadores dos canais de cálcio (utilizados para tratar a hipertensão arterial) 
+- digoxina (utilizada para tratar a insuficiência cardíaca) 
+- glipizida ou outras “sulfonilureias" (utilizadas para tratar os níveis elevados de açúcar no 
+sangue). 
+- ácido all-trans retinoico (ATRA), também chamado tretinoína (utilizado para tratar alguns 
+cancros do sangue). </p>
+<p>Se alguma das situações anteriores se aplicar a si (ou em caso de dúvida), fale com o seu médico ou 
+farmacêutico antes de tomar Posaconazole AHCL. </p>
+<p>Posaconazoe AHCL com alimentos e bebidas 
+Para melhorar a absorção de posaconazol, sempre que possível deve ser tomado durante ou 
+imediatamente após ingerir alimentos ou uma bebida nutricional (ver secção 3 “Como tomar 
+Posaconazole AHCL"). Não existe informação sobre o efeito do álcool no posaconazol. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou se pensa estar grávida, consulte o seu médico antes de começar a tomar 
+Posaconazole AHCL. Não tome Posaconazole AHCL durante a gravidez, exceto se indicado pelo seu 
+médico assistente.  </p>
+<p>Se é uma mulher em idade fértil deverá utilizar métodos contracetivos eficazes enquanto estiver a 
+tomar Posaconazole AHCL. Contacte imediatamente o seu médico caso engravide durante o 
+tratamento com Posaconazole AHCL. </p>
+<p>Não amamente enquanto tomar Posaconazole AHCL, uma vez que pequenas quantidades de 
+medicamento poderão passar para o leite materno. </p>
+<p>Condução de veículos e utilização de máquinas 
+Pode sentir tonturas, sonolência ou ter visão turva durante o tratamento com Posaconazoel AHCL, o 
+que pode interferir com a sua capacidade de condução de veículos ou utilização de ferramentas ou 
+máquinas. Caso aconteça, não conduza nem utilize ferramentas ou máquinas e contacte o seu médico. </p>
+<p>Posaconazole AHCL contém glucose 
+Posaconazole AHCL contém aproximadamente 1,75 g de glucose em 5 ml de suspensão. Se foi 
+informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este 
+medicamento. </p>
+<p>Posaconazole AHCL contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 5 ml de suspensão, ou seja, é 
+praticamente “isento de sódio". </p>
+<p>Posaconazole AHCL contém propilenoglicol 
+Este medicamento contém até 5,2 mg de propilenoglicol (E1520) por 5 ml de suspensão. </p>
+<p>Posaconazole AHCL contém benzoato de sódio 
+Este medicamento contém 11,4 mg de benzoato de sódio (E211) em cada 5 ml de suspensão. </p>
+<p>Posaconazole AHCL contém ácido benzoico 
+Este medicamento contém até 0,114 mg de ácido benzoico (E210) em cada 5 ml de suspensão. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar posaconazole"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar posaconazole"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não troque entre a suspensão oral de posaconazole  e comprimidos de posaconazol ou suspensão oral 
+gastrorresistente de posaconazol sem falar com o seu médico ou farmacêutico, pois isso pode resultar 
+em falta de eficácia ou num risco aumentado de reações adversas. </p>
+<p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. O seu médico vigiará a sua resposta e o seu estado clínico, 
+por forma a determinar durante quanto tempo necessitará de tomar Posaconazole AHCL e se será 
+necessária qualquer alteração na sua dose diária. </p>
+<p>A tabela em baixo mostra a dose recomendada e duração do tratamento que dependem do tipo de 
+infeção que tem e pode ser adaptada individualmente para si pelo seu médico. Não adapte a sua dose 
+nem altere o regime de tratamento sem falar com o seu médico. </p>
+<p>Sempre que possível deve tomar posaconazol durante ou imediatamente após a ingestão de alimentos 
+ou de uma bebida nutricional. </p>
+<p>Indicação 
+Dose e duração do tratamento recomendadas 
+Tratamento de Infeções Fúngicas 
+refratárias (Aspergilose invasiva, 
+Fusariose, 
+Cromoblastomicose/Miocetoma, 
+Coccidiomicose) 
+A dose recomendada é 200 mg (uma colher de 5 ml) tomada quatro 
+vezes por dia. 
+Em alternativa, se recomendado pelo médico, pode tomar 400 mg 
+(duas colheres de 5 ml) duas vezes por dia, de forma a que consiga 
+tomar as duas doses durante ou após ingerir alimentos ou uma 
+bebida nutricional. 
+Primeiro tratamento de Candidíase No primeiro dia de tratamento tome 200 mg (uma colher cheia de 
+5 ml) uma vez. Após o primeiro dia, tome 100 mg (2,5 ml) uma vez 
+por dia. 
+Prevenção de Infeções Fúngicas 
+graves 
+Tome 200 mg (uma colher cheia de 5 ml) três vezes por dia. </p>
+<p>Se tomar mais Posaconazole AHCL do que deveria 
+Caso considere ter tomado uma quantidade excessiva de Posaconazole AHCL, contacte imediatamente 
+o seu médico ou profissional de saúde. </p>
+<p>Caso se tenha esquecido de tomar Posaconazole AHCL 
+Caso tenha omitido uma dose, tome-a logo que se lembrar e prossiga o tratamento como recomendado. 
+No entanto, se estiver quase na hora da dose seguinte, tome essa dose na altura devida. Não tome uma 
+dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Caso ainda tenha alguma dúvida sobre a utilização deste medicamento, pergunte ao seu médico, 
+farmacêutico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Informe imediatamente o seu médico, farmacêutico ou enfermeiro se notar algum dos seguintes 
+efeitos indesejáveis graves - pode necessitar de tratamento médico urgente: 
+- náusea ou vómito (sentir-se ou estar enjoado), diarreia 
+- sinais de problemas do fígado, que incluem coloração amarela da pele ou da parte branca dos 
+olhos, urina anormalmente escura ou fezes claras, mal estar sem motivo aparente, problemas de 
+estômago, perda de apetite ou cansaço ou fraqueza anormais, aumento das enzimas hepáticas 
+revelado nas análises ao sangue 
+- reação alérgica </p>
+<p>Outros efeitos indesejáveis 
+Informe o seu médico, farmacêutico ou enfermeiro se notar algum dos efeitos indesejáveis seguintes: </p>
+<p>Frequentes: podem afetar até 1 em 10 pessoas 
+- alteração nos níveis de sais no seu sangue revelado nas análises ao sangue - sinais incluem 
+sentir-se confuso ou fraco 
+- sensações anormais na pele, tais como dormência, formigueiro, comichão, picada ou ardor 
+- dor de cabeça 
+- níveis de potássio baixos - revelados nas análises ao sangue </p>
+<ul>
+<li>níveis de magnésio baixos - revelados nas análises ao sangue </li>
+<li>pressão sanguínea elevada </li>
+<li>perda de apetite, dor ou perturbações no estômago, libertação de gases, boca seca, alterações no 
+paladar </li>
+<li>azia (sensação de acidez/ardor no peito, ascendente para a garganta) </li>
+<li>redução dos “neutrófilos" um tipo de glóbulos brancos (neutropenia) - isto pode aumentar o 
+risco de desenvolver infeções e é revelado nas análises ao sangue </li>
+<li>febre </li>
+<li>sentir-se fraco, com tonturas, cansado ou com sonolência </li>
+<li>erupção cutânea </li>
+<li>comichão </li>
+<li>obstipação </li>
+<li>desconforto retal </li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em 100 pessoas 
+- anemia - sinais incluem dor de cabeça, sensação de cansaço ou tonturas, falta de ar, palidez e 
+um nível baixo de hemoglobina nas análises ao sangue 
+- nível de plaquetas baixo (trombocitopenia) revelado nas análises ao sangue - que pode levar a 
+hemorragia 
+- nível de “leucócitos" baixo, um tipo de glóbulos brancos (leucopenia) revelado nas análises ao 
+sangue - pode levar a que desenvolva mais infeções 
+- nível de “eosinófilos" elevado, um tipo de glóbulos brancos (eosinofilia) - pode ocorrer se tiver 
+uma inflamação 
+- inflamação dos vasos sanguíneos 
+- problemas no ritmo cardíaco 
+- convulsões 
+- lesão nos nervos (neuropatia) 
+- ritmo cardíaco anormal - revelado num eletrocardiograma (ECG), palpitações, batimento 
+cardíaco lento ou acelerado, pressão arterial alta ou baixa 
+- pressão sanguínea baixa 
+- inflamação do pâncreas (pancreatite) - pode provocar dor intensa no estômago 
+- interrupção do fornecimento de oxigénio ao baço (enfarte esplénico) - pode causar dor aguda no 
+estômago 
+- problemas graves nos rins - os sinais incluem aumento ou diminuição da urina com cor 
+diferente do normal 
+- níveis elevados de creatinina no sangue - revelado nas análises ao sangue 
+- tosse, soluços 
+- hemorragia nasal 
+- dor forte no peito quando inspira (dor pleurítica) 
+- aumento dos gânglios linfáticos (linfadenopatia) 
+- redução da sensibilidade, especialmente na pele 
+- tremores 
+- níveis elevados ou baixos de açúcar no sangue 
+- visão turva, sensibilidade à luz 
+- perda de cabelo (alopécia) 
+- úlceras na boca 
+- calafrios, sensação de mal-estar geral 
+- dor, dor nas costas ou no pescoço, dor nos braços ou pernas 
+- retenção de água (edema) 
+- alterações menstruais (hemorragias vaginais anormais) 
+- incapacidade de dormir (insónia) 
+- ficar totalmente ou parcialmente sem capacidade para falar 
+- inchaço da boca 
+- sonhos anormais ou dificuldade em dormir 
+- problemas de coordenação ou equilibrio 
+- inflamação das mucosas 
+- nariz entupido </p>
+<ul>
+<li>dificuldade em respirar </li>
+<li>desconforto no peito </li>
+<li>sensação de inchaço </li>
+<li>náusea ligeira a grave, vómitos, cólicas e diarreia, normalmente causada por um vírus, dor no 
+estômago </li>
+<li>arrotar </li>
+<li>sentir-se nervoso </li>
+</ul>
+<p>Raros: podem afetar até 1 em 1.000 pessoas 
+- pneumonia - sinais incluem falta de ar e produção de expetoração sem cor 
+- pressão sanguínea elevada nos vasos sanguíneos pulmonares (hipertensão pulmonar) o que pode 
+causar danos graves nos seus pulmões e coração 
+- problemas sanguíneos como por exemplo alterações da coagulação do sangue ou hemorragia 
+prolongada 
+- reações alérgicas graves, incluindo erupção cutânea generalizada com bolhas e descamação da 
+pele 
+- problemas mentais tais como ouvir vozes ou ver coisas que não existem 
+- desmaio 
+- problemas no pensamento ou na fala, tremor anormal, especialmente nas mãos, que não 
+consegue controlar 
+- acidente vascular cerebral - sinais incluem dor, fraqueza, dormência ou formigueiro nos braços 
+ou nas pernas 
+- um ponto sem visibilidade ou negro no campo visual 
+- insuficiência do coração ou ataque de coração que pode levar a paragem cardíaca e morte, -
+ perturbações do ritmo cardíaco, com morte súbita 
+- coágulos de sangue nas pernas (trombose venosa profunda) - sinais incluem dor intensa ou 
+inchaço nas pernas 
+- coágulos de sangue nos pulmões (embolismo pulmonar) - sinais incluem falta de ar ou dor ao 
+respirar 
+- hemorragia no estômago ou no intestino - sinais incluem vomitar sangue ou sangue nas fezes 
+- bloqueio do intestino (obstrução intestinal), especialmente do “íleo". Este bloqueio irá impedir a 
+passagem do conteúdo do intestino ao intestino grosso, que resulta normalmente em distensão 
+abdominal, vómitos, prisão de ventre grave, perda de apetite e cólicas 
+-  “síndrome urémica hemolítica" uma situação caracterizada pela destruição de glóbulos 
+vermelhos (hemólise) que pode acontecer com ou sem insuficiência renal 
+-  “pancitopenia", uma diminuição de todas as células do sangue (glóbulos vermelhos, glóbulos 
+brancos e plaquetas) revelada nas análises ao sangue 
+-  grandes manchas roxas na pele (purpura trombocitopénica trombótica) 
+-  inchaço da face ou língua 
+-  depressão 
+-  visão dupla 
+-  dor no peito 
+-  mau funcionamento das glândulas suprarrenais - pode provocar fraqueza, fadiga, perda de 
+apetite, descoloração da pele 
+-  mau funcionamento da glândula hipófise - o que pode provocar diminuição dos níveis 
+sanguíneos de algumas hormonas que afetam o funcionamento dos órgãos sexuais masculinos e 
+femininos 
+-  problemas de audição 
+- pseudoaldosteronismo, que resulta em pressão sanguínea elevada com nível baixo de potássio 
+(revelado nas análises ao sangue) </p>
+<p>Desconhecidos: não podem ser calculados a partir dos dados disponíveis 
+- alguns doentes referiram ainda sensação de confusão após a toma de Posaconazole AHCL. </p>
+<p>Alguns doentes referiram ainda sensação de confusão após a toma de Posaconazole AHCL. A 
+frequência é desconhecida. </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro se notar algum dos efeitos adversos mencionados 
+em cima. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar posaconazole"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar posaconazole"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Manter este medicamento fora da vista e do alcance das crianças. </li>
+<li>Não utilize este medicamento após o prazo de validade impresso no rótulo. O prazo de validade 
+corresponde ao último dia do mês indicado. </li>
+<li>O medicamento não necessita de quaisquer precauções especiais de conservação. </li>
+<li>Se restou suspensão num frasco mais de quatro semanas após este ter sido aberto pela primeira 
+vez, não deverá tomá-la. Por favor, devolva o frasco contendo qualquer suspensão remanescente 
+ao seu farmacêutico. </li>
+<li>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Posaconazole AHCL 
+- A substância ativa é o posaconazol. Cada mililitro de suspensão oral contém 40 miligramas de 
+posaconazol. 
+- Os outros componentes da suspensão são hidroxiestearato de macrogol-glicerol, citrato de sódio 
+di-hidratado, ácido cítrico mono-hidratado, emulsão de simeticone (contendo polidimetil-
+siloxane, triestearato de polietilenoglicol sorbitano, metilcelulose, sílica gel, estearato de 
+polietilenoglicol, ácido sórbico [E200], ácido benzoico [E210] e ácido sulfúrico [E513]), goma 
+xantana (E415), benzoato de sódio (E211), glucose líquida, glicerol (E422), dióxido de titânio 
+(E171), aroma de morango (contendo propilenoglicol) e água purificada. </p>
+<p>Qual o aspeto de Posaconazole AHCL e conteúdo da embalagem </p>
+<p>Posaconazole AHCL é uma suspensão oral fluida, de cor branca a esbranquiçada, acondicionada num 
+frasco de vidro âmbar. Cada frasco é fornecido com uma colher doseadora, para medição das doses de 
+2,5 ml e 5 ml da suspensão oral. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Accord Healthcare S.L.U. 
+World Trade Center, Moll de Barcelona s/n,<br />
+Edifici Est, 6a planta, Barcelona, 
+08039 Barcelona, Espanha </p>
+<p>Fabricante<br />
+Accord Healthcare Polska Sp. z o.o. 
+ul. Lutomierska 95-200 Pabianice 
+Polónia </p>
+<p>Laboratori Fundacio Dau 
+C/ C, 12-14 Pol. Ind. Zona Franca </p>
+<p>08040 Barcelona 
+Espanha </p>
+<p>Pharmadox Healthcare Ltd. 
+KW20A Kordin Industrial Park 
+Paola, PLA 3Malta </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência 
+Europeia de Medicamentos: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
 
 
                     
@@ -1174,6 +1657,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-2e5fc8a9ad9427a49a8dfdfc9d19d676"
 * entry[0].resource = composition-da-2e5fc8a9ad9427a49a8dfdfc9d19d676
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2e5fc8a9ad9427a49a8dfdfc9d19d676"
+* entry[=].resource = mp2e5fc8a9ad9427a49a8dfdfc9d19d676
+                            
+                    
+Instance: bundlepackageleaflet-pt-2e5fc8a9ad9427a49a8dfdfc9d19d676
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for posaconazole Package Leaflet for language pt"
+Description: "ePI document Bundle for posaconazole Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-2e5fc8a9ad9427a49a8dfdfc9d19d676"
+* entry[0].resource = composition-pt-2e5fc8a9ad9427a49a8dfdfc9d19d676
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp2e5fc8a9ad9427a49a8dfdfc9d19d676"
@@ -1275,6 +1780,18 @@ RuleSet: 2e5fc8a9ad9427a49a8dfdfc9d19d676ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-2e5fc8a9ad9427a49a8dfdfc9d19d676) // posaconazole pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

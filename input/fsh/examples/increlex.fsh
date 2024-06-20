@@ -932,6 +932,562 @@ eller vat (må ikke gnides) </p>         </div>"""
 
 
 
+Instance: composition-pt-56dfb582fe4596bebf9f4c8e3931299d
+InstanceOf: CompositionUvEpi
+Title: "Composition for increlex Package Leaflet"
+Description:  "Composition for increlex Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp56dfb582fe4596bebf9f4c8e3931299d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - increlex"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é INCRELEX e para que é utilizado
+2. O que precisa de saber antes de utilizar INCRELEX
+3. Como utilizar INCRELEX
+4. Efeitos indesejáveis possíveis
+5. Como conservar INCRELEX
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é increlex e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é increlex e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>-
+INCRELEX é um líquido que contém mecassermina que é um fator de crescimento-1 insulin like
+(IGF-1), semelhante ao IGF-1 produzido pelo organismo.
+-
+É usado para tratar crianças e adolescentes dos 2 aos 18 anos de idade que são muito baixos para 
+a idade devido ao seu organismo não produzir IGF-1 suficiente. Esta situação médica é 
+denominada deficiência primária de IGF-1. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar increlex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar increlex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não utilize INCRELEX</h2>
+<h2>Se tiver atualmente algum tumor ou crescimento, seja canceroso ou não</h2>
+<h2>Se já tiver tido cancro</h2>
+<h2>Se tiver alguma condição que possa aumentar o risco de cancro</h2>
+<p>se tem alergia à mecassermina ou a qualquer outro componente deste medicamento (indicados 
+na secção 6).
+-
+em bebés prematuros ou recém-nascidos porque contém álcool benzílico.
+Advertências e precauções
+Existe um risco aumentado de tumores ou crescimentos (tanto cancerosos, como não cancerosos) em 
+crianças e adolescentes tratados com INCRELEX. Se ocorrer algum crescimento, lesão da pele ou 
+ocorra algum sintoma inesperado durante o tratamento ou após o tratamento, consulte o seu médico
+imediatamente uma vez que a mecassermina pode desempenhar um papel no desenvolvimento de 
+cancro.
+Fale com o seu médico ou farmacêutico antes de utilizar INCRELEX.
+-
+se tiver a coluna vertebral curvada (escoliose). Deve ser avaliado relativamente à progressão da 
+escoliose.
+- se ficar coxo ou desenvolver  dor na anca ou no joelho 
+- se tiver as amígdalas aumentadas (hipertrofia tonsilar). Deve ser examinado periodicamente. 
+- se tiver sintomas de aumento da pressão no cérebro (hipertensão intracraniana), tais como 
+alterações visuais, dores de cabeça, náuseas e/ou vómitos, procure aconselhamento junto do seu 
+médico. 
+- se tiver uma reação localizada no local de injeção ou uma reação alérgica generalizada com 
+INCRELEX. Contacte o médico o mais breve possível se tiver uma erupção cutânea localizada. 
+Procure ajuda médica imediata se tiver uma reação alérgica generalizada (urticária, dificuldade 
+em respirar, desmaio ou prostração e sensação geral de mal-estar). 
+- se tiver parado de crescer (as placas de crescimento ósseo estão fechadas). Neste caso o 
+INCRELEX não pode ajudar a crescer e não deve ser utilizado. </p>
+<p>Crianças com menos de 2 anos de idade </p>
+<p>O uso deste medicamento não foi estudado em crianças com idades inferiores a 2 anos, pelo que não é 
+recomendado. </p>
+<p>Outros medicamentos e INCRELEX </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Informe o seu médico em especial se toma insulina ou outros medicamentos antidiabéticos. Pode ser 
+necessário um ajuste de dose destes medicamentos. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Recomenda-se a realização de um teste de gravidez, que deverá ser negativo, em todas as mulheres 
+com potencial para engravidar antes do tratamento com mecassermina. Recomenda-se igualmente que 
+todas as mulheres férteis utilizem uma contraceção adequada durante o tratamento </p>
+<p>Se ocorrer uma gravidez, a terapêutica com mecasserminadeve ser descontinuada. </p>
+<p>A mecassermina não deve ser administrada a uma mãe a amamentar. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>A mecassermina pode causar hipoglicemia (efeito secundário muito frequente, ver secção 4) que pode 
+diminuir a capacidade de conduzir e utilizar máquinas, uma vez que pode diminuir a capacidade de 
+concentração ou de reação. </p>
+<p>Deve evitar participar em quaisquer atividades de alto risco (p.e. conduzir veículos, etc.) nas 2 a 3 
+horas após administração da dose, principalmente no início do tratamento com INCRELEX, até ter 
+sido encontrada uma dose de INCRELEX que não cause efeitos secundários que tornem estas 
+atividades arriscadas. </p>
+<p>INCRELEX contém álcool benzílico e sódio </p>
+<p>O INCRELEX contém álcool benzílico como conservante quepode causar reações tóxicas e reações 
+alérgicas em bebés e crianças até aos 3 anos de idade. </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por frasco ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar increlex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar increlex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.  </p>
+<p>A dose habitual é de 0,04 a 0,12 mg/kg do peso do doente, administradas duas vezes ao dia. Ver as 
+‘Instruções de Utilização’ no final deste folheto informativo. </p>
+<p>Injete o INCRELEX sob a pele, pouco antes ou logo após uma refeição ou merenda, uma vez que pode 
+ter efeitos hipoglicémicos tipo insulina e por essa razão poder diminuir os níveis de açúcar no sangue 
+(ver hipoglicemia na seção 4). Não injete a dose de INCRELEX se não puder comer por qualquer 
+razão. Não compense a dose omitida administrando duas doses na próxima vez. A dose seguinte deve 
+ser tomada normalmente, com uma refeição ou refeição ligeira. </p>
+<p>O INCRELEX deve ser injetado sob a pele na parte superior do braço, da perna (coxa), na zona do 
+estômago (abdómen) ou nas nádegas. Altere o local em cada injeção. Nunca injete numa veia ou 
+músculo.  </p>
+<p>Utilize apenas INCRELEX que esteja límpido e incolor. </p>
+<p>O tratamento com mecasserminaé uma terapêutica prolongada. Contacte o seu médico para outras 
+informações. </p>
+<p>Se utilizar mais INCRELEX do que deveria </p>
+<p>A mecassermina, tal como a insulina, pode diminuir os níveis de açúcar no sangue (ver hipoglicemia 
+na secção 4). </p>
+<p>Se foi injetado mais INCRELEX do que o recomendado, contate o seu médico imediatamente. </p>
+<p>A sobredosagem aguda pode dar origem a hipoglicemia (nível baixo de açúcar no sangue).  </p>
+<p>O tratamento da sobredosagem aguda com mecassermina deve ser orientado no sentido de fazer 
+inverter a hipoglicemia. Devem ser consumidos líquidos ou alimentos que contenham açúcar. Se o 
+doente não estiver suficientemente desperto ou alerta para beber líquidos que contenham açúcar, 
+poderá ser necessário administrar uma injeção de glucagom no músculo para inverter o nível baixo de 
+açúcar no sangue. O seu médico ou enfermeiro ensinar-lhe-á a administrar a injeção de glucagom. </p>
+<p>A sobredosagem prolongada pode originar o aumento de certas partes do corpo (p.e. mãos, pés, partes 
+do rosto) ou crescimento excessivo de todo o corpo. Se suspeita de sobredosagem prolongada, 
+contacte o seu médico imediatamente. </p>
+<p>Caso se tenha esquecido de utilizar INCRELEX </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. 
+Caso falhe uma dose, a dose seguinte não deve ser maior para compensar. A dose seguinte deve ser 
+tomada de forma normal, com uma refeição ou refeição ligeira. </p>
+<p>Se parar de utilizar INCRELEX </p>
+<p>Uma interrupção ou termo precoce do tratamento com mecassermina pode prejudicar o sucesso da 
+terapêutica de crescimento. Consulte o seu médico antes de parar o tratamento. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos 
+indesejáveis não indicados neste folheto, fale com o seu médico ou farmacêutico. </p>
+<p>Os efeitos indesejáveis que ocorrem com maior frequência com a mecassermina são: diminuição do 
+açúcar no sangue (hipoglicemia), vómitos, reações no local de injeção, dores de cabeça e infeções do 
+ouvido médio. Foram também notificadas reações alérgicas graves com o INCRELEX. Caso apresente 
+algum destes casos, siga por favor o aviso dado para cada um dos casos nas secções seguintes.  </p>
+<p>Frequência desconhecida (a frequência não pode ser estimada a partir dos dados disponíveis) 
+Tumores cancerosos e não cancerosos 
+Foi reportado um aumento de tumores cancerosos e não cancerosos em doentes tratados com 
+INCRELEX. O risco destes tumores poder ser superior se o INCRELEX for usado para indicações 
+diferentes das indicadas na Secção 1 ou utilizado em doses superiores às recomendadas na Secção 3.<br />
+Reações alérgicas graves (anafilaxia) 
+Foi notificada erupção da pele generalizada, dificuldade em respirar, tonturas, inchaço da cara e/ou da 
+garganta após utilização de mecassermina. Pare o INCRELEX imediatamente e procure ajuda médica 
+urgente se tiver uma reação alérgica grave. 
+Foram também notificadas reações alérgicas locais no local de injeção (comichão, bolhas). </p>
+<p>Perda de cabelo (alopecia) 
+Foi também notificada perda de cabelo após utilização de mecassermina. </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) 
+Nível baixo de açúcar no sangue (hipoglicemia)<br />
+A mecassermina pode diminuir os níveis de açúcar no sangue. Os sinais de baixo nível açúcar no 
+sangue são: tonturas, cansaço, inquietação, fome, irritabilidade, dificuldade de concentração, suores, 
+náuseas e batimentos cardíacos rápidos ou irregulares.  </p>
+<p>A hipoglicemia grave pode causar inconsciência, convulsões/ataques ou morte. Pare o INCRELEX 
+imediatamente e procure ajuda médica urgente se tiver convulsões /ataques ou se ficar inconsciente.  </p>
+<p>Se tomar INCRELEX, deve evitar participar em atividades de alto risco (como atividade física 
+vigorosa) nas 2 a 3 horas após a injeção do INCRELEX, especialmente no início do tratamento com 
+INCRELEX. </p>
+<p>Antes de iniciar o tratamento com INCRELEX, o seu médico ou enfermeiro(a) irá explicar-lhe como 
+tratar a hipoglicemia. Deve dispor sempre de uma fonte de açúcar, como sumo de laranja, gel de 
+glicose, rebuçados ou leite, para o caso de ocorrerem sintomas de hipoglicemia. No caso de 
+hipoglicemia grave, se o doente não reagir de forma positiva e não puder beber líquidos que 
+contenham açúcar, deve-lhe ser administrada uma injeção de glucagom. O médico ou enfermeiro(a) 
+ensinar-lhe-á a administrar a injeção. O glucagom aumenta o nível de açúcar no sangue quando é 
+injetado. É importante ter uma dieta equilibrada que inclua alimentos ricos em proteína e gordura, 
+como carne e queijo, além de alimentos que contenham açúcar. </p>
+<p>No início do tratamento e até ser estabelecida uma dose bem tolerada, deve ser monitorizado o açúcar 
+no sangue (glucose) na ponta do dedo antes de cada refeição. Se ocorrerem sintomas frequentes de 
+hipoglicemia ou hipoglicemia grave, a monitorização do açúcar no sangue deve continuar, 
+independentemente das condições alimentares e, se possível, em caso de sintomas de hipoglicemia. </p>
+<p>Hipertrofia no local de injeção (o tecido no local de injeção aumenta de tamanho) 
+Esta pode ser evitada mudando o local entre cada injeção (rotação dos locais de injeção).  </p>
+<p>Sistema digestivo 
+Ocorreram vómitos e dor na parte de cima da barriga com o tratamento com mecassermina. </p>
+<p>Infeções 
+Podem ser observadas infeções no ouvido médio em crianças com o tratamento com mecassermina. </p>
+<p>Sistema musculoesquelético 
+Ocorreram dores nas articulações e dor nos membros com o tratamento com mecassermina. </p>
+<p>Sistema nervoso 
+Ocorreram dores de cabeça com o tratamento com mecassermina. </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) 
+Convulsões 
+Foram observadas convulsões (ataques) com o tratamento com mecassermina.<br />
+Foi também notificado tonturas e tremores com o tratamento com mecassermina. </p>
+<p>Anomalias cardíacas 
+Foi notificado um bater acelerado do coração e sons cardíacos anormais com o tratamento com 
+mecassermina. </p>
+<p>Nível elevado de açúcar no sangue (hiperglicemia) 
+Foi também observado aumento dos níveis de açúcar no sangue com o tratamento com mecassermina. </p>
+<p>Amígdalas/adenoides aumentados 
+A mecassermina pode aumentar o tamanho das amígdalas/adenoides. Estes são alguns dos sinais de 
+amígdalas/adenoides aumentados: ressonar, dificuldade em respirar ou engolir, apneia do sono (uma 
+situação médica em que a respiração durante o sono é interrompida durante períodos curtos) ou líquido 
+no ouvido médio, bem como infeções do ouvido. A apneia do sono pode causar sonolência excessiva 
+durante o dia. Contacte o seu médico caso estes sintomas o incomodem. O médico deve examinar 
+regularmente as amígdalas/adenoides do doente.  </p>
+<p>Aumento do tamanho do timo 
+Aquando do tratamento com mecassermina, observou-se também aumento do tamanho do timo (órgão 
+especializado do sistema imunitário). </p>
+<p>Edema da papila ótica 
+O médico ou o ótico podem observar um inchaço da parte de trás do olho (devido ao um aumento da 
+pressão no cérebro) durante o tratamento com mecassermina. </p>
+<p>Hipoacusia (perda de audição) 
+Foi observada hipoacusia (perda de audição), dores nos ouvidos e líquido no ouvido médio com o 
+tratamento com mecassermina. Informe o seu médico caso surjam problemas de audição. </p>
+<p>Agravamento da escoliose (causado pelo rápido crescimento) 
+Se tiver escoliose, necessitará de ser examinado com frequência para determinar se existe aumento na 
+curvatura da coluna vertebral. Aquando do tratamento com mecassermina, foram também observados 
+casos de dor nos músculos. </p>
+<p>Sistema reprodutor 
+Foi observado um aumento do volume da mama com o tratamento com mecassermina. </p>
+<p>Aparelho digestivo 
+Ocorreu dor de barriga com o tratamento com mecassermina.  </p>
+<p>Alterações da pele e cabelo 
+Foram observados casos de espessamento da pele, sinais e textura anormal do cabelo com o tratamento 
+com mecassermina. </p>
+<p>Reações no local de injeção 
+Foram reportadas reações com o tratamento com mecassermina, incluindo dor, irritação, sangramento, 
+nódoas negras, vermelhidão e endurecimento. As reações no local de injeção podem ser evitadas 
+mudando o local da mesma entre cada injeção (rotação dos locais de injeção).  </p>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) 
+Aumento da pressão no cérebro (hipertensão intracraniana) 
+Por vezes, o INCRELEX pode causar um aumento temporário da pressão dentro do cérebro. Os 
+sintomas de hipertensão intracraniana podem incluir alterações visuais, dores de cabeça, enjoos e/ou 
+vómitos. Informe imediatamente o seu médico se tiver algum destes sintomas. O seu médico pode 
+verificar se existe hipertensão intracraniana. Se existir, ele poderá decidir diminuir ou descontinuar 
+temporariamente o tratamento com mecassermina. A mecassermina poderá ser iniciada novamente 
+após o episódio estar resolvido. </p>
+<p>Anomalias cardíacas 
+Em alguns doentes tratados com mecassermina, uma ecografia ao coração mostrou um aumento do 
+tamanho do músculo cardíaco e alterações da função da válvula cardíaca. O médico poderá realizar 
+uma ecografia ao coração antes, durante e após o tratamento com mecassermina. </p>
+<p>Reações no local de injeção 
+Foram notificadas reações como exantema, inchaço e nódulos de gordura com o tratamento com 
+INCRELEX. As reações no local de injeção podem ser evitadas mudando o local da mesma entre cada 
+injeção (rotação dos locais de injeção). </p>
+<p>Aumento de peso 
+Foi observado aumento de peso com o tratamento com mecassermina. </p>
+<p>Outros efeitos secundários pouco frequentes que ocorreram com o tratamento com mecassermina 
+incluem depressão e nervosismo. </p>
+<p>Comunicação de efeitos secundários 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar increlex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar increlex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na cartonagem e no rótulo após VAL. 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C - 8°C). Não congelar.<br />
+Manter o frasco dentro da embalagem exterior para proteger da luz.<br />
+Após a primeira abertura, o frasco pode ser conservado durante um período máximo de 30 dias a uma 
+temperatura de 2ºC a 8ºC. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de INCRELEX 
+- A substância ativa é mecassermina. Cada ml contém 10 mg de mecassermina. Cada frasco para 
+injetáveis contém 40 mg de mecassermina. 
+- Os outros componentes são: álcool benzílico, cloreto de sódio, polisorbato 20, ácido acético 
+glacial, acetato de sódio e água para preparações injetáveis (ver secção 2 “INCRELEX contém 
+álcool benzílico e sódio"). </p>
+<p>Qual o aspeto de INCRELEX e conteúdo da embalagem </p>
+<p>O INCRELEX é uma solução injetável incolor a ligeiramente amarela e transparente a ligeiramente 
+opalescente, fornecida num frasco de vidro, fechado com uma rolha e um selo. O frasco contém 4 ml 
+de solução. </p>
+<p>Embalagem de 1 frasco. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado: 
+Ipsen Pharma 
+65, quai Georges Gorse 
+92100 Boulogne-Billancourt<br />
+França  </p>
+<p>Fabricante: 
+Beaufour Ipsen Industrie 
+Rue Ethé Virton 
+28100 Dreux 
+França </p>
+<p>Tjoapack Netherlands B.V.<br />
+Nieuwe Donk 9<br />
+4879 AC Etten-Leur<br />
+Holanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien,<br />
+Luxembourg/Luxemburg 
+Ipsen NV 
+België /Belgique/Belgien<br />
+Tél/Tel: + 32 9 243 96<br />
+Italia 
+Ipsen SpA 
+Tel: + 39 02 39 22 България 
+Biomapas UAB 
+Tel: +370 37 366 
+Latvija 
+Ipsen Pharma pārstāvniecība Latvijā 
+Tel: +371 67622 
+Česká republika 
+Ipsen Pharma, s.r.o. 
+Tel: + 420 242 481<br />
+Hrvatska<br />
+Biomapas Zagreb d.o.o.,<br />
+Tel: +385 17 757 Lietuva 
+Ipsen Pharma Lietuvos filialas 
+Lietuva 
+Tel. + 370 37 337 </p>
+<p>Danmark, Norge, Suomi/Finland, Sverige, 
+Ísland 
+Institut Produits Synthèse (IPSEN) AB 
+Sverige/Ruotsi/Svíþjóð 
+Tlf/Puh/Tel/Sími: +46 8 451 60<br />
+Magyarország 
+Ipsen Pharma SAS Magyarországi 
+Tel: +36 1 555 5Deutschland, Österreich 
+Ipsen Pharma GmbH 
+Deutschland<br />
+Tel.: +49 89 262043 
+Nederland 
+Ipsen Farmaceutica B.V. 
+Tel: + 31 23 55 41<br />
+Eesti 
+Centralpharma Communications OÜ 
+Tel: +372 6015540  </p>
+<p>Polska 
+Ipsen Poland Sp. z o.o. 
+Tel.: + 48 (0) 22 653 68 Ελλάδα, Κύπρος, Malta 
+Ipsen Μονοπρόσωπη EΠΕ<br />
+Ελλάδα 
+Τηλ: + 30 210 984 3 
+Portugal 
+Ipsen Portugal - Produtos Farmacêuticos S.A. 
+Tel: + 351 21 412 3España 
+Ipsen Pharma S.A. 
+Tel: + 34 936 858<br />
+Slovenija 
+Biomapas UAB 
+Tel: +370 37 366France<br />
+Ipsen Pharma                              <br />
+Tél: + 33 1 58 33 50 00  </p>
+<p>Slovenská republika 
+Ipsen Pharma, organizačná zložka<br />
+Tel: + 420 242 481 821<br />
+Ireland, United Kingdom (Northern Ireland) 
+Ipsen Pharmaceuticals Limited 
+Ireland 
+Tel: + 44(0)1753 627România 
+Ipsen Pharma 
+România 
+Tel/Тел.: + 40 (021) 231 27 20  </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Foi concedida a este medicamento uma “Autorização de Introdução no Mercado em circunstâncias 
+especiais". 
+Isto significa que não foi possível obter informação completa sobre este medicamento devido à 
+raridade desta doença. 
+A Agência Europeia de Medicamentos irá rever anualmente qualquer nova informação que possa vir a 
+ser disponibilizada sobre o medicamento e este folheto será atualizado se necessário. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência 
+Europeia de Medicamentos: http://www.emea.europa.eu. Também existem links para outros sítios da 
+internet sobre doenças raras e tratamentos. </p>
+<p>Este folheto está disponível em todas as línguas da EU/EEE no sítio da internet da Agência Europeia 
+de Medicamentos. 
+&lt;------------------------------------------------------------------------------------------------------------------------&gt; 
+INSTRUÇÕES DE UTILIZAÇÃO </p>
+<p>O INCRELEX deve ser administrado utilizando seringas e agulhas de injeção estéreis descartáveis que 
+podem ser fornecidas pelo seu médico, farmacêutico ou enfermeiro(a). O volume das seringas deve ser 
+suficientemente pequeno para que a dose prescrita possa ser retirada do frasco com precisão razoável. </p>
+<p>Preparação da dose </p>
+<ol>
+<li>
+<p>Lave as mãos antes preparar o INCRELEX para a injeção. </p>
+</li>
+<li>
+<p>Utilize uma agulha e seringa descartáveis novas para cada injeção. Utilize as seringas e as 
+agulhas uma única vez. Elimine as mesmas de forma adequada num recipiente para objetos 
+cortantes (como os recipientes para produtos biológicos perigosos), num recipiente de plástico 
+duro (como uma garrafa de detergente), ou num recipiente metálico (como uma lata de café 
+vazia). Nunca partilhe agulhas e seringas. </p>
+</li>
+<li>
+<p>Verifique o líquido para se certificar de que o mesmo se encontra límpido e incolor. Não utilize 
+depois do prazo de validade (que está indicada no rótulo após EXP e que corresponde ao último 
+dia do mês) ou no caso de se apresentar turvo ou com pedaços. Se um frasco congelar, deite-o 
+fora. Pergunte ao seu farmacêutico como deitar fora os medicamentos que já não utiliza. </p>
+</li>
+<li>
+<p>Se está a usar um frasco novo, retire a tampa de proteção. Não retire a rolha de borracha. </p>
+</li>
+<li>
+<p>Limpe a rolha de borracha do frasco com um algodão com álcool para evitar a contaminação do 
+frasco por germes que podem ser introduzidos por inserções repetidas de agulhas (ver Figura 1). </p>
+</li>
+</ol>
+<p>Figura 1: Limpar 
+a parte superior 
+com álcool </p>
+<ol>
+<li>
+<p>Antes de introduzir a agulha no frasco, puxe o êmbolo da seringa para trás para aspirar para 
+dentro da seringa uma quantidade de ar igual à dose prescrita. Insira a agulha através da tampa 
+de borracha do frasco e empurre o êmbolo da seringa para injetar ar para dentro do frasco (ver 
+Figura 2). </p>
+</li>
+<li>
+<p>Deixe a seringa no frasco e vire ambos de cabeça para baixo. Segure a seringa e o frasco com 
+firmeza (ver Figura 3). </p>
+</li>
+</ol>
+<p>Figura 2: Injetar ar 
+para dentro do frasco 
+Figura 3: Preparar 
+a extração </p>
+<ol>
+<li>
+<p>Assegure-se de que a ponta da agulha se encontra dentro do líquido (ver Figura 4). Puxe o 
+êmbolo da seringa para retirar a dose correta para dentro da seringa (ver Figura 5). </p>
+</li>
+<li>
+<p>Antes de retirar a agulha do frasco, verifique se existem bolhas de ar na seringa. Se existirem 
+bolhas de ar na seringa, segure no frasco e na seringa com a agulha a apontar para cima e dê 
+umas pancadinhas ligeiras lateralmente na seringa até as bolhas flutuarem até ao cimo. Empurre 
+as bolhas para fora com o êmbolo e aspire mais líquido até ter a dose correta (ver Figura 6). </p>
+</li>
+</ol>
+<p>Figura 4: Ponta 
+no líquido 
+Figura 5: Extrair 
+a dose correta 
+Figura 6: Retirar as bolhas de 
+ar e voltar a encher a seringa 
+10.<br />
+Retire a agulha do frasco e substitua a tampa protetora. Não deixe que a agulha 
+toque em nada. Está agora pronto a administrar a injeção (ver Figura 7). </p>
+<p>Injeção da dose: </p>
+<p>Injete o INCRELEX de acordo com as instruções do seu médico. 
+Não administre a injeção se o doente não for capaz de comer pouco antes ou logo após a injeção. </p>
+<ol>
+<li>
+<p>Decida qual vai ser o local para injeção - na parte superior do braço, na coxa, nas nádegas ou no 
+abdómen (ver abaixo). O local de injeção deve ser alterado entre cada administração (rode os 
+locais de injeção), para evitar a formação de uma massa de tecido adiposo sob a pele 
+(lipohipertrofia) causada por injecções repetidas no mesmo local.  </p>
+</li>
+<li>
+<p>Use álcool ou sabão e água para limpar a pele onde vai administrar a injeção. O local de injeção 
+deve estar seco antes de administrar a injeção. 
+Figura 7: Pronto 
+para a injeção 
+Parte superior 
+do braço 
+Coxa 
+ Nádegas 
+Abdómen  </p>
+</li>
+<li>
+<p>Belisque levemente a pele. Introduza a agulha da forma que o seu médico lhe mostrou. Solte a 
+pele (ver Figura A). </p>
+</li>
+<li>
+<p>Empurre lentamente o êmbolo da seringa até ao fim, certificando-se de que injetou todo o 
+líquido. Retire completamente a agulha e pressione levemente o local onde a injeção foi 
+administrada com uma compressa ou algodão durante alguns segundos. Não esfregue a área 
+(ver Figura B). </p>
+</li>
+<li>
+<p>Siga as instruções do seu médico relativamente à eliminação da agulha e da seringa. Não volte 
+tapar a seringa. As agulhas e as seringas usadas devem ser colocadas num contentor para 
+objectos perfurantes/cortantes (como um contentor para resíduos de risco biológico), contentor 
+de plástico duro (como uma garrafa de detergente) ou contentor metálico (como uma lata de 
+café vazia). Estes contentores devem ser selados e deitados fora de forma adequada da forma 
+descrita pelo seu médico.  </p>
+</li>
+</ol>
+<p>Figura A: Beliscar levemente 
+a pele e injetar de acordo 
+com as instruções 
+Figura B: Pressionar 
+(sem esfregar) com uma 
+compressa ou algodão </p>         </div>"""      
+
+
+
 
 
                     
@@ -973,6 +1529,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-56dfb582fe4596bebf9f4c8e3931299d"
 * entry[0].resource = composition-da-56dfb582fe4596bebf9f4c8e3931299d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp56dfb582fe4596bebf9f4c8e3931299d"
+* entry[=].resource = mp56dfb582fe4596bebf9f4c8e3931299d
+                            
+                    
+Instance: bundlepackageleaflet-pt-56dfb582fe4596bebf9f4c8e3931299d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for increlex Package Leaflet for language pt"
+Description: "ePI document Bundle for increlex Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-56dfb582fe4596bebf9f4c8e3931299d"
+* entry[0].resource = composition-pt-56dfb582fe4596bebf9f4c8e3931299d
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp56dfb582fe4596bebf9f4c8e3931299d"
@@ -1074,6 +1652,18 @@ RuleSet: 56dfb582fe4596bebf9f4c8e3931299dListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-56dfb582fe4596bebf9f4c8e3931299d) // increlex pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

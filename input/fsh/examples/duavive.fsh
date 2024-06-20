@@ -1221,6 +1221,722 @@ hjemmeside: http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-082e15b5bc22cfe8d68c67168679c322
+InstanceOf: CompositionUvEpi
+Title: "Composition for duavive Package Leaflet"
+Description:  "Composition for duavive Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp082e15b5bc22cfe8d68c67168679c322)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - duavive"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é DUAVIVE e para que é utilizado
+2. O que precisa de saber antes de tomar DUAVIVE
+3. Como tomar DUAVIVE
+4. Efeitos indesejáveis possíveis
+5. Como conservar DUAVIVE
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é duavive e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é duavive e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DUAVIVE é um medicamento que contém duas substâncias ativas denominadas estrogénios 
+conjugados e bazedoxifeno. Os estrogénios conjugados são um medicamento que pertence a uma 
+classe de medicamentos conhecida como terapêutica hormonal de substituição (THS). O bazedoxifeno 
+pertence a uma classe de medicamentos não hormonais conhecida como moduladores seletivos dos 
+recetores de estrogénio (SERMs).
+DUAVIVE é utilizado em mulheres pós-menopáusicas que ainda tenham útero e que não tenham tido 
+uma menstruação natural nos últimos 12 meses.
+DUAVIVE é utilizado para:
+Alívio dos sintomas que ocorrem após a menopausa
+Durante a menopausa, a quantidade de estrogénio produzido pelo corpo da mulher diminui. Isso pode 
+causar sintomas como ardor na face, no pescoço e no peito (“afrontamentos"). DUAVIVE alivia estes 
+sintomas após a menopausa. Este medicamento apenas lhe será prescrito caso apresente sintomas que 
+afetem gravemente a sua vida quotidiana e o seu médico determine que outros tipos de THS não são 
+adequados para si.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar duavive"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar duavive"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>História médica e consultas médicas de rotina
+A utilização de DUAVIVE acarreta riscos, que têm de ser tidos em conta ao decidir começar ou 
+continuar a tomá-lo.
+Não há experiência de tratamento de mulheres com menopausa prematura (devido a insuficiência 
+ovárica ou cirurgia do ovário) com DUAVIVE.
+33
+Antes de começar a tomar este medicamento, o seu médico irá perguntar-lhe sobre a sua história 
+médica e a da sua família. O seu médico pode decidir realizar um exame físico. Este exame pode 
+incluir um exame da mama e/ou um exame interno, se for necessário, ou caso tenha preocupações
+específicas. Informe o seu médico caso tenha problemas de saúde ou doenças.
+Assim que começar a tomar este medicamento, deve ir a consultas periódicas com o seu médico (pelo 
+menos uma vez por ano). Durante estas consultas de rotina, discuta com o seu médico os benefícios e 
+os riscos de continuar a tomar DUAVIVE. Assegure-se que:
+
+Efetua regularmente mamografias e citologia do colo do útero, conforme as 
+recomendações do seu médico.
+
+Examina regularmente as suas mamas verificando a existência de quaisquer alterações,
+tais como covas na pele, alterações no mamilo, ou quaisquer nódulos que possa ver ou 
+sentir.
+Não tome DUAVIVE
+-
+se tem alergia aos estrogénios conjugados, ao bazedoxifeno ou a qualquer outro
+componente deste medicamento (indicados na secção 6).
+-
+se tem ou já teve, ou se suspeita que tem, cancro da mama.
+-
+se tem ou já teve, ou se suspeita que tem, um cancro dependente de estrogénio, como 
+cancro da mucosa uterina (endométrio) 
+-
+se teve recentemente uma hemorragia vaginal inexplicada.
+-
+se tem crescimento excessivo da mucosa do útero (hiperplasia do endométrio) e não 
+está a ser tratada.
+-
+se tem ou já teve um coágulo sanguíneo numa veia (trombose), por exemplo nas 
+pernas (trombose venosa profunda), nos pulmões (embolia pulmonar) ou nos olhos
+(trombose da veia retiniana).
+-
+se tem um distúrbio da coagulação sanguínea (como deficiência de proteína C, proteína S 
+ou antitrombina).
+-
+se tem ou teve recentemente uma doença causada por coágulos sanguíneos nas artérias, 
+como ataque cardíaco, AVC ou angina.
+-
+se tem ou já teve uma doença do fígado em que os seus testes de função hepática não
+voltaram ao normal.
+-
+se está grávida ou se ainda houver possibilidade de engravidar, ou se está a amamentar.
+-
+se tem um problema raro do sangue chamado porfíria, a qual é transmitida na família 
+(hereditário).
+Caso não tenha a certeza acerca de algum dos pontos acima, fale com o seu médico antes de tomar 
+este medicamento.
+Se alguma das condições acima surgir pela primeira vez enquanto estiver a tomar este medicamento, 
+pare de o tomar e consulte imediatamente o seu médico.
+Advertências e precauções
+Fale com o seu médico antes de tomar este medicamento se tem ou já teve alguma das seguintes 
+doenças, pois podem reaparecer ou agravar-se durante o tratamento com DUAVIVE. Caso tenha tido 
+alguma destas doenças, deve realizar consultas de rotina mais frequentes com o seu médico:
+
+fibromiomas uterinos
+
+crescimento de mucosa uterina fora do útero (endometriose) ou história de crescimento 
+excessivo da mucosa uterina (hiperplasia do endométrio)
+
+um risco acrescido de desenvolver coágulos sanguíneos [ver “Coágulos sanguíneos numa 
+veia (trombose)"]
+
+um risco acrescido de ter um cancro sensível ao estrogénio (como ter uma mãe, irmã ou 
+avó que já teve cancro da mama)
+
+pressão arterial elevada
+
+uma doença do fígado, tal como um tumor benigno no fígado
+
+diabetes
+34
+
+pedras na vesícula biliar
+
+enxaquecas ou cefaleias fortes
+
+uma doença rara do sistema imunitário que afeta muitos sistemas de órgãos (lúpus 
+eritematoso sistémico, LES)
+
+convulsões (epilepsia)
+
+asma
+
+uma doença que afeta o tímpano e a audição (otosclerose)
+
+um nível elevado de gordura no sangue (triglicéridos)
+
+retenção de líquidos devido a problemas cardíacos ou renais
+Pare de tomar DUAVIVE e consulte imediatamente o seu médico
+Se sentir alguma das seguintes situações:
+
+alguma das condições mencionadas na secção “Não tome DUAVIVE"
+
+se desenvolver uma coloração amarela da pele e da parte branca dos olhos (icterícia). 
+Estes podem ser sinais de doença do fígado
+
+se verificar um grande aumento da pressão arterial (os sintomas podem incluir dor de 
+cabeça, cansaço, tonturas)
+
+dor de cabeça do tipo enxaqueca que ocorre pela primeira vez
+
+se ficar grávida
+
+se observar sinais de um coágulo do sangue, tais como inchaço doloroso e vermelhidão
+nas pernas, dor no peito repentina ou dificuldade em respirar. Para mais informação, ver 
+“Coágulos de sangue numa veia (trombose)"  <br />
+DUAVIVE e cancro
+O crescimento excessivo da mucosa do útero (hiperplasia do endométrio) e cancro da mucosa do 
+útero (cancro do endométrio)
+Este medicamento contém estrogénios conjugados e o bazedoxifeno, e é utilizado para tratar mulheres 
+que ainda tenham útero.
+Quando tomar DUAVIVE, não tome estrogénios adicionais, uma vez que tal poderá aumentar o risco 
+de hiperplasia do endométrio.
+Caso tenha hemorragia vaginal inesperada, deve contactar o seu médico o mais rapidamente 
+possível.
+Cancro da mama
+As evidências revelam que a toma de terapêutica hormonal de substituição (THS) apenas com 
+estrogénio aumenta o risco de cancro da mama. O risco adicional depende da duração da utilização da 
+THS. O risco adicional torna-se mais evidente após 3 anos de utilização. Após a interrupção da THS, o 
+risco adicional diminuirá com o tempo; porém, o risco pode persistir durante 10 anos ou mais se tiver 
+utilizado THS durante um período superior a 5 anos.
+O efeito de DUAVIVE sobre o risco de cancro da mama poderá estar no mesmo intervalo do que o 
+verificado com THS com uma associação de estrogénio-progestagénio.
+Examine regularmente as suas mamas. Consulte o seu médico assim que for possível, caso 
+observe as seguintes alterações:
+
+covas na pele
+
+alterações no mamilo
+
+nódulos que possa ver ou sentir
+Cancro do ovário
+O cancro do ovário é raro - muito mais raro do que o cancro da mama. A utilização de THS apenas 
+35
+com estrogénios foi associada a um ligeiro aumento do risco de cancro do ovário.
+O risco de cancro do ovário varia com a idade. Por exemplo, em mulheres com idade entre 50 e 54
+anos que não tomam THS, cerca de 2 em cada 2000 mulheres serão diagnosticadas com cancro do 
+ovário ao longo de um período de 5 anos. Em mulheres que tomam THS durante 5 anos, haverá cerca 
+de 3 casos por cada 2000 utilizadoras (ou seja, cerca de 1caso adicional). Fale com o seu médico caso
+tenha alguma preocupação.
+O efeito de DUAVIVE no risco de cancro do ovário é desconhecido.
+DUAVIVE e o seu coração ou circulação
+Coágulos sanguíneos numa veia (trombose)
+DUAVIVE pode aumentar o risco de coágulos sanguíneos.
+A monoterapia apenas com estrogénio e com bazedoxifeno aumenta o risco de coágulos sanguíneos 
+nas veias (também chamado trombose venosa profunda, ou TVP), principalmente durante o primeiro 
+ano a tomar estes medicamentos.
+Os coágulos sanguíneos podem ser graves e, se um se deslocar até aos pulmões, pode causar dor no 
+peito, falta de ar, colapso ou até morte.
+Uma vez que é mais provável que tenha um coágulo sanguíneo nas veias à medida que envelhece e se 
+alguma das seguintes situações se aplicar a si, informe imediatamente o seu médico:
+
+se não conseguir andar durante muito tempo devido a uma grande cirurgia, lesão ou doença 
+prolongada (ver também secção 3, se tiver de ser submetida a cirurgia)
+
+se tem excesso de peso grave (IMC &gt;30 kg/m2)
+
+se teve um problema de coagulação que necessita de tratamento prolongado com um 
+medicamento utilizado para prevenir coágulos sanguíneos
+
+se algum dos seus familiares mais próximos já teve um coágulo sanguíneo na perna, pulmão ou 
+outro órgão
+
+se tem lúpus eritematoso sistémico (LES)
+
+se tem cancro.
+Caso alguma destas situações se aplique a si, fale com o seu médico antes de tomar este 
+medicamento.
+Doença cardíaca (ataque cardíaco)
+Não há evidências de que a THS vá prevenir um ataque cardíaco. Os dados de estudos controlados 
+aleatorizados não demonstraram risco acrescido de doença coronária arterial em mulheres 
+histerectomizadas sob terapêutica apenas com estrogénio.
+AVC
+O risco de ter um AVC é cerca de 1,5 vezes superior nas utilizadoras de THS do que nas não 
+utilizadoras. O número de casos adicionais de AVC devido à utilização de THS aumenta com a idade. 
+Entre as mulheres na faixa dos 50 anos que não tomam THS, em média, seria de esperar que, 8 em 
+cada 1000 teria um AVC num período de 5 anos. Para as mulheres na faixa dos 50 anos que tomam 
+THS, haverá 11 casos em 1000 utilizadoras, num período de 5 anos (ou seja, 3 casos adicionais).
+O efeito de DUAVIVE sobre o risco de AVC poderá estar no mesmo intervalo do que o verificado
+com THS com uma associação de estrogénio-progestagénio.
+Outros fatores que podem aumentar o risco de AVC incluem:
+
+envelhecimento
+36
+
+pressão arterial elevada
+
+fumar
+
+excesso de álcool
+
+ritmo cardíaco irregular
+Caso vá ser submetida a uma cirurgia
+Caso vá ser submetida a uma cirurgia, informe o cirurgião de que está a tomar DUAVIVE. Pode ter de 
+parar de tomar DUAVIVE cerca de 4 a 6 semanas antes da cirurgia para reduzir o risco de um coágulo 
+sanguíneo (ver Coágulos sanguíneos numa veia). Pergunte ao seu médico quando pode voltar a tomar 
+este medicamento.
+Em caso de dúvida, fale com o seu médico antes de tomar este medicamento.
+Outras condições
+Caso tenha uma das seguintes condições, o seu médico deve monitorizá-la:
+-
+problemas nos rins
+-
+um nível elevado de gordura no sangue preexistente (triglicéridos)
+-
+problemas no fígado
+-
+asma
+-
+convulsões (epilepsia)
+-
+enxaqueca
+-
+lúpus eritematoso sistémico (LES - uma doença rara do sistema imunitário que afeta 
+muitos sistemas de órgãos)
+-
+retenção de líquidos
+A terapêutica com estrogénio não previne a perda de memória. Existem algumas evidências de que o 
+risco de perda de memória é maior em mulheres que começam a fazer terapêutica com estrogénio após 
+os 65 anos. Peça aconselhamento ao seu médico.
+Crianças e adolescentes
+Este medicamento não se destina a ser utilizado em crianças e adolescentes de idade inferior a 18 anos.
+Outros medicamentos e DUAVIVE
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.
+Alguns medicamentos podem interferir com o efeito de DUAVIVE. Isto pode resultar em hemorragia 
+irregular. Isto aplica-se aos seguintes medicamentos:
+
+Medicamentos para a epilepsia (tais como fenobarbital, fenitoína e carbamazepina)
+
+Medicamentos para a tuberculose (tais como rifampicina, rifabutina)
+
+Medicamentos para a infeção pelo VIH (tais como nevirapina, efavirenz, ritonavir e 
+nelfinavir)
+
+Remédios à base de plantas contendo erva de S. João (Hypericum perforatum)
+Gravidez e amamentação
+Este medicamento é para ser utilizado apenas por mulheres pós-menopáusicas. Não tome este 
+medicamento se estiver grávida ou se pensar que pode estar grávida. Não tome este medicamento se 
+estiver a amamentar.
+Condução de veículos e utilização de máquinas
+DUAVIVE tem efeito reduzido na capacidade de conduzir e utilizar máquinas.
+37
+Se sentir sonolência depois de tomar este medicamento, deve evitar conduzir veículos ou utilizar
+máquinas.
+Têm sido notificados problemas de visão, como visão turva, associados à componente de bazedoxifeno 
+deste medicamento. Se isso acontecer, deve evitar conduzir ou utilizar máquinas até que o seu
+médico lhe diga que é seguro fazê-lo.
+DUAVIVE contém lactose, sacarose, maltitol líquido, glucose e sorbitol
+Se o seu médico lhe tiver dito que tem intolerância a alguns açúcares, contacte o seu médico antes
+de utilizar este medicamento.
+Este medicamento contém 0,0088 mg de sorbitol em cada comprimido.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar duavive"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar duavive"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu médico irá prescrever-lhe a dose mais baixa para tratar o seu sintoma durante o menor período 
+de tempo possível. Fale com o seu médico caso considere que esta dose é demasiado forte ou 
+demasiado fraca.
+Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+A dose recomendada é um comprimido uma vez por dia.
+Engula o comprimido inteiro com um copo de água.
+Pode tomar o comprimido a qualquer hora do dia, com ou sem alimentos; contudo, é aconselhável 
+tomar o comprimido à mesma hora todos os dias, uma vez que isso irá ajudá-la a lembrar-se de tomar 
+o seu medicamento.
+Deverá continuar a tomar este medicamento durante o período de tempo indicado pelo seu médico.
+Para que o medicamento faça efeito, deve ser tomado diariamente conforme prescrito.
+Se tomar mais DUAVIVE do que deveria
+Contacte o seu médico ou farmacêutico.
+Se tomar demasiados comprimidos, pode sentir náuseas (enjoos) ou vómitos. Pode ainda sentir 
+sensibilidade mamária, tonturas, dor abdominal, sonolência/fadiga ou hemorragia vaginal por um curto 
+período.
+Caso se tenha esquecido de tomar DUAVIVE
+Se se esqueceu de tomar um comprimido, tome-o logo que se lembrar. Contudo, se for próximo da 
+altura de tomar o comprimido seguinte, não tome o comprimido de que se esqueceu e tome apenas o 
+comprimido seguinte à hora habitual. Não tome uma dose a dobrar para compensar um comprimido
+que se esqueceu de tomar.
+Se parar de tomar DUAVIVE
+Se decidir parar de tomar este medicamento antes de terminar o tratamento prescrito, deve falar 
+primeiro com seu médico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.
+38</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Pare de tomar DUAVIVE e consulte um médico imediatamente se tiver um dos seguintes efeitos 
+indesejáveis graves:
+Pouco frequentes: podem afetar 1 pessoa em cada 100
+
+se começar a ter dor de cabeça do tipo enxaqueca ou dor de cabeça forte
+Raros: podem afetar até 1 pessoa em cada 1000
+
+sinais de um coágulo sanguíneo, tais como inchaço doloroso e vermelhidão nas pernas, 
+dor súbita no peito ou dificuldade em respirar
+
+sinais de um coágulo sanguíneo no olho (veia da retina), tais como perturbação visual 
+unilateral, incluindo perda de visão, dor e inchaço do olho, principalmente se ocorrer 
+subitamente.
+
+uma reação alérgica grave - os sintomas podem incluir pieira súbita e dor ou aperto no 
+peito, inchaço das pálpebras, da face, dos lábios, da boca, da língua ou da garganta,
+dificuldade em respirar, colapso
+
+inchaço dos olhos, do nariz, dos lábios, da boca, da língua ou da garganta, dificuldade em 
+respirar, tonturas fortes ou desmaios, erupção cutânea (sintomas de angioedema)
+
+sintomas de pancreatite, que podem incluir dor abdominal superior grave que se pode 
+espalhar para as costas, acompanhada por inchaço abdominal, febre, náuseas e vómitos
+
+início abrupto de dor abdominal e passagem de sangue vermelho vivo nas fezes, com ou 
+sem diarreia, devido ao bloqueio súbito de uma artéria que irriga os intestinos (colite 
+isquémica)
+
+um ataque cardíaco - os sintomas incluem, normalmente, dor, incluindo dor no peito que 
+se espalha para o maxilar, o pescoço e a parte superior do braço. Pode sentir suores, falta 
+de ar, fadiga, náuseas e desmaios, para além da dor
+Muito raros: podem afetar até 1 pessoa em cada 10000
+
+um grande aumento da pressão arterial (os sintomas podem incluir dor de cabeça, 
+cansaço, tonturas)
+
+eritema multiforme: os sintomas podem incluir erupção cutânea com manchas rosa-
+avermelhadas nas palmas das mãos ou na planta dos pés, que podem formar bolhas. Pode 
+ter úlceras na boca, nos olhos ou nos genitais, assim como febre
+Desconhecido: a frequência não pode ser calculada a partir dos dados disponíveis
+
+outras reações oculares (ver faíscas ou flashes de luz, campo visual mais estreito e 
+inchaço do olho ou pálpebra).
+Outros efeitos indesejáveis
+Muito frequentes: podem afetar mais de 1 pessoa em cada 10
+
+Dor abdominal (dor de estômago)
+Frequentes: podem afetar até 1 pessoa em cada 10
+
+Espasmos musculares (incluindo cãibras nas pernas)
+
+Obstipação
+
+Diarreia
+
+Náuseas
+
+Candidíase (infeção vaginal provocada por um fungo)
+
+Aumento dos níveis de triglicéridos (substâncias gordas no sangue)
+39
+Pouco frequentes: podem afetar 1 pessoa em cada 100
+
+Doença da vesícula biliar [por exemplo, pedras na vesícula biliar, inflamação da vesícula 
+biliar (colecistite)]
+Os efeitos indesejáveis que se seguem foram observados com utilização isolada de estrogénios 
+conjugados e/ou bazedoxifeno (as substâncias ativas deste medicamento) e também podem ocorrer 
+com este medicamento:
+Muito frequentes: podem afetar mais de 1 pessoa em cada 10
+
+Afrontamentos
+
+Cãibras musculares
+
+Inchaço visível da face, mãos, pernas, pés ou tornozelos (edema periférico)
+Frequentes: podem afetar até 1 pessoa em cada 10
+
+Dor no peito, sensibilidade mamária, mamas inchadas
+
+Corrimento mamilar
+
+Dor nas articulações
+
+Alopecia (perda de cabelo)
+
+Alterações do peso (aumento ou diminuição)
+
+Aumento das enzimas do fígado (identificado em testes de função hepática de rotina)
+
+Boca seca
+
+Sonolência
+
+Urticária
+
+Erupção cutânea
+
+Comichão
+Pouco frequentes: podem afetar até 1 pessoa em cada 100
+
+Inflamação vaginal
+
+Corrimento vaginal
+
+Erosão do colo do útero detetada por exame médico
+
+Coágulo sanguíneo nas veias da perna
+
+Coágulo sanguíneo nos pulmões
+
+Coágulo sanguíneo numa veia na parte de trás do olho (veia da retina), que pode causar 
+perda de visão
+
+Náuseas (enjoos)
+
+Dor de cabeça
+
+Enxaqueca
+
+Tonturas
+
+Alterações do humor
+
+Nervosismo
+
+Depressão
+
+Perda de memória (demência)
+
+Alterações no interesse em sexo (aumento ou diminuição da libido)
+
+Descoloração da pele da face ou de outras partes do corpo
+
+Aumento do crescimento dos pelos
+
+Dificuldade em utilizar lentes de contacto
+Raros: podem afetar até 1 pessoa em cada 1000
+
+Dor pélvica
+
+Alterações do tecido mamário
+
+Vómitos
+
+Irritabilidade
+
+Efeito na forma como os níveis de açúcar no sangue (glicemia) são controlados, incluindo 
+um aumento dos níveis de açúcar no sangue
+
+Agravamento de asma
+40
+
+Agravamento de epilepsia (convulsões)
+
+Crescimento de meningioma benigno, um tumor não cancerígeno das membranas que 
+envolvem o cérebro ou a espinal medula
+Muito raros: podem afetar até 1 pessoa em cada 10000
+
+Papos vermelhos dolorosos na pele
+
+Agravamento de coreia (uma doença neurológica existente caracterizada por movimentos 
+espasmódicos involuntários do corpo)
+
+Aumento de hemangiomas hepáticos, um tumor benigno (não cancerígeno) do fígado
+
+Níveis de cálcio no sangue Baixos (hipocalcemia); frequentemente, não há sintomas que 
+sugiram que o nível de cálcio no sangue está baixo, contudo quando a hipocalcemia é 
+grave pode sentir-se cansada, com mal-estar geral, deprimida e desidratada. Estes 
+sintomas podem ser acompanhados por dor nos ossos e dor abdominal. Podem 
+desenvolver-se pedras nos rins, que podem causar dor forte na região do meio das costas 
+(cólica renal).
+
+Agravamento de porfíria, uma doença do sangue rara e que é transmitida na família 
+(doença hereditária).
+Desconhecido: a frequência não pode ser calculada a partir dos dados disponíveis
+
+Palpitações (sentir os batimentos do seu coração)
+
+Olho seco, dor no olho, acuidade visual diminuída, insuficiência visual, blefarospasmo 
+(pestanejar involuntário e anormal ou espasmos nas pálpebras)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo efeitos indesejáveis não indicados neste folheto,
+fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente 
+através do Sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar duavive"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar duavive"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+Não conservar acima de 25ºC.
+Conservar na embalagem original para proteger da humidade.
+Após a abertura da bolsa do blister, utilizar no prazo de 60 dias.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de DUAVIVE
+As substâncias ativas são os estrogénios conjugados e o bazedoxifeno. Cada comprimido contém 
+0,45 mg de estrogénios conjugados e acetato de bazedoxifeno equivalente a 20 mg de bazedoxifeno.
+Os outros componentes são: Lactose mono-hidratada, sacarose, monopalmitato de sacarose,
+41
+polidextrose (E1200, contendo glucose e sorbitol) e maltitol líquido (ver secção 2), celulose 
+monocristalina, celulose em pó, hidroxipropilcelulose, hidroxietilcelulose, estearato de magnésio, 
+ácido ascórbico, hipromelose (E464), povidona (E1201), poloxamer 188, fosfato de cálcio, dióxido de 
+titânio (E171), macrogol (400), óxido de ferro vermelho (E172), óxido de ferro negro (E172) e 
+propilenoglicol (E1520).
+Qual o aspeto de DUAVIVE e conteúdo da embalagem
+O comprimido de libertação modificada de DUAVIVE 0,45 mg/20 mg é um comprimido cor-de-rosa, 
+oval, com “0.45/20" impresso numa face.
+Os comprimidos de libertação modificada são apresentados em blisters de PVC/Aclar/PVC com comprimidos. Cada blister está selado numa bolsa de alumínio com um absorvente de oxigénio.
+Titular da Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG, Boulevard de la Plaine 17, 1050 Bruxelles, Bélgica.
+Fabricante
+Pfizer Ireland Pharmaceuticals, Little Connell Newbridge, County Kildare, Irlanda.
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België / Belgique / Belgien
+Luxembourg / Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. + 370 52 51 4000
+България
+Пфайзер Люксембург САРЛ, 
+Клон България
+Ten: +359 2 970 4333
+Magyarország
+Pfizer Kft
+Tel: +36 1 488 3700
+Česká Republika
+Pfizer, spol. s r.o. 
+Tel: +420-283-004-111
+Malta
+Vivian Corporation Ltd.
+Tel: +35621 344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 201 100
+Nederland
+Pfizer BV
+Tel: +31 (0)10 406 43 01
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0) 30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 526 Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel.: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Hellas A.E.
+Τηλ.: +30 210 6785 800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel: +48 22 335 61 00
+42
+España
+Organon Salud, S.L.
+Tel.: +34 91 591 12 79
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: + 351 21 423 5500
+France
+Pfizer
+Tel +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel.: + 386 (0) 1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská Republika
+Pfizer Luxembourg SARL, 
+organizačná zložka
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf
+Simi: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Organon Italia S.r.l.
+Tel: +39 06 3336407
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 Kύπρος
+Pfizer Hellas (Cyprus Branch) A.E. 
+Τηλ: +357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Latvijā
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: + 371 670 35 775
+Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1262,6 +1978,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-082e15b5bc22cfe8d68c67168679c322"
 * entry[0].resource = composition-da-082e15b5bc22cfe8d68c67168679c322
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp082e15b5bc22cfe8d68c67168679c322"
+* entry[=].resource = mp082e15b5bc22cfe8d68c67168679c322
+                            
+                    
+Instance: bundlepackageleaflet-pt-082e15b5bc22cfe8d68c67168679c322
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for duavive Package Leaflet for language pt"
+Description: "ePI document Bundle for duavive Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-082e15b5bc22cfe8d68c67168679c322"
+* entry[0].resource = composition-pt-082e15b5bc22cfe8d68c67168679c322
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp082e15b5bc22cfe8d68c67168679c322"
@@ -1363,6 +2101,18 @@ RuleSet: 082e15b5bc22cfe8d68c67168679c322ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-082e15b5bc22cfe8d68c67168679c322) // duavive pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

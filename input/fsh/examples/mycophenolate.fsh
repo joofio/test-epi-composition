@@ -1163,6 +1163,758 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-abfb98258fb6ebad664e6e102308dcc0
+InstanceOf: CompositionUvEpi
+Title: "Composition for mycophenolate Package Leaflet"
+Description:  "Composition for mycophenolate Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpabfb98258fb6ebad664e6e102308dcc0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - mycophenolate"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Micofenolato de mofetil Teva e para que é utilizado 
+2. O que precisa de saber antes de tomar Micofenolato de mofetil Teva 
+3. Como tomar Micofenolato de mofetil Teva 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Micofenolato de mofetil Teva 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é mycophenolate e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é mycophenolate e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Micofenolato de mofetil Teva é um medicamento que é utilizado para suprimir a atividade imunológica. </p>
+<p>A substância ativa utilizada neste medicamento chama-se micofenolato de mofetil. </p>
+<p>Micofenolato de mofetil Teva é usado para prevenir que o seu organismo rejeite o rim, coração ou fígado 
+transplantado. Micofenolato de mofetil Teva é usado em conjunto com outros medicamentos com função 
+semelhante (isto é ciclosporina e corticosteroides). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar mycophenolate"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar mycophenolate"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ADVERTÊNCIA 
+O micofenolato causa defeitos congénitos e aborto. Se é uma mulher que pode engravidar, tem de 
+apresentar um teste de gravidez negativo antes do início do tratamento e tem de seguir os conselhos de 
+contraceção que lhe forem prestados pelo seu médico. 
+O seu médico irá falar consigo e dar-lhe informação escrita, particularmente sobre os efeitos do 
+micofenolato nos bebés em gestação. Leia a informação cuidadosamente e siga as instruções. 
+Caso não perceba perfeitamente estas instruções, por favor peça ao seu médico que as explique novamente 
+antes de tomar micofenolato. Veja também informação adicional nesta secção em “Advertências e 
+precauções" e “Gravidez, contraceção e amamentação". </p>
+<p>Não tome Micofenolato de mofetil Teva, </p>
+<ul>
+<li>
+<p>Se tem alergia ao micofenolato de mofetil, ao ácido micofenólico ou a qualquer outro componente 
+deste medicamento (indicados na secção 6). </p>
+</li>
+<li>
+<p>Se for uma mulher que possa estar grávida e caso não tenha apresentado um teste de gravidez negativo 
+antes da sua primeira prescrição, pois o micofenolato causa defeitos congénitos e aborto. </p>
+</li>
+<li>
+<p>Se estiver grávida ou planeia engravidar ou pensa que possa estar grávida. </p>
+</li>
+<li>
+<p>Se não estiver a usar contraceção eficaz (ver Gravidez, contraceção e amamentação). </p>
+</li>
+<li>
+<p>Se estiver a amamentar. 
+Não tome este medicamento se alguma das situações se aplicar a si. Se não tiver a certeza, fale com o seu 
+médico ou farmacêutico antes de tomar Micofenolato de mofetil Teva. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale imediatamente com o seu médico antes de começar o tratamento com Micofenolato de mofetil Teva: </p>
+<ul>
+<li>
+<p>se tem mais de de 65 anos porque pode apresentar um risco aumentado de ter efeitos indesejáveis, tais 
+como certas infeções virais, hemorragia gastrointestinal e edema pulmonar, quando comparado com 
+doentes mais jovens. </p>
+</li>
+<li>
+<p>se detetar qualquer evidência de infeção (ex. febre, dor de garganta), aparecimento inesperado de 
+nódoas negras e/ ou hemorragia. </p>
+</li>
+<li>
+<p>se tem ou já alguma vez teve algum problema com o seu aparelho digestivo, ex. úlcera no estômago. </p>
+</li>
+<li>
+<p>se planeia engravidar ou se engravidar enquanto estiver a tomar ou o seu parceiro estiver a tomar 
+Micofenolato de mofetil Teva. </p>
+</li>
+<li>
+<p>se tiver uma deficiência enzimática hereditária como as síndromes de Lesch-Nyhan e de 
+Kelley-Seegmiller. </p>
+</li>
+</ul>
+<p>Micofenolato de mofetil Teva reduz os mecanismos de defesa do seu organismo. Por este motivo, existe 
+um risco maior de cancro da pele. Assim, deverá limitar a sua exposição ao sol e às radiações ultravioletas 
+(UV), vestindo roupa adequada que o proteja e aplicando um protetor solar com elevado índice de 
+proteção. </p>
+<p>Não pode doar sangue durante o tratamento com Micofenolato de mofetil Teva e pelo menos durante as 
+6 semanas após parar o tratamento. Os homens não podem doar sémen durante o tratamento com 
+Micofenolato de mofetil Teva e pelo menos durante os 90 dias após parar o tratamento. </p>
+<p>Crianças e adolescentes 
+Micofenolato de mofetil Teva é utilizado em crianças e adolescentes (entre os 2 e os 18 anos de idade) 
+para prevenir a rejeição do organismo de um rim transplantado. 
+Micofenolato de mofetil Teva não deve ser utilizado em crianças e adolescentes (dos 2 aos 18 anos de 
+idade) para transplante do coração ou fígado. 
+Micofenolato de mofetil Teva não deve ser utilizado de forma alguma em crianças com idade inferior a 
+2 anos porque não podem ser feitas recomendações de dose devido aos dados limitados de eficácia e 
+segurança para este grupo etário. </p>
+<p>Outros medicamentos e Micofenolato de mofetil Teva 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos. </p>
+<p>Se responder sim a qualquer uma das seguintes questões, fale com o seu médico antes de começar a tomar 
+Micofenolato de mofetil Teva: </p>
+<ul>
+<li>
+<p>Sem que o seu médico saiba, está a tomar algum medicamento contendo: 
+o 
+azatioprina ou outro agente imunossupressor (que às vezes é dado aos doentes após a operação 
+de transplante), 
+o 
+colestiramina (utilizada para tratar doentes com níveis sanguíneos de colesterol elevados), 
+o 
+rifampicina (antibiótico), 
+o 
+antiácidos ou inibidores da bomba de protoões (usados para problemas de acidez no seu 
+estômago, tais como a indigestão), 
+o 
+fixadores de fósforo (utilizados em doentes com insuficiência renal crónica para diminuir a 
+absorção de fosfato), 
+o 
+antibióticos (utilizados para tratar infeções bacterianas), 
+o 
+isavuconazol (utilizado para tratar infeções fúngicas), 
+o 
+telmisartan (utilizado para tratar a presão arterial elevada), 
+o 
+ou quaisquer outros medicamentos (incluindo medicamentos que pode comprar sem receita 
+médica)? </p>
+</li>
+<li>
+<p>Necessita de ser vacinado (com vacinas vivas)? O seu médico deverá aconselhar qual a mais indicada 
+para si. </p>
+</li>
+</ul>
+<p>Gravidez, contraceção e aleitamento </p>
+<p>Contraceção em mulheres a tomar Micofenolato de mofetil Teva 
+Caso seja uma mulher que possa engravidar tem de utilizar um método de contraceção eficaz com 
+Micofenolato de mofetil Teva. Isto inclui: </p>
+<ul>
+<li>
+<p>Antes de começar a tomar Micofenolato de mofetil Teva. </p>
+</li>
+<li>
+<p>Durante todo o tratamento com Micofenolato de mofetil Teva. </p>
+</li>
+<li>
+<p>Durante 6 semanas após ter terminado de tomar Micofenolato de mofetil Teva. 
+Fale com o seu médico sobre a contraceção mais adequada para si. Isto irá depender da sua situação 
+individual. É preferível a utilização de dois métodos contracetivos uma vez que irão diminuir o risco de 
+gravidez não planeada. Contacte o seu médico assim que possível se pensa que a sua contraceção 
+possa não ter sido eficaz ou caso se tenha esquecido de tomar o seu comprimido contracetivo. </p>
+</li>
+</ul>
+<p>Não consegue engravidar se alguma das seguintes situações se aplicar a si: </p>
+<ul>
+<li>
+<p>Se estiver na pós-menopausa, ou seja, se tiver, pelo menos, 50 anos de idade e a sua última 
+menstruação tiver ocorrido há mais de um ano (se as suas menstruações tiverem parado porque fez 
+tratamento para o cancro, ainda existe possibilidade de engravidar). </p>
+</li>
+<li>
+<p>Se as suas trompas de Falópio e ambos os ovários tiverem sido removidos por cirurgia 
+(salpingooforectomia bilateral). </p>
+</li>
+<li>
+<p>Se o seu útero tiver sido removido por cirurgia (histerectomia). </p>
+</li>
+<li>
+<p>Os seus ovários já não funcionam (insuficiência ovárica prematura, que tenha sido confirmada por um 
+ginecologista). </p>
+</li>
+<li>
+<p>Nasceu com uma das seguintes doenças raras que impossibilitam uma gravidez: genotipo XY, 
+síndrome de Turner ou agenesia uterina. </p>
+</li>
+<li>
+<p>É uma criança ou adolescente que ainda não iniciou a menstruação. </p>
+</li>
+</ul>
+<p>Contraceção em homens a tomar Micofenolato de mofetil Teva 
+A evidência disponível não indica um risco aumentado de malformações ou de aborto se o pai tomar 
+micofenolato. Contudo, o risco não pode ser completamente excluído. Por precaução recomenda-se que 
+utilize ou a sua parceira utilize contraceção segura durante o tratamento e durante 90 dias após ter 
+terminado de tomar Micofenolato de mofetil Teva. </p>
+<p>Se planeia ter um filho, fale com o seu médico sobre os potenciais riscos e terapêuticas alternativas. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico ou 
+farmacêutico antes de tomar este medicamento. O seu médico irá falar consigo sobre os riscos em caso de 
+gravidez e as alternativas que pode tomar para prevenir a rejeição do seu órgão transplantado se: </p>
+<ul>
+<li>
+<p>Planeia engravidar. </p>
+</li>
+<li>
+<p>Um dos seus períodos faltou ou pensa que um dos seus períodos faltou, ou tem sangramento menstrual 
+anormal, ou suspeita que está grávida. </p>
+</li>
+<li>
+<p>Tiver relações sexuais sem utilizar métodos de contraceção eficazes. 
+Caso fique grávida durante o tratamento com micofenolato, tem de informar o seu médico imediatamente. 
+No entanto, continue a tomar Micofenolato de mofetil Teva até ver o seu médico. </p>
+</li>
+</ul>
+<p>Gravidez 
+O micofenolato causa uma frequência muito alta de aborto (50%) e de defeitos congénitos graves 
+(23-27%) no bebé em gestação. Os defeitos congénitos que foram notificados incluem anomalias dos 
+ouvidos, dos olhos, da face (fissura do lábio/palato), do desenvolvimento dos dedos, do coração, esófago 
+(tubo que liga a garganta ao estômago), rins e sistema nervoso (por exemplo, espinha bífida (onde os ossos 
+da coluna não estão desenvolvidos adequadamente)). O seu bebé pode ser afetado por um ou mais destes 
+defeitos. Se é uma mulher que pode engravidar, tem de apresentar um teste de gravidez negativo antes do 
+início do tratamento e tem de seguir os conselhos de contraceção prestados pelo seu médico. O seu médico 
+pode pedir mais do que um teste para se assegurar que não está grávida antes do início do tratamento. </p>
+<p>Amamentação 
+Não tome Micofenolato de mofetil Teva se estiver a amamentar. Isto porque pequenas quantidades do 
+medicamento podem passar para o leite materno. </p>
+<p>Condução de veículos e utilização de máquinas 
+Micofenolato de mofetil Teva tem uma influência moderada na capacidade para conduzir veículos ou 
+utilizar máquinas. Se se sentir sonolento, atordoado ou confuso, fale com o seu médico ou enfermeiro e 
+não conduza ou utilize quaisquer ferramentas ou máquinas até se sentir melhor. </p>
+<p>Micofenolato de mofetil Teva contém sódio 
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por cápsula, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar mycophenolate"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar mycophenolate"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>O seu tratamento foi iniciado e está ser monitorizado por um médico especialista em transplantes. </p>
+<p>O modo habitual de tomar Micofenolato de mofetil Teva é o seguinte: </p>
+<p>Transplante renal </p>
+<p>Adultos 
+A primeira dose será administrada nas primeiras 72 horas após a operação de transplante. A dose diária 
+recomendada é de 8 cápsulas (2 g de substância ativa), ingeridas em 2 tomas separadas. Isto significa 
+tomar 4 cápsulas de manhã, e depois, 4 cápsulas à noite.  </p>
+<p>Crianças e adolescentes (entre os 2 e os 18 anos de idade) 
+A dose a administrar irá variar com o tamanho do seu filho. O médico decidirá qual a dose mais 
+apropriada com base na área de superfície corporal (peso e altura). A dose recomendada é de 600 mg/m2, 
+ingerida duas vezes por dia. </p>
+<p>Transplante cardíaco </p>
+<p>Adultos 
+A primeira dose será administrada nos primeiros 5 dias após a operação de transplante. A dose diária 
+recomendada é de 12 cápsulas (3 g de substância ativa), ingeridas em 2 tomas separadas. Isto significa 
+tomar 6 cápsulas de manhã, e depois, 6 cápsulas à noite. </p>
+<p>Crianças 
+Não existe informação sobre a utilização de Micofenolato de mofetil Teva em crianças com um 
+transplante cardíaco. </p>
+<p>Transplante hepático </p>
+<p>Adultos 
+A primeira dose oral de Micofenolato de mofetil Teva ser-lhe-á administrada quatro dias após a operação 
+de transplante, assim que for capaz de engolir o medicamento. A dose diária recomendada é de 
+12 cápsulas (3 g de substância ativa) ingeridas em 2 tomas separadas. Isto significa tomar 6 cápsulas de 
+manhã, e depois, 6 cápsulas à noite. </p>
+<p>Crianças 
+Não existe informação sobre a utilização de Micofenolato de mofetil Teva em crianças com um 
+transplante hepático. </p>
+<p>Modo e via de administração 
+Engula as cápsulas inteiras com um copo de água. Pode tomar com ou sem alimentos.Não parta nem 
+esmague as cápsulas e não tome uma cápsula que esteja partida, aberta ou fendida. Evite o contacto com o 
+pó derramado de uma cápsula danificada. Se uma cápsula se abrir acidentalmente, lave com água e sabão 
+as áreas da sua pele onde o pó possa ter tocado. Se algum pó da cápsula lhe entrar para os olhos ou boca, 
+lave abundantemente com água fria. </p>
+<p>O tratamento irá prosseguir enquanto precisar da imunossupressão para impedir a rejeição do órgão 
+transplantado. </p>
+<p>Se tomar mais Micofenolato de mofetil Teva do que deveria 
+É importante não tomar demasiadas cápsulas. Se tomou mais cápsulas do que as recomendadas ou se 
+alguém, acidentalmente, tomou o seu medicamento, procure imediatamente um médico ou dirija-se a um 
+hospital. </p>
+<p>Caso se tenha esquecido de tomar Micofenolato de mofetil Teva 
+Se em qualquer altura se tiver esquecido de tomar o seu medicamento, tome-o assim que se lembrar; 
+depois, continue a tomá-lo como habitualmente. 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Micofenolato de mofetil Teva 
+Não pare de tomar Micofenolato de mofetil Teva só porque se sente melhor. É importante tomar o 
+medicamento de acordo com as recomendações do seu médico. Suspender o tratamento com Micofenolato 
+de mofetil Teva pode aumentar a probabilidade de rejeição do órgão transplantado. Não deixe de tomar o 
+seu medicamento exceto se tiver indicações do seu médico em contrário. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Fale imediatamente com um médico se detetar qualquer dos seguintes efeitos indesejáveis graves - pode necessitar de tratamento médico urgente: </p>
+<ul>
+<li>
+<p>se tiver sinais de infeção, como febre ou dores de garganta </p>
+</li>
+<li>
+<p>se tiver nódoas negras ou hemorragias inesperadas </p>
+</li>
+<li>
+<p>se tiver uma erupção na pele, inchaço da face, lábios, língua ou garganta com dificuldade em 
+respirar - pode estar a ter uma reação alérgica grave ao medicamento (como, por exemplo, 
+anafilaxia, angioedema). </p>
+</li>
+<li>
+<p>se tiver fezes negras ou com sangue ou se vomitar sangue ou partículas escuras que se parecem com 
+borras de café. Estes podem ser sinais de hemorragia no estômago ou nos intestinos. </p>
+</li>
+</ul>
+<p>A frequência de determinados efeitos indesejáveis depende do órgão transplantado, ou seja, alguns efeitos 
+indesejáveis podem ocorrer mais ou menos dependendo de este medicamento estar a ser tomado para 
+evitar que o seu organismo rejeite um coração transplantado ou um rim transplantado. Por uma questão de 
+clareza, cada efeito indesejável é sempre listado com a sua frequência mais elevada. </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes (podem afetar mais do que uma em 10 pessoas) </p>
+<ul>
+<li>
+<p>infeções bacterianas, víricas e/ou fúngicas </p>
+</li>
+<li>
+<p>infeção grave que pode afetar todo o corpo </p>
+</li>
+<li>
+<p>diminuição do número de glóbulos brancos, plaquetas ou glóbulos vermelhos, a qual pode resultar 
+num risco aumentado de infeções, hematomas, hemorragias, falta de ar e fraqueza. </p>
+</li>
+<li>
+<p>hemorragia por baixo da pele </p>
+</li>
+<li>
+<p>aumento do número de glóbulos brancos </p>
+</li>
+<li>
+<p>demasiado ácido no sangue </p>
+</li>
+<li>
+<p>nível elevado de colesterol e/ou lípidos no sangue </p>
+</li>
+<li>
+<p>nível elevado de açúcar no sangue </p>
+</li>
+<li>
+<p>nível elevado de potássio no sangue; níveis baixos de potássio, magnésio, cálcio e/ou fosfato no 
+sangue </p>
+</li>
+<li>
+<p>nível elevado de ácido úrico no sangue, gota </p>
+</li>
+<li>
+<p>sensação de agitação, pensamentos, perceção e níveis de consciência anómalos, depressão, sensação 
+de ansiedade, dificuldade em dormir </p>
+</li>
+<li>
+<p>aumento da tensão dos músculos, tremor, sonolência, sensação de tonturas, dores de cabeça, 
+formigueiros, sensação de picadas ou dormência </p>
+</li>
+<li>
+<p>batimento mais rápido do coração </p>
+</li>
+<li>
+<p>tensão arterial baixa/alta dilatação dos vasos sanguíneos. </p>
+</li>
+<li>
+<p>acumulação de líquido nos pulmões, falta de ar, tosse </p>
+</li>
+<li>
+<p>barriga inchada </p>
+</li>
+<li>
+<p>vómitos, dor de estômago, diarreia, sensação de enjoo </p>
+</li>
+<li>
+<p>prisão de ventre, indigestão, gases (flatulência) </p>
+</li>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>alterações nos diferentes parâmetros de laboratório </p>
+</li>
+<li>
+<p>inflamação do fígado, amarelecimento da pele e da parte branca dos olhos </p>
+</li>
+<li>
+<p>crescimento da pele, erupção na pele, acne </p>
+</li>
+<li>
+<p>fraqueza muscular </p>
+</li>
+<li>
+<p>dor nas articulações </p>
+</li>
+<li>
+<p>problemas de rins </p>
+</li>
+<li>
+<p>sangue na urina </p>
+</li>
+<li>
+<p>febre, sensação de frio, dor, sensação de fraqueza e debilidade </p>
+</li>
+<li>
+<p>retenção de líquidos no corpo </p>
+</li>
+<li>
+<p>parte de um órgão ou tecido interno que passa por um ponto fraco nos músculos abdominais, 
+formando uma protuberância </p>
+</li>
+<li>
+<p>dor muscular, de pescoço e dor nas costas </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>cancro da pele, ou crescimento da pele não canceroso </p>
+</li>
+<li>
+<p>crescimento de tecido anormal e excessivo </p>
+</li>
+<li>
+<p>diminuição no número de todas as células do sangue </p>
+</li>
+<li>
+<p>aumento benigno do volume dos nódulos linfáticos, alterações inflamatórias da pele 
+(pseudolinfoma) </p>
+</li>
+<li>
+<p>diminuição do peso </p>
+</li>
+<li>
+<p>modo anormal de pensar </p>
+</li>
+<li>
+<p>convulsões </p>
+</li>
+<li>
+<p>distorção do sentido do paladar </p>
+</li>
+<li>
+<p>coágulo de sangue que se forma numa veia </p>
+</li>
+<li>
+<p>inflamação do tecido que reveste a parede interna do abdómen e que cobre a maior parte dos órgãos 
+abdominais </p>
+</li>
+<li>
+<p>bloqueio dos intestinos </p>
+</li>
+<li>
+<p>inflamação do cólon que causa dor abdominal ou diarreia (por vezes causada pelo citomegalovírus), 
+úlcera da boca e/ou estômago e/ou duodeno, inflamação do estômago, esófago e/ou boca e lábios </p>
+</li>
+<li>
+<p>arrotos </p>
+</li>
+<li>
+<p>queda de cabelo </p>
+</li>
+<li>
+<p>sensação de mal-estar </p>
+</li>
+<li>
+<p>crescimento do tecido das gengivas </p>
+</li>
+<li>
+<p>inflamação do pâncreas, que causa uma dor intensa no abdómen e nas costas. </p>
+</li>
+</ul>
+<p>Pouco frequentes(podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>infeções por protozoários </p>
+</li>
+<li>
+<p>proliferação do tecido linfático, incluindo tumores malignos. </p>
+</li>
+<li>
+<p>produção insuficiente de glóbulos vermelhos </p>
+</li>
+<li>
+<p>doenças graves da medula óssea </p>
+</li>
+<li>
+<p>acumulação de fluido linfático no corpo </p>
+</li>
+<li>
+<p>falta de ar, tosse, que pode ser devido a bronquiectasias (uma situação em que as vias respiratórias 
+do pulmão estão anormalmente dilatadas) ou fibrose pulmonar (cicatrizes no pulmão). Fale com o 
+seu médico se tiver uma tosse persistente ou dificuldade em respirar. </p>
+</li>
+<li>
+<p>diminuição da quantidade de anticorpos no sangue </p>
+</li>
+<li>
+<p>diminuição importante do número de certos glóbulos brancos (possíveis sintomas são febre, dor de 
+garganta, infeções frequentes) (agranulocitose) </p>
+</li>
+</ul>
+<p>Desconhecido (não pode ser calculado a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>alterações da parede interna do intestino delgado (atrofia das vilosidades intestinais) </p>
+</li>
+<li>
+<p>inflamação grave da membrana que cobre o cérebro e a medula espinal </p>
+</li>
+<li>
+<p>inflamação grave do coração e das suas válvulas </p>
+</li>
+<li>
+<p>infeções bacterianas que resultam geralmente de uma doença pulmonar grave (tuberculose, infeção 
+micobacteriana atípica) </p>
+</li>
+<li>
+<p>doença grave dos rins (nefropatia associada ao vírus BK) </p>
+</li>
+<li>
+<p>doença grave do sistema nervoso central (leucoencefalopatia multifocal progressiva associada ao 
+vírus JC) </p>
+</li>
+<li>
+<p>diminuição do número de certos glóbulos brancos (neutropenia) </p>
+</li>
+<li>
+<p>alteração da forma de certos glóbulos brancos </p>
+</li>
+</ul>
+<p>Não pare de tomar o seu medicamento sem falar primeiro com o seu médico. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis diretamente 
+através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar mycophenolate"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar mycophenolate"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior, após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Micofenolato de mofetil Teva </p>
+<ul>
+<li>
+<p>A substância ativa é micofenolato de mofetil. Cada cápsula contém 250 mg de micofenolato de 
+mofetil. </p>
+</li>
+<li>
+<p>Os outros componentes são: 
+Conteúdo da cápsula 
+Amido de milho pré-gelificado 
+Povidona K-Croscarmelose sódica 
+Estearato de magnésio 
+Composição da cápsula 
+Cabeça 
+Indigotina (E132) 
+Dióxido de titânio (E171) 
+Gelatina 
+Corpo 
+Óxido de ferro vermelho (E172) 
+Óxido de ferro amarelo (E172) 
+Dióxido de titânio (E171) 
+Gelatina 
+Tinta preta contém: shellac, óxido de ferro negro (E172), propilenoglicol e hidróxido de potássio. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Micofenolato de mofetil Teva e conteúdo da embalagem </p>
+<p>Cápsulas 
+Corpo: 
+cor de caramelo opaco, gravado com “250" axialmente a tinta preta. 
+Cabeça: 
+azul claro opaca gravada com “M" axialmente a tinta preta. </p>
+<p>Micofenolato de mofetil Teva está disponível em embalagens com blisteres de PVC/PVdC- alumínio com 
+100 ou 300 ou 100 x 1 cápsulas por embalagem. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Teva B.V. 
+Swensweg 5 
+2031GA Haarlem 
+Países Baixos </p>
+<p>Fabricantes 
+Teva Pharmaceutical Works Private Limited Company 
+Pallagi út 13. Debrecen H-4Hungria </p>
+<p>Pharmachemie B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado:  </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+Specifar Α.Β.Ε.Ε. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+Specifar Α.Β.Ε.Ε. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA} </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1204,6 +1956,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-abfb98258fb6ebad664e6e102308dcc0"
 * entry[0].resource = composition-da-abfb98258fb6ebad664e6e102308dcc0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpabfb98258fb6ebad664e6e102308dcc0"
+* entry[=].resource = mpabfb98258fb6ebad664e6e102308dcc0
+                            
+                    
+Instance: bundlepackageleaflet-pt-abfb98258fb6ebad664e6e102308dcc0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mycophenolate Package Leaflet for language pt"
+Description: "ePI document Bundle for mycophenolate Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-abfb98258fb6ebad664e6e102308dcc0"
+* entry[0].resource = composition-pt-abfb98258fb6ebad664e6e102308dcc0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpabfb98258fb6ebad664e6e102308dcc0"
@@ -1305,6 +2079,18 @@ RuleSet: abfb98258fb6ebad664e6e102308dcc0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-abfb98258fb6ebad664e6e102308dcc0) // mycophenolate pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

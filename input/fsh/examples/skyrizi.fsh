@@ -898,6 +898,412 @@ Det gælder også bivirkninger, som ikke er medtaget i denne indlægsseddel. Se 
 
 
 
+Instance: composition-pt-2d41c9020db6e6ef74cf6c085116c0ad
+InstanceOf: CompositionUvEpi
+Title: "Composition for skyrizi Package Leaflet"
+Description:  "Composition for skyrizi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2d41c9020db6e6ef74cf6c085116c0ad)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - skyrizi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instruções de utilização </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Skyrizi e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Skyrizi </li>
+<li>Como utilizar Skyrizi </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Skyrizi </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é skyrizi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é skyrizi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Skyrizi contém a substância ativa risancizumab. </p>
+<p>Skyrizi é utilizado para tratar as seguintes doenças inflamatórias: </p>
+<ul>
+<li>
+<p>Psoríase em placas </p>
+</li>
+<li>
+<p>Artrite psoriática </p>
+</li>
+</ul>
+<p>Como funciona Skyrizi 
+Este medicamento funciona bloqueando a atividade de uma proteína do corpo chamada “IL-23", que 
+causa inflamação. </p>
+<p>Psoríase em placas 
+Skyrizi é utilizado para tratar adultos com psoríase em placas moderada a grave. Skyrizi reduz a 
+inflamação e, portanto, pode ajudar a reduzir os sintomas da psoríase em placas, tais como ardor, 
+comichão, dor, vermelhidão e descamação. </p>
+<p>Artrite psoriática 
+Skyrizi é utilizado para tratar adultos com artrite psoriática. A artrite psoriática é uma doença que 
+causa a inflamação das articulações e psoríase. Se tiver artrite psoriática ativa, poder-lhe-ão ser 
+receitados em primeiro lugar outros medicamentos. Se estes medicamentos não tiverem o efeito 
+desejado, ser-lhe-á receitado Skyrizi isoladamente ou em combinação com outros medicamentos para 
+tratar a sua artrite psoriática. </p>
+<p>Skyrizi reduz a inflamação e, portanto, pode ajudar a reduzir a dor, a rigidez e o inchaço nas suas 
+articulações e à volta das mesmas, a dor e rigidez na sua coluna, a erupção psoriática na pele, os danos 
+psoriáticos nas unhas, e pode abrandar os danos no osso e na cartilagem das suas articulações. Estes 
+efeitos podem facilitar as suas atividades diárias normais, reduzir o cansaço, e melhorar a sua 
+qualidade de vida.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar skyrizi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar skyrizi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Skyrizi </p>
+<ul>
+<li>
+<p>se tem alergia ao risancizumab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). </p>
+</li>
+<li>
+<p>se tem uma infeção, incluindo tuberculose ativa, que o seu médico considere importante. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes e durante a utilização de Skyrizi: </p>
+<ul>
+<li>
+<p>se tem atualmente uma infeção ou se tem uma infeção que está constantemente a aparecer. </p>
+</li>
+<li>
+<p>se tem tuberculose (TB). </p>
+</li>
+<li>
+<p>se recebeu recentemente ou planeia receber uma imunização (vacina). Não lhe devem ser dados 
+certos tipos de vacinas enquanto utiliza Skyrizi. </p>
+</li>
+</ul>
+<p>É importante manter um registo do número de lote de Skyrizi. 
+Sempre que tiver uma nova embalagem de Skyrizi, registe a data e o número de lote (que se encontra 
+na embalagem após “Lot") e guarde esta informação num local seguro. </p>
+<p>Reações alérgicas 
+Informe o seu médico ou procure imediatamente ajuda médica se detetar quaisquer sinais de reação 
+alérgica enquanto estiver a utilizar Skyrizi, tais como: </p>
+<ul>
+<li>
+<p>dificuldade em respirar ou engolir </p>
+</li>
+<li>
+<p>inchaço da face, lábios, língua ou garganta </p>
+</li>
+<li>
+<p>comichão intensa da pele, com erupção avermelhada ou nódulos </p>
+</li>
+</ul>
+<p>Crianças e adolescentes 
+Skyrizi não é recomendado para crianças e adolescentes com idade inferior a 18 anos porque Skyrizi 
+não foi estudado neste grupo etário. </p>
+<p>Outros medicamentos e Skyrizi 
+Informe o seu médico, farmacêutico ou enfermeiro: </p>
+<ul>
+<li>
+<p>se estiver a utilizar, tiver utilizado recentemente ou se vier a utilizar outros medicamentos. </p>
+</li>
+<li>
+<p>se foi recentemente vacinado ou vai ser vacinado. Não lhe devem ser dados certos tipos de 
+vacinas enquanto utiliza Skyrizi. </p>
+</li>
+</ul>
+<p>Se tiver dúvidas, fale com o seu médico, farmacêutico ou enfermeiro antes e durante a utilização de 
+Skyrizi. </p>
+<p>Gravidez, contraceção e amamentação 
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de utilizar 
+este medicamento. Isto porque não é conhecido como este medicamento irá afetar o bebé. </p>
+<p>Se é uma mulher que pode engravidar, deve utilizar métodos contracetivos enquanto utiliza este 
+medicamento e durante, pelo menos, 21 semanas após a sua última dose de Skyrizi. </p>
+<p>Se está a amamentar ou se planeia amamentar, fale com o seu médico antes de utilizar este 
+medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+É pouco provável que Skyrizi influencie a sua capacidade de conduzir e de utilizar máquinas. </p>
+<p>Skyrizi contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por caneta pré-cheia, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar skyrizi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar skyrizi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Este medicamento é administrado numa injeção sob a pele (designada “injeção subcutânea"). </p>
+<p>Qual a dose de Skyrizi a administrar </p>
+<p>A dose é 150 mg administrada numa única injeção. Após a primeira dose, a dose seguinte será 
+administrada 4 semanas depois e posteriormente a cada 12 semanas. </p>
+<p>Em conjunto com o seu médico, farmacêutico ou enfermeiro decidirá se deve administrar a injeção 
+deste medicamento a si próprio. Não tente administrar a injeção sozinho com este medicamento a não 
+ser que tenha recebido treino pelo seu médico, farmacêutico ou enfermeiro. Um cuidador também 
+pode administrar a injeção após ter recebido treino. </p>
+<p>Leia a secção 7 “Instruções de utilização" no fim do folheto informativo antes de administrar a 
+injeção de Skyrizi a si próprio. </p>
+<p>Se utilizar mais Skyrizi do que deveria 
+Se tiver utilizado mais Skyrizi do que deveria ou se a dose foi administrada mais cedo do que lhe foi 
+prescrito, informe o seu médico. </p>
+<p>Caso se tenha esquecido de utilizar Skyrizi 
+Caso se tenha esquecido de utilizar Skyrizi, administre uma dose assim que se lembrar. Fale com o seu 
+médico se tiver dúvidas. </p>
+<p>Se parar de utilizar Skyrizi 
+Não pare de utilizar Skyrizi sem antes falar com o seu médico. Se parar o tratamento, os seus sintomas 
+podem voltar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Informe o seu médico ou procure imediatamente ajuda médica se tiver sintomas de uma infeção grave, 
+tais como: </p>
+<ul>
+<li>
+<p>febre, sintomas de gripe, suores noturnos </p>
+</li>
+<li>
+<p>sensação de cansaço ou falta de ar, tosse que não desaparece </p>
+</li>
+<li>
+<p>pele quente, vermelha e dolorosa ou uma erupção na pele dolorosa com bolhas </p>
+</li>
+</ul>
+<p>O seu médico decidirá se pode continuar a utilizar Skyrizi. </p>
+<p>Outros efeitos indesejáveis 
+Informe o seu médico, farmacêutico ou enfermeiro se surgir algum dos seguintes efeitos indesejáveis </p>
+<p>Muito frequentes: podem afetar mais do que 1 em 10 pessoas  </p>
+<ul>
+<li>infeções do trato respiratório superior com sintomas como dor de garganta e nariz entupido </li>
+</ul>
+<p>Frequentes: podem afetar até 1 em 10 pessoas </p>
+<ul>
+<li>
+<p>sensação de cansaço </p>
+</li>
+<li>
+<p>infeção fúngica na pele </p>
+</li>
+<li>
+<p>reações no local de injeção (tais como vermelhidão ou dor) </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em 100 pessoas </p>
+<ul>
+<li>
+<p>pequenos nódulos vermelhos na pele </p>
+</li>
+<li>
+<p>comichão (urticária) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar skyrizi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar skyrizi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo da caneta e na embalagem 
+exterior após “EXP". </p>
+<p>Conservar no frigorífico (2°C - 8°C). Não congelar. </p>
+<p>Manter a caneta pré-cheia dentro da embalagem de origem para proteger da luz. </p>
+<p>Se necessário, pode manter a caneta pré-cheia fora do frigorífico (até uma temperatura máxima 
+de 25ºC) até 24 horas, na embalagem de origem para proteger da luz. </p>
+<p>Não utilize este medicamento se o líquido está turvo ou contém flocos ou partículas grandes. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Skyrizi 
+- A substância ativa é risancizumab. Cada caneta pré-cheia contém 150 mg de risancizumab em 
+1 ml de solução. 
+- Os outros componentes são acetato de sódio tri-hidratado, ácido acético, trealose di-hidratada, 
+polissorbato 20 e água para preparações injetáveis. </p>
+<p>Qual o aspeto de Skyrizi e conteúdo da embalagem 
+Skyrizi é um líquido límpido e incolor a amarelo numa caneta pré-cheia. O líquido pode conter 
+pequenas partículas brancas ou transparentes. </p>
+<p>Cada embalagem contém 1 caneta pré-cheia. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>AbbVie Deutschland GmbH &amp; Co. KG 
+Knollstrasse 
+67061 Ludwigshafen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+AbbVie SA 
+Tél/Tel: +32 10  477Lietuva 
+AbbVie UAB<br />
+Tel: +370 5 205 3 
+България 
+АбВи ЕООД 
+Тел: +359 2 90 30<br />
+Luxembourg/Luxemburg 
+AbbVie SA 
+Belgique/Belgien 
+Tél/Tel: +32 10 477 
+Česká republika 
+AbbVie s.r.o.<br />
+Tel: +420 233 098<br />
+Magyarország 
+AbbVie Kft. 
+Tel: +36 1 455 8 
+Danmark 
+AbbVie A/S 
+Tlf: +45 72 30-20- Malta 
+V.J.Salomone Pharma Limited<br />
+Tel: +356 22983 
+Deutschland 
+AbbVie Deutschland GmbH &amp; Co. KG 
+Tel: 00800 222843 33 (gebührenfrei) 
+Tel: +49 (0) 611 / 1720-0 </p>
+<p>Nederland 
+AbbVie B.V. 
+Tel: +31 (0)88 322 2 
+Eesti 
+AbbVie OÜ<br />
+Tel: +372 623 1 
+Norge 
+AbbVie AS 
+Tlf: +47 67 81 80<br />
+Ελλάδα 
+AbbVie ΦΑΡΜΑΚΕΥΤΙΚΗ Α.Ε. 
+Τηλ: +30 214 4165<br />
+Österreich 
+AbbVie GmbH<br />
+Tel: +43 1 20589-0 </p>
+<p>España 
+AbbVie Spain, S.L.U. 
+Tel: +34 91 384 09<br />
+Polska 
+AbbVie Sp. z o.o. 
+Tel: +48 22 372 78 00  </p>
+<p>France 
+AbbVie 
+Tél: +33 (0) 1 45 60 13<br />
+Portugal 
+AbbVie, Lda.<br />
+Tel: +351 (0)21 1908 
+Hrvatska<br />
+AbbVie d.o.o. 
+Tel: +385 (0)1 5625<br />
+România 
+AbbVie S.R.L. 
+Tel: +40 21 529 30<br />
+Ireland </p>
+<p>Slovenija 
+AbbVie Limited<br />
+Tel: +353 (0)1 4287AbbVie Biofarmacevtska družba d.o.o. 
+Tel: +386 (1)32 08<br />
+Ísland 
+Vistor hf. 
+Tel: +354 535 7 
+Slovenská republika 
+AbbVie s.r.o. 
+Tel: +421 2 5050 0 
+Italia 
+AbbVie S.r.l.<br />
+Tel: +39 06 928 
+Suomi/Finland 
+AbbVie Oy<br />
+Puh/Tel: +358 (0)10 2411<br />
+Κύπρος 
+Lifepharma (Z.A.M.) Ltd 
+Τηλ: +357 22 34 74<br />
+Sverige 
+AbbVie AB 
+Tel: +46 (0)8 684 44<br />
+Latvija 
+AbbVie SIA<br />
+Tel: +371 67605 
+United Kingdom (Northern Ireland) 
+AbbVie Deutschland GmbH &amp; Co. KG<br />
+Tel: +44 (0)1628 561 
+Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -939,6 +1345,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-2d41c9020db6e6ef74cf6c085116c0ad"
 * entry[0].resource = composition-da-2d41c9020db6e6ef74cf6c085116c0ad
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2d41c9020db6e6ef74cf6c085116c0ad"
+* entry[=].resource = mp2d41c9020db6e6ef74cf6c085116c0ad
+                            
+                    
+Instance: bundlepackageleaflet-pt-2d41c9020db6e6ef74cf6c085116c0ad
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for skyrizi Package Leaflet for language pt"
+Description: "ePI document Bundle for skyrizi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-2d41c9020db6e6ef74cf6c085116c0ad"
+* entry[0].resource = composition-pt-2d41c9020db6e6ef74cf6c085116c0ad
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp2d41c9020db6e6ef74cf6c085116c0ad"
@@ -1040,6 +1468,18 @@ RuleSet: 2d41c9020db6e6ef74cf6c085116c0adListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-2d41c9020db6e6ef74cf6c085116c0ad) // skyrizi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

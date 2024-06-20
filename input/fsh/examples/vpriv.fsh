@@ -744,6 +744,365 @@ batchnummer tydeligt registreres. </p>         </div>"""
 
 
 
+Instance: composition-pt-c8101444f2f0d633367049eeed05567a
+InstanceOf: CompositionUvEpi
+Title: "Composition for vpriv Package Leaflet"
+Description:  "Composition for vpriv Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc8101444f2f0d633367049eeed05567a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - vpriv"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:  </p>
+<ol>
+<li>O que é VPRIV e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar VPRIV </li>
+<li>Como utilizar VPRIV </li>
+<li>Efeitos secundários possíveis </li>
+<li>Como conservar VPRIV </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é vpriv e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é vpriv e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VPRIV é uma terapêutica de substituição enzimática (TSE) a longo prazo em doentes com a doença de 
+Gaucher de tipo 1.<br />
+A doença de Gaucher é uma alteração genética provocada pela ausência ou pela deficiência de uma 
+enzima chamada glucocerebrosidase. Quando esta enzima está em falta ou não funciona bem, uma 
+substância chamada glucocerebrósido acumula-se no interior das células do corpo. A acumulação 
+deste material provoca os sinais e os sintomas encontrados na doença de Gaucher. </p>
+<p>VPRIV contém uma substância chamada velaglucerase alfa que foi concebida para substituir a enzima 
+glucocerebrosidase deficiente ou em falta em doentes com a doença de Gaucher. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar vpriv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar vpriv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize VPRIV 
+- se tem alergia grave ao velaglucerase alfa ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes utilizar VPRIV 
+- Se for tratado com VPRIV, pode sentir efeitos secundários durante ou após a administração 
+“gota a gota" (ver secção 4, Efeitos secundários possíveis). Estes chamam-se reações 
+relacionadas com a perfusão e podem manifestar-se como uma reação de hipersensibilidade com 
+sintomas como náuseas (enjoo), erupção na pele, dificuldade em respirar, dores nas costas, 
+desconforto no peito (sensação de aperto no peito), urticária, dores nas articulações ou dores de 
+cabeça.   <br />
+- Para além dos sintomas de reações de hipersensibilidade, as reações relacionadas com a 
+perfusão poderão manifestar-se como tonturas, tensão arterial alta, cansaço, febre, comichão, 
+visão turva ou vómitos. 
+- Se tiver qualquer um destes sintomas, tem de informar o seu médico de imediato. 
+- Pode ter de tomar outros medicamentos para tratar ou ajudar a evitar reações futuras. Estes 
+medicamentos podem incluir anti-histamínicos, antipiréticos e corticosteroides. 
+- Se a reação for grave, o seu médico parará imediatamente a administração “gota a gota" 
+intravenosa e começará a administrar-lhe o tratamento clínico adequado. 
+- Se as reações forem graves e/ou se este medicamento deixar de fazer efeito, o seu médico 
+realizará análises ao sangue para verificar se existem anticorpos que possam afetar o resultado 
+do tratamento. 
+- O seu médico ou enfermeiro podem decidir continuar a administrar VPRIV mesmo depois de 
+ter qualquer reação relacionada com a perfusão. A sua situação será cuidadosamente 
+monitorizada. </p>
+<p>Informe o seu médico se já tiver tido anteriormente uma reação relacionada com a administração “gota 
+a gota" com outras TSE para a doença de Gaucher. </p>
+<p>Crianças 
+Não utilizar em crianças com menos de 4 anos de idade, uma vez que não existe experiência do uso do 
+medicamente nesta faixa etária. </p>
+<p>Outros medicamentos e VPRIV 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos.  </p>
+<p>Gravidez 
+A doença de Gaucher pode tornar-se mais ativa nas mulheres durante a gravidez e algumas semanas 
+após o nascimento. As mulheres com doença de Gaucher que estão grávidas ou a pensar em engravidar 
+devem falar com o seu médico antes de este medicamento ser utilizado. </p>
+<p>Amamentação 
+Desconhece-se se VPRIV passa para o leite materno. Se está a amamentar ou planeia amamentar, 
+consulte o seu médico antes de este medicamento ser utilizado. O seu médico irá então ajudá-la a 
+decidir se deve parar de amamentar ou se deve parar de utilizar o VPRIV, tendo em consideração o 
+benefício da amamentação para o bebé e o benefício do VPRIV para a mãe. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de VPRIV sobre a capacidade de conduzir ou utilizar máquinas são nulos ou sem 
+importância.  </p>
+<p>VPRIV contém sódio 
+Este medicamento contém 12,25 mg de sódio (componente principal de sal de cozinha) em cada frasco 
+para injetáveis. Isto é equivalente a 0,6% da ingestão diária máxima recomendada de sódio para um 
+adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar vpriv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar vpriv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Este medicamento só pode ser utilizado sob a adequada supervisão clínica de um médico que tenha 
+experiência no tratamento da doença de Gaucher. É administrado por um médico ou enfermeiro 
+através de administração “gota a gota" intravenosa.  </p>
+<p>Dose 
+A dose recomendada é de 60 Unidades/kg administradas em semanas alternadas.  </p>
+<p>Se estiver atualmente a ser tratado para a doença de Gaucher com outra TSE e o seu médico quiser 
+mudar para VPRIV, pode receber inicialmente VPRIV na mesma dose e frequência da outra TSE. </p>
+<p>Utilização em crianças e adolescentes 
+VPRIV pode ser administrado a crianças e adolescentes (4 aos 17 anos) na mesma dose e frequência 
+que nos adultos. </p>
+<p>Utilização em idosos 
+VPRIV pode ser administrado a idosos (com 65 anos ou mais) na mesma dose e frequência que nos 
+adultos. </p>
+<p>Resposta ao tratamento 
+O médico vigiará a sua resposta ao tratamento e pode alterar a dose (para cima ou para baixo) com o 
+decorrer do tempo. </p>
+<p>Se estiver a tolerar bem as administrações “gota a gota" na clínica ou hospital, as perfusões podem ser 
+administradas em casa por um médico ou enfermeiro. </p>
+<p>Administração 
+VPRIV é fornecido num frasco para injetáveis como um pó embalado que é misturado com água 
+estéril e, posteriormente, diluído numa solução de cloreto de sódio a 9 mg/ml (0,9%) para perfusão 
+antes da administração “gota a gota" intravenosa.  </p>
+<p>Após a preparação, o seu médico ou enfermeiro administra-lhe o medicamento através de gotejamento 
+numa veia (por administração “gota a gota" intravenosa) durante um período de 60 minutos.  </p>
+<p>Caso tenha mais dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Frequentemente (pode afetar até 1 em cada 10 pessoas), os doentes tiveram uma reação alérgica grave, 
+com dificuldade em respirar, desconforto no peito (sensação de aperto no peito), náuseas (enjoo), 
+inchaço da face, lábios, língua ou garganta (reações anafiláticas/anafilactoides). São igualmente 
+frequentes reações alérgicas na pele, como urticária, erupção cutânea ou comichão. Se alguma destas 
+situações lhe acontecer, informe imediatamente o seu médico. </p>
+<p>A maioria dos efeitos indesejáveis ocorreu durante a perfusão ou pouco tempo depois. Estas reações 
+chamam-se reações relacionadas com perfusão. Outras reações relacionadas com perfusão muito 
+frequentes (que podem afetar mais de 1 em cada 10 pessoas) incluem dor de cabeça, tonturas, 
+febre/aumento da temperatura do corpo, dor nas costas, dor nas articulações e cansaço, bem como 
+tensão arterial elevada (comunicado frequentemente), visão turva e vómitos (comunicado pouco 
+frequentemente). Se alguma destas situações lhe acontecer, informe imediatamente o seu médico. </p>
+<p>Outros efeitos indesejáveis incluem: </p>
+<p>Os efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas) são: 
+- dor nos ossos 
+- fraqueza/perda de força 
+- dor abdominal </p>
+<p>Os efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) são: 
+- o alongamento do tempo necessário para a paragem de uma hemorragia resultante de um corte 
+pode dar origem a uma ocorrência fácil/espontânea de perda de sangue/nódoas negras 
+- afrontamentos na pele 
+- batimento cardíaco rápido 
+- desenvolvimento de anticorpos contra VPRIV (ver secção 2) 
+- descida da tensão arterial  </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar vpriv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar vpriv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo 
+após “VAL". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 ºC - 8 ºC).<br />
+Não congelar. 
+Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz.  </p>
+<p>Solução reconstituída e diluída para perfusão: 
+Utilizar imediatamente. Não exceder 24 horas entre 2 C e 8 C. </p>
+<p>Não utilize este medicamento se verificar que a solução está descolorada ou se existirem partículas 
+estranhas.  </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de VPRIV 
+- A substância ativa é velaglucerase alfa.  </p>
+<p>Cada frasco para injetáveis contém 400 Unidades de velaglucerase alfa. </p>
+<p>Após a reconstituição, a solução contém 100 Unidades de velaglucerase alfa por ml. </p>
+<ul>
+<li>Os outros componentes são sacarose, citrato de sódio di-hidratado, ácido cítrico mono-hidratado 
+e polissorbato 20 (ver secção 2 “VPRIV contém sódio"). </li>
+</ul>
+<p>Qual o aspeto de VPRIV e conteúdo da embalagem 
+Frasco para injetáveis de vidro de 20 ml contendo um pó branco a esbranquiçado para solução para 
+perfusão.  </p>
+<p>Embalagens de 1, 5 ou 25 frascos para injetáveis. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Takeda Pharmaceuticals International AG Ireland Branch 
+Block 2 Miesian Plaza 
+50-58 Baggot Street Lower 
+Dublin 2 
+D02 HWIrlanda </p>
+<p>Fabricante 
+Takeda Pharmaceuticals International AG Ireland Branch 
+Block 2 Miesian Plaza 
+50-58 Baggot Street Lower 
+Dublin 2 
+D02 HWIrlanda </p>
+<p>Shire Pharmaceuticals Ireland Limited 
+Block 2 &amp; 3 Miesian Plaza 
+50 - 58 Baggot Street Lower 
+Dublin 2 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 11<br />
+medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>България 
+Такеда България ЕООД 
+Тел.: +359 2 958 27 medinfoEMEA@takeda.com  </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>Česká republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: +420 234 722 medinfoEMEA@takeda.com </p>
+<p>Magyarország 
+Takeda Pharma Kft. 
+Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
+<p>Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Τakeda HELLAS S.A. 
+Tel: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>Ελλάδα 
+Τakeda ΕΛΛΑΣ Α.Ε. 
+Tηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Österreich 
+Takeda Pharma Ges.m.b.H.<br />
+Tel: +43 (0) 800-20 80 50<br />
+medinfoEMEA@takeda.com </p>
+<p>España 
+Takeda Farmacéutica España S.A 
+Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+Tel.: +48223062medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+Tél: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmacêuticos Portugal, Lda. 
+Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>România 
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska družba d.o.o. 
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovenská republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>Κύπρος 
+A.POTAMITIS MEDICARE LTD 
+Τηλ: +357 22583a.potamitismedicare@cytanet.com.cy </p>
+<p>Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com </p>
+<p>United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
+<p>Este folheto foi revisto pela última vez em. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -785,6 +1144,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c8101444f2f0d633367049eeed05567a"
 * entry[0].resource = composition-da-c8101444f2f0d633367049eeed05567a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc8101444f2f0d633367049eeed05567a"
+* entry[=].resource = mpc8101444f2f0d633367049eeed05567a
+                            
+                    
+Instance: bundlepackageleaflet-pt-c8101444f2f0d633367049eeed05567a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vpriv Package Leaflet for language pt"
+Description: "ePI document Bundle for vpriv Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c8101444f2f0d633367049eeed05567a"
+* entry[0].resource = composition-pt-c8101444f2f0d633367049eeed05567a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc8101444f2f0d633367049eeed05567a"
@@ -886,6 +1267,18 @@ RuleSet: c8101444f2f0d633367049eeed05567aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c8101444f2f0d633367049eeed05567a) // vpriv pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

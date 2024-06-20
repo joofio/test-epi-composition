@@ -1048,6 +1048,610 @@ opløsninger bør inspiceres visuelt for partikler og misfarvning før administr
 
 
 
+Instance: composition-pt-0f6a84278808352360adad06f9595bc9
+InstanceOf: CompositionUvEpi
+Title: "Composition for herwenda Package Leaflet"
+Description:  "Composition for herwenda Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0f6a84278808352360adad06f9595bc9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - herwenda"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Herwenda e para que é utilizado 
+2. O que precisa de saber antes de lhe ser administrado Herwenda 
+3. Como é administrado Herwenda 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Herwenda 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é herwenda e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é herwenda e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Herwenda contém a substância ativa trastuzumab, que é um anticorpo monoclonal. Os anticorpos 
+monoclonais ligam-se a proteínas específicas ou antigénios. O trastuzumab é concebido para ligar-se 
+seletivamente a um antigénio chamado recetor-2 do fator de crescimento epidérmico humano (HER2). 
+O HER2 encontra-se em grandes quantidades na superfície de algumas células do cancro, estimulando 
+o seu crescimento. Quando o Herwenda se liga ao HER2, impede o crescimento dessas células e 
+provoca a morte das mesmas. </p>
+<p>O seu médico pode prescrever-lhe Herwenda para o tratamento do cancro da mama ou do cancro 
+gástrico: </p>
+<ul>
+<li>
+<p>Se tiver cancro da mama em estádios precoces com níveis elevados de uma proteína 
+denominada de HER2. * Se tiver cancro da mama metastizado (cancro da mama que se disseminou para além do tumor 
+inicial) com níveis elevados de HER2. Herwenda pode ser prescrito em associação com o 
+medicamento de quimioterapia paclitaxel ou docetaxel, como o primeiro tratamento para o 
+cancro da mama metastizado, ou pode ser prescrito sozinho se outros tratamentos não foram 
+bem-sucedidos. Também é utilizado em associação com medicamentos chamados inibidores da 
+aromatase, em doentes com cancro da mama metastizado com níveis elevados de HER2 e com 
+recetores hormonais (cancro que é sensível à presença de hormonas sexuais femininas). </p>
+</li>
+<li>
+<p>Se tiver cancro gástrico metastizado com níveis elevados de HER2, em associação com outros 
+medicamentos para o cancro, capecitabina, ou 5-fluorouracilo, e cisplatina. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar herwenda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar herwenda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Herwenda </p>
+<ul>
+<li>
+<p>se tem alergia ao trastuzumab, a proteínas murinas (de rato) ou a qualquer outro componente 
+deste medicamento (indicados na secção 6). </p>
+</li>
+<li>
+<p>se tem problemas respiratórios graves em repouso, devido ao cancro, ou se precisar de 
+tratamento com oxigénio. </p>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<p>O seu médico irá acompanhar de perto o seu tratamento. </p>
+<p>Monitorização do coração 
+O tratamento com Herwenda, sozinho ou com um taxano, pode afetar o coração, especialmente se já 
+utilizou alguma vez uma antraciclina (taxanos e antraciclinas são outros dois tipos de medicamentos 
+utilizados para tratar o cancro). Os efeitos podem ser moderados ou graves e podem causar a morte. 
+Assim, o funcionamento do seu coração será controlado antes, durante (a cada 3 meses) e após 
+(até 2 a 5 anos) o tratamento com Herwenda. Se desenvolver qualquer sinal de insuficiência cardíaca 
+(bombeamento inadequado do sangue pelo coração), o funcionamento do seu coração poderá ser 
+examinado mais frequentemente (a cada 6 a 8 semanas), poderá receber tratamento para a insuficiência 
+cardíaca ou poderá ter de parar o tratamento com Herwenda. </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de lhe ser administrado Herwenda se: </p>
+<ul>
+<li>
+<p>alguma vez tiver tido insuficiência cardíaca, doença arterial coronária, valvulopatia cardíaca 
+(sopros no coração), tensão arterial alta, tiver tomado qualquer medicamento para a tensão 
+arterial alta ou se está a tomar atualmente qualquer medicamento para a tensão arterial alta. </p>
+</li>
+<li>
+<p>alguma vez tiver sido tratado ou se está atualmente a ser tratado com um medicamento chamado 
+doxorrubicina ou epirrubicina (medicamentos usados para tratar o cancro). Estes medicamentos 
+(ou quaisquer outras antraciclinas) podem danificar o músculo do coração e aumentar o risco de 
+ter problemas cardíacos com trastuzumab. </p>
+</li>
+<li>
+<p>tiver falta de ar, principalmente se está atualmente a ser tratado com um taxano. O trastuzumab 
+pode causar dificuldades respiratórias, especialmente quando é administrado pela primeira vez. 
+Esta situação pode ser mais grave se já tiver falta de ar. Muito raramente, doentes com 
+dificuldades respiratórias graves antes do tratamento morreram quando lhes foi administrado 
+trastuzumab. </p>
+</li>
+<li>
+<p>alguma vez fez outro tratamento para o cancro. </p>
+</li>
+</ul>
+<p>Se lhe for administrado Herwenda com qualquer outro medicamento para tratar o cancro, tais como 
+paclitaxel, docetaxel, um inibidor da aromatase, capecitabina, 5-fluorouracilo ou cisplatina, deverá ler 
+também o Folheto Informativo destes medicamentos. </p>
+<p>Crianças e adolescentes 
+Herwenda não é recomendado para doentes com idade inferior a 18 anos. </p>
+<p>Outros medicamentos e Herwenda 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente ou se 
+vier a tomar outros medicamentos. </p>
+<p>A eliminação de Herwenda do seu corpo pode demorar até 7 meses. Assim, se iniciar qualquer 
+medicamento novo nos 7 meses seguintes ao fim do tratamento, deve informar o seu médico, 
+farmacêutico ou enfermeiro de que lhe foi administrado Herwenda. </p>
+<p>Gravidez </p>
+<ul>
+<li>
+<p>Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico, 
+farmacêutico ou enfermeiro antes de tomar este medicamento. </p>
+</li>
+<li>
+<p>Deve utilizar métodos contracetivos eficazes durante o tratamento com Herwenda e durante, 
+pelo menos, 7 meses após o fim do tratamento. </p>
+</li>
+<li>
+<p>O seu médico irá aconselhá-la sobre os riscos e benefícios de ser tratada com Herwenda durante 
+a gravidez. Em casos raros, em mulheres grávidas a receber tratamento com trastuzumab, foi 
+observada uma redução na quantidade de líquido (amniótico) que rodeia o bebé em 
+desenvolvimento no útero. Esta situação pode ser prejudicial ao seu bebé no útero e tem sido 
+associada a um desenvolvimento incompleto dos pulmões, originando morte fetal. </p>
+</li>
+</ul>
+<p>Amamentação 
+Não amamente o seu bebé durante o tratamento com Herwenda, nem nos 7 meses após a última dose, 
+uma vez que Herwenda pode passar para o seu bebé através do leite materno. </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Herwenda pode afetar a sua capacidade de conduzir um carro ou de utilizar máquinas. Se apresentar 
+sintomas como tonturas, sonolência, calafrios ou febre durante o tratamento, não deverá conduzir nem 
+utilizar máquinas até que estes sintomas desapareçam. </p>
+<p>Herwenda contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar herwenda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar herwenda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Antes de iniciar o tratamento, o seu médico irá determinar a quantidade de HER2 no seu tumor. 
+Apenas os doentes com uma grande quantidade de HER2 serão tratados com Herwenda. Herwenda só 
+deverá ser administrado por um médico ou enfermeiro. O seu médico irá prescrever a dose e regime de 
+tratamento adequado para si. A dose de Herwenda depende do seu peso corporal. </p>
+<p>A formulação intravenosa de Herwenda não se destina a administração subcutânea e deverá apenas ser 
+administrada através de uma perfusão intravenosa. </p>
+<p>A formulação intravenosa de Herwenda é administrada sob a forma de uma perfusão intravenosa 
+(“gota a gota") diretamente nas suas veias. A primeira dose do seu tratamento é administrada 
+durante 90 minutos e será observado por um profissional de saúde durante a administração, para o 
+caso de ter quaisquer efeitos indesejáveis. Se a primeira dose for bem tolerada, as doses seguintes 
+poderão ser administradas durante 30 minutos (ver secção 2 em “Advertências e precauções"). O 
+número de perfusões que receber dependerá da sua resposta ao tratamento. O seu médico discutirá 
+consigo este assunto. </p>
+<p>Para o cancro da mama em estádios precoces, cancro da mama metastizado e cancro gástrico 
+metastizado, Herwenda é administrado de 3 em 3 semanas. Herwenda também pode ser administrado 
+uma vez por semana para o cancro da mama metastizado. </p>
+<p>Para prevenir erros de medicação, é importante verificar os rótulos dos frascos para injetáveis, de 
+forma a garantir que o medicamento a ser preparado e administrado é Herwenda (trastuzumab) e não 
+outro medicamento que contenha trastuzumab (por. ex., trastuzumab emtansina ou trastuzumab 
+deruxtecano). </p>
+<p>Se parar de utilizar Herwenda 
+Não pare de utilizar este medicamento sem falar primeiro com o seu médico. Todas as doses devem 
+ser administradas na altura certa, todas as semanas ou de 3 em 3 semanas (dependendo do seu 
+calendário de tratamento). Isto ajuda a que o medicamento funcione o melhor possível. </p>
+<p>A eliminação de Herwenda do seu corpo pode demorar até 7 meses. Consequentemente, o seu médico 
+pode decidir continuar a verificar o funcionamento do seu coração, mesmo após o final do tratamento.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Alguns desses efeitos indesejáveis podem ser graves e podem 
+levar à hospitalização. </p>
+<p>Durante uma perfusão de Herwenda, podem ocorrer calafrios, febre e outros sintomas do tipo gripal. 
+Estes efeitos são muito frequentes (podem afetar mais de 1 em cada 10 pessoas). Outros sintomas 
+relacionados com a perfusão são: sensação de enjoo (náuseas), vómitos, dor, aumento da tensão 
+muscular e tremor, dor de cabeça, tonturas, dificuldades respiratórias, tensão arterial alta ou baixa, 
+alterações do ritmo cardíaco (palpitações, coração acelerado ou batimento irregular do coração), 
+inchaço da face e dos lábios, erupção cutânea e sensação de cansaço. Alguns destes sintomas podem 
+ser graves e alguns doentes morreram (ver secção 2 em “Advertências e precauções"). </p>
+<p>Estes efeitos ocorrem principalmente com a primeira perfusão intravenosa (“gota a gota" na veia) e 
+nas primeiras horas que se seguem ao início da perfusão. Habitualmente são temporários. Será 
+observado por um profissional de saúde durante a perfusão e durante, pelo menos, seis horas após o 
+início da primeira perfusão e nas duas horas após o início das perfusões seguintes. Se desenvolver uma 
+reação, o profissional de saúde irá diminuir ou parar a perfusão e poderá ser-lhe administrado 
+tratamento para controlar os efeitos indesejáveis. A perfusão pode continuar após a melhoria dos 
+sintomas. </p>
+<p>Ocasionalmente, os sintomas podem começar mais de 6 horas após o início da perfusão. Se isto lhe 
+acontecer, contacte o seu médico imediatamente. Por vezes, os sintomas podem melhorar, e depois, 
+mais tarde, piorar. </p>
+<p>Efeitos indesejáveis graves 
+Em qualquer altura, durante o tratamento com Herwenda, podem surgir outros efeitos indesejáveis 
+para além dos relacionados com a perfusão. Informe imediatamente o médico ou enfermeiro se 
+observar algum dos efeitos indesejáveis seguintes: </p>
+<ul>
+<li>Por vezes, podem ocorrer problemas cardíacos durante o tratamento e, ocasionalmente, após o 
+tratamento ter terminado, e podem ser graves. Estes incluem enfraquecimento do músculo 
+cardíaco que pode levar a insuficiência cardíaca, inflamação da membrana que reveste o coração 
+e alterações do ritmo cardíaco. Isto poderá originar sintomas como falta de ar (incluindo falta de 
+ar à noite), tosse, retenção de líquidos (inchaço) nas pernas ou braços, palpitações (coração a 
+vibrar ou batimento irregular do coração) (ver secção 2. Monitorização do coração). </li>
+</ul>
+<p>O seu médico irá monitorizar o seu coração regularmente, durante e após o tratamento, mas 
+deve informá-lo imediatamente se sentir algum dos sintomas mencionados acima. </p>
+<ul>
+<li>Síndrome de lise tumoral (um conjunto de complicações metabólicas que ocorrem após o 
+tratamento do cancro, caracterizadas por níveis sanguíneos elevados de potássio e fosfato e 
+níveis sanguíneos baixos de cálcio). Os sintomas podem incluir problemas de rins (fraqueza, 
+falta de ar, fadiga e confusão), problemas de coração (coração a vibrar ou um batimento do 
+coração mais rápido ou mais lento), convulsões, vómitos ou diarreia e formigueiro na boca, 
+mãos ou pés. </li>
+</ul>
+<p>Se sentir qualquer dos sintomas mencionados acima quando o seu tratamento com Herwenda terminar, 
+deve consultar o seu médico e informá-lo de que foi previamente tratado com Herwenda. </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>infeções </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>obstipação </p>
+</li>
+<li>
+<p>azia (dispepsia) </p>
+</li>
+<li>
+<p>fadiga </p>
+</li>
+<li>
+<p>erupções cutâneas </p>
+</li>
+<li>
+<p>dor no peito </p>
+</li>
+<li>
+<p>dor abdominal </p>
+</li>
+<li>
+<p>dor articular </p>
+</li>
+<li>
+<p>baixo número de glóbulos vermelhos e glóbulos brancos (células que ajudam a combater 
+infeções), por vezes com febre </p>
+</li>
+<li>
+<p>dor muscular </p>
+</li>
+<li>
+<p>conjuntivite </p>
+</li>
+<li>
+<p>lacrimejo (lágrimas nos olhos) </p>
+</li>
+<li>
+<p>sangramento do nariz </p>
+</li>
+<li>
+<p>corrimento nasal </p>
+</li>
+<li>
+<p>queda de cabelo </p>
+</li>
+<li>
+<p>tremor </p>
+</li>
+<li>
+<p>afrontamentos </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>alterações das unhas </p>
+</li>
+<li>
+<p>perda de peso </p>
+</li>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>dificuldade em adormecer (insónia) </p>
+</li>
+<li>
+<p>alteração do paladar </p>
+</li>
+<li>
+<p>baixa contagem de plaquetas </p>
+</li>
+<li>
+<p>nódoas negras </p>
+</li>
+<li>
+<p>dormência ou formigueiro nos dedos das mãos e pés, que ocasionalmente pode estender-se para 
+o resto do membro </p>
+</li>
+<li>
+<p>vermelhidão, inchaço ou feridas na boca e/ou garganta </p>
+</li>
+<li>
+<p>dor, inchaço, vermelhidão ou formigueiro nas mãos e/ou pés </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>náusea </p>
+</li>
+</ul>
+<p>Frequentes(podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>reações alérgicas </p>
+</li>
+<li>
+<p>infeções da garganta </p>
+</li>
+<li>
+<p>infeções da bexiga e da pele </p>
+</li>
+<li>
+<p>inflamação da mama </p>
+</li>
+<li>
+<p>inflamação do fígado </p>
+</li>
+<li>
+<p>alterações renais </p>
+</li>
+<li>
+<p>tónus ou tensão muscular aumentados (hipertonia) </p>
+</li>
+<li>
+<p>dor nos braços e/ou pernas </p>
+</li>
+<li>
+<p>erupção cutânea com comichão </p>
+</li>
+<li>
+<p>sonolência </p>
+</li>
+<li>
+<p>hemorroidas </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>secura da boca e da pele </p>
+</li>
+<li>
+<p>olhos secos </p>
+</li>
+<li>
+<p>transpiração </p>
+</li>
+<li>
+<p>sensação de fraqueza e má disposição </p>
+</li>
+<li>
+<p>ansiedade </p>
+</li>
+<li>
+<p>depressão </p>
+</li>
+<li>
+<p>asma </p>
+</li>
+<li>
+<p>infeção pulmonar </p>
+</li>
+<li>
+<p>doenças pulmonares </p>
+</li>
+<li>
+<p>dor nas costas </p>
+</li>
+<li>
+<p>dor no pescoço </p>
+</li>
+<li>
+<p>dor óssea </p>
+</li>
+<li>
+<p>acne </p>
+</li>
+<li>
+<p>cãibras nas pernas </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>surdez </p>
+</li>
+<li>
+<p>erupção cutânea com inchaço </p>
+</li>
+<li>
+<p>síbilos </p>
+</li>
+<li>
+<p>inflamação ou cicatrização dos pulmões </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1000 pessoas): </p>
+<ul>
+<li>
+<p>icterícia </p>
+</li>
+<li>
+<p>reações anafiláticas </p>
+</li>
+</ul>
+<p>Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>coagulação sanguínea anormal ou comprometida </p>
+</li>
+<li>
+<p>níveis de potássio elevados </p>
+</li>
+<li>
+<p>inchaço ou hemorragia na parte de trás dos olhos </p>
+</li>
+<li>
+<p>choque </p>
+</li>
+<li>
+<p>ritmo cardíaco anormal </p>
+</li>
+<li>
+<p>dificuldade respiratória </p>
+</li>
+<li>
+<p>insuficiência respiratória </p>
+</li>
+<li>
+<p>acumulação aguda de líquido nos pulmões </p>
+</li>
+<li>
+<p>estreitamento agudo das vias aéreas </p>
+</li>
+<li>
+<p>níveis de oxigénio no sangue anormalmente baixos </p>
+</li>
+<li>
+<p>dificuldade em respirar quando deitado </p>
+</li>
+<li>
+<p>lesão do fígado </p>
+</li>
+<li>
+<p>inchaço da cara, lábios e garganta </p>
+</li>
+<li>
+<p>insuficiência renal </p>
+</li>
+<li>
+<p>níveis anormalmente baixos do líquido que rodeia o bebé no útero </p>
+</li>
+<li>
+<p>insuficiência pulmonar do feto no desenvolvimento no útero </p>
+</li>
+<li>
+<p>desenvolvimento anormal dos rins do feto no útero </p>
+</li>
+</ul>
+<p>Alguns dos efeitos indesejáveis que sentir podem ser devidos ao próprio cancro. Se receber Herwenda 
+em associação com quimioterapia, alguns desses efeitos também podem ser devidos à quimioterapia. </p>
+<p>Caso sinta algum efeito indesejável fale com o seu médico, farmacêutico ou enfermeiro. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V*. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar herwenda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar herwenda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C -- 8 °C). </p>
+<p>Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>
+<p>As soluções para perfusão devem ser utilizadas imediatamente após a diluição. Se não for utilizado 
+imediatamente, as condições e os tempos de conservação anteriores à utilização serão da 
+responsabilidade do utilizador e normalmente não deverão ser superiores a 24 horas a 2 °C - 8 °C. 
+Não congelar a solução reconstituída. </p>
+<p>Não utilize este medicamento se verificar quaisquer partículas ou alterações de cor antes da 
+administração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Herwenda </p>
+<ul>
+<li>
+<p>A substância ativa é o trastuzumab. Cada frasco para injetáveis contém 150 mg de trastuzumab, 
+que tem que ser dissolvido em 7,2 ml de água para preparações injetáveis. A solução resultante 
+contém aproximadamente 21 mg/ml de trastuzumab. </p>
+</li>
+<li>
+<p>Os outros componentes são cloridrato de L-histidina monohidratado, L-histidina, α,α-trealose 
+di-hidratada, polissorbato 20 (E 432). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Herwenda e conteúdo da embalagem </p>
+<p>Herwenda é um pó para concentrado para solução para perfusão, o qual é fornecido num 
+frasco para injetáveis de vidro com uma tampa de borracha, contendo 150 mg de trastuzumab. O pó é 
+um liofilizado branco a amarelo pálido. Cada embalagem contém um frasco para injetáveis com pó. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Sandoz GmbH 
+Biochemiestr. 6250 Kundl 
+Áustria </p>
+<p>Fabricante 
+Novartis Pharma GmbH 
+Roonstraße 90429 Nuremberga 
+Alemanha </p>
+<p>Novartis Farmacéutica, S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Espanha </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1089,6 +1693,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-0f6a84278808352360adad06f9595bc9"
 * entry[0].resource = composition-da-0f6a84278808352360adad06f9595bc9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0f6a84278808352360adad06f9595bc9"
+* entry[=].resource = mp0f6a84278808352360adad06f9595bc9
+                            
+                    
+Instance: bundlepackageleaflet-pt-0f6a84278808352360adad06f9595bc9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for herwenda Package Leaflet for language pt"
+Description: "ePI document Bundle for herwenda Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-0f6a84278808352360adad06f9595bc9"
+* entry[0].resource = composition-pt-0f6a84278808352360adad06f9595bc9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp0f6a84278808352360adad06f9595bc9"
@@ -1190,6 +1816,18 @@ RuleSet: 0f6a84278808352360adad06f9595bc9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-0f6a84278808352360adad06f9595bc9) // herwenda pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

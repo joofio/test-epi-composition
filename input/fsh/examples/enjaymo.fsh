@@ -843,6 +843,410 @@ infusionerne bør administreres på et hospital eller under opsyn i ambulante om
 
 
 
+Instance: composition-pt-c419fe066011304c4fef1d514818ee22
+InstanceOf: CompositionUvEpi
+Title: "Composition for enjaymo Package Leaflet"
+Description:  "Composition for enjaymo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc419fe066011304c4fef1d514818ee22)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - enjaymo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Enjaymo e para que é utilizado  </li>
+<li>O que precisa de saber antes de utilizar Enjaymo  </li>
+<li>Como utilizar Enjaymo  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Enjaymo  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é enjaymo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é enjaymo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Enjaymo contém a substância ativa sutimlimab, pertencente a um grupo de medicamentos denominados de 
+anticorpos monoclonais. Na doença rara do sangue de aglutininas frias (CAD), determinados anticorpos do 
+sistema de defesa imunológica ligam-se aos glóbulos vermelhos. Isto causa a degradação dos glóbulos 
+vermelhos (anemia hemolítica) através da ativação da via clássica do complemento (parte do sistema de 
+defesa imunológica). Enjaymo bloqueia a ativação desta parte do sistema de defesa imunológica. <br />
+Enjaymo é usado para tratar anemia hemolítica em adultos que têm CAD. Isto reduz a anemia e diminui a 
+fadiga. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar enjaymo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar enjaymo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Enjaymo<br />
+- se tem alergia à sutimlimab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).  </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico antes de utilizar Enjaymo.  </p>
+<p>Infeções </p>
+<p>Informe o seu médico se tiver alguma infeção, incluindo uma infeção contínua, como VIH, hepatite, B 
+ou hepatite C, ou se tiver uma capacidade reduzida para combater infeções.  </p>
+<p>Internal 
+Vacinações </p>
+<p>Consulte o seu médico para confirmar que foi vacinado de acordo com as recomendações locais atuais, 
+incluindo vacinas meningocócicas e estreptocócicas.  </p>
+<p>É recomendado que seja vacinado pelo menos 2 semanas antes de iniciar Enjaymo. Tenha também em 
+atenção que a vacinação pode nem sempre prevenir estes tipos de infeção. Contacte imediatamente o seu 
+médico se qualquer sinal de infeção ocorrer, ver secção 4 “ Efeitos indesejáveis possíveis". </p>
+<p>Reação alérgica de hipersensibilidade </p>
+<p>Consulte o seu médico imediatamente se notar quaisquer sinais de reação alérgica durante ou após a 
+administração deste medicamento. Para sintomas, ver secção 4 “Efeitos indesejáveis possíveis". </p>
+<p>Reações relacionadas com a perfusão </p>
+<p>Quando Enjaymo é administrado, pode apresentar reações associadas a perfusão intravenosa durante a 
+perfusão ou imediatamente após a perfusão. Informe o seu profissional de saúde imediatamente se tiver 
+sintomas associados à perfusão de Enjaymo. Para sintomas, ver secção 4 “Efeitos indesejáveis possíveis". </p>
+<p>Lúpus eritematoso sistémico (LES) </p>
+<p>Informe o seu médico se tiver uma doença autoimune, como lúpus eritematoso sistémico (LES), também 
+conhecido como lúpus. Procure assistência médica se desenvolver quaisquer sintomas de LES, como 
+tumefação ou dor articular, erupção cutânea nas bochechas e nariz ou febre inexplicável.  </p>
+<p>Crianças e adolescentes 
+Enjaymo não deve ser utilizado em crianças e adolescentes com menos de 18 anos de idade, uma vez que 
+a CAD geralmente não ocorre neste grupo etário. </p>
+<p>Outros medicamentos e Enjaymo 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. </p>
+<p>Gravidez e amamentação<br />
+Gravidez<br />
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de tomar este 
+medicamento. Desconhece-se se Enjaymo irá prejudicar o seu bebé que ainda não nasceu . Só deve usar 
+Enjaymo se o seu médico tiver recomendado claramente a sua utilização. </p>
+<p>Amamentação<br />
+Desconhece-se se Enjaymo passa para o leite materno. Se está a amamentar ou planeia amamentar, fale 
+com o seu médico antes de tomar este medicamento. Terá, em conjunto com o seu médico, decidir se deve 
+amamentar e tomar Enjaymo.   </p>
+<p>Condução de veículos e utilização de máquinas<br />
+Os efeitos deste medicamento sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis. </p>
+<p>Enjaymo contém sódio<br />
+ 
+Internal 
+Este medicamento contém 3,5 mg/ml ou 77 mg de sódio (principal componente do sal de cozinha/sal de 
+mesa) em cada frasco. Isto é equivalente a 3,85% da ingestão diária máxima de sódio recomendada na dieta 
+para um adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar enjaymo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar enjaymo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Enjaymo ser-lhe-á administrado por um profissional de saúde. É administrado através de perfusão 
+(gotejamento) numa veia (via intravenosa). A dose admnistrada baseia-se no seu peso corporal.  </p>
+<p>A perfusão demora normalmente 1 a 2 horas. Após cada perfusão será monitorizado quanto a reações 
+alérgicas: após a primeira perfusão será monitorizado durante pelo menos 2 horas. Após as perfusões 
+subsequentes, será monitorizado pelo menos por 1 hora. </p>
+<p>Normalmente, irá receber: 
+o 
+uma dose inicial de Enjaymo 
+o 
+uma dose de Enjaymo uma semana depois<br />
+o 
+posteriormente irá começar a receber Enjaymo a cada 2 semanas </p>
+<p>Perfusão domiciliária </p>
+<p> 
+Irá receber Enjaymo pelo menos três meses numa unidade de saúde. 
+ 
+Posteriormente, o seu médico pode considerar que faça uma perfusão domiciliária de Enjaymo<br />
+ 
+A perfusão domiciliária será realizada por um profissional de saúde.  </p>
+<p>Se for administrado mais Enjaymo do que deveria  </p>
+<p>Enjaymo é administrado por um profissional de saúde, no entanto, se suspeitar que recebeu acidentalmente 
+uma dose de Enjaymo mais elevada do que a prescrita, contacte o seu médico para aconselhamento.  </p>
+<p>Caso se tenha esquecido de utilizar Enjaymo </p>
+<p>Se falhar uma perfusão de Enjaymo, contacte o seu médico imediatamente para reagendar a sua perfusão. </p>
+<p>Se parar de utilizar Enjaymo </p>
+<p>Os efeitos do Enjaymo serão reduzidos após o término do tratamento.Se parar de receber Enjaymo, o seu 
+médico deve monitorizá-lo atentamente para deteção de sinais e sintomas sugestivos de CAD. Os sintomas 
+podem incluir fadiga, falta de ar, frequência cardíaca rápida ou urina escura e são causados pela 
+degradaçãodos seus glóbulos vermelhos.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.  </p>
+<p>Informe imediatamente o seu profissional de saúde que lhe está a administrar Enjaymo se notar 
+quaisquer sinais de uma reação alérgica durante ou pouco depois de lhe ser administrado este 
+medicamento. Os sinais podem incluir: 
+ 
+Internal </p>
+<p> 
+Dificuldade em respirar ou engolir<br />
+ 
+Inchaço da face, lábios, língua ou garganta<br />
+ 
+Comichão intensa na pele, com erupção cutânea vermelha ou com relevo<br />
+ 
+Sensação de desmaio<br />
+Se algum destes sintomas ocorrer durante a perfusão, esta deve ser interrompida imediatamente. </p>
+<p>Informe imediatamente o seu profissional de saúde que lhe está a administrar Enjaymo se notar 
+quaisquer sinais de uma reação relacionada com a perfusão enquanto é administrado este 
+medicamento. Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas). Os sinais podem incluir: </p>
+<p> 
+Náuseas 
+ 
+Sensação de rubor<br />
+ 
+Dor de cabeça<br />
+ 
+Dificuldade em respirar<br />
+ 
+Frequência cardíaca rápida<br />
+Informe o seu médico assim que possível, se tiver sinais ou sintomas de uma infecção, tais como: </p>
+<p> 
+Febre com ou sem erupção cutânea, arrepios, sintomas gripais, tosse/dificuldade em respirar, dor de 
+cabeça com náuseas, vómitos, rigidez do pescoço, rigidez nas costas, confusão, olhos sensíveis à luz, 
+dor durante a micção ou micção com maior frequência<br />
+ 
+Infeções: trato urinário, trato respiratório superior, estômago e intestino, constipação, nariz com 
+corrimento são muito frequentes (podem afetar mais do que 1 em cada 10 pessoas). 
+ 
+Infeções: trato respiratório inferior, trato urinário, infeção por herpes são comuns (podem afetar até 
+1 em cada 10 pessoas) 
+Informe o seu médico ou enfermeiro se tiver algum dos seguintes efeitos indesejáveis: </p>
+<p>Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Aumento da pressão arterial </p>
+</li>
+<li>
+<p>Má circulação com descoloração da pele nas mãos e pés em resposta ao frio e stress (síndrome de 
+Raynaud, acrocianose) </p>
+</li>
+<li>
+<p>Dor de barriga  </p>
+</li>
+<li>
+<p>Náuseas </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) 
+ 
+Reações relacionadas com a perfusão<br />
+ 
+Febre 
+ 
+Sensação de frio<br />
+ 
+Tonturas<br />
+ 
+Aura<br />
+ 
+Diminuição da pressão arterial<br />
+ 
+Diarreia<br />
+ 
+Desconforto no estômago<br />
+ 
+Aftas na boca (úlceras aftosas) 
+ 
+Desconforto no peito<br />
+ 
+Comichão  </p>
+<p>Internal 
+Comunicação de efeitos indesejáveis  </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
+fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar enjaymo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar enjaymo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na cartonagem após VAL. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C). Não congelar.  </p>
+<p>Conservar na embalagem de origem para proteger da luz. </p>
+<p>Enjaymo não deve ser deitado fora na canalização ou no lixo doméstico. O seu profissional de saúde é 
+responsável pela eliminação correta do medicamento não utilizado. Esta medida ajudará a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Enjaymo<br />
+- A substância ativa é sutimlimab. Cada frasco para injetáveis de 22 ml de solução contém 1100 mg 
+de sutimlimab 
+- Os outros ingredientes são: polissorbato 80 (E 433), cloreto de sódio, fosfato de sódio dibásico (E 
+339), , fosfato de sódio monobásico (E 339) e água para injeções.  </p>
+<p>Este medicamento contém sódio (ver secção 2 “Enjaymo contém sódio"). </p>
+<p>Qual o aspeto de Enjaymo e conteúdo da embalagem </p>
+<p>Enjaymo é uma solução opalescente, incolor a ligeiramente amarela, praticamente livre de partículas.  </p>
+<p>Cada embalagem contém 1 ou 6 frascos para injetáveis. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Sanofi B.V. 
+Paasheuvelweg 1105 BP Amsterdam 
+Países Baixos </p>
+<p>Fabricante 
+Sanofi-Aventis Deutschland GmbH 
+Brüningstr.  
+Internal 
+Frankfurt am Main, 65Germany </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+Sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel.: +36 1 505 0 
+Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 
+Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4 
+Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE<br />
+Τηλ: +30 210 900 16<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 - 0 </p>
+<p>España 
+sanofi-aventis, S.A.<br />
+Tel: +34 93 485 94<br />
+Polska 
+Sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie<br />
+Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda 
+Tel: +351 21 35 89<br />
+Hrvatska<br />
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078 România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31  </p>
+<p>Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+ 
+Internal 
+Tel: +353 (0) 1 403 56<br />
+Tel: +386 1 235 51<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7000  </p>
+<p>Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33<br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800 536<br />
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel.: +44 (0) 800 035 2 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -884,6 +1288,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c419fe066011304c4fef1d514818ee22"
 * entry[0].resource = composition-da-c419fe066011304c4fef1d514818ee22
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc419fe066011304c4fef1d514818ee22"
+* entry[=].resource = mpc419fe066011304c4fef1d514818ee22
+                            
+                    
+Instance: bundlepackageleaflet-pt-c419fe066011304c4fef1d514818ee22
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for enjaymo Package Leaflet for language pt"
+Description: "ePI document Bundle for enjaymo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c419fe066011304c4fef1d514818ee22"
+* entry[0].resource = composition-pt-c419fe066011304c4fef1d514818ee22
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc419fe066011304c4fef1d514818ee22"
@@ -985,6 +1411,18 @@ RuleSet: c419fe066011304c4fef1d514818ee22ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c419fe066011304c4fef1d514818ee22) // enjaymo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

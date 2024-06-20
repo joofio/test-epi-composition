@@ -864,6 +864,494 @@ proteinbinding. </p>         </div>"""
 
 
 
+Instance: composition-pt-84263cabba69906218047f0258521479
+InstanceOf: CompositionUvEpi
+Title: "Composition for elfabrio Package Leaflet"
+Description:  "Composition for elfabrio Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp84263cabba69906218047f0258521479)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - elfabrio"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Elfabrio e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Elfabrio </li>
+<li>Como Elfabrio é administrado </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Elfabrio </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é elfabrio e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é elfabrio e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Elfabrio contém a substância ativa pegunigalsidase alfa e é utilizado como terapêutica de substituição 
+enzimática em doentes adultos com doença de Fabry confirmada. A doença de Fabry é uma doença 
+genética rara que pode afetar muitas partes do organismo. Nos doentes com doença de Fabry, uma 
+determinada substância gorda não é removida das células do organismo e acumula-se nas paredes dos 
+vasos sanguíneos, o que pode causar falência de órgãos. Esta gordura acumula-se nas células destes 
+doentes por não terem quantidade suficiente de uma enzima chamada α-galactosidase-A, que é a 
+enzima responsável pela degradação dessa substância. Elfabrio é utilizado a longo prazo para 
+suplementar ou substituir esta enzima em adultos com doença de Fabry confirmada. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar elfabrio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar elfabrio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Elfabrio </p>
+<ul>
+<li>se é intensamente alérgico à pegunigalsidase alfa ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico antes da utilização de Elfabrio. </p>
+<p>Se for tratado com Elfabrio, poderá ter um efeito indesejável durante ou imediatamente a seguir à 
+administração gota a gota numa veia (perfusão) utilizada para administrar o medicamento (ver 
+secção 4). A isto chama-se reação relacionada com a perfusão e, por vezes, pode ser intensa. </p>
+<ul>
+<li>
+<p>As reações relacionadas com a perfusão incluem tonturas, dores de cabeça, náuseas, tensão 
+arterial baixa, cansaço e febre. Se sentir uma reação relacionada com a perfusão, tem de 
+informar o seu médico imediatamente. </p>
+</li>
+<li>
+<p>Se tiver uma reação relacionada com a perfusão poderá receber medicamentos adicionais para a 
+tratar ou ajudar a evitar reações futuras. Estes medicamentos podem incluir medicamentos 
+utilizados para tratar alergias (anti-histamínicos), para tratar a febre (antipiréticos) e para 
+controlar a inflamação (corticosteroides). </p>
+</li>
+<li>
+<p>Se a reação relacionada com a perfusão for intensa, o seu médico irá parar a perfusão 
+imediatamente e começar a administrar-lhe tratamento médico apropriado ou abrandar a 
+velocidade do tratamento. </p>
+</li>
+<li>
+<p>Se as reações relacionadas com a perfusão forem intensas e/ou existir uma perda do efeito deste 
+medicamento, o seu médico irá fazer-lhe uma análise ao sangue para verificar se existem 
+anticorpos que possam afetar o resultado do seu tratamento. </p>
+</li>
+<li>
+<p>Na maioria dos casos, poderá ainda assim continuar a receber Elfabrio, mesmo que tenha uma 
+reação relacionada com a perfusão. </p>
+</li>
+</ul>
+<p>Em casos muito raros, o seu sistema imunitário poderá não ser capaz de reconhecer Elfabrio, 
+resultando numa doença dos rins de natureza imunológica (glomerulonefrite membranoproliferativa). 
+Durante os estudos clínicos, ocorreu um único caso e os únicos sintomas relatados foram um declínio 
+temporário da função renal, com excesso de proteínas na urina. Estes sintomas resolveram-se com a 
+suspensão do tratamento. </p>
+<p>Crianças e adolescentes 
+Este medicamento não deve ser utilizado em crianças e adolescentes. A segurança e eficácia de 
+Elfabrio em crianças e adolescentes com idade entre 0 e 17 anos não foram estabelecidas. </p>
+<p>Outros medicamentos e Elfabrio 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. </p>
+<p>Gravidez e amamentação 
+Não deve utilizar Elfabrio se estiver grávida, uma vez que não existe experiência com Elfabrio em 
+mulheres grávidas. Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, 
+consulte o seu médico antes de este medicamento lhe ser administrado. </p>
+<p>Desconhece-se se Elfabrio é excretado no leite humano. Informe o seu médico se estiver a amamentar 
+ou se planeia amamentar. O seu médico vai ajudá-la a decidir se deve parar de amamentar ou parar de 
+tomar Elfabrio, tendo em conta o benefício da amamentação para o bebé e o benefício de Elfabrio para 
+si. </p>
+<p>Condução de veículos e utilização de máquinas 
+Elfabrio pode causar tonturas ou vertigens. Caso sinta tonturas ou vertigens no dia do tratamento com 
+Elfabrio, não conduza ou utilize máquinas até se sentir melhor. </p>
+<p>Elfabrio contém sódio 
+Este medicamento contém 48 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
+cada frasco para injetáveis. Isto é equivalente a 2% da ingestão diária máxima de sódio recomendada 
+na dieta para um adulto. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar elfabrio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar elfabrio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Este medicamento deve ser utilizado exclusivamente sob a supervisão de um médico com experiência 
+no tratamento da doença de Fabry ou de outras doenças semelhantes e apenas deve ser administrado 
+por um profissional de saúde. </p>
+<p>A dose recomendada é de 1 mg/kg de peso corporal administrada uma vez a cada duas semanas. </p>
+<p>O seu médico poderá sugerir que pode ser tratado em casa, desde que cumpra determinados critérios. 
+Queira contactar o seu médico se gostaria de ser tratado em casa. </p>
+<p>Consulte a informação para profissionais de saúde no fim deste folheto informativo. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. A maioria dos efeitos indesejáveis ocorre durante a perfusão ou 
+pouco tempo depois (“reação relacionada com a perfusão", ver secção 2 “Advertências e precauções"). </p>
+<p>Durante o tratamento com Elfabrio, poderá ter algumas das seguintes reações: </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>hipersensibilidade e reação alérgica grave (os sintomas incluem contração excessiva e 
+prolongada dos músculos das vias respiratórias causando dificuldade em respirar 
+[broncospasmo], inchaço da face, boca e garganta, pieira, tensão arterial baixa, urticária, 
+dificuldade em engolir, erupção na pele, falta de ar, afrontamentos, desconforto no peito, 
+comichão, espirros e congestão nasal) </li>
+</ul>
+<p>Se estes efeitos indesejáveis ocorrerem, procure imediatamente assistência médica e pare a perfusão. 
+Se necessário, o seu médico irá dar-lhe tratamento médico. </p>
+<p>Outros efeitos indesejáveis incluem </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>reações relacionadas com a perfusão </p>
+</li>
+<li>
+<p>fraqueza </p>
+</li>
+<li>
+<p>enjoos (náuseas) </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>dor abdominal </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>dor </p>
+</li>
+<li>
+<p>dor no peito </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>dores nos músculos e articulações </p>
+</li>
+<li>
+<p>sensações tais como dormência, picadas e formigueiro (parestesia) </p>
+</li>
+<li>
+<p>comichão (prurido) </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>arrepios </p>
+</li>
+<li>
+<p>vermelhidão da pele (eritema) </p>
+</li>
+<li>
+<p>sensação de andar à roda (vertigens), excitação, irritabilidade ou confusão </p>
+</li>
+<li>
+<p>alteração do ritmo normal do coração </p>
+</li>
+<li>
+<p>agitação </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>tremores </p>
+</li>
+<li>
+<p>tensão arterial alta (hipertensão) </p>
+</li>
+<li>
+<p>broncospasmo (contração dos músculos dos brônquios, causando obstrução das vias 
+respiratórias) e dificuldade em respirar </p>
+</li>
+<li>
+<p>irritação da garganta </p>
+</li>
+<li>
+<p>temperatura corporal aumentada </p>
+</li>
+<li>
+<p>dificuldade em dormir (insónia) </p>
+</li>
+<li>
+<p>síndrome das pernas inquietas </p>
+</li>
+<li>
+<p>lesões nos nervos dos braços e das pernas, causando dor ou dormência, ardor ou picadas 
+(neuropatia periférica) </p>
+</li>
+<li>
+<p>dor nos nervos (nevralgia) </p>
+</li>
+<li>
+<p>sensação de ardor </p>
+</li>
+<li>
+<p>afrontamentos </p>
+</li>
+<li>
+<p>doença na qual os ácidos do estômago sobem para o esófago (doença do refluxo 
+gastroesofágico) </p>
+</li>
+<li>
+<p>inflamação do revestimento do estômago (dispepsia) </p>
+</li>
+<li>
+<p>indigestão </p>
+</li>
+<li>
+<p>gases (flatulência) </p>
+</li>
+<li>
+<p>diminuição da transpiração (hipoidrose) </p>
+</li>
+<li>
+<p>doença renal imunológica que causa excesso de proteínas na urina e mau funcionamento dos 
+rins (glomerulonefrite membranoproliferativa) </p>
+</li>
+<li>
+<p>doença renal crónica </p>
+</li>
+<li>
+<p>excesso de proteínas na urina (proteinúria) </p>
+</li>
+<li>
+<p>lesões nos tecidos porque o medicamento que é normalmente perfundido numa veia vaza ou é 
+perfundido acidentalmente nos tecidos circundantes (extravasão no local da perfusão) </p>
+</li>
+<li>
+<p>inchaço da parte inferior das pernas e das mãos (edema) </p>
+</li>
+<li>
+<p>inchaço dos braços e das pernas </p>
+</li>
+<li>
+<p>estado gripal </p>
+</li>
+<li>
+<p>congestão nasal e espirros </p>
+</li>
+<li>
+<p>dor no local da perfusão </p>
+</li>
+<li>
+<p>enzimas do fígado e ácido úrico no sangue aumentados, rácio proteínas/creatinina na urina 
+aumentado, presença de glóbulos brancos na urina, determinados por análises de laboratório </p>
+</li>
+<li>
+<p>aumento de peso </p>
+</li>
+<li>
+<p>tensão arterial baixa (hipotensão) </p>
+</li>
+<li>
+<p>batimento cardíaco lento (bradicardia) </p>
+</li>
+<li>
+<p>espessamento da parede interior de um ventrículo do coração </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar elfabrio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar elfabrio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C-8°C). </p>
+<p>Após diluição, a solução diluída deve ser utilizada imediatamente. Se não for utilizada imediatamente, 
+a solução diluída deve ser conservada durante, no máximo, 24 horas no frigorífico (2°C-8°C) ou 
+durante, no máximo, 8 horas à temperatura ambiente (inferior a 25°C). </p>
+<p>Não utilize este medicamento se verificar a presença de partículas ou de descoloração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Elfabrio 
+- A substância ativa é a pegunigalsidase alfa. Cada frasco para injetáveis contém 20 mg de 
+pegunigalsidase alfa em 10 ml (2 mg/ml). 
+- Os outros componentes são citrato de sódio tribásico di-hidratado, ácido cítrico e cloreto de 
+sódio (ver secção 2 “Elfabrio contém sódio"). </p>
+<p>Qual o aspeto de Elfabrio e conteúdo da embalagem 
+Solução límpida e incolor num frasco para injetáveis de vidro transparente com uma rolha de borracha 
+e selado com uma cápsula de fecho destacável de alumínio. </p>
+<p>Apresentações: 1, 5 ou 10 frascos para injetáveis. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Chiesi Farmaceutici S.p.A. 
+Via Palermo 26/A 
+43122 Parma 
+Itália </p>
+<p>Fabricante 
+Chiesi Farmaceutici S.p.A. 
+Via San Leonardo 43122 Parma 
+Itália </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Chiesi sa/nv 
+Tél/Tel: + 32 (0)2 788 42<br />
+Lietuva 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+България 
+Chiesi Bulgaria EOOD 
+Тел.: +359 29201 
+Luxembourg/Luxemburg 
+Chiesi sa/nv 
+Tél/Tel: + 32 (0)2 788 42<br />
+Česká republika 
+Chiesi CZ s.r.o. 
+Tel: + 420 261221 
+Magyarország 
+Chiesi Hungary Kft. 
+Tel.: + 36-1-429 1 
+Danmark 
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35<br />
+Malta 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 
+Deutschland 
+Chiesi GmbH 
+Tel: + 49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V. 
+Tel: + 31 88 501 64<br />
+Eesti 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+Norge 
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35<br />
+Ελλάδα 
+Chiesi Hellas AEBE 
+Τηλ: + 30 210 6179 
+Österreich 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+España 
+Chiesi España, S.A.U. 
+Tel: + 34 934948 
+Polska 
+Chiesi Poland Sp. z.o.o. 
+Tel.: + 48 22 620 1 
+France 
+Chiesi S.A.S. 
+Tél: + 33 1 47688 
+Portugal 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 
+Hrvatska 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+România 
+Chiesi Romania S.R.L. 
+Tel: + 40 212023 
+Ireland 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 
+Slovenija 
+CHIESI SLOVENIJA, d.o.o. 
+Tel: + 386-1-43 00<br />
+Ísland 
+Chiesi Pharma AB 
+Sími: +46 8 753 35<br />
+Slovenská republika 
+Chiesi Slovakia s.r.o. 
+Tel: + 421 259300 
+Italia 
+Chiesi Italia S.p.A. 
+Tel: + 39 0521 2 
+Suomi/Finland 
+Chiesi Pharma AB 
+Puh/Tel: +46 8 753 35 Κύπρος 
+Chiesi Farmaceutici S.p.A. 
+Τηλ: + 39 0521 2 
+Sverige 
+Chiesi Pharma AB 
+Tel: +46 8 753 35<br />
+Latvija 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -905,6 +1393,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-84263cabba69906218047f0258521479"
 * entry[0].resource = composition-da-84263cabba69906218047f0258521479
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp84263cabba69906218047f0258521479"
+* entry[=].resource = mp84263cabba69906218047f0258521479
+                            
+                    
+Instance: bundlepackageleaflet-pt-84263cabba69906218047f0258521479
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for elfabrio Package Leaflet for language pt"
+Description: "ePI document Bundle for elfabrio Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-84263cabba69906218047f0258521479"
+* entry[0].resource = composition-pt-84263cabba69906218047f0258521479
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp84263cabba69906218047f0258521479"
@@ -1006,6 +1516,18 @@ RuleSet: 84263cabba69906218047f0258521479ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-84263cabba69906218047f0258521479) // elfabrio pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

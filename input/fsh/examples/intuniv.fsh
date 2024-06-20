@@ -1172,6 +1172,716 @@ hjemmeside http://www.ema.europa.eu/.  </p>         </div>"""
 
 
 
+Instance: composition-pt-d2fbf2f2639d83ae5727c01cf5210fc3
+InstanceOf: CompositionUvEpi
+Title: "Composition for intuniv Package Leaflet"
+Description:  "Composition for intuniv Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd2fbf2f2639d83ae5727c01cf5210fc3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - intuniv"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Intuniv e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Intuniv  </li>
+<li>Como tomar Intuniv </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Intuniv </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é intuniv e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é intuniv e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Intuniv </p>
+<p>Intuniv contém a substância ativa guanfacina. Este medicamento pertence a um grupo de 
+medicamentos que afeta a atividade do cérebro. Este medicamento pode ajudar a melhorar a sua 
+atenção e concentração e a torná-lo menos impulsivo e hiperativo. </p>
+<p>Para que é utilizado Intuniv </p>
+<p>Este medicamento é utilizado para tratar a “perturbação de hiperatividade e défice de atenção" 
+(PHDA) em crianças e adolescentes com 6 a 17 anos de idade, nos quais a medicação estimulante 
+atual não é apropriada e/ou a medicação atual não controla de forma adequada os sintomas da PHDA. </p>
+<p>Este medicamento é dado como parte de um programa de tratamento, o qual inclui normalmente o 
+seguinte: </p>
+<ul>
+<li>
+<p>terapêutica psicológica </p>
+</li>
+<li>
+<p>terapêutica educacional </p>
+</li>
+<li>
+<p>terapêutica social </p>
+</li>
+</ul>
+<p>Sobre a PHDA </p>
+<p>As pessoas com PDAH sentem dificuldade em: </p>
+<ul>
+<li>
+<p>permanecerem quietas </p>
+</li>
+<li>
+<p>concentrarem-se. </p>
+</li>
+</ul>
+<p>A PHDA pode causar problemas na vida quotidiana. As crianças e jovens com PHDA podem ter 
+dificuldade em aprender e em fazer os trabalhos de casa. Para eles, pode ser difícil portarem-se bem 
+em casa, na escola ou noutros locais. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar intuniv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar intuniv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Intuniv: </p>
+<ul>
+<li>se tem alergia à guanfacina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </li>
+</ul>
+<p>Advertências e precauções  </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar este medicamento: </p>
+<ul>
+<li>
+<p>se tem tensão arterial baixa ou alta, problemas de coração ou tem antecedentes na sua família de 
+problemas de coração </p>
+</li>
+<li>
+<p>se desmaiou recentemente </p>
+</li>
+<li>
+<p>se tem pensamentos ou sentimentos suicidas </p>
+</li>
+<li>
+<p>se sofre de qualquer outra perturbação psiquiátrica </p>
+</li>
+</ul>
+<p>Fale com o seu médico ou farmacêutico se tomar este medicamento e: </p>
+<ul>
+<li>
+<p>tiver sentimentos ou comportamento agressivo ou </p>
+</li>
+<li>
+<p>tiver pensamentos ou sentimentos suicidas </p>
+</li>
+</ul>
+<p>Intuniv pode afetar o seu peso e altura se for tomado durante períodos prolongados; por este motivo, o 
+seu médico controlará o seu crescimento. </p>
+<p>Não pare de tomar Intuniv sem consultar o seu médico. Se parar de tomar o Intuniv subitamente, 
+poderá desenvolver sintomas de suspensão do tratamento correspondentes a aumento da frequência 
+cardíaca e tensão arterial alta (ver secção 4). </p>
+<p>Se qualquer das situações acima se lhe aplicar (ou se tiver dúvidas), fale com o seu médico ou 
+farmacêutico antes de tomar este medicamento. Isto porque este medicamento pode agravar estes 
+problemas. O seu médico efetuará um controlo de rotina para ver como é que este medicamento o está 
+a afetar. </p>
+<p>Crianças (com menos de 6 anos de idade) e adultos (com 18 anos de idade ou mais) </p>
+<p>Este medicamento não deve ser utilizado em crianças com menos de 6 anos de idade e em adultos com 
+18 anos de idade ou mais, porque não se sabe se atua ou se é seguro. </p>
+<p>Controlos que o seu médico fará enquanto estiver a tomar Intuniv </p>
+<p>Antes de começar a tomar este medicamento, o seu médico fará controlos para se assegurar que este 
+medicamento é seguro para si e que o ajudará. Enquanto estiver a tomar este medicamento, o seu 
+médico repetirá estes controlos todas as semanas no início do tratamento, após os ajustes da dose e, 
+pelo menos, em intervalos de 3 meses durante o primeiro ano, e depois pelo menos duas vezes por 
+ano. Estes controlos podem incluir: </p>
+<ul>
+<li>
+<p>a sua tensão arterial e frequência do coração, assim como outros controlos do coração, se 
+apropriado </p>
+</li>
+<li>
+<p>a sua resposta ao tratamento, em especial se este fizer com que se sinta sonolento </p>
+</li>
+<li>
+<p>a sua altura e peso </p>
+</li>
+</ul>
+<p>Deverá falar com o seu médico se não se sentir melhor ou no caso de se sentir pior e muito sonolento 
+depois de tomar este medicamento durante cerca de 6 semanas. O seu médico poderá querer rever o 
+seu tratamento </p>
+<p>Outros medicamentos e Intuniv </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto porque Intuniv e alguns medicamentos podem interferir entre eles. </p>
+<p>Em especial, informe o seu médico ou farmacêutico se estiver a tomar qualquer um dos seguintes tipos 
+de medicamentos: </p>
+<ul>
+<li>
+<p>medicamentos que diminuem a sua tensão arterial (anti-hipertensores) </p>
+</li>
+<li>
+<p>medicamentos para a epilepsia como o ácido valpróico </p>
+</li>
+<li>
+<p>medicamentos que lhe causam sonolência (sedativos) </p>
+</li>
+<li>
+<p>medicamentos para problemas de saúde mental (benzodiazepinas, barbitúricos e antipsicóticos) </p>
+</li>
+<li>
+<p>medicamentos que podem afetar o modo como Intuniv é eliminado pelo fígado (ver tabela 
+abaixo) </p>
+</li>
+</ul>
+<p>Medicamentos 
+Utilizados para tratar 
+Aprepitant 
+Náuseas e vertigens. 
+Atazanavir, efavirenz, etravirina, 
+fosamprenavir, indinavir, nevirapina, 
+ritonavir, saquinavir<br />
+Infeção pelo VIH. 
+Ciprofloxacina, cloranfenicol, 
+claritromicina, eritromicina, rifabutina, 
+rifampicina, telitromicina<br />
+Infeções bacterianas. 
+Fluconazol, itraconazol, posaconazol, 
+cetoconazol 
+Infeções fúngicas. 
+Crizotinib, imatinib 
+Cancro. 
+Diltiazem, verapamil 
+Afeções cardiovasculares. 
+Boceprevir, telaprevir 
+Hepatite viral. 
+Suboxone 
+Dependência de substâncias. 
+Bosentano 
+Afeções cardiovasculares (por exemplo, constrição 
+dos vasos do sangue nos pulmões). 
+Carbamazepina, oxcarbazepina, 
+fenobarbital, fenitoína, primidona 
+Utilizado para controlar a epilepsia. 
+Modafinil 
+É um medicamento que promove o estado de alerta 
+e é utilizado para tratar perturbações do sono. 
+Erva de S. João 
+É uma preparação à base de plantas que é utilizada 
+para tratar a depressão. </p>
+<p>Se qualquer um dos acima indicados se lhe aplicar ou se tiver dúvidas, fale com o seu médico ou 
+farmacêutico antes de tomar este medicamento. </p>
+<p>Intuniv com alimentos, bebidas e álcool </p>
+<ul>
+<li>
+<p>Não tome este medicamento com alimentos gordos (por exemplo, com um pequeno-almoço rico 
+em gorduras), porque podem afetar a maneira como este medicamento atua. </p>
+</li>
+<li>
+<p>Não beba sumo de toranja com este medicamento porque pode afetar a maneira como este 
+medicamento atua. </p>
+</li>
+<li>
+<p>Não beba álcool enquanto estiver a tomar este medicamento porque pode causar sonolência. </p>
+</li>
+</ul>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de lhe ser administrado este medicamento. </p>
+<ul>
+<li>
+<p>Não tome este medicamento se estiver grávida ou se não utilizar medidas contracetivas. 
+Desconhece-se se Intuniv afetará o seu bebé que ainda não nasceu. </p>
+</li>
+<li>
+<p>Não amamente enquanto estiver a tomar Intuniv a menos que o seu médico lhe diga para o 
+fazer.  </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Pode sentir tonturas e sonolência quando tomar este medicamento, especialmente no início do 
+tratamento, o que pode durar 2 a 3 semanas e possivelmente mais tempo. Se isto lhe acontecer, não 
+conduza, não ande de bicicleta nem utilize ferramentas ou máquinas, nem participe em atividades que 
+podem causar ferimentos, até saber como é afetado por este medicamento. Também foi comunicado 
+desmaio mas este não é um efeito frequente. </p>
+<p>Intuniv contém lactose </p>
+<p>A lactose é um tipo de açúcar. Se foi informado pelo seu médico que tem uma intolerância a alguns 
+açúcares, fale com o seu médico antes de tomar este medicamento. </p>
+<p>Intuniv contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol de sódio (23 mg) por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar intuniv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar intuniv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu tratamento será iniciado sob a supervisão de um especialista com a formação adequada em 
+perturbações do comportamento da infância e/ou adolescência. </p>
+<p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.  </p>
+<p>Como parte do seu tratamento, o seu médico controlará regularmente a maneira como Intuniv o afeta 
+durante o início do tratamento e/ou os ajustes de dose. </p>
+<p>Quanto deve tomar </p>
+<ul>
+<li>
+<p>O seu médico iniciará o seu tratamento com 1 mg por dia. O seu médico pode aumentar a sua 
+dose com base no seu peso corporal e na maneira com Intuniv está a atuar, mas não mais do que 
+1 mg por semana. Dependendo da maneira como responde ao tratamento, o seu médico pode 
+aumentar a sua dose mais lentamente. A dose de manutenção recomendada é entre 0,05 até 
+0,12 mg por kg de peso corporal por dia. </p>
+</li>
+<li>
+<p>Poderá não detetar um efeito imediato após o início do tratamento; alguns doentes poderão 
+detetar uma melhoria após a primeira semana mas pode demorar mais tempo. </p>
+</li>
+<li>
+<p>A sua dose diária será entre 1 e 7 mg dependendo da sua idade e de como responde ao Intuniv, 
+mas não será superior a 7 mg. </p>
+</li>
+</ul>
+<p>Como tomar Intuniv </p>
+<ul>
+<li>
+<p>Este medicamento deve ser tomado uma vez por dia, de manhã ou à noite.  </p>
+</li>
+<li>
+<p>Pode ser tomado com ou sem alimentos, mas não o tome com alimentos gordos (por exemplo, 
+com um pequeno-almoço rico em gorduras). </p>
+</li>
+<li>
+<p>Engula os comprimidos inteiros com água ou outro líquido (mas não com sumo de toranja). </p>
+</li>
+<li>
+<p>Não parta, esmague ou mastigue o comprimido porque isto afetará a maneira como o 
+comprimido atua. Fale com o seu médico se não conseguir engolir o comprimido inteiro. </p>
+</li>
+</ul>
+<p>Duração do tratamento </p>
+<p>Se necessitar de tomar Intuniv durante mais de um ano, o seu médico controlará a sua resposta ao 
+tratamento e pode parar o tratamento durante um curto período de tempo, o que pode acontecer 
+durante umas férias escolares. Isto mostrará se ainda necessita de tomar o medicamento. </p>
+<p>Se tomar mais Intuniv do que deveria </p>
+<p>Se tomar mais Intuniv do que deveria, fale com um médico ou dirija-se imediatamente a um hospital. 
+Leve a embalagem do medicamento consigo e informe-os sobre a quantidade que tomou. </p>
+<p>Podem ocorrer os seguintes efeitos: tensão arterial alta ou baixa, batimento lento do coração, 
+frequência lenta da respiração, sensação de cansaço ou exaustão. </p>
+<p>Caso se tenha esquecido de tomar Intuniv </p>
+<p>No caso de se esquecer de uma dose, aguarde até ao dia seguinte e tome a sua dose habitual.  </p>
+<ul>
+<li>
+<p>No caso de se ter esquecido de duas ou mais doses, fale com o seu médico, porque poderá ser 
+necessário recomeçar a tomar o Intuniv com uma dose mais baixa. </p>
+</li>
+<li>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+</li>
+</ul>
+<p>Se parar de tomar Intuniv </p>
+<p>Não pare de tomar este medicamento sem falar primeiro com o seu médico. </p>
+<ul>
+<li>
+<p>Se parar de tomar este medicamento a sua tensão arterial e a frequência do seu coração podem 
+aumentar (ver secção 4 abaixo). </p>
+</li>
+<li>
+<p>Para parar o medicamento, o seu médico diminuirá lentamente a sua dose de Intuniv para reduzir 
+ao mínimo quaisquer efeitos indesejáveis. </p>
+</li>
+</ul>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Se estiver preocupado, fale com o seu médico. </p>
+<p>Se sentir qualquer tipo de indisposição enquanto estiver a tomar o seu medicamento, fale 
+imediatamente com um adulto. </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Os seguintes efeitos indesejáveis graves foram comunicados: sensação de sonolência (sedação), 
+sensação de tonturas (hipotensão), batimentos lentos do coração (bradicardia), sensação de ir desmaiar 
+ou perda de consciência (síncope), um efeito secundário grave da suspensão do tratamento, 
+correspondente a tensão arterial alta após a paragem súbita da toma de Intuniv; os sintomas podem 
+incluir cefaleias, sensação de confusão, nervosismo, agitação e tremores (encefalopatia hipertensiva). </p>
+<p>Alguns destes efeitos indesejáveis têm mais probabilidade de ocorrer no início do tratamento e podem 
+desaparecer com a continuação do seu tratamento; se sentir qualquer um destes efeitos indesejáveis 
+contacte imediatamente o seu médico. </p>
+<p>Outros efeitos indesejáveis  </p>
+<p>Os seguintes efeitos indesejáveis foram comunicados. </p>
+<p>Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>sensação de sono (sonolência) </p>
+</li>
+<li>
+<p>sensação de cansaço (fadiga) </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>dor de barriga (dor abdominal) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>frequência cardíaca baixa </p>
+</li>
+<li>
+<p>diminuição da tensão arterial </p>
+</li>
+<li>
+<p>sensação de desassossego ou irritabilidade </p>
+</li>
+<li>
+<p>dificuldade em dormir (insónia) ou interrupção do sono (insónia intermédia) ou pesadelos </p>
+</li>
+<li>
+<p>sensação de depressão, estar preocupado (ansiedade) ou ter alterações do humor (afeta a 
+labilidade) </p>
+</li>
+<li>
+<p>falta de energia (letargia) </p>
+</li>
+<li>
+<p>aumento de peso </p>
+</li>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>ter a boca seca </p>
+</li>
+<li>
+<p>urinar na cama (enurese) </p>
+</li>
+<li>
+<p>sensação de enjoo (náuseas) ou vómitos </p>
+</li>
+<li>
+<p>diarreia, desconforto abdominal ou prisão de ventre </p>
+</li>
+<li>
+<p>tensão arterial baixa ao levantar-se (hipotensão ortostática) </p>
+</li>
+<li>
+<p>erupção na pele. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>reação alérgica (hipersensibilidade) </p>
+</li>
+<li>
+<p>dor no peito </p>
+</li>
+<li>
+<p>indigestão (dispepsia) </p>
+</li>
+<li>
+<p>dificuldade em respirar (asma) </p>
+</li>
+<li>
+<p>sensação de fraqueza (astenia) </p>
+</li>
+<li>
+<p>cor pálida da pele (palidez) </p>
+</li>
+<li>
+<p>crises epiléticas ou convulsões </p>
+</li>
+<li>
+<p>necessidade de urinar com frequência (polaquiúria) </p>
+</li>
+<li>
+<p>sensação de agitação </p>
+</li>
+<li>
+<p>agressão </p>
+</li>
+<li>
+<p>alterações nos resultados das análises de sangue do fígado (aumento da alanina 
+aminotransferase) </p>
+</li>
+<li>
+<p>aumento da tensão arterial  </p>
+</li>
+<li>
+<p>ritmo anormal do coração (arritmia sinusal e bloqueio auriculoventricular de primeiro grau) </p>
+</li>
+<li>
+<p>batimentos rápidos do coração (taquicardia) </p>
+</li>
+<li>
+<p>frequência mais lenta do coração </p>
+</li>
+<li>
+<p>sensação de tonturas ao levantar-se (tontura postural) </p>
+</li>
+<li>
+<p>comichão na pele (prurido)  </p>
+</li>
+<li>
+<p>ver ou ouvir coisas que não existem (alucinações). </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em cada 1.000 pessoas) </p>
+<ul>
+<li>
+<p>dormir mais do que é normal (hipersónia) </p>
+</li>
+<li>
+<p>tensão arterial elevada (hipertensão)  </p>
+</li>
+<li>
+<p>não se sentir bem (mal-estar). </p>
+</li>
+</ul>
+<p>Muito raros (podem afetar até 1 em cada 10.000 pessoas) </p>
+<ul>
+<li>um efeito secundário grave da suspensão do tratamento, correspondente a tensão arterial alta 
+após a paragem súbita da toma de Intuniv; os sintomas podem incluir cefaleias, sensação de 
+confusão, nervosismo, agitação e tremores (encefalopatia hipertensiva). </li>
+</ul>
+<p>Desconhecido (não pode ser calculado a partir dos dados disponíveis) </p>
+<ul>
+<li>dificuldade em conseguir ou manter uma ereção (disfunção erétil). </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar intuniv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar intuniv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não utilize este medicamento se os comprimidos ou a embalagem blister parecerem danificados. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Intuniv </p>
+<ul>
+<li>
+<p>Cada comprimido de 1 mg contém cloridrato de guanfacina equivalente a 1 mg de guanfacina. </p>
+</li>
+<li>
+<p>Cada comprimido de 2 mg contém cloridrato de guanfacina equivalente a 2 mg de guanfacina. </p>
+</li>
+<li>
+<p>Cada comprimido de 3 mg contém cloridrato de guanfacina equivalente a 3 mg de guanfacina. </p>
+</li>
+<li>
+<p>Cada comprimido de 4 mg contém cloridrato de guanfacina equivalente a 4 mg de guanfacina. </p>
+</li>
+<li>
+<p>Os outros componentes são hipromelose 2208, copolímero de ácido metacrílico-acrilato de etilo, 
+lactose mono-hidratada, povidona, crospovidona Tipo A, celulose microcristalina, sílica 
+coloidal anidra, laurilsulfato de sódio, polissorbato 80, ácido fumárico, dibehenato de glicerol. </p>
+</li>
+<li>
+<p>Os comprimidos de 3 mg e de 4 mg também contêm lacas de alumínio de indigotina (E132) e 
+óxido de ferro amarelo (E172) </p>
+</li>
+</ul>
+<p>Qual o aspeto de Intuniv e conteúdo da embalagem </p>
+<p>Intuniv é um comprimido de libertação prolongada, o que significa que a substância ativa é libertada 
+do comprimido durante um período de tempo. Os comprimidos são apresentados em embalagens de 7, 
+28 ou 84, mas é possível que não sejam comercializadas todas as apresentações. </p>
+<ul>
+<li>
+<p>Os comprimidos de libertação prolongada de 1 mg são comprimidos duros, redondos e brancos, 
+com a gravação 1MG num lado e 503 no outro lado. </p>
+</li>
+<li>
+<p>Os comprimidos de libertação prolongada de 2 mg são comprimidos duros, ovais e brancos, 
+com a gravação 2MG num lado e 503 no outro lado. </p>
+</li>
+<li>
+<p>Os comprimidos de libertação prolongada de 3 mg são comprimidos duros, redondos e verdes, 
+com a gravação 3MG num lado e 503 no outro lado. </p>
+</li>
+<li>
+<p>Os comprimidos de libertação prolongada de 4 mg são comprimidos duros, ovais e verdes, com 
+a gravação 4MG num lado e 503 no outro lado. </p>
+</li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Takeda Pharmaceuticals International AG Ireland Branch 
+Block 2 Miesian Plaza 
+50-58 Baggot Street Lower 
+Dublin 2<br />
+D02 HW68<br />
+Irlanda </p>
+<p>Fabricante 
+Takeda Pharmaceuticals International AG Ireland Branch 
+Block 2 Miesian Plaza 
+50-58 Baggot Street Lower 
+Dublin 2<br />
+D02 HW68<br />
+Irlanda </p>
+<p>Shire Pharmaceuticals Ireland Limited 
+Block 2 &amp; 3 Miesian Plaza 
+50 - 58 Baggot Street Lower 
+Dublin 2 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 11<br />
+medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>България 
+Такеда България ЕООД 
+Тел.: +359 2 958 27 medinfoEMEA@takeda.com  </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>Česká republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: +420 234 722 medinfoEMEA@takeda.com </p>
+<p>Magyarország 
+Takeda Pharma Kft. 
+Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
+<p>Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Τakeda HELLAS S.A. 
+Tel: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>Ελλάδα 
+Τakeda ΕΛΛΑΣ Α.Ε. 
+Tηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Österreich 
+Takeda Pharma Ges.m.b.H.<br />
+Tel: +43 (0) 800-20 80 50<br />
+medinfoEMEA@takeda.com </p>
+<p>España 
+Takeda Farmacéutica España S.A. 
+Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+Tel.: +48223062medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+Tél: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmacêuticos Portugal, Lda. 
+Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>România 
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska družba d.o.o. 
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovenská republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>Κύπρος 
+Τakeda ΕΛΛΑΣ Α.Ε. 
+Τηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com </p>
+<p>United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
+<p>Este folheto foi revisto pela última vez em   </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1213,6 +1923,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d2fbf2f2639d83ae5727c01cf5210fc3"
 * entry[0].resource = composition-da-d2fbf2f2639d83ae5727c01cf5210fc3
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd2fbf2f2639d83ae5727c01cf5210fc3"
+* entry[=].resource = mpd2fbf2f2639d83ae5727c01cf5210fc3
+                            
+                    
+Instance: bundlepackageleaflet-pt-d2fbf2f2639d83ae5727c01cf5210fc3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for intuniv Package Leaflet for language pt"
+Description: "ePI document Bundle for intuniv Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d2fbf2f2639d83ae5727c01cf5210fc3"
+* entry[0].resource = composition-pt-d2fbf2f2639d83ae5727c01cf5210fc3
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd2fbf2f2639d83ae5727c01cf5210fc3"
@@ -1314,6 +2046,18 @@ RuleSet: d2fbf2f2639d83ae5727c01cf5210fc3ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d2fbf2f2639d83ae5727c01cf5210fc3) // intuniv pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

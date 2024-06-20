@@ -910,6 +910,550 @@ ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegssed
 
 
 
+Instance: composition-pt-6455d7711efcb7c39e76872d121d19e0
+InstanceOf: CompositionUvEpi
+Title: "Composition for esbriet Package Leaflet"
+Description:  "Composition for esbriet Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6455d7711efcb7c39e76872d121d19e0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - esbriet"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Esbriet e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Esbriet  </li>
+<li>Como tomar Esbriet  </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Esbriet </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é esbriet e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é esbriet e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Esbriet contém a substância ativa pirfenidona e é utilizado para o tratamento da fibrose pulmonar 
+idiopática (FPI) em adultos.  </p>
+<p>A FPI é uma patologia na qual os tecidos nos seus pulmões incham e ficam com cicatrizes ao longo do 
+tempo, o que dificulta  respirar profundamente. Os pulmões têm, assim, dificuldade em funcionar de 
+forma adequada. Esbriet ajuda a reduzir as cicatrizes (tecido cicatricial) e o inchaço nos pulmões e 
+ajuda-o a respirar melhor.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar esbriet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar esbriet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Esbriet  </p>
+<ul>
+<li>
+<p>se tem alergia à pirfenidona ou a qualquer outro componente deste medicamento (indicados na 
+secção 6)  </p>
+</li>
+<li>
+<p>se teve anteriormente angioedema com a pirfenidona, incluindo sintomas como inchaço do 
+rosto, lábios e/ou língua que podem estar associados a dificuldade em respirar ou pieira </p>
+</li>
+<li>
+<p>se está a tomar um medicamento chamado fluvoxamina (utilizado para o tratamento da 
+depressão e da perturbação obsessivo-compulsiva [POC])  </p>
+</li>
+<li>
+<p>se sofre de doença no fígado (hepática) grave ou em fase terminal </p>
+</li>
+<li>
+<p>se sofre de doença nos rins (renal) grave ou em fase terminal que requeira diálise.  </p>
+</li>
+</ul>
+<p>Se alguma das situações acima referidas o afetar, não tome Esbriet. Se tiver dúvidas, fale com o seu 
+médico ou farmacêutico. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Esbriet </p>
+<ul>
+<li>
+<p>Pode ficar mais sensível à luz do sol (reação de fotossensibilidade) quando tomar Esbriet. Evite 
+o sol (incluindo lâmpadas solares) enquanto toma Esbriet. Use protetor solar diariamente e tape 
+os braços, pernas e cabeça para reduzir a exposição à luz do sol (ver secção 4. Efeitos 
+indesejáveis possíveis). </p>
+</li>
+<li>
+<p>Não deve tomar outros medicamentos, como os antibióticos da classe das tetraciclinas (como a 
+doxiciclina), que o podem tornar mais sensível à luz do sol. </p>
+</li>
+<li>
+<p>Deve informar o seu médico se sofre de problemas de rins.  </p>
+</li>
+<li>
+<p>Deve informar o seu médico se sofre de problemas no fígado (hepáticos) ligeiros a moderados. </p>
+</li>
+<li>
+<p>Deve deixar de fumar antes e durante o tratamento com Esbriet. O consumo de tabaco pode 
+reduzir o efeito de Esbriet. </p>
+</li>
+<li>
+<p>Esbriet pode causar tonturas e cansaço. Certifique-se de que não participa em atividades onde 
+tem de estar alerta e ter coordenação.  </p>
+</li>
+<li>
+<p>Esbriet pode causar perda de peso. O seu médico vigiará o seu peso enquanto tomar este 
+medicamento.  </p>
+</li>
+<li>
+<p>Foi notificada a ocorrência de síndrome de Stevens-Johnson, necrólise epidérmica tóxica e 
+reação medicamentosa com eosinofilia e sintomas sistémicos (DRESS), associadas ao 
+tratamento com Esbriet. Pare de utilizar Esbriet e procure assistência médica imediatamente se 
+tiver qualquer um dos sintomas associados a estas reações cutâneas graves, descritos na secção </p>
+</li>
+<li>Esbriet pode causar problemas graves de fígado e alguns casos têm sido fatais. Terá de realizar uma 
+análise ao sangue antes de começar a tomar Esbriet e mensalmente durante os 6 primeiros meses e, 
+posteriormente, a cada 3 meses enquanto toma este medicamento, para confirmar que o fígado está a 
+funcionar corretamente. Estas análises regulares ao sangue são importantes e devem ser realizadas 
+enquanto estiver a tomar Esbriet.  </li>
+</ul>
+<p>Crianças e adolescentes 
+Não administre Esbriet a crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Esbriet 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.     </p>
+<p>Isto é especialmente importante se estiver a tomar os medicamentos indicados de seguida, dado que 
+podem alterar o efeito de Esbriet. </p>
+<p>Medicamentos que podem aumentar os efeitos indesejáveis de Esbriet: </p>
+<ul>
+<li>
+<p>enoxacina (um tipo de antibiótico) </p>
+</li>
+<li>
+<p>ciprofloxacina (um tipo de antibiótico) </p>
+</li>
+<li>
+<p>amiodarona (utilizada para o tratamento de alguns tipos de doença cardíaca) </p>
+</li>
+<li>
+<p>propafenona (utilizada para o tratamento de alguns tipos de doença cardíaca) </p>
+</li>
+<li>
+<p>fluvoxamina (utilizada para o tratamento da depressão e perturbação obsessivo-compulsiva 
+[POC]) </p>
+</li>
+</ul>
+<p>Medicamentos que podem reduzir o funcionamento correto do Esbriet: </p>
+<ul>
+<li>
+<p>omeprazol (utilizado no tratamento de estados como indigestão, doença de refluxo 
+gastroesofágico) </p>
+</li>
+<li>
+<p>rifampicina (um tipo de antibiótico). </p>
+</li>
+</ul>
+<p>Esbriet com alimentos e bebidas 
+Não beba sumo de toranja enquanto tomar este medicamento. A toranja pode impedir Esbriet de 
+funcionar corretamente.  </p>
+<p>Gravidez e amamentação 
+Como medida de precaução, é preferível evitar a utilização de Esbriet se está grávida, se planeia 
+engravidar ou se pensa que pode estar grávida, pois os potenciais riscos para o feto são desconhecidos. </p>
+<p>Se está a amamentar ou planeia amamentar, fale com o seu médico ou farmacêutico antes de tomar 
+Esbriet. Como não se sabe se Esbriet passa para o leite materno o seu médico discutirá consigo os 
+riscos e benefícios inerentes à toma deste medicamento durante o período de amamentação, se o 
+decidir fazer. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza nem utilize máquinas caso se sinta tonto ou cansado depois de tomar Esbriet.  </p>
+<p>Esbriet contém sódio 
+Esbriet contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é praticamente “isento de 
+sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar esbriet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar esbriet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com Esbriet deve ser iniciado e supervisionado por um médico especialista com 
+experiência no diagnóstico e tratamento da FPI. </p>
+<p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.   </p>
+<p>O medicamento é habitualmente administrado em doses crescentes, conforme indicado de seguida: </p>
+<ul>
+<li>
+<p>nos 7 primeiros dias, tome 1 cápsula 3 vezes por dia com alimentos (um total de 801 mg/dia) </p>
+</li>
+<li>
+<p>do dia 8 ao 14, tome 2 cápsulas 3 vezes por dia com alimentos (um total de 1.602 mg/dia)  </p>
+</li>
+<li>
+<p>a partir do dia 15 (manutenção), tome 3 cápsulas 3 vezes por dia com alimentos (um total de 
+2.403 mg/dia).   </p>
+</li>
+</ul>
+<p>A dose diária de manutenção recomendada de Esbriet é de 3 cápsulas, três vezes por dia, com 
+alimentos, perfazendo um total de 2.403 mg/dia. </p>
+<p>Engula as cápsulas inteiras com um copo de água, durante ou depois de uma refeição, para diminuir o 
+risco de efeitos indesejáveis, como náuseas (sensação de enjoo) e tonturas. Se os sintomas 
+continuarem, consulte o seu médico.  </p>
+<p>Redução da dose devido a efeitos indesejáveis 
+O seu médico poderá reduzir a dose se ocorrerem determinados efeitos indesejáveis, tais como 
+problemas do estômago, quaisquer reações na pele (cutâneas) à luz solar ou lâmpadas solares, ou 
+alterações significativas nos níveis das enzimas do fígado.  </p>
+<p>Se tomar mais Esbriet do que deveria<br />
+Contacte imediatamente o seu médico, farmacêutico ou o serviço de urgências do hospital mais 
+próximo se tomou mais cápsulas do que deveria e leve o medicamento consigo.  </p>
+<p>Caso se tenha esquecido de tomar Esbriet<br />
+Caso se tenha esquecido de uma dose, tome-a logo que se lembre. Não tome uma dose a dobrar para 
+compensar uma dose que se esqueceu de tomar. Cada dose deve ser separada por, pelo menos, 3 horas. 
+Não tome mais cápsulas por dia do que a dose diária prescrita.  </p>
+<p>Se parar de tomar Esbriet 
+Em algumas situações, o seu médico pode aconselhá-lo a parar de tomar Esbriet. Se, por algum 
+motivo, tiver de deixar de tomar Esbriet durante mais de 14 dias consecutivos, o seu médico reiniciará 
+o seu tratamento com 1 cápsula 3 vezes por dia, aumentando gradualmente esta dose para 3 cápsulas 3 
+vezes por dia.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Deixe de tomar Esbriet e procure assistência médica imediatamente se notar algum dos seguintes 
+sintomas ou sinais </p>
+<ul>
+<li>
+<p>Inchaço do rosto, lábios e/ou língua, comichão, urticária, dificuldade em respirar ou pieira, ou 
+sensação de desmaio, que são sinais de angioedema, reação alérgica grave ou anafilaxia.  </p>
+</li>
+<li>
+<p>Olhos ou a pele amarelados, ou a urina escura, potencialmente acompanhados por prurido da 
+pele, dor na região superior direita da sua barriga (abdómen), perda de apetite,  hemorragias ou 
+nódoas negras mais frequentemente que o normal, ou se sentir cansaço. Estes podem ser sinais 
+de função hepática anormal e podem indicar lesão hepática, que é um efeito indesejável pouco 
+frequente de Esbriet. </p>
+</li>
+<li>
+<p>Manchas avermelhadas planas ou circulares no tronco, geralmente com bolhas centrais, 
+descamação da pele, úlceras na boca, na garganta, no nariz, nos genitais e nos olhos. Estas 
+reações na pele cutâneas graves podem ser antecedidas de febre e sintomas gripais (síndrome de 
+Stevens-Johnson ou necrólise epidérmica tóxica). </p>
+</li>
+<li>
+<p>Erupção cutânea generalizada, temperatura corporal elevada e gânglios linfáticos aumentados 
+(síndrome de DRESS ou síndrome de hipersensibilidade a medicamentos). </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis podem incluir 
+Informe o seu médico se tiver quaisquer efeitos indesejáveis. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 pessoa em cada 10 pessoas):  </p>
+<ul>
+<li>
+<p>infeções da garganta ou das vias respiratórias passando para os pulmões e/ou sinusite </p>
+</li>
+<li>
+<p>sensação de enjoo (náuseas) </p>
+</li>
+<li>
+<p>problemas de estômago, como refluxo ácido, vómitos e sensação de prisão de ventre </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>indigestão ou indisposição do estômago </p>
+</li>
+<li>
+<p>perda de peso  </p>
+</li>
+<li>
+<p>apetite diminuído </p>
+</li>
+<li>
+<p>dificuldade em dormir  </p>
+</li>
+<li>
+<p>cansaço  </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>tosse  </p>
+</li>
+<li>
+<p>articulações doridas/dores articulares.  </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>infeções da bexiga  </p>
+</li>
+<li>
+<p>sonolência </p>
+</li>
+<li>
+<p>mudanças do paladar </p>
+</li>
+<li>
+<p>afrontamentos  </p>
+</li>
+<li>
+<p>problemas de estômago, como sensação de inchaço, dor e desconforto abdominais, azia e gases </p>
+</li>
+<li>
+<p>as análises ao sangue podem mostrar níveis aumentados das enzimas do fígado  </p>
+</li>
+<li>
+<p>reações na pele depois de ter estado ao sol ou de ter utilizado lâmpadas solares   </p>
+</li>
+<li>
+<p>problemas da pele, como comichão, vermelhidão, secura e erupção da pele  </p>
+</li>
+<li>
+<p>dor muscular  </p>
+</li>
+<li>
+<p>sensação de fraqueza ou falta de energia   </p>
+</li>
+<li>
+<p>dores no peito  </p>
+</li>
+<li>
+<p>queimadura solar. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>níveis baixos de sódio no sangue. Estes podem causar dor de cabeça, tonturas, confusão, 
+fraqueza, cãibras musculares ou náuseas e vómitos </p>
+</li>
+<li>
+<p>as análises ao sangue podem mostrar uma diminuição dos glóbulos brancos. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis </p>
+<p>diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar esbriet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar esbriet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco, blister e 
+embalagem exterior após VAL. O prazo de validade corresponde ao último dia do mês indicado.  </p>
+<p>Não conservar este medicamento acima de 30ºC. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Esbriet<br />
+A substância ativa é pirfenidona. Cada cápsula contém 267 mg de pirfenidona.<br />
+Os outros componentes são: </p>
+<ul>
+<li>
+<p>Enchimento da cápsula: celulose microcristalina, croscarmelose sódica (ver secção 2 “Esbriet 
+contém sódio"), povidona, estearato de magnésio. </p>
+</li>
+<li>
+<p>Revestimento da cápsula: gelatina, dióxido de titânio (E171). </p>
+</li>
+<li>
+<p>Tinta de impressão castanha da cápsula: shellac, óxido de ferro negro (E172), óxido de ferro 
+vermelho (E172), óxido de ferro amarelo (E172), propilenoglicol, hidróxido de amónio.  </p>
+</li>
+</ul>
+<p>Qual o aspeto de Esbriet e conteúdo da embalagem 
+As cápsulas de Esbriet têm um corpo branco a esbranquiçado opaco e uma tampa branca a 
+esbranquiçada opaca, com a inscrição “PFD 267 mg" a tinta castanha. As cápsulas contêm um pó 
+branco a amarelo pálido.  </p>
+<p>O seu medicamento é fornecido numa embalagem de início de tratamento de 2 semanas, numa 
+embalagem de tratamento de 4 semanas ou num frasco.  </p>
+<p>A embalagem de início de tratamento de 2 semanas contém um total de 63 cápsulas. Há 7 fitas 
+contentoras blister com 3 cápsulas por fita (1 cápsula por bolsa para a Semana 1) e 7 fitas contentoras 
+blister com 6 cápsulas por fita (2 cápsulas por bolsa para a Semana 2). </p>
+<p>A embalagem de tratamento de 4 semanas contém um total de 252 cápsulas. Há 14 fitas contentoras 
+blister para 2 dias, contendo cada uma 18 cápsulas (3 cápsulas por bolsa). </p>
+<p>As fitas contentoras blister na embalagem de início do tratamento de 2 semanas e na embalagem de 
+manutenção do tratamento de 4 semanas estão cada uma marcada com os seguintes símbolos, de forma 
+a lembrar a toma de uma dose três vezes por dia: 
+ (nascer do sol; dose da manhã) 
+ (sol; dose do meio dia) e 
+(lua; dose do final da 
+tarde). </p>
+<p>O frasco contém 270 cápsulas.  </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado  </p>
+<p>Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Fabricante </p>
+<p>Roche Pharma AG 
+Emil-Barell-Strasse 1 
+D-79639 Grenzach-Whylen 
+Alemanha 
+. 
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+N.V. Roche S.A.<br />
+Tél/Tel: +32 (0) 2 525 82<br />
+Lietuva<br />
+UAB “Roche Lietuva" 
+Tel: +370 5 2546799  </p>
+<p>България<br />
+Рош България ЕООД<br />
+Тел: +359 2 818 44 44  </p>
+<p>Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>Česká republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382 
+Magyarország 
+Roche (Magyarország) Kft. 
+Tel: +36 1 279 4 
+Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99 99  </p>
+<p>Malta 
+(See Ireland)  </p>
+<p>Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624 140  </p>
+<p>Nederland 
+Roche Nederland B.V.<br />
+Tel: +31 (0) 348 438 
+Eesti 
+Roche Eesti OÜ 
+Tel: + 372 - 6 177<br />
+Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90<br />
+Ελλάδα<br />
+Roche (Hellas) A.E. 
+Τηλ: +30 210 61 66<br />
+Österreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27739  </p>
+<p>España 
+Roche Farma S.A.<br />
+Tel: +34 - 91 324 81<br />
+Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18<br />
+France 
+Roche<br />
+Tél: +33 (0) 1 47 61 40<br />
+Portugal 
+Roche Farmacêutica Química, Lda 
+Tel: +351 - 21 425 70 00  </p>
+<p>Hrvatska 
+Roche d.o.o.<br />
+Tel: +385 1 4722 333  </p>
+<p>România<br />
+Roche România S.R.L. 
+Tel: +40 21 206 47 01  </p>
+<p>Ireland 
+Roche Products (Ireland) Ltd.<br />
+Tel: +353 (0) 1 469 0700<br />
+Slovenija 
+Roche farmacevtska družba d.o.o.<br />
+Tel: +386 - 1 360 26<br />
+Ísland 
+Roche Pharmaceuticals A/S<br />
+c/o Icepharma hf<br />
+Sími: +354 540 8000  </p>
+<p>Slovenská republika 
+Roche Slovensko, s.r.o.<br />
+Tel: +421 - 2 52638201  </p>
+<p>Italia 
+Roche S.p.A.<br />
+Tel: +39 - 039 2471  </p>
+<p>Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 500  </p>
+<p>Κύπρος<br />
+Γ.Α.Σταμάτης &amp; Σια Λτδ.<br />
+Τηλ: +357 - 22 76 62 76  </p>
+<p>Sverige 
+Roche AB<br />
+Tel: +46 (0) 8 726 1200  </p>
+<p>Latvija 
+Roche Latvija SIA<br />
+Tel: +371 - 6 7039831  </p>
+<p>United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd.<br />
+Tel: +44 (0) 1707 366000  </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -951,6 +1495,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-6455d7711efcb7c39e76872d121d19e0"
 * entry[0].resource = composition-da-6455d7711efcb7c39e76872d121d19e0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6455d7711efcb7c39e76872d121d19e0"
+* entry[=].resource = mp6455d7711efcb7c39e76872d121d19e0
+                            
+                    
+Instance: bundlepackageleaflet-pt-6455d7711efcb7c39e76872d121d19e0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for esbriet Package Leaflet for language pt"
+Description: "ePI document Bundle for esbriet Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-6455d7711efcb7c39e76872d121d19e0"
+* entry[0].resource = composition-pt-6455d7711efcb7c39e76872d121d19e0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp6455d7711efcb7c39e76872d121d19e0"
@@ -1052,6 +1618,18 @@ RuleSet: 6455d7711efcb7c39e76872d121d19e0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-6455d7711efcb7c39e76872d121d19e0) // esbriet pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

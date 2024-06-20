@@ -798,6 +798,486 @@ hjemmeside: http://www.ema.europa.eu.  </p>         </div>"""
 
 
 
+Instance: composition-pt-74778e8109bf478af8bf20ce15b25c4c
+InstanceOf: CompositionUvEpi
+Title: "Composition for copiktra Package Leaflet"
+Description:  "Composition for copiktra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp74778e8109bf478af8bf20ce15b25c4c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - copiktra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Copiktra e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Copiktra </li>
+<li>Como tomar Copiktra </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Copiktra </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é copiktra e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é copiktra e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Copiktra é um medicamento contra o cancro que contém a substância ativa duvelisib. Atua bloqueando 
+os efeitos das enzimas necessárias para o crescimento e a sobrevivência dos linfócitos B (um tipo de 
+glóbulo branco). Estas enzimas estão hiperativas em certos glóbulos brancos cancerosos e, através do 
+seu bloqueio, Copiktra pode matar e reduzir o número de linfócitos B cancerosos. </p>
+<p>Copiktra é utilizado no tratamento de cancros dos linfócitos B denominados </p>
+<ul>
+<li>
+<p>leucemia linfocítica crónica (ou linfoma linfocítico de pequenas células) </p>
+</li>
+<li>
+<p>leucemia folicular. </p>
+</li>
+</ul>
+<p>Nestas doenças, os linfócitos B multiplicam-se muito rapidamente e vivem demasiado tempo, de modo 
+que existem demasiados destes linfócitos no sangue ou nos gânglios linfáticos. Copiktra é utilizado em 
+doentes que receberam anteriormente pelo menos 2 outras terapêuticas que não funcionaram ou 
+deixaram de funcionar. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar copiktra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar copiktra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Copiktra 
+- se tem alergia ao duvelisib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+Se tiver dúvidas, fale com o seu médico antes de tomar Copiktra. </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Copiktra, 
+- se tiver uma infeção. A infeção deve ser tratada antes de começar a tomar Copiktra. 
+- se tiver problemas intestinais 
+- se tiver problemas pulmonares ou respiratórios </p>
+<p>Infeções 
+A ocorrência de infeções é frequente durante o tratamento com Copiktra, e podem ser graves e levar à 
+morte. Informe imediatamente o seu médico, farmacêutico ou enfermeiro se tiver febre, arrepios ou 
+outros sinais de infeção durante o tratamento com Copiktra. O seu médico poderá receitar-lhe outro 
+medicamento enquanto estiver a tomar Copiktra, para prevenir determinados tipos de infeção. </p>
+<p>Diarreia ou inflamação do intestino 
+A ocorrência de diarreia ou inflamação do seu intestino (colite) é frequente durante o tratamento com 
+Copiktra, e pode ser grave e levar à morte. Informe imediatamente o seu médico ou farmacêutico se 
+desenvolver diarreia ou agravamento da mesma, se tiver muco ou sangue quando for à casa de banho, 
+ou se tiver dor abdominal (na zona do estômago) grave. O seu médico ou farmacêutico deve receitar-
+lhe medicamentos para ajudar a sua diarreia e avaliá-lo pelo menos semanalmente. Se a sua diarreia for 
+grave ou se os medicamentos antidiarreicos não funcionarem, poderá necessitar de tratamento com um 
+medicamento esteroide. </p>
+<p>Reações na pele 
+Copiktra pode causar erupções na pele e outras reações na pele que podem ser graves e levar à morte. 
+Informe imediatamente o seu médico ou farmacêutico se desenvolver erupções cutâneas ou 
+agravamento das mesmas, ou outras reações na pele durante o tratamento com Copiktra, incluindo: 
+- úlceras ou feridas dolorosas na pele, nos lábios ou na boca 
+- erupção cutânea grave com bolhas ou descamação da pele 
+- erupção cutânea com comichão 
+- erupção cutânea com febre 
+O seu médico poderá necessitar de receitar medicamentos, incluindo um medicamento esteroide, para 
+tratar a sua erupção cutânea ou outras reações na pele. </p>
+<p>Inflamação dos pulmões 
+Copiktra pode causar inflamação dos seus pulmões que pode ser grave e levar à morte. Informe 
+imediatamente o seu médico ou farmacêutico se tiver tosse recente ou agravamento da tosse ou 
+dificuldade em respirar. O seu médico pode fazer testes para verificar os seus pulmões se tiver 
+problemas respiratórios. O seu médico pode tratá-lo com um medicamento esteroide se desenvolver 
+inflamação dos pulmões que não se deve a uma infeção. </p>
+<p>Aumento das enzimas do fígado 
+Copiktra pode causar anomalias nas análises ao sangue do seu fígado. O seu médico irá verificar se há 
+problemas de fígado durante o seu tratamento com Copiktra. Informe imediatamente o seu médico se 
+tiver quaisquer sintomas de problemas no fígado, incluindo amarelecimento da sua pele ou da parte 
+branca dos seus olhos (icterícia), dor abdominal, nódoas negras ou hemorragias mais facilmente do que 
+o normal. </p>
+<p>Contagens sanguíneas 
+Podem ocorrer contagens baixas de glóbulos brancos (neutropenia) e diminuição dos glóbulos 
+vermelhos (anemia ou falta de sangue) em doentes tratados com Copiktra. Ambos podem ser graves. O 
+seu médico irá verificar regularmente as suas contagens sanguíneas. Informe imediatamente o seu 
+médico se tiver febre ou quaisquer sinais de infeção, se sentir cansaço ou tonturas ou se tiver dores de 
+cabeça. </p>
+<p>Se tiver algum dos efeitos secundários graves acima mencionados durante o tratamento com Copiktra, 
+o seu médico pode suspender o tratamento, alterar a dose de Copiktra ou interromper completamente o 
+tratamento com Copiktra. </p>
+<p>Crianças e adolescentes 
+Não administre este medicamento a crianças e adolescentes com menos de 18 anos de idade porque o 
+mesmo não foi estudado neste grupo etário. 
+Outros medicamentos e Copiktra 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou 
+se vier a tomar outros medicamentos. Isto deve-se ao facto de Copiktra poder afetar a forma como 
+outros medicamentos atuam e de outros medicamentos poderem afetar a forma como Copiktra atua. </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar algum dos medicamentos seguintes: </p>
+<ul>
+<li>
+<p>alfentanilo, fentanilo, metadona, buprenorfina/naloxona, medicamentos utilizados para o 
+alívio da dor </p>
+</li>
+<li>
+<p>alfuzosina, um medicamento utilizado para tratar o aumento de tamanho da próstata </p>
+</li>
+<li>
+<p>amiodarona, bepridil, disopiramida, lidocaína, quinidina, medicamentos utilizados para 
+tratar problemas de coração </p>
+</li>
+<li>
+<p>amlodipina, diltiazem, felodipina, nicardipina, nifedipina, verapamilo, medicamentos 
+utilizados para tratar a tensão arterial elevada e problemas de coração </p>
+</li>
+<li>
+<p>amprenavir, atazanavir, darunavir, efavirenz, etravirina, fosamprenavir, indinavir, 
+lopinavir, nelfinavir, ritonavir, saquinavir, medicamentos utilizados para tratar infeções 
+pelo VIH </p>
+</li>
+<li>
+<p>aprepitant, um medicamento utilizado para prevenir vómitos </p>
+</li>
+<li>
+<p>boceprevir, telaprevir, medicamentos utilizados para tratar a hepatite C </p>
+</li>
+<li>
+<p>bosentano, um medicamento utilizado para tratar a hipertensão pulmonar, uma doença dos 
+pulmões que dificulta a respiração </p>
+</li>
+<li>
+<p>budesonida, fluticasona, medicamentos esteroides utilizados para tratar a febre dos fenos e a 
+asma, e salmeterol, utilizado para tratar a asma </p>
+</li>
+<li>
+<p>buspirona, clorazepato, diazepam, estazolam, flurazepam, zolpidem, medicamentos 
+utilizados para tratar doenças do sistema nervoso </p>
+</li>
+<li>
+<p>carbamazepina, mefenitoína, fenitoína, medicamentos utilizados para prevenir convulsões </p>
+</li>
+<li>
+<p>ciclosporina, sirolímus, tacrolímus, medicamentos utilizados para prevenir a rejeição de 
+órgãos após um transplante </p>
+</li>
+<li>
+<p>ciprofloxacina, claritromicina, eritromicina, nafcilina, telitromicina, medicamentos 
+utilizados para tratar infeções bacterianas </p>
+</li>
+<li>
+<p>cisaprida, um medicamento utilizado para aliviar certos problemas de estômago </p>
+</li>
+<li>
+<p>colquicina, um medicamento utilizado para tratar a gota </p>
+</li>
+<li>
+<p>conivaptano, um medicamento para tratar problemas de coração </p>
+</li>
+<li>
+<p>dabigatrano, varfarina, medicamentos utilizados para prevenir os coágulos sanguíneos </p>
+</li>
+<li>
+<p>dasatinib, imatinib, nilotinib, paclitaxel, vinblastina, vincristina, medicamentos utilizados 
+para tratar o cancro </p>
+</li>
+<li>
+<p>di-hidroergotamina, ergotamina, medicamentos utilizados para tratar a enxaqueca </p>
+</li>
+<li>
+<p>fluconazol, itraconazol, cetoconazol, posaconazol, voriconazol, medicamentos utilizados 
+para tratar infeções por fungos </p>
+</li>
+<li>
+<p>midazolam, triazolam, quando tomados por via oral (pela boca) para ajudar a dormir ou 
+aliviar a ansiedade </p>
+</li>
+<li>
+<p>modafinil, um medicamento utilizado para tratar sonolência excessiva </p>
+</li>
+<li>
+<p>contracetivos hormonais orais ou implantados, utilizados para prevenir a gravidez </p>
+</li>
+<li>
+<p>pimozida, um medicamento utilizado para tratar pensamentos ou sentimentos anormais </p>
+</li>
+<li>
+<p>quetiapina, um medicamento utilizado para tratar a esquizofrenia, a doença bipolar e a 
+perturbação depressiva grave </p>
+</li>
+<li>
+<p>rifabutina, rifampicina, medicamentos utilizados para tratar infeções bacterianas, incluindo 
+a tuberculose </p>
+</li>
+<li>
+<p>sildenafil, tadalafil, medicamentos utilizados para tratar a impotência e a hipertensão 
+pulmonar, uma doença dos pulmões que causa dificuldade em respirar </p>
+</li>
+<li>
+<p>medicamentos «estatinas», tais como atorvastatina, lovastatina, sinvastatina, utilizados 
+para diminuir o colesterol </p>
+</li>
+<li>
+<p>Hipericão (Hypericum perforatum), uma planta medicinal utilizada para tratar a depressão e 
+a ansiedade </p>
+</li>
+<li>
+<p>trazodona, um medicamento utilizado para tratar a depressão </p>
+</li>
+</ul>
+<p>Copiktra com alimentos e bebidas 
+Evite beber sumo de toranja. O sumo de toranja pode afetar a forma como Copiktra atua. </p>
+<p>Gravidez 
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de receber 
+este medicamento. Deve ser realizado um teste de gravidez antes de tomar Copiktra. </p>
+<p>A utilização de Copiktra deve ser evitada durante a gravidez. </p>
+<p>Se engravidar durante o tratamento com Copiktra, informe o seu médico o mais rapidamente possível. </p>
+<p>Amamentação 
+Desconhece-se se Copiktra passa para o leite materno. Não amamente durante o tratamento com 
+Copiktra e durante pelo menos 1 mês após a última dose. </p>
+<p>Contraceção 
+Utilize métodos contracetivos eficazes, que incluam duas formas de contraceção fiável, durante o 
+tratamento e por, pelo menos, 1 mês após receber a última dose de Copiktra. </p>
+<p>Pílulas contracetivas 
+Desconhece-se se Copiktra reduz a eficácia da pílula contracetiva. Se estiver a tomar a pílula 
+contracetiva enquanto estiver a receber tratamento com Copiktra, terá também de utilizar um método 
+contracetivo de barreira (como preservativos). Aconselhe-se com o seu médico. </p>
+<p>Condução de veículos e utilização de máquinas 
+É improvável que Copiktra tenha efeitos sobre a sua capacidade de conduzir ou utilizar máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar copiktra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar copiktra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>A dose recomendada de Copiktra é de 25 mg por via oral (pela boca), duas vezes por dia. No entanto, 
+o seu médico poderá alterar a sua dose de Copiktra ou pedir-lhe para parar de tomar Copiktra se tiver 
+efeitos indesejáveis especiais. Não altere a sua dose ou pare de tomar Copiktra sem falar primeiro com 
+o seu médico. </p>
+<p>Engula as cápsulas de Copiktra inteiras. 
+Não abra, parta ou mastigue as cápsulas. Pode tomar Copiktra com alimentos ou entre as refeições. 
+Informe o seu médico ou cuidador se tiver problemas em engolir estas cápsulas. </p>
+<p>Se tomar mais Copiktra do que deveria 
+Se tomar uma dose excessiva de Copiktra, contacte imediatamente o seu médico ou farmacêutico ou 
+dirija-se ao serviço de urgência do hospital mais próximo. Leve o medicamento e este folheto consigo 
+para que possa descrever facilmente o que tomou. </p>
+<p>Caso se tenha esquecido de tomar Copiktra 
+Tome cuidado para não se esquecer de tomar uma dose de Copiktra. No caso de se esquecer de tomar 
+uma dose de Copiktra menos de 6 horas após a hora habitual, tome a dose esquecida imediatamente e 
+depois tome a dose seguinte como é habitual. No caso de se esquecer de tomar uma dose mais de 
+6 horas após a hora habitual, aguarde e tome a dose seguinte à hora habitual. Não tome uma dose a 
+dobrar para compensar uma cápsula que se esqueceu de tomar. </p>
+<p>Se parar de tomar Copiktra 
+Não deixe de tomar este medicamento, a menos que o seu médico lhe diga para o fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis podem ser graves. </p>
+<p>Obtenha ajuda médica imediatamente se tiver algum dos seguintes sintomas: </p>
+<ul>
+<li>
+<p>Febre, arrepios ou outros sinais de uma infeção </p>
+</li>
+<li>
+<p>Desenvolvimento ou agravamento de diarreia, fezes com muco ou sangue ou dor abdominal 
+(na área do estômago) grave </p>
+</li>
+<li>
+<p>Desenvolvimento ou agravamento de erupções cutâneas, ou outras reações na pele incluindo 
+o úlceras ou feridas dolorosas na pele, nos lábios ou na boca 
+o erupção cutânea grave com bolhas ou descamação da pele 
+o erupção cutânea com comichão e/ou febre </p>
+</li>
+<li>
+<p>Tosse recente ou agravamento da tosse ou dificuldade em respirar </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes: podem afetar mais de 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>Infeções das vias respiratórias superior e inferior, infeção pulmonar (pneumonia) </p>
+</li>
+<li>
+<p>Diminuição de alguns glóbulos brancos (neutropenia) </p>
+</li>
+<li>
+<p>Diminuição dos glóbulos vermelhos (anemia) </p>
+</li>
+<li>
+<p>Diminuição das células do sangue que ajudam o sangue a coagular (trombocitopenia) </p>
+</li>
+<li>
+<p>Diminuição do apetite </p>
+</li>
+<li>
+<p>Dores de cabeça </p>
+</li>
+<li>
+<p>Falta de ar (dispneia) </p>
+</li>
+<li>
+<p>Tosse </p>
+</li>
+<li>
+<p>Inflamação dos intestinos (colite), diarreia (fezes líquidas, soltas ou moles), vómitos, náuseas, 
+dor de estômago </p>
+</li>
+<li>
+<p>Dificuldade em defecar (obstipação) </p>
+</li>
+<li>
+<p>Erupção cutânea por vezes com bolhas </p>
+</li>
+<li>
+<p>Dor nos músculos, ossos (dor musculosquelética) e articulações (artralgia) </p>
+</li>
+<li>
+<p>Febre </p>
+</li>
+<li>
+<p>Sensação de cansaço ou fraqueza </p>
+</li>
+<li>
+<p>Aumento do nível de uma proteína específica no sangue que mede a função do pâncreas </p>
+</li>
+<li>
+<p>Aumento dos níveis das enzimas hepáticas observado nas análises ao sangue </p>
+</li>
+</ul>
+<p>Frequentes: podem afetar 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>A infeção pode espalhar-se para órgãos vitais, fazendo com que os órgãos não funcionem 
+adequadamente (sépsis) </p>
+</li>
+<li>
+<p>Inflamação dos pulmões (pneumonite, caracterizada por tosse e dificuldade em respirar) </p>
+</li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em cada 100 pessoas </p>
+<ul>
+<li>Descamação grave e possivelmente fatal da pele (necrólise epidérmica tóxica, síndrome de 
+Stevens-Johnson, erupção cutânea medicamentosa com aumento dos glóbulos brancos 
+(eosinofilia) e sintomas que afetam todo o corpo) </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar copiktra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar copiktra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar a temperatura inferior a 30 °C. </p>
+<p>Conservar na embalagem de origem para proteger da luz. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Copiktra 
+- A substância ativa é o duvelisib. Cada cápsula contém 15 mg ou 25 mg de duvelisib (sob a forma 
+mono-hidratada). 
+- Os outros componentes são: 
+Conteúdo das cápsulas: dióxido de silício coloidal, crospovidona, estearato de magnésio, celulose 
+microcristalina. 
+Invólucro das cápsulas: gelatina, dióxido de titânio (E 171), óxido de ferro vermelho (E 172). 
+Tinta de impressão preta: goma laca, óxido de ferro negro (E 172), propilenoglicol, hidróxido de 
+amónio. </p>
+<p>Qual o aspeto de Copiktra e conteúdo da embalagem </p>
+<p>Copiktra 15 mg cápsulas </p>
+<ul>
+<li>
+<p>Cápsula cor-de-rosa opaca com «duv 15 mg» impresso no corpo a tinta preta. </p>
+</li>
+<li>
+<p>Apresentação: Embalagem de 28 dias contendo 56 cápsulas (2 blisters com 28 cápsulas cada). </p>
+</li>
+</ul>
+<p>Copiktra 25 mg cápsulas </p>
+<ul>
+<li>
+<p>Cápsula opaca com um corpo branco a esbranquiçado e cabeça cor de laranja com «duv 25 mg» 
+impresso no corpo a tinta preta. </p>
+</li>
+<li>
+<p>Apresentação: Embalagem de 28 dias contendo 56 cápsulas (2 blisters com 28 cápsulas cada). </p>
+</li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado 
+Secura Bio Limited<br />
+32 Molesworth Street<br />
+Dublin 2<br />
+Irlanda  </p>
+<p>Fabricante 
+Millmount Healthcare Limited (que atua sob o nome comercial PCI Pharma Services) 
+Block 7, City North Business Campus 
+Stamullen, Co. Meath, K32 YDIrlanda </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -839,6 +1319,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-74778e8109bf478af8bf20ce15b25c4c"
 * entry[0].resource = composition-da-74778e8109bf478af8bf20ce15b25c4c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp74778e8109bf478af8bf20ce15b25c4c"
+* entry[=].resource = mp74778e8109bf478af8bf20ce15b25c4c
+                            
+                    
+Instance: bundlepackageleaflet-pt-74778e8109bf478af8bf20ce15b25c4c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for copiktra Package Leaflet for language pt"
+Description: "ePI document Bundle for copiktra Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-74778e8109bf478af8bf20ce15b25c4c"
+* entry[0].resource = composition-pt-74778e8109bf478af8bf20ce15b25c4c
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp74778e8109bf478af8bf20ce15b25c4c"
@@ -940,6 +1442,18 @@ RuleSet: 74778e8109bf478af8bf20ce15b25c4cListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-74778e8109bf478af8bf20ce15b25c4c) // copiktra pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

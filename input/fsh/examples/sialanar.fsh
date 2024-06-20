@@ -975,6 +975,586 @@ hjemmeside: http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-08f8f83bc6310f91660a8946f32126f9
+InstanceOf: CompositionUvEpi
+Title: "Composition for sialanar Package Leaflet"
+Description:  "Composition for sialanar Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp08f8f83bc6310f91660a8946f32126f9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - sialanar"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Sialanar e para que é utilizado </li>
+<li>O que precisa de saber antes de administrar Sialanar </li>
+<li>Como utilizar Sialanar </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Sialanar </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é sialanar e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é sialanar e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Sialanar contém a substância ativa glicopirrónio. 
+O glicopirrónio pertence a um grupo de medicamentos conhecidos como anticolinérgicos de amónio 
+quaternário, que são agentes que bloqueiam ou reduzem a transmissão entre as células nervosas. Esta 
+transmissão reduzida pode desativar as células que produzem saliva. </p>
+<p>O Sialanar é utilizado para tratar a produção excessiva de saliva (sialorreia) em crianças e adolescentes 
+com idades iguais ou superiores a 3 anos.  </p>
+<p>A sialorreia (baba ou salivação excessiva) é um sintoma frequente de muitas doenças dos nervos e dos 
+músculos. É causada principalmente por um mau controlo dos músculos na face. A sialorreia aguda 
+poderá estar associada a inflamação, infeções dentárias ou infeções da boca. </p>
+<p>O Sialanar atua nas glândulas salivares reduzindo a produção de saliva.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar sialanar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar sialanar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não administre Sialanar se a sua criança ou adolescente: 
+− 
+tem alergia ao glicopirrónio ou a qualquer outro componente deste medicamento (indicados na 
+secção 6),<br />
+− 
+está grávida ou a amamentar, 
+− 
+tem glaucoma (pressão aumentada no olho), 
+− 
+é incapaz de esvaziar completamente a bexiga (retenção urinária), 
+− 
+tem doença renal grave, 
+− 
+tem uma obstrução no estômago (estenose pilórica) ou nos intestinos que provoque vómitos,<br />
+− 
+tem diarreia (fezes frequentes, aquosas e sem forma), 
+− 
+tem colite ulcerosa (inflamação do intestino), 
+− 
+tem dor e inchaço do estômago (íleo paralítico), 
+− 
+tem miastenia grave (fraqueza muscular e cansaço), 
+− 
+está a tomar qualquer um dos seguintes medicamentos (ver secção «Outros medicamentos e 
+Sialanar»):<br />
+dose oral de cloreto de potássio sólido;<br />
+medicamentos anticolinérgicos.  </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou farmacêutico antes de utilizar Sialanar, se a sua criança tiver: </p>
+<ul>
+<li>
+<p>doença cardíaca, insuficiência cardíaca, batimentos cardíacos irregulares ou pressão arterial alta; </p>
+</li>
+<li>
+<p>perturbações digestivas (obstipação; azia crónica e indigestão); </p>
+</li>
+<li>
+<p>uma temperatura alta (febre); </p>
+</li>
+<li>
+<p>incapacidade de suar normalmente; </p>
+</li>
+<li>
+<p>problemas renais ou dificuldade em urinar; </p>
+</li>
+<li>
+<p>barreira hematoencefálica anormal (a camada de células que envolve o cérebro). </p>
+</li>
+</ul>
+<p>Se não tiver a certeza de que alguma das situações acima referidas se aplica à sua criança, fale com um 
+médico ou farmacêutico antes de administrar Sialanar. </p>
+<p>O cuidador deve interromper o tratamento e procurar aconselhamento médico no caso de: </p>
+<ul>
+<li>
+<p>pneumonia </p>
+</li>
+<li>
+<p>reação alérgica </p>
+</li>
+<li>
+<p>retenção urinária </p>
+</li>
+<li>
+<p>alterações do comportamento </p>
+</li>
+<li>
+<p>obstipação </p>
+</li>
+<li>
+<p>febre 
+Evite expor a criança ao calor ou a temperaturas muito elevadas (tempo quente, temperatura do quarto 
+muito alta) para evitar o sobreaquecimento e a possibilidade de golpe de calor. Fale com o médico da 
+criança durante o tempo quente para verificar se a dose de Sialanar deve ser reduzida. </p>
+</li>
+</ul>
+<p>A salivação reduzida pode aumentar o risco de doenças dentárias, pelo que os dentes da criança devem 
+ser escovados diariamente e as crianças devem ter consultas dentárias regulares. </p>
+<p>Deve ser administrada uma dose mais baixa a crianças com problemas renais. </p>
+<p>Verifique a pulsação da criança se ela não parecer bem. Informe o médico em caso de pulsação muito 
+lenta ou muito rápida. </p>
+<p>Uso a longo prazo 
+A eficácia e a segurança a longo prazo de Sialanar não foram estudadas para lá das 24 semanas de uso. 
+O uso continuado de Sialanar deve ser discutido com o médico da criança a cada 3 meses, para 
+verificar se Sialanar ainda é adequado para a criança.  </p>
+<p>Crianças com menos de 3 anos 
+Não administre este medicamento a crianças com menos de 3 anos de idade uma vez que é formulado 
+como uma formulação oral e uma dose especificamente para uso em crianças e adolescentes com 
+idades iguais ou superiores a 3 anos. </p>
+<p>Outros medicamentos e Sialanar 
+Informe o seu médico ou farmacêutico se a sua criança estiver a tomar, tiver tomado recentemente, ou 
+se vier a tomar outros medicamentos. </p>
+<p>Em particular, tomar Sialanar com os seguintes medicamentos pode afetar o modo como o Sialanar ou 
+os medicamentos indicados atuam ou pode aumentar o risco de efeitos indesejáveis: </p>
+<ul>
+<li>
+<p>dose oral de cloreto de potássio sólido (ver acima a secção «Não administre Sialanar se a 
+criança ou adolescente:»);  </p>
+</li>
+<li>
+<p>medicamentos anticolinérgicos (ver acima a secção «Não administre Sialanar se a criança ou 
+adolescente:»); </p>
+</li>
+<li>
+<p>antiespasmódicos utilizados para tratar náuseas ou vómitos, p. ex., domperidona e 
+metoclopramida  </p>
+</li>
+<li>
+<p>topiramato utilizado para tratar a epilepsia; </p>
+</li>
+<li>
+<p>anti-histamínicos utilizados para tratar algumas alergias; </p>
+</li>
+<li>
+<p>neurolépticos/antipsicóticos (clozapina, haloperidol, fenotiazina) utilizados para tratar algumas 
+doenças mentais; </p>
+</li>
+<li>
+<p>relaxantes dos músculos esqueléticos (toxina botulínica); </p>
+</li>
+<li>
+<p>antidepressivos (antidepressivos tricíclicos);  </p>
+</li>
+<li>
+<p>opioides utilizados para tratar dores graves; </p>
+</li>
+<li>
+<p>corticosteroides utilizados para tratar doenças inflamatórias.  </p>
+</li>
+</ul>
+<p>Fale com o seu médico ou farmacêutico para mais informações sobre os medicamentos a evitar 
+enquanto estiver a tomar Sialanar. </p>
+<p>Gravidez e amamentação 
+Este medicamento destina-se a ser usado em crianças e adolescentes. O Sialanar não deve ser 
+administrado se a doente estiver grávida (ou puder estar grávida) ou estiver a amamentar (ver secção 2 
+«Não administre»). Discuta com o médico da criança se existe necessidade de contraceção. </p>
+<p>Condução de veículos e utilização de máquinas 
+O Sialanar poderá afetar a visão e a coordenação. Isso poderá afetar o desempenho em tarefas 
+especializadas, tais como conduzir, andar de bicicleta ou utilizar máquinas. Após receber Sialanar, o 
+doente não deve conduzir um veículo, andar de bicicleta ou utilizar uma máquina até que o efeito na 
+sua visão e na sua coordenação tenha desaparecido totalmente. Fale com o médico se necessitar de 
+mais aconselhamento. </p>
+<p>Sialanar contém sódio e sal de benzoato (E211) 
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose máxima, ou seja, é 
+praticamente “isento de sódio". Este medicamento contém 2,3 mg de sal de benzoato (E211) em cada 
+ml. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar sialanar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar sialanar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>Crianças e adolescentes dos 3 aos 18 anos de idade: 
+O seu médico decidirá qual é a dose correta de Sialanar. A dose inicial será calculada com base no 
+peso da criança. Os aumentos da dose serão decididos pelo médico da criança, utilizando a tabela 
+seguinte como um guia, e dependerão do efeito do Sialanar e de eventuais efeitos indesejáveis que o 
+doente sofra (é por esse motivo que, na tabela seguinte, aparecem vários níveis posológicos). A 
+secção 4 inclui os possíveis efeitos indesejáveis relacionados com o uso de Sialanar. Os mesmos 
+devem ser discutidos com o médico da criança em todas as consultas médicas, incluindo as de 
+aumentos e reduções da dose, e em qualquer outra altura em caso de preocupação.  </p>
+<p>A criança deve ser monitorizada em intervalos regulares (pelo menos de 3 em 3 meses), para verificar 
+se Sialanar ainda é o tratamento adequado para ela. </p>
+<p>Peso 
+Nível 
+posológico 1<br />
+Nível 
+posológico 2 
+Nível 
+posológico 3 
+Nível 
+posológico 4 
+Nível 
+posológico 5 
+kg 
+ml 
+ml 
+ml 
+ml 
+ml 
+13-0,6 
+1,2 
+1,8 
+2,4 
+3,0 
+18-0,8 
+1,6 
+2,4 
+3,2 
+4,0 
+23-1,0 
+2,0 
+3,0 
+4,0 
+5,0 
+28-1,2 
+2,4 
+3,6 
+4,8 
+6,0 
+33-1,4 
+2,8 
+4,2 
+5,6 
+6,0 
+38-1,6 
+3,2 
+4,8 
+6,0 
+6,0 
+43-1,8 
+3,6 
+5,4 
+6,0 
+6,0 
+≥2,0 
+4,0 
+6,0 
+6,0 
+6,0 </p>
+<p>Administre a dose prescrita pelo seu médico à criança três vezes por dia. 
+A dose deve ser administrada 1 hora antes das refeições ou 2 horas após as refeições. 
+É importante que a dose seja administrada em alturas consistentes relativamente à ingestão de 
+alimentos. Não administre com alimentos ricos em gorduras. </p>
+<p>Via de administração 
+O Sialanar deve ser tomado por via oral.  </p>
+<p>Instruções de utilização </p>
+<p>Como utilizar a seringa oral 
+Retire a tampa à prova de crianças do frasco. 
+Insira o adaptador da seringa com o orifício no gargalo do frasco (isso poderá já ter sido efetuado pelo 
+farmacêutico). 
+Insira a extremidade da seringa oral no adaptador da seringa e garanta que está bem fixa. </p>
+<p>Mantenha a seringa oral em posição e vire o frasco para baixo. Puxe suavemente o êmbolo até ao nível 
+correto (ver as tabelas para a dose correta). Confirme que tem o nível correto. O volume máximo da 
+dose mais elevada é de 6 ml. </p>
+<p>Vire o frasco para cima. 
+Retire a seringa oral segurando o frasco e rodando suavemente a seringa oral. </p>
+<p>Coloque a seringa oral no interior da boca da criança e pressione lentamente o êmbolo para libertar 
+suavemente o medicamento. </p>
+<p>Após o uso, deixe o adaptador da seringa no gargalo do frasco. 
+Substitua a tampa. 
+Após cada uso (ou seja, três vezes por dia), a seringa oral deve ser lavada suavemente com água morna 
+e deixada secar. Não utilizar máquina de lavar loiça. </p>
+<p>Se o medicamento for administrado à sua criança através de um tubo de alimentação, irrigue o tubo 
+com 10 ml de água após ter administrado o medicamento. </p>
+<p>Se administrar mais Sialanar do que deveria 
+É importante garantir que é administrada sempre uma dose exata, para prevenir os efeitos nocivos do 
+Sialanar verificados com erros posológicos ou com sobredosagens. </p>
+<p>Confirme que retirou o nível correto na seringa antes de administrar o Sialanar. </p>
+<p>Procure imediatamente aconselhamento médico se for administrado demasiado Sialanar à criança, 
+mesmo que a criança pareça estar bem.  </p>
+<p>Caso se tenha esquecido de administrar Sialanar 
+Administre a dose seguinte no horário habitual. Não administre uma dose a dobrar para compensar 
+uma dose que se esqueceu de administrar.  </p>
+<p>Se parar de administrar Sialanar à sua criança 
+Não se preveem efeitos de privação quando se interrompe o tratamento com Sialanar. O médico da 
+criança poderá decidir interromper o tratamento com Sialanar, caso os efeitos indesejáveis não possam 
+ser controlados reduzindo a dose.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.  </p>
+<p>Se algum dos seguintes efeitos indesejáveis graves ocorrer, pare de utilizar o medicamento e procure 
+aconselhamento médico urgente. </p>
+<ul>
+<li>
+<p>Obstipação (dificuldade em defecar) - muito frequente; </p>
+</li>
+<li>
+<p>Dificuldade em urinar (retenção urinária) - muito frequente; </p>
+</li>
+<li>
+<p>Pneumonia (infeção grave do tórax) - frequente; </p>
+</li>
+<li>
+<p>Reação alérgica (erupção cutânea, comichão, erupção cutânea com pápulas e comichão 
+(urticária), dificuldades em respirar ou engolir, tonturas) - frequência desconhecida. </p>
+</li>
+</ul>
+<p>Os seguintes efeitos indesejáveis podem ser um sinal de reação alérgica grave. Se ocorrerem, leve a 
+criança às urgências mais próximas e leve o medicamento consigo.  </p>
+<ul>
+<li>Inchaço, principalmente da língua, dos lábios, da face ou da garganta (possíveis sinais de 
+angioedema) - frequência desconhecida. </li>
+</ul>
+<p>Outros efeitos indesejáveis são: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas)  </p>
+<ul>
+<li>
+<p>Boca seca  </p>
+</li>
+<li>
+<p>Dificuldade em defecar (obstipação)  </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Vómitos </p>
+</li>
+<li>
+<p>Rubor </p>
+</li>
+<li>
+<p>Congestão nasal </p>
+</li>
+<li>
+<p>Incapacidade de esvaziar completamente a bexiga (retenção urinária) </p>
+</li>
+<li>
+<p>Secreções reduzidas no tórax </p>
+</li>
+<li>
+<p>Irritabilidade </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas)  </p>
+<ul>
+<li>
+<p>Infeção do trato respiratório superior (infeção do tórax)  </p>
+</li>
+<li>
+<p>Pneumonia (infeção grave do tórax) </p>
+</li>
+<li>
+<p>Infeção das vias urinárias </p>
+</li>
+<li>
+<p>Sonolência </p>
+</li>
+<li>
+<p>Agitação </p>
+</li>
+<li>
+<p>Febre (pirexia) </p>
+</li>
+<li>
+<p>Sangramento do nariz (epistaxe)  </p>
+</li>
+<li>
+<p>Erupção cutânea  </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas)  </p>
+<ul>
+<li>
+<p>Mau hálito (halitose)  </p>
+</li>
+<li>
+<p>Infeção fúngica (sapinhos) da garganta (candidíase esofágica)  </p>
+</li>
+<li>
+<p>Contrações anormais do trato digestivo quando os alimentos são ingeridos (perturbação da 
+motilidade gastrointestinal) </p>
+</li>
+<li>
+<p>Uma doença dos músculos e nervos do intestino que origina uma obstrução ou bloqueio 
+(pseudo-obstrução) </p>
+</li>
+<li>
+<p>Dilatação da pupila do olho (midríase) </p>
+</li>
+<li>
+<p>Movimento involuntário do olho (nistagmo) </p>
+</li>
+<li>
+<p>Dores de cabeça </p>
+</li>
+<li>
+<p>Desidratação </p>
+</li>
+<li>
+<p>Sede com tempo quente  </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis que ocorrem com anticolinérgicos, mas cuja frequência com o 
+glicopirrónio não é conhecida  </p>
+<ul>
+<li>
+<p>reação alérgica (erupção cutânea, comichão, erupção cutânea com pápulas e comichão 
+(urticária), dificuldades em respirar ou engolir, tonturas);  </p>
+</li>
+<li>
+<p>reação alérgica grave (angioedema); os sinais incluem inchaço, principalmente da língua, dos 
+lábios, da face ou da garganta; </p>
+</li>
+<li>
+<p>inquietude; hiperatividade; défice de atenção; frustração; alterações do humor; acessos de fúria 
+ou comportamento explosivo; sensibilidade excessiva; circunspeção ou tristeza; episódios 
+frequentes de choro; medo;  </p>
+</li>
+<li>
+<p>insónia (dificuldade em dormir); </p>
+</li>
+<li>
+<p>pressão aumentada nos olhos (o que pode causar glaucoma); fotofobia (sensibilidade à luz); 
+olhos secos; </p>
+</li>
+<li>
+<p>ritmo cardíaco lento seguido por ritmo cardíaco rápido, palpitações e batimento cardíaco 
+irregular; </p>
+</li>
+<li>
+<p>inflamação e inchaço dos seios paranasais (sinusite); </p>
+</li>
+<li>
+<p>enjoos (náuseas); </p>
+</li>
+<li>
+<p>pele seca;  </p>
+</li>
+<li>
+<p>reduzida capacidade de suar, o que pode causar febre e golpe de calor; </p>
+</li>
+<li>
+<p>necessidade urgente de urinar.  </p>
+</li>
+</ul>
+<p>Os efeitos indesejáveis podem, por vezes, ser difíceis de reconhecer em doentes com problemas 
+neurológicos que não conseguem facilmente dizer-lhe como é que se sentem.  </p>
+<p>Se pensa que está a ocorrer um efeito secundário problemático após aumentar uma dose, a dose deve 
+ser reduzida para a dose prévia utilizada e o seu médico deve ser contactado. </p>
+<p>Informe o seu médico se notar alguma alteração comportamental ou qualquer outra alteração na 
+criança.  </p>
+<p>Comunicação de efeitos indesejáveis 
+Se a sua criança tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não 
+indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V.<br />
+Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança 
+deste medicamento.  </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar sialanar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar sialanar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não conservar acima de 25ºC. </p>
+<p>Este medicamento deve ser utilizado num prazo de 2 meses após a primeira abertura do frasco. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo, após VAL: O prazo de 
+validade corresponde ao último dia do mês indicado. </p>
+<p>O Sialanar não deve ser utilizado se a embalagem tiver sido aberta ou danificada. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Sialanar 
+A substância ativa é o glicopirrónio. 
+Cada ml de solução contém 400 microgramas de brometo de glicopirrónio equivalentes a 
+320 microgramas de glicopirrónio. 
+Os outros componentes são benzoato de sódio (E211) (ver secção 2 “Sialanar contém sódio e sal de 
+benzoato"), aroma de framboesa (contendo propilenoglicol E1520), sucralose (E955), ácido cítrico 
+(E330) e água purificada.  </p>
+<p>Qual o aspeto de Sialanar e conteúdo da embalagem 
+Sialanar solução oral é um líquido transparente e incolor. É fornecido num frasco de vidro âmbar de 
+60 ml ou 250 ml numa embalagem de cartão. Cada embalagem contém um frasco, uma seringa oral de 
+8 ml e um adaptador da seringa. É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Proveca Pharma Ltd 
+2 Dublin Landings 
+North Wall Quay 
+Dublin 1 
+Irlanda  </p>
+<p>Fabricante 
+Centre Spécialités Pharmaceutiques (CSP),<br />
+Z.A.C. des Suzots,<br />
+35 rue de la Chapelle,<br />
+63450 Saint Amant Tallende,<br />
+França </p>
+<p>Unither Liquid Manufacturing,<br />
+1-3 Allée de la Neste,<br />
+Z.I. d'en Sigal,<br />
+31770 Colomiers,<br />
+França </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1016,6 +1596,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-08f8f83bc6310f91660a8946f32126f9"
 * entry[0].resource = composition-da-08f8f83bc6310f91660a8946f32126f9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp08f8f83bc6310f91660a8946f32126f9"
+* entry[=].resource = mp08f8f83bc6310f91660a8946f32126f9
+                            
+                    
+Instance: bundlepackageleaflet-pt-08f8f83bc6310f91660a8946f32126f9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sialanar Package Leaflet for language pt"
+Description: "ePI document Bundle for sialanar Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-08f8f83bc6310f91660a8946f32126f9"
+* entry[0].resource = composition-pt-08f8f83bc6310f91660a8946f32126f9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp08f8f83bc6310f91660a8946f32126f9"
@@ -1117,6 +1719,18 @@ RuleSet: 08f8f83bc6310f91660a8946f32126f9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-08f8f83bc6310f91660a8946f32126f9) // sialanar pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -680,6 +680,391 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-5245a6b0f8b8592e9406a25ffe7ba2b2
+InstanceOf: CompositionUvEpi
+Title: "Composition for elmiron Package Leaflet"
+Description:  "Composition for elmiron Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5245a6b0f8b8592e9406a25ffe7ba2b2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - elmiron"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é elmiron e para que é utilizado<br />
+2. O que precisa de saber antes de tomar elmiron<br />
+3. Como tomar elmiron<br />
+4. Efeitos indesejáveis possíveis<br />
+5. Como conservar elmiron<br />
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é elmiron e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é elmiron e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>elmiron é um medicamento que contém a substância ativa polisulfato sódico de pentosano. Depois de 
+tomar o medicamento, este passa para a urina e liga-se ao revestimento da bexiga, ajudando a formar uma 
+camada de proteção. </p>
+<p>elmiron é utilizado nos adultos para tratar a síndrome da bexiga dolorosa, que se caracteriza por muitos 
+sangramentos minúsculos ou lesões características na parede da bexiga, dor moderada a intensa e uma 
+frequente necessidade urgente de urinar.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar elmiron"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar elmiron"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome elmiron: </p>
+<ul>
+<li>
+<p>se tem alergia ao polisulfato sódico de pentosano ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </p>
+</li>
+<li>
+<p>se tem sangramento (que não o sangramento menstrual) </p>
+</li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar elmiron se: </p>
+<ul>
+<li>
+<p>tiver de ser submetido a cirurgia, </p>
+</li>
+<li>
+<p>tiver uma perturbação na coagulação do sangue ou risco aumentado de hemorragia, como por 
+exemplo se estiver a tomar um medicamento que iniba a coagulação do sangue </p>
+</li>
+<li>
+<p>alguma vez tiver tido um número reduzido de plaquetas no sangue causado pelo medicamento 
+chamado heparina </p>
+</li>
+<li>
+<p>tiver função reduzida do fígado ou rins </p>
+</li>
+</ul>
+<p>Foram relatados casos raros de distúrbios da retina (maculopatia pigmentar) com a utilização de elmiron 
+(especialmente após a sua utilização prolongada). Informe o seu médico imediatamente se sentir alterações 
+visuais tais como dificuldade na leitura, distorções visuais, visão alterada das cores e/ou um ajuste mais </p>
+<p>lento a ambientes de luz baixa ou reduzida. O seu médico conversará consigo sobre a continuação ou não 
+do seu tratamento. Para uma deteção precoce de distúrbios da retina irá proceder-se a exames oculares 
+regulares. </p>
+<p>Crianças e adolescentes 
+elmiron não é recomendado em crianças com menos de 18 anos, dado que a sua segurança e eficácia não 
+foram estabelecidas neste grupo de doentes. </p>
+<p>Outros medicamentos e elmiron 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos. </p>
+<p>Informe o seu médico ou farmacêutico, principalmente se estiver a tomar medicamentos que inibam a 
+coagulação do sangue ou analgésicos que reduzam a coagulação do sangue. </p>
+<p>Gravidez e amamentação 
+elmiron não é recomendado durante a gravidez ou a amamentação. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de elmiron sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis. </p>
+<p>elmiron contém sódio. 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar elmiron"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar elmiron"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é: 
+1 cápsula, 3 vezes ao dia 
+O seu médico irá avaliar a sua resposta a elmiron de 6 em 6 meses. </p>
+<p>Modo de administração 
+Tome as cápsulas inteiras com um copo de água, pelo menos 1 hora antes ou 2 horas depois das refeições. </p>
+<p>Se tomar mais elmiron do que deveria 
+Informe o seu médico em caso de sobredosagem. Pare de tomar elmiron se ocorrerem efeitos indesejáveis, 
+até estes desaparecerem. </p>
+<p>Caso se tenha esquecido de tomar elmiron 
+Não tome uma dose a dobrar para compensar uma cápsula que se esqueceu de tomar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Observaram-se efeitos indesejáveis com as seguintes frequências: 
+Frequentes: podem afetar até 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>infeções, gripe </p>
+</li>
+<li>
+<p>dor de cabeça, dor de costas </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>náusea, indigestão, diarreia, dor abdominal, abdómen distendido </p>
+</li>
+<li>
+<p>sangramento retal </p>
+</li>
+<li>
+<p>acumulação de líquido nos braços ou nas pernas </p>
+</li>
+<li>
+<p>queda de cabelo </p>
+</li>
+<li>
+<p>fraqueza, dor pélvica (abdómen inferior) </p>
+</li>
+<li>
+<p>necessidade de urinar mais frequentemente do que o habitual </p>
+</li>
+<li>
+<p>função do fígado alterada </p>
+</li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em cada 100 pessoas </p>
+<ul>
+<li>
+<p>falta de plaquetas, glóbulos vermelhos ou brancos no sangue </p>
+</li>
+<li>
+<p>sangramento, incluindo pequeno sangramento debaixo da pele </p>
+</li>
+<li>
+<p>reações alérgicas, sensibilidade aumentada à luz </p>
+</li>
+<li>
+<p>perda de apetite, ganho ou perda de peso </p>
+</li>
+<li>
+<p>alterações intensas de humor ou depressão </p>
+</li>
+<li>
+<p>aumento da transpiração, não conseguir dormir </p>
+</li>
+<li>
+<p>inquietude </p>
+</li>
+<li>
+<p>sensações anormais, como picadas, formigueiro e comichão </p>
+</li>
+<li>
+<p>fluxo de lágrimas, olho preguiçoso </p>
+</li>
+<li>
+<p>ruídos ou zumbidos nos ouvidos </p>
+</li>
+<li>
+<p>dificuldades em respirar </p>
+</li>
+<li>
+<p>indigestão, vómitos, gases, dificuldade em defecar </p>
+</li>
+<li>
+<p>ferida na boca </p>
+</li>
+<li>
+<p>erupção na pele, aumento de tamanho de verrugas </p>
+</li>
+<li>
+<p>dores nas articulações ou nos músculos </p>
+</li>
+</ul>
+<p>Frequência desconhecida: não pode ser calculada a partir dos dados disponíveis </p>
+<ul>
+<li>
+<p>perturbações da coagulação do sangue </p>
+</li>
+<li>
+<p>reações alérgicas </p>
+</li>
+<li>
+<p>função do fígado alterada </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar elmiron"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar elmiron"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<ul>
+<li>frasco 
+Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior, após 
+VAL. O prazo de validade corresponde ao último dia do mês indicado. </li>
+</ul>
+<p>Manter o recipiente bem fechado para proteger da humidade. 
+Após a primeira abertura: usar no prazo de 45 dias. Elimine quaisquer cápsulas restantes após este 
+período. </p>
+<ul>
+<li>blister 
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, após 
+VAL. O prazo de validade corresponde ao último dia do mês indicado. </li>
+</ul>
+<p>Não conservar acima de 30 °C. </p>
+<p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora os 
+medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de elmiron </p>
+<ul>
+<li>
+<p>A substância ativa é o polisulfato sódico de pentosano. 
+Uma cápsula contém 100 mg de polisulfato sódico de pentosano. </p>
+</li>
+<li>
+<p>Os outros componentes são:<br />
+Conteúdo das cápsulas: celulose microcristalina, estearato de magnésio 
+Invólucro das cápsulas: gelatina, dióxido de titânio (E171) </p>
+</li>
+</ul>
+<p>Qual o aspeto de elmiron e conteúdo da embalagem 
+As cápsulas são brancas e não transparentes e apresentam-se num frasco de plástico com fecho à prova de 
+crianças ou em blisters de plástico/alumínio, embalados numa embalagem de cartão. </p>
+<ul>
+<li>
+<p>frasco 
+Cada embalagem de cartão contém 90 cápsulas ou 300 (3 frascos x 100) cápsulas. </p>
+</li>
+<li>
+<p>blister 
+Cada embalagem de cartão contém 90 cápsulas. </p>
+</li>
+</ul>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>bene-Arzneimittel GmbH 
+Herterichstrasse 1-3 
+D-81479 Munique, Alemanha 
+tel: +49 (0)89 749fax: +49 (0)89 74987e-mail: contact@bene-arzneimittel.de </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado: </p>
+<p>BG, CZ, EE, EL, IS, IT, CY, LV, MT, PT, RO, SK 
+bene-Arzneimittel GmbH, D-81479 Munich, 
+Германия / Německo / Saksamaa / Γερμανία / Germany / Þýskaland / Germania / Vācija / Il-Ġermanja / 
+Alemanha / Nemecko, 
+Tel / Teл. / Τηλ / Sími / Tel.: +49 (0)89 749870, contact@bene-arzneimittel.de </p>
+<p>AT 
+SIGMAPHARM Arzneimittel GmbH, Leystraße 129, A-1200 Wien, 
+Österreich, </p>
+<p>Tel.: +43 (0) 1 330 06 71-0, mail@sigmapharm.at </p>
+<p>BE, LU, NL 
+Pharmanovia Benelux B.V., Burgemeester Guljélaan 2, NL-4837 CZ Breda, 
+Pays-Bas, Nederland, Niederlande, 
+Tél/Tel: +31 (0)76 5600030, info.benelux@pharmanovia.com </p>
+<p>DE<br />
+Dr. Pfleger Arzneimittel GmbH, D-96045 Bamberg,<br />
+Deutschland,<br />
+Tel.: +49 (0)951 6043-0, info@dr-pfleger.de </p>
+<p>DK, NO 
+Navamedic AB, Göteborgsvägen 74, S-433 63 Sävedalen, 
+Sverige, 
+Tlf: +46 (0)31 3351190, infose@navamedic.com </p>
+<p>ES 
+Lacer S.A., Sardenya 350, 08025 Barcelona, 
+España, 
+Tel: +34 (0)934465300, infog@lacer.es </p>
+<p>FI, SE 
+Navamedic AB, Göteborgsvägen 74, S-433 63 Sävedalen, 
+Ruotsi/Sverige, 
+Puh/Tel: +46 (0)31 3351190, infose@navamedic.com </p>
+<p>FR 
+Inresa SAS, 1 rue Jean Monnet, F-68870 Bartenheim, 
+France, 
+Tél: +33 (0)389 707660, info@inresa.fr </p>
+<p>HR<br />
+MEDICOPHARMACIA d.o.o., Pere Budmanija 5, 10000 Zagreb, 
+Hrvatska, 
+Tel: + 385 1 55 84<br />
+HU 
+Kéri Pharma Hungary Kft., 4032 Debrecen, Bartha B. u. 7,<br />
+Magyarország, 
+Tel.: +36 52 431<br />
+IE 
+Consilient Health, Block 2A Richview Office Park, Clonskeagh, Dublin 14, D14 Y0A5 
+Ireland, 
+Tel: +353 (0) 1 2057760, irishoffice@consilienthealth.com </p>
+<p>LT 
+UAB Norameda, Meistrų g. 8A, LT-02189 Vilnius, 
+Lietuva, 
+Tel. +370 5 2306 
+PL 
+Norameda Polska Sp. z o.o., Kilińskiego 20, PL-05-500 Piaseczno, </p>
+<p>Polska, 
+Tel.: +48 (0) 504 278 778, kontakt.pl@norameda.com </p>
+<p>SI 
+Lenis d.o.o., Litostrojska cesta 52, 1000 Ljubljana, 
+Slovenija, 
+Tel: +386(0) 1 235 07 00, info@lenis.si </p>
+<p>XI 
+Consilient Health Limited 
+Tel: +353 (0)1 205 7760  </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -721,6 +1106,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5245a6b0f8b8592e9406a25ffe7ba2b2"
 * entry[0].resource = composition-da-5245a6b0f8b8592e9406a25ffe7ba2b2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5245a6b0f8b8592e9406a25ffe7ba2b2"
+* entry[=].resource = mp5245a6b0f8b8592e9406a25ffe7ba2b2
+                            
+                    
+Instance: bundlepackageleaflet-pt-5245a6b0f8b8592e9406a25ffe7ba2b2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for elmiron Package Leaflet for language pt"
+Description: "ePI document Bundle for elmiron Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5245a6b0f8b8592e9406a25ffe7ba2b2"
+* entry[0].resource = composition-pt-5245a6b0f8b8592e9406a25ffe7ba2b2
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5245a6b0f8b8592e9406a25ffe7ba2b2"
@@ -822,6 +1229,18 @@ RuleSet: 5245a6b0f8b8592e9406a25ffe7ba2b2ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5245a6b0f8b8592e9406a25ffe7ba2b2) // elmiron pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

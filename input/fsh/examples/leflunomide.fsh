@@ -920,6 +920,493 @@ eller du får bivirkninger, som ikke er nævnt her. Se punkt 4. </p>         </d
 
 
 
+Instance: composition-pt-77a855e484d10473c2746e9b03c57dde
+InstanceOf: CompositionUvEpi
+Title: "Composition for leflunomide Package Leaflet"
+Description:  "Composition for leflunomide Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp77a855e484d10473c2746e9b03c57dde)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - leflunomide"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é o Leflunomide Zentiva e para que é utilizado 
+2. O que precisa de saber antes de tomar Leflunomide Zentiva 
+3. Como tomar Leflunomide Zentiva 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Leflunomide Zentiva 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é leflunomide e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é leflunomide e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A Leflunomide Zentiva pertence a um grupo de medicamentos designados de antirreumáticos. Contém 
+a substância ativa leflunomida. </p>
+<p>A Leflunomide  Zentiva é usado no tratamento de doentes com artrite reumatoide ativa ou com artrite 
+psoriática ativa. </p>
+<p>Os sintomas da artrite reumatoide incluem inflamação das articulações, tumefação, dificuldade de 
+movimentação e dores. Outros sintomas que afetam todo o corpo incluem perda de apetite, febre, 
+perda de energia e anemia (falta de glóbulos vermelhos). </p>
+<p>Os sintomas da artrite psoriática ativa incluem inflamação das articulações, tumefação, dificuldade de 
+movimentação, dores e manchas vermelhas, pele escamosa (lesões na pele). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar leflunomide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar leflunomide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Leflunomide  Zentiva 
+- se teve alguma vez uma reação alérgica à leflunomida(sobretudo uma reação cutânea grave 
+muitas vezes acompanhada de febre, dores articulares, manchas vermelhas na pele ou vesículas 
+por exemplo o síndrome de Steven-Johnson) ou a qualquer dos outros ingredientes deste 
+medicamento (ver secção 6), ou se é alérgico à teriflunomida (usada para tratar a esclerose 
+múltipla), 
+- se tem problemas hepáticos, 
+- se tem problemas renais de moderados a graves, 
+- se tem um nível baixo de proteínas no seu sangue (hipoproteinemia), 
+- se sofre de uma doença que afete o seu sistema imunitário (p.e.: SIDA), 
+- se tem algum problema na sua medula óssea ou se o número de glóbulos vermelhos ou brancos do 
+seu sangue ou o número de plaquetas sanguíneas estiver diminuído, 
+- se sofre de uma infeção grave, 
+- se estiver grávida, se pensa que está grávida ou se está a amamentar. </p>
+<p>Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Leflunomide Zentiva 
+-se alguma vez teve inflamação do pulmão (doença pulmonar intersticial).<br />
+-se alguma vez teve tuberculose ou se esteve em contacto próximo com alguém que tem ou teve 
+tuberculose. O seu médico poderá realizar testes para ver se tem tuberculose. 
+-se é do sexo masculino e pretende ser pai de uma criança. Como não se pode excluir se o 
+Leflunomide  Zentiva passa para o sémen, meio de contraceção efetivo deverá ser utilizado durante 
+o tratamento com Leflunomide Zentiva . Para minimizar qualquer risco possível, homens que 
+pretendam ser pais de uma criança deverão contactar o seu médico que o poderá aconselhar a parar 
+o tratamento com Leflunomide Zentiva e a tomar certos medicamentos para remover a 
+Leflunomide Zentiva rapidamente e em quantidade suficiente do seu organismo. Necessitará depois 
+de um exame ao sangue para ter a certeza que a Leflunomide  Zentiva foi suficientemente 
+removido do seu organismo, e deverá então esperar durante pelo menos 3 meses adicionais, antes 
+de tentar ser pai de uma criança. 
+-se está prestes a fazer uma análise específica ao sangue (nível de cálcio). Podem ser detetados níveis 
+de cálcio falsamente baixos. </p>
+<p>A Leflunomide Zentiva pode ocasionalmente provocar alguns problemas no seu sangue, fígado e 
+pulmões. Pode também causar reações alérgicas graves (incluindo Reação Medicamentosa com 
+Eosinofilia e Sintomas Sistémicos (síndrome de [DRESS), ou aumentar as hipóteses de infeções 
+graves. Para mais informações sobre estes, consulte por favor a secção 4 (Efeitos indesejáveis 
+possíveis). </p>
+<p>O síndrome de DRESS aparece inicialmente com sintomas semelhantes aos da gripe e uma erupção na 
+face, seguindo-se uma propagação da erupção com temperaturas elevadas, aumento dos níveis das 
+enzimas do fígado nas análises sanguíneas e um aumento de um tipo de glóbulos brancos no sangue 
+(eosinofilia) e aumento dos gânglios linfáticos. </p>
+<p>Informe o seu médico imediatamente se tiver problemas com os nervos dos braços e pernas 
+(neuropatia periférica). </p>
+<p>O seu médico irá, em intervalos regulares, prescrever-lhe análises clínicas antes e durante o 
+tratamento com Leflunomide  Zentiva, de forma a monitorizar as suas células sanguíneas e o fígado. O 
+seu médico irá também verificar a sua pressão arterial regularmente, dado que a Leflunomide Zentiva 
+pode provocar um aumento na pressão arterial. </p>
+<p>Informe o seu médico se sofre de diarreia crónica de causa desconhecida. O seu médico pode realizar 
+exames adicionais para obter um diagnóstico diferencial. </p>
+<p>Informe o seu médico se desenvolver uma úlcera cutânea durante o tratamento com Leflunomide 
+Zentiva (ver também a secção 4). </p>
+<p>Crianças e adolescentes 
+A Leflunomide  Zentiva não está recomendado em crianças e adolescentes com idade inferior a 
+18 anos.  </p>
+<p>Outros medicamentos e Leflunomide Zentiva 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. Isto inclui medicamentos obtidos sem receita médica. </p>
+<p>Isto é especialmente importante se estiver a tomar: 
+- outros medicamentos para a artrite reumatóide tais como anti-maláricos (por exemplo, 
+cloroquina e hidrocloroquina), ouro oral ou intramuscular, D-penicilamina, azatioprina e outros 
+medicamentos imunossupressores (por exemplo, metotrexato) uma vez que estas combinações 
+não são aconselhadas,-  varfarina e outros medicamentos orais (usado para diluir o sangue), a 
+monitorização é necessária para reduzir o risco de efeitos indesejáveis deste medicamento<br />
+-<br />
+teriflunomida para a esclerose múltipla  </p>
+<ul>
+<li>repaglinida, pioglitazona, nateglinida, ou rosiglitazona para a diabetes  </li>
+<li>daunorrubicina, doxorrubicina, paclitaxel ou topotecano para o cancro  </li>
+<li>duloxetina para a depressão, incontinência urinária ou doença renal em diabéticos  </li>
+<li>alosetron para o controlo da diarreia grave  </li>
+<li>teofilina para a asma  </li>
+<li>tizanidina, um relaxante muscular  </li>
+<li>contracetivos orais (contendo etinilestradiol e levonorgestrel)  </li>
+<li>cefaclor, benzilpenicilina (penicilina G), ciprofloxacina para infecções  </li>
+<li>indometacina, cetoprofeno para a dor ou inflamação  </li>
+<li>furosemida para a doença cardíaca (diurético)  </li>
+<li>zidovudina para a infeção por HIV  </li>
+<li>rosuvastatina, sinvastatina, atorvastatina, pravastatina, para a hipercolesterolémia (colesterol 
+elevado)  </li>
+<li>sulfassalazina para a doença inflamatória do intestino ou artrite reumatoide </li>
+<li>um medicamento chamado de colesteramina (utilizado para reduzir o colestrol elevado) ou 
+carvão ativado, uma vez que estes medicamentos podem reduzir a quantidade de Leflunomide<br />
+Zentiva que é absorvido pelo organismo, </li>
+</ul>
+<p>Se já estiver a tomar medicamentos anti-inflamatórios não esteroides (AINE’s) e/ou 
+corticosteroides, pode continuar a tomá-los após iniciar a toma de Leflunomide Zentiva. </p>
+<p>Vacinações 
+Caso tenha de ser vacinado, peça aconselhamento ao seu médico. Algumas vacinas não deverão ser 
+administradas enquanto estiver a tomar Leflunomide Zentiva, e durante algum tempo após parar o 
+tratamento. </p>
+<p>Leflunomide Zentiva com alimentos, bebidas e álcool 
+A Leflunomide  Zentiva pode ser tomado com ou sem alimentos. 
+Não é recomendável beber álcool durante o tratamento com Leflunomide Zentiva. Beber álcool 
+enquanto toma Leflunomide  Zentiva pode aumentar as hipóteses de ocorrência de lesões no fígado. </p>
+<p>Gravidez e amamentação 
+Não tome Leflunomide Zentiva se está ou se pensa que pode estar grávida. Se está grávida ou se ficar 
+grávida enquanto toma Leflunomide  Zentiva, o risco de ter um bebé com malformações congénitas 
+graves está aumentado. Mulheres em idade fértil não deverão tomar Leflunomide Zentiva sem usar 
+medidas contracetivas de confiança. </p>
+<p>Informe o seu médico se está a planear uma gravidez após parar o tratamento com Leflunomide 
+Zentiva, uma vez que será necessário assegurar que todos os resíduos de Leflunomide Zentiva já não 
+se encontram no seu organismo antes de tentar engravidar. Isto poderá levar até 2 anos. Este período 
+pode ser encurtado para algumas semanas se tomar certos medicamentos que aceleram a remoção da 
+Leflunomide  Zentiva do seu organismo.<br />
+Em qualquer dos casos, deve ser confirmado por um teste sanguíneo que a eliminação da Leflunomide 
+Zentiva do seu corpo foi suficiente e deve esperar pelo menos mais um mês antes de ficar grávida. </p>
+<p>Para mais informação sobre o teste laboratorial, por favor contacte com o seu médico. </p>
+<p>Se suspeita de uma gravidez enquanto toma Leflunomide  Zentiva ou nos dois anos após ter parado o 
+tratamento (p.e., quando o seu período menstrual se atrasar), deve contactar imediatamente o seu 
+médico, de modo a efetuar um teste de gravidez. Se o teste confirmar que está grávida, o seu médico 
+poderá sugerir tratamento com certos medicamentos para remover rapidamente e em quantidade 
+suficiente a Leflunomide Zentiva do seu organismo, uma vez que isso poderá reduzir o risco para o 
+seu bebé.  </p>
+<p>Não tome Leflunomide  Zentiva se estiver a amamentar, uma vez que a leflunomida passa para o 
+leite materno. </p>
+<p>Condução de veículos e utilização de máquinas 
+A Leflunomide Zentiva pode fazê-lo sentir tonto o que pode perturbar a sua capacidade de 
+concentração e reação. Se se sente afetado, não conduza, ou utilize máquinas.  </p>
+<p>Leflunomide  Zentiva contém lactose. 
+A Leflunomide Zentiva contém lactose. Se o seu médico lhe disse que tem intolerância a alguns 
+açúcares, consulte o seu médico antes de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar leflunomide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar leflunomide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose de início habitual de Leflunomide Zentiva é de 100 mg uma vez por dia durante os primeiros 
+três dias. Em seguida, a maioria dos doentes necessita de: </p>
+<ul>
+<li>
+<p>Para a artrite reumatoide: 10 ou 20 mg de Leflunomide  Zentiva uma vez ao dia, dependendo da 
+gravidade da doença. </p>
+</li>
+<li>
+<p>Para a artrite psoriática: 20 mg de Leflunomide Zentiva uma vez ao dia. </p>
+</li>
+</ul>
+<p>Engula os comprimidos inteiros, com água suficiente. </p>
+<p>Pode levar cerca de 4 semanas ou mais até começar a sentir uma melhoria do seu estado. Alguns 
+doentes podem ainda continuar a sentir uma acentuação das melhorias após 4 a 6 meses de tratamento. 
+Normalmente, a Leflunomide  Zentiva é tomado durante longos períodos de tempo. </p>
+<p>Se tomar mais Leflunomide Zentiva do que deveria: 
+Se tomar mais Leflunomide Zentiva do que deveria, contacte o seu médico ou procure conselho 
+médico. Se possível, leve consigo os seus comprimidos ou a caixa de embalagem para mostrar ao 
+médico. </p>
+<p>Caso se tenha esquecido de tomar Leflunomide Zentiva: 
+Se se esquecer de tomar uma dose, tome-a assim que se lembrar, exceto se for já próximo da dose 
+seguinte. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Informe o seu médico imediatamente e pare de tomar Leflunomide Zentiva: 
+- se se sente fraco, com a cabeça leve ou tonto ou se tem dificuldade em respirar, uma vez que 
+podem ser sinais de reação alérgica grave, 
+- se desenvolveu uma erupção cutânea ou feridas na boca, uma vez que estas podem indicar 
+reações graves, e que podem por vezes ser fatais (p.e., síndrome de Stevens-Johnson, necrólise 
+epidérmica tóxica, eritema multiforme, Reação Medicamentosa com Eosinofilia e Sintomas 
+Sistémicos [síndrome de DRESS]), ver secção 2.<br />
+Informe o seu médico imediatamente caso tenha sentido os seguintes efeitos indesejáveis: 
+- palidez, cansaço, ou nódoas negras, uma vez que podem indicar problemas no sangue 
+provocados por um desequilíbrio nos diferentes tipos de células envolvidas no fabrico do 
+sangue; </p>
+<ul>
+<li>cansaço, dor abdominal ou icterícia (coloração amarela dos olhos ou da pele), uma vez que 
+estes podem indicar problemas graves tais como falência hepática, que pode ser fatal, </li>
+<li>qualquer sintoma de infeção tais como febre, anginas ou tosse, uma vez que este medicamento 
+pode aumentar as hipóteses de uma infeção grave que pode ser potencialmente fatal, </li>
+<li>tosse ou problemas respiratórios, dado que estes podem indicar problemas dos pulmões 
+(doença pulmonar intersticial ou hipertensão pulmonar).     </li>
+<li>formigueiros anormais, fraqueza ou dor nas mãos ou pés, uma vez que estes podem indicar 
+problemas nos nervos (neuropatia periférica). </li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar 1 em cada 100 pessoas) 
+- uma diminuição ligeira do número de glóbulos brancos (leucopenia), 
+- reações alérgicas ligeiras, 
+- perda de apetite, perda de peso (normalmente insignificante), 
+- cansaço (astenia), 
+- cefaleias, tonturas, 
+- sensações anormais na pele como formigueiro (parestesia), 
+- ligeiro aumento da pressão arterial, 
+- colite, 
+- diarreia,<br />
+- náuseas, vómitos, 
+- inflamação da boca ou ulceração da boca, 
+- dores abdominais, 
+- aumento dos valores de alguns testes hepáticos, 
+- aumento da perda de cabelo,<br />
+- eczema, pele seca, erupção cutânea, comichão, 
+- tendinite (dor provocada pela inflamação da membrana que envolve os tendões, normalmente nos 
+pés e nas mãos),<br />
+- um aumento de algumas enzimas no sangue (creatinina fosfoquinase). 
+- problemas nos nervos das mãos ou pernas (neuropatia periférica). </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar 1 em cada 1000 pessoas) 
+- uma diminuição do número de glóbulos vermelhos ( anemia) e uma diminuição do número de 
+plaquetas (trombocitopenia), 
+- uma diminuição dos níveis de potássio no sangue, 
+- ansiedade, 
+- alterações do paladar, 
+- urticária, 
+- rutura de tendões, 
+- um aumento nos níveis de gordura no sangue (colesterol e triglicéridos),<br />
+- uma diminuição dos níveis de fosfato no sangue. </p>
+<h2>Efeitos indesejáveis raros (podem afetar 1 em cada 10.000 pessoas)</h2>
+<p>um aumento do número de células sanguíneas chamados eosinofilos (eosinofilia); diminuição 
+ligeira do número de glóbulos brancos (leucopenia); diminuição do número de todas células 
+sanguíneas (pancitopenia), 
+- aumento acentuado da pressão arterial, 
+- inflamação pulmonar (doença pulmonar intersticial),<br />
+- um aumento dos valores de alguns testes do fígado, que pode evoluir para situações graves como 
+hepatite e icterícia, 
+- infeções graves designadas de sépsis que podem ser fatais,<br />
+- aumento de certas enzimas no sangue (lactato desidrogenase). </p>
+<p>Efeitos indesejáveis muito raros (podem afetar menos de 1 em cada 10.000 pessoas) 
+- uma diminuição marcada de alguns glóbulos brancos (agranulocitose), 
+- reações alérgicas graves ou potencialmente graves,<br />
+- inflamação dos vasos sanguíneos (vasculite, incluindo vasculite cutânea necrosante), 
+- problemas nos nervos dos braços e pernas (neuropatia periférica),   </p>
+<ul>
+<li>inflamação do pâncreas (pancreatite), </li>
+<li>lesões hepáticas graves, tais como falência hepática ou necrólise que podem por vezes ser fatais, </li>
+<li>reações graves que podem por vezes ser fatais (síndrome de Stevens-Johnson, necrólise 
+epidérmica tóxica, eritema multiforme). </li>
+</ul>
+<p>Outros efeitos indesejáveis tais como falência renal, diminuição dos níveis de ácido úrico no seu 
+sangue, hipertensão pulmonar, infertilidade masculina (que é reversível assim que o tratamento com 
+este medicamento é parado), lúpus cutâneo (caracterizado por erupção cutânea/eritema nas áreas da 
+pele que estão expostas à luz), psoríase (aparecimento ou agravamento), síndrome de DRESS e úlcera 
+cutânea (ferida aberta na pele de forma circular, através da qual os tecidos subjacentes podem ser 
+vistos), podem também ocorrer com uma frequência desconhecida.   </p>
+<p>Se algum dos efeitos indesejáveis se agravar ou se detetar quaisquer efeitos indesejáveis não 
+mencionados neste folheto, por favor informe o seu médico ou farmacêutico.  </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, ou farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar leflunomide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar leflunomide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior após VAL.<br />
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Blister: 
+Manter na embalagem exterior. </p>
+<p>Frasco: 
+Manter o frasco bem fechado. </p>
+<p>Não deite fora quaisquer  medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Leflunomide  Zentiva 
+- A substância ativa é a leflunomida. Um comprimido revestido por película contem 10 mg de 
+leflunomida. 
+- Os outros componentes são: amido de milho, povidona (E1201), crospovidona (E1202), sílica 
+coloidal anidra, estearato de magnésio (E470b), e lactose mono-hidratada no núcleo do comprimido 
+assim como talco (E553b), hipromelose (E464), dióxido de titânio (E171), e macrogol 8000 no 
+revestimento. </p>
+<p>Qual o aspeto de Leflunomide Zentiva e conteúdo da embalagem 
+Os comprimidos revestidos por película de Leflunomide  Zentiva 10 mg são redondos, brancos. 
+Imprimido num dos lados: ZBN. </p>
+<p>Os comprimidos são acondicionados em blisters ou frascos. 
+Os comprimidos estão disponíveis em embalagens de 30 e 100 unidades. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular de Autorização de Introdução no Mercado 
+Zentiva k.s.<br />
+U kabelovny 130<br />
+102 37 Prague 10<br />
+República Checa </p>
+<p>Fabricante 
+Opella Healthcare International SAS 
+56, Route de Choisy 
+60200 Compiégne 
+França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+Zentiva, k.s. 
+Tél/Tel: +32 280 86 PV-Belgium@zentiva.com </p>
+<p>Lietuva 
+Zentiva, k.s. 
+Tel: +370 52152PV-Lithuania@zentiva.com 
+България 
+Zentiva, k.s. 
+Тел: +35924417PV-Bulgaria@zentiva.com </p>
+<p>Luxembourg/Luxemburg 
+Zentiva, k.s. 
+Tél/Tel: +352 208 82PV-Luxembourg@zentiva.com 
+Česká republika 
+Zentiva, k.s. 
+Tel: +420 267 241 PV-Czech-Republic@zentiva.com </p>
+<p>Magyarország 
+Zentiva Pharma Kft. 
+Tel.: +36 1 299 1PV-Hungary@zentiva.com 
+Danmark 
+Zentiva Denmark ApS 
+Tlf: +45 787 68 PV-Denmark@zentiva.com </p>
+<p>Malta 
+Zentiva, k.s. 
+Tel: +356 2778 0PV-Malta@zentiva.com 
+Deutschland 
+Zentiva Pharma GmbH<br />
+Tel: +49 (0) 800 53 53 PV-Germany@zentiva.com </p>
+<p>Nederland 
+Zentiva, k.s. 
+Tel: +31 202 253 PV-Netherlands@zentiva.com 
+Eesti 
+Zentiva, k.s. 
+Tel: +372 52 70PV-Estonia@zentiva.com </p>
+<p>Norge 
+Zentiva Denmark ApS 
+Tlf: +47 219 66 PV-Norway@zentiva.com 
+Ελλάδα 
+Zentiva, k.s. 
+Τηλ: +30 211 198 7PV-Greece@zentiva.com </p>
+<p>Österreich 
+Zentiva, k.s. 
+Tel: +43 720 778 PV-Austria@zentiva.com 
+España 
+Zentiva, k.s. 
+Tel: +34 931 815 PV-Spain@zentiva.com </p>
+<p>Polska 
+Zentiva Polska Sp. z o.o. 
+Tel: + 48 22 375 92 PV-Poland@zentiva.com </p>
+<p>France 
+Zentiva France 
+Tél: +33 (0) 800 089 219<br />
+PV-France@zentiva.com </p>
+<p>Portugal 
+Zentiva Portugal, Lda 
+Tel: +351210601PV-Portugal@zentiva.com 
+Hrvatska 
+Zentiva d.o.o. 
+Tel: +385 1 6641 PV-Croatia@zentiva.com </p>
+<p>Ireland 
+Zentiva, k.s. 
+Tel: +353 818 882 PV-Ireland@zentiva.com </p>
+<p>România 
+ZENTIVA S.A. 
+Tel: +4 021.304.7PV-Romania@zentiva.com </p>
+<p>Slovenija 
+Zentiva, k.s. 
+Tel: +386 360 00 PV-Slovenia@zentiva.com 
+Ísland 
+Zentiva Denmark ApS 
+Sími: +354 539 0PV-Iceland@zentiva.com </p>
+<p>Slovenská republika 
+Zentiva, a.s. 
+Tel: +421 2 3918 3PV-Slovakia@zentiva.com 
+Italia 
+Zentiva Italia S.r.l. 
+Tel: +39-02-38598PV-Italy@zentiva.com 
+Suomi/Finland 
+Zentiva Denmark ApS 
+Puh/Tel: +358 942 598 PV-Finland@zentiva.com </p>
+<p>Κύπρος 
+Zentiva, k.s. 
+Τηλ: +357 240 30 PV-Cyprus@zentiva.com </p>
+<p>Sverige 
+Zentiva Denmark ApS 
+Tel: +46 840 838 PV-Sweden@zentiva.com 
+Latvija 
+Zentiva, k.s. 
+Tel: +371 67893PV-Latvia@zentiva.com 
+United Kingdom (Northern Ireland) 
+Zentiva, k.s. 
+Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação 
+Informação pormenorizada sobre este medicamento está disponível na Intranet no site da Agência 
+Europeia de Medicamentos web site: http://www.ema.europa.eu/. </p>
+<p>Folheto informativo: Informação para o utilizador </p>
+<p>Leflunomide Zentiva 20 mg comprimidos revestidos por película 
+leflunomida </p>
+<p>Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois contém 
+informação importante para si. 
+- Conserve este folheto. Pode ter necessidade de o ler novamente. 
+- Caso ainda tenha dúvidas, fale com o seu médico, farmacêutico ou enfermeiro. 
+- Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode 
+ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença. 
+- Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Ver secção 4.  </p>         </div>"""      
+
+
+
 
 
                     
@@ -961,6 +1448,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-77a855e484d10473c2746e9b03c57dde"
 * entry[0].resource = composition-da-77a855e484d10473c2746e9b03c57dde
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp77a855e484d10473c2746e9b03c57dde"
+* entry[=].resource = mp77a855e484d10473c2746e9b03c57dde
+                            
+                    
+Instance: bundlepackageleaflet-pt-77a855e484d10473c2746e9b03c57dde
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for leflunomide Package Leaflet for language pt"
+Description: "ePI document Bundle for leflunomide Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-77a855e484d10473c2746e9b03c57dde"
+* entry[0].resource = composition-pt-77a855e484d10473c2746e9b03c57dde
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp77a855e484d10473c2746e9b03c57dde"
@@ -1062,6 +1571,18 @@ RuleSet: 77a855e484d10473c2746e9b03c57ddeListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-77a855e484d10473c2746e9b03c57dde) // leflunomide pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -743,6 +743,396 @@ og om, hvordan de behandles. </p>         </div>"""
 
 
 
+Instance: composition-pt-41b3735a6e59fac8a0512a47fdc116bd
+InstanceOf: CompositionUvEpi
+Title: "Composition for lupkynis Package Leaflet"
+Description:  "Composition for lupkynis Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp41b3735a6e59fac8a0512a47fdc116bd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - lupkynis"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Lupkynis e para que é utilizado 
+2. O que precisa de saber antes de tomar Lupkynis 
+3. Como tomar Lupkynis 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Lupkynis 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é lupkynis e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é lupkynis e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lupkynis contém a substância ativa voclosporina. É utilizado para o tratamento de adultos a partir dos 
+18 anos de idade com nefrite lúpica (inflamação do rim causada por lúpus). </p>
+<p>O ingrediente ativo do Lupkynis faz parte de um grupo de medicamentos conhecidos como inibidores 
+da calcineurina que podem ser utilizados para controlar a resposta imunitária do seu corpo 
+(imunossupressores). No lúpus, o sistema imunitário (as defesas naturais do corpo) ataca erroneamente 
+partes do seu próprio corpo, incluindo os rins (nefrite lúpica). Ao reduzir a resposta do sistema 
+imunitário, o medicamento reduz a inflamação dos rins e diminui os sintomas, como inchaço das 
+pernas, tornozelos ou pés, tensão arterial alta, cansaço, além de melhorar a função renal. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar lupkynis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar lupkynis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Lupkynis 
+- se tem alergia à voclosporina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- Se estiver a tomar outros medicamentos, tais como comprimidos de cetoconazol (utilizados para 
+tratar a síndrome de Cushing quando o organismo produz um excesso de cortisol), itraconazol 
+ou claritromicina (utilizados para tratar certas infeções fúngicas e bacterianas). </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Lupkynis se qualquer uma das situações 
+seguintes se aplicar a si: 
+- Se a sua doença renal piorar, pode ser necessário alterar a dose deste medicamento. O seu 
+médico irá verificar regularmente o funcionamento dos seus rins. 
+- Se apresentar fatores de risco para aplasia eritrocítica pura (AEP), uma afeção rara na qual a 
+medula óssea não produz glóbulos vermelhos suficientes. Esses fatores de risco são infeção 
+antiga por parvovírus B19 ou outros tratamentos no passado suscetíveis de causar AEP. 
+- Se sofrer ou desenvolver tensão arterial alta. O seu médico verificará a sua tensão arterial a cada 
+duas semanas durante o primeiro mês e depois regularmente. Ele/ela pode dar-lhe um 
+medicamento para baixar a sua tensão arterial ou dizer-lhe para deixar de tomar este 
+medicamento. 
+- Este medicamento pode aumentar o risco de doenças do sistema nervoso, como dor de cabeça, 
+tremores, alterações na visão, convulsões, confusão ou fraqueza num ou mais membros. Se 
+sentir algum destes novos sintomas ou um agravamento de sintomas existentes, o seu médico 
+pode considerar parar ou diminuir a dose deste medicamento (ver secção 4). 
+- Se está a planear tomar uma vacina ou tomou uma vacina nos últimos 30 dias. Este 
+medicamento pode afetar a resposta à vacinação e a vacinação durante o tratamento com este 
+medicamento pode ser menos eficaz. 
+- Se já teve reações alérgicas súbitas com risco de vida (reações anafiláticas) à soja ou ao 
+amendoim, não tome este medicamento. </p>
+<p>Este medicamento pode aumentar os níveis de potássio no sangue, o que pode ser grave e exigir 
+tratamento. O seu médico irá verificar os seus níveis de potássio periodicamente durante o tratamento. </p>
+<p>Este medicamento não foi estudado em doentes com problemas hepáticos graves, pelo que não é 
+recomendado nestes doentes. </p>
+<p>Este medicamento pode influenciar a atividade elétrica do seu coração (prolongamento QT). Isto pode 
+dar origem a afeções graves do ritmo cardíaco. Sinais precoces são tonturas e desmaios. </p>
+<p>Luz solar e luz UV 
+Este medicamento pode aumentar o risco de desenvolver certos tipos de cancro, especialmente da pele. 
+Deve evitar ou limitar a sua exposição ao sol e às radiações UV, vestindo roupa adequada que o 
+proteja e aplicando frequentemente um protetor solar com elevado índice de proteção. </p>
+<p>Infeções 
+Este medicamento pode aumentar o risco de desenvolver infeções, algumas das quais podem ser 
+graves ou mesmo fatais. Contacte o seu médico se tiver quaisquer sinais de infeção, como febre, 
+arrepios ou dor de garganta. O seu médico decidirá se tem de parar de tomar este medicamento (ver 
+secção 4). </p>
+<p>Crianças e adolescentes 
+Não tome este medicamento se tiver menos de 18 anos porque não foi estudado neste grupo etário. </p>
+<p>Idosos 
+Não tome este medicamento se tiver menos de 75 anos porque não foi estudado neste grupo etário. </p>
+<p>Outros medicamentos e Lupkynis 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Em particular, avise o seu médico se tomar: 
+- Medicamentos utilizados para tratar infeções fúngicas, como itraconazol e fluconazol. 
+- Medicamentos utilizados para tratar a síndrome de Cushing (quando o corpo produz um excesso 
+de cortisol), como comprimidos de cetoconazol. 
+- Medicamentos usados para tratar a tensão arterial elevada ou problemas cardíacos, como 
+digoxina, diltiazem e verapamil. 
+- Medicamentos para prevenir a formação de coágulos sanguíneos como o etexilato de 
+dabigatrano. 
+- Medicamentos utilizados para tratar a epilepsia, como carbamazepina e fenobarbital. 
+- Preparações à base de plantas contendo hipericão, utilizado para tratar a depressão ligeira. 
+- Medicamentos para o alívio dos sintomas associados à rinite alérgica sazonal, como a 
+fexofenadina. 
+- Medicamentos antibióticos usados para tratar infeções bacterianas, como rifampicina, 
+claritromicina e eritromicina. 
+- Medicamentos que reduzem o colesterol, como sinvastatina, atorvastatina, rosuvastatina e 
+pravastatina. 
+- Medicamentos utilizados para tratar infeções por VIH, como o antirretroviral efavirenz. </p>
+<p>Lupkynis com alimento e bebida 
+Este medicamento pode ser tomado com ou sem alimentos. Evite comer toranja e beber sumo de 
+toranja durante o tratamento com este medicamento, uma vez que estes podem afetar a forma como o 
+medicamento funciona. </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Este medicamento não é recomendado durante a gravidez e em mulheres com potencial para 
+engravidar que não utilizam métodos contracetivos. </p>
+<p>Informe o seu médico se estiver a amamentar. Não se sabe se o medicamento pode passar para o leite 
+materno e afetar o seu bebé. O seu médico irá discutir consigo se deve interromper o tratamento com 
+este medicamento enquanto estiver a amamentar, ou se deve deixar de amamentar. </p>
+<p>Não existem dados sobre o efeito deste medicamento sobre a fertilidade humana. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não é de esperar que Lupkynis tenha qualquer efeito na sua capacidade de conduzir veículos e utilizar 
+máquinas. </p>
+<p>Lupkynis contém álcool 
+Este medicamento contém 21,6 mg de álcool (etanol) em cada cápsula. Portanto, uma dose de 
+3 cápsulas de Lupkynis contém 64,8 mg de etanol, o que equivale a menos de 2 ml de cerveja ou 1 ml 
+de vinho. A pequena quantidade de álcool neste medicamento não terá quaisquer efeitos percetíveis. </p>
+<p>Lupkynis contém sorbitol 
+Este medicamento contém 28,7 mg de sorbitol em cada cápsula. </p>
+<p>Lupkynis pode conter lecitina de soja 
+Este medicamento pode conter quantidades vestigiais de lecitina de soja. Se apresentar reações 
+anafiláticas à soja ou ao amendoim, não pode utilizar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar lupkynis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar lupkynis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada de Lupkynis é de três cápsulas duas vezes por dia, por via oral. </p>
+<p>As cápsulas têm de ser engolidas inteiras e podem ser tomadas com ou sem alimentos. </p>
+<p>Tome as doses diárias aproximadamente à mesma hora todos os dias, com pelo menos 8 horas de 
+intervalo e idealmente o mais próximo possível de 12 horas (por exemplo, às 8:00 de manhã e às 20:à noite). </p>
+<p>Este medicamento deve ser utilizado em combinação com outro medicamento imunossupressor, o 
+micofenolato de mofetil. </p>
+<p>Se tomar mais Lupkynis do que deveria 
+Se tomar acidentalmente mais cápsulas do que deveria, contacte imediatamente o seu médico ou o 
+serviço de urgência do hospital mais próximo. Os sintomas de sobredosagem podem incluir 
+batimentos cardíacos acelerados e tremores (tremores descontrolados ou tremores numa ou mais partes 
+do corpo). </p>
+<p>Caso se tenha esquecido de tomar Lupkynis 
+Se se esquecer de uma dose, tome-a logo que possível e no espaço de 4 horas após a dose esquecida. 
+Se passaram mais de 4 horas desde a hora em que normalmente toma o medicamento, simplesmente 
+omita essa dose e tome a próxima dose regular no horário habitual. Não tome uma dose a dobrar para 
+compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Lupkynis 
+Não pare o tratamento a não ser que o seu médico lhe tenha dito para o fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Os efeitos indesejáveis seguintes podem acontecer com este 
+medicamento: </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Se algum destes ocorrer, procure aconselhamento médico imediato, pois o seu médico pode aconselhá-
+lo a parar de tomar este medicamento ou reduzir a dose. </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) 
+- Sintomas de infeção (tais como febre, dores no corpo, sensação de cansaço, tosse ou espirros, 
+náuseas, vómitos ou diarreia) </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- Sintomas recém-desenvolvidos de problemas nervosos ou cerebrais, como convulsões </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- Infeção do trato respiratório 
+- Diminuição do número de glóbulos vermelhos que tornam a pele pálida e provocam fraqueza ou 
+falta de fôlego (anemia) 
+- Dor de cabeça 
+- Aumento da tensão arterial 
+- Tosse 
+- Diarreia 
+- Dor no abdómen (barriga) 
+- Alterações na função renal que podem reduzir a quantidade de urina produzida e que podem 
+determinar o aparecimento de inchaço nas pernas ou pé, ou agravar o existente  </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- Infeções, que podem ser bacterianas, como infeções do trato urinário ou virais, como zona 
+- Inflamação do estômago e intestinos 
+- Gripe 
+- Aumento dos níveis de potássio observado em análises ao sangue 
+- Diminuição do apetite 
+- Tremores 
+- Sensação de enjoo 
+- Inchaço anormal, hemorragia e/ou inflamação das gengivas 
+- Indigestão 
+- Queda de cabelo 
+- Crescimento excessivo e/ou anormal de pelos em qualquer parte do corpo </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar lupkynis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar lupkynis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após “VAL.". O prazo de validade corresponde ao último dia do mês indicado. 
+Conservar no blister de origem para proteger da humidade. 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Lupkynis 
+- A substância ativa é voclosporina. Cada cápsula mole de Lupkynis contém 7,9 mg de 
+voclosporina. 
+- Os outros componentes são: 
+Conteúdo da cápsula: etanol, vitamina E (E307), succinato de polietilenoglicol (tocofersolano), 
+polissorbato 40 e triglicéridos de cadeia média 
+Invólucro da cápsula: gelatina, sorbitol, glicerina, água purificada, dióxido de titânio (E171), 
+óxido de ferro vermelho (E172), óxido de ferro amarelo (E172) 
+Auxiliar de processamento: lecitina de soja </p>
+<p>Qual o aspeto de Lupkynis e conteúdo da embalagem 
+Lupkynis 7,9 mg cápsulas moles rosa/laranja medindo aproximadamente 13 mm × 6 mm 
+acondicionadas em blisters. Cada blister contém 18 cápsulas moles. Cada embalagem contém 180 ou 
+576 cápsulas moles. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução do Mercado 
+Otsuka Pharmaceutical Netherlands B.V. 
+Herikerbergweg 1101 CT Amsterdam 
+Países Baixos </p>
+<p>Fabricante 
+Millmount Healthcare Limited 
+Block-7, City North Business Campus, Stamullen, Co. Meath, K32 YD60, 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tél/Tel: +31 (0) 20 85 46<br />
+Lietuva 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+България 
+Otsuka Pharmaceutical Netherlands B.V. 
+Teл: +31 (0) 20 85 46<br />
+Luxembourg/Luxemburg 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tél/Tel: +31 (0) 20 85 46<br />
+Česká republika 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Magyarország 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Danmark 
+Otsuka Pharma Scandinavia AB 
+Tlf: +46 (0) 8 545 286<br />
+Malta 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Deutschland 
+Otsuka Pharma GmbH 
+Tel: +49 (0) 69 1700<br />
+Nederland 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Eesti 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Norge 
+Otsuka Pharma Scandinavia AB 
+Tlf: +46 (0) 8 545 286<br />
+Ελλάδα 
+Otsuka Pharmaceutical Netherlands B.V. 
+Thλ: +31 (0) 20 85 46<br />
+Österreich 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+España 
+Otsuka Pharmaceutical S.A 
+Tel: +34 (0) 93 208 1 
+Polska 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+France 
+Otsuka Pharmaceutical France SAS 
+Tél: +33 (0) 1 47 08 00<br />
+Portugal 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Hrvatska 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+România 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Ireland 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Slovenija 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Ísland 
+Otsuka Pharma Scandinavia AB 
+Sími: +46 (0) 8 545 286<br />
+Slovenská republika 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Italia 
+Otsuka Pharmaceutical Italy S.r.l. 
+Tel: +39 (0) 2 0063 2 
+Suomi/Finland 
+Otsuka Pharma Scandinavia AB 
+Puh/Tel: +46 (0) 8 545 286<br />
+Κύπρος 
+Otsuka Pharmaceutical Netherlands B.V. 
+Thλ: +31 (0) 20 85 46<br />
+Sverige 
+Otsuka Pharma Scandinavia AB 
+Tel: +46 (0) 8 545 286<br />
+Latvija 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+United Kingdom (Northern Ireland) 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46  </p>
+<p>Este folheto foi revisto pela última vez em . </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -784,6 +1174,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-41b3735a6e59fac8a0512a47fdc116bd"
 * entry[0].resource = composition-da-41b3735a6e59fac8a0512a47fdc116bd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp41b3735a6e59fac8a0512a47fdc116bd"
+* entry[=].resource = mp41b3735a6e59fac8a0512a47fdc116bd
+                            
+                    
+Instance: bundlepackageleaflet-pt-41b3735a6e59fac8a0512a47fdc116bd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lupkynis Package Leaflet for language pt"
+Description: "ePI document Bundle for lupkynis Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-41b3735a6e59fac8a0512a47fdc116bd"
+* entry[0].resource = composition-pt-41b3735a6e59fac8a0512a47fdc116bd
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp41b3735a6e59fac8a0512a47fdc116bd"
@@ -885,6 +1297,18 @@ RuleSet: 41b3735a6e59fac8a0512a47fdc116bdListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-41b3735a6e59fac8a0512a47fdc116bd) // lupkynis pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

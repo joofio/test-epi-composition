@@ -1526,6 +1526,942 @@ ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel
 
 
 
+Instance: composition-pt-3a36f8c3c4c534a765e5e9ed08db5433
+InstanceOf: CompositionUvEpi
+Title: "Composition for okedi Package Leaflet"
+Description:  "Composition for okedi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3a36f8c3c4c534a765e5e9ed08db5433)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - okedi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é OKEDI e para que é utilizado 
+2. O que precisa de saber antes de utilizar OKEDI 
+3. Como utilizar OKEDI 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar OKEDI 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é okedi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é okedi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>OKEDI contém a substância ativa risperidona, que pertence a um grupo de medicamentos designados 
+por “antipsicóticos". </p>
+<p>OKEDI é utilizado em doentes adultos para tratar a esquizofrenia, na qual pode ver, ouvir ou sentir 
+coisas que não existem, acreditar em coisas que não são reais ou sentir uma desconfiança que não é 
+habitual ou sentir-se confuso. </p>
+<p>OKEDI destina-se a doentes que apresentam tolerabilidade e eficácia à risperidona oral (p. ex., 
+comprimidos). </p>
+<p>OKEDI pode ajudar a aliviar os sintomas da sua doença e impedir que os seus sintomas regressem. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar okedi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar okedi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize OKEDI </p>
+<ul>
+<li>se tem alergia (hipersensibilidade) à risperidona ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar OKEDI </p>
+<ul>
+<li>
+<p>Se tem um problema de coração. Exemplos deste tipo de problema incluem um ritmo cardíaco 
+irregular, se tem tendência para uma tensão arterial baixa ou se está a utilizar medicamentos 
+para a tensão arterial. OKEDI pode causar tensão arterial baixa. A sua dose pode necessitar de 
+ser ajustada </p>
+</li>
+<li>
+<p>Se sabe que tem fatores que o predispõem a um acidente vascular cerebral, como tensão 
+arterial elevada, doença cardiovascular ou problemas dos vasos sanguíneos do cérebro </p>
+</li>
+<li>
+<p>Se já teve movimentos involuntários da língua, boca e face </p>
+</li>
+<li>
+<p>Se já teve uma afeção cujos sintomas incluem temperatura elevada, rigidez muscular, 
+transpiração ou um nível de consciência diminuído (também conhecida por “síndrome 
+neuroléptica maligna") </p>
+</li>
+<li>
+<p>Se tem a doença de Parkinson </p>
+</li>
+<li>
+<p>Se tem demência </p>
+</li>
+<li>
+<p>Se sabe que no passado teve níveis baixos dos glóbulos brancos do sangue (o que pode ter 
+sido causado ou não por outros medicamentos) </p>
+</li>
+<li>
+<p>Se é diabético </p>
+</li>
+<li>
+<p>Se tem epilepsia </p>
+</li>
+<li>
+<p>Se é um homem e já teve uma ereção prolongada ou dolorosa </p>
+</li>
+<li>
+<p>Se tem problemas em controlar a sua temperatura corporal ou excesso de calor </p>
+</li>
+<li>
+<p>Se tem problemas de rins </p>
+</li>
+<li>
+<p>Se tem problemas de fígado </p>
+</li>
+<li>
+<p>Se tem um nível anormalmente elevado da hormona prolactina no seu sangue ou se tem um 
+tumor que depende possivelmente da prolactina. </p>
+</li>
+<li>
+<p>Se tem, ou alguém na sua família tem, antecedentes de coágulos sanguíneos, dado 
+que os antipsicóticos foram associados à formação de coágulos sanguíneos. </p>
+</li>
+</ul>
+<p>Se não tiver a certeza se qualquer uma das situações acima se lhe aplica, fale com o seu 
+médico ou farmacêutico antes de utilizar risperidona oral ou OKEDI. </p>
+<p>Durante o tratamento 
+Observaram-se, muito raramente, valores perigosamente baixos de um certo tipo de glóbulos brancos 
+necessários para lutar contra infeções no seu sangue em doentes a tomar risperidona. Por conseguinte, 
+o seu médico poderá verificar as contagens dos seus glóbulos brancos antes e durante o tratamento. </p>
+<p>Mesmo que tenha anteriormente tolerado a risperidona oral, ocorrem, raramente, reações 
+alérgicas após a administração de injeções de OKEDI. Consulte imediatamente um médico se 
+tiver uma erupção na pele, inchaço da garganta, comichão ou problemas respiratórios, porque 
+estes podem ser sinais de uma reação alérgica grave. </p>
+<p>OKEDI pode causar um aumento do seu peso. Um aumento considerável de peso pode afetar 
+adversamente a sua saúde. O seu médico deverá verificar regularmente o seu peso. </p>
+<p>Observou-se diabetes mellitus ou o agravamento de diabetes mellitus preexistente em doentes 
+medicados com OKEDI. Por conseguinte, o seu médico deverá controlar sinais de açúcar 
+elevado no seu sangue. Em doentes com diabetes mellitus preexistente, a glicemia deve ser 
+monitorizada regularmente. </p>
+<p>OKEDI aumenta frequentemente os níveis de uma hormona chamada “prolactina". Esta pode causar 
+efeitos indesejáveis como perturbações menstruais ou problemas relacionados com a fertilidade em 
+mulheres, aumento das mamas nos homens (ver secção 4 “Efeitos indesejáveis possíveis"). No caso de 
+ocorrerem estes efeitos indesejáveis, recomenda-se a avaliação do nível da prolactina no sangue. </p>
+<p>Durante uma intervenção aos olhos devido a turvação do cristalino (catarata), podem surgir 
+problemas que podem dar origem a lesão dos olhos. Se estiver a planear ser submetido a uma 
+operação a um dos olhos, certifique-se de que informa o oftalmologista de que está a tomar este 
+medicamento. </p>
+<p>Crianças e adolescentes 
+Não administre este medicamento a crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e OKEDI 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. </p>
+<p>É especialmente importante que informe o seu médico ou farmacêutico se estiver a tomar 
+qualquer um dos seguintes </p>
+<ul>
+<li>
+<p>Medicamentos que atuam no seu cérebro como, por exemplo, aqueles que o ajudam a acalmar-
+se (benzodiazepinas) ou alguns medicamentos para a dor (opioides), medicamentos para as 
+alergias (alguns anti-histamínicos), porque OKEDI pode aumentar o efeito sedativo de todos 
+estes medicamentos. </p>
+</li>
+<li>
+<p>Medicamentos que podem alterar a atividade elétrica do seu coração, como, por exemplo, 
+medicamentos para a malária, problemas do ritmo cardíaco, alergias (anti-histamínicos), 
+alguns antidepressivos ou outros medicamentos para problemas mentais. </p>
+</li>
+<li>
+<p>Medicamentos que causam um batimento lento do coração. </p>
+</li>
+<li>
+<p>Medicamentos que causam uma diminuição do nível de potássio no sangue (como certos 
+diuréticos). </p>
+</li>
+<li>
+<p>Medicamentos para tratar a tensão arterial elevada. OKEDI pode diminuir a tensão arterial. </p>
+</li>
+<li>
+<p>Medicamentos para a doença de Parkinson (como a levodopa). </p>
+</li>
+<li>
+<p>Medicamentos que aumentam a atividade do sistema nervoso central 
+(psicoestimulantes, como o metilfenidato). </p>
+</li>
+<li>
+<p>Diuréticos utilizados para problemas do coração ou para o inchaço de certas regiões do corpo 
+resultante da acumulação de demasiado líquido (como a furosemida ou a clorotiazida). OKEDI 
+tomado isolado ou com furosemida, pode causar um maior risco de acidente vascular cerebral 
+ou de morte em pessoas idosas com demência. </p>
+</li>
+</ul>
+<p>Os seguintes medicamentos podem diminuir o efeito da risperidona </p>
+<ul>
+<li>
+<p>Rifampicina (um medicamento para tratar certas infeções) </p>
+</li>
+<li>
+<p>Carbamazepina, fenitoína (medicamentos para a epilepsia) </p>
+</li>
+<li>
+<p>Fenobarbital. </p>
+</li>
+</ul>
+<p>Se começar a tomar ou parar de tomar este tipo de medicamentos, pode necessitar de uma dose 
+diferente de risperidona. </p>
+<p>Os seguintes medicamentos podem aumentar o efeito da risperidona </p>
+<ul>
+<li>
+<p>Quinidina (utilizada para certos tipos de doenças do coração) </p>
+</li>
+<li>
+<p>Antidepressivos (como a paroxetina, fluoxetina, antidepressivos tricíclicos) </p>
+</li>
+<li>
+<p>Medicamentos conhecidos por bloqueadores beta (utilizados para tratar a tensão arterial 
+elevada) </p>
+</li>
+<li>
+<p>Fenotiazinas (medicamentos utilizados para tratar a psicose ou para o acalmar) </p>
+</li>
+<li>
+<p>Cimetidina, ranitidina (bloqueadores da acidez do estômago) </p>
+</li>
+<li>
+<p>Itraconazol e cetoconazol (medicamentos para tratar infeções fúngicas) </p>
+</li>
+<li>
+<p>Certos medicamentos utilizados no tratamento do VIH/SIDA, como o ritonvir. </p>
+</li>
+<li>
+<p>Verapamil, um medicamento utilizado para tratar a tensão arterial elevada e/ou um ritmo 
+cardíaco anormal </p>
+</li>
+<li>
+<p>Sertralina e fluvoxamina, medicamentos utilizados para tratar a depressão ou outras 
+perturbações psiquiátricas. </p>
+</li>
+</ul>
+<p>Se começar a tomar ou parar de tomar este tipo de medicamentos, pode necessitar de uma dose 
+diferente de risperidona. </p>
+<p>Se não tiver a certeza se qualquer um dos mencionados acima se lhe aplica, fale com o seu 
+médico ou farmacêutico antes de utilizar OKEDI. </p>
+<p>OKEDI com alimentos, bebidas e álcool 
+Deve evitar consumir bebidas alcoólicas enquanto estiver a utilizar OKEDI. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<ul>
+<li>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico ou farmacêutico antes de tomar este medicamento. O seu médico decidirá se o pode 
+utilizar. </p>
+</li>
+<li>
+<p>Os seguintes sintomas podem ocorrer em recém-nascidos de mães que utilizaram risperidona 
+no último trimestre (os últimos três meses da gravidez): tremores, rigidez e/ou fraqueza 
+muscular, sonolência, agitação, problemas respiratórios e dificuldade em alimentarem-se. Se o 
+seu bebé desenvolver qualquer um destes sintomas, pode ter de contactar o seu médico. </p>
+</li>
+<li>
+<p>OKEDI pode aumentar os níveis de uma hormona chamada “prolactina" que pode ter efeitos na 
+fertilidade (ver secção 4 “Efeitos indesejáveis possíveis"). </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+Podem ocorrer tonturas, cansaço e problemas visuais durante o tratamento com OKEDI. Não 
+conduza ou utilize ferramentas ou máquinas sem falar primeiro com o seu médico. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar okedi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar okedi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>OKEDI ser-lhe-á administrado por injeção intramuscular no braço ou na nádega, em intervalos de 
+28 dias, por um profissional de saúde. As injeções devem ser alternadas entre o lado direito e o 
+esquerdo. </p>
+<p>A dose recomendada é de 75 mg em intervalos de 28 dias, mas poderá ser necessária uma dose 
+mais elevada de 100 mg em intervalos de 28 dias. O seu médico decidirá qual a dose de OKEDI 
+que é adequada para si. 
+Se estiver, presentemente, a ser tratado com antipsicóticos diferentes da risperidona, mas tomou 
+risperidona no passado, deverá começar a tomar risperidona oral, pelo menos, 6 dias antes de iniciar o 
+tratamento com OKEDI. </p>
+<p>Se nunca tiver tomado qualquer forma de risperidona, deve começar a tomar risperidona oral, pelo 
+menos, 14 dias antes de começar o tratamento com OKEDI. A duração do período de tratamento com 
+risperidona oral será determinada pelo seu médico. </p>
+<p>Se tem problemas nos rins 
+OKEDI não é recomendado em doentes com compromisso da função renal moderado a grave. </p>
+<p>Se lhe for administrado mais OKEDI do que deveria </p>
+<ul>
+<li>
+<p>Informe imediatamente o seu médico. </p>
+</li>
+<li>
+<p>No caso de sobredosagem pode sentir-se sonolento ou cansado, ter movimentos 
+anormais do corpo, problemas ao levantar-se e a andar, sentir-se tonto devido a uma 
+tensão arterial baixa ou ter um batimento cardíaco anormal ou ter convulsões. </p>
+</li>
+</ul>
+<p>Se parar de utilizar OKEDI 
+Perderá os efeitos do medicamento. Não deve parar de utilizar este medicamento a menos que o seu 
+médico lhe diga para o fazer, dado que os seus sintomas podem voltar. </p>
+<p>É importante que não se esqueça das suas consultas marcadas em intervalos de 28 dias, altura em que 
+é suposto tomar as injeções deste medicamento. Se não puder comparecer a uma consulta, assegure-se 
+de que contacta imediatamente o seu médico para discutir outra data em que possa ir levar a sua 
+injeção. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Contacte um médico ou dirija-se imediatamente para o serviço de urgências mais próximo se 
+tiver o seguinte efeito indesejável pouco frequente (pode afetar até 1 em cada 100 pessoas): </p>
+<ul>
+<li>Tiver discinesia tardia (contrações musculares ou movimentos bruscos na face, língua ou 
+noutras regiões do corpo que não consegue controlar). </li>
+</ul>
+<p>Contacte um médico ou dirija-se imediatamente para o serviço de urgências mais próximo se 
+tiver qualquer um dos seguintes efeitos indesejáveis raros (podem afetar até 1 em cada 
+1.000 pessoas): </p>
+<ul>
+<li>
+<p>Tiver coágulos de sangue nas veias, especialmente nas pernas (os sintomas incluem inchaço, 
+dor e vermelhidão na perna), que se podem deslocar através dos vasos sanguíneos até aos 
+pulmões causando dor no peito e dificuldade em respirar. </p>
+</li>
+<li>
+<p>Tiver febre, rigidez muscular, transpiração ou um nível de consciência diminuído (uma 
+doença chamada “síndrome neuroléptica maligna"). </p>
+</li>
+<li>
+<p>É um homem e tiver uma ereção prolongada ou dolorosa. Esta situação chama-se priapismo. </p>
+</li>
+<li>
+<p>Tiver uma reação alérgica grave caracterizada por febre, inchaço da boca, face, lábios ou 
+língua, falta de ar, comichão, erupção na pele ou diminuição da tensão arterial (reação 
+anafilática ou angioedema). Mesmo que tenha anteriormente tolerado a risperidona oral, 
+ocorrem, raramente, reações alérgicas após a administração de injeções de OKEDI. </p>
+</li>
+<li>
+<p>Tem uma urina vermelha-escura ou castanha, ou uma micção particularmente diminuída 
+juntamente com fraqueza muscular ou dificuldade em mover os braços e as pernas. Estes 
+podem ser sinais de rabdomiólise (uma lesão rápida dos seus músculos). </p>
+</li>
+<li>
+<p>Sente fraqueza ou atordoamento, febre, arrepios ou tem feridas na boca. Estes podem ser 
+sinais de um número muito baixo de granulócitos (um tipo de glóbulos brancos que ajudam 
+a lutar contra as infeções). </p>
+</li>
+</ul>
+<p>Os seguintes efeitos indesejáveis podem também ocorrer: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais do que 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>Dificuldade em adormecer ou permanecer a dormir </p>
+</li>
+<li>
+<p>Parkinsonismo: perturbações dos movimentos que podem incluir movimentos lentos ou 
+alterados, sensação de rigidez ou tensão nos músculos e, por vezes, mesmo uma sensação 
+de “congelamento" do movimento que depois é reiniciado. Outros sinais incluem uma 
+marcha lenta e arrastada, tremores em repouso, aumento da salivação e/ou babar-se, e 
+perda de expressão facial </p>
+</li>
+<li>
+<p>Dores de cabeça. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>Pneumonia (infeção dos pulmões), bronquite (infeção das vias aéreas principais dos pulmões), 
+infeção dos seios nasais, infeção das vias urinárias, otite, gripe, sintomas semelhantes à gripe, 
+dores de garganta, tosse, nariz tapado, febre, infeção dos olhos ou “olho vermelho" </p>
+</li>
+<li>
+<p>Aumento dos níveis de uma hormona chamada “prolactina", detetado numa análise de 
+sangue. Os sintomas de elevação da prolactina ocorrem pouco frequentemente e podem 
+incluir inchaço das mamas nos homens, dificuldade em obter ou manter ereções, 
+diminuição do desejo sexual. Em mulheres, podem incluir perda de leite pelas mamas, 
+perturbações menstruais, falta de períodos menstruais, ausência de ovulações, problemas de 
+fertilidade </p>
+</li>
+<li>
+<p>Aumento de peso, aumento ou diminuição do apetite </p>
+</li>
+<li>
+<p>Perturbações do sono, irritabilidade, depressão, ansiedade, sentir-se sonolento ou menos 
+alerta </p>
+</li>
+<li>
+<p>Distonia (contração involuntária dos músculos que causa movimentos lentos e repetitivos 
+ou posturas anormais), discinesia (outra afeção que afeta os movimentos involuntários dos 
+músculos, incluindo movimentos repetitivos, espásticos ou contorções ou contrações 
+musculares) </p>
+</li>
+<li>
+<p>Tremores, espasmos musculares, dor nos ossos ou nos músculos, dor nas costas, dor nas 
+articulações, quedas </p>
+</li>
+<li>
+<p>Visão pouco nítida </p>
+</li>
+<li>
+<p>Incontinência urinária (perda involuntária de urina) </p>
+</li>
+<li>
+<p>Frequência cardíaca rápida, tensão arterial elevada, falta de ar </p>
+</li>
+<li>
+<p>Dor abdominal, desconforto abdominal, vómitos, náuseas, tonturas, prisão de ventre, 
+diarreia, indigestão, boca seca, dor de dentes </p>
+</li>
+<li>
+<p>Erupção na pele, vermelhidão da pele, reação no local de injeção (incluindo desconforto, 
+dor, vermelhidão ou inchaço), inchaço do corpo, braços ou pernas, dor no peito, falta de 
+energia e força, fadiga, dor. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas): </p>
+<ul>
+<li>
+<p>Infeção da bexiga, amigdalite, infeção das unhas causada por fungos, infeção das camadas 
+profundas da pele, infeção por vírus, inflamação da pele causada por ácaros </p>
+</li>
+<li>
+<p>Diminuição ou aumento dos glóbulos brancos no sangue, diminuição das plaquetas (células do 
+sangue que ajudam a parar hemorragias), anemia ou diminuição do hematócrito (diminuição dos 
+glóbulos vermelhos), aumento da enzima creatina fosfoquinase no sangue, aumento das enzimas 
+hepáticas no sangue </p>
+</li>
+<li>
+<p>Tensão arterial baixa, diminuição da tensão arterial ao levantar-se, vermelhidão, isquemia 
+cerebral (fluxo insuficiente de sangue para o cérebro) </p>
+</li>
+<li>
+<p>Diabetes, elevação do açúcar no sangue, beber água em excesso, aumento do colesterol no 
+sangue, perda de peso, anorexia, aumento dos triglicéridos no sangue (uma gordura) </p>
+</li>
+<li>
+<p>Mania (humor eufórico), confusão, diminuição do desejo sexual, nervosismo, pesadelos </p>
+</li>
+<li>
+<p>Desmaio, convulsões (ataques), sensação de andar à volta (vertigens), acufeno, dor nos ouvidos </p>
+</li>
+<li>
+<p>Necessidade irrequieta de mover partes do corpo, perturbação do equilíbrio, coordenação 
+anormal, falta de atenção, problemas da fala, perda ou sensação anormal do paladar, diminuição 
+da sensação da pele à dor e ao toque, sensação de formigueiros, picadas ou adormecimento da 
+pele </p>
+</li>
+<li>
+<p>Batimento cardíaco irregular e muitas vezes rápido, batimento cardíaco lento, eletrocardiograma 
+anormal (o teste que mede a atividade elétrica dos batimentos cardíacos), palpitações (sensação 
+de batimentos irregulares ou fortes no peito), interrupção da condução entre as partes superior e 
+inferior do coração </p>
+</li>
+<li>
+<p>Congestão das vias aéreas, pieira (sons roucos e sibilantes durante a respiração), hemorragias 
+do nariz </p>
+</li>
+<li>
+<p>Postura anormal, rigidez articular, inchaço das articulações, fraqueza muscular, dor no 
+pescoço, andar anormal, sede, sensação de mal-estar, desconforto no peito ou desconforto 
+geral, sensação de estar “em baixo" </p>
+</li>
+<li>
+<p>Infeção ou irritação do estômago ou dos intestinos, incontinência fecal, dificuldade em engolir, 
+um excesso de gases, urinar com frequência, incapacidade de urinar, dor ao urinar </p>
+</li>
+<li>
+<p>Falta de períodos menstruais ou outros problemas do período menstrual, perda de leite das 
+mamas, disfunção sexual, dor ou desconforto mamário, corrimento vaginal, disfunção erétil, 
+perturbações ejaculatórias, desenvolvimento das mamas nos homens </p>
+</li>
+<li>
+<p>Urticária, espessamento da pele, perturbações da pele, comichão intensa na pele, queda de 
+cabelo, eczema (manchas na pele que ficam inflamadas, com comichão, gretadas e ásperas), 
+pele seca, descoloração da pele, acne, dermatite seborreica (pele vermelha, a descamar, 
+gordurenta, com comichão e inflamada), lesão da pele </p>
+</li>
+<li>
+<p>Sensibilidade excessiva dos olhos à luz, olho seco, aumento da lacrimação </p>
+</li>
+<li>
+<p>Reação alérgica, arrepios. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em cada 1.000 pessoas): </p>
+<ul>
+<li>
+<p>Infeção </p>
+</li>
+<li>
+<p>Secreção insuficiente de uma hormona que controla o volume de urina, ingestão excessiva e 
+perigosa de água, excesso de açúcar na urina, diminuição do açúcar no sangue, aumento da 
+insulina no sangue (uma hormona que controla os níveis de açúcar no sangue) </p>
+</li>
+<li>
+<p>Ausência de resposta aos estímulos, catatonia (não se movimentar ou responder enquanto 
+acordado), diminuição do nível de consciência, sonambulismo, perturbação alimentar 
+relacionada com o sono, dificuldade em respirar durante o sono (apneia do sono), respiração 
+superficial rápida, infeção dos pulmões causada pela inalação de alimentos para as vias 
+respiratórias, congestão pulmonar, perturbação das vias aéreas, perturbação da voz, sons 
+crepitantes nos pulmões, ausência de emoções, incapacidade de conseguir um orgasmo </p>
+</li>
+<li>
+<p>Problemas nos vasos sanguíneos do cérebro, coma devido a diabetes não controlada, tremor 
+involuntário da cabeça </p>
+</li>
+<li>
+<p>Glaucoma (aumento da pressão no interior dos olhos), problemas com o movimento dos olhos, 
+rolar dos olhos, formação de crostas/inflamação nas margens das pálpebras, problemas nos 
+olhos durante a cirurgia às cataratas </p>
+</li>
+<li>
+<p>Inflamação do pâncreas, bloqueio dos intestinos </p>
+</li>
+<li>
+<p>Inchaço da língua, gretas nos lábios, caspa, icterícia (amarelecimento da pele e olhos), 
+endurecimento da pele </p>
+</li>
+<li>
+<p>Aumento do volume das mamas, ingurgitamento das mamas (mamas duras, inchadas e 
+dolorosas devido a uma produção de leite excessiva) </p>
+</li>
+<li>
+<p>Diminuição da temperatura corporal, braços e pernas frios </p>
+</li>
+<li>
+<p>Sintomas de privação do medicamento (também nos recém-nascidos). </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito raros (podem afetar até 1 em cada 10.000 pessoas) </p>
+<ul>
+<li>
+<p>Complicações potencialmente fatais de diabetes não controlada </p>
+</li>
+<li>
+<p>Ausência de movimentos dos músculos intestinais que causa bloqueio. </p>
+</li>
+</ul>
+<p>Desconhecido: a frequência não pode ser estimada com os dados disponíveis </p>
+<ul>
+<li>Erupção na pele grave ou que coloca a vida em risco, com bolhas e descamação da pele, que 
+pode começar dentro e à volta da boca, do nariz, dos olhos e genitais e espalhar para outras 
+áreas do corpo (síndrome de Stevens-Johnson ou necrólise epidérmica tóxica). </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar okedi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar okedi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, nas bolsas 
+de folha de alumínio ou no rótulo das seringas após VAL. O prazo de validade corresponde ao último 
+dia do mês indicado. </p>
+<p>Conservar a temperatura inferior a 30°C. Conservar na embalagem de origem para proteger da 
+humidade. </p>
+<p>Utilizar OKEDI imediatamente após a reconstituição. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de OKEDI 
+A substância ativa é a risperidona. 
+Apenas a seringa com pó contém a substância ativa. Uma vez reconstituído, a quantidade de 
+risperidona administrada é de 75 mg. </p>
+<p>Os outros componentes são: 
+Seringa pré-cheia de pó: poli(D,L-láctico-co-glicólico) 
+Seringa pré-cheia de veículo: dimetilsulfóxido </p>
+<p>Qual o aspeto de OKEDI e conteúdo da embalagem 
+Cada caixa do kit de OKEDI pó e veículo para suspensão injetável de libertação prolongada contém: </p>
+<ul>
+<li>
+<p>Uma bolsa de folha de alumínio com uma seringa pré-cheia contendo pó (neste pó está a substância 
+ativa risperidona) e uma saqueta de dessecante de sílica gel. O pó é branco a amarelado, não 
+agregado. </p>
+</li>
+<li>
+<p>Uma bolsa de folha de alumínio com uma seringa pré-cheia contendo o veículo e uma saqueta de 
+dessecante de sílica gel. A seringa pré-cheia do veículo contém uma solução límpida e tem um 
+rebordo para os dedos VERMELHO. </p>
+</li>
+<li>
+<p>Uma agulha estéril para injeção IM de 2 polegadas (0,90 x 51 mm [20G]) com proteção de segurança, 
+utilizada para a administração glútea. </p>
+</li>
+<li>
+<p>Uma agulha estéril para injeção IM de 1 polegada (0,80 x 25 mm [21G]) com proteção de 
+segurança, utilizada para a administração deltoide. </p>
+</li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid. 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Espagne/Spanje 
+Tel: +34 91 375 62 Lietuva 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Ispanija 
+Tel: +34 91 375 62<br />
+България 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Испания 
+Tel: +34 91 375 62 <br />
+Luxembourg/Luxemburg 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Espagne/Spanien 
+Tel: +34 91 375 62<br />
+Česká republika 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Španělsko 
+Tel: +34 91 375 62<br />
+Magyarország 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spanyolország 
+Tel: +34 91 375 62<br />
+Danmark 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spanien 
+Tel: +34 91 375 62  </p>
+<p>Malta 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spanja 
+Tel: +34 91 375 62  </p>
+<p>Deutschland 
+Rovi GmbH 
+Rudolf-Diesel-Ring 6 
+83607 Holzkirchen 
+Tel: +49 8024 4782Nederland 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spanje 
+Tel: +34 91 375 62<br />
+Eesti 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Hispaania 
+Tel: +34 91 375 62<br />
+Norge 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spania 
+Tel: +34 91 375 62<br />
+Ελλάδα 
+BIANEΞ Α.Ε. 
+Οδός Βαρυμπόμπης 8, 
+14671 Ν. Ερυθραία, Κηφισιά 
+Tηλ. 210 8009 
+Österreich 
+Rovi GmbH 
+Rudolf-Diesel-Ring 6 
+83607 Holzkirchen 
+Deutschland 
+Tel: +43 664 1340 
+España 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Tel: +34 91 375 62 Polska 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Hiszpania 
+Tel: +34 91 375 62<br />
+France 
+ROVI 
+24, Rue Du Drac 
+38180 Seyssins 
+Tél: +33 (0)4 76 968 Portugal 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Espanha 
+Tel: +34 91 375 62<br />
+Hrvatska 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Španija 
+Tel: +34 91 375 62<br />
+Ireland 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spain 
+Tel: +34 91 375 62<br />
+România 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spania 
+Tel: +34 91 375 62<br />
+Slovenija 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Španija 
+Tel: +34 91 375 62<br />
+Ísland 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spánn 
+Sími: +34 91 375 62 Slovenská republika 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Španielsko 
+Tel: +34 91 375 62 Italia 
+Rovi Biotech, S.R.L. 
+Viale Achille Papa, 20149 Milano 
+Tel: +39 02 366 877 Suomi/Finland 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Espanja/Spanien 
+Puh/Tel: +34 91 375 62<br />
+Κύπρος 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Ισπανία 
+Tel: +34 91 375 62<br />
+Sverige 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spanien 
+Tel: +34 91 375 62<br />
+Latvija 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spānija 
+Tel: +34 91 375 62<br />
+United Kingdom (Northern Ireland) 
+Rovi Biotech Limited 
+Davis House 4th Floor Suite Robert Street Croydon CR0 1QQ - UK 
+Tel: + 44 (0) 203 642 06<br />
+Este folheto foi revisto pela última vez em {MM/AAAA} 
+A informação que se segue destina-se apenas aos profissionais de saúde: </p>
+<p>INSTRUÇÕES PARA PROFISSIONAIS DE SAÚDE </p>
+<p>OKEDI 75 mg pó e veículo para suspensão injetável de libertação prolongada </p>
+<p>Informação importante 
+OKEDI exige atenção rigorosa a estas “Instruções de utilização" passo-a-passo para ajudar a assegurar 
+uma administração bem-sucedida. </p>
+<p>Utilize os componentes fornecidos 
+Os componentes incluídos na caixa do kit foram especificamente concebidos para utilização com 
+OKEDI. 
+OKEDI tem de ser reconstituído apenas com o veículo fornecido na caixa do kit. </p>
+<p>Não substitua NENHUM dos componentes incluídos na caixa do kit. </p>
+<p>Administre a dose imediatamente após a reconstituição. Apenas para via intramuscular após a 
+reconstituição. </p>
+<p>Dose correta 
+Todo o conteúdo da seringa reconstituída tem de ser administrado para assegurar que é administrada a 
+dose pretendida de OKEDI. </p>
+<p>Dispositivo para utilização única. </p>
+<ol>
+<li>VERIFICAÇÃO DO CONTEÚDO </li>
+</ol>
+<p>Utilizando uma superfície limpa, abra as saquetas e elimine o pacote de dessecante. </p>
+<p>A caixa do kit de OKEDI contém: </p>
+<ul>
+<li>
+<p>Uma bolsa de folha de alumínio com uma seringa pré-cheia de OKEDI com uma haste do êmbolo 
+BRANCA e um rebordo para os dedos BRANCO. A seringa está marcada com 
+. </p>
+</li>
+<li>
+<p>Uma bolsa de folha de alumínio com VEÍCULO para a seringa pré-cheia de OKEDI com uma haste 
+do êmbolo TRANSPARENTE e um rebordo para os dedos VERMELHO. A seringa está marcada com 
+. </p>
+</li>
+<li>
+<p>Duas agulhas de administração (21G, 1 polegada para o deltoide [cápsula de fecho verde] e 20G, 
+2 polegadas para o glúteo [cápsula de fecho amarela]). </p>
+</li>
+</ul>
+<p>Elimine o kit se qualquer um dos componentes estiver danificado. </p>
+<p>Caso observe quaisquer partículas estranhas e/ou alteração do aspeto físico, não administre OKEDI. </p>
+<p>1.1 Inspecione a seringa do veículo </p>
+<p>CERTIFIQUE-SE de que o conteúdo da seringa do VEÍCULO flui normalmente como um líquido. </p>
+<p>O solvente congela abaixo dos 19 ºC. 
+Se estiver congelado ou parcialmente congelado, descongele-o através do contacto com as mãos ou 
+deixando-o à temperatura ambiente até obter novamente um fluxo líquido antes de continuar. </p>
+<p>1.2 Soltar o pó na seringa </p>
+<p>BATA na seringa de OKEDI para soltar qualquer pó possivelmente aglomerado na proximidade da 
+cápsula de fecho. </p>
+<ol>
+<li>LIGAÇÃO DAS SERINGAS </li>
+</ol>
+<p>2.1 Retire a cápsula de fecho das seringas mantendo-as na posição vertical </p>
+<p>Segure nas duas seringas na posição vertical para impedir a perda de medicamento. </p>
+<p>PUXE para tirar a cápsula de fecho da seringa de veículo. </p>
+<p>RODE e PUXE para tirar a cápsula de fecho da seringa de pó. </p>
+<p>2.2 Ligue as seringas </p>
+<p>Pegue na seringa de veículo S que tem o rebordo para os dedos colorido e coloque-a no TOPO da 
+seringa de pó R, ou incline-a lentamente ao ligá-las. 
+ENROSQUE as seringas uma na outra até sentir uma ligeira resistência. </p>
+<p>Certifique-se de que a seringa de pó R está na posição vertical para impedir a perda de 
+medicamento. </p>
+<ol>
+<li>MISTURA DO CONTEÚDO </li>
+</ol>
+<p>PARE E LEIA ESTA SECÇÃO ANTES DE COMEÇAR OU O MEDICAMENTO PODE NÃO 
+SER RECONSTITUÍDO CORRETAMENTE. </p>
+<ul>
+<li>
+<p>PRIMA VIGOROSAMENTE para introduzir o conteúdo do veículo na seringa de pó. </p>
+</li>
+<li>
+<p>NÃO AGUARDE que o pó fique humedecido e comece DE IMEDIATO a misturar o conteúdo 
+premindo os êmbolos RAPIDAMENTE e em alternância até perfazer 100 pressões (2 pressões 
+num segundo, aproximadamente, 1 minuto). </p>
+</li>
+<li>
+<p>ASSEGURE-SE de que o medicamento está a passar entre as duas seringas para obter uma 
+mistura adequada: o medicamento é viscoso e terá de exercer força quando premir as hastes dos 
+êmbolos. </p>
+</li>
+</ul>
+<p>Misture efetuando alternadamente, pelo menos, 100 pressões </p>
+<p>Certifique-se de que o medicamento está a passar entre as duas seringas </p>
+<p>Quando o medicamento é corretamente misturado, o aspeto é o de uma suspensão uniforme de cor 
+esbranquiçada a amarelada e com uma consistência espessa. </p>
+<p>Uma vez reconstituído, prossiga imediatamente com a preparação da seringa de injeção para 
+administração a fim de evitar a perda de homogeneidade. </p>
+<ol>
+<li>PREPARAÇÃO DA SERINGA DE INJEÇÃO </li>
+</ol>
+<p>4.1 Transfira o medicamento </p>
+<p>Prima a haste do êmbolo R para baixo e transfira todo o conteúdo para a seringa S que tem o rebordo 
+para os dedos colorido encaixado. </p>
+<p>Certifique-se de que foi transferido todo o conteúdo. </p>
+<p>4.2 Separe as seringas </p>
+<p>Assim que o medicamento tiver sido totalmente transferido, separe as duas seringas desenroscando-as. </p>
+<p>OKEDI deve ser administrado imediatamente para evitar a perda de homogeneidade. </p>
+<p>4.3 Coloque a agulha estéril com a proteção de segurança </p>
+<p>Escolha a agulha correta: </p>
+<ul>
+<li>
+<p>Deltoide: 21G, 1 polegada para o deltoide (cápsula de fecho verde). </p>
+</li>
+<li>
+<p>Glúteo: 20G, 2 polegadas para o glúteo (cápsula de fecho amarela). </p>
+</li>
+</ul>
+<p>Fixe-a efetuando um movimento de torção no sentido horário. Não aperte demasiado. </p>
+<p>4.4 Remova o ar em excesso </p>
+<p>Remova a tampa da agulha e expulse o ar em excesso (apenas as bolhas maiores) do corpo da seringa </p>
+<p>NÃO expulse nenhuma gota de medicamento. </p>
+<p>Se observar medicamento na ponta da agulha, puxe ligeiramente o êmbolo para trás para prevenir 
+derrame do medicamento. </p>
+<ol>
+<li>ADMINISTRAÇÃO E ELIMINAÇÃO </li>
+</ol>
+<p>5.1 Injete o medicamento </p>
+<p>Introduza a agulha profundamente no músculo. NÃO INJETE POR OUTRA VIA. </p>
+<p>MEDICAMENTO ESPESSO, INJETE LENTA E CONTINUAMENTE. CERTIFIQUE-SE 
+QUE O INJETA COMPLETAMENTE. </p>
+<ul>
+<li>
+<p>O período de injeção é mais longo do que o habitual devido à viscosidade do medicamento. </p>
+</li>
+<li>
+<p>Aguarde alguns segundos antes de remover a agulha. </p>
+</li>
+<li>
+<p>Evite a injeção inadvertida num vaso sanguíneo. </p>
+</li>
+</ul>
+<p>5.2 Elimine o medicamento </p>
+<p>Cubra a agulha premindo a proteção da agulha com um dedo ou uma superfície plana e elimine 
+imediatamente num recipiente seguro para eliminação de objetos cortantes. </p>
+<p>Folheto informativo: Informação para o utilizador </p>
+<p>OKEDI 100 mg pó e veículo para suspensão injetável de libertação prolongada 
+risperidona </p>
+<p>Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois contém 
+informação importante para si. </p>
+<ul>
+<li>
+<p>Conserve este folheto. Pode ter necessidade de o ler novamente. </p>
+</li>
+<li>
+<p>Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico. </p>
+</li>
+<li>
+<p>Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode 
+ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença. </p>
+</li>
+<li>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.  </p>
+</li>
+</ul>         </div>"""      
+
+
+
 
 
                     
@@ -1567,6 +2503,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-3a36f8c3c4c534a765e5e9ed08db5433"
 * entry[0].resource = composition-da-3a36f8c3c4c534a765e5e9ed08db5433
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3a36f8c3c4c534a765e5e9ed08db5433"
+* entry[=].resource = mp3a36f8c3c4c534a765e5e9ed08db5433
+                            
+                    
+Instance: bundlepackageleaflet-pt-3a36f8c3c4c534a765e5e9ed08db5433
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for okedi Package Leaflet for language pt"
+Description: "ePI document Bundle for okedi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-3a36f8c3c4c534a765e5e9ed08db5433"
+* entry[0].resource = composition-pt-3a36f8c3c4c534a765e5e9ed08db5433
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp3a36f8c3c4c534a765e5e9ed08db5433"
@@ -1668,6 +2626,18 @@ RuleSet: 3a36f8c3c4c534a765e5e9ed08db5433ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-3a36f8c3c4c534a765e5e9ed08db5433) // okedi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

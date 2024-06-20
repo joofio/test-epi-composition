@@ -974,6 +974,404 @@ http://www.ema.europa.eu.</li>
 
 
 
+Instance: composition-pt-05a69c6884eb9ed145a2b3e550aec1c7
+InstanceOf: CompositionUvEpi
+Title: "Composition for ristfor Package Leaflet"
+Description:  "Composition for ristfor Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp05a69c6884eb9ed145a2b3e550aec1c7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ristfor"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Ristfor e para que é utilizado
+2. O que precisa de saber antes de tomar Ristfor
+3. Como tomar Ristfor
+4. Efeitos indesejáveis possíveis
+5. Como conservar Ristfor
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ristfor e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ristfor e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ristfor contém dois medicamentos diferentes denominados sitagliptina e metformina.</p>
+<ul>
+<li>
+<p>a sitagliptina pertence a uma classe de medicamentos denominados inibidores da DPP-4
+(inibidores da dipeptidil peptidase-4)</p>
+</li>
+<li>
+<p>a metformina pertence a uma classe de medicamentos denominados biguanidas.
+Estes medicamentos atuam em conjunto para controlar os níveis de açúcar no sangue em doentes
+adultos com uma forma de diabetes designada por “diabetes mellitus tipo 2". Este medicamento ajuda
+a aumentar os níveis de insulina produzida após uma refeição e reduz a quantidade de açúcar que é
+produzida pelo seu organismo.
+Em associação com a dieta e o exercício, este medicamento ajuda a baixar os seus níveis de açúcar no
+sangue. Este medicamento pode ser utilizado isoladamente ou com alguns dos outros medicamentos
+para a diabetes (insulina, sulfonilureias ou glitazonas).
+O que é a diabetes tipo 2?
+A diabetes tipo 2 é uma doença em que o organismo não produz insulina suficiente e em que mesmo a
+insulina produzida pelo seu organismo não atua tão bem como deveria. O seu organismo pode também
+produzir demasiado açúcar. Quando isto acontece, verifica-se acumulação de açúcar (glucose) no
+sangue. Este facto pode dar origem a problemas médicos graves, como doenças de coração, doenças
+de rins, cegueira e amputação.</p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ristfor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ristfor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Ristfor
+- se tem alergia à sitagliptina ou metformina ou a qualquer outro componente deste medicamento
+(indicados na secção 6). 
+- se tem função renal gravemente reduzida
+41
+- se tem diabetes não controlada, com, por exemplo, hiperglicemia grave (glicose elevada no
+sangue), náuseas, vómitos, diarreia, rápida perda de peso, acidose láctica (ver “Risco de acidose
+láctica" abaixo) ou cetoacidose. A cetoacidose é um problema que ocorre quando substâncias
+chamadas “corpos cetónicos" se acumulam no sangue, podendo provocar pré-coma diabético.
+Os sintomas incluem dor de estômago, respiração rápida e profunda, sonolência ou
+aparecimento no hálito de um cheiro frutado invulgar
+- se tem uma infeção grave ou sofre de desidratação
+- se tiver de realizar um raio-X que necessite da injeção de um meio de contraste. Terá de parar o
+tratamento com Ristfor no momento em que realizar o raio-X e só retomar o tratamento 2 ou
+mais dias depois conforme indicado pelo seu médico, dependendo de como os seus rins estão a
+funcionar
+- se teve recentemente um enfarte do miocárdio ou tem problemas circulatórios graves, como
+“choque" ou dificuldades respiratórias 
+- se tem problemas de fígado 
+- se consome álcool em excesso (quer diariamente quer ocasionalmente)
+- se está a amamentar 
+Não tome Ristfor se qualquer uma das situações atrás indicadas se aplica a si e fale com o seu médico
+sobre outras formas de gerir a sua diabetes. Em caso de dúvidas, fale com o seu médico, farmacêutico
+ou enfermeiro antes de tomar Ristfor.
+Advertências e precauções 
+Foram comunicados casos de inflamação do pâncreas (pancreatite) em doentes a tomar Ristfor (ver
+secção 4). 
+Se tiver formação de bolhas na pele, pode ser um sinal de uma situação chamada penfigoide bolhoso.
+O seu médico pode pedir-lhe para parar de tomar Ristfor.
+Risco de acidose láctica
+Ristfor pode causar um efeito indesejável muito raro, mas muito grave, chamado acidose láctica,
+particularmente se os seus rins não funcionam bem. O risco de sofrer acidose láctica aumenta também
+em caso de diabetes não controlada, infeção grave, jejum prolongado ou consumo de álcool,
+desidratação (ver mais informações abaixo), problemas de fígado, e quaisquer problemas médicos em
+que uma zona do corpo receba menos oxigénio (como nas doenças graves e agudas do coração). 
+Se estiver em alguma destas situações, fale com o seu médico para que lhe dê mais indicações.
+Pare de tomar Ristfor durante um curto intervalo de tempo se tiver algum problema que possa
+estar associado a desidratação (grande perda de líquidos), tal como vómitos graves, diarreia, febre,
+exposição ao calor ou se beber menos líquidos do que o normal. Fale com o seu médico para que lhe
+dê mais indicações. 
+Pare de tomar Ristfor e contacte imediatamente um médico ou o hospital mais próximo se tiver
+um ou mais sintomas de acidose láctica, pois este problema pode levar ao coma. 
+Os sintomas de acidose láctica incluem:
+- vómitos
+- dor de barriga (dor abdominal)
+- cãibras musculares
+- sensação de mal-estar geral, com grande cansaço
+- dificuldade em respirar
+- diminuição da temperatura do corpo e dos batimentos cardíacos
+A acidose láctica é uma emergência médica e tem de ser tratada no hospital.
+Fale com o seu médico ou farmacêutico antes de tomar Ristfor: 
+- se tem ou teve uma doença do pâncreas (tal como pancreatite)
+42
+- se tem ou teve cálculos biliares, dependência do álcool ou valores muito altos de triglicéridos
+um tipo de gordura) no seu sangue. Estas situações médicas podem aumentar a sua
+probabilidade de ter pancreatite (ver secção 4)
+- se tem diabetes tipo 1, por vezes designada diabetes insulinodependente
+- se tem ou teve uma reação alérgica à sitagliptina, metformina ou Ristfor (ver secção 4)
+- se está a tomar uma sulfonilureia ou insulina, medicamentos para a diabetes, juntamente com o
+Ristfor, visto que poderá apresentar níveis baixos de açúcar no sangue (hipoglicemia). O seu
+médico poderá reduzir a dose da sua sulfonilureia ou da insulina
+Se necessitar de efetuar uma grande cirurgia, tem de parar de tomar Ristfor durante a intervenção e por
+algum tempo depois desta. O seu médico decidirá quando tem de parar e quando prosseguir o seu
+tratamento com Ristfor.
+Caso tenha dúvidas se alguma destas situações se aplica a si, fale com o seu médico ou farmacêutico
+antes de tomar Ristfor. 
+Durante o tratamento com Ristfor, o médico irá verificar o funcionamento dos seus rins uma vez por
+ano, ou com mais frequência se for idoso e/ou se os seus rins estiverem a funcionar pior.
+Crianças e adolescentes
+Crianças e adolescentes com idade inferior a 18 anos não devem utilizar este medicamento. Não é
+eficaz em crianças e adolescentes com idades entre os 10 e os 17 anos. Não se sabe se este
+medicamento é seguro e eficaz quando utilizado em crianças com menos de 10 anos.
+Outros medicamentos e Ristfor
+Se necessitar de levar uma injeção na corrente sanguínea de um meio de contraste que contenha iodo,
+por exemplo, no contexto de uma radiografia ou cintigrafia, tem de parar de tomar Ristfor antes ou no
+momento da injeção. O seu médico decidirá quando tem de parar e quando prosseguir o seu tratamento
+com Ristfor.
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a
+tomar outros medicamentos. Pode necessitar de análises mais frequentes da glicemia e da função renal,
+ou o médico pode necessitar de ajustar a dose de Ristfor. É especialmente importante mencionar o
+seguinte: </p>
+<ul>
+<li>
+<p>medicamentos (tomados por via oral, inalação ou injeção) utilizados no tratamento de doenças
+que envolvam inflamação, como asma e artrose (corticosteroides)</p>
+</li>
+<li>
+<p>medicamentos que aumentam a produção de urina (diuréticos)</p>
+</li>
+<li>
+<p>medicamentos utilizados para tratar a dor e a inflamação (AINE e inibidores da COX-2, tais
+como o ibuprofeno e celecoxib)</p>
+</li>
+<li>
+<p>determinados medicamentos para o tratamento da tensão arterial elevada (inibidores da ECA e
+antagonistas do recetor da angiotensina II)</p>
+</li>
+<li>
+<p>medicamentos específicos para o tratamento da asma brônquica (simpaticomiméticos-β)</p>
+</li>
+<li>
+<p>meios de contraste iodados ou medicamentos contendo álcool</p>
+</li>
+<li>
+<p>alguns medicamentos utilizados para tratar problemas do estômago tal como a cimetidina</p>
+</li>
+<li>
+<p>ranolazina, um medicamento utilizado para tratar a angina</p>
+</li>
+<li>
+<p>dolutegravir, um medicamento utilizado para tratar a infeção por VIH </p>
+</li>
+<li>
+<p>vandetanib, um medicamento utilizado para tratar um tipo específico de cancro da tiroide
+(carcinoma medular da tiroide)</p>
+</li>
+<li>
+<p>digoxina (para tratar o batimento irregular do coração e outros problemas de coração). Os
+valores de digoxina no sangue podem ter de ser verificados se estiver a tomar Ristfor.
+Ristfor com álcool
+Evite o consumo excessivo de álcool enquanto estiver a tomar Ristfor, uma vez que tal pode aumentar
+o risco de acidose láctica (ver a secção “Advertências e precauções"). 
+43
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico
+ou farmacêutico antes de tomar este medicamento. Não deve tomar este medicamento durante a
+gravidez. Não tome este medicamento se estiver a amamentar. Ver secção 2, Não tome Ristfor.
+Condução de veículos e utilização de máquinas
+Os efeitos deste medicamento sobre a capacidade de conduzir e utilizar máquinas são nulos ou
+desprezáveis. No entanto, foram comunicadas tonturas e sonolência com sitagliptina, que podem afetar
+a sua capacidade para conduzir e utilizar máquinas.
+A administração deste medicamento em associação com medicamentos denominados sulfonilureias ou
+com insulina pode provocar hipoglicemia, podendo afetar a sua capacidade de conduzir e utilizar
+máquinas ou trabalhar sem uma base de apoio seguro.
+Ristfor contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja é
+praticamente “isento de sódio".  </p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ristfor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ristfor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou
+farmacêutico se tiver dúvidas.</p>
+<ul>
+<li>
+<p>Tome um comprimido:</p>
+</li>
+<li>
+<p>duas vezes por dia por via oral</p>
+</li>
+<li>
+<p>às refeições para reduzir a probabilidade de sentir desconforto no estômago.</p>
+</li>
+<li>
+<p>O seu médico poderá necessitar de aumentar a sua dose para controlar os seus níveis de açúcar
+no sangue.</p>
+</li>
+<li>
+<p>Se tiver uma função renal diminuída, o seu médico pode receitar-lhe uma dose menor.
+Deverá prosseguir a dieta recomendada pelo seu médico durante o tratamento com este medicamento e
+procurar que a sua ingestão de hidratos de carbono seja uniformemente distribuída ao longo do dia. 
+É improvável que este medicamento isoladamente provoque níveis excessivamente baixos de açúcar
+no sangue (hipoglicemia). Quando este medicamento é utilizado com uma sulfonilureia ou com
+insulina, podem registar-se níveis baixos de açúcar no sangue e o seu médico pode reduzir a dose da
+sulfonilureia ou da insulina. 
+Se tomar mais Ristfor do que deveria
+Se tomar este medicamento mais que o receitado, contacte o seu médico imediatamente. Dirija-se ao
+hospital se apresentar sintomas de acidose láctica tais como sensação de frio ou desconforto, sintomas
+de vómito e náusea graves, dor de estômago, perda de peso inexplicável, cãibras musculares ou
+respiração rápida (ver secção “Advertências e precauções").
+Caso se tenha esquecido de tomar Ristfor
+Se se esquecer de uma dose, tome-a assim que se lembrar. Se não se lembrar até ao momento de tomar
+a próxima dose, esqueça a dose que não tomou e retome o seu esquema habitual. Não tome uma dose a
+dobrar deste medicamento.
+Se parar de tomar Ristfor
+Continue a tomar este medicamento durante o tempo indicado pelo seu médico, para que possa
+continuar a ajudar a controlar o seu açúcar no sangue. Não deve parar de tomar este medicamento sem
+falar primeiro com o seu médico. Se parar de tomar Ristfor, o seu açúcar do sangue pode voltar a
+subir.
+44
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou
+farmacêutico.</p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não
+se manifestem em todas as pessoas.
+PARE de tomar Ristfor e contacte um médico imediatamente se sentir algum dos seguintes efeitos
+indesejáveis graves:</p>
+<ul>
+<li>Dor grave e persistente no abdómen (área do estômago) que pode atingir as suas costas com ou
+sem náuseas e vómitos, uma vez que estes podem ser sinais de pâncreas inflamado (pancreatite).
+Ristfor pode causar um efeito indesejável muito raro (pode afetar até 1 utilizador em cada 10 000),
+mas muito grave, chamado acidose láctica (ver secção “Advertências e precauções"). Se isto
+acontecer, tem de parar de tomar Ristfor e contactar imediatamente um médico ou o hospital
+mais próximo, pois a acidose láctica pode provocar coma.
+Se tiver uma reação alérgica grave (frequência desconhecida), incluindo erupção na pele, urticária,
+bolhas na pele/descamação da pele e inchaço da face, lábios, língua e garganta, podendo causar
+dificuldade em respirar ou engolir, pare de tomar este medicamento e contate o seu médico
+imediatamente. O seu médico pode receitar-lhe um medicamento para tratar a reação alérgica e um
+medicamento diferente para a diabetes.
+Alguns doentes tratados com metformina apresentaram os seguintes efeitos indesejáveis após iniciar o
+tratamento com sitagliptina:
+Frequentes (podem afetar até 1 em 10 pessoas): açúcar baixo no sangue, náuseas, gases intestinais,
+vómitos
+Pouco frequentes (podem afetar até 1 em 100 pessoas): dor de estômago, diarreia, prisão de ventre,
+sonolência
+Alguns doentes referiram diarreia, náuseas, flatulência, prisão de ventre, dor de estômago ou vómitos
+quando iniciaram a associação de sitagliptina e metformina (frequência comum).
+Alguns doentes apresentaram os seguintes efeitos indesejáveis enquanto tomavam este medicamento
+com uma sulfonilureia tal como a glimepirida:
+Muito frequentes (podem afetar mais do que 1 em 10 pessoas): níveis baixos de açúcar no sangue
+Frequentes: prisão de ventre
+Alguns doentes apresentaram os seguintes efeitos indesejáveis enquanto tomavam este medicamento
+com pioglitazona:
+Frequentes: inchaço das mãos ou das pernas
+Alguns doentes apresentaram os seguintes efeitos indesejáveis enquanto tomavam este medicamento
+com insulina:
+Muito frequentes: açúcar baixo no sangue
+Pouco frequentes: boca seca, dor de cabeça
+Alguns doentes apresentaram os seguintes efeitos indesejáveis em estudos clínicos enquanto tomavam
+sitagliptina isoladamente (uma das substâncias ativas de Ristfor) ou durante a utilização pós-aprovação
+de Ristfor ou sitagliptina isoladamente ou com outros medicamentos para a diabetes:
+Frequentes: níveis baixos de açúcar no sangue, dor de cabeça, infeção das vias respiratórias superiores,
+irritação ou corrimento nasal e garganta irritada, osteoartrite, dor nos braços ou pernas
+Pouco frequentes: tonturas, prisão de ventre, comichão
+Rara: número reduzido de plaquetas 
+45
+Frequência desconhecida: problemas renais (por vezes a necessitar de diálise), vómitos, dor nas
+articulações, dor muscular, dor nas costas, doença intersticial dos pulmões, penfigoide bolhoso (um
+tipo de bolhas na pele)
+Alguns doentes apresentaram os seguintes efeitos indesejáveis durante o tratamento com metformina
+isoladamente:
+Muito frequentes: náuseas, vómitos, diarreia, dor de estômago e perda de apetite. Estes sintomas
+podem aparecer com o início da toma de metformina e depois frequentemente desaparecem
+Frequente: sabor metálico, níveis diminuídos ou baixos de vitamina B12 no sangue (os sintomas
+podem incluir cansaço extremo (fadiga), língua ferida e vermelha (glossite), formigueiro (parestesia)
+ou pele pálida ou amarela). O seu médico pode solicitar alguns exames para descobrir a causa dos
+sintomas porque alguns deles podem também ser causados pela diabetes ou por outros problemas de
+saúde não relacionados.
+Muito raros: hepatite (um problema de fígado), urticária, vermelhidão na pele (erupção cutânea) ou
+comichão 
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
+medicamento.</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ristfor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ristfor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior,
+após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+Não conservar acima de 25 ºC.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ristfor 
+- As substâncias ativas são a sitagliptina e a metformina.
+o 
+Cada comprimido revestido por película (comprimido) de Ristfor 50 mg/850 mg contém
+fosfato de sitagliptina mono-hidratado equivalente a 50 mg de sitagliptina e 850 mg de
+cloridrato de metformina.
+o 
+Cada comprimido revestido por película (comprimido) de Ristfor 50 mg/1000 mg contém
+fosfato de sitagliptina mono-hidratado equivalente a 50 mg de sitagliptina e 1000 mg de
+cloridrato de metformina.
+- Os outros componentes são:
+o 
+Núcleo do comprimido: celulose microcristalina (E460), povidona K 29/32 (E1201),
+laurilsulfato de sódio e fumarato sódico de estearilo.
+o 
+Revestimento: álcool polivinílico, macrogol 3350, talco (E553b), dióxido de titânio (E171),
+óxido de ferro vermelho (E172) e óxido de ferro negro (E172).
+4</p>         </div>"""      
+
+
+
 
 
                     
@@ -1015,6 +1413,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-05a69c6884eb9ed145a2b3e550aec1c7"
 * entry[0].resource = composition-da-05a69c6884eb9ed145a2b3e550aec1c7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp05a69c6884eb9ed145a2b3e550aec1c7"
+* entry[=].resource = mp05a69c6884eb9ed145a2b3e550aec1c7
+                            
+                    
+Instance: bundlepackageleaflet-pt-05a69c6884eb9ed145a2b3e550aec1c7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ristfor Package Leaflet for language pt"
+Description: "ePI document Bundle for ristfor Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-05a69c6884eb9ed145a2b3e550aec1c7"
+* entry[0].resource = composition-pt-05a69c6884eb9ed145a2b3e550aec1c7
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp05a69c6884eb9ed145a2b3e550aec1c7"
@@ -1116,6 +1536,18 @@ RuleSet: 05a69c6884eb9ed145a2b3e550aec1c7ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-05a69c6884eb9ed145a2b3e550aec1c7) // ristfor pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

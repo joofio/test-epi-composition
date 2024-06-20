@@ -911,6 +911,383 @@ nødvendigt. </p>
 
 
 
+Instance: composition-pt-46af9fe042942e0b323406b7f9580690
+InstanceOf: CompositionUvEpi
+Title: "Composition for zilbrysq Package Leaflet"
+Description:  "Composition for zilbrysq Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp46af9fe042942e0b323406b7f9580690)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - zilbrysq"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Zilbrysq e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Zilbrysq </li>
+<li>Como utilizar Zilbrysq </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Zilbrysq </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é zilbrysq e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é zilbrysq e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zilbrysq contém a substância ativa zilucoplan. Zilucoplan liga-se e bloqueia uma proteína no 
+organismo conhecida como proteína C5 do complemento, que faz parte do sistema imunitário (as 
+defesas naturais do organismo). Ao bloquear esta proteína, o zilucoplan impede o sistema imunitário 
+do organismo de atacar e destruir as ligações entre os nervos e os músculos, melhorando assim os 
+sintomas da doença. </p>
+<p>Zilbrysq é utilizado em conjunto com terapêutica padrão para tratar doentes adultos com miastenia 
+gravis generalizada (MGg), uma doença autoimune que causa fraqueza muscular. É utilizado em 
+adultos cujo sistema imunitário produz anticorpos contra uma proteína denominada recetor da 
+acetilcolina, localizada nas células musculares. Em doentes com MGg, os músculos podem ser 
+atacados e danificados pelo sistema imunitário, o que pode levar a fraqueza muscular profunda, 
+mobilidade comprometida, falta de ar, cansaço extremo, dificuldades em engolir e diminuição 
+acentuada das atividades da vida quotidiana.  </p>
+<p>Zilbrysq pode reduzir os sintomas da doença e melhorar a qualidade de vida. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar zilbrysq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar zilbrysq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Zilbrysq 
+- se tem alergia ao zilucoplan ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se não foi vacinado contra a infeção meningocócica. Consulte a secção de Advertências e 
+precauções. 
+- se tiver uma infeção meningocócica. </p>
+<p>Advertências e precauções  </p>
+<p>Advertência relativa a infeção meningocócica e outras infeções por Neisseria<br />
+Como Zilbrysq inibe as defesas naturais do organismo contra infeções, a sua utilização pode aumentar 
+o risco de infeções causadas por Neisseria meningitidis, como a infeção meningocócica (infeção grave 
+dos revestimentos do cérebro e da medula espinal e/ou uma infeção do sangue) e também de outras 
+infeções causadas pela bactéria Neisseria, como gonorreia. </p>
+<p>Consulte o seu médico antes de utilizar Zilbrysq para ter a certeza de que recebe a vacina contra 
+Neisseria meningitidis, um organismo que causa infeção meningocócica, pelo menos 2 semanas antes 
+de iniciar a terapêutica. Se não puder ser vacinado 2 semanas antes, o seu médico prescrever-lhe-á 
+antibióticos para reduzir o risco de infeção até 2 semanas após ter recebido a sua primeira dose de 
+vacina. Certifique-se de que as suas vacinas meningocócicas estão atualizadas. Deve ter em atenção 
+que a vacinação pode nem sempre prevenir este tipo de infeção. </p>
+<p>Se está em risco de ter gonorreia (infeção bacteriana sexualmente transmissível), consulte o seu 
+médico antes de utilizar este medicamento. </p>
+<p>Sintomas de infeção meningocócica 
+Devido à importância de identificar e tratar rapidamente infeções meningocócicas em doentes que 
+recebem Zilbrysq, ser-lhe-á fornecido um cartão para ter sempre consigo, indicando sinais e sintomas 
+específicos de uma possível infeção meningocócica. Contém também informações para os 
+profissionais de saúde que possam não estar familiarizados com o Zilbrysq. Este cartão tem o nome 
+“cartão de alerta do doente". Receberá também um guia para o doente/cuidador que contém mais 
+informações sobre o Zilbrysq. </p>
+<p>Se sentir algum dos seguintes sintomas, deve informar imediatamente o seu médico: 
+- Dor de cabeça com sintomas adicionais, como náuseas (sensação de enjoo), vómitos, febre e 
+rigidez no pescoço ou nas costas 
+- Febre com ou sem erupção da pele 
+- Olhos sensíveis à luz 
+- Confusão/sonolência 
+- Dor muscular com sintomas semelhantes aos da gripe </p>
+<p>Tratamento da infeção meningocócica durante as viagens 
+Se for viajar para uma região onde não consiga contactar o seu médico ou não possa receber 
+tratamento médico temporariamente, o seu médico poderá prescrever um antibiótico contra Neisseria 
+meningitidis para levar consigo. Se sentir algum dos sintomas descritos acima, deve tomar o 
+tratamento antibiótico conforme prescrito. Deve ter em mente que deve consultar um médico assim 
+que possível, mesmo que se sinta melhor depois de ter tomado o tratamento antibiótico. </p>
+<p>Crianças e adolescentes 
+Não dê este medicamento a crianças com menos de 18 anos de idade. Zilbrysq não foi estudado neste 
+grupo etário. </p>
+<p>Outros medicamentos e Zilbrysq 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de utilizar este medicamento. </p>
+<p>Existe incerteza sobre os efeitos que o Zilbrysq pode ter no seu feto, por isso não utilize este 
+medicamento se estiver grávida ou pensar que pode estar grávida, a menos que o seu médico o 
+recomende especificamente. </p>
+<p>Desconhece-se se Zilbrysq passa para o leite humano. Pode haver risco para os recém-
+nascidos/lactentes.  </p>
+<p>Deve ser tomada uma decisão sobre a interrupção da amamentação ou a interrupção da terapêutica 
+com Zilbrysq, tendo em conta o benefício da amamentação para a criança e o benefício da terapêutica 
+para a mulher. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não é provável que Zilbrysq afete a sua capacidade de conduzir ou utilizar máquinas. </p>
+<p>Zilbrysq contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por seringa pré-cheia ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar zilbrysq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar zilbrysq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pelo menos 2 semanas antes de iniciar o tratamento com Zilbrysq, o seu médico irá administrar-lhe 
+uma vacina contra a infeção meningocócica se não a tiver recebido anteriormente ou se a sua 
+vacinação estiver desatualizada. Se não puder ser vacinado pelo menos 2 semanas antes de iniciar o 
+tratamento com Zilbrysq, o seu médico irá prescrever antibióticos para reduzir o risco de infeção até 2 
+semanas depois de ter recebido a sua primeira dose da vacina.  </p>
+<p>Antes de iniciar o tratamento, deverá falar com o seu médico para saber se necessita de outras vacinas. </p>
+<p>Após formação adequada, o seu médico irá permitir-lhe injetar Zilbrysq por si próprio. Utilize sempre 
+este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>A dose que recebe depende do seu peso corporal. Administre sempre a sua dose diária 
+aproximadamente à mesma hora do dia. </p>
+<p>A tabela seguinte indica a dose diária total de Zilbrysq de acordo com o seu peso corporal: </p>
+<p>Peso corporal<br />
+Dose 
+Número de seringas pré-
+cheias por cor 
+&lt; 56 kg 
+16,6 mg 
+1 (Vermelho rubi) 
+≥ 56 a &lt; 77 kg 
+23 mg 
+1 (Laranja) 
+≥ 77 kg 
+32,4 mg 
+1 (Azul-escuro) </p>
+<p>Como é administrado Zilbrysq 
+Você e o seu médico ou enfermeiro decidirão se pode administrar a injeção deste medicamento a si 
+próprio. Não se autoinjete com este medicamento, a menos que tenha recebido formação ministrada 
+por um profissional de saúde. Outra pessoa também lhe pode administrar as injeções depois de ter 
+recebido formação. </p>
+<p>O Zilbrysq será administrado sob a forma de uma injeção subcutânea (uma injeção sob a pele) uma 
+vez por dia. Pode ser injetado na zona do estômago, na parte da frente das coxas ou na parte de trás da 
+parte superior dos braços. As injeções na parte de trás da parte superior dos braços só devem ser 
+administradas por outra pessoa. Os locais das injeções devem ser alternados e as injeções não devem 
+ser administradas em áreas onde a pele esteja sensível, com nódoas negras, vermelha ou dura ou em 
+que a pele tenha cicatrizes ou estrias. </p>
+<p>É importante que leia as instruções de utilização no final do folheto informativo para obter 
+informações detalhadas sobre como utilizar Zilbrysq. </p>
+<p>Se utilizar mais Zilbrysq do que deveria 
+Se suspeitar que acidentalmente recebeu uma dose mais elevada de Zilbrysq do que a prescrita, 
+contacte o seu médico para obter aconselhamento. </p>
+<p>Caso se tenha esquecido de utilizar Zilbrysq 
+Se não tiver injetado a dose à hora habitual ou se se tiver esquecido de uma dose, administre a injeção 
+assim que se aperceber e depois continue com a dose à hora normal no dia seguinte. Não administre 
+mais de uma dose por dia. </p>
+<p>Se parar de utilizar Zilbrysq 
+Interromper ou parar o tratamento com Zilbrysq pode provocar o reaparecimento dos seus sintomas. 
+Fale com o seu médico antes de parar de utilizar Zilbrysq. O seu médico irá discutir consigo os efeitos 
+indesejáveis possíveis e os riscos. O seu médico poderá também querer monitorizá-lo de perto. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- Reações no local da injeção, tais como nódoas negras, dor, comichão e formação de um nódulo 
+- Infeções do nariz e garganta </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- Diarreia 
+- Aumento das enzimas do pâncreas (amílase, lípase) observado nas análises ao sangue 
+- Morfeia (doença que causa áreas localizadas de descoloração e endurecimento da pele) </p>
+<p>Pouco frequentes (pode afetar até 1 em 100 pessoas) 
+- Aumento dos eosinófilos (um tipo de glóbulo branco), observado nas análises ao sangue </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar zilbrysq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar zilbrysq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo da seringa (VAL) e na 
+embalagem exterior após (EXP). O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C). 
+Não congelar. 
+Manter a seringa pré-cheia dentro da embalagem exterior para proteger da luz. </p>
+<p>Pode conservar a seringa pré-cheia de Zilbrysq à temperatura ambiente na embalagem original até °C por apenas um período único de até 3 meses. Quando Zilbrysq for retirado do frigorífico, não deve 
+ser colocado novamente no frigorífico. O produto tem de ser eliminado se não for utilizado no prazo 
+de 3 meses, ou quando a data de validade for atingida, o que ocorrer primeiro. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Zilbrysq<br />
+- A substância ativa é: zilucoplan. 
+- Os outros componentes são: dihidrogenofosfato de sódio monohidratado, fosfato dissódico 
+(anidro), cloreto de sódio, água para preparações injetáveis (consulte a secção 2, Zilbrysq contém 
+sódio). </p>
+<p>Qual o aspeto de Zilbrysq e conteúdo da embalagem 
+Zilbrysq é uma solução injetável em seringa pré-cheia (injeção) e é uma solução límpida a 
+ligeiramente opalescente e incolor, sem partículas visíveis. </p>
+<p>Zilbrysq 16,6 mg solução injetável em seringa pré-cheia 
+Cada seringa pré-cheia com êmbolo vermelho rubi contém zilucoplan sódico equivalente a 16,6 mg de 
+zilucoplan em 0,416 ml. </p>
+<p>Zilbrysq 23 mg solução injetável em seringa pré-cheia 
+Cada seringa pré-cheia com êmbolo laranja contém zilucoplan sódico equivalente a 23 mg de 
+zilucoplan em 0,574 ml. </p>
+<p>Zilbrysq 32,4 mg solução injetável em seringa pré-cheia 
+Cada seringa pré-cheia com êmbolo azul-escuro contém zilucoplan sódico equivalente a 32,4 mg de 
+zilucoplan em 0,810 ml. </p>
+<p>Tamanho da embalagem de 7 seringas pré-cheias para solução injetável de 16,6 mg, 23 mg e 32,4 mg. 
+Embalagem múltipla contendo 28 (4 embalagens de 7) seringas pré-cheias. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+UCB Pharma S.A., Allée de la Recherche 60, B-1070 Bruxelles, Bélgica. </p>
+<p>Fabricante 
+UCB Pharma S.A., Chemin du Foriest, B-1420 Braine-l’Alleud, Bélgica. </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+UCB Pharma S.A./NV<br />
+Tél/Tel: + 32 / (0)2 559 92 Lietuva 
+UAB Medfiles 
+Tel: + 370 5 246 16<br />
+България 
+Ю СИ БИ България ЕООД<br />
+Teл.: + 359 (0) 2 962 30<br />
+Luxembourg/Luxemburg 
+UCB Pharma SA/NV<br />
+Tél/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+UCB s.r.o.<br />
+Tel: + 420 221 773 Magyarország 
+UCB Magyarország Kft.<br />
+Tel.: + 36-(1) 391 0Danmark 
+UCB Nordic A/S<br />
+Tlf.: + 45 / 32 46 24<br />
+Malta 
+Pharmasud Ltd.<br />
+Tel: + 356 / 21 37 64<br />
+Deutschland 
+UCB Pharma GmbH<br />
+Tel: + 49 /(0) 2173 48 4 
+Nederland 
+UCB Pharma B.V.<br />
+Tel.: + 31 / (0)76-573 11<br />
+Eesti 
+OÜ Medfiles 
+Tel: + 372 730 5 
+Norge 
+UCB Nordic A/S<br />
+Tlf: + 47 / 67 16 5 
+Ελλάδα 
+UCB Α.Ε.<br />
+Τηλ: + 30 / 2109974 
+Österreich 
+UCB Pharma GmbH<br />
+Tel: + 43-(0)1 291 80<br />
+España 
+UCB Pharma, S.A.<br />
+Tel: + 34 / 91 570 34<br />
+Polska 
+UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o. 
+Tel: + 48 22 696 99<br />
+France 
+UCB Pharma S.A.<br />
+Tél: + 33 / (0)1 47 29 44<br />
+Portugal 
+UCB Pharma (Produtos Farmacêuticos), Lda<br />
+Tel: + 351 21 302 5 
+Hrvatska 
+Medis Adria d.o.o.<br />
+Tel: +385 (0) 1 230 34<br />
+Ireland 
+UCB (Pharma) Ireland Ltd.<br />
+Tel: + 353 / (0)1-46 37<br />
+România 
+UCB Pharma Romania S.R.L.<br />
+Tel: + 40 21 300 29<br />
+Slovenija 
+Medis, d.o.o.<br />
+Tel: + 386 1 589 69<br />
+Ísland 
+Vistor hf.<br />
+Simi: + 354 535 7 
+Slovenská republika 
+UCB s.r.o., organizačná zložka<br />
+Tel: + 421 (0) 2 5920 2 
+Italia 
+UCB Pharma S.p.A.<br />
+Tel: + 39 / 02 300<br />
+Suomi/Finland 
+UCB Pharma Oy Finland<br />
+Puh/Tel: + 358 9 2514 4 
+Κύπρος 
+Lifepharma (Z.A.M.) Ltd<br />
+Τηλ: + 357 22 056 
+Sverige 
+UCB Nordic A/S<br />
+Tel: + 46 / (0) 40 294<br />
+Latvija 
+Medfiles SIA 
+Tel: + 371 67 370<br />
+United Kingdom (Northern Ireland) 
+UCB (Pharma) Ireland Ltd.<br />
+Tel : + 353 / (0)1-46 37  </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -952,6 +1329,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-46af9fe042942e0b323406b7f9580690"
 * entry[0].resource = composition-da-46af9fe042942e0b323406b7f9580690
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp46af9fe042942e0b323406b7f9580690"
+* entry[=].resource = mp46af9fe042942e0b323406b7f9580690
+                            
+                    
+Instance: bundlepackageleaflet-pt-46af9fe042942e0b323406b7f9580690
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zilbrysq Package Leaflet for language pt"
+Description: "ePI document Bundle for zilbrysq Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-46af9fe042942e0b323406b7f9580690"
+* entry[0].resource = composition-pt-46af9fe042942e0b323406b7f9580690
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp46af9fe042942e0b323406b7f9580690"
@@ -1053,6 +1452,18 @@ RuleSet: 46af9fe042942e0b323406b7f9580690ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-46af9fe042942e0b323406b7f9580690) // zilbrysq pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

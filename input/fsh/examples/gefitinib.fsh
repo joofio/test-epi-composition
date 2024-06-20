@@ -807,6 +807,474 @@ hjemmeside. </p>         </div>"""
 
 
 
+Instance: composition-pt-553de2aa690a5750d1825c26ecd3f9ed
+InstanceOf: CompositionUvEpi
+Title: "Composition for gefitinib Package Leaflet"
+Description:  "Composition for gefitinib Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp553de2aa690a5750d1825c26ecd3f9ed)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - gefitinib"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Gefitinib Mylan e para que é utilizado 
+2. O que precisa de saber antes de tomar Gefitinib Mylan 
+3. Como tomar Gefitinib Mylan 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Gefitinib Mylan 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é gefitinib e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é gefitinib e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Gefitinib Mylan contém a substância ativa gefitinib que bloqueia a proteína chamada «recetor do fator 
+do crescimento epidérmico» (EGFR). Esta proteína está envolvida no crescimento e disseminação das 
+células cancerosas. </p>
+<p>Gefitinib Mylan é usado para tratar adultos com cancro das células não pequenas do pulmão. Este 
+cancro é uma doença na qual se formam células malignas (cancerosas) nos tecidos do pulmão. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar gefitinib"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar gefitinib"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Gefitinib Mylan:</h2>
+<p>se tem alergia ao gefitinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- 
+se está a amamentar. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Gefitinib Mylan 
+- 
+se já alguma vez teve outros problemas nos pulmões. Alguns destes problemas podem agravar-
+se durante o tratamento com Gefitinib Mylan. 
+- 
+se já teve problemas com o seu fígado 
+- 
+se já teve problemas de estômago (perfuração gastrointestinal). </p>
+<p>Fale com o seu médico imediatamente se sentir desidratação ou problemas nos olhos durante o 
+tratamento (ver secção 4). </p>
+<p>Crianças e adolescentes 
+Gefitinib Mylan é contraindicado em crianças e adolescentes com idade inferior a 18 anos. </p>
+<p>Outros medicamentos e Gefitinib Mylan 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos uma vez que podem afetar o modo de ação de gefitinib. </p>
+<p>Em particular, informe o seu médico ou farmacêutico se estiver a tomar algum dos seguintes 
+medicamentos: 
+- 
+Fenitoína ou carbamazepina (para a epilepsia). 
+- 
+Rifampicina (para a tuberculose). 
+- 
+Itraconazol (para infeções fúngicas). 
+- 
+Barbitúricos (um tipo de medicamento usado para problemas do sono). 
+- 
+Medicamentos à base de plantas contendo hipericão (Hypericum perforatum, usados para a 
+depressão e ansiedade). 
+- 
+Inibidores da bomba de protões, antagonistas H2 e antiácidos (para úlceras, indigestão, azia e 
+para reduzir a acidez no estômago). 
+- 
+Varfarina (um conhecido anticoagulante oral, para evitar coágulos sanguíneos). Se estiver a 
+tomar um medicamento contendo esta substância ativa, o seu médico pode querer fazer análises 
+ao sangue mais frequentemente. 
+Se alguma das situações acima descritas se aplica a si, ou caso tenha dúvidas, fale com o seu médico 
+ou farmacêutico antes de tomar Gefitinib Mylan. </p>
+<p>Gravidez e amamentação 
+Informe o seu médico se está grávida, planeia engravidar, ou se está a amamentar. </p>
+<p>Recomenda-se que evite engravidar durante o tratamento com este medicamento uma vez que 
+Gefitinib Mylan pode prejudicar o seu bebé. </p>
+<p>Não tome Gefitinib Mylan se estiver a amamentar. Isto é para a segurança do seu bebé. </p>
+<p>Condução de veículos e utilização de máquinas 
+Pode sentir-se fraco enquanto estiver a fazer tratamento com este medicamento. Se isso acontecer, não 
+conduza ou utilize quaisquer ferramentas ou máquinas. </p>
+<p>Gefitinib Mylan contém lactose 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>
+<p>Gefitinib Mylan contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente «isento de sódio». </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar gefitinib"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar gefitinib"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<ul>
+<li>
+<p>A dose recomendada é de um comprimido de 250 mg por dia. </p>
+</li>
+<li>
+<p>Tome o comprimido aproximadamente à mesma hora cada dia. </p>
+</li>
+<li>
+<p>O comprimido deve ser engolido com água, com ou sem alimentos. </p>
+</li>
+<li>
+<p>Não tome antiácidos (para reduzir os níveis de ácido no seu estômago) 2 horas antes ou 1 hora 
+após tomar Gefitinib Mylan. </p>
+</li>
+</ul>
+<p>Se tiver dificuldade em engolir o comprimido, dissolva-o em meio copo de água (sem gás). Não 
+devem ser utilizados outros líquidos. Não esmague o comprimido. Agite até que o comprimido se 
+dissolva. Pode demorar até 20 minutos. Beba o líquido imediatamente. 
+Para garantir que bebeu todo o medicamento, volte a encher o copo com água até meio e beba 
+novamente. </p>
+<p>Se tomar mais Gefitinib Mylan do que deveria 
+Se tomou mais comprimidos do que deveria, fale imediatamente com um médico ou farmacêutico. </p>
+<p>Caso se tenha esquecido de tomar Gefitinib Mylan 
+O que fazer se se esqueceu de tomar uma dose depende de quanto tempo falta para a próxima dose. </p>
+<ul>
+<li>
+<p>Se faltarem 12 horas ou mais para a próxima dose: tome o comprimido que se esqueceu logo 
+que se lembre. Depois, tome a dose seguinte como habitual. </p>
+</li>
+<li>
+<p>Se faltarem menos de 12 horas para a próxima dose: não tome o comprimido que se esqueceu. 
+Tome o comprimido seguinte à hora habitual. 
+Não tome uma dose a dobrar (dois comprimidos ao mesmo tempo) para compensar uma dose que se 
+esqueceu de tomar. </p>
+</li>
+</ul>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Fale imediatamente com o seu médico se detetar algum dos seguintes efeitos indesejáveis pode 
+necessitar de tratamento médico urgente: </p>
+<ul>
+<li>
+<p>Reação alérgica (frequente), particularmente se os sintomas incluem inchaço da face, lábios, 
+língua ou garganta, dificuldade em engolir, urticária (erupção na pele com comichão), erupção 
+urticariana e dificuldades em respirar. </p>
+</li>
+<li>
+<p>Falta de ar grave, ou súbito agravamento da falta de ar, possivelmente com tosse ou febre. Isto 
+pode significar que tem uma inflamação dos pulmões chamada «doença pulmonar intersticial». 
+Pode afetar cerca de 1 em 100 pessoas que toma gefitinib e pode provocar risco de vida. </p>
+</li>
+<li>
+<p>Erupções na pele graves (raro) que afetam grandes áreas do seu corpo. Os sinais incluem 
+vermelhidão, dor, úlceras, bolhas, descamação da pele. Os lábios, nariz, olhos e órgãos genitais 
+também podem ser afetados. </p>
+</li>
+<li>
+<p>Desidratação (frequente) provocada por diarreia grave ou prolongada, vómitos (sensação de 
+mal-estar), náuseas (sensação de enjoo) ou perda de apetite. </p>
+</li>
+<li>
+<p>Problemas dos olhos (pouco frequente), tais como dor, vermelhidão, olhos húmidos, 
+sensibilidade à luz ou alterações da visão ou crescimento das pestanas para dentro do olho. Isto 
+pode significar que tem uma úlcera na superfície do olho (córnea). </p>
+</li>
+</ul>
+<p>Informe o seu médico logo que possível se detetar algum dos seguintes efeitos indesejáveis: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Diarreia. </p>
+</li>
+<li>
+<p>Vómitos. </p>
+</li>
+<li>
+<p>Náuseas. </p>
+</li>
+<li>
+<p>Erupções na pele, tais como erupção tipo acne, por vezes com comichão e pele seca e/ou pele 
+lesionada. </p>
+</li>
+<li>
+<p>Perda de apetite. </p>
+</li>
+<li>
+<p>Fraqueza. </p>
+</li>
+<li>
+<p>Vermelhidão ou inflamação da boca. </p>
+</li>
+<li>
+<p>Aumento de uma enzima hepática conhecida por alanina aminotransferase numa análise ao 
+sangue; se muito elevado, o seu médico pode dizer-lhe para parar de tomar este medicamento. </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Boca seca. </p>
+</li>
+<li>
+<p>Secura, vermelhidão ou comichão dos olhos. </p>
+</li>
+<li>
+<p>Vermelhidão e inflamação das pálpebras. </p>
+</li>
+<li>
+<p>Problemas nas unhas. </p>
+</li>
+<li>
+<p>Perda de cabelo. </p>
+</li>
+<li>
+<p>Febre. </p>
+</li>
+<li>
+<p>Hemorragia (como hemorragia do nariz ou sangue na sua urina). </p>
+</li>
+<li>
+<p>Proteínas na urina (observado num teste à urina). </p>
+</li>
+<li>
+<p>Aumento de bilirrubina e de uma enzima hepática conhecida por aspartato aminotransferase 
+numa análise ao sangue; se muito elevado, o seu médico pode dizer-lhe para parar de tomar este 
+medicamento. </p>
+</li>
+<li>
+<p>Aumento dos níveis de creatinina numa análise ao sangue (relacionado com a função renal). </p>
+</li>
+<li>
+<p>Cistite (sensação de ardor ao urinar e necessidade frequente e urgente de urinar). </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Inflamação do pâncreas. Os sinais incluem dor muito grave na parte superior do estômago e 
+náuseas graves e vómitos. </p>
+</li>
+<li>
+<p>Inflamação do fígado. Os sintomas podem incluir uma sensação de mal-estar geral, com ou sem 
+eventual iterícia (coloração amarela da pele e dos olhos). Este efeito secundário é pouco 
+frequente: contudo, alguns doentes morreram por este efeito. </p>
+</li>
+<li>
+<p>Perfuração gastrointestinal. </p>
+</li>
+<li>
+<p>Erupção na pele nas palmas das mãos e plantas dos pés incluindo formigueiro, dormência, dor, 
+inchaço ou vermelhidão (conhecida como síndrome de eritrodisestesia palmoplantar ou 
+síndrome mão-pé). </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1 000 pessoas) </p>
+<ul>
+<li>
+<p>Inflamação dos vasos sanguíneos na pele. Pode ter a aparência de nódoas negras ou manchas de 
+erupções amareladas na pele. </p>
+</li>
+<li>
+<p>Cistite hemorrágica (sensação de ardor ao urinar e necessidade frequente e urgente de urinar, 
+com sangue na urina). </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar gefitinib"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar gefitinib"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister, na embalagem exterior ou 
+na bolsa, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 30 °C. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Gefitinib Mylan</h2>
+<p>A substância ativa é gefitinib. Cada comprimido revestido por película contém 250 mg de 
+gefitinib. 
+- 
+Os outros componentes são lactose mono-hidratada, celulose microcristalina (101), 
+crospovidona (Tipo A), povidona (K30), lauril sulfato de sódio, estearato de magnésio no núcleo 
+do comprimido. O revestimento do comprimido contém álcool polivinílico (E1203), 
+macrogol 4000 (E1521), talco (E553b), dióxido de titânio (E171), óxido de ferro vermelho 
+(E172), óxido de ferro amarelo (E172). </p>
+<p>Qual o aspeto de Gefitinib Mylan e conteúdo da embalagem 
+Os comprimidos de Gefitinib Mylan são revestidos por película, castanhos, redondos, biconvexos, com 
+aproximadamente 11,1 mm × 5,6 mm de dimensão e com a marcação «250» numa das faces e liso na 
+outra. 
+É fornecido em blisters de PVC/PVDC/Alumínio em embalagens de 30 comprimidos revestidos por 
+película ou em blisters destacáveis para dose unitária de PVC/PVDC/Alumínio em embalagens de 
+30 × 1 comprimidos revestidos por película. Os blisters podem ser embalados em bolsas de alumínio. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Mylan Pharmaceuticals Limited 
+Damastown Industrial Park,<br />
+Mulhuddart, Dublin 15,<br />
+DUBLIN 
+Irlanda </p>
+<p>Fabricante 
+Ardena Pamplona S.L. 
+Poligono Mocholi, C/Noáin, nº1 
+31110 Noáin (Navarra) 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Mylan bvba/sprl 
+Tél/Tel: + 32 (0)2 658 61<br />
+Lietuva 
+Mylan Healthcare UAB 
+Tel.: +370 5 205 1 
+България 
+Майлан ЕООД 
+Тел: +359 2 44 55<br />
+Luxembourg/Luxemburg 
+Mylan bvba/sprl 
+Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>Česká republika 
+Viatris CZ s.r.o. 
+Tel.: + 420 222 004 Magyarország 
+Mylan EPD Kft. 
+Tel.: + 36 1 465 2 </p>
+<p>Danmark 
+Viatris ApS 
+Tlf: + 45 28 11 69  </p>
+<p>Malta 
+V.J. Salomone Pharma Ltd 
+Tel.: + 356 21 22 01<br />
+Deutschland 
+Viatris Healthcare GmbH 
+Tel.: + 49 800 0700<br />
+Nederland 
+Mylan BV 
+Tel.: + 31 (0)20 426 3Eesti 
+BGP Products Switzerland GmbH Eesti 
+filiaal 
+Tel.: + 372 6363<br />
+Norge 
+Viatris AS 
+Tlf: + 47 66 75 33<br />
+Ελλάδα 
+Generics Pharma Hellas ΕΠΕ 
+Τηλ: +30 210 993 6 
+Österreich 
+Arcana Arzneimittel GmbH 
+Tel.: +43 1 416 2 
+España 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102 <br />
+Polska 
+Mylan Healthcare Sp. z.o.o. 
+Tel.: + 48 22 546 64<br />
+France 
+Viatris Santé 
+Tél: +33 4 37 25 75<br />
+Portugal 
+Mylan, Lda. 
+Tel.: + 351 21 412 72<br />
+Hrvatska 
+Mylan Hrvatska d.o.o. 
+Tel.: +385 1 23 50<br />
+România 
+BGP Products SRL 
+Tel.: +40 372 579<br />
+Ireland 
+Mylan Ireland Limited 
+Tel.: +353 1 8711 
+Slovenija 
+Viatris d.o.o. 
+Tel.: + 386 1 23 63<br />
+Ísland 
+Icepharma hf.<br />
+Sími: + 354 540 8Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199<br />
+Italia 
+Mylan Italia S.r.l. 
+Tel.: + 39 02 612 46 
+Suomi/Finland 
+Viatris OyMylan Finland OY 
+Puh/Tel: +358 20 720 9Κύπρος 
+Varnavas Hadjipanayis Ltd 
+Τηλ: + 357 2220 7 
+Sverige 
+Viatris AB<br />
+Tel: + 46 (0)8 630 19 <br />
+Latvija 
+Mylan Healthcare SIA 
+Tel.: +371 676 055<br />
+United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel.: +353 18711 
+Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -848,6 +1316,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-553de2aa690a5750d1825c26ecd3f9ed"
 * entry[0].resource = composition-da-553de2aa690a5750d1825c26ecd3f9ed
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp553de2aa690a5750d1825c26ecd3f9ed"
+* entry[=].resource = mp553de2aa690a5750d1825c26ecd3f9ed
+                            
+                    
+Instance: bundlepackageleaflet-pt-553de2aa690a5750d1825c26ecd3f9ed
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for gefitinib Package Leaflet for language pt"
+Description: "ePI document Bundle for gefitinib Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-553de2aa690a5750d1825c26ecd3f9ed"
+* entry[0].resource = composition-pt-553de2aa690a5750d1825c26ecd3f9ed
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp553de2aa690a5750d1825c26ecd3f9ed"
@@ -949,6 +1439,18 @@ RuleSet: 553de2aa690a5750d1825c26ecd3f9edListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-553de2aa690a5750d1825c26ecd3f9ed) // gefitinib pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

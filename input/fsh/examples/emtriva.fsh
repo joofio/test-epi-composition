@@ -861,6 +861,475 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-3aba64fb4580bb12883e3dc4b001f74a
+InstanceOf: CompositionUvEpi
+Title: "Composition for emtriva Package Leaflet"
+Description:  "Composition for emtriva Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3aba64fb4580bb12883e3dc4b001f74a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - emtriva"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Emtriva e para que é utilizado 
+2. O que precisa de saber antes de tomar Emtriva 
+3. Como tomar Emtriva 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Emtriva 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é emtriva e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é emtriva e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Emtriva é um tratamento para a infeção causada pelo Vírus da Imunodeficiência Humana 
+(VIH), em adultos, crianças e lactentes com 4 meses de idade ou mais. O Emtriva cápsulas a 200 mg 
+apenas é adequado para doentes que pesam pelo menos 33 kg. O Emtriva Solução Oral está 
+disponível para pessoas com dificuldade em engolir Emtriva Cápsulas. </p>
+<p>Emtriva contém a substância ativa, emtricitabina. Esta substância ativa é um fármaco 
+antirretroviral utilizado para tratar a infeção por VIH. A emtricitabina é um análogo nucleosídeo 
+inibidor da transcriptase reversa que atua interferindo com a atividade normal de uma enzima 
+(transcriptase reversa) que é fundamental para que o vírus VIH se possa reproduzir. O Emtriva pode 
+baixar a quantidade de VIH no sangue (carga viral). Também poderá ajudar a aumentar o número de 
+células T chamadas células CD4. Emtriva deve ser sempre associado com outros medicamentos para 
+tratar a infeção por VIH. </p>
+<p>Este medicamento não constitui uma cura para a infeção por VIH. Enquanto toma Emtriva pode 
+continuar a desenvolver infeções ou outras doenças associadas à infeção por VIH. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar emtriva"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar emtriva"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Emtriva </p>
+<ul>
+<li>se tem alergia à emtricitabina ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). </li>
+</ul>
+<p> Caso isto se aplique a si, informe imediatamente o seu médico. </p>
+<p>Advertências e precauções </p>
+<ul>
+<li>
+<p>Se tiver tido uma doença nos rins, ou se as análises tiverem apresentado alterações relativas 
+aos seus rins, informe o seu médico. Antes de iniciar o tratamento, o seu médico pode pedir-lhe 
+análises ao sangue para avaliar a função dos seus rins e poderá aconselhá-lo a tomar as cápsulas 
+menos frequentemente, ou prescrever Emtriva solução oral. O seu médico também poderá 
+pedir-lhe análises ao sangue durante o tratamento, para verificar se os seus rins estão a funcionar 
+corretamente. </p>
+</li>
+<li>
+<p>Se tem mais de 65 anos, fale com o seu médico. Emtriva não foi estudado em doentes com 
+mais de 65 anos de idade. Caso tenha mais de 65 anos e lhe seja receitado Emtriva, o seu 
+médico irá observá-lo mais cuidadosamente. </p>
+</li>
+<li>
+<p>Se tem ou tiver tido uma doença no fígado, incluindo hepatite, fale com o seu médico. Os 
+doentes com doença no fígado, incluindo hepatite B ou C crónica, que estejam a ser tratados 
+com medicamentos antirretrovirais, apresentam um risco superior ao normal de sofrerem 
+complicações graves e potencialmente fatais ao nível do fígado. Se tem hepatite B, o seu médico 
+irá considerar exatamente o melhor regime terapêutico para si. Se tem antecedentes de uma 
+doença no fígado ou hepatite B crónica, o seu médico pedir-lhe-á análises ao sangue para 
+verificar se o seu fígado está a funcionar corretamente. </p>
+</li>
+<li>
+<p>Esteja atento a infeções. Se tem doença avançada por VIH (SIDA) e outra infeção, poderá 
+desenvolver inflamação ou piorar os sintomas da infeção assim que inicie o tratamento com 
+Emtriva. Estes sinais podem indicar que o seu sistema imunitário está melhor e está a combater 
+a infeção. Se se aperceber de sinais de inflamação ou infeção, assim que inicie a toma de 
+Emtriva, informe imediatamente o seu médico. </p>
+</li>
+</ul>
+<p>Adicionalmente às infeções oportunistas, as doenças autoimunes (uma condição que ocorre 
+quando o sistema imunitário ataca tecidos corporais saudáveis) também podem ocorrer depois 
+de começar a tomar os medicamentos para o tratamento da sua infeção pelo VIH. As doenças 
+autoimunes podem ocorrer muitos meses após o início do tratamento. Se notar quaisquer 
+sintomas de infeção ou outros sintomas como fraqueza muscular, fraqueza a começar nas mãos 
+e nos pés e dirigindo-se em direção ao tronco, palpitações, tremores ou hiperatividade, informe 
+o seu médico imediatamente para procurar o tratamento necessário. </p>
+<ul>
+<li>Problemas ósseos. Alguns doentes em terapêutica antirretroviral combinada podem 
+desenvolver uma doença óssea chamada osteonecrose (morte do tecido ósseo provocada por 
+falta de afluxo de sangue ao osso). A duração da terapêutica antirretroviral combinada, a 
+utilização de corticosteroides, o consumo de álcool, a imunossupressão grave, um índice de 
+massa corporal aumentado, entre outros, podem ser alguns dos inúmeros fatores de risco para o 
+desenvolvimento desta doença. Os sinais de osteonecrose são rigidez, mal-estar e dores nas 
+articulações (especialmente na anca, joelho e ombro) e dificuldade de movimentos. Por favor 
+informe o seu médico se notar qualquer um destes sintomas. </li>
+</ul>
+<p>Crianças e adolescentes </p>
+<p>Não dê Emtriva a crianças com menos de 4 meses de idade. </p>
+<p>Outros medicamentos e Emtriva </p>
+<p>Não deve tomar Emtriva se já estiver a tomar outros medicamentos que contenham emtricitabina ou 
+lamivudina, os quais são também utilizados para tratar a infeção por VIH, a menos que o seu médico 
+lhe dê outras indicações. </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Não interrompa o seu tratamento sem falar primeiro com o seu médico. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Se tomou Emtriva durante a gravidez, o seu médico pode pedir-lhe para efetuar análises ao sangue e 
+outros testes de diagnóstico regulares para verificar o desenvolvimento da sua criança. Nas crianças 
+cujas mães tomaram NRTIs durante a gravidez, o benefício da menor possibilidade de infeção pelo 
+VIH é superior ao risco de sofrerem efeitos indesejáveis. </p>
+<p>Não deverá amamentar se estiver a tomar Emtriva. Isto deve-se ao fato de que a substância ativa 
+deste medicamento é excretada no leite humano. </p>
+<p>A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção pelo 
+VIH pode ser transmitida ao bebé através do leite materno. </p>
+<p>Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais 
+rapidamente possível. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>O Emtriva pode causar tonturas. Se sentir tonturas enquanto estiver a tomar Emtriva, não conduza e 
+não utilize quaisquer ferramentas ou máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar emtriva"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar emtriva"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico 
+ou farmacêutico se tiver dúvidas. </li>
+</ul>
+<p>A dose recomendada é: </p>
+<ul>
+<li>
+<p>Adultos: uma cápsula de 200 mg, por dia, com ou sem alimentos. Engula a cápsula com um 
+copo de água. </p>
+</li>
+<li>
+<p>Crianças e adolescentes até 18 anos de idade, que pesam pelo menos 33 kg e que conseguem 
+engolir cápsulas: uma cápsula de 200 mg, por dia com ou sem alimentos. </p>
+</li>
+</ul>
+<p>Para lactentes a partir dos 4 meses, crianças e doentes que não conseguem engolir cápsulas e doentes 
+com problemas nos rins, o Emtriva está disponível na forma líquida (uma solução oral). Por favor 
+informe o seu médico se tiver dificuldade em engolir as cápsulas. </p>
+<ul>
+<li>
+<p>Tomar sempre a dose recomendada pelo seu médico. Isto para ter a certeza que o seu 
+medicamento é totalmente eficaz, e para reduzir o risco de desenvolvimento de resistência ao 
+tratamento. Não altere a dose a menos que o seu médico lhe diga para o fazer. </p>
+</li>
+<li>
+<p>Se tiver problemas com os seus rins, o seu médico pode aconselhá-lo a tomar Emtriva menos 
+frequentemente. </p>
+</li>
+<li>
+<p>O seu médico irá receitar-lhe Emtriva com outros medicamentos antirretrovirais. Por 
+favor consulte os folhetos informativos dos outros medicamentos antirretrovirais para 
+orientação sobre o modo como tomar esses medicamentos. </p>
+</li>
+</ul>
+<p>Se tomar mais Emtriva do que deveria </p>
+<p>Se acidentalmente tomar demasiadas cápsulas de Emtriva, consulte o seu médico ou aconselhe-se 
+junto do serviço de urgência mais próximo. Mantenha a embalagem consigo para que facilmente possa 
+descrever o que tomou. </p>
+<p>Caso se tenha esquecido de tomar Emtriva </p>
+<p>É importante que não falhe nenhuma dose de Emtriva. </p>
+<p>Caso se tenha esquecido de tomar uma dose de Emtriva no período de 12 horas após a hora em 
+que é habitualmente tomada, tome-a o mais rapidamente possível, e depois tome a sua dose seguinte 
+à hora do costume. </p>
+<p>Se for já quase hora (menos de 12 horas) da sua próxima dose, não tome a dose que falhou. Espere 
+e tome a dose seguinte à hora do costume. Não tome uma dose a dobrar para compensar uma cápsula 
+que se esqueceu de tomar. </p>
+<p>Se tiver vomitado </p>
+<p>Se tiver passado menos de uma hora da toma de Emtriva, tome outra cápsula. Não terá de tomar 
+outra cápsula se tiver vomitado após uma hora da toma de Emtriva. </p>
+<p>Se parar de tomar Emtriva </p>
+<ul>
+<li>
+<p>Não pare de tomar Emtriva sem consultar o seu médico. Parar o tratamento com Emtriva 
+pode resultar numa diminuição da eficácia da terapêutica anti-VIH recomendada pelo seu 
+médico. Fale com o seu médico antes de parar, particularmente se detetar alguns efeitos 
+indesejáveis ou tiver qualquer outra doença. Consulte novamente o seu médico antes de voltar a 
+tomar Emtriva em cápsulas. </p>
+</li>
+<li>
+<p>Se tiver infeção por VIH e hepatite B, é particularmente importante não parar o tratamento 
+com Emtriva sem previamente consultar o seu médico. Alguns doentes apresentaram análises ao 
+sangue ou sintomas indicativos de que a sua hepatite tinha agravado após interrupção do 
+tratamento com Emtriva. Poderá necessitar de análises ao sangue durante vários meses após 
+interrupção do tratamento. Nalguns doentes com doença do fígado avançada ou cirrose, a 
+interrupção do tratamento não é recomendada pois pode levar a um agravamento da hepatite. </p>
+</li>
+</ul>
+<p>Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco habituais após 
+parar o tratamento, particularmente sintomas que associaria à sua hepatite B. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Durante a terapêutica para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no 
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos 
+lípidos no sangue, por vezes aos próprios medicamentos para o VIH. O seu médico irá realizar testes 
+para determinar estas alterações. </p>
+<p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Informe o seu médico acerca de qualquer um dos seguintes efeitos indesejáveis: </p>
+<p>Efeitos indesejáveis mais frequentes </p>
+<p>Os seguintes efeitos indesejáveis são muito frequentes (estes podem afetar pelo menos 10 em cada 
+100 doentes): </p>
+<ul>
+<li>
+<p>dor de cabeça, diarreia, sentir-se enjoado (náuseas) </p>
+</li>
+<li>
+<p>dores musculares e fraqueza (se os níveis de creatina cinase no sangue estiverem aumentados) </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis possíveis </p>
+<p>Os seguintes efeitos indesejáveis são frequentes (estes podem afetar até 10 em cada 100 doentes): </p>
+<ul>
+<li>
+<p>tonturas, fraqueza, dificuldade em dormir, sonhos anormais </p>
+</li>
+<li>
+<p>estar enjoado (vómitos), problemas digestivos que podem resultar em desconforto após as 
+refeições, dor de estômago </p>
+</li>
+<li>
+<p>erupções cutâneas (incluindo manchas vermelhas ou pústulas algumas vezes com bolhas e 
+inchaço da pele), que poderão ser reações alérgicas, comichão, alterações na cor da pele 
+incluindo escurecimento da pele em manchas </p>
+</li>
+<li>
+<p>dor </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>baixa contagem de glóbulos brancos (uma diminuição dos seus glóbulos brancos pode torná-lo 
+mais sujeito a infeções) </p>
+</li>
+<li>
+<p>aumento dos triglicéridos (ácidos gordos), de bílis ou do açúcar no sangue </p>
+</li>
+<li>
+<p>alterações no fígado e pâncreas </p>
+</li>
+</ul>
+<p>Os seguintes efeitos indesejáveis são pouco frequentes (estes podem afetar até 1 em cada 
+100 doentes): </p>
+<ul>
+<li>
+<p>anemia (baixa contagem de glóbulos vermelhos) </p>
+</li>
+<li>
+<p>inchaço da face, lábios, língua e garganta </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis </p>
+<p>Nas crianças a tomar emtricitabina também ocorreu, muito frequentemente, alterações na cor da pele 
+incluindo escurecimento da pele em manchas e frequentemente, anemia (baixa contagem de glóbulos 
+vermelhos). Se a produção de glóbulos vermelhos estiver reduzida, a criança pode ter sintomas de 
+fadiga ou dificuldades de respiração. </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar emtriva"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar emtriva"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco, blister e embalagem, após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Emtriva </p>
+<ul>
+<li>
+<p>A substância ativa é a emtricitabina. Cada cápsula de Emtriva contém 200 mg de 
+emtricitabina. </p>
+</li>
+<li>
+<p>Os outros componentes são: </p>
+</li>
+</ul>
+<p>Conteúdo da cápsula: celulose microcristalina (E460), crospovidona, estearato de magnésio 
+(E572), povidona (E1201) </p>
+<p>Invólucro da cápsula: gelatina, indigotina (E132), dióxido de titânio (E171) </p>
+<p>Tinta de impressão contendo: óxido de ferro preto (E172), goma laca (E904) </p>
+<p>Qual o aspeto de Emtriva e conteúdo da embalagem </p>
+<p>As cápsulas de Emtriva têm um corpo branco opaco e uma tampa azul clara opaca. Cada cápsula tem 
+impresso, a tinta preta, “200 mg" na tampa e “GILEAD" e [Gilead logotipo] no corpo. Emtriva vem 
+em frascos ou blisters contendo 30 cápsulas. </p>
+<p>Emtriva está também disponível na forma de solução oral para utilização em crianças e lactentes com 
+4 meses de idade ou mais, doentes que têm dificuldade em engolir e doentes com problemas nos rins. 
+Existe um Folheto Informativo separado para Emtriva 10 mg/ml solução oral. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrlanda </p>
+<p>Fabricante </p>
+<p>Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel.: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Este folheto foi revisto pela última vez em . </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -902,6 +1371,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-3aba64fb4580bb12883e3dc4b001f74a"
 * entry[0].resource = composition-da-3aba64fb4580bb12883e3dc4b001f74a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3aba64fb4580bb12883e3dc4b001f74a"
+* entry[=].resource = mp3aba64fb4580bb12883e3dc4b001f74a
+                            
+                    
+Instance: bundlepackageleaflet-pt-3aba64fb4580bb12883e3dc4b001f74a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for emtriva Package Leaflet for language pt"
+Description: "ePI document Bundle for emtriva Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-3aba64fb4580bb12883e3dc4b001f74a"
+* entry[0].resource = composition-pt-3aba64fb4580bb12883e3dc4b001f74a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp3aba64fb4580bb12883e3dc4b001f74a"
@@ -1003,6 +1494,18 @@ RuleSet: 3aba64fb4580bb12883e3dc4b001f74aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-3aba64fb4580bb12883e3dc4b001f74a) // emtriva pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

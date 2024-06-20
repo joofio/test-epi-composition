@@ -1768,6 +1768,1105 @@ hjemmeside. </p>         </div>"""
 
 
 
+Instance: composition-pt-a2f0520006a5864136cdf3a6777cfd07
+InstanceOf: CompositionUvEpi
+Title: "Composition for mekinist Package Leaflet"
+Description:  "Composition for mekinist Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa2f0520006a5864136cdf3a6777cfd07)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - mekinist"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Mekinist e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Mekinist </li>
+<li>Como tomar Mekinist </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Mekinist </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é mekinist e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é mekinist e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mekinist é um medicamento que contém a substância ativa trametinib. É utilizado isoladamente ou em 
+associação com outro medicamento contendo dabrafenib para tratar um tipo de cancro da pele 
+chamado melanoma que se espalhou por outras partes do corpo, ou não pode ser removido por 
+cirurgia. </p>
+<p>Mekinist em associação com dabrafenib é também utilizado para prevenir o reaparecimento do 
+melanoma após ter sido removido por cirurgia. </p>
+<p>Mekinist em associação com dabrafenib é também utilizado para tratar um tipo de cancro do pulmão 
+chamado cancro do pulmão não pequenas células (CPNPC). </p>
+<p>Ambos os cancros têm uma alteração especial (mutação) num gene chamado BRAF na posição V600. Esta mutação no gene pode ter feito com que o cancro se desenvolva. O seu medicamento tem como 
+alvo proteínas feitas a partir deste gene alterado e desacelera ou para o desenvolvimento do seu 
+cancro. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar mekinist"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar mekinist"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mekinist só deve ser utilizado para tratar melanomas e CPNPC com a mutação BRAF. Como tal, antes 
+de iniciar o tratamento o seu médico irá fazer testes para esta mutação. </p>
+<p>Se o seu médico decidir que irá receber tratamento com a associação de Mekinist e dabrafenib, leia o 
+com atenção folheto dabrafenib bem como este folheto. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>
+<p>Não tome Mekinist </p>
+<ul>
+<li>se tem alergia ao trametinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+Verifique com seu médico se pensa que isto se aplica a si. </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico antes de tomar este medicamento. O seu médico precisa de saber se você: </p>
+<ul>
+<li>
+<p>tem quaisquer problemas no fígado. O seu médico pode retirar amostras de sangue para 
+monitorizar a função do seu fígado enquanto está a tomar este medicamento. </p>
+</li>
+<li>
+<p>tem ou alguma vez teve problemas nos rins. </p>
+</li>
+<li>
+<p>tem ou alguma vez teve problemas nos pulmões ou respiratórios </p>
+</li>
+<li>
+<p>tem problemas cardíacos tais como insuficiência cardíaca (que podem provocar falta de ar, 
+dificuldade em respirar quando está deitado, inchaço dos pés ou pernas) ou problemas na forma 
+como o seu coração bate. O seu médico deve verificar a função cardíaca antes e durante o 
+tratamento. </p>
+</li>
+<li>
+<p>tem problemas nos olhos incluindo obstrução da veia que drena o olho (oclusão da veia da 
+retina) ou inchaço do olho que pode ser provocado por obstrução de líquido (corioretinopatia). </p>
+</li>
+</ul>
+<p>Antes de tomar Mekinist em associação com dabrafenib o seu médico deve saber se você: </p>
+<ul>
+<li>teve outro tipo de cancro diferente além do melanoma ou CPNPC, dado que pode ter risco 
+acrescido de desenvolver cancro não da pele ao tomar Mekinist. </li>
+</ul>
+<p>Verifique com o seu médico se pensa que alguma destas situações se aplicam a si. </p>
+<p>Situações que necessita de observar </p>
+<p>Algumas pessoas a tomar Mekinist desenvolvem outras doenças, que podem ser graves. Necessita de 
+saber sobre sintomas importantes que deve procurar. </p>
+<p>Hemorragia 
+Tomar Mekinist ou a associação de Mekinist com dabrafenib pode provocar hemorragia grave 
+incluindo no cérebro, no sistema digestivo (tal como estômago, reto ou intestino), pulmões e outros 
+órgãos, e podem provocar a morte. Os sintomas podem incluir: </p>
+<ul>
+<li>
+<p>dores de cabeça, tonturas ou sensação de fraqueza </p>
+</li>
+<li>
+<p>sangue nas fezes ou fezes negras </p>
+</li>
+<li>
+<p>sangue na urina </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>tosse / vomitar com sangue </p>
+</li>
+</ul>
+<p>Fale com o médico o mais depressa possível se sentir algum destes sintomas. </p>
+<p>Febre 
+Tomar Mekinist ou a associação de Mekinist e dabrafenib pode causar febre, apesar de ser mais 
+provável se estiver a tomar a associação (ver também secção 4). Nalguns casos, as pessoas com febre 
+podem desenvolver tensão baixa, tonturas ou outros sintomas. 
+Fale com o seu médico imediatamente se tiver temperatura acima de 38ºC ou se começar a sentir 
+febre, enquanto estiver a tomar este medicamento. </p>
+<p>Doença cardíaca 
+Mekinist pode causar problemas cardíacos, ou piorar problemas cardíacos existentes (ver também 
+“Condições cardíacas" na secção 4) em pessoas a tomar Mekinist em associação com dabrafenib. 
+Informe o seu médico se tem uma doença cardíaca. O seu médico irá realizar testes para verificar 
+que o seu coração está a funcionar corretamente antes e durante o seu tratamento com este 
+medicamento. Informe o seu médico imediatamente se sentir: que o seu coração está a bater muito 
+depressa, de forma acelerada, ou de forma irregular, ou se tiver tonturas, cansaço, sensação de 
+atordoamento, falta de ar ou inchaço nas pernas. Se necessário, o seu médico pode decidir suspender o 
+seu tratamento ou interrompê-lo por completo. </p>
+<p>Alterações na pele que possam indicar novo cancro da pele 
+O seu médico irá verificar a sua pele antes de começar a tomar este medicamento e regularmente 
+enquanto o está a tomar. Informe o seu médico imediatamente se verificar quaisquer alterações na 
+sua pele enquanto está a tomar este medicamento ou após o tratamento (ver também secção 4). </p>
+<p>Problemas oculares 
+O seu médico deve examinar os seus olhos enquanto está a tomar este medicamento. 
+Informe o seu médico imediatamente se tiver vermelhidão e irritação ocular, visão turva, dor ocular 
+ou outras alterações na visão durante o seu tratamento (ver também secção 4). 
+Mekinist pode causar problemas oculares incluindo cegueira. Mekinist não é recomendado se alguma 
+vez teve bloqueio da veia que drena o olho (oclusão de veia da retina). Informe imediatamente o seu 
+médico se tiver os seguintes sintomas de problemas oculares: visão turva, perda de visão ou outras 
+alterações da visão, pontos coloridos na sua visão ou halos (ver contornos turvos ao redor dos objetos) 
+durante o seu tratamento. Se necessário, o seu médico pode decidir suspender o seu tratamento ou 
+interrompê-lo por completo. </p>
+<p>Problemas no fígado 
+Mekinist, ou a associação com dabrafenib, podem causar problemas no fígado que podem evoluir para 
+condições mais graves tais como hepatite e insuficiência hepática, que pode ser fatal. O seu médico irá 
+monitorizá-lo periodicamente. Sinais de que o seu fígado pode não estar a funcionar bem podem 
+incluir: </p>
+<ul>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>sensação de enjôo (náusea) </p>
+</li>
+<li>
+<p>estar enjoado (vómitos) </p>
+</li>
+<li>
+<p>dor no estômago (abdomen) </p>
+</li>
+<li>
+<p>amarelecimento da pele ou do branco dos olhos (icterícia) </p>
+</li>
+<li>
+<p>urina de cor escura </p>
+</li>
+<li>
+<p>comichão na pele </p>
+</li>
+</ul>
+<p>Fale com o seu médico o mais depressa possível se sentir algum destes sintomas. </p>
+<p>Problemas nos pulmões ou respiratórios 
+Fale com o seu médico se tiver algum problema nos pulmões ou respiratório, incluindo 
+dificuldade em respirar frequentemente acompanhada por uma tosse seca, falta de ar e fadiga. O seu 
+médico pode marcar exames à função pulmonar antes de começar a tomar o medicamento. </p>
+<p>Dor muscular 
+Mekinist pode provocar destruição muscular (rabdomiólise), Fale com o seu médico o mais depressa 
+possível se sentir algum destes sintomas. </p>
+<ul>
+<li>
+<p>dor muscular </p>
+</li>
+<li>
+<p>urina escura devido a lesão renal </p>
+</li>
+</ul>
+<p>Se necessário, o seu médico pode decidir interromper o tratamento ou parar completamente. </p>
+<p>→ 
+Leia a informação “Efeitos indesejáveis possíveis graves" na secção 4 deste folheto. </p>
+<p>Perfuração do estômago ou intestino 
+Tomar Mekinist ou a associação de Mekinist e dabrafenib pode aumentar o risco de perfuração da 
+parede do intestino. Fale com o seu médico o mais depressa possível se sentir dor abdominal forte. </p>
+<p>Reações cutâneas graves 
+Foram notificadas reações cutâneas graves em pessoas a tomar Mekinist em associação a dabrafenib. 
+Informe o seu médico imediatamente se notar alterações na sua pele (ver secção 4 para sintomas a que 
+deve estar atento). </p>
+<p>Doença inflamatória que afeta principalmente a pele, pulmões, olhos e gânglios linfáticos 
+Uma doença inflamatória que afeta principalmente a pele, pulmões, olhos e gânglios linfáticos 
+(sarcoidose). Os sintomas frequentes de sarcoidose podem incluir tosse, falta de ar, inchaço dos 
+gânglios linfáticos, perturbações visuais, febre, fadiga, dor e inchaço nas articulações e inchaços moles 
+na pele. Informe o seu médico se tiver algum destes sintomas. </p>
+<p>Doenças do sistema imunitário 
+Mekinist em associação com dabrafenib pode, em casos raros, causar uma doença (linfohistiocitose 
+hemofagocítica ou LHH) na qual o sistema imunitário produz demasiadas células de combate à 
+infeção, denominadas histiócitos e linfócitos. Os sintomas podem incluir aumento do fígado e/ou baço, 
+erupção cutânea, aumento dos nódulos linfáticos, problemas respiratórios, nódoas negras, anomalias 
+nos rins e problemas de coração. Informe imediatamente o seu médico se desenvolver 
+simultaneamente vários sintomas, tais como febre, gânglios linfáticos inchados, nódoas negras ou 
+erupção cutânea. </p>
+<p>Síndrome de lise tumoral 
+Se sentir os seguintes sintomas, informe o seu médico imediatamente dado que pode ser uma condição 
+com risco de vida: náuseas, falta de ar, batimento cardíaco irregular, cãibras musculares, convulsões, 
+urina turva, diminuição da produção de urina e cansaço. Estes podem ser provocados por um grupo de 
+complicações metabólicas, que podem ocorrer durante o tratamento do cancro, provocados pelos 
+produtos de degradação das células cancerígenas que morrem (síndrome de lise tumoral ou SLT) e 
+podem levar a alterações da função renal (ver também secção 4). </p>
+<p>Crianças e adolescentes 
+Mekinist não é recomendado para crianças e adolescentes uma vez que os efeitos de Mekinist em 
+pessoas com menos de 18 anos de idade não são conhecidos. </p>
+<p>Outros medicamentos e Mekinist 
+Antes de iniciar o tratamento, informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, 
+tiver tomado recentemente, ou se vier a tomar outros medicamentos. Isto inclui medicamentos obtidos 
+sem receita médica.Mantenha uma lista dos medicamentos que toma, para que a possa mostrar ao seu 
+médico, farmacêutico ou enfermeiro quando adquire um novo medicamento. </p>
+<p>Mekinist com alimentos e bebidas 
+É importante que tome Mekinist de estômago vazio porque os alimentos afetam a forma como o 
+medicamento é absorbido pelo organismo (ver secção 3). </p>
+<p>Gravidez, amamentação e fertilidade 
+Mekinist não é recomendado para uso durante a gravidez. </p>
+<ul>
+<li>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico antes de tomar este medicamento. Mekinist pode prejudicar o seu bebé. </p>
+</li>
+<li>
+<p>Se é uma mulher que pode ficar grávida, deve utilizar um método de contraceção que lhe 
+ofereça garantias enquanto está a tomar Mekinist e durante pelo menos 16 semanas após parar 
+de o tomar. </p>
+</li>
+<li>
+<p>Os contracetivos que contêm hormonas (como as pílulas, os injetáveis ou os adesivos) podem 
+não funcionar tão bem enquanto estiver a tomar Mekinist em associação com dabrafenib. Pode 
+necessitar de utilizar outro método de contraceção eficaz para que não engravide enquanto está a 
+tomar esta associação de medicamentos. Fale com o seu médico, farmacêutico ou enfermeiro 
+para que a aconselhem. </p>
+</li>
+<li>
+<p>Se ficar grávida enquanto está a tomar Mekinist, informe o seu médico imediatamente. </p>
+</li>
+</ul>
+<p>Mekinist não é recomendado durante a amamentação 
+Desconhece-se se os ingredientes de Mekinist podem passar para o leite materno. 
+Se está a amamentar ou planeia amamentar, deve informar o seu médico. Recomenda-se que não 
+amamente enquanto está a tomar Mekinist. Você e o seu médico irão decidir se irá tomar Mekinist ou 
+amamentar. </p>
+<p>Fertilidade - homens e mulheres 
+Mekinist pode comprometer a fertilidade dos homens e das mulheres. </p>
+<p>Tomar Mekinist com dabrafenib: Dabrafenib pode reduzir permanentemente a fertilidade masculina. 
+Além disso, os homens a tomar dabrafenib podem ter uma contagem espermática reduzida, e a sua 
+contagem espermática pode não voltar aos níveis normais depois de parar de tomar o medicamento. </p>
+<p>Antes de começar o tratamento com dabrafenib, fale com o seu médico acerca das opções para 
+melhorar as hipóteses de ter crianças no futuro. </p>
+<p>Caso ainda tenha dúvidas sobre o efeito deste medicamento na fertilidade, fale com o seu médico, 
+farmacêutico ou enfermeiro. </p>
+<p>Condução de veículos e utilização de máquinas 
+Mekinist pode ter efeitos indesejáveis que podem afetar a sua capacidade de conduzir ou utilizar 
+máquinas. Evite conduzir ou utilizar máquinas se se sentir cansado ou fraco, se tiver problemas com a 
+sua visão ou se os seus níveis de energia estiverem baixos. </p>
+<p>As descrições destes efeitos podem ser encontradas noutras secções (ver secções 2 e 4). 
+Leia toda a informação deste folheto para orientação. 
+Discuta com o seu médico, farmacêutico ou enfermeiro se não tem a certeza sobre qualquer assunto. A 
+sua doença, os sintomas e a situação do tratamento podem também afetar a sua capacidade de conduzir 
+ou utilizar máquinas. </p>
+<p>Mekinist contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar mekinist"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar mekinist"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico, farmacêutico ou enfermeiro. 
+Fale com o seu médico, farmacêutico ou enfermeiro se tiver dúvidas. </p>
+<p>Que quantidade tomar 
+A dose recomendada de Mekinist quer seja tomado isoladamente ou em associação com dabrafenib é 
+de um comprimido de 2 mg, uma vez por dia. A dose recomendada de dabrafenib, quando utilizado 
+em associação com Mekinist, é de 150 mg duas vezes por dia. </p>
+<p>O seu médico pode decidir baixar a dose se tiver efeitos indesejáveis. </p>
+<p>Não tome mais Mekinist do que o recomendado pelo seu médico, uma vez que tal pode aumentar o 
+risco de efeitos indesejáveis. </p>
+<p>Como tomar 
+Engula o comprimido inteiro, com um copo cheio de água. 
+Tome Mekinist uma vez por dia, com o estômago vazio (pelo menos 1 hora antes de uma refeição ou 
+2 horas após a refeição). Isso significa que: </p>
+<ul>
+<li>
+<p>após tomar Mekinist, deve esperar pelo menos 1 hora antes de comer. </p>
+</li>
+<li>
+<p>após comer, deve esperar pelo menos 2 horas antes de tomar Mekinist. </p>
+</li>
+</ul>
+<p>Tome Mekinist aproximadamente à mesma hora cada dia. </p>
+<p>Se tomar mais Mekinist do que deveria 
+Se tomar demasiados comprimidos de Mekinist, contacte o seu médico, farmacêutico ou enfermeiro 
+para aconselhamento. Se possível, mostre-lhes a embalagem de Mekinist e este folheto. </p>
+<p>Caso se tenha esquecido de tomar Mekinist 
+Se ainda não passaram mais de 12 horas desde a dose esquecida, tome-a assim que se lembre. 
+Se já passaram mais de 12 horas, salte a dose e tome a sua próxima dose à hora habitual. Depois 
+continue a tomar o seu comprimido às horas normais como habitualmente. 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Mekinist 
+Tome Mekinist durante o período de tempo recomendado pelo seu médico. Não pare o tratamento, a 
+não ser por indicação do seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>
+<p>Como tomar Mekinist em associação com dabrafenib </p>
+<ul>
+<li>
+<p>Tome Mekinist em associação com dabrafenib exatamente como o seu médico, farmacêutico ou 
+enfermeiro lhe disser. Não altere a dose ou pare de tomar Mekinist ou dabrafenib a não ser que 
+o seu médico, farmacêutico ou enfermeiro lhe diga para o fazer. </p>
+</li>
+<li>
+<p>Tome Mekinist uma vez por dia e tome dabrafenib duas vezes por dia. Pode ser bom para si 
+ganhar o hábito de tomar ambos os medicamentos às mesmas horas todos os dias. Mekinist deve 
+ser tomado ou com a dose da manhã de dabrafenib ou com a dose da noite de dabrafenib. As 
+doses de dabrafenib devem ser tomadas com um intervalo de cerca de 12 horas. </p>
+</li>
+<li>
+<p>Tome Mekinist e dabrafenib com o estômago vazio, pelo menos uma hora antes ou duas horas 
+depois de uma refeição. Tome inteiro com um copo de água cheio. </p>
+</li>
+<li>
+<p>Se falhar uma dose de Mekinist ou dabrafenib, tome-a assim que se lembrar: Não tome doses 
+em falta e tome a dose seguinte à hora prevista: 
+o 
+Se faltarem menos de 12 horas até à próxima dose prevista de Mekinist, que é tomada 
+uma vez por dia. 
+o 
+Se faltarem menos de 6 horas até à próxima dose prevista de dabrafenib, que é tomada 
+duas vezes por dia. </p>
+</li>
+<li>
+<p>Se tomar demasiado Mekinist ou dabrafenib, contacte imediatamente o seu médico, 
+farmacêutico ou enfermeiro. Leve os comprimidos Mekinist e as cápsulas de dabrafenib consigo 
+se possível. Se possível, mostre-lhes a embalagem de Mekinist e dabrafenib com o folheto 
+informativo. </p>
+</li>
+<li>
+<p>Se sentir efeitos indesejáveis o seu médico pode decidir que deve tomar doses mais baixas de 
+Mekinist e dabrafenib. Tome as doses de Mekinist e dabrafenib exatamente como o seu médico, 
+farmacêutico ou enfermeiro lhe disser. </p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis possíveis graves </p>
+<p>Condições cardíacas 
+Mekinist pode afetar a forma como o seu coração bombeia o sangue. É mais provável que isto afete 
+pessoas com um problema cardíaco existente. Irá ser verificado se tem quaisquer problemas cardíacos 
+enquanto está a tomar Mekinist. Os sinais e sintomas de problemas cardíacos incluem: </p>
+<ul>
+<li>
+<p>sentir que o seu coração está a bater muito depressa, de forma acelerada ou de forma irregular </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>cansaço </p>
+</li>
+<li>
+<p>sentir-se atordoado </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>inchaço nas pernas </p>
+</li>
+</ul>
+<p>Informe o seu médico assim que possível se tiver algum destes sintomas, pela primeira vez ou se 
+estes piorarem. </p>
+<p>Pressão arterial elevada 
+Mekinist pode causar pressão arterial elevada pela primeira vez ou o agravamento da mesma 
+(hipertensão). O seu médico ou enfermeiro irão verificar a sua pressão arterial durante o tratamento 
+com Mekinist. Fale com o seu médico ou enfermeiro imediatamente se desenvolver pressão arterial 
+elevada, se a sua pressão arterial piorar ou se tiver dor de cabeça grave, sensação de atordoamento ou 
+tonturas. </p>
+<p>Problemas de hemorragia 
+Mekinist pode causar problemas de hemorragia graves, especialmente no seu cérebro ou estômago. 
+Fale com o seu médico ou enfermeiro e procure ajuda médica imediatamente se tiver quaisquer sinais 
+pouco habituais de hemorragia, incluindo: </p>
+<ul>
+<li>
+<p>dores de cabeça, tonturas ou fraqueza </p>
+</li>
+<li>
+<p>tossir sangue ou coágulos sanguíneos </p>
+</li>
+<li>
+<p>vómitos contendo sangue ou que se assemelhem a “grãos de café" </p>
+</li>
+<li>
+<p>fezes vermelhas ou pretas que parecem alcatrão </p>
+</li>
+</ul>
+<p>Problemas oculares (com a visão) 
+Mekinist pode causar problemas oculares. Mekinist não é recomendado se alguma vez teve bloqueio 
+da veia que drena o olho (oclusão de veia da retina). O seu médico pode aconselhar um exame ocular 
+antes de tomar Mekinist e enquanto o toma. O seu médico pode pedir-lhe que pare de tomar Mekinist 
+ou que consulte um especialista, se desenvolver sinais e sintomas na sua visão que incluem: </p>
+<ul>
+<li>
+<p>perda de visão </p>
+</li>
+<li>
+<p>vermelhidão e irritação ocular </p>
+</li>
+<li>
+<p>pontos coloridos na sua visão </p>
+</li>
+<li>
+<p>halos (ver contornos turvos ao redor dos objetos) </p>
+</li>
+<li>
+<p>visão turva </p>
+</li>
+</ul>
+<p>Alterações na sua pele 
+Foram notificadas reações cutâneas graves em pessoas a tomar Mekinist em associação com 
+dabrafenib (frequência desconhecida). Se notar quaisquer dos seguintes: </p>
+<ul>
+<li>
+<p>áreas de pele avermelhadas no tronco, circulares ou em forma de alvo, com bolhas no centro. 
+Descamação da pele. Úlceras na boca, garganta, nariz, genitais e olhos. Estas erupções cutâneas 
+graves podem ser antecedidas de febre e sintomas do tipo gripe (síndrome Stevens-Johnson). </p>
+</li>
+<li>
+<p>erupção na pele generalizada, febre e nódulos linfáticos aumentados (síndrome DRESS ou 
+síndrome de hipersensibilidade ao medicamento). 
+➔ 
+pare de utilizar o medicamento e procure cuidado médico imediatamente. </p>
+</li>
+</ul>
+<p>Até 3 em cada 100 pessoas a tomar Mekinist em associação com dabrafenib podem desenvolver um 
+tipo diferente de cancro da pele denominado carcinoma espinocelular cutâneo (CEC). Outros podem 
+desenvolver um tipo de cancro de pele denominado carcinoma de células basais (CCB). Geralmente 
+estas lesões da pele permanecem localizadas e podem ser removidas através de cirurgia e o tratamento 
+com Mekinist e dabrafenib pode ser continuado sem interrupção. </p>
+<p>Algumas pessoas a tomar Mekinist em associação com dabrafenib podem também notar o 
+aparecimento de novos melanomas. Estes melanomas são geralmente removidos através de cirurgia e 
+o tratamento com Mekinist e dabrafenib pode ser continuado sem interrupção. </p>
+<p>O seu médico irá observar a sua pele antes de começar a tomar dabrafenib, depois voltará a verificar 
+todos os meses enquanto estiver a tomar dabrafenib e durante 6 meses após ter parado de tomar. Isto é 
+para procurar qualquer novo cancro de pele. </p>
+<p>O seu médico irá também verificar a sua cabeça, pescoço, boca, os gânglios linfáticos e irá realizar 
+tomografias do tórax e estômago (denominadas TAC) regularmente. Também poderá fazer análises ao 
+sangue. Estes exames são para detetar se qualquer outro cancro, incluindo carcinoma espinonocelular 
+cutâneo, se está a desenvolver no seu corpo. São também recomendados exames pélvicos (nas 
+mulheres) e exames anais antes e no final do tratamento. </p>
+<p>Mekinist em monoterapia ou em associação com dabrafenib pode causar erupção cutânea ou acne 
+semelhante a erupção cutânea. Siga as instruções do seu médico sobre o que fazer para ajudar a 
+prevenir erupção cutânea. Informe o seu médico ou enfermeiro assim que possível se tiver algum 
+destes sintomas quer pela primeira vez ou se os mesmos piorarem. 
+Contacte o seu médico imediatamente se tiver uma erupção cutânea grave com qualquer um dos 
+seguintes sintomas: bolhas na sua pele, bolhas ou feridas na sua boca, descamação da sua pele, febre, 
+vermelhidão ou inchaço da sua face, ou plantas dos seus pés. </p>
+<p>Informe o seu médico ou enfermeiro assim que possível se tiver qualquer erupção cutânea ou se 
+tiver uma erupção cutânea que piora. </p>
+<p>Dor muscular 
+Mekinist pode resultar na destruição do músculo (rabdomiólise). Fale com o seu médico ou enfermeira 
+se sentir um novo sintoma ou agravamento dos sintomas incluindo: </p>
+<ul>
+<li>
+<p>dor muscular </p>
+</li>
+<li>
+<p>urina escura devido a dano nos rins </p>
+</li>
+</ul>
+<p>Problemas pulmonares ou respiratórios 
+Mekinist pode causar inflamação do pulmão (pneumonite ou doença pulmonar intersticial). Informe o 
+seu médico ou enfermeiro se tem quaisquer sintomas novos ou agravamento de problemas pulmonares 
+ou respiratórios, incluindo: </p>
+<ul>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>fadiga </p>
+</li>
+</ul>
+<p>Doenças do sistema imunitário 
+Se desenvolver vários sintomas simultaneamente, tais como febre, gânglios linfáticos inchados, 
+nódoas negras ou erupção cutânea, informe imediatamente o seu médico. Estes podem ser sinais de 
+um problema (linfohistiocitose hemofagocítica) em que o sistema imunitário produz demasiadas 
+células de combate à infeção chamadas histiócitos e linfócitos, podendo causar vários sintomas, ver 
+secção 2 (frequência rara). </p>
+<p>Síndrome de lise tumoral 
+Informe o seu médico imediatamente se sentir os seguintes sintomas: náuseas, falta de ar, batimento 
+cardíaco irregular, cãibras musculares, convulsões, urina turva, diminuição da produção de urina e 
+cansaço. Estes podem ser provocados por uma condição que resulta de uma rápida degradação das 
+células cancerígenas que em algumas pessoas pode ser fatal (síndrome de lise tumoral ou SLT), ver 
+secção 2 (frequência desconhecida). </p>
+<p>Efeitos indesejáveis possíveis em doentes a tomar Mekinist em monoterapia </p>
+<p>Os efeitos indesejáveis que pode sentir quando estiver a tomar Mekinist isoladamente são os 
+seguintes: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>Tensão arterial elevada (hipertensão) </p>
+</li>
+<li>
+<p>Hemorragia, em vários locais do corpo, que pode ser ligeira ou grave </p>
+</li>
+<li>
+<p>Tosse </p>
+</li>
+<li>
+<p>Falta de ar </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Má-disposição (náuseas) ou indisposição (vómitos) </p>
+</li>
+<li>
+<p>Obstipação </p>
+</li>
+<li>
+<p>Dor de estômago </p>
+</li>
+<li>
+<p>Boca seca </p>
+</li>
+<li>
+<p>Erupção cutânea, erupção semelhante a acne, vermelhidão da face, pele seca ou com comichão 
+(ver também “Alterações na sua pele" mais acima na secção 4) </p>
+</li>
+<li>
+<p>Perda ou adelgaçamento de cabelo pouco habitual </p>
+</li>
+<li>
+<p>Falta de energia ou sentir-se fraco ou cansado </p>
+</li>
+<li>
+<p>Inchaço das mãos ou dos pés (edema periférico) </p>
+</li>
+<li>
+<p>Febre (temperatura elevada) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito frequentes que podem revelar-se nas análises ao sangue </p>
+<ul>
+<li>Resultados anormais das análises ao sangue relacionadas com o fígado </li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>Inflamação dos folículos capilares na pele </p>
+</li>
+<li>
+<p>Afeções das unhas como alterações do leito da unha, dor ungueal, infeção e inchaço das 
+cutículas </p>
+</li>
+<li>
+<p>Infeção da pele (celulite) </p>
+</li>
+<li>
+<p>Erupção cutânea com bolhas com pus (ver também “Alterações na sua pele" mais acima na 
+secção 4) </p>
+</li>
+<li>
+<p>Reação alérgica (hipersensibilidade) </p>
+</li>
+<li>
+<p>Desidratação (níveis baixos de água ou fluidos) </p>
+</li>
+<li>
+<p>Visão turva </p>
+</li>
+<li>
+<p>Inchaço ao redor dos olhos </p>
+</li>
+<li>
+<p>Problemas com a visão (ver também “Problemas oculares (com a visão)", mais acima na 
+secção 4) </p>
+</li>
+<li>
+<p>Frequência cardíaca mais baixa do que o normal e/ou diminuição da frequência cardíaca </p>
+</li>
+<li>
+<p>Inchaço dos tecidos localizados </p>
+</li>
+<li>
+<p>Inflamação do pulmão (pneumonite ou doença pulmonar intersticial) </p>
+</li>
+<li>
+<p>Boca inflamada ou úlceras (feridas) na boca, inflamação das mucosas </p>
+</li>
+<li>
+<p>Vermelhidão, gretas ou descamação da pele </p>
+</li>
+<li>
+<p>Mãos e pés vermelhos, dolorosos </p>
+</li>
+<li>
+<p>Inchaço da face </p>
+</li>
+<li>
+<p>Inflamação da mucosa </p>
+</li>
+<li>
+<p>Sensação de fraqueza </p>
+</li>
+<li>
+<p>Problema com os nervos que pode provocar dor, perda de sensibilidade ou formigueiro nas 
+mãos e nos pés e/ou fraqueza muscular (neuroparia periférica) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes que podem revelar-se nas análises ao sangue: </p>
+<ul>
+<li>Diminuição dos glóbulos vermelhos (anemia), análises anormais relacionadas com a creatina 
+fosfoquinase, uma enzima encontrada principalmente no coração, cérebro, e músculo 
+esquelético </li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas): </p>
+<ul>
+<li>
+<p>Inchaço no olho causado por vazamento de fluido (corioretinopatia) (ver também “Problemas 
+oculares (com a visão)", mais acima na secção 4) </p>
+</li>
+<li>
+<p>Inchaço dos nervos na parte de trás do olho (edema papilar) (ver também “Problemas oculares 
+(com a visão)", mais acima na secção 4) </p>
+</li>
+<li>
+<p>Separação da membrana sensível à luz na parte de trás do olho (a retina) das suas camadas de 
+suporte (descolamento da retina) (ver também “Problemas oculares (com a visão)", mais acima 
+na secção 4). </p>
+</li>
+<li>
+<p>Bloqueio da veia que drena o olho (oclusão de veia da retina) (ver também “Problemas oculares 
+(com a visão)", mais acima na secção 4) </p>
+</li>
+<li>
+<p>Coração a bombear de forma menos eficaz, causando falta de ar, cansaço extremo e inchaço dos 
+tornozelos e das pernas (insuficiência cardíaca) </p>
+</li>
+<li>
+<p>Perfuração do estômago ou intestino </p>
+</li>
+<li>
+<p>Inflamação do intestino (colite) </p>
+</li>
+<li>
+<p>Quebra do músculo que pode causar dor muscular e dano no rim (rabdomiólise) </p>
+</li>
+</ul>
+<p>Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis): </p>
+<ul>
+<li>Batimento cardíaco irregular (bloqueio atrioventricular) </li>
+</ul>
+<p>Efeitos indesejáveis quando Mekinist e dabrafenib são tomados juntamente </p>
+<p>Quando tomar Mekinist e dabrafenib juntamente pode sentir algum dos efeitos indesejáveis constantes 
+das listas acima, apesar de a frequência poder variar (aumentar ou diminuir). </p>
+<p>Pode também ter outros efeitos indesejáveis por tomar dabrafenib ao mesmo tempo que Mekinist 
+na lista abaixo. </p>
+<p>Fale com o médico o mais depressa possível se sentir algum destes sintomas, pela primeira vez ou se 
+este piorarem. </p>
+<p>Leia o folheto informativo de dabrafenib para mais informações sobre os efeitos indesejáveis que 
+pode sentir ao tomar este medicamento. </p>
+<p>Os efeitos indesejáveis que pode observar ao tomar Mekinist em associação com dabrafenib são os 
+seguintes: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>Inflamação nasal e da garganta </p>
+</li>
+<li>
+<p>Diminuição do apetite </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Tensão arterial elevada (hipertensão) </p>
+</li>
+<li>
+<p>Sangramento em vários locais do corpo, que podem ser ligeiros ou graves (hemorragia) </p>
+</li>
+<li>
+<p>Tosse </p>
+</li>
+<li>
+<p>Dor de estômago </p>
+</li>
+<li>
+<p>Obstipação (Prisão de ventre) </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Sensação de enjoo (náuseas), estar enjoado (vómitos) </p>
+</li>
+<li>
+<p>Erupção cutânea, pele seca, comichão, problemas tipo acne </p>
+</li>
+<li>
+<p>Dor nas articulações, dor muscular, ou dor nas mãos ou pés </p>
+</li>
+<li>
+<p>Espasmos musculares </p>
+</li>
+<li>
+<p>Falta de energia, sensação de fraqueza </p>
+</li>
+<li>
+<p>Arrepios </p>
+</li>
+<li>
+<p>Inchaço das mãos ou pés (edema periférico) </p>
+</li>
+<li>
+<p>Febre </p>
+</li>
+<li>
+<p>Estado tipo gripal </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito frequentes que podem revelar-se nas análises ao sangue </p>
+<ul>
+<li>Resultados da análise ao sangue anormais relacionados com o fígado </li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>Infeção do trato urinário </p>
+</li>
+<li>
+<p>Efeitos na pele incluindo infeção da pele (celulite), inflamação dos folículos capilares na pele, 
+afeções das unhas como alterações do leito da unha, infeção e inchaço das cutículas, erupção 
+cutânea com bolhas com pus, carcinoma espinocelular cutâneo (um tipo de cancro da pele), 
+papiloma (um tipo de tumor da pele que geralmente é inofensivo), aparecimento de verrugas, 
+aumento da sensibilidade da pele ao sol (ver também “Alterações na sua pele" acima na 
+secção 4) </p>
+</li>
+<li>
+<p>Desidratação (níveis baixos de água ou fluidos) </p>
+</li>
+<li>
+<p>Visão turva, problemas de visão, inflamação do olho (uveíte) </p>
+</li>
+<li>
+<p>Coração a bombear de forma menos eficaz </p>
+</li>
+<li>
+<p>Tensão arterial baixa (hipotensão) </p>
+</li>
+<li>
+<p>Inchaço de tecidos localizado </p>
+</li>
+<li>
+<p>Falta de ar </p>
+</li>
+<li>
+<p>Boca seca </p>
+</li>
+<li>
+<p>Boca inflamada ou úlceras na boca, inflamação das mucosas </p>
+</li>
+<li>
+<p>Problemas tipo acne </p>
+</li>
+<li>
+<p>Espessamento da camada exterior da (hiperqueratose), manchas na pele espessas, escamosas ou 
+gretadas (queratose actínica), pele gretada </p>
+</li>
+<li>
+<p>Aumento de suor, suores noturnos </p>
+</li>
+<li>
+<p>Queda de cabelo invulgar ou cabelo mais fino </p>
+</li>
+<li>
+<p>Mãos e pés vermelhos e dolorosos </p>
+</li>
+<li>
+<p>Inflamação da camada de gordura por debaixo da pele (paniculite) </p>
+</li>
+<li>
+<p>Inflamação da mucosa </p>
+</li>
+<li>
+<p>Inchaço da face </p>
+</li>
+<li>
+<p>Problema com os nervos que pode provocar dor, perda de sensibilidade ou formigueiro nas 
+mãos e nos pés e/ou fraqueza muscular (neuroparia periférica) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes que podem revelar-se nas análises ao sangue </p>
+<ul>
+<li>
+<p>Níveis baixos de glóbulos brancos </p>
+</li>
+<li>
+<p>Diminuição do número de glóbulos vermelhos (anemia), plaquetas no sangue (células que 
+ajudam o sangue a coagular), e de um tipo de glóbulos brancos (leucopenia) </p>
+</li>
+<li>
+<p>Níveis baixos de sódio no sangue (hiponatremia) ou fosfato (hipofosfatemia) no sangue </p>
+</li>
+<li>
+<p>Aumento do nível de açúcar no sangue </p>
+</li>
+<li>
+<p>Aumento da creatina fosfoquinase, uma enzima encontrada principalmente no coração, cérebro, 
+e músculo-esquelético </p>
+</li>
+<li>
+<p>Aumento de algumas substâncias (enzimas) produzidas pelo fígado </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas): </p>
+<ul>
+<li>
+<p>Novo cancro da pele (melanoma) </p>
+</li>
+<li>
+<p>Marcas na pele </p>
+</li>
+<li>
+<p>Reações alérgicas (hipersensibilidade) </p>
+</li>
+<li>
+<p>Alterações nos olhos incluindo inchaço do olho provocado por derrame de líquido 
+(corioretinopatia), separação da membrana sensível à luz na parte de trás do olho (a retina) das 
+suas camadas de suporte (descolamento da retina) e inchaço em redor dos olhos </p>
+</li>
+<li>
+<p>Frequência cardíaca inferior à normal e/ou diminuição da frequência cardíaca </p>
+</li>
+<li>
+<p>Inflamação do pulmão (pneumonite) </p>
+</li>
+<li>
+<p>Inflamação do pâncreas </p>
+</li>
+<li>
+<p>Inflamação do intestino (colite) </p>
+</li>
+<li>
+<p>Insuficiência renal </p>
+</li>
+<li>
+<p>Inflamação dos rins </p>
+</li>
+<li>
+<p>Doença inflamatória que afeta principalmente a pele, pulmões, olhos e gânglios linfáticos 
+(sarcoidose) </p>
+</li>
+<li>
+<p>Batimento cardíaco irregular (bloqueio atrioventricular) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em cada 1000 pessoas) </p>
+<ul>
+<li>Perfuração do estômago ou intestino </li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis): </p>
+<ul>
+<li>
+<p>Inflamação do músculo cardíaco (miocardite) que pode provocar falta de ar, febre, palpitações e 
+dor no peito </p>
+</li>
+<li>
+<p>Pele escamosa, inflamada (dermatite exfoliativa) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar mekinist"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar mekinist"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco e na embalagem 
+exterior após EXP. O prazo de validade corresponde ao último dia do mês indicado. 
+O medicamento não necessita de qualquer temperatura especial de conservação. 
+Conservar na embalagem de origem para proteger da luz e da humidade. 
+Manter o frasco bem fechado com o dessecante no interior (recipiente com a forma de um pequeno 
+cilindro). 
+Uma vez aberto, o frasco pode ser conservado durante 30 dias a temperatura inferior a 30°C. 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Mekinist 
+- A substância ativa é o trametinib. Cada comprimido revestido por película contém 
+dimetilsulfóxido de trametinib equivalente a 0,5 mg ou 2 mg de trametinib. 
+- Os outros componentes são 
+- Comprimido: manitol (E421), celulose microcristalina (E460), hipromelose (E464), 
+croscarmelose sódica (E468), estearato de magnésio (E470b), laurilsulfato de sódio e 
+dióxido de silício coloidal (E551). 
+- Revestimento: hipromelose (E464), dióxido de titânio (E171), polietilenoglicol, óxido de 
+ferro amarelo (E172) (para os comprimidos de 0,5 mg), polissorbato 80 (E433) e óxido de 
+ferro vermelho (E172) (para os comprimidos de 2 mg). </p>
+<p>Qual o aspeto de Mekinist e conteúdo da embalagem 
+Os comprimidos revestidos por película de Mekinist 0,5 mg são amarelos, ovais modificados, 
+biconvexos, com o logo da companhia gravado numa das faces e “TT" na face oposta. </p>
+<p>Os comprimidos revestidos por película de Mekinist 2 mg são cor-de-rosa, redondos, biconvexos, com 
+o logo da companhia gravado numa das faces e “LL" na face oposta. </p>
+<p>Os comprimidos revestidos por película são disponibilizados em frascos de plástico com fechos de 
+plástico roscados. Um frasco contém 7 ou 30 comprimidos. </p>
+<p>Os frascos também incluem um gel de sílica dessecante num contentor com a forma de um pequeno 
+cilindro. O dessecante deve ser mantido dentro do frasco e não deve ser comido. </p>
+<p>Titular de Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Lek Pharmaceuticals d.d. 
+Verovskova ulica 1526, Ljubljana 
+Eslovénia </p>
+<p>Novartis Pharmaceutical Manufacturing LLC 
+Verovskova ulica 1000, Ljubljana 
+Eslovénia </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse D-90429 Nuremberga 
+Alemanha </p>
+<p>Glaxo Wellcome, S.A. 
+Avda. Extremadura, 3 
+09400, Aranda de Duero 
+Burgos 
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf.: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1809,6 +2908,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a2f0520006a5864136cdf3a6777cfd07"
 * entry[0].resource = composition-da-a2f0520006a5864136cdf3a6777cfd07
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa2f0520006a5864136cdf3a6777cfd07"
+* entry[=].resource = mpa2f0520006a5864136cdf3a6777cfd07
+                            
+                    
+Instance: bundlepackageleaflet-pt-a2f0520006a5864136cdf3a6777cfd07
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mekinist Package Leaflet for language pt"
+Description: "ePI document Bundle for mekinist Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a2f0520006a5864136cdf3a6777cfd07"
+* entry[0].resource = composition-pt-a2f0520006a5864136cdf3a6777cfd07
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa2f0520006a5864136cdf3a6777cfd07"
@@ -1910,6 +3031,18 @@ RuleSet: a2f0520006a5864136cdf3a6777cfd07ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a2f0520006a5864136cdf3a6777cfd07) // mekinist pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

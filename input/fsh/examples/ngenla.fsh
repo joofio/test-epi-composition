@@ -1258,6 +1258,549 @@ herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. S
 
 
 
+Instance: composition-pt-0444f6959a280d43775a9ed2e4fe52c9
+InstanceOf: CompositionUvEpi
+Title: "Composition for ngenla Package Leaflet"
+Description:  "Composition for ngenla Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0444f6959a280d43775a9ed2e4fe52c9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ngenla"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Ngenla e para que é utilizado 
+2. O que precisa de saber antes de utilizar Ngenla<br />
+3. Como utilizar Ngenla 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Ngenla 
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ngenla e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ngenla e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ngenla contém a substância ativa somatrogon, uma forma modificada da hormona do crescimento 
+humana. Para que os ossos e os músculos cresçam é necessária a hormona do crescimento humana 
+natural. Também ajuda os tecidos adiposos e musculares a desenvolverem-se nas proporções certas. 
+Ngenla é utilizado para tratar crianças e adolescentes a partir dos 3 anos de idade que não têm 
+hormona do crescimento em quantidade suficiente e que não estão a crescer ao ritmo normal.
+A substância ativa de Ngenla é fabricada por “tecnologia de ADN recombinante". Isto significa que é 
+produzida em células que foram modificadas em laboratório, para poderem produzir esta substância.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ngenla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ngenla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não utilize Ngenla</h2>
+<p>se tem ou a criança a seu cargo tem alergia ao somatrogon (ver Advertências e precauções) ou a 
+qualquer outro componente deste medicamento (indicados na secção 6).
+-
+se tem ou a criança a seu cargo tem um tumor ativo (cancro). Informe o seu médico se tem ou 
+teve ou a criança a seu cargo tem ou teve um tumor ativo. Os tumores têm de estar inativos e 
+tem ou a criança a seu cargo tem de ter concluído o tratamento oncológico antes de iniciar o 
+tratamento com Ngenla.
+-
+se parou ou a criança a seu cargo parou de crescer devido ao fecho das placas de crescimento 
+(epífises fechadas), o que significa que você ou a criança a seu cargo foram informados pelo 
+médico de que os ossos pararam de crescer.
+-
+se está ou a criança a seu cargo está gravemente doente (por exemplo, complicações após uma 
+cirurgia de coração aberto, cirurgia abdominal, insuficiência respiratória aguda, traumatismo 
+31
+múltiplo por acidente ou condições semelhantes). Se está ou a criança a seu cargo está prestes a 
+ser submetido(a), ou já foi submetido(a), a uma grande cirurgia, ou for ao hospital por qualquer 
+motivo, diga ao seu médico e informe os médicos que o estão a observar ou à criança a seu 
+cargo que utiliza hormona do crescimento.
+Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Ngenla:
+-
+Se desenvolver ou a criança a seu cargo desenvolver uma reação alérgica grave, pare de utilizar 
+Ngenla e fale imediatamente com o seu médico. Ocorreram algumas vezes reações alérgicas 
+graves, tais como hipersensibilidade, incluindo anafilaxia ou angioedema (dificuldades em 
+respirar ou engolir, ou inchaço da face, lábios, garganta ou língua). Se tem ou a criança a seu 
+cargo tem qualquer um dos seguintes sintomas de uma reação alérgica grave: 
+o
+problemas respiratórios
+o
+inchaço da face, boca e língua
+o
+urticária (erupção na pele, papos que surgem por baixo da pele)
+o
+erupção na pele
+o
+febre 
+-
+Se está a fazer ou a criança a seu cargo está a fazer terapêutica de substituição com 
+corticosteroides (glucocorticoides), deve ou a criança a seu cargo deve consultar o seu médico 
+regularmente, pois poderá necessitar de ajustar a dose de glucocorticoides.
+-
+O seu médico deve monitorizar a intervalos regulares se a sua tiroide ou a da criança a seu cargo 
+está a funcionar bem e, se necessário, poderá receitar um tratamento ou ajustar a dose do 
+tratamento existente, pois isso poderá ser necessário para que Ngenla atue apropriadamente. 
+-
+Se tem ou a criança a seu cargo tem síndrome de Prader-Willi, não deve ser tratado com Ngenla, 
+a menos que tenha défice em hormona do crescimento.
+-
+O seu médico deve monitorizá-lo ou à criança a seu cargo quanto a níveis elevados de açúcar no 
+sangue (hiperglicemia) durante o tratamento com Ngenla. Se estiver a ser tratado com insulina 
+ou outros medicamentos para a diabetes, o seu médico poderá ter de ajustar a dose de insulina. 
+Se tem ou a criança a seu cargo tem diabetes e doença ocular associada grave/que se agravou, 
+não deve ser tratado com Ngenla.
+-
+Se alguma vez teve ou a criança a seu cargo teve algum tipo de tumor (cancro).
+-
+Se sentir ou a criança a seu cargo sentir alterações na visão, dores de cabeças intensas ou 
+frequentes associadas a enjoos (náuseas), vómitos, ou tiver falta de controlo dos músculos ou 
+coordenação de movimentos voluntários, tais como andar, apanhar objetos, dificuldade em falar, 
+no movimento dos olhos ou em engolir, especialmente no início do tratamento, informe o seu 
+médico imediatamente. Podem ser sinais de um aumento temporário da tensão dentro do cérebro 
+(hipertensão intracraniana). 
+-
+Se está ou a criança a seu cargo está gravemente doente (por exemplo, complicações após uma 
+cirurgia de coração aberto, cirurgia abdominal, insuficiência respiratória aguda, traumatismo 
+múltiplos por acidente ou condições semelhantes). Se está ou a criança a seu cargo está prestes a
+ser submetido(a), ou foi submetido(a), a uma grande cirurgia ou for ao hospital por qualquer 
+motivo, diga ao seu médico e informe os médicos que o estão a observar ou à criança a seu 
+cargo de que utiliza hormona do crescimento.
+-
+Se desenvolver ou a criança a seu cargo desenvolver uma dor de barriga intensa durante o 
+tratamento com Ngenla, pois pode ser um sintoma de inflamação do pâncreas.
+-
+Se notar em si ou na criança a seu cargo uma curvatura lateral na coluna (escoliose), terá ou a 
+criança a seu cargo terá de ser avaliado(a) com frequência pelo seu médico
+-
+Se durante o crescimento, desenvolver ou a criança a seu cargo desenvolver uma dor na anca ou 
+no joelho ou começar a coxear, deve consultar o seu médico imediatamente. Podem ser 
+sintomas de problemas nos ossos da anca, pois isto pode ocorrer durante períodos de 
+crescimento rápido.
+-
+Se estiver a tomar ou a criança a seu cargo estiver a tomar ou parar de tomar contracetivos orais 
+ou terapêutica de substituição hormonal com estrogénios, o seu médico poderá recomendar que 
+a dose de Ngenla seja ajustada.
+32
+Outros medicamentos e Ngenla
+Informe o seu médico, farmacêutico ou enfermeiro se estiver ou a criança a seu cargo estiver a utilizar, 
+tiver utilizado recentemente, ou se vier a utilizar outros medicamentos. 
+-
+Se toma ou a criança a seu cargo toma terapêutica de substituição com corticosteroides 
+(glucocorticoides), isso poderá reduzir o efeito de Ngenla no crescimento. Deve ou a criança a 
+seu cargo deve consultar o seu médico regularmente, pois poderá precisar de ajustar a dose de 
+glucocorticoides.
+-
+Se estiver ou a criança a seu cargo estiver a ser tratado(a) com insulina ou outros medicamentos 
+para a diabetes, deve consultar o seu médico pois poderá ter de ajustar a dose.
+-
+Se está ou a criança a seu cargo está a receber tratamento com hormonas da tiroide, o seu 
+médico poderá precisar de ajustar a dose.
+-
+Se está ou a criança a seu cargo está a receber estrogénios por via oral, deve consultar o seu 
+médico pois poderá ser necessário ajustar a dose de Ngenla.
+-
+Se está ou a criança a seu cargo está a receber ciclosporina (um medicamento que enfraquece o 
+sistema imunitário após um transplante), deve consultar o seu médico pois poderá ser necessário 
+ajustar a dose.
+-
+Se está ou a criança a seu cargo está a receber medicamentos para controlar a epilepsia 
+(anticonvulsivantes), deve consultar o seu médico pois poderá ser necessário ajustar a dose.
+Gravidez e amamentação 
+Se está ou a criança a seu cargo está grávida ou a amamentar, se pensa estar grávida ou que a criança a 
+seu cargo está grávida ou planeia engravidar, consulte o seu médico ou farmacêutico antes de utilizar
+este medicamento.
+Ngenla não foi testado em mulheres grávidas e desconhece-se se pode ser prejudicial para os fetos. Por 
+isso, é preferível evitar Ngenla durante a gravidez. Se tiver a possibilidade de engravidar, não deve 
+utilizar Ngenla se não utilizar contraceção eficaz. 
+Desconhece-se se o somatrogon passa para o leite materno. Informe o seu médico se está ou a criança 
+a seu cargo está a amamentar ou planeia fazê-lo. O seu médico irá ajudá-la ou à criança a seu cargo a 
+decidir entre parar a amamentação ou parar de utilizar Ngenla, tendo em conta o benefício da 
+amamentação para o bebé e o benefício de Ngenla para si ou para criança a seu cargo.
+Condução de veículos e utilização de máquinas
+Ngenla não afeta a capacidade de conduzir e utilizar máquinas.
+Ngenla contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio".
+Ngenla contém metacresol
+Ngenla contém um conservante chamado metacresol. Em casos muito raros, a presença de metacresol 
+pode causar inflamação (inchaço) nos músculos. Se sentir ou a criança a seu cargo sentir dor muscular 
+ou dor no local de injeção, informe o seu médico. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ngenla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ngenla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Este medicamento será receitado apenas por médicos com experiência no tratamento com hormona do 
+crescimento e que confirmaram o seu diagnóstico ou o da criança a seu cargo.
+Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico, 
+farmacêutico ou enfermeiro se tiver dúvidas.
+A dose de Ngenla que deve ser injetada será decidida pelo seu médico.
+33
+Que quantidade utilizar
+O seu médico vai calcular a sua dose de Ngenla tendo em conta o seu peso corporal em quilogramas. 
+A dose recomendada é de 0,66 mg por kg de peso corporal e é administrada uma vez por semana. Se 
+tem sido ou a criança a seu cargo tem sido tratado(a) com injeções diárias de hormona do crescimento, 
+o seu médico vai dizer-lhe para aguardar para utilizar a primeira dose de Ngenla até ao dia a seguir à 
+sua última injeção diária e, daí em diante, continuar com Ngenla uma vez por semana.
+Não altere a sua dose, a menos que tenha indicação do seu médico para tal.
+Como Ngenla é administrado
+-
+Ngenla é fornecido em canetas pré-cheias, em 2 tamanhos diferentes (Ngenla 24 mg e Ngenla 
+60 mg). Com base na dose recomendada, o seu médico ou o médico da criança a seu cargo vai 
+receitar o tamanho de caneta mais apropriado (ver secção 6 “Conteúdo da embalagem e outras 
+informações").
+-
+Antes de utilizar ou a criança a seu cargo utilizar a caneta pela primeira vez, o seu médico ou 
+enfermeiro vai demonstrar-lhe como se utiliza. Ngenla é administrado sob a forma de uma 
+injeção sob a pele (injeção subcutânea) utilizando uma caneta pré-cheia. Não injete em veias ou 
+músculos.
+-
+O melhor local para administrar Ngenla é no abdómen (barriga), nas coxas, nas nádegas ou na 
+parte superior dos braços. As injeções nas nádegas e nos braços devem ser administradas pelo 
+cuidador.
+-
+Mude o local de injeção no seu corpo ou no da criança a seu cargo, de cada vez que uma dose é 
+administrada.
+-
+Se for necessária mais do que uma injeção para administrar a dose completa, cada injeção deve 
+ser administrada num local de injeção diferente.
+Pode encontrar instruções detalhadas sobre a utilização da caneta pré-cheia no final deste folheto 
+informativo. 
+Quando utilizar Ngenla
+Deve ou a criança a seu cargo deve utilizar este medicamento uma vez por semana, no mesmo dia da 
+semana. 
+Deve ou a criança a seu cargo deve anotar o dia da semana em que utiliza Ngenla para o ajudar a si ou 
+à criança a seu cargo a lembrar-se de injetar este medicamento uma vez por semana.
+Se necessário, pode ou a criança a seu cargo pode mudar o dia da sua injeção semanal, desde que 
+tenham passado, pelo menos, 3 dias desde a última injeção. Após ter selecionado um novo dia para a 
+toma, continue a autoadministrar a injeção no mesmo dia, todas as semanas.
+Se utilizar mais Ngenla do que deveria
+Se injetou ou a criança a seu cargo injetou mais Ngenla do que deveria, contacte o seu médico 
+imediatamente pois poderá ser necessário verificar os seus níveis de açúcar no sangue. 
+Caso se tenha esquecido de utilizar Ngenla
+Caso se tenha esquecido ou a criança a seu cargo se tenha esquecido de injetar uma dose e:
+-
+Passaram 3 dias ou menos desde a data em que deveria ter utilizado Ngenla, utilize-o logo que 
+se lembrar. Em seguida, injete a dose seguinte no dia de injeção habitual;
+-
+Passaram mais de 3 dias desde a data em que deveria ter utilizado Ngenla, omita a dose 
+esquecida. Em seguida, injete a dose seguinte no dia de injeção habitual. Deve ser mantido um 
+dia regular para a injeção.
+Não utilize uma dose a dobrar para compensar uma dose que se esqueceu de administrar.
+34
+Se parar de utilizar Ngenla
+Não pare de utilizar este medicamento sem falar primeiro com o seu médico. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Muito frequentes: podem afetar mais de 1 em cada 10 pessoas
+-
+Dor de cabeça
+-
+Hemorragia, inflamação, comichão, dor, vermelhidão, estado dorido, picadas, sensibilidade ao 
+toque ou sensação de calor no local de injeção (reações no local de injeção) 
+-
+Febre (pirexia)
+Frequentes: podem afetar até 1 em cada 10 pessoas
+-
+Diminuição do número de glóbulos vermelhos no sangue (anemia)
+-
+Aumento do número de eosinófilos no sangue (eosinofilia)
+-
+Diminuição do nível de hormonas da tiroide no sangue (hipotiroidismo)
+-
+Inflamação alérgica da conjuntiva, a camada transparente que reveste a face exterior do olho 
+(conjuntivite alérgica)
+-
+Dor nas articulações (artralgia)
+-
+Dor nos braços ou nas pernas 
+Pouco frequentes: podem afetar até 1 em 100 pessoas
+-
+As glândulas suprarrenais não produzem hormonas esteroides em quantidade suficiente 
+(insuficiência suprarrenal)
+-
+Erupção na pele
+Outros efeitos indesejáveis possíveis não observados com Ngenla mas que foram notificados com 
+outros tratamentos com hormona do crescimento podem incluir o seguinte:
+-
+Crescimento de tecidos (cancerosos e não cancerosos)
+-
+Diabetes tipo 2
+-
+Aumento da pressão intracraniana (o que causa sintomas, tais com dor de cabeça forte, 
+distúrbios visuais ou vómitos)
+-
+Dormência ou formigueiro
+-
+Dores articulares ou musculares
+-
+Aumento das mamas em homens e rapazes
+-
+Erupção na pele, vermelhidão e comichão na pele
+-
+Retenção de líquidos (que se manifesta por dedos ou tornozelos inchados)
+-
+Inchaço da face
+-
+Pancreatite (que causa sintomas de dor de estômago, náuseas, vómitos ou diarreia)
+Em casos muito raros, a presença de metacresol pode causar inflamação (inchaço) dos músculos. Se 
+tiver ou a criança a seu cargo tiver dores musculares ou dor no local de injeção, informe o seu médico.
+Comunicação de efeitos indesejáveis
+Se tiver ou a criança a seu cargo tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos 
+indesejáveis não indicados neste folheto, fale com o seu médico, farmacêutico ou enfermeiro.
+Também poderá comunicar efeitos indesejáveis diretamente através do sistema nacional de notificação 
+mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais 
+informações sobre a segurança deste medicamento.
+35</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ngenla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ngenla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no rótulo da caneta e na embalagem 
+exterior após “EXP." O prazo de validade corresponde ao último dia do mês indicado.
+A caneta pré-cheia não deve ser utilizada durante mais de 28 dias após a primeira utilização. 
+Antes da primeira utilização de Ngenla
+-
+Conservar no frigorífico (2°C - 8°C). 
+-
+Manter Ngenla dentro da embalagem exterior para proteger da luz.
+-
+Retire Ngenla do frigorífico antes de utilizar. Ngenla pode ser conservado à temperatura 
+ambiente (até 32°C), até 4 horas.
+-
+Não utilize este medicamento se verificar que a solução está turva ou amarela escura. Não 
+utilize o medicamento se contiver flocos ou partículas.
+-
+Não agite a caneta. Agitar pode danificar o medicamento.
+Após a primeira utilização de Ngenla
+-
+Utilizar nos 28 dias seguintes à primeira utilização. Conservar no frigorífico (2°C - 8°C). Não 
+congelar.
+-
+Conserve Ngenla com a tampa da caneta colocada para proteger da luz.
+-
+Não conservar a caneta pré-cheia com uma agulha colocada. 
+-
+Elimine a caneta após a última dose, mesmo que contenha medicamento não utilizado.
+-
+Ngenla pode ser conservado à temperatura ambiente (até 32ºC), até 4 horas, para cada injeção 
+num máximo de 5 vezes. Volte a colocar Ngenla no frigorífico após cada utilização.
+-
+Não deixe à temperatura ambiente durante mais de 4 horas para cada utilização.
+-
+Não coloque a caneta num local onde a temperatura possa ultrapassar os 32°C.
+-
+Se passaram mais de 28 dias desde a primeira utilização da caneta, deite-a fora mesmo que 
+contenha medicamento não utilizado. Se a caneta foi exposta a temperaturas superiores a 32°C 
+ou se esteve fora do frigorífico durante mais de 4 horas em cada utilização ou se foi utilizada 
+5 vezes, no total, deite-a fora mesmo que contenha medicamento não utilizado.
+Para o ajudar a lembrar-se quando deve eliminar a sua caneta, poderá escrever a data da primeira 
+utilização no rótulo da caneta.
+Pode permanecer uma pequena quantidade de medicamento na caneta, depois de todas as doses terem 
+sido corretamente administradas. Não tente utilizar esse medicamento restante. Depois de administrar 
+a última dose, a caneta tem de ser eliminada corretamente. 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.
+36</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Ngenla</h2>
+<p>A substância ativa é o somatrogon. 
+Ngenla 24 mg solução injetável em caneta pré-cheia
+Um ml de solução contém 20 mg de somatrogon. 
+Cada caneta pré-cheia contém 24 mg de somatrogon em 1,2 ml de solução. Cada caneta pré-cheia 
+administra doses desde 0,2 mg a 12 mg numa única injeção em incrementos de 0,2 mg.
+Ngenla 60 mg solução injetável em caneta pré-cheia
+Um ml de solução contém 50 mg de somatrogon.
+Cada caneta pré-cheia contém 60 mg de somatrogon em 1,2 ml de solução. Cada caneta pré-cheia 
+administra doses desde 0,5 mg a 30 mg numa única injeção em incrementos de 0,5 mg.
+-
+Os outros componentes são: citrato trissódico di-hidratado, ácido cítrico mono-hidratado, 
+L-histidina, cloreto de sódio (ver secção 2 “Ngenla contém sódio"), poloxâmero 188, m-Cresol, 
+água para preparações injetáveis.
+Qual o aspeto de Ngenla e conteúdo da embalagem
+Ngenla é uma solução injetável (injetável) límpida e incolor a ligeiramente amarela clara numa caneta 
+pré-cheia.<br />
+Ngenla 24 mg solução injetável está disponível numa apresentação contendo 1 caneta pré-cheia. A 
+tampa da caneta, o botão doseador e o rótulo da caneta são de cor lilás.
+Ngenla 60 mg solução injetável está disponível numa apresentação contendo 1 caneta pré-cheia. A 
+tampa da caneta, o botão doseador e o rótulo da caneta são de cor azul.
+Titular da Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante
+Pfizer Manufacturing Belgium NV
+Rijksweg 12
+Puurs, 2870
+Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: + 36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+37
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς Α.Ε.
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda. 
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: + 386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: +371 670 35 775
+Este folheto foi revisto pela última vez em .
+38
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1299,6 +1842,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-0444f6959a280d43775a9ed2e4fe52c9"
 * entry[0].resource = composition-da-0444f6959a280d43775a9ed2e4fe52c9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0444f6959a280d43775a9ed2e4fe52c9"
+* entry[=].resource = mp0444f6959a280d43775a9ed2e4fe52c9
+                            
+                    
+Instance: bundlepackageleaflet-pt-0444f6959a280d43775a9ed2e4fe52c9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ngenla Package Leaflet for language pt"
+Description: "ePI document Bundle for ngenla Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-0444f6959a280d43775a9ed2e4fe52c9"
+* entry[0].resource = composition-pt-0444f6959a280d43775a9ed2e4fe52c9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp0444f6959a280d43775a9ed2e4fe52c9"
@@ -1400,6 +1965,18 @@ RuleSet: 0444f6959a280d43775a9ed2e4fe52c9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-0444f6959a280d43775a9ed2e4fe52c9) // ngenla pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

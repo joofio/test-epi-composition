@@ -829,6 +829,440 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-bf55777f1fad69c8fa791ca2ceb30315
+InstanceOf: CompositionUvEpi
+Title: "Composition for tolura Package Leaflet"
+Description:  "Composition for tolura Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbf55777f1fad69c8fa791ca2ceb30315)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tolura"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Tolura e para que é utilizado
+2. O que precisa de saber antes de tomar Tolura
+3. Como tomar Tolura
+4. Efeitos indesejáveis possíveis
+5. Como conservar Tolura
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tolura e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tolura e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tolura pertence a uma classe de medicamentos conhecidos como antagonistas dos recetores da 
+angiotensina II. A angiotensina II é uma substância produzida no seu organismo, que provoca o 
+estreitamento dos seus vasos sanguíneos, aumentando assim a sua pressão arterial. Tolura bloqueia o 
+efeito da angiotensina II, provocando um relaxamento dos vasos sanguíneos, diminuindo assim a sua 
+pressão arterial.
+Tolura é utilizado para tratar a hipertensão (pressão arterial elevada) essencial em adultos. 
+“Essencial" significa que a pressão arterial elevada não é causada por nenhuma outra condição.
+A pressão arterial elevada, se não for tratada, pode causar lesão nos vasos sanguíneos em vários 
+órgãos, o que pode, em alguns casos, conduzir a ataque cardíaco, insuficiência cardíaca ou renal, 
+acidente vascular cerebral ou cegueira. Normalmente, não há sintomas de pressão arterial elevada 
+antes de ocorrer lesão. Por isso, é importante medir regularmente a sua pressão arterial para verificar 
+se a mesma se encontra dentro dos valores normais.
+Tolura é também utilizado para a redução de acontecimentos cardiovasculares (como ataque 
+cardíaco ou AVC) em adultos que estão em risco porque têm o fornecimento de sangue ao coração ou 
+às pernas reduzido ou bloqueado, ou tiveram um AVC ou têm diabetes de elevado risco. O seu médico 
+poderá dizer-lhe se está em elevado risco de sofrer estes acontecimentos.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tolura"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tolura"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Tolura</h2>
+<p>se tem alergia ao telmisartan ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+-
+se tiver mais do que três meses de gravidez. (Também é preferível não tomar Tolura no início da 
+gravidez - ver secção Gravidez).
+-
+se sofre de problemas hepáticos graves, como colestase ou de obstrução biliar (problemas com a 
+drenagem da bílis a partir do fígado e da vesícula biliar) ou de qualquer outra doença hepática 
+grave.
+-
+se tem diabetes ou função renal diminuída e está a ser tratado com um medicamento que contém 
+46
+aliscireno para diminuir a pressão arterial.
+Se alguma das situações acima descritas se aplica a si, informe o seu médico ou farmacêutico antes de
+tomar Tolura.
+Advertências e precauções
+Fale com o seu médico se sofre ou alguma vez sofreu de qualquer uma das seguintes condições ou 
+doenças:
+-
+Doença renal ou transplante renal.
+-
+Estenose arterial renal (estreitamento dos vasos sanguíneos para um ou ambos os rins).
+-
+Doença do fígado.
+-
+Problemas cardíacos.
+-
+Níveis aumentados de aldosterona (retenção de sal e água no organismo juntamente com 
+desequilíbrio de vários minerais sanguíneos).
+-
+Pressão arterial baixa (hipotensão), que pode ocorrer se estiver desidratado (perda excessiva de 
+água corporal) ou se tiver deficiência salina devida a terapêutica diurética (“comprimidos de 
+água"), dieta pobre em sal, diarreia ou vómito.
+-
+Níveis elevados de potássio no sangue.
+-
+Diabetes.
+Fale com o seu médico antes de tomar Tolura:
+-
+se estiver a tomar digoxina.
+-
+se está a tomar algum dos seguintes medicamentos para tratar a pressão arterial elevada:
+-
+um inibidor da ECA (por exemplo enalapril, lisinopril, ramipril), em particular se tiver 
+problemas nos rins relacionados com diabetes.
+-
+aliscireno
+Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. Tolura não está 
+recomendado no início da gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez 
+que pode ser gravemente prejudicial para o bebé se utilizado a partir desta altura (ver secção 
+Gravidez).
+Em caso de cirurgia ou anestesia, deve informar o seu médico de que está a tomar Tolura.
+Tolura pode ser menos eficaz na diminuição da tensão arterial em doentes de raça negra.
+O seu médico pode verificar a sua função renal, pressão arterial e a quantidade de eletrólitos (por 
+exemplo, o potássio) no seu sangue em intervalos regulares.
+Ver também a informação sob o título “Não tome Tolura".
+Crianças e adolescentes
+Não é recomendado o uso de Tolura em crianças e adolescentes até aos 18 anos de idade.
+Outros medicamentos e Tolura
+Informe o seu médico ou farmacêutico se estiver a tomar ou tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. O seu médico pode necessitar alterar a dose desses outros medicamentos 
+ou tomar outras precauções. Em alguns casos pode ter que parar de tomar um dos medicamentos. Isto 
+aplica-se especialmente aos medicamentos abaixo listados quando tomados ao mesmo tempo que o 
+Tolura:
+-
+Medicamentos contendo lítio para tratar alguns tipos de depressão.
+-
+Medicamentos que podem aumentar os níveis de potássio no sangue, tais como, substitutos 
+salinos contendo potássio, diuréticos poupadores de potássio (alguns “comprimidos de água"), 
+IECAs, antagonistas dos recetores da angiotensina II, AINEs (medicamentos anti-inflamatórios 
+não esteroides, tais como aspirina ou ibuprofeno), heparina, imunossupressores (tais como 
+ciclosporina ou tacrolimus) e o antibiótico trimetoprim.
+-
+Diuréticos (“comprimidos de água"), especialmente se tomados em doses elevadas 
+47
+conjuntamente com Tolura, podem levar a excessiva perda de água corporal e baixa pressão 
+arterial (hipotensão).
+-
+Se está a tomar um inibidor da ECA ou aliscireno (ver também informações sob os títulos “Não 
+tome Tolura" e “Advertências e precauções").
+-
+Digoxina.
+O efeito do Tolura pode ser reduzido se estiver a tomar AINEs (medicamentos anti-inflamatórios não 
+esteroides, tais como aspirina e ibuprofeno) ou corticosteroides.
+Tolura pode aumentar o efeito de diminuição da pressão arterial de outros medicamentos utilizados 
+para tratar a pressão arterial elevada ou de medicamentos com potencial de redução da pressão arterial 
+(por exemplo, baclofeno, amifostina). Ademais, a pressão arterial baixa pode ser agravada pelo álcool, 
+barbitúricos, narcóticos ou antidepressivos. Pode percecionar isto como tonturas ao levantar-se. Deve 
+consultar o seu médico, se precisa de ajustar a dose dos outros medicamentos, enquanto estiver a 
+tomar Tolura.
+Gravidez e amamentação
+Gravidez
+Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. O seu médico 
+normalmente aconselhá-la-á a interromper Tolura antes de engravidar ou assim que estiver grávida e a 
+tomar outro medicamento em vez de Tolura. Tolura não está recomendado no início da gravidez e não 
+pode ser tomado após o terceiro mês de gravidez, uma vez que pode ser gravemente prejudicial para o 
+bebé se utilizado a partir desta altura.
+Amamentação
+Deverá informar o seu médico de que se encontra a amamentar ou que está prestes a iniciar o 
+aleitamento. Tolura não está recomendado em mães a amamentar, especialmente se o bebé for recém-
+nascido ou prematuro; nestes casos o seu médico poderá indicar outro tratamento.
+Condução de veículos e utilização de máquinas
+Algumas pessoas sentem tonturas ou cansaço quando tomam Tolura. Se sentir tonturas ou cansaço, 
+não conduza veículos ou utilize máquinas.
+Tolura contém lactose e sorbitol (E420).
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento.
+Este medicamento contém 149,8 mg de sorbitol em cada comprimido.
+O sorbitol é uma fonte de frutose. Se o seu médico lhe disse que tem uma intolerância a alguns 
+açúcares ou se foi diagnosticado com intolerância hereditária à frutose (IHF), uma doença genética 
+rara em que a pessoa não consegue digerir a frutose, fale com o seu médico antes de você tomar ou 
+receber este medicamento.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tolura"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tolura"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+A dose recomendada de Tolura é de um comprimido por dia. Tente tomar o comprimido sempre à 
+mesma hora todos os dias.
+Pode tomar Tolura com ou sem alimentos. Os comprimidos devem ser engolidos com alguma água ou 
+outra bebida não alcoólica. É importante que tome Tolura todos os dias, até que o seu médico lhe diga 
+o contrário. Se tiver a impressão que o efeito de Tolura é muito forte ou muito fraco, fale com o seu 
+médico ou farmacêutico.
+Para tratamento da pressão sanguínea elevada, a dose normal de Tolura para a maioria dos doentes é 
+48
+um comprimido de 40 mg uma vez ao dia para controlar a pressão arterial durante um período de 
+24 horas. No entanto, por vezes o seu médico pode recomendar uma dose inferior de 20 mg ou uma 
+dose superior de 80 mg. Os comprimidos de Tolura não podem ser divididos, não sendo portanto 
+adequados para doentes que necessitem de uma dose de 20 mg de telmisartan. Para estes doentes está 
+disponível um medicamento equivalente com a mesma substância ativa. Como alternativa, o 
+telmisartan pode ser utilizado em combinação com diuréticos (“comprimidos de água") tais como a 
+hidroclorotiazida que tem demonstrado ter um efeito aditivo na diminuição da pressão arterial com o 
+Tolura.
+Para a redução de acontecimentos cardiovasculares, a dose normal de Tolura é um comprimido de mg uma vez ao dia. No início do tratamento de prevenção com Tolura 80 mg, a pressão sanguínea 
+deve ser frequentemente monitorizada.
+Se o seu fígado não está a funcionar normalmente, a dose normal não deve exceder os 40 mg uma vez 
+ao dia.
+Se tomar mais Tolura do que deveria
+Se tomar acidentalmente demasiados comprimidos, contacte imediatamente o seu médico, o seu 
+farmacêutico ou as urgências do hospital mais próximo.
+Caso se tenha esquecido de tomar Tolura
+Se se esquecer de tomar uma dose, não se preocupe. Tome-a logo que se lembre e depois continue 
+como habitualmente. Se não tomar o seu comprimido num dia, tome a sua dose normal no dia 
+seguinte. Não tome uma dose a dobrar para compensar doses individuais que se esqueceu de tomar.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Alguns efeitos indesejáveis podem ser graves e necessitar de atenção médica imediata:
+Deve procurar imediatamente o seu médico se apresentar qualquer um dos seguintes sintomas:
+Sepsis<em> (muitas vezes designada “envenenamento sanguíneo", é uma infeção grave que desencadeia 
+uma resposta generalizada do sistema inflamatório), rápido inchaço da pele e mucosas (angioedema); 
+estes efeitos são raros (podem afetar até 1 em 1.000 pessoas) mas são extremamente graves e os 
+doentes devem parar de tomar o medicamento e procurar o seu médico imediatamente. Se estes efeitos 
+não forem tratados, podem ser fatais.
+Efeitos indesejáveis possíveis de Tolura:
+Os efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas):
+Pressão sanguínea baixa (hipotensão) em utilizadores tratados para a redução de acontecimentos 
+cardiovasculares.
+Os efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas):
+Infeções do trato urinário, infeções do trato respiratório superior (p. ex.: garganta inflamada, sinusite 
+(inflamação dos seios perinasais), constipação), deficiência em células vermelhas do sangue (anemia), 
+níveis elevados de potássio, dificuldade em adormecer, sensação de tristeza (depressão), desmaio 
+(síncope), sensação de rotação (vertigem), frequência cardíaca baixa (bradicardia), pressão sanguínea 
+baixa (hipotensão) em utilizadores tratados para a pressão sanguínea elevada, tonturas quando se está 
+de pé (hipotensão ortostática), falta de ar, tosse, dor abdominal, diarreia, desconforto no abdómen, 
+distensão abdominal, vómitos, comichão, aumento da sudação, erupção cutânea de causa 
+49
+medicamentosa, dor nas costas, cãibras musculares, dor muscular (mialgia), compromisso renal, 
+incluindo insuficiência renal aguda, dor no peito, sensação de fraqueza e aumento dos níveis de 
+creatinina no sangue.
+Os efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas):
+Sepsis</em> (muitas vezes designada “envenenamento sanguíneo", é uma infeção grave que desencadeia 
+uma resposta generalizada do sistema inflamatório podendo conduzir à morte), aumento de algumas 
+células brancas do sangue (eosinofilia), contagem de plaquetas baixa (trombocitopenia), reação 
+alérgica grave (reação anafilática), reações alérgicas (ex.: erupção cutânea, comichão, dificuldade em 
+respirar, pieira, inchaço da face ou baixa pressão sanguínea), níveis baixos de açúcar no sangue (em 
+doentes diabéticos), ansiedade, sonolência, visão alterada, batimento cardíaco acelerado (taquicardia), 
+boca seca, mal-estar no estômago, alteração do paladar (disgeusia), função hepática anormal (os 
+doentes japoneses são mais suscetíveis de sofrer este efeito secundário), rápido inchaço da pele e 
+mucosas que também pode levar à morte (angioedema também com resultado fatal), eczema (uma 
+alteração da pele), vermelhidão na pele, urticária, erupção cutânea de causa medicamentosa grave, dor 
+nas articulações (artralgia), dor nas extremidades, dor nos tendões, doença do tipo gripal, diminuição 
+da hemoglobina (uma proteína sanguínea), níveis aumentados de ácido úrico, aumento das enzimas 
+hepáticas ou da creatinina fosfoquinase no sangue.
+Efeitos indesejáveis muito raros (podem afetar até 1 em 10.000 pessoas):
+Cicatrização progressiva do tecido pulmonar (doença pulmonar intersticial)**.</p>
+<ul>
+<li>O evento pode ter acontecido por acaso ou pode estar relacionado com um mecanismo atualmente 
+desconhecido.</li>
+</ul>
+<p>** Casos de cicatrização progressiva do tecido pulmonar foram notificados durante a toma de 
+telmisartan. No entanto, não se sabe se o telmisartan é a causa.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tolura"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tolura"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após VAL. O 
+prazo de validade corresponde ao último dia do mês indicado.
+Não conservar acima de 30ºC.
+Conservar na embalagem de origem para proteger da luz.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Tolura</h2>
+<h2>A substância ativa é o telmisartan. Cada comprimido contém 40 mg de telmisartan.</h2>
+<p>Os outros componentes são: povidona, meglumina, hidróxido de sódio, lactose mono-hidratada, 
+sorbitol (E420) e estearato de magnésio. Ver secção 2 “Tolura contém lactose e sorbitol 
+(E420)".
+50
+Qual o aspecto de Tolura e conteúdo da embalagem
+Os comprimidos de Tolura 40 mg são brancos a quase brancos, biconvexos, ovais.
+Tolura é fornecido em embalagens de blisters contendo 14, 28, 30, 56, 84, 90, 98 ou 100 comprimidos.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Eslovénia
+Fabricante
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Eslovénia
+KRKA-POLSKA Sp. z o.o., ul. Równoległa 5, 02-235 Warszawa, Polónia
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+KRKA Belgium, SA.
+Tél/Tel: + 32 (0) 487 50 73 62
+Lietuva
+UAB KRKA Lietuva
+Tel: + 370 5 236 27 40
+България
+КРКА България ЕООД
+Teл.: + 359 (02) 962 34 50
+Luxembourg/Luxemburg
+KRKA Belgium, SA.
+Tél/Tel: + 32 (0) 487 50 73 62 (BE)
+Česká republika
+KRKA ČR, s.r.o.
+Tel: + 420 (0) 221 115 150
+Magyarország
+KRKA Magyarország Kereskedelmi Kft.
+Tel.: + 36 (1) 355 8490
+Danmark
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Malta
+E.J. Busuttil Ltd.
+Tel: + 356 21 445 885
+Deutschland
+TAD Pharma GmbH
+Tel: + 49 (0) 4721 606-0
+Nederland
+KRKA Belgium, SA.
+Tel: + 32 (0) 487 50 73 62 (BE)
+Eesti
+KRKA, d.d., Novo mesto Eesti filiaal
+Tel: + 372 (0) 6 671 658
+Norge
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Ελλάδα
+KRKA ΕΛΛΑΣ ΕΠΕ
+Τηλ: + 30 2100101613
+Österreich
+KRKA Pharma GmbH, Wien
+Tel: + 43 (0)1 66 24 300
+España
+KRKA Farmacéutica, S.L.
+Tel: + 34 911 61 03 80
+Polska
+KRKA-POLSKA Sp. z o.o.
+Tel.: + 48 (0)22 573 7500
+France
+KRKA France Eurl
+Tél: + 33 (0)1 57 40 82 25
+Portugal
+KRKA Farmacêutica, Sociedade Unipessoal Lda.
+Tel: + 351 (0)21 46 43 650
+Hrvatska
+KRKA - FARMA d.o.o.
+Tel: + 385 1 6312 100
+România
+KRKA Romania S.R.L., Bucharest
+Tel: + 4 021 310 66 05
+51
+Ireland
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Slovenija
+KRKA, d.d., Novo mesto
+Tel: + 386 (0) 1 47 51 100
+Ísland
+LYFIS ehf.
+Sími: + 354 534 3500
+Slovenská republika
+KRKA Slovensko, s.r.o.
+Tel: + 421 (0) 2 571 04 501
+Italia
+KRKA Farmaceutici Milano S.r.l.
+Tel: + 39 02 3300 8841
+Suomi/Finland
+KRKA Finland Oy
+Puh/Tel: + 358 20 754 5330
+Κύπρος
+KI.PA. (PHARMACAL) LIMITED
+Τηλ: + 357 24 651 882
+Sverige
+KRKA Sverige AB
+Tel: + 46 (0)8 643 67 66 (SE)
+Latvija
+KRKA Latvija SIA
+Tel: + 371 6 733 86 10
+United Kingdom (Northern Ireland)
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Este folheto foi revisto pela última vez em
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -870,6 +1304,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-bf55777f1fad69c8fa791ca2ceb30315"
 * entry[0].resource = composition-da-bf55777f1fad69c8fa791ca2ceb30315
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbf55777f1fad69c8fa791ca2ceb30315"
+* entry[=].resource = mpbf55777f1fad69c8fa791ca2ceb30315
+                            
+                    
+Instance: bundlepackageleaflet-pt-bf55777f1fad69c8fa791ca2ceb30315
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tolura Package Leaflet for language pt"
+Description: "ePI document Bundle for tolura Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-bf55777f1fad69c8fa791ca2ceb30315"
+* entry[0].resource = composition-pt-bf55777f1fad69c8fa791ca2ceb30315
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpbf55777f1fad69c8fa791ca2ceb30315"
@@ -971,6 +1427,18 @@ RuleSet: bf55777f1fad69c8fa791ca2ceb30315ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-bf55777f1fad69c8fa791ca2ceb30315) // tolura pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -944,6 +944,434 @@ doseringsintervaller eller højere doser.</p>         </div>"""
 
 
 
+Instance: composition-pt-efe0db2f668263967f135ff38dffab9d
+InstanceOf: CompositionUvEpi
+Title: "Composition for rixubis Package Leaflet"
+Description:  "Composition for rixubis Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpefe0db2f668263967f135ff38dffab9d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - rixubis"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é RIXUBIS e para que é utilizado
+2. O que precisa de saber antes de utilizar RIXUBIS
+3. Como utilizar RIXUBIS
+4. Efeitos indesejáveis possíveis
+5. Como conservar RIXUBIS
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é rixubis e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é rixubis e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>RIXUBIS contém a substância ativa nonacog gama e é um produto do fator IX de coagulação. O fator 
+IX é um componente normal do sangue humano, necessário para uma coagulação eficaz do sangue. 
+RIXUBIS é utilizado em doentes com hemofilia B (doença de Christmas, uma doença hemorrágica 
+hereditária provocada por uma insuficiência de fator IX). Este medicamento funciona através da 
+reposição do fator IX em falta, permitindo a coagulação sanguínea do doente.
+RIXUBIS é utilizado no tratamento e prevenção de hemorragia (perda de sangue) em doentes com 
+hemofilia B de todas as idades.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar rixubis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar rixubis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não utilize RIXUBIS</h2>
+<p>se tem alergia a nonacog gama ou a qualquer outro componente deste medicamento (indicados 
+na secção 6).
+-
+se é alérgico às proteínas de hamster
+Advertências e precauções
+Podem ocorrer reações de hipersensibilidade do tipo alérgico com RIXUBIS. Interrompa a perfusão e 
+contacte o seu médico imediatamente ou procure auxílio médico se detetar os sinais iniciais de 
+hipersensibilidade/reações alérgicas como, por exemplo, urticária, erupção da pele, aperto no peito, 
+pieira, tensão arterial baixa ou anafilaxia (reação alérgica grave que pode causar dificuldades ao 
+engolir e/ou respirar, inchaço e vermelhidão da cara e/ou mãos). Poderá ter que receber tratamento 
+imediato do seu médico devido a estas reações. O seu médico poderá também realizar uma análise 
+43
+de sangue para verificar se desenvolveu anticorpos neutralizantes da atividade (inibidores) contra 
+o medicamento, uma vez que os inibidores podem desenvolver-se em conjunto com alergias. Os 
+doentes com inibidores do fator IX podem apresentar um maior risco de anafilaxia durante o 
+tratamento futuro com fator IX.
+Fale com o seu médico imediatamente se a sua hemorragia não parar conforme esperado ou se 
+observar que é necessário aumentar ligeiramente a utilização de RIXUBIS para controlar uma 
+hemorragia. O seu médico irá realizar uma análise de sangue para verificar se desenvolveu anticorpos 
+neutralizantes da atividade (inibidores) contra o RIXUBIS. O risco de desenvolver inibidores é maior 
+nos doentes que não foram tratados com um medicamento de substituição do fator IX previamente, ou 
+que ainda estão nas fases iniciais do tratamento, ou seja, crianças pequenas.
+A produção do fator IX no corpo é controlada pelo gene do fator IX. Os doentes com mutações 
+específicas do gene do fator IX (p. ex., uma deleção de grande escala), podem ter uma maior 
+probabilidade de desenvolver inibidores do fator IX e uma reação alérgica no período inicial de 
+exposição a qualquer concentrado de fator IX. Por este motivo, se tiver sido determinado que tem uma 
+mutação deste tipo, o seu médico irá observá-lo(a) mais atentamente para detetar sinais de reação 
+alérgica.
+Informe o seu médico se tiver doença do fígado ou do coração, ou se tiver sido submetido(a) 
+recentemente a uma cirurgia grande, pois existe um maior risco de complicações da coagulação.
+Foram notificados distúrbios dos rins (síndrome nefrótica) após doses elevadas de fator IX em doentes 
+com hemofilia B com inibidores do fator IX e antecedentes de reações alérgicas.
+Sempre que possível, registe o nome do produto e o número do lote sempre que utilizar RIXUBIS 
+(p. ex., no seu registo pessoal) para documentar os produtos e lotes produtos utilizados.
+Outros medicamentos e RIXUBIS
+Informe o seu médico se estiver a utilizar ou tiver utilizado recentemente outros medicamentos. Não 
+são conhecidas interações entre RIXUBIS e outros medicamentos.
+Gravidez, amamentação e fertilidade
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de utilizar este medicamento. A hemofilia B ocorre muito raramente em mulheres.
+Condução de veículos e utilização de máquinas
+RIXUBIS não tem influência sobre a capacidade de conduzir e utilizar máquinas.
+RIXUBIS contém sódio
+Este medicamento contém menos de 1 mmol (23 mg) de sódio por frasco para injetáveis, ou seja, é 
+praticamente "isento de sódio". No entanto, dependendo do seu peso corporal e da sua dose de 
+RIXUBIS, poderá receber mais do que um frasco para injetáveis. Isto deve ser tido em consideração se 
+estiver numa dieta de sódio controlada..</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar rixubis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar rixubis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com RIXUBIS será iniciado por um médico com experiência no tratamento de doentes 
+com hemofilia B.
+Utilize este medicamento exatamente como indicado pelo seu médico. Se tiver dúvidas, fale com o seu 
+médico.
+O seu médico irá decidir a dose de RIXUBIS que deve receber. Esta dose e duração dependem da 
+gravidade da deficiência de fator IX, da localização e extensão da hemorragia, da sua condição clínica 
+44
+e idade e da rapidez com que o seu corpo consome o fator IX, um parâmetro que deve ser verificado 
+regularmente.
+RIXUBIS é administrado por perfusão intravenosa (IV) após a reconstituição do pó com o solvente 
+fornecido, pelo seu médico ou enfermeiro. O doente, ou outra pessoa, também poderá administrar 
+RIXUBIS como uma injeção, mas apenas depois de receber a formação adequada.
+Reconstituição e administração
+-
+Quando proceder à reconstituição, utilize apenas o solvente e o dispositivo de reconstituição 
+(BAXJECT II) fornecidos na embalagem.
+-
+É necessária a utilização de uma seringa luer-lock para a administração.
+-
+Não utilizar se o dispositivo BAXJECT II, o respetivo sistema de barreira estéril ou embalagem 
+estiverem danificados ou mostrarem quaisquer sinais de deterioração,
+Reconstituição
+Utilizar técnica asséptica
+1. Se o medicamento estiver guardado no frigorífico, retirar os frascos para injetáveis de 
+pó RIXUBIS e de solvente do frigorífico e deixar que atinjam a temperatura ambiente 
+(entre 15°C e 30°C).
+2. Lavar as mãos muito bem com sabão e água quente.
+3. Retirar as tampas dos frascos para injetáveis de pó e solvente.
+4. Limpar as rolhas com compressas embebidas em álcool. Colocar os frascos para injetáveis numa 
+superfície plana limpa.
+5. Abrir a embalagem do dispositivo BAXJECT II puxando a cobertura de papel sem tocar no 
+interior (Fig. a). Não remover o dispositivo da embalagem.
+6. Rodar a embalagem ao contrário e introduzir o espigão de plástico transparente através da rolha 
+do solvente. Segurar a embalagem na extremidade e puxar a embalagem para fora do 
+BAXJECT II (Fig. b). Não remover a tampa azul no dispositivo BAXJECT II.
+7.
+Com o BAXJECT II fixado ao frasco para injetáveis de solvente, inverter o sistema de forma a 
+que o frasco para injetáveis de solvente fique sobre o dispositivo. Introduzir o espigão de 
+plástico branco através da rolha de RIXUBIS. O solvente é extraído para o frasco para injetáveis 
+de RIXUBIS pela ação do vácuo (Fig. c).
+8.
+Agitar suavemente até que todo o material esteja dissolvido. O produto dissolve-se rapidamente 
+(no período de 2 minutos). Assegurar que RIXUBIS está completamente dissolvido, caso 
+contrário nem toda a solução reconstituída passará através do filtro do dispositivo. Antes da 
+administração, os medicamentos reconstituídos devem ser inspecionados visualmente, para se 
+verificar a existência de partículas sólidas ou de descoloração. A solução deve estar transparente 
+ou ligeiramente opalescente. Não utilizar uma solução que esteja turva ou apresente depósitos.
+Fig. a
+Fig. b
+Fig. c
+Não refrigerar a preparação após a reconstituição.
+Utilizar imediatamente.
+45
+Administração
+Utilizar técnica asséptica
+1. Remover a tampa azul do BAXJECT II. Não recolher ar para o interior da seringa. Juntar 
+a seringa ao BAXJECT II (Fig. d).
+2. Inverter o sistema (o frasco para injetáveis com a solução reconstituída deve estar por cima). 
+Puxar o êmbolo lentamente para recolher a solução reconstituída para a seringa (Fig. e).
+3. Separar a seringa.
+4. Colocar uma agulha de borboleta na seringa. Injetar por via intravenosa. A solução deve ser 
+administrada lentamente, de acordo com uma taxa determinada pelo nível de conforto do 
+doente, sem exceder 10 ml por minuto.
+Fig. d
+Fig. e
+Sempre que possível, registe o nome do produto e o número do lote sempre que utilizar RIXUBIS 
+(p. ex., no seu registo pessoal) para documentar os produtos e lotes produtos utilizados.
+Os produtos não utilizados ou os resíduos devem ser eliminados de acordo com as exigências locais.
+Se utilizar mais RIXUBIS do que deveria
+Utilize RIXUBIS sempre de acordo com as indicações do médico. Se tiver dúvidas, fale com o seu 
+médico. Se injetar mais RIXUBIS do que o recomendado, fale com o seu médico assim que possível.
+Caso se tenha esquecido de utilizar RIXUBIS
+Não injete uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Proceda à injeção 
+seguinte no momento agendado e continue o tratamento conforme a indicação do seu médico.
+Se parar de utilizar RIXUBIS
+Não pare de utilizar RIXUBIS sem consultar o seu médico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Podem ocorrer reações de hipersensibilidade do tipo alérgico com RIXUBIS. Estas reações podem 
+incluir sensação de ardor ou de picadas no local de perfusão, arrepios, afrontamento, letargia, agitação, 
+formigueiro, urticária, comichão e erupção da pele, tensão arterial baixa, batimento cardíaco rápido, 
+aperto do peito, pieira, inchaço da garganta, anafilaxia (reação alérgica grave), dores de cabeça, 
+náuseas e vómitos. Se detetar estes sinais, contacte o seu médico imediatamente. Poderá ter que 
+receber tratamento imediato do seu médico devido a estas reações (ver secção 2 Advertências e 
+precauções).
+46
+Os efeitos indesejáveis seguintes foram observados com RIXUBIS:
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 doentes):
+-
+alteração do paladar
+-
+dor nos membros.
+Efeitos indesejáveis com frequência desconhecida (não pode ser calculada a partir dos dados 
+disponíveis)
+-
+reações alérgicas (hipersensibilidade)
+Não foram observados problemas relacionados com coagulação sanguínea exagerada (episódios 
+tromboembólicos) com este medicamento, mas podem ocorrer com qualquer produto de fator IX. 
+Estes problemas podem incluir ataque cardíaco, coágulos sanguíneos nas veias ou nos pulmões.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar rixubis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar rixubis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e rótulo do 
+frasco, após "EXP". O prazo de validade corresponde ao último dia do mês indicado.
+Conservar a temperatura inferior a 30ºC.
+Não congelar.
+Utilize a solução reconstituída imediatamente.
+Não utilize RIXUBIS a menos que a solução esteja transparente e incolor.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de RIXUBIS</h2>
+<p>A substância ativa é nonacog gama (fator IX de coagulação recombinante humano). Cada frasco 
+para injetáveis com pó contém nominalmente 250, 500, 1000, 2000 ou 3000 UI, correspondente 
+a uma concentração de 50, 100, 200, 400 ou 600 UI/ml após reconstituição com 5 ml de 
+solvente.
+-
+Os outros componentes no pó são sacarose, manitol, cloreto de sódio, cloreto de cálcio, 
+L-histidina, polissorbato 80.
+Frasco do solvente: 5 ml de água esterilizada para preparações injetáveis.
+Qual o aspecto de RIXUBIS e conteúdo da embalagem
+RIXUBIS é fornecido como pó e solvente para solução injetável.
+47
+O conteúdo da embalagem é:
+
+um frasco para injetáveis de pó RIXUBIS 250, 500, 1000, 2000 ou 3000 UI num frasco para 
+injetáveis de vidro com rolha de borracha.
+
+um frasco para injetáveis de 5 ml de água esterilizada para preparações injetáveis num frasco 
+para injetáveis de vidro com rolha de borracha.
+
+um BAXJECT II (dispositivo de reconstituição sem agulha)
+Titular da autorização de introdução no mercado
+Baxalta Innovations GmbH
+Industriestrasse 67
+A-1221 Viena
+Áustria
+Fabricante
+Baxalta Belgium Manufacturing SA
+Boulevard René Branquart 80
+B-7860 Lessines
+Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Takeda Belgium NV
+Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com
+Lietuva
+Takeda, UAB
+Tel: +370 521 09 070
+medinfoEMEA@takeda.com
+България
+Такеда България ЕООД
+Тел.: +359 2 958 27 36
+medinfoEMEA@takeda.com 
+Luxembourg/Luxemburg
+Takeda Belgium NV
+Tél/Tel: +32 2 464 06 11
+medinfoEMEA@takeda.com
+Česká republika
+Takeda Pharmaceuticals Czech Republic s.r.o.
+Tel: +420 234 722 722
+medinfoEMEA@takeda.com
+Magyarország
+Takeda Pharma Kft.
+Tel: +36 1 270 7030
+medinfoEMEA@takeda.com
+Danmark
+Takeda Pharma A/S
+Tlf: +45 46 77 10 10
+medinfoEMEA@takeda.com
+Malta
+Drugsales Ltd 
+Tel: +356 21419safety@drugsalesltd.com
+Deutschland
+Takeda GmbH
+Tel: +49 (0)800 825 3325
+medinfoEMEA@takeda.com
+Nederland
+Takeda Nederland B.V.
+Tel: +31 20 203 5492
+medinfoEMEA@takeda.com
+Eesti
+Takeda Pharma AS
+Tel: +372 6177 669
+medinfoEMEA@takeda.com
+Norge
+Takeda AS
+Tlf: +47 800 800 30
+medinfoEMEA@takeda.com
+48
+Ελλάδα
+Τakeda ΕΛΛΑΣ Α.Ε.
+Tηλ: +30 210 6387800
+medinfoEMEA@takeda.com
+Österreich
+Takeda Pharma Ges.m.b.H. 
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com
+España
+Takeda Farmacéutica España S.A
+Tel: +34 917 90 42 22
+medinfoEMEA@takeda.com
+Polska
+Takeda Pharma Sp. z o.o.
+Tel: +48223062447
+medinfoEMEA@takeda.com
+France
+Takeda France SAS
+Tél: + 33 1 40 67 33 00
+medinfoEMEA@takeda.com
+Portugal
+Takeda Farmacêuticos Portugal, Lda.
+Tel: + 351 21 120 1457
+medinfoEMEA@takeda.com
+Hrvatska
+Takeda Pharmaceuticals Croatia d.o.o.
+Tel: +385 1 377 88 96
+medinfoEMEA@takeda.com
+România
+Takeda Pharmaceuticals SRL
+Tel: +40 21 335 03 91
+medinfoEMEA@takeda.com
+Ireland
+Takeda Products Ireland Ltd
+Tel: 1800 937 970
+medinfoEMEA@takeda.com
+Slovenija
+Takeda Pharmaceuticals farmacevtska družba d.o.o.
+Tel: + 386 (0) 59 082 480
+medinfoEMEA@takeda.com
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+medinfoEMEA@takeda.com
+Slovenská republika
+Takeda Pharmaceuticals Slovakia s.r.o.
+Tel: +421 (2) 20 602 600
+medinfoEMEA@takeda.com
+Italia
+Takeda Italia S.p.A.
+Tel: +39 06 502601
+medinfoEMEA@takeda.com
+Suomi/Finland
+Takeda Oy
+Puh/Tel: 0800 774 051
+medinfoEMEA@takeda.com
+Κύπρος
+Τakeda ΕΛΛΑΣ Α.Ε.
+Τηλ: +30 210 6387800
+medinfoEMEA@takeda.com
+Sverige
+Takeda Pharma AB
+Tel: 020 795 079
+medinfoEMEA@takeda.com
+Latvija
+Takeda Latvia SIA
+Tel: +371 67840082
+medinfoEMEA@takeda.com
+United Kingdom (Northern Ireland)
+Takeda UK Ltd
+Tel: +44 (0) 2830 640 902
+medinfoEMEA@takeda.com
+Este folheto foi revisto pela última vez em .
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -985,6 +1413,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-efe0db2f668263967f135ff38dffab9d"
 * entry[0].resource = composition-da-efe0db2f668263967f135ff38dffab9d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpefe0db2f668263967f135ff38dffab9d"
+* entry[=].resource = mpefe0db2f668263967f135ff38dffab9d
+                            
+                    
+Instance: bundlepackageleaflet-pt-efe0db2f668263967f135ff38dffab9d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rixubis Package Leaflet for language pt"
+Description: "ePI document Bundle for rixubis Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-efe0db2f668263967f135ff38dffab9d"
+* entry[0].resource = composition-pt-efe0db2f668263967f135ff38dffab9d
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpefe0db2f668263967f135ff38dffab9d"
@@ -1086,6 +1536,18 @@ RuleSet: efe0db2f668263967f135ff38dffab9dListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-efe0db2f668263967f135ff38dffab9d) // rixubis pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -843,6 +843,453 @@ for 10 timer, skal bortskaffes i henhold til lokale retningslinjer.</p>         
 
 
 
+Instance: composition-pt-a96793ea13ac1652c4391adeab5c5fd7
+InstanceOf: CompositionUvEpi
+Title: "Composition for rybrevant Package Leaflet"
+Description:  "Composition for rybrevant Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa96793ea13ac1652c4391adeab5c5fd7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - rybrevant"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Rybrevant e para que é utilizado
+2. O que precisa de saber antes de lhe ser administrado Rybrevant
+3. Como é administrado Rybrevant
+4. Efeitos indesejáveis possíveis
+5. Como conservar Rybrevant
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é rybrevant e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é rybrevant e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Rybrevant
+Rybrevant é um medicamento para o cancro. Contém a substância ativa "amivantamab", que é um 
+anticorpo (tipo de proteína) concebido para reconhecer e para se ligar a alvos específicos no corpo.
+Para que é utilizado Rybrevant
+Rybrevant é utilizando em adultos com um tipo de cancro do pulmão chamado “cancro do pulmão de 
+não pequenas células". É utilizando quando o cancro se espalhou para outras partes do corpo e passou 
+por determinadas mudanças (mutações de inserção no Exão 20) num gene chamado “EGFR".
+Como funciona Rybrevant
+A substância ativa de Rybrevant, amivantamab, tem como alvo duas proteínas que se encontram nas 
+células do cancro:
+
+recetor do fator de crescimento epidérmico (EGFR), e
+
+fator de transição epitelial-mesenquimal (MET).
+Este medicamento funciona ligando-se a estas proteínas. Isto pode ajudar a abrandar ou a parar o 
+crescimento do seu cancro do pulmão. Pode também ajudar a reduzir o tamanho do tumor.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar rybrevant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar rybrevant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Rybrevant se
+
+tem alergia a amivantamab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+Não utilize este medicamento se o que está indicado acima se aplicar a si. Se não tem a certeza, fale 
+com o seu médico ou enfermeiro antes de lhe ser administrado este medicamento.
+26
+Advertências e precauções
+Fale com o seu médico ou enfermeiro antes de lhe ser administrado Rybrevant se:
+
+sofreu de inflamação pulmonar (um problema chamado “doença pulmonar intersticial" ou 
+“pneumonite").
+Informe de imediato o seu médico ou enfermeiro enquanto toma este medicamento se tiver 
+algum dos seguintes efeitos indesejáveis (ver secção 4 para mais informações):
+
+Qualquer efeito indesejável enquanto o medicamento lhe estiver a ser administrado na veia.
+
+Dificuldade respiratória súbita, tosse ou febre que possa sugerir inflamação dos pulmões.
+
+Problemas de pele. Para reduzir o risco de problemas de pele, mantenha-se afastado do sol, use 
+roupa protetora, aplique protetor solar, e utilize hidratantes regularmente na sua pele e unhas 
+enquanto toma este medicamento. Terá de continuar a fazê-lo durante 2 meses depois de parar o 
+tratamento.
+
+Problemas oculares. Se tiver problemas de visão ou dores nos olhos, contacte imediatamente o 
+seu médico ou enfermeiro. Se usar lentes de contacto e tiver quaisquer novos sintomas oculares, 
+pare de as usar e informe imediatamente o seu médico.
+Crianças e adolescentes
+Não dê este medicamento a crianças ou jovens com idade inferior a 18 anos. Isto deve-se ao facto de 
+não se saber se o medicamento é seguro e eficaz neste grupo etário.
+Outros medicamentos e Rybrevant
+Informe o seu médico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos.
+Contraceção
+
+Se puder engravidar, tem de usar contraceção eficaz durante o tratamento com Rybrevant e até 
+3 meses após a interrupção do tratamento.
+Gravidez
+
+Se está grávida, se pensa estar grávida ou planeia engravidar, informe o seu médico ou 
+enfermeiro antes de lhe ser administrado este medicamento.
+
+É possível que este medicamento possa ser prejudicial para um bebé em gestação. Se ficar 
+grávida enquanto estiver a ser tratada com este medicamento, informe imediatamente o seu 
+médico ou enfermeiro. Poderá decidir em conjunto com o seu médico se o benefício de tomar o 
+medicamento é maior do que o risco para o seu bebé em gestação.
+Amamentação
+Desconhece-se se Rybrevant passa para o leite materno. Consulte o seu médico antes de lhe ser 
+administrado este medicamento. Poderá decidir em conjunto com o seu médico se o benefício da 
+amamentação é superior ao risco para o seu bebé.
+Condução de veículos e utilização de máquinas
+Se se sentir cansado, com tonturas, ou se os seus olhos estiverem irritados ou a visão ficar afetada 
+depois de tomar Rybrevant, não conduza nem utilize maquinaria.
+Rybrevant contém sódio
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
+“isento de sódio". No entanto, antes de lhe ser administrado Rybrevant, este pode ser misturado com 
+uma solução que contenha sódio. Fale com o seu médico se estiver a fazer uma dieta com pouco sal.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar rybrevant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar rybrevant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a quantidade administrada
+O seu médico irá planear a dose correta de Rybrevant para si. A dose deste medicamento dependerá do 
+seu peso corporal no início da sua terapia.
+27
+A dose recomendada de Rybrevant é:
+
+1 050mg se pesar menos de 80 kg.
+
+1 400 mg se o seu peso for igual ou superior a 80 kg.
+Como é administrado este medicamento
+Este medicamento ser-lhe-á administrado por um médico ou enfermeiro. É administrado gota a gota 
+numa veia (“perfusão intravenosa") ao longo de várias horas.
+Rybrevant é administrado da seguinte forma:
+
+uma vez por semana durante as primeiras 4 semanas
+
+depois, uma vez a cada 2 semanas a partir da semana 5, enquanto continuar a beneficiar com o 
+tratamento.
+Na primeira semana, o seu médico administrar-lhe-á a dose de Rybrevant dividida em dois dias.
+Medicamentos administrados durante o tratamento com Rybrevant
+Antes de cada perfusão de Rybrevant, ser-lhe-ão administrados medicamentos que ajudam a diminuir 
+as hipóteses de reações relacionadas com a perfusão. Estes podem incluir:
+
+medicamentos para reações alérgicas (anti-histamínicos)
+
+medicamentos para a inflamação (corticosteroides)
+
+medicamentos para a febre (como o paracetamol).
+Poderá também receber medicamentos adicionais com base em quaisquer sintomas que possa sentir.
+Se lhe for administrado mais Rybrevant do que deveria
+Este medicamento será administrado pelo seu médico ou enfermeiro. No caso improvável de lhe ser 
+administrado demasiado (sobredosagem), o seu médico irá verificar se tem efeitos indesejáveis.
+Caso se esqueça da sua marcação para administração de Rybrevant
+É muito importante ir a todas as marcações. Se faltar a uma marcação, faça outra o mais depressa 
+possível.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Efeitos indesejáveis graves
+Informe imediatamente o seu médico ou enfermeiro se sentir os seguintes efeitos indesejáveis graves:
+Muito frequentes (podem afetar mais de 1 em 10 pessoas):
+
+Sinais de reação à perfusão - tais como arrepios, sensação de falta de ar, sensação de enjoo 
+(náuseas), rubor, desconforto no peito, e vómitos enquanto o medicamento está a ser 
+administrado. Isto pode acontecer especialmente com a primeira dose. O seu médico pode 
+administrar-lhe outros medicamentos, ou poderá ser necessário abrandar ou interromper a 
+perfusão.
+
+Problemas de pele - tais como erupções na pele (incluindo acne), pele infetada à volta das 
+unhas, pele seca, comichão, dor e vermelhidão. Informe o seu médico se os seus problemas de 
+pele ou unhas se agravarem.
+28
+Frequentes (podem afetar até 1 em 10 pessoas):
+
+Problemas oculares - tais como olho seco, pálpebra inchada, comichão nos olhos, problemas de 
+visão, crescimento das pestanas.
+
+Sinais de uma inflamação nos pulmões - tais como dificuldade súbita em respirar, tosse ou 
+febre. Isto pode levar a danos permanentes (“doença pulmonar intersticial"). O seu médico pode 
+querer parar Rybrevant se tiver este efeito indesejável.
+Pouco frequentes (podem afetar até 1 em 100 pessoas):
+
+córnea inflamada (parte frontal do olho)
+
+inflamação no interior do olho que pode afetar a visão
+
+erupção da pele potencialmente fatal com bolhas e descamação em grande parte do corpo 
+(necrólise epidérmica tóxica).
+Outros efeitos indesejáveis
+Informe o seu médico se sentir algum dos seguintes efeitos indesejáveis:
+Muito frequentes (podem afetar mais de 1 em 10 pessoas):
+
+nível baixo da proteína “albumina" no sangue
+
+inchaço causado pela acumulação de fluidos no corpo
+
+sensação de estar muito cansado
+
+feridas na boca
+
+prisão de ventre ou diarreia
+
+diminuição do apetite
+
+aumento do nível da enzima do fígado “alanina-aminotransferase" no sangue, um possível sinal 
+de problemas no fígado
+
+aumento do nível da enzima “aspartato aminotransferase" no sangue, um possível sinal de 
+problemas no fígado
+
+sensação de tonturas
+
+aumento do nível da enzima “fosfatase alcalina" no sangue
+
+dores musculares
+
+nível baixo de cálcio no sangue.
+Frequentes (podem afetar até 1 em 10 pessoas)
+
+dor de estômago
+
+nível baixo de potássio no sangue
+
+nível baixo de magnésio no sangue.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar rybrevant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar rybrevant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rybrevant será conservado no hospital ou clínica.
+Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis após “VAL". O prazo de validade corresponde ao último dia do mês indicado.
+A estabilidade química e física em utilização foi demonstrada durante 10 horas entre 15°C a 25°C à 
+luz ambiente. De um ponto de vista microbiológico, a menos que o método de diluição exclua o risco 
+de contaminação microbiana, o medicamento deve ser utilizado imediatamente. Se não for utilizado 
+29
+imediatamente, os tempos e condições de conservação em utilização são da responsabilidade do
+utilizador.
+Conservar no frigorífico (2°C - 8°C). Não congelar.
+Conservar na embalagem de origem para proteger da luz.
+Os medicamentos não devem ser deitados fora na canalização ou no lixo doméstico. O seu profissional 
+de saúde deitará fora quaisquer medicamentos que já não são utilizados. Estas medidas ajudarão a 
+proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Rybrevant
+
+A substância ativa é amivantamab. Um ml de concentrado para solução para perfusão contém 
+50 mg de amivantamab. Um frasco para injetáveis de 7 ml de concentrado contém 350 mg de 
+amivantamab.
+
+Os outros componentes são ácido etilenodiaminotetracético (EDTA), L-histidina, cloridrato 
+mono-hidratado de L-histidina, L-metionina, polissorbato 80, sacarose e água para preparações 
+injetáveis (ver secção 2).
+Qual o aspeto de Rybrevant e conteúdo da embalagem
+Rybrevant é um concentrado para solução para perfusão e é um líquido incolor a amarelo-pálido. Este 
+medicamento está disponível numa embalagem que contém 1 frasco para injetáveis de vidro de 7 ml 
+de concentrado.
+Titular da Autorização de Introdução no Mercado
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Bélgica
+Fabricante
+Janssen Biologics B.V.
+Einsteinweg 101
+2333 CB Leiden
+Países Baixos
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB “JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+30
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+31
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Este folheto foi revisto pela última vez em.
+Foi concedida a este medicamento uma “Autorização de Introdução no Mercado condicional". Isto 
+significa que se aguarda mais informação sobre este medicamento.
+A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
+sobre este medicamento e este folheto será atualizado se necessário.
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -884,6 +1331,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a96793ea13ac1652c4391adeab5c5fd7"
 * entry[0].resource = composition-da-a96793ea13ac1652c4391adeab5c5fd7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa96793ea13ac1652c4391adeab5c5fd7"
+* entry[=].resource = mpa96793ea13ac1652c4391adeab5c5fd7
+                            
+                    
+Instance: bundlepackageleaflet-pt-a96793ea13ac1652c4391adeab5c5fd7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rybrevant Package Leaflet for language pt"
+Description: "ePI document Bundle for rybrevant Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a96793ea13ac1652c4391adeab5c5fd7"
+* entry[0].resource = composition-pt-a96793ea13ac1652c4391adeab5c5fd7
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa96793ea13ac1652c4391adeab5c5fd7"
@@ -985,6 +1454,18 @@ RuleSet: a96793ea13ac1652c4391adeab5c5fd7ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a96793ea13ac1652c4391adeab5c5fd7) // rybrevant pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

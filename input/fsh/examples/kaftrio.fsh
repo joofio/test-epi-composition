@@ -955,6 +955,560 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyes
 
 
 
+Instance: composition-pt-9907a30e9752c1b71142c1d64ee9aa50
+InstanceOf: CompositionUvEpi
+Title: "Composition for kaftrio Package Leaflet"
+Description:  "Composition for kaftrio Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9907a30e9752c1b71142c1d64ee9aa50)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - kaftrio"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Kaftrio e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Kaftrio </li>
+<li>Como tomar Kaftrio </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Kaftrio </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é kaftrio e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é kaftrio e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kaftrio contém três substâncias ativas: ivacaftor, tezacaftor e elexacaftor. O medicamento ajuda as 
+células dos pulmões a funcionarem melhor em alguns doentes com fibrose quística (FQ). A FQ é uma 
+afeção hereditária na qual os pulmões e o aparelho digestivo podem ficar bloqueados com um muco 
+espesso e viscoso. </p>
+<p>Kaftrio, tomado com ivacaftor, destina-se a doentes com 6 anos ou mais de idade que têm FQ, com 
+pelo menos uma mutação F508del no gene CFTR (regulador da condutância transmembranar da 
+fibrose quística). Kaftrio destina-se a ser um tratamento a longo prazo. </p>
+<p>Kaftrio atua sobre uma proteína chamada CFTR. Esta proteína encontra-se danificada em algumas 
+pessoas com FQ, se estas tiverem uma mutação no gene CFTR. </p>
+<p>Kaftrio é normalmente tomado com outro medicamento, o ivacaftor. O ivacaftor faz com que a 
+proteína funcione melhor, enquanto que o tezacaftor e o elexacaftor aumentam a quantidade de 
+proteína na superfície celular. </p>
+<p>Kaftrio (tomado com ivacaftor) ajuda a sua respiração ao melhorar a sua função pulmonar. Também 
+poderá notar que não adoece com tanta frequência ou que é mais fácil ganhar peso. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar kaftrio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar kaftrio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Kaftrio </p>
+<ul>
+<li>se tem alergia ao ivacaftor, tezacaftor, elexacaftor, ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). 
+Fale com o seu médico e não tome os comprimidos, se isto se aplicar a si. </li>
+</ul>
+<p>Advertências e precauções </p>
+<ul>
+<li>
+<p>Fale com o seu médico se tiver problemas de fígado, ou se já os tiver tido anteriormente. O 
+seu médico poderá ter de ajustar a sua dose. </p>
+</li>
+<li>
+<p>O seu médico fará algumas análises ao seu sangue para verificar o estado do seu fígado antes 
+e durante o tratamento com Kaftrio, especialmente se as suas análises ao sangue mostraram uma 
+elevação das enzimas do fígado no passado. As enzimas do fígado no sangue podem aumentar 
+em doentes que estejam a receber Kaftrio. 
+Informe o seu médico imediatamente se tiver quaisquer sintomas de problemas de fígado. Estes 
+estão listados na secção 4. * Foi comunicada depressão (incluindo pensamentos e comportamentos suicidas) em doentes 
+enquanto estavam a tomar Kaftrio, geralmente com início nos primeiros três meses de 
+tratamento. Fale com o seu médico de imediato se você (ou alguém que esteja a tomar este 
+medicamento) apresentar qualquer um dos seguintes sintomas, os quais poderão ser sinais de 
+depressão: tristeza ou alteração de humor, ansiedade, sentimentos associados a desconforto 
+emocional ou pensamentos relacionados com fazer mal a si próprio ou matar-se. </p>
+</li>
+<li>
+<p>Fale com o seu médico se tiver problemas de rins, ou se já os teve no passado. </p>
+</li>
+<li>
+<p>Fale com o seu médico antes de iniciar o tratamento com Kaftrio se recebeu um transplante 
+de órgãos. </p>
+</li>
+<li>
+<p>Fale com o seu médico se estiver a utilizar contracetivos hormonais - por exemplo, mulheres 
+que estejam a utilizar a pílula contracetiva. Isto poderá significar que existe uma maior 
+probabilidade de ter uma erupção na pele enquanto estiver a tomar Kaftrio. </p>
+</li>
+<li>
+<p>O seu médico poderá efetuar exames aos seus olhos antes e durante o tratamento com 
+Kaftrio. Uma névoa no cristalino do olho (cataratas), sem qualquer efeito sobre a visão, ocorreu 
+em algumas crianças e adolescentes a receberem este tratamento. </p>
+</li>
+</ul>
+<p>Crianças com menos de 6 anos de idade 
+Não administre este medicamento a crianças com menos de 6 anos de idade, pois desconhece-se se 
+Kaftrio comprimidos são seguros e eficazes neste grupo etário. </p>
+<p>Outros medicamentos e Kaftrio 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. Alguns medicamentos podem afetar o modo como Kaftrio atua ou 
+poderão aumentar a probabilidade de ter efeitos indesejáveis. Em particular, informe o seu médico se 
+tomar qualquer um dos medicamentos listados abaixo. O seu médico poderá alterar a dose de um dos 
+seus medicamentos se tomar qualquer um dos seguintes. </p>
+<ul>
+<li>
+<p>Medicamentos antifúngicos (utilizados para o tratamento de infeções fúngicas). Estes incluem 
+o fluconazol, itraconazol, cetoconazol, posaconazol e voriconazol. </p>
+</li>
+<li>
+<p>Medicamentos antibióticos (utilizados para o tratamento de infeções bacterianas). Estes 
+incluem a claritromicina, eritromicina, rifampicina, rifabutina e telitromicina. </p>
+</li>
+<li>
+<p>Medicamentos para a epilepsia (utilizados para o tratamento de crises epiléticas ou ataques 
+epiléticos). Estes incluem a carbamazepina, fenitoína e o fenobarbital. </p>
+</li>
+<li>
+<p>Medicamentos à base de plantas. Estes incluem o hipericão (Hypericum perforatum). </p>
+</li>
+<li>
+<p>Imunossupressores (utilizados após o transplante de órgãos). Estes incluem a ciclosporina, 
+everolímus, sirolímus e tacrolímus. </p>
+</li>
+<li>
+<p>Glicosídos cardíacos (utilizados para o tratamento de algumas doenças cardíacas). Estes 
+incluem a digoxina. </p>
+</li>
+<li>
+<p>Medicamentos anticoagulantes (utilizados para prevenir a formação de coágulos de sangue). 
+Estes incluem a varfarina. </p>
+</li>
+<li>
+<p>Medicamentos para a diabetes. Estes incluem a glimepirida, glipizida, gliburida, nateglinida e 
+repaglinida. </p>
+</li>
+<li>
+<p>Medicamentos para baixar o colesterol no sangue. Estes incluem a pitavastatina e a 
+rosuvastatina. </p>
+</li>
+<li>
+<p>Medicamentos para baixar a tensão arterial. Estes incluem o verapamil. </p>
+</li>
+</ul>
+<p>Kaftrio com alimentos e bebidas 
+Evite alimentos ou bebidas que contenham toranja durante o tratamento, pois estes poderão aumentar 
+os efeitos indesejáveis de Kaftrio, ao aumentar a quantidade de Kaftrio no seu sangue. </p>
+<p>Gravidez e amamentação </p>
+<ul>
+<li>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico antes de tomar este medicamento. </p>
+</li>
+<li>
+<p>Gravidez: É preferível evitar utilizar este medicamento durante a gravidez. O seu médico irá 
+ajudá-la a decidir o que é melhor para si e para a sua criança. </p>
+</li>
+<li>
+<p>Amamentação: O ivacaftor, tezacaftor e o elexacaftor passam para o leite materno. O seu 
+médico irá ter em consideração o benefício da amamentação para o seu bebé e o benefício do 
+tratamento para si, de modo a ajudá-la a decidir se quer deixar de amamentar ou se quer parar 
+o tratamento. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+Kaftrio pode fazer com que tenha tonturas. No caso de sentir tonturas, não conduza, não ande de 
+bicicleta nem utilize máquinas, a menos que não esteja afetado. </p>
+<p>Kaftrio contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar kaftrio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar kaftrio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>O seu médico determinará a dose correta para si. </p>
+<p>Kaftrio é geralmente tomado com ivacaftor. </p>
+<p>Dose recomendada para doentes com 6 anos ou mais de idade 
+Idade 
+Peso 
+Dose da manhã 
+Dose da noite 
+6 a &lt; 12 anos 
+&lt; 30 kg 
+Dois comprimidos de 
+ivacaftor 37,5 mg/tezacaftor 
+25 mg/elexacaftor 50 mg 
+Um comprimido de ivacaftor 
+75 mg 
+6 a &lt; 12 anos 
+≥ 30 kg 
+Dois comprimidos de 
+ivacaftor 75 mg/tezacaftor 
+50 mg/elexacaftor 100 mg 
+Um comprimido de ivacaftor 
+150 mg 
+≥ 12 anos 
+- Dois comprimidos de 
+ivacaftor 75 mg/tezacaftor 
+50 mg/elexacaftor 100 mg 
+Um comprimido de ivacaftor 
+150 mg </p>
+<p>Tome os comprimidos de manhã e à noite com um intervalo de cerca de 12 horas. </p>
+<p>Os comprimidos são para utilização por via oral. </p>
+<p>Tome os comprimidos de Kaftrio e ivacaftor com alimentos que contêm gordura. As refeições ou 
+lanches que contêm gordura incluem aqueles que são preparados com manteiga ou com óleos ou 
+aqueles que contêm ovos. Outros alimentos que contêm gordura são: </p>
+<ul>
+<li>
+<p>Queijo, leite gordo, produtos lácteos à base de leite gordo, iogurtes, chocolate </p>
+</li>
+<li>
+<p>Carnes, peixes gordos </p>
+</li>
+<li>
+<p>Pera abacate, húmus, produtos à base de soja (tofu) </p>
+</li>
+<li>
+<p>Frutos secos, barras ou bebidas nutritivas que contêm gordura </p>
+</li>
+</ul>
+<p>Evite alimentos e bebidas que contêm toranja enquanto estiver a tomar Kaftrio. Ver Kaftrio com 
+alimentos e bebidas na secção 2 para obter mais informações. </p>
+<p>Engula os comprimidos inteiros. Não mastigue, esmague ou parta os comprimidos antes de engolir. </p>
+<p>Tem de continuar a utilizar todos os seus outros medicamentos, a menos que o seu médico lhe diga 
+para parar. </p>
+<p>Se tem problemas de fígado, tanto moderados como graves, o seu médico poderá reduzir a dose dos 
+seus comprimidos ou decidir parar o tratamento com Kaftrio. Ver também Advertências e precauções 
+na secção 2.<br />
+Se tomar mais Kaftrio do que deveria 
+Contacte o seu médico ou farmacêutico para se aconselhar. Se possível, leve consigo o seu 
+medicamento e este folheto. Poderá ter efeitos indesejáveis, incluindo aqueles mencionados na 
+secção 4 abaixo. </p>
+<p>Caso se tenha esquecido de tomar Kaftrio 
+No caso de se ter esquecido de tomar uma dose, calcule quanto tempo passou desde a dose que não 
+tomou. </p>
+<ul>
+<li>
+<p>Se tiverem decorrido menos de 6 horas desde a dose que não tomou, tanto de manhã como à 
+noite, tome o(s) comprimido(s) esquecido(s) assim que possível. Depois retome o seu esquema 
+habitual. </p>
+</li>
+<li>
+<p>Se tiverem decorrido mais de 6 horas: </p>
+</li>
+<li>
+<p>Se não tomou a dose de Kaftrio da manhã, tome-a assim que se lembrar. Não tome a 
+dose de ivacaftor da noite. Tome a dose seguinte da manhã à hora habitual. </p>
+</li>
+<li>
+<p>Se não tomou uma dose de ivacaftor da noite, não tome a dose omissa. Espere pelo dia 
+seguinte e tome a dose de comprimidos de Kaftrio da manhã como é habitual. 
+Não tome uma dose a dobrar para compensar quaisquer comprimidos que não tomou. </p>
+</li>
+</ul>
+<p>Se parar de tomar Kaftrio 
+O seu médico informá-lo-á durante quanto tempo terá de continuar a tomar Kaftrio. É importante 
+tomar este medicamento regularmente. Não faça alterações a menos que o seu médico lhe diga para o 
+fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Possíveis sinais de problemas de fígado 
+Lesão do fígado e agravamento da função do fígado em pessoas com doença grave do fígado. O 
+agravamento da função do fígado pode ser sério e poderá exigir um transplante. 
+O aumento das enzimas do fígado no sangue são frequentes em doentes com FQ. Estes poderão ser 
+sinais de problemas de fígado: </p>
+<ul>
+<li>
+<p>Dor ou desconforto na parte superior direita do estômago (zona abdominal) </p>
+</li>
+<li>
+<p>Amarelecimento da pele ou da parte branca dos olhos </p>
+</li>
+<li>
+<p>Perda de apetite </p>
+</li>
+<li>
+<p>Náuseas ou vómitos </p>
+</li>
+<li>
+<p>Urina escura </p>
+</li>
+</ul>
+<p>Depressão. Os sinais de depressão incluem tristeza ou alteração de humor, ansiedade, sentimentos 
+associados a desconforto emocional. </p>
+<p>Informe o seu médico imediatamente se tiver qualquer um destes sintomas. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>Erupção na pele (mais frequente nas mulheres do que nos homens) 
+Informe o seu médico imediatamente se notar uma erupção na pele. </li>
+</ul>
+<p>Outros efeitos indesejáveis observados com Kaftrio: 
+Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Dores de cabeça </p>
+</li>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Infeção das vias respiratórias superiores (constipação) </p>
+</li>
+<li>
+<p>Dor orofaríngea (dor de garganta) </p>
+</li>
+<li>
+<p>Congestão nasal </p>
+</li>
+<li>
+<p>Dor de estômago ou abdominal </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Aumento das enzimas do fígado (sinais de stresse no fígado) </p>
+</li>
+<li>
+<p>Alterações no tipo de bactérias no muco </p>
+</li>
+<li>
+<p>Aumento da creatina fosfocinase (sinal de degradação dos músculos) observada nas análises ao 
+sangue </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Gripe </p>
+</li>
+<li>
+<p>Anomalias respiratórias (falta de ar ou dificuldade em respirar) </p>
+</li>
+<li>
+<p>Nível baixo de açúcar no sangue (hipoglicemia) </p>
+</li>
+<li>
+<p>Corrimento nasal </p>
+</li>
+<li>
+<p>Problemas nos seios nasais (congestão sinusal) </p>
+</li>
+<li>
+<p>Vermelhidão ou dor de garganta </p>
+</li>
+<li>
+<p>Problemas nos ouvidos: dor ou desconforto nos ouvidos, zumbido nos ouvidos, tímpano 
+inflamado </p>
+</li>
+<li>
+<p>Sensação de andar à roda (perturbação do ouvido interno) </p>
+</li>
+<li>
+<p>Gases (flatulência) </p>
+</li>
+<li>
+<p>Borbulhas (acne) </p>
+</li>
+<li>
+<p>Comichão na pele </p>
+</li>
+<li>
+<p>Massa na mama </p>
+</li>
+<li>
+<p>Sensação de enjoo </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>Problemas na mama e no mamilo: inflamação, dor </p>
+</li>
+<li>
+<p>Aumento das mamas nos homens </p>
+</li>
+<li>
+<p>Aumentos da tensão arterial </p>
+</li>
+<li>
+<p>Pieira </p>
+</li>
+<li>
+<p>Ouvidos bloqueados (congestão nos ouvidos) </p>
+</li>
+</ul>
+<p>Desconhecidos (a frequência não pode calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>Danos no fígado (lesão no fígado) </p>
+</li>
+<li>
+<p>Elevação dos valores da bilirrubina (análise ao sangue de uma substância no fígado) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis adicionais em adolescentes 
+Os efeitos indesejáveis em adolescentes são semelhantes aos que se observam nos adultos. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar kaftrio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar kaftrio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Kaftrio </p>
+<ul>
+<li>As substâncias ativas são o ivacaftor, o tezacaftor e o elexacaftor.  </li>
+</ul>
+<p>Kaftrio 37,5 mg/25 mg/50 mg comprimidos revestidos por película 
+Cada comprimido revestido por película contém 37,5 mg de ivacaftor, 25 mg de tezacaftor e 50 mg de 
+elexacaftor. </p>
+<p>Kaftrio 75 mg/50 mg/100 mg comprimidos revestidos por película 
+Cada comprimido revestido por película contém 75 mg de ivacaftor, 50 mg de tezacaftor e 100 mg de 
+elexacaftor. </p>
+<ul>
+<li>Os outros componentes são: 
+− 
+Núcleo do comprimido: hipromelose (E464), acetato succinato de hipromelose, laurilsulfato 
+de sódio (E487), croscarmelose sódica (E468), celulose microcristalina (E460(i)) e estearato 
+de magnésio (E470b). 
+− 
+Revestimento do comprimido: hipromelose (E464), hidroxipropil celulose (E463), dióxido de 
+titânio (E171), talco (E553b), óxido de ferro amarelo (E172) e óxido de ferro vermelho 
+(E172). </li>
+</ul>
+<p>Ver o fim da secção 2 para obter informações importantes sobre o conteúdo de Kaftrio. </p>
+<p>Qual o aspeto de Kaftrio e conteúdo da embalagem 
+Kaftrio 37,5 mg/25 mg/50 mg comprimidos revestidos por película são comprimidos cor de laranja 
+claro, em forma de cápsula, com “T50" impresso num dos lados e liso do outro. </p>
+<p>Kaftrio 75 mg/50 mg/100 mg comprimidos revestidos por película são comprimidos cor de laranja, em 
+forma de cápsula, com “T100" impresso num dos lados e liso do outro. </p>
+<p>Kaftrio está disponível em embalagens de 56 comprimidos (4 carteiras com blister, cada uma com 
+14 comprimidos). </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Vertex Pharmaceuticals (Ireland) Limited 
+Unit 49, Block 5, Northwood Court, Northwood Crescent, 
+Dublin 9, D09 T665, 
+Irlanda 
+Tel: +353 (0)1 761 7 
+Fabricante 
+Almac Pharma Services (Ireland) Limited 
+Finnabair Industrial Estate 
+Dundalk 
+Co. Louth 
+A91 P9KD 
+Irlanda </p>
+<p>Almac Pharma Services Limited 
+Seagoe Industrial Estate 
+Craigavon 
+Northern Ireland 
+BT63 5UA 
+Reino Unido </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien, България, Česká 
+republika, Danmark, Deutschland, Eesti, 
+France, Hrvatska, Ireland, Ísland, Κύπρος, 
+Latvija, Lietuva, Luxembourg/Luxemburg, 
+Magyarország, Malta, Nederland, Norge, 
+Österreich, Polska, Portugal, România, 
+Slovenija, Slovenská republika, 
+Suomi/Finland, Sverige, United Kingdom 
+(Northern Ireland) 
+Vertex Pharmaceuticals (Ireland) Limited 
+Tél/Tel/Teл/Tlf/Sími/Τηλ/Puh:<br />
++353 (0) 1 761 7 
+España 
+Vertex Pharmaceuticals Spain, S.L. 
+Tel: + 34 91 7892 
+Ελλάδα 
+Vertex Φαρμακευτική Μονοπρόσωπη Ανώνυμη 
+Εταιρία 
+Τηλ: +30 (211) 2120 
+Italia 
+Vertex Pharmaceuticals 
+(Italy) S.r.l. 
+Tel: +39 0697794 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -996,6 +1550,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9907a30e9752c1b71142c1d64ee9aa50"
 * entry[0].resource = composition-da-9907a30e9752c1b71142c1d64ee9aa50
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9907a30e9752c1b71142c1d64ee9aa50"
+* entry[=].resource = mp9907a30e9752c1b71142c1d64ee9aa50
+                            
+                    
+Instance: bundlepackageleaflet-pt-9907a30e9752c1b71142c1d64ee9aa50
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kaftrio Package Leaflet for language pt"
+Description: "ePI document Bundle for kaftrio Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9907a30e9752c1b71142c1d64ee9aa50"
+* entry[0].resource = composition-pt-9907a30e9752c1b71142c1d64ee9aa50
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9907a30e9752c1b71142c1d64ee9aa50"
@@ -1097,6 +1673,18 @@ RuleSet: 9907a30e9752c1b71142c1d64ee9aa50ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9907a30e9752c1b71142c1d64ee9aa50) // kaftrio pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

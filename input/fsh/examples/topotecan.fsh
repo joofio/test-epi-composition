@@ -750,6 +750,490 @@ mængder vand. Hvis der er blivende irritation skal man kontakte en læge.
 
 
 
+Instance: composition-pt-c70f3196826e850a6889cb4c778ecf4a
+InstanceOf: CompositionUvEpi
+Title: "Composition for topotecan Package Leaflet"
+Description:  "Composition for topotecan Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc70f3196826e850a6889cb4c778ecf4a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - topotecan"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Topotecano Hospira e para que é utilizado
+2. O que precisa de saber antes de utilizar Topotecano Hospira
+3. Como Topotecano Hospira é utilizado
+4. Efeitos indesejáveis possíveis
+5. Como conservar Topotecano Hospira
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é topotecan e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é topotecan e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Topotecano Hospira ajuda na destruição de tumores. Um médico ou enfermeiro administrar-lhe-ão o 
+medicamento por perfusão na veia, no hospital.
+Topotecano Hospira é utilizado no tratamento de: </p>
+<ul>
+<li>
+<p>cancro do ovário ou do pulmão de pequenas células que reapareceram após quimioterapia.</p>
+</li>
+<li>
+<p>cancro do colo do útero avançado, se a cirurgia ou tratamento com radioterapia não for possível. 
+Aquando do tratamento do cancro do colo do útero, Topotecano Hospira é associado com outro 
+medicamento chamado cisplatina.<br />
+O seu médico irá decidir consigo se a terapêutica com o Topotecano Hospira é melhor do que 
+continuar a receber tratamento com a sua quimioterapia inicial.  </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar topotecan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar topotecan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não utilize Topotecano Hospira</h2>
+<p>se tem alergia ao topotecano ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+-
+se está a amamentar.
+-
+se o número de células sanguíneas está muito baixo. O seu médico irá dizer-lhe se este é o seu 
+caso, com base nos resultados das suas últimas análises sanguíneas. 
+Informe o seu médico se algum destes casos se aplica a si.
+Advertências e precauções
+Antes de lhe ser administrado este medicamento, o seu médico necessita de saber: 
+se tem problemas dos rins ou do fígado. A sua dose de Topotecano Hospira poderá ter de ser ajustada. 
+-
+se está grávida ou planeia vir a estar. Ver secção "Gravidez e amamentação" abaixo.
+-
+se planeia ser pai de uma criança. Ver secção "Gravidez e amamentação" abaixo.
+Informe o seu médico se alguma destas situações se aplica a si.
+26
+Outros medicamentos e Topotecano Hospira
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos, incluindo produtos à base de plantas ou medicamentos obtidos sem receita médica.
+Lembre-se de informar o seu médico se começar a tomar qualquer outro medicamento enquanto 
+estiver a ser tratado com Topotecano Hospira.
+Gravidez e amamentação
+Topotecano não está recomendado em mulheres grávidas. Pode causar danos no bebé concebido antes, 
+durante ou logo após o tratamento. Recomenda-se o uso de um método de contraceção eficaz.
+Consulte o seu médico. Não tente ficar grávida até que o médico lhe diga que é seguro fazê-lo. 
+Os doentes masculinos que desejem ser pais de uma criança, devem pedir ao seu médico 
+aconselhamento para planeamento familiar ou tratamento. Se a sua parceira ficar grávida durante o seu 
+tratamento, informe imediatamente o seu médico. 
+Não amamente o seu bebé se estiver a ser tratada com topotecano. Não recomece a amamentar até que 
+o seu médico lhe diga que é seguro fazê-lo.
+Condução de veículos e utilização de máquinas
+Topotecano pode fazer as pessoas sentirem-se cansadas. Se se sentir cansado ou fraco, não conduza ou
+utilize máquinas. 
+Topotecano Hospira contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". Se o seu médico utilizar uma solução salina comum para diluir Topotecano Hospira
+antes da administração, a dose de sódio recebida será maior.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar topotecan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar topotecan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A dose de Topotecano que vai receber será determinada pelo seu médico, baseada: 
+
+no tamanho do seu corpo (área de superfície medida em metros quadrados)
+
+nos resultados das análises de sangue (efetuadas antes do tratamento) 
+
+na doença a ser tratada. 
+A dose habitual 
+
+Cancro do ovário e do pulmão de pequenas células: 1,5 mg por metro quadrado da área de 
+superfície corporal por dia. Irá ter tratamento uma vez por dia durante 5 dias. Este padrão de 
+tratamento normalmente será repetido a cada 3 semanas.
+
+Cancro do colo do útero: 0,75 mg por metro quadrado da área de superfície corporal por dia.
+Irá receber tratamento uma vez por dia durante 3 dias. Este padrão de tratamento normalmente 
+será repetido a cada 3 semanas.
+Aquando do tratamento do cancro do colo do útero, Topotecano Hospira é associado com 
+outro medicamento chamado cisplatina. O seu médico irá determinar a dose correta de cisplatina.
+O esquema de tratamento pode variar, dependendo dos resultados das suas análises de sangue 
+regulares.
+Como é administrado o Topotecano<br />
+Um médico ou enfermeiro administrar-lhe-á topotecano por perfusão no seu braço durante um período 
+de 30 minutos. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+27
+Efeitos indesejáveis graves: Informe o seu médico
+Estes efeitos indesejáveis muito frequentes podem afetar mais de 1 em cada 10 pessoas tratadas com
+Topotecano Hospira:
+
+Sinais de infeção. Topotecano pode reduzir o número de glóbulos brancos e diminuir a sua 
+resistência às infeções. Isto pode ser fatal. Os sinais incluem:
+- febre 
+- deterioração grave da sua condição geral<br />
+- sintomas locais tais como garganta ferida ou problemas urinários (por exemplo sensação de 
+ardor ao urinar, o que pode ser uma infeção urinária).<br />
+
+Ocasionalmente a dor de estômago grave, febre e possivelmente diarreia (raramente com 
+sangue) podem ser sinais de inflamação do intestino (colite). 
+Este efeito secundário raro pode afetar até 1 em cada 1000 pessoas tratadas com Topotecano 
+Hospira:
+
+Inflamação pulmonar (doença pulmonar intersticial): Está mais em risco se tem antecedentes 
+de doença pulmonar, se fez tratamento por radiação aos pulmões, ou se já tomou anteriormente 
+medicamentos que causaram dano aos pulmões. Os sinais incluem: 
+- dificuldade em respirar 
+- tosse 
+- febre 
+Informe o seu médico imediatamente, se tiver algum sintoma destas condições, pois poderá ser 
+necessário hospitalizar.
+Efeitos indesejáveis muito frequentes
+Estes podem afetar mais de 1 em cada 10 pessoas tratadas com Topotecano Hospira:</p>
+<ul>
+<li>
+<p>Sensação geral de fraqueza e cansaço (anemia temporária). Em alguns casos, pode precisar de 
+uma transfusão sanguínea. </p>
+</li>
+<li>
+<p>Aparecimento pouco comum de nódoas negras ou hemorragias, causadas por uma diminuição do 
+número de células responsáveis pela coagulação do sangue. Tal pode originar hemorragias 
+graves, causadas por pequenas feridas, como um pequeno corte. Raramente, pode levar a um 
+sangramento mais grave (hemorragia). Fale com o seu médico para saber como minimizar o
+risco de hemorragias.</p>
+</li>
+<li>
+<p>Perda de peso e perda de apetite (anorexia); cansaço; fraqueza.</p>
+</li>
+<li>
+<p>Indisposição (naúseas), má disposição (vómitos), diarreia; dores de estômago; prisão de ventre.  </p>
+</li>
+<li>
+<p>Inflamação e feridas da boca, língua ou gengivas.  </p>
+</li>
+<li>
+<p>Temperatura corporal elevada (febre).</p>
+</li>
+<li>
+<p>Queda de cabelo.
+Efeitos indesejáveis frequentes
+Estes podem afetar até 1 em cada 10 pessoas tratadas com Topotecano Hospira:</p>
+</li>
+<li>
+<p>Reações de hipersensibilidade ou alérgicas (incluindo erupção na pele) </p>
+</li>
+<li>
+<p>Amarelecimento da pele.</p>
+</li>
+<li>
+<p>Mal estar.</p>
+</li>
+<li>
+<p>Sensação de comichão.
+Efeitos indesejáveis raros
+Estes podem afetar até 1 em cada 1.000 pessoas tratadas com Topotecano Hospira:  </p>
+</li>
+<li>
+<p>Reações alérgicas ou anafiláticas graves.</p>
+</li>
+<li>
+<p>Inchaço causado pelo aumento de fluidos (angioedema).</p>
+</li>
+<li>
+<p>Dor ligeira e inflamação no local da injeção.</p>
+</li>
+<li>
+<p>Erupção na pele com comichão (urticária).
+28
+Efeitos indesejáveis com frequência desconhecida
+A frequência de alguns efeitos indesejáveis é desconhecida (eventos de notificações espontâneas e a
+frequência não pode ser calculada a partir dos dados disponíveis):
+
+Dor de estômago grave, naúseas, vómitos de sangue, fezes negras ou com sangue (possíveis 
+sintomas de perfuração gastrointestinal).
+
+Feridas da boca, dificuldade em engolir, dor abdominal, náuseas, vómitos, diarreia, fezes com 
+sangue (possíveis sinais e sintomas de inflamação das paredes internas da boca, estômago e/ou
+intestino [inflamação da mucosa]).
+Caso esteja a ser tratado para o cancro do colo do útero: poderá ter efeitos indesejáveis adicionais 
+devido ao outro medicamento (cisplatina) que lhe será administrado com Topotecano Hospira Estes 
+efeitos indesejáveis estão descritos no Folheto Informativo da cisplatina.<br />
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico.Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar topotecan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar topotecan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter fora da vista e do alcance das crianças.
+Não utilize Topotecano Hospira após o prazo de validade impresso no rótulo do frasco e na 
+embalagem exterior após VAL. O prazo de validade corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2ºC - 8ºC). Não congelar.
+Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz.
+Este medicamento é para uso único. Após abertura, o produto deve ser utilizado imediatamente. Se 
+não for utilizado imediatamente, o Topotecano Hospira pode ser utilizado nas 24 horas seguintes, se 
+conservado refrigerado (e protegido da luz), ou à temperatura ambiente (nas condições de 
+luminosidade diurnas normais).
+Não utilize este medicamento se verificar particulas em suspenção.
+Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Topotecano Hospira
+A substância ativa do Topotecano Hospira é o cloridrato de topotecano (como cloridrato). 1 ml de 
+concentrado para solução para perfusão contém 1 mg de topotecano (como cloridrato). Cada frasco 
+com 4 ml de concentrado para perfusão contém 4 mg de topotecano (como cloridrato).
+Os outros componentes são ácido tartárico (E334), água para injetáveis, e ácido clorídrico (E507) ou 
+hidróxido de sódio (para ajuste do pH).
+Qual o aspeto de Topotecano Hospira e conteúdo da embalagem
+Topotecano Hospira é uma solução concentrada para perfusão limpída, amarela ou amarelo-
+esverdeada, fornecida em frascos para injetáveis de vidro incolor, cada um contendo 4 ml de 
+concentrado. O Topotecano Hospira tem dois tipos de apresentações, ou de 1 ou de 5 frascos para 
+injetáveis. Nem todas as apresentações podem estar comercializadas.
+29
+Titular da Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante
+Pfizer Service Company BV
+Hoge Wei 1930 Zaventem 
+Bélgica
+Para qualquer informação acerca deste mediacmento, por favor contacte o representante local do 
+Titular da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: + 36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Drugsales Ltd
+Tel: +356 21419070/1/2
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland 
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L. 
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+30
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: +421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ.: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: +371 670 35 775
+Este folheto foi aprovado pela última vez em 
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento está disponível no sítio da internet 
+daAgência Europeia de Medicamentos http://www.ema.europa.eu</p>
+<hr />
+<p>A informação que se segue destina-se apenas aos médicos e aos profissionais de saúde
+Instruções de reconstituição, conservação e eliminação de Topotecano Hospira
+Conservação
+Frasco para injetáveis não aberto: conservar no frigorífico (2ºC - 8ºC). Não congelar. Manter o frasco 
+para injetáveis na embalagem exterior para proteger da luz.
+Utilização:
+Consulte o RCM para detalhes completos.
+O Topotecano Hospira 4 mg/4 ml concentrado para solução para perfusão requer uma diluição até uma 
+concentração final de 25-50 microgramas/ml, antes da administração ao doente. Os diluentes 
+aprovados para diluir o concentrado são uma solução para perfusão intravenosa de cloreto de sódio a 9 
+mg/ml (0,9%) ou uma solução para perfusão intravenosa de glucose a 50 mg/ml (5%). Utilizar uma 
+técnica asséptica durante todos os passos da diluição da solução para perfusão.
+Os produtos para administração parentérica devem ser inspecionados visualmente para partículas em 
+suspensão e descoloração antes da administração. O Topotecano Hospira é uma solução amarela a 
+amarelo esverdeado.
+31
+Antes da administração do primeiro ciclo terapêutico com topotecano, os doentes devem ter, como 
+valores base, uma contagem de neutrófilos ≥ 1,5 x 109/l, uma contagem plaquetária ≥ 100 x 109/l e um 
+nível de hemoglobina ≥ 9 g/dl (se necessário, após transfusão). A neutropenia e trombocitopenia 
+devem ser controladas. Para mais detalhes, consultar o RCM.
+Posologia: Carcinoma do ovário e do Pulmão de Pequenas Células 
+Dose inicial: 1,5 mg/m2 de área de superfície corporal/dia administrada por perfusão intravenosa 
+durante 30 minutos diariamente, durante 5 dias consecutivos, com um intervalo de 3 semanas entre o 
+início de cada ciclo. 
+Doses subsequentes: O topotecano não deverá voltar a ser administrado a menos que a contagem de 
+neutrófilos seja ≥ 1 x 109/l, a contagem plaquetária seja ≥ 100 x 109/l e o nível de hemoglobina seja ≥ 
+9 g/dl (se necessário, após transfusão).
+Posologia: Carcinoma do Colo do Útero
+Dose inicial: 0,75 mg/m2/dia administrada como uma perfusão intravenosa diária de 30 minutos, nos 
+dias 1, 2 e 3. A cisplatina é administrada como uma perfusão intravenosa no dia 1, com uma dose de 
+50 mg/m2/dia, após a administração de topotecano. Este esquema terapêutico é repetido a cada 21 dias, 
+durante 6 ciclos ou até doença progressiva. 
+Doses subsequentes: O topotecano não deverá voltar a ser administrado, a menos que a contagem de 
+neutrófilos seja ≥ 1,5 x 109/l, a contagem plaquetária seja ≥ 100 x 109/l e o nível de hemoglobina seja 
+≥ 9 g/dl (se necessário após transfusão). 
+Posologia: Doentes com compromisso renal 
+Dados limitados indicam que a dose deve ser reduzida em doentes com compromisso renal moderado. 
+Consulte o RCM para detalhes completos.
+Posologia: População pediátrica 
+A experiência em crianças é limitada. Não se recomenda a sua utilização.
+A estabilidade em uso, química e física, foi demonstrada durante 24 horas a 25ºC em condições de 
+luminosidade normal e a 2ºC-8ºC quando protegido da luz. Do ponto de vista microbiológico, o 
+produto deve ser utilizado imediatamente; se não utilizado imediatamente, o período de e condições de 
+conservação antes da utilização são da responsabilidade do utilizador e não devem normalmente ser 
+superiores a 24 horas, conservado a 2ºC e 8ºC, exceto se a reconstituição/diluição ocorreu em local 
+com condições de assepsia controladas e validadas.
+Manipulação e eliminação
+Deverão ser adotados os procedimentos normais de manipulação e eliminação corretas de 
+medicamentos anticancerosos, nomeadamente: 
+
+Os técnicos devem ser treinados na técnica de preparação, administração e eliminação de 
+citotóxicos.
+
+As técnicas grávidas não devem trabalhar com este medicamento. 
+
+Os técnicos que manipulam este medicamento devem usar vestuário de proteção incluindo 
+máscara, óculos de proteção e luvas durante a reconstituição. 
+
+Todo o material utilizado na preparação, administração ou limpeza, incluindo luvas, deverão ser 
+colocados em sacos de desperdício de alto risco para incineração a alta temperatura. Os 
+desperdícios líquidos deverão ser descartados com grandes quantidades de água. 
+
+O contacto acidental com a pele ou os olhos deverá ser imediatamente tratado, lavando 
+abundantemente com água. Se houver irritação contínua, consulte um médico.
+
+Os produtos não utilizados ou os resíduos devem ser eliminados de acordo com as exigências 
+locais. </p>         </div>"""      
+
+
+
 
 
                     
@@ -791,6 +1275,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c70f3196826e850a6889cb4c778ecf4a"
 * entry[0].resource = composition-da-c70f3196826e850a6889cb4c778ecf4a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc70f3196826e850a6889cb4c778ecf4a"
+* entry[=].resource = mpc70f3196826e850a6889cb4c778ecf4a
+                            
+                    
+Instance: bundlepackageleaflet-pt-c70f3196826e850a6889cb4c778ecf4a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for topotecan Package Leaflet for language pt"
+Description: "ePI document Bundle for topotecan Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c70f3196826e850a6889cb4c778ecf4a"
+* entry[0].resource = composition-pt-c70f3196826e850a6889cb4c778ecf4a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc70f3196826e850a6889cb4c778ecf4a"
@@ -892,6 +1398,18 @@ RuleSet: c70f3196826e850a6889cb4c778ecf4aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c70f3196826e850a6889cb4c778ecf4a) // topotecan pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

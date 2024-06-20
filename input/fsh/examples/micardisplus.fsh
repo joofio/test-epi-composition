@@ -1051,6 +1051,580 @@ nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.
 
 
 
+Instance: composition-pt-18d3cb5ee6c8628dd45333381c7f88b9
+InstanceOf: CompositionUvEpi
+Title: "Composition for micardisplus Package Leaflet"
+Description:  "Composition for micardisplus Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp18d3cb5ee6c8628dd45333381c7f88b9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - micardisplus"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é MicardisPlus e para que é utilizado
+2. O que precisa de saber antes de tomar MicardisPlus
+3. Como tomar MicardisPlus
+4. Efeitos indesejáveis possíveis
+5. Como conservar MicardisPlus
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é micardisplus e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é micardisplus e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>MicardisPlus é uma combinação de duas substâncias ativas, telmisartan e hidroclorotiazida, num 
+comprimido. Estas duas substâncias ajudam a controlar a pressão arterial elevada.
+
+O telmisartan pertence a um grupo de fármacos conhecidos como antagonistas dos recetores da 
+angiotensina II. A angiotensina II é uma substância produzida pelo organismo, que contrai os 
+vasos sanguíneos aumentando assim a sua pressão arterial. O telmisartan bloqueia este efeito da 
+angiotensina II, provocando um relaxamento dos vasos sanguíneos e diminuindo 
+consequentemente a sua pressão arterial.
+
+A hidroclorotiazida pertence a um grupo de fármacos denominados diuréticos tiazídicos que 
+induzem um aumento do seu débito urinário, levando a uma redução da sua pressão arterial.
+A pressão arterial elevada, se não for tratada, pode danificar os vasos sanguíneos em vários órgãos, o 
+que pode por vezes causar ataques cardíacos, insuficiência cardíaca ou renal, acidentes vasculares 
+cerebrais ou cegueira. Habitualmente não existem sintomas de pressão arterial elevada antes de 
+ocorrerem danos. Assim, é importante medir regularmente a pressão arterial para verificar se esta se 
+encontra dentro dos valores normais.
+MicardisPlus é utilizado para tratar a pressão arterial elevada (hipertensão essencial) em adultos que 
+não têm a pressão arterial suficientemente controlada com o telmisartan usado em monoterapia.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar micardisplus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar micardisplus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome MicardisPlus
+
+se tem alergia ao telmisartan ou a qualquer um dos outros componentes deste medicamento 
+(indicados na secção 6).
+
+se tem alergia à hidroclorotiazida ou a qualquer outro medicamento derivado das sulfonamidas.
+
+se tiver mais do que três meses de gravidez. (Também é preferível não tomar MicardisPlus no 
+início da gravidez - ver secção Gravidez).
+66
+
+se tem problemas hepáticos graves, tais como colestase ou obstrução biliar (problemas 
+relacionados com a drenagem da bílis do fígado e vesícula biliar), ou qualquer outra doença 
+hepática grave.
+
+se tem uma doença renal grave.
+
+se o seu médico determinar que tem baixos níveis de potássio ou elevados níveis de cálcio no 
+sangue que não melhoram com tratamento.
+
+se tem diabetes ou função renal diminuída e se está a ser tratado com um medicamento que 
+contém aliscireno para diminuir a pressão arterial.
+Se alguma das situações acima se aplica ao seu caso, informe o seu médico ou farmacêutico antes de 
+tomar MicardisPlus.
+Advertências e precauções 
+Fale com o seu médico antes de tomar MicardisPlus se sofre ou sofreu de alguma das seguintes 
+condições ou doenças:
+
+Pressão arterial baixa (hipotensão), que pode ocorrer se estiver desidratado (perda excessiva de 
+água corporal) ou se tiver deficiência em sais devido a terapêutica com diuréticos (comprimidos 
+diuréticos), dieta pobre em sal, diarreia, vómitos ou hemodiálise.
+
+Doença renal ou transplante renal.
+
+Estenose da artéria renal (contração dos vasos sanguíneos de um ou de ambos os rins).
+
+Doença do fígado.
+
+Problemas cardíacos.
+
+Diabetes.
+
+Gota.
+
+Níveis de aldosterona aumentados (retenção de água e sal no organismo acompanhada por 
+desequilíbrio de vários minerais no sangue).
+
+Lúpus eritematoso sistémico (também denominado “lúpus" ou “LES"), uma doença em que o 
+sistema imunitário ataca o próprio corpo.
+
+A substância ativa hidroclorotiazida pode causar uma reação não usual, que leva a uma 
+diminuição da visão e dor ocular. Estes podem ser sintomas de acumulação de líquido na camada 
+vascular do olho (efusão coroidal) ou um aumento da pressão no seu olho e podem acontecer 
+horas ou semanas após tomar MicardisPlus. Se não for tratada, pode levar a dano permanente da 
+visão.
+
+Caso tenha tido cancro da pele ou se desenvolver uma lesão cutânea inesperada durante o 
+tratamento. O tratamento com hidroclorotiazida, no caso particular da utilização de doses 
+elevadas a longo prazo, pode aumentar o risco de alguns tipos de cancro da pele e do lábio 
+(cancro da pele não-melanoma). Proteja a sua pele contra a exposição solar e a radiação 
+ultravioleta, enquanto estiver a tomar MicardisPlus.
+Fale com o seu médico antes de tomar MicardisPlus:
+
+se está a tomar algum dos seguintes medicamentos para tratar a pressão arterial elevada:
+- um inibidor da ECA (por exemplo enalapril, lisinopril, ramipril), em particular se tiver 
+problemas nos rins relacionados com diabetes.
+- aliscireno.
+O seu médico pode verificar a sua função renal, pressão arterial e a quantidade de eletrólitos 
+(por exemplo, o potássio) no seu sangue em intervalos regulares. Ver também a informação sob 
+o título “Não tome MicardisPlus".
+
+se estiver a tomar digoxina.
+
+se já teve problemas respiratórios ou pulmonares (incluindo inflamação ou líquido nos pulmões) 
+após a toma de hidroclorotiazida. Se desenvolver qualquer falta de ar grave ou dificuldade em 
+respirar após tomar MicardisPlus, procure assistência médica imediatamente.
+Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. MicardisPlus não está 
+recomendado no início da gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez 
+67
+que pode ser gravemente prejudicial para o bebé se utilizado a partir desta altura (ver secção 
+Gravidez).
+O tratamento com hidroclorotiazida pode causar um desequilíbrio eletrolítico no seu corpo. Os 
+sintomas típicos do desequilíbrio de fluidos ou eletrólitos incluem secura da boca, fraqueza, letargia, 
+sonolência, agitação, dores ou cãibras musculares, náuseas (má disposição), vómitos, cansaço 
+muscular e uma frequência cardíaca rápida e anómala (superior a 100 batimentos por minuto). Caso 
+sinta qualquer destes sintomas deverá comunicá-lo ao seu médico.
+Deve também informar o seu médico, se sentir um aumento da sensibilidade cutânea ao sol, com 
+sintomas de queimadura solar (tais como vermelhidão, comichão, inchaço, formação de bolhas) que 
+ocorram mais rapidamente do que o normal. 
+Em caso de cirurgia ou anestesia, deverá informar o seu médico que se encontra a tomar MicardisPlus.
+MicardisPlus pode ser menos eficaz na diminuição da tensão arterial em doentes de raça negra. 
+Crianças e adolescentes
+Não é recomendada a utilização de MicardisPlus em crianças e adolescentes menores de 18 anos.
+Outros medicamentos e MicardisPlus
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. O seu médico pode ter de alterar a dose desses medicamentos ou tomar 
+outras precauções. Nalguns casos, pode ter de parar de tomar um dos medicamentos. Isto aplica-se 
+principalmente aos medicamentos indicados abaixo, tomados simultaneamente com MicardisPlus:
+
+Medicamentos que contenham lítio para tratar alguns tipos de depressão.
+
+Medicamentos associados a baixa concentração de potássio no sangue (hipocaliemia), tais como 
+outros diuréticos (‘comprimidos diuréticos’), laxantes (por exemplo, óleo de rícino), 
+corticosteroides (por exemplo, prednisona), ACTH (uma hormona), anfotericina (um 
+medicamento antifúngico), carbenoxolona (utilizado para tratar úlceras bucais), penicilina G 
+sódica (um antibiótico), e ácido salicílico e derivados.
+
+Medicamentos que podem aumentar os níveis de potássio no sangue, tais como, diuréticos 
+poupadores de potássio, suplementos de potássio, substitutos salinos contendo potássio, 
+inibidores da ECA, ciclosporina (um medicamento imunossupressor) e outros medicamentos, tais 
+como heparina sódica (um anticoagulante).
+
+Medicamentos que sejam afetados por alterações dos níveis de potássio no sangue, tais como 
+medicamentos para o coração (por exemplo, digoxina) ou medicamentos para controlar o ritmo 
+do seu coração (por exemplo, quinidina, disopiramida, amiodarona, sotalol), medicamentos 
+utilizados para distúrbios mentais (por exemplo, tioridazina, clorpromazina, levomepromazina) e 
+outros medicamentos tais como certos antibióticos (por exemplo, esparfloxacina, pentamidina) ou 
+determinados medicamentos utilizados para tratar reações alérgicas (por exemplo, terfenadina)..
+
+Medicamentos para o tratamento da diabetes (insulinas ou agentes orais tais como metformina).
+
+Colestiramina e colestipol, medicamentos utilizados para reduzir os níveis de gordura no sangue.
+
+Medicamentos para aumentar a pressão arterial, tais como noradrenalina.
+
+Relaxantes musculares como a tubocurarina.
+
+Suplementos de cálcio e/ou suplementos de vitamina D.
+
+Medicamentos anticolinérgicos (medicamentos utilizados para tratar uma variedade de doenças 
+tais como cólicas gastrointestinais, espasmos da bexiga, asma, enjoo de movimento, espasmos 
+musculares, doença de Parkinson e como auxiliar em anestesia) tais como atropina e biperideno.
+
+Amantadina (medicamento usado para tratar a doença de Parkinson, também utilizado para tratar 
+ou prevenir algumas doenças causadas por vírus).
+
+Outros medicamentos utilizados para tratar a pressão arterial elevada, corticosteróides, 
+analgésicos (tais como os medicamentos anti-inflamatórios não esteroides (AINEs)), 
+medicamentos para o tratamento do cancro, gota ou artrite.
+68
+
+Se está a tomar um inibidor da ECA ou aliscireno (ver também informações sob os títulos “Não 
+tome MicardisPlus" e “Advertências e precauções").
+
+Digoxina.
+MicardisPlus pode aumentar o efeito redutor da pressão arterial de outros medicamentos utilizados 
+para baixar a pressão arterial ou de medicamentos com potencial de redução da pressão arterial (por 
+exemplo, baclofeno, amifostina). Ademais, a pressão arterial baixa pode ser agravada pelo álcool, 
+barbitúricos, narcóticos ou antidepressivos. Pode percecionar isto como tonturas ao levantar-se. Deve 
+consultar o seu médico, se precisa de ajustar a dose dos outros medicamentos, enquanto estiver a 
+tomar MicardisPlus.
+O efeito do MicardisPlus pode ser reduzido se estiver a tomar AINEs (medicamentos anti-
+inflamatórios não esteroides, por exemplo, aspirina ou ibuprofeno).
+MicardisPlus com alimentos e álcool
+MicardisPlus pode ser tomado com ou sem alimentos.
+Evite o consumo de álcool antes de falar com o seu médico. O álcool pode provocar uma descida 
+maior da pressão arterial e/ou aumentar o risco de ficar com tonturas ou com sensação de desmaio.
+Gravidez e amamentação
+Gravidez
+Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. O seu médico 
+normalmente aconselhá-la-á a interromper MicardisPlus antes de engravidar ou assim que estiver 
+grávida e a tomar outro medicamento em vez de MicardisPlus. MicardisPlus não está recomendado 
+durante a gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez que pode ser 
+gravemente prejudicial para o bebé se utilizado a partir desta altura.
+Amamentação
+Deverá informar o seu médico de que se encontra a amamentar ou que está prestes a iniciar o 
+aleitamento. MicardisPlus não está recomendado em mães a amamentar; nestes casos o seu médico 
+poderá indicar outro tratamento. 
+Condução de veículos e utilização de máquinas
+Algumas pessoas referem tonturas ou cansaço quando tomam MicardisPlus. Se se sentir tonto ou 
+cansado, não conduza ou utilize máquinas.
+MicardisPlus contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio".
+MicardisPlus contém açúcar do leite (lactose)
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento.
+MicardisPlus contém sorbitol
+Este medicamento contém 169 mg de sorbitol em cada comprimido.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar micardisplus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar micardisplus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+A dose recomendada é de um comprimido por dia. Tente tomar o comprimido sempre à mesma hora. 
+Pode tomar MicardisPlus com ou sem alimentos. Os comprimidos devem ser engolidos com um pouco 
+de água ou outra bebida não-alcoólica. É importante que tome MicardisPlus todos os dias, até 
+indicação em contrário por parte do seu médico.
+69
+Se o seu fígado não estiver a trabalhar adequadamente, a dose habitual não deve exceder os 
+40 mg/12,5 mg uma vez ao dia.
+Se tomar mais MicardisPlus do que deveria
+Se tomar acidentalmente demasiados comprimidos pode sentir diminuição da pressão arterial e 
+batimento cardíaco acelerado. Também foram notificados batimento cardíaco lento, tonturas, vómitos 
+e diminuição da função renal, incluindo insuficiência renal. Devido à hidroclorotiazida também podem 
+ocorrer diminuição acentuada da pressão arterial e diminuição dos níveis de potássio no sangue, o que 
+pode resultar em náuseas, sonolência e cãibras musculares, e/ou batimentos cardíacos irregulares 
+associados ao uso concomitante com outros medicamentos, tais como os digitálicos ou certos 
+tratamentos antiarrítmicos. Contacte o seu médico ou farmacêutico, ou as urgências do hospital mais 
+próximo imediatamente.
+Caso se tenha esquecido de tomar MicardisPlus
+Caso se esqueça de tomar uma dose, não se preocupe. Tome-a logo que se lembre e mantenha o 
+regime de tratamento como anteriormente. Se não tomar o seu comprimido durante um dia, tome a sua 
+dose normal, no dia seguinte. Não tome um comprimido a dobrar para compensar doses individuais 
+que se esqueceu de tomar.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Alguns efeitos indesejáveis podem ser graves e necessitar de atenção médica imediata:
+Deve procurar imediatamente o seu médico se apresentar qualquer um dos seguintes sintomas:
+Sepsis<em> (muitas vezes designada “envenenamento sanguíneo"), é uma infeção grave que desencadeia 
+uma resposta generalizada do sistema inflamatório, rápido inchaço da pele e mucosas (angioedema), 
+formação de bolhas e descamação da camada superior da pele (necrólise epidérmica tóxica); estes 
+efeitos são raros (podem afetar até 1 em 1.000 pessoas) ou de frequência desconhecida (necrólise 
+epidérmica tóxica),  mas são extremamente graves e os doentes devem parar de tomar o medicamento 
+e procurar o seu médico imediatamente. Se estes efeitos não forem tratados, podem ser fatais. A 
+incidência aumentada de sepsis foi observada apenas com telmisartan, no entanto não pode ser 
+excluída relativamente ao MicardisPlus.
+Efeitos indesejáveis possíveis de MicardisPlus:
+Os efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas)
+Tonturas
+Os efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas)
+Diminuição dos níveis de potássio no sangue, ansiedade, desmaio (síncope), sensação de formigueiro, 
+sensação de picadas de agulhas (parestesia), sensação de “cabeça à roda" (vertigens), batimento 
+cardíaco acelerado (taquicardia), alterações do ritmo cardíaco, tensão arterial baixa, uma queda brusca 
+da pressão sanguínea quando se levanta, falta de ar (dispneia), diarreia, boca seca, flatulência 
+(libertação de gases), dor nas costas, espasmos musculares, dores musculares, disfunção eréctil 
+(incapacidade de obter ou manter uma ereção), dor no peito, aumento dos níveis de ácido úrico no 
+sangue.
+70
+Os efeitos indesejáveis raros podem incluir (podem afetar até 1 em 1.000 pessoas)
+Inflamação do pulmão (bronquite), ativação ou agravamento de lúpus eritematoso sistémico (uma 
+doença em que o sistema imunitário ataca o próprio corpo, o que causa dor nas articulações, erupção 
+na pele e febre); dor de garganta, sinusite (inflamação dos seios perinasais), sensação de tristeza 
+(depressão); dificuldade em adormecer (insónia), visão alterada, dificuldade em respirar, dor 
+abdominal, prisão de ventre, inchaço abdominal (dispepsia), sentir-se doente (vómitos), inflamação do 
+estômago (gastrite), alteração da função hepática (os doentes japoneses são mais suscetíveis de sofrer 
+este efeito secundário), vermelhidão na pele (eritema), reações alérgicas, tais como comichão ou 
+erupção cutânea, aumento da sudação, urticária, dor nas articulações (artralgia) e dor nas 
+extremidades, cãibras musculares, doença do tipo gripal, dor, níveis baixos de sódio, aumento dos 
+níveis de creatinina, enzimas hepáticas ou creatinina fosfoquinase no sangue.
+As reações adversas notificadas com cada um dos constituintes individuais podem constituir potenciais 
+reações adversas de MicardisPlus, mesmo que não tenham sido observadas em ensaios clínicos com 
+este medicamento. 
+Telmisartan
+Em doentes a tomar telmisartan isolado, foram comunicados os seguintes efeitos indesejáveis: 
+Os efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas)
+Infeção do trato respiratório superior (p. ex.: garganta inflamada, sinusite, constipação), infeções do 
+trato urinário, deficiência em células vermelhas do sangue (anemia), níveis elevados de potássio, 
+batimento cardíaco lento (bradicardia), tosse, compromisso renal incluindo insuficiência renal aguda, 
+fraqueza.
+Os efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas)
+Contagem de plaquetas baixa (trombocitopenia), aumento de algumas células brancas do sangue 
+(eosinofilia), reações alérgicas graves (ex.: hipersensibilidade, reação anafilática, erupção cutânea 
+causada pelo medicamento), níveis baixos de açúcar no sangue (em doentes diabéticos), sonolência, 
+mal-estar no estômago, eczema (uma alteração da pele), artroses, inflamação dos tendões, diminuição 
+da hemoglobina (uma proteína sanguínea).
+Efeitos indesejáveis muito raros (podem afetar até 1 em 10.000 pessoas)
+Cicatrização progressiva do tecido pulmonar (doença pulmonar intersticial)</em>* * O acontecimento pode ter ocorrido por acaso ou pode estar relacionado com um mecanismo 
+atualmente desconhecido.</p>
+<p>** Casos de cicatrização progressiva do tecido pulmonar foram notificados durante a toma de 
+telmisartan. No entanto, não se sabe se o telmisartan é a causa.<br />
+Hidroclorotiazida
+Em doentes a tomar hidroclorotiazida isolada, foram comunicados os seguintes efeitos indesejáveis:
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas)
+Enjoos (náuseas), nível baixo de magnésio no sangue.
+Efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas)
+Redução no número de plaquetas no sangue, o que aumenta o risco de hemorragias ou de nódoas negras 
+(pequenas marcas roxo-avermelhadas na pele ou noutros tecidos causadas por uma hemorragia), nível 
+elevado de cálcio no sangue, dores de cabeça.
+Efeitos indesejáveis muito raros (podem afetar até 1 em 10.000 pessoas)
+pH aumentado (distúrbio no equilíbrio ácido-base) devido a um baixo nível de cloreto no sangue,
+insuficiência respiratória aguda (os sinais incluem falta de ar grave, febre, fraqueza e confusão).
+71
+Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis)
+Inflamação da glândula salivar, cancro da pele e do lábio (cancro da pele não-melanoma), diminuição 
+do número (ou mesmo ausência) de células no sangue, incluindo contagem baixa de glóbulos 
+vermelhos e glóbulos brancos, reações alérgicas graves (ex.: hipersensibilidade, reação anafilática), 
+diminuição ou perda de apetite, agitação, sensação de cabeça vazia, visão turva ou amarelada, 
+diminuição da visão e dor ocular (possíveis sinais de acumulação de líquido na camada vascular do 
+olho (efusão coroidal) ou miopia aguda ou glaucoma agudo de ângulo fechado), inflamação dos vasos 
+sanguíneos (vasculite necrosante), inflamação do pâncreas, mal-estar no estômago, coloração amarela 
+da pele ou olhos (icterícia), síndrome tipo lúpus (uma situação que mimetiza uma doença chamada 
+lúpus eritematoso sistémico em que o sistema imunitário ataca o próprio corpo); alterações cutâneas, 
+tais como inflamação dos vasos sanguíneos na pele, aumento da sensibilidade à luz solar, erupção na 
+pele, vermelhidão da pele, formação de bolhas nos lábios, olhos ou boca, descamação da pele, febre 
+(possíveis sinais de eritema multiforme), fraqueza, inflamação dos rins ou compromisso da função 
+renal, glucose na urina (glicosúria), febre, compromisso do equilíbrio eletrolítico, níveis elevados de 
+colesterol no sangue, diminuição do volume sanguíneo, aumento dos níveis de glucose no sangue, 
+dificuldade em controlar os níveis de glucose no sangue/urina em doentes com diagnóstico de diabetes 
+mellitus, ou gordura no sangue.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar micardisplus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar micardisplus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após “VAL". 
+O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer condições especiais de temperatura de conservação. 
+Conservar na embalagem de origem para proteger da humidade. Retire o seu comprimido de 
+MicardisPlus do blister apenas imediatamente antes da toma.
+Ocasionalmente, a camada exterior do blister separa-se da camada interior entre os blisters. Não 
+precisa de tomar qualquer ação caso tal aconteça.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de MicardisPlus
+
+As substâncias ativas são o telmisartan e a hidroclorotiazida.
+Cada comprimido contém 40 mg de telmisartan e 12,5 mg de hidroclorotiazida.
+
+Os outros componentes são lactose mono-hidratada, estearato de magnésio, amido de milho, 
+meglumina, celulose microcristalina, povidona K25, óxido de ferro vermelho (E 172), hidróxido de 
+sódio, carboximetilamido sódico (Tipo A), sorbitol (E420). 
+Qual o aspeto de MicardisPlus e conteúdo da embalagem
+Os comprimidos de MicardisPlus 40 mg/12,5 mg são vermelhos e brancos, oblongos, com duas 
+camadas, marcados com o logotipo da empresa e com o número de código ‘H4’.
+72
+MicardisPlus está disponível em embalagens de blisters contendo 14, 28, 56, 84 ou 98 comprimidos, ou 
+em embalagens de blisters unidose contendo 28 x 1, 30 x 1 ou 90 x 1 comprimidos.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no 
+Mercado
+Fabricante
+Boehringer Ingelheim International GmbH
+Binger Str. 173
+55216 Ingelheim am Rhein
+Alemanha
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Alemanha
+e
+Boehringer Ingelheim Hellas Single Member 
+S.A.
+5th km Paiania - Markopoulo 
+Koropi Attiki, 19441
+Grécia
+e
+Rottendorf Pharma GmbH
+Ostenfelder Straße 51 - 61
+59320 Ennigerloh
+Alemanha
+e
+Boehringer Ingelheim France
+100-104 Avenue de France
+75013 Paris
+França
+73
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+SCS Boehringer Ingelheim Comm.V
+Tél/Tel: +32 2 773 33 11
+Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Latvijas filiāle
+Tel: +371 67 240 011
+България
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко. КГ -
+клон България
+Тел: +359 2 958 79 98
+Luxembourg/Luxemburg
+SCS Boehringer Ingelheim Comm.V
+Tél/Tel: +32 2 773 33 11
+Česká republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 111
+Magyarország
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Magyarországi Fióktelepe
+Tel.: +36 1 299 8900
+Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf: +45 39 15 88 88
+Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 / 77 90 900
+Nederland
+Boehringer Ingelheim b.v.
+Tel: +31 (0) 800 22 55 889
+Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Eesti Filiaal
+Tel: +372 612 8000
+Norge
+Boehringer Ingelheim Norway KS
+Tlf: +47 66 76 13 00
+Ελλάδα
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη Α.Ε.
+Tηλ: +30 2 10 89 06 300
+Österreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7870
+España
+Boehringer Ingelheim España, S.A.
+Tel: +34 93 404 51 00
+Polska
+Boehringer Ingelheim Sp.zo.o.
+Tel.: +48 22 699 0 699
+France
+Boehringer Ingelheim France S.A.S.
+Tél: +33 3 26 50 45 33
+Portugal
+Boehringer Ingelheim Portugal, Lda.
+Tel: +351 21 313 53 00
+Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 600
+România
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Viena - Sucursala Bucuresti
+Tel: +40 21 3022800
+Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Podružnica Ljubljana
+Tel: +386 1 586 40 00
+74
+Ísland
+Vistor hf.
+Sími/Tel: +354 535 7000
+Slovenská republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+organizačná zložka
+Tel: +421 2 5810 1211
+Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 800
+Κύπρος
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη Α.Ε.
+Tηλ: +30 2 10 89 06 300
+Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 00
+Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Lietuvos filialas
+Tel.: ++370 5 2595942
+United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Este folheto foi revisto pela última vez em {MM/AAAA}
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1092,6 +1666,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-18d3cb5ee6c8628dd45333381c7f88b9"
 * entry[0].resource = composition-da-18d3cb5ee6c8628dd45333381c7f88b9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp18d3cb5ee6c8628dd45333381c7f88b9"
+* entry[=].resource = mp18d3cb5ee6c8628dd45333381c7f88b9
+                            
+                    
+Instance: bundlepackageleaflet-pt-18d3cb5ee6c8628dd45333381c7f88b9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for micardisplus Package Leaflet for language pt"
+Description: "ePI document Bundle for micardisplus Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-18d3cb5ee6c8628dd45333381c7f88b9"
+* entry[0].resource = composition-pt-18d3cb5ee6c8628dd45333381c7f88b9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp18d3cb5ee6c8628dd45333381c7f88b9"
@@ -1193,6 +1789,18 @@ RuleSet: 18d3cb5ee6c8628dd45333381c7f88b9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-18d3cb5ee6c8628dd45333381c7f88b9) // micardisplus pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

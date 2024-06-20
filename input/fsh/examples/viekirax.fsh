@@ -1013,6 +1013,598 @@ hjemmeside http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-9fab9f40152a9abf5de2f7daf83b1bd5
+InstanceOf: CompositionUvEpi
+Title: "Composition for viekirax Package Leaflet"
+Description:  "Composition for viekirax Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9fab9f40152a9abf5de2f7daf83b1bd5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - viekirax"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Viekirax e para que é utilizado 
+2. O que precisa de saber antes de tomar Viekirax 
+3. Como tomar Viekirax 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Viekirax 
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é viekirax e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é viekirax e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Viekirax contém as substâncias ativas ombitasvir, paritaprevir e ritonavir. É um medicamento 
+antiviral utilizado para tratar adultos com hepatite C (uma doença infecciosa que afeta o fígado, 
+causada pelo vírus da hepatite C) crónica (prolongada).<br />
+A ação combinada das três substâncias ativas impede o vírus da hepatite C de se multiplicar e 
+infetar novas células, eliminando assim o vírus do seu sangue ao longo de um período de tempo. 
+Ombitasvir e paritaprevir bloqueiam duas proteínas que são essenciais ao vírus para se 
+multiplicar. O ritonavir atua como um "potenciador" para prolongar a ação de paritaprevir no 
+organismo.
+Os comprimidos de Viekirax são tomados com outros medicamentos antivirais como dasabuvir 
+e ribavirina. O seu médico dir-lhe-á qual destes medicamentos deve tomar com Viekirax.
+É muito importante que também leia os folhetos informativos dos outros medicamentos 
+antivirais que toma com Viekirax. Se tiver quaisquer dúvidas sobre os seus medicamentos, fale 
+com o seu médico ou farmacêutico. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar viekirax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar viekirax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Viekirax</p>
+<ul>
+<li>
+<p>Se tem alergia ao ombitasvir, paritaprevir, ritonavir ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </p>
+</li>
+<li>
+<p>Se tem problemas moderados a graves do fígado para além da hepatite C.</p>
+</li>
+<li>
+<p>Se está a tomar qualquer um dos medicamentos indicados na tabela seguinte. Podem ocorrer 
+efeitos graves ou que ponham em risco a vida quando Viekirax for tomado com estes 
+medicamentos. Estes medicamentos podem afetar a forma como Viekirax atua e Viekirax pode 
+afetar a forma como os outros medicamentos atuam. 
+80
+Medicamentos que não deve tomar com Viekirax
+Medicamento ou substância ativa 
+Função do medicamento 
+alfuzosina 
+para uma próstata aumentada 
+amiodarona, disopiramida, dronedarona
+utilizada para corrigir batimentos cardíacos 
+irregulares
+astemizol, terfenadina 
+para sintomas de alergia. Estes medicamentos 
+podem estar disponíveis sem receita médica 
+atorvastatina, lovastatina, sinvastatina, 
+lomitapida
+para baixar o colesterol no sangue 
+carbamazepina, fenitoína, fenobarbital 
+para a epilepsia 
+cisaprida
+para aliviar determinados problemas de 
+estômago
+claritromicina, ácido fusídico, rifampicina, 
+telitromicina
+para infeções bacterianas
+colchicina em doentes que têm problemas 
+graves de fígado ou rins
+para tratar acessos agudos de gota
+conivaptan
+para normalizar os níveis de sódio no sangue 
+efavirenz, etravirina, lopinavir/ritonavir, 
+saquinavir, tipranavir, nevirapina, indinavir, 
+cobicistato
+para a infeção por VIH 
+apalutamida, enzalutamida
+para o cancro da próstata 
+ergotamina, dihidroergotamina 
+para enxaquecas 
+ergonovina, metilergometrina 
+utilizados durante o parto 
+medicamentos contendo etinilestradiol como a 
+maioria das pílulas anticoncecionais e anéis 
+vaginais utilizados na contraceção
+para contraceção
+itraconozol, cetoconozol, posaconazol, 
+voriconazol
+para infeções fúngicas 
+midazolam, triazolam (quando tomado pela 
+boca)
+para a ansiedade ou dificuldade em dormir
+mitotano
+para os sintomas dos tumores malignos das 
+glândulas suprarrenais
+pimozida, lurasidona
+para a esquizofrenia 
+quetiapina
+para a esquizofrenia, depressão bipolar e 
+perturbação depressiva grave
+quinidina
+para os batimentos cardíacos irregulares ou 
+malária
+ranolazina
+para a angina crónica (dor no peito)
+salmeterol 
+para a asma 
+sildenafil 
+quando utilizado para tratar um distúrbio 
+cardíaco e pulmonar chamado “hipertensão 
+arterial pulmonar"
+hipericão (hypericum perforatum) 
+um medicamento à base de plantas para a 
+ansiedade e depressão ligeira. Este 
+medicamento está disponível sem receita 
+médica 
+ticagrelor
+impede o sangue de coagular
+Não tome Viekirax se utilizar algum dos medicamentos acima mencionados. Se tiver dúvidas, 
+fale com o seu médico ou farmacêutico antes de tomar Viekirax.
+Advertências e precauções 
+81
+Fale com o seu médico ou farmacêutico antes de tomar Viekirax se:</p>
+</li>
+<li>tem problemas do fígado para além da hepatite C;</li>
+<li>tem uma infeção atual ou anterior pelo vírus da hepatite B, uma vez que o seu médico pode 
+querer controlá-lo mais frequentemente.</li>
+<li>
+<p>tem diabetes. Após o início do tratamento com Viekirax poderá necessitar de um controlo mais 
+rigoroso dos seus níveis de glucose no sangue e/ou um ajuste dos seus medicamentospara a 
+diabetes. Alguns doentes com diabetes apresentaram níveis baixos de açúcar no sangue 
+(hipoglicemia) após o início do tratamento com medicamentos como Viekirax.
+Ao tomar Viekirax com dasabuvir, informe o seu médico se tem os seguintes sintomas, pois 
+podem ser um sinal de agravamento dos problemas de fígado:
+ Se sentir enjoado (náuseas), vomitar ou perder o apetite
+ Verificar que a sua pele ou olhos estão amarelados
+ A sua urina está mais escura do que o normal
+ Confusão
+ Verificar inchaço do seu estômago
+Se algumas das situações acima descritas se aplica a si (ou se tiver dúvidas), fale com o seu 
+médico ou farmacêutico antes de tomar Viekirax. 
+Informe o seu médico caso tenha história de depressão ou doença psiquiátrica. Foram 
+notificados casos de depressão, incluindo pensamentos e comportamentos suicidas em alguns 
+doentes a tomar este medicamento, particularmente em doentes com uma história prévia de 
+depressão ou doença psiquiátrica ou em doentes a tomar ribavirina com este medicamento. Você
+ou o seu prestador de cuidados deve também informar o seu médico imediatamente acerca de 
+quaisquer alterações no comportamento ou no humor e de quaisquer pensamentos suicidas que
+possa ter.
+Análises ao sangue<br />
+O seu médico fará análises ao seu sangue antes, durante e depois do seu tratamento com 
+Viekirax. Isto para que o seu médico possa: </p>
+</li>
+<li>
+<p>Decidir que outros medicamentos deverá tomar com Viekirax e durante quanto tempo. </p>
+</li>
+<li>
+<p>Confirmar que o seu tratamento funcionou e que já não tem o vírus da hepatite C. </p>
+</li>
+<li>
+<p>Verificar a existência de efeitos indesejáveis de Viekirax ou de outros medicamentos antivirais 
+que o seu médico lhe tenha receitado para utilizar com Viekirax (tais como “dasabuvir" e 
+“ribavirina"). 
+Crianças e adolescentes 
+Não administrar Viekirax a crianças e adolescentes com idade inferior a 18 anos. A utilização de 
+Viekirax em crianças e adolescentes não foi ainda estudada. 
+Outros medicamentos e Viekirax
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, e antes de 
+tomar outros medicamentos. 
+Existem alguns medicamentos que não deve tomar com Viekirax - ver a tabela anterior 
+“Medicamentos que não deve tomar com Viekirax". 
+Informe o seu médico ou farmacêutico antes de tomar Viekirax, se estiver a tomar qualquer 
+dos medicamentos indicados na tabela seguinte. O médico pode precisar de alterar a sua dose 
+destes medicamentos. Informe o seu médico ou farmacêutico antes de tomar Viekirax se estiver 
+também a utilizar contracetivos hormonais. Ver a secção sobre contraceção em baixo.
+82
+Medicamentos acerca dos quais deve informar o seu médico antes de tomar Viekirax
+Medicamento ou substância ativa 
+Função do medicamento 
+alprazolam, diazepam
+para a ansiedade, ataques de pânico e 
+dificuldade em dormir 
+ciclosporina, everolímus, sirolímus, tacrolímus<br />
+para suprimir o sistema imunitário 
+ciclobenzaprina, carisoprodol
+para espasmos musculares
+colchicina para doentes com testes normais da 
+função renal e hepática 
+para tratar acessos agudos de gota ou febre 
+mediterrânea familiar
+digoxina, amlodipina, nifedipina, valsartan, 
+diltiazem, verapamilo, candesartan, losartan
+para problemas do coração ou pressão 
+sanguínea elevada<br />
+encorafenib
+para cancro da pele
+furosemida
+contra a formação de fluidos corporais em 
+excesso
+fostamatinib
+para contagem baixa de plaquetas
+hidrocodona
+para a dor
+levotiroxina
+para problemas da tiroide 
+rilpivirina, darunavir, atazanavir 
+para infeção por VIH 
+omeprazol, lansoprazol, esomeprazol 
+para úlceras de estômago e outros problemas de 
+estômago 
+ibrutinib, imatinib
+para o tratamento de alguns cancros do sangue
+fluvastatina, pitavastatina, pravastatina, 
+rosuvastatina 
+para baixar o colesterol no sangue 
+dabigatrano 
+para tornar o sangue mais fluido
+fexofenadina
+para a febre dos fenos
+s-mefenitoína
+para a epilepsia
+sulfassalazina
+para a doença inflamatória intestinal
+repaglinida
+para baixar o açúcar no sangue
+eritromicina
+para infeções bacterianas
+medicamentos esteroides ou corticoesteroides 
+(tal como a fluticasona) 
+para muitos problemas diferentes incluindo 
+doenças graves e alergias 
+trazodona
+para a ansiedade e depressão
+varfarina e outros medicamentos semelhantes 
+designados antagonistas da vitamina K* para tornar o sangue mais fluido</p>
+</li>
+</ul>
+<p>*O seu médico poderá necessitar de aumentar a frequência das suas análises ao sangue para 
+verificar se o sangue coagula corretamente.
+Se alguma das situações acima referidas se aplica a si (ou se tiver dúvidas), fale com o seu 
+médico ou farmacêutico antes de tomar Viekirax. 
+Gravidez e contraceção 
+Desconhecem-se quais são os efeitos de Viekirax durante a gravidez. Viekirax não deve ser 
+tomado durante a gravidez ou em mulheres com potencial para engravidar que não utilizem 
+métodos contracetivos eficazes.</p>
+<ul>
+<li>
+<p>Você ou seu parceiro devem utilizar um método de contraceção eficaz durante o tratamento. 
+Os medicamentos contracetivos que contêm etinilestradiol não podem ser utilizados em 
+associação com Viekirax. Fale com o seu médico sobre o método de contraceção mais adequado 
+para si.
+São necessárias precauções adicionais se Viekirax for tomado com a ribavirina. A ribavirina 
+pode causar graves anomalias congénitas. A ribavirina permanece por um longo período de 
+83
+tempo no organismo após conclusão do tratamento, e, por conseguinte, é necessário um método 
+contracetivo eficaz tanto durante o tratamento e durante algum tempo depois.</p>
+</li>
+<li>
+<p>Existe um risco de anomalias congénitas quando uma doente do sexo feminino engravida 
+enquanto está a tomar ribavirina.</p>
+</li>
+<li>
+<p>Também pode existir um risco de anomalias congénitas quando a parceira engravida de um 
+doente do sexo masculino que está a tomar ribavirina.</p>
+</li>
+<li>
+<p>Leia a seção "Contraceção" do folheto informativo da ribavirina com muita atenção. É 
+importante que ambos os homens e as mulheres leiam a informação.</p>
+</li>
+<li>
+<p>Se você ou a sua parceira engravidar durante o tratamento com Viekirax e ribavirina ou nos 
+meses seguintes, deve contactar o seu médico imediatamente.
+Amamentação
+Não deve amamentar durante o tratamento com Viekirax. Não se sabe se as substâncias ativas 
+de Viekirax (ombitasvir, paritaprevir e ritonavir) passam para o leite materno.
+Condução de veículos e utilização de máquinas 
+Durante o tratamento com Viekirax juntamente com outros medicamentos para o tratamento da 
+infeção pelo vírus da hepatite C, alguns doentes comunicaram sentir-se muito cansados. Se se 
+sentir cansado, não conduza ou utilize máquinas. </p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar viekirax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar viekirax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. 
+Os comprimidos de Viekirax são geralmente tomados com outros medicamentos antivirais 
+como “dasabuvir" e “ribavirina".
+Que quantidade tomar 
+A dose recomendada são dois comprimidos tomados em conjunto de manhã. 
+Como tomar </p>
+<ul>
+<li>
+<p>Tome os comprimidos de manhã com alimentos. O tipo de alimentos não é importante. </p>
+</li>
+<li>
+<p>Engula os comprimidos inteiros com água. </p>
+</li>
+<li>
+<p>Não mastigue, esmague ou divida os comprimidos porque podem ter um sabor amargo. 
+Durante quanto tempo deve tomar Viekirax 
+Deverá tomar Viekirax durante 8, 12 ou 24 semanas. O seu médico informá-lo-á acerca da 
+duração do seu tratamento. Não pare de tomar Viekirax a menos que o seu médico lhe diga para 
+o fazer. É muito importante que termine o ciclo completo de tratamento, para dar aos 
+medicamentos toda a possibilidade de eliminar a infeção pelo vírus da hepatite C. 
+Se tomar mais Viekirax do que deveria 
+Se tomar acidentalmente mais do que a dose recomendada, deverá contactar o seu médico ou 
+deslocar-se ao hospital mais próximo imediatamente. Leve consigo a embalagem do 
+medicamento para que possa descrever facilmente o que tomou. 
+Caso se tenha esquecido de tomar Viekirax
+É importante que não se esqueça de tomar nenhuma dose deste medicamento. Caso se tenha 
+esquecido de tomar uma dose e: 
+84</p>
+</li>
+<li>
+<p>Se faltarem mais de 12 horas até à sua próxima dose - tome a dose esquecida com alimentos 
+o mais breve possível. </p>
+</li>
+<li>
+<p>Se faltarem menos de 12 horas até à sua próxima dose - não tome a dose esquecida, tome a 
+dose seguinte à hora habitual com alimentos. 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pare de tomar Viekirax e fale com o seu médico ou procure assistência médica 
+imediatamente se verificar algum dos seguintes sintomas:
+Efeitos indesejáveis ao tomar Viekirax com ou sem dasabuvir e com ou sem ribavirina:
+Frequência desconhecida: não pode ser avaliada com base nos dados disponíveis</p>
+<ul>
+<li>
+<p>Reações alérgicas graves, os sintomas podem incluir:
+
+Dificuldade em respirar ou engolir
+
+Tontura ou vertigem, que pode ser devida a pressão arterial baixa
+
+Inchaço da face, lábios, língua ou garganta
+
+Erupção na pele e comichão na pele</p>
+</li>
+<li>
+<p>Agravamento dos problemas de fígado. Os sintomas incluem:
+ Sentir-se enjoado (náuseas), vómitos ou perda de apetite</p>
+</li>
+<li>
+<p>Verificar que a sua pele ou olhos estão amarelados
+ A sua urina está mais escura do que o normal
+ Confusão
+ Verificar inchaço do seu estômago
+Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes 
+não se manifestem em todas as pessoas. 
+Informe o seu médico ou farmacêutico se verificar algum dos seguintes efeitos 
+indesejáveis. 
+Efeitos indesejáveis ao tomar Viekirax com dasabuvir: 
+Frequentes: podem afetar até 1 em cada 10 pessoas </p>
+</li>
+<li>
+<p>Comichão
+Raros: podem afetar até 1 em cada 1.000 pessoas</p>
+</li>
+<li>
+<p>Inchaço da pele que pode afetar qualquer parte do corpo incluindo a face, língua ou 
+garganta, podendo causar dificuldade em engolir ou respirar (angioedema)
+Efeitos indesejáveis ao tomar Viekirax com dasabuvir e ribavirina: 
+Muito frequentes: podem afetar mais do que 1 em cada 10 pessoas </p>
+</li>
+<li>
+<p>Sensação de muito cansaço (fadiga) </p>
+</li>
+<li>
+<p>Enjoo (náuseas) </p>
+</li>
+<li>
+<p>Comichão</p>
+</li>
+<li>
+<p>Dificuldade em dormir (insónia) </p>
+</li>
+<li>
+<p>Sensação de fraqueza ou falta de energia (astenia)</p>
+</li>
+<li>
+<p>Diarreia
+Frequentes: podem afetar até 1 em cada 10 pessoas</p>
+</li>
+<li>
+<p>Anemia (número baixo de glóbulos vermelhos)</p>
+</li>
+<li>
+<p>Vómitos
+85
+Pouco Frequentes: podem afetar até 1 em cada 100 pessoas</p>
+</li>
+<li>
+<p>Desidratação
+Raros: podem afetar até 1 em cada 1.000 pessoas</p>
+</li>
+<li>
+<p>Inchaço da pele que pode afetar qualquer parte do corpo incluindo a face, língua ou 
+garganta, podendo causar dificuldade em engolir ou respirar (angioedema)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no 
+Apêndice V*. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações 
+sobre a segurança deste medicamento.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar viekirax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar viekirax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após 
+‘EXP’. O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer precauções especiais de conservação. 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Viekirax
+•Cada comprimido contém 12,5 mg de ombitasvir, 75 mg de paritaprevir e 50 mg de ritonavir.
+•Os outros componentes são: 
+− Núcleo do comprimido: copovidona, tocofersolano, monolaurato de propilenoglicol, 
+monolaurato de sorbitano, sílica coloidal anidra (E 551), fumarato sódico de estearilo.
+− Revestimento por película do comprimido: álcool polivinílico (E 1203), macrogol
+(3350), talco (E 553b), dióxido de titânio (E 171), óxido de ferro vermelho (E 172).
+Qual o aspeto de Viekirax e conteúdo da embalagem
+Os comprimidos de Viekirax são comprimidos revestidos por película de cor rosa, oblongos, 
+com dimensões de 18,8 mm x 10,0 mm, gravados com ‘AV1’. Os comprimidos de Viekirax 
+estão disponíveis em blisters de alumínio contendo 2 comprimidos. Cada embalagem contém comprimidos (embalagem múltipla contendo 4 embalagens interiores de 14 comprimidos cada). 
+Titular da Autorização de Introdução no Mercado e Fabricante
+AbbVie Deutschland GmbH &amp; Co. KG
+Knollstrasse
+67061 Ludwigshafen
+Alemanha
+86
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do 
+Titular da Autorização de Introdução no Mercado: 
+België/Belgique/Belgien
+AbbVie SA 
+Tél/Tel: +32 10 477Lietuva
+AbbVie UAB 
+Tel: +370 5 205 3България 
+АбВи ЕООД 
+Тел.: +359 2 90 30 Luxembourg/Luxemburg 
+AbbVie SA 
+Belgique/Belgien 
+Tél/Tel: +32 10 477Česká republika 
+AbbVie s.r.o.<br />
+Tel: +420 233 098 Magyarország 
+AbbVie Kft. 
+Tel.: +36 1 455 8Danmark 
+AbbVie A/S 
+Tlf: +45 72 30-20-Malta 
+V.J.Salomone Pharma Limited<br />
+Tel: +356 22983Deutschland 
+AbbVie Deutschland GmbH &amp; Co. KG 
+Tel: 00800 222843 33 (gebührenfrei) 
+Tel: +49 (0) 611 / 1720-0 
+Nederland 
+AbbVie B.V. 
+Tel: +31 (0)88 322 2Eesti 
+AbbVie OÜ
+Tel: +372 623 1Norge 
+AbbVie AS 
+Tlf: +47 67 81 80 Ελλάδα 
+AbbVie ΦΑΡΜΑΚΕΥΤΙΚΗ Α.Ε. 
+Τηλ: +30 214 4165 Österreich 
+AbbVie GmbH<br />
+Tel: +43 1 20589-0 
+España 
+AbbVie Spain, S.L.U.<br />
+Tel: +34 9 1 384 09 10
+Polska 
+AbbVie Sp. z o.o. 
+Tel.: + 48 22 372 78 00
+France 
+AbbVie 
+Tél: +33 (0)1 45 60 13 Portugal 
+AbbVie, Lda.<br />
+Tel: +351 (0)21 1908Hrvatska<br />
+AbbVie d.o.o. 
+Tel: +385 (0)1 5625 501
+România 
+AbbVie S.R.L. 
+Tel: +40 21 529 30 Ireland 
+AbbVie Limited<br />
+Tel: +353 (0)1 4287Slovenija 
+AbbVie Biofarmacevtska družba d.o.o. 
+Tel: +386 (1)32 08 Ísland 
+Vistor hf. 
+Tel: +354 535 7Slovenská republika 
+AbbVie s.r.o. 
+Tel: +421 2 5050 087
+Italia 
+AbbVie S.r.l.<br />
+Tel: +39 06 928Suomi/Finland 
+AbbVie Oy<br />
+Puh/Tel: +358 (0)10 2411 200
+Κύπρος
+Lifepharma (Z.A.M.) Ltd 
+Τηλ: +357 22 34 74 Sverige 
+AbbVie AB 
+Tel: +46 (0)8 684 44 Latvija 
+AbbVie SIA<br />
+Tel: +371 67605United Kingdom (Northern Ireland)
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: +44 (0)1628 561Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da 
+Agência Europeia de Medicamentos: http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
 
 
                     
@@ -1054,6 +1646,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9fab9f40152a9abf5de2f7daf83b1bd5"
 * entry[0].resource = composition-da-9fab9f40152a9abf5de2f7daf83b1bd5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9fab9f40152a9abf5de2f7daf83b1bd5"
+* entry[=].resource = mp9fab9f40152a9abf5de2f7daf83b1bd5
+                            
+                    
+Instance: bundlepackageleaflet-pt-9fab9f40152a9abf5de2f7daf83b1bd5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for viekirax Package Leaflet for language pt"
+Description: "ePI document Bundle for viekirax Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9fab9f40152a9abf5de2f7daf83b1bd5"
+* entry[0].resource = composition-pt-9fab9f40152a9abf5de2f7daf83b1bd5
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9fab9f40152a9abf5de2f7daf83b1bd5"
@@ -1155,6 +1769,18 @@ RuleSet: 9fab9f40152a9abf5de2f7daf83b1bd5ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9fab9f40152a9abf5de2f7daf83b1bd5) // viekirax pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

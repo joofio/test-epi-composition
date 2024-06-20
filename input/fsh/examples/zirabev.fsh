@@ -1182,6 +1182,784 @@ hjemmeside: http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-8ceafeb1fcccbf6af415d119af979934
+InstanceOf: CompositionUvEpi
+Title: "Composition for zirabev Package Leaflet"
+Description:  "Composition for zirabev Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8ceafeb1fcccbf6af415d119af979934)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - zirabev"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Zirabev e para que é utilizado
+2. O que precisa de saber antes de utilizar Zirabev
+3. Como utilizar Zirabev
+4. Efeitos indesejáveis possíveis
+5. Como conservar Zirabev
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é zirabev e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é zirabev e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zirabev contém a substância ativa bevacizumab, que é um anticorpo monoclonal humanizado (um 
+tipo de proteína que é normalmente produzido pelo sistema imunitário para ajudar a defender o 
+organismo de infeção e cancro). O bevacizumab liga-se seletivamente a uma proteína designada por 
+fator de crescimento do endotélio vascular humano (VEGF), que se encontra no revestimento dos 
+vasos sanguíneos e linfáticos do organismo. A proteína VEGF causa o crescimento dos vasos 
+sanguíneos nos tumores; estes vasos sanguíneos abastecem o tumor de nutrientes e oxigénio. 
+Quando o bevacizumab se liga ao VEGF, impede o crescimento do tumor através do bloqueio do 
+crescimento dos vasos sanguíneos que fornecem nutrientes e oxigénio ao tumor.
+Zirabev é um medicamento utilizado para o tratamento de doentes adultos com cancro avançado do 
+intestino grosso, isto é, do cólon ou reto. Zirabev será administrado juntamente com quimioterapia 
+que contém medicamentos com fluoropirimidinas.
+Zirabev também é utilizado para o tratamento de doentes adultos com cancro da mama metastizado. 
+Quando utilizado em doentes com cancro da mama, será administrado com um medicamento para 
+quimioterapia denominado paclitaxel ou capecitabina.
+Zirabev também é utilizado para o tratamento de doentes adultos com cancro do pulmão de células 
+não pequenas avançado. Zirabev será administrado em associação com um regime de quimioterapia 
+contendo platina.
+Zirabev é utilizado para o tratamento de doentes adultos com cancro do pulmão de células não 
+pequenas avançado quando as células cancerígenas têm mutações específicas de uma proteína 
+chamada recetor do fator de crescimento epidérmico (EGFR). Zirabev será administrado em 
+associação com o erlotinib.
+Zirabev também é utilizado para o tratamento de doentes adultos com cancro renal avançado. 
+Quando utilizado em doentes com cancro renal, será administrado com outro tipo de medicamento 
+denominado interferão.
+Zirabev é também usado no tratamento de doentes adultos com cancro epitelial do ovário, da trompa 
+de Falópio ou cancro peritoneal primário, avançados. Quando usado em doentes com cancro epitelial 
+69
+do ovário, da trompa de Falópio ou peritoneal primário, será administrado em associação com 
+carboplatina e paclitaxel.
+Quando usado nos doentes adultos com cancro epitelial do ovário, da trompa de Falópio ou cancro 
+peritoneal primário, avançados, em que a doença reapareceu pelo menos 6 meses após a última vez 
+que foram tratados com um regime de quimioterapia contendo um agente de platina, o Zirabev será 
+administrado em associação com carboplatina e gemcitabina ou com carboplatina e paclitaxel. 
+Quando usado nos doentes adultos com cancro epitelial do ovário, da trompa de Falópio ou cancro 
+peritoneal primário, avançados, em que a doença reapareceu até 6 meses após a última vez que foram 
+tratados com um regime de quimioterapia contendo um agente de platina, o Zirabev será administrado 
+em associação com paclitaxel, topotecano ou doxorrubicina lipossómica peguilada.
+Zirabev também é utilizado no tratamento de doentes adultas com cancro do colo do útero 
+persistente, recorrente ou metastizado. Zirabev será administrado em associação com paclitaxel e 
+cisplatina, ou, alternativamente, paclitaxel e topotecano em doentes que não podem receber 
+tratamento com platina.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar zirabev"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar zirabev"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Zirabev
+●
+se tem alergia (hipersensibilidade) ao bevacizumab ou a qualquer outro componente 
+deste medicamento (indicados na secção 6).
+●
+se tem alergia (hipersensibilidade) a derivados de células de ovário de hamster Chinês 
+(CHO) ou a outros anticorpos recombinantes humanos ou humanizados.
+●
+se estiver grávida.
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Zirabev:
+●
+O seu médico deve registar o nome de marca e o número de lote da sua medicação.
+●
+É possível que Zirabev aumente o risco de desenvolvimento de orifícios na parede do 
+intestino. Se tiver doenças que causem inflamação no interior do abdómen (por ex., 
+diverticulite, úlceras no estômago, colite associada à quimioterapia), fale com o seu médico 
+sobre o assunto.
+●
+Zirabev pode aumentar o risco de desenvolvimento de uma ligação anormal ou passagem 
+entre dois órgãos ou vasos. O risco de desenvolvimento de ligações entre a vagina e 
+quaisquer partes do intestino pode aumentar caso tenha cancro do colo do útero persistente, 
+recorrente ou metastizado.
+●
+Este medicamento pode aumentar o risco de hemorragia ou aumentar o risco de problemas 
+com a cicatrização após cirurgia. Se vai ser submetido a uma operação cirúrgica, se tiver sido 
+submetido a uma grande intervenção cirúrgica nos 28 dias anteriores ou se tiver uma ferida 
+cirúrgica não cicatrizada, não deve ser tratado com este medicamento.
+●
+Zirabev pode aumentar o risco de desenvolvimento de infeções graves da pele ou em 
+camadas profundas debaixo da pele, especialmente se tiver perfurações na parede do 
+intestino ou problemas com a cicatrização de feridas.
+●
+Zirabev pode aumentar a incidência de tensão arterial alta. Se tiver tensão arterial elevada
+que não é bem controlada com anti-hipertensores, por favor contacte o seu médico, dado
+que é importante certificar que a sua tensão arterial está controlada antes de iniciar o 
+tratamento com Zirabev.
+70
+●
+Se tiver ou tiver tido um aneurisma (dilatação ou enfraquecimento da parede de um vaso 
+sanguíneo) ou uma rotura na parede de um vaso sanguíneo.
+●
+Este medicamento aumenta o risco de ter proteínas na urina, em especial se já tem tensão 
+arterial elevada.
+●
+O risco de desenvolver coágulos sanguíneos nas artérias (um tipo de vaso sanguíneo) pode 
+aumentar se tem mais de 65 anos de idade, se tem diabetes, ou se teve uma situação prévia
+de coágulos sanguíneos nas suas artérias. Por favor fale com o seu médico dado que os 
+coágulos sanguíneos podem resultar em enfarte do miocárdio (ataque cardíaco) e acidente 
+vascular cerebral.
+●
+Zirabev pode também aumentar o risco de desenvolver coágulos sanguíneos nas suas 
+veias (um tipo de vaso sanguíneo).
+●
+Este medicamento pode causar hemorragia, especialmente hemorragia relacionada com o 
+tumor. Por favor consulte o seu médico se tiver, ou alguém da sua família tiver tendência 
+para ter problemas de hemorragias ou se, por qualquer razão, estiver a tomar medicamentos 
+que tornam o sangue menos espesso.
+●
+É possível que Zirabev cause hemorragia dentro ou à volta do cérebro. Por favor discuta o
+assunto com o seu médico se tiver cancro metastizado que afete o cérebro.
+●
+É possível que Zirabev aumente o risco de hemorragia nos seus pulmões, incluindo tosse ou 
+expetoração com sangue. Por favor discuta o assunto com o seu médico se tiver notado esta 
+situação anteriormente.
+●
+Zirabev pode aumentar o risco de desenvolvimento de problemas de coração. É importante 
+que o seu médico saiba se foi alguma vez submetido a tratamento com antraciclinas (por 
+exemplo, doxorrubicina, um tipo específico de quimioterapia utilizada para o tratamento de 
+alguns cancros), ou se foi submetido a radioterapia no tórax ou se tem alguma doença de 
+coração.
+●
+Este medicamento pode causar infeções e uma diminuição do número de neutrófilos 
+(um tipo de célula sanguínea importante na sua proteção contra bactérias).
+●
+É possível que Zirabev possa causar reações de hipersensibilidade (incluindo choque 
+anafilático) e/ou à perfusão (reações relacionadas com a injeção do medicamento). Por favor
+informe o seu médico, farmacêutico ou enfermeiro se tiver tido problemas após injeções, 
+tais como tonturas/sensação de desmaio, falta de ar, inchaço ou erupção na pele.
+●
+Foi associado ao tratamento com bevacizumab um efeito indesejável neurológico raro 
+denominado síndrome de encefalopatia posterior reversível (SEPR). Se tiver dor de cabeça, 
+alterações na visão, confusão ou convulsão com ou sem aumento da tensão arterial, contacte 
+o seu médico.
+Não deixe de informar o seu médico, mesmo que algum dos problemas descritos acima tenha 
+ocorrido no passado. 
+Antes de ser tratado com Zirabev ou enquanto estiver a ser tratado com Zirabev:
+●
+se tiver ou tiver tido dor na boca, dentes e/ou maxilar, inchaço ou feridas no interior da 
+boca, adormecimento ou sensação de peso no maxilar ou desprendimento de um dente, 
+informe o seu médico e o dentista imediatamente.
+●
+se precisar de ser submetido a um tratamento dentário invasivo ou cirurgia dentária, 
+informe o seu dentista de que está a ser tratado com Zirabev, particularmente quando está
+também a receber ou se já recebeu uma injeção de bifosfonato no seu sangue.
+71
+Poderá ser aconselhado a fazer uma consulta de revisão do estado dentário antes de iniciar o 
+tratamento com Zirabev.
+Crianças e adolescentes
+O uso de Zirabev em crianças e adolescentes com idade inferior a 18 anos não é recomendado porque
+a segurança e o benefício não foram estabelecidos nestas populações de doentes.
+Foi notificada, em doentes com idade inferior a 18 anos quando tratados com bevacizumab, a morte 
+do tecido do osso (osteonecrose) em ossos que não a mandíbula.
+Outros medicamentos e Zirabev
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente ou 
+se vier a tomar outros medicamentos.
+A combinação de Zirabev com outro medicamento chamado malato de sunitinib (prescrito para o 
+cancro renal e gastrointestinal) pode causar graves efeitos indesejáveis. Fale com o seu médico para 
+se certificar que não há associação destes medicamentos.
+Informe o seu médico se estiver a usar terapêuticas com base em platina ou taxanos para o cancro do 
+pulmão ou o cancro da mama metastizado. Estas terapêuticas em associação com Zirabev podem 
+aumentar o risco de efeitos indesejáveis graves.
+Informe o seu médico se fez recentemente ou está a fazer radioterapia.
+Gravidez, amamentação e fertilidade
+Não pode utilizar este medicamento se estiver grávida. Zirabev pode afetar o bebé que se está a
+desenvolver no útero uma vez que pode parar a formação de novos vasos sanguíneos. O seu médico 
+deve aconselhá-la a utilizar contraceção durante o tratamento com Zirabev e durante pelo menos 6 
+meses após a última dose de Zirabev.
+Informe de imediato o seu médico se estiver grávida, se engravidar durante o tratamento com este 
+medicamento ou se pretender engravidar num futuro próximo.
+Não pode amamentar o seu filho durante o tratamento com Zirabev e durante pelo menos 6 meses 
+após a última dose de Zirabev, uma vez que este pode interferir com o crescimento e 
+desenvolvimento do seu bebé.
+O Zirabev pode prejudicar a fertilidade feminina. Para mais informação consulte o seu 
+médico. 
+Consulte o seu médico, farmacêutico ou enfermeiro antes de tomar qualquer medicamento.
+Condução de veículos e utilização de máquinas
+O bevacizumab não mostrou reduzir a capacidade de conduzir ou utilizar quaisquer ferramentas ou 
+máquinas. No entanto, foram notificados sonolência e desmaios com o uso de bevacizumab. Se tiver
+sintomas que afetam a sua visão ou a concentração ou a sua capacidade de reagir, não conduza ou 
+utilize máquinas até que os sintomas desapareçam.
+Zirabev contém sódio
+Este medicamento contém 3,0 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
+cada frasco para injetáveis de 4 ml. Isto é equivalente a 0,15% da ingestão diária máxima de sódio 
+recomendada na dieta para um adulto.
+Este medicamento contém 12,1 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
+cada frasco para injetáveis de 16 ml. Isto é equivalente a 0,61% da ingestão diária máxima de sódio 
+recomendada na dieta para um adulto.
+72
+Dependendo do seu peso corporal e da sua dose de Zirabev, poderá receber vários frascos. Isto deve 
+ser considerado se estiver numa dieta com baixo teor em sal.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar zirabev"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar zirabev"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dose e frequência de administração
+A dose necessária de Zirabev depende do seu peso corporal e do tipo de cancro que está a ser 
+tratado. A dose recomendada é de 5 mg, 7,5 mg, 10 mg ou 15 mg por quilograma do seu peso 
+corporal. O seu médico vai prescrever a dose de Zirabev adequada ao seu caso. A administração de
+Zirabev vai ser feita 1 vez, de 2 em 2 ou de 3 em 3 semanas. O número de perfusões vai depender 
+da forma como responder ao tratamento; deve prosseguir o tratamento até o Zirabev deixar de 
+conseguir impedir o crescimento do tumor. O seu médico irá discutir este assunto consigo.
+Modo e via de administração
+Zirabev é um concentrado para solução para perfusão. Antes da utilização, uma parte ou a 
+totalidade, consoante a dose que lhe foi receitada, do conteúdo do frasco para injetáveis de Zirabev
+será diluída com uma solução de cloreto de sódio. Um médico ou enfermeiro irá administrar-lhe a 
+solução diluída de Zirabev por perfusão intravenosa (administração gota-a-gota numa veia). A 
+primeira perfusão ser-lhe-á administrada durante 90 minutos. Se esta for bem tolerada, a segunda 
+perfusão pode ser administrada durante 60 minutos. As perfusões seguintes podem ser 
+administradas durante 30 minutos.
+A administração de Zirabev deve ser temporariamente interrompida
+●
+se desenvolver tensão arterial elevada grave, que necessite de tratamento com anti-
+hipertensores,
+●
+se tiver problemas de cicatrização de feridas depois de uma cirurgia,
+●
+se for submetido a uma cirurgia.
+A administração de Zirabev deve ser permanentemente interrompida se tiver
+●
+tensão arterial elevada grave não controlada pelos medicamentos anti-hipertensores; ou 
+uma subida grave, súbita, da tensão arterial,
+●
+presença de proteínas na urina, acompanhada de inchaço no seu corpo,
+●
+um orifício na parede do seu intestino,
+●
+uma ligação ou passagem anormal, em forma de tubo, entre a traqueia e o esófago, entre 
+órgãos internos e a pele, entre a vagina e quaisquer partes do intestino ou entre outros 
+tecidos que não são normalmente conectados (fístula), e que seja considerada grave pelo 
+seu médico,
+●
+infeção grave da pele ou em camadas profundas debaixo da pele,
+●
+um coágulo de sangue nas artérias, 
+●
+um coágulo nos vasos sanguíneos dos pulmões,
+●
+uma hemorragia grave.
+Se for administrada uma quantidade excessiva de Zirabev
+●
+pode ter uma enxaqueca muito forte. Se isto acontecer contacte imediatamente o seu 
+médico, farmacêutico ou enfermeiro.
+Se não for administrada uma dose de Zirabev
+●
+o seu médico decidirá quando deve receber a próxima dose de Zirabev. Deve falar disso
+com o seu médico.
+Se parar o tratamento com Zirabev
+Interromper o tratamento com Zirabev pode parar o seu efeito no crescimento do tumor. Não pare o 
+tratamento com Zirabev exceto se o assunto tiver sido discutido com o seu médico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.
+73</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro.
+Os efeitos indesejáveis descritos a seguir foram observados quando bevacizumab foi administrado 
+juntamente com quimioterapia. Isto não significa necessariamente que estes efeitos indesejáveis
+tenham sido causados unicamente pelo bevacizumab.
+Reações alérgicas
+Se tiver uma reação alérgica, informe de imediato o seu médico ou um elemento da equipa médica. Os 
+sinais podem incluir: dificuldade em respirar ou dor no peito. Poderá também ter vermelhidão ou 
+rubor da pele ou uma erupção na pele, arrepios e calafrios, mal-estar (náuseas) ou vómitos, tumefação, 
+atordoamento, batimento cardíaco rápido e perda de consciência.
+Deve procurar ajuda imediatamente se tiver algum dos efeitos indesejáveis abaixo descritos.
+Efeitos indesejáveis graves, que podem ser muito frequentes (podem afetar mais de 1 em cada pessoas), incluem:</p>
+<ul>
+<li>
+<p>tensão arterial elevada,</p>
+</li>
+<li>
+<p>sensação de adormecimento ou formigueiro nas mãos ou pés,</p>
+</li>
+<li>
+<p>diminuição do número de células sanguíneas, incluindo glóbulos brancos, que ajudam a 
+combater infeções (pode ser acompanhado de febre) e células que ajudam na coagulação do 
+sangue,</p>
+</li>
+<li>
+<p>sentir-se fraco ou sem energia,</p>
+</li>
+<li>
+<p>cansaço,</p>
+</li>
+<li>
+<p>diarreia, náuseas, vómitos e dor abdominal.
+Efeitos indesejáveis graves, que podem ser frequentes (podem afetar até 1 em cada 10 pessoas), 
+incluem:</p>
+</li>
+<li>
+<p>perfuração intestinal,</p>
+</li>
+<li>
+<p>hemorragia, incluindo hemorragia dos pulmões em doentes com cancro do pulmão de células 
+não pequenas,</p>
+</li>
+<li>
+<p>bloqueio de artérias por um coágulo sanguíneo,</p>
+</li>
+<li>
+<p>bloqueio das veias por um coágulo sanguíneo,</p>
+</li>
+<li>
+<p>bloqueio dos vasos sanguíneos dos pulmões por um coágulo sanguíneo,</p>
+</li>
+<li>
+<p>bloqueio das veias das pernas por um coágulo sanguíneo,</p>
+</li>
+<li>
+<p>insuficiência cardíaca,</p>
+</li>
+<li>
+<p>problemas de cicatrização de feridas após cirurgia,</p>
+</li>
+<li>
+<p>vermelhidão, descamação, sensibilidade ao toque, dor ou formação de bolhas nos dedos ou pés,</p>
+</li>
+<li>
+<p>diminuição do número de glóbulos vermelhos no sangue,</p>
+</li>
+<li>
+<p>falta de energia,</p>
+</li>
+<li>
+<p>distúrbios intestinais e do estômago, </p>
+</li>
+<li>
+<p>dor muscular e nas articulações, fraqueza muscular,</p>
+</li>
+<li>
+<p>boca seca associada a sede e/ou diminuição do volume ou escurecimento da urina,</p>
+</li>
+<li>
+<p>inflamação do revestimento húmido do interior da boca e do intestino, pulmões e 
+passagens de ar, tratos reprodutor e urinário,</p>
+</li>
+<li>
+<p>feridas na boca e no tubo da boca até ao estômago, que poderão ser dolorosas e causar 
+dificuldade em engolir,</p>
+</li>
+<li>
+<p>dor, incluindo dor de cabeça, dor de costas e dor na pélvis e região anal,</p>
+</li>
+<li>
+<p>acumulação localizada de pus,</p>
+</li>
+<li>
+<p>infeção, em particular infeção no sangue ou na bexiga,
+74</p>
+</li>
+<li>
+<p>redução da circulação de sangue no cérebro ou acidente vascular cerebral,</p>
+</li>
+<li>
+<p>sonolência,</p>
+</li>
+<li>
+<p>hemorragia nasal,</p>
+</li>
+<li>
+<p>aumento do ritmo cardíaco (pulso),</p>
+</li>
+<li>
+<p>obstrução no intestino,</p>
+</li>
+<li>
+<p>resultados anormais no teste da urina (proteínas na urina),</p>
+</li>
+<li>
+<p>dificuldades respiratórias ou baixos níveis de oxigénio no sangue,</p>
+</li>
+<li>
+<p>infeções da pele ou camadas mais profundas debaixo da pele,</p>
+</li>
+<li>
+<p>fístula: uma ligação anormal, em forma de tubo, entre órgãos internos e a pele ou outros 
+tecidos que não estão normalmente ligados, incluindo ligações entre a vagina e o intestino 
+em doentes com cancro do colo do útero.</p>
+</li>
+<li>
+<p>reações alérgicas (os sinais podem incluir dificuldade em respirar, vermelhidão da face, erupção 
+da pele, tensão arterial baixa ou tensão arterial elevada, oxigénio baixo no seu sangue, dor 
+torácica, ou náuseas/vómitos).
+Efeitos indesejáveis graves, que podem ser raros (podem afetar até 1 em cada 1000 pessoas), incluem:</p>
+</li>
+<li>
+<p>reação alérgica grave e súbita, com dificuldade em respirar, tumefação, atordoamento, 
+batimento cardíaco rápido, sudorese e perda de consciência (choque anafilático).
+Efeitos indesejáveis graves de frequência desconhecida (a frequência não pode ser calculada a 
+partir dos dados disponíveis) incluem:</p>
+</li>
+<li>
+<p>infeções graves da pele ou em camadas profundas debaixo da pele, especialmente se tinha 
+perfurações na parede do intestino ou problemas de cicatrização de feridas,</p>
+</li>
+<li>
+<p>um efeito negativo na capacidade das mulheres em ter filhos (ver nos parágrafos abaixo a
+lista de recomendações adicionais),</p>
+</li>
+<li>
+<p>uma condição no cérebro com sintomas que incluem convulsões (ataques), dor de cabeça, 
+confusão e alterações na visão (Síndrome de Encefalopatia Posterior Reversível ou SEPR),</p>
+</li>
+<li>
+<p>sintomas que sugerem alterações na função normal do cérebro (dor de cabeça, alterações da 
+visão, confusão ou convulsões) e tensão arterial elevada,</p>
+</li>
+<li>
+<p>uma dilatação ou enfraquecimento da parede de um vaso sanguíneo ou uma rotura da parede de 
+um vaso sanguíneo (aneurismas e dissecções das artérias),</p>
+</li>
+<li>
+<p>bloqueio de vasos sanguíneos muito pequenos no rim,</p>
+</li>
+<li>
+<p>tensão arterial anormalmente elevada nos vasos sanguíneos dos pulmões, que faz com que o 
+lado direito do coração trabalhe mais do que o normal,</p>
+</li>
+<li>
+<p>uma perfuração na parede de cartilagem que separa as narinas,</p>
+</li>
+<li>
+<p>uma perfuração no estômago ou nos intestinos,</p>
+</li>
+<li>
+<p>uma ferida aberta ou perfuração no revestimento do estômago ou intestino delgado (os 
+sinais podem incluir dor abdominal, sensação de enfartamento, fezes negras cor de 
+alcatrão ou sangue nas fezes ou sangue no seu vómito),</p>
+</li>
+<li>
+<p>hemorragia na parte inferior do intestino grosso,</p>
+</li>
+<li>
+<p>lesões nas gengivas com exposição do osso da mandíbula que pode não curar e pode estar 
+associado a dor e inflamação do tecido circundante (ver nos parágrafos abaixo a lista de 
+efeitos indesejáveis para recomendações adicionais),</p>
+</li>
+<li>
+<p>perfuração na vesícula biliar (os sintomas e sinais podem incluir dor abdominal, 
+febre e náuseas/vómitos).
+Deve procurar ajuda logo que possível se tiver algum dos efeitos indesejáveis abaixo.
+Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas), que não foram 
+graves, incluem:</p>
+</li>
+<li>
+<p>obstipação,</p>
+</li>
+<li>
+<p>perda de apetite,</p>
+</li>
+<li>
+<p>febre,</p>
+</li>
+<li>
+<p>problemas nos olhos (incluindo aumento da produção de lágrimas),</p>
+</li>
+<li>
+<p>distúrbios na fala, </p>
+</li>
+<li>
+<p>alteração do paladar,</p>
+</li>
+<li>
+<p>corrimento nasal,
+75</p>
+</li>
+<li>
+<p>pele seca, descamação e inflamação da pele, alteração da cor da pele,</p>
+</li>
+<li>
+<p>perda de peso,</p>
+</li>
+<li>
+<p>hemorragias nasais.
+Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas), que não foram graves, 
+incluem:</p>
+</li>
+<li>
+<p>alterações da voz e rouquidão.
+Os doentes com mais de 65 anos apresentam um risco aumentado de sofrerem dos seguintes efeitos 
+indesejáveis:</p>
+</li>
+<li>
+<p>coágulos sanguíneos nas artérias, que podem levar a um AVC (acidente vascular cerebral) ou a 
+um enfarte do miocárdio (ataque cardíaco),</p>
+</li>
+<li>
+<p>diminuição no número de glóbulos brancos no sangue e de células que ajudam na coagulação do 
+sangue,</p>
+</li>
+<li>
+<p>diarreia,</p>
+</li>
+<li>
+<p>enjoos,</p>
+</li>
+<li>
+<p>dor de cabeça,</p>
+</li>
+<li>
+<p>fadiga,</p>
+</li>
+<li>
+<p>tensão arterial elevada.
+Zirabev pode ainda causar alterações nas análises laboratoriais pedidas pelo seu médico. Estas 
+incluem a diminuição do número de glóbulos brancos, em particular de neutrófilos (um tipo de 
+glóbulo branco que ajuda na proteção contra infeções) no sangue; presença de proteínas na urina; 
+diminuição dos níveis de potássio, sódio ou fósforo (um mineral) no sangue; aumento do nível de 
+açúcar no sangue; aumento do nível de fosfatase alcalina (uma enzima) no sangue; aumento da 
+creatinina sérica (uma proteína medida por um teste de sangue para ver como os seus rins estão a 
+funcionar); e diminuição do nível da hemoglobina (presente nos glóbulos vermelhos, que 
+transportam oxigénio), que pode ser grave.
+Dor na boca, dentes e/ou maxilar, inchaço ou feridas no interior da boca, adormecimento ou 
+sensação de peso no maxilar ou desprendimento de um dente. Estes podem ser sinais e sintomas de 
+lesão no osso do maxilar (osteonecrose). Se apresentar qualquer um destes sintomas informe 
+imediatamente o seu médico e o seu dentista.
+As mulheres pré-menopáusicas (mulheres que têm ciclo menstrual) podem notar que a 
+menstruação se torna irregular ou que têm faltas, e podem ter problemas de fertilidade. Se está a 
+considerar ter filhos deverá discuti-lo com o seu médico antes do início do tratamento.
+Zirabev foi desenvolvido e produzido para tratar o cancro através de injeção na corrente sanguínea. 
+Não foi desenvolvido nem produzido para ser injetado nos olhos. Como tal, não está autorizado para 
+ser utilizado deste modo. Quando Zirabev é injetado diretamente no olho (utilização não aprovada), 
+podem ocorrer os seguintes efeitos indesejáveis:</p>
+</li>
+<li>
+<p>Infeção ou inflamação do globo ocular,</p>
+</li>
+<li>
+<p>Vermelhidão do olho, pequenas partículas ou manchas na sua visão (moscas volantes), dor no 
+olho,</p>
+</li>
+<li>
+<p>Ver raios de luz com moscas volantes, progredindo para alguma perda da sua visão,</p>
+</li>
+<li>
+<p>Pressão ocular aumentada,</p>
+</li>
+<li>
+<p>Hemorragia no olho.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. 
+Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança 
+deste medicamento.
+76</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar zirabev"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar zirabev"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo 
+do frasco para injetáveis após EXP. O prazo de validade corresponde ao último dia do mês 
+indicado.
+Conservar no frigorífico (2°C-8°C). Não congelar.
+Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz.
+As soluções para perfusão devem ser utilizadas imediatamente após a diluição. Se não forem utilizadas 
+imediatamente, as condições e os tempos de conservação serão da responsabilidade do utilizador e, 
+geralmente, não devem ser superiores a 24 horas entre 2ºC a 8ºC, exceto se as soluções para perfusão 
+tiverem sido preparadas sob condições asséticas. Zirabev é estável por um período de até 35 dias entre 
+2ºC a 8 ºC após diluição e durante um período de até 48 horas a temperaturas que não ultrapassem os 
+30ºC.
+Não utilize Zirabev se observar qualquer partícula sólida ou descoloração antes da administração.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Zirabev</p>
+<ul>
+<li>
+<p>A substância ativa é bevacizumab. Cada ml de concentrado contém 25 mg de bevacizumab.
+Cada frasco para injetáveis de 4 ml contém 100 mg de bevacizumab.
+Cada frasco para injetáveis de 16 ml contém 400 mg de bevacizumab.</p>
+</li>
+<li>
+<p>Os outros ingredientes são sacarose, ácido succínico, edetato dissódico, polissorbato 80, 
+hidróxido de sódio (para ajuste do pH) e água para preparações injetáveis (ver secção 2 
+“Zirabev contém sódio").
+Qual o aspeto de Zirabev e conteúdo da embalagem
+Zirabev é um concentrado para solução para perfusão. O concentrado é um líquido transparente a 
+ligeiramente opalescente, incolor a castanho claro, num frasco para injetáveis de vidro, com uma 
+tampa de borracha. Cada frasco para injetáveis contém 100 mg de bevacizumab em 4 ml de solução ou 
+400 mg de bevacizumab em 16 ml de solução. Cada embalagem de Zirabev contém um frasco para 
+injetáveis.
+Titular da Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG, Boulevard de la Plaine 17, 1050 Bruxelles, Bélgica
+Fabricante
+Pfizer Service Company BV, Hoge Wei 10, Zaventem, 1930, Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do 
+Titular da Autorização de Introdução no Mercado.
+77
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Kύπρος
+Pfizer Eλλάς A.E. (Cyprus Branch)
+T: +357 22817690
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Magyarország
+Pfizer Kft.
+Tel.: + 36 1 488 37 00
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Malta
+Drugsales Ltd
+Tel: +356 21419070/1/2
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+България
+Пфайзер Люксембург САРЛ,
+Клон България
+Teл.: +359 2 970 4333
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Eλλάς A.E.
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+78
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: + 371 670 35 775
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 5 251 4000
+Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>
+</li>
+</ul>         </div>"""      
+
+
+
 
 
                     
@@ -1223,6 +2001,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8ceafeb1fcccbf6af415d119af979934"
 * entry[0].resource = composition-da-8ceafeb1fcccbf6af415d119af979934
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8ceafeb1fcccbf6af415d119af979934"
+* entry[=].resource = mp8ceafeb1fcccbf6af415d119af979934
+                            
+                    
+Instance: bundlepackageleaflet-pt-8ceafeb1fcccbf6af415d119af979934
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zirabev Package Leaflet for language pt"
+Description: "ePI document Bundle for zirabev Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8ceafeb1fcccbf6af415d119af979934"
+* entry[0].resource = composition-pt-8ceafeb1fcccbf6af415d119af979934
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8ceafeb1fcccbf6af415d119af979934"
@@ -1324,6 +2124,18 @@ RuleSet: 8ceafeb1fcccbf6af415d119af979934ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8ceafeb1fcccbf6af415d119af979934) // zirabev pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

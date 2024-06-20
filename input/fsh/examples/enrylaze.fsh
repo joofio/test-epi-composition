@@ -719,6 +719,443 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-d702c645ce8960ab36c7968fd9f89bfc
+InstanceOf: CompositionUvEpi
+Title: "Composition for enrylaze Package Leaflet"
+Description:  "Composition for enrylaze Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd702c645ce8960ab36c7968fd9f89bfc)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - enrylaze"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Enrylaze e para que é utilizado  </li>
+<li>O que precisa de saber antes de receber Enrylaze </li>
+<li>Como Enrylaze é administrado  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como Enrylaze é conservado </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é enrylaze e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é enrylaze e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Enrylaze contém a substância ativa crisantaspase recombinante. É um medicamento utilizado, em 
+conjunto com outros medicamentos, para tratar a leucemia linfoblástica aguda (LLA) e o linfoma 
+linfoblástico (LLB). Enrylaze pode ser administrado a doentes a partir de 1 mês de idade. 
+Enrylaze contém uma proteína produzida em laboratório através de tecnologia de DNA recombinante. 
+A ação desta proteína diminui a quantidade de uma proteína chamada asparagina, a qual é necessária à 
+sobrevivência das células do cancro da LLA e do LLB. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar enrylaze"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar enrylaze"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não deve receber Enrylaze </p>
+<ul>
+<li>
+<p>se tem uma reação alérgica grave a Enrylaze. </p>
+</li>
+<li>
+<p>se tem uma reação alérgica a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>se tem atualmente pancreatite grave (inflamação do pâncreas). </p>
+</li>
+<li>
+<p>se já teve pancreatite grave depois de receber terapêuticas com asparaginase. </p>
+</li>
+<li>
+<p>se já teve coágulos sanguíneos graves depois de receber terapêuticas com asparaginase. </p>
+</li>
+<li>
+<p>se já teve acontecimentos hemorrágicos graves depois de receber terapêuticas com asparaginase. </p>
+</li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de receber Enrylaze. </p>
+<p>Os seguintes problemas podem ocorrer durante o tratamento com Enrylaze: </p>
+<ul>
+<li>
+<p>reações alérgicas graves que podem pôr a vida em risco. O hospital irá assegurar que existem 
+meios para lidar com qualquer reação alérgica que possa ocorrer durante o tratamento. </p>
+</li>
+<li>
+<p>inflamação do pâncreas. Uma sensação de mal-estar ou dor na região do estômago ou nas costas </p>
+</li>
+</ul>
+<p>pode ser um sinal de pancreatite e deve ser comunicada ao seu médico imediatamente. </p>
+<ul>
+<li>
+<p>alterações na capacidade do seu corpo de gerir os níveis de açúcar no sangue. O seu médico 
+deve monitorizar a sua glucose durante o tratamento e fornecer-lhe insulina, se necessário. </p>
+</li>
+<li>
+<p>acontecimentos hemorrágicos fora do normal ou coágulos sanguíneos. Se algum destes 
+acontecimentos ocorrer, o seu médico irá suspender o tratamento até que estes problemas 
+estejam resolvidos. </p>
+</li>
+<li>
+<p>problemas com o seu fígado. O seu médico irá monitorizá-lo para identificar se tem algum 
+problema no fígado e prestar-lhe o tratamento necessário.  </p>
+</li>
+<li>
+<p>toxicidade do sistema nervoso central, como convulsões ou compromisso da função 
+neurológica. Adicionalmente, as ocorrências de síndrome de encefalopatia posterior reversível 
+(caracterizada por dores de cabeça, confusão mental, convulsões e perda da visão) podem 
+requerer medicamentos para reduzir a tensão arterial e, no caso das convulsões, tratamento com 
+medicamentos antiepiléticos. </p>
+</li>
+</ul>
+<p>Monitorização durante o tratamento com Enrylaze 
+Será monitorizado durante e após o tratamento com Enrylaze quanto a: </p>
+<ul>
+<li>
+<p>reações alérgicas </p>
+</li>
+<li>
+<p>o funcionamento do seu pâncreas e fígado </p>
+</li>
+<li>
+<p>níveis de açúcar no sangue </p>
+</li>
+</ul>
+<p>Outros medicamentos e Enrylaze 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Particularmente, informe o seu médico ou farmacêutico se estiver a 
+receber ou já tiver recebido: </p>
+<ul>
+<li>
+<p>metotrexato ou citarabina, utilizados no tratamento do cancro. A utilização destes medicamentos 
+imediatamente antes de Enrylaze pode aumentar o efeito dos mesmos. </p>
+</li>
+<li>
+<p>vincristina, utilizada no tratamento do cancro. A utilização de vincristina com Enrylaze pode 
+aumentar a toxicidade da vincristina. </p>
+</li>
+<li>
+<p>glicocorticoides, utilizados como medicamentos anti-inflamatórios. A utilização destes 
+medicamentos imediatamente antes de Enrylaze pode aumentar a formação de coágulos 
+sanguíneos.  </p>
+</li>
+</ul>
+<p>Gravidez 
+Enrylaze não deve ser utilizado durante a gravidez e as mulheres devem verificar se estão grávidas 
+antes de iniciar a terapêutica. Se está grávida ou se pensa estar grávida ou planeia engravidar, consulte 
+o seu médico ou farmacêutico antes de receber este medicamento. </p>
+<p>Amamentação 
+Não deve amamentar durante o tratamento e durante duas semanas após o tratamento com Enrylaze, 
+uma vez que pode existir um risco para o lactente. </p>
+<p>Planeamento familiar 
+Tanto os homens como as mulheres devem utilizar uma forma de contraceção e evitar conceber uma 
+criança durante o tratamento com Enrylaze e durante 3 meses após a última dose de Enrylaze. A 
+utilização de contracetivos hormonais não é recomendada em mulheres a receber tratamento com 
+Enrylaze. </p>
+<p>As mulheres devem realizar testes da gravidez antes de iniciar o tratamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Enrylaze pode provocar náuseas e dores de cabeça. Isto poderá afetar a sua capacidade de conduzir e 
+utilizar máquinas. </p>
+<p>Enrylaze contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por unidade de dose ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar enrylaze"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar enrylaze"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu médico irá determinar a dose que irá receber e se esta será administrada através da perfusão 
+numa veia ou injeção num músculo. Também poderá receber outros medicamentos antes de começar a 
+receber Enrylaze, tais como paracetamol e bloqueadores H1 e H2.  </p>
+<p>A dose e o modo de administração podem variar dependendo da sua condição específica, área 
+superficial do corpo e resposta à terapêutica.  </p>
+<p>Se receber Enrylaze através de uma veia, a administração é realizada ao longo de um período de 
+2 horas. Se receber Enrylaze por injeção num músculo, podem ser utilizados vários locais de injeção. </p>
+<p>Se pensa que recebeu mais Enrylaze do que deveria 
+Se tiver alguma preocupação, contacte o seu médico ou qualquer profissional de saúde imediatamente. </p>
+<p>Se pensa que saltou uma dose de Enrylaze 
+Se tiver alguma preocupação, contacte o seu médico ou qualquer profissional de saúde imediatamente. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Os seguintes efeitos indesejáveis foram notificados em doentes 
+que receberam tratamento com Enrylaze. </p>
+<p>Efeitos indesejáveis graves 
+Informe o seu médico imediatamente se tiver: 
+Sintomas de uma reação alérgica grave, incluindo inchaço da cara, falta de ar, sintomas semelhantes a 
+febre dos fenos, erupção na pele, arrepios, síbilo, afrontamento, vómito, tensão arterial alta ou baixa. 
+Também pode ocorrer anafilaxia (uma reação alérgica grave e súbita, acompanhada de dificuldade em 
+respirar, inchaço, tonturas, batimento rápido do coração, suores e perda de consciência) em casos 
+graves. </p>
+<p>Sintomas de coágulos sanguíneos, incluindo nos vasos sanguíneos dos pulmões, que podem 
+manifestar-se como falta de ar súbita, dor no peito ou tossir sangue, e nos vasos sanguíneos do 
+cérebro, que podem manifestar-se como sintomas tais como fraqueza/dormência, convulsões, 
+dificuldade em falar ou dor de cabeça grave. </p>
+<p>Sintomas de pancreatite, incluindo dor abdominal, náuseas, vómito, dor nas costas ou perda de apetite. </p>
+<p>Outros efeitos indesejáveis 
+Fale com o seu médico se tiver algum dos seguintes: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>reação alérgica, incluindo erupção na pele, comichão e urticária </p>
+</li>
+<li>
+<p>infeções </p>
+</li>
+<li>
+<p>níveis baixos de glóbulos vermelhos (anemia) </p>
+</li>
+<li>
+<p>níveis baixos de plaquetas no sangue (trombocitopenia) </p>
+</li>
+<li>
+<p>níveis baixos de glóbulos brancos (número de leucócitos diminuído) </p>
+</li>
+<li>
+<p>níveis baixos de neutrófilos, um tipo de glóbulos brancos que combate infeções (neutropenia) </p>
+</li>
+<li>
+<p>níveis baixos de glóbulos brancos (neutrófilos) com febre devido a infeção (neutropenia febril) </p>
+</li>
+<li>
+<p>níveis baixos de linfócitos, um tipo de glóbulos brancos que combate infeções (número de 
+linfócitos diminuído) </p>
+</li>
+<li>
+<p>dor no estômago (dor abdominal) </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>sensação de enjoo (náuseas) </p>
+</li>
+<li>
+<p>vómito </p>
+</li>
+<li>
+<p>cansaço (fadiga) </p>
+</li>
+<li>
+<p>febre (pirexia) </p>
+</li>
+<li>
+<p>níveis altos de açúcar no sangue (hiperglicemia) </p>
+</li>
+<li>
+<p>dor nos membros (dor na extremidade) </p>
+</li>
+<li>
+<p>perda de peso (peso diminuído) </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>apetite diminuído </p>
+</li>
+<li>
+<p>prova da função hepática anormal (transaminases aumentadas, bilirrubinemia aumentada) </p>
+</li>
+<li>
+<p>nível de albumina (uma proteína do sangue) diminuído (hipoalbuminemia) </p>
+</li>
+<li>
+<p>ansiedade </p>
+</li>
+<li>
+<p>contusão </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>intoxicação do sangue (sepsia) </p>
+</li>
+<li>
+<p>reação alérgica grave e súbita, acompanhada de dificuldade em respirar, inchaço, tonturas, 
+batimento rápido do coração, suores e perda de consciência (reação anafilática) </p>
+</li>
+<li>
+<p>erupção na pele, caracterizada por manchas planas e descoloradas (máculas) e por elevações 
+avermelhadas (pápulas) (erupção maculopapular) </p>
+</li>
+<li>
+<p>erupção na pele, com vermelhidão e inflamação (erupção eritematosa) </p>
+</li>
+<li>
+<p>urticária </p>
+</li>
+<li>
+<p>comichão na pele (prurido) </p>
+</li>
+<li>
+<p>inflamação do pâncreas (pancreatite) </p>
+</li>
+<li>
+<p>dor no local de injeção </p>
+</li>
+<li>
+<p>reação no local de injeção </p>
+</li>
+<li>
+<p>reação associada a infusão intravenosa </p>
+</li>
+<li>
+<p>níveis anormais do fator de coagulação do sangue (tempo parcial de tromboplastina ativado 
+prolongado, antitrombina III diminuída, fibrinogenemia diminuída) </p>
+</li>
+<li>
+<p>função anormal do fígado (creatininemia aumentada) </p>
+</li>
+<li>
+<p>níveis baixos de açúcar no sangue (hipoglicemia) </p>
+</li>
+<li>
+<p>tensão arterial baixa (hipotensão) </p>
+</li>
+<li>
+<p>coágulos sanguíneos, incluindo nos vasos sanguíneos dos pulmões e do cérebro </p>
+</li>
+<li>
+<p>irritabilidade </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>coágulo sanguíneo numa veia importante do cérebro (trombose do seio sagital superior) </p>
+</li>
+<li>
+<p>coágulo sanguíneo na veia do pescoço (trombose da veia jugular) </p>
+</li>
+<li>
+<p>coágulo sanguíneo nas veias dos membros (trombose de veia profunda) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar enrylaze"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar enrylaze"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem e no frasco para 
+injetáveis após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conserve os frascos para injetáveis por abrir no frigorífico (2 °C - 8 °C) na posição vertical. Não </p>
+<p>congelar. Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>
+<p>Depois de preparar uma dose numa seringa, Enrylaze pode ser conservado durante até 8 horas à 
+temperatura ambiente (15 °C - 25 °C) ou 24 horas no frigorífico (2 °C - 8 °C).  </p>
+<p>Após a diluição num saco intravenoso, Enrylaze pode ser conservado durante até 12 horas à 
+temperatura ambiente (15 °C - 25 °C) ou 24 horas no frigorífico (2 °C - 8 °C). O período de 
+conservação tem início assim que a solução for recolhida dos frascos para injetáveis por abrir. </p>
+<p>Não utilize este medicamento se verificar partículas na solução. </p>
+<p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Enrylaze  </p>
+<ul>
+<li>
+<p>A substância ativa é crisantaspase recombinante. Cada frasco para injetáveis contém 10 mg de 
+crisantaspase recombinante em 0,5 ml de solução. </p>
+</li>
+<li>
+<p>Os outros componentes são trealose di-hidratada, cloreto de sódio (ver secção 2, “Enrylaze 
+contém sódio"), hidróxido de sódio (para ajuste do pH), fosfato dissódico, di-hidrogenofosfato 
+de sódio monoidratado, polissorbato 80 e água para preparações injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Enrylaze e conteúdo da embalagem 
+Enrylaze é uma solução injetável ou para perfusão transparente a ligeiramente amarela, isenta de 
+partículas. </p>
+<p>Uma embalagem contém 3 frascos para injetáveis de vidro, cada um com 0,5 ml de solução injetável 
+ou para perfusão. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Jazz Pharmaceuticals Ireland Ltd<br />
+5th Floor 
+Waterloo Exchange 
+Waterloo Road 
+Dublin 4 
+D04 E5W7 
+Irlanda 
+Tel.: +353 1 968 1E-mail: medinfo-int@jazzpharma.com </p>
+<p>Este folheto foi revisto pela última vez em:  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -760,6 +1197,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d702c645ce8960ab36c7968fd9f89bfc"
 * entry[0].resource = composition-da-d702c645ce8960ab36c7968fd9f89bfc
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd702c645ce8960ab36c7968fd9f89bfc"
+* entry[=].resource = mpd702c645ce8960ab36c7968fd9f89bfc
+                            
+                    
+Instance: bundlepackageleaflet-pt-d702c645ce8960ab36c7968fd9f89bfc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for enrylaze Package Leaflet for language pt"
+Description: "ePI document Bundle for enrylaze Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d702c645ce8960ab36c7968fd9f89bfc"
+* entry[0].resource = composition-pt-d702c645ce8960ab36c7968fd9f89bfc
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd702c645ce8960ab36c7968fd9f89bfc"
@@ -861,6 +1320,18 @@ RuleSet: d702c645ce8960ab36c7968fd9f89bfcListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d702c645ce8960ab36c7968fd9f89bfc) // enrylaze pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

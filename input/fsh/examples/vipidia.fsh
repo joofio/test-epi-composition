@@ -754,6 +754,387 @@ hjemmeside http://www.ema.europa.eu.  </p>         </div>"""
 
 
 
+Instance: composition-pt-d0b40c63b26d00d8cd281b17148dcf97
+InstanceOf: CompositionUvEpi
+Title: "Composition for vipidia Package Leaflet"
+Description:  "Composition for vipidia Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd0b40c63b26d00d8cd281b17148dcf97)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - vipidia"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Vipidia e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Vipidia </li>
+<li>Como tomar Vipidia </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Vipidia </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é vipidia e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é vipidia e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vipidia contém a substância ativa alogliptina, que pertence a um grupo de medicamentos chamados 
+por inibidores da DPP-4 (inibidores da dipeptidil peptidase-4), que são “antidiabéticos orais". É 
+utilizado para baixar os níveis de glicemia (açúcar no sangue) nos adultos com diabetes tipo 2. A 
+diabetes tipo 2 também é chamada de diabetes mellitus não insulino-dependente ou DMNID. </p>
+<p>Vipidia atua ao aumentar os níveis de insulina depois de uma refeição e ao reduzir a quantidade de 
+açúcar no organismo. Deve ser tomado juntamente com outros medicamentos antidiabéticos, que o seu 
+médico lhe receitará, como as sulfonilureias (p. ex., a glipizida, a tolbutamida, a glibenclamida), a 
+metformina e/ou as tiazolidinedionas (p. ex., a pioglitazona) e a metformina e/ou insulina. </p>
+<p>Vipidia é tomado quando o seu nível de açúcar no sangue não pode ser controlado adequadamente 
+com dieta, exercício físico e um ou mais destes medicamentos antidiabéticos orais. É importante que 
+continue a tomar outra medicação antidiabética e continue a seguir os conselhos sobre dieta e exercício 
+físico que o seu enfermeiro ou médico lhe deu. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar vipidia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar vipidia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Vipidia 
+- se tem alergia à alogliptina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se teve alguma reação alérgica grave a qualquer outro medicamento semelhante que tome para 
+controlar o nível de açúcar no sangue. Os sintomas de uma reação alérgica grave podem incluir: 
+erupção na pele, manchas vermelhas salientes na pele (urticária), inchaço do rosto, lábios, 
+língua e garganta que pode causar dificuldade em respirar ou engolir. Os sintomas adicionais 
+podem incluir comichão generalizada e sensação de calor, afetando especialmente a cabeça 
+(couro cabeludo), a boca, a garganta, as palmas das mãos e plantas dos pés (síndrome de 
+Stevens-Johnson). </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar Vipidia: 
+- se tem diabetes tipo 1 (o seu organismo não produz insulina). 
+- se tem cetoacidose diabética (uma complicação da diabetes que ocorre quando o organismo não 
+consegue decompor a glucose porque não há insulina suficiente). Os sintomas incluem sede 
+excessiva, aumento da frequência urinária, perda de apetite, náuseas ou vómitos e rápida perda 
+de peso. 
+- se está a tomar um medicamento antidiabético conhecido por sulfonilureia (p. ex., glipizida, 
+tolbutamida, glibenclamida) ou insulina. O seu médico pode querer reduzir a sua dose de 
+sulfonilureia ou insulina quando toma qualquer um deles com Vipidia, de modo a evitar um 
+nível demasiado baixo de açúcar no sangue (hipoglicemia). 
+- se tem uma doença nos rins, ainda pode tomar este medicamento, mas o seu médico pode 
+reduzir a dose. 
+- se tem uma doença de fígado. 
+- se tem insuficiência cardíaca. 
+- se está a tomar insulina ou outro medicamento antidiabético, o seu médico poderá querer reduzir 
+a sua dose do outro medicamento antidiabético ou insulina, quando toma qualquer um deles 
+com Vipidia, de modo a evitar um nível demasiado baixo de açúcar no sangue. 
+- se tem ou tiver tido uma doença do pâncreas </p>
+<p>Contacte o seu médico se tiver formação de bolhas na pele, pois pode ser um sinal de uma condição 
+que se designa por penfigoide bolhoso. O seu médico poderá dizer-lhe para deixar de tomar 
+alogliptina. </p>
+<p>Crianças e adolescentes<br />
+Vipidia não é recomendado para crianças e adolescentes com idade inferior a 18 anos, dada a falta de 
+eficácia nestes doentes. </p>
+<p>Outros medicamentos e Vipidia 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Gravidez e amamentação<br />
+Se está grávida ou a amamentar, se pensa que pode estar grávida ou planeia engravidar, consulte o seu 
+médico ou farmacêutico antes de tomar este medicamento. </p>
+<p>Não há experiência de utilização de Vipidia em mulheres grávidas ou durante a amamentação. Vipidia 
+não deve ser utilizado durante a gravidez ou a amamentação. O seu médico irá ajudá-la a decidir se 
+deverá continuar a amamentar ou a continuar a utilizar o Vipidia.  </p>
+<p>Condução de veículos e utilização de máquinas 
+Desconhece-se se Vipidia afeta a sua capacidade de conduzir e utilizar máquinas. Tomar Vipidia em 
+associação com outros medicamentos antidiabéticos denominados sulfonilureias, insulina ou em 
+terapêutica de associação com tiazolidinediona mais metformina pode causar níveis baixos de açúcar 
+no sangue (hipoglicemia), que podem afetar a sua capacidade de conduzir ou utilizar máquinas. </p>
+<p>Vipidia contém sódio<br />
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio" </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar vipidia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar vipidia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>O seu médico receitar-lhe-á Vipidia juntamente com um ou mais medicamentos para controlar o seu 
+nível de açúcar no sangue. O seu médico informá-lo-á se precisar de alterar a dose dos outros 
+medicamentos que toma. </p>
+<p>A dose recomendada de Vipidia é 25 mg, uma vez ao dia. </p>
+<p>Doentes com doença renal 
+Se tiver doença renal, o seu médico pode prescrever-lhe uma dose reduzida. Esta pode ser 12,5 mg ou 
+6,25 mg, uma vez ao dia, dependendo da gravidade da sua doença renal.  </p>
+<p>Doentes com doença de fígado 
+Se a função do seu fígado estiver ligeira ou moderadamente reduzida, a dose recomendada de Vipidia 
+é 25 mg, uma vez ao dia. Este medicamento não é recomendado a doentes com uma função hepática 
+gravemente reduzida, dada a inexistência de dados nestes doentes. </p>
+<p>Engula o(s) seu(s) comprimido(s) inteiro(s) com água. Pode tomar este medicamento com ou sem 
+alimentos. </p>
+<p>Se tomar mais Vipidia do que deveria 
+Se tomar mais comprimidos do que deveria, ou se outra pessoa ou uma criança tomar o seu 
+medicamento, contacte ou dirija-se imediatamente à Urgência mais próxima. Leve este folheto ou 
+alguns comprimidos consigo para que o médico saiba exatamente o que foi tomado. </p>
+<p>Caso se tenha esquecido de tomar Vipidia 
+Caso se tenha esquecido de tomar uma dose, tome-a assim que se lembrar. Não tome uma dose a 
+dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Vipidia 
+Não pare de tomar Vipidia sem antes consultar o seu médico. Os seus níveis de açúcar no sangue 
+podem subir quando para de tomar Vipidia. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.  </p>
+<p>PARE de tomar Vipidia e contacte imediatamente o médico se sentir algum dos seguintes efeitos 
+indesejáveis graves: </p>
+<p>Desconhecido (não pode ser calculado a partir dos dados disponíveis): 
+- Uma reação alérgica. Os sintomas podem incluir: uma erupção cutânea, urticária, dificuldade 
+em engolir ou respirar, inchaço dos lábios, do rosto, da garganta e da língua, e sensação de 
+desmaio.<br />
+- Uma reação alérgica grave: lesões de pele ou manchas na sua pele, que podem evoluir para 
+uma ferida rodeada por anéis pálidos ou vermelhos, formação de bolhas e/ou descamação da 
+pele possivelmente com sintomas como comichão, febre, mal-estar geral, dores nas articulações, 
+problemas de visão, ardor, dor ou comichão nos olhos e feridas na boca (Síndrome de 
+Stevens-Johnson e Eritema multiforme).<br />
+- Dor intensa e persistente no abdómen (região do estômago), que pode estender-se para as 
+costas, assim como originar náuseas e vómitos, uma vez que pode ser sinal de um pâncreas 
+inflamado (pancreatite). </p>
+<p>Também deve falar com o seu médico se sentir os seguintes efeitos indesejáveis: </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): 
+- Sintomas de baixo nível de açúcar no sangue (hipoglicemia) podem ocorrer quando Vipidia é 
+tomado em associação com insulina ou sulfonilureias (p. ex., glipizida, tolbutamida, 
+glibenclamida). Os sintomas podem incluir: tremores, suores, ansiedade, visão turva, 
+formigueiro nos lábios, palidez, alterações de humor ou sentir-se confuso. O seu açúcar no 
+sangue pode descer abaixo do nível normal, mas pode subir novamente com a ingestão de 
+açúcar. É recomendado que ande sempre com pacotinhos de açúcar, rebuçados, bolachas ou 
+sumo de fruta açucarado. 
+- Sintomas idênticos aos de uma constipação, como dor de garganta, nariz entupido ou com 
+corrimento, 
+- Erupção na pele 
+- Comichão na pele 
+- Dor de cabeça 
+- Dor de estômago 
+- Diarreia 
+- Indigestão, azia </p>
+<p>Desconhecido: 
+- Problemas de fígado, tais como náuseas ou vómitos, dor de estômago, cansaço invulgar ou 
+inexplicável, perda de apetite, urina escura ou amarelecimento da pele ou da parte branca dos 
+olhos. 
+- Inflamação do tecido conjuntivo dos rins (nefrite intersticial). 
+- Formação de bolhas na pele (penfigoide bolhoso). </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar vipidia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar vipidia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação.  </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Vipidia<br />
+- A substância ativa é alogliptina. 
+Cada comprimido de 25 mg contém benzoato de alogliptina equivalente a 25 mg de alogliptina. 
+- Os outros componentes são: manitol, celulose microcristalina, hidroxipropilcelulose, 
+croscarmelose sódica, estearato de magnésio, hipromelose, dióxido de titânio (E171), óxido de 
+ferro vermelho (E172), macrogol 8000, goma laca e óxido de ferro preto (E172). 
+Cada comprimido de 12,5 mg contém benzoato de alogliptina equivalente a 12,5 mg de alogliptina. 
+- Os outros componentes são: manitol, celulose microcristalina, hidroxipropilcelulose, 
+croscarmelose sódica, estearato de magnésio, hipromelose, dióxido de titânio (E171), óxido de 
+ferro amarelo (E172), macrogol 8000, goma laca e óxido de ferro preto (E172). 
+Cada comprimido de 6,25 mg contém benzoato de alogliptina equivalente a 6,25 mg de alogliptina. 
+- Os outros componentes são: manitol, celulose microcristalina, hidroxipropilcelulose, 
+croscarmelose sódica, estearato de magnésio, hipromelose, dióxido de titânio (E171), óxido de 
+ferro vermelho (E172), macrogol 8000, goma laca e óxido de ferro preto (E172). </p>
+<p>Qual o aspeto de Vipidia e conteúdo da embalagem 
+- Vipidia 25 mg comprimidos revestidos por película contém comprimidos revestidos por película 
+vermelho claros, ovais (aproximadamente, 9,1 mm de comprimento por 5,1 mm de largura) e 
+biconvexos com “TAK" e “ALG-25" impressos a cinzento numa das faces. 
+- Vipidia 12,5 mg comprimidos revestidos por película contém comprimidos revestidos por 
+película amarelos, ovais (aproximadamente, 9,1 mm de comprimento por 5,1 mm de largura) e 
+biconvexos com “TAK" e “ALG-12.5" impressos a cinzento numa das faces. 
+- Vipidia 6,25 mg comprimidos revestidos por película contém comprimidos revestidos por 
+película rosa claro, ovais (aproximadamente, 9,1 mm de comprimento por 5,1 mm de largura) e 
+biconvexos com “TAK" e “ALG-6.25" impressos a cinzento numa das faces. </p>
+<p>Vipidia está disponível em embalagens com blisters contendo 10, 14, 28, 30, 56, 60, 84, 90, 98 ou 
+100 comprimidos. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Takeda Pharma A/S 
+Delta Park 2665 Vallensbaek Strand 
+Dinamarca  </p>
+<p>Fabricante 
+Takeda Ireland Limited 
+Bray Business Park 
+Kilruddery 
+Co. Wicklow 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+de Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>България 
+Такеда България ЕООД 
+Тел.: +359 2 958 27 medinfoEMEA@takeda.com </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com<br />
+Česká republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: +420 234 722 medinfoEMEA@takeda.com </p>
+<p>Magyarország 
+Takeda Pharma Kft. 
+Tel.: +36 1 270 7medinfoEMEA@takeda.com 
+Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Takeda HELLAS S.A. 
+Tel: +30 210 6387medinfoEMEA@takeda.com 
+Deutschland 
+Takeda GmbH 
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com<br />
+Ελλάδα 
+Takeda ΕΛΛΑΣ Α.Ε. 
+Τηλ: +30 210 6387medinfoEMEA@takeda.com<br />
+Österreich 
+Takeda Pharma Ges.m.b.H. 
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com  </p>
+<p>España 
+Laboratorios Menarini, S.A. 
+Tel: +34 934 628 info@menarini.es </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+Tel.: +48223062medinfoEMEA@takeda.com  </p>
+<p>France 
+Takeda France SAS 
+Tél: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Tecnimede - Sociedade Técnico-Medicinal, S.A 
+Tel: +351 21 041 41 00<br />
+dmed.fv@tecnimede.pt  </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>România 
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska družba d.o.o. 
+Tel: +386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovenská republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>Κύπρος 
+Takeda ΕΛΛΑΣ Α.Ε. 
+Τηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com 
+United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -795,6 +1176,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d0b40c63b26d00d8cd281b17148dcf97"
 * entry[0].resource = composition-da-d0b40c63b26d00d8cd281b17148dcf97
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd0b40c63b26d00d8cd281b17148dcf97"
+* entry[=].resource = mpd0b40c63b26d00d8cd281b17148dcf97
+                            
+                    
+Instance: bundlepackageleaflet-pt-d0b40c63b26d00d8cd281b17148dcf97
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vipidia Package Leaflet for language pt"
+Description: "ePI document Bundle for vipidia Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d0b40c63b26d00d8cd281b17148dcf97"
+* entry[0].resource = composition-pt-d0b40c63b26d00d8cd281b17148dcf97
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd0b40c63b26d00d8cd281b17148dcf97"
@@ -896,6 +1299,18 @@ RuleSet: d0b40c63b26d00d8cd281b17148dcf97ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d0b40c63b26d00d8cd281b17148dcf97) // vipidia pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -992,6 +992,418 @@ hjemmeside: http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-5acfed2f2c9cf41e7e877414a9fe07a2
+InstanceOf: CompositionUvEpi
+Title: "Composition for forxiga Package Leaflet"
+Description:  "Composition for forxiga Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5acfed2f2c9cf41e7e877414a9fe07a2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - forxiga"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Forxiga e para que é utilizado
+2. O que precisa de saber antes de tomar Forxiga
+3. Como tomar Forxiga
+4. Efeitos indesejáveis possíveis
+5. Como conservar Forxiga
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é forxiga e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é forxiga e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Forxiga
+Forxiga contém a substância ativa dapagliflozina. Pertence a um grupo de medicamentos chamados
+“inibidores do co-transportador de sódio-glucose 2 (SGLT2)". Atuam bloqueando a proteína SGLT2 
+no seu rim. Ao bloquear essa proteína, o açúcar no sangue (glucose), o sal (sódio) e a água são 
+removidos do seu corpo pela urina.
+Para que é utilizado Forxiga
+Forxiga é utilizado para tratar:
+
+Diabetes tipo 2
+-
+em adultos e crianças com idade igual ou superior a 10 anos.
+-
+se a sua diabetes tipo 2 não pode ser controlada com dieta e exercício.
+-
+Forxiga pode ser utilizado isoladamente ou em conjunto com outros medicamentos para 
+tratar a diabetes.
+-
+é importante que continue a seguir as recomendações do seu médico, farmacêutico ou 
+enfermeiro sobre a dieta e o exercício.
+
+Insuficiência cardíaca
+-
+em adultos (idade igual ou superior a 18 anos) quando o coração não bombeia o sangue 
+tão bem como deveria.
+
+Doença renal crónica
+-
+em adultos com função renal reduzida.
+O que é a diabetes tipo 2 e como Forxiga ajuda?
+
+Na diabetes tipo 2 o seu corpo não produz insulina suficiente ou não consegue utilizar a insulina 
+que produz corretamente. Isto origina níveis elevados de açúcar no seu sangue. Isto pode levar a 
+problemas graves, como doença cardíaca ou renal, cegueira e má circulação nos seus braços e 
+pernas.
+
+Forxiga atua removendo o excesso de açúcar do seu corpo. Também pode ajudar a prevenir 
+doença cardiovascular.
+5</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar forxiga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar forxiga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Este tipo de insuficiência cardíaca ocorre quando o coração não bombeia sangue para os 
+pulmões e para o resto do corpo tão bem como deveria. Isto pode originar problemas médicos 
+graves e necessidade de cuidados hospitalares.
+
+Os sintomas mais comuns de insuficiência cardíaca são falta de ar, sensação de cansaço ou 
+muito cansaço o tempo todo e inchaço do tornozelo.
+
+Forxiga ajuda a proteger o seu coração de piorar e melhora os seus sintomas. Pode diminuir a
+necessidade de ir ao hospital e pode ajudar alguns doentes a viver mais tempo.
+O que é a doença renal crónica e como Forxiga ajuda?
+
+Quando tem doença renal crónica, os seus rins podem perder gradualmente a sua função. Isto 
+significa que não seriam capazes de limpar e filtrar o seu sangue como deveriam. A perda da 
+função renal pode originar problemas médicos graves e necessidade de cuidados hospitalares.
+
+Forxiga ajuda a proteger os seus rins de perder a sua função. Isso pode ajudar alguns doentes a 
+viver mais tempo.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar forxiga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar forxiga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Forxiga
+
+se tem alergia à dapagliflozina ou a qualquer outro componente deste medicamento (indicado na 
+secção 6).
+Advertências e precauções
+Contacte imediatamente um médico ou o hospital mais próximo
+Cetoacidose diabética:
+
+Se tem diabetes e experimentar sensação de mal-estar geral ou sentir-se doente, dor de
+estômago, sede excessiva, respiração rápida e profunda, confusão, sonolência ou cansaço 
+invulgares, um cheiro doce do seu hálito, um sabor doce ou metálico na sua boca ou um odor 
+diferente na sua urina ou suor ou perder peso rapidamente.
+
+Os sintomas acima podem ser um sinal de “cetoacidose diabética" - um problema raro mas 
+grave, às vezes apresentando risco de vida que pode aparecer com a diabetes devido aos níveis 
+elevados de “corpos cetónicos" na sua urina ou sangue, encontrados nas análises.
+
+O risco de desenvolver cetoacidose diabética pode estar aumentado com jejum prolongado, 
+consumo excessivo de álcool, desidratação, reduções súbitas nas doses de insulina, ou um 
+aumento da necessidade de insulina devido a uma grande cirurgia ou doença grave.
+
+Quando é tratado com Forxiga, pode ocorrer cetoacidose diabética mesmo se o seu nível de 
+açúcar no sangue for normal.
+Se suspeitar que tem cetoacidose diabética, contacte um médico ou o hospital mais próximo e não 
+tome este medicamento.
+Fasciite necrotizante do períneo:
+
+Fale com o seu médico imediatamente se apresentar uma combinação de sintomas de dor,
+sensibilidade, vermelhidão ou inchaço nos órgãos genitais ou na área entre os órgãos genitais e
+o ânus com febre ou sensação de mal-estar geral. Estes sintomas podem ser um sinal de uma 
+infeção rara mas grave ou até potencialmente fatal, denominada fasciite necrotizante do períneo 
+ou gangrena de Fournier, que destrói o tecido abaixo da pele. A gangrena de Fournier tem que 
+ser imediatamente tratada.
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Forxiga
+
+se tem “diabetes tipo 1" - o tipo que habitualmente tem início quando se é jovem, e o seu corpo 
+não produz qualquer insulina. Forxiga não deve ser utilizado para tratar esta condição.
+
+se tem diabetes e tem um problema nos rins - o seu médico pode pedir-lhe para tomar um 
+medicamento adicional ou diferente para controlar o açúcar no seu sangue.
+56
+
+se tem um problema no fígado - o seu médico pode iniciar o tratamento numa dose mais baixa.
+
+se está a tomar medicamentos para baixar a sua tensão arterial (anti-hipertensores) e tem história 
+de tensão arterial baixa (hipotensão). Encontra mais informação abaixo em “Outros 
+medicamentos e Forxiga".
+
+se tem valores muito elevados de açúcar no seu sangue que podem fazer com que fique 
+desidratado (perder muito líquido do seu corpo). Possíveis sinais de desidratação estão listados 
+na secção 4. Informe o seu médico antes de começar a tomar Forxiga se tiver algum destes 
+sinais.
+
+se tiver ou desenvolver náuseas (sensação de mal-estar geral), vómitos ou febre ou se não for 
+capaz de comer ou beber. Estas condições podem causar desidratação. O seu médico pode 
+pedir-lhe que pare de tomar Forxiga até recuperar para prevenir a desidratação.
+
+se costuma ter infeções nas vias urinárias.
+Se alguma das situações acima se aplica a si (ou se não tem a certeza), fale com o seu médico, 
+farmacêutico ou enfermeiro antes de tomar Forxiga.
+Diabetes e cuidados dos pés 
+Se tem diabetes, é importante verificar os seus pés regularmente e aderir a qualquer outro conselho 
+sobre cuidados dos pés dado pelo seu profissional de saúde.
+Glucose na urina
+Devido ao modo de ação de Forxiga, a sua urina dará resultados positivos para açúcar na urina 
+enquanto tomar este medicamento.
+Crianças e adolescentes
+Forxiga pode ser utilizado em crianças com idade igual ou superior a 10 anos para o tratamento da
+diabetes mellitus tipo 2. Não existem dados disponíveis em crianças com menos de 10 anos de idade.
+Forxiga não é recomendado para crianças e adolescentes com menos de 18 anos de idade para o
+tratamento da insuficiência cardíaca ou para o tratamento da doença renal crónica, porque não foi 
+estudado nestes doentes.
+Outros medicamentos e Forxiga
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou 
+se vier a tomar outros medicamentos.
+Em particular informe o seu médico:
+
+se está a tomar um medicamento utilizado para remover a água do corpo (diurético).
+
+se está a tomar outros medicamentos que baixam a quantidade de açúcar no seu sangue como a 
+insulina ou o medicamento “sulfonilureia". O seu médico pode querer reduzir a dose destes 
+medicamentos, para evitar que fique com os níveis de açúcar no sangue baixos (hipoglicemia).
+
+se está a tomar lítio porque Forxiga pode baixar a quantidade de lítio no seu sangue.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. Deve parar de tomar este medicamento se ficar 
+grávida, uma vez que não é recomendado durante o segundo e terceiro trimestres de gravidez. Fale 
+com o seu médico sobre a melhor forma de controlar o açúcar no seu sangue durante a gravidez.
+Fale com o seu médico se pretende amamentar ou está a amamentar antes de tomar este medicamento. 
+Não utilize Forxiga se está a amamentar. Desconhece-se se este medicamento passa para o leite 
+materno.
+Condução de veículos e utilização de máquinas
+Os efeitos de Forxiga sobre a capacidade de conduzir ou utilizar máquinas são nulos ou desprezáveis.
+Tomar este medicamento com outros medicamentos chamados sulfonilureias ou com insulina pode 
+provocar níveis muito baixos de açúcar no sangue (hipoglicemia), que podem causar sintomas como 
+57
+tremores, suores e alterações na visão, e podem afetar a sua capacidade de conduzir e utilizar 
+máquinas.
+Não conduza ou utilize quaisquer ferramentas ou máquinas, se sentir tonturas a tomar Forxiga.
+Forxiga contém lactose
+Forxiga contém lactose (açúcar do leite). Se foi informado pelo seu médico que tem uma intolerância a 
+alguns açúcares, contacte-o antes de tomar este medicamento.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico, 
+farmacêutico ou enfermeiro se tiver dúvidas.
+Quanto tomar
+
+A dose recomendada é um comprimido de 10 mg por dia.
+
+O seu médico pode recomendar que inicie com uma dose de 5 mg se tiver um problema no 
+fígado.
+
+O seu médico irá receitar a dose que é certa para si.
+Como tomar este medicamento
+
+Engula o comprimido inteiro com meio copo de água.
+
+Pode tomar o seu comprimido com ou sem alimentos.
+
+O comprimido pode ser tomado a qualquer hora do dia. No entanto, tente tomar o comprimido à 
+mesma hora todos os dias. Isto ajudá-lo-á a lembrar-se de o tomar.
+O seu médico pode receitar Forxiga em associação com outros medicamentos. Lembre-se de tomar 
+estes outros medicamentos conforme indicado pelo seu médico. Isto irá ajudá-lo a obter os melhores 
+resultados para a sua saúde.
+A dieta e o exercício podem ajudar o seu corpo a utilizar melhor o açúcar no sangue. Se tem diabetes, 
+é importante que continue a seguir qualquer dieta ou programa de exercício recomendado pelo seu 
+médico enquanto estiver a tomar Forxiga.
+Se tomar mais Forxiga do que deveria
+Se tomou mais comprimidos de Forxiga do que deveria, fale com um médico ou vá imediatamente a 
+um hospital. Leve a embalagem do medicamento consigo.
+Caso se tenha esquecido de tomar Forxiga
+O que fazer se se esqueceu de tomar um comprimido depende de quanto tempo falta para a próxima 
+dose.
+
+Se faltarem 12 horas ou mais para a próxima dose, tome a dose de Forxiga que se esqueceu logo 
+que se lembre. Depois, tome a dose seguinte como habitual.
+
+Se faltarem menos de 12 horas para a próxima dose, não tome a dose que se esqueceu. Depois 
+tome a sua dose seguinte à hora habitual.
+
+Não tome uma dose a dobrar de Forxiga para compensar a dose que se esqueceu de tomar.
+Se parar de tomar Forxiga
+Não pare de tomar Forxiga sem falar primeiro com o seu médico. Se tiver diabetes, o seu nível de 
+açúcar no sangue pode aumentar sem este medicamento.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.
+58</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar forxiga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar forxiga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Contacte imediatamente um médico ou o hospital mais próximo se sentir algum dos seguintes
+efeitos indesejáveis:
+
+angioedema, observado muito raramente (pode afetar até 1 em cada 10.000 pessoas).
+Estes são sinais de angioedema:
+- inchaço da face, língua ou garganta
+- dificuldade em engolir
+- urticária e problemas respiratórios
+
+cetoacidose diabética - isto é raro em doentes com diabetes tipo 2 (pode afetar até 1 em cada 
+1.000 pessoas)
+Estes são sinais de cetoacidose diabética (ver também secção 2 Advertências e precauções):
+- aumento dos níveis de “corpos cetónicos" na sua urina ou sangue
+- sensação de mal-estar geral ou sentir-se doente
+- dor de estômago
+- sede excessiva
+- respiração rápida e profunda
+- confusão
+- sonolência ou cansaço invulgares
+- um cheiro doce do seu hálito, um sabor doce ou metálico na sua boca ou um odor diferente na
+sua urina ou suor
+- perda de peso rápida.
+Isto pode ocorrer independentemente dos níveis de açúcar no sangue. O seu médico pode decidir 
+interromper temporariamente ou permanentemente o seu tratamento com Forxiga.
+
+fasciite necrotizante do períneo ou gangrena de Fournier, uma infeção grave dos tecidos moles
+dos órgãos genitais ou da área entre os órgãos genitais e o ânus, observado muito raramente.
+Pare de tomar Forxiga e consulte um médico o mais rápido possível se detetar qualquer um dos 
+seguintes efeitos indesejáveis graves:
+
+infeção das vias urinárias, observado frequentemente (pode afetar até 1 em cada 10 pessoas).
+Estes são sinais de uma infeção grave das vias urinárias:
+- febre e/ou arrepios
+- sensação de ardor quando urinar (micção)
+- dor nas costas ou de lado.
+Embora pouco frequente, se vir sangue na sua urina, informe o seu médico imediatamente.
+Consulte o seu médico o mais rápido possível se tiver qualquer um dos seguintes efeitos
+indesejáveis:
+
+valores baixos de açúcar no sangue (hipoglicemia), observado muito frequentemente (pode 
+afetar mais de 1 em cada 10 pessoas) em doentes com diabetes a tomar este medicamento com 
+uma sulfonilureia ou insulina.
+Estes são sinais de açúcar baixo no sangue:
+- tremer, suar, sentir-se muito ansioso, batimentos cardíacos acelerados
+- sensação de fome, dor de cabeça, alterações na visão
+- uma mudança no humor ou sensação de confusão.
+O seu médico irá dizer-lhe como tratar os níveis baixos de açúcar no sangue e o que fazer se tiver 
+algum dos sinais acima.
+59
+Outros efeitos indesejáveis enquanto tomar Forxiga:
+Frequentes
+
+infeção genital (candidíase) no seu pénis ou vagina (sinais podem incluir irritação, comichão, 
+corrimento anormal ou odor)
+
+dor nas costas
+
+urinar mais do que o habitual ou sentir necessidade de urinar com mais frequência
+
+alterações no valor de colesterol ou gorduras no seu sangue (demonstrado nas análises)
+
+aumento da quantidade de glóbulos vermelhos no seu sangue (demonstrado nas análises)
+
+diminuição da depuração renal da creatinina (demonstrado nas análises) no início do tratamento
+
+tonturas
+
+erupção na pele
+Pouco frequentes (pode afetar até 1 em cada 100 pessoas)
+
+perda de muito líquido do seu corpo (desidratação, os sinais podem incluir boca muito seca ou
+pegajosa, passagem de pouca ou nenhuma urina ou batimento cardíaco acelerado)
+
+sede
+
+prisão de ventre
+
+acordar durante a noite para urinar
+
+boca seca
+
+diminuição de peso
+
+aumento da creatinina (demonstrado nas análises laboratoriais ao sangue) no início do 
+tratamento
+
+aumento da ureia (demonstrado nas análises laboratoriais ao sangue)
+Muito raros
+
+inflamação dos rins (nefrite tubulointersticial)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no blister ou na embalagem exterior, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+Este medicamento não necessita de quaisquer precauções especiais de conservação.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+
+
+
 
 
                     
@@ -1033,6 +1445,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5acfed2f2c9cf41e7e877414a9fe07a2"
 * entry[0].resource = composition-da-5acfed2f2c9cf41e7e877414a9fe07a2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5acfed2f2c9cf41e7e877414a9fe07a2"
+* entry[=].resource = mp5acfed2f2c9cf41e7e877414a9fe07a2
+                            
+                    
+Instance: bundlepackageleaflet-pt-5acfed2f2c9cf41e7e877414a9fe07a2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for forxiga Package Leaflet for language pt"
+Description: "ePI document Bundle for forxiga Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5acfed2f2c9cf41e7e877414a9fe07a2"
+* entry[0].resource = composition-pt-5acfed2f2c9cf41e7e877414a9fe07a2
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5acfed2f2c9cf41e7e877414a9fe07a2"
@@ -1134,6 +1568,18 @@ RuleSet: 5acfed2f2c9cf41e7e877414a9fe07a2ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5acfed2f2c9cf41e7e877414a9fe07a2) // forxiga pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

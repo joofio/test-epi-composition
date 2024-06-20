@@ -709,6 +709,424 @@ under forudsætning af, at de foreslåede ændringer indføres i produktinformat
 
 
 
+Instance: composition-pt-565029a2726c6824ab356ecb59362043
+InstanceOf: CompositionUvEpi
+Title: "Composition for pemazyre Package Leaflet"
+Description:  "Composition for pemazyre Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp565029a2726c6824ab356ecb59362043)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - pemazyre"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Pemazyre e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Pemazyre </li>
+<li>Como tomar Pemazyre </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Pemazyre </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é pemazyre e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é pemazyre e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pemazyre contém a substância ativa pemigatinib, que pertence a um grupo de medicamentos para o 
+cancro designados inibidores da tirosina cinase. Este bloqueia a ação de proteínas da célula chamadas 
+recetor do fator de crescimento de fibroblastos tipos 1, 2 e 3 (FGFR1, FGFR2, e FGFR3) que ajuda a 
+regular o crescimento celular. As células cancerígenas podem ter uma forma anormal desta proteína. 
+Ao bloquear o FGFR, o pemigatinib pode prevenir o crescimento de tais células cancerígenas. </p>
+<p>Pemazyre é utilizado: </p>
+<ul>
+<li>
+<p>Para tratar adultos com cancro do ducto biliar (também conhecido como colangiocarcinoma) 
+cujas células cancerígenas têm uma forma anómala da proteína FGFR2, e </p>
+</li>
+<li>
+<p>Quando o cancro se espalhou para outras partes do corpo ou não pode ser removido por cirurgia, 
+e </p>
+</li>
+<li>
+<p>Quando o tratamento com outros medicamentos já não está a resultar. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar pemazyre"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar pemazyre"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Pemazyre se </p>
+<ul>
+<li>
+<p>tiver alergia a pemigatinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6) </p>
+</li>
+<li>
+<p>estiver a utilizar hipericão, um medicamento para tratar a depressão </p>
+</li>
+</ul>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar Pemazyre se: </p>
+<ul>
+<li>
+<p>lhe foi dito que tem um aumento ou diminuição de um mineral chamado fósforo no seu sangue </p>
+</li>
+<li>
+<p>tiver problemas oculares ou de visão </p>
+</li>
+<li>
+<p>tiver a função do fígado gravemente reduzida. O seu tratamento pode ter de ser ajustado </p>
+</li>
+<li>
+<p>tiver a função renal gravemente reduzida. O seu tratamento pode ter de ser ajustado </p>
+</li>
+<li>
+<p>tiver células cancerígenas que se espalharam para o cérebro ou na espinal medula </p>
+</li>
+</ul>
+<p>Recomendam-se exames oculares: </p>
+<ul>
+<li>
+<p>antes de iniciar o tratamento com Pemazyre </p>
+</li>
+<li>
+<p>a cada 2 meses durante os primeiros 6 meses de tratamento </p>
+</li>
+<li>
+<p>a cada 3 meses daí em diante ou imediatamente se ocorrerem quaisquer sintomas visuais, 
+incluindo flashes de luz, perturbações visuais ou manchas escuras. </p>
+</li>
+</ul>
+<p>Informe o seu médico imediatamente se tiver quaisquer sintomas com a sua visão. </p>
+<p>Deve também utilizar gotas ou géis lubrificantes ou hidratantes para os olhos para ajudar a prevenir ou 
+tratar olhos secos. </p>
+<p>Pemazyre pode prejudicar o feto. Deve ser utilizada uma contraceção eficaz durante o tratamento e 
+durante pelo menos 1 semana após a última dose de Pemazyre em mulheres em idade fértil e em 
+homens com parceiras em idade fértil.  </p>
+<p>Crianças e adolescentes 
+Pemazyre não deve ser administrado a crianças ou adolescentes com menos de 18 anos. É 
+desconhecido se é seguro e eficaz neste grupo etário. </p>
+<p>Outros medicamentos e Pemazyre 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos. </p>
+<p>Em particular, deve informar o seu médico se estiver a tomar algum dos seguintes medicamentos para 
+que o médico possa decidir se o seu tratamento precisa de mudar: </p>
+<ul>
+<li>
+<p>Hipericão: um medicamento para tratar a depressão. Não pode tomar hipericão durante o 
+tratamento com Pemazyre. </p>
+</li>
+<li>
+<p>Medicamentos cujos nomes da substância ativa terminem em “prazol": são usados para reduzir 
+a libertação do ácido do estômago. Evite utilizar estes medicamentos durante o tratamento com 
+Pemazyre </p>
+</li>
+<li>
+<p>Itraconazol: um medicamento para tratar infeções fúngicas </p>
+</li>
+<li>
+<p>Rifampicina: um medicamento para tratar a tuberculose ou outras infeções </p>
+</li>
+<li>
+<p>Carbamazepina, fenitoína, fenobarbital, primidona: medicamentos para tratar a epilepsia </p>
+</li>
+<li>
+<p>Efavirenz: medicamento para tratar a infeção por VIH </p>
+</li>
+<li>
+<p>Ciclofosfamida, ifosfamida: outros medicamentos para tratar o cancro </p>
+</li>
+<li>
+<p>Metadona: um medicamento para tratar dor grave ou para gestão da dependência </p>
+</li>
+<li>
+<p>Digoxina: um medicamento para tratar a doença cardíaca </p>
+</li>
+<li>
+<p>Dabigatrano: um medicamento para prevenir coágulos de sangue </p>
+</li>
+<li>
+<p>Colchicina: um medicamento para tratar ataques de gota </p>
+</li>
+</ul>
+<p>Pemazyre com alimentos e bebidas 
+Evite ingerir toranja ou beber sumo de toranja enquanto estiver a utilizar esta medicação. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, pensa estar grávida ou planeia engravidar, consulte o seu médico ou 
+farmacêutico antes de tomar este medicamento. </p>
+<ul>
+<li>
+<p>Gravidez 
+Pemazyre pode prejudicar o feto e não deve ser utilizado durante a gravidez a menos que receba 
+informação em contrário por parte do seu médico. Deve ser realizado um teste de gravidez antes 
+do início do tratamento. </p>
+</li>
+<li>
+<p>Aconselhamento de contraceção para homens e mulheres 
+As mulheres a serem tratadas com Pemazyre não devem engravidar. Por conseguinte, as 
+mulheres que possam engravidar têm de utilizar contraceção eficaz durante o tratamento e 
+durante pelo menos 1 semana após a última dose de Pemazyre. Fale com o seu médico sobre a 
+contraceção mais adequada para si.<br />
+Os homens devem evitar ter filho(s). Têm de utilizar contraceção eficaz durante o tratamento e 
+durante pelo menos 1 semana após a última dose de Pemazyre.  </p>
+</li>
+<li>
+<p>Amamentação 
+Não amamentar durante o tratamento com Pemazyre e durante pelo menos 1 semana após a 
+última dose. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+Pemazyre pode causar efeitos secundários, tais como fadiga ou perturbações visuais. Não conduza ou 
+opere máquinas se isto acontecer. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar pemazyre"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar pemazyre"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com Pemazyre deve ser iniciado por um médico que tem experiência no diagnóstico e 
+tratamento do cancro do canal biliar. Tome este medicamento exatamente como indicado pelo seu 
+médico ou farmacêutico. Fale com o seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é<br />
+1 comprimido de Pemazyre de 13,5 mg tomado uma vez por dia durante 14 dias, seguido de 7 dias 
+sem tomar Pemazyre. </p>
+<p>O tratamento continua com o mesmo padrão de 14 dias de Pemazyre uma vez por dia, seguido 
+por 7 dias sem terapêutica. Não tome Pemazyre durante os 7 dias sem terapêutica. O seu médico irá 
+ajustar a dose ou interromper o tratamento, se necessário. </p>
+<p>Método de utilização 
+Engolir o comprimido inteiro com um copo de água à mesma hora todos os dias. Pemazyre pode ser 
+tomado com alimentos ou entre refeições. 
+Não esmagar, mastigar, dividir ou dissolver os comprimidos. </p>
+<p>Duração de utilização 
+Tomar Pemazyre durante o tempo prescrito pelo médico. </p>
+<p>Se tomar mais Pemazyre do que deveria 
+Informe o seu médico se tiver tomado mais Pemazyre do que deveria. </p>
+<p>Caso se tenha esquecido de tomar Pemazyre 
+Se falhar uma dose de Pemazyre por 4 horas ou mais, ou se vomitar depois de tomar Pemazyre, não 
+tome outro comprimido de Pemazyre para compensar a dose em falta. Tome a sua dose seguinte à hora 
+habitual. </p>
+<p>Se parar de tomar Pemazyre 
+Não pare de tomar Pemazyre sem falar com o seu médico, uma vez que isto pode reduzir o sucesso da 
+terapêutica. </p>
+<p>Se tiver questões adicionais sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Contacte o seu médico imediatamente se tiver algum dos efeitos indesejáveis graves mencionados 
+abaixo. Estes efeitos indesejáveis podem ocorrer com as seguintes frequências: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas):  </p>
+<ul>
+<li>
+<p>Baixo nível de sódio no sangue; sintomas incluem diminuição da capacidade de pensar, dor de 
+cabeça, náuseas, falta de equilíbrio, confusão, convulsões, coma </p>
+</li>
+<li>
+<p>Análises ao sangue que mostrem aumento da creatinina, o que pode sugerir problemas de rins; 
+normalmente a creatinina elevada não causa sintomas, mas sintomas de problemas de rins 
+podem incluir náuseas e alterações ao urinar  </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis podem ocorrer com as seguintes frequências: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Níveis elevados ou reduzidos de fosfato observados em testes sanguíneos </p>
+</li>
+<li>
+<p>Alterações no paladar </p>
+</li>
+<li>
+<p>Olho seco </p>
+</li>
+<li>
+<p>Náuseas </p>
+</li>
+<li>
+<p>Inflamação do revestimento interno da boca  </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Prisão de ventre </p>
+</li>
+<li>
+<p>Boca seca </p>
+</li>
+<li>
+<p>Reações na pele com vermelhidão, inchaço e dor nas palmas das mãos e plantas dos pés, 
+denominada síndrome mão-pé (eritrodisestesia palmo-plantar) </p>
+</li>
+<li>
+<p>Toxicidade das unhas, incluindo separação das unhas do leito ungueal, dor de unhas, hemorragia 
+nas unhas, rotura das unhas, alterações de cor ou textura das suas unhas, pele infetada ao redor 
+da unha </p>
+</li>
+<li>
+<p>Queda de cabelo </p>
+</li>
+<li>
+<p>Pele seca </p>
+</li>
+<li>
+<p>Dor nas articulações </p>
+</li>
+<li>
+<p>Fadiga </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Acumulação de fluido por baixo da retina (a camada sensível à luz na parte de trás do olho) </p>
+</li>
+<li>
+<p>Inflamação da córnea (a camada límpida exterior do olho)  </p>
+</li>
+<li>
+<p>Visão reduzida </p>
+</li>
+<li>
+<p>Alterações nas pestanas incluindo pestanas anormalmente longas, pestanas encravadas </p>
+</li>
+<li>
+<p>Crescimento anormal do cabelo </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>Depósito de sais de cálcio que se parecem com pápulas duras, nódulos ou placas na pele ou 
+debaixo da pele em qualquer área do corpo e que pode provocar dor e feridas </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, fale com o seu médico ou farmacêutico. Inclui quaisquer 
+possíveis efeitos indesejáveis não descritos neste folheto. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar pemazyre"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar pemazyre"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior do blister 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de quaisquer precauções especiais de conservação </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Pemazyre  </p>
+<ul>
+<li>
+<p>A substância ativa é pemigatinib. 
+Cada comprimido de 4,5 mg contém 4,5 mg de pemigatinib. 
+Cada comprimido de 9 mg contém 9 mg de pemigatinib. 
+Cada comprimido de 13,5 mg contém 13,5 mg de pemigatinib. </p>
+</li>
+<li>
+<p>Os outros componentes são celulose microcristalina, amido glicolato de sódio (Tipo A), 
+estearato de magnésio. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Pemazyre e conteúdo da embalagem </p>
+<p>Os comprimidos de 4,5 mg de Pemazyre são redondos, brancos a esbranquiçados gravados de um lado 
+com “I" e “4.5" no verso. </p>
+<p>Os comprimidos de 9 mg de Pemazyre são ovais, brancos a esbranquiçados gravados de um lado com 
+“I" e “9" no verso. </p>
+<p>Os comprimidos de 13,5 mg de Pemazyre são redondos, brancos a esbranquiçados gravados de um 
+lado com “I" e “13.5" no verso. </p>
+<p>Os comprimidos são fornecidos em embalagens blister contendo 14 comprimidos. A caixa de cartão 
+contém 14 ou 28 comprimidos. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Incyte Biosciences Distribution B.V. 
+Paasheuvelweg 1105 BP Amsterdam 
+Países Baixos </p>
+<p>Fabricante 
+Incyte Biosciences Distribution B.V. 
+Paasheuvelweg 1105 BP Amsterdam 
+Países Baixos </p>
+<p>Tjoapack Netherlands B.V. 
+Nieuwe Donk 9 
+4879 AC Etten-Leur 
+Países Baixos </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
+<p>Foi concedida a este medicamento uma «Autorização de Introdução no Mercado condicional». Isto 
+significa que se aguarda mais informação sobre este medicamento. 
+A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
+sobre este medicamento e este folheto será atualizado se necessário. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -750,6 +1168,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-565029a2726c6824ab356ecb59362043"
 * entry[0].resource = composition-da-565029a2726c6824ab356ecb59362043
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp565029a2726c6824ab356ecb59362043"
+* entry[=].resource = mp565029a2726c6824ab356ecb59362043
+                            
+                    
+Instance: bundlepackageleaflet-pt-565029a2726c6824ab356ecb59362043
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pemazyre Package Leaflet for language pt"
+Description: "ePI document Bundle for pemazyre Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-565029a2726c6824ab356ecb59362043"
+* entry[0].resource = composition-pt-565029a2726c6824ab356ecb59362043
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp565029a2726c6824ab356ecb59362043"
@@ -851,6 +1291,18 @@ RuleSet: 565029a2726c6824ab356ecb59362043ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-565029a2726c6824ab356ecb59362043) // pemazyre pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

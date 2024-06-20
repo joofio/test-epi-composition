@@ -771,6 +771,384 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-13bb467fc3daebcc72e614a634466540
+InstanceOf: CompositionUvEpi
+Title: "Composition for isturisa Package Leaflet"
+Description:  "Composition for isturisa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp13bb467fc3daebcc72e614a634466540)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - isturisa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Isturisa e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Isturisa </li>
+<li>Como tomar Isturisa </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Isturisa </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é isturisa e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é isturisa e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Isturisa 
+Isturisa é um medicamento que contém a substância ativa osilodrostate. </p>
+<p>Para que é utilizado Isturisa 
+Isturisa é usado em adultos no tratamento da Síndrome de Cushing endógena, uma condição em que o 
+organismo produz muita quantidade de uma hormona chamada cortisol. O excesso de cortisol pode 
+levar a uma variedade de sintomas, como aumento de peso (particularmente à volta da cintura), rosto 
+em lua-cheia, aparecimento de nódoas negras com facilidade, períodos irregulares, excesso de pêlos 
+faciais e corporais e sensação geral de fraqueza, cansaço ou indisposição. </p>
+<p>Como funciona Isturisa 
+Isturisa bloqueia a principal enzima que produz o cortisol nas glândulas suprarrenais. O efeito disso é 
+diminuir a produção excessiva de cortisol e melhorar os sintomas da Síndrome de Cushing endógena. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar isturisa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar isturisa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Isturisa: 
+- se tem alergia ao osilodrostate ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Isturisa. </p>
+<p>Se alguma das seguinte se aplicar a si, fale com o seu médico antes de tomar Isturisa: 
+- se tem um problema de coração ou um distúrbio do ritmo cardíaco, como batimento cardíaco 
+irregular, incluindo uma situação denominada síndrome do intervalo QT prolongado 
+(prolongamento do intervalo QT). 
+- se tem uma doença do fígado; o seu médico pode ter necessidade de alterar a dose de Isturisa. </p>
+<p>Contacte imediatamente o seu médico se tiver dois ou mais destes sintomas durante o tratamento com 
+Isturisa. Isto pode indicar que tem insuficiência suprarrenal (níveis baixos de cortisol): 
+- fraqueza 
+- cabeça oca ou vazia 
+- cansaço 
+- falta de apetite 
+- náuseas (sensação de enjoo) 
+- vómitos </p>
+<p>Exames antes e durante o tratamento 
+O seu médico irá pedir análises ao sangue e/ou urina antes de iniciar o tratamento e regularmente 
+durante o tratamento. Estas análises são para detetar possíveis anomalias nos seus níveis de magnésio, 
+cálcio e potássio e também para avaliar os níveis de cortisol. Dependendo dos resultados, o seu médico 
+pode alterar a sua dose. </p>
+<p>Este medicamento pode ter um efeito indesejado (chamado prolongamento QT) no funcionamento do 
+coração. O seu médico irá, portanto, verificar este efeito realizando um eletrocardiograma (ECG) antes 
+de iniciar o tratamento e durante o tratamento. </p>
+<p>Se a sua Síndrome de Cushing é causada por um tumor benigno (chamado adenoma) na glândula 
+pituitária, o seu médico pode considerar parar o tratamento se o seu exame à glândula pituitária 
+mostrar que o adenoma se expandiu às áreas vizinhas. </p>
+<p>Crianças e adolescentes 
+Este medicamento não é recomendado para doentes com menos de 18 anos de idade. Isto porque não 
+existem dados nestes doentes. </p>
+<p>Outros medicamentos e Isturisa 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. É particularmente importante que refira qualquer um dos seguintes medicamentos: 
+- medicamentos que podem vir a ter um efeito indesejado (chamado prolongamento QT) sobre o 
+funcionamento do coração. Isto inclui medicamentos utilizados para o ritmo cardíaco anormal, 
+como quinidina, sotalol e amiodarona; medicamentos usados para alergias (anti-histamínicos); 
+antidepressivos como amitriptilina e medicamentos para distúrbios da saúde mental 
+(antipsicóticos); antibióticos, incluindo os seguintes tipos: macrólidos, fluoroquinolonas ou 
+imidazol; e outros medicamentos para a doença de Cushing (pasireotido, cetoconazol). 
+- teofilina (utilizada para tratar problemas respiratórios) ou tizanidina (usada para tratar dor 
+muscular e/ou cãibras) </p>
+<p>Gravidez e amamentação 
+Este medicamento não deve ser utilizado durante a gravidez ou a amamentação, a menos que o seu 
+médico o tenha recomendado. Se está grávida ou a amamentar, se pensa estar grávida ou planeia 
+engravidar, consulte o seu médico antes de tomar este medicamento. </p>
+<p>Contraceção 
+As mulheres que podem engravidar devem utilizar um método contracetivo eficaz durante o 
+tratamento e durante pelo menos uma semana após a última dose. Fale com o seu médico sobre a 
+necessidade de contraceção antes de começar a tomar Isturisa. </p>
+<p>Condução de veículos e utilização de máquinas 
+Podem ocorrer tonturas e cansaço durante o tratamento com Isturisa. Não conduza ou utilize máquinas 
+se tiver estes sintomas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar isturisa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar isturisa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>A dose inicial habitual é dois comprimidos de 1 mg duas vezes por dia (aproximadamente de 12 em 
+12 horas). Doentes de ascendência Asiática e doentes com doença hepática podem precisar de uma 
+dose inicial mais baixa (um comprimido de 1 mg duas vezes ao dia). </p>
+<p>Depois de iniciar o tratamento, o seu médico pode alterar a dose. Isso vai depender de como responder 
+ao tratamento. A dose máxima recomendada é de 30 mg duas vezes por dia. </p>
+<p>Os comprimidos Isturisa são tomados por via oral e podem ser tomados com ou sem alimentos. </p>
+<p>Se tomar mais Isturisa do que deveria 
+Se tiver tomado mais Isturisa do que deveria e se não se sentir bem (por exemplo se se sentir fraco, 
+com “cabeça oca", cansado, com enjoos ou se tiver de vomitar), ou se alguém acidentalmente tomar o 
+seu medicamento, contacte imediatamente um médico ou hospital para aconselhamento. Pode ser 
+necessário tratamento médico. </p>
+<p>Caso se tenha esquecido de tomar Isturisa 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Espere pelo horário 
+da próxima dose e tome-a na hora prevista. </p>
+<p>Se parar de tomar Isturisa 
+Não pare de tomar Isturisa a menos que o seu médico lhe diga para o fazer. Se parar o seu tratamento 
+com Isturisa, os seus sintomas podem regressar. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis podem ser graves. Tome especial atenção ao seguinte: 
+- Fale imediatamente com o seu médico se tiver uma alteração cardíaca ou alteração do ritmo 
+cardíaco, tal como batimento cardíaco acelerado ou irregular, mesmo em descanso, palpitações 
+cardíacas, síncope ou desmaio (isto pode ser sinal de uma condição chamada prolongamento 
+QT, um efeito indesejável que pode afetar até 1 em 10 pessoas). 
+- Contacte imediatamente o seu médico se tiver dois ou mais destes sintomas: fraqueza, sensação 
+de desmaio, cansaço (fadiga), falta de apetite, náuseas (sensação de enjôo), vómitos. Isso pode 
+indicar que tem insuficiência suprarrenal (níveis baixos de cortisol), um efeito indesejável que 
+pode afetar mais do que 1 em 10 pessoas. A insuficiência suprarrenal ocorre quando Isturisa 
+reduz demasiado a quantidade de cortisol. É mais provável que ocorra durante períodos de 
+esforço aumentado. O seu médico irá corrigir isto utilizando um medicamento hormonal ou 
+ajustando a dose de Isturisa. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas): 
+- vómitos 
+- náuseas (sensação de enjôo) 
+- diarreia 
+- dor abdominal 
+- cansaço (fadiga) 
+- retenção de líquido levando a inchaço (edema), particularmente nos tornozelos 
+- resultados anormais nas análises ao sangue (níveis aumentados de testosterona, níveis 
+aumentados de hormona adrenocorticotrofica, também conhecida como ACTH, níveis baixos de 
+potássio) 
+- diminuição do apetite 
+- tonturas 
+- ritmo cardíaco acelerado (taquicardia) 
+- mialgia (dor muscular) 
+- artralgia (dor articular) 
+- dor de cabeça 
+- erupção cutânea 
+- pressão arterial baixa (hipotensão) 
+- crescimento excessivo de pelos faciais ou corporais (hirsutismo) 
+- acne </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): 
+- sensação de mau estar geral (mal-estar) 
+- resultados anormais nos exames de função do fígado 
+- desmaio (síncope) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar isturisa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar isturisa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 25ºC. </p>
+<p>Conservar na embalagem de origem para proteger da humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Isturisa 
+- A substância ativa é osilodrostate. Cada comprimido revestido por película contém 1 mg de 
+osilodrostate, 5 mg de osilodrostate ou 10 mg de osilodrostate. 
+- Os outros componentes são: 
+- No núcleo do comprimido: celulose microcristalina, manitol, croscarmelose sódica, 
+estearato de magnésio, sílica coloidal anidra,. 
+- No revestimento do comprimido: hipromelose, dióxido de titânio (E171), óxidos de ferro 
+(E172, veja abaixo), macrogol e talco. 
+- Isturisa 1 mg comprimidos revestidos por película contêm óxido de ferro amarelo e 
+óxido de ferro vermelho. 
+- Isturisa 5 mg comprimidos revestidos por película contêm óxido de ferro amarelo. 
+- Isturisa 10 mg comprimidos revestidos por película contêm óxido de ferro amarelo, 
+óxido de ferro vermelho e óxido de ferro preto. </p>
+<p>Qual o aspeto de Isturisa e conteúdo da embalagem 
+Isturisa está disponível em embalagens contendo 60 comprimidos revestidos por película. </p>
+<p>Os comprimidos de 1 mg são amarelo-claro, redondos, sem ranhura, com ‘1’ gravado num dos lados. 
+O diâmetro aproximado é 6,1 mm. </p>
+<p>Os comprimidos de 5 mg são amarelos, redondos, sem ranhura, com ‘5’ gravado num dos lados. O 
+diâmetro aproximado é 7,1 mm. </p>
+<p>Os comprimidos de 10 mg são castanho-alaranjado-claro, redondos, sem ranhura, com ‘10’ gravado 
+num dos lados. O diâmetro aproximado é 9,1 mm. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Recordati Rare Diseases 
+Immeuble Le Wilson 
+70 avenue du Général de Gaulle 
+92800 Puteaux 
+France </p>
+<p>Fabricante 
+Millmount Healthcare Ltd<br />
+Block 7, City North<br />
+Business Campus, Stamullen,<br />
+Co. Meath, K32 YD60,<br />
+Irlanda </p>
+<p>Recordati Rare Diseases 
+Immeuble Le Wilson 
+70 avenue du Général de Gaulle 
+92800 Puteaux 
+France </p>
+<p>Recordati Rare Diseases 
+Eco River Parc 
+30 rue des Peupliers 
+92000 Nanterre 
+France </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Recordati 
+Tél/Tel: +32 2 46101<br />
+Lietuva 
+Recordati AB. 
+Tel: + 46 8 545 80 Švedija </p>
+<p>България 
+Recordati Rare Diseases 
+Teл.: +33 (0)1 47 73 64 Франция </p>
+<p>Luxembourg/Luxemburg 
+Recordati 
+Tél/Tel: +32 2 46101 Belgique/Belgien 
+Česká republika 
+Recordati Rare Diseases 
+Tel: +33 (0)1 47 73 64 Francie </p>
+<p>Magyarország 
+Recordati Rare Diseases 
+Tel: +33 (0)1 47 73 64 Franciaország 
+Danmark 
+Recordati AB. 
+Tlf: + 46 8 545 80 Sverige </p>
+<p>Malta 
+Recordati Rare Diseases 
+Tel: +33 1 47 73 64 Franza 
+Deutschland 
+Recordati Rare Diseases Germany GmbH 
+Tel: +49 731 140 554 0 </p>
+<p>Nederland 
+Recordati 
+Tel: +32 2 46101 België </p>
+<p>Eesti 
+Recordati AB. 
+Tel: + 46 8 545 80 Rootsi </p>
+<p>Norge 
+Recordati AB. 
+Tlf: + 46 8 545 80 Sverige 
+Ελλάδα 
+Recordati Hellas 
+Τηλ: +30 210 6773 
+Österreich 
+Recordati Rare Diseases Germany GmbH 
+Tel: +49 731 140 554 0 
+Deutschland </p>
+<p>España 
+Recordati Rare Diseases Spain S.L.U. 
+Tel: + 34 91 659 28<br />
+Polska 
+Recordati Rare Diseases 
+Tel: +33 (0)1 47 73 64 Francja </p>
+<p>France 
+Recordati Rare Diseases 
+Tél: +33 (0)1 47 73 64<br />
+Portugal 
+Jaba Recordati S.A. 
+Tel: +351 21 432 95 Hrvatska 
+Recordati Rare Diseases 
+Tél: +33 (0)1 47 73 64 Francuska </p>
+<p>România 
+Recordati Rare Diseases 
+Tel: +33 (0)1 47 73 64 Franţa 
+Ireland 
+Recordati Rare Diseases 
+Tél: +33 (0)1 47 73 64 France </p>
+<p>Slovenija 
+Recordati Rare Diseases 
+Tel: +33 (0)1 47 73 64 Francija 
+Ísland 
+Recordati AB. 
+Simi: + 46 8 545 80 Svíþjóð </p>
+<p>Slovenská republika 
+Recordati Rare Diseases 
+Tel: +33 (0)1 47 73 64 Francúzsko 
+Italia 
+Recordati Rare Diseases Italy Srl 
+Tel: +39 02 487 87<br />
+Suomi/Finland 
+Recordati AB. 
+Puh/Tel : +46 8 545 80 Sverige </p>
+<p>Κύπρος 
+Recordati Rare Diseases 
+Τηλ : +33 1 47 73 64 Γαλλία </p>
+<p>Sverige 
+Recordati AB. 
+Tel : +46 8 545 80 Latvija 
+Recordati AB. 
+Tel: + 46 8 545 80 Zviedrija 
+United Kingdom (Northern Ireland) 
+Recordati Rare Diseases UK Ltd. 
+Tel: +44 (0)1491 414 
+Este folheto foi revisto pela última vez em   </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -812,6 +1190,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-13bb467fc3daebcc72e614a634466540"
 * entry[0].resource = composition-da-13bb467fc3daebcc72e614a634466540
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp13bb467fc3daebcc72e614a634466540"
+* entry[=].resource = mp13bb467fc3daebcc72e614a634466540
+                            
+                    
+Instance: bundlepackageleaflet-pt-13bb467fc3daebcc72e614a634466540
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for isturisa Package Leaflet for language pt"
+Description: "ePI document Bundle for isturisa Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-13bb467fc3daebcc72e614a634466540"
+* entry[0].resource = composition-pt-13bb467fc3daebcc72e614a634466540
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp13bb467fc3daebcc72e614a634466540"
@@ -913,6 +1313,18 @@ RuleSet: 13bb467fc3daebcc72e614a634466540ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-13bb467fc3daebcc72e614a634466540) // isturisa pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

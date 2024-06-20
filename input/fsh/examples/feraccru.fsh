@@ -620,6 +620,360 @@ Lifecycle Management
 
 
 
+Instance: composition-pt-02a1ba5129f4c436758a0bf386350823
+InstanceOf: CompositionUvEpi
+Title: "Composition for feraccru Package Leaflet"
+Description:  "Composition for feraccru Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp02a1ba5129f4c436758a0bf386350823)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - feraccru"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Feraccru e para que é utilizado. </li>
+<li>O que precisa de saber antes de tomar Feraccru. </li>
+<li>Como tomar Feraccru. </li>
+<li>Efeitos indesejáveis possíveis. </li>
+<li>Como conservar Feraccru. </li>
+<li>Conteúdo da embalagem e outras informações. </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é feraccru e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é feraccru e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Feraccru contém ferro (como maltol férrico). Feraccru é utilizado em adultos para tratar as baixas 
+reservas de ferro no seu organismo. Valores baixos de ferro causam anemia (número demasiado 
+pequeno de glóbulos vermelhos). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar feraccru"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar feraccru"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Feraccru: 
+- se tem alergia ao maltol férrico ou a qualquer outro componente deste medicamento (indicados 
+na secção 6), 
+- se tem alguma doença que cause sobrecarga de ferro ou uma perturbação no modo como o seu 
+organismo utiliza o ferro, 
+- se recebeu várias transfusões de sangue. </p>
+<p>Advertências e precauções 
+Antes de iniciar o tratamento, o seu médico irá recorrer a uma análise ao sangue para ter a certeza de 
+que a sua anemia não é grave ou causada por algo que não seja deficiência de ferro (baixas reservas 
+de ferro). </p>
+<p>Deve evitar tomar Feraccru se tiver uma exacerbação (agravamento) da sua doença inflamatória 
+intestinal (DII). </p>
+<p>Não deve tomar Feraccru se estiver a tomar dimercaprol (um medicamento utilizado para remover 
+metais tóxicos do sangue), cloranfenicol (utilizado para tratar infeções bacterianas) ou metildopa 
+(utilizado para tratar a tensão arterial alta). </p>
+<p>Crianças e adolescentes 
+Não dê este tratamento a crianças ou adolescentes com idade igual ou inferior a 17 anos, já que o 
+medicamento não foi estudado nesta faixa etária. O ferro em excesso é perigoso em crianças, bebés e 
+crianças pequenas, e pode ser fatal. </p>
+<p>Outros medicamentos e Feraccru 
+Informe o seu médico ou farmacêutico se estiver a tomar outros medicamentos. </p>
+<p>Deve deixar um intervalo de pelo menos 2 horas entre a toma de Feraccru e a toma de: </p>
+<ul>
+<li>
+<p>suplementos ou medicamentos que contenham magnésio ou cálcio, </p>
+</li>
+<li>
+<p>alguns antibióticos, como ciprofloxacina, tetraciclina, levofloxacina, moxifloxacina, 
+norfloxacina e ofloxacina, </p>
+</li>
+<li>
+<p>bisfosfonatos (utilizados para tratar doenças dos ossos), </p>
+</li>
+<li>
+<p>penicilamina (utilizada para ligar metais), </p>
+</li>
+<li>
+<p>alguns medicamentos utilizados para tratar a doença de Parkinson (entacapona, levodopa) e 
+problemas de tiroide (levotiroxina), </p>
+</li>
+<li>
+<p>micofenolato (utilizado com outros medicamentos para evitar que o organismo rejeite órgãos 
+transplantados). </p>
+</li>
+</ul>
+<p>Não deve receber ferro por injeção ou perfusão (intravenosamente) enquanto estiver a tomar Feraccru. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+É pouco provável que Feraccru afete de alguma forma a capacidade de conduzir e utilizar máquinas. </p>
+<p>Feraccru contém lactose 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>
+<p>Feraccru contém amarelo-sol FCF (E 110) e vermelho allura AC (E Amarelo-sol FCF (E 110) e vermelho allura AC (E 129) podem causar reações alérgicas. </p>
+<p>Feraccru contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar feraccru"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar feraccru"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é uma cápsula (30 mg) duas vezes por dia, de manhã e à noite. 
+Tome este medicamento com o estômago vazio e com meio copo de água (uma hora antes da refeição 
+ou pelo menos 2 horas depois de uma refeição). </p>
+<p>Engula as cápsulas inteiras. </p>
+<p>Se tomar mais Feraccru do que deveria 
+Tomar Feraccru em demasia pode fazer uma pessoa sentir-se doente ou ficar doente (náuseas ou 
+vómitos) e causar dores de barriga e diarreia. Se você ou outra pessoa tomar mais Feraccru do que 
+deveria, contacte o seu médico ou o hospital imediatamente. Certifique-se de que leva consigo este 
+folheto informativo e quaisquer cápsulas restantes para mostrar ao médico. </p>
+<p>Caso se tenha esquecido de tomar Feraccru 
+Não tome a dose em falta e tome a dose seguinte como normalmente. Não tome uma dose a dobrar 
+para compensar uma cápsula que se esqueceu de tomar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Os efeitos secundários mais frequentes associados ao Feraccru (que podem afetar 1 em cada 
+10 pessoas) são: </p>
+<ul>
+<li>
+<p>Dores de estômago </p>
+</li>
+<li>
+<p>Flatulência (gases) </p>
+</li>
+<li>
+<p>Prisão de ventre </p>
+</li>
+<li>
+<p>Desconforto ou inchaço no estômago </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Náuseas (enjoo) </p>
+</li>
+<li>
+<p>Alteração da cor das fezes </p>
+</li>
+</ul>
+<p>Os efeitos secundários pouco frequentes (que podem afetar 1 em cada 100 pessoas) são:  </p>
+<ul>
+<li>
+<p>Sede,  </p>
+</li>
+<li>
+<p>Rigidez nas articulações,  </p>
+</li>
+<li>
+<p>Dor nos dedos das mãos ou dos pés,  </p>
+</li>
+<li>
+<p>Dor de cabeça,  </p>
+</li>
+<li>
+<p>Acne, vermelhidão da pele,  </p>
+</li>
+<li>
+<p>Vómitos,  </p>
+</li>
+<li>
+<p>Distensão abdominal, dor abdominal, náuseas e diarreia devido a aumento de bactérias no 
+intestino, </p>
+</li>
+<li>
+<p>As análises ao sangue podem mostrar um aumento dos níveis de proteínas (fosfatase alcalina, 
+gama-glutamiltransferase) que decompõem os químicos no sangue e de uma hormona (hormona 
+estimuladora da tiroide) que estimula a glândula tiroide. 
+Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar feraccru"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar feraccru"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após VAL:. 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não utilize este medicamento durante mais de 45 dias após a primeira abertura do frasco. Conservar a 
+temperatura inferior a 25 °C. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Feraccru 
+A substância ativa é 30 mg de ferro como maltol férrico. </p>
+<p>Os outros componentes são: </p>
+<ul>
+<li>
+<p>Lactose mono-hidratada (ver secção 2) </p>
+</li>
+<li>
+<p>Laurilsulfato de sódio </p>
+</li>
+<li>
+<p>Estearato de magnésio </p>
+</li>
+<li>
+<p>Sílica coloidal anidra </p>
+</li>
+<li>
+<p>Crospovidona (tipo A) </p>
+</li>
+<li>
+<p>Hipromelose </p>
+</li>
+<li>
+<p>Azul brilhante FCF (E 133) </p>
+</li>
+<li>
+<p>Vermelho allura AC (E 129) (ver secção 2) </p>
+</li>
+<li>
+<p>Dióxido de titânio (E 171) </p>
+</li>
+<li>
+<p>Amarelo-sol FCF (E 110) (ver secção 2) </p>
+</li>
+<li>
+<p>Verniz de goma-laca a 45% (20% esterificado) em etanol </p>
+</li>
+<li>
+<p>Óxido de ferro negro </p>
+</li>
+<li>
+<p>Propilenoglicol </p>
+</li>
+<li>
+<p>Hidróxido de amónio </p>
+</li>
+</ul>
+<p>Qual o aspeto de Feraccru e conteúdo da embalagem 
+Feraccru é uma cápsula vermelha impressa com “30" que contém um pó castanho-avermelhado. 
+Feraccru está disponível em embalagens, cada uma contendo 14, 50, 56 ou 100 (2 frascos de 50) 
+cápsulas. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Norgine B.V. 
+Antonio Vivaldistraat 1083 HP Amsterdam<br />
+Países Baixos </p>
+<p>Fabricante 
+Patheon France<br />
+40 Boulevard de Champaret 
+38300 Bourgoin-Jallieu<br />
+França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>BE\LU 
+Norgine NV/SA 
++32 16 39 27 medinfo.benelux@norgine.com 
+AT 
+Norgine Pharma GmbH 
++43 1 8178Info@norgine.at </p>
+<p>BG\CZ\HR\HU\PL\RO\SI\SK 
+AOP Orphan Pharmaceuticals AG 
++43-1-503-72-44<br />
+office@aoporphan.com </p>
+<p>DE 
+Norgine GmbH 
++49 641984info@norgine.de 
+IE/UK (NI) 
+Norgine Pharmaceuticals Ltd. 
++44 1895 826MedInfo@norgine.com </p>
+<p>ES 
+Norgine de España, S.L.U 
++34 91 375 8iberiamedinfo@norgine.com </p>
+<p>FR 
+Norgine SAS 
++33 141399400<br />
+infomedicale.norginefrance@norgine.com </p>
+<p>IT 
+Norgine Italia S.r.l. 
++39 0267 977NL 
+Norgine B.V. 
++31 20 567 0medinfoitaly@norgine.com </p>
+<p>medinfo.benelux@norgine.com </p>
+<p>PT 
+Norgine Portugal Farmacêutica Unipessoal, Lda 
++351 218952iberiamedinfo@norgine.com 
+EE\EL\CY\LV\LT\MT 
+Norgine B.V. 
++44 1895 826GMedicalAffairs@norgine.com </p>
+<p>DK/FI/IS/NO/SE 
+Norgine Denmark A/S. 
++45 33170Minfonordic@norgine.com </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -661,6 +1015,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-02a1ba5129f4c436758a0bf386350823"
 * entry[0].resource = composition-da-02a1ba5129f4c436758a0bf386350823
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp02a1ba5129f4c436758a0bf386350823"
+* entry[=].resource = mp02a1ba5129f4c436758a0bf386350823
+                            
+                    
+Instance: bundlepackageleaflet-pt-02a1ba5129f4c436758a0bf386350823
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for feraccru Package Leaflet for language pt"
+Description: "ePI document Bundle for feraccru Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-02a1ba5129f4c436758a0bf386350823"
+* entry[0].resource = composition-pt-02a1ba5129f4c436758a0bf386350823
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp02a1ba5129f4c436758a0bf386350823"
@@ -762,6 +1138,18 @@ RuleSet: 02a1ba5129f4c436758a0bf386350823ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-02a1ba5129f4c436758a0bf386350823) // feraccru pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

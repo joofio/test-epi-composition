@@ -670,6 +670,374 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-da4c6f018e7fdae8608352111569c24b
+InstanceOf: CompositionUvEpi
+Title: "Composition for ovitrelle Package Leaflet"
+Description:  "Composition for ovitrelle Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpda4c6f018e7fdae8608352111569c24b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ovitrelle"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Ovitrelle e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Ovitrelle </li>
+<li>Como utilizar Ovitrelle </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Ovitrelle </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ovitrelle e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ovitrelle e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Ovitrelle </p>
+<p>Ovitrelle contém um medicamento chamado ‘coriogonadotropina alfa’, produzido em laboratório por 
+uma tecnologia especial de ADN recombinante. A coriogonadotropina alfa é similar a uma hormona 
+que se encontra naturalmente no seu organismo chamada ‘gonadotropina coriónica’, que está 
+envolvida na reprodução e na fertilidade. </p>
+<p>Para que é utilizado Ovitrelle </p>
+<p>Ovitrelle é utilizado juntamente com outros medicamentos: </p>
+<ul>
+<li>
+<p>Para ajudar a desenvolver e amadurecer vários folículos (cada um contendo um óvulo) em 
+mulheres submetidas a tecnologias de reprodução assistida (procedimentos que poderão ajudá-la 
+a engravidar), tais como, ‘fertilização in vitro’. Outros medicamentos serão administrados antes, 
+de modo a estimular o crescimento de vários folículos. </p>
+</li>
+<li>
+<p>Para ajudar a libertar um óvulo do ovário (indução da ovulação) em mulheres que não 
+conseguem produzir óvulos (‘anovulação’), ou em mulheres que produzem muito poucos óvulos 
+(‘oligo-ovulação’). Outros medicamentos serão administrados antes para desenvolverem e 
+amadurecerem os folículos. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ovitrelle"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ovitrelle"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Ovitrelle </p>
+<ul>
+<li>
+<p>Se tem alergia à coriogonadotropina alfa ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </p>
+</li>
+<li>
+<p>Se tem um tumor no hipotálamo ou na hipófise (ambos são partes do cérebro). </p>
+</li>
+<li>
+<p>Se tem ovários grandes ou bolsas com líquido nos ovários (quistos do ovário) de origem 
+desconhecida. </p>
+</li>
+<li>
+<p>Se tem hemorragias vaginais inexplicadas. </p>
+</li>
+<li>
+<p>Se tem cancro do ovário, do útero ou da mama. </p>
+</li>
+<li>
+<p>Se sofre de uma inflamação grave nas veias ou tem coágulos sanguíneos nas veias (alterações 
+tromboembólicas ativas). </p>
+</li>
+<li>
+<p>Se sofre de alguma afeção que geralmente torna uma gravidez normal impossível, tal como a 
+menopausa ou menopausa precoce (falência dos ovários) ou malformações dos órgãos sexuais. </p>
+</li>
+</ul>
+<p>Não utilize Ovitrelle se alguma das situações referidas acima se aplica a si. Se não tiver a certeza, 
+consulte o seu médico antes de utilizar este medicamento. </p>
+<p>Advertências e precauções </p>
+<p>Antes de se iniciar o tratamento, a sua fertilidade e a do seu parceiro deverá ser avaliada por um 
+médico com experiência no tratamento de problemas de fertilidade. </p>
+<p>Síndrome de hiperestimulação ovárica (OHSS) </p>
+<p>Este medicamento pode aumentar o risco de desenvolver OHSS. Isto acontece quando os folículos se 
+desenvolvem demasiadamente e tornam-se quistos grandes. </p>
+<p>Se sentir uma dor na parte inferior do abdómen, aumentar de peso rapidamente, sentir-se enjoada ou 
+começar a vomitar, ou tiver dificuldade em respirar, não administre a sua injeção de Ovitrelle e fale 
+com o seu médico imediatamente (ver secção 4). Se estiver a desenvolver OHSS, poderão pedir-lhe 
+para não ter relações sexuais ou então utilizar um método contracetivo de barreira durante pelo menos 
+4 dias. </p>
+<p>O risco de OHSS é reduzido se for utilizada a dose recomendada de Ovitrelle e se houver uma 
+monitorização cuidadosa durante o ciclo de tratamento (p. ex., análises ao sangue para avaliação dos 
+níveis de estradiol e ecografias). </p>
+<p>Gravidez múltipla e/ou defeitos congénitos </p>
+<p>Ao utilizar Ovitrelle terá um risco maior de engravidar com mais de uma criança ao mesmo tempo 
+(‘gravidez múltipla’, geralmente gémeos) do que se conceber naturalmente. A gravidez múltipla pode 
+levar a complicações médicas para si e para os seus bebés. Ao submeter-se a tecnologias de 
+reprodução assistida, o risco de ter uma gravidez múltipla está relacionado com a sua idade, a 
+qualidade e o número de óvulos fecundados ou embriões transferidos para o seu útero. Gravidezes 
+múltiplas e características específicas dos casais com problemas de fertilidade (por exemplo, idade) 
+também podem estar associadas a uma maior possibilidade de defeitos congénitos. </p>
+<p>O risco de gravidez múltipla é reduzido se houver uma monitorização cuidadosa durante o ciclo de 
+tratamento (p. ex., análises ao sangue para avaliação dos níveis de estradiol e ecografias). </p>
+<p>Gravidez ectópica </p>
+<p>Pode ocorrer uma gravidez fora do útero (gravidez ectópica) em mulheres com lesão das trompas de 
+Falópio (os tubos que transportam o óvulo do ovário para o útero). Portanto, o seu médico deve efetuar 
+uma ecografia no início para excluir a possibilidade de uma gravidez fora do útero. </p>
+<p>Aborto </p>
+<p>Ao ser submetida a técnicas de reprodução medicamente assistida ou a estimulação dos ovários para 
+produzir óvulos, terá uma maior probabilidade de sofrer um aborto do que a média das mulheres. </p>
+<p>Problemas de coagulação do sanguínea (fenómenos tromboembólicos) </p>
+<p>Fale com o seu médico antes de utilizar Ovitrelle se você ou algum membro da sua família tiver tido 
+coágulos sanguíneos na perna ou no pulmão, ou um ataque cardíaco ou um acidente vascular cerebral. 
+É possível que esteja em maior risco de ocorrência de coágulos sanguíneos graves ou que os coágulos 
+existentes se agravem com o tratamento com Ovitrelle. </p>
+<p>Tumores nos órgãos sexuais </p>
+<p>Têm sido reportados tumores nos ovários e em outros órgãos sexuais, tanto benignos como malignos, 
+em mulheres submetidas a regimes terapêuticos múltiplos para o tratamento da infertilidade. </p>
+<p>Testes de gravidez </p>
+<p>Se fizer um teste de gravidez sérico ou urinário depois de utilizar Ovitrelle e até dez dias após a sua 
+utilização, pode acontecer ter um resultado falso positivo no teste. Se não tiver a certeza, fale com o 
+seu médico. </p>
+<p>Crianças e adolescentes </p>
+<p>Ovitrelle não se destina à utilização em crianças e adolescentes. </p>
+<p>Outros medicamentos e Ovitrelle </p>
+<p>Informe o seu médico se estiver a tomar, tiver tomado recentemente ou se vier a tomar outros 
+medicamentos. </p>
+<p>Gravidez e amamentação </p>
+<p>Não utilize Ovitrelle se estiver grávida ou a amamentar. 
+Se está grávida ou a amamentar, consulte o seu médico antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Não é de se esperar que Ovitrelle afete a sua capacidade para conduzir e utilizar máquinas. </p>
+<p>Ovitrelle contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ovitrelle"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ovitrelle"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Qual a dose a utilizar </p>
+<ul>
+<li>
+<p>A dose recomendada é de 1 seringa pré-cheia (250 microgramas/0,5 ml) administrada numa 
+injeção única. </p>
+</li>
+<li>
+<p>O seu médico ter-lhe-á explicado exatamente quando administrar a injeção.  </p>
+</li>
+</ul>
+<p>Como utilizar este medicamento </p>
+<ul>
+<li>
+<p>Ovitrelle destina-se a administração por via subcutânea, o que significa que a injeção é dada 
+debaixo da pele. </p>
+</li>
+<li>
+<p>Cada seringa pré-cheia é apenas para uma única utilização. Só deve ser utilizada uma solução 
+límpida, sem partículas. </p>
+</li>
+<li>
+<p>O seu médico ou enfermeiro mostrar-lhe-á como utilizar a seringa pré-cheia Ovitrelle para 
+injetar o medicamento. </p>
+</li>
+<li>
+<p>Injete Ovitrelle como o seu médico ou enfermeiro lhe ensinaram. </p>
+</li>
+<li>
+<p>Após a injeção, elimine com segurança a seringa utilizada. </p>
+</li>
+</ul>
+<p>Se administrar Ovitrelle a si própria, leia cuidadosamente as instruções que se seguem: </p>
+<ol>
+<li>
+<p>Lave as mãos. É importante que as suas mãos e os utensílios que vai utilizar estejam tão limpos 
+quanto possível. </p>
+</li>
+<li>
+<p>Reúna tudo o que vai necessitar. Tenha em atenção que os pedaços de algodão não estão 
+incluídos dentro da embalagem. Numa superfície limpa, coloque: </p>
+</li>
+<li>dois bocados de algodão embebidos em álcool, </li>
+<li>
+<p>uma seringa pré-cheia contendo o medicamento. </p>
+</li>
+<li>
+<p>Injeção: </p>
+</li>
+</ol>
+<p>Injete imediatamente a solução: O seu médico ou enfermeiro já lhe 
+indicaram qual a zona onde dar a injeção (por ex: barriga, parte da 
+frente da coxa). Desinfete a zona escolhida com algodão embebido 
+em álcool. Aperte firmemente a pele entre o dedo polegar e o 
+indicador e espete a agulha para injeção com um ângulo de 45° a 
+90°. Injete por baixo da pele, conforme lhe ensinaram. Não injete 
+diretamente numa veia. Injete a solução empurrando suavemente o 
+êmbolo. Demore o tempo que necessitar para injetar toda a solução. 
+Retire imediatamente a agulha e limpe a pele com algodão embebido 
+em álcool, usando um movimento circular. </p>
+<ol>
+<li>Deitar fora todo o material utilizado: 
+Uma vez acabada a injeção, deite fora imediatamente a seringa vazia num recipiente apropriado. 
+Deve deitar fora qualquer solução não utilizada. </li>
+</ol>
+<p>Se utilizar mais Ovitrelle do que deveria </p>
+<p>Não são conhecidos os efeitos de uma sobredosagem com Ovitrelle, sendo no entanto de prever a 
+ocorrência da síndrome de hiperestimulação ovárica (OHSS), que se encontra descrita em secção 4.<br />
+Caso se tenha esquecido de utilizar Ovitrelle </p>
+<p>Caso se tenha esquecido de utilizar Ovitrelle, contacte o seu médico assim que se aperceber. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Pare de utilizar Ovitrelle e consulte um médico imediatamente se notar qualquer um dos 
+seguintes efeitos indesejáveis graves - pode precisar de tratamento médico urgente: </p>
+<ul>
+<li>
+<p>Reações alérgicas tais como erupção na pele, pulsação rápida ou irregular, inchaço da língua e 
+da garganta, espirros, pieira ou graves dificuldades respiratórias são muito raros (podem afetar 
+até 1 em cada 10.000 pessoas). </p>
+</li>
+<li>
+<p>Dor na parte inferior do abdómen, distensão abdominal ou desconforto abdominal juntamente 
+com náuseas (enjoos) ou vómitos poderão ser sintomas da síndrome de hiperestimulação 
+ovárica (OHSS). Isto pode ser um indicador de que os ovários reagiram excessivamente ao 
+tratamento e que se desenvolveram quistos grandes (ver também a secção 2 em “Síndrome de 
+hiperestimulação ovárica"). Este acontecimento é frequente (pode afetar até 1 em cada 
+10 pessoas). </p>
+</li>
+<li>
+<p>A OHSS pode tornar-se grave com ovários claramente aumentados, uma produção reduzida de 
+urina, aumento de peso, dificuldade em respirar e possível acumulação de líquidos no estômago 
+ou no peito. Este acontecimento é pouco frequente (pode afetar até 1 em cada 100 pessoas). </p>
+</li>
+<li>
+<p>Complicações graves de coagulação do sangue (acontecimentos tromboembólicos), por vezes 
+independentes da OHSS, são muito raramente observadas. Estas podem causar dor no peito, 
+falta de ar, trombose ou ataque cardíaco (ver também a secção 2 em “Problemas de coagulação 
+do sangue"). </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Dores de cabeça. </p>
+</li>
+<li>
+<p>Reações no local de injeção, tais como dor, vermelhidão ou inchaço. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>Diarreia </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ovitrelle"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ovitrelle"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2ºC - 8ºC). Conservar na embalagem de origem. Ovitrelle 250 microgramas 
+solução injetável pode ser conservado à temperatura ambiente (a ou abaixo de 25ºC) durante 30 dias 
+sem voltar a ser colocado no frigorífico durante este período. Caso não seja utilizado durante esses 
+30 dias, deverá ser rejeitado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ovitrelle </p>
+<ul>
+<li>
+<p>A substância ativa é coriogonadotropina alfa produzida por tecnologia de ADN recombinante. </p>
+</li>
+<li>
+<p>Cada seringa pré-cheia contém 250 microgramas/0,5 ml (equivalente a 6.500 UI). </p>
+</li>
+<li>
+<p>Os outros componentes são manitol, metionina, poloxâmero 188, ácido fosfórico, hidróxido de 
+sódio, água para preparações injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Ovitrelle e conteúdo da embalagem </p>
+<p>Ovitrelle é apresentado sob a forma de solução injetável.<br />
+Está disponível em embalagens com uma seringa pré-cheia. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Merck Europe B.V., Gustav Mahlerplein 102, 1082 MA Amsterdam, Países Baixos </p>
+<p>Fabricante </p>
+<p>Merck Serono S.p.A., Via delle Magnolie 15, 70026 Modugno (Bari), Itália. </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -711,6 +1079,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-da4c6f018e7fdae8608352111569c24b"
 * entry[0].resource = composition-da-da4c6f018e7fdae8608352111569c24b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpda4c6f018e7fdae8608352111569c24b"
+* entry[=].resource = mpda4c6f018e7fdae8608352111569c24b
+                            
+                    
+Instance: bundlepackageleaflet-pt-da4c6f018e7fdae8608352111569c24b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ovitrelle Package Leaflet for language pt"
+Description: "ePI document Bundle for ovitrelle Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-da4c6f018e7fdae8608352111569c24b"
+* entry[0].resource = composition-pt-da4c6f018e7fdae8608352111569c24b
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpda4c6f018e7fdae8608352111569c24b"
@@ -812,6 +1202,18 @@ RuleSet: da4c6f018e7fdae8608352111569c24bListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-da4c6f018e7fdae8608352111569c24b) // ovitrelle pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

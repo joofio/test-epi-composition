@@ -941,6 +941,484 @@ smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </di
 
 
 
+Instance: composition-pt-bc2ae75a6ecb98e9392c79b792d9e432
+InstanceOf: CompositionUvEpi
+Title: "Composition for invanz Package Leaflet"
+Description:  "Composition for invanz Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbc2ae75a6ecb98e9392c79b792d9e432)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - invanz"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é INVANZ e para que é utilizado
+2. O que precisa de saber antes de lhe ser administrado INVANZ
+3. Como utilizar INVANZ
+4. Efeitos indesejáveis possíveis
+5. Como conservar INVANZ
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é invanz e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é invanz e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>INVANZ contém ertapenem, que é um antibiótico do grupo dos beta-lactâmicos. Tem a capacidade de
+matar uma vasta gama de bactérias (germes) que causam infeções em vários locais do organismo.
+INVANZ pode ser administrado a pessoas com idade igual ou superior a 3 meses.
+Tratamento:
+O seu médico receitou-lhe INVANZ porque você ou o seu filho tem um (ou mais) dos seguintes tipos
+de infeção:
+ 
+Infeção no abdómen
+ 
+Infeção nos pulmões (pneumonia)
+ 
+Infeções ginecológicas
+ 
+Infeções da pele do pé em doentes diabéticos.
+Prevenção:
+ 
+Prevenção de infeções em adultos no local de intervenção cirúrgica após cirurgia do intestino
+grosso ou do reto.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar invanz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar invanz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize INVANZ
+- se tem alergia à substância ativa (ertapenem) ou a qualquer outro componente deste
+medicamento (indicados na secção 6)
+- se for alérgico a antibióticos como as penicilinas, cefalosporinas ou carbapenemes (os quais são
+usados para tratar infeções várias).
+27
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar INVANZ.
+Durante o tratamento, se tiver uma reação alérgica (como inchaço da cara, língua ou garganta,
+dificuldade em respirar ou engolir, erupção na pele), informe o seu médico imediatamente pois pode
+necessitar de tratamento médico urgente.
+Embora os antibióticos incluindo INVANZ matem certas bactérias, outras bactérias e fungos podem
+continuar a crescer mais do que o normal. A isto chama-se crescimento excessivo. O seu médico irá
+monitorizá-lo relativamente ao crescimento excessivo e tratá-lo se necessário.
+É importante que informe o seu médico se teve diarreia antes, durante ou após o seu tratamento com
+INVANZ, uma vez que pode ter uma condição conhecida como colite (uma inflamação do intestino).
+Não tome nenhum medicamento para tratar a diarreia sem primeiro consultar o seu médico.
+Informe o seu médico se está a tomar medicamentos chamados ácido valpróico ou valproato de sódio
+(ver Outros medicamentos e INVANZ em baixo).
+Informe o seu médico sobre quaisquer problemas de saúde que tem ou tenha tido, incluindo:
+ 
+Doença de rins. É particularmente importante que o seu médico saiba se tem doença de rins e se
+faz tratamento por diálise.
+ 
+Alergias a quaisquer medicamentos, incluindo antibióticos.
+ 
+Doenças do sistema nervoso central, como tremores localizados ou convulsões.
+Crianças e adolescentes (dos 3 meses aos 17 anos de idade)
+A experiência com INVANZ é limitada em crianças com menos de 2 anos de idade. Neste grupo
+etário, o médico decidirá sobre o possível benefício da sua utilização. Não existe experiência em
+crianças com menos de 3 meses de idade.
+Outros medicamentos e INVANZ
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros
+medicamentos.
+Informe o seu médico, enfermeiro ou farmacêutico se está a tomar medicamentos chamados ácido
+valpróico ou valproato de sódio (utilizados no tratamento da epilepsia, doença bipolar, dor de cabeça
+ou esquizofrenia), uma vez que INVANZ pode afetar a maneira como alguns outros medicamentos
+funcionam. O seu médico decidirá se deve tomar INVANZ com estes medicamentos.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico
+antes de tomar este medicamento. 
+INVANZ não foi estudado em mulheres grávidas. INVANZ não deve ser usado na gravidez, exceto se
+o seu médico decidir que o potencial benefício justifica o potencial risco para o feto.
+As mulheres a quem esteja a ser administrado INVANZ não devem amamentar, uma vez que este foi
+encontrado no leite humano e o bebé lactente poderá ser afetado.
+Condução de veículos e utilização de máquinas
+Não conduza ou utilize quaisquer ferramentas ou máquinas até saber de que forma reage ao
+medicamento.
+Foram comunicados com INVANZ alguns efeitos indesejáveis, como tonturas e sonolência, que
+podem afetar a capacidade de alguns doentes para conduzir ou utilizar máquinas.
+28
+INVANZ contém sódio
+Este medicamento contém aproximadamente 137 mg sódio (principal componente de sal de cozinha/
+sal de mesa) em cada dose de 1,0 g. Isto é equivalente a 6,85 % da ingestão diária máxima de sódio
+recomendada na dieta para um adulto.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar invanz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar invanz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>INVANZ será sempre preparado e administrado por via intravenosa (numa veia) por um médico ou
+outro profissional de saúde.
+A dose recomendada de INVANZ para adultos e adolescentes com idade igual ou superior a 13 anos é
+de 1 grama (g) administrado uma vez por dia. A dose recomendada para crianças dos 3 meses aos
+12 anos de idade é de 15 mg/kg administrados duas vezes por dia (não exceder 1 g/dia). O seu médico
+decidirá quantos dias de tratamento precisa.
+Para a prevenção de infeções no local de intervenção cirúrgica após cirurgia do intestino grosso ou do
+reto, a dose recomendada de INVANZ é de 1 g administrado como uma dose intravenosa única 1 hora
+antes da cirurgia.
+É muito importante que continue a receber tratamento com INVANZ enquanto o seu médico achar
+necessário.
+Se lhe for administrado mais INVANZ do que deveria
+Se achar que pode ter-lhe sido administrada uma quantidade excessiva de INVANZ, consulte
+imediatamente o seu médico ou outro profissional de saúde.
+Caso se tenha esquecido de utilizar INVANZ
+Se achar que pode ter-se esquecido de receber uma dose, consulte imediatamente o seu médico ou
+outro profissional de saúde.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não
+se manifestem em todas as pessoas.
+Adultos com idade igual ou superior a 18 anos:
+Após a comercialização do medicamento, foram notificadas reações alérgicas graves (anafilaxia),
+síndromes de hipersensibilidade (reações alérgicas incluindo erupção na pele, febre, resultados
+anormais de testes sanguíneos). Os primeiros sinais de uma reação alérgica grave podem incluir
+inchaço da face e/ou garganta. Se ocorrerem estes sintomas informe o seu médico imediatamente pois
+pode necessitar de tratamento médico urgente.
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) são:
+ 
+Dor de cabeça
+ 
+Diarreia, náuseas, vómitos
+ 
+Erupção na pele, comichão
+ 
+Problemas na veia onde o medicamento é administrado (incluindo inflamação, formação de um
+alto, inchaço no local de injeção ou líquido disperso no tecido e na pele à volta do local de
+injeção
+ 
+Aumento do número de plaquetas
+ 
+Alterações nos testes da função do fígado
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) são: 
+ 
+Tonturas, sonolência, insónia, confusão, crises convulsivas
+29
+ 
+Pressão arterial baixa, ritmo cardíaco baixo
+ 
+Falta de ar, garganta irritada
+ 
+Prisão de ventre, infeção da boca por fungos, diarreia associada ao antibiótico, regurgitação
+ácida, boca seca, indigestão, perda de apetite
+ 
+Vermelhidão da pele
+ 
+Descarga e irritação vaginal
+ 
+Dor abdominal, fadiga, infeção fúngica, febre, edema/inchaço, dor no peito, alteração do paladar
+ 
+Alterações de algumas análises laboratoriais ao sangue e à urina
+Efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas) são:
+ 
+Diminuição dos glóbulos brancos, diminuição do número de plaquetas no sangue
+ 
+Nível baixo de açúcar no sangue
+ 
+Agitação, ansiedade, depressão, tremores
+ 
+Ritmo cardíaco irregular, aumento da pressão arterial, hemorragia, ritmo cardíaco acelerado
+ 
+Congestão nasal, tosse, hemorragia nasal, pneumonia, sons respiratórios anómalos, respiração
+sibilante (assobiada)
+ 
+Inflamação da vesícula biliar, dificuldade em engolir, incontinência fecal, icterícia, perturbações
+do fígado
+ 
+Inflamação da pele, infeção fúngica da pele, descamação da pele, infeção das feridas
+pós-operatórias
+ 
+Cãibras musculares, dor no ombro
+ 
+Infeção do trato urinário, compromisso renal
+ 
+Aborto espontâneo, hemorragia genital
+ 
+Alergia, mal-estar, peritonite pélvica, alteração da zona branca do olho, desmaio
+ 
+A pele pode ficar dura no local de injeção
+ 
+Inchaço dos vasos sanguíneos da pele
+Efeitos indesejáveis comunicados com frequência desconhecida (a frequência não pode ser calculada a
+partir dos dados disponíveis) são:
+ 
+Alucinações
+ 
+Diminuição da consciência
+ 
+Estado mental alterado (incluindo agressividade, delírio, desorientação, mudanças de estado
+mental)
+ 
+Movimentos anormais
+ 
+Fraqueza muscular
+ 
+Caminhar de forma instável
+ 
+Dentes manchados
+Houve também comunicações de alterações dos valores de algumas análises laboratoriais ao sangue.
+Se surgirem pontos na pele elevados ou com líquido numa área extensa do seu corpo, informe
+imediatamente o seu médico ou enfermeiro.
+Crianças e adolescentes (dos 3 meses aos 17 anos de idade):
+Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) são:
+ 
+Diarreia
+ 
+Irritação da pele semelhante a dermatite causada pela fralda
+ 
+Dor no local de perfusão
+ 
+Alterações na contagem de glóbulos brancos do sangue
+ 
+Alterações nos testes da função do fígado
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) são:
+ 
+Dor de cabeça
+ 
+Afrontamentos, pressão arterial elevada, pontos planos de cor vermelha ou púrpura, sob a pele
+30
+ 
+Fezes descoloradas, fezes escuras
+ 
+Vermelhidão na pele, erupção na pele
+ 
+Ardor, comichão, vermelhidão e calor no local de perfusão, vermelhidão no local de injeção
+ 
+Aumento do número de plaquetas
+ 
+Alterações de algumas análises laboratoriais ao sangue
+Efeitos indesejáveis comunicados com frequência desconhecida (a frequência não pode ser calculada a
+partir dos dados disponíveis) são:
+ 
+Alucinações
+ 
+Estado mental alterado (incluindo agressividade)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar invanz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar invanz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no recipiente. 
+Os 2 primeiros algarismos indicam o mês; os últimos 4 algarismos indicam o ano.
+Não conservar acima de 25ºC.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de INVANZ
+A substância ativa do INVANZ é o ertapenem 1 g.
+Os outros componentes são: bicarbonato de sódio (E500) e hidróxido de sódio (E524).
+Qual o aspeto de INVANZ e conteúdo da embalagem 
+INVANZ é um pó liofilizado para concentrado para solução para perfusão, branco a esbranquiçado.
+As soluções de INVANZ oscilam de incolores a amarelo pálido. As variações dentro desta gama de
+cores não afetam a potência.
+INVANZ está disponível em embalagens com 1 frasco para injetáveis ou com 10 frascos para
+injetáveis.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Países Baixos
+Fabricante
+FAREVA Mirabel
+Route de Marsat, Riom
+63963 Clermont-Ferrand Cedex 9
+França
+31
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular
+da Autorização de Introdução no Mercado:
+Belgique/België/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel. + 370 5 278 02 47
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o. 
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +361 888 53 00
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: +45 44 82 40 00
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+INFECTOPHARM 
+Arzneimittel und Consilium GmbH
+Tel. +49 (0)6252 / 95-7000
+kontakt@infectopharm.com
+Nederland 
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999(+31 (0)23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Eλλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: + 30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp.z o.o.
+Tel.: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: + 4021 529 29 00
+msdromania@merck.com
+32
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila
+d.o.o.
+Tel: + 386 1 5204201
+msd_slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel.: +421 2 58282010
+dpoc_czechslovak@merck.com
+Ιtalia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0) 9 804650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ.: 80000 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 (0)77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: +371 67364 224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human
+Health) Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Este folheto foi revisto pela última vez em
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+
+
+
 
 
                     
@@ -982,6 +1460,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-bc2ae75a6ecb98e9392c79b792d9e432"
 * entry[0].resource = composition-da-bc2ae75a6ecb98e9392c79b792d9e432
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbc2ae75a6ecb98e9392c79b792d9e432"
+* entry[=].resource = mpbc2ae75a6ecb98e9392c79b792d9e432
+                            
+                    
+Instance: bundlepackageleaflet-pt-bc2ae75a6ecb98e9392c79b792d9e432
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for invanz Package Leaflet for language pt"
+Description: "ePI document Bundle for invanz Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-bc2ae75a6ecb98e9392c79b792d9e432"
+* entry[0].resource = composition-pt-bc2ae75a6ecb98e9392c79b792d9e432
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpbc2ae75a6ecb98e9392c79b792d9e432"
@@ -1083,6 +1583,18 @@ RuleSet: bc2ae75a6ecb98e9392c79b792d9e432ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-bc2ae75a6ecb98e9392c79b792d9e432) // invanz pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

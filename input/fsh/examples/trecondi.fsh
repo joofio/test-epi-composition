@@ -860,6 +860,519 @@ bortskaffelse af farligt affald. </p>         </div>"""
 
 
 
+Instance: composition-pt-133076b034a4711dfc1fe81f7acd828f
+InstanceOf: CompositionUvEpi
+Title: "Composition for trecondi Package Leaflet"
+Description:  "Composition for trecondi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp133076b034a4711dfc1fe81f7acd828f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - trecondi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Trecondi e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Trecondi </li>
+<li>Como utilizar Trecondi </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Trecondi </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é trecondi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é trecondi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trecondi contém a substância ativa treossulfano, que pertence a um grupo de medicamentos 
+designados por agentes alquilantes. O treossulfano é utilizado para preparar doentes para um 
+transplante de medula óssea (transplante de células estaminais hematopoiéticas). O treossulfano 
+destrói as células da medula óssea e permite o transplante de novas células da medula óssea, o que 
+leva à produção de células sanguíneas saudáveis. </p>
+<p>Trecondi é utilizado como tratamento antes do transplante de células estaminais do sangue em 
+adultos e em adolescentes e crianças com mais de um mês de idade com cancro e doenças não 
+cancerosas. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar trecondi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar trecondi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trecondi não lhe pode ser administrado 
+ 
+se tem alergia ao treossulfano, 
+ 
+se tem uma infeção ativa não controlada, 
+ 
+se tem doenças graves do coração, pulmões, fígado ou rins, 
+ 
+se tem uma doença hereditária de reparação do ADN (ácido desoxirribonucleico), uma afeção 
+que diminui a capacidade para reparar o ADN (que transporta a sua informação genética), 
+ 
+se está grávida ou se pensa que pode estar grávida. </p>
+<p>Advertências e precauções 
+Trecondi é um medicamento que mata as células (citotóxico) e que é utilizado para diminuir o número 
+de células do sangue. Na dose recomendada, este é o efeito desejado. Fará regularmente análises ao 
+sangue durante o tratamento para verificar se as contagens das suas células do sangue não diminuem 
+para um valor demasiado baixo. </p>
+<p>A fim de evitar e tratar infeções, ser-lhe-ão administrados medicamentos, por exemplo antibióticos, 
+antifúngicos ou antivirais. </p>
+<p>Trecondi pode aumentar o risco de ter outro cancro no futuro. </p>
+<p>Como a inflamação da mucosa oral é um efeito secundário frequente deste medicamento, deve prestar 
+atenção a uma higiene oral adequada. Recomenda-se a utilização de medidas preventivas como 
+soluções para lavagem da boca (p. ex., com protetores de barreira, antimicrobianos) ou de aplicação de 
+gelo na cavidade oral (diminui o fluxo de sangue na mucosa oral e reduz a quantidade de treossulfano 
+que atinge as células). </p>
+<p>Não pode receber vacinas vivas durante o tratamento com treossulfano. </p>
+<p>Trecondi pode causar sintomas de menopausa (ausência de períodos menstruais).  </p>
+<p>Crianças e adolescentes 
+Podem ocorrer muito raramente crises epiléticas (convulsões) em bebés com menos de 4 meses de 
+idade. As crianças com menos de 1 ano podem ter efeitos indesejáveis mais graves que afetam a 
+respiração do que as crianças mais velhas. A sua criança será monitorizada para deteção de sinais de 
+efeitos indesejáveis que afetam os nervos e problemas respiratórios. </p>
+<p>A erupção na pele na zona das fraldas com formação assadura na área em redor do ânus (perianal) 
+pode ocorrer em lactentes, bebés e crianças que usam fraldas porque o treossulfano eliminado na urina 
+pode lesar a pele. Portanto, as fraldas devem ser mudadas frequentemente durante o período de 
+6-8 horas após cada dose deste medicamento. </p>
+<p>Não existe informação suficiente sobre a utilização de treossulfano em crianças com menos de 1 mês 
+de idade. </p>
+<p>Outros medicamentos e Trecondi 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente ou se vier a tomar outros 
+medicamentos, incluindo medicamentos obtidos sem receita médica. </p>
+<p>Gravidez, amamentação e fertilidade 
+Não pode engravidar durante o tratamento com este medicamento e até 6 meses após o tratamento. 
+Utilize um método contracetivo eficaz enquanto estiver, ou o seu parceiro estiver, a receber este 
+medicamento. </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de lhe ser administrado este medicamento. </p>
+<p>Deve parar de amamentar antes de iniciar o tratamento com este medicamento. </p>
+<p>Se for um homem que está a ser tratado com este medicamento não deve conceber uma criança 
+durante e até 6 meses após o tratamento.  </p>
+<p>Este medicamento pode torná-la infértil e existe a possibilidade de não poder engravidar depois do 
+tratamento com o mesmo. Se estiver preocupada com o facto de ter filhos, discuta este assunto com o 
+seu médico antes do tratamento. Os homens devem aconselhar-se sobre a possibilidade de conservação 
+do esperma antes do início da terapêutica. </p>
+<p>Condução de veículos e utilização de máquinas 
+Este medicamento pode causar náuseas, vómitos e tonturas que podem diminuir a sua capacidade de 
+conduzir ou utilizar máquinas. Se tiver quaisquer efeitos, não conduza ou utilize máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar trecondi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar trecondi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilização em adultos 
+Este medicamento é utilizado em associação com a fludarabina. 
+A dose recomendada é 10-14 g/m² da área de superfície corporal (calculada usando a sua altura e 
+peso). </p>
+<p>Utilização em crianças e adolescentes 
+Este medicamento é utilizado em associação com a fludarabina e, na maioria dos casos, também com 
+tiotepa. A dose recomendada é de 10-14 g/m² da área de superfície corporal. </p>
+<p>Como é administrado Trecondi 
+Este medicamento ser-lhe-á administrado pelo seu médico. É administrado gota-a-gota (perfusão) 
+numa veia durante 2 horas por um período de 3 dias, antes da perfusão de células estaminais do 
+sangue. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Os efeitos indesejáveis mais graves da terapêutica com treossulfano ou do procedimento de transplante 
+incluem: </p>
+<ul>
+<li>
+<p>diminuição das contagens das células do sangue que é o efeito desejado do medicamento para o 
+preparar para a sua perfusão de transplante (todos os doentes: muito frequente) </p>
+</li>
+<li>
+<p>infeções causadas por bactérias, vírus e fungos (adultos: frequente; crianças e adolescentes: 
+muito frequente) </p>
+</li>
+<li>
+<p>bloqueio de uma veia no fígado (adultos: pouco frequente; crianças e adolescentes: 
+desconhecido) </p>
+</li>
+<li>
+<p>inflamação dos pulmões (pneumonite) (adultos: pouco frequente) </p>
+</li>
+</ul>
+<p>O seu médico monitorizará regularmente as suas contagens de células no sangue e as enzimas do 
+fígado para detetar e controlar estes acontecimentos. </p>
+<p>Adultos </p>
+<p>Uma lista de todos os outros efeitos indesejáveis é apresentada a seguir de acordo com a sua 
+frequência. </p>
+<p>Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>diminuição das contagens dos glóbulos brancos com febre (neutropenia febril) </p>
+</li>
+<li>
+<p>inflamação do revestimento de várias zonas do corpo, especialmente na boca (podendo causar 
+úlceras), diarreia, náuseas, vómitos </p>
+</li>
+<li>
+<p>cansaço </p>
+</li>
+<li>
+<p>aumento do nível da bilirrubina (um pigmento do fígado, muitas vezes um sinal de problemas 
+no fígado) no sangue </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>infeção do sangue (sépsis) </p>
+</li>
+<li>
+<p>reações alérgicas  </p>
+</li>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>problemas em dormir (insónia)  </p>
+</li>
+<li>
+<p>dores de cabeça, tonturas </p>
+</li>
+<li>
+<p>alterações e anomalias do ritmo do coração (o batimento do coração é irregular, demasiado 
+rápido ou demasiado lento) </p>
+</li>
+<li>
+<p>tensão arterial elevada ou baixa, rubor </p>
+</li>
+<li>
+<p>dificuldade em respirar, hemorragia do nariz </p>
+</li>
+<li>
+<p>dor na boca, inflamação do estômago, indisposição de estômago, dor de barriga (abdominal), 
+prisão de ventre, dificuldade em engolir, dor no esófago ou no estômago </p>
+</li>
+<li>
+<p>um tipo de erupção na pele com manchas vermelhas planas ou com elevações vermelhas na pele 
+(erupção na pele maculopapular), manchas vermelhas na pele (púrpura), vermelhidão da pele 
+(eritema), síndrome mão-pé (palmas das mãos ou plantas dos pés com formigueiros, dormência, 
+inchaço doloroso ou vermelhas), comichão, queda de cabelo  </p>
+</li>
+<li>
+<p>dor nos braços ou pernas, dor nas costas, dor nos ossos, dor nas articulações </p>
+</li>
+<li>
+<p>diminuição súbita da função dos rins, sangue na urina </p>
+</li>
+<li>
+<p>retenção de líquidos no corpo que causam inchaço (edema), febre, arrepios </p>
+</li>
+<li>
+<p>aumentos das enzimas do fígado, aumento da proteína-C reativa (um marcador de inflamação no 
+corpo), aumento de peso, perda de peso </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>controlo anormal do nível de açúcar no sangue, incluindo um nível elevado ou baixo do açúcar 
+no sangue </p>
+</li>
+<li>
+<p>confusão </p>
+</li>
+<li>
+<p>hemorragia no cérebro, problemas nos nervos dos braços ou das pernas com sintomas como 
+dormência, diminuição ou aumento da sensibilidade, formigueiros, ardor com sensação dolorosa 
+(neuropatia sensorial periférica) </p>
+</li>
+<li>
+<p>sensação de tudo a andar à roda (vertigens) </p>
+</li>
+<li>
+<p>nódoas negras </p>
+</li>
+<li>
+<p>líquido à volta do pulmão (derrame pleural), inflamação da garganta, inflamação ou dor da 
+laringe, soluços </p>
+</li>
+<li>
+<p>hemorragia na boca, sensação de distensão abdominal, boca seca </p>
+</li>
+<li>
+<p>um tipo de erupção na pele com manchas vermelhas e, por vezes, com áreas roxas ou com 
+bolhas no centro (eritema multiforme), acne, erupção na pele, pele seca </p>
+</li>
+<li>
+<p>dor muscular </p>
+</li>
+<li>
+<p>dor do trato urinário </p>
+</li>
+<li>
+<p>dor no peito não relacionada com problemas de coração, dor </p>
+</li>
+<li>
+<p>aumento do nível de fosfatase alcalina no sangue (o médico verificará isto) </p>
+</li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>afeção com risco de vida após infeção na circulação sanguínea (choque séptico) </p>
+</li>
+<li>
+<p>um cancro diferente causado pelo tratamento quimioterapêutico (segunda neoplasia maligna) </p>
+</li>
+<li>
+<p>aumento da acidez do sangue </p>
+</li>
+<li>
+<p>função anormal do cérebro (encefalopatia), agitação, movimentos repetitivos ou involuntários e 
+fala rápida (doença extrapiramidal), desmaio, sensação de formigueiros, picadas ou dormência 
+(parestesia) </p>
+</li>
+<li>
+<p>olho seco </p>
+</li>
+<li>
+<p>o coração não bombeia o sangue suficiente para as necessidades do corpo (insuficiência 
+cardíaca), ataque de coração, líquido no saco que envolve o coração (derrame pericárdico) </p>
+</li>
+<li>
+<p>bloqueio de um vaso de sangue (embolia) </p>
+</li>
+<li>
+<p>dor de garganta, rouquidão, tosse </p>
+</li>
+<li>
+<p>hemorragia gastrointestinal, inflamação do cólon, inflamação do esófago, inflamação do ânus </p>
+</li>
+<li>
+<p>lesão do fígado causada por medicamentos, aumento de volume do fígado </p>
+</li>
+<li>
+<p>inflamação da pele (dermatite), morte do tecido da pele, úlcera de pele, pigmentação cor de 
+bronze da pele </p>
+</li>
+<li>
+<p>insuficiência dos rins, inflamação da bexiga com hemorragia (cistite hemorrágica), dor ao urinar 
+(disúria) </p>
+</li>
+<li>
+<p>aumento do nível de desidrogenase láctica no sangue (uma substância que indica lesão dos 
+tecidos ou das células) </p>
+</li>
+</ul>
+<p>Crianças e adolescentes </p>
+<p>Uma lista de todos os outros efeitos indesejáveis é apresentada a seguir de acordo com a sua 
+frequência. </p>
+<p>Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>inflamação da mucosa especialmente na boca (com úlceras), diarreia, náuseas, vómitos, dor 
+abdominal </p>
+</li>
+<li>
+<p>lesão do fígado </p>
+</li>
+<li>
+<p>comichão, queda de cabelo </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>aumento do nível no sangue de uma enzima do fígado (ALT) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>dor de garganta, hemorragia do nariz </p>
+</li>
+<li>
+<p>dificuldade em engolir, inflamação do ânus, dor na boca </p>
+</li>
+<li>
+<p>vermelhidão e descamação da maior parte da pele do corpo (dermatite esfoliativa), um tipo de 
+erupção na pele com manchas vermelhas planas ou com elevações vermelhas na pele (erupção 
+na pele maculopapular), erupção na pele, vermelhidão da pele (eritema), urticária, dor na pele, 
+pigmentação cor de bronze da pele </p>
+</li>
+<li>
+<p>arrepios </p>
+</li>
+<li>
+<p>aumento do nível no sangue de uma enzima do fígado (AST) e da bilirrubina (um pigmento do 
+fígado, muitas vezes um sinal de problemas no fígado), aumento da proteína C-reativa (um 
+marcador de inflamação no organismo) </p>
+</li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>um cancro diferente causado pelo tratamento quimioterapêutico (segunda neoplasia maligna) </p>
+</li>
+<li>
+<p>diminuição das contagens dos glóbulos brancos com febre (neutropenia febril) </p>
+</li>
+<li>
+<p>menos ácido do que é normal no sangue (alcalose), nível anormal de eletrólitos no sangue, 
+diminuição do nível de magnésio no sangue, diminuição do apetite </p>
+</li>
+<li>
+<p>convulsões, sensação de formigueiros, picadas ou dormência (parestesia) </p>
+</li>
+<li>
+<p>hemorragia no olho, olho seco </p>
+</li>
+<li>
+<p>derrame de líquido dos capilares (pequenos vasos sanguíneos), tensão arterial elevada, tensão 
+arterial baixa </p>
+</li>
+<li>
+<p>diminuição do fornecimento de oxigénio a zonas do corpo (hipoxia), tosse </p>
+</li>
+<li>
+<p>inflamação do cólon, indisposição de estômago, inflamação do revestimento do reto, dor nas 
+gengivas, dor no esófago, prisão de ventre </p>
+</li>
+<li>
+<p>aumento de volume do fígado </p>
+</li>
+<li>
+<p>úlcera na pele, um tipo de erupção na pele com manchas vermelhas e, por vezes, com áreas 
+roxas com bolhas no centro (eritema multiforme), uma doença da pele com bolhas cheias de 
+líquido (dermatite bolhosa), acne, síndrome mão-pé (palmas das mãos ou plantas dos pés com 
+formigueiros, dormência, inchaço doloroso ou vermelhas), erupção na pele na zona das fraldas 
+com formação de úlceras na área em redor do ânus </p>
+</li>
+<li>
+<p>dor nos braços ou pernas </p>
+</li>
+<li>
+<p>diminuição da função dos rins, insuficiência dos rins, inflamação da bexiga (cistite), sangue na 
+urina </p>
+</li>
+<li>
+<p>vermelhidão da pele do escroto, dor no pénis </p>
+</li>
+<li>
+<p>acumulação de fluidos nos tecidos o que causa inchaço do rosto, fadiga, dor </p>
+</li>
+<li>
+<p>aumento do nível no sangue de uma enzima do fígado (gama-glutamil transferase) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar trecondi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar trecondi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Condições de conservação do medicamento após reconstituição, ver a informação que se segue 
+destinada aos profissionais de saúde. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Trecondi 
+A substância ativa é o treossulfano. Este medicamento não contém outros componentes. </p>
+<p>Trecondi 1 g pó para solução para perfusão 
+1 frasco para injetáveis de pó contém 1 g de treossulfano. </p>
+<p>Trecondi 5 g pó para solução para perfusão 
+1 frasco para injetáveis de pó contém 5 g de treossulfano. </p>
+<p>Após a reconstituição, 1 ml da solução contém 50 mg de treossulfano. </p>
+<p>Qual o aspeto de Trecondi e conteúdo da embalagem 
+Pó cristalino branco num frasco para injetáveis de vidro com uma rolha de borracha e uma cápsula de 
+fecho de alumínio. 
+Trecondi é apresentado em embalagens contendo cada 1 ou 5 frascos para injetáveis (vidro tipo I). </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+medac 
+Gesellschaft für klinische Spezialpräparate mbH 
+Theaterstr. 6 
+22880 Wedel 
+Alemanha 
+Tel.:<br />
++49 4103 8006-0 
+Fax:<br />
++49 4103 8006-E-mail: contact@medac.de </p>
+<p>Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt;&lt;{mês AAAA}&gt;. </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -901,6 +1414,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-133076b034a4711dfc1fe81f7acd828f"
 * entry[0].resource = composition-da-133076b034a4711dfc1fe81f7acd828f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp133076b034a4711dfc1fe81f7acd828f"
+* entry[=].resource = mp133076b034a4711dfc1fe81f7acd828f
+                            
+                    
+Instance: bundlepackageleaflet-pt-133076b034a4711dfc1fe81f7acd828f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trecondi Package Leaflet for language pt"
+Description: "ePI document Bundle for trecondi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-133076b034a4711dfc1fe81f7acd828f"
+* entry[0].resource = composition-pt-133076b034a4711dfc1fe81f7acd828f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp133076b034a4711dfc1fe81f7acd828f"
@@ -1002,6 +1537,18 @@ RuleSet: 133076b034a4711dfc1fe81f7acd828fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-133076b034a4711dfc1fe81f7acd828f) // trecondi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

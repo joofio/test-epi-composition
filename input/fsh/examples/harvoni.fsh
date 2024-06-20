@@ -988,6 +988,575 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-52f798a2a01bd37d07b0ffeba290b5e0
+InstanceOf: CompositionUvEpi
+Title: "Composition for harvoni Package Leaflet"
+Description:  "Composition for harvoni Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp52f798a2a01bd37d07b0ffeba290b5e0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - harvoni"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se Harvoni foi prescrito para o seu filho, tenha em conta que todas as informações neste folheto 
+são aplicáveis ao seu filho (neste caso, leia “o seu filho" em vez de “você"). </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Harvoni e para que é utilizado 
+2. O que precisa de saber antes de tomar Harvoni 
+3. Como tomar Harvoni 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Harvoni 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é harvoni e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é harvoni e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Harvoni é um medicamento que contém as substâncias ativas ledipasvir e sofosbuvir. Harvoni é 
+administrado para tratar a infeção crónica (prolongada) pelo vírus da hepatite C em adultos e crianças 
+com 3 anos de idade ou mais velhas. </p>
+<p>A hepatite C é uma infeção do fígado causada por um vírus. As substâncias ativas presentes no 
+medicamento atuam em conjunto bloqueando duas proteínas diferentes que o vírus necessita para 
+crescer e reproduzir-se, permitindo que a infeção seja eliminada permanentemente do organismo. </p>
+<p>Harvoni é por vezes tomado com outro medicamento, a ribavirina. </p>
+<p>É muito importante que também leia os folhetos informativos dos outros medicamentos que tomará 
+com Harvoni. Se tiver quaisquer dúvidas sobre os seus medicamentos, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar harvoni"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar harvoni"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Harvoni </p>
+<ul>
+<li>
+<p>Se tem alergia ao ledipasvir, ao sofosbuvir, ou a qualquer outro componente deste 
+medicamento (indicados na secção 6 deste folheto). </p>
+</li>
+<li>
+<p>Se estiver a tomar presentemente qualquer um dos seguintes medicamentos: </p>
+</li>
+<li>
+<p>rifampicina e rifabutina (antibióticos utilizados para tratar infeções, incluindo a 
+tuberculose); </p>
+</li>
+<li>
+<p>Hipericão (medicamento à base de plantas utilizado para tratar a depressão); </p>
+</li>
+<li>
+<p>carbamazepina, fenobarbital e fenitoína (medicamentos utilizados para tratar a 
+epilepsia e evitar convulsões); </p>
+</li>
+<li>
+<p>rosuvastatina (um medicamento utilizado para tratar o colesterol elevado). </p>
+</li>
+</ul>
+<p> Se alguma destas condições for aplicável a si, não tome Harvoni e informe imediatamente o seu 
+médico. </p>
+<p>Advertências e precauções </p>
+<p>O seu médico saberá se qualquer uma das seguintes condições se aplica a si. Estas serão consideradas 
+antes de ser iniciado o tratamento com Harvoni. </p>
+<ul>
+<li>
+<p>Outros problemas de fígado além da hepatite C, por exemplo </p>
+</li>
+<li>
+<p>se estiver em lista de espera para um transplante de fígado; </p>
+</li>
+<li>
+<p>se tem uma infeção atual ou anterior pelo vírus da hepatite B, uma vez que o seu médico 
+pode querer controlá-lo mais frequentemente; </p>
+</li>
+<li>
+<p>Problemas de rins ou se estiver a fazer diálise renal, porque Harvoni não foi completamente 
+estudado em doentes com problemas graves de rins; </p>
+</li>
+<li>
+<p>Tratamento em curso para uma infeção pelo VIH, porque o seu médico pode querer 
+controlá-lo mais frequentemente. </p>
+</li>
+</ul>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Harvoni se: </p>
+<ul>
+<li>
+<p>toma atualmente, ou tomou nos últimos meses, o medicamento amiodarona para o tratamento de 
+frequências cardíacas irregulares, uma vez que pode causar uma redução da sua frequência 
+cardíaca potencialmente fatal. O seu médico pode considerar tratamentos diferentes no caso de 
+ter tomado este medicamento. Se o tratamento com Harvoni for necessário, poderá necessitar de 
+monitorização cardíaca adicional. </p>
+</li>
+<li>
+<p>tem diabetes. Após o início do tratamento com Harvoni poderá necessitar de um controlo mais 
+rigoroso dos seus níveis de glucose no sangue e/ou um ajuste da sua medicação para a diabetes. 
+Alguns doentes com diabetes apresentaram níveis baixos de açúcar no sangue (hipoglicemia) 
+após o início do tratamento com medicamentos como Harvoni. </p>
+</li>
+</ul>
+<p>Informe o seu médico imediatamente se estiver atualmente a tomar, ou tiver tomado nos últimos 
+meses, quaisquer medicamentos para problemas cardíacos e se, durante o tratamento, sofrer de: </p>
+<ul>
+<li>
+<p>frequência cardíaca lenta ou irregular, ou problemas no ritmo cardíaco; </p>
+</li>
+<li>
+<p>falta de ar ou agravamento de falta de ar existente; </p>
+</li>
+<li>
+<p>dor no peito; </p>
+</li>
+<li>
+<p>tonturas; </p>
+</li>
+<li>
+<p>palpitações; </p>
+</li>
+<li>
+<p>quase desmaio ou desmaio. </p>
+</li>
+</ul>
+<p>Análises ao sangue </p>
+<p>O seu médico fará análises ao seu sangue antes, durante e depois do seu tratamento com Harvoni. Isto 
+para que: </p>
+<ul>
+<li>
+<p>O seu médico possa decidir se deverá tomar Harvoni e durante quanto tempo; </p>
+</li>
+<li>
+<p>O seu médico possa confirmar que o seu tratamento funcionou e que já não tem o vírus da 
+hepatite C. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes </p>
+<p>Não administre este medicamento a crianças com menos de 3 anos de idade. A utilização de Harvoni 
+em crianças com menos de 3 anos de idade não foi ainda estudada. </p>
+<p>Outros medicamentos e Harvoni </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.  </p>
+<p>Varfarina e outros medicamentos semelhantes designados antagonistas da vitamina K utilizados para 
+tornar o sangue mais fluido. O seu médico poderá necessitar de aumentar a frequência das suas 
+análises ao sangue para verificar se o sangue coagula corretamente. </p>
+<p>A função do seu fígado pode alterar-se com o tratamento da hepatite C e, portanto, pode afetar outros 
+medicamentos (p. ex., medicamentos usados para suprimir o seu sistema imunitário, etc.). O seu 
+médico pode precisar de monitorizar atentamente estes outros medicamentos que está a tomar e fazer 
+ajustes depois de começar a tomar Harvoni. </p>
+<p>Caso tenha dúvidas sobre a toma de outros medicamentos, fale com o seu médico ou farmacêutico. </p>
+<p>Alguns medicamentos não devem ser tomados com Harvoni. </p>
+<ul>
+<li>
+<p>Não tome nenhum outro medicamento que contenha sofosbuvir, uma das substâncias 
+ativas de Harvoni. </p>
+</li>
+<li>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar qualquer um dos medicamentos 
+abaixo: </p>
+</li>
+<li>
+<p>amiodarona, utilizada para o tratamento de frequências cardíacas irregulares </p>
+</li>
+<li>
+<p>tenofovir disoproxil fumarato ou qualquer medicamento contendo tenofovir disoproxil 
+fumarato, utilizado para tratar a infeção pelo VIH </p>
+</li>
+<li>
+<p>digoxina utilizada para tratar doenças cardíacas </p>
+</li>
+<li>
+<p>dabigatrano utilizado para tornar o sangue mais fluido </p>
+</li>
+<li>
+<p>estatinas utilizadas para tratar o colesterol elevado </p>
+</li>
+<li>
+<p>rifapentina (antibiótico utilizado para tratar infeções, incluindo a tuberculose) </p>
+</li>
+<li>
+<p>oxcarbazepina (um medicamento utilizado para tratar a epilepsia e evitar convulsões) </p>
+</li>
+<li>
+<p>tipranavir (utilizado para tratar a infeção pelo VIH). </p>
+</li>
+</ul>
+<p>A toma de Harvoni com qualquer um destes medicamentos pode impedir que os seus medicamentos 
+atuem corretamente ou pode agravar quaisquer efeitos indesejáveis. O seu médico pode ter de lhe dar 
+um medicamento diferente ou ter de ajustar as doses dos medicamentos que está a tomar. </p>
+<ul>
+<li>
+<p>Peça aconselhamento ao seu médico ou farmacêutico se tomar medicamentos utilizados para 
+tratar úlceras de estômago, azia ou refluxo de ácido. Estes incluem: </p>
+</li>
+<li>
+<p>antiácidos (tais como hidróxido de alumínio/hidróxido de magnésio ou carbonato de 
+cálcio). Estes devem ser tomados pelo menos 4 horas antes ou 4 horas depois de Harvoni; </p>
+</li>
+<li>
+<p>inibidores da bomba de protões (tais como omeprazol, lansoprazol, rabeprazol, 
+pantoprazol e esomeprazol). Estes devem ser tomados na mesma altura que Harvoni. Não 
+tome inibidores da bomba de protões antes de Harvoni. O seu médico pode dar-lhe um 
+medicamento diferente ou ajustar a dose do medicamento que está a tomar; </p>
+</li>
+<li>
+<p>antagonistas dos recetores H2 (tais como famotidina, cimetidina, nizatidina ou ranitidina). 
+O seu médico pode dar-lhe um medicamento diferente ou ajustar a dose do medicamento 
+que está a tomar. 
+Estes medicamentos podem diminuir a quantidade de ledipasvir no seu sangue. Se estiver a tomar um 
+destes medicamentos, o seu médico dar-lhe-á um medicamento diferente para úlceras de estômago, 
+azia ou refluxo de ácido, ou aconselhará sobre como e quando tomar esse medicamento. </p>
+</li>
+</ul>
+<p>Gravidez e contraceção </p>
+<p>Desconhecem-se quais são os efeitos de Harvoni durante a gravidez. Se está grávida, se pensa estar 
+grávida ou planeia engravidar, consulte o seu médico antes de tomar este medicamento. </p>
+<p>A gravidez tem de ser evitada se Harvoni for tomado juntamente com a ribavirina. É muito importante 
+que leia com muita atenção a secção "Gravidez" do folheto informativo da ribavirina. A ribavirina 
+pode ser muito prejudicial para um feto. Por conseguinte, têm de ser tomadas precauções especiais nas 
+relações sexuais se houver qualquer possibilidade de ocorrer uma gravidez. </p>
+<ul>
+<li>
+<p>Você ou o seu parceiro (ou a sua parceira) devem utilizar um método contracetivo eficaz 
+durante o tratamento com Harvoni juntamente com ribavirina e durante algum tempo depois 
+deste terminar. É muito importante que leia com muita atenção a secção “Gravidez" do folheto 
+informativo da ribavirina. Aconselhe-se junto do seu médico sobre um método contracetivo 
+eficaz adequado para si. </p>
+</li>
+<li>
+<p>Se engravidar, ou a sua parceira engravidar, durante o tratamento com Harvoni e ribavirina ou 
+nos meses que seguem, deve contactar imediatamente o seu médico. </p>
+</li>
+</ul>
+<p>Amamentação </p>
+<p>Não amamente durante o tratamento com Harvoni. Não se sabe se o ledipasvir ou o sofosbuvir, as 
+duas substâncias ativas de Harvoni, passam para o leite humano. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Caso se sinta cansado depois de tomar Harvoni, não deve participar em atividades que exijam 
+concentração, por exemplo, não conduza, não ande de bicicleta e não opere máquinas. </p>
+<p>Harvoni 90 mg/400 mg e 45 mg/200 mg comprimidos revestidos por película contém lactose </p>
+<ul>
+<li>Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes 
+de tomar este medicamento. </li>
+</ul>
+<p>Harvoni 90 mg/400 mg comprimidos revestidos por película contém amarelo-sunset FCF (E110), 
+que pode causar reações alérgicas  </p>
+<ul>
+<li>Informe o seu médico se é alérgico ao amarelo-sunset FCF, também chamado “E110", antes 
+de tomar este medicamento. </li>
+</ul>
+<p>Harvoni contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar harvoni"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar harvoni"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Dose recomendada </p>
+<p>Harvoni deve ser tomado como indicado pelo seu médico. A dose recomendada de Harvoni em 
+adultos é de um comprimido revestido por película de 90 mg/400 mg uma vez por dia. O seu 
+médico dir-lhe-á durante quantas semanas deverá tomar Harvoni. </p>
+<p>A dose recomendada de Harvoni em crianças com 3 ou mais anos de idade é baseada no peso. 
+Tome Harvoni como indicado pelo seu médico.  </p>
+<p>Engula o(s) comprimido(s) inteiro(s) com ou sem alimentos. Não mastigue, esmague ou divida o 
+comprimido porque este tem um sabor muito amargo. Fale com o seu médico ou farmacêutico se tiver 
+problemas em engolir comprimidos. </p>
+<p>Se estiver a tomar um antiácido, tome-o pelo menos 4 horas antes ou pelo menos 4 horas depois de 
+Harvoni. </p>
+<p>Se estiver a tomar um inibidor da bomba de protões, tome o inibidor da bomba de protões na 
+mesma altura que Harvoni. Não o tome antes de Harvoni. </p>
+<p>Se vomitar após tomar Harvoni, pode afetar a quantidade de Harvoni no seu sangue. Isto pode fazer 
+com que Harvoni não atue tão bem. </p>
+<ul>
+<li>
+<p>Se vomitar menos de 5 horas após tomar Harvoni, tome outra dose. </p>
+</li>
+<li>
+<p>Se vomitar mais de 5 horas após tomar Harvoni, não necessita tomar outra dose até à hora 
+prevista para tomar a próxima dose. </p>
+</li>
+</ul>
+<p>Se tomar mais Harvoni do que deveria </p>
+<p>Se tomar acidentalmente mais do que a dose recomendada, deverá contactar imediatamente o seu 
+médico ou os serviços de urgência do hospital mais próximo para aconselhamento. Leve consigo o 
+frasco de comprimidos para que possa descrever facilmente o que tomou. </p>
+<p>Caso se tenha esquecido de tomar Harvoni </p>
+<p>É importante que não se esqueça de tomar nenhuma dose deste medicamento. </p>
+<p>Caso se esqueça de tomar uma dose, tente lembrar-se quanto tempo decorreu desde que tomou pela 
+última vez Harvoni: </p>
+<ul>
+<li>
+<p>Se se aperceber nas 18 horas após a hora a que habitualmente toma Harvoni, deve tomar a 
+dose logo que lhe for possível. Depois tome a dose seguinte à hora habitual. </p>
+</li>
+<li>
+<p>Se tiverem passado 18 horas ou mais após a hora a que habitualmente toma Harvoni, aguarde 
+e tome a dose seguinte à hora habitual. Não tome uma dose a dobrar (duas doses muito 
+próximas). </p>
+</li>
+</ul>
+<p>Não pare de tomar Harvoni </p>
+<p>Não pare de tomar este medicamento a menos que o seu médico lhe diga para o fazer. É muito 
+importante que termine o ciclo completo de tratamento para dar ao medicamento toda a possibilidade 
+de tratar a sua infeção pelo vírus da hepatite C. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis. Se tomar Harvoni 
+poderá ter um ou mais dos efeitos indesejáveis abaixo indicados: </p>
+<p>Efeitos indesejáveis muito frequentes 
+(podem afetar mais do que 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>sensação de cansaço </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes 
+(podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>erupção cutânea </li>
+</ul>
+<p>Outros efeitos que podem ser observados durante o tratamento com Harvoni </p>
+<p>A frequência dos seguintes efeitos indesejáveis é desconhecida (não pode ser calculada a partir dos 
+dados disponíveis). </p>
+<ul>
+<li>inchaço da face, lábios, língua ou garganta (angioedema). </li>
+</ul>
+<p>Outros efeitos que podem ser observados durante o tratamento com sofosbuvir: </p>
+<p>A frequência dos seguintes efeitos indesejáveis é desconhecida (não pode ser calculada a partir dos 
+dados disponíveis). </p>
+<ul>
+<li>uma erupção cutânea grave generalizada com pele a descamar que pode ser acompanhada por 
+febre, sintomas semelhantes aos da gripe, bolhas na boca, olhos e/ou órgãos genitais (síndrome 
+de Stevens-Johnson). </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar harvoni"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar harvoni"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Harvoni </p>
+<ul>
+<li>
+<p>As substâncias ativas são o ledipasvir e o sofosbuvir. Cada comprimido revestido por película 
+contém 90 mg de ledipasvir e 400 mg de sofosbuvir ou 45 mg de ledipasvir e 200 mg de 
+sofosbuvir. </p>
+</li>
+<li>
+<p>Os outros componentes são 
+Núcleo do comprimido: 
+Copovidona, lactose mono-hidratada, celulose microcristalina, croscarmelose sódica, sílica 
+coloidal anidra, estearato de magnésio. </p>
+</li>
+</ul>
+<p>Revestimento por película: 
+Álcool polivinílico, dióxido de titânio, macrogol, talco e, apenas para o comprimido de 
+90 mg/400 mg, amarelo-sunset FCF (E110). </p>
+<p>Qual o aspeto de Harvoni e conteúdo da embalagem </p>
+<p>Os comprimidos revestidos por película de Harvoni 90 mg/400 mg são comprimidos cor-de-laranja, 
+em forma de losango, gravados com “GSI" num lado e com “7985" no outro lado. O comprimido tem 
+aproximadamente 19 mm de comprimento e 10 mm de largura. </p>
+<p>Os comprimidos revestidos por película de Harvoni 45 mg/200 mg são brancos, em forma de cápsula, 
+gravados com “GSI" num lado e com “HRV" no outro lado. O comprimido tem aproximadamente 
+14 mm de comprimento e 7 mm de largura. </p>
+<p>Cada frasco contém um exsicante de sílica gel (agente secante) que deve ser mantido dentro do frasco 
+para proteger os seus comprimidos. O exsicante de sílica gel está contido numa saqueta ou recipiente 
+separado e não deve ser engolido. 
+Estão disponíveis as seguintes apresentações: </p>
+<ul>
+<li>
+<p>embalagens exteriores contendo 1 frasco de 28 comprimidos revestidos por película para os 
+comprimidos revestidos por película de 90 mg/400 mg e de 45 mg/200 mg. </p>
+</li>
+<li>
+<p>embalagens exteriores contendo 3 frascos de 28 (84) comprimidos revestidos por película 
+apenas para os comprimidos revestidos por película de 90 mg/400 mg. É possível que não sejam 
+comercializadas todas as apresentações. </p>
+</li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrlanda </p>
+<p>Fabricante 
+Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36  </p>
+<p>Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Portugueseia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1029,6 +1598,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-52f798a2a01bd37d07b0ffeba290b5e0"
 * entry[0].resource = composition-da-52f798a2a01bd37d07b0ffeba290b5e0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp52f798a2a01bd37d07b0ffeba290b5e0"
+* entry[=].resource = mp52f798a2a01bd37d07b0ffeba290b5e0
+                            
+                    
+Instance: bundlepackageleaflet-pt-52f798a2a01bd37d07b0ffeba290b5e0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for harvoni Package Leaflet for language pt"
+Description: "ePI document Bundle for harvoni Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-52f798a2a01bd37d07b0ffeba290b5e0"
+* entry[0].resource = composition-pt-52f798a2a01bd37d07b0ffeba290b5e0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp52f798a2a01bd37d07b0ffeba290b5e0"
@@ -1130,6 +1721,18 @@ RuleSet: 52f798a2a01bd37d07b0ffeba290b5e0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-52f798a2a01bd37d07b0ffeba290b5e0) // harvoni pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

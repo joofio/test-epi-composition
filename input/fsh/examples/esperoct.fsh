@@ -1000,6 +1000,382 @@ husholdningsaffaldet.
 
 
 
+Instance: composition-pt-4235a6fbbdf6cea7a0c9802b3f2102e6
+InstanceOf: CompositionUvEpi
+Title: "Composition for esperoct Package Leaflet"
+Description:  "Composition for esperoct Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4235a6fbbdf6cea7a0c9802b3f2102e6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - esperoct"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Esperoct e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Esperoct </li>
+<li>Como utilizar Esperoct </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Esperoct </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é esperoct e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é esperoct e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Esperoct 
+Esperoct contém a substância ativa turoctocog alfa pegol e é um medicamento com fator VIII da 
+coagulação recombinante, de ação prolongada. O fator VIII é uma proteína que se encontra no sangue 
+e que ajuda a prevenir e parar hemorragias. </p>
+<p>Para que é utilizado Esperoct 
+Esperoct é utilizado para tratar e prevenir hemorragias em doentes com 12 anos de idade ou mais, com 
+hemofilia A (deficiência congénita do fator VIII). </p>
+<p>Nos doentes com hemofilia A, o fator VIII está em falta ou não atua adequadamente. Esperoct 
+substitui este fator VIII defeituoso ou em falta e ajuda o sangue a formar coágulos no local da 
+hemorragia. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar esperoct"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar esperoct"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Esperoct </p>
+<ul>
+<li>
+<p>se tem alergia à substância ativa ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). </p>
+</li>
+<li>
+<p>se tem alergia às proteínas de hamster. </p>
+</li>
+</ul>
+<p>Se alguma das situações acima se aplica a si, não utilize Esperoct. Se não tem a certeza, fale com o seu 
+médico antes de utilizar este medicamento. </p>
+<p>Advertências e precauções  </p>
+<p>Utilização anterior de medicamentos com fator VIII<br />
+Informe o seu médico se tiver utilizado anteriormente medicamentos com fator VIII, especialmente se 
+desenvolveu inibidores (anticorpos) contra o medicamento, uma vez que pode haver um risco de esta 
+situação se repetir. </p>
+<p>Reações alérgicas 
+Existe um risco de poder ter uma reação alérgica súbita e grave (p.ex. reação anafilática) a Esperoct. </p>
+<p>Interrompa a injeção e contacte o seu médico ou uma unidade de emergência imediatamente se tiver 
+sinais precoces de reações alérgicas. Estes sinais precoces podem incluir erupção na pele, urticária, 
+pápulas, comichão em áreas grandes da pele, vermelhidão e/ou inchaço dos lábios, língua, cara ou 
+mãos, dificuldade em engolir ou respirar, pieira, aperto no peito, pele pálida e fria, batimento rápido 
+do coração, ou tonturas, dor de cabeça, náuseas e vómitos. </p>
+<p>Desenvolvimento de ‘inibidores do fator VIII’ (anticorpos) 
+Os inibidores (anticorpos) podem desenvolver-se durante o tratamento com todos os medicamentos 
+com fator VIII </p>
+<ul>
+<li>
+<p>Estes inibidores, sobretudo em concentrações elevadas, impedem que o tratamento faça efeito </p>
+</li>
+<li>
+<p>O doente será cuidadosamente vigiado para verificar o desenvolvimento destes inibidores </p>
+</li>
+<li>
+<p>Se a sua hemorragia não estiver a ser controlada com Esperoct, informe o seu médico 
+imediatamente </p>
+</li>
+<li>
+<p>Não aumente a dose total de Esperoct para controlar a sua hemorragia sem falar com o seu 
+médico. </p>
+</li>
+</ul>
+<p>Problemas relacionados com o cateter 
+Se tem um cateter por onde os medicamentos podem ser injetados no seu sangue (dispositivo de 
+acesso venoso central), pode desenvolver infeções ou coágulos sanguíneos no local do cateter. </p>
+<p>Doença do coração 
+Fale com o seu médico ou farmacêutico se tem uma doença do coração ou se está em risco de ter 
+doenças do coração. </p>
+<p>Crianças 
+Esperoct não pode ser utilizado em crianças com menos de 12 anos de idade. </p>
+<p>Outros medicamentos e Esperoct 
+Informe o seu médico se estiver a utilizar, tiver utilizado recentemente, ou se vier a utilizar outros 
+medicamentos. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Esperoct não tem influência na sua capacidade para conduzir ou utilizar máquinas. </p>
+<p>Esperoct contém sódio 
+Este medicamento contém 30,5 mg de sódio (principal componente do sal de cozinha/mesa) por frasco 
+reconstituído. Isto é equivalente a 1,5% da ingestão alimentar diária máxima recomendada de sódio 
+para um adulto. </p>
+<p>Diminuição da atividade do fator VIII em doentes previamente tratados 
+Pode ocorrer uma diminuição da atividade do fator VIII no início do seu tratamento. Se pensa que o 
+seu medicamento tem menos efeito do que o esperado, fale com o seu médico. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar esperoct"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar esperoct"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com Esperoct será iniciado por um médico experiente no cuidado de doentes com 
+hemofilia A. </p>
+<p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas quanto à utilização de Esperoct. </p>
+<p>Como é administrado Esperoct 
+Esperoct é administrado através de uma injeção numa veia (por via intravenosa). Consulte as 
+"Instruções sobre como utilizar Esperoct" para obter mais informações. </p>
+<p>Quantidade a utilizar 
+O médico irá calcular a sua dose. Esta dependerá do seu peso corporal e se o medicamento é utilizado 
+para prevenir ou tratar uma hemorragia. </p>
+<p>Para prevenir hemorragias 
+Adultos e adolescentes (com 12 anos de idade ou mais): A dose recomendada é de 50 UI de Esperoct 
+por kg de peso corporal a cada 4 dias. Com base nas suas necessidades, o seu médico poderá decidir 
+alterar a dose ou a frequência com que devem ser dadas as injeções. </p>
+<p>Para tratar hemorragias 
+A dose de Esperoct é calculada dependendo do seu peso corporal e dos níveis de fator VIII a serem 
+atingidos. Os níveis alvo de fator VIII dependerão da gravidade e da localização da hemorragia. Se 
+sentir que o efeito de Esperoct não é suficiente, fale com o seu médico. </p>
+<p>Utilização em crianças e adolescentes 
+Os adolescentes (com 12 anos de idade ou mais) podem utilizar a mesma dose que os adultos. </p>
+<p>Se utilizar mais Esperoct do que deveria 
+Se utilizar mais Esperoct do que deveria, deve contactar o seu médico imediatamente. </p>
+<p>Se tiver de aumentar significativamente a sua utilização de Esperoct para parar uma hemorragia, fale 
+imediatamente com o seu médico. Para obter mais informações, consulte "Desenvolvimento de 
+‘inibidores do fator VIII’ (anticorpos)" na secção 2.<br />
+Caso se tenha esquecido de utilizar Esperoct 
+Caso se tenha esquecido de uma dose, injete a dose em falta assim que se lembre. Não injete uma dose 
+a dobrar para compensar uma dose que se esqueceu de injetar. Avance com a próxima injeção 
+conforme planeado e continue conforme aconselhado pelo seu médico. Em caso de dúvidas, contacte o 
+seu médico. </p>
+<p>Se parar de utilizar Esperoct 
+Não pare de utilizar Esperoct sem falar com o seu médico. 
+Se parar de utilizar Esperoct, pode já não estar protegido contra hemorragias ou a hemorragia que tem 
+pode não parar. Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu 
+médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Reações alérgicas (hipersensibilidade) 
+Pare imediatamente a injeção se desenvolver reações alérgicas graves e súbitas (reações anafiláticas). 
+Tem de contactar o seu médico ou uma unidade de emergência imediatamente se tiver sinais de uma 
+reação alérgica como, por exemplo: </p>
+<ul>
+<li>
+<p>dificuldade em engolir ou respirar </p>
+</li>
+<li>
+<p>pieira </p>
+</li>
+<li>
+<p>aperto no peito </p>
+</li>
+<li>
+<p>vermelhidão e/ou inchaço dos lábios, língua, cara ou mãos </p>
+</li>
+<li>
+<p>erupção na pele, erupção na pele com comichão, pápulas ou comichão </p>
+</li>
+<li>
+<p>pele pálida e fria, batimentos rápidos do coração ou tonturas (tensão arterial baixa) </p>
+</li>
+<li>
+<p>dor de cabeça, náuseas e vómitos. </p>
+</li>
+</ul>
+<p>Desenvolvimento de ‘inibidores do fator VIII’ (anticorpos) 
+Se já foi submetido a um tratamento de mais de 150 dias com fator VIII, poderão desenvolver-se 
+inibidores (anticorpos) (podem afetar até 1 em 100 pessoas). Se isto acontecer, o medicamento pode 
+deixar de fazer efeito e pode sofrer hemorragias persistentes. Se isto acontecer, deve contactar o seu 
+médico imediatamente. Consulte "Desenvolvimento de ‘inibidores do fator VIII’ (anticorpos)" na 
+secção 2.<br />
+Os seguintes efeitos indesejáveis foram observados com Esperoct </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar até mais de 1 em 10 pessoas) </p>
+<ul>
+<li>inibidores do fator VIII (anticorpos) em doentes não tratados previamente com fator VIII.  </li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>reações cutâneas no local de injeção </p>
+</li>
+<li>
+<p>comichão (prurido) </p>
+</li>
+<li>
+<p>vermelhidão na pele (eritema) </p>
+</li>
+<li>
+<p>erupção cutânea. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>reações alérgicas (hipersensibilidade). Estas podem agravar-se e colocar a vida em perigo. Para 
+mais informações, ver acima "Reações alérgicas (hipersensibilidade)". </p>
+</li>
+<li>
+<p>inibidores do fator VIII (anticorpos) em doentes previamente tratados com fator VIII. </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis possíveis (frequência desconhecida) 
+Diminuição da atividade do fator VIII na ausência de inibidores do fator VIII. </p>
+<p>Comunicação de efeitos indesejáveis<br />
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar esperoct"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar esperoct"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e nos rótulos 
+dos frascos para injetáveis e da seringa pré-cheia, após ‘VAL’. O prazo de validade corresponde ao 
+último dia do mês indicado.  </p>
+<p>Antes da reconstituição (antes do pó ser misturado com o solvente): 
+Conservar no frigorífico (2 ºC - 8 ºC). Esperoct pode ser conservado </p>
+<ul>
+<li>
+<p>à temperatura ambiente (≤ 30 °C) durante um único período que não exceda os 12 meses dentro 
+do prazo de validade do medicamento ou </p>
+</li>
+<li>
+<p>acima da temperatura ambiente (&gt; 30 ºC até 40 ºC) durante um único período que não exceda os 
+3 meses dentro do prazo de validade do medicamento. </p>
+</li>
+</ul>
+<p>Quando começar a conservar Esperoct fora do frigorífico, registe a data e a temperatura de 
+conservação no campo apropriado na embalagem do medicamento. 
+Uma vez que tenha retirado o medicamento do frigorífico, não pode voltar a conservá-lo no 
+frigorífico. Não congelar. Conservar na embalagem de origem para proteger da luz. </p>
+<p>Após a reconstituição (depois do pó ter sido misturado com o solvente - 500 UI, 1000 UI, 1500 UI, 
+2000 UI, 3000 UI): 
+Depois de ter reconstituído Esperoct, o medicamento deve ser utilizado imediatamente. Se não puder 
+utilizar a solução reconstituída imediatamente, a mesma deverá ser utilizada no prazo de </p>
+<ul>
+<li>
+<p>24 horas quando conservada no frigorífico (2 ºC - 8 ºC) ou </p>
+</li>
+<li>
+<p>4 horas a ≤ 30 ºC ou </p>
+</li>
+<li>
+<p>1 hora entre &gt; 30 ºC e 40 ºC, apenas se o medicamento tiver sido conservado acima da 
+temperatura ambiente (&gt; 30 ºC até 40 ºC) antes da reconsituição, por um período que não tenha 
+excedido os 3 meses. </p>
+</li>
+</ul>
+<p>Após a reconstituição (depois do pó ter sido misturado com o solvente - 4000 UI, 5000 UI): 
+Foi demonstrada a estabilidade química e física durante a utilização por um período de: </p>
+<ul>
+<li>
+<p>24 horas quando conservada no frigorífico (2 ºC - 8 ºC) ou </p>
+</li>
+<li>
+<p>4 horas a ≤ 30 ºC. </p>
+</li>
+</ul>
+<p>O pó no frasco para injetáveis tem um aspeto branco a esbranquiçado. Não utilize o pó se tiver uma 
+cor diferente. </p>
+<p>A solução reconstituída deve ser transparente e incolor. Não utilize a solução reconstituída se verificar 
+quaisquer partículas ou descoloração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Esperoct </p>
+<ul>
+<li>
+<p>A substância ativa é o turoctocog alfa pegol (fator VIII da coagulação humana (rADN) 
+peguilado). Cada frasco para injetáveis de Esperoct contém nominalmente 500, 1000, 1500, 
+2000, 3000, 4000 ou 5000 UI de turoctocog alfa pegol. </p>
+</li>
+<li>
+<p>Os outros componentes são L-histidina, sacarose, polissorbato 80, cloreto de sódio, 
+L-metionina, cloreto de cálcio di-hidratado, hidróxido de sódio e ácido clorídrico. </p>
+</li>
+<li>
+<p>Os ingredientes no solvente são uma solução injetável de cloreto de sódio a 9 mg/ml (0,9%) e 
+água para preparações injetáveis. </p>
+</li>
+</ul>
+<p>Após reconstituição com o solvente fornecido (solução injetável de cloreto de sódio a 9 mg/ml 
+(0,9%)), a solução injetável preparada contém 125, 250, 375, 500, 750, 1000 ou 1250 UI de 
+turoctocog alfa pegol por ml, respetivamente (com base na dosagem de turoctocog alfa pegol, ou seja, 
+500, 1000, 1500, 2000, 3000, 4000 ou 5000 UI). </p>
+<p>Qual o aspeto de Esperoct e conteúdo da embalagem 
+Esperoct está disponível em embalagens de 500 UI, 1000 UI, 1500 UI, 2000 UI, 3000, 4000 ou 
+5000 UI. Cada embalagem de Esperoct contém um frasco para injetáveis com um pó branco a 
+esbranquiçado, uma seringa pré-cheia com 4 ml de um solvente transparente incolor, uma haste do 
+êmbolo e um adaptador para frascos para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Novo Nordisk A/S 
+Novo Allé 
+DK-2880 Bagsværd, Dinamarca </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1041,6 +1417,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-4235a6fbbdf6cea7a0c9802b3f2102e6"
 * entry[0].resource = composition-da-4235a6fbbdf6cea7a0c9802b3f2102e6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4235a6fbbdf6cea7a0c9802b3f2102e6"
+* entry[=].resource = mp4235a6fbbdf6cea7a0c9802b3f2102e6
+                            
+                    
+Instance: bundlepackageleaflet-pt-4235a6fbbdf6cea7a0c9802b3f2102e6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for esperoct Package Leaflet for language pt"
+Description: "ePI document Bundle for esperoct Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-4235a6fbbdf6cea7a0c9802b3f2102e6"
+* entry[0].resource = composition-pt-4235a6fbbdf6cea7a0c9802b3f2102e6
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp4235a6fbbdf6cea7a0c9802b3f2102e6"
@@ -1142,6 +1540,18 @@ RuleSet: 4235a6fbbdf6cea7a0c9802b3f2102e6ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-4235a6fbbdf6cea7a0c9802b3f2102e6) // esperoct pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

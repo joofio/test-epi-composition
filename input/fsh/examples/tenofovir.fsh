@@ -1219,6 +1219,682 @@ hjemmeside https://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-ce72f1be560e316230a31ee766305b8e
+InstanceOf: CompositionUvEpi
+Title: "Composition for tenofovir Package Leaflet"
+Description:  "Composition for tenofovir Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpce72f1be560e316230a31ee766305b8e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tenofovir"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se Tenofovir disoproxil Zentiva tiver sido receitado para o seu filho, note que toda a informação 
+que consta deste folheto é dirigida ao seu filho (neste caso leia “o seu filho" em vez de “você"). </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Tenofovir disoproxil Zentiva comprimidos e para que é utilizado 
+2. O que precisa de saber antes de utilizar Tenofovir disoproxil Zentiva comprimidos 
+3. Como utilizar Tenofovir disoproxil Zentiva comprimidos 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Tenofovir disoproxil Zentiva comprimidos 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tenofovir e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tenofovir e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tenofovir disoproxil Zentiva contém a substância ativa tenofovir disoproxil. Esta substância ativa é 
+um fármaco antirretroviral ou antiviral utilizado para tratar a infeção pelo VIH ou pelo VHB ou por 
+ambos. O tenofovir é um análogo nucleótido inibidor da transcriptase reversa geralmente conhecido 
+como NRTI que atua interferindo com a atividade normal das enzimas (no VIH transcriptase reversa, 
+na hepatite B a polimerase do ADN) que são fundamentais para que os vírus se possam reproduzir. 
+Tenofovir disoproxil Zentiva deve ser sempre utilizado em associação com outros medicamentos para 
+tratar a infeção pelo VIH. </p>
+<p>Tenofovir disoproxil Zentiva 245 mg comprimidos é utilizado para tratamento da infeção pelo 
+VIH (Vírus da Imunodeficiência Humana). É adequado apenas para: </p>
+<ul>
+<li>
+<p>adultos </p>
+</li>
+<li>
+<p>adolescentes com 12 a menos de 18 anos de idade que já foram tratados com outros 
+medicamentos para o VIH que já não são totalmente eficazes devido ao desenvolvimento de 
+resistência, ou que causaram efeitos indesejáveis. </p>
+</li>
+</ul>
+<p>Tenofovir disoproxil Zentiva 245 mg comprimidos é também utilizado no tratamento da 
+hepatite B crónica, uma infeção pelo VHB (vírus da hepatite B). É adequado apenas para: </p>
+<ul>
+<li>
+<p>adultos </p>
+</li>
+<li>
+<p>adolescentes com 12 a menos de 18 anos de idade. </p>
+</li>
+</ul>
+<p>Não é necessário ter VIH para poder ser submetido a tratamento com Tenofovir disoproxil Zentiva 
+para o VHB. </p>
+<p>Este medicamento não é uma cura para a infeção pelo VIH. Enquanto tomar Tenofovir disoproxil 
+Zentiva poderá desenvolver, na mesma, infeções ou outras doenças associadas com a infeção pelo 
+VIH. </p>
+<p>Pode transmitir o VIH ou o VHB a outros, como tal, é importante tomar as precauções adequadas de 
+modo a evitar a transmissão da infeção a outros. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tenofovir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tenofovir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Tenofovir disoproxil Zentiva: 
+- se tem alergia ao tenofovir, tenofovir disoproxil fosfato ou a qualquer outro componente deste 
+medicamento indicados na secção 6.<br />
+→ Se isto se aplica a si, informe o seu médico de imediato e não tome Tenofovir disoproxil 
+Zentiva </p>
+<p>Advertências e precauções </p>
+<p>Tenofovir disoproxil Zentiva não reduz o risco de transmitir VHB a outras pessoas através de contacto 
+sexual ou contaminação com sangue. Deve continuar a tomar as devidas precauções de modo a evitar 
+a transmissão. </p>
+<p>Fale com o seu médico ou farmacêutico antes de utilizar Tenofovir disoproxil Zentiva </p>
+<ul>
+<li>Se tiver tido uma doença nos rins ou se as análises tiverem apresentado alterações 
+relativas aos seus rins. Tenofovir disoproxil Zentiva não deve ser dado a adolescentes com 
+problemas de rins já existentes. Antes de iniciar o tratamento, o seu médico pode pedir-lhe 
+análises ao sangue para avaliar a função dos seus rins. Tenofovir disoproxil Zentiva pode afetar 
+os seus rins durante o tratamento. O seu médico poderá pedir-lhe análises ao sangue durante o 
+tratamento, para verificar se os seus rins estão a funcionar corretamente. Se for um adulto, o seu 
+médico poderá aconselhá-lo a utilizar os comprimidos com menos frequência. Não diminua a 
+dose prescrita a menos que o seu médico lhe diga para o fazer. </li>
+</ul>
+<p>Tenofovir disoproxil Zentiva não é geralmente tomado com outros medicamentos que possam 
+prejudicar os seus rins (ver Outros medicamentos e Tenofovir disoproxil Zentiva). Caso isto 
+seja inevitável, o seu médico irá verificar, uma vez por semana, se os seus rins estão a funcionar 
+corretamente. </p>
+<ul>
+<li>Se tem osteoporose, tiver história de fraturas ósseas ou tiver problemas com os ossos. </li>
+</ul>
+<p>Os problemas ósseos (manifestados como dor óssea persistente ou agravada e que, por vezes, 
+resulta em fraturas) podem também ocorrer devido a lesão nas células tubulares do rim (ver 
+secção 4, Efeitos indesejáveis possíveis). Informe o seu médico se tiver dor óssea ou fraturas. </p>
+<p>Tenofovir disoproxil também pode causar a perda de massa óssea. A perda óssea mais 
+pronunciada foi observada em estudos clínicos quando os doentes foram tratados com tenofovir 
+disoproxil e um inibidor da protease potenciado. </p>
+<p>De modo geral, os efeitos de tenofovir disoproxil na saúde óssea a longo-prazo e o risco de 
+fraturas em doentes adultos e pediátricos são incertos. </p>
+<p>Alguns doentes adultos infetados pelo VIH a fazer terapêutica antirretroviral combinada podem 
+desenvolver uma doença óssea chamada osteonecrose (morte dos tecidos ósseos provocada pela falta 
+de fornecimento de sangue ao osso). A duração da terapêutica antirretroviral combinada, a utilização 
+de corticosteroides, o consumo de álcool, a imunossupressão grave, um índice de massa corporal 
+aumentado, entre outros, podem ser alguns dos inúmeros fatores de risco para o desenvolvimento 
+desta doença. Os sinais de osteonecrose são rigidez, mal-estar e dores nas articulações (especialmente 
+na anca, joelho e ombro) e dificuldade de movimentos. Informe o seu médico se notar qualquer um 
+destes sintomas.  </p>
+<ul>
+<li>Se tem ou tiver tido uma doença no fígado, incluindo hepatite, fale com o seu médico. Os 
+doentes com doença no fígado, incluindo hepatite B ou C crónica, que estejam a ser tratados 
+com medicamentos antirretrovirais, apresentam um risco superior ao normal de sofrerem </li>
+</ul>
+<p>complicações graves e potencialmente fatais ao nível do fígado. Se tem hepatite B, o seu 
+médico irá considerar exatamente o melhor tratamento para si. Se tem antecedentes de uma 
+doença no fígado ou hepatite B crónica, o seu médico pedir-lhe-á análises ao sangue para 
+monitorizar a sua função hepática. </p>
+<ul>
+<li>Esteja atento a infeções. Se tem infeção avançada pelo VIH (SIDA) e tem uma infeção, poderá 
+desenvolver sintomas de infeção e inflamação ou piorar os sintomas de uma infeção já 
+existente, assim que inicie o tratamento com Tenofovir disoproxil Zentiva. Estes sintomas 
+podem indicar que o seu sistema imunitário está melhor e está a combater a infeção. Esteja 
+atento a sinais de inflamação ou infeção assim que inicie a toma de Tenofovir disoproxil 
+Zentiva. Se se aperceber de sinais de inflamação ou infeção, informe imediatamente o seu 
+médico. </li>
+</ul>
+<p>Adicionalmente às infeções oportunistas, as doenças autoimunes (uma condição que ocorre 
+quando o sistema imunitário ataca tecidos corporais saudáveis) também podem ocorrer depois 
+de começar a tomar os medicamentos para o tratamento da sua infeção pelo VIH. As doenças 
+autoimunes podem ocorrer muitos meses após o início do tratamento. Se notar quaisquer 
+sintomas de infeção ou outros sintomas como fraqueza muscular, fraqueza a começar nas mãos 
+e nos pés e dirigindo-se em direção ao tronco, palpitações, tremores ou hiperatividade, informe 
+o seu médico imediatamente para procurar o tratamento necessário. </p>
+<ul>
+<li>Se tem mais de 65 anos, fale com o seu médico ou farmacêutico. Tenofovir disoproxil 
+Zentiva não foi estudado em doentes com mais de 65 anos de idade. Caso tenha mais de 65 anos 
+e lhe seja receitado Tenofovir disoproxil Zentiva, o seu médico irá observá-lo mais 
+frequentemente. </li>
+</ul>
+<p>Crianças e adolescentes 
+Tenofovir disoproxil Zentiva é adequado para: </p>
+<ul>
+<li>
+<p>Adolescentes infetados pelo VIH-1 com 12 a menos de 18 anos de idade que pesam pelo 
+menos 35 kg e que já foram tratados com outros medicamentos para o VIH que já não são 
+totalmente eficazes devido ao desenvolvimento de resistência, ou que causaram efeitos 
+indesejáveis. </p>
+</li>
+<li>
+<p>Adolescentes infetados pelo VHB com 12 a menos de 18 anos de idade que pesam pelo 
+menos 35 kg. </p>
+</li>
+</ul>
+<p>Tenofovir disoproxil Zentiva não é adequado para os seguintes grupos: </p>
+<ul>
+<li>
+<p>Não se destina a crianças infetadas pelo VIH com menos de 12 anos de idade. </p>
+</li>
+<li>
+<p>Não se destina a crianças infetadas pelo VHB com menos de 12 anos de idade. </p>
+</li>
+</ul>
+<p>Posologia, ver secção 3, Como tomar Tenofovir disoproxil Zentiva. </p>
+<p>Outros medicamentos e Tenofovir disoproxil Zentiva 
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a utilizar, tiver utilizado recentemente, 
+ou se vier a utilizar outros medicamentos, incluindo medicamentos obtidos sem receita médica. </p>
+<ul>
+<li>
+<p>Não interrompa outros medicamentos anti-VIH, prescritos pelo seu médico, quando iniciar o 
+tratamento com Tenofovir disoproxil Zentiva se tiver infeção pelo VIH e pelo VHB. </p>
+</li>
+<li>
+<p>Não tome Tenofovir disoproxil Zentiva se já estiver a tomar outros medicamentos contendo 
+tenofovir disoproxil ou tenofovir alafenamida. Não tome Tenofovir disoproxil Zentiva 
+juntamente com medicamentos contendo adefovir dipivoxil (um medicamento utilizado no 
+tratamento da hepatite B crónica). </p>
+</li>
+<li>
+<p>É muito importante informar o seu médico se estiver a tomar outros medicamentos que 
+possam prejudicar os seus rins. </p>
+</li>
+</ul>
+<p>Estes incluem: </p>
+<p>‐ 
+aminoglicosídeos, pentamidina ou vancomicina (para infeções bacterianas) 
+‐ 
+anfotericina B (para infeções fúngicas) 
+‐ 
+foscarneto, ganciclovir ou cidofovir (para infeções virais) 
+‐ 
+interleucina-2 (para tratamento do cancro) 
+‐ 
+adefovir dipivoxil (para VHB) 
+‐ 
+tacrolímus (supressor do sistema imunitário) 
+‐ 
+anti-inflamatórios não esteroides (AINEs, para aliviar a dor óssea ou a dor muscular) </p>
+<ul>
+<li>
+<p>Outros medicamentos que contêm didanosina (para infeção pelo VIH): Tomar Tenofovir 
+disoproxil Zentiva com outros medicamentos antivirais que contêm didanosina pode aumentar 
+os níveis de didanosina no seu sangue e pode reduzir as contagens de células CD4. Foram 
+notificadas, raramente, inflamação do pâncreas e acidose láctica (excesso de ácido láctico no 
+sangue), que ocasionalmente causou morte, quando foram tomados em conjunto medicamentos 
+contendo tenofovir disoproxil e didanosina. O seu médico irá considerar cuidadosamente se 
+deverá tratá-lo com associações de tenofovir e didanosina. </p>
+</li>
+<li>
+<p>Também é importante que informe o seu médico se estiver a tomar ledipasvir/sofosbuvir, 
+sofosbuvir/velpatasvir ou sofosbuvir/velpatasvir/voxilaprevir para tratar a infeção por hepatite C. </p>
+</li>
+</ul>
+<p>Tenofovir disoproxil Zentiva com alimentos e bebidas </p>
+<p>Tome Tenofovir disoproxil Zentiva com alimentos (por exemplo, uma refeição ou um lanche). </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<ul>
+<li>
+<p>Se tomou Tenofovir disoproxil Zentiva durante a gravidez, o seu médico pode pedir-lhe para 
+efetuar análises ao sangue e outros testes de diagnóstico regulares para verificar o 
+desenvolvimento da sua criança. Nas crianças cujas mães tomaram NRTIs durante a gravidez, o 
+benefício da menor possibilidade de infeção pelo VIH é superior ao risco de sofrerem efeitos 
+indesejáveis. </p>
+</li>
+<li>
+<p>Se é uma mãe infetada pelo VHB e foi dado tratamento ao seu bebé para prevenir a transmissão 
+da hepatite B aquando do nascimento, poderá amamentar o seu bebé, mas fale primeiro com o 
+seu médico para obter mais informações. </p>
+</li>
+<li>
+<p>A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção 
+pelo VIH pode ser transmitida ao bebé através do leite materno. Se estiver a amamentar ou 
+planeia vir a amamentar, deve falar com o seu médico o mais rapidamente possível. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+Tenofovir disoproxil Zentiva pode causar tonturas. Se sentir tonturas enquanto estiver a tomar 
+Tenofovir disoproxil Zentiva, não conduza ou ande de bicicleta e não utilize quaisquer ferramentas 
+ou máquinas. </p>
+<p>Tenofovir disoproxil Zentiva contém lactose mono-hidratada 
+Se foi informado pelo seu médico de que é intolerante a alguns açúcares, deverá contactá-lo antes de 
+tomar este medicamento. </p>
+<p>Tenofovir disoproxil Zentiva contém sódio </p>
+<p>Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido, ou seja, é 
+praticamente isento de sódio. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tenofovir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tenofovir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o 
+seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é: </p>
+<ul>
+<li>
+<p>Adultos: 1 comprimido por dia com alimentos (por exemplo, uma refeição ou um lanche). </p>
+</li>
+<li>
+<p>Adolescentes com 12 a menos de 18 anos de idade que pesam pelo menos 35 kg: 1 
+comprimido por dia com alimentos (por exemplo, uma refeição ou um lanche). </p>
+</li>
+</ul>
+<p>Se tiver dificuldade particular em engolir, pode desfazer o comprimido com a ajuda de uma colher. 
+Em seguida, dissolva o pó em cerca de 100 ml (meio copo) de água, sumo de laranja ou sumo de uva e 
+beba imediatamente. </p>
+<ul>
+<li>
+<p>Tomar sempre a dose recomendada pelo seu médico. Isto para ter a certeza que o seu 
+medicamento é totalmente eficaz, e para reduzir o risco de desenvolvimento de resistência ao 
+tratamento. Não altere a dose a menos que o seu médico lhe diga para o fazer. </p>
+</li>
+<li>
+<p>Se é um adulto e tiver problemas com os seus rins, o seu médico pode aconselhá-lo a tomar 
+Tenofovir disoproxil Zentiva menos frequentemente. </p>
+</li>
+<li>
+<p>Se tiver VHB o seu médico poderá disponibilizar-lhe um teste de VIH, para verificar se está 
+infetado por ambos os vírus, VHB e VIH. </p>
+</li>
+</ul>
+<p>Consulte o folheto informativo dos outros medicamentos antirretrovirais para orientação sobre o modo 
+como tomar esses medicamentos. </p>
+<p>Se tomar mais Tenofovir disoproxil Zentiva do que deveria 
+Se acidentalmente tomar demasiados comprimidos de Tenofovir disoproxil Zentiva pode estar em 
+maior risco de ter efeitos indesejáveis possíveis com este medicamento (ver secção 4, Efeitos 
+indesejáveis possíveis). Contacte o seu médico ou aconselhe-se junto do serviço de urgência mais 
+próximo. Mantenha o frasco de comprimidos consigo para que facilmente possa descrever o que 
+tomou. </p>
+<p>Caso se tenha esquecido de tomar Tenofovir disoproxil Zentiva 
+É importante que não falhe nenhuma dose de Tenofovir disoproxil Zentiva. Caso se tenha esquecido 
+de tomar uma dose de Tenofovir disoproxil Zentiva, verifique o tempo que decorreu desde a altura em 
+que a deveria ter tomado. </p>
+<ul>
+<li>
+<p>Se tiverem decorrido menos de 12 horas após a hora em que é habitualmente tomada, tome-a 
+o mais rapidamente possível, e depois tome a sua dose seguinte à hora do costume. </p>
+</li>
+<li>
+<p>Se tiverem decorrido mais de 12 horas desde que deveria ter tomado a dose, não tome a dose 
+que falhou. Espere e tome a dose seguinte à hora do costume. Não tome uma dose a dobrar para 
+compensar um comprimido que se esqueceu de tomar. </p>
+</li>
+</ul>
+<p>Se vomitar em menos de 1 hora após a toma de Tenofovir disoproxil Zentiva, tome outro 
+comprimido. Não terá de tomar outro comprimido se tiver vomitado após 1 hora da toma de Tenofovir 
+disoproxil Zentiva. </p>
+<p>Se parar de tomar Tenofovir disoproxil Zentiva 
+Não interrompa o tratamento com Tenofovir disoproxil Zentiva sem o consentimento do seu médico. 
+Parar o tratamento com Tenofovir disoproxil Zentiva pode resultar numa diminuição da efetividade do 
+tratamento recomendado pelo seu médico. </p>
+<p>Se tiver hepatite B ou VIH e hepatite B em conjunto (coinfeção), é muito importante não parar o 
+tratamento com Tenofovir disoproxil Zentiva sem previamente consultar o seu médico. Alguns </p>
+<p>doentes apresentaram análises ao sangue ou sintomas indicativos de que a sua hepatite tinha agravado 
+após interrupção do tratamento com Tenofovir disoproxil Zentiva. Poderá necessitar de análises ao 
+sangue durante vários meses após interrupção do tratamento. Nalguns doentes com doença do fígado 
+avançada ou cirrose, a interrupção do tratamento não é recomendada pois pode levar a um 
+agravamento da sua hepatite. </p>
+<ul>
+<li>
+<p>Fale com o seu médico antes de parar de tomar Tenofovir disoproxil Zentiva por qualquer 
+razão, particularmente se detetar alguns efeitos indesejáveis ou tiver qualquer outra doença. </p>
+</li>
+<li>
+<p>Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco habituais 
+após parar o tratamento, particularmente sintomas que associaria à sua hepatite B. </p>
+</li>
+<li>
+<p>Consulte o seu médico antes de voltar a tomar Tenofovir disoproxil Zentiva em comprimidos. </p>
+</li>
+</ul>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Durante a terapêutica para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no 
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos 
+lípidos no sangue, por vezes aos próprios medicamentos para o VIH. O seu médico irá realizar testes 
+para determinar estas alterações. </p>
+<p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves possíveis: informe imediatamente o seu médico </p>
+<p>Acidose láctica (excesso de ácido láctico no sangue) é um efeito indesejável raro (pode afetar até 1 
+em 1 000 pessoas) mas grave que pode ser fatal. Os seguintes efeitos indesejáveis podem ser sinais de 
+acidose láctica: </p>
+<ul>
+<li>
+<p>respiração rápida e profunda </p>
+</li>
+<li>
+<p>sonolência </p>
+</li>
+<li>
+<p>sentir-se enjoado (náuseas), vómitos e dor de estômago </p>
+</li>
+</ul>
+<p>→ Caso pense que possa ter acidose láctica, contacte imediatamente o seu médico. </p>
+<p>Outros efeitos indesejáveis graves possíveis </p>
+<p>Os efeitos indesejáveis seguintes são pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>dor de barriga (abdómen) causada por inflamação do pâncreas, </p>
+</li>
+<li>
+<p>lesão nas células tubulares do rim. </p>
+</li>
+</ul>
+<p>Os efeitos indesejáveis seguintes são raros (podem afetar até 1 em 1 000 pessoas): </p>
+<ul>
+<li>
+<p>inflamação do rim, aumento da quantidade de urina e sentir sede, </p>
+</li>
+<li>
+<p>alterações na urina e dor nas costas causadas por problemas de rins, incluindo insuficiência 
+renal, </p>
+</li>
+<li>
+<p>perda de resistência dos ossos (com dor nos ossos e por vezes resultando em fraturas), que pode 
+ocorrer devido a lesão nas células tubulares do rim, </p>
+</li>
+<li>
+<p>fígado gordo. </p>
+</li>
+</ul>
+<p>→ Se pensa que pode ter qualquer destes efeitos indesejáveis graves, fale com o seu médico. </p>
+<p>Efeitos indesejáveis mais frequentes </p>
+<p>Os efeitos indesejáveis seguintes são muito frequentes (podem afetar mais do que 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>diarreia, </p>
+</li>
+<li>
+<p>sentir-se mal (vómitos), </p>
+</li>
+<li>
+<p>sentir-se enjoado (náuseas), </p>
+</li>
+<li>
+<p>vertigens, </p>
+</li>
+<li>
+<p>erupção cutânea, </p>
+</li>
+<li>
+<p>fraqueza. </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>diminuição do fosfato no sangue. </li>
+</ul>
+<p>Outros efeitos indesejáveis possíveis </p>
+<p>Os efeitos indesejáveis seguintes são frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>dor de cabeça, </p>
+</li>
+<li>
+<p>dor no estômago, </p>
+</li>
+<li>
+<p>cansaço, </p>
+</li>
+<li>
+<p>enfartamento, </p>
+</li>
+<li>
+<p>flatulência, </p>
+</li>
+<li>
+<p>perda de massa óssea. </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>problemas do fígado </li>
+</ul>
+<p>Os efeitos indesejáveis seguintes são pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>perda de força muscular, dor ou fraqueza muscular </li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>diminuição do potássio no sangue, </p>
+</li>
+<li>
+<p>aumento da creatinina no sangue, </p>
+</li>
+<li>
+<p>problemas do pâncreas. </p>
+</li>
+</ul>
+<p>A perda de força muscular, perda de resistência dos ossos (com dor nos ossos e por vezes resultando 
+em fraturas), dor muscular, fraqueza muscular e diminuição do potássio ou fosfato no sangue podem 
+ocorrer devido a lesão nas células tubulares do rim. </p>
+<p>Os efeitos indesejáveis seguintes são raros (podem afetar até 1 em 1 000 pessoas): </p>
+<ul>
+<li>
+<p>dor de barriga (abdómen) causada por inflamação do fígado, </p>
+</li>
+<li>
+<p>inchaço da face, lábios, língua e garganta. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar 
+efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no 
+Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
+segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tenofovir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tenofovir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco e na embalagem 
+exterior, após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Usar até 60 dias após a primeira abertura. Não conservar acima de 30ºC. Conservar na embalagem de 
+origem para proteger da humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tenofovir disoproxil Zentiva 
+‐ 
+A substância ativa é o tenofovir. Cada comprimido de Tenofovir disoproxil Zentiva contém 
+245 mg de tenofovir disoproxil (equivalente a 291,5 mg de tenofovir disoproxil fosfato). 
+‐ 
+Os outros componentes são: 
+Núcleo do comprimido: lactose mono-hidratada, celulose microcristalina, croscarmelose sódica, 
+povidona, estearato de magnésio. 
+Revestimento: lactose mono-hidratada, hipromelose, dióxido de titânio, triacetina, laca de 
+alumínio de carmim de indigo. </p>
+<p>Qual o aspeto de Tenofovir disoproxil Zentiva e conteúdo da embalagem 
+Tenofovir disoproxil Zentiva comprimidos revestidos por película são oblongos, de cor azul clara com 
+dimensões aproximadas de 17,2 x 8,2 mm. </p>
+<p>Estão disponíveis as seguintes tamanhos de embalagem: 
+A embalagem exterior contém 1 frasco de 30 comprimidos revestidos por película e 3 frascos de 
+30 comprimidos revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Para abrir o frasco pressione a tampa resistente à abertura por crianças para baixo e rode no sentido 
+contrário aos ponteiros do relógio. </p>
+<p>Cada frasco contém um exsicante de sílica gel que deve ser mantido no frasco para ajudar a proteger 
+os seus comprimidos. O exsicante de sílica gel está contido num recipiente separado e não deve ser 
+engolido. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Zentiva, k.s. 
+U Kabelovny 102 37 Prague República Checa </p>
+<p>Fabricante 
+S.C. Zentiva S.A. 
+50 Theodor Pallady Blvd. 
+Bucharest 032Roménia </p>
+<p>ou </p>
+<p>Winthrop Arzneimittel GmbH 
+Brüningstraße 65926 Frankfurt am Main 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Zentiva, k.s. 
+Tél/Tel: +32 (78) 700 PV-Belgium@zentiva.com 
+Lietuva 
+Zentiva, k.s. 
+Tel: +370 52152PV-Lithuania@zentiva.com 
+България 
+Zentiva, k.s. 
+Тел: +35924417PV-Bulgaria@zentiva.com 
+Luxembourg/Luxemburg 
+Zentiva, k.s. 
+Tél/Tel: +352 208 82PV-Luxembourg@zentiva.com 
+Česká republika 
+Zentiva, k.s. 
+Tel: +420 267 241 PV-Czech-Republic@zentiva.com 
+Magyarország 
+Zentiva Pharma Kft. 
+Tel.: +36 1 299 1PV-Hungary@zentiva.com 
+Danmark 
+Zentiva Denmark ApS 
+Tlf.: +45 787 68 PV-Denmark@zentiva.com 
+Malta 
+Zentiva, k.s. 
+Tel: +356 2034 1PV-Malta@zentiva.com 
+Deutschland 
+Zentiva Pharma GmbH 
+Tel: +49 (0) 800 53 53 PV-Germany@zentiva.com 
+Nederland 
+Zentiva, k.s. 
+Tel: +31 202 253 PV-Netherlands@zentiva.com 
+Eesti 
+Zentiva, k.s. 
+Tel: +372 52 70PV-Estonia@zentiva.com 
+Norge 
+Zentiva Denmark ApS 
+Tlf: +45 787 68 PV-Norway@zentiva.com 
+Ελλάδα 
+Zentiva, k.s. 
+Τηλ: +30 211 198 7PV-Greece@zentiva.com 
+Österreich 
+Zentiva, k.s. 
+Tel: +43 720 778 PV-Austria@zentiva.com 
+España 
+Zentiva Spain S.L.U. 
+Tel: +34 91 111 58<br />
+PV-Spain@zentiva.com 
+Polska 
+Zentiva Polska Sp. z o.o. 
+Tel: + 48 22 375 92 PV-Poland@zentiva.com 
+France 
+Zentiva France 
+Tél: +33 (0) 800 089 PV-France@zentiva.com 
+Portugal 
+Zentiva Portugal, Lda 
+Tel: +351210601PV-Portugal@zentiva.com 
+Hrvatska 
+Zentiva d.o.o. 
+Tel: +385 1 6641 PV-Croatia@zentiva.com 
+România 
+ZENTIVA S.A. 
+Tel: +4 021.304.7PV-Romania@zentiva.com 
+Ireland 
+Zentiva, k.s. 
+Tel: +353 818 882 PV-Ireland@zentiva.com 
+Slovenija 
+Zentiva, k.s. 
+Tel: +386 360 00 PV-Slovenia@zentiva.com 
+Ísland 
+Zentiva Denmark ApS 
+Sími: +354 539 5PV-Iceland@zentiva.com 
+Slovenská republika 
+Zentiva, a.s. 
+Tel: +421 2 3918 3PV-Slovakia@zentiva.com </p>
+<p>Italia 
+Zentiva Italia S.r.l. 
+Tel: +39 800081PV-Italy@zentiva.com 
+Suomi/Finland 
+Zentiva Denmark ApS 
+Puh/Tel: +358 942 598 PV-Finland@zentiva.com 
+Κύπρος 
+Zentiva, k.s. 
+Τηλ: +30 211 198 7PV-Cyprus@zentiva.com 
+Sverige 
+Zentiva Denmark ApS 
+Tel: +46 840 838 PV-Sweden@zentiva.com 
+Latvija 
+Zentiva, k.s. 
+Tel: +371 67893PV-Latvia@zentiva.com 
+United Kingdom (Northern Ireland) 
+Zentiva, k.s 
+Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1260,6 +1936,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-ce72f1be560e316230a31ee766305b8e"
 * entry[0].resource = composition-da-ce72f1be560e316230a31ee766305b8e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpce72f1be560e316230a31ee766305b8e"
+* entry[=].resource = mpce72f1be560e316230a31ee766305b8e
+                            
+                    
+Instance: bundlepackageleaflet-pt-ce72f1be560e316230a31ee766305b8e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tenofovir Package Leaflet for language pt"
+Description: "ePI document Bundle for tenofovir Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-ce72f1be560e316230a31ee766305b8e"
+* entry[0].resource = composition-pt-ce72f1be560e316230a31ee766305b8e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpce72f1be560e316230a31ee766305b8e"
@@ -1361,6 +2059,18 @@ RuleSet: ce72f1be560e316230a31ee766305b8eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-ce72f1be560e316230a31ee766305b8e) // tenofovir pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

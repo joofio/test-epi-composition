@@ -801,6 +801,440 @@ hjemmeside http://www.ema.europa.eu.  </p>         </div>"""
 
 
 
+Instance: composition-pt-5c60b262e52a5c74cf3187377ecaedde
+InstanceOf: CompositionUvEpi
+Title: "Composition for teriflunomide Package Leaflet"
+Description:  "Composition for teriflunomide Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5c60b262e52a5c74cf3187377ecaedde)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - teriflunomide"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:<br />
+1. O que é Teriflunomida Accord e para que é utilizado<br />
+2. O que precisa de saber antes de tomar Teriflunomida Accord 
+3. Como tomar Teriflunomida Accord<br />
+4. Efeitos indesejáveis possíveis<br />
+5. Como conservar Teriflunomida Accord<br />
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é teriflunomide e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é teriflunomide e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Teriflunomida Accord<br />
+Teriflunomida Accord contém a substância ativa teriflunomida que é um agente imunomodulador e 
+adapta o sistema imunitário para limitar o seu ataque ao sistema nervoso. </p>
+<p>Para que é utilizado Teriflunomida Accord 
+Teriflunomida Accord é utilizado em adultos e em crianças e adolescentes (10 ou mais anos de idade) 
+para tratar esclerose múltipla surto-remissão (EM). </p>
+<p>O que é a esclerose múltipla 
+A EM é uma doença de longo prazo que afeta o sistema nervoso central (SNC). O SNC é constituído 
+pelo cérebro e medula espinal. Na esclerose múltipla, a inflamação destrói a bainha protetora 
+(chamada mielina) que reveste os nervos no SNC. Este processo denomina-se desmielinização. Isto 
+impede o funcionamento correto dos nervos.  </p>
+<p>As pessoas com uma forma recorrente de esclerose múltipla apresentam episódios repetidos (surtos) de 
+sintomas físicos provocados por um funcionamento incorreto dos nervos. Estes sintomas variam de 
+doente para doente, mas costumam envolver: </p>
+<ul>
+<li>
+<p>dificuldade em andar </p>
+</li>
+<li>
+<p>problemas na visão </p>
+</li>
+<li>
+<p>problemas de equilíbrio. </p>
+</li>
+</ul>
+<p>Os sintomas podem desaparecer completamente depois do surto terminar, mas ao longo do tempo, 
+podem manter-se alguns problemas entre surtos. Isto pode resultar em incapacidade física que pode 
+interferir com a sua atividade diária. </p>
+<p>Como funciona Teriflunomida Accord 
+Teriflunomida Accord ajuda a proteger o sistema nervoso central contra ataques do sistema imunitário, 
+ao limitar o aumento de algumas células brancas no sangue (linfócitos). Isto limita a inflamação que 
+leva à lesão do nervo na EM. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar teriflunomide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar teriflunomide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Teriflunomida Accord:<br />
+- se tem alergia à teriflunomida ou a qualquer outro componente deste medicamento (indicados na 
+secção 6), 
+- se alguma vez desenvolveu uma erupção cutânea grave ou descamação da pele, bolhas e/ou 
+feridas na boca após tomar teriflunomida ou leflunomida, 
+- se tem problemas de fígado graves, 
+- se está grávida, se pensa estar grávida ou se está a amamentar, 
+- se sofre de qualquer problema grave que afeta o seu sistema imunitário p. ex., síndrome da 
+imunodeficiência adquirida (SIDA), 
+- se tem qualquer problema grave na medula óssea, ou se tem um número baixo de glóbulos 
+vermelhos ou brancos no sangue, ou um número baixo de plaquetas no sangue, 
+- se sofre de uma infeção grave, 
+- se tem problemas renais graves que necessitem de diálise, 
+- se tem um número excessivamente baixo de proteínas no sangue (hipoproteinemia), 
+Se não tiver a certeza, fale com o seu médico ou farmacêutico antes de tomar este medicamento.  </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar Teriflunomida Accord 
+-<br />
+se tiver problemas de fígado e/ou consome uma quantidade substancial de álcool. O seu 
+médico poderá realizar análises ao sangue para verificar o funcionamento do fígado, antes e 
+durante o tratamento. Se os resultados da análise indicarem um problema no fígado, o seu 
+médico poderá interromper o tratamento com Teriflunomida Accord. Consulte a secção 4.<br />
+-<br />
+se tiver tensão arterial alta (hipertensão), independentemente de estar ou não controlada por 
+medicamentos. Teriflunomida Accord pode provocar um aumento da tensão arterial. O seu 
+médico irá verificar a sua tensão arterial antes de começar o tratamento e regularmente a partir 
+daí. Consulte a secção 4. -<br />
+se tiver uma infeção. Antes de tomar Teriflunomida Accord, o seu médico irá assegurar-se que 
+tem glóbulos brancos e plaquetas suficientes no sangue. Como Teriflunomida Accord diminui o 
+número de células brancas no sangue, isto pode afetar a sua habilidade para lutar contra a 
+infeção. O seu médico poderá realizar análises ao sangue para verificar os seus glóbulos 
+brancos, se acha que tem uma infeção. Consulte a secção 4. -<br />
+tiver reações cutâneas graves. 
+- tiver sintomas respiratórios. 
+- tiver fraqueza, dormência e dor nas mãos e pés. 
+- vai ser vacinado. 
+- tomar leflunomida com Teriflunomida Accord. 
+- estiver a mudar de ou para Teriflunomida Accord. 
+- está prestes a fazer uma análise específica ao sangue (nível de cálcio). Podem ser detetados 
+níveis de cálcio falsamente baixos. </p>
+<p>Reações respiratórias 
+Informe o seu médico se tiver tosse inexplicável e dispneia (falta de ar). O seu médico poderá realizar 
+testes adicionais. </p>
+<p>Crianças e adolescentes 
+Teriflunomida Accord não se destina à utilização em crianças com menos de 10 anos de idade, uma 
+vez que não foi estudado em doentes com EM nesta faixa etária.  </p>
+<p>As advertências e precauções listadas acima também se aplicam a crianças. A seguinte informação é 
+importante para crianças e seus cuidadores: 
+- foi observada inflamação do pâncreas em doentes a receber teriflunomida. O médico do seu 
+filho pode fazer exames ao sangue caso suspeite de uma inflamação do pâncreas. </p>
+<p>Outros medicamentos e Teriflunomida Accord </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto inclui medicamentos obtidos sem receita médica. 
+Em particular, fale com o seu médico ou farmacêutico se estiver a tomar um dos seguintes:<br />
+- leflunomida, metotrexato e outros medicamentos que afetam o sistema imunitário (normalmente 
+chamados imunossupressores ou imunomoduladores) 
+- rifampicina (um medicamento utilizado para o tratamento da tuberculose e outras infeções) 
+- carbamazepina, fenobarbital, fenitoína para a epilepsia 
+- Hipericão ou erva de S. João (um medicamento homeopático para a depressão) 
+- repaglinida, pioglitazona, nateglinida ou rosiglitazona para a diabetes 
+-         daunorrubicina, doxorrubicina, paclitaxel, ou topotecano para o cancro 
+- duloxetina para a depressão, incontinência urinária ou doença renal na diabetes 
+- alosetron para o tratamento da diarreia grave 
+- teofilina para a asma 
+- tizanidina, um relaxante muscular 
+- varfarina, um medicamento anticoagulante que torna o sangue mais fluido para evitar a 
+formação de coágulos sanguíneos 
+- contracetivos orais (que contenham etinilestradiol e levonorgestrel) 
+- cefaclor, penicilina G, ciprofloxacina para infeções 
+- indometacina, cetoprofeno para dores ou inflamação 
+- furosemida para doença cardíaca 
+- cimetidina para redução do ácido gástrico 
+- zidovudina para a SIDA 
+-     rosuvastatina, sinvastatina, atorvastatina, pravastatina para hipercolesterolemia (colesterol alto) 
+- sulfasalazina para a doença inflamatória do intestino e artrite reumatóide 
+- colestiramina para o colesterol alto ou alívio da comichão na doença do fígado 
+- carvão ativado para reduzir a absorção de medicamentos ou outras substâncias </p>
+<p>Gravidez e amamentação<br />
+Não tome Teriflunomida Accord se estiver grávida ou se suspeitar que possa estar grávida. Se estiver 
+grávida ou engravidar enquanto estiver a tomar Teriflunomida Accord, existe um maior risco de 
+defeitos congénitos (defeitos de nascimento) para o bebé. As mulheres com potencial para engravidar 
+não devem tomar este medicamento sem utilizar métodos contracetivos eficazes. 
+Se a sua filha tiver a primeira menstruação enquanto toma Teriflunomida Accord, deverá informar o 
+médico, que fornecerá aconselhamento especializado relativamente à contraceção e o potencial risco 
+em caso de gravidez. </p>
+<p>Fale com o seu médico se planear engravidar depois de interromper o tratamento com Teriflunomida 
+Accord, uma vez que é necessário assegurar que o nível deste medicamento no seu sangue é 
+suficientemente baixo antes de tentar engravidar. Para ocorrer naturalmente, a eliminação da 
+substância ativa pode demorar até 2 anos. Este período pode ser reduzido para algumas semanas ao 
+tomar certos medicamentos que aceleram a remoção de Teriflunomida Accord do seu corpo. 
+Em qualquer caso, deve ser realizada uma análise ao sangue para confirmar, que a substância ativa foi 
+suficientemente removida do seu corpo e, é necessária uma confirmação do seu médico de que o nível 
+de Teriflunomida Accord no sangue é suficientemente baixo para permitir engravidar. </p>
+<p>Fale com o seu médico para obter mais informações sobre as análises laboratoriais. </p>
+<p>Se suspeitar de que está grávida enquanto tomar Teriflunomida Accord ou no período de dois anos 
+após a interrupção do tratamento, terá de descontinuar Teriflunomida Accord e contactar o seu médico 
+imediatamente para fazer um teste de gravidez. Se o teste confirmar a gravidez, o seu médico poderá 
+sugerir o tratamento com certos medicamentos que removem Teriflunomida Accord rapidamente e 
+suficientemente do corpo, uma vez que tal poderá diminuir o risco para o seu bebé. </p>
+<p>Contraceção<br />
+Deve utilizar um método eficaz de contraceção durante e após o tratamento com Teriflunomida 
+Accord. A teriflunomida permanece no sangue durante um longo período de tempo depois de </p>
+<p>interromper o tratamento. Mantenha a utilização de um método contracetivo eficaz depois de 
+interromper o tratamento. </p>
+<ul>
+<li>
+<p>Continue a contraceção até que o nível de Teriflunomida Accord no sangue seja suficientemente 
+baixo - o seu médico irá verificar isso. </p>
+</li>
+<li>
+<p>Fale com o seu médico para saber qual o melhor método contracetivo para si e se for necessário 
+uma alteração da contraceção. </p>
+</li>
+</ul>
+<p>Não tome Teriflunomida Accord se estiver a amamentar, uma vez que a teriflunomida é excretada no 
+leite materno. </p>
+<p>Condução de veículos e utilização de máquinas<br />
+Teriflunomida Accord pode provocar tonturas que afetam a sua capacidade de concentração e de 
+reação. Se for afetado, não conduza nem utilize máquinas. </p>
+<p>Teriflunomida Accord contém lactose 
+Teriflunomida Accord contém lactose (um tipo de açúcar). Se foi informado pelo seu médico que tem 
+intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>
+<p>Teriflunomida Accord contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar teriflunomide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar teriflunomide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com Teriflunomida Accord será supervisionado por um médico com experiência no 
+tratamento da esclerose múltipla. </p>
+<p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>Adultos 
+A dose recomendada é um comprimido de 14 mg por dia.  </p>
+<p>Crianças e adolescentes (10 ou mais anos de idade) 
+A dose depende do peso corporal: 
+- Crianças e adolescentes com peso corporal superior a 40 kg: um comprimido de 14 mg por dia. 
+- Crianças e adolescentes com peso corporal igual ou inferior a 40 kg: um comprimido de 7 mg 
+por dia. </p>
+<p>Crianças e adolescentes que atingem um peso corporal estável acima de 40 kg serão instruídos pelo 
+seu médico a mudar para um comprimido de 14 mg por dia. </p>
+<p>Via/modo de administração 
+Teriflunomida Accord é tomado por via oral. Teriflunomida Accord é tomado todos os dias, uma única 
+vez por dia, a qualquer hora.<br />
+Deve engolir o comprimido inteiro com alguma água. 
+Teriflunomida Accord pode ser tomado com ou sem alimentos.  </p>
+<p>Se tomar mais Teriflunomida Accord do que deveria<br />
+Se tiver tomado demasiado Teriflunomida Accord, fale com o seu médico imediatamente. Pode sentir 
+efeitos indesejáveis semelhantes aos descritos na secção 4 em baixo.  </p>
+<p>Caso se tenha esquecido de tomar Teriflunomida Accord 
+Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. Tome a dose 
+seguinte à hora marcada. </p>
+<p>Se parar de tomar Teriflunomida Accord <br />
+Não deixe de tomar Teriflunomida Accord nem altere a sua dose sem falar primeiro com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os seguintes efeitos indesejáveis podem surgir com este medicamento. </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Alguns efeitos indesejáveis podem ser ou tornar-se graves, se lhe ocorrer alguma destas situações, 
+informe imediatamente o seu médico. </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- inflamação do pâncreas que pode incluir sintomas como dor na região abdominal, náuseas ou 
+vómitos (a frequência é classificada como frequente em doentes pediátricos e pouco frequente 
+em doentes adultos). </p>
+<p>Pouco frequente (podem afetar até 1 em 100 pessoas) 
+- reações alérgicas que podem incluir sintomas de erupção cutânea, urticária, inchaço dos lábios, 
+língua ou face ou dificuldade em respirar súbita 
+- reações da pele severas que podem incluir sintomas de erupção cutânea, formação de bolhas, 
+febre ou úlceras na boca 
+-<br />
+infeções graves ou sépsis (um tipo de infeção potencialmente fatal) que pode incluir sintomas 
+como febre alta, tremores, arrepios, diminuição do fluxo urinário, ou confusão 
+-<br />
+inflamação dos pulmões que pode incluir sintomas de falta de ar ou tosse persistente </p>
+<p>Desconhecidas (a frequência não pode ser calculada a partir dos dados disponíveis): 
+- doença grave no fígado que pode incluir sintomas como amarelecimento da pele ou da parte 
+branca dos olhos, urina mais escura que o normal, náuseas e vómitos sem explicação, ou dor 
+abdominal </p>
+<p>Podem ocorrer outros efeitos indesejáveis com a seguinte frequência:  </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- Dor de cabeça 
+- Diarreia, enjoo 
+- Aumento da ALT (aumento nos níveis de certas enzimas hepáticas no sangue) indicado nas 
+análises 
+- Adelgaçamento dos pelos/cabelo </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- Gripe, infeção das vias respiratórias superiores, infeção do trato urinário, bronquite, sinusite, 
+garganta inflamada e sensação de desconforto ao engolir, cistite, gastroenterite viral, herpes oral, 
+infeção dentária, laringite, infeção fúngica do pé 
+- Valores laboratoriais: uma diminuição no número de glóbulos vermelhos (anemia), alterações 
+nos resultados dos testes do fígado e nos glóbulos brancos (ver secção 2), também foram 
+observados aumentos de uma enzima muscular (creatina fosfoquinase). 
+- Reações alérgicas ligeiras 
+- Sensação de ansiedade </p>
+<ul>
+<li>Sensação de picadas, fraqueza, dormência, formigueiro ou dor na parte inferior das costas ou 
+nas pernas (ciática); sensação de dormência, ardor, formigueiro ou dor nas mãos e dedos 
+(síndrome do canal cárpico);  </li>
+<li>Sentir o coração a bater  </li>
+<li>Aumento da tensão arterial </li>
+<li>Enjoo (vómitos), dor de dentes, dor abdominal superior </li>
+<li>Erupção cutânea, acne </li>
+<li>Dor nos tendões, articulações, ossos (dor musculosquelética), dor muscular </li>
+<li>Necessidade de urinar com maior frequência </li>
+<li>Menstruações abundantes </li>
+<li>Dor </li>
+<li>Falta de energia ou sentir-se cansado (astenia) </li>
+<li>Perda de peso </li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) 
+- Diminuição no número de plaquetas (trombocitopenia ligeira) 
+- Sensação ou sensibilidade aumentada, especialmente na pele; dor aguda ou pulsátil em um ou 
+mais nervos, problemas nos nervos dos braços ou pernas (neuropatia periférica) 
+- Doenças ungueais, reações cutâneas graves 
+- Dor pós-traumática 
+- Psoríase 
+- Inflamação da boca/lábios 
+- Níveis anormais de gordura (lípidos) no sangue 
+- Inflamação do cólon (colite) </p>
+<p>Raros (pode efetar até 1 em 1.000 pessoas) 
+- Inflamação ou lesão no fígado </p>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- Hipertensão respiratória </p>
+<p>Crianças (10 ou mais anos de idade) e adolescentes 
+Os efeitos indesejáveis listados acima também se aplicam a crianças e adolescentes. A seguinte 
+informação adicional é importante para crianças, adolescentes e seus cuidadores: </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- Inflamação do pâncreas </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar teriflunomide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar teriflunomide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após “EXP“. 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Teriflunomida Accord  </p>
+<p>Teriflunomida Accord 7 mg comprimidos revestidos por película 
+- A substância ativa é a teriflunomida. Cada comprimido contém 7 mg de teriflunomida. 
+- Os outros componentes são lactose monohidratada, amido de milho, celulose microcristalina, 
+glicolato de amido sódico, hidroxipropilcelulose, estearato de magnésio, sílica coloidal anidra, 
+hipromelose (E464), dióxido de titânio (E171), talco (E553b), macrogol (E1521), laca de 
+alumínio índigo carmim (E132), óxido de ferro amarelo (E172). </p>
+<p>Teriflunomida Accord 14 mg comprimidos revestidos por película 
+- A substância ativa é a teriflunomida. Cada comprimido contém 14 mg de teriflunomida. 
+- Os outros componentes são lactose monohidratada, amido de milho, celulose microcristalina, 
+glicolato de amido sódico, hidroxipropilcelulose, estearato de magnésio, sílica coloidal anidra, 
+hipromelose (E464), dióxido de titânio (E171), talco (E553b), macrogol (E1521), laca de 
+alumínio índigo carmim (E132). </p>
+<p>Qual o aspeto de Teriflunomida Accord e conteúdo da embalagem </p>
+<p>Teriflunomida Accord 7 mg comprimidos revestidos por película 
+Teriflunomida Accord 7 mg comprimidos revestidos por película (comprimidos) são comprimidos 
+revestidos por película hexagonais, de cor cinzento azulado a esverdeado claro a azul esverdeado 
+pálido, com a gravação “T1" num lado e lisos do outro lado. </p>
+<p>Teriflunomida Accord 7 mg comprimidos revestidos por película estão disponíveis em embalagens 
+exteriores contendo: 
+- 14, 28, 84 e 98 comprimidos revestidos por película em blisters de alumínio/alumínio. 
+- 14x1, 28x1, 84x1 e 98x1 comprimidos revestidos por película em blisters de alumínio/alumínio 
+perfurados de dose unitária. </p>
+<p>Teriflunomida Accord 14 mg comprimidos revestidos por película 
+Teriflunomida Accord 14 mg comprimidos revestidos por película (comprimidos) são comprimidos 
+revestidos por película pentagonais, de cor azul, com a gravação “T2" num lado e lisos do outro lado. </p>
+<p>Teriflunomida Accord 14 mg comprimidos revestidos por película estão disponíveis em embalagens 
+exteriores contendo: 
+- 28 e 84 comprimidos em blisters de alumínio/alumínio; 
+- 28x1 e 84x1 comprimidos em blisters de alumínio/alumínio perfurados de dose unitária. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado: 
+Accord Healthcare S.L.U. 
+World Trade Center,<br />
+Moll De Barcelona s/n,<br />
+Edifici Est, 6a Planta,<br />
+Barcelona, 08039, Espanha </p>
+<p>Fabricante: 
+Accord Healthcare Polska Sp. z.o.o. 
+ul.Lutomierska 50, 
+95-200, Pabianice, Polónia </p>
+<p>Accord Healthcare B.V. 
+Winthontlaan 200,<br />
+3526 KV Utrecht, Países Baixos </p>
+<p>Pharmadox Healthcare Ltd. 
+KW20A Kordin Industrial Park, 
+Paola PLA 3000, Malta </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>AT / BE / BG / CY / CZ / DE / DK / EE / ES / FI / FR / HR / HU / IE / IS / IT / LT / LV / LX / MT / 
+NL / NO / PL / PT / RO / SE / SI / SK / UK (NI) </p>
+<p>Accord Healthcare S.L.U. 
+Tel: +34 93 301 00<br />
+EL 
+Win Medica Α.Ε. 
+Τηλ: +30 210 74 88<br />
+Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -842,6 +1276,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5c60b262e52a5c74cf3187377ecaedde"
 * entry[0].resource = composition-da-5c60b262e52a5c74cf3187377ecaedde
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5c60b262e52a5c74cf3187377ecaedde"
+* entry[=].resource = mp5c60b262e52a5c74cf3187377ecaedde
+                            
+                    
+Instance: bundlepackageleaflet-pt-5c60b262e52a5c74cf3187377ecaedde
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for teriflunomide Package Leaflet for language pt"
+Description: "ePI document Bundle for teriflunomide Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5c60b262e52a5c74cf3187377ecaedde"
+* entry[0].resource = composition-pt-5c60b262e52a5c74cf3187377ecaedde
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5c60b262e52a5c74cf3187377ecaedde"
@@ -943,6 +1399,18 @@ RuleSet: 5c60b262e52a5c74cf3187377ecaeddeListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5c60b262e52a5c74cf3187377ecaedde) // teriflunomide pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

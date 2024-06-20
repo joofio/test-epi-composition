@@ -724,6 +724,406 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-b0dbf83dbdd0b6f9d3c0904a5e7ceaa4
+InstanceOf: CompositionUvEpi
+Title: "Composition for nilemdo Package Leaflet"
+Description:  "Composition for nilemdo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb0dbf83dbdd0b6f9d3c0904a5e7ceaa4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - nilemdo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Nilemdo e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Nilemdo </li>
+<li>Como tomar Nilemdo </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Nilemdo </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é nilemdo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é nilemdo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Nilemdo e como funciona </p>
+<p>Nilemdo é um medicamento que baixa os níveis do colesterol “mau" (também chamado “colesterol 
+LDL"), um tipo de gordura, no sangue. </p>
+<p>Nilemdo contém a substância ativa ácido bempedoico, que está inativa até entrar no fígado, onde passa 
+para a sua forma ativa. O ácido bempedoico diminui a produção de colesterol no fígado e aumenta a 
+remoção do colesterol LDL do sangue através do bloqueio de uma enzima (ATP citrato liase) 
+necessária à produção de colesterol. </p>
+<p>Para que é utilizado Nilemdo </p>
+<p>Nilemdo é administrado a adultos com hipercolesterolemia primária ou dislipidemia mista, que são 
+doenças que causam um nível elevado de colesterol no sangue. É administrado em complemento de 
+uma dieta redutora do colesterol. </p>
+<p>Nilemdo é administrado: </p>
+<ul>
+<li>
+<p>se tiver estado a utilizar uma estatina (como a sinvastatina, um medicamento frequentemente 
+utilizado para tratar o colesterol elevado) e sem que esse tratamento tenha reduzido 
+suficientemente o seu colesterol LDL;  </p>
+</li>
+<li>
+<p>isoladamente ou em conjunto com outros medicamentos que reduzem o colesterol quando as 
+estatinas não são toleradas ou não podem ser usadas. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar nilemdo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar nilemdo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Nilemdo </p>
+<ul>
+<li>
+<p>se tem alergia ao ácido bempedoico ou a qualquer outro componente deste medicamento 
+(indicados na secção 6); </p>
+</li>
+<li>
+<p>se está grávida; </p>
+</li>
+<li>
+<p>se está a amamentar; </p>
+</li>
+<li>
+<p>se tomar mais de 40 mg de sinvastatina por dia (outro medicamento utilizado para baixar o nível 
+do colesterol). </p>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Nilemdo: </p>
+<ul>
+<li>
+<p>se alguma vez teve gota; </p>
+</li>
+<li>
+<p>se sofre de problemas graves nos rins; </p>
+</li>
+<li>
+<p>se sofre de problemas graves no fígado.  </p>
+</li>
+</ul>
+<p>O seu médico pode fazer-lhe uma análise ao sangue antes de começar a tomar Nilemdo. Essa análise 
+serve para verificar o funcionamento do seu fígado. </p>
+<p>Crianças e adolescentes </p>
+<p>Não administre Nilemdo a crianças e adolescentes com menos de 18 anos de idade. A utilização de 
+Nilemdo não foi estudada neste grupo etário. </p>
+<p>Outros medicamentos e Nilemdo </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Em particular, informe o seu médico se estiver a tomar medicamentos 
+que contenham alguma das seguintes substâncias ativas: </p>
+<ul>
+<li>
+<p>atorvastatina, fluvastatina, pitavastatina, pravastatina, rosuvastatina, sinvastatina (utilizadas 
+para baixar o colesterol e conhecidas como estatinas). 
+O risco de doenças musculares pode aumentar ao tomar simultaneamente uma estatina e 
+Nilemdo. Informe imediatamente o seu médico sobre qualquer dor, sensibilidade ou fraqueza 
+musculares inexplicadas. </p>
+</li>
+<li>
+<p>bosentano (utilizado para tratar um problema chamado hipertensão da artéria pulmonar). </p>
+</li>
+<li>
+<p>fimasartan (utilizado para tratar a tensão arterial alta e a insuficiência cardíaca). </p>
+</li>
+<li>
+<p>asunaprevir, glecaprevir, grazoprevir, voxilaprevir (utilizados para tratar a hepatite C). </p>
+</li>
+</ul>
+<p>Gravidez e amamentação </p>
+<p>Não tome este medicamento se está grávida, a tentar engravidar ou se pensa estar grávida, visto que há 
+a possibilidade de o medicamento afetar o bebé que irá nascer. Se engravidar enquanto estiver a tomar 
+este medicamento, consulte imediatamente o seu médico e deixe de tomar Nilemdo. </p>
+<ul>
+<li>Gravidez 
+Antes de iniciar o tratamento, deve confirmar que não está grávida e que está a utilizar métodos 
+contracetivos eficazes, conforme aconselhado pelo seu médico. Se utilizar pílulas contracetivas 
+e sofrer um episódio de diarreia ou vómitos que dure mais de 2 dias, tem de utilizar um método 
+contracetivo alternativo (p. ex., preservativos, diafragma) durante 7 dias após a resolução dos 
+sintomas. </li>
+</ul>
+<p>Se, depois de ter iniciado o tratamento com Nilemdo, decidir que gostaria de engravidar, 
+informe o seu médico, visto que o seu tratamento terá de ser alterado. </p>
+<ul>
+<li>Amamentação 
+Não tome Nilemdo se estiver a amamentar porque não se sabe se Nilemdo passa para o leite 
+materno. </li>
+</ul>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Os efeitos de Nilemdo sobre a capacidade de conduzir e utilizar máquinas são nulos ou reduzidos. </p>
+<p>Nilemdo contém lactose e sódio </p>
+<p>Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar nilemdo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar nilemdo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é de um comprimido uma vez por dia. </p>
+<p>Engula o comprimido inteiro com alimentos ou entre refeições. </p>
+<p>Se tomar mais Nilemdo do que deveria </p>
+<p>Contacte imediatamente o seu médico ou farmacêutico. </p>
+<p>Caso se tenha esquecido de tomar Nilemdo </p>
+<p>Se constatar que se esqueceu: </p>
+<ul>
+<li>
+<p>de tomar a dose tardiamente no dia, tome a dose de que se esqueceu e tome a próxima dose à 
+hora programada no dia seguinte. </p>
+</li>
+<li>
+<p>de tomar a dose do dia anterior, tome o seu comprimido à hora programada e não tome outro 
+para compensar a dose de que se esqueceu. </p>
+</li>
+</ul>
+<p>Se parar de tomar Nilemdo </p>
+<p>Não pare de tomar Nilemdo sem a autorização do seu médico, dado que o seu nível de colesterol pode 
+voltar a subir. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Podem ocorrer efeitos indesejáveis com as seguintes frequências: </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>diminuição do número de glóbulos vermelhos (anemia) </p>
+</li>
+<li>
+<p>aumento dos níveis de ácido úrico no sangue, gota </p>
+</li>
+<li>
+<p>dor nos ombros, pernas, ou braços </p>
+</li>
+<li>
+<p>resultados das análises ao sangue indicativos de anomalias no fígado </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>diminuição da hemoglobina (uma proteína presente nos glóbulos vermelhos que transporta 
+oxigénio) </p>
+</li>
+<li>
+<p>aumento dos níveis de creatinina e de azoto ureico no sangue (análises laboratoriais da função 
+renal) </p>
+</li>
+<li>
+<p>diminuição da taxa de filtração glomerular (medição do funcionamento dos rins) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar nilemdo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar nilemdo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem, após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Nilemdo </p>
+<ul>
+<li>
+<p>A substância ativa é o ácido bempedoico. Cada comprimido revestido por película contém 
+180 mg de ácido bempedoico. </p>
+</li>
+<li>
+<p>Os outros componentes são: </p>
+</li>
+<li>lactose mono-hidratada (consultar o fim da secção 2, em “Nilemdo contém lactose e 
+sódio") </li>
+<li>celulose microcristalina (E460) </li>
+<li>glicolato de amido sódico (Tipo A) (consultar o fim da secção 2, em “Nilemdo contém 
+lactose e sódio") </li>
+<li>hidroxipropilcelulose (E463) </li>
+<li>estearato de magnésio (E470b) </li>
+<li>sílica coloidal anidra (E551) </li>
+<li>poli(álcool vinílico) parcialmente hidrolisado (E1203), talco (E553b), dióxido de titânio 
+(E171), macrogol/PEG (E1521) </li>
+</ul>
+<p>Qual o aspeto de Nilemdo e conteúdo da embalagem </p>
+<p>Os comprimidos revestidos por película são brancos a esbranquiçados, ovais, com a gravação “180" 
+num lado e “ESP" no outro lado. Dimensões do comprimido: 13,97 mm × 6,60 mm × 4,80 mm. </p>
+<p>Nilemdo é fornecido em blisters de plástico/alumínio em embalagens de 10, 14, 28, 30, 84, 90, 98 ou 
+100 comprimidos revestidos por película ou em blisters de dose unitária em embalagens de 10 x 1, 
+50 x 1 ou 100 x 1 comprimidos revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações no seu país. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Daiichi Sankyo Europe GmbH 
+Zielstattstrasse 81379 Munich 
+Alemanha </p>
+<p>Fabricante </p>
+<p>Daiichi Sankyo Europe GmbH 
+Luitpoldstrasse 1 
+85276 Pfaffenhofen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Daiichi Sankyo Belgium N.V.-S.A 
+Tél/Tel: +32-(0) 2 227 18 Lietuva 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+България 
+Daiichi Sankyo Europe GmbH 
+тел.: +49-(0) 89 7808 0 
+Luxembourg/Luxemburg 
+Daiichi Sankyo Belgium N.V.-S.A 
+Tél/Tel: +32-(0) 2 227 18 Česká republika 
+Zentiva, k.s. 
+Tel: +420 267 241 Magyarország 
+Daiichi Sankyo Europe GmbH 
+Tel.: +49-(0) 89 7808 0 
+Danmark 
+Daiichi Sankyo Europe GmbH 
+Tlf: +49-(0) 89 7808 0 
+Malta 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Deutschland 
+Daiichi Sankyo Deutschland GmbH 
+Tel: +49-(0) 89 7808 0 
+Nederland 
+Daiichi Sankyo Nederland B.V. 
+Tel: +31-(0) 20 4 07 20 Eesti 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Norge 
+Daiichi Sankyo Europe GmbH 
+Tlf: +49-(0) 89 7808 0 
+Ελλάδα 
+Daiichi Sankyo Europe GmbH 
+Τηλ: +49-(0) 89 7808 0 
+Österreich 
+Daiichi Sankyo Austria GmbH 
+Tel: +43 (0) 1 485 86 42 0 
+España 
+Daiichi Sankyo España, S.A. 
+Tel: +34 91 539 99 Polska 
+Daiichi Sankyo Europe GmbH 
+Tel.: +49-(0) 89 7808 0 
+France 
+Daiichi Sankyo France S.A.S. 
+Tél: +33 (0) 1 55 62 14 Portugal 
+Daiichi Sankyo Portugal, Unip. LDA 
+Tel: +351 21 4232Hrvatska 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+România 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Ireland 
+Daiichi Sankyo Ireland Ltd 
+Tel: +353-(0) 1 489 3Slovenija 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Ísland 
+Daiichi Sankyo Europe GmbH 
+Sími: +49-(0) 89 7808 0 
+Slovenská republika 
+Zentiva, a.s. 
+Tel: +421 2 3918 3Italia 
+Daiichi Sankyo Italia S.p.A. 
+Tel: +39-06 85 2Suomi/Finland 
+Daiichi Sankyo Europe GmbH 
+Puh/Tel: +49-(0) 89 7808 0 
+Κύπρος 
+Daiichi Sankyo Europe GmbH 
+Τηλ: +49-(0) 89 7808 0 
+Sverige 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Latvija 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+United Kingdom (Northern Ireland) 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 </p>
+<p>Este folheto foi revisto pela última vez em {mês de AAAA}. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -765,6 +1165,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-b0dbf83dbdd0b6f9d3c0904a5e7ceaa4"
 * entry[0].resource = composition-da-b0dbf83dbdd0b6f9d3c0904a5e7ceaa4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb0dbf83dbdd0b6f9d3c0904a5e7ceaa4"
+* entry[=].resource = mpb0dbf83dbdd0b6f9d3c0904a5e7ceaa4
+                            
+                    
+Instance: bundlepackageleaflet-pt-b0dbf83dbdd0b6f9d3c0904a5e7ceaa4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nilemdo Package Leaflet for language pt"
+Description: "ePI document Bundle for nilemdo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-b0dbf83dbdd0b6f9d3c0904a5e7ceaa4"
+* entry[0].resource = composition-pt-b0dbf83dbdd0b6f9d3c0904a5e7ceaa4
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpb0dbf83dbdd0b6f9d3c0904a5e7ceaa4"
@@ -866,6 +1288,18 @@ RuleSet: b0dbf83dbdd0b6f9d3c0904a5e7ceaa4ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-b0dbf83dbdd0b6f9d3c0904a5e7ceaa4) // nilemdo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

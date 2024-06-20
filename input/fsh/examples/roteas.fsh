@@ -698,6 +698,430 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>  
 
 
 
+Instance: composition-pt-d3bf47e7430f03a3543b0c027649dc7a
+InstanceOf: CompositionUvEpi
+Title: "Composition for roteas Package Leaflet"
+Description:  "Composition for roteas Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd3bf47e7430f03a3543b0c027649dc7a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - roteas"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Roteas e para que é utilizado 
+2. O que precisa de saber antes de tomar Roteas 
+3. Como tomar Roteas 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Roteas 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é roteas e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é roteas e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Roteas contém a substância ativa edoxabano e pertence a um grupo de medicamentos chamados 
+anticoagulantes. Este medicamento ajuda a prevenir a formação de coágulos no sangue através do 
+bloqueio da atividade do Fator Xa, que é um importante componente da formação de coágulos. </p>
+<p>Roteas é utilizado em adultos para: 
+- prevenir a formação de coágulos sanguíneos no cérebro (acidente vascular cerebral) e 
+noutros vasos sanguíneos do corpo, se tiverem uma forma irregular de rítmo cardíaco 
+chamada fibrilhação auricular não valvular e pelo menos um fator de risco adicional, tais como 
+insuficiência cardíaca, AVC anterior ou tensão arterial alta; 
+- o tratamento de coágulos sanguíneos nas veias das pernas (trombose venosa profunda) e nos 
+vasos sanguíneos dos pulmões (embolia pulmonar), e para prevenir o reaparecimento de 
+coágulos nos vasos sanguíneos das pernas e/ou pulmões. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar roteas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar roteas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Roteas: </p>
+<ul>
+<li>se tem alergia ao edoxabano ou a qualquer outro componente deste medicamento (indicados na 
+secção 6); </li>
+<li>se tiver uma hemorragia ativa; </li>
+<li>se tem uma doença ou uma situação que aumenta o risco de hemorragia grave 
+(tal como úlcera no estômago, lesão ou hemorragia no cérebro, ou cirurgia recente do cérebro 
+ou dos olhos); </li>
+<li>se está a tomar outros medicamentos para prevenir a coagulação sanguínea tais como varfarina, 
+dabigatrano, rivaroxabano, apixabano ou heparina), exceto quando estiver a mudar de 
+tratamento anticoagulante ou enquanto estiver a receber heparina através de uma linha venosa 
+ou arterial para a manter aberta; </li>
+<li>se tem uma doença no fígado que provoca aumento do risco de hemorragia; </li>
+<li>se tem tensão arterial elevada não controlada; </li>
+<li>se está grávida ou a amamentar. </li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Roteas, 
+- se tem um risco aumentado de hemorragia, como pode acontecer se tiver qualquer uma das 
+seguintes afeções: </p>
+<ul>
+<li>
+<p>doença renal em fase terminal ou se estiver a fazer diálise; </p>
+</li>
+<li>
+<p>doença grave do fígado; </p>
+</li>
+<li>
+<p>doenças hemorrágicas; </p>
+</li>
+<li>
+<p>um problema com os vasos sanguíneos na zona do fundo dos seus olhos (retinopatia); </p>
+</li>
+<li>
+<p>hemorragia recente no seu cérebro (hemorragia intracraniana ou intracerebral); </p>
+</li>
+<li>
+<p>problemas nos vasos sanguíneos do seu cérebro ou coluna vertebral; </p>
+</li>
+<li>se tiver uma válvula cardíaca mecânica. </li>
+</ul>
+<p>Roteas 15 mg é apenas para utilização quando alterar de Roteas 30 mg para um antagonista da 
+vitamina K (p. ex. varfarina) (ver secção </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar roteas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar roteas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome especial cuidado com Roteas, 
+- se sabe que tem uma doença chamada síndrome antifosfolipídica (uma doença do sistema 
+imunitário que provoca um aumento do risco de coágulos sanguíneos), informe o seu médico, 
+que decidirá se o tratamento necessita de ser alterado. </p>
+<p>Se necessitar de ser operado, 
+- é muito importante tomar Roteas antes e após a operação, exatamente às horas que o seu médico 
+lhe indicou. Se possível, Roteas deve ser interrompido pelo menos 24 horas antes de uma 
+operação. O seu médico determinará quando deverá reiniciar Roteas. 
+Em situações de emergência, o seu médico determinará as ações apropriadas em relação a 
+Roteas. </p>
+<p>Crianças e adolescentes </p>
+<p>Roteas não é recomendado em crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Roteas </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Se está a tomar: </p>
+<ul>
+<li>
+<p>alguns medicamentos para infeções causadas por fungos (por exemplo cetoconazol); </p>
+</li>
+<li>
+<p>medicamentos para tratar o batimento anormal do coração (por exemplo dronedarona, quinidina 
+e verapamilo); </p>
+</li>
+<li>
+<p>outros medicamentos para diminuir a coagulação do sangue (por exemplo heparina, clopidogrel 
+ou antagonistas da vitamina K tais como a varfarina, acenocumarol e fenprocumon ou 
+dabigatrano, rivaroxabano, apixabano); </p>
+</li>
+<li>
+<p>antibióticos (por exemplo eritromicina, claritromicina); </p>
+</li>
+<li>
+<p>medicamentos para prevenir a rejeição de órgãos após transplantação (por exemplo 
+ciclosporina); </p>
+</li>
+<li>
+<p>anti-inflamatórios e medicamentos para aliviar a dor (por exemplo naproxeno ou ácido 
+acetilsalicílico); </p>
+</li>
+<li>
+<p>medicamentos antidepressivos designados por inibidores seletivos da recaptação da serotonina 
+ou inibidores da recaptação da serotonina-norepinefrina. </p>
+</li>
+</ul>
+<p>Se alguma das situações acima se aplicar a si, informe o seu médico antes de tomar Roteas, pois 
+estes medicamentos podem aumentar os efeitos de Roteas e, portanto, a possibilidade de uma 
+hemorragia indesejável. O seu médico irá decidir se deve ser tratado com Roteas e se deve ser mantido 
+sob observação. </p>
+<p>Se está a tomar: </p>
+<ul>
+<li>
+<p>alguns medicamentos para o tratamento da epilepsia (por exemplo, fenitoína, carbamazepina, 
+fenobarbital); </p>
+</li>
+<li>
+<p>hipericão, um produto à base de plantas utilizado para a ansiedade e depressão ligeira; </p>
+</li>
+<li>
+<p>rifampicina, um antibiótico. </p>
+</li>
+</ul>
+<p>Se alguma das situações acima se aplicar a si, informe o seu médico antes de tomar Roteas, porque 
+o efeito de Roteas pode estar diminuído. O seu médico irá decidir se deve ser tratado com Roteas e se 
+deve ser mantido sob observação. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, não tome Roteas. Se houver possibilidade de poder engravidar, utilize 
+um método contracetivo fiável enquanto estiver a tomar Roteas. Se ficar grávida enquanto está a tomar 
+Roteas, fale imediatamente com o seu médico, que decidirá como tratá-la. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Os efeitos de Roteas sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Que quantidade tomar </p>
+<p>A dose recomendada é de um comprimido de 60 mg uma vez por dia. 
+- Se tiver uma função renal comprometida, a dose pode ser reduzida pelo seu médico para um 
+comprimido de 30 mg uma vez por dia; 
+- se o seu peso for igual ou inferior a 60 kg, a dose recomendada é de um comprimido de 30 mg 
+uma vez por dia; 
+- se o seu médico lhe prescreveu medicamentos conhecidos por inibidores da gp-P: 
+ciclosporina, dronedarona, eritromicina ou cetoconazol, a dose recomendada é de um 
+comprimido de 30 mg uma vez por dia. </p>
+<p>Como tomar o comprimido </p>
+<p>Engolir o comprimido, de preferência, com água. 
+Roteas pode ser tomado com ou sem alimentos. </p>
+<p>Se tem dificuldade em engolir o comprimido inteiro, fale com o seu médico sobre outras formas de 
+tomar Roteas. O comprimido pode ser esmagado e misturado com água ou puré de maçã 
+imediatamente antes de o tomar. Se necessário, o seu médico também poderá dar-lhe o comprimido de 
+Roteas esmagado através de um tubo pelo nariz (sonda nasogástrica) ou de um tubo no estômago 
+(sonda de gastrostomia). </p>
+<p>O seu médico pode alterar o seu tratamento anticoagulante do seguinte modo: </p>
+<p>Alterar de antagonistas da vitamina K (por exemplo varfarina) para Roteas 
+Pare de tomar o antagonista da vitamina K (por exemplo varfarina). O seu médico terá de lhe fazer 
+análises ao sangue e dizer-lhe quando deverá começar a tomar Roteas. </p>
+<p>Alterar de anticoagulantes orais que não são antagonistas da vitamina K (dabigatrano, rivaroxabano 
+ou apixabano) para Roteas 
+Pare de tomar os medicamentos anteriores (por exemplo dabigatrano, rivaroxabano ou apixabano) e 
+comece a tomar Roteas na altura da dose seguinte programada do anticoagulante. </p>
+<p>Alterar de anticoagulantes parentéricos (por exemplo heparina) para Roteas 
+Pare de tomar o anticoagulante (por exemplo heparina) e comece a tomar Roteas na altura<br />
+em que deveria tomar a dose seguinte do anticoagulante. </p>
+<p>Alterar de Roteas para o tratamento com anticoagulantes contendo antagonistas da vitamina K (por 
+exemplo varfarina) 
+Se estiver a tomar 60 mg de Roteas: 
+O seu médico irá dizer-lhe para reduzir a sua dose de Roteas para um comprimido de 30 mg uma vez 
+por dia e tomá-lo juntamente com um antagonista da vitamina K (por exemplo varfarina). O seu 
+médico terá de lhe fazer análises ao sangue e dizer-lhe quando deverá parar de tomar Roteas. 
+Se estiver a tomar 30 mg (dose reduzida) de Roteas: 
+O seu médico irá dizer-lhe para reduzir a sua dose de Roteas para um comprimido de 15 mg uma vez 
+por dia e tomá-lo juntamente com um antagonista da vitamina K (por exemplo varfarina). O seu 
+médico terá de lhe fazer análises ao sangue e dizer-lhe quando deverá parar de tomar Roteas. </p>
+<p>Alterar de Roteas para anticoagulantes orais que não são antagonistas da vitamina K (dabigatrano, 
+rivaroxabano ou apixabano) 
+Pare de tomar Roteas e comece a tomar o anticoagulante não antagonista da vitamina K (por exemplo 
+dabigatrano, rivaroxabano ou apixabano) na altura em que deveria tomar a dose seguinte de Roteas. </p>
+<p>Alterar de Roteas para anticoagulantes parentéricos (por exemplo heparina) 
+Pare de tomar Roteas e comece a tomar o anticoagulante parentérico (por exemplo heparina) na altura 
+em que deveria tomar a dose seguinte de Roteas. </p>
+<p>Doentes submetidos a cardioversão: </p>
+<p>Se o seu batimento cardíaco anormal tiver de ser restaurado para o normal através de um procedimento 
+chamado cardioversão, tome Roteas nas alturas indicadas pelo seu médico para prevenir coágulos de 
+sangue no cérebro e noutros vasos sanguíneos no seu corpo. </p>
+<p>Se tomar mais Roteas do que deveria </p>
+<p>Se tiver tomado demasiados comprimidos de Roteas, fale imediatamente com o seu médico. 
+Se tomar mais Roteas do que o recomendado pode ter um aumento do risco de hemorragia. </p>
+<p>Caso se tenha esquecido de tomar Roteas </p>
+<p>Deve tomar o comprimido imediatamente e, no dia seguinte, continuar com o comprimido uma vez 
+por dia, como é habitual. Não tome uma dose a dobrar, no mesmo dia, para compensar uma dose que 
+se esqueceu de tomar. </p>
+<p>Se parar de tomar Roteas </p>
+<p>Não pare de tomar Roteas sem primeiro falar com o seu médico, pois Roteas trata e previne situações 
+graves. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar roteas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar roteas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Tal como acontece com outros medicamentos semelhantes (medicamentos para reduzir a coagulação 
+do sangue), Roteas pode causar hemorragia que pode potencialmente causar risco de vida. Em alguns 
+casos, a hemorragia poderá não ser óbvia. </p>
+<p>Se tiver qualquer acontecimento hemorrágico que não para por si só, ou se tiver sinais de hemorragia 
+excessiva (sensação anormal de fraqueza, cansaço, palidez, tonturas, dores de cabeça ou um inchaço 
+inexplicável), consulte o seu médico imediatamente.<br />
+O seu médico pode decidir mantê-lo sob uma observação mais atenta ou alterar o seu medicamento. </p>
+<p>Lista global de efeitos indesejáveis possíveis: </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>dores de estômago; </p>
+</li>
+<li>
+<p>valores anormais nas análises ao fígado; </p>
+</li>
+<li>
+<p>hemorragia da pele ou debaixo da pele; </p>
+</li>
+<li>
+<p>anemia (níveis baixos de glóbulos vermelhos); </p>
+</li>
+<li>
+<p>hemorragia no nariz; </p>
+</li>
+<li>
+<p>hemorragia na vagina; </p>
+</li>
+<li>
+<p>erupção na pele; </p>
+</li>
+<li>
+<p>hemorragia nos intestinos; </p>
+</li>
+<li>
+<p>hemorragia na boca e/ou garganta; </p>
+</li>
+<li>
+<p>ter sangue na urina; </p>
+</li>
+<li>
+<p>hemorragia a seguir a uma lesão (punção); </p>
+</li>
+<li>
+<p>hemorragia no estômago; </p>
+</li>
+<li>
+<p>tonturas; </p>
+</li>
+<li>
+<p>sensação de mal estar; </p>
+</li>
+<li>
+<p>dores de cabeça; </p>
+</li>
+<li>
+<p>comichão. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>hemorragia nos olhos; </p>
+</li>
+<li>
+<p>hemorragia numa ferida cirúrgica a seguir a uma operação; </p>
+</li>
+<li>
+<p>sangue na expetoração, ao tossir; </p>
+</li>
+<li>
+<p>hemorragia no cérebro; </p>
+</li>
+<li>
+<p>outros tipos de hemorragia; </p>
+</li>
+<li>
+<p>número reduzido de plaquetas no seu sangue (o que pode afetar a coagulação); </p>
+</li>
+<li>
+<p>reação alérgica; </p>
+</li>
+<li>
+<p>urticária. </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em cada 1000 pessoas) </p>
+<ul>
+<li>
+<p>hemorragia nos músculos; </p>
+</li>
+<li>
+<p>hemorragia nas articulações; </p>
+</li>
+<li>
+<p>hemorragia no abdómen; </p>
+</li>
+<li>
+<p>hemorragia no coração; </p>
+</li>
+<li>
+<p>hemorragia no interior do crânio; </p>
+</li>
+<li>
+<p>hemorragia depois de uma operação; </p>
+</li>
+<li>
+<p>choque alérgico; </p>
+</li>
+<li>
+<p>inchaço em qualquer parte do corpo devido a uma reação alérgica. </p>
+</li>
+</ul>
+<p>Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>hemorragia nos rins, por vezes com presença de sangue na urina, levando a incapacidade de 
+funcionamento adequado dos rins (nefropatia associada aos anticoagulantes). </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e em cada 
+blister ou no frasco, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+
+
+
 
 
                     
@@ -739,6 +1163,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d3bf47e7430f03a3543b0c027649dc7a"
 * entry[0].resource = composition-da-d3bf47e7430f03a3543b0c027649dc7a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd3bf47e7430f03a3543b0c027649dc7a"
+* entry[=].resource = mpd3bf47e7430f03a3543b0c027649dc7a
+                            
+                    
+Instance: bundlepackageleaflet-pt-d3bf47e7430f03a3543b0c027649dc7a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for roteas Package Leaflet for language pt"
+Description: "ePI document Bundle for roteas Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d3bf47e7430f03a3543b0c027649dc7a"
+* entry[0].resource = composition-pt-d3bf47e7430f03a3543b0c027649dc7a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd3bf47e7430f03a3543b0c027649dc7a"
@@ -840,6 +1286,18 @@ RuleSet: d3bf47e7430f03a3543b0c027649dc7aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d3bf47e7430f03a3543b0c027649dc7a) // roteas pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

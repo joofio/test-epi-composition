@@ -1280,6 +1280,651 @@ bortskaffes. </p>
 
 
 
+Instance: composition-pt-33fea74e578b9f917fc6255f1897937f
+InstanceOf: CompositionUvEpi
+Title: "Composition for briumvi Package Leaflet"
+Description:  "Composition for briumvi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp33fea74e578b9f917fc6255f1897937f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - briumvi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Briumvi e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Briumvi </li>
+<li>Como Briumvi é administrado </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Briumvi </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é briumvi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é briumvi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Briumvi </p>
+<p>Briumvi contém a substância ativa ublituximab. É um tipo de proteína chamado anticorpo monoclonal. 
+Os anticorpos atuam atacando alvos específicos no seu organismo. </p>
+<p>Para que é utilizado Briumvi </p>
+<p>Briumvi é utilizado para tratar adultos com formas recidivantes de esclerose múltipla (EMR), em casos 
+em que o doente tem surtos (recidivas) seguidos de períodos com sintomas mais ligeiros ou sem 
+sintomas. </p>
+<p>O que é a esclerose múltipla </p>
+<p>A esclerose múltipla (EM) afeta o sistema nervoso central, especialmente os nervos do cérebro e da 
+medula espinhal. Na EM, os glóbulos brancos chamados células B que fazem parte do sistema 
+imunitário (o sistema de defesa d 
+o organismo) funcionam incorretamente e atacam uma camada protetora (chamada bainha de mielina) 
+que envolve as células nervosas, causando inflamação e lesões. A destruição da bainha de mielina 
+impede os nervos de funcionarem corretamente e provoca sintomas de EM. Os sintomas de EM 
+dependem da parte do sistema nervoso central que é afetada e podem incluir problemas da marcha e do 
+equilíbrio, fraqueza muscular, dormência, visão dupla e turva, falta de coordenação e problemas de 
+bexiga. </p>
+<p>Nas formas recidivantes de EM, o doente tem ataques repetidos dos sintomas (recidivas) que podem 
+surgir subitamente no espaço de poucas horas ou lentamente ao longo de vários dias. Os sintomas 
+desaparecem ou melhoram entre recidivas, mas os danos podem acumular-se e levar a incapacidade 
+permanente. </p>
+<p>Como é que Briumvi atua? </p>
+<p>Briumvi atua ao atacar um alvo chamado CD20 na superfície das células B. As células B são um tipo 
+de glóbulo branco que fazem parte do sistema imunitário. Na esclerose múltipla, o sistema imunitário 
+ataca a camada protetora que envolve as células nervosas. As células B estão envolvidas neste 
+processo. Briumvi visa as células B e remove-as, reduzindo, desta forma, as hipóteses de ter uma 
+recidiva, alivia os sintomas e retarda a progressão da doença. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar briumvi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar briumvi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe pode ser administrado Briumvi </p>
+<ul>
+<li>
+<p>se tem alergia ao ublituximab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). </p>
+</li>
+<li>
+<p>se tem uma infeção grave. </p>
+</li>
+<li>
+<p>se lhe disseram que tem problemas graves do sistema imunitário; ou </p>
+</li>
+<li>
+<p>se tem cancro. </p>
+</li>
+</ul>
+<p>Se não tem a certeza, fale com o seu médico antes de lhe ser administrado Briumvi. </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico antes de lhe ser administrado Briumvi se alguma das situações seguintes se 
+aplicar a si. O seu médico poderá decidir adiar o seu tratamento com Briumvi ou decidir que não pode 
+receber Briumvi se: </p>
+<ul>
+<li>
+<p>tem uma infeção. O seu médico irá aguardar até a infeção estar resolvida antes de lhe 
+administrar Briumvi. </p>
+</li>
+<li>
+<p>se alguma vez teve hepatite B ou é portador do vírus da hepatite B. Isto porque medicamentos 
+como Briumvi podem fazer com que o vírus da hepatite B volte a ficar ativo. Antes do seu 
+tratamento com Briumvi, o seu médico vai verificar se está em risco de infeção pelo vírus da 
+hepatite B. Os doentes que tiveram hepatite B ou são portadores do vírus da hepatite B farão 
+uma análise ao sangue e serão monitorizados por um médico quanto a sinais de infeção pelo 
+vírus da hepatite B. </p>
+</li>
+<li>
+<p>se recebeu recentemente uma vacina ou poderá vir a receber uma vacina em breve. </p>
+</li>
+<li>
+<p>se tem cancro ou se teve cancro no passado. O seu médico poderá decidir adiar o seu 
+tratamento. </p>
+</li>
+</ul>
+<p>Reações relacionadas com a perfusão </p>
+<ul>
+<li>
+<p>O efeito indesejável mais frequente do tratamento com Briumvi são reações relacionadas com a 
+perfusão, um tipo de reação alérgica que se desenvolve durante ou pouco depois da 
+administração de um medicamento. Estas reações podem ser graves. </p>
+</li>
+<li>
+<p>Os sintomas de uma reação relacionada com a perfusão podem incluir: 
+− 
+comichão na pele 
+− 
+urticária 
+− 
+vermelhidão da face ou pele 
+− 
+garganta irritada 
+− 
+dificuldade em respirar 
+− 
+inchaço da língua ou garganta 
+− 
+pieira 
+− 
+arrepios 
+− 
+febre 
+− 
+dor de cabeça 
+− 
+tonturas 
+− 
+sensação de desmaio 
+− 
+enjoos 
+− 
+dor abdominal (de barriga) 
+− 
+batimento cardíaco rápido. </p>
+</li>
+<li>
+<p>Informe o seu médico ou enfermeiro imediatamente se tiver ou pensa que pode ter 
+qualquer reação relacionada com a perfusão. As reações relacionadas com a perfusão podem 
+ocorrer durante a perfusão ou até 24 horas após a perfusão. </p>
+</li>
+<li>
+<p>Para reduzir o risco de uma reação relacionada com a perfusão, o seu médico irá dar-lhe outros 
+medicamentos antes de cada perfusão de Briumvi (ver secção 3) e será vigiado de perto durante 
+a perfusão. </p>
+</li>
+<li>
+<p>Se tiver uma reação relacionada com a perfusão, o seu médico poderá ter de parar ou abrandar a 
+velocidade da perfusão. </p>
+</li>
+</ul>
+<p>Infeções </p>
+<ul>
+<li>
+<p>Fale com o seu médico antes de lhe ser administrado Briumvi se tiver ou pensa que tem uma 
+infeção. O seu médico irá aguardar até a infeção estar resolvida antes de lhe administrar 
+Briumvi. </p>
+</li>
+<li>
+<p>Poderá contrair infeções mais facilmente com Briumvi. Isto deve-se ao facto de as células 
+imunitárias que são visadas pelo Briumvi também ajudarem a combater as infeções. </p>
+</li>
+<li>
+<p>Informe o seu médico ou enfermeiro imediatamente se tiver uma infeção ou algum dos 
+seguintes sinais de infeção durante ou após o tratamento com Briumvi: 
+− 
+febre ou arrepios 
+− 
+tosse que não desaparece 
+− 
+herpes (tais como herpes labial, zona ou herpes genital) </p>
+</li>
+<li>
+<p>Informe o seu médico ou enfermeiro imediatamente se pensa que a sua EM está a piorar 
+ou se notar quaisquer sintomas novos. O motivo disto é uma infeção do cérebro muito rara e 
+potencialmente fatal, chamada “leucoencefalopatia multifocal progressiva" (LMP), que pode 
+causar sintomas semelhantes aos da EM. A LMP pode ocorrer em doentes a tomar 
+medicamentos como Briumvi e outros medicamentos utilizados para tratar a EM. </p>
+</li>
+<li>
+<p>Informe o(a) seu(sua) parceiro(a) ou cuidador acerca do seu tratamento com Briumvi. Eles 
+podem notar sintomas de LMP que lhe passam despercebidos, tais como lapsos de memória, 
+dificuldade em raciocinar, dificuldade em caminhar, perda de visão, alterações na forma como 
+fala, e que o seu médico poderá ter de investigar. </p>
+</li>
+</ul>
+<p>Vacinações </p>
+<ul>
+<li>
+<p>Informe o seu médico se recebeu recentemente uma vacina ou se poderá vir a receber uma 
+vacina em breve. </p>
+</li>
+<li>
+<p>O seu médico irá verificar se precisa de alguma vacina antes de iniciar o tratamento com 
+Briumvi. Deve receber um tipo de vacina chamada vacina “viva" ou “viva atenuada" pelo 
+menos 4 semanas antes de iniciar o tratamento com Briumvi. Enquanto estiver a ser tratado com 
+Briumvi, não deve receber vacinas vivas ou vivas atenuadas até que o seu médico lhe diga que o 
+seu sistema imunitário já não está debilitado. </p>
+</li>
+<li>
+<p>Sempre que possível, deve receber outros tipos de vacina chamadas “vacinas inativadas" pelo 
+menos 2 semanas antes de iniciar o tratamento com Briumvi. Se gostaria de receber qualquer 
+vacina inativada enquanto está a ser tratado com Briumvi, fale com o seu médico. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes </p>
+<p>Briumvi não se destina a ser utilizado em crianças e adolescentes com menos de 18 anos de idade. Isto 
+porque o medicamento ainda não foi estudado neste grupo etário. </p>
+<p>Outros medicamentos e Briumvi </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Em particular, informe o seu médico: </p>
+<ul>
+<li>
+<p>se estiver a tomar, tiver tomado recentemente, ou se vier a tomar medicamentos que afetam o 
+sistema imunitário, tais como quimioterapia, imunossupressores (exceto corticosteroides) ou 
+outros medicamentos utilizados para tratar a EM. Isto porque podem ter um efeito acrescido no 
+sistema imunitário. </p>
+</li>
+<li>
+<p>se planeia receber qualquer vacinação (ver “Advertências e precauções" acima). </p>
+</li>
+</ul>
+<p>Se alguma das situações acima se aplica a si (ou se não tem a certeza), fale com o seu médico antes de 
+lhe ser administrado Briumvi. </p>
+<p>Gravidez e amamentação </p>
+<ul>
+<li>
+<p>Se está grávida, se pensa estar grávida ou planeia engravidar, informe o seu médico antes de lhe 
+ser administrado Briumvi. Isto porque Briumvi poderá atravessar a placenta e afetar o feto. </p>
+</li>
+<li>
+<p>Não utilize Briumvi se estiver grávida, a menos que tenha falado sobre isso com o seu médico. 
+O seu médico irá avaliar o seu benefício de tomar Briumvi contra o risco para o seu feto. </p>
+</li>
+<li>
+<p>Se tem um bebé e recebeu Briumvi durante a gravidez, é importante que informe o médico do 
+seu bebé acerca disso, para que o médico possa recomendar quando é que o bebé deve ser 
+vacinado. </p>
+</li>
+<li>
+<p>Desconhece-se se Briumvi passa para o leite materno. Fale com o seu médico sobre a melhor 
+forma de alimentar o seu bebé se estiver a tomar Briumvi. </p>
+</li>
+</ul>
+<p>Contraceção para mulheres </p>
+<p>Se pode engravidar, tem de utilizar métodos contracetivos: </p>
+<ul>
+<li>
+<p>durante o tratamento com Briumvi; e </p>
+</li>
+<li>
+<p>durante, pelo menos, 4 meses após ter recebido a última perfusão de Briumvi. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>É improvável que Briumvi afete a sua capacidade de conduzir e utilizar máquinas. </p>
+<p>Briumvi contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar briumvi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar briumvi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Briumvi será administrado por um médico ou enfermeiro com experiência na utilização deste 
+tratamento. Irão vigiá-lo de perto enquanto estiver a receber este medicamento, para o caso de ter 
+quaisquer efeitos indesejáveis. Briumvi vai ser sempre administrado gota a gota numa veia (perfusão 
+intravenosa). </p>
+<p>Medicamentos que irá receber antes de lhe ser administrado Briumvi </p>
+<p>Antes de lhe ser administrado Briumvi, irá receber outros medicamentos para prevenir ou reduzir 
+efeitos indesejáveis possíveis, tais como reações relacionadas com a perfusão (ver secções 2 e 4 para 
+obter informação sobre reações relacionadas com a perfusão). </p>
+<p>Irá receber um corticosteroide e um anti-histamínico antes de cada perfusão e também poderá receber 
+outros medicamentos para reduzir a febre. </p>
+<p>Que quantidade e com que frequência lhe irá ser administrado Briumvi </p>
+<ul>
+<li>
+<p>A primeira dose de Briumvi será de 150 mg. Esta perfusão irá demorar 4 horas. </p>
+</li>
+<li>
+<p>A segunda dose de Briumvi será de 450 mg, administrada 2 semanas após a primeira dose. Esta 
+perfusão irá demorar 1 hora. </p>
+</li>
+<li>
+<p>As doses seguintes de Briumvi serão de 450 mg, administradas 24 semanas após a primeira dose 
+e a cada 24 semanas daí em diante. Estas perfusões irão demorar 1 hora. </p>
+</li>
+</ul>
+<p>Como Briumvi é administrado </p>
+<ul>
+<li>
+<p>Briumvi será administrado por um médico ou enfermeiro. Briumvi tem de ser diluído antes de 
+lhe ser administrado. A diluição será efetuada por um profissional de saúde. Será administrado 
+sob a forma de uma perfusão numa veia (perfusão intravenosa). </p>
+</li>
+<li>
+<p>Irá ser vigiado de perto enquanto estiver a receber Briumvi e durante, pelo menos, 1 hora após a 
+administração das duas primeiras perfusões, para o caso de ter quaisquer efeitos indesejáveis, 
+tais como reações relacionadas com a perfusão. A perfusão poderá ser abrandada, interrompida 
+temporária ou permanentemente se tiver uma reação relacionada com a perfusão, dependendo da 
+gravidade (ver secções 2 e 4 para obter informação sobre reações relacionadas com a perfusão). </p>
+</li>
+</ul>
+<p>Caso se tenha esquecido de uma perfusão de Briumvi </p>
+<ul>
+<li>
+<p>Caso se tenha esquecido de uma perfusão de Briumvi, fale com o seu médico para tomar 
+providências para a receber o mais cedo possível. Não aguarde até à sua próxima perfusão 
+planeada. </p>
+</li>
+<li>
+<p>Para obter o benefício pleno de Briumvi, é importante que cada perfusão lhe seja administrada 
+na altura devida. </p>
+</li>
+</ul>
+<p>Se parar o tratamento com Briumvi </p>
+<ul>
+<li>
+<p>É importante que continue o seu tratamento durante o tempo que o seu médico, em conjunto 
+consigo, decida que o está a ajudar. </p>
+</li>
+<li>
+<p>Alguns efeitos indesejáveis podem estar relacionados com níveis baixos de células B. Depois de 
+parar o tratamento com Briumvi, poderá continuar a sentir esses efeitos indesejáveis até que as 
+suas células B regressem aos níveis normais. </p>
+</li>
+<li>
+<p>Antes de iniciar quaisquer outros medicamentos, informe o seu médico sobre quando recebeu a 
+última perfusão de Briumvi. </p>
+</li>
+</ul>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os seguintes efeitos indesejáveis foram comunicados com Briumvi: </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Reações relacionadas com a perfusão </p>
+<ul>
+<li>
+<p>As reações relacionadas com a perfusão são o efeito indesejável mais frequente do tratamento 
+com Briumvi (muito frequentes: podem afetar mais do que 1 em 10 pessoas). Na maioria dos 
+casos, trata-se de reações ligeiras, mas podem ocorrer algumas reações graves. </p>
+</li>
+<li>
+<p>Informe o seu médico ou enfermeiro imediatamente se tiver quaisquer sinais ou sintomas 
+de uma reação relacionada com a perfusão durante a perfusão ou até 24 horas após a 
+perfusão. Os sintomas podem incluir, entre outros: 
+− 
+comichão na pele 
+− 
+urticária 
+− 
+vermelhidão da face ou pele 
+− 
+garganta irritada 
+− 
+dificuldade em respirar 
+− 
+inchaço da língua ou garganta 
+− 
+pieira 
+− 
+arrepios 
+− 
+febre 
+− 
+dor de cabeça 
+− 
+tonturas 
+− 
+sensação de desmaio 
+− 
+enjoos 
+− 
+dor abdominal (de barriga) 
+− 
+batimento cardíaco rápido. </p>
+</li>
+<li>
+<p>Se tiver uma reação relacionada com a perfusão, irão ser-lhe administrados medicamentos para a 
+tratar e a perfusão poderá ter de ser abrandada ou parada. Quando a reação tiver desaparecido, a 
+perfusão poderá prosseguir. Se a reação relacionada com a perfusão for potencialmente fatal, o 
+seu médico irá interromper de forma permanente o seu tratamento com Briumvi. </p>
+</li>
+</ul>
+<p>Infeções </p>
+<ul>
+<li>
+<p>Poderá contrair infeções mais facilmente com Briumvi. Algumas dessas infeções podem ser 
+graves. As seguintes infeções foram observadas em doentes tratados com Briumvi para a EM: 
+− 
+Muito frequentes (podem afetar mais do que 1 em 10 pessoas) 
+− 
+infeções do trato respiratório superior (infeções do nariz e da garganta) 
+− 
+infeções do trato respiratório (infeções das vias aéreas) 
+− 
+Frequentes (podem afetar até 1 em 10 pessoas) 
+− 
+infeções do trato respiratório inferior (infeções dos pulmões, tais como bronquite 
+ou pneumonia) 
+− 
+infeções por herpes (zona ou herpes labial) </p>
+</li>
+<li>
+<p>Informe o seu médico ou enfermeiro imediatamente se notar algum destes sinais de infeção: 
+− 
+febre ou arrepios 
+− 
+tosse que não desaparece 
+− 
+herpes (tais como herpes labial, zona ou herpes genital) </p>
+</li>
+</ul>
+<p>O seu médico irá aguardar até a infeção estar resolvida antes de lhe administrar Briumvi. </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>neutropenia (níveis baixos de neutrófilos, um tipo de glóbulo branco) </p>
+</li>
+<li>
+<p>dor nas extremidades (braços ou pernas) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar briumvi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar briumvi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Conservar no frigorífico (2°C - 8°C). </p>
+<p>Briumvi será conservado pelo profissional de saúde no hospital ou clínica nas seguintes condições: </p>
+<ul>
+<li>
+<p>Este medicamento não pode ser utilizado após o prazo de validade impresso na embalagem 
+exterior e no rótulo do frasco para injetáveis, após “EXP". O prazo de validade corresponde ao 
+último dia do mês indicado. </p>
+</li>
+<li>
+<p>Este medicamento deve ser conservado no frigorífico (2°C - 8°C). Não deve ser congelado. O 
+frasco para injetáveis deve ser mantido dentro da embalagem exterior para proteger da luz. </p>
+</li>
+</ul>
+<p>Recomenda-se que o medicamento seja utilizado imediatamente após a diluição. Se não for utilizado 
+imediatamente, os tempos de conservação durante a utilização e as condições antes da utilização são 
+da responsabilidade do profissional de saúde e, normalmente, não devem ser superiores a 24 horas 
+entre 2°C e 8°C e subsequentemente durante 8 horas à temperatura ambiente. </p>
+<p>Não deite fora quaisquer medicamentos na canalização. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Briumvi </p>
+<ul>
+<li>
+<p>A substância ativa é o ublituximab. Cada frasco para injetáveis contém 150 mg de ublituximab 
+em 6 ml, com uma concentração de 25 mg/ml. </p>
+</li>
+<li>
+<p>Os outros componentes são cloreto de sódio, citrato de sódio, polissorbato 80, ácido clorídrico e 
+água para preparações injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Briumvi e conteúdo da embalagem </p>
+<ul>
+<li>
+<p>Briumvi é uma solução transparente a opalescente, incolor a ligeiramente amarelada. </p>
+</li>
+<li>
+<p>É fornecido sob a forma de concentrado para solução para perfusão. 
+Este medicamento está disponível em embalagens contendo 1 ou 3 frascos para injetáveis (frascos para 
+injetáveis de vidro com 6 ml de concentrado). É possível que não sejam comercializadas todas as 
+apresentações. </p>
+</li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Neuraxpharm Pharmaceuticals, S.L. 
+Avda. Barcelona 08970 Sant Joan Despí - Barcelona <br />
+Espanha </p>
+<p>Fabricante </p>
+<p>Neuraxpharm Pharmaceuticals, S.L. 
+Avda. Barcelona 08970 Sant Joan Despí<br />
+Barcelona - Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Neuraxpharm Belgium 
+Tél/Tel: +32 (0)2 732 56<br />
+Lietuva 
+Neuraxpharm Pharmaceuticals, S.L. 
+Tel:+34 93 475 96<br />
+България 
+Neuraxpharm Pharmaceuticals, S.L. 
+Teл.: +34 93 475 96<br />
+Luxembourg/Luxemburg 
+Neuraxpharm France 
+Tél/Tel: +32 474 62 24<br />
+Česká republika 
+Neuraxpharm Bohemia s.r.o. 
+Tel: +420 739 232 Magyarország 
+Neuraxpharm Hungary Kft. 
+Tel.: +3630 464 6 </p>
+<p>Danmark 
+Neuraxpharm Sweden AB 
+Tlf: +46 (0)8 30 91 (Sverige) </p>
+<p>Malta 
+Neuraxpharm Pharmaceuticals, S.L. 
+Tel.:+34 93 475 96<br />
+Deutschland 
+neuraxpharm Arzneimittel GmbH 
+Tel: +49 2173 1060 0 </p>
+<p>Nederland 
+Neuraxpharm Netherlands B.V. 
+Tel.: +31 70 208 5 </p>
+<p>Eesti 
+Neuraxpharm Pharmaceuticals, S.L. 
+Tel: +34 93 475 96<br />
+Norge 
+Neuraxpharm Sweden AB 
+Tlf:+46 (0)8 30 91 (Sverige) </p>
+<p>Ελλάδα 
+Brain Therapeutics IKE 
+Τηλ: +302109931 
+Österreich 
+Neuraxpharm Austria GmbH 
+Tel.:+ 43 (0) 1 208 07<br />
+España 
+Neuraxpharm Spain, S.L.U. 
+Tel: +34 93 475 96<br />
+Polska 
+Neuraxpharm Polska Sp. z.o.o. 
+Tel.: +48 783 423<br />
+France 
+Neuraxpharm France 
+Tél: +33 1.53.62.42. Portugal 
+Neuraxpharm Portugal, Unipessoal Lda 
+Tel: +351 910 259<br />
+Hrvatska 
+Neuraxpharm Pharmaceuticals, S.L. 
+Tel: +34 93 475 96  </p>
+<p>Ireland 
+Neuraxpharm Ireland Ltd 
+Tel: +353 (0)1 428 7777 <br />
+România 
+Neuraxpharm Pharmaceuticals, S.L. 
+Tel: +34 93 475 96  </p>
+<p>Slovenija 
+Neuraxpharm Pharmaceuticals, S.L. 
+Tel: +34 93 475 96  </p>
+<p>Ísland 
+Neuraxpharm Sweden AB 
+Sími: +46 (0)8 30 91 (Svíþjóð) </p>
+<p>Slovenská republika 
+Neuraxpharm Slovakia a.s. 
+Tel: +421 255 425 Italia 
+Neuraxpharm Italy S.p.A. 
+Tel: +39 0736 980 
+Suomi/Finland 
+Neuraxpharm Sweden AB 
+Puh/Tel: +46 (0)8 30 91 (Ruotsi/Sverige) </p>
+<p>Κύπρος 
+Brain Therapeutics IKE 
+Τηλ: +302109931 
+Sverige 
+Neuraxpharm Sweden AB 
+Tel: +46 (0)8 30 91<br />
+Latvija 
+Neuraxpharm Pharmaceuticals, S.L. 
+Tel: +34 93 475 96<br />
+United Kingdom (Northern Ireland) 
+Neuraxpharm Ireland Ltd 
+Tel: +353 (0)1 428 7777   </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1321,6 +1966,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-33fea74e578b9f917fc6255f1897937f"
 * entry[0].resource = composition-da-33fea74e578b9f917fc6255f1897937f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp33fea74e578b9f917fc6255f1897937f"
+* entry[=].resource = mp33fea74e578b9f917fc6255f1897937f
+                            
+                    
+Instance: bundlepackageleaflet-pt-33fea74e578b9f917fc6255f1897937f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for briumvi Package Leaflet for language pt"
+Description: "ePI document Bundle for briumvi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-33fea74e578b9f917fc6255f1897937f"
+* entry[0].resource = composition-pt-33fea74e578b9f917fc6255f1897937f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp33fea74e578b9f917fc6255f1897937f"
@@ -1422,6 +2089,18 @@ RuleSet: 33fea74e578b9f917fc6255f1897937fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-33fea74e578b9f917fc6255f1897937f) // briumvi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -794,6 +794,455 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-8fdef97116c9e46e3458e3dc3216f0d9
+InstanceOf: CompositionUvEpi
+Title: "Composition for orserdu Package Leaflet"
+Description:  "Composition for orserdu Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8fdef97116c9e46e3458e3dc3216f0d9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - orserdu"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é ORSERDU e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar ORSERDU </li>
+<li>Como tomar ORSERDU </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar ORSERDU </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é orserdu e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é orserdu e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é ORSERDU </p>
+<p>ORSERDU contém a substância ativa elacestrant que pertence a um grupo de medicamentos 
+chamados degradadores seletivos do recetor de estrogénio. </p>
+<p>Para que é utilizado ORSERDU </p>
+<p>Este medicamento é utilizado para tratar mulheres pós-menopáusicas e homens adultos que têm um 
+tipo específico de cancro da mama, o qual está em fase avançada ou espalhou-se para outras partes do 
+corpo (metastático). Pode ser utilizado para tratar o cancro da mama que é positivo para o recetor de 
+estrogénio (ER), o que significa que as células cancerosas possuem recetores para a hormona 
+estrogénio na sua superfície e é negativo para o recetor do fator de crescimento epidérmico humano 2 
+(HER2), ou seja, ER-positivo, HER2-negativo, o que significa que as células cancerosas não possuem 
+ou possuem apenas pequenas quantidades deste recetor na sua superfície ORSERDU é utilizado em 
+monoterapia (utilizado isoladamente) em doentes cujo cancro não respondeu ou progrediu ainda mais 
+após, pelo menos, uma linha de tratamento hormonal, incluindo um inibidor das CDK 4/6 e que 
+apresentam certas alterações (mutações) num gene chamado ESR1.<br />
+O seu médico irá colher uma amostra do seu sangue, a qual será analisada para despistar estas 
+mutações ESR1. É necessário obter um resultado positivo para iniciar o tratamento com ORSERDU. </p>
+<p>Como funciona ORSERDU </p>
+<p>Os recetores de estrogénio constituem um grupo de proteínas que se encontram dentro das células. 
+Estes recetores são ativados quando a hormona estrogénio se liga aos mesmos. Ao ligar-se a estes 
+recetores, o estrogénio pode, em alguns casos, estimular as células cancerosas a crescerem e 
+multiplicarem-se. ORSERDU contém a substância ativa elacestrant, a qual se liga aos recetores de 
+estrogénio nas células cancerosas fazendo com que estes deixem de funcionar. Ao bloquear e destruir 
+os recetores de estrogénio, ORSERDU consegue reduzir o crescimento e disseminação do cancro da 
+mama e ajudar a eliminar as células cancerosas. </p>
+<p>Se tiver quaisquer perguntas a fazer sobre o modo como funciona ORSERDU ou porque razão este 
+medicamento lhe foi receitado, fale com o seu médico, farmacêutico ou enfermeiro. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar orserdu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar orserdu"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome ORSERDU 
+- se tem alergia ao elacestrant ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar ORSERDU </p>
+<ul>
+<li>Se tiver qualquer doença do fígado (exemplos de doenças do fígado incluem cirrose [lesões de 
+cicatrização do fígado], compromisso da função do fígado ou icterícia colestática 
+[amarelecimento da pele e dos olhos devido a uma redução do escoamento de bílis do fígado]). 
+O seu médico irá monitorizá-lo com regularidade e cuidadosamente para ver se tem reações 
+adversas. </li>
+</ul>
+<p>Ao ter cancro da mama avançado poderá ter um maior risco de desenvolver coágulos de sangue nas 
+suas veias (um tipo de vaso sanguíneo). Não se sabe se ORSERDU também aumenta este risco. </p>
+<p>Crianças e adolescentes 
+ORSERDU não deve ser administrado a crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e ORSERDU 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto porque ORSERDU pode afetar o modo como os outros 
+medicamentos atuam. Além disso, alguns medicamentos podem afetar a forma como ORSERDU atua. </p>
+<p>Informe o seu médico se estiver a tomar qualquer um dos seguintes medicamentos: 
+- antibióticos para tratar infeções bacterianas (tais como a ciprofloxacina, claritromicina, 
+eritromicina, rifampicina, telitromicina) 
+- medicamento para os níveis baixos de sódio no sangue (tais como o conivaptan) 
+- medicamentos para tratar a depressão (tais como a nefazodona ou a fluvoxamina) 
+- medicamentos para tratar a ansiedade e a abstinência de álcool (tais como o tofisopam). 
+- medicamentos para o tratamento de outros cancros (tais como o crizotinib, dabrafenib, imatinib, 
+lorlatinib ou sotorasib) 
+- medicamentos para a tensão arterial alta ou para a dor no peito (tais como o bosentano, 
+diltiazem ou verapamil) 
+- medicamentos para infeções fúngicas (tais como o fluconazol, isavuconazol, itraconazol, 
+cetoconazol, posaconazol ou voriconazol) 
+- medicamentos para a infeção pelo VIH (tais como o efavirenz, etravirina, indinavir, lopinavir, 
+ritonavir, nelfinavir, saquinavir ou telaprevir) 
+- medicamentos para tratar a irregularidade dos batimentos cardíacos (tais como a digoxina, 
+dronedarona ou quinidina) 
+- medicamentos utilizados nos transplantes de órgãos para prevenir a sua rejeição (tais como a 
+ciclosporina) 
+- medicamentos para prevenir acontecimentos cardiovasculares e para tratar níveis de colesterol 
+elevados (tais como a rosuvastatina) 
+- medicamentos utilizados para prevenir convulsões (tais como a carbamazepina, cenobamato, 
+fenobarbital, fenitoína ou primidona) 
+- medicamentos para tratar vómitos (tais como o aprepitant) 
+- medicamentos à base de ervas utilizados para tratar a depressão, contendo hipericão </p>
+<p>ORSERDU com alimentos e bebidas 
+Não beba sumo de toranja nem coma toranjas enquanto estiver a fazer tratamento com ORSERDU, 
+uma vez que poderá alterar a quantidade de ORSERDU no seu corpo e aumentar os efeitos 
+indesejáveis de ORSERDU (ver secção 3 “Como tomar ORSERDU". </p>
+<p>Gravidez, amamentação e fertilidade 
+Este medicamento só deverá ser utilizado em mulheres pós-menopáusicas e em homens. </p>
+<p>Gravidez 
+ORSERDU poderá causar lesões no bebé ainda por nascer. Não pode tomar ORSERDU se está 
+grávida, se pensa estar grávida ou planeia engravidar. Se pensa que poderá estar grávida ou planeia 
+engravidar, consulte o seu médico ou farmacêutico antes de utilizar este medicamento. </p>
+<p>Se for uma mulher com capacidade para engravidar, deverá utilizar um método contracetivo eficaz 
+enquanto estiver a ser tratada com ORSERDU e durante uma semana depois de parar o tratamento 
+com ORSERDU. Fale com o seu médico sobre os métodos adequados. Se for uma mulher com 
+capacidade para engravidar, o seu médico irá excluir a possibilidade de uma gravidez antes de iniciar o 
+tratamento com ORSERDU. Isto poderá incluir ter de fazer um teste de gravidez. </p>
+<p>Amamentação 
+Não pode amamentar enquanto estiver a fazer o tratamento com ORSERDU e durante uma semana 
+após a última dose de ORSERDU. Durante o tratamento, o seu médico conversará consigo sobre os 
+potenciais riscos de tomar ORSERDU durante a gravidez ou a amamentação. </p>
+<p>Fertilidade 
+ORSERDU poderá comprometer a fertilidade nas mulheres e nos homens. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de ORSERDU sobre a capacidade de conduzir e utilizar máquinas são nulos ou 
+desprezáveis. Contudo, dado que a fadiga, fraqueza e dificuldade em dormir foram comunicadas em 
+alguns doentes a tomar elacestrant, os doentes que tenham estas reações adversas deverão proceder 
+com precaução ao conduzir ou ao utilizar máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar orserdu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar orserdu"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>ORSERDU deve ser tomado com alimentos, mas evite comer toranjas ou sumo de toranja durante o 
+tratamento com ORSERDU (ver secção 2 “ORSERDU com alimentos e bebidas"). Ao tomar 
+ORSERDU com alimentos poderá reduzir as náuseas e os vómitos. </p>
+<p>Tome a sua dose deste medicamento todos os dias, aproximadamente à mesma hora. Isto ajudará a 
+lembrar-se de tomar o seu medicamento. </p>
+<p>Os comprimidos de ORSERDU devem ser engolidos inteiros. Não devem ser mastigados, esmagados 
+ou divididos antes de serem engolidos. Não tome um comprimido que esteja partido, rachado ou de 
+outro modo danificado. </p>
+<p>A dose recomendada de ORSERDU é de 345 mg (um comprimido revestido por película de 345 mg) 
+uma vez por dia. O seu médico irá dizer-lhe exatamente a quantidade de comprimidos que deverá 
+tomar. Em certas situações (i.e. em caso de problemas de fígado, efeitos indesejáveis ou se estiver 
+também a utilizar outros medicamentos, o seu médico poderá instrui-lo a tomar uma dose mais baixa 
+de ORSERDU, p. ex., 258 mg (3 comprimidos de 86 mg) uma vez por dia, 172 mg (2 comprimidos de 
+86 mg) uma vez por dia ou 86 mg (1 comprimido de 86 mg) uma vez por dia. </p>
+<p>Se tomar mais ORSERDU do que deveria 
+Informe o seu médico ou farmacêutico se achar que tomou, acidentalmente, mais ORSERDU do que 
+deveria. O médico irá decidir o que fazer. </p>
+<p>Caso se tenha esquecido de tomar ORSERDU 
+No caso de se esquecer de tomar uma dose de ORSERDU, tome-a assim que se lembrar. Poderá tomar 
+uma dose esquecida até 6 horas após a hora em que a deveria ter tomado. Se tiverem decorrido mais de 
+6 horas ou se vomitar a seguir a ter tomado a dose, não tome essa dose desse dia e tome a dose 
+seguinte no dia seguinte, à sua hora habitual. Não tome uma dose a dobrar para compensar uma dose 
+que se esqueceu de tomar. </p>
+<p>Se parar de tomar ORSERDU 
+Não pare de tomar este medicamento sem falar com o seu médico ou farmacêutico. Se parar o 
+tratamento com ORSERDU, a sua doença poderá agravar-se. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. 
+Informe o seu médico ou enfermeiro se notar qualquer um dos seguintes efeitos indesejáveis: </p>
+<p>Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Perda de apetite </p>
+</li>
+<li>
+<p>Enjoos (náuseas) </p>
+</li>
+<li>
+<p>Aumento dos níveis de triglicéridos e de colesterol no sangue </p>
+</li>
+<li>
+<p>Vómitos </p>
+</li>
+<li>
+<p>Cansaço (fadiga) </p>
+</li>
+<li>
+<p>Indigestão (dispepsia) </p>
+</li>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Diminuição dos níveis de cálcio no sangue </p>
+</li>
+<li>
+<p>Dores de costas </p>
+</li>
+<li>
+<p>Aumento dos níveis de creatinina no sangue </p>
+</li>
+<li>
+<p>Dores nas articulações (artralgia) </p>
+</li>
+<li>
+<p>Diminuição dos níveis de sódio no sangue </p>
+</li>
+<li>
+<p>Prisão de ventre </p>
+</li>
+<li>
+<p>Dores de cabeça </p>
+</li>
+<li>
+<p>Afrontamentos </p>
+</li>
+<li>
+<p>Dor abdominal </p>
+</li>
+<li>
+<p>Níveis baixos de glóbulos vermelhos, conforme medido através de análises ao sangue (anemia) </p>
+</li>
+<li>
+<p>Diminuição dos níveis de potássio no sangue </p>
+</li>
+<li>
+<p>Aumento da função do fígado, conforme medido através de análises ao sangue (aumento da 
+alanina aminotransferase, aumento da aspartato aminotransferase) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Dor nas mãos ou nas pernas (dor nas extremidades) </p>
+</li>
+<li>
+<p>Fraqueza (astenia) </p>
+</li>
+<li>
+<p>Infeção nas zonas do corpo que recolhem e eliminam a urina (infeção do trato urinário) </p>
+</li>
+<li>
+<p>Tosse </p>
+</li>
+<li>
+<p>Falta de ar (dispneia) </p>
+</li>
+<li>
+<p>Dificuldade em adormecer e em dormir (insónias) </p>
+</li>
+<li>
+<p>Aumento da função do fígado, conforme medido através de análises ao sangue (aumento da 
+fosfatase alcalina no sangue) </p>
+</li>
+<li>
+<p>Erupção na pele </p>
+</li>
+<li>
+<p>Níveis baixos de linfócitos (um tipo de glóbulos brancos), conforme medido através de análises 
+ao sangue (diminuição da contagem de linfócitos) </p>
+</li>
+<li>
+<p>Dor óssea </p>
+</li>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Dor no peito relacionada com os músculos e ossos do peito (dor torácica musculosquelética) </p>
+</li>
+<li>
+<p>Inflamação na boca e nos lábios (estomatite) </p>
+</li>
+<li>
+<p>Desmaios (síncope) </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>Aumento do risco de coágulos de sangue (tromboembolismo) </p>
+</li>
+<li>
+<p>Falência da função do fígado (insuficiência hepática aguda) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar orserdu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar orserdu"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e na 
+embalagem blister após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não utilize este medicamento se verificar quaisquer danos na embalagem ou se houver sinais de 
+violação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de ORSERDU 
+- A substância ativa é o elacestrant. </p>
+<ul>
+<li>
+<p>Cada 86 mg de ORSERDU comprimido revestido por película contém 86,3 mg de 
+elacestrant. </p>
+</li>
+<li>
+<p>Cada 345 mg de ORSERDU comprimido revestido por película contém 345 mg de 
+elacestrant </p>
+</li>
+<li>
+<p>Os outros componentes são: </p>
+</li>
+</ul>
+<p>Núcleo do comprimido 
+Celulose microcristalina [E460] 
+Celulose microcristalina silicificada 
+Crospovidona [E1202] 
+Estearato de magnésio [E470b] 
+Dióxido de silício coloidal [E551] </p>
+<p>Película de revestimento 
+Opadry II 85F105080 Azul contendo álcool polivinílico [E1203], dióxido de titânio [E171], 
+macrogol [E1521], talco [E553b] e azul brilhante FCF em laca de alumínio [E133] </p>
+<p>Qual o aspeto de ORSERDU e conteúdo da embalagem </p>
+<p>ORSERDU é fornecido na forma de comprimidos revestidos por película em blisters de alumínio. </p>
+<p>ORSERDU 86 mg comprimidos revestidos por película 
+Comprimido revestido por película, de formato redondo, biconvexo, azul a azul claro, com “ME" 
+gravado num lado e de face lisa no lado oposto. Diâmetro aproximado: 8,8 mm. </p>
+<p>ORSERDU 345 mg comprimidos revestidos por película 
+Comprimido revestido por película, de formato oval, biconvexo, azul a azul claro, com “MH" gravado 
+num lado e de face lisa no lado oposto. Tamanho aproximado: 19,2 mm (comprimento), 10,8 mm 
+(largura). </p>
+<p>Cada embalagem contém 28 comprimidos revestidos por película (4 blisters com 7 comprimidos 
+cada). </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Stemline Therapeutics B.V.<br />
+Basisweg 10<br />
+1043 AP Amsterdam<br />
+Países Baixos </p>
+<p>Fabricante 
+Stemline Therapeutics B.V. 
+Basisweg 10<br />
+1043 AP Amsterdam<br />
+Países Baixos </p>
+<p>ou </p>
+<p>Berlin Chemie AG 
+Glienicker Weg 12489 Berlin 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien; България; 
+Česká republika; Danmark; Eesti; 
+Ελλάδα; Hrvatska; Ireland; Ísland; 
+Κύπρος; Latvija; Lietuva; 
+Luxembourg/Luxemburg; 
+Magyarország; Malta; Nederland; 
+Norge; Polska; Portugal; România; 
+Slovenija; Slovenská republika; 
+Suomi/Finland; Sverige 
+Stemline Therapeutics B.V. 
+Tel: +44 (0)800 047 8EUmedinfo@menarinistemline.com </p>
+<p>Italia 
+Menarini Stemline Italia S.r.l. 
+Tel: +39 800776EUmedinfo@menarinistemline.com </p>
+<p>Deutschland 
+Menarini Stemline Deutschland GmbH 
+Tel: +49 (0)800 0008EUmedinfo@menarinistemline.com </p>
+<p>Österreich 
+Stemline Therapeutics B.V. 
+Tel: +43 (0)800 297 EUmedinfo@menarinistemline.com 
+España 
+Menarini Stemline España, S.L.U. 
+Tel: +34919490EUmedinfo@menarinistemline.com </p>
+<p>United Kingdom (Northern Ireland) 
+Stemline Therapeutics B.V. 
+Tel: +44 (0)800 047 8EUmedinfo@menarinistemline.com </p>
+<p>France 
+Stemline Therapeutics B.V. 
+Tél: +33 (0)800 991EUmedinfo@menarinistemline.com </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -835,6 +1284,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8fdef97116c9e46e3458e3dc3216f0d9"
 * entry[0].resource = composition-da-8fdef97116c9e46e3458e3dc3216f0d9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8fdef97116c9e46e3458e3dc3216f0d9"
+* entry[=].resource = mp8fdef97116c9e46e3458e3dc3216f0d9
+                            
+                    
+Instance: bundlepackageleaflet-pt-8fdef97116c9e46e3458e3dc3216f0d9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for orserdu Package Leaflet for language pt"
+Description: "ePI document Bundle for orserdu Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8fdef97116c9e46e3458e3dc3216f0d9"
+* entry[0].resource = composition-pt-8fdef97116c9e46e3458e3dc3216f0d9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8fdef97116c9e46e3458e3dc3216f0d9"
@@ -936,6 +1407,18 @@ RuleSet: 8fdef97116c9e46e3458e3dc3216f0d9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8fdef97116c9e46e3458e3dc3216f0d9) // orserdu pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

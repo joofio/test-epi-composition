@@ -1030,6 +1030,560 @@ er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på 
 
 
 
+Instance: composition-pt-5e413a0f6e2a52f2ac02e5e2b260ebdf
+InstanceOf: CompositionUvEpi
+Title: "Composition for intelence Package Leaflet"
+Description:  "Composition for intelence Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5e413a0f6e2a52f2ac02e5e2b260ebdf)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - intelence"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é INTELENCE e para que é utilizado
+2. O que precisa de saber antes de tomar INTELENCE
+3. Como tomar INTELENCE
+4. Efeitos indesejáveis possíveis
+5. Como conservar INTELENCE
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é intelence e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é intelence e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>INTELENCE contém a substância ativa etravirina. INTELENCE pertence a um grupo de 
+medicamentos anti-VIH denominados inibidores não nucleósidos da transcriptase reversa (NNRTIs).
+INTELENCE é um medicamento utilizado para o tratamento da infeção pelo Vírus da 
+Imunodeficiência Humana (VIH). INTELENCE atua através da redução da quantidade de VIH no seu 
+corpo. Tal facto irá melhorar o seu sistema imunitário e reduzir o risco de vir a desenvolver doenças 
+relacionadas com a infeção pelo VIH.
+INTELENCE é utilizado em associação com outros medicamentos anti-VIH no tratamento de adultos 
+e crianças com 2 ou mais anos de idade, que se encontrem infetados pelo VIH e que utilizaram outros 
+medicamentos anti-VIH anteriormente.
+O seu médico irá conversar consigo sobre a combinação de medicamentos mais indicada para si.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar intelence"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar intelence"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome INTELENCE</h2>
+<p>se tem alergia à etravirina ou a qualquer outro componente do medicamento (indicados na 
+secção 6)
+-
+se estiver a tomar elbasvir/grazoprevir (um medicamento para o tratamento da infeção da 
+hepatite C).
+Advertências e precauções
+Fale com o seu médico ou farmacêutico antes de tomar INTELENCE.
+INTELENCE não é uma cura para a infeção pelo VIH. Este faz parte de um tratamento para reduzir a 
+quantidade do vírus que está no sangue.
+Idosos
+INTELENCE foi utilizado num número limitado de doentes com idade igual ou superior a 65 anos. 
+Caso pertença a esta faixa etária, por favor fale com o seu médico sobre a utilização de INTELENCE.
+49
+Peso e aumento dos lípidos e glucose no sangue
+Durante o tratamento do VIH poderá existir um aumento no peso e nos níveis de lípidos e glucose no 
+sangue. Isto está em parte relacionado com a melhoria da saúde e do estilo de vida, e, no caso dos 
+lípidos do sangue, por vezes aos próprios medicamentos para o VIH. O seu médico irá examinar estas 
+alterações.
+Problemas de ossos
+Alguns doentes a tomar associações de medicamentos antirretrovirais podem desenvolver uma doença 
+dos ossos chamada osteonecrose (morte do tecido ósseo causada por falta de fornecimento de sangue 
+ao osso). A duração dos tratamentos com medicamentos antirretrovirais em associação, utilização de 
+corticosteroides, o consumo de álcool, a imunossupressão grave, o índice de massa corporal 
+aumentado, entre outros, poderão ser alguns dos muitos fatores de risco para o desenvolvimento desta 
+doença. Os sinais da osteonecrose são rigidez nas articulações, sensação de dor e dores (especialmente 
+da anca, joelho e ombro) e dificuldade nos movimentos. Se tiver algum destes sintomas, informe o seu 
+médico.
+Informe o seu médico sobre a sua situação
+Assegure-se de que revê os seguintes pontos a seguir referidos e informe o seu médico se algum é 
+aplicável à sua situação.
+-
+Informe o seu médico caso desenvolva erupção cutânea. Caso ocorra erupção cutânea, esta 
+surge geralmente logo após o início do tratamento anti-VIH com INTELENCE e desaparece, na 
+maioria das vezes, dentro de 1 a 2 semanas, mesmo com a continuação da utilização do 
+medicamento. Raramente, durante o tratamento com INTELENCE pode ter erupção cutânea 
+grave com bolhas ou descamação da pele, particularmente à volta da boca ou olhos ou reação de 
+hipersensibilidade (reação alérgica incluindo erupção cutânea e febre, mas também inchaço da 
+face, língua ou garganta, dificuldade em respirar ou engolir), que poderá potencialmente colocar 
+a vida em risco. Por favor contacte o seu médico imediatamente se tiver estes sintomas. O seu 
+médico irá aconselhá-lo como lidar com os sintomas e, se INTELENCE tem de ser 
+interrompido. Se tiver interrompido o tratamento devido a uma reação de hipersensibilidade, 
+não deverá reiniciar o tratamento com INTELENCE.
+-
+Informe o seu médico se tem ou teve problemas de fígado, incluindo hepatite B e/ou C. O seu 
+médico poderá avaliar o grau de gravidade da sua doença hepática antes de decidir se pode 
+tomar INTELENCE.
+-
+Informe imediatamente o seu médico se apresentar quaisquer sintomas de infeção. Alguns 
+doentes com infeção pelo VIH avançada e com antecedentes de uma infeção oportunista, podem 
+desenvolver sinais e sintomas de inflamação resultantes de uma infeção anterior logo após o 
+início do tratamento anti-VIH. Pensa-se que estes sintomas são devidos a uma melhoria da 
+resposta imunológica do organismo, que permite ao organismo combater infeções que podem 
+estar presentes sem sintomas óbvios.
+-
+Adicionalmente às infeções oportunistas, as doenças autoimunes (uma condição que ocorre 
+quando o sistema imunitário ataca tecidos corporais saudáveis) também podem ocorrer depois 
+de começar a tomar os medicamentos para o tratamento da sua infeção pelo VIH. As doenças 
+autoimunes podem ocorrer muitos meses após o início do tratamento. Se notar quaisquer 
+sintomas de infeção ou outros sintomas como fraqueza muscular, fraqueza a começar nas mãos 
+e nos pés e dirigindo-se em direção ao tronco, palpitações, tremores ou hiperatividade, informe 
+o seu médico imediatamente para procurar o tratamento necessário.
+Crianças e adolescentes
+Não administre este medicamento a crianças com idade inferior a 2 anos e com peso corporal inferior 
+a 10 kg pois os potenciais benefícios e riscosnão foram estabelecidos.
+Outros medicamentos e INTELENCE
+INTELENCE pode interagir com outros medicamentos. Informe o seu médico se estiver a tomar ou 
+tiver tomado recentemente ou se vier a tomar outros medicamentos.
+50
+Na maioria dos casos, INTELENCE pode ser associado com outros medicamentos anti-VIH 
+pertencentes a outras classes. No entanto, algumas associações não são recomendadas. Noutros casos, 
+poderá ser necessário aumentar a vigilância e/ou alterar a dose do medicamento. Assim, informe 
+sempre o seu médico sobre quais os outros medicamentos anti-VIH que está a tomar. Além disso, é 
+importante que leia com atenção o folheto informativo fornecido com esses medicamentos. Siga, de 
+forma cuidadosa, as instruções dadas pelo seu médico sobre quais os medicamentos que podem ser 
+associados.
+Não é recomendada a associação de INTELENCE com qualquer um dos seguintes 
+medicamentos:
+-
+tipranavir/ritonavir, efavirenz, nevirapina, rilpivirina, indinavir, atazanavir/cobicistate, 
+darunavir/cobicistate (medicamentos anti-VIH)
+-
+carbamazepina, fenobarbital, fenitoína (medicamentos que previnem as convulsões)
+-
+rifampicina, porque é contraindicada com inibidores da protease potenciados e rifapentina 
+(medicamentos para o tratamento de algumas infeções, tais como a tuberculose)
+-
+produtos que contenham Hipericão (Hypericum perforatum) (uma preparação à base de plantas 
+utilizada para a depressão)
+-
+daclatasvir (um medicamento para o tratamento da infeção da hepatite C).
+Caso esteja a tomar qualquer um destes medicamentos, solicite aconselhamento ao seu médico.
+Os efeitos de INTELENCE ou de outros medicamentos podem ser alterados caso tome 
+INTELENCE em conjunto com qualquer um dos seguintes medicamentos. As doses de certos 
+medicamentos poderão necessitar de ser alteradas, uma vez que os seus efeitos terapêuticos ou 
+indesejáveis poderão ser influenciados quando associados ao INTELENCE. Informe o seu médico se 
+estiver a tomar:
+-
+dolutegravir, maraviroc, amprenavir/ritonavir e fosamprenavir/ritonavir (medicamentos anti-
+VIH)
+-
+amiodarona, bepridilo, digoxina, disopiramida, flecainida, lidocaína, mexiletina, propafenona e 
+quinidina (medicamentos para o tratamento de determinadas perturbações cardíacas, por ex. 
+batimento cardíaco anormal)
+-
+varfarina (um medicamento utilizado para reduzir a coagulação do sangue). O seu médico terá 
+de verificar o seu sangue
+-
+fluconazol, itraconazol, cetoconazol, posaconazol, voriconazol (medicamentos para o 
+tratamento de infeções fúngicas)
+-
+claritromicina, rifabutina (antibióticos)
+-
+arteméter/lumefantrina (um medicamento utilizado no tratamento da malária)
+-
+diazepam (medicamento para o tratamento de dificuldades em dormir e/ou ansiedade)
+-
+dexametasona (um corticosteroide utilizado numa variedade de condições, tais como inflamação
+e reações alérgicas)
+-
+atorvastatina, fluvastatina, lovastatina, rosuvastatina, sinvastatina (medicamentos para reduzir o 
+colesterol)
+-
+ciclosporina, sirolímus, tacrolímus (imunossupressores - medicamentos utilizados para diminuir 
+a ação do seu sistema imunitário)
+-
+sildenafil, vardenafil, tadalafil (medicamentos para tratar a disfunção eréctil e/ou tensão arterial 
+pulmonar elevada)
+-
+clopidogrel (medicamento utilizado para prevenir os coágulos sanguíneos).
+Gravidez e aleitamento
+Informe imediatamente o seu médico caso se encontre grávida. As mulheres grávidas não devem 
+tomar INTELENCE, exceto se for especificamente indicado pelo médico.
+Devido ao potencial de efeitos indesejáveis em lactentes amamentados, é recomendado que as 
+mulheres não amamentem caso estejam a receber tratamento com INTELENCE.
+51
+A amamentação não é recomendada em mulheres que vivem com VIH porque a infeção pelo VIH 
+pode ser transmitida ao bebé pelo leite materno. Se está a amamentar ou pensa em amamentar, deverá 
+assim que possível, aconselhar-se com o seu médico.
+Condução de veículos e utilização de máquinas
+Não conduza nem utilize máquinas se se sentir sonolento ou com tonturas após tomar o medicamento.
+INTELENCE contém lactose
+Os comprimidos de INTELENCE contêm lactose. Se foi informado pelo seu médico que tem 
+intolerância a alguns açúcares (lactose), contacte-o antes de tomar este medicamento.
+INTELENCE contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar intelence"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar intelence"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tomar este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.
+Utilização em adultos
+Outras formas deste medicamento poderão ser mais adequada para adultos.
+A dose recomendada de INTELENCE é de200 mg, duas vezes ao dia.
+De manhã, tome dois comprimidos de INTELENCE 100 miligramas, após a refeição.
+De noite, tome dois comprimidos de INTELENCE 100 miligramas, após a refeição.
+Utilização em crianças e adolescentes com 2 ou mais anos de idade e com peso corporal de pelo 
+menos 10 kg
+O médico irá determinar a dose correta com base no peso da criança.
+O médico irá informá-lo exatamente quanto INTELENCE a criança deve tomar.
+Instruções para tomar INTELENCE para todos os doentes
+É importante que tome INTELENCE após a refeição. Se tomar INTELENCE com o estômago vazio, 
+será absorvida apenas metade da quantidade de INTELENCE. Siga o conselho do seu médico sobre o 
+tipo de refeição que deve ser tomada com INTELENCE.
+Engula o(s) comprimido(s) de INTELENCE inteiros com a ajuda de um copo com água. Não mastigue 
+o(s) comprimido(s). O comprimido pode ser dividido em duas doses iguais.
+Caso não seja capaz de engolir o(s) comprimido(s) de INTELENCE inteiros, pode fazer o seguinte:
+-
+coloque o(s) comprimido(s) em 5 ml (1 colher de chá) de água, ou o suficiente para cobrir o 
+medicamento,
+-
+mexa bem durante cerca de 1 minuto até que a água tenha um aspeto leitoso,
+-
+se desejar, adicione até 30 ml (2 colheres de sopa) mais de água ou, alternativamente, sumo de 
+laranja ou leite (os doentes não devem colocar os comprimidos diretamente em sumo de laranja 
+ou leite),
+-
+beba imediatamente,
+-
+lave o copo várias vezes com água, sumo de laranja ou leite e engula completamente a mistura 
+de cada lavagem para garantir que toma a dose inteira.
+Se misturar o(s) comprimido(s) de INTELENCE com um líquido, tome-o primeiro, antes de outros 
+medicamentos líquidos anti-VIH que precise de tomar ao mesmo tempo.
+Contacte o seu médico se não for capaz de engolir a dose inteira quando misturada com o líquido.
+52
+Se a sua criança necessitar de tomar o(s) comprimido(s) de INTELENCE misturados com um líquido, 
+é muito importante que ele/ela tome a totalidade da dose para que a quantidade correta de 
+medicamento entre no organismo. Se o total da dose não for tomada, o risco de o vírus desenvolver 
+resistência é maior. Contacte o seu médico se a sua criança não é capaz de engolir a totalidade da dose 
+quando misturada com um líquido, pois podem considerar dar outro medicamento para tratar a sua 
+criança.
+Não utilize bebidas quentes (40°C e acima) ou bebidas carbonatadas quando estiver a tomar 
+INTELENCE comprimido(s).
+Remover a tampa de segurança infantil
+O frasco de plástico possui um fecho de segurança infantil devendo ser aberto da 
+seguinte forma:
+-
+Pressione a tampa de enroscar de plástico para baixo rodando-a no sentido 
+contrário aos ponteiros do relógio.
+-
+Retire a tampa desenroscada.
+Se tomar mais INTELENCE do que deveria
+Contacte imediatamente o seu médico ou farmacêutico. Os efeitos indesejáveis mais frequentes de 
+INTELENCE são erupções na pele, diarreia, náuseas e dor de cabeça (ver secção “4. Efeitos 
+indesejáveis possíveis").
+Caso se tenha esquecido de tomar INTELENCE
+Caso se recorde no período até 6 horas após a hora da toma habitual de INTELENCE, deve tomar 
+os comprimidos, assim que possível. Tome sempre os comprimidos após a refeição. Depois, tome a 
+próxima dose na toma habitual. Caso se recorde 6 horas ou mais após a hora da toma habitual, não 
+tome a dose que se esqueceu e tome as doses seguintes conforme habitual. Não tome uma dose a 
+dobrar para compensar uma dose que se esqueceu de tomar.
+Se vomitar no espaço de 4 horas após a toma de INTELENCE, tome outra dose depois de uma 
+refeição. Se vomitar mais de 4 horas após tomar o medicamento, não necessita de tomar outra dose até 
+à dose que está normalmente programada.
+Contacte o seu médico se não tem a certeza sobre o que fazer se se esqueceu de uma dose ou se 
+vomitou.
+Não deve parar de tomar INTELENCE sem falar primeiro com o seu médico
+A terapêutica para o VIH pode aumentar a sua sensação de bem-estar. Não deixe de tomar 
+INTELENCE ou os seus outros medicamentos anti-VIH mesmo que se sinta melhor, pois ao fazê-lo 
+iria estar a aumentar o risco do vírus desenvolver resistência. Fale primeiro com o seu médico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestam em todas as pessoas.
+A frequência dos efeitos indesejáveis possíveis associados a INTELENCE está listada abaixo.
+Efeitos indesejáveis muito frequentes (afetam mais de 1 em cada 10 pessoas)
+-
+erupção cutânea. A erupção cutânea é geralmente ligeira a moderada. Em situações raras, têm 
+sido notificados casos de erupção cutânea muito graves, que podem colocar a vida em risco. 
+Assim, é importante contactar imediatamente o seu médico caso desenvolva erupção cutânea. O 
+53
+seu médico irá aconselhá-lo sobre a forma de lidar com os seus sintomas e se deve parar de 
+tomar INTELENCE;
+-
+dor de cabeça;
+-
+diarreia, náuseas.
+Efeitos indesejáveis frequentes (afetam até 1 em cada 10 pessoas)
+-
+reações alérgicas (hipersensibilidade);
+-
+diabetes, diminuição do apetite;
+-
+ansiedade, sonolência, insónia, perturbações do sono;
+-
+formigueiro ou dor nas mãos ou pés, dormência, perda de sensibilidade na pele, perda de 
+memória, cansaço;
+-
+visão turva;
+-
+insuficiência nos rins, pressão arterial elevada, ataque cardíaco, falta de ar durante o exercício 
+físico;
+-
+vómitos, azia, dor abdominal, distensão do abdómen, inflamação do estômago, flatulência
+(gases), prisão de ventre, inflamação da boca, boca seca;
+-
+suores noturnos, comichão, pele seca;
+-
+alterações em alguns valores da contagem de células sanguíneas ou da bioquímica do seu
+sangue. Estas podem ser observadas nos resultados de exames ao sangue e/ou urina. O seu 
+médico irá explicar-lhas. Por exemplo: baixa contagem de glóbulos vermelhos.
+Efeitos indesejáveis pouco frequentes (afetam até 1 em cada 100 pessoas)
+-
+diminuição do número de glóbulos brancos no sangue;
+-
+sintomas de infeção (por exemplo, aumento do volume dos nódulos linfáticos e febre);
+-
+sonhos anormais, confusão, desorientaçao, nervosismo, pesadelos;
+-
+sonolência, tremores, desmaios, convulsões, perturbação da atenção;
+-
+tonturas, lentidão;
+-
+angina (dor no peito), ritmo cardíaco irregular;
+-
+dificuldade em respirar;
+-
+esforço para vomitar, inflamação do pâncreas, vómito com sangue;
+-
+problemas de fígado, tais como hepatite, aumento do fígado;
+-
+transpiração excessiva, inchaço da face e/ou garganta;
+-
+inchaço nas mamas nos homens.
+Efeitos indesejáveis raros (afetam até 1 em 1.000 pessoas)
+-
+acidente vascular cerebral;
+-
+erupção cutânea grave com bolhas ou descamação da pele, particularmente à volta da boca ou 
+olhos; pode ocorrer mais frequentemente em crianças e adolescentes do que em adultos.
+Efeitos indesejáveis muito raros (afetam até 1 em 10.000 pessoas)
+-
+reações de hipersensibilidade graves caracterizadas por erupção cutânea acompanhada por febre 
+e inflamação de órgãos, tais como, hepatite.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar intelence"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar intelence"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado.
+54
+Não utilizar após 8 semanas da primeira abertura do frasco.
+INTELENCE comprimidos deve ser conservado no frasco de origem e manter o frasco bem fechado 
+para proteger da humidade. O frasco contém 2 pequenas bolsas (exsicantes), para manter os 
+comprimidos secos. Estas bolsas devem ser sempre mantidas no frasco e não devem ser ingeridas.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas irão ajudar a 
+proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de INTELENCE</h2>
+<p>A substância ativa é a etravirina. Cada comprimido de INTELENCE contém 25 mg de 
+etravirina.
+-
+Os outros componentes são hipromelose, celulose microcristalina, sílica coloidal anidra, 
+croscarmelose sódica, estereato de magnésio e lactose (como mono-hidratada).
+Qual o aspeto de INTELENCE e conteúdo da embalagem
+Este medicamento apresenta-se como um comprimido oval, sulcado, branco a esbranquiçado, 
+impresso num lado com “TMC". O comprimido pode ser dividido em duas doses iguais.
+Um frasco de plástico contendo 120 comprimidos e 2 bolsas com exsicante para manter os 
+comprimidos secos.
+Titular da Autorização de Introdução no Mercado
+Janssen-Cilag International NV, Turnhoutseweg 30, B-2340 Beerse, Bélgica
+Fabricante
+Janssen-Cilag SpA, Via C. Janssen, 04100 Borgo San Michele, Latina, Itália
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD.
+Tel: +356 2397 6000
+55
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: +353 1 800 709 122
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+56
+Este folheto foi revisto pela última vez em {MM/AAAA}.
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1071,6 +1625,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5e413a0f6e2a52f2ac02e5e2b260ebdf"
 * entry[0].resource = composition-da-5e413a0f6e2a52f2ac02e5e2b260ebdf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5e413a0f6e2a52f2ac02e5e2b260ebdf"
+* entry[=].resource = mp5e413a0f6e2a52f2ac02e5e2b260ebdf
+                            
+                    
+Instance: bundlepackageleaflet-pt-5e413a0f6e2a52f2ac02e5e2b260ebdf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for intelence Package Leaflet for language pt"
+Description: "ePI document Bundle for intelence Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5e413a0f6e2a52f2ac02e5e2b260ebdf"
+* entry[0].resource = composition-pt-5e413a0f6e2a52f2ac02e5e2b260ebdf
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5e413a0f6e2a52f2ac02e5e2b260ebdf"
@@ -1172,6 +1748,18 @@ RuleSet: 5e413a0f6e2a52f2ac02e5e2b260ebdfListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5e413a0f6e2a52f2ac02e5e2b260ebdf) // intelence pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

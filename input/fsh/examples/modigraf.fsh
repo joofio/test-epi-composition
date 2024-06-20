@@ -1145,6 +1145,595 @@ hjemmeside http://www.ema.europa.eu.  </p>         </div>"""
 
 
 
+Instance: composition-pt-f4157e79e09e92e0d9cf70a720caf0e5
+InstanceOf: CompositionUvEpi
+Title: "Composition for modigraf Package Leaflet"
+Description:  "Composition for modigraf Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf4157e79e09e92e0d9cf70a720caf0e5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - modigraf"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Modigraf e para que é utilizado 
+2. O que precisa de saber antes de tomar Modigraf 
+3. Como tomar Modigraf 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Modigraf 
+6. Conteúdos da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é modigraf e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é modigraf e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Modigraf contém a substância ativa tacrolímus. É um imunossupressor. Após ser submetido a um 
+transplante (por exemplo, de fígado, rim, coração) o seu sistema imunológico irá tentar a rejeitar o 
+novo órgão. O Modigraf é usado para controlar esta resposta imunológica habilitando-o a aceitar o 
+órgão transplantado. </p>
+<p>Também lhe pode ser administrado Modigraf quando estiver a ocorrer uma rejeição do fígado, rim, 
+coração ou outro órgão transplantado, ou quando em tratamentos anteriores não foi capaz de controlar a 
+sua resposta imunológica após o transplante. </p>
+<p>Modigraf é usado em adultos e crianças. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar modigraf"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar modigraf"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Modigraf 
+- Se tem alergia ao tacrolímus ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- Se tem alergia ao sirolímus (outra substância usada para prevenir a rejeição do seu órgão 
+transplantado) ou a qualquer antibiótico macrólido (por exemplo, eritromicina, claritromicina, 
+josamicina). 
+Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Modigraf </p>
+<ul>
+<li>se tem ou teve problemas de fígado. </li>
+<li>se tem diarreia durante mais de um dia. </li>
+<li>se sentir uma forte dor abdominal acompanhada ou não por outros sintomas, como por exemplo 
+arrepios, febre, nauseas ou vómitos. </li>
+<li>se tem uma alteração da atividade elétrica do coração chamada "prolongamento do intervalo 
+QT". </li>
+<li>se tem ou teve danos nos pequenos vasos sanguíneos, conhecido como microangiopatia 
+trombótica/púrpura trombocitopénica trombótica/síndrome urémica hemolítica. Fale com o seu 
+médico se desenvolver febre, nódoas negras debaixo da pele (os quais podem aparecer como </li>
+</ul>
+<p>minúsculos pontos vermelhos), cansaço extremo, confusão, amarelecimento da pele ou olhos, 
+baixa produção de urina, perda de visão e convulsões (ver secção 4). Quando tacrolímus é 
+tomado em conjunto com sirolímus ou everolímus, o risco de desenvolver estes sintomas pode 
+aumentar. </p>
+<p>Evite tomar medicamentos à base de plantas, p. ex., hipericão (Hypericum perforatum) ou quaisquer 
+outros produtos à base de plantas, uma vez que podem afetar a eficácia e a dose de Modigraf que 
+necessita de tomar. Em caso de dúvida, consulte o seu médico antes de tomar qualquer produto ou 
+medicamento à base de plantas. </p>
+<p>O seu médico pode necessitar de ajustar a sua dose de Modigraf. </p>
+<p>Deve manter-se em contacto regular com o seu médico. De vez em quando, o seu médico pode 
+precisar efetuar testes ao sangue, aos olhos, à urina e ao coração para ajustar a dose de Modigraf.  </p>
+<p>Deve limitar a sua exposição ao sol e à luz UV (ultravioleta) enquanto está a tomar Modigraf. Isto 
+porque os imunossupressores, como o Modigraf podem aumentar o risco de cancro da pele. No caso de 
+exposição à luz solar, use vestuário protetor adequado e use um protetor solar com um alto fator de 
+proteção solar.  </p>
+<p>Precauções de manuseamento: 
+O contacto direto com qualquer parte do seu corpo, como a sua pele ou olhos, e as soluções injetáveis, 
+pó ou granulado dos medicamentos com tacrolímus, devem ser evitados durante a preparação. Se este 
+contacto ocorrer, lave a pele e os olhos. 
+Outros medicamentos e Modigraf 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Não é recomendado que o Modigraf seja tomado com ciclosporina (outro medicamento utilizado para 
+a prevenção da rejeição de órgãos transplantados).  </p>
+<p>Se tiver necessidade de consultar um médico que não seja o seu especialista em transplantação, 
+informe esse médico de que está a tomar tacrolímus. O seu médico poderá precisar de entrar em 
+contacto com o seu especialista em transplantação se tiver necessidade de utilizar outro 
+medicamento que possa aumentar ou diminuir os níveis sanguíneos de tacrolímus. </p>
+<p>A quantidade de Modigraf no sangue pode ser alterada pela toma de outros medicamentos, e a 
+quantidade de outros medicamentos no sangue pode ser alterada por tomar Modigraf, o que pode 
+requerer a suspensão, um aumento ou uma diminuição da dose de Modigraf.  </p>
+<p>Foram observados aumentos dos níveis sanguíneos de tacrolímus em alguns doentes que também 
+tomam outros medicamentos. Isto pode levar a efeitos indesejáveis graves, tais como problemas nos 
+rins, sistema nervoso e alterações do ritmo cardíaco (ver secção 4). 
+Pode ocorrer um efeito sobre os níveis sanguíneos de Modigraf pouco tempo depois de começar a 
+utilizar outro medicamento, pelo que uma monitorização frequente e contínua do seu nível sanguíneo 
+de Modigraf pode ser necessária nos primeiros dias depois de iniciar outro medicamento e 
+regularmente enquanto continuar o tratamento com o outro medicamento. Alguns outros 
+medicamentos podem causar uma diminuição dos níveis sanguíneos de tacrolímus, podendo aumentar 
+o risco de rejeição do órgão transplantado. Em especial, deve informar o seu médico se está a tomar ou 
+tomou recentemente medicamentos como: 
+- medicamentos antifúngicos e antibióticos, especialmente os chamados antibióticos macrólidos, 
+usados no tratamento de infeções, por exemplo cetoconazol, fluconazol, itraconazol, 
+posaconazol, voriconazol, clotrimazol, isavuconazol, miconazol, caspofungina, telitromicina, 
+eritromicina, claritromicina, josamicina, azitromicina, rifampicina, rifabutina e isoniazida e 
+flucloxacilina 
+- letermovir, usado para prevenir a doença causada pelo CMV (citomegalovírus humano) </p>
+<ul>
+<li>inibidores da protéase do vírus da imunodeficiência humana (VIH) (por exemplo, ritonavir, 
+nelfinavir, saquinavir), o medicamento indutor cobicistate, e medicamentos associados, ou 
+inibidores não nucleosídeos da transcriptase reversa do VIH (efavirenz, etravirina, nevirapina) 
+usados no tratamento da infeção do VIH </li>
+<li>inibidores de protease do VHC (por exemplo, telaprevir, boceprevir, a combinação 
+ombitasvir/paritaprevir/ritonavir com ou sem dasabusvir, elbasvir/grazoprevir e 
+glecaprevir/pibrentasvir), usado no tratamento de infeções da hepatite C </li>
+<li>nilotinib e imatinib, idealisib, ceritinib, crizotinib, apalutamida, enzalutamida ou mitotano 
+(usados para tratar alguns tipos de cancro) </li>
+<li>ácido micofenólico, usado na supressão do sistema imunitário para prevenir a rejeição de 
+transplantes </li>
+<li>medicamentos para a úlcera de estômago ou refluxo ácido ( por exemplo, omeprazol, 
+lansoprazol ou cimetidina) </li>
+<li>antieméticos, usados para tratar náuseas (enjoo) e vómitos (por exemplo, metoclopramida)  </li>
+<li>cisaprida ou o antiácido estearato de hidróxido de alumínio e magnésio, usado no tratamento da 
+azia </li>
+<li>pílula contracetiva, tratamentos hormonais com etinilestradiol ou tratamentos hormonais com 
+danazol  </li>
+<li>medicamentos usados no tratamento da pressão arterial elevada ou problemas cardíacos (por 
+exemplo nifedipina, nicardipina, diltiazem e verapamil)  </li>
+<li>medicamentos antiarrítmicos (a amiodarona) usados para o tratamento de arritmias (batimento 
+irregular do coração) </li>
+<li>medicamentos chamados “estatinas" usados para o tratamento de colesterol e triglicéridos 
+elevados </li>
+<li>carbamazepina, fenitoína ou fenobarbital, usados no tratamento de epilepsia </li>
+<li>metamizol, usado para tratar a dor e febre </li>
+<li>os corticosteroides prednisolona e metilprodnisolona, pertencentes à classe dos corticosteroides 
+usados para tratar inflamações ou para suprimir o sistema imunitário (por exemplo rejeição do 
+transplante) </li>
+<li>nefazodona, usada no tratamento da depressão </li>
+<li>preparações à base de plantas contendo hipericão (Hypericum perforatum) ou extratos de 
+Schisandra sphenanthera. </li>
+<li>canabidiol (utilizado, por exemplo, no tratamento de convulsões)  </li>
+</ul>
+<p>Informe o seu médico se estiver a receber tratamento para a hepatite C. O tratamento farmacológico 
+para a hepatite C pode alterar o funcionamento do fígado e afetar os níveis sanguíneos de tacrolímus. 
+Os níveis sanguíneos de tacrolímus podem diminuir ou aumentar dependendo dos medicamentos 
+prescritos para a hepatite C. O seu médico necessita de monitorizar cuidadosamente os níveis 
+sanguíneos de tacrolímus e efetuar os ajustes necessários da dose de Modigraf depois de começar o 
+tratamento para a hepatite C. </p>
+<p>Informe o seu médico se está a tomar ou se necessita de tomar ibuprofeno (usado para tratar a febre, 
+inflamação e dor), antibióticos (cotrimoxazol, vancomicina ou antibióticos aminoglicosidos, tais como 
+a gentamicina), anfotericina B (usada para tratar infeções fúngicas) ou antivirais (usados para tratar 
+infeções virais, por exemplo, aciclovir, ganciclovir, cidofovir, foscarnet). Estes podem piorar os 
+problemas no rim ou no sistema nervoso quando tomados conjuntamente com Modigraf. </p>
+<p>Fale com o seu médico se estiver a tomar sirolímus ou everolímus. Quando tacrolímus é tomado em 
+conjunto com sirolímus ou everolímus, o risco de desenvolvimento de microangiopatia trombótica, 
+púrpura trombocitopénica trombótica, e síndrome urémica hemolítica pode aumentar (ver secção 4.4).  </p>
+<p>O seu médico também necessita de saber se está a tomar conjuntamente com Modigraf suplementos de 
+potássio ou certos diuréticos usados para a insuficiência cardíaca, hipertensão (tensão arterial elevada) 
+ou doença renal (por exemplo, amilorida, triamtereno ou espironolactona), ou os antibióticos 
+trimetoprim ou cotrimoxazol que podem aumentar os níveis de potássio no sangue,certos 
+medicamentos anti-inflamatórios não esteroides (conhecidos por AINES, por exemplo ibuprofeno) </p>
+<p>usados para a febre, inflamação e dor, anticoagulantes (para diluir o sangue), ou medicamentos orais 
+para a diabetes. </p>
+<p>Se necessita de tomar qualquer vacina, por favor informe antecipadamente o seu médico. 
+Modigraf com alimentos e bebidas <br />
+De um modo geral deve tomar Modigraf com o estômago vazio ou pelo menos 1 hora antes ou 2 a 3 
+horas depois de uma refeição. Toranja e sumo de toranja devem ser evitados durante o tratamento com 
+Modigraf, pois pode afetar os seus níveis no sangue. 
+Gravidez e amamentação. 
+Se está a tomar Modigraf durante a gravidez, é provável que este passe para o bebé através da 
+placenta. Isto pode influenciar potencialmente a saúde do seu bebé ou influenciar negativamente o 
+percurso da sua gravidez. 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. 
+O Modigraf passa para o leite materno. Deste modo, não deve amamentar enquanto estiver a tomar 
+Modigraf. 
+Condução de veículos e utilização de máquinas 
+Não conduza e não utilize quaisquer ferramentas ou máquinas se sentir tonturas ou sono, ou se tiver 
+problemas de visão após tomar Modigraf. Estes efeitos são mais frequentes se também beber álcool. </p>
+<p>Modigraf contém lactose e sódio <br />
+O Modigraf contém lactose (açúcar do leite). Se foi informado pelo seu médico que tem intolerância a 
+alguns açúcares, contacte o seu médico antes de tomar este medicamento. 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por saqueta, isto é, 
+essencialmente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar modigraf"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar modigraf"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. O Modigraf apenas deve ser-lhe prescrito por médicos com experiência 
+no tratamento de doentes transplantados e com experiência na utilização de medicamentos que 
+controlam o sistema imunológico do organismo (imunossupressores). </p>
+<p>Certifique-se que recebe o mesmo medicamento de tacrolímus sempre que recebe a sua prescrição, a 
+não ser que o seu especialista em transplantação tenha concordado em mudar o seu medicamento.  </p>
+<p>Este medicamento deve ser tomado duas vezes por dia. Se a aparência física alterou a partir de 
+grânulos brancos normais, ou se a instrução relativamente à posologia mudou, fale com o seu médico 
+ou farmacêutico com a maior brevidade possível para ter a certeza que está a tomar o medicamento 
+correto. </p>
+<p>A dose inicial para prevenir a rejeição do seu órgão transplantado será determinada pelo seu médico 
+através de cálculos tendo em conta o seu peso corporal. Por norma, as doses iniciais logo após a 
+transplantação estão dentro do intervalo 0,075 - 0,30 mg por kg de peso corporal por dia dependendo 
+do órgão transplantado. No tratamento da rejeição, podem ser usadas as mesmas doses. </p>
+<p>A sua dose depende da sua condição geral e de outros medicamentos imunossupressores que esteja a 
+tomar.<br />
+Crianças e adolescentes 
+As doses de Modigraf recebidas nas crianças e adolescentes são calculadas da mesma forma que as dos 
+adultos. Em geral, as crianças necessitam de doses maiores por kg do peso do corpo para atingir o 
+mesmo nivel de efeitos sanguineos dos adultos. </p>
+<p>Após o início do seu tratamento com Modigraf o seu médico irá requerer exames sanguíneos 
+frequentes de forma a estabelecer e ajustar a dose correta sempre que for necessário. O seu médico irá 
+normalmente reduzir a dose de Modigraf quando a sua condição estabilizar. O seu médico irá informá-
+lo exatamente de quantas saquetas tem de tomar. </p>
+<p>Irá necessitar de tomar Modigraf todos os dias enquanto precisar de imunossupressão para prevenir a 
+rejeição do seu órgão transplantado. Deve manter contacto regular com o seu médico. </p>
+<p>Modigraf é administrado por via oral, duas vezes por dia, normalmente de manhã e à noite. Tome 
+Modigraf com o estômago vazio ou 2 a 3 horas depois de uma refeição. Espere pelo menos 1 hora até a 
+próxima refeição. </p>
+<p>Como preparar as saquetas de Modigraf para utilizar? 
+O seu médico irá avisá-lo sobre o número de saquetas que necessita de abrir e do volume de água 
+necessário para fazer a suspensão. Para uma medida mais exata do volume de água, pode utilizar uma 
+seringa ou um copo graduado. </p>
+<p>Coloque o volume prescrito de água (à temperatura ambiente) dentro de um copo, até um máximo de 
+50 ml. Coloque o copo com água numa superfície estável. Não utilize copos ou colheres que são feitas 
+de PVC (cloreto de polivinilo) para tomar Modigraf porque a substância ativa de Modigraf pode colar-
+se ao PVC.<br />
+Abra cuidadosamente o número de saquetas prescrito, por exemplo, com uma tesoura na zona indicada 
+com uma seta. Segure a saqueta aberta, com o polegar e o dedo indicador, em cima do copo com a 
+parte aberta da saqueta direcionada para baixo. Dê ligeiros toques na extremidade fechada da saqueta e 
+deite os conteúdos de cada saqueta num copo contendo água. Não utilize qualquer utensílio ou líquido 
+para esvaziar a saqueta. Se seguir estas instruções, irá retirar a quantidade correta de granulado da 
+saqueta. É normal que algum granulado fique na saqueta: a saqueta foi desenhada desse modo.<br />
+Agite ou mexa delicadamente até o granulado estar completamente suspenso. A suspensão pode ser 
+retirada com uma seringa ou engolida diretamente pelo doente. O líquido tem um sabor adocicado. 
+Encha novamente o copo com a mesma quantidade de água e beba-a também. O líquido deve ser 
+imediatamente bebido após a preparação. 
+Se tomar mais Modigraf do que deveria 
+Se tomar acidentalmente mais Modigraf do que deveria, contacte imediatamente o seu médico ou o 
+serviço de urgência do hospital mais próximo. 
+Caso se tenha esquecido de tomar Modigraf 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. 
+Se se esqueceu de tomar Modigraf espere até à próxima dose e depois continue a tomar como 
+anteriormente. 
+Se parar de tomar Modigraf 
+Parar o tratamento com Modigraf poderá aumentar o risco de rejeição do seu órgão transplantado. Não 
+pare o tratamento a não ser que o seu médico lhe tenha dito para o fazer. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>O Modigraf reduz os mecanismos de defesa do seu próprio organismo (sistema imunitário) que não 
+estará nas condições normais para combater infeções. Assim, enquanto está a tomar Modigraf poderá 
+estar mais propenso a ter infeções. Algumas infeções podem ser graves ou fatais incluindo infeções 
+causadas por bactérias, vírus, fungos, parasitas, ou outras infeções. </p>
+<p>Informe imediatamente o seu médico se tiver sinais ou sintomas de infeção incluindo: 
+- Febre, tosse, dor de garganta, sensação de fraqueza ou sensação de mal-estar 
+- Perda de memória, dificuldade em pensar, dificuldade em andar ou perda de visão - estas podem ser 
+devidas a uma infeção cerebral grave muito rara, a qual pode ser fatal (Leucoencefalopatia multifocal 
+progressiva ou LMP) </p>
+<p>Podem ocorrer efeitos graves incluindo reações alérgicas e anafiláticas (um tipo de reações alérgicas 
+muito graves com desmaio e dificuldade em respirar, que necessita de atenção médica imediata). 
+Foram notificados tumores benignos e malignos após o tratamento com Modigraf.<br />
+Informe imediatamente o seu médico imediatamente se tiver ou suspeitar que pode ter qualquer 
+um dos seguintes efeitos indesejáveis graves: </p>
+<p>Efeitos indesejáveis graves frequentes (podem afetar até 1 em 10 pessoas): 
+- Perfuração gastrointestinal: forte dor abdominal acompanhada ou não de outros sintomas, tais 
+como arrepios, febre, náuseas ou vómitos. 
+- Funcionamento insuficiente do órgão transplantado. 
+- Visão turva. </p>
+<p>Efeitos indesejáveis graves pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- Microangiopatia trombótica (danos nos pequenos vasos sanguíneos) incluindo síndrome 
+hemolítica urémica, uma condição com os seguintes sintomas: produção de urina baixa ou 
+ausente (insuficiência renal aguda), cansaço extremo, amarelecimento da pele ou olhos 
+(icterícia) e nódoas negras ou hemorragias anormais e sinais de infeção. </p>
+<p>Efeitos indesejáveis graves raros (podem afetar até 1 em 1 000 pessoas): 
+- Púrpura Trombocitopénica Trombótica: uma condição envolvendo danos nos pequenos vasos 
+sanguíneos e caracterizada por febre e nódoas negras debaixo da pele que podem parecer como 
+minúsculos pontos vermelhos, com ou sem fadiga extrema inexplicável, confusão, 
+amarelecimento da pele ou olhos (icterícia), com sintomas de insuficiência renal aguda 
+(produção de urina baixa ou ausente), perda de visão e convulsões. 
+- Necrólise epidérmica tóxica: erosão e formação de bolhas na pele ou membranas mucosas, pele 
+inchada vermelha que pode destacar em grandes partes do corpo. 
+- Cegueira. </p>
+<p>Efeitos indesejáveis graves muito raros (podem afetar até 1 em 10 000 pessoas): 
+- Síndrome de Stevens-Johnson: dor de pele inexplicável generalizada, inchaço facial, doença 
+grave com formação de bolhas na pele, boca, olhos e genitais, urticária, inchaço na língua, 
+erupção na pele vermelha ou roxa disseminada, descamação da pele. 
+- Torsades de pointes: alteração da frequência cardíaca, que pode ou não ser acompanhada de 
+sintomas, como dor no peito (angina), desmaio, vertigem ou náusea, palpitações (sentir o 
+batimento cardíaco) e dificuldade em respirar. </p>
+<p>Efeitos indesejáveis graves - frequência desconhecida (a frequência não pode ser calculada a partir dos 
+dados disponíveis): 
+- Infeções oportunistas (bacterianas, fúngicas, virais e protozoárias): diarreia prolongada, febre e 
+dor de garganta. 
+- Foram notificados tumores benignos e malignos após o tratamento, como resultado de 
+imunossupressão. 
+- Foram notificados casos de aplasia eritrocitária pura (uma redução muito acentuada do número 
+de glóbulos vermelhos), anemia hemolítica (redução do número de glóbulos vermelhos por 
+destruição anormal dos mesmos, acompanhada de fadiga) e neutropenia febril (uma diminuição 
+no tipo de glóbulos brancos que combatem infeções, acompanhada de febre). Não existem 
+informações exatas sobre a frequência destes efeitos indesejáveis. Pode não ter sintomas ou, 
+dependendo da gravidade da condição, pode sentir: fadiga, apatia, palidez anormal da pele 
+(palidez), falta de ar, tonturas, dor de cabeça, dor no peito e sensação de frio nas mãos e pés. </p>
+<ul>
+<li>Casos de agranulocitose (um número muito reduzido de glóbulos brancos acompanhado de 
+feridas na boca, febre e uma ou mais infeção(ões)). Pode não ter sintomas ou sentir febre 
+abrupta, arrepios e dor de garganta. </li>
+<li>Reações alérgicas e anafiláticas com os seguintes sintomas: erupção cutânea súbita com 
+comichão (urticária), inchaço das mãos, pés, tornozelos, face, lábios, boca ou garganta (que pode 
+causar dificuldade em engolir ou respirar) e pode sentir que vai desmaiar. </li>
+<li>Síndrome de Encefalopatia Posterior Reversível (SEPR): dor de cabeça, confusão mental, 
+alterações de humor, convulsões e problemas na visão. Podem ser sinais de uma condição 
+chamada síndrome de encefalopatia posterior reversível, a qual foi notificada em alguns doentes 
+tratados com tacrolímus. </li>
+<li>Neuropatia ótica (anormalidades no nervo ótico): problemas na visão tais como visão turva, 
+alteração na visão das cores, dificuldade em focar ou se o seu campo de visão se tornar mais 
+restrito. </li>
+</ul>
+<p>Os efeitos indesejáveis listados abaixo também podem ocorrer depois de tomar Modigraf e podem ser 
+graves: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas): 
+- Aumento de açúcar no sangue, diabetes mellitus, aumento de potássio no sangue 
+- Dificuldade em dormir 
+- Tremores, dores de cabeça 
+- Aumento da tensão arterial 
+- Testes da função hepática alterados 
+- Diarreia, náuseas<br />
+- Problemas renais </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): 
+- Redução do número de células do sangue (plaquetas, glóbulos vermelhos ou glóbulos brancos), 
+aumento do número de glóbulos brancos, alterações no número de glóbulos vermelhos 
+(observados nas análises ao sangue) 
+- Redução de magnésio, fosfato, potássio, cálcio ou sódio no sangue, aumento do volume de 
+sangue, aumento do ácido úrico ou lípidos no sangue, diminuição do apetite, aumento da acidez 
+do sangue, outras alterações nos sais sanguíneos (observados nas análises sanguíneas) 
+- Sintomas de ansiedade, confusão e desorientação, depressão, alterações de humor, pesadelos, 
+alucinações, distúrbios mentais 
+- Desmaios, perturbações da consciência, formigueiro e dormência (por vezes doloroso) das mãos 
+e pés, tonturas, perturbação na capacidade de escrever, distúrbios do sistema nervoso 
+- Aumento da sensibilidade à luz, perturbações visuais 
+- Zumbidos nos ouvidos 
+- Diminuição do fluxo sanguíneo nos vasos cardíacos, aumento da frequência cardíaca 
+- Hemorragia, bloqueio completo ou parcial dos vasos sanguíneos, diminuição da tensão arterial 
+- Falta de ar, alteração dos tecidos do pulmão, acumulação de líquido à volta do pulmão, 
+inflamação da garganta, tosse, sintomas gripais 
+- Inflamações ou úlceras causando dor abdominal ou diarreia, hemorragias no estômago, 
+inflamação e úlcera na boca, acumulação de líquidos no abdómen, vómitos, dores abdominais, 
+indigestão, prisão de ventre, flatulência, inchaço, fezes moles, problemas de estômago 
+- Perturbações no ducto biliar, pele amarelada devido a problemas no fígado, lesão no tecido 
+hepático e inflamação do fígado 
+- Comichão, erupção cutânea, perda de cabelo, acne, aumento da transpiração 
+- Dor nas articulações, nos membros, nas costas e nos pés, espasmos musculares<br />
+- Funcionamento insuficiente dos rins, diminuição da produção de urina, dor ou dificuldade em 
+urinar 
+- Fraqueza geral, febre, acumulação de fluidos no corpo, dor e desconforto, aumento da enzima 
+fosfatase alcalina no sangue, aumento de peso, problemas na perceção da temperatura corporal </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>Alterações na coagulação sanguínea, redução do número de todos os tipos de células sanguíneas 
+(observados nas análises ao sangue)  </li>
+<li>Desidratação </li>
+<li>Redução das proteínas ou açúcar no sangue, fosfatase aumentada no sangue </li>
+<li>Coma, hemorragias no cérebro, AVC (acidente vascular cerebral), paralisia, lesões no cérebro, 
+anomalias da fala e da comunicação, problemas de memória </li>
+<li>Opacificação da lente do olho </li>
+<li>Audição comprometida </li>
+<li>Frequência cardíaca irregular, paragem do batimento cardíaco, redução do desempenho 
+cardíaco, distúrbios no músculo cardíaco, aumento do músculo cardíaco, frequência cardíaca 
+forte, eletrocardiograma alterado, frequência cardíaca e pulso alterados </li>
+<li>Coágulo sanguíneo numa veia de um membro, choque </li>
+<li>Dificuldade em respirar, doenças das vias respiratórias, asma </li>
+<li>Obstrução do intestino, aumento do nível sanguíneo da enzima amilase, refluxo do conteúdo do 
+estômago para a garganta, atraso no esvaziamento do estômago </li>
+<li>Inflamação da pele, sensação de queimadura à luz solar </li>
+<li>Perturbações nas articulações </li>
+</ul>
+<p>Incapacidade de urinar, dor menstrual e hemorragia menstrual anormal 
+- Falência de múltiplos órgãos, sintomas de tipo gripal, aumento da sensibilidade ao calor e ao 
+frio, sensação de pressão torácica, sensação nervosa, sensação anormal, aumento da enzima 
+lactato desidrogenase no sangue, diminuição de peso </p>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em 1000 pessoas): 
+- Pequenas hemorragias na pele devido a coágulos sanguíneos 
+- Aumento da rigidez muscular 
+- Surdez 
+- Acumulação de fluidos à volta do coração 
+- Dificuldade respiratória aguda 
+- Formação de quistos no pâncreas 
+- Problemas com o fluxo sanguíneo no fígado 
+- Aumento de pilosidade 
+- Sede, queda, sensação de pressão no peito, diminuição da mobilidade, úlcera  </p>
+<p>Efeitos indesejáveis muito raros (podem afetar até 1 em 10 000 pessoas): 
+- Fraqueza muscular 
+- Alteração do ecocardiograma 
+- Insuficiência hepática 
+- Dor ao urinar com sangue na urina 
+- Aumento do tecido adiposo </p>
+<p>Crianças e adolescentes 
+As crianças e adolescentes poderão sentir os mesmos efeitos indejesáveis que os adultos. 
+Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar modigraf"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar modigraf"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e na saqueta, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de qualquer temperatura especial de conservação.  </p>
+<p>Após a preparação, a suspensão deve ser imediatamente consumida. </p>
+<p>Não deite fora quaisquer  medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Modigraf 
+- A substância ativa é o tacrolímus. 
+Cada saqueta de Modigraf 0,2 mg granulado contém 0,2 mg de tacrolímus (como mono-
+hidrato). 
+Cada saqueta de Modigraf 1 mg granulado contém 1 mg de tacrolímus (como mono-hidrato). 
+- Os outros componentes são: lactose mono-hidratada, hipromelose (E464) e croscarmelose 
+sódica (E468). 
+Qual o aspecto de Modigraf e conteúdo da embalagem 
+Modigraf granulado para suspensão oral é um granulado branco fornecido em saquetas. 
+Estão disponíveis embalagens contendo 50 saquetas. 
+Titular de AIM 
+Astellas Pharma Europe B.V. 
+Sylviusweg 2333 BE Leiden 
+Países Baixos </p>
+<p>Fabricante 
+Astellas Ireland Co. Ltd. 
+Killorglin, County Kerry, V93FC86<br />
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Astellas Pharma B.V. Branch 
+Tél/Tel: + 32 (0)2 5580 
+Lietuva 
+Astellas Pharma d.o.o. 
+Tel: +370 37 408<br />
+България 
+Астелас Фарма ЕООД<br />
+Teл.: + 359 2 862 53  </p>
+<p>Luxembourg/Luxemburg 
+Astellas Pharma B.V.Branch 
+Belgique/Belgien 
+Tél/Tel: + 32 (0)2 5580 
+Česká republika 
+Astellas Pharma s.r.o. 
+Tel: +420 221 401<br />
+Magyarország 
+Astellas Pharma Kft. 
+Tel.: + 36 1 577 8 
+Danmark 
+Astellas Pharma a/s 
+Tlf: + 45 43 430 
+Malta 
+Astellas Pharmaceuticals AEBE 
+Tel: +30 210 8189 
+Deutschland 
+Astellas Pharma GmbH 
+Tel: + 49 (0)89 454 
+Nederland 
+Astellas Pharma B.V. 
+Tel: + 31 (0)71 5455 </p>
+<p>Eesti 
+Astellas Pharma d.o.o. 
+Tel: +372 6 056<br />
+Norge 
+Astellas Pharma<br />
+Tlf: + 47 66 76 46<br />
+Ελλάδα 
+Astellas Pharmaceuticals AEBE 
+Τηλ: +30 210 8189 
+Österreich 
+Astellas Pharma Ges.m.b.H. 
+Tel: + 43 (0)1 8772 
+España 
+Astellas Pharma S.A. 
+Tel: + 34 91 4952 
+Polska 
+Astellas Pharma Sp.z.o.o. 
+Tel.: + 48 225451<br />
+France 
+Astellas Pharma S.A.S. 
+Tél: + 33 (0)1 55917 
+Portugal 
+Astellas Farma, Lda. 
+Tel: + 351 21 4401 
+Hrvatska 
+Astellas d.o.o. 
+Tel: + 385 1 670 01 România 
+S.C.Astellas Pharma SRL 
+Tel: +40 (0)21 361 04<br />
+Ireland 
+Astellas Pharma Co. Ltd. 
+Tel: + 353 (0)1 4671 
+Slovenija 
+Astellas Pharma d.o.o. 
+Tel: +386 (0) 14011<br />
+Ísland 
+Vistor hf 
+Sími: + 354 535 7000  </p>
+<p>Slovenská republika 
+Astellas Pharma s.r.o.,<br />
+Tel: +421 2 4444 2 
+Italia 
+Astellas Pharma S.p.A. 
+Tel: + 39 02 921 
+Suomi/Finland 
+Astellas Pharma<br />
+Puh/Tel: + 358 (0)9 85606 
+Κύπρος 
+Astellas Pharmaceuticals AEBE 
+Ελλάδα Τηλ: +30 210 8189 
+Sverige 
+Astellas Pharma AB 
+Tel: + 46 (0)40-650 15<br />
+Latvija 
+Astellas Pharma d.o.o. 
+Tel: +371 67 619 
+United Kingdom (Northern Ireland) 
+Astellas Pharma Co. Limited 
+Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671 
+Este folheto foi revisto pela última vez em MM/YYYY.  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1186,6 +1775,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-f4157e79e09e92e0d9cf70a720caf0e5"
 * entry[0].resource = composition-da-f4157e79e09e92e0d9cf70a720caf0e5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf4157e79e09e92e0d9cf70a720caf0e5"
+* entry[=].resource = mpf4157e79e09e92e0d9cf70a720caf0e5
+                            
+                    
+Instance: bundlepackageleaflet-pt-f4157e79e09e92e0d9cf70a720caf0e5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for modigraf Package Leaflet for language pt"
+Description: "ePI document Bundle for modigraf Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-f4157e79e09e92e0d9cf70a720caf0e5"
+* entry[0].resource = composition-pt-f4157e79e09e92e0d9cf70a720caf0e5
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpf4157e79e09e92e0d9cf70a720caf0e5"
@@ -1287,6 +1898,18 @@ RuleSet: f4157e79e09e92e0d9cf70a720caf0e5ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-f4157e79e09e92e0d9cf70a720caf0e5) // modigraf pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

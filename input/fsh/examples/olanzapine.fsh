@@ -885,6 +885,442 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-be86a7120b3e7e0f4ee2c7a69bc3ffec
+InstanceOf: CompositionUvEpi
+Title: "Composition for olanzapine Package Leaflet"
+Description:  "Composition for olanzapine Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbe86a7120b3e7e0f4ee2c7a69bc3ffec)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - olanzapine"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Olanzapina Teva e para que é utilizado 
+2. O que precisa de saber antes de tomar Olanzapina Teva 
+3. Como tomar Olanzapina Teva 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Olanzapina Teva 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é olanzapine e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é olanzapine e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Olanzapina Teva contém uma substância ativa que é a olanzapina. Olanzapina Teva pertence a um 
+grupo de medicamentos denominados antipsicóticos e é utilizado no tratamento das seguintes doenças: 
+- Esquizofrenia, uma doença com sintomas tais como ouvir, ver ou sentir coisas que não existem, 
+ilusões, suspeitas invulgares e retraimento emocional e social. As pessoas com esta doença 
+podem também sentir-se deprimidas, ansiosas ou tensas. 
+- Episódios maníacos, moderados a graves, uma situação com sintomas de excitação ou euforia. </p>
+<p>Olanzapina Teva mostrou prevenir a recorrência destes sintomas em doentes com distúrbios bipolares, 
+cujos episódios maníacos responderam ao tratamento com olanzapina. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar olanzapine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar olanzapine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Olanzapina Teva 
+- Se tem alergia à olanzapina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Uma reação alérgica pode ser reconhecida como um exantema, comichão, face ou 
+lábios inchados ou falta de ar. Se isto acontecer consigo, informe o seu médico. 
+- Se lhe tiverem sido previamente diagnosticados problemas oculares, como por exemplo certos 
+tipos de glaucoma (aumento da pressão ocular). </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Olanzapina Teva. 
+- Não se recomenda o uso de Olanzapina Teva em doentes idosos com demência, dado que 
+podem ocorrer efeitos indesejáveis graves 
+- Fármacos deste tipo, podem causar movimentos alterados, principalmente da face ou da língua. 
+Se isto acontecer após ter-lhe sido administrado Olanzapina Teva, fale com o seu médico. 
+- Muito raramente, os fármacos deste tipo provocam uma combinação de febre, respiração 
+ofegante, sudação, rigidez muscular e entorpecimento ou sonolência. No caso de isso acontecer, 
+contacte o médico imediatamente. 
+- Observou-se um aumento de peso em doentes a tomar Olanzapina Teva. Você e o seu médico 
+devem verificar o seu peso com regularidade. Considere consultar um nutricionista ou pedir 
+ajuda com um plano de dieta, se necessário. 
+- Observaram-se elevados níveis de açúcar e de gordura no sangue (triglicéridos e colesterol) em 
+doentes a tomar Olanzapina Teva. Antes de começar a tomar Olanzapina Teva e regularmente e 
+durante o tratamento, o seu médico deve mandar fazer análises ao sangue para verificar os 
+níveis de açúcar e certos níveis de gordura no sangue. 
+- Informe o seu médico se você ou alguém da sua família tiver história de coágulos no sangue, 
+dado que este tipo de medicamentos têm sido associados com a formação de coágulos 
+sanguíneos. </p>
+<p>Caso sofra de algumas das doenças que se seguem, fale com o seu médico o mais rapidamente 
+possível: 
+- Acidente vascular cerebral (AVC) ou “mini" AVC (sintomas temporários de AVC) 
+- Doença de Parkinson 
+- Problemas da próstata 
+- Bloqueio intestinal (Íleus Paraliticus) 
+- Doença do fígado ou rins 
+- Alterações sanguíneas 
+- Doença cardíaca 
+- Diabetes 
+- Convulsões 
+- Se você sabe que pode ter uma carência em sal, como resultado de diarreia grave prolongada e 
+vómitos (estar doente) ou pelo uso de diuréticos (comprimidos para urinar) </p>
+<p>Se sofre de demência, o seu médico deverá ser informado por si ou pela pessoa que o acompanha, se 
+alguma vez sofreu um AVC ou um “mini" AVC. </p>
+<p>Se tiver mais de 65 anos de idade, como precaução de rotina, a sua pressão arterial deve ser 
+monitorizada pelo seu médico. </p>
+<p>Se tiver mais de 65anos de idade, como precaução de rotina, a sua pressão arterial deve ser 
+monitorizada pelo seu médico. </p>
+<p>Crianças e adolescentes 
+Olanzapina Teva não é para ser tomado por doentes que tenham menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Olanzapina Teva: 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente ou se vier a tomar outros 
+medicamentos. </p>
+<p>Tome apenas outros medicamentos enquanto estiver a tomar Olanzapina Teva, se o seu médico lhe 
+disser que pode fazê-lo. Pode sentir-se sonolento se tomar Olanzapina Teva com antidepressivos ou 
+com medicamentos para a ansiedade ou para o ajudar a dormir (tranquilizantes). 
+Em particular, informe o seu médico se está a tomar: 
+- medicamentos para a doença de Parkinson 
+- carbamazepina (um antiepilético e estabilizador do humor), fluvoxamina (um antidepressivo) ou 
+ciprofloxacina (um antibiótico) - pode ser necessário alterar a sua dose de Olanzapina Teva </p>
+<p>Olanzapina Teva com álcool </p>
+<p>Não tome qualquer bebida com álcool enquanto estiver a tomar Olanzapina Teva, visto que 
+Olanzapina Teva e álcool em simultâneo podem fazer com que se sinta sonolento. </p>
+<p>Gravidez e Aleitamento 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>Não deve tomar este medicamento se estiver a amamentar, dado que pequenas quantidades de 
+Olanzapina Teva podem passar para o leite materno </p>
+<p>Em recém-nascidos cujas mães tomaram Olanzapina Teva no último trimestre de gravidez (últimos 
+três meses) podem ocorrer os seguintes sintomas: tremor, rigidez e/ou fraqueza muscular, sonolência, 
+agitação, problemas respiratórios e dificuldades na alimentação. Se o seu bebé desenvolver algum 
+destes sintomas pode ser necessário contactar o seu médico. </p>
+<p>Condução de veículos e utilização de máquinas 
+Existe um risco de se sentir sonolento quando tomar 
+Olanzapina Teva. Se isto se verificar, não conduza nem trabalhe com quaisquer ferramentas ou 
+máquinas. Informe o seu médico. </p>
+<p>Olanzapina Teva contém lactose </p>
+<p>Olanzapina Teva contém lactose. Se o seu médico lhe disser que você tem intolerância a alguns tipos 
+de açúcar, contacte o seu médico antes de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar olanzapine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar olanzapine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>O seu médico informa-lo-á da quantidade de comprimidos de Olanzapina Teva que deve tomar e 
+durante quanto tempo os deve continuar a tomar. A dose diária de Olanzapina Teva é entre 5 mg e 
+20 mg. Consulte o seu médico se os seus sintomas voltarem, mas não pare de tomar Olanzapina Teva a 
+não ser que o seu médico lhe diga que pode fazê-lo. </p>
+<p>Deve tomar os seus comprimidos de Olanzapina Teva uma vez por dia, seguindo as indicações do seu 
+médico. Tente tomar os seus comprimidos à mesma hora todos os dias. Não interessa se os toma com 
+ou sem alimentos. Os comprimidos de Olanzapina Teva são para administração oral. Deve engolir os 
+comprimidos de Olanzapina Teva inteiros com água. </p>
+<p>Se tomar mais Olanzapina Teva do que deveria: 
+Os doentes que tomarem mais Olanzapina Teva do que deveriam podem ter os seguintes sintomas: 
+batimentos rápidos do coração, agitação/agressividade, problemas na fala, movimentos involuntários 
+(especialmente da face ou da língua) e redução do nível de consciência. Outros sintomas podem ser: 
+confusão mental, convulsões (epilepsia), coma, uma combinação de febre, respiração rápida, suores, 
+rigidez muscular e sedação ou sonolência, diminuição da frequência respiratória, aspiração, pressão 
+arterial alta ou baixa, alterações anormais do ritmo cardíaco. Se tiver algum dos sintomas acima 
+descrito, contacte o seu médico ou o hospital imediatamente. Mostre ao médico a sua embalagem de 
+comprimidos. </p>
+<p>Caso se tenha esquecido de tomar Olanzapina Teva: 
+Tome os comprimidos assim que se lembrar. Não tome duas doses num dia. </p>
+<p>Se parar de tomar Olanzapina Teva 
+Não pare de tomar os seus comprimidos só porque se sente melhor. É importante que continue a tomar 
+Olanzapina Teva durante o tempo que o seu médico lhe indicou. 
+Se parar abruptamente de tomar Olanzapina Teva, podem ocorrer sintomas como sudação, dificuldade 
+em dormir, tremor, ansiedade ou náuseas e vómitos. O seu médico pode sugerir-lhe que vá diminuindo 
+gradualmente a dose antes de parar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Informe o seu médico imediatamente se tiver; 
+- movimentos involuntários (um efeito indesejável frequente que pode afetar 1 em cada 
+10 pessoas) especialmente da face ou da língua; 
+- coágulos de sangue nas veias, (um efeito indesejável pouco frequente que pode afetar 1 em cada 
+100 pessoas) especialmente nas pernas (os sintomas incluem inchaço, dor e vermelhidão nas 
+pernas), os quais podem circular através dos vasos sanguíneos até aos pulmões causando dores 
+no peito e dificuldade em respirar. Se notar alguns destes sintomas, procure aconselhamento 
+médico imediatamente. 
+- uma combinação de febre, respiração acelerada, sudação, rigidez muscular e sonolência ou 
+tonturas (a frequência deste efeito indesejável não pode ser calculada a partir dos dados 
+disponíveis). </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais do que 1 em cada 10 pessoas) incluem 
+aumento de peso; sonolência e aumento dos níveis de prolactina no sangue. Na fase inicial do 
+tratamento, algumas pessoas podem sentir-se tontas ou desmaiar (com diminuição da frequência 
+cardíaca), especialmente quando se levantam após estarem sentadas ou deitadas. Estes sintomas são 
+passageiros, mas no caso de não passarem, informe o seu médico. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas) incluem alterações dos níveis 
+de algumas células sanguíneas e gorduras em circulação e no início do tratamento; aumentos 
+temporários das enzimas do fígado; aumento de açúcar no sangue e na urina; aumento dos níveis de 
+ácido úrico e da creatina fosfoquinase no sangue; aumento do apetite; tonturas; agitação; tremor; 
+movimentos musculares estranhos (disquinésia), prisão de ventre, secura de boca; erupção cutânea; 
+falta de forças; fadiga extrema; retenção de fluidos, causando inchaço das mãos, dos tornozelos ou dos 
+pés; febre, dores nas articulações e disfunções sexuais tais como diminuição da libido em homens e 
+mulheres ou disfunção erétil nos homens. </p>
+<p>Efeitos indesejáveis pouco frequentes: (podem afetar até 1 em cada 100 pessoas) incluem 
+hipersensibilidade p.ex. inchaço da boca e da garganta, comichão,vermelhidão na pele); início ou 
+agravamento da diabetes, ocasionalmente associado com cetoacidose (cetonas no sangue e na urina) 
+ou coma; convulsões, normalmente associadas a uma história clínica de convulsões (epilepsia); rigidez 
+muscular ou espasmos (incluindo movimentos giratórios dos olhos); síndrome das pernas inquietas; 
+problemas no discurso; gaguez; abrandamento do ritmo cardíaco; sensibilidade à luz; sangramento do 
+nariz; distensão abdominal; baba; perda de memória ou esquecimento; incontinência urinária; 
+dificuldade em urinar; alopécia; ausência ou diminuição dos períodos menstruais e alterações 
+mamárias em homens e mulheres, tais como produção anormal de leite ou crescimento anormal. </p>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em cada 1.000 pessoas) incluem diminuição da 
+temperatura normal do corpo; ritmo cardíaco anormal; morte súbita e inexplicável; inflamação do 
+pâncreas, provocando uma forte dor de estômago, febre e náusea; doença do fígado, visível sob a 
+forma de amarelecimento da pele e dos olhos; doença muscular que se apresenta sob a forma de dores 
+fortes inexplicáveis; e/ou ereção prolongada e/ou dolorosa. </p>
+<p>Efeitos indesejáveis muito raros incluem reações alérgicas graves, tais como Reação a fármaco com 
+eosinofilia e sintomas sistémicos (DRESS). A DRESS manifesta-se inicialmente como sintomas 
+gripais com uma erupção cutânea no rosto e, posteriormente erupção cutânea alargada, temperatura 
+alta, gânglios linfáticos aumentados de volume, aumento dos níveis das enzimas hepáticas nas análises 
+de sangue e aumento de um tipo de glóbulos brancos (eosinofilia). </p>
+<p>Enquanto estiverem a tomar olanzapina, os doentes idosos com demência estão sujeitos à ocorrência 
+de acidente vascular cerebral, pneumonia, incontinência urinária, quedas, fadiga extrema, alucinações 
+visuais, febre, vermelhidão da pele e problemas na marcha. Foram notificados alguns casos fatais neste 
+grupo específico de doentes. </p>
+<p>Em doentes com a doença de Parkinson, Olanzapina Teva pode agravar os sintomas. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar olanzapine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar olanzapine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior após “EXP". 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 25 ºC. Conservar na sua embalagem de origem para proteger da luz. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Olanzapina Teva 
+- A substância ativa é a olanzapina. 
+Cada comprimido revestido por película de Olanzapina Teva 2,5 mg contém 2,5 mg de 
+substância ativa. 
+Cada comprimido revestido por película de Olanzapina Teva 5 mg contém 5 mg de substância 
+ativa. 
+Cada comprimido revestido por película de Olanzapina Teva 7,5 mg contém 7,5 mg de 
+substância ativa. 
+Cada comprimido revestido por película de Olanzapina Teva 10 mg contém 10 mg de 
+substância ativa. 
+Cada comprimido revestido por película de Olanzapina Teva 15 mg contém 15 mg de 
+substância ativa. 
+Cada comprimido revestido por película de Olanzapina Teva 20 mg contém 20 mg de 
+substância ativa. 
+- Os outros componentes são: 
+Núcleo do comprimido: lactose mono-hidratada, hidroxipropilcelulose, crospovidona (tipo A), 
+silica coloidal anidra, celulose microcristalina, estearato de magnésio. 
+Revestimento do comprimido: hipromelose, polidextrose, triacetato de glicerol, macrogol 8000, 
+dióxido de titânio (E171). Além disso, a dosagem de 15 mg contem indigotina (E132) e a 
+dosagem de 20 mg contem óxido de ferro vermelho (E172). </p>
+<p>Qual o aspeto de Olanzapina Teva e conteúdo da embalagem </p>
+<p>Os comprimidos revestidos por película de Olanzapina Teva de 2,5 mg são brancos, biconvexos, 
+redondos, com a gravação “OL 2,5" num lado e lisos no outro. 
+Os comprimidos revestidos por película de Olanzapina Teva de 5 mg são brancos, biconvexos, 
+redondos, com a gravação “OL 5" num lado e lisos no outro. 
+Os comprimidos revestidos por película de Olanzapina Teva de 7,5 mg são brancos, biconvexos, 
+redondos, com a gravação “OL 7,5" num lado e lisos no outro. 
+Os comprimidos revestidos por película de Olanzapina Teva de 10 mg são brancos, biconvexos, 
+redondos, com a gravação “OL 10" num lado e lisos no outro. 
+Os comprimidos revestidos por película de Olanzapina Teva de 15 mg são azuis claros, biconvexos, 
+ovais, com a gravação “OL 15" num lado e lisos no outro. 
+Os comprimidos revestidos por película de Olanzapina Teva de 20 mg são cor-de-rosa, biconvexos, 
+ovais, com a gravação “OL 20" num lado e lisos no outro. </p>
+<p>Os comprimidos revestidos por película de Olanzapina Teva de 2,5 mg estão disponíveis em 
+embalagens contendo 28, 30, 35, 56, 70 ou 98 comprimidos revestidos por película. 
+Os comprimidos revestidos por película de Olanzapina Teva de 5 mg estão disponíveis em embalagens 
+contendo 28, 28 x 1, 30, 30 x 1, 35, 35 x 1, 50, 50 x 1, 56, 56 x 1, 70, 70 x 1, 98 ou 
+98 x 1 comprimidos revestidos por película. 
+Os comprimidos revestidos por película de Olanzapina Teva de 7,5 mg estão disponíveis em 
+embalagens contendo 28, 28 x 1, 30, 30 x 1, 35, 35 x 1, 56, 56 x 1, 60, 70, 70 x 1, 98 ou 
+98 x 1 comprimidos revestidos por película. 
+Os comprimidos revestidos por película de Olanzapina Teva de 10 mg estão disponíveis em 
+embalagens contendo 7, 7 x 1, 28, 28 x 1, 30, 30 x 1, 35, 35 x 1, 50, 50 x 1, 56, 56 x 1, 60, 70, 70 x 1, 
+98 ou 98 x 1 comprimidos revestidos por película. 
+Os comprimidos revestidos por película de Olanzapina Teva de 15 mg estão disponíveis em 
+embalagens contendo 28, 30, 35, 50, 56, 70 ou 98 comprimidos revestidos por película. 
+Os comprimidos de Olanzapina Teva de 20 mg estão disponíveis em embalagens contendo 28, 30, 35 , 
+56 ou 70 comprimidos revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado: 
+Teva B.V. 
+Swensweg 5 
+2031GA Haarlem 
+Holanda </p>
+<p>Fabricante: 
+Teva Pharmaceutical Works Co. Ltd 
+Pallagi út 4042 Debrecen 
+Hungria </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+SanoSwiss UAB 
+Litauen 
+Tlf: +370 70001 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+TEVA HELLAS A.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+TEVA HELLAS A.E. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Este folheto foi revisto pela última vez em &lt;{MM/YYYY}&gt;&lt;{mês de YYYY}&gt;. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -926,6 +1362,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-be86a7120b3e7e0f4ee2c7a69bc3ffec"
 * entry[0].resource = composition-da-be86a7120b3e7e0f4ee2c7a69bc3ffec
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbe86a7120b3e7e0f4ee2c7a69bc3ffec"
+* entry[=].resource = mpbe86a7120b3e7e0f4ee2c7a69bc3ffec
+                            
+                    
+Instance: bundlepackageleaflet-pt-be86a7120b3e7e0f4ee2c7a69bc3ffec
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for olanzapine Package Leaflet for language pt"
+Description: "ePI document Bundle for olanzapine Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-be86a7120b3e7e0f4ee2c7a69bc3ffec"
+* entry[0].resource = composition-pt-be86a7120b3e7e0f4ee2c7a69bc3ffec
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpbe86a7120b3e7e0f4ee2c7a69bc3ffec"
@@ -1027,6 +1485,18 @@ RuleSet: be86a7120b3e7e0f4ee2c7a69bc3ffecListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-be86a7120b3e7e0f4ee2c7a69bc3ffec) // olanzapine pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

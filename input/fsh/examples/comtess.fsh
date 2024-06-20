@@ -816,6 +816,343 @@ hjemmeside http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-faa7baf422434e913a351146a7b6b220
+InstanceOf: CompositionUvEpi
+Title: "Composition for comtess Package Leaflet"
+Description:  "Composition for comtess Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfaa7baf422434e913a351146a7b6b220)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - comtess"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Comtess e para que é utilizado
+2. O que precisa de saber antes de tomar Comtess
+3. Como tomar Comtess
+4. Efeitos indesejáveis possíveis
+5. Como conservar Comtess
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é comtess e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é comtess e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Os comprimidos de Comtess contêm entacapona e destinam-se a ser utilizados juntamente com a 
+levodopa para tratar a doença de Parkinson. Comtess ajuda a levodopa no alívio dos sintomas da 
+doença de Parkinson. Comtess não tem efeito no alívio dos sintomas da doença de Parkinson a não ser 
+que seja tomado com a levodopa.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar comtess"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar comtess"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Comtess
+
+se tem alergia à entacapona ou ao amendoim ou à soja ou a qualquer outro componente deste 
+medicamento (indicados na secção 6);
+
+se tiver um tumor da glândula supra-renal (conhecido como feocromocitoma; este pode 
+aumentar o risco de uma elevação da pressão sanguínea grave);
+
+se está a tomar certos antidepressivos (pergunte ao seu médico ou farmacêutico se o seu 
+medicamento antidepressivo pode ser tomado juntamente com Comtess);
+
+se tiver doença do fígado;
+
+se alguma vez sofreu de uma reação rara aos medicamentos antipsicóticos chamada síndrome 
+maligna dos neurolépticos (SMN). Ver secção 4 Efeitos indesejáveis possíveis para as 
+características da SMN;
+
+se alguma vez sofreu de uma perturbação muscular rara chamada rabdomiólise que não tenha 
+sido causada por um traumatismo.
+Advertências e precauções
+Fale com o seu médico ou farmacêutico antes de tomar Comtess:
+
+se alguma vez teve um ataque cardíaco ou qualquer outra doença do coração;
+
+se estiver a tomar um medicamento que possa causar tonturas ou atordoamento (diminuição da 
+tensão arterial), quando se levanta de uma cadeira ou de uma cama;
+
+se tiver diarreia prolongada, consulte o seu médico pois tal pode ser um sinal de inflamação do 
+cólon;
+20
+
+se sofrer de diarreia, é recomendado que o seu peso seja vigiado de modo a evitar um potencial 
+decréscimo acentuado de peso;
+
+se sofrer de perda de apetite aumentada, astenia, exaustão e perda de peso num curto período de 
+tempo, deverá ser considerada a necessidade de uma avaliação médica geral, incluindo uma 
+avaliação da função do seu fígado.
+Informe o seu médico se você ou a sua família/cuidador notar que está a desenvolver anseios ou 
+desejos de se comportar de formas que não são habituais para si ou se não conseguir resistir ao 
+impulso, vontade ou tentação de efetuar algumas atividades que lhe possam causar danos a si ou a 
+outros. Estes comportamentos são chamados distúrbios do controlo de impulsos e podem incluir vício 
+de jogo, comer ou gastar em excesso, motivação sexual anormalmente elevada ou preocupação com o 
+aumento de pensamentos ou sensações sexuais. O seu médico pode rever os seus tratamentos.
+Como os comprimidos de Comtess serão tomados juntamente com outros medicamentos contendo 
+levodopa, por favor leia também cuidadosamente os folhetos informativos destes medicamentos.
+As doses de outros medicamentos para tratar a doença de Parkinson poderão necessitar de ser 
+ajustadas quando iniciar o seu tratamento com Comtess. Siga as instruções que o seu médico lhe 
+forneceu.
+A Síndrome maligna dos neurolépticos (SMN) é uma reação grave mas rara a alguns medicamentos e 
+pode ocorrer especialmente quando Comtess ou outros medicamentos para tratar a doença de 
+Parkinson são abruptamente interrompidos ou a sua dose é reduzida. Para consultar as características 
+da SMN, ver Secção 4 Efeitos indesejáveis possíveis. O seu médico poderá aconselhá-lo a 
+interromper lentamente o tratamento com Comtess e outros medicamentos para tratar a doença de 
+Parkinson.
+Comtess, tomado com levodopa poderá causar-lhe sonolência e por vezes fazer com que adormeça 
+repentinamente. Caso isto lhe suceda, não deverá conduzir ou utilizar ferramentas ou máquinas (ver 
+“Condução de veículos e utilização de máquinas").
+Outros medicamentos e Comtess
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Em particular, informe o se médico se estiver a tomar qualquer um dos 
+seguintes medicamentos:
+
+rimiterol, isoprenalina, adrenalina, noradrenalina, dopamina, dobutamina, alfa-metildopa, 
+apomorfina;
+
+antidepressivos incluindo desipramina, maprotilina, venlafaxina, paroxetina;
+
+varfarina, usada para diluir o sangue;
+
+suplementos de ferro. Comtess poderá dificultar a sua digestão do ferro. Por isso, não tome 
+Comtess e suplementos de ferro ao mesmo tempo. Após tomar um deles, espere pelo menos 2 
+a 3 horas antes de tomar o outro.
+Gravidez, amamentação e fertilidade
+Não utilize Comtess durante a gravidez ou se estiver a amamentar.
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Condução de veículos e utilização de máquinas
+Comtess, tomado juntamente com a levodopa pode baixar a sua pressão sanguínea, a qual pode fazer 
+com que se sinta tonto ou com vertigens. Seja particularmente cuidadoso quando conduzir ou utilizar 
+ferramentas ou máquinas.
+Adicionalmente, Comtess, tomado com a levodopa, pode fazer com que se sinta muito sonolento, ou 
+fazer com que de vez em quando adormeça subitamente.
+21
+Não conduza ou opere máquinas se sentir estes efeitos indesejáveis.
+Comtess contém lecitina de soja e sódio
+Comtess contém lecitina de soja. Se tem alergia ao amendoim ou à soja, não utilize este 
+medicamento. 
+Este medicamento contém 7,9 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
+cada comprimido. A dose diária máxima recomendada (10 comprimidos) contém 79 mg de sódio. Isto 
+é equivalente a 4% da ingestão diária máxima de sódio recomendada na dieta para um adulto.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar comtess"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar comtess"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.
+Comtess é tomado juntamente com medicamentos que contêm levodopa (quer preparações de 
+levodopa/carbidopa quer preparações de levodopa/benserazida). Poderá também utilizar ao mesmo 
+tempo outros medicamentos para tratar a doença de Parkinson.
+A dose recomendada de Comtess é um comprimido de 200 mg com cada dose de levodopa. A dose 
+máxima recomendada é 10 comprimidos por dia, isto é, 2.000 mg de Comtess.
+Se estiver a ser submetido a diálise devido a insuficiência renal, o seu médico poderá dizer-lhe para 
+aumentar o tempo entre as doses.
+Para abrir o frasco pela primeira vez: abra a tampa e de 
+seguida pressione o selo com o polegar até ele romper. 
+Ver figura 1. Figura 1
+Utilização em crianças e adolescentes
+A experiência com Comtess em doentes com menos de 18 anos é limitada. Portanto, a utilização de 
+Comtess em crianças ou adolescentes não pode ser recomendada.
+Se tomar mais Comtess do que deveria
+No caso de sobredosagem, consulte o seu médico, farmacêutico ou o hospital mais próximo
+imediatamente.
+Caso se tenha esquecido de tomar Comtess
+Se se esquecer de tomar o comprimido de Comtess com a sua dose de levodopa, deverá continuar o 
+tratamento tomando o próximo comprimido de Comtess com a sua próxima dose de levodopa.
+Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar.
+Se parar de tomar Comtess
+Não pare de tomar Comtess, a não ser que o seu médico lhe dê instruções para tal.
+Quando parar o tratamento, o seu médico poderá ter necessidade de reajustar a dosagem da sua 
+restante medicação para tratar a doença de Parkinson. A paragem repentina de Comtess e de outros 
+medicamentos para tratar a doença de Parkinson pode resultar em efeitos indesejáveis. Ver Secção 2 
+Advertências e precauções.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+22
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Normalmente, os efeitos indesejáveis causados pelo Comtess são 
+ligeiros a moderados.
+Alguns dos efeitos indesejáveis são frequentemente causados pelos efeitos aumentados da 
+terapêutica com levodopa e são mais frequentes no início do tratamento. Se sentir tais efeitos no 
+início do tratamento com Comtess, deve contactar o seu médico que poderá decidir ajustar a sua 
+dosagem de levodopa.
+Muito frequentes (podem afetar mais de 1 em 10 pessoas):
+
+Movimentos involuntários com dificuldade em efetuar movimentos voluntários (discinésias);
+
+má disposição (náuseas);
+
+alteração inofensiva da cor da urina para castanho-avermelhado.
+Frequentes (podem afetar até 1 em 10 pessoas):
+
+Movimentos excessivos (hipercinésias), agravamento dos sintomas da doença de Parkinson, 
+cãibras musculares prolongadas (distonia);
+
+má disposição (vómitos), diarreia, dor abdominal, obstipação, secura da boca;
+
+tonturas, cansaço, aumento de transpiração, queda;
+
+alucinações (ver/ouvir/sentir/cheirar coisas que não estão realmente presentes), insónia, sonhos 
+intensos e confusão;
+
+acontecimentos cardíacos ou arteriais (por ex: dor no peito).
+Pouco frequentes (podem afetar até 1 em 100 pessoas):
+
+Ataque cardíaco.
+Raros (podem afetar até 1 em 1.000 pessoas):
+
+Erupções cutâneas;
+
+resultados anormais dos testes da função hepática.
+Muito raros (podem afetar até 1 em 10.000 pessoas):
+
+Agitação;
+
+diminuição do apetite, perda de peso;
+
+urticária.
+Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis):
+
+Inflamação do cólon (colite), inflamação do fígado (hepatite) com amarelecimento da pele e da 
+zona branca dos olhos;
+
+descoloração da pele, cabelo, barba e unhas.
+Quando Comtess é administrado em doses elevadas:
+Os seguintes efeitos indesejáveis são mais frequentes com doses de 1.400 a 2.000 mg por dia:
+
+Movimentos incontroláveis;
+
+náuseas;
+
+dor abdominal.
+Outros efeitos indesejáveis importantes que podem ocorrer:
+
+Comtess tomado juntamente com a levodopa pode raramente fazê-lo sentir-se muito sonolento 
+durante o dia e pode fazer com que adormeça subitamente;
+23
+
+a Síndrome maligna dos neurolépticos (SMN) é uma reação rara grave a medicamentos usados 
+para tratar doenças do sistema nervoso. É caracterizada por rigidez, contração dos músculos, 
+tremores, agitação, confusão, coma, temperatura corporal elevada, aumento da frequência 
+cardíaca e tensão arterial instável;
+
+uma doença muscular rara (rabdomiólise) que causa dor, sensibilidade e fraqueza muscular e 
+que pode levar a problemas renais.
+Pode sentir os seguintes efeitos indesejáveis:
+
+Incapacidade de resistir ao impulso de efetuar uma ação que possa ser prejudicial, o que pode 
+incluir:
+
+forte impulso para jogar em excesso apesar de consequências pessoais ou familiares graves;
+
+interesse sexual alterado ou aumentado e comportamento de preocupação significativa para 
+si ou para outros, por exemplo, aumento do impulso sexual;
+
+compras ou gastos excessivos e incontroláveis;
+
+comer sofregamente (comer grandes quantidades de comida num período de tempo curto) 
+ou comer compulsivamente (comer mais comida do que o normal e mais do que seria 
+necessário para satisfazer a sua fome).
+Informe o seu médico se apresentar algum destes comportamentos; ele discutirá formas de 
+gerir ou reduzir os sintomas.
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar comtess"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar comtess"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo 
+do frasco. O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer precauções especiais de conservação.
+Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar 
+fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Comtess</h2>
+<h2>A substância ativa é a entacapona. Cada comprimido contém 200 mg de entacapona.</h2>
+<p>Os outros componentes do núcleo do comprimido são celulose microcristalina, croscarmelose 
+sódica, povidona e estearato de magnésio.
+-
+A película de revestimento contém álcool polivinílico, talco, macrogol, lecitina de soja, óxido 
+de ferro amarelo (E 172), óxido de ferro vermelho (E 172) e dióxido de titânio (E 171).
+2</p>         </div>"""      
+
+
+
 
 
                     
@@ -857,6 +1194,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-faa7baf422434e913a351146a7b6b220"
 * entry[0].resource = composition-da-faa7baf422434e913a351146a7b6b220
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfaa7baf422434e913a351146a7b6b220"
+* entry[=].resource = mpfaa7baf422434e913a351146a7b6b220
+                            
+                    
+Instance: bundlepackageleaflet-pt-faa7baf422434e913a351146a7b6b220
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for comtess Package Leaflet for language pt"
+Description: "ePI document Bundle for comtess Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-faa7baf422434e913a351146a7b6b220"
+* entry[0].resource = composition-pt-faa7baf422434e913a351146a7b6b220
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpfaa7baf422434e913a351146a7b6b220"
@@ -958,6 +1317,18 @@ RuleSet: faa7baf422434e913a351146a7b6b220ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-faa7baf422434e913a351146a7b6b220) // comtess pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

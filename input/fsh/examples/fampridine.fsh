@@ -603,6 +603,351 @@ hjemmeside: http://www.ema.europa.eu/. </p>         </div>"""
 
 
 
+Instance: composition-pt-63de51a4556de5e7a2f7d84ffc03fbf9
+InstanceOf: CompositionUvEpi
+Title: "Composition for fampridine Package Leaflet"
+Description:  "Composition for fampridine Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp63de51a4556de5e7a2f7d84ffc03fbf9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - fampridine"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Fampridina Accord e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Fampridina Accord </li>
+<li>Como tomar Fampridina Accord </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Fampridina Accord </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é fampridine e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é fampridine e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fampridina Accord contém a substância ativa fampridina que pertence a um grupo de medicamentos 
+chamados bloqueadores dos canais de potássio. Funcionam evitando que o potássio saia das células 
+nervosas que foram danificadas pela esclerose múltipla. Pensa-se que este medicamento funciona ao 
+deixar os impulsos passarem normalmente pelo nervo, o que lhe permite andar melhor. </p>
+<p>Fampridina Accord é um medicamento utilizado para melhorar a marcha em adultos (com idade maior 
+ou igual a 18 anos) com perturbações na marcha associadas à esclerose múltipla (EM). Na esclerose 
+múltipla, a inflamação destrói a bainha protetora que envolve os nervos, levando a fraqueza dos 
+músculos, rigidez muscular e dificuldade em andar. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar fampridine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar fampridine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Fampridina Accord </p>
+<p>− 
+se tem alergia à fampridina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6) 
+− 
+se alguma vez teve uma convulsão (também conhecida como um ataque ou espasmos) 
+− 
+se o seu médico ou enfermeiro o tiver informado que tem problemas de rins moderados ou 
+graves 
+− 
+se estiver a tomar um medicamento chamado cimetidina 
+− 
+se estiver a tomar outros medicamentos contendo fampridina. Isto pode aumentar o risco de 
+efeitos indesejáveis graves. </p>
+<p>Informe o seu médico e não tome Fampridina Accord se alguma destas situações se aplicar a si. </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Fampridina Accord: 
+− 
+se sentir os seus próprios batimentos cardíacos (palpitações) 
+− 
+se tem tendência aumentada (suscetibilidade) a infeções 
+− 
+se tem algum fator de risco ou está a tomar medicamentos que afetem o seu risco de ataques 
+epiléticos (convulsões) 
+− 
+se tiver sido informado por um médico que tem problemas ligeiros nos seus rins<br />
+− 
+se tem história de reações alérgicas </p>
+<p>Deve utilizar um auxílio de marcha, como uma bengala, conforme seja necessário, porque este 
+medicamento poderá provocar tonturas ou desequilíbrio, o que poderá resultar num aumento do risco 
+de quedas. </p>
+<p>Informe o seu médico antes de tomar Fampridina Accord se alguma destas situações se aplicar a si. </p>
+<p>Crianças e adolescentes </p>
+<p>Este medicamento não deve ser utilizado em crianças ou adolescentes com menos de 18 anos de idade. </p>
+<p>Idosos </p>
+<p>Antes e durante o tratamento, o seu médico pode querer verificar se os seus rins estão a funcionar bem. </p>
+<p>Outros medicamentos e Fampridina Accord </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Não tome Fampridina Accord se estiver a tomar outros medicamentos contendo fampridina. </p>
+<p>Outros medicamentos que afetam os rins </p>
+<p>O seu médico terá um cuidado especial se a fampridina for tomada ao mesmo tempo que qualquer 
+outro medicamento que possa afetar a forma como os seus rins eliminam medicamentos, como por 
+exemplo carvedilol, propranolol e metformina. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensar estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Fampridina Accord não é recomendado durante a gravidez. </p>
+<p>O seu médico vai ponderar o benefício do tratamento com Fampridina Accord contra o risco para o 
+seu bebé. </p>
+<p>Não deve amamentar enquanto toma este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Fampridina Accord pode ter um efeito sobre a capacidade de conduzir e utilizar máquinas, porque 
+pode causar tonturas. Certifique-se que não sente esse efeito antes de conduzir veículos ou utilizar 
+máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar fampridine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar fampridine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. Fampridina Accord só está disponível mediante receita médica e sob a 
+vigilância de médicos com experiência em esclerose múltipla. </p>
+<p>O médico irá fornecer-lhe uma receita inicial para 2 a 4 semanas. Após 2 a 4 semanas, o tratamento 
+será reavaliado. </p>
+<p>A dose recomendada é </p>
+<p>Um comprimido de manhã e um comprimido à noite (com um intervalo de 12 horas). Não tome mais 
+de dois comprimidos por dia. Deve deixar um intervalo de 12 horas entre cada comprimido. Não 
+tome os comprimidos em intervalos menores que 12 horas. </p>
+<p>Fampridina Accord é para utilização por via oral. </p>
+<p>Engula o comprimido inteiro, com água. Não divida, esmague, dissolva, chupe nem mastigue o 
+comprimido. Se o fizer, pode aumentar o seu risco de efeitos indesejáveis. </p>
+<p>Este medicamento deve ser tomado sem alimentos, com o estômago vazio. </p>
+<p>Se tomar mais Fampridina Accord do que deveria </p>
+<p>Contacte o seu médico imediatamente se tomar demasiados comprimidos. 
+Leve a embalagem de Fampridina Accord consigo quando for ao médico. 
+Se tiver tomado mais comprimidos do que deveria (sobredosagem) pode ter mais suor, tremores 
+ligeiros, tonturas, confusão, perda de memória (amnésia) e ataques epiléticos (convulsão). Pode 
+também sentir outros efeitos não referidos aqui. </p>
+<p>Caso se tenha esquecido de tomar Fampridina Accord </p>
+<p>Caso se tenha esquecido de tomar um comprimido, não tome dois comprimidos de uma só vez para 
+compensar a dose que se esqueceu de tomar. Tem sempre que deixar um intervalo de 12 horas entre 
+cada comprimido. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Se tiver uma convulsão pare de tomar Fampridina Accord e informe o seu médico imediatamente. </p>
+<p>Se tiver um ou mais dos seguintes sintomas alérgicos (hipersensibilidade): inchaço do rosto, boca, 
+lábios, garganta ou língua, a pele ficar vermelha ou com comichão, aperto no peito e problemas 
+respiratórios; pare de tomar Fampridina Accord e procure o seu médico imediatamente. </p>
+<p>Os efeitos indesejáveis são referidos abaixo de acordo com a sua frequência: </p>
+<p>Efeitos indesejáveis muito frequentes </p>
+<p>Podem afetar mais de 1 em 10 pessoas: </p>
+<ul>
+<li>Infeção do aparelho urinário </li>
+</ul>
+<p>Efeitos indesejáveis frequentes </p>
+<p>Podem afetar até 1 em 10 pessoas: </p>
+<ul>
+<li>
+<p>Sentir que perde o equilíbrio </p>
+</li>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Sensação de andar à roda (vertigem) </p>
+</li>
+<li>
+<p>Dores de cabeça </p>
+</li>
+<li>
+<p>Sensação de fraqueza e cansaço </p>
+</li>
+<li>
+<p>Dificuldade em dormir </p>
+</li>
+<li>
+<p>Ansiedade </p>
+</li>
+<li>
+<p>Tremores ligeiros </p>
+</li>
+<li>
+<p>Dormência ou formigueiro na pele </p>
+</li>
+<li>
+<p>Dor de garganta </p>
+</li>
+<li>
+<p>Constipação comum (nasofaringite) </p>
+</li>
+<li>
+<p>Gripe (influenza) </p>
+</li>
+<li>
+<p>Infeção viral </p>
+</li>
+<li>
+<p>Dificuldade em respirar (falta de ar) </p>
+</li>
+<li>
+<p>Sensação de enjoo (náuseas) </p>
+</li>
+<li>
+<p>Estar enjoado (vómitos) </p>
+</li>
+<li>
+<p>Prisão de ventre </p>
+</li>
+<li>
+<p>Mal-estar do estômago </p>
+</li>
+<li>
+<p>Dores nas costas </p>
+</li>
+<li>
+<p>Sentir os batimentos cardíacos (palpitações) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes </p>
+<p>Podem afetar até 1 em 100 pessoas: </p>
+<ul>
+<li>
+<p>Ataques epiléticos (convulsões) </p>
+</li>
+<li>
+<p>Reação alérgica (hipersensibilidade) </p>
+</li>
+<li>
+<p>Alergia grave (reação anafilática) </p>
+</li>
+<li>
+<p>Inchaço da face, lábios, boca ou língua (angioedema) </p>
+</li>
+<li>
+<p>Aparecimento ou agravamento da dor no nervo da face (nevralgia do trigémeo) </p>
+</li>
+<li>
+<p>Frequência cardíaca acelerada (taquicardia) </p>
+</li>
+<li>
+<p>Tonturas ou perda de consciência (hipotensão) </p>
+</li>
+<li>
+<p>Erupção na pele/erupção na pele com comichão (urticária) </p>
+</li>
+<li>
+<p>Desconforto no peito </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar fampridine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar fampridine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após EXP. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não precisa de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Fampridina Accord  </p>
+<ul>
+<li>A substância ativa é a fampridina.  </li>
+<li>Cada comprimido de libertação prolongada contém 10 mg de fampridina.  </li>
+<li>Os outros componentes são:  </li>
+<li>Núcleo do comprimido: Hipromelose (E464), Sílica anidra coloidal (E551), celulose 
+microcristalina (E460), estearato de magnésio (E572);  </li>
+<li>Revestimento por película: hipromelose (E464), dióxido de titânio (E171), macrogol (E1521) </li>
+</ul>
+<p>Qual o aspeto de Fampridina Accord e conteúdo da embalagem </p>
+<p>Comprimidos revestidos por película, brancos a esbranquiçados, de forma oval, biconvexos, com 
+bordos em bisel, com dimensões de aproximadamente 13,1 x 8,1 mm, com a gravação “FH6" num dos 
+lados e liso no outro lado. </p>
+<p>Fampridina Accord 10 mg comprimidos de libertação prolongada  são acondicionados em embalagens 
+blister perfurado  para dose unitária contendo 28 x 1 ou 56 x 1 comprimidos. </p>
+<p>É possível que não sejam comercializadas todas as apresentações.  </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Accord Healthcare S.L.U. 
+World Trade Center, Moll de Barcelona s/n,<br />
+Edifici Est, 6a Planta,<br />
+Barcelona, 08Espanha </p>
+<p>Fabricante 
+Accord Healthcare Polska Sp.z.o.o. 
+Ul. Lutomierska 50, 
+95-200, Pabianice, Polónia </p>
+<p>Pharmadox Healthcare Limited 
+KW20A Kordin Industrial Park, Paola PLA3000, Malta </p>
+<p>Laboratori Fundació DAU 
+C/ C, 12-14 Pol. Ind. Zona Franca, 08040 Barcelona, Espanha </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -644,6 +989,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-63de51a4556de5e7a2f7d84ffc03fbf9"
 * entry[0].resource = composition-da-63de51a4556de5e7a2f7d84ffc03fbf9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp63de51a4556de5e7a2f7d84ffc03fbf9"
+* entry[=].resource = mp63de51a4556de5e7a2f7d84ffc03fbf9
+                            
+                    
+Instance: bundlepackageleaflet-pt-63de51a4556de5e7a2f7d84ffc03fbf9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fampridine Package Leaflet for language pt"
+Description: "ePI document Bundle for fampridine Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-63de51a4556de5e7a2f7d84ffc03fbf9"
+* entry[0].resource = composition-pt-63de51a4556de5e7a2f7d84ffc03fbf9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp63de51a4556de5e7a2f7d84ffc03fbf9"
@@ -745,6 +1112,18 @@ RuleSet: 63de51a4556de5e7a2f7d84ffc03fbf9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-63de51a4556de5e7a2f7d84ffc03fbf9) // fampridine pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

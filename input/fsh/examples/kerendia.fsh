@@ -747,6 +747,398 @@ hjemmeside: http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-ea2d9477557df2cb8572d829cd765247
+InstanceOf: CompositionUvEpi
+Title: "Composition for kerendia Package Leaflet"
+Description:  "Composition for kerendia Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpea2d9477557df2cb8572d829cd765247)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - kerendia"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Kerendia e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Kerendia </li>
+<li>Como tomar Kerendia </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Kerendia </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é kerendia e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é kerendia e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kerendia contém a substância ativa finerenona. A finerenona atua bloqueando a ação de determinadas 
+hormonas (mineralcorticoides) que podem danificar os seus rins e coração. </p>
+<p>Kerendia é utilizado para o tratamento de adultos com doença renal crónica (com presença anormal 
+da proteína albumina na urina) associada a diabetes tipo 2. A doença renal crónica é uma condição a longo prazo. A capacidade dos seus rins removerem resíduos 
+e fluidos do sangue continua a piorar. 
+A diabetes tipo 2 é uma doença na qual o seu organismo não consegue manter os níveis de açúcar no 
+sangue dentro dos valores normais. O seu organismo não produz quantidade suficiente da hormona 
+insulina ou não consegue utilizar a insulina de forma adequada. Isto leva a um nível elevado de açúcar 
+no seu sangue. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar kerendia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar kerendia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Kerendia 
+- se tem alergia à finerenona ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se está a tomar medicamentos que pertencem ao grupo dos “inibidores fortes do CYP3A4", por 
+exemplo 
+- itraconazol ou cetoconazol (para tratar infeções fúngicas) 
+- ritonavir, nelfinavir ou cobicistate (para tratar infeções pelo VIH) 
+- claritromicina, telitromicina (para tratar infeções bacterianas) 
+- nefazodona (para tratar a depressão). 
+- se tem doença de Addison (quando o organismo não produz uma quantidade suficiente das 
+hormonas “cortisol" e “aldosterona"). </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Kerendia se tiver 
+- lhe sido dito, alguma vez, que tinha um nível elevado de potássio no seu sangue. 
+- perda grave da função renal ou insuficiência renal. 
+- problemas de fígado moderados ou graves. 
+- insuficiência cardíaca ligeira, moderada ou grave. Isto é quando o seu coração não bombeia o 
+sangue tão bem como deveria. Não bombeia sangue suficiente para fora do coração num 
+batimento. </p>
+<p>Análises ao sangue 
+Estas análises verificam o seu nível de potássio e como os seus rins estão a funcionar. 
+Utilizando os resultados das suas análises ao sangue, o seu médico decide se pode começar a tomar 
+Kerendia. 
+Após 4 semanas a tomar Kerendia, fará mais análises ao sangue. 
+O seu médico pode pedir análises ao sangue noutras ocasiões, por exemplo, enquanto está a tomar 
+determinados medicamentos. </p>
+<p>Crianças e adolescentes 
+Não dê este medicamento a crianças e adolescentes com menos de 18 anos de idade porque 
+desconhece-se se é seguro e efetivo neste grupo etário. </p>
+<p>Outros medicamentos e Kerendia 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. O seu médico dir-lhe-á que medicamentos pode tomar. O seu médico 
+poderá necessitar de análises ao sangue para confirmar. </p>
+<p>Não pode tomar medicamentos que pertencem ao grupo dos “inibidores fortes do CYP3A4" enquanto 
+estiver a tomar Kerendia (ver secção 2 “Não tome Kerendia"). </p>
+<p>Fale com o seu médico ou farmacêutico se estiver a tomar outros medicamentos enquanto está a 
+tomar Kerendia, especialmente 
+- se estiver a tomar, por exemplo, 
+- amilorida ou triamtereno (para remover o excesso de água do seu organismo através da 
+urina) 
+- eplerenona, esaxerenona, espironolactona ou canrenona (medicamentos semelhantes à 
+finerenona) 
+- trimetoprim ou uma associação de trimetoprim e sulfametoxazol (para tratar infeções 
+bacterianas) 
+- suplementos de potássio, incluindo alguns substitutos do sal 
+ou se estiver a tomar outros medicamentos que podem aumentar o nível de potássio no sangue. 
+Estes medicamentos poderão não ser seguros para si. </p>
+<ul>
+<li>se estiver a tomar, por exemplo, </li>
+<li>eritromicina (para tratar infeções bacterianas) </li>
+<li>verapamilo (para tratar a tensão arterial elevada, dor no peito e batimento cardíaco 
+acelerado) </li>
+<li>fluvoxamina (para tratar a depressão e a “perturbação obsessivo-compulsiva") </li>
+<li>rifampicina (para tratar infeções bacterianas) </li>
+<li>carbamazepina, fenitoína ou fenobarbital (para tratar a epilepsia) </li>
+<li>hipericão (Hypericum perforatum) (um medicamento à base de plantas para tratar a 
+depressão) </li>
+<li>
+<p>efavirenz (para tratar infeções pelo VIH) 
+ou se estiver a tomar outros medicamentos que pertencem ao mesmo grupo de medicamentos tal 
+como os listados anteriormente (determinados “inibidores" e “indutores do CYP3A4"). Poderá 
+ter mais efeitos indesejáveis ou Kerendia poderá não atuar como seria de esperar. </p>
+</li>
+<li>
+<p>se estiver a tomar outros medicamentos que baixem a tensão arterial. O seu médico 
+pode ter necessidade de ver a sua tensão arterial. </p>
+</li>
+</ul>
+<p>Kerendia com alimentos e bebidas 
+Não coma toranja ou beba sumo de toranja enquanto estiver a tomar Kerendia. 
+Se o fizer, poderá ficar com demasiada finerenona no seu sangue. Poderá ter mais efeitos 
+indesejáveis (os efeitos indesejáveis possíveis encontram-se listados na secção 4). </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Gravidez 
+ Não deve tomar este medicamento durante a gravidez, a menos que o seu médico diga que é 
+claramente necessário. Poderá haver um risco para o seu bebé por nascer. O seu médico vai discutir 
+este assunto consigo. 
+Deve utilizar métodos contracetivos eficazes, se puder engravidar. O seu médico vai explicar-lhe 
+que tipos de método contracetivo pode utilizar. </p>
+<p>Amamentação 
+Não deve amamentar enquanto estiver a tomar este medicamento. Poderá ser prejudicial para o seu 
+bebé. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos da Kerendia sobre a capacidade de conduzir e utilizar máquinas são nulos. </p>
+<p>Kerendia contém lactose 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>
+<p>Kerendia contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar kerendia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar kerendia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Que quantidade tem de tomar 
+A dose diária máxima e recomendada deste medicamento é 1 comprimido de 20mg. </p>
+<ul>
+<li>Tome sempre 1 comprimido uma vez por dia. Cada comprimido contém 10 mg ou 20 mg de 
+finerenona. </li>
+<li>A dose inicial depende de como os seus rins funcionam. Para verificar isto o seu médico irá 
+pedir-lhe análises ao sangue. Os resultados ajudam o seu médico a decidir, se pode iniciar com 
+1 comprimido de 20 mg ou de 10 mg uma vez por dia. </li>
+<li>Após 4 semanas, o seu médico pedir-lhe-á análises ao sangue novamente. O seu médico irá 
+decidir qual a dose correta para si. Que poderá ser 1 comprimido de 20 mg ou de 10 mg uma 
+vez por dia. 
+O seu médico também poderá dizer-lhe para interromper ou parar de tomar Kerendia. </li>
+</ul>
+<p>O seu médico poderá sempre decidir alterar o seu tratamento após efetuar análises ao seu sangue. 
+Para mais informações, ver “Análises ao sangue" na secção 2.  </p>
+<p>Como tomar este medicamento 
+Kerendia é tomada pela boca. Tome Kerendia à mesma hora todos os dias. Assim é mais fácil lembrar-
+se. </p>
+<p>Engula o comprimido inteiro. 
+- Pode tomá-lo com um copo de água. 
+- Pode tomá-lo com ou sem alimentos. 
+- Não o tome com sumo de toranja ou com toranja. Para mais informações, ver “Kerendia com 
+alimentos e bebidas" na secção 2.<br />
+Se não conseguir engolir o comprimido inteiro, pode esmagá-lo. 
+- Misture-o com água ou alimentos moles, tais como puré de maçã. 
+- Tome-o imediatamente. </p>
+<p>Se tomar mais Kerendia do que deveria 
+Fale com o seu médico ou farmacêutico se pensa que tomou demasiado deste medicamento. </p>
+<p>Caso se tenha esquecido de tomar Kerendia 
+Caso se tenha esquecido de tomar o seu comprimido nesse dia à hora habitual 
+►tome o comprimido assim que se lembrar nesse mesmo dia. </p>
+<p>Caso se tenha esquecido de tomar durante um dia 
+►tome o próximo comprimido no dia seguinte, à hora habitual. </p>
+<p>Não tome 2 comprimidos para compensar um comprimido que se esqueceu de tomar. </p>
+<p>Se parar de tomar Kerendia 
+Pare de tomar Kerendia apenas se o seu médico lhe disse para o fazer. 
+O seu médico poderá decidir nesse sentido após efetuar análises ao seu sangue. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis que o seu médico poderá detetar nos resultados das suas análises ao sangue 
+muito frequentes (podem afetar mais de 1 em 10 pessoas) 
+- nível de potássio elevado (hipercaliemia) 
+Os possíveis sinais de nível elevado de potássio no sangue podem incluir fraqueza ou cansaço, 
+sentir-se indisposto (náuseas), dormência nas mãos e lábios, cãibras musculares, diminuição da 
+pulsação. </p>
+<p>frequentes (podem afetar até 1 em 10 pessoas) 
+- nível de sódio baixo (hiponatremia) 
+Os possíveis sinais de nível de sódio baixo no sangue podem incluir sentir-se indisposto 
+(náuseas), cansaço, dores de cabeça, confusão, fraqueza muscular, espasmos ou cãibras. 
+- diminuição da capacidade de os rins filtrarem o sangue (diminuição da taxa de filtração 
+glomerular). 
+- nível elevado de ácido úrico (hiperuricemia) </p>
+<p>pouco frequentes (podem afetar até 1 em 100 pessoas) 
+- diminuição de uma proteína (hemoglobina) que é encontrada nos seus glóbulos vermelhos. </p>
+<p>Outros efeitos indesejáveis 
+frequentes (podem afetar até 1 em 10 pessoas) 
+- tensão arterial baixa (hipotensão) 
+Os sinais possíveis de tensão arterial baixa podem incluir tonturas, sensação de desmaio e 
+desmaio. 
+- comichão (prurido) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar kerendia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar kerendia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister, no rótulo do frasco e na 
+embalagem exterior após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Kerendia 
+- A substância ativa é a finerenona. 
+- Cada comprimido de Kerendia 10 mg comprimidos revestidos por película contém 
+10 mg de finerenona. 
+- Cada comprimido de Kerendia 20 mg comprimidos revestidos por película contém 
+20 mg de finerenona. 
+- Os outros componentes são: 
+- Núcleo do comprimido: celulose microcristalina, croscarmelose sódica, 
+hipromelose 2910, lactose mono-hidratada, estearato de magnésio, laurilsulfato de sódio. 
+Ver “Kerendia contém lactose" e “Kerendia contém sódio" na secção 2, para mais 
+informação. 
+- Revestimento do comprimido: hipromelose 2910, dióxido de titânio, talco, óxido de ferro 
+vermelho (E 172, apenas em Kerendia 10 mg comprimidos revestidos por película), 
+óxido de ferro amarelo (E 172, apenas em Kerendia 20 mg comprimidos revestidos por 
+película). </p>
+<p>Qual o aspeto de Kerendia e conteúdo da embalagem 
+Kerendia 10 mg comprimidos revestidos por película (comprimidos) são oblongos, ovais, cor de 
+rosa com 10 mm de comprimento e 5 mm de largura, com “10" marcado numa face e “FI" na outra 
+face. </p>
+<p>Kerendia 20 mg comprimidos revestidos por película (comprimidos) são oblongos, ovais, amarelos 
+com 10 mm de comprimento e 5 mm de largura, com “20" marcado numa face e “FI" na outra face. </p>
+<p>Kerendia está disponível em embalagens contendo 
+- 14, 28 ou 98 comprimidos revestidos por película. </p>
+<p>Cada blister transparente calendarizado contém 14 comprimidos revestidos por película. </p>
+<ul>
+<li>100 x 1 comprimidos revestidos por película. </li>
+</ul>
+<p>Cada blister transparente destacável para dose unitária contém 10 comprimidos revestidos por 
+película. </p>
+<ul>
+<li>100 comprimidos revestidos por película num frasco de plástico. </li>
+</ul>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Bayer AG 
+51368 Leverkusen 
+Alemanha </p>
+<p>Fabricante 
+Bayer AG 
+Kaiser-Wilhelm-Allee 
+51368 Leverkusen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63 Lietuva 
+UAB Bayer 
+Tel. +37 05 23 36 България 
+Байер България ЕООД 
+Tел.: +359 02 4247Luxembourg/Luxemburg 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63 Česká republika 
+Bayer s.r.o. 
+Tel: +420 266 101 Magyarország 
+Bayer Hungária KFT 
+Tel: +36 14 87-41 Danmark 
+Bayer A/S 
+Tlf: +45 45 23 50 Malta 
+Alfred Gera and Sons Ltd. 
+Tel: +35 621 44 62 Deutschland 
+Bayer Vital GmbH 
+Tel: +49 (0)214-30 513 Nederland 
+Bayer B.V. 
+Tel: +31-(0)23-799 1Eesti 
+Bayer OÜ 
+Tel: +372 655 8Norge 
+Bayer AS 
+Tlf: +47 23 13 05 Ελλάδα 
+Bayer Ελλάς ΑΒΕΕ 
+Τηλ: +30-210-61 87 Österreich 
+Bayer Austria Ges.m.b.H. 
+Tel: +43-(0)1-711 46-0 
+España 
+Bayer Hispania S.L. 
+Tel: +34-93-495 65 Polska 
+Bayer Sp. z o.o. 
+Tel: +48 22 572 35 France 
+Bayer HealthCare 
+Tél (N° vert): +33-(0)800 87 54 Portugal 
+Bayer Portugal, Lda. 
+Tel: +351 21 416 42 Hrvatska 
+Bayer d.o.o. 
+Tel: +385-(0)1-6599 România 
+SC Bayer SRL 
+Tel: +40 21 529 59 Ireland 
+Bayer Limited 
+Tel: +353 1 216 3Slovenija 
+Bayer d. o. o. 
+Tel: +386 (0)1 58 14 Ísland 
+Icepharma hf. 
+Sími: +354 540 8Slovenská republika 
+Bayer spol. s r.o. 
+Tel. +421 2 59 21 31 Italia 
+Bayer S.p.A. 
+Tel: +39 02 397 8 1 
+Suomi/Finland 
+Bayer Oy 
+Puh/Tel: +358- 20 785 Κύπρος 
+NOVAGEM Limited 
+Tηλ: +357 22 48 38 Sverige 
+Bayer AB 
+Tel: +46 (0) 8 580 223 Latvija 
+SIA Bayer 
+Tel: +371 67 84 55 United Kingdom (Irlanda do Norte) 
+Bayer AG 
+Tel: +44-(0)118 206 3 
+Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -788,6 +1180,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-ea2d9477557df2cb8572d829cd765247"
 * entry[0].resource = composition-da-ea2d9477557df2cb8572d829cd765247
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpea2d9477557df2cb8572d829cd765247"
+* entry[=].resource = mpea2d9477557df2cb8572d829cd765247
+                            
+                    
+Instance: bundlepackageleaflet-pt-ea2d9477557df2cb8572d829cd765247
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kerendia Package Leaflet for language pt"
+Description: "ePI document Bundle for kerendia Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-ea2d9477557df2cb8572d829cd765247"
+* entry[0].resource = composition-pt-ea2d9477557df2cb8572d829cd765247
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpea2d9477557df2cb8572d829cd765247"
@@ -889,6 +1303,18 @@ RuleSet: ea2d9477557df2cb8572d829cd765247ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-ea2d9477557df2cb8572d829cd765247) // kerendia pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

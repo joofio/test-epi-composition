@@ -988,6 +988,536 @@ CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne �
 
 
 
+Instance: composition-pt-ba96fb9c0ed4979439bd80d6bde4ba94
+InstanceOf: CompositionUvEpi
+Title: "Composition for caelyx Package Leaflet"
+Description:  "Composition for caelyx Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpba96fb9c0ed4979439bd80d6bde4ba94)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - caelyx"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Caelyx pegylated liposomal e para que é utilizado 
+2. O que precisa de saber antes de utilizar Caelyx pegylated liposomal<br />
+3. Como utilizar Caelyx pegylated liposomal<br />
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Caelyx pegylated liposomal<br />
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é caelyx e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é caelyx e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Caelyx pegylated liposomal é um agente antitumoral. </p>
+<p>Caelyx pegylated liposomal é utilizado no tratamento do cancro da mama em doentes em risco de 
+sofrer de problemas do coração. Caelyx pegylated liposomal é também utilizado no tratamento do 
+cancro do ovário. É usado para matar as células cancerosas, reduzir o tamanho do tumor, atrasar o 
+crescimento do tumor e prolongar a sua sobrevivência. </p>
+<p>Caelyx pegylated liposomal é igualmente utilizado em associação com outro medicamento, o 
+bortezomib, no tratamento do mieloma múltiplo (um cancro do sangue) em doentes que receberam 
+pelo menos 1 tratamento prévio. </p>
+<p>Caelyx pegylated liposomal destina-se também a melhorar o seu sarcoma de Kaposi, permitindo ainda 
+obter o aplanamento, o empalidecimento e mesmo a redução do tamanho do cancro. Pode também 
+contribuir para melhorar ou fazer desaparecer outros sintomas do sarcoma de Kaposi, tal como o 
+inchaço à volta do tumor. </p>
+<p>Caelyx pegylated liposomal contém um medicamento que é capaz de interagir com as células de modo 
+a matar seletivamente as células cancerosas. O cloridrato de doxorrubicina contido no Caelyx 
+pegylated liposomal está encerrado em minúsculas esferas designadas por lipossomas peguilados, que 
+ajudam a transportar o fármaco da circulação sanguínea para o tecido canceroso e não para o tecido 
+normal saudável. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar caelyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar caelyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Caelyx pegylated liposomal<br />
+- se tem alergia ao cloridrato de doxorrubicina, ao amendoim ou a soja, ou a outro componente 
+deste medicamento (indicados na secção 6). </p>
+<p>Advertências e precauções 
+Deve informar o seu médico se tiver alguma destas situações: 
+- se recebe qualquer tratamento para doença do coração ou doença do fígado; 
+- se é diabético, porque Caelyx pegylated liposomal contém açúcar o que poderá requerer o ajuste 
+do seu tratamento para a diabetes; 
+- se tem sarcoma de Kaposi e se foi submetido a cirurgia para extração do baço; 
+- se notar o aparecimento de inflamação, descoloração ou algum desconforto na boca. </p>
+<p>Os casos de doença pulmonar intersticial (DPI) foram observados em doentes sob tratamento com 
+doxorrubicina lipossómica peguilada, incluindo casos fatais. Os sintomas de doença pulmonar 
+intersticial são tosse e falta de ar, por vezes com febre, que não são provocadas por atividade física. 
+Procure ajuda médica de imediato, caso tenha sintomas que possam ser sinais de doença pulmonar 
+intersticial. </p>
+<p>Crianças e adolescentes 
+Caelyx pegylated liposomal não deve ser utilizado em crianças e adolescentes, porque não se sabe de 
+que forma o medicamento os irá afetar. </p>
+<p>Outros medicamentos e Caelyx pegylated liposomal<br />
+Informe o seu médico ou farmacêutico 
+- se estiver a tomar ou tiver tomado recentemente outros medicamentos, incluindo medicamentos 
+obtidos sem receita médica; 
+- sobre quaisquer outros tratamentos para o cancro que esteja ou tenha estado a tomar, uma vez 
+que é necessário um cuidado especial com tratamentos que reduzem o número de glóbulos 
+brancos, porque isto pode provocar uma redução adicional no número de glóbulos brancos. Se 
+tiver dúvidas quanto aos tratamentos a que foi submetido ou qualquer doença que tenha sofrido, 
+discuta estes aspetos com o seu médico. </p>
+<p>Gravidez e aleitamento 
+Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Uma vez que a substância ativa, cloridrato de doxorrubicina, contida no Caelyx pegylated liposomal 
+pode provocar malformações congénitas, é importante informar o seu médico se pretende engravidar.<br />
+As mulheres têm de evitar engravidar e utilizar contraceção enquanto estiverem a tomar Caelyx 
+pegylated liposomal e durante oito meses após terminar o tratamento com Caelyx pegylated liposomal. 
+Os homens têm de utilizar contraceção enquanto estiverem a tomar Caelyx pegylated liposomal e 
+durante seis meses após terminar o tratamento com Caelyx pegylated liposomal, de modo a não 
+engravidar a respetiva parceira. </p>
+<p>Dado que o cloridrato de doxorrubicina pode ser prejudicial para os lactantes, as mulheres têm de 
+deixar de amamentar antes de iniciar o tratamento com Caelyx pegylated liposomal. Os especialistas 
+em saúde recomendam que, em quaisquer circunstâncias, as mulheres infetadas com VIH não devem 
+amamentar, de forma a evitar a transmissão do VIH. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza veículos nem utilize quaisquer ferramentas ou máquinas se se sentir cansado ou 
+sonolento devido ao tratamento com Caelyx pegylated liposomal. </p>
+<p>Caelyx pegylated liposomal contém óleo de soja e sódio 
+Caelyx pegylated liposomal contém óleo de soja. Se é alérgico ao amendoim ou a soja, não utilize este 
+medicamento. 
+Caelyx pegylated liposomal contém menos de 1 mmol (23 mg) de sódio por unidade de dose, ou seja, 
+é praticamente “isento de sódio".  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar caelyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar caelyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Caelyx pegylated liposomal é uma formulação única. Não pode ser utilizado, permutavelmente, com 
+outras formulações de cloridrato de doxorrubicina. </p>
+<p>Qual a quantidade de Caelyx pegylated liposomal que é administrada 
+Se está a ser tratado devido a cancro da mama ou do ovário, Caelyx pegylated liposomal ser-lhe-á 
+administrado numa dose de 50 mg por metro quadrado da sua área corporal (com base na sua altura e 
+peso). A dose é repetida a intervalos de 4 semanas desde que a doença não progrida e consiga tolerar o 
+tratamento. </p>
+<p>Se está a ser tratado para o mieloma múltiplo, e já recebeu pelo menos 1 tratamento prévio, Caelyx 
+pegylated liposomal será administrado numa dose de 30 mg por metro quadrado da sua superfície 
+corporal (baseada na sua altura e no seu peso) numa perfusão de 1 hora no dia 4 do regime de 3 
+semanas de bortezomib, imediatamente após a perfusão de bortezomib. A dose é repetida desde que 
+responda satisfatoriamente e tolere o tratamento. </p>
+<p>Se está a ser tratado devido a sarcoma de Kaposi, Caelyx pegylated liposomal ser-lhe-á administrado 
+numa dose de 20 mg por metro quadrado da sua área corporal (com base na sua altura e peso). A dose 
+é repetida a intervalos de 2 a 3 semanas durante 2-3 meses e, em seguida, sempre que for necessário 
+para manter as melhoras da sua doença. </p>
+<p>De que forma é administrado o Caelyx pegylated liposomal<br />
+Caelyx pegylated liposomal ser-lhe-á administrado pelo seu médico numa veia, gota-a-gota (por 
+perfusão). Dependendo da dose e da indicação, a perfusão poderá demorar desde 30 minutos até mais 
+de uma hora (i.e., 90 minutos). </p>
+<p>Se utilizar mais Caelyx pegylated liposomal do que deveria 
+A sobredosagem aguda agrava os efeitos indesejáveis como feridas na boca ou diminuições do número 
+de glóbulos brancos e plaquetas no sangue. O tratamento consiste em administração de antibióticos, 
+transfusões de plaquetas, utilização de fatores que estimulam a produção de glóbulos brancos e 
+tratamento sintomático das feridas na boca. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, no entanto estes 
+não se manifestam em todas as pessoas. </p>
+<p>Durante a perfusão de Caelyx pegylated liposomal podem ocorrer as seguintes reações:<br />
+- reação alérgica grave que pode incluir inchaço da face, lábios, boca, língua ou garganta; 
+dificuldade em engolir ou em respirar; erupção na pele com comichão (urticária) 
+- vias respiratórias inflamadas e estreitas nos pulmões, causando tosse, pieira ou falta de ar (asma) 
+- rubor, sudação, calafrios ou febre 
+- dor ou desconforto no peito<br />
+- dor nas costas 
+- pressão arterial alta ou baixa 
+- batimento cardíaco acelerado 
+- crises (convulsões) </p>
+<p>Pode ocorrer fuga do líquido de injeção das veias para os tecidos sob a pele. Se sentir picadas ou dor 
+enquanto lhe está a ser administrada uma dose de Caelyx pegylated liposomal, informe imediatamente 
+o seu médico. </p>
+<p>O seu médico deve ser contactado imediatamente se algum dos seguintes efeitos indesejáveis graves 
+forem observados: 
+- tiver febre, sentir-se cansado ou se tiver sinais de nódoas negras ou sangramento (muito 
+frequente) 
+- vermelhidão, inchaço, descamação ou sensibilidade, principalmente nas mãos ou nos pés 
+(síndrome “mão-pé"). Estes efeitos têm sido observados muito frequentemente e, por vezes, são 
+graves. Em casos graves, estes efeitos podem interferir com certas atividades diárias, e podem 
+persistir durante 4 semanas ou mais antes da sua resolução completa. O seu médico pode decidir 
+atrasar o início e/ou reduzir a dose do tratamento seguinte (ver Estratégias para evitar e tratar a 
+síndrome mão-pé, abaixo) 
+- feridas na boca, diarreia grave,ómitos ou náuseas (muito frequentes) 
+- infeções (frequentes), incluindo infeções pulmonares (pneumonia) ou infeções que podem afetar 
+a sua visão 
+- estar com falta de ar (frequente) 
+- dor de estômago grave (frequente) 
+- fraqueza extrema (frequente) 
+- reação alérgica grave que pode incluir inchaço da face, lábios, boca, língua ou garganta; 
+dificuldade em engolir ou em repirar; erupção na pele com comichão (urticária) (pouco 
+frequente) 
+- paragem cardíaca (o coração pára de bater); insuficiência cardíaca, na qual o coração não 
+bombeia sangue suficiente para o resto do corpo, o que faz com que sinta falta de ar ou as 
+pernas inchadas (pouco frequente)<br />
+- um coágulo de sangue que se move até ao pulmão, causando dor no peito e faz com que sinta 
+falta de ar (pouco frequente) 
+- inchaço, calor, ou sensibilidade nos tecidos moles da sua perna, por vezes com dor que agrava 
+quando está de pé ou caminha (raro) 
+- erupções na pele graves ou potencialmente fatais com bolhas e descamação da pele, 
+particularmente à volta da boca, nariz, olhos e órgãos genitais (síndrome de Stevens-Johnson) 
+ou por todo o corpo (necrólise epidérmica tóxica) (raro) </p>
+<p>Outros efeitos indesejáveis 
+Entre as perfusões, poderá ocorrer o seguinte: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas) 
+- redução do número de glóbulos brancos, que pode aumentar o risco de infeções. Em casos raros, 
+ter o número de glóbulos brancos baixo pode causar infeções graves. Anemia (redução do 
+número de glóbulos vermelhos) que pode provocar fadiga, e número de plaquetas diminuído, 
+que pode aumentar o risco de hemorragia. É devido às potenciais alterações nas suas células 
+sanguíneas que irá realizar análises regulares ao sangue. 
+- perda de apetite; 
+- obstipação; 
+- erupções na pele, incluindo vermelhidão da pele, erupção alérgica da pele, erupção avermelhada 
+ou saliente da pele <br />
+- perda de cabelo 
+- dor incluindo nos músculos e músculo do peito, articulações, braço ou perna 
+- sentir muito cansaço </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas) 
+- infeções, incluindo infeções graves generalizadas emtodo o corpo (sépsis), infeções pulmonares, 
+infeções virais por herpes zoster (zona), um tipo de infeção bacteriana (infeção por complexo 
+Mycobacterium avium), infeções do trato urinário, infeções fúngicas (incluindo candidíase e 
+sapinhos da boca), infeção das raízes do cabelo, garganta infetada ou irritada, nariz, seios nasais 
+ou garganta infetados (constipação) 
+- redução do número de um tipo de glóbulos brancos (neutrófilos), com febre 
+- perda de peso grave e perda muscular, água insuficiente no corpo (desidratação), níveis baixos 
+de potássio, sódio, ou cálcio no sangue 
+- sentir confusão, ansiedade, depressão, dificuldade em dormir 
+- danos nos nervos que podem causar formigueiro, dormência, dor ou perda da sensação de dor, 
+dor do nervo, sensação invulgar na pele (tal como formigueiro ou sensação de rastejamento 
+sobre a pele), sensação ou sensibilidade diminuída, especialmente na pele 
+- alteração no paladar, dores de cabeça, sentir muita sonolência e pouca energia, sentir tonturas; 
+- inflamação dos olhos (conjuntivite) 
+- batimento cardíaco acelerado 
+- pressão arterial alta ou baixa, rubor 
+- falta de ar que pode ser causada pela atividade física, sangramento nasal, tosse 
+- revestimento do estômago ou tubo digestivo inflamados, úlceras (feridas) na boca, indigestão, 
+dificuldade em engolir, dor na boca, boca seca 
+- problemas na pele, incluindo pele escamosa ou seca, vermelhidão da pele, bolhas ou úlceras 
+(feridas) na pele, comichão, manchas escuras na pele 
+- sudação excessiva 
+- espasmos ou dores musculares<br />
+- dor incluindo os músculos, ossos ou costas 
+- dor ao urinar 
+- reação alérgica à perfusão do medicamento, estado gripal, calafrios, inflamação do revestimento 
+das cavidades e passagens do corpo, tais como nariz, boca ou traqueia, sentir fraqueza, sentir um 
+mal-estar geral, inchaço causado pela acumulação de líquidos no corpo, mãos, tornozelos ou pés 
+inchados 
+- perda de peso </p>
+<p>Quando Caelyx pegylated liposomal é utilizado sozinho, é possível que alguns destes efeitos ocorram 
+menos e outros nem sequer ocorram. </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas) 
+- infeções virais por herpes simplex (herpes labial ou herpes genital), infeções fúngicas 
+- número baixo de todos os tipos de células sanguíneas, aumento do número de “plaquetas" 
+(células que ajudam o sangue a coagular) 
+- reação alérgica 
+- níveis elevados de potássio no sangue, níveis baixos de magnésio no sangue 
+- dano no nervo afetando mais do que uma parte do corpo 
+- crises (convulsões), desmaio 
+- sensação desagradável ou dolorosa, especialmente ao toque, sentir sonolência 
+- visão turva, olhos lacrimejantes 
+- batimento cardíaco parece acelerado ou irregular (palpitações), doença do músculo cardíaco, 
+danos cardíacos 
+- danos teciduais (necrose) no local de administração da injeção, veias inflamadas que causam 
+inchaço e dor, sentir tonturas ao sentar ou ao levantar 
+- desconforto no peito 
+- flatulência, inflamação das gengivas (gengivite) 
+- problemas ou erupções na pele, inclindo pele escamosa ou descamativa, erupção alérgica da 
+pele, úlcera (ferida) ou urticária, pele descolorada, mudança na cor natural (pigmento) da pele, 
+pequenos pontos vermelhos ou roxos causados por um sangramento sob a pele, problemas de 
+unhas, acne 
+- fraqueza muscular 
+- dor na mama 
+- irritação ou dor onde a injeção é administrada 
+- inchaço da face, temperatura corporal elevada 
+- sintomas (tais como inflamação, vermelhidão ou dor) reaparecem na parte do corpo onde 
+recebeu radioterapia anteriormente ou onde sofreu um dano anterior pela injeção da 
+quimioterapia na veia </p>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em cada 1.000 pessoas) 
+- infeções que ocorrem em pessoas com um sistema imunitário fraco 
+- redução do número de células sanguíneas produzidas na medula óssea 
+- inflamação da retina, que pode causar alterações na visão ou cegueira 
+- batimento cardíaco anormal, traçado cardíaco anormal no ECG (eletrocardiograma), podendo 
+estar associado a um batimento cardíaco lento, problemas no coração que afetam o batimento e ritmo 
+cardíaco, pele e mucosa com coloração azulada devido ao baixo nível de oxigénio no sangue 
+- alargamento dos vasos sanguíneos 
+- sensação de aperto na garganta 
+- língua dorida e inchada, úlcera (ferida) no lábio 
+- erupção cutânea com bolhas de líquido 
+- infeção vaginal, vermelhidão no escroto 
+- problemas com o revestimento das cavidades e passagens do corpo, tais como nariz, boca ou 
+traqueia 
+- resultados anormais das análises ao sangue, aumento dos níveis de “creatinina" no sangue </p>
+<p>Desconhecidos (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- cancro do sangue que se desenvolve rapidamente e que afeta as células do sangue (leucemia 
+mielóide aguda), doença da medula óssea que afeta as células do sangue (síndrome 
+mielodisplásica), cancro da boca ou lábio 
+- Tosse e falta de ar, possivelmente acompanhadas de febre, que não são provocadas por atividade 
+física (doença pulmonar intersticial) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V*. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>
+<p>Estratégias para evitar e tratar a síndrome mão-pé incluem: 
+- mergulhar as mãos e/ou pés em bacias contendo água fria, sempre que possível (por ex., 
+enquanto vê televisão, lê ou ouve rádio); 
+- manter as mãos e pés destapados (sem luvas, meias, etc.); 
+- manter-se em locais frescos; 
+- tomar banhos de água fria durante o tempo quente; 
+- evitar a prática de exercícios físicos vigorosos suscetíveis de provocar traumatismos nos pés 
+(por ex. jogging); 
+- evitar a exposição da pele a água muito quente (por ex. jacuzzis, saunas); 
+- evitar usar sapatos muito apertados ou de salto alto. </p>
+<p>Piridoxina (Vitamina B6): 
+- a vitamina B6 pode ser adquirida sem receita médica. 
+- tome 50-150 mg por dia logo aos primeiros sinais de vermelhidão ou de sensação de picadas. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar caelyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar caelyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Conservar no frigorífico (2ºC - 8ºC). Não congelar. </p>
+<p>Após diluição: 
+A estabilidade física e química durante a utilização verifica-se durante 24 horas entre 2ºC e 8ºC. De 
+um ponto de vista microbiológico, o produto deve ser usado imediatamente. Caso contrário, a 
+responsabilidade é do utilizador, não devendo ultrapassar normalmente as 24 horas entre os 2ºC e 8ºC. 
+Os frascos parcialmente utilizados têm de ser eliminados. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem. </p>
+<p>Não utilize este medicamento se verificar sinais de precipitação ou quaisquer partículas em suspensão. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Caelyx pegylated liposomal<br />
+- A substância ativa é o cloridrato de doxorrubicina. Um ml de Caelyx pegylated liposomal 
+contém 2 mg de cloridrato de doxorrubicina numa formulação lipossómica peguilada. 
+- Os outros componentes são o sal de sódio do α-(2-[1,2-distearoil -sn- glicero (3) fosfo-
+oxi]etilcarbamoil)-ω-metoxipoli(oxietileno)-40 (MPEG-DSPE), fosfatidilcolina de soja 
+totalmente hidrogenada (HSPC), colesterol, sulfato de amónio, sacarose, histidina, água para 
+preparações injetáveis, ácido clorídrico (para ajuste de pH) e hidróxido de sódio (para ajuste de 
+pH). Ver secção 2.<br />
+Caelyx pegylated liposomal 2 mg/ml concentrado para solução para perfusão: frascos que fornecem 
+10 ml (20 mg) ou 25 ml (50 mg). </p>
+<p>Qual o aspeto de Caelyx pegylated liposomal e conteúdo da embalagem 
+Caelyx pegylated liposomal  é estéril translúcida e vermelha. Caelyx pegylated liposomal encontra-se 
+disponível como uma embalagem única ou embalagens de dez frascos. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Baxter Holding B.V. 
+Kobaltweg 49, 
+3542 CE Utrecht, 
+Holanda </p>
+<p>Fabricante 
+Janssen Pharmaceutica NV 
+Turnhoutseweg B-2340 Beerse 
+Bélgica </p>
+<p>Baxter Oncology GmbH 
+Kantstrasse 2 
+33790 Halle/Westfalen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Baxter Belgium SPRL/BVBA 
+Tél/Tel: +32 (0)2 386 80 00<br />
+braine_reception@baxter.com  </p>
+<p>Lietuva 
+UAB „Baxter Lithuania“ 
+Tel: +37052527България 
+Baxter Holding B.V. 
+Teл.: +31 (0)30 2488 Luxembourg/Luxemburg 
+Baxter Belgium SPRL/BVBA 
+Tél/Tel: +32 (0)2 386 80 00<br />
+braine_reception@baxter.com </p>
+<p>Česká republika 
+BAXTER CZECH spol. s r.o. 
+Tel: +420 225 774 111  </p>
+<p>Magyarország 
+Baxter Hungary Kft. 
+Tel: +36 1 202 1Danmark 
+Baxter A/S 
+Tlf: +45 4816 6Malta 
+Baxter Holding B.V. 
+Tel: +44 (0)1635 206345  </p>
+<p>Deutschland 
+Baxter Deutschland GmbH 
+Tel: +49 (0)89 31701-0<br />
+info_de@baxter.com<br />
+Nederland 
+Baxter B.V. 
+Tel: +31 (0)30 2488 utrecht_reception@baxter.com  </p>
+<p>Eesti 
+OÜ Baxter Estonia<br />
+Tel: +372 651 5 
+Norge 
+Baxter AS 
+Tlf: +47 22 58 48 Ελλάδα 
+Baxter (Hellas) Ε.Π.Ε.,<br />
+Τηλ: +30 210 28 80 000<br />
+Österreich 
+Baxter Healthcare GmbH 
+Tel: +43 1 71120 0 
+austria_office_healthcare@baxter.com <br />
+España 
+Baxter S.L. 
+Tel: +34 91 678 93 Polska 
+Baxter Polska Sp. z o.o. 
+Tel: +48 22 488 37<br />
+France 
+Baxter SAS 
+Tél: +33 1 34 61 50 Portugal 
+Baxter Médico Farmacêutica, Lda.<br />
+Tel: +351 21 925 25 00  </p>
+<p>Hrvatska 
+Baxter Healthcare d.o.o. 
+Tel: +385 1 6610314<br />
+România 
+BAXTER HEALTHCARE SRL 
+Tel: +40 372 302<br />
+Ireland 
+Baxter Holding B.V. 
+Tel: +44 (0)1635 206345  </p>
+<p>Slovenija 
+Baxter d.o.o.<br />
+Tel: +386 1 420 16 80<br />
+Ísland 
+Baxter Medical AB 
+Sími: +46 8 632 64 Slovenská republika 
+Baxter Slovakia s.r.o.<br />
+Tel: +421 2 32 10 11 50  </p>
+<p>Italia 
+Baxter S.p.A.<br />
+Tel: +390632491233<br />
+Suomi/Finland 
+Baxter Oy 
+Puh/Tel: +358 (09) 862<br />
+Κύπρος 
+Baxter Holding B.V. 
+Τηλ: +31 (0)30 2488 <br />
+Sverige 
+Baxter Medical AB 
+Tel: +46 (0)8 632 64 Latvija 
+Baxter Latvia SIA 
+Tel: +371 677 84United Kingdom (Northern Ireland) 
+Baxter Holding B.V. 
+Tel: +44 (0)1635 206345  </p>
+<p>Este folheto foi aprovado pela última vez em </p>
+<p>Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência 
+Europeia de Medicamentos (EMEA) http://www.ema.europa.eu/ </p>
+<p>A informação que se segue destina-se apenas aos médicos e aos profissionais de saúde (ver secção 3): </p>
+<p>A dispersão de Caelyx pegylated liposomal tem de ser manuseada com precaução. É necessária a 
+utilização de luvas. No caso de Caelyx pegylated liposomal entrar em contacto com a pele ou as 
+mucosas, deve lavar imediatamente e com cuidado utilizando água abundante e sabão. Caelyx 
+pegylated liposomal tem de ser manuseado e eliminado de forma análoga à adotada para outras 
+substâncias anticancerosas. </p>
+<p>Determine a dose de Caelyx pegylated liposomal a ser administrada (com base na dose recomendada e 
+na área da superfície do corpo do doente). Transfira um volume apropriado de Caelyx pegylated 
+liposomal para uma seringa estéril. É necessário observar, estritamente, uma técnica asséptica, visto 
+que Caelyx pegylated liposomal não contém agentes conservantes ou bacteriostáticos. Antes da 
+administração, diluir a dose apropriada de Caelyx pegylated liposomal em 5 % (50 mg/ml) de uma 
+solução de glucose para perfusão. Com doses &lt; 90 mg, diluir Caelyx pegylated liposomal em 250 ml 
+e, com doses ≥ 90 mg, diluir Caelyx pegylated liposomal em 500 ml. </p>
+<p>Para reduzir ao mínimo o risco de reações à perfusão, a dose inicial é administrada a uma velocidade 
+máxima de 1 mg/minuto. Caso não se observe qualquer reação à perfusão, as perfusões subsequentes 
+de Caelyx pegylated liposomal podem ser administradas durante um período de 60 minutos. </p>
+<p>No programa de ensaio no cancro da mama, foi permitida a modificação da perfusão para os doentes 
+que evidenciavam uma reação à perfusão, da forma a seguir indicada: 5 % da dose total foi perfundida 
+lentamente, durante os primeiros 15 minutos. Se existia tolerância sem reação, a taxa de perfusão era 
+duplicada durante os 15 minutos seguintes. Se existia tolerância, completava-se a perfusão durante a 
+hora seguinte, para um tempo total de perfusão de 90 minutos. </p>
+<p>Se o doente apresentar sintomas ou sinais precoces de uma reação à perfusão, deve interromper-se 
+imediatamente a perfusão, administrar a pré-medicação apropriada (anti-histamínico e/ou corticóide de 
+ação rápida) e reiniciar o tratamento a uma velocidade mais lenta. </p>
+<p>A utilização de qualquer outro diluente para além da solução para perfusão intravenosa de glucose 
+a 5 % (50 mg/ml) ou a presença de qualquer agente bacteriostático, como o álcool benzílico, pode 
+provocar a precipitação do Caelyx pegylated liposomal. </p>
+<p>Recomenda-se a ligação do sistema de perfusão de Caelyx pegylated liposomal a uma porta lateral de 
+um sistema de perfusão intravenosa de glucose a 5 % (50 mg/ml). A perfusão deve ser administrada 
+através de uma veia periférica. Não utilizar filtros no sistema de perfusão. </p>
+<p>ANEXO IV 
+CONCLUSÕES CIENTÍFICAS E FUNDAMENTOS DA ALTERAÇÃO DOS TERMOS 
+DAS AUTORIZAÇÕES DE INTRODUÇÃO NO MERCADO </p>
+<p>Conclusões científicas 
+Tendo em conta o relatório de avaliação do PRAC sobre o(s) RPS para doxorrubicina, as 
+conclusões científicas do CHMP são as seguintes:<br />
+Com base nos dados disponíveis sobre doença pulmonar intersticial na bibliografia e nas notificações 
+espontâneas, incluindo, em alguns casos, uma relação temporal próxima, o PRAC considera que a 
+existência de uma relação causal entre doxorrubicina lipossómica peguilada e a doença pulmonar 
+intersticial é, no mínimo, uma possibilidade razoável. O PRAC concluiu que a informação do 
+medicamento de medicamentos que contêm doxorrubicina lipossómica peguilada deve ser alterada 
+em conformidade. 
+O CHMP concorda com as conclusões científicas do PRAC. 
+Fundamentos da alteração dos termos da(s) autorização(ões) de introdução no mercado 
+Com base nas conclusões científicas relativas a doxorrubicina, o CHMP considera que o perfil de 
+benefício-risco do(s) medicamento(s) que contém (contêm) doxorrubicina se mantém inalterado na 
+condição de serem introduzidas as alterações propostas na informação do medicamento. 
+O CHMP recomenda a alteração dos termos da(s) autorização(ões) de introdução no mercado. </p>         </div>"""      
+
+
+
 
 
                     
@@ -1029,6 +1559,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-ba96fb9c0ed4979439bd80d6bde4ba94"
 * entry[0].resource = composition-da-ba96fb9c0ed4979439bd80d6bde4ba94
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpba96fb9c0ed4979439bd80d6bde4ba94"
+* entry[=].resource = mpba96fb9c0ed4979439bd80d6bde4ba94
+                            
+                    
+Instance: bundlepackageleaflet-pt-ba96fb9c0ed4979439bd80d6bde4ba94
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for caelyx Package Leaflet for language pt"
+Description: "ePI document Bundle for caelyx Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-ba96fb9c0ed4979439bd80d6bde4ba94"
+* entry[0].resource = composition-pt-ba96fb9c0ed4979439bd80d6bde4ba94
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpba96fb9c0ed4979439bd80d6bde4ba94"
@@ -1130,6 +1682,18 @@ RuleSet: ba96fb9c0ed4979439bd80d6bde4ba94ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-ba96fb9c0ed4979439bd80d6bde4ba94) // caelyx pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

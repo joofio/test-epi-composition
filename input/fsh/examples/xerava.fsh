@@ -776,6 +776,394 @@ medtaget i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på ww
 
 
 
+Instance: composition-pt-b6aaef38fe85ec54174ec8e0149fcca6
+InstanceOf: CompositionUvEpi
+Title: "Composition for xerava Package Leaflet"
+Description:  "Composition for xerava Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb6aaef38fe85ec54174ec8e0149fcca6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - xerava"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Xerava e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Xerava </li>
+<li>Como lhe será administrado Xerava </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Xerava </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é xerava e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é xerava e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Xerava </p>
+<p>Xerava é um medicamento antibiótico que contém a substância ativa eravaciclina. Pertence a um 
+grupo de antibióticos chamado «tetraciclinas», que atuam impedindo o crescimento de certas bactérias 
+infeciosas. </p>
+<p>Para que é utilizado Xerava? </p>
+<p>Xerava é utilizado no tratamento de adultos com uma infeção complicada no abdómen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar xerava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar xerava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não deve receber Xerava </p>
+<p>− 
+se tem alergia à eravaciclina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+− 
+se tem alergia a qualquer antibiótico da classe das tetraciclinas (por ex., minociclina e 
+doxiciclina), porque pode também ser alérgico à eravaciclina. </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou enfermeiro antes de receber Xerava se estiver preocupado com qualquer das 
+seguintes situações: </p>
+<p>Reações anafiláticas </p>
+<p>Foram notificadas reações anafiláticas (alérgicas) com outros antibióticos da classe das tetraciclinas. 
+Estas podem desenvolver-se subitamente e podem ser potencialmente fatais. Procure atenção médica 
+urgente se suspeitar que tem uma reação anafilática enquanto estiver a receber Xerava. Os sintomas a 
+que deverá estar atento incluem erupção na pele , inchaço da face, sentir-se desorientado ou desmaiar, </p>
+<p>sensação de aperto no peito, dificuldades em respirar, batimentos cardíacos acelerados ou perda de 
+consciência (ver também secção 4). </p>
+<p>Diarreia 
+Fale com o seu médico ou enfermeiro se estiver a sofrer de diarreia antes de receber Xerava. Se 
+desenvolver diarreia durante ou após o seu tratamento, informe imediatamente o seu médico. Não 
+tome qualquer medicamento para tratar a sua diarreia sem falar primeiro com o seu médico (ver 
+também secção 4). </p>
+<p>Reações no local de perfusão 
+Xerava é administrado na forma de perfusão (administração gota a gota) diretamente numa veia. Fale 
+com o seu médico ou enfermeiro se notar algum dos seguintes efeitos no local de perfusão durante 
+ou após o seu tratamento: vermelhidão da pele, erupção na pele, inflamação ou dor ou sensibilidade. </p>
+<p>Nova infeção 
+Embora o Xerava combata certas bactérias, outras bactérias e fungos podem continuar a crescer. Este 
+processo denomina-se «crescimento excessivo» ou «superinfeção». O seu médico irá monitorizá-lo 
+atentamente quanto a quaisquer novas infeções ou interromper o tratamento com Xerava, e dar-lhe 
+outro tratamento, se necessário. </p>
+<p>Pancreatite 
+Dor intensa na barriga e nas costas com febre podem ser sinais de inflamação do pâncreas. Informe o 
+seu médico ou enfermeiro se notar algum destes efeitos secundários durante o seu tratamento com 
+Xerava. </p>
+<p>Problemas no fígado<br />
+Fale com o seu médico se tiver problemas no fígado ou se tiver excesso de peso, especialmente se 
+estiver a tomar itraconazol (um medicamento utilizado no tratamento de infeções fúngicas), ritonavir 
+(um medicamento utilizado no tratamento de infeções virais) ou claritromicina (um antibiótico) para 
+que o seu médico o monitorize para deteção de efeitos secundários. </p>
+<p>Crianças e adolescentes </p>
+<p>Este medicamento não deve ser usado em crianças e adolescentes com menos de 18 anos de idade, 
+pois não foi estudado suficientemente nestes grupos. Xerava não pode ser usado em crianças com 
+menos de 8 anos de idade, pois pode causar efeitos permanentes nos seus dentes, tais como 
+descoloração. </p>
+<p>Outros medicamentos e Xerava </p>
+<p>Informe o seu médico ou enfermeiro se estiver a tomar, tiver tomado recentemente ou se vier a tomar 
+outros medicamentos, incluindo rifampicina e claritromicina (antibióticos), fenobarbital, 
+carbamazepina e fenitoína (utilizados no tratamento da epilepsia), erva de S. João (um remédio à base 
+de ervas utilizado no tratamento da depressão e da ansiedade) itraconazol (um medicamento utilizado 
+no tratamento de infeções fúngicas), ritonavir, atazanavir, lopinavir e saquinavir (medicamentos 
+utilizados no tratamento de infeções virais) e ciclosporina (um medicamento utilizado para suprimir o 
+sistema imunitário). </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de receber este medicamento. Não se recomenda a utilização de Xerava durante a gravidez, pois 
+pode: </p>
+<ul>
+<li>
+<p>manchar permanentemente os dentes do feto </p>
+</li>
+<li>
+<p>atrasar a formação natural dos ossos do feto. </p>
+</li>
+</ul>
+<p>Desconhece-se se Xerava passa para o leite materno. A utilização prolongada de outros antibióticos 
+semelhantes por mães a amamentar pode causar o aparecimento de manchas permanentes nos dentes 
+da criança. Consulte o seu médico antes de amamentar o seu bebé. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Xerava pode afetar a sua capacidade de conduzir ou utilizar máquinas com segurança. Não conduza ou 
+utilize máquinas caso sinta tonturas, desorientadoou instável depois de receber este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar xerava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar xerava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xerava será administrado por um médico ou enfermeiro. </p>
+<p>A dose recomendada para adultos baseia-se no peso corporal e é de 1 mg/kg de 12 em 12 horas. 
+O seu médico pode aumentar a dose (1,5 mg/kg de 12 em 12 horas) se já estiver a tomar outros 
+medicamentos, incluindo rifampicina, fenobarbital, carbamazepina, fenitoína ou erva de S. João. </p>
+<p>O medicamento será administrado através de uma perfusão numa veia (por perfusão intravenosa) 
+durante aproximadamente 1 hora. </p>
+<p>Um ciclo de tratamento dura habitualmente 4 a 14 dias. O seu médico decidirá qual a duração do seu 
+tratamento. </p>
+<p>Se lhe for administrado mais Xerava do que deveria </p>
+<p>Xerava será administrado no hospital por um médico ou enfermeiro. Portanto, é improvável que lhe 
+seja administrado mais Xerava do que deveria. Informe imediatamente o seu médico ou enfermeiro se 
+achar que lhe foi administrado demasiado Xerava. </p>
+<p>Caso se tenha esquecido de uma administração de Xerava </p>
+<p>Xerava será administrado no hospital por um médico ou enfermeiro. Portanto, é improvável que não 
+receba uma dose de Xerava. Informe imediatamente o seu médico ou enfermeiro se achar que uma 
+administração de Xerava pode ter sido esquecida. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Procure atenção médica urgente se suspeitar que tem uma reação anafilática enquanto estiver a 
+receber Xerava, ou se desenvolver algum dos seguintes sintomas enquanto recebe Xerava: </p>
+<ul>
+<li>
+<p>Erupção na pele </p>
+</li>
+<li>
+<p>Inchaço da face </p>
+</li>
+<li>
+<p>Sensação de desorientação ou desmaios </p>
+</li>
+<li>
+<p>Aperto no peito </p>
+</li>
+<li>
+<p>Dificuldades em respirar </p>
+</li>
+<li>
+<p>Batimento cardíaco acelerado </p>
+</li>
+<li>
+<p>Perda de consciência </p>
+</li>
+</ul>
+<p>Informe imediatamente o seu médico ou enfermeiro se desenvolver diarreia durante ou após o seu 
+tratamento. Não tome qualquer medicamento para tratar a sua diarreia sem falar primeiro com o seu 
+médico. </p>
+<p>Outros efeitos indesejáveis podem incluir: </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>Náuseas </p>
+</li>
+<li>
+<p>Vómitos </p>
+</li>
+<li>
+<p>Inflamação e dor causadas por coágulos sanguíneos no local da injeção (tromboflebite) </p>
+</li>
+<li>
+<p>Inflamação de uma veia que provoca dor e inchaço (flebite) </p>
+</li>
+<li>
+<p>Vermelhidão ou inchaço no local da injeção </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 doentes): </p>
+<ul>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Reação alérgica </p>
+</li>
+<li>
+<p>Inflamação do pâncreas, que provoca dor forte na barriga ou nas costas (pancreatite) </p>
+</li>
+<li>
+<p>Erupção na pele </p>
+</li>
+<li>
+<p>Tonturas </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Aumento da sudação </p>
+</li>
+<li>
+<p>Resultados alterados das análises sanguíneas para o fígado </p>
+</li>
+</ul>
+<p>Informe o seu médico ou enfermeiro se tiver algum destes efeitos indesejáveis. </p>
+<p>Outros antibióticos à base de tetraciclinas 
+Foram notificados outros efeitos secundários com outros antibióticos à base de tetraciclinas, incluindo 
+minociclina e doxiciclina. Estes incluem sensibilidade à luz, dor de cabeça, problemas de visão ou 
+análises sanguíneas alteradas. Informe o seu médico ou enfermeiro se notar algum destes efeitos 
+durante o seu tratamento com Xerava. </p>
+<p>Comunicação de efeitos secundários </p>
+<p>Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos secundários 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar xerava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar xerava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem, após EXP. 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C-8°C). Manter o frasco para injetáveis dentro da embalagem para 
+proteger da luz. </p>
+<p>Após a reconstituição do pó em solução e posterior diluição, o medicamento está pronto a utilizar e 
+deve ser-lhe administrado imediatamente. Caso contrário, o medicamento pode ser conservado à 
+temperatura ambiente e utilizado no prazo de 12 horas. </p>
+<p>A solução reconstituída de Xerava deve ser límpida, de cor amarela pálida a alaranjada. A solução não 
+deve ser utilizada se contiver quaisquer partículas ou se a solução estiver turva. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Xerava </p>
+<ul>
+<li>A substância ativa é a eravaciclina. Cada frasco para injetáveis contém 50 mg de eravaciclina. </li>
+<li>Os outros componentes são o manitol (E421), o ácido clorídrico (para ajuste do pH) e o hidróxido 
+de sódio (para ajuste do pH). </li>
+</ul>
+<p>Qual o aspeto de Xerava e conteúdo da embalagem </p>
+<p>Xerava é uma solução amarela pálida a amarela escura num frasco para injetáveis de 10 ml. O pó para 
+concentrado para solução para perfusão (pó para concentrado) será reconstituído no frasco para 
+injetáveis com 5 ml de água para preparações injetáveis. A solução reconstituída será retirada do 
+frasco para injetáveis e adicionada a um saco de perfusão de solução injetável de cloreto de sódio 
+9 mg/ml (0,9%) no hospital. </p>
+<p>Xerava está disponível em embalagens contendo 1 frasco para injetáveis ou embalagens múltiplas 
+contendo 12 embalagens, cada uma contendo 1 frasco para injetáveis. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>PAION Deutschland GmbH<br />
+Heussstraße 52078 Aachen <br />
+Alemanha </p>
+<p>Fabricante </p>
+<p>Patheon Italia S.p.A. 
+2° Trav. SX. Via Morolense, 5 
+03013 Ferentino (FR) 
+Itália </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Viatris bvba/sprl 
+Tél/Tel: + 32 (0)2 658 61 Lietuva<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4България 
+PAION Deutschland GmbH<br />
+Teл.: + 49 800 4453 4Luxembourg/Luxemburg<br />
+PAION Deutschland GmbH<br />
+Tél/Tel: + 49 800 4453 4Česká republika 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4453&lt;{e-mail}&gt; 
+Magyarország<br />
+PAION Deutschland GmbH<br />
+Tel.: + 49 800 4453 4Danmark<br />
+PAION Deutschland GmbH<br />
+Tlf: + 49 800 4453 4Malta 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Deutschland 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Nederland 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Eesti 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Norge 
+PAION Deutschland GmbH<br />
+Tlf: + 49 800 4453 4 
+Ελλάδα 
+Viatris Hellas Ltd 
+Τηλ: +30 210 0100Österreich 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4España 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102 Polska 
+Mylan Healthcare Sp. z o.o. 
+Tel.: + 48 22 546 64 France 
+Viatris Santé 
+Tél: +33 4 37 25 75 Portugal 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Hrvatska<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4România 
+BGP Products SRL 
+Tel: +40 372 579 Ireland<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Slovenija 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Ísland 
+PAION Deutschland GmbH<br />
+Sími: + 49 800 4453 4453<br />
+Slovenská republika<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Italia 
+Mylan Italia S.r.l. 
+Tel: + 39 02 612 46Suomi/Finland 
+PAION Deutschland GmbH<br />
+Puh/Tel: + 49 800 4453 4Κύπρος<br />
+PAION Deutschland GmbH<br />
+Τηλ: + 49 800 4453 4Sverige 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Latvija<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4United Kingdom (Northern Ireland) 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -817,6 +1205,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-b6aaef38fe85ec54174ec8e0149fcca6"
 * entry[0].resource = composition-da-b6aaef38fe85ec54174ec8e0149fcca6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb6aaef38fe85ec54174ec8e0149fcca6"
+* entry[=].resource = mpb6aaef38fe85ec54174ec8e0149fcca6
+                            
+                    
+Instance: bundlepackageleaflet-pt-b6aaef38fe85ec54174ec8e0149fcca6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xerava Package Leaflet for language pt"
+Description: "ePI document Bundle for xerava Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-b6aaef38fe85ec54174ec8e0149fcca6"
+* entry[0].resource = composition-pt-b6aaef38fe85ec54174ec8e0149fcca6
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpb6aaef38fe85ec54174ec8e0149fcca6"
@@ -918,6 +1328,18 @@ RuleSet: b6aaef38fe85ec54174ec8e0149fcca6ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-b6aaef38fe85ec54174ec8e0149fcca6) // xerava pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1162,6 +1162,612 @@ sikkerhed, som du skal være opmærksom på, før og under behandlingen med RoAc
 
 
 
+Instance: composition-pt-06f9b891f2158becb7dcf14e44abf883
+InstanceOf: CompositionUvEpi
+Title: "Composition for roactemra Package Leaflet"
+Description:  "Composition for roactemra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp06f9b891f2158becb7dcf14e44abf883)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - roactemra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é RoActemra e para que é utilizado 
+2. O que precisa de saber antes de lhe ser administrado RoActemra 
+3. Como é administrado RoActemra 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar RoActemra 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é roactemra e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é roactemra e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>RoActemra contém a substância ativa tocilizumab, que é uma proteína feita a partir de células 
+imunitárias específicas (anticorpo monoclonal), que bloqueia as ações de um tipo específico de 
+proteína (citocina) denominada interleucina-6. Esta proteína está envolvida em processos 
+inflamatórios do organismo, e o seu bloqueio pode reduzir a inflamação no seu corpo. RoActemra 
+ajuda a reduzir os sintomas tais como a dor e o inchaço das suas articulações e pode também melhorar 
+a sua capacidade de realização das tarefas diárias. RoActemra demonstrou atrasar as lesões da 
+cartilagem e do osso das articulações, causadas pela doença, e melhorar a sua capacidade para realizar 
+tarefas diárias normais. </p>
+<ul>
+<li>
+<p>RoActemra é utilizado no tratamento de doentes adultos com uma doença autoimune, a 
+artrite reumatoide (AR) ativa, moderada a grave, se terapêuticas prévias não surtiram o efeito 
+desejado. RoActemra é normalmente utilizado em combinação com metotrexato. No entanto, 
+RoActemra pode ser usado sozinho se o seu médico determinar que metotrexato não é 
+apropriado. </p>
+</li>
+<li>
+<p>RoActemra pode também ser utilizado para tratar a artrite reumatoide grave, ativa e progressiva, 
+em doentes adultos sem tratamento prévio com metotrexato. </p>
+</li>
+<li>
+<p>RoActemra é utilizado para tratar crianças com AIJs. RoActemra é utilizado no tratamento 
+de crianças com 2 ou mais anos de idade com artrite idiopática juvenil sistémica (AIJs) ativa, 
+uma doença inflamatória que causa dor e inchaço em uma ou mais articulações, bem como febre 
+e erupção na pele. RoActemra é utilizado para melhorar os sintomas da AIJs e pode ser usado 
+sozinho ou em combinação com metotrexato. </p>
+</li>
+<li>
+<p>RoActemra é utilizado para tratar crianças com AIJp. RoActemra é utilizado no tratamento 
+de crianças com 2 ou mais anos de idade com artrite idiopática juvenil poliarticular (AIJp) 
+ativa, uma doença inflamatória que causa dor e inchaço em uma ou mais articulações. 
+RoActemra é utilizado para melhorar os sintomas da AIJp e pode ser usado sozinho ou em 
+combinação com metotrexato. </p>
+</li>
+<li>
+<p>RoActemra é utilizado para tratar adultos e crianças com 2 ou mais anos com síndrome de 
+libertação de citocinas (SLC) grave ou potencialmente fatal, um efeito indesejável em doentes 
+tratados com células T modificadas com recetor antigénio quimérico (CAR), terapêuticas usadas 
+para tratar certos tipos de cancro. </p>
+</li>
+<li>
+<p>RoActemra é utilizado para tratar adultos com doença por coronavírus 2019 (COVID-19) 
+que se encontrem a receber corticosteroides sistémicos e que necessitem de oxigénio 
+suplementar ou ventilação mecânica. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar roactemra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar roactemra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não deverá ser-lhe administrado RoActemra </p>
+<ul>
+<li>
+<p>se tem alergia ao tocilizumab ou a qualquer outro componente deste medicamento 
+(indicados na Secção 6). </p>
+</li>
+<li>
+<p>se tem uma infeção ativa grave. </p>
+</li>
+</ul>
+<p>Se alguma destas situações se aplicar a si, informe o médico ou o enfermeiro que lhe está a administrar 
+a perfusão. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou enfermeiro antes de lhe ser administrado RoActemra. </p>
+<ul>
+<li>
+<p>Se sentir reações alérgicas, tais como aperto no peito, sibilos (pieira), tontura grave ou 
+sensação de desmaio, inchaço dos lábios ou erupção na pele, durante ou após a perfusão, 
+informe o seu médico de imediato. </p>
+</li>
+<li>
+<p>Se tem uma infeção de qualquer tipo, de curta ou longa duração, ou se costuma ter infeções com 
+frequência. Informe o seu médico de imediato se não se sentir bem. RoActemra pode reduzir a 
+capacidade que o seu corpo tem para combater as infeções e pode agravar uma infeção existente 
+ou aumentar a hipótese de contrair uma nova infeção. </p>
+</li>
+<li>
+<p>Se tiver tido tuberculose informe o seu médico. O seu médico procurará sinais e sintomas de 
+tuberculose antes de iniciar o tratamento com RoActemra. Se surgirem sintomas de tuberculose 
+(tosse persistente, perda de peso, falta de energia, febre ligeira) ou qualquer outra infeção 
+durante ou após o tratamento, informe o seu médico de imediato. </p>
+</li>
+<li>
+<p>Se tiver tido úlceras intestinais ou diverticulite informe o seu médico. Os sintomas incluiriam 
+dor de barriga e alterações inexplicáveis dos hábitos intestinais acompanhadas de febre. </p>
+</li>
+<li>
+<p>Se tiver doença do fígado informe o seu médico. O seu médico poderá fazer-lhe um teste ao 
+sangue para avaliar o funcionamento do seu fígado antes de utilizar RoActemra. </p>
+</li>
+<li>
+<p>Se qualquer doente tiver sido vacinado recentemente (doente adulto ou criança) ou planeia 
+vacinar-se, informe o seu médico. Todos os doentes, em especial crianças, devem ter a 
+vacinação em dia antes do início da terapêutica com RoActemra, exceto se for necessário iniciar 
+o tratamento com urgência. Alguns tipos de vacinas não devem ser administradas durante o 
+tratamento com RoActemra. </p>
+</li>
+<li>
+<p>Informe o seu médico se tiver cancro. O seu médico decidirá se poderá receber RoActemra. </p>
+</li>
+<li>
+<p>Se tiver fatores de risco cardiovascular, tais como pressão sanguínea aumentada e níveis 
+aumentados de colesterol, informe o seu médico. Enquanto receber RoActemra estes fatores 
+necessitam ser monitorizados. </p>
+</li>
+<li>
+<p>Se tem problemas da função renal moderados a graves, o seu médico irá monitorizá-lo(a). </p>
+</li>
+<li>
+<p>Se tem dores de cabeça persistentes. </p>
+</li>
+</ul>
+<p>O seu médico irá fazer análises ao seu sangue antes de lhe ser administrado RoActemra, e durante o 
+seu tratamento, para determinar se tem um baixo número de glóbulos brancos ou plaquetas ou as 
+enzimas do fígado aumentadas. </p>
+<p>Crianças e adolescentes 
+RoActemra não é recomendado para utilização em crianças com menos de 2 anos de idade. </p>
+<p>Se uma criança tiver história de síndrome de ativação macrofágica (ativação e proliferação 
+descontrolada de células sanguíneas específicas), informe o seu médico. O seu médico decidirá se a 
+criança ainda poderá receber RoActemra. </p>
+<p>Outros medicamentos e RoActemra 
+Informe o seu médico se estiver a tomar qualquer outro medicamento (ou se a sua criança estiver a 
+tomar outros medicamentos, no caso de o doente ser a criança), ou se tiver tomado quaisquer 
+medicamentos recentemente. RoActemra pode afetar o modo como alguns medicamentos funcionam e 
+pode ser necessário ajustar a dose destes. Caso esteja a utilizar medicamentos que contenham qualquer 
+uma das seguintes substâncias ativas, informe o seu médico: </p>
+<ul>
+<li>
+<p>metilprednisolona, dexametasona, utilizadas para reduzir a inflamação </p>
+</li>
+<li>
+<p>sinvastatina ou atorvastatina, usadas para redução dos níveis de colesterol </p>
+</li>
+<li>
+<p>bloqueadores dos canais de cálcio (por exemplo a amlodipina), usados para tratar a pressão 
+arterial aumentada </p>
+</li>
+<li>
+<p>teofilina, usada para tratar a asma </p>
+</li>
+<li>
+<p>varfarina ou fenprocoumon, usados para tornar o sangue mais líquido </p>
+</li>
+<li>
+<p>fenitoína, usada para tratar convulsões </p>
+</li>
+<li>
+<p>ciclosporina, usada para suprimir o sistema imunitário durante transplantes de órgãos </p>
+</li>
+<li>
+<p>benzodiazepinas (por exemplo, o temazepam), usadas para aliviar a ansiedade. </p>
+</li>
+</ul>
+<p>Devido à falta de experiência clínica, não se recomenda a utilização de RoActemra com outros 
+medicamentos biológicos usados no tratamento da AR, AIJs ou AIJp. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>RoActemra não deve ser utilizado durante a gravidez, exceto se manifestamente necessário. 
+Se está grávida, se pensa estar grávida ou planeia engravidar, fale com o seu médico. </p>
+<p>As mulheres em idade fértil devem usar contraceção eficaz durante e até 3 meses após o tratamento. </p>
+<p>Interrompa a amamentação se lhe vai ser administrado RoActemra e informe o seu médico. 
+Antes de iniciar a amamentação faça um intervalo de pelo menos 3 meses após o seu último 
+tratamento. Não se sabe se RoActemra é excretado no leite materno. </p>
+<p>Os dados disponíveis até ao momento não sugerem qualquer efeito na fertilidade devido a este 
+tratamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Este medicamento pode causar tonturas. Se tiver tonturas, não deve conduzir ou utilizar máquinas. </p>
+<p>RoActemra contém sódio 
+Este medicamento contém 26,55 mg de sódio por dose máxima de 1200 mg. Este facto deve ser tido 
+em conta se estiver sob dieta pobre em sódio. No entanto, doses deste medicamento menores que 
+1025 mg contêm menos de 23 mg de sódio, isto é, são praticamente isentas de sódio. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar roactemra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar roactemra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Este medicamento é sujeito a receita médica restrita prescrita pelo seu médico. </p>
+<p>RoActemra ser-lhe-á administrado através de uma veia por um médico ou enfermeiro. Eles irão 
+diluir a solução, montar uma perfusão intravenosa e monitorizá-lo durante e após o tratamento. </p>
+<p>Doentes adultos com AR 
+A dose usual de RoActemra é de 8 mg por kg de peso corporal. Dependendo da sua resposta, o seu 
+médico poderá diminuir a sua dose para 4 mg/kg e depois aumentar novamente para 8 mg/kg quando 
+apropriado. </p>
+<p>Os adultos receberão RoActemra através de uma veia (perfusão intravenosa), uma vez de 4 em 4 
+semanas, durante uma hora. </p>
+<p>Crianças com AIJs (idade igual ou superior a 2 anos) 
+A dose usual de RoActemra depende do seu peso. </p>
+<ul>
+<li>
+<p>Se pesar menos de 30 kg: a dose é de 12 mg por cada quilograma de peso corporal </p>
+</li>
+<li>
+<p>Se pesar 30 kg ou mais, a dose é de 8 mg por cada quilograma de peso corporal 
+A dose é calculada com base no seu peso corporal em cada administração. </p>
+</li>
+</ul>
+<p>As crianças com AIJs receberão RoActemra através de uma veia (perfusão intravenosa), uma vez de 2 
+em 2 semanas, durante uma hora. </p>
+<p>Crianças com AIJp (idade igual ou superior a 2 anos) 
+A dose usual de RoActemra depende do seu peso. </p>
+<ul>
+<li>
+<p>Se pesar menos de 30 kg: a dose é de 10 mg por cada quilograma de peso corporal </p>
+</li>
+<li>
+<p>Se pesar 30 kg ou mais, a dose é de 8 mg por cada quilograma de peso corporal 
+A dose é calculada com base no seu peso corporal em cada administração. </p>
+</li>
+</ul>
+<p>As crianças com AIJp receberão RoActemra através de uma veia (perfusão intravenosa), uma vez de 4 
+em 4 semanas, durante uma hora. </p>
+<p>Doentes com SLC 
+A dose usual de RoActemra é de 8 mg por cada quilograma de peso corporal se pesar 30 kg ou 
+mais. 
+A dose é de 12 mg por cada quilograma de peso corporal se pesar menos de 30 kg. 
+RoActemra pode ser administrado sozinho ou em associação com corticosteroides. </p>
+<p>Doentes com COVID-A dose usual de RoActemra é de 8 mg por cada quilograma de peso corporal. Poderá ser necessária 
+uma segunda dose.  </p>
+<p>Se lhe for administrado mais RoActemra do que deveria 
+Não é provável que lhe seja administrado RoActemra a mais, uma vez que este é administrado pelo 
+seu médico ou enfermeiro. No entanto, se estiver preocupado fale com o seu médico. </p>
+<p>Caso se tenha esquecido de utilizar RoActemra 
+Não é provável que se esqueça de uma dose de RoActemra, uma vez que é administrado pelo seu 
+médico ou enfermeiro. No entanto, se estiver preocupado fale com o seu médico ou enfermeiro. </p>
+<p>Se parar de utilizar RoActemra 
+Não deve parar de utilizar RoActemra sem primeiro falar com o seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, RoActemra pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Os efeitos indesejáveis podem ocorrer pelo menos até 3 meses após a 
+sua última dose de RoActemra. </p>
+<p>Possíveis efeitos indesejáveis graves: informe um médico imediatamente. 
+Estes são frequentes: podem afetar até 1 em cada 10 doentes </p>
+<p>Reações alérgicas durante ou após a perfusão: </p>
+<ul>
+<li>
+<p>dificuldade em respirar, aperto no peito ou sensação de vertigem </p>
+</li>
+<li>
+<p>erupção cutânea, comichão, urticária, inchaço dos lábios, língua ou face 
+Se notar algum destes, informe o seu médico imediatamente. </p>
+</li>
+</ul>
+<p>Sinais de infeções graves: </p>
+<ul>
+<li>
+<p>febre e arrepios </p>
+</li>
+<li>
+<p>bolhas na boca ou na pele </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+</ul>
+<p>Sinais e sintomas de toxicidade hepática: 
+Estes podem afetar até 1 em cada 1.000 doentes  </p>
+<ul>
+<li>
+<p>cansaço  </p>
+</li>
+<li>
+<p>dor abdominal  </p>
+</li>
+<li>
+<p>icterícia (amarelecimento da pele ou olhos) </p>
+</li>
+</ul>
+<p>Se notar algum destes, informe o seu médico assim que possível. </p>
+<p>Efeitos indesejáveis muito frequentes: 
+Estes podem afetar mais de 1 em cada 10 doentes </p>
+<ul>
+<li>
+<p>infeções do trato respiratório superior com sintomas típicos tais como tosse, nariz entupido, 
+corrimento nasal, dor de garganta e dor de cabeça </p>
+</li>
+<li>
+<p>níveis de gordura no sangue (colesterol) aumentados. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes: 
+Estes podem afetar até 1 em cada 10 doentes </p>
+<ul>
+<li>
+<p>infeção do pulmão (pneumonia) </p>
+</li>
+<li>
+<p>zona (herpes zoster) </p>
+</li>
+<li>
+<p>herpes labial (herpes simplex oral), vesículas </p>
+</li>
+<li>
+<p>infeções da pele (celulite), por vezes com febre e arrepios </p>
+</li>
+<li>
+<p>erupção na pele e comichão, urticária </p>
+</li>
+<li>
+<p>reações alérgicas (de hipersensibilidade) </p>
+</li>
+<li>
+<p>infeção do olho (conjuntivite) </p>
+</li>
+<li>
+<p>dor de cabeça, tonturas, pressão arterial elevada </p>
+</li>
+<li>
+<p>ulceração da boca, dor no estômago </p>
+</li>
+<li>
+<p>retenção de líquidos (edema) na parte inferior das pernas, aumento de peso </p>
+</li>
+<li>
+<p>tosse, falta de ar </p>
+</li>
+<li>
+<p>diminuição do número de glóbulos brancos, demonstrada por análise ao sangue (neutropenia, 
+ leucopenia) </p>
+</li>
+<li>
+<p>testes de função do fígado anormais (aumento das transaminases) </p>
+</li>
+<li>
+<p>aumento da bilirrubina revelado por análises ao sangue </p>
+</li>
+<li>
+<p>baixos níveis de fibrinogénio (uma proteína envolvida na coagulação sanguínea) no sangue. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes: 
+Estes podem afetar até 1 em cada 100 doentes </p>
+<ul>
+<li>
+<p>diverticulite (febre, náuseas, diarreia, prisão de ventre, dor de estômago) </p>
+</li>
+<li>
+<p>zonas da boca vermelhas e inchadas </p>
+</li>
+<li>
+<p>aumento da gordura no sangue (triglicéridos) </p>
+</li>
+<li>
+<p>úlcera no estômago </p>
+</li>
+<li>
+<p>pedras nos rins </p>
+</li>
+<li>
+<p>diminuição do funcionamento da tiroide. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis raros: 
+Estes podem afetar até 1 em cada 1.000 doentes </p>
+<ul>
+<li>
+<p>síndrome de Stevens-Johnson (erupção cutânea na pele, que pode levar à formação grave de 
+bolhas e descamação da pele) </p>
+</li>
+<li>
+<p>reações alérgicas fatais (anafilaxia [fatal]) </p>
+</li>
+<li>
+<p>inflamação do fígado (hepatite), icterícia </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito raros: 
+Estes podem afetar até 1 em cada 10.000 doentes </p>
+<ul>
+<li>
+<p>níveis baixos de glóbulos brancos, glóbulos vermelhos e plaquetas em análises sanguíneas </p>
+</li>
+<li>
+<p>insuficiência hepática </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. 
+Também poderá comunicar efeitos indesejáveis diretamente através do sistema nacional de notificação 
+mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais 
+informações sobre a segurança deste medicamento. </p>
+<p>Crianças com AIJs 
+Em geral, o tipo de efeitos indesejáveis em doentes com AIJs foi semelhante aos observados em 
+adultos com AR. Alguns efeitos indesejáveis foram observados com mais frequência: nariz e garganta 
+inflamados, diarreia, baixo número de glóbulos brancos e aumento das enzimas do fígado. </p>
+<p>Crianças com AIJp 
+Em geral, o tipo de efeitos indesejáveis em doentes com AIJp foi semelhante aos observados em 
+adultos com AR. Alguns efeitos indesejáveis foram observados com mais frequência: nariz e garganta 
+inflamados, dor de cabeça, sentir má-disposição (náuseas) e baixo número de glóbulos brancos. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar roactemra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar roactemra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter RoActemra fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior. </p>
+<p>Conservar no frigorífico (entre 2 ºC - 8 ºC). Não congelar. </p>
+<p>Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de RoActemra </p>
+<ul>
+<li>A substância ativa é o tocilizumab. </li>
+</ul>
+<p>Cada frasco para injetáveis de 4 ml contém 80 mg de tocilizumab (20 mg/ml). </p>
+<p>Cada frasco para injetáveis de 10 ml contém 200 mg de tocilizumab (20 mg/ml). </p>
+<p>Cada frasco para injetáveis de 20 ml contém 400 mg de tocilizumab (20 mg/ml). </p>
+<ul>
+<li>Os outros componentes são sacarose, polissorbato 80, fosfato dissódico dodeca-hidratado, 
+fosfato monossódico di-hidratado e água para preparações injetáveis. </li>
+</ul>
+<p>Qual o aspeto de RoActemra e conteúdo da embalagem 
+RoActemra é um concentrado para solução para perfusão. O concentrado é um líquido límpido a 
+opalescente, incolor a amarelo pálido. 
+RoActemra é fornecido em frascos para injetáveis contendo 4 ml, 10 ml e 20 ml de concentrado para 
+solução para perfusão. Embalagens de 1 e 4 frascos para injetáveis. É possível que não sejam 
+comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha  </p>
+<p>Fabricante 
+Roche Pharma AG 
+Emil-Barell-Str. 1 
+D-79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+N.V. Roche S.A. 
+Tél/Tel: +32 (0) 2 525 82<br />
+Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>България 
+Рош България ЕООД 
+Тел: +359 2 818 44<br />
+Magyarország 
+Roche (Magyarország) Kft. 
+Tel: +36 - 1 279 4 
+Česká republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382Malta 
+(See Ireland) </p>
+<p>Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99<br />
+Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438 
+Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624  </p>
+<p>Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90<br />
+Eesti 
+Roche Eesti OÜ 
+Tel: + 372 - 6 177<br />
+Österreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27 
+Ελλάδα 
+Roche (Hellas) A.E.<br />
+Τηλ: +30 210 61 66<br />
+Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18<br />
+España 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81<br />
+Portugal 
+Roche Farmacêutica Química, Lda 
+Tel: +351 - 21 425 70<br />
+France 
+Roche 
+Tél: +33 (0) 1 47 61 40  </p>
+<p>România 
+Roche România S.R.L. 
+Tel: +40 21 206 47<br />
+Hrvatska 
+Roche d.o.o. 
+Tel: +385 1 47 22  </p>
+<p>Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0 </p>
+<p>Slovenija 
+Roche farmacevtska družba d.o.o. 
+Tel: +386 - 1 360 26<br />
+Ísland<br />
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika<br />
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638 
+Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554<br />
+Kύπρος<br />
+Γ.Α.Σταμάτης &amp; Σια Λτδ. 
+Τηλ: +357 - 22 76 62<br />
+Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1 
+Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039 
+United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366 </p>
+<p>Lietuva 
+UAB “Roche Lietuva" 
+Tel: +370 5 2546 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1203,6 +1809,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-06f9b891f2158becb7dcf14e44abf883"
 * entry[0].resource = composition-da-06f9b891f2158becb7dcf14e44abf883
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp06f9b891f2158becb7dcf14e44abf883"
+* entry[=].resource = mp06f9b891f2158becb7dcf14e44abf883
+                            
+                    
+Instance: bundlepackageleaflet-pt-06f9b891f2158becb7dcf14e44abf883
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for roactemra Package Leaflet for language pt"
+Description: "ePI document Bundle for roactemra Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-06f9b891f2158becb7dcf14e44abf883"
+* entry[0].resource = composition-pt-06f9b891f2158becb7dcf14e44abf883
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp06f9b891f2158becb7dcf14e44abf883"
@@ -1304,6 +1932,18 @@ RuleSet: 06f9b891f2158becb7dcf14e44abf883ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-06f9b891f2158becb7dcf14e44abf883) // roactemra pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

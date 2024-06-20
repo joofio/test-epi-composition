@@ -845,6 +845,466 @@ europæiske offentlige vurderingsrapport.</p>         </div>"""
 
 
 
+Instance: composition-pt-80012b09e7b7a78ced217a2ccd81660e
+InstanceOf: CompositionUvEpi
+Title: "Composition for elrexfio Package Leaflet"
+Description:  "Composition for elrexfio Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp80012b09e7b7a78ced217a2ccd81660e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - elrexfio"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é ELREXFIO e para que é utilizado
+2. O que precisa de saber antes de ELREXFIO lhe ser administrado
+3. Como é administrado ELREXFIO
+4. Efeitos indesejáveis possíveis
+5. Como conservar ELREXFIO
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é elrexfio e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é elrexfio e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ELREXFIO é um medicamento contra o cancro que contém a substância ativa elranatamab. É 
+utilizado para tratar adultos com um tipo de cancro da medula óssea chamado mieloma múltiplo.
+É utilizado isoladamente em doentes cujo cancro reapareceu (recidivou) e que deixou de responder ao 
+tratamento anterior (refratário), que receberam pelo menos três outros tipos de tratamento e cujo 
+cancro se agravou desde que receberam o último tratamento.
+Como ELREXFIO atua
+ELREXFIO é um anticorpo, um tipo de proteína que foi concebido para reconhecer e ligar-se aos
+alvos específicos no seu organismo. ELREXFIO tem como alvos o antigénio de maturação das células 
+B (BCMA), que se encontra em células cancerígenas de mieloma múltiplo, e o cluster de 
+diferenciação 3 (CD3), que se encontra nos linfócitos T, um tipo particular de glóbulos brancos do seu 
+sistema imunitário. Este medicamento atua ao ligar-se a estes alvos e, ao fazê-lo, junta as células
+cancerosas e os linfócitos T. Isto ajuda o seu sistema imunitário a destruir as células cancerígenas de 
+mieloma múltiplo.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar elrexfio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar elrexfio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe pode ser administrado ELREXFIO
+Se tem alergia ao elranatamab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+Se não tem a certeza se é alérgico, fale com o seu médico ou enfermeiro antes de ELREXFIO lhe ser 
+administrado.
+Advertências e precauções 
+Informe o seu médico ou enfermeiro sobre todos os seus problemas de saúde antes de ELREXFIO lhe 
+ser administrado, incluindo se teve qualquer infeção recentemente.
+34
+Esteja atento a efeitos indesejáveis graves.
+Informe o seu médico ou enfermeiro imediatamente se tiver algum dos seguintes:
+
+Sinais de uma condição conhecida como “síndrome de libertação de citocinas" (CRS). A CRS
+é uma reação imunitária grave com sintomas como febre, dificuldade em respirar, arrepios, 
+dor de cabeça, tensão arterial baixa, batimento cardíaco rápido, tonturas e aumento dos níveis 
+de enzimas hepáticas no sangue.
+
+Efeitos no seu sistema nervoso. Os sintomas incluem confusão, estar menos alerta ou ter 
+dificuldade em falar ou escrever. Alguns destes podem ser sinais de uma reação imunitária 
+grave chamada “síndrome de neurotoxicidade associada a células imunitárias efetoras" 
+(ICANS).
+
+Sinais e sintomas de uma infeção, tais como febre, arrepios, fadiga ou dificuldade em respirar.
+Informe o seu médico ou enfermeiro se notar algum dos sinais acima descritos.
+ELREXFIO e vacinas
+Fale com o seu médico ou enfermeiro antes de lhe ser administrado ELREXFIO se tiver sido vacinado 
+recentemente ou for receber uma vacina.
+Não deve receber vacinas vivas nas quatro semanas anteriores à sua primeira dose de ELREXFIO, 
+enquanto estiver a ser tratado com ELREXFIO e durante, pelo menos, quatro semanas após ter parado 
+o tratamento com ELREXFIO.
+Análises e exames
+Antes de ELREXFIO lhe ser administrado, o seu médico vai verificar o seu hemograma para 
+detetar sinais de infeção. Se tiver alguma infeção, esta será tratada antes de iniciar o tratamento com 
+ELREXFIO. O seu médico também vai verificar se está grávida ou a amamentar.
+Durante o tratamento com ELREXFIO, o seu médico vai monitorizá-lo para detetar efeitos 
+indesejáveis. O seu médico vai monitorizá-lo para sinais e sintomas de CRS e ICANS nas 48 horas 
+após cada uma das suas duas doses iniciais de ELREXFIO. O seu médico vai também verificar o seu 
+hemograma a intervalos regulares, pois o número de células sanguíneas e de outros componentes do 
+sangue poderá diminuir.
+Crianças e adolescentes
+ELREXFIO não se destina a crianças e adolescentes com menos de 18 anos de idade uma vez que não 
+se sabe como o medicamento os irá afetar.
+Outros medicamentos e ELREXFIO
+Informe o seu médico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos (por ex., ciclosporina, fenítoina, sirolímus e varfarina). Isto inclui medicamentos 
+que podem ser obtidos sem receita médica e medicamentos à base de plantas.
+Gravidez e amamentação
+Desconhece-se se ELREXFIO afeta os fetos ou passa para o leite materno.
+Informação sobre gravidez para as mulheres
+ELREXFIO não é recomendado durante a gravidez.
+Se está grávida, se pensar estar grávida ou planeia engravidar, consulte o seu médico ou enfermeiro 
+antes de receber ELREXFIO.
+Se pode engravidar, o seu médico deve efetuar-lhe um teste de gravidez antes de iniciar o tratamento.
+Se engravidar enquanto está a ser tratada com este medicamento, informe o seu médico ou enfermeiro 
+imediatamente.
+35
+Contraceção
+Se pode engravidar, deve utilizar métodos contracetivos eficazes durante o tratamento e durante 
+6 meses após parar o tratamento com ELREXFIO.
+Amamentação
+Não deve amamentar durante o tratamento e durante 6 meses após parar o tratamento com 
+ELREXFIO.
+Condução de veículos e utilização de máquinas
+Algumas pessoas sentem-se cansadas, com tonturas ou confusas enquanto estão a receber ELREXFIO. 
+Não conduza, utilize ferramentas ou opere máquinas até, pelo menos, 48 horas após cada uma das suas 
+2 doses de escalonamento (iniciais) e até os seus sintomas melhorarem ou conforme as indicações do 
+seu profissional de saúde.
+ELREXFIO contém sódio
+ELREXFIO contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente "isento 
+de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar elrexfio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar elrexfio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Que quantidade é administrada
+ELREXFIO vai ser-lhe administrado sob a supervisão de um profissional de saúde experiente no 
+tratamento do cancro. A dose recomendada de ELREXFIO é de 76 mg, mas as duas primeiras doses 
+serão mais baixas.
+ELREXFIO é administrado da seguinte forma:
+
+Vai receber uma primeira dose de escalonamento (inicial) de 12 mg no dia 1 da semana 1. 
+Vai receber uma segunda dose de escalonamento de 32 mg no dia 4 da semana 1. 
+Entre a semana 2 e a semana 24 (dia 1) vai receber uma dose de tratamento completa de 76 mg 
+uma vez por semana, desde que esteja a beneficiar do tratamento com ELREXFIO.
+
+Da semana 25 em diante, o seu médico pode mudar o seu tratamento de uma vez por semana 
+para uma vez a cada duas semanas, desde que o seu cancro tenha respondido ao tratamento 
+com ELREXFIO.
+Deve permanecer na proximidade de uma instituição de saúde durante 48 horas a seguir a cada uma 
+das duas primeiras doses de escalonamento, para o caso de ter efeitos indesejáveis. O seu médico vai 
+monitorizá-lo quanto a efeitos indesejáveis durante 48 horas a seguir a cada uma das duas primeiras 
+doses.
+Como o medicamento é administrado
+ELREXFIO será sempre administrado pelo seu médico ou enfermeiro sob a forma de uma injeção por 
+baixo da pele (subcutânea). É administrada na área da barriga ou nas coxas.
+Poderá ter uma reação no local de injeção, incluindo vermelhidão na pele, dor, inchaço, nódoas negras, 
+erupção na pele, comichão ou hemorragia. Estes efeitos são habitualmente ligeiros e desaparecem por 
+si só, sem necessidade de tratamento adicional.
+Outros medicamentos administrados durante o tratamento com ELREXFIO
+Vão ser-lhe administrados medicamentos uma hora antes de cada uma das suas três primeiras doses de 
+ELREXFIO. Estes medicamentos ajudam a diminuir a probabilidade de efeitos indesejáveis, tais como 
+a síndrome de libertação de citocinas (ver secção 4). Estes medicamentos podem incluir:
+
+Medicamentos para reduzir o risco de febre (tal como o paracetamol)
+
+Medicamentos para reduzir o risco de inflamação (corticosteroides)
+36
+
+Medicamentos para reduzir o risco de uma reação alérgica (anti-histamínicos, tais como a 
+difenidramina)
+Poderá também receber estes medicamentos para doses posteriores de ELREXFIO, com base nos 
+sintomas que tenha após tomar ELREXFIO.
+Poderá igualmente receber medicamentos adicionais, com base nos sintomas que tenha ou na sua 
+história clínica.
+Se lhe for administrado mais ELREXFIO do que deveria
+Este medicamento é administrado pelo seu médico ou enfermeiro. Na eventualidade pouco provável 
+de lhe ser administrada uma dose excessiva (uma sobredosagem), o seu médico vai monitorizá-lo 
+quanto a efeitos indesejáveis.
+Caso falte à sua marcação para administração de ELREXFIO 
+É muito importante que compareça a todas as marcações para garantir que o seu tratamento funciona. 
+Se faltar a uma marcação, remarque o mais rapidamente possível.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Efeitos indesejáveis graves
+Procure assistência médica imediatamente se tiver qualquer um dos seguintes efeitos indesejáveis 
+graves, os quais podem ser fortes e mesmo fatais.
+Muito frequentes (podem afetar mais de 1 em 10 pessoas):
+
+Síndrome de libertação de citocinas, uma reação imune grave que pode causar febre, 
+dificuldade em respirar, arrepios, tonturas ou atordoamento, batimento cardíaco rápido, 
+aumento das enzimas hepáticas no sangue;
+
+Níveis baixos de neutrófilos (um tipo de glóbulo branco que combate as infeções;
+neutropenia);
+
+Níveis baixos de anticorpos chamados “imunoglobulinas" no sangue (hipogamaglobulinemia), 
+o que pode aumentar a probabilidade de contrair infeções;
+
+Infeção, que pode incluir, febre, arrepios, cansaço ou falta de ar.
+Frequentes (podem afetar até 1 em 10 pessoas):
+
+Síndrome de neurotoxicidade associada a células efetoras imunitárias (ICANS), uma reação 
+imune grave que pode causar efeitos no seu sistema nervoso. Alguns dos sintomas são:
+o
+Confusão
+o
+Sentir-se menos alerta
+o
+Ter dificuldade em falar ou escrever
+Contacte o seu médico imediatamente se tiver qualquer um dos efeitos indesejáveis graves acima 
+listados.
+Outros efeitos indesejáveis
+Outros efeitos indesejáveis estão listados abaixo. Informe o seu médico ou enfermeiro se tiver algum 
+destes efeitos indesejáveis.
+Muito frequentes (podem afetar mais de 1 em 10 pessoas):
+
+Níveis baixos de glóbulos vermelhos (anemia)
+
+Sentir-se cansado ou fraco
+37
+
+Infeção do nariz e garganta (infeção das vias respiratórias superiores)
+
+Reações no local de injeção ou perto deste, incluindo vermelhidão da pele, comichão, inchaço, 
+dor, nódoas negras, erupção na pele ou sangramento
+
+Diarreia
+
+Infeção pulmonar (pneumonia)
+
+Níveis baixos de plaquetas (células que ajudam o sangue a coagular; trombocitopenia)
+
+Níveis baixos de linfócitos, um tipo de glóbulo branco (linfopenia)
+
+Febre (pirexia)
+
+Diminuição do apetite
+
+Erupção na pele
+
+Pele seca
+
+Dor nas articulações (artralgia)
+
+Níveis baixos de potássio no sangue (hipocaliemia)
+
+Sentir-se enjoado (náuseas)
+
+Dor de cabeça
+
+Dificuldade em respirar (dispneia)
+
+Infeção do sangue (sépsis)
+
+Número baixo de glóbulos brancos (leucopenia)
+
+Aumento do nível das enzimas hepáticas no sangue (aumento das transaminases)
+
+Lesão nos nervos das pernas e/ou braços que causa formigueiro, dormência, dor ou perda de
+sensação (neuropatia periférica)
+
+Infeção nas partes do organismo que recolhem e eliminam a urina (infeção das vias urinárias)
+Frequentes (podem afetar até 1 em 10 pessoas):
+
+Níveis baixos de fosfatos no sangue (hipofosfatemia)
+
+Número baixo de neutrófilos no sangue associado a febre (neutropenia febril)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar elrexfio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar elrexfio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ELREXFIO vai ser conservado no hospital ou clínica pelo seu médico.
+Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2°C a 8°C). Não congelar.
+Conservar na embalagem de origem para proteger da luz.
+A seringa preparada pode ser conservada durante 24 horas até 30°C.
+Não utilize este medicamento se verificar descoloração ou outros sinais visíveis de deterioração.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de ELREXFIO 
+
+A substância ativa é o elranatamab. ELREXFIO é fornecido em duas apresentações diferentes:
+38
+o
+Um frasco para injetáveis de 1,1 ml contém 44 mg de elranatamab (40 mg/ml).
+o
+Um frasco para injetáveis de 1,9 ml contém 76 mg de elranatamab (40 mg/ml).
+Os outros componentes são edetato dissódico, L-histidina, cloridrato de L-histidina mono-hidratado, 
+polissorbato 80, sacarose, água para preparações injetáveis (ver “ELREXFIO contém sódio" na 
+secção 2).
+Qual o aspeto de ELREXFIO e conteúdo da embalagem
+ELREXFIO 40 mg/ml solução injetável (injetável) é um líquido incolor a castanho claro.
+ELREXFIO é fornecido em duas dosagens. Cada embalagem de cartão contém 1 frasco para injetáveis 
+de vidro.
+Titular da Autorização de Introdução no Mercado 
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante
+Pfizer Service Company BV
+Hoge Wei 10
+B-1930, Zaventem
+Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+Belgique/België/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 52 51 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel: +36-1-488-37-00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055 51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ: +30 210 6785 800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel: +48 22 335 61 00
+39
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: +421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 43 00 40
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550-520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ: +357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: +371 670 35 775
+Este folheto foi revisto pela última vez em 
+Foi concedida a este medicamento uma «Autorização de Introdução no Mercado condicional». Isto 
+significa que se aguarda mais informação sobre este medicamento.
+A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
+sobre este medicamento e este folheto será atualizado se necessário.
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -886,6 +1346,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-80012b09e7b7a78ced217a2ccd81660e"
 * entry[0].resource = composition-da-80012b09e7b7a78ced217a2ccd81660e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp80012b09e7b7a78ced217a2ccd81660e"
+* entry[=].resource = mp80012b09e7b7a78ced217a2ccd81660e
+                            
+                    
+Instance: bundlepackageleaflet-pt-80012b09e7b7a78ced217a2ccd81660e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for elrexfio Package Leaflet for language pt"
+Description: "ePI document Bundle for elrexfio Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-80012b09e7b7a78ced217a2ccd81660e"
+* entry[0].resource = composition-pt-80012b09e7b7a78ced217a2ccd81660e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp80012b09e7b7a78ced217a2ccd81660e"
@@ -987,6 +1469,18 @@ RuleSet: 80012b09e7b7a78ced217a2ccd81660eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-80012b09e7b7a78ced217a2ccd81660e) // elrexfio pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

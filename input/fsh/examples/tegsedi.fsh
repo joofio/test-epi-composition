@@ -1056,6 +1056,587 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-bb91b33a725934383f978ba47cb95161
+InstanceOf: CompositionUvEpi
+Title: "Composition for tegsedi Package Leaflet"
+Description:  "Composition for tegsedi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbb91b33a725934383f978ba47cb95161)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - tegsedi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Tegsedi e para que é utilizado  </li>
+<li>O que precisa de saber antes de utilizar Tegsedi   </li>
+<li>Como utilizar Tegsedi </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Tegsedi   </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é tegsedi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é tegsedi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tegsedi contém a substância ativa inotersen. Inotersen é utilizado para tratar adultos com amiloidose 
+hereditária por transtirretina. A amiloidose hereditária por transtirretina é uma doença genética que 
+provoca a acumulação de pequenas fibras de uma proteína chamada transtirretina nos órgãos do seu 
+corpo, impedindo-os de funcionar corretamente. Tegsedi é utilizado quando a doença está a causar 
+sintomas de polineuropatia (lesões a nível dos nervos). </p>
+<p>Inotersen é um tipo de medicamento chamado inibidor dos oligonucleotídeos antisense. Funciona ao 
+reduzir a produção de transtirretina pelo fígado e, portanto, reduz o risco das fibras de transtirretina se 
+depositarem nos órgãos do corpo e causarem sintomas. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar tegsedi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar tegsedi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Tegsedi: 
+- Se tem alergia ao inotersen ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- Se os testes demonstrarem que tem um número de plaquetas excessivamente baixo, pelo que 
+as células existentes no seu sangue unir-se-ão para ajudá-lo a coagular. 
+- Se os testes à função renal ou a proteína na urina demonstrarem sinais de problemas de rins 
+graves. 
+- Se tem uma redução grave na função do fígado (compromisso hepático). </p>
+<p>Advertências e precauções </p>
+<p>Antes de iniciar o tratamento com Tegsedi, o seu médico avaliará as suas células sanguíneas, a função 
+do fígado, a função dos rins, a vitamina A e os níveis de proteínas na sua urina. Poderá também ser 
+testada para garantir que tem um teste de gravidez negativo. A não ser por aconselhamento expresso 
+do seu médico, só será tratado com Tegsedi se estes resultados estiverem em níveis aceitáveis e se o 
+resultado do seu teste de gravidez for negativo. O seu médico repetirá estes controlos regularmente 
+durante o tratamento. É importante fazer regularmente estas análises ao sangue e à urina enquanto 
+estiver a tomar Tegsedi.  </p>
+<p>Trombocitopenia </p>
+<p>Tegsedi pode reduzir as células no sangue responsáveis pela coagulação do sangue (plaquetas), o que 
+pode resultar numa condição chamada trombocitopenia em qualquer altura durante o tratamento com 
+Tegsedi (ver secção 4). Quando não tem plaquetas suficientes, como em caso de trombocitopenia, o 
+seu sangue pode não coagular suficientemente rápido para estancar uma hemorragia. Isto pode dar 
+origem a hematomas, assim como a outros problemas mais graves, como hemorragias excessivas e 
+internas. O seu médico verificará os níveis de plaquetas no seu sangue antes do tratamento e 
+regularmente durante o ciclo completo de tratamento com Tegsedi. É importante realizar estas análises 
+ao sangue regularmente enquanto estiver a tomar Tegsedi, devido ao risco de hemorragia grave 
+causada pelas baixas contagens de plaquetas. Se parar de tomar Tegsedi, os seus níveis sanguíneos 
+deverão ser verificados 8 semanas após descontinuação.  </p>
+<p>Deve consultar imediatamente o seu médico, se tiver hematomas inexplicáveis ou uma erupção de 
+pequenas manchas vermelhas na pele (chamadas petéquias), sangramentos devido a cortes na pele que 
+não param ou exsudem, sangramento das gengivas ou nariz, sangue na urina ou nas fezes, hemorragia 
+no branco dos olhos. Peça imediatamente ajuda se sentir rigidez no pescoço ou uma dor de cabeça 
+estranha e intensa, porque estes sintomas podem estar a ser causados por uma hemorragia no cérebro.   </p>
+<p>Glomerulonefrite/problemas de rins </p>
+<p>A glomerulonefrite é uma condição dos seus rins, em que eles não trabalham corretamente devido a 
+inflamação e lesões nos rins. Alguns doentes tratados com inotersen desenvolveram esta condição. Os 
+sintomas de glomerulonefrite são urina com espuma, urina com uma coloração rosada ou acastanhada, 
+sangue na urina e volume de urina inferior ao habitual. </p>
+<p>Alguns doentes tratados com inotersen também desenvolveram um declínio na função renal sem terem 
+tido glomerulonefrite. </p>
+<p>O seu médico verificará a função dos seus rins antes do tratamento e regularmente durante o 
+tratamento com Tegsedi. É importante realizar estas análises ao sangue regularmente enquanto estiver 
+a tomar Tegsedi, devido ao risco de problemas nos rins. Se parar de tomar Tegsedi, a função dos seus 
+rins deverá ser verificada 8 semanas depois da descontinuação. Se desenvolver glomerulonefrite, o seu 
+médico tratá-lo-á adequadamente.  </p>
+<p>Deficiência de vitamina A </p>
+<p>Tegsedi pode reduzir os níveis de vitamina A (também chamada retinol) no seu corpo. O seu médico 
+verificará esses níveis e se já estiverem baixos, a situação deve ser corrigida e quaisquer sintomas 
+terão de desaparecer antes do início do tratamento com Tegsedi. Os sintomas de carência de 
+vitamina A incluem: </p>
+<ul>
+<li>Olhos secos, visão fraca, diminuição da visão noturna, visão turva ou enevoada  </li>
+</ul>
+<p>Se tiver problemas com a sua visão ou quaisquer outros problemas de olhos, quando estiver a utilizar 
+Tegsedi, deve falar com o seu médico. O seu médico encaminhá-lo-á para um oftalmologista para ser 
+examinado, se necessário. </p>
+<p>O seu médico dir-lhe-á para tomar um suplemento diário de vitamina A durante o tratamento com 
+Tegsedi. </p>
+<p>Tanto níveis excessivos como deficientes de vitamina A podem prejudicar o desenvolvimento do seu 
+bebé. Por conseguinte, as mulheres com potencial para engravidar devem excluir qualquer hipótese de 
+estarem grávidas antes do início do tratamento com Tegsedi e têm de utilizar métodos contracetivos 
+eficazes (ver secção “Gravidez e amamentação" abaixo). </p>
+<p>Se está a planear engravidar, deve parar de tomar inotersen, incluindo a suplementação de vitamina A, 
+e certificar-se de que os seus níveis de vitamina A regressaram ao normal antes das tentativas de 
+conceção. </p>
+<p>Se for uma gravidez não planeada, deve parar de tomar inotersen. Contudo, devido à prolongada 
+atividade de Tegsedi, os reduzidos níveis de vitamina A podem persistir. Desconhece-se se a 
+continuação da sua suplementação de vitamina A com 3 000 UI por dia será prejudicial para o seu 
+bebé no primeiro trimestre da gravidez, mas esta dose não deve ser excedida. Deve retomar a 
+suplementação de vitamina A durante o segundo e terceiro trimestres da gravidez, se os níveis de 
+vitamina A ainda não tiverem regressado ao normal, devido ao risco acrescido de deficiência de 
+vitamina A no terceiro trimestre. </p>
+<p>Lesão no fígado e monitorização </p>
+<p>Tegsedi poderá causar problemas de fígado graves. Terá de fazer análises ao sangue antes de começar 
+a tomar inotersen para verificar se o seu fígado está a funcionar bem. Terá também de fazer análises ao 
+sangue regularmente enquanto estiver a tomar este medicamento. É importante que faça análises 
+regulares ao sangue enquanto estiver a tomar Tegsedi. </p>
+<p>Rejeição do transplante hepático </p>
+<p>Fale com o seu médico antes de utilizar Tegsedi, se tiver recebido anteriormente um transplante 
+hepático. Foram notificados casos de rejeição do transplante hepático em doentes tratados com 
+Tegsedi. O seu médico irá monitorizá-lo regularmente por causa disto durante o tratamento com 
+Tegsedi. </p>
+<p>Crianças e adolescentes 
+Tegsedi não deve ser utilizado em crianças ou adolescentes com idade inferior a 18 anos.  </p>
+<p>Outros medicamentos e Tegsedi 
+Informe o seu médico ou farmacêutico, se estiver a tomar ou tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. É importante que informe o seu médico se já estiver a ser tratado com 
+algum dos seguintes: 
+- Medicamentos para evitar coágulos sanguíneos ou que reduzem o número de plaquetas no seu 
+sangue, como por exemplo, ácido acetilsalicílico, heparina, varfarina, clopidrogel, 
+rivoraxabano e dabigatrano. 
+- Quaisquer medicamentos que possam alterar a função dos seus rins ou possam causar-lhes 
+danos, como por exemplo, as sulfonamidas (utilizadas como antibacterianos), anilidos (usados 
+para tratar a febre e dores), antagonistas da aldosterona (utilizados como diuréticos) e 
+alcaloides naturais do ópio e outros opioides (utilizados no tratamento da dor).  </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de utilizar este medicamento. </p>
+<p>Mulheres com potencial para engravidar </p>
+<p>Tegsedi reduzirá o nível de vitamina A no seu corpo, o qual é importante para um desenvolvimento 
+normal do feto durante a gravidez. Desconhece-se se a suplementação de vitamina A pode compensar 
+o risco de deficiência de vitamina A que pode afetar o seu feto (ver “Advertências e Precauções" 
+acima). Se for uma mulher com potencial para engravidar, tem de utilizar métodos contracetivos 
+eficazes e qualquer hipótese de gravidez deve ser excluída antes do início do tratamento com Tegsedi. </p>
+<p>Gravidez </p>
+<p>Não deve utilizar Tegsedi se estiver grávida, a não ser por aconselhamento expresso do seu médico. </p>
+<p>Amamentação </p>
+<p>Inotersen pode passar para o leite materno. Não é possível excluir um risco para o lactente. Deve 
+consultar o seu médico, para saber se deve deixar de amamentar ou parar o tratamento com Tegsedi. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>A utilização de Tegsedi não demonstrou afetar a capacidade de conduzir ou utilizar maquinaria. </p>
+<p>Tegsedi contém sódio 
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por 1,5 ml, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar tegsedi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar tegsedi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada de Tegsedi é uma dose de 284 mg de inotersen.  </p>
+<p>As doses devem ser administradas uma vez por semana. Todas as doses subsequentes devem ser 
+injetadas uma vez por semana, no mesmo dia da semana.  </p>
+<p>Via e modo de administração  </p>
+<p>Tegsedi destina-se apenas a ser administrado através de uma injeção sob a pele (via subcutânea). </p>
+<p>Instruções de utilização </p>
+<p>Antes de utilizar a sua seringa pré-cheia, o seu médico ensinar-lhe-á a si ou ao seu cuidador como 
+utilizá-la da maneira correta. Se você ou o seu cuidador tiverem dúvidas, pergunte ao seu médico. </p>
+<p>Leia as “Instruções de Utilização" antes de começar a utilizar a sua seringa pré-cheia e sempre que 
+receber uma prescrição repetida. Pode haver informações novas. </p>
+<p>Guia sobre os componentes </p>
+<p>Cada seringa pré-cheia contém uma dose e destina-
+se apenas a uma utilização única. </p>
+<p>Antes da utilização 
+Após a utilização </p>
+<p>Êmbolo 
+Aletas 
+Mola de 
+segurança 
+(dentro do corpo) 
+Corpo </p>
+<p>Tampa da 
+agulha 
+Após a utilização, a mola de 
+segurança é ativada 
+automaticamente e recolhe a agulha. 
+Agulha 
+Zona de 
+inspeção </p>
+<p>ADVERTÊNCIAS 
+Não retire a tampa da agulha antes de chegar ao Passo 6 destas instruções e estiver 
+pronto para injetar Tegsedi; 
+Não partilhe a sua seringa com outra pessoa ou reutilize a sua seringa. 
+Não utilize, se a seringa pré-cheia cair sobre uma superfície dura ou estiver 
+danificada; 
+Não congele a seringa pré-cheia; 
+Se ocorrer alguma das situações acima descritas, elimine a seringa pré-cheia num 
+contentor para material perfurante (agulha) e utilize uma nova seringa pré-cheia. 
+PREPARAÇÃO 
+1. Reunir o material 
+- 1 seringa pré-cheia retirada do frigorífico 
+- 1 toalhete embebido em álcool (não fornecido) 
+- 1 compressa ou bola de algodão (não fornecido) 
+- 1 contentor para material perfurante (agulhas) (não fornecido) </p>
+<p>Não injete o medicamento enquanto não tiver reunido o material acima indicado. </p>
+<ol>
+<li>
+<p>Preparar a utilização da sua seringa pré-cheia </p>
+</li>
+<li>
+<p>Remova a bandeja de plástico da embalagem exterior e verifique a data de validade. 
+Não utilize se o prazo de validade tiver expirado.   </p>
+</li>
+<li>
+<p>Deixe a seringa pré-cheia atingir a temperatura ambiente (20 °C a 25 °C) durante minutos, antes da injeção. Não aqueça a seringa pré-cheia de qualquer outra forma. 
+Por exemplo, não aqueça num micro-ondas ou em água quente, nem perto de outras 
+fontes de calor. </p>
+</li>
+<li>
+<p>Retire a seringa pré-cheia da bandeja, segurando no corpo da seringa. </p>
+</li>
+</ol>
+<p>Não mexa o êmbolo.  </p>
+<ol>
+<li>Verificar o medicamento na seringa pré-cheia </li>
+</ol>
+<p>Observe a zona de inspeção para 
+verificar se a solução está 
+límpida e incolor a amarelo 
+claro. É normal ver bolhas de ar 
+na solução. Não é necessário 
+fazer nada em relação a isso.<br />
+Não utilize, se a solução parecer 
+turva, descolorada ou tiver 
+partículas.<br />
+Se a solução parecer turva, 
+descolorada ou tiver partículas, 
+elimine a seringa pré-cheia num 
+contentor para material 
+perfurante (agulhas) e utilize 
+uma nova seringa pré-cheia. </p>
+<ol>
+<li>Escolher o local de administração </li>
+</ol>
+<p>Escolha um local de 
+administração no seu abdómen 
+(barriga) ou na parte da frente das 
+suas coxas. 
+O local da injeção também pode 
+ser na zona exterior do braço, se 
+Tegsedi for administrado por um 
+cuidador.<br />
+Não injete numa área de 3 cm em 
+redor do umbigo. 
+Não injete sempre no mesmo 
+sítio. 
+Não injete em locais onde a pele 
+estiver magoada, sensível, 
+vermelha ou endurecida. 
+Não injete sobre tatuagens, 
+cicatrizes ou pele danificada. 
+Não injete através de roupa. </p>
+<ol>
+<li>Limpar o local de administração </li>
+</ol>
+<p>Lave as mãos com sabão e água. 
+Limpe o local da injeção com um 
+toalhete embebido em álcool num 
+movimento circular. Deixe a pele 
+secar ao ar. 
+Não volte a tocar nessa zona 
+antes da injeção. </p>
+<p>INJEÇÃO 
+6. Retirar a tampa da agulha </p>
+<p>Segure no corpo da seringa pré-
+cheia, com a agulha virada para o 
+lado oposto a si.<br />
+Retire a tampa da agulha, 
+puxando-a na vertical. Não a rode.<br />
+É possível que veja uma gota de 
+líquido na ponta da agulha. É 
+normal.<br />
+Mantenha as mãos fora do êmbolo 
+para evitar qualquer pressão sobre 
+ele antes de estar tudo preparado 
+para a injeção.<br />
+Não retire a tampa da agulha 
+antes de ser o momento da 
+injeção.<br />
+Não puxe a tampa, se estiver a 
+segurar na seringa pré-cheia pelo 
+êmbolo. Segure sempre no corpo 
+da seringa.<br />
+Não deixe a agulha tocar em 
+qualquer superfície.<br />
+Não retire as bolhas de ar da 
+seringa pré-cheia.<br />
+Não volte a colocar a tampa da 
+agulha na seringa pré-cheia. 
+7. Introduzir a agulha </p>
+<p>Segure na seringa pré-cheia com 1 
+mão. 
+Segure na pele no local da injeção, 
+como o seu profissional de saúde lhe 
+ensinou. Pode fazer uma ligeira 
+prega na pele no local da injeção ou 
+injetar sem apertar a pele. 
+Introduza lentamente a agulha no 
+local escolhido, num ângulo de 90°, 
+até à sua total inserção. 
+Não segure na seringa pré-cheia 
+pelo êmbolo nem faça força sobre 
+o êmbolo para introduzir a agulha. </p>
+<ol>
+<li>Iniciar a injeção </li>
+</ol>
+<p>De forma lenta e firme, pressione o 
+êmbolo totalmente até ao fim, até o 
+medicamento ter sido injetado. 
+Certifique-se de que a agulha 
+permanece totalmente inserida no 
+local de administração quando 
+estiver a injetar o medicamento.<br />
+É importante empurrar o êmbolo 
+totalmente até ao fim.<br />
+A sua seringa pré-cheia pode fazer 
+um clique à medida que o êmbolo 
+desce. É normal. Isto não significa 
+que a injeção terminou.<br />
+O êmbolo pode parecer rígido à 
+medida que se aproxima o fim da 
+injeção. Pode ser necessário fazer 
+um pouco mais de pressão sobre o 
+êmbolo para se certificar de que o 
+empurrou até ao limite.<br />
+Não largue o êmbolo. </p>
+<ol>
+<li>Empurrar o êmbolo para baixo </li>
+</ol>
+<p>Pressione firmemente sobre o 
+êmbolo no fim da injeção. Mantenha 
+o êmbolo totalmente pressionado e 
+aguarde 5 segundos. Se largar o 
+êmbolo demasiadamente rápido, 
+pode perder uma parte do 
+medicamento.<br />
+O êmbolo começará a subir 
+automaticamente, o que significa que 
+o êmbolo foi pressionado totalmente 
+até ao fim.<br />
+Volte a pressioná-lo, se o 
+êmbolo não começar a subir 
+automaticamente. </p>
+<p>De forma lenta e 
+firme, pressione o 
+êmbolo até ao fim </p>
+<p>Mantenha 
+o êmbolo 
+totalmente 
+pressionado 
+e aguarde<br />
+5 segundos </p>
+<p>Aguarde 
+5 
+segundos </p>
+<ol>
+<li>Concluir a injeção </li>
+</ol>
+<p>Lentamente alivie a pressão sobre o 
+êmbolo para permitir que a mola de 
+segurança faça subir automaticamente 
+o êmbolo.<br />
+A agulha deve agora estar recolhida 
+em segurança, no interior da seringa 
+pré-cheia, e a mola do mecanismo de 
+segurança é visível no exterior do 
+êmbolo.<br />
+Quando o êmbolo parar, a sua injeção 
+está concluída.<br />
+Se o êmbolo não subir 
+automaticamente, ao aliviar a pressão, 
+significa que a mola de segurança não 
+foi ativada e, então, deve voltar a 
+pressionar o êmbolo mas com mais 
+força.<br />
+Não tente subir o êmbolo 
+manualmente. Retire a seringa pré-
+cheia na vertical da pele.<br />
+Não tente colocar novamente a tampa 
+na agulha recolhida.<br />
+Não esfregue o local da injeção. 
+ELIMINAÇÃO E CUIDADOS 
+Eliminar a seringa pré-cheia utilizada </p>
+<p>Deposite a seringa pré-cheia 
+utilizada num contentor para 
+eliminação de material perfurante, 
+imediatamente após a utilização. 
+Não deite fora a seringa pré-cheia 
+no lixo doméstico.  </p>
+<p>Se utilizar mais Tegsedi do que deveria 
+Contacte o seu médico ou farmacêutico, ou dirija-se de imediato às Urgências de um hospital, mesmo 
+que não tenha sintomas. </p>
+<p>Caso se tenha esquecido de utilizar Tegsedi<br />
+Se falhar a sua dose de Tegsedi, deve tomar a dose seguinte o mais rapidamente possível, a não ser que 
+a dose seguinte marcada seja no espaço de dois dias, e, nesse caso, deve saltar-se a dose falhada e a 
+dose seguinte deve ser administrada como agendada. </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Levante o polegar 
+lentamente 
+para o êmbolo subir </p>
+<p>Contentor 
+para material 
+perfurante 
+Se parar de utilizar Tegsedi 
+Não pare de utilizar Tegsedi, a não ser por indicação do seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Se tiver algum dos seguintes efeitos indesejáveis, pare de utilizar Tegsedi e contacte imediatamente o 
+seu médico:<br />
+- Sintomas que possam indicar glomerulonefrite (condição em que os seus rins não funcionam 
+corretamente), tais como urina com espuma, urina de coloração rosada ou acastanhada, sangue 
+na urina ou volume de urina inferior ao habitual. A glomerulonefrite é um efeito indesejável 
+frequente de inotersen (pode afetar até 1 em 10 pessoas). 
+- Sintomas que podem indicar trombocitopenia (condição em que o sangue não coagula devido a 
+níveis baixos de plaquetas no sangue), tais como hematomas inexplicáveis ou uma erupção de 
+pequenas manchas vermelhas na pele (chamadas petéquias), sangramentos devido a cortes na 
+pele que não param ou exsudem, sangramento das gengivas ou nariz, sangue na urina ou nas 
+fezes ou hemorragia no branco dos olhos. Um nível baixo de plaquetas no sangue é um efeito 
+indesejável muito frequente de inotersen (pode afetar mais de 1 em 10 pessoas). 
+- Sintomas que possam indicar lesão do fígado, tal como amarelecimento dos olhos ou da pele, 
+ou urina escura, potencialmente acompanhada de comichão na pele, dor na parte superior 
+direita da zona do seu estômago (abdómen), perda de apetite, hemorragia ou formação de 
+nódoas negras mais facilmente do que o normal ou sensação de cansaço. 
+Peça imediatamente ajuda se sentir rigidez no pescoço ou uma dor de cabeça estranha e intensa, porque 
+estes sintomas podem estar a ser causados por uma hemorragia no cérebro. </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>Redução dos glóbulos vermelhos, o que pode tornar a pele pálida e provocar cansaço e falta de 
+ar (anemia)  </li>
+<li>Dor de cabeça </li>
+<li>Vómitos ou náuseas  </li>
+<li>Subida da temperatura corporal </li>
+<li>Sensação de frio (arrepios) ou tremores </li>
+<li>Dor, vermelhidão, comichão ou hematoma no local da injeção </li>
+<li>Inchaço dos tornozelos, pés ou dedos (edema periférico). </li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>Um aumento no número de uns glóbulos brancos chamados eosinófilos, no seu sangue 
+(eosinofilia) </li>
+<li>Diminuição do apetite  </li>
+<li>Sensação de desmaio ou tontura, especialmente ao levantar (tensão arterial baixa, hipotensão) </li>
+<li>Nódoas negras </li>
+<li>Acumulação de sangue nos tecidos que pode parecer muito idêntica a nódoas negras graves 
+(hematoma) </li>
+<li>Comichão   </li>
+<li>Erupção cutânea  </li>
+<li>Lesões nos rins que levem a uma função renal deficiente ou falência dos rins </li>
+<li>Alterações nos resultados das análises ao sangue e à urina (isto pode indicar danos no fígado 
+ou rins) </li>
+<li>Sintomas tipo gripais, como temperatura elevada, dores e arrepios (condição semelhante à 
+gripe) </li>
+<li>Inchaço no local da injeção ou descoloração da pele </li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) 
+- Reação alérgica </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar tegsedi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar tegsedi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, na bandeja e 
+na seringa pré-cheia após “VAL". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C).<br />
+Não congelar. 
+Tegsedi pode ser conservado fora do frigorífico até 6 semanas, a uma temperatura inferior a 30 °C. Se 
+for conservado fora do frigorífico e não for utilizado no prazo de 6 semanas, este medicamento deve 
+ser eliminado. <br />
+Conservar na embalagem de origem para proteger da luz. </p>
+<p>Não utilize este medicamento se verificar que o conteúdo da seringa pré-cheia está turvo ou contém 
+partículas. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Tegsedi  </p>
+<ul>
+<li>A substância ativa é inotersen.  </li>
+<li>Cada ml contém 189 mg de inotersen (sob a forma de inotersen sódico). Cada seringa pré-
+cheia contém 284 mg de inotersen (sob a forma de inotersen sódico) em 1,5 ml de solução.  </li>
+<li>Os outros componentes são água para preparações injetáveis, hidróxido de sódio e ácido 
+clorídrico (ver «Tegsedi contém sódio» na secção 2). </li>
+</ul>
+<p>Qual o aspeto de Tegsedi e conteúdo da embalagem </p>
+<p>Tegsedi é uma solução injetável límpida, incolor a amarelo claro numa seringa pré-cheia (injeção).<br />
+Tegsedi está disponível em embalagens de 1 ou de 4 seringas pré-cheias. 
+É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado  </p>
+<p>Akcea Therapeutics Ireland Ltd 
+St. James House,<br />
+72 Adelaide Road, Dublin 2 
+D02 Y017, Irlanda  </p>
+<p>Fabricante </p>
+<p>ABF Pharmaceutical Services GmbH 
+Brunnerstraße 63/18-1230 Viena 
+Áustria </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1097,6 +1678,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-bb91b33a725934383f978ba47cb95161"
 * entry[0].resource = composition-da-bb91b33a725934383f978ba47cb95161
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbb91b33a725934383f978ba47cb95161"
+* entry[=].resource = mpbb91b33a725934383f978ba47cb95161
+                            
+                    
+Instance: bundlepackageleaflet-pt-bb91b33a725934383f978ba47cb95161
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tegsedi Package Leaflet for language pt"
+Description: "ePI document Bundle for tegsedi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-bb91b33a725934383f978ba47cb95161"
+* entry[0].resource = composition-pt-bb91b33a725934383f978ba47cb95161
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpbb91b33a725934383f978ba47cb95161"
@@ -1198,6 +1801,18 @@ RuleSet: bb91b33a725934383f978ba47cb95161ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-bb91b33a725934383f978ba47cb95161) // tegsedi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

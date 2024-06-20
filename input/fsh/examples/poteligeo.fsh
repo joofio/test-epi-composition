@@ -524,6 +524,256 @@ og om, hvordan de behandles. </p>         </div>"""
 
 
 
+Instance: composition-pt-249170621fe2e34bc97c331b03b5b5b0
+InstanceOf: CompositionUvEpi
+Title: "Composition for poteligeo Package Leaflet"
+Description:  "Composition for poteligeo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp249170621fe2e34bc97c331b03b5b5b0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - poteligeo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é POTELIGEO e para que é utilizado<br />
+2. O que precisa de saber antes de utilizar POTELIGEO 
+3. Como utilizar POTELIGEO 
+4. Efeitos indesejáveis possíveis<br />
+5. Como conservar POTELIGEO<br />
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é poteligeo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é poteligeo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>POTELIGEO contém a substância ativa mogamulizumab, que pertence a um grupo de medicamentos 
+chamados anticorpos monoclonais. O mogamulizumab tem como alvo as células do cancro, que são 
+depois destruídas pelo sistema imunitário (as defesas do corpo). </p>
+<p>Este medicamento é utilizado para tratar adultos com micose fungóide e síndrome de Sézary, que são 
+tipos de cancro chamados linfomas cutâneos de células T. Este medicamento é destinado ao uso em 
+doentes que já tenham recebido pelo menos outro medicamento dado por via oral ou injeção. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar poteligeo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar poteligeo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize POTELIGEO 
+- se tem alergia ao mogamulizumab ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).  </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou enfermeiro antes de utilizar POTELIGEO: 
+- se alguma vez teve uma reação grave na pele com este medicamento. 
+- se alguma vez teve uma reação à perfusão com este medicamento (possíveis sintomas de uma 
+reação à perfusão são indicados na secção 4). <br />
+- se está infetado pelo Vírus da Imunodeficiência Humana (VIH), herpes, citomegalovírus (CMV) 
+ou hepatite B ou C, ou tem outras infeções em curso.<br />
+- se teve ou planeia ter um transplante de células estaminais, seja com as suas próprias células ou 
+com as células de um dador.<br />
+- se teve síndrome de lise tumoral (uma complicação que envolve a destruição de células do 
+cancro) após um tratamento anterior. 
+- se tem problemas cardíacos.   </p>
+<p>Fale com a pessoa que lhe administra a perfusão ou procure ajuda médica imediatamente se 
+tiver uma reação à perfusão durante ou após qualquer perfusão com POTELIGEO.  </p>
+<p>Fale com o seu médico imediatamente se tiver qualquer dos efeitos indesejáveis graves indicados 
+na Secção 4 após início do tratamento com POTELIGEO.  </p>
+<p>Outros medicamenos e POTELIGEO 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. </p>
+<p>Crianças e adolescentes 
+Este medicamento não deve ser utilizado em crianças e adolescentes com menos de 18 anos de idade.  </p>
+<p>Gravidez e amamentação 
+Os efeitos de POTELIGEO na gravidez e amamentação são desconhecidos. Devido ao mecanismo de 
+ação do medicamento, pode provocar danos ao seu bebé se administrado durante a gravidez ou 
+amamentação.  </p>
+<p>Se puder engravidar, vai precisar de utilizar contracetivos eficientes durante e pelo menos até seis 
+meses após receber este tratamento. </p>
+<p>Se está a amamentar, deve confirmar com o seu médico se pode amamentar durante ou após o 
+tratamento com POTELIGEO. </p>
+<p>Consulte o seu médico ou enfermeiro se está grávida ou a amamentar, se pensa estar grávida ou 
+planeia engravidar.  </p>
+<p>Condução e utilização de máquinas 
+É improvável que POTELIGEO afete a sua capacidade de conduzir e utilizar máquinas. No entanto, 
+este medicamento pode causar cansaço em algumas pessoas. Como tal, tome particular cuidado 
+durante a condução e utilização de máquinas até ter a certeza de que este medicamento não o afeta. </p>
+<p>POTELIGEO contém sódio 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por frasco para injetáveis, ou seja, é 
+praticamente ‘isento de sódio’. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar poteligeo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar poteligeo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A quantidade de POTELIGEO que vai receber é calculada pelo seu médico com base no seu peso 
+corporal. A dose recomendada é de 1 mg de POTELIGEO por cada kg de peso corporal. </p>
+<p>POTELIGEO ser-lhe-á dado por uma veia (perfusão intravenosa) durante pelo menos 60 minutos. Para 
+começar, as perfusões serão dadas uma vez por semana para as primeiras 5 doses, e depois a cada 2 
+semanas. O tratamento deve ser continuado a menos que tenha efeitos indesejáveis graves ou o seu 
+linfoma cutâneo de células T piore.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Fale com o seu médico ou enfermeiro ou obtenha ajuda médica imediatamente se tiver algum 
+dos seguintes sinais e sintomas após começar tratamento com POTELIGEO: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais do que 1 em cada 10 pessoas): 
+- arrepios, náusea ou vómitos, dores de cabeça, pieira, comichão, ruborização, irritação cutânea, 
+tonturas ou sensação de desmaio, dificuldade em respirar e febre, que podem ser sinais de 
+reação à perfusão. Se isto acontecer, a perfusão pode ter de ser interrompida e pode precisar de 
+tratamento adicional. Quando os sintomas desaparecerem, a administração de POTELIGEO 
+pode continuar, mas mais devagar. O seu médico pode parar o tratamento com POTELIGEO se 
+a reação for severa.<br />
+- sinais de infeção, que podem incluir febre, suores ou arrepios, sintomas semelhantes à gripe, 
+dores de garganta ou dificuldade em engolir, tosse, falta de ar, dores de estômago, náusea ou 
+vómitos, diarreia e mal-estar.<br />
+- erupção na pele (que poderá tornar-se grave) ou inflamação na boca. Em algumas pessoas a 
+receber POTELIGEO para outros tipos de cancro, pode ocorrer dor/sensação de ardor na pele, 
+comichão, bolhas/escamação na pele, úlceras na boca, nos lábios ou genitais, que podem ser 
+sinais de reação na pele grave, como síndrome de Stevens-Johnson ou necrólise epidérmica 
+tóxica (que afetou até 1 em cada 100 pessoas).<br />
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas): 
+- febre, arrepios, náusea, vómitos, confusão, falta de ar, convulsões, pulso irregular, urina escura 
+ou turva, fraqueza pouco frequente e/ou dores musculares ou de articulações. A destruição das 
+células do cancro e a reação do corpo à mesma podem muito ocasionalmente levar a um 
+problema chamado síndrome de lise tumoral. 
+- dores no peito, falta de ar, pulso rápido ou lento, suores, tonturas, náusea ou vómitos, fraqueza, 
+sensação de desmaio e mal-estar. Embora seja improvável que sejam provocados por este 
+medicamento, podem ser sinais de um problema cardíaco. 
+Desconhecida: a frequência não pode ser calculada a partir dos dados disponíveis: 
+- se for tratado com um transplante de células estaminais, é possível que venha a ter complicações 
+(doença enxerto-contra-hospedeiro) de difícil controlo. Os sintomas podem incluir irritações 
+cutâneas ou bolhas, náusea ou diarreia que não desaparece, dores de estômago ou vómitos, 
+dores ou rigidez nas articulações, olhos secos ou irritados ou visão turva, aftas bucais, irritação 
+ou dor na boca, uma tosse que não desaparece ou dificuldade em respirar, genitais sensíveis, 
+icterícia (mudar de cor para amarelo), urina escura ou quaisquer inchaços.  </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Fale com o seu médico se tiver quaisquer outros efeitos indesejáveis. Estes podem incluir: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas):<br />
+- Falta de energia (fadiga) 
+- Prisão de ventre 
+- Pernas ou tornozelos inchados<br />
+- Dores de cabeça </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): 
+- Anemia (glóbulos vermelhos reduzidos) 
+- Plaquetas do sangue reduzidas (trombocitopenia) 
+- Glóbulos brancos reduzidos (neutropenia e leucopenia) ou linfócitos reduzidos 
+- Exames sanguíneos com níveis das enzimas do fígado aumentados 
+- Tiroide hipoativa </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) 
+- Inflamação do fígado (hepatite) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar poteligeo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar poteligeo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e frasco para 
+injetáveis após “VAL". O prazo de validade corresponde ao último dia do mês indicado.  </p>
+<p>Frasco para injetáveis fechado: Conservar no frigorífico (2ºC - 8ºC). Não congelar. </p>
+<p>Conservar na embalagem de origem para proteger da luz. </p>
+<p>Solução reconstituída/diluída: Usar imediatamente ou conservar no frigorífico (2ºC - 8ºC) e usar num 
+prazo inferior a 24 horas. </p>
+<p>Não utilize este medicamento se verificar sinais de deterioração, como matéria particulada ou 
+descoloração.  </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Estas medidas ajudarão a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de POTELIGEO<br />
+- Cada frasco para injetáveis contém 20 mg de mogamulizumab em 5 ml de concentrado, 
+correspondente a 4 mg/ml. 
+- Os outros excipientes são ácido cítrico monohidratado, glicina, polissorbato 80, hidróxido de 
+sódio, ácido clorídrico, e água para preparações injetáveis. Ver secção 2 “POTELIGEO contém 
+sódio". </p>
+<p>Qual o aspeto de POTELIGEO e conteúdo da embalagem 
+POTELIGEO é uma solução incolor e transparente. A embalagem contém um frasco de vidro para 
+injetáveis com 5 ml de concentrado para solução para perfusão.  </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Kyowa Kirin Holdings B.V. 
+Bloemlaan 2 
+2132 NP Hoofddorp 
+Holanda 
+medinfo@kyowakirin.com </p>
+<p>Fabricante 
+allphamed PHARBIL Arzneimittel GmbH 
+Hildebrandstr. 10-37081 Göttingen 
+Alemanha </p>
+<p>Kyowa Kirin Holdings B.V. 
+Bloemlaan 2 
+2132 NP Hoofddorp 
+Holanda </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA}&gt;&lt;{mês de AAAA}&gt;. </p>
+<p>Outras fontes de informação<br />
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -565,6 +815,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-249170621fe2e34bc97c331b03b5b5b0"
 * entry[0].resource = composition-da-249170621fe2e34bc97c331b03b5b5b0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp249170621fe2e34bc97c331b03b5b5b0"
+* entry[=].resource = mp249170621fe2e34bc97c331b03b5b5b0
+                            
+                    
+Instance: bundlepackageleaflet-pt-249170621fe2e34bc97c331b03b5b5b0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for poteligeo Package Leaflet for language pt"
+Description: "ePI document Bundle for poteligeo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-249170621fe2e34bc97c331b03b5b5b0"
+* entry[0].resource = composition-pt-249170621fe2e34bc97c331b03b5b5b0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp249170621fe2e34bc97c331b03b5b5b0"
@@ -666,6 +938,18 @@ RuleSet: 249170621fe2e34bc97c331b03b5b5b0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-249170621fe2e34bc97c331b03b5b5b0) // poteligeo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

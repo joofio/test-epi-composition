@@ -1139,6 +1139,413 @@ Gitter </p>         </div>"""
 
 
 
+Instance: composition-pt-5aaf1ff9ad4c7cb420e93974915ff219
+InstanceOf: CompositionUvEpi
+Title: "Composition for seebri Package Leaflet"
+Description:  "Composition for seebri Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5aaf1ff9ad4c7cb420e93974915ff219)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - seebri"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Seebri Breezhaler e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Seebri Breezhaler </li>
+<li>Como utilizar Seebri Breezhaler </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Seebri Breezhaler </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é seebri e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é seebri e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Seebri Breezhaler 
+Este medicamento contém uma substância ativa chamada brometo de glicopirrónio. Este pertence a 
+um grupo de medicamentos chamados broncodilatadores. </p>
+<p>Para que é utilizado Seebri Breezhaler 
+Este medicamento é utilizado para tornar a respiração mais fácil para doentes adultos com dificuldades 
+respiratórias devido a uma doença pulmonar chamada doença pulmonar obstrutiva crónica (DPOC). </p>
+<p>Na DPOC, os músculos envolventes das vias aéreas contraem. Isto dificulta a respiração. Este 
+medicamento bloqueia a contração destes músculos nos pulmões, facilitando a entrada e saída de ar 
+dos pulmões. </p>
+<p>Se utilizar este medicamento uma vez por dia, este irá ajudar a reduzir os efeitos da DPOC no seu dia 
+a dia. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar seebri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar seebri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Seebri Breezhaler 
+- se tem alergia ao brometo de glicopirrónio ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de utilizar Seebri Breezhaler, se alguma das seguintes situações se 
+aplicar a si: 
+- se tem problemas renais. 
+- se tem um problema dos olhos denominado glaucoma de ângulo estreito. 
+- se tem dificuldades em urinar. </p>
+<p>Durante o tratamento com Seebri Breezhaler, pare de tomar o medicamento e informe o seu 
+médico imediatamente: 
+- se sentir aperto no peito, tosse, pieira ou falta de ar imediatamente após utilizar Seebri 
+Breezhaler (sinais de broncospasmo). 
+- Se sentir dificuldade em respirar ou engolir, inchaço da língua, lábios ou face, erupção cutânea, 
+prurido e pieira (sinais de reação alérgica). 
+- se sentir dor ou desconforto ocular, visão temporariamente turva, halos visuais ou imagens 
+coloridas em associação com olhos vermelhos. Estes podem ser sinais de uma crise aguda de 
+glaucoma de ângulo estreito. </p>
+<p>Seebri Breezhaler é usado como tratamento de manutenção para a sua DPOC. Não utilize este 
+medicamento para tratar um ataque súbito de falta de ar ou pieira. </p>
+<p>Crianças e adolescentes 
+Este medicamento não deve ser dado a crianças ou adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Seebri Breezhaler 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto inclui medicamentos semelhantes a Seebri Breezhaler usados para a 
+sua doença pulmonar, tais como ipratrópio, oxitrópio ou tiotrópio (chamados anticolinérgicos). </p>
+<p>Não foram notificados efeitos indesejáveis específicos quando Seebri Breezhaler foi utilizado com 
+outros medicamentos usados para tratar a DPOC tais como inaladores de alívio (por ex. salbutamol), 
+metilxantinas (por ex. teofilina) e/ou esteroides orais e inalados (por ex. prednisolona). </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Não existem dados sobre a utilização deste medicamento em mulheres grávidas e não se sabe se a 
+substância ativa deste medicamento passa para o leite materno humano. </p>
+<p>Condução de veículos e utilização de máquinas 
+É improvável que este medicamento vá afetar a sua capacidade de conduzir e utilizar máquinas. </p>
+<p>Seebri Breezhaler contém lactose 
+Este medicamento contém lactose. Se foi informado pelo seu médico que tem intolerância a alguns 
+açúcares, contacte-o antes de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar seebri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar seebri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Que quantidade de Seebri Breezhaler utilizar 
+A dose habitual é a inalação do conteúdo de uma cápsula por dia. 
+Precisará apenas de inalar o medicamento uma vez por dia porque o efeito deste medicamento dura 
+24 horas. 
+Não utilize uma quantidade superior à que o seu médico lhe recomendar. </p>
+<p>Pessoas idosas 
+Pode utilizar este medicamento se tiver 75 anos de idade ou mais, na mesma dose que para os outros 
+adultos. </p>
+<p>Quando utilizar Seebri Breezhaler 
+Utilize este medicamento à mesma hora em cada dia. Isto irá ajudá-lo a lembrar-se de tomar o 
+medicamento. </p>
+<p>Pode inalar este medicamento em qualquer altura, antes ou após alimentos ou bebidas. </p>
+<p>Como inalar Seebri Breezhaler 
+- Nesta embalagem encontrará um inalador e cápsulas (em blisters) que contêm o medicamento 
+na forma de pó para inalação. Utilize apenas as cápsulas com o inalador fornecido na 
+embalagem (inalador Seebri Breezhaler). As cápsulas devem manter-se no blister até que 
+necessite de as utilizar. 
+- Não pressione a cápsula através da película de alumínio. 
+- Quando iniciar uma nova embalagem, utilize o novo inalador Seebri Breezhaler fornecido na 
+embalagem. 
+- Elimine o inalador de cada embalagem após todas as cápsulas daquela embalagem terem sido 
+utilizadas. 
+- Não engula as cápsulas. 
+- Por favor leia as instruções no final deste folheto para mais informações sobre como utilizar o 
+inalador. </p>
+<p>Se utilizar mais Seebri Breezhaler do que deveria 
+Se tiver inalado demasiado deste medicamento ou se outra pessoa utilizar acidentalmente as suas 
+cápsulas, informe o seu médico imediatamente ou dirija-se à urgência hospitalar mais próxima. Mostre 
+a embalagem de Seebri Breezhaler. Podem ser necessários cuidados médicos. </p>
+<p>Caso se tenha esquecido de utilizar Seebri Breezhaler 
+Se se esquecer de inalar uma dose, tome uma dose logo que possível. No entanto, não tome duas doses 
+no mesmo dia. Depois, tome a próxima dose como habitualmente. </p>
+<p>Durante quanto tempo deve continuar o seu tratamento com Seebri Breezhaler 
+- Continue a utilizar este medicamento durante o tempo que o seu médico lhe disser. 
+- A DPOC é uma doença de longa duração e deve utilizar este medicamento diariamente e não 
+apenas quando tem problemas respiratórios ou outros sintomas de DPOC. 
+Se tiver questões sobre durante quanto tempo continuar o seu tratamento com este medicamento, fale 
+com o seu médico ou farmacêutico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Alguns efeitos indesejáveis podem ser graves mas são pouco frequentes 
+(podem afetar até 1 em 100 pessoas) 
+ 
+Batimento cardíaco irregular 
+ 
+Níveis elevados de açúcar no sangue (hiperglicemia: sintomas típicos incluem sede excessiva ou 
+fome e urinar com frequência) 
+ 
+Erupção cutânea, pieira, dificuldade em respirar ou engolir, tonturas (possíveis sinais de reação 
+alérgica) 
+ 
+Inchaço, principalmente da língua, lábios, face ou garganta (possíveis sinais de angioedema) 
+Se tiver algum destes efeitos indesejáveis, informe o seu médico imediatamente. </p>
+<p>Alguns efeitos indesejáveis podem ser graves, mas a frequência destes efeitos é desconhecida 
+(a frequência não pode ser estimada a partir dos dados disponíveis) 
+ 
+Dificuldade em respirar com pieira ou tosse (sinais de broncospasmo paradoxal) </p>
+<p>Alguns efeitos indesejáveis são frequentes 
+(podem afetar até 1 em 10 pessoas) 
+ 
+Boca seca 
+ 
+Dificuldade em dormir 
+ 
+Nariz entupido ou com corrimento, espirros, dor de garganta 
+ 
+Diarreia ou dor de estômago 
+ 
+Dor musculosquelética </p>
+<p>Alguns efeitos indesejáveis são pouco frequentes 
+(podem afetar até 1 em 100 pessoas) 
+ 
+Dor e dificuldade em urinar 
+ 
+Micção frequente e dolorosa 
+ 
+Palpitações 
+ 
+Erupção na pele 
+ 
+Dormência 
+ 
+Tosse com expetoração 
+ 
+Cáries dentárias 
+ 
+Sensação de pressão ou dor nas bochechas e testa 
+ 
+Hemorragia nasal 
+ 
+Dor nos braços ou pernas 
+ 
+Dor nos músculos, ossos ou articulações do tórax 
+ 
+Mal-estar do estômago após as refeições 
+ 
+Irritação da garganta 
+ 
+Cansaço 
+ 
+Fraqueza 
+ 
+Comichão 
+ 
+Alteração da voz (rouquidão) 
+ 
+Náuseas 
+ 
+Vómitos </p>
+<p>Alguns doentes idosos com mais de 75 anos de idade tiveram dor de cabeça (frequentes) e infeção do 
+trato urinário (frequentes). </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar seebri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar seebri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 25°C. </p>
+<p>Conservar as cápsulas no blister de origem para proteger da humidade. Não retirar do blister até 
+imediatamente antes da utilização. </p>
+<p>O inalador de cada embalagem deve ser eliminado após todas as cápsulas daquela embalagem terem 
+sido utilizadas. </p>
+<p>Não utilize este medicamento se verificar que a embalagem está danificada ou mostra sinais de ter sido 
+manipulada. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Seebri Breezhaler 
+- A substância ativa é o brometo de glicopirrónio. Cada cápsula contém 63 microgramas de 
+brometo de glicopirrónio (equivalente a 50 microgramas de glicopirrónio). A dose libertada (a 
+dose que sai do bocal do inalador) é equivalente a 44 microgramas de glicopirrónio. 
+- Os outros componentes do pó para inalação são lactose monohidratada e estearato de magnésio. </p>
+<p>Qual o aspeto de Seebri Breezhaler e conteúdo da embalagem 
+ Seebri Breezhaler 44 microgramas pó para inalação, as cápsulas são transparentes e cor de laranja e 
+contêm um pó branco. Têm o código do produto “GPL50" impresso a preto acima de uma barra preta 
+e o logótipo da companhia (
+) impresso a preto abaixo. </p>
+<p>Cada embalagem contém um dispositivo denominado inalador, juntamente com cápsulas em blisters. 
+Cada blister contém 6 ou 10 cápsulas. </p>
+<p>Estão disponíveis as seguintes embalagens: 
+Embalagens contendo 6 x 1, 10 x 1, 12 x 1 ou 30 x 1 cápsulas e um inalador. </p>
+<p>Embalagens múltiplas contendo 90 cápsulas (3 embalagens de 30 x 1) e 3 inaladores. 
+Embalagens múltiplas contendo 96 cápsulas (4 embalagens de 24 x 1) e 4 inaladores. 
+Embalagens múltiplas contendo 150 cápsulas (15 embalagens de 10 x 1) e 15 inaladores. 
+Embalagens múltiplas contendo 150 cápsulas (25 embalagens de 6 x 1) e 25 inaladores. </p>
+<p>É possível que não sejam comercializadas todas as apresentações no seu país. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Farmacéutica SA 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Espanha </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nuremberga 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1180,6 +1587,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5aaf1ff9ad4c7cb420e93974915ff219"
 * entry[0].resource = composition-da-5aaf1ff9ad4c7cb420e93974915ff219
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5aaf1ff9ad4c7cb420e93974915ff219"
+* entry[=].resource = mp5aaf1ff9ad4c7cb420e93974915ff219
+                            
+                    
+Instance: bundlepackageleaflet-pt-5aaf1ff9ad4c7cb420e93974915ff219
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for seebri Package Leaflet for language pt"
+Description: "ePI document Bundle for seebri Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5aaf1ff9ad4c7cb420e93974915ff219"
+* entry[0].resource = composition-pt-5aaf1ff9ad4c7cb420e93974915ff219
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5aaf1ff9ad4c7cb420e93974915ff219"
@@ -1281,6 +1710,18 @@ RuleSet: 5aaf1ff9ad4c7cb420e93974915ff219ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5aaf1ff9ad4c7cb420e93974915ff219) // seebri pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

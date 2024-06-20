@@ -937,6 +937,543 @@ hjemmeside http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-684a35c27d00abaf233bd95a3f24554a
+InstanceOf: CompositionUvEpi
+Title: "Composition for zepatier Package Leaflet"
+Description:  "Composition for zepatier Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp684a35c27d00abaf233bd95a3f24554a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - zepatier"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é ZEPATIER e para que é utilizado 
+2. O que precisa de saber antes de tomar ZEPATIER
+3. Como tomar ZEPATIER 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar ZEPATIER 
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é zepatier e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é zepatier e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é ZEPATIER
+ZEPATIER é um medicamento antiviral que contém as substâncias ativas elbasvir e grazoprevir. 
+Para que é utilizado ZEPATIER 
+ZEPATIER é utilizado para tratar a infeção crónica pelo vírus da hepatite C, em adultos e crianças com
+idade igual ou superior a 12 anos, que pesem pelo menos 30 quilogramas.
+Como funciona ZEPATIER 
+A hepatite C é causada por um vírus que infeta o fígado. As substâncias ativas presentes neste
+medicamento funcionam em conjunto, bloqueando duas proteínas importantes que o vírus da hepatite C
+necessita para crescer e se reproduzir. Isto permite que a infeção seja permanentemente eliminada do
+organismo.
+ZEPATIER é algumas vezes tomado em conjunto com outro medicamento, ribavirina. 
+É muito importante que leia também os folhetos informativos dos outros medicamentos que irá tomar com
+ZEPATIER. Se tiver alguma questão relacionada com os seus medicamentos, por favor fale com o seu
+médico ou farmacêutico.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar zepatier"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar zepatier"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome ZEPATIER:
+- se tem alergia ao elbasvir, grazoprevir ou a qualquer outro componente deste medicamento
+(indicados na secção 6).
+- se tem certos problemas graves ou moderados no fígado.
+50
+-<br />
+se está a tomar algum dos medicamentos seguintes:
+o 
+rifampicina, usado normalmente para tratar a tuberculose 
+o 
+inibidores da protease do VIH tais como atazanavir, darunavir, lopinavir, saquinavir ou
+tipranavir
+o 
+efavirenz ou etravirina para tratar o VIH
+o 
+elvitegravir/cobicistate/emtricitabina/tenofovir disoproxil fumarato ou
+elvitegravir/cobicistate/emtricitabina/tenofovir alafenamida para tratar o VIH
+o 
+ciclosporina para evitar a rejeição de órgãos transplantados ou para tratar doenças
+inflamatórias graves dos olhos, rins, articulações ou da pele
+o 
+bosentano para a hipertensão arterial pulmonar 
+o 
+carbamazepina ou fenitoína, usadas maioritariamente para a epilepsia ou convulsões 
+o 
+modafinil para ajudar as pessoas que não se conseguem manter acordadas
+o 
+medicamentos contendo hipericão (Hypericum perforatum, uma preparação à base de
+plantas) para depressão ou outros problemas
+Se está a tomar ZEPATIER com ribavirina, por favor certifique-se que lê a secção “Não tome" do folheto
+informativo da ribavirina. Se não tem a certeza em relação a qualquer informação presente no folheto
+informativo, por favor contacte o seu médico ou farmacêutico.
+Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar ZEPATIER se:</p>
+<ul>
+<li>
+<p>tem uma infeção atual ou anterior pelo vírus da hepatite B, uma vez que o seu médico pode querer
+controlá-lo mais frequentemente</p>
+</li>
+<li>
+<p>já tomou algum medicamento para a hepatite C</p>
+</li>
+<li>
+<p>tem algum problema no fígado além de hepatite C</p>
+</li>
+<li>
+<p>fez um transplante de fígado</p>
+</li>
+<li>
+<p>tem diabetes. Após o início do tratamento com ZEPATIER poderá necessitar de um controlo mais
+rigoroso dos seus níveis de glucose no sangue e/ou um ajuste da sua medicação para a diabetes.
+Alguns doentes com diabetes apresentaram níveis baixos de açúcar no sangue (hipoglicemia) após o
+início do tratamento com medicamentos como ZEPATIER</p>
+</li>
+<li>
+<p>tem qualquer outra condição médica.
+Análises ao sangue
+O seu médico irá pedir que faça análises ao sangue antes, durante e após o tratamento com ZEPATIER.
+Isto acontece para que o seu médico possa:</p>
+</li>
+<li>
+<p>decidir se deve tomar ZEPATIER e durante quanto tempo</p>
+</li>
+<li>
+<p>decidir que outros medicamentos deve tomar com ZEPATIER e durante quanto tempo</p>
+</li>
+<li>
+<p>verificar se ocorrem efeitos indesejáveis</p>
+</li>
+<li>
+<p>verificar se o seu tratamento funcionou e se está livre da hepatite C</p>
+</li>
+<li>
+<p>verificar como está o seu fígado a funcionar - informe imediatamente o seu médico caso note algum
+dos sinais de problemas no fígado seguintes: perda de apetite; estar ou sentir-se enjoado; sentir-se
+cansado ou fraco; pele ou olhos amarelados; alteração da cor das suas fezes. O seu médico poderá
+querer fazer análises ao seu sangue para examinar a função do seu fígado caso desenvolva algum
+destes sintomas.
+Crianças 
+ZEPATIER não pode ser utilizado em crianças com menos de 12 anos de idade. 
+Outros medicamentos e ZEPATIER
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar
+outros medicamentos. Isto inclui medicamentos à base de plantas e medicamentos obtidos sem receita
+51
+médica. Mantenha consigo uma lista dos medicamentos e mostre ao médico ou farmacêutico quando
+recebe um novo medicamento.
+Existem alguns medicamentos que não pode tomar com ZEPATIER. Por favor consulte a lista destes
+medicamentos após a secção “Não tome ZEPATIER se está a tomar algum dos medicamentos seguintes."
+Informe o seu médico ou farmacêutico se estiver a tomar algum dos medicamentos seguintes:</p>
+</li>
+<li>
+<p>cetoconazol oral para infeções fúngicas</p>
+</li>
+<li>
+<p>tacrolímus para prevenir a rejeição no transplante de órgãos</p>
+</li>
+<li>
+<p>dabigatrano para prevenir os coágulos sanguíneos</p>
+</li>
+<li>
+<p>rosuvastatina, atorvastatina, fluvastatina, sinvastatina ou lovastatina para diminuir o colesterol no
+sangue</p>
+</li>
+<li>
+<p>sunitinib para tratar alguns tipos de cancro</p>
+</li>
+<li>
+<p>varfarina e outros medicamentos semelhantes designados antagonistas da vitamina K utilizados para
+tornar o sangue mais fluido. O seu médico poderá necessitar de aumentar a frequência das suas
+análises ao sangue para verificar se o sangue coagula corretamente. 
+A função do seu fígado pode melhorar com o tratamento da hepatite C e, portanto, pode afetar outros
+medicamentos que são metabolizados pelo fígado. O seu médico pode precisar de monitorizar atentamente
+estes outros medicamentos que está a tomar e fazer ajustes durante o tratamento com ZEPATIER.
+O seu médico poderá ter que alterar a sua medicação ou alterar a dose dos seus medicamentos.
+Se alguma das situações em cima se aplicar a si (ou se não tiver a certeza), fale com o seu médico ou
+farmacêutico antes de tomar ZEPATIER.
+Gravidez e contraceção 
+Os efeitos de ZEPATIER em mulheres grávidas não são conhecidos. Se está grávida, se pensa estar
+grávida ou planeia engravidar, consulte o seu médico antes de tomar este medicamento.
+ZEPATIER com ribavirina</p>
+</li>
+<li>
+<p>Não pode engravidar caso esteja a tomar ZEPATIER com ribavirina. A ribavirina pode ser muito
+prejudicial para um feto. Por conseguinte, você e o seu parceiro (ou a sua parceira) devem tomar
+precauções especiais ao terem relações sexuais se houver qualquer possibilidade de ocorrer uma
+gravidez.</p>
+</li>
+<li>
+<p>Você e o seu parceiro têm que usar um método eficaz de contraceção durante o tratamento com
+ZEPATIER e ribavirina, e algum tempo após o tratamento. Fale com o seu médico sobre os
+diferentes métodos de contraceção adequados para si.</p>
+</li>
+<li>
+<p>Contacte imediatamente o seu médico se engravidar, ou se a sua parceira engravidar, enquanto estiver
+a tomar ZEPATIER com ribavirina, ou nos meses seguintes.</p>
+</li>
+<li>
+<p>É muito importante que leia com atenção a secção sobre gravidez e contraceção no folheto
+informativo da ribavirina. É importante que tanto o homem como a mulher leiam a informação.
+Amamentação
+Se estiver a amamentar, fale com o seu médico antes de tomar ZEPATIER. Não se sabe se os dois
+medicamentos presentes em ZEPATIER passam para o leite materno.
+Se está a tomar ZEPATIER com ribavirina, certifique-se que lê também as secções Gravidez e
+Aleitamento do folheto informativo deste medicamento.
+Condução de veículos e utilização de máquinas
+Não conduza nem utilize máquinas caso se sinta cansado após tomar o seu medicamento.
+52
+ZEPATIER contém lactose 
+ZEPATIER contém lactose mono-hidratada. Se foi informado pelo seu médico que tem intolerância a
+alguns açúcares, contacte-o antes de tomar este medicamento. 
+ZEPATIER contém sódio
+Este medicamento contém 69,85 mg de sódio (principal componente de sal de cozinha/sal de mesa) em
+cada comprimido. Isto é equivalente a 3,5% da ingestão diária máxima de sódio recomendada na dieta
+para um adulto.</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar zepatier"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar zepatier"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu
+médico ou farmacêutico se tiver dúvidas. Fale com o seu médico ou farmacêutico antes de tomar
+ZEPATIER se já tomou medicamentos para a hepatite C ou se tiver alguma outra condição médica.
+Que dose tomar
+A dose recomendada é um comprimido uma vez por dia com ou sem alimentos. O seu médico irá
+informar durante quantas semanas deve tomar ZEPATIER.
+Engolir o comprimido inteiro, com ou sem alimentos. Não mastigar, esmagar ou partir o comprimido.
+Informe o seu médico ou farmacêutico se tiver problemas em engolir comprimidos.
+Se tomar mais ZEPATIER do que deveria
+Fale imediatamente com o seu médico se tomar mais ZEPATIER do que deveria. Leve consigo a caixa do
+medicamento, para mostrar ao médico o que tomou.
+Caso se tenha esquecido de tomar ZEPATIER
+É importante que não se esqueça de tomar nenhuma dose deste medicamento. Caso se tenha esquecido de
+tomar uma dose, tente saber quanto tempo passou desde que devia ter tomado ZEPATIER:</p>
+<ul>
+<li>
+<p>Se passaram menos de 16 horas desde que devia ter tomado a sua dose, tome a dose em falta assim
+que possível. Em seguida, tome a próxima dose à hora normal.</p>
+</li>
+<li>
+<p>Se passaram mais de 16 horas desde que devia ter tomado a sua dose, não tome a dose em falta.
+Espere e tome a próxima dose à hora normal.</p>
+</li>
+<li>
+<p>Não tome uma dose a dobrar (duas doses ao mesmo tempo) para compensar uma dose que se
+esqueceu de tomar.
+Não pare de tomar ZEPATIER
+Não pare de tomar este medicamento a menos que o seu médico lhe diga para o fazer. É muito importante
+que termine o tratamento completo para dar ao medicamento toda a possibilidade de tratar a sua infeção
+pelo vírus da hepatite C. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.</p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se
+manifestem em todas as pessoas. Os efeitos indesejáveis seguintes podem ocorrer com este medicamento:
+Informe o seu médico ou farmacêutico se observar algum dos seguintes efeitos indesejáveis.
+53
+Muito frequentes: podem afetar mais de 1 em cada 10 pessoas</p>
+<ul>
+<li>
+<p>sensação de muito cansaço (fadiga)</p>
+</li>
+<li>
+<p>dor de cabeça
+Frequentes: podem afetar até 1 em cada 10 pessoas</p>
+</li>
+<li>
+<p>enjoo (náuseas)</p>
+</li>
+<li>
+<p>sensação de cansaço ou falta de energia (astenia)</p>
+</li>
+<li>
+<p>comichão</p>
+</li>
+<li>
+<p>diarreia</p>
+</li>
+<li>
+<p>dificuldade em dormir (insónia)</p>
+</li>
+<li>
+<p>dor nas articulações ou articulações doridas, inchaço nas articulações</p>
+</li>
+<li>
+<p>obstipação </p>
+</li>
+<li>
+<p>sensação de tonturas</p>
+</li>
+<li>
+<p>perda de apetite</p>
+</li>
+<li>
+<p>irritabilidade</p>
+</li>
+<li>
+<p>dores musculares</p>
+</li>
+<li>
+<p>dor no estômago</p>
+</li>
+<li>
+<p>queda ou enfraquecimento anormal do cabelo </p>
+</li>
+<li>
+<p>nervosismo (ansiedade)</p>
+</li>
+<li>
+<p>depressão</p>
+</li>
+<li>
+<p>boca seca</p>
+</li>
+<li>
+<p>sentir-se enjoado (vómitos)
+Pouco frequentes: podem afetar até 1 em cada 100 pessoas</p>
+</li>
+<li>
+<p>alterações nos testes laboratoriais da função do fígado 
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar zepatier"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar zepatier"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister após
+“EXP". O prazo de validade corresponde ao último dia do mês indicado.
+Este medicamento não necessita de condições de temperatura especiais de conservação. Conservar na
+embalagem de origem até utilizar, para proteger da humidade.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o
+ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de ZEPATIER 
+54
+- As substâncias ativas são: elbasvir e grazoprevir. Cada comprimido revestido por película contém
+50 mg de elbasvir e 100 mg de grazoprevir. 
+- Os outros componentes são:
+Núcleo do comprimido
+Laurilsulfato de sódio, tocofersolano, copolividona, hidroxipropilmetilcelulose, celulose
+microcristalina, manitol (E421), lactose mono-hidratada, croscarmelose de sódio, cloreto de sódio,
+sílica coloidal anidra, estearato de magnésio
+Revestimento por película
+Lactose mono-hidratada, hidroxipropilmetilcelulose, dióxido de titânio, triacetina, óxido de ferro
+amarelo (E172), óxido de ferro vermelho (E172), óxido de ferro preto (E172), cera carnaúba
+Qual o aspeto de ZEPATIER e conteúdo da embalagem
+Os comprimidos revestidos por película são beges, ovais, gravados com “770" de um lado e lisos do outro.
+O comprimido tem as dimensões de 21 mm de comprimento e 10 mm de largura.
+Estão disponíveis embalagens de 28 comprimidos. Cada embalagem contém duas saquetas e cada saqueta
+contém dois blisters de alumínio de 7 comprimidos. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Países Baixos
+Fabricante
+Organon Heist bv
+Industriepark 2220 Heist-op-den-Berg
+Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da
+Autorização de Introdução no Mercado:
+BE/LU
+MSD Belgium 
+Tél/Tel: +32(0)27766211
+dpoc_belux@msd.com
+LT
+UAB Merck Sharp &amp; Dohme
+Tel.: +370 5 278 02 47
+msd_lietuva@merck.com
+BG
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+HU
+MSD Pharma Hungary Kft.
+Tel.: +361 888 53 00
+hungary_msd@merck.com
+CZ
+Merck Sharp &amp; Dohme s.r.o.
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+MT
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+DK
+MSD Danmark ApS
+Tlf: +45 4482 4000
+dkmail@merck.com
+NL
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 99 99 000 (+31 23 5153153)
+medicalinfo.nl@merck.com
+DE
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+NO
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+55
+EE
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+AT
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+EL
+MSD Α .Φ.Β.Ε.Ε.
+Τηλ: + 30 210 98 97 300
+dpoc_greece@merck.com
+PL
+MSD Polska Sp.z o.o. 
+Tel.: +48 22 549 51 00
+msdpolska@merck.com
+ES
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+PT
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 446 5700
+inform_pt@merck.com
+FR
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+RO
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: + 4021 529 29 00
+msdromania@merck.com
+HR
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 66 11 333
+croatia_info@merck.com
+SI
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: + 386 1 5204201
+msd_slovenia@merck.com
+IE
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@msd.com
+SK
+Merck Sharp &amp; Dohme, s. r. o.
+Tel.: +421 2 58282010
+dpoc_czechslovak@merck.com
+IS
+Vistor hf.
+Sími: +354 535 7000
+FI
+MSD Finland Oy
+Puh/Tel: +358 (0) 9 804 650
+info@msd.fi
+IT
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+SE
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+CY
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+UK (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+LV
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: +371 67364 224
+msd_lv@merck.com
+56
+Este folheto foi revisto pela última vez em {MM/AAAA}.
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+
+
+
 
 
                     
@@ -978,6 +1515,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-684a35c27d00abaf233bd95a3f24554a"
 * entry[0].resource = composition-da-684a35c27d00abaf233bd95a3f24554a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp684a35c27d00abaf233bd95a3f24554a"
+* entry[=].resource = mp684a35c27d00abaf233bd95a3f24554a
+                            
+                    
+Instance: bundlepackageleaflet-pt-684a35c27d00abaf233bd95a3f24554a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zepatier Package Leaflet for language pt"
+Description: "ePI document Bundle for zepatier Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-684a35c27d00abaf233bd95a3f24554a"
+* entry[0].resource = composition-pt-684a35c27d00abaf233bd95a3f24554a
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp684a35c27d00abaf233bd95a3f24554a"
@@ -1079,6 +1638,18 @@ RuleSet: 684a35c27d00abaf233bd95a3f24554aListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-684a35c27d00abaf233bd95a3f24554a) // zepatier pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

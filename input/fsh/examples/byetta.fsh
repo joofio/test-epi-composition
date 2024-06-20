@@ -1163,6 +1163,499 @@ TRIN </p>         </div>"""
 
 
 
+Instance: composition-pt-9367ad7779ef7d59f46d4f6cb649b03e
+InstanceOf: CompositionUvEpi
+Title: "Composition for byetta Package Leaflet"
+Description:  "Composition for byetta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9367ad7779ef7d59f46d4f6cb649b03e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - byetta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Byetta e para que é utilizado
+2. O que precisa de saber antes de utilizar Byetta
+3. Como utilizar Byetta
+4. Efeitos indesejáveis possíveis
+5. Como conservar Byetta
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é byetta e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é byetta e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Byetta contém a substância ativa exenatido. É um medicamento injetável utilizado para melhorar o 
+controlo do açúcar no sangue em adultos com diabetes mellitus tipo 2 (não insulino-dependente).
+Byetta é utilizado com outros medicamentos para a diabetes denominados metformina, sulfonilureias 
+tiazolidinedionas e insulinas basais ou de ação longa. O seu médico está a receitar-lhe Byetta como um 
+medicamento adicional que ajuda a controlar o açúcar no seu sangue. Continue a seguir a sua dieta e o 
+seu plano de exercício.
+Você tem diabetes porque o seu corpo não produz insulina suficiente para controlar o nível de açúcar 
+no seu sangue ou porque o seu corpo não é capaz de utilizar a insulina apropriadamente. Byetta ajuda 
+o seu corpo a produzir mais insulina quando o seu nível de açúcar no sangue está alto.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar byetta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar byetta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Byetta
+
+se tem alergia ao exenatido ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro diabetologista antes de utilizar Byetta acerca de:
+
+Utilizar este medicamento em combinação com uma sulfonilureia, porque pode ocorrer uma 
+baixa de açúcar no sangue (hipoglicemia). Pergunte ao seu médico, farmacêutico ou enfermeiro 
+diabetologista se não tiver a certeza se qualquer outro medicamento que está a tomar contém 
+uma sulfonilureia.
+
+Se tiver diabetes tipo 1 ou cetoacidose diabética (uma condição grave que pode ocorrer na
+diabetes), dado que não deve utilizar este medicamento.
+31
+
+Como injetar este medicamento. Deve ser injetado debaixo da pele e não numa veia ou num 
+músculo.
+
+Se tiver problemas graves como esvaziamento do estômago retardado (incluindo gastroparesia) 
+ou problemas de digestão, dado que a utilização deste medicamento não é recomendada. A 
+substância ativa neste medicamento retarda o esvaziamento do estômago, por isso os alimentos 
+passam de forma mais demorada através do seu estômago.
+
+Se já tiver tido inflamação do pâncreas (pancreatite) (ver secção 4).
+
+Se perder peso demasiado depressa (mais do que 1,5 kg por semana) fale com o seu médico,
+pois isso pode causar problemas como cálculos biliares.
+
+Se tiver doença grave nos rins ou se estiver a fazer diálise, dado que a utilização deste
+medicamento não é recomendada. Existe pouca experiência com este medicamento em doentes 
+com problemas nos rins.
+Byetta não é uma insulina e, por conseguinte, não deve ser utilizado como um substituto da insulina.
+Crianças e adolescentes
+Não administre este medicamento a crianças e adolescentes com menos de 18 anos, dado que não 
+existe experiência com este medicamento neste grupo etário.
+Outros medicamentos e Byetta
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos, em particular:
+
+medicamentos utilizados no tratamento da diabetes tipo 2 que funcionam como o Byetta (por
+exemplo: liraglutido e exenatido de libertação prolongada), dado que não se recomenda a toma 
+destes medicamentos com Byetta.
+
+medicamentos utilizados para fluidificar o sangue (anticoagulantes), por exemplo varfarina uma 
+vez que vai necessitar de monitorização adicional de alterações na INR (medida da fluidez do 
+sangue) durante o início da terapêutica com este medicamento.
+Pergunte ao seu médico se a hora a que você toma alguns medicamentos deve ser alterada, porque este 
+medicamento retarda o esvaziamento gástrico e pode afetar medicamentos que necessitem de passar 
+muito depressa pelo estômago, por exemplo:
+
+Comprimidos resistentes no estômago ou cápsulas (por exemplo medicamentos que reduzem a 
+acidez do estômago (inibidores da bomba de protões)) que não devem ficar demasiado tempo no 
+seu estômago, podem ter que ser tomados uma hora antes ou quatro horas após este 
+medicamento.
+
+Alguns antibióticos podem precisar de ser tomados uma hora antes da sua injeção de Byetta.
+
+Para os comprimidos que irá necessitar de tomar com alimentos, pode ser melhor tomá-los em 
+refeições nas quais não administre este medicamento.
+Byetta com alimentos
+Administre este medicamento em qualquer altura no espaço de 60 minutos (1 hora) antes da sua 
+refeição. (Ver secção 3. “Como utilizar Byetta"). Não use este medicamento após a sua refeição.
+Gravidez e amamentação
+Não se sabe se este medicamento poderá vir a prejudicar o seu bebé. Se está grávida ou a amamentar, 
+se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de tomar este medicamento, 
+dado que não deve ser utilizado durante a gravidez.
+Desconhece-se se o exenatido passa para o leite materno. Este medicamento não deve ser utilizado se 
+estiver a amamentar.
+32
+Condução de veículos e utilização de máquinas
+Se utilizar este medicamento em combinação com uma sulfonilureia ou insulina, pode ocorrer uma 
+baixa de açúcar no sangue (hipoglicemia). A hipoglicemia pode reduzir a sua capacidade de 
+concentração. Por favor, tenha isto em consideração em todas as situações onde possa estar em risco 
+ou colocar outros em risco (por exemplo conduzir uma viatura ou utilizar máquinas).
+Byetta contém metacresol
+O metacresol pode provocar reações alérgicas.
+Byetta contém sódio
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, i.e. essencialmente “livre de 
+sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar byetta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar byetta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico, farmacêutico ou enfermeiro 
+diabetologista. Fale com o seu médico, farmacêutico ou enfermeiro diabetologista se tiver dúvidas.
+Estão disponíveis duas dosagens de Byetta: Byetta 5 microgramas e Byetta 10 microgramas. 
+Inicialmente o seu médico pode dizer-lhe para utilizar Byetta 5 microgramas duas vezes por dia. Após 
+a utilização de Byetta 5 microgramas duas vezes por dia durante 30 dias o médico pode aumentar a 
+sua dose de Byetta para 10 microgramas duas vezes por dia.
+Se tiver mais de 70 anos de idade ou tiver problemas de rins, pode levar mais de 30 dias a tolerar a 
+dose de Byetta 5 microgramas e, por isso, o seu médico pode não lhe aumentar a dose.
+Uma administração da sua caneta pré-cheia será a sua dose. Não altere a sua dose a não ser por 
+indicação do seu médico.
+Deve administrar este medicamento em qualquer altura, nos 60 minutos (1 hora) antes das suas 
+refeições da manhã e da noite ou antes das suas duas principais refeições do dia, as quais devem ter 
+um intervalo superior a 6 horas. Não utilize este medicamento após as suas refeições.
+Deve administrar este medicamento debaixo da pele (injeção subcutânea) na parte superior da perna 
+(coxa), na área do estômago (abdómen), ou na parte superior do braço. Se estiver a utilizar Byetta e 
+uma insulina, tem que fazer duas injeções separadas.
+Não irá necessitar testar os seus níveis de açúcar no sangue todos os dias para determinar a dose de 
+Byetta. Contudo, se também estiver a utilizar uma sulfonilureia ou uma insulina, o seu médico pode 
+aconselhá-lo a verificar os seus níveis de açúcar no sangue, de modo a poder ajustar a dose de 
+sulfonilureia ou de insulina. Se estiver a utilizar insulina, o seu médico informá-lo-á sobre como 
+reduzir a dose de insulina e recomendar-lhe-á que monitorize, mais frequentemente, a sua glicemia, de 
+modo a evitar hiperglicemia (nível elevado de açúcar no sangue) e cetoacidose diabética (uma 
+complicação da diabetes que ocorre quando o organismo não é capaz de quebrar a glucose, devido a 
+insuficiência em insulina).
+Consulte o Manual de Utilização da Caneta incluso para ver as instruções de utilização da 
+caneta Byetta.
+O seu médico ou enfermeiro deverá ensiná-lo a injetar Byetta antes de o utilizar pela primeira vez.
+As agulhas Becton, Dickinson and Company são indicadas para utilizar com a caneta Byetta.
+As agulhas para administração não estão incluídas.
+33
+Utilize uma agulha nova para cada administração e deite-a fora após cada utilização. Este 
+medicamento é para si; nunca partilhe a sua caneta Byetta com outras pessoas.
+Se utilizar mais Byetta do que deveria
+Se administrar mais deste medicamento do que deveria, contacte um médico ou vá imediatamente a 
+um hospital. Utilizar demasiado deste medicamento pode provocar náuseas, vómitos, tonturas ou
+sintomas de baixa de açúcar no sangue (ver secção 4).
+Caso se tenha esquecido de utilizar Byetta
+Se se esquecer duma dose de deste medicamento, omita essa dose e administre a dose seguinte à hora
+prevista. Não administre uma dose extra nem aumente a sua dose seguinte para compensar a dose que 
+se esqueceu de administrar.
+Se parar de utilizar Byetta
+Se achar que deve interromper a administração deste medicamento consulte primeiro o seu médico. Se
+deixar de administrar este medicamento isso pode afetar os seus níveis de açúcar no sangue.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro diabetologista.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+Foram notificadas raramente reações alérgicas graves (anafilaxia) (podem afetar até 1 em cada 
+1.000 pessoas).
+Deve consultar imediatamente o seu médico se tiver sintomas tais como:
+
+Inchaço da face, língua ou garganta (angioedema)
+
+Erupções na pele, comichão e inchaço rápido dos tecidos do pescoço, face, boca ou garganta)
+
+Dificuldade em engolir
+
+Urticária e dificuldade em respirar
+Foram notificados (frequência desconhecida), casos de inflamação do pâncreas (pancreatite) em 
+doentes tratados com este medicamento. A pancreatite pode ser um estado clínico grave que pode 
+potencialmente pôr a vida em risco.
+
+Informe o seu médico se tiver tido pancreatite, pedras na vesícula, alcoolismo ou valores de 
+triglicéridos muito elevados. Estes estados clínicos podem aumentar a sua probabilidade de ter 
+uma pancreatite, ou de a voltar a ter, quer esteja ou não a administrar este medicamento.
+
+PARE de administrar este medicamento e contacte o seu médico imediatamente se tiver dores 
+de estômago graves e que duram muito tempo, com ou sem vómitos, pois pode ter uma
+inflamação do pâncreas (pancreatite).
+Efeitos indesejáveis muito frequentes, (podem afetar mais do que 1 em cada 10 pessoas):
+
+náuseas (náuseas são mais frequentes quando se inicia o tratamento com este medicamento, mas 
+diminuem com o tempo, na maioria dos doentes)
+
+vómitos
+
+diarreia
+
+hipoglicemia
+34
+Quando este medicamento é utilizado com um medicamento que contém uma sulfonilureia ou uma 
+insulina podem ocorrer com muita frequência episódios de baixa de açúcar no sangue (hipoglicemia, 
+geralmente ligeira a moderada). A dose do seu medicamento que contém sulfonilureia ou insulina 
+pode precisar de ser reduzida enquanto estiver a utilizar este medicamento. Os sinais e sintomas da 
+baixa de açúcar no sangue podem incluir dor de cabeça, sonolência, fraqueza, tonturas, confusão, 
+irritabilidade, fome, batimento rápido do coração, suores e sentir-se nervoso. O seu médico deve dizer-
+lhe como tratar a baixa de açúcar no sangue.
+Efeitos indesejáveis frequentes, (podem afetar até 1 em cada 10 pessoas):
+
+tonturas
+
+dor de cabeça
+
+sentir-se nervoso
+
+prisão de ventre
+
+dor na zona do estômago
+
+inchaço
+
+indigestão
+
+comichão (com ou sem erupção na pele)
+
+flatulência (gazes)
+
+aumento da transpiração (sudação)
+
+perda de energia e de forças
+
+azia
+
+diminuição do apetite
+Este medicamento pode reduzir o seu apetite, a quantidade de comida que ingere e o seu peso.
+Se perder peso demasiado depressa (mais de 1,5 kg por semana) fale com o seu médico, pois isto pode
+causar problemas como cálculos biliares.
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas):
+
+diminuição da função renal
+
+desidratação, geralmente associada com náuseas, vómitos e/ou diarreia
+
+sabor estranho na boca
+
+arrotar
+
+reação no local de administração (vermelhidão)
+
+sonolência
+
+queda de cabelo
+
+perda de peso
+
+um atraso no esvaziamento do estômago
+
+vesícula biliar inflamada
+
+cálculos biliares
+Efeitos indesejáveis raros (podem afetar até 1 em cada 1.000 pessoas):
+
+obstrução intestinal (bloqueio no intestino)
+Desconhecidos (a frequência não pode ser calculada a partir dos dados disponíveis).
+Adicionalmente foram notificados outros efeitos indesejáveis:
+
+hemorragias ou nódoas negras mais facilmente do que é normal devido a um nível baixo de 
+plaquetas no sangue.
+
+foram notificadas alterações da INR (medida da fluidez do sangue) quando utilizado com
+varfarina.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste
+folheto, fale com o seu médico, farmacêutico ou enfermeiro diabetologista. Também poderá
+comunicar efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no
+35
+Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a
+segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar byetta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar byetta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+Conserve num frigorífico (2°C-8°C). Uma vez em utilização, a caneta deve ser conservada a 
+temperatura inferior a 25C durante 30 dias. Deite fora a caneta após os 30 dias, mesmo que ainda 
+fique alguma quantidade de medicamento na caneta.
+Reponha a tampa na caneta de modo a proteger da luz. Não congele. Deite fora qualquer caneta Byetta 
+que tenha sido congelada.
+Não utilize este medicamento se vir partículas na solução ou se esta estiver turva ou colorida.
+Não guarde a caneta com a agulha enroscada. Se deixar a agulha enroscada, pode verter medicamento 
+da caneta ou formarem-se bolhas de ar no cartucho.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Byetta</h2>
+<h2>A substância ativa é exenatido.</h2>
+<p>Estão disponíveis duas canetas pré-cheias. Uma para administração de doses de 5 microgramas 
+e uma de 10 microgramas.
+-
+Cada dose de Byetta 5 microgramas solução injetável (injetável) contém 5 microgramas de 
+exenatido em 20 microlitros.
+-
+Cada dose de Byetta 10 microgramas solução injetável (injetável) contém 10 microgramas de 
+exenatido em 40 microlitros
+-
+Cada mililitro (ml) de solução injetável contém 0,25 miligramas (mg) de exenatido.
+-
+Os outros componentes são: metacresol (44 microgramas/dose na caneta Byetta de 
+5 microgramas, solução injetável e 88 microgramas/dose na caneta Byetta 10 microgramas, 
+solução injetável), manitol, ácido acético glacial, acetato de sódio tri-hidratado e água para 
+preparações injetáveis (ver secção 2).
+Qual o aspeto de Byetta e conteúdo da embalagem
+O Byetta é um líquido injetável límpido e incolor (solução injetável) colocado num cartucho de vidro 
+incorporado numa caneta. Quando a caneta está vazia, não a pode voltar a utilizar. Cada caneta contém
+60 doses para administração de 30 dias de injeções duas vezes ao dia.
+Está disponível em embalagens de 1 e 3 canetas pré-cheias. É possível que não sejam comercializadas 
+todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+AstraZeneca AB
+SE-151 85 Södertälje
+36
+Suécia
+Fabricante
+AstraZeneca AB
+Karlebyhusentrén Astraallén
+SE-152 57 Södertälje
+Suécia
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 244 55 000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 79 363 2222
+Eesti
+AstraZeneca
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) Ltd
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Slovenská republika
+AstraZeneca AB, o.z.
+37
+Sími: +354 535 7000
+Tel: +421 2 5737 7777
+Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Este folheto foi revisto pela última vez em
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1204,6 +1697,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9367ad7779ef7d59f46d4f6cb649b03e"
 * entry[0].resource = composition-da-9367ad7779ef7d59f46d4f6cb649b03e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9367ad7779ef7d59f46d4f6cb649b03e"
+* entry[=].resource = mp9367ad7779ef7d59f46d4f6cb649b03e
+                            
+                    
+Instance: bundlepackageleaflet-pt-9367ad7779ef7d59f46d4f6cb649b03e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for byetta Package Leaflet for language pt"
+Description: "ePI document Bundle for byetta Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9367ad7779ef7d59f46d4f6cb649b03e"
+* entry[0].resource = composition-pt-9367ad7779ef7d59f46d4f6cb649b03e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9367ad7779ef7d59f46d4f6cb649b03e"
@@ -1305,6 +1820,18 @@ RuleSet: 9367ad7779ef7d59f46d4f6cb649b03eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9367ad7779ef7d59f46d4f6cb649b03e) // byetta pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -758,6 +758,386 @@ dosisfordeling</p>         </div>"""
 
 
 
+Instance: composition-pt-2a76f37ef539585b5462eb33582e394e
+InstanceOf: CompositionUvEpi
+Title: "Composition for fluenz Package Leaflet"
+Description:  "Composition for fluenz Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2a76f37ef539585b5462eb33582e394e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - fluenz"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Fluenz Tetra e para que é utilizado
+2. O que precisa de saber antes de lhe ser administrado Fluenz Tetra
+3. Como é administrado Fluenz Tetra
+4. Efeitos indesejáveis possíveis
+5. Como conservar Fluenz Tetra
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é fluenz e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é fluenz e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fluenz Tetra é uma vacina para evitar a gripe. É usada em crianças e adolescentes com idade igual ou
+superior a 24 meses e inferior a 18 anos. Fluenz Tetra vai ajudar a proteger contra as quatro estirpes de 
+vírus contidas na vacina e estirpes semelhantes.
+Como funciona Fluenz Tetra
+Quando a vacina é administrada a uma pessoa, o sistema imunitário (o sistema de defesa natural do
+organismo) produzirá a sua própria proteção contra o vírus da gripe. Nenhum dos componentes da
+vacina pode causar a gripe.
+Os vírus da vacina Fluenz Tetra são produzidos em ovos de galinha. Em cada ano, a vacina tem como
+alvo quatro estirpes do vírus da gripe, seguindo as recomendações anuais da Organização Mundial de 
+Saúde.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar fluenz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar fluenz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe será administrado Fluenz Tetra
+
+se tem alergia à gentamicina, à gelatina ou a qualquer outro componente desta vacina
+(indicados na secção 6 “Conteúdo da embalagem e outras informações").
+
+se já teve uma reação alérgica grave aos ovos ou às proteínas do ovo. Para sinais de reações
+alérgicas, ver secção 4 “Efeitos indesejáveis possíveis".
+
+se tem uma doença do sangue ou um cancro que afete o sistema imunitário.
+
+se foi informado pelo seu médico de que tem um sistema imunitário enfraquecido em 
+consequência de uma doença, medicamento ou tratamento.
+
+se já toma ácido acetilsalicílico (uma substância presente em vários medicamentos usados para 
+aliviar a dor e baixar a febre). Isto é devido ao risco de uma doença muito rara mas grave
+(síndrome de Reye).
+24
+Se qualquer uma destas situações se aplicar a si, informe o seu médico, enfermeiro ou farmacêutico.
+Advertências e precauções
+Fale com o seu médico, enfermeiro ou farmacêutico antes da vacinação:
+
+se a criança tem menos de 24 meses de idade. As crianças com menos de 24 meses de idade 
+não devem receber esta vacina devido ao risco de efeitos indesejáveis.
+
+se tem asma grave ou se, no momento presente, tem pieira.
+
+se está em contacto próximo com uma pessoa que tenha um sistema imunitário gravemente 
+enfraquecido (por exemplo, doente com transplante de medula óssea que necessita de 
+isolamento).
+Se qualquer uma destas situações se aplicar a si, informe o seu médico, enfermeiro ou farmacêutico
+antes da vacinação. Ele ou ela decidirá se Fluenz Tetra é adequado para si.
+Outros medicamentos, outras vacinas e Fluenz Tetra
+Informe o seu médico, enfermeiro ou farmacêutico se a pessoa que está a ser vacinada estiver a tomar, 
+tiver tomado recentemente, ou se vier a tomar outros medicamentos, incluindo medicamentos que não 
+necessitam de receita médica.
+
+Não dê ácido acetilsalicílico (uma substância presente em vários medicamentos usados para 
+aliviar a dor e baixar a febre) a crianças durante 4 semanas após a vacinação com Fluenz Tetra, 
+a menos que o seu médico, enfermeiro ou farmacêutico lhe diga para o fazer. Isto deve-se ao 
+risco de síndrome de Reye, uma doença muito rara mas grave que pode afetar o cérebro e o
+fígado.
+
+Recomenda-se que Fluenz Tetra não seja administrado ao mesmo tempo que medicamentos 
+antivirais específicos da gripe, tais como oseltamivir e zanamivir, pois a eficácia da vacina 
+poderá ser reduzida.
+O seu médico, enfermeiro ou farmacêutico decidirá se Fluenz Tetra pode ser administrado ao mesmo 
+tempo que outras vacinas.
+Gravidez e amamentação
+
+Se está grávida, se pensa estar grávida ou planeia engravidar em breve ou se estiver 
+a amamentar, consulte o seu médico, enfermeiro ou farmacêutico antes de receber esta
+vacina. Fluenz Tetra não é recomendado em mulheres que estão grávidas ou a amamentar.
+Condução de veículos e utilização de máquinas
+
+Os efeitos de Fluenz Tetra sobre a capacidade de conduzir e utilizar máquinas são nulos ou
+desprezíveis.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar fluenz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar fluenz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fluenz Tetra será administrado sob a supervisão de um médico, enfermeiro ou farmacêutico.
+Fluenz Tetra só deve ser usado por pulverização nasal.
+Fluenz Tetra não deve ser injetado.
+Fluenz Tetra será administrado sob a forma de uma pulverização em cada narina. Pode respirar 
+normalmente enquanto lhe está a ser administrado Fluenz Tetra. Não necessita de inalar ou inspirar 
+ativamente.
+Posologia
+A dose recomendada para crianças e adolescentes é de 0,2 ml de Fluenz Tetra, administrados na dose 
+de 0,1 ml em cada narina. As crianças que não foram previamente vacinadas com uma vacina da
+25
+gripe, receberão uma segunda dose, após um intervalo de pelo menos 4 semanas. Siga as instruções do
+seu médico, enfermeiro ou farmacêutico sobre se e quando o seu filho deve voltar para a segunda 
+dose.
+Caso ainda tenha dúvidas sobre a utilização desta vacina, fale com o seu médico, farmacêutico ou
+enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, esta vacina pode causar efeitos indesejáveis, embora estes não se
+manifestem em todas as pessoas. Em estudos clínicos com a vacina, a maioria dos efeitos indesejáveis
+foram de natureza ligeira e de curta duração.
+Consulte o seu médico, enfermeiro ou farmacêutico se quiser mais informações sobre os possíveis
+efeitos indesejáveis de Fluenz Tetra.
+Alguns efeitos indesejáveis podem ser graves
+Muito raros
+(podem afetar até 1 em 10.000 pessoas):
+
+reação alérgica grave: os sinais de uma reação alérgica grave podem incluir falta de ar e inchaço 
+da face ou língua.
+Informe o seu médico ou procure auxílio médico imediatamente se observar qualquer um dos 
+efeitos acima.
+Outros efeitos indesejáveis possíveis do Fluenz Tetra
+Muito frequentes
+(podem afetar mais de 1 em 10 pessoas):
+
+corrimento nasal ou nariz entupido 
+
+diminuição do apetite
+
+fraqueza
+Frequentes
+(podem afetar até 1 em 10 pessoas):
+
+febre
+
+dores musculares
+
+dor de cabeça
+Pouco frequentes
+(podem afetar até 1 em 100 pessoas):
+
+erupção na pele
+
+sangramento do nariz
+
+reações alérgicas
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança 
+deste medicamento.
+26</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar fluenz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar fluenz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter esta vacina fora da vista e do alcance das crianças.
+Não utilize esta vacina após o prazo de validade impresso no rótulo do aplicador após EXP.
+Conservar no frigorífico (2°C-8°C). Não congelar.
+Manter o aplicador nasal dentro da embalagem exterior para proteger da luz.
+Antes da utilização, a vacina pode ser retirada do frigorífico apenas uma vez e mantida durante um 
+período máximo de 12 horas a uma temperatura não superior a 25°C. Se a vacina não for utilizada
+durante este período de 12 horas, deverá ser eliminada.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Fluenz Tetra
+As substâncias ativas são:
+Vírus da gripe de rearranjo<em> (vivo atenuado) das seguintes quatro estirpes</em><em>:
+A/Victoria/4897/2022 (H1N1)pdm09 - estirpe análoga à
+(A/Norway/31694/2022, MEDI 369815)
+107,0±0,5 UFF</em><strong> A/Darwin/9/2021 (H3N2) - estirpe análoga à
+(A/Norway/16606/2021, MEDI 355293)
+107,0±0,5 UFF</strong><em> B/Austria/1359417/2021 - estirpe análoga à
+(B/Austria/1359417/2021, MEDI 355292)
+107,0±0,5 UFF</em><strong> B/Phuket/3073/2013 - estirpe análoga à
+(B/Phuket/3073/2013, MEDI 306444)
+107,0±0,5 UFF</strong>* .......................................................................................................por dose de 0,2 ml</p>
+<ul>
+<li>propagado em ovos de galinha fertilizados de bandos de galinhas saudáveis.</li>
+</ul>
+<p>** produzidas em células VERO por tecnologia genética inversa. Este produto contém organismos
+geneticamente modificados (OGMs).</p>
+<p>*** unidades formadoras de focos fluorescentes.
+Esta vacina cumpre as recomendações da OMS (Organização Mundial de Saúde) (hemisfério norte) e
+a decisão da UE para a época de 2023/2024. Os outros componentes são sacarose, fosfato dipotássico, fosfato monopotássico, gelatina (origem 
+porcina, Tipo A), cloridrato de arginina, glutamato monossódico mono-hidratado e água para
+preparações injetáveis.
+Qual o aspeto de Fluenz Tetra e conteúdo da embalagem
+Esta vacina é apresentada como uma suspensão para pulverização nasal num aplicador nasal de
+utilização única (0,2 ml) em embalagens de 1 e 10 unidades. É possível que não estejam disponíveis 
+todas as apresentações no seu país.
+27
+A suspensão é incolor a amarelo pálido, límpida a ligeiramente turva. Podem estar presentes pequenas 
+partículas brancas.
+Titular da Autorização de Introdução no Mercado
+AstraZeneca AB, 
+SE-151 85 Södertälje, 
+Suécia
+Fabricante
+AstraZeneca Nijmegen B.V., 
+Lagelandseweg 78
+Nijmegen, 6545CG
+Países Baixos
+MedImmune, UK Limited, 
+Plot 6, Renaissance Way, 
+Boulevard Industry Park, 
+Speke,
+Liverpool, L24 9JW, 
+Reino Unido
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 79 363 2222
+Eesti
+AstraZeneca
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 2 106871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+28
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB o.z.
+Tel: +421 2 5737 7777
+Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρμακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca  Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -799,6 +1179,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-2a76f37ef539585b5462eb33582e394e"
 * entry[0].resource = composition-da-2a76f37ef539585b5462eb33582e394e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2a76f37ef539585b5462eb33582e394e"
+* entry[=].resource = mp2a76f37ef539585b5462eb33582e394e
+                            
+                    
+Instance: bundlepackageleaflet-pt-2a76f37ef539585b5462eb33582e394e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fluenz Package Leaflet for language pt"
+Description: "ePI document Bundle for fluenz Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-2a76f37ef539585b5462eb33582e394e"
+* entry[0].resource = composition-pt-2a76f37ef539585b5462eb33582e394e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp2a76f37ef539585b5462eb33582e394e"
@@ -900,6 +1302,18 @@ RuleSet: 2a76f37ef539585b5462eb33582e394eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-2a76f37ef539585b5462eb33582e394e) // fluenz pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

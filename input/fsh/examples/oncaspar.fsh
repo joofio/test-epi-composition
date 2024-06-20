@@ -810,6 +810,402 @@ Yderligere oplysninger med flere detaljer fremgår af produktresuméet. </p>    
 
 
 
+Instance: composition-pt-214e72709936235d4c7554be3fb82817
+InstanceOf: CompositionUvEpi
+Title: "Composition for oncaspar Package Leaflet"
+Description:  "Composition for oncaspar Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp214e72709936235d4c7554be3fb82817)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - oncaspar"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Oncaspar e para que é utilizado </li>
+<li>O que precisa de saber antes de lhe ser administrado Oncaspar </li>
+<li>Como é administrado Oncaspar </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Oncaspar </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é oncaspar e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é oncaspar e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oncaspar contém pegaspargase, que é uma enzima (asparaginase) que decompõe a asparagina, um 
+componente importante das proteínas, sem o qual as células não podem sobreviver. As células normais 
+podem fabricar asparagina para si próprias, ao passo que algumas células cancerígenas não o fazem. 
+Oncaspar reduz o nível de asparagina nas células cancerígenas do sangue e impede-as de crescer. </p>
+<p>Oncaspar é utilizado para tratar leucemia linfoblástica aguda (LLA) em crianças desde o nascimento 
+até aos 18 anos de idade, bem como em adultos. A LLA é um tipo de cancro dos glóbulos brancos em 
+que determinados glóbulos brancos imaturos (chamados linfoblastos) começam a crescer 
+descontroladamente, impedindo a produção de células sanguíneas funcionais. Oncaspar é utilizado em 
+conjunto com outros medicamentos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar oncaspar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar oncaspar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Oncaspar 
+- se tem alergia à pegaspargase ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se tem uma doença hepática grave. 
+- se já alguma vez teve pancreatite. 
+- se já alguma vez teve uma hemorragia grave após terapêutica com asparaginase. 
+- se já alguma vez teve coágulos de sangue após terapêutica com asparaginase. </p>
+<p>Fale com o seu médico se algumas destas condições se aplicar a si. Se for o responsável pela criança 
+que está a ser tratada com Oncaspar, informe o médico se algumas destas condições se aplicar à sua 
+criança. </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de lhe ser administrado Oncaspar. Este medicamento pode não ser 
+adequado para si: 
+- se já teve reações alérgicas graves a outras formas de asparaginase, por exemplo comichão, 
+afrontamentos ou inchaço das vias respiratórias, uma vez que podem ocorrer reações alérgicas a 
+Oncaspar. 
+- se sofre de uma doença hemorrágica ou já alguma vez teve coágulos de sangue graves. 
+- se tiver febre. Este medicamento pode torná-lo mais suscetível a infeções. 
+- se já teve má função do fígado ou está a utilizar outros medicamentos que podem ser 
+prejudiciais ao fígado. Quando Oncaspar é utilizado em combinação com outros tratamentos 
+para o cancro, podem ocorrer danos para o fígado e para o sistema nervoso central. 
+- se tem dor abdominal. Pode ocorrer inflamação do pâncreas, que, em alguns casos, levou à 
+morte, com o tratamento com Oncaspar. </p>
+<p>Este medicamento pode causar flutuações dos fatores de coagulação e pode aumentar o risco de 
+hemorragia e/ou coagulação. </p>
+<p>Um efeito indesejável chamado osteonecrose (lesão do osso) tem sido reportado na experiência pós-
+comercialização em crianças e adolescentes a receber Oncaspar (maior incidência observada no sexo 
+feminino), quando tomado em simultâneo com glucocorticoides (por exemplo, dexametasona).  </p>
+<p>Se é pai ou mãe de uma criança tratada com Oncaspar, diga ao médico caso o seu filho apresente 
+alguma das condições acima indicadas. </p>
+<p>Durante o tratamento com Oncaspar 
+Durante a administração de Oncaspar, será vigiado atentamente durante uma hora após o início do 
+tratamento para deteção de sinais de reações alérgicas graves. Estará disponível equipamento médico 
+para tratar eventuais reações alérgicas. </p>
+<p>Testes de monitorização adicionais 
+Serão realizadas regularmente análises aos níveis de açúcar no sangue e na urina, provas funcionais do 
+fígado e do pâncreas e outros testes para monitorizar a sua saúde durante e após o tratamento, uma vez 
+que este medicamento pode afetar o seu sangue e outros órgãos. </p>
+<p>Outros medicamentos e Oncaspar 
+Informe o seu médico se estiver a utilizar, tiver utilizado recentemente, ou se vier a utilizar outros 
+medicamentos. É importante que o faça, uma vez que Oncaspar pode aumentar os efeitos indesejáveis 
+de outros medicamentos através do seu efeito no fígado, que desempenha um papel importante na 
+remoção dos medicamentos do organismo. Além disso, é especialmente importante informar o seu 
+médico se estiver a utilizar algum dos seguintes medicamentos: 
+- imunização com vacinas vivas no prazo de três meses a contar do final do tratamento para a 
+leucemia. Tal irá aumentar o risco de infeções graves 
+- vincristina, outro medicamento para o cancro. Se utilizado ao mesmo tempo que Oncaspar, o 
+risco de efeitos indesejáveis ou reações alérgicas aumenta. 
+- medicamentos que reduzem a capacidade do sangue para coagular, como anticoagulantes (por 
+exemplo, cumarina/varfarina e heparina), dipiridamol, ácido acetilsalicílico ou medicamentos 
+anti-inflamatórios não esteroides (por exemplo, ibuprofeno ou naproxeno). Se for utilizado ao 
+mesmo tempo que Oncaspar, existe um risco aumentado de hemorragia. 
+- medicamentos que requerem divisão celular para fazerem efeito, por exemplo metotrexato (um 
+medicamento utilizado para tratar o cancro e a artrite) podem apresentar uma redução no seu 
+efeito. 
+- prednisona, um medicamento esteroide. Se for utilizado ao mesmo tempo que Oncaspar, os 
+efeitos sobre a capacidade de coagulação do sangue aumentam. 
+- glucocorticoides quando tomados em simultâneo como parte do tratamento recomendado para a<br />
+leucemia, Oncaspar pode aumentar o risco de osteonecrose (lesão do osso) induzida por 
+esteroides em crianças e adolescentes, com maior incidência observada no sexo feminino. 
+Portanto, se experienciar qualquer dor óssea nova (ou seja, dor na anca, no joelho ou nas 
+costas), por favor informe o seu médico o mais rápido possível. citarabina, um medicamento 
+que pode ser utilizado no tratamento do cancro e que pode interferir com o efeito de Oncaspar. </p>
+<p>Oncaspar também pode causar alterações na função do fígado, que podem afetar o modo como outros 
+medicamentos atuam. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de utilizar este medicamento. </p>
+<p>Não deve utilizar Oncaspar se estiver grávida, uma vez que os seus efeitos durante a gravidez não 
+foram estudados. O seu médico decidirá se a sua doença requer tratamento. As mulheres que podem 
+engravidar têm de utilizar contraceção fiável durante o tratamento e durante pelo menos 6 meses 
+depois de o tratamento com Oncaspar ter sido descontinuado. A contraceção oral não é um método de 
+contraceção eficaz durante o tratamento com Oncaspar. Peça aconselhamento ao seu médico sobre o 
+método contracetivo mais adequado para si. Os homens também têm de utilizar contraceção eficaz 
+quando recebem tratamento com Oncaspar, ou quando as respetivas parceiras estão a receber 
+tratamento com Oncaspar. </p>
+<p>Desconhece-se se pegaspargase é excretada no leite materno. Como medida de precaução, a 
+amamentação deverá ser descontinuada durante o tratamento com Oncaspar e não deverá ser reiniciada 
+até o tratamento com Oncaspar ter sido descontinuado. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza nem utilize máquinas enquanto estiver a utilizar este medicamento, uma vez que pode 
+causar sonolência, cansaço ou estados confusionais. </p>
+<p>Oncaspar contém sódio 
+Este medicamento contém menos de 1 mmol de sódio por dose, ou seja, é essencialmente «isento de 
+sódio». </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar oncaspar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar oncaspar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Antes da administração, poderá receber uma combinação de medicamentos para ajudar a reduzir a 
+probabilidade de ter reações alérgicas. O seu médico decidirá se é necessário pré-medicação. </p>
+<p>O seu tratamento com Oncaspar foi-lhe prescrito por um médico com experiência em medicamentos 
+utilizados para tratar o cancro. O seu médico irá decidir qual a dose do medicamento que é necessária 
+e qual a sua frequência, com base na sua idade e área de superfície corporal, que é calculada a partir da 
+sua altura e peso. </p>
+<p>O medicamento é administrado como uma solução para injeção num músculo ou, caso seja mais 
+apropriado, numa veia. </p>
+<p>Se lhe for administrado demasiado Oncaspar 
+Uma vez que é o seu enfermeiro que irá administrar o medicamento, é muito pouco provável que 
+receba mais do que necessita. </p>
+<p>No caso pouco provável de haver uma sobredosagem acidental, será monitorizado cuidadosamente por 
+pessoal médico e tratado adequadamente. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Informe imediatamente o seu médico se tiver algum dos seguintes efeitos indesejáveis: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) 
+- Inflamação ou outros problemas do pâncreas (pancreatite) que causem dores de barriga fortes 
+que poderão espalhar-se para as costas, vómitos, aumento nos níveis de açúcar no sangue; 
+- Reações alérgicas graves com sintomas como erupção na pele, comichão, inchaço, urticária, 
+falta de ar, batimentos cardíacos acelerados e baixa tensão arterial; 
+- Coágulos sanguíneos; 
+- Febre com baixa contagem de glóbulos brancos. </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) 
+- Hemorragia ou contusões (nódoas negras) graves; 
+- Tremores violentos (convulsões) e perda de consciência (desmaio); 
+- Infeção grave com febre muito alta; 
+- Problemas no seu fígado (por exemplo, alteração na cor da sua pele, urina ou fezes e análises 
+com valores elevados de enzimas do fígado ou de bilirrubina). </p>
+<p>Raros (podem afetar até 1 em cada 1.000 pessoas) 
+- Insuficiência do fígado; 
+- Icterícia; 
+- Bloqueio do fluxo de bilis proveniente do fígado (coléstase); 
+- Destruição de células do fígado (necrose de células hepáticas). </p>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- Reação grave na pele, chamada necrólise epidérmica tóxica; 
+- Perda de função renal (por exemplo, alterações na quantidade de urina, inchaço dos pés e dos 
+tornozelos); 
+- AVC; 
+- Reação alérgica grave que pode causar perda de consciência e colocar a vida em risco (choque 
+anafilático); 
+- Lesão do osso (osteonecrose). </p>
+<p>Outros efeitos indesejáveis 
+Fale com o seu médico se tiver algum dos seguintes efeitos: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) 
+- Alterações da função do pâncreas; 
+- Perda de peso; 
+- Dor nas pernas (pode ser um sintoma de trombose), dor no peito ou falta de ar (podem ser 
+sintomas de coágulos sanguíneos nos pulmões, chamados embolia pulmonar); 
+- Perda de apetite, fraqueza generalizada, vómitos, diarreia, náuseas; 
+- Níveis aumentados de açúcar no sangue. </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) 
+- Número reduzido de glóbulos vermelhos; 
+- Acumulação de fluido no estômago (ascite); 
+- Febre e sintomas gripais; 
+- Feridas da boca; 
+- Dor nas costas, nas articulações ou abdominais; 
+- Níveis elevados de gordura e colesterol no sangue, nível baixo de potássio no sangue. </p>
+<p>Raros (podem afetar até 1 em cada 1.000 pessoas) 
+- Síndrome de leucoencefalopatia reversível posterior (SLRP), uma síndrome caracterizada por 
+dores de cabeça, confusão, convulsões e perda de visão, que passam após algum tempo. </p>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- Número reduzido de glóbulos brancos e plaquetas; 
+- Febre; 
+- Quistos no pâncreas, inchaço das glândulas salivares; 
+- Níveis elevados de ureia no sangue; anticorpos contra Oncaspar; níveis elevados de amónia no 
+sangue; níveis baixos de açúcar no sangue; 
+- Sonolência, confusão, espasmos ligeiros dos dedos. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis que pense que possam estar relacionados com a quimioterapia, 
+incluindo possíveis efeitos indesejáveis não indicados neste folheto, fale com o seu médico. Também 
+poderá comunicar efeitos indesejáveis diretamente através do sistema nacional de notificação 
+mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais 
+informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar oncaspar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar oncaspar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C-8°C). 
+Não congelar. </p>
+<p>Após a reconstituição e diluição do medicamento, a solução deve ser utilizada imediatamente. Se não 
+for possível utilizar imediatamente, a solução diluída pode ser conservada a 2°C-8°C durante um prazo 
+de 48 horas. </p>
+<p>Não utilize este medicamento se verificar que a solução reconstituída está turva ou que apresenta 
+partículas visíveis. </p>
+<p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
+os medicamentos não utilizados. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Oncaspar<br />
+A substância ativa é pegaspargase. Cada frasco para injetáveis contém 3.750 U de pegaspargase. </p>
+<p>Após a reconstituição, 1 ml de solução contém 750 U de pegaspargase (750 U/ml). </p>
+<p>Os outros componentes são: fosfato dissódico hepta-hidratado, dihidrogenofosfato de sódio 
+mono-hidratado, cloreto de sódio, sacarose, hidróxido de sódio (para ajuste do pH), ácido clorídrico 
+(para ajuste do pH) (ver secção 2 "Oncaspar contém sódio"). </p>
+<p>Qual o aspeto de Oncaspar e conteúdo da embalagem 
+Oncaspar é um pó branco a esbranquiçado. Após a reconstituição, a solução apresenta-se límpida, 
+incolor e isenta de partículas estranhas visíveis. 
+Cada embalagem contém 1 frasco para injetáveis em vidro com 3.750 U de pegaspargase. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Les Laboratoires Servier 
+50, rue Carnot 
+92284 Suresnes cedex 
+França </p>
+<p>Fabricante 
+Les Laboratoires Servier Industrie 
+905 Route de Saran 
+45520 Gidy<br />
+França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+S.A. Servier Benelux N.V. 
+Tel: +32 (0)2 529 43<br />
+Lietuva 
+UAB “SERVIER PHARMA" 
+Tel: +370 (5) 2 63 86 България 
+Сервие Медикал ЕООД 
+Тел.: +359 2 921 57<br />
+Luxembourg/Luxemburg 
+S.A. Servier Benelux N.V. 
+Tel: +32 (0)2 529 43<br />
+Česká republika 
+Servier s.r.o. 
+Tel: +420 222 118 Magyarország 
+Servier Hungaria Kft. 
+Tel: +36 1 238 7 
+Danmark 
+Servier Danmark A/S 
+Tlf: +45 36 44 22<br />
+Malta 
+V.J. Salomone Pharma Ltd<br />
+Tel: + 356 21 22 01 <br />
+Deutschland 
+Servier Deutschland GmbH 
+Tel: +49 (0)89 57095<br />
+Nederland 
+Servier Nederland Farma B.V. 
+Tel: +31 (0)71 5246 
+Eesti 
+Servier Laboratories OÜ<br />
+Tel:+ 372 664 5 
+Norge 
+Servier Danmark A/S 
+Tlf: +45 36 44 22<br />
+Eλλάδα 
+ΣΕΡΒΙΕ ΕΛΛΑΣ ΦΑΡΜΑΚΕΥΤΙΚΗ ΕΠΕ 
+Τηλ: +30 210 939 1 
+Österreich 
+Servier Austria GmbH 
+Tel: +43 (1) 524 39<br />
+España 
+Laboratorios Servier S.L. 
+Tel: +34 91 748 96<br />
+Polska 
+Servier Polska Sp. z o.o. 
+Tel: +48 (0) 22 594 90 France 
+Les Laboratoires Servier 
+Tel: +33 (0)1 55 72 60<br />
+Portugal 
+Servier Portugal, Lda 
+Tel.: +351 21 312 20 Hrvatska 
+Servier Pharma, d. o. o. 
+Tel.: +385 (0)1 3016<br />
+România 
+Servier Pharma SRL 
+Tel: +4 021 528 52<br />
+Ireland 
+Slovenija 
+Servier Laboratories (Ireland) Ltd. 
+Tel: +353 (0)1 663 8 
+Servier Pharma d. o. o.<br />
+Tel.: +386 (0)1 563 48 Ísland 
+Servier Laboratories 
+c/o Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika 
+Servier Slovensko spol. s r.o. 
+Tel.:+421 (0) 2 5920 41 Italia 
+Servier Italia S.p.A. 
+Tel: +39 06 669Suomi/Finland 
+Servier Finland Oy 
+P. /Tel: +358 (0)9 279 80<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22741 
+Sverige 
+Servier Sverige AB 
+Tel : +46 (0)8 522 508<br />
+Latvija 
+SIA Servier Latvia 
+Tel: +371 67502 
+United Kingdom (Northern Ireland) 
+Servier Laboratories (Ireland) Ltd. 
+Tel: +44 (0)1753 666 
+Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -851,6 +1247,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-214e72709936235d4c7554be3fb82817"
 * entry[0].resource = composition-da-214e72709936235d4c7554be3fb82817
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp214e72709936235d4c7554be3fb82817"
+* entry[=].resource = mp214e72709936235d4c7554be3fb82817
+                            
+                    
+Instance: bundlepackageleaflet-pt-214e72709936235d4c7554be3fb82817
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oncaspar Package Leaflet for language pt"
+Description: "ePI document Bundle for oncaspar Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-214e72709936235d4c7554be3fb82817"
+* entry[0].resource = composition-pt-214e72709936235d4c7554be3fb82817
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp214e72709936235d4c7554be3fb82817"
@@ -952,6 +1370,18 @@ RuleSet: 214e72709936235d4c7554be3fb82817ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-214e72709936235d4c7554be3fb82817) // oncaspar pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

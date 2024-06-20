@@ -591,6 +591,315 @@ hjemmeside http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-pt-446d079a08d59e4d16270357097325eb
+InstanceOf: CompositionUvEpi
+Title: "Composition for senshio Package Leaflet"
+Description:  "Composition for senshio Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp446d079a08d59e4d16270357097325eb)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - senshio"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Senshio e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Senshio </li>
+<li>Como tomar Senshio </li>
+<li>Efeitos secundários possíveis </li>
+<li>Como conservar Senshio </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é senshio e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é senshio e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Senshio contém a substância ativa ospemifeno.O ospemifeno pertence a um grupo de medicamentos 
+que não contêm hormonas denominados moduladores seletivos dos recetores do estrogénio (SERMs). </p>
+<p>Senshio é utilizado para tratar mulheres com sintomas pós-menopáusicos moderados a graves no 
+interior e no exterior da vagina, tais como comichão, secura, ardor e dor durante as relações sexuais 
+(dispareunia). Estes são conhecidos como atrofia vulvar e vaginal, que é causada por uma redução nos 
+níveis da hormona feminina estrogénio no seu corpo. Quando isso acontece, as paredes da vagina 
+podem ficar mais finas. Isto acontece naturalmente após a menopausa (pós-menopausa). </p>
+<p>Senshio atua de forma semelhante a alguns efeitos úteis do estrogénio, ajudando a melhorar estes 
+sintomas e as causas subjacentes da atrofia vulvar e vaginal. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar senshio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar senshio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Senshio 
+- se tem alergia ao ospemifeno ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se tem ou alguma vez teve um coágulo sanguíneo numa veia (trombose), por exemplo, nas 
+pernas (trombose venosa profunda), pulmões (embolia pulmonar) ou olhos (trombose das veias 
+retinianas). 
+- se tem hemorragia vaginal inexplicável. 
+- se o seu médico pensa que pode ter cancro da mama ou está a receber tratamento para o cancro 
+da mama. 
+- se o seu médico pensa que pode ter estado ou esteja a receber tratamento para cancro que seja 
+sensível aos estrogénios, como cancro do útero. 
+- se tem um espessamento do revestimento do útero, como hiperplasia do endométrio. </p>
+<p>Advertências e precauções 
+Quando começar a tomar Senshio, deve consultar o seu médico para efetuar exames gerais regulares 
+(pelo menos uma vez por ano). Nestes exames gerais, discuta com o seu médico os riscos e benefícios 
+de continuar com Senshio. </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Senshio se algum dos seguintes se aplicar a 
+si.<br />
+- Algum dos seus parentes próximos teve um coágulo na perna, no pulmão ou noutro órgão. 
+- Tem obesidade grave (IMC &gt;30 kg/m2). 
+- Tem uma doença autoimune denominada lúpus eritematoso sistémico (LES).<br />
+- Se teve uma trombose (acidente vascular cerebral) ou se o seu médico lhe disse que apresenta 
+um alto risco de ter uma trombose. 
+- Se tem uma doença ginecológica que não atrofia vulvar e vaginal. 
+- Se teve cancro da mama. </p>
+<p>Enquanto estiver a tomar Senshio: 
+- Caso não consiga andar durante muito tempo ou está sentada durante muito tempo na mesma 
+posição devido a uma grande cirurgia, lesão ou doença, Senshio pode impedir uma boa 
+circulação sanguínea e pode aumentar, temporariamente, o risco de ter coágulos sanguíneos. Por 
+isso, deve falar com o seu médico imediatamente. O seu médico pode recomendar que pare o 
+tratamento pelo menos 4 a 6 semanas antes de uma grande cirurgia ou durante um período 
+prolongado de repouso na cama, p. ex., por lesão ou doença. O tratamento com Senshio pode ser 
+retomado logo que retome a sua mobilidade e com consulta do seu médico. 
+- Caso ocorra uma hemorragia vaginal enquanto estiver a tomar Senshio ou logo após ter deixado 
+de o tomar, deve falar com o seu médico. 
+- Se tiver sinais de um coágulo sanguíneo, tais como um inchaço doloroso ou vermelhidão nas 
+pernas,uma dor súbita no peito, dificuldade em respirar ou uma trombose enquanto estiver a 
+tomar Senshio, pare de tomar Senshio e consulte um médico imediatamente. </p>
+<p>Crianças e adolescentes 
+Não administre este medicamento a crianças ou adolescentes. Este medicamento destina-se apenas à 
+utilização em mulheres pós-menopáusicas. </p>
+<p>Outros medicamentos e Senshio 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Não tome Senshio com nenhum destes medicamentos: 
+ 
+estrogénios. 
+ 
+qualquer outro medicamento pertencente ao grupo dos denominados SERMs, tais como 
+tamoxifeno, toremifeno, bazedoxifeno e raloxifeno. </p>
+<p>Fale com o seu médico antes de tomar Senshio com: 
+ 
+fluconazol (um medicamento oral utilizado para tratar infecções fúngicas), uma vez que pode 
+aumentar a quantidade de ospemifeno no sangue. O seu médico pode considerar a interrupção 
+do tratamento com Senshio enquanto estiver a tomar fluconazol. 
+ 
+qualquer um dos seguintes medicamentos, que podem provocar uma redução do efeito de 
+Senshio: 
+o 
+rifampicina e rifabutina utilizadas normalmente para tratar tuberculose. 
+o 
+carbamazepina e fenitoína utilizadas para tratar convulsões/ataques epiléticos 
+(anticonvulsivantes). 
+o 
+hipericão, um medicamento de ervanária utilizado por vezes para tratar a depressão. 
+o 
+orlistato por vezes utilizado para tratar a obesidade.<br />
+ 
+Qualquer um dos seguintes medicamentos, uma vez que a sua concentração pode ser aumentada 
+enquanto está a tomar Senshio: 
+o 
+metformina utilizada no tratamento da diabetes de tipo II. 
+o 
+aciclovir utilizado no tratamento de herpes labial e genital. 
+o 
+ganciclovir utilizado no tratamento de infeções causadas por um vírus denominado 
+citomegalovírus. 
+o 
+oxaliplatina, um medicamento antineoplásico para cancro avançado (metastático) do 
+intestino grosso (cólon) ou do ânus (reto). </p>
+<p>Gravidez, amamentação e fertilidade 
+Senshio destina-se apenas à utilização em mulheres pós-menopáusicas. Não deve ser tomado por 
+mulheres grávidas, que ainda possam engravidar ou que estejam a amamentar. Isto deve-se ao facto de 
+não existirem dados sobre a utilização de Senshio em mulheres grávidas ou pré-menopáusicas ou que 
+estejam a amamentar. </p>
+<p>Informe o seu médico imediatamente se engravidar enquanto está a tomar Senshio. O tratamento 
+deve ser imediatamente interrompido. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de Senshio sobre a capacidade de conduzir e utilizar máquinas são nulos ou mínimos. </p>
+<p>Senshio contém lactose 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>
+<p>Senshio contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio" </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar senshio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar senshio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é de um comprimido tomado por via oral à mesma hora todos os dias. Senshio 
+deve ser tomado com alimentos. Os comprimidos devem ser engolidos inteiros com alimentos. </p>
+<p>Senshio deve ser tomado todos os dias durante o tempo que o seu médico lhe disser para o fazer. </p>
+<p>Doentes com doença hepática 
+Este medicamento não é recomendado se sofre de compromisso hepático grave. </p>
+<p>Se tomar mais Senshio do que deveria 
+Se tomar mais comprimidos do que deveria, informe o seu médico ou farmacêutico. </p>
+<p>Caso se tenha esquecido de tomar Senshio 
+Caso se tenha esquecido de tomar um comprimido, deve tomar o comprimido esquecido (com 
+alimentos) logo que se lembre no mesmo dia. Não tome uma dose a dobrar para compensar um 
+comprimido que se esqueceu de tomar. </p>
+<p>Se parar de utilizar Senshio 
+Não beneficiará dos efeitos de Senshio se parar de o utilizar sem falar com o seu médico. O seu 
+médico explicar-lhe-á os efeitos de parar o tratamento e também discutirá consigo outras 
+possibilidades de tratamento. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas): 
+- infeção dos órgãos genitais causada por um fungo (candidíase) 
+- afrontamentos 
+- cãibras musculares 
+- descarga vaginal ou genital 
+- erupção na pele 
+- dor de cabeça 
+- hemorragia vaginal </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): 
+- espessamento do revestimento do útero (endométrio) observado por ecografia (hipertrofia 
+endometrial). 
+- uma reação alérgica. Os sintomas de reação alérgica podem incluir erupção cutânea, pele com 
+comichão, inchaço em áreas de pele (urticária), inchaço da língua e da garganta que pode causar 
+dificuldade ao respirar ou engolir. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar senshio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar senshio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Senshio<br />
+- A substância ativa é o ospemifeno. Cada comprimido revestido por película contém 60 mg de 
+ospemifeno. 
+- Os outros componentes são: 
+Núcleo do comprimido: Dióxido de silício coloidal (E 551), estearato de magnésio (E 578), 
+manitol (E 421), celulose microcristalina (E 460), povidona (E 1201), 
+amido pré-gelatinizado (milho), glicolato de amido de milho de tipo A. 
+Película de revestimento: Hipromelose (E 464), lactose mono-hidratada, dióxido de titânio 
+(E 171), triacetina (E 1518), polietilenoglicol (E 1521). </p>
+<p>Qual o aspeto de Senshio e conteúdo da embalagem 
+Os comprimidos Senshio são comprimidos revestidos por película (com aproximadamente 12 mm de 
+comprimento por 6,45 mm de largura) ovais, biconvexos, brancos a esbranquiçados, com "60" gravado 
+num dos lados.<br />
+São embalados em blisters e estão disponíveis em apresentações de 7, 28 ou 84 comprimidos 
+revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Shionogi B.V. 
+Herengracht 1017 CA Amsterdam 
+Países Baixos </p>
+<p>Fabricante 
+Shionogi B.V. 
+Herengracht 1017 CA Amsterdam 
+Países Baixos  </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: 
+AT, BE, BG, CY, CZ, DK, EE, IE, EL, FI, HR, HU, IE, IS, 
+LT, LU, LV, MT, NL, NO, PL, RO, SE, SI, SK 
+Shionogi B.V. 
+Tel/Tel./Teл./Tlf/Tél/Puh/Sími/Τηλ: 
++ 31 (0)20 491 7contact@shionogi.eu 
+DE 
+Shionogi GmbH 
+Tel: +49 (0) 30 2062980 kontakt@shionogi.eu </p>
+<p>ES 
+Shionogi SLU 
+Tel: +34 911 239 contacta@shionogi.eu </p>
+<p>IT 
+Shionogi Srl 
+Tel: +39 06 94 805 contattaci@shionogi.eu </p>
+<p>PT 
+Lifewell Pharmaceutical &amp; Healthcare, Lda. 
+Tel: +351215810info@lifewell.pt </p>
+<p>UK (NI) 
+Shionogi B.V. 
+Tel +44 (0) 2891248contact@shionogi.eu </p>
+<p>FR 
+Shionogi SAS 
+Tel: +33 (0) 186655contactfrance@shionogi.eu </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -632,6 +941,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-446d079a08d59e4d16270357097325eb"
 * entry[0].resource = composition-da-446d079a08d59e4d16270357097325eb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp446d079a08d59e4d16270357097325eb"
+* entry[=].resource = mp446d079a08d59e4d16270357097325eb
+                            
+                    
+Instance: bundlepackageleaflet-pt-446d079a08d59e4d16270357097325eb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for senshio Package Leaflet for language pt"
+Description: "ePI document Bundle for senshio Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-446d079a08d59e4d16270357097325eb"
+* entry[0].resource = composition-pt-446d079a08d59e4d16270357097325eb
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp446d079a08d59e4d16270357097325eb"
@@ -733,6 +1064,18 @@ RuleSet: 446d079a08d59e4d16270357097325ebListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-446d079a08d59e4d16270357097325eb) // senshio pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

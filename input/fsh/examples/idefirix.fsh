@@ -518,6 +518,253 @@ til patienten. Opbevar ikke eventuelt resterende infusionsvæske, opløsning, ti
 
 
 
+Instance: composition-pt-3713afe50f1010dc6d3a525f7492a818
+InstanceOf: CompositionUvEpi
+Title: "Composition for idefirix Package Leaflet"
+Description:  "Composition for idefirix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3713afe50f1010dc6d3a525f7492a818)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - idefirix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Idefirix e para que é utilizado  </li>
+<li>O que precisa de saber antes de lhe ser administrado Idefirix  </li>
+<li>Como utilizar Idefirix </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Idefirix </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é idefirix e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é idefirix e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Idefirix contém a substância ativa imlifidase, que pertence a um grupo de medicamentos denominados 
+imunossupressores. É administrado antes do transplante renal para evitar que o sistema imunitário (as 
+defesas do seu organismo) rejeite o rim doado. </p>
+<p>Idefirix atua decompondo um tipo de anticorpo no organismo denominado imunoglobulina G (IgG), 
+que está envolvido na destruição de substâncias “estranhas" ou nocivas. </p>
+<p>A imlifidase é uma proteína de uma bactéria denominada Streptococcus pyogenes. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar idefirix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar idefirix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe pode ser administrado Idefirix 
+- Se tem alergia à imlifidase ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- Se tem uma infeção grave. 
+- Se tem uma doença do sangue denominada púrpura trombocitopénica trombótica (PTT), que 
+resulta na formação de coágulos de sangue em pequenos vasos sanguíneos em todo o 
+organismo. </p>
+<p>Advertências e precauções  </p>
+<p>Reações à perfusão 
+Idefirix contém uma proteína que pode causar reações alérgicas em algumas pessoas. Irá receber 
+medicamentos para reduzir o risco de uma reação alérgica. Se tiver quaisquer sintomas de uma reação 
+alérgica, tais como erupção na pele grave, falta de ar, sensação de calor, vermelhidão da face, durante 
+a perfusão (administração “gota-a-gota"), a velocidade da perfusão poderá ter de ser reduzida ou a 
+perfusão interrompida. A perfusão pode prosseguir após a resolução dos sintomas ou a sua melhoria. </p>
+<p>Infeções 
+A IgG é importante para o proteger contra infeções e uma vez que Idefirix decompõe a IgG, irá 
+receber antibióticos para reduzir o risco de infeções. </p>
+<p>Rejeição mediada por anticorpos (RMA)<br />
+O seu organismo irá produzir novos anticorpos IgG, que poderão atacar o rim transplantado. O seu 
+médico irá monitorizá-lo atentamente e irá receber medicamentos para reduzir o risco de rejeição. </p>
+<p>Crianças e adolescentes 
+Não administre este medicamento a crianças e adolescentes com menos de 18 anos de idade porque o 
+mesmo não foi estudado neste grupo etário. </p>
+<p>Outros medicamentos e Idefirix 
+Informe o seu médico se estiver a utilizar, tiver utilizado recentemente, ou se vier a utilizar outros 
+medicamentos. Idefirix pode afetar a forma como alguns medicamentos atuam, e a dose destes 
+medicamentos poderá ter de ser ajustada.  </p>
+<p>Dado que Idefirix decompõe a IgG, os medicamentos à base de IgG podem não funcionar se forem 
+administrados ao mesmo tempo que Idefirix. Estes incluem os seguintes medicamentos:<br />
+- basiliximab (utilizado na prevenção da rejeição de transplantes renais) 
+- rituximab (utilizado no tratamento de cancros, tais como o linfoma-não Hodgkin e a leucemia 
+linfocítica crónica, e doenças inflamatórias como a artrite reumatoide) 
+- alemtuzumab (utilizado no tratamento de uma forma de esclerose múltipla) 
+- adalimumab (utilizado no tratamento de doenças inflamatórias, tais como a artrite reumatoide, a 
+espondilite anquilosante, a psoríase, a doença de Crohn e a colite ulcerosa) 
+- denosumab (utilizado no tratamento da osteoporose) 
+- belatacept (utilizado na prevenção da rejeição de transplantes renais) 
+- etanercept (utilizado no tratamento de doenças inflamatórias, tais como a artrite reumatoide, a 
+artrite psoriática, a espondilite anquilosante e a psoríase) 
+- globulina antitimócito de coelho (rATG) (utilização na prevenção da rejeição de transplantes 
+renais) 
+- imunoglobulina intravenosa (IgIV) (utilizada para aumentar os níveis anormalmente baixos de 
+imunoglobulina no sangue ou para o tratamento de doenças inflamatórias, tais como a síndrome 
+de Guillain-Barré, a doença de Kawasaki e a polineuropatia desmielinizante inflamatória 
+crónica). </p>
+<p>Gravidez e amamentação 
+Idefirix não é recomendado durante a gravidez. 
+Fale com o seu médico se pensa que poderá estar grávida. </p>
+<p>Desconhece-se se Idefirix passa para o leite materno. Não deve amamentar se estiver a receber 
+tratamento com Idefirix. </p>
+<p>Idefirix contém sódio<br />
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar idefirix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar idefirix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Idefirix será prescrito por um médico com experiência no transplante de rins e destina-se a ser 
+utilizado num hospital. O medicamento será administrado por perfusão na sua veia durante 
+aproximadamente 15 minutos.  </p>
+<p>Um profissional de saúde irá calcular a dose certa para si com base no seu peso. Idefirix é geralmente 
+administrado numa dose única, mas o seu médico poderá decidir administrar uma segunda dose antes 
+do transplante.  </p>
+<p>A informação destinada aos profissionais de saúde sobre o cálculo da dose, preparação e perfusão de 
+Idefirix é fornecida no final deste folheto. </p>
+<p>Se receber mais Idefirix do que deveria 
+Será monitorizado atentamente durante e após a perfusão. Os profissionais de saúde irão verificar se 
+existem quaisquer efeitos indesejáveis. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.  </p>
+<p>Fale imediatamente com o seu médico se notar algum dos seguintes efeitos: 
+- Sinais de infeção, tais como febre, arrepios, tosse, sensação de fraqueza ou mal-estar geral 
+(muito frequentes - podem afetar mais de 1 em cada 10 pessoas). 
+- Sinais de reação à perfusão, tais como erupção na pele grave, falta de ar, sensação de calor, 
+vermelhidão da face (frequentes - podem afetar até 1 em cada 10 pessoas).<br />
+- Dor muscular ou fadiga (sintomas de mialgia) (frequentes - podem afetar até 1 em cada 
+10 pessoas). </p>
+<p>Outros efeitos indesejáveis incluem: </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas): 
+- Infeções: infeção pulmonar (pneumonia), infeções do sangue (sépsis), infeção abdominal, 
+infeção do trato respiratório superior, infeção por adenovírus, infeção por parvovírus, infeção do 
+trato urinário, gripe, infeção de uma ferida, infeção da ferida no pós-operatório, infeção no local 
+de inserção do cateter 
+- Rejeição do transplante (os anticorpos IgG tentarão rejeitar o rim do dador e poderá sentir um 
+desconforto geral) 
+- Tensão arterial alta ou baixa (os sintomas de tensão arterial baixa podem ser tonturas e os 
+sintomas de tensão arterial alta podem ser dores de cabeça)<br />
+- Número de glóbulos vermelhos diminuído (anemia) 
+- Tonturas ao mudar de posição corporal, por ex., ao levantar-se 
+- Dores de cabeça 
+- Rutura de um vaso sanguíneo no olho 
+- Diminuição da visão 
+- Aumento da frequência cardíaca 
+- Dor no local da perfusão 
+- Aumento das enzimas do fígado (observado nas análises ao sangue) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar idefirix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar idefirix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. Idefirix é conservado na farmácia 
+hospitalar. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco para injetáveis e 
+na embalagem exterior, após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C - 8°C). Não congelar. Conservar na embalagem de origem para proteger 
+da luz.  </p>
+<p>Após a reconstituição e diluição, foi demonstrada estabilidade química e física em utilização durante 
+24 horas a 2°C - 8ºC e durante 4 horas a 25ºC durante este período. </p>
+<p>Não utilize este medicamento se detetar partículas ou descoloração após a reconstituição. </p>
+<p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Idefirix<br />
+- A substância ativa é a imlifidase. Cada frasco para injetáveis contém 11 mg de imlifidase. Após 
+a reconstituição, cada ml de concentrado contém 10 mg de imlifidase.<br />
+- Os outros componentes são manitol, polissorbato 80, trometamol, edetato dissódico di-hidratado 
+e ácido clorídrico (para ajuste do pH). Ver secção 2 “Idefirix contém sódio". </p>
+<p>Qual o aspeto de Idefirix e conteúdo da embalagem 
+- Idefirix é fornecido num frasco para injetáveis de vidro contendo um pó para concentrado para 
+solução para perfusão (pó para concentrado). O pó é um aglomerado liofilizado branco. 
+- As embalagens contêm 1 ou 2 frascos para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Hansa Biopharma AB<br />
+P.O. Box 220 07 Lund<br />
+Suécia </p>
+<p>Fabricante 
+Biotechnologines farmacijos centras Biotechpharma UAB 
+Mokslininku street 4 
+LT-08412 Vilnius 
+Lituânia </p>
+<p>Propharma Group The Netherlands B.V. 
+Schipholweg 2316 ZL, Leiden 
+Países Baixos </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Foi concedida a este medicamento uma «Autorização de Introdução no Mercado condicional». Isto 
+significa que se aguarda mais informação sobre este medicamento.<br />
+A Agência Europeia de Medicamentos irá rever, pelo menos uma vez por ano, nova informação sobre 
+este medicamento e este folheto será atualizado se necessário. </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -559,6 +806,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-3713afe50f1010dc6d3a525f7492a818"
 * entry[0].resource = composition-da-3713afe50f1010dc6d3a525f7492a818
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3713afe50f1010dc6d3a525f7492a818"
+* entry[=].resource = mp3713afe50f1010dc6d3a525f7492a818
+                            
+                    
+Instance: bundlepackageleaflet-pt-3713afe50f1010dc6d3a525f7492a818
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for idefirix Package Leaflet for language pt"
+Description: "ePI document Bundle for idefirix Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-3713afe50f1010dc6d3a525f7492a818"
+* entry[0].resource = composition-pt-3713afe50f1010dc6d3a525f7492a818
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp3713afe50f1010dc6d3a525f7492a818"
@@ -660,6 +929,18 @@ RuleSet: 3713afe50f1010dc6d3a525f7492a818ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-3713afe50f1010dc6d3a525f7492a818) // idefirix pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

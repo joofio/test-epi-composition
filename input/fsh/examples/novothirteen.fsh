@@ -546,6 +546,271 @@ misfarvning. Hvis en af delene bemærkes, skal injektionsvæsken kasseres. </p>
 
 
 
+Instance: composition-pt-85f7c08e568d2cd0fc2ac32155c57714
+InstanceOf: CompositionUvEpi
+Title: "Composition for novothirteen Package Leaflet"
+Description:  "Composition for novothirteen Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp85f7c08e568d2cd0fc2ac32155c57714)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - novothirteen"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é NovoThirteen e para que é utilizado 
+2. O que precisa de saber antes de utilizar NovoThirteen 
+3. Como utilizar NovoThirteen 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar NovoThirteen 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é novothirteen e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é novothirteen e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é NovoThirteen 
+NovoThirteen contém a substância ativa catridecacog, a qual é idêntica ao fator XIII humano da 
+coagulação, uma enzima necessária para a coagulação do sangue. NovoThirteen substitui o fator XIII 
+em falta e ajuda a estabilizar o coágulo sanguíneo inicial através da produção de uma rede em redor do 
+coágulo. </p>
+<p>Para que é utilizado NovoThirteen 
+NovoThirteen é utilizado para prevenir hemorragias em doentes que não têm fator XIII suficiente ou 
+que têm falta de uma parte do fator XIII (chamada subunidade A).  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar novothirteen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar novothirteen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>É importante que utilize a solução injetável de NovoThirteen imediatamente após a preparação. </p>
+<p>Não utilize NovoThirteen </p>
+<ul>
+<li>Se tem alergia a catridecacog ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </li>
+</ul>
+<p>Se não tiver a certeza, consulte o seu médico antes de utilizar este medicamento. </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de utilizar NovoThirteen: </p>
+<ul>
+<li>
+<p>Se tem ou alguma vez teve um risco aumentado de formação de coágulos sanguíneos 
+(trombose), uma vez que NovoThirteen pode aumentar a gravidade de um coágulo pré-existente </p>
+</li>
+<li>
+<p>Se tem ou alguma vez teve lesões hepáticas. </p>
+</li>
+</ul>
+<p>Contacte imediatamente o seu médico: </p>
+<ul>
+<li>
+<p>Se tiver hemorragias espontâneas durante o tratamento com NovoThirteen e/ou que requeiram 
+tratamento. </p>
+</li>
+<li>
+<p>Se tiver uma reação alérgica a NovoThirteen . Os sinais podem incluir: erupção na pele com 
+comichão, comichão, inchaço, dificuldade em respirar, tensão arterial baixa (os sinais incluem 
+pele pálida e fria, batimento cardíaco rápido), tonturas e transpiração. </p>
+</li>
+</ul>
+<p>Outros medicamentos e NovoThirteen 
+Informe o seu médico se estiver a utilizar, tiver utilizado recentemente, ou se vier a utilizar outros 
+medicamentos. 
+A utilização conjunta de NovoThirteen e o fator VIIa recombinante da coagulação (outro fator de 
+coagulação do sangue) não é recomendada. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento. </p>
+<p>NovoThirteen contém sódio 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por injeção, ou seja, é basicamente 
+‘isento de sódio’. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar novothirteen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar novothirteen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu tratamento com NovoThirteen deve ser iniciado por um médico com experiência no tratamento 
+de hemorragias raras. 
+Utilize sempre este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico 
+se tiver dúvidas. </p>
+<p>Antes de poder injetar NovoThirteen necessita de reconstituir o medicamento. Veja as Instruções de 
+utilização de NovoThirteen. </p>
+<p>NovoThirteen é administrado através de uma injeção na veia. A sua dose dependerá do seu peso 
+corporal. A dose habitual para prevenir hemorragias é de 35 UI por cada quilograma de peso corporal. 
+As injeções são administradas uma vez por mês (cada 28 ± 2 dias). 
+Se tiver uma hemorragia, deve contactar o seu médico que irá decidir se é necessária uma injeção. 
+NovoThirteen deve ser injetado a uma velocidade não superior a 2 ml/minuto. </p>
+<p>Com base na concentração da solução de NovoThirteen, o volume da dose a ser injetada (em 
+mililitros) pode ser calculado a partir da seguinte fórmula:<br />
+Volume da dose em mililitros = 0,042 x o seu peso corporal em quilogramas. </p>
+<p>Só deverá utilizar a solução de NovoThirteen receitada pelo seu médico, calculada a partir desta 
+fórmula, tendo em conta que a dose habitual e a concentração de NovoThirteen são diferentes da dose 
+e concentração dos produtos contendo fator XIII. 
+O seu médico pode adaptar a dose, se for necessário. </p>
+<p>Utilização em crianças pequenas 
+Para crianças com menos de 24 kg de peso, NovoThirteen reconstituído deve ser ainda diluído com 
+6 ml de solução injetável de cloreto de sódio a 0,9%, para poder ser administrado a crianças pequenas. 
+Para mais informações ver a secção ‘Instruções de utilização de NovoThirteen - Instruções sobre 
+como diluir NovoThirteen reconstituído’. </p>
+<p>O volume da dose para NovoThirteen reconstituído, diluído com 6 ml de cloreto de sódio a 0,9%, pode 
+ser calculado a partir da seguinte fórmula: </p>
+<p>Volume da dose em mililitros = 0,117 x peso corporal em quilogramas. </p>
+<p>Utilização em crianças e adolescentes (com mais de 24 kg de peso) 
+NovoThirteen pode ser utilizado em crianças e adolescentes da mesma forma que nos adultos, tanto 
+para prevenção de hemorragias como no caso de ter uma hemorragia. </p>
+<p>Se utilizar mais NovoThirteen do que deveria 
+Existe informação limitada acerca da sobredosagem com NovoThirteen. Nenhum dos casos 
+notificados apresentou sinais de doença. Fale com o seu médico se tiver injetado uma quantidade de 
+NovoThirteen superior à indicada. </p>
+<p>Caso se tenha esquecido de utilizar NovoThirteen 
+Caso se esqueça de uma injeção de NovoThirteen, fale com o seu médico. Não tome uma dose a 
+dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de utilizar NovoThirteen 
+Se parar de utilizar NovoThirteen, não estará protegido contra as hemorragias. Não pare de tomar 
+NovoThirteen sem falar com o seu médico. O seu médico irá explicar o que pode acontecer se parar o 
+tratamento e irá apresentar-lhe outras opções. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis incluem: 
+Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>Dor de cabeça (efeito indesejável mais frequente) </p>
+</li>
+<li>
+<p>Dor no local de injeção </p>
+</li>
+<li>
+<p>Dor nos braços e pernas </p>
+</li>
+<li>
+<p>Aumento da quantidade de pequenos fragmentos proteicos devido à desagregação de coágulos 
+sanguíneos </p>
+</li>
+<li>
+<p>Diminuição do número de alguns tipos de glóbulos brancos. Isto significa que o seu corpo 
+poderá estar mais suscetível a infeções </p>
+</li>
+<li>
+<p>Desenvolvimento de anticorpos contra o fator XIII, os quais não têm influência no efeito do 
+medicamento. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis em crianças: 
+Os efeitos indesejáveis observados em crianças são os mesmos observados nos adultos, mas podem ser 
+mais frequentes nas crianças do que nos adultos. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar novothirteen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar novothirteen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior 
+após “VAL". O prazo de validade corresponde ao último dia do mês indicado. 
+Conservar no frigorífico (2ºC-8ºC). 
+Não congelar. </p>
+<p>Conservar na embalagem de origem para proteger da luz. </p>
+<p>Após a preparação, a solução injetável de NovoThirteen deve ser utilizada imediatamente. </p>
+<p>A solução é límpida e incolor. Não utilize este medicamento se apresentar partículas ou se estiver 
+descolorado após a reconstituição. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de NovoThirteen </p>
+<ul>
+<li>A substância ativa é o catridecacog (fator XIII recombinante da coagulação: 2500 UI/3 ml, </li>
+</ul>
+<p>após a reconstituição, correspondendo a uma concentração de 833 UI/ml). </p>
+<ul>
+<li>Os outros componentes são, para o pó, cloreto de sódio, sacarose e polissorbato 20, L-histidina, 
+ácido clorídrico (para ajuste do pH), hidróxido de sódio (para ajuste do pH) e, para o solvente, 
+água para preparações injetáveis. </li>
+</ul>
+<p>Qual o aspeto de NovoThirteen e conteúdo da embalagem 
+NovoThirteen é fornecido como pó e solvente para solução injetável (2500 UI de pó num frasco para 
+injetáveis e 3,2 ml de solvente num frasco para injetáveis, com um adaptador para frascos para 
+injetáveis). 
+Embalagem com 1 unidade. </p>
+<p>O pó é branco e o solvente é límpido e incolor. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Novo Nordisk A/S 
+Novo Allé 
+DK-2880 Bagsværd 
+Dinamarca </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -587,6 +852,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-85f7c08e568d2cd0fc2ac32155c57714"
 * entry[0].resource = composition-da-85f7c08e568d2cd0fc2ac32155c57714
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp85f7c08e568d2cd0fc2ac32155c57714"
+* entry[=].resource = mp85f7c08e568d2cd0fc2ac32155c57714
+                            
+                    
+Instance: bundlepackageleaflet-pt-85f7c08e568d2cd0fc2ac32155c57714
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for novothirteen Package Leaflet for language pt"
+Description: "ePI document Bundle for novothirteen Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-85f7c08e568d2cd0fc2ac32155c57714"
+* entry[0].resource = composition-pt-85f7c08e568d2cd0fc2ac32155c57714
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp85f7c08e568d2cd0fc2ac32155c57714"
@@ -688,6 +975,18 @@ RuleSet: 85f7c08e568d2cd0fc2ac32155c57714ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-85f7c08e568d2cd0fc2ac32155c57714) // novothirteen pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

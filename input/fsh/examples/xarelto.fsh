@@ -1072,6 +1072,579 @@ ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegssed
 
 
 
+Instance: composition-pt-febe758b815af2dff26af1acacd31f32
+InstanceOf: CompositionUvEpi
+Title: "Composition for xarelto Package Leaflet"
+Description:  "Composition for xarelto Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfebe758b815af2dff26af1acacd31f32)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - xarelto"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Xarelto e para que é utilizado 
+2. O que precisa de saber antes de tomar Xarelto 
+3. Como tomar Xarelto 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Xarelto 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é xarelto e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é xarelto e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Foi-lhe administrado Xarelto porque 
+- foi-lhe diagnosticada uma síndrome coronária aguda (um conjunto de situações que inclui ataque 
+cardíaco e angina instável, um tipo grave de dor no peito) e  demonstrou ter tido um aumento em 
+determinados testes sanguíneos cardíacos. 
+Xarelto reduz o risco em adultos de terem outro ataque cardíaco ou reduz o risco de morte por uma 
+doença relacionada com o seu coração ou com os seus vasos sanguíneos. 
+Xarelto não lhe será administrado isoladamente. O seu médico também lhe dirá para tomar: </p>
+<ul>
+<li>
+<p>ácido acetilsalicílico ou </p>
+</li>
+<li>
+<p>ácido acetilsalicílico mais clopidogrel ou ticlopidina. </p>
+</li>
+</ul>
+<p>ou </p>
+<ul>
+<li>foi diagnosticado como tendo um risco elevado de ter um coágulo sanguíneo devido a uma doença 
+arterial coronária ou uma doença arterial periférica que causa sintomas. 
+Xarelto reduz o risco em adultos de terem coágulos sanguíneos (acontecimentos aterotrombóticos). 
+Xarelto não lhe será administrado isoladamente. O seu médico também lhe dirá para tomar ácido 
+acetilsalicílico. 
+Em alguns casos, se receber Xarelto após um procedimento para abrir uma artéria estreitada ou 
+fechada na sua perna para restaurar o fluxo de sangue, o seu médico poderá também receitar 
+clopidogrel para tomar durante um curto período de tempo, para além do ácido acetilsalicílico. </li>
+</ul>
+<p>Xarelto contém a substância ativa rivaroxabano e pertence a um grupo de medicamentos chamados 
+agentes antitrombóticos. Atua através do bloqueio de um fator de coagulação sanguínea (fator Xa) 
+reduzindo assim a tendência do sangue para formar coágulos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar xarelto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar xarelto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Xarelto </p>
+<ul>
+<li>
+<p>se tem alergia ao rivaroxabano ou a qualquer outro componente deste medicamento (indicados na 
+secção 6) </p>
+</li>
+<li>
+<p>se está a sangrar excessivamente </p>
+</li>
+<li>
+<p>se tem uma doença ou uma situação num órgão do corpo que aumente o risco de hemorragia grave 
+(ex.: úlcera no estômago, lesão ou hemorragia no cérebro, cirurgia recente do cérebro ou dos olhos) </p>
+</li>
+<li>
+<p>se está a tomar medicamentos para prevenir a coagulação sanguínea (ex.: varfarina, dabigatrano, 
+apixabano ou heparina), exceto quando estiver a mudar de tratamento anticoagulante ou enquanto 
+receber heparina através de uma linha venosa ou arterial para a manter aberta </p>
+</li>
+<li>
+<p>se tiver uma síndrome coronária aguda e teve anteriormente uma hemorragia ou um coágulo 
+sanguíneo no cérebro (acidente vascular cerebral) </p>
+</li>
+<li>
+<p>se tem doença arterial coronária ou doença arterial periférica e teve anteriormente uma hemorragia 
+no cérebro (acidente vascular cerebral) ou se houve um bloqueio das pequenas artérias que 
+fornecem sangue aos tecidos profundos do cérebro (acidente vascular lacunar) ou se teve um 
+coágulo de sangue no seu cérebro (acidente vascular isquémico, não vascular) no mês precedente </p>
+</li>
+<li>
+<p>se tem uma doença no fígado, que leva a um aumento do risco de hemorragias </p>
+</li>
+<li>
+<p>se está grávida ou a amamentar 
+Não tome Xarelto e informe o seu médico se alguma destas situações se aplica a si. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Xarelto. 
+Xarelto não deve ser utilizado em combinação com determinados medicamentos que reduzam a 
+coagulação sanguínea tais como prasugrel ou ticagrelor com exceção do ácido acetilsalicílico e 
+clopidogrel/ticlopidina. </p>
+<p>Tome especial cuidado com Xarelto </p>
+<ul>
+<li>
+<p>se tem um risco aumentado de hemorragia, uma vez que pode ser o caso de situações como: 
+▪ 
+doença grave dos rins, uma vez que a sua função renal pode afetar a quantidade de 
+medicamento que funciona no seu corpo 
+▪ 
+se está a tomar outros medicamentos para prevenir coágulos de sangue (ex.: varfarina, 
+dabigatrano, apixabano ou heparina), quando estiver a mudar de tratamento anticoagulante ou 
+enquanto receber heparina através de uma linha venosa ou arterial para a manter aberta (ver 
+secção "Outros medicamentos e Xarelto") 
+▪ 
+doenças hemorrágicas 
+▪ 
+tensão arterial muito alta, não controlada por tratamento médico 
+▪ 
+doenças do seu estômago ou intestinos que podem resultar em hemorragia, ex.: inflamação 
+dos intestinos ou estômago, ou inflamação do esófago ex.: devido à doença de refluxo 
+gastroesofágico (doença em que o ácido do estômago sobe para o esófago) ou tumores 
+localizados no estômago ou intestinos ou trato genital ou trato urinário 
+▪ 
+um problema com os vasos sanguíneos do fundo do olho (retinopatia) 
+▪ 
+uma doença dos pulmões em que os seus brônquios estão alargados e cheios de pús 
+(bronquiectasias) ou anterior hemorragia dos pulmões 
+▪ 
+se tem mais de 75 anos de idade 
+▪ 
+se pesa menos de 60 kg 
+▪ 
+se tem uma doença arterial coronária com insuficiência cardíaca sintomática grave </p>
+</li>
+<li>
+<p>se tem uma válvula cardíaca protésica </p>
+</li>
+<li>
+<p>se tem uma doença chamada síndrome antifosfolipídica (uma doença do sistema imunitário que 
+provoca um aumento do risco de coágulos sanguíneos), informe o seu médico, que decidirá se o 
+tratamento necessita de ser alterado </p>
+</li>
+</ul>
+<p>Se alguma das situações acima se aplicar a si, informe o seu médico antes de tomar Xarelto. O seu 
+médico decidirá se deve ser tratado com este medicamento e se deve ser mantido sob uma observação 
+mais atenta. </p>
+<p>Se necessitar de ser operado </p>
+<ul>
+<li>
+<p>é muito importante tomar Xarelto antes e após a cirurgia, exatamente às horas que o seu médico lhe 
+indicou. </p>
+</li>
+<li>
+<p>se a cirurgia envolve a colocação de um cateter ou injeção na coluna vertebral (ex.: anestesia 
+epidural ou espinal ou redução da dor): 
+▪ 
+é muito importante tomar Xarelto  exatamente às horas que o seu médico lhe indicou, 
+antes e após injeção ou remoção do cateter 
+▪ 
+informe imediatamente o seu médico se apresentar adormecimento ou fraqueza das pernas 
+ou problemas com o seu intestino ou bexiga após terminar a anestesia, porque é necessário 
+um cuidado urgente. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes 
+Xarelto 2,5 mg comprimidos não são recomendados para pessoas com menos de 18 anos de idade. Não 
+existe informação suficiente sobre a sua utilização em crianças e adolescentes. </p>
+<p>Outros medicamentos e Xarelto 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a tomar 
+outros medicamentos, incluindo medicamentos não sujeitos a receita médica. </p>
+<ul>
+<li>Se está a tomar 
+▪ 
+alguns medicamentos para as infeções fúngicas (ex.: fluconazol, itraconazol, voriconazol, 
+posaconazol), a menos que seja apenas aplicado na pele 
+▪ 
+comprimidos de cetoconazol (utilizados para tratar a síndrome de Cushing - quando o 
+organismo produz um excesso de cortisol) 
+▪ 
+alguns medicamentos para infeções bacterianas (ex.: claritromicina, eritromicina) 
+▪ 
+alguns medicamentos anti-virais para VIH / SIDA (ex.: ritonavir) 
+▪ 
+outros medicamentos para diminuir a coagulação sanguínea (ex.: enoxaparina, clopidogrel ou 
+antagonistas da vitamina K tais como a varfarina e o acenocumarol, prasugrel e ticagrelor 
+(ver a secção “Advertências e precauções")) 
+▪ 
+anti-inflamatórios e medicamentos para aliviar a dor (ex.: naproxeno ou ácido acetilsalicílico) 
+▪ 
+dronedarona, um medicamento para tratar o batimento cardíaco anormal 
+▪ 
+alguns medicamentos para tratar a depressão (inibidores seletivos da recaptação da serotonina 
+(ISRS) ou inibidores da recaptação da serotonina e norepinefrina (IRSN)) </li>
+</ul>
+<p>Se alguma das situações acima se aplicar a si, informe o seu médico antes de tomar Xarelto, 
+porque o efeito de Xarelto pode estar aumentado. O seu médico decidirá se deve ser tratado com 
+este medicamento e se deve ser mantido sob uma observação mais atenta. 
+Se o seu médico considerar que corre risco de desenvolver úlceras do estômago ou intestino, poderá 
+prescrever-lhe também um tratamento preventivo de úlcera. </p>
+<ul>
+<li>Se está a tomar 
+▪ 
+alguns medicamentos para o tratamento da epilepsia (fenitoína, carbamazepina, fenobarbital) 
+▪ 
+hipericão (Hypericum perforatum), um produto à base de plantas utilizado para a depressão 
+▪ 
+rifampicina, um antibiótico 
+Se alguma das situações acima se aplicar a si, informe o seu médico antes de tomar Xarelto, 
+porque o efeito de Xarelto pode estar diminuído. O seu médico decidirá se deve ser tratado com 
+Xarelto e se deve ser mantido sob uma observação mais atenta. </li>
+</ul>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar não tome Xarelto. Se existe a possibilidade de poder ficar grávida, utilize 
+um contracetivo fiável, enquanto toma Xarelto. Se engravidar, enquanto está a tomar este medicamento, 
+informe imediatamente o seu médico, que decidirá como deverá ser tratada. </p>
+<p>Condução de veículos e utilização de máquinas 
+Xarelto pode causar tonturas (efeito indesejável frequente) ou desmaio (efeito indesejável pouco 
+frequente) (ver secção 4, “Efeitos indesejáveis possíveis"). Não deve conduzir, andar de bicicleta ou 
+utilizar qualquer ferramenta ou máquinas se for afetado por estes sintomas. </p>
+<p>Xarelto contém lactose e sódio 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este 
+medicamento. 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido, ou seja é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar xarelto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar xarelto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Que quantidade tomar 
+A dose recomendada é de um comprimido de 2,5 mg duas vezes ao dia. Tome Xarelto por volta da mesma 
+hora, todos os dias (por exemplo, um comprimido de manhã e um à noite). Este medicamento pode ser 
+tomado com ou sem alimentos. </p>
+<p>Se tiver dificuldade em engolir o comprimido inteiro, fale com o seu médico sobre outras formas de tomar 
+Xarelto. O comprimido pode ser esmagado e misturado com água ou  puré de maçã imediatamente antes 
+de o tomar. 
+Se necessário, o seu médico pode administrar-lhe também o comprimido Xarelto esmagado através de 
+uma sonda gástrica. </p>
+<p>Xarelto não lhe será administrado isoladamente. 
+O seu médico também lhe dirá para tomar ácido acetilsalicílico. Se lhe for receitado Xarelto após uma 
+síndrome coronária aguda, o seu médico pode dizer-lhe para tomar também clopidogrel ou ticlopidina. 
+Se receber Xarelto após um procedimento para abrir uma artéria estreitada ou fechada na sua perna para 
+restaurar o fluxo de sangue, o seu médico poderá também receitar clopidogrel para tomar durante um curto 
+período de tempo, para além do ácido acetilsalicílico. </p>
+<p>O seu médico dir-lhe-á quantos destes tomar (normalmente entre 75 e 100 mg de ácido acetilsalicílico ao 
+dia ou uma dose diária entre 75 e 100 mg de ácido acetilsalicílico mais uma dose diária de 75 mg de 
+clopidogrel ou uma dose diária normal de ticlopidina). </p>
+<p>Quando iniciar Xarelto 
+O tratamento com Xarelto após uma síndrome coronária aguda deve ser iniciado logo que possível após a 
+estabilização da síndrome coronária aguda, pelo menos 24 horas após a admissão hospitalar e na altura em 
+que é normalmente parada a terapêutica anticoagulante parentérica (via injeção). 
+O seu médico informá-lo-á sobre quando deverá iniciar o tratamento com Xarelto se lhe tiver sido 
+diagnosticada doença arterial coronária ou doença arterial periférica. 
+O seu médico decidirá durante quanto tempo deve continuar o tratamento. </p>
+<p>Se tomar mais Xarelto do que deveria 
+Contacte imediatamente o seu médico se tiver tomado demasiados comprimidos de Xarelto. Tomar 
+Xarelto em excesso aumenta o risco de hemorragia. </p>
+<p>Caso se tenha esquecido de tomar Xarelto 
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Se se tiver esquecido de 
+uma dose, tome a dose seguinte à hora normal. </p>
+<p>Se parar de tomar Xarelto 
+Tome Xarelto regularmente e durante o tempo que o seu médico lhe prescrever. </p>
+<p>Não pare de tomar Xarelto sem falar primeiro com o seu médico. Se parar de tomar este medicamento, 
+pode aumentar o risco de ter outro ataque cardíaco ou acidente vascular cerebral ou morrer de uma doença 
+relacionada com o coração ou os vasos sanguíneos. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, Xarelto pode causar efeitos indesejáveis, embora estes não se manifestem 
+em todas as pessoas. </p>
+<p>Como outros medicamentos similares para reduzir a formação de coágulos sanguíneos, Xarelto pode 
+causar uma hemorragia que pode potencialmente causar risco de vida. Uma hemorragia excessiva pode 
+levar a uma queda súbita da tensão arterial (choque). Em alguns casos, a hemorragia pode não ser óbvia. </p>
+<p>Informe imediatamente o seu médico, se sentir algum dos seguintes efeitos indesejáveis: </p>
+<ul>
+<li>
+<p>Sinais de hemorragia 
+− 
+hemorragia no cérebro ou interior do crânio (sintomas podem incluir dor de cabeça, fraqueza de 
+um dos lados, vómitos, tonturas, diminuição do nível de consciência e rigidez do pescoço. Uma 
+emergência médica grave. Procure ajuda médica imediatamente!) 
+− 
+hemorragia prolongada ou excessiva 
+− 
+sensação anormal de fraqueza, cansaço, palidez, tonturas, dores de cabeça, inchaço inexplicável, 
+falta de ar, dor no peito ou angina de peito 
+O seu médico pode decidir mantê-lo sob uma observação mais atenta ou alterar o tratamento. </p>
+</li>
+<li>
+<p>Sinais de reações cutâneas graves 
+− 
+disseminação intensa da erupção na pele, bolhas ou lesões das mucosas, ex.: na boca ou olhos 
+(síndrome Stevens-Johnson/necrólise epidérmica tóxica).<br />
+− 
+uma reação medicamentosa que causa erupção na pele, febre, inflamação dos órgãos internos, 
+anormalidades sanguíneas e doença sistémica (síndrome de DRESS).<br />
+A frequência destes efeitos indesejáveis é muito rara (até 1 em 10.000 pessoas). </p>
+</li>
+<li>
+<p>Sinais de reações alérgicas graves 
+− 
+inchaço da face, lábios, boca, língua ou garganta; dificuldade em engolir; urticária e dificuldades 
+respiratórias; queda súbita da pressão arterial.<br />
+A frequência de reações alérgicas graves é muito rara (reações anafiláticas, incluindo choque 
+anafilático; podem afetar até 1 em 10.000 pessoas) e pouco frequentes (angioedema e edema 
+alérgico; podem afetar até 1 em cada 100 pessoas). </p>
+</li>
+</ul>
+<p>Lista global dos efeitos indesejáveis possíveis </p>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) 
+- diminuição dos glóbulos vermelhos, o que pode provocar palidez da pele e causar fraqueza ou falta de ar 
+- hemorragia no estômago ou intestino, hemorragia urogenital (incluindo sangue na urina e período 
+menstrual intenso), hemorragia pelo nariz, hemorragia das gengivas 
+- hemorragia nos olhos (incluindo hemorragia da parte branca dos olhos) 
+- hemorragia num tecido ou uma cavidade do corpo (hematoma, nódoas negras) 
+- tossir sangue 
+- hemorragia da pele ou sob a pele </p>
+<ul>
+<li>hemorragia após uma cirurgia </li>
+<li>secreção de sangue ou fluído de uma ferida cirúrgica </li>
+<li>inchaço dos membros </li>
+<li>dor nos membros </li>
+<li>função dos rins diminuída (pode ser observada em testes realizados pelo seu médico) </li>
+<li>febre </li>
+<li>dor de estômago, indigestão, má disposição, prisão de ventre, diarreia  </li>
+<li>tensão arterial baixa (os sintomas podem ser sensação de tonturas ou desmaio ao levantar-se) </li>
+<li>diminuição da força e energia de um modo geral (fraqueza, cansaço), dores de cabeça, tonturas </li>
+<li>erupção na pele, comichão na pele </li>
+<li>testes sanguíneos poderão demonstrar um aumento de algumas enzimas hepáticas </li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) 
+- hemorragia no cérebro ou no interior do crânio (ver acima, sinais de hemorragia) 
+- hemorragia numa articulação causando dor e inchaço 
+- trombocitopenia (baixo número de plaquetas, que são células que ajudam o sangue a coagular) 
+- reações alérgicas, incluindo reações alérgicas da pele 
+- função do fígado diminuída (pode ser observada em testes efetuados pelo seu médico) 
+- testes sanguíneos poderão demonstrar um aumento da bilirrubina, de algumas enzimas pancreáticas ou 
+do número de plaquetas 
+- desmaio 
+- sensação de mal-estar 
+- batimento cardíaco mais rápido 
+- boca seca 
+- urticária (erupção da pele com comichão) </p>
+<p>Raros (podem afetar até 1 em 1 000 pessoas) 
+- hemorragia num músculo 
+- colestase (diminuição do fluxo biliar), hepatite incl. Lesão hepatocelular (inflamação do fígado incl. 
+lesão do fígado) 
+- amarelecimento da pele e dos olhos (icterícia) 
+- inchaço localizado 
+- acumulação de sangue (hematoma) na sua virilha como uma complicação de um procedimento cardíaco 
+no qual um cateter é inserido na artéria da sua perna (pseudoaneurisma) </p>
+<p>Muito raros (podem afetar até 1 em 10 000 pessoas) 
+- acumulação de eosinófilos, um tipo de glóbulos brancos, granulócitos, no sangue que causam 
+inflamação no pulmão (pneumonia eosinofílica) </p>
+<p>Desconhecido (frequência não pode ser calculada a partir dos dados disponíveis): 
+- insuficiência renal após uma hemorragia grave 
+- hemorragia no rim, por vezes com presença de sangue na urina, levando à incapacidade dos rins 
+funcionarem adequadamente (nefropatia relacionada com anticoagulante)<br />
+- aumento da pressão nos músculos das suas pernas ou braços após uma hemorragia, que pode causar dor, 
+inchaço, sensação alterada, adormecimento ou paralisia (síndrome compartimental após uma 
+hemorragia) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar xarelto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar xarelto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e em cada blister 
+ou frasco após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Este medicamento não necessita de condições especiais de conservação. </p>
+<p>Trituração dos comprimidos 
+Os comprimidos triturados são estáveis em água ou puré de maçã até 4 horas. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Xarelto 
+- A substância ativa é o rivaroxabano. Cada comprimido contém 2,5 mg de rivaroxabano. 
+- Os outros componentes são: 
+Núcleo do comprimido: celulose microcristalina, croscarmelose sódica, lactose monohidratada, 
+hipromelose (2910), laurilsulfato de sódio, estearato de magnésio. Ver secção 2 “Xarelto contém 
+lactose e sódio". 
+Revestimento por película do comprimido: macrogol (3350), hipromelose (2910), dióxido de titânio 
+(E 171), óxido de ferro amarelo (E 172). </p>
+<p>Qual o aspeto de Xarelto e conteúdo da embalagem 
+Xarelto 2,5 mg comprimidos revestidos por película são comprimidos de cor amarelo claro, redondos, 
+biconvexos e gravados com a cruz-BAYER numa das faces e na outra face “2,5" e um triângulo. 
+São apresentados<br />
+- em blisters em embalagens exteriores de 14, 20, 28, 30, 56, 60, 98, 168 ou 196 comprimidos 
+revestidos por película ou<br />
+- em blisters para dose unitária em embalagens exteriores de 10 x 1 ou 100 x 1 ou 
+em embalagens múltiplas contendo 10 embalagens, cada uma com 10 x 1 comprimidos revestidos por 
+película ou<br />
+- em frascos de 100 comprimidos revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Bayer AG 
+51368 Leverkusen 
+Alemanha </p>
+<p>Fabricante </p>
+<p>O fabricante pode ser identificado pelo número do lote impresso na aba lateral da embalagem de cartão e 
+em cada blister ou frasco: </p>
+<ul>
+<li>Se a primeira e segunda letra são BX, o fabricante é </li>
+</ul>
+<p>Bayer AG </p>
+<p>Kaiser-Wilhelm-Allee </p>
+<p>51368 Leverkusen </p>
+<p>Alemanha </p>
+<ul>
+<li>Se a primeira e segunda letra são IT, o fabricante é </li>
+</ul>
+<p>Bayer HealthCare Manufacturing Srl. </p>
+<p>Via delle Groane,<br />
+20024 Garbagnate Milanese </p>
+<p>Itália </p>
+<ul>
+<li>Se a primeira e segunda letra são BT, o fabricante é </li>
+</ul>
+<p>Bayer Bitterfeld GmbH </p>
+<p>Ortsteil Greppin, Salegaster Chaussee 1 </p>
+<p>06803 Bitterfeld-Wolfen </p>
+<p>Alemanha  </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da 
+Autorização de Introdução no Mercado: </p>
+<p>België / Belgique / Belgien 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63<br />
+Lietuva 
+UAB Bayer 
+Tel: +370-5-233 68 България 
+Байер България ЕООД 
+Тел: +359-(0)2-424 72<br />
+Luxembourg / Luxemburg 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63 Česká republika 
+Bayer s.r.o. 
+Tel: +420-266 101<br />
+Magyarország 
+Bayer Hungária KFT 
+Tel: +36-1-487 4Danmark 
+Bayer A/S 
+Tlf: +45-45 235<br />
+Malta 
+Alfred Gera and Sons Ltd. 
+Tel: +356-21 44 62 Deutschland 
+Bayer Vital GmbH 
+Tel: +49-(0)214-30 513<br />
+Nederland 
+Bayer B.V. 
+Tel: +31-23-799 1Eesti 
+Bayer OÜ 
+Tel: +372-655 85<br />
+Norge 
+Bayer AS 
+Tlf: +47-23 13 05 Ελλάδα 
+Bayer Ελλάς ΑΒΕΕ 
+Τηλ: 
++30-210-618 75<br />
+Österreich 
+Bayer Austria Ges. m. b. H. 
+Tel: +43-(0)1-711 España 
+Bayer Hispania S.L. 
+Tel: +34-93-495 65<br />
+Polska 
+Bayer Sp. z o.o. 
+Tel: +48-22-572 35<br />
+France 
+Bayer HealthCare 
+Tél (N° vert): +33-(0)800 87 54<br />
+Portugal 
+Bayer Portugal Lda. 
+Tel: +351-21-416 42 Hrvatska 
+Bayer d.o.o. 
+Tel: + 385-(0)1-6599<br />
+România 
+SC Bayer SRL 
+Tel: +40-(0)21-529 59 Ireland 
+Bayer Limited 
+Tel: +353 1 216 3 
+Slovenija 
+Bayer d. o. o. 
+Tel: +386-(0)1-58 14 Ísland 
+Icepharma hf. 
+Sími: +354-540 80<br />
+Slovenská republika 
+Bayer, spol. s r.o. 
+Tel: +421-(0)2-59 21 31 Italia 
+Bayer S.p.A. 
+Tel: +39-02-3978 1 
+Suomi/Finland 
+Bayer Oy 
+Puh/Tel: +358-(0)20-78521<br />
+Κύπρος 
+NOVAGEM Limited 
+Τηλ: +357-22-48 38<br />
+Sverige 
+Bayer AB 
+Tel: +46-(0)8-580 223 00<br />
+Latvija 
+SIA Bayer 
+Tel: +371-67 84 55 United Kingdom (Northern Ireland) 
+Bayer AG 
+Tel: +44-(0)118 206 3 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1113,6 +1686,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-febe758b815af2dff26af1acacd31f32"
 * entry[0].resource = composition-da-febe758b815af2dff26af1acacd31f32
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfebe758b815af2dff26af1acacd31f32"
+* entry[=].resource = mpfebe758b815af2dff26af1acacd31f32
+                            
+                    
+Instance: bundlepackageleaflet-pt-febe758b815af2dff26af1acacd31f32
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xarelto Package Leaflet for language pt"
+Description: "ePI document Bundle for xarelto Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-febe758b815af2dff26af1acacd31f32"
+* entry[0].resource = composition-pt-febe758b815af2dff26af1acacd31f32
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpfebe758b815af2dff26af1acacd31f32"
@@ -1214,6 +1809,18 @@ RuleSet: febe758b815af2dff26af1acacd31f32ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-febe758b815af2dff26af1acacd31f32) // xarelto pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

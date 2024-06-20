@@ -959,6 +959,577 @@ hjemmeside: http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-36a6a5465117f75ed9e0484773e74fde
+InstanceOf: CompositionUvEpi
+Title: "Composition for pirfenidone Package Leaflet"
+Description:  "Composition for pirfenidone Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp36a6a5465117f75ed9e0484773e74fde)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - pirfenidone"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Pirfenidona Viatris e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Pirfenidona Viatris  </li>
+<li>Como tomar Pirfenidona Viatris </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Pirfenidona Viatris </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é pirfenidone e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é pirfenidone e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pirfenidona Viatris contém a substância ativa pirfenidona e é utilizado para o tratamento da fibrose 
+pulmonar idiopática (FPI) em adultos. </p>
+<p>A FPI é uma patologia na qual os tecidos nos seus pulmões incham e ficam com cicatrizes ao longo do 
+tempo, o que dificulta respirar profundamente. Os pulmões têm, assim, dificuldade em funcionar de 
+forma adequada. Pirfenidona Viatris ajuda a reduzir as cicatrizes (tecido cicatricial) e o inchaço nos 
+pulmões e ajuda-o a respirar melhor. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar pirfenidone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar pirfenidone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Pirfenidona Viatris </p>
+<ul>
+<li>
+<p>se tem alergia à pirfenidona ou a qualquer outro componente deste medicamento (indicados na 
+secção 6) </p>
+</li>
+<li>
+<p>se teve anteriormente angioedema com a pirfenidona, incluindo sintomas como inchaço do 
+rosto, lábios e/ou língua que podem estar associados a dificuldade em respirar ou pieira </p>
+</li>
+<li>
+<p>se está a tomar um medicamento chamado fluvoxamina (utilizado para o tratamento da 
+depressão e da perturbação obsessivo-compulsiva [POC]) </p>
+</li>
+<li>
+<p>se sofre de doença no fígado (hepática) grave ou em fase terminal </p>
+</li>
+<li>
+<p>se sofre de doença nos rins (renal) grave ou em fase terminal que requeira diálise. </p>
+</li>
+</ul>
+<p>Se alguma das situações acima referidas o afetar, não tome Pirfenidona Viatris. Se tiver dúvidas, fale 
+com o seu médico ou farmacêutico. </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar Pirfenidona Viatris </p>
+<ul>
+<li>
+<p>Pode ficar mais sensível à luz do sol (reação de fotossensibilidade) quando tomar Pirfenidona 
+Viatris. 
+Evite o sol (incluindo lâmpadas solares) enquanto toma Pirfenidona Viatris. Use protetor solar 
+diariamente e tape os braços, pernas e cabeça para reduzir a exposição à luz do sol (ver 
+secção 4. Efeitos indesejáveis possíveis). </p>
+</li>
+<li>
+<p>Não deve tomar outros medicamentos, como os antibióticos da classe das tetraciclinas (como a 
+doxiciclina), que o podem tornar mais sensível à luz do sol. </p>
+</li>
+<li>
+<p>Deve informar o seu médico se sofre de problemas de rins. </p>
+</li>
+<li>
+<p>Deve informar o seu médico se sofre de problemas no fígado (hepáticos) ligeiros a moderados. </p>
+</li>
+<li>
+<p>Deve deixar de fumar antes e durante o tratamento com Pirfenidona Viatris. O consumo de 
+tabaco pode reduzir o efeito de Pirfenidona Viatris. </p>
+</li>
+<li>
+<p>Pirfenidona Viatris pode causar tonturas e cansaço. Certifique-se de que não participa em 
+atividades onde tem de estar alerta e ter coordenação. </p>
+</li>
+<li>
+<p>Pirfenidona Viatris pode causar perda de peso. O seu médico vigiará o seu peso enquanto tomar 
+este medicamento. </p>
+</li>
+<li>
+<p>Foi notificada a ocorrência de síndrome de Stevens-Johnson, de necrólise epidérmica tóxica, e 
+de reação a fármaco com eosinofilia e sintomas sistémicos (DRESS), associadas ao tratamento 
+com Pirfenidona Viatris. Pare de utilizar Pirfenidona Viatris e procure assistência médica 
+imediatamente se tiver qualquer um dos sintomas associados a estas reações cutâneas graves, 
+descritos na secção 4.<br />
+Pirfenidona Viatris pode causar problemas graves de fígado e alguns casos têm sido fatais. Terá de 
+realizar uma análise ao sangue antes de começar a tomar Pirfenidona Viatris e mensalmente durante os 
+6 primeiros meses e, posteriormente, a cada 3 meses enquanto toma este medicamento, para confirmar 
+que o fígado está a funcionar corretamente. Estas análises regulares ao sangue são importantes e 
+devem ser realizadas enquanto estiver a tomar Pirfenidona Viatris. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes 
+Não administre Pirfenidona Viatris a crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Pirfenidona Viatris 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Isto é especialmente importante se estiver a tomar os medicamentos indicados de seguida, dado que 
+podem alterar o efeito de Pirfenidona Viatris. </p>
+<p>Medicamentos que podem aumentar os efeitos indesejáveis de Pirfenidona Viatris: </p>
+<ul>
+<li>
+<p>enoxacina (um tipo de antibiótico) </p>
+</li>
+<li>
+<p>ciprofloxacina (um tipo de antibiótico) </p>
+</li>
+<li>
+<p>amiodarona (utilizada para o tratamento de alguns tipos de doença cardíaca) </p>
+</li>
+<li>
+<p>propafenona (utilizada para o tratamento de alguns tipos de doença cardíaca) </p>
+</li>
+<li>
+<p>fluvoxamina (utilizada para o tratamento da depressão e da perturbação obsessivo-compulsiva 
+[POC]) </p>
+</li>
+</ul>
+<p>Medicamentos que podem reduzir o funcionamento correto de Pirfenidona Viatris: </p>
+<ul>
+<li>
+<p>omeprazol (utilizado no tratamento de estados como indigestão, doença de refluxo 
+gastroesofágico) </p>
+</li>
+<li>
+<p>rifampicina (um tipo de antibiótico). </p>
+</li>
+</ul>
+<p>Pirfenidona Viatris com alimentos e bebidas 
+Não beba sumo de toranja enquanto tomar este medicamento. A toranja pode impedir Pirfenidona 
+Viatris de funcionar corretamente. </p>
+<p>Gravidez e amamentação<br />
+Como medida de precaução, é preferível evitar a utilização de Pirfenidona Viatris se está grávida, se 
+planeia engravidar ou se pensa que pode estar grávida, pois os potenciais riscos para o feto são 
+desconhecidos. </p>
+<p>Se está a amamentar ou planeia amamentar, fale com o seu médico ou farmacêutico antes de tomar 
+Pirfenidona Viatris. Como não se sabe se Pirfenidona Viatris passa para o leite materno, o seu médico 
+discutirá consigo os riscos e benefícios inerentes à toma deste medicamento durante o período de 
+amamentação, se o decidir fazer. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza nem utilize máquinas caso se sinta tonto ou cansado depois de tomar Pirfenidona Viatris. </p>
+<p>Pirfenidona Viatris contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar pirfenidone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar pirfenidone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com Pirfenidona Viatris deve ser iniciado e supervisionado por um médico especialista 
+com experiência no diagnóstico e tratamento da FPI. </p>
+<p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>O medicamento é habitualmente administrado em doses crescentes, conforme indicado de seguida: </p>
+<ul>
+<li>
+<p>nos 7 primeiros dias, tome uma dose de 267 mg (1 comprimido amarelo), 3 vezes por dia com 
+alimentos (um total de 801 mg/dia) </p>
+</li>
+<li>
+<p>do dia 8 ao 14, tome uma dose de 534 mg (2 comprimidos amarelos ou 1 comprimido cor de 
+laranja), 3 vezes por dia com alimentos (um total de 1602 mg/dia) </p>
+</li>
+<li>
+<p>a partir do dia 15 (manutenção), tome uma dose de 801 mg (3 comprimidos amarelos ou 
+1 comprimido castanho), 3 vezes por dia com alimentos (um total de 2403 mg/dia) </p>
+</li>
+</ul>
+<p>A dose diária de manutenção recomendada de Pirfenidona Viatris é de 801 mg (3 comprimidos 
+amarelos ou 1 comprimido castanho), três vezes por dia, com alimentos, perfazendo um total de 
+2403 mg/dia. </p>
+<p>Engula os comprimidos inteiros com um copo de água, durante ou depois de uma refeição, para 
+diminuir o risco de efeitos indesejáveis, como náuseas (sensação de enjoo) e tonturas. Se os sintomas 
+continuarem, consulte o seu médico. </p>
+<p>Redução da dose devido a efeitos indesejáveis 
+O seu médico poderá reduzir a dose se ocorrerem determinados efeitos indesejáveis, tais como 
+problemas do estômago, quaisquer reações na pele (cutâneas) à luz solar ou lâmpadas solares, ou 
+alterações significativas nos níveis das enzimas do fígado. </p>
+<p>Se tomar mais Pirfenidona Viatris do que deveria 
+Contacte imediatamente o seu médico, farmacêutico ou o serviço de urgências do hospital mais 
+próximo se tomou mais comprimidos do que deveria e leve o medicamento consigo. </p>
+<p>Caso se tenha esquecido de tomar Pirfenidona Viatris 
+Caso se tenha esquecido de uma dose, tome-a logo que se lembre. Não tome uma dose a dobrar para 
+compensar uma dose que se esqueceu de tomar. Cada dose deve ser separada por, pelo menos, 3 horas. 
+Não tome mais comprimidos por dia do que a dose diária prescrita. </p>
+<p>Se parar de tomar Pirfenidona Viatris 
+Em algumas situações, o seu médico pode aconselhá-lo a parar de tomar Pirfenidona Viatris. Se, por 
+algum motivo, tiver de deixar de tomar Pirfenidona Viatris durante mais de 14 dias consecutivos, o seu 
+médico reiniciará o seu tratamento com uma dose de 267 mg 3 vezes por dia, aumentando 
+gradualmente esta dose para uma dose de 801 mg 3 vezes por dia. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Deixe de tomar Pirfenidona Viatris e procure assistência médica imediatamente se notar qualquer um 
+dos seguintes sintomas ou sinais </p>
+<ul>
+<li>
+<p>Inchaço do rosto, lábios e/ou língua, comichão, urticária, dificuldade em respirar ou pieira, ou 
+sensação de desmaio, que são sinais de angioedema, reação alérgica grave ou anafilaxia. </p>
+</li>
+<li>
+<p>Olhos ou a pele amarelados, ou a urina escura, potencialmente acompanhados por prurido na 
+pele, dor na região superior direita da sua barriga (abdómen), perda de apetite, hemorragias ou 
+nódoas negras mais frequentemente que o normal, ou se sentir cansaço. Estes podem ser sinais 
+de função hepática anormal e podem indicar lesão hepática, que é um efeito indesejável pouco 
+frequente de Pirfenidona Viatris. </p>
+</li>
+<li>
+<p>Manchas avermelhadas planas ou circulares no tronco, geralmente com bolhas centrais, 
+descamação da pele, úlceras na boca, na garganta, no nariz, nos genitais e nos olhos. Estas 
+reações na pele graves podem ser antecedidas de febre e sintomas gripais (síndrome de 
+Stevens-Johnson ou de necrólise epidérmica tóxica). </p>
+</li>
+<li>
+<p>Erupção na pele generalizada, temperatura corporal elevada e gânglios linfáticos aumentados 
+(síndrome de DRESS ou síndrome de hipersensibilidade a medicamentos). </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis podem incluir 
+Informe o seu médico se tiver quaisquer efeitos indesejáveis. </p>
+<p>Muito frequentes (podem afetar mais de 1 pessoa em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>infeções da garganta ou das vias respiratórias passando para os pulmões e/ou sinusite </p>
+</li>
+<li>
+<p>sensação de enjoo (náuseas) </p>
+</li>
+<li>
+<p>problemas de estômago, como refluxo ácido, vómitos e sensação de prisão de ventre  </p>
+</li>
+<li>
+<p>cansaço </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>indigestão ou indisposição do estômago </p>
+</li>
+<li>
+<p>perda de peso </p>
+</li>
+<li>
+<p>apetite diminuído </p>
+</li>
+<li>
+<p>dificuldade em dormir </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>articulações doridas/dores articulares. </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>infeções da bexiga </p>
+</li>
+<li>
+<p>sonolência </p>
+</li>
+<li>
+<p>mudanças do paladar </p>
+</li>
+<li>
+<p>afrontamentos </p>
+</li>
+<li>
+<p>problemas de estômago, como sensação de inchaço, dor e desconforto abdominais, azia e gases </p>
+</li>
+<li>
+<p>as análises ao sangue podem mostrar níveis aumentados das enzimas do fígado </p>
+</li>
+<li>
+<p>reações na pele depois de ter estado ao sol ou de ter utilizado lâmpadas solares </p>
+</li>
+<li>
+<p>problemas da pele, como comichão, vermelhidão, secura e erupção da pele </p>
+</li>
+<li>
+<p>dor muscular </p>
+</li>
+<li>
+<p>sensação de fraqueza ou falta de energia </p>
+</li>
+<li>
+<p>dores no peito </p>
+</li>
+<li>
+<p>queimadura solar. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>níveis baixos de sódio no sangue. Estes podem causar dor de cabeça, tonturas, confusão, 
+fraqueza, cãibras musculares ou náuseas e vómitos </p>
+</li>
+<li>
+<p>as análises ao sangue podem mostrar uma diminuição dos glóbulos brancos. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar pirfenidone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar pirfenidone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado.  </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Pirfenidona Viatris  </p>
+<p>A substância ativa é pirfenidona. Cada comprimido revestido por película contém 267 mg, 534 mg ou 
+801 mg de pirfenidona. </p>
+<p>Os outros componentes são: </p>
+<p>Núcleo do comprimido<br />
+Celulose microcristalina (E 460) 
+Croscarmelose sódica (E 468) (ver secção 2 “Pirfenidona Viatris contém sódio") 
+Povidona (E 1201) 
+Sílica coloidal anidra (E 551) 
+Estearato de magnésio (E 572) </p>
+<p>Revestimento de película 
+Álcool polivinílico (E 1203) 
+Dióxido de titânio (E 171) 
+Macrogol (E 1521) 
+Talco (E 553b) </p>
+<p>Comprimido revestido por película de 267 mg 
+Óxido de ferro amarelo (E 172) </p>
+<p>Comprimido revestido por película de 534 mg 
+Óxido de ferro amarelo (E 172) 
+Óxido de ferro vermelho (E 172) </p>
+<p>Comprimido revestido por película de 801 mg 
+Óxido de ferro negro (E 172) 
+Óxido de ferro vermelho (E 172) </p>
+<p>Qual o aspeto de Pirfenidona Viatris e conteúdo da embalagem </p>
+<p>Comprimido revestido por película de 267 mg 
+Os comprimidos revestidos por película de Pirfenidona Viatris 267 mg são amarelos, ovais e 
+biconvexos. 
+Pirfenidona Viatris está disponível em embalagens de blisters contendo 63, 90 ou 252 comprimidos 
+revestidos por película, embalagens calendário contendo 63 ou 252 comprimidos revestidos por 
+película ou embalagens de blisters destacáveis para dose unitária contendo 63 x 1 ou 
+252 x 1 comprimidos revestidos por película.  </p>
+<p>As fitas contentoras blister de 267 mg contidas nas embalagens calendário estão cada uma marcada 
+com os seguintes símbolos e nomes abreviados do dia, de forma a lembrar a toma de uma dose três 
+vezes por dia: </p>
+<p>SEG. TER. QUA. QUI. SEX. SÁB. DOM. </p>
+<p>Comprimido revestido por película de 534 mg 
+Os comprimidos revestidos por película de Pirfenidona Viatris 534 mg são cor de laranja, ovais e 
+biconvexos. 
+Pirfenidona Viatris está disponível em embalagens de blisters contendo 21 ou 84 comprimidos 
+revestidos por película ou embalagens de blisters destacáveis para dose unitária contendo 
+21 x 1 comprimidos revestidos por película. </p>
+<p>Comprimido revestido por película de 801 mg 
+Os comprimidos revestidos por película de Pirfenidona Viatris 801 mg são castanhos, ovais e 
+biconvexos. 
+Pirfenidona Viatris está disponível em embalagens de blisters contendo 84, 90 ou 252 comprimidos 
+revestidos por película, embalagens calendário contendo 84 comprimidos revestidos por película ou 
+embalagens de blisters destacáveis para dose unitária contendo 84 x 1 comprimidos revestidos por 
+película. </p>
+<p>As fitas contentoras blister de 801 mg contidas nas embalagens calendário estão cada uma marcada 
+com os seguintes símbolos e nomes abreviados do dia, de forma a lembrar a toma de uma dose três 
+vezes por dia: </p>
+<p>SEG. TER. QUA. QUI. SEX. SÁB. DOM. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Viatris Limited 
+Damastown Industrial Park 
+Mulhuddart 
+Dublin Dublin 
+Irlanda </p>
+<p>Fabricante </p>
+<p>Laboratorios Liconsa S.A. 
+Avda. Miralcampo, 7 
+Polígono Industrial Miralcampo 
+19200 Azuqueca de Henares 
+Guadalajara<br />
+Espanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:  </p>
+<p>België/Belgique/Belgien 
+Viatris 
+Tél/Tel: + 32 (0)2 658 61<br />
+Lietuva 
+Viatris UAB 
+Tel: +370 5 205 1 
+България 
+Майлан ЕООД 
+Тел.: +359 2 44 55<br />
+Luxembourg/Luxemburg 
+Viatris 
+Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>Česká republika 
+Viatris CZ s.r.o. 
+Tel: + 420 222 004<br />
+Magyarország 
+Viatris Healthcare Kft. 
+Tel.: + 36 1 465 2 
+Danmark 
+Viatris ApS 
+Tlf: +45 28 11 69<br />
+Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01<br />
+Deutschland 
+Viatris Healthcare GmbH 
+Tel: +49 800 0700<br />
+Nederland 
+Mylan BV 
+Tel: +31 (0)20 426 3 
+Eesti 
+Viatris OÜ 
+Tel: + 372 6363<br />
+Norge 
+Viatris AS 
+Tlf: + 47 66 75 33<br />
+Ελλάδα<br />
+Viatris Hellas Ltd 
+Τηλ: +30 2100 100<br />
+Österreich 
+Viatris Austria GmbH 
+Tel: +43 1 86 
+España 
+Viatris Pharmaceuticals, S.L. 
+Tel: + 34 900 102<br />
+Polska 
+Viatris Healthcare Sp. z o.o. 
+Tel.: + 48 22 546 64<br />
+France 
+Viatris Santé 
+Tél: +33 4 37 25 75<br />
+Portugal 
+Mylan, Lda. 
+Tel: + 351 214 127<br />
+Hrvatska 
+Viatris Hrvatska d.o.o. 
+Tel: +385 1 23 50 <br />
+România 
+BGP Products SRL 
+Tel: +40 372 579<br />
+Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711 
+Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63<br />
+Ísland 
+Icepharma hf. 
+Sími: +354 540 8 
+Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199<br />
+Italia 
+Viatris Italia S.r.l. 
+Tel: + 39 (0) 2 612 46 
+Suomi/Finland 
+Viatris Oy 
+Puh/Tel: +358 20 720 9 
+Κύπρος 
+GPA Pharmaceuticals Ltd<br />
+Τηλ: +357 22863 
+Sverige 
+Viatris AB<br />
+Tel: +46 (0)8 630 19<br />
+Latvija 
+Viatris SIA 
+Tel: +371 676 055<br />
+United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: +353 18711 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1000,6 +1571,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-36a6a5465117f75ed9e0484773e74fde"
 * entry[0].resource = composition-da-36a6a5465117f75ed9e0484773e74fde
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp36a6a5465117f75ed9e0484773e74fde"
+* entry[=].resource = mp36a6a5465117f75ed9e0484773e74fde
+                            
+                    
+Instance: bundlepackageleaflet-pt-36a6a5465117f75ed9e0484773e74fde
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pirfenidone Package Leaflet for language pt"
+Description: "ePI document Bundle for pirfenidone Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-36a6a5465117f75ed9e0484773e74fde"
+* entry[0].resource = composition-pt-36a6a5465117f75ed9e0484773e74fde
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp36a6a5465117f75ed9e0484773e74fde"
@@ -1101,6 +1694,18 @@ RuleSet: 36a6a5465117f75ed9e0484773e74fdeListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-36a6a5465117f75ed9e0484773e74fde) // pirfenidone pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

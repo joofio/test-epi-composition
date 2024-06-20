@@ -952,6 +952,509 @@ nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www
 
 
 
+Instance: composition-pt-d365d405c4186be4b5c62f68568d4862
+InstanceOf: CompositionUvEpi
+Title: "Composition for darzalex Package Leaflet"
+Description:  "Composition for darzalex Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd365d405c4186be4b5c62f68568d4862)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - darzalex"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é DARZALEX e para que é utilizado
+2. O que precisa de saber antes de lhe ser administrado DARZALEX
+3. Como é utilizado DARZALEX
+4. Efeitos indesejáveis possíveis
+5. Como conservar DARZALEX
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é darzalex e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é darzalex e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é DARZALEX
+DARZALEX é um medicamento para o cancro que contém a substância ativa daratumumab. Esta 
+pertence ao grupo de medicamentos chamados “anticorpos monoclonais". Os anticorpos monoclonais 
+são proteínas que foram desenvolvidas para reconhecer e se ligarem a alvos específicos no organismo. 
+O daratumumab foi desenvolvido para se ligar a células cancerígenas específicas no seu organismo, 
+para que o seu sistema imunitário destrua as células cancerígenas.
+Para que é utilizado DARZALEX
+DARZALEX é utilizado em adultos com idade igual ou superior a 18 anos, que tenham um tipo de 
+cancro chamado “mieloma múltiplo". Trata-se de um cancro da sua medula óssea.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar darzalex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar darzalex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não lhe deve ser administrado DARZALEX</h2>
+<p>Se tem alergia ao daratumumab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6).
+Não utilize DARZALEX se algumas das situações acima descritas se aplica a si. Caso tenha dúvidas, 
+fale com o seu médico ou enfermeiro antes de utilizar DARZALEX.
+Advertências e precauções
+Fale com o seu médico ou enfermeiro antes de lhe ser administrado DARZALEX.
+Reações relacionadas com a perfusão
+DARZALEX é administrado por perfusão (gota a gota) numa veia. Antes e após cada perfusão de 
+DARZALEX, ser-lhe-ão administrados medicamentos para ajudar a diminuir a probabilidade de ter 
+reações relacionadas com a perfusão (ver “Medicamentos administrados durante o tratamento com 
+DARZALEX" na secção 3). Estas reações podem ocorrer durante a perfusão ou nos 3 dias após a 
+perfusão.
+Em alguns casos pode ter uma reação alérgica grave, que pode incluir rosto, lábios, boca, língua ou 
+garganta inchados, dificuldade a engolir ou a respirar ou uma erupção na pele com comichão 
+(urticária). Algumas reações alérgicas graves e outras reações graves relacionadas com a perfusão 
+resultaram em morte. 
+91
+Informe imediatamente o seu médico ou enfermeiro se sentir alguma das reações relacionadas com a 
+perfusão ou sintomas relacionados que estejam descritas no início da secção 4. Se tiver reações relacionadas com a perfusão, poderá precisar de tomar outros medicamentos, ou 
+poderá ser necessário tornar a perfusão mais lenta ou interrompê-la. A perfusão pode ser reiniciada 
+quando estas reações desaparecerem ou melhorarem.
+A ocorrência destas reações é mais provável na primeira perfusão. Se teve uma reação relacionada 
+com a perfusão uma vez, é menos provável que volte a tê-la novamente. O seu médico pode decidir 
+não utilizar DARZALEX se tiver uma reação forte à perfusão.
+Diminuição da contagem de células sanguíneas
+DARZALEX pode diminuir a contagem de glóbulos brancos que ajudam a combater as infeções e de
+células sanguíneas chamadas plaquetas que ajudam a coagular o sangue. Informe o seu médico se tiver
+quaisquer sintomas de infeção, tal como febre ou quaisquer sintomas de número de plaquetas 
+diminuído, tal como nódoas negras ou hemorragias.
+Transfusões de sangue
+Se precisar de uma transfusão de sangue, ser-lhe-á feito primeiro um teste sanguíneo para determinar o 
+seu tipo de sangue. DARZALEX pode afetar os resultados deste teste sanguíneo. Informe a pessoa que 
+estiver a fazer o teste que está a utilizar DARZALEX.
+Hepatite B
+Informe o seu médico se alguma vez teve ou poderá agora ter uma infeção por hepatite B. Isto porque 
+DARZALEX pode fazer com que o vírus da hepatite B volte a ser ativo. O seu médico irá verificar se 
+tem sinais desta infeção antes, durante e algum tempo após o tratamento com DARZALEX. Informe o 
+seu médico imediatamente se sentir um agravamento do cansaço, ou amarelecimento da sua pele ou 
+parte branca dos seus olhos.
+Crianças e adolescentes
+Não administre DARZALEX a crianças ou adolescentes com idade inferior a 18 anos. Isto deve-se ao 
+facto de não se saber de que forma este medicamento os afeta.
+Outros medicamentos e DARZALEX
+Informe o seu médico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos. Isto inclui medicamentos não sujeitos a receita médica e medicamentos à base 
+de plantas.
+Gravidez
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de lhe ser 
+administrado este medicamento.
+Se ficar grávida durante o tratamento com este medicamento, informe imediatamente o seu médico ou 
+enfermeiro. Você e o seu médico irão decidir se o benefício de utilizar este medicamento é superior ao 
+risco para o bebé.
+Contraceção
+As mulheres a quem é administrado DARZALEX devem utilizar contraceção eficaz durante o 
+tratamento e nos 3 meses após o tratamento.
+Amamentação
+Você e o seu médico irão decidir se o benefício da amamentação é superior ao risco para o seu bebé. 
+Isto deve-se ao facto de o medicamento poder passar para o leite materno e não se saber como irá 
+afetar o bebé.
+Condução de veículos e utilização de máquinas
+Pode sentir-se cansado após receber DARZALEX, o que pode afetar a sua capacidade de conduzir ou 
+utilizar máquinas.
+92
+DARZALEX contém sorbitol
+O sorbitol é uma fonte de frutose. Se tiver intolerância hereditária à frutose (IHF), uma doença 
+genética rara, você não pode tomar este medicamento. Os doentes com IHF não conseguem digerir a 
+frutose deste medicamento, o que pode causar efeitos secundários graves. 
+Tem de informar o seu médico antes de tomar este medicamento se você tem IHF.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar darzalex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar darzalex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a quantidade a administrar
+O seu médico irá determinar a sua dose e o seu esquema posológico de DARZALEX. A dose de 
+DARZALEX irá depender do seu peso corporal.
+A dose inicial habitual de DARZALEX é de 16 mg por kg de peso corporal. DARZALEX pode ser 
+administrado isoladamente ou em conjunto com outros medicamentos utilizados no tratamento do 
+mieloma múltiplo.
+Quando administrado isoladamente, DARZALEX é administrado da seguinte forma:
+
+uma vez por semana, durante as primeiras 8 semanas
+
+em seguida, em intervalos de 2 semanas, durante 16 semanas
+
+depois disso, continua em intervalos de 4 semanas desde que a sua condição não piore.
+Quando DARZALEX é administrado em conjunto com outros medicamentos, o seu médico pode 
+alterar o período de tempo entre as doses assim como quantos tratamentos irá receber.
+Na primeira semana, o seu médico pode administrar-lhe a dose de DARZALEX dividida em dois dias 
+consecutivos.
+Como é administrado o medicamento
+DARZALEX é administrado por um médico ou enfermeiro. É administrado gota a gota numa veia 
+(“perfusão intravenosa") durante várias horas.
+Medicamentos administrados durante o tratamento com DARZALEX
+Pode ser necessário administrar-lhe medicamentos para reduzir a probabilidade de ter herpes zóster.
+Antes de cada perfusão de DARZALEX, ser-lhe-ão administrados medicamentos que ajudam a baixar 
+a probabilidade de ter reações relacionadas com a perfusão. Estes incluem:
+
+medicamentos para uma reação alérgica (anti-histamínicos)
+
+medicamentos para a inflamação (corticosteroides)
+
+medicamentos para a febre (tais como paracetamol).
+Após cada perfusão de DARZALEX, ser-lhe-ão administrados certos medicamentos (tais como 
+corticosteroides) para baixar a probabilidade de ter reações relacionadas com a perfusão.
+Pessoas com problemas respiratórios
+Se tiver problemas respiratórios, tais como asma ou Doença Pulmonar Obstrutiva Crónica (DPOC), 
+ser-lhe-ão administrados medicamentos para inalar, que ajudam nos seus problemas respiratórios:
+
+medicamentos para ajudar as vias aéreas dos seus pulmões a permanecerem abertas 
+(broncodilatadores)
+
+medicamentos para reduzir o inchaço ou irritação dos seus pulmões (corticosteroides).
+Se lhe for administrado mais DARZALEX do que deveria
+Este medicamento é administrado por um médico ou enfermeiro. No caso, improvável, de lhe ser 
+administrado demasiado (uma sobredosagem), o seu médico irá analisá-lo quanto a efeitos 
+indesejáveis.
+93
+Caso se tenha esquecido da sua consulta para administração de DARZALEX
+É muito importante que vá a todas as suas consultas, para se certificar que o tratamento funciona. Se 
+faltar a uma consulta, marque outra assim que possível.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Reações relacionadas com a perfusão
+Informe imediatamente o seu médico ou enfermeiro se sentir qualquer um dos seguintes sinais de 
+reação relacionada com a perfusão, durante ou nos 3 dias após a perfusão. Pode precisar de tomar 
+outros medicamentos, ou pode ser necessário tornar a perfusão mais lenta ou interrompê-la.
+Estas reações incluem os seguintes sintomas:
+Muito frequentes (podem afetar mais de 1 em 10 pessoas):
+
+arrepios
+
+garganta irritada, tosse
+
+mal-estar (náusea)
+
+vómitos
+
+nariz entupido, corrimento nasal ou comichão
+
+sensação de falta de ar ou outros problemas de respiração.
+Frequentes (podem afetar até 1 em 10 pessoas):
+
+desconforto torácico
+
+tonturas ou atordoamento (hipotensão)
+
+comichão
+
+sibilo.
+Raros (podem afetar até 1 em 1000 pessoas):
+
+reação alérgica grave, que pode incluir rosto, lábios, boca, língua ou garganta inchados, 
+dificuldade a engolir ou a respirar ou uma erupção na pele com comichão (urticária). Ver secção 
+2. 
+dor no olho
+
+visão turva.
+Se tiver qualquer uma das reações relacionadas com a perfusão descritas acima, informe 
+imediatamente o seu médico ou enfermeiro.
+Outros efeitos indesejáveis
+Muito frequentes (podem afetar mais de 1 em 10 pessoas):
+
+febre
+
+sensação de muito cansaço
+
+diarreia
+
+obstipação (prisão de ventre)
+
+apetite diminuído
+
+dor de cabeça
+
+lesão de nervo que pode causar formigueiro, dormência ou dor
+
+pressão arterial elevada
+
+espasmos musculares
+
+mãos, tornozelos ou pés inchados
+
+sensação de fraqueza
+
+dor nas costas
+94
+
+arrepios
+
+infeção pulmonar (pneumonia)
+
+bronquite
+
+infeções nas vias aéreas - tais como nariz, seios nasais ou garganta
+
+baixo número de glóbulos vermelhos que transportam o oxigénio no sangue (anemia)
+
+baixo número de glóbulos brancos que ajudam a combater as infeções (neutropenia, linfopenia, 
+leucopenia)
+
+baixo número de um tipo de células do sangue, chamadas plaquetas, que ajudam na coagulação 
+do sangue (trombocitopenia)
+
+sensação incomum na pele (como formigueiro ou sensação de rastejamento sobre a pele)
+Frequentes (podem afetar até 1 em 10 pessoas):
+
+batimento cardíaco irregular (fibrilhação auricular)
+
+acumulação de líquido nos pulmões deixando-o com falta de ar
+
+gripe
+
+infeção das vias urinárias
+
+infeção grave em todo o corpo (sépsis)
+
+desidratação
+
+desmaio
+
+níveis elevados de açúcar no sangue
+
+níveis baixos de cálcio no sangue
+
+níveis baixos de anticorpos chamados ‘imunoglobulinas’ no sangue que vão ajudar a combater 
+as infeções (hipogamaglobulinemia)
+
+pâncreas inflamado
+
+tipo de infeção pelo vírus do herpes (infeção por citomegalovírus)
+
+COVID-19.
+Pouco Frequentes (podem afetar até 1 em 100 pessoas):
+
+fígado inflamado (hepatite).
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar darzalex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar darzalex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DARZALEX será conservado no hospital ou clínica.
+Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis, após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2 °C - 8 °C). Não congelar.
+Conservar na embalagem de origem para proteger da luz.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.
+95</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de DARZALEX
+
+A substância ativa é o daratumumab. Um ml de concentrado contém 20 mg de daratumumab. 
+Cada frasco para injetáveis de 5 ml de concentrado contém 100 mg de daratumumab. Cada 
+frasco para injetáveis de 20 ml de concentrado contém 400 mg de daratumumab.
+
+Os outros componentes são L-histidina, cloridrato de L-histidina mono-hidratado, L-metionina, 
+polissorbato 20, sorbitol (E420) e água para preparações injetáveis (ver “DARZALEX contém 
+sorbitol" na secção 2).
+Qual o aspeto de DARZALEX e conteúdo da embalagem
+DARZALEX é um concentrado para solução para perfusão e é um líquido incolor a amarelo.
+DARZALEX é fornecido em embalagens que contêm 1 frasco para injetáveis.
+DARZALEX é também fornecido como uma embalagem de iniciação contendo 11 frascos para 
+injetáveis: (6 frascos para injetáveis x 5 ml + 5 frascos para injetáveis x 20 ml).
+Titular da Autorização de Introdução no Mercado
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Bélgica
+Fabricante
+Janssen Biologics B.V.
+Einsteinweg 101
+NL-2333 CB Leiden
+Holanda
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+96
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Este folheto foi revisto pela última vez em MM/AAAA.
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -993,6 +1496,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d365d405c4186be4b5c62f68568d4862"
 * entry[0].resource = composition-da-d365d405c4186be4b5c62f68568d4862
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd365d405c4186be4b5c62f68568d4862"
+* entry[=].resource = mpd365d405c4186be4b5c62f68568d4862
+                            
+                    
+Instance: bundlepackageleaflet-pt-d365d405c4186be4b5c62f68568d4862
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for darzalex Package Leaflet for language pt"
+Description: "ePI document Bundle for darzalex Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d365d405c4186be4b5c62f68568d4862"
+* entry[0].resource = composition-pt-d365d405c4186be4b5c62f68568d4862
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd365d405c4186be4b5c62f68568d4862"
@@ -1094,6 +1619,18 @@ RuleSet: d365d405c4186be4b5c62f68568d4862ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d365d405c4186be4b5c62f68568d4862) // darzalex pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1806,6 +1806,542 @@ sikkerhedsinformation, som du skal være opmærksom på. Opbevar patientkortet p
 
 
 
+Instance: composition-pt-46ce8c3bfb2b68d2cb00bd6f9c79816f
+InstanceOf: CompositionUvEpi
+Title: "Composition for hemlibra Package Leaflet"
+Description:  "Composition for hemlibra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp46ce8c3bfb2b68d2cb00bd6f9c79816f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - hemlibra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instruções de utilização </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Hemlibra e para que é utilizado  </li>
+<li>O que precisa de saber antes de utilizar Hemlibra </li>
+<li>Como utilizar Hemlibra </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Hemlibra </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é hemlibra e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é hemlibra e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Hemlibra </p>
+<p>Hemlibra contém a substância ativa “emicizumab". Este pertence a um grupo de medicamentos 
+denominados “anticorpos monoclonais". Os anticorpos monoclonais são um tipo de proteína que 
+reconhece e se liga a um alvo no corpo.  </p>
+<p>Para que é utilizado Hemlibra </p>
+<p>Hemlibra é um medicamento utilizado para tratar doentes de todas as idades com hemofilia A 
+(deficiência congénita de fator VIII): 
+● 
+que desenvolveram inibidores de fator VIII 
+● 
+que não desenvolveram inibidores do fator VIII e que tenham: 
+- doença grave (o nível de fator VIII no sangue é menos de 1%) 
+- doença moderada (o nível de fator VIII no sangue é de 1% a 5%) com fenótipo 
+hemorrágico grave. </p>
+<p>A hemofilia A é uma doença hereditária causada por uma deficiência de fator VIII, uma substância 
+essencial necessária para coagular o sangue e parar qualquer hemorragia.  </p>
+<p>Este medicamento previne a hemorragia ou reduz os episódios de hemorragia em pessoas com esta 
+doença. </p>
+<p>Alguns doentes com hemofilia A podem desenvolver inibidores do fator VIII (anticorpos contra o 
+fator VIII) que impedem o funcionamento do fator VIII de substituição. </p>
+<p>Como funciona Hemlibra </p>
+<p>Hemlibra restaura a função do fator VIII ativado em falta e que é necessária para uma coagulação 
+eficaz do sangue. A sua estrutura é diferente do fator VIII, portanto Hemlibra não é afetado pelos 
+inibidores do fator VIII.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar hemlibra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar hemlibra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Hemlibra </p>
+<p>● 
+se tem alergia ao emicizumab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Se tiver dúvidas, fale com o seu médico, farmacêutico, ou enfermeiro antes de utilizar 
+Hemlibra. </p>
+<p>Advertências e precauções  </p>
+<p>Antes de começar a utilizar Hemlibra, é muito importante que fale com o seu médico sobre a 
+utilização de “agentes de bypass" (medicamentos que ajudam o sangue a coagular mas que 
+funcionam de um modo diferente do fator VIII). Isto porque o tratamento com agentes de bypass 
+pode necessitar de alterações enquanto estiver a receber Hemlibra. Exemplos de agentes de 
+bypass incluem o concentrado de complexo protrombínico ativado (aPCC) e FVIIa recombinante 
+(rFVIIa). Podem ocorrer efeitos indesejáveis graves e potencialmente fatais quando o aPCC é utilizado 
+em doentes que também estejam a receber Hemlibra:  </p>
+<p>Efeitos indesejáveis potencialmente graves da utilização de aPCC enquanto recebe Hemlibra </p>
+<p>● 
+Destruição de glóbulos vermelhos (microangiopatia trombótica) </p>
+<ul>
+<li>Esta é uma doença grave e potencialmente fatal. </li>
+<li>Quando as pessoas têm essa doença, o revestimento dos vasos sanguíneos pode ser 
+danificado e podem-se desenvolver coágulos em pequenos vasos sanguíneos. Em alguns 
+casos, isso pode causar lesões nos rins e noutros órgãos. </li>
+<li>Seja cauteloso se estiver em alto risco para esta doença (teve essa doença no passado, ou 
+um membro da sua família foi afetado), ou se estiver a tomar medicamentos que podem 
+aumentar o risco de desenvolver esta doença, como ciclosporina, quinina ou tacrolímus. </li>
+<li>É importante conhecer os sintomas da microangiopatia trombótica, caso desenvolva a 
+doença (ver secção 4, “Efeitos indesejáveis possíveis" para uma lista de sintomas). </li>
+</ul>
+<p>Pare de usar Hemlibra e aPCC, e fale com um médico imediatamente se você ou seu cuidador 
+observar quaisquer sintomas de microangiopatia trombótica. </p>
+<p>● 
+Coágulos sanguíneos (tromboembolismo) </p>
+<ul>
+<li>Em casos raros, pode formar-se um coágulo sanguíneo no interior dos vasos e bloqueá-los, 
+o que pode ser fatal. </li>
+<li>É importante que conheça os sintomas de tais coágulos sanguíneos internos, caso se 
+desenvolvam (ver secção 4, “Efeitos indesejáveis possíveis" para uma lista de sintomas). </li>
+</ul>
+<p>Pare de usar Hemlibra e aPCC, e fale com um médico imediatamente se você, ou seu cuidador, 
+observar quaisquer sintomas de coágulos nos vasos sanguíneos. </p>
+<p>Outras informações importantes sobre Hemlibra </p>
+<p>● 
+Formação de anticorpos (imunogenicidade) </p>
+<ul>
+<li>Pode aperceber-se de que as hemorragias não estão a ser controladas com a sua dose 
+prescrita deste medicamento. Tal pode ser devido ao desenvolvimento de anticorpos 
+contra este medicamento </li>
+</ul>
+<p>Fale imediatamente com um médico se você ou o seu cuidador se aperceberem de um aumento das 
+hemorragias. O seu médico poderá decidir mudar o seu tratamento se este medicamento deixar de 
+funcionar para si. </p>
+<p>Crianças com idade inferior a 1 ano  </p>
+<p>Em crianças com idade inferior a um ano, o sistema sanguíneo ainda está em desenvolvimento. Se o 
+seu filho tiver menos de um ano de idade, o seu médico pode prescrever Hemlibra somente após uma 
+avaliação cuidadosa dos benefícios esperados e dos riscos da utilização deste medicamento. </p>
+<p>Outros medicamentos e Hemlibra </p>
+<p>Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. </p>
+<p>● 
+Utilizar um agente de bypass enquanto recebe Hemlibra 
+-<br />
+Antes de começar a usar Hemlibra, fale com o seu médico e siga atentamente as suas 
+instruções sobre quando utilizar um agente de bypass e a dose e agendamento que 
+deve utilizar. Hemlibra aumenta a capacidade do seu sangue em coagular. Portanto, a 
+dose do agente de bypass necessária pode ser menor que a dose que utilizava antes de 
+iniciar Hemlibra. 
+-<br />
+Apenas utilize o aPCC se não puder ser utilizado outro tratamento. Se o aPCC for 
+necessário, fale com o seu médico caso sinta que precisa de mais de um total de unidades/kg de aPCC. Para obter mais informações sobre a utilização de aPCC enquanto 
+recebe Hemlibra, consulte a secção 2: “Efeitos indesejáveis potencialmente graves da 
+utilização de aPCC enquanto recebe Hemlibra". 
+-<br />
+Apesar da experiência limitada com a administração concomitante de antifibrinolíticos 
+com aPCC ou rFVIIa em doentes com Hemlibra, deve saber que pode haver uma 
+possibilidade de acontecimentos trombóticos usando antifibrinolíticos administrados por 
+via intravenosa em combinação com aPCC ou rFVIIa. </p>
+<p>Testes laboratoriais </p>
+<p>Informe o seu médico se estiver a utilizar Hemlibra antes de se submeter a testes laboratoriais para 
+medir a capacidade de coagulação do seu sangue. Isso justifica-se porque Hemlibra no sangue pode 
+interferir com testes laboratoriais, levando a resultados incorretos. </p>
+<p>Gravidez e amamentação </p>
+<p>● 
+Deve utilizar um método contracetivo eficaz durante o tratamento com Hemlibra e até 6 meses 
+após a última injeção de Hemlibra. 
+● 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico ou farmacêutico antes de utilizar este medicamento. O seu médico irá considerar o 
+benefício em utilizar Hemlibra contra o risco para seu bebé. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>É pouco provável que este medicamento afete a sua capacidade de conduzir ou utilizar máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar hemlibra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar hemlibra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hemlibra é disponibilizado em frascos para injetáveis de utilização única sob a forma de uma solução 
+pronta a utilizar que não necessita de diluição. Utilize este medicamento exatamente como indicado 
+pelo seu médico. Fale com o seu prestador de cuidados de saúde se tiver dúvidas.  </p>
+<p>Manter um registo </p>
+<p>Cada vez que utilizar Hemlibra, registe o nome e o número de lote do medicamento.  </p>
+<p>Quanto Hemlibra utilizar </p>
+<p>A dose de Hemlibra é dependente do seu peso e o seu médico calculará a quantidade (em mg) e o 
+volume correspondente da solução de Hemlibra (em ml) a injetar:  </p>
+<p>● 
+Esquema posológico de carga: Semanas 1 a 4: A dose é 3 miligramas por cada 1 quilograma do 
+seu peso, injetada uma vez por semana. </p>
+<p>● 
+Esquema posológico de manutenção: Semana 5 e seguintes: A dose é 1,5 miligramas por cada 1 
+quilograma do seu peso, injetada uma vez por semana, ou 3 miligramas por cada 1 quilograma 
+do seu peso, injetada a cada duas semanas, ou 6 miligramas por cada 1 quilograma do seu peso, 
+injetada a cada quatro semanas.  </p>
+<p>A decisão de utilizar a dose de manutenção de 1,5 mg/kg uma vez por semana, 3 mg/kg a cada duas 
+semanas ou 6 mg/kg a cada quatro semanas deve ser feita em consulta com o seu médico e, quando 
+aplicável, com o seu cuidador. </p>
+<p>As diferentes concentrações de Hemlibra (30 mg/ml e 150 mg/ml) não devem ser combinadas numa 
+injeção única para atingir o volume total a ser administrado. </p>
+<p>A quantidade de solução de Hemlibra administrada a cada injeção não pode ser superior a 2 ml. </p>
+<p>Como se administra Hemlibra </p>
+<p>Se autoinjetar Hemlibra ou caso lhe seja injetado pelo seu cuidador, deverá, ou o seu cuidador, 
+ler atentamente e seguir as instruções na secção 7, “Instruções de utilização".  </p>
+<p>● 
+Hemlibra é administrado por injeção sob a pele (subcutaneamente). 
+● 
+O seu médico ou enfermeiro irá mostrar-lhe como injetar Hemlibra. 
+● 
+Após o treino deverá ser capaz de injetar este medicamento em casa, sozinho ou com a ajuda de 
+um cuidador. 
+● 
+Para inserir corretamente a agulha sob a pele, faça uma prega de pele no local de injeção limpo 
+com a sua mão livre. Puxar a pele é importante para garantir que injeta sob a pele (em tecido 
+adiposo), e não profundamente (no músculo). Injetar num músculo pode causar desconforto. 
+● 
+Prepare e administre a injeção em condições de limpeza e sem germes usando uma “técnica 
+asséptica". O médico ou enfermeiro irão dar-lhe mais informação a este respeito. </p>
+<p>Onde injetar Hemlibra </p>
+<p>● 
+O seu médico irá mostrar-lhe quais as áreas do corpo onde pode injetar Hemlibra. 
+● 
+Os locais recomendados para administrar uma injeção são: a parte da frente da cintura (abdómen 
+inferior), a face externa dos braços ou a parte da frente das coxas. Utilize apenas os locais 
+recomendados para injeção. 
+● 
+A cada injeção, utilize uma área diferente do corpo da utilizada anteriormente. 
+● 
+Não administre injeções onde a pele esteja vermelha, lesionada, mole, dura ou em áreas onde há 
+sinais ou cicatrizes. </p>
+<p>● 
+Ao utilizar Hemlibra, quaisquer outros medicamentos injetados sob a pele devem ser 
+administrados numa área diferente. </p>
+<p>Utilização de seringas e agulhas </p>
+<p>● 
+É utilizada uma seringa, uma agulha de transferência com filtro de 5 micrómetros ou um 
+adaptador para frascos para injetáveis com filtro de 5 micrómetros e uma agulha para injeção 
+para retirar a solução de Hemlibra do frasco para injetáveis para dentro da seringa e injetá-la sob 
+a pele. 
+● 
+As seringas, agulhas de transferência com filtro ou adaptador para frascos para injetáveis com 
+filtro e agulhas de injeção não são fornecidas nesta embalagem. Para mais informações, consulte 
+a secção 6 “O que é necessário para a administração de Hemlibra e não está incluído nesta 
+embalagem". 
+● 
+Certifique-se que utiliza uma agulha para injeção nova em cada injeção e a elimina após uma 
+única utilização.<br />
+● 
+Deve ser utilizada uma seringa de 1 ml para uma injeção até 1 ml de solução de Hemlibra. 
+● 
+Deve ser utilizada uma seringa de 2 a 3 ml para uma injeção superior a 1 ml e até 2 ml de 
+solução de Hemlibra. </p>
+<p>Utilização em crianças e adolescentes </p>
+<p>Hemlibra pode ser utilizado em adolescentes e crianças de todas as idades. 
+● 
+Uma criança pode autoinjetar o medicamento se o prestador de cuidados de saúde da criança, os 
+pais ou o cuidador concordarem. A autoinjeção em crianças menores de 7 anos não é 
+recomendada. </p>
+<p>Se utilizar mais Hemlibra do que deveria </p>
+<p>Se utilizar mais Hemlibra do que deveria, informe o seu médico imediatamente. Isto acontece porque 
+pode estar em risco de desenvolver efeitos indesejáveis, como coágulos sanguíneos. Utilize Hemlibra 
+exatamente como indicado pelo seu médico e fale com o seu médico, farmacêutico ou enfermeiro se 
+tiver dúvidas. </p>
+<p>Caso se tenha esquecido de utilizar Hemlibra </p>
+<p>● 
+Caso se tenha esquecido da sua injeção programada, injete a dose esquecida assim que possível 
+antes do dia da dose seguinte programada. Depois, continue a injetar o medicamento uma vez 
+por semana conforme programado. Não injete duas doses no mesmo dia para compensar uma 
+dose esquecida. 
+● 
+Se tiver dúvidas, fale com o seu médico, farmacêutico ou enfermeiro. </p>
+<p>Se parar de utilizar Hemlibra </p>
+<p>Não pare de utilizar Hemlibra sem falar com o seu médico. Se parar de utilizar Hemlibra, poderá não 
+estar protegido contra as hemorragias. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves da utilização de aPCC enquanto recebe Hemlibra </p>
+<p>Pare de utilizar Hemlibra e aPCC e fale com um médico imediatamente se você ou o seu cuidador 
+verificarem alguns dos seguintes efeitos indesejáveis: </p>
+<p>● 
+Destruição de glóbulos vermelhos (microangiopatia trombótica): </p>
+<ul>
+<li>confusão, fraqueza, inchaço dos braços e das pernas, amarelecimento da pele e dos olhos, 
+dor abdominal ou lombar difusa, náuseas, vómitos, ou urinar menos do que o habitual - estes sintomas podem ser sinais de microangiopatia trombótica. </li>
+</ul>
+<p>● 
+Coágulos sanguíneos (tromboembolismo): </p>
+<ul>
+<li>inchaço, calor, dor ou vermelhidão - esses sintomas podem ser sinais de um coágulo 
+sanguíneo numa veia perto da superfície da pele. </li>
+<li>dor de cabeça, dormência no rosto, dor nos olhos ou inchaço ou problemas de visão - estes sintomas podem ser sinais de um coágulo de sangue numa veia atrás do seu olho. </li>
+<li>escurecimento da pele - este sintoma pode ser um sinal de dano grave no tecido da pele. </li>
+</ul>
+<p>Outros efeitos indesejáveis ao usar Hemlibra </p>
+<p>Muito frequentes: podem afetar mais de 1 em cada 10 pessoas 
+● 
+uma reação na área onde a injeção é administrada (vermelhidão, comichão, dor) 
+● 
+dor de cabeça 
+● 
+dor nas articulações </p>
+<p>Frequentes: podem afetar até 1 em cada 10 pessoas 
+● 
+febre 
+● 
+dores musculares 
+● 
+diarreia 
+● 
+erupção na pele com comichão ou urticária 
+● 
+erupção na pele </p>
+<p>Pouco frequentes: podem afetar até 1 em 100 pessoas 
+● 
+destruição de glóbulos vermelhos (microangiopatia trombótica) 
+● 
+coágulo de sangue numa veia atrás do olho (trombose do seio cavernoso) 
+● 
+lesão grave do tecido da pele (necrose da pele) 
+● 
+coágulo sanguíneo numa veia perto da superfície da pele (tromboflebite superficial) 
+● 
+inchaço da cara, língua e/ou garganta e/ou dificuldade em engolir, ou urticária, juntamente com 
+dificuldade em respirar, que são sugestivas de um angioedema 
+● 
+ausência de efeito ou diminuição da resposta ao tratamento </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar hemlibra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar hemlibra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e rótulo do 
+frasco para injetáveis, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2ºC - 8ºC). Não congelar. </p>
+<p>Manter dentro da embalagem de origem para proteger da luz. </p>
+<p>Uma vez retirados do frigorífico, os frascos para injetáveis fechados podem ser mantidos à 
+temperatura ambiente (abaixo de 30° C) durante um máximo de 7 dias. Após a conservação à 
+temperatura ambiente, os frascos fechados podem voltar para o frigorífico. O tempo total que o 
+medicamento é conservado a temperatura ambiente não deve ser superior a 7 dias.  </p>
+<p>Elimine os frascos para injetáveis que tenham sido mantidos à temperatura ambiente por mais de 
+7 dias ou expostos a temperaturas acima de 30ºC. </p>
+<p>Assim que transferido do frasco para injetáveis para a seringa, utilize Hemlibra imediatamente. Não 
+refrigere a solução na seringa. </p>
+<p>Antes de utilizar, verifique se a solução tem partículas ou alteração da cor. A solução deve ser incolor 
+a ligeiramente amarelada. Não utilize este medicamento se verificar que está turva, com alteração da 
+cor ou contém partículas visíveis. </p>
+<p>Deite fora a solução não utilizada de forma apropriada. Não deite fora quaisquer medicamentos na 
+canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos 
+que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Hemlibra  </p>
+<p>● 
+A substância ativa é emicizumab. Cada frasco para injetáveis de Hemlibra contém 12 mg 
+(0,4 ml numa concentração de 30 mg/ml) ou 30 mg (1 ml numa concentração de 30 mg/ml) de 
+emicizumab. 
+● 
+Os outros componentes são L-arginina, L-histidina, ácido L-aspártico, poloxâmero 188 e água 
+para preparações injetáveis. </p>
+<p>Qual o aspeto de Hemlibra e conteúdo da embalagem </p>
+<p>Hemlibra é uma solução injetável. É um líquido incolor a ligeiramente amarelo.  </p>
+<p>Cada embalagem de Hemlibra contém 1 frasco para injetáveis de vidro. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>O que é necessário para a administração de Hemlibra e não está contido nesta embalagem 
+Uma seringa, uma agulha de transferência com filtro ou um adaptador para frascos para injetáveis com 
+filtro e uma agulha para injeção são necessários para retirar a solução de Hemlibra do frasco para 
+injetáveis para uma seringa e injetá-la sob a pele (ver secção 7, “Instruções de utilização"). </p>
+<p>Seringas </p>
+<p>● 
+Seringa de 1 ml: seringa transparente de polipropileno ou policarbonato com ponta Luer-lock, 
+com graduação de 0,01 ml ou 
+● 
+Seringa de 2 a 3 ml: seringa transparente de polipropileno ou policarbonato com ponta Luer-
+lock, com graduação de 0,1 ml. 
+Nota: devem utilizar-se seringas com êmbolo sem espaço residual (LDS) ao utilizar o adaptador para 
+frascos para injetáveis com filtro. </p>
+<p>Dispositivos de transferência e agulhas </p>
+<p>● 
+Agulha de transferência com filtro: aço inoxidável com ligação Luer-lock, calibre 18 G, 
+comprimento 35 mm (1½"), contendo um filtro de 5 micrómetros e de preferência com ponta 
+semirromba ou 
+● 
+Adaptador para frascos para injetáveis com filtro: polipropileno com ligação Luer-lock, 
+com um filtro integrado de 5 micrómetros, adaptando-se ao diâmetro externo do gargalo do 
+frasco para injetáveis de 15 mm e 
+●<br />
+Agulha para injeção: aço inoxidável com ligação Luer-lock, calibre 26 G (intervalo aceitável: 
+25-27G), comprimento de preferência 9 mm (3/8 ") ou máximo 13mm (½"), de preferência 
+incluindo dispositivo de segurança da agulha. </p>
+<p>Titular da Autorização de Introdução no Mercado  </p>
+<p>Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Fabricante </p>
+<p>Roche Pharma AG 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+N.V. Roche S.A. 
+Tél/Tel: +32 (0) 2 525 82<br />
+Lietuva 
+UAB “Roche Lietuva" 
+Tel.: +370 5 2546 
+България 
+Рош България ЕООД 
+Тел: +359 2 474 54<br />
+Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>Česká republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382 
+Magyarország 
+Roche (Magyarország) Kft. 
+Tel: +36 - 1 279 4 
+Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99<br />
+Malta 
+(See Ireland) </p>
+<p>Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624<br />
+Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438 
+Eesti 
+Roche Eesti OÜ 
+Tel: + 372 - 6 177<br />
+Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90<br />
+Ελλάδα 
+Roche (Hellas) A.E.<br />
+Τηλ: +30 210 61 66<br />
+Österreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27 </p>
+<p>España 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81 00  </p>
+<p>Polska 
+Roche Polska Sp.z o.o. 
+Tel +48 - 22 345 18 88.:  </p>
+<p>France 
+Roche 
+Tél: +33 (0)1 47 61 40<br />
+Portugal 
+Roche Farmacêutica Química, Lda 
+Tel: +351 - 21 425 70<br />
+Hrvatska 
+Roche d.o.o. 
+Tel: + 385 1 47 22<br />
+România 
+Roche România S.R.L. 
+Tel: +40 21 206 47<br />
+Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0 
+Slovenija 
+Roche farmacevtska družba d.o.o. 
+Tel: +386 - 1 360 26<br />
+Ísland<br />
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika<br />
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638 
+Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554<br />
+Kύπρος<br />
+Γ.Α.Σταμάτης &amp; Σια Λτδ. 
+Τηλ: +357 - 22 76 62<br />
+Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1 
+Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039 
+United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366 </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1847,6 +2383,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-46ce8c3bfb2b68d2cb00bd6f9c79816f"
 * entry[0].resource = composition-da-46ce8c3bfb2b68d2cb00bd6f9c79816f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp46ce8c3bfb2b68d2cb00bd6f9c79816f"
+* entry[=].resource = mp46ce8c3bfb2b68d2cb00bd6f9c79816f
+                            
+                    
+Instance: bundlepackageleaflet-pt-46ce8c3bfb2b68d2cb00bd6f9c79816f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hemlibra Package Leaflet for language pt"
+Description: "ePI document Bundle for hemlibra Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-46ce8c3bfb2b68d2cb00bd6f9c79816f"
+* entry[0].resource = composition-pt-46ce8c3bfb2b68d2cb00bd6f9c79816f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp46ce8c3bfb2b68d2cb00bd6f9c79816f"
@@ -1948,6 +2506,18 @@ RuleSet: 46ce8c3bfb2b68d2cb00bd6f9c79816fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-46ce8c3bfb2b68d2cb00bd6f9c79816f) // hemlibra pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

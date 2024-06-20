@@ -578,6 +578,353 @@ smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </di
 
 
 
+Instance: composition-pt-8a64404ab8208188b8002b2af6aa836e
+InstanceOf: CompositionUvEpi
+Title: "Composition for enyglid Package Leaflet"
+Description:  "Composition for enyglid Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8a64404ab8208188b8002b2af6aa836e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - enyglid"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Enyglid e para que é utilizado
+2. O que precisa de saber antes de tomar Enyglid
+3. Como tomar Enyglid
+4. Efeitos indesejáveis possíveis
+5. Como conservar Enyglid
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é enyglid e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é enyglid e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Enyglid é um medicamento antidiabético oral contendo repaglinida, que ajuda o seu pâncreas a 
+produzir mais insulina e, portanto, a baixar o seu açúcar no sangue (glicose).
+A diabetes Tipo 2 é uma doença na qual o seu pâncreas não produz insulina suficiente para controlar 
+o açúcar no sangue ou em que o seu corpo não responde de forma normal à insulina que o pâncreas 
+produz.
+Enyglid é utilizado para controlar a diabetes tipo 2 nos adultos, sendo adicionado à dieta e ao 
+exercício: o tratamento é, geralmente, iniciado se a dieta, o exercício físico e a redução de peso por si 
+só não foram suficientes para controlar (ou diminuir) o seu açúcar no sangue. Enyglid também pode 
+ser administrado em combinação com metformina, que é outro medicamento para a diabetes.
+Foi demonstrado que Enyglid baixa o açúcar no sangue, o que ajuda a prevenir as complicações da sua 
+diabetes.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar enyglid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar enyglid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Enyglid</p>
+<ul>
+<li>
+<p>Se tem alergia à repaglinida ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).</p>
+</li>
+<li>
+<p>Se tiver diabetes tipo 1. * Se o nível de acidez no seu sangue for elevado (cetoacidose diabética).</p>
+</li>
+<li>
+<p>Se tiver uma doença grave do fígado.</p>
+</li>
+<li>
+<p>Se estiver a tomar gemfibrozil (um medicamento para reduzir os níveis de gordura no sangue).
+Advertências e precauções
+Fale com o seu médico antes de tomar Enyglid:
+28
+
+Se tiver problemas de fígado. Enyglid não é recomendado em doentes com doença moderada 
+do fígado. Enyglid não deve ser tomado se tiver uma doença grave do fígado (ver Não tome 
+Enyglid)
+
+Se tiver problemas renais. Enyglid deve ser tomado com precaução
+
+Se estiver em vias de ser submetido a uma grande cirurgia ou se teve recentemente uma 
+doença ou infeção graves. Nestas circunstâncias, pode falhar o controlo da diabetes
+
+Se tiver menos de 18 anos ou mais de 75 anos de idade. A utilização de Enyglid não foi 
+estudada nestes grupos etários, portanto a sua utilização não é recomendada.
+Informe o seu médico se qualquer das situações acima referidas se aplica a si. Enyglid pode não ser o 
+medicamento adequado ao seu caso. O seu médico aconselhá-lo-á.
+Crianças e adolescentes
+Não tome este medicamento se tiver menos de 18 anos de idade.
+Se entrar em hipoglicemia (baixo nível de açúcar no sangue)
+Pode entrar em hipoglicemia se o seu açúcar no sangue atingir um nível demasiado baixo. Isto pode 
+acontecer:
+
+Se tomar demasiado Enyglid,
+
+Se fizer mais exercício do que o normal,
+
+Se tomar outros medicamentos ou sofrer de problemas do fígado ou dos rins (ver outras secções 
+em </p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar enyglid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar enyglid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Os sinais de aviso de uma hipoglicemia podem surgir rapidamente e podem incluir: suores frios, pele 
+pálida e fria, dor de cabeça, batimento rápido do coração, enjoo, sensação de fome excessiva, 
+alterações temporárias na visão, sonolência, sensação invulgar de cansaço e fraqueza, nervosismo ou 
+tremores, sensação de ansiedade, sensação de desorientação, dificuldade de concentração.
+Se o seu nível de açúcar no sangue for demasiado baixo ou se sentir que vai entrar em 
+hipoglicemia coma rebuçados, alimentos ou bebidas muito açucarados e depois descanse.
+Depois dos sintomas de hipoglicemia terem desaparecido ou após estabilização dos níveis de 
+açúcar no sangue, continue o tratamento com Enyglid.
+Informe as pessoas de que tem diabetes e que, se desmaiar (ficar inconsciente) devido a uma 
+hipoglicemia, devem virá-lo de lado e pedir ajuda médica imediatamente. Não devem dar-lhe nada 
+para comer ou beber. Pode sufocá-lo.
+
+Se a hipoglicemia grave não for tratada, poderá causar uma lesão cerebral (temporária ou 
+permanente) e até mesmo a morte.
+
+Se entrar em hipoglicemia e desmaiar, ou se entrar frequentemente em hipoglicemia, fale 
+com o seu médico. A dose de Enyglid, a quantidade de alimentos ou de exercício podem 
+necessitar de ser ajustadas.
+Se o seu nível de açúcar no sangue ficar demasiado alto
+O seu açúcar no sangue pode ficar demasiado alto (hiperglicemia). Isto pode acontecer:
+
+Se tomar muito pouco Enyglid,
+
+Se tiver uma infeção ou febre,
+
+Se comer mais do que o habitual,
+
+Se fizer menos exercício do que o normal.
+Os sinais de aviso de um nível de açúcar demasiado alto surgem gradualmente. Incluem: aumento 
+da frequência urinária, pele seca e boca seca. Fale com o seu médico. A quantidade de Enyglid, de 
+alimentos ou de exercício pode necessitar de ser ajustada.
+Outros medicamentos e Enyglid
+29
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos.
+Pode tomar Enyglid com metformina, que é outro medicamento para a diabetes, se o seu médico o 
+prescrever.
+Se tomar gemfibrozil (utilizado para baixar os níveis elevados de gordura no sangue), não deve tomar 
+Enyglid.
+A resposta do seu corpo a Enyglid pode mudar se estiver a tomar outros medicamentos, em especial os 
+seguintes:
+
+Inibidores de monoaminoxidase (usados para tratar a depressão).
+
+Agentes beta-bloqueantes não seletivos (usados para o tratamento da pressão arterial elevada e 
+certas doenças cardíacas).
+
+Inibidores da enzima de conversão da angiotensina (ECA) (usados para o tratamento de certas 
+doenças cardíacas).
+
+Salicilatos (p. ex. aspirina).
+
+Octreótido (usado para tratar o cancro).
+
+Anti-inflamatórios não esteroides (AINES, com ação semelhante aos analgésicos).
+
+Esteróides (esteroides anabolizantes e corticosteroides - usados na anemia ou no tratamento da 
+inflamação).
+
+Contracetivos orais (pílulas para controlo da natalidade).
+
+Tiazidas (usados para estimular a produção de urina).
+
+Danazol (usado para tratar quistos da mama e a endometriose).
+
+Medicamentos para a tiroide (utilizados para o tratamento de baixos níveis de hormonas da 
+tiroide).
+
+Simpaticomiméticos (utilizados para tratamento da asma).
+
+Claritromicina, trimetoprim, rifampicina (antibióticos).
+
+Itraconazol, cetoconazol (medicamentos antifúngicos).
+
+Gemfibrozil (usado para tratar níveis elevados de gordura no sangue).
+
+Ciclosporina (usada para suprimir o sistema imunitário).
+
+Deferasirox (usado para reduzir o excesso crónico de ferro)
+
+Clopidogrel (previne os coágulos no sangue)
+
+Fenitoína, carbamazepina, fenobarbital (usados no tratamento da epilepsia)
+
+Erva de S. João (erva medicinal).
+Enyglid com álcool
+O álcool pode alterar a capacidade de Enyglid para reduzir o açúcar no sangue. Fique alerta aos 
+sintomas de hipoglicemia.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de tomar este medicamento.
+Não deve tomar Enyglid se estiver grávida ou a planear engravidar.
+Não deve tomar Enyglid se estiver a amamentar.
+Condução de veículos e utilização de máquinas
+A sua capacidade para conduzir ou utilizar máquinas pode ser afectada se o seu nível de açúcar no 
+sangue for baixo ou elevado. Não se esqueça que pode colocar a sua vida e a vida de outras pessoas 
+em perigo. Pergunte ao seu médico se pode conduzir caso:
+
+tenha hipoglicemias frequentes
+30
+
+tenha poucos ou nenhuns sinais de aviso de hipoglicemia.
+Enyglid contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente “isento de sódio".</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome sempre este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico 
+se tiver dúvidas.
+O seu médico determinará a sua dose.
+
+A dose inicial normal é de 0,5 mg antes de cada refeição principal. Tome os comprimidos com 
+um copo de água imediatamente antes ou até 30 minutos antes de cada refeição principal.
+
+A dose pode ser ajustada pelo seu médico até 4 mg, para ser tomada imediatamente antes ou até 
+30 minutos antes de cada refeição principal. A dose máxima diária recomendada é de 16 mg.
+Não tome mais Enyglid do que o recomendado pelo médico.
+Se tomar mais Enyglid do que deveria
+Se tomar demasiados comprimidos, o seu açúcar no sangue pode diminuir acentuadamente, 
+conduzindo a uma hipoglicemia. Ver Se entrar em hipoglicemia para obter informação sobre o que é 
+uma hipoglicemia e como tratá-la.
+Caso se tenha esquecido de tomar Enyglid
+Se não tomar uma dose, tome a dose seguinte do modo habitual.
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Se parar de tomar Enyglid
+Tenha em conta que o efeito desejado não será alcançado se deixar de tomar Enyglid. A sua diabetes 
+pode piorar. Caso seja necessário alterar o seu tratamento e absolutamente importante falar primeiro 
+com o seu médico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar enyglid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar enyglid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Hipoglicemia
+O efeito secundário mais frequente é a hipoglicemia, que pode afetar até 1 em cada 10 pessoas (ver Se 
+entrar em hipoglicemia na secção 2). As reações hipoglicémicas são, geralmente, ligeiras/moderadas, 
+mas podem, ocasionalmente, progredir para perda de consciência por hipoglicemia ou coma. Se isto 
+acontecer, é necessária assistência médica imediatamente.
+Alergia
+A alergia é muito rara (pode afetar até 1 em 10.000 pessoas). Sintomas, tais como inchaço, dificuldade 
+em respirar, batimento rápido do coração, tonturas e suores, podem ser sinais de reação anafilática. 
+Contacte imediatamente o médico.
+31
+Outros efeitos indesejáveis
+Frequentes (podem afetar até 1 em cada 10 pessoas)</p>
+<ul>
+<li>
+<p>Dores de estômago</p>
+</li>
+<li>
+<p>Diarreia.
+Raros (podem afetar até 1 em cada 1.000 pessoas)</p>
+</li>
+<li>
+<p>Síndrome coronário agudo (mas pode não estar relacionado com o medicamento).
+Muito raros (afetam até 1 em cada 10.000 pessoas)</p>
+</li>
+<li>
+<p>Vómitos</p>
+</li>
+<li>
+<p>Obstipação</p>
+</li>
+<li>
+<p>Perturbações da visão</p>
+</li>
+<li>
+<p>Problemas graves do fígado, disfunção do fígado, tais como aumento das enzimas hepáticas no 
+sangue
+Desconhecido (não pode ser calculado a partir dos dados disponíveis)</p>
+</li>
+<li>
+<p>Hipersensibilidade (tal como erupção, prurido, vermelhidão e inchaço da pele)</p>
+</li>
+<li>
+<p>Sensação de má disposição (náuseas).
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V*. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no blister e na embalagem exterior. O 
+prazo de validade corresponde ao último dia do mês indicado.
+Conservar na embalagem de origem para proteger da luz.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+
+
+
 
 
                     
@@ -619,6 +966,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8a64404ab8208188b8002b2af6aa836e"
 * entry[0].resource = composition-da-8a64404ab8208188b8002b2af6aa836e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8a64404ab8208188b8002b2af6aa836e"
+* entry[=].resource = mp8a64404ab8208188b8002b2af6aa836e
+                            
+                    
+Instance: bundlepackageleaflet-pt-8a64404ab8208188b8002b2af6aa836e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for enyglid Package Leaflet for language pt"
+Description: "ePI document Bundle for enyglid Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8a64404ab8208188b8002b2af6aa836e"
+* entry[0].resource = composition-pt-8a64404ab8208188b8002b2af6aa836e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8a64404ab8208188b8002b2af6aa836e"
@@ -720,6 +1089,18 @@ RuleSet: 8a64404ab8208188b8002b2af6aa836eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8a64404ab8208188b8002b2af6aa836e) // enyglid pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

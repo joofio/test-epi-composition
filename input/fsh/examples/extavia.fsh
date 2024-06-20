@@ -1595,6 +1595,708 @@ Venstre del af maven </p>         </div>"""
 
 
 
+Instance: composition-pt-af957cdad64de8277859b4d268fc6099
+InstanceOf: CompositionUvEpi
+Title: "Composition for extavia Package Leaflet"
+Description:  "Composition for extavia Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpaf957cdad64de8277859b4d268fc6099)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - extavia"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Anexo - Procedimento de auto-injeção </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Extavia e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Extavia </li>
+<li>Como utilizar Extavia </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Extavia </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é extavia e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é extavia e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Extavia 
+Extavia é um tipo de medicamento conhecido como interferão, utilizado para tratar a esclerose 
+múltipla. Os interferões são proteínas produzidas pelo organismo que o ajudam a combater ataques ao 
+sistema imunitário como, por exemplo, infeções virais. </p>
+<p>Como atua Extavia 
+A esclerose múltipla (EM) é uma doença de longa duração que afeta o sistema nervoso central 
+(SNC), especialmente o funcionamento do cérebro e da espinal medula. Na EM, a inflamação destrói a 
+bainha protetora (chamada mielina) que envolve os nervos do SNC, impedindo os nervos de 
+funcionaram devidamente. Este processo é chamado desmielinização. </p>
+<p>A causa exata da EM é desconhecida. Pensa-se que uma resposta anormal do sistema imunitário do 
+corpo tem um papel importante no processo que danifica o SNC. </p>
+<p>A lesão do SNC pode ocorrer durante uma crise de EM (recidiva). Pode causar uma incapacidade 
+temporária, como dificuldade em andar. Os sintomas podem desaparecer completa ou parcialmente. </p>
+<p>Demonstrou-se que o interferão beta-1b modifica a resposta do sistema imunitário e ajuda a diminuir a 
+atividade da doença. </p>
+<p>Como é que Extavia ajuda a combater a sua doença 
+Acontecimento clínico único indicando um elevado risco de desenvolvimento de esclerose 
+múltipla: demonstrou-se que Extavia atrasou a progressão para esclerose múltipla definitiva. </p>
+<p>Esclerose múltipla por surtos de exacerbação-remissão: as pessoas com EM por surtos de 
+exacerbação-remissão têm crises ocasionais ou recidivas durante as quais os sintomas sofrem um 
+agravamento evidente. Demonstrou-se que Extavia reduz o número de crises e torna-as menos graves. 
+Reduz também o número de hospitalizações causadas pela doença e prolonga o intervalo de tempo 
+entre recidivas. </p>
+<p>Esclerose múltipla secundária progressiva: em alguns casos, as pessoas com EM por surtos de 
+exacerbação-remissão notam que os seus sintomas aumentam e progridem para uma outra forma de 
+EM denominada EM secundária progressiva. Com esta forma da doença, as pessoas notam um 
+aumento crescente da sua incapacidade, quer tenham ou não recidivas. Extavia pode diminuir o 
+número e a gravidade das crises e atrasar a progressão da incapacidade. </p>
+<p>Para que é utilizado Extavia 
+Extavia está indicado para a utilização em doentes 
+► 
+que tiveram pela primeira vez sintomas que indicam um alto risco de desenvolvimento de 
+esclerose múltipla. O seu médico irá excluir todos os outros motivos que possam explicar estes 
+sintomas antes de ser tratado. 
+► 
+que têm esclerose múltipla por surtos de exacerbação-remissão, com pelo menos duas 
+recidivas nos últimos dois anos. 
+► 
+que têm esclerose múltipla secundária progressiva com doença activa evidenciada por 
+recidivas. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar extavia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar extavia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Extavia 
+- se tem alergia ao interferão beta natural ou recombinante, à albumina humana ou a qualquer 
+outro componente deste medicamento (indicados na secção 6). 
+- se sofre presentemente de uma depressão grave e/ou pensamentos suicidas (ver 
+“Advertências e precauções" e secção 4 “Efeitos secundários possíveis"). 
+- se tem uma doença hepática grave (ver “Advertências e precauções", “Outros medicamentos e 
+Extavia" e secção 4 “Efeitos secundários possíveis"). </p>
+<p>► 
+Informe o seu médico no caso de alguma das situações acima indicadas se aplicar a si. </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico antes de utilizar Extavia: </p>
+<ul>
+<li>
+<p>se tem uma gamapatia monoclonal. Esta é uma doença do sistema imunitário na qual é 
+detetada uma proteína anormal no sangue. Podem desenvolver-se problemas ao nível dos 
+vasos sanguíneos pequenos (capilares) (síndrome de permeabilidade capilar sistémica) durante a 
+utilização de medicamentos como Extavia. Esta síndrome pode causar choque (colapso) e ser 
+mesmo fatal. </p>
+</li>
+<li>
+<p>Se já sofreu de depressão ou está deprimido ou se teve anteriormente pensamentos 
+suicidas. O seu médico monitorizá-lo-á cuidadosamente durante o tratamento. Se a sua 
+depressão e/ou pensamentos suicidas forem graves, não lhe será receitado Extavia (ver também 
+“Não utilize Extavia"). </p>
+</li>
+<li>
+<p>Se alguma vez teve convulsões ou se está a tomar medicamentos para tratar a epilepsia 
+(antiepiléticos), o seu médico monitorizará cuidadosamente o seu tratamento (ver também 
+“Outros medicamentos e Extavia" e secção 4 “Efeitos secundários possíveis"). </p>
+</li>
+<li>
+<p>Se tem problemas renais graves, o seu médico pode monitorizar a sua função renal durante o 
+tratamento. </p>
+</li>
+<li>
+<p>Se alguma vez teve uma reação alérgica ao látex. A tampa da seringa pré-cheia contém um 
+derivado do látex de borracha natural. Portanto, a tampa pode conter látex de borracha natural. </p>
+</li>
+</ul>
+<p>O seu médico também necessita de saber o seguinte enquanto estiver a utilizar Extavia: </p>
+<ul>
+<li>
+<p>Se tiver sintomas como comichão em todo o corpo, inchaço da face e/ou da língua ou falta 
+de ar súbita. Estes podem ser sintomas de uma reação alérgica grave que podem pôr a vida em 
+risco. </p>
+</li>
+<li>
+<p>No caso de se sentir visivelmente mais triste ou desesperado do que antes do tratamento 
+com Extavia, ou se desenvolver pensamentos suicidas. Se começar a sentir-se deprimido 
+enquanto está a utilizar Extavia, pode necessitar de um tratamento especial, o seu médico vigiá-
+lo-á com frequência e pode também considerar parar o seu tratamento. Se sofrer de uma 
+depressão grave e/ou tiver pensamentos suicidas, não será tratado com Extavia (ver também 
+“Não utilize Extavia"). </p>
+</li>
+<li>
+<p>No caso de detetar nódoas negras anormais, uma hemorragia excessiva depois de um 
+ferimento ou se lhe parece que está a ter muitas infeções. Estes podem ser sintomas de uma 
+diminuição da contagem das suas células sanguíneas ou do número de plaquetas no seu sangue 
+(células que ajudam o sangue a coagular). Pode ter necessidade de uma monitorização adicional 
+por parte do seu médico. </p>
+</li>
+<li>
+<p>Se tiver perda de apetite, fadiga, sensação de enjoo (náuseas), vómitos repetidos e, 
+especialmente, se tiver comichão generalizada, amarelecimento da pele ou do branco dos 
+olhos, ou se lhe aparecem nódoas negras com facilidade. Estes sintomas podem sugerir 
+problemas com o seu fígado. Durante os estudos clínicos ocorreram alterações dos valores da 
+função hepática em doentes tratados com Extavia. Como com os outros interferões beta, foi 
+comunicada raramente lesão hepática grave, incluindo casos de insuficiência hepática, em 
+doentes medicados com Extavia. Os casos mais graves foram comunicados em doentes que 
+estavam a tomar outros medicamentos ou que sofriam de doenças que afetam o fígado (por 
+exemplo, alcoolismo, infeção grave). </p>
+</li>
+<li>
+<p>Se tiver sintomas como batimento cardíaco irregular, inchaço dos tornozelos ou pernas ou 
+falta de ar. Estes podem sugerir uma doença do músculo cardíaco (cardiomiopatia) que foi 
+comunicada em doentes que estavam a utilizar Extavia. </p>
+</li>
+<li>
+<p>Se tiver uma dor no abdómen que irradia para as costas e/ou sentir enjoos ou tiver febre. 
+Estes podem sugerir uma inflamação do pâncreas (pancreatite), que foi comunicada com a 
+utilização de Extavia. Esta está muitas vezes associada a um aumento de certas gorduras no 
+sangue (triglicéridos). </p>
+</li>
+</ul>
+<p>► 
+Pare de utilizar Extavia e informe imediatamente o seu médico se qualquer um destes 
+sintomas se manifestar. </p>
+<p>Outros aspetos a considerar enquanto estiver a utilizar Extavia: </p>
+<ul>
+<li>
+<p>Vai necessitar de fazer análises ao sangue para determinar a contagem de células sanguíneas, 
+os valores bioquímicos do sangue e as enzimas hepáticas. Estas serão feitas antes de começar a 
+utilizar Extavia, com regularidade depois de ser iniciado o tratamento com Extavia e 
+depois periodicamente durante o tratamento, mesmo que não tenha sintomas especiais. Estas 
+análises ao sangue serão efetuadas como complemento das análises que faz habitualmente para 
+monitorizar a EM. </p>
+</li>
+<li>
+<p>Se tiver uma doença cardíaca, os sintomas de tipo gripal que ocorrem com frequência no 
+início do tratamento poderão ser mais debilitantes. Extavia deve ser utilizado com precaução 
+e o seu médico vigiá-lo-á para detetar qualquer agravamento da sua doença cardíaca, 
+especialmente no início do tratamento. Extavia por si só não afeta diretamente o coração. </p>
+</li>
+<li>
+<p>O funcionamento da sua glândula da tiroide será controlado com regularidade ou sempre 
+que o seu médico o considerar necessário por outras razões. </p>
+</li>
+<li>
+<p>Extavia contém albumina humana e constitui, portanto, um risco potencial de transmissão 
+de doenças virais. Não se pode excluir um risco de transmissão da doença de Creutzfeld-Jacob 
+(DCJ). </p>
+</li>
+<li>
+<p>Durante o tratamento com Extavia o seu organismo pode produzir substâncias que são 
+denominadas anticorpos neutralizantes, que podem reagir com Extavia. Ainda não é claro se 
+estes anticorpos neutralizantes diminuem a eficácia do tratamento. Os anticorpos neutralizantes 
+não são produzidos em todos os doentes. Presentemente não é possível prever quais são os 
+doentes que pertencem a este grupo. </p>
+</li>
+<li>
+<p>Durante o tratamento com Extavia, podem ocorrer problemas renais que podem afetar a 
+sua função renal, incluindo cicatrizes (glomeruloesclerose). O seu médico pode efetuar testes 
+para verificar o funcionamento dos seus rins. </p>
+</li>
+<li>
+<p>Podem ocorrer coágulos sanguíneos em pequenos vasos sanguíneos durante o seu 
+tratamento. Estes coágulos sanguíneos podem afetar os seus rins. Isto pode ocorrer várias 
+semanas a vários anos após iniciar Extavia O seu médico pode querer avaliar a sua tensão 
+arterial, sangue (contagem de plaquetas) e a função dos seus rins. </p>
+</li>
+<li>
+<p>Pele pálida ou amarela ou urina de cor escura, possivelmente acompanhada por tonturas 
+não habituais, cansaço ou falta de ar podem ocorrer durante o seu tratamento. Estes 
+podem ser sintomas de uma degradação das células sanguíneas. Isto pode acontecer várias 
+semanas a vários anos após iniciar Extavia. O seu médico poderá realizar análises ao sangue. 
+Informe o seu médico acerca de outros medicamentos que esteja a tomar ao mesmo tempo que 
+Extavia. </p>
+</li>
+</ul>
+<p>Reações no local de injeção 
+Durante o tratamento com Extavia é provável que tenha reações no local de injeção. Os sintomas 
+incluem vermelhidão, edema, alteração da cor da pele, inflamação, dor e hipersensibilidade. Infeção 
+em redor do local de injeção e rutura da pele e lesão dos tecidos (necrose) foram notificadas com 
+menos frequência. As reações no local de injeção tornam-se menos frequentes com o decorrer do 
+tempo. </p>
+<p>A rutura da pele e dos tecidos no local de injeção pode dar origem à formação de cicatrizes. Se esta for 
+grave, o médico poderá ter de remover matéria estranha e o tecido morto (desbridamento) e, com 
+menor frequência, são necessários enxertos de pele e a cicatrização pode demorar até 6 meses. </p>
+<p>Para diminuir o risco de ter uma reação no local de injeção, tal como uma infeção ou necrose, 
+deve: 
+− 
+utilizar uma técnica de injeção estéril (asséptica), 
+− 
+alternar os locais de injeções em cada injeção (ver Anexo Procedimento de auto-injeção). </p>
+<p>As reações no local de injeção podem ocorrer com menor frequência se utilizar um dispositivo 
+autoinjetor e alternar os locais de injeção. O seu médico ou enfermeiro pode dar-lhe mais informações 
+sobre este tipo de dispositivo. </p>
+<p>Se tiver gretas na pele associadas a inchaço ou a derrame de fluido no local da injeção: </p>
+<p>► 
+Pare as injeções de Extavia e fale com o seu médico. </p>
+<p>► 
+Se tiver apenas um local de injeção dorido (lesão) e a lesão dos tecidos (necrose) não for 
+muito extensa, pode continuar a utilizar Extavia. </p>
+<p>► 
+Se tiver mais do que um local de injeção dorido (lesões múltiplas) deve parar de utilizar 
+Extavia até a sua pele cicatrizar. </p>
+<p>O seu médico verificará regularmente o modo como se auto-injecta, especialmente se tiver tido 
+reações no local de injeção. </p>
+<p>Crianças e adolescentes 
+Não foram realizados ensaios clínicos formais em crianças ou adolescentes. 
+No entanto, existem alguns dados disponíveis em adolescentes dos 12 aos 17 anos de idade que 
+sugerem que o perfil de segurança de Extavia nesta faixa etária é igual ao dos adultos. O Extavia não 
+deve ser utilizado em crianças com menos de 12 anos de idade uma vez que não existe informação 
+disponível para esta faixa etária. </p>
+<p>Outros medicamentos e Extavia 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. </p>
+<p>Não foram realizados estudos de interação formais para verificar se Extavia afeta outros 
+medicamentos ou se é afetado por eles. </p>
+<p>Não se recomenda a utilização de Extavia com outros medicamentos que modificam a resposta do 
+sistema imunitário, exceto com medicamentos anti-inflamatórios chamados corticosteroides ou com a 
+hormona adrenocorticotrópica (ACTH). </p>
+<p>Extavia deve ser utilizado com precaução com: 
+- medicamentos que necessitam de um determinado sistema enzimático do fígado (conhecido 
+por sistema do citocromo P450) para serem removidos do organismo, por exemplo, 
+medicamentos utilizados para tratar a epilepsia (como a fenitoína). 
+- medicamentos que afetam a produção das células sanguíneas. </p>
+<p>Extavia com alimentos e bebidas 
+Como Extavia é injetado sob a pele, considera-se que os alimentos ou bebidas que consome não têm 
+qualquer efeito sobre Extavia. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, pensa estar grávida ou planeia engravidar, consulte o seu médico ou 
+farmacêutico antes de tomar este medicamento. </p>
+<p>Não são esperados efeitos prejudiciais para o recém-nascido/lactente amamentado. Extavia pode ser 
+usado durante a amamentação. </p>
+<p>Condução de veículos e utilização de máquinas 
+Extavia pode causar efeitos secundários ao nível do sistema nervoso central (ver secção 4 “Efeitos 
+secundários possíveis"). Se for especialmente suscetível, este medicamento pode influenciar a sua 
+capacidade de conduzir e de utilizar máquinas. </p>
+<p>Extavia contém sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por ml, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar extavia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar extavia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com Extavia deve ser iniciado sob a vigilância de um médico experiente no tratamento 
+da esclerose múltipla. </p>
+<p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é em dias alternados (dia sim, dia não), 1,0 ml da solução preparada de 
+Extavia (ver Anexo “Procedimento de auto-injeção" na segunda parte deste folheto informativo), 
+injetada sob a pele (via subcutânea). Esta dose equivale a 250 microgramas (8,0 milhões de UI) de 
+interferão beta-1b. </p>
+<p>Em geral, o tratamento deve ser iniciado com uma dose baixa de 0,25 ml (62,5 microgramas). As 
+suas doses serão depois aumentadas gradualmente até à dose final de 1,0 ml (250 microgramas). 
+A dose deve ser aumentada em cada quarta injeção em quatro passos (0,25 ml, 0,5 ml, 0,75 ml, 
+1,0 ml). O seu médico pode decidir consigo uma alteração dos intervalos de tempo para efetuar o 
+aumento da dose, dependendo dos efeitos secundários que possa sentir no início do tratamento. </p>
+<p>Preparação da injeção 
+Antes da injeção, a solução de Extavia tem de ser preparada utilizando um frasco para injetáveis 
+com Extavia em pó e 1,2 ml de líquido da seringa pré-cheia com solvente. Este processo pode ser 
+realizado pelo seu médico ou enfermeiro ou por si próprio, depois de ter recebido instruções e treino 
+cuidadosos. </p>
+<p>No Anexo que se encontra no fim deste folheto informativo, são-lhe fornecidas instruções detalhadas 
+sobre a auto-injeção de Extavia sob a pele. Estas instruções também explicam como deve preparar a 
+solução injetável de Extavia. </p>
+<p>O local da injeção tem que ser mudado regularmente. Ver secção 2 “Advertências e precauções" e 
+siga as instruções em “Alternância dos locais de injeção" no anexo deste folheto informativo. </p>
+<p>Duração do tratamento 
+Até ao momento, não se sabe quanto tempo deve durar o tratamento com Extavia. O seu médico 
+decidirá consigo qual deverá ser a duração do tratamento. </p>
+<p>Se utilizar mais Extavia do que deveria 
+A administração de doses muito superiores à dose de Extavia recomendada para o tratamento da 
+esclerose múltipla não originou situações de perigo de vida. </p>
+<p>► 
+Informe o seu médico se injetar uma dose excessiva de Extavia ou com demasiada frequência. </p>
+<p>Caso se tenha esquecido de utilizar Extavia 
+No caso de se ter esquecido de administrar uma injeção na altura correta, faça-o logo que se lembrar e 
+depois administre a seguinte 48 horas mais tarde. </p>
+<p>Não injete uma dose a dobrar para compensar uma dose que se esqueceu de administrar. </p>
+<p>Se parar de utilizar Extavia 
+Fale com o seu médico se parar ou quiser parar o tratamento. De acordo com o que se sabe, parar o 
+tratamento com Extavia não causa sintomas agudos de privação. </p>
+<p>► 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, 
+farmacêutico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Extavia pode causar efeitos secundários graves. Se algum dos efeitos indesejáveis se agravar ou se 
+detetar quaisquer efeitos indesejáveis não mencionados neste folheto, informe o seu médico, 
+farmacêutico ou enfermeiro. </p>
+<p>► 
+Informe imediatamente o seu médico e pare de tomar Extavia: </p>
+<ul>
+<li>
+<p>se tiver sintomas como comichão em todo o corpo, inchaço da face e/ou da língua ou falta de ar 
+súbita. </p>
+</li>
+<li>
+<p>se se sentir visivelmente mais triste ou desesperado do que antes do tratamento com Extavia ou 
+se desenvolver pensamentos suicidas. </p>
+</li>
+<li>
+<p>se detetar nódoas negras anormais, uma hemorragia excessiva depois de um ferimento ou se lhe 
+parece que está a ter muitas infeções. </p>
+</li>
+<li>
+<p>se tiver perda de apetite, cansaço, sensação de enjoo (náuseas), vómitos repetidos e, 
+especialmente, se tiver comichão generalizada, amarelecimento da pele ou do branco dos olhos 
+ou lhe aparecem nódoas negras com facilidade. </p>
+</li>
+<li>
+<p>se tiver sintomas como batimento cardíaco irregular, inchaço dos tornozelos ou pernas ou falta 
+de ar. </p>
+</li>
+<li>
+<p>se tiver uma dor no abdómen que irradia para as costas e/ou enjoos ou tiver febre. </p>
+</li>
+</ul>
+<p>► 
+Informe imediatamente o seu médico: </p>
+<ul>
+<li>se tiver alguns destes sintomas: urina com espuma, cansaço, inchaço, particularmente nos 
+tornozelos e pálpebras, e aumento de peso, pois podem ser sinais de um possível problema 
+renal. </li>
+</ul>
+<p>No início do tratamento os efeitos indesejáveis são frequentes mas, de um modo geral, diminuem com 
+a continuação do tratamento. </p>
+<p>Os efeitos indesejáveis mais frequentes são: </p>
+<p>► 
+Sintomas do tipo gripal como febre, arrepios, dores nas articulações, mal-estar, transpiração, 
+dor de cabeça ou dores musculares. Estes sintomas podem ser diminuídos tomando paracetamol 
+ou medicamentos anti-inflamatórios não esteroides como o ibuprofeno. </p>
+<p>► 
+Reações no local de injeção. Os sintomas podem ser vermelhidão, inchaço, descoloração da 
+pele, inflamação, infeção, dor, hipersensibilidade, lesão dos tecidos (necrose). Ver 
+“Advertências e precauções" na secção 2 para mais informações e sobre o que fazer se tiver 
+uma reação no local de injeção. Estas podem ser diminuídas utilizando um dispositivo 
+autoinjetor e alternando os locais da injeção. Fale com o seu médico, farmacêutico ou 
+enfermeiro para mais informações. </p>
+<p>Para diminuir o risco de efeitos indesejáveis no início do tratamento, o seu médico iniciará o 
+tratamento com uma dose baixa de Extavia que aumentará gradualmente (ver secção 3 “Como utilizar 
+Extavia"). </p>
+<p>A listagem de efeitos indesejáveis que se segue baseia-se em relatórios de ensaios clínicos com 
+Extavia e nos efeitos indesejáveis notificados com o medicamento comercializado. </p>
+<p>► 
+Muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>diminuição do número dos glóbulos brancos, </li>
+<li>dor de cabeça, </li>
+<li>distúrbio do sono (insónia), </li>
+<li>dor abdominal, </li>
+<li>uma enzima hepática específica (alanina aminotransferase ou ALT) pode aumentar (revela-se 
+nas análises ao sangue), </li>
+<li>erupção na pele, </li>
+<li>perturbação cutânea, </li>
+<li>dor nos músculos (mialgia), </li>
+<li>rigidez muscular (hipertonia), </li>
+<li>dor nas articulações (artralgia), </li>
+<li>urgência urinária, </li>
+<li>reações no local de injeção (incluindo vermelhidão, inchaço, descoloração, inflamação, dor, 
+infeção, reações alérgicas (hipersensibilidade)), </li>
+<li>sintomas do tipo gripal, dor, febre, arrepios, acumulação de líquido nos braços ou pernas 
+(edema periférico), ausência/perda de força (astenia). </li>
+</ul>
+<p>► 
+Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>gânglios linfáticos inchados (linfadenopatia), </li>
+<li>o número de glóbulos vermelhos no sangue pode diminuir (anemia), </li>
+<li>distúrbio no funcionamento da glândula da tiroide (produção diminuída de hormonas) 
+(hipotiroidismo), </li>
+<li>aumento ou perda de peso, </li>
+<li>confusão, </li>
+<li>batimento cardíaco anormalmente rápido (taquicardia), </li>
+</ul>
+<p>tensão arterial aumentada (hipertensão), 
+- uma enzima hepática específica (aspartato aminotransferase ou AST) pode aumentar (revela-se 
+nas análises ao sangue), 
+falta de ar (dispneia), 
+- um pigmento amarelo avermelhado (bilirrubina), que é produzido pelo fígado, pode aumentar 
+(revela-se nas análises ao sangue), 
+- manchas na pele e membranas mucosas inchadas e geralmente com comichão (urticária), 
+- comichão (prurido), 
+- queda de cabelo (alopecia), 
+- perturbações menstruais (menorragia), </p>
+<p>sangramento uterino intenso (metrorragia), especialmente entre os períodos menstruais, </p>
+<p>impotência, </p>
+<p>rutura da pele e lesão dos tecidos (necrose) no local da injeção (ver secção 2 “Advertências e 
+precauções"), </p>
+<p>dor no peito, </p>
+<p>mal-estar. </p>
+<p>► 
+Pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>o número de plaquetas (que ajudam o sangue a coagular) pode diminuir 
+(trombocitopenia), </li>
+<li>pode aumentar um determinado tipo de gorduras do sangue (triglicéridos), ver secção 2 
+“Advertências e precauções" (revela-se nas análises ao sangue), </li>
+<li>tentativa de suicídio, </li>
+<li>alterações do humor, </li>
+<li>convulsões, </li>
+<li>os níveis sanguíneos de uma enzima específica do fígado (gama GT) podem aumentar (revela-se 
+nas análises ao sangue), </li>
+<li>inflamação do fígado (hepatite), </li>
+<li>descoloração da pele, </li>
+</ul>
+<p>problemas nos rins, incluindo cicatrizes (glomeruloesclerose) que podem reduzir a função renal. </p>
+<p>► 
+Raros (podem afetar até 1 em 1000 pessoas): </p>
+<ul>
+<li>coágulos sanguíneos nos pequenos vasos sanguíneos que podem afetar os seus rins 
+(púrpura trombocitopénica trombótica ou síndrome urémica hemolítica). Os sintomas 
+podem incluir aumento de hematomas, sangramento, febre, fraqueza extrema, tonturas ou 
+atordoamento. O seu médico pode encontrar alterações no seu sangue e na função dos 
+seus rins, </li>
+<li>reações alérgicas graves (anafiláticas), </li>
+<li>distúrbio no funcionamento da glândula da tiroide (perturbações da tiróide), produção 
+aumentada de hormonas (hipertiroidismo), </li>
+<li>perda intensa de apetite levando à perda de peso (anorexia), </li>
+<li>doença do músculo cardíaco (cardiomiopatia), </li>
+<li>falta de ar súbita (broncospasmo), </li>
+<li>inflamação do pâncreas (pancreatite), ver secção 2 “Advertências e precauções", </li>
+<li>o fígado não funciona adequadamente (lesão hepática incluindo hepatite, insuficiência 
+hepática). </li>
+</ul>
+<p>► 
+Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>degradação dos glóbulos vermelhos (anemia hemolítica), </li>
+<li>podem desenvolver-se problemas com os seus pequenos vasos sanguíneos (capilares) durante o 
+tratamento com medicamentos como o Extavia (síndrome de derrame capilar sistémico), </li>
+<li>depressão, ansiedade, </li>
+<li>tonturas, </li>
+<li>batimento ou pulsação irregular e rápida do coração (palpitação), </li>
+<li>vermelhidão e/ou rubor facial devido ao alargamento dos vasos sanguíneos (vasodilatação), </li>
+<li>estreitamento grave dos vasos sanguíneos nos pulmões, o que resulta em tensão arterial alta nos 
+vasos sanguíneos que levam o sangue do coração para os pulmões (hipertensão arterial 
+pulmonar). A hipertensão arterial pulmonar tem sido observada em diversos pontos temporais 
+durante o tratamento, incluindo vários anos após o início do tratamento com Extavia, </li>
+<li>náuseas, </li>
+<li>vómitos, </li>
+<li>diarreia, </li>
+<li>erupção na pele, vermelhidão da pele na face, dores nas articulações, febre, fraqueza e 
+outros causados pelo medicamento (lúpus eritematoso induzido por fármacos), </li>
+<li>distúrbio menstrual, </li>
+<li>sudorese. </li>
+</ul>
+<p>Comunicação de efeitos secundários 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar extavia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar extavia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem. O prazo de validade 
+corresponde ao último dia do mês indicado. </p>
+<p>Não conservar acima de 25C. Não congelar. </p>
+<p>Depois de preparar a solução, deve utilizá-la imediatamente. Contudo, se não for possível fazê-lo, esta 
+poderá ser utilizada por um período de 3 horas se conservada a 2C - 8C (no frigorífico). </p>
+<p>Não utilize este medicamento se verificar partículas ou descoloração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Extavia 
+− 
+A substância ativa é o interferão beta-1b. Cada frasco para injetáveis contém 300 microgramas 
+(9,6 milhões UI) de interferão beta-1b por frasco para injetáveis. Após a reconstituição, cada 
+mililitro contém 250 microgramas (8,0 milhões UI) de interferão beta-1b. 
+− 
+Os outros componentes são 
+− 
+no pó: manitol e albumina humana. 
+− 
+no solvente: cloreto de sódio, água para preparações injetáveis. </p>
+<p>A tampa da seringa pré-cheia contém um derivado do látex de borracha natural. Portanto, a tampa 
+pode conter látex de borracha natural. </p>
+<p>Qual o aspeto de Extavia e conteúdo da embalagem 
+Extavia é um pó e solvente para solução injetável. </p>
+<p>O pó é de cor branca a esbranquiçada. 
+O pó de Extavia é fornecido num frasco para injetáveis de 3 mililitros. 
+O solvente é uma solução incolor/límpida. 
+O solvente de Extavia é fornecido numa seringa pré-cheia de 2,25 ml e contém 1,2 ml de solução 
+injetável de cloreto de sódio a 5,4 mg/ml (0,54% p/v). </p>
+<p>Extavia é apresentado em tamanhos de embalagens de: 
+− 
+5 frascos para injetáveis de interferão beta-1b e 5 seringas pré-cheias contendo solvente. 
+− 
+14 frascos para injetáveis de interferão beta-1b e 14 seringas pré-cheias contendo solvente. 
+− 
+15 frascos para injetáveis de interferão beta-1b e 15 seringas pré-cheias contendo solvente. 
+− 
+14 frascos para injetáveis de interferão beta-1b e 15 seringas pré-cheias contendo solvente. </p>
+<p>− 
+Embalagem múltipla de 3 meses contendo 42 (3x14) frascos para injetáveis de interferão beta-
+1b e 42 (3x14) seringas pré-cheias com solvente. 
+− 
+Embalagem múltipla de 3 meses contendo 45 (3x15) frascos para injetáveis de interferão beta-
+1b e 45 (3x15) seringas pré-cheias com solvente. 
+− 
+Embalagem múltipla de 3 meses contendo 42 (3x14) frascos para injetáveis de interferão beta-
+1b e 45 (3x15) seringas pré-cheias com solvente. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irlanda </p>
+<p>Fabricante 
+Novartis Pharma GmbH 
+Roonstrasse D-90429 Nuremberga 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1636,6 +2338,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-af957cdad64de8277859b4d268fc6099"
 * entry[0].resource = composition-da-af957cdad64de8277859b4d268fc6099
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpaf957cdad64de8277859b4d268fc6099"
+* entry[=].resource = mpaf957cdad64de8277859b4d268fc6099
+                            
+                    
+Instance: bundlepackageleaflet-pt-af957cdad64de8277859b4d268fc6099
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for extavia Package Leaflet for language pt"
+Description: "ePI document Bundle for extavia Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-af957cdad64de8277859b4d268fc6099"
+* entry[0].resource = composition-pt-af957cdad64de8277859b4d268fc6099
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpaf957cdad64de8277859b4d268fc6099"
@@ -1737,6 +2461,18 @@ RuleSet: af957cdad64de8277859b4d268fc6099ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-af957cdad64de8277859b4d268fc6099) // extavia pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1012,6 +1012,480 @@ sek</p>         </div>"""
 
 
 
+Instance: composition-pt-832482791de362ad81d3371194ed350b
+InstanceOf: CompositionUvEpi
+Title: "Composition for riltrava Package Leaflet"
+Description:  "Composition for riltrava Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp832482791de362ad81d3371194ed350b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - riltrava"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instruções de utilização</p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Riltrava Aerosphere e para que é utilizado
+2. O que precisa de saber antes de utilizar Riltrava Aerosphere
+3. Como utilizar Riltrava Aerosphere
+4. Efeitos indesejáveis possíveis
+5. Como conservar Riltrava Aerosphere
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é riltrava e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é riltrava e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Riltrava Aerosphere contém três substâncias ativas: fumarato de formoterol di-hidratado, glicopirrónio 
+e budesonida.
+
+Fumarato de formoterol di-hidratado e glicopirrónio pertencem a um grupo de medicamentos 
+designados “broncodilatadores". Atuam de maneiras diferentes para prevenir a contração dos 
+músculos à volta das vias respiratórias, facilitando a entrada e saída de ar nos pulmões.
+
+Budesonida pertence a um grupo de medicamentos designados “corticosteroides". Atua 
+reduzindo a inflamação nos seus pulmões.
+Riltrava Aerosphere é um inalador utilizado em adultos com uma doença dos pulmões designada
+“doença pulmonar obstrutiva crónica" (ou “DPOC"), uma doença crónica das vias respiratórias nos
+pulmões.
+Riltrava Aerosphere é utilizado para facilitar a respiração e melhorar os sintomas da DPOC, tais como 
+falta de ar, pieira e tosse. Riltrava Aerosphere pode também prevenir agudizações (exacerbações) da
+DPOC.
+Riltrava Aerosphere liberta as substâncias ativas diretamente nos seus pulmões enquanto inspira. Se 
+utilizar este medicamento regularmente duas vezes por dia, irá ajudar a reduzir os efeitos da DPOC na 
+sua vida quotidiana.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar riltrava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar riltrava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Riltrava Aerosphere
+
+se tem alergia a fumarato de formoterol di-hidratado, glicopirrónio, budesonida ou a qualquer 
+outro componente deste medicamento (indicados na secção 6).
+33
+Advertências e precauções
+Riltrava Aerosphere é utilizado como tratamento de manutenção prolongado da DPOC. Não o utilize 
+para tratar uma crise súbita de falta de ar ou pieira.
+Dificuldades respiratórias imediatas
+Se sentir aperto no peito, tosse, pieira ou falta de ar imediatamente após utilizar Riltrava Aerosphere,
+pare de utilizá-lo e informe o seu médico imediatamente (ver “Efeitos indesejáveis graves" no 
+início da Secção 4 para mais informação).
+Se a sua falta de ar, aperto no peito, pieira ou tosse se agravaram com a utilização de Riltrava
+Aerosphere, deverá continuar a usar Riltrava Aerosphere mas fale com o seu médico logo que 
+possível, pois pode necessitar de tratamento adicional.
+Fale com o seu médico antes de utilizar Riltrava Aerosphere se:
+
+tem tensão arterial alta ou problemas de coração
+
+tem diabetes
+
+tem uma infeção nos pulmões
+
+tem problemas na glândula tiroide
+
+tem níveis baixos de potássio no sangue
+
+tem problemas na próstata ou tem dificuldade em urinar
+
+tem um problema nos olhos designado por “glaucoma de ângulo fechado"
+
+tem problemas nos rins ou no fígado.
+Fale com o seu médico se pensa que algumas destas condições se aplicam a si.
+Crianças e adolescentes
+Riltrava Aerosphere não foi estudado em crianças e adolescentes. Não utilize este medicamento em 
+crianças ou adolescentes com idade inferior a 18 anos.
+Outros medicamentos e Riltrava Aerosphere
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Estes incluem medicamentos obtidos sem receita médica e medicamentos 
+à base de plantas. Isto porque Riltrava Aerosphere pode afetar o mecanismo de ação de alguns 
+medicamentos. Além disso, alguns medicamentos podem afetar a forma como Riltrava Aerosphere
+atua, ou aumentar a probabilidade de efeitos indesejáveis.
+Informe o seu médico ou farmacêutico se está a tomar algum dos seguintes medicamentos:
+
+medicamentos designados bloqueadores beta (tais como atenolol ou propranolol), que podem ser 
+utilizados para o tratamento de tensão arterial elevada ou problemas do coração, ou para o
+tratamento do glaucoma (como o timolol)
+
+medicamentos que são utilizados para tratar infeções fúngicas - tais como cetoconazol ou 
+itraconazol
+
+medicamentos que são utilizados para tratar infeção por VIH (Vírus da Imunodeficiência Humana)
+- tais como ritonavir ou cobicistate
+
+medicamentos que reduzem a quantidade de potássio no seu sangue, tais como:
+-
+corticosteroides que toma oralmente (tal como prednisolona),
+-
+diuréticos - medicamentos que aumentam a produção de urina (como furosemida ou 
+hidroclorotiazida), que podem ser utilizados para tratar a tensão arterial elevada,
+-
+alguns medicamentos utilizados para tratar problemas respiratórios (tal como teofilina) -
+designados “metilxantinas",
+
+qualquer medicamento que funcione de forma semelhante a Riltrava Aerosphere - tais como 
+tiotrópio, ipratrópio, aclidínio, umeclidínio ou salmeterol, arformoterol, vilanterol, olodaterol ou 
+indacaterol. Não se recomenda a utilização de Riltrava Aerosphere se já utiliza estes
+medicamentos.
+
+medicamentos que são utilizados para tratar alterações de ritmo do coração - tal como amiodarona
+
+medicamentos que possam causar alguma alteração na atividade elétrica do coração (designada de 
+“intervalo QT") - tais como medicamentos para o tratamento de:
+34
+-
+depressão (tais como inibidores da monoamino-oxidase ou antidepressivos tricíclicos),
+-
+infeções bacterianas (tais como eritromicina, claritromicina ou telitromicina),
+-
+reações alérgicas (anti-histamínicos).
+Se alguma das condições acima se aplica a si, ou se tiver dúvidas, fale com o seu médico ou 
+farmacêutico antes de utilizar Riltrava Aerosphere.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de utilizar este medicamento.
+Não utilize Riltrava Aerosphere se está grávida, a não ser que o seu médico lhe diga que o pode fazer.
+Não utilize este medicamento se está a amamentar, a não ser que o seu médico lhe diga que o pode 
+fazer.
+Condução de veículos e utilização de máquinas
+É pouco provável que este medicamento afete a sua capacidade de conduzir ou utilizar máquinas. No
+entanto, tonturas é um efeito indesejável pouco frequente que deve ser tido em consideração quando
+conduzir ou utilizar máquinas.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar riltrava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar riltrava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+Quantidade a utilizar
+A dose recomendada é duas inalações duas vezes por dia - duas inalações de manhã e duas inalações à 
+noite.
+É importante que utilize Riltrava Aerosphere todos os dias - mesmo que não tenha sintomas da DPOC 
+nesse momento.
+Lembre-se: Bocheche sempre com água depois de utilizar Riltrava Aerosphere. Desta forma remove
+qualquer vestígio de medicamento que possa ficar na boca. Deve deitar fora a água - não engolir.
+Como utilizar
+Riltrava Aerosphere é para utilização por via inalatória.
+Por favor leia as “Instruções de Utilização" no final deste folheto. Se tiver dúvidas sobre como utilizar 
+Riltrava Aerosphere, contacte o seu médico ou farmacêutico.
+Utilizar Riltrava Aerosphere com uma câmara expansora
+Pode ter dificuldade em inspirar e pressionar o inalador ao mesmo tempo. Se isso acontecer, fale com 
+o seu médico ou farmacêutico. Poderá ajudar, utilizar uma “câmara expansora" com o seu inalador.
+Se utilizar mais Riltrava Aerosphere do que deveria
+Se tiver utilizado mais Riltrava Aerosphere do que deveria, consulte o seu médico ou farmacêutico 
+imediatamente. Pode necessitar de cuidados médicos. Pode sentir que o seu coração está a bater mais 
+rápido que o normal, pode sentir tremor, perturbações visuais, boca seca, dor de cabeça ou enjoos 
+(náuseas).
+Caso se tenha esquecido de utilizar Riltrava Aerosphere
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Tome assim que se 
+lembrar.
+35
+No entanto, se estiver perto da hora da sua próxima dose, não tome a dose de que se esqueceu. Não 
+faça mais do que duas inalações duas vezes por dia.
+Se parar de utilizar Riltrava Aerosphere
+Este medicamento destina-se a utilização prolongada. Deve utilizar este medicamento no período
+indicado pelo médico. Só será eficaz enquanto o estiver a utilizar.
+Não pare de utilizar, a não ser que o seu médico lhe diga para o fazer - mesmo que se sinta melhor -
+porque os seus sintomas podem agravar-se. Se pretender interromper o tratamento, fale primeiro com 
+o seu médico.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não
+se manifestem em todas as pessoas. Os seguintes efeitos indesejáveis podem ocorrer com este 
+medicamento:
+Efeitos indesejáveis graves
+Pouco frequentes (podem afetar até 1 em cada 100 pessoas)
+Dificuldades respiratórias imediatas:
+
+se sentir dificuldades respiratórias logo após utilizar Riltrava Aerosphere, tais como aperto no 
+peito, tosse, pieira ou falta de ar, pare de utilizar este medicamento e informe o seu médico 
+imediatamente.
+Reações alérgicas:
+
+inchaço da sua face, particularmente à volta da sua boca (o inchaço da sua língua ou garganta 
+pode causar dificuldade em engolir)
+
+erupção na pele ou urticária em conjunto com dificuldade em respirar
+
+sensação súbita de desmaio
+Estes sintomas podem ser sinais de uma reação alérgica que pode tornar-se grave. Pare de utilizar este
+medicamento e solicite ajuda médica imediatamente se apresentar algum dos efeitos indesejáveis
+acima.
+Outros efeitos indesejáveis
+Informe o seu médico ou farmacêutico se sentir algum dos seguintes efeitos indesejáveis:
+Frequentes (podem afetar até 1 em cada 10 pessoas)
+
+sapinhos (candidíase) na boca (uma infeção fúngica). Pode ajudar a evitar, bochechar com água
+imediatamente após utilizar Riltrava Aerosphere.
+
+sentir-se ansioso
+
+dificuldade em dormir
+
+sentir-se enjoado (náuseas)
+
+dor de cabeça
+
+tosse ou voz rouca
+
+cãibras musculares
+
+sentir o coração a bater (palpitações)
+
+níveis elevados de açúcar no sangue (demonstrados nas análises)
+
+dor ao urinar e urinar com frequência (podem ser sinais de infeção do trato urinário)
+
+pneumonia (infeção no pulmão).
+36
+Informe o seu médico se tiver qualquer uma das seguintes situações enquanto utilizar Riltrava
+Aerosphere, pois podem ser sintomas de uma infeção nos pulmões:
+
+febre ou arrepios,
+
+aumento da produção de muco, mudança da cor do muco,
+
+aumento da tosse ou aumento da dificuldade em respirar.
+Pouco frequentes (podem afetar até 1 em cada 100 pessoas)
+
+tremor ou sentir-se tonto
+
+boca seca, ou ligeira irritação na garganta
+
+nódoas negras na pele
+
+sentir-se irrequieto, nervoso ou agitado
+
+depressão
+
+batimento cardíaco acelerado ou irregular
+
+dor no peito ou aperto no peito (angina de peito)
+Muito raros (podem afetar até 1 em cada 10 000 pessoas)
+
+alterações no comportamento
+
+um efeito na glândula suprarrenal
+Desconhecidos (a frequência não pode ser estimada a partir dos dados disponíveis):
+
+visão turva
+
+opacificação do cristalino dos seus olhos (sinais de catarata)
+
+aumento da pressão no olho (glaucoma)
+
+inchaço da face, particularmente à volta da sua boca (o inchaço da sua língua ou garganta pode 
+causar dificuldade em engolir)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar riltrava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar riltrava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize Riltrava Aerosphere após o prazo de validade impresso na embalagem exterior, bolsa e 
+recipiente pressurizado, após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+Após a abertura da bolsa, o inalador tem de ser utilizado no prazo de 3 meses.
+Conservar o inalador dentro da bolsa selada - apenas retirar o inalador da bolsa selada imediatamente 
+antes da primeira utilização. No dia em que a bolsa for aberta, escreva a data no respetivo espaço
+fornecido no rótulo do inalador.
+Não conservar acima de 30°C. Conservar em local seco.
+Para melhores resultados, o inalador deve estar à temperatura ambiente antes de utilizá-lo.
+Não partir, perfurar ou queimar o recipiente pressurizado, mesmo quando aparentemente vazio. Não 
+utilizar ou conservar perto de fontes de calor ou de chamas.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.
+37</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Riltrava Aerosphere
+As substâncias ativas são fumarato de formoterol di-hidratado, glicopirrónio e budesonida.
+Cada dose única fornece uma dose libertada (a dose que sai do aplicador bucal) de 5 microgramas de 
+fumarato de formoterol di-hidratado, 9 microgramas de brometo de glicopirrónio equivalente a 
+7,2 microgramas de glicopirrónio e 160 microgramas de budesonida.
+Os outros componentes são norflurano, 1,2-distearoil-sn-glicero-3-fosfocolina e cloreto de cálcio.
+Qual o aspeto de Riltrava Aerosphere e conteúdo da embalagem
+Riltrava Aerosphere é uma suspensão pressurizada para inalação.
+Riltrava Aerosphere apresenta-se como um recipiente com um indicador de dose, fornecido com um
+atuador de plástico amarelo e um aplicador bucal branco. O aplicador bucal está coberto com uma 
+tampa protetora amovível cinzenta.
+Riltrava Aerosphere é embalado numa bolsa de alumínio contendo um agente dessecante (exsicante) e 
+acondicionado numa embalagem de cartão.
+Cada inalador contém 120 doses. Adicionalmente, existem embalagens múltiplas contendo
+3 recipientes pressurizados com 120 doses, cada.
+Titular da Autorização de Introdução no Mercado
+AstraZeneca AB
+SE-151 85 Södertälje
+Suécia
+Fabricante
+AstraZeneca Dunkerque Production
+224 Avenue de la Dordogne
+Dunkerque
+59640
+França
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+38
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+Tecnimede - Sociedade Técnico-Medicinal, S.A.
+Tel: +351 21 041 41 00
+Hrvatska 
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Este folheto foi revisto pela última vez em 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1053,6 +1527,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-832482791de362ad81d3371194ed350b"
 * entry[0].resource = composition-da-832482791de362ad81d3371194ed350b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp832482791de362ad81d3371194ed350b"
+* entry[=].resource = mp832482791de362ad81d3371194ed350b
+                            
+                    
+Instance: bundlepackageleaflet-pt-832482791de362ad81d3371194ed350b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for riltrava Package Leaflet for language pt"
+Description: "ePI document Bundle for riltrava Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-832482791de362ad81d3371194ed350b"
+* entry[0].resource = composition-pt-832482791de362ad81d3371194ed350b
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp832482791de362ad81d3371194ed350b"
@@ -1154,6 +1650,18 @@ RuleSet: 832482791de362ad81d3371194ed350bListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-832482791de362ad81d3371194ed350b) // riltrava pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

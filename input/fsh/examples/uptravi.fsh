@@ -1669,6 +1669,600 @@ Side 40</p>         </div>"""
 
 
 
+Instance: composition-pt-f797cc0b9b4e9335a18d81e479368f3c
+InstanceOf: CompositionUvEpi
+Title: "Composition for uptravi Package Leaflet"
+Description:  "Composition for uptravi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf797cc0b9b4e9335a18d81e479368f3c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - uptravi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Uptravi e para que é utilizado
+2. O que precisa de saber antes de tomar Uptravi
+3. Como tomar Uptravi 
+4. Efeitos indesejáveis possíveis
+5. Como conservar Uptravi
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é uptravi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é uptravi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Uptravi é um medicamento que contém a substância ativa selexipag. Esta atua nos vasos sanguíneos 
+de uma forma parecida à substância natural prostaciclina, fazendo-os relaxar e dilatar.
+Uptravi é usado no tratamento a longo prazo da hipertensão arterial pulmonar (HAP) em doentes 
+adultos insuficientemente controlados com outros tipos de medicamentos para a HAP conhecidos 
+como antagonistas dos recetores da endotelina e inibidores da fosfodiesterase tipo 5. Uptravi pode ser 
+usado sozinho se o doente não for candidato para estes medicamentos.
+A HAP é uma pressão sanguínea elevada nos vasos sanguíneos que transportam o sangue do coração 
+para os pulmões (as artérias pulmonares). Em pessoas com HAP, estas artérias ficam mais estreitas, o 
+que faz com que o coração tenha de trabalhar mais para bombear o sangue através delas. Isto faz com 
+que as pessoas se sintam cansadas, com tonturas, com falta de ar ou outros sintomas.
+Ao atuar de forma semelhante à substância natural prostaciclina, este medicamento dilata as artérias 
+pulmonares e reduz o seu espessamento. Isto faz com que seja mais fácil para o coração bombear 
+sangue através delas. Uptravi baixa a pressão nas artérias pulmonares, isto alivia os sintomas da HAP 
+e atrasa a progressão da doença HAP.
+42</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar uptravi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar uptravi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Uptravi:</h2>
+<p>se tem alergia ao selexipag ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+-
+se tem um problema no coração, tal como:
+-
+circulação do sangue deficiente nos músculos do coração (doença coronária grave ou 
+angina instável); inclui sintomas como dor no peito
+-
+ataque cardíaco nos últimos 6 meses
+-
+coração fraco (insuficiência cardíaca descompensada) que não é vigiado de perto pelo seu 
+médico
+-
+ritmo cardíaco irregular grave
+-
+defeito das válvulas cardíacas (congénito ou adquirido) que faz com que o coração não 
+funcione normalmente (sem relação com a hipertensão pulmonar). 
+-
+se teve um acidente vascular cerebral nos últimos 3 meses ou qualquer outra ocorrência que 
+reduzisse o fornecimento de sangue ao cérebro (por exemplo, acidente isquémico transitório)
+-
+se está a tomar gemfibrozil (um medicamento usado para baixar o nível de gorduras [lípidos] no 
+sangue)
+Advertências e precauções 
+Fale com o seu médico ou enfermeiro de HAP antes de tomar Uptravi se
+-
+estiver a tomar medicamentos para a pressão arterial alta
+-
+sofrer de pressão sanguínea baixa associada a sintomas como tonturas
+-
+tiver perdido uma grande quantidade de sangue ou de líquidos recentemente tais como diarreia ou 
+vómitos graves
+-
+sofrer de problemas da tiroide
+-
+tiver problemas graves nos rins ou estiver a fazer diálise
+-
+tiver ou tiver tido problemas graves nos quais o fígado não funcionava bem
+Se notar algum dos sinais acima referidos ou se a sua condição se alterar, consulte imediatamente o 
+seu médico.
+Crianças e adolescentes
+Não dê este medicamento a crianças menores de 18 anos de idade, porque Uptravi não foi testado em 
+crianças.
+Doentes idosos
+Existe pouca experiência com Uptravi em doentes com mais de 75 anos. Uptravi deve ser utilizado 
+com precaução neste grupo etário.
+Outros medicamentos e Uptravi
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos.
+Tomar outros medicamentos pode afetar a forma como Uptravi funciona.
+Fale com o seu médico ou enfermeiro de HAP se estiver a tomar alguns destes medicamentos:
+-
+Gemfibrozil (um medicamento utilizado para diminuir o nível de gorduras [lípidos] no sangue)
+-
+Clopidogrel (um medicamento utilizado para inibir coágulos sanguíneos na doença da artéria 
+coronária)
+-
+Deferasirox (um medicamento utilizado para remover ferro da circulação sanguínea)
+-
+Teriflunomida (um medicamento utilizado para tratar esclerose múltipla remitente-recorrente)
+43
+-
+Carbamazepina (um medicamento utilizado para tratar algumas formas de epilepsia, nevralgia 
+ou para ajudar a controlar perturbações graves do humor quando alguns dos outros 
+medicamentos não funcionam)
+-
+Fenitoína (um medicamento utilizado para tratar a epilepsia)
+-
+Ácido valpróico (um medicamento utilizado para tratar a epilepsia)
+-
+Probenecide (um medicamento utilizado para tratar a gota)
+-
+Fluconazol, rifampicina ou rifapentina (antibióticos utilizados para tratar infeções)
+Gravidez e amamentação
+Uptravi não está recomendado durante a gravidez e a amamentação. Se é uma mulher que pode ter 
+filhos deve usar um método contracetivo eficaz enquanto está a tomar Uptravi. Se está grávida ou a 
+amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de tomar este 
+medicamento.
+Condução de veículos e utilização de máquinas
+Uptravi pode causar efeitos indesejáveis tais como dores de cabeça e pressão sanguínea baixa (ver 
+secção 4), que pode afetar a sua capacidade de conduzir; os sintomas da sua doença poderão também 
+torná-lo(a) menos capaz para conduzir.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar uptravi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar uptravi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Uptravi deve apenas ser receitado por um médico com experiência no tratamento da HAP. Tome 
+sempre este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas ou alguma questão. 
+Informe o seu médico, se sentir efeitos indesejáveis, pois o seu médico poderá recomendar que altere a 
+sua dose de Uptravi.
+Informe o seu médico se tiver problemas de fígado ou se estiver a tomar outros medicamentos, pois o 
+seu médico poderá recomendar que tome uma dose mais baixa de Uptravi duas vezes por dia ou 
+apenas uma vez por dia.
+Se tiver visão diminuída ou algum tipo de cegueira, obtenha ajuda de outra pessoa enquanto estiver a 
+tomar Uptravi durante o período de titulação (processo de aumentar a dose gradualmente).
+Encontrar a dose correta para si
+Se o seu médico receitar comprimidos de 200 microgramas
+No início do tratamento, a maioria dos doentes irá tomar um comprimido de 200 microgramas de 
+manhã e outro comprimido de 200 microgramas à noite, com um intervalo de cerca de 12 horas. 
+É recomendado iniciar o tratamento à noite. O seu médico irá dar-lhe instruções para aumentar a sua 
+dose gradualmente. Este processo é chamado de titulação e permite que o seu corpo se adapte ao novo 
+medicamento. O objetivo da titulação é alcançar a dose mais apropriada. Esta corresponderá à dose 
+mais elevada que conseguir tolerar, podendo atingir a dose máxima de 1600 microgramas de manhã e 
+à noite.
+A primeira embalagem de comprimidos que irá receber terá os comprimidos de 200 microgramas de 
+cor amarelo-clara. 
+O seu médico irá informá-lo para aumentar a sua dose em intervalos, em geral semanais, podendo este 
+intervalo ser mais longo.
+Em cada passo, irá adicionar um comprimido de 200 microgramas à sua dose da manhã e outro 
+comprimido de 200 microgramas à sua dose da noite. É recomendado que a primeira toma da dose 
+44
+aumentada seja tomada à noite. O diagrama em baixo mostra o número de comprimidos a tomar a 
+cada manhã e a cada noite durante os primeiros 4 passos de titulação.
+Se o seu médico lhe disser para aumentar ainda mais a sua dose, adicionará um comprimido de 
+200 microgramas à sua dose, de manhã e à noite, em cada novo passo. É recomendado que a primeira 
+toma da dose aumentada seja tomada à noite.
+Se o seu médico lhe der instruções para aumentar ainda mais a sua dose e seguir para o passo 5, deve 
+tomar um comprimido de 800 microgramas, de cor verde, e um comprimido de 200 microgramas, de 
+cor amarelo-clara, de manhã e um comprimido de 800 microgramas e um comprimido de 
+200 microgramas à noite.
+A dose máxima de Uptravi é de 1600 microgramas de manhã e 1600 microgramas à noite. Contudo, 
+nem todos os doentes irão atingir esta dose, dado que doentes diferentes requerem doses diferentes.
+O diagrama em baixo mostra o número de comprimidos a tomar todas as manhãs e todas as noites em 
+cada passo, começando com o passo 5. 45
+Se o seu médico receitar comprimidos de 100 microgramas
+Se o seu fígado não estiver a funcionar bem, ou se estiver a tomar determinados medicamentos, o seu 
+médico pode receitar comprimidos de 100 microgramas como dose inicial.
+No início do tratamento irá tomar um comprimido de 100 microgramas de manhã e outro 
+comprimido de 100 microgramas à noite, com cerca de 12 horas de intervalo. Recomenda-se que 
+inicie o tratamento à noite. O seu médico irá dar-lhe instruções para aumentar gradualmente a dose. A 
+isto dá-se o nome de titulação. Permite que o seu corpo se ajuste ao novo medicamento. O objetivo da 
+titulação é atingir a dose mais adequada. Esta será a dose mais alta que consegue tolerar, que pode 
+atingir uma dose máxima de 800 microgramas de manhã e à noite.
+O seu médico irá dar-lhe instruções para aumentar a dose por passos, geralmente todas as semanas, 
+mas o intervalo entre os aumentos pode ser maior.
+Com cada passo, irá adicionar um comprimido de 100 microgramas à dose da manhã e outro 
+comprimido de 100 microgramas à dose da noite. Recomenda-se que a primeira toma da dose 
+aumentada seja feita à noite. Consulte o guia de titulação do doente incluído na embalagem de 
+titulação para obter instruções sobre como aumentar a dose.
+Fale com o seu médico se parar de tomar, ou se for parar de tomar qualquer medicamento, uma 
+vez que a sua dose de selexipag pode ter de ser ajustada.
+Se o seu médico lhe disser para aumentar ainda mais a dose, acrescente um comprimido de 
+100 microgramas à sua dose da manhã e um comprimido de 100 microgramas à sua dose da noite em 
+cada novo passo. Recomenda-se que a primeira toma da dose aumentada seja feita à noite.
+Se o seu médico lhe der instruções para aumentar a sua dose para mais de 400 microgramas, pode 
+fazê-lo tomando um comprimido vermelho de 400 microgramas e mais um comprimido de cor
+amarelo-clara de 100 microgramas de manhã, e um comprimido de 400 microgramas e mais um 
+46
+comprimido de 100 microgramas à noite. Consulte o guia de titulação do doente incluído na 
+embalagem de titulação para obter instruções sobre como aumentar a dose.
+Quando aumentar a titulação com comprimidos de 100 microgramas, a dose máxima de Uptravi é 
+800 microgramas de manhã e 800 microgramas à noite. No entanto, nem todos os doentes atingem esta 
+dosagem, porque cada doente necessita de uma dosagem diferente.
+Utilizar o guia de titulação durante a titulação
+Irá receber a embalagem de titulação que contém um guia de titulação e um folheto informativo para o 
+doente. O guia de titulação fornece informação sobre o processo de titulação, permitindo-lhe registar o 
+número de comprimidos que toma todos os dias.
+Lembre-se de registar o número de comprimidos que toma todos os dias no seu diário de titulação. 
+Cada passo de titulação dura normalmente 1 semana. Se o seu médico lhe der instruções para 
+prolongar cada passo de titulação para além de 1 semana, existem páginas adicionais no diário que lhe 
+permitem registá-los. Lembre-se de falar com o seu médico ou enfermeiro de HAP regularmente 
+durante a titulação.
+Recuar para uma dose inferior devido a efeitos indesejáveis
+Durante a titulação, poderá sentir efeitos indesejáveis tais como dores de cabeça, diarreia, enjoos 
+(náuseas), vómitos, dor no maxilar, dor muscular, dor nas pernas, dor nas articulações ou vermelhidão 
+da face (ver secção 4). Se estes efeitos indesejáveis forem difíceis de tolerar, fale com o seu médico 
+sobre como os controlar ou tratar. Existem tratamentos disponíveis que podem ajudar a aliviar os 
+efeitos indesejáveis. Por exemplo, medicamentos para as dores tais como o paracetamol podem ajudar 
+a tratar a dor e as dores de cabeça.
+Se os efeitos indesejáveis não puderem ser tratados ou não melhorarem gradualmente na dose que 
+estiver a tomar, o seu médico poderá ajustar a dose, reduzindo-lhe o número de comprimidos de cor 
+amarelo-clara, tomando menos um de manhã e menos outro à noite. O diagrama em baixo mostra os 
+passos a tomar na redução da dose. Faça isto apenas se o seu médico lhe tiver dado instruções para tal.
+Titulação com comprimidos de 200 microgramas
+Se fizer a titulação com comprimidos de 100 microgramas, consulte o guia de titulação do doente 
+incluído na embalagem de titulação para obter instruções sobre como diminuir a dose.
+47
+Se os efeitos indesejáveis forem controláveis após redução da dose, o seu médico poderá decidir 
+mantê-lo(a) nessa dose. Por favor leia a secção Dose de manutenção em baixo para mais informações.
+Dose de manutenção
+A dose mais elevada que conseguir tolerar durante a titulação será a sua dose de manutenção. A sua 
+dose de manutenção é a dose que deve continuar a tomar regularmente.
+O seu médico irá prescrever comprimido(s) com dosagem adequada à sua dose de manutenção. Tal 
+pode permitir-lhe tomar um comprimido uma vez de manhã e uma vez à noite, em vez de tomar 
+vários comprimidos de cada vez.
+Para uma descrição completa dos comprimidos Uptravi, incluindo cores e impressões, por favor leia a 
+secção 6 neste folheto.
+Ao longo do tempo, o seu médico poderá ajustar a dose de manutenção se necessário.
+Se, em qualquer altura, depois de tomar a mesma dose por um período longo de tempo, sentir efeitos 
+indesejáveis que não consegue tolerar ou efeitos indesejáveis que influenciam as suas atividades 
+diárias regulares, deve contactar o seu médico, dado a sua dose poder ter de ser reduzida. O médico 
+poderá então prescrever-lhe uma dosagem menor. Por favor lembre-se de eliminar os comprimidos 
+não utilizados (ver secção 5).
+Tome Uptravi uma vez de manhã e uma vez à noite, com separação de cerca de 12 horas.
+Tome os comprimidos com as refeições uma vez que poderá tolerar melhor o medicamento. A película 
+do comprimido fornece proteção. Engula os comprimidos inteiros com um copo de água. Não divida 
+ou esmague os comprimidos.
+Se tomar mais Uptravi do que deveria
+Se tomar mais comprimidos do que aqueles que lhe disseram para tomar, aconselhe-se com o seu 
+médico.
+Caso se tenha esquecido de tomar Uptravi
+Caso se tenha esquecido de tomar Uptravi, tome uma dose logo que se recorde, continuando depois a 
+tomar os seus comprimidos às horas habituais. Se estiver quase na altura de tomar a sua próxima dose 
+(no espaço de 6 horas antes de a tomar normalmente), deve ignorar a dose que falhou e continuar a 
+tomar o seu medicamento à hora habitual. Não tome uma dose a dobrar para compensar uma dose 
+que se esqueceu de tomar.
+Se parar de tomar Uptravi
+Interromper subitamente o seu tratamento com Uptravi pode conduzir a um agravamento dos seus 
+sintomas. Não pare de tomar Uptravi a menos que o seu médico assim o indique. O seu médico poderá 
+dizer-lhe para reduzir a dose gradualmente antes de parar por completo.
+Se, por qualquer razão, parar de tomar Uptravi durante mais de 3 dias consecutivos (se se esqueceu de 
+tomar 3 doses de manhã e 3 doses à noite, ou 6 doses ou mais de seguida), contacte imediatamente o 
+seu médico uma vez que a sua dose poderá ter de ser ajustada a fim de evitar efeitos 
+indesejáveis. O seu médico poderá decidir reiniciar o seu tratamento com uma dose inferior, 
+aumentando gradualmente até atingir a dose de manutenção prévia.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.
+48</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Pode sentir efeitos indesejáveis não só durante o período de 
+titulação quando a dose está a ser aumentada, mas também mais tarde depois de tomar a mesma dose 
+por um período longo de tempo.
+Se sentir qualquer um destes efeitos indesejáveis: dores de cabeça, diarreia, sentir-se enjoado(a) 
+(náuseas), vómitos, dor no maxilar, dor muscular, dor nas pernas, dor nas articulações, ou 
+vermelhidão da face, e não for capaz de os tolerar ou que não possam ser tratados, deve 
+contactar o seu médico, dado que a dose que está a tomar poder ser demasiado elevada para si, e 
+pode ser necessário reduzi-la.
+Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas)
+-
+Dores de cabeça
+-
+Rubor (vermelhidão da face)
+-
+Náusea e vómitos (sentir-se maldisposto e enjoado)
+-
+Diarreia
+-
+Dor no maxilar, dor muscular, dor nas articulações, dor nas pernas
+-
+Nasofaringite (nariz entupido)
+Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas)
+-
+Anemia (níveis de glóbulos vermelhos baixos)
+-
+Hipertiroidismo (glândula tiroideia hiperativa)
+-
+Redução do apetite
+-
+Perda de peso
+-
+Hipotensão (pressão sanguínea baixa)
+-
+Dor de estômago, incluindo indigestão
+-
+Dor
+-
+Alterações nas análises ao sangue, incluindo a contagem das células sanguíneas ou da função 
+tiroideia
+-
+Erupções cutâneas, incluindo urticária, podem causar uma sensação de ardor ou picada e 
+vermelhidão da pele
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas)
+-
+Aumento da frequência cardíaca
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar uptravi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar uptravi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+ou no rótulo do frasco, após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de quaisquer precauções especiais de conservação.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.
+49</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Uptravi
+A substância ativa é selexipag.
+Uptravi 100 microgramas comprimidos revestidos por película contém 100 microgramas de selexipag
+Uptravi 200 microgramas comprimidos revestidos por película contém 200 microgramas de selexipag
+Uptravi 400 microgramas comprimidos revestidos por película contém 400 microgramas de selexipag
+Uptravi 600 microgramas comprimidos revestidos por película contém 600 microgramas de selexipag
+Uptravi 800 microgramas comprimidos revestidos por película contém 800 microgramas de selexipag
+Uptravi 1000 microgramas comprimidos revestidos por película contém 1000 microgramas de 
+selexipag
+Uptravi 1200 microgramas comprimidos revestidos por película contém 1200 microgramas de 
+selexipag
+Uptravi 1400 microgramas comprimidos revestidos por película contém 1400 microgramas de 
+selexipag
+Uptravi 1600 microgramas comprimidos revestidos por película contém 1600 microgramas de 
+selexipag
+Os outros componentes são:
+Núcleo do comprimido
+Manitol (E421)
+Amido de milho
+Hidroxipropilcelulose de baixa substituição
+Hidroxipropilcelulose 
+Estearato de magnésio
+Película de revestimento
+Hipromelose (E464)
+Propilenoglicol (E1520)
+Dióxido de titânio (E171)
+Óxidos de ferro (E172)
+Cera de carnaúba
+Uptravi 100 microgramas comprimidos revestidos por película contém óxido de ferro amarelo, óxido 
+de ferro preto (E172) e talco.
+Uptravi 200 microgramas comprimidos revestidos por película contém óxido de ferro amarelo (E172).
+Uptravi 400 microgramas comprimidos revestidos por película contém óxido de ferro vermelho 
+(E172).
+Uptravi 600 microgramas comprimidos revestidos por película contém óxido de ferro vermelho e 
+óxido de ferro preto (E172).
+Uptravi 800 microgramas comprimidos revestidos por película contém óxido de ferro amarelo e óxido 
+de ferro preto (E172).
+Uptravi 1000 microgramas comprimidos revestidos por película contém óxido de ferro vermelho e 
+óxido de ferro amarelo (E172).
+Uptravi 1200 microgramas comprimidos revestidos por película contém óxido de ferro preto e óxido 
+de ferro vermelho (E172).
+Uptravi 1400 microgramas comprimidos revestidos por película contém óxido de ferro amarelo 
+(E172).
+Uptravi 1600 microgramas comprimidos revestidos por película contém óxido de ferro preto, óxido de 
+ferro vermelho e óxido de ferro amarelo (E172).
+50
+Qual o aspeto de Uptravi e conteúdo da embalagem
+Uptravi 100 microgramas comprimidos revestidos por película: Comprimidos revestidos por película,
+redondos, com 3,0 mm de diâmetro, de cor amarelo-clara, com um “1" marcado num dos lados.
+Uptravi 200 microgramas comprimidos revestidos por película: Comprimidos revestidos por película, 
+redondos, com 7,3 mm de diâmetro, de cor amarelo-clara, com um “2" marcado num dos lados.
+Uptravi 400 microgramas comprimidos revestidos por película: Comprimidos revestidos por película, 
+redondos, com 7,3 mm de diâmetro, de cor vermelha, com um “4" marcado num dos lados.
+Uptravi 600 microgramas comprimidos revestidos por película: Comprimidos revestidos por película, 
+redondos, com 7,3 mm de diâmetro, de cor violeta-clara, com um “6" marcado num dos lados.
+Uptravi 800 microgramas comprimidos revestidos por película: Comprimidos revestidos por película, 
+redondos, com 7,3 mm de diâmetro, de cor verde, com um “8" marcado num dos lados.
+Uptravi 1000 microgramas comprimidos revestidos por película: Comprimidos revestidos por película, 
+redondos, com 7,3 mm de diâmetro, de cor laranja, com um “10" marcado num dos lados.
+Uptravi 1200 microgramas comprimidos revestidos por película: Comprimidos revestidos por película, 
+redondos, com 7,3 mm de diâmetro, de cor violeta-escura, com um “12" marcado num dos lados.
+Uptravi 1400 microgramas comprimidos revestidos por película: Comprimidos revestidos por película, 
+redondos, com 7,3 mm de diâmetro, de cor amarelo-escura, com um “14" marcado num dos lados.
+Uptravi 1600 microgramas comprimidos revestidos por película: Comprimidos revestidos por película, 
+redondos, com 7,3 mm de diâmetro, de cor castanha, com um “16" marcado num dos lados.
+Uptravi 100 microgramas comprimidos revestidos por película é fornecido em frascos de 
+60 comprimidos e de 140 comprimidos (embalagem de titulação).
+Uptravi 200 microgramas comprimidos revestidos por película são fornecidos em embalagens de 
+blisters de 10 ou 60 comprimidos e 60 ou 140 comprimidos (embalagens de titulação). 
+Uptravi 400 microgramas, 600 microgramas, 800 microgramas, 1000 microgramas, 
+1200 microgramas, 1400 microgramas e 1600 microgramas comprimidos revestidos por película são 
+fornecidos em embalagens de blisters de 60 comprimidos.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Bélgica
+Fabricante
+Janssen Pharmaceutica NV
+Turnhoutseweg 30
+B-2340 Beerse
+Bélgica
+51
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+52
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Irlanda do Norte)
+Janssen Sciences Ireland UC 
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Este folheto foi revisto pela última vez em 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1710,6 +2304,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-f797cc0b9b4e9335a18d81e479368f3c"
 * entry[0].resource = composition-da-f797cc0b9b4e9335a18d81e479368f3c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf797cc0b9b4e9335a18d81e479368f3c"
+* entry[=].resource = mpf797cc0b9b4e9335a18d81e479368f3c
+                            
+                    
+Instance: bundlepackageleaflet-pt-f797cc0b9b4e9335a18d81e479368f3c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for uptravi Package Leaflet for language pt"
+Description: "ePI document Bundle for uptravi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-f797cc0b9b4e9335a18d81e479368f3c"
+* entry[0].resource = composition-pt-f797cc0b9b4e9335a18d81e479368f3c
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpf797cc0b9b4e9335a18d81e479368f3c"
@@ -1811,6 +2427,18 @@ RuleSet: f797cc0b9b4e9335a18d81e479368f3cListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-f797cc0b9b4e9335a18d81e479368f3c) // uptravi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -852,6 +852,479 @@ bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nye
 
 
 
+Instance: composition-pt-a0f24920a40b1c73ed1d880ba04e208e
+InstanceOf: CompositionUvEpi
+Title: "Composition for sirturo Package Leaflet"
+Description:  "Composition for sirturo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa0f24920a40b1c73ed1d880ba04e208e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - sirturo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é SIRTURO e para que é utilizado
+2. O que precisa de saber antes de tomar SIRTURO
+3. Como tomar SIRTURO
+4. Efeitos indesejáveis possíveis
+5. Como conservar SIRTURO
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é sirturo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é sirturo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SIRTURO contém a substância ativa bedaquilina.
+SIRTURO é um tipo de antibiótico. Os antibióticos são medicamentos que matam bactérias que 
+causam doenças.
+SIRTURO é utilizado para tratar a tuberculose que afeta os pulmões, quando a doença se tornou 
+resistente a outros antibióticos. Esta é denominada de tuberculose pulmonar multirresistente.
+SIRTURO tem de ser sempre tomado com outros medicamentos para o tratamento da tuberculose.
+É utilizado em adultos e crianças (idade igual ou superior a 5 anos, com um peso mínimo de 15 kg).</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar sirturo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar sirturo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome SIRTURO
+
+se tem alergia à bedaquilina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Não tome SIRTURO se isto se aplica a si. Se não tem a certeza, fale com o seu 
+médico ou farmacêutico antes de tomar SIRTURO.
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar SIRTURO se:
+
+tem um traçado anormal do coração no eletrocardiograma (ECG) ou insuficiência cardíaca;
+
+tem história pessoal ou familiar de um problema no coração chamado “síndrome do QT longo 
+congénito";
+
+se tem uma diminuição do funcionamento da glândula tiroide. Isto pode ser verificado numa
+análise ao sangue;
+
+se tem doença no fígado ou se bebe álcool de uma forma regular;
+
+tem infeção pelo vírus da imunodeficiência humana (VIH).
+40
+Se alguma das situações acima se aplicar a si (ou se não tiver a certeza), fale com o seu médico, 
+farmacêutico ou enfermeiro antes de tomar SIRTURO.
+Crianças e adolescentes
+Nos adolescentes com peso entre os 30 e 40 kg, os níveis de SIRTURO no sangue foram previstos 
+serem mais elevados do que nos adultos. Isto pode estar associado com um risco aumentado de leitura 
+anormal no electrocardiograma (prolongamento QT) ou aumento de enzimas hepáticos (mostrado nos 
+testes sanguíneos). Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar SIRTURO.
+Não dê este medicamento a crianças com menos de 5 anos de idade ou que pesem menos de 15 kg 
+porque ainda não foi estudado nestes doentes.
+Outros medicamentos e SIRTURO
+SIRTURO pode ser afetado por outros medicamentos. Informe o seu médico ou farmacêutico se 
+estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros medicamentos.
+Em seguida apresentam-se exemplos de medicamentos que os doentes com tuberculose 
+multirresistente podem tomar e que podem potencialmente interagir com SIRTURO:
+Medicamento (nome da substância ativa)
+Utilização do medicamento 
+rifampicina, rifapentina, rifabutina
+para tratar algumas infeções como a tuberculose
+(antimicobacterianos) 
+cetoconazol, fluconazol
+para tratar infeções por fungos (antifúngicos)
+efavirenz, etravirina, lopinavir/ritonavir
+para tratar a infeção por VIH (antirretrovirais 
+inibidores não nucleosidos da transcriptase reversa, 
+antirretrovirais inibidores da protease)
+clofazimina
+para tratar infeções como a lepra
+(antimicobacteriano)
+carbamazepina, fenitoína
+para tratar convulsões epiléticas (anticonvulsivante)
+hipericão (Hypericum perforatum)
+um produto à base de plantas para alívio da ansiedade
+ciprofloxacina, eritromicina, claritromicina
+para tratar infeções bacterianas (antibacterianos)
+SIRTURO com álcool
+Não deve beber álcool enquanto estiver a tomar SIRTURO.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Condução de veículos e utilização de máquinas
+Pode sentir tonturas após tomar SIRTURO. Se isto acontecer, não conduza nem utilize máquinas.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar sirturo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar sirturo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.
+SIRTURO tem de ser sempre tomado com outros medicamentos para o tratamento da tuberculose. O 
+seu médico irá decidir quais os outros medicamentos que deve tomar com SIRTURO.
+41
+Uso em crianças (idade igual ou superior a 5 anos e que pesem entre 15 kg e 20 kg)
+Quanto deve tomar
+Deve tomar SIRTURO durante um período de 24 semanas.
+Primeiras 2 semanas:
+
+Tome 160 mg uma vez por dia.
+Da semana 3 até à semana 24:
+
+Tome 80 mg uma vez por dia apenas durante 3 dias de cada semana.
+
+Tem de haver um intervalo de, pelo menos, 48 horas entre cada vez que toma SIRTURO. 
+Por exemplo, pode tomar SIRTURO na segunda-feira, quarta-feira e sexta-feira de todas 
+as semanas a partir da semana 3 em diante.
+Uso em crianças (idade igual ou superior a 5 anos e que pesem entre 20 kg e 30 kg)
+Quanto deve tomar
+Deve tomar SIRTURO durante um período de 24 semanas.
+Primeiras 2 semanas:
+
+Tome 200 mg uma vez por dia.
+Da semana 3 até à semana 24:
+
+Tome 100 mg uma vez por dia apenas durante 3 dias de cada semana.
+
+Tem de haver um intervalo de, pelo menos, 48 horas entre cada vez que toma SIRTURO. 
+Por exemplo, pode tomar SIRTURO na segunda-feira, quarta-feira e sexta-feira de todas 
+as semanas a partir da semana 3 em diante.
+Pode ter que continuar a tomar os seus outros medicamentos para a tuberculose por mais de 6 meses. 
+Fale com o seu médico ou farmacêutico.
+Uso em adultos e crianças (idade igual ou superior a 5 anos e que pesem pelo menos 30 kg)
+Quanto deve tomar
+Deve tomar SIRTURO durante um período de 24 semanas.
+Primeiras 2 semanas:
+
+Tome 400 mg uma vez por dia.
+Da semana 3 até à semana 24:
+
+Tome 200 mg uma vez por dia apenas durante 3 dias de cada semana.
+
+Tem de haver um intervalo de, pelo menos, 48 horas entre cada vez que toma SIRTURO. 
+Por exemplo, pode tomar SIRTURO na segunda-feira, quarta-feira e sexta-feira de todas 
+as semanas a partir da semana 3 em diante.
+Tomar este medicamento
+
+Tome sempre SIRTURO com alimentos. Os alimentos são importantes para obter os níveis 
+adequados de medicamento no seu organismo.
+Se consegue engolir comprimidos
+
+Engula os comprimidos com água - os comprimidos podem ser tomados inteiros ou divididos 
+ao meio.
+Se não consegue engolir comprimidos
+
+Se não é capaz de engolir os comprimidos de SIRTURO, pode:
+
+Misturar com água: Misture até 5 comprimidos por cada colher de chá de água até 
+ficarem completamente misturados.
+o
+Engula a mistura imediatamente, ou
+o
+Para ajudar com a toma de SIRTURO, pode adicionar pelo menos uma colher 
+adicional de água (ou de outra bebida) ou de um alimento mole e misturar.
+o
+Pode usar uma das seguintes bebidas para misturar: água, produtos à base de leite, 
+sumo de maçã, sumo de laranja, sumo de arando ou bebidas com gás. Pode usar um 
+42
+dos seguintes alimentos moles para misturar: iogurte, puré de maçã, banana 
+esmagada ou papa de aveia.
+o
+Engula a mistura imediatamente.
+o
+Repita com mais comprimidos até ter tomado a dose completa.
+o
+Assegure-se de que não restam pedaços do comprimido no recipiente - adicione 
+mais bebida ou alimento mole e engula a mistura imediatamente.
+
+Esmagar o comprimido e misturar com alimentos moles: Pode usar alimentos moles 
+como iogurte, puré de maçã, banana esmagada ou papa de aveia. Engula a mistura 
+imediatamente. Assegure-se de que não restam pedaços do comprimido no recipiente -
+adicione mais alimento mole e ingira a mistura imediatamente.
+
+Sonda de alimentação: Os comprimidos de SIRTURO 20 mg podem também ser 
+administrados através de certos tubos de alimentação. Fale com o seu prestador de 
+cuidados de saúde para obter instruções específicas sobre como tomar de forma adequada 
+os comprimidos através de uma sonda de alimentação.
+Se tomar mais SIRTURO do que deveria
+Se tomar mais SIRTURO do que deveria, fale com um médico imediatamente. Leve a embalagem do 
+medicamento consigo.
+Caso se tenha esquecido de tomar SIRTURO
+Durante as primeiras 2 semanas
+
+Não tome a dose esquecida e tome a dose seguinte da forma habitual.
+
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Desde a semana 3 em diante
+
+Tome a dose esquecida logo que possível.
+
+Retome o intervalo de administração de três vezes por semana.
+
+Assegure-se de que há um intervalo de pelo menos 24 horas entre a dose que se esqueceu de 
+tomar e a próxima dose agendada.
+
+Não tome mais do que a dose semanal que lhe foi receitada num período de 7 dias.
+Se se esqueceu de uma dose e não tem a certeza do que fazer, fale com o seu médico ou farmacêutico.
+Se parar de tomar SIRTURO
+Não pare de tomar SIRTURO sem falar primeiro com o seu médico.
+Saltar doses ou não concluir o período completo de tratamento pode:
+
+tornar o seu tratamento ineficaz e a sua tuberculose pode piorar, e;
+
+aumentar a probabilidade de as bactérias se tornarem resistentes ao medicamento. Isto significa 
+que no futuro, a sua doença pode não ser tratável com SIRTURO ou outros medicamentos.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Muito frequentes (pode afetar mais de 1 em 10 pessoas):
+
+dor de cabeça
+
+dor nas articulações
+
+sensação de tontura
+
+sentir ou ter enjoos (náuseas ou vómitos).
+43
+Frequentes (pode afetar 1 em 10 pessoas):
+
+diarreia
+
+aumento das enzimas do fígado (demonstrado em análises ao sangue)
+
+dor ou sensibilidade muscular, não causada por exercício
+
+traçado anormal do eletrocardiograma denominado por “prolongamento do intervalo QT". 
+Informe imediatamente o seu médico se desmaiar.
+Efeitos indesejáveis adicionais em crianças
+Muito frequentes (pode afetar mais de 1 em 10 pessoas):
+
+enzimas do fígado aumentadas (demonstrado em análises ao sangue)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar sirturo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar sirturo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após VAL. O 
+prazo de validade corresponde ao último dia do mês indicado.
+Conserve na embalagem de origem e mantenha a embalagem bem fechada para proteger da luz e da 
+humidade. Não remova o exsicante (bolsa contendo um agente secante).
+Este medicamento pode representar um risco para o ambiente. Não deite fora quaisquer medicamentos 
+na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos 
+que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de SIRTURO
+
+A substância ativa é a bedaquilina. Cada comprimido contém fumarato de bedaquilina 
+equivalente a 20 mg de bedaquilina.
+
+Os outros componentes são: celulose microcristalina, crospovidona, sílica coloidal anidra, 
+hipromelose, polissorbato 20 e estearil fumarato de sódio.
+Qual o aspeto de SIRTURO e conteúdo da embalagem
+Comprimido não revestido, branco a quase branco, oblongo, ranhurado em ambas as faces, com as
+gravações “2" e “0" numa das faces e liso na outra face.
+Um frasco de plástico contém 60 comprimidos.
+Titular da Autorização de Introdução no Mercado
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Bélgica
+Fabricante
+Janssen Pharmaceutica NV
+Turnhoutseweg 30
+44
+B-2340 Beerse
+Bélgica
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+45
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Este folheto foi revisto pela última vez em
+Foi concedida a este medicamento uma “Autorização de Introdução no Mercado condicional". Isto 
+significa que se aguarda mais informação sobre este medicamento.
+A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
+sobre este medicamento e este folheto será atualizado se necessário.
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -893,6 +1366,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-a0f24920a40b1c73ed1d880ba04e208e"
 * entry[0].resource = composition-da-a0f24920a40b1c73ed1d880ba04e208e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa0f24920a40b1c73ed1d880ba04e208e"
+* entry[=].resource = mpa0f24920a40b1c73ed1d880ba04e208e
+                            
+                    
+Instance: bundlepackageleaflet-pt-a0f24920a40b1c73ed1d880ba04e208e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sirturo Package Leaflet for language pt"
+Description: "ePI document Bundle for sirturo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-a0f24920a40b1c73ed1d880ba04e208e"
+* entry[0].resource = composition-pt-a0f24920a40b1c73ed1d880ba04e208e
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpa0f24920a40b1c73ed1d880ba04e208e"
@@ -994,6 +1489,18 @@ RuleSet: a0f24920a40b1c73ed1d880ba04e208eListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-a0f24920a40b1c73ed1d880ba04e208e) // sirturo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

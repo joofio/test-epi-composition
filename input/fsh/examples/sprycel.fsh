@@ -904,6 +904,524 @@ ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel
 
 
 
+Instance: composition-pt-9ef90a3b084c8b791046c3e0616188b5
+InstanceOf: CompositionUvEpi
+Title: "Composition for sprycel Package Leaflet"
+Description:  "Composition for sprycel Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9ef90a3b084c8b791046c3e0616188b5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - sprycel"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é SPRYCEL e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar SPRYCEL </li>
+<li>Como tomar SPRYCEL </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar SPRYCEL </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é sprycel e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é sprycel e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SPRYCEL contém a substância ativa dasatinib. Este medicamento é utilizado para o tratamento da 
+leucemia mieloide crónica (LMC) em adultos, adolescentes e crianças com pelo menos 1 ano de idade. 
+A leucemia é um cancro dos glóbulos brancos do sangue. Estes glóbulos brancos geralmente ajudam o 
+organismo a combater infeções. Em pessoas com LMC, os glóbulos brancos denominados 
+granulócitos começam a crescer sem controlo. SPRYCEL inibe (impede) o crescimento destas células 
+leucémicas. </p>
+<p>SPRYCEL é também utilizado para tratar a leucemia linfoblástica aguda (LLA) positiva para o 
+cromossoma Filadélfia (Ph+) em adultos, adolescentes e crianças com pelo menos 1 ano de idade e 
+LMC em crise blástica linfoide em adultos que não estão a beneficiar de terapêuticas prévias. Em 
+pessoas com LLA, os glóbulos brancos chamados linfócitos multiplicam-se muito rapidamente e têm 
+uma vida muito longa. SPRYCEL inibe o aumento destas células leucémicas. </p>
+<p>Se tiver quaisquer questões sobre o modo de ação de SPRYCEL ou porque este medicamento lhe foi 
+prescrito, consulte o seu médico. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar sprycel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar sprycel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome SPRYCEL </p>
+<ul>
+<li>se tem alergia a dasatinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+Se pode ser alérgico, consulte o seu médico para aconselhamento. </li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar SPRYCEL  </p>
+<ul>
+<li>
+<p>se está a tomar medicamentos para fluidificar o sangue ou prevenir formação de coágulos 
+(ver "Outros medicamentos e SPRYCEL") </p>
+</li>
+<li>
+<p>se tem problemas no fígado ou no coração, ou costumava ter </p>
+</li>
+<li>
+<p>se começar a ter dificuldade em respirar, dor no peito ou tosse enquanto toma SPRYCEL: 
+podem ser sinais de retenção de líquido nos pulmões ou no peito (que pode ser mais frequente 
+em doentes com 65 anos ou mais), ou devido a alterações nos vasos sanguíneos que fornecem os 
+pulmões </p>
+</li>
+<li>
+<p>se alguma vez teve ou possa ter uma infeção pelo vírus da hepatite B. SPRYCEL pode fazer 
+com que a hepatite B volte a ficar ativa, o que pode levar à morte em alguns casos.  Os doentes 
+devem ser avaliados cuidadosamente pelo médico para identificar sinais desta infeção antes de 
+iniciarem o tratamento. </p>
+</li>
+<li>
+<p>se apresentar nódoas negras (hematomas), sangramentos (hemorragias), febre, fadiga e confusão 
+quando tomar SPRYCEL, contacte o seu médico. Este pode ser um sinal de danos nos vasos 
+sanguíneos conhecido como microangiopatia trombótica (MAT). </p>
+</li>
+</ul>
+<p>O seu médico irá verificar regularmente a sua situação para confirmar se SPRYCEL está a ter o efeito 
+desejado. Durante o tratamento com SPRYCEL também lhe serão feitas regularmente análises ao 
+sangue. </p>
+<p>Crianças e adolescentes 
+Não administre este medicamento a crianças com menos de um ano de idade. A experiência da 
+utilização de SPRYCEL neste grupo etário é limitada. O crescimento e desenvolvimento ósseo serão 
+cuidadosamente monitorizados em crianças que estejam a tomar SPRYCEL. </p>
+<p>Outros medicamentos e SPRYCEL 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. </p>
+<p>SPRYCEL é degradado principalmente pelo fígado. Certos medicamentos podem interferir com o 
+efeito de SPRYCEL quando tomados em conjunto. </p>
+<p>Os seguintes medicamentos não podem ser utilizados com SPRYCEL: </p>
+<ul>
+<li>
+<p>cetoconazol, itraconazol - são medicamentos antifúngicos </p>
+</li>
+<li>
+<p>eritromicina, claritromicina, telitromicina - são antibióticos </p>
+</li>
+<li>
+<p>ritonavir - é um medicamento antivírico </p>
+</li>
+<li>
+<p>fenitoína, carbamazepina, fenobarbital - são tratamentos para a epilepsia </p>
+</li>
+<li>
+<p>rifampicina - é um tratamento para a tuberculose </p>
+</li>
+<li>
+<p>famotidina, omeprazol - são medicamentos que bloqueiam os ácidos do estômago </p>
+</li>
+<li>
+<p>hipericão - uma preparação de plantas medicinais obtida sem receita médica utilizada para tratar 
+a depressão e outras condições (também conhecida como Hypericum perforatum) </p>
+</li>
+</ul>
+<p>Não tome medicamentos que neutralizam os ácidos do estômago (antiácidos como o hidróxido de 
+alumínio ou hidróxido de magnésio) nas 2 horas antes ou 2 horas após tomar SPRYCEL. </p>
+<p>Informe o seu médico se estiver a tomar medicamentos para fluidificar o sangue ou prevenir a 
+formação de coágulos. </p>
+<p>SPRYCEL com alimentos e bebidas 
+Não tome SPRYCEL com toranja ou sumo de toranja. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou pensa poder estar grávida, consulte imediatamente o seu médico. SPRYCEL 
+não se destina a ser utilizado durante a gravidez a não ser que claramente necessário. O seu médico 
+analisará consigo o risco potencial de tomar SPRYCEL durante a gravidez. 
+Tanto os homens como as mulheres a tomar SPRYCEL serão aconselhados a utilizar um método 
+contracetivo eficaz durante o tratamento. </p>
+<p>Se estiver a amamentar, avise o seu médico. Deverá suspender a amamentação enquanto estiver a 
+tomar SPRYCEL. </p>
+<p>Condução de veículos e utilização de máquinas 
+Caso tenha efeitos indesejáveis como tonturas e visão turva, deverá ter precaução particular quando 
+conduzir ou utilizar máquinas. </p>
+<p>SPRYCEL contém lactose 
+Se lhe foi dito pelo seu médico que tem uma intolerância a alguns açúcares, avise o seu médico antes 
+de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar sprycel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar sprycel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SPRYCEL apenas lhe será prescrito por um médico com experência no tratamento de leucemia. Tome 
+este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. SPRYCEL é prescrito para adultos e para crianças com pelo menos 1 
+ano de idade. </p>
+<p>A dose inicial recomendada para doentes adultos com LMC em fase crónica é de 100 mg uma 
+vez por dia. </p>
+<p>A dose inicial recomendada para doentes adultos com LMC acelerada ou em crise blástica ou 
+LLA Ph+ é de 140 mg uma vez por dia. </p>
+<p>A posologia para crianças com LMC em fase crónica ou LLA Ph+ baseia-se no peso corporal. 
+SPRYCEL é administrado por via oral uma vez por dia sob a forma de comprimidos SPRYCEL ou pó 
+para suspensão oral SPRYCEL. Os comprimidos de SPRYCEL não são recomendados para doentes 
+com peso inferior a 10 kg. O pó para suspensão oral deve ser usado em doentes com um peso inferior 
+a 10 kg e doentes que não consigam engolir comprimidos. Poderá verificar-se uma alteração na dose 
+ao ser efetuada a troca de formulação (isto é, comprimidos e pó para suspensão oral), portanto, não 
+deverá trocar de uma formulação para outra. </p>
+<p>O médico decidirá qual a formulação e dose corretas com base no seu peso, quaisquer efeitos 
+indesejáveis e resposta ao tratamento. A dose inicial de SPRYCEL para crianças é calculada com base 
+no peso corporal como mostrado abaixo: </p>
+<p>Peso corporal (kg)a 
+Dose diária (mg) 
+10 a menos de 20 kg 
+40 mg 
+20 a menos de 30 kg 
+60 mg 
+30 a menos de 45 kg 
+70 mg 
+pelo menos 45 kg 
+100 mg 
+a O comprimido não é recomendado para doentes com peso inferior a 10 kg; o pó para suspensão oral deve ser utilizados 
+para estes doentes. </p>
+<p>Não existe uma dose recomendada de SPRYCEL para crianças com menos de 1 ano de idade.  </p>
+<p>Dependendo de como responder ao tratamento, o seu médico poderá sugerir uma dose superior ou 
+inferior, ou mesmo interromper o tratamento por pouco tempo. Para doses superiores ou inferiores 
+poderá necessitar de tomar a associação de comprimidos de diferentes dosagens. </p>
+<p>Os comprimidos podem-se apresentar em embalagens com blisters calendário. São blisters, 
+indicando os dias da semana. Há setas a indicar o comprimido seguinte a ser tomado conforme o 
+esquema de tratamento. </p>
+<p>Como tomar SPRYCEL 
+Tome os comprimidos sempre à mesma hora todos os dias. Tome os comprimidos inteiros. Não os 
+esmague, corte ou mastigue. Não tome comprimidos dispersos. Não é certo que administre a dose </p>
+<p>correcta se esmagar, cortar, mastigar ou dispersar os comprimidos. Os comprimidos de SPRYCEL 
+podem ser tomados com ou sem alimentos. </p>
+<p>Precauções especiais de manipulação de SPRYCEL 
+É improvável que os comprimidos de SPRYCEL se partam. Mas, caso tal aconteça, as outras pessoas, 
+para além dos doentes, devem utilizar luvas quando manipularem SPRYCEL. </p>
+<p>Durante quanto tempo tomar SPRYCEL 
+Tome SPRYCEL diariamente até que o seu médico lhe diga para parar. Assegure-se de que toma 
+SPRYCEL durante o período prescrito (receitado). </p>
+<p>Se tomar mais SPRYCEL do que deveria 
+Se acidentalmente tomar demasiados comprimidos, avise o seu médico imediatamente. Poderá 
+precisar de cuidados médicos. </p>
+<p>Caso se tenha esquecido de tomar SPRYCEL 
+Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. Tome a 
+próxima dose à hora prevista. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>As seguintes situações podem ser sinais de efeitos indesejáveis graves: </p>
+<ul>
+<li>
+<p>caso tenha dor no peito, dificuldade em respirar, tosse e desmaio </p>
+</li>
+<li>
+<p>caso tenha hemorragias inesperadas ou formação de nódoas negras sem ter tido uma lesão </p>
+</li>
+<li>
+<p>caso note sangue no vómito, nas fezes ou urina ou tenha as fezes escuras </p>
+</li>
+<li>
+<p>caso tenha sinais de infeção como febre, arrepios fortes </p>
+</li>
+<li>
+<p>caso tenha febre, boca ou garganta inflamada, formação de bolhas ou descamação da pele e/ou 
+das mucosas 
+Contacte o seu médico imediatamente se notar alguma das situações acima referidas. </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Infeções (incluindo bacteriana, viral e fúngica) </p>
+</li>
+<li>
+<p>Coração e pulmões: falta de ar </p>
+</li>
+<li>
+<p>Problemas digestivos: diarreia, sensação de doença ou doença (náuseas e vómitos) </p>
+</li>
+<li>
+<p>Pele, cabelo, olhos, gerais: erupção na pele, febre, inchaço em volta da face, das mãos e dos pés, 
+dores de cabeça, sensação de cansaço ou fraqueza, hemorragia </p>
+</li>
+<li>
+<p>Dor: dores musculares (durante ou após a descontinuação do tratamento), dor de barriga 
+(abdominal) </p>
+</li>
+<li>
+<p>Os exames podem mostrar: valor baixo de número de plaquetas, valor baixo de número de 
+glóbulos brancos (neutropenia), anemia, líquido em volta dos pulmões </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>Infeções: pneumonia, infeção pelo vírus herpes (incluindo citomegalovírus - CMV), infeção do 
+trato respiratório superior, infeção grave do sangue ou dos tecidos (incluindo casos pouco 
+frequentes com desfechos fatais) </p>
+</li>
+<li>
+<p>Coração e pulmões: palpitações, batimento cardíaco irregular, insuficiência cardíaca 
+congestiva, músculo do coração fraco, pressão arterial elevada, pressão sanguínea aumentada 
+nos pulmões, tosse </p>
+</li>
+<li>
+<p>Problemas digestivos: alteração do apetite, alteração do paladar, barriga (abdómen) inchada ou 
+distendida, inflamação do cólon (intestinos), prisão de ventre, azia, ulceração na boca, aumento 
+de peso, diminuição de peso, gastrite </p>
+</li>
+<li>
+<p>Pele, cabelo, olhos, gerais: sensação de formigueiro, comichão, pele seca, acne, inflamação da 
+pele, ruído persistente nos ouvidos, queda de cabelo, transpiração excessiva, alterações da visão 
+(incluindo visão turva e visão distorcida), secura ocular, nódoas negras, depressão, insónia, 
+vermelhidão, tonturas, contusão (nódoa negra), anorexia (falta de apetite), sonolência, edema 
+generalizado </p>
+</li>
+<li>
+<p>Dor: dor nas articulações, fraqueza muscular, dor no peito, dor em volta das mãos e dos pés, 
+arrepios, rigidez nos músculos e nas articulações, espasmos musculares </p>
+</li>
+<li>
+<p>Os exames podem mostrar: líquido em volta do coração, líquido nos pulmões, arritmia, 
+neutropenia febril, hemorragia gastrointestinal, níveis elevados de ácido úrico no sangue </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>Coração e pulmões: ataque cardíaco (incluindo desfechos fatais), inflamação da membrana que 
+reveste o coração (saco fibroso), ritmo cardíaco irregular, dor no peito por falta de fornecimento 
+de sangue ao coração (angina), pressão arterial baixa, estreitamento das vias respiratórias que 
+pode provocar dificuldades em respirar, asma, pressão sanguínea aumentada nas artérias (vasos 
+sanguíneos) dos pulmões </p>
+</li>
+<li>
+<p>Problemas digestivos: inflamação do pâncreas, úlcera péptica, inflamação do tubo digestivo, 
+barriga (abdómen) inchada, rasgo na pele do canal anal, dificuldade em engolir, inflamação da 
+vesícula biliar, bloqueio dos ductos biliares, refluxo gastro-esofágico (uma doença em que o 
+ácido ou outros conteúdos do estômago voltam a subir para a garganta) </p>
+</li>
+<li>
+<p>Pele, cabelo, olhos, geral: reações alérgicas, incluíndo nódulos vermelhos e moles na pele 
+(eritema nodoso), ansiedade, confusão, alterações do humor, diminuição do desejo sexual, 
+desmaios, tremor, inflamação do olho que provoca vermelhidão ou dor, uma doença na pele 
+caracterizada por manchas vermelhas, moles e bem definidas, acompanhadas de febre de início 
+rápido e valor alto do número de células brancas no sangue (dermatose neutrófila), perda de 
+audição, sensibilidade à luz, insuficiência visual, aumento de formação de lágrima, alteração na 
+coloração da pele, inflamação do tecido gordo sob a pele, úlceras na pele, bolhas na pele, 
+alterações nas unhas, alterações no cabelo, alterações nos pés e mãos, insuficiência renal, 
+frequência em urinar, aumento dos seios nos homens, perturbação menstrual, desconforto e 
+fraqueza geral, função da tiroide diminuída, perda de equilíbrio quando caminha, osteonecrose 
+(uma doença com redução do fluxo sanguíneo nos ossos, que podem causar perda de osso e 
+morte do osso), artrite, inchaço na pele em qualquer zona do corpo </p>
+</li>
+<li>
+<p>Dor: inflamação das veias que pode provocar vermelhidão, sensibilidade ao toque e inchaço, 
+inflamação do tendão </p>
+</li>
+<li>
+<p>Cérebro: perda de memória </p>
+</li>
+<li>
+<p>Os exames podem mostrar: resultados anormais nos testes sanguíneos e possível diminuição 
+da função dos rins, provocado pelos resíduos do tumor a morrer (síndrome de lise tumoral), 
+níveis baixos de albumina no sangue, níveis baixos de linfócitos (um tipo de glóbulos brancos) 
+no sangue, níveis altos de colesterol no sangue, nódulos linfáticos inchados, hemorragia no 
+cérebro, atividade elétrica irregular do coração, aumento do coração, inflamação do fígado, 
+presença de proteínas na urina, creatina fosfoquinase aumentada (uma enzima normalmente 
+encontrada no coração, no cérebro e nos músculos esqueléticos), troponina elevada (uma enzima 
+encontrada no coração e músculo esquelético), gama-glutamiltransferase aumentada (uma 
+enzima encontrada no fígado), fluido de aparência leitosa ao redor dos pulmões (quilotórax) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em 1000 pessoas) </p>
+<ul>
+<li>
+<p>Coração e pulmões: aumento do ventrículo direito no coração, inflamação do músculo do 
+coração, conjunto de condições que resultam do bloqueio do fornecimento de sangue ao 
+músculo cardíaco (síndrome coronário agudo), paragem cardíaca (paragem do fluxo sanguíneo 
+do coração), doença arterial coronária (do coração), inflamação do tecido que cobre o coração e 
+pulmões, coágulos sanguíneos, coágulos sanguíneos nos pulmões </p>
+</li>
+<li>
+<p>Problemas digestivos: perda de nutrientes vitais do seu sistema digestivo tais como as 
+proteínas, obstrução do intestino, fístula anal (uma abertura anormal do anus para a pele à volta 
+do anus), insuficiência da função renal, diabetes </p>
+</li>
+<li>
+<p>Pele, cabelo, olhos, geral: convulsões, inflamação do nervo ótico que pode provocar perda total 
+ou parcial da visão, manchas azul-arroxeadas na pele, função da tiroide anormalmente alta, 
+inflamação da glândula da tiroide, ataxia (uma doença associada com falta de coordenação 
+muscular), dificuldade em andar, aborto, inflamação dos vasos sanguíneos da pele, fibrose da 
+pele </p>
+</li>
+<li>
+<p>Cérebro: AVC (acidente cerebrovascular), episódio temporário de disfunção neurológica 
+provocado por perda de fluxo sanguíneo, paralisia do nervo facial, demência </p>
+</li>
+<li>
+<p>Sistema imunitário: reação alérgica grave </p>
+</li>
+<li>
+<p>Musculosqueléticos e dos tecidos conjuntivos: fusão atrasada das extremidades arredondadas 
+que formam articulações (epífises); crescimento mais lento ou atrasado </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis que foram comunicados com frequência desconhecida (não podem 
+ser calculados a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>Inflamação dos pulmões </p>
+</li>
+<li>
+<p>Hemorragia no estômago e intestinos que pode causar morte </p>
+</li>
+<li>
+<p>Recorrência (reativação) da infeção pelo vírus da hepatite B caso tenha tido hepatite B no 
+passado (uma infeção do fígado) </p>
+</li>
+<li>
+<p>Uma reação com febre, formação de bolhas na pele, e ulceração das mucosas </p>
+</li>
+<li>
+<p>Doença dos rins com sintomas que incluem edema e resultados anormais nos testes laboratoriais 
+tais como proteína na urina e nível reduzido de proteína no sangue </p>
+</li>
+<li>
+<p>Danos nos vasos sanguíneos conhecidos como microangiopatia trombótica (MAT), incluindo 
+diminuição da contagem de glóbulos vermelhos, diminuição das plaquetas e formação de 
+coágulos sanguíneos </p>
+</li>
+</ul>
+<p>O seu médico verificará alguns destes efeitos durante o tratamento. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico.  Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação listado no Apêndice V. Ao comunicar efeitos 
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar sprycel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar sprycel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco, blister ou 
+embalagem exterior, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de SPRYCEL </p>
+<ul>
+<li>
+<p>A substância ativa é dasatinib. Cada comprimido revestido por película contém 20 mg, 50 mg, 
+70 mg, 80 mg, 100 mg ou 140 mg de dasatinib (sob a forma mono-hidratada). </p>
+</li>
+<li>
+<p>Os outros componentes são: </p>
+</li>
+<li>
+<p>Núcleo do comprimido: lactose mono-hidratada (ver secção 2 “SPRYCEL, contém 
+lactose"), celulose microcristalina, croscarmelose sódica, hidroxipropilcelulose, estearato 
+de magnésio </p>
+</li>
+<li>
+<p>Revestimento: hipromelose, dióxido de titânio (E171), macrogol  </p>
+</li>
+</ul>
+<p>Qual o aspeto de SPRYCEL e conteúdo da embalagem 
+SPRYCEL 20 mg: o comprimido revestido por película é branco a esbranquiçado, biconvexo, redondo 
+com a marcação "BMS" numa das faces e "527" na outra face. </p>
+<p>SPRYCEL 50 mg: o comprimido revestido por película é branco a esbranquiçado, biconvexo, oval 
+com a marcação "BMS" numa das faces e "528" na outra face. </p>
+<p>SPRYCEL 70 mg: o comprimido revestido por película é branco a esbranquiçado, biconvexo, redondo 
+com a marcação "BMS" numa das faces e "524" na outra face. </p>
+<p>SPRYCEL 80 mg: o comprimido revestido por película é branco a esbranquiçado, biconvexo, 
+triangular com a marcação "BMS 80" numa das faces e "855" na outra face. </p>
+<p>SPRYCEL 100 mg: o comprimido revestido por película é branco a esbranquiçado, biconvexo, oval 
+com a marcação "BMS 100" numa das face e "852" na outra face. </p>
+<p>SPRYCEL 140 mg: o comprimido revestido por película é branco a esbranquiçado, biconvexo, 
+redondo com a marcação "BMS 140" numa das faces e "857" na outra face. </p>
+<p>SPRYCEL 20 mg, 50 mg ou 70 mg comprimidos revestidos por película estão disponíveis em 
+embalagens contendo 56 comprimidos revestidos por película, em 4 blisters calendário cada um com 
+14 comprimidos revestidos por película, e em embalagens contendo 60 x 1 comprimidos revestidos 
+por película em blisters de dose unitária perfurados. Estão também disponíveis em frascos com fecho 
+resistente à abertura por crianças, contendo 60 comprimidos revestidos por película. Cada embalagem 
+contém um frasco. </p>
+<p>SPRYCEL 80 mg, 100 mg ou 140 mg comprimidos revestidos por película estão disponíveis em 
+embalagens contendo 30 x 1 comprimidos revestidos por película, em blisters de dose unitária 
+perfurados. Estão também disponíveis em frascos com fecho resistente à abertura por crianças, 
+contendo 30 comprimidos revestidos por película. Cada embalagem contém um frasco. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrlanda </p>
+<p>Fabricante 
+Swords Laboratories Unlimited Company T/A Bristol-Myers Squibb Pharmaceutical Operations, 
+External Manufacturing 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrlanda </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -945,6 +1463,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9ef90a3b084c8b791046c3e0616188b5"
 * entry[0].resource = composition-da-9ef90a3b084c8b791046c3e0616188b5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9ef90a3b084c8b791046c3e0616188b5"
+* entry[=].resource = mp9ef90a3b084c8b791046c3e0616188b5
+                            
+                    
+Instance: bundlepackageleaflet-pt-9ef90a3b084c8b791046c3e0616188b5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sprycel Package Leaflet for language pt"
+Description: "ePI document Bundle for sprycel Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9ef90a3b084c8b791046c3e0616188b5"
+* entry[0].resource = composition-pt-9ef90a3b084c8b791046c3e0616188b5
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9ef90a3b084c8b791046c3e0616188b5"
@@ -1046,6 +1586,18 @@ RuleSet: 9ef90a3b084c8b791046c3e0616188b5ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9ef90a3b084c8b791046c3e0616188b5) // sprycel pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

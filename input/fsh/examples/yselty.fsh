@@ -695,6 +695,394 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""
 
 
 
+Instance: composition-pt-29aa13d063497263a16ff19921f8de13
+InstanceOf: CompositionUvEpi
+Title: "Composition for yselty Package Leaflet"
+Description:  "Composition for yselty Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp29aa13d063497263a16ff19921f8de13)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - yselty"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Yselty e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Yselty </li>
+<li>Como tomar Yselty </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Yselty </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é yselty e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é yselty e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Yselty contém a substância ativa linzagolix. É utilizado no tratamento de sintomas moderados a graves 
+de fibromas uterinos (geralmente conhecidos como miomas), que são tumores não cancerígenos do 
+útero. É utilizado em mulheres adultas (com mais de 18 anos de idade) em idade fértil. Em algumas 
+mulheres, os miomas uterinos podem causar hemorragia menstrual intensa (o seu «período») e dor 
+pélvica (dor abaixo do umbigo). </p>
+<p>O linzagolix bloqueia a ação de uma hormona, a hormona libertadora de gonadotrofinas, que ajuda a 
+regular a libertação das hormonas sexuais femininas, estradiol e progesterona. Estas hormonas 
+desencadeiam o período da mulher (menstruação). Quando bloqueadas, os níveis das hormonas 
+estrogénio e progesterona que circulam no organismo são reduzidos. Ao diminuir os seus níveis, o 
+linzagolix interrompe ou reduz a hemorragia menstrual e diminui a dor e o desconforto pélvico, bem 
+como outros sintomas associados aos miomas uterinos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar yselty"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar yselty"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Yselty 
+Se tem alguma das condições enumeradas a seguir: </p>
+<ul>
+<li>
+<p>se tem alergia ao linzagolix ou a qualquer outro componente deste medicamento (indicados na 
+secção 6); </p>
+</li>
+<li>
+<p>se está grávida, ou pensa estar grávida, ou se está a amamentar: </p>
+</li>
+<li>
+<p>se sofre de osteoporose (uma doença que fragiliza os ossos); </p>
+</li>
+<li>
+<p>se tem qualquer hemorragia genital de origem desconhecida. </p>
+</li>
+</ul>
+<p>Se estiver a tomar Yselty juntamente com terapêutica hormonal adicional de estradiol e acetato de 
+noretisterona (também conhecida como terapêutica add-back), siga as instruções na secção «Não 
+tome...» dos folhetos informativos de estradiol e acetato de noretisterona. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Yselty. </p>
+<p>Antes de iniciar o tratamento com Yselty, o seu médico discutirá consigo o seu historial médico, 
+familiar e os fatores de risco relevantes. O seu médico também terá de verificar a sua tensão arterial e 
+certificar-se de que não está grávida. Poderá também necessitar de um exame físico e de exames 
+adicionais antes de iniciar o tratamento, tais como um exame para medir a resistência dos seus ossos, 
+que será específico em função das suas necessidades e/ou preocupações médicas. </p>
+<p>Pare de tomar Yselty e procure assistência médica urgente se notar: </p>
+<ul>
+<li>
+<p>sinais de doença hepática: 
+− amarelecimento da pele ou do branco dos olhos (icterícia). 
+− náuseas ou vómitos, febre, cansaço grave. 
+− urina escura, prurido ou dor abdominal superior. </p>
+</li>
+<li>
+<p>se engravidar. </p>
+</li>
+</ul>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Yselty se: </p>
+<ul>
+<li>
+<p>tiver função reduzida do fígado ou rins. 
+Não se recomenda a utilização de Yselty em mulheres com compromisso hepático grave ou 
+compromisso renal moderado, ou grave, uma vez que os níveis sanguíneos de linzagolix podem 
+tornar-se demasiado elevados. </p>
+</li>
+<li>
+<p>níveis aumentados de enzimas hepáticas no sangue. 
+Podem ocorrer níveis temporariamente aumentados de enzimas hepáticas no sangue sem 
+sintomas durante o tratamento com Yselty. </p>
+</li>
+<li>
+<p>problemas cardíacos ou de circulação sanguínea,  historial familiar de alterações na atividade 
+elétrica do coração conhecidas como «prolongamento do intervalo QT» ou está a tomar um 
+medicamento que altera a atividade elétrica no coração. </p>
+</li>
+<li>
+<p>aumento dos níveis de gordura no sangue (colesterol). Estes níveis devem ser monitorizados 
+durante o tratamento, uma vez que Yselty pode levar a aumentos adicionais. </p>
+</li>
+<li>
+<p>teve uma fratura que não foi causada por um trauma grave, ou outros riscos de perda de 
+minerais ósseos, ou densidade óssea reduzida. Yselty pode diminuir a densidade mineral óssea, 
+pelo que o seu médico poderá querer verificá-la antecipadamente neste caso. </p>
+</li>
+<li>
+<p>anteriormente sofria de depressão, alterações de humor, pensamentos sobre suicídio ou 
+quaisquer sintomas depressivos, tal como foram notificados com medicamentos que funcionam 
+da mesma forma que Yselty. </p>
+</li>
+<li>
+<p>se pensa que pode estar grávida. Yselty leva geralmente a uma redução significativa ou pode 
+mesmo parar a hemorragia menstrual (o seu «período») durante o tratamento e durante algumas 
+semanas depois, o que dificulta o reconhecimento da gravidez. Ver secção «Gravidez e 
+amamentação. </p>
+</li>
+</ul>
+<p>Yselty não demonstrou fornecer contraceção. Ver secção «Gravidez e amamentação». </p>
+<p>Yselty pode ser utilizado em conjunto com outro comprimido que contenha as hormonas estradiol e 
+acetato de noretisterona (também conhecidas como terapêutica hormonal add-back). Se lhe for 
+receitado, leia atentamente o folheto do comprimido que contém estas hormonas, bem como este 
+folheto. </p>
+<p>Crianças e adolescentes 
+Yselty não é recomendado para crianças ou adolescentes com menos de 18 anos de idade, já que o 
+medicamento não foi estudado neste grupo etário. </p>
+<p>Outros medicamentos e Yselty 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos, incluindo métodos contracetivos hormonais. </p>
+<p>Informe particularmente o seu médico ou farmacêutico se estiver a tomar: </p>
+<ul>
+<li>
+<p>repaglinida (um medicamento utilizado no tratamento da diabetes) </p>
+</li>
+<li>
+<p>paclitaxel, sorafenib (medicamentos utilizados para tratar o cancro) 
+Yselty não é recomendado se estiver a utilizar um destes medicamentos. </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+Não utilize Yselty se estiver grávida ou a amamentar, pois pode prejudicar o seu bebé. Se pensa estar 
+grávida ou planeia engravidar, consulte o seu médico antes de tomar este medicamento. </p>
+<p>Se engravidar, pare de tomar Yselty e consulte o seu médico. Como Yselty reduz ou interrompe os 
+seus períodos, pode ser difícil reconhecer a gravidez. Realize um teste de gravidez se houver qualquer 
+possibilidade de estar grávida. </p>
+<p>As mulheres que possam engravidar devem utilizar um método contracetivo não hormonal eficaz 
+quando tomarem Yselty. </p>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de Yselty sobre a capacidade de conduzir e utilizar máquinas são nulos. </p>
+<p>Yselty contém lactose e sódio 
+Se o seu médico lhe tiver dito que é intolerante a alguns açúcares, contacte o seu médico antes de 
+tomar este medicamento. </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
+praticamente «isento de sódio». </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar yselty"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar yselty"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com Yselty será receitado por um médico com experiência no tratamento de doentes com 
+miomas uterinos. Tome este medicamento exatamente como indicado pelo seu médico ou 
+farmacêutico. Fale com o seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>O seu médico determinará qual a dose certa de Yselty para si. São possíveis as seguintes opções de 
+dosagem: </p>
+<ul>
+<li>
+<p>Yselty 100 mg (um comprimido) ou Yselty 200  mg (dois comprimidos de 100 mg), tomados 
+uma vez por dia em conjunto com outro comprimido uma vez por dia contendo as hormonas 
+estradiol e acetato de noretisterona (também conhecido como terapêutica add-back). Se o seu 
+médico receitar esta terapêutica add-back , é importante que a tome sempre com os 
+comprimidos de Yselty, uma vez que tal ajudará a  reduzir os efeitos indesejáveis, incluindo o 
+risco e a extensão da perda de densidade mineral óssea. </p>
+</li>
+<li>
+<p>Nas mulheres para as quais o estradiol e o acetato de noretisterona não são adequados, Yselty 
+pode ser tomado numa dose de um comprimido de 100 mg por dia em monoterapia, ou seja, 
+sem estradiol e acetato de noretisterona. </p>
+</li>
+<li>
+<p>Para uso de curta duração (apenas até 6 meses), pode ser administrado Yselty 200 mg 
+diariamente (dois comprimidos de 100 mg) sem estradiol e acetato de noretisterona para tratar 
+sintomas associados ao tamanho grande dos miomas ou do útero. </p>
+</li>
+</ul>
+<p>Tome a dose recomendada uma vez por dia. 
+Comece a tomar Yselty preferencialmente na primeira semana do seu ciclo menstrual, que é a semana 
+em que tem hemorragia. 
+Engula o(s) comprimido(s) com um copo de água, com ou sem alimentos. </p>
+<p>Duração da utilização 
+O seu médico determinará durante quanto tempo deverá continuar o tratamento, com base no risco de 
+perda de densidade mineral óssea. A dose de 200 mg (dois comprimidos de 100 mg) sem terapêutica 
+add-back deve ser prescrita por um período não superior a 6 meses. 
+O seu médico irá verificar a sua densidade mineral óssea através da marcação de um exame após os 
+primeiros 12 meses de tratamento com Yselty, a fim de verificar se o tratamento pode continuar. Se 
+continuar o tratamento com Yselty por mais de um ano, o seu médico continuará a verificar a sua 
+densidade mineral óssea em intervalos regulares. </p>
+<p>Se tomar mais Yselty do que deveria 
+Fale com o seu médico se pensa ter tomado demasiado Yselty. </p>
+<p>Não houve relatos de efeitos nocivos graves com a toma simultânea de várias doses deste 
+medicamento. Se Yselty for utilizado com terapêutica hormonal adicional de estradiol e acetato de 
+noretisterona, a sobredosagem das hormonas pode causar náuseas e vómitos, sensibilidade mamária, 
+dor de estômago, sonolência, fadiga e hemorragia de privação. </p>
+<p>Caso se tenha esquecido de tomar Yselty 
+Caso se tenha esquecido de tomar uma dose, tome-a assim que se lembrar e depois tome o comprimido 
+no dia seguinte como habitualmente. Não tome uma dose a dobrar para compensar um comprimido 
+que se esqueceu de tomar. </p>
+<p>Se parar de tomar Yselty 
+Se quiser parar de tomar Yselty, fale primeiro com o seu médico. O seu médico irá explicar-lhe os 
+efeitos da interrupção do tratamento e discutir consigo outras possibilidades. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis podem ocorrer com as seguintes frequências: 
+Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>afrontamentos </li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>perturbações do humor, tais como oscilações do humor, alteração da labilidade (ou seja, 
+alterações rápidas das emoções), ansiedade, depressão, irritabilidade, perturbações psíquicas </p>
+</li>
+<li>
+<p>hemorragia uterina excessiva, irregular ou prolongada (hemorragia uterina) </p>
+</li>
+<li>
+<p>secura vaginal </p>
+</li>
+<li>
+<p>dor pélvica </p>
+</li>
+<li>
+<p>dor nas articulações </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>redução da densidade mineral óssea ou da resistência óssea </p>
+</li>
+<li>
+<p>aumento dos níveis sanguíneos das enzimas hepáticas </p>
+</li>
+<li>
+<p>náuseas (sensação de enjoo), vómitos, dor na região do estômago </p>
+</li>
+<li>
+<p>obstipação </p>
+</li>
+<li>
+<p>diminuição do desejo sexual (libido) </p>
+</li>
+<li>
+<p>fraqueza </p>
+</li>
+<li>
+<p>aumento da transpiração </p>
+</li>
+<li>
+<p>suores noturnos </p>
+</li>
+<li>
+<p>tensão arterial alta </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de comunicação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar yselty"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar yselty"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem blister e na 
+embalagem exterior após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Yselty </p>
+<ul>
+<li>
+<p>A substância ativa é o linzagolix. 
+Um comprimido de Yselty 100 mg contém 100 mg de linzagolix. </p>
+</li>
+<li>
+<p>Os outros componentes são: 
+Núcleo do comprimido: lactose mono-hidratada, celulose microcristalina, hidroxipropilcelulose 
+pouco substituída, hidroxipropilcelulose, croscarmelose sódica e estearato de magnésio. Ver 
+secção 2 «Contém lactose e sódio». 
+Revestimento por película: copolímero de enxerto de álcool polivinílico-polietilenoglicol 
+(E1209), talco (E553b), dióxido de titânio (E171) e óxido de ferro amarelo (E172). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Yselty e conteúdo da embalagem 
+Os comprimidos revestidos por película de 100 mg são redondos, de 10 mm de diâmetro, amarelos-
+claros, gravados com «100» numa face e lisos na outra. </p>
+<p>Yselty é fornecido numa caixa de cartão com duas ou seis embalagens blister contendo comprimidos revestidos por película (comprimido) por blister. </p>
+<p>Apresentações: 28 ou 84 comprimidos revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Theramex Ireland Limited<br />
+3rd Floor, Kilmore House,<br />
+Park Lane, Spencer Dock,<br />
+Dublin 1<br />
+D01 YE64<br />
+Irlanda </p>
+<p>Fabricante 
+Patheon France 
+40 boulevard de Champaret 
+38300 Bourgoin Jallieu 
+França </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -736,6 +1124,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-29aa13d063497263a16ff19921f8de13"
 * entry[0].resource = composition-da-29aa13d063497263a16ff19921f8de13
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp29aa13d063497263a16ff19921f8de13"
+* entry[=].resource = mp29aa13d063497263a16ff19921f8de13
+                            
+                    
+Instance: bundlepackageleaflet-pt-29aa13d063497263a16ff19921f8de13
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for yselty Package Leaflet for language pt"
+Description: "ePI document Bundle for yselty Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-29aa13d063497263a16ff19921f8de13"
+* entry[0].resource = composition-pt-29aa13d063497263a16ff19921f8de13
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp29aa13d063497263a16ff19921f8de13"
@@ -837,6 +1247,18 @@ RuleSet: 29aa13d063497263a16ff19921f8de13ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-29aa13d063497263a16ff19921f8de13) // yselty pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -893,6 +893,512 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-2879bea9059649bf46970484a32311c1
+InstanceOf: CompositionUvEpi
+Title: "Composition for ryeqo Package Leaflet"
+Description:  "Composition for ryeqo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2879bea9059649bf46970484a32311c1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ryeqo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Ryeqo e para que é utilizado<br />
+2. O que precisa de saber antes de tomar Ryeqo 
+3. Como tomar Ryeqo 
+4. Efeitos indesejáveis possíveis<br />
+5. Como conservar Ryeqo 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ryeqo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ryeqo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ryeqo contém as substâncias ativas relugolix, estradiol e acetato de noretisterona.  </p>
+<p>É utilizado para tratar<br />
+- sintomas moderados a graves de miomas uterinos (vulgarmente conhecidos como miomas), 
+que são tumores não cancerígenos do útero.<br />
+- sintomas associados a endometriose em mulheres com uma história de tratamento médico ou 
+cirúrgico prévio para a sua endometriose (a endometriose é uma doença frequentemente dolorosa em 
+que tecido semelhante ao tecido que normalmente cobre o interior do seu útero - o endométrio - 
+cresce fora do seu útero). </p>
+<p>Ryeqo é utilizado em mulheres adultas (com mais de 18 anos de idade) antes de atingirem a 
+menopausa. </p>
+<p>Em algumas mulheres, os miomas uterinos podem provocar hemorragia menstrual abundante (o seu 
+“período") e dor pélvica (dor abaixo do umbigo). Ryeqo é utilizado para o tratamento dos miomas para 
+parar ou reduzir a hemorragia e para diminuir a dor e o mal-estar pélvico associados aos miomas 
+uterinos.  </p>
+<p>Mulheres com endometriose podem experienciar dor pélvica ou abdominal inferior, dor nos períodos 
+menstruais e dor na relação sexual. Ryeqo é utilizado para o tratamento da endometriose para diminuir 
+os sintomas devidos ao deslocamento do tecido de revestimento do útero. </p>
+<p>Este medicamento contém relugolix, que bloqueia certos recetores no cérebro reduzindo a produção de 
+hormonas, que por sua vez estimulam os ovários a produzir estradiol e progesterona. Quando 
+bloqueados, os níveis de estrogénio e progesterona que circulam no corpo são reduzidos. Este 
+medicamento também contém dois tipos de hormonas femininas, estradiol, que pertence a um grupo 
+de medicamentos chamados estrogénios e noretisterona, que pertence a um grupo de medicamentos 
+chamados progestagénios. A inclusão destas hormonas em Ryeqo mantém um estado hormonal 
+semelhante ao início do seu ciclo menstrual e alivia assim os seus sintomas enquanto ajuda a proteger 
+a resistência dos seus ossos.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ryeqo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ryeqo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Ryeqo 
+Não tome Ryeqo se tiver qualquer das situações listadas abaixo.<br />
+Se tiver qualquer das situações listadas abaixo, deve informar o seu médico: 
+− 
+se tem alergia ao relugolix, estradiol, acetato de noretisterona ou a qualquer outro componente 
+deste medicamento (indicados na secção 6).<br />
+− 
+se tem ou teve anteriormente um coágulo num vaso sanguíneo nas pernas (trombose venosa 
+profunda), pulmões (embolia pulmonar), coração (ataque cardíaco), cérebro (AVC) ou alguma 
+outra parte do corpo. 
+− 
+se tem ou teve anteriormente uma doença causada por coágulos sanguíneos nas artérias, como 
+um ataque cardíaco, AVC ou angina. 
+− 
+se tem um distúrbio de coagulação do sangue (tal como deficiência de proteína C, deficiência 
+de proteína S, deficiência de antitrombina III ou Fator V Leiden). 
+− 
+se tem osteoporose. 
+− 
+se sofre de dores de cabeça com sintomas neurológicos focais, como paralisia ou perda de 
+controlo muscular, ou enxaquecas com alterações da visão. 
+− 
+se tem algum tipo de cancro que possa piorar pela exposição a hormonas sexuais femininas, 
+como cancro da mama ou dos órgãos genitais.<br />
+− 
+se tem ou alguma vez teve tumores hepáticos. 
+− 
+se tem ou alguma vez teve doença hepática e os exames da função hepática não voltaram ao 
+normal. 
+− 
+se está grávida ou pensa que possa estar grávida ou se está a amamentar. 
+− 
+se tem alguma hemorragia genital de origem desconhecida. 
+− 
+se está a utilizar contraceção hormonal (por exemplo, pílula anticoncecional) e não pretender 
+interromper a sua utilização.  </p>
+<p>Se qualquer uma das situações acima surgir pela primeira vez enquanto estiver a tomar Ryeqo, pare de 
+o tomar e consulte o seu médico imediatamente. </p>
+<p>Se tiver quaisquer dúvidas acerca de qualquer um dos itens indicados acima, fale com o seu médico 
+antes de tomar Ryeqo. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Ryeqo. </p>
+<p>Tenha presente que a maioria das mulheres reduziu ou não teve hemorragias menstruais (período) 
+durante o tratamento e durante algumas semanas depois. </p>
+<p>O seu médico irá discutir consigo o seu historial médico e antecedentes familiares. O seu médico 
+também irá necessitar de verificar a sua tensão arterial e certificar-se de que não está grávida. Poderá 
+também precisar de um exame físico e verificações adicionais, tais como exame mamário e um exame 
+para avaliar a força dos seus ossos, que serão específicos consoante as suas necessidades e/ou 
+preocupações médicas. </p>
+<p>Pare de tomar Ryeqo e procure cuidados médicos urgentes se notar: 
+− 
+qualquer uma das condições mencionadas na secção “Não tome Ryeqo". 
+− 
+se observar sinais de doença hepática: 
+− 
+amarelecimento da pele ou do branco dos olhos (icterícia). 
+− 
+náuseas ou vómitos, febre, cansaço intenso. 
+− 
+urina escura, comichão ou dor abdominal superior. 
+− 
+uma acentuada subida da tensão arterial (os sintomas podem ser dores de cabeça, cansaço, 
+tonturas). 
+− 
+enxaqueca pela primeira vez ou dores de cabeça invulgarmente fortes com mais frequência do 
+que anteriormente. 
+− 
+se notar possíveis sinais de um coágulo sanguíneo que possa significar que está a sofrer de um 
+coágulo na perna (ou seja, trombose venosa profunda), ou no pulmão (ou seja, embolia 
+pulmonar), ataque cardíaco ou AVC. Para uma descrição dos sintomas destas condições graves, 
+por favor consulte “Ryeqo e risco de coágulos sanguíneos". 
+− 
+se engravidar. </p>
+<p>Informe o seu médico se alguma das condições seguintes se aplicar a si:<br />
+− 
+se tem um ou mais dos fatores de risco para desenvolvimento de um coágulo sanguíneo 
+indicados a seguir. 
+− 
+se tem tensão arterial alta. 
+− 
+se tem osteoporose. 
+− 
+se sofre de enxaquecas. 
+− 
+se pensa que pode estar grávida. O tratamento com Ryeqo leva geralmente a uma redução 
+significativa ou pode mesmo parar a hemorragia menstrual (o seu "período"), tornando difícil o 
+reconhecimento da gravidez.<br />
+− 
+se tem ou sofreu anteriormente de depressão. 
+− 
+se tem doença renal (dos rins). </p>
+<p>Ryeqo e risco de coágulos sanguíneos 
+A utilização de outros medicamentos contendo estrogénio e progestagénio aumenta o risco de 
+coágulos sanguíneos. O risco de coágulos sanguíneos com Ryeqo não foi estabelecido. Ryeqo reduz o 
+estrogénio a níveis semelhantes aos do início do seu ciclo menstrual normal. </p>
+<p>Fatores que podem aumentar o seu risco de um coágulo sanguíneo numa veia e/ou artéria: 
+− 
+à medida que envelhece (particularmente acima dos 35 anos de idade). 
+− 
+se tiver excesso de peso (índice de massa corporal &gt; 30 kg/m2). 
+− 
+se tiver sido submetida a uma grande cirurgia ou tempo prolongado sem estar de pé 
+(por ex., perna engessada). 
+− 
+se tiver dado à luz recentemente.<br />
+− 
+se algum dos seus familiares próximos tiver tido um coágulo sanguíneo na perna, pulmões ou 
+outro órgão, um ataque cardíaco ou um AVC em idade jovem (por ex., com idade inferior 
+a 50 anos). 
+− 
+se fumar. 
+− 
+se tiver um problema com o coração (perturbação nas válvulas, distúrbio do ritmo 
+denominado fibrilhação auricular). 
+− 
+se tiver diabetes. 
+− 
+se tiver determinadas condições médicas como lúpus eritematoso sistémico (LES - uma 
+doença que afeta o sistema de defesa natural), doença de células falciformes (uma doença dos 
+glóbulos vermelhos herdada), doença de Crohn ou colite ulcerosa (doenças inflamatórias 
+intestinais crónicas) ou cancro. </p>
+<p>O risco de desenvolver um coágulo sanguíneo aumenta conforme quanto mais fatores tiver. </p>
+<p>Os sintomas de um coágulo sanguíneo irão depender de onde ocorreu o coágulo sanguíneo. </p>
+<p>Sintomas de um coágulo sanguíneo na perna (trombose venosa profunda; TVP) 
+Os sintomas de um coágulo sanguíneo na perna, denominado trombose venosa profunda (TVP), 
+podem incluir: 
+− 
+inchaço da perna e/ou pé ou ao longo de uma veia da perna. 
+− 
+dor ou sensibilidade na perna que se sente pior quando se levanta ou está a caminhar. 
+− 
+calor aumentado na perna afetada com pele vermelha ou sem cor. </p>
+<p>Sintomas de um coágulo sanguíneo no pulmão (embolia pulmonar; EP) 
+Os sintomas de um coágulo sanguíneo no pulmão, denominado embolia pulmonar (EP), podem 
+incluir: 
+− 
+início súbito de falta de ar inexplicável ou respiração rápida. 
+− 
+tosse súbita que pode estar associada a uma dor aguda no peito. 
+− 
+tossir sangue. 
+− 
+tonturas graves ou atordoamento. 
+− 
+batimento cardíaco rápido ou irregular. </p>
+<p>Sintomas de ataque cardíaco 
+Os sintomas de um ataque cardíaco, também conhecido como enfarte do miocárdio, podem ser 
+temporários e podem incluir: 
+− 
+dor, desconforto, pressão, sensação de peso, sensação de aperto ou plenitude no peito, braço ou 
+abaixo do esterno. 
+− 
+desconforto que irradia para as costas, maxilar, garganta, braço, estômago. 
+− 
+sensação de estar cheio, indigestão ou sensação de sufoco. 
+− 
+transpiração, náuseas, vómitos ou tonturas. 
+− 
+fraqueza extrema, ansiedade ou falta de ar. 
+− 
+batimentos cardíacos rápidos ou irregulares. </p>
+<p>Sintomas de AVC 
+Os sintomas de AVC podem incluir: 
+− 
+fraqueza ou entorpecimento súbito da face, braço ou perna, especialmente de um lado do corpo. 
+− 
+problemas súbitos ao andar, tonturas, perda de equilíbrio ou de coordenação. 
+− 
+confusão súbita, problemas ao falar ou entender os outros. 
+− 
+problemas súbitos de visão em um ou ambos os olhos. 
+− 
+dor de cabeça súbita, grave ou prolongada, sem causa conhecida. 
+− 
+perda de consciência ou desmaio com ou sem convulsão. </p>
+<p>Cirurgia 
+Se vai ser submetida a uma cirurgia, diga ao cirurgião que está a tomar Ryeqo. </p>
+<p>Tumores hepáticos ou doença hepática<br />
+Em casos raros foram notificados tumores hepáticos ou doenças hepáticas em mulheres que tomam 
+estrogénios e progestagénios. Se sentir quaisquer sintomas de icterícia, contacte o seu médico para 
+obter aconselhamento médico adicional. </p>
+<p>Compromisso renal (dos rins) 
+Se sentir qualquer redução da produção de urina ou observar qualquer retenção de fluidos que 
+provoque inchaço nas pernas, tornozelos ou pés, contacte o seu médico para obter aconselhamento 
+médico adicional. </p>
+<p>Alteração no padrão da hemorragia menstrual (o seu ‘período’) 
+O tratamento com Ryeqo leva geralmente a uma redução significativa ou pode mesmo parar a 
+hemorragia menstrual (o seu "período"), nos primeiros 30 dias de tratamento. No entanto, se continuar 
+a ter hemorragia excessiva, informe o seu médico.  </p>
+<p>Depressão 
+Se sentir alterações de humor ou algum sintoma de depressão, contacte o seu médico para 
+aconselhamento médico adicional. </p>
+<p>Aumento da tensão arterial<br />
+Em casos raros, o tratamento com Ryeqo pode levar a pequenos aumentos na tensão arterial. Se sentir 
+quaisquer sintomas de aumento da tensão arterial, contacte o seu médico para aconselhamento médico 
+adicional. </p>
+<p>Prolapso e expulsão de mioma uterino 
+Os miomas uterinos podem desenvolver-se em qualquer parte do interior da parede muscular do útero, 
+incluindo a submucosa, uma fina camada de tecido no útero. Em algumas mulheres, o mioma uterino 
+pode sobressair ou deslizar do colo do útero para dentro da vagina e pode levar a um agravamento 
+significativo da hemorragia uterina ou dor. Se voltar a ter hemorragia uterina grave após os seus 
+sintomas terem melhorado enquanto estava a ser tratada com Ryeqo, contacte o seu médico para 
+aconselhamento.  </p>
+<p>Afeções da vesícula biliar 
+Algumas mulheres que tomam hormonas de estrogénio e progestagénio, incluindo Ryeqo, notificaram 
+afeções da vesícula biliar (cálculos biliares ou inflamação da vesícula biliar). Se sentir dores 
+invulgarmente fortes abaixo da caixa torácica ou na parte superior do abdómen, contacte o seu médico 
+para aconselhamento. </p>
+<p>Crianças e adolescentes 
+Ryeqo não tem de ser tomado por crianças com idade inferior a 18 anos, uma vez que a segurança e 
+eficácia de Ryeqo não foram estabelecidas neste grupo etário.  </p>
+<p>Outros medicamentos e Ryeqo 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.  </p>
+<p>Fale com o seu médico se estiver a tomar qualquer um dos medicamentos listados abaixo, visto que 
+estes medicamentos podem afetar Ryeqo ou ser afetados por Ryeqo: 
+− 
+Determinados medicamentos utilizados para tratar epilepsia (por ex., carbamazepina, 
+topiramato, fenitoína, fenobarbital, primidona, oxcarbazepina, felbamato). 
+− 
+Determinados medicamentos utilizados para tratar uma infeção pelo vírus da imunodeficiência 
+humana/síndrome de imunodeficiência adquirida (VIH/SIDA) (por ex., ritonavir, efavirenz). 
+− 
+Determinados medicamentos utilizados para tratar o vírus da hepatite C (VHC) (por ex., 
+boceprevir, sofosbuvir, velpatasvir, voxilaprevir, telaprevir, glecaprevir). 
+− 
+Determinados medicamentos utilizados para tratar infeções fúngicas (por ex., cetoconazol, 
+itraconazol, fluconazol, griseofulvina). 
+− 
+Determinados medicamentos utilizados para tratar infeções bacterianas (por ex., rifampicina, 
+rifabutina, claritromicina, eritromicina, gentamicina, tetraciclina, griseofulvina). 
+− 
+Determinados medicamentos utilizados para tratar tensão arterial alta nas artérias dos 
+pulmões (por ex., bosentano). 
+− 
+Determinados medicamentos utilizados para tratar tensão arterial alta (por ex., diltiazem, 
+carvedilol, verapamil). 
+− 
+Determinados medicamentos utilizados para tratar batimentos cardíacos irregulares (por ex., 
+amiodarona, dronedarona, propafenona, quinidina, verapamil). 
+− 
+Determinados medicamentos utilizados para tratar angina (por ex., ranolazina, carvedilol, 
+verapamil). 
+− 
+Determinados medicamentos para prevenir a rejeição de órgãos pós-transplante (por ex., 
+ciclosporina). 
+− 
+Produtos à base de plantas contendo hipericão (Hypericum perforatum).  </p>
+<p>Gravidez e amamentação 
+Não tome Ryeqo se estiver grávida ou a amamentar. Se pensa estar grávida ou planeia engravidar, 
+consulte o seu médico antes de tomar este medicamento. Se engravidar, pare de tomar Ryeqo e 
+contacte o seu médico.  </p>
+<p>Ryeqo interrompe a ovulação e, portanto, não é provável que engravide enquanto estiver a usar Ryeqo, 
+se usado como recomendado. A ovulação e a hemorragia menstrual regressarão rapidamente após a 
+interrupção de Ryeqo e tem de ser iniciada contraceção alternativa imediatamente após a interrupção 
+de Ryeqo. </p>
+<p>Dependendo da altura do ciclo em que começa a tomar Ryeqo, pode demorar algum tempo a obter a 
+inibição total da ovulação pelo Ryeqo; portanto, o controlo de natalidade não hormonal (por ex., 
+preservativos) tem de ser utilizado durante o primeiro mês após o início de Ryeqo. </p>
+<p>Se falhar dois ou mais comprimidos seguidos, o controlo de natalidade não hormonal (por ex., 
+preservativos) tem de ser utilizado durante os 7 dias de tratamento seguintes. </p>
+<p>Condução de veículos e utilização de máquinas 
+Ryeqo não tem qualquer efeito conhecido sobre a capacidade de conduzir e utilizar máquinas.  </p>
+<p>Análises laboratoriais 
+Se precisar de uma análise de sangue ou urina, informe o seu médico ou o pessoal do laboratório que 
+está a tomar Ryeqo porque este medicamento pode afetar os resultados de algumas análises. </p>
+<p>Ryeqo contém lactose 
+Se foi informada pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ryeqo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ryeqo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.  </p>
+<p>A dose recomendada é de um comprimido por dia.  </p>
+<p>O comprimido tem de ser tomado oralmente todos os dias, aproximadamente à mesma hora, com ou 
+sem alimentos com um pouco de líquido. </p>
+<p>Recomenda-se que comece a tomar Ryeqo nos primeiros 5 dias após o início da hemorragia decorrente 
+do seu período. Se começar noutra altura do ciclo menstrual, pode inicialmente ter uma hemorragia 
+irregular ou mais intensa.  </p>
+<p>Se tomar mais Ryeqo do que deveria 
+Não houve notificações de efeitos nocivos graves decorrentes da ingestão de várias doses deste 
+medicamento de uma só vez. Grandes doses de estrogénio podem causar náuseas e vómitos e 
+hemorragia vaginal. Se tiver tomado demasiados comprimidos de Ryeqo, peça aconselhamento ao seu 
+médico ou farmacêutico.  </p>
+<p>Caso se tenha esquecido de tomar Ryeqo 
+Se falhar um comprimido, tome-o assim que se lembrar e depois recomece a tomar o comprimido no 
+dia seguinte, como de costume. Não tome uma dose a dobrar para compensar um comprimido que se 
+esqueceu de tomar.  </p>
+<p>Se falhar dois ou mais comprimidos seguidos, consulte o seu médico e utilize um contracetivo não 
+hormonal (por ex., preservativos) durante os 7 dias de tratamento seguintes. </p>
+<p>Se parar de tomar Ryeqo<br />
+Se quiser parar de tomar Ryeqo, fale primeiro com o seu médico. O seu médico explicar-lhe-á os 
+efeitos da interrupção do tratamento e discutirá consigo outras possibilidades. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. 
+Procure assistência médica urgente se tiver algum dos seguintes sinais e sintomas de uma reação 
+alérgica: 
+- inchaço dos lábios, rosto ou garganta. </p>
+<p>Os seguintes efeitos indesejáveis foram notificados com Ryeqo e estão indicados abaixo de acordo 
+com a frequência com que ocorrem. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas):<br />
+− 
+dor de cabeça, 
+− 
+rubor facial. </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas):<br />
+− 
+irritabilidade, 
+− 
+diminuição do interesse no sexo, 
+− 
+tonturas, 
+− 
+náuseas, 
+− 
+perda de cabelo,<br />
+− 
+aumento do suor, 
+− 
+suores noturnos, 
+− 
+dor nas articulações, 
+− 
+hemorragia excessiva, irregular ou prolongada do útero (hemorragia uterina),<br />
+− 
+secura da zona genital. </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em 100 pessoas): 
+− 
+indigestão, 
+− 
+urticária, 
+− 
+angioedema (inchaço rápido das membranas mucosas ou da pele que pode ocorrer no rosto, 
+boca, língua, abdómen ou braços e pernas), 
+− 
+um caroço no tecido mamário (nódulo na mama), 
+− 
+expulsão de mioma uterino (mioma que sai completa ou parcialmente pela vagina, normalmente 
+com aumento de hemorragia da vagina). </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ryeqo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ryeqo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ryeqo<br />
+− 
+As substâncias ativas são relugolix, estradiol e acetato de noretisterona. Um comprimido 
+revestido por película contém 40 mg de relugolix, 1 mg de estradiol e 0,5 mg de acetato de 
+noretisterona.<br />
+− 
+Os outros componentes são lactose mono-hidratada, manitol (E421), amido glicolato de sódio, 
+hidroxipropílico de celulose (E463), estearato de magnésio (E572), hipromelose tipo 2(E464), dióxido de titânio (E171), triacetina (E1518), óxido de ferro amarelo (E172).  </p>
+<p>Qual o aspeto de Ryeqo e conteúdo da embalagem 
+Ryeqo é um comprimido revestido por película redondo, amarelo claro a amarelo, de 8 mm com “415" 
+num dos lados e liso no outro. Está disponível em frascos de polietileno de alta densidade (PEAD) 
+com exsicante, fechados com uma tampa selada por indução em polipropileno à prova de crianças ou 
+blister de PVC/Al com exsicante embalado em saqueta de folha tripla de PET/Al/PE. Cada embalagem 
+contém um ou três frascos com 28 comprimidos; ou dois ou seis blisters com 14 comprimidos. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Gedeon Richter Plc. 
+Gyömrői út 19-21. 1103 Budapeste 
+Hungria </p>
+<p>Fabricante (locais de libertação do lote) 
+Gedeon Richter Plc. 
+Gyömrői út 19-21. 1103 Budapeste 
+Hungria </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -934,6 +1440,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-2879bea9059649bf46970484a32311c1"
 * entry[0].resource = composition-da-2879bea9059649bf46970484a32311c1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2879bea9059649bf46970484a32311c1"
+* entry[=].resource = mp2879bea9059649bf46970484a32311c1
+                            
+                    
+Instance: bundlepackageleaflet-pt-2879bea9059649bf46970484a32311c1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ryeqo Package Leaflet for language pt"
+Description: "ePI document Bundle for ryeqo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-2879bea9059649bf46970484a32311c1"
+* entry[0].resource = composition-pt-2879bea9059649bf46970484a32311c1
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp2879bea9059649bf46970484a32311c1"
@@ -1035,6 +1563,18 @@ RuleSet: 2879bea9059649bf46970484a32311c1ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-2879bea9059649bf46970484a32311c1) // ryeqo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

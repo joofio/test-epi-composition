@@ -2470,6 +2470,1158 @@ ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel 
 
 
 
+Instance: composition-pt-d5e2325446e1313077f0f1d0c6c251e8
+InstanceOf: CompositionUvEpi
+Title: "Composition for hyrimoz Package Leaflet"
+Description:  "Composition for hyrimoz Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd5e2325446e1313077f0f1d0c6c251e8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - hyrimoz"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instruções de utilização </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Hyrimoz e para que é utilizado 
+2. O que precisa de saber antes de o/a seu/sua filho/a utilizar Hyrimoz 
+3. Como utilizar Hyrimoz 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Hyrimoz 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é hyrimoz e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é hyrimoz e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hyrimoz contém adalimumab como substância ativa, um medicamento que atua ao nível do sistema 
+imunitário (de defesa) do seu corpo. </p>
+<p>Hyrimoz é usado no tratamento das doenças inflamatórias abaixo descritas: </p>
+<ul>
+<li>
+<p>artrite idiopática juvenil poliarticular, </p>
+</li>
+<li>
+<p>artrite relacionada com entesite, </p>
+</li>
+<li>
+<p>psoríase em placas pediátrica, </p>
+</li>
+<li>
+<p>doença de Crohn pediátrica, </p>
+</li>
+<li>
+<p>uveíte não infecciosa pediátrica. </p>
+</li>
+</ul>
+<p>A substância ativa de Hyrimoz, adalimumab, é um anticorpo monoclonal humano. Os anticorpos 
+monoclonais são proteínas que se ligam a um alvo específico no corpo humano. </p>
+<p>O alvo de adalimumab é uma outra proteína denominada fator de necrose tumoral (TNFα), que está 
+presente em níveis aumentados nas doenças inflamatórias acima mencionadas. Ao ligar-se ao TNFα, 
+Hyrimoz bloqueia a sua ação e diminui o processo inflamatório destas doenças. </p>
+<p>Artrite idiopática juvenil poliarticular e artrite relacionada com entesite </p>
+<p>A artrite idiopática juvenil poliarticular e artrite relacionada com entesite são doenças inflamatórias 
+das articulações que normalmente surgem pela primeira vez na infância. </p>
+<p>Hyrimoz é usado no tratamento da artrite idiopática juvenil poliarticular em crianças e adolescentes 
+com idade entre os 2 e os 17 anos e artrite relacionada com entesite em crianças e adolescentes com 
+idade entre os 6 e os 17 anos. Os doentes podem ser tratados inicialmente com outros medicamentos 
+modificadores da doença, como por exemplo o metotrexato. Se estes medicamentos não apresentarem 
+um resultado suficientemente bom, os doentes receberão Hyrimoz para tratar a respetiva artrite 
+idiopática juvenil poliarticular ou artrite relacionada com entesite. </p>
+<p>Psoríase em placas pediátrica </p>
+<p>Psoríase em placas é uma doença inflamatória da pele que provoca manchas avermelhadas, secas e 
+com placas na pele, cobertas de escamas prateadas. A psoríase em placas pode também afetar as 
+unhas, causando a sua desintegração, tornando-as espessas e descoladas da base da unha o que pode 
+ser doloroso. Pensa-se que a psoríase pode ser causada por alterações do sistema imunitário do corpo, 
+que provocam um aumento da produção de células epiteliais. </p>
+<p>Hyrimoz é usado no tratamento da psoríase em placas grave em crianças e adolescentes com idades 
+entre os 4 e os 17 anos de idade, para os quais os medicamentos aplicados na pele e o tratamento com 
+luz UV não tiveram um resultado satisfatório ou são inadequados. </p>
+<p>Doença de Crohn pediátrica </p>
+<p>A doença de Crohn é uma doença inflamatória do aparelho digestivo. </p>
+<p>Hyrimoz é usado no tratamento da doença de Crohn moderada a grave em crianças e adolescentes 
+entre os 6 e os 17 anos.  </p>
+<p>O/a seu/sua filho/a poderá receber primeiro outros medicamentos. Caso estes medicamentos não sejam 
+suficientemente eficazes, o/a seu/sua filho/a receberá Hyrimoz para reduzir os sinais e sintomas da sua 
+doença. </p>
+<p>Uveíte não infecciosa pediátrica </p>
+<p>A uveíte não infecciosa é uma doença inflamatória que afeta diferentes partes do olho. A inflamação 
+pode levar a uma diminuição da visão e/ou à presença de moscas volantes no olho (pontos pretos ou 
+linhas finas que se movem através do campo de visão). Hyrimoz atua através da redução desta 
+inflamação. </p>
+<p>Hyrimoz é usado no tratamento da uveíte não infecciosa, crónica, com inflamação, afetando a parte da 
+frente do olho, em crianças a partir dos 2 anos de idade </p>
+<p>O/a seu/sua filho/a poderá receber primeiro outros medicamentos. Caso estes medicamentos não sejam 
+suficientemente eficazes, o/a seu/sua filho/a receberá Hyrimoz para reduzir os sinais e sintomas da sua 
+doença. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar hyrimoz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar hyrimoz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Hyrimoz </p>
+<ul>
+<li>
+<p>Se o/a seu/sua filho/a tem alergia ao adalimumab ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </p>
+</li>
+<li>
+<p>Se o/a seu/sua filho/a tem uma infeção grave, incluindo tuberculose, sepsia (envenenamento do 
+sangue) ou outras infeções oportunistas (infeções pouco habituais associadas a um sistema 
+imunitário debilitado). Deve contactar o seu médico se o/a seu/sua filho/a tiver sintomas de 
+infeção, tais como febre, feridas, sensação de cansaço, problemas dentários (ver “Advertências e 
+precauções"). </p>
+</li>
+<li>
+<p>Se o/a seu/sua filho/a tem insuficiência cardíaca moderada a grave. É importante que informe o 
+seu médico se o/a seu/sua filho/a tem ou teve alterações cardíacas graves (ver “Advertências e 
+precauções"). </p>
+</li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou farmacêutico antes de utilizar Hyrimoz. </p>
+<p>Reação alérgica </p>
+<ul>
+<li>Se o/a seu/sua filho/a tiver reações alérgicas com sintomas, tais como dificuldade em respirar, 
+respiração ofegante, tonturas, inchaço ou pele irritada, interrompa a administração de Hyrimoz e 
+contacte imediatamente o seu médico uma vez que, em casos raros, estas reações podem ser 
+potencialmente fatais. </li>
+</ul>
+<p>Infeção </p>
+<ul>
+<li>
+<p>Se o/a seu/sua filho/a tiver uma infeção, incluindo uma infeção crónica ou localizada (por 
+exemplo, úlcera da perna), informe o seu médico antes de iniciar o tratamento com Hyrimoz. Se 
+tiver quaisquer dúvidas, deve contactar o seu médico. </p>
+</li>
+<li>
+<p>O/a seu/sua filho/a pode contrair mais facilmente infeções enquanto estiver a ser tratado/a com 
+Hyrimoz. Este risco pode aumentar se a função pulmonar do/a seu/sua filho/a estiver diminuída. 
+Estas infeções podem ser graves e incluir tuberculose, infeções causadas por vírus, fungos, 
+parasitas ou bactérias, ou outros organismos infecciosos pouco habituais e sepsia 
+(envenenamento do sangue).  </p>
+</li>
+<li>
+<p>Em casos raros, estas infeções podem pôr a vida em risco. Deve informar o seu médico se o/a 
+seu/sua filho/a tiver sintomas, tais como febre, feridas, sensação de cansaço ou problemas 
+dentários. O seu médico pode aconselhar a suspensão temporária de Hyrimoz. </p>
+</li>
+</ul>
+<p>Tuberculose (TB) </p>
+<ul>
+<li>Uma vez que foram notificados casos de tuberculose em doentes tratados com adalimumab, o 
+seu médico irá avaliar o/a seu/sua filho/a para despiste de sinais e sintomas de tuberculose antes 
+de iniciar a terapêutica com Hyrimoz. Esta avaliação irá incluir uma história clínica 
+pormenorizada e exames de despiste (por exemplo, uma radiografia do tórax e um teste de 
+tuberculina). A realização e o resultado destes exames devem ser registados no cartão de 
+segurança do doente do/a seu/sua filho/a. É muito importante que informe o seu médico se o/a 
+seu/sua filho/a já sofreu de tuberculose ou se esteve em contacto próximo com alguém com esta 
+doença. A tuberculose pode vir a manifestar-se durante o tratamento, ainda que o/a seu/sua 
+filho/a tenha efetuado tratamento de profilaxia da tuberculose. Se surgirem sintomas de 
+tuberculose (tosse persistente, perda de peso, fraqueza, febre ligeira) ou qualquer outra infeção 
+durante ou após o tratamento, informe imediatamente o seu médico. </li>
+</ul>
+<p>Infeção do viajante/infeção recorrente </p>
+<ul>
+<li>
+<p>Informe o seu médico se o/a seu/sua filho/a residiu ou viajou em regiões nas quais as infeções 
+fúngicas tais como histoplasmose, coccidioidomicose ou blastomicose são frequentes. </p>
+</li>
+<li>
+<p>Informe o seu médico se o/a seu/sua filho/a tem antecedentes de infeções recorrentes ou 
+quaisquer outros problemas que aumentem o risco de infeções. </p>
+</li>
+</ul>
+<p>Vírus da Hepatite B </p>
+<ul>
+<li>Informe o seu médico se o/a seu/sua filho/a é um portador do vírus da Hepatite B (HBV), se o/a 
+seu/sua filho/a tem infeção ativa pelo HBV ou se pensa que o/a seu/sua filho/a pode estar em 
+risco de contrair HBV. O seu médico deve avaliá-lo para determinar se tem HBV. Adalimumab 
+pode reativar a infeção pelo HBV em pessoas portadoras deste vírus. Em alguns casos, 
+especialmente se tomar outros medicamentos que suprimem o sistema imunitário, a reativação 
+da infeção pelo HBV pode pôr a vida do/a seu/sua filho/a em risco. </li>
+</ul>
+<p>Cirurgia ou procedimentos dentários </p>
+<ul>
+<li>Se o/a seu/sua filho/a vai ser submetido a uma intervenção cirúrgica ou dentária, informe o seu 
+médico que o/a seu/sua filho/a está a tomar Hyrimoz. O seu médico pode aconselhar a 
+suspensão temporária de Hyrimoz. </li>
+</ul>
+<p>Doença desmielinizante </p>
+<ul>
+<li>Se o/a seu/sua filho/a sofre ou vier a desenvolver uma doença desmielinizante (uma doença que 
+afeta a camada isoladora à volta dos nervos, tal como esclerose múltipla), o seu médico irá 
+decidir se o/a seu/sua filho/a pode utilizar ou continuar utilizar Hyrimoz. Caso o/a seu/sua 
+filho/a tiver sintomas, tais como alterações na visão, fraqueza nos braços ou pernas ou 
+dormência ou formigueiro em qualquer parte do corpo, informe imediatamente o seu médico. </li>
+</ul>
+<p>Vacinação </p>
+<ul>
+<li>
+<p>Certas vacinas contêm formas vivas, mas enfraquecidas, de bactérias e vírus causadores de 
+doenças e não devem ser administradas durante o tratamento com Hyrimoz para o caso de 
+causarem infeções. Consulte o seu médico antes de o/a seu/sua filho/a receber qualquer vacina. 
+Recomenda-se que as crianças, se possível, antes de iniciarem o tratamento com Hyrimoz, 
+sejam imunizadas com todas as vacinas, de acordo com o atual plano nacional de vacinação.  </p>
+</li>
+<li>
+<p>Se a sua filha receber Hyrimoz durante a gravidez, o bebé da mesma pode ter um risco superior 
+de ter tais infeções até cerca de cinco meses após a última dose administrada durante a gravidez. 
+É importante que diga ao médico do bebé e a outros profissionais de saúde que a sua filha usou 
+Hyrimoz durante a gravidez, para que estes possam decidir quando pode ser dada qualquer 
+vacina ao bebé. </p>
+</li>
+</ul>
+<p>Insuficiência cardíaca </p>
+<ul>
+<li>Deve informar o seu médico se o/a seu/sua filho/a sofre ou já sofreu de algum problema 
+cardíaco grave. Se o/a seu/sua filho/a sofre de insuficiência cardíaca ligeira e está a ser tratado/a 
+com Hyrimoz, o estado da insuficiência cardíaca deve ser controlado cuidadosamente pelo seu 
+médico. Caso se verifique desenvolvimento de novos sintomas ou agravamento dos sintomas de 
+insuficiência cardíaca (por exemplo, falta de ar ou inchaço dos pés), deve contactar o seu 
+médico imediatamente. </li>
+</ul>
+<p>Febre, nódoas negras, perdas de sangue ou aspeto pálido </p>
+<ul>
+<li>Em alguns doentes o organismo pode ser incapaz de produzir suficientes células sanguíneas que 
+combatam infeções ou ajudem a parar hemorragias. Caso verifique febre que se mantenha ou se 
+o/a seu/sua filho/a tiver nódoas negras ou perdas de sangue muito facilmente ou um aspeto 
+pálido, informe imediatamente o seu médico. O seu médico pode decidir suspender o 
+tratamento. </li>
+</ul>
+<p>Cancro </p>
+<ul>
+<li>
+<p>Tem ocorrido em casos muito raros, certos tipos de cancro em crianças e adultos tratados com 
+adalimumab ou com outros antagonistas-TNFα. Doentes com artrite reumatoide muito grave 
+que tenham doença prolongada, podem ter um maior risco médio de aparecimento de linfoma e 
+leucemia (cancro que afeta os glóbulos sanguíneos e medula óssea). Se o/a seu/sua filho/a toma 
+Hyrimoz, o risco de ter linfoma, leucemia, ou outro tipo de cancro pode aumentar. Em raras 
+ocasiões, em doentes tratados com adalimumab, foi notificado um tipo de linfoma específico e 
+grave. Alguns destes doentes foram também tratados com os medicamentos azatioprina 
+ou mercaptopurina. Diga ao seu médico se o/a seu/sua filho/a está a tomar azatioprina 
+ou mercaptopurina com Hyrimoz. </p>
+</li>
+<li>
+<p>Foram observados casos de neoplasias cutâneas não-melanomas em doentes tratados com 
+adalimumab. Se aparecerem novas áreas de pele danificada durante ou depois do tratamento, ou 
+se existirem alterações no aspeto de marcas ou áreas de lesão existentes, informe o seu médico. </p>
+</li>
+<li>
+<p>Existem casos de cancros, para além de linfoma, em doentes com um tipo específico de doença 
+pulmonar denominada doença pulmonar obstrutiva crónica (DPOC) tratados com outros 
+antagonistas-TNFα. Se o/a seu/sua filho/a tem DPOC, ou se fuma muito, deve falar com o seu 
+médico para saber se o tratamento com um bloqueador-TNFα é apropriado. </p>
+</li>
+</ul>
+<p>Doenças autoimunes </p>
+<ul>
+<li>Em raras ocasiões, o tratamento com Hyrimoz pode dar origem a uma síndrome do tipo lúpus. 
+Contacte o seu médico se ocorrerem sintomas tais como erupção cutânea persistente e sem 
+explicação, febre, dor nas articulações ou cansaço. </li>
+</ul>
+<p>Crianças e adolescentes </p>
+<ul>
+<li>
+<p>Não utilizar Hyrimoz em crianças com artrite idiopática juvenil poliarticular, com idade inferior 
+a 2 anos. </p>
+</li>
+<li>
+<p>Não utilizar Hyrimoz em crianças com psoríase pediátrica em placas ou colite ulcerosa 
+pediátrica, com idade inferior a 4 anos. </p>
+</li>
+<li>
+<p>Não utilizar Hyrimoz em crianças com doença de Crohn pediátrica, com idade inferior a 6 anos. </p>
+</li>
+<li>
+<p>Não utilizar a seringa pré-cheia de 40 mg se a dose recomendada não for uma dose de 40 mg. </p>
+</li>
+</ul>
+<p>Outros medicamentos e Hyrimoz </p>
+<p>Informe o médico ou farmacêutico se o/a seu/sua filho/a estiver a tomar, tiver tomado recentemente, 
+ou se vier a tomar outros medicamentos. </p>
+<p>Hyrimoz pode ser utilizado em conjunto com metotrexato ou com certos medicamentos 
+antirreumatismais modificadores da doença (sulfassalazina, hidroxicloroquina, leflunomida e 
+preparações injetáveis de sais de ouro), corticosteroides ou medicamentos analgésicos, incluindo 
+fármacos anti-inflamatórios não-esteroides (AINEs). </p>
+<p>O/a seu/sua filho/a não deve tomar Hyrimoz com medicamentos contendo as substâncias ativas 
+anakinra ou abatacept devido ao risco elevado de infeções graves. A combinação de adalimumab, bem 
+como de outros antagonistas-TNF, com anakinra ou abatacept não é recomendada tendo em conta o 
+possível aumento do risco de infeções, incluindo infeções graves e outras potenciais interações 
+farmacológicas. Se tiver qualquer dúvida, por favor pergunte ao seu médico. </p>
+<p>Gravidez e amamentação </p>
+<ul>
+<li>
+<p>A sua filha deverá considerar a utilização de um método contracetivo adequado para evitar a 
+gravidez e continuar a utilizá-lo durante pelo menos 5 meses após o último tratamento com 
+Hyrimoz.  </p>
+</li>
+<li>
+<p>Se a sua filha está grávida, se pensa que pode estar grávida ou se planeia engravidar, aconselhe-
+se com o seu médico antes de utilizar esta terapêutica. </p>
+</li>
+<li>
+<p>Hyrimoz só deve ser utilizado durante a gravidez se necessário. </p>
+</li>
+<li>
+<p>De acordo com um estudo na gravidez, não houve risco mais elevado de malformações 
+congénitas quando a mãe recebeu adalimumab durante a gravidez, em comparação com mães 
+com a mesma doença que não receberam adalimumab. </p>
+</li>
+<li>
+<p>Hyrimoz pode ser utilizado durante a amamentação. </p>
+</li>
+<li>
+<p>Se a sua filha utilizou Hyrimoz durante a gravidez, o bebé pode ter um risco superior de ter uma 
+infeção.  </p>
+</li>
+<li>
+<p>É importante que diga ao médico do bebé da sua filha e a outros profissionais de saúde que a 
+sua filha utilizou Hyrimoz durante a gravidez antes que o bebé tome qualquer vacina (para mais 
+informação sobre vacinação, ver secção “Advertências e precauções"). </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Hyrimoz pode ter uma pequena influência na capacidade de conduzir, andar de bicicleta ou utilizar 
+máquinas. Depois de tomar Hyrimoz, pode ter vertigens e alterações da visão. </p>
+<p>Hyrimoz contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio  por dose de 0,4 ml, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar hyrimoz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar hyrimoz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>Hyrimoz está disponível em seringas pré-cheias de 20 mg e de 40 mg, assim como uma caneta de 
+40 mg, para a administração de uma dose completa de 20 mg ou 40 mg pelo doente. </p>
+<p>Artrite idiopática juvenil poliarticular 
+Idade e peso corporal 
+Qual a dose e com que 
+frequência se deve tomar? 
+Notas 
+Crianças, adolescentes e 
+adultos a partir dos 2 anos de 
+idade com peso igual ou 
+superior a 30 kg 
+40 mg em semanas 
+alternadas 
+Não aplicável 
+Crianças e adolescentes a partir 
+dos 2 anos de idade com peso 
+igual a 10 kg ou inferior a 
+30 kg 
+20 mg em semanas 
+alternadas 
+Não aplicável </p>
+<p>Artrite relacionada com entesite 
+Idade e peso corporal 
+Qual a dose e com que 
+frequência se deve tomar? 
+Notas 
+Crianças, adolescentes e 
+adultos a partir dos 6 anos de 
+idade com peso igual ou 
+superior a 30 kg 
+40 mg em semanas 
+alternadas 
+Não aplicável 
+Crianças e adolescentes a partir 
+dos 6 anos de idade com peso 
+igual a 15 kg ou inferior a 
+30 kg 
+20 mg em semanas 
+alternadas 
+Não aplicável </p>
+<p>Psoríase em placas pediátrica 
+Idade e peso 
+corporal 
+Qual a dose e com 
+que frequência se 
+deve tomar? 
+Notas 
+Crianças e adolescentes entre 
+os 4 e os 17 anos de idade com 
+peso igual ou superior a 30 kg 
+Dose inicial de 40 mg, seguida 
+de 40 mg uma semana mais 
+tarde.  </p>
+<p>Depois disso, a dose habitual é 
+40 mg em semanas alternadas. 
+Não aplicável 
+Crianças e adolescentes entre 
+os 4 e os 17 anos de idade com 
+peso igual a 15 kg ou inferior a 
+30 kg 
+Dose inicial de 20 mg, seguida 
+de 20 mg uma semana mais 
+tarde.  </p>
+<p>Depois disso, a dose habitual é 
+20 mg em semanas alternadas. 
+Não aplicável </p>
+<p>Doença de Crohn pediátrica 
+Idade e peso 
+corporal 
+Qual a dose e com 
+que frequência se 
+deve tomar? 
+Notas 
+Crianças e adolescentes entre 
+os 6 e os 17 anos de idade com 
+peso igual ou superior a 40 kg 
+Dose inicial de 80 mg (duas 
+injeções de 40 mg num só dia), 
+seguida de 40 mg em semanas 
+alternadas, com início duas 
+semanas mais tarde.  </p>
+<p>Se é necessária uma resposta 
+mais rápida, o seu médico pode 
+prescrever uma dose inicial 
+de 160 mg (quatro injeções de 
+40 mg num só dia ou duas 
+injeções de 40 mg por dia em 
+dois dias consecutivos), 
+seguida de 80 mg (duas 
+injeções de 40 mg num só dia) 
+duas semanas mais tarde. </p>
+<p>Depois disso, a dose habitual é 
+40 mg em semanas alternadas. 
+Se esta dose não apresentar um 
+resultado suficientemente bom, 
+o médico da sua criança pode 
+aumentar a dose para 40 mg 
+por semana ou 80 mg em 
+semanas alternadas. 
+Crianças e adolescentes entre 
+os 6 e os 17 anos de idade com 
+peso inferior a 40 kg 
+Dose inicial de 40 mg, seguida 
+de 20 mg em semanas 
+alternadas, com início duas 
+semanas mais tarde.  </p>
+<p>Se é necessária uma resposta 
+mais rápida, o seu médico pode 
+prescrever uma dose inicial 
+de 80 mg (duas injeções de 
+40 mg num só dia), seguida 
+de 40 mg duas semanas mais 
+tarde. </p>
+<p>Depois disso, a dose habitual é 
+20 mg em semanas alternadas. 
+Se esta dose não apresentar um 
+resultado suficientemente bom, 
+o médico da sua criança pode 
+aumentar a frequência da dose 
+para 20 mg por semana. </p>
+<p>Uveíte não infecciosa pediátrica 
+Idade e peso 
+corporal 
+Qual a dose e com 
+que frequência se 
+deve tomar? 
+Notas 
+Crianças e adolescentes a partir 
+dos 2 anos de idade com peso 
+igual ou superior a 30 kg 
+40 mg em semanas alternadas 
+com metotrexato 
+O seu médico pode também 
+prescrever uma dose inicial 
+de 80 mg que pode ser 
+administrada uma semana 
+antes do início da dose 
+habitual. 
+Crianças e adolescentes a partir 
+dos 2 anos de idade com peso 
+inferior a 30 kg 
+20 mg em semanas alternadas 
+com metotrexato 
+O seu médico pode também 
+prescrever uma dose inicial 
+de 40 mg que pode ser 
+administrada uma semana 
+antes do início da dose 
+habitual. </p>
+<p>Modo e via de administração </p>
+<p>Hyrimoz é administrado por injeção debaixo da pele (via subcutânea). </p>
+<p>A secção 7, “Instruções de utilização", fornece instruções detalhadas sobre como injetar Hyrimoz. </p>
+<p>Se utilizar mais Hyrimoz do que deveria </p>
+<p>Se injetar acidentalmente Hyrimoz mais frequentemente do que o prescrito, contacte o seu médico ou 
+farmacêutico e explique que o/a seu/sua filho/a recebeu mais medicação do que devia. Leve sempre 
+consigo a embalagem exterior do medicamento, mesmo que esteja vazia. </p>
+<p>Caso se tenha esquecido de utilizar Hyrimoz </p>
+<p>Caso se tenha esquecido de administrar uma injeção ao/à seu/sua filho/a, administre a próxima dose de 
+Hyrimoz logo que se lembrar. Administre a dose seguinte conforme prescrito, como se não tivesse 
+omitido a dose anterior. </p>
+<p>Se parar de utilizar Hyrimoz </p>
+<p>A decisão de parar de utilizar Hyrimoz deve ser avaliada com o médico do/a seu/sua filho/a. Os 
+sintomas do/a seu/sua filho/a podem voltar depois de parar o tratamento. </p>
+<p>Caso tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. A maioria dos efeitos indesejáveis é ligeira a moderada. No 
+entanto, alguns podem ser graves e requerer tratamento. Podem ocorrer efeitos indesejáveis 
+até 4 meses ou mais após a última injeção de Hyrimoz. </p>
+<p>Procure assistência médica urgente se tiver algum dos seguintes sinais de reação alérgica ou 
+insuficiência cardíaca: </p>
+<ul>
+<li>
+<p>erupção cutânea grave ou urticária; </p>
+</li>
+<li>
+<p>inchaço da face, mãos, pés; </p>
+</li>
+<li>
+<p>dificuldades em respirar, em engolir; </p>
+</li>
+<li>
+<p>falta de ar durante o esforço ou quando deitado ou inchaço dos pés. </p>
+</li>
+</ul>
+<p>Informe imediatamente o seu médico se tiver algum dos seguintes efeitos indesejáveis: </p>
+<ul>
+<li>
+<p>sinais e sintomas de infeção tais como febre, má disposição, feridas, problemas dentários ou 
+sensação de ardor ao urinar, sensação de fraqueza ou cansaço, tosse; </p>
+</li>
+<li>
+<p>sintomas de problemas neurológicos tais como formigueiro, dormência, visão dupla, sensação 
+de fraqueza nos braços ou pernas; </p>
+</li>
+<li>
+<p>sinais de cancro da pele tais como inchaço ou ferida aberta que não cicatriza; </p>
+</li>
+<li>
+<p>sinais ou sintomas sugestivos de alterações sanguíneas tais como febre persistente, nódoas 
+negras, hemorragias, palidez. </p>
+</li>
+</ul>
+<p>Os efeitos indesejáveis descritos a seguir foram observados com adalimumab: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>reações no local da injeção (incluindo dor, inchaço, vermelhidão ou comichão); </p>
+</li>
+<li>
+<p>infeções do trato respiratório (incluindo constipação, nariz a pingar, infeção sinusal, 
+pneumonia); </p>
+</li>
+<li>
+<p>dor de cabeça; </p>
+</li>
+<li>
+<p>dor abdominal (dor de barriga); </p>
+</li>
+<li>
+<p>náuseas e vómitos; </p>
+</li>
+<li>
+<p>erupção cutânea; </p>
+</li>
+<li>
+<p>dor nos músculos. </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>infeções graves (incluindo envenenamento do sangue e gripe); </p>
+</li>
+<li>
+<p>infeções intestinais (incluindo gastroenterites); </p>
+</li>
+<li>
+<p>infeções da pele (incluindo celulite e zona); </p>
+</li>
+<li>
+<p>infeções dos ouvidos; </p>
+</li>
+<li>
+<p>infeções na bocas (incluindo infeções dentárias e feridas herpéticas); </p>
+</li>
+<li>
+<p>infeções do sistema reprodutor; </p>
+</li>
+<li>
+<p>infeção do trato urinário; </p>
+</li>
+<li>
+<p>infeções fúngicas; </p>
+</li>
+<li>
+<p>infeções das articulações; </p>
+</li>
+<li>
+<p>tumores benignos; </p>
+</li>
+<li>
+<p>cancro da pele; </p>
+</li>
+<li>
+<p>reações alérgicas (incluindo alergia sazonal); </p>
+</li>
+<li>
+<p>desidratação; </p>
+</li>
+<li>
+<p>alterações do humor (incluindo depressão); </p>
+</li>
+<li>
+<p>ansiedade; </p>
+</li>
+<li>
+<p>dificuldade em adormecer; </p>
+</li>
+<li>
+<p>alterações neurológicas tais como prurido, comichão ou dormência; </p>
+</li>
+<li>
+<p>enxaqueca; </p>
+</li>
+<li>
+<p>sintomas de compressão da raiz nervosa (incluindo dor lombar e dor nas pernas); </p>
+</li>
+<li>
+<p>alterações da visão; </p>
+</li>
+<li>
+<p>inflamação dos olhos; </p>
+</li>
+<li>
+<p>inflamação das pálpebras e inchaço de olhos; </p>
+</li>
+<li>
+<p>vertigem (sensação de tontura ou de cabeça às voltas); </p>
+</li>
+<li>
+<p>sensação de batimento cardíaco rápido; </p>
+</li>
+<li>
+<p>tensão arterial alta; </p>
+</li>
+<li>
+<p>vermelhidão; </p>
+</li>
+<li>
+<p>hematoma (concentração de sangue fora dos vasos sanguíneos); </p>
+</li>
+<li>
+<p>tosse; </p>
+</li>
+<li>
+<p>asma; </p>
+</li>
+<li>
+<p>dificuldade em respirar; </p>
+</li>
+<li>
+<p>hemorragia gastrointestinal; </p>
+</li>
+<li>
+<p>dispepsia (indigestão, inchaço, azia); </p>
+</li>
+<li>
+<p>doença de refluxo; </p>
+</li>
+<li>
+<p>síndrome de sicca (incluindo olhos e boca seca); </p>
+</li>
+<li>
+<p>comichão; </p>
+</li>
+<li>
+<p>erupção da pele com comichão; </p>
+</li>
+<li>
+<p>nódoas negras; </p>
+</li>
+<li>
+<p>inflamação da pele (tais como eczema); </p>
+</li>
+<li>
+<p>unhas das mãos e dos pés quebradiças; </p>
+</li>
+<li>
+<p>aumento de suor; </p>
+</li>
+<li>
+<p>perda de cabelo; </p>
+</li>
+<li>
+<p>início ou agravamento de psoríase; </p>
+</li>
+<li>
+<p>espasmos musculares; </p>
+</li>
+<li>
+<p>sangue na urina; </p>
+</li>
+<li>
+<p>perturbações renais; </p>
+</li>
+<li>
+<p>dor no peito; </p>
+</li>
+<li>
+<p>edema (acumulação de fluido no corpo, provocando o inchaço do tecido afetado); </p>
+</li>
+<li>
+<p>febre; </p>
+</li>
+<li>
+<p>redução nas plaquetas sanguíneas aumentando o risco de hemorragia ou de nódoas negras; </p>
+</li>
+<li>
+<p>diminuição na cicatrização. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>infeções pouco habituais (as quais incluem tuberculose e outras infeções que ocorrem quando a 
+resistência à doença está diminuída); </p>
+</li>
+<li>
+<p>infeções neurológicas (incluindo meningite viral); </p>
+</li>
+<li>
+<p>infeções oculares; </p>
+</li>
+<li>
+<p>infeções bacterianas; </p>
+</li>
+<li>
+<p>diverticulite (inflamação e infeção do intestino grosso); </p>
+</li>
+<li>
+<p>cancro, incluindo cancro que afeta o sistema linfático (linfoma) e melanoma (um tipo de cancro 
+da pele); </p>
+</li>
+<li>
+<p>perturbações do sistema imunitário que podem afetar os pulmões, pele e gânglios linfáticos 
+(mais frequentemente como uma doença chamada sarcoidose); </p>
+</li>
+<li>
+<p>vasculite (inflamação dos vasos sanguíneos); </p>
+</li>
+<li>
+<p>tremor; </p>
+</li>
+<li>
+<p>neuropatia (lesão nos nervos); </p>
+</li>
+<li>
+<p>AVC; </p>
+</li>
+<li>
+<p>perda de audição, zumbido; </p>
+</li>
+<li>
+<p>sensação de batimento irregular do coração tal como palpitações; </p>
+</li>
+<li>
+<p>problemas no coração que podem causar falta de ar ou inchaço nos tornozelos; </p>
+</li>
+<li>
+<p>ataque cardíaco; </p>
+</li>
+<li>
+<p>quisto na parede de uma artéria maior, inflamação e coágulo de uma veia, bloqueio de um vaso 
+sanguíneo; </p>
+</li>
+<li>
+<p>doenças pulmonares causando falta de ar (incluindo inflamação); </p>
+</li>
+<li>
+<p>embolismo pulmonar (bloqueio de uma artéria no pulmão); </p>
+</li>
+<li>
+<p>derrame pleural (acumulação anormal de líquido no espaço pleural); </p>
+</li>
+<li>
+<p>inflamação do pâncreas que causa dor grave no abdómen e costas; </p>
+</li>
+<li>
+<p>dificuldade em engolir; </p>
+</li>
+<li>
+<p>edema (inchaço) facial; </p>
+</li>
+<li>
+<p>inflamação da vesícula, pedra na vesícula; </p>
+</li>
+<li>
+<p>fígado gordo (acumulação de gordura nas células do fígado); </p>
+</li>
+<li>
+<p>suores noturnos; </p>
+</li>
+<li>
+<p>escaras; </p>
+</li>
+<li>
+<p>colapso muscular anormal; </p>
+</li>
+<li>
+<p>lúpus eritematoso sistémico (uma doença imunitária, incluindo inflamação da pele, coração, 
+pulmão, articulações e outros órgãos); </p>
+</li>
+<li>
+<p>interrupções de sono; </p>
+</li>
+<li>
+<p>impotência; </p>
+</li>
+<li>
+<p>inflamações. </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1000 pessoas) </p>
+<ul>
+<li>
+<p>leucemia (cancro que afeta o sangue e a medula óssea); </p>
+</li>
+<li>
+<p>reação alérgica grave com choque; </p>
+</li>
+<li>
+<p>esclerose múltipla; </p>
+</li>
+<li>
+<p>alterações neurológicas (tais como inflamação do nervo ótico no olho e síndrome de 
+Guillain-Barré, uma doença que pode causar fraqueza muscular, sensações anormais, 
+formigueiro nos braços e na parte superior do corpo); </p>
+</li>
+<li>
+<p>o coração deixa de bombear; </p>
+</li>
+<li>
+<p>fibrose pulmonar (cicatrizes no pulmão); </p>
+</li>
+<li>
+<p>perfuração intestinal (um orifício na parede do intestino); </p>
+</li>
+<li>
+<p>hepatite (inflamação do fígado); </p>
+</li>
+<li>
+<p>reativação da infeção pelo vírus da hepatite B; </p>
+</li>
+<li>
+<p>hepatite autoimune (inflamação do fígado causada pelo próprio sistema imunitário do corpo); </p>
+</li>
+<li>
+<p>vasculite cutânea (inflamação dos vasos sanguíneos da pele); </p>
+</li>
+<li>
+<p>síndrome de Stevens-Johnson (reação potencialmente fatal com sintomas gripais e erupção 
+cutânea com formação de bolhas); </p>
+</li>
+<li>
+<p>edema (inchaço) facial associado com reações alérgicas; </p>
+</li>
+<li>
+<p>eritema multiforme (erupção cutânea inflamatória); </p>
+</li>
+<li>
+<p>síndrome tipo lúpus; </p>
+</li>
+<li>
+<p>angioedema (inchaço localizado da pele); </p>
+</li>
+<li>
+<p>reação cutânea liquenoide (erupção na pele vermelho-púrpura com comichão). </p>
+</li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>linfoma hepatoesplénico de linfócitos T (um raro cancro de sangue que muitas vezes é fatal); </p>
+</li>
+<li>
+<p>carcinoma de células de Merkel (um tipo de cancro de pele); </p>
+</li>
+<li>
+<p>Sarcoma de Kaposi, um cancro raro relacionado com a infeção pelo vírus herpes humano 8. O 
+sarcoma de Kaposi aparece mais frequentemente na forma de lesões cutâneas de cor púrpura; </p>
+</li>
+<li>
+<p>insuficiência hepática; </p>
+</li>
+<li>
+<p>agravamento de uma doença chamada dermatomiosite (que corresponde a uma erupção cutânea 
+acompanhada de fraqueza muscular); </p>
+</li>
+<li>
+<p>aumento de peso (para a maioria dos doentes, o aumento de peso foi pequeno). </p>
+</li>
+</ul>
+<p>Alguns efeitos indesejáveis observados com adalimumab podem não ter sintomas e só podem ser 
+identificados através de análises ao sangue. Estes incluem: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>contagem diminuída dos glóbulos brancos; </p>
+</li>
+<li>
+<p>contagem diminuída dos glóbulos vermelhos; </p>
+</li>
+<li>
+<p>aumento dos lípidos no sangue; </p>
+</li>
+<li>
+<p>aumento das enzimas hepáticas.  </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>contagem aumentada dos glóbulos brancos; </p>
+</li>
+<li>
+<p>contagem diminuída das plaquetas; </p>
+</li>
+<li>
+<p>aumento de ácido úrico no sangue; </p>
+</li>
+<li>
+<p>contagem anormal de sódio no sangue; </p>
+</li>
+<li>
+<p>contagem diminuída de cálcio no sangue; </p>
+</li>
+<li>
+<p>contagem diminuída de fosfato no sangue; </p>
+</li>
+<li>
+<p>nível de açúcar aumentado no sangue; </p>
+</li>
+<li>
+<p>valores aumentados de desidrogenase láctica no sangue; </p>
+</li>
+<li>
+<p>presença de autoanticorpos no sangue; </p>
+</li>
+<li>
+<p>baixo teor de potássio no sangue. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>aumento de bilirrubina (análises de sangue ao fígado).  </li>
+</ul>
+<p>Raros (podem afetar até 1 em 1000 pessoas): </p>
+<ul>
+<li>contagem diminuída de glóbulos brancos, glóbulos vermelhos e plaquetas. </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente  através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar hyrimoz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar hyrimoz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo/blister/embalagem, após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C). Não congelar.  </p>
+<p>Manter as seringas pré-cheias na embalagem exterior para proteger da luz.  </p>
+<p>Conservação Alternativa: </p>
+<p>Quando necessário (por exemplo, quando está a viajar), Hyrimoz pode ser conservado à temperatura 
+ambiente (até 25 °C) por um período máximo de 21 dias - certifique-se de que o protege da luz. Uma 
+vez retirada do frigorífico para conservação à temperatura ambiente, a seringa pré-cheia deve ser 
+utilizada dentro de 21 dias ou eliminada, mesmo que a volte a colocar no frigorífico mais tarde. 
+Deve registar a data em que a seringa pré-cheia foi inicialmente retirada do frigorífico e a data em que 
+deve ser eliminada. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Hyrimoz </p>
+<ul>
+<li>
+<p>A substância ativa é adalimumab. Cada seringa pré-cheia contém 20 mg de adalimumab em 
+0,4 ml de solução. </p>
+</li>
+<li>
+<p>Os outros componentes são ácido adípico, ácido cítrico mono-hidratado, cloreto de sódio, 
+manitol (E 421), polissorbato 80 (E 433), ácido clorídrico (E 507), hidróxido de sódio (E 524) e 
+água para preparações injetáveis (ver secção 2 “Hyrimoz contém sódio"). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Hyrimoz e conteúdo da embalagem </p>
+<p>Hyrimoz 20 mg solução injetável (injeção) em seringa pré-cheia para uso pediátrico é fornecido sob a 
+forma de 0,4 ml de uma solução límpida a ligeiramente opalescente, incolor ou ligeiramente 
+amarelada. </p>
+<p>Hyrimoz é fornecido numa seringa transparente de vidro tipo I para uma única utilização com uma 
+agulha de aço inoxidável de calibre 29 e uma proteção da agulha, uma flange para os dedos, uma 
+tampa de borracha para a agulha (elastómero termoplástico) e um êmbolo de plástico, contendo 0,4 ml 
+de solução. </p>
+<p>As embalagens contêm 2 seringas pré-cheias de Hyrimoz. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. 
+Hyrimoz está disponível em seringa pré-cheia e em caneta pré-cheia. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Sandoz GmbH 
+Biochemiestr. 6250 Kundl 
+Áustria </p>
+<p>Fabricante </p>
+<p>Sandoz GmbH Schaftenau<br />
+Biochemiestr. 6336 Langkampfen<br />
+Áustria </p>
+<p>Novartis Pharmaceutical Manufacturing GmbH 
+Biochemiestrasse 6336 Langkampfen 
+Áustria </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Sandoz nv/sa 
+Tél/Tel: +32 2 722 97<br />
+Lietuva 
+Sandoz Pharmaceuticals d.d filialas 
+Tel: +370 5 2636 България 
+Сандоз България КЧТ 
+Тел.: +359 2 970 47<br />
+Luxembourg/Luxemburg 
+Sandoz nv/sa 
+Tél/Tel.: +32 2 722 97<br />
+Česká republika 
+Sandoz s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Sandoz Hungária Kft. 
+Tel.: +36 1 430 2 
+Danmark/Norge/Ísland/Sverige 
+Sandoz A/S 
+Tlf: +45 63 95 10<br />
+Malta 
+Sandoz Pharmaceuticals d.d. 
+Tel: +356 99644Deutschland 
+Hexal AG 
+Tel: +49 8024 908 0 </p>
+<p>Nederland 
+Sandoz B.V. 
+Tel: +31 36 52 41<br />
+Eesti 
+Sandoz d.d. Eesti filiaal 
+Tel: +372 665 2 
+Österreich 
+Sandoz GmbH 
+Tel: +43 5338 2Ελλάδα 
+SANDOZ HELLAS ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε. 
+Τηλ: +30 216 600 5 
+Polska 
+Sandoz Polska Sp. z o.o. 
+Tel.: +48 22 209 70<br />
+España 
+Sandoz Farmacéutica, S.A. 
+Tel: +34 900 456<br />
+Portugal 
+Sandoz Farmacêutica Lda. 
+Tel: +351 21 000 86<br />
+France 
+Sandoz SAS 
+Tél: +33 1 49 64 48<br />
+România 
+Sandoz Pharmaceuticals SRL 
+Tel: +40 21 407 51<br />
+Hrvatska 
+Sandoz d.o.o. 
+Tel: +385 1 23 53 111  </p>
+<p>Slovenija 
+Sandoz farmacevtska družba d.d. 
+Tel: +386 1 580 29<br />
+Ireland 
+Rowex Ltd. 
+Tel: + 353 27 50 
+Slovenská republika 
+Sandoz d.d. - organizačná zložka 
+Tel: +421 2 50 70 6 
+Italia 
+Sandoz S.p.A. 
+Tel: +39 02 96 
+Suomi/Finland 
+Sandoz A/S 
+Puh/Tel: +358 10 6133<br />
+Κύπρος 
+Sandoz Pharmaceuticals d.d. 
+Τηλ: +357 22 69 0 
+United Kingdom (Northern Ireland) 
+Sandoz GmbH 
+Tel: +43 5338 2Latvija 
+Sandoz d.d. Latvia filiāle 
+Tel: +371 67 892  </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -2511,6 +3663,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d5e2325446e1313077f0f1d0c6c251e8"
 * entry[0].resource = composition-da-d5e2325446e1313077f0f1d0c6c251e8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd5e2325446e1313077f0f1d0c6c251e8"
+* entry[=].resource = mpd5e2325446e1313077f0f1d0c6c251e8
+                            
+                    
+Instance: bundlepackageleaflet-pt-d5e2325446e1313077f0f1d0c6c251e8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hyrimoz Package Leaflet for language pt"
+Description: "ePI document Bundle for hyrimoz Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d5e2325446e1313077f0f1d0c6c251e8"
+* entry[0].resource = composition-pt-d5e2325446e1313077f0f1d0c6c251e8
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd5e2325446e1313077f0f1d0c6c251e8"
@@ -2612,6 +3786,18 @@ RuleSet: d5e2325446e1313077f0f1d0c6c251e8ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d5e2325446e1313077f0f1d0c6c251e8) // hyrimoz pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

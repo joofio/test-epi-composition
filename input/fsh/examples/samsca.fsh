@@ -878,6 +878,532 @@ hjemmeside: http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-20187f2efcc8af1ff62d82a63aba8a40
+InstanceOf: CompositionUvEpi
+Title: "Composition for samsca Package Leaflet"
+Description:  "Composition for samsca Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp20187f2efcc8af1ff62d82a63aba8a40)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - samsca"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Samsca e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Samsca </li>
+<li>Como tomar Samsca </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Samsca </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é samsca e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é samsca e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Samsca, que contém a substância ativa tolvaptano, pertence a um grupo de medicamentos chamados 
+antagonistas da vasopressina. A vasopressina é uma hormona que ajuda a evitar a perda de água do 
+organismo reduzindo o débito da urina. Antagonista significa que impede que a vasopressina exerça o 
+seu efeito sobre a retenção de água. Isto leva a uma redução na quantidade de fluidos no organismo 
+através do aumento da produção de urina e, em resultado, aumenta o seu nível ou concentração de 
+sódio no sangue. </p>
+<p>Samsca é utilizado para tratar os níveis baixos de sódio sérico em adultos. Este medicamento foi-lhe 
+receitado por ter um nível de sódio reduzido no seu sangue em resultado de uma doença chamada 
+“síndrome de secreção inadequada de hormona antidiurética" (SSIHA), em que os rins retêm 
+demasiada água. Esta doença causa uma produção inadequada da hormona vasopressina, o que fez 
+com que os seus níveis de sódio no sangue ficassem demasiado baixos (hiponatremia). Isto pode levar 
+a dificuldades de concentração e de memória ou em manter o equilíbrio. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar samsca"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar samsca"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Samsca </p>
+<ul>
+<li>
+<p>se tem alergia a tolvaptano ou a qualquer outro componente deste medicamento (indicados na 
+secção 6) ou se tem alergia à benzazepina ou seus derivados (por exemplo, benazepril, 
+conivaptano, mesilato de fenoldopam ou mirtazapina) </p>
+</li>
+<li>
+<p>se os seus rins não funcionam (não produzem urina) </p>
+</li>
+<li>
+<p>se tem uma doença que faz aumentar o seu nível de sódio no sangue (“hipernatremia") </p>
+</li>
+<li>
+<p>se tem uma doença associada a um volume de sangue muito baixo </p>
+</li>
+<li>
+<p>se não se apercebe de quando tem sede </p>
+</li>
+<li>
+<p>se está grávida </p>
+</li>
+<li>
+<p>se está a amamentar. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Samsca: </p>
+<ul>
+<li>
+<p>se não consegue beber água suficiente ou está em restrição de fluidos </p>
+</li>
+<li>
+<p>se tem dificuldade em urinar ou tem a próstata aumentada </p>
+</li>
+<li>
+<p>se sofre de doença hepática </p>
+</li>
+<li>
+<p>se, no passado, teve uma reação alérgica à benzazepina, ao tolvaptano ou a outros derivados da 
+benzazepina (por exemplo, benazepril, conivaptano, mesilato de fenoldopam ou mirtazapina), 
+ou a qualquer outro componente deste medicamento (mencionados na secção 6) </p>
+</li>
+<li>
+<p>se sofre de uma doença dos rins chamada doença poliquística renal autossómica dominante 
+(DPRAD) </p>
+</li>
+<li>
+<p>se tem diabetes. </p>
+</li>
+</ul>
+<p>Beber água suficiente 
+Samsca provoca a perda de água porque aumenta a sua produção de urina. Esta perda de água pode 
+resultar em efeitos indesejáveis como ficar com a boca seca e ter sede, ou mesmo efeitos indesejáveis 
+mais graves, como problemas nos rins (ver secção 4). Portanto, é importante que tenha acesso a água e 
+que consiga beber quantidades suficientes quando tiver sede. </p>
+<p>Crianças e adolescentes 
+Samsca não é adequado para crianças e adolescentes (com menos de 18 anos). </p>
+<p>Outros medicamentos e Samsca 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto inclui todos os medicamentos obtidos sem receita médica. </p>
+<p>Os seguintes medicamentos podem aumentar o efeito deste medicamento: </p>
+<ul>
+<li>
+<p>cetoconazol (contra infeções fúngicas), </p>
+</li>
+<li>
+<p>antibióticos macrólidos, </p>
+</li>
+<li>
+<p>diltiazem (tratamento para a pressão arterial elevada e dor no peito), </p>
+</li>
+<li>
+<p>outros medicamentos que aumentam a quantidade de sal no seu sangue ou que contêm grandes 
+quantidades de sal. </p>
+</li>
+</ul>
+<p>Os seguintes medicamentos podem diminuir o efeito deste medicamento: </p>
+<ul>
+<li>
+<p>barbitúricos (utilizados para tratar epilepsia/convulsões e algumas perturbações do sono), </p>
+</li>
+<li>
+<p>rifampicina (contra a tuberculose). </p>
+</li>
+</ul>
+<p>Este medicamento pode aumentar o efeito dos seguintes medicamentos: </p>
+<ul>
+<li>
+<p>digoxina (utilizada para o tratamento de irregularidades do batimento cardíaco e insuficiência 
+cardíaca), </p>
+</li>
+<li>
+<p>etexilato de dabigatrano (utilizado para diluir o sangue), </p>
+</li>
+<li>
+<p>metformina (utilizada para o tratamento da diabetes, </p>
+</li>
+<li>
+<p>sulfassalazina (utilizada para o tratamento de doença intestinal inflamatória ou artrite 
+reumatoide). </p>
+</li>
+</ul>
+<p>Este medicamento pode diminuir o efeito dos seguintes medicamentos: </p>
+<ul>
+<li>desmopressina (utilizada para aumentar os fatores de coagulação sanguínea). </li>
+</ul>
+<p>Pode ser que não haja problema em tomar estes medicamentos em conjunto com Samsca. O seu 
+médico poderá decidir aquilo que é adequado para si. </p>
+<p>Samsca com alimentos e bebidas 
+Evite beber sumo de toranja ao tomar Samsca. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensar estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Não tome este medicamento se estiver grávida ou a amamentar. </p>
+<p>Têm de ser utilizados métodos contracetivos eficazes durante o tratamento com este medicamento. </p>
+<p>Condução e utilização de máquinas 
+É pouco provável que Samsca afete adversamente a sua capacidade para conduzir ou utilizar 
+máquinas. No entanto, pode ocasionalmente sentir-se tonto ou fraco ou pode desmaiar por um curto 
+período. </p>
+<p>Samsca contém lactose. 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar samsca"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar samsca"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<ul>
+<li>
+<p>O tratamento com Samsca será iniciado no hospital. </p>
+</li>
+<li>
+<p>Para o tratamento do sódio baixo (hiponatremia), o seu médico irá começar com uma dose de 
+15 mg, podendo depois aumentar até um máximo de 60 mg para obter o nível pretendido de 
+sódio sérico. O seu médico irá fazer análises regulares ao sangue para avaliar os efeitos de 
+Samsca. Para alcançar o nível desejado de sódio sérico, o médico pode, nalguns casos, precrever 
+uma dose mais baixa de 7,5 mg. </p>
+</li>
+<li>
+<p>Engula o comprimido sem mastigar, com um copo de água. </p>
+</li>
+<li>
+<p>Tome os comprimidos uma vez ao dia, de preferência de manhã, com ou sem alimentos. </p>
+</li>
+</ul>
+<p>Se tomar mais Samsca do que deveria 
+Se tiver tomado mais medicamentos do que a dose receitada, beba muita água e contacte 
+imediatamente o seu médico ou o seu hospital local. Lembre-se de levar consigo a embalagem do 
+medicamento, para que seja claro o que tomou. </p>
+<p>Caso se tenha esquecido de tomar Samsca 
+Caso se esqueça de tomar o seu medicamento, tome a dose assim que se lembrar, no mesmo dia. Se 
+não tomar o seu comprimido um dia, tome a sua dose normal no dia seguinte. Nao tome uma dose a 
+dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Samsca 
+Se parar de tomar Samsca isso pode levar a que tenha nova ocorrência de sódio baixo. Portanto, só 
+deve parar de tomar Samsca se notar efeitos indesejáveis que exijam auxílio médico imediato (ver 
+secção 4) ou por indicação do seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Se notar algum dos seguintes efeitos indesejáveis, pode necessitar de cuidados médicos urgentes. 
+Pare de tomar Samsca e contacte imediatamente o médico ou dirija-se ao hospital mais próximo 
+se: </p>
+<ul>
+<li>
+<p>tiver dificuldade em urinar </p>
+</li>
+<li>
+<p>tiver um inchaço no rosto, lábios ou língua, comichão, erupção generalizada ou pieira ou falta 
+de ar graves (sintomas de uma reação alérgica). </p>
+</li>
+</ul>
+<p>Consulte o seu médico se ocorrerem sintomas de fadiga, perda de apetite, desconforto na região 
+superior direita da barriga, urina escura ou icterícia (amarelecimento da pele ou dos olhos). </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>enjoo </p>
+</li>
+<li>
+<p>sede </p>
+</li>
+<li>
+<p>aumento rápido no nível de sódio. </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>beber água em excesso </p>
+</li>
+<li>
+<p>perda de água </p>
+</li>
+<li>
+<p>níveis altos de sódio, potássio, creatinina, ácido úrico e açúcar no sangue </p>
+</li>
+<li>
+<p>diminuição nos níveis de açúcar no sangue </p>
+</li>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>desmaio </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>pressão arterial baixa quando se levanta </p>
+</li>
+<li>
+<p>prisão de ventre </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>boca seca </p>
+</li>
+<li>
+<p>sangramento, em manchas, na pele </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>aumento da necessidade de urinar ou urinar com maior frequência </p>
+</li>
+<li>
+<p>cansaço, fraqueza generalizada </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>sensação geral de indisposição </p>
+</li>
+<li>
+<p>sangue na urina </p>
+</li>
+<li>
+<p>aumento dos níveis de enzimas hepáticas no sangue </p>
+</li>
+<li>
+<p>aumento dos níveos de creatinina no sangue. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>
+<p>alteração do paladar </p>
+</li>
+<li>
+<p>problemas nos rins. </p>
+</li>
+</ul>
+<p>Desconhecidos (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>reações alérgicas (ver acima) </p>
+</li>
+<li>
+<p>problemas hepáticos (do fígado) </p>
+</li>
+<li>
+<p>insuficiência hepática aguda (IHA) </p>
+</li>
+<li>
+<p>aumento das enzimas hepáticas. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar samsca"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar samsca"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamente fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister 
+após "EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar na embalagem de origem para proteger da luz e da humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como eliminar deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Samsca </p>
+<ul>
+<li>
+<p>A substância ativa é tolvaptano. 
+Cada comprimido de Samsca 7,5 mg contém 7,5 mg de tolvaptano. 
+Cada comprimido de Samsca 15 mg contém 15 mg de tolvaptano. 
+Cada comprimido de Samsca 30 mg contém 30 mg de tolvaptano. </p>
+</li>
+<li>
+<p>Os outros componentes são lactose mono-hidratada, amido de milho, celulose microcristalina, 
+hidroxipropilcelulose, estearato de magnésio, laca de alumínio de indigotina (E 132). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Samsca e conteúdo da embalagem 
+Samsca 7,5 mg: Comprimidos azuis, retangulares, ligeiramente convexos, com dimensões de 
+7,7 × 4,35 × 2,5 mm, com “OTSUKA" e “7.5" gravados num dos lados. 
+Samsca 15 mg: Comprimidos azuis, triangulares, ligeiramente convexos, com dimensões de 
+6,58 × 6,2 × 2,7 mm, com “OTSUKA" e “15" gravados num dos lados. 
+Samsca 30 mg: Comprimidos azuis, redondos, ligeiramente convexos, com dimensões de 
+Ø8 × 3,0 mm, com “OTSUKA" e “30" gravados num dos lados. </p>
+<p>Samsca 7,5 mg comprimidos está disponível como 
+10 comprimidos em blisters em PP/Alu 
+30 comprimidos em blisters em PP/Alu 
+10 × 1 comprimido em blisters destacáveis para dose unitária em PVC/Alu 
+30 × 1 comprimido em blisters destacáveis para dose unitária em PVC/Alu </p>
+<p>Samsca 15 mg comprimidos e Samsca 30 mg comprimidos estão disponíveis como 
+10 × 1 comprimido em blisters destacáveis para dose unitária em PVC/Alu 
+30 × 1 comprimido em blisters destacáveis para dose unitária em PVC/Alu </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Otsuka Pharmaceutical Netherlands B.V. 
+Herikerbergweg 1101 CT, Amsterdam 
+Países Baixos </p>
+<p>Fabricante 
+Millmount Healthcare Limited 
+Block-7, City North Business Campus, Stamullen, Co. Meath, K32 YDIrlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tél/Tel: +31 (0) 20 85 46<br />
+Lietuva 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 България 
+Otsuka Pharmaceutical Netherlands B.V. 
+Teл: +31 (0) 20 85 46 Luxembourg/Luxemburg 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel/ Tél: +31 (0) 20 85 46<br />
+Česká republika 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 Magyarország 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 Danmark 
+Otsuka Pharma Scandinavia AB 
+Tlf: +46854 528<br />
+Malta 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 Deutschland 
+Otsuka Pharma GmbH 
+Tel: +49691 700<br />
+Nederland 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 Eesti 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Norge 
+Otsuka Pharma Scandinavia AB 
+Tlf: +46854 528<br />
+Ελλάδα 
+Otsuka Pharmaceutical Netherlands B.V. </p>
+<p>Thλ: +31 (0) 20 85 46<br />
+Österreich 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 España 
+Otsuka Pharmaceutical S.A 
+Tel: +3493 2081<br />
+Polska 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 France 
+Otsuka Pharmaceutical France SAS 
+Tél: +33147 080<br />
+Portugal 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 Hrvatska 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+România 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 Ireland 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Slovenija 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 Ísland 
+Otsuka Pharma Scandinavia AB 
+Sími: +46854 528<br />
+Slovenská republika 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Italia 
+Otsuka Pharmaceutical Italy S.r.l. 
+Tel: +39 02 00 63 27<br />
+Suomi/Finland 
+Otsuka Pharma Scandinavia AB 
+Tel/ Puh: +46854 528<br />
+Κύπρος 
+Otsuka Pharmaceutical Netherlands B.V. 
+Thλ: +31 (0) 20 85 46<br />
+Sverige 
+Otsuka Pharma Scandinavia AB 
+Tel: +46854 528<br />
+Latvija 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+United Kingdom (Northern Ireland) 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46  </p>
+<p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -919,6 +1445,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-20187f2efcc8af1ff62d82a63aba8a40"
 * entry[0].resource = composition-da-20187f2efcc8af1ff62d82a63aba8a40
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp20187f2efcc8af1ff62d82a63aba8a40"
+* entry[=].resource = mp20187f2efcc8af1ff62d82a63aba8a40
+                            
+                    
+Instance: bundlepackageleaflet-pt-20187f2efcc8af1ff62d82a63aba8a40
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for samsca Package Leaflet for language pt"
+Description: "ePI document Bundle for samsca Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-20187f2efcc8af1ff62d82a63aba8a40"
+* entry[0].resource = composition-pt-20187f2efcc8af1ff62d82a63aba8a40
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp20187f2efcc8af1ff62d82a63aba8a40"
@@ -1020,6 +1568,18 @@ RuleSet: 20187f2efcc8af1ff62d82a63aba8a40ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-20187f2efcc8af1ff62d82a63aba8a40) // samsca pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

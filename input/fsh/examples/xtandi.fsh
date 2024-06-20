@@ -780,6 +780,415 @@ indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.
 
 
 
+Instance: composition-pt-0f22d445f37b02d3c837ebc1451981fc
+InstanceOf: CompositionUvEpi
+Title: "Composition for xtandi Package Leaflet"
+Description:  "Composition for xtandi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0f22d445f37b02d3c837ebc1451981fc)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - xtandi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Xtandi e para que é utilizado 
+2. O que precisa de saber antes de tomar Xtandi<br />
+3. Como tomar Xtandi<br />
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Xtandi<br />
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é xtandi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é xtandi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xtandi contém a substância ativa enzalutamida. Xtandi é usado para tratar homens adultos com cancro 
+da próstata: 
+-       Que deixam de responder à terapêutica hormonal ou ao tratamento cirúrgico para baixar os níveis 
+de testosterona<br />
+Ou 
+- Que se espalhou para outras partes do corpo e respondem à terapêutica hormonal ou ao tratamento 
+cirúrgico para baixar os níveis de testosterona 
+Ou 
+- Cuja próstata foi previamente removida ou que foram sujeitos a radioterapia e têm um PSA em 
+crescimento rápido, mas cujo cancro não se espalhou para outras partes do corpo e respondem a 
+uma terapêutica hormonal para baixar os níveis de testosterona </p>
+<p>Como atua o Xtandi 
+Xtandi é um medicamento que atua bloqueando a atividade das hormonas chamadas de androgénios 
+(como a testosterona). Ao bloquear os androgénios, a enzalutamida impede o crescimento e a divisão 
+das células da próstata cancerígenas.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar xtandi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar xtandi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Xtandi 
+- Se tem alergia à enzalutamida ou a qualquer outro componente deste medicamento (indicados na 
+secção 6) 
+- Se está grávida ou pode ficar grávida (ver “Gravidez, aleitamento e fertilidade") </p>
+<p>Advertências e precauções<br />
+Convulsões 
+Foram notificadas convulsões em 6 doentes em cada 1000 a tomar Xtandi e menos de 3 em cada 1a tomar placebo (ver também “Outros medicamentos e Xtandi" abaixo e na secção 4 “Efeitos 
+indesejáveis possíveis"). </p>
+<p>Se estiver a tomar um medicamento que possa causar convulsões ou que possa aumentar a 
+suscetibilidade de ter convulsões (ver "Outros medicamentos e Xtandi" abaixo). </p>
+<p>Se tiver uma convulsão durante o tratamento: 
+Consulte o seu médico assim que possível. O seu médico pode decidir que deve parar de tomar Xtandi. </p>
+<p>Síndrome de encefalopatia posterior reversível (SEPR) 
+Foram notificados casos raros de SEPR, uma doença rara, reversível, que envolve o cérebro em 
+doentes tratados com Xtandi. Se tiver convulsões, agravamento de dor de cabeça, confusão, cegueira 
+ou outros problemas de visão, por favor contacte o seu médico o mais rapidamente possível. (Ver 
+também a secção 4 ‘Efeitos indesejáveis possíveis’). </p>
+<p>Risco de novos cancros (segundas neoplasias malignas primárias) 
+Foram notificados casos de novos (segundos) cancros, incluindo cancro da bexiga e do cólon, em 
+doentes tratados com Xtandi. </p>
+<p>Ao tomar Xtandi, consulte o seu médico o mais rapidamente possível caso note sinais de sangramento 
+gastrointestinal, sangue na urina, ou se sente frequentemente urgência em urinar. </p>
+<p>Fale com o seu médico antes de tomar Xtandi<br />
+- Se está a tomar qualquer medicamento para prevenir a formação de coágulos sanguíneos (ex. 
+varfarina, acenocumarol, clopidogrel) 
+- Se estiver a fazer quimioterapia, do tipo docetaxel 
+- Se tem problemas com o seu fígado 
+- Se tem problemas nos seus rins </p>
+<p>Informe o seu médico se tiver qualquer uma das seguintes situações:<br />
+Qualquer condição cardíaca ou dos vasos sanguíneos, incluindo problemas de ritmo cardíaco 
+(arritmia), ou estão a ser tratados com medicamentos para estas situações. O risco de problemas de 
+ritmo cardíaco pode ser aumentado quando se utiliza Xtandi. </p>
+<p>Se tem alergia à enzalutamida, poderá ocorrer erupção cutânea ou inchaço da face, língua, lábios ou 
+garganta. Se tem alergia à enzalutamida ou a qualquer outro componente deste medicamento, não 
+tome Xtandi. </p>
+<p>Foi notificada erupção cutânea grave ou descamação da pele, bolhas e/ou feridas na boca associadas 
+ao tratamento com Xtandi. Procure assistência médica imediatamente se notar algum destes sintomas. </p>
+<p>Se alguma das situações acima mencionadas se aplica a si ou se não tiver a certeza, fale com o 
+seu médico antes de tomar este medicamento.  </p>
+<p>Crianças e adolescentes 
+Este medicamento não é para o uso em crianças e adolescentes. </p>
+<p>Outros medicamentos e Xtandi 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. Tem de saber o nome dos medicamentos que está a tomar. Mantenha uma lista desses 
+medicamentos consigo para mostrar ao seu médico quando lhe for prescrito um novo medicamento. 
+Não deve iniciar ou parar de tomar qualquer medicamento antes de falar com o médico que lhe 
+prescreveu Xtandi. </p>
+<p>Informe o seu médico se estiver a tomar qualquer um dos seguintes medicamentos. Quando tomados 
+na mesma altura que Xtandi, estes medicamentos podem aumentar o risco de convulsão: </p>
+<ul>
+<li>Alguns medicamentos usados no tratamento da asma e outras doenças respiratórias (ex. 
+aminofilina, teofilina) </li>
+<li>Medicamentos usados para tratar certos distúrbios psiquiátricos, como a depressão e 
+esquizofrenia (ex. clozapina, olanzapina, risperidona, ziprasidona, bupropiom, lítio, 
+clorpromazina, mesoridazina, tioridazina, amitriptilina, desipramina, doxepina, imipramina, 
+maprotilina, mirtazapina) </li>
+<li>Certos medicamentos usados para o tratamento da dor (ex. petidina) </li>
+</ul>
+<p>Informe o seu médico se estiver a tomar os seguintes medicamentos. Estes medicamentos podem 
+influenciar o efeito de Xtandi ou Xtandi pode influenciar o efeito destes medicamentos. </p>
+<p>Isto inclui certos medicamentos usados para: 
+- Baixar o colesterol (ex. gemfibrozil, atorvastatina, sinvastatina) 
+- Tratar a dor (ex. fentanilo, tramadol) 
+- Tratar o cancro (ex. cabazitaxel) 
+- Tratar a epilepsia (ex. carbamazepina, clonazepam, fenitoína, primidona, ácido valpróico) 
+- Tratar certos distúrbios psiquiátricos, como a ansiedade grave ou a esquizofrenia (ex. diazepam, 
+midazolam, haloperidol) 
+- Tratar as perturbações do sono (ex. zolpidem) 
+- Tratar problemas cardíacos ou baixar a tensão arterial (ex. bisoprolol, digoxina, diltiazem, 
+felodipina, nicardipina, nifedipina, propranolol, verapamil) 
+- Tratar doenças inflamatórias graves (ex. dexametasona, prednisolona) 
+- Tratar a infeção pelo VIH (ex. indinavir, ritonavir) 
+- Tratar infeções bacterianas (ex. claritromicina, doxiciclina) 
+- Tratar distúrbios da tiroide (ex. levotiroxina) 
+- Tratar a gota (ex. colquicina) 
+-         Tratar distúrbios gástricos (ex. omeprazol) 
+- Prevenir problemas cardíacos ou acidentes vasculares cerebrais (dabigatrano etexilato) 
+-         Prevenir rejeição de órgãos (e.g. tacrolímus) </p>
+<p>Xtandi pode interferir com alguns medicamentos usados para tratar problemas de ritmo cardíaco (por 
+exemplo, quinidina, procainamida, amiodarona e sotalol) ou pode aumentar o risco de problemas de 
+ritmo cardíaco quando utilizado com outros medicamentos [por exemplo, a metadona (utilizado para o 
+alívio da dor e para desintoxicação de drogas), moxifloxacina (um antibiótico), antipsicóticos (usados 
+para doenças mentais graves)]. </p>
+<p>Informe o seu médico se estiver a tomar qualquer um dos medicamentos acima listados. Pode haver 
+necessidade de alterar a dose de Xtandi ou de qualquer outro medicamento que estiver a tomar.  </p>
+<p>Gravidez, amamentação e fertilidade 
+- Xtandi não é para ser usado em mulheres. Este medicamento pode causar danos no feto ou 
+potencial perda da gravidez se tomado por mulheres grávidas. Não deve ser tomado por 
+mulheres grávidas, que possam ficar grávidas ou que estejam a amamentar.<br />
+-   Este medicamento poderá afetar a fertilidade nos homens.<br />
+- Se tem relações sexuais com uma mulher que pode ficar grávida, utilize um preservativo e 
+outro método anticoncecional eficaz, durante o tratamento e até 3 meses após o tratamento 
+com este medicamento. Se tem relações sexuais com uma mulher grávida, use um preservativo 
+para proteger o feto. 
+- Se é cuidador do sexo feminino, consulte a secção 3 "Como tomar Xtandi" para 
+manuseamento e uso. </p>
+<p>Condução de veículos e utilização de máquinas 
+Xtandi pode ter influência moderada sobre a capacidade de conduzir e utilizar máquinas. Foram 
+notificadas convulsões em doentes a tomar Xtandi. 
+Se tem um risco maior de sofrer convulsões, deve falar com o seu médico.  </p>
+<p>Xtandi contém sorbitol 
+Este medicamento contém 57,8 mg de sorbitol (um tipo de açúcar) por cápsula mole. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar xtandi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar xtandi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>A dose recomendada é de 160 mg (quatro cápsulas moles), tomadas à mesma hora uma vez por dia.  </p>
+<p>Tomar Xtandi 
+- Engula as cápsulas moles inteiras com água. 
+- Não mastigue, dissolva ou abra as cápsulas moles antes de engolir. 
+- Xtandi pode ser tomado com ou sem alimentos. 
+- Xtandi não deve ser manuseado por pessoas que não sejam o doente ou os seus cuidadores. As 
+mulheres que estejam grávidas ou possam engravidar não devem manusear cápsulas abertas ou 
+danificadas de Xtandi sem proteção, como por exemplo luvas. </p>
+<p>O seu médico pode prescrever outros medicamentos durante o seu tratamento com Xtandi. </p>
+<p>Se tomar mais Xtandi do que deveria 
+Se tomou mais cápsulas moles do que as que lhe foram prescritas, pare de tomar Xtandi e contacte o 
+seu médico. Pode ter um maior risco de convulsões ou outros efeitos indesejáveis. </p>
+<p>Caso se tenha esquecido de tomar Xtandi 
+- Caso se tenha esquecido de tomar Xtandi à hora habitual, tome a sua dose habitual assim que 
+se lembrar.<br />
+- Caso se tenha esquecido de tomar Xtandi durante um dia inteiro, tome a sua dose habitual no 
+dia seguinte.<br />
+- Caso se tenha esquecido de tomar Xtandi durante mais de um dia, fale imediatamente com o 
+seu médico.<br />
+-   Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Xtandi 
+Não pare de tomar este medicamento a menos que o médico lhe diga para parar.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Convulsões 
+Foram notificadas convulsões em 6 doentes em cada 1000 a tomar Xtandi e menos de 3 pessoas em 
+cada 1000 a tomar placebo. </p>
+<p>As convulsões são mais prováveis se tomar mais do que a dose recomendada deste medicamento, se 
+está a tomar certos outros medicamentos ou se tem um risco de convulsões superior ao habitual. </p>
+<p>Se tiver convulsões, consulte o seu médico o mais brevemente possível. O seu médico pode decidir 
+que deve parar de tomar Xtandi. </p>
+<p>Síndrome de encefalopatia posterior reversível (SEPR) 
+Foram notificados casos raros de SEPR (pode afetar até 1 em cada 1000 pessoas), uma doença rara, 
+reversível, que envolve o cérebro em doentes tratados com Xtandi. Se tiver convulsões, agravamento 
+de dor de cabeça, confusão, cegueira ou problemas de visão, por favor contacte o seu médico o mais 
+rapidamente possível. </p>
+<p>Outros efeitos indesejáveis possíveis incluem:  </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 doentes) 
+Cansaço, queda, fraturas nos ossos, afrontamentos, tensão arterial elevada </p>
+<p>Frequentes (podem afetar até 1 em cada 10 doentes)<br />
+Dor de cabeça, sensação de ansiedade, pele seca, comichão, dificuldades de memória, bloqueio 
+das artérias do coração (doença cardíaca isquémica), aumento mamário nos homens 
+(ginecomastia), dor nos mamilos, hipersensibilidade dolorosa da mama, sintoma de síndrome de 
+pernas inquietas (uma necessidade incontrolável de mover uma parte do corpo, habitualmente a 
+perna), diminuição da concentração, esquecimento, alteração no paladar, dificuldade em pensar 
+claramente </p>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 doentes) 
+Alucinações, baixa contagem de glóbulos brancos </p>
+<p>Desconhecido (a frequência não pode ser estimada com os dados disponíveis) 
+Dores musculares, espasmos musculares, fraqueza muscular, dores de costas, alterações no 
+eletrocardiograma (prolongamento do intervalo QT), desconforto no estômago incluindo sensação 
+de enjoo (náuseas), uma reação cutânea que provoca manchas ou pápulas vermelhas na pele com 
+aparência de alvo ou «olho de boi» com um centro vermelho escuro rodeado de anéis de cor 
+vermelha mais clara (eritema multiforme), erupção cutânea, mal-estar (vómitos), inchaço da face, 
+lábios, língua e/ou garganta, diminuição das plaquetas sanguíneas (o que aumenta o risco de 
+sangramento ou nódoas negras), diarreia. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar xtandi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar xtandi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na bolsa e na embalagem após EXP. 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não tome qualquer cápsula mole que esteja a verter, que esteja danificada, ou com sinais de 
+adulteração. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Xtandi<br />
+- A substância ativa é a enzalutamida. Cada cápsula mole contém 40 mg de enzalutamida.<br />
+- Os outros componentes da cápsula mole são caprilocaproil glicéridos macrogol-8, butil-
+hidroxianisol (E320) e butil-hidroxitolueno (E321).<br />
+- Os componentes do invólucro da cápsula mole são gelatina, solução de sorbitol e sorbitano (ver 
+secção 2), glicerina, dióxido de titânio (E171) e água purificada. 
+- Os componentes da tinta são: óxido de ferro preto (E172) e acetoftalato de polivinil. </p>
+<p>Qual o aspeto de Xtandi e conteúdo da embalagem 
+- As cápsulas moles de Xtandi são cápsulas moles oblongas (aproximadamente 20 mm por 
+9 mm), brancas ou quase brancas, com “ENZ" impresso num dos lados.<br />
+- Cada caixa contém 112 cápsulas moles em 4 blisters em bolsas com 28 cápsulas moles cada. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Astellas Pharma Europe B.V. 
+Sylviusweg 62<br />
+2333 BE Leiden 
+Países Baixos </p>
+<p>Fabricante 
+Delpharm Meppel B.V. 
+Hogemaat 2 
+7942 JG Meppel 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:  </p>
+<p>België/Belgique/Belgien 
+Astellas Pharma B.V. Branch 
+Tél/Tel: + 32 (0)2 5580 
+Lietuva 
+Astellas Pharma d.o.o. 
+Tel: +370 37 408<br />
+България 
+Астелас Фарма ЕООД<br />
+Teл.: + 359 2 862 53<br />
+Luxembourg/Luxemburg 
+Astellas Pharma B.V. Branch 
+Belgique/Belgien 
+Tél/Tel: + 32 (0)2 5580 
+Česká republika 
+Astellas Pharma s.r.o. 
+Tel: + 420 221 401<br />
+Magyarország 
+Astellas Pharma Kft. 
+Tel.: + 36 1 577 8 
+Danmark 
+Astellas Pharma a/s 
+Tlf: + 45 43 430 
+Malta 
+Astellas Pharmaceuticals AEBE 
+Tel: + 30 210 8189Deutschland 
+Astellas Pharma GmbH 
+Tel: + 49 (0)89 454 
+Nederland 
+Astellas Pharma B.V. 
+Tel: + 31 (0)71 5455 
+Eesti 
+Astellas Pharma d.o.o. 
+Tel: + 372 6 056<br />
+Norge 
+Astellas Pharma<br />
+Tlf: + 47 66 76 46<br />
+Ελλάδα 
+Astellas Pharmaceuticals AEBE 
+Τηλ: + 30 210 8189 
+Österreich 
+Astellas Pharma Ges.m.b.H. 
+Tel: + 43 (0)1 8772 
+España 
+Astellas Pharma S.A. 
+Tel: + 34 91 4952 
+Polska 
+Astellas Pharma Sp.z.o.o. 
+Tel.: + 48 225451<br />
+France 
+Astellas Pharma S.A.S. 
+Tél: + 33 (0)1 55917 
+Portugal 
+Astellas Farma, Lda. 
+Tel: + 351 21 4401 
+Hrvatska 
+Astellas d.o.o. 
+Tel: + 385 1 670 01<br />
+România 
+S.C. Astellas Pharma SRL 
+Tel: + 40 (0)21 361 04<br />
+Ireland 
+Astellas Pharma Co. Ltd. 
+Tel: + 353 (0)1 4671 
+Slovenija 
+Astellas Pharma d.o.o. 
+Tel: + 386 14011<br />
+Ísland 
+Vistor hf 
+Sími: + 354 535 7 
+Slovenská republika 
+Astellas Pharma s.r.o.,<br />
+Tel: + 421 2 4444 2 
+Italia 
+Astellas Pharma S.p.A. 
+Tel: + 39 (0)2 921 
+Suomi/Finland 
+Astellas Pharma 
+Puh/Tel: + 358 (0)9 85606Κύπρος 
+Ελλάδα 
+Astellas Pharmaceuticals AEBE 
+Τηλ: + 30 210 8189 
+Sverige 
+Astellas Pharma AB 
+Tel: + 46 (0)40-650 15<br />
+Latvija 
+Astellas Pharma d.o.o. 
+Tel: + 371 67 619 
+United Kingdom (Northern Ireland) 
+Astellas Pharma Co., Limited<br />
+Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5 </p>
+<p>Este folheto foi revisto pela última vez em MM/AAAA. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -821,6 +1230,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-0f22d445f37b02d3c837ebc1451981fc"
 * entry[0].resource = composition-da-0f22d445f37b02d3c837ebc1451981fc
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0f22d445f37b02d3c837ebc1451981fc"
+* entry[=].resource = mp0f22d445f37b02d3c837ebc1451981fc
+                            
+                    
+Instance: bundlepackageleaflet-pt-0f22d445f37b02d3c837ebc1451981fc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xtandi Package Leaflet for language pt"
+Description: "ePI document Bundle for xtandi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-0f22d445f37b02d3c837ebc1451981fc"
+* entry[0].resource = composition-pt-0f22d445f37b02d3c837ebc1451981fc
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp0f22d445f37b02d3c837ebc1451981fc"
@@ -922,6 +1353,18 @@ RuleSet: 0f22d445f37b02d3c837ebc1451981fcListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-0f22d445f37b02d3c837ebc1451981fc) // xtandi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

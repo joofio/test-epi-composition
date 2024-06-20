@@ -713,6 +713,375 @@ www.jyseleca.eu </p>         </div>"""
 
 
 
+Instance: composition-pt-86797ea5a5b2ca41d08f535ddec98397
+InstanceOf: CompositionUvEpi
+Title: "Composition for jyseleca Package Leaflet"
+Description:  "Composition for jyseleca Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp86797ea5a5b2ca41d08f535ddec98397)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - jyseleca"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Jyseleca e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Jyseleca </li>
+<li>Como tomar Jyseleca </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Jyseleca </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é jyseleca e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é jyseleca e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jyseleca contém a substância ativa filgotinib. Pertence a um grupo de medicamentos chamados 
+inibidores das Janus cinases que ajudam a reduzir a inflamação. </p>
+<p>Artrite reumatoide 
+Jyseleca é utilizado para tratar adultos com artrite reumatoide, uma doença inflamatória das 
+articulações. Pode ser utilizado se houve uma resposta inadequada da terapêutica anterior ou se esta 
+não foi tolerada. Jyseleca pode ser utilizado de forma independente ou associado a outro medicamento 
+para a artrite, o metotrexato. </p>
+<p>Jyseleca reduz a inflamação no seu corpo. Ajuda a reduzir a dor, o cansaço, a rigidez e o edema nas 
+suas articulações, e reduz a progressão dos danos no osso e na cartilagem das articulações. Estes 
+efeitos podem ajudá-lo a realizar as suas atividades diárias normais e a melhorar a sua qualidade de 
+vida. </p>
+<p>Colite ulcerosa 
+Jyseleca é utilizado para tratar adultos com colite ulcerosa, uma doença inflamatória do intestino. Pode 
+ser utilizado se não tiver respondido bem o suficiente ou não tiver tolerado a terapêutica anterior. 
+Ajuda a reduzir os sinais e sintomas de colite ulcerosa e a reduzir a sua necessidade de esteroides. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar jyseleca"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar jyseleca"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Jyseleca </p>
+<ul>
+<li>
+<p>se tem alergia ao filgotinib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+</li>
+<li>
+<p>se tem tuberculose (TB) ativa. </p>
+</li>
+<li>
+<p>se tem uma infeção grave ativa (ver secção “Advertências e precauções"). </p>
+</li>
+<li>
+<p>se está grávida ou pensa estar grávida. </p>
+</li>
+</ul>
+<p> Se qualquer uma destas situações se aplica a si, não tome Jyseleca e fale com o seu médico 
+imediatamente. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Jyseleca: </p>
+<ul>
+<li>
+<p>se tem uma infeção, ou se desenvolve infeções muitas vezes. Fale com o seu médico se tiver 
+sintomas como febre, feridas, mais cansaço do que o habitual ou problemas nos dentes, uma vez 
+que estes podem ser sinais de infeção. Jyseleca pode reduzir a capacidade do seu corpo para 
+combater infeções e pode agravar uma infeção existente ou aumentar a probabilidade de 
+desenvolver uma nova infeção. Se tem diabetes ou idade igual ou superior a 65 anos, existe um 
+risco aumentado de contrair uma infeção. </p>
+</li>
+<li>
+<p>se alguma vez teve tuberculose (TB), ou se teve contacto com alguém com TB. Pode precisar 
+de exames para verificar a presença de tuberculose antes e durante o tratamento com Jyseleca. </p>
+</li>
+<li>
+<p>se teve uma infeção por herpes zóster (zona) no passado, Jyseleca pode fazer com que a 
+infeção volte. Fale com o seu médico se tiver uma erupção na pele dolorosa com bolhas durante 
+o tratamento com Jyseleca, pois estes podem ser sinais de zona. </p>
+</li>
+<li>
+<p>se alguma vez teve hepatite B ou C. </p>
+</li>
+<li>
+<p>se tem ou alguma vez teve cancro, se é atualmente fumador ou ex-fumador, porque o 
+médico irá discutir consigo se Jyseleca é adequado para si. </p>
+</li>
+<li>
+<p>Foi observado cancro de pele não-melanoma em doentes a receber Jyseleca. O médico pode 
+recomendar-lhe que faça exames regulares à pele durante a toma de Jyseleca. Fale com o seu 
+médico se aparecer uma nova lesão ou se notar qualquer alteração na aparência de uma lesão 
+existente durante ou após o tratamento. </p>
+</li>
+<li>
+<p>se foi recentemente vacinado, ou se está prestes a ser vacinado. Certos tipos de vacinas 
+(vacinas vivas) não são recomendados durante o uso de Jyseleca. Fale com o seu médico ou 
+farmacêutico antes de iniciar Jyseleca. Eles poderão querer certificar-se de que tem as suas 
+vacinas em dia. </p>
+</li>
+<li>
+<p>se tem ou teve problemas de coração, porque o médico irá discutir consigo se Jyseleca é 
+adequado para si. </p>
+</li>
+<li>
+<p>se teve anteriormente coágulos de sangue nas veias das pernas (trombose venosa profunda) ou 
+dos pulmões (embolia pulmonar) ou tem um risco acrescido de desenvolver esse problema (por 
+exemplo: se tiver feito recentemente uma grande cirurgia, se utilizar contracetivos 
+hormonais/terapêutica de substituição hormonal, se tiver sido identificado um problema de 
+coagulação em si ou nos seus familiares mais próximos). Fale com o seu médico se tiver 
+subitamente falta de ar ou dificuldade em respirar, dor no peito ou dor nas costas, inchaço da 
+perna ou do braço, dor ou sensibilidade na perna ou vermelhidão ou descoloração da perna ou 
+do braço, pois estes podem ser sinais de coágulos de sangue nas veias. </p>
+</li>
+</ul>
+<p>Idosos </p>
+<p>Os doentes com 65 anos ou mais poderão ter um risco aumentado de infeções, ataque do coração e 
+alguns tipos de cancro. O seu médico poderá decidir que Jyseleca não é adequado para si. </p>
+<p>Crianças e adolescentes 
+Não dê este medicamento a crianças ou adolescentes com menos de 18 anos de idade porque não foi 
+estudado neste grupo etário. </p>
+<p>Outros medicamentos e Jyseleca 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos, especialmente se utilizar medicamentos que afetam o seu sistema 
+imunitário (tais como ciclosporina ou tacrolímus). 
+É também muito importante falar com o seu médico ou farmacêutico se estiver a tomar algum dos 
+seguintes medicamentos: </p>
+<ul>
+<li>
+<p>medicamentos para tratar a insuficiência cardíaca, doença coronária ou tensão arterial alta (tais 
+como diltiazem ou carvedilol) </p>
+</li>
+<li>
+<p>o medicamento fenofibrato (usado para tratar o colesterol alto) </p>
+</li>
+</ul>
+<p>Gravidez, contraceção e amamentação 
+Gravidez 
+Jyseleca não pode ser utilizado na gravidez. Se está grávida, se pensa estar grávida ou planeia 
+engravidar, não tome este medicamento. Fale com o seu médico para obter aconselhamento. </p>
+<p>Contraceção 
+Tenha cuidado para não engravidar enquanto estiver a tomar Jyseleca. Utilize um método 
+contracetivo eficaz enquanto estiver a tomar Jyseleca e durante pelo menos 1 semana depois de tomar 
+a sua última dose de Jyseleca. Se engravidar enquanto estiver a tomar Jyseleca, pare de tomar os 
+comprimidos e fale com o seu médico imediatamente. </p>
+<p>Amamentação 
+Não amamente enquanto estiver a tomar Jyseleca. Não se sabe se a substância ativa passa para o 
+leite materno humano. </p>
+<p>Condução de veículos e utilização de máquinas 
+Jyseleca pode causar tonturas e vertigens. Caso se sinta tonto enquanto tomar Jyseleca, não conduza 
+nem utilize quaisquer ferramentas ou máquinas. </p>
+<p>Jyseleca contém lactose 
+Cada comprimido revestido por película de 100 mg de Jyseleca contém 76 mg de lactose, e cada 
+comprimido revestido por película de 200 mg de Jyseleca contém 152 mg de lactose. Se foi informado 
+pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar jyseleca"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar jyseleca"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é um comprimido de 200 mg ou 100 mg, uma vez por dia. </p>
+<p>Se tem idade igual ou superior a 65 anos e artrite reumatoide ou se tem problemas de rins, o seu 
+médico poderá recomendar uma dose de um comprimido de 100 mg, uma vez por dia. Jyseleca não é 
+recomendado para si se tem mais de 75 anos e colite ulcerosa. Fale com o seu médico se tiver 
+problemas graves de fígado, uma vez que Jyseleca não é recomendado para si. </p>
+<p>Engula o seu comprimido com um copo de água. Não divida, esmague nem mastigue o comprimido 
+antes de engolir, pois isso poderá alterar a quantidade de medicamento que entra no seu corpo. Pode 
+tomar Jyseleca com alimentos ou entre refeições. Não engula o exsicante. </p>
+<p>Tome Jyseleca à mesma hora todos os dias. Isto irá ajudá-lo a lembrar-se de tomar os comprimidos. </p>
+<p>O seu médico poderá parar o tratamento temporária ou permanentemente se as análises ao sangue 
+mostrarem uma contagem de glóbulos brancos ou vermelhos baixa. </p>
+<p>Se tomar mais Jyseleca do que deveria 
+Se tomar mais comprimidos do que deveria, fale com o seu médico de imediato. </p>
+<p>Caso se tenha esquecido de tomar Jyseleca </p>
+<ul>
+<li>
+<p>Caso se esqueça de uma dose, tome-a logo que se lembrar. </p>
+</li>
+<li>
+<p>Se esteve um dia inteiro (24 horas) sem tomar uma dose, não tome a dose esquecida e tome uma 
+única dose à hora habitual. </p>
+</li>
+<li>
+<p>Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. </p>
+</li>
+</ul>
+<p>Se parar de tomar Jyseleca 
+Se parar de tomar Jyseleca, fale com o seu médico de imediato. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Fale com o seu médico ou obtenha assistência médica de imediato se tiver quaisquer sinais de infeção 
+grave tais como: </p>
+<ul>
+<li>
+<p>febre e sintomas de infeção do trato urinário (urinar com mais frequência do que o habitual, dor 
+ou desconforto ao urinar ou dor nas costas). As infeções do trato urinário são frequentes (podem 
+afetar até 1 em cada 10 pessoas) e algumas destas poderão ser graves. </p>
+</li>
+<li>
+<p>infeção nos pulmões (pneumonia): os sintomas podem incluir tosse persistente, febre, falta de ar 
+e cansaço. Isto é pouco frequente (pode afetar até 1 em cada 100 pessoas). </p>
+</li>
+<li>
+<p>zona (herpes zóster): os sintomas podem incluir uma erupção na pele dolorosa com bolhas. Isto 
+é pouco frequente (pode afetar até 1 em cada 100 pessoas). </p>
+</li>
+<li>
+<p>Infeção do sangue (sepsia): pouco frequente (pode afetar até 1 em cada 100 pessoas). </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis 
+Fale com o seu médico se notar qualquer um dos seguintes efeitos indesejáveis: </p>
+<p>Frequentes 
+(podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>infeções na garganta e no nariz </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>sensação de mal-estar (náuseas) </p>
+</li>
+</ul>
+<p>As análises ao sangue podem mostrar: </p>
+<ul>
+<li>um baixo número de glóbulos brancos (linfócitos) </li>
+</ul>
+<p>Pouco frequentes 
+(podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>uma sensação de girar (vertigens) </li>
+</ul>
+<p>As análises ao sangue poderão mostrar: </p>
+<ul>
+<li>
+<p>um baixo número de glóbulos brancos (neutrófilos) </p>
+</li>
+<li>
+<p>um aumento de uma enzima muscular chamada creatina fosfocinase </p>
+</li>
+<li>
+<p>um aumento do nível de gordura (colesterol) no sangue. </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar jyseleca"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar jyseleca"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar na embalagem de origem para proteger da humidade. Manter o frasco bem fechado. Não 
+utilizar se o selo por cima da abertura do frasco estiver partido ou ausente. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Jyseleca </p>
+<ul>
+<li>
+<p>A substância ativa é o filgotinib. Cada comprimido revestido por película contém 100 mg ou 
+200 mg de filgotinib (na forma de maleato de filgotinib). </p>
+</li>
+<li>
+<p>Os outros componentes são: 
+Núcleo do comprimido: celulose microcristalina, lactose mono-hidratada, amido pré-
+gelatinizado, dióxido de silício coloidal, ácido fumárico, estearato de magnésio 
+Revestimento por película: álcool polivinílico, dióxido de titânio (E171), macrogol, talco, óxido 
+de ferro amarelo (E172), óxido de ferro vermelho (E172) </p>
+</li>
+</ul>
+<p>Qual o aspeto de Jyseleca e conteúdo da embalagem 
+Os comprimidos revestidos por película de Jyseleca 100 mg são bege, com um tamanho de 
+12 mm × 7 mm, em forma de cápsula, com “G" num lado e “100" no outro. </p>
+<p>Os comprimidos revestidos por película de Jyseleca 200 mg são bege, com um tamanho de 
+17 mm × 8 mm, em forma de cápsula, com “G" num lado e “200" no outro. </p>
+<p>Os comprimidos revestidos por película de 100 mg e 200 mg de Jyseleca estão disponíveis em frascos 
+de 30 comprimidos e em embalagens constituídas por 3 frascos, cada um contendo 30 comprimidos. 
+Cada frasco contém um exsicante de sílica gel que tem de ser mantido no frasco para ajudar a proteger 
+os seus comprimidos. O exsicante de sílica gel está contido numa saqueta ou recipiente separado e não 
+deve ser engolido. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Galapagos NV 
+Gen. De Wittelaan L11 A3 
+2800 Mechelen 
+Bélgica </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -754,6 +1123,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-86797ea5a5b2ca41d08f535ddec98397"
 * entry[0].resource = composition-da-86797ea5a5b2ca41d08f535ddec98397
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp86797ea5a5b2ca41d08f535ddec98397"
+* entry[=].resource = mp86797ea5a5b2ca41d08f535ddec98397
+                            
+                    
+Instance: bundlepackageleaflet-pt-86797ea5a5b2ca41d08f535ddec98397
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jyseleca Package Leaflet for language pt"
+Description: "ePI document Bundle for jyseleca Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-86797ea5a5b2ca41d08f535ddec98397"
+* entry[0].resource = composition-pt-86797ea5a5b2ca41d08f535ddec98397
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp86797ea5a5b2ca41d08f535ddec98397"
@@ -855,6 +1246,18 @@ RuleSet: 86797ea5a5b2ca41d08f535ddec98397ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-86797ea5a5b2ca41d08f535ddec98397) // jyseleca pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

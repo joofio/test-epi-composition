@@ -1538,6 +1538,916 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-65f18cefcd0fd99147e2e0a1f92724f0
+InstanceOf: CompositionUvEpi
+Title: "Composition for efavirenzemtricitabinetenofovir Package Leaflet"
+Description:  "Composition for efavirenzemtricitabinetenofovir Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp65f18cefcd0fd99147e2e0a1f92724f0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - efavirenzemtricitabinetenofovir"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva e para que é utilizado 
+2. O que precisa de saber antes de utilizar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva 
+3. Como utilizar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é efavirenzemtricitabinetenofovir e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é efavirenzemtricitabinetenofovir e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva contém três substâncias ativas que são 
+utilizadas para tratar a infeção pelo vírus da imunodeficiência humana (VIH): </p>
+<ul>
+<li>
+<p>O efavirenz é um análogo não nucleosídeo inibidor da transcriptase reversa (NNRTI) </p>
+</li>
+<li>
+<p>A emtricitabina é um análogo nucleosídeo inibidor da transcriptase reversa (NRTI) </p>
+</li>
+<li>
+<p>O tenofovir é um análogo nucleótido inibidor da transcriptase reversa (NtRTI) </p>
+</li>
+</ul>
+<p>Cada uma destas substâncias ativas, também conhecidas como medicamentos antirretrovirais, atuam 
+interferindo com uma enzima (transcriptase reversa) que é fundamental para que o vírus se possa 
+multiplicar. </p>
+<p>Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva é utilizado para o tratamento da infeção 
+pelo Vírus da Imunodeficiência Humana (VIH) em adultos com 18 anos de idade ou mais que 
+foram previamente tratados com outros medicamentos antirretrovirais e têm a sua infeção pelo VIH-1 
+controlada há pelo menos três meses. Os doentes não devem ter tido um insucesso com uma 
+terapêutica prévia contra o VIH. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar efavirenzemtricitabinetenofovir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar efavirenzemtricitabinetenofovir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zentiva </p>
+<p>Não tome Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva </p>
+<ul>
+<li>
+<p>se é alérgico ao efavirenz, à emtricitabina, ao tenofovir, ao tenofovir disoproxil ou a qualquer 
+outro componente deste medicamento (indicados na secção 6). </p>
+</li>
+<li>
+<p>se tiver doença grave do fígado. </p>
+</li>
+<li>
+<p>se tiver uma doença cardíaca, por exemplo um sinal elétrico anormal chamado 
+prolongamento do intervalo QT, que aumenta o risco de problemas graves no ritmo 
+cardíaco (Torsade de Pointes). </p>
+</li>
+<li>
+<p>se algum familiar seu (pais, avós, irmãos ou irmãs) tiver morrido subitamente devido a um 
+problema cardíaco ou tiver nascido com problemas cardíacos. </p>
+</li>
+<li>
+<p>se o seu médico lhe tiver dito que tem níveis baixos ou altos de eletrólitos, tais como potássio ou 
+magnésio, no sangue. </p>
+</li>
+<li>
+<p>se estiver atualmente a tomar qualquer um dos seguintes medicamentos (ver também “Outros 
+medicamentos e Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva): </p>
+</li>
+<li>astemizol ou terfenadina (utilizados para tratar febre dos fenos ou outras alergias) </li>
+<li>bepridilo (utilizado para tratar doenças cardíacas) </li>
+<li>cisaprida (utilizada para tratar a azia) </li>
+<li>elbasvir/grazoprevir (utilizados para tratar a hepatite C) </li>
+<li>alcaloides da cravagem de centeio (por exemplo, ergotamina, dihidroergotamina, 
+ergonovina e metilergonovina) (utilizados para tratar enxaquecas e dor de cabeça em 
+salva) </li>
+<li>midazolam ou triazolam (utilizado para ajudar a adormecer) </li>
+<li>pimozida, imipramina, amitriptilina ou clomipramina (utilizadas para tratar 
+determinadas doenças mentais) </li>
+<li>hipericão (Hypericum perforatum) (uma preparação à base de plantas medicinais 
+utilizada para a depressão e ansiedade) </li>
+<li>voriconazol (utilizado para tratar infeções fúngicas) </li>
+<li>flecainida, metoprolol (utilizados para tratar o ritmo cardíaco irregular) </li>
+<li>certos antibióticos (macrólidos, fluoroquinolonas, imidazol) </li>
+<li>agentes antifúngicos triazóis </li>
+<li>certos agentes antimaláricos </li>
+<li>metadona (utilizada para tratar a dependência de opiáceos) </li>
+</ul>
+<p>Informe o seu médico imediatamente, se estiver a tomar algum destes medicamentos. A toma 
+destes medicamentos com Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva aumenta a 
+possibilidade de ocorrerem efeitos indesejáveis graves ou potencialmente fatais, ou impedir que estes 
+medicamentos atuem convenientemente. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Efavirenz/Emtricitabina/Tenofovir disoproxil 
+Zentiva. </p>
+<ul>
+<li>
+<p>Este medicamento não é uma cura para a infeção pelo VIH. Enquanto tomar 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva pode desenvolver, na mesma, infeções ou 
+outras doenças associadas com a infeção pelo VIH. </p>
+</li>
+<li>
+<p>Tem de continuar sob os cuidados do seu médico enquanto estiver a tomar 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva. </p>
+</li>
+<li>
+<p>Informe o seu médico: </p>
+</li>
+<li>
+<p>se estiver a tomar outros medicamentos que contenham efavirenz, emtricitabina, 
+tenofovir disoproxil, tenofovir alafenamida, lamivudina ou adefovir dipivoxil. 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva não deve ser tomado com qualquer 
+um destes medicamentos. </p>
+</li>
+<li>
+<p>se tem ou tiver tido uma doença nos rins, ou se as análises tiverem apresentado 
+alterações relativas aos seus rins. Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva 
+não é recomendado se tiver doença nos rins moderada a grave. </p>
+</li>
+</ul>
+<p>Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva pode afetar os seus rins. Antes de 
+iniciar o tratamento, o seu médico pode pedir-lhe análises ao sangue para avaliar a função 
+dos seus rins. O seu médico também pode pedir-lhe análises ao sangue durante o 
+tratamento, para verificar se os seus rins estão a funcionar corretamente. </p>
+<p>Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva não é geralmente tomado com 
+outros medicamentos que possam prejudicar os seus rins (ver Outros medicamentos e </p>
+<p>Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva). Caso isto seja inevitável, o seu 
+médico irá verificar, uma vez por semana, se os seus rins estão a funcionar corretamente. </p>
+<ul>
+<li>
+<p>se tiver um problema cardíaco, tal como um sinal elétrico anormal chamado 
+prolongamento do intervalo QT. </p>
+</li>
+<li>
+<p>se tiver antecedentes de doença mental, incluindo depressão, ou de abuso de drogas ou 
+de álcool. Informe imediatamente o seu médico se se sentir deprimido, tiver pensamentos 
+suicidas ou tiver pensamentos estranhos (ver secção 4, Efeitos indesejáveis possíveis). </p>
+</li>
+<li>
+<p>se tiver antecedentes de convulsões (ataques ou crises convulsivas) ou se estiver a ser 
+tratado com uma terapêutica anticonvulsivante, como a carbamazepina, o fenobarbital e a 
+fenitoína. Se estiver a tomar qualquer um destes medicamentos, o seu médico pode 
+necessitar de verificar os níveis do medicamento anticonvulsivante no seu sangue para se 
+certificar de que não é afetado enquanto estiver a tomar 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva. O seu médico pode prescrever-lhe 
+um anticonvulsivante diferente. </p>
+</li>
+<li>
+<p>se tiver antecedentes de doença no fígado, incluindo hepatite crónica ativa. Os 
+doentes com doença no fígado, incluindo hepatite B ou C crónica, que estejam a ser 
+tratados com medicamentos antirretrovirais combinados, apresentam um risco superior de 
+sofrerem complicações graves e potencialmente fatais ao nível do fígado. O seu médico 
+pedir-lhe-á análises ao sangue para verificar se o seu fígado está a funcionar corretamente 
+ou pode receitar-lhe outro medicamento. Se tiver uma doença grave no fígado, não 
+tome Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva (ver acima na secção 2, 
+Não tome Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva). </p>
+</li>
+</ul>
+<p>Se tem hepatite B, o seu médico irá considerar cuidadosamente o melhor regime 
+terapêutico para si. Tenofovir disoproxil e emtricitabina, duas das substâncias ativas de 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva, demonstram alguma atividade 
+contra o vírus da hepatite B, apesar de a emtricitabina não estar aprovada para o 
+tratamento desta infeção. Os sintomas da sua hepatite podem agravar-se após a 
+interrupção de Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva. O seu médico pode 
+então pedir análises ao sangue em intervalos regulares para verificar se o seu fígado está a 
+funcionar corretamente (ver secção 3, Se parar de tomar 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva). </p>
+<ul>
+<li>
+<p>Independentemente de antecedentes de doença no fígado, o seu médico poderá pedir-lhe 
+análises ao sangue regularmente para verificar como o seu fígado está a funcionar. </p>
+</li>
+<li>
+<p>se tem mais de 65 anos. Foi estudado um número insuficiente de doentes com mais de 
+65 anos de idade. Caso tenha mais de 65 anos e lhe seja receitado 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva, o seu médico irá observá-lo mais 
+frequentemente. </p>
+</li>
+<li>
+<p>Uma vez que esteja já a tomar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva, 
+fique atento a: </p>
+</li>
+<li>
+<p>sinais de tonturas, dificuldade em adormecer, sonolência, dificuldade em 
+concentrar-se ou sonhos anormais. Estes efeitos indesejáveis podem começar no 
+primeiro ou nos 2 primeiros dias do tratamento e geralmente passam após as primeiras 2 a 
+4 semanas. </p>
+</li>
+<li>
+<p>quaisquer sinais de erupção na pele. As erupções na pele podem ser causadas por 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva. Se observar alguns sinais de uma 
+erupção na pele grave com bolhas ou febre, pare de tomar 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva e informe o seu médico </p>
+</li>
+</ul>
+<p>imediatamente. Se tiver tido uma erupção na pele enquanto tomou outro NNRTI, pode ter 
+um risco acrescido de ter uma erupção na pele com Efavirenz/Emtricitabina/Tenofovir 
+disoproxil Zentiva. </p>
+<ul>
+<li>quaisquer sinais de inflamação ou infeção. Em alguns doentes com infeção avançada 
+pelo VIH (SIDA) e história de infeção oportunista, podem ocorrer sinais e sintomas de 
+inflamação resultantes de infeções anteriores, pouco tempo após o início do tratamento 
+anti-VIH. Pensa-se que estes sintomas se devem a um aumento da resposta imunológica 
+do organismo, habilitando-o a combater infeções que possam ter existido sem sintomas 
+evidentes. Se notar quaisquer sintomas de infeção, por favor informe imediatamente o seu 
+médico. </li>
+</ul>
+<p>Adicionalmente às infeções oportunistas, as doenças autoimunes (uma condição que 
+ocorre quando o sistema imunitário ataca tecidos corporais saudáveis) também podem 
+ocorrer depois de começar a tomar os medicamentos para o tratamento da sua infeção 
+pelo VIH. As doenças autoimunes podem ocorrer muitos meses após o início do 
+tratamento. Se notar quaisquer sintomas de infeção ou outros sintomas como fraqueza 
+muscular, fraqueza a começar nas mãos e nos pés e dirigindo-se em direção ao tronco, 
+palpitações, tremores ou hiperatividade, informe o seu médico imediatamente para 
+procurar o tratamento necessário. </p>
+<ul>
+<li>problemas ósseos. Alguns doentes em terapêutica antirretroviral combinada podem 
+desenvolver uma doença óssea chamada osteonecrose (morte do tecido ósseo provocada 
+por falta de afluxo de sangue ao osso). A duração da terapêutica antirretroviral 
+combinada, a utilização de corticosteroides, o consumo de álcool, a imunossupressão 
+grave, um índice de massa corporal aumentado, entre outros, podem ser alguns dos 
+inúmeros fatores de risco para o desenvolvimento desta doença. Os sinais de osteonecrose 
+são rigidez, mal-estar e dores nas articulações (especialmente na anca, joelho e ombro) e 
+dificuldade de movimentos. Por favor informe o seu médico se notar qualquer um destes 
+sintomas. </li>
+</ul>
+<p>Os problemas ósseos (manifestados como dor óssea persistente ou agravada e que, por 
+vezes resulta em fraturas) podem também ocorrer devido a lesão das células tubulares do 
+rim (ver secção 4, Efeitos indesejáveis possíveis). Informe o seu médico se tiver dor óssea 
+ou fraturas. </p>
+<p>Tenofovir disoproxil também pode causar a perda de massa óssea. De modo geral, os 
+efeitos de tenofovir disoproxil na saúde óssea a longo-prazo e o risco de fraturas em 
+doentes adultos e pediátricos são incertos.  </p>
+<p>Informe o seu médico se souber que sofre de osteoporose. Os doentes com osteoporose 
+têm um risco mais elevado de fraturas. </p>
+<p>Crianças e adolescentes </p>
+<ul>
+<li>Não administrar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva a crianças e 
+adolescentes com menos de 18 anos de idade. A utilização de 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva em crianças e adolescentes não foi 
+estudada. </li>
+</ul>
+<p>Outros medicamentos e Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva </p>
+<p>Não deve tomar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva com certos 
+medicamentos. Estes estão indicados sob Não tome Efavirenz/Emtricitabina/Tenofovir disoproxil 
+Zentiva, no início da secção 2. Incluem alguns medicamentos comuns e certas preparações à base de 
+plantas medicinais (incluindo hipericão) que podem causar interações graves. </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Igualmente, não deve tomar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva com quaisquer 
+outros medicamentos que contenham efavirenz (a menos que recomendado pelo seu médico), 
+emtricitabina, tenofovir disoproxil, tenofovir alafenamida, lamivudina ou adefovir dipivoxil. </p>
+<p>Informe o seu médico se estiver a tomar outros medicamentos que possam prejudicar os seus rins. 
+Alguns exemplos incluem: </p>
+<ul>
+<li>
+<p>aminoglicosídeos, vancomicina (medicamentos para infeções bacterianas) </p>
+</li>
+<li>
+<p>foscarneto, ganciclovir, cidofovir (medicamentos para infeções virais) </p>
+</li>
+<li>
+<p>anfotericina B, pentamidina (medicamentos para infeções fúngicas) </p>
+</li>
+<li>
+<p>interleucina-2 (para tratamento do cancro) </p>
+</li>
+<li>
+<p>anti-inflamatórios não esteroides (AINEs, para aliviar a dor óssea ou a dor muscular) </p>
+</li>
+</ul>
+<p>Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva pode interagir com outros medicamentos, 
+incluindo preparações à base de plantas, tais como extratos de Ginkgo biloba. Como resultado, as 
+quantidades de Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva ou de outros medicamentos no 
+seu sangue podem ser afetadas. Isto pode fazer com que os seus medicamentos deixem de atuar 
+adequadamente, ou pode fazer com que os efeitos indesejáveis se agravem. Em alguns casos, o seu 
+médico pode necessitar de ajustar a sua dose ou verificar os seus níveis sanguíneos. É importante 
+informar o seu médico ou farmacêutico se já estiver a tomar qualquer um dos seguintes: </p>
+<ul>
+<li>
+<p>Medicamentos que contêm didanosina (para infeção pelo VIH): tomar 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva com outros medicamentos antivirais que 
+contêm didanosina pode aumentar os níveis de didanosina no seu sangue e pode reduzir as 
+contagens de células CD4. Foram notificadas raramente inflamação do pâncreas e acidose 
+láctica (excesso de ácido láctico no sangue), que ocasionalmente causou morte, quando foram 
+tomados em conjunto medicamentos contendo tenofovir disoproxil e didanosina. O seu médico 
+irá considerar cuidadosamente se deverá tratá-lo com medicamentos que contêm tenofovir e 
+didanosina. </p>
+</li>
+<li>
+<p>Outros medicamentos utilizados para tratar a infeção pelo VIH: os seguintes inibidores da 
+protease: darunavir, indinavir, lopinavir/ritonavir, ritonavir, ou atazanavir potenciado pelo 
+ritonavir ou saquinavir. O seu médico pode achar que é melhor tomar um medicamento 
+alternativo ou ajustar a dose dos inibidores da protease. Informe também o seu médico se estiver 
+a tomar maraviroc. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para tratar a infeção pelo vírus da hepatite C: 
+elbasvir/grazoprevir, glecaprevir/pibrentasvir, sofosbuvir/velpatasvir, 
+sofosbuvir/velpatasvir/voxilaprevir. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para reduzir as gorduras no sangue (também chamados 
+estatinas): atorvastatina, pravastatina, sinvastatina. Efavirenz/Emtricitabina/Tenofovir 
+disoproxil Zentiva pode reduzir a quantidade de estatinas no seu sangue. O seu médico 
+verificará os seus níveis de colesterol e considerará o ajuste da dose da sua estatina, caso 
+necessário. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para tratar convulsões/crises convulsivas (anticonvulsivantes): 
+carbamazepina, fenitoína, fenobarbital. Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva 
+pode reduzir a quantidade do anticonvulsivante no seu sangue. A carbamazepina pode reduzir a 
+quantidade de efavirenz, um dos componentes de Efavirenz/Emtricitabina/Tenofovir disoproxil 
+Zentiva, no seu sangue. O seu médico pode achar que é melhor dar-lhe um anticonvulsivante 
+diferente. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para tratar infeções bacterianas, incluindo a tuberculose e a 
+infeção causada pelo complexo Mycobacterium avium relacionado com a SIDA: claritromicina, 
+rifabutina, rifampicina. O seu médico pode achar que é melhor ajustar a sua dose ou dar-lhe um 
+antibiótico alternativo. Para além disso, o seu médico pode achar que é melhor dar-lhe uma dose 
+adicional de efavirenz para tratar a sua infeção pelo VIH. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para tratar infeções fúngicas (antifúngicos): itraconazol ou 
+posaconazol. Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva pode reduzir a quantidade 
+de itraconazol ou de posaconazol no seu sangue. O seu médico pode achar que é melhor dar-lhe 
+um antifúngico diferente. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para tratar a malária: Atovaquona/proguanilo ou 
+arteméter/lumefantrina. Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva pode reduzir a 
+quantidade de atovaquona/proguanilo ou de arteméter/lumefantrina no seu sangue. </p>
+</li>
+<li>
+<p>Contracetivos hormonais, como pílulas, contracetivos injetáveis (por exemplo, Depo-
+Provera), ou o implante contracetivo (por exemplo, Implanon): deve também usar um 
+método fiável de contraceção de barreira (ver secção Gravidez e amamentação). 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva pode aumentar a probabilidade de os 
+contracetivos de barreira não funcionarem. Ocorreram gravidezes em mulheres a tomar 
+efavirenz, um componente de Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva, enquanto 
+usavam um implante contracetivo; no entanto não foi demonstrado que o tratamento com 
+efavirenz tenha originado a falha do contracetivo. </p>
+</li>
+<li>
+<p>Sertralina, um medicamento utilizado para tratar a depressão, uma vez que o seu médico pode 
+achar que é melhor ajustar a sua dose de sertralina. </p>
+</li>
+<li>
+<p>Bupropiom, um medicamento utilizado para tratar a depressão ou para ajudar a deixar de 
+fumar, uma vez que o seu médico pode achar que é melhor ajustar a sua dose de bupropiona. </p>
+</li>
+<li>
+<p>Diltiazem ou medicamentos da mesma família (chamados bloqueadores dos canais de 
+cálcio): quando começar a tomar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva, o seu 
+médico pode achar necessário ajustar a dose do bloqueador dos canais de cálcio. </p>
+</li>
+<li>
+<p>Medicamentos utilizados para prevenir a rejeição de órgãos transplantados (também 
+conhecidos como imunossupressores) como a ciclosporina, o sirolímus ou o tacrolímus. 
+Quando começar ou parar de tomar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva, o seu 
+médico irá monitorizar cuidadosamente os seus níveis plasmáticos de imunossupressor e pode 
+ser necessário ajustar a sua dose. </p>
+</li>
+<li>
+<p>Varfarina ou acenocumarol (medicamentos utilizados para diminuir a coagulação do sangue): 
+o seu médico pode achar necessário ajustar a dose de varfarina ou de acenocumarol. </p>
+</li>
+<li>
+<p>Extratos de Gingko biloba (uma preparação à base de plantas medicinais). </p>
+</li>
+<li>
+<p>Metamizol, um medicamento utilizado para tratar a dor ou a febre. </p>
+</li>
+<li>
+<p>Praziquantel, um medicamento para tratar certas infeções parasitárias. </p>
+</li>
+</ul>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>As mulheres não devem engravidar durante o tratamento com 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva e durante as 12 semanas seguintes. O seu 
+médico pode pedir que faça um teste de gravidez para se certificar de que não está grávida antes de 
+iniciar o tratamento com Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva. </p>
+<p>Se tem a possibilidade de engravidar durante o tratamento com 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva, deve usar sempre um método fiável de 
+contraceção de barreira (por exemplo, um preservativo) com outros métodos de contraceção, incluindo 
+o oral (pílula) ou outros contracetivos hormonais (por exemplo, implantes, injeção). O efavirenz, um 
+dos componentes ativos de Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva, pode permanecer no 
+seu sangue durante algum tempo após paragem da terapêutica. Por conseguinte, deverá continuar a 
+usar as medidas contracetivas, acima indicadas, durante 12 semanas após ter parado de tomar 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva. </p>
+<p>Informe imediatamente o seu médico se estiver grávida ou tencionar engravidar. Se estiver 
+grávida, só deverá tomar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva se for decidido entre si 
+e o seu médico que é realmente necessário. </p>
+<p>Observaram-se anomalias congénitas pré-natais graves em animais e em bebés de mulheres tratadas 
+com efavirenz durante a gravidez. </p>
+<p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
+<p>Se tomou Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva durante a gravidez, o seu médico pode 
+pedir-lhe para efetuar análises ao sangue e outros testes de diagnóstico regulares para verificar o 
+desenvolvimento da sua criança. Nas crianças cujas mães tomaram NRTIs durante a gravidez, o 
+benefício da menor possibilidade de infeção pelo VIH é superior ao risco de sofrerem efeitos 
+indesejáveis. </p>
+<p>Não deverá amamentar durante o tratamento com Efavirenz/Emtricitabina/Tenofovir disoproxil 
+Zentiva. Tanto o VIH como os componentes de Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva 
+podem passar para o leite materno e causar danos graves no seu bebé. </p>
+<p>A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção pelo 
+VIH pode ser transmitida ao bebé através do leite materno. </p>
+<p>Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais 
+rapidamente possível. </p>
+<p>Condução de veículos e utilização de máquinas 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva pode causar tonturas, incapacidade de 
+concentração e sonolência. No caso de se sentir afetado, não conduza e não utilize quaisquer 
+ferramentas ou máquinas. </p>
+<p>Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva contém sódio. 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar efavirenzemtricitabinetenofovir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar efavirenzemtricitabinetenofovir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é: 
+Um comprimido por dia, tomado por via oral. Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva 
+deve ser tomado com o estômago vazio (geralmente define-se como 1 hora antes ou 2 horas após uma 
+refeição) de preferência ao deitar. Deste modo, alguns efeitos indesejáveis (por exemplo, tonturas, 
+sonolência) podem ser menos problemáticos. 
+Engula Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva inteiro com água. </p>
+<p>Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva tem de ser tomado todos os dias. </p>
+<p>Se o seu médico decidir interromper um dos componentes de Efavirenz/Emtricitabina/Tenofovir 
+disoproxil Zentiva, pode ser-lhe dado efavirenz, emtricitabina e/ou tenofovir disoproxil em separado 
+ou com outros medicamentos para o tratamento da sua infeção pelo VIH. </p>
+<p>Remoção da tampa à prova de criança 
+Para abrir o frasco pressione a tampa resistente à abertura por crianças para baixo e rode no sentido 
+contrário aos ponteiros do relógio. </p>
+<p>Se tomar mais Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva do que deveria 
+Se acidentalmente tomar demasiados comprimidos de Efavirenz/Emtricitabina/Tenofovir disoproxil 
+Zentiva pode correr um maior risco de ter efeitos indesejáveis possíveis com este medicamento (ver 
+secção 4, Efeitos indesejáveis possíveis). Consulte o seu médico ou aconselhe-se junto do serviço de </p>
+<p>urgência mais próximo. Mantenha o frasco de comprimidos consigo para que facilmente possa 
+descrever o que tomou. </p>
+<p>Se se esquecer de tomar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva 
+É importante que não falhe nenhuma dose de Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva. </p>
+<p>Caso se tenha esquecido de tomar uma dose de Efavirenz/Emtricitabina/Tenofovir disoproxil 
+Zentiva no período de 12 horas após a hora em que é habitualmente tomada, tome-a o mais 
+rapidamente possível, e depois tome a sua dose seguinte à hora do costume. </p>
+<p>Se for já quase hora (menos de 12 horas) da sua próxima dose, não tome a dose que falhou. Espere 
+e tome a dose seguinte à hora do costume. Não tome uma dose a dobrar para compensar um 
+comprimido que se esqueceu de tomar. </p>
+<p>Se vomitar o comprimido (no período de 1 hora após a toma de 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva), deve tomar outro comprimido. Não espere 
+até à hora da sua próxima dose. Não terá de tomar outro comprimido se tiver vomitado após 1 hora da 
+toma de Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva. </p>
+<p>Se parar de tomar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva 
+Não pare de tomar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva sem falar com o seu 
+médico. Parar de tomar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva pode afetar gravemente 
+a resposta a qualquer tratamento futuro. Se parar Efavirenz/Emtricitabina/Tenofovir disoproxil 
+Zentiva, fale com o seu médico antes de voltar a tomar Efavirenz/Emtricitabina/Tenofovir disoproxil 
+Zentiva em comprimidos. O seu médico pode decidir dar-lhe os componentes de 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva em separado se estiver a ter problemas ou for 
+necessário ajustar a sua dose. </p>
+<p>Quando tiver pouca quantidade de Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva, 
+obtenha mais junto do seu médico ou farmacêutico. Isto é muito importante porque se parar o 
+medicamento, mesmo por um curto período de tempo, a quantidade de vírus pode começar a aumentar. 
+Pode então ser mais difícil combater o vírus. </p>
+<p>Se tiver ambas, infeção pelo VIH e hepatite B, é particularmente importante não parar o tratamento 
+com Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva sem previamente consultar o seu médico. 
+Alguns doentes apresentaram análises ao sangue ou sintomas indicativos de que a sua hepatite tinha 
+agravado após paragem do tratamento com emtricitabina ou tenofovir disoproxil (dois dos três 
+componentes de Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva). Se o tratamento com 
+Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva for interrompido, o seu médico pode 
+recomendar-lhe o recomeço do tratamento da hepatite B. Pode necessitar de análises ao sangue para 
+verificar se o seu fígado está a funcionar corretamente durante 4 meses após paragem do tratamento. 
+Em alguns doentes com doença hepática (do fígado) avançada ou cirrose, a interrupção do tratamento 
+não é recomendada, uma vez que pode levar a um agravamento da sua hepatite, o que pode ser 
+potencialmente fatal. </p>
+<p>Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco habituais após 
+parar o tratamento, particularmente sintomas que associaria à sua hepatite B. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Durante a terapêutica para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no 
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos </p>
+<p>lípidos no sangue, por vezes aos próprios medicamentos para o VIH. O seu médico irá realizar testes 
+para determinar estas alterações. </p>
+<p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves possíveis: informe o seu médico de imediato </p>
+<ul>
+<li>Acidose láctica (excesso de ácido láctico no sangue) é um efeito indesejável raro (pode afetar 
+até 1 em 1.000 pessoas), mas potencialmente fatal. Os seguintes podem ser sinais de acidose 
+láctica: </li>
+<li>respiração profunda rápida </li>
+<li>sonolência </li>
+<li>sentir-se enjoado (náuseas), estar enjoado (vómitos) e dor de estômago </li>
+</ul>
+<p>Caso pense que possa ter acidose láctica, contacte imediatamente o seu médico. </p>
+<p>Outros efeitos indesejáveis graves possíveis: </p>
+<p>Os seguintes efeitos indesejáveis são pouco frequentes (estes podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>reação alérgica (hipersensibilidade) que pode causar reações graves na pele (síndrome de 
+Stevens-Johnson, eritema multiforme, ver secção 2) </p>
+</li>
+<li>
+<p>inchaço da face, lábios, língua ou garganta </p>
+</li>
+<li>
+<p>comportamento agressivo, pensamentos suicidas, pensamentos estranhos, paranoia, 
+incapacidade de pensar com clareza, alterações do humor, ver ou ouvir coisas que não estão lá 
+(alucinações), tentativas de suicídio, alteração da personalidade (psicose), catatonia (uma 
+condição na qual o doente fica imóvel e sem falar por um período de tempo) </p>
+</li>
+<li>
+<p>dor no abdómen (barriga) causada por inflamação do pâncreas </p>
+</li>
+<li>
+<p>esquecimento, confusão, crises convulsivas, discurso incoerente, tremor </p>
+</li>
+<li>
+<p>pele ou olhos de cor amarelada, comichão ou dor no abdómen (barriga) causadas por inflamação 
+do fígado </p>
+</li>
+<li>
+<p>lesão das células tubulares do rim </p>
+</li>
+</ul>
+<p>Os efeitos indesejáveis psiquiátricos, para além daqueles descritos anteriormente, incluem delírio 
+(convicções falsas), neurose. Alguns doentes cometeram suicídio. Estes problemas tendem a ocorrer 
+mais frequentemente em indivíduos com antecedentes de doença mental. Informe sempre o seu 
+médico imediatamente se sentir estes sintomas. </p>
+<p>Efeitos indesejados no fígado: se também está infetado pelo vírus da hepatite B, pode ocorrer um 
+agravamento da hepatite após interrupção do tratamento (ver secção 3). </p>
+<p>Os seguintes efeitos indesejáveis são raros (estes podem afetar até 1 em 1.000 pessoas): </p>
+<ul>
+<li>
+<p>insuficiência hepática, em alguns casos levando à morte ou a um transplante de fígado. A 
+maioria dos casos ocorreu em doentes que já tinham uma doença no fígado, mas também foram 
+notificados casos em doentes sem uma doença do fígado preexistente </p>
+</li>
+<li>
+<p>inflamação do rim, aumento da quantidade de urina e sensação de sede </p>
+</li>
+<li>
+<p>dor nas costas causada por problemas de rins, incluindo insuficiência renal. O seu médico pode 
+pedir-lhe análises ao sangue para verificar se os seus rins estão a funcionar corretamente. </p>
+</li>
+<li>
+<p>perda de resistência dos ossos (com dor nos ossos e por vezes resultando em fraturas) que pode 
+ocorrer devido a lesão das células tubulares do rim </p>
+</li>
+<li>
+<p>fígado gordo </p>
+</li>
+</ul>
+<p>Se pensa que pode ter qualquer destes efeitos indesejáveis graves, fale com o seu médico. </p>
+<p>Efeitos indesejáveis mais frequentes </p>
+<p>Os seguintes efeitos indesejáveis são muito frequentes (estes podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>tonturas, dor de cabeça, diarreia, sentir-se enjoado (náuseas), vómitos </p>
+</li>
+<li>
+<p>erupções na pele (incluindo manchas vermelhas ou pústulas algumas vezes com bolhas e 
+inchaço da pele), que poderão ser reações alérgicas </p>
+</li>
+<li>
+<p>sensação de fraqueza </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>diminuição dos níveis de fosfato no sangue </p>
+</li>
+<li>
+<p>aumento dos níveis de creatina cinase no sangue que podem resultar em dores musculares e 
+fraqueza muscular </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis possíveis </p>
+<p>Os seguintes efeitos indesejáveis são frequentes (estes podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>reações alérgicas </p>
+</li>
+<li>
+<p>perturbações da coordenação e do equilíbrio </p>
+</li>
+<li>
+<p>sentir-se preocupado ou deprimido </p>
+</li>
+<li>
+<p>dificuldade em dormir, sonhos anormais, dificuldade em concentrar-se, sonolência </p>
+</li>
+<li>
+<p>dor, dor de estômago </p>
+</li>
+<li>
+<p>problemas digestivos que podem resultar em desconforto após as refeições, enfartamento, gases 
+(flatulência) </p>
+</li>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>cansaço </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>alterações na cor da pele incluindo escurecimento da pele em manchas que começam 
+frequentemente nas mãos e nas plantas dos pés </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>contagem baixa de glóbulos brancos (uma diminuição dos seus glóbulos brancos pode torná-lo 
+mais sujeito a infeções) </p>
+</li>
+<li>
+<p>alterações no fígado e pâncreas </p>
+</li>
+<li>
+<p>aumento dos ácidos gordos (triglicéridos), dos níveis de bilirrubina ou de açúcar no sangue </p>
+</li>
+</ul>
+<p>Os seguintes efeitos indesejáveis são pouco frequentes (estes podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>perda de força muscular, dor muscular ou fraqueza muscular </p>
+</li>
+<li>
+<p>anemia (contagem baixa de glóbulos vermelhos sanguíneos) </p>
+</li>
+<li>
+<p>sensação de tonturas e desequilíbrio (vertigem), assobios, zumbidos, ou outro ruído persistente 
+nos ouvidos </p>
+</li>
+<li>
+<p>visão turva </p>
+</li>
+<li>
+<p>arrepios </p>
+</li>
+<li>
+<p>aumento da mama nos homens </p>
+</li>
+<li>
+<p>diminuição do impulso sexual </p>
+</li>
+<li>
+<p>vermelhidão </p>
+</li>
+<li>
+<p>boca seca </p>
+</li>
+<li>
+<p>aumento do apetite </p>
+</li>
+</ul>
+<p>As análises também podem revelar: </p>
+<ul>
+<li>
+<p>diminuição do potássio no sangue </p>
+</li>
+<li>
+<p>elevação da creatinina no sangue </p>
+</li>
+<li>
+<p>proteínas na urina </p>
+</li>
+<li>
+<p>aumento do colesterol no sangue </p>
+</li>
+</ul>
+<p>A perda de força muscular, perda de resistência dos ossos (com dor nos ossos e por vezes resultando 
+em fraturas), dor muscular, fraqueza muscular e diminuição do potássio ou fosfato no sangue podem 
+ocorrer devido a lesão nas células tubulares do rim. </p>
+<p>Os seguintes efeitos indesejáveis são raros (estes podem afetar até 1 em 1.000 pessoas): </p>
+<ul>
+<li>erupção na pele com comichão causada pela reação à luz solar </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
+neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar 
+efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no 
+Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
+segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar efavirenzemtricitabinetenofovir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar efavirenzemtricitabinetenofovir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após VAL. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Use até 30 dias após a primeira abertura. O medicamento não necessita de qualquer temperatura 
+especial de conservação. Conservar na embalagem de origem para proteger da humidade. Manter o 
+frasco bem fechado. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva </p>
+<ul>
+<li>
+<p>As substâncias ativas são o efavirenz, a emtricitabina e o tenofovir disoproxil. Cada comprimido 
+revestido por película de Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva contém 600 mg 
+de efavirenz, 200 mg de emtricitabina e tenofovir disoproxil fosfato equivalente a 245 mg de 
+tenofovir disoproxil. </p>
+</li>
+<li>
+<p>Os outros componentes são celulose microcristalina, croscarmelose sódica, hiprolose, 
+laurilsulfato de sódio, estearato de magnésio, sílica coloidal anidra, talco. </p>
+</li>
+<li>
+<p>Os outros componentes no revestimento do comprimido são álcool polivinílico, dióxido de 
+titânio (E171), macrogol, talco, óxido de ferro vermelho (E172), óxido de ferro amarelo (E172), 
+óxido de ferro negro (E172). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva e conteúdo da 
+embalagem </p>
+<p>Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva 600 mg/200 mg/245 mg comprimidos revestidos 
+por película são ovais, biconvexos e cor-de-rosa. Efavirenz/Emtricitabina/Tenofovir disoproxil 
+Zentiva é fornecido em embalagens contendo 1 frasco com 30 comprimidos (com um exsicante de 
+sílica gel que tem de ser mantido no frasco para ajudar a proteger os comprimidos). O exsicante de 
+sílica gel está contido num recipiente separado e não deve ser engolido. </p>
+<p>As seguintes embalagens estão disponíveis: 
+Embalagem exterior contendo um frasco com 30 comprimidos revestidos por película e embalagem 
+exterior contendo 3 frascos com 30 comprimidos revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Zentiva, k.s. 
+U Kabelovny 102 37 Prague República Checa </p>
+<p>Fabricante 
+S.C. Zentiva S.A. 
+50 Theodor Pallady Blvd. 
+Bucharest 032Roménia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Zentiva, k.s. 
+Tél/Tel: +32 280 86 PV-Belgium@zentiva.com 
+Lietuva 
+Zentiva, k.s. 
+Tel: +370 52152PV-Lithuania@zentiva.com 
+България 
+Zentiva, k.s. 
+Тел: + 35924417PV-Bulgaria@zentiva.com 
+Luxembourg/Luxemburg 
+Zentiva, k.s. 
+Tél/Tel: +352 208 82PV-Luxembourg@zentiva.com 
+Česká republika 
+Zentiva, k.s. 
+Tel: +420 267 241 PV-Czech-Republic@zentiva.com 
+Magyarország 
+Zentiva Pharma Kft. 
+Tel.: +36 1 299 1PV-Hungary@zentiva.com 
+Danmark 
+Zentiva Denmark ApS 
+Tlf: +45 787 68 PV-Denmark@zentiva.com 
+Malta 
+Zentiva, k.s. 
+Tel: +356 2778 0PV-Malta@zentiva.com 
+Deutschland 
+Zentiva Pharma GmbH 
+Tel: +49 (0) 800 53 53 PV-Germany@zentiva.com 
+Nederland 
+Zentiva, k.s. 
+Tel: +31 202 253 PV-Netherlands@zentiva.com 
+Eesti 
+Zentiva, k.s. 
+Tel: +372 52 70PV-Estonia@zentiva.com 
+Norge 
+Zentiva Denmark ApS 
+Tlf: +47 219 66 PV-Norway@zentiva.com 
+Ελλάδα 
+Zentiva, k.s. 
+Τηλ: +30 211 198 7PV-Greece@zentiva.com 
+Österreich 
+Zentiva, k.s. 
+Tel: +43 720 778 PV-Austria@zentiva.com 
+España 
+Zentiva, k.s. 
+Tel: +34 931 815 PV-Spain@zentiva.com 
+Polska 
+Zentiva Polska Sp. z o.o. 
+Tel: + 48 22 375 92 PV-Poland@zentiva.com 
+France 
+Zentiva France 
+Tél: +33 (0) 800 089 PV-France@zentiva.com 
+Portugal 
+Zentiva Portugal, Lda 
+Tel: +351210601PV-Portugal@zentiva.com </p>
+<p>Hrvatska 
+Zentiva d.o.o. 
+Tel: +385 1 6641 PV-Croatia@zentiva.com 
+România 
+ZENTIVA S.A. 
+Tel: +4 021 .304 7PV-Romania@zentiva.com 
+Ireland 
+Zentiva, k.s. 
+Tel: +353 818 882 PV-Ireland@zentiva.com 
+Slovenija 
+Zentiva, k.s. 
+Tel: +386 360 00 PV-Slovenia@zentiva.com 
+Ísland 
+Zentiva Denmark ApS 
+Sími: +354 539 0PV-Iceland@zentiva.com 
+Slovenská republika 
+Zentiva, a.s. 
+Tel: +421 2 3918 3PV-Slovakia@zentiva.com 
+Italia 
+Zentiva Italia S.r.l. 
+Tel: +39-02-38598PV-Italy@zentiva.com 
+Suomi/Finland 
+Zentiva Denmark ApS 
+Puh/Tel: +358 942 598 PV-Finland@zentiva.com 
+Κύπρος 
+Zentiva, k.s. 
+Τηλ: +357 240 30 PV-Cyprus@zentiva.com 
+Sverige 
+Zentiva Denmark ApS 
+Tel: +46 840 838 PV-Sweden@zentiva.com 
+Latvija 
+Zentiva, k.s. 
+Tel: +371 67893PV-Latvia@zentiva.com 
+United Kingdom (Northern Ireland) 
+Zentiva, k.s. 
+Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1579,6 +2489,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-65f18cefcd0fd99147e2e0a1f92724f0"
 * entry[0].resource = composition-da-65f18cefcd0fd99147e2e0a1f92724f0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp65f18cefcd0fd99147e2e0a1f92724f0"
+* entry[=].resource = mp65f18cefcd0fd99147e2e0a1f92724f0
+                            
+                    
+Instance: bundlepackageleaflet-pt-65f18cefcd0fd99147e2e0a1f92724f0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for efavirenzemtricitabinetenofovir Package Leaflet for language pt"
+Description: "ePI document Bundle for efavirenzemtricitabinetenofovir Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-65f18cefcd0fd99147e2e0a1f92724f0"
+* entry[0].resource = composition-pt-65f18cefcd0fd99147e2e0a1f92724f0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp65f18cefcd0fd99147e2e0a1f92724f0"
@@ -1680,6 +2612,18 @@ RuleSet: 65f18cefcd0fd99147e2e0a1f92724f0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-65f18cefcd0fd99147e2e0a1f92724f0) // efavirenzemtricitabi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

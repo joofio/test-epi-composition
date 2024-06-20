@@ -1107,6 +1107,639 @@ nærmere beskrevet i den europæiske offentlige vurderingsrapport. </li>
 
 
 
+Instance: composition-pt-c423173deb9255bac28552e97801a6f0
+InstanceOf: CompositionUvEpi
+Title: "Composition for onivyde Package Leaflet"
+Description:  "Composition for onivyde Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc423173deb9255bac28552e97801a6f0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - onivyde"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é ONIVYDE pegylated liposomal e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar ONIVYDE pegylated liposomal </li>
+<li>Como ONIVYDE pegylated liposomal é utilizado </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar ONIVYDE pegylated liposomal </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é onivyde e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é onivyde e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é ONIVYDE pegylated liposomal e como funciona </p>
+<p>ONIVYDE pegylated liposomal é um medicamento para o cancro que contém a substância ativa 
+irinotecano. Esta substância ativa está contida em pequenas partículas de lípidos (gordura) chamadas 
+lipossomas. </p>
+<p>O irinotecano pertence a um grupo de medicamentos para o cancro chamados “inibidores da 
+topoisomerase". Este medicamento bloqueia uma enzima chamada topoisomerase I, a qual está 
+envolvida na divisão do ADN celular. Isto impede a multiplicação e o crescimento das células do 
+cancro, que acabam por morrer. </p>
+<p>Os lipossomas deverão acumular-se no interior do tumor e libertar o medicamento lentamente ao 
+longo do tempo, permitindo uma ação mais prolongada. </p>
+<p>Para que é utilizado ONIVYDE pegylated liposomal </p>
+<p>ONIVYDE pegylated liposomal é utilizado para tratar doentes adultos com cancro pancreático 
+metastático (cancro do pâncreas que já se espalhou para outras partes do corpo) cujo cancro não foi 
+previamente tratado ou que já receberam previamente tratamento do cancro com um medicamento 
+chamado gemcitabina.<br />
+Para doentes cujo cancro não foi previamente tratado, ONIVYDE pegylated liposomal é utilizado em 
+combinação com outros medicamentos para o cancro, chamados oxaliplatina, 5-fluorouracilo e 
+leucovorina. </p>
+<p>Para doentes tratados previamente com gemcitabina, ONIVYDE pegylated liposomal é utilizado em 
+conjunto com outros medicamentos para o cancro, chamados 5-fluorouracilo e leucovorina. </p>
+<p>Caso tenha dúvidas sobre o funcionamento de ONIVYDE pegylated liposomal ou o motivo pelo qual 
+este medicamento lhe foi receitado, fale com o seu médico. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar onivyde"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar onivyde"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Siga rigorosamente todas as instruções do seu médico. Estas podem ser diferentes das informações 
+gerais contidas neste folheto informativo. </p>
+<p>Não utilize ONIVYDE pegylated liposomal </p>
+<ul>
+<li>se tiver antecedentes de alergia grave ao irinotecano ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </li>
+<li>se estiver a amamentar. </li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou enfermeiro antes de receber ONIVYDE pegylated liposomal 
+- se já tiver tido problemas de fígado ou icterícia 
+- se já tiver tido doenças pulmonares ou tiver recebido anteriormente medicamentos (fatores 
+estimuladores de colónias) para aumentar o número de células do sangue ou radioterapia 
+- se estiver a tomar outros medicamentos (consulte a secção “Outros medicamentos e ONIVYDE 
+pegylated liposomal") 
+- se estiver a planear receber uma vacina, uma vez que muitas vacinas não podem ser 
+administradas durante a quimioterapia 
+- se estiver a fazer uma dieta com controlo da ingestão de sódio, uma vez que este medicamento 
+contém sódio. </p>
+<p>Fale com o seu médico ou enfermeiro imediatamente durante o tratamento com ONIVYDE pegylated 
+liposomal 
+- se sentir subitamente falta de ar, afrontamento, dores de cabeça, erupção na pele ou urticária 
+(erupção com comichão e pequenos inchaços vermelhos na pele que surgem repentinamente), 
+comichão, inchaço em redor dos olhos, sensação de aperto no peito ou na garganta durante a 
+perfusão ou pouco depois da perfusão 
+- se tiver febre, arrepios ou outros sintomas de infeção 
+- se tiver diarreia com fezes líquidas frequentes e esta situação não ficar controlada 
+após 12 a 24 horas de tratamento (ver abaixo) 
+- se tiver falta de ar ou tosse 
+- se tiver sinais ou sintomas de coágulo sanguíneo, como dor e inchaço repentinos numa perna ou 
+num braço, início súbito de tosse, dor no peito ou dificuldade em respirar. </p>
+<p>O que fazer em caso de diarreia </p>
+<p>Assim que ocorrer a primeira evacuação de fezes líquidas, comece a beber grandes volumes de 
+líquidos reidratantes (p. ex., água, água gaseificada ou outras bebidas gaseificadas, sopa) para evitar 
+uma perda excessiva de líquidos e sais do seu corpo. Contacte o seu médico imediatamente para obter 
+o tratamento adequado. O seu médico poderá receitar-lhe um medicamento que contém loperamida 
+para iniciar o tratamento em casa, mas este medicamento não pode ser utilizado durante mais 
+de 48 horas consecutivas. Se as fezes soltas persistirem, contacte o seu médico. </p>
+<p>Análises do sangue e exames médicos </p>
+<p>Antes de iniciar o tratamento com ONIVYDE pegylated liposomal, o seu médico irá realizar análises 
+ao seu sangue (ou outros exames médicos) para determinar a dose inicial ideal para si. Terá de realizar 
+testes (ao sangue ou de outro tipo) durante o tratamento para que o seu médico possa monitorizar o 
+nível de células do sangue e o modo como está a responder ao tratamento. O seu médico poderá ter de 
+ajustar a dose ou o tratamento. </p>
+<p>Crianças e adolescentes </p>
+<p>A utilização de ONIVYDE pegylated liposomal não é recomendada em crianças e adolescentes com 
+menos de 18 anos de idade. </p>
+<p>Outros medicamentos e ONIVYDE pegylated liposomal </p>
+<p>Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. 
+É especialmente importante informar o seu médico se já tiver tomado qualquer forma de irinotecano. 
+ONIVYDE pegylated liposomal não pode ser utilizado em vez de outros medicamentos que contêm 
+irinotecano, uma vez que funciona de forma diferente quando está contido em lipossomas e quando é 
+administrado na sua forma livre. </p>
+<p>Informe o seu médico, farmacêutico ou enfermeiro se já estiver a fazer, ou tiver feito recentemente, 
+quimioterapia e/ou radioterapia ou tratamento com o medicamento antifúngico flucitosina. </p>
+<p>Além disso, é especialmente importante informar o seu médico se também estiver a tomar os 
+medicamentos seguintes, uma vez que reduzem o nível de irinotecano no seu organismo: 
+- fenitoína, fenobarbital ou carbamazepina (medicamentos utilizados no tratamento de convulsões 
+e quedas) 
+- rifampicina e rifabutina (medicamentos utilizados no tratamento da tuberculose) 
+- hipericão (um medicamento à base de plantas utilizado para tratar a depressão e o humor 
+abatido) </p>
+<p>É especialmente importante informar o seu médico se também estiver a tomar os medicamentos 
+seguintes, uma vez que aumentam o nível de irinotecano no seu organismo: 
+- cetoconazol, itraconazol ou voriconazol (medicamentos utilizados para tratamento de infeções 
+fúngicas) 
+- claritromicina (um antibiótico utilizado no tratamento de infeções bacterianas) 
+- indinavir, lopinavir, nelfinavir, ritonavir, saquinavir, atazanavir (medicamentos contra a infeção 
+pelo VIH) 
+- regorafenib (um medicamento utilizado para o tratamento de certos tipos de cancro) 
+- telaprevir (um medicamento utilizado no tratamento de uma doença do fígado chamada 
+hepatite C) 
+- nefazodona (um medicamento utilizado no tratamento da depressão e do humor abatido) 
+- gemfibrozil (um medicamento utilizado para o tratamento de níveis elevados de gordura no 
+sangue) </p>
+<p>ONIVYDE pegylated liposomal com alimentos e bebidas </p>
+<p>Evite comer toranjas e beber sumo de toranja enquanto estiver a receber ONIVYDE pegylated 
+liposomal, visto que tal poderá aumentar o nível de irinotecano no seu organismo. </p>
+<p>Gravidez, amamentação e fertilidade </p>
+<p>Não deve receber ONIVYDE pegylated liposomal se estiver grávida, uma vez que este medicamento 
+pode ser prejudicial para o bebé. Informe o seu médico se estiver grávida ou suspeitar de que possa 
+estar grávida. Fale com o seu médico se estiver a planear engravidar. Se lhe for administrado 
+ONIVYDE pegylated liposomal, não deve amamentar até um mês depois da última dose. </p>
+<p>Antes de iniciar este medicamento, fale com o seu médico sobre o possível risco deste medicamento e 
+as opções que podem preservar a sua capacidade de ter filhos. </p>
+<p>Durante o seu tratamento com ONIVYDE pegylated liposomal e durante sete meses após o 
+tratamento, deverá escolher um método contracetivo eficaz da sua preferência, para evitar a gravidez 
+durante este período. Os homens devem utilizar preservativos durante o tratamento com ONIVYDE 
+pegylated liposomal e durante 4 meses após o tratamento. </p>
+<p>Informe o seu médico se estiver a amamentar. Não pode receber ONIVYDE pegylated liposomal se 
+estiver a amamentar, uma vez que este medicamento pode ser prejudicial para o bebé. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>ONIVYDE pegylated liposomal pode influenciar a sua capacidade de conduzir e utilizar máquinas 
+(pode sentir sonolência, tonturas e exaustão durante a utilização de ONIVYDE pegylated liposomal). 
+Deve evitar conduzir, utilizar máquinas ou realizar outras tarefas que exigem atenção plena se sentir 
+sonolência, tonturas ou exaustão. </p>
+<p>ONIVYDE pegylated liposomal contém sódio </p>
+<p>Este medicamento contém 33,1 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
+cada frasco. Isto é o equivalente a 1,65 % da ingestão diária máxima de sódio recomendada na dieta 
+para um adulto.  </p>
+<ol>
+<li>Como ONIVYDE pegylated liposomal é utilizado </li>
+</ol>
+<p>ONIVYDE pegylated liposomal apenas pode ser administrado por profissionais de saúde com 
+formação para a administração de medicamentos contra o cancro 
+Siga todas as instruções do seu médico ou enfermeiro cuidadosamente. </p>
+<p>O seu médico irá decidir as doses que deve receber. 
+ONIVYDE pegylated liposomal é administrado por gotejamento (perfusão) numa veia, um processo 
+que demora pelo menos 90 minutos, e deve ser administrado como uma única dose. 
+Se o seu cancro não foi previamente tratado, após receber ONIVYDE pegylated liposomal, serão 
+administrados mais três medicamentos, oxaliplatina, leucovorina e 5-fluorouracilo. 
+Se o seu cancro foi previamente tratado com um medicamento chamado gemcitabina, depois de 
+receber ONIVYDE pegylated liposomal, ser-lhe-ão administrados dois outros medicamentos, 
+leucovorina e 5-fluorouracilo. 
+O tratamento será repetido de duas em duas semanas. </p>
+<p>Em certos casos, pode ser necessário utilizar doses mais pequenas ou fazer intervalos maiores entre as 
+doses. </p>
+<p>Poderá receber pré-medicação contra náuseas e vómitos. Se tiver tido suores, cãibras abdominais e 
+salivação em conjunto com evacuação de fezes líquidas precoces e frequentes em tratamentos 
+anteriores com ONIVYDE pegylated liposomal, poderá receber medicamentos adicionais antes de 
+ONIVYDE pegylated liposomal para impedir ou reduzir estas reações nos ciclos de tratamento 
+seguintes. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar onivyde"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar onivyde"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. É importante ter conhecimento dos efeitos indesejáveisque podem 
+surgir. </p>
+<p>O seu médico poderá também receitar-lhe outros medicamentos para ajudar a controlar os efeitos 
+indesejáveis. </p>
+<p>Informe o seu médico ou enfermeiro imediatamente se apresentar qualquer um dos seguintes 
+efeitos indesejáveis graves: </p>
+<ul>
+<li>se sentir subitamente inchaço sob a pele (angioedema) e/ou sintomas de possíveis reações 
+anafiláticas/anafilactóides, tais como falta de ar, afrontamento, náuseas, dores de cabeça, 
+erupção na pele ou urticária (erupção com comichão e pequenos inchaços vermelhos na pele que 
+surgem repentinamente), comichão, inchaço em redor dos olhos, sensação de aperto no peito ou 
+garganta durante a perfusão ou pouco depois da perfusão. Reações alérgicas graves podem 
+colocar a vida em risco (pode ser necessário interromper a perfusão e os seus efeitos 
+indesejáveis podem exigir tratamento ou observação médica) </li>
+<li>se tiver febre, arrepios e sinais de infeção (uma vez que estas reações podem exigir tratamento 
+imediato) </li>
+<li>se tiver diarreia persistente (fezes líquidas e frequentes)—ver secção 2 </li>
+</ul>
+<p>Os outros efeitos indesejáveis que podem ocorrer são os seguintes: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) 
+Alterações nos testes laboratoriais 
+- Níveis baixos de glóbulos brancos (neutropenia e leucopenia), níveis baixos de glóbulos 
+vermelhos (anemia) 
+- Nível baixo de plaquetas (trombocitopenia) 
+- Níveis baixos de sais no organismo (p.ex., potássio, magnésio) 
+Estômago e intestino 
+-         Diarreia (evacuação frequente de fezes soltas ou aguadas) 
+- Náuseas e vómitos 
+- Dor no estômago ou na região do intestino 
+- Feridas na boca 
+- Sensação dolorosa e inchaço do revestimento do tubo digestivo (inflamação das mucosas) 
+Geral 
+- Perda de peso 
+- Perda de apetite 
+- Perda de líquidos corporais (desidratação) 
+- Cansaço e fraqueza generalizada 
+- Retenção anormal de líquidos no corpo causando inchaço nos tecidos afetados (edema) 
+- Febre 
+Pele 
+- Perda de cabelo anormal 
+Sistema Nervoso 
+- Tonturas 
+- Danos nos nervos nos braços e pernas causando dor ou dormência, ardor e formigueiro 
+(neuropatia periférica) 
+- Parestesia, uma sensação como dormência, formigueiro, agulhas e alfinetes 
+- Mau gosto na boca </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<p>Alterações nos testes laboratoriais 
+- Nível baixo de linfócitos, um subtipo de glóbulos brancos com uma função importante no 
+sistema imunitário (linfopenia) 
+- Nível baixo de açúcar no sangue (hipoglicemia) 
+- Níveis anormalmente baixos de albumina (uma proteína essencial do organismo) no sangue 
+- Aumento das enzimas do fígado (alaninaminotransferase ou aspartataminotransferase ou 
+Gamaglutamiltransferase) nas análises ao sangue 
+- Níveis elevados de fosfatase alcalina no sangue, uma proteína que auxilia em processos 
+químicos específicos no corpo, encontrada em muitas partes do seu corpo. Níveis elevados de 
+fosfatase alcalina no sangue podem ser um sinal de distúrbio no fígado ou nos ossos. 
+- Aumento nos níveis de bilirrubina (um pigmento laranja amarelado resultante da decomposição 
+normal dos glóbulos vermelhos) noutras análises laboratoriais relacionadas com o 
+funcionamento do fígado 
+- Aumento de outros valores das análises (razão normalizada internacional aumentada) 
+relacionadas com o funcionamento do sistema de coagulação do sangue 
+- Aumento da creatinina no sangue, um produto que indica que os rins não estão a funcionar 
+adequadamente. 
+Estômago e intestino 
+- Inflamação do estômago e do intestino (gastroenterite) 
+-         Inflamação no intestino (colite), inflamação do intestino causando diarreia (enterocolite) 
+Gases, inchaço na barriga 
+- Indigestão 
+- Obstipação 
+- Doença em que o ácido do estômago sobe para o esôfago (Doença do refluxo gastroesofágico) 
+- Dificuldade em engolir (Disfagia) 
+- Hemorroidas 
+- Boca seca 
+Gerais 
+- Arrepios 
+- Insónia 
+-  Reação anormal à perfusão com sintomas como falta de ar, afrontamento, dores de cabeça,    <br />
+sensação de aperto no peito ou na garganta 
+- Batimento cardíaco rápido 
+- Visão turva 
+- Dor de cabeça 
+Pele 
+- Comichão 
+- Pele seca<br />
+- Erupção cutânea 
+- Síndrome mão-pé - vermelhidão, inchaço e/ou dor nas palmas das mãos e/ou nas solas dos pés. 
+- Áreas mais escuras na pele (hiperpigmentação) 
+Sistema Nervoso 
+- Uma síndrome chamada síndrome colinérgica que inclui suores, salivação e cãibras abdominais 
+- Toxicidade causando distúrbio neurológico 
+- Sensação desagradável e anormal ao ser tocado. 
+- Tremores 
+- InfeçõesInfeções, p. ex., infeções fúngicas na boca (candidíase oral), febre com números baixos 
+de glóbulos brancos (neutropenia febril), infeções relacionadas com a administração do 
+medicamento numa veia 
+- Complicação potencialmente fatal da reação de todo o corpo a uma infeção (choque séptico) 
+- Infeção dos pulmões (pneumonia) 
+- Infecção do trato urinário 
+Vasos sanguíneos 
+-         Tensão arterial baixa (hipotensão) 
+- Eventos tromboembólicos, formação de um coágulo sanguíneo num vaso sanguíneo (veia ou 
+artéria) ou bloqueio da artéria principal do pulmão ou de um dos respetivos ramos (embolia 
+pulmonar) ou bloqueio devido a um coágulo sanguíneo noutro local da circulação sanguínea 
+(embolia) 
+Pulmões e vias aéreas 
+- Alteração da voz, voz rouca ou sussurrante 
+- Falta de ar 
+-         Inflamação do nariz e da garganta 
+-         Soluços 
+-         Sangramento nasal 
+Rim 
+- Problemas súbitos no funcionamento dos rins que podem resultar numa deterioração ou na 
+perda da função renal 
+Músculos 
+Fraqueza muscular, dor muscular, contrações musculares anormais </p>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) 
+Alterações nos testes laboratoriais 
+- Níveis baixos de todos os tipos de células sanguíneas (pancitopenia) 
+-<br />
+Anemia hemolítica, uma quebra excessiva de glóbulos vermelhos 
+- Número aumentado de monócitos, aumento no nível sanguíneo de monócitos (um subtipo de 
+glóbulo branco) 
+- Aumento no nível sanguíneo de troponina I, uma proteína que indica dano no coração 
+- Proteína total diminuída, uma diminuição no nível de proteína no sangue relacionada à função 
+renal ou hepática ou má absorção 
+- Depuração renal de creatinina diminuída, um nível diminuído de depuração de creatinina, 
+mostra que os rins não estão a funcionar corretamente- Excesso de proteína na urina 
+- Nível anormal de sais no sangue 
+- Nível baixo de cloro no sangue (hipocloremia) 
+- Níveis altos de ácido úrico no sangue causando sintomas, especialmente inflamação dolorosa 
+nas articulações (gota) 
+- Nível elevado de açúcar no sangue (hiperglicemia) 
+- Deficiência de ferro no sangue<br />
+Estômago e intestino 
+- Inflamação do esógafo (tubo digestivo) 
+- Inflamação do revestimento do reto (a parte final do intestino grosso) 
+- Bloqueio na parte do intestino que sai do estômago (obstrução duodenal) 
+-<br />
+Contrações musculares anormais no esófago (tubo que vai da boca ao estômago) 
+-<br />
+Perda de movimento nos músculos intestinais (Íleo paralítico) 
+- Falta de controlo na passagem das fezes (incontinência anal), laceração anal, dificuldade para 
+defecar (dor, esforço ou defecação obstruída) 
+-  Passagem de sangue pelo ânus (hematoquezia) 
+- Sangramento retal 
+- Ferida dolorosa dentro da boca (úlcera aftosa), sensação anormal e desagradável na boca, 
+sensações como dormência, formigueiro, agulhas e alfinetes na boca, inflamação nos cantos da 
+boca (ou comissuras orais), perda ou erosão de tecido da boca (ulceração bucal) 
+- Distúrbio da língua 
+- Cáries dentárias, distúrbio gengival, doença gengival, aumento da sensibilidade dos dentes, 
+inflamação grave das gengivas 
+- Distúrbio do estômago, inflamação do revestimento do estômago (gastrite) 
+- Arroto (eructação) 
+- Diverticulite (doença que afeta o intestino) 
+Gerais 
+- Reação alérgica à substância ativa ou excipientes 
+- Irritação nos olhos, redução da nitidez da visão, conjuntivite, vermelhidão e desconforto nos 
+olhos 
+- Vertigens, uma sensação de girar 
+- Sensação de mal-estar geral (mal-estar) 
+- Deterioração geral da saúde física 
+- Área vermelha, dolorosa e frequentemente inchada numa parte do corpo (inflamação) 
+- Falha de um ou mais órgãos ao mesmo tempo 
+- Anormalidades na sensação de temperatura, temperatura corporal medida abaixo de 35 °C 
+(Hipotermia) 
+- Inchaço nos lábios e no rosto 
+- Sintomas semelhantes aos da gripe, tais como febre alta, dor de garganta, nariz com corrimento,<br />
+tosse e arrepios 
+- Falta de nutrição adequada 
+- Retenção de líquidos ao redor do tumor 
+- Transpiração excessiva 
+- Frio nas extremidades 
+Pele 
+- Urticária (manchas avermelhadas e inchadas) 
+- Toxicidade que causa distúrbios nas unhas, mudança na cor das placas ungueais 
+- Lesão da pele, vermelhidão da pele (eritema), pele seca, pele sensível 
+- Erupção na pele com lesões semelhantes a bolhas cheias de pus (erupção cutânea pustulosa) 
+- Inflamação da pele com bolhas (dermatite bolhosa) 
+- Dermatite esfoliativa generalizada, escamação ou descamação da pele 
+- Petéquias, pequenos pontos de sangue sob a pele e Telangiectasia, pequenos vasos sanguíneos 
+vermelhos lineares visíveis 
+- Doença inflamatória que causa manchas vermelhas e escamosas na pele (Psoríase) 
+- Secura da vulva e vagina 
+Sistema Nervoso 
+- Convulsões 
+- Hemorragia dentro do cérebro (hemorragia cerebral), interrupção súbita do fluxo sanguíneo no 
+cérebro causada pelo bloqueio do fluxo de sangue para uma parte do cérebro (acidente vascular 
+cerebral isquémico), interrupção temporária do fluxo sanguíneo no cérebro (ataque isquémico 
+transitório) 
+- Incapacidade de sentir o cheiro (anosmia), Perda das funções de paladar da língua (ageusia) 
+- Sensação de instabilidade ou tontura (distúrbio do equilíbrio) 
+- Sonolência excessiva 
+- Redução da sensação ao toque, dor e temperatura 
+- Limitações no funcionamento cognitivo e habilidades (deficiência intelectual) e falta anormal de 
+energia e acuidade mental (letargia) 
+- Redução da capacidade de memorizar coisas 
+- Sensação iminente e transitória de perda de consciência (pré-síncope) e desmaio (síncope) 
+- Sensação de confusão 
+- Neurose (um transtorno mental com níveis altos de ansiedade) e depressão 
+Infeções 
+- Inflamação sistémica do organismo, provocada por uma infeção da vesícula biliar e dos ductos 
+biliares (septicemia biliar) 
+- Febre causada por infeção 
+- Infecção bacteriana causada por um microorganismo chamado Clostridium difficile, 
+- Infecção mucosa (infecção do revestimento das cavidades corporais) 
+- Furúnculo, uma infecção bacteriana dos folículos pilosos 
+- Infecção da laringe (laringite) 
+- Sinusite, uma inflamação dos seios da face 
+- Infecção dentária 
+- Infecção fúngica da boca 
+- Herpes simplex, infecção viral da boca (como herpes labial) ou dos genitais 
+- Infecção micótica da vulva e vagina 
+- Abscesso anal, uma área anal inchada onde o pus se acumulou 
+Pulmões e vias aéreas 
+- Disponibilidade reduzida de oxigénio nos tecidos do corpo ou aumento do fornecimento de 
+oxigénio aos tecidos e órgãos do corpo 
+- Tosse 
+- Inflamação no nariz 
+- Colapso de parte ou da totalidade do pulmão (atelectasia) 
+- Inflamação dos pulmões (pneumonite) 
+Dor 
+- Dor, dor torácica não cardíaca, dor na região da axila, dor nas articulações, dor nas costas, dor 
+óssea, dor nas extremidades, dor e inflamação em várias articulações (poliartrite), dor na boca e 
+na garganta (dor orofaríngea) 
+- Dor no peito 
+- Dor na boca (parestesia oral) 
+- Dor nas gengivas 
+- Dor ao urinar </p>
+<p>Coração  e vasos sanguíneos 
+- Angina de peito - dores no peito, mandíbula e costas, desencadeadas por esforço físico e devido 
+a problemas com o fluxo sanguíneo para o coração 
+- Ataque cardíaco 
+- Batimento cardíaco forte que pode ser rápido ou irregular 
+- Atividade elétrica anormal do coração que afeta o seu ritmo (prolongamento do intervalo QT no 
+eletrocardiograma) 
+- Pressão alta (hipertensão) 
+- Inflamação de uma veia (flebite) 
+- Acumulação de sangue sob a pele (hematoma)Fígado 
+- Inflamação do ducto biliar, geralmente causada por bactérias (colangite) 
+- Inflamação do fígado em reação a certas substâncias 
+- Fluxo reduzido de bile do fígado devido a um bloqueio (colestase) 
+- Citólise hepática, inflamação do fígado com aumento dos níveis sanguíneos de transaminases, 
+substâncias químicas sanguíneas do fígado que indicam como o fígado está a funcionar </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco, 
+após “EXP". O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C - 8°C). 
+Não congelar. 
+Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>
+<p>Quando o concentrado tiver sido diluído para perfusão com solução injetável de glucose a 5% ou 
+solução injetável de cloreto de sódio 9 mg/ml (0,9%), a dispersão deve ser utilizada assim que 
+possível, mas pode ser conservada à temperatura ambiente (15°C - 25°C) durante um prazo máximo 
+de 6 horas. A dispersão diluída para perfusão pode ser conservada no frigorífico (2°C - 8°C) durante 
+um prazo máximo de 24 horas antes da utilização. A dispersão diluída tem de ser protegida da luz e 
+não pode ser congelada. </p>
+<p>Não deite fora este medicamento na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar onivyde"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar onivyde"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de ONIVYDE pegylated liposomal </p>
+<ul>
+<li>
+<p>A substância ativa é o irinotecano. Um frasco de 10 ml de concentrado contém 43 mg de 
+irinotecano na forma de base livre anidra (como sal de sucrosofato irinotecano numa formulação 
+lipossómica peguilada). </p>
+</li>
+<li>
+<p>Os outros componentes são: 1,2-diestearoil-sn-glicero-3-fosfocolina (DSPC); colesterol, 
+N-(carbonil-metoxipolietilenoglicol-2000)-1,2-diestearoil-sn-glicero-3-fosfoetanolamina 
+(MPEG-2000-DSPE); octassulfato de sacarose; ácido 2- [4- (2-Hidroxietil)piperazina-1-il] 
+etanossulfónico (tampão HEPES); cloreto de sódio e água para preparações injetáveis. 
+ONIVYDE pegylated liposomal contém sódio. Se estiver a fazer uma dieta com controlo da 
+ingestão de sódio, consulte a secção </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ONIVYDE pegylated liposomal é fornecido como uma dispersão lipossómica isotónica, opaca, branca 
+a ligeiramente amarela, num frasco para injetáveis de vidro. </p>
+<p>Cada embalagem contém um frasco para injetáveis com 10 ml de concentrado. </p>
+<p>Titular da autorização de introdução no mercado 
+Les Laboratoires Servier 
+50, rue Carnot 
+92284 Suresnes cedex 
+França  </p>
+<p>Fabricante 
+Les Laboratoires Servier Industrie 
+905 Route de Saran 
+45520 Gidy<br />
+França </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+S.A. Servier Benelux N.V. 
+Tel: +32 (0)2 529 43<br />
+Lietuva 
+UAB “SERVIER PHARMA" 
+Tel: +370 (5) 2 63 86 България 
+Сервие Медикал ЕООД 
+Тел.: +359 2 921 57<br />
+Luxembourg/Luxemburg 
+S.A. Servier Benelux N.V. 
+Tel: +32 (0)2 529 43<br />
+Česká republika 
+Servier s.r.o. 
+Tel: +420 222 118 Magyarország 
+Servier Hungaria Kft. 
+Tel: +36 1 238 7 
+Danmark 
+Servier Danmark A/S 
+Tlf: +45 36 44 22<br />
+Malta 
+V.J. Salomone Pharma Ltd<br />
+Tel: + 356 21 22 01 <br />
+Deutschland 
+Servier Deutschland GmbH 
+Tel: +49 (0)89 57095<br />
+Nederland 
+Servier Nederland Farma B.V. 
+Tel: +31 (0)71 5246 
+Eesti 
+Servier Laboratories OÜ<br />
+Tel:+ 372 664 5 
+Norge 
+Servier Danmark A/S 
+Tlf: +45 36 44 22<br />
+Eλλάδα 
+ΣΕΡΒΙΕ ΕΛΛΑΣ ΦΑΡΜΑΚΕΥΤΙΚΗ ΕΠΕ 
+Τηλ: +30 210 939 1 
+Österreich 
+Servier Austria GmbH 
+Tel: +43 (1) 524 39<br />
+España 
+Laboratorios Servier S.L. 
+Tel: +34 91 748 96 Polska 
+Servier Polska Sp. z o.o. 
+Tel: +48 (0) 22 594 90<br />
+France 
+Les Laboratoires Servier 
+Tel: +33 (0)1 55 72 60<br />
+Portugal 
+Servier Portugal, Lda 
+Tel.: +351 21 312 20 Hrvatska 
+Servier Pharma, d. o. o. 
+Tel.: +385 (0)1 3016<br />
+România 
+Servier Pharma SRL 
+Tel: +4 021 528 52<br />
+Ireland 
+Servier Laboratories (Ireland) Ltd. 
+Tel: +353 (0)1 663 8 
+Slovenija 
+Servier Pharma d. o. o.<br />
+Tel.: +386 (0)1 563 48 Ísland 
+Servier Laboratories 
+c/o Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika 
+Servier Slovensko spol. s r.o. 
+Tel.:+421 (0) 2 5920 41 Italia 
+Servier Italia S.p.A. 
+Tel: +39 06 669Suomi/Finland 
+Servier Finland Oy 
+P. /Tel: +358 (0)9 279 80<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22741 
+Sverige 
+Servier Sverige AB 
+Tel : +46 (0)8 522 508<br />
+Latvija 
+SIA Servier Latvia 
+Tel: +371 67502 
+United Kingdom (Irlanda do Norte) 
+Servier Laboratories (Ireland) Ltd 
+Tel: +44 (0)1753 666 
+Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1148,6 +1781,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-c423173deb9255bac28552e97801a6f0"
 * entry[0].resource = composition-da-c423173deb9255bac28552e97801a6f0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc423173deb9255bac28552e97801a6f0"
+* entry[=].resource = mpc423173deb9255bac28552e97801a6f0
+                            
+                    
+Instance: bundlepackageleaflet-pt-c423173deb9255bac28552e97801a6f0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for onivyde Package Leaflet for language pt"
+Description: "ePI document Bundle for onivyde Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-c423173deb9255bac28552e97801a6f0"
+* entry[0].resource = composition-pt-c423173deb9255bac28552e97801a6f0
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpc423173deb9255bac28552e97801a6f0"
@@ -1249,6 +1904,18 @@ RuleSet: c423173deb9255bac28552e97801a6f0ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-c423173deb9255bac28552e97801a6f0) // onivyde pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

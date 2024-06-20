@@ -1038,6 +1038,434 @@ Et hætteglas Cancidas indeholder 70 mg caspofungin.</p>
 
 
 
+Instance: composition-pt-ad129f06143be4f32271a42d5b4c5f85
+InstanceOf: CompositionUvEpi
+Title: "Composition for cancidas Package Leaflet"
+Description:  "Composition for cancidas Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpad129f06143be4f32271a42d5b4c5f85)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - cancidas"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Cancidas e para que é utilizado
+2. O que precisa de saber antes de utilizar Cancidas
+3. Como utilizar Cancidas
+4. Efeitos indesejáveis possíveis
+5. Como conservar Cancidas
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é cancidas e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é cancidas e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Cancidas
+Cancidas contém um medicamento chamado caspofungina. Este medicamento pertence a um grupo de
+medicamentos chamados antifúngicos. 
+Para que é utilizado Cancidas
+Cancidas é utilizado para tratar as seguintes infeções em crianças, adolescentes e adultos:</p>
+<ul>
+<li>
+<p>Infeções fúngicas graves nos seus tecidos ou órgãos (chamada “candidíase invasiva"). Esta
+infeção é causada por um fungo (levedura) chamada Candida.
+As pessoas que foram submetidas recentemente a uma operação e as que têm um sistema
+imunitário mais fraco podem ter este tipo de infeção. Os sintomas mais frequentes deste tipo de
+infeções são febre e arrepios que não respondem a antibióticos.</p>
+</li>
+<li>
+<p>Infeções fúngicas no nariz, seios nasais ou pulmões (chamada “aspergilose invasiva"), se outros
+tratamentos antifúngicos não tiveram efeito, ou lhe tiverem causado efeitos indesejáveis. Esta
+infeção é causa por um fungo chamado Aspergillus.
+As pessoas que estão a fazer quimioterapia, pessoas que foram submetidas a um transplante e os
+que têm um sistema imunitário mais fraco podem ter este tipo de infeção.</p>
+</li>
+<li>
+<p>Suspeite de infeção fúngica se tiver febre e baixo número de glóbulos brancos, que não
+melhorou com o tratamento com antibióticos. Pessoas em risco de ter uma infeção fúngica
+incluem as que foram recentemente operadas ou que têm um sistema imunitário mais fraco. 
+Como funciona o Cancidas
+O Cancidas torna as células fúngicas frágeis e evita o correto crescimento dos fungos. Isto evita que a
+infeção se dissemine e permite que as defesas naturais do organismo consigam eliminar a infeção. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar cancidas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar cancidas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não use Cancidas</p>
+<ul>
+<li>
+<p>se tem alergia à caspofungina ou a qualquer outro componente deste medicamento (indicados na
+secção 6).
+34
+Se não tem a certeza, fale com o seu médico, farmacêutico ou enfermeiro antes de lhe ser administrado
+o medicamento.
+Advertências e precauções 
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Cancidas se:</p>
+</li>
+<li>
+<p>for alérgico a qualquer outro medicamento</p>
+</li>
+<li>
+<p>alguma vez teve problemas no fígado - pode precisar de uma dose diferente deste medicamento</p>
+</li>
+<li>
+<p>já está a tomar ciclosporina (utilizado para ajudar na prevenção da rejeição após um transplante
+de órgão ou para suprimir o seu sistema imunitário) pois o seu médico pode precisar de realizar
+testes adicionais ao seu sangue durante o tratamento.</p>
+</li>
+<li>
+<p>teve qualquer outro problema médico.
+Se alguma das situações anteriores se aplicar a si (ou se não tem a certeza), fale com o seu médico,
+farmacêutico ou enfermeiro antes de lhe ser administrado Cancidas.
+Cancidas pode também causar Reações Adversas Graves na Pele tais como Síndrome de
+Stevens-Johnson (SSJ) e necrólise epidérmica tóxica (NET).
+Outros medicamentos e Cancidas 
+Por favor, informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado
+recentemente, ou se vier a tomar outros medicamentos. Isto inclui medicamentos que obteve sem
+receita médica ou medicamentos à base de plantas. Isto porque Cancidas pode afetar o modo como
+atuam outros medicamentos. Há também medicamentos que podem alterar o efeito de Cancidas.
+Informe o seu médico, farmacêutico ou enfermeiro se está a tomar alguns dos seguintes
+medicamentos:</p>
+</li>
+<li>
+<p>ciclosporina ou tacrolímus (utilizado para ajudar na prevenção da rejeição de um órgão
+transplantado ou para suprimir o sistema imunitário) pois o seu médico pode precisar de realizar
+testes adicionais ao sangue durante o tratamento.</p>
+</li>
+<li>
+<p>alguns medicamentos anti-VIH tais como efavirenz ou nevirapina</p>
+</li>
+<li>
+<p>fenitoína ou carbamazepina (utilizados para tratar crises convulsivas)</p>
+</li>
+<li>
+<p>dexametasona (um corticosteroide)</p>
+</li>
+<li>
+<p>rifampicina (um antibiótico)
+Se algum dos medicamentos anteriores se aplica a si (ou se não tem a certeza), fale com o seu médico,
+farmacêutico ou enfermeiro antes de lhe ser administrado Cancidas.
+Gravidez e amamentação
+Se está grávida ou a amamentar ou se pensa estar grávida, consulte o seu médico antes de tomar
+qualquer medicamento.</p>
+</li>
+<li>
+<p>Cancidas não foi estudado em mulheres grávidas. Só deve ser usado na gravidez se o potencial
+benefício justificar o potencial risco para o bebé que irá nascer.</p>
+</li>
+<li>
+<p>As mulheres a quem é administrado Cancidas não devem amamentar.
+Condução de veículos e utilização de máquinas
+Não há informação que sugira que Cancidas afete a sua capacidade para conduzir ou utilizar máquinas.
+Cancidas contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por frasco para injetáveis ou seja, é
+praticamente “isento de sódio"</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar cancidas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar cancidas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cancidas será sempre preparado e administrado por um profissional de saúde.
+35
+Ser-lhe-á administrado Cancidas:</p>
+<ul>
+<li>
+<p>uma vez por dia</p>
+</li>
+<li>
+<p>por injeção lenta numa veia (perfusão intravenosa) </p>
+</li>
+<li>
+<p>durante aproximadamente 1 hora
+O seu médico determinará a duração do tratamento, assim como a quantidade de Cancidas que lhe será
+dada por dia. O seu médico irá vigiar como o medicamento funciona consigo. Se o seu peso for
+superior a 80 kg, pode necessitar de uma dose diferente. 
+Crianças e adolescentes
+A dose para crianças e adolescentes pode diferir da dose utilizada em adultos.
+Se lhe for administrado mais Cancidas do que deveria
+O seu médico irá vigiar a cada dia a dose de Cancidas de que necessita e durante quando tempo. Se
+está preocupado por achar que pode ter-lhe sido administrada uma quantidade excessiva de Cancidas,
+informe imediatamente o seu médico ou enfermeiro.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico
+ou enfermeiro.</p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não
+se manifestem em todas as pessoas.
+Fale imediatamente com o seu médico ou enfermeiro se sentir algum dos seguintes efeitos
+adversos - poderá precisar de tratamento médico urgente:</p>
+<ul>
+<li>
+<p>erupções na pele, comichão, sensação de calor, inchaço da face, lábios ou garganta ou
+dificuldade em respirar - poderá estar a ter uma reação de libertação de histamina ao
+medicamento.</p>
+</li>
+<li>
+<p>respiração difícil e ruidosa ou agravamento de erupções da pele já existentes - poderá estar a ter
+uma reação alérgica ao medicamento.</p>
+</li>
+<li>
+<p>tosse, dificuldades respiratórias graves - se for adulto e tem aspergilose invasiva, poderá estar a
+ter um problema respiratório grave que pode resultar em insuficiência respiratória.</p>
+</li>
+<li>
+<p>erupção na pele, descamação da pele, feridas das membranas mucosas, urticária, extensa zona
+de descamação da pele.
+Como com qualquer outro medicamento sujeito a receita médica, alguns efeitos indesejáveis poderão
+ser graves. Peça ao seu médico mais informações. 
+Outros efeitos adversos em adultos incluem:
+Frequentes: podem afetar até 1 em cada 10 pessoas:</p>
+</li>
+<li>
+<p>Diminuição da hemoglobina (redução da substância que transporta oxigénio no sangue), 
+diminuição do número de glóbulos brancos</p>
+</li>
+<li>
+<p>Diminuição de albumina (um tipo de proteína) no seu sangue, diminuição da quantidade de
+potássio ou níveis baixos de potássio no sangue</p>
+</li>
+<li>
+<p>Dor de cabeça</p>
+</li>
+<li>
+<p>Inflamação da veia</p>
+</li>
+<li>
+<p>Dificuldade em respirar</p>
+</li>
+<li>
+<p>Diarreia, náuseas ou vómitos</p>
+</li>
+<li>
+<p>Alterações dos resultados de algumas análises laboratoriais ao sangue (incluindo valores
+aumentados de algumas análises ao fígado)</p>
+</li>
+<li>
+<p>Comichão, erupções na pele, vermelhidão da pele ou suar mais que o habitual </p>
+</li>
+<li>
+<p>Dor nas articulações
+36</p>
+</li>
+<li>
+<p>Arrepios, febre</p>
+</li>
+<li>
+<p>Comichão no local de injeção
+Pouco frequentes: podem afetar até 1 em 100 pessoas:</p>
+</li>
+<li>
+<p>Alterações dos resultados de algumas análises laboratoriais ao sangue (incluindo alterações da
+coagulação sanguínea, plaquetas, glóbulos vermelhos e glóbulos brancos)</p>
+</li>
+<li>
+<p>Perda de apetite, aumento do fluido corporal, desequilíbrio dos níveis de sal no organismo,
+aumento da quantidade de açúcar no sangue, diminuição da quantidade de cálcio no sangue,
+aumento da quantidade de cálcio no sangue, diminuição da quantidade de magnésio no sangue,
+aumento da acidez do sangue</p>
+</li>
+<li>
+<p>Desorientação, nervosismo, incapacidade de dormir</p>
+</li>
+<li>
+<p>Sensação de tonturas, diminuição dos sentidos ou da sensibilidade (especialmente na pele),
+tremores, sonolência, perturbações do paladar, formigueiro ou dormência</p>
+</li>
+<li>
+<p>Visão turva, lacrimejo aumentado, pálpebra inchada, amarelecimento da zona branca dos olhos</p>
+</li>
+<li>
+<p>Sensação de batimento acelerado ou irregular do coração, batimento cardíaco rápido, batimento
+irregular do coração, ritmo do coração anormal, falência do coração</p>
+</li>
+<li>
+<p>Vermelhidão da face, afrontamentos, aumento da pressão arterial, diminuição da pressão
+arterial, vermelhidão ao longo da veia que está extremamente sensível ao toque</p>
+</li>
+<li>
+<p>Contração dos feixes musculares que rodeiam as vias respiratórias, resultando em pieira ou
+tosse, ritmo respiratório aumentado, falta de ar que o acorda durante o sono, diminuição de
+oxigénio no sangue, sons respiratórios anormais, fervores nos pulmões, pieira, nariz entupido,
+tosse, dor de garganta </p>
+</li>
+<li>
+<p>Dor de barriga, dor na zona superior da barriga, inchaço, obstipação, dificuldade em engolir,
+boca seca, indigestão, gases, desconforto no estômago, inchaço por acumulação de líquidos na
+barriga</p>
+</li>
+<li>
+<p>Diminuição do fluxo de bílis, fígado aumentado, coloração amarela da pele e/ou da zona branca
+dos olhos, danos no fígado causados por uma droga ou químico, perturbações do funcionamento
+do fígado</p>
+</li>
+<li>
+<p>Alterações da pele, comichão generalizada, urticária, erupções na pele de aparências variadas,
+pele anormal, zonas vermelhas e frequentemente com comichão nos seus braços e pernas e, por
+vezes, na face e resto do corpo</p>
+</li>
+<li>
+<p>Dor nas costas, dor num braço ou perna, dor óssea, dor muscular, fraqueza muscular</p>
+</li>
+<li>
+<p>Perda da função renal, perda súbita da função renal</p>
+</li>
+<li>
+<p>Dor no local do cateter, queixas no local de injeção (vermelhidão, corrimento, dor, inchaço,
+irritação, erupção cutânea, comichão, vazamento de líquido do cateter para o tecido), inflamação
+da veia no local de injeção</p>
+</li>
+<li>
+<p>Aumento da pressão arterial e alterações dos resultados de algumas análises laboratoriais ao
+sangue (incluindo aos eletrólitos dos rins e nos testes de coagulação), aumento dos níveis de
+medicamentos que enfraquecem o sistema imunitário</p>
+</li>
+<li>
+<p>Desconforto no peito, dor no peito, sensação de alteração da temperatura corporal, sensação de
+mal-estar generalizado, dor geral, face inchada, inchaço dos tornozelos, mãos ou pés,
+sensibilidade, fadiga.
+Efeitos indesejáveis em crianças e adolescentes 
+Muito frequentes: podem afetar mais de 1 em 10 pessoas:</p>
+</li>
+<li>
+<p>Febre
+Frequentes: podem afetar até 1 em 10 pessoas:</p>
+</li>
+<li>
+<p>Dor de cabeça</p>
+</li>
+<li>
+<p>Batimento acelerado do coração</p>
+</li>
+<li>
+<p>Vermelhidão na face, tensão arterial baixa</p>
+</li>
+<li>
+<p>Alterações dos resultados de algumas análises laboratoriais ao sangue (valores aumentados de
+algumas análises ao fígado)</p>
+</li>
+<li>
+<p>Comichão, erupções na pele</p>
+</li>
+<li>
+<p>Dor no local de inserção do cateter 
+37</p>
+</li>
+<li>
+<p>Arrepios</p>
+</li>
+<li>
+<p>Alterações dos resultados de algumas análises laboratoriais ao sangue
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste
+folheto, fale com o seu médico, enfermeiro ou farmacêutico. Também poderá comunicar efeitos
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
+medicamento.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar cancidas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar cancidas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco
+(os dois primeiros algarismos são o mês; os quatro algarismos seguintes são o ano). O prazo de
+validade corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2 ºC a 8 ºC).
+Uma vez preparado, Cancidas deve ser utilizado imediatamente. Isto porque não contém nenhum
+componente que para o crescimento bacteriano. Só um profissional de saúde experiente que tenha lido
+as instruções na sua totalidade pode preparar este medicamento (ver a seguir “Instruções para a
+reconstituição e diluição do Cancidas").
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Cancidas</p>
+<ul>
+<li>
+<p>A substância ativa é a caspofungina. 
+Cancidas 50 mg pó para concentrado para solução para perfusão
+Cada frasco para injetáveis de Cancidas contém 50 mg de caspofungina. 
+Cancidas 50 mg pó para concentrado para solução para perfusão
+Cada frasco para injetáveis de Cancidas contém 70 mg de caspofungina.</p>
+</li>
+<li>
+<p>Os outros componentes são: sacarose, manitol (E421), ácido acético glacial e hidróxido de sódio
+(por favor consulte secção </p>
+</li>
+</ul>         </div>"""      
+
+
+
 
 
                     
@@ -1079,6 +1507,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-ad129f06143be4f32271a42d5b4c5f85"
 * entry[0].resource = composition-da-ad129f06143be4f32271a42d5b4c5f85
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpad129f06143be4f32271a42d5b4c5f85"
+* entry[=].resource = mpad129f06143be4f32271a42d5b4c5f85
+                            
+                    
+Instance: bundlepackageleaflet-pt-ad129f06143be4f32271a42d5b4c5f85
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cancidas Package Leaflet for language pt"
+Description: "ePI document Bundle for cancidas Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-ad129f06143be4f32271a42d5b4c5f85"
+* entry[0].resource = composition-pt-ad129f06143be4f32271a42d5b4c5f85
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpad129f06143be4f32271a42d5b4c5f85"
@@ -1180,6 +1630,18 @@ RuleSet: ad129f06143be4f32271a42d5b4c5f85ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-ad129f06143be4f32271a42d5b4c5f85) // cancidas pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

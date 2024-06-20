@@ -1259,6 +1259,722 @@ hjemmeside http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-pt-5c0f905ecf8d9d64edae4669c049439b
+InstanceOf: CompositionUvEpi
+Title: "Composition for vokanamet Package Leaflet"
+Description:  "Composition for vokanamet Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5c0f905ecf8d9d64edae4669c049439b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - vokanamet"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Vokanamet e para que é utilizado
+2. O que precisa de saber antes de tomar Vokanamet
+3. Como tomar Vokanamet
+4. Efeitos indesejáveis possíveis
+5. Como conservar Vokanamet
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é vokanamet e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é vokanamet e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vokanamet contém duas substâncias ativas diferentes, a canagliflozina e a metformina. Estes são 
+medicamentos que atuam em conjunto, de forma diferente, para baixar a glicose (açúcar) no sangue e 
+pode ajudar a prevenir doenças cardíacas em adultos com diabetes tipo 2. Este medicamento pode ser utilizado isoladamente ou pode ser adicionado a outros medicamentos que 
+possa estar a utilizar para tratar a diabetes tipo 2 (tais como insulina, inibidores da DPP-4 [tais como 
+sitagliptina, saxagliptina ou linagliptina], uma sulfonilureia [tais como glimepiridina ou glipizida], ou 
+pioglitazona) e que reduzem os níveis de açúcar no sangue. Poderá já estar a tomar um ou mais destes
+medicamentos para tratar a sua diabetes tipo 2. Vokanamet é utilizado quando o açúcar do seu sangue 
+não pode ser adequadamente controlado pela metformina isoladamente ou juntamente com outros 
+medicamentos para a diabetes. Se já está a tomar canagliflozina e metformina em comprimidos 
+individuais, Vokanamet pode substituí-los em apenas um comprimido.
+É importante que continue a seguir as recomendações do seu médico ou enfermeiro sobre a dieta e 
+exercício.
+O que é diabetes tipo 2?
+A diabetes tipo 2 é uma doença na qual o corpo não produz insulina suficiente, e aquela que o corpo 
+produz não atua bem como devia. O seu corpo também pode produzir demasiado açúcar. Quando isto 
+acontece, o açúcar (glicose) acumula-se no sangue. Isto pode conduzir a problemas médicos graves, 
+tais como doença do coração, doença dos rins, cegueira e amputação.
+56</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar vokanamet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar vokanamet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Vokanamet
+
+se tem alergia à canagliflozina, à metformina ou a qualquer outro componente deste 
+medicamento (indicados na secção 6)
+
+Se tem problemas no fígado
+
+Se tem função renal gravemente reduzida
+
+Se tem diabetes não controlada, com, por exemplo, hiperglicemia grave (glicose elevada no 
+sangue), náuseas, vómitos, diarreia, rápida perda de peso, acidose lática (ver “Risco de acidose 
+lática" abaixo) ou cetoacidose. A cetoacidose é um problema que ocorre quando substâncias 
+chamadas “corpos cetónicos" se acumulam no sangue, podendo provocar pré-coma diabético. 
+Os sintomas incluem dor de estômago, respiração rápida e profunda, sonolência ou 
+aparecimento no hálito de um cheiro frutado invulgar;
+
+Se tem uma infeção grave
+
+Se perdeu muita água do seu corpo (desidratação), por ex. devido a diarreia grave e prolongada, 
+ou se vomitou várias vezes seguidas
+
+Se tem pré-coma diabético
+
+Se teve recentemente um ataque cardíaco ou se tem problemas circulatórios graves, tais como 
+“choque" ou dificuldades respiratórias
+
+Se consome uma grande quantidade de álcool (quer diariamente quer ocasionalmente)
+
+Se tem, ou teve recentemente insuficiência cardíaca.
+Advertências e precauções
+Risco de acidose lática
+Vokanamet pode causar um efeito secundário muito raro, mas muito grave, chamado acidose lática, 
+particularmente se os seus rins não funcionam bem. O risco de sofrer acidose lática aumenta também 
+em caso de diabetes não controlada, infeção grave, jejum prolongado ou consumo de álcool, 
+desidratação (ver mais informações abaixo), problemas de fígado, e quaisquer problemas médicos em 
+que uma zona do corpo receba menos oxigénio (como nas doenças graves e agudas do coração).
+Se estiver em alguma destas situações, fale com o seu médico para que lhe dê mais indicações.
+Pare de tomar Vokanamet temporariamente se tiver algum problema que possa estar associado 
+a desidratação (grande perda de líquidos), tal como vómitos graves, diarreia, febre, exposição ao 
+calor ou se beber menos líquidos do que o normal. Fale com o seu médico para que lhe dê mais 
+indicações.
+Pare de tomar Vokanamet e fale imediatamente com um médico ou diriga-se ao hospital mais 
+próximo se tiver um ou mais sintomas de acidose lática, pois este problema pode levar ao coma.
+Os sintomas de acidose lática incluem:
+
+vómitos
+
+dor de barriga (dor abdominal)
+
+cãibras musculares
+
+sensação de mal-estar geral, com grande cansaço
+
+dificuldade em respirar
+
+diminuição da temperatura do corpo e dos batimentos cardíacos
+A acidose lática é uma emergência médica e tem de ser tratada no hospital.
+Fale com o seu médico, farmacêutico ou enfermeiro antes de tomar Vokanamet, e durante o 
+tratamento:
+
+acerca do que pode fazer para prevenir a desidratação (ver secção 4 para sinais de desidratação).
+
+se tem diabetes tipo 1 porque Vokanamet não deve ser utilizado para tratar esta doença.
+
+Se perder peso rapidamente, se sentir uma sensação de mal estar geral ou se se sentir doente, dor 
+de estômago, sede excessiva, respiração rápida e profunda, confusão, sonolência ou cansaço 
+invulgares, um cheiro doce ao respirar, um sabor doce ou metálico na boca ou um diferente odor 
+na urina ou suor, fale com um médico ou dirija-se ao hospital mais próximo imediatamente. 
+57
+Estes sintomas podem ser um sinal de "cetoacidose diabética" - um problema raro mas grave, 
+por vezes com risco de vida que você pode obter com a diabetes dado o aumento dos níveis de 
+"corpos cetónicos" na sua urina ou sangue, detetado em testes. O risco de desenvolvimento de 
+cetoacidose diabética pode ser aumentado em caso de jejum prolongado, consumo excessivo de 
+álcool, desidratação, redução súbita da dose de insulina, ou uma maior necessidade de insulina 
+devido a uma grande cirurgia ou doença grave.
+
+se alguma vez teve doença do coração grave ou se teve um AVC
+
+se está a tomar medicamentos para diminuir a tensão arterial (anti-hipertensores) ou se alguma 
+vez teve tensão arterial baixa (hipotensão). É fornecida informação adicional abaixo, em 
+“Outros medicamentos e Vokanamet".
+
+se teve uma amputação nos membros inferiores.
+
+É importante verificar regularmente os seus pés e cumprir com qualquer outro conselho dado 
+pelo seu profissional de saúde acerca dos cuidados com os pés e da hidratação adequada. Deve 
+notificar imediatamente o seu médico se notar quaisquer feridas ou descoloração ou se sentir 
+qualquer sensibilidade ou dor nos seus pés. Alguns estudos indicam que tomar canagliflozina 
+pode ter contribuído para o risco de amputação dos membros inferiores (principalmente 
+amputações do dedo e peito do pé).
+
+Fale imediatamente com o seu médico se desenvolver um conjunto de sintomas de dor, 
+sensibilidade, vermelhidão ou inchaço dos genitais ou na área entre os genitais e o ânus com 
+febre ou mal-estar geral. Estes sintomas podem ser um sinal de uma infeção rara, mas grave ou 
+mesmo fatal, chamada fasciite necrotizante do períneo ou gangrena de Fournier que destrói o 
+tecido sob a pele. A gangrena de Fournier tem que ser tratada imediatamente.
+
+se tem sinais de uma infeção micótica genital tal como irritação, comichão, aumento das 
+excreções ou odor.
+
+se tem uma infeção grave dos rins ou do trato urinário com febre. O seu médico pode pedir-lhe 
+para parar de tomar Vokanamet até ter recuperado.
+Função renal
+Os seus rins serão testados através de um teste sanguíneo antes de começar a tomar e durante o 
+tratamento com Vokanamet. Durante o tratamento com Vokanamet, o médico irá verificar o 
+funcionamento dos seus rins uma vez por ano, ou com mais frequência se for idoso e/ou se os seus rins 
+estiverem a funcionar pior.
+Cirurgia
+Se necessitar de efetuar uma grande cirurgia, tem de parar de tomar Vokanamet durante a intervenção 
+e por algum tempo depois desta. O seu médico decidirá quando tem de parar e quando prosseguir o 
+seu tratamento com Vokanamet.
+O seu médico irá decidir se precisa de tomar outros tratamentos para controlar o seu nível de açúcar no 
+sangue enquanto não estiver a tomar Vokanamet. É importante que siga as instruções do seu médico 
+de forma rigorosa.
+Glicose na urina
+Devido à forma como a canagliflozina funciona, a sua urina pode dar um resultado positivo para o 
+açúcar (glicose) enquanto estiver a tomar este medicamento.
+Crianças e adolescentes
+Vokanamet não é recomendado em crianças e adolescentes com menos de 18 anos, porque não 
+existem dados disponíveis nestes doentes.
+Outros medicamentos e Vokanamet
+Se necessitar de levar uma injeção na corrente sanguínea de um meio de contraste que contenha iodo, 
+por exemplo, no contexto de uma radiografia ou cintigrafia, tem de parar de tomar Vokanamet antes 
+ou no momento da injeção. O seu médico decidirá quando tem de parar e quando prosseguir o seu 
+tratamento com Vokanamet.
+58
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto deve-se ao facto deste medicamento poder afetar a forma como 
+outros medicamentos funcionam. Além disso, alguns medicamentos podem afetar a forma como este 
+medicamento funciona. Pode necessitar de análises mais frequentes da glicemia e da função renal, ou 
+o médico pode necessitar de ajustar a dose de Vokanamet. É especialmente importante mencionar o 
+seguinte:
+
+insulina ou uma sulfonilureia (tais como glimepirida ou glipizida) para a diabetes- o seu médico 
+pode querer reduzir a sua dose para evitar que o seu nível de açúcar no sangue fique muito baixo 
+(hipoglicemia)
+
+medicamentos que aumentam a produção de urina (diuréticos)
+
+erva de S. João (um medicamento à base de plantas para tratar a depressão)
+
+carbamazepina, fenitoína ou fenobarbital (medicamentos usados no controlo de convulsões)
+
+lítio (um medicamento utilizado para tratar a doença bipolar)
+
+efavirenz ou ritonavir (medicamento utilizado no tratamento da infeção por VIH - Vírus da 
+Imunodeficiência Humana)
+
+rifampicina (um antibiótico utilizado no tratamento da tuberculose)
+
+colestiramina (um medicamento utilizado para reduzir os níveis de colesterol no sangue). Ver na 
+secção 3, “Ao tomar este medicamento"
+
+digoxina ou digitoxina (medicamentos utilizados para certos problemas do coração). O nível de 
+digoxina ou digitoxina no seu sangue poderá ter de ser verificado se tomar estes medicamentos 
+com Vokanamet
+
+dabigatrano (medicamento para tornar o sangue fluido que diminui o risco de formação de 
+coágulos sanguíneos)
+
+medicamentos contendo álcool. Ver secção “Vokanamet com álcool"
+
+cimetidina (medicamento usado para tratar problemas de estômago)
+
+corticosteroides (utilizados para tratar várias condições, tais como inflamação grave da pele ou 
+asma) administrados por via oral, injetável ou inalada
+
+agonistas beta-2 (tais como salbutamol ou terbutalina) que são utilizados para tratar a asma
+
+medicamentos utilizados para tratar a dor e a inflamação (AINE e inibidores da COX-2, tais 
+como o ibuprofeno e celecoxib)
+
+determinados medicamentos para o tratamento da tensão arterial elevada (inibidores da ECA e 
+antagonistas do recetor da angiotensina II).
+Vokanamet com álcool
+Evite o consumo excessivo de álcool enquanto estiver a tomar Vokanamet, uma vez que tal pode 
+aumentar o risco de acidose lática (ver a secção “Advertências e precauções").
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar ou continuar a tomar este medicamento.
+A canagliflozina, um dos ingredientes de Vokanamet, não deve ser utilizada durante a gravidez. Fale 
+com o seu médico sobre a melhor forma de controlar o açúcar no sangue sem Vokanamet assim que 
+souber que está grávida.
+Não deve tomar este medicamento se está a amamentar. Fale com o seu médico sobre se deve parar de 
+tomar este medicamento ou se deve parar a amamentação.
+Condução de veículos e utilização de máquinas
+Vokanamet tem muito pouca ou nenhuma influência sobre a capacidade de conduzir, andar de 
+bicicleta e utilizar ferramentas ou máquinas. No entanto, foi notificada a ocorrência de tonturas ou 
+vertigens, o que pode afetar a sua capacidade de conduzir, andar de bicicleta ou utilizar máquinas.
+A toma de Vokanamet com outros medicamentos para a diabetes denominados sulfonilureias (como a 
+glimepirida ou glipizida) ou com a insulina, pode aumentar o risco de ter um nível baixo de açúcar no 
+sangue (hipoglicemia). Os sinais incluem visão turva, formigueiro nos lábios, tremores, suores, 
+palidez, alteração do humor, ou sentir-se ansioso ou confuso. Isto pode afetar a sua capacidade de 
+59
+conduzir, andar de bicicleta e de usar quaisquer ferramentas ou máquinas. Fale com o seu médico 
+assim que possível se desenvolver sinais de níveis baixos de açúcar no sangue.
+Vokanamet contém sódio
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar vokanamet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar vokanamet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.
+Quanto deve tomar
+
+A dose de Vokanamet é de um comprimido, duas vezes por dia.
+
+A dosagem de Vokanamet que irá tomar depende da sua situação e da quantidade de 
+canagliflozina e de metformina de que necessita para controlar o seu açúcar no sangue.
+
+O seu médico irá prescrever a dose mais adequada para si.
+Ao tomar este medicamento
+
+Engula o comprimido inteiro com água.
+
+É melhor tomar o seu comprimido com a refeição. Isto diminui a probabilidade de sofrer uma 
+irritação no estômago.
+
+Tente tomar o comprimido à mesma hora todos os dias. Isto irá ajudá-lo a lembrar-se de o 
+tomar.
+
+Se o seu médico prescreveu este medicamento juntamente com um medicamento para baixar o 
+colesterol tal como a colestiramina deve tomar este medicamento pelo menos 1 hora antes ou 4 
+a 6 horas depois da toma do medicamento para baixar o colesterol.
+O seu médico pode receitar Vokanamet juntamente com outros medicamentos hipoglicemiantes. 
+Lembre-se de tomar todos os medicamentos conforme o seu médico lhe disse, de modo a atingirem os 
+melhores resultados para a sua saúde.
+Dieta e exercício físico
+De modo a controlar a sua diabetes, deverá continuar a seguir os conselhos do seu médico, 
+farmacêutico ou enfermeiro relativamente à dieta e ao exercício físico. Nomeadamente, se está a 
+seguir uma dieta de controlo de peso continue a segui-la enquanto está a tomar este medicamento.
+Se tomar mais Vokanamet do que deveria
+Como Vokanamet contém metformina, se tomar mais comprimidos do que deveria, poderá 
+desenvolver acidose lática. Se isso acontecer, poderá necessitar de tratamento hospitalar imediato, pois 
+a acidose lática pode levar ao coma. Os sintomas de acidose lática incluem vómitos, dor de estômago, 
+cãibras musculares, sensação geral de não estar bem com cansaço grave ou dificuldade em respirar. 
+Outros sintomas são redução da temperatura corporal e dos batimentos cardíacos. Pare de tomar este 
+medicamento imediatamente e contacte rapidamente um médico ou o hospital mais próximo 
+(ver secção 2). Leve a embalagem do medicamento consigo.
+Caso se tenha esquecido de tomar Vokanamet
+
+Se se esqueceu de tomar uma dose, tome-a assim que se lembrar. No entanto, se estiver na hora 
+da dose seguinte, salte a dose em falta.
+
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Se parar de tomar Vokanamet
+Os seus níveis de açúcar no sangue podem subir se parar de tomar este medicamento. Não pare de 
+tomar este medicamento sem falar primeiro com o seu médico.
+60
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Pare de tomar Vokanamet e fale imediatamente um médico ou dirija-se ao hospital mais 
+próximo se tiver algum dos seguintes efeitos indesejáveis graves:
+Reação alérgica grave (raro, pode afetar até 1 em cada 1.000 pessoas)
+Possíveis sinais de reação alérgica severa podem incluir:
+
+inchaço da cara, lábios, boca, língua ou garganta, que podem levar a dificuldade em respirar ou 
+engolir.
+Acidose lática (muito rara, pode afetar até 1 em cada 10.000 pessoas)
+Vokanamet pode causar um efeito secundário muito raro (pode afetar até 1 utilizador em cada 10 000), 
+mas muito grave, chamado acidose lática (ver secção “Advertências e precauções"). Se isto acontecer,
+tem de parar de tomar Vokanamet e contactar imediatamente um médico ou o hospital mais 
+próximo, pois a acidose lática pode provocar coma.
+Cetoacidose diabética (raro, pode afetar até 1 em cada 1000 pessoas)
+Estes são sinais de cetoacidose diabética (consulte também a secção 2):
+-
+níveis aumentados de “corpos cetónicos" na sua urina ou sangue
+-
+perda rápida de peso
+-
+sensação de mal-estar geral ou sentir-se doente
+-
+dor de estômago
+-
+sede excessiva
+-
+respiração rápida e profunda
+-
+confusão
+-
+sonolência ou cansaço invulgares
+-
+um cheiro doce ao respirar, um sabor doce ou metálico na boca ou um diferente odor na 
+urina ou suor.
+Isto pode ocorrer independentemente dos níveis de glicose no sangue. O médico poderá decidir 
+interromper temporariamente ou permanentemente o tratamento com Vokanamet.
+Desidratação (pouco frequente, pode afetar até 1 em cada 100 pessoas)
+
+perda de demasiado fluido do seu corpo (desidratação). Isto ocorre com maior frequência em 
+idosos (75 anos ou mais), doentes com problemas de rins e em doentes que tomam diuréticos.
+Possíveis sinais de desidratação:
+-
+sensação de cabeça leve ou tonturas
+-
+desmaiar ou sensação de tonturas ou desmaiar ao levantar-se
+-
+boca muito seca ou a colar, sentir muita sede
+-
+sentir-se muito fraco ou cansado
+-
+ter pouca ou nenhuma urina
+-
+batimentos cardíacos rápidos.
+Fale com o seu médico assim que possível se detetar algum dos seguintes efeitos indesejáveis:
+Hipoglicemia (muito frequente, pode afetar mais de 1 em cada 10 pessoas)
+
+níveis baixos de açúcar no sangue (hipoglicemia) - quando toma este medicamento com 
+insulina ou uma sulfonilureia (tal como glimepirida ou glipizida).
+Possíveis sinais de níveis baixos de açúcar no sangue:
+-
+visão turva
+-
+formigueiro nos lábios
+61
+-
+tremores, suores, palidez
+-
+mudança de humor ou sentir-se ansioso ou confuso.
+O seu médico irá dizer-lhe como tratar os níveis baixos de açúcar no sangue e o que fazer se tiver 
+qualquer um dos sinais acima descritos.
+Infeções do trato urinário (frequente, pode afetar até 1 em cada 10 pessoas)
+
+Estes são sinais de uma infeção grave do trato urinário, p. ex.:
+-
+febre e/ou calafrios
+-
+sensação de ardor com a passagem de água (ao urinar)
+-
+dor nas costas ou parte lateral.
+Embora pouco frequente, se vir sangue na urina, informe o seu médico imediatamente.
+Outros efeitos indesejáveis observados com canagliflozina isoladamente:
+Muito frequentes (podem afetar mais de 1 em cada 10 pessoas)
+
+infeção fúngica vaginal.
+Frequentes (podem afetar até 1 em cada 10 pessoas)
+
+erupção na pele ou vermelhidão do pénis ou do prepúcio (infeção por fungos)
+
+alterações na micção (incluindo urinar com mais frequência ou em quantidades maiores, 
+necessidade urgente de urinar, necessidade de urinar à noite)
+
+prisão de ventre
+
+sentir sede
+
+sensação de mal-estar (náuseas)
+
+os testes ao sangue podem apresentar algumas alterações nos níveis de gordura do sangue 
+(colesterol) e aumentos da quantidade de glóbulos vermelhos no sangue (hematócrito).
+Pouco frequentes (podem afetar até 1 em cada 100 pessoas)
+
+erupção ou vermelhidão na pele - isto pode causar comichão e incluir saliências, exsudado ou 
+bolhas
+
+urticária
+
+os testes ao sangue podem apresentar alterações relacionadas com o funcionamento dos rins 
+(aumento da creatinina ou ureia) ou aumento do potássio
+
+os testes ao sangue podem apresentar aumentos no seu nível de fosfato no sangue
+
+fratura dos ossos
+
+insuficiência renal (principalmente como consequência da perda de demasiados líquidos 
+corporais)
+
+amputações dos membros inferiores (principalmente do dedo) especialmente se tem risco 
+elevado de doença cardíaca
+
+fimose - dificuldade em puxar o prepúcio ao redor da ponta do pénis para trás
+
+reações na pele após exposição à luz solar.
+Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis)
+
+Fasciite necrotizante do períneo ou gangrena de Fournier, uma grave infeção grave nos genitais 
+dos tecidos moles ou na área entre os genitais e o ânus.
+Efeitos indesejáveis observados com metformina isoladamente que não foram descritos para a 
+canagliflozina:
+
+muito frequentes: sensação de mal-estar (náuseas) ou estar mal disposto (vomitar), diarreia, dor 
+de estômago, e perda de apetite
+
+frequentes: sabor metálico (alterações do paladar), diminuição dos níveis da vitamina B12 (pode 
+causar anemia - baixa contagem de glóbulos vermelhos)
+
+muito raros: perturbações nos testes da função do fígado, hepatite (um problema de fígado), e 
+comichão.
+62
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar vokanamet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar vokanamet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no frasco e na embalagem exterior, 
+após VAL. O prazo de validade corresponde ao último dia do mês indicado.
+Não conservar acima de 30°C.
+Não utilize Vokanamet se a embalagem estiver danificada ou mostrar sinais de deterioração.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Vokanamet
+
+As substâncias ativas são a canagliflozina e o cloridrato de metformina.
+-
+Cada comprimido de 50 mg/850 mg contém canagliflozina hemi-hidratada, equivalente a 
+50 mg de canagliflozina e 850 mg de cloridrato de metformina.
+-
+Cada comprimido de 50 mg/1.000 mg contém canagliflozina hemi-hidratada, equivalente 
+a 50 mg de canagliflozina e 1.000 mg de cloridrato de metformina.
+-
+Cada comprimido de 150 mg/850 mg contém canagliflozina hemi-hidratada, equivalente 
+a 150 mg de canagliflozina e 850 mg de cloridrato de metformina.
+-
+Cada comprimido de 150 mg/1.000 mg contém canagliflozina hemi-hidratada, 
+equivalente a 150 mg de canagliflozina e 1.000 mg de cloridrato de metformina.
+
+Os outros componentes são:
+-
+Núcleo do comprimido: celulose microcristalina, hidroxipropilcelulose, croscarmelose 
+sódica e estearato de magnésio.
+-
+Revestimento por película:
+-
+50 mg/850 mg tablets: macrogol 3350, álcool polivinílico, talco, dióxido de titânio 
+(E171), óxido de ferro vermelho (E172) e óxido de ferro preto (E172).
+-
+50 mg/1.000 mg tablets: macrogol 3350, álcool polivinílico, talco, dióxido de 
+titânio (E171), óxido de ferro amarelo (E172) e óxido de ferro vermelho (E172).
+-
+150 mg/850 mg tablets: macrogol 3350, álcool polivinílico, talco, dióxido de 
+titânio (E171) e óxido de ferro amarelo (E172).
+-
+150 mg/1.000 mg tablets: macrogol 3350, álcool polivinílico, talco, dióxido de 
+titânio (E171), óxido de ferro vermelho (E172) e óxido de ferro preto (E172).
+Qual o aspeto de Vokanamet e conteúdo da embalagem
+
+Vokanamet 50 mg/850 mg em comprimidos revestidos por película (comprimidos) são cor-de-
+rosa, em forma de cápsula, com 20 mm de comprimento, com a gravação “CM" numa face e 
+“358" na outra face.
+
+Vokanamet 50 mg/1.000 mg em comprimidos revestidos por película (comprimidos) são bege, 
+em forma de cápsula, com 21 mm de comprimento, com a gravação “CM" numa face e “551" 
+na outra face.
+63
+
+Vokanamet 150 mg/850 mg em comprimidos revestidos por película (comprimidos) são 
+amarelo claro, em forma de cápsula, com 21 mm de comprimento, com a gravação “CM" numa 
+face e “418" na outra face.
+
+Vokanamet 150 mg/1.000 mg em comprimidos revestidos por película (comprimidos) são 
+roxos, em forma de cápsula, com 22 mm de comprimento, com a gravação “CM" numa face e 
+“611" na outra face.
+Vokanamet está disponível em frascos de HDPE com fecho resistente à abertura por crianças. Os 
+tamanhos das embalagens são de 20 e 60 comprimidos e recipiente multidose com 180 comprimidos 
+(3 frascos contendo 60 comprimidos cada).
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Bélgica
+Fabricante
+Janssen-Cilag SpA
+Via C. Janssen
+Borgo San Michele
+04100 Latina
+Itália
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do titular
+da autorização de introdução no mercado:
+België/Belgique/Belgien
+Menarini Benelux NV/SA
+Tél/Tel: +32 (0)2 721 4545
+medical@menarini.be
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+“Берлин-Хеми/А. Менарини България" 
+EООД
+тел.: +359 2 454 0950
+bcsofia@berlin-chemie.com
+Luxembourg/Luxemburg
+Menarini Benelux NV/SA
+Tél/Tel: +32 (0)2 721 4545
+medical@menarini.be
+Česká republika
+Berlin-Chemie/A.Menarini Ceska republika 
+s.r.o.
+Tel: +420 267 199 333
+office@berlin-chemie.cz
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Berlin-Chemie AG
+Tlf: +45 78 71 31 21
+Malta
+AM MANGION LTD.
+Tel: +356 2397 6333
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955-955
+jancil@its.jnj.com
+Nederland
+Menarini Benelux NV/SA
+Tel: +32 (0)2 721 4545
+medical@menarini.be
+64
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Berlin-Chemie AG
+Tlf: +45 78 71 31 21
+Ελλάδα
+MENARINI HELLAS AE
+Tηλ: +30 210 8316111-13
+info@menarini.gr
+Österreich
+A. Menarini Pharma GmbH
+Tel: +43 1 879 95 85-0
+office@menarini.at
+España
+Laboratorios Menarini, S.A.
+Tel: +34 93 462 88 00
+info@menarini.es
+Polska
+Berlin-Chemie/Menarini Polska Sp. z o.o.
+Tel.: +48 22 566 21 00
+biuro@berlin-chemie.com
+France
+MENARINI France
+Tél: +33 (0)1 45 60 77 20
+im@menarini.fr
+Portugal
+A. Menarini Portugal - Farmacêutica, S.A.
+Tel: +351 210 935 500
+menporfarma@menarini.pt
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+A. Menarini Pharmaceuticals Ireland Ltd
+Tel: +353 1 284 6744
+medinfo@menarini.ie
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o
+Tel: +421 2 544 30 730
+slovakia@berlin-chemie.com
+Italia
+Laboratori Guidotti S.p.A.
+Tel: +39 050 971011
+contatti@labguidotti.it
+Suomi/Finland
+Berlin-Chemie/A. Menarini Suomi Oy
+Puh/Tel: +358 403 000 760
+fi@berlin-chemie.com
+Κύπρος
+MENARINI HELLAS AE
+Τηλ: +30 210 8316111-13
+info@menarini.gr
+Sverige
+Berlin-Chemie AG
+Tfn: +45 78 71 31 21
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+A. Menarini Farmaceutica Internazionale S.R.L.
+Tel: +44 (0)1628 856400
+menarini@medinformation.co.uk
+Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1300,6 +2016,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-5c0f905ecf8d9d64edae4669c049439b"
 * entry[0].resource = composition-da-5c0f905ecf8d9d64edae4669c049439b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5c0f905ecf8d9d64edae4669c049439b"
+* entry[=].resource = mp5c0f905ecf8d9d64edae4669c049439b
+                            
+                    
+Instance: bundlepackageleaflet-pt-5c0f905ecf8d9d64edae4669c049439b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vokanamet Package Leaflet for language pt"
+Description: "ePI document Bundle for vokanamet Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-5c0f905ecf8d9d64edae4669c049439b"
+* entry[0].resource = composition-pt-5c0f905ecf8d9d64edae4669c049439b
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp5c0f905ecf8d9d64edae4669c049439b"
@@ -1401,6 +2139,18 @@ RuleSet: 5c0f905ecf8d9d64edae4669c049439bListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-5c0f905ecf8d9d64edae4669c049439b) // vokanamet pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -1002,6 +1002,602 @@ under forudsætning af, at de foreslåede ændringer indføres i produktinformat
 
 
 
+Instance: composition-pt-9bd3cc7b420f9f1fa6edcaaaf015de7b
+InstanceOf: CompositionUvEpi
+Title: "Composition for bavencio Package Leaflet"
+Description:  "Composition for bavencio Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9bd3cc7b420f9f1fa6edcaaaf015de7b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - bavencio"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Bavencio e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Bavencio </li>
+<li>Como utilizar Bavencio </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Bavencio </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é bavencio e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é bavencio e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bavencio contém a substância ativa avelumab, um anticorpo monoclonal (um tipo de proteína) que se 
+liga a um alvo específico no organismo chamado PD-L1.  </p>
+<p>O PD-L1 está na superfície de certas células tumorais e ajuda a protegê-las do sistema imunitário (as 
+defesas naturais do organismo). Bavencio liga-se ao PD-L1 e bloqueia este efeito protetor, permitindo 
+que o sistema imunitário ataque as células tumorais. </p>
+<p>Bavencio é utilizado em adultos para tratar: </p>
+<ul>
+<li>
+<p>o carcinoma de células de Merkel (CCM), um tipo raro de cancro da pele, quando tem 
+metástases (que se espalhou para outras partes do organismo). </p>
+</li>
+<li>
+<p>o carcinoma urotelial (CU), um cancro que tem origem no trato urinário, quando está 
+avançado ou metastizado (espalhou-se para além da bexiga ou para outras partes do organismo). 
+Bavencio é utilizado como tratamento de manutenção se o tumor não tiver crescido após a 
+quimioterapia à base de platina como primeiro tratamento. </p>
+</li>
+<li>
+<p>o carcinoma de células renais (CCR), um tipo de cancro dos rins, quando está avançado 
+(espalhou-se para além dos rins ou para outras partes do organismo). </p>
+</li>
+</ul>
+<p>No cancro de células renais, Bavencio deve ser utilizado em combinação com axitinib. </p>
+<p>É importante que leia também o folheto informativo do medicamento contendo axitinib. Caso ainda 
+tenha dúvidas sobre axitinib, consulte o seu médico. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar bavencio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar bavencio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Bavencio 
+se tem alergia ao avelumab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </p>
+<p>Advertências e precauções </p>
+<p>Análises ao sangue e controlos do peso: 
+O seu médico efetuará controlos da sua saúde em geral antes e durante o tratamento com Bavencio. 
+Fará análises ao sangue durante o seu tratamento e o seu médico monitorizará o seu peso antes e 
+durante o tratamento. </p>
+<p>Fale com o seu médico antes de lhe ser administrado Bavencio: 
+Pode causar efeitos indesejáveis (ver secção 4). Note que estes sintomas podem por vezes ocorrer 
+tardiamente e podem desenvolver-se após a sua última dose. Se tiver qualquer um dos seguintes, deve 
+consultar urgentemente um médico: </p>
+<ul>
+<li>
+<p>reações relacionadas com a perfusão; </p>
+</li>
+<li>
+<p>problemas causados por inflamação dos seus pulmões (pneumonite); </p>
+</li>
+<li>
+<p>inflamação do seu fígado (hepatite) ou outros problemas de fígado; </p>
+</li>
+<li>
+<p>inflamação dos seus intestinos (colite), diarreia (fezes líquidas ou moles) ou mais defecações do 
+que é habitual; </p>
+</li>
+<li>
+<p>inflamação do seu pâncreas (pancreatite); </p>
+</li>
+<li>
+<p>inflamação do seu coração (miocardite); </p>
+</li>
+<li>
+<p>problemas com as suas glândulas produtoras de hormonas (tiroide, suprarrenais e hipófise) que 
+possam afetar a maneira como estas glândulas funcionam; </p>
+</li>
+<li>
+<p>diabetes tipo 1, incluindo um problema grave, por vezes potencialmente fatal, causado pela 
+presença de ácido no sangue que é produzido devido à diabetes (cetoacidose diabética); </p>
+</li>
+<li>
+<p>problemas com os seus rins; </p>
+</li>
+<li>
+<p>inflamação dos seus músculos (miosite); </p>
+</li>
+<li>
+<p>problemas causados por inflamação dos seus pulmões, pele, olhos e/ou gânglios linfáticos 
+(sarcoidose). </p>
+</li>
+</ul>
+<p>Se tiver qualquer um destes sintomas quando tomar Bavencio não tente tratá-los por iniciativa própria 
+com outros medicamentos. O seu médico pode </p>
+<ul>
+<li>
+<p>dar-lhe outros medicamentos para evitar complicações e reduzir os seus sintomas, </p>
+</li>
+<li>
+<p>suspender a dose seguinte de Bavencio, </p>
+</li>
+<li>
+<p>ou parar completamente o seu tratamento com Bavencio. </p>
+</li>
+</ul>
+<p>Fale com o seu médico ou enfermeiro antes de lhe ser administrado Bavencio se: </p>
+<ul>
+<li>
+<p>tem uma doença autoimune (uma doença na qual o organismo ataca as suas próprias células); </p>
+</li>
+<li>
+<p>tem o vírus da imunodeficiência humana (VIH) ou a síndrome da imunodeficiência adquirida 
+(SIDA); </p>
+</li>
+<li>
+<p>já alguma vez teve uma infeção crónica do fígado causada por um vírus, incluindo hepatite B 
+(VHB) ou hepatite C (VHC); </p>
+</li>
+<li>
+<p>está a ser tratado com medicamentos para suprimir o seu sistema imunitário; </p>
+</li>
+<li>
+<p>teve um transplante de um órgão. </p>
+</li>
+</ul>
+<p>Bavencio atua no seu sistema imunitário. Pode causar inflamação em partes do seu corpo. O risco 
+destes efeitos indesejáveis pode ser maior se já tiver uma doença autoimune (uma doença na qual o 
+organismo ataca as suas próprias células). Pode também ter exacerbações frequentes da sua doença 
+autoimune, que na maioria dos casos são ligeiras. </p>
+<p>Crianças e adolescentes 
+Bavencio não foi estudado em crianças e adolescentes com menos de 18 anos de idade. </p>
+<p>Outros medicamentos e Bavencio 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente ou se vier a tomar outros 
+medicamentos. </p>
+<p>Gravidez 
+Bavencio pode ser nocivo para o seu feto. Se está grávida, se pensa estar grávida ou planeia 
+engravidar, consulte o seu médico antes de tomar este medicamento. </p>
+<p>Não pode utilizar Bavencio se estiver grávida, a menos que especificamente recomendado pelo seu 
+médico. </p>
+<p>Se é uma mulher que pode engravidar, tem de utilizar métodos contracetivos eficazes enquanto estiver 
+a ser tratada com Bavencio e durante, pelo menos, 1 mês após a sua última dose. </p>
+<p>Amamentação 
+Informe o seu médico se estiver a amamentar. </p>
+<p>Não amamente enquanto lhe estiver a ser administrado Bavencio e durante, pelo menos, 1 mês após a 
+sua última dose. </p>
+<p>Desconhece-se se Bavencio passa para o seu leite. Não pode ser excluído o risco para o lactente. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza ou utilize máquinas após ter-lhe sido administrado Bavencio se não estiver a sentir-se 
+suficientemente bem. O cansaço é um efeito indesejável muito frequente de Bavencio e pode afetar a 
+sua capacidade de conduzir ou utilizar máquinas. </p>
+<p>Bavencio tem um baixo teor de sódio 
+Bavencio contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente isento de 
+sódio. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar bavencio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar bavencio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bavencio ser-lhe-á administrado num hospital ou numa clínica, sob a supervisão de um médico com 
+experiência. </p>
+<p>Que quantidade de Bavencio lhe será administrada 
+A dose recomendada é de 800 mg de avelumab de 2 em 2 semanas. O seu médico irá decidir o número 
+de tratamentos de que necessitará. </p>
+<p>Como lhe será administrado Bavencio 
+Bavencio ser-lhe-á administrado na forma de uma perfusão (um gota-a-gota) numa veia (via 
+intravenosa) durante um período de 1 hora. Antes de utilizar, Bavencio será adicionado a um saco de 
+perfusão contendo uma solução de cloreto de sódio. </p>
+<p>Antes de lhe ser administrado Bavencio 
+Durante, pelo menos, os primeiros 4 tratamentos, receberá paracetamol e um anti-histamínico antes do 
+tratamento com Bavencio para ajudar a evitar possíveis efeitos indesejáveis relacionados com a 
+perfusão. Consoante a resposta do seu organismo ao tratamento, o seu médico pode tomar a decisão de 
+lhe continuar a dar estes medicamentos antes de todos os seus tratamentos com Bavencio. </p>
+<p>Caso se tenha esquecido de uma dose de Bavencio 
+É muito importante que mantenha todas as suas marcações para receber Bavencio. Caso se tenha 
+esquecido de uma marcação, pergunte ao seu médico quando pode marcar o tratamento seguinte. </p>
+<p>Se parar de receber Bavencio<br />
+Não pare o tratamento com Bavencio, a menos que tenha discutido o assunto com seu médico. A 
+interrupção do tratamento pode parar o efeito do medicamento. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. Alguns efeitos indesejáveis podem surgir semanas ou meses após 
+a sua última dose. </p>
+<p>Bavencio atua no seu sistema imunitário e pode causar inflamação em certas regiões do seu corpo (ver 
+secção 2). A inflamação pode causar lesão grave no seu organismo e algumas doenças inflamatórias 
+podem pôr a vida em risco e necessitam de tratamento ou a suspensão de Bavencio. </p>
+<p>Consulte urgentemente um médico se tiver uma inflamação em qualquer região do seu corpo ou 
+se tiver qualquer um dos seguintes sinais ou sintomas, ou se estes se agravarem. </p>
+<ul>
+<li>
+<p>Sinais de reações relacionadas com a perfusão como falta de ar ou pieira, arrepios ou 
+tremores, erupções ou pápulas na pele, vermelhidão, tensão arterial baixa (tonturas, fadiga, 
+náuseas), febre, dor nas costas e dor abdominal. Estes são muito frequentes. </p>
+</li>
+<li>
+<p>Sinais de inflamação de glândulas produtoras de hormonas (que podem afetar o funcionamento 
+das glândulas) podem incluir cansaço extremo, batimento rápido do coração, aumento da 
+transpiração, alterações do humor ou do comportamento, como irritabilidade ou 
+esquecimento, sensação de frio, tensão arterial muito baixa (desmaios, tonturas, fadiga, 
+náuseas), alterações do peso ou dores de cabeça. Estes são muito frequentes para a glândula 
+tiroide, frequentes para as glândulas suprarrenais e pouco frequentes para a hipófise. </p>
+</li>
+<li>
+<p>Sinais de inflamação dos pulmões (pneumonite), podem ser dificuldade em respirar ou tosse. 
+Estes são frequentes. </p>
+</li>
+<li>
+<p>Sinais de inflamação dos intestinos (colite), podem incluir diarreia (fezes moles) ou mais 
+defecações do que é habitual, sangue nas suas fezes ou fezes pegajosas, escuras como 
+alcatrão, desconforto ou dor intensa no estômago (abdómen). Estes são frequentes. </p>
+</li>
+<li>
+<p>Sinais de problemas no fígado, incluindo inflamação do fígado (hepatite), podem incluir 
+amarelecimento da pele (icterícia) ou da parte branca dos olhos, náuseas ou vómitos 
+intensos, dor no lado direito da região do estômago (abdómen), sonolência, urina escura 
+(cor de chá), sangrar ou fazer nódoas negras com mais facilidade do que é normal, sentir 
+menos fome do que é normal, cansaço ou análises anómalas da função do fígado. Estes são 
+frequentes. </p>
+</li>
+<li>
+<p>Sinais de inflamação do pâncreas (pancreatite) podem incluir dor abdominal, náuseas e 
+vómitos. Estes são pouco frequentes. </p>
+</li>
+<li>
+<p>Sinais de inflamação do coração (miocardite) podem incluir dificuldade em respirar, tonturas 
+ou desmaio, febre, dor no peito e aperto no peito ou sintomas semelhantes à gripe. Estes são 
+pouco frequentes. </p>
+</li>
+<li>
+<p>Sinais de diabetes tipo 1, incluindo cetoacidose diabética, podem incluir sentir mais fome ou 
+sede do que é normal, necessidade de urinar com mais frequência, perda de peso e 
+sensação de cansaço ou ter dificuldades em pensar com clareza, hálito com cheiro doce ou 
+frutado, sentir-se doente ou estar doente, dor no estômago e respiração profunda ou 
+rápida. Estes são pouco frequentes. </p>
+</li>
+<li>
+<p>Sinais de inflamação dos rins podem incluir provas anómalas da função dos rins, urinar 
+menos do que é habitual, sangue na urina ou inchaço nos tornozelos. Estes são pouco 
+frequentes. </p>
+</li>
+<li>
+<p>Sinais de inflamação dos músculos (miosite) podem incluir dor ou fraqueza muscular. Estes 
+são pouco frequentes. </p>
+</li>
+<li>
+<p>Sinais de inflamação associados a uma acumulação de células inflamatórias em vários órgãos 
+e tecidos, mais frequentemente nos pulmões (sarcoidose). Estes são pouco frequentes. </p>
+</li>
+</ul>
+<p>Não tente tratar-se com outros medicamentos. </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Alguns efeitos indesejáveis poderão não ter sintomas e poderão ser descobertos apenas através de 
+análises ao sangue. </p>
+<p>Os seguintes efeitos indesejáveis foram notificados em ensaios clínicos com avelumab isoladamente: </p>
+<p>Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Diminuição do número de glóbulos vermelhos  </p>
+</li>
+<li>
+<p>Náuseas, fezes moles, prisão de ventre, vómitos </p>
+</li>
+<li>
+<p>Dor de barriga, dor nas costas, dor nas articulações </p>
+</li>
+<li>
+<p>Tosse, falta de ar </p>
+</li>
+<li>
+<p>Sensação de cansaço ou fraqueza </p>
+</li>
+<li>
+<p>Febre </p>
+</li>
+<li>
+<p>Inchaço nos braços, pés ou pernas </p>
+</li>
+<li>
+<p>Perda de peso, sensação de menos fome </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Diminuição do número de um tipo de glóbulos brancos (linfócitos) </p>
+</li>
+<li>
+<p>Diminuição do número de plaquetas no sangue </p>
+</li>
+<li>
+<p>Aumentos da tensão arterial </p>
+</li>
+<li>
+<p>Nível baixo de sódio </p>
+</li>
+<li>
+<p>Dores de cabeça, tonturas </p>
+</li>
+<li>
+<p>Sensação de frio </p>
+</li>
+<li>
+<p>Secura da boca </p>
+</li>
+<li>
+<p>Aumento das enzimas do fígado no sangue </p>
+</li>
+<li>
+<p>Aumento das enzimas pancreáticas no sangue </p>
+</li>
+<li>
+<p>Erupção na pele, comichão </p>
+</li>
+<li>
+<p>Dores nos músculos </p>
+</li>
+<li>
+<p>Doença tipo gripe (inclui sensação de febre, dores nos músculos) </p>
+</li>
+<li>
+<p>Dormência, formigueiro, fraqueza, sensação de ardor nos braços e nas pernas </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>Vermelhidão da pele </p>
+</li>
+<li>
+<p>Oclusão dos intestinos </p>
+</li>
+<li>
+<p>Manchas vermelhas, com comichão e descamação na pele, pele seca </p>
+</li>
+<li>
+<p>Diminuição da tensão arterial </p>
+</li>
+<li>
+<p>Aumento das enzimas dos músculos no sangue </p>
+</li>
+<li>
+<p>Aumento do número de um tipo de glóbulos brancos (eosinófilos) </p>
+</li>
+<li>
+<p>Inflamação das articulações (artrite reumatoide)  </p>
+</li>
+<li>
+<p>Miastenia gravis, síndrome miasténica, uma doença que pode causar fraqueza muscular </p>
+</li>
+</ul>
+<p>Raros (podem afetar 1 em cada 1000 pessoas) </p>
+<ul>
+<li>Inflamação da bexiga. Os sinais e sintomas podem incluir micção frequente e/ou dolorosa, 
+necessidade urgente de urinar, sangue na urina, dor ou pressão na parte inferior do abdómen </li>
+</ul>
+<p>Outros efeitos indesejáveis que foram notificados com frequência desconhecida (não podem ser 
+estimados a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>Falta ou redução das enzimas digestivas produzidas pelo pâncreas (insuficiência pancreática 
+exócrina) </p>
+</li>
+<li>
+<p>Doença celíaca (caracterizada por sintomas como dor de estômago, diarreia e inchaço após o 
+consumo de alimentos que contêm glúten) </p>
+</li>
+</ul>
+<p>Os efeitos indesejáveis seguintes foram notificados em ensaios clínicos com avelumab em combinação 
+com axitinib: </p>
+<p>Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Fezes soltas, náuseas, prisão de ventre, vómitos </p>
+</li>
+<li>
+<p>Aumento da tensão arterial </p>
+</li>
+<li>
+<p>Sensação de cansaço ou fraqueza </p>
+</li>
+<li>
+<p>Rouquidão, tosse, falta de ar </p>
+</li>
+<li>
+<p>Sensação de ter menos fome, perda de peso </p>
+</li>
+<li>
+<p>Dores de cabeça, tonturas </p>
+</li>
+<li>
+<p>Dores nas articulações, dor de costas, dor de barriga, dores nos músculos </p>
+</li>
+<li>
+<p>Aumento das enzimas do fígado no sangue </p>
+</li>
+<li>
+<p>Sensação de frio </p>
+</li>
+<li>
+<p>Erupção na pele, comichão </p>
+</li>
+<li>
+<p>Febre </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>Manchas vermelhas, com comichão e descamação da pele, erupção tipo acne </p>
+</li>
+<li>
+<p>Inchaço nos braços, pés ou pernas </p>
+</li>
+<li>
+<p>Secura da boca </p>
+</li>
+<li>
+<p>Aumento das enzimas pancreáticas no sangue </p>
+</li>
+<li>
+<p>Diminuição da função dos rins </p>
+</li>
+<li>
+<p>Diminuição do número de glóbulos vermelhos </p>
+</li>
+<li>
+<p>Diminuição da tensão arterial </p>
+</li>
+<li>
+<p>Aumento da glucose no sangue </p>
+</li>
+<li>
+<p>Doença tipo gripe (inclui sensação de febre, dores nos músculos) </p>
+</li>
+<li>
+<p>Aumento das enzimas dos músculos no sangue </p>
+</li>
+<li>
+<p>Diminuição do número de plaquetas no sangue </p>
+</li>
+<li>
+<p>Dormência, formigueiro, fraqueza, sensação de ardor nos braços e nas pernas </p>
+</li>
+<li>
+<p>Vermelhidão da pele </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>Diminuição do número de um tipo de glóbulos brancos (linfócitos) </p>
+</li>
+<li>
+<p>Aumento do número de um tipo de glóbulos brancos (eosinófilos) </p>
+</li>
+<li>
+<p>Oclusão dos intestinos </p>
+</li>
+<li>
+<p>Miastenia gravis, síndrome miasténica, uma doença que pode causar fraqueza muscular </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis que foram notificados com frequência desconhecida (não podem ser 
+estimados a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>Falta ou redução das enzimas digestivas produzidas pelo pâncreas (insuficiência pancreática 
+exócrina) </p>
+</li>
+<li>
+<p>Doença celíaca (caracterizada por sintomas como dor de estômago, diarreia e inchaço após o 
+consumo de alimentos que contêm glúten) </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar bavencio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar bavencio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco para injetáveis e 
+na embalagem exterior, após VAL/EXP. O prazo de validade corresponde ao último dia do mês 
+indicado. </p>
+<p>Conservar no frigorífico (2°C - 8°C). </p>
+<p>Não congelar. </p>
+<p>Conservar na embalagem de origem para proteger da luz. </p>
+<p>Não conservar qualquer porção não utilizada do concentrado ou da solução para perfusão diluída para 
+reutilização. </p>
+<p>Qualquer medicamento não utilizado ou resíduos devem ser eliminados de acordo com as exigências 
+locais. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Bavencio </p>
+<p>A substância ativa é o avelumab. </p>
+<p>Um frasco para injetáveis de 10 ml contém 200 mg de avelumab. Cada ml de concentrado contém 
+20 mg de avelumab. </p>
+<p>Os outros componentes são manitol, ácido acético glacial, polissorbato 20, hidróxido de sódio e água 
+para preparações injetáveis (ver secção 2 "Bavencio tem um baixo teor de sódio") </p>
+<p>Qual o aspeto de Bavencio e conteúdo da embalagem 
+Bavencio é um concentrado para solução para perfusão (concentrado estéril) límpido, incolor a 
+ligeiramente amarelado. </p>
+<p>A apresentação é de 1 frasco para injetáveis de vidro por embalagem exterior. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Merck Europe B.V. 
+Gustav Mahlerplein 1082 MA Amsterdam 
+Países Baixos </p>
+<p>Fabricante 
+Merck Serono S.p.A. 
+Via Delle Magnolie 15 (loc. frazione Zona Industriale) 
+70026 - Modugno (BA) 
+Itália </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1043,6 +1639,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9bd3cc7b420f9f1fa6edcaaaf015de7b"
 * entry[0].resource = composition-da-9bd3cc7b420f9f1fa6edcaaaf015de7b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9bd3cc7b420f9f1fa6edcaaaf015de7b"
+* entry[=].resource = mp9bd3cc7b420f9f1fa6edcaaaf015de7b
+                            
+                    
+Instance: bundlepackageleaflet-pt-9bd3cc7b420f9f1fa6edcaaaf015de7b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bavencio Package Leaflet for language pt"
+Description: "ePI document Bundle for bavencio Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9bd3cc7b420f9f1fa6edcaaaf015de7b"
+* entry[0].resource = composition-pt-9bd3cc7b420f9f1fa6edcaaaf015de7b
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9bd3cc7b420f9f1fa6edcaaaf015de7b"
@@ -1144,6 +1762,18 @@ RuleSet: 9bd3cc7b420f9f1fa6edcaaaf015de7bListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9bd3cc7b420f9f1fa6edcaaaf015de7b) // bavencio pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

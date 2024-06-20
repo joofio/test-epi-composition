@@ -1257,6 +1257,566 @@ får bivirkninger, som ikke er nævnt i denne indlægsseddel (se afsnit 4).  </p
 
 
 
+Instance: composition-pt-53644ac8be35bb2e5f6359de25449b5d
+InstanceOf: CompositionUvEpi
+Title: "Composition for aranesp Package Leaflet"
+Description:  "Composition for aranesp Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp53644ac8be35bb2e5f6359de25449b5d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - aranesp"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instruções para administrar a seringa pré-cheia de Aranesp </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Aranesp e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Aranesp </li>
+<li>Como utilizar Aranesp </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Aranesp </li>
+<li>Conteúdo da embalagem e outras informações  </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é aranesp e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é aranesp e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu médico prescreveu-lhe Aranesp (um antianémico) para o tratamento da sua anemia. A anemia 
+manifesta-se quando o seu sangue não contém o número suficiente de glóbulos vermelhos e os 
+sintomas podem ser fadiga, fraqueza e falta de ar.  </p>
+<p>Aranesp atua exatamente como a hormona natural eritropoietina. A eritropoietina é produzida nos seus 
+rins e estimula a medula óssea a produzir mais glóbulos vermelhos. A substância ativa de Aranesp é a 
+darbepoetina alfa produzida por tecnologia genética em Células do Ovário de Hamster Chinês 
+(CHO-K1).  </p>
+<p>Se tiver insuficiência renal crónica  </p>
+<p>Aranesp é utilizado para o tratamento da anemia sintomática associada à insuficiência renal crónica 
+(mau funcionamento do rim) em adultos e crianças. Na insuficiência renal, o rim não produz a 
+quantidade suficiente da hormona natural eritropoietina, o que pode frequentemente provocar anemia.  </p>
+<p>O seu corpo demorará algum tempo a produzir mais glóbulos vermelhos, pelo que levará cerca de 
+quatro semanas até notar algum efeito. A sua rotina normal de diálise não afetará a capacidade de 
+Aranesp tratar a sua anemia. </p>
+<p>Se estiver a ser submetido a quimioterapia </p>
+<p>Aranesp é utilizado para tratar a anemia sintomática em doentes oncológicos adultos com cancros não 
+relacionados com a medula óssea (doença maligna não-mieloide) que estão a receber quimioterapia. </p>
+<p>Um dos principais efeitos secundários da quimioterapia é o de parar a produção da quantidade 
+suficiente de células sanguíneas pela medula óssea. Para o final do seu tratamento com quimioterapia, 
+especialmente se tiver recebido muita quimioterapia, a sua contagem de glóbulos vermelhos pode 
+diminuir, fazendo com que fique anémico. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar aranesp"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar aranesp"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Aranesp: 
+- se tem alergia à darbepoetina alfa ou a qualquer outro componente deste medicamento, 
+indicados na secção 6. - se lhe tiver sido diagnosticada tensão arterial elevada que não esteja a ser controlada com outros 
+medicamentos prescritos pelo seu médico. </p>
+<p>Advertências e precauções  </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Aranesp. </p>
+<p>Por favor, informe o seu médico se sofre ou já sofreu de: 
+- tensão arterial elevada que está a ser controlada com outros medicamentos prescritos pelo seu 
+médico; 
+- anemia de células falciformes; 
+- ataques epiléticos (crises convulsivas);<br />
+- convulsões (ataques ou crises convulsivas);<br />
+- doença do fígado; 
+- ausência de resposta significativa a medicamentos utilizados para tratar a anemia; 
+- alergia ao látex (a tampa da agulha na seringa pré-cheia contém um derivado do látex); ou 
+- hepatite C. </p>
+<p>Precauções especiais: 
+- Se tiver sintomas como cansaço e falta de energia fora do comum, isso pode significar que pode 
+ter aplasia dos glóbulos vermelhos puros, que já foi notificada em doentes. Aplasia dos glóbulos 
+vermelhos puros significa que o organismo parou ou reduziu a produção de glóbulos vermelhos 
+o que causa anemia grave. Se sentir estes sintomas deve contactar o seu médico que decidirá 
+qual a melhor opção para tratar a sua anemia.  </p>
+<ul>
+<li>
+<p>Tome precauções especiais com outros medicamentos que estimulam a produção de glóbulos 
+vermelhos: Aranesp pertence a um grupo de medicamentos que estimulam a produção de 
+glóbulos vermelhos tal como a proteína humana eritropoietina. O seu profissional de saúde deve 
+registar sempre o medicamento específico que você está a utilizar. </p>
+</li>
+<li>
+<p>Se é um doente com insuficiência renal crónica, que particularmente não responde de modo 
+adequado a Aranesp, o seu médico irá verificar a sua dose de Aranesp, pois caso a sua dose de 
+Aranesp esteja a ser aumentada consecutivamente e se você não está a responder ao tratamento, 
+o risco de ter um problema de coração ou dos vasos sanguíneos pode estar aumentado, o que 
+pode aumentar o risco de enfarte do miocárdio, acidente vascular cerebral (AVC) e morte. </p>
+</li>
+<li>
+<p>O seu médico deverá tentar manter os seus valores de hemoglobina entre 10 e 12 g/dl. O seu 
+médico verificará que os seus valores de hemoglobina não excedem um determinado valor, isto 
+porque concentrações elevadas de hemoglobina podem colocá-lo em risco de sofrer um </p>
+</li>
+</ul>
+<p>problema de coração ou dos vasos sanguíneos o que poderia aumentar o risco de enfarte do 
+miocárdio, acidente vascular cerebral (AVC) e morte. </p>
+<ul>
+<li>
+<p>Se tiver sintomas que incluam dor de cabeça grave, sonolência, confusão, problemas de visão, 
+náusea, vómitos ou ataques convulsivos (convulsões), tal poderá significar que sofre de pressão 
+sanguínea muito elevada. Se sentir estes sintomas deve contactar o seu médico. </p>
+</li>
+<li>
+<p>Se for um doente com cancro deve ter consciência que Aranesp pode atuar como fator de 
+crescimento de células sanguíneas e em algumas situações pode ter um impacto negativo no seu 
+cancro. Dependendo da sua situação individual, pode ser preferível optar por uma transfusão 
+sanguínea. Por favor, discuta este assunto com o seu médico. </p>
+</li>
+<li>
+<p>O uso indevido por pessoas saudáveis pode causar problemas de coração ou de circulação 
+sanguínea que podem pôr em risco a vida. </p>
+</li>
+<li>
+<p>Foram notificados casos de reações cutâneas graves incluindo síndrome de Stevens-Johnson 
+(SSJ) e necrólise epidérmica tóxica (NET) em associação ao tratamento com epoetinas. 
+Inicialmente, pode aparecer SSJ/NET como manchas avermelhadas semelhantes a um alvo ou 
+manchas circulares normalmente com bolhas centrais no dorso. Também podem aparecer 
+úlceras na boca, garganta, nariz, genitais e olhos (olhos vermelhos e inchados). Estas erupções 
+cutâneas graves são normalmente precedidas por febre e/ou sintomas semelhantes a gripe. Estas 
+erupções podem progredir para descamação generalizada da pele e complicações que podem pôr 
+a vida em risco.<br />
+Se desenvolver uma reação na pele ou outro destes sintomas, pare o tratamento com Aranesp e 
+contacte imediatamente o seu médico ou procure aconselhamento médico. </p>
+</li>
+</ul>
+<p>Outros medicamentos e Aranesp </p>
+<p>Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. </p>
+<p>A ciclosporina e o tacrolímus (medicamentos que suprimem o sistema imunitário) podem ser afetados 
+pelo número de glóbulos vermelhos no seu sangue. É importante que diga ao seu médico se estiver a 
+tomar algum destes medicamentos. </p>
+<p>Ao utilizar Aranesp com alimentos e bebidas </p>
+<p>Os alimentos e as bebidas não afetam Aranesp. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Aranesp não foi testado em mulheres grávidas. É importante que informe o seu médico se: </p>
+<ul>
+<li>
+<p>está grávida;  </p>
+</li>
+<li>
+<p>pensa estar grávida; ou </p>
+</li>
+<li>
+<p>planeia engravidar.  </p>
+</li>
+</ul>
+<p>Não se sabe se a darbepoetina alfa é excretada no leite humano. Deve interromper a amamentação se 
+utilizar Aranesp. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Aranesp não deve afetar a capacidade de condução ou de utilização de máquinas. </p>
+<p>Aranesp contém sódio </p>
+<p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar aranesp"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar aranesp"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.  </p>
+<p>Após análises ao sangue, o seu médico decidiu que precisa de Aranesp uma vez que o seu valor de 
+hemoglobina é igual ou inferior a 10 g/dl. O seu médico dir-lhe-á a quantidade e frequência corretas de 
+Aranesp que irá receber de modo a manter os valores de hemoglobina entre os 10 e os 12 g/dl. Isto 
+poderá variar no caso de um adulto ou de uma criança.  </p>
+<p>Administrar a si próprio a injeção de Aranesp </p>
+<p>O seu médico poderá decidir que é melhor para si administrar você mesmo ou um cuidador a injeção 
+de Aranesp. O seu médico, enfermeiro ou farmacêutico demonstrarão como injetar uma seringa 
+pré-cheia a si próprio. Não tente injetar a si próprio o medicamento se não foi devidamente formado. 
+Nunca injete a si mesmo Aranesp numa veia.  </p>
+<p>Se tiver insuficiência renal crónica </p>
+<p>Para todos os doentes adultos e pediátricos com ≥ 1 ano de idade com insuficiência renal crónica, 
+Aranesp é administrado por uma única injeção, quer sob a pele (subcutânea) ou dentro da veia 
+(intravenosa). </p>
+<p>Com o objetivo de corrigir a sua anemia, a sua dose inicial de Aranesp por quilograma do seu peso 
+corporal será: </p>
+<ul>
+<li>
+<p>0,75 microgramas uma vez de quinze em quinze dias, ou </p>
+</li>
+<li>
+<p>0,45 microgramas uma vez por semana. 
+Também pode ser utilizado 1,5 microgramas/kg uma vez por mês, como dose inicial, para doentes 
+adultos que não estão em diálise. </p>
+</li>
+</ul>
+<p>Para todos os doentes adultos e pediátricos com ≥ 1 ano de idade com insuficiência renal crónica, uma 
+vez corrigida a sua anemia irá continuar a receber Aranesp como uma injeção única, quer uma vez por 
+semana quer uma vez de duas em duas semanas. Para todos os doentes adultos e pediátricos com 
+≥ 11 anos de idade que não estejam em diálise, Aranesp pode também ser administrado como uma 
+injeção uma vez por mês. </p>
+<p>O seu médico irá colher regularmente amostras de sangue para avaliar como a sua anemia está a 
+responder e poderá ajustar a sua dose uma vez a cada quatro semanas conforme seja necessário, de 
+forma a manter o controlo da sua anemia a longo prazo. </p>
+<p>O seu médico utilizará a dose eficaz mais baixa para controlar os sintomas da sua anemia. </p>
+<p>Se você não responder adequadamente a Aranesp, o seu médico irá verificar a sua dose e informá-lo-á 
+se necessitar de alterar as doses de Aranesp. </p>
+<p>A sua tensão arterial será também controlada regularmente, particularmente no início do seu 
+tratamento. </p>
+<p>Em alguns casos, o seu médico pode recomendar-lhe que tome suplementos de ferro. </p>
+<p>O seu médico poderá decidir alterar a forma como a injeção lhe é administrada (sob a pele ou dentro 
+da veia). Caso isso aconteça, começará com a mesma dose que tem vindo a receber e o seu médico irá 
+colher amostras de sangue para assegurar que a sua anemia continua a ser corretamente tratada. </p>
+<p>Se o seu médico decidiu alterar o seu tratamento de r-HuEPO (eritropoietina produzida por tecnologia 
+genética) para Aranesp, ele irá determinar se deve receber a injeção de Aranesp uma vez por semana 
+ou uma vez a cada duas semanas. A via de administração é a mesma de r-HuEPO mas o seu médico 
+dir-lhe-á quanto, e quando, deve receber e se necessário ajustará a dose. </p>
+<p>Se estiver a ser submetido a quimioterapia </p>
+<p>Aranesp é administrado através de uma injeção única sob a pele, quer uma vez por semana, quer uma 
+vez a cada três semanas.  </p>
+<p>Com o fim de corrigir a sua anemia, a dose inicial será: </p>
+<ul>
+<li>
+<p>500 microgramas administrada uma vez a cada três semanas (6,75 microgramas de Aranesp por 
+quilograma do seu peso corporal); ou </p>
+</li>
+<li>
+<p>2,25 microgramas (uma vez por semana) de Aranesp por quilograma do seu peso corporal. </p>
+</li>
+</ul>
+<p>O seu médico irá colher regularmente amostras de sangue para avaliar como a sua anemia está a 
+responder ao tratamento e poderá ajustar a sua dose conforme necessário. O seu tratamento continuará 
+até aproximadamente quatro semanas após o fim da sua quimioterapia. O seu médico dir-lhe-á 
+exatamente quando pode parar de receber Aranesp. </p>
+<p>Em alguns casos, o seu médico pode recomendar-lhe que tome suplementos de ferro. </p>
+<p>Se utilizar mais Aranesp do que deveria </p>
+<p>Poderá ter problemas graves se receber mais Aranesp do que o necessário, como por exemplo tensão 
+arterial elevada. Deverá contactar o seu médico, enfermeiro ou farmacêutico se tal ocorrer. No caso de 
+se sentir mal deverá contactar imediatamente o seu médico, enfermeiro ou farmacêutico. </p>
+<p>Caso se tenha esquecido de utilizar Aranesp </p>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.  </p>
+<p>No caso de se esquecer de uma dose de Aranesp deverá contactar o seu médico para decidir quando 
+deverá administrar a dose seguinte. </p>
+<p>Se parar de utilizar Aranesp </p>
+<p>Deve falar primeiro com seu médico se quiser parar de utilizar Aranesp. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.  </p>
+<p>Os seguintes efeitos indesejáveis foram manifestados por alguns dos doentes a receber Aranesp: </p>
+<p>Doentes com insuficiência renal crónica </p>
+<p>Muito frequentes: podem afetar mais de 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>Tensão arterial elevada (hipertensão) </p>
+</li>
+<li>
+<p>Reações alérgicas </p>
+</li>
+</ul>
+<p>Frequentes: podem afetar até 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>AVC (acidente vascular cerebral) </p>
+</li>
+<li>
+<p>Dor no local de injeção  </p>
+</li>
+<li>
+<p>Erupção cutânea e/ou pele avermelhada </p>
+</li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em cada 100 pessoas </p>
+<ul>
+<li>
+<p>Formação de coágulos sanguíneos (trombose) </p>
+</li>
+<li>
+<p>Convulsões (ataques ou crises convulsivas) </p>
+</li>
+<li>
+<p>Hematoma e hemorragia no local de injeção  </p>
+</li>
+<li>
+<p>Formação de coágulos sanguíneos num acesso de diálise </p>
+</li>
+</ul>
+<p>Desconhecida: a frequência não pode ser estimada a partir dos dados disponíveis </p>
+<ul>
+<li>Aplasia dos glóbulos vermelhos puros - (anemia, cansaço invulgar, falta de energia) </li>
+</ul>
+<p>Doentes oncológicos </p>
+<p>Muito frequentes: podem afetar mais de 1 em cada 10 pessoas </p>
+<ul>
+<li>Reações alérgicas </li>
+</ul>
+<p>Frequentes: podem afetar até 1 em cada 10 pessoas </p>
+<ul>
+<li>
+<p>Tensão arterial elevada (hipertensão) </p>
+</li>
+<li>
+<p>Formação de coágulos sanguíneos (trombose) </p>
+</li>
+<li>
+<p>Dor no local de injeção  </p>
+</li>
+<li>
+<p>Erupção cutânea e/ou pele avermelhada </p>
+</li>
+<li>
+<p>Retenção de líquidos (edema) </p>
+</li>
+</ul>
+<p>Pouco frequentes: podem afetar até 1 em cada 100 pessoas </p>
+<ul>
+<li>
+<p>Convulsões (ataques ou crises convulsivas) </p>
+</li>
+<li>
+<p>Hematoma e hemorragia no local de injeção </p>
+</li>
+</ul>
+<p>Todos os doentes </p>
+<p>Desconhecida: a frequência não pode ser estimada a partir dos dados disponíveis </p>
+<ul>
+<li>
+<p>Reações alérgicas graves, as quais podem incluir: </p>
+</li>
+<li>
+<p>Reações alérgicas súbitas que coloquem a vida em risco (anafilaxia) </p>
+</li>
+<li>
+<p>Inchaço da cara, lábios, boca, língua ou garganta que pode causar dificuldade a engolir ou 
+respirar (angioedema) </p>
+</li>
+<li>
+<p>Falta de ar (broncospasmo alérgico) </p>
+</li>
+<li>
+<p>Erupção cutânea </p>
+</li>
+<li>
+<p>Erupção da pele com comichão (urticária) </p>
+</li>
+<li>
+<p>Foram notificados casos de reações cutâneas graves incluindo síndrome de Stevens-Johnson e 
+necrólise epidérmica tóxica em associação ao tratamento com epoetinas. Estas podem aparecer 
+como manchas avermelhadas semelhantes a um alvo ou manchas circulares normalmente com 
+bolhas centrais no dorso, esfoliação da pele, úlceras na boca, garganta, nariz, genitais e olhos e 
+podem ser precedidas por febre e/ou sintomas semelhantes a gripe.<br />
+Pare o tratamento com Aranesp se desenvolver algum destes sintomas e contacte imediatamente 
+o seu médico ou procure aconselhamento médico (ver secção 2). </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar aranesp"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar aranesp"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.  </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo da 
+seringa pré-cheia, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2°C - 8°C). Não congelar. Não utilize Aranesp se pensa que este foi 
+congelado. </p>
+<p>Conservar a seringa pré-cheia na embalagem de origem para proteger da luz. </p>
+<p>A seringa deve ser retirada do frigorífico e deixada durante aproximadamente 30 minutos à 
+temperatura ambiente, antes da injeção, e deverá ser utilizada dentro dos próximos 7 dias ou 
+descartada. </p>
+<p>Não utilize este medicamento se verificar que o conteúdo da seringa pré-cheia se encontra turvo, ou 
+com partículas visíveis. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Aranesp </p>
+<ul>
+<li>A substância ativa é a darbepoetina alfa, r-HuEPO (eritropoietina produzida por tecnologia 
+genética). A seringa pré-cheia 
+contém 10, 15, 20, 30, 40, 50, 60, 80, 100, 130, 150, 300 ou 500 microgramas de darbepoetina 
+alfa.  </li>
+<li>Os outros componentes são fosfato de sódio monobásico, fosfato de sódio dibásico, cloreto de 
+sódio, polissorbato 80 e água para preparações injetáveis. </li>
+</ul>
+<p>Qual o aspeto de Aranesp e conteúdo da embalagem </p>
+<p>Aranesp é uma solução injetável límpida, incolor ou com um ligeiro tom pérola numa seringa 
+pré-cheia.  </p>
+<p>Aranesp está disponível em embalagens de 1 ou 4 seringas pré-cheias. As seringas podem estar 
+disponíveis quer em embalagens blister (1 e 4 seringas) quer em embalagens não blister (1 seringa). É 
+possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Amgen Europe B.V.<br />
+Minervum 7061<br />
+4817 ZK Breda<br />
+Países Baixos </p>
+<p>Titular da Autorização de Introdução no Mercado<br />
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+Países Baixos </p>
+<p>Fabricante 
+Amgen Technology (Ireland) Unlimited Company 
+Pottery Road 
+Dun Laoghaire 
+Co Dublin 
+Irlanda </p>
+<p>Fabricante 
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Bélgica </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+s.a. Amgen n.v. 
+Tel/Tél: +32 (0)2 7752 
+Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7България 
+Амджен България ЕООД 
+Тел.: +359 (0)2 424 7Luxembourg/Luxemburg 
+s.a. Amgen<br />
+Belgique/Belgien 
+Tel/Tél: +32 (0)2 7752 
+Česká republika 
+Amgen s.r.o. 
+Tel: +420 221 773 Magyarország 
+Amgen Kft. 
+Tel.: +36 1 35 44 Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617 
+Malta 
+Amgen B.V. 
+The Netherlands 
+Tel: +31 (0)76 5732 
+Deutschland 
+AMGEN GmbH </p>
+<p>Tel.: +49 89 1490 </p>
+<p>Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732 
+Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09Norge 
+Amgen AB 
+Tel: +47 23308 
+Ελλάδα 
+Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε.<br />
+Τηλ.: +30 210 3447 
+Österreich 
+Amgen GmbH<br />
+Tel: +43 (0)1 50  </p>
+<p>España 
+Amgen S.A.<br />
+Tel: +34 93 600 18 60  </p>
+<p>Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3France 
+Amgen S.A.S. </p>
+<p>Tél: +33 (0)9 69 363 363<br />
+Portugal 
+Amgen Biofarmacêutica, Lda. 
+Tel: +351 21 4220 </p>
+<p>Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57 România 
+Amgen România SRL 
+Tel: +4021 527 3 
+Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527 
+Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2 321 114<br />
+Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900 
+Kύπρος 
+C.A. Papaellinas Ltd 
+Τηλ.: +357 22741 Sverige 
+Amgen AB<br />
+Tel: +46 (0)8 6951 
+Latvija 
+Amgen Switzerland AG Rīgas filiāle 
+Tel: +371 257 25 
+United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420 
+Este folheto informativo foi revisto pela última vez em </p>
+<p>Outras fontes de informação  </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1298,6 +1858,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-53644ac8be35bb2e5f6359de25449b5d"
 * entry[0].resource = composition-da-53644ac8be35bb2e5f6359de25449b5d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp53644ac8be35bb2e5f6359de25449b5d"
+* entry[=].resource = mp53644ac8be35bb2e5f6359de25449b5d
+                            
+                    
+Instance: bundlepackageleaflet-pt-53644ac8be35bb2e5f6359de25449b5d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aranesp Package Leaflet for language pt"
+Description: "ePI document Bundle for aranesp Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-53644ac8be35bb2e5f6359de25449b5d"
+* entry[0].resource = composition-pt-53644ac8be35bb2e5f6359de25449b5d
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp53644ac8be35bb2e5f6359de25449b5d"
@@ -1399,6 +1981,18 @@ RuleSet: 53644ac8be35bb2e5f6359de25449b5dListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-53644ac8be35bb2e5f6359de25449b5d) // aranesp pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

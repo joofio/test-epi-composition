@@ -866,6 +866,409 @@ anvendes sammen med in-line filtre. </p>         </div>"""
 
 
 
+Instance: composition-pt-0decee85458f6211fcf0121c6b6f6c83
+InstanceOf: CompositionUvEpi
+Title: "Composition for celdoxome Package Leaflet"
+Description:  "Composition for celdoxome Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0decee85458f6211fcf0121c6b6f6c83)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - celdoxome"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Celdoxome pegylated liposomal e para que é utilizado </li>
+<li>O que precisa de saber antes de utilizar Celdoxome pegylated liposomal </li>
+<li>Como utilizar Celdoxome pegylated liposomal </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Celdoxome pegylated liposomal </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é celdoxome e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é celdoxome e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Celdoxome pegylated liposomal é um agente antitumoral. </p>
+<p>Celdoxome pegylated liposomal é utilizado no tratamento do cancro da mama em doentes em risco de 
+sofrer de problemas de coração. Celdoxome pegylated liposomal é também utilizado no tratamento do 
+cancro do ovário. É utilizado para matar as células cancerosas, reduzir o tamanho do tumor, atrasar o 
+crescimento do tumor e prolongar a sua sobrevivência. </p>
+<p>Celdoxome pegylated liposomal é igualmente utilizado em associação com outro medicamento, o 
+bortezomib, no tratamento do mieloma múltiplo, um cancro do sangue, em doentes que receberam 
+pelo menos 1 tratamento prévio. </p>
+<p>Celdoxome pegylated liposomal destina-se também a melhorar o seu sarcoma de Kaposi, permitindo 
+ainda obter o aplanamento, empalidecimento e mesmo a redução do cancro. Pode também melhorar ou 
+fazer desaparecer outros sintomas do sarcoma de Kaposi, tal como o inchaço à volta do tumor. </p>
+<p>Celdoxome pegylated liposomal contém um medicamento que é capaz de interagir com as células de 
+modo a matar seletivamente as células cancerosas. O cloridrato de doxorrubicina contido em 
+Celdoxome pegylated liposomal está encerrado em minúsculas esferas designadas por lipossomas 
+peguilados, que ajudam a transportar o medicamento da corrente sanguínea para o tecido canceroso e 
+não para o tecido normal saudável. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar celdoxome"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar celdoxome"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Celdoxome pegylated liposomal 
+- se tem alergia ao cloridrato de doxorrubicina, amendoim ou soja, ou a qualquer outro 
+componente deste medicamento (indicados na secção 6). </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de receber Celdoxome pegylated liposomal: 
+- se estiver a receber qualquer tratamento para uma doença do coração ou doença do fígado 
+- se é diabético, porque Celdoxome pegylated liposomal contém açúcar o que poderá requerer o 
+ajuste do seu tratamento para a diabetes 
+- se tem sarcoma de Kaposi e se foi submetido a cirurgia para extração do baço 
+- se notar o aparecimento de feridas, descoloração ou algum desconforto na boca. </p>
+<p>Os casos de doença pulmonar intersticial (DPI) foram observados em doentes sob tratamento com 
+doxorrubicina lipossómica peguilada, incluindo casos fatais. Os sintomas de doença pulmonar 
+intersticial são tosse e falta de ar, por vezes com febre, que não são provocadas por atividade física. 
+Procure ajuda médica de imediato, caso tenha sintomas que possam ser sinais de doença pulmonar 
+intersticial. </p>
+<p>Crianças e adolescentes 
+Celdoxome pegylated liposomal não deve ser utilizado em crianças e adolescentes, porque não se sabe 
+de que forma o medicamento os irá afetar. </p>
+<p>Outros medicamentos e Celdoxome pegylated liposomal 
+Informe o seu médico ou farmacêutico 
+- se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros medicamentos; 
+- sobre quaisquer outros tratamentos para o cancro que esteja a fazer ou tenha estado a tomar, 
+uma vez que é necessário um cuidado especial com tratamentos que reduzem o número de 
+glóbulos brancos, pois pode provocar uma redução adicional do número de glóbulos brancos. Se 
+tiver dúvidas quanto aos tratamentos a que foi submetido ou qualquer doença que tenha sofrido, 
+discuta estes aspetos com o seu médico. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Uma vez que a substância ativa, cloridrato de doxorrubicina, contida em Celdoxome pegylated 
+liposomal pode provocar malformações congénitas, é importante informar o seu médico se pensa que 
+está grávida. Deve evitar engravidar enquanto você ou o seu companheiro estiverem a ser tratados com 
+Celdoxome pegylated liposomal e no período de seis meses após terminar o tratamento com 
+Celdoxome pegylated liposomal. </p>
+<p>Dado que o cloridrato de doxorrubicina pode ser prejudicial para os bebés amamentados, as mulheres 
+têm de deixar de amamentar antes de iniciarem o tratamento com Celdoxome pegylated liposomal. Os 
+especialistas em saúde recomendam que as mulheres infetadas com VIH não amamentem, em 
+circunstância alguma, de forma a evitar a transmissão do VIH. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não conduza veículos nem utilize quaisquer ferramentas ou máquinas se se sentir cansado ou 
+sonolento devido ao tratamento com Celdoxome pegylated liposomal. </p>
+<p>Celdoxome pegylated liposomal contém óleo de soja e sódio 
+Celdoxome pegylated liposomal contém óleo de soja. Se for alérgico ao amendoim ou à soja, não 
+utilize este medicamento. Ver “Não utilize Celdoxome pegylated liposomal". 
+Celdoxome pegylated liposomal contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar celdoxome"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar celdoxome"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Celdoxome pegylated liposomal é uma formulação única. Não pode ser utilizado permutavelmente 
+com outras formulações de cloridrato de doxorrubicina. </p>
+<p>Qual a quantidade de Celdoxome pegylated liposomal que é administrada 
+Se está a ser tratado devido a cancro da mama ou do ovário, Celdoxome pegylated liposomal ser-lhe-á 
+administrado numa dose de 50 mg por metro quadrado da sua área de superfície corporal (com base na 
+sua altura e peso). A dose é repetida em intervalos de 4 semanas, desde que a doença não progrida e 
+consiga tolerar o tratamento. </p>
+<p>Se está a ser tratado para o mieloma múltiplo, e já recebeu pelo menos 1 tratamento prévio, 
+Celdoxome pegylated liposomal será administrado numa dose de 30 mg por metro quadrado da sua 
+área de superfície corporal (com base na sua altura e peso) numa perfusão de 1 hora, no dia 4 do 
+regime de 3 semanas de bortezomib, imediatamente após a perfusão de bortezomib. A dose é repetida 
+desde que responda satisfatoriamente e tolere o tratamento. </p>
+<p>Se está a ser tratado devido a sarcoma de Kaposi, Celdoxome pegylated liposomal ser-lhe-á 
+administrado numa dose de 20 mg por metro quadrado da sua área de superfície corporal (com base na 
+sua altura e peso). A dose é repetida em intervalos de 2 a 3 semanas, durante 2‑3 meses e, em seguida, 
+sempre que for necessário para manter as melhoras da sua doença. </p>
+<p>De que forma é administrado Celdoxome pegylated liposomal 
+Celdoxome pegylated liposomal ser-lhe-á administrado pelo seu médico por gota-a-gota 
+(por perfusão) numa veia. Dependendo da dose e da indicação, a perfusão poderá demorar entre 
+30 minutos até mais de uma hora (i.e., 90 minutos). </p>
+<p>Se utilizar mais Celdoxome pegylated liposomal do que deveria 
+A sobredosagem aguda agrava os efeitos indesejáveis como feridas na boca ou diminuição do número 
+de glóbulos brancos e plaquetas no sangue. O tratamento consiste em administração de antibióticos, 
+transfusões de plaquetas, utilização de fatores que estimulam a produção de glóbulos brancos e 
+tratamento sintomático das feridas na boca. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Durante a perfusão </p>
+<p>Durante a perfusão de Celdoxome pegylated liposomal podem ocorrer as seguintes reações: 
+- reação alérgica grave que pode incluir inchaço da face, lábios, boca, língua ou garganta; 
+dificuldade em engolir ou em respirar; erupção na pele com comichão (urticária) 
+- vias respiratórias inflamadas e estreitas nos pulmões, causando tosse, pieira ou falta de ar (asma) 
+- rubor, transpiração, calafrios ou febre 
+- dor ou desconforto no peito 
+- dor nas costas 
+- pressão arterial alta ou baixa 
+- batimento cardíaco acelerado 
+- crises (convulsões) </p>
+<p>Pode ocorrer fuga do líquido de injeção das veias para os tecidos sob a pele. Se sentir ardor ou dor 
+enquanto lhe está a ser administrada uma dose de Celdoxome pegylated liposomal, informe 
+imediatamente o seu médico. </p>
+<p>Efeitos indesejáveis graves </p>
+<p>O seu médico deve ser contactado imediatamente se algum dos seguintes efeitos indesejáveis graves 
+forem observados: 
+- tiver febre, sentir-se cansado ou se tiver sinais de nódoas negras ou hemorragias (muito 
+frequente) 
+- vermelhidão, inchaço, descamação ou sensibilidade, principalmente nas mãos ou nos pés 
+(síndrome “mão-pé").<br />
+Estes efeitos têm sido observados muito frequentemente e, por vezes, são graves. Em casos 
+graves, estes efeitos podem interferir com certas atividades diárias e podem persistir durante 
+4 semanas ou mais antes da sua resolução completa. O seu médico pode decidir atrasar o início 
+e/ou reduzir a dose do tratamento seguinte (ver abaixo Estratégias para evitar e tratar a síndrome 
+mão-pé) 
+- feridas na boca, diarreia grave, vómitos ou náuseas (muito frequentes) 
+- infeções (frequentes), incluindo infeções pulmonares (pneumonia) ou infeções que podem afetar 
+a sua visão 
+- ter falta de ar (frequente) 
+- dor de estômago grave (frequente) 
+- fraqueza extrema (frequente) 
+- reação alérgica grave que pode incluir inchaço da face, lábios, boca, língua ou garganta; 
+dificuldade em engolir ou em respirar; erupção na pele com comichão (urticária) (pouco 
+frequente) 
+- paragem cardíaca (o coração para de bater); insuficiência cardíaca, na qual o coração não 
+bombeia sangue suficiente para o resto do corpo, o que faz com que sinta falta de ar ou as 
+pernas inchadas (pouco frequente) 
+- um coágulo de sangue que se move até ao pulmão, causando dor no peito e faz com que sinta 
+falta de ar (pouco frequente) 
+- inchaço, calor ou sensibilidade nos tecidos moles das suas pernas, por vezes com dor que agrava 
+quando está de pé ou caminha (raro) 
+- erupções na pele graves ou potencialmente fatais com bolhas e descamação da pele, 
+particularmente à volta da boca, nariz, olhos e órgãos genitais (síndrome de Stevens-Johnson) 
+ou por todo o corpo (necrólise epidérmica tóxica) (raro) </p>
+<p>Outros efeitos indesejáveis 
+Entre as perfusões poderá ocorrer o seguinte: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas) 
+- redução do número de glóbulos brancos que pode aumentar o risco de infeções. Em casos raros, 
+um número baixo de glóbulos brancos pode causar infeções graves. A anemia (redução do 
+número de glóbulos vermelhos) pode provocar fadiga e um número de plaquetas diminuído 
+pode aumentar o risco de hemorragia. É devido às potenciais alterações nas suas células 
+sanguíneas que irá realizar análises regulares ao sangue. 
+- perda de apetite 
+- prisão de ventre 
+- erupções na pele, incluindo vermelhidão da pele, erupção alérgica na pele, erupção avermelhada 
+ou saliente na pele 
+- perda de cabelo 
+- dor, incluindo nos músculos e músculo do peito, articulações, braços ou pernas 
+- sentir muito cansaço </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas) 
+- infeções, incluindo infeções graves generalizadas em todo o corpo (sepsis), infeções 
+pulmonares, infeções virais por herpes zoster (zona), um tipo de infeção bacteriana (infeção por 
+complexo Mycobacterium avium), infeções do trato urinário, infeções fúngicas (incluindo 
+candidíase e sapinhos na boca), infeção das raízes do cabelo, garganta infetada ou irritada, nariz, 
+seios nasais ou garganta infetados (constipação) 
+- baixo número de um tipo de glóbulos brancos (neutrófilos), com febre 
+- perda de peso grave e perda muscular, água insuficiente no corpo (desidratação), níveis baixos 
+de potássio, sódio ou cálcio no sangue </p>
+<ul>
+<li>sentir confusão, ansiedade, depressão, dificuldade em dormir </li>
+<li>danos nos nervos que podem causar formigueiro, dormência, dor ou perda da sensação de dor, 
+dor no nervo, sensação invulgar na pele (tal como formigueiro ou sensação de rastejamento), 
+sensação ou sensibilidade diminuída, especialmente na pele </li>
+<li>alteração do paladar, dores de cabeça, sentir muita sonolência e pouca energia, sentir tonturas; </li>
+<li>inflamação dos olhos (conjuntivite) </li>
+<li>batimento cardíaco acelerado </li>
+<li>pressão arterial alta ou baixa, rubor </li>
+<li>falta de ar que pode ser causada pela atividade física, hemorragia nasal, tosse </li>
+<li>inflamação do revestimento do estômago ou esófago, úlceras (feridas) na boca, indigestão, 
+dificuldade em engolir, dor na boca, boca seca </li>
+<li>problemas na pele, incluindo pele escamosa ou seca, vermelhidão da pele, bolhas ou úlceras 
+(feridas) na pele, comichão, manchas escuras na pele </li>
+<li>transpiração excessiva </li>
+<li>espasmos ou dores musculares </li>
+<li>dor incluindo os músculos, ossos ou costas </li>
+<li>dor ao urinar </li>
+<li>reação alérgica à perfusão do medicamento, estado gripal, calafrios, inflamação do revestimento 
+das cavidades e passagens do corpo, tais como nariz, boca ou traqueia, sentir fraqueza, sentir um 
+mal-estar geral, inchaço causado pela acumulação de líquidos no corpo, mãos, tornozelos ou pés 
+inchados </li>
+<li>perda de peso </li>
+</ul>
+<p>Quando Celdoxome pegylated liposomal é utilizado sozinho, é possível que alguns destes efeitos 
+ocorram menos e outros nem sequer ocorram. </p>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas) 
+- infeções virais por herpes simplex (herpes labial ou herpes genital), infeções fúngicas 
+- número baixo de todos os tipos de células sanguíneas, aumento do número de “plaquetas" 
+(células que ajudam o sangue a coagular) 
+- reação alérgica 
+- níveis elevados de potássio no sangue, níveis baixos de magnésio no sangue 
+- dano no nervo afetando mais do que uma parte do corpo 
+- crises (convulsões), desmaio 
+- sensação desagradável ou dolorosa, especialmente ao toque, sentir sonolência 
+- visão turva, olhos lacrimejantes 
+- sensação de batimento cardíaco acelerado ou irregular (palpitações), doença do músculo 
+cardíaco, danos cardíacos 
+- dano dos tecidos (necrose) no local de administração da injeção, veias inflamadas que causam 
+inchaço e dor, sentir tonturas ao sentar-se ou ao levantar-se 
+- desconforto no peito 
+- flatulência, inflamação das gengivas (gengivite) 
+- problemas ou erupções na pele, incluindo pele escamosa ou descamativa, erupção alérgica na 
+pele, úlcera (ferida) ou urticária, pele descolorada, mudança na cor natural (pigmento) da pele, 
+pequenos pontos vermelhos ou roxos causados por uma hemorragia sob a pele, problemas nas 
+unhas, acne 
+- fraqueza muscular 
+- dor na mama 
+- irritação ou dor onde a injeção é administrada 
+- inchaço da face, temperatura corporal elevada 
+- sintomas (tais como inflamação, vermelhidão ou dor) reaparecem na parte do corpo que recebeu 
+radioterapia anteriormente ou que sofreu um dano anterior pela injeção de quimioterapia na veia </p>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em cada 1000 pessoas) 
+- infeções que ocorrem em pessoas com um sistema imunitário fraco 
+- número baixo de células sanguíneas produzidas na medula óssea 
+- inflamação da retina que pode causar alterações na visão ou cegueira </p>
+<ul>
+<li>batimento cardíaco anormal, traçado cardíaco anormal no ECG (eletrocardiograma), podendo 
+estar associado a um batimento cardíaco lento, problemas no coração que afetam o batimento e 
+ritmo cardíaco, pele e mucosa com coloração azulada devido ao baixo nível de oxigénio no 
+sangue </li>
+<li>alargamento dos vasos sanguíneos </li>
+<li>sensação de aperto na garganta </li>
+<li>língua dorida e inchada, úlcera (ferida) no lábio </li>
+<li>erupção cutânea com bolhas de líquido </li>
+<li>infeção vaginal, vermelhidão no escroto </li>
+<li>problemas com o revestimento das cavidades e passagens do corpo, tais como nariz, boca ou 
+traqueia </li>
+<li>resultados anormais da função do fígado nas análises ao sangue, aumento dos níveis de 
+“creatinina" no sangue </li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- cancro do sangue que se desenvolve rapidamente e que afeta as células do sangue (leucemia 
+mieloide aguda), doença da medula óssea que afeta as células do sangue (síndrome 
+mielodisplásica), cancro da boca ou lábio 
+- Tosse e falta de ar, possivelmente acompanhadas de febre, que não são provocadas por atividade 
+física (doença pulmonar intersticial) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>
+<p>Estratégias para evitar e tratar a síndrome mão-pé incluem </p>
+<ul>
+<li>mergulhar as mãos e/ou pés numa bacia contendo água fria, sempre que possível (por ex., 
+enquanto vê televisão, lê ou ouve rádio) </li>
+<li>manter as mãos e pés destapados (sem luvas, meias, etc.) </li>
+<li>manter-se em locais frescos </li>
+<li>tomar banhos de água fria durante o tempo quente </li>
+<li>evitar a prática de exercício físico vigoroso suscetível de provocar traumatismo nos pés (por ex. 
+jogging) </li>
+<li>evitar a exposição da pele a água muito quente (por ex. jacuzzis, saunas) </li>
+<li>evitar usar sapatos muito apertados ou de salto alto. </li>
+</ul>
+<p>Piridoxina (vitamina B6): 
+- a vitamina B6 pode ser adquirida sem receita médica 
+- tome 50-150 mg por dia logo aos primeiros sinais de vermelhidão ou de sensação de picadas. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar celdoxome"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar celdoxome"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior. </p>
+<p>Frasco para injetáveis por abrir </p>
+<p>Conservar no frigorífico (2 ºC ̩‑8 ºC). Não congelar. </p>
+<p>Após a diluição </p>
+<p>A estabilidade física e química durante a utilização verifica-se durante 24 horas entre 2 ºC e 8 ºC. </p>
+<p>De um ponto de vista microbiológico, o medicamento deve ser utilizado imediatamente. Caso 
+contrário, a responsabilidade do tempo de conservação durante a utilização e das condições que 
+precedem a utilização é do utilizador, não devendo ultrapassar as 24 horas entre os 2 ºC e 8 ºC. Os 
+frascos para injetáveis parcialmente utilizados têm de ser eliminados. </p>
+<p>Não utilize este medicamento se verificar sinais de precipitação ou quaisquer partículas em suspensão. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Celdoxome pegylated liposomal 
+- A substância ativa é o cloridrato de doxorrubicina. Cada ml de Celdoxome pegylated liposomal 
+contém 2 mg de cloridrato de doxorrubicina numa formulação lipossómica peguilada. 
+- Os outros componentes são o sal sódico de N-(carbonil-metoxipolietilenoglicol 2000)-1,2-
+distearoil-sn- glicero-3 fosfoetanolamina (MPEG-DSPE), fosfatidilcolina, hidrogenada (soja) 
+(HSPC), colest-5-en-3β-ol, sulfato de amónio, sacarose, histidina, água para preparações 
+injetáveis, ácido clorídrico (para ajuste do pH) e hidróxido de sódio (para ajuste do pH). Ver 
+secção 2 “Celdoxome pegylated liposomal contém óleo de soja e sódio". </p>
+<p>Qual o aspeto de Celdoxome pegylated liposomal e conteúdo da embalagem 
+O concentrado para dispersão para perfusão é estéril translúcido e vermelho com um pH de 6,5. Celdoxome pegylated liposomal é apresentado em frascos para injetáveis de vidro com 10 ml (20 mg) 
+ou 25 ml (50 mg). </p>
+<p>Cada embalagem contém 1 ou 10 frascos para injetáveis. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Baxter Holding B.V.<br />
+Kobaltweg 49,<br />
+3542 CE Utrecht,<br />
+Holanda  </p>
+<p>Fabricante 
+Baxter Oncology GmbH 
+Kantstrasse 2 
+33790 Halle/Westfalen 
+Alemanha </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -907,6 +1310,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-0decee85458f6211fcf0121c6b6f6c83"
 * entry[0].resource = composition-da-0decee85458f6211fcf0121c6b6f6c83
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0decee85458f6211fcf0121c6b6f6c83"
+* entry[=].resource = mp0decee85458f6211fcf0121c6b6f6c83
+                            
+                    
+Instance: bundlepackageleaflet-pt-0decee85458f6211fcf0121c6b6f6c83
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for celdoxome Package Leaflet for language pt"
+Description: "ePI document Bundle for celdoxome Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-0decee85458f6211fcf0121c6b6f6c83"
+* entry[0].resource = composition-pt-0decee85458f6211fcf0121c6b6f6c83
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp0decee85458f6211fcf0121c6b6f6c83"
@@ -1008,6 +1433,18 @@ RuleSet: 0decee85458f6211fcf0121c6b6f6c83ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-0decee85458f6211fcf0121c6b6f6c83) // celdoxome pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

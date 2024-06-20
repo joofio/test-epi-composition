@@ -2062,6 +2062,1176 @@ er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på h
 
 
 
+Instance: composition-pt-ef587583f9868c465778255848bcb8dd
+InstanceOf: CompositionUvEpi
+Title: "Composition for imraldi Package Leaflet"
+Description:  "Composition for imraldi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpef587583f9868c465778255848bcb8dd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - imraldi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instruções de utilização </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Imraldi e para que é utilizado  </li>
+<li>O que precisa de saber antes de utilizar Imraldi </li>
+<li>Como utilizar Imraldi </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Imraldi </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é imraldi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é imraldi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Imraldi contém adalimumab como substância ativa, um medicamento que atua no sistema imunitário 
+(de defesa) do seu corpo. </p>
+<p>Imraldi destina-se ao tratamento de: </p>
+<ul>
+<li>
+<p>artrite reumatoide, </p>
+</li>
+<li>
+<p>artrite idiopática juvenil poliarticular, </p>
+</li>
+<li>
+<p>artrite relacionada com entesite, </p>
+</li>
+<li>
+<p>espondilite anquilosante, </p>
+</li>
+<li>
+<p>espondilartrite axial sem evidência radiográfica de espondilite anquilosante </p>
+</li>
+<li>
+<p>artrite psoriática, </p>
+</li>
+<li>
+<p>psoríase, </p>
+</li>
+<li>
+<p>hidradenite supurativa, </p>
+</li>
+<li>
+<p>doença de Crohn, </p>
+</li>
+<li>
+<p>colite ulcerosa e </p>
+</li>
+<li>
+<p>uveíte não infeciosa. </p>
+</li>
+</ul>
+<p>A substância ativa de Imraldi, adalimumab, é um anticorpo monoclonal. Os anticorpos monoclonais 
+são proteínas que se ligam a um alvo específico. </p>
+<p>O alvo do adalimumab é uma proteína denominada fator de necrose tumoral ( TNFα), que está 
+presente em níveis aumentados nas doenças inflamatórias acima mencionadas. Ao ligar-se ao TNFα, 
+Imraldi diminui o processo inflamatório destas doenças. </p>
+<p>Artrite reumatoide </p>
+<p>A artrite reumatoide é uma doença inflamatória das articulações. </p>
+<p>Imraldi é usado no tratamento da artrite reumatoide no adulto. Se tem artrite reumatoide ativa 
+moderada a grave, é possível que tenha sido previamente tratado com outros medicamentos 
+modificadores da doença, como metotrexato. Se estes medicamentos não funcionarem suficientemente 
+bem, ser-lhe-á administrado Imraldi para tratar a sua artrite reumatoide. </p>
+<p>Imraldi pode ser usado no tratamento da artrite reumatoide grave, ativa e progressiva sem tratamento 
+prévio com metotrexato. </p>
+<p>Imraldi consegue retardar a lesão da cartilagem e osso das articulações causada pela doença e melhorar 
+a função física. </p>
+<p>Imraldi é usado habitualmente com metotrexato. Se o médico considerar que metotrexato não é 
+adequado, Imraldi pode ser administrado isoladamente. </p>
+<p>Artrite idiopática juvenil poliarticular e artrite relacionada com entesite </p>
+<p>A artrite idiopática juvenil poliarticular e artrite relacionada com entesite são doenças inflamatórias 
+das articulações que surgem normalmente pela primeira vez na infância. </p>
+<p>Imraldi é usado no tratamento da artrite idiopática juvenil poliarticular em crianças e adolescentes com 
+idade entre os 2 e os 17 anos e artrite relacionada com entesite em crianças e adolescentes com idade 
+entre os 6 e os 17 anos. Os doentes podem ser tratados inicialmente com outros medicamentos 
+modificadores da doença, como, por exemplo, o metotrexato. Se estes medicamentos não funcionarem 
+suficientemente bem, os doentes receberão Imraldi para tratar a sua artrite idiopática juvenil 
+poliarticular ou artrite relacionada com entesite. </p>
+<p>Espondilite anquilosante e espondilartrite axial sem evidência radiográfica de espondilite anquilosante </p>
+<p>A espondilite anquilosante e espondilartrite axial sem evidência radiográfica de espondilite 
+anquilosante são doenças inflamatórias da espinha dorsal. </p>
+<p>Imraldi é usado no tratamento da espondilite anquilosante e da espondilartrite axial sem evidência 
+radiográfica de espondilite anquilosante em adultos. No caso de sofrer de espondilite anquilosante ou 
+espondilartrite axial sem evidência radiográfica de espondilite anquilosante receberá primeiro outros 
+medicamentos. Se estes medicamentos não funcionarem suficientemente bem, receberá Imraldi para 
+reduzir os sinais e sintomas da sua doença. </p>
+<p>Artrite psoriática </p>
+<p>A artrite psoriática é uma doença inflamatória das articulações associada a psoríase. </p>
+<p>Imraldi é usado no tratamento da artrite psoriática em adultos. Imraldi consegue retardar a lesão da 
+cartilagem e osso das articulações causada pela doença e melhorar a função física. </p>
+<p>Psoríase em placas em adultos e crianças </p>
+<p>Psoríase em placas é uma doença inflamatória da pele que provoca manchas avermelhadas, secas e 
+com placas na pele, cobertas de escamas prateadas. A psoríase em placas pode também afetar as 
+unhas, causando a sua desintegração, tornando-as espessas e descoladas da base da unha, o que pode 
+ser doloroso. Pensa-se que a psoríase pode ser causada por alterações do sistema imunitário do corpo, 
+que provocam um aumento da produção de células epiteliais. </p>
+<p>Imraldi é usado no tratamento da psoríase em placas moderada a grave, em adultos. Imraldi também é 
+usado no tratamento da psoríase em placas grave em crianças e adolescentes com peso igual ou 
+superior a 30 kg, para os quais o tratamento tópico e fototerapias não resultaram ou são inadequados. </p>
+<p>Hidradenite supurativa em adultos e adolescentes </p>
+<p>Hidradenite supurativa (por vezes chamada hidrosadenite supurativa ou acne inversa) é uma doença 
+inflamatória de longo prazo da pele, muitas vezes dolorosa. Os sintomas podem incluir nódulos 
+dolorosos (caroços) e abcessos (furúnculos) que podem libertar pus. Frequentemente afeta áreas da 
+pele específicas, tais como a região inframamária (abaixo das mamas), axilas, coxas, virilhas e 
+nádegas. 
+Nas áreas afetadas, podem também surgir cicatrizes. </p>
+<p>Imraldi é usado no tratamento da hidradenite supurativa em adultos e adolescentes a partir dos 12 anos 
+de idade. Imraldi pode reduzir o número de nódulos e abcessos existentes, bem como a dor 
+frequentemente associada com a doença. Pode ser tratado inicialmente com outros medicamentos. Se 
+estes medicamentos não funcionarem suficientemente bem, receberá Imraldi. </p>
+<p>Doença de Crohn em crianças e adultos </p>
+<p>A doença de Crohn é uma doença inflamatória do intestino. </p>
+<p>Imraldi é usado no tratamento da doença de Crohn em adultos e crianças entre os 6 e os 17 anos. No 
+caso de sofrer de doença de Crohn receberá primeiro outros medicamentos. Se estes medicamentos 
+não funcionarem suficientemente bem, receberá Imraldi para reduzir os sinais e sintomas da sua 
+doença de Crohn. </p>
+<p>Colite ulcerosa em adultos e crianças </p>
+<p>A colite ulcerosa é uma doença inflamatória do intestino grosso. </p>
+<p>Imraldi é usado no tratamento da colite ulcerosa moderada a grave em adultos e crianças entre os 6 e 
+os 17 anos. No caso de sofrer de colite ulcerosa poderá receber primeiro outros medicamentos. Se 
+estes medicamentos não funcionarem suficientemente bem, receberá Imraldi para reduzir os sinais e 
+sintomas da sua doença. </p>
+<p>Uveíte não infeciosa em adultos e crianças </p>
+<p>A uveíte não infeciosa é uma doença inflamatória que afeta diferentes partes do olho. </p>
+<p>Imraldi é usado no tratamento da </p>
+<ul>
+<li>
+<p>Uveíte não infeciosa com inflamação, afetando a parte de trás do olho, em adultos </p>
+</li>
+<li>
+<p>Uveíte não infeciosa, crónica, com inflamação, afetando a parte da frente do olho, em crianças a 
+partir dos 2 anos de idade </p>
+</li>
+</ul>
+<p>Esta inflamação pode levar a uma diminuição da visão e/ou à presença de moscas volantes no olho 
+(pontos pretos ou linhas finas que se movem através do campo de visão). Imraldi atua através da 
+redução da inflamação. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar imraldi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar imraldi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Imraldi 
+- se tem alergia ao adalimumab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). 
+- se tem uma infeção grave, incluindo tuberculose (ver “Advertências e precauções"). Deve 
+contactar o seu médico se tiver sintomas de infeção, tais como febre, feridas, sensação de 
+cansaço, problemas dentários. 
+- se tem insuficiência cardíaca moderada a grave. É importante que informe o seu médico se tem 
+ou se teve alterações cardíacas graves (ver “Advertências e precauções"). </p>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou farmacêutico antes de utilizar Imraldi. </p>
+<p>Reação alérgica </p>
+<ul>
+<li>Se tiver reações alérgicas com sintomas, tais como dificuldade em respirar, respiração 
+ofegante, tonturas, inchaço ou pele irritada, interrompa a administração de Imraldi e contacte 
+imediatamente o seu médico uma vez que, em casos raros, estas reações podem ser 
+potencialmente fatais. </li>
+</ul>
+<p>Infeção </p>
+<ul>
+<li>
+<p>Se tiver uma infeção, incluindo uma infeção crónica ou localizada (por exemplo, úlcera da 
+perna) informe o seu médico antes de iniciar o tratamento com Imraldi. Se tiver quaisquer 
+dúvidas, contacte o seu médico.  </p>
+</li>
+<li>
+<p>Pode contrair mais facilmente infeções enquanto estiver a ser tratado com Imraldi. Este risco 
+pode aumentar se a sua função pulmonar estiver diminuída. Estas infeções podem ser graves e 
+incluir tuberculose, infeções causadas por vírus, fungos, parasitas ou bactérias, outras infeções 
+oportunistas (infeções invulgares associadas a um sistema imunitário enfraquecido) e sepsia 
+(envenenamento do sangue). Em casos raros, estas infeções podem pôr a vida em risco. Deve 
+informar o seu médico se tiver sintomas, tais como febre, feridas, sensação de cansaço ou 
+problemas dentários. O seu médico pode aconselhar a suspensão temporária de Imraldi. </p>
+</li>
+</ul>
+<p>Tuberculose </p>
+<ul>
+<li>Uma vez que foram notificados casos de tuberculose em doentes tratados com Imraldi, o seu 
+médico irá avaliá-lo para despiste de sinais e sintomas de tuberculose antes de iniciar a 
+terapêutica com Imraldi. Esta avaliação irá incluir uma história clínica pormenorizada e exames 
+de despiste (por exemplo, uma radiografia do tórax e um teste de tuberculina). A realização e o 
+resultado destes exames devem ser registados no Cartão de Segurança do Doente. É muito 
+importante que informe o seu médico se já sofreu de tuberculose ou se esteve em contacto 
+próximo com alguém com esta doença. A tuberculose pode vir a manifestar-se durante o 
+tratamento, ainda que tenha efetuado tratamento de profilaxia da tuberculose. Se surgirem 
+sintomas de tuberculose (tosse persistente, perda de peso, fraqueza, febre ligeira) ou qualquer 
+outra infeção durante ou após o tratamento, informe imediatamente o seu médico. </li>
+</ul>
+<p>Viajar/infeção recorrente </p>
+<ul>
+<li>
+<p>Informe o seu médico se residiu ou viajou em regiões nas quais as infeções fúngicas tais como 
+histoplasmose, coccidioidomicose ou blastomicose são endémicas. </p>
+</li>
+<li>
+<p>Informe o seu médico se tem antecedentes de infeções recorrentes ou quaisquer outros 
+problemas que aumentem o risco de infeções. </p>
+</li>
+</ul>
+<p>Vírus da hepatite B </p>
+<ul>
+<li>Informe o seu médico se é um portador do vírus da Hepatite B (HBV), se tem infeção pelo 
+HBV ativa ou se pensa que pode estar em risco de contrair HBV. O seu médico deve avaliá-lo 
+para determinar se tem HBV. Imraldi pode reativar a infeção pelo HBV em pessoas portadoras 
+deste vírus. Em alguns casos, especialmente se tomar outros medicamentos que suprimem o 
+sistema imunitário, a reativação da infeção pelo HBV pode pôr a sua vida em risco. </li>
+</ul>
+<p>Idade superior a 65 anos </p>
+<ul>
+<li>Se tem mais de 65 anos pode estar mais suscetível a infeções enquanto estiver a ser tratado com 
+Imraldi. Em conjunto com o seu médico, deve tomar especial atenção a sinais de infeção </li>
+</ul>
+<p>enquanto estiver a ser tratado com Imraldi. É importante informar o seu médico se tiver 
+sintomas de infeções, tais como febre, feridas, sensação de cansaço ou problemas dentários. </p>
+<p>Intervenção cirúrgica ou dentária </p>
+<ul>
+<li>Se vai ser submetido a uma intervenção cirúrgica ou dentária, informe o seu médico que está 
+a tomar Imraldi. O seu médico pode aconselhar a suspensão temporária de Imraldi. </li>
+</ul>
+<p>Doença desmielinizante </p>
+<ul>
+<li>Se sofre ou vier a desenvolver uma doença desmielinizante (uma doença que afeta a camada 
+isoladora em redor dos nervos, tal como esclerose múltipla), o seu médico irá decidir se pode 
+utilizar ou continuar a utilizar Imraldi. Se tiver sintomas, tais como alterações na visão, fraqueza 
+nos braços ou pernas ou dormência ou formigueiro em qualquer parte do corpo, informe 
+imediatamente o seu médico. </li>
+</ul>
+<p>Vacinas </p>
+<ul>
+<li>Certas vacinas contêm formas enfraquecidas mas vivas de bactérias e vírus causadores de 
+doenças e estas vacinas não devem ser administradas durante o tratamento com Imraldi. 
+Consulte o seu médico antes de receber qualquer vacina. Recomenda-se que as crianças, antes 
+de iniciarem o tratamento com Imraldi, se possível, recebam todas as vacinas planeadas para a 
+sua idade. Se utilizar Imraldi durante a gravidez, o seu bebé pode ter um risco superior de ter 
+uma infeção até cerca de cinco meses após a última dose que administrou durante a gravidez. É 
+importante que diga ao médico do seu bebé e a outros profissionais de saúde que usou Imraldi 
+durante a sua gravidez, para que estes possam decidir quando pode ser dada qualquer vacina ao 
+seu bebé. </li>
+</ul>
+<p>Insuficiência cardíaca </p>
+<ul>
+<li>Se sofre de insuficiência cardíaca ligeira e está a ser tratado com Imraldi, o estado da sua 
+insuficiência cardíaca deve ser controlado cuidadosamente pelo seu médico. Deve informar o 
+seu médico se sofre ou já sofreu de algum problema cardíaco grave. Caso se verifique 
+desenvolvimento de novos sintomas ou agravamento dos sintomas de insuficiência cardíaca (por 
+exemplo, falta de ar ou inchaço dos pés), deve contactar o seu médico imediatamente. O seu 
+médico irá decidir se pode utilizar Imraldi. </li>
+</ul>
+<p>Febre, nódoas negras, perdas de sangue ou aspeto pálido </p>
+<ul>
+<li>Em alguns doentes o organismo pode ser incapaz de produzir suficientes células sanguíneas 
+para combater infeções ou ajudar a parar hemorragias. Caso verifique febre que se mantenha, 
+tiver nódoas negras ou perdas de sangue muito facilmente ou se apresentar um aspeto muito 
+pálido, informe imediatamente o seu médico. O seu médico pode decidir suspender o 
+tratamento. </li>
+</ul>
+<p>Cancro </p>
+<ul>
+<li>
+<p>Tem ocorrido em casos muito raros, certos tipos de cancro em crianças e adultos tratados com 
+Imraldi ou com outros antagonistas TNFα. Doentes com artrite reumatoide muito grave que 
+tenham doença prolongada, podem ter um maior risco médio de aparecimento de linfoma 
+(cancro que afeta o sistema linfático) e leucemia (cancro que afeta o sangue e medula óssea). Se 
+toma Imraldi o risco de ter linfoma, leucemia, ou outro tipo de cancro pode aumentar. Em raras 
+ocasiões, em doentes tratados com Imraldi, foi notificado um tipo de linfoma específico e grave. 
+Alguns destes doentes foram também tratados com os medicamentos azatioprina ou 
+mercaptopurina. Diga ao seu médico se está a tomar azatioprina ou mercaptopurina com 
+Imraldi. </p>
+</li>
+<li>
+<p>Adicionalmente, foram observados casos de neoplasias cutâneas não-melanomas em doentes 
+tratados com Imraldi. Se aparecerem novas áreas de pele danificada durante ou depois do 
+tratamento, ou se existirem alterações no aspeto de marcas ou áreas de danos existentes, informe 
+o seu médico. </p>
+</li>
+<li>
+<p>Existem casos de cancros, para além de linfoma, em doentes com um tipo específico de 
+doença pulmonar denominada doença pulmonar obstrutiva crónica (DPOC) tratados com outros 
+antagonistas TNFα. Se tem DPOC, ou se fuma muito, deve falar com o seu médico para saber se 
+o tratamento com um bloqueador TNFα é apropriado para si. </p>
+</li>
+</ul>
+<p>Sintomas sugestivos de uma síndrome tipo lúpus </p>
+<ul>
+<li>Em raras ocasiões, o tratamento com Imraldi pode dar origem a sintomas sugestivos de uma 
+síndrome tipo lúpus. Contacte o seu médico se ocorrerem sintomas tais como inesperada 
+erupção cutânea persistente, febre, dor nas articulações ou cansaço.  </li>
+</ul>
+<p>Crianças e adolescentes </p>
+<ul>
+<li>
+<p>Não utilizar Imraldi em crianças com artrite idiopática juvenil poliarticular, com idade inferior a 
+2 anos. </p>
+</li>
+<li>
+<p>Não utilizar a seringa pré-cheia de 40 mg se forem recomendadas doses diferentes de 40 mg. </p>
+</li>
+</ul>
+<p>Outros medicamentos e Imraldi </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Imraldi pode ser utilizado em conjunto com metotrexato ou com certos medicamentos 
+antirreumatismais modificadores da doença (sulfassalazina, hidroxicloroquina, leflunomida e 
+preparações injetáveis de sais de ouro), corticosteroides ou medicamentos analgésicos, incluindo 
+fármacos anti-inflamatórios não-esteroides (AINEs). </p>
+<p>Não deve tomar Imraldi com medicamentos contendo as substâncias ativas anacinra ou abatacept 
+devido ao risco elevado de infeções graves. Se tiver qualquer dúvida, por favor pergunte ao seu 
+médico. </p>
+<p>Gravidez e amamentação  </p>
+<ul>
+<li>
+<p>Deverá considerar a utilização de contraceção adequada para evitar a gravidez e continuar a 
+utilizá-la durante pelo menos 5 meses após a última injeção de Imraldi.  </p>
+</li>
+<li>
+<p>Se está grávida, se pensa que pode estar grávida ou se planeia engravidar, aconselhe-se com o 
+seu médico antes de utilizar esta terapêutica. </p>
+</li>
+<li>
+<p>Imraldi só deve ser utilizado durante a gravidez se necessário. </p>
+</li>
+<li>
+<p>De acordo com um estudo na gravidez, não houve risco mais elevado de malformações 
+congénitas quando a mãe recebeu adalimumab durante a gravidez, em comparação com mães 
+com a mesma doença que não receberam adalimumab. </p>
+</li>
+<li>
+<p>Imraldi pode ser utilizado durante a amamentação. </p>
+</li>
+<li>
+<p>Se durante a sua gravidez utilizar Imraldi, o seu bebé pode ter um risco superior de ter uma 
+infeção  </p>
+</li>
+<li>
+<p>É importante que diga ao médico do seu bebé e a outros profissionais de saúde que usou Imraldi 
+durante a sua gravidez antes que o seu bebé tome qualquer vacina. Para mais informação sobre 
+vacinação, ver secção “Advertências e precauções". </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Imraldi pode ter uma pequena influência na sua capacidade de conduzir, andar de bicicleta ou utilizar 
+máquinas. Depois de tomar Imraldi pode ter vertigens e alterações da visão. </p>
+<p>Imraldi contém sódio e sorbitol </p>
+<p>Sorbitol 
+Este medicamento contém 20 mg de sorbitol em cada seringa pré-cheia. Se foi informado pelo seu 
+médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>
+<p>Sódio 
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose de 0,8 ml, ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar imraldi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar imraldi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento sempre exatamente como indicado pelo seu médico ou farmacêutico. Fale 
+com o seu médico ou farmacêutico se tiver dúvidas. </p>
+<p>Adultos com artrite reumatoide, artrite psoriática, espondilite anquilosante ou espondilartrite axial sem 
+evidência radiográfica de espondilite anquilosante </p>
+<p>A seringa pré-cheia e a caneta pré-cheia de Imraldi só estão disponíveis numa dose de 40 mg. Por 
+conseguinte, não é possível administrar a seringa pré-cheia e a caneta pré-cheia de Imraldi a doentes 
+pediátricos que necessitem de uma dose inferior à dose completa de 40 mg. Caso uma dose alternativa 
+seja necessária, deve utilizar-se outras apresentações que disponibilizem esse tipo de opção. </p>
+<p>Imraldi é injetado debaixo da pele (via subcutânea). A dose habitual em adultos com artrite 
+reumatoide, espondilite anquilosante, espondilartrite axial sem evidência radiográfica de espondilite 
+anquilosante e em doentes com artrite psoriática é de 40 mg de adalimumab administrados em 
+semanas alternadas, numa dose única. </p>
+<p>Na artrite reumatoide, o metotrexato continua a ser utilizado enquanto se usa Imraldi. Se o seu médico 
+considerar que o metotrexato não é adequado, Imraldi pode ser usado isoladamente. </p>
+<p>Se tem artrite reumatoide e não usar metotrexato conjuntamente com Imraldi, o seu médico pode 
+decidir administrar 40 mg de adalimumab semanalmente ou 80 mg em semanas alternadas. </p>
+<p>Crianças, adolescentes e adultos com artrite idiopática juvenil poliarticular </p>
+<p>Crianças e adolescentes a partir dos 2 anos de idade com peso igual a 10 kg ou inferior a 30 kg </p>
+<p>A dose recomendada de Imraldi é de 20 mg em semanas alternadas. </p>
+<p>Crianças, adolescentes e adultos a partir dos 2 anos de idade com peso igual ou superior a 30 kg </p>
+<p>A dose recomendada de Imraldi é de 40 mg em semanas alternadas. </p>
+<p>Crianças, adolescentes e adultos com artrite relacionada com entesite </p>
+<p>Crianças, adolescentes a partir dos 6 anos de idade com peso igual a 15 kg e inferior a 30 kg </p>
+<p>A dose recomendada de Imraldi é de 20 mg em semanas alternadas. </p>
+<p>Crianças, adolescentes e adultos a partir dos 6 anos de idade com peso igual ou superior a 30 kg </p>
+<p>A dose recomendada de Imraldi é de 40 mg em semanas alternadas. </p>
+<p>Adultos com psoríase </p>
+<p>A dose habitual inicial em adultos com psoríase é de 80 mg (duas injeções de 40 mg num dia), seguida 
+de 40 mg administrados em semanas alternadas, uma semana após a dose inicial. Deve continuar a 
+injetar Imraldi de acordo com as indicações do seu médico. Se esta dose não apresentar um resultado 
+suficientemente bom, o seu médico pode aumentar a dose para 40 mg por semana ou 80 mg em 
+semanas alternadas. </p>
+<p>Crianças e adolescentes com psoríase em placas </p>
+<p>Crianças e adolescentes entre os 4 e os 17 anos de idade com peso igual a 15 kg ou inferior a 30 kg </p>
+<p>A dose recomendada de Imraldi é de uma dose inicial de 20 mg seguida de 20 mg uma semana após a 
+dose inicial. Depois disso, a dose habitual é de 20 mg em semanas alternadas. </p>
+<p>Crianças e adolescentes entre os 4 e os 17 anos de idade com peso igual ou superior a 30 kg </p>
+<p>A dose recomendada de Imraldi é de uma dose inicial de 40 mg seguida de 40 mg uma semana após a 
+dose inicial. Depois disso, a dose habitual é de 40 mg em semanas alternadas. </p>
+<p>Adultos com hidradenite supurativa </p>
+<p>A dose habitual inicial na hidradenite supurativa é de 160 mg (quatro injeções de 40 mg num dia ou 
+duas injeções de 40 mg por dia em dois dias consecutivos), seguida de uma dose de 80 mg (duas 
+injeções de 40 mg no mesmo dia) duas semanas mais tarde. Após mais duas semanas, continue com 
+uma dose de 40 mg semanalmente ou 80 mg em semanas alternadas, conforme prescrito pelo seu 
+médico. Recomenda-se que utilize diariamente uma solução de lavagem antisséptica nas áreas 
+afetadas. </p>
+<p>Adolescentes com hidradenite supurativa entre os 12 e os 17 anos de idade com peso igual ou superior 
+a 30 kg </p>
+<p>A dose recomendada de Imraldi é uma dose inicial de 80 mg (duas injeções de 40 mg num dia), 
+seguidos de 40 mg em semanas alternadas, uma semana após a dose inicial. Se tiver uma resposta 
+inadequada com Imraldi 40 mg em semanas alternadas, o seu médico pode aumentar a dose para 
+40 mg semanalmente ou 80 mg em semanas alternadas. </p>
+<p>Recomenda-se que utilize diariamente uma solução de lavagem antisséptica nas áreas afetadas. </p>
+<p>Adultos com doença de Crohn </p>
+<p>A dose habitual inicial na doença de Crohn é de 80 mg (duas injeções de 40 mg num dia), seguida de 
+40 mg em semanas alternadas, começando duas semanas após a dose inicial. Se é necessário um efeito 
+mais rápido, o seu médico pode prescrever uma dose inicial de 160 mg (quatro injeções de 40 mg num 
+dia ou duas injeções de 40 mg por dia em dois dias consecutivos), seguidos de 80 mg (duas injeções de 
+40 mg num dia), duas semanas após a dose inicial e depois disso 40 mg em semanas alternadas. Se 
+esta dose não funcionar suficientemente bem, o médico pode aumentar a dose para 40 mg por semana 
+ou 80 mg em semanas alternadas.  </p>
+<p>Crianças e adolescentes com doença de Crohn </p>
+<p>Crianças e adolescentes entre os 6 e os 17 anos de idade com peso inferior a 40 kg </p>
+<p>A dose habitual inicial é de 40 mg seguida de 20 mg duas semanas após a dose inicial. Se é necessária 
+uma resposta mais rápida, o seu médico pode prescrever uma dose inicial de 80 mg (duas injeções de 
+40 mg num dia) seguida de 40 mg duas semanas após a dose inicial. </p>
+<p>Depois disso, a dose habitual é de 20 mg em semanas alternadas. Se esta dose não apresentar um 
+resultado suficientemente bom, o seu médico pode aumentar a dose para 20 mg por semana. </p>
+<p>Crianças e adolescentes entre os 6 e os 17 anos de idade com peso igual ou superior a 40 kg </p>
+<p>A dose habitual inicial é de 80 mg (duas injeções de 40 mg num dia), seguida de 40 mg duas semanas 
+após a dose inicial. Se é necessária uma resposta mais rápida, o seu médico pode prescrever uma dose 
+inicial de 160 mg (quatro injeções de 40 mg num dia ou duas injeções de 40 mg por dia em dois dias 
+consecutivos), seguidos de 80 mg (duas injeções de 40 mg num dia), duas semanas após a dose inicial. </p>
+<p>Depois disso, a dose habitual é de 40 mg em semanas alternadas. Se esta dose não funcionar 
+suficientemente bem, o seu médico pode aumentar a frequência da dose para 40 mg por semana ou mg em semanas alternadas. </p>
+<p>Adultos com colite ulcerosa </p>
+<p>A dose habitual de Imraldi em adultos com colite ulcerosa é de 160 mg (quatro injeções de 40 mg num 
+dia ou duas injeções de 40 mg por dia em dois dias consecutivos) na Semana 0, e 80 mg (duas injeções 
+de 40 mg num dia) na Semana 2, e depois disso 40 mg em semanas alternadas. Se esta dose não 
+funcionar suficientemente bem, o seu médico pode aumentar a dose para 40 mg por semana ou 80 mg 
+em semanas alternadas. </p>
+<p>Crianças e adolescentes com colite ulcerosa </p>
+<p>Crianças e adolescentes a partir dos 6 anos de idade com peso inferior a 40 kg </p>
+<p>A dose habitual de Imraldi é de uma dose inicial de 80 mg (duas injeções de 40 mg num dia), seguida 
+de 40 mg (uma injeção de 40 mg) duas semanas após a dose inicial. Depois disso, a dose habitual é de 
+40 mg em semanas alternadas. </p>
+<p>Os doentes pediátricos que completem 18 anos de idade durante o tratamento com 40 mg em semanas 
+alternadas devem continuar com a dose prescrita. </p>
+<p>Crianças e adolescentes a partir dos 6 anos de idade com peso igual ou superior a 40 kg </p>
+<p>A dose habitual de Imraldi é de uma dose inicial de 160 mg (quatro injeções de 40 mg num dia ou 
+duas injeções de 40 mg por dia, em dois dias consecutivos), seguida de 80 mg (duas injeções de 40 mg 
+num dia) duas semanas após a dose inicial. Depois disso, a dose habitual é de 80 mg em semanas 
+alternadas. </p>
+<p>Os doentes pediátricos que completem 18 anos de idade durante o tratamento com 80 mg em semanas 
+alternadas devem continuar com a dose prescrita. </p>
+<p>Adultos com uveíte não infeciosa </p>
+<p>A dose habitual inicial em adultos com uveíte não infeciosa é de 80 mg (duas injeções de 40 mg num 
+dia), de 40 mg em semanas alternadas, uma semana após a dose inicial. Deve continuar a injetar 
+Imraldi durante o tempo que lhe foi indicado pelo seu médico. </p>
+<p>Na uveíte não infeciosa, pode continuar a utilizar corticosteroides ou outros medicamentos que 
+influenciam o sistema imunitário enquanto usa Imraldi. Imraldi pode ser usado isoladamente. </p>
+<p>Crianças e adolescentes com uveíte não infeciosa, crónica, a partir dos 2 anos de idade </p>
+<p>Crianças e adolescentes a partir dos 2 anos de idade com peso inferior a 30 kg  </p>
+<p>A dose habitual de Imraldi é de 20 mg em semanas alternadas com metotrexato. </p>
+<p>O médico da sua criança pode também prescrever uma dose inicial de 40 mg que pode ser 
+administrada uma semana antes do início da dose habitual. </p>
+<p>Crianças e adolescentes a partir dos 2 anos de idade com peso igual ou superior a 30 kg </p>
+<p>A dose habitual de Imraldi é de 40 mg em semanas alternadas com metotrexato. </p>
+<p>O seu médico pode também prescrever uma dose inicial de 80 mg que pode ser administrada uma 
+semana antes do início da dose habitual. </p>
+<p>Modo e via de administração </p>
+<p>Imraldi é administrado por injeção debaixo da pele (via subcutânea). Para instruções de utilização, ver 
+secção 7.<br />
+Se utilizar mais Imraldi do que deveria </p>
+<p>Se injetar acidentalmente Imraldi mais frequentemente do que deveria, contacte o seu médico ou 
+farmacêutico e explique que utilizou mais do que devia. Leve sempre consigo a embalagem exterior 
+do medicamento, mesmo que esteja vazia. </p>
+<p>Caso se tenha esquecido de utilizar Imraldi </p>
+<p>Caso se tenha esquecido de autoadministrar uma injeção, deve injetar a próxima dose de Imraldi logo 
+que se lembrar. Administre a dose seguinte conforme prescrito, como se não tivesse omitido a dose 
+anterior. </p>
+<p>Se parar de utilizar Imraldi </p>
+<p>A decisão de parar de utilizar Imraldi deve ser avaliada com o seu médico. Os seus sintomas podem 
+voltar após a interrupção do tratamento. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. A maioria dos efeitos secundários - é ligeira a moderada. No 
+entanto, alguns podem ser graves e requerer tratamento. Podem ocorrer efeitos secundários até 
+4 meses ou mais após a última injeção de Imraldi.  </p>
+<p>Procure urgentemente assistência médica se tiver algum dos seguintes sintomas: </p>
+<ul>
+<li>
+<p>pele muito irritada, comichão ou outros sinais de reação alérgica; </p>
+</li>
+<li>
+<p>inchaço da face, mãos, pés; </p>
+</li>
+<li>
+<p>dificuldades em respirar, em engolir; </p>
+</li>
+<li>
+<p>falta de ar durante o esforço ou quando deitado ou inchaço dos pés. </p>
+</li>
+</ul>
+<p>Informe logo que possível o seu médico se tiver algum dos seguintes efeitos secundários: </p>
+<ul>
+<li>
+<p>sinais de infeção tais como febre, má disposição, feridas, problemas dentários ou sensação de 
+ardor ao urinar; </p>
+</li>
+<li>
+<p>sensação de fraqueza ou cansaço; </p>
+</li>
+<li>
+<p>tosse; </p>
+</li>
+<li>
+<p>formigueiro; </p>
+</li>
+<li>
+<p>dormência; </p>
+</li>
+<li>
+<p>visão dupla; </p>
+</li>
+<li>
+<p>sensação de fraqueza nos braços ou pernas; </p>
+</li>
+<li>
+<p>inchaço ou ferida aberta que não cicatriza; </p>
+</li>
+<li>
+<p>sinais ou sintomas sugestivos de alterações sanguíneas tais como febre persistente, nódoas 
+negras, hemorragias, palidez </p>
+</li>
+</ul>
+<p>Os sintomas descritos acima podem ser sinais dos efeitos secundários descritos a seguir e que foram 
+observados com adalimumab: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>reações no local da injeção (incluindo dor, inchaço, vermelhidão ou comichão); </p>
+</li>
+<li>
+<p>infeções do trato respiratório (incluindo constipação, nariz a pingar, infeção sinusal, 
+pneumonia); </p>
+</li>
+<li>
+<p>dor de cabeça; </p>
+</li>
+<li>
+<p>dor abdominal (de barriga); </p>
+</li>
+<li>
+<p>náuseas e vómitos; </p>
+</li>
+<li>
+<p>erupção cutânea; </p>
+</li>
+<li>
+<p>dor nos músculos. </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>infeções graves (incluindo envenenamento do sangue e gripe); </p>
+</li>
+<li>
+<p>infeções intestinais (incluindo gastroenterite); </p>
+</li>
+<li>
+<p>infeções da pele (incluindo celulite e zona); </p>
+</li>
+<li>
+<p>infeções dos ouvidos; </p>
+</li>
+<li>
+<p>infeções na boca (incluindo infeções dentárias e constipações); </p>
+</li>
+<li>
+<p>infeções do sistema reprodutor; </p>
+</li>
+<li>
+<p>infeção do trato urinário; </p>
+</li>
+<li>
+<p>infeções fúngicas; </p>
+</li>
+<li>
+<p>infeções das articulações; </p>
+</li>
+<li>
+<p>tumores benignos; </p>
+</li>
+<li>
+<p>cancro da pele; </p>
+</li>
+<li>
+<p>reações alérgicas (incluindo alergia sazonal); </p>
+</li>
+<li>
+<p>desidratação; </p>
+</li>
+<li>
+<p>alterações do humor (incluindo depressão); </p>
+</li>
+<li>
+<p>ansiedade; </p>
+</li>
+<li>
+<p>dificuldade em adormecer; </p>
+</li>
+<li>
+<p>alterações neurológicas tais como prurido, comichão ou dormência; </p>
+</li>
+<li>
+<p>enxaqueca; </p>
+</li>
+<li>
+<p>sintomas de compressão da raiz nervosa (incluindo dor lombar e dor nas pernas); </p>
+</li>
+<li>
+<p>alterações da visão; </p>
+</li>
+<li>
+<p>inflamação dos olhos; </p>
+</li>
+<li>
+<p>inflamação das pálpebras e inchaço de olhos; </p>
+</li>
+<li>
+<p>vertigens (sensação de sala a andar à roda); </p>
+</li>
+<li>
+<p>sensação de batimento cardíaco rápido; </p>
+</li>
+<li>
+<p>tensão arterial alta; </p>
+</li>
+<li>
+<p>vermelhidão; </p>
+</li>
+<li>
+<p>hematoma (um inchaço sólido com sangue pisado); </p>
+</li>
+<li>
+<p>tosse; </p>
+</li>
+<li>
+<p>asma; </p>
+</li>
+<li>
+<p>dificuldade em respirar; </p>
+</li>
+<li>
+<p>hemorragia gastrointestinal; </p>
+</li>
+<li>
+<p>dispepsia (indigestão, inchaço, azia); </p>
+</li>
+<li>
+<p>doença de refluxo; </p>
+</li>
+<li>
+<p>síndrome de sicca (incluindo olhos e boca seca); </p>
+</li>
+<li>
+<p>comichão; </p>
+</li>
+<li>
+<p>erupção da pele com comichão; </p>
+</li>
+<li>
+<p>nódoas negras; </p>
+</li>
+<li>
+<p>inflamação da pele (tais como eczema); </p>
+</li>
+<li>
+<p>unhas das mãos e dos pés quebradiças; </p>
+</li>
+<li>
+<p>aumento de suor; </p>
+</li>
+<li>
+<p>perda de cabelo; </p>
+</li>
+<li>
+<p>início ou agravamento de psoríase; </p>
+</li>
+<li>
+<p>espasmos musculares; </p>
+</li>
+<li>
+<p>sangue na urina; </p>
+</li>
+<li>
+<p>perturbações renais; </p>
+</li>
+<li>
+<p>dor no peito; </p>
+</li>
+<li>
+<p>inchaço (acumulação de fluidos no corpo que causa inchaço dos tecidos afetados); </p>
+</li>
+<li>
+<p>febre; </p>
+</li>
+<li>
+<p>redução nas plaquetas sanguíneas aumentando o risco de hemorragia ou de nódoas negras; </p>
+</li>
+<li>
+<p>diminuição na cicatrização. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>infeções oportunistas (as quais incluem tuberculose e outras infeções que ocorrem quando a 
+resistência à doença está diminuída); </p>
+</li>
+<li>
+<p>infeções neurológicas (incluindo meningite viral); </p>
+</li>
+<li>
+<p>infeções oculares; </p>
+</li>
+<li>
+<p>infeções bacterianas; </p>
+</li>
+<li>
+<p>diverticulite (inflamação e infeção do intestino grosso); </p>
+</li>
+<li>
+<p>cancro, incluindo do sistema linfático (linfoma) e melanoma (um tipo de cancro da pele); </p>
+</li>
+<li>
+<p>perturbações do sistema imunitário que podem afetar os pulmões, pele e gânglios linfáticos 
+(mais frequentemente como uma doença chamada sarcoidose); </p>
+</li>
+<li>
+<p>vasculite (inflamação dos vasos sanguíneos); </p>
+</li>
+<li>
+<p>tremor; </p>
+</li>
+<li>
+<p>neuropatia (danos nos nervos); </p>
+</li>
+<li>
+<p>AVC; </p>
+</li>
+<li>
+<p>perda de audição, zumbido; </p>
+</li>
+<li>
+<p>sensação de batimento irregular do coração tal como palpitações; </p>
+</li>
+<li>
+<p>problemas no coração que podem causar falta de ar ou inchaço nos tornozelos; </p>
+</li>
+<li>
+<p>enfarte do miocárdio; </p>
+</li>
+<li>
+<p>quisto na parede de uma artéria maior, inflamação e coágulo de uma veia, bloqueio de um vaso 
+sanguíneo; </p>
+</li>
+<li>
+<p>doenças pulmonares causando falta de ar (incluindo inflamação); </p>
+</li>
+<li>
+<p>embolismo pulmonar (bloqueio de uma artéria no pulmão); </p>
+</li>
+<li>
+<p>derrame pleural (acumulação anormal de líquido no espaço pleural); </p>
+</li>
+<li>
+<p>inflamação do pâncreas que causa dor grave no abdómen e costas; </p>
+</li>
+<li>
+<p>dificuldade em engolir; </p>
+</li>
+<li>
+<p>edema facial; </p>
+</li>
+<li>
+<p>inflamação da vesícula, pedra na vesícula; </p>
+</li>
+<li>
+<p>fígado gordo (acumulação de gordura nas células do fígado); </p>
+</li>
+<li>
+<p>suores noturnos; </p>
+</li>
+<li>
+<p>escaras; </p>
+</li>
+<li>
+<p>colapso muscular anormal; </p>
+</li>
+<li>
+<p>lúpus eritematoso sistémico (incluindo inflamação da pele, coração, pulmão, articulações e 
+outros órgãos); </p>
+</li>
+<li>
+<p>interrupções de sono; </p>
+</li>
+<li>
+<p>impotência; </p>
+</li>
+<li>
+<p>inflamações. </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em 1.000 pessoas): </p>
+<ul>
+<li>
+<p>leucemia (cancro que afeta o sangue e a medula óssea); </p>
+</li>
+<li>
+<p>reação alérgica grave com choque; </p>
+</li>
+<li>
+<p>esclerose múltipla; </p>
+</li>
+<li>
+<p>alterações neurológicas (tais como inflamação do nervo ótico do olho e síndrome de Guillain-
+Barré, uma doença que pode causar fraqueza muscular, sensações anormais, formigueiro nos 
+braços e na parte superior do corpo); </p>
+</li>
+<li>
+<p>o coração deixa de bombear; </p>
+</li>
+<li>
+<p>fibrose pulmonar (cicatrizes no pulmão); </p>
+</li>
+<li>
+<p>perfuração intestinal; </p>
+</li>
+<li>
+<p>hepatite; </p>
+</li>
+<li>
+<p>reativação da hepatite B; </p>
+</li>
+<li>
+<p>hepatite autoimune (inflamação do fígado causada pelo próprio sistema imunitário do corpo); </p>
+</li>
+<li>
+<p>vasculite cutânea (inflamação dos vasos sanguíneos da pele); </p>
+</li>
+<li>
+<p>síndrome de Stevens-Johnson (sintomas iniciais incluindo indisposição, febre, dor de cabeça e 
+erupção cutânea); </p>
+</li>
+<li>
+<p>edema facial associado com reações alérgicas; </p>
+</li>
+<li>
+<p>eritema multiforme (erupção cutânea inflamatória); </p>
+</li>
+<li>
+<p>síndrome tipo lúpus; </p>
+</li>
+<li>
+<p>angioedema (inchaço localizado da pele); </p>
+</li>
+<li>
+<p>reação cutânea liquenoide (erupção na pele vermelho-púrpura com comichão). </p>
+</li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis): </p>
+<ul>
+<li>
+<p>linfoma hepatoesplénico de linfócitos T (um raro cancro de sangue que muitas vezes é fatal); </p>
+</li>
+<li>
+<p>carcinoma de células de Merkel (um tipo de cancro de pele); </p>
+</li>
+<li>
+<p>Sarcoma de Kaposi, um cancro raro relacionado com a infeção pelo vírus herpes humano 8. O 
+sarcoma de Kaposi aparece mais frequentemente na forma de lesões cutâneas de cor púrpura; </p>
+</li>
+<li>
+<p>insuficiência hepática; </p>
+</li>
+<li>
+<p>agravamento de uma doença chamada dermatomiosite (que corresponde a uma erupção cutânea 
+acompanhada de fraqueza muscular); </p>
+</li>
+<li>
+<p>Aumento de peso (para a maioria dos doentes, o aumento de peso foi pequeno). </p>
+</li>
+</ul>
+<p>Alguns efeitos secundários observados com adalimumab podem não ter sintomas e só podem ser 
+identificados através de análises ao sangue. Estes incluem: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>contagem diminuída dos glóbulos brancos; </p>
+</li>
+<li>
+<p>contagem diminuída dos glóbulos vermelhos; </p>
+</li>
+<li>
+<p>aumento dos lípidos no sangue; </p>
+</li>
+<li>
+<p>aumento das enzimas hepáticas. </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>contagem aumentada dos glóbulos brancos; </p>
+</li>
+<li>
+<p>contagem diminuída das plaquetas; </p>
+</li>
+<li>
+<p>aumento de ácido úrico no sangue; </p>
+</li>
+<li>
+<p>contagem anormal de sódio no sangue; </p>
+</li>
+<li>
+<p>contagem diminuída de cálcio no sangue; </p>
+</li>
+<li>
+<p>contagem diminuída de fosfato no sangue; </p>
+</li>
+<li>
+<p>nível de açúcar aumentado no sangue; </p>
+</li>
+<li>
+<p>valores aumentados de desidrogenase láctica no sangue; </p>
+</li>
+<li>
+<p>presença de autoanticorpos no sangue; </p>
+</li>
+<li>
+<p>baixo teor de potássio no sangue. </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>aumento de bilirrubina (análises de sangue ao fígado). </li>
+</ul>
+<p>Raros (podem afetar até 1 em 1.000 pessoas): </p>
+<ul>
+<li>contagem diminuída de glóbulos brancos, glóbulos vermelhos e plaquetas. </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar imraldi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar imraldi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo da embalagem exterior, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2° C - 8° C). Não congelar. </p>
+<p>Manter a seringa pré-cheia na embalagem exterior para proteger da luz. </p>
+<p>Conservação alternativa: </p>
+<p>Quando necessário (por exemplo, quando está a viajar), uma seringa pré-cheia de Imraldi, pode ser 
+conservada até um período máximo de 28 dias à temperatura ambiente (até 25 °C) - ter a certeza que a 
+protege da luz. Uma vez retirada do frigorífico para a temperatura ambiente, a seringa tem de ser 
+utilizada dentro de 28 dias ou eliminada, mesmo que a volte a colocar no frigorífico. 
+Deve registar a data em que a seringa foi inicialmente retirada do frigorífico e a data em que deve ser 
+eliminada. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Imraldi </p>
+<ul>
+<li>A substância ativa é adalimumab. </li>
+<li>Os outros componentes são citrato de sódio, ácido cítrico mono-hidratado, histidina, cloridrato 
+de histidina mono-hidratado, sorbitol, polissorbato 20 e água para preparações injetáveis. </li>
+</ul>
+<p>Qual o aspeto de Imraldi e conteúdo da embalagem </p>
+<p>Imraldi 40 mg solução injetável em seringa pré-cheia é fornecido sob a forma de 0,8 ml de uma 
+solução límpida a opalescente e incolor a castanho pálido. </p>
+<p>Imraldi está disponível em embalagens contendo 1, 2, 4 ou 6 seringa(s) pré-cheia(s) (vidro tipo I) com 
+uma agulha de aço inoxidável, uma proteção de agulha rígida, um êmbolo de borracha, uma haste de 
+êmbolo, um corpo de proteção e uma flange para dedo para utilização do doente e 2, 2, 4 ou 
+6 compressas embebidas em álcool fornecidas nas respetivas embalagens. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 2616 LR Delft 
+Países Baixos </p>
+<p>Fabricante 
+Biogen Netherlands B.V. 
+Prins Mauritslaan 1171 LP Badhoevedorp 
+Países Baixos </p>
+<p>Samsung Bioepis NL B.V. 
+Olof Palmestraat 2616 LR Delft 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+de Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien<br />
+Biogen Belgium NV/S.A<br />
+Tél/Tel: + 32 (0)2 808 5Lietuva<br />
+Biogen Lithuania UAB 
+Tel: +370 52 07 91<br />
+България<br />
+Ewopharma AG Representative Office 
+Teл.: + 359 249 176<br />
+Luxembourg/Luxemburg<br />
+Biogen Belgium NV/SA<br />
+Tél/Tel: +35 227 772<br />
+Česká republika<br />
+Biogen (Czech Republic) s.r.o.<br />
+Tel: + 420 228 884<br />
+Magyarország<br />
+Biogen Hungary Kft.<br />
+Tel.: + 36 1 848 04<br />
+Danmark<br />
+Biogen (Denmark) A/S<br />
+Tlf: + 45 78 79 37<br />
+Malta<br />
+Pharma.MT Ltd 
+Tel: + 356 27 78 15<br />
+Deutschland<br />
+Biogen GmbH<br />
+Tel: + 49 (0)89 996 177 Nederland<br />
+Biogen Netherlands B.V.<br />
+Tel: + 31 (0)20 808 02<br />
+Eesti<br />
+Biogen Estonia OÜ 
+Tel: + 372 6 68 30<br />
+Norge<br />
+Biogen Norway AS<br />
+Tlf: + 47 21 93 95  </p>
+<p>Ελλάδα<br />
+Genesis Pharma S.A. 
+Τηλ: + 30 211 176 8Österreich<br />
+Biogen Austria GmbH<br />
+Tel: + 43 (0)1 267 51<br />
+España<br />
+Biogen Spain, S.L.<br />
+Tel: + 34 931 790<br />
+Polska<br />
+Biogen Poland Sp. z o.o.<br />
+Tel.: + 48 22 116 86<br />
+France<br />
+Biogen France SAS<br />
+Tél: + 33 (0)1 776 968<br />
+Portugal<br />
+Biogen Portugal Sociedade Farmacêutica,<br />
+Unipessoal, Lda<br />
+Tel: + 351 308 800<br />
+Hrvatska<br />
+Ewopharma d.o.o 
+Tel: + 385 (0)1 777 64<br />
+România<br />
+Ewopharma AG Representative Office 
+Tel: + 40 377 881<br />
+Ireland<br />
+Biogen Idec (Ireland) Ltd.<br />
+Tel: +353 (0)1 513 33<br />
+Slovenija<br />
+Biogen Pharma d.o.o.<br />
+Tel: + 386 (0)1 888 81<br />
+Ísland<br />
+Icepharma hf. 
+Sími: + 354 800 9 
+Slovenská republika<br />
+Biogen Slovakia s.r.o.<br />
+Tel: + 421 (0)2 333 257<br />
+Italia<br />
+Biogen Italia s.r.l.<br />
+Tel: + 39 (0)6 899 701<br />
+Suomi/Finland<br />
+Biogen Finland Oy<br />
+Puh/Tel: + 358 (0)9 427 041<br />
+Κύπρος<br />
+Genesis Pharma (Cyprus) Ltd 
+Τηλ: + 357 22 00 04<br />
+Sverige<br />
+Biogen Sweden AB<br />
+Tel: +46 (0)8 525 038 Latvija 
+Biogen Latvia SIA 
+Tel: + 371 66 16 40<br />
+United Kingdom (Northern Ireland) 
+Biogen Idec (Ireland) Ltd. 
+Tel: +44 (0)20 360 886<br />
+Este folheto foi revisto pela última vez em </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -2103,6 +3273,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-ef587583f9868c465778255848bcb8dd"
 * entry[0].resource = composition-da-ef587583f9868c465778255848bcb8dd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpef587583f9868c465778255848bcb8dd"
+* entry[=].resource = mpef587583f9868c465778255848bcb8dd
+                            
+                    
+Instance: bundlepackageleaflet-pt-ef587583f9868c465778255848bcb8dd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imraldi Package Leaflet for language pt"
+Description: "ePI document Bundle for imraldi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-ef587583f9868c465778255848bcb8dd"
+* entry[0].resource = composition-pt-ef587583f9868c465778255848bcb8dd
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpef587583f9868c465778255848bcb8dd"
@@ -2204,6 +3396,18 @@ RuleSet: ef587583f9868c465778255848bcb8ddListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-ef587583f9868c465778255848bcb8dd) // imraldi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -747,6 +747,328 @@ bortskaffe medicinrester. </p>
 
 
 
+Instance: composition-pt-f39d85b5533e098d34a976dedd3b1e91
+InstanceOf: CompositionUvEpi
+Title: "Composition for ganirelix Package Leaflet"
+Description:  "Composition for ganirelix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf39d85b5533e098d34a976dedd3b1e91)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ganirelix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Ganirelix Gedeon Richter e para que é utilizado  </li>
+<li>O que precisa de saber antes de utilizar Ganirelix Gedeon Richter  </li>
+<li>Como utilizar Ganirelix Gedeon Richter  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Ganirelix Gedeon Richter  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ganirelix e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ganirelix e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ganirelix Gedeon Richter contém a substância ativa ganirelix e pertence a um grupo de medicamentos 
+chamados “hormonas de libertação anti gonadotrofina" que atuam contra as ações da hormona de 
+libertação da gonadotrofina (GnRH) fisiológica. A GnRH regula a libertação das gonadotrofinas 
+(hormona luteinizante (LH) e hormona folículo-estimulante (FSH)). As gonadotrofinas desempenham 
+um importante papel na fertilidade e reprodução humanas. Nas mulheres, a FSH é necessária para o 
+crescimento e desenvolvimento dos folículos nos ovários. Os folículos são pequenos sacos redondos 
+que contêm os óvulos. A LH é necessária para a libertação dos óvulos maduros a partir dos folículos e 
+ovários (isto é, a ovulação). Ganirelix Gedeon Richter inibe a ação da GnRH, resultando 
+especialmente na supressão da libertação da LH. </p>
+<p>Ganirelix Gedeon Richter é utilizado para 
+Em mulheres sujeitas a técnicas de reprodução assistida, incluindo fertilização in vitro (FIV) e outros 
+métodos, ocasionalmente pode ocorrer uma ovulação demasiado cedo causando uma redução 
+significativa das hipóteses de engravidar. Ganirelix Gedeon Richter é usado para prevenir o pico 
+prematuro de LH que pode causar esta libertação prematura dos óvulos. 
+Em estudos clínicos, ganirelix foi utilizado com a hormona folículo-estimulante (FSH) recombinante 
+ou a corifolitropina alfa, um estimulante folicular com uma longa duração de ação. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ganirelix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ganirelix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Ganirelix Gedeon Richter 
+- se tem alergia ao ganirelix ou a qualquer outro componente deste medicamento (indicados na 
+secção 6); 
+- se tem hipersensibilidade à hormona de libertação da gonadotrofina (GnRH) ou a um análogo da 
+GnRH; 
+- se tem uma doença moderada ou grave no fígado ou nos rins; 
+- se estiver grávida ou a amamentar. </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Ganirelix Gedeon Richter. </p>
+<p>Reações alérgicas 
+Se tiver uma alergia ativa, por favor informe o seu médico. O seu médico decidirá, conforme a 
+gravidade da situação, se será necessária uma monitorização adicional durante o tratamento. Foram 
+notificados casos de reações alérgicas, logo a partir da primeira dose. 
+Foram notificadas reações alérgicas, tanto generalizadas como locais, incluindo erupções na pele 
+(urticária), inchaço da face, lábios, língua e/ou garganta que podem causar dificuldade em respirar e/ou 
+engolir (angiedema e/ou anafilaxia). (ver também secção 4.). Se tiver uma reação alérgica, pare de 
+utilizar Ganirelix Gedeon Richter e procure assistência médica imediata. </p>
+<p>Síndrome de hiperestimulação ovárica (SHO) 
+Durante ou após a estimulação hormonal dos ovários, pode ocorrer a síndrome de hiperestimulação 
+ovárica. Esta síndrome está relacionada com o processo de estimulação com as gonadotrofinas. Por 
+favor, leia o folheto informativo do medicamento com gonadotrofina que lhe foi prescrito. </p>
+<p>Nascimentos múltiplos e malformações à nascença 
+A incidência de malformações congénitas após técnicas de reprodução assistida pode ser ligeiramente 
+maior comparativamente à incidência após conceções espontâneas. Pensa-se que esta incidência 
+ligeiramente mais elevada esteja relacionada com características das doentes sujeitas a tratamento de 
+fertilidade (p. ex. idade da mulher, características do esperma) e à maior incidência de gestações 
+múltiplas após técnicas de reprodução assistida. A incidência de malformações congénitas após 
+técnicas de reprodução assistida usando ganirelix não é diferente da observada após a utilização de 
+outros análogos da GnRH no decorrer de técnicas de reprodução assistida. </p>
+<p>Complicações na gravidez 
+Há um ligeiro aumento do risco de gravidez fora do útero (uma gravidez ectópica) em mulheres com 
+lesões nas trompas de falópio. </p>
+<p>Mulheres com peso inferior a 50 kg ou superior a 90 kg 
+A eficácia e a segurança de ganirelix não foram estabelecidas em mulheres com peso inferior a 50 kg 
+ou superior a 90 kg. Consulte o seu médico para informação adicional. </p>
+<p>Crianças e adolescentes 
+Não existe utilização relevante de Ganirelix Gedeon Richter em crianças ou adolescentes. </p>
+<p>Outros medicamentos e Ganirelix Gedeon Richter 
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. </p>
+<p>Gravidez, amamentação e fertilidade 
+Ganirelix Gedeon Richter deve ser utilizado durante a estimulação ovárica controlada para técnicas de 
+reprodução assistida (TRA).<br />
+Não utilizar Ganirelix Gedeon Richter durante a gravidez e aleitamento. </p>
+<p>Consulte o seu médico ou farmacêutico antes de utilizar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Não foram estudados os efeitos de Ganirelix Gedeon Richter sobre a capacidade de conduzir e utilizar 
+máquinas. </p>
+<p>Ganirelix Gedeon Richter contém sódio 
+Este medicamento contém menos de 1 mmol de sódio (23 mg) por injeção, ou seja, é praticamente 
+“isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ganirelix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ganirelix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas.  </p>
+<p>Ganirelix Gedeon Richter é usado como parte do tratamento das técnicas de reprodução assistida 
+(TRA), incluindo a fertilização in vitro (FIV). </p>
+<p>A estimulação ovárica com a hormona folículo-estimulante (FSH) ou corifolitropina pode ter início no 
+2ºou 3º dia da menstruação. Ganirelix Gedeon Richter (0,25 mg) deverá ser injetado na camada de 
+gordura imediatamente debaixo da pele, uma vez por dia, com início no 5º ou 6º dia da estimulação. 
+Com base na sua resposta ovárica, o seu médico poderá decidir iniciar o tratamento noutro dia. </p>
+<p>Ganirelix Gedeon Richter e a FSH devem ser administrados aproximadamente à mesma hora. No 
+entanto, as preparações não devem ser misturadas e devem ser administradas em locais de injeção 
+diferentes. </p>
+<p>O tratamento diário com Ganirelix Gedeon Richter deve ser continuado até ao dia em que se consigam 
+obter folículos suficientes de dimensão adequada. A maturação final dos óvulos nos folículos pode ser 
+induzida pela administração de gonadotrofina coriónica humana (hCG).<br />
+O intervalo de tempo entre duas injeções de Ganirelix Gedeon Richter, assim como o tempo entre a 
+última injeção de Ganirelix Gedeon Richter e a injeção de hCG não deve exceder 30 horas; caso 
+contrário, pode ocorrer uma ovulação prematura (isto é, libertação dos óvulos). 
+Deste modo, quando a administração de Ganirelix Gedeon Richter é feita de manhã, o tratamento com 
+Ganirelix Gedeon Richter deve ser continuado ao longo de todo o período de tratamento com a 
+gonadotrofina, incluindo o dia de desencadeamento da ovulação.<br />
+Quando a administração de Ganirelix Gedeon Richter é feita à tarde, a última injeção de Ganirelix 
+Gedeon Richter deve ser dada na tarde anterior ao dia de desencadeamento da ovulação. </p>
+<p>Instruções de utilização<br />
+Antes da administração deste medicamento, é muito importante que leia atentamente e siga 
+cuidadosamente as instruções detalhadas de utilização fornecidas no final deste folheto informativo. </p>
+<p>Local da injeção 
+Ganirelix Gedeon Richter apresenta-se em seringas pré-cheias e deve ser injetado lentamente, na 
+camada de gordura imediatamente debaixo da pele, de preferência na parte superior da perna. 
+Inspecione a solução antes de usar. Não a utilize se contiver partículas ou não se encontrar límpida. 
+Pode observar bolha(s) de ar na seringa pré-cheia. Isto é expectável e não é necessária a remoção da(s) 
+bolha(s) de ar. Se a injeção for administrada por si própria ou pelo seu companheiro, siga 
+cuidadosamente as instruções abaixo e no final do Folheto Informativo. Não misture Ganirelix Gedeon 
+Richter com outros medicamentos. </p>
+<p>Preparação do local da injeção 
+Lave cuidadosamente as mãos com água e sabão. O local de injeção deve ser limpo com um 
+desinfetante (por exemplo álcool) de modo a remover as bactérias da superfície. Limpe cerca de 5 cm 
+à volta do local onde será introduzida a agulha e deixe o desinfetante secar, pelo menos durante um 
+minuto, antes de iniciar a administração. </p>
+<p>Inserção da agulha 
+Retire a proteção da agulha. Faça uma prega grande de pele entre o indicador e o polegar. A agulha 
+deve ser inserida na base da pele apertada fazendo um ângulo de 45º com a superfície da pele. Altere o 
+local de injeção a cada administração. </p>
+<p>Verificação da posição correta da agulha 
+Puxe o êmbolo suavemente para trás para verificar se a agulha está corretamente posicionada. 
+Qualquer sangue aspirado para a seringa significa que a ponta da agulha penetrou num vaso 
+sanguíneo. Se isto acontecer, não injete Ganirelix Gedeon Richter, retire a seringa, cubra o local da 
+injeção com uma compressa embebida em desinfetante e comprima-o; a hemorragia deverá parar 
+dentro de um ou dois minutos. Não utilize esta seringa e elimine-a adequadamente. Recomece a 
+administração com uma nova seringa. </p>
+<p>Injeção da solução 
+Logo que a agulha se encontre corretamente posicionada, empurre o êmbolo lentamente e com 
+firmeza, para que a solução seja injetada corretamente sem que ocorra lesão da pele. Empurre o 
+êmbolo para baixo até que a seringa esteja vazia e aguarde 5 segundos. </p>
+<p>Remoção da seringa 
+Puxe a seringa rapidamente e faça pressão no local com uma compressa embebida em desinfetante. 
+Use a seringa pré-cheia apenas uma vez. </p>
+<p>Se utilizar mais Ganirelix Gedeon Richter do que deveria 
+Contacte o seu médico. </p>
+<p>Caso se tenha esquecido de utilizar Ganirelix Gedeon Richter 
+Se se esqueceu de administrar uma dose, deve fazê-lo logo que possível. 
+Não injete uma dose a dobrar para compensar uma dose que se esqueceu de injetar. 
+Se o esquecimento for superior a 6 horas (o intervalo entre as duas injeções seria, portanto, superior a 
+30 horas), administre a dose logo que possível e contacte o seu médico para aconselhamento adicional.  </p>
+<p>Se parar de utilizar Ganirelix Gedeon Richter 
+Não pare de utilizar Ganirelix Gedeon Richter a não ser por indicação do seu médico, uma vez que 
+pode afetar o resultado do seu tratamento.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>A possibilidade de ter um efeito indesejável é descrita pelas seguintes categorias: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 mulheres) 
+− 
+Reações na pele no local da injeção (principalmente vermelhidão, com ou sem inchaço). A 
+reação local desaparece normalmente nas 4 horas após a administração. </p>
+<p>Pouco frequentes (podem afetar até 1 em 100 mulheres) 
+− 
+Dor de cabeça 
+− 
+Náuseas 
+− 
+Sensação de mal-estar geral </p>
+<p>Muito raros (podem afetar até 1 em 10.000 mulheres) 
+− 
+Foram observadas reações alérgicas logo a partir da primeira dose. </p>
+<ul>
+<li>
+<p>Erupção na pele </p>
+</li>
+<li>
+<p>Inchaço da face </p>
+</li>
+<li>
+<p>Dificuldade em respirar (dispneia) </p>
+</li>
+<li>
+<p>Inchaço da face, lábios, língua, e/ou garganta que pode causar dificuldade em respirar 
+e/ou engolir (angiedema e/ou anafilaxia) </p>
+</li>
+<li>
+<p>Erupções na pele (urticária) 
+− 
+Foi notificado o agravamento de uma erupção na pele pré-existente (eczema) numa mulher após 
+a primeira dose de ganirelix. </p>
+</li>
+</ul>
+<p>Para além destes, foram notificados efeitos indesejáveis que se sabe estarem relacionados com o 
+tratamento da hiperestimulação ovárica controlada (por ex. dor abdominal, síndrome de 
+hiperestimulação ovárica (SHO), gravidez ectópica (quando o embrião se desenvolve fora do útero) e 
+aborto (consulte o folheto informativo do medicamento contendo FSH que lhe foi prescrito). </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ganirelix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ganirelix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior, 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Não congelar. 
+Conservar na embalagem de origem para proteger da luz. </p>
+<p>Inspecione a seringa antes de usar. Utilize apenas seringas com soluções límpidas, isentas de partículas 
+e de embalagens não danificadas. </p>
+<p>Cada seringa pré-cheia destina-se apenas a uma única injeção. </p>
+<p>Compressas com álcool, compressas de gaze e recipiente para objetos cortantes são necessários para a 
+administração deste medicamento, mas não são fornecidos na embalagem. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ganirelix Gedeon Richter<br />
+- A substância ativa é ganirelix (0,25 mg em 0,5 ml de solução) 
+- Os outros componentes são o ácido acético glacial, manitol (E 421), água para preparações 
+injetáveis. O pH (uma medida de acidez) pode ter sido ajustado com hidróxido de sódio (ver 
+secção 2 “Ganirelix Gedeon Richter contém sódio"). </p>
+<p>Qual o aspeto de Ganirelix Gedeon Richter e conteúdo da embalagem 
+Ganirelix Gedeon Richter é uma solução injetável (injetável) límpida e incolor. O medicamento é 
+acondicionado numa seringa de vidro com agulha de aço inoxidável, fechada com um êmbolo e 
+fornecida com uma haste de êmbolo. A agulha de injeção é fornecida com uma proteção de agulha 
+rígida. </p>
+<p>Ganirelix Gedeon Richter está disponível em embalagens de 1 seringa pré-cheia ou 6 seringas 
+pré-cheias. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante<br />
+Gedeon Richter Plc. 
+Gyömrői út 19-21. 1103 Budapeste 
+Hungria </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -788,6 +1110,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-f39d85b5533e098d34a976dedd3b1e91"
 * entry[0].resource = composition-da-f39d85b5533e098d34a976dedd3b1e91
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf39d85b5533e098d34a976dedd3b1e91"
+* entry[=].resource = mpf39d85b5533e098d34a976dedd3b1e91
+                            
+                    
+Instance: bundlepackageleaflet-pt-f39d85b5533e098d34a976dedd3b1e91
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ganirelix Package Leaflet for language pt"
+Description: "ePI document Bundle for ganirelix Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-f39d85b5533e098d34a976dedd3b1e91"
+* entry[0].resource = composition-pt-f39d85b5533e098d34a976dedd3b1e91
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpf39d85b5533e098d34a976dedd3b1e91"
@@ -889,6 +1233,18 @@ RuleSet: f39d85b5533e098d34a976dedd3b1e91ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-f39d85b5533e098d34a976dedd3b1e91) // ganirelix pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

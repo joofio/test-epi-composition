@@ -1082,6 +1082,555 @@ Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale
 
 
 
+Instance: composition-pt-4e8e0c5f72dbc27f3ff2eb4a522fe300
+InstanceOf: CompositionUvEpi
+Title: "Composition for torisel Package Leaflet"
+Description:  "Composition for torisel Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4e8e0c5f72dbc27f3ff2eb4a522fe300)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - torisel"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Torisel e para que é utilizado
+2. O que precisa de saber antes de utilizar Torisel
+3. Como utilizar Torisel
+4. Efeitos indesejáveis possíveis
+5. Como conservar Torisel
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é torisel e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é torisel e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Torisel contém a substância ativa temsirolímus.
+Torisel é um inibidor seletivo da enzima mTOR (alvo da rapamicina do mamífero) que bloqueia o 
+crescimento e a divisão das células tumorais.
+Torisel é utilizado para tratar os seguintes tipos de cancro no adulto:
+
+Cancro avançado do rim (cancro renal).
+
+Linfoma das células do manto já com tratamentos anteriores, um tipo de cancro que afeta os 
+gânglios linfáticos.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar torisel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar torisel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não utilize Torisel</h2>
+<p>se tem alergia ao temsirolímus, ao polissorbato 80 ou a qualquer outro componente (indicados 
+na secção 6).
+-
+se tem alergia ao sirolímus (usado para prevenir a rejeição do organismo a rins transplantados), 
+uma vez que o sirolímus resulta da libertação do temsirolímus no organismo.
+-
+se tem linfoma das células do manto e problemas de fígado.
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Torisel
+-
+se tem alergia a anti-histamínicos ou não pode utilizar anti-histamínicos por outras razões 
+médicas. Os anti-histamínicos são dados para ajudar a prevenir uma reação alérgica ao Torisel, 
+incluindo algumas reações alérgicas que podem pôr a vida em risco, e reações alérgicas fatais 
+raras. Fale com o seu médico sobre as alternativas disponíveis.
+40
+-
+se tem ou teve tumores no cérebro ou na coluna vertebral, problemas de hemorragias ou 
+nódoas negras, ou se estiver a tomar medicamentos para evitar a coagulação do sangue 
+(tais como varfarina e acenocumarol). O Torisel pode aumentar o risco de hemorragia no 
+cérebro. Fale com o seu médico se está a tomar medicamentos que tornam o sangue mais fino, 
+ou se tiver hemorragias ou nódoas negras enquanto estiver a tomar Torisel.
+-
+se tiver falta de ar, tosse e/ou febre. Torisel pode enfraquecer o seu sistema imunitário. 
+Enquanto estiver a utilizar Torisel pode ter um maior risco de contrair uma infeção do sangue, 
+pele, trato respiratório superior (incluindo pneumonia) e/ou do trato urinário. Fale com o seu 
+médico se tiver novos sintomas ou agravamento de sintomas já existentes, ou se estiver a tomar 
+ou tiver tomado recentemente medicamentos que enfraqueçam o seu sistema imunitário.
+-
+se tem ou teve inflamação dos pulmões. Torisel pode causar pneumonite intersticial 
+não-específica. Alguns doentes não tiveram sintomas, ou tiveram sintomas muito ligeiros. Por 
+este motivo, o seu médico pode recomendar uma avaliação dos pulmões por tomografia 
+computorizada ou radiografia ao tórax, antes e durante o seu tratamento com Torisel. Informe o 
+seu médico de imediato sobre qualquer novo sintoma respiratório ou agravamento de sintomas 
+já existentes, tais como falta de ar ou dificuldade em respirar.
+-
+se ingerir bebidas alcoólicas ou for alcoólico. Torisel contém álcool e pode ser prejudicial a 
+quem ingira bebidas alcoólicas ou seja alcoólico. Fale com o seu médico se tiver problemas de 
+alcoolismo ou ingerir bebidas alcoólicas (ver secção “Torisel contém álcool").
+-
+se tem ou teve problemas de rins. O seu médico irá monitorizar a função dos seus rins.
+-
+se tem ou teve problemas no fígado. Informe o seu médico se sentir algum dos seguintes 
+sinais e sintomas de problemas no fígado durante o tratamento com Torisel: comichão, olhos ou 
+pele amarelados, urina escura e dor ou desconforto na zona superior direita do estômago. O seu 
+médico deverá fazer análises ao sangue para verificar a função do seu fígado, e poderá, então, 
+decidir diminuir a dose de Torisel.
+-
+se tem ou teve níveis de colesterol alto. Torisel pode aumentar os níveis de triglicéridos e/ou 
+do colesterol e este aumento pode necessitar de tratamento com agentes que diminuam os 
+lípidos (medicamentos utilizados na redução do colesterol no sangue).
+-
+se vai ser submetido a uma intervenção cirúrgica ou se tiver sido operado recentemente.
+Torisel pode aumentar o risco de problemas de cicatrização. Normalmente, o seu tratamento 
+com Torisel será interrompido, se vai ser submetido a uma operação. O seu médico irá decidir 
+quando deve iniciar Torisel novamente.
+-
+se necessitar de ser vacinado durante o tratamento com Torisel. A vacinação pode ser 
+menos eficaz ou o uso de determinadas vacinas deve ser evitado durante o tratamento com 
+Torisel.
+-
+se tem idade superior a 65 anos. Pode estar mais sujeito a determinados efeitos indesejáveis
+como inchaço da face, diarreia, pneumonia, ansiedade, depressão, dificuldade em respirar, 
+diminuição do número de glóbulos brancos no sangue, dores musculares, alteração do paladar, 
+infeção das vias respiratórias superiores, líquido à volta dos pulmões, feridas e inflamação na 
+boca e/ou no aparelho digestivo, corrimento nasal, tonturas e infeções.
+
+Torisel pode aumentar os níveis de glucose no sangue e agravar a diabetes mellitus. Tal 
+pode resultar na necessidade de insulina e/ou terapêutica com antidiabético oral. Informe o seu 
+médico se sentir sede excessiva ou aumento na frequência e quantidade de micção.
+41
+
+Torisel pode diminuir o número de células do sangue que ajudam o sangue a coagular e a 
+resistir às infeções. Isto pode aumentar o risco de hemorragias/nódoas negras e infeção (ver 
+secção “Efeitos indesejáveis possíveis").
+
+se tem ou teve problemas nos olhos tais como cataratas. O seu médico pode pedir um exame 
+visual antes ou durante o tratamento com Torisel.
+
+se está a receber Torisel, pode ter um risco aumentado de desenvolver cancros, tais como 
+cancros da pele e cancros dos gânglios linfáticos (linfoma).
+
+se está a receber Torisel, pode ter um risco aumentado de ataque cardíaco. Informe o seu 
+médico caso tenha sintomas tais como dor ou sensação de pressão no peito, nos braços, ombros 
+ou maxilar, falta de ar, enjoos (náuseas), ansiedade, suores ou tonturas.
+Fale com o seu médico, farmacêutico ou enfermeiro caso tenha alguma preocupação.
+Crianças e adolescentes
+Este medicamento não se destina a crianças e adolescentes com idade inferior a 18 anos uma vez que 
+o cancro avançado do rim e o linfoma das células do manto não são relevantes nestes doentes, e não 
+teve efeito noutros cancros.
+Outros medicamentos e Torisel
+Informe o seu médico ou farmacêutico se estiver a tomar ou tiver tomado recentemente outros 
+medicamentos. 
+Alguns medicamentos podem interferir com a decomposição ou metabolização de Torisel, podendo 
+ser necessário um ajuste da dose de Torisel. Em particular, deve informar o seu médico ou 
+farmacêutico se estiver a tomar algum dos seguintes medicamentos:
+-
+inibidores da protease utilizados no tratamento do Vírus da Imunodeficiência Humana (VIH)
+-
+antibióticos (incluindo a rifampicina) ou medicamentos antifúngicos (incluindo itraconazol, 
+cetoconazol e voriconazol) utilizados no tratamento de infeções
+-
+nefazodona ou inibidores seletivos da recaptação da serotonina utilizados no tratamento da 
+depressão
+-
+medicamentos antiepiléticos, incluindo a carbamazepina, fenitoína e fenobarbital
+-
+rifabutina utilizada no tratamento de infeções em indivíduos com VIH e outras doenças
+-
+medicamentos à base de plantas e produtos naturais contendo erva de S. João ou hipericão
+(Hypericum perforatum) utilizados no tratamento da depressão ligeira
+-
+inibidores da enzima de conversão da angiotensina (IECA) (tais como enalapril, ramipril, 
+lisinopril) ou um bloqueador dos canais de cálcio (tal como a amlodipina) utilizados no 
+tratamento da pressão arterial elevada ou outros problemas cardiovasculares
+-
+medicamentos anfifílicos utilizados no tratamento de arritmias cardíacas (tais como a 
+amiodarona), ou estatinas utilizadas para tratar o colesterol elevado
+-
+sunitinib usado para tratar o cancro do rim
+-
+medicamentos que são substratos da gp-P (tais como digoxina, vincristina, colchicina, 
+dabigatrano, lenalidomida, paclitaxel)
+-
+Canabidiol (utilizado, por exemplo, no tratamento de convulsões)
+Torisel com alimentos e bebidas
+A toranja e o sumo de toranja podem aumentar as concentrações sanguíneas de Torisel e devem ser 
+evitados.
+Gravidez e amamentação
+42
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de receber este medicamento.
+Torisel não foi estudado em mulheres grávidas e não pode ser utilizado durante a gravidez, a menos 
+que seja claramente necessário. 
+Mulheres em risco de engravidar devem evitar uma gravidez utilizando um método contracetivo eficaz 
+durante o tratamento com Torisel. Homens com companheiras em risco de engravidar devem utilizar 
+métodos contracetivos medicamente aceitáveis enquanto estiverem a receber Torisel. 
+As mulheres não devem amamentar durante o tratamento com Torisel, uma vez que este pode 
+interferir com o crescimento e desenvolvimento do bebé.
+Torisel contém álcool (etanol). Se estiver grávida ou a amamentar, deve falar com o seu médico ou 
+farmacêutico antes de tomar este medicamento.
+Torisel contém propilenoglicol. Se está grávida, não tome este medicamento a menos que seja
+recomendado pelo seu médico (ver secção “Torisel contém propilenoglicol"). O propilenoglicol pode 
+passar para o leite materno, se está a amamentar, não tome este medicamento a menos que 
+recomendado pelo seu médico (ver secção “Torisel contém propilenoglicol").
+Condução de veículos e utilização de máquinas
+É improvável que Torisel influencie a capacidade de conduzir e utilizar máquinas. No entanto, sentir-
+se ou estar indisposto (náuseas e vómitos) e dificuldade em adormecer ou permanecer a dormir são 
+efeitos indesejáveis muito frequentes. Se se sentir indisposto (náuseas e vómitos), ou se tiver 
+dificuldade em adormecer ou permanecer a dormir tenha precauções especiais quando conduzir ou 
+utilizar máquinas.
+A quantidade de álcool neste medicamento pode afetar a capacidade de conduzir e utilizar máquinas 
+(ver secção abaixo “Torisel contém etanol [álcool]"), nos doentes que recebem a dose mais alta de 
+Torisel para o tratamento do linfoma das células do manto.
+Torisel contém etanol (álcool)
+Este medicamento contém etanol (álcool), equivalente a 18 ml de cerveja ou a 7 ml de vinho por dose 
+de 25 mg. Os doentes que recebem a dose mais alta de 175 mg de Torisel para o tratamento inicial do 
+linfoma das células do manto podem receber uma dose de etanol equivalente até 122 ml de cerveja ou 
+49 ml de vinho por dose. É prejudicial se sofrer de alcoolismo e isto deve ser tido em consideração em 
+mulheres grávidas ou a amamentar, crianças e grupos de alto risco, tais como doentes hepáticos ou 
+com epilepsia. 
+É pouco provável que a quantidade de álcool neste medicamento tenha efeitos em adultos e 
+adolescentes, e é pouco provável que os seus efeitos em crianças sejam percetíveis. Pode ter alguns 
+efeitos em bebés e crianças mais pequenas, como por exemplo sonolência. Se é dependente de álcool, 
+fale com o seu médico ou farmacêutico antes de tomar este medicamento.
+A quantidade de álcool presente neste medicamento pode alterar os efeitos de outros medicamentos. 
+Fale com o seu médico ou farmacêutico se está a tomar outros medicamentos.
+A quantidade de álcool neste medicamento pode afetar a sua capacidade para conduzir ou alterar os 
+efeitos de outros medicamentos (ver secções “Advertências e precauções" e “Condução de veículos e 
+utilização de máquinas").
+43
+Torisel contém propilenoglicol
+Torisel contém 503,3 mg de propilenoglicol em cada dose de 25 mg que é equivalente a 201,33 mg/ml 
+de produto diluído. Se o seu filho tem menos de 5 anos de idade, fale com o seu médico ou 
+farmacêutico antes de administrar este medicamento, especialmente se estiverem a receber outros 
+medicamentos que contenham propilenoglicol ou álcool. Se está grávida ou a amamentar, ou se sofre 
+de uma doença de fígado ou rins, não tome este medicamento a menos que recomendado pelo seu 
+médico. O seu médico poderá realizar exames adicionais enquanto estiver a tomar este medicamento.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar torisel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar torisel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Torisel será sempre preparado e administrado por perfusão intravenosa (numa veia), por um médico 
+ou outro profissional de saúde.
+Deverá ser-lhe administrada uma injeção de um anti-histamínico (de modo a ajudar a prevenir uma 
+reação alérgica ao Torisel), diretamente numa veia, aproximadamente 30 minutos antes da 
+administração de Torisel.
+O concentrado de Torisel tem de ser diluído primeiro com 1,8 ml do solvente fornecido para se obter 
+uma concentração de 10 mg/ml antes da administração em solução injetável de cloreto de sódio a 
+9 mg/ml (0,9%) (ver instruções de diluição no final do folheto informativo).
+Para o cancro renal, a dose recomendada é de 25 mg por perfusão (gota-a-gota) durante um período de 
+30 a 60 minutos, uma vez por semana.
+Para o linfoma das células do manto, a dose recomendada é de 175 mg por perfusão (gota-a-gota) 
+durante um período de 30 a 60 minutos, uma vez por semana, durante 3 semanas, seguida de doses 
+únicas semanais de 75 mg por perfusão (gota-a-gota) durante um período de 30 a 60 minutos.
+O tratamento com Torisel deve ser continuado enquanto se mantiver o benefício da terapêutica ou até 
+que surjam efeitos indesejáveis inaceitáveis.
+Tratando-se de um medicamento preparado e administrado por um profissional de saúde, é pouco 
+provável que lhe seja administrado em excesso ou que seja omitida uma dose.
+Caso esteja preocupado sobre esta questão, contacte imediatamente o seu médico. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. 
+Os efeitos indesejáveis poderão ser mais pronunciados com a dose mais elevada de 175 mg por 
+semana durante o tratamento inicial do linfoma das células do manto.
+Os efeitos indesejáveis mais relevantes que podem ocorrer durante o tratamento com Torisel 
+encontram-se listados abaixo. Se tiver algum destes efeitos, procure ajuda médica imediatamente.  <br />
+Reações alérgicas
+44
+Deve falar imediatamente com o seu médico ou enfermeiro se tiver sintomas de angioedema, tais 
+como, inchaço da face, língua ou faringe, e dificuldade em respirar.
+Se tiver algum destes sintomas durante a administração de Torisel, o médico ou enfermeiro irão 
+interromper a perfusão. 
+Hemorragia no cérebro
+Deve procurar ajuda médica imediatamente se se sentir confuso, com cansaço pouco habitual, 
+tiver dificuldade em falar ou em engolir, e as suas pupilas tiverem tamanhos diferentes. Estes 
+sintomas podem ser causados por uma hemorragia no cérebro.
+Perfuração, laceração ou orifícios nos intestinos
+Deve procurar ajuda médica imediatamente se tiver dor abdominal aguda, febre alta, náuseas e 
+vómitos ou sangue nas fezes. Estes sintomas podem ser causados por uma perfuração nos intestinos.
+Insuficiência renal
+Deve procurar ajuda médica imediatamente se tiver inchaço generalizado, falta de ar, cansaço. 
+Estes sintomas podem ser causados por uma diminuição súbita da função dos rins.
+Embolismo nos pulmões
+Deve procurar ajuda médica imediatamente se tiver falta de ar, dor no peito, tossir sangue, 
+batimento cardíaco acelerado, náuseas, desmaios, suores, respiração ruidosa, pele húmida ou azulada. 
+Estes sintomas podem ser causados por um coágulo de sangue nos seus pulmões.
+Deve também falar com o seu médico imediatamente:
+
+se tiver tosse, dor no peito, dificuldades em respirar. O seu médico pode pedir uma radiografia 
+ao tórax.
+
+se o número de células brancas no seu sangue tiver diminuído. Isto pode aumentar o risco de ter 
+febre e infeções.
+
+se o número de plaquetas (um tipo de células do sangue que ajuda o sangue a coagular) tiver 
+diminuído. Isto pode aumentar o risco de hemorragias no seu corpo.
+
+se os níveis de colesterol e triglicéridos no sangue tiverem aumentado.
+
+se sentir sede excessiva ou aumento na frequência e quantidade de micção. O seu médico pode 
+prescrever-lhe insulina e/ou tratamento com antidiabéticos orais.
+
+se tiver sido operado recentemente. O seu médico pode adiar a administração de Torisel até que
+a cicatriz esteja totalmente recuperada uma vez que este medicamento pode interferir com o
+processo de cicatrização de feridas preexistentes.
+Outros efeitos indesejáveis com Torisel podem incluir:
+Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 utilizadores):
+Sensação generalizada de fraqueza, arrepios, inchaço devido a retenção de fluidos, dor (incluindo dor 
+abdominal, dor de costas, dor no peito e dor nas articulações), sentir-se indisposto do estômago 
+(náuseas e vómitos), diarreia, obstipação, dor de cabeça, febre, dor e inflamação na boca e/ou no trato 
+digestivo, tosse, pneumonia, hemorragia nasal, erupção cutânea, comichão, pele seca, diminuição do 
+apetite, falta de ar, diminuição dos níveis de potássio no sangue (o que pode causar fraqueza 
+muscular), baixa contagem de glóbulos vermelhos, número diminuído de um tipo de glóbulos brancos 
+que está associado a um aumento do risco de infeções, níveis elevados de açúcar no sangue, níveis 
+elevados de colesterol, níveis elevados de triglicéridos, abcesso, infeções (incluindo infeções dos 
+45
+olhos, gripe, infeções virais, bronquite), alteração da função renal (incluindo insuficiência renal), 
+testes sanguíneos que demonstram alterações do funcionamento dos rins, alteração do paladar, 
+dificuldade em adormecer, número diminuído de plaquetas o que pode causar hemorragia e nódoas 
+negras.
+Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 utilizadores):
+Corrimento nasal, vermelhidão e inchaço das gengivas, dor na boca (incluindo úlceras na boca), 
+inchaço no estômago, dor de garganta, pressão arterial elevada, olhos vermelhos incluindo olhos 
+lacrimejantes, perda de paladar, vermelhidão e inchaço dos folículos da pele, reações alérgicas, 
+descamação grave da pele, coagulação do sangue aumentada (incluindo trombose das veias), níveis 
+diminuídos de cálcio no sangue, níveis diminuídos de fosfatos no sangue, infeções respiratórias 
+superiores, inflamação dos pulmões, fluido na cavidade torácica, infeção do sangue, desidratação, 
+agitação, depressão, entorpecimento e formigueiro na pele, tonturas, sonolência, hemorragia (dos 
+lábios, boca, estômago ou intestino), inflamação do revestimento do estômago, dificuldade em 
+engolir, hemorragia cutânea (nódoas negras), hemorragia que aparece como pequenos pontos 
+vermelhos, alterações nas unhas, acne, infeção por leveduras, infeção fúngica, infeções do trato 
+urinário, cistite, testes sanguíneos que demonstram alterações do funcionamento do fígado, níveis 
+aumentados de outras gorduras do sangue para além dos triglicéridos, diabetes, dores musculares.
+Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 utilizadores):
+Derrame pericárdico (fluido em volta do coração que pode requerer drenagem e pode afetar o 
+bombeamento do sangue).
+Hemorragia no cérebro de doentes com tumores cerebrais ou a ser tratados com anticoagulantes, 
+hemorragia nos olhos.
+Embolismo dos pulmões, perfuração dos intestinos, problemas de cicatrização após cirurgia, 
+inflamação e inchaço do aparelho vocal.
+Efeitos indesejáveis raros (podem afetar até 1 em cada 1.000 utilizadores):
+Infeção pulmonar provocada por pneumonia por Pneumocystis jiroveci.
+Efeitos indesejáveis cuja frequência não se conhece (não pode ser calculado a partir dos dados 
+disponíveis):
+Inchaço da face, lábios, língua e garganta, possivelmente causando dificuldade em respirar. 
+Reações graves da pele e/ou membranas mucosas que podem incluir bolhas dolorosas e febre 
+(síndrome de Stevens-Johnson).
+Dor, sensibilidade ou fraqueza musculares, sem causa aparente, que podem indicar lesão muscular 
+(rabdomiólise).
+Notificação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá notificar os efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+notificar os efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar torisel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar torisel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>46
+Manter este medicamento fora da vista e do alcance das crianças.
+Não utilizar este medicamento após o prazo de validade impresso no rótulo do frasco para injetáveis e 
+na embalagem exterior. O prazo de validade corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2°C - 8°C).
+Não congelar.
+Manter os frascos para injetáveis na embalagem exterior, para proteger da luz.
+Após a primeira diluição do concentrado com 1,8 ml do solvente fornecido, a mistura pode ser 
+conservada durante 24 horas a temperatura inferior a 25ºC e protegida da luz, antes de ser novamente 
+diluída.
+Após diluição posterior da mistura concentrado-solvente com solução para injetáveis de cloreto de 
+sódio 9 mg/ml (0,9%), a solução pode ser conservada durante 6 horas a temperatura inferior a 25ºC e 
+protegida da luz. 
+Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar 
+fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Torisel
+
+A substância ativa é o temsirolímus.
+Cada frasco para injetáveis de concentrado contém 30 mg de temsirolímus.
+Após a primeira diluição do concentrado com 1,8 ml do solvente fornecido, a concentração de 
+temsirolímus é de 10 mg/ml.
+
+Os outros componentes do concentrado são etanol anidro, DL-alfa-tocoferol (E 307), 
+propilenoglicol (E 1520) e ácido cítrico (E 330). O solvente contém polissorbato 80 (E 433), 
+macrogol 400 e etanol anidro (ver secção 2 “Torisel contém etanol [álcool]" e “Torisel contém 
+propilenoglicol").
+Qual o aspeto de Torisel e conteúdo da embalagem
+Torisel é um concentrado e um solvente para solução para perfusão.
+O concentrado é uma solução límpida, incolor a amarelo-claro. O solvente é uma solução límpida ou 
+ligeiramente turva, cor amarelo-claro a amarelo. As soluções são essencialmente livres de partículas 
+visíveis.
+Cada embalagem de Torisel contém um frasco para injetáveis de vidro de 1,2 ml de concentrado e um 
+frasco para injetáveis de vidro de 2,2 ml de solvente.
+Titular da Autorização de Introdução no Mercado
+47
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante
+Wyeth Lederle S.r.l.
+Via Franco Gorgone
+Zona Industriale
+95100 Catania 
+Itália
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Pfizer S.A./N.V.
+Tél/Tel:+32 (0)2 554 62 11
+България 
+Пфайзер Люксембург САРЛ, Клон България 
+Тел.: +359 2 970 4333
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. +3705 2514Luxembourg/Luxemburg
+Pfizer S.A./N.V.
+Tél/Tel:+32 (0)2 554 62 11
+Česká republika
+Pfizer, spol. s r.o.
+Tel:+420 283 004 111
+Danmark
+Pfizer ApS
+Tlf:+45 44 201 100
+Magyarország
+Pfizer Kft.
+Tel:+36 1 488 3700
+Malta
+Vivian Corporation Ltd.
+Tel:+35621 344610
+Deutschland
+Pfizer Pharma GmbH
+Tel:+49 (0)30 550055-51000
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Nederland
+Pfizer bv
+Tel: +31 (0)10 406 43 01
+Norge
+Pfizer AS
+Tlf:+47 67 52 61 00
+Ελλάδα
+PFIZER ΕΛΛΑΣ A.E.
+T:+30 210 67 85 800
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel:+43 (0)1 521 15-0
+España
+Pfizer, S.L.
+Tel:+34 91 490 99 00
+Polska
+Pfizer Polska Sp. z o.o., 
+Tel: +48 22 335 61 France
+Pfizer
+Tél:+33 (0)1 58 07 34 40
+Portugal
+Laboratórios Pfizer, Lda.
+Tel:+351 21 423 55 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Ireland
+România
+Pfizer Romania S.R.L.
+Tel:+40 (0) 21 207 28 00
+Slovenija
+48
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Ísland
+Icepharma hf.
+Sími:+354 540 8000
+Pfizer Luxembourg SARL, Pfizer, podružnica za 
+svetovanje s področja farmacevtske dejavnosti, 
+Ljubljana
+Tel: +386 (0)1 52 11 400
+Slovenská republika
+Pfizer Luxembourg SARL,
+organizačná zložka
+Tel:+421 2 3355 5500
+Italia
+Pfizer S.r.l
+Tel: +39 06 33 18 21
+Suomi/Finland
+Pfizer Oy
+Puh/Tel:+358 (0)9 430 040
+Κύπρος
+PFIZER ΕΛΛΑΣ Α.Ε. (CYPRUS BRANCH)
+T:+357 22 817690
+Sverige
+Pfizer AB
+Tel:+46 (0)8 550 520 00
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel. +371 67035775
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+
+
+
 
 
                     
@@ -1123,6 +1672,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-4e8e0c5f72dbc27f3ff2eb4a522fe300"
 * entry[0].resource = composition-da-4e8e0c5f72dbc27f3ff2eb4a522fe300
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4e8e0c5f72dbc27f3ff2eb4a522fe300"
+* entry[=].resource = mp4e8e0c5f72dbc27f3ff2eb4a522fe300
+                            
+                    
+Instance: bundlepackageleaflet-pt-4e8e0c5f72dbc27f3ff2eb4a522fe300
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for torisel Package Leaflet for language pt"
+Description: "ePI document Bundle for torisel Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-4e8e0c5f72dbc27f3ff2eb4a522fe300"
+* entry[0].resource = composition-pt-4e8e0c5f72dbc27f3ff2eb4a522fe300
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp4e8e0c5f72dbc27f3ff2eb4a522fe300"
@@ -1224,6 +1795,18 @@ RuleSet: 4e8e0c5f72dbc27f3ff2eb4a522fe300ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-4e8e0c5f72dbc27f3ff2eb4a522fe300) // torisel pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

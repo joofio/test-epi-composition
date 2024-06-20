@@ -1068,6 +1068,657 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-3441cbef7f1604451bb170e82be4a4ea
+InstanceOf: CompositionUvEpi
+Title: "Composition for jinarc Package Leaflet"
+Description:  "Composition for jinarc Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3441cbef7f1604451bb170e82be4a4ea)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - jinarc"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Jinarc e para que é utilizado 
+2. O que precisa de saber antes de tomar Jinarc 
+3. Como tomar Jinarc 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Jinarc 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é jinarc e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é jinarc e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jinarc contém a substância ativa tolvaptano que bloqueia o efeito da vasopressina, uma hormona 
+envolvida na formação de quistos nos rins dos doentes com DPRAD. Ao bloquear o efeito da 
+vasopressina, Jinarc abranda o desenvolvimento de quistos renais em doentes com DPRAD, reduz os 
+sintomas da doença e aumenta a produção de urina. </p>
+<p>Jinarc é um medicamento utilizado para tratar uma doença chamada “doença poliquística renal 
+autossómica dominante" (DPRAD). Esta doença causa o crescimento de quistos cheios de líquido nos 
+rins, que exercem pressão sobre os tecidos circundantes e reduzem a função renal, conduzindo 
+eventualmente à insuficiência renal. Jinarc é utilizado para tratar a DPRAD em adultos com doença 
+renal crónica (DRC) em estádios 1 a 4 com indícios de doença em rápida progressão. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar jinarc"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar jinarc"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Jinarc </p>
+<ul>
+<li>
+<p>se tem alergia ao tolvaptano ou a qualquer outro componente deste medicamento (indicados na 
+secção 6) ou se tem alergia à benzazepina ou seus derivados (por exemplo, benazepril, 
+conivaptano, mesilato de fenoldopam ou mirtazapina) </p>
+</li>
+<li>
+<p>se tiver sido informado que tem níveis aumentados de enzimas hepáticas (do fígado) no seu 
+sangue que não permitem o tratamento com tolvaptano </p>
+</li>
+<li>
+<p>se os seus rins não funcionam (não produzem urina) </p>
+</li>
+<li>
+<p>se tem uma doença associada a um volume de sangue muito baixo (por exemplo, desidratação 
+grave ou hemorragia) </p>
+</li>
+<li>
+<p>se tem uma doença que aumenta o sódio no sangue </p>
+</li>
+<li>
+<p>se não se apercebe de quando tem sede </p>
+</li>
+<li>
+<p>se está grávida </p>
+</li>
+<li>
+<p>se está a amamentar. </p>
+</li>
+</ul>
+<p>Advertências e precauções 
+Fale com o seu médico antes de tomar Jinarc: </p>
+<ul>
+<li>
+<p>se sofre de doença do fígado </p>
+</li>
+<li>
+<p>se não consegue beber água suficiente (ver “Beber água suficiente" abaixo) ou se tem de 
+restringir a ingestão de fluidos </p>
+</li>
+<li>
+<p>se tem dificuldade em urinar (por exemplo, tem a próstata aumentada) </p>
+</li>
+<li>
+<p>se sofre de sódio demasiado alto ou demasiado baixo no sangue </p>
+</li>
+<li>
+<p>se, no passado, teve uma reação alérgica à benzazepina, ao tolvaptano ou a outros derivados da 
+benzazepina (por exemplo, benazepril, conivaptano, mesilato de fenoldopam ou mirtazapina), 
+ou a qualquer outro componente deste medicamento (mencionados na secção 6) </p>
+</li>
+<li>
+<p>se tem diabetes </p>
+</li>
+<li>
+<p>se foi informado que tem níveis demasiado elevados de um químico chamado ácido úrico no 
+sangue (que pode ter causado ataques de gota) </p>
+</li>
+<li>
+<p>se tem doença renal avançada. </p>
+</li>
+</ul>
+<p>Este medicamento pode fazer com que o seu fígado não funcione corretamente. Por conseguinte, 
+informe imediatamente o seu médico se tiver sinais que possam indicar potenciais problemas de 
+fígado como: </p>
+<ul>
+<li>
+<p>náuseas </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>cansaço </p>
+</li>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>dor no abdómen (na zona do estômago) </p>
+</li>
+<li>
+<p>urina escura </p>
+</li>
+<li>
+<p>iterícia (amarelecimento da pele ou dos olhos) </p>
+</li>
+<li>
+<p>comichão na pele </p>
+</li>
+<li>
+<p>síndrome gripal (dor nas articulações e nos músculos com febre). </p>
+</li>
+</ul>
+<p>Durante o tratamento com este medicamento, o seu médico pedirá análises sanguíneas mensais 
+para verificar se há alterações na função do seu fígado. </p>
+<p>Beber água suficiente </p>
+<p>Este medicamento provoca a perda de água porque aumenta a sua produção de urina. Esta perda de 
+água pode resultar em efeitos indesejáveis como ficar com a boca seca e ter sede, ou mesmo efeitos 
+indesejáveis mais graves, como problemas nos rins (ver secção 4). Por conseguinte, é importante que 
+tenha acesso a água e que consiga beber quantidades suficientes quando tiver sede. Antes da hora de 
+deitar, tem de beber 1 ou 2 copos de água mesmo que não tenha sede e também tem de beber água 
+depois de urinar de noite. Devem ser tomadas precauções especiais se tem uma doença que reduz a 
+ingestão apropriada de fluidos ou se tem um risco acrescido de perda de água, por exemplo, no caso de 
+vómitos ou diarreia. Devido ao aumento da produção de urina, é também importante que tenha sempre 
+acesso a instalações sanitárias. </p>
+<p>Crianças e adolescentes 
+Não administre este medicamento a crianças e adolescentes (com idade inferior a 18 anos) porque não 
+foi estudado nestes grupos etários. </p>
+<p>Outros medicamentos e Jinarc 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente ou se vier a 
+tomar outros medicamentos, incluindo medicamentos obtidos sem receita médica. </p>
+<p>Os seguintes medicamentos podem aumentar o efeito de Jinarc: </p>
+<ul>
+<li>
+<p>amprenavir, atazanavir, darunavir/ritonavir e fosamprenavir (utilizados para o tratamento do 
+VIH/SIDA), </p>
+</li>
+<li>
+<p>aprepitant (utilizado para evitar náuseas e vómitos durante a quimioterapia), </p>
+</li>
+<li>
+<p>crizotinib e imatinib (utilizados para o tratamento do cancro), </p>
+</li>
+<li>
+<p>cetoconazol, fluconazol ou itraconazol (utilizados para o tratamento de infeções fúngicas), </p>
+</li>
+<li>
+<p>antibióticos macrólidos como eritromicina ou claritromicina, </p>
+</li>
+<li>
+<p>verapamilo (utilizado para o tratamento de doenças do coração e tensão arterial elevada), </p>
+</li>
+<li>
+<p>ciprofloxacina (um antibiótico), </p>
+</li>
+<li>
+<p>diltiazem (utilizado para tratar tensão arterial elevada e dor no peito). </p>
+</li>
+</ul>
+<p>Os seguintes medicamentos podem reduzir o efeito de Jinarc: </p>
+<ul>
+<li>
+<p>fenitoína ou carbamazepina (utilizados para tratar a epilepsia), </p>
+</li>
+<li>
+<p>rifampicina, rifabutina ou rifapentina (utilizados para tratar a tuberculose), </p>
+</li>
+<li>
+<p>hipericão (um medicamento tradicional de ervanária para o alívio do humor ligeiramente em 
+baixo e da ansiedade ligeira). </p>
+</li>
+</ul>
+<p>Jinarc pode aumentar o efeito dos seguintes medicamentos: </p>
+<ul>
+<li>
+<p>digoxina (utilizada para tratamento de irregularidades do batimento do coração e insuficiência 
+do coração), </p>
+</li>
+<li>
+<p>dabigatrano (utilizado para diluir o sangue), </p>
+</li>
+<li>
+<p>sulfassalazina (utilizada para o tratamento de doença intestinal inflamatória ou artrite 
+reumatoide), </p>
+</li>
+<li>
+<p>metformina (utilizada para o tratamento da diabetes). </p>
+</li>
+</ul>
+<p>Jinarc pode reduzir o efeito dos seguintes medicamentos: </p>
+<ul>
+<li>análogos da vasopressina tal como a desmopressina (utilizada para aumentar os fatores de 
+coagulação sanguínea ou para controlar o débito da urina ou a enurese noturna). </li>
+</ul>
+<p>Estes medicamentos podem afetar, ou ser afetados por, Jinarc: </p>
+<ul>
+<li>
+<p>diuréticos (utilizados para aumentar a sua produção de urina). Tomados com Jinarc, podem 
+aumentar o risco de efeitos indesejáveis devidos à perda de água ou podem provocar problemas 
+nos rins. </p>
+</li>
+<li>
+<p>diuréticos ou outros medicamentos para o tratamento de tensão arterial elevada. Tomados com 
+Jinarc, podem aumentar o risco de tensão arterial baixa ao levantar-se a partir da posição de 
+sentado ou deitado. </p>
+</li>
+<li>
+<p>medicamentos que aumentem o nível de sódio no sangue ou que contenham grandes 
+quantidades de sal (por exemplo, comprimidos que se dissolvem em água e remédios para a 
+indigestão). Estes podem aumentar o efeito de Jinarc. Há o risco que tal possa levar a níveis 
+demasiado altos de sódio no sangue. </p>
+</li>
+</ul>
+<p>Pode ser que não haja problema em tomar estes medicamentos em conjunto com Jinarc. O seu médico 
+poderá decidir aquilo que é adequado para si. </p>
+<p>Jinarc com alimentos e bebidas 
+Não beba sumo de toranja ao tomar este medicamento. </p>
+<p>Gravidez e amamentação 
+Não tome este medicamento se está grávida ou a amamentar. </p>
+<p>As mulheres com potencial para engravidar devem utilizar um método contracetivo fiável durante o 
+uso deste medicamento. </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+Algumas pessoas podem sentir tonturas, fraqueza ou cansaço depois de tomarem Jinarc. Se isto se 
+verificar, não conduza nem utilize quaisquer ferramentas ou máquinas. </p>
+<p>Jinarc contém lactose 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar jinarc"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar jinarc"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jinarc só pode ser receitado por médicos especializados no tratamento de DPRAD. Tome este 
+medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou farmacêutico se 
+tiver dúvidas. </p>
+<p>Dose </p>
+<p>A quantidade diária de Jinarc é dividida em duas doses, uma maior do que a outra. A dose mais 
+elevada deve ser tomada de manhã ao acordar, pelo menos 30 minutos antes da refeição da manhã. A 
+dose mais baixa é tomada 8 horas mais tarde. </p>
+<p>As combinações de doses são: 
+45 mg + 15 mg 
+60 mg + 30 mg 
+90 mg + 30 mg </p>
+<p>O seu tratamento irá normalmente começar com uma dose de 45 mg de manhã e 15 mg 8 horas mais 
+tarde. O seu médico poderá aumentar gradualmente a sua dose até uma combinação máxima de 90 mg 
+ao acordar e 30 mg passadas oito horas. Para encontrar a melhor dose, o seu médico irá verificar 
+regularmente se está a tolerar bem uma dose receitada. Deve tomar sempre a combinação de doses 
+mais elevada tolerável receitada pelo seu médico. </p>
+<p>Se tomar outros medicamentos que possam aumentar os efeitos de Jinarc, poderá receber doses mais 
+baixas. Neste caso, o seu médico poderá receitar-lhe comprimidos de Jinarc com 30 mg ou 15 mg de 
+tolvaptano que têm de ser tomados uma vez por dia de manhã. </p>
+<p>Modo de administração </p>
+<p>Engula os comprimidos sem mastigar, com um copo de água. 
+A dose matinal deve ser tomada pelo menos 30 minutos antes da refeição da manhã. A segunda dose 
+diária pode ser tomada com ou sem alimentos. </p>
+<p>Se tomar mais Jinarc do que deveria 
+Se tomou mais comprimidos do que a dose que lhe foi receitada, beba muita água e contacte 
+imediatamente o seu médico ou o seu hospital local. Lembre-se de levar consigo a embalagem, para 
+que seja claro o que tomou. Se tomar a dose mais elevada muito ao fim do dia, poderá ter de ir à casa 
+de banho de noite com mais frequência. </p>
+<p>Caso se tenha esquecido de tomar Jinarc 
+Caso se tenha esquecido de tomar o seu medicamento, deve tomar a dose assim que se lembrar, no 
+mesmo dia. Se não tomar os seus comprimidos num dia, tome a sua dose normal no dia seguinte. 
+NÃO tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de tomar Jinarc 
+Se parar de tomar este medicamento, os seus quistos renais poderão crescer tão depressa como antes 
+de iniciar o tratamento com Jinarc. Por conseguinte, só deve parar de tomar este medicamento se notar 
+efeitos indesejáveis que necessitem de cuidados médicos urgentes (ver secção 4) ou por indicação do 
+seu médico. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves: </p>
+<p>Se notar algum dos seguintes efeitos indesejáveis, pode necessitar de cuidados médicos urgentes. 
+Pare de tomar Jinarc e contacte um médico ou dirija-se imediatamente ao hospital mais próximo 
+se: </p>
+<ul>
+<li>
+<p>tiver dificuldade em urinar. </p>
+</li>
+<li>
+<p>tiver um inchaço no rosto, lábios ou língua, comichão, erupção cutânea generalizada ou pieira 
+ou falta de ar graves (sintomas de uma reação alérgica). </p>
+</li>
+</ul>
+<p>Jinarc pode fazer com que o seu fígado não funcione corretamente. 
+Consulte o seu médico se ocorrerem sintomas de náuseas, vómitos, febre, cansaço, perda de apetite, 
+dor no abdómen (na zona do estômago), urina escura, iterícia (amarelecimento da pele ou dos olhos), 
+comichão na pele ou dor nas articulações e nos músculos com febre. </p>
+<p>Outros efeitos indesejáveis: </p>
+<p>Muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>sede (exigindo beber água em excesso) </p>
+</li>
+<li>
+<p>dores de cabeça </p>
+</li>
+<li>
+<p>tonturas </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>boca seca </p>
+</li>
+<li>
+<p>aumento da necessidade de urinar, urinar de noite ou urinar com maior frequência </p>
+</li>
+<li>
+<p>cansaço. </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>desidratação </p>
+</li>
+<li>
+<p>níveis altos de sódio, ácido úrico e açúcar no sangue </p>
+</li>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>alterações do paladar </p>
+</li>
+<li>
+<p>gota </p>
+</li>
+<li>
+<p>dificuldade em dormir </p>
+</li>
+<li>
+<p>desmaios </p>
+</li>
+<li>
+<p>coração a bater com muita força </p>
+</li>
+<li>
+<p>falta de ar </p>
+</li>
+<li>
+<p>dores de barriga </p>
+</li>
+<li>
+<p>sensação de estar cheio ou de inchaço ou de desconforto no estômago </p>
+</li>
+<li>
+<p>prisão de ventre </p>
+</li>
+<li>
+<p>azia </p>
+</li>
+<li>
+<p>funcionamento hepático (do fígado) anómalo </p>
+</li>
+<li>
+<p>pele seca </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>urticária </p>
+</li>
+<li>
+<p>dores articulares </p>
+</li>
+<li>
+<p>espasmos musculares </p>
+</li>
+<li>
+<p>dores musculares </p>
+</li>
+<li>
+<p>fraqueza em geral </p>
+</li>
+<li>
+<p>aumento dos níveis de enzimas hepáticas (do fígado) no sangue </p>
+</li>
+<li>
+<p>perda de peso </p>
+</li>
+<li>
+<p>ganho de peso </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em 100 pessoas) </p>
+<ul>
+<li>aumento da bilirrubina (uma substância que pode causar amarelecimento da pele ou dos olhos) 
+no sangue. </li>
+</ul>
+<p>Desconhecido (a frequência não pode ser calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>reações alérgicas (ver acima) </p>
+</li>
+<li>
+<p>erupção cutânea generalizada </p>
+</li>
+<li>
+<p>insuficiência hepática aguda (IHA). </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar os 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar jinarc"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar jinarc"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem, embalagem tipo 
+carteira e no blister, após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar na embalagem de origem para proteger da luz e da humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Jinarc </p>
+<ul>
+<li>
+<p>A substância ativa é o tolvaptano. 
+Cada comprimido de Jinarc 15 mg contém 15 mg de tolvaptano. 
+Cada comprimido de Jinarc 30 mg contém 30 mg de tolvaptano. 
+Cada comprimido de Jinarc 45 mg contém 45 mg de tolvaptano. 
+Cada comprimido de Jinarc 60 mg contém 60 mg de tolvaptano. 
+Cada comprimido de Jinarc 90 mg contém 90 mg de tolvaptano. </p>
+</li>
+<li>
+<p>Os outros componentes são lactose mono-hidratada (ver secção 2), amido de milho, celulose 
+microcristalina, hidroxipropilcelulose, estearato de magnésio, laca de alumínio de indigotina. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Jinarc e conteúdo da embalagem </p>
+<p>As diferentes dosagens dos comprimidos de Jinarc têm diferentes formas e gravações: 
+Comprimido de 15 mg: azul, triangular, gravado com “OTSUKA" e “15" num dos lados. 
+Comprimido de 30 mg: azul, redondo, gravado com “OTSUKA" e “30" num dos lados. 
+Comprimido de 45 mg: azul, quadrado, gravado com “OTSUKA" e “45" num dos lados. 
+Comprimido de 60 mg: azul, retangular modificado, gravado com “OTSUKA" e “60" num dos lados. 
+Comprimido de 90 mg: azul, pentagonal, gravado com “OTSUKA" e “90" num dos lados. </p>
+<p>O seu medicamento é fornecido nas seguintes apresentações: </p>
+<p>Jinarc 15 mg comprimidos: embalagens com 7 comprimidos ou 28 comprimidos </p>
+<p>Jinarc 30 mg comprimidos: embalagens com 7 comprimidos ou 28 comprimidos </p>
+<p>Jinarc 45 mg comprimidos + Jinarc 15 mg comprimidos: embalagens (blisters com ou sem 
+embalagem tipo carteira) com 
+14 comprimidos (7 comprimidos da dosagem mais alta + 7 comprimidos da dosagem mais baixa), 
+28 comprimidos (14 comprimidos da dosagem mais alta + 14 comprimidos da dosagem mais baixa) ou 
+56 comprimidos (28 comprimidos da dosagem mais alta + 28 comprimidos da dosagem mais baixa). </p>
+<p>Jinarc 60 mg comprimidos + Jinarc 30 mg comprimidos: embalagens (blisters com ou sem 
+embalagem tipo carteira) com 
+14 comprimidos (7 comprimidos da dosagem mais alta + 7 comprimidos da dosagem mais baixa), 
+28 comprimidos (14 comprimidos da dosagem mais alta + 14 comprimidos da dosagem mais baixa) ou 
+56 comprimidos (28 comprimidos da dosagem mais alta + 28 comprimidos da dosagem mais baixa). </p>
+<p>Jinarc 90 mg comprimidos + Jinarc 30 mg comprimidos: embalagens (blisters com ou sem 
+embalagem tipo carteira) com 
+14 comprimidos (7 comprimidos da dosagem mais alta + 7 comprimidos da dosagem mais baixa), 
+28 comprimidos (14 comprimidos da dosagem mais alta + 14 comprimidos da dosagem mais baixa) ou 
+56 comprimidos (28 comprimidos da dosagem mais alta + 28 comprimidos da dosagem mais baixa). </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>Otsuka Pharmaceutical Netherlands B.V. 
+Herikerbergweg 1101 CT, Amsterdam 
+Países Baixos </p>
+<p>Fabricante </p>
+<p>Almac Pharma Service (Ireland) Limited 
+Finnabair Industrial Estate, Dundalk, Co. Louth - A91 P9KD 
+Irlanda </p>
+<p>Millmount Healthcare Limited 
+Block-7, City North Business Campus, Stamullen, Co. Meath, K32 YDIrlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tél/Tel: +31 (0) 20 85 46<br />
+Lietuva 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 България 
+Otsuka Pharmaceutical Netherlands B.V. 
+Teл: +31 (0) 20 85 46<br />
+Luxembourg/Luxemburg 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tél/Tel: +31 (0) 20 85 46 Česká republika 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Magyarország 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 Danmark 
+Otsuka Pharma Scandinavia AB 
+Tlf: +46854 528<br />
+Malta 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 Deutschland 
+Otsuka Pharma GmbH 
+Tel: +49691 700<br />
+Nederland 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 Eesti 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Norge 
+Otsuka Pharma Scandinavia AB 
+Tlf: +46854 528 Ελλάδα 
+Otsuka Pharmaceutical Netherlands B.V. 
+Thλ: +31 (0) 20 85 46<br />
+Österreich 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 España 
+Otsuka Pharmaceutical S.A 
+Tel: +3493 2081<br />
+Polska 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 France 
+Otsuka Pharmaceutical France SAS 
+Tél: +33147 080<br />
+Portugal 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 Hrvatska 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+România 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 Ireland 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Slovenija 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Ísland 
+Otsuka Pharma Scandinavia AB 
+Sími: +46854 528<br />
+Slovenská republika 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 Italia 
+Otsuka Pharmaceutical Italy S.r.l. 
+Tel: +39 02 00 63 27<br />
+Suomi/Finland 
+Otsuka Pharma Scandinavia AB 
+Puh/Tel: +46854 528 Κύπρος 
+Otsuka Pharmaceutical Netherlands B.V. 
+Thλ: +31 (0) 20 85 46<br />
+Sverige 
+Otsuka Pharma Scandinavia AB 
+Tel: +46854 528<br />
+Latvija 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+United Kingdom (Northern Ireland) 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46<br />
+Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1109,6 +1760,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-3441cbef7f1604451bb170e82be4a4ea"
 * entry[0].resource = composition-da-3441cbef7f1604451bb170e82be4a4ea
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3441cbef7f1604451bb170e82be4a4ea"
+* entry[=].resource = mp3441cbef7f1604451bb170e82be4a4ea
+                            
+                    
+Instance: bundlepackageleaflet-pt-3441cbef7f1604451bb170e82be4a4ea
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jinarc Package Leaflet for language pt"
+Description: "ePI document Bundle for jinarc Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-3441cbef7f1604451bb170e82be4a4ea"
+* entry[0].resource = composition-pt-3441cbef7f1604451bb170e82be4a4ea
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp3441cbef7f1604451bb170e82be4a4ea"
@@ -1210,6 +1883,18 @@ RuleSet: 3441cbef7f1604451bb170e82be4a4eaListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-3441cbef7f1604451bb170e82be4a4ea) // jinarc pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

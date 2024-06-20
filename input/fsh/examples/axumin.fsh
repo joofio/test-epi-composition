@@ -469,6 +469,232 @@ Læs produktresuméet [produktresuméet skal inkluderes i pakningen]. </p>      
 
 
 
+Instance: composition-pt-e7c357e85455d1fe389fd3b297f16867
+InstanceOf: CompositionUvEpi
+Title: "Composition for axumin Package Leaflet"
+Description:  "Composition for axumin Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe7c357e85455d1fe389fd3b297f16867)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - axumin"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Axumin e para que é utilizado  </li>
+<li>O que precisa de saber antes de receber Axumin </li>
+<li>Como utilizar Axumin </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Axumin </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é axumin e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é axumin e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Este medicamento é um radiofármaco apenas para uso diagnóstico. </p>
+<p>Axumin contém a substância ativa fluciclovina (18F) e é administrado para que os médicos possam 
+realizar um exame especial chamado tomografia por emissão de positrões (PET). Se já tiver recebido 
+tratamento para o cancro da próstata e a informação de outros testes (por exemplo, do antigénio 
+específico da próstata = PSA) indicar que o cancro pode ter reaparecido, uma PET realizada com 
+Axumin pode ajudar o seu médico a identificar as localizações onde o cancro reapareceu. </p>
+<p>Deve discutir os resultados do exame com o médico que o solicitou. </p>
+<p>A utilização de Axumin envolve a exposição a pequenas quantidades de radioatividade. O seu médico 
+e o especialista em Medicina Nuclear consideraram que o benefício deste procedimento com o 
+radiofármaco supera o risco da exposição à radiação. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar axumin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar axumin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não receba Axumin 
+- se tem alergia à fluciclovina (18F) ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </p>
+<p>Advertências e precauções<br />
+Fale com o seu especialista em Medicina Nuclear antes de lhe ser administrado Axumin se: 
+- tem problemas de rins 
+- está sujeito a uma dieta com baixo teor de sódio (ver secção “Axumin contém sódio"). </p>
+<p>Antes da administração de Axumin: 
+- deve evitar a prática de exercício físico, pelo menos, um dia antes do exame com Axumin; 
+- não deve comer nem beber durante, pelo menos, 4 horas antes do exame (pode tomar os seus 
+medicamentos habituais com pequenas quantidades de água). 
+- pode urinar, no máximo, 60 minutos antes da injeção de Axumin e deve evitar urinar antes de o 
+exame ser dado como concluído. </p>
+<p>Crianças e adolescentes 
+Fale com o seu especialista em Medicina Nuclear, se tiver menos de 18 anos. Axumin não se destina a 
+ser utilizado em crianças e adolescentes com idade inferior a 18 anos. </p>
+<p>Outros medicamentos e Axumin<br />
+Informe o seu especialista em Medicina Nuclear se estiver a tomar, tiver tomado recentemente ou se 
+vier a tomar outros medicamentos, uma vez que estes podem interferir na interpretação das imagens. </p>
+<p>Gravidez e amamentação 
+Este medicamento não é indicado para uso em mulheres. </p>
+<p>Condução de veículos e utilização de máquinas<br />
+É considerado improvável que Axumin afete a sua capacidade de conduzir ou utilizar máquinas. </p>
+<p>Axumin contém sódio 
+Este medicamento contém até 39 mg de sódio (principal componente de sal de cozinha / sal de mesa) 
+em cada dose. Isto é equivalente a 2% da ingestão diária máxima de sódio  recomendada na dieta para 
+um adulto.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar axumin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar axumin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Há leis estritas sobre a utilização, manuseamento e eliminação de radiofármacos.<br />
+Axumin só será utilizado em zonas especialmente controladas. Este medicamento apenas será 
+manuseado e administrado a si por pessoas treinadas e qualificadas para utilizá-lo com segurança. 
+Estas pessoas tomarão precauções especiais para o uso seguro deste medicamento e mantê-lo-ão 
+informado sobre as suas ações.  </p>
+<p>O especialista em Medicina Nuclear que supervisa o procedimento decidirá que quantidade de 
+Axumin será utilizada no seu caso. Será a menor quantidade necessária para obter a informação 
+desejada. A quantidade a ser administrada recomendada habitualmente para um adulto é de 370 MBq 
+(megabecquerel é a unidade utilizada para expressar a radioatividade). </p>
+<p>Administração de Axumin e realização do procedimento<br />
+Axumin é administrado por via intravenosa através de uma injeção na sua veia, seguida por uma 
+injeção de solução de cloreto de sódio para garantir que recebe toda a dose. </p>
+<p>Uma injeção é normalmente suficiente para realizar o exame que o seu médico necessita. </p>
+<p>Duração do procedimento<br />
+O seu especialista em Medicina Nuclear informá-lo-á sobre a duração habitual do procedimento. O 
+exame começará normalmente 5 minutos depois da administração da injeção de Axumin. </p>
+<p>Depois da administração de Axumin deve 
+- evitar qualquer contacto próximo com crianças pequenas e mulheres grávidas nas 12 horas 
+seguintes à injeção 
+- urinar frequentemente para eliminar o fármaco do seu organismo. </p>
+<p>O especialista em Medicina Nuclear informá-lo-á se precisa de tomar quaisquer precauções especiais 
+depois de receber este medicamento. Contacte o seu especialista em Medicina Nuclear se tiver 
+dúvidas.  </p>
+<p>Se lhe for administrado mais Axumin do que deveria 
+Uma sobredosagem é improvável porque só receberá uma dose única de Axumin controlada com 
+precisão pelo especialista em Medicina Nuclear que supervisiona o procedimento. No entanto, em caso 
+de sobredosagem, receberá o tratamento adequado. Em particular, o especialista de Medicina Nuclear 
+responsável pelo procedimento poderá recorrer a formas de aumentar a eliminação de urina e fezes, de 
+modo a facilitar a eliminação da radioatividade do seu organismo. </p>
+<p>Se ainda tiver dúvidas sobre a utilização de Axumin, fale com o seu especialista em Medicina Nuclear 
+que supervisiona o procedimento. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. Em estudos clínicos, foram notificados efeitos indesejáveis por 
+menos de 1 em 100 doentes a quem foi administrado o medicamento. </p>
+<p>Os seguintes efeitos indesejáveis de Axumin são pouco frequentes (podem afetar até 1 em 
+100 pessoas).<br />
+- Paladar alterado, olfato alterado, dor ou erupção cutânea no local da injeção. </p>
+<p>Este radiofármaco fornecerá pequenas quantidades de radiação ionizante associadas a um risco mínimo 
+de cancro e deficiências hereditárias.  </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu especialista em Medicina Nuclear. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar axumin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar axumin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não precisará de conservar este medicamento. Este medicamento é conservado sob a responsabilidade 
+do especialista em instalações adequadas. A conservação de radiofármacos será de acordo com as 
+diretivas nacionais sobre materiais radioativos.  </p>
+<p>A informação seguinte destina-se apenas ao especialista.  </p>
+<p>Axumin não pode ser utilizado após o prazo de validade impresso no rótulo da proteção após VAL. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Axumin<br />
+- A substância ativa é fluciclovina (18F). 
+Axumin 1.600 MBq/mL solução injetável 
+Cada ml de solução contém 1.600 MBq de fluciclovina (18F) à data e hora da calibração (ToC, 
+time of calibration). 
+A atividade por frasco para injetáveis varia entre 1.600 MBq e 16.000 MBq à data e ToC. 
+Axumin 3.200 MBq/mL solução injetável 
+Cada ml de solução contém 3.200 MBq de fluciclovina (18F) à data e ToC. 
+A atividade por frasco para injetáveis varia entre 3.200 MBq e 32.000 MBq à data e ToC. 
+- Os outros componentes são citrato de sódio, ácido clorídrico concentrado, hidróxido de sódio e 
+água para preparações injetáveis (ver secção 2 “Axumin contém sódio") 
+-<br />
+Qual o aspeto de Axumin e conteúdo da embalagem 
+Axumin é uma solução límpida e incolor, acondicionada num frasco para injetáveis de vidro de 10 ml 
+ou 15 ml. </p>
+<p>Axumin 1.600 MBq/mL solução injetável 
+Cada frasco para injetáveis multidose contém 1 a 10 ml de solução, correspondente a 1.600 a 
+16.000 MBq à data e ToC. </p>
+<p>Axumin 3.200 MBq/mL solução injetável 
+Cada frasco para injetáveis multidose contém 1 a 10 ml de solução, correspondente a 3.200 a 
+32.000 MBq à data e ToC. </p>
+<p>Apresentação: 1 frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Blue Earth Diagnostics Ireland Ltd, 6th Floor, 2 Grand Canal Square, Dublin 2, Irlanda  </p>
+<p>Fabricante 
+Seibersdorf Labor GmbH, 2444 Seibersdorf, Áustria. </p>
+<p>Norsk medisinsk syklotronsenter AS, 0372 Oslo, Noruega. </p>
+<p>Nucleis SA, 4000 Liège, Bélgica. </p>
+<p>Advanced Accelerator Applications Molecular Imaging Italy S.r.l., 47014, Meldola (FC), Itália </p>
+<p>Synektik Pharma Sp. z o.o., 96-320 Mszczonów, Polônia </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -510,6 +736,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-e7c357e85455d1fe389fd3b297f16867"
 * entry[0].resource = composition-da-e7c357e85455d1fe389fd3b297f16867
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe7c357e85455d1fe389fd3b297f16867"
+* entry[=].resource = mpe7c357e85455d1fe389fd3b297f16867
+                            
+                    
+Instance: bundlepackageleaflet-pt-e7c357e85455d1fe389fd3b297f16867
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for axumin Package Leaflet for language pt"
+Description: "ePI document Bundle for axumin Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-e7c357e85455d1fe389fd3b297f16867"
+* entry[0].resource = composition-pt-e7c357e85455d1fe389fd3b297f16867
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpe7c357e85455d1fe389fd3b297f16867"
@@ -611,6 +859,18 @@ RuleSet: e7c357e85455d1fe389fd3b297f16867ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-e7c357e85455d1fe389fd3b297f16867) // axumin pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

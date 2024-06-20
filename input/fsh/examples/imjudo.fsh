@@ -1251,6 +1251,797 @@ kasseres. </p>
 
 
 
+Instance: composition-pt-7abe5e4c0a96659ff75905a068c8e8d2
+InstanceOf: CompositionUvEpi
+Title: "Composition for imjudo Package Leaflet"
+Description:  "Composition for imjudo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7abe5e4c0a96659ff75905a068c8e8d2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - imjudo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é IMJUDO e para que é utilizado  </li>
+<li>O que precisa de saber antes de lhe ser administrado IMJUDO  </li>
+<li>Como lhe é administrado IMJUDO  </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar IMJUDO  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é imjudo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é imjudo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IMJUDO é um medicamento anticancerígeno. Contém a substância ativa tremelimumab, que é um tipo 
+de medicamento chamado anticorpo monoclonal. Este medicamento foi desenhado para reconhecer 
+uma substância alvo específica no corpo. IMJUDO atua para ajudar o seu sistema imunitário a 
+combater o seu cancro. </p>
+<p>IMJUDO em combinação com durvalumab é utilizado para tratar um tipo de cancro do fígado, 
+chamado carcinoma hepatocelular (CHC) avançado ou irressecável. É utilizado quando o seu CHC: </p>
+<ul>
+<li>
+<p>não pode ser removido por cirurgia (irressecável), e </p>
+</li>
+<li>
+<p>pode ter-se espalhado para dentro do seu fígado ou para outras partes do corpo. </p>
+</li>
+</ul>
+<p>IMJUDO é utilizado para tratar um tipo de cancro do pulmão chamado cancro do pulmão de 
+não-pequenas células avançado em adultos. Será utilizado em associação com outros medicamentos 
+anticancerígenos (durvalumab e quimioterapia). </p>
+<p>Dado que IMJUDO será administrado em associação com outros medicamentos anticancerígenos, é 
+importante que também leia o folheto informativo destes medicamentos. Se tiver dúvidas sobre estes 
+medicamentos, fale com o seu médico. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar imjudo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar imjudo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe deve ser administrado IMJUDO 
+se tem alergia ao tremelimumab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). Fale com o seu médico se não tem a certeza. </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico antes de lhe ser administrado IMJUDO se: </p>
+<ul>
+<li>
+<p>tem uma doença autoimune (uma doença em que o sistema imunitário do corpo ataca as suas 
+próprias células) </p>
+</li>
+<li>
+<p>recebeu um transplante de órgão </p>
+</li>
+<li>
+<p>tem problemas pulmonares ou respiratórios </p>
+</li>
+<li>
+<p>tem problemas no fígado. </p>
+</li>
+</ul>
+<p>Fale com o seu médico antes de lhe ser administrado IMJUDO, se alguma das situações acima se 
+aplicar a si. </p>
+<p>Quando lhe é administrado IMJUDO, pode ter alguns efeitos indesejáveis graves. </p>
+<p>O seu médico pode dar-lhe outros medicamentos para prevenir complicações mais graves e ajudar a 
+reduzir os seus sintomas. O seu médico pode adiar a próxima dose de IMJUDO ou parar o seu 
+tratamento com IMJUDO. Fale com o seu médico imediatamente, se tiver qualquer uma das 
+seguintes situações: </p>
+<ul>
+<li>
+<p>aparecimento ou agravamento de tosse; falta de ar; dor no peito (podem ser sinais de inflamação 
+dos pulmões) </p>
+</li>
+<li>
+<p>má disposição (náuseas) ou vómitos; sentir menos fome; dor no lado direito do seu estômago; 
+amarelecimento da pele ou da parte branca dos olhos; sonolência; urina escura ou hemorragias 
+ou aparecimento de nódoas negras mais facilmente do que o normal (podem ser sinais de 
+inflamação do fígado) </p>
+</li>
+<li>
+<p>diarreia ou mais defecações do que o habitual; fezes negras, tipo alcatrão ou pegajosas com 
+sangue ou muco; dor de estômago grave ou sensibilidade ao toque (podem ser sinais de 
+inflamação intestinal, ou perfuração do intestino) </p>
+</li>
+<li>
+<p>aumento da frequência cardíaca; cansaço extremo; aumento de peso ou perda de peso; tonturas 
+ou desmaios; perda de cabelo; sensação de frio; prisão de ventre; dor de cabeça persistente ou 
+dor de cabeça invulgar (podem ser sinais de inflamação das glândulas, especialmente a tiroide, 
+suprarrenal, hipófise ou pâncreas) </p>
+</li>
+<li>
+<p>sentir mais apetite ou sede do que o habitual; urinar com mais frequência do que o habitual; 
+açúcar elevado no sangue; respiração rápida e profunda; confusão; um cheiro doce no seu hálito; 
+um sabor doce ou metálico na sua boca ou um odor diferente na sua urina ou suor (podem ser 
+sinais de diabetes) </p>
+</li>
+<li>
+<p>diminuição da quantidade de urina (pode ser sinal de inflamação dos rins) </p>
+</li>
+<li>
+<p>erupção na pele; comichão; bolhas na pele ou feridas na boca ou em outras superfícies húmidas 
+(podem ser sinais de inflamação da pele) </p>
+</li>
+<li>
+<p>dor no peito, falta de ar; batimentos do coração irregulares (podem ser sinais de inflamação do 
+músculo do coração) </p>
+</li>
+<li>
+<p>dor muscular, fraqueza ou cansaço rápido dos músculos (podem ser sinais de inflamação ou 
+outros problemas dos músculos) </p>
+</li>
+<li>
+<p>arrepios ou tremores, comichão ou erupção na pele, vermelhidão, falta de ar ou pieira, tonturas 
+ou febre (podem ser sinais de reações relacionadas com a perfusão) </p>
+</li>
+<li>
+<p>convulsões; rigidez do pescoço; dor de cabeça; febre, arrepios; vómitos; sensibilidade dos olhos 
+à luz; confusão e sonolência (podem ser sinais de inflamação do cérebro ou da membrana à 
+volta do cérebro e da medula espinhal) </p>
+</li>
+<li>
+<p>dor; fraqueza e paralisia nas mãos, pés ou braços (podem ser sinais de inflamação dos nervos, 
+síndrome de Guillain-Barré) </p>
+</li>
+<li>
+<p>dor, inchaço e/ou rigidez nas articulações (podem ser sinais de inflamação das articulações, 
+artrite imunomediada) </p>
+</li>
+<li>
+<p>vermelhidão dos olhos, dor nos olhos, sensibilidade à luz, e/ou alteração na visão (podem ser 
+sinais e sintomas de inflamação do olho, uveíte) </p>
+</li>
+<li>
+<p>hemorragias (nasais ou gengivais) e/ou nódoas negras (podem ser sinais de baixo número de 
+plaquetas). </p>
+</li>
+</ul>
+<p>Fale com o seu médico imediatamente, se tiver algum dos sintomas listados acima. </p>
+<p>Crianças e adolescentes 
+IMJUDO não deve ser administrado a crianças e adolescentes com idade inferior a 18 anos, uma vez 
+que não foi estudado nestes doentes. </p>
+<p>Outros medicamentos e IMJUDO 
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. Isto inclui medicamentos à base de plantas e medicamentos obtidos sem receita.  </p>
+<p>Gravidez e fertilidade 
+Este medicamento não é recomendado durante a gravidez. Informe o seu médico se está grávida, se 
+pensa estar grávida ou se planeia engravidar. Se é uma mulher com potencial para engravidar, tem de 
+utilizar métodos contracetivos eficazes enquanto estiver a ser tratada com IMJUDO e durante pelo 
+menos 3 meses após a sua última dose. </p>
+<p>Amamentação 
+Informe o seu médico se estiver a amamentar. Desconhece-se se IMJUDO passa para o leite materno. 
+Pode ser aconselhada a não amamentar durante o tratamento e durante pelo menos 3 meses após a sua 
+última dose. </p>
+<p>Condução de veículos e utilização de máquinas 
+É pouco provável que IMJUDO afete a sua capacidade de conduzir ou utilizar máquinas. No entanto, 
+se tiver efeitos indesejáveis que afetam a sua capacidade de concentração e reação, deve ser cuidadoso 
+ao conduzir ou utilizar máquinas. </p>
+<p>IMJUDO contém baixo teor de sódio 
+IMJUDO contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente "isento de 
+sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar imjudo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar imjudo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IMJUDO ser-lhe-á administrado num hospital ou clínica, sob a supervisão de um médico experiente. O 
+seu médico irá administrar-lhe IMJUDO gota a gota na sua veia (perfusão) durante aproximadamente 
+1 hora.  </p>
+<p>É administrado em associação com durvalumab para o cancro do fígado.  </p>
+<p>A dose recomendada:  </p>
+<ul>
+<li>
+<p>Se pesa 40 kg ou mais, a dose é de 300 mg em dose única. </p>
+</li>
+<li>
+<p>Se pesa menos de 40 kg, a dose será de 4 mg por kg do seu peso corporal. </p>
+</li>
+</ul>
+<p>Quando IMJUDO é administrado em associação com durvalumab para o seu cancro do fígado, será 
+administrado IMJUDO em primeiro lugar e depois durvalumab.  </p>
+<p>É administrado em associação com durvalumab e quimioterapia para o cancro do pulmão.  </p>
+<p>A dose recomendada:  </p>
+<ul>
+<li>
+<p>Se pesa 34 kg ou mais, a dose é de 75 mg a cada 3 semanas. </p>
+</li>
+<li>
+<p>Se pesa menos de 34 kg, a dose será de 1 mg por kg do seu peso corporal a cada 3 semanas. </p>
+</li>
+</ul>
+<p>Geralmente, irá receber no total 5 doses de IMJUDO. As primeiras 4 doses são administradas na 
+semana 1, 4, 7 e 10. A quinta dose é geralmente administrada 6 semanas depois, na semana 16. O seu 
+médico irá determinar exatamente quantos tratamentos são necessários. </p>
+<p>Quando IMJUDO é administrado em associação com durvalumab e quimioterapia, será administrado 
+IMJUDO em primeiro lugar, depois durvalumab e depois quimioterapia.  </p>
+<p>Se faltar a uma consulta 
+É muito importante que não falhe uma dose deste medicamento. Se faltar a uma consulta, contacte o 
+seu médico imediatamente para remarcar a sua consulta. </p>
+<p>Caso ainda tenha dúvidas sobre o seu tratamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Quando recebe IMJUDO, pode ter alguns efeitos indesejáveis graves. Ver secção 2 para uma lista 
+detalhada dos mesmos.  </p>
+<p>Fale com o seu médico imediatamente se tiver algum dos seguintes efeitos indesejáveis, que foram 
+comunicados em estudos clínicos com doentes a receber IMJUDO em associação com durvalumab. </p>
+<p>Os seguintes efeitos indesejáveis foram comunicados em ensaios clínicos em doentes a receber 
+IMJUDO em associação com durvalumab: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>atividade reduzida da glândula tiroide que pode provocar cansaço ou aumento de peso </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>alteração nas análises ao fígado (aspartato aminotransferase aumentada; alanina 
+aminotransferase aumentada) </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>inchaço das pernas (edema periférico) </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>infeções das vias respiratórias superiores </p>
+</li>
+<li>
+<p>infeção pulmonar (pneumonia) </p>
+</li>
+<li>
+<p>doença semelhante à gripe </p>
+</li>
+<li>
+<p>infeções dos tecidos moles dos dentes e da boca </p>
+</li>
+<li>
+<p>atividade excessiva da glândula tiroide que pode causar batimentos cardíacos acelerados ou 
+perda de peso </p>
+</li>
+<li>
+<p>inflamação da glândula tiroide (tiroidite) </p>
+</li>
+<li>
+<p>níveis reduzidos das hormonas produzidas pelas glândulas suprarrenais que podem causar 
+cansaço </p>
+</li>
+<li>
+<p>inflamação dos pulmões (pneumonite) </p>
+</li>
+<li>
+<p>alterações nas análises da função pancreática </p>
+</li>
+<li>
+<p>inflamação da mucosa ou intestino (colite) </p>
+</li>
+<li>
+<p>inflamação do pâncreas (pancreatite) </p>
+</li>
+<li>
+<p>inflamação do fígado (hepatite) </p>
+</li>
+<li>
+<p>inflamação da pele </p>
+</li>
+<li>
+<p>suores noturnos </p>
+</li>
+<li>
+<p>dor muscular (mialgia) </p>
+</li>
+<li>
+<p>alterações nas análises da função renal (creatinina no sangue aumentada) </p>
+</li>
+<li>
+<p>dor ao urinar (disúria) </p>
+</li>
+<li>
+<p>reação à perfusão do medicamento que pode causar febre ou afrontamentos </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>infeção fúngica na boca </p>
+</li>
+<li>
+<p>atividade reduzida da glândula hipófise; inflamação da glândula hipófise </p>
+</li>
+<li>
+<p>uma condição em que os músculos se tornam frágeis e há uma fadiga rápida dos músculos 
+(miastenia gravis) </p>
+</li>
+<li>
+<p>inflamação da membrana à volta da medula espinhal e cérebro (meningite) </p>
+</li>
+<li>
+<p>inflamação do coração (miocardite) </p>
+</li>
+<li>
+<p>voz rouca (disfonia) </p>
+</li>
+<li>
+<p>cicatrização do tecido pulmonar </p>
+</li>
+<li>
+<p>bolhas na pele </p>
+</li>
+<li>
+<p>inflamação dos músculos (miosite) </p>
+</li>
+<li>
+<p>inflamação dos músculos e vasos </p>
+</li>
+<li>
+<p>inflamação dos rins (nefrite) que pode diminuir a quantidade da sua urina </p>
+</li>
+<li>
+<p>inflamação das articulações (artrite imunomediada) </p>
+</li>
+</ul>
+<p>Raros (podem afetar até 1 em cada 1000 pessoas) </p>
+<ul>
+<li>inflamação do olho (uveíte) </li>
+</ul>
+<p>Outros efeitos indesejáveis que foram comunicados com frequência desconhecida (não pode ser 
+calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>baixo número de plaquetas com sinais de hemorragia excessiva e nódoas negras 
+(trombocitopenia imune) </p>
+</li>
+<li>
+<p>diabetes insípida </p>
+</li>
+<li>
+<p>diabetes mellitus tipo 1 </p>
+</li>
+<li>
+<p>inflamação dos nervos (síndrome de Guillain-Barré) </p>
+</li>
+<li>
+<p>inflamação do cérebro (encefalite) </p>
+</li>
+<li>
+<p>buraco no intestino (perfuração intestinal) </p>
+</li>
+<li>
+<p>inflamação da bexiga (cistite). Os sinais e sintomas podem incluir urinar frequentemente e/ou 
+com dor, necessidade urgente de urinar, sangue na urina, dor ou pressão na parte inferior do 
+abdómen. </p>
+</li>
+</ul>
+<p>Os seguintes efeitos indesejáveis foram comunicados em ensaios clínicos em doentes a receber 
+IMJUDO em associação com durvalumab e quimioterapia baseada em platina: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>infeções das vias respiratórias superiores </p>
+</li>
+<li>
+<p>infeção pulmonar (pneumonia) </p>
+</li>
+<li>
+<p>baixo número de glóbulos vermelhos </p>
+</li>
+<li>
+<p>baixo número de glóbulos brancos </p>
+</li>
+<li>
+<p>baixo número de plaquetas </p>
+</li>
+<li>
+<p>atividade reduzida da glândula tiroide que pode provocar cansaço ou aumento de peso </p>
+</li>
+<li>
+<p>diminuição do apetite </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>náuseas </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>prisão de ventre </p>
+</li>
+<li>
+<p>alteração nas análises ao fígado (aspartato aminotransferase aumentada; alanina 
+aminotransferase aumentada) </p>
+</li>
+<li>
+<p>perda de cabelo </p>
+</li>
+<li>
+<p>erupção na pele </p>
+</li>
+<li>
+<p>comichão </p>
+</li>
+<li>
+<p>dor nas articulações (artralgia) </p>
+</li>
+<li>
+<p>sentir-se cansado ou fraco </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>doença semelhante à gripe </p>
+</li>
+<li>
+<p>infeção fúngica na boca </p>
+</li>
+<li>
+<p>baixo número de glóbulos brancos com sinais de febre </p>
+</li>
+<li>
+<p>baixo número de glóbulos vermelhos, glóbulos brancos e plaquetas (pancitopenia) </p>
+</li>
+<li>
+<p>atividade excessiva da glândula tiroide que pode causar batimentos cardíacos acelerados ou 
+perda de peso </p>
+</li>
+<li>
+<p>níveis reduzidos das hormonas produzidas pelas glândulas suprarrenais que podem causar 
+cansaço </p>
+</li>
+<li>
+<p>atividade reduzida da glândula hipófise; inflamação da glândula hipófise </p>
+</li>
+<li>
+<p>inflamação da glândula tiroide (tiroidite) </p>
+</li>
+<li>
+<p>inflamação nos nervos que causa dormência, fraqueza, formigueiro ou ardor nos braços e nas 
+pernas (neuropatia periférica) </p>
+</li>
+<li>
+<p>inflamação dos pulmões (pneumonite) </p>
+</li>
+<li>
+<p>voz rouca (disfonia) </p>
+</li>
+<li>
+<p>inflamação da boca ou lábios </p>
+</li>
+<li>
+<p>alterações nas análises ao pâncreas </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>inflamação da mucosa ou intestino (colite) </p>
+</li>
+<li>
+<p>inflamação do pâncreas (pancreatite) </p>
+</li>
+<li>
+<p>inflamação do fígado que pode causar náuseas ou sentir menos fome (hepatite) </p>
+</li>
+<li>
+<p>dor muscular (mialgia) </p>
+</li>
+<li>
+<p>alterações nas análises da função renal (creatinina no sangue aumentada) </p>
+</li>
+<li>
+<p>dor ao urinar (disúria) </p>
+</li>
+<li>
+<p>inchaço das pernas (edema periférico) </p>
+</li>
+<li>
+<p>reação à perfusão do medicamento que pode causar febre ou afrontamentos </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>infeções dos tecidos moles dos dentes e da boca </p>
+</li>
+<li>
+<p>baixo número de plaquetas com sinais de hemorragia excessiva e nódoas negras 
+(trombocitopenia imune) </p>
+</li>
+<li>
+<p>diabetes insípida </p>
+</li>
+<li>
+<p>diabetes mellitus tipo 1 </p>
+</li>
+<li>
+<p>inflamação do cérebro (encefalite) </p>
+</li>
+<li>
+<p>inflamação do coração (miocardite) </p>
+</li>
+<li>
+<p>cicatrização do tecido pulmonar </p>
+</li>
+<li>
+<p>bolhas na pele </p>
+</li>
+<li>
+<p>suores noturnos </p>
+</li>
+<li>
+<p>inflamação da pele </p>
+</li>
+<li>
+<p>inflamação do músculo (miosite) </p>
+</li>
+<li>
+<p>inflamação dos músculos e vasos </p>
+</li>
+<li>
+<p>inflamação dos rins (nefrite) que pode diminuir a quantidade da sua urina </p>
+</li>
+<li>
+<p>inflamação da bexiga (cistite). Os sinais e sintomas podem incluir urinar frequentemente e/ou 
+com dor, necessidade urgente de urinar, sangue na urina, dor ou pressão na parte inferior do 
+abdómen </p>
+</li>
+<li>
+<p>inflamação do olho (uveíte) </p>
+</li>
+<li>
+<p>inflamação das articulações (artrite imunomediada) </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis que foram comunicados com frequência desconhecida (não pode ser 
+calculada a partir dos dados disponíveis) </p>
+<ul>
+<li>
+<p>uma condição em que os músculos se tornam frágeis e há uma fadiga rápida dos músculos 
+(miastenia gravis) </p>
+</li>
+<li>
+<p>inflamação dos nervos (Síndrome de Guillain Barré) </p>
+</li>
+<li>
+<p>inflamação da membrana à volta da medula espinhal e cérebro (meningite) </p>
+</li>
+<li>
+<p>buraco no intestino (perfuração intestinal) </p>
+</li>
+</ul>
+<p>Contacte imediatamente o seu médico se tiver algum dos efeitos indesejáveis listados acima. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através 
+do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, 
+estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar imjudo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar imjudo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IMJUDO ser-lhe-á administrado num hospital ou clínica e o profissional de saúde será responsável 
+pela sua conservação.  </p>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
+frasco para injetáveis, após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C). 
+Não congelar.<br />
+Conservar na embalagem de origem para proteger da luz. </p>
+<p>Não utilize este medicamento se estiver turvo, descolorado ou conter partículas visíveis. </p>
+<p>Não guarde qualquer porção não utilizada da solução de perfusão para reutilização. Qualquer 
+medicamento não utilizado ou resíduos devem ser eliminados de acordo com os requisitos locais. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de IMJUDO 
+A substância ativa é tremelimumab. </p>
+<p>Cada ml de concentrado para solução para perfusão contém 20 mg de tremelimumab. </p>
+<p>Um frasco para injetáveis contém 300 mg de tremelimumab em 15 ml de concentrado ou 25 mg de 
+tremelimumab em 1,25 ml de concentrado. </p>
+<p>Os outros componentes são: histidina, cloridrato de histidina mono-hidratado, trealose di-hidratada, 
+edetato dissódico di-hidratado (ver secção 2 “IMJUDO contém baixo teor de sódio"), polissorbato 80, 
+água para preparações injetáveis. </p>
+<p>Qual o aspeto de IMJUDO e conteúdo da embalagem 
+IMJUDO concentrado para solução para perfusão (concentrado estéril) é uma solução sem 
+conservantes, límpida a ligeiramente opalescente, incolor a ligeiramente amarela, isenta de partículas 
+visíveis. </p>
+<p>Está disponível em embalagens contendo 1 frasco para injetáveis de vidro de 1,25 ml de concentrado 
+ou 1 frasco para injetáveis de vidro de 15 ml de concentrado. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+AstraZeneca AB 
+SE-151 85 Södertälje 
+Suécia </p>
+<p>Fabricante 
+AstraZeneca AB 
+Gärtunavägen 
+SE-152 57 Södertälje 
+Suécia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+AstraZeneca S.A./N.V. 
+Tel: +32 2 370 48<br />
+Lietuva 
+UAB AstraZeneca Lietuva 
+Tel: +370 5 2660 
+България 
+АстраЗенека България ЕООД 
+Тел.: +359 24455 
+Luxembourg/Luxemburg 
+AstraZeneca S.A./N.V. 
+Tél/Tel: +32 2 370 48<br />
+Česká republika 
+AstraZeneca Czech Republic s.r.o. 
+Tel: +420 222 807<br />
+Magyarország 
+AstraZeneca Kft. 
+Tel.: +36 1 883 6 
+Danmark 
+AstraZeneca A/S 
+Tlf: +45 43 66 64<br />
+Malta 
+Associated Drug Co. Ltd 
+Tel: +356 2277 8 
+Deutschland 
+AstraZeneca GmbH 
+Tel: +49 40 809034 
+Nederland 
+AstraZeneca BV 
+Tel: +31 85 808 9<br />
+Eesti 
+AstraZeneca<br />
+Tel: +372 6549<br />
+Norge 
+AstraZeneca AS 
+Tlf: +47 21 00 64<br />
+Ελλάδα 
+AstraZeneca A.E. 
+Τηλ: +30 210 6871 
+Österreich 
+AstraZeneca Österreich GmbH 
+Tel: +43 1 711 31 0 </p>
+<p>España 
+AstraZeneca Farmacéutica Spain, S.A. 
+Tel: +34 91 301 91<br />
+Polska 
+AstraZeneca Pharma Poland Sp. z o.o. 
+Tel.: +48 22 245 73<br />
+France 
+AstraZeneca 
+Tél: +33 1 41 29 40<br />
+Portugal 
+AstraZeneca Produtos Farmacêuticos, Lda. 
+Tel: +351 21 434 61<br />
+Hrvatska 
+AstraZeneca d.o.o. 
+Tel: +385 1 4628<br />
+România 
+AstraZeneca Pharma SRL 
+Tel: +40 21 317 60<br />
+Ireland 
+AstraZeneca Pharmaceuticals (Ireland) 
+DAC 
+Slovenija 
+AstraZeneca UK Limited 
+Tel: +386 1 51 35 Tel: +353 1609 7 </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+AstraZeneca AB, o.z. 
+Tel: +421 2 5737 7777  </p>
+<p>Italia 
+AstraZeneca S.p.A. 
+Tel: +39 02 9801 1 </p>
+<p>Suomi/Finland 
+AstraZeneca Oy 
+Puh/Tel: +358 10 23<br />
+Κύπρος 
+Αλέκτωρ Φαρµακευτική Λτδ 
+Τηλ: +357 22490 
+Sverige 
+AstraZeneca AB 
+Tel: +46 8 553 26<br />
+Latvija 
+SIA AstraZeneca Latvija 
+Tel: +371 67377 
+United Kingdom (Northern Ireland) 
+AstraZeneca UK Ltd 
+Tel: +44 1582 836  </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1292,6 +2083,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-7abe5e4c0a96659ff75905a068c8e8d2"
 * entry[0].resource = composition-da-7abe5e4c0a96659ff75905a068c8e8d2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7abe5e4c0a96659ff75905a068c8e8d2"
+* entry[=].resource = mp7abe5e4c0a96659ff75905a068c8e8d2
+                            
+                    
+Instance: bundlepackageleaflet-pt-7abe5e4c0a96659ff75905a068c8e8d2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imjudo Package Leaflet for language pt"
+Description: "ePI document Bundle for imjudo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-7abe5e4c0a96659ff75905a068c8e8d2"
+* entry[0].resource = composition-pt-7abe5e4c0a96659ff75905a068c8e8d2
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp7abe5e4c0a96659ff75905a068c8e8d2"
@@ -1393,6 +2206,18 @@ RuleSet: 7abe5e4c0a96659ff75905a068c8e8d2ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-7abe5e4c0a96659ff75905a068c8e8d2) // imjudo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

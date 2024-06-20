@@ -591,6 +591,323 @@ hjemmeside http://www.ema.europa.eu.  </p>         </div>"""
 
 
 
+Instance: composition-pt-28b6beabb1138dcf80cd8cb464115640
+InstanceOf: CompositionUvEpi
+Title: "Composition for veoza Package Leaflet"
+Description:  "Composition for veoza Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp28b6beabb1138dcf80cd8cb464115640)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - veoza"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto 
+1. O que é Veoza e para que é utilizado 
+2. O que precisa de saber antes de tomar Veoza 
+3. Como tomar Veoza 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Veoza 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é veoza e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é veoza e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Veoza contém a substância ativa fezolinetante. Veoza é um medicamento não hormonal utilizado em 
+mulheres na menopausa para reduzir os sintomas vasomotores (SVM) moderados a graves associados 
+à menopausa. Os SVM também são conhecidos por afrontamentos ou suores noturnos. </p>
+<p>Antes da menopausa, existe um equilíbrio entre os estrogénios, uma hormona sexual feminina, e uma 
+proteína produzida pelo cérebro chamada neurocinina B (NKB) que regula o centro de controlo da 
+temperatura do cérebro. À medida que o corpo atravessa a menopausa, os níveis de estrogénios 
+diminuem e este equilíbrio é alterado, o que pode resultar em SVM. Através do bloqueio da ligação da 
+NKB no centro de controlo da temperatura, Veoza reduz o número e a intensidade de afrontamentos e 
+suores noturnos. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar veoza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar veoza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Veoza 
+- se tem alergia ao fezolinetante ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). 
+- com medicamentos conhecidos como inibidores moderados ou fortes do CYP1A2 (p. ex., 
+contracetivos com etinilestradiol, mexiletina, enoxacina, fluvoxamina). Estes medicamentos 
+podem reduzir a decomposição de Veoza no corpo, levando a um maior número de efeitos 
+indesejáveis. Consulte “Outros medicamentos e Veoza" abaixo. 
+- se está grávida ou se pensa estar grávida. 
+Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de tomar Veoza 
+- o seu médico poderá querer saber o seu histórico médico completo, incluindo antecedentes 
+familiares. 
+- se tem atualmente uma doença do fígado ou problemas no fígado. O seu médico poderá querer 
+monitorizar as suas enzimas hepáticas periodicamente. 
+- se tem problemas nos rins. O seu médico poderá não lhe prescrever este medicamento. 
+- se tem ou já teve previamente cancro da mama ou outro cancro relacionado com o estrogénio. 
+Durante o tratamento, o seu médico poderá não lhe prescrever este medicamento. 
+- se está a tomar terapia hormonal de substituição com estrogénios (medicamentos utilizados para 
+tratar os sintomas da deficiência estrogénica). O seu médico poderá não lhe prescrever este 
+medicamento. 
+- se tem antecedentes de convulsões. O seu médico poderá não lhe prescrever este medicamento. 
+Crianças e adolescentes 
+Não dê este medicamento a crianças e adolescentes com menos de 18 anos de idade, uma vez que este 
+medicamento se destina apenas a mulheres em menopausa. 
+Outros medicamentos e Veoza 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos, incluindo medicamentos sem receita médica. </p>
+<p>Determinados medicamentos podem aumentar o risco de efeitos indesejáveis de Veoza, através do 
+aumento da quantidade de Veoza no sangue. Estes medicamentos não podem ser tomados enquanto 
+estiver a tomar Veoza, e incluem: 
+- Fluvoxamina (um medicamento utilizado para tratar a depressão e a ansiedade) 
+- Enoxacina (um medicamento utilizado para tratar infeções) 
+- Mexiletina (um medicamento utilizado para tratar os sintomas de rigidez muscular) 
+- Contracetivos com etinilestradiol (medicamentos utilizados para prevenir a gravidez) 
+Gravidez e amamentação 
+Não tome este medicamento se está grávida ou a amamentar, ou se pensa que poderá estar grávida. 
+Este medicamento destina-se a ser utilizado apenas por mulheres na menopausa. Se engravidar 
+enquanto estiver a tomar este medicamento, pare de o tomar imediatamente e fale com o seu médico. 
+As mulheres com potencial para engravidar devem utilizar métodos contracetivos não hormonais 
+eficazes. 
+Condução de veículos e utilização de máquinas 
+Veoza não tem qualquer efeito sobre a capacidade de conduzir ou utilizar máquinas. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar veoza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar veoza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico ou farmacêutico. Fale com o seu 
+médico ou farmacêutico se tiver dúvidas. </p>
+<p>A dose recomendada é de um comprimido de 45 mg tomado por via oral, uma vez por dia. 
+Instruções para a utilização correta 
+- Tome este medicamento aproximadamente à mesma hora todos os dias. 
+- Engula o comprimido inteiro, com líquidos. Não parta, esmague, nem mastigue o comprimido. 
+- Pode tomar com ou sem alimentos. 
+Se tomar mais Veoza do que deveria 
+Se tiver tomado mais comprimidos do que o indicado, ou se alguém tomar os seus comprimidos 
+acidentalmente, fale com o seu médico ou farmacêutico imediatamente. </p>
+<p>Os sintomas de sobredosagem podem incluir dores de cabeça, sensação de doença (náuseas) ou uma 
+sensação de formigueiro ou de picadas (parestesia). 
+Caso se tenha esquecido de tomar Veoza 
+Caso se tenha esquecido de tomar o seu medicamento, tome a dose em falta assim que se lembrar no 
+mesmo dia, e se faltarem mais de 12 horas até à dose agendada seguinte. Se faltarem menos de 
+12 horas até à dose agendada seguinte, não tome a dose em falta. Retome o horário habitual no dia 
+seguinte. Não tome uma dose a dobrar para compensar uma dose individual que se esqueceu de tomar. </p>
+<p>Se se esquecer de várias doses, fale com o seu médico e siga o conselho que ele lhe der. 
+Se parar de tomar Veoza 
+Não pare de tomar este medicamento, a não ser que receba indicação do seu médico para o fazer. Se 
+decidir parar de tomar este medicamento antes de terminar o regime de tratamento prescrito, deverá 
+falar com o seu médico em primeiro lugar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) 
+- diarreia 
+- dificuldade em dormir (insónia) 
+- aumento nos níveis de determinadas enzimas do fígado (ALT ou AST), observado em análises 
+de sangue 
+- dor de estômago (abdominal) 
+Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar veoza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar veoza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e blister, após 
+EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
+ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Veoza 
+- A substância ativa é fezolinetante. Cada comprimido revestido por película contém 45 mg de 
+fezolinetante. 
+- Os outros componentes são: 
+Núcleo do comprimido: manitol (E421), hidroxipropilcelulose (E463), hidroxipropilcelulose de 
+baixa substituição (E463a), celulose microcristalina (E460), estearato de magnésio (E470b). 
+Película de revestimento: hipromelose (E464), talco (E553b), macrogol (E1521), dióxido de 
+titânio (E171), vermelho de óxido de ferro (E172). 
+Qual o aspeto de Veoza e conteúdo da embalagem 
+Veoza 45 mg comprimidos são comprimidos revestidos por película (comprimidos) redondos, 
+vermelho-claros, com o logótipo da empresa e “645" em relevo no mesmo lado. </p>
+<p>Veoza está disponível em blisters em doses unitárias em PA/alumínio/PVC/alumínio, em caixas. </p>
+<p>Tamanhos das embalagens: 10 × 1, 28 × 1, 30 × 1 e 100 × 1 comprimidos revestidos por película. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. 
+Titular da Autorização de Introdução no Mercado 
+Astellas Pharma Europe B.V. 
+Sylviusweg 2333 BE Leiden 
+Países Baixos </p>
+<p>Fabricante 
+Delpharm Meppel B.V. 
+Hogemaat 2 
+7942 JG Meppel 
+Países Baixos </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Astellas Pharma B.V. Branch 
+Tél/Tel: +32 (0)2 5580 
+Lietuva 
+Astellas Pharma d.o.o. 
+Tel.: +370 37 408<br />
+България 
+Астелас Фарма ЕООД 
+Teл.: +359 2 862 53<br />
+Luxembourg/Luxemburg 
+Astellas Pharma B.V. Branch 
+Belgique/Belgien 
+Tél/Tel: +32 (0)2 5580 
+Česká republika 
+Astellas Pharma s.r.o. 
+Tel: +420 221 401<br />
+Magyarország 
+Astellas Pharma Kft. 
+Tel.: +36 1 577 8 
+Danmark 
+Astellas Pharma a/s 
+Tlf: +45 43 430 
+Malta 
+Astellas Pharmaceuticals AEBE 
+Tel: +30 210 8189 
+Deutschland 
+Astellas Pharma GmbH 
+Tel.: +49 (0)89 454 
+Nederland 
+Astellas Pharma B.V. 
+Tel: +31 (0)71 5455 
+Eesti 
+Astellas Pharma d.o.o. 
+Tel: +372 6 056<br />
+Norge 
+Astellas Pharma 
+Tlf: +47 66 76 46<br />
+Ελλάδα 
+Astellas Pharmaceuticals AEBE 
+Τηλ: +30 210 8189 
+Österreich 
+Astellas Pharma Ges.m.b.H. 
+Tel.: +43 (0)1 8772 
+España 
+Astellas Pharma S.A. 
+Tel: +34 91 4952 
+Polska 
+Astellas Pharma Sp.z.o.o. 
+Tel.: +48 225451 France 
+Astellas Pharma S.A.S. 
+Tél: +33 (0)1 55917 
+Portugal 
+Astellas Farma, Lda. 
+Tel: +351 21 4401 
+Hrvatska 
+Astellas d.o.o. 
+Tel: +385 1670 0 
+România 
+S.C. Astellas Pharma SRL 
+Tel: +40 (0)21 361 04<br />
+Ireland 
+Astellas Pharma Co. Ltd. 
+Tel: +353 (0)1 4671 
+Slovenija 
+Astellas Pharma d.o.o. 
+Tel: +386 14011 
+Ísland 
+Vistor hf 
+Sími: +354 535 7 
+Slovenská republika 
+Astellas Pharma s.r.o. 
+Tel: +421 2 4444 2 
+Italia 
+Astellas Pharma S.p.A. 
+Tel: +39 (0)2 921 
+Suomi/Finland 
+Astellas Pharma 
+Puh/Tel: +358 (0)9 85606 
+Κύπρος 
+Ελλάδα 
+Astellas Pharmaceuticals AEBE 
+Τηλ: +30 210 8189 
+Sverige 
+Astellas Pharma AB 
+Tel: +46 (0)40-650 15<br />
+Latvija 
+Astellas Pharma d.o.o. 
+Tel: +371 67 619 
+United Kingdom (Northern Ireland) 
+Astellas Pharma Co., Limited 
+Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5 </p>
+<p>Este folheto foi revisto pela última vez em    </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -632,6 +949,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-28b6beabb1138dcf80cd8cb464115640"
 * entry[0].resource = composition-da-28b6beabb1138dcf80cd8cb464115640
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp28b6beabb1138dcf80cd8cb464115640"
+* entry[=].resource = mp28b6beabb1138dcf80cd8cb464115640
+                            
+                    
+Instance: bundlepackageleaflet-pt-28b6beabb1138dcf80cd8cb464115640
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for veoza Package Leaflet for language pt"
+Description: "ePI document Bundle for veoza Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-28b6beabb1138dcf80cd8cb464115640"
+* entry[0].resource = composition-pt-28b6beabb1138dcf80cd8cb464115640
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp28b6beabb1138dcf80cd8cb464115640"
@@ -733,6 +1072,18 @@ RuleSet: 28b6beabb1138dcf80cd8cb464115640ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-28b6beabb1138dcf80cd8cb464115640) // veoza pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

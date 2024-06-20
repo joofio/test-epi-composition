@@ -539,6 +539,277 @@ og om, hvordan de behandles.  </p>
 
 
 
+Instance: composition-pt-b7b07dd0d126d4ea375a8a380bc3e7b9
+InstanceOf: CompositionUvEpi
+Title: "Composition for mepsevii Package Leaflet"
+Description:  "Composition for mepsevii Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb7b07dd0d126d4ea375a8a380bc3e7b9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - mepsevii"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Mepsevii e para que é utilizado  </li>
+<li>O que precisa de saber antes de receber Mepsevii  </li>
+<li>Como é que Mepsevii é administrado </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Mepsevii  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é mepsevii e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é mepsevii e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Mepsevii<br />
+O Mepsevii contém uma enzima chamada vestronidase alfa. Esta enzima pertence a um grupo de 
+medicamentos designados por terapêuticas de substituição enzimática. É utilizado em adultos e 
+crianças de todas as idades com MPS VII para tratar manifestações não neurológicas da doença 
+(mucopolissacaridose do tipo VII, também conhecida como síndrome de Sly).  </p>
+<p>O que é a MPS VII 
+A MPS VII é uma doença hereditária em que o corpo não produz uma quantidade suficiente de uma 
+enzima chamada beta-glucuronidase. 
+- Esta enzima ajuda a degradar os açúcares do corpo denominados mucopolissacáridos. 
+- Os mucopolissacáridos são produzidos pelo organismo e ajudam a desenvolver ossos, 
+cartilagem, pele e tendões. 
+- Estes açúcares são sempre reciclados   são produzidos novos açúcares e os já existentes são 
+decompostos.<br />
+- Sem beta-glucuronidase suficiente, partes destes açúcares acumulam-se nas células, provocando 
+lesões no corpo. </p>
+<p>Como atua Mepsevii<br />
+Este medicamento repõe a beta-glucuronidase — isto ajuda a decompor os açúcares armazenados nos 
+tecidos das pessoas que sofrem da doença MPS VII.<br />
+- O tratamento pode melhorar vários sinais e sintomas da doença, como dificuldades para 
+caminhar e o cansaço. </p>
+<p>O início precoce do tratamento em crianças pode deter o agravamento da doença e reduzir lesões 
+permanentes. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar mepsevii"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar mepsevii"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não deve receber Mepsevii 
+- Se alguma vez já teve uma reação alérgica à vestronidase alfa ou a qualquer outro componente 
+deste medicamento (indicados na secção 6).  </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico antes de receber Mepsevii. 
+Os efeitos do tratamento com vestronidase alfa devem ser avaliados periodicamente e a 
+descontinuação do tratamento deve ser considerada em casos em que não se observem benefícios 
+evidentes (incluindo a estabilização das manifestações da doença). A descontinuação do tratamento 
+pode causar uma deterioração significativa da situação clínica. 
+Deve considerar-se que a administração de vestronidase alfa não afeta as complicações irreversíveis 
+(p. ex., deformidades do esqueleto). 
+Preste atenção aos efeitos secundários durante ou nos instantes posteriores à perfusão de Mepsevii 
+- Pode apresentar efeitos secundários enquanto está a receber Mepsevii ou durante até um dia 
+após a administração. Estes efeitos secundários são denominados reações à perfusão porque são 
+causados pela perfusão (gota a gota) do medicamento. Podem incluir uma reação alérgica (ver 
+secção 4). Se tiver uma reação à perfusão, informe imediatamente o seu médico. 
+- Se tiver uma reação alérgica durante a perfusão, o seu médico pode abrandar ou parar a 
+perfusão. O seu médico pode também dar-lhe (ou ter-lhe dado) outros medicamentos para tratar 
+a reação alérgica como um anti-histamínico ou corticosteroide ou um antipirético, que é um 
+medicamento para baixar a febre.  </p>
+<p>Outros sintomas a que deve estar atento 
+- Se tiver dores no pescoço ou nas costas, se sentir entorpecimento dos braços ou das pernas, ou 
+falta de controlo ao urinar ou defecar, informe imediatamente o seu médico. Estes problemas 
+podem ser sinais da doença e podem ser causados pela pressão exercida na sua medula espinal. </p>
+<p>Outros medicamentos e Mepsevii 
+Informe o seu médico se estiver a utilizar, tiver utilizado recentemente ou se vier a utilizar outros 
+medicamentos. </p>
+<p>Gravidez e amamentação<br />
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+antes de utilizar este medicamento. </p>
+<p>Não lhe será administrado Mepsevii se estiver grávida, exceto se o tratamento for especificamente 
+necessário. Fale com o seu médico sobre se os benefícios de utilizar Mepsevii são superiores aos 
+possíveis riscos a que o bebé que está para nascer poderá estar exposto. Isto porque não existe 
+qualquer experiência quanto à utilização de Mepsevii durante a gravidez. </p>
+<p>Não se sabe se o Mepsevii passa para o leite materno, mas não se prevê que ocorra transferência do 
+medicamento para o seu bebé. Fale com o seu médico sobre se os benefícios da utilização de Mepsevii 
+são superiores ao potencial risco para o seu bebé durante a amamentação.  </p>
+<p>Condução de veículos e utilização de máquinas 
+Não é provável que o Mepsevii afete a sua capacidade de conduzir ou de utilizar máquinas.  </p>
+<p>Mepsevii contém sódio 
+Este medicamento contém 17,8 mg de sódio (principal componente do sal de cozinha/de mesa) em 
+cada frasco de 5 ml e é administrado com cloreto de sódio a 9 mg/ml como diluente. Cada frasco de 
+dose é, por conseguinte, equivalente a 1,8% da ingestão diária máxima recomendada de sódio na dieta 
+para um adulto. Tenha isto em consideração se estiver a fazer uma dieta com baixo teor de sódio. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar mepsevii"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar mepsevii"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com Mepsevii deve ser iniciado e monitorizado pelo seu médico.<br />
+- O seu médico ou enfermeiro administrar-lhe-á Mepsevii através de perfusão (gota a gota) numa 
+veia. 
+- Este medicamento tem de ser diluído antes de ser administrado. 
+- O seu médico pode dar-lhe (ou ter-lhe dado) outros medicamentos para tratar a reação alérgica 
+como um anti-histamínico ou corticosteroide ou um antipirético, que é um medicamento para 
+baixar a febre. </p>
+<p>Dose 
+A dose que irá receber é baseada no seu peso.<br />
+- A dose recomendada é de 4 mg por cada quilo de peso corporal. 
+- A dose é administrada a cada duas semanas através de perfusão gota a gota numa veia 
+(intravenosa).<br />
+- Cada perfusão será administrada durante cerca de 4 horas.  </p>
+<p>Se lhe for administrado mais Mepsevii do que deveria 
+Mepsevii é-lhe administrado e monitorizado pelo seu médico. O seu médico verificará se recebeu a 
+dose correta e tomará as medidas necessárias.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis foram principalmente observados enquanto os doentes recebem o medicamento 
+ou dentro de um dia após a perfusão (reações relacionadas com a perfusão).  </p>
+<p>Efeitos indesejáveis graves 
+Reação alérgica grave (muito frequente: pode afetar mais de 1 em cada 10 pessoas): 
+Informe imediatamente o seu médico ou enfermeiro se tiver algum dos seguintes sintomas de uma 
+reação alérgica grave (reação anafilática). A perfusão será interrompida de imediato e o médico pode 
+dar-lhe (ou ter-lhe dado) outros medicamentos para tratar a reação alérgica, como um antihistamínico, 
+um corticosteroide ou um antipirético, que é um medicamento para baixar a febre. Os sintomas de 
+reação alérgica grave podem incluir falta de ar, sibilos, dificuldades respiratórias e tumefação do rosto 
+e da língua.  </p>
+<p>Outros efeitos indesejáveis 
+Informe imediatamente o seu médico se notar qualquer um dos seguintes efeitos indesejáveis — 
+pode necessitar de tratamento médico urgente: </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar 1 em cada 10 pessoas): 
+- Urticária 
+- Erupção cutânea 
+- Tumefação no local da perfusão, incluindo fuga para os tecidos que circundam a veia 
+(tumefação no local de perfusão ou extravasamento do local de perfusão)  </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas): 
+- Comichão na pele (prurido) 
+- Fezes moles (diarreia) 
+- Febre com contrações involuntárias dos músculos do rosto ou dos membros (convulsão febril) 
+- Tumefação à volta do local da perfusão </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
+sistema nacional de notificação mencionado no apêndice V. Ao comunicar efeitos indesejáveis, estará 
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar mepsevii"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar mepsevii"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior após  “VAL". 
+O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Frascos não abertos: 
+- Conservar num frigorífico (2 °C-8 °C). 
+- Não congelar. 
+- Conservar na embalagem original a fim de proteger da luz 
+- Não utilize este medicamento se observar partículas. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Mepsevii <br />
+- A substância ativa é vestronidase alfa. Cada ml de concentrado contém 2 mg de vestronidase 
+alfa. Cada frasco de 5 ml de concentrado contém 10 mg de vestronidase alfa. 
+- Os outros ingredientes são: di-hidrogenofosfato de sódio di-hidratado, cloreto de sódio, 
+histidina, polissorbato 20 e água para injetáveis (no caso do sódio, ver a secção 2 em “Mepsevii 
+contém sódio"). </p>
+<p>Qual o aspeto de Mepsevii e conteúdo da embalagem 
+O Mepsevii é fornecido como um concentrado para solução para perfusão (concentrado estéril). O 
+concentrado incolor a amarelado deve estar isento de partículas visíveis. É fornecido num frasco de 
+vidro transparente com rolha de borracha e selo de alumínio com tampa plástica. </p>
+<p>Apresentação: 1 frasco de 5 ml </p>
+<p>Titular da Autorização de Introdução no Mercado <br />
+Ultragenyx Germany GmbH<br />
+Rahel-Hirsch-Str. 10557 Berlin 
+Alemanha </p>
+<p>Fabricante 
+Ultragenyx Netherlands B. V. 
+Evert van de Beekstraat 1, Unit 104<br />
+1118 CL Schiphol 
+Países Baixos </p>
+<p>Millmount Healthcare Ltd. 
+Block-7, City North Business Campus 
+Stamullen, Co. Meath, 
+Irlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>BE, BG, CZ, DK, DE, EE, IE, EL, ES, HR, IT, CY, LV, LT, LU, HU, MT, NL, AT, PL, PT, RO, 
+SI, SK, FI, SE, UK(NI) 
+Ultragenyx Germany GmbH, DE 
+Tel/Tél/Teл./Tlf/Τηλ/Puh/Sími: + 49 30 20179810  </p>
+<p>FR 
+Ultragenyx France SAS, FR 
+Tél: + 33 185 653761 ou 0800 91 79 24 (numéro vert) </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Foi concedida a este medicamento uma “Autorização de Introdução no Mercado em circunstâncias 
+excecionais". Isto significa que não foi possível obter informação completa sobre este medicamento 
+devido à raridade desta doença. 
+A Agência Europeia de Medicamentos irá analisar todos os anos, qualquer nova informação sobre este 
+medicamento e este folheto será atualizado se necessário. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -580,6 +851,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-b7b07dd0d126d4ea375a8a380bc3e7b9"
 * entry[0].resource = composition-da-b7b07dd0d126d4ea375a8a380bc3e7b9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb7b07dd0d126d4ea375a8a380bc3e7b9"
+* entry[=].resource = mpb7b07dd0d126d4ea375a8a380bc3e7b9
+                            
+                    
+Instance: bundlepackageleaflet-pt-b7b07dd0d126d4ea375a8a380bc3e7b9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mepsevii Package Leaflet for language pt"
+Description: "ePI document Bundle for mepsevii Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-b7b07dd0d126d4ea375a8a380bc3e7b9"
+* entry[0].resource = composition-pt-b7b07dd0d126d4ea375a8a380bc3e7b9
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpb7b07dd0d126d4ea375a8a380bc3e7b9"
@@ -681,6 +974,18 @@ RuleSet: b7b07dd0d126d4ea375a8a380bc3e7b9ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-b7b07dd0d126d4ea375a8a380bc3e7b9) // mepsevii pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

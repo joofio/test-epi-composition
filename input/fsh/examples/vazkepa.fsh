@@ -713,6 +713,405 @@ hjemmeside http://www.ema.europa.eu  </p>         </div>"""
 
 
 
+Instance: composition-pt-96431077feaab94e628cf99788cf8afd
+InstanceOf: CompositionUvEpi
+Title: "Composition for vazkepa Package Leaflet"
+Description:  "Composition for vazkepa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp96431077feaab94e628cf99788cf8afd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - vazkepa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Vazkepa e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Vazkepa </li>
+<li>Como tomar Vazkepa </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Vazkepa </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é vazkepa e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é vazkepa e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vazkepa contém a substância ativa eicosapente de etilo, um ácido gordo ómega-3 altamente 
+purificado, proveniente de óleo de peixe.  </p>
+<p>Vazkepa reduz os níveis dos triglicéridos (tipos de gordura) no sangue e é utilizado com um 
+medicamento estatina (que baixa o colesterol no sangue) para prevenir acontecimentos 
+cardiovasculares, tais como: 
+- ataque cardíaco; 
+- acidente vascular cerebral; 
+- morte por doença cardíaca ou vascular </p>
+<p>Vazkepa é utilizado em adultos com triglicéridos elevados no sangue com doença cardíaca 
+preexistente ou com diabetes e outras doenças que lhes conferem um risco mais elevado de sofrerem 
+acontecimentos cardiovasculares. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar vazkepa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar vazkepa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Vazkepa<br />
+- se tem alergia ao eicosapente de etilo, à soja ou a qualquer outro componente deste medicamento 
+(indicados na secção 6). </p>
+<p>Advertências e precauções<br />
+Fale com o seu médico ou farmacêutico antes de tomar Vazkepa 
+- se tem alergia a peixe ou a marisco. 
+- se tem problemas de fígado. 
+- se tem problemas de batimento cardíaco irregular (fibrilhação ou “flutter" auricular). 
+- se toma um medicamento anticoagulante (que impede o sangue de coagular), medicamentos que 
+inibem as plaquetas no sangue ou corre risco de hemorragia. </p>
+<p>Se qualquer uma das situações acima se aplicar a si, fale com o seu médico. </p>
+<p>Análises sanguíneas 
+Durante o seu tratamento, o seu médico poderá realizar análises sanguíneas para verificar se o seu 
+fígado tem problemas e verificar como o seu sangue coagula. </p>
+<p>Crianças e adolescentes 
+Não dê este medicamento a crianças e jovens com menos de 18 anos de idade, pois não foi estudado 
+nessas pessoas. </p>
+<p>Outros medicamentos e Vazkepa 
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p>Se estiver a tomar outros medicamentos que afetam a forma como o seu sangue coagula ao mesmo 
+tempo que está a tomar Vazkepa, como um medicamento anticoagulante, serão feitas análises ao seu 
+sangue durante o tratamento. </p>
+<p>Gravidez, amamentação e fertilidade 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. </p>
+<p>Gravidez 
+Vazkepa não é recomendado para utilização durante a gravidez, a menos que seja aconselhada pelo 
+seu médico a tomá-lo. </p>
+<p>Amamentação 
+Vazkepa não é recomendado para utilização durante a amamentação, uma vez que o efeito no seu bebé 
+é desconhecido. Se está a amamentar, o seu médico ajudá-la-á a ponderar os benefícios do tratamento 
+contra eventuais riscos para o seu bebé que está a amamentar. </p>
+<p>Fertilidade 
+Fale com o seu médico sobre a fertilidade durante o tratamento. </p>
+<p>Condução de veículos e utilização de máquinas 
+É improvável que este medicamento afete a sua capacidade de conduzir ou utilizar ferramentas ou 
+máquinas. </p>
+<p>Vazkepa contém maltitol, sorbitol e lecitina de soja </p>
+<p>Maltitol (E965 ii) 
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
+este medicamento. </p>
+<p>Sorbitol (E420 ii) 
+Este medicamento contém 83 mg de sorbitol em cada cápsula. </p>
+<p>O sorbitol é uma fonte de frutose. Se o seu médico lhe disse que tem intolerância a alguns açúcares ou 
+se foi diagnosticado com intolerância hereditária à frutose (IHF), uma doença genética rara em que a 
+pessoa não consegue digerir a frutose, fale com o seu médico antes de tomar este medicamento. </p>
+<p>Lecitina de soja 
+Este medicamento contém lecitina de soja. Se for alérgico ao amendoim ou soja, não utilize este 
+medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar vazkepa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar vazkepa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. Não altere a sua dose sem falar com o seu médico. </p>
+<p>Como abrir o frasco 
+Empurre a cápsula de fecho com rosca para baixo e rode-a no sentido anti-horário. </p>
+<p>Quantidade a tomar 
+A dose recomendada é de duas cápsulas por via oral, duas vezes por dia, com ou após uma refeição. </p>
+<p>Engula as cápsulas inteiras; não parta, esmague, dissolva ou mastigue as cápsulas. </p>
+<p>Utilização em idosos 
+Não é necessário alterar a dose em doentes idosos. Podem tomar a dose habitual recomendada. </p>
+<p>Se tomar mais Vazkepa do que deveria 
+Se acidentalmente tomar mais cápsulas do que o seu médico receitou, consulte o seu médico ou 
+farmacêutico. </p>
+<p>Caso se tenha esquecido de tomar Vazkepa 
+Caso falhe uma dose, tome-a assim que se lembrar. Contudo, se falhar a toma deste medicamento 
+durante um dia inteiro, tome simplesmente a dose seguinte planeada. Não tome uma dose a dobrar 
+para compensar uma dose que se esqueceu de tomar. Caso ainda tenha dúvidas sobre a utilização deste 
+medicamento, fale com o seu médico ou farmacêutico. </p>
+<p>Se parar de tomar Vazkepa 
+Não pare de tomar este medicamento até ter falado com o seu médico. 
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Contacte o seu médico </p>
+<ul>
+<li>
+<p>se tiver palpitações cardíacas ou batimento cardíaco irregular. Estes podem ser sintomas de 
+uma doença grave conhecida como fibrilhação auricular. Este é um efeito indesejável 
+frequente (pode afetar até 1 em 10 pessoas); </p>
+</li>
+<li>
+<p>se apresentar nódoas negras facilmente ou não conseguir parar uma hemorragia. Este é um 
+efeito indesejável muito frequente (pode afetar mais de 1 em 10 pessoas). O seu risco de 
+hemorragia poderá aumentar se também estiver a tomar um medicamento anticoagulante.  </p>
+</li>
+</ul>
+<p>Obtenha assistência médica se tiver qualquer um dos efeitos indesejáveis seguintes. Estes sintomas 
+podem dever-se a uma doença grave conhecida como hipersensibilidade que pode ocorrer em 
+qualquer altura durante o tratamento. Este é um efeito indesejável pouco frequente (pode afetar até 
+1 em 100 pessoas): </p>
+<ul>
+<li>
+<p>dificuldades respiratórias; </p>
+</li>
+<li>
+<p>aperto ou sensação de arranhar na garganta; </p>
+</li>
+<li>
+<p>inchaço dos lábios; </p>
+</li>
+<li>
+<p>urticária (altos na pele); </p>
+</li>
+<li>
+<p>erupção cutânea e comichão na pele; </p>
+</li>
+<li>
+<p>dores de estômago ou cólicas; </p>
+</li>
+<li>
+<p>diarreia; </p>
+</li>
+<li>
+<p>náuseas e vómitos. </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis que podem ocorrer </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em 10 pessoas): </p>
+<ul>
+<li>
+<p>inchaço das mãos, braços, pernas e pés;  </p>
+</li>
+<li>
+<p>dores musculares, nos ossos ou nas articulações;  </p>
+</li>
+<li>
+<p>gota (inchaço doloroso nas articulações devido à acumulação de ácido úrico); </p>
+</li>
+<li>
+<p>erupção cutânea; </p>
+</li>
+<li>
+<p>prisão de ventre; </p>
+</li>
+<li>
+<p>arrotar. </p>
+</li>
+</ul>
+<p>Efeito indesejável pouco frequente (pode afetar até 1 em 100 pessoas): </p>
+<ul>
+<li>mau gosto na boca. </li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar vazkepa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar vazkepa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco ou na embalagem 
+exterior para blisters após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar abaixo de 30 °C. </p>
+<p>Frasco: manter o frasco bem fechado para proteger da humidade. 
+Embalagem blister: conservar na embalagem de origem para proteger da humidade. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Vazkepa </p>
+<ul>
+<li>
+<p>A substância ativa é o eicosapente de etilo. Cada cápsula de Vazkepa contém 998 mg de 
+eicosapente de etilo. </p>
+</li>
+<li>
+<p>Os outros componentes são<br />
+o todo-rac-Alfatocoferol, gelatina, glicerol, maltitol líquido (E965 ii), sorbitol líquido (não 
+cristalizante) (E420 ii), água purificada e lecitina de soja (ver secção 2, “Vazkepa contém 
+maltitol, sorbitol e lecitina de soja"); 
+o tinta de impressão: dióxido de titânio, propilenoglicol, hipromelose. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Vazkepa e conteúdo da embalagem </p>
+<p>Nesta embalagem, encontrará cápsulas moles oblongas, 25 mm x 10 mm, com a marcação “IPE" a 
+tinta branca, com invólucro amarelo claro a âmbar contendo um líquido incolor a amarelo pálido. </p>
+<p>Os frascos contendo 120 cápsulas são brancos, de 300 cc e de polietileno de alta densidade (PEAD) 
+com fecho resistente à abertura por crianças de polipropileno selado por indução térmica. 
+Apresentação de um frasco ou três frascos por embalagem exterior. </p>
+<p>As embalagens blister contêm 4 x 2 cápsulas em blisters de dose unitária perfurados de 
+PVC/PCTFE/Al. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Amarin Pharmaceuticals Ireland Limited<br />
+88 Harcourt Street 
+Dublin 2, D02DKIrlanda </p>
+<p>Fabricante 
+MIAS Pharma Limited 
+Suite 1, Stafford House, Strand Road 
+Portmarnock, 
+D13 WCIrlanda </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+Amarin Pharmaceuticals Ireland Limited 
+Tél/Tel: 0800-75AmarinConnect@amarincorp.eu </p>
+<p>Lietuva 
+Amarin Pharmaceuticals Ireland Limited 
+Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>България 
+Amarin Pharmaceuticals Ireland Limited 
+Teл.: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Luxembourg/Luxemburg 
+Amarin Pharmaceuticals Ireland Limited 
+Tél/Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Česká republika 
+Amarin Pharmaceuticals Ireland Limited 
+Tlf: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Magyarország 
+Amarin Pharmaceuticals Ireland Limited 
+Tel.: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Danmark 
+Amarin Pharmaceuticals Ireland Limited 
+Tlf: +46-84-4685Malta 
+Amarin Pharmaceuticals Ireland Limited 
+Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>AmarinConnect@amarincorp.eu </p>
+<p>Deutschland 
+Amarin Germany GmbH 
+Tel: 0800-0008AmarinConnect@amarincorp.eu </p>
+<p>Nederland 
+Amarin Pharmaceuticals Ireland Limited 
+Tel: 0800-0228AmarinConnect@amarincorp.eu </p>
+<p>Eesti 
+Amarin Pharmaceuticals Ireland Limited 
+Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Norge 
+Amarin Pharmaceuticals Ireland Limited 
+Tlf: +46 84 468 5AmarinConnect@amarincorp.eu </p>
+<p>Ελλάδα 
+Amarin Pharmaceuticals Ireland Limited<br />
+Τηλ: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Österreich 
+Amarin Pharmaceuticals Ireland Limited<br />
+Tel: 0800-281AmarinConnect@amarincorp.eu </p>
+<p>España 
+Amarin Pharmaceuticals Ireland Limited<br />
+Tel: 900806AmarinConnect@amarincorp.eu </p>
+<p>Polska 
+Amarin Pharmaceuticals Ireland Limited<br />
+Tel.: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>France 
+Amarin Pharmaceuticals Ireland Limited<br />
+Tél: 0800-991AmarinConnect@amarincorp.eu </p>
+<p>Portugal 
+Amarin Pharmaceuticals Ireland Limited<br />
+Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Hrvatska 
+Amarin Pharmaceuticals Ireland Limited<br />
+Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>România 
+Amarin Pharmaceuticals Ireland Limited<br />
+Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Ireland 
+Amarin Pharmaceuticals Ireland Limited<br />
+Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Slovenija 
+Amarin Pharmaceuticals Ireland Limited<br />
+Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Ísland 
+Amarin Pharmaceuticals Ireland Limited<br />
+Sími: +46-84-4685AmarinConnect@amarincorp.eu </p>
+<p>Slovenská republika 
+Amarin Pharmaceuticals Ireland Limited<br />
+Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Italia 
+Amarin Pharmaceuticals Ireland Limited<br />
+Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Suomi/Finland 
+Amarin Pharmaceuticals Ireland Limited<br />
+Puh/Tel: +46-84-4685AmarinConnect@amarincorp.eu </p>
+<p>Κύπρος 
+Amarin Pharmaceuticals Ireland Limited<br />
+Τηλ: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>Sverige 
+Amarin Pharmaceuticals Ireland Limited<br />
+Tel: +46-84-4685AmarinConnect@amarincorp.eu </p>
+<p>Latvija 
+Amarin Pharmaceuticals Ireland Limited<br />
+Tel: +353(0)16915AmarinConnect@amarincorp.eu </p>
+<p>United Kingdom (Northern Ireland) 
+Amarin Pharmaceuticals Ireland Limited<br />
+Tel: 0800-0478AmarinConnect@amarincorp.eu </p>
+<p>Este folheto foi revisto pela última vez em . </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -754,6 +1153,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-96431077feaab94e628cf99788cf8afd"
 * entry[0].resource = composition-da-96431077feaab94e628cf99788cf8afd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp96431077feaab94e628cf99788cf8afd"
+* entry[=].resource = mp96431077feaab94e628cf99788cf8afd
+                            
+                    
+Instance: bundlepackageleaflet-pt-96431077feaab94e628cf99788cf8afd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vazkepa Package Leaflet for language pt"
+Description: "ePI document Bundle for vazkepa Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-96431077feaab94e628cf99788cf8afd"
+* entry[0].resource = composition-pt-96431077feaab94e628cf99788cf8afd
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp96431077feaab94e628cf99788cf8afd"
@@ -855,6 +1276,18 @@ RuleSet: 96431077feaab94e628cf99788cf8afdListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-96431077feaab94e628cf99788cf8afd) // vazkepa pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

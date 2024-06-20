@@ -800,6 +800,353 @@ anvendt til administrationen. </li>
 
 
 
+Instance: composition-pt-b4a7586c3f2386c190c1701cbb794f3c
+InstanceOf: CompositionUvEpi
+Title: "Composition for rystiggo Package Leaflet"
+Description:  "Composition for rystiggo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb4a7586c3f2386c190c1701cbb794f3c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - rystiggo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Rystiggo e para que é utilizado  </li>
+<li>O que precisa de saber antes de utilizar Rystiggo  </li>
+<li>Como utilizar Rystiggo  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Rystiggo  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é rystiggo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é rystiggo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Rystiggo </p>
+<p>Rystiggo contém a substância ativa rozanolixizumab. Rozanolixizumab é um anticorpo monoclonal 
+(um tipo de proteína) concebido para reconhecer e ligar-se ao FcRn, uma proteína que mantém os 
+anticorpos de imunoglobulina G (IgG) no organismo durante mais tempo. </p>
+<p>Rystiggo é utilizado em conjunto com a terapêutica padrão em adultos para o tratamento da miastenia 
+gravis generalizada (MGg), uma doença autoimune que provoca fraqueza muscular que pode afetar 
+vários grupos de músculos em todo o corpo. A doença pode levar também a falta de ar, cansaço 
+extremo e dificuldades em engolir. Rystiggo é utilizado em adultos com MGg que produzem 
+autoanticorpos IgG contra recetores da acetilcolina ou quinase músculo-específica. </p>
+<p>Na miastenia gravis generalizada (MGg), estes autoanticorpos IgG (proteínas do sistema imunitário 
+que atacam partes do próprio organismo da pessoa) atacam e danificam proteínas envolvidas na 
+comunicação entre nervos e músculos, denominadas recetores da acetilcolina ou quinase músculo-
+específica. Ao ligar-se ao FcRn, Rystiggo reduz o nível de anticorpos IgG, incluindo autoanticorpos 
+IgG, ajudando assim a melhorar os sintomas da doença. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar rystiggo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar rystiggo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Rystiggo </p>
+<ul>
+<li>se tem alergia ao rozanolixizumab ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).  </li>
+</ul>
+<p>Advertências e precauções  </p>
+<p>Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar este medicamento se alguma das 
+seguintes situações se aplicar a si: </p>
+<p>Crise miasténica 
+O seu médico poderá não receitar este medicamento se estiver, ou for provável que esteja, a utilizar 
+um ventilador devido a fraqueza muscular da MGg (crise miasténica). </p>
+<p>Inflamação das membranas que envolvem o cérebro e a medula espinal (meningite assética) 
+Tem sido observada meningite assética associada a este medicamento numa dose superior. Consulte 
+imediatamente um médico se desenvolver sintomas de meningite assética tais como dor de cabeça 
+grave, febre, rigidez do pescoço, náuseas, vómitos e/ou intolerância a luz intensa. </p>
+<p>Infeções 
+Este medicamento pode reduzir a sua resistência natural a infeções. Antes de iniciar ou durante o 
+tratamento com este medicamento, informe o seu médico se tiver quaisquer sintomas de infeção 
+(sensação de calor, febre, arrepios ou calafrios, tosse, dor de garganta ou bolhas de febre podem ser 
+sinais de uma infeção). </p>
+<p>Hipersensibilidade (reações alérgicas) 
+Este medicamento contém uma proteína que pode causar reações como erupção na pele, inchaço ou 
+comichão em algumas pessoas. Será monitorizado quanto a sinais de uma reação à perfusão durante e 
+ao longo de 15 minutos após o tratamento. </p>
+<p>Imunizações (vacinações) 
+Informe o seu médico se recebeu uma vacina nas últimas 4 semanas, ou se planeia ser vacinado num 
+futuro próximo. </p>
+<p>Crianças e adolescentes </p>
+<p>Não dê este medicamento a crianças com menos de 18 anos de idade porque a utilização de Rystiggo 
+não foi estudada neste grupo etário. </p>
+<p>Outros medicamentos e Rystiggo </p>
+<p>Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente, ou se vier a 
+utilizar outros medicamentos. </p>
+<p>Tomar Rystiggo com outros medicamentos pode reduzir a eficácia desses medicamentos, incluindo 
+anticorpos terapêuticos (como rituximab) ou imunoglobulinas subcutâneas ou intravenosas. Outros 
+medicamentos, incluindo imunoglobulinas subcutâneas ou intravenosas, ou intervenções como 
+plasmaferese (um processo no qual a parte líquida do sangue, ou plasma, é separada do sangue que foi 
+colhido de uma pessoa), podem comprometer o efeito de Rystiggo. Informe o seu médico se estiver a 
+tomar, ou se planeia tomar outros medicamentos. </p>
+<p>Informe o seu médico sobre o seu tratamento com Rystiggo antes de ser vacinado. Este medicamento 
+pode prejudicar o efeito das vacinas. A vacinação com as chamadas vacinas vivas atenuadas ou vivas 
+não é recomendada durante o tratamento com Rystiggo. </p>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de utilizar este medicamento. </p>
+<p>Desconhecem-se os efeitos deste medicamento na gravidez. Não utilize este medicamento se estiver 
+grávida ou pensar que pode estar grávida, a menos que o seu médico o recomende especificamente. </p>
+<p>Desconhece-se se este medicamento passa para o leite humano. O seu médico irá ajudá-la a decidir se 
+deve amamentar e utilizar Rystiggo. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Não é provável que Rystiggo influencie a sua capacidade de conduzir e de utilizar máquinas. </p>
+<p>Rystiggo contém prolina </p>
+<p>Este medicamento contém 29 mg de prolina em cada ml de medicamento. 
+A prolina pode ser prejudicial para doentes com hiperprolinemia, uma doença genética rara na qual um 
+excesso do aminoácido, a prolina, se acumula no organismo. 
+Se tiver hiperprolinemia, informe o seu médico e não utilize este medicamento, a menos que o seu 
+médico o tenha recomendado.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar rystiggo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar rystiggo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O tratamento com Rystiggo será iniciado e supervisionado por um médico especialista com 
+experiência no tratamento de doenças neuromusculares ou neuroinflamatórias.  </p>
+<p>Dose administrada de Rystiggo e durante quanto tempo </p>
+<p>Ser-lhe-á administrado Rystiggo em ciclos de 1 perfusão por semana durante 6 semanas.<br />
+O seu médico irá calcular a dose correta para si com base no seu peso corporal:<br />
+- se pesar pelo menos 100 kg, a dose recomendada é de 840 mg por perfusão (que requer 6 ml 
+por administração) 
+- se pesar entre 70 kg e menos de 100 kg, a dose recomendada é de 560 mg por perfusão (que 
+requer 4 ml por administração)<br />
+- se pesar entre 50 kg e menos de 70 kg, a dose recomendada é de 420 mg por perfusão (que 
+requer 3 ml por administração)<br />
+- se pesar entre 35 kg e menos de 50 kg, a dose recomendada é de 280 mg por perfusão (que 
+requer 2 ml por administração)  </p>
+<p>A frequência dos ciclos de tratamento varia para cada doente e o seu médico irá considerar se e 
+quando um novo ciclo de tratamento é apropriado para si.  </p>
+<p>O seu médico irá aconselhar e decidir durante quanto tempo deverá ser tratado com este medicamento. </p>
+<p>Como é administrado Rystiggo </p>
+<p>Rystiggo ser-lhe-á administrado por um médico ou enfermeiro.  </p>
+<p>Este medicamento ser-lhe-á administrado sob a forma de perfusão sob a pele (via subcutânea). É 
+normalmente injetado na parte inferior da barriga, abaixo do umbigo. As injeções não devem ser 
+administradas em áreas onde a pele estiver sensível, pisada, vermelha ou endurecida. </p>
+<p>Cada administração é feita utilizando uma bomba de perfusão a uma taxa de fluxo até 20 ml/h.  </p>
+<p>Se utilizar mais Rystiggo do que deveria </p>
+<p>Se suspeitar que acidentalmente lhe foi administrada uma dose mais elevada de Rystiggo do que a 
+prescrita, contacte o seu médico para obter aconselhamento. </p>
+<p>Caso se tenha esquecido de utilizar Rystiggo </p>
+<p>Se falhar uma dose, contacte imediatamente o seu médico para obter aconselhamento e para agendar 
+outra consulta para receber Rystiggo nos 4 dias seguintes. Depois disso, a próxima dose deve ser 
+administrada de acordo com o regime posológico original até que o ciclo de tratamento esteja 
+concluído.  </p>
+<p>Se parar de utilizar Rystiggo </p>
+<p>Não interrompa a utilização deste medicamento sem falar primeiro com o seu médico. Interromper ou 
+parar o tratamento com Rystiggo pode provocar o reaparecimento dos seus sintomas de miastenia 
+gravis.  </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os efeitos indesejáveis abaixo indicados, apresentados por ordem decrescente de frequência, foram 
+observados com Rystiggo: </p>
+<p>Muito frequentes: podem afetar mais de 1 em 10 pessoas 
+- Dor de cabeça (incluindo enxaqueca) 
+- Diarreia 
+- Febre (pirexia) </p>
+<p>Frequentes: podem afetar até 1 em 10 pessoas 
+- Inchaço rápido por baixo da pele em zonas como o rosto, garganta, braço e pernas (angioedema) 
+- Dor nas articulações (artralgia) 
+- Erupção na pele, por vezes com inchaços vermelhos (erupção papular) 
+- Reação no local da injeção incluindo erupção na pele no local da injeção, vermelhidão da pele 
+(eritema), inflamação, desconforto e dor no local da perfusão </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar rystiggo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar rystiggo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo do frasco para injetáveis e 
+na embalagem exterior após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>Conservar no frigorífico (2 °C - 8 °C). 
+Não congelar. </p>
+<p>Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>
+<p>Cada frasco para injetáveis de solução injetável só pode ser utilizado apenas uma vez (uma única 
+utilização). Qualquer medicamento não utilizado ou resíduos devem ser eliminados de acordo com as 
+exigências locais. </p>
+<p>Não utilize este medicamento se verificar que o líquido parece turvo, contém partículas estranhas ou se 
+tiver mudado de cor. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Rystiggo  </p>
+<ul>
+<li>A substância ativa é rozanolixizumab. Cada ml de solução contém 140 mg de rozanolixizumab. 
+Cada frasco para injetáveis de 2 ml contém 280 mg de rozanolixizumab. </li>
+<li>Os outros componentes são: histidina, cloridrato de histidina monoidratado, prolina, 
+polissorbato 80 e água para preparações injetáveis. Ver secção 2 “Rystiggo contém prolina". </li>
+</ul>
+<p>Qual o aspeto de Rystiggo e conteúdo da embalagem </p>
+<p>Rystiggo é uma solução injetável. Cada embalagem contém 1 frasco para injetáveis com 2 ml de 
+solução injetável. A solução é incolor a amarelo-acastanhado pálido, límpida a ligeiramente 
+opalescente.<br />
+Os dispositivos utilizados para administração devem ser adquiridos separadamente. </p>
+<p>Titular da Autorização de Introdução no Mercado </p>
+<p>UCB Pharma S.A., Allée de la Recherche 60, B-1070 Bruxelas, Bélgica. </p>
+<p>Fabricante </p>
+<p>UCB Pharma S.A., Chemin du Foriest, B-1420 Braine‐l’Alleud, Bélgica. </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+UCB Pharma S.A./NV 
+Tél/Tel: + 32 / (0)2 559 92<br />
+Lietuva 
+UAB Medfiles 
+Tel: + 370 5 246 16<br />
+България 
+Ю СИ БИ България ЕООД 
+Teл.: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
+UCB Pharma S.A./NV 
+Tél/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+UCB s.r.o. 
+Tel: + 420 221 773 Magyarország 
+UCB Magyarország Kft. 
+Tel.: + 36-(1) 391 0 
+Danmark 
+UCB Nordic A/S 
+Tlf: + 45 / 32 46 24 Malta 
+Pharmasud Ltd. 
+Tel: + 356 / 21 37 64<br />
+Deutschland 
+UCB Pharma GmbH 
+Tel: + 49 /(0) 2173 48 4Nederland 
+UCB Pharma B.V. 
+Tel: + 31 / (0)76-573 11<br />
+Eesti 
+OÜ Medfiles 
+Tel: + 372 730 5 
+Norge 
+UCB Nordic A/S 
+Tlf: + 47 / 67 16 5 
+Ελλάδα 
+UCB A.E.<br />
+Τηλ: + 30 / 2109974Österreich 
+UCB Pharma GmbH 
+Tel: + 43-(0)1 291 80<br />
+España 
+UCB Pharma, S.A. 
+Tel: + 34 / 91 570 34 Polska 
+UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o. 
+Tel.: + 48 22 696 99<br />
+France 
+UCB Pharma S.A. 
+Tél: + 33 / (0)1 47 29 44 Portugal 
+UCB Pharma (Produtos Farmacêuticos), Lda 
+Tel: + 351 21 302 5 
+Hrvatska 
+Medis Adria d.o.o. 
+Tel: +385 (0) 1 230 34<br />
+România 
+UCB Pharma Romania S.R.L. 
+Tel: + 40 21 300 29<br />
+Ireland 
+UCB (Pharma) Ireland Ltd. 
+Tel: + 353 / (0)1-46 37 Slovenija 
+Medis, d.o.o. 
+Tel: + 386 1 589 69<br />
+Ísland 
+Vistor hf. 
+Sími: + 354 535 7Slovenská republika 
+UCB s.r.o., organizačná zložka 
+Tel: + 421 (0) 2 5920 2 
+Italia 
+UCB Pharma S.p.A. 
+Tel: + 39 / 02 300 Suomi/Finland 
+UCB Pharma Oy Finland 
+Puh/Tel: + 358 9 2514 4 
+Κύπρος 
+Lifepharma (Z.A.M.) Ltd 
+Τηλ: + 357 22 056 
+Sverige 
+UCB Nordic A/S 
+Tel: + 46 / (0) 40 294 Latvija 
+Medfiles SIA 
+Tel: + 371 67 370<br />
+United Kingdom (Northern Ireland) 
+UCB (Pharma) Ireland Ltd. 
+Tel: + 353 / (0)1-46 37  </p>
+<p>Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -841,6 +1188,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-b4a7586c3f2386c190c1701cbb794f3c"
 * entry[0].resource = composition-da-b4a7586c3f2386c190c1701cbb794f3c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb4a7586c3f2386c190c1701cbb794f3c"
+* entry[=].resource = mpb4a7586c3f2386c190c1701cbb794f3c
+                            
+                    
+Instance: bundlepackageleaflet-pt-b4a7586c3f2386c190c1701cbb794f3c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rystiggo Package Leaflet for language pt"
+Description: "ePI document Bundle for rystiggo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-b4a7586c3f2386c190c1701cbb794f3c"
+* entry[0].resource = composition-pt-b4a7586c3f2386c190c1701cbb794f3c
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpb4a7586c3f2386c190c1701cbb794f3c"
@@ -942,6 +1311,18 @@ RuleSet: b4a7586c3f2386c190c1701cbb794f3cListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-b4a7586c3f2386c190c1701cbb794f3c) // rystiggo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

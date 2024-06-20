@@ -998,6 +998,437 @@ injektionsstedet. Sæt om nødvendigt et plaster på.</p>         </div>"""
 
 
 
+Instance: composition-pt-51634c89fd4b34ec036bc5c7b8243dfa
+InstanceOf: CompositionUvEpi
+Title: "Composition for nyvepria Package Leaflet"
+Description:  "Composition for nyvepria Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp51634c89fd4b34ec036bc5c7b8243dfa)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - nyvepria"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Nyvepria e para que é utilizado
+2. O que precisa de saber antes de utilizar Nyvepria
+3. Como utilizar Nyvepria
+4. Efeitos indesejáveis possíveis
+5. Como conservar Nyvepria
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é nyvepria e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é nyvepria e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nyvepria contém a substância ativa pegfilgrastim. É utilizado em doentes tratados com 
+quimioterapia citotóxica (medicamentos que destroem as células com crescimento acelerado) para 
+ajudar a reduzir a duração da neutropenia (baixo número de neutrófilos, um tipo de glóbulos 
+brancos) e ajudar a prevenir a ocorrência da neutropenia febril (baixo número de glóbulos brancos 
+com febre). Nyvepria destina-se a ser utilizado em adultos com idade igual ou superior a 18 anos.
+Os glóbulos brancos são importantes para a combater as infeções. Se o número de glóbulos brancos 
+diminuir até um nível muito baixo devido à quimioterapia citotóxica, o seu corpo poderá não 
+conseguir combater os microrganismos e isto irá aumentar a probabilidade de ter uma infeção. O 
+pegfilgrastim é muito semelhante a uma proteína natural existente no corpo chamada fator de 
+estimulação das colónias de granulócitos e que atua estimulando a sua medula óssea a produzir mais 
+glóbulos brancos, que ajudarão o seu corpo a combater as infeções.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar nyvepria"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar nyvepria"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Nyvepria
+
+se tem alergia ao pegfilgrastim, filgrastim ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Nyvepria:
+
+se teve recentemente uma infeção pulmonar grave (pneumonia), líquido nos pulmões (edema 
+pulmonar), inflamação dos pulmões (doença pulmonar intersticial) ou raio-x aos pulmões 
+alterado (infiltração pulmonar).
+
+se tem conhecimento de qualquer alteração na contagem das células sanguíneas (por ex., 
+25
+aumento de glóbulos brancos ou anemia) ou diminuição de plaquetas no sangue
+(trombocitopenia), o que reduz a capacidade do seu sangue coagular. O seu médico pode querer 
+monitorizá-lo mais de perto.
+
+se tem anemia de células falciformes. O seu médico pode monitorizar o seu estado mais de 
+perto.
+
+Fale com o seu médico, farmacêutico ou enfermeiro durante a utilização de Nyvepria:Se for um 
+doente com cancro da mama ou do pulmão, pegfilgrastim, em conjunto com quimioterapia e/ou 
+radioterapia, pode aumentar o risco de desenvolver uma condição sanguínea pré-cancerosa, 
+chamada de síndrome mielodisplásica (SMD) ou um cancro do sangue, chamado de leucemia 
+mieloide aguda (LMA). Os sintomas podem incluir cansaço, febre e nódoas negras ou 
+hemorragia.
+
+Se tiver uma reação alérgica incluindo fraqueza, descida da pressão arterial, dificuldade em 
+respirar, inchaço da face, lábios, língua ou de outras partes do corpo (anafilaxia), vermelhidão 
+e afrontamentos, erupção na pele ou urticária na pele e áreas da pele com comichão.
+
+Se tiver tosse ou febre e dificuldade em respirar. Isso pode ser um sinal de síndrome de 
+dificuldade respiratória aguda (SDRA).
+
+Se tiver qualquer um dos seguintes efeitos indesejáveis:
+-
+edema ou inchaço, diminuição da frequência urinária, dificuldade em respirar, abdómen 
+(barriga) inchado e sensação de enfartamento, e uma sensação geral de cansaço.
+Estes podem ser sintomas de uma doença chamada de síndrome de transudação capilar, que faz 
+com que o sangue saia dos pequenos vasos sanguíneos para o seu corpo. Ver secção 4. 
+Se tem dor abdominal no quadrante superior esquerdo ou dor em pontada no ombro. Este pode 
+ser um sinal de um problema com o seu baço (esplenomegalia).
+
+Se tiver febre, dor abdominal, mal-estar e dor nas costas. Estes podem ser sintomas de 
+inflamação da aorta (grande vaso sanguíneo que transporta o sangue do coração para o 
+organismo). Este distúrbio pode ocorrer raramente em doentes com cancro e dadores saudáveis.
+O seu médico irá verificar regularmente o seu sangue e urina uma vez que Nyvepria pode causar 
+danos nos seus rins (glomerulonefrite).
+Foram notificadas reações na pele graves (síndrome de Stevens-Johnson; uma doença de pele que 
+provoca bolhas e feridas dolorosas na pele e nas mucosas, especialmente na boca) associadas à 
+utilização de pegfilgrastim. Se tiver algum dos seguintes sintomas deve interromper a utilização de 
+Nyvepria e procurar imediatamente cuidados médicos: manchas avermelhadas circulares ou tipo alvo, 
+frequentemente acompanhadas por bolhas centrais que surgem no tronco, descamação da pele, úlceras 
+na boca, garganta, nariz, genitais e olhos possivelmente precedidas por febre e sintomas tipo gripe. 
+Ver secção 4. Deve conversar com seu médico sobre os seus riscos de desenvolver doença hematológica maligna. Se 
+tiver uma doença hematológica maligna ou o seu médico lhe tiver dito que tem risco de desenvolver 
+uma doença hematológica maligna, não deve utilizar Nyvepria, a menos que seja indicado pelo seu 
+médico.
+Perda de resposta ao pegfilgrastim
+Caso o tratamento com pegfilgrastim não atue ou deixe de atuar, o seu médico irá investigar os 
+motivos para tal, incluindo se desenvolveu anticorpos que neutralizam a atividade de pegfilgrastim.
+Crianças e adolescentes
+Nyvepria não é recomendado para utilização em crianças e adolescentes pois existe informação 
+insuficiente sobre a sua segurança e eficácia.
+Outros medicamentos e Nyvepria
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos.
+26
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento.
+Nyvepria não foi estudado em mulheres grávidas. Por conseguinte, o seu médico poderá decidir que 
+não deve utilizar este medicamento.
+Se engravidar durante o tratamento com Nyvepria, fale com o seu médico.
+A menos que o seu médico lhe diga o contrário, deve interromper a amamentação se for utilizar 
+Nyvepria.
+Condução de veículos e utilização de máquinas
+Nyvepria não tem ou tem efeito desprezável sobre a capacidade de conduzir e utilizar máquinas.
+Nyvepria contém sorbitol (E420) e sódio
+Este medicamento contém 30 mg de sorbitol em cada seringa pré-cheia que é equivalente a 50 mg/ml.
+Deve ter-se em consideração o efeito aditivo da administração concomitante de medicamentos 
+contendo sorbitol (ou frutose) e a ingestão de sorbitol (ou frutose) na dieta.
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose de 6 mg, ou seja, é 
+praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar nyvepria"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar nyvepria"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nyvepria é para ser administrado a adultos com 18 ou mais anos de idade.
+Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. 
+A dose recomendada é uma injeção subcutânea (sob a pele) de 6 mg utilizando uma seringa pré-cheia 
+e deverá ser administrada pelo menos 24 horas após a última dose de quimioterapia, no final de cada 
+ciclo de quimioterapia.
+Administrar a si próprio a injeção de Nyvepria
+O seu médico poderá decidir que pode administrar você mesmo a injeção de Nyvepria. O seu médico 
+ou enfermeiro demonstrarão como deve injetar Nyvepria a si próprio. Não tente injetar a si próprio o 
+medicamento se não foi devidamente treinado.
+Leia a secção no fim deste folheto para obter mais informações sobre como administrar Nyvepria.
+Não agite vigorosamente Nyvepria, uma vez que pode afetar a atividade do medicamento.
+Se utilizar mais Nyvepria do que deveria
+Se utilizar mais Nyvepria do que a dose prescrita, deverá contactar o seu médico, farmacêutico 
+ou enfermeiro para aconselhamento.
+Caso se tenha esquecido de utilizar Nyvepria
+Se se esqueceu de uma dose de Nyvepria, contacte o seu médico para decidir quando deverá ser 
+administrada a dose seguinte.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
+ou enfermeiro.
+27</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestam em todas as pessoas.
+Informe o seu médico imediatamente se tiver qualquer um dos seguintes efeitos indesejáveis:
+
+edema ou inchaço, diminuição da frequência urinária, dificuldade em respirar, abdómen
+(barriga) inchado e sensação de enfartamento, e uma sensação geral de cansaço. Estes sintomas 
+geralmente desenvolvem-se rapidamente.
+Estes podem ser sintomas de uma doença pouco frequente (pode afetar até 1 em cada 100 pessoas) 
+chamada de síndrome de transudação capilar, que faz com que o sangue saia dos pequenos vasos 
+sanguíneos para o seu corpo e que precisa de tratamento urgente.
+Muito frequentes: podem afetar mais de 1 em cada 10 pessoas
+
+dor óssea. O seu médico dir-lhe-á o que deverá tomar para aliviar a dor óssea.
+
+náuseas e dor de cabeça.
+Frequentes: podem afetar até 1 em cada 10 pessoas
+
+dor no local de injeção.
+
+dor generalizada e dor nas articulações e músculos.
+
+podem ocorrer algumas alterações no seu sangue, mas estas serão detetadas nas suas análises de 
+rotina ao sangue. Durante um período curto de tempo a sua contagem de glóbulos brancos pode 
+estar elevada. Pode também ocorrer diminuição do número de plaquetas, podendo originar o 
+aparecimento de nódoas negras.
+
+dor no peito não relacionada com doenças cardíacas.
+Pouco frequentes: podem afetar até 1 em cada 100 pessoas
+
+reações do tipo alérgico, incluindo vermelhidão e afrontamentos, erupção na pele e comichão 
+em áreas inchadas da pele.
+
+reações alérgicas graves, incluindo anafilaxia (fraqueza, baixa da pressão arterial, dificuldade 
+em respirar, inchaço da face).
+
+aumento do tamanho do baço (o baço é um órgão localizado na barriga do lado esquerdo do 
+estômago envolvido na produção e remoção de células do sangue e faz parte do sistema 
+imunitário). Informe o seu médico se tiver um aumento de volume no lado superior esquerdo do 
+seu abdómen.
+
+rutura do baço, que pode ser fatal. É importante que contacte imediatamente o seu médico se 
+tiver dor na parte superior esquerda do seu abdómen ou dor tipo pontada no ombro esquerdo, já 
+que estas dores podem refletir problemas com o seu baço.
+
+problemas respiratórios. Contacte o seu médico se tiver tosse, febre ou dificuldade em respirar.
+
+ocorreu Síndrome de Sweet (lesões dolorosas, inchadas, de cor violácea, nos membros e por 
+vezes na face e pescoço, acompanhadas de febre).
+
+casos de vasculite na pele (inflamação dos vasos sanguíneos na pele).
+
+lesões nos seus rins (chamada glomerulonefrite).
+
+vermelhidão no local da injeção.
+
+tosse com sangue (hemoptise).
+
+doenças do sangue [síndrome mielodisplásica (SMD) ou leucemia mieloide aguda (LMA)].
+Raros: podem afetar até 1 em cada 1.000 pessoas
+
+inflamação da aorta (grande vaso sanguíneo que transporta o sangue do coração para o 
+organismo). Ver secção 2. 
+hemorragia do pulmão (hemorragia pulmonar).
+
+síndrome de Stevens-Johnson, que pode aparecer sob a forma de manchas avermelhadas 
+circulares ou tipo alvo, frequentemente acompanhadas por bolhas centrais que surgem no 
+tronco, descamação da pele, úlceras na boca, garganta, nariz, genitais e olhos, possivelmente 
+precedidas por febre e sintomas tipo gripe. Pare de utilizar Nyvepria se tiver algum destes 
+28
+sintomas e contacte o seu médico ou procure imediatamente cuidados médicos. Ver também 
+secção 2. Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar nyvepria"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar nyvepria"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo da 
+seringa após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2°C - 8°C).
+Pode retirar o Nyvepria do frigorífico e mantê-lo à temperatura ambiente (não acima dos 25°C) por 
+um período não superior a 15 dias. Quando uma seringa é retirada do frigorífico e atinge a temperatura 
+ambiente (não acima dos 25°C), deve ser utilizada dentro dos próximos 15 dias ou deve ser eliminada.
+Não congelar. Nyvepria pode ser utilizado se tiver sido congelado acidentalmente, durante um período 
+inferior a 24 horas.
+Manter o recipiente dentro da embalagem exterior para proteger da luz.
+Não utilize este medicamento se verificar que está turvo ou com partículas no interior.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Nyvepria</h2>
+<p>A substância ativa é o pegfilgrastim. Cada seringa pré-cheia contém 6 mg de pegfilgrastim em 
+0,6 ml de solução.
+-
+Os outros componentes são acetato de sódio tri-hidratado, ácido acético glacial, sorbitol (E420), 
+polissorbato 20 e água para preparações injetáveis (ver secção 2 “Nyvepria contém sorbitol 
+(E420) e acetato de sódio").
+Qual o aspeto de Nyvepria e conteúdo da embalagem
+Nyvepria é uma solução injetável límpida, incolor e isenta de partículas visíveis acondicionada numa 
+seringa pré-cheia (6 mg/0,6 ml).
+Cada embalagem contém 1 seringa pré-cheia de vidro com uma agulha de aço inoxidável, 
+tampa da agulha e um protetor automático de agulha.
+Titular da Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+29
+Fabricante
+Hospira Zagreb d.o.o.
+Prudnička cesta 60
+10291 Prigorje Brdovečko
+Croácia
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Kύπρος
+PFIZER EΛΛAΣ A.E. (CYPRUS BRANCH)
+T: +357 22 817690
+Česká Republika
+Pfizer, spol. s r.o.
+Tel: +420-283-004-111
+Magyarország
+Pfizer Kft.
+Tel: +36 1 488 3700
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Malta
+Drugsales Ltd
+Tel: +356 21 419 070/1/2
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Nederland
+Pfizer bv
+Tel: +31 (0)10800 4063 434 01636
+България
+Пфайзер Люксембург САРЛ,
+Клон България
+Teл: +359 2 970 4333
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+PFIZER EΛΛAΣ A.E.
+Τηλ.: +30 210 67 85 800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+30
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská Republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: +421 2 3355 5500
+Ísland
+Icepharma hf.
+Tel: +354 540 8000
+Suomi/Finland
+Finland Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel. +371 67035775
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. +3705 2514000
+Este folheto informativo foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1039,6 +1470,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-51634c89fd4b34ec036bc5c7b8243dfa"
 * entry[0].resource = composition-da-51634c89fd4b34ec036bc5c7b8243dfa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp51634c89fd4b34ec036bc5c7b8243dfa"
+* entry[=].resource = mp51634c89fd4b34ec036bc5c7b8243dfa
+                            
+                    
+Instance: bundlepackageleaflet-pt-51634c89fd4b34ec036bc5c7b8243dfa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nyvepria Package Leaflet for language pt"
+Description: "ePI document Bundle for nyvepria Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-51634c89fd4b34ec036bc5c7b8243dfa"
+* entry[0].resource = composition-pt-51634c89fd4b34ec036bc5c7b8243dfa
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp51634c89fd4b34ec036bc5c7b8243dfa"
@@ -1140,6 +1593,18 @@ RuleSet: 51634c89fd4b34ec036bc5c7b8243dfaListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-51634c89fd4b34ec036bc5c7b8243dfa) // nyvepria pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

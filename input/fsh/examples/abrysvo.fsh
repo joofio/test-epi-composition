@@ -706,6 +706,398 @@ tiltænkt som vejledning til sundhedspersoner i tilfælde af midlertidige temper
 
 
 
+Instance: composition-pt-0e4b0f32f27cd3409c6b65f9b73ff49f
+InstanceOf: CompositionUvEpi
+Title: "Composition for abrysvo Package Leaflet"
+Description:  "Composition for abrysvo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0e4b0f32f27cd3409c6b65f9b73ff49f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - abrysvo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Abrysvo e para que é utilizado
+2. O que precisa de saber antes de receber Abrysvo
+3. Como é administrado Abrysvo
+4. Efeitos indesejáveis possíveis
+5. Como conservar Abrysvo
+6. Conteúdos da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é abrysvo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é abrysvo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Abrysvo é uma vacina para prevenção da doença dos pulmões (trato respiratório) causada por um vírus 
+chamado vírus sincicial respiratório (VSR). Abrysvo é administrado a:
+
+grávidas para proteger as crianças desde o nascimento até aos 6 meses de idade
+ou
+
+a indivíduos com idade igual ou superior a 60 anos.
+O VSR é um vírus comum que, na maioria dos casos, provoca sintomas ligeiros idênticos aos de uma 
+constipação, como dor de garganta, tosse ou nariz entupido. Contudo, em crianças pequenas, o VSR 
+pode causar graves problemas de pulmões. Nos idosos e em pessoas com doenças crónicas, o VSR
+pode agravar doenças, tais como a doença pulmonar obstrutiva crónica (DPOC) e a insuficiência 
+cardíaca congestiva (ICC). O VSR pode levar a hospitalização em casos graves e, em alguns casos, 
+pode ser fatal.
+Como funciona Abrysvo
+Esta vacina ajuda o sistema imunitário (as defesas naturais do organismo) a produzir anticorpos 
+(substâncias existentes no sangue que ajudam o organismo a combater infeções), o que resulta na 
+proteção contra a doença pulmonar causada pelo VSR. No caso das grávidas, que são vacinadas entre 
+as 24 e as 36 semanas de gestação, estes anticorpos são transferidos para a criança através da placenta 
+antes do nascimento, o que protege as crianças quando estas estão mais vulneráveis ao VSR.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar abrysvo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar abrysvo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Abrysvo não deve ser administrada
+
+se tem alergia às substâncias ativas ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).
+29
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes de receber esta vacina
+
+se já tiver tido uma reação alérgica grave ou dificuldades respiratórias após ter recebido
+qualquer outra vacina ou após ter recebido Abrysvo anteriormente.
+
+se se sentir ansioso em relação a receber a vacina ou se já tiver desmaiado após qualquer 
+injeção. Os desmaios podem ocorrer antes ou depois de qualquer injeção.
+
+se tem uma infeção com febre alta. Se for o caso, a vacinação será adiada. A presença de uma 
+infeção ligeira, tal como uma constipação, não é motivo para adiar a vacinação, mas fale com 
+o seu médico primeiro.
+
+se tem algum problema hemorrágico ou faz nódoas negras com facilidade.
+
+se tem um sistema imunitário enfraquecido, o que pode fazer com que não obtenha o benefício 
+completo de Abrysvo.
+
+se está grávida há menos de 24 semanas.
+Se alguma das situações acima descritas se aplicar a si (ou se não tem a certeza), fale com o seu 
+médico, farmacêutico ou enfermeiro antes de Abrysvo lhe ser administrado.
+Tal como qualquer outra vacina, Abrysvo poderá não proteger totalmente todas as pessoas que forem 
+vacinadas.
+Crianças e adolescentes
+Abrysvo não é recomendado a crianças e jovens com menos de 18 anos de idade, exceto durante a
+gravidez (ver a secção "Gravidez" abaixo).
+Outros medicamentos e Abrysvo
+Informe o seu médico ou farmacêutico se estiver a utilizar, tiver utilizado recentemente ou se vier a 
+utilizar outros medicamentos ou se tiver recebido recentemente qualquer outra vacina.
+Abrysvo pode ser administrado ao mesmo tempo que uma vacina contra a gripe. É recomendado um 
+intervalo de pelo menos 2 semanas entre a administração de Abrysvo e a administração de uma vacina 
+contra o tétano, difteria e tosse convulsa acelular.
+Gravidez e amamentação
+As grávidas podem receber esta vacina no fim do segundo trimestre ou no terceiro trimestre (entre as
+24 e as 36 semanas).
+Se estiver a amamentar fale com o seu médico ou enfermeiro para aconselhamento antes de receber 
+esta vacina.
+Condução de veículos e utilização de máquinas
+É improvável que Abrysvo tenha influência na capacidade de conduzir ou utilizar máquinas.
+Abrysvo contém sódio
+Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
+"isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar abrysvo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar abrysvo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>É administrada uma injeção de 0,5 ml num músculo da parte superior do braço.
+Caso tenha dúvidas sobre a utilização de Abrysvo, fale com o seu médico, farmacêutico ou 
+enfermeiro.
+30</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todas as vacinas, esta vacina pode causar efeitos indesejáveis, embora estes não se manifestem 
+em todas as pessoas.
+Efeitos indesejáveis graves
+Raros (podem afetar até 1 em 1000 pessoas)
+
+síndrome de Guillain-Barré (uma doença neurológica que habitualmente começa com 
+formigueiro e fraqueza nos membros e que pode progredir para paralisia de uma parte ou de 
+todo o corpo).
+Muito raros (podem afetar até 1 em 10 000 pessoas)
+
+reações alérgicas - os sinais de uma reação alérgica incluem inchaço da face, lábios, língua ou
+garganta, erupção na pele, dificuldades respiratórias ou a engolir e tonturas. Ver também a 
+secção 2. Fale com o seu médico imediatamente se detetar sinais destes efeitos indesejáveis graves.
+Foram comunicados os seguintes efeitos indesejáveis em grávidas
+Muito frequentes (podem afetar mais do que 1 em 10 pessoas)
+
+dor no local de injeção
+
+dor de cabeça
+
+dores musculares (mialgia)
+Frequentes (podem afetar até 1 em 10 pessoas)
+
+vermelhidão no local de injeção
+
+inchaço no local de injeção
+Não foram comunicados efeitos indesejáveis em crianças que nasceram de pessoas vacinadas.
+Foram comunicados os seguintes efeitos indesejáveis em indivíduos com idade igual ou superior 
+a 60 anos
+Muito frequentes (podem afetar mais do que 1 em 10 pessoas)
+
+dor no local de injeção
+Frequentes (podem afetar até 1 em 10 pessoas)
+
+vermelhidão no local de injeção
+
+inchaço no local de injeção
+Raros (podem afetar até 1 em 1000 pessoas)
+
+síndrome de Guillain-Barré (ver Efeitos indesejáveis graves, acima)
+Muito raros (podem afetar até 1 em 10 000 pessoas)
+
+reações alérgicas (ver Efeitos indesejáveis graves, acima)
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não incluídos neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.
+31</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar abrysvo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar abrysvo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo 
+após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2ºC - 8ºC).
+Não congelar. Eliminar se a embalagem tiver sido congelada.
+Após a reconstituição, Abrysvo deve ser administrado imediatamente ou num prazo até 4 horas se 
+conservado entre 15ºC e 30ºC. Não congelar.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Abrysvo
+As substâncias ativas são:
+Antigénio F do subgrupo A do VSR estabilizado na conformação de pré-fusão1,2 60 microgramas
+Antigénio F do subgrupo B do VSR estabilizado na conformação de pré-fusão1,2 60 microgramas
+(antigénios do VSR)
+1glicoproteína F estabilizada na conformação de pré-fusão
+2produzido em células de Ovário de Hamster Chinês por tecnologia de DNA recombinante.
+Os outros componentes são:
+Pó
+
+trometamol
+
+cloridrato de trometamol
+
+sacarose
+
+manitol (E421)
+
+polissorbato 80 (E433)
+
+cloreto de sódio
+
+ácido clorídrico
+Solvente
+
+água para preparações injetáveis
+Qual o aspeto de Abrysvo e conteúdo da embalagem
+Abrysvo é fornecido sob a forma de
+
+um pó branco num frasco para injetáveis de vidro
+
+um solvente numa seringa pré-cheia ou num frasco para injetáveis para dissolução do pó
+Após a dissolução do pó no solvente, a solução fica transparente e incolor.
+Abrysvo está disponível
+
+numa embalagem com 1 frasco para injetáveis de pó, 1 seringa pré-cheia com solvente, 
+1 adaptador de frasco para injetáveis, com 1 agulha ou sem agulhas (embalagem com 1 dose).
+
+numa embalagem com 5 frascos para injetáveis de pó, 5 seringas pré-cheias com solvente, 
+5 adaptadores de frasco para injetáveis, com 5 agulhas ou sem agulhas (embalagem com 5 
+doses).
+
+numa embalagem com 10 frascos para injetáveis de pó, 10 seringas pré-cheias com solvente, 
+10 adaptadores de frasco para injetáveis, com 10 agulhas ou sem agulhas (embalagem com doses).
+32
+
+numa embalagem com 5 frascos para injetáveis de pó e 5 frascos para injetáveis de solvente
+(embalagem com 5 doses).
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Bélgica
+Fabricante
+Pfizer Manufacturing Belgium NV
+Rijksweg 12
+2870 Puurs-Sint-Amands
+Bélgica
+Pfizer Ireland Pharmaceuticals
+Grange Castle Business Park
+Clondalkin, Dublin 22
+Irlanda
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: + 32 (0)2 554 62 1
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: + 371 670 35 775
+България
+Пфайзер Люксембург САРЛ, Клон България
+Teл: +359 2 970 4333
+Lietuva
+Pfizer Luxembourg SARL 
+filialas Lietuvoje
+Tel: +370 5 251 4000
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Magyarország
+Pfizer Kft
+Tel: + 36 1 488 37 00
+Danmark
+Pfizer ApS
+Tlf: + 45 44 20 11 00
+Malta
+Vivian Corporation Ltd.
+Tel:+ 356 21344610
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ.: +30 210 6785800
+Österreich
+Pfizer Corporation Austria Ges.m.b.H
+Tel: +43 (0)1 521 15-0
+33
+España
+Pfizer, S.L.
+Télf: +34 91 490 99 00
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+France
+Pfizer
+Tél +33 (0)1 58 07 34 40
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+România
+Pfizer Romania S.R.L
+Tel: +40 (0) 21 207 28 00
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel.: +386 (0)1 52 11 400
+Ísland
+Icepharma hf.
+Simi: + 354 540 8000
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: + 421 2 3355 5500
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Suomi/Finland
+Pfizer Oy
+Puh/Tel:+358 (0)9 430 040
+Kύπρος
+Pfizer Ελλάς Α.Ε.(Cyprus Branch)
+Tηλ: +357 22817690
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Este folheto foi revisto pela última vez em
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -747,6 +1139,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-0e4b0f32f27cd3409c6b65f9b73ff49f"
 * entry[0].resource = composition-da-0e4b0f32f27cd3409c6b65f9b73ff49f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0e4b0f32f27cd3409c6b65f9b73ff49f"
+* entry[=].resource = mp0e4b0f32f27cd3409c6b65f9b73ff49f
+                            
+                    
+Instance: bundlepackageleaflet-pt-0e4b0f32f27cd3409c6b65f9b73ff49f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for abrysvo Package Leaflet for language pt"
+Description: "ePI document Bundle for abrysvo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-0e4b0f32f27cd3409c6b65f9b73ff49f"
+* entry[0].resource = composition-pt-0e4b0f32f27cd3409c6b65f9b73ff49f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp0e4b0f32f27cd3409c6b65f9b73ff49f"
@@ -848,6 +1262,18 @@ RuleSet: 0e4b0f32f27cd3409c6b65f9b73ff49fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-0e4b0f32f27cd3409c6b65f9b73ff49f) // abrysvo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

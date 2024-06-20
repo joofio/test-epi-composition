@@ -757,6 +757,298 @@ og om, hvordan de behandles. </p>         </div>"""
 
 
 
+Instance: composition-pt-9585e706c3b3ccee22d99123d376fe07
+InstanceOf: CompositionUvEpi
+Title: "Composition for mysildecard Package Leaflet"
+Description:  "Composition for mysildecard Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9585e706c3b3ccee22d99123d376fe07)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - mysildecard"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Mysildecard e para que é utilizado  </li>
+<li>O que precisa de saber antes de tomar Mysildecard </li>
+<li>Como tomar Mysildecard </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Mysildecard </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é mysildecard e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é mysildecard e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mysildecard contém a substância ativa sildenafil que pertence a um grupo de medicamentos 
+denominados inibidores da fosfodiesterase tipo 5 (PDE5).<br />
+Mysildecard reduz a pressão sanguínea nos pulmões através da dilatação dos vasos sanguíneos dos 
+pulmões.<br />
+Mysildecard é utilizado no tratamento de adultos e de crianças e adolescentes com idades 
+compreendidas entre 1 e 17 anos com pressão sanguínea elevada nos vasos sanguíneos dos pulmões 
+(hipertensão arterial pulmonar). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar mysildecard"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar mysildecard"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Mysildecard: 
+- se tem alergia ao sildenafil ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). 
+- se está a tomar medicamentos que contenham nitratos, ou dadores de óxido nítrico, tal como o 
+nitrito de amilo (“poppers“). Estes medicamentos são frequentemente utilizados para alívio da 
+dor no peito (ou angina de peito). Mysildecard pode provocar um aumento grave dos efeitos 
+destes medicamentos. Informe o seu médico se está a tomar algum destes medicamentos. Se tem 
+dúvidas, informe-se junto do seu médico ou farmacêutico. 
+- se estiver a tomar riociguat. Este fármaco é utilizado para tratar a hipertensão arterial pulmonar 
+(ou seja, pressão sanguínea elevada nos pulmões) e a hipertensão pulmonar tromboembólica 
+crónica (ou seja, pressão sanguínea elevada nos pulmões devido à presença de coágulos). Os 
+inibidores da PDE5, como o sildenafil, demonstraram aumentar os efeitos hipotensores deste 
+medicamento. Se estiver a tomar riociguat ou se tiver dúvidas, fale com o seu médico. 
+- se sofreu recentemente uma trombose (derrame cerebral), um ataque cardíaco ou se tem uma 
+doença hepática grave ou a pressão arterial muito baixa (&lt; 90/50 mmHg). 
+- se está a tomar algum medicamento para tratar infeções causadas por fungos tal como o 
+cetoconazol ou itraconazol ou medicamentos contendo ritonavir (para o VIH). 
+- se alguma vez teve perda de visão devido a um problema com o fluxo sanguíneo para o nervo 
+do olho designado neuropatia ótica isquémica anterior não artrítica (NAION). </p>
+<p>Advertências e precauções 
+Fale com o seu médico antes de tomar Mysildecard se: </p>
+<ul>
+<li>tem uma doença que causa um estreitamento ou bloqueio de uma veia nos pulmões e não de 
+uma artéria. </li>
+<li>tem problemas cardíacos graves. </li>
+<li>tem problemas nas aurículas ou nos ventrículos do coração. </li>
+<li>tem pressão sanguínea elevada nos vasos sanguíneos dos pulmões. </li>
+<li>tem pressão arterial baixa em repouso. </li>
+<li>tem perda de uma grande quantidade de fluidos (desidratação) que pode ocorrer quando 
+transpira muito ou quando não bebe líquidos em quantidade suficiente. Pode ocorrer se está 
+doente com febre, vómitos ou diarreia. </li>
+<li>tem uma doença ocular hereditária rara (retinite pigmentosa). </li>
+<li>tem uma alteração nos glóbulos vermelhos (anemia falciforme), cancro das células sanguíneas 
+(leucemia), cancro da medula óssea (mieloma múltiplo) ou qualquer doença ou deformação do 
+pénis. </li>
+<li>tem atualmente uma úlcera do estômago, um problema hemorrágico (tal como a hemofilia) ou 
+um problema de perda de sangue pelo nariz. </li>
+<li>toma medicamentos para a disfunção erétil. </li>
+</ul>
+<p>Quando foram utilizados inibidores PDE5, incluindo o sildenafil, para tratar a disfunção erétil (DE) 
+masculina, foram notificados, com uma frequência desconhecida, os seguintes efeitos indesejáveis na 
+visão: diminuição ou perda da visão parcial, súbita, temporária ou permanente em um ou em ambos os 
+olhos. </p>
+<p>Se teve diminuição súbita ou perda da visão pare de tomar Mysildecard e contacte imediatamente 
+o seu médico (ver também secção 4). </p>
+<p>Foram notificados casos de ereções prolongadas e por vezes dolorosas em doentes a tomar sildenafil. 
+Se tiver uma ereção, que dure continuamente mais de 4 horas, pare de tomar Mysildecard e contacte 
+o seu médico imediatamente (ver também secção 4). </p>
+<p>Cuidados especiais a ter em doentes com problemas no fígado ou rins 
+Deve informar o seu médico se tem problemas nos rins ou fígado, pois poderá ser necessário ajustar a 
+dose do seu medicamento. </p>
+<p>Crianças 
+Mysildecard não deve ser administrado a crianças com idade inferior a 1 ano. </p>
+<p>Outros medicamentos e Mysildecard 
+Informe o seu médico ou farmacêutico se estiver a tomar ou tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. </p>
+<p> 
+Medicamentos contendo nitratos, ou dadores de óxido nítrico tal como o nitrilo de amilo 
+(“poppers"). Estes medicamentos são habitualmente utilizados para o alívio da angina de peito 
+ou “dor no peito" (ver secção </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar mysildecard"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar mysildecard"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p> 
+Se já estiver a tomar riociguat, informe o seu médico ou farmacêutico (ver secção 2). 
+ 
+Tratamento para a hipertensão pulmonar (por ex., bosentano, iloprost) 
+ 
+Medicamentos que contenham hipericão (produto à base de plantas), rifampicina (utilizado no 
+tratamento de infeções bacterianas), carbamazepina, fenitoína e, fenobarbital (utilizado, entre 
+outros, no tratamento da epilepsia) 
+ 
+Medicamentos que inibem a coagulação do sangue (por ex., a varfarina) embora estes não 
+tenham resultado em nenhum efeito secundário 
+ 
+Medicamentos contendo eritromicina, claritromicina, telitromicina (estes são antibióticos 
+utilizados no tratamento de certas infeções bacterianas), saquinavir (utilizado no tratamento do </p>
+<p>VIH) ou nefazodona (para o tratamento da depressão), pois poderá ser necessário ajustar a dose 
+do medicamento 
+ 
+Tratamento com bloqueadores alfa (por exemplo doxazosina) para o tratamento da pressão 
+arterial elevada ou problemas da próstata, uma vez que a associação dos dois medicamentos 
+pode causar sintomas que originam descida da pressão sanguínea (por ex., tonturas, sensação de 
+desmaio). 
+ 
+Medicamentos que contêm sacubitril/valsartan, utilizados para tratar a insuficiência cardíaca. </p>
+<p>Mysildecard com alimentos e bebidas 
+Não deve beber sumo de toranja enquanto estiver em tratamento com Mysildecard. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. Mysildecard não deve ser administrado durante a 
+gravidez, exceto quando estritamente necessário. 
+Mysildecard não deve ser administrado a mulheres com potencial para engravidar a não ser que utilize 
+métodos contracetivos apropriados. Mysildecard passa para o seu leite materno em níveis muito baixos 
+e não é de esperar que seja nocivo para o seu bebé. </p>
+<p>Condução de veículos e utilização de máquinas 
+Mysildecard pode provocar tonturas e alterações da visão. Deve estar consciente de como reage ao 
+medicamento antes de conduzir ou utilizar máquinas. </p>
+<p>Mysildecard contém sódio 
+Este medicamento contem menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
+praticamente “isento de sódio". </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.  </p>
+<p>Para adultos a dose recomendada é de 20 mg três vezes ao dia (administradas com 6 a 8 horas de 
+intervalo). Os comprimidos podem ser tomados com ou sem alimentos. </p>
+<p>Utilização em crianças e adolescentes 
+Para crianças e adolescentes com idades entre 1 e 17 anos de idade, a dose recomendada é de 10 mg, 
+três vezes ao dia para crianças e adolescentes ≤ 20 kg ou de 20 mg três vezes ao dia para crianças e 
+adolescentes &gt; 20 kg, administrada com ou sem alimentos. Não deverão ser utilizadas doses mais 
+elevadas em crianças. O medicamento deve apenas ser utilizado nos casos da administração de 20 mg, 
+três vezes ao dia. Outras formas farmacêuticas podem ser mais apropriadas para administração a 
+doentes ≤ 20 kg e doente mais jovens que não consigam engolir comprimidos. </p>
+<p>Se tomar mais Mysildecard do que deveria 
+Não deve tomar mais medicamento do que o que o seu médico lhe indicou.<br />
+Se tomar mais medicamento do que lhe foi recomendado, contacte o seu médico imediatamente. 
+Tomar mais Mysildecard do que deveria pode aumentar o risco de efeitos indesejáveis conhecidos. </p>
+<p>Caso se tenha esquecido de tomar Mysildecard 
+Caso se tenha esquecido de tomar Mysildecard, tome a sua dose assim que se lembrar, depois continue 
+a fazer o seu tratamento às horas habituais. Não tome uma dose a dobrar para compensar uma dose que 
+se esqueceu de tomar. </p>
+<p>Se parar de tomar Mysildecard<br />
+Se parar repentinamente o tratamento com Mysildecard, poderá fazer com que os sintomas da doença 
+se agravem. Não pare de tomar Mysildecard, a não ser que o seu médico lhe dê instruções para o fazer. </p>
+<p>O seu médico poderá dizer-lhe para reduzir gradualmente a sua dose durante alguns dias antes de parar 
+completamente o tratamento. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar mysildecard"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar mysildecard"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Se tiver algum dos seguintes efeitos indesejáveis deve parar de tomar Mysildecard e contactar o seu 
+médico imediatamente (ver também secção 2): 
+-<br />
+se tiver diminuição ou perda da visão súbita (frequência desconhecida) 
+-<br />
+se tiver uma ereção que se prolonga por mais que 4 horas. Foram notificadas ereções 
+prolongadas e por vezes dolorosas em homens após tomarem sildenafil (frequência 
+desconhecida).  </p>
+<p>Adultos 
+Os efeitos indesejáveis comunicados muito frequentemente (que podem afetar mais de 1 doente em 
+cada 10) foram dores de cabeça, rubor (vermelhidão) facial, indigestão, diarreia e dores nos braços e 
+pernas. </p>
+<p>Efeitos indesejáveis comunicados frequentemente (que podem afetar até 1 doente em cada 10) 
+incluíram: infeção sob a pele, sintomas semelhantes aos da gripe, inflamação dos seios perinasais, 
+número reduzido de células sanguíneas vermelhas (anemia), retenção de fluidos, dificuldade em 
+dormir, ansiedade, enxaqueca, tremores, sensação de formigueiro, sensação de queimadura, 
+diminuição da sensibilidade ao toque, hemorragia da retina, efeitos na visão, visão turva, perceção 
+aumentada da luz, efeitos na visualização de cores, irritação dos olhos, olhos vermelhos, vertigens, 
+bronquite, sangramento nasal, nariz a pingar, tosse, nariz entupido, inflamação do estômago, 
+gastroenterite, azia, hemorroidas, distensão abdominal, boca seca, queda de cabelo, vermelhidão da 
+pele, suores noturnos, dores musculares, dores nas costas e aumento da temperatura corporal.  </p>
+<p>Efeitos indesejáveis comunicados com pouca frequência (que podem afetar até 1 doente em cada 100), 
+incluem: redução da acuidade visual, visão dupla, sensibilidade ocular anormal, hemorragia do pénis, 
+presença de sangue no sémen e/ou na urina e aumento mamário no homem. </p>
+<p>Também foi comunicada a ocorrência de erupção cutânea, diminuição ou perda súbita da audição e 
+diminuição da pressão arterial (tensão arterial), com uma frequência desconhecida (a frequência não 
+pode ser calculada a partir dos dados disponíveis). </p>
+<p>Crianças e adolescentes 
+Os seguintes acontecimentos adversos graves foram comunicados frequentemente (podem afetar até 1 
+em 10 doentes): pneumonia, insuficiência cardíaca, insuficiência cardíaca direita, choque relacionado 
+com o coração, tensão arterial elevada nos pulmões, dor no peito, desmaio, infeção respiratória, 
+bronquite, infeção viral no estômago e intestinos, infeções das vias urinárias e cáries dentárias. </p>
+<p>Os seguintes acontecimentos adversos graves foram considerados relacionados com o tratamento e 
+foram comunicados pouco frequentemente (podem afetar até 1 em 100 doentes), reação alérgica 
+(como erupção cutânea, inchaço do rosto, lábios e língua, pieira, dificuldade em respirar ou engolir), 
+convulsões, batimento cardíaco irregular, deficiência auditiva, falta de ar, inflamação do trato 
+digestivo, pieira devido a perturbações do fluxo de ar. </p>
+<p>Os efeitos indesejáveis comunicados muito frequentemente (podem afetar mais de 1 a 10 doentes) 
+foram, dores de cabeça, vómitos, infeções da garganta, febre, diarreia, gripe e hemorragia nasal. </p>
+<p>Os efeitos indesejáveis comunicados frequentemente (podem afetar até 1 em 10 pessoas) foram 
+náusea, aumento das ereções, pneumonia e nariz a pingar. </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior após EXP. O 
+prazo de validade corresponde ao último dia do mês indicado. </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+
+
+
 
 
                     
@@ -798,6 +1090,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-9585e706c3b3ccee22d99123d376fe07"
 * entry[0].resource = composition-da-9585e706c3b3ccee22d99123d376fe07
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9585e706c3b3ccee22d99123d376fe07"
+* entry[=].resource = mp9585e706c3b3ccee22d99123d376fe07
+                            
+                    
+Instance: bundlepackageleaflet-pt-9585e706c3b3ccee22d99123d376fe07
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mysildecard Package Leaflet for language pt"
+Description: "ePI document Bundle for mysildecard Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-9585e706c3b3ccee22d99123d376fe07"
+* entry[0].resource = composition-pt-9585e706c3b3ccee22d99123d376fe07
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp9585e706c3b3ccee22d99123d376fe07"
@@ -899,6 +1213,18 @@ RuleSet: 9585e706c3b3ccee22d99123d376fe07ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-9585e706c3b3ccee22d99123d376fe07) // mysildecard pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

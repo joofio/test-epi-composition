@@ -1403,6 +1403,671 @@ smides ud. </p>
 
 
 
+Instance: composition-pt-802d03413c083ad0931330a56355a879
+InstanceOf: CompositionUvEpi
+Title: "Composition for ocrevus Package Leaflet"
+Description:  "Composition for ocrevus Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp802d03413c083ad0931330a56355a879)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ocrevus"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Ocrevus e para que é utilizado  </li>
+<li>O que precisa de saber antes de lhe ser administrado Ocrevus  </li>
+<li>Como é administrado Ocrevus  </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Ocrevus </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ocrevus e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ocrevus e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Ocrevus </p>
+<p>Ocrevus contém a substância ativa “ocrelizumab". É um tipo de proteína chamada “anticorpo 
+monoclonal". Os anticorpos atuam ligando-se a alvos específicos no seu corpo. </p>
+<p>Para que é utilizado Ocrevus </p>
+<p>Ocrevus é utilizado para tratar adultos com: </p>
+<ul>
+<li>
+<p>Esclerose múltipla com surtos (EMS)  </p>
+</li>
+<li>
+<p>Esclerose múltipla progressiva primária (EMPP) inicial </p>
+</li>
+</ul>
+<p>O que é a Esclerose Múltipla </p>
+<p>A esclerose múltipla (EM) afeta o sistema nervoso central, sobretudo os nervos no cérebro e a medula 
+espinhal. Na EM o sistema imunitário (o sistema de defesa do corpo) não funciona corretamente e 
+ataca uma camada protetora (chamada bainha de mielina) à volta das células nervosas e provoca 
+inflamação. A degradação da bainha de mielina impede os nervos de funcionar de forma adequada. </p>
+<p>Os sintomas da EM dependem da parte do sistema nervoso central que é afetada e podem incluir 
+problemas a andar e de equilíbrio, fraqueza, dormência, visão dupla e turva, fraca coordenação e 
+problemas com a bexiga. </p>
+<ul>
+<li>
+<p>Na EM com surtos, o doente tem ataques repetidos de sintomas (surtos). Os sintomas podem 
+aparecer de repente em poucas horas, ou lentamente ao longo de vários dias. Os sintomas 
+desaparecem ou melhoram entre surtos, mas os danos podem acumular-se e levar a incapacidade 
+permanente.  </p>
+</li>
+<li>
+<p>Na EM progressiva primária, os sintomas geralmente agravam-se de forma contínua, desde o 
+início da doença. </p>
+</li>
+</ul>
+<p>Como atua Ocrevus </p>
+<p>Ocrevus liga-se a linfócitos B específicos, que são um tipo de glóbulos brancos do sangue que fazem 
+parte do sistema imunitário e que desempenham um papel na EM. Ocrevus identifica e elimina esses 
+linfócitos B específicos. Isto reduz a inflamação e os ataques na bainha de mielina, reduz a 
+probabilidade de ter um surto e atrasa a progressão da sua doença. </p>
+<ul>
+<li>
+<p>Na EM com surtos (EMS), Ocrevus ajuda a reduzir significativamente o número de ataques 
+(surtos) e atrasa significativamente a progressão da doença. Ocrevus também aumenta 
+significativamente a probabilidade de um doente não ter evidência de atividade da doença 
+(lesões no cérebro, surtos e agravamento da incapacidade). </p>
+</li>
+<li>
+<p>Na EM progressiva primária (EMPP), Ocrevus ajuda a atrasar a progressão da doença e a 
+reduzir a deterioração na velocidade a caminhar. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ocrevus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ocrevus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não lhe pode ser administrado Ocrevus: </p>
+<ul>
+<li>
+<p>se tem alergia ao ocrelizumab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). </p>
+</li>
+<li>
+<p>se atualmente tem uma infeção.  </p>
+</li>
+<li>
+<p>se lhe foi dito que tem problemas graves no seu sistema imunitário. </p>
+</li>
+<li>
+<p>se tem cancro. </p>
+</li>
+</ul>
+<p>Se tiver dúvidas, fale com o seu médico antes de lhe ser administrado Ocrevus. </p>
+<p>Advertências e precauções  </p>
+<p>Fale com o seu médico antes de lhe ser administrado Ocrevus se alguma das situações seguintes se 
+aplicar a si. O seu médico poderá decidir adiar o seu tratamento com Ocrevus, ou decidir que não pode 
+receber Ocrevus se: </p>
+<ul>
+<li>
+<p>tem uma infeção. O seu médico irá aguardar até que a infeção esteja resolvida antes de lhe dar 
+Ocrevus. </p>
+</li>
+<li>
+<p>alguma vez teve hepatite B ou é um portador do vírus da hepatite B. Isto porque medicamentos 
+como Ocrevus podem fazer com que o vírus da hepatite B volte a ficar ativo. Antes do 
+tratamento com Ocrevus, o seu médico irá verificar o seu risco de infeção pelo vírus da hepatite 
+B. Doentes que tenham tido hepatite B ou que sejam portadores do vírus da hepatite B irão fazer 
+uma análise ao sangue e vão ser vigiados por um médico para detetar sinais de infeção por 
+hepatite B. </p>
+</li>
+<li>
+<p>tem cancro ou já teve cancro. O seu médico poderá decidir adiar o seu tratamento com Ocrevus. </p>
+</li>
+</ul>
+<p>Efeito no sistema imunitário: </p>
+<ul>
+<li>
+<p>Doenças que afetam o seu sistema imunitário: se tiver outra doença que afeta o sistema 
+imunitário, poderá não ser possível ser tratado com Ocrevus. </p>
+</li>
+<li>
+<p>Medicamentos que afetam o seu sistema imunitário: se alguma vez já tomou, está a tomar ou 
+planeia tomar medicamentos que afetam o sistema imunitário - tais como quimioterapia, 
+imunossupressores ou outros medicamentos utilizados para tratar a EM. O seu médico poderá 
+decidir adiar o seu tratamento com Ocrevus ou poderá pedir-lhe para parar estes medicamentos 
+antes de iniciar o tratamento com Ocrevus. Ver “Outros medicamentos e Ocrevus", em baixo, 
+para mais informações. </p>
+</li>
+</ul>
+<p>Reações relacionadas com a perfusão  </p>
+<ul>
+<li>
+<p>As reações relacionadas com a perfusão são o efeito indesejável mais comum do tratamento 
+com Ocrevus. </p>
+</li>
+<li>
+<p>Informe imediatamente o seu médico ou enfermeiro se tiver qualquer reação relacionada 
+com a perfusão (ver secção 4 para a lista das reações relacionadas com a perfusão). As reações 
+relacionadas com a perfusão podem ocorrer durante a perfusão ou até 24 horas após a perfusão.  </p>
+</li>
+<li>
+<p>Para reduzir o risco de uma reação relacionada com a perfusão, o médico irá dar-lhe outros 
+medicamentos antes de cada perfusão com Ocrevus (ver secção 3) e será cuidadosamente 
+vigiado durante a perfusão e, pelo menos, durante uma hora após a perfusão. </p>
+</li>
+</ul>
+<p>Infeções </p>
+<ul>
+<li>
+<p>Fale com o seu médico antes de lhe ser administrado Ocrevus se pensa que tem uma infeção. O 
+seu médico irá aguardar até que a infeção esteja resolvida antes de lhe dar Ocrevus. </p>
+</li>
+<li>
+<p>Poderá ter infeções mais facilmente com Ocrevus. Isto porque as células imunitárias às quais o 
+Ocrevus se liga também ajudam a combater infeções. </p>
+</li>
+<li>
+<p>Antes de iniciar o tratamento com Ocrevus, e antes das perfusões seguintes, o seu médico 
+poderá pedir-lhe para fazer um exame ao sangue para avaliar o seu sistema imunitário, porque 
+podem ocorrer infeções mais frequentemente em caso de problemas graves com o seu sistema 
+imunitário. </p>
+</li>
+<li>
+<p>Se for tratado com Ocrevus para esclerose múltipla progressiva primária e tiver dificuldades em 
+engolir, Ocrevus pode aumentar o risco de pneumonia severa.  </p>
+</li>
+<li>
+<p>Informe o seu médico ou enfermeiro imediatamente se tiver qualquer um destes sinais de 
+infeção durante ou após o tratamento com Ocrevus:  </p>
+</li>
+<li>febre ou arrepios </li>
+<li>tosse que não passa </li>
+<li>
+<p>herpes (tais como ferida por herpes, zona ou lesões genitais).  </p>
+</li>
+<li>
+<p>Informe o seu médico ou enfermeiro imediatamente se pensa que a sua EM está a piorar 
+ou se reparar em qualquer sintoma novo. Isto deve-se ao facto de uma infeção no cérebro 
+muito rara e potencialmente fatal, chamada “Leucoencefalopatia Multifocal Progressiva" 
+(LEMP), que pode causar sintomas semelhantes aos da EM. A LEMP pode ocorrer em doentes 
+a tomar Ocrevus.  </p>
+</li>
+<li>
+<p>Informe o seu companheiro ou cuidador sobre o seu tratamento com Ocrevus. Eles poderão 
+reparar em sintomas de LEMP dos quais não se apercebe e que o seu médico poderá ter de 
+investigar, tais como falhas de memória, dificuldade em pensar, dificuldade em andar, perda de 
+visão, alterações na fala. </p>
+</li>
+</ul>
+<p>Vacinação </p>
+<ul>
+<li>
+<p>Informe o seu médico se lhe administraram recentemente alguma vacina ou se poderá ser-lhe 
+administrada uma vacina em breve.  </p>
+</li>
+<li>
+<p>Enquanto estiver a ser tratado com Ocrevus, não lhe devem ser administradas vacinas “vivas" 
+ou “vivas atenuadas" (por exemplo, a BCG para a tuberculose ou vacinas contra a febre 
+amarela). </p>
+</li>
+<li>
+<p>O seu médico pode recomendar que lhe seja administrada a vacina da gripe sazonal. </p>
+</li>
+<li>
+<p>O seu médico irá verificar se necessita de alguma vacina antes de iniciar o tratamento com 
+Ocrevus. Qualquer vacina deve ser administrada, pelo menos, 6 semanas antes de começar o 
+tratamento com Ocrevus. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes </p>
+<p>Ocrevus não se destina a crianças e adolescentes com menos de 18 anos de idade. Isto é devido a ainda 
+não ter sido estudado neste grupo etário. </p>
+<p>Outros medicamentos e Ocrevus </p>
+<p>Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos. Em particular, informe o seu médico se: </p>
+<ul>
+<li>
+<p>alguma vez tomou, está a tomar ou planeia tomar medicamentos que afetam o sistema 
+imunitário - tais como quimioterapia, imunossupressores ou outros medicamentos utilizados 
+para tratar a EM. O efeito destes medicamentos com Ocrevus no sistema imunitário pode ser 
+demasiado forte. O seu médico poderá decidir adiar o seu tratamento com Ocrevus ou poderá 
+pedir-lhe para parar estes medicamentos antes de iniciar o tratamento com Ocrevus. </p>
+</li>
+<li>
+<p>está a tomar medicamentos para a tensão arterial alta uma vez que Ocrevus pode diminuir a 
+tensão arterial. O seu médico poderá pedir-lhe para parar de tomar os seus medicamentos para a 
+tensão arterial nas 12 horas antes de cada perfusão de Ocrevus.  </p>
+</li>
+</ul>
+<p>Se alguma das situações acima se aplicar a si (ou caso não tenha a certeza), fale com o seu médico 
+antes de lhe ser administrado Ocrevus. </p>
+<p>Gravidez  </p>
+<ul>
+<li>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico antes de tomar este medicamento. Isto porque Ocrevus pode atravessar a placenta e 
+afetar o seu bebé. </p>
+</li>
+<li>
+<p>Não utilize Ocrevus se estiver grávida, a não ser que tenha discutido isto com o seu médico. O 
+seu médico irá ponderar o benefício de utilizar Ocrevus face ao risco para o seu bebé. </p>
+</li>
+<li>
+<p>Fale com o seu médico antes de vacinar o seu bebé. </p>
+</li>
+</ul>
+<p>Contraceção para mulheres </p>
+<p>As mulheres com potencial para engravidar têm de utilizar um método contracetivo: </p>
+<ul>
+<li>
+<p>durante o tratamento com Ocrevus e </p>
+</li>
+<li>
+<p>durante 12 meses após a sua última perfusão de Ocrevus. </p>
+</li>
+</ul>
+<p>Amamentação </p>
+<p>Não amamente enquanto estiver a ser tratada com Ocrevus. Isto porque Ocrevus pode passar para o 
+leite humano. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Não se sabe se Ocrevus tem algum efeito na sua capacidade de conduzir veículos ou utilizar 
+ferramentas ou máquinas. O seu médico dir-lhe-á se a sua EM pode afetar a sua capacidade de 
+conduzir ou utilizar ferramentas e máquinas com segurança. </p>
+<p>Ocrevus contém sódio </p>
+<p>Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
+"isento de sódio". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ocrevus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ocrevus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ocrevus será administrado por um médico ou enfermeiro com experiência na utilização deste 
+tratamento. 
+Será cuidadosamente vigiado enquanto estiver a receber este medicamento, para o caso de ter 
+quaisquer efeitos indesejáveis. Ocrevus será sempre administrado através de um saco de soro, gota a 
+gota (perfusão intravenosa). </p>
+<p>Medicamentos que irá receber antes de lhe ser administrado Ocrevus </p>
+<p>Antes de lhe ser administrado Ocrevus, irá receber outros medicamentos para prevenir ou reduzir 
+possíveis efeitos indesejáveis, tais como reações relacionadas com a perfusão (ver secções 2 e 4 para 
+informações sobre reações relacionadas com a perfusão).<br />
+Irá receber um corticosteroide e um anti-histamínico antes de cada perfusão e também poderá receber 
+medicamentos para reduzir a febre. </p>
+<p>Que quantidade e com que frequência lhe será administrado Ocrevus </p>
+<p>Será administrada uma dose total de 600 mg de Ocrevus a cada 6 meses. </p>
+<ul>
+<li>
+<p>A primeira dose de 600 mg de Ocrevus será administrada em 2 perfusões separadas (de 300 mg 
+cada), com um intervalo de 2 semanas. Cada perfusão durará cerca de 2 horas e 30 minutos. </p>
+</li>
+<li>
+<p>As doses seguintes de 600 mg de Ocrevus serão administradas numa única perfusão. 
+Dependendo da velocidade das perfusões subsequentes, cada perfusão durará cerca de 3 horas e 
+30 minutos ou 2 horas. </p>
+</li>
+</ul>
+<p>Como é administrado Ocrevus </p>
+<ul>
+<li>
+<p>Ocrevus será administrado por um médico ou um enfermeiro. Será administrado por perfusão 
+numa veia (perfusão intravenosa ou perfusão IV). </p>
+</li>
+<li>
+<p>Será cuidadosamente vigiado enquanto lhe estiver a ser administrado Ocrevus e, pelo menos, 
+durante 1 hora após a perfusão ter sido administrada, para o caso de ter quaisquer efeitos 
+indesejáveis tais como reações relacionadas com a perfusão. Caso tenha uma reação relacionada 
+com a perfusão, e dependendo da gravidade (ver secções 2 e 4 para informações sobre reações 
+relacionadas com a perfusão), a perfusão poderá ter de ser abrandada, interrompida 
+temporariamente ou de forma definitiva. </p>
+</li>
+</ul>
+<p>Se falhar uma perfusão de Ocrevus </p>
+<ul>
+<li>
+<p>Se falhar uma perfusão de Ocrevus, informe o seu médico para remarcá-la assim que possível. 
+Não espere até à sua próxima perfusão planeada. </p>
+</li>
+<li>
+<p>Para ter todo o benefício de Ocrevus, é importante que cada perfusão lhe seja administrada no 
+devido momento. </p>
+</li>
+</ul>
+<p>Se parar o tratamento com Ocrevus </p>
+<ul>
+<li>
+<p>É importante que continue o seu tratamento durante o tempo que o seu médico, em conjunto 
+consigo, decidir que seja benéfico para si.  </p>
+</li>
+<li>
+<p>Alguns efeitos indesejáveis podem estar relacionados com o baixo número de linfócitos B. Após 
+parar o tratamento com Ocrevus, ainda poderá ter efeitos indesejáveis até que os seus linfócitos 
+B tenham regressado ao normal. Os seus linfócitos B do sangue vão aumentar gradualmente até 
+aos níveis normais. Isto pode demorar entre 6 meses a dois anos e meio, ou até vários anos em 
+casos raros. </p>
+</li>
+<li>
+<p>Antes de começar qualquer outro medicamento, informe o seu médico de quando ocorreu a sua 
+última perfusão de Ocrevus. </p>
+</li>
+</ul>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Os seguintes efeitos indesejáveis foram notificados com Ocrevus: </p>
+<p>Efeitos indesejáveis graves: </p>
+<p>Reações relacionadas com a perfusão </p>
+<ul>
+<li>
+<p>As reações relacionadas com a perfusão são o efeito indesejável mais frequente do tratamento 
+com Ocrevus (muito frequentes: podem afetar mais de 1 em 10 pessoas). Na maioria dos casos 
+estas reações são ligeiras, mas podem ocorrer algumas reações graves. </p>
+</li>
+<li>
+<p>Informe o seu médico ou enfermeiro imediatamente se tiver qualquer sinal ou sintoma de 
+uma reação relacionada com a perfusão durante a perfusão ou até 24 horas após a 
+perfusão. Os sintomas podem incluir, entre outros: </p>
+</li>
+<li>comichão na pele </li>
+<li>erupção na pele </li>
+<li>urticária </li>
+<li>vermelhidão da pele </li>
+<li>irritação ou dor de garganta </li>
+<li>falta de ar </li>
+<li>inchaço da garganta </li>
+<li>afrontamento </li>
+<li>tensão arterial baixa </li>
+<li>febre </li>
+<li>cansaço </li>
+<li>dor de cabeça </li>
+<li>tonturas </li>
+<li>enjoos (náuseas) </li>
+<li>
+<p>batimentos cardíacos acelerados. </p>
+</li>
+<li>
+<p>Se tiver uma reação relacionada com a perfusão, ser-lhe-ão administrados medicamentos para 
+tratá-la e a perfusão poderá ter de ser abrandada ou interrompida. Assim que a reação tenha 
+passado, a perfusão pode continuar. Se a reação relacionada com a perfusão for potencialmente 
+fatal, o seu médico irá interromper permanentemente o seu tratamento com Ocrevus. </p>
+</li>
+</ul>
+<p>Infeções </p>
+<ul>
+<li>Poderá ter infeções mais facilmente com Ocrevus. As seguintes infeções foram observadas em 
+doentes tratados com Ocrevus na EM:  </li>
+<li>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </li>
+<li>dor de garganta e corrimento nasal (infeção das vias respiratórias superiores) </li>
+<li>gripe </li>
+<li>Frequentes (podem afetar até 1 em cada 10 pessoas) </li>
+<li>sinusite </li>
+<li>bronquite (inflamação dos brônquios) </li>
+<li>infeção por herpes (herpes labial ou zona) </li>
+<li>infeção do estômago e intestino (gastroenterite) </li>
+<li>infeção das vias respiratórias </li>
+<li>infeção viral </li>
+<li>infeção da pele (celulite) </li>
+</ul>
+<p>Algumas delas podem ser graves. </p>
+<ul>
+<li>
+<p>Informe o seu médico ou enfermeiro imediatamente se reparar em qualquer um destes 
+sinais de infeção: </p>
+</li>
+<li>
+<p>febre ou arrepios </p>
+</li>
+<li>tosse que não passa </li>
+<li>herpes (tais como ferida por herpes, zona ou lesões genitais) </li>
+</ul>
+<p>Outros efeitos indesejáveis: </p>
+<p>Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>diminuição de proteínas específicas no sangue (imunoglobulinas) que ajudam a proteger contra 
+infeções 
+Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+</li>
+<li>
+<p>corrimento do olho com prurido, vermelhidão e inchaço (conjuntivite) </p>
+</li>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>acumulação de muco espesso no nariz, garganta ou peito  </p>
+</li>
+<li>
+<p>quantidades reduzidas de um tipo de glóbulos brancos do sangue (neutropenia) 
+Frequência desconhecida (desconhece-se com que frequência estes efeitos indesejáveis acontecem) </p>
+</li>
+<li>
+<p>uma diminuição dos glóbulos brancos do sangue, que pode ser tardia </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ocrevus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ocrevus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ocrevus vai ser conservado por um profissional de saúde no hospital ou numa clínica sob as seguintes 
+condições: </p>
+<ul>
+<li>
+<p>Este medicamento deve ser mantido fora da vista e do alcance das crianças. </p>
+</li>
+<li>
+<p>Este medicamento não pode ser utilizado após o prazo de validade impresso na embalagem 
+exterior e no rótulo do frasco para injetáveis após “VAL."/“EXP". O prazo de validade 
+corresponde ao último dia do mês indicado. </p>
+</li>
+<li>
+<p>Conservar no frigorífico (2ºC - 8ºC). Não congelar. Manter os frascos para injetáveis dentro da 
+embalagem exterior para proteger da luz.   </p>
+</li>
+</ul>
+<p>Ocrevus tem de ser diluído antes de lhe ser administrado. A diluição será realizada por um profissional 
+de saúde. Recomenda-se que o medicamento seja utilizado imediatamente após diluição. Se não for 
+utilizado imediatamente, o tempo e condições de armazenamento anteriores à utilização são da 
+responsabilidade do profissional de saúde e, normalmente, não devem ser superiores a 24 horas a 2ºC-
+8ºC e, subsequentemente, a 8 horas à temperatura ambiente. </p>
+<p>Não deite fora quaisquer medicamentos na canalização. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ocrevus  </p>
+<ul>
+<li>
+<p>A substância ativa é o ocrelizumab. Cada frasco para injetáveis contém 300 mg de ocrelizumab 
+em 10 ml, numa concentração de 30 mg/ml. </p>
+</li>
+<li>
+<p>Os outros componentes são o acetato de sódio trihidratado (ver Secção 2 “Ocrevus contém 
+sódio"), ácido acético glacial, trealose dihidratada, polissorbato 20 e água para preparações 
+injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Ocrevus e conteúdo da embalagem </p>
+<ul>
+<li>
+<p>Ocrevus é uma solução transparente a ligeiramente opalescente, e incolor a castanho claro.  </p>
+</li>
+<li>
+<p>É fornecido num concentrado para solução para perfusão.  </p>
+</li>
+<li>
+<p>Este medicamento está disponível em embalagens contendo 1 ou 2 frascos para injetáveis 
+(frascos para injetáveis com 10 ml de concentrado). É possível que não sejam comercializadas 
+todas as apresentações. </p>
+</li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado  </p>
+<p>Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Fabricante </p>
+<p>Roche Pharma AG 
+Emil-Barell-Strasse 1 
+D-79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien<br />
+N.V. Roche S.A.<br />
+Tél/Tel: +32 (0) 2 525 82 11<br />
+Lietuva<br />
+UAB “Roche Lietuva"<br />
+Tel: +370 5 2546799  </p>
+<p>България<br />
+Рош България ЕООД<br />
+Тел: +359 2 818 44 44  </p>
+<p>Luxembourg/Luxemburg<br />
+(Voir/siehe Belgique/Belgien)  </p>
+<p>Česká republika<br />
+Roche s. r. o.<br />
+Tel: +420 - 2 20382111  </p>
+<p>Magyarország<br />
+Roche (Magyarország) Kft.<br />
+Tel: +36 - 1 279 4 
+Danmark<br />
+Roche Pharmaceuticals A/S<br />
+Tlf: +45 - 36 39 99 99  </p>
+<p>Malta<br />
+(See Ireland)  </p>
+<p>Deutschland<br />
+Roche Pharma AG<br />
+Tel: +49 (0) 7624 140<br />
+Nederland<br />
+Roche Nederland B.V.<br />
+Tel: +31 (0) 348 438050  </p>
+<p>Eesti<br />
+Roche Eesti OÜ<br />
+Tel: + 372 - 6 177 380<br />
+Norge<br />
+Roche Norge AS<br />
+Tlf: +47 - 22 78 90 00  </p>
+<p>Ελλάδα<br />
+Roche (Hellas) A.E.<br />
+Τηλ: +30 210 61 66 100<br />
+Österreich<br />
+Roche Austria GmbH<br />
+Tel: +43 (0) 1 27739  </p>
+<p>España<br />
+Roche Farma S.A.<br />
+Tel: +34 - 91 324 81 00<br />
+Polska<br />
+Roche Polska Sp.z o.o.<br />
+Tel: +48 - 22 345 18 88  </p>
+<p>France<br />
+Roche<br />
+Tél: +33 (0) 1 47 61 40 00<br />
+Portugal<br />
+Roche Farmacêutica Química, Lda.<br />
+Tel: +351 - 21 425 70 00  </p>
+<p>Hrvatska<br />
+Roche d.o.o.<br />
+Tel: +385 1 4722 333<br />
+România<br />
+Roche România S.R.L.<br />
+Tel: +40 21 206 47 01  </p>
+<p>Ireland<br />
+Roche Products (Ireland) Ltd.<br />
+Tel: +353 (0) 1 469 0700<br />
+Slovenija<br />
+Roche farmacevtska družba d.o.o.<br />
+Tel: +386 - 1 360 26 00  </p>
+<p>Ísland<br />
+Roche Pharmaceuticals A/S<br />
+c/o Icepharma hf<br />
+Sími: +354 540 8000  </p>
+<p>Slovenská republika<br />
+Roche Slovensko, s.r.o.<br />
+Tel: +421 - 2 52638201<br />
+Italia<br />
+Roche S.p.A.<br />
+Tel: +39 - 039 2471<br />
+Suomi/Finland<br />
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 500  </p>
+<p>Kύπρος<br />
+Γ.Α.Σταμάτης &amp; Σια Λτδ.<br />
+Τηλ: +357 - 22 76 62 76  </p>
+<p>Sverige<br />
+Roche AB<br />
+Tel: +46 (0) 8 726 1200  </p>
+<p>Latvija<br />
+Roche Latvija SIA<br />
+Tel: +371 - 6 7039831  </p>
+<p>United Kingdom (Northern Ireland)<br />
+Roche Products (Ireland) Ltd.<br />
+Tel: +44 (0) 1707 366000  </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1444,6 +2109,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-802d03413c083ad0931330a56355a879"
 * entry[0].resource = composition-da-802d03413c083ad0931330a56355a879
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp802d03413c083ad0931330a56355a879"
+* entry[=].resource = mp802d03413c083ad0931330a56355a879
+                            
+                    
+Instance: bundlepackageleaflet-pt-802d03413c083ad0931330a56355a879
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ocrevus Package Leaflet for language pt"
+Description: "ePI document Bundle for ocrevus Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-802d03413c083ad0931330a56355a879"
+* entry[0].resource = composition-pt-802d03413c083ad0931330a56355a879
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp802d03413c083ad0931330a56355a879"
@@ -1545,6 +2232,18 @@ RuleSet: 802d03413c083ad0931330a56355a879ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-802d03413c083ad0931330a56355a879) // ocrevus pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

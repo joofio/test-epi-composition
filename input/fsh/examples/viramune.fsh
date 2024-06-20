@@ -1315,6 +1315,615 @@ er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på w
 
 
 
+Instance: composition-pt-72e5f5398f762b4570a837b92d9db036
+InstanceOf: CompositionUvEpi
+Title: "Composition for viramune Package Leaflet"
+Description:  "Composition for viramune Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp72e5f5398f762b4570a837b92d9db036)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - viramune"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Viramune e para que é utilizado
+2. O que precisa de saber antes de tomar Viramune 
+3. Como tomar Viramune 
+4. Efeitos indesejáveis possíveis
+5. Como conservar Viramune 
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é viramune e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é viramune e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O Viramune pertence a um grupo de medicamentos denominados antirretrovirais, utilizados no 
+tratamento da infeção pelo Vírus da Imunodeficiência Humana (VIH-1).
+A substância ativa do seu medicamento é denominada nevirapina. A nevirapina reduz a quantidade de 
+vírus no sangue, melhorando a sua condição médica. A nevirapina pertence a uma classe de 
+medicamentos anti-VIH denominados análogos não nucleósidos inibidores da transcriptase reversa 
+(ITRNN). A transcriptase reversa é uma enzima de que o VIH necessita para se multiplicar. A 
+nevirapina impede a atuação da transcriptase reversa. Ao bloquear a transcriptase reversa, o Viramune 
+ajuda a controlar a infeção por VIH-1. Viramune é indicado para o tratamento de adultos, adolescentes e crianças de qualquer idade, 
+infetados com VIH-1. Deve tomar Viramune juntamente com outros medicamentos antirretrovirais. O seu médico 
+recomendar-lhe-á os medicamentos mais indicados para o seu caso.
+Se Viramune foi prescrito ao seu filho, por favor tenha em atenção que toda a informação neste 
+folheto é dirigida ao seu filho (neste caso por favor leia “o seu filho" em vez de “si").</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar viramune"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar viramune"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Não tome Viramune</h2>
+<p>se tem alergia à nevirapina ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+-
+se já tomou Viramune anteriormente e teve de parar o tratamento porque teve:
+- erupção cutânea grave
+- erupção cutânea juntamente com outros sintomas como por exemplo:
+- febre
+- formação de vesículas
+- lesões orais
+- inflamação do olho
+107
+- inchaço da face
+- inchaço generalizado
+- dificuldade em respirar
+- dores musculares ou articulares
+- sensação geral de doença
+- dor abdominal
+- reações de hipersensibilidade (alérgicas)
+- inflamação do fígado (hepatite)
+-
+se tiver doença hepática grave
+-
+se teve de parar o tratamento com Viramune no passado devido a alterações da sua função hepática
+-
+se está atualmente a tomar qualquer medicamento contendo o produto natural hipericão 
+(Hypericum perforatum). Este produto natural poderá impedir que Viramune funcione 
+adequadamente.
+Advertências e precauções
+Fale com o seu médico ou farmacêutico antes de tomar Viramune.
+Durante as primeiras 18 semanas de tratamento com Viramune é muito importante que você e o 
+seu médico estejam atentos a sinais de reações do fígado ou da pele. Estas podem tornar-se 
+graves e mesmo pôr a vida em risco. O risco de desenvolvimento de uma reação deste tipo é 
+maior durante as primeiras 6 semanas de tratamento.
+Se sentir erupção cutânea grave ou hipersensibilidade (reações alérgicas que podem aparecer sob a 
+forma de erupção cutânea) acompanhadas por outros efeitos indesejáveis como
+-   febre,
+-   formação de vesículas,
+-   lesões orais,
+-   inflamação do olho,
+-   inchaço da face,
+-   inchaço generalizado, 
+-   dificuldade em respirar,
+-   dores articulares ou musculares,
+-   sensação geral de doença,
+-   ou dor abdominal
+DEVE DESCONTINUAR IMEDIATAMENTE A TOMA DE VIRAMUNE E DEVE 
+CONTACTAR o seu médico IMEDIATAMENTE uma vez que estas reações podem potencialmente 
+colocar a sua vida em risco ou conduzir à morte.
+Se teve apenas manifestações ligeiras de sintomas de erupção cutânea sem qualquer outra reação 
+informe o seu médico imediatamente, que o aconselhará sobre a possível interrupção de Viramune.
+Se tiver sintomas sugestivos de lesão hepática, tais como 
+-   perda de apetite
+-   mal-estar (náuseas)
+-   vómitos 
+-   pele de cor amarela (icterícia)
+-   dor abdominal
+deverá interromper a toma de Viramune e contactar o seu médico imediatamente.
+Se sofrer reações hepáticas graves, da pele ou de hipersensibilidade durante a toma de Viramune,
+NÃO VOLTE A TOMAR VIRAMUNE novamente sem o referir ao seu médico.
+Deve tomar a dose de Viramune tal como prescrito pelo seu médico. Isto é especialmente 
+importante durante os primeiros 14 dias de tratamento (ver mais informação em “Como tomar 
+Viramune").
+Os seguintes doentes têm risco aumentado de desenvolver problemas hepáticos:
+-   mulheres
+-   infetados com hepatite B ou C
+-   testes de função hepática alterados
+108
+-   doentes não tratados com contagem de células CD4+ mais elevada no início da terapêutica com 
+Viramune (mulheres com mais de 250 células/mm3, homens com mais de 400 células/mm3)
+-    doentes  previamente tratados com uma carga viral VIH-1 plasmática detetável e contagem de 
+células CD4+ elevada, no início da terapêutica com Viramune (mulheres com mais de células/mm3, homens com mais de 400 células/mm3)
+Em alguns doentes com infeção avançada por VIH (SIDA) e história de infeção oportunista (doenças 
+definidoras de SIDA), podem ocorrer sinais e sintomas de inflamação resultantes de infeções 
+anteriores, pouco tempo após o início do tratamento anti-VIH. Pensa-se que estes sintomas se devem a 
+um aumento da resposta imunitária do organismo, habilitando-o a combater infeções que possam ter 
+existido sem sintomas evidentes. Se notar quaisquer sintomas de infeção, por favor informe 
+imediatamente o seu médico.
+Adicionalmente às infeções oportunistas, as doenças auto-imunes (uma condição que ocorre quando o 
+sistema imunitário ataca tecidos corporais saudáveis) também podem ocorrer depois de começar a 
+tomar os medicamentos para o tratamento da sua infeção pelo VIH. As doenças auto-imunes podem 
+ocorrer muitos meses após o início do tratamento. Se notar quaisquer sintomas de infeção ou outros 
+sintomas como fraqueza muscular, fraqueza a começar nas mãos e nos pés e dirigindo-se em direção 
+ao tronco, palpitações, tremores ou hiperatividade, informe o seu médico imediatamente para procurar 
+o tratamento necessário.
+Podem ocorrer alterações na gordura corporal em doentes que recebem a terapêutica de combinação 
+antirretroviral. Contacte o seu médico se notar alterações na gordura corporal (ver secção 4 “Efeitos 
+indesejáveis possíveis").
+Alguns doentes em terapêutica antirretroviral combinada podem desenvolver uma doença óssea 
+chamada osteonecrose (morte do tecido ósseo devido a falta de fornecimento de sangue ao osso). A 
+duração da terapêutica antirretroviral combinada, a utilização de corticosteroides, o consumo de 
+álcool, fragilidade grave do sistema imunitário e um índice de massa corporal aumentado, podem ser
+alguns dos inúmeros fatores de risco para o desenvolvimento desta doença. Os sinais de osteonecrose 
+são rigidez, mal-estar e dores nas articulações (especialmente na anca, joelho e ombro) e dificuldade 
+de movimentos. Por favor informe o seu médico se notar qualquer um destes sintomas.
+Se estiver a tomar nevirapina e ziduvudina simultaneamente, informe o seu médico, porque ele pode 
+ter de verificar o valor dos seus glóbulos brancos.
+Não tome Viramune após exposição ao VIH, exceto se tiver sido diagnosticado com VIH e se o seu 
+médico lhe disser para o fazer.
+Não deve ser utilizada prednisona para o tratamento de uma erupção cutânea relacionada com 
+Viramune.
+Se está a tomar contracetivos orais ("pílula", por exemplo) ou outros métodos hormonais de controlo
+da natalidade durante o tratamento com Viramune, deve utilizar  um contracetivo de barreira (por 
+exemplo, preservativos), para evitar a gravidez e também a transmissão do VIH.
+Se estiver a fazer terapia hormonal pós-menopausa, consulte o seu médico antes de tomar este 
+medicamento.
+Se estiver a tomar ou se lhe for prescrita rifampicina no tratamento da tuberculose, informe o seu 
+médico antes de tomar este medicamento com Viramune.
+109
+Crianças e adolescentes
+Os comprimidos de Viramune podem ser tomados por:
+-
+crianças com 16 ou mais anos de idade
+-
+crianças com menos de 16 anos de idade, que 
+- pesem 50 kg ou mais 
+- ou tenham uma área de superfície corporal superior a 1,25 metros quadrados. 
+Para crianças mais pequenas, encontra-se disponível uma forma líquida de suspensão oral.
+Outros medicamentos e Viramune
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Informe o seu médico assistente sobre todos os medicamentos que se 
+encontre a tomar antes de iniciar o tratamento com Viramune. O seu médico poderá ter necessidade de 
+monitorizar se os seus outros medicamentos continuam a atuar e ajustar a dose. Leia atentamente o 
+folheto informativo de todos os outros medicamentos para o VIH que esteja a tomar em combinação 
+com Viramune.
+É particularmente importante que informe o seu médico se estiver a tomar ou tiver tomado 
+recentemente:
+ Hipericão (Hypericum perforatum, medicamento para tratar a depressão)
+ rifampicina (medicamento para tratar a tuberculose)
+ rifabutina (medicamento para tratar a tuberculose)
+ macrólidos, por ex. claritromicina (medicamentos para tratar infeções bacterianas)
+ fluconazol (medicamento para tratar infeções fúngicas)
+ cetoconazol (medicamento para tratar infeções fúngicas)
+ itraconazol (medicamento para tratar infeções fúngicas)
+ metadona (medicamento utilizada no tratamento da dependência de opiáceos)
+ varfarina (medicamento para reduzir a coagulação sanguínea)
+ contracetivos hormonais (por ex. a “pílula")
+ atazanavir (outro medicamento para tratar a infeção por VIH)
+ lopinavir/ritonavir (outra medicação para tratar a infeção por VIH)
+ fosamprenavir (outro medicamento para tratar a infeção por VIH)
+ efavirenz (outro medicamento para tratar a infeção por VIH)
+ etravirina (outro medicamento para tratar a infecção por VIH)
+ rilpivirina (outro medicamento para tratar a infecção por VIH)
+ zidovudina (outro medicamento para tratar a infeção por VIH)
+ elvitegravir/cobicistat (outro medicamento para tratar a infeção pelo VIH)
+O seu médico vai monitorizar cuidadosamente o efeito de Viramune e de qualquer um destes 
+medicamentos se os estiver a tomar simultaneamente.
+Se estiver a fazer diálise renal, o seu médico pode considerar necessário ajustar a dose de Viramune. 
+Isto porque o Viramune pode ser parcialmente removido do sangue durante a diálise.
+Viramune com alimentos e bebidas
+Não há restrições na administração de VIRAMUNE com alimentos ou líquidos.
+Gravidez e amamentação
+Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico ou farmacêutico 
+antes de tomar este medicamento.
+A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção pelo 
+VIH pode ser transmitida ao bebé através do leite materno.
+Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais rapidamente 
+possível.
+110
+Condução de veículos e utilização de máquinas
+Pode sentir fadiga enquanto tomar Viramune. Tenha especial cuidado em atividades como a condução 
+ou utilização de ferramentas ou máquinas. Caso sinta fadiga deve evitar tarefas potencialmente 
+perigosas como a condução ou a utilização de ferramentas ou máquinas.
+Viramune contém lactose e sódio
+Os comprimidos de Viramune contêm lactose (açúcar do leite).
+Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte o seu médico antes 
+de tomar este medicamento. 
+Os comprimidos de Viramune contêm menos do que 1 mmol (23 mg) de sódio por comprimido, ou 
+seja, são praticamente “isentos de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar viramune"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar viramune"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não deve tomar apenas Viramune. Deve tomá-lo com pelo menos dois outros medicamentos 
+antirretrovirais. O seu médico recomendar-lhe-á os medicamentos mais indicados para o seu caso.
+Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas.
+Dose:
+A dose é de um comprimido de 200 mg por dia durante os primeiros 14 dias de tratamento (‘período 
+de indução’). Após os 14 dias, a dose habitual é de um comprimido de 200 mg duas vezes ao dia. 
+É muito importante que tome apenas um comprimido de Viramune durante os primeiros 14 dias 
+(‘período de indução’). Se tiver alguma erupção cutânea durante este período, não aumente a dose mas 
+consulte o seu médico.
+O ‘período de indução’ de 14 dias tem demonstrado reduzir o risco de erupção cutânea.
+Como Viramune deve ser sempre administrado concomitantemente com outros medicamentos 
+antirretrovirais, deve seguir cuidadosamente as instruções para os outros medicamentos. Estes trazem 
+os folhetos informativos nas embalagens.
+Viramune também está disponível sob a forma líquida como suspensão oral. Esta é particularmente 
+adequada se:
+-
+tiver problemas a engolir os comprimidos
+-
+ou for uma criança que pese menos de 50 kg 
+-
+ou for uma criança com uma área de superfície corporal inferior a 1,25 metros quadrados (o seu 
+médico determinará a sua área de superfície corporal).
+O tratamento com Viramune deve ser mantido de acordo com as instruções do médico assistente.
+Conforme explicado em ’Advertências e precauções ‘, acima, o seu médico deverá proceder à sua 
+monitorização através de testes da sua função hepática e da pesquisa de efeitos indesejáveis tais como 
+erupção cutânea. Dependendo do resultado obtido nestes testes, o seu médico poderá decidir 
+interromper ou suspender o tratamento com Viramune; eventualmente, o seu médico poderá decidir 
+reiniciar o tratamento com uma dose inferior.
+Tome os comprimidos de Viramune apenas por via oral. Não mastigue os seus comprimidos. Pode 
+tomar Viramune com ou sem alimentos.
+111
+Se tomar mais Viramune do que deveria
+Não tome mais Viramune do que o prescrito pelo seu médico assistente e especificada neste folheto. 
+Atualmente existe pouca informação sobre os efeitos de uma sobredosagem com Viramune. Consulte 
+o seu médico se tomou mais Viramune do que deveria.
+Caso se tenha esquecido de tomar Viramune
+Procure não omitir qualquer dose. Se se aperceber que se esqueceu de tomar uma dose nas 8 horas 
+seguintes à hora em que a devia ter tomado, tome essa dose logo que possível. Se tiverem passado 
+mais de 8 horas desde a hora em que a devia ter tomado, tome apenas a dose seguinte à hora normal.
+Se parar de tomar Viramune
+A toma de todas as doses nas alturas apropriadas: 
+-
+aumenta grandemente a eficácia da sua combinação de medicamentos antirretrovirais
+-
+reduz a possibilidade de a sua infeção pelo VIH se tornar resistente aos seus medicamentos 
+antirretrovirais.
+É importante que continue a cumprir a terapêutica com Viramune, como acima descrito, a não ser que 
+o seu médico lhe diga para parar.
+Se interromper o tratamento com Viramune durante um período superior a 7 dias, o seu médico pedir-
+lhe-á para reiniciar o período de 14 dias de indução (acima descrito), antes de retornar às duas doses 
+por dia.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Durante a terapêutica para o VIH pode haver um aumento do peso e dos níveis de lípidos e glucose no 
+sangue. Isto está em parte associado a uma recuperação da saúde e do estilo de vida e, no caso dos 
+lípidos no sangue, por vezes aos próprios medicamentos para o VIH. O seu médico irá realizar testes 
+para determinar estas alterações.
+Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Conforme mencionado em “Advertências e precauções" acima, os efeitos indesejáveis mais 
+importantes de Viramune consistem em reações da pele graves e que põem a vida em risco e 
+danos no fígado graves. Estas reações ocorrem predominantemente no decurso das primeiras semanas de tratamento com Viramune. Por conseguinte, trata-se de um período importante que 
+exige uma monitorização cuidadosa pelo seu médico. 
+Se observar quaisquer sintomas de erupção cutânea, informe o seu médico imediatamente.
+Quando ocorre erupção cutânea esta é geralmente de caráter ligeiro a moderado. Contudo, em alguns 
+doentes, esta erupção cutânea, que se manifesta como uma reação cutânea com a formação de 
+vesículas, pode ser grave ou potencialmente fatal (síndrome de Stevens-Johnson e necrólise 
+epidérmica tóxica), tendo-se registado mortes. A maioria dos casos de erupção cutânea grave e 
+ligeira/moderada ocorrem nas primeiras seis semanas de tratamento.
+Se ocorrer uma erupção cutânea e também se sentir doente, deverá parar o tratamento e contactar 
+imediatamente o seu médico.
+Podem ocorrer reações de hipersensibilidade (alérgicas). Tais reações podem ocorrer sob a forma de 
+anafilaxia (uma forma grave de reação alérgica) com sintomas tais como:
+-
+erupção cutânea
+112
+-
+inchaço da face
+-
+dificuldade em respirar (espasmos brônquicos)
+-
+choque anafilático
+As reações de hipersensibilidade podem também ocorrer sob a forma de erupção cutânea com outros 
+efeitos indesejáveis tais como: 
+-
+febre
+-
+formação de vesículas na pele
+-
+lesões orais
+-
+inflamação do olho
+-
+inchaço da face
+-
+inchaço generalizado
+-
+dificuldade em respirar
+-
+dores articulares ou musculares
+-
+diminuição do número dos seus glóbulos brancos (granulocitopenia)
+-
+sensação geral de doença
+-
+graves problemas hepáticos ou renais (insuficiência hepática ou renal).
+Informe imediatamente o seu médico caso sofra de erupção cutânea ou qualquer uma das outras 
+reações de hipersensibilidade (alergia). Estas reações podem por a vida em risco.
+Foram referidos casos de alterações da função hepática durante o uso de Viramune. Estes incluem 
+alguns casos de inflamação do fígado (hepatite), que podem ser repentinos e intensos (hepatite 
+fulminante) e falência hepática, podendo ambos ser fatais.
+Informe o seu médico caso detete qualquer um dos seguintes sintomas clínicos de lesão do fígado:
+-
+perda de apetite
+-
+mal-estar (náuseas)
+-
+vómitos
+-
+pele de cor amarela (icterícia)
+-
+dor abdominal
+Os efeitos indesejáveis descritos em baixo ocorreram em doentes a tomar Viramune:
+Muito frequentes (pode afetar mais de 1 de cada 10 doentes tratados):
+- erupção cutânea
+Frequentes (pode afetar até 1 de cada 10 doentes tratados):
+- diminuição do número de glóbulos brancos (granulocitopenia)
+- reações alérgicas (hipersensibilidade)
+- cefaleia
+- mal-estar (náuseas)
+- vómitos
+- dor abdominal
+- diarreia
+- inflamação do fígado (hepatite)
+- sentir-se cansado (fadiga)
+- febre
+- testes da função hepática alterados
+Pouco frequentes (pode afetar até 1 de cada 100 doentes tratados):
+- reação alérgica caracterizada por erupção cutânea, inchaço da face, dificuldade em respirar (espasmo 
+brônquico) ou choque anafilático
+- diminuição do número de glóbulos vermelhos (anemia)
+- pele de cor amarela (icterícia)
+- erupções cutâneas graves e que podem por a vida em risco (síndrome de Stevens-Johnson/necrólise 
+epidérmica tóxica)
+- urticária
+113
+- líquido sob a pele (angioedema)
+- dor articular (artralgia)
+- dores musculares (mialgia)
+- diminuição do fósforo no sangue
+- aumento da pressão sanguínea
+Raros (pode afetar até 1 de cada 1.000 doentes tratados):
+- inflamação repentina e intensa do fígado (hepatite fulminante)
+- reação medicamentosa com sintomas sistémicos (reação medicamentosa com eosinofilia e sintomas 
+sistémicos)
+Quando o Viramune foi utilizado em combinação com outros agentes antirretrovirais, foram também 
+notificados os seguintes acontecimentos: 
+- diminuição do número de glóbulos vermelhos ou de plaquetas
+- inflamação do pâncreas
+- diminuição ou alteração da sensibilidade cutânea 
+Estes acontecimentos são frequentemente associados a outros agentes antirretrovirais e pode esperar-
+se que ocorram quando Viramune é utilizado em combinação com outros agentes; no entanto, é pouco 
+provável que estes acontecimentos sejam devidos ao tratamento com Viramune.
+Efeitos indesejáveis adicionais em crianças e adolescentes
+Pode ocorrer uma diminuição dos glóbulos brancos (granulocitopenia), que é mais frequente em 
+crianças. A diminuição dos glóbulos vermelhos (anemia), que pode estar associada à terapêutica com 
+nevirapina, também é mais frequentemente observada em crianças. Tal como para os sintomas de 
+erupção cutânea, por favor informe o seu médico ou farmacêutico.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar viramune"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar viramune"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. 
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, 
+após “VAL". O prazo de validade corresponde ao último dia do mês indicado.
+Este medicamento não requer condições de conservação especiais. 
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Qual a composição de Viramune</h2>
+<h2>A substância ativa é a nevirapina. Cada comprimido contém 200 mg de nevirapina</h2>
+<p>Os outros componentes são:
+114
+- celulose microcristalina
+- lactose (sob a forma de monohidrato)
+- povidona K25
+- glicolato sódico de amido
+- dióxido de silício coloidal e
+- estearato de magnésio
+Qual o aspeto de Viramune e conteúdo da embalagem
+Comprimidos brancos, ovais, biconvexos. Um  lado está marcado com o código “54 193", com um 
+espaço a dividir o “54" do “193". O lado oposto está marcado com o símbolo da companhia. A 
+ranhura do comprimido não se destina à sua divisão.
+Viramune comprimidos é comercializado em blisters, com 14, 60 ou 120 comprimidos por 
+embalagem. É possível que não sejam comercializadas todas as apresentações.
+Viramune também está disponível como uma suspensão oral.
+Titular da Autorização de Introdução no Mercado
+Boehringer Ingelheim International GmbH
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Alemanha
+Fabricante
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Alemanha
+ou
+Boehringer Ingelheim Hellas Single Member S.A.
+5th km Paiania - Markopoulo
+Koropi Attiki, 19441
+Grécia
+Ou
+Boehringer Ingelheim France
+100-104 avenue de France
+75013 Paris
+França
+115
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado.
+België/Belgique/Belgien
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Lietuvos filialas
+Tel.: +370 5 2595942
+България
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко КГ -
+клон България
+Тел: +359 2 958 79 98
+Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Česká republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 111
+Magyarország
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Magyarországi Fióktelepe
+Tel.: +36 1 299 8900
+Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf: +45 39 15 88 88
+Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +35 31 295 9620
+Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 900
+Nederland
+Boehringer Ingelheim B.V.
+Tel: +31 (0) 800 22 55 889
+Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Eesti filiaal
+Tel: +372 612 8000
+Norge
+Boehringer Ingelheim Norway KS
+Tlf: +47 66 76 13 00
+Ελλάδα
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη Α.Ε.
+Tηλ: +30 2 10 89 06 300
+Österreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7870
+España
+Boehringer Ingelheim España, S.A.
+Tel: +34 93 404 51 00
+Polska
+Boehringer Ingelheim Sp. z o.o.
+Tel.: +48 22 699 0 699
+France
+Boehringer Ingelheim France S.A.S.
+Tél: +33 3 26 50 45 33
+Portugal
+Boehringer Ingelheim Portugal, Lda.
+Tel: +351 21 313 53 00
+Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 600
+România
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Viena - Sucursala Bucuresti
+Tel: +40 21 302 2800
+Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Podružnica Ljubljana
+Tel: +386 1 586 40 00
+116
+Ísland
+Vistor hf.
+Tel: +354 535 7000
+Slovenská republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+organizačná zložka
+Tel: +421 2 5810 1211
+Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 800
+Κύπρος
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη Α.Ε.
+Tηλ: +30 2 10 89 06 300
+Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 00
+Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Latvijas filiāle
+Tel: +371 67 240 011
+United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Este folheto foi revisto pela última vez em {MM/AAAA}.
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1356,6 +1965,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-72e5f5398f762b4570a837b92d9db036"
 * entry[0].resource = composition-da-72e5f5398f762b4570a837b92d9db036
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp72e5f5398f762b4570a837b92d9db036"
+* entry[=].resource = mp72e5f5398f762b4570a837b92d9db036
+                            
+                    
+Instance: bundlepackageleaflet-pt-72e5f5398f762b4570a837b92d9db036
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for viramune Package Leaflet for language pt"
+Description: "ePI document Bundle for viramune Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-72e5f5398f762b4570a837b92d9db036"
+* entry[0].resource = composition-pt-72e5f5398f762b4570a837b92d9db036
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp72e5f5398f762b4570a837b92d9db036"
@@ -1457,6 +2088,18 @@ RuleSet: 72e5f5398f762b4570a837b92d9db036ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-72e5f5398f762b4570a837b92d9db036) // viramune pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

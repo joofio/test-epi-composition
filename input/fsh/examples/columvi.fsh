@@ -1093,6 +1093,602 @@ kontrollerede og validerede aseptiske forhold. </p>
 
 
 
+Instance: composition-pt-bb22e3a2d3ee768b14a39522c099f1f4
+InstanceOf: CompositionUvEpi
+Title: "Composition for columvi Package Leaflet"
+Description:  "Composition for columvi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbb22e3a2d3ee768b14a39522c099f1f4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - columvi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: </p>
+<ol>
+<li>O que é Columvi e para que é utilizado  </li>
+<li>O que precisa de saber antes de lhe ser administrado Columvi  </li>
+<li>Como Columvi é administrado </li>
+<li>Efeitos indesejáveis possíveis  </li>
+<li>Como conservar Columvi  </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é columvi e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é columvi e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Columvi </p>
+<p>Columvi é um medicamento contra o cancro que contém a substância ativa glofitamab. </p>
+<p>Para que é que Columvi é utilizado </p>
+<p>Columvi é utilizado para tratar adultos com um cancro chamado “linfoma difuso de grandes células B" 
+(LDGCB). É utilizado quando o cancro: </p>
+<ul>
+<li>
+<p>reapareceu (recidivou) ou  </p>
+</li>
+<li>
+<p>não respondeu aos tratamentos anteriores.  </p>
+</li>
+</ul>
+<p>O linfoma difuso de grandes células B é um cancro de uma parte do sistema imunitário (as defesas do 
+organismo). </p>
+<ul>
+<li>
+<p>Afeta um tipo de glóbulos brancos chamados “células B".  </p>
+</li>
+<li>
+<p>No LDGCB, as células B multiplicam-se de forma descontrolada e acumulam-se nos tecidos. </p>
+</li>
+</ul>
+<p>Como funciona Columvi  </p>
+<ul>
+<li>A substância ativa de Columvi, glofitamab, é um anticorpo monoclonal biespecífico, um tipo de 
+proteína que se liga a dois alvos específicos no organismo. Liga-se a uma proteína específica na 
+superfície das células B, incluindo as células B cancerígenas, e também a outra proteína na 
+superfície das células T (outro tipo de glóbulo branco). Isto ativa as células T e faz com que 
+estas se multipliquem. Por sua vez, isto resulta na destruição das células B, incluindo as células 
+cancerígenas. </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar columvi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar columvi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não pode receber Columvi </p>
+<ul>
+<li>
+<p>se tem alergia ao glofitamab ou a qualquer outro componente deste medicamento (indicados na 
+secção 6) </p>
+</li>
+<li>
+<p>se tem alergia ao obinutuzumab, que é um outro medicamento administrado antes do início do 
+tratamento com Columvi (ver também a secção 3 “Como Columvi é administrado"), ou a 
+qualquer outro componente deste medicamento </p>
+</li>
+</ul>
+<p>Se não tiver a certeza se alguma das situações anteriores se aplica a si, fale com o seu médico ou 
+enfermeiro antes de lhe administrarem Columvi. </p>
+<p>Advertências e precauções  </p>
+<p>Fale com o seu médico antes de lhe ser administrado Columvi </p>
+<ul>
+<li>
+<p>se tem uma infeção </p>
+</li>
+<li>
+<p>se teve uma infeção que durou muito tempo (crónica) ou uma infeção que tem continuado a 
+aparecer (recorrente)  </p>
+</li>
+<li>
+<p>se tem ou teve quaisquer problemas de rins, fígado ou coração  </p>
+</li>
+<li>
+<p>se estiver planeado levar uma vacina num futuro próximo </p>
+</li>
+</ul>
+<p>Se alguma das situações anteriores se aplicar a si (ou se não tiver a certeza), fale com o seu médico 
+antes de lhe ser administrado Columvi.  </p>
+<p>Esteja atento aos efeitos indesejáveis graves.  </p>
+<p>Alguns efeitos indesejáveis de Columvi são graves e podem colocar a vida em risco. Estes efeitos 
+indesejáveis podem ocorrer em qualquer altura durante o tratamento com Columvi. </p>
+<p>Informe imediatamente o seu médico se tiver qualquer um dos seguintes efeitos indesejáveis 
+enquanto estiver a receber Columvi. Os sintomas de cada efeito indesejável são apresentados na 
+secção 4.  </p>
+<ul>
+<li>
+<p>Síndrome de libertação de citocinas: uma condição inflamatória exagerada associada a 
+medicamentos que estimulam as células T, caracterizada por febre e disfunção de múltiplos 
+órgãos no corpo. É mais provável que ocorra síndrome de libertação de citocinas durante o 
+Ciclo 1 após a administração de Columvi (ver secção 3 "Como é administrado Columvi"). É 
+necessária uma monitorização atenta. Antes de cada perfusão, poderão ser-lhe administrados 
+medicamentos para ajudar a reduzir possíveis efeitos indesejáveis da síndrome de libertação de 
+citocinas. </p>
+</li>
+<li>
+<p>Síndrome de lise tumoral: algumas pessoas podem desenvolver valores pouco habituais de 
+alguns sais no sangue (como o potássio e o ácido úrico), provocados pela degradação rápida de 
+células cancerígenas durante o tratamento. O seu médico ou enfermeiro irá verificar se tem esta 
+síndrome através de análises ao sangue. Antes de cada perfusão, deverá estar bem hidratado e 
+poderão ser-lhe administrados medicamentos que podem ajudar a reduzir valores elevados de 
+ácido úrico. Estes poderão ajudar a reduzir possíveis efeitos indesejáveis da síndrome de lise 
+tumoral. </p>
+</li>
+<li>
+<p>Exacerbação tumoral: uma reação a determinados medicamentos que atuam no sistema 
+imunitário, que é/parece ser semelhante a um agravamento do cancro. </p>
+</li>
+<li>
+<p>Infeções: pode ter sinais de infeção, os quais podem variar dependendo do local do organismo 
+onde se localiza a infeção. </p>
+</li>
+</ul>
+<p>Se tem ou pensa que poderá ter qualquer um dos sintomas anteriores, informe imediatamente o seu 
+médico.  </p>
+<p>O seu médico poderá:  </p>
+<ul>
+<li>
+<p>dar-lhe outros medicamentos para reduzir os sintomas e prevenir complicações, </p>
+</li>
+<li>
+<p>parar o tratamento durante um curto período de tempo ou  </p>
+</li>
+<li>
+<p>parar permanentemente o tratamento.  </p>
+</li>
+</ul>
+<p>Crianças e adolescentes </p>
+<p>Este medicamento não deve ser administrado a crianças e adolescentes com idade inferior a 18 anos. 
+Isto porque Columvi não foi estudado neste grupo etário. </p>
+<p>Outros medicamentos e Columvi </p>
+<p>Informe o seu médico ou enfermeiro se estiver a tomar, tiver tomado recentemente, ou se vier a tomar 
+outros medicamentos. Isto inclui medicamentos obtidos sem receita médica e medicamentos à base de 
+plantas.  </p>
+<p>Gravidez e contraceção </p>
+<ul>
+<li>
+<p>Se está grávida, se pensa estar grávida ou planeia engravidar, consulte o seu médico antes de 
+tomar este medicamento. </p>
+</li>
+<li>
+<p>Não deve receber Columvi se estiver grávida. Isto porque existe a possibilidade de Columvi ser 
+prejudicial ao feto. </p>
+</li>
+<li>
+<p>Se tiver possibilidade de engravidar, terá de utilizar contraceção eficaz durante o tratamento com 
+Columvi e durante 2 meses após a última dose. </p>
+</li>
+<li>
+<p>Se engravidar durante o tratamento com Columvi, informe imediatamente o seu médico. </p>
+</li>
+</ul>
+<p>Amamentação </p>
+<p>Não amamente enquanto estiver a receber Columvi e durante, pelo menos, 2 meses após a última dose. 
+Isto porque não se sabe se este medicamento poderá passar para o leite materno e ser prejudicial ao 
+bebé. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Columvi tem uma influência reduzida na sua capacidade de conduzir, andar de bicicleta ou utilizar 
+ferramentas ou máquinas.  </p>
+<p>Se sentir quaisquer sintomas que possam afetar sua capacidade de conduzir, incluindo sintomas de 
+síndrome de libertação de citocinas (como febre, batimento cardíaco rápido, tonturas ou vertigens, 
+arrepios ou falta de ar), não conduza, não ande de bicicleta nem use ferramentas ou máquinas até se 
+sentir melhor. Ver a secção 4 para mais informação sobre efeitos indesejáveis. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar columvi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar columvi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Columvi será administrado sob a supervisão de um médico com experiência no tratamento do cancro, 
+num hospital ou numa clínica. </p>
+<p>Medicamentos administrados antes do tratamento com Columvi </p>
+<ul>
+<li>
+<p>Sete dias antes de iniciar o tratamento com Columvi, receberá outro medicamento, 
+obinutuzumab, para reduzir o número de células B no sangue. </p>
+</li>
+<li>
+<p>30 a 60 minutos antes de receber Columvi, poderão dar-lhe outros medicamentos (pré-
+medicação) para ajudar a reduzir as reações associadas à síndrome de libertação de citocinas. 
+Estes medicamentos podem incluir: </p>
+</li>
+<li>Um corticosteroide, como a dexametasona </li>
+<li>Um medicamento para reduzir a febre, como o paracetamol </li>
+<li>Um anti-histamínico, como a difenidramina </li>
+</ul>
+<p>Que quantidade e com que frequência lhe será administrado Columvi  </p>
+<p>Poderá receber até 12 ciclos de tratamento com Columvi. Cada ciclo dura 21 dias. Durante os dois 
+primeiros ciclos, o seu médico iniciará o tratamento com Columvi numa dose baixa, aumentando-a 
+gradualmente até à dose completa. </p>
+<p>Em seguida, apresenta-se um calendário habitual.  </p>
+<p>Ciclo 1: Este inclui um pré-tratamento e duas doses baixas de Columvi ao longo dos 21 dias: </p>
+<ul>
+<li>
+<p>Dia 1 - Pré-tratamento com obinutuzumab </p>
+</li>
+<li>
+<p>Dia 8 - Dose inicial de 2,5 mg de Columvi </p>
+</li>
+<li>
+<p>Dia 15 - Dose intermédia de 10 mg de Columvi </p>
+</li>
+</ul>
+<p>Ciclo 2 ao Ciclo 12: Será administrada apenas uma dose nos 21 dias: </p>
+<ul>
+<li>Dia 1 - Dose completa de 30 mg de Columvi </li>
+</ul>
+<p>Como é administrado Columvi e monitorização </p>
+<p>Columvi é administrado, gota a gota, numa veia (perfusão intravenosa). O seu médico irá ajustar o 
+tempo necessário à perfusão conforme a sua resposta ao tratamento. </p>
+<ul>
+<li>
+<p>A primeira perfusão será administrada durante 4 horas. O seu médico irá monitorizá-lo 
+atentamente durante a primeira perfusão e durante 10 horas após a conclusão da perfusão. O 
+objetivo é identificar possíveis sinais ou sintomas de síndrome de libertação de citocinas.  </p>
+</li>
+<li>
+<p>Nas perfusões seguintes, o seu médico poderá ter de monitorizá-lo após a conclusão da 
+perfusão. Isto será necessário se tiver tido síndrome de libertação de citocinas moderada ou 
+grave com a dose anterior. </p>
+</li>
+<li>
+<p>Se não tiver qualquer síndrome de libertação de citocinas após 3 doses, o seu médico poderá 
+administrar as perfusões seguintes em 2 horas. </p>
+</li>
+</ul>
+<p>Se falhar uma dose de Columvi </p>
+<p>Se faltar a uma marcação para administração do medicamento, marque outra consulta imediatamente. 
+Para que o tratamento seja completamente eficaz, é muito importante que não falte a uma 
+administração. </p>
+<p>Antes de parar o tratamento com Columvi </p>
+<p>Fale com o seu médico antes de parar o tratamento. Isto porque parar o tratamento pode fazer com que 
+a sua doença piore. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves </p>
+<p>Informe imediatamente o seu médico se tiver algum dos efeitos indesejáveis graves a seguir 
+descritos, pois poderá necessitar de tratamento médico urgente.  </p>
+<ul>
+<li>
+<p>Síndrome de libertação de citocinas (muito frequente): os sintomas podem incluir, mas não 
+são limitados a, febre, batimento cardíaco rápido, tonturas ou vertigens, náusea, dor de cabeça, 
+erupção da pele, confusão, arrepios, falta de ar </p>
+</li>
+<li>
+<p>Infeções (muito frequente): os sintomas podem incluir, mas não são limitados a, febre, 
+arrepios, dificuldade em respirar, ardor ao urinar </p>
+</li>
+<li>
+<p>Exacerbação tumoral (muito frequente): os sintomas podem incluir, mas não são limitados a, 
+gânglios linfáticos inchados e dolorosos, dor no peito, dificuldade em respirar, dor no local do 
+tumor </p>
+</li>
+<li>
+<p>Síndrome de lise tumoral (frequente): os sintomas podem incluir, mas não são limitados a, 
+fraqueza, falta de ar, confusão, batimento cardíaco irregular, cãibras musculares </p>
+</li>
+</ul>
+<p>Outros efeitos indesejáveis  </p>
+<p>Informe imediatamente o seu médico ou enfermeiro se tiver algum dos seguintes efeitos indesejáveis 
+ou se estes se agravarem: </p>
+<p>Muito frequentes (podem afetar mais do que 1 em cada 10 pessoas) </p>
+<ul>
+<li>valores baixos, nas análises ao sangue, de: </li>
+<li>neutrófilos (um tipo de glóbulo branco; neutropenia), o que pode provocar febre ou 
+sintomas de infeção </li>
+<li>glóbulos vermelhos (anemia), o que pode provocar cansaço, mal-estar e palidez  </li>
+<li>
+<p>plaquetas (um tipo de célula do sangue; trombocitopenia), o que pode provocar nódoas 
+negras ou hemorragias  </p>
+</li>
+<li>
+<p>febre </p>
+</li>
+<li>
+<p>valores baixos de fosfato, magnésio, cálcio ou potássio, medidos em análises ao sangue </p>
+</li>
+<li>
+<p>erupção cutânea </p>
+</li>
+<li>
+<p>obstipação </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>enjoos (náuseas) </p>
+</li>
+<li>
+<p>infeções virais, como infeção pulmonar, zona </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+</ul>
+<p>Frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>valores baixos de sódio, medidos em análises ao sangue, o que pode provocar cansaço, 
+espasmos musculares ou cãibras </p>
+</li>
+<li>
+<p>valores aumentados de enzimas do fígado e bilirrubina (substância amarela no sangue), medidos 
+em análises ao sangue, o que pode provocar amarelecimento da pele ou dos olhos, e urina escura  </p>
+</li>
+<li>
+<p>infeções bacterianas, como infeção do trato urinário, infeção no estômago ou em torno do 
+mesmo </p>
+</li>
+<li>
+<p>infeção fúngica  </p>
+</li>
+<li>
+<p>infeções do nariz e da garganta (infeções das vias respiratórias superiores) </p>
+</li>
+<li>
+<p>infeções dos pulmões, como bronquite ou pneumonia (infeções das vias respiratórias inferiores), 
+o que pode provocar febre, tosse e dificuldade em respirar  </p>
+</li>
+<li>
+<p>infeção do sangue (sépsis), o que pode provocar febre, arrepios e confusão </p>
+</li>
+<li>
+<p>valores baixos de linfócitos (um tipo de glóbulo branco; linfopenia), medidos em análises ao 
+sangue </p>
+</li>
+<li>
+<p>febre com valores baixos de neutrófilos (neutropenia febril) </p>
+</li>
+<li>
+<p>vómitos  </p>
+</li>
+<li>
+<p>hemorragia no estômago ou nos intestinos (hemorragia gastrointestinal), o que pode provocar 
+fezes negras ou sangue no vómito  </p>
+</li>
+<li>
+<p>confusão </p>
+</li>
+<li>
+<p>tremores  </p>
+</li>
+<li>
+<p>sonolência </p>
+</li>
+</ul>
+<p>Pouco frequentes (podem afetar menos de 1 em 100 pessoas) </p>
+<ul>
+<li>inchaço da medula espinal (mielite), o que pode provocar fraqueza muscular ou falta de 
+sensibilidade </li>
+</ul>
+<p>Informe imediatamente o seu médico se tiver algum dos efeitos indesejáveis anteriores ou se estes se 
+agravarem. </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar columvi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar columvi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu médico, farmacêutico ou enfermeiro são responsáveis por conservar este medicamento e 
+eliminar corretamente qualquer medicamento não utilizado. A informação que se segue destina-se aos 
+profissionais de saúde.  </p>
+<ul>
+<li>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+</li>
+<li>
+<p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+rótulo do frasco para injetáveis, após EXP. O prazo de validade corresponde ao último dia do 
+mês indicado. </p>
+</li>
+<li>
+<p>Conservar no frigorífico (2 °C a 8 °C) </p>
+</li>
+<li>
+<p>Não congelar. </p>
+</li>
+<li>
+<p>Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>
+</li>
+<li>
+<p>Não utilize este medicamento se aparentar estar turvo, com alteração da cor ou com partículas. </p>
+</li>
+</ul>
+<p>Qualquer medicamento não utilizado ou resíduos devem ser eliminados de acordo com as exigências 
+locais. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Columvi  </p>
+<ul>
+<li>
+<p>A substância ativa é o glofitamab.  </p>
+</li>
+<li>
+<p>Columvi 2,5 mg: Cada frasco para injetáveis contém 2,5 miligramas de glofitamab (em 2,5 ml 
+de concentrado) na concentração de 1 mg/ml </p>
+</li>
+<li>
+<p>Columvi 10 mg: Cada frasco para injetáveis contém 10 miligramas de glofitamab (em 10 ml de 
+concentrado) na concentração de 1 mg/ml </p>
+</li>
+<li>
+<p>Os outros componentes são: L-histidina, cloridrato de L-histidina monohidratada, L-metionina, 
+sacarose, polissorbato 20 (E 432) e água para preparações injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Columvi e conteúdo da embalagem </p>
+<p>Columvi concentrado para solução para perfusão (concentrado estéril) é uma solução incolor e límpida 
+fornecida num frasco para injetáveis de vidro.  </p>
+<p>Cada embalagem de Columvi contém um frasco para injetáveis. </p>
+<p>Titular da Autorização de Introdução no Mercado  </p>
+<p>Roche Registration GmbH 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Fabricante </p>
+<p>Roche Pharma AG 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Alemanha </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+N.V. Roche S.A.<br />
+Tél/Tel: +32 (0) 2 525 82 Lietuva 
+UAB “Roche Lietuva"<br />
+Tel: +370 5 2546 
+България 
+Рош България ЕООД<br />
+Тел: +359 2 818 44<br />
+Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) 
+Česká republika 
+Roche s. r. o.<br />
+Tel: +420 - 2 20382Magyarország 
+Roche (Magyarország) Kft.<br />
+Tel: +36 - 1 279 4 
+Danmark 
+Roche Pharmaceuticals A/S Tlf: +45 - 36 39<br />
+Malta 
+(See Ireland) </p>
+<p>Deutschland 
+Roche Pharma AG<br />
+Tel: +49 (0) 7624 140<br />
+Nederland 
+Roche Nederland B.V.<br />
+Tel: +31 (0) 348 438 
+Eesti 
+Roche Eesti OÜ<br />
+Tel: + 372 - 6 177 380<br />
+Norge 
+Roche Norge AS<br />
+Tlf: +47 - 22 78 90<br />
+Ελλάδα 
+Roche (Hellas) A.E.<br />
+Τηλ: +30 210 61 66<br />
+Österreich 
+Roche Austria GmbH<br />
+Tel: +43 (0) 1 27 
+España 
+Roche Farma S.A.<br />
+Tel: +34 - 91 324 81 Polska 
+Roche Polska Sp.z o.o.<br />
+Tel: +48 - 22 345 18<br />
+France 
+Roche<br />
+Tél: +33 (0) 1 47 61 40 00<br />
+Portugal 
+Roche Farmacêutica Química, Lda<br />
+Tel: +351 - 21 425 70<br />
+Hrvatska 
+Roche d.o.o.<br />
+Tel: +385 1 4722 333<br />
+România 
+Roche România S.R.L.<br />
+Tel: +40 21 206 47 01  </p>
+<p>Ireland 
+Roche Products (Ireland) Ltd.<br />
+Tel: +353 (0) 1 469 0Slovenija 
+Roche farmacevtska družba d.o.o.<br />
+Tel: +386 - 1 360 26<br />
+Ísland 
+Roche Pharmaceuticals A/S<br />
+c/o Icepharma hf<br />
+Sími: +354 540 8Slovenská republika 
+Roche Slovensko, s.r.o.<br />
+Tel: +421 - 2 52638201  </p>
+<p>Italia 
+Roche S.p.A.<br />
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 500  </p>
+<p>Κύπρος 
+Γ.Α.Σταμάτης &amp; Σια Λτδ.<br />
+Τηλ: +357 - 22 76 62 76<br />
+Sverige 
+Roche AB<br />
+Tel: +46 (0) 8 726 1 
+Latvija 
+Roche Latvija SIA<br />
+Tel: +371 - 6 7039831<br />
+United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd.<br />
+Tel: +44 (0) 1707 366 </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Foi concedida a este medicamento uma «Autorização de Introdução no Mercado condicional». Isto 
+significa que se aguarda mais informação sobre este medicamento. 
+A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
+sobre este medicamento e este folheto será atualizado se necessário. </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1134,6 +1730,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-bb22e3a2d3ee768b14a39522c099f1f4"
 * entry[0].resource = composition-da-bb22e3a2d3ee768b14a39522c099f1f4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbb22e3a2d3ee768b14a39522c099f1f4"
+* entry[=].resource = mpbb22e3a2d3ee768b14a39522c099f1f4
+                            
+                    
+Instance: bundlepackageleaflet-pt-bb22e3a2d3ee768b14a39522c099f1f4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for columvi Package Leaflet for language pt"
+Description: "ePI document Bundle for columvi Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-bb22e3a2d3ee768b14a39522c099f1f4"
+* entry[0].resource = composition-pt-bb22e3a2d3ee768b14a39522c099f1f4
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpbb22e3a2d3ee768b14a39522c099f1f4"
@@ -1235,6 +1853,18 @@ RuleSet: bb22e3a2d3ee768b14a39522c099f1f4ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-bb22e3a2d3ee768b14a39522c099f1f4) // columvi pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

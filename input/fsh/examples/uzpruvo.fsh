@@ -1369,6 +1369,700 @@ ikke er nævnt i denne indlægsseddel. Se afsnit 4. </li>
 
 
 
+Instance: composition-pt-d78597bd4a8ec02c40a4fe805d40f1ef
+InstanceOf: CompositionUvEpi
+Title: "Composition for uzpruvo Package Leaflet"
+Description:  "Composition for uzpruvo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd78597bd4a8ec02c40a4fe805d40f1ef)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - uzpruvo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Uzpruvo e para que é utilizado 
+2. O que precisa de saber antes de utilizar Uzpruvo 
+3. Como utilizar Uzpruvo 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Uzpruvo 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é uzpruvo e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é uzpruvo e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Uzpruvo 
+Uzpruvo contém a substância ativa “ustecinumab", um anticorpo monoclonal. Anticorpos 
+monoclonais são proteínas que reconhecem e se ligam especificamente a certas proteínas do corpo. </p>
+<p>Uzpruvo pertence a um grupo de medicamentos denominados “imunossupressores". Estes 
+medicamentos atuam enfraquecendo parte do seu sistema imunitário. </p>
+<p>Para que é utilizado Uzpruvo 
+Uzpruvo é utilizado para tratar as seguintes doenças inflamatórias: </p>
+<ul>
+<li>
+<p>Psoríase em placas - em adultos e crianças com idade igual ou superior a 6 anos </p>
+</li>
+<li>
+<p>Artrite psoriática - em adultos </p>
+</li>
+<li>
+<p>Doença de Crohn moderada a grave - em adultos </p>
+</li>
+</ul>
+<p>Psoríase em placas 
+A “psoríase em placas" é uma doença da pele que causa inflamação que afeta a pele e as unhas. 
+Uzpruvo irá reduzir a inflamação e outros sinais da doença. </p>
+<p>Uzpruvo é utilizado em doentes adultos com psoríase em placas moderada a grave, que não podem 
+utilizar ciclosporina, metotrexato ou fototerapia ou quando estes tratamentos não funcionam. </p>
+<p>Uzpruvo é utilizado em crianças e adolescentes com idade igual ou superior a 6 anos com psoríase em 
+placas moderada a grave que são incapazes de tolerar a fototerapia ou outras terapêuticas sistémicas ou 
+quando estes tratamentos não resultam. </p>
+<p>Artrite psoriática 
+A artrite psoriática é uma doença inflamatória das articulações, usualmente acompanhada por psoríase. 
+Se tem artrite psoriática ativa, então primeiro irão ser-lhe administrados outros medicamentos. Se não 
+responder de forma adequada a estes medicamentos, Uzpruvo poderá ser utilizado: </p>
+<ul>
+<li>
+<p>Na redução dos sinais e sintomas da sua doença. </p>
+</li>
+<li>
+<p>Para melhorar a função física. </p>
+</li>
+<li>
+<p>Para retardar danos nas suas articulações. </p>
+</li>
+</ul>
+<p>Doença de Crohn 
+A doença de Crohn é uma doença inflamatória do intestino. No caso de sofrer de doença de Crohn, irá 
+receber primeiro outros medicamentos. Se não tiver uma resposta suficiente ou se for intolerante a 
+esses medicamentos, poderá receber Uzpruvo para reduzir os sinais e sintomas da sua doença. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar uzpruvo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar uzpruvo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Uzpruvo </p>
+<ul>
+<li>
+<p>Se tem alergia ao ustecinumab ou a qualquer outro componente deste medicamento (indicados 
+na secção 6). </p>
+</li>
+<li>
+<p>Se tem uma infeção ativa que o seu médico pensa ser importante. </p>
+</li>
+</ul>
+<p>Se não tem a certeza se alguma das situações acima descritas se aplica a si, fale com o seu médico ou 
+farmacêutico antes de lhe ser administrado Uzpruvo. </p>
+<p>Advertências e precauções 
+Fale com o seu médico ou farmacêutico antes de utilizar Uzpruvo. O seu médico avaliará o seu estado 
+de saúde, antes de cada tratamento. Certifique-se que, antes de cada tratamento, informou o seu 
+médico sobre qualquer doença que tenha. Informe igualmente o seu médico se tem estado, 
+recentemente, perto de alguém que possa ter tuberculose. O seu médico irá examiná-lo e fazer um teste 
+para a tuberculose, antes de utilizar Uzpruvo. Se o seu médico pensar que está em risco de tuberculose, 
+podem ser-lhe receitados medicamentos para a tratar. </p>
+<p>Atenção aos efeitos indesejáveis graves 
+Uzpruvo pode causar efeitos indesejáveis graves, incluindo reações alérgicas e infeções. Deve ter 
+atenção a certos sinais da doença enquanto estiver a tomar Uzpruvo. Ver “Efeitos indesejáveis graves" 
+na secção 4 para uma lista completa de todos os efeitos indesejáveis. </p>
+<p>Antes de utilizar Uzpruvo informe o seu médico: </p>
+<ul>
+<li>
+<p>Se alguma vez teve uma reação alérgica a Uzpruvo. Fale com o seu médico se não tem a 
+certeza. </p>
+</li>
+<li>
+<p>Se alguma vez teve qualquer tipo de cancro - isto porque imunossupressores como 
+Uzpruvoenfraquecem o sistema imunitário. Esta situação pode aumentar o risco de cancro. </p>
+</li>
+<li>
+<p>Se alguma vez foi tratado para a psoríase com outros medicamentos biológicos (um 
+medicamento produzido a partir de uma origem biológica e, geralmente, administrado por 
+injeção) - o risco de cancro pode ser maior. </p>
+</li>
+<li>
+<p>Se tem ou teve recentemente uma infeção. </p>
+</li>
+<li>
+<p>Se tem lesões novas ou alteradas nas áreas da pele com psoríase ou em pele normal. </p>
+</li>
+<li>
+<p>Se está a utilizar outro tratamento para a psoríase e/ou artrite psoriática - tal como outro 
+imunossupressor ou a fototerapia (quando o seu corpo é tratado com uma luz ultravioleta (UV) 
+específica). Estes tratamentos podem também enfraquecer o sistema imunitário. O uso destes 
+tratamentos em conjunto com Uzpruvo não foi estudado. Contudo, é possível que possa 
+aumentar o risco de doenças relacionadas com um sistema imunitário enfraquecido. </p>
+</li>
+<li>
+<p>Se está a utilizar ou já utilizou injeções para tratar alergias - não se sabe se Uzpruvo pode 
+afetar estes tratamentos. </p>
+</li>
+<li>
+<p>Se tiver 65 anos de idade ou mais - pode estar mais suscetível a ter infeções. </p>
+</li>
+</ul>
+<p>Se não tem a certeza se algum dos pontos anteriores se aplica ao seu caso, fale com o seu médico ou 
+farmacêutico antes de utilizar Uzpruvo. </p>
+<p>Alguns doentes apresentaram reações do tipo lúpus, incluindo lúpus cutâneo ou síndrome do tipo 
+lúpus, durante o tratamento com ustecinumab. Fale com o seu médico imediatamente se apresentar 
+uma erupção cutânea avermelhada, saliente e descamativa, por vezes com um rebordo mais escuro, em 
+áreas da pele que estão expostas ao sol, ou se tiver dores articulares. </p>
+<p>Ataque cardíaco e acidente vascular cerebral (AVC) 
+Foram observados casos de ataque cardíaco e AVC num estudo em doentes com psoríase tratados com 
+ustecinumab. O seu médico irá verificar regularmente os seus fatores de risco quanto a doença 
+cardíaca e AVC, para garantir que são tratados adequadamente. Procure assistência médica 
+imediatamente se desenvolver dores no peito, fraqueza ou sensação anormal num dos lados do corpo, 
+face descaída ou anomalias visuais ou da fala. </p>
+<p>Crianças e adolescentes 
+Uzpruvo não é recomendado para utilização em crianças com psoríase com idade inferior a 6 anos, ou 
+para utilização em crianças e adolescentes com idade inferior a 18 anos com artrite psoriática e doença 
+de Crohn, porque não foi estudado nesse grupo etário. </p>
+<p>Outros medicamentos, vacinas e Uzpruvo 
+Informe o seu médico ou farmacêutico: </p>
+<ul>
+<li>
+<p>Se estiver a tomar, tiver tomado recentemente ou vier a tomar outros medicamentos. </p>
+</li>
+<li>
+<p>Se foi recentemente ou vai ser vacinado. Alguns tipos de vacinas (vacinas vivas) não devem ser 
+administradas enquanto estiver em tratamento com Uzpruvo. </p>
+</li>
+<li>
+<p>Se tiver recebido Uzpruvo durante a gravidez, informe o médico do seu bebé sobre o seu 
+tratamento com Uzpruvo antes de o bebé receber qualquer vacina, incluindo vacinas vivas, tais 
+como a vacina BCG (utilizada para prevenir a tuberculose). As vacinas vivas não são 
+recomendadas para o seu bebé nos primeiros seis meses após o nascimento se tiver recebido 
+Uzpruvo durante a gravidez, exceto se o médico do seu bebé recomendar o contrário. </p>
+</li>
+</ul>
+<p>Gravidez e aleitamento </p>
+<ul>
+<li>
+<p>É preferível evitar a utilização de Uzpruvo na gravidez. Os efeitos de Uzpruvo nas mulheres 
+grávidas não são conhecidos. Se é uma mulher em risco de engravidar, é aconselhada a evitar 
+ficar grávida e deverá utilizar um método contracetivo durante o tratamento com Uzpruvo e até 
+15 semanas após a última administração de Uzpruvo. </p>
+</li>
+<li>
+<p>Fale com o seu médico se está grávida, se pensa estar grávida ou planeia engravidar. </p>
+</li>
+<li>
+<p>Uzpruvo pode passar através da placenta para o feto. Se tiver recebido Uzpruvo durante a sua 
+gravidez, o seu bebé poderá ter um maior risco de sofrer uma infeção. </p>
+</li>
+<li>
+<p>É importante que diga aos médicos do seu bebé e a outros profissionais de saúde se tiver 
+recebido Uzpruvo durante a sua gravidez antes de o bebé receber qualquer vacina. As vacinas 
+vivas, tais como a vacina BCG (utilizada para prevenir a tuberculose) não são recomendadas 
+para o seu bebé nos primeiros seis meses após o nascimento se tiver recebido Uzpruvo durante a 
+gravidez, exceto se o médico do seu bebé recomendar o contrário. </p>
+</li>
+<li>
+<p>O ustecinumab pode passar para o leite materno em quantidades muito reduzidas. Fale com o 
+seu médico se está a amamentar ou se planeia amamentar. Você e o seu médico devem decidir 
+se deve amamentar ou utilizar Uzpruvo - não faça ambos. </p>
+</li>
+</ul>
+<p>Condução de veículos e utilização de máquinas 
+Os efeitos de Uzpruvo sobre a capacidade de conduzir ou utilizar máquinas são nulos ou desprezáveis. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar uzpruvo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar uzpruvo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Uzpruvo deverá ser utilizado sob a orientação e supervisão de um médico com experiência no 
+tratamento das doenças para as quais Uzpruvo se destina. </p>
+<p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. Fale com o seu médico sobre quando irá receber as suas injeções e marcar as consultas de 
+seguimento. </p>
+<p>Que quantidade de Uzpruvo é administrada 
+O seu médico decidirá qual a quantidade de Uzpruvo que necessita utilizar e durante quanto tempo. </p>
+<p>Adultos com idade igual ou superior a 18 anos 
+Psoríase ou Artrite Psoriática </p>
+<ul>
+<li>
+<p>A dose inicial recomendada é de 45 mg de Uzpruvo. Os doentes que pesem mais de 
+100 kilogramas (kg) poderão iniciar com uma dose de 90 mg em vez de 45 mg. </p>
+</li>
+<li>
+<p>A dose seguinte ser-lhe-á administrada 4 semanas após a dose inicial e depois em intervalos de 
+12 semanas. As doses seguintes são normalmente iguais à dose inicial. </p>
+</li>
+</ul>
+<p>Doença de Crohn </p>
+<ul>
+<li>
+<p>Uzpruvo não está disponível para a primeira dose administrada gota a gota numa veia do braço 
+(perfusão intravenosa). Outro medicamento com ustecinumab será administrado por infusão 
+intravenosa como primeira dose. </p>
+</li>
+<li>
+<p>Uzpruvo é administrado por injeção sob a pele (por via subcutânea). Receberá a primeira dose 
+de 90 mg de Uzpruvo 8 semanas após a perfusão intravenosa e, posteriormente, a cada semanas por via subcutânea. Em alguns doentes, após a primeira injeção sob a pele, podem ser 
+administrados 90 mg de Uzpruvo em intervalos de 8 semanas. O seu médico irá decidir quando 
+deve receber a próxima dose. </p>
+</li>
+</ul>
+<p>Crianças e adolescentes com idade igual ou superior a 6 anos 
+Psoríase </p>
+<ul>
+<li>
+<p>O médico irá determinar a dose indicada para si, incluindo a quantidade (volume) de Uzpruvo a 
+ser injetado para administrar a dose indicada. A dose indicada para si irá depender do seu peso 
+corporal no momento em que cada dose é administrada. </p>
+</li>
+<li>
+<p>Se pesa menos de 60 kg, não existe forma farmacêutica de Uzpruvo para crianças com menos de 
+60 kg de peso corporal. </p>
+</li>
+<li>
+<p>Se pesa entre 60 kg a 100 kg, a dose recomendada é de 45 mg de Uzpruvo. </p>
+</li>
+<li>
+<p>Se pesa mais de 100 kg, a dose recomendada é de 90 mg de Uzpruvo. </p>
+</li>
+<li>
+<p>Após a dose inicial, receberá a próxima dose 4 semanas mais tarde, e depois a cada 12 semanas. </p>
+</li>
+</ul>
+<p>Como é administrado Uzpruvo </p>
+<ul>
+<li>
+<p>Uzpruvo é administrado com uma injeção por baixo da pele (“via subcutânea"). No início do 
+seu tratamento, o pessoal médico ou de enfermagem podem injetar-lhe Uzpruvo. </p>
+</li>
+<li>
+<p>No entanto, você e o seu médico podem decidir que é capaz de administrar a sua própria injeção 
+de Uzpruvo. Neste caso, irá ser instruído sobre como injetar Uzpruvo a si próprio. </p>
+</li>
+<li>
+<p>Para instruções sobre como injetar Uzpruvo, ver “Instruções para administração" no final deste 
+folheto informativo. 
+Fale com o seu médico se tiver qualquer dúvida sobre a administração da injeção a si próprio. </p>
+</li>
+</ul>
+<p>Se utilizar mais Uzpruvo do que deveria 
+Caso tenha utilizado ou lhe tenha sido administrado mais Uzpruvo do que deveria, informe 
+imediatamente um médico ou farmacêutico. Tenha sempre a embalagem exterior do medicamento 
+consigo, mesmo que esteja vazia. </p>
+<p>Caso se tenha esquecido de utilizar Uzpruvo 
+Caso se tenha esquecido de uma dose, contacte o seu médico ou farmacêutico. Não tome uma dose a 
+dobrar para compensar uma dose que se esqueceu de tomar. </p>
+<p>Se parar de utilizar Uzpruvo 
+Não é perigoso deixar de utilizar Uzpruvo. No entanto, se parar, os seus sintomas podem voltar. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves 
+Alguns doentes têm efeitos indesejáveis graves que podem necessitar de tratamento urgente. </p>
+<p>Reações alérgicas - pode necessitar de tratamento médico urgente. Fale com o seu médico ou 
+tenha ajuda de emergência médica se notar algum dos seguintes sinais. </p>
+<ul>
+<li>
+<p>Reações alérgicas graves (“anafilaxia") são raras em pessoas que estão a utilizar ustecinumab 
+(pode afetar até 1 em cada 1000 pessoas). Estes sinais incluem: 
+o 
+dificuldade em respirar ou engolir 
+o 
+tensão arterial baixa, o que pode causar vertigens ou tonturas 
+o 
+inchaço da face, lábios, boca ou garganta. </p>
+</li>
+<li>
+<p>Sinais frequentes de uma reação alérgica podem incluir erupção na pele e urticária (pode afetar 
+até 1 em cada 100 pessoas). </p>
+</li>
+</ul>
+<p>Em casos raros, foram reportadas reações alérgicas pulmonares e inflamação pulmonar em 
+doentes que receberam ustecinumab. Informe imediatamente o seu médico se desenvolver 
+sintomas como tosse, falta de ar e febre. </p>
+<p>Se tiver uma reação alérgica grave, o seu médico pode decidir que não deve usar Uzpruvo novamente. </p>
+<p>Infeções - pode necessitar de tratamento médico urgente. Fale com o seu médico imediatamente 
+se notar algum dos seguintes sinais. </p>
+<ul>
+<li>
+<p>Infeções do nariz e da garganta e constipações comuns são frequentes (podem afetar até 1 em 
+cada 10 pessoas) </p>
+</li>
+<li>
+<p>Infeções do tórax são pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+</li>
+<li>
+<p>Inflamação dos tecidos por baixo da pele (“celulite") é pouco frequente (pode afetar até 1 em 
+cada 100 pessoas) </p>
+</li>
+<li>
+<p>Zona (um tipo de erupção na pele dolorosa com bolhas) é pouco frequente (pode afetar até 1 em 
+cada 100 pessoas). </p>
+</li>
+</ul>
+<p>Uzpruvo pode torná-lo menos capaz para combater infeções. Algumas infeções podem tornar-se 
+graves, e podem incluir infeções causadas por vírus, fungos, bactérias (incluindo tuberculose) ou 
+parasitas, incluindo infeções que, maioritariamente, ocorrem em pessoas com o sistema imune 
+debilitado (infeções oportunistas). Foram notificadas infeções oportunistas do cérebro (encefalite, 
+meningite), dos pulmões e do olho em doentes que receberam tratamento com ustecinumab. </p>
+<p>Deve estar atento a sinais de infeção enquanto estiver a utilizar Uzpruvo. Isto inclui: </p>
+<ul>
+<li>
+<p>febre, sintomas de tipo gripal, transpiração excessiva durante a noite, perda de peso </p>
+</li>
+<li>
+<p>sensação de cansaço ou falta de ar, tosse que não desaparece </p>
+</li>
+<li>
+<p>pele quente, vermelha e dolorosa ou erupção cutânea dolorosa com bolhas </p>
+</li>
+<li>
+<p>ardor ao urinar </p>
+</li>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>perturbação visual ou perda de visão </p>
+</li>
+<li>
+<p>dores de cabeça, rigidez do pescoço, sensibilidade à luz, náuseas ou confusão. </p>
+</li>
+</ul>
+<p>Fale imediatamente com o seu médico se notar algum destes sinais de infeção. Estes podem ser sinais 
+de infeções, tais como infeções do tórax, infeções da pele, zona ou infeções oportunistas, que podem 
+apresentar complicações graves. Fale com o seu médico se tiver qualquer tipo de infeção que não 
+desaparece ou continua a aparecer. O seu médico pode decidir que não deve utilizar Uzpruvo até a 
+infeção desaparecer. Contacte também o seu médico se tiver quaisquer cortes ou feridas abertas uma 
+vez que podem infetar. </p>
+<p>Descamação da pele - aumento da vermelhidão e descamação da pele numa maior área do corpo 
+podem ser sintomas de psoríase eritrodérmica ou dermatite exfoliativa, que são doenças de pele 
+graves. Deve falar com o seu médico imediatamente se notar algum destes sinais. </p>
+<p>Outros efeitos indesejáveis </p>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas): </p>
+<ul>
+<li>
+<p>Diarreia </p>
+</li>
+<li>
+<p>Náuseas </p>
+</li>
+<li>
+<p>Vómito </p>
+</li>
+<li>
+<p>Sensação de cansaço </p>
+</li>
+<li>
+<p>Sensação de tontura </p>
+</li>
+<li>
+<p>Dor de cabeça </p>
+</li>
+<li>
+<p>Comichão (“prurido") </p>
+</li>
+<li>
+<p>Dor nos músculos, nas articulações ou nas costas </p>
+</li>
+<li>
+<p>Dor de garganta </p>
+</li>
+<li>
+<p>Vermelhidão e dor no local de injeção </p>
+</li>
+<li>
+<p>Infeção dos seios perinasais </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas): </p>
+<ul>
+<li>
+<p>Infeções nos dentes </p>
+</li>
+<li>
+<p>Infeção fúngica vaginal </p>
+</li>
+<li>
+<p>Depressão </p>
+</li>
+<li>
+<p>Nariz entupido </p>
+</li>
+<li>
+<p>Hemorragia, nódoas negras, endurecimento, inchaço e comichão no local da injeção </p>
+</li>
+<li>
+<p>Sensação de fraqueza </p>
+</li>
+<li>
+<p>Queda da pálpebra e flacidez dos músculos de um lado da cara (“paralisia facial" ou 
+“paralisia de Bell"), que é, habitualmente, temporário </p>
+</li>
+<li>
+<p>Uma alteração na psoríase, com vermelhidão e novas e pequenas bolhas amarelas ou 
+brancas, por vezes acompanhada de febre (psoríase pustular) </p>
+</li>
+<li>
+<p>Descamação da pele (exfoliação da pele) </p>
+</li>
+<li>
+<p>Acne </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis raros (podem afetar até 1 em cada 1000 pessoas): </p>
+<ul>
+<li>
+<p>Aumento da vermelhidão e descamação da pele numa maior área do corpo, que pode 
+provocar comichão ou dor (dermatite exfoliativa). Por vezes, podem desenvolver-se 
+sintomas semelhantes como alterações naturais no tipo de sintomas da psoríase (psoríase 
+eritrodérmica) </p>
+</li>
+<li>
+<p>Inflamação de pequenos vasos sanguíneos, que pode conduzir a uma erupção na pele com 
+pequenas borbulhas vermelhas ou roxas, febre ou dores nas articulações (vasculite) </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis muito raros (podem afetar 1 em cada 10 000 pessoas): </p>
+<ul>
+<li>
+<p>Bolhas na pele que podem provocar vermelhidão, comichão e dor (penfigóide bolhoso). </p>
+</li>
+<li>
+<p>Lúpus cutâneo ou síndrome do tipo lúpus (erupção cutânea avermelhada, saliente e 
+descamativa em áreas da pele expostas ao sol, possivelmente com dores articulares). </p>
+</li>
+</ul>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar uzpruvo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar uzpruvo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+</li>
+<li>
+<p>Conservar no frigorífico (2°C-8°C). Não congelar. </p>
+</li>
+<li>
+<p>Manter a seringa pré-cheia dentro da embalagem exterior para proteger da luz. </p>
+</li>
+<li>
+<p>Antes da administração, a seringa pré-cheia deve estar à temperatura ambiente para a injeção 
+(aproximadamente meia-hora). </p>
+</li>
+<li>
+<p>Se necessário, as seringas individuais pré-cheias de Uzpruvo podem também ser conservadas à 
+temperatura ambiente até 30°C por um período de tempo único máximo de até 30 dias, na 
+embalagem de origem para proteger da luz. Tome nota da data quando a seringa pré-cheia é 
+removida pela primeira vez do frigorífico e da data de eliminação no espaço para o efeito na 
+embalagem exterior. A data de eliminação não deve exceder o prazo de validade original 
+impresso na embalagem. Uma vez uma seringa conservada à temperatura ambiente (até 30°C), 
+não deve voltar ao frigorífico. Elimine a seringa se não foi utilizada dentro do espaço de 30 dias 
+conservada à temperatura ambiente ou dentro do prazo de validade original, aquele que ocorrer 
+primeiro. </p>
+</li>
+<li>
+<p>Não agite a seringa pré-cheia. Uma agitação vigorosa prolongada pode danificar o 
+medicamento. </p>
+</li>
+</ul>
+<p>Não utilize este medicamento: </p>
+<ul>
+<li>
+<p>Após o prazo de validade impresso no rótulo e na embalagem exterior, após “VAL". O prazo de 
+validade corresponde ao último dia do mês indicado. </p>
+</li>
+<li>
+<p>Se o líquido estiver descolorado, turvo ou se observar outras partículas estranhas em suspensão 
+(ver a secção 6 “Qual o aspeto de Uzpruvo e conteúdo da embalagem"). </p>
+</li>
+<li>
+<p>Se sabe ou pensa que o medicamento tenha sido exposto a temperaturas extremas (tal como 
+acidentalmente congelado ou aquecido). </p>
+</li>
+<li>
+<p>Se o medicamento foi vigorosamente agitado. </p>
+</li>
+</ul>
+<p>Uzpruvo destina-se apenas para administração única. Qualquer produto não utilizado que fique na 
+seringa deve ser deitado fora. Não deite fora quaisquer medicamentos na canalização ou no lixo 
+doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos que já não utiliza. Estas 
+medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Uzpruvo </p>
+<ul>
+<li>
+<p>A substância ativa é o ustecinumab. Cada seringa pré-cheia contém 45 mg de ustecinumab em 
+0,5 ml. </p>
+</li>
+<li>
+<p>Os outros componentes são histidina, monohidrocloridrato de histidina mono-hidratado, 
+polissorbato 80, sacarose e água para preparações injetáveis. </p>
+</li>
+</ul>
+<p>Qual o aspeto de Uzpruvo e conteúdo da embalagem 
+Uzpruvo é uma solução injectável transparente e incolor a ligeiramente amarela e praticamente isenta 
+de partículas visíveis. Apresenta-se numa embalagem de cartão contendo 1 seringa pré-cheia de vidro 
+de dose única de 1 ml. Cada seringa pré-cheia contém 45 mg de ustecinumab em 0,5 ml de solução 
+injetável. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+STADA Arzneimittel AG 
+Stadastrasse 2-61118 Bad Vilbel 
+Alemanha </p>
+<p>Fabricante 
+Alvotech Hf 
+Sæmundargata 15-19<br />
+Reykjavik, 102<br />
+Islândia </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado: </p>
+<p>België/Belgique/Belgien 
+EG (Eurogenerics) NV 
+Tél/Tel: +32 4797 
+Lietuva 
+UAB „STADA Baltics“ 
+Tel: +370 52603България 
+STADA Bulgaria EOOD 
+Teл.: +359 29624 
+Luxembourg/Luxemburg 
+EG (Eurogenerics) NV 
+Tél/Tel: +32 4797Česká republika 
+STADA PHARMA CZ s.r.o. 
+Tel: +420 257888 
+Magyarország 
+STADA Hungary Kft 
+Tel.: +36 18009Danmark 
+STADA Nordic ApS 
+Tlf: +45 44859 
+Malta 
+STADA Arzneimittel AG 
+Tel: +49 61016Deutschland 
+STADAPHARM GmbH 
+Tel: +49 61016 
+Nederland 
+Centrafarm B.V. 
+Tel.: +31 765081Eesti 
+UAB „STADA Baltics“ 
+Tel: +370 52603Norge 
+STADA Nordic ApS 
+Tlf: +45 44859Ελλάδα 
+STADA Arzneimittel AG 
+Tel: +30 2106664<br />
+Österreich 
+STADA Arzneimittel GmbH 
+Tel: +43 136785España 
+Laboratorio STADA, S.L. 
+Tel: +34 934738 
+Polska 
+STADA Poland Sp. z.o o. 
+Tel: +48 227377France 
+EG LABO - Laboratoires EuroGenerics 
+Tél: +33 146948 
+Portugal 
+Stada, Lda. 
+Tel: +351 211209Hrvatska 
+STADA d.o.o. 
+Tel: +385 13764 
+România 
+STADA M&amp;D SRL 
+Tel: +40 213160Ireland 
+Clonmel Healthcare Ltd. 
+Tel: +353 526177 
+Slovenija 
+Stada d.o.o. 
+Tel: +386 15896Ísland 
+STADA Arzneimittel AG 
+Sími: +49 61016 
+Slovenská republika 
+STADA PHARMA Slovakia, s.r.o. 
+Tel: +421 252621Italia 
+EG SpA 
+Tel: +39 028310 
+Suomi/Finland 
+STADA Nordic ApS, Suomen sivuliike 
+Puh/Tel: +358 207416Κύπρος 
+STADA Arzneimittel AG 
+Τηλ: +30 2106664 
+Sverige 
+STADA Nordic ApS 
+Tel: +45 44859Latvija 
+UAB „STADA Baltics“ 
+Tel: +370 52603 
+United Kingdom (Northern Ireland) 
+STADA Arzneimittel AG 
+Tel: +49 61016 
+Este folheto foi revisto pela última vez em  </p>
+<p>Outras fontes de informação 
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1410,6 +2104,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-d78597bd4a8ec02c40a4fe805d40f1ef"
 * entry[0].resource = composition-da-d78597bd4a8ec02c40a4fe805d40f1ef
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd78597bd4a8ec02c40a4fe805d40f1ef"
+* entry[=].resource = mpd78597bd4a8ec02c40a4fe805d40f1ef
+                            
+                    
+Instance: bundlepackageleaflet-pt-d78597bd4a8ec02c40a4fe805d40f1ef
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for uzpruvo Package Leaflet for language pt"
+Description: "ePI document Bundle for uzpruvo Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-d78597bd4a8ec02c40a4fe805d40f1ef"
+* entry[0].resource = composition-pt-d78597bd4a8ec02c40a4fe805d40f1ef
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpd78597bd4a8ec02c40a4fe805d40f1ef"
@@ -1511,6 +2227,18 @@ RuleSet: d78597bd4a8ec02c40a4fe805d40f1efListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-d78597bd4a8ec02c40a4fe805d40f1ef) // uzpruvo pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

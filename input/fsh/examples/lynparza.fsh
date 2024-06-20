@@ -993,6 +993,595 @@ hjemmeside http://www.ema.europa.eu</p>         </div>"""
 
 
 
+Instance: composition-pt-4dbf28ef3bd2d6f9dcbec498df8a6133
+InstanceOf: CompositionUvEpi
+Title: "Composition for lynparza Package Leaflet"
+Description:  "Composition for lynparza Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4dbf28ef3bd2d6f9dcbec498df8a6133)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - lynparza"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Lynparza e para que é utilizado
+2. O que precisa de saber antes de tomar Lynparza
+3. Como tomar Lynparza
+4. Efeitos indesejáveis possíveis
+5. Como conservar Lynparza
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é lynparza e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é lynparza e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Lynparza e como funciona
+Lynparza contém a substância ativa olaparib. Olaparib é um tipo de medicamento para o cancro, 
+chamado inibidor da PARP (inibidor da poli [adenosina difosfato-ribose] polimerase).
+Os inibidores da PARP podem destruir as células cancerosas que não são boas a reparar os danos no 
+ADN. Estas células cancerosas específicas podem ser identificadas por:
+
+resposta a quimioterapia à base de platina, ou
+
+procura de genes reparadores do ADN em falta, como os genes BRCA (gene do Cancro da 
+Mama).
+Quando Lynparza é utilizado em associação com abiraterona (um inibidor da sinalização do recetor
+de androgénio), a associação pode ajudar a aumentar o efeito anticancerígeno em células cancerosas
+da próstata com ou sem genes reparadores do ADN em falta (por exemplo, genes BRCA).
+Para que é utilizado Lynparza
+Lynparza é utilizado para o tratamento de:
+
+um tipo de cancro do ovário (BRCA-mutado) que respondeu ao primeiro tratamento 
+com quimioterapia padrão à base de platina.
+o
+É utilizado um teste para descobrir se tem cancro do ovário com BRCA-mutado.
+85
+
+cancro do ovário que voltou (recidivou). Pode ser utilizado após o cancro ter respondido a 
+tratamento prévio com quimioterapia padrão à base de platina.
+
+um tipo de cancro do ovário (HRD positivo conforme definido por uma mutação BRCA
+ou instabilidade genómica) que respondeu ao primeiro tratamento com quimioterapia 
+padrão à base de platina e bevacizumab. Lynparza é utilizado em conjunto com 
+bevacizumab.
+
+um tipo de cancro da mama (BRCA-mutado, HER2-negativo) quando o cancro não se
+espalhou para outras partes do corpo e o tratamento vai ser administrado após a 
+cirurgia (o tratamento após a cirurgia é chamado de terapia adjuvante). Deve ter 
+recebido medicamentos de quimioterapia antes ou depois da cirurgia. Se o seu cancro
+for positivo para o recetor hormonal, o seu médico também poderá prescrever 
+tratamento hormonal.
+o
+É utilizado um teste para descobrir se tem cancro da mama com BRCA-mutado.
+
+um tipo de cancro da mama (BRCA-mutado, HER2-negativo) que se espalhou para 
+além do tumor original. Deve ter recebido medicamentos de quimioterapia antes ou depois
+do seu cancro se ter espalhado.
+o
+É utilizado um teste para descobrir se tem cancro da mama com BRCA-mutado.
+
+um tipo de cancro do pâncreas (BRCA-mutado) que respondeu ao primeiro tratamento 
+com quimioterapia padrão à base de platina.
+o
+É utilizado um teste para descobrir se tem cancro do pâncreas com 
+BRCA-mutado.
+
+um tipo de cancro da próstata (BRCA-mutado) que se espalhou para além do tumor 
+original e não responde mais ao tratamento médico ou cirúrgico para baixar a 
+testosterona. Deve ter recebido certos tratamentos hormonais, como enzalutamida ou acetato 
+de abiraterona.
+o
+É utilizado um teste para descobrir se tem cancro da próstata com 
+BRCA-mutado.
+
+um tipo de cancro da próstata que se espalhou para outras partes do corpo 
+(metastático) para além do tumor original e não responde mais a um tratamento médico 
+ou cirúrgico que baixa a testosterona. Lynparza é utilizado em associação com outro 
+medicamento anticancerígeno chamado abiraterona, em conjunto com o medicamento 
+esteroide, prednisona ou prednisolona.
+Quando Lynparza é administrado em associação com outros medicamentos anticancerígenos, é 
+importante que leia também o folheto informativo destes outros medicamentos. Caso tenha dúvidas
+sobre esses medicamentos, fale com o seu médico.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar lynparza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar lynparza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Lynparza
+
+se tem alergia ao olaparib ou a qualquer outro componente deste medicamento (indicados na 
+secção 6).
+
+se está a amamentar (ver secção 2 abaixo para mais informação).
+86
+Não tome Lynparza se alguma das situações acima descritas se aplica a si. Caso tenha dúvidas, fale 
+com o seu médico, farmacêutico ou enfermeiro antes de tomar Lynparza.
+Advertências e precauções
+Fale com o seu médico, farmacêutico ou enfermeiro antes ou durante o tratamento com Lynparza
+
+se tem número baixo de células sanguíneas numa análise. Estes podem ser número baixo de 
+glóbulos vermelhos ou glóbulos brancos, ou número baixo de plaquetas. Ver secção 4 para 
+mais informações sobre estes efeitos indesejáveis, incluindo os sinais e sintomas a que deverá 
+prestar atenção (por exemplo, febre ou infeção, nódoas negras ou hemorragia). Raramente, 
+estes podem ser um sinal de um problema mais grave na medula óssea como “síndrome 
+mielodisplásico" (SMD) ou “leucemia mieloide aguda" (LMA).
+
+se tem sintomas de dificuldade respiratória novos ou agravados, tosse ou pieira. Um pequeno 
+número de doentes tratados com Lynparza notificou inflamação dos pulmões (pneumonite). 
+A pneumonite é uma doença grave que muitas vezes requer tratamento hospitalar.
+
+se tem sintomas novos ou agravados de dor ou inchaço numa extremidade, dificuldade 
+respiratória, dor no peito, respiração mais rápida do que o normal ou batimentos cardíacos 
+mais rápidos do que o normal. Foi notificado que um pequeno número de doentes tratados 
+com Lynparza desenvolveu um coágulo sanguíneo numa veia profunda, geralmente na perna 
+(trombose venosa), ou um coágulo nos pulmões (embolia pulmonar).
+
+se notar amarelecimento da pele ou da parte branca dos olhos, urina anormalmente escura 
+(cor castanha), dor no lado direito da zona do estômago (abdómen), cansaço, sensação de
+menos fome do que o habitual ou náuseas e vómitos sem motivo aparente, contacte 
+imediatamente o seu médico, pois tal pode indicar problemas no fígado.
+Se pensa que alguma das situações acima descritas se aplica a si, fale com o seu médico, 
+farmacêutico ou enfermeiro antes ou durante o tratamento com Lynparza.
+Análises e controlos
+O seu médico irá analisar o seu sangue antes e durante o tratamento com Lynparza.
+Irá fazer uma análise ao sangue
+
+antes de iniciar o tratamento
+
+a cada mês, durante o primeiro ano de tratamento
+
+a intervalos regulares, decididos pelo seu médico, após o primeiro ano de tratamento.
+Se o seu número de células sanguíneas diminuir para um nível baixo, pode necessitar de uma 
+transfusão de sangue (em que se lhe administra sangue novo ou produtos derivados do sangue de 
+um doador).
+Outros medicamentos e Lynparza
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar, tiver tomado recentemente ou 
+se vier a tomar outros medicamentos. Estes incluem medicamentos obtidos sem uma receita médica 
+e medicamentos à base de plantas. Isto porque Lynparza pode afetar o modo como outros 
+medicamentos atuam. Igualmente, alguns medicamentos podem afetar a forma como Lynparza atua.
+87
+Informe o seu médico, farmacêutico ou enfermeiro se está a tomar ou a planear tomar qualquer um 
+dos seguintes medicamentos
+
+quaisquer outros medicamentos para o cancro
+
+uma vacina ou um medicamento que iniba o sistema imunitário, uma vez que pode necessitar 
+de ser cuidadosamente monitorizado
+
+itraconazol, fluconazol - utilizados para as infeções fúngicas
+
+telitromicina, claritromicina, eritromicina - utilizados para as infeções bacterianas
+
+inibidores da protease potenciados com ritonavir ou cobicistate, boceprevir, telaprevir,
+nevirapina, efavirenz - utilizados para as infeções víricas, incluindo VIH
+
+rifampicina, rifapentina, rifabutina - utilizados para as infeções bacterianas, incluindo 
+tuberculose (TB)
+
+fenitoína, carbamazepina, fenobarbital - utilizados como sedativos ou para tratar crises 
+(convulsões) e epilepsia
+
+medicamento à base de plantas contendo hipericão (Hypericum perforatum) - utilizado 
+principalmente para a depressão
+
+digoxina, diltiazem, furosemida, verapamilo, valsartan - utilizados para tratar problemas
+cardíacos ou tensão arterial elevada
+
+bosentano - utilizado para tratar a hipertensão arterial pulmonar
+
+estatinas, por exemplo sinvastatina, pravastatina, rosuvastatina - utilizadas para baixar os 
+níveis de colesterol no sangue
+
+dabigatrano - utilizado para fluidificar o sangue
+
+glibenclamida, metformina, repaglinida - utilizados para tratar a diabetes
+
+alcaloides ergóticos - utilizados para tratar enxaquecas e dor de cabeça
+
+fentanil - utilizado para tratar a dor cancerosa
+
+pimozida, quetiapina - utilizadas para tratar problemas de saúde mental
+
+cisaprida - utilizada para tratar problemas no estômago
+
+colquicina - utilizada para tratar a gota
+
+ciclosporina, sirolímus, tacrolímus - utilizados para suprimir o sistema imune
+
+metotrexato - utilizado para tratar cancro, artrite reumatoide e psoríase
+Informe o seu médico, farmacêutico ou enfermeiro se estiver a tomar qualquer um dos 
+medicamentos acima referidos ou quaisquer outros medicamentos. Os medicamentos mencionados
+acima podem não ser os únicos a interferir com Lynparza.
+Lynparza com bebidas
+Não beba sumo de toranja enquanto estiver a ser tratada com Lynparza. Este pode afetar a forma 
+como o medicamento atua.
+Contraceção, gravidez e amamentação
+Doentes do sexo feminino
+
+Não tome Lynparza se está grávida ou pensa estar grávida. Isto porque ele pode afetar o feto.
+
+Não deve ficar grávida enquanto toma este medicamento. Se tiver relações sexuais, deverá 
+utilizar dois métodos contracetivos eficazes enquanto tomar este medicamento e durante 
+6 meses após a toma da última dose de Lynparza. Desconhece-se se Lynparza pode afetar a 
+efetividade de alguns contracetivos hormonais. Por favor, informe o seu médico se está a 
+tomar um contracetivo hormonal, já que o seu médico poderá recomendar a adição de um 
+método contracetivo não hormonal.
+88
+
+Deverá realizar um teste de gravidez antes de iniciar Lynparza, em intervalos regulares 
+durante o tratamento e 6 meses após tomar a última dose de Lynparza. Se ficar grávida 
+durante este período, consulte imediatamente o seu médico.
+
+Desconhece-se se Lynparza passa para o leite materno. Não amamente se está a tomar 
+Lynparza e durante 1 mês após a toma da última dose de Lynparza. Se estiver a planear 
+amamentar, informe o seu médico.
+Doentes do sexo masculino
+
+Deve utilizar um preservativo quando tiver relações sexuais com uma parceira, mesmo que
+ela esteja grávida, enquanto estiver a tomar Lynparza e durante 3 meses após a toma da
+última dose. Não se sabe se Lynparza passa para o sémen.
+
+A sua parceira também deve usar um método contracetivo adequado.
+
+Não deve doar esperma enquanto estiver a tomar Lynparza e durante 3 meses após tomar a 
+última dose.
+Condução de veículos e utilização de máquinas
+Lynparza pode afetar a sua capacidade para conduzir e utilizar máquinas. Se sentir tonturas, 
+fraqueza ou cansaço enquanto toma Lynparza, não conduza nem utilize ferramentas ou máquinas.
+Informação sobre outros componentes neste medicamento
+Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido de 100 mg ou 
+150 mg ou seja, é praticamente “isento de sódio".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar lynparza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar lynparza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico, farmacêutico ou enfermeiro.
+Fale com o seu médico, farmacêutico ou enfermeiro se tiver dúvidas.
+Como tomar
+
+Engula os comprimidos de Lynparza de uma só vez, com ou sem alimentos.
+
+Tome Lynparza uma vez de manhã e outra vez à noite.
+
+Não mastigue, parta, dissolva ou divida os comprimidos dado que esta ação pode afetar a 
+rapidez com que o medicamento é disponibilizado no seu corpo.
+Que quantidade deve tomar
+
+O seu médico irá dizer-lhe quantos comprimidos de Lynparza deverá tomar. É importante que 
+tome a dose total diária recomendada cada dia. Continue a fazê-lo segundo as instruções do 
+seu médico, farmacêutico ou enfermeiro.
+
+A dose habitual recomendada é de 300 mg (2 x comprimidos de 150 mg) tomada duas vezes 
+por dia - num total de 4 comprimidos em cada dia.
+O seu médico poderá receitar uma dose diferente se
+
+tiver problemas nos seus rins. Deverá tomar 200 mg (2 x comprimidos de 100 mg) duas vezes 
+por dia - num total de 4 comprimidos em cada dia.
+
+está a tomar certos medicamentos que podem afetar Lynparza (ver secção 2).
+
+tiver alguns efeitos indesejáveis enquanto tomar Lynparza (ver secção 4). O seu médico 
+poderá reduzir a sua dose ou interromper o tratamento, durante um curto período de tempo ou 
+definitivamente.
+89
+Se tomar mais Lynparza do que deveria
+Se tomar mais Lynparza do que a sua dose habitual, consulte o seu médico ou vá ao hospital mais 
+próximo imediatamente.
+Caso se tenha esquecido de tomar Lynparza
+Se se esqueceu de tomar Lynparza, deve tomar a sua dose seguinte à hora habitual. Não tome uma 
+dose a dobrar (duas doses ao mesmo tempo) para compensar uma dose que se esqueceu de tomar.
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, 
+farmacêutico ou enfermeiro.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Informe imediatamente o seu médico se notar algum dos seguintes
+Muito frequentes (podem afetar mais de 1 em cada 10 pessoas):
+
+sensação de dificuldade em respirar, sensação de muito cansaço, ter a pele pálida ou 
+batimento do coração acelerado - estes podem ser sintomas de uma diminuição do número de 
+glóbulos vermelhos (anemia).
+Pouco frequentes (podem afetar até 1 em cada 100 pessoas)
+
+reações alérgicas (por exemplo urticária, dificuldade em respirar ou a engolir, tonturas que 
+são sinais e sintomas de reações de hipersensibilidade).
+
+erupção na pele com comichão ou inchaço, com pele avermelhada (dermatite).
+
+problemas graves com a medula óssea (síndroma mielodisplásica ou leucemia mieloide 
+aguda). Ver secção 2. Outros efeitos indesejáveis incluem
+Muito frequentes (podem afetar mais de 1 em cada 10 pessoas)
+
+sentir-se doente (náuseas)
+
+estar doente (vómitos)
+
+sensação de cansaço ou fraqueza (fadiga)
+
+indigestão ou ardor no estômago (dispepsia)
+
+perda de apetite
+
+dor de cabeça
+
+alterações no sabor dos alimentos (disgeusia)
+
+sensação de tontura
+
+tosse
+
+falta de ar (dispneia)
+
+diarreia - se agravar, informe o seu médico imediatamente.
+Muito frequentes efeitos indesejáveis que podem aparecer em análises ao sangue
+
+número baixo de glóbulos brancos (leucopenia ou neutropenia) que pode baixar a sua 
+capacidade para combater infeções e pode estar associado a febre.
+90
+Frequentes (podem afetar até 1 em cada 10 pessoas)
+
+erupção na pele 
+
+dor na boca (estomatite)
+
+dor na zona do estômago abaixo das costelas (dor abdominal superior).
+
+coágulo sanguíneo numa veia profunda, geralmente na perna (trombose venosa) que pode 
+causar sintomas como dor ou inchaço das pernas, ou um coágulo nos pulmões (embolia 
+pulmonar) que pode causar sintomas como falta de ar, dor no peito, respiração mais rápida do 
+que o normal ou batimentos cardíacos mais rápidos do que o normal.
+Frequentes efeitos indesejáveis que podem aparecer em análises ao sangue
+
+número baixo de glóbulos brancos (linfopenia) que pode baixar a sua capacidade para 
+combater infeções e pode estar associado a febre
+
+diminuição do número de plaquetas no sangue (trombocitopenia) - pode notar os seguintes 
+sintomas
+o
+nódoas negras ou hemorragias durante um período superior ao normal 
+quando se lesiona
+
+aumento dos níveis de creatinina no sangue - esta análise é utilizada para verificar como estão 
+a funcionar os seus rins.
+
+testes de função hepática anormais.
+Pouco frequentes efeitos indesejáveis que podem aparecer em análises ao sangue
+
+aumento do tamanho dos glóbulos vermelhos (não associado a quaisquer sintomas).
+Raros (podem afetar até 1 em cada 1000 pessoas)
+
+inchaço facial (angioedema).
+
+inflamação dolorosa do tecido adiposo debaixo da pele (eritema nodoso).
+Desconhecido (não é possível calcular a partir dos dados disponíveis)
+
+sinais de problemas no fígado, tais como amarelecimento da pele ou da parte branca dos 
+olhos (icterícia), náuseas ou vómitos, dor no lado direito da zona do estômago (abdómen), 
+urina escura (cor castanha), sensação de menos fome do que o habitual, cansaço.
+O seu médico irá analisar o seu sangue todos os meses durante o primeiro ano de tratamento e 
+posteriormente em intervalos regulares. O seu médico irá informá-lo se existem alterações nas suas
+análises ao sangue que possam necessitar de tratamento.
+Se tiver quaisquer efeitos indesejáveis não mencionados neste folheto, consulte o seu médico, 
+farmacêutico ou enfermeiro imediatamente.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar lynparza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar lynparza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
+91
+Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no 
+blister, após EXP. O prazo de validade corresponde ao último dia do mês indicado.
+O medicamento não necessita de qualquer temperatura especial de conservação.
+Conservar na embalagem de origem para proteger da humidade.
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Lynparza
+A substância ativa é olaparib.
+
+Cada comprimido revestido por película de Lynparza 100 mg contém 100 mg de olaparib.
+
+Cada comprimido revestido por película de Lynparza 150 mg contém 150 mg de olaparib.
+Os outros componentes (excipientes) são
+
+Núcleo do comprimido: copovidona, sílica coloidal anidra, manitol, estearilfumarato de 
+sódio.
+
+Revestimento do comprimido: hipromelose, macrogol 400, dióxido de titânio (E171), óxido
+de ferro amarelo (E172), óxido de ferro negro (E172) (apenas comprimidos 150 mg).
+Ver secção 2 “Informação sobre outros componentes neste medicamento".
+Qual o aspeto de Lynparza e conteúdo da embalagem
+Lynparza 100 mg comprimidos são comprimidos revestidos por película, amarelos a amarelo 
+escuro, ovais, biconvexos, marcados com “OPI100" numa face e liso na outra face.
+Lynparza 150 mg comprimidos são comprimidos revestidos por película, verdes a verde/cinzento, 
+ovais, biconvexos, marcados com “OPI150" numa face e liso na outra face.
+Lynparza é fornecido em embalagens contendo 56 comprimidos revestidos por película (7 blisters 
+de 8 comprimidos cada) ou embalagem múltipla contendo 112 (2 embalagens de 56) comprimidos
+revestidos por película.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+AstraZeneca AB
+SE-151 85 Södertälje
+Suécia
+Fabricante
+AstraZeneca AB
+Gärtunavägen
+92
+SE-152 57 Södertälje
+Suécia
+AstraZeneca UK Limited
+Silk Road Business Park
+Macclesfield, Cheshire, SK10 2NA
+Reino Unido
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do
+Titular da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+93
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Este folheto foi revisto pela última vez em 
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1034,6 +1623,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-4dbf28ef3bd2d6f9dcbec498df8a6133"
 * entry[0].resource = composition-da-4dbf28ef3bd2d6f9dcbec498df8a6133
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4dbf28ef3bd2d6f9dcbec498df8a6133"
+* entry[=].resource = mp4dbf28ef3bd2d6f9dcbec498df8a6133
+                            
+                    
+Instance: bundlepackageleaflet-pt-4dbf28ef3bd2d6f9dcbec498df8a6133
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lynparza Package Leaflet for language pt"
+Description: "ePI document Bundle for lynparza Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-4dbf28ef3bd2d6f9dcbec498df8a6133"
+* entry[0].resource = composition-pt-4dbf28ef3bd2d6f9dcbec498df8a6133
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp4dbf28ef3bd2d6f9dcbec498df8a6133"
@@ -1135,6 +1746,18 @@ RuleSet: 4dbf28ef3bd2d6f9dcbec498df8a6133ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-4dbf28ef3bd2d6f9dcbec498df8a6133) // lynparza pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

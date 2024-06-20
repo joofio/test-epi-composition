@@ -1103,6 +1103,569 @@ Dosisjustering er ikke nødvendig hos ældre.</p>         </div>"""
 
 
 
+Instance: composition-pt-6921fe94b12d3679a96f1d5a8683a92f
+InstanceOf: CompositionUvEpi
+Title: "Composition for voncento Package Leaflet"
+Description:  "Composition for voncento Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6921fe94b12d3679a96f1d5a8683a92f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - voncento"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto
+1. O que é Voncento e para que é utilizado
+2. O que precisa de saber antes de utilizar Voncento 
+3. Como utilizar Voncento 
+4. Efeitos indesejáveis possíveis
+5. Como conservar Voncento 
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é voncento e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é voncento e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O medicamento é obtido a partir de plasma humano (a parte líquida do sangue) e contém como 
+substâncias ativas o fator VIII (FVIII) da coagulação humana e o fator de von Willebrand humano 
+(FVW).
+Voncento é utilizado em todos os grupos etários para prevenir ou estancar hemorragias provocadas 
+pela deficiência de FVW na doença de von Willebrand (DVW) e pela deficiência de FVIII na 
+hemofilia A. Voncento é apenas utilizado quando o tratamento com outro medicamento, a 
+desmopressina não é eficaz quando usada isoladamente ou não pode ser administrada.
+O FVW e o FVIII estão envolvidos na coagulação do sangue. A deficiência de qualquer dos fatores 
+significa que o sangue não coagula tão rapidamente como deveria e verifica-se assim um aumento da 
+tendência para sangrar. A substituição do FVW e do FVIII pelo Voncento reparará temporariamente os 
+mecanismos de coagulação do sangue.
+Como o Voncento contém tanto o FVIII como o FVW, é importante saber qual o fator de que mais 
+necessita. Se tem Hemofilia A, o seu médico prescrever-lhe-á Voncento com o número de unidades de 
+FVIII especificado. Se tem DVW, o seu médico prescrever-lhe-á Voncento com o número de unidades 
+de FVW especificado.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar voncento"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar voncento"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Voncento
+44
+
+Se tem alergia ao FVW ou ao FVIII ou a qualquer outro componente deste medicamento 
+(indicados na secção 6).
+Advertências e precauções 
+Rastreabilidade
+Recomenda-se fortemente que cada vez que o Voncento lhe seja administrado, registe a data de 
+administração, o número de lote e o volume administrado no seu boletim de registo do tratamento.
+Fale com o seu médico, farmacêutico ou enfermeiro antes de utilizar Voncento.
+
+É possível que ocorram reações alérgicas (hipersensibilidade). Se ocorrerem sintomas de 
+hipersensibilidade, deverá interromper imediatamente a utilização do medicamento e 
+contactar o seu médico. O seu médico deve informá-lo acerca dos primeiros sinais de reações 
+de hipersensibilidade. Estes incluem urticária, erupções generalizadas na pele, aperto no peito, 
+respiração ruidosa, queda da tensão arterial e anafilaxia (uma reação alérgica grave que provoca 
+dificuldades respiratórias graves ou tonturas). 
+
+A formação de inibidores (anticorpos) é uma complicação conhecida que pode ocorrer durante 
+o tratamento com todos os medicamentos com fator VIII. Estes inibidores, sobretudo em 
+concentrações elevadas, impedem o funcionamento correto do tratamento e você ou a sua 
+criança serão monitorizados cuidadosamente para verificar o desenvolvimento destes inibidores. 
+Se a sua hemorragia ou a da sua criança não estiver a ser controlada com Voncento, informe o 
+seu médico imediatamente. 
+
+Se foi informado de que sofre de uma doença do coração ou que está em risco de sofrer de uma 
+doença do coração, informe o seu médico ou farmacêutico.
+
+Se necessitar de um dispositivo de acesso venoso central (DAVC) para a administração de 
+Voncento, o seu médico deverá ter em consideração o risco de complicações relacionadas com o 
+DAVC incluindo infeções locais, bactérias no sangue (bacteriemia) e a formação de um coágulo 
+de sangue num vaso sanguíneo (trombose).
+
+Doença de von Willebrand
+Caso possua um risco conhecido de formação de coágulos sanguíneos, terá de ser monitorizado 
+para detetar os primeiros sinais de trombose (coagulação do sangue). O seu médico deve dar-lhe 
+um tratamento para prevenir a trombose.
+Segurança viral
+Quando os medicamentos são preparados a partir do sangue ou plasma humano, o fabricante põe em 
+prática certas medidas para evitar a transmissão de infeções para os doentes. Estas incluem:
+
+uma cuidadosa seleção dos dadores de sangue e plasma para assegurar que são excluídos os que 
+apresentam risco de transmissão de infeções,
+
+a análise de cada dádiva e das pools de plasma para deteção de sinais de vírus/infeções,
+
+a inclusão de etapas no processamento do sangue ou do plasma que permitem inativar ou 
+eliminar vírus.
+Apesar destas medidas, quando se administram medicamentos preparados a partir do sangue ou 
+plasma humano, não pode excluir-se totalmente a possibilidade de transmissão de infeções. Tal 
+também se aplica a vírus emergentes ou desconhecidos ou outros tipos de infeções.
+As medidas tomadas são consideradas eficazes para vírus “com envelope" como o vírus da 
+imunodeficiência humana (VIH, o vírus da SIDA), o vírus da hepatite B e o vírus da hepatite C (que 
+causa inflamação do fígado) e para o vírus “sem envelope" da hepatite A (que também causa 
+inflamação do fígado).
+As medidas tomadas podem ter um valor limitado contra os vírus sem envelope como o parvovírus 
+B19.
+45
+A infeção por parvovírus B19 pode ser grave
+
+em mulheres grávidas (pois existe o risco de infeção do feto) e
+
+em indivíduos com o sistema imunitário debilitado ou com uma produção aumentada de 
+glóbulos vermelhos devido a certos tipos de anemia (por exemplo, anemia falciforme ou anemia 
+hemolítica).
+Se recebe de forma regular/repetida, medicamentos derivados do plasma humano como o Voncento, o 
+seu médico pode recomendar-lhe que considere ser vacinado contra a hepatite A e B.
+Crianças e adolescentes
+As advertências e precauções indicadas aplicam-se a crianças e adolescentes. 
+Outros medicamentos e Voncento
+
+Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier 
+a tomar outros medicamentos.
+Gravidez e amamentação
+
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu 
+médico ou farmacêutico antes de utilizar este medicamento.
+
+Voncento só deve ser administrado durante a gravidez e a amamentação se for claramente 
+necessário.
+Condução de veículos e utilização de máquinas
+Voncento não afeta a sua capacidade de condução e utilização de máquinas.
+Voncento contém sódio
+As apresentações de 250 UI de FVIII/600 UI de FVW (5 ml de solvente) e 500 UI de FVIII/1200 UI 
+de FVW (5 ml de solvente) contêm até 14,75 mg de sódio por frasco para injetáveis (principal 
+componente de sal de cozinha/sal de mesa). Isto é equivalente a 0,74% da ingestão máxima diária de 
+sódio recomendada na dieta para um adulto. 
+As apresentações de 500 UI de FVIII/1200 UI de FVW (10 ml de solvente) e 1000 UI de FVIII/2UI de FVW (10 ml de solvente) contêm até 29,50 mg de sódio por frasco para injetáveis (principal 
+componente de sal de cozinha/sal de mesa). Isto é equivalente a 1,48% da ingestão máxima diária de 
+sódio recomendada na dieta para um adulto.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar voncento"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar voncento"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu tratamento deve ser monitorizado por um médico com experiência no tratamento de alterações 
+da coagulação do sangue.
+Se o seu médico considerar que pode administrar o Voncento a si próprio, ser-lhe-ão dadas instruções 
+adequadas pelo seu médico. Utilize este medicamento exatamente como indicado pelo seu médico. 
+Fale com o seu médico se tiver dúvidas. 
+Dose
+A quantidade de FVW e FVIII de que necessita e a duração do tratamento dependem:
+
+da gravidade da sua doença 
+
+da localização e intensidade da hemorragia
+
+do seu estado clínico
+46
+
+do seu peso corporal
+(ver também a secção “A informação que se segue destina-se apenas aos profissionais de saúde").
+Se lhe foi prescrito Voncento para ser utilizado em casa, o seu médico deve assegurar-se de que lhe foi 
+demonstrado como injetá-lo e qual a quantidade que deve utilizar. 
+Siga as instruções que lhe foram dadas pelo seu médico.
+Utilização em crianças e adolescentes
+A dose em crianças e adolescentes com &lt;18 anos baseia-se no peso corporal e portanto baseia-se 
+geralmente nas mesmas instruções que nos adultos. Nalguns casos, especialmente em doentes mais 
+novos, poderão ser necessárias doses mais elevadas.
+Se utilizar mais Voncento do que deveria
+Foram notificados cinco casos de sobredosagem  nos ensaios clínicos. Não houve efeitos secundários 
+associados a estas notificações. O risco de desenvolver coágulos sanguíneos (trombose) não pode ser 
+excluído em caso de uma dose extremamente elevada, especialmente em doentes com DVW.
+Caso se tenha esquecido de utilizar Voncento
+
+Prossiga imediatamente com a dose seguinte e continue a intervalos regulares conforme 
+indicado pelo seu médico.
+
+Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
+Se parar de utilizar Voncento
+Não pare de utilizar Voncento sem consultar o seu médico.
+Reconstituição e administração
+Instruções gerais
+
+O pó deve ser misturado (reconstituído) com o solvente (líquido) e transferido do frasco para 
+injetáveis em condições asséticas.
+
+Voncento não deve ser misturado com outros medicamentos, veículos ou solventes, com 
+exceção dos indicados na secção 6. 
+A solução deve ser transparente ou ligeiramente opalescente, isto é, pode brilhar quando exposta 
+contra a luz mas não deve conter quaisquer partículas visíveis. Após a filtração ou a 
+transferência (ver abaixo) e antes da administração, a solução deve ser visualmente 
+inspecionada. Não use a solução se esta estiver visivelmente turva ou se contiver flocos ou 
+partículas.
+
+Qualquer medicamento que reste ou material que não tenha sido utilizado deve ser rejeitado de 
+acordo com os requisitos locais e conforme as indicações do seu médico.
+Reconstituição
+Sem abrir os frascos para injetáveis, deixe que o pó de Voncento e o líquido atinjam a temperatura 
+ambiente ou do corpo. Para tal, pode deixar os frascos para injetáveis à temperatura ambiente durante 
+cerca de uma hora, ou pode segurá-los nas mãos durante alguns minutos. 
+NÃO exponha os frascos para injetáveis a uma fonte de calor direta. Os frascos para injetáveis não 
+podem ser aquecidos a uma temperatura superior à temperatura corporal (37 ºC). 
+Retire com cuidado as cápsulas de proteção dos frascos para injetáveis e limpe a parte exposta das 
+tampas de borracha com uma compressa com álcool. Deixe secar os frascos para injetáveis antes de 
+abrir a embalagem do Mix2Vial (que contém o dispositivo de transferência com filtro) e depois siga as 
+instruções apresentadas em seguida. 
+1
+1. Abra a embalagem do Mix2Vial descolando e 
+retirando a aba. Não retire o Mix2Vial do blister! 
+47
+2
+2. Coloque o frasco para injetáveis do solvente
+sobre uma superfície plana e limpa e segure-o com 
+firmeza. Segure no Mix2Vial juntamente com o 
+blister e empurre a extremidade azul para baixo
+inserindo-a na tampa do frasco para injetáveis do 
+solvente.
+3
+3. Retire cuidadosamente o blister do Mix2Vial 
+segurando na borda e puxando para cima na 
+vertical. Certifique-se de que retira apenas o 
+blister e não o sistema Mix2Vial.
+4
+4. Coloque o frasco para injetáveis do produto
+sobre uma superfície plana e limpa. Inverta o 
+frasco para injetáveis do solvente com o sistema 
+Mix2Vial acoplado e empurre o adaptador 
+transparente para baixo inserindo-o na tampa do 
+frasco para injetáveis do produto. O solvente será 
+automaticamente transferido para o frasco para 
+injetáveis do produto.
+5
+5. Com uma das mãos segure a parte do sistema 
+Mix2Vial acoplada ao frasco para injetáveis do 
+produto. Com a outra mão segure a parte do 
+sistema Mix2Vial acoplada ao frasco para 
+injetáveis do solvente e desenrosque 
+cuidadosamente as duas peças do sistema no 
+sentido contrário ao dos ponteiros do relógio de 
+forma a evitar a formação excessiva de espuma 
+durante a dissolução do produto. Rejeite o frasco 
+para injetáveis do solvente com o adaptador azul 
+do Mix2Vial acoplado. 
+6
+6. Rode suavemente o frasco para injetáveis do 
+produto com o adaptador transparente acoplado 
+até que a substância esteja completamente 
+dissolvida. Não agite. 
+7
+7. Insira ar numa seringa estéril vazia. Mantendo o 
+frasco para injetáveis do produto na vertical, 
+virado para cima, adapte a seringa à extremidade 
+Luer Lock do Mix2Vial enroscando no sentido 
+dos ponteiros do relógio. Injete ar no frasco para 
+injetáveis do produto.
+Transferência da solução e administração
+48
+8
+8. Mantendo o êmbolo da seringa pressionado, 
+inverta o sistema, virando-o para baixo e aspire a 
+solução para a seringa puxando o êmbolo devagar 
+para trás.
+9
+9. Após a solução ter sido transferida para a 
+seringa, segure com firmeza no corpo da seringa 
+(mantendo o êmbolo da seringa virado para baixo) 
+e retire o adaptador transparente do sistema 
+Mix2Vial da seringa desenroscando no sentido 
+contrário ao dos ponteiros do relógio.
+Utilizando o sistema de venopunção fornecido com o medicamento, insira a agulha numa veia. Deixe 
+que o sangue flua de volta para a extremidade do tubo. Adapte a seringa na extremidade com rosca do 
+sistema de venopunção. Recomenda-se o uso de seringas de plástico descartáveis, uma vez que a 
+superfície do vidro esmerilado das seringas que são totalmente de vidro tende a aderir a este tipo de 
+soluções. Administre lentamente a solução reconstituída por injeção/perfusão na veia (a uma 
+velocidade não superior a 6 ml por minuto) seguindo as instruções que lhe foram dadas pelo seu 
+médico. Tome cuidado para não deixar entrar sangue na seringa contendo o medicamento. 
+No caso de ser necessária a administração de grandes volumes de Voncento, será possível juntar vários 
+frascos para injetáveis de Voncento num sistema de perfusão comercialmente disponível (por 
+exemplo, uma bomba de perfusão com seringa para administração de medicamentos na veia). 
+Contudo, nestes casos, a solução de Voncento inicialmente reconstituída não deverá tornar a ser 
+diluída. 
+Verifique se não sente quaisquer efeitos secundários que podem surgir de imediato. Se sentir 
+quaisquer efeitos secundários que possam estar relacionados com a administração de Voncento, a 
+injeção ou a perfusão deve ser interrompida (ver também a secção 2).
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não 
+se manifestem em todas as pessoas.
+Por favor contacte imediatamente o seu médico se:
+
+sentir sintomas de reações alérgicas 
+Em alguns casos podem progredir para uma reação alérgica grave (anafilaxia), a qual provoca 
+graves dificuldades respiratórias, tonturas ou choque. As reações alérgicas podem incluir os 
+seguintes sintomas: Inchaço da face, língua, boca ou garganta, dificuldade em respirar e engolir, 
+urticária, respiração ruidosa, ardor e picadas no local da perfusão, arrepios, vermelhidão, 
+erupções na pele em todo o corpo, dores de cabeça, queda da tensão arterial, agitação, 
+batimentos cardíacos mais rápidos, aperto no peito (incluindo dor no peito e desconforto no 
+peito), dores nas costas, cansaço (letargia), náuseas, vómitos, formigueiros. 
+49
+
+sentir que o medicamento deixa de atuar adequadamente (hemorragia contínua)
+Para crianças não tratadas previamente com medicamentos com fator VIII, pode ocorrer a 
+formação de anticorpos inibidores (ver secção 2) muito frequentemente (mais de 1 em doentes); no entanto, para doentes que receberam tratamento prévio com fator VIII (mais de dias de tratamento) o risco é pouco frequente (menos de 1 em 100 doentes). Se isto acontecer, 
+os medicamentos que você ou a sua criança estão a tomar podem deixar de funcionar 
+adequadamente e você ou a sua criança podem apresentar hemorragias persistentes.
+Poderá desenvolver um inibidor (anticorpo neutralizante) contra o FVW e, neste caso, o FVW 
+deixará de atuar adequadamente.
+
+sentir quaisquer sintomas de que a circulação nas extremidades (ex: extremidades frias e 
+pálidas) ou nos órgãos vitais se encontra diminuída (ex. dor intensa no peito) 
+Existe o risco de formação de coágulos sanguíneos (trombose), particularmente em doentes com 
+fatores de risco conhecidos (ver também a secção 2).
+O seguinte efeito indesejável foi observado muito frequentemente (pode afetar mais de 1 em pessoas):
+
+Cefaleia
+Os seguintes efeitos indesejáveis foram observados frequentemente (podem afetar até 1 em pessoas): 
+
+Aumento da temperatura corporal
+Os seguintes efeitos indesejáveis foram observados pouco frequentemente (podem afetar até 1 em pessoas):
+
+Alteração do paladar (disgeusia)
+
+Resultado anómalo nas análises ao fígado
+Efeitos indesejáveis em crianças e adolescentes
+Espera-se que os efeitos indesejáveis em crianças e em adolescentes sejam semelhantes aos dos 
+adultos. 
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar voncento"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar voncento"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Manter este medicamento fora da vista e do alcance das crianças.
+
+Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem 
+exterior.
+
+Não conservar acima de 25 °C. 
+
+Não congelar. 
+
+Voncento não contém conservantes pelo que medicamento reconstituído deve ser imediatamente 
+utilizado. 
+
+Se o medicamento reconstituído não for imediatamente administrado, as condições e tempos de 
+conservação são da responsabilidade do utilizador.
+
+Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz.
+
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
+proteger o ambiente.
+50</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Voncento
+A substância ativa é:
+250 UI de FVIII e 600 UI de FVW por frasco para injetáveis; após reconstituição com 5 ml de água 
+para preparações injetáveis aproximadamente 50 UI/ml de FVIII e 120 UI/ml de FVW.
+500 UI de FVIII e 1200 UI de FVW por frasco para injetáveis; após reconstituição com 10 ml de água 
+para preparações injetáveis aproximadamente 50 UI/ml de FVIII e 120 UI/ml de FVW.
+500 UI de FVIII e 1200 UI de FVW por frasco para injetáveis; após reconstituição com 5 ml de água 
+para preparações injetáveis aproximadamente 100 UI/ml de FVIII e 240 UI/ml de FVW.
+1000 UI de FVIII e 2400 UI de FVW por frasco para injetáveis; após reconstituição com 10 ml de 
+água para preparações injetáveis aproximadamente 100 UI/ml de FVIII e 240 UI/ml de FVW.
+Ver secção “A informação que se segue destina-se apenas aos profissionais de saúde" para mais 
+informações.
+Os outros componentes são:
+Cloreto de cálcio, albumina humana, cloreto de sódio, citrato de sódio, sacarose, trometamol. 
+Ver secção 2 “Voncento contém sódio".
+Solvente: Água para preparações injetáveis
+Qual o aspeto de Voncento e conteúdo da embalagem
+Voncento é fornecido sob a forma de um pó branco e com um solvente para solução injetável ou  para 
+perfusão.
+A solução reconstituída deve ser transparente ou ligeiramente opalescente, isto é, pode brilhar quando 
+exposta contra a luz mas não deve conter quaisquer partículas visíveis. 
+O acondicionamento primário do medicamento e o frasco para injetáveis do solvente consistem num 
+frasco para injetáveis de vidro com uma tampa de borracha, um disco de plástico e uma cápsula de 
+alumínio.
+Apresentações
+Uma embalagem com 250 UI/600 UI ou 500 UI/1200 UI contendo:
+- 1 frasco para injetáveis com o pó
+- 1 frasco para injetáveis com 5 ml de água para preparações injetáveis
+- 1 dispositivo de transferência com filtro 20/20
+- Uma caixa no interior contendo:
+1 seringa de 10 ml descartável
+1 sistema de venopunção
+2 toalhetes de álcool
+1 penso rápido não estéril
+Uma embalagem com 500 UI/1200 UI ou 1000 UI/2400 UI contendo:
+- 1 frasco para injetáveis com o pó
+- 1 frasco para injetáveis com 10 ml de água para preparações injetáveis
+- 1 dispositivo de transferência com filtro 20/20
+- Uma caixa no interior contendo:
+1 seringa de 10 ml descartável
+1 sistema de venopunção
+2 toalhetes de álcool
+1 penso rápido não estéril
+51
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado e Fabricante
+CSL Behring GmbH
+Emil-von-Behring-Straße 76
+35041 Marburg
+Alemanha
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+Lietuva
+CentralPharma Communications UAB
+Tel: +370 5 243 0444
+Luxembourg/Luxemburg
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20 (BE)
+Magyarország
+Plazmed Kft.
+Tel.: +36 28 59 10 00
+България
+МагнаФарм България 
+Тел: +359 2 810 3949
+Česká republika
+CSL Behring s.r.o.
+Tel: + 420 702 137 233
+Danmark
+CSL Behring AB
+Tel: +46 8 544 966 70
+Malta
+AM Mangion Ltd.
+Tel: +356 2397 6333
+Deutschland
+CSL Behring GmbH
+Tel: +49 69 30584437
+Nederland
+CSL Behring BV
+Tel: + 31 85 111 96 00
+Eesti
+CentralPharma Communications OÜ 
+Tel: +3726015540
+Norge
+CSL Behring AB
+Tlf: +46 8 544 966 70
+Ελλάδα
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+Österreich
+CSL Behring GmbH
+Tel: +43 1 80101 2463
+España
+CSL Behring S.A.
+Tel: +34 933 67 1870
+Polska
+CSL Behring sp. z o.o.
+Tel: +48 22 213 22 65
+France
+CSL Behring S.A.
+Tél: + 33 -(0)-1 53 58 54 00
+Portugal
+CSL Behring Lda
+Tel: +351 21 782 62 30
+Hrvatska 
+PharmaSwiss d.o.o. 
+Tel: +385 (1) 631-1România
+Prisum International Trading srl
+Tel: +40 21 322 0171
+Ireland
+CSL Behring GmbH
+Tel: +49 69 30517254
+Slovenija
+NEOX s.r.o.-podružnica v Sloveniji 
+Tel:+ 386 41 42 0002
+Ísland
+Slovenská republika
+52
+CSL Behring AB
+Sími: +46 8 544 966 70
+CSL Behring s.r.o
+Tel: +421 911 653 862
+Italia
+CSL Behring S.p.A.
+Tel: +39 02 34964 200
+Suomi/Finland
+CSL Behring AB
+Puh/Tel: +46 8 544 966 70
+Κύπρος
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+Sverige
+CSL Behring AB
+Tel: +46 8 544 966 70
+Latvija
+CentralPharma Communications SIA 
+Tel: +371 6 7450497
+United Kingdom (Northern Ireland)
+CSL Behring GmbH
+Tel: +49 69 30517254 (DE)
+Este folheto foi revisto pela última vez em {MM/AAAA}.
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1144,6 +1707,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-6921fe94b12d3679a96f1d5a8683a92f"
 * entry[0].resource = composition-da-6921fe94b12d3679a96f1d5a8683a92f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6921fe94b12d3679a96f1d5a8683a92f"
+* entry[=].resource = mp6921fe94b12d3679a96f1d5a8683a92f
+                            
+                    
+Instance: bundlepackageleaflet-pt-6921fe94b12d3679a96f1d5a8683a92f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for voncento Package Leaflet for language pt"
+Description: "ePI document Bundle for voncento Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-6921fe94b12d3679a96f1d5a8683a92f"
+* entry[0].resource = composition-pt-6921fe94b12d3679a96f1d5a8683a92f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp6921fe94b12d3679a96f1d5a8683a92f"
@@ -1245,6 +1830,18 @@ RuleSet: 6921fe94b12d3679a96f1d5a8683a92fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-6921fe94b12d3679a96f1d5a8683a92f) // voncento pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

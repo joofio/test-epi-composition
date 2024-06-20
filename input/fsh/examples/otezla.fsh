@@ -1038,6 +1038,611 @@ hjemmeside http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-pt-8e4b99b58ac1302c60e1a3d75920f33f
+InstanceOf: CompositionUvEpi
+Title: "Composition for otezla Package Leaflet"
+Description:  "Composition for otezla Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8e4b99b58ac1302c60e1a3d75920f33f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - otezla"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto </p>
+<ol>
+<li>O que é Otezla e para que é utilizado </li>
+<li>O que precisa de saber antes de tomar Otezla </li>
+<li>Como tomar Otezla </li>
+<li>Efeitos indesejáveis possíveis </li>
+<li>Como conservar Otezla </li>
+<li>Conteúdo da embalagem e outras informações </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é otezla e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é otezla e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que é Otezla </p>
+<p>Otezla contém a substância ativa ‘apremilast’. Pertence a um grupo de medicamentos chamados 
+inibidores da fosfodiesterase 4 que ajudam a reduzir a inflamação. </p>
+<p>Para que é utilizado Otezla </p>
+<p>Otezla é utilizado para tratar adultos com as seguintes doenças: </p>
+<ul>
+<li>
+<p>Artrite psoriática ativa - se não puder utilizar outro tipo de medicamento chamado ‘Fármacos 
+Antirreumáticos Modificadores da Doença’ (DMARDs) ou se já experimentou um destes 
+medicamentos e o mesmo não funcionou. </p>
+</li>
+<li>
+<p>Psoríase em placas crónica moderada a grave - se não puder utilizar um dos seguintes 
+tratamentos ou se já experimentou um destes tratamentos e o mesmo não funcionou: </p>
+</li>
+<li>fototerapia - um tratamento em que certas áreas da pele são expostas a luz ultravioleta </li>
+<li>
+<p>terapêutica sistémica - um tratamento que afeta todo o corpo e não apenas uma área local, 
+tais como a ‘ciclosporina’, o ‘metotrexato’ ou o ‘psoraleno’. </p>
+</li>
+<li>
+<p>Doença de Behçet (DB) - para tratar as úlceras na boca que é um problema frequente para 
+pessoas com esta doença. </p>
+</li>
+</ul>
+<p>O que é a artrite psoriática </p>
+<p>A artrite psoriática é uma doença inflamatória das articulações, geralmente acompanhada de psoríase, 
+uma doença inflamatória da pele. </p>
+<p>O que é a psoríase em placas </p>
+<p>A psoríase é uma doença inflamatória da pele que pode causar manchas na pele que podem ser 
+vermelhas, escamosas, espessas, com comichão e dolorosas, podendo também afetar o couro cabeludo 
+e as unhas. </p>
+<p>O que é a doença de Behçet </p>
+<p>A doença de Behçet é uma doença inflamatória rara, que afeta muitas partes do corpo. O problema 
+mais frequente são úlceras na boca. </p>
+<p>Como funciona Otezla </p>
+<p>A artrite psoriática, a psoríase e a doença de Behçet são geralmente doenças que duram toda a vida e 
+para as quais não existe atualmente uma cura. Otezla funciona reduzindo a atividade de uma enzima 
+no corpo chamada ‘fosfodiesterase 4’, que está envolvida no processo de inflamação. Ao reduzir a 
+atividade desta enzima, Otezla pode ajudar a controlar a inflamação associada à artrite psoriática, à 
+psoríase e a doença de Behçet e, por conseguinte, reduzir os sinais e sintomas destas doenças. </p>
+<p>Na artrite psoriática, o tratamento com Otezla resulta numa melhoria das articulações inchadas e 
+dolorosas podendo melhorar a sua função física em geral. </p>
+<p>Na psoríase, o tratamento com Otezla resulta numa redução das placas psoriáticas na pele e outros 
+sinais e sintomas da doença. </p>
+<p>Na doença de Behçet, o tratamento com Otezla reduz o número de úlceras na boca e pode pará-las 
+completamente. Pode também reduzir a dor associada. </p>
+<p>Otezla também demonstrou melhorar a qualidade de vida nos doentes com psoríase, com artrite 
+psoriática ou com doença de Behçet. Isto significa que o impacto da sua doença nas atividades diárias, 
+relacionamentos e outros fatores deve ser menor do que anteriormente. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar otezla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar otezla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Otezla </p>
+<ul>
+<li>se tem alergia a apremilast ou a qualquer outro componente deste medicamento (indicados na 
+secção 6). </li>
+<li>se está grávida ou pensa que possa estar grávida. </li>
+</ul>
+<p>Advertências e precauções </p>
+<p>Fale com o seu médico ou farmacêutico antes de tomar Otezla. </p>
+<p>Depressão e pensamentos suicidas </p>
+<p>Informe o seu médico antes de iniciar Otezla se tiver depressão que esteja a piorar com pensamentos 
+suicidas.  </p>
+<p>Você ou o seu prestador de cuidados devem também informar o seu médico imediatamente sobre 
+quaisquer alterações no comportamento ou humor, sentimentos de depressão e quaisquer pensamentos 
+suicidas que possa ter após tomar Otezla. </p>
+<p>Problemas renais graves </p>
+<p>Se tiver problemas renais graves, a sua dose será diferente - ver secção 3.<br />
+Se estiver abaixo do peso </p>
+<p>Fale com o seu médico enquanto estiver a tomar Otezla se perder peso sem intenção de o fazer. </p>
+<p>Problemas intestinais </p>
+<p>Se tiver diarreia, náuseas ou vómitos graves, deve falar com o seu médico. </p>
+<p>Crianças e adolescentes </p>
+<p>Otezla não foi estudado em crianças e adolescentes e, por isso, não é recomendado para utilização em 
+crianças e adolescentes com 17 anos de idade e menos. </p>
+<p>Outros medicamentos e Otezla </p>
+<p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado recentemente, ou se vier a 
+tomar outros medicamentos. Isto inclui medicamentos obtidos sem receita médica e medicamentos à 
+base de plantas. Isto porque Otezla pode afetar o modo como outros medicamentos atuam. Da mesma 
+forma, alguns medicamentos podem afetar o modo como Otezla atua. </p>
+<p>Em particular, informe o seu médico ou farmacêutico antes de tomar Otezla se estiver a tomar 
+qualquer um dos seguintes medicamentos: </p>
+<ul>
+<li>
+<p>rifampicina - um antibiótico utilizado para a tuberculose </p>
+</li>
+<li>
+<p>fenitoína, fenobarbital e carbamazepina - medicamentos utilizados no tratamento de convulsões 
+ou epilepsia </p>
+</li>
+<li>
+<p>hipericão - um medicamento à base de ervas para a ansiedade e depressão ligeiras. </p>
+</li>
+</ul>
+<p>Gravidez e amamentação </p>
+<p>Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
+ou farmacêutico antes de tomar este medicamento. 
+Existe pouca informação sobre os efeitos de Otezla na gravidez. Não deve engravidar enquanto estiver 
+a tomar este medicamento e deve utilizar um método contracetivo eficaz durante o tratamento com 
+Otezla. Desconhece-se se este medicamento é excretado no leite humano. Não deve utilizar Otezla 
+enquanto estiver a amamentar. </p>
+<p>Condução de veículos e utilização de máquinas </p>
+<p>Otezla não tem efeito na capacidade de conduzir e utilizar máquinas. </p>
+<p>Otezla contém lactose </p>
+<p>Otezla contém lactose (um tipo de açúcar). Se foi informado pelo seu médico que tem intolerância a 
+alguns açúcares, contacte o seu médico antes de tomar este medicamento. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar otezla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar otezla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou 
+farmacêutico se tiver dúvidas. </p>
+<p>Quanto é que deve tomar </p>
+<ul>
+<li>
+<p>Quando começar a tomar Otezla pela primeira vez, receberá uma ‘embalagem de início de 
+tratamento’ que contém todas as doses conforme indicadas na tabela abaixo. </p>
+</li>
+<li>
+<p>A ‘embalagem de início de tratamento’ está claramente rotulada para assegurar que toma o 
+comprimido correto à hora correta </p>
+</li>
+<li>
+<p>O seu tratamento começará com uma dose mais baixa, aumentando gradualmente ao longo dos 
+primeiros 6 dias de tratamento. </p>
+</li>
+<li>
+<p>A ‘embalagem de início de tratamento’ incluirá também comprimidos suficientes para mais 
+8 dias com a dose recomendada (dias 7 a 14). </p>
+</li>
+<li>
+<p>A dose recomendada de Otezla é de 30 mg duas vezes por dia depois da fase de titulação estar 
+concluída - uma dose de 30 mg de manhã e uma dose de 30 mg à noite, com um intervalo de 
+aproximadamente 12 horas, com ou sem alimentos. </p>
+</li>
+<li>
+<p>Isto corresponde a uma dose diária total de 60 mg. Ao fim do dia 6 terá atingido esta dose 
+recomendada. </p>
+</li>
+<li>
+<p>Assim que tiver atingido a dose recomendada, receberá apenas os comprimidos na dosagem de 
+30 mg nas embalagens que lhe foram prescritas. Só terá de passar uma vez por esta fase de 
+aumento gradual da sua dose, mesmo se reiniciar o tratamento. </p>
+</li>
+</ul>
+<p>Dia 
+Dose da manhã 
+Dose da noite 
+Dose diária 
+total 
+Dia 1 
+10 mg (cor-de-rosa) 
+Não tome uma dose 
+10 mg 
+Dia 2 
+10 mg (cor-de-rosa) 
+10 mg (cor-de-rosa) 
+20 mg 
+Dia 3 
+10 mg (cor-de-rosa) 
+20 mg (castanho) 
+30 mg 
+Dia 4 
+20 mg (castanho) 
+20 mg (castanho) 
+40 mg 
+Dia 5 
+20 mg (castanho) 
+30 mg (bege) 
+50 mg 
+Dia 6 em diante 
+30 mg (bege) 
+30 mg (bege) 
+60 mg </p>
+<p>Pessoas com problemas graves de rins </p>
+<p>Se tem problemas graves de rins então a dose recomendada de Otezla é de 30 mg uma vez por dia 
+(dose da manhã). O seu médico discutirá consigo a forma de aumentar a sua dose quando começar a 
+tomar Otezla pela primeira vez. </p>
+<p>Como e quando tomar Otezla </p>
+<ul>
+<li>
+<p>Otezla é para via oral. </p>
+</li>
+<li>
+<p>Engula os comprimidos inteiros, de preferência com água. </p>
+</li>
+<li>
+<p>Pode tomar os comprimidos com ou sem alimentos. </p>
+</li>
+<li>
+<p>Tome Otezla mais ou menos à mesma hora todos os dias, um comprimido de manhã e um 
+comprimido à noite. </p>
+</li>
+</ul>
+<p>Se a sua doença não tiver melhorado ao fim de seis meses de tratamento, deve falar com o seu médico. </p>
+<p>Se tomar mais Otezla do que deveria </p>
+<p>Se tomar mais Otezla do que deveria, fale com um médico ou dirija-se imediatamente a um hospital. 
+Leve consigo a embalagem do medicamento e este folheto. </p>
+<p>Caso se tenha esquecido de tomar Otezla </p>
+<ul>
+<li>
+<p>No caso de se esquecer de uma dose de Otezla, tome-a assim que se lembrar. Se estiver próximo 
+da hora da sua dose seguinte, não tome a dose em falta. Tome a dose seguinte à hora habitual. </p>
+</li>
+<li>
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
+</li>
+</ul>
+<p>Se parar de tomar Otezla </p>
+<ul>
+<li>
+<p>Deve continuar a tomar Otezla até o seu médico lhe dizer para parar. </p>
+</li>
+<li>
+<p>Não pare de tomar Otezla sem falar primeiro com o seu médico. </p>
+</li>
+</ul>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
+farmacêutico. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos secundários, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Efeitos indesejáveis graves - depressão e pensamentos suicidas </p>
+<p>Informe imediatamente o seu médico, sobre quaisquer alterações no comportamento ou humor, 
+sentimentos de depressão, pensamentos suicidas ou comportamento suicida (isto é pouco frequente).  </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em 10 pessoas) </p>
+<ul>
+<li>
+<p>diarreia </p>
+</li>
+<li>
+<p>náuseas </p>
+</li>
+<li>
+<p>dor de cabeça </p>
+</li>
+<li>
+<p>infeções do trato respiratório superior tais como constipações, nariz com corrimento, sinusite </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas) </p>
+<ul>
+<li>
+<p>tosse </p>
+</li>
+<li>
+<p>dores nas costas </p>
+</li>
+<li>
+<p>vómitos </p>
+</li>
+<li>
+<p>sensação de cansaço </p>
+</li>
+<li>
+<p>dor de estômago </p>
+</li>
+<li>
+<p>perda de apetite </p>
+</li>
+<li>
+<p>evacuação frequente </p>
+</li>
+<li>
+<p>dificuldade em dormir (insónias) </p>
+</li>
+<li>
+<p>indigestão ou azia </p>
+</li>
+<li>
+<p>inflamação e inchaço das vias respiratórias nos seus pulmões (bronquite). </p>
+</li>
+<li>
+<p>constipação comum (nasofaringite) </p>
+</li>
+<li>
+<p>depressão </p>
+</li>
+<li>
+<p>enxaqueca </p>
+</li>
+<li>
+<p>dor de cabeça de tensão </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis pouco frequentes (podem afetar até 1 em cada 100 pessoas) </p>
+<ul>
+<li>
+<p>erupção cutânea </p>
+</li>
+<li>
+<p>urticária </p>
+</li>
+<li>
+<p>perda de peso </p>
+</li>
+<li>
+<p>reação alérgica </p>
+</li>
+<li>
+<p>hemorragia nos intestinos ou no estômago </p>
+</li>
+<li>
+<p>ideação ou comportamento suicida </p>
+</li>
+</ul>
+<p>Efeitos indesejáveis desconhecidos (a frequência não pode ser calculada a partir dos dados 
+disponíveis) </p>
+<ul>
+<li>reação alérgica grave (pode incluir inchaço da face, lábios, boca, língua ou garganta que poderá 
+levar a dificuldade ao respirar ou ao engolir) </li>
+</ul>
+<p>Se tiver 65 anos de idade ou mais, poderá correr um risco acrescido de complicações como diarreia, 
+náuseas e vómitos graves. Se os seus problemas intestinais se tornarem graves, deve falar com o seu 
+médico. </p>
+<p>Comunicação de efeitos indesejáveis </p>
+<p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar otezla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar otezla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Manter este medicamento fora da vista e do alcance das crianças. </p>
+</li>
+<li>
+<p>Não utilize este medicamento após o prazo de validade impresso no blister, na carteira ou na 
+embalagem exterior após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
+</li>
+<li>
+<p>Não conservar acima de 30°C. </p>
+</li>
+<li>
+<p>Não utilize este medicamento se verificar quaisquer danos ou sinais de adulteração da 
+embalagem do medicamento. </p>
+</li>
+</ul>
+<p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
+farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
+o ambiente. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Otezla </p>
+<p>A substância ativa é apremilast. </p>
+<ul>
+<li>
+<p>Otezla 10 mg comprimidos revestidos por película: cada comprimido revestido por película 
+contém 10 mg de apremilast. </p>
+</li>
+<li>
+<p>Otezla 20 mg comprimidos revestidos por película: cada comprimido revestido por película 
+contém 20 mg de apremilast. </p>
+</li>
+<li>
+<p>Otezla 30 mg comprimidos revestidos por película: cada comprimido revestido por película 
+contém 30 mg de apremilast. </p>
+</li>
+</ul>
+<p>Os outros componentes do núcleo do comprimido são celulose microcristalina, lactose monohidratada, 
+croscarmelose sódica e estearato de magnésio. </p>
+<ul>
+<li>
+<p>A película de revestimento contém álcool polivinílico, dióxido de titânio (E171), macrogol 
+(3350), talco, óxido de ferro vermelho (E172). </p>
+</li>
+<li>
+<p>O comprimido revestido por película de 20 mg também contém óxido de ferro amarelo (E172). </p>
+</li>
+<li>
+<p>O comprimido revestido por película de 30 mg também contém óxido de ferro amarelo (E172) e 
+óxido de ferro preto (E172). </p>
+</li>
+</ul>
+<p>Qual o aspeto de Otezla e conteúdo da embalagem </p>
+<p>Otezla 10 mg comprimido revestido por película é um comprimido revestido por película cor-de-rosa, 
+em forma de losango, com “APR" gravado num dos lados e “10" no lado oposto. 
+Otezla 20 mg comprimido revestido por película é um comprimido revestido por película castanho, em 
+forma de losango, com “APR" gravado num dos lados e “20" no lado oposto. 
+Otezla 30 mg comprimido revestido por película é um comprimido revestido por película bege, em 
+forma de losango, com “APR" gravado num dos lados e “30" no lado oposto. </p>
+<p>Apresentações </p>
+<ul>
+<li>
+<p>A embalagem de iniciação do tratamento é uma carteira dobrada que contém 27 comprimidos 
+revestidos por película: 4 x 10 mg comprimidos, 4 x 20 mg comprimidos e 19 x 30 mg 
+comprimidos. </p>
+</li>
+<li>
+<p>A embalagem padrão mensal contém 56 x 30 mg comprimidos revestidos por película. </p>
+</li>
+<li>
+<p>A embalagem padrão trimestral contém 168 x 30 mg comprimidos revestidos por película. </p>
+</li>
+</ul>
+<p>Titular da Autorização de Introdução no Mercado e Fabricante 
+Amgen Europe B.V. 
+Minervum 7061<br />
+4817 ZK Breda 
+Países Baixos </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+Países Baixos  </p>
+<p>Fabricante 
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Bélgica </p>
+<p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado. </p>
+<p>België/Belgique/Belgien 
+s.a. Amgen n.v. 
+Tel/Tél: +32 (0)2 7752 
+Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7 
+България 
+Амджен България ЕООД 
+Тел.: +359 (0)2 424 7 
+Luxembourg/Luxemburg 
+s.a. Amgen<br />
+Belgique/Belgien 
+Tel/Tél: +32 (0)2 7752 
+Česká republika 
+Amgen s.r.o. 
+Tel: +420 221 773<br />
+Magyarország 
+Amgen Kft. 
+Tel.: +36 1 35 44<br />
+Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617 
+Malta 
+Amgen B.V. 
+The Netherlands 
+Tel: +31 (0)76 5732 
+Deutschland 
+AMGEN GmbH 
+Tel: +49 89 1490 
+Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732 
+Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09 
+Norge 
+Amgen AB 
+Tel: +47 23308 
+Ελλάδα 
+Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε.<br />
+Τηλ: +30 210 3447Österreich 
+Amgen GmbH<br />
+Tel: +43 (0)1 50<br />
+España 
+Amgen S.A. 
+Tel: +34 93 600 18 60  </p>
+<p>Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3 
+France 
+Amgen S.A.S. 
+Tél: +33 (0)9 69 363<br />
+Portugal 
+Amgen Biofarmacêutica, Lda. 
+Tel: +351 21 4220 </p>
+<p>Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57<br />
+România 
+Amgen România SRL 
+Tel: +4021 527 3000   </p>
+<p>Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527 
+Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2 321 114<br />
+Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241 
+Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900 
+Kύπρος 
+C.A. Papaellinas Ltd 
+Τηλ: +357 22741<br />
+Sverige 
+Amgen AB<br />
+Tel: +46 (0)8 6951 
+Latvija 
+Amgen Switzerland AG Rīgas filiāle 
+Tel: +371 257 25 
+United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420 </p>
+<p>Este folheto informativo foi revisto pela última vez em  </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação detalhada e atualizada sobre este medicamento através da leitura do código 
+QR na embalagem exterior com um smartphone. A mesma informação também está disponível no 
+seguinte URL: www.otezla-eu-pil.com. </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -1079,6 +1684,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-8e4b99b58ac1302c60e1a3d75920f33f"
 * entry[0].resource = composition-da-8e4b99b58ac1302c60e1a3d75920f33f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8e4b99b58ac1302c60e1a3d75920f33f"
+* entry[=].resource = mp8e4b99b58ac1302c60e1a3d75920f33f
+                            
+                    
+Instance: bundlepackageleaflet-pt-8e4b99b58ac1302c60e1a3d75920f33f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for otezla Package Leaflet for language pt"
+Description: "ePI document Bundle for otezla Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-8e4b99b58ac1302c60e1a3d75920f33f"
+* entry[0].resource = composition-pt-8e4b99b58ac1302c60e1a3d75920f33f
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp8e4b99b58ac1302c60e1a3d75920f33f"
@@ -1180,6 +1807,18 @@ RuleSet: 8e4b99b58ac1302c60e1a3d75920f33fListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-8e4b99b58ac1302c60e1a3d75920f33f) // otezla pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

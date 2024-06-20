@@ -564,6 +564,287 @@ klargøring. Bortskaf eventuel ikke anvendt opløsning efter lokale retningslinj
 
 
 
+Instance: composition-pt-e3808b9785653fa349cd23efa0847a72
+InstanceOf: CompositionUvEpi
+Title: "Composition for artesunate Package Leaflet"
+Description:  "Composition for artesunate Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe3808b9785653fa349cd23efa0847a72)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - artesunate"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto: 
+1. O que é Artesunato Amivas e para que é utilizado 
+2. O que precisa de saber antes de lhe ser administrado Artesunato Amivas 
+3. Como é administrado Artesunato Amivas 
+4. Efeitos indesejáveis possíveis 
+5. Como conservar Artesunato Amivas 
+6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é artesunate e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é artesunate e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Artesunato Amivas contém a substância ativa artesunato. Artesunato Amivas é utilizado no tratamento 
+da malária grave em adultos e crianças. </p>
+<p>Após o tratamento com Artesunato Amivas, o seu médico concluirá o seu tratamento para a malária 
+com um esquema de medicação antimalárica que pode ser tomado por via oral. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar artesunate"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar artesunate"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Artesunato Amivas 
+- se tem alergia ao artesunato, a qualquer outro tratamento antimalárico que contenha uma 
+artemisinina (por ex., arteméter ou di-hidroartemisinina) ou a qualquer outro componente deste 
+medicamento (indicados na secção 6). </p>
+<p>Advertências e precauções 
+Poderá desenvolver anemia, um número reduzido de glóbulos vermelhos ou outras alterações 
+sanguíneas após o tratamento com este medicamento. Podem ocorrer algumas alterações nas 
+quantidades de células sanguíneas durante o tratamento, que normalmente recuperam após a 
+interrupção do tratamento para a malária. No entanto, alguns indivíduos desenvolvem anemia grave 
+que pode ocorrer até várias semanas após a conclusão do tratamento para a malária. Na maioria dos 
+casos, a anemia recupera sem qualquer tratamento específico. Num pequeno número de casos, a 
+anemia pode ser grave e exigir transfusão de sangue. O seu médico irá realizar regularmente análises 
+ao sangue, que poderão incluir um teste de antiglobulina direto para determinar se é necessário 
+tratamento, p. ex., com corticosteroides, e monitorizar a sua recuperação durante 4 semanas após a 
+conclusão do seu tratamento para a malária. É importante comparecer a consultas para realizar estes 
+exames. Fale com o seu médico para mais informações. </p>
+<p>Outros medicamentos e Artesunato Amivas 
+Informe o seu médico se estiver a tomar, se tiver tomado recentemente, ou se é possível que venha a 
+tomar outros medicamentos. Tal inclui medicamentos não sujeitos a receita médica. </p>
+<p>Alguns medicamentos não devem ser tomados com artesunato, pois podem reduzir o seu efeito sobre a 
+malária. São disso exemplo: </p>
+<ul>
+<li>
+<p>rifampicina (para tratar infeções bacterianas) </p>
+</li>
+<li>
+<p>ritonavir, nevirapina (medicamento anti-VIH) </p>
+</li>
+<li>
+<p>carbamazepina, fenitoína (para tratar a epilepsia) </p>
+</li>
+</ul>
+<p>Alguns medicamentos podem aumentar os níveis sanguíneos de artesunato e aumentar o risco de 
+efeitos indesejáveis. São disso exemplo: </p>
+<ul>
+<li>
+<p>diclofenac (para tratar a dor ou a inflamação); </p>
+</li>
+<li>
+<p>axitinib, vandetanib e imatinib (utilizados no tratamento de determinados cancros) </p>
+</li>
+</ul>
+<p>O artesunato pode aumentar ou diminuir os níveis sanguíneos de outros medicamentos. O seu médico 
+irá aconselhá-lo sobre a toma de quaisquer medicamentos durante o tratamento com artesunato. </p>
+<p>Gravidez e amamentação 
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, deve falar com o seu 
+médico antes de lhe ser administrado este medicamento. </p>
+<p>O seu médico discutirá consigo o potencial risco de tomar Artesunato Amivas durante a gravidez. A 
+utilização no primeiro trimestre da gravidez não é recomendada, a menos que o seu médico decida que 
+o benefício do tratamento para si é superior ao risco para o seu feto. Nas fases mais tardias da 
+gravidez, só deve tomar Artesunato Amivas se o seu médico considerar que não existem 
+medicamentos alternativos adequados. </p>
+<p>Se estiver grávida ou engravidar durante o tratamento com este medicamento, o médico comunicará a 
+sua gravidez ao fabricante, que mantém um registo para compreender os eventuais efeitos do 
+tratamento para a gravidez e para o bebé. </p>
+<p>O leite materno pode apresentar vestígios deste medicamento. Não se sabe se estes podem ter qualquer 
+efeito num bebé amamentado. Se está a planear amamentar, fale com o seu médico sobre se os 
+benefícios da amamentação para si e para o seu bebé superam os potenciais riscos. </p>
+<p>Condução de veículos e utilização de máquinas 
+Não deve conduzir nem utilizar máquinas se sentir cansaço ou tonturas. </p>
+<p>Artesunato Amivas contém sódio 
+Este medicamento contém 193 mg de sódio (principal componente do sal de mesa/cozinha) em cada 
+dose única. Isto é equivalente a pouco menos de 10 % da dose máxima diária recomendada de sódio 
+na dieta de um adulto. 
+Uma vez que a primeira e a segunda doses são recomendadas com 12 horas de intervalo, esta 
+fornecerá 386 mg de sódio (cerca de 20 % da sua dose diária máxima). </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar artesunate"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar artesunate"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Utilize este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico se tiver 
+dúvidas. </p>
+<p>Este medicamento ser-lhe-á administrado por injecção lenta diretamente numa veia. O seu médico ou 
+enfermeiro injetar-lhe-ão este medicamento. </p>
+<p>A dose do medicamento que lhe é administrada é baseada no seu peso; o seu médico ou enfermeiro 
+determinarão a quantidade correta que lhe deve ser administrada. A dose recomendada é de 2,4 mg por 
+kg de peso corporal. A dose por kg é a mesma para adultos e crianças de todas as idades. </p>
+<p>Ser-lhe-ão administradas pelo menos três doses de Artesunato Amivas, sendo cada dose administrada 
+com um intervalo de 12 horas. Após três doses, se ainda não puder tomar medicamentos por via oral, 
+ser-lhe-á administrada uma dose de Artesunato Amivas de 24 em 24 horas (uma vez por dia) até que 
+possa receber um tratamento diferente para a malária por via oral. </p>
+<p>É muito importante que complete o ciclo completo do tratamento antimalárico tomado por via oral 
+após ter recebido pelo menos três doses de Artesunato Amivas por injeção. </p>
+<p>Se lhe for administrado mais Artesunato Amivas do que o devido 
+Uma vez que este medicamento lhe será administrado num hospital, é pouco provável que lhe seja 
+administrado em excesso. Informe o seu médico se tiver alguma preocupação. Os sinais de 
+sobredosagem incluem convulsões, fezes de cor escura, análises ao sangue que mostram contagens 
+baixas de células sanguíneas, fraqueza, fadiga, febre e náuseas. O seu médico ajudá-lo-á a tratar estes 
+sintomas se lhe for administrada uma quantidade excessiva deste medicamento. </p>
+<p>Caso se tenha esquecido de uma dose de Artesunato Amivas 
+Uma vez que este medicamento lhe será administrado num hospital, a gestão do seu tratamento será 
+feita pelo seu médico ou enfermeiro e não é provável que uma dose seja esquecida. Se uma dose for 
+adiada, o seu médico ou enfermeiro administrá-la-ão na primeira oportunidade e continuarão a 
+administrar as doses seguintes com um intervalo de 12 ou 24 horas. </p>
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas. </p>
+<p>Se sentir algum dos seguintes efeitos indesejáveis, procure ajuda médica imediatamente: 
+- dificuldade em respirar ou engolir, inchaço da face, boca ou garganta. Estes sinais indicam que 
+pode estar a ter uma reação alérgica grave. A frequência de reações alérgicas muito graves com 
+perda de consciência é desconhecida. </p>
+<p>Efeitos indesejáveis muito frequentes (podem afetar mais de 1 em cada 10 pessoas) 
+falta de glóbulos vermelhos saudáveis, o que pode fazer com que se sinta cansado e fraco (anemia); 
+esta situação pode desenvolver-se pelo menos 7 dias ou por vezes várias semanas após a conclusão do 
+tratamento. 
+Efeitos indesejáveis frequentes (podem afetar até 1 em cada 10 pessoas) 
+- inflamação de uma veia 
+- alteração do paladar 
+- aumento da temperatura corporal ou febre 
+- urina de cor amarela muito escura ou castanho avermelhada 
+- função renal reduzida, incluindo baixo fluxo de urina; 
+- tendência para formação de nódoas negras ou coagulação lenta de cortes ou feridas. 
+- alteração dos níveis de enzimas do fígado detetados nas análises ao sangue 
+- amarelecimento da pele (icterícia) 
+- diarreia; 
+- dor de barriga 
+- vómitos 
+- batimento cardíaco lento 
+- tensão arterial baixa 
+- tosse 
+- rinite (nariz entupido e/com corrimento) 
+- sensação de tontura ou fraqueza 
+- dor de cabeça </p>
+<p>Pouco frequentes (afetam menos de 1 em cada 100 doentes) 
+- cansaço 
+- enjoo 
+- prisão de ventre 
+- dor no local da injeção 
+- erupção na pele generalizada dolorosa com bolhas especialmente junto da boca, do nariz, dos 
+olhos e dos órgãos genitais, sintomas do tipo gripal durante vários dias (síndrome de Stevens-
+Johnson ou SSJ); 
+- perda do apetite 
+- erupção na pele 
+- comichão 
+- inchaço e vermelhidão da face 
+- vermelhidão </p>
+<p>Desconhecida (a frequência não pode ser calculada a partir dos dados disponíveis) 
+- uma ausência de glóbulos vermelhos saudáveis causada pelo seu sistema imunitário (anemia 
+hemolítica imune) 
+- atividade elétrica anormal do seu coração que afeta o seu ritmo (eletrocardiograma com QT 
+prolongado) </p>
+<p>Comunicação de efeitos indesejáveis 
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
+indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
+comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
+medicamento. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar artesunate"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar artesunate"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mantenha este medicamento fora da vista e do alcance das crianças. </p>
+<p>Não utilize este medicamento após o prazo de validade impresso no rótulo da embalagem exterior a 
+seguir a «VAL». </p>
+<p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
+<p>A solução reconstituída tem de ser utilizada no prazo de 1 hora e meia após a preparação. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual é a composição de Artesunato Amivas 
+- A substância ativa é o artesunato. 
+- Cada frasco para injetáveis de pó contém 110 mg de artesunato. 
+- Cada frasco para injetáveis de solvente para reconstituição contém 12 ml de tampão fosfato de 
+sódio 0,3 M. 
+- Os outros componentes do solvente tampão de fosfato de sódio 0,3 M são fosfato monossódico 
+mono-hidratado, fosfato dissódico di-hidratado (ver secção 2 «Artesunato Amivas contém 
+sódio») e ácido fosfórico concentrado (para ajuste do pH), hidróxido de sódio (para ajuste do 
+pH) e água para preparações injetáveis. </p>
+<p>Após reconstituição com 11 ml do solvente fornecido, a solução injetável contém 10 mg de artesunato 
+por ml. </p>
+<p>Qual o aspeto de Artesunato Amivas e conteúdo da embalagem 
+Artesunato Amivas 110 mg pó e solvente para solução injetável. 
+O pó é um pó cristalino fino, branco ou quase branco, num frasco para injetáveis de vidro. 
+O solvente é um líquido transparente e incolor, num frasco para injetáveis de vidro. </p>
+<p>Cada embalagem contém 2 ou 4 frascos para injetáveis de Artesunato Amivas pó e 2 ou 4 frascos para 
+injetáveis de solvente tampão fosfato de sódio. </p>
+<p>É possível que não sejam comercializadas todas as apresentações. </p>
+<p>Titular da Autorização de Introdução no Mercado 
+Amivas Ireland Ltd, Suite 5, Second Floor, Station House, Railway Square, Waterford, Irlanda </p>
+<p>Fabricante 
+MIAS Pharma Limited, Suite 1, Stafford House, Strand Road, Portmarnock, Co. Dublin, Irlanda </p>
+<p>Este folheto foi revisto pela última vez em </p>
+<p>Outras fontes de informação </p>
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -605,6 +886,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-e3808b9785653fa349cd23efa0847a72"
 * entry[0].resource = composition-da-e3808b9785653fa349cd23efa0847a72
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe3808b9785653fa349cd23efa0847a72"
+* entry[=].resource = mpe3808b9785653fa349cd23efa0847a72
+                            
+                    
+Instance: bundlepackageleaflet-pt-e3808b9785653fa349cd23efa0847a72
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for artesunate Package Leaflet for language pt"
+Description: "ePI document Bundle for artesunate Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-e3808b9785653fa349cd23efa0847a72"
+* entry[0].resource = composition-pt-e3808b9785653fa349cd23efa0847a72
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mpe3808b9785653fa349cd23efa0847a72"
@@ -706,6 +1009,18 @@ RuleSet: e3808b9785653fa349cd23efa0847a72ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-e3808b9785653fa349cd23efa0847a72) // artesunate pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 

@@ -913,6 +913,319 @@ rekonstituerede opløsning, skal bortskaffes i henhold til lokale retningslinjer
 
 
 
+Instance: composition-pt-44ebb648c2633169fc2072c9adc62d64
+InstanceOf: CompositionUvEpi
+Title: "Composition for ondexxya Package Leaflet"
+Description:  "Composition for ondexxya Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp44ebb648c2633169fc2072c9adc62d64)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
+
+
+* title = "TEST PURPOSES ONLY - ondexxya"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #pt
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. FOLHETO INFORMATIVO"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. FOLHETO INFORMATIVO"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Folheto informativo: Informação para o utilizador"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Folheto informativo: Informação para o utilizador"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "O que contém este folheto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "O que contém este folheto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O que contém este folheto:
+1. O que é Ondexxya e para que é utilizado
+2. O que precisa de saber antes de utilizar Ondexxya
+3. Como utilizar Ondexxya
+4. Efeitos indesejáveis possíveis
+5. Como conservar Ondexxya
+6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. O que é ondexxya e para que é utilizado"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. O que é ondexxya e para que é utilizado"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ondexxya contém a substância ativa andexanet alfa. Esta reverte os efeitos de determinados 
+anticoagulantes denominados inibidores do fator Xa (apixabano ou rivaroxabano). Os inibidores do 
+fator Xa são administrados para prevenir coágulos nos vasos sanguíneos. O seu médico poderá decidir 
+administrar-lhe Ondexxya para reverter rapidamente os efeitos do anticoagulante no caso de uma 
+situação de hemorragia não controlada ou com risco de vida.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. O que precisa de saber antes de tomar ondexxya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. O que precisa de saber antes de tomar ondexxya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não utilize Ondexxya
+
+se tem alergia ao andexanet alfa ou a qualquer outro componente deste medicamento (indicados 
+na secção 6).
+
+se tem alergia às proteínas de hamster.
+
+se está a receber heparina.
+Advertências e precauções
+A reversão do efeito de um inibidor do fator Xa com Ondexxya pode aumentar o risco de coágulos 
+sanguíneos. Depois do tratamento com Ondexxya, o seu médico irá decidir quando deve reiniciar a 
+terapêutica anticoagulante.
+Um efeito pró-coagulante independente do andexanet alfa poderá constituir um risco adicional de 
+desenvolvimento de trombose.
+Se tiver efeitos indesejáveis quando Ondexxya lhe é administrado por perfusão (gota a gota), o seu 
+médico poderá decidir abrandar ou pausar o seu tratamento. O seu médico poderá administrar-lhe um 
+medicamento anti-histamínico para ajudar com quaisquer efeitos indesejáveis (ver secção 4).
+27
+Se tiver uma cirurgia planeada que necessite de anticoagulação com heparina, Ondexxya deve ser 
+evitado.
+Crianças e adolescentes
+Não existe informação sobre a utilização de Ondexxya em crianças e adolescentes.
+Outros medicamentos e Ondexxya
+Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros 
+medicamentos.
+Este medicamento foi concebido para reverter apenas os efeitos dos medicamentos inibidores do fator 
+Xa. É improvável que Ondexxya influencie o efeito de outros medicamentos ou que outros 
+medicamentos influenciem Ondexxya.
+Caso a anticoagulação com heparina se torne necessária, o tratamento com Ondexxya deve ser evitado. 
+Ondexxya provoca insensibilidade à heparina.
+Gravidez e amamentação
+Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico.
+Ondexxya não é recomendado durante a gravidez ou se tiver o potencial para engravidar e não estiver 
+a utilizar métodos contracetivos.
+Não amamente o seu bebé enquanto estiver a tomar este medicamento. Desconhece-se se andexanet 
+alfa é excretado no leite humano.
+Condução de veículos e utilização de máquinas
+É improvável que este medicamento afete a sua capacidade de conduzir e utilizar máquinas.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. Como tomar ondexxya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. Como tomar ondexxya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Este medicamento destina-se apenas a uso hospitalar.
+O seu médico ou enfermeiro irá administrar-lhe este medicamento por injeção ou perfusão numa veia.
+O seu médico ou enfermeiro irá calcular a dose de que necessita deste medicamento. Esta baseia-se no 
+medicamento anticoagulante específico que está a tomar, bem como na dose e no tempo decorrido 
+desde a sua última dose do medicamento anticoagulante.
+Depois de lhe ter sido administrado Ondexxya, o seu médico irá decidir quando deve reiniciar a sua 
+terapêutica anticoagulante.
+Instruções pormenorizadas para o seu médico ou enfermeiro sobre como administrar Ondexxya 
+encontram-se no final deste folheto informativo (ver “Instruções de manuseamento").
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Efeitos indesejáveis possíveis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Efeitos indesejáveis possíveis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
+manifestem em todas as pessoas.
+28
+Lista de efeitos indesejáveis observados em pessoas com hemorragias 
+Frequentes (podem afetar até 1 em 10 pessoas)
+
+acidente vascular cerebral
+
+ataque cardíaco
+
+coágulo de sangue na perna, braço, pulmão ou cérebro
+
+febre
+Pouco frequentes (podem afetar até 1 em 100 pessoas)
+
+mini acidente vascular cerebral
+
+paragem cardíaca
+
+sinais/sintomas de reações relacionadas com a perfusão, como arrepios, tensão arterial elevada, 
+falta de ar, confusão ou agitação.
+Comunicação de efeitos indesejáveis
+Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
+folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
+diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. Como conservar ondexxya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. Como conservar ondexxya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Este medicamento é conservado no hospital, sendo estas instruções destinadas apenas à equipa 
+hospitalar.
+Manter este medicamento fora da vista e do alcance das crianças.
+Não utilize este medicamento após o prazo de validade impresso no frasco para injetáveis e na 
+embalagem exterior após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
+Conservar no frigorífico (2 °C a 8 °C).
+Não congelar.
+Uma vez reconstituído, Ondexxya deve ser utilizado imediatamente.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Conteúdo da embalagem e outras informações"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Conteúdo da embalagem e outras informações"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qual a composição de Ondexxya
+
+A substância ativa é o andexanet alfa.
+
+Os outros componentes são base tris, cloridrato de tris, cloridrato de L-arginina, sacarose, 
+manitol e polissorbato 80.
+Qual o aspeto de Ondexxya e conteúdo da embalagem
+Ondexxya é fornecido em frascos para injetáveis de vidro para perfusão, na forma de pó para solução 
+para perfusão branco a esbranquiçado, que é reconstituído (dissolvido) antes da utilização. A solução 
+reconstituída é uma solução transparente, incolor ou ligeiramente amarela. 
+Cada embalagem contém quatro ou cinco frascos para injetáveis.
+É possível que não sejam comercializadas todas as apresentações.
+Titular da Autorização de Introdução no Mercado
+AstraZeneca AB
+SE-151 85 Södertälje
+29
+Suécia
+Fabricante
+Alexion Pharma International Operations Limited
+Alexion Dublin Manufacturing Facility
+College Business and Technology Park
+Blanchardstown Rd North 
+Dublin D15 RIrlanda
+Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular 
+da Autorização de Introdução no Mercado:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska 
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+30
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland) 
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Este folheto foi revisto pela última vez em.
+Foi concedida a este medicamento uma «Autorização de Introdução no Mercado condicional». Isto 
+significa que se aguarda mais informação sobre este medicamento.
+A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
+sobre este medicamento e este folheto será atualizado se necessário.
+Outras fontes de informação
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+
+
+
 
 
                     
@@ -954,6 +1267,28 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-da-44ebb648c2633169fc2072c9adc62d64"
 * entry[0].resource = composition-da-44ebb648c2633169fc2072c9adc62d64
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp44ebb648c2633169fc2072c9adc62d64"
+* entry[=].resource = mp44ebb648c2633169fc2072c9adc62d64
+                            
+                    
+Instance: bundlepackageleaflet-pt-44ebb648c2633169fc2072c9adc62d64
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ondexxya Package Leaflet for language pt"
+Description: "ePI document Bundle for ondexxya Package Leaflet for language pt"
+Usage: #example
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #pt
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-pt-44ebb648c2633169fc2072c9adc62d64"
+* entry[0].resource = composition-pt-44ebb648c2633169fc2072c9adc62d64
 
 // MPD
 * entry[+].fullUrl = "MedicinalProductDefinition/mp44ebb648c2633169fc2072c9adc62d64"
@@ -1055,6 +1390,18 @@ RuleSet: 44ebb648c2633169fc2072c9adc62d64ListRuleset
   * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
   * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
   * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-pt-44ebb648c2633169fc2072c9adc62d64) // ondexxya pt
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "pt"
 
 
 
